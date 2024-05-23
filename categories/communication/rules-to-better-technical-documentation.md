@@ -33,7 +33,6 @@ index:
 - use-will-not-should
 - user-authentication-terms
 - use-try-again-instead-of-retry
-- spell-aka-correctly
 - commas-and-full-stops-always-should-have-1-space-after-them
 - use-lowercase-after-a-dash
 - refer-consistently-throughout-your-document

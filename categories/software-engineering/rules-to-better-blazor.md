@@ -8,7 +8,6 @@ consulting: https://ssw.com.au/consulting/blazor
 index:
   # - why-choose-blazor
   - blazor-learning-resources
-  - decouple-API-from-blazor-components
   - share-common-types-and-logic
   # - the-best-ui-frameworks-for-blazor
   # - the-best-approach-to-state-management

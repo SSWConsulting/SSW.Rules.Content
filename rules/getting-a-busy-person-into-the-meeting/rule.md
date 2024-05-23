@@ -8,7 +8,8 @@ authors:
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson
 related:
-    - do-you-know-what-happens-at-a-sprint-review-meeting
+  - do-you-know-what-happens-at-a-sprint-review-meeting
+  - start-and-finish-on-time
 redirects: []
 created: 2021-12-16T23:49:23.696Z
 guid: 2c6e0175-0723-4f3b-81c8-33260f625a46

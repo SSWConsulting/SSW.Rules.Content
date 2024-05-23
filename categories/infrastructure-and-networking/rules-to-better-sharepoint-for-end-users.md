@@ -13,8 +13,9 @@ index:
 - do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
 - rename-teams-channel-folder
 - change-link-sharing-default-behaviour
-- consistent-sharepoint-site
+- consistent-sharepoint-sites
 - no-checked-out-files
+- word-documents-vs-sharepoint-wiki-pages
 
 ---
 

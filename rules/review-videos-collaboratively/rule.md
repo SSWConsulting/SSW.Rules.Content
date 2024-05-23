@@ -11,6 +11,9 @@ authors:
 related: []
 created: 2023-03-06T05:51:57.440Z
 guid: 5d66af76-53e0-43da-9bd5-23dcab2c3892
+redirects:
+  - post-production-review-videos-collaboratively
+
 ---
 
 So you have just finished that sweet video edit and you are now ready & excited to receive feedback from your team and or client. You just sent the link to the video to get "Test Pleased" and now the struggle begins with issues like:

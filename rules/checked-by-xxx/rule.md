@@ -32,6 +32,9 @@ Simply ask for that person to come over and check it on your computer or call th
 
 ![Figure: Consider this the "four-eye principle" (also known as the "two-person rule" or "dual control")](checked-by.png)
 
+`youtube: https://www.youtube.com/embed/qz2PcNRA3F4`
+**Video: Talk before emailing - are you gold or silver? | [Adam Cogan](https://ssw.com.au/people/adam-cogan/) & [Andrew Harris](https://ssw.com.au/people/andrew-harris/) | SSW Rules (6 min)**
+
 Scenarios where having someone review your emails is recommended:
 
 * You are new to a company

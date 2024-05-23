@@ -22,7 +22,7 @@ On the ExternalAuthProvider side, users are typically recognised by a unique Sub
 The above discrepancy creates the need to effectively map or correlate the the user with a Subject Id from the ExternalAuthProvider to the corresponding user within the app's user store.
 
 ::: greybox
-**🔥 Warning:**
+**⚠️ Warning:**
 The approach described here assumes that the user's email address is verified. With some external providers, such as Apple, you can trust that the email is verified. For others, such as Microsoft, the email property can come from a freely editable field and should be treated as unverified. Email addresses from unverified providers should be verified within your application. You should always ensure a user owns an email address before relying on it to grant access to data.
 :::
 

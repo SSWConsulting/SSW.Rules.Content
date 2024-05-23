@@ -24,6 +24,7 @@ index:
   - do-you-estimate-business-value
   - technical-overview
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
+  - summary-recording-sprint-reviews
   - sprint-forecast
   - sprint-review-retro-email
   - meeting-do-you-update-your-tasks-before-the-daily-scrum
@@ -66,6 +67,7 @@ index:
   - useful-information-on-changes
   - backlog-refinement-meeting
   - acceptance-criteria
+  - do-you-assign-severity-levels
 ---
 
 Ready to revolutionize your project management? Check [SSW's Scrum and Agile Methodologies consulting page](https://www.ssw.com.au/consulting/scrum).

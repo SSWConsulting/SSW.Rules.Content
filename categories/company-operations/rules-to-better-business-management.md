@@ -9,4 +9,5 @@ index:
   - empower-employees
   - process-approvals-in-a-timely-manner
   - employee-kpis
+  - monthly-stakeholder-video
 ---

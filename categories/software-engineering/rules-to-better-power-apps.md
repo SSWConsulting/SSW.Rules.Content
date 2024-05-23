@@ -9,6 +9,7 @@ index:
 - hundreds-of-connectors-for-power-apps
 - training-templates-to-help-you-learn-power-apps
 - claim-your-power-apps-community-plan
+- use-source-control-for-powerapps
 - when-to-use-power-automate-vs-internal-workflow-engine
 - place-you-components-in-a-component-library
 - use-components-to-create-custom-controls

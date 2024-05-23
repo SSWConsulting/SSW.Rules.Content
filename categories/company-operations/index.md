@@ -22,7 +22,7 @@ index:
   - rules-to-better-business-intelligence
   - rules-to-better-search
   - rules-to-better-health-and-exercise-in-the-workplace
-  - rules-to-better-flights
+  - rules-to-better-travel
   - rules-to-better-research-and-development
   - rules-to-better-brainstorming
   - rules-to-better-remote-work
