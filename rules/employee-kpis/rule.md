@@ -26,7 +26,7 @@ As the company grows and more people join, 2 problems start to occur:
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
-Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. However, everybody brings much more to their companies than just statistics, KPIs are just a conversation starter.
+Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. However, everybody brings much more to their companies than just statistics; KPIs are just a conversation starter.
 
 KPIs also lead to efficient, focused Annual Employee Reviews.
 
