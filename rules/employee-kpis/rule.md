@@ -57,6 +57,6 @@ Qualitative KPIs provide more room to make a subjective judgment.
 
 There's lots of metrics that can be measured, and the right ones are going to depend on what is important to the organization.
 
-For example, SSW is a consulting company and these are the metrics for an consultant. [template KPIs.](https://github.com/SSWConsulting/SSW.EmployeeKPIs)  
+For example, SSW is a consulting company and these are the metrics for a consultant. [template KPIs.](https://github.com/SSWConsulting/SSW.EmployeeKPIs)  
 [Tina](https://tina.io) is a product company and there would be different metrics for an engineer.
 <!-- TODO: Add link to Tina KPIs -->
