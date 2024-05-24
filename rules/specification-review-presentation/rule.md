@@ -1,6 +1,7 @@
 ---
 type: rule
-title: Do you effectively present the outcomes at the Specification Review presentation?
+title: Do you effectively present the outcomes at the Specification Review
+  presentation?
 uri: specification-review-presentation
 authors:
   - title: Adam Cogan
@@ -12,7 +13,7 @@ authors:
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
 related: []
-redirects: 
+redirects:
   - spec-do-you-effectively-present-the-outcomes-at-the-specification-review-presentation
 created: 2009-03-18T02:12:35.000Z
 archivedreason: null
@@ -54,11 +55,11 @@ Figure: Good example – this is an appointment with a specific time for the nex
 
 * **Option C** - PowerPoint presentation (if they are the decision maker, and they don't want a doc)
 
+* **Option D** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. PointBank <https://sswconsulting.github.io/PointBank/>)
+
 ::: good  
 ![Figure: Good example - Export your PowerPoint presentation as a video](pptx-to-video.png)  
 :::
-
-* **Option D** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. PointBank <https://sswconsulting.github.io/PointBank/>)
 
 ::: greybox
 **Note:** Make sure to name your video according to [including version numbers in your file](/post-production-do-you-use-a-version-number-on-your-videos). Publish your video to YouTube afterwards so you can easily share it with colleagues and clients.
