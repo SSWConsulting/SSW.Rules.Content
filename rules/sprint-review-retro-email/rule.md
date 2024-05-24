@@ -173,3 +173,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 ::: good
 Figure: Good example - Template for Sprint Review/Retro email
 :::
+
+::: good
+![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
+:::

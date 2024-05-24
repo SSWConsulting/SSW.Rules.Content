@@ -12,6 +12,7 @@ index:
 - power-automate-flows-convert-timezone
 - automation-tools
 - power-platform-versioning
+- power-platform-certifications
 
 ---
 

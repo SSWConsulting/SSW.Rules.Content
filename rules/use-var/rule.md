@@ -10,33 +10,22 @@ guid: edd8d397-3651-47c0-8737-fa38152558d1
 
 ---
 
-::: todo
-TODO: Byrden - needs a new home (category) and a complete rewrite  
-Old content from Better LINQ on .ASPX pasted below
-:::
-            
+In C# the "var" keyword can be used instead of providing an explicit type when declaring a variable. The type is then inferred from the initial assignment of the variable.
 <!--endintro-->
+It is just a short hand to save developers from typing out the type of a variable.
 
-Despite what it looks like, the var keyword is not a throwback to the dark ages where we did not have strongly typed variables. It is just a short hand to save developers from typing out the type of a variable.
-
-```csharp
-IQueryable<Customers> results =
-    from c in dbContext.Customers
-    where c.CompanyName.StartsWith(companyNameTextbox.Text)
-    select c;
-customersBindingSource.DataSource = results;
 ```
+List<string> items = new List<string>();
+```
+
 ::: bad
-Figure: Bad example - You should just use "var" instead of "IQueryable"
+Figure: Bad example - You should just use "var" instead of "List<string>"
 :::
 
-```csharp
-var results =
-    from c in dbContext.Customers
-    where c.CompanyName.StartsWith(companyNameTextbox.Text)
-    select c;
-customersBindingSource.DataSource = results;
 ```
+var item = new List<string>();
+```
+
 ::: good
-Figure: Good example - Using "var" to save few keystrokes
+Figure: Good example - Using "var" to save a few keystrokes and reduce repetition
 :::

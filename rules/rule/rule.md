@@ -21,19 +21,28 @@ archivedreason: null
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
-This is an example rule + markdown cheatsheet to show you the things you can use to format an SSW rule.
+This is an example rule + markdown cheatsheet to give you some guidance around how to write rules and show you the things you can use to format an SSW rule.
 
 <!--endintro-->
+
+## How to write a rule
+
+There are a few concepts that are applied to most rules.
+
+1. Showing the pain - this is usually the intro to a rule and explains the problem and context around why the rule exists.
+2. Good and bad examples - these give practical examples for people to better understand the concepts.
+3. Explain the why, not the how - Rules isn't a place to document how to use a 3rd party product. You want to focus on the reasons **why we do something** and then link to external documents for steps on **how to do something**.
+
+Here's a few examples of how to write good and bad examples, and link off to external documentation:
+
+* <https://www.ssw.com.au/rules/github-issue-templates/>
+* <https://ssw.com.au/rules/bicep-user-defined-data-types/>
+* <https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/>
 
 ### 1. Headings, paragraphs, and blockquotes
 
 ```markdown
-# This is a heading 1
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
-
-## This is a heading 2
+## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
 ### This is a heading 3
 #### This is a heading 4 
 ##### This is a heading 5
@@ -44,11 +53,7 @@ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deseru
 
 **Figure: Markdown to generate headings and blockquotes**
 
-# This is a heading 1
-
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
-## This is a heading 2
+## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
@@ -71,7 +76,8 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 ...and this is a blockquote:
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
-> - Someone famous in Source Title
+>
+> * Someone famous in Source Title
 
 ---
 
@@ -173,6 +179,7 @@ This is [an external link](https://www.google.com).
 
 ::: info
 **Cool features:**
+
 * Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
 :::
@@ -382,12 +389,14 @@ Figure: Good example - Nice email template
 **Figure: Markdown for email templates**
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
 | Subject: | {{Email subject}} |  
+
 ::: email-content  
 
 ### Hi XXX  
@@ -551,12 +560,8 @@ int main()
 
 ```md
 ---
-***
-___
 ```
 
 #### Examples
 
 ---
-***
-___

@@ -19,6 +19,8 @@ index:
   - use-tasklists-in-your-pbis
   - close-pbis-with-context
   - avoid-auto-closing-issues
+  - use-github-teams-for-collaborator-permissions
+
 ---
 
 Learn more on [Rules to Better Scrum](/rules-to-better-scrum).

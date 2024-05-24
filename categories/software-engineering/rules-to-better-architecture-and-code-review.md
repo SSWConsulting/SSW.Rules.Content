@@ -17,8 +17,9 @@ index:
   - do-you-know-how-to-laser-in-on-the-smelliest-code
   - do-you-know-the-common-design-principles-part-1
   - do-you-know-the-common-design-principles-part-2-example
-  - do-you-know-the-common-design-patterns-part-1
-  - do-you-know-the-common-design-patterns-part-2-example
+  - common-design-patterns
+  - dependency-injection
+  - code-against-interfaces
   - do-you-look-for-grasp-patterns
   - code-can-you-read-code-down-across
   - do-you-start-reading-code
@@ -33,6 +34,7 @@ index:
   - best-trace-logging
   - do-you-look-for-code-coverage
   - do-you-use-the-kent-beck-philosophy
+  - what-is-a-container
   - the-best-dependency-injection-container
   - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
   - do-you-use-subdomains-instead-of-virtual-directories

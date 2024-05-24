@@ -13,6 +13,7 @@ authors:
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - do-you-know-how-to-handover-a-project
+  - how-to-hand-over-tasks-to-others
 redirects:
   - do-you-know-how-to-hand-over-tasks-aka-emails-to-others
   - do-you-know-how-to-hand-over-tasks-(aka-emails)-to-others

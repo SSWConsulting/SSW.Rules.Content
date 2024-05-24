@@ -6,7 +6,7 @@ uri: rules-to-better-azure
 index:
 - choose-azure-services
 - learn-azure
-- azure-certifications-and-associated-exams 
+- azure-certifications-and-associated-exams
 - the-9-important-parts-of-azure
 - cloud-architect
 - azure-architecture-center
@@ -15,6 +15,7 @@ index:
 - do-you-always-rename-staging-url-on-azure
 - do-you-consider-azuresearch-for-your-website
 - azure-resources-creating
+- bicep-user-defined-data-types
 - azure-naming-resources
 - azure-naming-resource-groups
 - apply-tags-to-your-azure-resource-groups

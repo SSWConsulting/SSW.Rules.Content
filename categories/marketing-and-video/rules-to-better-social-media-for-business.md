@@ -18,7 +18,7 @@ index:
 - consistent-content-across-social-media
 - re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
-- do-you-know-to-use-hash-tags
+- use-hashtags
 - find-the-best-hashtags
 - text-limit-for-images
 - create-friendly-short-urls
@@ -28,6 +28,7 @@ index:
 - do-you-share-when-you-upgrade-an-application
 - weed-out-spammers
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
+- reply-linkedin-messages
 - managing-linkedin-for-international-companies
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event

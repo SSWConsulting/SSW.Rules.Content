@@ -32,6 +32,10 @@ The Product Goal is the long-term objective for the Scrum Team. They must fulfil
 :::
 **Excerpt from [The Scrum Guide](https://scrumguides.org/scrum-guide.html)**
 
+::: info
+**Tip:** Make it easy to find your Product Goal by documenting it in the README of your project.
+:::
+
 ### Sprint Goal
 
 This is the commitment at the Sprint Backlog level. It is negotiated between the Product Owner and the Team, and defines the “why” of the Sprint, and how it will help the product eventually reach the Product Goal.
