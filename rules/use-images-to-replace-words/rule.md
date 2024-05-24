@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-"An image is worth a thousand words" is a timeless saying that underscores the power of visual communication. Images can convey complex ideas, emotions, and information more efficiently and effectively than text alone. They capture attention, enhance understanding, and improve retention. 
+"An image is worth a thousand words" is a timeless saying that underscores the power of visual communication. Images can convey complex ideas, emotions, and information more efficiently and effectively than text alone. They capture attention, enhance understanding, and improve retention.
 
 Therefore, whenever possible, replace text with images to create more engaging and impactful content. By doing so, you can simplify your message, appeal to visual learners, and make your communication more memorable.
 
