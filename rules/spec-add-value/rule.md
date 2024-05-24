@@ -54,6 +54,6 @@ Questions are the key in understanding client needs. Asking a few simple questio
 
 - Are there any performance requirements?
 
-- Are there any any reliability requirements?  E.g. Has to respond in x seconds
+- Are there any reliability requirements?  E.g. Has to respond in x seconds
 
 - What are the security requirements?
