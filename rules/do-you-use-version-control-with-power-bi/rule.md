@@ -30,61 +30,61 @@ In other words, the history of the changes isn't recorded anywhere.
 ![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct method is to convert your reports to the Power BI Desktop Projects (PBIP) format, and check the files into source control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows source control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in source control. 
+The correct method is to convert your reports to the Power BI Desktop Projects (PBIP) format, and check the files into version control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control. 
 
 ::: good
 ![Figure: Good example - PBIP format allows comparing changes made to reports by decomposing it into multiple text files](good-example-compare-changes.png)
 :::
 
 ::: good
-![Figure: Good example - PBIP format allows recording history of changes without saving data into source control](good-example-history-recorded.png)
+![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-The rest of this document describes this process in more detail. Additionally, it describes a way that you can setup source control in your company that will allow both developers **and** business users to easily edit and commit reports into source control. 
+The rest of this document describes this process in more detail. Additionally, it describes a way that you can setup version control in your company that will allow both developers and **business users** to commit reports into version control easily. 
 
 <!--endintro-->
 
-## Foundational Concepts
-Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the .pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
+## Power BI Version Control Features
+In Microsoft Build 2023, Microsoft introduced the following features that make it much easier to do version control for Power BI reports:
 
-* Data itself gets saved to source control, which is bad as it could be large 
-* Unable to see what has changed
-* Version control process is not user friendly for non-developers
-
-::: bad
-![Figure: Bad example - Committing .pbix files to source control does not let you see what changed](bad-example-pbix-source-control.png)
-:::
-
-Microsoft has addressed these issues through the introduction of:
-
+* [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 * [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
   * Requires either Fabric capacity or a Power BI Premium per User license
   * Currently only integrates with Git repos in Azure DevOps
-* [Power BI Desktop projects](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
 
-The following video from Microsoft Build 2023 provides an overview of this. 
+The following video provides an overview of this. 
 
 `youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
 **Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
 At a high-level you can set up version control as follows. Click on the links to get more detailed instructions on Microsoft Learn. 
 
-1. [Connect a workspace in Power BI Service with a branch in a Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
-2. [Commit changes to repo through the Power BI Service](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#commit-changes-to-git)
-3. [Update the workspace from Git](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#update-workspace-from-git)
+1. Convert all your Power BI reports to the PBIP format
+   * First enable Power BI Projects in Power BI Desktop - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
+   * Second "Save As" all your .pbix files as .pbip
 
-Committing a report to the repo in this manner saves it as a Power BI Desktop Project (PBIP). A Project no longer contains a .pbix file. It instead decomposes the report into the following artifacts.  
+     ::: img-medium
+     ![Figure: Enable PBIP format in Power BI Desktop](enable-pbip-format.png)
+     :::
 
-* [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
-* [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
+     ::: img-medium
+     ![Figure: Convert all .pbix files to PBIP format](save-as-pbip.png)
+     :::
+   * Converting reports to the PBIP format decomposes it into the following artifacts.
+     * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
+     * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
+     
+     ::: info
+     Whenever you see a .pbix file it should be converted to the PBIP format.
+     :::
 
-::: info
-Whenever you see a .pbix file it should be converted to the PBIP format.
-:::
-
-::: img-medium
-![Figure: PBIP artifacts](ProjectFolders.png)
-:::
+     ::: img-medium
+     ![Figure: PBIP artifacts](ProjectFolders.png)
+     :::
+     
+3. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note: as of this writing Power BI's Git integration only works with Azure DevOps. 
+4.  [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
+6. [Update the workspace from Git](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#update-workspace-from-git)
 
 ## Developing Reports
 
