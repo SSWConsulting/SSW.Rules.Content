@@ -19,7 +19,7 @@ archivedreason: null
 guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
 
-Developers typically publish reports directly to Power BI Service from Power BI Desktop. However, this has the following drawbacks:
+Power BI reports are generally published directly into Power BI Service. But doing so has many drawbacks. For example, you:
 * Can't see what was changed
 * Can't see who made the change
 * Can't see when the change was made
@@ -30,22 +30,22 @@ In other words, the history of the changes isn't recorded anywhere.
 ![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct way is to save your Power BI reports in the Power BI Desktop Projects (PBIP) format, and check the files into source control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows the source control to identify the elements that were changed. Additionally, the data associated with the report is stored separately in a file called cache.abf. This file should not be saved in source control. 
+The correct method is to convert your reports to the Power BI Desktop Projects (PBIP) format, and check the files into source control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows source control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in source control. 
 
 ::: good
-![Figure: Good example - PBIP format allows comparing changes made to reports](good-example-compare-changes.png)
+![Figure: Good example - PBIP format allows comparing changes made to reports by decomposing it into multiple text files](good-example-compare-changes.png)
 :::
 
 ::: good
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into source control](good-example-history-recorded.png)
 :::
 
+The rest of this document describes this process in more detail. Additionally, it describes a way that you can setup source control in your company that will allow both developers **and** business users to easily edit and commit reports into source control. 
+
 <!--endintro-->
 
 ## Foundational Concepts
 Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the .pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
-
-
 
 * Data itself gets saved to source control, which is bad as it could be large 
 * Unable to see what has changed
