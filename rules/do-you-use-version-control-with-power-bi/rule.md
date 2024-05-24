@@ -19,13 +19,25 @@ archivedreason: null
 guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
 
-Power BI reports typically get deployed directly to a workspace in Power BI Service. However, this has the following drawbacks:
+Developers typically publish reports directly to Power BI Service from Power BI Desktop. However, this has the following drawbacks:
 * Can't see what was changed
 * Can't see who made the change
 * Can't see when the change was made
 
+In other words, the history of the changes isn't recorded anywhere. 
+
 ::: bad
 ![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
+:::
+
+The correct way is to save your Power BI reports in the Power BI Desktop Projects (PBIP) format, and check the files into source control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows the source control to identify the elements that were changed. Additionally, the data associated with the report is stored separately in a file called cache.abf. This file should not be saved in source control. 
+
+::: good
+![Figure: Good example - PBIP format allows comparing changes made to reports](good-example-compare-changes.png)
+:::
+
+::: good
+![Figure: Good example - PBIP format allows recording history of changes without saving data into source control](good-example-history-recorded.png)
 :::
 
 <!--endintro-->
