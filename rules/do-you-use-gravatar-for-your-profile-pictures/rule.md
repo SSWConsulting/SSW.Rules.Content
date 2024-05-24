@@ -13,7 +13,9 @@ guid: b790dbfc-fe37-4a4a-992e-c9294620a06b
 ---
 To keep profile management simple and make it easier for users to have a consistent experience across applications, you should use [Gravatar](https://en.gravatar.com/) for showing profile images in your application.
 
-Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn/).
+::: china\
+Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn/).\
+:::
 
 Your Gravatar or Cravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog.
 
