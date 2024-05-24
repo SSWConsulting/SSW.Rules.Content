@@ -35,7 +35,7 @@ That's a tonne of awesome features....but it requires a bit of set up, follow th
 
 ![Figure: Create a new GitHub Project](updatednavigatetogithubprojects.png)
 
-2. Now we have the option to create a project from a template or from blank. For internal projects we try to maintain consistency, and therefore use the `[TEMPLATE] GitHub Scrum option`.
+2. Now we have the option to create a project from a template or from blank. Here is a great template [[Template] GitHub Scrum](https://github.com/orgs/SSWConsulting/projects/42/views/1)
 
 ![Figure: Choose template to create a new project](organizationtemplatesgithub.png)
 
