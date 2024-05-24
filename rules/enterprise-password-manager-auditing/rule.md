@@ -25,7 +25,7 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
 
 ::: good
 
-![Good Example: Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport.png)
+![Good Example: Keeper auditing shows exactly who opened what record](keeper-good-example-auditreport_1716517805958.png)
 
 :::
 
@@ -55,7 +55,7 @@ For example, Keeper (an enterprise-focused password product) is a leading enterp
 5. **Filter Time/User**: Choose any other filters such as Time Period or User and click apply.
 6. **Review the Logs**: Once filtered, you'll see a list of actions related to the chosen folder or record. This will include details like who accessed it, when, and from which device or location.
    
-   ![Figure: View the audit log](keeper-good-example-auditreport.png)
+   ![Figure: View the audit log](keeper-good-example-auditreport_1716517805958.png)
 
 7. **Export or Save**: If you wish to keep a record of the audit data outside of Keeper, you often have the option to export the data to various formats or save it for later review.
 
