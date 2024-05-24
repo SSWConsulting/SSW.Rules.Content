@@ -19,10 +19,21 @@ archivedreason: null
 guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
 
+Power BI reports typically get deployed directly to a workspace in Power BI Service. However, this has the following drawbacks:
+* Can't see what was changed
+* Can't see who made the change
+* Can't see when the change was made
+
+::: bad
+![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
+:::
+
+<!--endintro-->
+
 ## Foundational Concepts
 Doing version control with Power BI reports used to be problematic. The primary way of doing this was to commit the .pbix file into the repository using source control tools such as Visual Studio Code (VS Code). However, this has some drawbacks: 
 
-<!--endintro-->
+
 
 * Data itself gets saved to source control, which is bad as it could be large 
 * Unable to see what has changed
