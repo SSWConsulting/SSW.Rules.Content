@@ -20,17 +20,20 @@ guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
 
 Power BI reports are generally published directly into Power BI Service. But doing so has many drawbacks. For example, you:
+
 * Can't see what was changed
 * Can't see who made the change
 * Can't see when the change was made
 
 In other words, the history of the changes isn't recorded anywhere. 
 
+<!--endintro-->
+
 ::: bad
 ![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct method is to convert your reports to the Power BI Desktop Projects (PBIP) format, and check the files into version control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control. 
+The correct method is to convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control. When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control. 
 
 ::: good
 ![Figure: Good example - PBIP format allows comparing changes made to reports by decomposing it into multiple text files](good-example-compare-changes.png)
@@ -42,9 +45,8 @@ The correct method is to convert your reports to the Power BI Desktop Projects (
 
 The rest of this document describes this process in more detail. Additionally, it describes a way that you can setup version control in your company that will allow both developers and **business users** to commit reports into version control easily. 
 
-<!--endintro-->
-
 ## Power BI Version Control Features
+
 In Microsoft Build 2023, Microsoft introduced the following features that make it much easier to do version control for Power BI reports:
 
 * [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
@@ -97,7 +99,7 @@ At a high-level you can set up version control as follows. Click on the links to
 
 4.  [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
 
-## Developing Reports
+### Developing Reports
 
 You should no longer edit or publish reports directly in the production workspace on Power BI Service. A better process for editing and committing reports is described below. 
 
@@ -136,11 +138,11 @@ The process is done on one's PC. You will need to download Power BI Desktop. At 
 7. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps
 8. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
 
-## Deploying Reports
+### Deploying Reports
 
 Deployments would typically be done by Power BI Admins. You as a dev generally won't do this directly unless you're responsible for a workspace yourself. 
 
 Reports can be deployed to a production workspace on Power BI Service by simply syncing the workspace with the 'main' branch in the Reports repository. The figure below illustrates this. 
 
-![Figure: Example showing how to sync changes into a workspace in Power BI Service, effectively deploying reports](SyncChanges.png)
+![Figure: Hw to sync changes into a workspace in Power BI Service, effectively deploying reports](SyncChanges.png)
    
