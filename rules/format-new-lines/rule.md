@@ -61,11 +61,9 @@ Want to meet them? Have a look at SSW People.
 Figure: Good example - The text is separated by paragraphs
 :::
 
-
 ### Notes, Tips, PS
 
 Content elements like **Note**, **Tip**, **PS** (and similar) should be on a new line to enable better readability. It is beneficial to bold those words.
-
 
 ::: greybox
 Test the login functionality thoroughly. Note: Try both valid and invalid credentials.
@@ -116,7 +114,6 @@ Check out this awesome new video about the SSW Cultural Exchange Program!
 Figure: Bad example - No spacing after heading
 :::
 
-
 ::: greybox
 Hey Bob,
 
@@ -143,8 +140,6 @@ I have 2 PBIs in the coming Sprint:
 * PBI 88994: Performance | Create a new App Service plan
 * PBI 88823: Azure | Create a new App Service Plan in West US for SL production resource group
 
-
-
 I will do the IoC after.
 
 :::
@@ -159,4 +154,3 @@ However, you should [only use acronyms when the recipient is familiar with the t
 ### Images and captions
 
 It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help users focus on them.
-
