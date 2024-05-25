@@ -9,6 +9,7 @@ index:
 - structured-website
 - always-have-a-default-index-page
 - have-a-stylesheet-file
+- scoped-css
 - close-quotations-of-html-attributes
 - best-way-to-display-code-on-your-website
 - use-heading-tags-h1-h2-h3
