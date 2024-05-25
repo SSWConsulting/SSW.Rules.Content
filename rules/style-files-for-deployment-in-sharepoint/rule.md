@@ -31,5 +31,5 @@ So the rules are:
 
     E.g. `/Style Library/CSS/SSW/Clients/layout.css`
 
-5. Designers can modify the XSL file as well!   
+5. Designers can modify the XSL file as well!
     Put them under `/Style Library/XSL Style Sheets/<client>/`
