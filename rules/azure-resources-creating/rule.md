@@ -99,7 +99,6 @@ The other option when moving to an automated Infrastructure as Code (IaC) soluti
 * Both tools are great and have free tiers available
 * Paid tiers provide more benefits for larger teams and helps manage larger infrastructure solutions
 * Terraform uses HashiCorp Configuration Language HCL
-
   * like YAML but much more powerful
   * https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
 * Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
