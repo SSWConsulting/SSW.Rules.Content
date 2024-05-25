@@ -32,7 +32,7 @@ This is the most common and the worst. This is bad because it requires manual ef
 * Create resources in Azure and not save a script
 
 ::: bad
-!\[Figure (animated gif): Bad example - Creating resources manually](azure resources.gif)
+![Figure (animated gif): Bad example - Creating resources manually](azure resources.gif)
 :::
 
 ### Manually creating and saving the script
