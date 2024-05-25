@@ -21,23 +21,23 @@ archivedreason: null
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
-This is an example rule + markdown cheatsheet to give you some guidance around how to write rules and show you the things you can use to format an SSW rule.
+This is an example rule + Markdown cheatsheet to give you some guidance around how to write rules and show you the things you can use to format an SSW rule.
 
 <!--endintro-->
 
-## How to write a rule
+## Concepts to write rules
 
-There are a few concepts that are applied to most rules.
+There are a few concepts that are applied to structure most SSW Rules:
 
-1. Showing the pain - this is usually the intro to a rule and explains the problem and context around why the rule exists.
-2. Good and bad examples - these give practical examples for people to better understand the concepts.
-3. Explain the why, not the how - Rules isn't a place to document how to use a 3rd party product. You want to focus on the reasons **why we do something** and then link to external documents for steps on **how to do something**.
+1. **Show the pain** - Usually in the intro, explain the problem and context around why that rule exists
+2. **Give good and bad examples** - Include practical examples for people to better understand the concepts. [Using images is usually the best way to go](/use-images-to-replace-words)
+3. **Explain the why, not the how** - A rule isn't a place to document how to use a 3rd party product. You should focus on the reasons **why** we do something, and then link to external documentation on **how** to do something
 
-Here's a few examples of how to write good and bad examples, and link off to external documentation:
+See a few examples of SSW Rules that follow the structure of good and bad examples, then link off to external documentation for more information:
 
-* <https://www.ssw.com.au/rules/github-issue-templates/>
-* <https://ssw.com.au/rules/bicep-user-defined-data-types/>
-* <https://ssw.com.au/rules/do-you-know-how-to-backup-data-on-sql-azure/>
+* [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
+* [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
+* [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
 
 ### 1. Headings, paragraphs, and blockquotes
 
