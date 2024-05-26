@@ -17,9 +17,9 @@ index:
 - how-to-create-a-negative-keyword-list
 - bid-on-your-own-brand-keyword
 - use-microsoft-advertising-formerly-known-as-bing-ads
-- import-your-google-campaigns-to-your-microsoft-ads
 - regularly-audit-your-google-ads-account
-- do-you-know-how-to-keep-track-of-your-ppc-campaign-spend
+- import-your-google-campaigns-to-your-microsoft-ads
+- track-ppc-campaign-spend
 - monitor-budget-and-track-spending-consistently
 - update-team-on-ppc-advertising-results
 - use-skags
