@@ -2,7 +2,10 @@
 type: rule
 tips: ""
 title: Do you know the best online documentation site?
-seoDescription: ""
+seoDescription: Discover the best documentation sites like TinaCMS, GitBook,
+  ReadMe.io, and others. Learn about their features, use cases, and how to
+  choose the right tool for creating, managing, and hosting your documentation
+  effectively. Enhance your documentation process with the right platform.
 uri: best-online-documentation-site
 authors:
   - title: Gert Marx
