@@ -37,11 +37,14 @@ Ensure this is sent out to all staff months before the event to encourage ideas.
 I’m really excited about our Brainstorming Day! I hope you’re all thinking about what you would like to work on.
 
 To prepare for our Brainstorming Day, send Adam, Matt W, William, Piers, and Brady something that you would like to work on as a group.
-E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming session last year.
+E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming session a few years ago.
 
 **Tip:** A Done Video can help explain and sell your idea to other attendees ⭐
 
 See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the-brains-of-your-company)
+
+**Note:** We will try our best to adhere to this agenda, but the event may run overtime. If this happens dinner will be provided! 🍕
+**Tip:** If you have a time-sensitive commitment after work, let the Brainstorming planners know in advance so they can prioritse your presentation
 
 **Agenda** (copied from [https://ssw.com.au/rules/brainstorming-agenda](/brainstorming-agenda))
 
@@ -58,7 +61,5 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
   * 9 mins - 3 soft bells   🛎️🛎️🛎️
   * 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
 * **6:00 pm** – 🍻 The pub!
-
-**Note:** We will try our best to adhere to this agenda, but the event may run overtime. If this happens dinner will be provided! 🍕
 :::
 :::
