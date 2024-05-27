@@ -27,7 +27,7 @@ We've been down this road before where developers had to be taught not to manual
 
 ### Manually Creating Resources
 
-This is the most common and the worst. This is bad because it requires manual effort to reproduce and leaves margin for human error. Manually provisioning resources can also lead to [configuration ddrift](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#avoid-manual-configuration-to-enforce-consistency), which is to say that over time it can be difficult to keep track of which deployment configurations were made and why.
+This is the most common and the worst. This is bad because it requires manual effort to reproduce and leaves margin for human error. Manually provisioning resources can also lead to [configuration drift](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#avoid-manual-configuration-to-enforce-consistency), which is to say that over time it can be difficult to keep track of which deployment configurations were made and why.
 
 * Create resources in Azure and not save a script
 
