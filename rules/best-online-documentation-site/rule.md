@@ -31,6 +31,8 @@ Here are some of the top online documentation sites:
 ### TinaCMS
 
 - **Features:**
+  - Git-based
+  - Open-source
   - Inline editing and real-time preview.
   - Supports Markdown and JSON files.
   - Flexible and customizable with a strong focus on content editing experience.
