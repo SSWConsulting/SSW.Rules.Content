@@ -43,7 +43,7 @@ E.g. Our awesome SophieBot project came out of the Melbourne Brainstorming sessi
 
 See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the-brains-of-your-company)
 
-**Note:** We will try our best to adhere to this agenda, but the event may run overtime. If this happens dinner will be provided! 🍕
+**Note:** We will try our best to adhere to this agenda, but the event may run overtime. If this happens dinner will be provided! 🍕  
 **Tip:** If you have a time-sensitive commitment after work, let the Brainstorming planners know in advance so they can prioritse your presentation
 
 **Agenda** (copied from [https://ssw.com.au/rules/brainstorming-agenda](/brainstorming-agenda))
