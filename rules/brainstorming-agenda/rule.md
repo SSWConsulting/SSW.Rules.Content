@@ -59,6 +59,6 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
   * 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
 * **6:00 pm** – 🍻 The pub!
 
-**Note:** We will try our best to adhere to this agenda, but the even may run overtime. If this happens dinner will be provided! 🍕
+**Note:** We will try our best to adhere to this agenda, but the event may run overtime. If this happens dinner will be provided! 🍕
 :::
 :::
