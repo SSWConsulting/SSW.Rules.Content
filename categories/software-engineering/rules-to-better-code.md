@@ -85,6 +85,7 @@ index:
 - do-you-use-primary-constructors
 - do-you-use-collection-expressions
 - interfaces-abstract-classes
+- use-var
 
 ---
 
