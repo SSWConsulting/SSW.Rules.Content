@@ -66,15 +66,6 @@ Here are some of the top online documentation sites:
 - **Use Case:**
   - Suitable for open-source projects and developers familiar with React.
 
-### Slate
-
-- **Features:**
-  - Well-suited for API documentation.
-  - Generates static HTML pages from Markdown files.
-  - Clean, responsive design.
-- **Use Case:**
-  - Perfect for API documentation requiring a clean and professional look.
-
 ### MkDocs
 
 - **Features:**
@@ -101,31 +92,6 @@ Here are some of the top online documentation sites:
   - Suitable for simple and complex documentation.
 - **Use Case:**
   - Versatile option for both small and large documentation projects.
-
-### Sphinx
-
-- **Features:**
-  - Creates intelligent and beautiful documentation.
-  - Written in Python and supports reStructuredText and Markdown.
-- **Use Case:**
-  - Commonly used for Python projects and detailed documentation needs.
-
-### Confluence
-
-- **Features:**
-  - Developed by Atlassian and part of their suite of tools.
-  - Excellent for internal documentation and collaboration.
-  - Integrates well with Jira and other Atlassian products.
-- **Use Case:**
-  - Best for teams using other Atlassian tools, requiring extensive collaboration.
-
-### VuePress
-
-- **Features:**
-  - Static site generator powered by Vue.js.
-  - Uses Markdown and allows Vue components.
-- **Use Case:**
-  - Ideal for Vue.js developers needing integrated documentation tools.
 
 ## Conclusion
 
