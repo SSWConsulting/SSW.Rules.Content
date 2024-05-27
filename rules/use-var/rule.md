@@ -33,3 +33,6 @@ Figure: Good example - Using "var" to save a few keystrokes and reduce repetitio
 :::
 
 This can be kept consistent by creating an [editorconfig file](/consistent-code-style) which can then generate compile time warnings.
+
+An [example editor config](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/.editorconfig), look for the **var preferences**.
+
