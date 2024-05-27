@@ -5,7 +5,6 @@ title: Do you know the best online documentation site?
 seoDescription: ""
 uri: best-online-documentation-site
 authors:
-  - title: ""
   - title: Gert Marx
     url: https://www.ssw.com.au/people/gert-marx/
 created: 2024-05-27T05:04:38.237Z
