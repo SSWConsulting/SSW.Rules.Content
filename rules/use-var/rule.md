@@ -6,6 +6,8 @@ authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
 created: 2021-12-13T17:44:06.489Z
+related:
+  - consistent-code-style
 guid: edd8d397-3651-47c0-8737-fa38152558d1
 
 ---
@@ -29,3 +31,7 @@ var item = new List<string>();
 ::: good
 Figure: Good example - Using "var" to save a few keystrokes and reduce repetition
 :::
+
+This can be kept consistent by creating an [editorconfig file](/consistent-code-style) which can then generate compile time warnings.
+
+An [example editor config](https://github.com/SSWConsulting/SSW.CleanArchitecture/blob/main/.editorconfig), look for the **var preferences**.
