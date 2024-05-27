@@ -32,7 +32,7 @@ Ensure this is sent out to all staff months before the event to encourage ideas.
 | Subject: | 🧠⚡️ Prepare for our Brainstorming Day |
 ::: email-content
 
-### Hi All,
+### Hi All
 
 I’m really excited about our Brainstorming Day! I hope you’re all thinking about what you would like to work on.
 
@@ -53,8 +53,8 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 * **2:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on-site with a client)
 * **3:30 pm** - 🎤 Start presentations (Tip: Start presentations earlier/later depending on how many people are attending). You should have someone doing the timekeeping and ring a bell to help keep them on track. For example:
 
-  *  7 mins - one soft bell 🛎️
-  *  8 mins - two soft bell  🛎️🛎️
+  * 7 mins - one soft bell 🛎️
+  * 8 mins - two soft bell  🛎️🛎️
   * 9 mins - 3 soft bells   🛎️🛎️🛎️
   * 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
 * **6:00 pm** – 🍻 The pub!
