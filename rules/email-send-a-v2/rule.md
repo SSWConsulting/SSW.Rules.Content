@@ -45,24 +45,25 @@ Having an entire new version of an email is important as it:
 * Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
 :::
 
-### How to send a v2 (Outlook)
+### How to structure a v2
+
+1. Include (v2 - {{ REASON }}) on the first line of the email body
+   - For further versions of an email, replace the v2 with v3, v4, v5, etc
+2. The reason should include a summary of what was changed
+3. Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the previous version is not part of the email history
+4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
+
+::: info
+**Warning:** Do not add "v2" or make any changes to the subject as we want to keep the thread.
+:::
+
+#### How to send a v2 in Outlook
 
 1. Open your v1 email in Sent Items
 2. Click Actions | Resend this message
-3. Include (v2 - {{ REASON }}) on the first line of the email body
-4. The reason should include a summary of what was changed
-
-::: info
-**Warning:** Do not add "v2" to the subject as we want to keep the thread.
-:::
-
-4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email.
-5. Replace your v1 with your v2 email, as if the v1 never happened (same for v3, v4, etc)
 
 ::: greybox
-**Note:** For v3 emails replace the (v2 - {{ REASON }}) on the first line of the email body with (v3 - {{ REASON }}). Repeat this for v4, v5, etc.
-
-For appointments, the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments).
+**Note:** For appointments the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments).
 :::
 
 ::: email-template  
