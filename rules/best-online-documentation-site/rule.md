@@ -30,67 +30,74 @@ Here are some of the top online documentation sites:
 
 ### [TinaCMS](https://www.tina.io)
 
-- **Features:**
+**Features:**
   - Git-based
   - Open-source
   - Inline editing and real-time preview.
   - Supports Markdown and JSON files.
   - Flexible and customizable with a strong focus on content editing experience.
-- **Use Case:**
+
+**Use Case:**
   - Best for developers looking for a headless CMS with a great content editing experience.
 
 ### [GitBook](https://www.gitbook.com)
 
-- **Features:**
+**Features:**
   - Easy creation of documentation with a Markdown editor.
   - Version control and collaboration features.
   - Hosting and customizable themes.
-- **Use Case:**
+
+**Use Case:**
   - Ideal for teams needing a collaborative platform for project documentation.
 
 ### [ReadMe](https://www.readme.com)
 
-- **Features:**
+**Features:**
   - Focuses on API documentation with interactive and dynamic features.
   - Built-in analytics to track usage and engagement.
   - Supports code snippets, changelogs, and user authentication.
-- **Use Case:**
+
+**Use Case:**
   - Best for creating and managing API documentation with user analytics.
 
 ### [Docusaurus](https://docusaurus.io)
 
-- **Features:**
+**Features:**
   - Open-source project by Facebook.
   - Easy setup and maintenance of open-source project documentation.
   - Uses Markdown and integrates with React.
-- **Use Case:**
+
+**Use Case:**
   - Suitable for open-source projects and developers familiar with React.
 
 ### [MkDocs](https://www.mkdocs.org)
 
-- **Features:**
+**Features:**
   - Static site generator geared towards project documentation.
   - Written in Python and uses Markdown.
   - Various themes and plugins.
-- **Use Case:**
+
+**Use Case:**
   - Great for Python developers needing extensive project documentation.
 
 ### [Docsify](https://docsify.js.org)
 
-- **Features:**
+**Features:**
   - Lightweight documentation site generator.
   - No statically built HTML files; loads Markdown files dynamically.
   - Easy integration with existing projects.
-- **Use Case:**
+
+**Use Case:**
   - Ideal for lightweight, quick documentation needs.
 
 ### [Hugo](https://gohugo.io)
 
-- **Features:**
+**Features:**
   - Fast static site generator.
   - Supports Markdown with many themes.
   - Suitable for simple and complex documentation.
-- **Use Case:**
+
+**Use Case:**
   - Versatile option for both small and large documentation projects.
 
 ## Conclusion
