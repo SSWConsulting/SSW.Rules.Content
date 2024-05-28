@@ -10,6 +10,8 @@ uri: best-online-documentation-site
 authors:
   - title: Gert Marx
     url: https://www.ssw.com.au/people/gert-marx/
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming/
 related:
   - cms-solutions
   - git-based-cms-solutions
