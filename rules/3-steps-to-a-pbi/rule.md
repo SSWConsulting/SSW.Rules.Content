@@ -21,6 +21,7 @@ related:
   - rules-to-better-product-owners
   - acceptance-criteria
   - reply-done-plus-added-a-unit-test
+  - write-a-good-pull-request
   - record-a-quick-and-dirty-done-video
   - definition-of-done
   - done-do-you-know-when-to-send-a-done-email-in-scrum
