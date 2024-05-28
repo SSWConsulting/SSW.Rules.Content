@@ -32,7 +32,8 @@ Try these tips to minimize unwanted noise:
    * Close all doors and windows - a sealed space will reduce a large amount of noise
    * Create a barrier – put obstacles in between your microphone and the unwanted noise (e.g. use a wall divider, or stack some boxes to make a wall)
    * Use Carpet/Rugs – soft materials will cut down on echo and ambient noise
-3. Mic distance – putting your microphone closer to your audio source will make your desired audio louder, and unwanted noise will be less noticeable
+3. Mic Distance – putting your microphone closer to your audio source will make your desired audio louder, and unwanted noise will be less noticeable
+4. Mic Isolation - if you have an external mic like a gooseneck, try to isolate it from your presenation surface. Placing a mic on a table can pick up noise from keyboard strokes and tapping sounds from movement. A wireless lapel mic is better for recording cleaner audio during a presentation. Attaching an articulating arm to the table can help prevent movement sounds and provides a solution to good mic distance.
 
 ### Silent Spaces – Record “Room Tone”
 
