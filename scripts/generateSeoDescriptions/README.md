@@ -1,0 +1,1 @@
+# Generate descriptions for SEO 🔍
