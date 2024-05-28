@@ -23,7 +23,7 @@ Audio is one of the most important things to get right in a video as many viewer
 Having sounds in the background during a recording can be very distracting, and sometimes irritating to a viewer, e.g. construction, traffic, someone in the kitchen banging pots and pans.
 
 For sounds that are constant and consistent (e.g. air conditioners, fans, heaters), editing software can often remove a lot of this noise, but digitally reducing the noise can make your voice sound "thin" or tinny.
- 
+
 Try these tips to minimize unwanted noise:
 
 1. Timing – schedule your recording during a quiet part of the day (e.g. avoid meal-times and breaks)
@@ -81,7 +81,7 @@ Some high-end microphones will have options for Recording Patterns, including:
 
 ### Record Locally
 
-When recording a Microsoft Teams or a Zoom call (e.g. an interview) the software will automatically compress the sound, reducing the quality. 
+When recording a Microsoft Teams or a Zoom call (e.g. an interview) the software will automatically compress the sound, reducing the quality.
 So that your final video has the best sound quality:
 
 1. Check your default recording device is set to the microphone you want to record with:
@@ -89,7 +89,7 @@ So that your final video has the best sound quality:
    * Right-click the sound icon in the taskbar and select "Sounds". (You can also access the panel through by searching "Change system sounds" in the start menu)
   
    ![Figure: Opening the System Sounds panel through the Windows taskbar.](select-sounds.jpg)
-   
+
    * Select the "Recording" tab, and check that your desired microphone is set to default device.
 
   ![Figure: Your default mic is indicated with a green check mark ✅](select-default.jpg)
