@@ -36,7 +36,7 @@ It is crucial to build **interaction** between all company offices because it of
 * Knowledge of alternative approaches
 * Cultural understanding
 * Understanding of foreign perspectives
-  * knowing why someone from another culture responds to questions in a different way to what you are used to
+  * Knowing why someone from another culture responds to questions in a different way to what you are used to
 
 ### Methods
 
@@ -72,7 +72,7 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Everyone meets on Friday for 30 minutes to discuss a fun question
 
 * **Rotating Daily Scrum**
-  * Each week 1 person from each office is paired up to do a Daily Scrum with each other
+  * Each week, 1 person from each office is paired up to do a Daily Scrum with others
 
 * **Virtual coffee events**
   * People from different offices are paired up to have virtual coffee
