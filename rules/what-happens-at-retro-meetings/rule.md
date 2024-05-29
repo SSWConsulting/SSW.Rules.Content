@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what happens at a Sprint Retrospective meeting?
-uri: do-you-know-what-happens-at-a-sprint-retrospective-meeting
+uri: what-happens-at-retro-meetings
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -9,11 +9,15 @@ related:
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
   - roadmap
   - sprint-review-retro-email
-redirects: []
+redirects:
+- do-you-know-what-happens-at-a-sprint-retrospective-meeting
+- what-happens-at-sprint-retrospective-meetings
 created: 2010-05-06T03:18:17.000Z
 archivedreason: null
 guid: d8ab71ab-506f-49b6-9756-f5e811aa9ab5
+
 ---
+
 At the end of every **Sprint**, the Development Team performs a **Sprint Retrospective**, also known as the **Retro**. The Retro provides an opportunity for the Scrum Team to reflect on what has gone well, what has gone poorly, and what the team wants to change.
 
 Inspect-and-adapt is a key component of the Scrum framework and the Retro gives Scrum Teams an opportunity to learn from their successes and mistakes.
@@ -58,24 +62,31 @@ If the timebox limit is reached, the remaining issues should be recorded and dea
 
 The timebox for this meeting is usually as many hours as weeks in the Sprint.
 
-### Using an interactive tool
+### Using interactive tools (Apps)
 
-You can do a [retrospected.com](https://www.retrospected.com/). The advantages are:
+The goal is to make Retro sessions as engaging and insightful as possible. There are 2 main options:
+
+* [Kollabe Sprint Retrospectives](https://kollabe.com/retrospectives) (Preferred)
+* [Retrospected](https://www.retrospected.com)
+
+The advantages are:
 
 * Interactive - app participants can access the board (not one person writing an email, while others watch)
-* Participants can upvote and downvote specific items on the retro
+* Participants can upvote and downvote specific items on the Retro
 * Participants can add items to the board
 * Participants feel more engaged with the process
 * You can leave the board open (if some people have missed the Retro, they can add items afterwards)
 * After you close the board, participants still have access to the Retro and can see what happened
 
 ::: bad
-![Figure: Bad example – this is a paste from the tool, but the action points are unclear](retrospected-bad.png)
+![Figure: Bad example – This is a paste from the tool, but the action points are unclear](retrospected-bad.png)
 :::
 
 ::: good
-![Figure: Good example – this is a paste from the tool, but with the modifications at the end, the action points are clear](retrospected-good.png)
+![Figure: Good example – This is a paste from the tool, but with the modifications at the end, the action points are clear](retrospected-good.png)
 :::
+
+---
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
