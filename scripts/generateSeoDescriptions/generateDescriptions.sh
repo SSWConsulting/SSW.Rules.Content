@@ -3,7 +3,7 @@
 # Function to generate SEO description using ollama run llama3
 generate_seo_description() {
   local file_content="$1"
-  local seo_description=$(echo "$file_content" | ollama run llama3 "SEO Description requirements - short 1 sentence. Generate an SEO description from the following content. Only output the generated description, NOTHING else:")
+  local seo_description=$(echo "$file_content" | ollama run llama3 "SEO Description requirements - short 1 sentence, dont include quotes. Generate an SEO description from the following content. Only output the generated description, NOTHING else:")
 
   echo $seo_description
 }
