@@ -18,6 +18,7 @@ index:
 - manage-compatibility-for-different-tfms
 - dotnet-upgrade-for-complex-projects
 - do-you-check-your-api-serialisation-format
+- migrating-frontend-to-net8
 
 ---
 
