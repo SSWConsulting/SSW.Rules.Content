@@ -5,10 +5,12 @@ uri: cultural-exchange
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-related: null
+related: 
+  - build-inter-office-interaction
 created: 2023-03-30T06:35:55.000Z
 archivedreason: null
 guid: f0fa3f67-710c-4341-a9aa-c785a4718507
+
 ---
 
 Software can't be built by a single developer anymore, there is always a team involved. Often, those teams consist of people in different geographies. Therefore, it's a social enterprise, and it's essential that teams made of people in different geographical locations can bond and work well together. These multinational teams must communicate and empathize with stakeholders from different cultural backgrounds.
