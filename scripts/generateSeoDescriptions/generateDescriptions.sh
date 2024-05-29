@@ -3,16 +3,18 @@
 # Function to generate SEO description using ollama run llama3
 generate_seo_description() {
   local file_content="$1"
-  local seo_description=$(echo "$file_content" | ollama run llama3 "SEO Description requirements - short 1 sentence, dont include quotes. Generate an SEO description from the following content. Only output the generated description, NOTHING else:")
+  local prompt_file="$(dirname "${BASH_SOURCE[0]}")/prompt.txt"
+  local prompt=$(cat "$prompt_file")
+  local seo_description=$(echo "$file_content" | ollama run llama3 "$prompt")
 
   echo $seo_description
 }
 
 # Directory to search for markdown files
-search_dir="./rules"
+search_dir="$1"
 
 # Iterate over each markdown file in the directory
-find "$search_dir" -name "*.md" | while read -r markdown_file; do
+find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; do
   echo "Processing file: $markdown_file"
 
   # Read the content of the markdown file
@@ -45,4 +47,5 @@ find "$search_dir" -name "*.md" | while read -r markdown_file; do
     echo "SEO description already present in $markdown_file"
   fi
   echo ""
+done
 done
