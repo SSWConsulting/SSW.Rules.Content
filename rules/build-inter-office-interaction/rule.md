@@ -22,27 +22,27 @@ When a company has many different office locations, often people in one office a
 ### What can be improved?
 
 It is crucial to build **interaction** between all company offices because it often improves the following:
-            
+
 <!--endintro-->
 
 * Communication
 * Relationships
 * Technical Skills
-* Access to resources   
+* Access to resources
   * Knowing who has certain skills
   * Knowing who can provide you with localized or domain specific information
 * Cooperation
 * Confidence
 * Knowledge of alternative approaches
 * Cultural understanding
-* Understanding of foreign perspectives   
+* Understanding of foreign perspectives
   * knowing why someone from another culture responds to questions in a different way to what you are used to
 
 ### Methods
 
 Think about what your company can do to increase interaction. There are tonnes of unique ways that interaction can be developed. Examples include:
 
-* **Team building activities**   
+* **Team building activities**
   * Playing a game together
   * Solving a puzzle together
   * Reviewing/updating a company standard together
@@ -50,13 +50,13 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Visit local companies together
   * Retreat - Have a company retreat to bring everyone together
 
-* **[Cultural Exchange programs](/cultural-exchange)**   
+* **[Cultural Exchange programs](/cultural-exchange)**
   * Having employees from China work in every Australian office for a month each or vice versa
   * Having developers from Brisbane spend a week in Melbourne
 
 * **[Mentoring](/mentoring-programs)**
 
-* **[Working together](/efficiency-do-you-always-try-to-work-in-pairs)**   
+* **[Working together](/efficiency-do-you-always-try-to-work-in-pairs)**
   * Pair programming
   * Mob programming
   * Sitting together to work side-by-side
@@ -65,26 +65,26 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Celebrating holidays from other countries
   * Having a cultural performance day where everyone chooses something cultural to perform such as a culturally relevant poem
 
-* **Creating cross-office teams**   
+* **Creating cross-office teams**
   * Putting developers from the China office onto a project with Australian developers
 
-* **A fun weekly company meeting**   
+* **A fun weekly company meeting**
   * Everyone meets on Friday for 30 minutes to discuss a fun question
 
-* **Rotating Daily Scrum**   
+* **Rotating Daily Scrum**
   * Each week 1 person from each office is paired up to do a Daily Scrum with each other
 
-* **Virtual coffee events**   
+* **Virtual coffee events**
   * People from different offices are paired up to have virtual coffee
 
-* **Get people involved with events for others offices (especially other countries)**   
+* **Get people involved with events for others offices (especially other countries)**
   * A Chinese dev does a presentation at the Sydney User Group
 
-* **Organize meetings to discuss culturally different issues**   
+* **Organize meetings to discuss culturally different issues**
   * Everyone talks about localization or WeChat Mini-Programs
   * Have a weekly language exchange catchup
 
-* **Film videos about other offices**   
+* **Film videos about other offices**
   * What is it like to work in the China office?
   * What are the differences in the app market in China and Australia? I.e. WeChat vs Facebook etc
   * Localization - What is your reaction if you see Chinese on a web page?
