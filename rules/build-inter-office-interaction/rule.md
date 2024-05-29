@@ -16,7 +16,7 @@ guid: eabe99f5-fdcd-40cf-bb27-1c1f8cd7f2e4
 When a company has many different office locations, often people in one office aren't familiar with people in other offices due to a lack of interaction. This problem is particularly pronounced where you have offices that span multiple time zones or countries.
 
 ::: greybox
-**Tip:** You can use the website [timeanddate.com](https://www.timeanddate.com/worldclock/converter.html?iso=20240529T220000&p1=240&p2=501&p3=332&p4=256) to know the time difference between offices. You may also want to install one of the numerous apps to help with that info.
+**Tip:** You can use the website [timeanddate.com](https://www.timeanddate.com/worldclock/converter.html?iso=20240529T220000&p1=240&p2=501&p3=332&p4=256) to know the time difference between offices. You may also install one of the numerous apps to help with that info.
 :::
 
 ### What can be improved?
