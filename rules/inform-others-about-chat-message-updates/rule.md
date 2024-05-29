@@ -27,9 +27,9 @@ This simple practice promotes transparency, avoids confusion, and ensures everyo
 :::
 
 ::: bad
-![Figure: Bad example - silently update a message](update-im-message-bad.png)
+![Figure: Bad example - Silently update a message](update-im-message-bad.png)
 :::
 
 ::: good
-![Figure: Good example - mention you updated it](update-im-message-good.png)
+![Figure: Good example - Mention you updated a message](update-im-message-good.png)
 :::
