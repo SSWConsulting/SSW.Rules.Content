@@ -21,7 +21,7 @@ Often when video editing, you hear terms like “cut to” and “cutaway” whe
 
 The cutaway shot is a filmmaking and video editing technique. It is a supplementary shot that “cuts away” from the main action. Commonly, technical videos do not often use cutaways, the SSW TV channel prefers to use overlay, also called B-Roll footage. Sometimes people can say "cut away to this footage" and actually mean "cut to b-roll footage"
 
-Learn more: https://www.ssw.com.au/rules/video-editing-terms/#6-cutaway
+Learn more: <https://www.ssw.com.au/rules/video-editing-terms/#6-cutaway>
 
 Now let's put that into practise. During an interview, looking at a talking head (the subject) can become monotonous. It is a good idea to ‘cut away’ to the detail/thing that the speaker is referring to. Not only does it make it more interesting, it improves the understandability of the video and allows for your audience to connect with the message and interviewee journey.
 
