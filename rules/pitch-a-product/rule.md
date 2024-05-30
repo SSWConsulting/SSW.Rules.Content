@@ -7,10 +7,10 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - elevator-pitch
 created: 2024-05-30T03:55:56.590Z
 guid: 1216903d-3e14-4db7-8596-c7d02bbb7e25
-related:
- - elevator-pitch
 ---
 
 ## The scenario
@@ -21,7 +21,7 @@ There is probably under 60 seconds to give an answer that will excite them about
 
 <!--endintro-->
 
-This is similar to an elevator pitch, it can happen when you meet a new client, at an event, when you're at a barbecue with a friend. The more effort you put into doing this well, the better you will sound.
+This is similar to an elevator pitch, it can happen when you meet a new client, at an event or when you're at a barbecue with a friend. The more effort you put into doing this well, the better you will sound.
 
 Although not everybody is in sales, we all will have to convince others at different times.
 
