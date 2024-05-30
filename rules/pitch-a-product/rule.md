@@ -13,17 +13,15 @@ related:
  - elevator-pitch
 ---
 
-## The scenario
-
 Consider the situation where you jump in an elevator and start chatting to the other person and they ask *"What does your product do?"*
 
 There is probably under 60 seconds to give an answer that will excite them about your product.
 
 <!--endintro-->
 
-This is similar to an elevator pitch, it can happen when you meet a new client, at an event, when you're at a barbecue with a friend. The more effort you put into doing this well, the better you will sound.
+This "elevator pitch" scenario can happen when you meet a new client, at an event, when you're at a barbecue with a friend. The more effort you put into doing your pitch well, the better you will sound.
 
-Although not everybody is in sales, we all will have to convince others at different times.
+Although not everybody is in sales, we all will have opportunities to influence others at different times.
 
 ![Figure: Imagine you jump in an elevator and someone says "What does your product do?"](llama-getting-elevated.jpg)
 
@@ -35,37 +33,33 @@ To form a pitch, it is important to collate your thoughts about the product. Con
 2. The unique value
 3. Call to action
 
-### #1 The What
+### 1. The what
 
-Think about what your product is, focus on the problem it solves.
-
-For example:
+Think about what your product is, focus on the problem it solves. For example:
 
 * TinaCMS is a Headless CMS where your content is stored as Markdown in GitHub
 
 **Tip:** You might have 15 great points, but start the conversation with a couple of important ones. Consider who you are speaking to when choosing the highest value points.
 
-### #2 The Unique Value
+### 2. The unique value
 
-Now think about what your product does and its competitors don't. What makes your product special?
-
-For example:
+Now think about what your product does and its competitors don't - things that make your product special. For example:
 
 * GitHub enables version control and great approval workflow
-* Great editing UX
+* It has a great editing UX
 
-### #3 The call to action
+### 3. The call to action
 
-Think about where people would go to get more information or to buy the product.
+Think about where people would go to get more information or to buy the product. For example:
 
-e.g. *"If you want to learn more, check out the demo on [tina.io](https://tina.io)"*
+* To learn more check out the demo on the website [tina.io](https://tina.io)
 
-### Now practice
+## Practice your pitch
 
 Now you have a few bullet points, go outside and record a quick video from memory. Here's a few tips to get it right:
 
-* Hook people in - Make sure to mention the question at the start, so people have a little context.
-* Practice and perfect it - Do a few takes until it feels right
+* **Hook people in** - Make sure to mention the question at the start, so people have a little context
+* **Practice and perfect it** - Do a few takes until it feels right
 
 There you go, that's your pitch!
 
