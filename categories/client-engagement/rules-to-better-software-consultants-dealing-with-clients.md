@@ -6,6 +6,7 @@ uri: rules-to-better-software-consultants-dealing-with-clients
 index:
 - being-a-good-consultant
 - elevator-pitch
+- pitch-a-product
 - do-you-prioritize-your-existing-clients-over-prospective-ones
 - do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
 - do-you-always-follow-up-your-clients
