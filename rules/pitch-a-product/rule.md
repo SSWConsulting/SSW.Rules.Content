@@ -37,7 +37,7 @@ To form a pitch, it is important to collate your thoughts about the product. Con
 
 ### #1 The What
 
-Think about what your product is, focus on the problem it solves.
+Think about what your product is, focus on the problem it solves. Also, remeber that whether they're technical people or not, always try to use laymen terms and keep it simple.
 
 For example:
 
