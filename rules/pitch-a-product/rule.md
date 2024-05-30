@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to pitch a product?
+title: Do you know the elevator pitch for a product?
 uri: pitch-a-product
 authors:
   - title: Adam Cogan
@@ -11,6 +11,7 @@ created: 2024-05-30T03:55:56.590Z
 guid: 1216903d-3e14-4db7-8596-c7d02bbb7e25
 related:
  - elevator-pitch
+   
 ---
 
 Consider the situation where you jump in an elevator and start chatting to the other person and they ask *"What does your product do?"*
@@ -25,7 +26,7 @@ Although not everybody is in sales, we all will have opportunities to influence 
 
 ![Figure: Imagine you jump in an elevator and someone says "What does your product do?"](llama-getting-elevated.jpg)
 
-## How to form a pitch
+## How to form a pitch for a product
 
 To form a pitch, it is important to collate your thoughts about the product. Consider these areas:
 
@@ -54,14 +55,14 @@ Think about where people would go to get more information or to buy the product.
 
 * To learn more check out the demo on the website [tina.io](https://tina.io)
 
-## Practice your pitch
+## Practice your product pitch
 
 Now you have a few bullet points, go outside and record a quick video from memory. Here's a few tips to get it right:
 
 * **Hook people in** - Make sure to mention the question at the start, so people have a little context
 * **Practice and perfect it** - Do a few takes until it feels right
 
-There you go, that's your pitch!
+There you go, that's your product pitch!
 
 Let's take a look at some examples of a pitch for TinaCMS:
 
