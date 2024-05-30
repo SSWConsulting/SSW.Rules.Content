@@ -77,5 +77,5 @@ Let's take a look at some examples of a pitch for TinaCMS:
 `youtube: https://www.youtube.com/watch?v=qGDmO0RPHlI`
 **Video: Gert pitches TinaCMS (Business persons perspective)**
 
-`youtube: https://www.youtube.com/watch?v=yy5_KQ2H5OA`
-**Video: Camilla pitches TinaCMS (Marketing perspective)**
+`youtube: https://youtu.be/qS9rq_Sfiug`
+**Video: Adam pitches TinaCMS (History perspective)**
