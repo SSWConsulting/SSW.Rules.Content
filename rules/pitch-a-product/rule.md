@@ -23,7 +23,7 @@ There is probably under 60 seconds to give an answer that will excite them about
 
 This is similar to an elevator pitch, it can happen when you meet a new client, at an event, when you're at a barbecue with a friend. The more effort you put into doing this well, the better you will sound.
 
-Although not everybody is in sales, we all will have to convince others at different times. 
+Although not everybody is in sales, we all will have to convince others at different times.
 
 ![Figure: Imagine you jump in an elevator and someone says "What does your product do?"](llama-getting-elevated.jpg)
 
