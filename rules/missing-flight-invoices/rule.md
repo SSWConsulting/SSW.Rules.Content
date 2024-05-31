@@ -36,7 +36,7 @@ If an invoice is missing, you can access the document by:
 2. Search and open the flights
 3. Choose "Manage booking"
 
-::: good 
+::: good
 ![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds.](qantas-tax-invoice-v2.png)
 :::
 
@@ -48,7 +48,7 @@ If an invoice is missing, you can access the document by:
 
 ![Figure: Resend the tax invoice on manage booking.](qantas-tax-invoice-2.png)
 
-5. Put the email that you wish the tax invoice to be received. The tax invoice should be resent in a few seconds. 
+5. Put the email that you wish the tax invoice to be received. The tax invoice should be resent in a few seconds.
 
 Simply retrieve the missed invoices from that portal and you can skip the middle man!
 
