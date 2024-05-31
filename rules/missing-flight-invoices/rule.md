@@ -23,24 +23,26 @@ The traditional way of retrieving the invoice is for the person who took the fli
 ![Figure: Bad example - Ask the individual for the tax invoice of a flight](2023-02-24_15-40-04.png)
 :::
 
-Luckily, most airlines offers a convenient portal for managing bookings where you can retrieve this information for all company flights, e.g. [Qantas Business Rewards](https://www.qantas.com/au/en/business-rewards/qbr/myaccount) or [Virgin Australia Business Flyer](https://www.virginaustralia.com/au/en/fly-for-business/business-flyer/)
+Luckily, most airlines offers a convenient portal for managing bookings where you can retrieve this information for all company flights, e.g. [Qantas Business Rewards](https://accounts.qantas.com/qbr/identity/login) or [Virgin Australia Business Flyer](https://www.virginaustralia.com/au/en/fly-for-business/business-flyer/)
 
 Qantas offers a robust loyalty program, [take advantage of it](/do-you-take-advantage-of-business-rewards-programs).
 
-* All flights booked by the company can be managed through [Qantas Business Rewards](https://www.qantas.com/au/en/business-rewards/qbr/myaccount)
-* There is a [monthly report](https://www.qantas.com/au/en/business-rewards/qbr/reports) which can be downloaded
+* All flights booked by the company can be managed through Qantas Business Rewards website
+* There is a **monthly report** which can be downloaded
 
 If an invoice is missing, you can access the document by:
 
-1. Going to [Qantas Business Reward | Manage trips](https://www.qantas.com/au/en/business-rewards/obt/company-trips/),
+1. Going to **Qantas Business Reward | Manage trips**
 2. Search and open the flights
-3. Choose "Manage booking".
+3. Choose "Manage booking"
 
 ::: good 
 ![Figure: Good example - Retrieve the invoice from Qantas Business Reward in 30 seconds.](qantas-tax-invoice-v2.png)
 :::
 
-**Note:** You can also access to this page as a guest via [Qantas Manage booking](https://www.qantas.com/au/en/manage-booking.html) without Qantas Business, but a booking reference is required.
+::: info
+**Note:** You can also access to this page as a guest via Qantas Manage booking (without Qantas Business), but a booking reference is required.
+:::
 
 4. Select "Resend tax invoice"
 
