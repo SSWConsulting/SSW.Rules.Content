@@ -20,7 +20,7 @@ There is probably under 60 seconds to give an answer that will excite them about
 
 <!--endintro-->
 
-This "elevator pitch" scenario can happen when you meet a new client, at an event, when you're at a barbecue with a friend. The more effort you put into doing your pitch well, the better you will sound.
+This "elevator pitch" scenario can happen when you meet a new client, at an event, or when you're at a barbecue with a friend. The more effort you put into doing your pitch well, the better you will sound.
 
 Although not everybody is in sales, we all will have opportunities to influence others at different times.
 
