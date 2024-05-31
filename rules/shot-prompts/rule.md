@@ -16,6 +16,7 @@ Understanding when to use 0-shot, 1-shot, or multi-shot prompts can help you get
 <!--endintro-->
 
 Here are some guidelines for using 0-shot, 1-shot, and multi-shot prompts:
+Note: If you are a developer, also read this [guide to using shot prompts with the OpenAI API.](https://labelbox.com/guides/zero-shot-learning-few-shot-learning-fine-tuning/)
 
 ### 0-shot prompts
 
