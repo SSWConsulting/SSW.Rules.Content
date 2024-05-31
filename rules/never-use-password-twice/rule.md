@@ -10,7 +10,7 @@ guid: a49bd55a-f213-4f25-b0f8-3340cb142e18
 
 ---
 
-Using the same password for multiple accounts or services can pose a significant security risk. It's a common mistake that many people make, but understanding the importance of unique passwords is crucial for safeguarding your online accounts. 
+Using the same password for multiple accounts or services can pose a significant security risk. It's a common mistake that many people make, but understanding the importance of unique passwords is crucial for safeguarding your online accounts.
 
 Most people might be unconcerned, saying that there was little to panic about if someone had compromised their LinkedIn account. But if you ask them _“but what about every other website you use the same username and password for?”_ they would often go pale and run to their computer to check.
 
