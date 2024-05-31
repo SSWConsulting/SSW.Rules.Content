@@ -19,6 +19,8 @@ The ChatGPT API is a versatile tool capable of far more than just facilitating c
 
 <!--endintro-->
 
+There are [many different model types](https://labelbox.com/foundation-models/list-of-foundation-models/) that you can use for different purposes.
+
 1. **Automated Content Creation:** Whether you’re generating blog posts, creating ad copy, or even writing a novel, the API can help streamline your creative process.
 2. **Document Editing:** The API can be integrated into word processors or documentation software to provide real-time suggestions, corrections, or even automatic content creation.
 3. **E-Learning Platforms:** From language learning apps to science tutoring software, you can utilize the API to create interactive, personalized learning experiences.

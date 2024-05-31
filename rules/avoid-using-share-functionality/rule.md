@@ -9,6 +9,7 @@ created: 2023-12-01T15:34:47.574Z
 guid: 02a35dc4-5c79-47b9-a561-8f4d2fe81363
 related:
 - how-to-share-a-file-folder-in-sharepoint
+- change-link-sharing-default-behaviour
 ---
 Sharing a file is easy when looking at a file. However the email people get from it will have a notification-look, which may result in it being overlooked/ignored.
 

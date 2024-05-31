@@ -36,7 +36,7 @@ To form a pitch, it is important to collate your thoughts about the product. Con
 
 ### 1. The what
 
-Think about what your product is, focus on the problem it solves. For example:
+Think about what your product is, focus on the problem it solves. Also, remeber that whether they're technical people or not, always try to use laymen terms and keep it simple.
 
 * TinaCMS is a Headless CMS where your content is stored as Markdown in GitHub
 
