@@ -21,7 +21,7 @@ If you are checking your sites permissions regularly you will probably notice a 
 :::
 
 The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document".  This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
-The consequence in SharePoint is that unique permissions are applied to the individual items breaking permission inheritance. It also has performance implications.  Links should instead be created with the "People with existing access" setting.
+The consequence in SharePoint is that unique permissions are applied to the individual items **breaking permission inheritance**. It also has performance implications.  Links should instead be created with the "People with existing access" setting.
 
 <!--endintro-->
 
