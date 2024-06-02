@@ -39,7 +39,7 @@ At a high-level you can set up version control as follows. Click on the links to
      * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
      * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
      
-   ![Figure: PBIP artifacts](ProjectFolders.png)
+     ![Figure: PBIP artifacts](ProjectFolders.png)
      
 3. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note, as of this writing Power BI's Git integration only works with Azure DevOps. 
 
