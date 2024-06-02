@@ -43,7 +43,7 @@ The correct method is to 1) convert your reports to the **Power BI Desktop Proje
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-Read the rule [Do you know the Power BI version control features?](https://www.ssw.com.au/rules/do-you-know-powerbi-version-control-features/) to learn the basics of Power BI version control features. 
+Read the rule [Do you know the Power BI version control features?](https://www.ssw.com.au/rules/do-you-know-powerbi-version-control-features/) to learn more about Power BI Desktop Projects, and Power BI's integration with Git. 
 
 ### Editing and Committing Reports
 
