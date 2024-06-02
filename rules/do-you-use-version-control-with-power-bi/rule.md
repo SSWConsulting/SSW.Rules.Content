@@ -12,6 +12,7 @@ authors:
   - title: Chris Beaver
     url: https://ssw.com.au/people/chris-beaver
 related:
+  - do-you-know-powerbi-version-control-features
   - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 redirects: []
 created: 2017-03-29T06:06:12.000Z
