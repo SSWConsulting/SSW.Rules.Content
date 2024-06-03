@@ -13,6 +13,7 @@ related:
   - always-reduce-complexity
   - concise-writing
   - do-you-provide-a-good-user-experience
+  - do-not-bury-your-headline
 redirects: []
 ---
 
@@ -26,7 +27,7 @@ We can intentionally organize information to create friendly products aligned wi
 The term was popularized in 2006 by the [Nielsen Norman Group](https://www.nngroup.com/). 
 These world leaders in user experience research have conducted eye-tracking studies that found: 
 
-1. Users read only the first few lines of content on a page
+1. Users read only the first few lines of content on a page, so make sure you [don't bury your headline](http://www.ssw.com.au/rules/do-not-bury-your-headline)
 2. Users skim down the left side of the page primarily
 
 ![Figure: The F-shaped pattern reflects our tendency to skim](F-shape-diagram.png)
