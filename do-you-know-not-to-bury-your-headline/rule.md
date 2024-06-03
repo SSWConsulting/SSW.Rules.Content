@@ -2,6 +2,8 @@
 type: rule
 title: Do you know not to bury your headline
 uri: do-you-know-not-to-bury-your-headline
+redirects:
+  - do-not-bury-your-headline
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adamcogan
