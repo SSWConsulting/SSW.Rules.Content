@@ -16,7 +16,7 @@ Depending on how much visibility you need on ongoing costs, you will have to dec
 <!--endintro-->
 
 A 1-week Sprint is for small projects (less than 2 months) or if constant visibility into costs is an important factor, as it gives better feedback to the Product Owner.  
-:::greybox
+::: greybox
 **Note:** This can be at the cost of increased overheads. 
 :::
 
