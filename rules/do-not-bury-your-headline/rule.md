@@ -12,18 +12,17 @@ related:
    
 ---
 
-When communicating important information via email, it's crucial to ensure that the main purpose of the email is immediately clear. Burying the headline, or placing the primary message deep within the text, can lead to confusion and miscommunication. 
-
+When communicating important information via email, it's crucial to ensure that the main purpose of the email is immediately clear. Burying the headline, or placing the primary message deep within the text, can lead to confusion and miscommunication.
 
 <!--endintro-->
 
 ### Key Points
 
 1. **State the Main Purpose Early**
-   - The main purpose of the email should be in the first sentence or two. This helps ensure that even if the recipient skims the email, they understand the primary message. [Don't bury your headline](http://www.ssw.com.au/rules/f-shaped-pattern/).
+   * The main purpose of the email should be in the first sentence or two. This helps ensure that even if the recipient skims the email, they understand the primary message. [Don't bury your headline](http://www.ssw.com.au/rules/f-shaped-pattern/).
 
 2. **Clarity Over Complexity**
-   - An email should be able to be read once to understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
+   * An email should be able to be read once to understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
 
 ### Practical Example
 
@@ -48,7 +47,7 @@ In contrast:
 ::: greybox
 Hi Bob,
 
-Thanks for your help with the project. 
+Thanks for your help with the project.
 
 The updates you made were mostly correct. I have reviewed the code and noticed a few things. Some sections of the code need refactoring. I think it's better if we avoid adding those changes until we meet tomorrow.
 
@@ -61,9 +60,9 @@ Figure: Bad Example - The main point is buried and not immediately clear
 
 ### Tips for Effective Email Communication
 
-- **Keep it Brief**: Long emails can lose the recipient's attention. Keep your emails concise and to the point.
-- **Use Clear Subject Lines**: Ensure the email subject line reflects the main content of the email.
-- **Highlight Key Information**: Use formatting tools like bold or bullet points to highlight crucial points.
-- **Summarize When Necessary**: If the email contains detailed information, start with a brief summary of the main points.
+* **Keep it Brief**: Long emails can lose the recipient's attention. Keep your emails concise and to the point.
+* **Use Clear Subject Lines**: Ensure the email subject line reflects the main content of the email.
+* **Highlight Key Information**: Use formatting tools like bold or bullet points to highlight crucial points.
+* **Summarize When Necessary**: If the email contains detailed information, start with a brief summary of the main points.
 
 By following these guidelines, you can improve the clarity and effectiveness of your email communications, ensuring that important messages are understood quickly and accurately.
