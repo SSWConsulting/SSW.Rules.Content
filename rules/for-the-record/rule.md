@@ -118,4 +118,3 @@ Make sure you Cc your account manager and any other relevant parties so that the
 Make it clear that your advice is purely technical in nature and not business or legal advice. Consider putting the words "The above is not legal advice." at the end of your email.
 
 This is also a good thing to do if you have an [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
-
