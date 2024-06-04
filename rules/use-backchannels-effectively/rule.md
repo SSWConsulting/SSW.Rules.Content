@@ -49,9 +49,9 @@ Figure: Good example - All team members, including the Solution Architect, are i
 
 If the Software Engineers still disagree after the group chat, then they should make the matter official by sending a ['For the record'](http://www.ssw.com.au/for-the-record) email.
 
-*E.g. "For the record… I understand you want microservices because of xxx
-       However I think that is wrong because of yyy
-       I have CCed <3months@followupthen.com> to see if any of us have changed our mind"*
+*E.g. "For the record… I understand you want microservices because of xxx    
+       However I think that is wrong because of yyy      
+       I have CCed <3months@followupthen.com> to see if any of us have changed our mind"*         
 
 :::  
 
