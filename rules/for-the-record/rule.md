@@ -119,4 +119,3 @@ Make it clear that your advice is purely technical in nature and not business or
 
 This is also a good thing to do if you have an [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
 
-Take some time to complete this ["'For the record' emails" survey](https://forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhURVdQRVBSUFZINzgxMzVLRlVOUVNDSUpBSiQlQCN0PWcu).
