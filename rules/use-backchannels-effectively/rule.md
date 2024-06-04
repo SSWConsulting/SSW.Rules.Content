@@ -37,7 +37,8 @@ In general, use Teams for private information, or SMS as a last resort. Treat s
 
 ::: greybox  
 
-* **Example Situation**:
+**Example Situation**
+
 ::: bad  
 Figure: Bad example - 3 Software Engineers disagree with a decision and they start a backchannel to talk about it without the Solution Architect involved and reach a decision to not proceed
 :::
