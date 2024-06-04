@@ -15,6 +15,7 @@ redirects: []
 ---
 
 A report with drill through like this should have the number in nodes like Outlook.
+
 <!--endintro-->
 
 ::: bad  
@@ -22,7 +23,7 @@ A report with drill through like this should have the number in nodes like Outlo
 :::
 
 ::: good  
-![Figure: Good example - This does have the nodes count](number.jpg) 
+![Figure: Good example - This does have the nodes count](number.jpg)
 :::
 
 Here's how to add nodes count to the textbox with "collapsed(+)" in your report:
@@ -37,6 +38,7 @@ SELECT a.TerritoryID, ( CONVERT ( varchar,a.TerritoryDescription ) + ' (' + CONV
 
 = Fields!Number.Value
 ```
+
 ::: bad  
 Bad example - Get the Outlook Node Count look by changing the SQL.
 :::
@@ -46,8 +48,9 @@ Bad example - Get the Outlook Node Count look by changing the SQL.
 
 = Fields!Name.Value + "(" + CStr ( CountRows( ) ) + ")"
 ```
+
 ::: good  
 Use the CountRows() function to get the Outlook Node Count look
 :::
 
-Note: The **CountRows** function is one of the several native functions provided by Reporting Services and returns the count of rows within a specified scope. If no scope is specified, it defaults to the innermost scope, which in our case resolves to the static group that defines the values in the data cells.
+**Note:** The **CountRows** function is one of the several native functions provided by Reporting Services and returns the count of rows within a specified scope. If no scope is specified, it defaults to the innermost scope, which in our case resolves to the static group that defines the values in the data cells.
