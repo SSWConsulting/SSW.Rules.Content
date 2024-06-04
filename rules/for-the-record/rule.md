@@ -12,7 +12,6 @@ redirects:
   - do-you-send-a-for-the-record-email-when-you-disagree
   - send-a-for-the-record-email-when-you-disagree
 created: 2010-07-16T06:49:34.000Z
-archivedreason: null
 guid: 47440022-76fd-4df5-a81c-363df2a0ccc0
 ---
 
@@ -119,4 +118,24 @@ Make it clear that your advice is purely technical in nature and not business or
 
 This is also a good thing to do if you have an [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
 
-Take some time to complete this ["'For the record' emails" survey](https://forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhURVdQRVBSUFZINzgxMzVLRlVOUVNDSUpBSiQlQCN0PWcu).
+### Avoid Back Channels
+
+If you disagree with a decision made by a decision maker, it is crucial to include them in any discussions rather than seeking another opinion. This ensures transparency and maintains trust within the team. Here’s why avoiding back channels is important:
+
+* **Transparency:** Everyone involved in the decision-making process stays informed.
+* **Accountability:** Ensures the decision maker is aware of all perspectives and can reconsider their stance if necessary.
+* **Trust:** Avoids undermining the authority of the decision maker and promotes a healthy team dynamic.
+
+::: greybox
+
+The Product Owner has asked John to change a project to Microservices and John disagrees and wants Modular-Monolith and wants a second opinion.
+
+❌ **Bad example** - John asks Bob (a Solution Architect) for their opinion privately without including the Product Owner
+
+✅ **Good example** - John opens a group chat with Bob and the Product Owner to seek Bob's opinion
+
+If John still disagrees after the Teams chat with Bob and the Product Owner, then he should send his "For the record" email (which is more official).
+
+:::
+
+Take some time to complete this ["'For the record' emails" survey](https://forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhURVdQRVBSUFZINzgx
