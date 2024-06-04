@@ -16,30 +16,11 @@ When communicating important information via email, it's crucial to ensure that 
 <!--endintro-->
 
 
-1. **State the Main Purpose Early**
-   * The main purpose of the email should be in the first sentence or two. This helps ensure that even if the recipient skims the email, they understand the primary message. [Don't bury your headline](http://www.ssw.com.au/rules/f-shaped-pattern/).
+- **State the Main Purpose Early** - The main purpose of the email should be in the first sentence or two. This helps ensure that even if the recipient skims the email, they understand the primary message. [Don't bury your headline](http://www.ssw.com.au/rules/f-shaped-pattern/).
 
-2. **Clarity Over Complexity**
-   * An email should be able to be read once to understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
+- **Clarity Over Complexity** - An email should be able to be read once to understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
 
 Here's how you can improve email clarity by not burying the headline:
-
-::: greybox
-Hi Bob,
-
-I have reviewed the code and some sections need refactoring. Can we meet tomorrow to review before any changes are made?
-
-Thanks for your help with the project.
-
-Thanks,
-
-John
-:::
-::: good
-Figure: Good Example - The main point is clear and immediately addressed
-:::
-
-In contrast:
 
 ::: greybox
 Hi Bob,
@@ -48,13 +29,31 @@ Thanks for your help with the project.
 
 The updates you made were mostly correct. I have reviewed the code and noticed a few things. Some sections of the code need refactoring. I think it's better if we avoid adding those changes until we meet tomorrow.
 
-Thanks,
-
+Thanks,    
 John
+
 :::
 ::: bad
-Figure: Bad Example - The main point is buried and not immediately clear
+Figure: Bad example - The main point is clear and immediately addressed
 :::
+::: greybox
+Hi Bob,
+
+I have reviewed the code and some sections need refactoring. Can we meet tomorrow to review before any changes are made?
+
+Thanks for your help with the project.
+
+Thanks,  
+John
+:::
+::: good
+Figure: Good example - The main point is buried and not immediately clear
+:::
+
+
+
+
+
 
 ### Tips for Effective Email Communication
 
