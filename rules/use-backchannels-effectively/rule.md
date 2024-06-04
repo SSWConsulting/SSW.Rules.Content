@@ -36,6 +36,7 @@ In general, use Teams for private information, or SMS as a last resort. Treat s
 **When something feels "off"** - Often, you might feel that a decision made by a colleague or manager is not quite right. In such cases, backchanneling can help clarify and resolve these situations. Here’s how you should handle it:
 
 ::: greybox  
+
 * **Example Situation**:
 ::: bad  
 Figure: Bad example - 3 Software Engineers disagree with a decision and they start a backchannel to talk about it without the Solution Architect involved and reach a decision to not proceed
