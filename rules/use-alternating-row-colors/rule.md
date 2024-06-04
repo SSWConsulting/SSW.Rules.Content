@@ -25,5 +25,5 @@ Use White and Gainsboro (a light shade of grey). Select the row, and enter this 
 ```
 
 ::: good  
-![Figure: Good example - Alternating row colors greatly improve the readability of reports, and is very easy to do in Reporting Services](RSRules_alternatingcolors.gif) 
+![Figure: Good example - Alternating row colors greatly improve the readability of reports, and is very easy to do in Reporting Services](RSRules_alternatingcolors.gif)
 :::
