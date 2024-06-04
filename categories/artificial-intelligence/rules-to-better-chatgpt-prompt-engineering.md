@@ -35,6 +35,8 @@ index:
   - chatgpt-for-powerpoint
   - use-chatgpt-to-write-a-rule
   - chatgpt-for-email
+  - humanise-ai-generated-content
+  - train-ai-to-write-in-your-style
 
 ---
 
