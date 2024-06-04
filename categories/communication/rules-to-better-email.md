@@ -11,6 +11,7 @@ index:
 - as-per-our-conversation-emails
 - number-tasks-questions
 - include-names-as-headings
+- do-not-bury-your-headline
 - standard-email-types
 - change-from-x-to-y
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
