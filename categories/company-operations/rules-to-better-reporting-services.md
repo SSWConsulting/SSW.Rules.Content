@@ -30,6 +30,8 @@ index:
 - use-expressions-to-scale-charts
 - show-change-in-reports
 - avoid-showing-change-as-percentage
+- use-alternating-row-colors
+- nodes-count-like-outlook
 
 ---
 
