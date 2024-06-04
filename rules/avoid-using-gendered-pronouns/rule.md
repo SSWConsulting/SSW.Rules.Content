@@ -25,17 +25,18 @@ The best pronoun to use is "they". It’s simple and elegant and doesn't exclude
 <!--endintro-->
 
 ::: greybox
-This feature is particularly important if the user runs a long task. Usually only at the end of a process, <mark>he</mark> will know the amount of time spent. But if the status contains the time taken and the progress percentage, <mark>he</mark> can evaluate how long it will take beforehand. Then <mark>he</mark> can switch to another work or go get a cup of coffee.  
+This new feature is important if the user runs long tasks. At the end of a process, <mark>he</mark> will know the amount of time spent. But if the status shows the time taken and the progress percentage, <mark>he</mark> can evaluate how long it will take beforehand. Then <mark>he</mark> can go get a cup of coffee.  
 :::
 ::: bad
 Bad example: User referred to as "he"
 :::
 
 ::: greybox
-This feature is particularly important if the user runs a long task. Usually only at the end of a process, <mark>they</mark> will know the amount of time spent. But if the status contains the time taken and the progress percentage, <mark>they</mark> can evaluate how long it will take beforehand. Then <mark>they</mark> can switch to another work or go get a cup of coffee.  
+This new feature is important if the user runs long tasks. At the end of a process, <mark>they</mark> will know the amount of time spent. But if the status shows the time taken and the progress percentage, <mark>they</mark> can evaluate how long it will take beforehand. Then <mark>they</mark> can go get a cup of coffee.  
 :::
 ::: good
 Good example: User referred to as "they"
+:::
 :::
 
 ::: info
