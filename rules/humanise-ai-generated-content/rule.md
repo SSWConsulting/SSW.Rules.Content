@@ -8,7 +8,10 @@ seoDescription: Enhance the human-like quality of your AI-generated content with
   ChatGPT's content engaging, relatable, and valuable to readers.
 uri: humanise-ai-generated-content
 authors:
-  - title: ""
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren/
+related:
+  - train-ai-to-write-in-your-style
 created: 2024-06-04T00:04:05.234Z
 guid: 6a85e236-0988-4c02-9003-4d924f9092f0
 ---
