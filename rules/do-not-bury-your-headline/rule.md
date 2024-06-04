@@ -4,7 +4,7 @@ title: Do you know not to bury your headline
 uri: do-not-bury-your-headline
 authors:
   - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adamcogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2024-06-03T13:42:55.753Z
 guid: 7e8b6d4e-9f5d-42f2-8c3a-71d73867a1b3
 related:
