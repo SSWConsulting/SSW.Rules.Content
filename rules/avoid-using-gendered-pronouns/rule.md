@@ -38,7 +38,6 @@ This new feature is important if the user runs long tasks. At the end of a proce
 Good example: User referred to as "they"
 :::
 
-
 ::: info
 You can use tools like [Alex](https://alexjs.com) to get better at considerate writing finding potential occurrences with a tool that suggests helpful alternatives.
 
