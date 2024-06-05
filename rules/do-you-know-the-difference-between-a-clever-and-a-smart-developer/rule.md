@@ -141,7 +141,7 @@ Clever developers fix a problem where Smart Developers stop a problem from happe
 
 Lets say you receive a PBI saying that XYZ method is always returning a value 0.001 more than it should. 
 
-**Smart Developer**
+#### Smart Developer
 
 Identifies that some incoming data is always out and results in the small rounding issue. 
 
@@ -149,7 +149,7 @@ Identifies that some incoming data is always out and results in the small roundi
 return (value-0.001) 
 ```
 
-**Clever Developer**
+#### Clever Developer
 
 Identifies that a method downstream is rounding to 2 decimal places and removes this. 
 
