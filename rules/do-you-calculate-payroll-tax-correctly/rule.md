@@ -31,5 +31,5 @@ It is important to stay up to date with the State Government's rules as they may
 
 * [NSW OSR - Taxes/Payroll Tax](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/help-getting-it-right/common-errors)
 
-Every state treats salary sacrifice differently for payroll tax purposes, so be sure to check your State Government's rules before processing your payroll tax return. 
+Every state treats salary sacrifice differently for payroll tax purposes, so be sure to check your State Government's rules before processing your payroll tax return. For additional insights on related tax matters, you can refer to *[Bristax's article on self-education expenses](https://bristax.com.au/tax-articles/self-education-expenses/). 
 :::
