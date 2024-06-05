@@ -52,7 +52,7 @@ In general, use Teams for private information, or SMS as a last resort. Treat s
 3 Software Engineers disagree with a decision made in a meeting. They open a group chat with the Solution Architect soon after to discuss the decision.
 :::
 ::: good
-**Figure: Good example - All team members, including the Solution Architect, are involved in a group chat and kept informed**
+**Figure: Good example - All team members, including the Solution Architect, are involved in a group chat and are kept informed**
 :::
 
 :::
