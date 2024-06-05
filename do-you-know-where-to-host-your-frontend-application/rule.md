@@ -3,6 +3,8 @@ type: rule
 title: Do you know where to host your Frontend application?
 guid: 4481526b-a691-4570-87d3-a9d474ae0dfd
 uri: do-you-know-where-to-host-your-frontend-application
+redirects:
+  - do-you-know-where-to-host-frontend
 created: 2024-05-29T00:54:42.810Z
 authors:
   - title: Chris Clement
