@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Does your SharePoint site have a favicon?
+title: Do you have a favicon on your SharePoint site?
 guid: c9198979-7771-4526-b3ee-fb05d2024b36
 uri: does-your-sharepoint-site-have-a-favicon
 created: 2009-04-21T03:40:52.0000000Z
@@ -11,19 +11,18 @@ authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
 related:
-- do-you-have-a-favicon-in-your-webpage
+- favicon
 redirects: []
 
 ---
 
-All websites should be following     [the favicon rule](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterWebsitesGraphics.aspx#Favicon).
+All websites should be following [the favicon rule](/favicon).
 
-A Favicon is a small image file included on nearly all professional developed sites. When a browser hits your website and a user bookmarks that site then the favicon.ico graphic will be displayed in the browser’s URL/address line upon subsequent visits to that site.
+A Favicon is a small image file included on nearly all professional developed sites. When a browser hits your website and a user bookmarks that site then the `favicon.ico` graphic will be displayed in the browser’s URL/address line upon subsequent visits to that site.
 
 <!--endintro-->
 
 Let's see how it's done for SharePoint:
-
 
 ::: greybox
 
@@ -36,4 +35,4 @@ Let's see how it's done for SharePoint:
  &lt;/head&gt;
 
 :::
- **Figure: One line of HTML lets you add your company's icon to  your web page**
+ **Figure: One line of HTML lets you add your company's icon to your SharePoint site**
