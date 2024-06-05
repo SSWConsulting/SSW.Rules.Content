@@ -10,9 +10,9 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related:
-- write-a-good-pull-request
-- reply-done-and-delete-the-email
-- when-to-send-a-done-email-in-scrum
+  - write-a-good-pull-request
+  - reply-done-and-delete-the-email
+  - when-to-send-a-done-email-in-scrum
 redirects: []
 created: 2023-07-06T23:11:00.000Z
 archivedreason: null

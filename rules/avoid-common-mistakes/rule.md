@@ -12,10 +12,10 @@ authors:
 created: 2023-10-05T17:05:14.553Z
 guid: 92fc2f34-a038-46ac-9fea-7cee042175ec
 related:
-- ampersand
-- are-you-careful-with-your-spelling-grammar-and-punctuation
+  - ampersand
+  - are-you-careful-with-your-spelling-grammar-and-punctuation
 redirects:
-- spell-aka-correctly
+  - spell-aka-correctly
 
 ---
 
