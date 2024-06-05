@@ -14,7 +14,7 @@ guid: 4112a1e5-50d8-449b-9cc8-9c42d3c1e814
 
 ---
 
-Ensuring seamless connectivity during international travel is a crucial consideration, especially on business trips. While obtaining a roaming package from your service provider is a common solution, you might face exorbitant bills upon returning home. 
+Ensuring seamless connectivity during international travel is a crucial consideration, especially on business trips. While obtaining a roaming package from your service provider is a common solution, you might face exorbitant bills upon returning home.
 
 The question arises: _How can one stay connected without the risk of huge bills?_
 
@@ -26,15 +26,15 @@ There are few options:
 
 If you travel overseas a lot, it may be worth considering owning a dual-SIM phone. This is highly recommended due to its cost-effectiveness, easy management, and enhanced security.
 
-Take the popular iPhone as an example, which offers an eSIM and a physical SIM slot. You can convert your primary mobile number to an eSIM and keep the physical SIM slot for your travel SIMs. 
+Take the popular iPhone as an example, which offers an eSIM and a physical SIM slot. You can convert your primary mobile number to an eSIM and keep the physical SIM slot for your travel SIMs.
 
-* ✅ Travel SIMs are usually data-only, cheap, and easy to acquire 
+* ✅ Travel SIMs are usually data-only, cheap, and easy to acquire
 * ✅ Travel SIMs can be pre-purchased weeks before you go – it is only activated once you connect it to the network
 * ✅ Your mobile number is still active when overseas (with your eSIM) and the data usage stays with the travel SIMs
 
-### 2. Portable 4G Router 
+### 2. Portable 4G Router
 
-Invest in a device, insert the local travel SIM, and share the Wi-Fi with multiple users and devices. 
+Invest in a device, insert the local travel SIM, and share the Wi-Fi with multiple users and devices.
 
 * ✅ This option proves cost-effective, preserves your phone's battery life and is perfect for single-SIM phones
 * ❌ You will need to carry an extra device
@@ -65,7 +65,7 @@ Travel SIMs usually offers better user experience if you spend more data.
 ![✅ Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
 
 ::: info
-**Tip:** travelling to China can be different due to the Great Firewall, which prevents you from accessing Google, Facebook, Teams etc. 
+**Tip:** travelling to China can be different due to the Great Firewall, which prevents you from accessing Google, Facebook, Teams etc.
 
-It may require a VPN to access these services from a local network. But the travel SIMs purchased outside of China or roaming mobile data packages have no restrictions because your IP is where the SIMs are registered. 
+It may require a VPN to access these services from a local network. But the travel SIMs purchased outside of China or roaming mobile data packages have no restrictions because your IP is where the SIMs are registered.
 :::
