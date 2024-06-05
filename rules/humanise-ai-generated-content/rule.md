@@ -80,7 +80,7 @@ Adjust the tone and vocabulary to match the reading level and interests of a you
 Analyze the attached articles for tone, structure, and vocabulary, then use this style to write new content."
 :::
 
-::: good 
+::: good
 Figure: Good example - Incorporating current and relevant facts to add credibility
 :::
 

@@ -45,7 +45,7 @@ Although these requirements come from the Product Owner, it is often the develop
 ![Figure: Good example - Github Issues](GitHubIssues.png)
 :::
 
-#### 3. Azure DevOps - E.g. https://ssw.visualstudio.com
+#### 3. Azure DevOps - E.g. <https://ssw.visualstudio.com>
 
 ::: good
 ![Figure: Good example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog_1710232021931.png)

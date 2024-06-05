@@ -21,4 +21,4 @@ redirects:
 
 If you have a big task with an estimate of more the 4 hours, you should consider breaking it in sub-tasks. In case the estimate has changed during the Sprint, the “Remaining Hours” field must be updated in order to have an accurate Burndown chart.
 
-The reason Scrum limits the maximum hours is because you should always know in which task you are working and we believe one single action that takes more than 4 hours might be too generic. 
+The reason Scrum limits the maximum hours is because you should always know in which task you are working and we believe one single action that takes more than 4 hours might be too generic.

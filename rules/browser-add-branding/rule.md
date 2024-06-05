@@ -40,7 +40,7 @@ Setting a different per Edge or Chrome profile background image is a great way t
    ![Figure: Opening new tab settings in a Microsoft Edge browser](open-browser-settings.jpg)
 4. Click on Upload Image, select the image you want to use and click Open
 5. Click Apply
-6. Uncheck Change new background daily 
+6. Uncheck Change new background daily
 
    ![](select-background-image.jpg)
 7. Close the dialog box, note you might have to scroll back up to see the close button
