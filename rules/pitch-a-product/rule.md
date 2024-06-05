@@ -10,7 +10,7 @@ authors:
 created: 2024-05-30T03:55:56.590Z
 guid: 1216903d-3e14-4db7-8596-c7d02bbb7e25
 related:
- - elevator-pitch
+  - elevator-pitch
 ---
 
 ## The scenario

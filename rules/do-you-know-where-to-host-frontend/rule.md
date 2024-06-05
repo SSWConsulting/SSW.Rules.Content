@@ -8,7 +8,7 @@ authors:
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement/
 related: 
- - migrating-frontend-to-net8
+  - migrating-frontend-to-net8
 
 ---
 
