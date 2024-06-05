@@ -65,7 +65,7 @@ Travel SIMs usually offers better user experience if you spend more data.
 ![✅ Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
 
 ::: info
-**Tip:** travelling to China can be different due to the Great Firewall, which prevents you from accessing Google, Facebook, Teams etc.
+**Tip:** Travelling to China can be different due to the Great Firewall, which prevents you from accessing Google, Facebook, Teams etc.
 
 It may require a VPN to access these services from a local network. But the travel SIMs purchased outside of China or roaming mobile data packages have no restrictions because your IP is where the SIMs are registered.
 :::
