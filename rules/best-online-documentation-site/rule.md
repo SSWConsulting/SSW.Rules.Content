@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you know the best online documentation site?
 seoDescription: Discover the best documentation sites like TinaCMS, GitBook,
   ReadMe.io, and others. Learn about their features, use cases, and how to

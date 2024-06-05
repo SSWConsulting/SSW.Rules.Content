@@ -10,8 +10,8 @@ authors:
 created: 2022-02-07T00:14:18.003Z
 guid: 086a184c-b63f-4726-9eb7-bfd6fef3432a
 related:
-- avoid-using-share-functionality
-- how-to-share-a-file-folder-in-sharepoint
+  - avoid-using-share-functionality
+  - how-to-share-a-file-folder-in-sharepoint
 ---
 If you are checking your sites permissions regularly you will probably notice a lot of unique permissions being applied.
 

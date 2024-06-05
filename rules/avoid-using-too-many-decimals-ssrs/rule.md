@@ -9,7 +9,7 @@ authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- avoid-using-too-many-decimals
+  - avoid-using-too-many-decimals
 redirects: []
 
 ---

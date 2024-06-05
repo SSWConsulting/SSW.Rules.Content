@@ -9,10 +9,10 @@ authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
 related:
- - use-different-tones
- - shot-prompts
- - generating-multiple-responses-from-chatgpt
- - chatgpt-prompt-templates
+  - use-different-tones
+  - shot-prompts
+  - generating-multiple-responses-from-chatgpt
+  - chatgpt-prompt-templates
 
 ---
 

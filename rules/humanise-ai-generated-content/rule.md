@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you make ChatGPT produce human sounding content?
 seoDescription: Enhance the human-like quality of your AI-generated content with
   SSW's comprehensive guide. Learn techniques such as using personas,

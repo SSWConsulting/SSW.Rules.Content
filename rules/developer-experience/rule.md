@@ -6,12 +6,12 @@ guid: be2d36fd-bd6e-4e50-8b05-b76591961d5f
 uri: developer-experience
 created: 2012-03-16T07:44:28.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
 related:
   - project-setup
   - dev-containers

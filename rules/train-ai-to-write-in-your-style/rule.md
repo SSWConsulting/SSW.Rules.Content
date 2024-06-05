@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you know how to train an AI to write in your style?
 seoDescription: Learn how to train AI, like ChatGPT, to write in your unique
   style with SSW's step-by-step guide. Discover techniques for providing writing

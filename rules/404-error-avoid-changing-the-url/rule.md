@@ -9,9 +9,9 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: 
-- 404-useful-error-page
+  - 404-useful-error-page
 redirects:
-- do-you-avoid-changing-the-url-on-a-404-error
+  - do-you-avoid-changing-the-url-on-a-404-error
 
 ---
 

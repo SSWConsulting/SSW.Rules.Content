@@ -9,9 +9,9 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: 
-- create-PBIs-under-2-days
+  - create-PBIs-under-2-days
 redirects:
-- estimating-do-you-break-large-tasks-into-smaller-tasks
+  - estimating-do-you-break-large-tasks-into-smaller-tasks
 
 ---
 
