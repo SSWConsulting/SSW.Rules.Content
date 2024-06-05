@@ -18,7 +18,6 @@ redirects: []
 SharePoint as a platform on top of ASP.NET gives you many components that you don’t get from ASP.NET out of the box:
 <!--endintro-->
 
-
 * WYSIWYG editing (IE only, no FireFox)
 
     SharePoint’s rich text editor works really well with IE out of the box, works with SharePoint image libraries, and supports many features and even allows site style configurations to define and restrict styles that can be applied in the site. Unfortunately, it is not a cross browser compliant WYSIWYG editor.
@@ -53,6 +52,5 @@ SharePoint as a platform on top of ASP.NET gives you many components that you do
     SharePoint search can index Office documents as well as other popular document formats like PDF.
 
     Search engines like Google performs well for public content, but there is no way for the search crawler to index inside your organization. SharePoint uses its own internal crawler to keep your site’s content up to date in the search results.
-
 
 In ASP.NET - this is often overlooked – most ASP.NET search facilities are limited to only specific kind of data: e.g. *search clients with the ID of SSW*
