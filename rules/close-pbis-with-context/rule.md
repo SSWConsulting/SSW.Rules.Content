@@ -20,7 +20,7 @@ guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
 
 ---
 
-PBIs, tasks, and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. By adding a closing comment, it allows others to understand why the PBI was closed and what the outcome was. This comment is critical when closing a PBI as "Won't Fix" or "Duplicate" but is valuable in all scenarios and should be the default approach. 
+PBIs, tasks, and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. By adding a closing comment, it allows others to understand why the PBI was closed and what the outcome was. This comment is critical when closing a PBI as "Won't Fix" or "Duplicate" but is valuable in all scenarios and should be the default approach.
 
 For example, if you have UI changes, a couple of screenshots can go a long way to help the team understand what was done. Similarly, if there are changes to architecture documents or the readme, providing a link to those artifacts helps others get across the change.
 
@@ -42,7 +42,7 @@ Screenshots are just one of the things that you could add for more context, some
 * Mention if there is relevant documentation that was updated
 * Mention any additional context in the pull request that you didn't want to duplicate
 * If you had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)
-* If you are closing a PBI as "Duplicate", add a link to the PBI that is a duplicate 
+* If you are closing a PBI as "Duplicate", add a link to the PBI that is a duplicate
 * If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed
 
 ::: info
