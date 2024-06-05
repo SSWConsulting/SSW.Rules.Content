@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Data Layout - Do you display zero number as blank in your reports?
+title: Data Layout - Do you display zero number as blank in reports?
 guid: 05330d1a-22b5-4f50-aa67-7b9a13605f25
 uri: display-zero-number-as-blank
 created: 2023-12-11T14:38:33.0000000Z
@@ -15,18 +15,19 @@ redirects: []
 ---
 
 It looks better to display zero numbers as blank than to leave lots of '0' in a report.
+
 <!--endintro-->
 
 It's easy to do with a simple format code '#,#'.
 
 ::: bad  
-![Figure: Bad example - Bad Zero Number Format](AvoidZeroNum_Bad.gif)  
+![Figure: Bad example - Bad zero number format](AvoidZeroNum_Bad.gif)  
 :::
 
 ::: good  
-![Figure: Good example - Good Zero Number Format](AvoidZeroNum_good.gif)
+![Figure: Good example - Good zero number format](AvoidZeroNum_good.gif)
 :::
 
 ::: good  
-![Figure: Good example -  Format Code](AvoidZeroNum_format.gif)
+![Figure: Good example -  Format code](AvoidZeroNum_format.gif)
 :::
