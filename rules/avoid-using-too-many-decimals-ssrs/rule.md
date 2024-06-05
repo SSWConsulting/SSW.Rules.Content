@@ -20,11 +20,11 @@ Having decimal places is generally not required when the numbers are there to sh
 Only include decimal places on reports for accountants that will be used for reconcilations.
 
 ::: bad  
-![Figure: Bad example - {{ This does display decimal place }}]({{ decimal.jpg }})  
+![Figure: Bad example - This does display decimal place](decimal.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - {{ This avoid displaying decimal place }}]({{ No_decimal.jpg }})
+![Figure: Good example - This avoid displaying decimal place](No_decimal.jpg)
 :::
 
 Here's how to remove decimal place in your report:
@@ -46,5 +46,5 @@ For some users (usually accountants) the number is critical to accurate reportin
 This workaround should not be necessary. See the suggestion to Reporting Services ?Give users a runtime option to increase or decrease decimals places, so we don't need this workaround.
 
 ::: good  
-![Figure: Good example - {{ Add a parameter to set the decimal places format }}]({{ DecimalParameter.gif }})
+![Figure: Good example - Add a parameter to set the decimal places format](DecimalParameter.gif)
 :::
