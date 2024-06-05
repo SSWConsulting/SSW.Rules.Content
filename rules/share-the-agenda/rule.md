@@ -20,6 +20,8 @@ Here’s how to ensure your meetings are effective and worthwhile. Before a meet
   * Give each attendee a copy (usually in the appointment)
   * If the discussion strays from the topic, everyone should use the agenda to help keep it on track
   * Possibly [mark items on the agenda as “For information,” “For discussion,” or “For decision”](/stick-to-the-agenda-and-complete-the-meetings-goal)
+  * Don't add unnecessary agenda items. You won't have time in the future. If you wouldn’t want to do the thing tomorrow, don’t say yes to doing it a month from now.
+
 * Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
 * The meeting starts the minute the invite is sent, not when it physically starts
   That means read the agenda and prepare. For example if feedback is needed on a large document, give people the link to the document + give advanced warning that  their feedback on the document will be taken ahead of time
