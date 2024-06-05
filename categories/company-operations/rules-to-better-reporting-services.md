@@ -32,6 +32,7 @@ index:
 - avoid-showing-change-as-percentage
 - use-alternating-row-colors
 - nodes-count-like-outlook
+- avoid-using-too-many-decimals-ssrs
 
 ---
 
