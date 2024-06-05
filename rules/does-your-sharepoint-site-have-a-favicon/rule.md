@@ -26,11 +26,11 @@ Let's see how it's done for SharePoint:
 
 ::: greybox
 
-&lt;head runat="server"&gt;        
-     &lt;meta name="GENERATOR" content="Microsoft SharePoint"&gt;        
-     &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;         
-     &lt;!--Placeholder for additional overrides--&gt;        
-     &lt;asp:ContentPlaceHolder ID="PlaceHolderAdditionalPageHead" runat="server" /&gt;        
+&lt;head runat="server"&gt;
+     &lt;meta name="GENERATOR" content="Microsoft SharePoint"&gt;
+     &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"&gt;
+     &lt;!--Placeholder for additional overrides--&gt;
+     &lt;asp:ContentPlaceHolder ID="PlaceHolderAdditionalPageHead" runat="server" /&gt;
             <mark>&lt;link rel=&quot;shortcut icon&quot; href=&quot;~/Style Library/Images/SSW/Rules/ssw.ico&quot; type=&quot;image/x-icon&quot; /&gt;</mark>
  &lt;/head&gt;
 
