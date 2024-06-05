@@ -24,9 +24,9 @@ It's easy to do with a simple format code '#,#'.
 :::
 
 ::: good  
-![Figure: Good example - Good Zero Number Format](AvoidZeroNum_good.gif) 
+![Figure: Good example - Good Zero Number Format](AvoidZeroNum_good.gif)
 :::
 
 ::: good  
-![Figure: Good example -  Format Code](AvoidZeroNum_format.gif) 
+![Figure: Good example -  Format Code](AvoidZeroNum_format.gif)
 :::
