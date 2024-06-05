@@ -26,7 +26,7 @@ This rule also applies to height of Textbox in all reports.
 :::
 
 ::: good  
-![Figure: Good example - Good Height](RowHeight_Good.gif) 
+![Figure: Good example - Good Height](RowHeight_Good.gif)
 :::
 
 ::: bad  
@@ -34,7 +34,7 @@ This rule also applies to height of Textbox in all reports.
 :::
 
 ::: good  
-![Figure: Good example - Good Height In Design View](RSRowHeight_Standard_design.jpg) 
+![Figure: Good example - Good Height In Design View](RSRowHeight_Standard_design.jpg)
 :::
 
 ::: greybox
