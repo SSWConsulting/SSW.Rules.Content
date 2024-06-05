@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: ASP.NET vs SharePoint development - do you know what you get for free out of the box?
+title: ASP.NET vs SharePoint development - Do you know what you get for free out of the box?
 guid: 0d0d049e-49fe-458a-95f6-814b1bf1961c
 uri: asp-net-vs-sharepoint-development-do-you-know-what-you-get-for-free-out-of-the-box
 created: 2009-06-16T01:23:22.0000000Z
