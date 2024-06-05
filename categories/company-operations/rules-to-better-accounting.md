@@ -27,6 +27,7 @@ index:
 - how-to-enter-a-xero-me-receipt
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - show-long-service-leave-on-your-payslip
+- show-certification-award
 - salary-sacrifice-electronic-devices
 - salary-sacrifice-novated-lease
 - salary-terminology
