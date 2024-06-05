@@ -34,9 +34,9 @@ Team Foundation Server (TFS) is the fully integrated solution to manage projects
 ### Testers will love
 
 * The many ways of automating their manual tests via:
-    * Web tests
-    * Performance tests
-    * And the jewel in the crown, Coded UI Tests
+  * Web tests
+  * Performance tests
+  * And the jewel in the crown, Coded UI Tests
 * The fact they never have to spend time reproducing a bug before documenting it
 * And it gets better, they don't have to document it because testing tools recorded what they did
 * Later on, when they decide to go with Lab Manager they will never spend time setting up that special environment (say running windows 95 and IE6)
