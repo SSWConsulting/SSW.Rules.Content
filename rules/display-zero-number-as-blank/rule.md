@@ -18,8 +18,6 @@ It looks better to display zero numbers as blank than to leave lots of '0' in a 
 
 <!--endintro-->
 
-It's easy to do with a simple format code '#,#'.
-
 ::: bad  
 ![Figure: Bad example - Bad zero number format](AvoidZeroNum_Bad.gif)  
 :::
@@ -28,6 +26,6 @@ It's easy to do with a simple format code '#,#'.
 ![Figure: Good example - Good zero number format](AvoidZeroNum_good.gif)
 :::
 
-::: good  
-![Figure: Good example -  Format code](AvoidZeroNum_format.gif)
-:::
+It's easy to do with a simple format code '#,#'.
+
+![Figure: Format code](AvoidZeroNum_format.gif)
