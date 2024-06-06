@@ -27,19 +27,26 @@ In today's fast-paced digital world, customers expect to reach you quickly and e
 * **Enhanced Professionalism**: Demonstrates a commitment to making communication easy for your clients
 
 ::: greybox
+
 Call Us on 02 1234 5678
+
 :::
 
 ::: bad
+
 Figure: Bad example - Contact number is not a 'call-able' link
+
 :::
 
 ::: greybox
+
 <a href="tel:+61 2 1234 5678">+61 2 1234 5678</a>
 :::
 
 ::: good
+
 Figure: Good example - Contact number is a 'call-able' link
+
 :::
 
 ### How to implement a 'call-able' link
