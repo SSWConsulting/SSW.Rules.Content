@@ -37,7 +37,7 @@ In general, use Teams for private information, or SMS as a last resort. Treat s
 
 ::: greybox  
 
-In a meeting of 5 people, which includes the Product Owner, Solution Architect and 3 Software Engineers. The Software Engineers disagree with a decision made during the meeting. They start a backchannel to talk about it without the Product Owner and Solution Architect involved and reach a decision to not proceed.
+In a meeting of 5 people, which includes the Product Owner, Solution Architect and 3 Software Engineers, the Software Engineers disagree with a decision made during the meeting. They start a backchannel to talk about it, without the Product Owner and Solution Architect involved, and reach a decision to not proceed.
 :::
 
 ::: bad
@@ -54,15 +54,14 @@ In a meeting of 5 people, which includes the Product Owner, Solution Architect a
 **Figure: Good example - All team members, including the Product Owner and Solution Architect, are involved in a group chat and are kept informed**
 :::
 
-:::
 
 If the Software Engineers still disagree after the group chat, then they should make the matter official by sending a ['For the record'](http://www.ssw.com.au/for-the-record) email.
 
-*E.g. "For the record… I understand you want microservices because of xxx
-       However I think that is wrong because of yyy
-       I have CCed [3months@followupthen.com](mailto:3months@followupthen.com) to see if any of us have changed our mind"*
+*For example:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"For the record… I understand you want microservices because of xxx\
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However I think that is wrong because of yyy\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have CCed [3months@followupthen.com](mailto:3months@followupthen.com) to see if any of us have changed our mind"*
 
-:::  
 
 ::: greybox
  **Client:** *"I told them we’d need X"*
