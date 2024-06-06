@@ -26,6 +26,7 @@ related:
   - definition-of-done
   - done-do-you-know-when-to-send-a-done-email-in-scrum
   - close-pbis-with-context
+  - 8-steps-to-scrum
 redirects:
   - do-you-know-the-3-steps-to-completing-a-pbi
   - do-you-know-the-3-steps-to-a-pbi
