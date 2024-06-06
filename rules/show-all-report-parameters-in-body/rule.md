@@ -22,5 +22,5 @@ It is much better to display all of the report parameters in report body, becaus
 :::
 
 ::: good  
-![Figure: Good example - Displaying all report parameters](RSReportParameters_good.gif) 
+![Figure: Good example - Displaying all report parameters](RSReportParameters_good.gif)
 :::
