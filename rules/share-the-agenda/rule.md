@@ -10,7 +10,7 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 37a80c11-43e4-4065-9ec3-1c3604b2640a
 ---
-Scheduling meetings can often feel like a necessary chore, especially when they lack a clear purpose or agenda. Calls or video meetings without any clear agenda or purpose are where your joy and energy go to die.
+Scheduling meetings can often feel like a necessary chore, especially when they lack a clear purpose or agenda. Calls or video meetings, without any clear agenda or purpose, are where your joy and energy go to die.
 
 Here’s how to ensure your meetings are effective and worthwhile. Before a meeting, to give it the best chance of success, you should make sure you have done the following:
 
@@ -20,7 +20,7 @@ Here’s how to ensure your meetings are effective and worthwhile. Before a meet
   * Give each attendee a copy (usually in the appointment)
   * If the discussion strays from the topic, everyone should use the agenda to help keep it on track
   * Possibly [mark items on the agenda as “For information,” “For discussion,” or “For decision”](/stick-to-the-agenda-and-complete-the-meetings-goal)
-  * Don't add unnecessary agenda items. You won't have time in the future. If you wouldn’t want to do the thing tomorrow, don’t say yes to doing it a month from now.
+  * Don't add unnecessary agenda items. You won't have time in the future. If you wouldn’t want to do the thing tomorrow, don’t say yes to doing it a month from now
 
 * Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
 * The meeting starts the minute the invite is sent, not when it physically starts
