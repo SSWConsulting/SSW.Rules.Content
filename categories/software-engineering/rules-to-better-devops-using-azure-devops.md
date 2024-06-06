@@ -11,7 +11,6 @@ index:
 - continually-improve-processes
 - do-you-know-the-best-free-resources-for-learning-devops
 - enterprise-secrets-in-pipelines
-- on-premise-build-server-with-azure-devops
 
 ---
 
