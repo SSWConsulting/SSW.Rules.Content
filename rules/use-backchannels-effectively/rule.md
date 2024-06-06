@@ -68,14 +68,14 @@ For example:
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
-| Cc:      | {{ OTHER PEOPLE INVOLVED }}, 3months@followupthen.com |
+| Cc:      | {{ OTHER PEOPLE INVOLVED }}, <3months@followupthen.com> |
 | Subject: | {{ EMAIL SUBJECT }}  |  
 ::: email-content  
 
-### Hi {{ PRODUCT OWNER }},  
+### Hi {{ PRODUCT OWNER }}  
 
-"For the record... I understand you want microservices because of {{ REASON }}   
-However I think that is wrong because of {{ REASON }}   
+"For the record... I understand you want microservices because of {{ REASON }}
+However I think that is wrong because of {{ REASON }}
 
 I have Cc'ed @followupthen.com to see if any of us have changed our mind in 3 months from now
 
