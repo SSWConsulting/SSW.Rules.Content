@@ -81,9 +81,9 @@ This should be the easiest part!
 Congrats, your PBI is ready to be demonstrated during your Sprint Review!
 
 ::: good
-![Figure: The important steps in a PBI lifecycle.](3-steps-to-a-pbi-v7-2.jpg)
+![Figure: The important steps in a PBI lifecycle.](3-steps-to-a-pbi-V7-2.jpg)
 :::
 
-Print out the [SSW 3 Steps to a PBI PDF](3-steps-to-a-pbi-v7-2.pdf) and put it on your "War Room" wall.
+Print out the [SSW 3 Steps to a PBI PDF](3-steps-to-a-pbi-V7-2.pdf) and put it on your "War Room" wall.
 
 ![Figure: Old Version](3StepsToAPBI.jpg)
