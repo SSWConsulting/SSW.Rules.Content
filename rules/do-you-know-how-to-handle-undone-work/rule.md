@@ -4,7 +4,7 @@ title: Do you know how to handle Undone Work (aka V2 for PBIs)?
 uri: do-you-know-how-to-handle-undone-work
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 created: 2014-07-24T19:28:00.000Z

@@ -35,9 +35,9 @@ Get ready to empower your Product Owners! When it comes to Azure expenses, you w
 `youtube: whXWijQCQTU`
 **Video: Managing your Azure Costs | Bryden Oliver | SSW Rules (5 min)**
 
-Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It breaks down your cost by: 
+Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It breaks down your cost by:
 
-* Scoped Area e.g. a subscription 
+* Scoped Area e.g. a subscription
 * Resource Group e.g. Northwind.Website
 * Location e.g. Australia East
 * Service type e.g. Azure App Service
@@ -46,20 +46,20 @@ Azure Cost Analysis gives you a detailed breakdown of where any Azure spending i
 
 ### Analysing the expenditure - Finding the big dogs 🐶
 
-To optimize spending, analyze major costs in each category. Generally, it's a good idea to focus on the top 3 contributors - optimizing beyond that is usually not worth the effort. 
+To optimize spending, analyze major costs in each category. Generally, it's a good idea to focus on the top 3 contributors - optimizing beyond that is usually not worth the effort.
 
 Key questions to ask:
 
 * Do you need that resource?
 * Can you scale down?  
-* Can you refactor your application to consume less? 
+* Can you refactor your application to consume less?
 * Can you change the type of service or consumption model?
 
 ### Scoped Area
 
-The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the period of higher or sudden growth during that time. 
+The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the period of higher or sudden growth during that time.
 
-![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/area-chart.jpg)
+![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/azure-area-chart.jpg)
 
 ### Resource Group
 

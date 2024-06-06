@@ -12,9 +12,9 @@ authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
 related:
-- github-issue-templates
-- do-you-have-templates-for-your-pbis-and-bugs
-- turn-emails-into-pbis
+  - github-issue-templates
+  - do-you-have-templates-for-your-pbis-and-bugs
+  - turn-emails-into-pbis
 redirects:
   - product-owner-do-you-know-how-to-update-the-backlog
 created: 2010-09-15T15:18:19.000Z
@@ -45,10 +45,10 @@ Although these requirements come from the Product Owner, it is often the develop
 ![Figure: Good example - Github Issues](GitHubIssues.png)
 :::
 
-#### 3. Azure DevOps - E.g. https://ssw.visualstudio.com
+#### 3. Azure DevOps - E.g. <https://ssw.visualstudio.com>
 
 ::: good
-![Figure: Good example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog.png)
+![Figure: Good example - Azure DevOps allows you to enter an item into the backlog, in any priority order](AzureDevOpsBacklog_1710232021931.png)
 :::
 
 **What's next?**

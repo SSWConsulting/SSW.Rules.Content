@@ -7,6 +7,7 @@ index:
 - have-a-great-company-logo
 - set-design-guidelines
 - logo-redesign
+- do-you-use-identifying-company-logo-motifs
 - business-cards-branding
 - great-email-signatures
 - browser-add-branding
@@ -20,8 +21,8 @@ index:
 - brand-your-assets
 - make-your-presents-branded
 - do-you-brand-your-takeaway-coffee-cups
-- do-you-use-identifying-company-logo-motifs
 - have-urls-to-your-main-services-on-linkedin
+- screenshots-add-branding
 - plastic-bags-branding
 
 ---

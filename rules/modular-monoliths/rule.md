@@ -1,38 +1,59 @@
 ---
 type: rule
-title: Do you know the Modular Monolithic Architecture?
+title: Do you know the Modular Monolithic architecture?
 uri: modular-monoliths
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Luke Parker
     url: https://www.ssw.com.au/people/luke-parker
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 created: 2024-01-20T02:50:25.269Z
 guid: 5213ed1f-8ae5-4631-9b76-e464d4011c17
 ---
-A Modular Monolith is an architectural style in software development that emphasizes modularity within a monolithic application structure. 
+
+A Modular Monolith is a software architecture pattern that combines elements of both monolithic and modular architectures. In this approach, the application is built as a single, unified codebase like a traditional monolith, but it is designed and organized in a modular manner, allowing for logical separation of different components or modules within the codebase.
 
 <!--endintro-->
 
-### Key aspects
+> The Modular Monolith architecture is the “goldilocks” approach that combines the modularity of microservices with the simplicity of traditional Monoliths
+>
+> * Steve “Ardalis” Smith
 
-1. **Monolithic Architecture** - Traditionally, a monolithic application is a single-tiered software application where different components are combined into a single project. This means all components of the application are interconnected and interdependent
+## Modular Monolith characteristics
 
-2. **Modularity** - In a Modular Monolith, the application is still a monolith, but it's structured in a way that components or modules within it are highly modular. This modularity refers to dividing the application into distinct modules, each responsible for a specific piece of functionality. Eg. Invoicing
-These modules are designed to be loosely coupled, meaning they interact with each other through well-defined interfaces and are largely independent in terms of development and deployment
+![Figure: Modular Monolith architecture](modular-monolith.jpg)
 
-3. **Use Cases* - It's often used in scenarios where an application is expected to be complex but not so large or varied that it requires a distributed architecture. It's also a good fit for teams transitioning from a monolithic architecture to microservices, as it offers a middle ground
+* Single Host/Process
+* Single Deployment
+* Loosely coupled modules that each have their own
+  * Domain
+  * Application
+  * Infrastructure
+  * Presentation (API or UI)
+* Each module represents a business capability or domain
+* Each module should be as highly cohesive and loosely coupled with other modules
+* Each module manages it's own data and persistence
 
-#### ✅ Advantages
+### ✅ Advantages
 
-- **Simplicity in Deployment**: Since it's a monolith, the deployment is typically simpler than distributed systems like microservices
-- **Ease of Development**: Developers can work on separate modules without significantly affecting other parts of the application
-- **Performance**: Inter-module communication is often faster and more reliable than inter-service communication in distributed architectures
+* **Simplicity in Deployment** - Since it's a monolith, the deployment is typically simpler than distributed systems like microservices
+* **Ease of Development** - Developers can work on separate modules without significantly affecting other parts of the application
+* **Performance** - Inter-module communication is often faster and more reliable than inter-service communication in distributed architectures
 
-#### ❌ Challenges
+### ❌ Challenges
 
-- **Scalability**: While more scalable than a traditional monolith, it may not scale as effectively as microservices
+* **Scalability** - While more scalable than a traditional monolith, it may not scale as effectively as microservices
+* **Modular Discipline** - Maintaining strict modularity can be challenging as the application grows and evolves
 
-- **Modular Discipline**: Maintaining strict modularity can be challenging as the application grows and evolves
+A Modular Monolith offers a balance between the simplicity and coherence of a monolith and the modularity and maintainability of more distributed architectures. It is particularly useful for certain kinds of applications and organizational contexts.
 
-A Modular Monolith offers a balance between the simplicity and coherence of a monolith and the modularity and maintainability of more distributed architectures. It is particularly useful for certain kinds of applications and organizational contexts. 
+### Modular Monolith compared to other architectures
+
+| Trade-Offs | Layered / CA | Microservices | Modular Monolith |
+| -------- | -------- | -------- | -------- |
+| Modularity     | ❌     | ✅     | ✅     |
+| Cost     | $     | $$$     | $     |
+| Scalability     | ❌     | ✅     | ❌     |
+| Simplicity     | ✅     | ❌     | ✅     |

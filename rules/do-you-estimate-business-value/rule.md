@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
 related: []
@@ -26,7 +26,6 @@ Once you have ROI a Product Owner can use the ROI field to sort priority. Awesom
 `youtube: https://www.youtube.com/watch?v=YkWn_3j8VJw`
 
 ROI (Return on Investment) is an unbelievably simply calculation.
-
 
 ![Figure: Product Owners should be estimating the Business Value](business-value-field.png)
 

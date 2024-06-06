@@ -23,7 +23,7 @@ Chocolatey is a great package manager. It is an easy-to-use way to manage softwa
 
 ![Figure: installing Git with Chocolatey](chocolatey.png)
 
-To get started, open PowerShell and [follow the instructions on the Chocolatey website](https://chocolatey.org/install).
+To get started, open PowerShell and [follow the instructions on the Chocolatey website](https://chocolatey.org/install#individual).
 
 ::: info
 

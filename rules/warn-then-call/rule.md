@@ -8,7 +8,7 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
@@ -31,7 +31,13 @@ It can be very jarring when somebody is called out of the blue and they are not 
 
 Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
-A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*)
+A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*).
+
+::: greybox
+
+**Warm Calling:** Give a warning, then call.  
+**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.  
+:::
 
 <!--endintro-->
 
@@ -90,4 +96,4 @@ When a call is declined, it is important to follow up in order to ensure the tas
 Good example - Send them a message indicating you will try again later
 :::
 
-**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call. 
+**Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.

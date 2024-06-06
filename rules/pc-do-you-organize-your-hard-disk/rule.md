@@ -4,7 +4,7 @@ title: PC - Do you organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-do-organize-your-hard-disk
@@ -20,19 +20,19 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
 
 <!--endintro-->
 
-### Domain-joined checklist:
+### Domain-joined checklist
 
 **1. Is your computer domain-joined?** {{ YES/NO }}  
    **Note:** To check, go to File Explorer | This PC | Right-click | Properties | Check for "Domain" or "Workgroup". If it says "DOMAIN", you are on the domain. If it says "WORKGROUP", you are not.  
-   
+
 **2. The Backup Script - Date Last Run:** {{ DD/MM/YYYY }}  
    If your computer is domain-joined, then your backup script should already be working (E.g. Daily at 11 am)  
-   Go to the logs, e.g. File Explorer |  Fileserver | UserBackups | ztBackupScripts | UserLogs.log to see the last time your backup was done 
+   Go to the logs, e.g. File Explorer |  Fileserver | UserBackups | ztBackupScripts | UserLogs.log to see the last time your backup was done
 
-### Non-domain-joined checklist:
+### Non-domain-joined checklist
 
 **1. Do you use a cloud backup application?** {{ YES/NO }}  
-   Which one? {{ CLOUD APP }}   
+   Which one? {{ CLOUD APP }}
 
 ::: greybox
 **Tip:** Some good options include OneDrive for Business and Dropbox. You should [always keep important files in the cloud](/pc-do-you-use-the-best-backup-solution) for security reasons.
@@ -61,12 +61,12 @@ E.g. Create a folder with your username in the root of C: prefix the folder with
 :::
 
 **3. Do you keep your desktop clean?** {{ YES/NO }}  
-Number of files on Desktop (Aim is zero) {{ NUMBER OF FILES }}    
+Number of files on Desktop (Aim is zero) {{ NUMBER OF FILES }}
 
 You should always aim to have a clean desktop, without temporary files or unnecessary shortcuts.
 Delete anything that is not necessary from there and do not save things there by default. Having a messy desktop just makes everything confusing.
 
-**4. Do you keep your Outlook PST/OST separated from your cloud backups?** {{ YES/NO }}   
+**4. Do you keep your Outlook PST/OST separated from your cloud backups?** {{ YES/NO }}
 
 ::: greybox
 **Tip:** You can check where your PST/OST is via Outlook | File | Account Settings | Data Files.
@@ -82,7 +82,7 @@ Create a temporary folder for temporary files, like "C:\temp". It makes it easie
 **6. (Optional) Phone - Can you see the files that are on your PC on your mobile too?** {{ YES/NO }}  
 Install the OneDrive (or your other selected backup application) app on your phone and log in with the same account you used on your PC.
 
-**7. (Optional) Phone - Do you care if you lose your photos?** {{ YES/NO }}   
+**7. (Optional) Phone - Do you care if you lose your photos?** {{ YES/NO }}
 
   **If not, why? {{ REASON }}**
 

@@ -4,7 +4,7 @@ title: Video Data - Do you use a Digital Asset Manager (DAM) to manage a stock l
 uri: using-digital-asset-manager-for-stock
 authors:
   - title: Will Greentree
-    url: https://ssw.com.au/people/alumni/will
+    url: https://ssw.com.au/people/alumni/will-greentree
 related:
   - how-to-name-documents
   - semantic-versioning

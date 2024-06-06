@@ -19,7 +19,7 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
 related:
   - reference-do-you-use-the-correct-symbols-when-documenting-instructions
-  - reference-do-you-use-the-right-order-of-instructions
+  - use-correct-symbols-when-documenting-instructions
   - do-you-highlight-actions-correctly-in-your-document
   - do-you-make-numbers-more-readable
   - do-you-include-version-numbers-in-your-file

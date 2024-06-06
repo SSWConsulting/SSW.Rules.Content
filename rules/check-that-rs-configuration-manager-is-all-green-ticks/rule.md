@@ -9,14 +9,14 @@ authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
 
 ---
 
-<!--endintro-->
-
 To ensure your Reporting Services is running in a healthy state, you need to check if you have all the green ticks in your "Report Server Configuration Manager".
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Reporting Services is not running in a healthy state](RsConfigRed.gif)  

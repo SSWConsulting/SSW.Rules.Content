@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
   - title: Tiago Araujo
@@ -14,7 +14,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki
+    url: https://www.ssw.com.au/people/kaique-biancatti
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related:
@@ -64,7 +64,7 @@ Bad example - No context
 Bad example - They're left waiting for you to ask a question
 :::
 
-Instead of doing this, just ask the question! 
+Instead of doing this, just ask the question!
 
 :::greybox
 "Hey, are you happy for me to publish the CTF Form?"

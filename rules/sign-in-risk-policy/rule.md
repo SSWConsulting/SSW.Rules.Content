@@ -4,13 +4,13 @@ title: Do you have a Sign-in Risk Policy?
 uri: sign-in-risk-policy
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related:
   - risky-users-policy
 created: 2022-04-29T02:06:23.523Z
 guid: 0aef7548-1e06-4723-9f51-a6da5f564813
 ---
-Azure Active Directory (AAD) Identity Protection's Sign-in risk policy helps automatically protect your users from risky sign ins to their accounts.        
+Azure Active Directory (AAD) Identity Protection's Sign-in risk policy helps automatically protect your users from risky sign ins to their accounts.
 
 <!--endintro-->
 

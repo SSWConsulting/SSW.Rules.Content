@@ -9,6 +9,9 @@ authors:
     url: https://www.ssw.com.au/people/jean-thirion/
 created: 2022-02-07T00:14:18.003Z
 guid: 086a184c-b63f-4726-9eb7-bfd6fef3432a
+related:
+  - avoid-using-share-functionality
+  - how-to-share-a-file-folder-in-sharepoint
 ---
 If you are checking your sites permissions regularly you will probably notice a lot of unique permissions being applied.
 
@@ -18,7 +21,7 @@ If you are checking your sites permissions regularly you will probably notice a 
 :::
 
 The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document".  This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
-The consequence in SharePoint is that unique permissions are applied to the individual items breaking permission inheritance. It also has performance implications.  Links should instead be created with the "People with existing access" setting.
+The consequence in SharePoint is that unique permissions are applied to the individual items **breaking permission inheritance**. It also has performance implications.  Links should instead be created with the "People with existing access" setting.
 
 <!--endintro-->
 

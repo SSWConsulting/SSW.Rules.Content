@@ -4,7 +4,7 @@ title: Do you encourage daily exercise at work?
 uri: do-you-encourage-daily-exercise-at-work
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 created: 2016-11-07T06:40:46.000Z

@@ -10,7 +10,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-    - track-project-documents
+  - track-project-documents
 redirects:
   - do-you-know-how-to-handover-a-project
 created: 2024-01-05T06:22:03.000Z

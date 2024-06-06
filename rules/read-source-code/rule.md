@@ -12,6 +12,8 @@ authors:
 redirects:
   - do-you-know-how-to-read-source-code
   - how-to-read-source-code
+related:
+  - interfaces-abstract-classes
 created: 2022-09-12T14:44:28.666Z
 guid: 1b706f91-a99c-49a6-9ae8-72d2026abc11
 
@@ -28,7 +30,7 @@ You need to have the following prerequisites so that you can read the code smoot
 
 Next, you need to understand what parts of the code of this software are made up of. Below is a list for reference.
 
-1. **Interface/abstract definition** - Any code will have many interfaces or abstract definitions, which describe the data structures or business entities that the code needs to deal with and the relationships between them. It is very important to understand these relationships
+1. **[Interface/abstract definition](/interfaces-abstract-classes)** - Any code will have many interfaces or abstract definitions, which describe the data structures or business entities that the code needs to deal with and the relationships between them. It is very important to understand these relationships
 2. **Module adhesive layer** - A lot of our code is used to glue code, such as middleware, Promises pattern, Callback, proxy and delegation, dependency injection and so on. The gluing techniques between these code modules are very important. Because they will split the code that would otherwise be straightforward, making it difficult for you to understand their relationships
 3. **Business Process** - This is how the code runs. In the beginning, we don't want to go into the details. But we need to figure out at a high level what the entire business process looks like. And in this process, how data is passed and processed. Generally speaking, we need to draw program flow charts
 4. **Detailed implementation** - After understanding the above three aspects, you will have a general understanding of the framework and logic of the entire code. At this point, you can dive into the details and start reading the code for the specific implementation. In general, you need to know the following facts, which will help you find the key points when reading the code

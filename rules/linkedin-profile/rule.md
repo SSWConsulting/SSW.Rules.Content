@@ -6,7 +6,7 @@ authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:

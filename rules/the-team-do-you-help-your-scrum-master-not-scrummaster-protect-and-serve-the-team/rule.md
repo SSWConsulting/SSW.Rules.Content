@@ -6,7 +6,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
   - title: Matt Goldman

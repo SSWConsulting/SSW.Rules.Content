@@ -18,9 +18,9 @@ created: 2022-04-21T02:42:50.085Z
 guid: 3c060faf-9f90-478f-8b29-a1f4249dd6b6
 ---
 
-The most important part of being in a Spec Review is adding value to the conversations. How do you make sure that your presence is adding value to the discussion and the product? 
+The most important part of being in a Spec Review is adding value to the conversations. Your insights and feedback should contribute to improving the specifications, identifying potential issues, and suggesting enhancements. By actively engaging and sharing your expertise, you help ensure that the final product meets high standards of quality and functionality. 
 
-Here are some tips:
+How do you make sure that your presence is adding value to the discussion and the product? 
 
 <!--endintro-->
 
@@ -46,14 +46,10 @@ Talk about the most problematic parts. These are the areas that should have the 
 
 ### Tip #6: Ask great questions 
 
-Questions are the key in understanding client needs. Asking a few simple questions goes a long way. Some examples are: 
+Questions are the key in understanding client needs. Asking a few simple questions goes a long way. Some examples: 
 
 - What is the goal of the product?
-
 - Where will the product be hosted? 
-
 - Are there any performance requirements?
-
-- Are there any any reliability requirements?  E.g. Has to respond in x seconds
-
+- Are there any reliability requirements?  E.g. Has to respond in x seconds
 - What are the security requirements?

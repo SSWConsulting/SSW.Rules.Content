@@ -9,10 +9,9 @@ index:
 - do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
 - what-to-do-when-you-have-a-pc-problem
 - do-you-use-a-package-manager
-- call-SysAdmins-before-formatting-company-owned-laptops
+- call-sysadmins-before-formatting-company-owned-laptops
 - use-a-standard-local-admin-account
 - compare-and-synchronize-your-files
+- call-sysadmins-before-formatting-company-owned-laptops
 
 ---
-
-

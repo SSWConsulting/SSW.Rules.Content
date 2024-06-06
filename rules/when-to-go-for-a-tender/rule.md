@@ -7,7 +7,7 @@ uri: when-to-go-for-a-tender
 created: 2020-09-04T04:41:38.0000000Z
 authors: 
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
     url: https://ssw.com.au/people/sam-smith
 related: []

@@ -4,7 +4,7 @@ title: Do you know the best way to let clients book a meeting with you?
 uri: meeting-bookings
 authors:
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki/
+    url: https://www.ssw.com.au/people/kaique-biancatti/
 created: 2023-07-28T06:59:21.572Z
 guid: 217f46dc-eb70-4a60-a0e3-2950c1293e8a
 redirects:

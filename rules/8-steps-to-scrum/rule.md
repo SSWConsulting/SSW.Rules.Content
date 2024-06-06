@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/gerard-beckerleg
 related:
   - backlog-refinement-meeting
+  - 3-steps-to-a-pbi
 redirects:
   - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
@@ -45,9 +46,9 @@ This is also when the Product Owner 1st defines the Product Goal (aka the "why" 
 
 A quick note, there are only 3 roles in a Scrum Team, The Product Owner (the boss), the Scrum Master (a kind of project manager), and the Developers (who do the work).
 
-### 3. [Sprint Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting)
+### 3. [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
 
-The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week time-box).
+The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week timebox).
 
 The Product Owner puts the PBIs into priority order and makes sure the top ones have enough detail to be worked on. The Developers then pulls PBIs from the top of the Backlog and commits to delivering as much as they forecast they can, in the coming Sprint.
 

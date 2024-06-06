@@ -14,7 +14,7 @@ redirects:
 The `WebApplicationFactory` class is used for bootstrapping an application in memory for functional end to end tests. As part of the initialization of the factory you need to reference a type from the application project.
 
 Typically in the past you'd want to use your `Startup` or `Program` classes, the introduction of top-level statements changes how you'd reference those types, so we pivot for consistency.
-            
+
 <!--endintro-->
 
 Top level statements allows for a cleaner `Program` class, but it also means you can't reference it directly without some additional changes.
@@ -47,8 +47,18 @@ This approach means you don't need to do all the InternalsVisibleTo setup, but d
 
 The `IApiMarker` interface is a simple interface that is used to reference the application project.
 
+```cs
+namespace RulesApi;
+
+// This marker interface is required for functional testing using WebApplicationFactory.
+// See https://www.ssw.com.au/rules/use-iapimarker-with-webapplicationfactory/
+public interface IApiMarker
+{
+}
+```
+
 ::: good
-![Figure: Good example - Using an IApiMarker interface](Using-IApiMarker-interface.jpg)
+Figure: Good example - Using an `IApiMarker` interface
 :::
 
 Using the `IApiMarker` interface allows you reference your application project in a consistent way, the approach is the same when you use top level statements or standard Program.Main entry points.

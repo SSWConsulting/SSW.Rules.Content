@@ -26,7 +26,7 @@ These days, [data lakes](/understanding-data-lakes) make it easy to consolidate 
 <!--endintro-->
 
 ::: img-medium
-![](datalake-infographic.png)
+![](datalake-infographic_1710232021932.png)
 :::
 
 ### The Solution - A Data Lake

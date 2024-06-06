@@ -41,7 +41,7 @@ Check out the [8 Tips to Better Architecture Diagrams](https://adamcogan.com/202
 :::
 
 ::: bad img-medium
-![Figure: Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](image001.jpg)
+![Figure: Bad example - A screenshot of the Azure resources used helps, but doesn't show data flows or dependencies](bad-azure-resource-screenshot.jpg)
 :::
 
 Depending on the complexity of your solution and your comfort/familiarity with the tools, an architecture diagram could take you anywhere from half an hour to a couple of days.
@@ -100,13 +100,13 @@ Group components logically by enclosing them in a box. Components that operate i
 ![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
 
-### Tip #6: Start with paper...
+### Tip #6: Start with paper
 
 Make sure you use the right tools when creating your architecture diagrams. There's nothing wrong with starting out with pen and paper, but your hand-drawn sketch should not be considered your 'done' final architecture diagram. If you want to save paper, and increase collaboration, a great alternative is the trusty old whiteboard.
 
-For me its all about building a shared understanding between the client and the developers. Most pieces of software architecture I do, work starts by building a rough solution architecture diagram on a whiteboard. 
+For me its all about building a shared understanding between the client and the developers. Most pieces of software architecture I do, work starts by building a rough solution architecture diagram on a whiteboard.
 
-Putting something on a whiteboard is "low risk" for the participants as its really easy to wipe and redraw. It allows us to start working together straight away, building a shared understanding of what we're trying to achieve. There is no software or skills required to participate in whiteboard collaboration. 
+Putting something on a whiteboard is "low risk" for the participants as its really easy to wipe and redraw. It allows us to start working together straight away, building a shared understanding of what we're trying to achieve. There is no software or skills required to participate in whiteboard collaboration.
 
 > A key milestone in the early engagement is the first time a client takes the pen and starts using the whiteboard to explain something to me. Early use of the whiteboard is all about immediate communication. Later, the solution design starts to solidify and we can then use the last state of the whiteboard to make out first architecture diagram.
 >
@@ -164,7 +164,7 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip #9: Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder). 
+Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder).
 
 **Note:** If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs**\\* folder.
 

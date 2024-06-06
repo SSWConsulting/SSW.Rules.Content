@@ -4,7 +4,7 @@ title: Do you create a group chat with your project team?
 uri: teams-group-chat
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-01-24T05:56:17.498Z
 guid: 1ad391a4-19c8-4dc9-82fb-b83a6f08074f
 ---

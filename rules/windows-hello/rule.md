@@ -4,7 +4,7 @@ title: Do you use Windows Hello?
 uri: windows-hello
 authors:
   - title: Ash Anil
-    url: https://www.ssw.com.au/people/ash
+    url: https://www.ssw.com.au/people/ash-anil
 created: 2023-04-26T22:46:44.041Z
 guid: ded389f1-e6a9-417f-a36e-8a31f88a686a
 

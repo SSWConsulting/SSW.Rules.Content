@@ -33,7 +33,7 @@ Here are some tips:
 :::
 
 ::: good
-![Figure: Good example - Person is the brightest subject in the frame](good-example.png)
+![Figure: Good example - Person is the brightest subject in the frame](good-video-background.png)
 :::
 
 A good tip from [The Spruce blog](https://www.thespruce.com/tips-for-better-home-office-lighting-1812436) is to position your home office station facing north or south so that the sunlight doesn't throw a shadow at any point during the day, making you move your setup frequently.
