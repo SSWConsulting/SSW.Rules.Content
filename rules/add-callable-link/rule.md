@@ -34,7 +34,7 @@ Figure: Bad example - Contact number is not a 'call-able' link
 :::
 
 ::: greybox
-<a href="tel:+61 2 1234 5678">Call Us</a>
+<a href="tel:+61 2 1234 5678">+61 2 1234 5678</a>
 :::
 ::: good
 Figure: Good example - Contact number is a 'call-able' link
