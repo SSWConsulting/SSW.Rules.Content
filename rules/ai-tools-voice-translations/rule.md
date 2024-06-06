@@ -28,8 +28,6 @@ AI tools like [Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home
 
 **Video: [Fix Your Website Chatbot! - French translation (1min)**
 
-
-
 ## The Need for Oversight 👀
 
 While these tools are incredibly helpful, they're not perfect. It's important to double-check their output to ensure accuracy. After all, we wouldn't want any miscommunication, would we?
