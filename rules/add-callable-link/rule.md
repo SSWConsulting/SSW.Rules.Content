@@ -17,7 +17,7 @@ created: 2024-06-06T02:33:57.195Z
 guid: 8c96a4b8-b2fb-47f4-a46e-a6e0461cd55c
 ---
 In today's fast-paced digital world, customers expect to reach you quickly and efficiently. Adding a 'call-able' link to your website enhances user experience by providing a direct and convenient way to contact you via phone. This small addition can significantly impact customer satisfaction and engagement by removing that extra step of having to copy the number in order to call.
-            
+
 <!--endintro-->
 
 ### Why add a 'call-able' link?
@@ -54,18 +54,16 @@ Figure: Good example - Contact number is a 'call-able' link
 
 To add a 'call-able' link, you use the `tel:` protocol in your HTML. Here’s how to do it:
 
-#### Example Code:
+#### Example Code
 
 ```html
 <a href="tel:+61212345678">Call Us Now</a>
 ```
+
 **Figure: HTML code to create a clickable link that will initiate a phone call to the specified number when clicked on a mobile device**
 
-
 When adding a 'call-able' link to your website, it is best practice to:
+
 * [**Use International Format**](/right-format-to-show-phone-numbers): Ensure the phone number is in international format to avoid issues with country codes
 * **Ensure the 'Call-able' Link is Visible and Accessible**: Place the 'call-able' link in prominent locations on your website such as the header, footer, or contact page
 * **Test on Multiple Devices**: Verify that the link works on various devices and browsers to ensure universal accessibility
-
-
-
