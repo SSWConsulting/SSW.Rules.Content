@@ -20,7 +20,7 @@ In today's fast-paced digital world, customers expect to reach you quickly and e
             
 <!--endintro-->
 
-### Why Add a 'Call-able' Link?
+### Why add a 'call-able' link?
 
 * **Improved Customer Experience**: Customers can reach you with a single click, reducing the hassle of manually dialing numbers
 * **Increased Accessibility**: Particularly beneficial for mobile users who make up a large percentage of web traffic
@@ -40,7 +40,7 @@ Figure: Bad example - Contact number is not a 'call-able' link
 Figure: Good example - Contact number is a 'call-able' link
 :::
 
-### How to Implement a 'Call-able' Link
+### How to implement a 'call-able' link
 
 To add a 'call-able' link, you use the `tel:` protocol in your HTML. Here’s how to do it:
 
