@@ -37,7 +37,7 @@ In general, use Teams for private information, or SMS as a last resort. Treat s
 
 ::: greybox  
 
-3 Software Engineers disagree with a decision made in a meeting. They start a backchannel to talk about it without the Solution Architect involved and reach a decision to not proceed.
+In a meeting of 5 people, which includes the Product Owner, Solution Architect and 3 Software Engineers. The Software Engineers disagree with a decision made during the meeting. They start a backchannel to talk about it without the Product Owner and Solution Architect involved and reach a decision to not proceed.
 :::
 
 ::: bad
@@ -47,11 +47,11 @@ In general, use Teams for private information, or SMS as a last resort. Treat s
 
 ::: greybox
 
-3 Software Engineers disagree with a decision made in a meeting. They open a group chat with the Solution Architect soon after to discuss the decision.
+3 Software Engineers disagree with a decision made in a meeting. They open a group chat with the Product Owner and Solution Architect soon after to discuss the decision.
 :::
 ::: good
 
-**Figure: Good example - All team members, including the Solution Architect, are involved in a group chat and are kept informed**
+**Figure: Good example - All team members, including the Product Owner and Solution Architect, are involved in a group chat and are kept informed**
 :::
 
 :::
