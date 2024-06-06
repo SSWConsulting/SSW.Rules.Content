@@ -36,6 +36,7 @@ index:
 - consistent-height-of-table-row
 - display-zero-number-as-blank
 - show-time-format-clearly
+- show-all-report-parameters-in-body
 
 ---
 
