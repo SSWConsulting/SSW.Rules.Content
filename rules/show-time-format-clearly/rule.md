@@ -22,7 +22,7 @@ It will give a professional look for your report to show time in a clear and con
 :::
 
 ::: good  
-![Figure: Good example - Clear time format](RSTimeFormat_good.gif) 
+![Figure: Good example - Clear time format](RSTimeFormat_good.gif)
 :::
 
 A related rule about time format is [Do you keep Time formats consistent across your application?](https://www.ssw.com.au/rules/designandpresentation/rulestobetterinterfacesreports/pages/default.aspx#TimePrecision)
