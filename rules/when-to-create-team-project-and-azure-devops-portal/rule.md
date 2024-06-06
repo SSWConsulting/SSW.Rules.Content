@@ -4,7 +4,7 @@ title: Do you know when to create the team project and Azure DevOps Portal for a
 uri: when-to-create-team-project-and-azure-devops-portal
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Gordon Beeming
@@ -15,7 +15,7 @@ guid: 2a827a86-f4c9-496e-aba1-6b77ea2a1429
 ---
 
 ::: info
-Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017.
+Azure DevOps does not support SharePoint Team Sites (since 2018) - Discontinue SharePoint integration - TFS <https://learn.microsoft.com/en-us/previous-versions/azure/devops/report/sharepoint-dashboards/deprecation/discontinue-pre-tfs-2017-sharepoint-integration?view=tfs-2017>.
 :::
 
 When a prospect/client is ready to move forward (typically after a Specification Review)...

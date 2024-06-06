@@ -5,7 +5,7 @@ title: Do you know how to create your Project Portal (for existing Azure DevOps
 uri: how-to-create-project-portal
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-08-31T18:17:43.194Z
 guid: e5adaaeb-1a44-4022-bdfe-5fc5b186ff81
 ---
@@ -14,6 +14,7 @@ Unfortunately the Azure DevOps team did not have time to build the feature to cr
 <!--endintro-->
 
 There is a goofy work around:
+
 1. Create a new temporary project (with a SharePoint site for it)
 2. Disable the site for the new project, by checking off '[x] Enable team project portal'
 3. Go back to the old Azure DevOps project
@@ -22,4 +23,3 @@ There is a goofy work around:
 
 More info at [Configure or add a project portal
 ](https://docs.microsoft.com/en-us/azure/devops/project/configure-or-add-a-project-portal?view=azure-devops)
-

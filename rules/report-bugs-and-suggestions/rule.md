@@ -225,7 +225,7 @@ See rules on [Do you know when you use @ mentions in a PBI?](/when-you-use-menti
 
 ### Tip #7: Separate PBIs
 
-If they are all related to one area, then you could consider put them together, otherwise don’t bunch them up.
+If they are all related to one area, then you could consider putting them together. Otherwise don’t bunch them up.
 
 See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-email-at-a-time)
 
@@ -238,8 +238,9 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
 
-We have a proposal to change the standard for a bug from 🐛 to ⚠️
-Vote here - <https://github.com/carloscuesta/gitmoji/issues/1265>
+::: info
+We have a proposal to change the standard for a bug from 🐛 to ⚠️ - [Vote here](https://github.com/carloscuesta/gitmoji/issues/1265).
+:::
 
 Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 

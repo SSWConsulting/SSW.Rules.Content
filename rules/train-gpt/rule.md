@@ -43,7 +43,7 @@ Using the system prompt is the easiest way to provide additional data to GPT, bu
 
 ### Fine Tuning
 
-OpenAI provides a way for you to train new data into the model so that it is always available, without having to provide it with each request.
+OpenAI provides a way for you to [train new data into the model so that it is always available](https://labelbox.com/guides/how-to-train-a-chatbot/), without having to provide it with each request.
 
 For example, if you want to build an app that outputs SSW rules based on a title, the untrained model probably won't know what SSW Rules are so you need to train it.
 

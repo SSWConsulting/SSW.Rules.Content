@@ -5,7 +5,7 @@ title: Do you know how to handle complex .NET migrations?
 uri: dotnet-upgrade-for-complex-projects
 authors:
   - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jk
+    url: https://ssw.com.au/people/jernej-kavka
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
@@ -16,6 +16,7 @@ authors:
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
+  - do-you-check-your-api-serialisation-format
 created: 2023-07-16T23:08:53.979Z
 guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 ---

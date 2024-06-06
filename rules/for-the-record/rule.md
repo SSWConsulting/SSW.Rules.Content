@@ -28,6 +28,19 @@ Regardless it is important to document disagreements so the client is crystal cl
 
 ![Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear](past-decision-1500x500.jpg)
 
+`youtube: https://youtu.be/VFwCGECvq4I`  
+**Video: Jeff Bezos on how to make decisions | Lex Fridman Podcast Clips (9 min)**
+
+::: bad
+**Don't win by attrition:** Disagreements should never be resolved merely by who gets tired of arguing first.
+![Bad Example - Never resolve an argument by who gets exhausted first](winning-by-attrition.png)
+:::
+
+::: good
+**Disagree and Commit:** - Enhance productivity by disagreeing and getting on with the job anyway. Note this is similar to 'for the record' except verbal rather than written.
+![Good Example - Even though you disagree it's best to still commit and proceed](disagree-and-commit.png)
+:::
+
 ::: greybox
 **One war story**
 
@@ -105,5 +118,3 @@ Make sure you Cc your account manager and any other relevant parties so that the
 Make it clear that your advice is purely technical in nature and not business or legal advice. Consider putting the words "The above is not legal advice." at the end of your email.
 
 This is also a good thing to do if you have an [ethical problem](/do-you-only-do-what-you-think-is-right) with a task.
-
-Take some time to complete this ["'For the record' emails" survey](https://forms.office.com/Pages/ResponsePage.aspx?id=NHwvrDW56Uir3BHl1PyysCa8TOGbvXxGkJLSg13sAKhURVdQRVBSUFZINzgxMzVLRlVOUVNDSUpBSiQlQCN0PWcu).

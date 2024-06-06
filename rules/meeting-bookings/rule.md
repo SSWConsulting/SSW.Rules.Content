@@ -4,7 +4,7 @@ title: Do you know the best way to let clients book a meeting with you?
 uri: meeting-bookings
 authors:
   - title: Kaique Biancatti
-    url: https://www.ssw.com.au/people/kiki/
+    url: https://www.ssw.com.au/people/kaique-biancatti/
 created: 2023-07-28T06:59:21.572Z
 guid: 217f46dc-eb70-4a60-a0e3-2950c1293e8a
 redirects:
@@ -77,7 +77,7 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 
 6. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
 
-Tip: If you will use this link in a lot of emails, create an [autocorrect for it in Outlook](https://www.ssw.com.au/rules/autocorrect-in-outlook)
+Tip: If you will use this link in a lot of emails, create an [autocorrect for it in Outlook](/autocorrect-in-outlook)
 
 ### Adding your "Microsoft Bookings" link to your LinkedIn profile
 

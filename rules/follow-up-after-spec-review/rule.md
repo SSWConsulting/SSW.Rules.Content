@@ -4,7 +4,7 @@ title: Do you schedule a follow-up meeting after the Spec Review?
 uri: follow-up-after-spec-review
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Gert Marx
     url: https://www.ssw.com.au/people/gert-marx
 created: 2023-10-09T23:29:17.157Z
@@ -65,9 +65,9 @@ To facilitate the scheduling of the follow-up meeting, here's a template that Ac
 | Required:| {{ CLIENT }}; {{ SPEC REVIEW DEVS }} |
 ::: email-content  
 
-### Hi {{ CLIENT NAME }},
+### Hi {{ CLIENT NAME }}
 
-Thank you for your time during the Spec Review. 
+Thank you for your time during the Spec Review.
 
 I've scheduled this catch-up for us to run through the following:
 

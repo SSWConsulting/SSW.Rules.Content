@@ -9,14 +9,14 @@ authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
 
 ---
 
-<!--endintro-->
-
 SQL Server 2008 R2 Reporting Services comes with some great samples that will help get you started. Unfortunately, they aren't installed by default.
+
+<!--endintro-->
 
 These samples include:
 

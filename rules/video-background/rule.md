@@ -14,7 +14,7 @@ authors:
 related:
   - have-good-lighting-on-your-home-office
   - browser-add-branding
-  - new-job-linkedin
+  - unique-office-backgrounds
 redirects:
   - setup-do-you-have-a-nice-background-in-your-home-office
   - have-a-nice-background-in-your-home-office
@@ -26,16 +26,15 @@ You are likely to have constant Teams or Zoom video calls with clients or work c
 
 <!--endintro-->
 
-When in the office, you can have a nice branded background, which is the best option. 
+When in the office, you can have a nice branded background, which is the best option.
 
 For home offices, follow "less is more":
 
-* Try to have a neutral wall or setup behind you or with minimal objects – that will cause less distraction for others when talking to you.\
-  In other words, you may be fond of family pictures or band posters hanging on the wall, but the person on the other side may find them distracting
-* Also watch out if you have a pile of clothes to fold, boxes, or any mess that may be behind your desk
-* A nice test is to sit at your desk and to take a selfie to see what others will see in your background. Then organize your background accordingly
-* Watch for the lights as they can improve the general quality of your video
-* If you want to go the extra mile, consider designating one wall as your company wall and keep it consistent with the company branding
+* Have a neutral wall or setup behind you or with minimal objects - you may be fond of family pictures or band posters, but the person on the other side may be distracted
+* Check you don't have a pile of clothes to fold, boxes, or any mess that may be behind your desk
+* Test - sit at your desk and take a selfie. Then organize your background accordingly
+* [Good lighting](/have-good-lighting-on-your-home-office) can improve the general quality of your video
+* If you want to go the extra mile, designate one wall as your company wall and keep it consistent with the company branding
 
 ::: bad
 ![Figure: Bad example – A messy background will not look professional](bad-background.png)
@@ -51,7 +50,7 @@ For home offices, follow "less is more":
 
 ### Virtual backgrounds
 
-Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. Blur OR a background image):
+Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. blur OR a background image):
 
-* **Teams** - [Custom backgrounds in Microsoft Teams make video meetings more fun, comfortable, and personal](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/)
-* **Zoom** - [Virtual Background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background)
+* **Teams** - [Custom backgrounds in Microsoft Teams](https://www.microsoft.com/en-us/microsoft-365/blog/2020/06/12/custom-backgrounds-microsoft-teams-video-meetings-fun-comfortable-personal/) make video meetings more fun, comfortable, and personal
+* **Zoom** - [Virtual background](https://support.zoom.us/hc/en-us/articles/210707503-Virtual-Background) feature allows you to display an image or video as your background during a Zoom meeting

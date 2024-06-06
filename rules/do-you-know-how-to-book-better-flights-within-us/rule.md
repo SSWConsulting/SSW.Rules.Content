@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Outdated and no value, replaced by https://www.ssw.com.au/rules/do-you-know-how-to-book-better-flights/
 title: Do you know how to book better flights within US?
 guid: 9b5f097a-a928-46b1-b95e-a66dcc947be2
 uri: do-you-know-how-to-book-better-flights-within-us

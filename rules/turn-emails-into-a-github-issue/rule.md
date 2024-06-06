@@ -21,9 +21,9 @@ redirects:
 
 ---
 
-If a Product Owner sends an email to the development team with a request, that [email should be turned into a Github Issue](/turn-emails-into-pbis) before any work is started or the work is prioritized on the backlog. 
+If a Product Owner sends an email to the development team with a request, that [email should be turned into a Github Issue](/turn-emails-into-pbis) before any work is started or the work is prioritized on the backlog.
 
-Power Automate has a connector to do this automatically when an email arrives in Outlook. It can create a new Github Issue by parsing the From, To, Subject and body of the email. 
+Power Automate has a connector to do this automatically when an email arrives in Outlook. It can create a new Github Issue by parsing the From, To, Subject and body of the email.
 
 However, at the moment there is a limitation that it doesn't read inline attachments in emails and therefore you have to create your issues manually in Github.
 
@@ -33,7 +33,7 @@ However, at the moment there is a limitation that it doesn't read inline attachm
 
 ![Figure: Configure Flow connectors to create a new Github Issue from Outlook](email-to-github-issue1.png)  
 
-🔥 Warning: This Flow connector does not suport inline images.
+⚠️ Warning: This Flow connector does not support inline images.
 
 ::: good  
 ![Figure: Good Example - Github issue created from Outlook using Flow connectors](email-to-github-issue3.png)  

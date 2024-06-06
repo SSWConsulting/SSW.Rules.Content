@@ -1,19 +1,19 @@
 ---
 type: rule
-archivedreason: 
 title: Do you update your packages regularly?
-guid: eed63bcd-bdd8-47ed-baf2-8200f9f99547
 uri: do-you-update-your-packages-regularly
-created: 2014-11-27T18:18:39.0000000Z
 authors:
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Zach Keeping
+    url: https://www.ssw.com.au/people/zach-keeping
 related: []
 redirects: []
-
+created: 2014-11-27T18:18:39.000Z
+archivedreason: null
+guid: eed63bcd-bdd8-47ed-baf2-8200f9f99547
 ---
-
-Nuget makes it easy to find and apply package updates – but this still must be performed manually.
+NuGet makes it easy to find and apply package updates – but this still must be performed manually.
 
 <!--endintro-->
 
@@ -23,4 +23,54 @@ Updating often can help mitigate this risk by ensuring that each individual upda
 
 Recommended practice is to apply package updates at the start of a Sprint so that there is time to find and resolve issues introduced by the update.
 
-![Figure: Nuget package updates](update-nuget.png)
+![Figure: NuGet package updates](update-nuget.png)
+
+### Updating packages
+
+#### Visual Studio GUI
+
+In Visual Studio, the **NuGet Package Manager** will give you a count of how many outdated packages are present in your solution and allow you to update these packages.
+
+![Figure: The NuGet Package Manager in Visual Studio displays a convenient badge with the amount of outdated packages (2 in this example)](update-count.png)
+
+#### CLI
+
+If using the command line, you can use the following command to print the outdated packages in your solution:
+
+```shell
+dotnet list package --outdated
+```
+
+Outdated packages can then be updated by running the follow command, specifying the package and desired version:
+
+```shell
+dotnet add package <PACKAGE_NAME> -v <VERSION>
+```
+
+#### Package Manager Console
+
+Visual Studio also provides a convenient command line tool for managing and updating packages using PowerShell, which allows for updating all packages easily. To access it, first open the Package Manager Console
+
+**Tools | NuGet Package Manager | Package Manager Console**
+
+![Figure: The Package Manager Console allows for easy management of packages using the command line](package-manager-console.png)
+
+Now enter the following command:
+
+```shell
+Update-Package
+```
+
+This will update all packages in every project of your solution in one command.
+
+To check for updates, you can use the following command:
+
+```shell
+Get-Package -Updates
+``` 
+
+Specific packages can be updated by specifying the package name:
+
+```shell
+Update-Package <PACKAGE_NAME>
+```

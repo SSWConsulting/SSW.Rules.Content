@@ -14,6 +14,7 @@ authors:
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
+  - send-done-videos
   - do-you-send-done-videos
   - record-better-audio
   - do-you-zz-old-files-rather-than-deleting-them
@@ -43,8 +44,7 @@ When deciding whether a PBI might be a good contender to record a Done video for
 
 **Tip #1:** Clipchamp is recommended because it is easy to use both for recording and editing, completely free, and offer direct uploads to YouTube.
 
-**Tip #2:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**. 
-
+**Tip #2:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**.
 
 **Choosing software to edit your video:**
 
@@ -56,7 +56,8 @@ When deciding whether a PBI might be a good contender to record a Done video for
 ### For a Quick and Dirty Done Video
 
 Here's a video describing how to record and edit a quick Done video using Clipchamp:  
-Tip: Jump to 04:31 for how to record screen and webcam.
+
+**Tip:** Jump to 04:31 for how to record screen and webcam.
 
 `youtube: https://www.youtube.com/embed/mBoSJpRm7gk`
 
@@ -68,7 +69,7 @@ Here's a video describing how to record a quick Done video using OBS:
 
 **Video: How to Record your Computer Screen & Webcam in OBS Studio (8 min)**
 
-Note: The PIP will be baked in and cannot be altered later.
+**Note:** The PIP will be baked in and cannot be altered later.
 
 ### For a more professional video that requires some editing
 
@@ -78,7 +79,7 @@ Here's a quick video describing how to record your webcam and screen separately 
 
 **Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
 
-Note: You will be able to alter the PIP, remove it, go full screen on your face... whatever 
+**Note:** You will be able to alter the PIP, remove it, go full screen on your face... whatever.
 
 Switching Scenes in OBS - it is quite easy to do with these simple steps using OBS Hotkeys!
 
@@ -86,11 +87,11 @@ Switching Scenes in OBS - it is quite easy to do with these simple steps using O
 
 **Video: How To Switch Scenes In OBS Easily! (OBS Hotkeys) | Tutorial (4 min)**
 
-Here's a quick video describing how to record and edit a quick Done video using Camtasia. 
+Here's a quick video describing how to record and edit a quick Done video using Camtasia.
 
 `youtube: https://www.youtube.com/embed/CjwkGk1LcJ0`
 
-**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)** 
+**Video: Make a Quick and Dirty "Done" video in Camtasia (2 min)**
 
 ### Camtasia Tips
 
@@ -100,7 +101,7 @@ E.g. A real example of a 'Done Video' with fades:
 
 `youtube: https://www.youtube.com/embed/nG4IAxdEWQg`
 
-**Video: SSW TimePRO - Power BI Ad-Hoc Reporting (4 min)** 
+**Video: SSW TimePRO - Power BI Ad-Hoc Reporting (4 min)**
 
 #### Tip #2: Camtasia - Fix the audio before making any cuts to the video
 
@@ -133,7 +134,7 @@ Follow the steps to export your video:
 2. In the new dialog, select 'Custom production settings':
 
    ![Figure: Production settings](export-video2.png)
-3. In the next window, uncheck the ‘Produce with controller’ option: 
+3. In the next window, uncheck the ‘Produce with controller’ option:
 
    ![Figure: Controller settings](export-video3.png)
 4. In the ‘Video settings’ tab, copy these settings:

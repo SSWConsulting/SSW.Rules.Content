@@ -48,48 +48,49 @@ In a Data Lake, data is stored in its original form, such as CSV files, log file
 
 ## 📈 Store now, analyze later
 
-Perhaps the biggest point of differentiation between a Data Lake and a data warehouse, is the *warts-and-all* approach to its data capture. A data warehouse will typically have a very defined set of objectives that it's built to achieve, and the data it stores is hand-picked from various sources specifically for those purposes (via a process called ETL, or Extract, Transform, Load). This transformed data is great for delivering on its specific objectives, but will not be able to provide any meaningful answers to questions outside of its intended scope. 
+Perhaps the biggest point of differentiation between a Data Lake and a data warehouse, is the *warts-and-all* approach to its data capture. A data warehouse will typically have a very defined set of objectives that it's built to achieve, and the data it stores is hand-picked from various sources specifically for those purposes (via a process called ETL, or Extract, Transform, Load). This transformed data is great for delivering on its specific objectives, but will not be able to provide any meaningful answers to questions outside of its intended scope.
 
 A Data Lake is less concerned with curating data to meet a given objective, and instead provides a centralized pool of data that can queried in many different ways later (via ELT, or Extract, Load, Transform). As it contains **raw data**, data scientists and engineers are able to invent new ways of reading and analyzing that data on demand.
 
 ## 🤢 Data swamps
 
- Data swamps occur when adequate data quality and data governance measures are not implemented. 
+ Data swamps occur when adequate data quality and data governance measures are not implemented.
 
- Given the flexibility of a Data Lake's storage abilities, a business is often enticed to throw every bit of data into it without due thought or consideration to organization or appropriate cataloguing. This can turn a Data Lake into a [data swamp](https://www.enterprisestorageforum.com/management/data-lake-data-swamp/) which makes any meaningful analysis later incredibly difficult.
+ Given the flexibility of a Data Lake's storage abilities, a business is often enticed to throw every bit of data into it without due thought or consideration to organization or appropriate cataloguing. This can turn a Data Lake into a [data swamp](https://atlan.com/data-lake-vs-data-swamp/#:~:text=A%20data%20lake%20is%20a,to%20retrieve%20and%20utilize%20effectively) which makes any meaningful analysis later incredibly difficult.
 
 Remember - great insights come from great data, and great data comes from strong governance!
 
 ::: greybox
+
 ### Scenario
 
 Imagine you work at Northwind. They have all these systems:
 
-- GitHub/Azure DevOps – issues, commits, etc.
-- Billing - Timesheets, Client invoices, etc
-- CRM – Projects, skills, technologies, sales, leads, etc.
-- Accounting – Business expenses, client payment receipts, payment dates, etc.
-- Office automation logs – employee arrival/leave times, device usage, security alerts, etc.
-- Websites – traffic, analytics, etc.
+* GitHub/Azure DevOps – issues, commits, etc.
+* Billing - Timesheets, Client invoices, etc
+* CRM – Projects, skills, technologies, sales, leads, etc.
+* Accounting – Business expenses, client payment receipts, payment dates, etc.
+* Office automation logs – employee arrival/leave times, device usage, security alerts, etc.
+* Websites – traffic, analytics, etc.
 
 <!-- TODO: State a business problem... we'd use data from {{ SYSTEMS USED }} which would be a good candidate for a Data Lake. -->
 
 Comment below for what you think would be:
+
 1. What cool question would you ask this data? Be creative!
 2. How many systems would you be interacting with?
 3. Would you need a Data Lake or Data Warehouse?
 
-
 :::
 
-
 ## 🔨 Building your Data Lake
+
 There are a few options to set up a Data Lake.
 
-- Azure Data Lake (reccommended) - https://azure.microsoft.com/en-au/solutions/data-lake
-- Microsoft Fabric Lakehouse
-  - What is it - https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview
-  - How to set it up - https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction 
-- AWS Data Lake - https://aws.amazon.com/solutions/implementations/data-lake-solution/
-- Google Cloud - https://cloud.google.com/learn/what-is-a-data-lake#section-1
-- DIY Data Lake
+* [Azure Data Lake](https://azure.microsoft.com/en-au/solutions/data-lake) (reccommended)
+* Microsoft Fabric Lakehouse
+  * [What is it](https://learn.microsoft.com/en-us/fabric/data-engineering/lakehouse-overview)
+  * [How to set it up](https://learn.microsoft.com/en-us/fabric/data-engineering/tutorial-lakehouse-introduction)
+* [AWS Data Lake](https://aws.amazon.com/solutions/implementations/data-lake-solution/)
+* [Google Cloud](https://cloud.google.com/learn/what-is-a-data-lake#section-1)
+* DIY Data Lake

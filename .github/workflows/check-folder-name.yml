@@ -1,0 +1,51 @@
+name: Check-Folder-Name
+
+on:
+  pull_request:
+    paths:
+      - '**/rule.md'
+    types: [opened, synchronize]
+
+jobs:
+  rename-folder:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      repository-projects: read
+      pull-requests: write
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+        ref: ${{ github.event.pull_request.head.ref }}
+        repository: ${{ github.event.pull_request.head.repo.full_name }}
+
+    - name: Check for modified rule.md
+      id: check_modified
+      run: |
+        if git diff --name-only $(git merge-base origin/main HEAD) | grep -q 'rule.md'; then
+          echo "modified=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "modified=false" >> "$GITHUB_OUTPUT"
+        fi
+
+    - name: Rename folders if necessary
+      id: rename_folders
+      if: steps.check_modified.outputs.modified == 'true'
+      run: |
+        sh .workflow/rename-folders.sh
+
+    - name: Commit and push changes
+      if: steps.rename_folders.outputs.rename == 'true'
+      run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .
+        git commit -m "Rename folder to match URI"
+        git push || true
+        echo "Auto-fix applied"
+

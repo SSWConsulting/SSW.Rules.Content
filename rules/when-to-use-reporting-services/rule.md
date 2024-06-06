@@ -1,22 +1,21 @@
 ---
 type: rule
-archivedreason:
+archivedreason: 
 title: Do you know when to use Reporting Services?
-guid: d6d27c88-7697-436e-a66a-1d82287664c2
+guid: 2ff1b753-098d-4e30-9093-7e809c736c40
 uri: when-to-use-reporting-services
-created: 2023-12-11T12:38:33.0000000Z
-authors: 
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
-related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
-redirects: []
+created: 2013-07-02T08:25:41.0000000Z
+authors:
+- title: Adam Cogan
+  url: https://ssw.com.au/people/adam-cogan
+related: []
+redirects:
+- do-you-know-when-to-use-reporting-services
 
 ---
 
+Like any solution, Reporting Services has its pros and cons. From our experience, we have discovered these things about Reporting Services:
 <!--endintro-->
-
-From our experience, we have discovered these things about Reporting Services:
 
 ### Cons
 

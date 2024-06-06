@@ -9,13 +9,13 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: 
-- 404-useful-error-page
+  - 404-useful-error-page
 redirects:
-- do-you-avoid-changing-the-url-on-a-404-error
+  - do-you-avoid-changing-the-url-on-a-404-error
 
 ---
 
-When you request a URL of a file that doesn't exist, you will get an error message. You should make sure that the URL in the browser doesn't change. This way, it's easy for the user to correct. 
+When you request a URL of a file that doesn't exist, you will get an error message. You should make sure that the URL in the browser doesn't change. This way, it's easy for the user to correct.
 
 E.g. The user doesn't have to retype the whole URL if there is a spelling mistake or a forgotten/mixed up letter.
 
@@ -41,7 +41,7 @@ The advantages of this solution are, that the site looks nice and matches the de
 You can try any page name that doesn't exist like xxx.asp on the URL and it will open our 404 error page. The original URL is not changed in the address bar. It should look like this:
 
 ::: good  
-![Figure: Good example - Customized 404 error page without change the URL](404-good.jpg)  
+![Figure: Good example - Customized 404 error page without change the URL](404-good_1710232021928.jpg)  
 :::
 
 To show the customized error page while not change the original URL, you can use Server.Transfer() to keep the original URL.
@@ -49,4 +49,5 @@ To show the customized error page while not change the original URL, you can use
 ``` cs
 Server.Transfer("/ssw/ErrorPage.aspx")
 ```
-**Figure: Custom error page handler in Global.asax** 
+
+**Figure: Custom error page handler in Global.asax**

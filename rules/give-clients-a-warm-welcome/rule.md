@@ -1,20 +1,20 @@
 ---
 type: rule
-archivedreason: 
 title: Do you give clients a warm welcome?
-guid: 3824e6f2-9131-4f53-b865-83cde467a150
 uri: give-clients-a-warm-welcome
-created: 2010-07-16T06:10:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
-related: []
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Gabriel George
+    url: https://ssw.com.au/people/gabriel-george
+related:
+  - welcoming-office
 redirects:
-- meetings-are-you-hospitable-in-client-meetings-at-your-office
-- do-you-give-clients-a-warm-welcome
-
+  - meetings-are-you-hospitable-in-client-meetings-at-your-office
+  - do-you-give-clients-a-warm-welcome
+created: 2010-07-16T06:10:11.000Z
+archivedreason: null
+guid: 3824e6f2-9131-4f53-b865-83cde467a150
 ---
 
 When a client arrives, your job is to make them feel comfortable and impress them with your professionalism. It is important that clients have a consistent experience in their contact with your company.

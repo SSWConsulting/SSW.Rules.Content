@@ -13,6 +13,7 @@ index:
 - screenshots-tools
 - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 - add-branding-to-screenshots
+- have-a-strong-header-and-footer
 - hide-sensitive-information
 - borders-around-white-images
 - distinguish-keywords-from-content
@@ -30,9 +31,8 @@ index:
 - avoid-common-mistakes
 - avoid-acronyms
 - use-will-not-should
-- when-to-use-log-on-log-in-and-sign-in
+- user-authentication-terms
 - use-try-again-instead-of-retry
-- spell-aka-correctly
 - commas-and-full-stops-always-should-have-1-space-after-them
 - use-lowercase-after-a-dash
 - refer-consistently-throughout-your-document

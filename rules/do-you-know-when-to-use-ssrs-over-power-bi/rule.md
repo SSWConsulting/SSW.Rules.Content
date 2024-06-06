@@ -11,23 +11,23 @@ authors:
 - title: Moss Gu
   url: https://github.com/mossgreen
 - title: Ulysses Maclaren
-  url: https://ssw.com.au/people/uly
+  url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 
 ---
 
-Knowing when to use SQL Server Reporting Services (SSRS) over Power BI can ensure that you are using the tools most efficiently to help drive your business. 
+Knowing when to use SQL Server Reporting Services (SSRS) over Power BI can ensure that you are using the tools most efficiently to help drive your business.
 
 <!--endintro-->
 
-Many organizations see Power BI as a replacement for SSRS due to a lack of major advancements in the SSRS space however while similar they both fill different key needs for organizations and the BI team at Microsoft has invested a lot of time into improving the SSRS offering. 
+Many organizations see Power BI as a replacement for SSRS due to a lack of major advancements in the SSRS space however while similar they both fill different key needs for organizations and the BI team at Microsoft has invested a lot of time into improving the SSRS offering.
 
-SSRS is better for "Pixel perfect" reports that you can design exactly to your specifications, whereas most Power BI visualizations only have a finite amount of visual tinkering possible. 
+SSRS is better for "Pixel perfect" reports that you can design exactly to your specifications, whereas most Power BI visualizations only have a finite amount of visual tinkering possible.
 
-SSRS provides a stronger ability when it comes to static representational reports, like **invoices**, **monthly reports**, **mailing lists**... 
+SSRS provides a stronger ability when it comes to static representational reports, like **invoices**, **monthly reports**, **mailing lists**...
 
-Power BI however is better for a dynamic interrogation of data as it currently stands so this can allow power users to drill into live data to identify trends. 
+Power BI however is better for a dynamic interrogation of data as it currently stands so this can allow power users to drill into live data to identify trends.
 
 | Feature | Power BI | SSRS |
 |---|---|---|
@@ -40,4 +40,3 @@ Power BI however is better for a dynamic interrogation of data as it currently s
 | Embedding support  | ✅  | - |
 
 **Figure: Power BI/SSRS feature comparison**
-

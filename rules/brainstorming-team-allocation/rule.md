@@ -11,14 +11,15 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related: 
+  - brainstorming-idea-champion
 redirects: []
 created: 2023-10-23T02:15:11.000Z
 archivedreason: null
 guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 ---
 
-Separating the group into teams on the Brainstorming day can take a long time. It is better to do this before the day. Doing it early also allows you to keep team sizes consistent and share the teams with the group before the day.
+Dividing participants into teams on the day of the brainstorming session can be time-consuming. It is better to form teams in advance.  This approach ensures consistent team sizes and allows for early communication of team assignments to participants.
 
 <!--endintro-->
 
@@ -50,8 +51,8 @@ Upload the Excel file to ChatGPT and use this prompt
 I need this data in a format to allocate teams, I want each idea as a row and then each person who voted for that idea as a column after it.
 :::
 
-1. To assign teams, start by assigning the most capable people to each team as a team lead - it's not required but is helpful if this is the person who came up with the idea
-2. After each team has a team lead, assign the remaining people based on their preferences, skillset, and interests
+1. To assign teams, start by assigning the most capable people to each team as a [Idea Champion](/brainstorming-idea-champion)
+2. After each team has an Idea Champion, assign the remaining people based on their preferences, skillset, and interests
 
 * Aim for team sizes of 3-5 people
 * Any larger than this is, it is too hard to manage and get everyone involved.
@@ -60,14 +61,23 @@ I need this data in a format to allocate teams, I want each idea as a row and th
 1. Each team also needs to be assigned an Idea Product Owner person to test the presentation and give feedback.
 2. Once everyone is allocated a team, share the result with the group.
 
+## Team location allocation
+
+It is also a good idea to pre-allocate the team locations in cases where there are many teams, or a specific team placement is required (e.g., several teams need access to the same stakeholder). Doing this ahead of the brainstorming day minimizes the time spent on self-organization by the teams on the day itself, which can be quite time-consuming.
+
+To make the allocation process smoother, write down the team's specific requirements, such as the need for access to a developer workspace with multiple monitors or if the team needs access to a specific stakeholder.
+
+![Figure: Pre-allocate teams's location](brainstormingday-team-location-allocation.png)
+
 ### Team setup
 
 In order to make the Brainstorming day as productive as possible, set up the PowerPoints using a template.
 
 1. Create a new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
-3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team
-4. [https://www.ssw.com.au/rules/rules-to-better-brainstorming/#presentations](/rules-to-better-brainstorming/#presentations)
+3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team.  
+See [Do you know how to structure a Brainstorming presentation?
+](/rules-to-better-brainstorming/#presentations)
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 
@@ -78,6 +88,6 @@ Share the Discussion in an email to the entire company.
 
 Putting the team allocations in a Discussion allows updates if attendees change or if the teams need to be updated.
 
-![Figure: GitHub Discussion - Team allocations](https://github.com/SSWConsulting/SSW.Rules.Content/assets/38869720/5c7a9a8f-24d8-4129-8060-c34f2cd3afb2)
+![Figure: GitHub Discussion - Team allocations](team-allocation-github-discussion.png)
 
 **Tip:** For extra visibility, also pin it on the repo.

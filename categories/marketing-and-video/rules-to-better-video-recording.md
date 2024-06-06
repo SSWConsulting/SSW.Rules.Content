@@ -16,7 +16,6 @@ index:
 - production-do-you-know-how-to-record-live-video-interviews-on-location
 - production-do-you-know-how-to-start-recording-with-camtasia
 - do-you-know-how-to-record-the-screen-on-a-mac
-- production-do-you-know-how-to-record-the-screen-on-a-mac
 - enable-presentation-mode-in-visual-studio
 - easy-to-view-screen-recordings
 - what-type-of-microphone-to-use
@@ -40,7 +39,7 @@ index:
 - ticks-crosses
 - post-production-do-you-add-captions-to-your-video
 - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
-- post-production-review-videos-collaboratively
+- review-videos-collaboratively
 - post-production-do-you-know-how-to-create-the-swing-in-text-effect
 - production-do-you-know-to-subtitle-your-videos
 - avoid-dates-text-in-graphics-for-events
@@ -53,6 +52,7 @@ index:
 - post-production-high-quality
 - post-production-do-you-know-how-to-structure-your-files
 - review-videos-collaboratively
+- summary-recording-sprint-reviews
 - golden-moment
 - add-sections-time-and-links-on-video-description
 - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
@@ -64,10 +64,10 @@ index:
 - organize-and-back-up-your-files
 - using-digital-asset-manager-for-stock
 - copy-views-and-comments-before-deleting-a-video-version
-- use-chatgpt-prompts-for-video-production
+- chatgpt-prompts-for-video-production
 - video-reduce-noise
 - tech-check
 - establish-the-world
 ---
 
-If you still need help, visit our [Video Production page](https://www.ssw.com.au/ssw/Consulting/Video-Production) and book in a consultant.
+Need a video for your business? Check [SSW's Video Production consulting page](https://ssw.com.au/consulting/video-production).

@@ -12,7 +12,7 @@ related:
 
 ---
 
-Payroll tax is a common wage-related expense that many businesses will have to account for in their month-to-month operations. 
+Payroll tax is a common wage-related expense that many businesses will have to account for in their month-to-month operations.
 The rules around when you begin paying for payroll tax and the amount you have to pay is dependent on your State Government's rules.
 
 <!--endintro-->
@@ -22,6 +22,7 @@ The Australian Government has general information about payroll tax, including a
 * [Australian Business Government - Payroll Tax](https://business.gov.au/finance/taxation/payroll-tax)
 
 It is important to stay up to date with the State Government's rules as they may change from time to time. The relevant State Government websites for NSW, QLD and VIC are as follows:
+
 * [NSW OSR - Payroll Tax](https://www.revenue.nsw.gov.au/help-centre/online-services/sections/payroll-tax)
 * [QLD OSR - Payroll Tax](https://www.business.qld.gov.au/running-business/employing/payroll-tax)
 * [VIC OSR - Payroll Tax](https://www.sro.vic.gov.au/payroll-tax)
@@ -31,5 +32,5 @@ It is important to stay up to date with the State Government's rules as they may
 
 * [NSW OSR - Taxes/Payroll Tax](https://www.revenue.nsw.gov.au/taxes-duties-levies-royalties/payroll-tax/help-getting-it-right/common-errors)
 
-Every state treats salary sacrifice differently for payroll tax purposes, so be sure to check your State Government's rules before processing your payroll tax return. 
+Every state treats salary sacrifice differently for payroll tax purposes, so be sure to check your State Government's rules before processing your payroll tax return. For additional insights on related tax matters, you can refer to *[Bristax's article on self-education expenses](https://bristax.com.au/tax-articles/self-education-expenses/).
 :::

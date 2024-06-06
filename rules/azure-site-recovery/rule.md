@@ -4,7 +4,7 @@ title: Redundancy - Do you use Azure Site Recovery?
 uri: azure-site-recovery
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwickleahy
 related:
@@ -18,6 +18,6 @@ Azure Site Recovery is the best way to ensure business continuity by keeping bus
 
 Ensuring business continuity is priority for the System Administrator team, and is part of any good disaster recovery plan. Azure Site Recovery allows an organization to replicate and sync Virtual Machines from on-premises (or even different Azure regions) to Azure. This replication can be set to whatever frequency the organization deems to be required, from Daily/Weekly through to constant replication.
 
-This way when there is an issue, restoration can be in minutes - you just switch over to the VMs in Azure! They will keep the business running while the crisis is dealt with. The server will be in the same state as the last backup. Or if the issue is software you can restore an earlier version of the virtual machine within a few minutes as well.  
+When there is an issue, restoration can be in minutes - you just switch over to the VMs in Azure! They will keep the business running while the crisis is dealt with. The server will be in the same state as the last backup. Or if the issue is software you can restore an earlier version of the virtual machine within a few minutes as well.  
 
 ![Figure: Azure Backup and Site Recovery backs up on-premises and Azure Virtual Machines](azure-backup.png)

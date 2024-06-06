@@ -4,7 +4,7 @@ title: Do you have a User Risk Policy?
 uri: user-risk-policy
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related:
   - sign-in-risk-policy
 created: 2022-04-29T02:13:58.669Z
