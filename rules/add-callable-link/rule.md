@@ -57,7 +57,7 @@ To add a 'call-able' link, you use the `tel:` protocol in your HTML. Here’s ho
 #### Example Code:
 
 ```html
-<a href="tel:+1234567890">Call Us Now</a>
+<a href="tel:+61212345678">Call Us Now</a>
 ```
 **Figure: HTML code to create a clickable link that will initiate a phone call to the specified number when clicked on a mobile device**
 
