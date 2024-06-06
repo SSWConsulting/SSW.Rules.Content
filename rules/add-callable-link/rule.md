@@ -8,7 +8,6 @@ seoDescription: Learn how to enhance customer experience on your website by
   accessible, improving client communication and satisfaction.
 uri: add-callable-link
 authors:
-  - title: ""
   - title: Betty Bondoc
     url: https://ssw.com.au/people/betty-bondoc/
 related:
