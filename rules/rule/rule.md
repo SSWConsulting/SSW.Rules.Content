@@ -376,7 +376,7 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 | Subject: | {{ EMAIL SUBJECT }}  |  
 ::: email-content  
 
-### Hi {{ RECIPIENT }},  
+### Hi XXX,  
 
 {{ EMAIL CONTENT }}    
 
@@ -400,7 +400,7 @@ Figure: Good example - Nice email template
 
 ::: email-content  
 
-### Hi {{ RECIPIENT }},  
+### Hi XXX,  
 
 {{ EMAIL CONTENT }}  
 
