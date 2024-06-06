@@ -54,14 +54,12 @@ In a meeting of 5 people, which includes the Product Owner, Solution Architect a
 **Figure: Good example - All team members, including the Product Owner and Solution Architect, are involved in a group chat and are kept informed**
 :::
 
-
 If the Software Engineers still disagree after the group chat, then they should make the matter official by sending a ['For the record'](http://www.ssw.com.au/for-the-record) email.
 
 *For example:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"For the record… I understand you want microservices because of xxx\
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;However I think that is wrong because of yyy\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I have CCed [3months@followupthen.com](mailto:3months@followupthen.com) to see if any of us have changed our mind"*
-
 
 ::: greybox
  **Client:** *"I told them we’d need X"*
