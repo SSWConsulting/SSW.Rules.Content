@@ -9,6 +9,7 @@ authors:
     url: https://ssw.com.au/people/gerard-beckerleg
 related:
   - backlog-refinement-meeting
+  - 3-steps-to-a-pbi
 redirects:
   - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
