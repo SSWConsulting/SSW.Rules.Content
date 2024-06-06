@@ -26,13 +26,13 @@ There are few options:
 
 If you travel overseas a lot, it may be worth considering owning a dual-SIM phone. This is highly recommended due to its cost-effectiveness, easy management, and enhanced security.
 
-Take the popular iPhone as an example, which offers an eSIM and a physical SIM slot. You can convert your primary mobile number to an eSIM and keep the physical SIM slot for your travel SIMs. 
+Take the popular iPhone as an example, which offers an eSIM and a physical SIM slot. You can convert your primary mobile number to an eSIM and keep the physical SIM slot for your travel SIMs.
 
 * ✅ Travel SIMs are usually data-only, cheap, and easy to acquire
 * ✅ Travel SIMs can be pre-purchased weeks before you go – it is only activated once you connect it to the network
 * ✅ Your mobile number is still active when overseas (with your eSIM) and the data usage stays with the travel SIMs
 
-Note: Sometimes it is better to use a eSIM travel app e.g. https://roamless.com/ 
+Note: Sometimes it is better to use a eSIM travel app e.g. <https://roamless.com/>
 You can buy data and use it in 165 countries without changing SIM cards.
 
 ### 2. Portable 4G Router
