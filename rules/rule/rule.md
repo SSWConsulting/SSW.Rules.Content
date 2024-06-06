@@ -400,7 +400,7 @@ Figure: Good example - Nice email template
 
 ::: email-content  
 
-### Hi XXX,  
+### Hi XXX  
 
 {{ EMAIL CONTENT }}  
 
