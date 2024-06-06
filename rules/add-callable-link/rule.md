@@ -40,7 +40,7 @@ Figure: Bad example - Contact number is not a 'call-able' link
 
 ::: greybox
 
-<a href="tel:+61 2 1234 5678">+61 2 1234 5678</a>
+<a href="tel:+61212345678">+61 2 1234 5678</a>
 
 :::
 
