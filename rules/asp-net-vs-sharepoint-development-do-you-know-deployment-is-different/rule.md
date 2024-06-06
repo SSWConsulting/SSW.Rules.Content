@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: ASP.NET vs SharePoint development - do you know deployment is different?
+title: ASP.NET vs SharePoint development - Do you know deployment is different?
 guid: 5670dd01-3d85-4374-adfd-f9bbf0f2ebb8
 uri: asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 created: 2009-06-16T00:59:28.0000000Z

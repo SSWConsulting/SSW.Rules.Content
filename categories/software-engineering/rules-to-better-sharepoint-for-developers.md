@@ -69,6 +69,7 @@ index:
 - the-best-forms-solution
 - reduce-diagnostic-logging-level-after-configure-hybrid-search
 - do-you-turn-off-auto-update-on-your-servers
+- do-you-get-rid-of-legacy-items-in-sharepoint-online
 - do-you-use-the-right-service-in-sharepoint-2013
 - never-dispose-objects-from-spcontext-current
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
