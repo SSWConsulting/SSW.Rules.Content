@@ -60,7 +60,7 @@ You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already
 This step depends on the complexity and nature of the task, especially if the PBI involves intricate coding or extensive testing to meet the defined [Acceptance Criteria](/acceptance-criteria).
 
 1. On the Sprint board, move your PBI into "In Progress"
-2. Create a new branch and code, code, code... (remember to [Red, Green, Refactor](/reply-done-plus-added-a-unit-test))
+2. Create a new branch and code, code, code...
 3. Open a Pull Request with [lots of context](/write-a-good-pull-request)
 4. Get another engineer in your team to do an ["over the shoulder"](/over-the-shoulder) check of the code
 5. Record a [Done Video](/record-a-quick-and-dirty-done-video) so you get your ducks in a row for the explanation to the Product Owner
