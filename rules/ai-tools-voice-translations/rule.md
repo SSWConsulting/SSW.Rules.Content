@@ -24,9 +24,11 @@ AI tools like [Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home
 
 **Video: Fix Your Website Chatbot! - English version (1min)**
 
-**Video: [Fix Your Website Chatbot! - French translation (1min)](https://youtube.com/shorts/NxhP6YyBEk8)**
+`youtube: https://www.youtube.com/embed/NxhP6YyBEk8`
 
-:::
+**Video: [Fix Your Website Chatbot! - French translation (1min)**
+
+
 
 ## The Need for Oversight 👀
 
