@@ -24,5 +24,5 @@ By default charts in table grow with rows. This makes height of charts inconsist
 Putting a rectangle in table cell and placing your chart in the rectangle fixes this problem.
 
 ::: good  
-![Figure: Good example - Consistent chart height](RS_ChartInRow_Good.gif) 
+![Figure: Good example - Consistent chart height](RS_ChartInRow_Good.gif)
 :::
