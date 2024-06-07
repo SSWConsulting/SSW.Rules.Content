@@ -83,5 +83,3 @@ Congrats, your PBI is ready to be demonstrated during your Sprint Review!
 :::
 
 Print out the [SSW 3 Steps to a PBI PDF](3-steps-to-a-pbi-V7-2.pdf) and put it on your "War Room" wall.
-
-![Figure: Old Version](3StepsToAPBI.jpg)
