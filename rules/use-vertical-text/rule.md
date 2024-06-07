@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Data Layout - Do you take advantage of vertical text (when there are lots of thin columns)?
+title: Data Layout - Do you take advantage of vertical text to avoid lots of thin columns?
 guid: 84531bc9-6ec3-41c8-aab1-20e60958957f
 uri: use-vertical-text
 created: 2024-06-05T19:38:33.0000000Z
@@ -43,4 +43,4 @@ your text will become vertical, and you save lots of space.
 ![Figure: Good example - The report width has been reduced by clever use of the vertical text in the column headers](RS_VerticalText_3.gif)
 :::
 
-Note: Microsoft have not given us the option of having the vertical text bottom to top. It would be easier to read. This suggestion has been added to Suggestions for Microsoft RS
+**Note:** Microsoft have not given us the option of having the vertical text bottom to top. It would be easier to read. This suggestion has been added to Suggestions for Microsoft RS.
