@@ -37,6 +37,7 @@ index:
 - display-zero-number-as-blank
 - show-time-format-clearly
 - show-all-report-parameters-in-body
+- use-logical-page-breaks
 
 ---
 
