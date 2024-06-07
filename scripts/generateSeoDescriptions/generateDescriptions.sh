@@ -25,7 +25,7 @@ check_seo_description() {
     issues+=("Contains the phrase 'Here is the ...'")
   fi
 
-    # Check if description includes "Here is the ..."
+    # Check if the AI included formalities
   if echo "$seo_description" | grep -q "I've generated"; then
     issues+=("Contains 'I've generated'")
   fi
