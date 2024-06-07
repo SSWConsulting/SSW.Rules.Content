@@ -20,13 +20,13 @@ When a report has many columns and each column contains small amount of data, it
 By changing the WriteMode of a text box from
 
 ```sql
-	lr-tb (left to right, top to bottom)
+ lr-tb (left to right, top to bottom)
 ```
 
 to
 
 ```sql
-	tb-lr (top to bottom, left to right)
+ tb-lr (top to bottom, left to right)
 ```
 
 your text will become vertical, and you save lots of space.
@@ -39,10 +39,8 @@ your text will become vertical, and you save lots of space.
 ![Figure: Bad example - Not using ticks and crosses](RS_VerticalText_2.gif)  
 :::
 
-
 ::: good  
-![Figure: Good example - The report width has been reduced by clever use of the vertical text in the column headers](RS_VerticalText_3.gif) 
+![Figure: Good example - The report width has been reduced by clever use of the vertical text in the column headers](RS_VerticalText_3.gif)
 :::
 
 Note: Microsoft have not given us the option of having the vertical text bottom to top. It would be easier to read. This suggestion has been added to Suggestions for Microsoft RS
-
