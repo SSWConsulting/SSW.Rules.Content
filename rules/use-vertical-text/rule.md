@@ -4,7 +4,7 @@ archivedreason:
 title: Data Layout - Do you take advantage of vertical text (when there are lots of thin columns)?
 guid: 84531bc9-6ec3-41c8-aab1-20e60958957f
 uri: use-vertical-text
-created: 2023-12-11T14:38:33.0000000Z
+created: 2024-06-05T19:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
