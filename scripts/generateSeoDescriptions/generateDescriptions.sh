@@ -25,6 +25,11 @@ check_seo_description() {
     issues+=("Contains the phrase 'Here is the ...'")
   fi
 
+    # Check if description includes "Here is the ..."
+  if echo "$seo_description" | grep -q "I've generated"; then
+    issues+=("Contains 'I've generated'")
+  fi
+
   # Check if description includes odd characters * or _
   if echo "$seo_description" | grep -q "[*_]"; then
     issues+=("Contains odd characters * or _")
@@ -79,7 +84,7 @@ find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; 
       echo "Added SEO description to $markdown_file"
     else
       # Log issues
-      echo "Issues found in SEO description for $markdown_file:" >> "$log_file"
+      echo "$markdown_file:" >> "$log_file"
       echo "$seo_description" >> "$log_file"
       echo "Issues: $issues" >> "$log_file"
       echo "" >> "$log_file"
