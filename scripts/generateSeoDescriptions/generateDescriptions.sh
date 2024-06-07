@@ -100,7 +100,7 @@ find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; 
 
   # Update and display progress
   processed_files=$((processed_files + 1))
-  percent_complete=$(echo "scale=2; ($processed_files/$total_files)*100" | bc)
+  percent_complete=$(printf "%d" $((processed_files * 100 / total_files)))
   echo "$percent_complete% complete"
 
   echo ""
