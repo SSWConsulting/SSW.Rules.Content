@@ -31,26 +31,26 @@ At a high-level you can set up version control as follows. Click on the links to
    * First enable Power BI Projects in Power BI Desktop - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
    * Second "Save As" all your .pbix files as .pbip
 
-     ![Figure: Enable PBIP format in Power BI Desktop](enable-pbip-format.png)
+     ![Figure: Enable PBIP format in Power BI Desktop](enable-pbip-format_1717727679535.png)
 
-     ![Figure: Convert all .pbix files to PBIP format](save-as-pbip.png)
+     ![Figure: Convert all .pbix files to PBIP format](save-as-pbip_1717727679536.png)
      
    * Converting reports to the PBIP format decomposes it into the following artifacts.
      * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
      * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
      
-     ![Figure: PBIP artifacts](ProjectFolders.png)
+     ![Figure: PBIP artifacts](ProjectFolders_1717727679535.png)
      
 3. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note, as of this writing Power BI's Git integration only works with Azure DevOps. 
 
    **Note:** Once you convert the report Power BI Desktop will save a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
 
    ::: img-large
-   ![Figure: cache.abf](PBICache.png)
+   ![Figure: cache.abf](PBICache_1717727679535.png)
    :::
 
    ::: img-large
-   ![Figure: The .gitignore file](Gitignore.png)
+   ![Figure: The .gitignore file](Gitignore_1717727679534.png)
    :::
 
 4.  [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
