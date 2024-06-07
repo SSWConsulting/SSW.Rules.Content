@@ -373,11 +373,12 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
-| Subject: | {{Email subject}}  |  
+| Subject: | {{ EMAIL SUBJECT }}  |  
 ::: email-content  
 
 ### Hi XXX,  
-{{Email content}}    
+
+{{ EMAIL CONTENT }}    
 
 :::  
 :::  
@@ -395,13 +396,13 @@ Figure: Good example - Nice email template
 | To:      | XXX |
 | Cc:      | YYY |
 | Bcc:     | ZZZ |
-| Subject: | {{Email subject}} |  
+| Subject: | {{ EMAIL SUBJECT }} |  
 
 ::: email-content  
 
 ### Hi XXX  
 
-{{Email content}}
+{{ EMAIL CONTENT }}  
 
 :::  
 :::  
