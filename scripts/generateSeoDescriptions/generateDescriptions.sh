@@ -25,7 +25,7 @@ check_seo_description() {
     issues+=("Contains the phrase 'Here is the ...'")
   fi
 
-    # Check if the AI included formalities
+  # Check if the AI included formalities
   if echo "$seo_description" | grep -q "I've generated"; then
     issues+=("Contains 'I've generated'")
   fi
@@ -47,6 +47,10 @@ search_dir="$1"
 
 # Log file for issues
 log_file="$(dirname "${BASH_SOURCE[0]}")/seo_issues.log"
+
+# Count the number of markdown files
+total_files=$(find "$search_dir" -name "*.md" -o -name "*.mdx" | wc -l)
+processed_files=0
 
 # Iterate over each markdown file in the directory
 find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; do
@@ -84,7 +88,7 @@ find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; 
       echo "Added SEO description to $markdown_file"
     else
       # Log issues
-      echo "$markdown_file:" >> "$log_file"
+      echo "Issues found in SEO description for $markdown_file:" >> "$log_file"
       echo "$seo_description" >> "$log_file"
       echo "Issues: $issues" >> "$log_file"
       echo "" >> "$log_file"
@@ -93,5 +97,11 @@ find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; 
   else
     echo "SEO description already present in $markdown_file"
   fi
+
+  # Update and display progress
+  processed_files=$((processed_files + 1))
+  percent_complete=$(echo "scale=2; ($processed_files/$total_files)*100" | bc)
+  echo "$percent_complete% complete"
+
   echo ""
 done
