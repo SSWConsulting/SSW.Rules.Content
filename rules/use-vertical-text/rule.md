@@ -17,19 +17,19 @@ redirects: []
 When a report has many columns and each column contains small amount of data, it is a good idea to use vertical text for the column headers.
 <!--endintro-->
 
-By changing the WriteMode of a text box from
+By changing the WriteMode of a text box from:
 
 ```sql
  lr-tb (left to right, top to bottom)
 ```
 
-to
+To
 
 ```sql
  tb-lr (top to bottom, left to right)
 ```
 
-your text will become vertical, and you save lots of space.
+...your text will become vertical, and you save lots of space.
 
 ::: bad  
 ![Figure: Bad example - Not using vertical text for headings, when you have lots of thin columns](RS_VerticalText_1.gif)  
