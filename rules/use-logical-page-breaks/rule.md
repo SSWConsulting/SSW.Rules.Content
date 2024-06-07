@@ -24,5 +24,3 @@ Here is an example of how we add logical page breaks in a report to make each su
 ![Figure: Insert a logical page break before a rectangle containing a subreport](RSLogicalPageBreak.jpg)
 
 ![Figure: The subreport started in a new page](RSLogicalPageBreak_Preview.jpg)
-
-
