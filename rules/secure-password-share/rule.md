@@ -1,5 +1,4 @@
 ---
-seoDescription: "Securely share passwords by using a powerful password manager to search, share, or generate links for ultra-secure access."
 type: rule
 title: Passwords - Do you know how to securely share your passwords?
 uri: secure-password-share

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schedule online meetings and conference calls using Microsoft Lync or Outlook with ease."
 type: rule
 archivedreason: 
 title: Do you know how to create a meeting request for an online meeting or conference call?

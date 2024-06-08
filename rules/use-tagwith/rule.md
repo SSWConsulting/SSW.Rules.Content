@@ -1,5 +1,4 @@
 ---
-seoDescription: "Elevate query readability and debug efficiency with TagWith's comment-based approach."
 type: rule
 title: Do you use TagWith?
 uri: use-tagwith

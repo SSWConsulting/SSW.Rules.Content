@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ask Jira questions or request improvements through issue creation, which can be transformed into rules for all users."
 type: rule
 archivedreason: 
 title: Do you know how to ask a question about Jira or make a request for a Jira improvement?

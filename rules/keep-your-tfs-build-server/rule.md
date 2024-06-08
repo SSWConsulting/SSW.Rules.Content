@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate to the cloud and preserve your TFS Build Server by reconnecting the Build Controller and Agents to the new account."
 type: rule
 archivedreason: 
 title: Do you keep your TFS Build Server?

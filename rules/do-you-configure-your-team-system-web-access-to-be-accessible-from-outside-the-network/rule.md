@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure Team System Web Access to access from outside network by forwarding a port to the server."
 type: rule
 archivedreason: 
 title: Do you configure your Team System Web Access to be accessible from outside the network?

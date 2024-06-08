@@ -1,5 +1,4 @@
 ---
-seoDescription: "What are the different images available for virtual machine deployment and SharePoint server setup?"
 type: rule
 archivedreason: 
 title: What are the different images available?

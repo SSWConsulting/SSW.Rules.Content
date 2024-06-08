@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a new web application and site collection in SharePoint 2010 matching the original server's configuration."
 type: rule
 archivedreason: 
 title: Do you know how to create a new web application and site collection in SharePoint 2010?

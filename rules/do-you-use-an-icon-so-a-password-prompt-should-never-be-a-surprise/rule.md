@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid password prompts by indicating a login requirement with a lock icon, ensuring users are prepared for secure access."
 type: rule
 archivedreason: 
 title: Do you use an icon so a password prompt should never be a surprise?

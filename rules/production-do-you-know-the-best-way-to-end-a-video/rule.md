@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best way to end a video includes a call-to-action, company logo, and speaker sign-off."
 type: rule
 title: Production - Do you know the best way to end a video?
 uri: production-do-you-know-the-best-way-to-end-a-video

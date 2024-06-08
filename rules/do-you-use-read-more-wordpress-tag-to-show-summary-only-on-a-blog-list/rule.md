@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use 'read more' WordPress tag to show summary only on a blog list?"
 type: rule
 archivedreason: 
 title: Do you use 'read more' WordPress tag to show summary only on a blog list?

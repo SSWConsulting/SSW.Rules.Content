@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make check-in policies easier by selecting recent work items using a "Recent" query that returns the last changed work item."
 type: rule
 archivedreason: 
 title: Do you know to make using Check-in Policies easier (by adding a 'Recent' Query)?

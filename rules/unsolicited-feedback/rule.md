@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering the Art of Giving Feedback: When to Offer and How to Do It Right Discover how to provide constructive feedback that boosts growth and development. Learn when to offer feedback, what questions to ask yourself, and how to phrase it effectively."
 type: rule
 archivedreason: 
 title: Communication - Do you know how (and when) to offer unsolicited feedback?

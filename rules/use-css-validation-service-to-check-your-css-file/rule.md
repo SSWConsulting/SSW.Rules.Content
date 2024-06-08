@@ -1,5 +1,4 @@
 ---
-seoDescription: "Check your CSS files against W3C recommendations and ensure a valid and clean webpage with CSS Validation Service."
 type: rule
 archivedreason: 
 title: Do you use CSS Validation Service to check your CSS file?

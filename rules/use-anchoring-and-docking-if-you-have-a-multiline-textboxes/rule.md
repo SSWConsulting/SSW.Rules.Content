@@ -1,5 +1,4 @@
 ---
-seoDescription: "Master the art of designing multiline textboxes by using anchoring and docking properties to ensure they expand with your form's resize."
 type: rule
 title: Do you use Anchoring and Docking (full) for multiline textboxes?
 uri: use-anchoring-and-docking-if-you-have-a-multiline-textboxes

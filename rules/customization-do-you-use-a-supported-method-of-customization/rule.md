@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft CRM customization tools enable supported modifications without hacking code, ensuring compatibility with upgrades and support from Microsoft."
 type: rule
 archivedreason: 
 title: Customization - Do you use a supported method of customization?

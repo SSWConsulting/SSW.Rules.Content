@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Visual Basic library simplifies VB.NET programming by mapping common syntax to .NET framework equivalents."
 type: rule
 archivedreason: 
 title: Do you use Microsoft.VisualBasic.dll for Visual Basic.NET projects?

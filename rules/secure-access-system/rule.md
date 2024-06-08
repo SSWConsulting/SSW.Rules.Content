@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use an NFC Secure Access System for building access, ensuring who's entering your premises, when, and how, with easy keyless entry and real-time monitoring."
 type: rule
 title: Do you use an NFC Secure Access System for building access?
 uri: secure-access-system

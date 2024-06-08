@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrating from TFS to the cloud requires managing historical users, often preserving history while disabling accounts."
 type: rule
 archivedreason: 
 title: What to do with old employees?

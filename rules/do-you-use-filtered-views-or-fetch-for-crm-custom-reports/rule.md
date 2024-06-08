@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to create custom reports in Microsoft Dynamics CRM using Filtered Views or Fetch XML. Discover the differences between these two query languages and when to use each for optimal results."
 type: rule
 archivedreason: 
 title: Do you use Filtered Views or Fetch for CRM Custom Reports?

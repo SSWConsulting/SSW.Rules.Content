@@ -1,5 +1,4 @@
 ---
-seoDescription: "Exploratory testing is a systematic approach that combines learning, designing, and executing tests concurrently to uncover product issues."
 type: rule
 title: Do you know what “exploratory testing” is?
 uri: what-is-exploratory-testing

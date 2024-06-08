@@ -1,5 +1,4 @@
 ---
-seoDescription: "Review and modernize your SharePoint Online intranet by keeping or migrating classic pages and features."
 type: rule
 archivedreason: 
 title: SharePoint Online - Do you review your intranet for classic pages?

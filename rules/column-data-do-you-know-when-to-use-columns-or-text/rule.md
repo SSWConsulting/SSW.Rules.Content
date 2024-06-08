@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easily compare and reorder data with columns, perfect for side-by-side comparisons and calculating totals."
 type: rule
 archivedreason: 
 title: Column Data - Do you know when to use columns or text?

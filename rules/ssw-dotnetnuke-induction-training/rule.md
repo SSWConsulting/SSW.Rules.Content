@@ -1,5 +1,4 @@
 ---
-seoDescription: "New developers to SSW's DotNetNuke environment can get started with a comprehensive induction training program, providing access to various resources and tools."
 type: rule
 title: Do you have your new developers go through the SSW DotNetNuke Induction
   training?

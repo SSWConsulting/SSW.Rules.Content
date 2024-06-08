@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do not provide anchors for getting feedback and instead observe user behavior or ask open-ended questions to receive valuable insights."
 type: rule
 title: Do you know to not give anchors for getting feedback?
 uri: do-not-provide-anchors-for-feedback

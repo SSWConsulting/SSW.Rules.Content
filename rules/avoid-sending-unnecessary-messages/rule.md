@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid sending unnecessary Instant Messages to minimize distractions and keep conversations focused."
 type: rule
 archivedreason: 
 title: Do you avoid sending unnecessary messages?

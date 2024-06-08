@@ -1,5 +1,4 @@
 ---
-seoDescription: "Print and display your report on the web correctly by adjusting page width, margins, and body width to ensure a professional-looking PDF export."
 type: rule
 archivedreason:
 title: Layout - Do you print and display your report on the web correctly?

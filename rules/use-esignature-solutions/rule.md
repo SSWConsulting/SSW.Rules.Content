@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the power of eSignature solutions and streamline your document signing processes with increased efficiency, security, and speed."
 type: rule
 title: Do you use eSignature solutions?
 uri: use-esignature-solutions

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Promote events to increase discoverability and attract attendees through Meetup, Word of Mouth, and Social Media platforms."
 type: rule
 archivedreason: 
 title: Promotion - Do you help people to know about your events?

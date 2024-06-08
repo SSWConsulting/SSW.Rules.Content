@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Access query migration can be challenging, especially when dealing with complex queries that don't upsize properly using the Upsizing Tools."
 type: rule
 archivedreason: 
 title: Do you have complex queries (Upsizing Problem)?

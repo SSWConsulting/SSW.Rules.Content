@@ -1,5 +1,4 @@
 ---
-seoDescription: "SQL Server 2000 and 2005 compatibility issues resolved by using SQL 2000 to generate scripts."
 type: rule
 archivedreason: 
 title: DBAs - Do you know the compatibility issues between SQL Server 2000 and 2005?

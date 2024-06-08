@@ -1,5 +1,4 @@
 ---
-seoDescription: "SSW's best practices recommend naming assemblies consistently using the format `<CompanyName>.<ComponentName>`, ensuring developers can quickly identify who developed the assembly and its purpose."
 type: rule
 archivedreason: already covered by rule [https://www.ssw.com.au/rules/do-you-have-a-consistent-net-solution-structure](/rules/do-you-have-a-consistent-net-solution-structure)
 title: Do you name your assemblies consistently (<CompanyName>.<ComponentName>)?

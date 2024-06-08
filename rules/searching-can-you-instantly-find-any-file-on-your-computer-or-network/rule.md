@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find files on your computer or network instantly with built-in search functionality and third-party tools."
 type: rule
 title: Searching - Do you know how to instantly find any file on your computer or network?
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network

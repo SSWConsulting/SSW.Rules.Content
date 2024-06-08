@@ -1,5 +1,4 @@
 ---
-seoDescription: "Export customizations from CRM development servers to TFS source control, ensuring a centralized repository with versioning and collaboration benefits."
 type: rule
 archivedreason: 
 title: Do you put your exported customizations and your plug-in customization under source-control during deployment?

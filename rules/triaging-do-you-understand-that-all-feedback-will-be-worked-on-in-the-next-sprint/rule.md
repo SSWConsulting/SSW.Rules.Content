@@ -1,5 +1,4 @@
 ---
-seoDescription: "Triaging new feedback during a Sprint ensures prioritization and potential inclusion in the next iteration."
 type: rule
 archivedreason: 
 title: Triaging - Do you understand that all feedback will be worked on in the next Sprint?

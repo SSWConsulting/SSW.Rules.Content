@@ -1,5 +1,4 @@
 ---
-seoDescription: ""Boost your video campaign by leveraging YouTube's massive audience and driving traffic to your other sites with bite-sized highlights clips.""
 type: rule
 archivedreason: Old content. See the rule [https://www.ssw.com.au/rules/videos-youtube-friendly](/rules/videos-youtube-friendly) about having shorter videos over larger ones
 title: Post-Production - Do you add content to YouTube to feed traffic to your other sites?

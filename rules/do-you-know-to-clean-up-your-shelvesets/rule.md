@@ -1,5 +1,4 @@
 ---
-seoDescription: "Cleaning up Shelvesets to keep your code organized and efficient."
 type: rule
 archivedreason: Deprecated
 title: Do you know to clean up your Shelveset’s?

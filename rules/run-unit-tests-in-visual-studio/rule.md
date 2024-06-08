@@ -1,5 +1,4 @@
 ---
-seoDescription: "Run unit tests in Visual Studio by building your test project and exploring results in Test Explorer."
 type: rule
 title: Do you run Unit Tests in Visual Studio?
 uri: run-unit-tests-in-visual-studio

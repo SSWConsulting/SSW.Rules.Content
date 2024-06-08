@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use photos of your employees to make a project proposal more personal and visually engaging, showcasing the people behind the work."
 type: rule
 archivedreason: 
 title: Do you use photos of your employees to make the document more personal?

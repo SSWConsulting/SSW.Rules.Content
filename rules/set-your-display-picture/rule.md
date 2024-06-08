@@ -1,5 +1,4 @@
 ---
-seoDescription: "Display your professional image by setting a high-quality picture of yourself as your profile display to make a great first impression."
 type: rule
 archivedreason: 
 title: Display - Do you set your display picture using a good photographic image of yourself?

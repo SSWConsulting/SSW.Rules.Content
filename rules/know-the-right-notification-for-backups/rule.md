@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure successful backups by logging records on completion and reviewing backup status regularly to prevent data loss."
 type: rule
 title: PC - Do you know the right notification for backups?
 uri: know-the-right-notification-for-backups

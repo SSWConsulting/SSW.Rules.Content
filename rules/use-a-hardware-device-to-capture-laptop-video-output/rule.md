@@ -1,5 +1,4 @@
 ---
-seoDescription: "Capture laptop video output with hardware devices for precise and efficient presentations."
 type: rule
 archivedreason: 
 title: Presentations - Do you use a hardware device to capture laptop video output?

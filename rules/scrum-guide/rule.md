@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering Scrum fundamentals through reading the official guide and taking a certification assessment to unlock effective team collaboration."
 type: rule
 title: Getting Started - Do you know the Scrum guide?
 uri: scrum-guide

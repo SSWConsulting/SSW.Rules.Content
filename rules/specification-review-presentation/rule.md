@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you effectively present the outcomes at the Specification Review presentation? Present findings to key decision makers for review and acceptance."
 type: rule
 title: Do you effectively present the outcomes at the Specification Review presentation?
 uri: specification-review-presentation

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Incentivize employees to submit timesheets on time with a reward system that includes a free lunch for the entire company."
 type: rule
 title: Do you incentivise your employees to do their timesheets on time?
 uri: do-you-reward-your-employees-for-doing-their-timesheets-on-time

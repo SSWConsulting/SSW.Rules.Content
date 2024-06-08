@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimise your AngularJS Single Page Application (SPA) for search engines by pre-rendering HTML and using libraries to help Google bots crawl your site correctly."
 type: rule
 archivedreason: 
 title: Do you consider SEO in your AngularJS application?

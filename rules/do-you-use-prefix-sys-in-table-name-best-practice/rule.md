@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using "sys" as a prefix for table names to prevent confusion with SQL Server's system tables."
 type: rule
 archivedreason: 
 title: Do you use prefix sys in table name (Best Practice)?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Network hardware reliability is crucial to maintain seamless connectivity and performance."
 type: rule
 archivedreason: 
 title: Do you keep your network hardware reliable?

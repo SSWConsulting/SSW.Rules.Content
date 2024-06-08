@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Lync enables interoperability with external IM networks including Skype and other providers, facilitating seamless communication across different platforms."
 type: rule
 archivedreason: 
 title: Do you federate Lync with Skype and other external IM providers?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify and troubleshoot SQL Server performance issues by monitoring CPU, memory, and I/O pressures using Task Manager and Perfmon."
 type: rule
 archivedreason: 
 title: Identifying the cause of SQL Server performance problems

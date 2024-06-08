@@ -1,5 +1,4 @@
 ---
-seoDescription: "Real-time workflows in CRM2013 enable instant data validation and manipulation, replacing traditional JavaScript and plugin code approaches."
 type: rule
 archivedreason: 
 title: CRM2013 - Do you use Real-Time Workflows instead of Javascript and/or Plugin Code?

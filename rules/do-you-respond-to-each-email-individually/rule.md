@@ -1,5 +1,4 @@
 ---
-seoDescription: "Individual email responses boost efficiency and enable task tracking."
 type: rule
 archivedreason: 
 title: Do you respond to each email individually?

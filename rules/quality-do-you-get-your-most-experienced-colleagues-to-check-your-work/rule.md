@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get expert advice from your most experienced colleagues to improve the quality of your work and learn new techniques."
 type: rule
 archivedreason: 
 title: Quality - Do you get your most experienced colleagues to check your work?

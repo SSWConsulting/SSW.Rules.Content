@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use public/protected properties instead of public/protected fields to ensure data validation, increased flexibility, compatibility with data binding and minimal performance overhead."
 type: rule
 archivedreason: 
 title: Do you use Public/Protected Properties instead of Public/Protected Fields?

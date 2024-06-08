@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easy sharing options across popular platforms and more, empowering users to share information and media."
 type: rule
 archivedreason: 
 title: Do you provide options for sharing?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a group chat with your project team to boost collaboration and communication."
 type: rule
 title: Do you create a group chat with your project team?
 uri: teams-group-chat

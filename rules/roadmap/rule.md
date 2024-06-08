@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you have a product roadmap? A clear and defined product roadmap helps teams stay focused on long-term goals and priorities, while also preventing side-tracking on non-essential issues."
 type: rule
 title: Do you have a product roadmap?
 uri: roadmap

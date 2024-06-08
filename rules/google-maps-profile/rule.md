@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make your Google Maps profile stand out with compelling images and up-to-date business information. Ensure a strong online presence by showcasing high-quality photos of your products, services, team, or premises, and confirm legitimacy with exterior building shots."
 type: rule
 title: Google Business - Do you make your Google Maps profile look awesome?
 uri: google-maps-profile

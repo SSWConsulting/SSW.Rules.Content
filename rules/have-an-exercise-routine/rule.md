@@ -1,5 +1,4 @@
 ---
-seoDescription: "Develop an indoor exercise routine without equipment and boost strength, flexibility, and overall fitness with bodyweight exercises."
 type: rule
 archivedreason: 
 title: Do you have an indoor exercise routine?

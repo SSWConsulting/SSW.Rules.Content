@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setup a Twitter backchannel beforehand to encourage attendees to share thoughts and feedback during your presentation."
 type: rule
 title: Prior - Do you setup a Twitter backchannel beforehand?
 uri: prior-do-you-setup-a-twitter-backchannel-beforehand

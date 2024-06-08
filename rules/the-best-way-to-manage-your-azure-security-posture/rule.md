@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage your Azure Security posture effectively with Azure Security Center, Secure Score, and compliance features for regulatory frameworks."
 type: rule
 title: Do you know the best way to manage your Azure Security posture?
 uri: the-best-way-to-manage-your-azure-security-posture

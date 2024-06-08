@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create new opportunities by entering potential sales and their values into CRM, ensuring the company exists beforehand."
 type: rule
 archivedreason: 
 title: Data Entry - Do you know how to create new Opportunities?

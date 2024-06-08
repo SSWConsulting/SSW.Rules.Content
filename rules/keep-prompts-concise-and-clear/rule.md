@@ -1,5 +1,4 @@
 ---
-seoDescription: "Craft concise and clear prompts to get accurate responses from ChatGPT."
 type: rule
 title: Do you keep your prompts concise and clear?
 uri: keep-prompts-concise-and-clear

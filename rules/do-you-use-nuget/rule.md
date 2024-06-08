@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easy NuGet package management simplifies third-party library installation and upgrading in Visual Studio projects."
 type: rule
 archivedreason: 
 title: Do you use NuGet?

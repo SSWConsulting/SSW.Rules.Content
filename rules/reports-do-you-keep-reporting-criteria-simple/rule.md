@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplifying reporting criteria with intuitive filters and chart options, while avoiding complex groupings for a seamless user experience."
 type: rule
 archivedreason: 
 title: Reports - Do you keep Reporting criteria simple?

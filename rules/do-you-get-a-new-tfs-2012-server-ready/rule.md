@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get a new TFS 2012 Server ready by preparing an image using Windows 2008 R2 Server x64, adding application and IIS roles, installing SQL Server 2012 components, and setting up a SQL Server instance for TFS databases."
 type: rule
 archivedreason: 
 title: Do you get a new TFS 2012 Server ready?

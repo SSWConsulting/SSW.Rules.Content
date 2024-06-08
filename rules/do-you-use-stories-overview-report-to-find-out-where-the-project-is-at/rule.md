@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use the "Stories Overview" report in TFS to track project progress and identify areas that require testing."
 type: rule
 archivedreason: 
 title: Do you use "Stories Overview" report to find out where the project is at?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Polish blog posts after hours to ensure excellence and reach their full potential."
 type: rule
 archivedreason: 
 title: Do you polish blog posts after hours?

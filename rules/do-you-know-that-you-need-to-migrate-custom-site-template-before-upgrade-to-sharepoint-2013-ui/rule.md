@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate custom site templates before upgrading to SharePoint 2013 UI to avoid missing site template errors and ensure a seamless upgrade experience."
 type: rule
 archivedreason: 
 title: Do you know that you need to migrate 'custom site template' before upgrade to SharePoint 2013 UI?

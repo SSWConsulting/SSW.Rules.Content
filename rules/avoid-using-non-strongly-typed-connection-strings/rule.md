@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using non-strongly-typed connection strings to improve code maintainability and reduce errors."
 type: rule
 title: Do you avoid using non strongly typed connection strings?
 uri: avoid-using-non-strongly-typed-connection-strings

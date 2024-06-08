@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your site's navigation by keeping pages 4 levels deep or less, using dropdown menus for faster access."
 type: rule
 archivedreason: 
 title: Do you make your pages easy to access?

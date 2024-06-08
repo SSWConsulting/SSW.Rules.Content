@@ -1,5 +1,4 @@
 ---
-seoDescription: "Useful React Hooks for managing state and DOM interactions, including useContext, useRef, and useReducer."
 type: rule
 title: Do you use these useful React Hooks?
 uri: do-you-use-these-useful-react-hooks

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain conversation context and ensure coherent responses by summarizing long conversations and using summaries as prompts."
 type: rule
 title: Do you summarize long conversations for better context retention?
 uri: summarize-long-conversations

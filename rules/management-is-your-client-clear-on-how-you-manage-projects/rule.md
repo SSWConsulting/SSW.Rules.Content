@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clear project management ensures client understanding and effective delivery of software solutions faster."
 type: rule
 archivedreason: as per my conversation with Adam and Uly, this has no useful content
 title: Management - Is your client clear on how you manage projects?

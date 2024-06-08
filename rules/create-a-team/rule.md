@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a team and boost collaboration with Microsoft Teams, centralizing communication, file sharing, and more."
 type: rule
 archivedreason: 
 title: Do you know how to create a Team?

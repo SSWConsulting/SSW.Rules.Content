@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you record better audio? Learn how to capture high-quality sound with our expert tips on microphone types, recording patterns, and silent spaces."
 type: rule
 title: Audio - Do you record better audio?
 uri: record-better-audio

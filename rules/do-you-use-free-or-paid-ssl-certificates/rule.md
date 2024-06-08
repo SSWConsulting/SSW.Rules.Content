@@ -1,5 +1,4 @@
 ---
-seoDescription: "Secure your website with HTTPS and choose between free or paid SSL certificates to ensure online trust and credibility."
 type: rule
 title: Certificate - Do you use free or paid SSL certificates?
 uri: do-you-use-free-or-paid-ssl-certificates

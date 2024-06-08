@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use heading tags (H1, H2, H3) where appropriate to structure your content and improve search engine ranking. This helps search engines understand the hierarchy of your page's content and gives extra weighting to text in H1 and H2 tags."
 type: rule
 archivedreason: 
 title: Do you use heading tags where appropriate (H1, H2, H3...)?

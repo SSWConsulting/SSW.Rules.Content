@@ -1,5 +1,4 @@
 ---
-seoDescription: "Test and refine your prompts to elicit accurate ChatGPT responses by analyzing relevance, adjusting phrasing, and experimenting with different keywords."
 type: rule
 title: Do you test your prompts, and then iterate on them?
 uri: test-prompts-then-iterate

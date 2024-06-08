@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know how to schedule presenters for webinars and plan accordingly to achieve a successful event?"
 type: rule
 archivedreason: 
 title: Webinar - Do you know the planning that should be done for a webinar?

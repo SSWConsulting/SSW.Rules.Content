@@ -1,5 +1,4 @@
 ---
-seoDescription: "Office supplies lockers providing a secure and organized space for employees to store belongings, receive packages, and maintain a clean desk policy."
 type: rule
 archivedreason: 
 title: Office environment - Do you supply your employees with a locker?

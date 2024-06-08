@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create Microsoft Forms via Teams to share survey results and enable collaboration with team members."
 type: rule
 archivedreason: 
 title: Do you create Microsoft Forms via Microsoft Teams so others can see the results?

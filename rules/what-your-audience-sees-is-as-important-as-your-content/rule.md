@@ -1,5 +1,4 @@
 ---
-seoDescription: "Effective public speaking requires considering both your message and its presentation, highlighting the importance of hand gestures and tone."
 type: rule
 archivedreason: 
 title: Do you know that what your audience sees is as important as your content?

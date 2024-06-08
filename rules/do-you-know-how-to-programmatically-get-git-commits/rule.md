@@ -1,5 +1,4 @@
 ---
-seoDescription: "Programmatically retrieve Git commits from your repository using Azure DevOps API with a simple HTTPS GET request."
 type: rule
 archivedreason: 
 title: Do you know how to programmatically get Git commits?

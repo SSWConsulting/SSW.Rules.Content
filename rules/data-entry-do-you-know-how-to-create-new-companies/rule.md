@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create new companies efficiently in MS CRM 2013 by starting with a fresh entry and avoiding duplicates."
 type: rule
 archivedreason: 
 title: Data Entry - Do you know how to create new Companies?

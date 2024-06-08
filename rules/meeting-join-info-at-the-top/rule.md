@@ -1,5 +1,4 @@
 ---
-seoDescription: "Put meeting join information at the top of the email body to ensure attendees can quickly find the link and prepare for remote meetings."
 type: rule
 title: Do you know to put any meeting join info at the top of the body?
 uri: meeting-join-info-at-the-top

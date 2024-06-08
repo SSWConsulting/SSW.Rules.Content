@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay connected and make yourself highly available on various communication channels to ensure seamless collaboration while working remotely."
 type: rule
 archivedreason: 
 title: Communication - Do you make yourself accessible?

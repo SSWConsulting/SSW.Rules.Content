@@ -1,5 +1,4 @@
 ---
-seoDescription: "Integrate Microsoft Dynamics CRM with Skype for Business to enhance sales and customer service interactions."
 type: rule
 archivedreason: 
 title: Do you integrate CRM with Microsoft Skype for Business?

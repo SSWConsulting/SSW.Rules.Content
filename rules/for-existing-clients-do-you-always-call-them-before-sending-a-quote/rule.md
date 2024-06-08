@@ -1,5 +1,4 @@
 ---
-seoDescription: "Existing clients already impressed with your work deserve a personalized touch before sending quotes, ensuring they receive and review estimates promptly."
 type: rule
 archivedreason: 
 title: Do you always call existing clients before sending a quote?

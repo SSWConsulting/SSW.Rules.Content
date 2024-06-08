@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easily find and connect to printers from outside the domain with a simple DNS alias setup."
 type: rule
 archivedreason: 
 title: Printers - Do you make your Printers easy to find?

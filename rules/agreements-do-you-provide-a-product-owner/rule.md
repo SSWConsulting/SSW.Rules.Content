@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure effective software development by designating a Product Owner to make scope decisions and authorize work."
 type: rule
 archivedreason: 
 title: Agreements - Do you provide a Product Owner?

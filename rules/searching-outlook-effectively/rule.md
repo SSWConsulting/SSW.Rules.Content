@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering Outlook search techniques to find emails quickly and efficiently, just like a pro!"
 type: rule
 title: Do you know how to search Outlook effectively?
 uri: searching-outlook-effectively

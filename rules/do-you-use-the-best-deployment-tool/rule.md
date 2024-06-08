@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use the best deployment tool? Automate your deployments with Octopus Deploy and ensure that you're deploying tested builds to each environment separately."
 type: rule
 archivedreason: 
 title: Do you use the best deployment tool?

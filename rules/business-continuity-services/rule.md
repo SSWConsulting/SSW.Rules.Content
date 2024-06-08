@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure business continuity by implementing redundancy strategies to minimize downtime and ensure services remain available during outages."
 type: rule
 title: Redundancy - Do you ensure the business continuity of your services?
 uri: business-continuity-services

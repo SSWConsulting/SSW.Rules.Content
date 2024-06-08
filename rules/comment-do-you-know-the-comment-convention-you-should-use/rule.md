@@ -1,5 +1,4 @@
 ---
-seoDescription: "Comment conventions provide a consistent and meaningful way to label comments in your code."
 type: rule
 archivedreason: 
 title: Comment - Do you know the comment convention you should use?

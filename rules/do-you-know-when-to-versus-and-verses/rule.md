@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn when to use "versus" and "verses" with examples of poetry, sports, and legal scenarios."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you know when to use versus and verses?'

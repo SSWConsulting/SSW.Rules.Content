@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use RedirectToAction instead of returning a view that's not named the same as the action?"
 type: rule
 title: Do you use RedirectToAction instead of returning a view that’s not named
   the same as the action?

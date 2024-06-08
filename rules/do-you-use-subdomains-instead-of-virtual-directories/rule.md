@@ -1,5 +1,4 @@
 ---
-seoDescription: "Elevate your website's organization structure using subdomains instead of virtual directories, streamlining hosting and geographic location management."
 type: rule
 archivedreason: 
 title: Do you use subdomains instead of virtual directories?

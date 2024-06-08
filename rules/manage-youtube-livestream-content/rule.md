@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage your YouTube live-stream content effectively with our recommended approach, featuring a balance between consistency and engagement."
 type: rule
 title: Do you manage your YouTube live-stream content?
 uri: manage-youtube-livestream-content

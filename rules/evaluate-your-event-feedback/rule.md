@@ -1,5 +1,4 @@
 ---
-seoDescription: "Analyze event feedback to refine future events, track progress and identify areas for improvement."
 type: rule
 title: Retro - Do you evaluate your event feedback?
 uri: evaluate-your-event-feedback

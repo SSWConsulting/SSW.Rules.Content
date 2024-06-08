@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve your GitHub Issues by standardizing them with templates, enhancing repository backlogs and developer workflow."
 type: rule
 title: GitHub Issues - Do you use Issue Templates?
 uri: github-issue-templates

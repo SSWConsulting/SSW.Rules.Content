@@ -1,5 +1,4 @@
 ---
-seoDescription: "Controlled Lookup Data deployment and testing ensure application functionality without relying on records being present in lookup tables."
 type: rule
 title: Do you deploy "Controlled Lookup Data" ?
 uri: do-you-deploy-controlled-lookup-data

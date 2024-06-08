@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to build maintainable applications using dependency injection centric architecture and master the Onion Architecture's layers."
 type: rule
 archivedreason: 
 title: Do You Use a Dependency Injection Centric Architecture?

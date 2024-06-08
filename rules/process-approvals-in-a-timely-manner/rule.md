@@ -1,5 +1,4 @@
 ---
-seoDescription: "Process approvals promptly to avoid delays and ensure a smooth workflow."
 type: rule
 archivedreason: 
 title: Do you process approvals in a timely manner?

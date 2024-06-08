@@ -1,5 +1,4 @@
 ---
-seoDescription: "When planning to use Workflow, consider using it with SharePoint List instead of BCS, as Workflow doesn't support external lists and requires data storage in SharePoint."
 type: rule
 archivedreason: 
 title: Do you avoid using BCS when you need Workflow?

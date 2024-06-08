@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use fixed disks to improve Virtual Machine performance and efficiency in production environments."
 type: rule
 archivedreason: 
 title: Do you use Fixed Disks?

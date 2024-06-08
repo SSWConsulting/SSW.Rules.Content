@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to use standalone components in Angular, reducing boilerplate code and simplifying component creation."
 type: rule
 title: Do you use standalone components?
 guid: 2088c2e1-7243-45cc-b812-ee228856ddc1

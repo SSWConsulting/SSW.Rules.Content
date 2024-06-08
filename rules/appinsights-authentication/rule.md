@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you secure your AppInsights location and enable Enhanced Security with Bicep rules."
 type: rule
 archivedreason: 
 title: Do you secure your AppInsights Telemetry?
@@ -36,7 +35,7 @@ In summary, disabling local authentication and relying on Entra ID RBAC for tele
 
 ![Increase Security - Disable Local Authentication](appinsights-disable-local-auth.png)
 
-## Pros and Cons
+## Pros and Cons 
 
 | Pros        | Cons           |
 |:-------------|:-------------|
@@ -71,7 +70,6 @@ resource appService 'Microsoft.Web/sites@2022-09-01' = {
   }
   // ... the rest of your app service configuration
 ```
-
 ::: good
 Figure: Enable System Assigned managed identity
 :::
@@ -163,8 +161,8 @@ We accomplish this by using one of the following [credential types](https://gith
 
 1. `DefaultAzureCredential` for local development
 2. `ManagedIdentityCredential` for apps running in Azure with system-assigned or user-assigned managed identities
-     * For system-assigned, use the default constructor without parameters.
-     * For user-assigned, provide the `client ID` to the constructor.
+     - For system-assigned, use the default constructor without parameters.
+     - For user-assigned, provide the `client ID` to the constructor.
 
 Once the credential has been created, pass it to the Application Insights `TelemetryConfiguration`:
 

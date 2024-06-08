@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid publishing from Visual Studio and instead use a defined Build in TFS for reliable and repeatable deployments."
 type: rule
 archivedreason: 
 title: Do you avoid publishing from Visual Studio?

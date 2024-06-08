@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover your agility index and take your project's quality to the next level with our quiz."
 type: rule
 archivedreason: 
 title: Do you know your agility index?

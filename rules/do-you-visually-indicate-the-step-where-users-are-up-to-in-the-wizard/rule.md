@@ -1,5 +1,4 @@
 ---
-seoDescription: "Visually indicate user progress in a wizard to help users stay on track."
 type: rule
 archivedreason: 
 title: Do you visually indicate the step where users are up to in the wizard?

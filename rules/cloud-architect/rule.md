@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a successful cloud project by hiring a Cloud Architect to optimize choices and save costs."
 type: rule
 archivedreason: 
 title: Do you have a Cloud Architect in your projects?

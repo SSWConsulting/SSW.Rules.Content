@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use OneDrive over "Open with Explorer" to enhance file management and organization with seamless synchronization and subfolder selection."
 type: rule
 archivedreason: 
 title: Do you know why you should use "Open with Explorer" over OneDrive?

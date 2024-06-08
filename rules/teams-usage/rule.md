@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Teams usage reports help identify popular and unused teams, track adoption, and monitor meeting and chat activity."
 type: rule
 title: Do you review Microsoft Teams usage reports?
 uri: teams-usage

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Upgrading TFS 2010 databases to a new environment with Team Foundation Server 2012 or Update 1."
 type: rule
 archivedreason: 
 title: Do you know how to upgrade your TFS 2010 databases? (the big one)

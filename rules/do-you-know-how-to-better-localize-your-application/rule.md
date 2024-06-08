@@ -1,5 +1,4 @@
 ---
-seoDescription: "Localize your application to reach a broader audience and enhance user experience across languages and regions."
 type: rule
 archivedreason: 
 title: Do you know how to better localize your application?

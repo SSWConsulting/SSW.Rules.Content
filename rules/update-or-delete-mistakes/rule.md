@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Teams messaging correction and deletion options for mistake-free communication."
 type: rule
 archivedreason: 
 title: Do you know you can update or delete chat messages with mistakes?

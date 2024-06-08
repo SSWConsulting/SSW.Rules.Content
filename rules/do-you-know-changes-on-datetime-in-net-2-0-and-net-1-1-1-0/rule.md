@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand changes on Datetime in .NET 2.0 and .NET 1.1/1.0 for accurate date time conversions."
 type: rule
 archivedreason: 
 title: Do you know changes on Datetime in .NET 2.0 and .NET 1.1/1.0?

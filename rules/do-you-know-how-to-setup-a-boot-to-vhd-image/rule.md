@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setup a Boot to VHD Image and boot into a virtualized Windows environment without partitioning your hard drive."
 type: rule
 archivedreason: 
 title: Do you know how to setup a Boot to VHD Image?

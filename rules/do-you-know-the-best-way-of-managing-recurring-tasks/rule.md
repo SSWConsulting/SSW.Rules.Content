@@ -1,5 +1,4 @@
 ---
-seoDescription: "Effective recurring task management requires a system that can automate reminders and notifications, ensuring seamless transition of responsibilities."
 type: rule
 title: Do you know the best way of managing recurring tasks?
 uri: do-you-know-the-best-way-of-managing-recurring-tasks

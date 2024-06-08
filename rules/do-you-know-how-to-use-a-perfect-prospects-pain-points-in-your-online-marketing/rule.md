@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify and leverage perfect prospects' pain points to create targeted online marketing campaigns that drive conversions and build brand loyalty."
 type: rule
 archivedreason: 
 title: Do you know how to use a perfect prospect’s pain points in your online marketing?

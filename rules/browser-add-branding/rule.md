@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add branding to your browser's new tabs and enhance your browsing experience with personalized imagery."
 type: rule
 title: Do you add branding to your browser's new tabs?
 uri: browser-add-branding

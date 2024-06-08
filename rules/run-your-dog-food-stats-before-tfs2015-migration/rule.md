@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you run your dog food stats before TFS 2015 migration? Boost statistics and insights on your Team Foundation Server (TFS) instance with these DogFoodStats queries."
 type: rule
 archivedreason: 
 title: Do you run your dog food stats (before TFS 2015 migration)?

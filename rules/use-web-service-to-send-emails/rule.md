@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a Web Service to securely send emails from your Windows application without storing email server configurations."
 type: rule
 title: Do you use Web Service to send emails?
 uri: use-web-service-to-send-emails

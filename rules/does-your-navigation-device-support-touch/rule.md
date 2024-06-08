@@ -1,5 +1,4 @@
 ---
-seoDescription: "Navigation devices support touch for intuitive and easy navigation experiences."
 type: rule
 archivedreason: Outdated 1-line rule
 title: Does your navigation device support touch?

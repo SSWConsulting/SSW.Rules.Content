@@ -1,5 +1,4 @@
 ---
-seoDescription: "Hyperlink phone numbers to enhance mobile user experience and increase conversion rates with a single click."
 type: rule
 archivedreason: 
 title: Do you add hyperlinks to phone numbers?

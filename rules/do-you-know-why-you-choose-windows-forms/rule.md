@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover why Windows Forms remain a popular choice despite the rise of web forms, offering benefits such as bandwidth efficiency, caching, and richer interfaces."
 type: rule
 title: Do you know why you choose Windows Forms?
 uri: do-you-know-why-you-choose-windows-forms

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you avoid using inline when replying to an email? Instead, copy and paste the entire email in your reply, commenting on each issue at a time, keeping the history intact."
 type: rule
 archivedreason: 
 title: Do you avoid using inline when replying to an email?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Build an iPhone app when you need native API integration or complex functionality, whereas a web app is suitable for existing websites with CSS updates."
 type: rule
 archivedreason: 
 title: Do you know when to build an iPhone app over an iPhone web app?

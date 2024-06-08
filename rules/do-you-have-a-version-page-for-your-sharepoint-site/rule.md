@@ -1,5 +1,4 @@
 ---
-seoDescription: "Version page for SharePoint site helps track package updates and enables quick identification of deployed versions."
 type: rule
 archivedreason: 
 title: Do you have a version page for your SharePoint site?

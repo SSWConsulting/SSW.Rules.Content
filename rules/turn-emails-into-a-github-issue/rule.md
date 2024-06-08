@@ -1,5 +1,4 @@
 ---
-seoDescription: "Turn emails into GitHub Issues before starting work with Power Automate."
 type: rule
 archivedreason: 
 title: GitHub Issues - Do you turn emails into Issues before starting work?

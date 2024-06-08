@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improperly ending a VB.NET subroutine with both End Sub and Exit Sub."
 type: rule
 archivedreason: 
 title: VB.NET Code - Do you know not to put Exit Sub before End Sub?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Take ownership of tasks and follow up proactively to ensure timely completion, fostering accountability, clarity, and trust among team members and stakeholders."
 type: rule
 title: Do you take ownership and follow up?
 uri: tofu

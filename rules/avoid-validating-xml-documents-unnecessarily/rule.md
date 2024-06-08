@@ -1,5 +1,4 @@
 ---
-seoDescription: "Validate XML documents unnecessarily and improve performance by using XmlTextReader instead of XmlValidatingReader."
 type: rule
 archivedreason: 
 title: Do you avoid validating XML documents unnecessarily?
@@ -21,6 +20,7 @@ Validating an XML document against a schema is expensive, and should not be done
 * Read with XmlTextReader: 172203 nodes - 320 ms
 * Parse using XmlDocument no validation - length 1619608 - 1052 ms
 * Parse using XmlDocument with XmlValidatingReader: length 1619608 - 1862 ms
+
 
 You can disable validation when using the XmlDocument object by passing an XmlTextReader instead of the XmlValidatingTextReader:
 

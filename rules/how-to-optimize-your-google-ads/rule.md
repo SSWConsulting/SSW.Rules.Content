@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimise your Google Ads campaigns and reach your target audience effectively with strategies including negative keyword identification, ad split testing, and max CPC setting."
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/how-to-optimize-google-ads-campaigns](/rules/how-to-optimize-google-ads-campaigns)
 title: Do you know how to optimize your Google Ads?

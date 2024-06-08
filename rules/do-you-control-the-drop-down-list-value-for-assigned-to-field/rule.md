@@ -1,5 +1,4 @@
 ---
-seoDescription: "Control assigned to field values in TFS by adding allowedvalues and valid user options in XML definition."
 type: rule
 archivedreason: 
 title: Do you control the drop down list value for Assigned To field?

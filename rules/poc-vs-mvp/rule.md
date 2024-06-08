@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand the difference between a Proof of Concept (POC) and a Minimum Viable Product (MVP), crucial for successful product development."
 type: rule
 archivedreason: 
 title: Do you understand the difference between a POC and MVP?

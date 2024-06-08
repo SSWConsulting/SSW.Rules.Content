@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clearly indicating a project's maintenance status helps users make informed decisions about using open-source contributions."
 type: rule
 archivedreason: 
 title: Do you make it clear when a project is no longer maintained?

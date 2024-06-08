@@ -1,5 +1,4 @@
 ---
-seoDescription: "C# 7 features reduce boilerplate code and improve readability by simplifying string formatting, null checks, and exception handling."
 type: rule
 title: Do you use the new C# 7 language features to slash the amount of boilerplate code you write?
 uri: use-most-recent-language-features-to-slash-the-amount-of-boilerplate-code-you-write

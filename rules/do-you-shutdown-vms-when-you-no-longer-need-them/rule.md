@@ -1,5 +1,4 @@
 ---
-seoDescription: "Shutting down Azure VMs when no longer needed prevents compute charges and minimizes costs."
 type: rule
 archivedreason: 
 title: Do you shutdown VM's when you no longer need them?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Develop opportunities to convert inline SQL into LINQ to Entities by looking out for potential replacements."
 type: rule
 archivedreason: 
 title: Do you have opportunities to convert use Linq to entities?

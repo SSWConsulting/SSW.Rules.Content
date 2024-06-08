@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get work approved before acting to boost efficiency and reduce stress by avoiding potential fires."
 type: rule
 archivedreason: 
 title: Approval - Do you get work approved before you do it?
@@ -23,7 +22,7 @@ redirects: []
 "Sometimes it's better to ask forgiveness than permission" - Tony Abbott
 
 The trouble is that the above is predicated on the notion that you're doing something wrong and are happy spending time putting out fires that needn't have been lit.
-
+ 
 Let's see how to live without stomach ulcers...
 
 <!--endintro-->
@@ -42,15 +41,17 @@ Always get permission for:
 * Exceeding estimates
 * [Data migration](/do-you-perform-migration-procedures-with-an-approved-release-plan)
 
+
 Having said that, you need to manage two potential problems with seeking permission on work before acting:
 
 * Increased dead time while waiting for approval
-* Discouraging initiative to
+* Discouraging initiative to 
       [fix problems quickly](/do-you-fix-problems-quickly)
+
 
 This rule is not generally applicable if:
 
-* You are working on an
+* You are working on an 
       [ad hoc](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work) basis on a client managed project
-* The task is an obvious task which you would
+* The task is an obvious task which you would 
       [reasonably assume the client would approve](/approval-do-you-assume-necessary-tasks-will-get-approval) and is not likely to take more than half an hour.

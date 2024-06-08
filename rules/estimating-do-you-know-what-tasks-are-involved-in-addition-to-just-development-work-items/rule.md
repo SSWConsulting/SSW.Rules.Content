@@ -1,5 +1,4 @@
 ---
-seoDescription: "Estimating software projects involves tasks beyond coding, including administration, testing, and bug fixing, which can account for up to 4 hours of work for every hour of coding."
 type: rule
 archivedreason: 
 title: Estimating - Do you know what tasks are involved in addition to just Development Work Items?

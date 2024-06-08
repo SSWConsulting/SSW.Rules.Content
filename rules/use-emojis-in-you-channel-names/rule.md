@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost user adoption to Microsoft Teams by using emojis in channel names, making it easier for users to remember where information is located."
 type: rule
 archivedreason: Duplicate of [https://ssw.com.au/rules/use-emojis](/rules/use-emojis)
 title: Do you use emojis in your channel names?

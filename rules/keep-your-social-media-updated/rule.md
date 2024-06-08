@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your social media updated to maintain a strong online presence and consistent branding for your business."
 type: rule
 title: Do you keep your social media updated?
 uri: keep-your-social-media-updated

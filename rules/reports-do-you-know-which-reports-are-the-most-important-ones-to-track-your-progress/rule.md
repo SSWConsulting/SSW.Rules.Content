@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track Scrum progress and stay on target with crucial reports that provide a clear picture of your team's performance."
 type: rule
 archivedreason: 
 title: Reports - Do you know which reports are the most important ones to track your progress?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Assign testers to test configurations and streamline testing workflow using Azure Test Plans."
 type: rule
 title: Do you know how to assign a tester to test configurations?
 uri: do-you-know-how-to-assign-a-tester-to-test-configurations

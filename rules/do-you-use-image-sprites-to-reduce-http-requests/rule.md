@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reduce HTTP requests and speed up page load times by using CSS image sprites, a technique that combines multiple images into one, allowing browsers to display only the needed portion."
 type: rule
 archivedreason: 
 title: Do you use image sprites to reduce HTTP requests?

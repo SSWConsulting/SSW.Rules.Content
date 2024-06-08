@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve video accessibility and comprehension by adding subtitles that enhance audio clarity and provide a clear understanding of spoken dialogue."
 type: rule
 title: Post-Production - Do you subtitle your videos?
 uri: production-do-you-know-to-subtitle-your-videos

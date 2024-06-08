@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you need to frequently update your work item types? This script helps you quickly upload customized process templates with one click, making development more efficient."
 type: rule
 archivedreason: 
 title: Do you have a WitAdmin script to import work item definitions?

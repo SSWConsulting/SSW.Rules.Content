@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know how to use code migrations? Manage database schemas effectively with Entity Framework Code First Migrations. Update a production database schema without recreating it from scratch."
 type: rule
 title: Do you know to use code migrations?
 uri: use-code-migrations

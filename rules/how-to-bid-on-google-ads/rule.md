@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize your Google Ads ROI by focusing on clicks, impressions, conversions, views, or engagements, depending on your campaign goal."
 type: rule
 archivedreason: 
 title: Do you know how to Bid on Google Ads?

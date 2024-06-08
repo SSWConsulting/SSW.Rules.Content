@@ -1,5 +1,4 @@
 ---
-seoDescription: "Host your website's images internally to maintain control and avoid broken links caused by external image deletion."
 type: rule
 title: Do you make sure your images are hosted internally?
 uri: images-should-be-hosted-internally

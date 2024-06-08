@@ -1,5 +1,4 @@
 ---
-seoDescription: "Twitter account verification helps establish authenticity and credibility by confirming a user's identity through phone number, email address, and profile information."
 type: rule
 title: Twitter - Do you know how to verify your account?
 uri: twitter-how-to-verify-your-account

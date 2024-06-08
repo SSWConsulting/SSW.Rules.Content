@@ -1,5 +1,4 @@
 ---
-seoDescription: "Give users control over their localization experience by offering a locale option that remembers their choice for future visits."
 type: rule
 archivedreason: 
 title: Do you always give the user an option to change the locale?

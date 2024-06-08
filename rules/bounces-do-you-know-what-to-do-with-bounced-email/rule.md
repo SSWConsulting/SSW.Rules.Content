@@ -1,5 +1,4 @@
 ---
-seoDescription: "What to do when email bounces? Check your mail server's spam blacklist and MX records to ensure delivery issues aren't on your end."
 type: rule
 archivedreason: 
 title: Bounces - Do you know what to do with bounced email?

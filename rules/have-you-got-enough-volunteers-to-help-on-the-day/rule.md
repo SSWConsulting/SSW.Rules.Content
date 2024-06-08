@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure you have a sufficient number of volunteers to help on the day by recruiting from various sources."
 type: rule
 archivedreason: 
 title: Have you got enough volunteers to help on the day?

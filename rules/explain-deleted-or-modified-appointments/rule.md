@@ -1,5 +1,4 @@
 ---
-seoDescription: "Appointments changed or deleted require explicit explanations to avoid confusion and ensure transparency, with version numbers tracking changes and attendees updated accordingly."
 type: rule
 title: Appointments - Do you explain why you've deleted or updated an appointment?
 uri: explain-deleted-or-modified-appointments

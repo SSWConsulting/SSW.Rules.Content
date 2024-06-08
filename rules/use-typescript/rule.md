@@ -1,5 +1,4 @@
 ---
-seoDescription: "Typescript enhances Angular and React applications by providing type safety, improved tooling, and wider browser support."
 type: rule
 title: Do you use Typescript?
 uri: use-typescript

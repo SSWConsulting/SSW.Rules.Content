@@ -1,5 +1,4 @@
 ---
-seoDescription: "Does your development room have an electronic task board?"
 type: rule
 archivedreason: 
 title: The War Room - Does your development room have an electronic task board?

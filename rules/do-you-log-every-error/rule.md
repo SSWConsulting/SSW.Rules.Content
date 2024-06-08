@@ -1,5 +1,4 @@
 ---
-seoDescription: "Log every error to provide proactive and polite support to users, transforming unhandled errors into opportunities for good service."
 type: rule
 archivedreason: 
 title: Do you log every error?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When a client or coworker asks you to do a task verbally, how can you ensure you remember it? Send yourself an email with a clear subject line and include the task details."
 type: rule
 title: Dones - Do you send yourself emails?
 uri: send-to-myself-emails

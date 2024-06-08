@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft's guidelines for Windows Phone UX design provide a framework for creating intuitive and user-friendly experiences on Windows Phone devices."
 type: rule
 archivedreason: Antiquated content 
 title: Do you know what guidelines to follow for WP8?

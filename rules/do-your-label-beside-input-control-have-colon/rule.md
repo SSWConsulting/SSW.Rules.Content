@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use colon-separated labels to enhance user experience and improve accessibility on your input controls."
 type: rule
 title: Do you have colons beside labels on input controls (Textbox, Combobox, Datetime, etc.)?
 uri: do-your-label-beside-input-control-have-colon

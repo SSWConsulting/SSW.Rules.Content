@@ -1,5 +1,4 @@
 ---
-seoDescription: "Data Layout - Show past 6 months of totals in a chart to facilitate easy comparison."
 type: rule
 archivedreason:
 title: Data Layout - Do you show the past 6 months of totals in a chart?

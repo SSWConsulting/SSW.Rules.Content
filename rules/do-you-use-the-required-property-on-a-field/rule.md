@@ -1,5 +1,4 @@
 ---
-seoDescription: "Determines whether a field allows null values after upsizing in Microsoft Access."
 type: rule
 archivedreason: 
 title: Do you use the Required property on a field?

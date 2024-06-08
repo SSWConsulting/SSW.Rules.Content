@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover two common software versioning methods: Simple Versioning and Semantic Versioning. Learn when to use each for your project's unique needs."
 type: rule
 title: Do you know the different ways to version?
 uri: ways-to-version

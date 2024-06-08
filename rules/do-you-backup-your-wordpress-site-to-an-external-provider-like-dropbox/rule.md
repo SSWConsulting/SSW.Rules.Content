@@ -1,5 +1,4 @@
 ---
-seoDescription: "Backup your WordPress site to an external provider like Dropbox using the BackWPup plugin for secure and automated daily backups."
 type: rule
 archivedreason: 
 title: Do you backup your WordPress site to an external provider like Dropbox?

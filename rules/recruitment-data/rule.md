@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve your recruitment process by analyzing data on applicant tracking systems like LinkedIn Talent Hub to identify trends and optimize candidate experience."
 type: rule
 archivedreason: 
 title: Do you analyse your recruitment data to improve your process?

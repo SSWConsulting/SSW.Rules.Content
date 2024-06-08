@@ -1,5 +1,4 @@
 ---
-seoDescription: "Export SharePoint solutions without original installer or source code by using the Solution Exporter tool and copying the C:SharePointCustomizations folder to the destination server."
 type: rule
 archivedreason: 
 title: Export Method - Do you know how to export the solution if you don’t have the original installer or source code? (optional)

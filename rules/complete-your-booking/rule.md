@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure accurate time tracking by working all booked hours and billing clients accordingly, allowing for a seamless representation of work completed."
 type: rule
 title: Do you know to work all the hours you're booked for?
 uri: complete-your-booking

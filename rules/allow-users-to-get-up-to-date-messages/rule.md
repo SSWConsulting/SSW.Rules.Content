@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay informed about important updates and valuable information without needing to check for software updates with our intuitive notifications."
 type: rule
 archivedreason: 
 title: Do you allow users to get up-to-date messages?

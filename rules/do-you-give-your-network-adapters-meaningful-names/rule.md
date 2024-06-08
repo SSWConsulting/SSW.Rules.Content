@@ -1,5 +1,4 @@
 ---
-seoDescription: "Give your network adapters meaningful names to simplify Hyper-V Clustering configuration and ensure smooth node operations."
 type: rule
 archivedreason: 
 title: Do you give your Network Adapters meaningful names?

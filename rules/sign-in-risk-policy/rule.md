@@ -1,5 +1,4 @@
 ---
-seoDescription: "Azure AD's Sign-in risk policy protects users from malicious sign-ins by automatically blocking or requiring MFA based on determined risk levels."
 type: rule
 title: Do you have a Sign-in Risk Policy?
 uri: sign-in-risk-policy

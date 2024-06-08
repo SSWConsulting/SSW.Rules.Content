@@ -1,5 +1,4 @@
 ---
-seoDescription: "Branded filenames and titles improve document recognition and professionalism."
 type: rule
 archivedreason: 
 title: Do you use branding in the filename?

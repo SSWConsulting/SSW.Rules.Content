@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve user experience by avoiding "OK" buttons and using specific action labels instead."
 type: rule
 archivedreason: 
 title: Do you avoid “OK” buttons and use the specific action as labels instead?

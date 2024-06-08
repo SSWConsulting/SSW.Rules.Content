@@ -1,5 +1,4 @@
 ---
-seoDescription: "Post-production tip: Ensure you give enough time to read texts in your videos by leaving them on screen long enough for slow readers to finish reading it at least twice."
 type: rule
 archivedreason: 
 title: Post-Production - Do you give enough time to read texts in your videos?

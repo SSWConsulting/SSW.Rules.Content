@@ -1,5 +1,4 @@
 ---
-seoDescription: "Monitor your website visitors in real-time and gain insights into their browser, operating system, location, pages visited, and referral page."
 type: rule
 archivedreason: 
 title: Do you know how to browse your site’s visitors?

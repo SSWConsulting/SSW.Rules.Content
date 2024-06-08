@@ -1,5 +1,4 @@
 ---
-seoDescription: "Master the art of CRM configuration, customization, and extending with precise definitions and expert guidance."
 type: rule
 archivedreason: 
 title: Do you know how to correctly use the terms Configuration, Customization and Extending in the CRM context?

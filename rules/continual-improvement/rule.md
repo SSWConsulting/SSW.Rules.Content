@@ -1,5 +1,4 @@
 ---
-seoDescription: "Rules are made for guidance of wise men and obedience of fools. Establishing clear procedures can streamline decision-making and maintain consistency, but it's essential to continually improve standards as they may become outdated or flawed."
 type: rule
 title: Do you know rules are made for the guidance of wise men and the obedience of fools?
 uri: continual-improvement

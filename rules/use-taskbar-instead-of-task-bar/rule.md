@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering Taskbar usage by avoiding common mistakes such as using "Taskbar" instead of a single word."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you use "Taskbar" instead of "Task bar"?'

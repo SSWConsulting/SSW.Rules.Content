@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft TFS users no longer need to type "/tfs" upon login, streamlining their experience."
 type: rule
 archivedreason: 
 title: Do you remove the need to type “/tfs” ?

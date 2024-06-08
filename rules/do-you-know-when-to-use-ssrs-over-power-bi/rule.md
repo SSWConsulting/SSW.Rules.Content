@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use SQL Server Reporting Services (SSRS) over Power BI? Decide between "pixel perfect" reports and dynamic data interrogation with this feature comparison."
 type: rule
 archivedreason: 
 title: Do you know when to use SSRS over Power BI?

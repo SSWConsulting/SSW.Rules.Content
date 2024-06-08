@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrating an existing user store to an ExternalAuthProvider, such as IdentityServer or Azure AD, requires mapping users and handling pre-existing company users and new registrants."
 type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
 uri: migrate-an-existing-user-store-to-an-externalauthprovider

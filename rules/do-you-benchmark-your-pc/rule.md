@@ -1,5 +1,4 @@
 ---
-seoDescription: "Benchmark your PC to ensure hardware upgrades and software updates improve performance, not hinder it."
 type: rule
 archivedreason: 
 title: Do you benchmark your PC?

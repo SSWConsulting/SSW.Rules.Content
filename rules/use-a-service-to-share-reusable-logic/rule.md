@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to share reusable logic across your Angular application using a Service and Dependency Injection."
 type: rule
 archivedreason: 
 title: Practices - Do you use a Service to share reusable logic?

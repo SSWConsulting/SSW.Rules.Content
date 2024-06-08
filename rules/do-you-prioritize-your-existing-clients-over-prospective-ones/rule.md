@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prioritize existing clients to ensure repeat business and maintain a strong industry reputation."
 type: rule
 archivedreason: 
 title: Do you prioritize your existing clients over prospective ones?

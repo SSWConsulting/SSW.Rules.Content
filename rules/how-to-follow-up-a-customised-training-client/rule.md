@@ -1,5 +1,4 @@
 ---
-seoDescription: "Follow up with clients after customised training to gain feedback, identify areas for improvement and uncover potential new business opportunities."
 type: rule
 archivedreason: 
 title: Do you know how to follow up a customised training client?

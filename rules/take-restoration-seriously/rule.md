@@ -1,5 +1,4 @@
 ---
-seoDescription: "Rapid restoration with minimal downtime is crucial to ensure business continuity."
 type: rule
 archivedreason: 
 title: Backup - Do you take Restoration seriously?

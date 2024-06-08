@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your videos for YouTube by creating engaging, long-form content that captures viewers' attention within the first 15 seconds."
 type: rule
 archivedreason: 
 title: Do you make your videos YouTube friendly?

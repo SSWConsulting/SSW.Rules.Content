@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use consistent and user-friendly icons to enhance the interface of your Access forms and improve user experience."
 type: rule
 archivedreason: 
 title: Do you use appropriate and user-friendly icons?

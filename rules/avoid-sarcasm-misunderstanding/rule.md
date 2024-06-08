@@ -1,5 +1,4 @@
 ---
-seoDescription: "People misunderstand sarcasm in text messages due to lack of tone and voice cues, leading to misinterpretation and potential miscommunication."
 type: rule
 archivedreason: 
 title: Do you know that people misunderstand sarcasm in text?

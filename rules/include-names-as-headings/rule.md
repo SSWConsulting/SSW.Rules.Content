@@ -1,5 +1,4 @@
 ---
-seoDescription: "Include addressed names as headings to help recipients quickly locate specific parts of the email."
 type: rule
 title: Do you include addressed names in emails as headings?
 uri: include-names-as-headings

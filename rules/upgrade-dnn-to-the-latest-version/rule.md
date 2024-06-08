@@ -1,5 +1,4 @@
 ---
-seoDescription: "Upgrading DotNetNuke to the latest version ensures your site remains secure and features-rich."
 type: rule
 title: Do you know how to upgrade DNN to the latest version?
 uri: upgrade-dnn-to-the-latest-version

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the ultimate time-saver for Xamarin development - mFractor! Import images with ease and save hours of manual work."
 type: rule
 archivedreason: MAUI uses different approach for asset management
 title: Do you know the best way to manage assets in Xamarin?

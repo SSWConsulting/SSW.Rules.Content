@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use MVC Unobtrusive Validation to configure both client-side and server-side validation for data integrity and fast user feedback?"
 type: rule
 archivedreason: 
 title: Do you use MVC Unobtrusive Validation?

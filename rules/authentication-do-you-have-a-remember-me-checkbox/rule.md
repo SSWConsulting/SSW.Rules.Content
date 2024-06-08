@@ -1,5 +1,4 @@
 ---
-seoDescription: "Authentication and login forms can be simplified with a 'Remember me' checkbox option, allowing users to save their username and password for future convenience."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Remember me' checkbox?
@@ -17,6 +16,7 @@ redirects: []
 It is always good to provide the user with an option to have their username and password remembered. Doing so means they don't have to type them again.
 
 <!--endintro-->
+
 
 ::: good  
 ![Figure: 'Remember me' checkbox in a Web Form](sugarlearning-rememberme.jpg)  

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you escalate key updates and deliverables on software development projects to ensure all stakeholders are informed?"
 type: rule
 archivedreason: null
 title: Do you escalate key updates and deliverables?

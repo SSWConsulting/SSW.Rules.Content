@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unlocking the five user experiences of Reporting Services, including Vanilla, Website, Email, Windows, and SharePoint."
 type: rule
 archivedreason: Only showing example screenshots
 title: 'Do you know the 5 user experiences of Reporting Services?'

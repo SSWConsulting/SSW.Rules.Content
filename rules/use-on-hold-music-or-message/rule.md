@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reduce hold time frustration by keeping customers engaged with on-hold music or messages."
 type: rule
 archivedreason: 
 title: Do you use on hold music or hold message?

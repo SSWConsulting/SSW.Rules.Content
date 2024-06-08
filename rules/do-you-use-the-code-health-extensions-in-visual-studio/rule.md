@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Code Health Extensions in Visual Studio to extend the standard and improve code quality?"
 type: rule
 title: Do you use the Code Health Extensions in Visual Studio?
 uri: do-you-use-the-code-health-extensions-in-visual-studio

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Give remote attendees the URL to shared videos prior to playing for seamless viewing experiences."
 type: rule
 archivedreason: 
 title: Do you give remote attendees the URL to shared videos?

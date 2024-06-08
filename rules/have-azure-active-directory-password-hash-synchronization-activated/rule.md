@@ -1,5 +1,4 @@
 ---
-seoDescription: "Synchronize Azure Active Directory passwords with your on-premises AD to enable seamless login and access cloud services."
 type: rule
 archivedreason: 
 title: Do you have Azure Active Directory Password Hash Synchronization activated?

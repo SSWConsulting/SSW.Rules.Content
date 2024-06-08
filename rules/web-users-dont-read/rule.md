@@ -1,5 +1,4 @@
 ---
-seoDescription: "People rarely read word by word, scanning pages instead. Simple designs help them quickly find what they need, with clear organization and visual cues."
 type: rule
 title: Do you know users skim rather than read?
 uri: web-users-dont-read

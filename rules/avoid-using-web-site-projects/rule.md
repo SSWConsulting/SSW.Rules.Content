@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using website projects and instead opt for web application projects, which provide a single assembly compilation and improved project management."
 type: rule
 archivedreason: 
 title: Do you avoid using Website Projects?

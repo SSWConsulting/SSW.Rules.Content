@@ -1,5 +1,4 @@
 ---
-seoDescription: "IntelliTesting saves developers time and reduces code errors by intelligently generating unit tests for each scenario found."
 type: rule
 archivedreason: 
 title: Do you use IntelliTesting to save you in testing?

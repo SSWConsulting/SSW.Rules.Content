@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unlock employee creativity and innovation through brainstorming days, fostering team bonding and empowering your workforce to drive business growth."
 type: rule
 title: Do you use the brains of your company?
 uri: use-the-brains-of-your-company

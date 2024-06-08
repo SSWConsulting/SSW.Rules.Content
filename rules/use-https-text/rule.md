@@ -1,5 +1,4 @@
 ---
-seoDescription: "Adding "https://" to text fields and content makes links easier to click, encouraging more users to interact with your content."
 type: rule
 title: Do you add https:// to text fields and content?
 uri: use-https-text

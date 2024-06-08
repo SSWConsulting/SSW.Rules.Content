@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure accurate appointment location details for seamless meetings."
 type: rule
 title: Appointments - Do you make sure your appointment has a clear location address?
 uri: appointments-do-you-make-sure-your-appointment-has-a-clear-location-address

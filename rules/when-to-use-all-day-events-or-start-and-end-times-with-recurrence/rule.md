@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scheduling consistency matters when making appointments; use "All Day Events" or start and end times with recurrence to avoid confusion."
 type: rule
 archivedreason: 
 title: Scheduling - Do you know when to use "All Day Events" or start and end times with recurrence?

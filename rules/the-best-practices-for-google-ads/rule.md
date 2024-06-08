@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the Best Practices for Google Ads and take your online advertising to the next level!"
 type: rule
 title: Do you know the Best Practices for Google Ads?
 uri: the-best-practices-for-google-ads

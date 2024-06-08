@@ -1,5 +1,4 @@
 ---
-seoDescription: "Shorten your online connections with bit.ly and share links easily, tracking clicks and engagement."
 type: rule
 archivedreason: 
 title: Do you use bit.ly to manage your URL shortening?

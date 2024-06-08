@@ -1,5 +1,4 @@
 ---
-seoDescription: "Power BI template apps simplify data sharing and collaboration by allowing external users to access and interact with reports and dashboards."
 type: rule
 title: Do you create Power BI Template Apps?
 uri: powerbi-template-apps

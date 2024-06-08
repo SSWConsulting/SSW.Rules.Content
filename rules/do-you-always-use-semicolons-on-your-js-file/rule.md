@@ -1,5 +1,4 @@
 ---
-seoDescription: "Master JavaScript file formatting by consistently using semicolons to avoid syntax errors and maintain code consistency."
 type: rule
 archivedreason: 
 title: Do you always use semicolons on your JS file?

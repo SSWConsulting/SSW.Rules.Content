@@ -1,5 +1,4 @@
 ---
-seoDescription: "Empower Your Speakers: A Checklist for a Successful Event"
 type: rule
 archivedreason: 
 title: Do your speakers know what they need to do at an event?

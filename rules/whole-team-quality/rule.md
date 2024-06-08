@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scrum teams can boost quality by adopting a whole-team approach, focusing on shared understanding, diverse perspectives, and collaborative testing."
 type: rule
 title: Do you know the whole Scrum team is responsible for quality?
 uri: whole-team-quality

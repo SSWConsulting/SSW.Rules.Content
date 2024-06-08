@@ -1,5 +1,4 @@
 ---
-seoDescription: "Transfer a call quickly and efficiently by using simple phrases and following established protocols to ensure a seamless connection."
 type: rule
 archivedreason: 
 title: Do you know how to transfer a call quickly?

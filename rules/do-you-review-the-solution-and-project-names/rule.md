@@ -1,5 +1,4 @@
 ---
-seoDescription: "A consistent .NET solution structure is crucial for a well-organized project. Ensure that your solution and project names are consistent to improve maintainability and collaboration."
 type: rule
 archivedreason: 
 title: Do you review the Solution and Project names?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Server-side commenting in ASP.NET allows efficient comment usage while preserving page performance and reducing kilobytes."
 type: rule
 archivedreason: 
 title: Do you use server side comments?

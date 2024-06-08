@@ -1,5 +1,4 @@
 ---
-seoDescription: "When writing method signatures, it's best to place optional parameters at the end, as they tend to be less important and should follow more crucial parameters like first name and last name."
 type: rule
 title: Do you put optional parameters at the end?
 uri: put-optional-parameters-at-the-end

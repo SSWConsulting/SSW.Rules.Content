@@ -1,5 +1,4 @@
 ---
-seoDescription: "Disclose existing issues and prioritize bug fixes to ensure seamless application development and reduce costly rework."
 type: rule
 title: Watch - Do you disclose existing issues?
 uri: watch-are-you-aware-of-existing-issues

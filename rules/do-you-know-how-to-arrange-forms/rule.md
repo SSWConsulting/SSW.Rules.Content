@@ -1,5 +1,4 @@
 ---
-seoDescription: "Arrange labels and inputs on HTML forms to enhance user experience, with Bootstrap making it easy."
 type: rule
 archivedreason: 
 title: Do you know how to arrange forms?

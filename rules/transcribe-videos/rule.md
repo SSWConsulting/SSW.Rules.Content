@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unlock Google juice and enhance video accessibility by transcribing your videos!"
 type: rule
 archivedreason: Merged to [https://www.ssw.com.au/rules/transcribe-your-videos](/rules/transcribe-your-videos)
 title: Do you transcribe your videos for Google juice?

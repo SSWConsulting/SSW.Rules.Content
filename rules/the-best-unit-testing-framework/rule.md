@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best unit testing framework for your .NET project and streamline your testing process with XUnit, a popular choice among developers."
 type: rule
 title: Do you know the best Unit Testing framework?
 uri: the-best-unit-testing-framework

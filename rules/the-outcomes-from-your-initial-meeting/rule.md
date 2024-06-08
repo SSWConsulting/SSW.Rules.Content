@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know the outcomes of an Initial Meeting (either Specification Review or Ad Hoc)?"
 type: rule
 title: Meetings - Do you know the outcomes of an Initial Meeting (either Spec Review or Ad Hoc)?
 uri: the-outcomes-from-your-initial-meeting

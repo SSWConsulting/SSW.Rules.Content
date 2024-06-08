@@ -1,5 +1,4 @@
 ---
-seoDescription: "Using a custom domain on your bit.ly account adds to your company brand."
 type: rule
 archivedreason: 
 title: Do you use a custom domain on your bit.ly account?

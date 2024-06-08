@@ -1,5 +1,4 @@
 ---
-seoDescription: "Control choice wisely by opting for checked listboxes instead of multi-select dropdowns, ensuring a more intuitive and user-friendly experience."
 type: rule
 archivedreason: 
 title: Control Choice - Do you use checkboxes instead of multi-select dropdowns?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a WeChat Official Account: A Step-by-Step Guide Boost your business's online presence with a WeChat official account. Learn how to register and set up an account for your company in China."
 type: rule
 title: WeChat - Do you know how to create a WeChat official account?
 uri: how-to-create-wechat-official-account

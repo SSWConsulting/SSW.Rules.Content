@@ -1,5 +1,4 @@
 ---
-seoDescription: "Before upgrading to TFS 2012, it's crucial to back up your databases using a supported method to ensure data reliability."
 type: rule
 archivedreason: 
 title: Do you backup your databases for TFS 2012 migration?

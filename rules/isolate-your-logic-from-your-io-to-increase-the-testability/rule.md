@@ -1,5 +1,4 @@
 ---
-seoDescription: "Isolate your logic from your IO to increase testability. By separating concerns and minimizing dependencies, you can write more robust and maintainable code that's easier to test and debug."
 type: rule
 title: Do you isolate your logic from your IO to increase the testability?
 uri: isolate-your-logic-from-your-io-to-increase-the-testability

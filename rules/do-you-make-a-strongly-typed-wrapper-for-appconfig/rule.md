@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you provide a strongly typed wrapper for app.config properties to improve code readability and maintainability?"
 type: rule
 title: Do you make a strongly-typed wrapper for app.config?
 uri: do-you-make-a-strongly-typed-wrapper-for-appconfig

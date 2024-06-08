@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make incremental changes to VSeWSS projects, building and deploying each step to ensure stability."
 type: rule
 archivedreason: 
 title: Do you make small incremental changes to your VSeWSS projects?

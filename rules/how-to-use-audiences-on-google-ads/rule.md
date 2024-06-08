@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to use audiences on Google Ads and increase your campaign engagement!"
 type: rule
 title: Do you know how to use Audiences on Google Ads?
 uri: how-to-use-audiences-on-google-ads

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Block credential dumping from lsass.exe and protect user credentials with Windows 10's Credential Guard, a feature that runs lsass.exe in an isolated virtualized environment without device drivers."
 type: rule
 title: Do you block credential dumping from lsass.exe?
 uri: block-lsass-credential-dumping

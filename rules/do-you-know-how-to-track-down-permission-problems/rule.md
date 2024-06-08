@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track down permission problems using Process Monitor to troubleshoot issues with IIS servers and app pool accounts."
 type: rule
 archivedreason: 
 title: Do you know how to track down permission problems?

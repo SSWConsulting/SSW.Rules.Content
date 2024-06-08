@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use tasklists to organize and track progress of PBIs effectively, avoiding unintentional tasks and promoting a clear visual representation of completed tasks."
 type: rule
 title: Do you use tasklists in your PBIs?
 uri: use-tasklists-in-your-pbis

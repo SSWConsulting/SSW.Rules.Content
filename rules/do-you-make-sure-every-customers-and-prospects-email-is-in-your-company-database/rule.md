@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain accurate customer and prospect data by ensuring every email address is recorded in your company database."
 type: rule
 archivedreason: Deprecated - See [https://www.ssw.com.au/rules/reasons-to-use-dynamics-365-crm ](/rules/reasons-to-use-dynamics-365-crm )
 title: Do you make sure every customers' (and prospects') email is in your company database?

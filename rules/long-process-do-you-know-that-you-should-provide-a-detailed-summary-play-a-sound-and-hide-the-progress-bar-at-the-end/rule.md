@@ -1,5 +1,4 @@
 ---
-seoDescription: "Long-running processes should be user-friendly by playing a sound, hiding the progress bar, and displaying a message box with a detailed summary at the end."
 type: rule
 archivedreason: 
 title: Long Process - Do you know that you should provide a detailed summary, play a sound and hide the progress bar at the end?

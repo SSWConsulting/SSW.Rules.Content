@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know which environments you need to provision when starting a new project?"
 type: rule
 title: Do You Know Which Environments You Need To Provision When Starting A New
   Project?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Verify your server meets minimum requirements before upgrading software, ensuring compatibility with newer versions and preventing potential issues."
 type: rule
 archivedreason: 
 title: Do you verify that your server meets the minimum requirements?

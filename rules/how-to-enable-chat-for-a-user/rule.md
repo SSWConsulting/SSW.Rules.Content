@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enable chat for a Zendesk support agent and boost customer engagement with seamless online conversations."
 type: rule
 archivedreason: 
 title: Do you know how to enable chat for a user?

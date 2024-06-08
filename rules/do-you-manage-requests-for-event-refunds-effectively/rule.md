@@ -1,5 +1,4 @@
 ---
-seoDescription: "Effective event refund management ensures client satisfaction and maintains a company's integrity by offering alternatives or processing refunds promptly."
 type: rule
 archivedreason: 
 title: Do you manage requests for event refunds effectively?

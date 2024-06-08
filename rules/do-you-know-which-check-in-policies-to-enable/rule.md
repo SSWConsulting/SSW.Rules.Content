@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enabling check-in policies on your project ensures quality code and enforces coding standards before it hits your source control repository."
 type: rule
 archivedreason: 
 title: Do you know which check-in policies to enable?

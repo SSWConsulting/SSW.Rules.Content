@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best .NET MAUI resources for learning, staying up-to-date, and using Microsoft's cross-platform framework."
 type: rule
 title: Do you know where to find the best .NET MAUI resources?
 uri: the-best-maui-resources

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Power BI report usage monitoring provides valuable insights into reporting effectiveness, optimizing content and resources, and enhancing user experience."
 type: rule
 archivedreason:
 title: Do you monitor Power BI report usage?

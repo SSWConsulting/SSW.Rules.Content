@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximizing every point of contact to drive sales and brand awareness through targeted marketing strategies."
 type: rule
 archivedreason: 
 title: Do you take advantage of every point of contact?

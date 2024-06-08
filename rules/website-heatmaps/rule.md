@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how heatmaps of your website can help you identify and improve user engagement, conversion rates and overall site performance."
 type: rule
 archivedreason: 
 title: SEO - Do you track heatmaps of your website?

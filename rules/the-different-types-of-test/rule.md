@@ -1,5 +1,4 @@
 ---
-seoDescription: "Different types of software tests include smoke testing, unit tests, integration tests, functional tests, subcutaneous tests, load tests, and stress tests, each serving a unique purpose in ensuring application quality."
 type: rule
 title: What are the different types of test you can have?
 uri: the-different-types-of-test

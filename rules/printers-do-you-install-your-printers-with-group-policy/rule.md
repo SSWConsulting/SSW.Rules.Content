@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automatically install printers on all domain clients using Group Policy with ease, ideal for large-scale environments and enhancing user experience."
 type: rule
 archivedreason: 
 title: Printers - Do You Install Your Printers With Group Policy?

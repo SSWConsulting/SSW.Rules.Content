@@ -1,5 +1,4 @@
 ---
-seoDescription: "Exploratory testing meets innovation with Microsoft's Test & Feedback extension, revolutionizing web app exploration and bug submission from Chrome browser."
 type: rule
 title: Do you do exploratory testing?
 uri: do-you-do-exploratory-testing

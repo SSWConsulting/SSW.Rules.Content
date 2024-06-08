@@ -1,5 +1,4 @@
 ---
-seoDescription: "When performing validation, ensure you put focus to the correct control on error, rather than displaying a message box after every validation failure."
 type: rule
 title: Validation - Do you put focus to the correct control on validation error?
 uri: using-field-validation

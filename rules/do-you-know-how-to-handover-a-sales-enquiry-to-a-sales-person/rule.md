@@ -1,5 +1,4 @@
 ---
-seoDescription: "Handover sales enquiries to a colleague with a clear instruction and one actionable task to ensure seamless follow-up."
 type: rule
 title: Do you know how to handover a sales enquiry to a sales person?
 uri: do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person

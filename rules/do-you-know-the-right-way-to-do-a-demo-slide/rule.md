@@ -1,5 +1,4 @@
 ---
-seoDescription: "Indicate demo slides using subtle icons to keep audience engaged and avoid disappointing them with last-minute cancellations."
 type: rule
 title: Do you indicate 'demo' slides?
 uri: do-you-know-the-right-way-to-do-a-demo-slide

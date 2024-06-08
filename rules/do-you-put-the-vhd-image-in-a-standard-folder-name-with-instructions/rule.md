@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline virtual machine management by storing VHD images and instructions in a standard location with descriptive filenames, enabling efficient deployment and maintenance."
 type: rule
 archivedreason: 
 title: Do you put the VHD image in a standard folder name with instructions?

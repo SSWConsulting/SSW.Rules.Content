@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add credibility to your website's address bar with a favicon, giving it an extra bit of polish."
 type: rule
 archivedreason: Replaced by https://ssw.com.au/rules/do-you-have-a-favicon-in-your-webpage
 title: Do you add a favicon to your website?

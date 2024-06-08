@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you organize your hard disk? Organize your computer files with a standard folder structure to quickly locate important information and perform automated backup operations."
 type: rule
 title: PC - Do you organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk

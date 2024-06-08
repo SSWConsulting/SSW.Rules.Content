@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay on top of your finances by sharing flight and accommodation invoices with your finance manager to ensure a smooth booking process."
 type: rule
 archivedreason: 
 title: Do you keep your finance manager in the loop?

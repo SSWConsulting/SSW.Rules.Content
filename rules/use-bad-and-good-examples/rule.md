@@ -1,5 +1,4 @@
 ---
-seoDescription: "Show "Bad" and "Good" examples to emphasize a point, using crosses and ticks in captions."
 type: rule
 archivedreason: 
 title: Do you show 'Bad' and 'Good' examples when giving instructions?

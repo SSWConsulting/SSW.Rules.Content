@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover effective ways to drive traffic to your website through linkable pages, blog posts, videos, social media sharing, and collaborative linking."
 type: rule
 archivedreason: 
 title: Do you know the best ways to generate traffic to your website?
@@ -25,5 +24,8 @@ Creating more pages with links to the others is a good way to generate traffic t
 * Recording videos to be embedded
 * Sharing in social medias, like Twitter, Facebook, LinkedIn and Instagram
 * Getting other websites to link to your page
+
+
+
 
 <!--endintro-->

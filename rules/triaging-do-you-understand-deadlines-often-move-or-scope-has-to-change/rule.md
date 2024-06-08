@@ -1,5 +1,4 @@
 ---
-seoDescription: "Triaging projects requires understanding that deadlines can shift and scope may need to adapt, ensuring clear communication with developers from the start."
 type: rule
 archivedreason: 
 title: Triaging - Do you understand deadlines often move or scope has to change?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid apostrophes and ensure a successful migration of accompanying validation rules to prevent upsizing issues with your ValidationText property."
 type: rule
 archivedreason: 
 title: Do you have valid ValidationText property(Upsizing problem)?

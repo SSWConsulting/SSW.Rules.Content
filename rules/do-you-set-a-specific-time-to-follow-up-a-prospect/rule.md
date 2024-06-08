@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set a specific time to follow up with a prospect after an initial meeting to ensure a successful next stage."
 type: rule
 title: Do you set a specific time to follow up a prospect?
 uri: do-you-set-a-specific-time-to-follow-up-a-prospect

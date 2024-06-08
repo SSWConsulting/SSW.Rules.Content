@@ -1,5 +1,4 @@
 ---
-seoDescription: "Your SharePoint site should have a favicon to enhance user experience and professionalism. By adding a small icon file, you can differentiate your site from others and make it more memorable for users."
 type: rule
 archivedreason: 
 title: Do you have a favicon on your SharePoint site?

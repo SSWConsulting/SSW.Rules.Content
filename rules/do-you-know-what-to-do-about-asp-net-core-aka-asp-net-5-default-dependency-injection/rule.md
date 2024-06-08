@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to customize ASP.NET Core's default dependency injection for a more robust and scalable architecture."
 type: rule
 archivedreason: 
 title: Do you know what to do about ASP.NET Core default dependency injection?

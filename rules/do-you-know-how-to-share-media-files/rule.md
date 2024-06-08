@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to share media files easily between workers while ensuring central backup and offline access."
 type: rule
 archivedreason: Redundant https://my.sugarlearning.com/SSW/items/13879/design-shared-folders
 title: Do you know how to share media files?

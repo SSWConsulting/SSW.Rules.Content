@@ -1,5 +1,4 @@
 ---
-seoDescription: "Dynamically labeling form buttons can confuse users and hinder navigation. (Note: I've kept the description concise, within the 150-160 character limit, included primary keywords, and reflected user intent. Let me know if you need any further adjustments!)"
 type: rule
 archivedreason: 
 title: Do you avoid dynamically labeling your form buttons?

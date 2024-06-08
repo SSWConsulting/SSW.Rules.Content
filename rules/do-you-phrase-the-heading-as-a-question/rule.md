@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you phrase rules' titles as a question?"
 type: rule
 archivedreason: Moved to https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
 title: Do you phrase rules' titles as a question?

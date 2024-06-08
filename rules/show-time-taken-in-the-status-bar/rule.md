@@ -1,5 +1,4 @@
 ---
-seoDescription: "Show the time taken to complete a task directly in the status bar, providing transparency and enabling users to plan their workflow accordingly."
 type: rule
 archivedreason: 
 title: Do you have the time taken in the status bar?

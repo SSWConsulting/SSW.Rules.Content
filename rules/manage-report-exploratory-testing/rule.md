@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage and report exploratory testing efforts effectively using Session-Based Test Management (SBTM)."
 type: rule
 title: Do you know how to manage and report on exploratory testing?
 uri: manage-report-exploratory-testing

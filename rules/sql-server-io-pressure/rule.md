@@ -1,5 +1,4 @@
 ---
-seoDescription: "What to do about SQL Server database name?"
 type: rule
 archivedreason: 
 title: What to do about SQL Server IO Pressure?

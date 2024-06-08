@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a consistent labelling system for figures, including a green tick (✅) or red cross (❌) followed by "Figure:". This ensures clarity and readability in your examples."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/add-useful-and-concise-figure-captions](/rules/add-useful-and-concise-figure-captions)
 title: Do you label your example with a tick/cross followed by the word Figure:?

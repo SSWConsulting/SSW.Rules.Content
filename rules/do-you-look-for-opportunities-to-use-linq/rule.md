@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve your .Net coding experience with LINQ, a powerful query language that simplifies data retrieval and manipulation."
 type: rule
 title: Do you look for opportunities to use Linq?
 uri: do-you-look-for-opportunities-to-use-linq

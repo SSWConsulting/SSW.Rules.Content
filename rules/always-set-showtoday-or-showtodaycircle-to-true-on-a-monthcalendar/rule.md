@@ -1,5 +1,4 @@
 ---
-seoDescription: "Increase user experience on MonthCalendar by always setting ShowToday or ShowTodayCircle to true."
 type: rule
 title: Do you always set ShowToday or ShowTodayCircle to true on a MonthCalendar?
 uri: always-set-showtoday-or-showtodaycircle-to-true-on-a-monthcalendar

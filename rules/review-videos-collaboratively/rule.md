@@ -1,5 +1,4 @@
 ---
-seoDescription: "Collaborate on video projects and streamline feedback with Frame.io's dedicated platform for film and media professionals."
 type: rule
 title: Post-Production - Do you use dedicated collaborative software for video
   reviews?

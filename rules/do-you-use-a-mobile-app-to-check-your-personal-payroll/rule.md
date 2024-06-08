@@ -1,5 +1,4 @@
 ---
-seoDescription: "Check your personal payroll and manage leave requests on-the-go with Xero's mobile app, ideal for convenient access to payslips, bank accounts, and employee information."
 type: rule
 archivedreason: 
 title: Payroll - Do you use a Xero mobile app to check your personal payroll?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid forcing users to click through by providing information on hover or using inline editing instead."
 type: rule
 archivedreason: 
 title: Do you save clicking through?

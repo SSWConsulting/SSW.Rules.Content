@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn the essential components of a Google Ads campaign and maximize your PPC potential!"
 type: rule
 archivedreason: 
 title: SEM - Do you know the components of a Google Ads campaign?

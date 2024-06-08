@@ -1,5 +1,4 @@
 ---
-seoDescription: "Conducting market research via the web allows you to focus your product on the right audience, satisfy their needs, and bridge the gap between techies and users."
 type: rule
 title: Do you conduct Market Research via the Web?
 uri: do-you-conduct-market-research-via-the-web

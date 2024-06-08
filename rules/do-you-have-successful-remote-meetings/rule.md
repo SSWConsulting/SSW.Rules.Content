@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn about the top options for remote meetings, including Microsoft Teams, Zoom, Skype, and Skype for Business."
 type: rule
 archivedreason: 
 title: Communication - Do you know the options for remote meetings?

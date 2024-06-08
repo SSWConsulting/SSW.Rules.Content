@@ -1,5 +1,4 @@
 ---
-seoDescription: "Before deleting a video version, take a copy of views and comments to preserve valuable data."
 type: rule
 archivedreason: 
 title: Video data - Do you take a copy of the data (views and comments) before deleting a version for good?

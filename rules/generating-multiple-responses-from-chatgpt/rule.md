@@ -1,5 +1,4 @@
 ---
-seoDescription: "Generating multiple responses from ChatGPT and selecting the most suitable one(s) can lead to better overall results. By comparing different outputs, you can choose the response that best aligns with your needs and objectives."
 type: rule
 title: Do you use prompts to generate multiple outputs and select the best
   one(s) for your use case?

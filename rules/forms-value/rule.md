@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Forms and Google Forms allow collecting data from employees, users, and stakeholders. Measure form value by asking users to rate it out of 5, educating them to objectively compare against previous forms, and track progress using Power BI."
 type: rule
 title: Forms - Do you ask the value they received?
 uri: forms-value

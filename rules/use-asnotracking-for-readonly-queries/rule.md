@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve performance and reduce memory usage by using AsNoTracking for readonly queries in EF Core."
 type: rule
 title: Do you use AsNoTracking for readonly queries?
 uri: use-asnotracking-for-readonly-queries

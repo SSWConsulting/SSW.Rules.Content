@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use MS Project to track project budget usage? Learn how to calculate project budget usage in real-time using MS Project and VSTS 2010."
 type: rule
 archivedreason: 
 title: Do you use MS Project to track project budget usage?

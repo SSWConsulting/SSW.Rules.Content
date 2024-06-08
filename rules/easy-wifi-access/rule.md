@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easy WiFi access for guests at SSW Offices provided through QR codes for seamless connectivity."
 type: rule
 title: Wireless - Do you Provide Guests with easy Wifi Access?
 uri: easy-wifi-access

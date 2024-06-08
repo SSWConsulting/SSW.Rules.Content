@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clear communication of fixed price project completion and warranty start"
 type: rule
 title: Fixed Price – Do you clearly deliver the project and start the warranty period?
 uri: fixed-price-deliver-the-project-and-start-the-warranty-period

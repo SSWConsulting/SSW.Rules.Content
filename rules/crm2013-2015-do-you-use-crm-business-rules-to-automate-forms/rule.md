@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automate CRM forms using Business Rules to show/hide fields, display error messages, and more without coding."
 type: rule
 archivedreason: 
 title: CRM2013/2015 - Do you use CRM Business Rules to automate forms?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use predictive-text combos to provide a richer experience and facilitate easy data entry from medium-long lists or predefined data."
 type: rule
 archivedreason: 
 title: Do you use predictive-textboxes instead of normal combo or text boxes?

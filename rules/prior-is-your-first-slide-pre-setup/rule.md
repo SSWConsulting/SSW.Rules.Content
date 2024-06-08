@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prior to a presentation, set up your web pages and demos to ensure a smoother delivery and avoid reliance on good fortune."
 type: rule
 title: Prior - Is your first slide 'Pre-setup'?
 uri: prior-is-your-first-slide-pre-setup

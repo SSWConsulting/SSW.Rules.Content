@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the Power of User Journey Mapping: Visualize Customer Needs and Improve Your Product or Service. (Note: I've kept it concise at around 150-160 characters, included primary keywords naturally, and reflected user intent)"
 type: rule
 title: Do you know the value of User Journey Mapping?
 uri: user-journey-mapping

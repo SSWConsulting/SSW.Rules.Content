@@ -1,5 +1,4 @@
 ---
-seoDescription: "Collaborate securely and efficiently by emailing links to SharePoint files instead of attachments, ensuring only one "master version" exists."
 type: rule
 archivedreason: 
 title: Do you know what collaboration means?

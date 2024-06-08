@@ -1,5 +1,4 @@
 ---
-seoDescription: "Double-checking task importance can save time and ensure prioritization of critical tasks when they exceed two hours."
 type: rule
 archivedreason: 
 title: Do you double-check the importance of a task when you realise it's going to take more than 2 hours?

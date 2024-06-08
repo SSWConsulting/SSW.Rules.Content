@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unfair situations at work can impact happiness and productivity. Learn how to manage unfairness with these 10 tips that promote a culture of helping each other."
 type: rule
 title: Do you find the positive in the decisions?
 uri: the-happiness-equation

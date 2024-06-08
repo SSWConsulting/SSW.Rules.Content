@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make option groups and check boxes simple to understand by arranging items vertically, with text on the right, making it clear for users to make choices."
 type: rule
 archivedreason: 
 title: Controls - Do you make Option Groups and Check Boxes simple to understand?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to connect with people on LinkedIn and build meaningful relationships!"
 type: rule
 archivedreason:
 title: Do you know how to connect with people on LinkedIn?

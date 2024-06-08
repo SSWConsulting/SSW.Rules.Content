@@ -1,5 +1,4 @@
 ---
-seoDescription: "Protect your servers with Data Protection Manager (DPM), a reliable and efficient backup solution."
 type: rule
 archivedreason: 
 title: Server - Do you use the best backup solution?

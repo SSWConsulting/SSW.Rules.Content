@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep presentations publicly available on GitHub or other platforms to facilitate easy access and collaboration."
 type: rule
 title: Do you keep your presentations in a public location?
 uri: do-you-keep-your-presentations-in-a-public-location

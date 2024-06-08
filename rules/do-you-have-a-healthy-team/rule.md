@@ -1,5 +1,4 @@
 ---
-seoDescription: "Developers thrive when their physical and mental health is prioritized, leading to increased productivity and job satisfaction."
 type: rule
 title: Do you have a healthy team?
 uri: do-you-have-a-healthy-team

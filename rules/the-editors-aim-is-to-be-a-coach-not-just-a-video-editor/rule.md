@@ -1,5 +1,4 @@
 ---
-seoDescription: "The editor's goal is to coach the presenter into making a perfect cut, eliminating the need for edits."
 type: rule
 archivedreason: 
 title: Do you know that the editor’s aim is to be a coach, not just a video editor?

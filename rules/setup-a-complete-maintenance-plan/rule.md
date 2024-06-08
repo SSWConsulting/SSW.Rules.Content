@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a comprehensive SQL Server maintenance plan that includes database integrity checks, shrinking, reorganizing and rebuilding indexes, updating statistics, cleaning up old history, automatic backups, system database backups, and regular check-ins for successful execution."
 type: rule
 archivedreason: 
 title: Backup - Do you set up a complete Maintenance Plan?

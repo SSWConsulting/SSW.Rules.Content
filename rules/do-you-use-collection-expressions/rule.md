@@ -1,5 +1,4 @@
 ---
-seoDescription: "C# developers can simplify their code by using collection expressions to create arrays, lists, and other collections in a single line of code."
 type: rule
 archivedreason: 
 title: C# Code - Do you use collection expressions to keep your code clean?

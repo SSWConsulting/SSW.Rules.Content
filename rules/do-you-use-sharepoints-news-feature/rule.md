@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint's News feature streamlines information dissemination and encourages team collaboration with email integration, providing a central platform for news updates."
 type: rule
 title: Do you use SharePoint's News feature?
 uri: do-you-use-sharepoints-news-feature

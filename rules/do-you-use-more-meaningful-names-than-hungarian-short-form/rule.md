@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use more meaningful names than Hungarian short form when developing .NET classes to improve code readability and maintainability?"
 type: rule
 title: Do you use more meaningful names than Hungarian short form?
 uri: do-you-use-more-meaningful-names-than-hungarian-short-form

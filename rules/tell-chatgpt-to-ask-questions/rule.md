@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve conversation quality by encouraging ChatGPT to ask questions when needed, providing more accurate and helpful responses."
 type: rule
 title: Do you tell ChatGPT to ask you questions to get more context?
 uri: tell-chatgpt-to-ask-questions

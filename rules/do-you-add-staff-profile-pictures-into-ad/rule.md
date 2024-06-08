@@ -1,5 +1,4 @@
 ---
-seoDescription: "Staff profile pictures can be uploaded to Active Directory using a free third-party tool, AD Photo Edit, and automatically used by Exchange and Lync."
 type: rule
 title: Do you add staff profile pictures into AD?
 uri: do-you-add-staff-profile-pictures-into-ad

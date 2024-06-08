@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use value objects? Determine whether primitive types suffice or complex logic and validation require encapsulation with value objects for simplified design."
 type: rule
 archivedreason: 
 title: Do you know when to use value objects?

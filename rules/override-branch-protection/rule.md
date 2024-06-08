@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to override branch protection rules in your source repository, and why you should exercise caution when doing so."
 type: rule
 title: Do you know when to override branch protection rules?
 uri: override-branch-protection

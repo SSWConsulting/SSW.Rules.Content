@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create actionable next steps after meetings to ensure follow-through and progress."
 type: rule
 title: After - Do you create action items after a meeting?
 uri: creating-action-items

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Zendesk email management best practices ensure efficient task distribution by only using one group to manage tasks and avoid duplication."
 type: rule
 archivedreason: 
 title: Do you reply to the correct Zendesk email?

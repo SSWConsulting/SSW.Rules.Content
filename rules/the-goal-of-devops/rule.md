@@ -1,5 +1,4 @@
 ---
-seoDescription: "The goal of DevOps is to bridge software development and IT operations teams, accelerating high-quality product delivery through automation, continuous integration, and deployment."
 type: rule
 archivedreason: 
 title: Do you know what the goal of DevOps is?

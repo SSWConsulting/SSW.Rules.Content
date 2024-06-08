@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint databases organized in a separate SQL instance for efficient management and scalability."
 type: rule
 archivedreason: 
 title: Do you keep SharePoint databases in a separate SQL instance?

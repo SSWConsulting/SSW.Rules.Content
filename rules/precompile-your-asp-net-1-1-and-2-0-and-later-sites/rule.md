@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve website reliability by precompiling ASP.NET sites to catch errors before they affect users."
 type: rule
 archivedreason: Old ASP rule - content seem irrelevant 
 title: Do you precompile your ASP.NET 1.1 and 2.0+ sites?

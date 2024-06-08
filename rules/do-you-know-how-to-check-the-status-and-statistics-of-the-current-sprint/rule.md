@@ -1,5 +1,4 @@
 ---
-seoDescription: "Check Sprint status and statistics using Azure Test Plans' Progress Report and customizable Test Status charts."
 type: rule
 title: Do you know how to check the status and statistics of the current Sprint?
 uri: do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint

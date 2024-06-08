@@ -1,5 +1,4 @@
 ---
-seoDescription: "Code generators simplify development by automating repetitive tasks, saving time and effort."
 type: rule
 title: Do you use code generators?
 uri: do-you-use-code-generators

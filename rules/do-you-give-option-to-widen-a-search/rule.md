@@ -1,5 +1,4 @@
 ---
-seoDescription: "When combining search and filtering functionality, ensure users can widen their search to avoid unexpected results."
 type: rule
 archivedreason: 
 title: Do you give an option to widen a search?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Securely storing your recovery keys at a safe location protects your cryptocurrencies from unauthorized access and ensures you can recover your accounts if needed."
 type: rule
 title: Do you save your recovery keys to a safe location?
 uri: save-recovery-keys-safely

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Synchronize agile teams and deliver value with a Release Train Engineer (RTE), who harmonizes efforts, ensures alignment, and resolves conflicts for a smooth project execution."
 type: rule
 title: Do you utilize a Release Train Engineer (RTE) for synchronization?
 uri: utilize-a-release-train

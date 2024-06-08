@@ -1,5 +1,4 @@
 ---
-seoDescription: "Allow donations to support your content creation"
 type: rule
 title: Do you allow donations for your content?
 uri: make-money-from-your-content

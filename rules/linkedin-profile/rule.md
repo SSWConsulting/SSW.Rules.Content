@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your LinkedIn profile accurately reflects your professional brand by following these steps. Generated SEO Description: Boost your online presence with a well-crafted LinkedIn profile, showcasing your skills, experience, and company affiliation."
 type: rule
 title: LinkedIn - Do you have a good profile?
 uri: linkedin-profile

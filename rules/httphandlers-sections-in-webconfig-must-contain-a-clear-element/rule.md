@@ -1,5 +1,4 @@
 ---
-seoDescription: "If web.config contains a `<httpHandlers>` or `<httpModules>` section, that section must contain a `<remove/>` or a `<clear/>` element."
 type: rule
 title: Do you know 'httpHandlers' or 'httpModules' sections in web.config must contain a 'remove' or 'clear' element?
 uri: httphandlers-sections-in-webconfig-must-contain-a-clear-element

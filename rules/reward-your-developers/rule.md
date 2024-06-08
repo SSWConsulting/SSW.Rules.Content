@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reward your developers for completing an important milestone on time and budget by celebrating with a morale-boosting event."
 type: rule
 archivedreason: 
 title: Do you reward your developers for completing an important milestone on time and budget?

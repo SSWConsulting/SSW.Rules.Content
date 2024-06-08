@@ -1,5 +1,4 @@
 ---
-seoDescription: "Before performing critical system changes on servers, assume catastrophic failure and back up crucial files to ensure data integrity."
 type: rule
 archivedreason: 
 title: Do you assume catastrophic failure before touching a server?

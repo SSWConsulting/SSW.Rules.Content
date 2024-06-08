@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know the non-Scrum roles of a project? Learn about Account Manager and Tech Lead responsibilities beyond Scrum framework."
 type: rule
 archivedreason:
 title: Do you know the non-Scrum roles of a project?

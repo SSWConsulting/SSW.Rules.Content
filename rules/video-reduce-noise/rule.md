@@ -1,5 +1,4 @@
 ---
-seoDescription: "Recover grainy footage with Neat Video's advanced noise reduction technology and enhance your video quality without compromising its authenticity."
 type: rule
 title: Post-Production - Do you know how to recover grainy footage?
 uri: video-reduce-noise

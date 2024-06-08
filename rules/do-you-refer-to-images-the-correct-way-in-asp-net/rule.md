@@ -1,5 +1,4 @@
 ---
-seoDescription: "Images should be referenced using root-relative paths or application-relative paths to simplify URLs and avoid issues with staging servers."
 type: rule
 title: Do you refer to images the correct way in ASP .NET?
 uri: do-you-refer-to-images-the-correct-way-in-asp-net

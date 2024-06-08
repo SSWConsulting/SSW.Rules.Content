@@ -1,5 +1,4 @@
 ---
-seoDescription: "Claim your Power Apps Community Plan and get access to a dedicated environment with premium features like Power Apps, Connectors, Automate, and more – all for free!"
 type: rule
 archivedreason: 
 title: Do you know to claim your Power Apps Community Plan?

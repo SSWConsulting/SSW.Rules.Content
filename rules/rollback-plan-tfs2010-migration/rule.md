@@ -1,5 +1,4 @@
 ---
-seoDescription: "TFS migration rollback plan ensures minimal disruption with a tested disaster recovery strategy."
 type: rule
 archivedreason: 
 title: Do you have a rollback plan for TFS 2010 migration?

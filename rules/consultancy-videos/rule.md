@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost brand awareness and engage potential clients by creating educational, client success story, industry news, Q&A, product demonstration, collaboration, and behind-the-scenes videos for YouTube and TikTok."
 type: rule
 title: Do you know the kinds of videos you should make to promote your consultancy?
 uri: consultancy-videos

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Help users enter a URL field by providing clear guidance on expected format and syntax."
 type: rule
 archivedreason: 
 title: Do you help the user to enter a URL field?

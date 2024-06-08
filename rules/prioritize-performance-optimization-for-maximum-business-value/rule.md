@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prioritize performance optimization to maximize business value by considering user impact, feature importance, and expected usage."
 type: rule
 archivedreason: 
 title: Do you prioritize performance optimization for maximum business value?

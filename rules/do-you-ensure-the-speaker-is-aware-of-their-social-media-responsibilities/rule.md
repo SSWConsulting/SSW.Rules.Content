@@ -1,5 +1,4 @@
 ---
-seoDescription: "Encourage speakers to leverage their social media following by promoting user groups and driving attendance."
 type: rule
 archivedreason: 
 title: Speaker - Do you encourage speakers to use their social media to promote user groups?

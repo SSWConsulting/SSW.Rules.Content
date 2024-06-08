@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure accurate domain name system settings with W3DT's DNS report tool and troubleshoot issues with missing nameservers, SOA records, and more."
 type: rule
 archivedreason: 
 title: Do you check your DNS settings?

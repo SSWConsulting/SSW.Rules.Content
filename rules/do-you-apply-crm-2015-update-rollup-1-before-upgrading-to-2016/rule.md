@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure you apply CRM 2015 update rollup 1 before upgrading to CRM 2016."
 type: rule
 title: Do you apply CRM 2015 update rollup 1 before upgrading to 2016?
 uri: do-you-apply-crm-2015-update-rollup-1-before-upgrading-to-2016

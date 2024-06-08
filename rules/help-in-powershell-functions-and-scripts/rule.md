@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Comment-Based Help in PowerShell functions and scripts?"
 type: rule
 title: Do you use Comment-Based Help in PowerShell functions and scripts?
 uri: help-in-powershell-functions-and-scripts

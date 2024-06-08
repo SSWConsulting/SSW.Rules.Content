@@ -1,5 +1,4 @@
 ---
-seoDescription: "A centralized repository of data used for analysis and reporting, providing valuable insights to support decision-making processes."
 type: rule
 title: Do you use a Data Warehouse?
 uri: do-you-use-a-data-warehouse

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain consistency in version numbers by keeping Assembly and File versions same by default."
 type: rule
 title: Do you keep the assembly and file version the same by default?
 uri: the-assembly-and-file-version-should-be-the-same-by-default

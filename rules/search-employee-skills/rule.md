@@ -1,5 +1,4 @@
 ---
-seoDescription: "Search employee skills across systems, including AD, SharePoint, and Dynamics 365 CRM, to enhance collaboration and talent discovery."
 type: rule
 title: Do you know how to search employee skills? (Extending AD vs SharePoint vs Dynamics 365 CRM)
 uri: search-employee-skills

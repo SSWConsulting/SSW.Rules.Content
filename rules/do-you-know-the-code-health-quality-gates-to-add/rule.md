@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve Code Health and Quality Gates in VS Code Projects with CSSLint, ESLint, and TSLint."
 type: rule
 title: Do you know the Code Health (Quality Gates) to add?
 uri: do-you-know-the-code-health-quality-gates-to-add

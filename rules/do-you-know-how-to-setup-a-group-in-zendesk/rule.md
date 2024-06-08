@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setup Zendesk groups to efficiently manage tasks and activities, making it easy to reassign responsibilities when team members leave or change roles."
 type: rule
 archivedreason: 
 title: Do you know how to setup a group in Zendesk?

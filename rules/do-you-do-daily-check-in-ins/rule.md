@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay on the same page with your boss through daily check-ins, ensuring you're both aware of appointments, tasks, and deadlines."
 type: rule
 archivedreason: 
 title: Do you do daily check-ins?

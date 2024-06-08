@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to share links to specific tabs in Power BI reports and send users directly to the desired page."
 type: rule
 archivedreason: 
 title: Do you know how to share links to specific tabs in Power BI reports

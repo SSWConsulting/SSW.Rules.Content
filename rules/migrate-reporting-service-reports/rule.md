@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate SSRS reports from an old server to a new one with ease using these 3 simple steps."
 type: rule
 archivedreason: 
 title: Do you know how to migrate Reporting Services reports?

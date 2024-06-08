@@ -1,5 +1,4 @@
 ---
-seoDescription: "Title Bar should reflect the current document or project name, just like Microsoft Word or Notepad, making it easier to identify open documents and projects."
 type: rule
 archivedreason: 
 title: Title Bar - Do you put the current document/project name as the first word of your title bar?

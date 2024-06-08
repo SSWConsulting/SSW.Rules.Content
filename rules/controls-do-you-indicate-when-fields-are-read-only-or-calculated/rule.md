@@ -1,5 +1,4 @@
 ---
-seoDescription: "Indicate read-only or calculated fields by greying them out to prevent unintended changes."
 type: rule
 archivedreason: 
 title: Controls - Do you indicate when fields are "read only" or "calculated"?

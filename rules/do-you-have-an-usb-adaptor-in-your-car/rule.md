@@ -1,5 +1,4 @@
 ---
-seoDescription: "Car USB adaptors offer a convenient power source for charging your devices on-the-go, suitable for iPads and other gadgets."
 type: rule
 archivedreason: 
 title: Do you have an USB adaptor in your car?

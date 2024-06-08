@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Fluent Validation? Client-side validation provides a great user experience but must always be backed up by server-side validation. .NET and .NET Core Web APIs provide built-in support for validation using Data Annotations."
 type: rule
 archivedreason: 
 title: Do you use Fluent Validation?

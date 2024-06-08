@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft-based backup solution offering simple and powerful cloud backups for free with pre-installed OneDrive on Windows 10 and 11."
 type: rule
 title: PC - Do you use the best backup solution?
 uri: pc-do-you-use-the-best-backup-solution

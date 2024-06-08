@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid email harvesting and spamming by using images or JavaScript functions to conceal email addresses and prevent unwanted contacts."
 type: rule
 archivedreason: Deprecated
 title: Do you avoid email harvesting or spamming by using images?

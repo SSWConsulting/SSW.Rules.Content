@@ -1,5 +1,4 @@
 ---
-seoDescription: "Indicate actions requiring more user input with an ellipsis (...) to avoid unexpected results in menus and buttons."
 type: rule
 archivedreason: 
 title: Do you use an ellipsis (...) to indicate an action requiring more user input?

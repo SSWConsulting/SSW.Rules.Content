@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay ahead of your team's projects and ensure client satisfaction by keeping track of who's working on what, sending calendar invites, and making adjustments as needed."
 type: rule
 archivedreason: 
 title: Do you know what your staff are working on?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do include the company name when referring to your job title at SSW Software Engineer."
 type: rule
 title: Do you include the company name when referring to your job title?
 uri: prefix-job-title

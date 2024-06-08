@@ -1,5 +1,4 @@
 ---
-seoDescription: "Grouping related fields by using FieldSet helps to make forms more accessible and easier for users to understand their purpose."
 type: rule
 archivedreason: 
 title: Do you group related fields by using FieldSet?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Pre-recorded presentations require proper setup to ensure clear audio and a smooth viewing experience for online audiences."
 type: rule
 archivedreason: 
 title: Production - Do you set up the speaker prior to recording?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keeping your projects tidy showcases maturity by deleting files and folders prefixed with "zz"."
 type: rule
 archivedreason: 
 title: Do you know zz'ed files must not exist in Source Control?

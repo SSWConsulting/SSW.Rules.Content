@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schema do you use separate lookup tables rather than one large lookup table for your lookup data? Here's a concise and informative SEO description that matches user intent: Separate lookup tables simplify ORM mapping, maintain referential integrity and allow adding unique columns to each table."
 type: rule
 archivedreason: 
 title: Schema - Do you use separate lookup tables rather than one large lookup table for your lookup data?

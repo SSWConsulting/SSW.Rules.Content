@@ -1,5 +1,4 @@
 ---
-seoDescription: "Log all unhandled exceptions to provide developers with sufficient information to fix bugs when they occur, using a customized exception management block that logs to a database via a web service."
 type: rule
 title: Do you log all errors (with SSW Exception Manager)?
 uri: do-you-log-all-errors-with-ssw-exception-manager

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a question mark to indicate when to ask the audience something and encourage participation in your presentation."
 type: rule
 title: Do you use a question mark to indicate when to ask the audience something?
 uri: do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something

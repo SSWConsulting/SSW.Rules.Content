@@ -1,5 +1,4 @@
 ---
-seoDescription: "Descriptive links improve website SEO and provide a friendly experience to users."
 type: rule
 title: SEO - Do you use descriptive links?
 uri: descriptive-links

@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint 2010 introduces an "Internet Sites" license for standard and enterprise features, making it a cost-effective solution for small and medium businesses to create public internet sites."
 type: rule
 archivedreason: Deprecated
 title: Have you considered SharePoint 2010 for internet sites license?

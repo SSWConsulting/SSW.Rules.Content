@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how automating essentials such as security, temperature, and lighting can revolutionize your home or office space, ensuring comfort, accessibility, and reduced energy consumption."
 type: rule
 title: Do you automate your essentials?
 uri: automation-essentials

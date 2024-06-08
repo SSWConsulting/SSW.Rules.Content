@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stateless authentication with JSON Web Tokens (JWT) eliminates server-side session storage, enhancing scalability and security for modern web development."
 type: rule
 title: Do you know how Modern Stateless Authentication works?
 uri: modern-stateless-authentication

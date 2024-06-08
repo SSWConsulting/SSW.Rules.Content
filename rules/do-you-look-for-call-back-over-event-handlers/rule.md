@@ -1,5 +1,4 @@
 ---
-seoDescription: "Event handlers and callbacks in code can be overwhelming, but do you look for a call back over event handlers?"
 type: rule
 archivedreason: 
 title: Do you look for call back over event handlers?

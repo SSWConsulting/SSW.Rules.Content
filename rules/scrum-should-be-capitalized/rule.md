@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scrum principles and terminology require proper capitalization, including Scrum, Sprint, Product Owner, Scrum Master, and more."
 type: rule
 archivedreason: null
 title: | 

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your URLs clean and easy to read by removing extra noise, such as CampaignIDs, and breaking lines before long URLs."
 type: rule
 archivedreason: 
 title: Do you know to keep your URLs clean?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Label tags improve accessibility and user experience by linking edit controls to their respective fields."
 type: rule
 title: Do you have a label tag for the fields associated with your input?
 uri: do-you-have-a-label-tag-for-the-fields-associated-with-your-input

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use state management in Angular: Understand why you need it and choose from options like parent-child hierarchies, observable services or Redux-like libraries like NgRx for complex applications."
 type: rule
 archivedreason: 
 title: Do you know when to use state management in Angular?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Version control ensures compatibility and reduces errors when updating XML files."
 type: rule
 archivedreason: 
 title: Do you version your .xml files?

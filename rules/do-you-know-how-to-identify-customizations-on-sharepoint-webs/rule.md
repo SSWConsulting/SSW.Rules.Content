@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify customizations on SharePoint webs by enumerating features and web parts using stsadm.exe, comparing lists with text comparison tools, and checking deployed WSP packages in Central Admin."
 type: rule
 archivedreason: 
 title: Do you know how to identify customizations on SharePoint webs?

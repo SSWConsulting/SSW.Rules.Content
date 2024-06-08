@@ -1,5 +1,4 @@
 ---
-seoDescription: "PC protection requires running virus and threat scans to identify and remove potential threats on your machine."
 type: rule
 title: PC - Do you run virus and threat protection?
 uri: virus-threat-protection

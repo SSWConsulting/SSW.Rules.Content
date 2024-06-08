@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover visually stunning jQuery plugins, including bubble navigation, sponsor flip wall, photo shoot effect, and HTC clock, to elevate your website's user experience."
 type: rule
 archivedreason: 
 title: Do you know what are the best examples of visually cool jQuery plug-ins?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Develop a mobile app that reaches multiple platforms including Android, iOS, watchOS and more by choosing the right development environment for your needs."
 type: rule
 archivedreason: 
 title: Do you know how to build for the right platforms?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Build relationships with clients by exchanging names and establishing mutual respect during meetings."
 type: rule
 archivedreason: 
 title: Meetings - Do you exchange names in meetings?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Publish simple websites directly to Windows Azure from Visual Studio Online with continuous deployment and effortless configuration."
 type: rule
 archivedreason: 
 title: Do you publish simple websites directly to Windows Azure from Visual Studio Online?

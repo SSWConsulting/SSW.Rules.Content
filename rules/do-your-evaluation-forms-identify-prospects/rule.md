@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify new prospects and their interests through evaluation forms while respecting privacy laws by providing an "opt out" option."
 type: rule
 archivedreason: 
 title: Do your evaluation forms identify prospects?

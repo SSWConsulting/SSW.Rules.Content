@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use View Models instead of ViewData to pass data safely and efficiently in MVC applications."
 type: rule
 title: Do you use View Models instead of ViewData?
 uri: do-you-use-view-models-instead-of-viewdata

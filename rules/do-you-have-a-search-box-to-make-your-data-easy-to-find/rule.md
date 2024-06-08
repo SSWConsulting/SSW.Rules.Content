@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make your data easily accessible by incorporating a "search box" that helps users find relevant information quickly."
 type: rule
 archivedreason: 
 title: Do you have a "search box" to make your data easy to find?

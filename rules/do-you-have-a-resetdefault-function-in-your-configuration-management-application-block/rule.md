@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reset default settings functionality for configuration management applications using a resetdefault() function."
 type: rule
 archivedreason: 
 title: Do you have a resetdefault() function in your configuration management application block?

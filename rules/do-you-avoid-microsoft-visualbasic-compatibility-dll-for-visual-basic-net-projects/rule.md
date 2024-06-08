@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Visual Basic .NET projects should avoid using Microsoft.VisualBasic.Compatibility namespace to ensure compatibility with future versions."
 type: rule
 archivedreason: 
 title: Do you avoid Microsoft.VisualBasic.Compatibility.dll for Visual Basic.NET projects?

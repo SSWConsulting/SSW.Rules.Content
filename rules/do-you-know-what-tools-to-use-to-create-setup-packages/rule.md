@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know which tools to use when creating Setup packages? Wix and Advanced Installer are two popular options."
 type: rule
 archivedreason: 
 title: Do you know what tools to use to create Setup packages?

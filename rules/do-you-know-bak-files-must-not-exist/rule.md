@@ -1,5 +1,4 @@
 ---
-seoDescription: "Tidy up your folders to eliminate unnecessary files and avoid confusion with redundant data."
 type: rule
 archivedreason: 
 title: Do you know BAK files must not exist?

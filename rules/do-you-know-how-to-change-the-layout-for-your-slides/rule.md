@@ -1,5 +1,4 @@
 ---
-seoDescription: "Change your slide layouts to enhance presentation flow and focus audience attention on content."
 type: rule
 title: Do you know how to change the layout for your slides?
 uri: do-you-know-how-to-change-the-layout-for-your-slides

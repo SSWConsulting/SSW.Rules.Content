@@ -1,5 +1,4 @@
 ---
-seoDescription: "Azure DevOps Scrum Template: Boost Agility and Collaboration"
 type: rule
 title: Do you use the Scrum template with Azure DevOps?
 uri: use-devops-scrum-template

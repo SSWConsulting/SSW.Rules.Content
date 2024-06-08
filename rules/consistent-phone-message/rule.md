@@ -1,5 +1,4 @@
 ---
-seoDescription: "Establish a professional image and promote your brand by using a consistent phone message, while also providing a clear way for clients to get back in touch."
 type: rule
 title: Do you use a consistent phone message?
 uri: consistent-phone-message

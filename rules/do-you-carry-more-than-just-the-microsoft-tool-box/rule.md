@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft tools cover the first 90% of developer needs, but carrying additional non-Microsoft options can save time and boost productivity."
 type: rule
 archivedreason: Outdated
 title: Do you carry more than just the Microsoft Tool Box?

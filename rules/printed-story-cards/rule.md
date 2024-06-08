@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use printed SSW Story Cards to facilitate collaboration and visualization during Spec Reviews."
 type: rule
 title: Do you use printed 'SSW Story Cards' with your customers in the Spec Review?
 uri: printed-story-cards

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use "will" instead of "should" when describing processes to convey confidence and certainty."
 type: rule
 archivedreason: 
 title: Do you use "will", not "should" for processes?

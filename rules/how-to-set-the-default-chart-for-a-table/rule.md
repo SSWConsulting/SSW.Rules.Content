@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setting a default chart for a table in Dynamics 365 requires some additional work beyond creating multiple charts. Learn how to set a system-wide default chart using XRMToolBox and Advanced Chart Editor plugins."
 type: rule
 archivedreason: 
 title: Do you know how to set the default chart for a table (previously known as an entity)?

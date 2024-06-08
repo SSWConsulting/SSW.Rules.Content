@@ -1,5 +1,4 @@
 ---
-seoDescription: "Continually improve your website's user interface to reflect best practices and enhance user experience with features like breadcrumbs and cascading menus."
 type: rule
 archivedreason: This generic rule has been replaced by [https://www.ssw.com.au/rules/rules-to-better-interfaces-general-usability-practices](/rules/rules-to-better-interfaces-general-usability-practices)
 title: Do you continually improve the user interface?

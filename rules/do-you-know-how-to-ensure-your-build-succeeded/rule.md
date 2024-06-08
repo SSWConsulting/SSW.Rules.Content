@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure successful builds by triggering a build and monitoring its status within Visual Studio or using TFS Build Notification tool."
 type: rule
 archivedreason: 
 title: Do you know how to ensure your build succeeded?

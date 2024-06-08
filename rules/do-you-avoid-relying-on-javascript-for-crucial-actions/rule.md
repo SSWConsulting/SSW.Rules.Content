@@ -1,5 +1,4 @@
 ---
-seoDescription: "Don't rely on JavaScript for crucial actions, ensuring your website remains accessible and usable without it, as an estimated 2% of users may have JavaScript disabled."
 type: rule
 archivedreason: 
 title: Do you avoid relying on Javascript for crucial actions?

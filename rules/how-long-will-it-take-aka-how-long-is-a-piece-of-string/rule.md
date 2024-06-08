@@ -1,5 +1,4 @@
 ---
-seoDescription: "Estimating project duration like measuring a piece of string, consider resources, leave, and blowouts to track progress with TFS and gantt charts in Project Server 2013 or 2010."
 type: rule
 archivedreason: 
 title: How long will it take (aka How long is a piece of string)?

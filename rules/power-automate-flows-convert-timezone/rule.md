@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering Power Automate flows requires correct timezone usage to avoid complex calculations, daylight saving time issues and user confusion."
 type: rule
 title: Do you know how to use correct timezone in your Power Automate flows?
 uri: power-automate-flows-convert-timezone

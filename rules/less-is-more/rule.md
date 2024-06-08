@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify your design approach with "less is more", a philosophy that emphasizes clarity and effectiveness by reducing visual noise."
 type: rule
 title: Do you know when “less is more”?
 uri: less-is-more

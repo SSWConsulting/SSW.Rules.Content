@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the simplified sales pipeline with 6 stages: initial phone call, initial meeting, follow-up meeting, spec review proposal, spec review, and project proposal."
 type: rule
 title: Do you know the 6 stages in the Sales Pipeline?
 uri: do-you-know-the-6-stages-in-the-sales-pipeline

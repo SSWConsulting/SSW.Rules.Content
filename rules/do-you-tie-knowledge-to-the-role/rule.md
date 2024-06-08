@@ -1,5 +1,4 @@
 ---
-seoDescription: "Tying process knowledge to roles rather than individuals ensures continuity, scalability, and resilience for organizations."
 type: rule
 title: Do you tie knowledge of processes to a role instead of an individual?
 uri: do-you-tie-knowledge-to-the-role

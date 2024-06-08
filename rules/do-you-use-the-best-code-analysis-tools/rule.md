@@ -1,5 +1,4 @@
 ---
-seoDescription: "Code Analysis Tools to Improve Code Quality and Efficiency"
 type: rule
 archivedreason: 
 title: Do you use the best Code Analysis tools?

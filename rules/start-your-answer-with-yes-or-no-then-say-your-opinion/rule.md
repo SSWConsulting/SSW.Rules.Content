@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you answer with 'Yes' or 'No' for clarity before providing extra information?"
 type: rule
 archivedreason: 
 title: Do you answer with ‘Yes’ or ‘No’ for clarity before providing extra information?

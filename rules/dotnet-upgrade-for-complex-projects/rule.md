@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate legacy .NET Framework projects to modern ASP.NET Core with Yarp proxy and .NET Upgrade Assistant."
 type: rule
 archivedreason: merged with a duplicate rule [https://www.ssw.com.au/rules/migration-plans/](/rules/migration-plans)
 title: Do you know how to handle complex .NET migrations?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to craft a consistent search results screen that enhances user navigation with our expert guidance and Google's classic search results layout as an inspiration."
 type: rule
 archivedreason: No longer relevant - Search results UI/UX should be tailored for each application.
 title: Do you have a consistent search results screen? (aka the Google Grid)

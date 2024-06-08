@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistent brand image across media is crucial for building recognition and trust with customers."
 type: rule
 title: Branding - Do you have a consistent brand image?
 uri: have-a-consistent-brand-image

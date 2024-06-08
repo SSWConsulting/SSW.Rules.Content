@@ -1,5 +1,4 @@
 ---
-seoDescription: "iSCSI and Cluster networks should be isolated on their own VLAN or even better, their own switch to ensure secure data transfer."
 type: rule
 archivedreason: 
 title: Do you have the iSCSI and Cluster networks on their own VLAN (or even better their own switch)?

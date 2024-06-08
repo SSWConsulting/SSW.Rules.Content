@@ -1,5 +1,4 @@
 ---
-seoDescription: "Capture brainstorming outcomes by creating PBIs and sending tasks, ensuring actionable items are implemented."
 type: rule
 title: Post event - Do you digest brainstorming outcomes?
 uri: digesting-brainstorming

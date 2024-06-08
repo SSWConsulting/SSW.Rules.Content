@@ -1,5 +1,4 @@
 ---
-seoDescription: "Elevate your proposals with visual aids, leveraging screenshots and images to showcase successful projects and build trust with clients."
 type: rule
 archivedreason: 
 title: Do you use images in your proposals?

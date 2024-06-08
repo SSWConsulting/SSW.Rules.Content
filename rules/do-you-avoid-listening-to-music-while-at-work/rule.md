@@ -1,5 +1,4 @@
 ---
-seoDescription: "Office environment - Should you avoid listening to music while at work?"
 type: rule
 archivedreason: 
 title: Office environment - Do you avoid listening to music while at work?

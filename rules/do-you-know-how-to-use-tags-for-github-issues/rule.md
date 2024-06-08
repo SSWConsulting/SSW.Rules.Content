@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to use labels for GitHub issues and streamline your open-source project's workflow."
 type: rule
 title: Do you know how to use labels for GitHub Issues?
 uri: do-you-know-how-to-use-tags-for-github-issues

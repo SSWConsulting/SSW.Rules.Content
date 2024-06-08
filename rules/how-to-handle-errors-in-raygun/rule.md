@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to handle errors in Raygun and improve your application's health with our step-by-step guide."
 type: rule
 archivedreason: 
 title: Do you know how to handle errors in Raygun?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Encourage your boss to put new appointments directly into their phone calendar for efficient scheduling and reduced dependency on assistants."
 type: rule
 title: Do you encourage your boss to put new appointments directly into their phone?
 uri: do-you-encourage-your-boss-to-put-new-appointments-directly-into-his-phone

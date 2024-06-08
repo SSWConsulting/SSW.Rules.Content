@@ -1,5 +1,4 @@
 ---
-seoDescription: "Integrate Microsoft Dynamics 365 and Teams to streamline communication and collaboration across your organization."
 type: rule
 archivedreason: 
 title: Dynamics and Teams - Do you integrate Dynamics 365 and Microsoft Teams?

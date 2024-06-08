@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid creating redundant views and use them instead to enhance database security."
 type: rule
 archivedreason: 
 title: Views - Do you avoid having views as redundant objects?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Organize your form effectively without using group boxes by employing simple lines to separate sections and enhance readability."
 type: rule
 archivedreason: 
 title: Control Choice - Do you avoid using Group Box and use a line to organize your form?

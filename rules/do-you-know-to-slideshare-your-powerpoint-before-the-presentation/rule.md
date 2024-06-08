@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know to Slideshare your PowerPoint before the presentation?"
 type: rule
 title: Do you know to Slideshare your PowerPoint (before the presentation)?
 uri: do-you-know-to-slideshare-your-powerpoint-before-the-presentation

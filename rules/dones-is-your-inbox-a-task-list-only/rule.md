@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage your inbox as a task list only by treating emails as actionable items and deleting completed tasks."
 type: rule
 archivedreason: 
 title: Do you keep your inbox as a task list only?

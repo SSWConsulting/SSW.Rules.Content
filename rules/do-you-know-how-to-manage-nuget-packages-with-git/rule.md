@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage NuGet packages efficiently without checking them into Git by leveraging automatic package restoration and avoiding version control issues."
 type: rule
 archivedreason: 
 title: Do you know how to manage NuGet packages with Git?

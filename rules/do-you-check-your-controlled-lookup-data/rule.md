@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure Controlled Lookup Data remains intact and functional by implementing stored procedures or unit tests to validate data presence."
 type: rule
 title: Do you check your "Controlled Lookup Data" (aka Reference Data) is still there?
 uri: do-you-check-your-controlled-lookup-data

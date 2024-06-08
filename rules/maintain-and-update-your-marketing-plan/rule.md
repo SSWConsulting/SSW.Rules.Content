@@ -1,5 +1,4 @@
 ---
-seoDescription: "Update and refine your marketing plan regularly to ensure alignment with core goals and optimal campaign performance."
 type: rule
 archivedreason: 
 title: Do you maintain and update your marketing plan?

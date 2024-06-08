@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use consistent icons to show message status, such as green tick, red cross and spinning icon."
 type: rule
 archivedreason: 
 title: Messages - Do you use green tick, red cross and spinning icon to show the status?

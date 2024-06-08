@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify Development, Test, and Production Web Servers by colors to ensure a seamless transition between environments."
 type: rule
 archivedreason: 
 title: Do you identify Development, Test and Production Web Servers by colors?

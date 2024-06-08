@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you include Application Insights for Visual Studio Online in your website to gain valuable insights into how users interact with it?"
 type: rule
 archivedreason: The rule is either out of date or needs to be updated.
 title: Do you include Application Insights for Visual Studio Online in your website?

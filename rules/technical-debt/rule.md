@@ -1,5 +1,4 @@
 ---
-seoDescription: "Repaying technical debt is crucial to maintain software velocity and avoid feature stagnation."
 type: rule
 title: Do you know the importance of paying back Technical Debt?
 uri: technical-debt

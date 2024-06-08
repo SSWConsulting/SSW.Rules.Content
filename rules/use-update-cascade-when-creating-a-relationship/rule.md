@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize database relationships by utilizing ON UPDATE CASCADE to streamline updates and reduce code complexity."
 type: rule
 archivedreason: 
 title: Relationships - Do you use Update Cascade when creating a relationship?

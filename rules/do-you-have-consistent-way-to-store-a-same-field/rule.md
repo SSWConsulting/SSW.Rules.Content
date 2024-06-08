@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistent address storage improves data accuracy and reduces clutter."
 type: rule
 archivedreason: 
 title: Do you have consistent way to store a same field?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "TypeScript infers types for you most of the time, except when initializing variables or function parameters."
 type: rule
 archivedreason: 
 title: Do you describe types sparsely?

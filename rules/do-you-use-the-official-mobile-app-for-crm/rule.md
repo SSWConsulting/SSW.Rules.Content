@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay productive on-the-go with Microsoft's official Dynamics CRM mobile app, available for Android and iOS devices, providing secure access to your company data."
 type: rule
 archivedreason: 
 title: Do you use the official mobile app for CRM?

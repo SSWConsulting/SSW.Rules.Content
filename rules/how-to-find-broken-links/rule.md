@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to find broken links on your website and improve user experience with these tips and tools."
 type: rule
 archivedreason: 
 title: Do you know how to find broken links?

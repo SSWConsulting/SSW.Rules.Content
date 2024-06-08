@@ -1,5 +1,4 @@
 ---
-seoDescription: "Database normalization ensures relational databases conform to good design principles, improving data integrity and reducing redundancy."
 type: rule
 title: Do you normalize your database?
 uri: database-normalization

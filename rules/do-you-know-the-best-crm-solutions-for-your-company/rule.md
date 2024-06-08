@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best CRM solutions for your company and learn how to tailor them to meet your unique business needs with Microsoft CRM being a popular choice."
 type: rule
 archivedreason: 
 title: Do you know the best CRM solutions for your company?

@@ -1,5 +1,4 @@
 ---
-seoDescription: ".NET developers can customize their project settings by adding a local configuration file, isolating changes and preventing app breakage for team members."
 type: rule
 archivedreason: 
 title: Do you add a local configuration file for developer-specific settings?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Renaming files under SourceSafe control: a step-by-step guide to renaming files while maintaining version control."
 type: rule
 archivedreason: 
 title: Do you know how to rename files that under SourceSafe control?

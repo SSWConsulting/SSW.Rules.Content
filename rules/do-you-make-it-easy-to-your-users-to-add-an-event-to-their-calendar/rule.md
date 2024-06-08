@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make it easy for your users to add events to their calendar with ICS links and icons."
 type: rule
 archivedreason: 
 title: Calendar - Does your website make it easy for your users to add an event to their calendar?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how Zendesk's unique approach to customer engagement enables you to deliver exceptional support and delight your users with over 86% positive interactions."
 type: rule
 archivedreason: 
 title: Do you know the benefits of using Zendesk?

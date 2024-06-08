@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scrum meetings optimized for effective collaboration and productivity."
 type: rule
 archivedreason: In Chinese - we only have english rules at the moment
 title: 方法论 - 你是否每日进行Scrum会议（站立会议）

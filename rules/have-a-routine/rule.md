@@ -1,5 +1,4 @@
 ---
-seoDescription: "Establish a morning routine to maintain mental health and productivity while working remotely."
 type: rule
 archivedreason: 
 title: Do you have a morning routine?

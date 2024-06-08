@@ -1,5 +1,4 @@
 ---
-seoDescription: "Retrieve missing invoices for flights quickly and easily through Qantas Business Rewards portal, manage your company trips, and resend tax invoices with just a few clicks."
 type: rule
 title: Do you know how to retrieve missing invoices for flights?
 uri: missing-flight-invoices

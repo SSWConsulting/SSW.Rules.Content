@@ -1,5 +1,4 @@
 ---
-seoDescription: "Duplicating content can waste time and effort, so it's crucial to check if similar information already exists before creating new content."
 type: rule
 archivedreason: 
 title: Do you avoid duplicating content?

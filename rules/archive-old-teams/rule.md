@@ -1,5 +1,4 @@
 ---
-seoDescription: "Archived Teams help organizations declutter and streamline their Microsoft Teams experience by removing inactive or obsolete teams from view."
 type: rule
 archivedreason: 
 title: SysAdmin - Do you archive old Teams?
@@ -23,9 +22,11 @@ Within a team or project-based organization, the number of Teams can rapidly gro
 
 Hiding teams works well enough for end users but doesn't help administrators figure out which teams are actually in use. You should "Archive" unused teams instead – making the team unavailable read-only.
 
+
 ::: bad  
 ![Figure: Bad example - Lots of old and test teams](old-teams-bad.png)  
 :::
+
 
 ::: good  
 ![Figure: Good example - Old teams are archived](old-teams-good.jpg)  
@@ -33,10 +34,13 @@ Hiding teams works well enough for end users but doesn't help administrators fig
 
 To archive a Team, follow these steps:
 
+
+
 * Click on "Manage Teams"
 * Choose the team you want to archive (you must be owner of that Team)
 * Click the "..." (ellipsis)
 * Click "Archive team"
+
 
 ![Figure: Clicking "Manage Teams"](old-teams-how1.jpg)  
 

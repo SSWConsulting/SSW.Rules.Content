@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a ListView over a GridView (was DataGrid) for read-only data display in Windows Forms applications to achieve a nicer look and improved functionality."
 type: rule
 archivedreason: 
 title: Control Choice - Do you use ListView over GridView (was DataGrid) for ReadOnly? (Windows Forms only)

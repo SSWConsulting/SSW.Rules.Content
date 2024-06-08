@@ -1,5 +1,4 @@
 ---
-seoDescription: "Conduct a specification review to provide clients with a clear understanding of project costs and timelines, ensuring realistic expectations and avoiding misunderstandings."
 type: rule
 title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
 uri: conduct-a-spec-review

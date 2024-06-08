@@ -1,5 +1,4 @@
 ---
-seoDescription: "When domain accounts expire or employees leave, disable them to avoid problems during CRM migration or restoration."
 type: rule
 archivedreason: 
 title: Do you know not to delete expired domain users?

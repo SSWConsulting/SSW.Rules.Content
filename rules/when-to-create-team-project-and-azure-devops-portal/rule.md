@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to create a team project and Azure DevOps Portal for a prospect/client? Create a TFS project and SharePoint site once a prospect/ client is ready to move forward after a Specification Review."
 type: rule
 title: Do you know when to create the team project and Azure DevOps Portal for a prospect/client?
 uri: when-to-create-team-project-and-azure-devops-portal

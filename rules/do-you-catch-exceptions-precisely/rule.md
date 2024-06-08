@@ -1,5 +1,4 @@
 ---
-seoDescription: "Catching specific exceptions instead of generic ones helps identify and resolve errors accurately, providing contextual handling, improved code readability, and enhanced debugging capabilities."
 type: rule
 title: Do you catch exceptions precisely?
 uri: do-you-catch-exceptions-precisely

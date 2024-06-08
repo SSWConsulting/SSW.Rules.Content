@@ -1,5 +1,4 @@
 ---
-seoDescription: "Run a pre-migration check on your SharePoint content database before attaching it to trigger the migration process."
 type: rule
 archivedreason: 
 title: Do you run Test-SPContentDatabase before migration

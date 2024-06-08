@@ -1,5 +1,4 @@
 ---
-seoDescription: "Writing CSS efficiently and organizing large stylesheets becomes manageable with CSS pre-processors like LESS or SCSS."
 type: rule
 archivedreason: 
 title: Do you always use a CSS preprocessor language over plain CSS, such as LESS or SCSS?

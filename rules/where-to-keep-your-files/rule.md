@@ -1,5 +1,4 @@
 ---
-seoDescription: "Files - Do you know where to keep your files?"
 type: rule
 archivedreason: 
 title: Files - Do you know where to keep your files?

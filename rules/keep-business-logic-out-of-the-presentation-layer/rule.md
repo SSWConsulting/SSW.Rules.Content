@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here is a suggested SEO description based on the provided MD content: Do you keep business logic out of the presentation layer? MediatR simplifies CQRS and keeps logic independent of UI."
 type: rule
 archivedreason: 
 title: Do you keep business logic out of the presentation layer?

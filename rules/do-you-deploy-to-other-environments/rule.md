@@ -1,5 +1,4 @@
 ---
-seoDescription: "Deploy to multiple environments with PowerShell and Infrastructure-As-Code, including staging and production."
 type: rule
 archivedreason: Deprecated - Currently we deploy with PowerShell and Infrastructure-As-Code via platforms like GitHub and AzureDevOps.
 title: Do you Deploy to other Environments?

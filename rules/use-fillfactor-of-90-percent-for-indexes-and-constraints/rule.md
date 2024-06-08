@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize database performance by setting indexes and constraints to a fillfactor of 90% for efficient inserts."
 type: rule
 archivedreason: 
 title: Schema - Do you use FillFactor of 90% for indexes and constraints?

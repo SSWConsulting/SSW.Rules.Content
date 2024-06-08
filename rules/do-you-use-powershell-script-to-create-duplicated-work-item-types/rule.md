@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you create duplicated work item types using PowerShell scripts to efficiently configure different department access and minor variations?"
 type: rule
 archivedreason: 
 title: Do you use PowerShell script to create duplicated work item types?

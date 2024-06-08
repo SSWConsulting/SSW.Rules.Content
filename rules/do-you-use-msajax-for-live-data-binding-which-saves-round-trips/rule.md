@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use MSAjax for live data binding which saves round trips and enhances user experience in ASP.NET AJAX applications."
 type: rule
 archivedreason: 
 title: Do you use MSAjax for Live Data Binding which saves round trips?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Train your GPT model to unlock its full potential and generate accurate responses for complex or highly specific use cases."
 type: rule
 title: When should you train GPT?
 uri: train-gpt

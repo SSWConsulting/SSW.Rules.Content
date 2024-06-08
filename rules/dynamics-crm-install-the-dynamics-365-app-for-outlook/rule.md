@@ -1,5 +1,4 @@
 ---
-seoDescription: "Install the Dynamics 365 App to track appointments, book leave, and assign developers for projects."
 type: rule
 archivedreason: 
 title: Do you install the Dynamics 365 App?

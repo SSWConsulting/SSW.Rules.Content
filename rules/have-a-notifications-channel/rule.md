@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve communication within your team by setting up a notifications channel in Microsoft Teams to stay informed about project updates and keep discussions organized."
 type: rule
 archivedreason: 
 title: Notifications - Does Your Team Have a Notifications Channel?

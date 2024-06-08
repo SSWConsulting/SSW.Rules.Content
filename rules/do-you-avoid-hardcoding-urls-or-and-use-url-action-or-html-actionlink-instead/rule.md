@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid hardcoding URLs and use Url.Action or Html.ActionLink instead to ensure that your links remain valid even if routes or page names change."
 type: rule
 title: Do you avoid hardcoding URLs (“../”, “~/”, or “/”) and use Url.Action or
   Html.ActionLink instead?

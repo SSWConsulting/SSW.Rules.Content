@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schema do you have a rowversion column?"
 type: rule
 archivedreason: 
 title: Schema - Do you have a rowversion column?

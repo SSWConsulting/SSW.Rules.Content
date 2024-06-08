@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a smooth start by checking unit tests, unhandled exceptions, and performance issues in Application Insights before diving into work."
 type: rule
 archivedreason: 
 title: Do you have a Preflight Checklist?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you reference most DLLs by project?"
 type: rule
 archivedreason: 
 title: Do you reference "most" .dlls by Project?

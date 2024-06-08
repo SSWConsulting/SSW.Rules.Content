@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prevent secrets from leaking from your code repository by utilizing GitHub's Secret Scanning feature for public repositories or GitHub Enterprise with Advanced Security."
 type: rule
 title: Do you know the best way to prevent secrets leaking from your code repository?
 uri: prevent-secrets-leaking-from-repo

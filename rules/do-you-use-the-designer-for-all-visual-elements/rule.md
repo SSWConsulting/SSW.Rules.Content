@@ -1,5 +1,4 @@
 ---
-seoDescription: "Designing visual elements using a GUI designer tool is recommended for creating efficient and maintainable code."
 type: rule
 archivedreason: 
 title: Do you use the designer for all visual elements?

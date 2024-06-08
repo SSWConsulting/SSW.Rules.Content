@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you securely store your secrets and avoid common pitfalls?"
 type: rule
 title: Do you store your secrets securely?
 uri: store-your-secrets-securely

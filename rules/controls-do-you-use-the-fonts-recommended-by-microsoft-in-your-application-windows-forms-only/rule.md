@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a consistent reading experience by using Microsoft-recommended Tahoma font on Windows Forms, while allowing controls to use alternative fonts for specific information."
 type: rule
 archivedreason: Deprecated
 title: Controls - Do you use the fonts recommended by Microsoft in your application? (Windows Forms Only)

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Google Tag Manager to manage your website's tags and tracking codes efficiently, without writing complex code."
 type: rule
 title: Do you use Google Tags Manager (GTM) to manage your tags?
 uri: use-google-tag-manager

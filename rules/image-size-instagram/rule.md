@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure high-quality images on social media by following minimum standard image resolutions, including Instagram's recommended 1080px x 1080px size for Retina displays."
 type: rule
 archivedreason: Replaced by [https://ssw.com.au/rules/image-standard-sizes-on-social-media](/rules/image-standard-sizes-on-social-media)
 title: Do you follow minimum image sizes on social media?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Choosing the right visual in Power BI reports to effectively communicate insights and drive business decisions requires a thoughtful approach."
 type: rule
 archivedreason:
 title: Do you always choose the right visual for your reports?

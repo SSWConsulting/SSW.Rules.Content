@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easily generate classes from a JSON response by copying the text, pasting it as JSON classes in Visual Studio, and cleaning up the results for a time-saving solution."
 type: rule
 archivedreason: 
 title: Do you know how to easily get classes from a JSON response?

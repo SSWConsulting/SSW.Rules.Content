@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your multiline text box is scrollable by setting the ScrollBars property to "Both" or "Vertical"."
 type: rule
 title: Do you set the ScrollBars property if the TextBox is Multiline?
 uri: set-the-scrollbars-property-if-the-textbox-is-multiline

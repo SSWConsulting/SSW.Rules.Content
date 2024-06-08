@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your audience engaged by responding to comments, sharing videos on other platforms, and promoting them with attention-grabbing titles and emotional keywords."
 type: rule
 archivedreason: 
 title: Do you keep your audience happy?

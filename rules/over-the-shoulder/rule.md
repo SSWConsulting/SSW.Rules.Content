@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoiding Merge Debt and Ensuring Seamless Code Review with Over-the-Shoulder Reviews"
 type: rule
 title: Pull Request - Do you do over the shoulder reviews?
 uri: over-the-shoulder

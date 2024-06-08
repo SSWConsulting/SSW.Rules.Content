@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here is a generated SEO description: Display company URL in title bar to showcase your brand and drive free publicity through screenshots."
 type: rule
 archivedreason: 
 title: Title Bar - Do you put your company URL in the title bar?

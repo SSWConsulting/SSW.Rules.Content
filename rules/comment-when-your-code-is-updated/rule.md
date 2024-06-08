@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know the best way to track comments when your code is updated? Learn how to maintain consistent commenting for your application and leverage commit history and annotation tools."
 type: rule
 archivedreason: 
 title: Do you know the best way to track comments when your code is updated?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Blazor code sharing enables C# model libraries to be shared between client and server, reducing development effort and maintenance needs."
 type: rule
 title: Do you share common types and logic in Blazor?
 uri: share-common-types-and-logic

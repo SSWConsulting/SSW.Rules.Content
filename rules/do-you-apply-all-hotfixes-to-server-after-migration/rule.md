@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate to CRM 4.0 while applying all hotfixes ensures seamless updates and resolves potential issues."
 type: rule
 archivedreason: 
 title: Do you apply all hotfixes to server after migration

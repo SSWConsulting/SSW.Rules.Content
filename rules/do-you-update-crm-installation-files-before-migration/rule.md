@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft CRM setup updates ensure a smooth migration process by applying latest patches and fixes to installation files."
 type: rule
 archivedreason: 
 title: Do you update CRM installation files before migration

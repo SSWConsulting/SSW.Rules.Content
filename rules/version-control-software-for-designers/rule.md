@@ -1,5 +1,4 @@
 ---
-seoDescription: "Version control software for designers, Abstract, offers a visually-driven approach to sharing and collaboration, streamlining workflows with Sketch and Zeplin."
 type: rule
 title: Do you know the best version control software for designers?
 uri: version-control-software-for-designers

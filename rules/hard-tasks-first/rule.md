@@ -1,5 +1,4 @@
 ---
-seoDescription: "Tackle challenging tasks first to prioritize valuable contributions and set a precedent for sequential productivity."
 type: rule
 title: Do you tackle the hard things first?
 uri: hard-tasks-first

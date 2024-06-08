@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to use branch protection on GitHub to ensure your main branch remains safe from accidental deletions and force pushes."
 type: rule
 title: Do you use branch protection?
 uri: use-branch-protection

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you have a "Schema Master"? To avoid database trouble when many developers make schema changes, designate one person or the release pipeline to upgrade the database, reviewing all modifications and scripts."
 type: rule
 title: Do you have a "Schema Master"?
 uri: have-a-schema-master

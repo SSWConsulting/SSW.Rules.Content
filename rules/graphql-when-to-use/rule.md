@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use GraphQL? Understand the limitations and advantages of using GraphQL in your application development."
 type: rule
 title: Do you know when to use GraphQL?
 uri: graphql-when-to-use

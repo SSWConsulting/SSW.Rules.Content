@@ -1,5 +1,4 @@
 ---
-seoDescription: "Freshly updated website pages drive customer interest by providing unique and relevant content through a Content Management System (CMS) such as SharePoint, DNN, Orchard, Sitefinity, Sitecore, Umbraco, or WordPress."
 type: rule
 archivedreason: 
 title: Do you provide fresh content via CMS?

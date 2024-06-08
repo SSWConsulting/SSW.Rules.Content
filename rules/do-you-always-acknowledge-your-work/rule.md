@@ -1,5 +1,4 @@
 ---
-seoDescription: "Every web page or document should have an owner and include a link with more information about the author, making the internet a less impersonal place."
 type: rule
 archivedreason: 
 title: Do you always acknowledge your work?

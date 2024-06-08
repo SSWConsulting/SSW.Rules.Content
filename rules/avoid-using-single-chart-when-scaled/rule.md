@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using a single chart when you need it to be scaled, instead use an embedded chart within the table for dynamic chart lists."
 type: rule
 archivedreason:
 title: Data Layout - Do you avoid using a single chart when you need it to be scaled?

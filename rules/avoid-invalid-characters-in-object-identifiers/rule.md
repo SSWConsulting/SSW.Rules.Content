@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using invalid characters in object identifiers to prevent errors and improve script run times."
 type: rule
 archivedreason: 
 title: Data - Do you avoid invalid characters in object identifiers?

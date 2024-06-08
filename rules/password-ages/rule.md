@@ -1,5 +1,4 @@
 ---
-seoDescription: "Minimum password age rules do more harm than good, encouraging poor practices and failing to provide meaningful security benefits."
 type: rule
 title: Passwords – Do you know that age requirements do more harm than good?
 uri: password-ages

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know when to branch in TFS (aka TFVC)? Learn how to simplify your workflow and avoid merging hell by understanding when to create branches."
 type: rule
 title: Do you know when to branch in TFS (aka TFVC)?
 uri: do-you-know-when-to-branch

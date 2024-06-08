@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use subdirectories instead of subdomains to improve your website's search engine optimization (SEO) and user experience. This approach integrates better with your main site, making it easier to track with Google Analytics and generating more backlinks for improved Google juice."
 type: rule
 archivedreason: 
 title: Do you know that you should use subdirectories, not domains?

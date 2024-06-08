@@ -1,5 +1,4 @@
 ---
-seoDescription: "AI-generated images can be a quick and productive solution for unique artwork, lowering costs, and accelerating experimentation, making it an accessible tool for web design, marketing campaigns, and content creation."
 type: rule
 archivedreason:
 title: Do you know when to use AI generated images?

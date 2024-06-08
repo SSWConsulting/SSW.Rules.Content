@@ -1,5 +1,4 @@
 ---
-seoDescription: "Well-structured agendas boost board meeting efficiency and effectiveness by setting clear expectations, promoting focused discussions, and ensuring all critical topics are covered."
 type: rule
 title: Do you prepare an agenda for your board meetings?
 uri: prepare-an-agenda

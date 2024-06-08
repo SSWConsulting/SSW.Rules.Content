@@ -1,5 +1,4 @@
 ---
-seoDescription: "Windows sysprep process explained: Generalize Windows, rename computer, and run scripts for SQL Server, SharePoint installation and configuration."
 type: rule
 archivedreason: 
 title: How does the sysprep process work, what does the scripts do? Why is this process so complicated ?

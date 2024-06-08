@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here is a concise SEO description based on the provided MD content: "Improve PBI visibility by duplicating content into an email with unique subject and sender." Let me know if you need any adjustments! 😊"
 type: rule
 title: Do you send a PBI via email to raise visibility?
 uri: email-copy-to-raise-pbi-visibility

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use intuitive user authentication terms to enhance your application's user experience with sign-in and registration options."
 type: rule
 title: Do you use right terms for user authentication?
 uri: user-authentication-terms

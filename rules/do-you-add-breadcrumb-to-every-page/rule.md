@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enhance user navigation and improve website usability with a clear breadcrumb trail, providing a visual path to help users quickly locate information and backtrack to previous pages."
 type: rule
 archivedreason: 
 title: Do you add breadcrumb to every webpage?

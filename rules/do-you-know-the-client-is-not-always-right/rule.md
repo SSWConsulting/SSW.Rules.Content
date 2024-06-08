@@ -1,5 +1,4 @@
 ---
-seoDescription: "Knowing when to advise clients and how to persuade them that your solution is best."
 type: rule
 archivedreason: 
 title: Do you know the client is not "always" right?

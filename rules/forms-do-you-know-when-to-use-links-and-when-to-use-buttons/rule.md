@@ -1,5 +1,4 @@
 ---
-seoDescription: "Forms and navigation: Use buttons to submit data, links for navigation."
 type: rule
 archivedreason: 
 title: Forms - Do you know when to use links and when to use buttons?

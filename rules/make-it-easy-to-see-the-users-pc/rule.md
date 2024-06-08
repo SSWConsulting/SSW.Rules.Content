@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easily access and control user PCs remotely for seamless issue resolution."
 type: rule
 archivedreason: 
 title: Do you know the best methods to remotely access/control a users PC?

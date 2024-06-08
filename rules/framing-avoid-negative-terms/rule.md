@@ -1,5 +1,4 @@
 ---
-seoDescription: "Framing skills and expertise positively to attract clients seeking high-quality services."
 type: rule
 title: Framing - Do you know to avoid negative words or phrases?
 uri: framing-avoid-negative-terms

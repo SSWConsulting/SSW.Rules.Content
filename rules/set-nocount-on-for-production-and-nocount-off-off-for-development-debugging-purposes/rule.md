@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stored Procedures - Set NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you SET NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes?

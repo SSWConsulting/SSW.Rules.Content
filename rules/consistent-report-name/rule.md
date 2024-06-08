@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure consistent report naming practices to streamline report creation and improve organization."
 type: rule
 archivedreason:
 title: Layout - Do you have consistent report name?

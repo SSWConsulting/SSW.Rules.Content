@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep written communication concise and focused to capture readers' attention, prevent messages from being overlooked, and ensure accessibility for busy individuals."
 type: rule
 archivedreason: 
 title: Do you keep your writing short and concise?

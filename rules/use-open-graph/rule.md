@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Azure | SSW Consulting - Sydney, Brisbane, Melbourne: Control how your links are shared with Open Graph protocol."
 type: rule
 archivedreason: 
 title: Do you use Open Graph to control how your links are shared?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find recent files quickly on Bing by logging into your work account or viewing your colleagues' files."
 type: rule
 archivedreason: 
 title: Do you know the best way to find your (or others) recent files?

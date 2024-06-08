@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure accurate downloads by detecting client CLR versions and offering Setup.exe or .application files accordingly."
 type: rule
 title: Do you set the appropriate download (.exe or .application) for your web users?
 uri: set-the-appropriate-download-for-your-web-users

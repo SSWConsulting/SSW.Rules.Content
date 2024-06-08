@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prevent important emails from being forwarded or copied with Outlook's Information Rights Management feature."
 type: rule
 archivedreason: 
 title: Do you use the security options in Outlook?

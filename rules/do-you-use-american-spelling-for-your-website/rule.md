@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how using American spelling can enhance your website's user experience and improve search engine optimization for international audiences."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/spelling-do-you-use-us-english](/rules/spelling-do-you-use-us-english)
 title: SEO - Do you use American spelling?

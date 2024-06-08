@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set a maximum period for developers to work at any particular client, promoting project variety and preventing burnout."
 type: rule
 archivedreason: 
 title: Bored Developers - Do you set maximum periods for a developer to work at any particular client?

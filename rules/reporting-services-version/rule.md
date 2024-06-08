@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reporting Services version identification helps users optimize their reporting server setup and troubleshoot issues efficiently."
 type: rule
 archivedreason:
 title: Layout - Do you show which version of Reporting Services you are running?

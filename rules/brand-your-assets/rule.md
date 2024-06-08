@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you want to brand your business assets?"
 type: rule
 title: Do you brand your assets?
 uri: brand-your-assets

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your "DataBinder.Eval" clean by avoiding inline processing and formatting based on business rules. Instead, move code into protected methods on the form or use the ItemDataBound event for more complex logic."
 type: rule
 title: Do you keep your "DataBinder.Eval" clean?
 uri: keep-your-databinder-eval-clean

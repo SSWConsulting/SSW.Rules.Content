@@ -1,5 +1,4 @@
 ---
-seoDescription: "Preventing server-side dialogs and improving application reliability through configuration settings in web.config files."
 type: rule
 archivedreason: 
 title: Do you use Trace.Fail or set AssertUIEnabled="true" in your web.config?

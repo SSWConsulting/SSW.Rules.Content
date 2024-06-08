@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setup a PPTP VPN in Windows 7 and establish a secure connection to your workplace network."
 type: rule
 archivedreason: No longer used.
 title: Do you know how to setup a PPTP VPN in Windows 7?

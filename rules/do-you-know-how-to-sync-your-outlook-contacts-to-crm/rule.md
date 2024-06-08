@@ -1,5 +1,4 @@
 ---
-seoDescription: "Sync Outlook contacts to CRM using customizable filters and avoid overwhelming your device with a large number of active contacts."
 type: rule
 archivedreason: 
 title: Do you know how to sync your Outlook contacts to CRM?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Implementing a Continuous Integration (CI) server reduces the risk of introducing unwanted changes by automatically building and testing software after each code update."
 type: rule
 title: Do you have a Continuous Integration (CI) Server?
 uri: have-a-continuous-build-server

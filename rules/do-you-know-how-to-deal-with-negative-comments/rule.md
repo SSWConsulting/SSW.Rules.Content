@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage Negative Comments Like a Pro: Tips and Best Practices"
 type: rule
 archivedreason: 
 title: Do you know how to deal with negative and inappropriate comments?

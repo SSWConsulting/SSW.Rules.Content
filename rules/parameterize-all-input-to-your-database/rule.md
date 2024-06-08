@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you parameterize all input to your database? It's essential to safeguard against SQL injection attacks and improve query performance by reducing the number of query plans."
 type: rule
 archivedreason: 
 title: Do you parameterize all input to your database?

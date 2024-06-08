@@ -1,5 +1,4 @@
 ---
-seoDescription: "Data - Do you use Identities in SQL Server? Should you use identities in SQL Server? While they offer convenience and conflict-free replication, they also introduce limitations when importing data or manually updating primary keys."
 type: rule
 archivedreason: 
 title: Data - Do you use Identities in SQL Server?

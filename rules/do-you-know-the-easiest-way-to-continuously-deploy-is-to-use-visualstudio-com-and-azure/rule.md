@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure continuous deployment to Azure websites and Visual Studio in just 5 minutes using VisualStudio.com and Azure."
 type: rule
 title: Do you know the easiest way to continuously deploy is to use
   VisualStudio.com and Azure?

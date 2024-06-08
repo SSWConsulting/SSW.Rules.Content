@@ -1,5 +1,4 @@
 ---
-seoDescription: "Zendesk Chat Widget Customization: Create Unique Experience With Web SDK"
 type: rule
 archivedreason: 
 title: Do you know how to change the live chat appearance?

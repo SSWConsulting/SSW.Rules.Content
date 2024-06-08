@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistent time formats enhance professional appearance across applications."
 type: rule
 archivedreason: 
 title: Dates - Do you keep Time formats consistent across your application?

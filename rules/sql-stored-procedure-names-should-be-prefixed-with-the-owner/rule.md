@@ -1,5 +1,4 @@
 ---
-seoDescription: "SQL stored procedure names should be prefixed with the owner to avoid ambiguity and ensure consistency across different database users."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you know SQL stored procedure names should be prefixed with the owner?

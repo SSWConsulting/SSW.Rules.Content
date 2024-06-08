@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create your own SharePoint VM to play with by creating a new Virtual Machine from the SysPrep image, allocating sufficient RAM and hard drive space, and following setup scripts."
 type: rule
 archivedreason: 
 title: How do I create my own SharePoint VM to play with?

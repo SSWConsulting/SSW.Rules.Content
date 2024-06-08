@@ -1,5 +1,4 @@
 ---
-seoDescription: "Run unit tests from a standard 'Help' menu to ensure product quality and troubleshoot issues on users' machines."
 type: rule
 archivedreason: This applies to WinForms applications. Modern desktop applications should follow MVVM or MVC - in which case the viewmodel/controller is unit testable on every commit.
 title: Do you have a standard 'Help' menu that includes a way to run your unit tests?

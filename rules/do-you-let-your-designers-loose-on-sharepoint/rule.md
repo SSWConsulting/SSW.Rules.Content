@@ -1,5 +1,4 @@
 ---
-seoDescription: "Designers should be allowed to work directly in SharePoint, leveraging SharePoint Designer, to create visually appealing and functional sites."
 type: rule
 archivedreason: 
 title: Do You Let Your Designers Loose on SharePoint?

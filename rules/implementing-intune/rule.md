@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Intune is a mobile device management (MDM) and application management solution that enables organizations to control how devices are used, including setting policies for app access and data protection."
 type: rule
 title: Do you use Microsoft Intune?
 uri: implementing-intune

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here's a well-crafted SEO description based on your input: Architectural decision documentation and retrospective analysis for significant projects, ensuring transparency and accountability."
 type: rule
 title: Do you send a 'For the record' email when you disagree?
 uri: for-the-record

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Include a clear and concise summary of your changes to help reviewers quickly understand what was done."
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/write-a-good-pull-request/](/rules/write-a-good-pull-request/)
 title: Do you include a useful description of your changes?

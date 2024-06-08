@@ -1,5 +1,4 @@
 ---
-seoDescription: "Structuring your GitHub project for success, from documentation to source code organization."
 type: rule
 title: Do you know how to structure a project for GitHub?
 uri: do-you-know-how-to-structure-a-project-for-github

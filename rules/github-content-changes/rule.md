@@ -1,5 +1,4 @@
 ---
-seoDescription: "GitHub makes reviewing changes easy through "Pull Requests". Reviewing a Pull Request involves examining changes using tabs: Conversations, Commits, Checks, and Files changed."
 type: rule
 title: Do you know how to make content changes on GitHub?
 uri: github-content-changes

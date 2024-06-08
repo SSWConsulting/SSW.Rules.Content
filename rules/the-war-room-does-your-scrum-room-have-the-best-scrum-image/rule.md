@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost your Scrum productivity by visualizing the process on your War Room wall with an effective image that includes all crucial steps from initial meetings to reviews and retrospectives."
 type: rule
 archivedreason: 
 title: The War Room - Does your Scrum room have the best Scrum image?

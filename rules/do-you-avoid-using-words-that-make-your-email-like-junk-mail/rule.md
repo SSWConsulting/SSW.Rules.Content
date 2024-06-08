@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using sensitive words and tone to prevent your email from being flagged as junk or adult content."
 type: rule
 archivedreason: 
 title: Do you avoid using words that make your email like junk mail?

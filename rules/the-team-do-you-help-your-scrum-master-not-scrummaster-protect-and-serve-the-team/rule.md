@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you help your Scrum Master protect and serve The Team by ensuring team members prioritize tasks, avoid distractions, and keep commitments while working together to deliver on their Sprint goals."
 type: rule
 title: The Team - Do you help your Scrum Master protect and serve The Team?
 uri: the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Informing speakers of venue-specific details before presentations helps ensure a smooth and successful event experience."
 type: rule
 archivedreason: 
 title: Speaker - Do you inform venue specific details to speakers before presentations?

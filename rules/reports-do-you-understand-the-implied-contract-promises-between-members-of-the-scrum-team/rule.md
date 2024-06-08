@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scrum team members understand their responsibilities and respect implicit promises to each other, stakeholders, and the organization."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/scrum-team-contract](/rules/scrum-team-contract)
 title: Reports - Do you understand the implied contract (promises) between Members of the Scrum Team?

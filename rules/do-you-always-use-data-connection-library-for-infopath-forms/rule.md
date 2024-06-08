@@ -1,5 +1,4 @@
 ---
-seoDescription: "Centralize data connections and simplify SharePoint form management with a Data Connection Library."
 type: rule
 archivedreason: 
 title: Do you always use Data Connection Library for InfoPath forms?

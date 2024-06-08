@@ -1,5 +1,4 @@
 ---
-seoDescription: "Communicate effectively and build trust with confidence by speaking clearly, at a moderate pace, and varying your tone."
 type: rule
 archivedreason: 
 title: Do you know to communicate effectively?

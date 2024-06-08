@@ -1,5 +1,4 @@
 ---
-seoDescription: "Recording live video interviews on location requires attention to audio, lighting, and framing. Simplify the process by having the interviewer hold the camera and use a tight frame, rule of thirds, and smooth zooms."
 type: rule
 title: Production - Do you know how to record live video interviews on location?
 uri: production-do-you-know-how-to-record-live-video-interviews-on-location

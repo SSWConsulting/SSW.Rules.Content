@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best SharePoint navigation solutions to enhance your intranet experience with Warwick Leahy."
 type: rule
 title: Do you use the best SharePoint navigation?
 uri: best-sharepoint-navigation
@@ -19,7 +18,7 @@ In SharePoint your left navigation can be:
 
 ### The built-in site navigation
 
-Good points:
+Good points: 
 
 * Built-in – the default navigation system in SharePoint
 
@@ -28,7 +27,7 @@ Bad points:
 * Viewer – Not very pretty
 * Viewer – Can only use emoji not icons in names
 * Customizing – Cant be customized
-
+           
 ::: bad
 ![Figure: Bad example – Viewing](sharepoint-nav-bad1.png)
 :::

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your system's performance with reliable Entity Framework benchmarking, ensuring accurate insights for code optimization and improved application speed."
 type: rule
 title: Do you benchmark?
 uri: entity-framework-benchmark

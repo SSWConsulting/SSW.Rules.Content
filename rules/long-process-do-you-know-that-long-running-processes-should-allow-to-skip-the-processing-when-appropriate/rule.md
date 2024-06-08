@@ -1,5 +1,4 @@
 ---
-seoDescription: "Allow users to skip lengthy processes and view previous results or continue processing when needed."
 type: rule
 archivedreason: 
 title: Long Process - Do you know that long-running processes should allow to 'Skip' the processing (when appropriate)?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track time against Spec Reviews separately to accurately reflect project costs and provide clear estimates for clients."
 type: rule
 title: Do you track time against Spec Reviews separately?
 uri: spec-review-timesheets

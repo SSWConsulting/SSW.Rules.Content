@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automate Dynamics solution management with Azure DevOps Pipelines, streamlining exports, deployments, and provisioning across environments."
 type: rule
 archivedreason: 
 title: Do you use Azure DevOps Pipelines with your Dynamics solutions?

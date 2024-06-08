@@ -1,5 +1,4 @@
 ---
-seoDescription: "Gratitude amplifies online engagement and boosts search visibility when others mention or re-tweet you."
 type: rule
 title: Twitter - Do you know to thank others for each reference to you?
 uri: thank-others-for-each-reference-to-you

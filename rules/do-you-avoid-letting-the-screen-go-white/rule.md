@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prevent white screen reloads by using jQuery or Ajax controls to send requests without feedback."
 type: rule
 archivedreason: 
 title: Do you avoid letting the screen go white?

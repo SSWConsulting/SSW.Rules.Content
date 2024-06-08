@@ -1,5 +1,4 @@
 ---
-seoDescription: "Control4 notifications seamlessly integrated with Slack channels for real-time updates and collaboration."
 type: rule
 archivedreason: 
 title: Do you send Control4 notifications to a Slack channel?

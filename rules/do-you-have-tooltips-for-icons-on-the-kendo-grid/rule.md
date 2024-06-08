@@ -1,5 +1,4 @@
 ---
-seoDescription: "Kendo Grid icons provide a clean interface but require tooltips for user guidance and understanding of operations."
 type: rule
 archivedreason: 
 title: Do You have Tooltips for Icons on the Kendo Grid?

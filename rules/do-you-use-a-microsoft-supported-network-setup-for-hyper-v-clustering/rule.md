@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Hyper-V clustering requires a supported network setup to ensure optimal performance and prevent degradation."
 type: rule
 archivedreason: 
 title: Do you use a Microsoft supported network setup for Hyper-V Clustering?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use kebab-case (dashes) in your URLs and make them short and friendly for maximum readability and SEO."
 type: rule
 archivedreason: 
 title: Do you use dashes in your URLs?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automated deployment process eliminates manual errors and ensures quick updates to internal webserver, Australian staging server, and US production sites."
 type: rule
 archivedreason: "Requested by Brendan on \n\nRE: TFS Deployment Rule - Does anyone follow this rule"
 title: Do your developers deploy manually?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Showcasing download progress and total file size enhances user experience by providing a clear estimate of completion."
 type: rule
 archivedreason: 
 title: Do you show the progress and the total file size on downloads?

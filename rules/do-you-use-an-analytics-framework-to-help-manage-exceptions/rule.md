@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use an analytics framework to gain control over your application's performance, exceptions, and usage, allowing you to identify and address issues effectively."
 type: rule
 title: Do you use an analytics framework to help manage exceptions?
 uri: do-you-use-an-analytics-framework-to-help-manage-exceptions

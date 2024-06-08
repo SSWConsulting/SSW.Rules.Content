@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reduce API surface by exporting only necessary TypeScript types."
 type: rule
 archivedreason: 
 title: Do you only export what is necessary?

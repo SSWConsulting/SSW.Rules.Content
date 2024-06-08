@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid third-party menus and toolbars in Visual Studio .NET 2003 due to bugs and limitations."
 type: rule
 title: Do you avoid 3rd party menus & toolbars?
 uri: do-you-avoid-3rd-party-menus-and-toolbars

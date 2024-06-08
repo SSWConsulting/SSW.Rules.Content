@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your website's performance by avoiding duplicate images and storing them in a single, easily accessible location."
 type: rule
 archivedreason: 
 title: Do you make sure your website doesn't have multiple copies of the same image?

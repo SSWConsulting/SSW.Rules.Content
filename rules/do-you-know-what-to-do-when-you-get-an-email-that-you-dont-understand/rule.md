@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clarify email tasks and boost productivity by asking questions or seeking clarification from senders when unsure."
 type: rule
 archivedreason: 
 title: Do you know what to do when you get an email that you don’t understand?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Power Platform certifications offer a range of training options to help professionals learn new skills, fill knowledge gaps and boost productivity."
 type: rule
 title: Do you know the relevant Power Platform certifications and associated exams?
 uri: power-platform-certifications

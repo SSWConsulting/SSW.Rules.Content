@@ -1,5 +1,4 @@
 ---
-seoDescription: "Test which pain points are relevant to your prospect by running a social media ad campaign targeting your most engaged audience with top 7 pain points."
 type: rule
 archivedreason: 
 title: Do you know how to test which pain points are relevant to your prospect?

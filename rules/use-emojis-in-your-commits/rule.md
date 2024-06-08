@@ -1,5 +1,4 @@
 ---
-seoDescription: "GitHub Repos - Write Nice Commit Messages Improve your commit log with concise and meaningful messages."
 type: rule
 title: GitHub Repos - Do you write nice commit messages?
 uri: use-emojis-in-your-commits

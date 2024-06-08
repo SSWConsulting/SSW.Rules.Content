@@ -1,5 +1,4 @@
 ---
-seoDescription: "Write unit tests to confirm bugfixes and prevent similar issues from occurring again, ensuring reliable software development through the Red-Green-Refactor process."
 type: rule
 archivedreason: 
 title: Do you write unit tests to confirm bugfixes? (aka Red-Green-Refactor)

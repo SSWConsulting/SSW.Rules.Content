@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your domain layer independent of data access concerns by separating configuration and annotations from your domain model."
 type: rule
 archivedreason: 
 title: Do you keep your domain layer independent of the data access concerns?

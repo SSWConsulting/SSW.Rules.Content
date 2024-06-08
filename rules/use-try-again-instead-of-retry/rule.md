@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve user experience by using "Try Again" instead of "Retry", creating a friendlier and more human-like interaction."
 type: rule
 archivedreason: 
 title: 'Do you use "Try Again" instead of "Retry"?'

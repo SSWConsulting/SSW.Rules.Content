@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you return detailed error messages?"
 type: rule
 title: Do you return detailed error messages?
 uri: do-you-return-detailed-error-messages

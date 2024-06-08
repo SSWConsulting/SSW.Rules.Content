@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you publish a video every time you blog? By recording a video and publishing it on YouTube, you're helping spread the word about your content. Consider linking your video in a simple blog post with a good description, popular keywords, and an explanation of your thoughts to expand your audience."
 type: rule
 title: "Do you blog every time you publish a video? "
 uri: blog-every-time-you-publish-a-video

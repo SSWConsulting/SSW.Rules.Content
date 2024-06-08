@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use TweetDeck to enhance your Twitter experience and stay notified about topics you're interested in, such as #hyperv or #ssw."
 type: rule
 archivedreason: "RE: Tiago's feedback on unnecessary rules "
 title: Do you use TweetDeck to read Twitter?

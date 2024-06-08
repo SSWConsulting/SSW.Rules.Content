@@ -1,5 +1,4 @@
 ---
-seoDescription: "Save time and increase productivity by calling clients first before emailing to discuss important topics or seek clarification."
 type: rule
 title: Do you know when to call first before emailing?
 uri: call-first-before-emailing

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Having a unique index on a table ensures read-write capabilities and improves query performance in Access databases."
 type: rule
 archivedreason: 
 title: Do you always have a unique index on a table?

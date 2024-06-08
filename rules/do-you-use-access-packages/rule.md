@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline access management and ensure robust security with Entra Access Packages."
 type: rule
 title: Do you use Entra Access Packages to give access to resources?
 uri: do-you-use-access-packages

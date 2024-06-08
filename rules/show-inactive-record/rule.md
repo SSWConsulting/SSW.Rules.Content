@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clear visual indicators of inactive or disabled records help prevent confusion and ensure a seamless user experience."
 type: rule
 archivedreason: 
 title: Do you clearly show what is inactive/disabled?

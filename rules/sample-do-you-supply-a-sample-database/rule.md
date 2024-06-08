@@ -1,5 +1,4 @@
 ---
-seoDescription: "Supplying sample database data helps showcase product functionality and enhances user experience, especially with trial licenses."
 type: rule
 archivedreason: 
 title: Sample - Do you supply a sample database?

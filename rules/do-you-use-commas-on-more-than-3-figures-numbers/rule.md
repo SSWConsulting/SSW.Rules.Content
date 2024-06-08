@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use commas to make numbers more readable and easier to comprehend, with specific exceptions such as ZIP codes, phone numbers, and dates."
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/make-numbers-more-readable](/rules/make-numbers-more-readable)
 title: Do you use commas on more than 3 figures numbers?

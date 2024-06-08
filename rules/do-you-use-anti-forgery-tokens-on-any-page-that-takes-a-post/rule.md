@@ -1,5 +1,4 @@
 ---
-seoDescription: "To prevent cross-site request forgery (XSRF), use Html.AntiForgeryToken. On the action which takes the post request, place the [ValidateAntiForgeryToken] attribute to enable the request validation. This ensures that only verified posts are processed by the server."
 type: rule
 title: Do you use Anti Forgery Tokens on any page that takes a POST?
 uri: do-you-use-anti-forgery-tokens-on-any-page-that-takes-a-post

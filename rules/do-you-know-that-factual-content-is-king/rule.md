@@ -1,5 +1,4 @@
 ---
-seoDescription: "Factual accuracy and relevance drive valuable online experiences."
 type: rule
 archivedreason: 
 title: Do you know that 'Factual Content is King'?

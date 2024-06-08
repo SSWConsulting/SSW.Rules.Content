@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remove outdated "language" attribute and specify scripting language as a content type instead."
 type: rule
 archivedreason: 
 title: Do you remove "Language" from your script tag?

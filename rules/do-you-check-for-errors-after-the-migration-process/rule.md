@@ -1,5 +1,4 @@
 ---
-seoDescription: "Check database logs and event logs after migration to identify errors and fix them promptly."
 type: rule
 archivedreason: 
 title: Do you check for errors after the migration process?

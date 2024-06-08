@@ -1,5 +1,4 @@
 ---
-seoDescription: "Protect your MVC website from automated attacks using reCAPTCHA and ensure secure user registration."
 type: rule
 archivedreason: 
 title: Do you protect your MVC website from automated attack?

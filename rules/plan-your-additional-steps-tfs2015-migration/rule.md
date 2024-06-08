@@ -1,5 +1,4 @@
 ---
-seoDescription: "Upgrading TFS requires planning additional steps to integrate SharePoint and Build servers seamlessly."
 type: rule
 archivedreason: 
 title:  Do you plan your additional steps for TFS 2015 migration?

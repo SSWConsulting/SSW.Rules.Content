@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your npm and yarn packages up to date to ensure your application's security and functionality."
 type: rule
 title: Do you keep your npm and yarn packages up to date?
 uri: packages-up-to-date

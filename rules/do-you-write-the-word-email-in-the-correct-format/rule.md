@@ -1,5 +1,4 @@
 ---
-seoDescription: "Write your email correctly, not EMail or e- mail, but simply 'email'. Ensure your email address matches your confirmed email address."
 type: rule
 title: "Do you write the word 'email' in the correct format?"
 uri: do-you-write-the-word-email-in-the-correct-format

@@ -1,5 +1,4 @@
 ---
-seoDescription: "GRASP Patterns provide guidelines for assigning responsibilities to objects and classes, promoting extensibility, maintainability, and low coupling."
 type: rule
 archivedreason: 
 title: Do you look for GRASP Patterns?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Regularly checking in with clients ensures their satisfaction and happiness throughout project implementation."
 type: rule
 archivedreason: 
 title: Do you regularly check up on your clients to make sure they're happy?

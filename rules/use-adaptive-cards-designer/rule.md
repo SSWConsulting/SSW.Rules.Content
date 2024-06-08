@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Bot Framework developers can preview Adaptive Cards designs across multiple platforms using the Adaptive Cards Designer. This online tool offers real-time editing and multi-platform previews, streamlining card design and testing."
 type: rule
 title: Do you use Adaptive Cards Designer?
 uri: use-adaptive-cards-designer

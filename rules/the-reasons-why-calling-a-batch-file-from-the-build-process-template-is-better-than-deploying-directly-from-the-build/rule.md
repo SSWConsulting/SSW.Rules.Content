@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how calling a batch file from the Build Process Template outperforms deploying directly from the build, enabling you to automate deployment and streamline your development process with ease."
 type: rule
 archivedreason: 
 title: Do you know calling a Batch File from the Build Process Template is better than deploying directly from the Build?

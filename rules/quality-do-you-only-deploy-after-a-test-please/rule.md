@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure code quality by deploying only after thorough testing and receiving a "test passed" result."
 type: rule
 archivedreason: 
 title: Quality - Do you only deploy after a test please?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your text boxes by using twice the font height to display file names in their entirety."
 type: rule
 title: Do you display file name in the text box in full?
 uri: use-two-lines-height-to-display-file-name-in-the-text-box

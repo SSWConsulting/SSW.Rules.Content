@@ -1,5 +1,4 @@
 ---
-seoDescription: "Define a clear "Definition of Ready" to ensure Product Backlog Items are actionable and ready for your team's sprint planning."
 type: rule
 title: Do you have a "Definition of Ready"?
 uri: have-a-definition-of-ready

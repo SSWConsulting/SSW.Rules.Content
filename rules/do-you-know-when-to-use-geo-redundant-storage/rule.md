@@ -1,5 +1,4 @@
 ---
-seoDescription: "Azure Storage offers redundant storage options to balance safety and cost. Choose between Locally Redundant Storage (LRS), Geo-Redundant Storage (GRS), or Read Access Geo-Redundant Storage (RA-GRS) based on data importance, recovery requirements, and governance needs."
 type: rule
 title: Do you know when to use Geo Redundant Storage?
 uri: do-you-know-when-to-use-geo-redundant-storage

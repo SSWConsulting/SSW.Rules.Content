@@ -1,5 +1,4 @@
 ---
-seoDescription: "Modernize your .NET applications with the free and open-source .NET Upgrade Assistant, a global tool that helps incrementally upgrade .NET Framework-based Windows applications."
 type: rule
 title: Do you know how to modernize your .NET applications?
 guid: 1037b509-c22b-4244-84ac-0f5c709a090b

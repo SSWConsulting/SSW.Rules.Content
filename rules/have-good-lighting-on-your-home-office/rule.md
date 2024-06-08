@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setup your home office with good lighting to enhance video calls and improve overall quality."
 type: rule
 title: Setup - Do you have good lighting in your video calls?
 uri: have-good-lighting-on-your-home-office

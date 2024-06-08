@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve email organization and reduce noise by using conditional formatting to visually deprioritize emails where you're only CC'd."
 type: rule
 title: Do you use conditional formatting to visually deprioritize emails you're CC'd on?
 uri: use-conditional-formatting-to-visually-deprioritize-emails

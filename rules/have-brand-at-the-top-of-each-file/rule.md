@@ -1,5 +1,4 @@
 ---
-seoDescription: "Summary of SSW's User class to handle user preference and login information with copyright declaration."
 type: rule
 archivedreason: We don't do this anymore
 title: Comments - Do you have brand at the top of each file?

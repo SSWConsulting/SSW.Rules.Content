@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use hyperlinks to open new pages on your site instead of JavaScript, maintaining clickable links and ensuring users can access them regardless of their browser settings."
 type: rule
 archivedreason: 
 title: Do you use Hyperlinks instead of JavaScript to open pages?

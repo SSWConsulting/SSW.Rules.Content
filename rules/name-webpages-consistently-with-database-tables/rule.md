@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistent page naming aligns database-driven pages with their corresponding data tables, enhancing user experience and search engine optimization."
 type: rule
 archivedreason: 
 title: Do you name web pages to be consistent with database tables?

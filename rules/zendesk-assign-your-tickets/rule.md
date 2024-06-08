@@ -1,5 +1,4 @@
 ---
-seoDescription: "Assign Zendesk tickets to yourself before working on them to avoid duplicated work and ensure ownership."
 type: rule
 title: Do you assign yourself Zendesk tickets before working on them?
 uri: zendesk-assign-your-tickets

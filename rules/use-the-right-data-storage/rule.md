@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand the differences between databases, data warehouses, and data lakes to make informed decisions about data storage and analysis."
 type: rule
 title: Do you use the right data storage?
 uri: use-the-right-data-storage

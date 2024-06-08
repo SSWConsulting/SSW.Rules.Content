@@ -1,5 +1,4 @@
 ---
-seoDescription: "When creating NuGet packages, it's better to create few small packages rather than one large package."
 type: rule
 archivedreason: 
 title: Do you keep your nuget packages small?

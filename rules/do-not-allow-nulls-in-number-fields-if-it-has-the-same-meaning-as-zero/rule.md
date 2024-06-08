@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using NULL values where possible, especially when they can be confused with a valid zero value. Instead, set default values or use other alternatives to represent unknown or not applicable data."
 type: rule
 archivedreason: 
 title: Data - Do you not allow NULLs in number fields if it has the same meaning as zero?

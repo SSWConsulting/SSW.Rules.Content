@@ -1,5 +1,4 @@
 ---
-seoDescription: "Hand over responsibilities effectively to ensure a seamless transition and minimize disruptions during your absence."
 type: rule
 title: Do you hand over your responsibilities?
 uri: hand-over-responsibilities

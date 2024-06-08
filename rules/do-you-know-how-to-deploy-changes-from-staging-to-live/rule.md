@@ -1,5 +1,4 @@
 ---
-seoDescription: "Deploy changes from staging to live seamlessly and efficiently, merging updated files while preserving deleted ones."
 type: rule
 archivedreason: 3rd-party "how to" | Follow https://wpengine.com/support/copy-site/ for details
 title: Do you know how to deploy changes from Staging to Live?

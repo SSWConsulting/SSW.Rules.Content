@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate CRM data safely by backing up everything including operating system and databases before upgrading."
 type: rule
 archivedreason: 
 title: Do you back up everything before migration

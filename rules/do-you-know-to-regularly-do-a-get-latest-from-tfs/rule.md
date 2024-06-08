@@ -1,5 +1,4 @@
 ---
-seoDescription: "Regularly doing a "Get Latest" in TFS ensures you're working with the most recent code version, preventing inconsistencies and merging issues."
 type: rule
 archivedreason: 
 title: Do you know to regularly do a Get Latest from TFS?

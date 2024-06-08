@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover a wide range of high-quality icons from reputable sources such as Icon Finder, Metro Studio, IcoMoon, FontAwesome, and Glyphicons."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/best-libraries-for-icons](/rules/best-libraries-for-icons)
 title: Do you know where you can find some nice icons?

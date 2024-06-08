@@ -1,5 +1,4 @@
 ---
-seoDescription: "Include relevant info from attachments in the body of the email to maintain a complete conversation history."
 type: rule
 archivedreason: 
 title: Dones - Do you include relevant info from attachments in the body of the email?

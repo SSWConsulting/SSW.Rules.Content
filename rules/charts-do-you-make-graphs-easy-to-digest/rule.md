@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easy-to-digest charts and graphs that simplify complex data for your audience."
 type: rule
 archivedreason: 
 title: Charts - Do you make graphs easy to digest?
@@ -16,13 +15,16 @@ Graphs are a great way to display data in an easy to follow visual format. Some 
 
 <!--endintro-->
 
+
 ::: good  
 ![Figure: Good Example - Are your graphs simple to understand?](../../assets/Graph.jpg)  
 :::
 
+
 ::: bad  
 ![Figure: Bad Example - When there's more than four preceptual units, a graph becomes hard to digest](../../assets/badGraph.jpg)  
 :::
+
 
 ::: good  
 ![Figure: Good Example - You can split your graphs to make them easer to understand](../../assets/GoodGraph.jpg)  

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When responding to free support requests that require more than 20 minutes of work, it's essential to seek approval for billable hours."
 type: rule
 title: Do you know how to reply to free support requests that takes more than 20 minutes?
 uri: reply-to-free-support-requests

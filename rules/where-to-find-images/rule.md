@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find high-quality images for your blog by purchasing a subscription to a stock image site, using royalty-free options like Unsplash or Pxhere, utilizing Google Images labeled for reuse, creating featured images with Canva, or taking your own photos."
 type: rule
 title: Do you know where to find images for your blog?
 uri: where-to-find-images

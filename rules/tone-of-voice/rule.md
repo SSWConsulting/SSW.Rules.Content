@@ -1,5 +1,4 @@
 ---
-seoDescription: "Develop a tone of voice that resonates with your audience by understanding their demographics, psychographics, and preferred channels. Adopt a voice that aligns with your product or brand's personality to create a consistent user experience across all digital spaces."
 type: rule
 archivedreason: 
 title: Do you use an appropriate and consistent tone of voice?

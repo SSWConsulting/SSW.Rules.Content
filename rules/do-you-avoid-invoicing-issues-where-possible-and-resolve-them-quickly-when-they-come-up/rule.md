@@ -1,5 +1,4 @@
 ---
-seoDescription: "Resolve invoicing issues promptly and avoid them whenever possible to ensure client satisfaction and minimize payment disputes."
 type: rule
 archivedreason: 
 title: Do you avoid invoicing issues where possible and resolve them quickly when they come up?

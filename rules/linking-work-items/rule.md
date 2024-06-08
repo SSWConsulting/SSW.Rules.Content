@@ -1,5 +1,4 @@
 ---
-seoDescription: "Azure DevOps links related and duplicate work items to streamline workflows and reduce duplicated efforts."
 type: rule
 title: Do you link related and duplicated Work Items?
 uri: linking-work-items

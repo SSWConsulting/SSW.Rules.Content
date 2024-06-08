@@ -1,5 +1,4 @@
 ---
-seoDescription: "Install DPM best practices include using Windows Server 2012 R2 to avoid ReFS file structure issues and ensure efficient backups."
 type: rule
 archivedreason: 
 title: Do you know the best way to install DPM?

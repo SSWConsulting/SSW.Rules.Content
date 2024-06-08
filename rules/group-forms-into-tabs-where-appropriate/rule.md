@@ -1,5 +1,4 @@
 ---
-seoDescription: "Organize data entry with intuitive tabs, streamlining user experience and simplifying complex forms."
 type: rule
 archivedreason: 
 title: Do you group forms into tabs where appropriate?

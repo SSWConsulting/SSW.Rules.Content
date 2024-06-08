@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover when to create bugs during a Scrum Sprint, including guidelines for in-Sprint and out-of-Sprint bugs, and ensure your team achieves its goals while maintaining quality."
 type: rule
 title: During a Sprint - Do you know when to create bugs?
 uri: during-a-sprint-do-you-know-when-to-create-bugs

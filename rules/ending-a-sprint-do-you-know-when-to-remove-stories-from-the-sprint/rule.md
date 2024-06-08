@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to remove PBIs from a sprint: Identify and prioritize or reject unfinished tasks in your backlog."
 type: rule
 archivedreason: 
 title: Ending a Sprint - Do you know when to remove PBIs from the Sprint?

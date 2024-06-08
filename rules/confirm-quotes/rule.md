@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure quote accuracy by confirming that it includes all specified requirements and details."
 type: rule
 title: Do you confirm a quote includes what you have actually asked for?
 uri: confirm-quotes

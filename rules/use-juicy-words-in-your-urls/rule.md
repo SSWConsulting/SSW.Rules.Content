@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find the version of the Word Document and optimize your workflow with Northwind's step-by-step guide."
 type: rule
 archivedreason: Replaced by https://ssw.com.au/rules/create-friendly-short-urls and https://ssw.com.au/rules/relevant-words-on-links 
 title: Do you keep only the "juicy words" in your URLs?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a standardized grid to display tabular information and enhance data manipulation capabilities with sorting, filtering, and pagination features."
 type: rule
 title: Do you use a grid to display tabular information?
 uri: do-you-use-a-grid-to-display-tabular-information

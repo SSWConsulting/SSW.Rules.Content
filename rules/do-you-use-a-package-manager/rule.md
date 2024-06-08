@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a package manager like Chocolatey, Winget, or Homebrew to streamline software installation and management on Windows, macOS, and Linux."
 type: rule
 title: Do you use a package manager?
 uri: do-you-use-a-package-manager

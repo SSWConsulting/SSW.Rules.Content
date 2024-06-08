@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best screenshot tools to enhance your productivity and communication!"
 type: rule
 title: Do you know the best screenshot tools?
 uri: screenshots-tools

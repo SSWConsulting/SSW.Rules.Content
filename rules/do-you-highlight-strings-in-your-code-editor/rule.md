@@ -1,5 +1,4 @@
 ---
-seoDescription: "Highlighting string variables or constants in Visual Studio code editors helps developers quickly locate and distinguish strings from other code elements."
 type: rule
 archivedreason: 
 title: Do you highlight strings in your code editor?

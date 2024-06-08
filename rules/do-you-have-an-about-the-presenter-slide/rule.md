@@ -1,5 +1,4 @@
 ---
-seoDescription: "As a seasoned presenter and expert in my field, I'm Adam Cogan, Co-Founder of SSW. With over [number] years of experience helping businesses grow through innovative solutions, I'll share insights on how to [briefly mention the topic]."
 type: rule
 title: Do you have an 'About the Presenter' slide?
 uri: do-you-have-an-about-the-presenter-slide

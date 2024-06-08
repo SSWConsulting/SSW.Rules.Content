@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover why a corporate blog is essential for your business, driving traffic to your website, increasing SEO, and establishing your brand as an industry leader."
 type: rule
 title: Content - Do you know why you should have a blog for your company?
 uri: why-you-should-have-a-blog-for-your-company

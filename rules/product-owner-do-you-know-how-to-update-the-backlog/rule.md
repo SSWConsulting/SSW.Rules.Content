@@ -1,5 +1,4 @@
 ---
-seoDescription: "The role of a Product Owner involves prioritizing and managing the product backlog, ensuring alignment with business goals."
 type: rule
 archivedreason: 
 title: Product Owner - Do you know how to build/update the backlog?

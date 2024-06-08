@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the maximum row size for a table and ensure accurate data entry forms with SQL Server's data page size limitations."
 type: rule
 archivedreason: Duplicate of [https://ssw.com.au/rules/only-use-unicode-datatypes-in-special-circumstances](/rules/only-use-unicode-datatypes-in-special-circumstances)
 title: Schema - Do you know the maximum row size for a table?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Establish the world and set the stage for your audience by using drone footage to showcase the location and create a lasting impression."
 type: rule
 title: Do you establish the world for your audience?
 uri: establish-the-world

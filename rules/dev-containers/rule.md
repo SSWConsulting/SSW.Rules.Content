@@ -1,5 +1,4 @@
 ---
-seoDescription: "Developers can now achieve consistent and isolated dev environments using Dev Containers from Microsoft, eliminating the "works on my machine" problem."
 type: rule
 title: Project setup - Do you containerize your dev environment?
 uri: dev-containers

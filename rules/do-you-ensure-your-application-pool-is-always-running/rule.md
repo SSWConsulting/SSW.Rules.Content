@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your application pool always runs to avoid slow load times and recycles after idle time."
 type: rule
 title: Do you ensure your application pool is always running?
 uri: do-you-ensure-your-application-pool-is-always-running

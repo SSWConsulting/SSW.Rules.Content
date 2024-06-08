@@ -1,5 +1,4 @@
 ---
-seoDescription: "By remembering previous selections, you can enhance user experience and increase efficiency."
 type: rule
 archivedreason: 
 title: Do you save the last user's selections?

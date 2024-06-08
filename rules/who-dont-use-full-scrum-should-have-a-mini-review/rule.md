@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure client projects without full Scrum process have a "Mini-Review" to maintain project visibility and tracking, with focus on backlog management and task prioritization."
 type: rule
 archivedreason: 
 title: Do you ensure your client projects who don't use full Scrum, at least have a "Mini-Review"?

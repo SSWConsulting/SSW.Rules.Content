@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automated test failures can be a valuable indicator of problems in your codebase, but tolerating them or skipping them can lead to wasted investment and ignored results."
 type: rule
 title: Do you understand the dangers of tolerating automated test failures?
 uri: dangers-of-tolerating-test-failures

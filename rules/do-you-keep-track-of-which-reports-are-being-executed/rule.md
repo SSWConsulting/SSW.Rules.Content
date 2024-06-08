@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get maximum logging in Report Server by adjusting retention days and tracking report execution with SQL scripts."
 type: rule
 archivedreason: 
 title: Do you know how to get maximum logging in Report Server?

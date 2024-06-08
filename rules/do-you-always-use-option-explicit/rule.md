@@ -1,5 +1,4 @@
 ---
-seoDescription: "Utilize Option Explicit to prevent runtime errors and boost VB.NET development efficiency!"
 type: rule
 archivedreason: 
 title: Do you always use Option Explicit?

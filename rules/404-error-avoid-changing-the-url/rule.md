@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do not change the URL on a 404 error, keep the original URL intact to enable easy corrections for users."
 type: rule
 archivedreason: 
 title: Do you avoid changing the URL on a 404 error?

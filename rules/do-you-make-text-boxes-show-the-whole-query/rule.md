@@ -1,5 +1,4 @@
 ---
-seoDescription: "Text areas should expand to display entire queries, enabling users to easily view and edit large amounts of text."
 type: rule
 archivedreason: 
 title: Do you make text boxes show the whole query?

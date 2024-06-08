@@ -1,5 +1,4 @@
 ---
-seoDescription: "When deleting content, take a safety step by pasting it into an email thread and inform others to ensure easy recovery."
 type: rule
 title: Do you take a safety step before you delete content?
 uri: safety-step-when-deleting-content

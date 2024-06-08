@@ -1,5 +1,4 @@
 ---
-seoDescription: "Foster a culture of relentless improvement to drive innovation and efficiency in your organization, leading to long-term success."
 type: rule
 title: Do you foster a culture of relentless improvement?
 uri: foster-a-culture-of-relentless-improvement

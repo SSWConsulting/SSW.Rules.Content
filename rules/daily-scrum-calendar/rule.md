@@ -1,5 +1,4 @@
 ---
-seoDescription: "Centralized calendar simplifies finding Daily Scrum meetings across your company."
 type: rule
 title: Calendar - Do you use a centralized Daily Scrum calendar?
 uri: daily-scrum-calendar

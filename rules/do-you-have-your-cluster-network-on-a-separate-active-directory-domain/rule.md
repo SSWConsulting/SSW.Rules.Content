@@ -1,5 +1,4 @@
 ---
-seoDescription: "Protect your Hyper-V clustering and ensure seamless communication by setting up a separate Active Directory domain with trust between the two."
 type: rule
 archivedreason: 
 title: Do you have your cluster network on a separate Active Directory domain?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Giving informative phone messages to colleagues and clients efficiently with clear subject lines and essential details such as caller name, time, and contact information."
 type: rule
 archivedreason: 
 title: Do you give informative messages?

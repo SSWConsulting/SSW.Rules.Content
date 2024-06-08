@@ -1,5 +1,4 @@
 ---
-seoDescription: "Redesigning a logo without changing its core concept ensures brand recognition and customer loyalty."
 type: rule
 archivedreason: 
 title: Do you keep the same main concept when redesigning a logo?

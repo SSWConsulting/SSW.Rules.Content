@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remove unnecessary SQL Server permissions to ensure secure and efficient database operations."
 type: rule
 archivedreason: 
 title: DBAs - Do you remove unnecessary permissions on databases?

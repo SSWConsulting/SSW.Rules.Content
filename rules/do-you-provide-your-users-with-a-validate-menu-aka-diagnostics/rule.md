@@ -1,5 +1,4 @@
 ---
-seoDescription: "Provide users with a Validate Menu (Diagnostics) to ensure website integrity and troubleshoot issues."
 type: rule
 archivedreason: Deprecated
 title: Do you provide your users with a Validate Menu (aka Diagnostics)?

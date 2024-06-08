@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reinforce your marketing profile by using your waiting area to showcase your company's features and services."
 type: rule
 title: Do you have a waiting area that reinforces your marketing profile?
 uri: do-you-have-a-waiting-area-that-reinforces-your-marketing-profile

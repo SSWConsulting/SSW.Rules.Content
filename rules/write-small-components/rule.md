@@ -1,5 +1,4 @@
 ---
-seoDescription: "Practicing small, modular and reusable components enhances code maintainability, testability and reusability."
 type: rule
 title: Practices - Do you write small components?
 uri: write-small-components

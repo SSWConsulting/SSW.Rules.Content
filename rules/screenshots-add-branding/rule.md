@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add branding to screenshots by defining a standard style using visual elements like balloons, arrows, and shapes that match your company's colors and design."
 type: rule
 title: Do you add branding to screenshots?
 uri: screenshots-add-branding

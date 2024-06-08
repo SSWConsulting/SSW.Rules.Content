@@ -1,5 +1,4 @@
 ---
-seoDescription: "Disabling insecure protocols on public-facing servers enhances security and protects against potential attacks."
 type: rule
 title: Do you disable insecure protocols?
 uri: do-you-disable-insecure-protocols

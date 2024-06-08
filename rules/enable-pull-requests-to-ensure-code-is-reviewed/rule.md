@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enable pull requests to ensure code is reviewed and validated by multiple developers, promoting accountability, accuracy, and maintainability."
 type: rule
 archivedreason: 
 title: Do you enable pull requests to ensure code is reviewed?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline project onboarding by providing a centralized portal for your team and clients, featuring essential information, tools, and links to ensure new developers get started quickly."
 type: rule
 archivedreason: 
 title: Do you use a Project Portal for your team and client?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Firefox's built-in Windows Integrated Authentication feature to automatically log in to SharePoint or CRM without re-authenticating."
 type: rule
 archivedreason: Outdated
 title: Do you know how to use Windows Integrated Authentication in Firefox?

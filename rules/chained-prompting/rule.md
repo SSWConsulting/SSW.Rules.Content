@@ -1,5 +1,4 @@
 ---
-seoDescription: "Guide conversations through a series of questions or tasks using chained prompting, yielding comprehensive and interconnected responses."
 type: rule
 title: Do you use chained prompting?
 uri: chained-prompting

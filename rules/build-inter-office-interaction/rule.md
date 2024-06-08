@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve global collaboration and communication between offices across time zones or countries through team-building activities, employee exchange programs, mentoring, and cultural events."
 type: rule
 title: Do you build inter-office interaction?
 uri: build-inter-office-interaction

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enable seamless unsubscribe via Microsoft Dynamics Marketing's foolproof subscription centre, ensuring accurate email address removal and configurable bounce management for effective mail-outs."
 type: rule
 archivedreason: 
 title: Do you enable unsubscribe via a foolproof subscription centre?

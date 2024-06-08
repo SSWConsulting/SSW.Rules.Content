@@ -1,5 +1,4 @@
 ---
-seoDescription: "Failed Sprint resolution requires rolling back source code and re-adding stories to the Product Backlog."
 type: rule
 archivedreason: 
 title: Ending a Sprint - Do you know what to do when your Sprint fails?

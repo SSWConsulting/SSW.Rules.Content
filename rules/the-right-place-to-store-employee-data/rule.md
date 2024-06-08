@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the right place to store employee data and create a single source of truth with Microsoft Office 365 products, Dynamics 365, or Salesforce."
 type: rule
 archivedreason: 
 title: Do you know the right place to store Employee Data?

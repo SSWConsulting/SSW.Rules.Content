@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add new records to a large Microsoft Access table efficiently by using ADO's AddNew method or SQL INSERT statement for improved performance and data conflict protection."
 type: rule
 archivedreason: 
 title: Microsoft Access - Do you know the fastest way to add a new record in a large table?

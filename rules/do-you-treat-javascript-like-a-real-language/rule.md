@@ -1,5 +1,4 @@
 ---
-seoDescription: "Treat JavaScript like a real language by structuring code into modular files and following coding standards."
 type: rule
 archivedreason: 
 title: Do you treat JavaScript like a real language?

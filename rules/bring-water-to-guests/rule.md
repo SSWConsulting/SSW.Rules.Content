@@ -1,5 +1,4 @@
 ---
-seoDescription: "When hosting guests at SSW, bringing water is a thoughtful gesture that sets the tone for a refreshing and hassle-free experience."
 type: rule
 title: Do you bring water to your guests?
 uri: bring-water-to-guests

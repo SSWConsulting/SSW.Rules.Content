@@ -1,5 +1,4 @@
 ---
-seoDescription: "Test a responsive website's layout and usability on various devices using Chrome DevTools' Device Mode and Mobile Emulation features."
 type: rule
 archivedreason: 
 title: Do you use Chrome DevTools Device Mode to design and test your mobile views?

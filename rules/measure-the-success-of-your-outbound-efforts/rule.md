@@ -1,5 +1,4 @@
 ---
-seoDescription: "Measure the success of your outbound efforts and optimize your strategy with data-driven insights."
 type: rule
 archivedreason: 
 title: Do you measure the success of your outbound efforts?

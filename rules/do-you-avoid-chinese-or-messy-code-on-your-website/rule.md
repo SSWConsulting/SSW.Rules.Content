@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid coding mistakes by checking code auditor and link auditor before check-in, ensuring a clean and readable website."
 type: rule
 archivedreason: 
 title: Do you avoid Chinese or messy code on your website?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Compress PowerPoint files from 26MB to 13MB by removing video from master slide, compressing images and font, and saving as a new file."
 type: rule
 title: Do you know how to compress your PowerPoint, e.g. from 26MB to 13MB?
 uri: do-you-know-how-to-compress-your-powerpoint

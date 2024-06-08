@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get work items into Azure DevOps via Excel with our step-by-step guide, including project management tasks and customizable columns."
 type: rule
 title: Do you get the work items into Azure DevOps via Excel?
 uri: get-work-items-via-excel

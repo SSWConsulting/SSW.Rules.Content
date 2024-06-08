@@ -1,5 +1,4 @@
 ---
-seoDescription: "Developers should focus on writing clean code, not compromising the website's design and user experience."
 type: rule
 archivedreason: 
 title: Do you keep developers away from anything related to design or look and feel?

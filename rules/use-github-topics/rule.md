@@ -1,5 +1,4 @@
 ---
-seoDescription: "GitHub Topics enable discoverability of repositories through free text tags, increasing visibility and searchability for both bots and humans."
 type: rule
 archivedreason: 
 title: Do you use GitHub Topics?

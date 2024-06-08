@@ -1,5 +1,4 @@
 ---
-seoDescription: "When writing instructions for a series of operations, it's crucial to maintain the correct order to prevent user confusion."
 type: rule
 archivedreason: Merged to https://ssw.com.au/rules/use-correct-symbols-when-documenting-instructions/ 
 title: Reference - Do you use the right order of instructions?

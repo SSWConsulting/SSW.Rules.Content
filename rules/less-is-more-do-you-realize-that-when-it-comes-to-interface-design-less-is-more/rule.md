@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here's a generated SEO description: "Optimize user interface design with simplicity and clarity to provide an intuitive experience for users, improving overall application usability and reducing support calls.""
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/less-is-more](/rules/less-is-more)
 title: Windows Forms - Do you realize that when it comes to interfaces 'less is more'?

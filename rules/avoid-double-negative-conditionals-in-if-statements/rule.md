@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid Double-Negative Conditionals in if-statements by using single positive conditions and simplify your code."
 type: rule
 archivedreason: 
 title: Do you avoid Double-Negative Conditionals in if-statements?
@@ -19,6 +18,8 @@ Try to avoid Double-Negative Conditionals in if-statements. Double negative cond
 
 <!--endintro-->
 
+
+
 ```cs
 if (!IsValid)
 {
@@ -30,10 +31,17 @@ else
 }
 ```
 
+
+
+
+
+
 ::: bad
 Figure: Bad example
 
 :::
+
+
 
 ```cs
 if (IsValid)
@@ -46,10 +54,17 @@ else
 }
 ```
 
+
+
+
+
+
 ::: good
 Figure: Good example
 
 :::
+
+
 
 ```cs
 if (!IsValid)
@@ -58,18 +73,24 @@ if (!IsValid)
 }
 ```
 
+
+
+
 ::: good
 Figure: Another good example
 :::
 
-Use pattern matching for boolean evaluations to make your code even more readable!
 
+Use pattern matching for boolean evaluations to make your code even more readable!
 ```cs
 if (IsValid is false)
 {
        // handle error
 }
 ```
+
+
+
 
 ::: good
 Figure: Even better

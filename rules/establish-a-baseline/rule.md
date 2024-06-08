@@ -1,5 +1,4 @@
 ---
-seoDescription: "Establish a baseline measurement before optimizing performance to quantify process improvements and ensure apples-to-apples comparisons."
 type: rule
 archivedreason: archived as duplicate
 title: Do you establish a baseline?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When creating a SharePoint Modern page, use the Rich Text editor over Markdown to ensure a detailed version history and ease of editing."
 type: rule
 title: Do you know why to use the Rich text editor over the Markdown editor?
 uri: sharepoint-rich-text-markdown

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover Kent Beck's philosophy on Test Driven Development and improve your coding skills by writing clean code, refactoring small changes, and adding tests first."
 type: rule
 archivedreason: 
 title: Do you use the Kent Beck philosophy?

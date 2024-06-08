@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft recommends using specific icons to convey message severity and importance, including Information, Warning, and Error symbols."
 type: rule
 archivedreason: 
 title: Messages - Do you know what icons to use? (3/3 Icons)

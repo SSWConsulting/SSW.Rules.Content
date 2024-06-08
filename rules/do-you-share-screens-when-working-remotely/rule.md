@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost remote collaboration by sharing screens when discussing document changes or software updates with colleagues or clients."
 type: rule
 archivedreason: 
 title: Do you share screens when working remotely?

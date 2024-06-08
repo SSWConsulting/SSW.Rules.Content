@@ -1,5 +1,4 @@
 ---
-seoDescription: "Save and organize your work by using drafts, just like Google Mail, ensuring seamless continuity upon log back on."
 type: rule
 archivedreason: 
 title: Do you use the concept of drafts?

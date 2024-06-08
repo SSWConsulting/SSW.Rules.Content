@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve code readability by suffixing unit test classes with "Tests"."
 type: rule
 title: Do you suffix unit test classes with "Tests"?
 uri: suffix-unit-test-classes-with-tests

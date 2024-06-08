@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your website's lead generation with OptinMonster, a feature-rich platform for creating gated content and pop-up forms."
 type: rule
 archivedreason: 
 title: Do you use OptinMonster for your content downloads?

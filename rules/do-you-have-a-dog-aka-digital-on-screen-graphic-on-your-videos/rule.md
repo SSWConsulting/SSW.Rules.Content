@@ -1,5 +1,4 @@
 ---
-seoDescription: "Digital on-screen graphics (DOGs) enhance video recognition and branding, ensuring instant professional identity and consistent visual presence."
 type: rule
 archivedreason: 
 title: Post-Production - Do you have digital on-screen graphics (aka DOG) on your videos?

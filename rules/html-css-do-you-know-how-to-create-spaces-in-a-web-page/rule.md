@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to create spaces in a web page using CSS and avoid using outdated methods like `<br />` or ASCII character codes."
 type: rule
 archivedreason: 
 title: HTML/CSS - Do you know how to create spaces in a web page?

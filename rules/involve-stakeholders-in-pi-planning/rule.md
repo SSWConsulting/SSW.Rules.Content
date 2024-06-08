@@ -1,5 +1,4 @@
 ---
-seoDescription: "Involving business stakeholders in Program Increment (PI) planning ensures alignment with business objectives and fosters informed decision-making."
 type: rule
 title: Do you involve business stakeholders in Program Increment (PI) planning?
 uri: involve-stakeholders-in-pi-planning

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clear task descriptions in Scrum ensure anyone can complete tasks by providing detailed information, using rich text and images, and attaching relevant emails."
 type: rule
 title: Tasks - Do you know to use clear task descriptions?
 uri: tasks-do-you-know-to-use-clear-task-descriptions

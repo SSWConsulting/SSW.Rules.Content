@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enhance email references in Microsoft Teams chats by using text formatting to mention subjects."
 type: rule
 archivedreason: the content of this rule has been moved to the rule [make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email](/rules/make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email)
 title: Do you use text formatting to mention email subjects?

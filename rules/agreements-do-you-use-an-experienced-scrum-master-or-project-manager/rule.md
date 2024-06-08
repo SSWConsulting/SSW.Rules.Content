@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use an experienced Scrum Master or Project Manager to streamline your software development project and ensure timely delivery."
 type: rule
 archivedreason: 
 title: Agreements - Do you use an experienced Scrum Master (or Project Manager)?
@@ -18,7 +17,7 @@ redirects:
 Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians, and plumbers to just work it out between themselves. The house does get built if the foreman is keeping everyone on their toes, making sure they are doing their job.
 
 `youtube: https://www.youtube.com/embed/QbPkcfzi2HI`
-
+ 
 Software teams often come with a Project Manager. You can do better than that by getting a Scrum Master.
 
 <!--endintro-->

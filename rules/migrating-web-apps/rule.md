@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrating web apps to .NET and leveraging YARP's configuration and Upgrade Assistant for a seamless transition."
 type: rule
 title: Migrating Web Apps to .NET
 uri: migrating-web-apps-to-dotnet

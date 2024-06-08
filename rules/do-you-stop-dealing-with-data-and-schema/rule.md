@@ -1,5 +1,4 @@
 ---
-seoDescription: "Plan ahead and manage your Data and Schema effectively to avoid costly changes and ensure smooth project deployment."
 type: rule
 archivedreason: 
 title: Do you stop dealing with Data and Schema?

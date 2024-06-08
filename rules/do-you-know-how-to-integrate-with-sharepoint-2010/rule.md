@@ -1,5 +1,4 @@
 ---
-seoDescription: "Integrate Microsoft TFS 2010 seamlessly with SharePoint 2010 using custom configuration wizards and discover a more efficient collaboration experience."
 type: rule
 archivedreason: 
 title: Do you know how to integrate with SharePoint 2010?

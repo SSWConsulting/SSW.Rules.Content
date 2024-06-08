@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure test case environments in Azure Test Plans by selecting "Assign Configuration" and choosing required settings to define which environments to use."
 type: rule
 title: Do you know how to configure which environments to use for a particular test?
 uri: do-you-know-how-to-configure-which-environments-to-use-for-a-particular-test

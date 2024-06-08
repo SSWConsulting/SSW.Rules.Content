@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enforce strong password security policies based on NIST and ACSC recommendations to protect your digital identity."
 type: rule
 title: Security - Do you have a strict password security policy?
 uri: have-a-strict-password-security-policy

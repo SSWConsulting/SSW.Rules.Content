@@ -1,5 +1,4 @@
 ---
-seoDescription: "Sample databases from [Company] and products, such as Northwind, should have good naming conventions to help users easily identify their purpose."
 type: rule
 archivedreason: 
 title: Sample - Do your sample databases have good Naming Conventions?

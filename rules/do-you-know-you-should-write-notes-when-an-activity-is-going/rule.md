@@ -1,5 +1,4 @@
 ---
-seoDescription: "Write notes during activities to ensure effective communication and task management with clients."
 type: rule
 archivedreason: 
 title: Do you know you should write notes when an activity is going?

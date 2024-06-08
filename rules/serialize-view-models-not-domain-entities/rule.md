@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you serialize view models (aka DTOs) not domain entities when building a simple API based on Entity Framework?"
 type: rule
 archivedreason: 
 title: Do You Serialize View Models (aka DTOs), not Domain Entities?

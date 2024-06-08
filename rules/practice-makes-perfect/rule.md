@@ -1,5 +1,4 @@
 ---
-seoDescription: "Practice makes perfect! Master your presentation skills by rehearsing and refining your speech through five steps. Record yourself, conduct an audio and visual audit, generate a transcript, identify filler words, and refine your delivery to deliver a flawless presentation."
 type: rule
 title: Do you know practice makes perfect?
 uri: practice-makes-perfect

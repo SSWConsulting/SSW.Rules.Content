@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prevent unnecessary login prompts by linking to default pages instead of the sign-in page, allowing users to seamlessly access protected content if already logged in."
 type: rule
 archivedreason: 
 title: Do you avoid linking users to the sign in page directly?

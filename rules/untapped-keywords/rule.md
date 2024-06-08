@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use untapped keywords to boost your YouTube video's visibility?"
 type: rule
 archivedreason: 
 title: Do you use untapped keywords?

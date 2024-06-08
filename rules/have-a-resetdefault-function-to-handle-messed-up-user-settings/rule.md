@@ -1,5 +1,4 @@
 ---
-seoDescription: "Resetting user settings to default values ensures a consistent application experience, even when debug configurations don't match production environments."
 type: rule
 title: Do you have a ResetDefault() function to handle messed up user settings?
 uri: have-a-resetdefault-function-to-handle-messed-up-user-settings

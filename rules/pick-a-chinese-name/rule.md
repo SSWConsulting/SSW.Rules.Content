@@ -1,5 +1,4 @@
 ---
-seoDescription: "When entering China's market, consider picking a Chinese name that resonates with local audiences, either by mirroring sounds or meanings."
 type: rule
 archivedreason: 
 title: Do you pick a Chinese name?

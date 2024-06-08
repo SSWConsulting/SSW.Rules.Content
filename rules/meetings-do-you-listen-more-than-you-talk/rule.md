@@ -1,5 +1,4 @@
 ---
-seoDescription: "Meetings with clients thrive when you listen more than you talk, aiming for a 70% to 30% ratio. By probing and responding, you build strong relationships and meet client needs."
 type: rule
 title: Meetings - Do you listen more than you talk?
 uri: meetings-do-you-listen-more-than-you-talk

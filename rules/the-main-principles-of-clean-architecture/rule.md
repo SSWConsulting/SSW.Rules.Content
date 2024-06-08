@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clean Architecture: Separating Concerns and Building a Lasting System Discover how Clean Architecture enables teams to build systems that can be easily extended and maintained, without micromanagement. Learn about its principles, layers, and benefits."
 type: rule
 archivedreason: 
 title: Clean Architecture - Do you know the main principles?

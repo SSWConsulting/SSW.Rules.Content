@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid logging out and logging back in to different client accounts by using Microsoft Edge or Google Chrome profiles."
 type: rule
 title: Do you avoid logging out and logging in?
 uri: use-browser-profiles

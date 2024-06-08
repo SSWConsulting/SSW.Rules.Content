@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using magic strings when referencing property and variable names, instead use nameof() operator to keep your code concise and maintainable."
 type: rule
 archivedreason: 
 title: Do you avoid using magic string when referencing property/variable names
@@ -29,6 +28,7 @@ Hard coded strings when referencing property and variable names can be problemat
 Figure: Bad Example - Hardcoding a reference to a property
 
 :::
+
 
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));

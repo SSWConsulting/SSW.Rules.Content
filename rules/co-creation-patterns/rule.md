@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to streamline code reviews and boost development efficiency by using Co-Creation Patterns, a game-changing approach that combines pair programming and mob programming techniques."
 type: rule
 title: Do you use Co-Creation Patterns?
 uri: co-creation-patterns

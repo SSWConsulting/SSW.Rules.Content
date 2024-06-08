@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint 2007 pre-migration check ensures a smooth transition to SharePoint 2010 by identifying potential issues and eliminating unnecessary site collections or content sources."
 type: rule
 archivedreason: 
 title: Do you do a pre-migration check on the SharePoint 2007 Server

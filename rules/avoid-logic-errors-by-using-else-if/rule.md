@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid logic errors by using Else If statements to handle unexpected values and provide a clear indication of incorrect inputs."
 type: rule
 archivedreason: 
 title: Do you avoid logic errors by using Else If?
@@ -21,6 +20,8 @@ We see a lot of programmers doing this, they have two conditions - true and fals
 
 In the example the only expected values are "Development" and "Production".
 
+
+
 ```cs
 void Load(string environment)
 {
@@ -30,10 +31,13 @@ void Load(string environment)
   }
   else
   {
-    // set Production environment variables 
+    // set Production environment variables	
   }
 }
 ```
+
+
+
 
 ::: bad
 Figure: Bad example with If statement  
@@ -45,6 +49,8 @@ By using the above code, the wrong code will run because the above code assumes 
 
 Now the code will throw an exception if an unexpected value is provided.
 
+
+
 ```cs
 void Load(string environment)
 {
@@ -54,7 +60,7 @@ void Load(string environment)
   }
   else if (environment == "Production")
   {
-    // set Production environment variables 
+    // set Production environment variables	
   }
   else
   {
@@ -62,6 +68,9 @@ void Load(string environment)
   }
 }
 ```
+
+
+
 
 ::: good
 Figure: Good example with If statement

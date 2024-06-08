@@ -1,5 +1,4 @@
 ---
-seoDescription: "Design patterns separate complexity into manageable components, improving application maintainability and scalability."
 type: rule
 archivedreason: 
 title: Do you know the common Design Patterns?

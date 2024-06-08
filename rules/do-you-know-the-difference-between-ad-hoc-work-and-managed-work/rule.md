@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know the difference between Ad-hoc Work and Managed Work? Learn how to manage tasks effectively on a Time and Materials basis with Scrum Master or Project Manager."
 type: rule
 title: Do you know the difference between Ad-hoc Work and Managed Work?
 uri: do-you-know-the-difference-between-ad-hoc-work-and-managed-work

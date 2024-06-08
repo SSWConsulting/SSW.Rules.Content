@@ -1,5 +1,4 @@
 ---
-seoDescription: "When deadlines are tight, do you give 120% to deliver exceptional results and exceed client expectations?"
 type: rule
 archivedreason: 
 title: Quality - Do you give 120% when deadlines are tight?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage appointments efficiently in Microsoft Teams and Outlook by creating, joining, editing, and leaving meetings easily."
 type: rule
 title: Appointments - Do you make your Teams meetings easy to find?
 uri: do-you-make-your-team-meetings-easy-to-find

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your notebook's performance by using suspend mode to quickly resume work after a pause."
 type: rule
 archivedreason: 
 title: Do you use suspend on your notebook?

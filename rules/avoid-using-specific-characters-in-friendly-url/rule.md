@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using specific characters like +, :, #, &, ,), (!, }, {, @, /, =, $ and others in friendly URLs to ensure they are readable, memorable and safe."
 type: rule
 archivedreason: 
 title: Do you avoid using specific characters in friendly URL?

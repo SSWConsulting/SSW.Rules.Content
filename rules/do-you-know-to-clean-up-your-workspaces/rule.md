@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clean up your workspaces to avoid unnecessary TFS checks and ensure you don't miss important files."
 type: rule
 archivedreason: 
 title: Do you know to clean up your workspaces?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve your company's profile with high-quality and consistent employee photos that provide a human connection element."
 type: rule
 title: Do you take great profile photos?
 uri: profile-photos

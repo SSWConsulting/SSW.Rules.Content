@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your JavaScript code with Lodash wisely and efficiently to streamline array manipulation, object iteration, and more."
 type: rule
 title: Do you optimise your JavaScript code with Lodash wisely and efficiently?
 uri: optimise-js-with-lodash

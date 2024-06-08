@@ -1,5 +1,4 @@
 ---
-seoDescription: "Meet color contrast requirements to ensure your website's text and images are readable by everyone, including those with visual impairments."
 type: rule
 archivedreason: 
 title: Do you meet color contrast requirements for accessibility?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid sending unnecessary emails to keep your recipient's inbox organized and focused on important messages."
 type: rule
 archivedreason: 
 title: Do you avoid sending unnecessary emails?

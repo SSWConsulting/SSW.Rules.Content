@@ -1,5 +1,4 @@
 ---
-seoDescription: "Employers have right to monitor email and web browsing logs, so maintain professional boundaries in work communications."
 type: rule
 archivedreason: 
 title: Do you remember that emails aren't your property?

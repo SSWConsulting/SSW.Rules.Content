@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know the daily process to improve the health of your web application? Learn how to handle errors and bugs using just-in-time bug processing with Application Insights."
 type: rule
 archivedreason: 
 title: Errors – Do you know the daily process to improve the health of your web application?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Save Power BI reports securely and share with teams using group workspaces or shared accounts for alias emails."
 type: rule
 archivedreason: 
 title: Do you know where to save reports?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Storing your contacts in one place and syncing them across devices helps keep your contact information organized and easily accessible."
 type: rule
 title: Do you know where to store your contacts?
 uri: storing-contacts

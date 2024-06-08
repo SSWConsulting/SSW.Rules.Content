@@ -1,5 +1,4 @@
 ---
-seoDescription: "Refresh your TFS Warehouse manually to ensure up-to-date reports and status meetings with the latest data."
 type: rule
 archivedreason: 
 title: Do you know how to refresh the Cube?

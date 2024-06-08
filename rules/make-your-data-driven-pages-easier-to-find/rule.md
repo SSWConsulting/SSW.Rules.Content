@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you make your data-driven pages easier to find by providing a single point of reference for Google bots and using tools like sitemaps?"
 type: rule
 archivedreason: 
 title: Do you make your data-driven pages easier to find?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Customize Microsoft Dynamics CRM 4 backup files with a naming convention to track changes, including incremental numbers, entity types and dates."
 type: rule
 archivedreason: 
 title: Customization - Do you have a naming convention for your customization back up? (CRM 4 only)

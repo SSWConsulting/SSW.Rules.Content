@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure easy access to contact details on every page of your website, making it simple for visitors to find what they need."
 type: rule
 archivedreason: 
 title: Do you ensure that your contact details are easy to find?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Share the hashtag of your topic with your audience to increase social media exposure and facilitate searchability."
 type: rule
 archivedreason: 
 title: Do you tell the hashtag of your you topic to your audience?

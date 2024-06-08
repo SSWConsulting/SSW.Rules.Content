@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you warn someone before calling them? A warm call can be a game-changer, prioritizing their attention and ensuring they're prepared to discuss important topics."
 type: rule
 title: Calling - Do you warn then call?
 uri: warn-then-call

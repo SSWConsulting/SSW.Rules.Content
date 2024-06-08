@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using "inherit" value of style.display to ensure compatibility with IE7 and prevent script errors. Instead, use a specific display property like "block"."
 type: rule
 title: Do you avoid using "inherit" value of style.display?
 uri: do-you-avoid-using-inherit-value-of-style-display

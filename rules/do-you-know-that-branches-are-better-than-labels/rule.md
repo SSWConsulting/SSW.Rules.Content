@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how branches can provide a more reliable and immutable versioning system compared to labels, ensuring absolute certainty of changes and making it easier to track and manage source code."
 type: rule
 archivedreason: 
 title: Do you know that branches are better than Labels?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to set up a GitHub Scrum workflow and streamline your agile development process with ease."
 type: rule
 archivedreason:
 title: Do you know to set up GitHub Scrum workflow?

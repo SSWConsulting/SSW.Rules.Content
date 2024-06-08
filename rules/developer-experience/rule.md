@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a seamless developer experience by providing clear project setup instructions, including "Get Latest" and compilation steps, to enable efficient development and debugging."
 type: rule
 archivedreason: 
 title: Project setup - Do you know the importance of the initial developer experience?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Measure success using Lean-Agile metrics to drive data-driven decisions, ensure alignment with business goals, and foster a culture of accountability within Agile teams."
 type: rule
 title: Do you measure success using Lean-Agile metrics?
 uri: measure-success-using-lean-agile-metrics

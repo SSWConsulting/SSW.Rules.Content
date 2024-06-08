@@ -1,5 +1,4 @@
 ---
-seoDescription: "Properly using voting options allows teams to make informed decisions and provides a voice for all members, fostering collaboration and consensus."
 type: rule
 archivedreason: 
 title: Do you use the voting option appropriately?

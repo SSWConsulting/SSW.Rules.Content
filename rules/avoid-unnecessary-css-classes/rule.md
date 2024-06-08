@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid unnecessary CSS classes and reuse existing ones to keep your code clean and maintainable."
 type: rule
 title: Do you avoid adding unnecessary CSS classes?
 uri: avoid-unnecessary-css-classes

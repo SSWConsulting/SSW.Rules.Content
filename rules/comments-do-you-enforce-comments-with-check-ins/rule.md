@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enforce comments with check-ins using Team Foundation Server to improve code transparency and collaboration."
 type: rule
 archivedreason: 
 title: Comments - Do you enforce comments with check-ins?

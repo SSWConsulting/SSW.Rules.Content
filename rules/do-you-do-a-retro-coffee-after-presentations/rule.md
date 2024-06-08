@@ -1,5 +1,4 @@
 ---
-seoDescription: "After presenting at user groups and events, follow up with attendees to gather feedback, discuss projects, and potentially offer assistance."
 type: rule
 archivedreason: 
 title: Do you do a Retro Coffee after presentations?

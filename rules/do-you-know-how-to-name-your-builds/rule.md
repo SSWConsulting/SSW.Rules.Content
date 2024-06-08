@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering build naming conventions ensures easy identification of their purpose."
 type: rule
 archivedreason: 
 title: Do you know how to name your builds?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the leading ticketing systems, including Zendesk and Service Now, with their market share, pricing, and overall ratings."
 type: rule
 archivedreason: 
 title: Do you know the best ticketing systems?

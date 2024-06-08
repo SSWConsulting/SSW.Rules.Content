@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get started with your training by outlining a plan and setting goals, including defining what you want to cover today."
 type: rule
 archivedreason: 
 title: Do you know how to get started with your Training?

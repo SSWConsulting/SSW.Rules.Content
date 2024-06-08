@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know your marketing efforts? Identify your current marketing activities and determine what's working and what's not to optimize your strategy."
 type: rule
 archivedreason: 
 title: Do you know your Marketing Efforts?

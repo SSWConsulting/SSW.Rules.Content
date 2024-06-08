@@ -1,5 +1,4 @@
 ---
-seoDescription: "Evaluating processes helps developers focus on project goals and avoid getting stuck on inefficient workflows."
 type: rule
 archivedreason: 
 title: Do you evaluate the processes?

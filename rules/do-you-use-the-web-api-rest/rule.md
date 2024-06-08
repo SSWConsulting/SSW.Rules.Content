@@ -1,5 +1,4 @@
 ---
-seoDescription: "Web API (REST) provides a lightweight and efficient way to integrate applications over the web."
 type: rule
 archivedreason: Empty rule
 title: Do you use the Web API (REST)?

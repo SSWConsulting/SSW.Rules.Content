@@ -1,5 +1,4 @@
 ---
-seoDescription: "LinkedIn profiles should include links to main services provided, enhancing visibility and showcasing expertise. (Note: I've kept it concise, included primary keywords, and matched with user intent. The generated SEO description is 155 characters long.)"
 type: rule
 title: LinkedIn - Do you have links to your main services on your profile?
 uri: have-urls-to-your-main-services-on-linkedin

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unsubscribe from irrelevant newsletters and avoid cluttered inboxes by taking control of your email subscriptions."
 type: rule
 archivedreason: 
 title: Do you unsubscribe from irrelevant newsletters?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Single-page applications (SPAs) offer a better user experience and reduced server load, but improper client-side routing can hinder usability. Implementing Angular's routing capabilities provides advantages like shareable URLs, accurate page refreshes, and improved separation of concerns."
 type: rule
 archivedreason: 
 title: Practices - Do you use client-side routing?

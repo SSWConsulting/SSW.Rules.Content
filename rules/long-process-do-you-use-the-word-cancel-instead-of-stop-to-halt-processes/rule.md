@@ -1,5 +1,4 @@
 ---
-seoDescription: "When stopping processes, use "Cancel" instead of "Stop" to clarify intentions and avoid miscommunication."
 type: rule
 archivedreason: 
 title: Long Process - Do you use the word 'Cancel' (instead of 'Stop') to halt processes?

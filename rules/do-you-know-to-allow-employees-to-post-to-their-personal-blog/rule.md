@@ -1,5 +1,4 @@
 ---
-seoDescription: "Allow employees to post on their personal blogs and benefit from increased creativity, traffic, and staff happiness."
 type: rule
 archivedreason: 
 title: Do you know to allow employees to post to their personal blog?

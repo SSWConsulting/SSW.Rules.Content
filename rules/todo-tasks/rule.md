@@ -1,5 +1,4 @@
 ---
-seoDescription: "Documenting "TODO" tasks ensures ideas and missing content are tracked, making it easier to prioritize and complete tasks."
 type: rule
 title: Do you document "TODO" tasks?
 uri: todo-tasks

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Standardize stored procedure return values for success and failures to ensure efficient data retrieval."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you standardize the return values of stored procedures for success and failures?

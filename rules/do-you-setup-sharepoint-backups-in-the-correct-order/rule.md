@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set up SharePoint backups correctly in DPM by creating a Protection Group and adding SQL databases, ensuring full protection of your SharePoint data."
 type: rule
 archivedreason: 
 title: Do you setup SharePoint backups in the correct order?

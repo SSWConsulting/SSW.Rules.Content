@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure StyleCop is installed and turned on to maintain consistent code style across your project."
 type: rule
 archivedreason: Replaced by https://ssw.com.au/rules/consistent-code-style
 title: Tools – Do you make sure StyleCop is installed and turned on?

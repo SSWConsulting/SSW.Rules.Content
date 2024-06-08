@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure only one person or the release pipeline has permission to upgrade the database schema to prevent big problems."
 type: rule
 title: The application - Do you understand the danger, and change permissions so
   "Schema Changes" can only be done by the "Schema Master"?

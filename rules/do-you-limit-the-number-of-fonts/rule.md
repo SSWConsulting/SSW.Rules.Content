@@ -1,5 +1,4 @@
 ---
-seoDescription: "Limit font usage to one consistent style and avoid distracting flourishes for a clear presentation."
 type: rule
 title: Do you limit the number of fonts?
 uri: do-you-limit-the-number-of-fonts

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get the latest SharePoint version quickly and easily through a simple file check or URL query."
 type: rule
 archivedreason: 
 title: Do you know how to get the SharePoint version?

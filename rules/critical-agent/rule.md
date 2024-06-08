@@ -1,5 +1,4 @@
 ---
-seoDescription: "Introducing a critical agent can refine ChatGPT's output by reviewing and revising its responses."
 type: rule
 title: Do you introduce a critical agent?
 uri: critical-agent

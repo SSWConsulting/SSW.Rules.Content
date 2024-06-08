@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline your recruitment process by importing candidates from any source into LinkedIn Talent Hub and manage them in one place."
 type: rule
 archivedreason: 
 title: Does your ATS allow you to import your candidates from any source?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When communication requires nuance and multiple exchanges, consider switching to voice calls instead of IMs for faster and clearer conversations."
 type: rule
 archivedreason: 
 title: Calling -  Do you call instead of IM when communication is not simple?

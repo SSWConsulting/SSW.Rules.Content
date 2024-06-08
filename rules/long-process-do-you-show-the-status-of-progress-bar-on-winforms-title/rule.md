@@ -1,5 +1,4 @@
 ---
-seoDescription: "Long processes displayed on Windows Forms titles enhance user experience by providing clear progress updates and taskbar visibility even when minimized."
 type: rule
 archivedreason: 
 title: Long Process - Do you show the status of progress bar on winform's title?

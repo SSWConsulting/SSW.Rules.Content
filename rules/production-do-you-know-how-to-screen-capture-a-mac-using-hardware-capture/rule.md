@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know how to screen capture a Mac using hardware capture? Learn how to overcome copy protection and connect your Mac to a scaler device for seamless recording."
 type: rule
 archivedreason: Not relevant anymore (as per Landon)
 title: Production - Do You Know How to Screen Capture a Mac Using Hardware Capture?

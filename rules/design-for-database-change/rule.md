@@ -1,5 +1,4 @@
 ---
-seoDescription: "Design databases that adapt to change by identifying applications using them with methods like a zsApplication table or SQL Server Profiler."
 type: rule
 archivedreason: 
 title: ​DBAs - Do you design for database change?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Dates should be formatted consistently across an application to avoid confusion for users, aligning with the operating system's regional settings."
 type: rule
 title: Dates - Do you keep date formatting consistent across your application?
 uri: dates-do-you-keep-date-formats-consistent-across-your-application

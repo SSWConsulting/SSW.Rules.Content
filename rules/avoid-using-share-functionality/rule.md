@@ -1,5 +1,4 @@
 ---
-seoDescription: "Office365 users avoid using the 'Share' functionality with tasks/questions to ensure important emails are noticed and read."
 type: rule
 title: Office365 - Do you avoid using 'Share' functionality with tasks/questions?
 uri: avoid-using-share-functionality

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Solution Folders to neatly structure your .NET projects, making it easier to manage and locate solution items."
 type: rule
 archivedreason: 
 title: Do you use Solution Folders to Neatly Structure your Solution?

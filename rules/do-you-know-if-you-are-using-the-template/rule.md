@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to ensure consistency and save time by using PowerPoint templates effectively."
 type: rule
 title: Do you know if you are using the template?
 uri: do-you-know-if-you-are-using-the-template

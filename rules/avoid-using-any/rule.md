@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using "any" to ensure type safety and avoid runtime errors, instead use "unknown" and leverage TypeScript's benefits such as intellisense and compile-time checks."
 type: rule
 title: Do you avoid using “any”?
 uri: avoid-using-any
@@ -29,4 +28,4 @@ If you're trying to write more type-safe code, it's generally recommended to use
 ![Figure: Good example – using types means I get errors and intellisense support](any-good.png)
 :::
 
-If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful lint warnings or errors to ensure the `any` type is not used in the project.
+If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful lint warnings or errors to ensure the `any` type is not used in the project. 

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Before applying Service Packs or upgrades, wait four weeks to ensure stability and prevent potential issues."
 type: rule
 archivedreason: 
 title: Do you wait before applying Service Packs or upgrades?

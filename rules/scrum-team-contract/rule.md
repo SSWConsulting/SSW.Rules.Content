@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scrum team contracts outline promises between Product Owner, Scrum Master, and team members for successful collaboration and delivery of product goals."
 type: rule
 archivedreason: 
 title: Do you understand the implied contract (promises) between Members of the Scrum Team?

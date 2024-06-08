@@ -1,5 +1,4 @@
 ---
-seoDescription: "Measure DevOps performance and identify areas for improvement with a comprehensive survey."
 type: rule
 title: "DevOps – Stage 1: Do you know what things to measure?"
 uri: things-to-measure

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use local copies to resolve race condition and avoid NullReferenceExceptions when shared values are accessed concurrently by multiple threads?"
 type: rule
 title: Do you use local copies to resolve race condition?
 uri: local-copies-to-resolve-race-condition

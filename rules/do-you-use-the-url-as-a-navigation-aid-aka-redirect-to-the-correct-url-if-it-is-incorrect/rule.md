@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use the URL as a navigation aid (aka redirect if URL is incorrect)?"
 type: rule
 title: Do you use the URL as a navigation aid (aka redirect if URL is incorrect)?
 uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-it-is-incorrect

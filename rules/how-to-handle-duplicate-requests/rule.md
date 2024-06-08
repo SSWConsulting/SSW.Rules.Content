@@ -1,5 +1,4 @@
 ---
-seoDescription: "When handling duplicate requests, it's recommended to keep all duplicates and reply to each email or close each task individually. This approach ensures that you don't miss any updates and keeps your records organized."
 type: rule
 archivedreason:
 title: Do you know how to handle duplicate requests?

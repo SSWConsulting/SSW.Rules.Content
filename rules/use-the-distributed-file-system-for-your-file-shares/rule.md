@@ -1,5 +1,4 @@
 ---
-seoDescription: "Domain-wide file sharing solution that consolidates multiple shares into one location, ensuring seamless user experience and tracking file movements."
 type: rule
 title: Domain - Do you use the Distributed File System for your file shares?
 uri: use-the-distributed-file-system-for-your-file-shares

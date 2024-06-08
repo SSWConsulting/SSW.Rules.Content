@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to run NUnit tests from within Visual Studio using external tools, TestDriven .net, or other integrations."
 type: rule
 archivedreason: This applies to old versions of Visual Studio as the test frameworks now provide their own test runner implementations for Visual Studio
 title: Do you know how to run nUnit tests from within Visual Studio?

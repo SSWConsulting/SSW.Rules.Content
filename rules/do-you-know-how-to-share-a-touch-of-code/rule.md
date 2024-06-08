@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to share a touch of code with GitHub Gists and simplify your blogging experience."
 type: rule
 archivedreason: 
 title: Do you know how to share a touch of code?

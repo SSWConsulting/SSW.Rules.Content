@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best React build tool for production-ready apps, consider Webpack's module bundling capabilities or Create React App's out-of-the-box solution."
 type: rule
 archivedreason: 
 title: Tools - Do you know the best Build Tool for React?
@@ -24,6 +23,7 @@ Creating a Production Build of a React project is complicated, you need great to
 ### Webpack
 
 **[Webpack](https://webpack.js.org/concepts)** is a module bundler. It packs CommonJs/AMD modules.
+
 
 ### Create React App
 

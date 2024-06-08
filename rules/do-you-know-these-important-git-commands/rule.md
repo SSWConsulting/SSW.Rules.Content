@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reset your local Git changes and revert to the last commit with "git reset --hard HEAD"."
 type: rule
 archivedreason: 
 title: Do you know these important git commands?

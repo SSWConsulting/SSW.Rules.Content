@@ -1,5 +1,4 @@
 ---
-seoDescription: "Does your team understand the dangers of social engineering?"
 type: rule
 archivedreason: 
 title: Does your team understand the dangers of social engineering?

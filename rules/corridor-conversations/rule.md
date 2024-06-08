@@ -1,5 +1,4 @@
 ---
-seoDescription: "Informally address budget, technology and infrastructure concerns during spec reviews to avoid surprises."
 type: rule
 title: Do you have corridor conversations?
 uri: corridor-conversations

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft 365 groups do not automatically send a copy of your own email to your inbox."
 type: rule
 title: Microsoft 365 groups – Do you receive a copy of your own email into your inbox?
 uri: do-you-receive-copy-of-your-email-into-your-inbox

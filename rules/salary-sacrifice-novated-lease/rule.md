@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how salary sacrificing cars can boost your superannuation and reduce tax liabilities with our expert insights."
 type: rule
 title: Do you take advantage of salary sacrificing cars?
 uri: salary-sacrifice-novated-lease

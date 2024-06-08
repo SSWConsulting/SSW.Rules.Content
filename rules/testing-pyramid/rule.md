@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understanding the testing pyramid models, such as Mike Cohn's automated testing pyramid, is crucial for developing effective test strategies and mitigating risks in software development."
 type: rule
 title: Do you understand the "testing pyramid" models?
 uri: testing-pyramid

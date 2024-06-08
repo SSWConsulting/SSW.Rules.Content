@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create engaging polls on YouTube to connect with fans and gather feedback beyond video uploads, leveraging Community posts for increased audience interaction."
 type: rule
 archivedreason: 
 title: Do you create polls to engage with your subscribers?

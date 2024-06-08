@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do not throw exceptions using System.Exception to avoid generic exception handling and instead use specific exception classes that clearly convey the error's meaning."
 type: rule
 title: Do you know that you should never throw an exception using System.Exception?
 uri: do-you-know-that-you-should-never-throw-an-exception-using-system-exception

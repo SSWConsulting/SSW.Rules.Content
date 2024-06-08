@@ -1,5 +1,4 @@
 ---
-seoDescription: "Regularly reviewing your security posture ensures you stay ahead of emerging threats and maintain compliance with evolving regulatory frameworks."
 type: rule
 title: Do you regularly review your security posture?
 uri: regularly-review-your-security-posture

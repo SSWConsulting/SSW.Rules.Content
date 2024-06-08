@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint designers matching the SharePoint version ensure seamless presentation and collaboration."
 type: rule
 archivedreason: 
 title: Do you install SharePoint Designer when using a SharePoint VHD?

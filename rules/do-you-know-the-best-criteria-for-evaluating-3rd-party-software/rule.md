@@ -1,5 +1,4 @@
 ---
-seoDescription: "Evaluating third-party software requires considering criteria such as open-source status, compatible licenses, and community support."
 type: rule
 archivedreason: 
 title: Do you know the best criteria for evaluating 3rd party software?

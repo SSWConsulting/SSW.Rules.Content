@@ -1,5 +1,4 @@
 ---
-seoDescription: "Forgetting passwords can be frustrating, but providing a 'Forgot my password' link on the sign-in page makes it easy to regain access."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Forgot my password' link?
@@ -21,13 +20,16 @@ To cater for this instance, it is important to have a 'Forgot my password' link 
 
 <!--endintro-->
 
+
 ::: bad  
 ![Figure: Bad example - what will happen for the poor user that forgot their password?](bad.png)  
 :::
 
+
 ::: good  
 ![Figure: Good example - users have an option if they forget their password](good.png)  
 :::
+
 
 ::: good  
 ![Figure: Good example - users can enter their email to get a new password](reset example.png)  
@@ -35,13 +37,16 @@ To cater for this instance, it is important to have a 'Forgot my password' link 
 
 ### Do you avoid a username enumeration attack?
 
+
 This practice also opens up the risk of "username enumeration" where an entire collection of usernames or email addresses can be validated for existence on the website simply by batching requests and looking at the responses.
 You can read more on [Troy Hunt's blog post](http://www.troyhunt.com/2012/05/everything-you-ever-wanted-to-know.html).
 You should always aim to not disclose if a user is registered with your site or not.
 
+
 ::: bad  
 ![Figure: Bad example - Displaying information that a user does not exist?](2016-01-05\_15-20-06.png)  
 :::
+
 
 ::: good  
 ![Good example - You should always aim to not disclose if a user is registered with your site or not](demo.png)  

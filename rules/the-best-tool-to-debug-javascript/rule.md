@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best tools to debug JavaScript applications without relying on console.log()."
 type: rule
 archivedreason: 
 title: Tools - Do you know the best tools to debug JavaScript?

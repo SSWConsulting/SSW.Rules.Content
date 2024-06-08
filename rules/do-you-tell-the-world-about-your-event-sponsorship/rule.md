@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost your company's reputation by sharing event sponsorship news on website news pages, Facebook groups/pages, and LinkedIn."
 type: rule
 archivedreason: 
 title: Do you tell the world about your event sponsorship?

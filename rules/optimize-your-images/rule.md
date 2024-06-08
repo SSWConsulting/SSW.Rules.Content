@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your images to reduce website loading time and improve user experience by compressing files without sacrificing quality."
 type: rule
 archivedreason: 
 title: Do you optimize your images for web?

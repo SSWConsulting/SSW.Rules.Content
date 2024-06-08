@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve web page performance by loading media assets lazily, reducing initial load size and saving bandwidth for readers."
 type: rule
 title: Do you improve web page performance with lazy loading of media assets?
 uri: improve-performance-with-lazy-loading-of-media-assets

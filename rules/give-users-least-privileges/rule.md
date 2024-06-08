@@ -1,5 +1,4 @@
 ---
-seoDescription: "Granting least privileges to users is crucial for securing Azure permissions and preventing unauthorized access."
 type: rule
 archivedreason: 
 title: Security - Do you give users least privileges?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find the best hashtags to boost your Twitter presence and engagement with Talkwalker's powerful analytics tools."
 type: rule
 title: " Do you know how to find the best hashtags to use?"
 uri: find-the-best-hashtags

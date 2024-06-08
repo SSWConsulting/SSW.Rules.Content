@@ -1,5 +1,4 @@
 ---
-seoDescription: "I will help you generate an SEO description that meets the requirements. Please provide the MD or MDX content, and I'll get started! 😊"
 type: rule
 archivedreason: 
 title: Do you avoid using unnecessary words?
@@ -16,7 +15,7 @@ redirects:
 
 ---
 
-When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation.
+When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation. 
 Your writing can be less wordy and still get the message across.
 
 <!--endintro-->

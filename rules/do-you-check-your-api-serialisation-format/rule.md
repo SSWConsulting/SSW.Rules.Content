@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate to System.Text.Json for faster performance and lower memory usage, but check compatibility with Newtonsoft.Json features and default serialisation property name casing."
 type: rule
 title: Do you check your API serialisation format?
 uri: do-you-check-your-api-serialisation-format

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Teams Preview allows early access to new features, but not all functionalities are supported yet, including custom tabs and applications."
 type: rule
 title: Do you know when to use Microsoft Teams Preview?
 guid: c7bdf2ad-18bb-4819-b96c-eb77bb9c58cb

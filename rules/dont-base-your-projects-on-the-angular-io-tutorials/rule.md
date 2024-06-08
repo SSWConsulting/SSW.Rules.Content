@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to create a real-world Angular project without relying on outdated tutorials from angular.io."
 type: rule
 archivedreason: 
 title: Do you know the right way to create your Angular project?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Capture road incidents and protect yourself with a dashboard camera, providing efficient evidence in case of a car crash."
 type: rule
 archivedreason: 
 title: Do you have a dash cam?

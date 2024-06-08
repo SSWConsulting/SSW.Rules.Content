@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mask secrets from GitHub Actions logs by using the add-mask workflow command to prevent accidental exposure."
 type: rule
 title: Do you know how to mask secrets from GitHub Actions logs?
 uri: mask-secrets-in-github-actions

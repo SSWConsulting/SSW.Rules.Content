@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make your secondary LinkedIn account obvious by clearly stating it's a recruitment or talent acquisition account and not meant for professional networking."
 type: rule
 title: Do you make your secondary LinkedIn account obvious?
 uri: make-secondary-linkedin-account-obvious

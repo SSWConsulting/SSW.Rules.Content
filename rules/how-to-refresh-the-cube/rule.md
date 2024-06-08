@@ -1,5 +1,4 @@
 ---
-seoDescription: "Refresh TFS data warehouse and reports with these two hard ways to update stale data, recommended option includes web services and IIS manager."
 type: rule
 title: Do you know how to refresh the cube?
 uri: how-to-refresh-the-cube

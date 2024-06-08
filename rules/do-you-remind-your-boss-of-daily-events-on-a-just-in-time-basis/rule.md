@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remind your boss of daily events on a just-in-time basis to ensure efficient use of time."
 type: rule
 archivedreason: 
 title: Do you remind your boss of daily events on a "just in time" basis?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "PageRank's relevance has been disputed as Google removed it from Webmaster Tools and only updates it infrequently."
 type: rule
 archivedreason: 
 title: Do you know PageRank is no longer relevant?

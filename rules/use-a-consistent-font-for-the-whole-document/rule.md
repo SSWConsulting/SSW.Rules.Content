@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a consistent font throughout your document to maintain professionalism and readability."
 type: rule
 archivedreason: 
 title: Do you use a consistent font for the whole document?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "A link on a page that takes you to the very same page is a weird experience. Don't include a link to the page you are on. Generated SEO Description: Avoid self-linking for a seamless user experience, as it can be confusing and disrupt navigation."
 type: rule
 archivedreason: 
 title: Do you avoid linking a page to itself?

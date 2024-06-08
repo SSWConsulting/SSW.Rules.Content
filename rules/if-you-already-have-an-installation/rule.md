@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrating TFS installation quickly and efficiently by detaching team project collections, deleting databases, restoring backups, and attaching projects."
 type: rule
 archivedreason: 
 title: If you already have an installation

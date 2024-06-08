@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your website's health by having a HealthCheck page with /zsValidate to prevent deployment errors and identify coding mistakes."
 type: rule
 title: Do you have a HealthCheck page (from /zsValidate) to make sure your
   website is healthy?

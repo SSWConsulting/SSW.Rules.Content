@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here's a generated SEO description: "Master consistent behavior in .NET Windows Forms by utilizing inherited forms and implementing best practices for design and coding.""
 type: rule
 title: Do you use inherited forms for consistent behaviour?
 uri: do-you-use-inherited-forms-for-consistent-behaviour

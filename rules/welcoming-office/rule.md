@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make your office a welcoming space for employees and customers by maintaining a clean and organized environment, ensuring timely opening and closing of your business hours, and providing a seamless client experience."
 type: rule
 title: Do you make your office a welcoming space for employees and customers?
 uri: welcoming-office

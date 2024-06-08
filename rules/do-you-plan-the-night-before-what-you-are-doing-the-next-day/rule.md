@@ -1,5 +1,4 @@
 ---
-seoDescription: "Plan ahead of time to stay organized and on track with your busy schedule."
 type: rule
 archivedreason: 
 title: Do you plan the night before what you are doing the next day?

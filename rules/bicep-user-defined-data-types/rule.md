@@ -1,5 +1,4 @@
 ---
-seoDescription: "User-defined data types in Bicep enable developers to create custom data structures, enhancing code organization, type safety, and maintainability."
 type: rule
 title: Bicep - Do you use User-defined Data Types?
 guid: 2a3ba816-ba40-4cfe-8193-7e151e038ac5

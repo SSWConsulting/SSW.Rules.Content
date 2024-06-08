@@ -1,5 +1,4 @@
 ---
-seoDescription: "Relational database design principles, including normalization and ERDs, ensure a well-structured database with improved data integrity and reduced redundancy."
 type: rule
 title: Do you understand relational database design?
 uri: relational-database-design

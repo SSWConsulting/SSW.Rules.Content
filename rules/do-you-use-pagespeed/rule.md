@@ -1,5 +1,4 @@
 ---
-seoDescription: "PageSpeed Insights can significantly optimize your webpages' performance with actionable suggestions. Let me know if you need anything else! 😊"
 type: rule
 archivedreason: 
 title: Do you use PageSpeed?

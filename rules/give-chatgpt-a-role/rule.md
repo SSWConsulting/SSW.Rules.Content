@@ -1,5 +1,4 @@
 ---
-seoDescription: "As a business coach, help entrepreneurs identify their unique value proposition and craft a compelling elevator pitch to stand out in their industry."
 type: rule
 title: Do you give ChatGPT a role (e.g. a business coach, an expert
   nutritionist, etc.)?

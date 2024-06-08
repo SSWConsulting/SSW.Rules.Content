@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover a powerful intranet platform with SharePoint's robust features, including full-text search, rich workflows, and document accessibility."
 type: rule
 title: Do you know what are the SharePoint features customers love?
 uri: do-you-know-what-are-the-sharepoint-features-our-customers-love

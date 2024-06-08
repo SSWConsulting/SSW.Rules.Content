@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover when to send an appointment or a Teams meeting and streamline your team's workflow with Microsoft Outlook and Teams integration."
 type: rule
 archivedreason: 
 title: Meetings - Do you know when to send an Appointment or a Teams Meeting?

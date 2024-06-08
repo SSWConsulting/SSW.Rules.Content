@@ -1,5 +1,4 @@
 ---
-seoDescription: "Highlighting search terms in page body results enhances user experience and helps users quickly identify relevant information."
 type: rule
 archivedreason: 
 title: Do you highlight the search term?

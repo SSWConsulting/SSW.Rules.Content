@@ -1,5 +1,4 @@
 ---
-seoDescription: "Communicate effectively without lengthy "Walls of Text" by using screenshots as a concise and efficient way to convey messages."
 type: rule
 title: Do you use screenshots instead of a 'Wall of Text'?
 uri: screenshots-avoid-walls-of-text

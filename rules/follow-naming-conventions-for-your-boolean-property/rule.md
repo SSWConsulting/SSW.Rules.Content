@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boolean Property naming convention follows a specific pattern to clearly indicate its state."
 type: rule
 title: Do you follow naming conventions for your Boolean Property?
 uri: follow-naming-conventions-for-your-boolean-property

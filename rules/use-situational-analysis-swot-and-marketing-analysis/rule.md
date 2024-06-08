@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Situational Analysis (SWOT) and Marketing Analysis to identify strengths, weaknesses, opportunities, and threats in your business?"
 type: rule
 archivedreason: 
 title: Do you use Situational Analysis (SWOT) and Marketing Analysis?

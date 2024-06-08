@@ -1,5 +1,4 @@
 ---
-seoDescription: "Name dependencies to avoid problems with minification in Angular, ensuring correct injection of services even after code optimization."
 type: rule
 archivedreason: 
 title: Do you name your dependencies to avoid problems with minification?

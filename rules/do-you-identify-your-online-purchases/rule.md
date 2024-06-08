@@ -1,5 +1,4 @@
 ---
-seoDescription: "Online office purchases require your name in postal details to ensure correct identification and delivery."
 type: rule
 archivedreason: 
 title: Do you include your name on online office purchases?

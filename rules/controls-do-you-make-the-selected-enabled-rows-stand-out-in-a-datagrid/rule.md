@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make selected rows stand out in a datagrid by subtly dimming unselected text."
 type: rule
 title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
 uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid

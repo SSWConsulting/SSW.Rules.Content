@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep track of expiring app registration secrets and certificates in Azure AD to avoid authentication issues."
 type: rule
 title: Do you keep track of expiring app registration secrets and certificates?
 uri: expiring-app-secrets-certificates

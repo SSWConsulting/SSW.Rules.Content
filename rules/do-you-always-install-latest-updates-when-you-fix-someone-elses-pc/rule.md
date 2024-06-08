@@ -1,5 +1,4 @@
 ---
-seoDescription: "Always install latest updates when fixing someone else's PC to ensure security and stability, whether done locally or remotely."
 type: rule
 title: Do you always install latest updates when you fix someone else's PC?
 uri: do-you-always-install-latest-updates-when-you-fix-someone-elses-pc

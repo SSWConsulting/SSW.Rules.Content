@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use query strings to enable bookmarking and parameter modification for a more engaging user experience."
 type: rule
 archivedreason: 
 title: Do you always use query strings?
@@ -20,7 +19,10 @@ When you build a web application, any dynamic page you think a user may wish to 
 * Bookmarking of the pages
 * Gives the user to the ability to change the query string values in the address bar, rather than having to go back to the input form.
 
+
+
 <!--endintro-->
+
 
 ::: good  
 ![Figure: The URL should always have all the parameters the user enters. Here Google is a good example](querystring.png)  

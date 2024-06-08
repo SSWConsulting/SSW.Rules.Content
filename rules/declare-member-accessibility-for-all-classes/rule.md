@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you explicitly declare member accessibility for all classes and methods in your C# code to improve readability and maintainability?"
 type: rule
 title: Do you declare member accessibility for all classes?
 uri: declare-member-accessibility-for-all-classes

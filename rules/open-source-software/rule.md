@@ -1,5 +1,4 @@
 ---
-seoDescription: "Does your company contribute to open source?"
 type: rule
 archivedreason: 
 title: Does your company contribute to open source?

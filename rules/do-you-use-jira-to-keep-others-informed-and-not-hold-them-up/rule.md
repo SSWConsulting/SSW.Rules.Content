@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay informed and avoid holding others up by quickly addressing Jira issues that require your attention, ensuring a smooth workflow and keeping reportees updated on status and priorities."
 type: rule
 archivedreason: 
 title: Do you use Jira to keep others informed and not hold them up?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover a balanced choice between simplicity and advanced features with Fork, or opt for SourceTree's user-friendly interface and seamless integration with Atlassian tools."
 type: rule
 title: Do you use Source Control tools?
 uri: source-control-tools

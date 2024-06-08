@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a safe space for effective feedback by considering the recipient's emotional state and timing of delivery."
 type: rule
 archivedreason: 
 title: Do you know to create a safe space instead of jumping into feedback?

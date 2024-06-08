@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure alerting on Azure Security Center to receive notifications of changes and potential security threats, ensuring your infrastructure remains secure."
 type: rule
 title: Do you have alerting for Azure Security Center?
 uri: alert-for-azure-security-center
@@ -16,6 +15,6 @@ This will ensure that any changes either due to changes in your Azure deployment
 
 ![Figure: To configure alerting try this](azure-security-center-alert.png)
 
-You can then set up the Action to notify you. There're all sorts of filtering functionality as well.
+You can then set up the Action to notify you. There're all sorts of filtering functionality as well. 
 
 Set up alerting on at least the Security Center recommendations and Threat Detection alerts. If you need to comply with a regulatory framework, then it's important to add an alert for that too (this is the 3rd of the Security Center data types), so that you can avoid compliance failures.

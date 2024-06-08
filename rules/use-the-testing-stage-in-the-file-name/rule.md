@@ -1,5 +1,4 @@
 ---
-seoDescription: "When moving through testing stages, it's recommended to suffix application names with the appropriate stage."
 type: rule
 archivedreason: 
 title: Do you use the testing stage, in the file name?

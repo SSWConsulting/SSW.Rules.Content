@@ -1,5 +1,4 @@
 ---
-seoDescription: "Secure your SQL Server by disabling defaults and implementing best practices such as strong passwords and integrated security."
 type: rule
 archivedreason: 
 title: DBAs - Do you secure your server by changing the 'defaults'?

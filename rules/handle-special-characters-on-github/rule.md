@@ -1,5 +1,4 @@
 ---
-seoDescription: "GitHub Secrets and Variables store sensitive information, but handling special characters is crucial to avoid workflow issues."
 type: rule
 title: Do you know how to handle special characters in GitHub Secrets and Variables?
 uri: handle-special-characters-on-github

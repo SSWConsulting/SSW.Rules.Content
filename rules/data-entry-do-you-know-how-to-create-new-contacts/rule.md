@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to create new contacts efficiently and avoid duplicates by searching for existing contacts before creating a new one."
 type: rule
 archivedreason: 
 title: Data Entry - Do you know how to create new Contacts?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Exploratory Testing to create Acceptance Tests? Learn how to run exploratory tests in Microsoft Test Manager and turn them into repeatable acceptance tests."
 type: rule
 title: Do you use Exploratory Testing to create Acceptance Tests?
 uri: do-you-use-exploratory-testing-to-create-acceptance-tests

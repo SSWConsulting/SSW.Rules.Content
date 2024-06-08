@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get approval from your boss to book a flight and ensure prompt booking to avoid increased costs."
 type: rule
 archivedreason: 
 title: Do you know how to get approval to book a flight?

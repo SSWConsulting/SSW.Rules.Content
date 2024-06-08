@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrating to a new technology requires a carefully crafted plan to ensure a smooth transition."
 type: rule
 archivedreason: 
 title: Do you perform migration procedures with an approved plan?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track candidates with an Applicant Tracking System (ATS) like LinkedIn Talent Hub, Greenhouse, or Lever to streamline your recruitment process and gain valuable insights."
 type: rule
 archivedreason: 
 title: Do you track your candidates using an Applicant Tracking System (ATS)?

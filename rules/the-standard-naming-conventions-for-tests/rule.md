@@ -1,5 +1,4 @@
 ---
-seoDescription: "Follow established standard naming conventions for tests to ensure a consistent and organized approach to testing, allowing for efficient and clear testing procedures."
 type: rule
 title: Do you follow the standard naming conventions for tests?
 uri: the-standard-naming-conventions-for-tests

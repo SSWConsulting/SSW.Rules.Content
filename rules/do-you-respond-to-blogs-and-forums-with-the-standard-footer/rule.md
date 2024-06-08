@@ -1,5 +1,4 @@
 ---
-seoDescription: "Standardize your online presence by including a signature with company name and website after responding to blogs and forums."
 type: rule
 archivedreason: 
 title: Communication - Do you include a standard signature to your comments on blogs and forums?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid small bug fixes on your test server to ensure a smooth deployment process and prevent errors."
 type: rule
 archivedreason: 
 title: Do you avoid doing small bug fixes on your test-server?

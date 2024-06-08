@@ -1,5 +1,4 @@
 ---
-seoDescription: "Data validation and date range constraints ensure valid dates in your SQL Server database, preventing nonsensical dates from being entered."
 type: rule
 archivedreason: 
 title: Data - Dates - Do you make sure you have valid date data in your database?

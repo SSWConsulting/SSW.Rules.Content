@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid plain textboxes for notes and use rich textboxes instead, allowing for formatting, links, and more detailed user input."
 type: rule
 archivedreason: 
 title: Do you avoid using plain textboxes for notes?

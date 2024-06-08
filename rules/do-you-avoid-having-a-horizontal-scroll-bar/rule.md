@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid horizontal scroll bars to ensure a seamless and enjoyable browsing experience, as they can hinder text readability and user navigation."
 type: rule
 archivedreason: 
 title: Do you avoid having a horizontal scroll bar?

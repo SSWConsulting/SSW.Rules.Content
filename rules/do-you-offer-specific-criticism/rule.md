@@ -1,5 +1,4 @@
 ---
-seoDescription: "Offering specific feedback improves communication and encourages meaningful change, whereas generic criticism can be unclear and unproductive."
 type: rule
 title: Communication - Do you offer specific feedback?
 uri: do-you-offer-specific-criticism

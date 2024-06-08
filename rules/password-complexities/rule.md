@@ -1,5 +1,4 @@
 ---
-seoDescription: "Complexity requirements don't offer much protection against password attacks, as transforms and substitutions are easily anticipated by attackers."
 type: rule
 title: Passwords - Do you know that transforms and substitutions don’t offer much protection?
 uri: password-complexities

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prevent Outlook from automatically archiving emails and losing track of important messages by turning off AutoArchive."
 type: rule
 archivedreason: 
 title: Do you avoid using Auto Archive?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add stsadm to environmental variables to run SharePoint tools from anywhere"
 type: rule
 archivedreason: 
 title: Do you add stsadm to environmental variables

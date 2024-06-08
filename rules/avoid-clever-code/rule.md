@@ -1,5 +1,4 @@
 ---
-seoDescription: "Tech debt can arise from clever code that prioritizes showing off programming skills over simplicity and readability."
 type: rule
 title: Tech Debt - Do you avoid 'clever' code?
 uri: avoid-clever-code

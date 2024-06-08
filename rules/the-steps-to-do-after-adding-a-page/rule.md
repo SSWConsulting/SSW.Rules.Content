@@ -1,5 +1,4 @@
 ---
-seoDescription: "After adding a website page, follow these steps to keep your content healthy: Check MS Word (or Grammarly) for spelling and grammar mistakes. Run Link Auditor and Code Auditor on that page. Check the report and fix errors (if any). Repeat steps 2-3 until all green ticks. Output:"
 type: rule
 archivedreason: 
 title: Do you know the steps to do after adding a website page?

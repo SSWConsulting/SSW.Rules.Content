@@ -1,5 +1,4 @@
 ---
-seoDescription: "Developers stuck on a bug? Ask for help! Boost productivity and solve problems faster with team collaboration."
 type: rule
 archivedreason: 
 title: Communication - Do you ask questions when you're stuck?

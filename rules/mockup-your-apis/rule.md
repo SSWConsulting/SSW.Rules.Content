@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn when to mock up your API endpoints and how to create a mocked API endpoint using Azure API Management."
 type: rule
 archivedreason: 
 title: Do you know when to mockup your API?

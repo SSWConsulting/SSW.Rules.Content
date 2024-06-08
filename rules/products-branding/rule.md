@@ -1,5 +1,4 @@
 ---
-seoDescription: "At SSW, we ensure our software products have a consistent brand identity through recognizable logos and designs."
 type: rule
 archivedreason: 
 title: Do you brand your products?

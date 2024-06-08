@@ -1,5 +1,4 @@
 ---
-seoDescription: "Control choice dilemma - weighing pros and cons of using GridView over CheckedListBox in Windows Forms development."
 type: rule
 archivedreason: 
 title: Control Choice - Do you use GridView over the CheckedListBox?

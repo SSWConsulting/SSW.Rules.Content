@@ -1,5 +1,4 @@
 ---
-seoDescription: "Constantly adding to your backlog can be a great way to improve productivity and prioritize issues effectively."
 type: rule
 title: Do you constantly add to the backlog?
 uri: do-you-constantly-add-to-the-backlog

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Only retrieve database rows that match your criteria to save time and resources."
 type: rule
 title: Do you only get the rows you need?
 uri: only-get-the-rows-you-need

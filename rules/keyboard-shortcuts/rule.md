@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover SharePoint 2016's improved document libraries and master essential keyboard shortcuts to boost productivity."
 type: rule
 archivedreason: 
 title: Do you know the keyboard shortcuts?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Apply settings to all PCs using Group Policy, a powerful tool in Active Directory Domain Services for centralized configuration and security."
 type: rule
 archivedreason: 
 title: Do you use Group Policy to Apply Settings to all of your PCs?

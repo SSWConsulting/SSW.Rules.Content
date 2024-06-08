@@ -1,5 +1,4 @@
 ---
-seoDescription: "DBAs should utilize Database Mail instead of SQL Mail to send emails from SQL Server due to its enhanced features and improved security."
 type: rule
 archivedreason: 
 title: DBAs - Do you use Database Mail (not SQL Mail)?

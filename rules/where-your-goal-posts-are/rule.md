@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize application performance and achieve high-speed user experiences with measurable goals, such as page load times under 500ms or scores above 80 on Google Lighthouse."
 type: rule
 archivedreason: 
 title: Do you know where your goal posts are?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Chinafy your app to grow and target your audience better using local social media networks, ensure application resources are not blocked by China's firewall, integrate with local services, and localize for market nuances beyond translation."
 type: rule
 archivedreason: 
 title: Do you know why you should Chinafy your app?

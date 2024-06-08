@@ -1,5 +1,4 @@
 ---
-seoDescription: "Branding company cars enhances corporate visibility and reinforces brand identity on the road."
 type: rule
 title: Do you brand cars nicely?
 uri: cars-branding
@@ -20,7 +19,7 @@ It's a good idea to brand company cars when they're on the road. These cars are 
 
 <!--endintro-->
 
-To get more branded cars, you can [reward employees to brand their personal cars](https://my.sugarlearning.com/SSW/items/10636/car-stickers).
+To get more branded cars, you can [reward employees to brand their personal cars](https://my.sugarlearning.com/SSW/items/10636/car-stickers). 
 
 Make sure the cars look nice with the current company logo and tagline!
 

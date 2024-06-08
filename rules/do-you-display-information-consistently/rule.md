@@ -1,5 +1,4 @@
 ---
-seoDescription: "When linking pages together, display consistent information to provide a seamless user experience and enhance site navigation."
 type: rule
 title: Do you display information consistently between linked pages?
 uri: do-you-display-information-consistently

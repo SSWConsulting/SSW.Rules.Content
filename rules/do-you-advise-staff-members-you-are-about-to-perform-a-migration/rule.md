@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate wisely, notify staff early"
 type: rule
 archivedreason: Replaced by [Outage - Do you have a planned outage process?](/rules/planned-outage-process)
 title: Do you advise staff members you are about to perform a migration?

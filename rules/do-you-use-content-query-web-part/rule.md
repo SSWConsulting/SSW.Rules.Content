@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your SharePoint site's search functionality by leveraging the Content Query Web Part to display relevant data and improve Google indexing."
 type: rule
 archivedreason: 
 title: Do you use content query web part?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Secure a venue that accommodates your event's size, offers necessary equipment and stays within budget to ensure a successful and well-planned event."
 type: rule
 archivedreason: 
 title: Venue - Do you use an ideal venue?

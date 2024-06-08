@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand event logistics, including break times and facilities, to ensure a seamless experience for attendees."
 type: rule
 title: Do you explain the event logistics?
 uri: do-you-explain-the-logistics

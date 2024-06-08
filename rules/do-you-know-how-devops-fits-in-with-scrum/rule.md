@@ -1,5 +1,4 @@
 ---
-seoDescription: "DevOps and Scrum seamlessly integrate to streamline software development, focusing on building, measuring, and improving with automation and data-driven insights."
 type: rule
 archivedreason: 
 title: Do you know how DevOps fits in with Scrum?

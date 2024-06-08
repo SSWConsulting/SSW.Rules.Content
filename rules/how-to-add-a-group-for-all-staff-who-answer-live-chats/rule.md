@@ -1,5 +1,4 @@
 ---
-seoDescription: "Incoming chat requests are routed to agents using Chat Routing settings with two options: Broadcast or Assigned."
 type: rule
 archivedreason: 
 title: Do you know how to add a group (aka Departments) for all staff who answer live chats?

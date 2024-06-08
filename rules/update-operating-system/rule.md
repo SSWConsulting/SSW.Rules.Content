@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay secure online by keeping your operating system up to date with regular Windows and MacOS updates."
 type: rule
 title: PC - Do you always keep your OS up to date?
 uri: update-operating-system

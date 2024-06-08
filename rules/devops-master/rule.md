@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize DevOps efficiency with a specialist who enables teams to achieve 100% productivity and optimize automated builds, deployments, and code analysis."
 type: rule
 archivedreason: 
 title: Do you have a DevOps Master?

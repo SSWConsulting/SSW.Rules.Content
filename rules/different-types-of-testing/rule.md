@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the different types of testing to ensure your software meets user requirements, including smoke testing, unit testing, integration testing, consumer-driven contract testing, regression testing, end-to-end testing, acceptance testing, and performance testing."
 type: rule
 title: Do you know the different types of testing?
 uri: different-types-of-testing

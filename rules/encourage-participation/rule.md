@@ -1,5 +1,4 @@
 ---
-seoDescription: "Encourage active participation from all board members to leverage diverse expertise and perspectives, leading to more informed decisions and a sense of collective responsibility."
 type: rule
 title: Do you encourage active participation from all board members?
 uri: encourage-participation

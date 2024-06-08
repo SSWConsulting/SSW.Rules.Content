@@ -1,5 +1,4 @@
 ---
-seoDescription: "Storing setup files under a dedicated "setup" folder keeps your project organized and easy to maintain."
 type: rule
 archivedreason: 
 title: Do you put your setup file in your a \setup folder?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find out where drive space is consumed on your Surface by installing TreeSize Touch and discovering hidden storage hogs."
 type: rule
 archivedreason: No value add
 title: Do you find where drive space is consumed in your Surface?

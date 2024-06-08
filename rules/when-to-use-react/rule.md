@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use React? A JavaScript library ideal for building dynamic UI components and enhancing existing applications, rather than a full-fledged framework."
 type: rule
 archivedreason: See [https://www.ssw.com.au/rules/rules-to-better-react](/rules/rules-to-better-react)
 title: Do you know when to use React?

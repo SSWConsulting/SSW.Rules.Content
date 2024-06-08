@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reduce office noise and boost productivity by using headphones, soft voice levels, typing important points, and politely asking loud colleagues to adjust their volume."
 type: rule
 title: Do you take others into consideration while making calls in the office?
 uri: reduce-office-noise

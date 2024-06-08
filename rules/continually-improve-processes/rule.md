@@ -1,5 +1,4 @@
 ---
-seoDescription: "Continually improving processes and technologies enables efficient DevOps practices and enhanced software quality through continuous learning and iteration."
 type: rule
 archivedreason: 
 title: 'DevOps – Stage 4: Do you continually improve processes?'

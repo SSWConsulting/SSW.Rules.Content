@@ -1,5 +1,4 @@
 ---
-seoDescription: "Cross-approvals: Streamline Your Company's Approval Process with Expert Guidance"
 type: rule
 archivedreason: 
 title: Cross-approvals - Do you know how to scale approvals?

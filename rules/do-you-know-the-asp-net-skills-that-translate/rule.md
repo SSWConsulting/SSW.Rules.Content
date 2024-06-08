@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how ASP.NET skills directly translate to SharePoint development, leveraging master pages, site maps, menus, and more."
 type: rule
 archivedreason: 
 title: Do you know the ASP.NET skills that translate?

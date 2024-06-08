@@ -1,5 +1,4 @@
 ---
-seoDescription: "Always set Option Strict On from the beginning of development to ensure strict type-checking and prevent runtime errors."
 type: rule
 archivedreason: 
 title: Do you always say "Option Strict On"?

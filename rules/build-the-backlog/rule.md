@@ -1,5 +1,4 @@
 ---
-seoDescription: "Does your Product Owner know how to maintain a backlog effectively by recording conversations as Product Backlog Items (PBIs) or Issues?"
 type: rule
 title: Backlog - Does your Product Owner know how to maintain the backlog?
 uri: build-the-backlog

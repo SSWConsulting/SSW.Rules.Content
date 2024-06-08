@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover hundreds of pre-built connectors and create custom ones to integrate Power Apps with various data sources, streamlining your workflow."
 type: rule
 archivedreason: 
 title: Do you know the connectors for Power Apps?

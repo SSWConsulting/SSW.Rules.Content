@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use concise messages that your users will understand, avoiding technical terms that may confuse them."
 type: rule
 archivedreason: 
 title: Messages - Do you use messages that are concise?

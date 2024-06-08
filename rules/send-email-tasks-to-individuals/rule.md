@@ -1,5 +1,4 @@
 ---
-seoDescription: "Assigning tasks to specific individuals rather than sending them to a group or multiple team members can help ensure that tasks are completed on time and everyone is held accountable for their work. This approach eliminates confusion and promotes individual accountability."
 type: rule
 title: Do you assign tasks to individuals?
 uri: send-email-tasks-to-individuals

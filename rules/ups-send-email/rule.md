@@ -1,5 +1,4 @@
 ---
-seoDescription: ""Maximize UPS efficiency and stay informed about server status with customizable email notifications.""
 type: rule
 title: UPS - Do you have your UPS send an email when it kicks in?
 uri: ups-send-email

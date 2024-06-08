@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Bundling to package script and css files?"
 type: rule
 title: Do you use Bundling to package script and css files?
 uri: do-you-use-bundling-to-package-script-and-css-files

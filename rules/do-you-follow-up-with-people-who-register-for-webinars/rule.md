@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize webinar opportunities by following up with attendees, including adding them to your newsletter list and conducting personalized calls to discuss their challenges and offer support."
 type: rule
 archivedreason: 
 title: Webinar - Do you follow up with people who register for webinars?

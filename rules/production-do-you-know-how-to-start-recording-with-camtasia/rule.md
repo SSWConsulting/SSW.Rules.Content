@@ -1,5 +1,4 @@
 ---
-seoDescription: "Start recording with Camtasia and enhance your video production skills! Learn how to set up your display settings, configure Camtasia, and record high-quality audio and video."
 type: rule
 archivedreason: 
 title: Production - Do you know how to start recording with Camtasia?

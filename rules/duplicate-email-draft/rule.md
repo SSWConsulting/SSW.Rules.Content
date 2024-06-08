@@ -1,5 +1,4 @@
 ---
-seoDescription: "Duplicate an entire email draft in Outlook using a single keystroke with CTRL+F."
 type: rule
 title: Do you know how to duplicate an entire email draft?
 uri: duplicate-email-draft

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you have a clear call to action on your web pages to encourage users to take desired actions?"
 type: rule
 archivedreason: 
 title: Do you have a call to action on your web pages (aka The Banana Rule)?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid message boxes at all costs and only use them to confirm record deletion or kick off long running processes that cannot be cancelled."
 type: rule
 archivedreason: 
 title: Messages - Do you avoid message boxes at all costs?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure securely without Key Vault complexity by using Azure AppService to link Configuration values to Key Vault entries."
 type: rule
 title: Do you use Configuration over Key Vault?
 uri: config-over-keyvault

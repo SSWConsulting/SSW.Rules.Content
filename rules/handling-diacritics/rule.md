@@ -1,5 +1,4 @@
 ---
-seoDescription: "Multilingual search features require handling diacritics to ensure accurate matches and a seamless user experience."
 type: rule
 archivedreason:
 title: Do you know how to handle diacritics?

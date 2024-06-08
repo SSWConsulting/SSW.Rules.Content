@@ -1,5 +1,4 @@
 ---
-seoDescription: "Promote user groups and events via social media platforms like Twitter, Facebook, Instagram, and LinkedIn to increase overall audience and attendance."
 type: rule
 archivedreason: 
 title:  Promotion - Do you promote user groups via social media?

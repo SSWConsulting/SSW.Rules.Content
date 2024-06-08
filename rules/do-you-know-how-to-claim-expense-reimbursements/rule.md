@@ -1,5 +1,4 @@
 ---
-seoDescription: "Claim expense reimbursements and get compensated for work-related expenses with these guidelines."
 type: rule
 archivedreason: 
 title: Expenses - Do you know how to claim expense reimbursements?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Conducting a Brainstorming day retrospective to improve future sessions and enhance team collaboration."
 type: rule
 title: Post event - Do you do a Brainstorming day retro?
 uri: brainstorming-day-retro

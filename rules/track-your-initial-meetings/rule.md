@@ -1,5 +1,4 @@
 ---
-seoDescription: "Metrics track initial meetings to boost visibility and inform business decisions."
 type: rule
 archivedreason: 
 title: Metrics - Do you track your initial meetings?

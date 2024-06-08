@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you apply the ValidateModel attribute to all controllers?"
 type: rule
 title: Do You Apply the ValidateModel Attribute to All Controllers?
 uri: do-you-apply-the-validatemodel-attribute-to-all-controllers

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Analyzing your marketing results once a month helps you identify successful efforts and areas for improvement, allowing you to refine your strategy and optimize resources."
 type: rule
 title: Analytics - Do you analyse your results once a month?
 uri: analyse-your-results-once-a-month
@@ -18,7 +17,7 @@ created: 2014-07-04T06:00:07.000Z
 archivedreason: null
 guid: 1e1a5fec-53e5-4e56-9255-d12ffb814a41
 ---
-**Analyzing your results (click-throughs, engagement, and new followers, for example) lets you see what was successful and what people have engaged with the most.**
+**Analyzing your results (click-throughs, engagement, and new followers, for example) lets you see what was successful and what people have engaged with the most.** 
 
 This helps you further streamline your content and provides an insight into trends and areas of growth. Remember, Marketing is an iterative process - the more you reflect, the better you can tailor your content and allocate your time and resources to a campaign that is delivering results.
 

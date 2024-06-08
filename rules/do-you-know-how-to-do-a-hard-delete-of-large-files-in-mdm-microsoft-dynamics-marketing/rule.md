@@ -1,5 +1,4 @@
 ---
-seoDescription: "Delete large files efficiently in MDM by overwriting with a small file before deletion, freeing up storage space without losing data."
 type: rule
 archivedreason: 
 title: Do you know how to do a hard delete of large files in MDM (Microsoft Dynamics Marketing)?

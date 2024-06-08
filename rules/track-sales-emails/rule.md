@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track all sales-related activities in Microsoft Dynamics CRM to boost sales performance, streamline reporting and enhance customer relationships."
 type: rule
 archivedreason: 
 title: Sales - Do you track all sales related activities in CRM?

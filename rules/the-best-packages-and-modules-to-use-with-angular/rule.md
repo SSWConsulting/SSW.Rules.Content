@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover top packages and modules to enhance your Angular development experience, including Material, Bootstrap, OpenID Token Manager, NgxSpinner, and more."
 type: rule
 archivedreason: 
 title: Tools - Do you know the best Packages and Modules to use with Angular?

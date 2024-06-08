@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use bUnit to write robust unit tests for Blazor components and ensure reliable behavior when interacting with user interfaces."
 type: rule
 archivedreason:
 title: Do you use bUnit for unit tests in Blazor?
@@ -64,7 +63,6 @@ public class ExampleComponentTests
     }
 }
 ```
-
 ::: good
 Figure: Good example - Using bUnit to test a Blazor component
 
@@ -77,4 +75,4 @@ Complex components such as complicated searching and filtering are good candidat
 
 ### References
 
-* [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)
+- [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)

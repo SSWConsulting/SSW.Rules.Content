@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easy access to online user guides simplifies application usage and enhances user experience through up-to-date documentation and community engagement."
 type: rule
 archivedreason: 
 title: Menu - Do you have your "Help | User Guide" online?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a secure Windows PC by verifying 5 green ticks, indicating best practices for security and protection against vulnerabilities."
 type: rule
 title: PC - Do you check that Windows Security has 5 green ticks?
 uri: windows-security

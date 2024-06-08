@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best tools for learning Azure include YouTube tutorials, Microsoft Learn, and online learning platforms like Udemy, LinkedIn Learning, and PluralSight."
 type: rule
 title: Do you know the best tools for learning Azure?
 uri: learn-azure

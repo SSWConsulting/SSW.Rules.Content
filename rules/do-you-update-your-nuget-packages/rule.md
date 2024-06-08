@@ -1,5 +1,4 @@
 ---
-seoDescription: "Update NuGet packages regularly to avoid missing important updates and features."
 type: rule
 archivedreason: 
 title: Do you update your NuGet packages?

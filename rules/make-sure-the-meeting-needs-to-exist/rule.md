@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schedule meetings only when necessary topics require in-person discussion or collaboration to achieve collective understanding and alignment."
 type: rule
 title: Do you make sure the meeting needs to exist?
 uri: make-sure-the-meeting-needs-to-exist

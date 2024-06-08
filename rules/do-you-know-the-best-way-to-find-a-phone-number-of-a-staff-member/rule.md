@@ -1,5 +1,4 @@
 ---
-seoDescription: "Find a staff member's phone number using Dynamics 365 or avoid outdated methods like Active Directory."
 type: rule
 title: Do you know the best way to find a phone number of a staff member?
 uri: do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unlock optimal interactions with ChatGPT by mastering 0-shot, 1-shot, and multi-shot prompts."
 type: rule
 title: Do you know when to use 0-shot, 1-shot, or multi-shot prompts (e.g. give
   it 1 or more examples)?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When publishing an image with text, it's essential to provide the written text to help others and improve Google juice."
 type: rule
 archivedreason: 
 title: Do you give the written text when you publish an image with text in it?

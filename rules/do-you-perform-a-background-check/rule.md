@@ -1,5 +1,4 @@
 ---
-seoDescription: "Performing a quick risk assessment before starting work with a new client includes using LinkedIn and Google search to verify their details and company legitimacy."
 type: rule
 title: Do you perform a background check?
 uri: do-you-perform-a-background-check

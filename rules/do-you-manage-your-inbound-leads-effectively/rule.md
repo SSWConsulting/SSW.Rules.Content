@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you manage your inbound leads effectively by qualifying prospects and scheduling initial meetings to drive conversions?"
 type: rule
 archivedreason: 
 title: Do you manage your inbound leads effectively?

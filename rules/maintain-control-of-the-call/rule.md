@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain control of the call by asking related questions that encourage a "Yes" response and keep the conversation on track."
 type: rule
 archivedreason: 
 title: Do you maintain control of the call?

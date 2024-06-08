@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover modern alternatives to using a whiteboard for effective collaboration and brainstorming. From casting your screen to Teams Whiteboard, learn about innovative solutions that enhance remote collaboration and presentation."
 type: rule
 title: Do you know the modern alternatives to using a whiteboard?
 uri: modern-alternatives-to-using-a-whiteboard

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost blog traffic and visibility by sharing every blog post on all used social media platforms, featuring a catchy image and explanatory caption to capture attention."
 type: rule
 title: Content - Do you share every blog post?
 uri: share-every-blog-post

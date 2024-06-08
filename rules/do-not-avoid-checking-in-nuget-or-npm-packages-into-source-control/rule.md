@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid checking NuGet or npm packages into source control to prevent repository bloat and hardcoded path names."
 type: rule
 archivedreason: 
 title: Do not avoid checking in nuget or npm packages into source control?

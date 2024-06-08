@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using Flash/Silverlight on your website due to slow loading times, poor search engine rankings, and limited accessibility, opting instead for HTML/CSS-based solutions like jQuery."
 type: rule
 archivedreason: Deprecated - not a real problem anymore
 title: Do you avoid using Flash/Silverlight?

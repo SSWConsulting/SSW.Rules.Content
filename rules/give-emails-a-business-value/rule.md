@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you give your emails a Business Value? Learn how to prioritize your tasks effectively with our expert guide."
 type: rule
 title: Do you give your emails a Business Value?
 uri: give-emails-a-business-value

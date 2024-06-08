@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid spaces in object names to simplify coding and prevent errors, following best practices outlined in "Worst Practice - Spaces in Object Names"."
 type: rule
 archivedreason: 
 title: General - Do you know object name should not contain spaces?

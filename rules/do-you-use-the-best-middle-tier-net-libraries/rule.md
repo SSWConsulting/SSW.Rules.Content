@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline your .NET development by utilizing top-notch middle-tier libraries such as Autofac for IoC, Serilog and Seq for logging and tracing."
 type: rule
 archivedreason: 
 title: Do you use the best middle tier .NET libraries?

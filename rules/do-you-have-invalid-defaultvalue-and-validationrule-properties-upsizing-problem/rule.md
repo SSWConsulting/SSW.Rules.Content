@@ -1,5 +1,4 @@
 ---
-seoDescription: "Invalid DefaultValue and ValidationRule properties may prevent successful upsizing of Access tables to SQL Server."
 type: rule
 archivedreason: 
 title: Do you have invalid DefaultValue and ValidationRule properties (Upsizing problem)?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When finishing a client project, it's essential to send a "thank you" email to show appreciation and highlight potential improvements. This gesture demonstrates that you care about your clients and their projects, and it may lead to future collaborations or referrals."
 type: rule
 archivedreason: 
 title: Do you send thank you email to your client when project is about to end?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your team's backup status by backing up PCs and mobile phones regularly to avoid stress."
 type: rule
 archivedreason: 
 title: Do you check your teams backup status?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When sending emails on behalf of someone else, indicate it with a [ ] at the end of the subject line and BCC the person."
 type: rule
 archivedreason: 
 title: Do you indicate when you are sending an email on behalf of someone else?

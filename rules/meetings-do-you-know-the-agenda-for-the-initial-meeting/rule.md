@@ -1,5 +1,4 @@
 ---
-seoDescription: "Meetings - Ensure a successful initial meeting by asking questions, listening and taking notes to understand the client's problem and how you can build a solution."
 type: rule
 title: Meetings - Do you know the agenda for the initial meeting?
 uri: meetings-do-you-know-the-agenda-for-the-initial-meeting

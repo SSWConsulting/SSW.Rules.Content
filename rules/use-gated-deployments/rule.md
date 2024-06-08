@@ -1,5 +1,4 @@
 ---
-seoDescription: "GitHub environments enable gated deployments by adding manual approval steps to your workflow, ensuring that large operations are reviewed and approved before deployment."
 type: rule
 title: GitHub Environments - Do you use gated deployments?
 guid: f24e8551-80cb-47db-bdf0-bef479959593

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Calendar permissions allow you to share your calendar with admin personnel and your entire organization, enabling them to view and edit your availability."
 type: rule
 title: Calendar Permissions - Do you share your calendar?
 uri: calendar-do-you-allow-full-access-to-calendar-admins

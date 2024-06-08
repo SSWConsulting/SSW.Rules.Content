@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid limiting source control to just code files and consider including other essential project components, such as XSL files, Word documents, Excel Spreadsheets, Visio Diagrams, HTML files, and image files."
 type: rule
 archivedreason: 
 title: Do you avoid limiting source control to just code?

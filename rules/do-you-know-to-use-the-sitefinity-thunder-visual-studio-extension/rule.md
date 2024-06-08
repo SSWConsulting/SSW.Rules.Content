@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your Sitefinity development workflow by using Thunder, a Visual Studio extension that streamlines custom code deployment and connection to multiple projects."
 type: rule
 archivedreason: 
 title: Do you know to use the Sitefinity Thunder Visual Studio extension?

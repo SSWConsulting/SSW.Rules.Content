@@ -1,5 +1,4 @@
 ---
-seoDescription: "Provide at least two days' notice to individuals in different time zones for smoother scheduling and client communication."
 type: rule
 archivedreason: Irrelevant - as per Adam and Jason T
 title: Do you provide at least two days’ notice for people in other time zones?

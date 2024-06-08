@@ -1,5 +1,4 @@
 ---
-seoDescription: "Variables should be declared as needed to avoid orphaned declarations and improve code readability."
 type: rule
 title: Do you declare variables when you need them?
 uri: declare-variables-when-you-need-them

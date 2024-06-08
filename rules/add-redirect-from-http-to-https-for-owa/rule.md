@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify Outlook Web App (OWA) access by configuring automatic redirects from HTTP to HTTPS for mail.domain.com."
 type: rule
 archivedreason: 
 title: Do you add a redirect from http to https for OWA?

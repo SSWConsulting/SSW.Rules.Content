@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automate issue tracking between GitHub and Azure DevOps to streamline your workflow."
 type: rule
 title: GitHub Issues – Do you sync to Azure DevOps?
 uri: sync-your-github-issues-to-azure-devops

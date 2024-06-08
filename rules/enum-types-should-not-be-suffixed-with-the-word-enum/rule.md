@@ -1,5 +1,4 @@
 ---
-seoDescription: ".NET best practices dictate that enum types should not be suffixed with the word "Enum"."
 type: rule
 title: Do you know that Enum types should not be suffixed with the word "Enum"?
 uri: enum-types-should-not-be-suffixed-with-the-word-enum

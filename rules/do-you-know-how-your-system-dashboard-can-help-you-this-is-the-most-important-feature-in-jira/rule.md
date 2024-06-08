@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how Jira's System Dashboard helps you prioritize tasks and streamline workflows with a personalized overview of issues requiring your attention."
 type: rule
 archivedreason: 
 title: Do you know how your System Dashboard can help you? (this is the most important feature in Jira)

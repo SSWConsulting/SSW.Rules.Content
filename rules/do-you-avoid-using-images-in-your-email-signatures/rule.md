@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using images in your email signatures to prevent annoying recipients who may perceive them as attachments."
 type: rule
 archivedreason: 
 title: Do you avoid using images in your email signatures?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use lowercase after " - " to ensure proper formatting and readability."
 type: rule
 archivedreason: 
 title: Do you know to use lowercase after "-"?

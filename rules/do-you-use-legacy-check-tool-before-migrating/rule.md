@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use legacy check tool before CRM migration to ensure a smooth upgrade and avoid potential issues with outdated code."
 type: rule
 archivedreason: 
 title: Do you use legacy check tool before migrating?

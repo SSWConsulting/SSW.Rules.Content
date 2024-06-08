@@ -1,5 +1,4 @@
 ---
-seoDescription: "Monitor failed login attempts to detect external attacks or internal mistakes with Passive Whats Up Gold Monitor."
 type: rule
 archivedreason: 
 title: Do you monitor failed login attempts?

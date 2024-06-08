@@ -1,5 +1,4 @@
 ---
-seoDescription: "Start your video with a captivating Golden Moment to grab audience attention and set the tone for your engaging content."
 type: rule
 title: Post-Production - Do you create 'Golden Moments'?
 uri: golden-moment

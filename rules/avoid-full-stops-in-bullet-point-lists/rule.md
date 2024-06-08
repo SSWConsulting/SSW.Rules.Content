@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using full stops in lists and captions to keep your text clean and concise."
 type: rule
 title: Do you avoid full stops in lists and captions?
 uri: avoid-full-stops-in-bullet-point-lists

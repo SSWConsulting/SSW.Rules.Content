@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering Git requires understanding of basic principles, team collaboration, and advanced techniques like rebasing."
 type: rule
 archivedreason: 
 title: Do you know The Levels to Git Mastery?

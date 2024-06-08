@@ -1,5 +1,4 @@
 ---
-seoDescription: "As a Product Manager, I want to use User Stories format when appropriate, so that developers understand the context and requirements of a Product Backlog Item."
 type: rule
 title: Do you use User Stories format when appropriate?
 uri: spec-do-you-use-user-stories

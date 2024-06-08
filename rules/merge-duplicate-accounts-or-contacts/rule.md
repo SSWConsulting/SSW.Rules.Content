@@ -1,5 +1,4 @@
 ---
-seoDescription: "Merging duplicate accounts or contacts in Dynamics 365 removes duplicates and keeps your CRM organized."
 type: rule
 archivedreason: 
 title: Do you merge Accounts or Contacts when you see duplicates?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify and refactor large hard-coded strings in code to improve architecture and maintainability."
 type: rule
 archivedreason: 
 title: Do you look for large strings in code?

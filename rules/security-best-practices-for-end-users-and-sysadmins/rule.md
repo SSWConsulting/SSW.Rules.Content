@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay ahead of cyber threats by following these essential security best practices for both end-users and SysAdmins."
 type: rule
 title: Do you know the security best practices for both end-users and SysAdmins?
 uri: security-best-practices-for-end-users-and-sysadmins

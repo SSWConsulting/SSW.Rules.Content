@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unlock the power of Photoshop's Generative Fill and transform images with AI-driven prompts."
 type: rule
 title: Do you know how to transform images with Photoshop Generative Fill? 
 uri: photoshop-generative-fill

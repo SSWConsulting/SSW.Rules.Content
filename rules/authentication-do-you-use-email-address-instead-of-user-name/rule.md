@@ -1,5 +1,4 @@
 ---
-seoDescription: "Users prefer to sign in with their email address instead of username due to its uniqueness and ease of recall."
 type: rule
 archivedreason: 
 title: Authentication - Do you use email address instead of username?
@@ -22,9 +21,11 @@ It is easier for users to remember their frequently accessed email address more 
 
 **Jakob Nielsen** ,  Ph.D. and Principal at Nielsen Norman Group
 
+
 ::: bad  
 ![Figure: Bad example - users have to remember which username applies to this particular website](bad-username.jpg)  
 :::
+
 
 ::: good  
 ![Figure: Good example - users will always remember their primary email address](good-email.jpg)  

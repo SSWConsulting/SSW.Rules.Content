@@ -1,5 +1,4 @@
 ---
-seoDescription: "Break large tasks into smaller ones to stay on track and ensure accurate burndown charts."
 type: rule
 archivedreason: 
 title: Estimating - Do you break large tasks into smaller tasks?

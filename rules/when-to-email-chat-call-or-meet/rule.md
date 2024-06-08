@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to Send an Email, Chat Message, Call, or Organize a Meeting: Learn how to choose the right communication method for Microsoft Teams and email, considering factors like urgency, complexity, number of people involved, availability, and task requirements."
 type: rule
 title: Do you know when to send an email, a chat message, call, or organize a meeting?
 uri: when-to-email-chat-call-or-meet

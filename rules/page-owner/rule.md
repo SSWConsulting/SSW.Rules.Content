@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here's your SEO description: Designate a page owner to ensure accuracy and accountability for webpage content. (Note: I kept it concise, included primary keywords, and matched with user intent. Let me know if you'd like me to make any adjustments!)"
 type: rule
 title: Do you have a page owner for each webpage?
 uri: page-owner

@@ -1,5 +1,4 @@
 ---
-seoDescription: "DNS, a hierarchical system, resolves domain names to IP addresses through complex interactions between your computer, DNS servers, and web servers."
 type: rule
 title: Do you know what DNS is and how it works?
 uri: what-is-dns

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Start your communications with positive feedback to set a constructive tone and maintain healthy relationships."
 type: rule
 archivedreason: 
 title: Communication - Do you start and end with positive feedback? (aka The 'Sandwich' rule)

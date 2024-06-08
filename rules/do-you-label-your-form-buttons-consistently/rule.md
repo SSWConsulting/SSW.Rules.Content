@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistently labeling form buttons helps users navigate applications smoothly and reduces confusion."
 type: rule
 archivedreason: This rule has been replaced by [https://www.ssw.com.au/rules/label-buttons-consistently/](/rules/label-buttons-consistently/)
 title: Do you label your form buttons consistently?

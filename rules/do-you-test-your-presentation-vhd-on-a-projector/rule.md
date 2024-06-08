@@ -1,5 +1,4 @@
 ---
-seoDescription: "Test your presentation VHD on a projector before the big day to ensure seamless display and avoid last-minute technical issues."
 type: rule
 archivedreason: 
 title: Do you test your presentation VHD on a projector

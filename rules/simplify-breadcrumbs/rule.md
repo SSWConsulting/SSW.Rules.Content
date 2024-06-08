@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify breadcrumbs to improve website navigation and user experience by reducing information overload and emphasizing primary categories."
 type: rule
 title: Do you simplify breadcrumbs?
 uri: simplify-breadcrumbs

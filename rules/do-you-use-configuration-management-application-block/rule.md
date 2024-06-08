@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Configuration Application Blocks simplify configuration management by providing a standard way to store and retrieve settings from various sources."
 type: rule
 archivedreason: 
 title: Do you use configuration management application block?

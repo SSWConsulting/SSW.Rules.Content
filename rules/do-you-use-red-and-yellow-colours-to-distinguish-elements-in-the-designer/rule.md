@@ -1,5 +1,4 @@
 ---
-seoDescription: "Designers use red and yellow colours to distinguish incomplete and invisible controls on prototypes, enhancing UI feedback and tester clarity."
 type: rule
 title: Do you use red and yellow colours to distinguish elements in the designer?
 uri: do-you-use-red-and-yellow-colours-to-distinguish-elements-in-the-designer

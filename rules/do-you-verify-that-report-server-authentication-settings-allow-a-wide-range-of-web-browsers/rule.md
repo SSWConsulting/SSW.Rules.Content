@@ -1,5 +1,4 @@
 ---
-seoDescription: "Report Server authentication settings can be adjusted to allow a wide range of web browsers by modifying the RSReportServer.config file."
 type: rule
 archivedreason: 
 title: Do you verify that Report Server authentication settings allow a wide range of web browsers?

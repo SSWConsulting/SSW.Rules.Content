@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use the MVVM pattern in your .NET MAUI or Xamarin apps?"
 type: rule
 archivedreason: 
 title: Do you use the MVVM Pattern?

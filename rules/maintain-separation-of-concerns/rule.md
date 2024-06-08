@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain a clear separation of concerns between design and code to ensure easy maintenance of your application."
 type: rule
 archivedreason: 
 title: Do you maintain separation of concerns?

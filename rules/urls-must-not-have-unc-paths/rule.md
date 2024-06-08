@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid including UNC paths in URLs as they can lead to errors and potential security risks."
 type: rule
 title: Do you know to not include UNC paths in URLs?
 uri: urls-must-not-have-unc-paths

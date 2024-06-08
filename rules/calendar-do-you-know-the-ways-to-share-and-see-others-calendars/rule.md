@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover three ways to view team calendars, including sharing personal Outlook calendars and tracking appointments in Dynamics 365."
 type: rule
 title: Calendar - Do you know the ways to see others' calendars?
 uri: calendar-do-you-know-the-ways-to-share-and-see-others-calendars

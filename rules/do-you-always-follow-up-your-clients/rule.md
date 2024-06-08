@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure timely communication with clients by following up on outstanding matters via email, IM/Skype, or phone calls."
 type: rule
 archivedreason: 
 title: Do you always follow up your clients?

@@ -1,5 +1,4 @@
 ---
-seoDescription: ".NET applications should support Windows XP themes to ensure a professional and consistent user interface."
 type: rule
 title: Do your applications support XP themes?
 uri: do-your-applications-support-xp-themes

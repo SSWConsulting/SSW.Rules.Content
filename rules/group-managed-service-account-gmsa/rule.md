@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft's Group Managed Service Accounts (gMSAs) provide a secure and practical identity solution for services, automating password management and eliminating expired passwords."
 type: rule
 title: Do you use gMSAs (Group Managed Service Accounts)?
 uri: group-managed-service-account-gmsa

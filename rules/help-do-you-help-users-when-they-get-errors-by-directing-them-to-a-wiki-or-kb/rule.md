@@ -1,5 +1,4 @@
 ---
-seoDescription: "Error messages solved with expert guidance from our wiki and knowledge base."
 type: rule
 archivedreason: 
 title: Help - Do you help users when they get errors by directing them to a wiki or KB?

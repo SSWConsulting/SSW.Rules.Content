@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Slack as part of your DevOps workflow to streamline collaboration and improve team communication?"
 type: rule
 archivedreason: Use teams instead [https://www.ssw.com.au/rules/use-teams](/rules/use-teams)
 title: Do you use Slack as part of your DevOps?

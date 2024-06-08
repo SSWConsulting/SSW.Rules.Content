@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reports can be simplified and made more readable by configuring every dimension's "All Caption" to be simply "All", eliminating redundancy and making data presentation cleaner."
 type: rule
 archivedreason: 
 title: Reports - Do you configure every dimension’s "All Caption" to be "All"?

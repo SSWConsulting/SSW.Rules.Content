@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automatically manage keys and simplify IdentityServer configuration with out-of-the-box features in version 5."
 type: rule
 archivedreason:
 title: Do you use Automatic Key management with Duende IdentityServer?

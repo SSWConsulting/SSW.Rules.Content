@@ -1,5 +1,4 @@
 ---
-seoDescription: "Monitor packages for vulnerabilities and ensure your applications stay secure by using modern package managers or third-party tools to automate scanning and alerting."
 type: rule
 title: Do you monitor your application for vulnerabilities?
 uri: monitor-packages-for-vulnerabilities

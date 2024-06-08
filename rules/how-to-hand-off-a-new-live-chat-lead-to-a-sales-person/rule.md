@@ -1,5 +1,4 @@
 ---
-seoDescription: "Hand off new live chat leads to salespeople using Zendesk's support ticket feature, ensuring seamless customer service."
 type: rule
 title: Do you know how to hand off a new live chat lead to a sales person using
   support?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a password manager to securely store and automatically enter complex passwords across all devices and platforms."
 type: rule
 title: Passwords – Do you use a password manager?
 uri: using-a-password-manager

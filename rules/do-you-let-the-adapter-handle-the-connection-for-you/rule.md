@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you let the adapter handle the connection for you?"
 type: rule
 title: Do you let the adapter handle the connection for you?
 uri: do-you-let-the-adapter-handle-the-connection-for-you

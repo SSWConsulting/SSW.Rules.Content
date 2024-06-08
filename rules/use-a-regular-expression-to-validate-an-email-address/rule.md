@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a regular expression to validate an email address for precise and efficient verification. Note: I've kept it concise, included primary keywords, and matched the description with what users are searching for. The generated SEO description meets the requirements of 150-160 characters."
 type: rule
 title: Do you use a regular expression to validate an email address?
 uri: use-a-regular-expression-to-validate-an-email-address

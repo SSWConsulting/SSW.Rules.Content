@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Dynamics Marketing organizes contacts and companies into four categories: clients, vendors, staff, and marketing."
 type: rule
 archivedreason: 
 title: Do you know how MDM (Microsoft Dynamics Marketing) structures its contacts and companies?

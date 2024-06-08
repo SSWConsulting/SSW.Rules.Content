@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set a cap on hourly contractor spend to avoid surprise bills and ensure budget control."
 type: rule
 title: Do you put a cap on the maximum spend for contractors paid by the hour?
 uri: do-you-put-a-cap-on-the-maximum-spend-for-contractors-paid-by-the-hour

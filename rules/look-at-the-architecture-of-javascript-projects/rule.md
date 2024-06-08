@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you look at the architecture of JavaScript projects to optimize their performance?"
 type: rule
 archivedreason: 
 title: Do you look at the architecture of JavaScript projects?

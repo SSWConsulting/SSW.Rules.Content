@@ -1,5 +1,4 @@
 ---
-seoDescription: "Easy screen recordings start with a clean slate: optimize your browser settings to ensure a professional and easy-to-view presentation."
 type: rule
 title: Screen Recordings - Do you make sure your browser is easy to view?
 uri: easy-to-view-screen-recordings

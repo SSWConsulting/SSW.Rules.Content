@@ -1,5 +1,4 @@
 ---
-seoDescription: "Claim expense reimbursements quickly and efficiently with Xero Expense app, a seamless integration with Xero Accounting software for simplified reimbursement processing."
 type: rule
 archivedreason: 
 title: Expenses - Do you know how to claim expense reimbursements with Xero Expense app?

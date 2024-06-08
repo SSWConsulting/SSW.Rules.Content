@@ -1,5 +1,4 @@
 ---
-seoDescription: "Compare and synchronize files efficiently with FreeFileSync, a reliable folder comparison and synchronization software that creates and manages backup copies of your important files."
 type: rule
 title: Do you compare and synchronize your files with FreeFileSync?
 uri: compare-and-synchronize-your-files

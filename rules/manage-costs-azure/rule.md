@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you manage the cost of your Azure resources? Discover how to keep track of your cloud expenses with Microsoft's Cost Analysis tool and best practices for developers and spend masters."
 type: rule
 title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure

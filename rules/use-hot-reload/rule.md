@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Hot Reload to speed up your mobile app development by instantly updating your UI without rebuilding the entire app."
 type: rule
 archivedreason: 
 title: Debugging - Do you use Hot Reload?

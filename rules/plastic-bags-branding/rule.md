@@ -1,5 +1,4 @@
 ---
-seoDescription: "Branded plastic bags for giveaways and employee use promote free marketing on public transport, providing a win-win for both employees and your company."
 type: rule
 archivedreason: 
 title: Do you brand your plastic bags?

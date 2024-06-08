@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here is a generated SEO description based on the provided content: Users can avoid misgendering non-binary individuals by using gender-neutral pronouns like "they" in technical documentation."
 type: rule
 title: Do you avoid using gendered pronouns?
 uri: avoid-using-gendered-pronouns

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to consistently style your Xamarin app using Resource Dictionaries, CSS, or Visual for a cohesive branding experience."
 type: rule
 archivedreason: 
 title: Do you use know how to consistently style your app?

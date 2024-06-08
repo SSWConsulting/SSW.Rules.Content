@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best license for your open-source project on GitHub and ensure financial sustainability while supporting the open-source community."
 type: rule
 title: Do you know the best license for your project?
 uri: find-your-license

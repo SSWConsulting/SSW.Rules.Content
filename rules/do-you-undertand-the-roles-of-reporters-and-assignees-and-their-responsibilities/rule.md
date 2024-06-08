@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand roles and responsibilities of Reporters and Assignees, ensuring efficient workflow and complete visibility."
 type: rule
 archivedreason: 
 title: Do you undertand the roles of Reporters and Assignees and their responsibilities?

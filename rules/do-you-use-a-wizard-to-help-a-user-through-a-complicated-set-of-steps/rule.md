@@ -1,5 +1,4 @@
 ---
-seoDescription: "Help users navigate complex processes with intuitive wizards that guide them through setup and configuration."
 type: rule
 title: Do you use a Wizard to help a user through a complicated set of steps?
 uri: do-you-use-a-wizard-to-help-a-user-through-a-complicated-set-of-steps

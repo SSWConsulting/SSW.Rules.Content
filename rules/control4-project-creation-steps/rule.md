@@ -1,5 +1,4 @@
 ---
-seoDescription: "Control4 project creation involves connecting the controller, adding devices, creating rooms and scenes, programming the system, and testing and troubleshooting."
 type: rule
 title: Do you know the Control4 Project Creation stages and steps?
 uri: control4-project-creation-steps

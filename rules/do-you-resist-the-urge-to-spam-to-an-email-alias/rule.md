@@ -1,5 +1,4 @@
 ---
-seoDescription: "Resist the urge to spam email aliases by only sending valid or necessary communications that benefit all recipients."
 type: rule
 archivedreason: 
 title: Do you resist the urge to SPAM to an email alias?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automate group cleaning and ensure only the right people have ongoing access with Entra Access Reviews."
 type: rule
 title: Do you clean up your groups with Entra Access Reviews?
 uri: entra-group-access-reviews

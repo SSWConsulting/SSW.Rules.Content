@@ -1,5 +1,4 @@
 ---
-seoDescription: "Separate your expenses by creating new reports in Expensify to avoid confusion and make it easier for your Account Manager to review and reimburse claims."
 type: rule
 archivedreason: Requested by Stephan
 title: Do you separate your expenses by creating separate reports in Expensify?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create consistent and user-friendly URLs by sticking to lowercase letters and avoiding mixed case. This helps search engines and servers understand your website's structure and improves search ranking."
 type: rule
 archivedreason: null
 title: Do you use lowercase URLs?

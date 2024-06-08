@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reliably delivering tasks on time and meeting deadlines is crucial for maintaining trust and credibility."
 type: rule
 archivedreason: 
 title: Do you reliably deliver your tasks?

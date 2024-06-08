@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid link farms and focus on creating high-quality content that attracts natural links to improve your website's ranking."
 type: rule
 archivedreason: 
 title: Do you avoid the temptation of link farms?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand why to use Data Protection Manager (DPM) for robust on-premises backups and peace of mind knowing your data is safe and easily restorable."
 type: rule
 title: Do you know why to use Data Protection Manager (DPM)?
 uri: why-use-data-protection-manager

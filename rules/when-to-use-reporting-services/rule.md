@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reporting Services allows developers to create read-only reports faster and with ease, featuring built-in support for parameters, groupings, and totals."
 type: rule
 archivedreason: 
 title: Do you know when to use Reporting Services?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Swarming to fix broken builds ensures a green CI and identifies brittle application structures."
 type: rule
 archivedreason: 
 title: Do you swarm to fix the build?

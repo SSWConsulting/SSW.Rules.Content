@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enabling contacts to have more than the default 3 email addresses and phone numbers with CRM4 customization."
 type: rule
 archivedreason: 
 title: Customization - Do you enable your contacts to have more than the default 3 email addresses and phone numbers?

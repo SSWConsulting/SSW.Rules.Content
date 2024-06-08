@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your website has a mobile-friendly design that adapts to various devices, enhancing user experience and improving search engine rankings."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design](/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design)
 title: Do you have a Mobile friendly website?

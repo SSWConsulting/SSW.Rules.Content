@@ -1,5 +1,4 @@
 ---
-seoDescription: "Require two-factor authentication to join your GitHub organisation and protect your repositories from unauthorised access."
 type: rule
 archivedreason:
 title: Do you require 2FA to join your GitHub organisation?

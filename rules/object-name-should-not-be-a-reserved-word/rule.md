@@ -1,5 +1,4 @@
 ---
-seoDescription: "SQL Server reserves certain keywords for its exclusive use, making it essential to avoid using them as object names and identifiers."
 type: rule
 archivedreason: 
 title: General - Do you know object name should not be a reserved word?

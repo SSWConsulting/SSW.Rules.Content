@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to effectively allocate your marketing budget by targeting the right platforms and staying focused on your objectives."
 type: rule
 archivedreason: 
 title: Do you know how to use your Marketing Budget effectively?

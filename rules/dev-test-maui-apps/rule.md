@@ -1,5 +1,4 @@
 ---
-seoDescription: "Test .NET MAUI apps on different devices to ensure compatibility and user experience across multiple platforms and versions."
 type: rule
 archivedreason:
 title: Testing - Do you test .NET MAUI apps on different devices?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best way to provide a database schema document is through automatic generation using tools like Red-Gate SQL Doc or Apex SQL Doc, which can produce chm help files or html pages of the database schema."
 type: rule
 archivedreason: 
 title: Schema - Do you know how to provide best database schema document?

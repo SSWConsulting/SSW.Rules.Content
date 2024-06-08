@@ -1,5 +1,4 @@
 ---
-seoDescription: ""Do you use backchannels effectively? Learn how to communicate with your manager or teammate before a client meeting, and keep them informed during real-time conversations, using private channels like Teams or SMS.""
 type: rule
 title: Do you use backchannels effectively?
 uri: use-backchannels-effectively

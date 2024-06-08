@@ -1,5 +1,4 @@
 ---
-seoDescription: "Elevate user experience by placing QR code scanners prominently on home pages with a clear icon and label."
 type: rule
 archivedreason: 
 title: Do you know where the QR code scanner should be on a UI?

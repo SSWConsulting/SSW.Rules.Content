@@ -1,5 +1,4 @@
 ---
-seoDescription: "Choose an enterprise password manager that offers single sign-on with Azure AD, secure and certified encryption, internal and external password sharing, administrative control, and robust reporting features to ensure seamless password management for your organization."
 type: rule
 title: Do you know how to choose an Enterprise Password Manager?
 uri: choose-an-enterprise-password-manager

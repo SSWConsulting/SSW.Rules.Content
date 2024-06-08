@@ -1,5 +1,4 @@
 ---
-seoDescription: "When programming in form-based environments, it's best to avoid referencing form controls directly and instead pass control values through parameters."
 type: rule
 title: Do you refer to form controls directly?
 uri: refer-to-form-controls-directly

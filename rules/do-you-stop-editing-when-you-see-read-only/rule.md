@@ -1,5 +1,4 @@
 ---
-seoDescription: "When editing a .doc file in SharePoint, check out the document to avoid read-only mode and ensure seamless collaboration."
 type: rule
 archivedreason: 
 title: Do you stop editing, when you see “Read Only”?

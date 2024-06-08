@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover training videos that help you master your product and gain a deeper understanding with ease."
 type: rule
 archivedreason: 
 title: Menu - Do you have a "Help | Training Videos" item?

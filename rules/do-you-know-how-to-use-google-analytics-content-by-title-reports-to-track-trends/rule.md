@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track trends and improve your website's performance using Google Analytics' Content by Title reports, filtering by keyword terms, and analyzing day-to-day, weekly, and monthly views."
 type: rule
 archivedreason: 
 title: Do you know how to use Google Analytics "Content by Title" reports to track Trends?

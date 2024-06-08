@@ -1,5 +1,4 @@
 ---
-seoDescription: "Setup a printer server on your Windows network and add printers for easy access and printing from anywhere."
 type: rule
 title: Do you know how to add a print server?
 uri: print-server

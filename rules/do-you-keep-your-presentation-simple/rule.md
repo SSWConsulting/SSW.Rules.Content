@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep presentations simple and focused to effectively convey key points."
 type: rule
 title: Do you keep your presentation simple?
 uri: do-you-keep-your-presentation-simple

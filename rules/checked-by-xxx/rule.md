@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use 'Checked by xxx'? This rule emphasizes the importance of having someone review your emails before sending them to ensure accuracy, clarity, and professionalism."
 type: rule
 title: Do you use 'Checked by xxx'?
 uri: checked-by-xxx

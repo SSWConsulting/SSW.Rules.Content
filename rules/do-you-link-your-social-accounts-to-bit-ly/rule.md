@@ -1,5 +1,4 @@
 ---
-seoDescription: "Link your social media accounts to Bitly for seamless sharing and tracking of URLs across platforms."
 type: rule
 archivedreason: 
 title: Do you link your social accounts to bit.ly?

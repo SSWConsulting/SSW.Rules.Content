@@ -1,5 +1,4 @@
 ---
-seoDescription: "Developing a chatbot from scratch using OpenAI API requires significant expertise and upfront costs. Compare options with Chatbase, Botpress, or build your own custom solution for more control over AI model training and system messages."
 type: rule
 title: Do you know the best chatbot for your website?
 uri: website-chatbot

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Transforming forms with PowerApps for enhanced efficiency and flexibility."
 type: rule
 archivedreason: 
 title: Do you know the best forms solution?

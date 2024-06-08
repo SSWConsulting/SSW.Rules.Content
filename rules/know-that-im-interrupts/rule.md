@@ -1,5 +1,4 @@
 ---
-seoDescription: "Interruptions from instant messaging can be minimized by using email for non-urgent tasks and politely communicating your availability."
 type: rule
 archivedreason: 
 title: Interruptions - Do you know that IM interrupts?

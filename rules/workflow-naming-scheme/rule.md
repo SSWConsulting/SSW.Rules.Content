@@ -1,5 +1,4 @@
 ---
-seoDescription: "Naming your CI workflows: Follow a clear and descriptive naming convention to improve developer experience, reduce confusion, and save time by reflecting the purpose and sequence of each workflow."
 type: rule
 title: Do you know how to name your CI workflows?
 uri: workflow-naming-scheme

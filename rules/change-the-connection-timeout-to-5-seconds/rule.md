@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize database connections with a 5-second timeout to reduce wait times and improve user experience."
 type: rule
 title: Do you change the connection timeout to 5 seconds?
 uri: change-the-connection-timeout-to-5-seconds

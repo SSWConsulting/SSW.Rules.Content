@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enabling Hibernate option on Windows 10 and restoring your PC's state with ease."
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/do-you-use-suspend-on-your-notebook](/rules/do-you-use-suspend-on-your-notebook)
 title: Do you use Hibernate?

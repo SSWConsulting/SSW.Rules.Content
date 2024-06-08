@@ -1,5 +1,4 @@
 ---
-seoDescription: "Elevate your event experience with efficient registration and personalized support at a clearly signposted and easily accessible area."
 type: rule
 archivedreason: 
 title: Do you register your guests and help them find you?

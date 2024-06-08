@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to send tasks one email at a time and improve communication by breaking up unrelated tasks, grouping related tasks, and replying to "done"s."
 type: rule
 archivedreason: 
 title: Do you know when to send tasks one email at a time?

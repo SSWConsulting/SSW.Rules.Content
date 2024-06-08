@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best build tool for Angular applications is the Angular CLI, which provides efficient building and bundling with minimal configuration."
 type: rule
 archivedreason: 
 title: Tools - Do you know the best Build Tool?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Deciding on the level of verboseness in coding, including ternary operators, requires collaboration among developers to ensure a consistent style."
 type: rule
 archivedreason: 
 title: Do you decide on the level of the verboseness? E.g. ternary operators

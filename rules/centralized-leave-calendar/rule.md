@@ -1,5 +1,4 @@
 ---
-seoDescription: "Centralized leave calendars prevent scheduling conflicts and ensure seamless communication among team members."
 type: rule
 title: Calendar - Do you use a centralized leave calendar?
 uri: centralized-leave-calendar

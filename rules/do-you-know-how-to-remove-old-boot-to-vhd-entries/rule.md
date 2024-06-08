@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remove old Boot to VHD entries and avoid errors when booting your laptop by identifying and deleting unnecessary entries using bcdedit commands."
 type: rule
 archivedreason: 
 title: Do you know how to remove old Boot to VHD entries?

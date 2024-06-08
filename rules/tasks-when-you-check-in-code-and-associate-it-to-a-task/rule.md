@@ -1,5 +1,4 @@
 ---
-seoDescription: "In Scrum, associate code changes with tasks rather than PBIs to track work done during a Sprint and provide full traceability."
 type: rule
 archivedreason: 
 title: Tasks - Do you know when to check in code and associate it to a task?

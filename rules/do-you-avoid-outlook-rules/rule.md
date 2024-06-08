@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automate email organization and reduce manual folder sorting with Outlook Rules."
 type: rule
 archivedreason: 
 title: Do you avoid Outlook Rules?

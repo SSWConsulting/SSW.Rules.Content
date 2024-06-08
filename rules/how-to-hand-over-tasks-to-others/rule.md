@@ -1,5 +1,4 @@
 ---
-seoDescription: "How to handover tasks and responsibilities to others effectively, ensuring a smooth transition and minimizing misunderstandings."
 type: rule
 title: Do you know how to hand over email tasks to others?
 uri: how-to-hand-over-tasks-to-others

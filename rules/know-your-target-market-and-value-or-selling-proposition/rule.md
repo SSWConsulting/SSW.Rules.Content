@@ -1,5 +1,4 @@
 ---
-seoDescription: "Defining your target market and value proposition are crucial steps in creating an effective marketing strategy. By understanding who your ideal customer is, you can tailor your message and approach to resonate with them, ultimately driving more sales and growth for your business."
 type: rule
 archivedreason: 
 title: Do you know your 'Target Market' and 'Value' or 'Selling Proposition'?

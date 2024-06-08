@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use professional email signatures to add branding and professionalism to your external communications."
 type: rule
 archivedreason: Merged to [https://ssw.com.au/rules/great-email-signatures](/rules/great-email-signatures)
 title: Do you use email signatures for external emails?

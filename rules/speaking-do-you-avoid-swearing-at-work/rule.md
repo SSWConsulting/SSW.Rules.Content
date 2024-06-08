@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoiding swearing at work improves communication and productivity, making it essential to maintain a professional environment."
 type: rule
 archivedreason: 
 title: Communication - Do you avoid swearing at work?

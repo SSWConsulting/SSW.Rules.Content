@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure a postmaster account to identify Microsoft Exchange administrators and direct error emails to them."
 type: rule
 archivedreason: 
 title: Do you have a postmaster account in your Microsoft Exchange?

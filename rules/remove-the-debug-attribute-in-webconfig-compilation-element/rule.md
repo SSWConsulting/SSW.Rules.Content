@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remove the debug attribute in Web.config compilation element to optimize page execution and improve performance."
 type: rule
 archivedreason: 
 title: Do you remove the debug attribute in Web.config compilation element?

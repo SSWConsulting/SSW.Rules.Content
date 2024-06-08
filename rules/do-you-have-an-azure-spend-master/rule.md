@@ -1,5 +1,4 @@
 ---
-seoDescription: "Azure Spend Master controls access to reduce costs and streamline Azure management."
 type: rule
 archivedreason: 
 title: Cost - Do you have an Azure Spend $ master?

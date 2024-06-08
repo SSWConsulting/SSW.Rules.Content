@@ -1,5 +1,4 @@
 ---
-seoDescription: "Book client appointments in blocks of at least one day to boost profitability and reduce administrative overhead."
 type: rule
 title: Do you book in a minimum of 1 day's work at a time?
 uri: do-you-book-in-a-minimum-of-1-days-work-at-a-time

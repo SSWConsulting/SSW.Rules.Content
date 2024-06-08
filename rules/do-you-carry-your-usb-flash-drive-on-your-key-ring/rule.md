@@ -1,5 +1,4 @@
 ---
-seoDescription: "Always carry your USB drive with you for convenient file storage and transfer."
 type: rule
 archivedreason: flagged as out of date.
 title: Do you carry your USB flash drive on your key ring?

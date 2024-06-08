@@ -1,5 +1,4 @@
 ---
-seoDescription: "Joining your company's domain offers client management through GPOs, direct resource access, and automatic scripts, but lacks freedom and autonomy."
 type: rule
 title: Domain - Do you know the pros and cons of joining the domain?
 uri: do-you-know-the-pros-and-cons-of-joining-the-domain

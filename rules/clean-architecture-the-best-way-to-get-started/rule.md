@@ -1,5 +1,4 @@
 ---
-seoDescription: "Start building .NET Core applications with Clean Architecture using a solution template that includes Angular and ASP.NET Core."
 type: rule
 archivedreason: 
 title: Clean Architecture - Do you know the best way to get started?

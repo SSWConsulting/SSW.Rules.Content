@@ -1,5 +1,4 @@
 ---
-seoDescription: "Customize your Associated Contact view to easily access email addresses and enhance your CRM experience."
 type: rule
 archivedreason: 
 title: Customization - Do you have email address in the Associated Contact View?

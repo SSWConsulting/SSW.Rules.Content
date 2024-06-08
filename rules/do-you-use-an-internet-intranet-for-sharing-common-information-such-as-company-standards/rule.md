@@ -1,5 +1,4 @@
 ---
-seoDescription: "Company standards and policies are easily accessible on our intranet or public website, ensuring consistency and simplifying everyday operations."
 type: rule
 archivedreason: 
 title: Do you use an Internet/Intranet for sharing common information such as Company Standards?

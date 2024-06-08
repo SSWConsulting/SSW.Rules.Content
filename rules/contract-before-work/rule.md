@@ -1,5 +1,4 @@
 ---
-seoDescription: "Before starting billable work, enter into a binding written contract with clients to ensure clear contractual obligations and mitigate potential disagreements."
 type: rule
 archivedreason: 
 title: Do you enter into a binding written contract with a client before doing any billable work?

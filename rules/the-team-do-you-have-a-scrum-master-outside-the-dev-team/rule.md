@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scrum Master outside the dev team ensures proper Scrum adoption and informs the Product Owner of developments."
 type: rule
 archivedreason: 
 title: The Team - Do you have a Scrum Master outside the Dev Team?

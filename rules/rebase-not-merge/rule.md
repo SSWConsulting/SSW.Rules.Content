@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn to rebase not merge and eliminate messy commits for a cleaner project history."
 type: rule
 archivedreason: 
 title: Do you know to Rebase not Merge?

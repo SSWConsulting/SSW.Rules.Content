@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do your wizards include a 'Wizard Breadcrumb' that provides step-by-step guidance, allowing users to track their progress and make informed decisions?"
 type: rule
 title: Do your wizards include a 'Wizard Breadcrumb'?
 uri: do-your-wizards-include-a-wizard-breadcrumb

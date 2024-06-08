@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make effective office meetings by ensuring clear agendas, punctual attendees, and productive discussions to achieve desired outcomes."
 type: rule
 title: Meetings - Do you know the way meetings should work?
 uri: meetings-do-you-know-the-way-meetings-should-work

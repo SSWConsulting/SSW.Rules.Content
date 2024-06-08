@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use the AuthorizeAttribute to secure actions or controllers by restricting access to specific roles or users."
 type: rule
 title: Do you use AuthorizeAttribute to secure actions or controllers?
 uri: do-you-use-the-authorize-attribute-to-secure-actions-or-controllers

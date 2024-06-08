@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintaining a package audit log helps developers track why packages are added, who added them, and who approved them. By keeping track of package details, you can reduce technical debt and ensure transparency within your team."
 type: rule
 title: Do you keep a package audit log?
 uri: package-audit-log

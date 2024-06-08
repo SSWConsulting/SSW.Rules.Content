@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a seamless migration to SharePoint 2016 with a high-level plan that covers installation, testing, and post-migration setup."
 type: rule
 archivedreason: 
 title: Do you have a migration plan

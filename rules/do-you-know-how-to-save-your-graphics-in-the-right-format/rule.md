@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn the advantages and disadvantages of SVGs, PNGs, and JPGs to optimize your graphics for the right format."
 type: rule
 archivedreason: 
 title: Do you know how to save your graphics in the right format?

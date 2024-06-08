@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using frames on your website to ensure proper search engine crawling and accurate tracking of page views."
 type: rule
 archivedreason: 
 title: Do you avoid using frames on your website?

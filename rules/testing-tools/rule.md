@@ -1,5 +1,4 @@
 ---
-seoDescription: "Most popular unit testing frameworks for .NET applications include xUnit, NUnit, and MSTest, each with its own strengths and syntax."
 type: rule
 title: Do you know the most popular unit and integration testing frameworks for .NET applications?
 uri: testing-tools

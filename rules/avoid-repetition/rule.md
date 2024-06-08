@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid repeating elements in your content to promote clear communication and maintainable writing practices, as excessive repetition can hinder comprehension and create visual clutter."
 type: rule
 title: DRY - Do you avoid repeated elements in content?
 uri: avoid-repetition

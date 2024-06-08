@@ -1,5 +1,4 @@
 ---
-seoDescription: "Office environment dress code: Follow company guidelines to present a professional image, reinforce branding, and create a good impression for clients."
 type: rule
 title: Office environment - Do you follow the company's dress code?
 uri: do-you-have-a-dress-code

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Establish a unified Lean-Agile mindset across all teams to boost efficiency, flexibility, and value delivery."
 type: rule
 title: Do you establish a Lean-Agile mindset across all teams?
 guid: fe96d5c6-3817-466c-8882-52d62c5831bd

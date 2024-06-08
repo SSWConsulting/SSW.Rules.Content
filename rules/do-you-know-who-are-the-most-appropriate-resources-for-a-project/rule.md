@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify the most suitable resources for your project by analyzing its needs and utilizing a diverse range of staff with varying skill sets."
 type: rule
 archivedreason: 
 title: Do you know who are the most appropriate resources for a project?

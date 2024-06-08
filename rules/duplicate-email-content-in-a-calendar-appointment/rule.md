@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know to copy email content into a calendar appointment? Copying email text into the body of a calendar appointment helps preserve conversation history and context for attendees."
 type: rule
 archivedreason: 
 title: Appointments - Do you know to copy the email content into the calendar appointment?

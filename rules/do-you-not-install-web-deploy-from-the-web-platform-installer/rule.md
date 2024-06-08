@@ -1,5 +1,4 @@
 ---
-seoDescription: "Don't install Web Deploy from the Web Platform Installer; instead, download the package from IIS to ensure all necessary components for continuous deployment are included."
 type: rule
 archivedreason: 
 title: Do you not install Web Deploy from the Web Platform Installer?

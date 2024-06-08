@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get a new TFS2010 server ready with Windows 2008 R2 Server x64, SQL Server 2008 and IIS."
 type: rule
 archivedreason: 
 title: Do you get a new TFS2010 Server ready?

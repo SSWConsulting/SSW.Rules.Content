@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistently manage cluster node settings using group policy to ensure uniformity across all nodes."
 type: rule
 archivedreason: 
 title: Do you use group policy to apply settings to all of your cluster nodes?

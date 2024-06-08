@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know to use one version manager supporting multiple software?"
 type: rule
 archivedreason: 
 title: Do you know to use one version manager supporting multiple software?

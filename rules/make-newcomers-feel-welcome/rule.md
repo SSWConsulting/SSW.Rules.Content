@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make newcomers feel welcome by setting a reminder to check their accounts, ensuring required equipment, assigning an induction buddy, and planning a friendly hello on their first day."
 type: rule
 title: Starting - Do you know how to make newcomers feel welcome?
 uri: make-newcomers-feel-welcome

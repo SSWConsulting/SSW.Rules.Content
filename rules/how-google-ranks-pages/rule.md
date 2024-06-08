@@ -1,5 +1,4 @@
 ---
-seoDescription: "Google's sophisticated ranking algorithms ensure high-quality results by considering factors like on-page content, user engagement, and technical aspects."
 type: rule
 title: Do you know how Google ranks pages in 2024?
 uri: how-google-ranks-pages

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Positive attitude boosts telemarketing success by focusing on why prospects want to buy from you."
 type: rule
 archivedreason: 
 title: Do you have the right attitude?

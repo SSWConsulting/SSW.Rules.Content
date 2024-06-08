@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn the 8 simple steps to Scrum and master Agile project management."
 type: rule
 title: Do you know the 8 Steps to Scrum?
 uri: 8-steps-to-scrum

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using menus to maintain ComboBoxes and instead use an ellipses button to drill down into the menu for efficient maintenance."
 type: rule
 archivedreason: 
 title: Do you avoid using menus for ComboBox maintenance?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set up your calendar to accurately track your availability and boost team collaboration by setting work hours, sharing calendars, allowing admin access, and sending leave appointments."
 type: rule
 archivedreason: 
 title: Calendar - Does your calendar always accurately show where you are?

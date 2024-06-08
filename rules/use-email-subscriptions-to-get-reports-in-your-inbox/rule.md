@@ -1,5 +1,4 @@
 ---
-seoDescription: "Power BI email subscriptions deliver reports directly to your inbox, simplifying business insights and decision-making."
 type: rule
 archivedreason: 
 title: Do you use 'Email Subscriptions' to get reports in your inbox?

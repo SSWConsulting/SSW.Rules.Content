@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline your communication by recreating email groups as Slack channels, ensuring effective posting and content sharing."
 type: rule
 archivedreason: 
 title: Do you add your Email groups as Channels?

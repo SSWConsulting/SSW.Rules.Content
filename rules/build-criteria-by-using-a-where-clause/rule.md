@@ -1,5 +1,4 @@
 ---
-seoDescription: "Build criteria by using a WHERE clause, allowing for more complex filtering and similar matches with LIKE statements."
 type: rule
 title: Do you build criteria by using a where clause?
 uri: build-criteria-by-using-a-where-clause
@@ -14,14 +13,13 @@ archivedreason: null
 guid: 5fecc770-d99e-4fb3-9b96-f1d4e6613e22
 ---
 
-It is very common to come up with ways to filter data.
+It is very common to come up with ways to filter data. 
 
 As an example, you could do it like this:
 
 ```sql
 ClientSearch.aspx?Client.ClientID='ssw'&Client.CoName='S'
 ```
-
 **Figure: Filtering Data**
 
 This allows you to easily extract fields and values, but it only works for the fields you hard code. You could get around it by writing complex code to build a SQL query or ignore the ones that don't match.
@@ -51,7 +49,6 @@ But why do this when a WHERE clause in SQL can do all this. E.g.:
 ```sql
 ClientSearch.aspx?Where=Client.ClientID%20like%20'%ssw%'
 ```
-
 **Figure: Similar matches**
 
 The PROS for do this are:

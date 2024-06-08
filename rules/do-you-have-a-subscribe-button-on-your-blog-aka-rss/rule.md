@@ -1,5 +1,4 @@
 ---
-seoDescription: "Blogs with visible "subscribe" buttons receive more returning visitors, encouraging loyalty and engagement."
 type: rule
 archivedreason: 
 title: Do you have a 'subscribe' button on your blog? (aka RSS)

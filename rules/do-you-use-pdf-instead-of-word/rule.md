@@ -1,5 +1,4 @@
 ---
-seoDescription: "Proposal submissions should be in PDF format to ensure security and universality across different operating systems."
 type: rule
 archivedreason: 
 title: Do you use PDF instead of Word?

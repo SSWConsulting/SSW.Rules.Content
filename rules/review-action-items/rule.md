@@ -1,5 +1,4 @@
 ---
-seoDescription: "Review and assign clear responsibilities to action items after board meetings to ensure accountability, track progress, and clarify expectations."
 type: rule
 title: Do you review action items and assign clear responsibilities?
 uri: review-action-items

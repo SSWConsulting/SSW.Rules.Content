@@ -1,5 +1,4 @@
 ---
-seoDescription: "Windows Server VHD setup requires installing Desktop Experience and Wireless LAN Service through Server Manager to enable themes and optimize performance."
 type: rule
 archivedreason: 
 title: Do you know what features to install on a Windows Server VHD?

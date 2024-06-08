@@ -1,5 +1,4 @@
 ---
-seoDescription: "Organize and back up your files to prevent data loss and ensure easy accessibility."
 type: rule
 title: Video data - Do you back up your files in an organized way?
 uri: organize-and-back-up-your-files

@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint developers should disable auto activation of features at farm and web application scopes to ensure control over feature deployment."
 type: rule
 title: Do you turn off auto activation on farm and web application scope features?
 uri: do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features

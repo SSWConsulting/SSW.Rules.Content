@@ -1,5 +1,4 @@
 ---
-seoDescription: "Every Product Backlog Item (PBI) should have an owner to facilitate communication and clear accountability during a Sprint."
 type: rule
 title: Tasks - Do you know that every PBI should have an owner?
 uri: tasks-do-you-know-that-every-user-story-should-have-an-owner

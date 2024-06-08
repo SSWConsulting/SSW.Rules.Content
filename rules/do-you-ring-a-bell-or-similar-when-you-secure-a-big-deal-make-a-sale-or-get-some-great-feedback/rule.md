@@ -1,5 +1,4 @@
 ---
-seoDescription: "Motivate employees and celebrate milestones by ringing a bell or similar when securing big deals, making sales, or receiving great feedback."
 type: rule
 title: Do you ring a bell or similar when you secure a big deal, make a sale, or
   get some great feedback?

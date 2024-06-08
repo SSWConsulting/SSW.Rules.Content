@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost office morale and productivity by incorporating daily exercise at work, with simple activities like planking or walking outdoors."
 type: rule
 title: Do you encourage daily exercise at work?
 uri: do-you-encourage-daily-exercise-at-work

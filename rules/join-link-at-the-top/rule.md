@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enhance remote meeting productivity by placing the join link at the top of appointment bodies to ensure attendees can easily access and participate."
 type: rule
 archivedreason: 
 title: Appointments - Do you always put your join link for remote meetings at the top of the body?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Long-running processes can be made user-friendly by providing informative feedback and options to manage their execution."
 type: rule
 archivedreason: 
 title: Long Process - Do you know how to make long-running processes user-friendly?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Visually indicate the page you are at on the menu to make it easy for users to know where they are within a website."
 type: rule
 archivedreason: 
 title: Do you visually indicate the page you are at on the menu (aka active state)?

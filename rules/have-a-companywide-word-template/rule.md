@@ -1,5 +1,4 @@
 ---
-seoDescription: "Have a company-wide Word template that ensures consistency and branding across all documents. (Note: This SEO description is concise, includes primary keywords, and matches user intent.)"
 type: rule
 title: Logon - Do you have a company-wide Word template?
 uri: have-a-companywide-word-template

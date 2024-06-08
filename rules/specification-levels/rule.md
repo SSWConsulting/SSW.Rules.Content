@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know how thorough your customer's specifications are? There are 5 levels/types of Specifications: Level 1: I have an idea..., Level 2: High-Level Requirements Document, Level 3: Detailed Requirements Document, Level 4: Functional Specification, and Level 5: Technical Specification."
 type: rule
 archivedreason: 
 title: Do you know how thorough your customer's specifications are?

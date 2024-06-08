@@ -1,5 +1,4 @@
 ---
-seoDescription: "Reduce the risk of bugs and costly fixes by building a solid foundation of unit tests, double-checking core logic with each compile."
 type: rule
 title: Do you know why unit tests are important?
 uri: why-unit-tests-are-important

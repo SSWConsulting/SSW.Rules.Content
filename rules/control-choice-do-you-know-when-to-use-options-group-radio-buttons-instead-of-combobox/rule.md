@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use options group Radio Buttons instead of ComboBox? Use radio buttons when options are static, fit on screen, and require single-click selection."
 type: rule
 title: Control Choice - Do you know when to use options group Radio Buttons
   instead of ComboBox?

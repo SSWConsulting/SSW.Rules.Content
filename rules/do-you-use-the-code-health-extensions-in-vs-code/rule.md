@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost code quality and consistency for lightweight web projects using CSSLint and ESLint extensions in VS Code."
 type: rule
 title: Do you use the Code Health Extensions in VS Code?
 uri: do-you-use-the-code-health-extensions-in-vs-code

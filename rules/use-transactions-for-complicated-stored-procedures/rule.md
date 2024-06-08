@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use transactions to ensure atomicity and prevent partial updates when executing complicated stored procedures."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you use transactions for complicated stored procedures?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remove unused "My Site" and "My Profile" features to streamline SharePoint experience."
 type: rule
 archivedreason: 
 title: Do you remove ‘My Site’ and ‘My Profile’ if you are not using them?

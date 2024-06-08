@@ -1,5 +1,4 @@
 ---
-seoDescription: "Leave code cleaner than found it, removing smells and improving readability with techniques like DRY, renaming, and restructuring."
 type: rule
 title: Do you follow the boy scout rule?
 uri: follow-boy-scout-rule

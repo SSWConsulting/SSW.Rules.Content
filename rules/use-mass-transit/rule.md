@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use MassTransit to build reliable distributed applications and decouple your architecture from specific messaging technologies."
 type: rule
 title: Do you use MassTransit to build reliable distributed applications?
 uri: use-mass-transit

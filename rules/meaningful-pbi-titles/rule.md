@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use meaningful Product Backlog Item (PBI) titles? Learn how to create efficient and descriptive PBI titles that make it easy for developers or Product Owners to quickly understand the context and importance of each item."
 type: rule
 title: Do you use meaningful PBI titles?
 uri: meaningful-pbi-titles

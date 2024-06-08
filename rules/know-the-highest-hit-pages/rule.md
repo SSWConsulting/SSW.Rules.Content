@@ -1,5 +1,4 @@
 ---
-seoDescription: "Measuring website usage helps optimize high-traffic pages for better system performance."
 type: rule
 archivedreason: 
 title: Do you know the highest hit pages?

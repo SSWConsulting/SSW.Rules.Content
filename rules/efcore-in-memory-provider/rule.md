@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify your Entity Framework Core tests by leveraging the EF Core In-Memory provider, which eliminates database dependencies and improves test reliability."
 type: rule
 title: Do you use the EF Core In-Memory provider to simplify your tests?
 uri: efcore-in-memory-provider

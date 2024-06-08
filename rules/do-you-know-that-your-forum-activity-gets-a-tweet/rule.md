@@ -1,5 +1,4 @@
 ---
-seoDescription: "Based on your activity on the forum, here is a generated SEO description: "Forum expert shares insights and answers questions on Aardvark and MSDN" Let me know if you need any adjustments or changes! 😊"
 type: rule
 archivedreason: Irrelevant (as per Camilla and Tiago)
 title: Do you know that your forum activity gets a tweet?

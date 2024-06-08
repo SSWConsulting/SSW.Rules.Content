@@ -1,5 +1,4 @@
 ---
-seoDescription: "Network intrusion prevention systems detect and block cyber attacks in real-time, safeguarding your business from data breaches and downtime."
 type: rule
 archivedreason: 
 title: Do you use Network Intrusion Prevention Systems?

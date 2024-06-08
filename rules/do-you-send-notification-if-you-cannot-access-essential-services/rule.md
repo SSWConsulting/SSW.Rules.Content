@@ -1,5 +1,4 @@
 ---
-seoDescription: "When essential network services fail, timely notifications ensure swift issue resolution and minimal business disruption."
 type: rule
 archivedreason: 
 title: Do you send notification if you cannot access essential services?

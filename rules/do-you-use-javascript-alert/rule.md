@@ -1,5 +1,4 @@
 ---
-seoDescription: "JavaScript alerts are evil, and using Toastr instead can improve user experience with customizable notifications."
 type: rule
 archivedreason: 
 title: Popup - Do you know JavaScript alerts are evil?

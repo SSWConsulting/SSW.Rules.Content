@@ -1,5 +1,4 @@
 ---
-seoDescription: "Upgrade to TFS 2012 and enjoy local workspaces, async checkout for server workspaces, and merge on unshelve features."
 type: rule
 archivedreason: No one should be using TFS 2012.
 title: Do you use TFS 2012 instead of TFS 2010?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you add cards to your YouTube videos? Cards on YouTube are an effective way to keep people watching your videos by suggesting to the viewer the other videos they could be interested in."
 type: rule
 archivedreason: 
 title: Do you add cards to your YouTube videos?

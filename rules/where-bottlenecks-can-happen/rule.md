@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify and optimize performance bottlenecks across SQL Server, business logic, front-end, connections, and infrastructure layers to enhance overall application speed."
 type: rule
 archivedreason: 
 title: Do you know where bottlenecks can happen?

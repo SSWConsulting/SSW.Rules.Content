@@ -1,5 +1,4 @@
 ---
-seoDescription: "High-quality images enhance user experience and improve website credibility, with a minimum width of 800px for most visuals."
 type: rule
 archivedreason: 
 title: Do you have good quality images?

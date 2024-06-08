@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage bundle size effectively and improve your web app's performance by identifying and eliminating unnecessary NPM packages."
 type: rule
 archivedreason: 
 title: Do you know the best ways to manage your bundle size?

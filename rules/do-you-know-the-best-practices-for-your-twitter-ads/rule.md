@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize your Twitter ad campaigns' performance by following best practices and utilizing expert resources on campaign setup, ad creation, and budget optimization."
 type: rule
 archivedreason: 
 title: Twitter - Do you know the best practices for your Twitter ads?

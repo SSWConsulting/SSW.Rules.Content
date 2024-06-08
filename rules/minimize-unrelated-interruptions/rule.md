@@ -1,5 +1,4 @@
 ---
-seoDescription: "Minimize distractions and keep group calls focused by messaging "BRB" or "I have to go" and muting your mic when interrupted."
 type: rule
 archivedreason: null
 title: Group calls - Do you minimize unrelated interruptions?

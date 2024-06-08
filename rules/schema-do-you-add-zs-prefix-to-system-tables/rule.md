@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schema guidelines suggest adding a "zs" prefix to system tables not containing application data for uniformity and organization."
 type: rule
 archivedreason: 
 title: Schema - Do you add zs prefix to system tables?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Google's search appliance has a file size limit of 500kb and may ignore files larger than 30MB."
 type: rule
 archivedreason: 
 title: Do you keep your files under the Google file size limit?

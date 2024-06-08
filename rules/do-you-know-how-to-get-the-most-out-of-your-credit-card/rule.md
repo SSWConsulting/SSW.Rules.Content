@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize your travel benefits with airline-affiliated credit cards and offset annual fees with rewards."
 type: rule
 archivedreason: 
 title: Do you know how to get the most out of your credit card?

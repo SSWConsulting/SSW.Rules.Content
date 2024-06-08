@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use ticket deflection to streamline your customer support and provide a more consistent experience?"
 type: rule
 archivedreason: 
 title: Do you use ticket deflection?

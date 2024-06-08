@@ -1,5 +1,4 @@
 ---
-seoDescription: "Limiting project scope requires effective communication and estimation to deliver maximum value to clients."
 type: rule
 title: Do you limit the project scope?
 uri: limit-project-scope

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain clear communication and avoid fragmented email threads by replying directly to original emails rather than attaching previous correspondence."
 type: rule
 archivedreason: 
 title: Do you avoid attaching emails to emails?

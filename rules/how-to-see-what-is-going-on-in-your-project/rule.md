@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand what's going on in your project with Microsoft Teams notifications!"
 type: rule
 title: Do you know how to see what’s going on in your project?
 uri: how-to-see-what-is-going-on-in-your-project

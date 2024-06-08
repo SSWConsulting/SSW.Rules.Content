@@ -1,5 +1,4 @@
 ---
-seoDescription: "Sync your Microsoft Teams files to File Explorer and manage them like a local document on your machine."
 type: rule
 title: Files - Do you sync your files from Teams to File Explorer?
 uri: sync-files-from-teams-to-file-explorer

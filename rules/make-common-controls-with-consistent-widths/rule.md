@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make common controls consistent by standardizing widths to ensure a cohesive user experience."
 type: rule
 title: Do you make common controls with consistent widths?
 uri: make-common-controls-with-consistent-widths

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When developing command-line applications, providing a list of arguments and help on usage is crucial for effective user interaction."
 type: rule
 title: Do you provide list of arguments?
 uri: provide-list-of-arguments

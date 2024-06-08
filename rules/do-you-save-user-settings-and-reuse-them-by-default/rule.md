@@ -1,5 +1,4 @@
 ---
-seoDescription: "Save user settings and reuse them by default to enhance return experiences and demonstrate smart application behavior."
 type: rule
 title: Do you save user settings and reuse them by default?
 uri: do-you-save-user-settings-and-reuse-them-by-default

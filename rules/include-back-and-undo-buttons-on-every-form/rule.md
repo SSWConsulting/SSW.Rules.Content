@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering forms with intuitive navigation by including "Back" and "Undo" buttons to streamline interactions and enhance user experience."
 type: rule
 title: Do you include "Back" and "Undo" buttons on every form?
 uri: include-back-and-undo-buttons-on-every-form

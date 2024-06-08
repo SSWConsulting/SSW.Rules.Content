@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your computer's performance by allocating more RAM and processors on a VM or PC, backed by data-driven insights."
 type: rule
 archivedreason: 
 title: Do you know what to request if someone wants more RAM and processors on a VM or a PC?

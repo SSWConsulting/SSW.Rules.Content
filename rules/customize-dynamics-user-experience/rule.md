@@ -1,5 +1,4 @@
 ---
-seoDescription: "Customize Dynamics 365 apps and enhance user experience with Power Apps Component Framework (PCF) controls, allowing for intuitive interfaces and seamless integration of favorite web technologies."
 type: rule
 title: Do you know how to customize the Dynamics User Experience?
 uri: customize-dynamics-user-experience

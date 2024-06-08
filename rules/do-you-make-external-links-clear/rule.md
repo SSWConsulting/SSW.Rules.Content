@@ -1,5 +1,4 @@
 ---
-seoDescription: "Visually indicate when a link is external to avoid surprises and enhance user experience by adding an icon or indicator to distinguish external links from internal ones."
 type: rule
 title: Do you visually indicate when a link is external?
 uri: do-you-make-external-links-clear

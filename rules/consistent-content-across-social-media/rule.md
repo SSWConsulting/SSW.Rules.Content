@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistent branding across social media platforms helps reinforce a strong online presence and boosts audience engagement. By using the same caption, URLs, videos, images, and hashtags on each platform, you create a unified brand voice that resonates with your followers."
 type: rule
 title: Content - Do you keep your content consistent across your different
   social media platforms?

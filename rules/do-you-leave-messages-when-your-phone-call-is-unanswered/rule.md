@@ -1,5 +1,4 @@
 ---
-seoDescription: "When you leave messages after an unanswered phone call, provide your name, reason for calling, and contact number to ensure a timely response."
 type: rule
 archivedreason: 
 title: Do you leave messages when your phone call is unanswered?

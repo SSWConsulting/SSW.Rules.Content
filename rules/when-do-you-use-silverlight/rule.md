@@ -1,5 +1,4 @@
 ---
-seoDescription: "When do you use Silverlight? Silverlight is ideal for creating a richer experience, but it's not suitable for data entry forms or Android and iOS users. Instead, HTML 5 should be the default experience for business apps."
 type: rule
 archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 title: When do you use Silverlight?

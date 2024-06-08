@@ -1,5 +1,4 @@
 ---
-seoDescription: "Gather opinions from your team and improve your business processes with a regular feedback loop."
 type: rule
 title: Do you gather opinions from your team?
 uri: gather-team-opinions

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Upgrade your laptop regularly to ensure optimal performance and reduce waste through a computer rotation policy that includes recycling old devices."
 type: rule
 title: Computer Rotation - Do you know when to upgrade your laptop?
 uri: upgrade-your-laptop

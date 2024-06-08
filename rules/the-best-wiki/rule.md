@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Teams users can leverage OneNote's offline capabilities through its native mobile app, ensuring seamless collaboration regardless of internet connectivity."
 type: rule
 archivedreason: 
 title: Do you know the best wiki for Microsoft Teams?

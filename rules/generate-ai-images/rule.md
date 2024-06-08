@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the power of AI-generated images and unlock new creative possibilities!"
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-ai-image-generators/](/rules/rules-to-better-ai-image-generators)
 title: Do you know how and when to use AI generated images?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering source control allows you to track changes, collaborate with team members, and recover from mistakes while keeping your code safe."
 type: rule
 title: Do you know the benefits of using source control?
 uri: do-you-know-the-benefits-of-using-source-control

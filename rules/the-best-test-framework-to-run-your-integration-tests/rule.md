@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best test framework to run your integration tests, including Fixie's extensible conventions based system for controlling test discovery and execution."
 type: rule
 archivedreason: Rule is misleading, content has been added to the unit testing framework rule
 title: Do you know the best test framework to run your integration tests?

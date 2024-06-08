@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make your templates accessible to everyone in your organization to share knowledge and maintain high-quality work."
 type: rule
 archivedreason: 
 title: IP - Do you make your templates accessible to everyone in your organization?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your TFS workspaces by deleting unused ones after 6 months and warning developers about stale spaces after 3 months."
 type: rule
 archivedreason: 
 title: Do you know to delete workspaces older than 6 months and warn on 3?

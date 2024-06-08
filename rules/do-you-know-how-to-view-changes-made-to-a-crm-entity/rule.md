@@ -1,5 +1,4 @@
 ---
-seoDescription: "View changes made to a CRM entity with ease using Microsoft Dynamics CRM's Audit History page, showing old and new values for auditing purposes."
 type: rule
 title: Do you know how to view changes made to a CRM entity?
 uri: do-you-know-how-to-view-changes-made-to-a-crm-entity

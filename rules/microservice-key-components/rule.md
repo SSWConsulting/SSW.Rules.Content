@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the key components of a Microservice solution, including API gateways, flexible deployment models, and event-driven architecture."
 type: rule
 title: Do you know the key components of a Microservice solution?
 uri: microservice-key-components

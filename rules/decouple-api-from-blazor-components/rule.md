@@ -1,5 +1,4 @@
 ---
-seoDescription: "Decouple your API implementation from your Blazor components to achieve better maintainability and testability."
 type: rule
 archivedreason: 
 title: Do you decouple your API implementation from your Blazor components?

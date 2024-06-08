@@ -1,5 +1,4 @@
 ---
-seoDescription: "Controls - Include '-All-' option in your ComboBoxes to give users a chance to select all data."
 type: rule
 archivedreason: 
 title: Controls - Do you include '-All-' option in your ComboBoxes?

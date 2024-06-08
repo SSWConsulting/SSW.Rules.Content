@@ -1,5 +1,4 @@
 ---
-seoDescription: "Developers should use their own SharePoint development environment to prevent custom work from affecting other developers, ensuring a stable and efficient testing process."
 type: rule
 archivedreason: 
 title: Do you know that developers should do all their custom work in their own SharePoint development environment?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Scheduling appointments effectively by using a consistent naming convention that includes client names and project details."
 type: rule
 archivedreason: 
 title: Scheduling - Do you have a consistent naming convention for your bookings?

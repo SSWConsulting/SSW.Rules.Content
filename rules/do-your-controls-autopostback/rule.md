@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automating postbacks on controls with fixed values boosts user navigation speed and efficiency."
 type: rule
 archivedreason: 
 title: Do your controls autopostback?

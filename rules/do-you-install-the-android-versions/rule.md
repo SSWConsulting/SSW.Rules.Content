@@ -1,5 +1,4 @@
 ---
-seoDescription: "Install the Microsoft Lync client on Android devices to stay connected and available to clients regardless of location."
 type: rule
 archivedreason: Irrelevant
 title: Do you install the Android versions?

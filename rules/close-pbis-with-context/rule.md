@@ -1,5 +1,4 @@
 ---
-seoDescription: "When closing PBIs, tasks, and goals, provide valuable context to help teams understand the outcome and changes made."
 type: rule
 title: Do you close PBIs, tasks and goals with context?
 uri: close-pbis-with-context

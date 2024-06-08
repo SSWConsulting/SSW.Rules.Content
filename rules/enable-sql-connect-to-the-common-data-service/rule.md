@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enable SQL read-only connect to Common Data Service and unlock direct query Power BI reports with Dynamics entities."
 type: rule
 title: Do you enable SQL (Read-Only) connect to the Common Data Service?
 uri: enable-sql-connect-to-the-common-data-service

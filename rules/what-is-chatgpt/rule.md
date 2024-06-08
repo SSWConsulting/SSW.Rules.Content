@@ -1,5 +1,4 @@
 ---
-seoDescription: "ChatGPT is a conversational AI language model that understands natural language and responds with human-like accuracy, making it suitable for various applications including customer service, chatbots, and text generation."
 type: rule
 title: What is ChatGPT?
 uri: what-is-chatgpt

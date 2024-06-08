@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your Microsoft Dynamics CRM installation is up to date with current rollups and updates for faster searches, improved support, and bug fixes."
 type: rule
 archivedreason: 
 title: Installation - Do you ensure you are on the current CRM Rollup?

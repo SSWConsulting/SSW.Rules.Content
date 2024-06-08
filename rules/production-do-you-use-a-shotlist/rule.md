@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optimize your video production by using a shot list to plan and track interesting moments, cutaways, and captions."
 type: rule
 archivedreason: 
 title: Production - Do you use a shotlist?

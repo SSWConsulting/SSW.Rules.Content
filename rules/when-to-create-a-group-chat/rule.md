@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a group chat before making a Teams call to keep everyone involved and avoid disrupting others."
 type: rule
 title: Do you know when to create a group chat?
 uri: when-to-create-a-group-chat

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Using absolute paths for newsletter links and images ensures a seamless user experience by providing a reliable reference for external users."
 type: rule
 archivedreason: 
 title: HTML - Do you use absolute paths for newsletter links and images?

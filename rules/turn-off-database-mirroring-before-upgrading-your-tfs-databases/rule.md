@@ -1,5 +1,4 @@
 ---
-seoDescription: "Upgrade TFS databases successfully by turning off database mirroring before schema upgrades to avoid verification issues and SQL Server log headaches."
 type: rule
 archivedreason: 
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?

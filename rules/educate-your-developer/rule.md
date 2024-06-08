@@ -1,5 +1,4 @@
 ---
-seoDescription: "Educate developers on permission granting processes and best practices to ensure secure and efficient resource access."
 type: rule
 title: Do you know how to educate your developers?
 uri: educate-your-developer

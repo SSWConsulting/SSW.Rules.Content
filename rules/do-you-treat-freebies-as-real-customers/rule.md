@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you treat freebies as real customers? Learn how to provide high-quality services and gather valuable feedback from those who receive your freebies."
 type: rule
 archivedreason: 
 title: Do you treat freebies as real customers?

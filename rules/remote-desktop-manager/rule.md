@@ -1,5 +1,4 @@
 ---
-seoDescription: "Streamline remote access management with Devolutions' Remote Desktop Manager, a secure platform for centralized connection sharing and efficient multi-computer access."
 type: rule
 title: Do you have a Remote Desktop Manager?
 uri: remote-desktop-manager

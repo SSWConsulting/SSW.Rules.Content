@@ -1,5 +1,4 @@
 ---
-seoDescription: "Connect to VSTS Git with Personal Access Tokens, automate your workflow and secure access to Visual Studio Online projects."
 type: rule
 archivedreason: 
 title: Do you know to connect to VSTS Git with Personal Access Tokens

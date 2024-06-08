@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify matrix columns to improve readability and enhance user understanding."
 type: rule
 archivedreason: 
 title: Column Data - Do you make matrix columns as simple as possible?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Protect your users from risky behavior with Azure Active Directory's user risk policy, automatically blocking or requiring password resets based on sign-in risk levels."
 type: rule
 title: Do you have a User Risk Policy?
 uri: user-risk-policy

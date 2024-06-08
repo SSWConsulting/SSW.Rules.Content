@@ -1,5 +1,4 @@
 ---
-seoDescription: "SQL Server log files provide vital error and performance information, including error logs, agent logs, job history, and DBMaint history."
 type: rule
 archivedreason: 
 title: DBAs - Do you know all the log files?

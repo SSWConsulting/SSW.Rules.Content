@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Hemmingway Editor to improve readability and engagement of your writing. This tool analyzes text for common issues, highlighting areas that need improvement, such as passive voice, complex phrases, and adverbs."
 type: rule
 archivedreason: 
 title: Do you use the Hemmingway Editor to improve your writing?

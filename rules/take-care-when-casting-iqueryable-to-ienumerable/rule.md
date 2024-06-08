@@ -1,5 +1,4 @@
 ---
-seoDescription: "When casting IQueryable to IEnumerable and querying data afterwards, Entity Framework must collect the data at that point, resulting in significant extra database load and processing on the client side. Use AsEnumerable() instead for more efficient queries."
 type: rule
 title: Do you take care when casting IQueryable to IEnumerable?
 uri: take-care-when-casting-iqueryable-to-ienumerable

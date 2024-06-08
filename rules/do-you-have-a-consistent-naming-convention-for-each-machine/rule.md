@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consistent naming convention for each machine helps network configuration and easy identification, adopting animal kingdom theme at SSW."
 type: rule
 archivedreason: 
 title: Do you have a consistent naming convention for each machine?

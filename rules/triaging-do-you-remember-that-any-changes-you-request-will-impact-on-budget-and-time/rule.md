@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remember that any changes you request will impact project budget and time."
 type: rule
 archivedreason: 
 title: Triaging - Do you remember that any changes you request will impact on budget and time?

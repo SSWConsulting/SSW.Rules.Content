@@ -1,5 +1,4 @@
 ---
-seoDescription: "What to tweet about? Make it relevant and interesting to your target audience! Don't waste followers' time with off-topic or low-value tweets. Focus on sharing valuable insights, updates, or engaging stories that resonate with them."
 type: rule
 title: Twitter - Do you know to tweet relevant stuff only?
 uri: do-you-know-what-to-tweet

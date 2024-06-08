@@ -1,5 +1,4 @@
 ---
-seoDescription: "Correcting email bounces requires verifying recipient addresses and resending messages with accurate information to ensure successful delivery."
 type: rule
 archivedreason: 
 title: Do you know how to correct an email bounce?
@@ -33,7 +32,7 @@ Get the correct email address and ‘Reply to all’ with just this text in brac
 
 ::: greybox
   (Resending with Adam’s correct email)
-
+                                
   ---------------------------------
   {{ ORIGINAL EMAIL }}  
 :::

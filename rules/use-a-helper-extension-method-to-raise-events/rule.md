@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use a helper extension method to simplify event raising and reduce code maintenance complexity."
 type: rule
 title: Do you use a helper extension method to raise events?
 uri: use-a-helper-extension-method-to-raise-events

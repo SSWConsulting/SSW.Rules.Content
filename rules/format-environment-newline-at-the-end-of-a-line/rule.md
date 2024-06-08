@@ -1,5 +1,4 @@
 ---
-seoDescription: "Properly format "Environment.NewLine" at the end of a line in C# code to ensure accurate text manipulation and rendering."
 type: rule
 title: Do you format "Environment.NewLine" at the end of a line?
 uri: format-environment-newline-at-the-end-of-a-line

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Xamarin developers use design-time data to preview UI controls bound to ViewModels, ensuring a more accurate design experience."
 type: rule
 archivedreason: 
 title: Debugging - Do you use design time data?

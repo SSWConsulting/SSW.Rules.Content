@@ -1,5 +1,4 @@
 ---
-seoDescription: "Many companies benefit from Single Sign-On (SSO) technology, allowing users to log in once and stay authenticated across multiple web applications."
 type: rule
 archivedreason: 
 title: Do you use SSO (Single sign-on) for your websites?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize expense clarity by including a detailed memo field, providing purpose, project/client info, authorization details, and supporting documentation."
 type: rule
 title: Expenses - Do your fields have a good description?
 uri: do-your-cheque-and-memo-fields-have-a-good-description

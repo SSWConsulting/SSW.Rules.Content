@@ -1,5 +1,4 @@
 ---
-seoDescription: "Companies have a lot of information and standards, some public and some private, making it essential to provide new employees with a guided induction process."
 type: rule
 title: Do you have an induction program?
 uri: have-an-induction-program

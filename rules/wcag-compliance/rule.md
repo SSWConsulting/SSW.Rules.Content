@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make your website WCAG compliant to ensure equal access for all users, regardless of abilities or navigation methods."
 type: rule
 archivedreason: 
 title: Do you make your website WCAG compliant?

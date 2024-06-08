@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure consistent collation server-wide to simplify development and avoid errors when joining tables across databases."
 type: rule
 archivedreason: 
 title: DBAs - Do you make sure you use a consistent Collation server-wide?

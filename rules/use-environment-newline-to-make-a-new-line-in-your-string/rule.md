@@ -1,5 +1,4 @@
 ---
-seoDescription: "When creating a new line in your string, use Environment.NewLine to improve readability and memory utilization."
 type: rule
 title: Do you use Environment.NewLine to make a new line in your string?
 uri: use-environment-newline-to-make-a-new-line-in-your-string

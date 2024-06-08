@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn to run manual tests efficiently in Microsoft Test Manager and track testing progress with ease."
 type: rule
 title: Do you know how to run a manual test in Microsoft Test Manager?
 uri: do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager

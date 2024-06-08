@@ -1,5 +1,4 @@
 ---
-seoDescription: "Foster meaningful online discussions and encourage attendee engagement through strategic hashtag use, promoting presentation feedback and community-building."
 type: rule
 title: Do you promote online discussions on presentations?
 uri: do-your-presentations-promote-online-discussion

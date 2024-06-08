@@ -1,5 +1,4 @@
 ---
-seoDescription: "Provide red error messages next to each field for a more intuitive and user-friendly experience."
 type: rule
 archivedreason: 
 title: Do you provide red errors next to the field?

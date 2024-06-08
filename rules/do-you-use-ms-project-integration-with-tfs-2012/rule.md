@@ -1,5 +1,4 @@
 ---
-seoDescription: "MS Project integration with TFS 2012 enables seamless publishing of hierarchies and work items."
 type: rule
 archivedreason: Not as useful nowadays.
 title: Do you use MS Project integration with TFS 2012?

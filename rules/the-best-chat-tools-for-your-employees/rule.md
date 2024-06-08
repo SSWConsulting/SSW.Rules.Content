@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best chat tools for your employees and boost communication efficiency with Microsoft Teams, Skype, Slack, and more."
 type: rule
 title: Communication - Do you know the best chat tools for your employees?
 uri: the-best-chat-tools-for-your-employees

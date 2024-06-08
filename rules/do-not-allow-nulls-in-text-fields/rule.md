@@ -1,5 +1,4 @@
 ---
-seoDescription: "Data doesn't allow nulls in text fields to simplify queries and reduce complexity."
 type: rule
 archivedreason: 
 title: Data - Do you not allow Nulls in text fields?

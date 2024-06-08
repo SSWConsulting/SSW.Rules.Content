@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use parameters to control various aspects of AI-generated images, such as resolution, randomness, aspect ratio, and style, to produce high-quality results that meet your specific needs."
 type: rule
 archivedreason:
 title: Do you use parameters in your image prompts?

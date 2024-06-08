@@ -1,5 +1,4 @@
 ---
-seoDescription: "Host your website globally with servers around the world and use a Content Delivery Network (CDN) to ensure fast page loads for users worldwide."
 type: rule
 archivedreason: 
 title: Do you have servers around the world and use CDN?

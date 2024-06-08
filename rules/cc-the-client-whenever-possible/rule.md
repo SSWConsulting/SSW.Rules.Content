@@ -1,5 +1,4 @@
 ---
-seoDescription: "CC the client from the beginning to ensure transparency and accuracy in communication."
 type: rule
 archivedreason: 
 title: Do you CC the client whenever possible?

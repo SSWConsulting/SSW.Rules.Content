@@ -1,5 +1,4 @@
 ---
-seoDescription: "Give thanks to valuable digital content by leaving thoughtful comments and acknowledging GitHub contributions, boosting online presence, reputation, and connections."
 type: rule
 title: Do you give thanks for valuable content?
 uri: give-thanks

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create deployment batch files and setparameters files for each environment to streamline your deployments and achieve efficient results."
 type: rule
 archivedreason: 
 title: Do you Create a Deployment Batch file and SetParameters file for each Environment?

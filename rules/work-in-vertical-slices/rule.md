@@ -1,5 +1,4 @@
 ---
-seoDescription: "Strengthening team skills through vertical slicing, where developers work on a whole slice of code from frontend to API."
 type: rule
 title: Do you work in vertical slices?
 uri: work-in-vertical-slices

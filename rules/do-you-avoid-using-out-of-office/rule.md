@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you minimize the use of Out of Office? Minimize unnecessary use of out-of-office notifications and automate responses only for extended periods off the grid to maintain productivity."
 type: rule
 title: Do you minimize the use of Out of Office?
 uri: do-you-avoid-using-out-of-office

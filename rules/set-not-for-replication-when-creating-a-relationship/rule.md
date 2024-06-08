@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set "Not For Replication" when creating a relationship to ensure data integrity during replication operations."
 type: rule
 archivedreason: 
 title: Relationships - Do you set Not For Replication when creating a relationship?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Leverage lost opportunities to boost business performance by setting up a CRM system with customizable loss reasons and reporting capabilities."
 type: rule
 title: Do you know how to make lost opportunities more visible?
 uri: crm-opportunities-more-visible

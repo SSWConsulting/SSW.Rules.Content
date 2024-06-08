@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint calendar cleanup simplifies site organization by removing unused event lists and streamlining site maintenance."
 type: rule
 title: Do you clean useless calendars in SharePoint?
 uri: do-you-clean-useless-calendars-in-sharepoint

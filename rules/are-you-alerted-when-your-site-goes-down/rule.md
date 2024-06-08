@@ -1,5 +1,4 @@
 ---
-seoDescription: "Prevent unexpected downtime with Application Insights, which sends email alerts when your site becomes unavailable."
 type: rule
 archivedreason: 
 title: Are you alerted when your site goes down?
@@ -22,18 +21,25 @@ Application Insights can help you minimize the downtime by sending you an Email 
 
 ![](site down2.png)
 
+
 ::: bad
 Bad example: Site was down over the weekend unnoticed
 :::
 
+
+
 ![](test.png)
+
 
 ::: good
 Good example: Availability tests are created for multiple locations
 
 :::
 
+
+
 ![](alert 2.png)
+
 
 ::: good
 Good example: Email alert is enabled to minimize the downtime

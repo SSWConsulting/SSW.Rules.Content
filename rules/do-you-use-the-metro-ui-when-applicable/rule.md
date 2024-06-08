@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft's Metro UI guideline provides a consistent user experience across devices, simplifying app development for developers."
 type: rule
 archivedreason: Too specific and deprecated
 title: Do you use the Metro UI when applicable?

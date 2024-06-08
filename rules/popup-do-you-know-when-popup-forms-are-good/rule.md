@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use popup forms: Simplify complex forms, provide clear action steps and avoid distractions."
 type: rule
 archivedreason: 
 title: Popup - Do you know when Popup forms are good?

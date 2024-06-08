@@ -1,5 +1,4 @@
 ---
-seoDescription: "Improve website usability with mega-menus that group links into categories, providing a clear site structure and meaningful choices."
 type: rule
 archivedreason: 
 title: Do you use Mega-menu navigation to improve usability?

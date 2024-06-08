@@ -1,5 +1,4 @@
 ---
-seoDescription: "Show phone numbers correctly by including country codes and formats that allow international calls or texts."
 type: rule
 title: Do you know the right format to show phone numbers?
 uri: right-format-to-show-phone-numbers

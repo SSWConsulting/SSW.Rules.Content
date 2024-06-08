@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure data security and version control by using source control systems and regular backups to prevent data loss."
 type: rule
 title: Efficiency - Do you use Source Control and Backups?
 uri: do-you-use-source-control-and-backups

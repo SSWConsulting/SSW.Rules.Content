@@ -1,5 +1,4 @@
 ---
-seoDescription: "Write end-to-end tests for critical happy-paths to ensure robust and reliable workflows in software applications."
 type: rule
 archivedreason: 
 title: Do you write end-to-end tests for critical happy-paths?

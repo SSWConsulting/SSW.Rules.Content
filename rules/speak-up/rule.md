@@ -1,5 +1,4 @@
 ---
-seoDescription: "When unfairness arises in the workplace, it's crucial to address the issue and maintain a positive working environment."
 type: rule
 title: Do you speak up about unfairness?
 uri: speak-up

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When opening a web page from a Windows application, use a hyperlink unless taking specific action, then an image button illustrates the action taken."
 type: rule
 title: Do you use an image button for opening a web page taking action?
 uri: do-you-use-an-image-button-for-opening-a-web-page-taking-action

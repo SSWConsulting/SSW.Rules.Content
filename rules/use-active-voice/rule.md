@@ -1,5 +1,4 @@
 ---
-seoDescription: "Write compelling and engaging content using active voice to get the most out of your writing."
 type: rule
 archivedreason: 
 title: 'Do you write content using active voice?'

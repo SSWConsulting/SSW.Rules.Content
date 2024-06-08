@@ -1,5 +1,4 @@
 ---
-seoDescription: "Monitor server uptimes daily with WhatsUp Gold and ensure maximum reliability and performance."
 type: rule
 title: Servers - Do you monitor the uptimes of all your servers daily?
 uri: monitor-the-uptimes-of-all-your-servers-daily

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Say goodbye to time wasting with this simple productivity trick!"
 type: rule
 title: No Hello - Do you ask the question straight away?
 uri: no-hello

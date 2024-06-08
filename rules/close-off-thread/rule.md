@@ -1,5 +1,4 @@
 ---
-seoDescription: "Close off email threads efficiently with "Done - see email", clarifying task completion and reducing IM clutter."
 type: rule
 title: Do you close off a message thread?
 uri: close-off-thread

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mention someone's name using a @mention when making a pull request or commenting on GitHub for effective communication and collaboration."
 type: rule
 archivedreason: Rule has been combined with [https://ssw.com.au/rules/when-you-use-mentions-in-a-pbi](/rules/when-you-use-mentions-in-a-pbi)
 title: Do you know to mention someone with a @mention when you make a pull request or comment on GitHub?

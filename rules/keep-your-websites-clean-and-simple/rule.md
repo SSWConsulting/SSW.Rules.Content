@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify your website's design to boost user engagement and conversions with clean layouts, minimal text, and fast page loading."
 type: rule
 archivedreason: 
 title: Do you keep your websites clean and simple?

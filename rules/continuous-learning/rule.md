@@ -1,5 +1,4 @@
 ---
-seoDescription: "Continuous learning is key to staying ahead of the curve in a rapidly evolving industry."
 type: rule
 title: Do you continuously learn?
 uri: continuous-learning

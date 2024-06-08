@@ -1,5 +1,4 @@
 ---
-seoDescription: "Update your Teams status message to share your work projects, needed team members, and location for instant visibility."
 type: rule
 archivedreason: 
 title: Do you use the status message in Teams?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the difference between CRM 2013's Campaign and Quick Campaign features, designed to suit your marketing strategies."
 type: rule
 archivedreason: 
 title: Marketing - Do you know the differences between Campaign and Quick Campaign in CRM 2013?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to go for a tender? Determine whether you have a pre-existing relationship with key stakeholders, know the competition, and if the tender fits Agile methodologies."
 type: rule
 archivedreason: 
 title: Do you know when to go for a Tender?

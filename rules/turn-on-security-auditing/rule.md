@@ -1,5 +1,4 @@
 ---
-seoDescription: "Configure SQL Server login security auditing to ensure database integrity and monitor suspicious activity efficiently."
 type: rule
 archivedreason: 
 title: DBAs - Do you turn on security auditing?

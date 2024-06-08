@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the secrets to creating a great company logo that's simple, versatile, and memorable."
 type: rule
 archivedreason: 
 title: Do you have a great company logo?

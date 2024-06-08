@@ -1,5 +1,4 @@
 ---
-seoDescription: "Choose the Right Azure Services: Mastering Application Architecture Discover how to select the perfect Azure services for your application with a simple 2-question framework. Learn about the different control models, data storage options, and more to ensure a successful project outcome."
 type: rule
 title: Do you know how to choose Azure services?
 uri: choose-azure-services

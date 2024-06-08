@@ -1,5 +1,4 @@
 ---
-seoDescription: "Implement error loggers with notifications to ensure quality and long-term stability of applications, while also fostering a sense of ownership and accountability."
 type: rule
 archivedreason: 
 title: Quality - Do you implement an error logger that has notifications?

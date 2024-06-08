@@ -1,5 +1,4 @@
 ---
-seoDescription: "Unplanned outage process for SysAdmins to ensure minimal disruption to business operations while resolving hardware and service outages."
 type: rule
 title: Outage - Do you have an unplanned outage process?
 uri: unplanned-outage-process

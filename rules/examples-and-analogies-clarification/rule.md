@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clarify complex concepts with ChatGPT by requesting examples or analogies that provide relatable and accessible explanations."
 type: rule
 title: Do you ask for examples or analogies to clarify complex concepts?
 uri: examples-and-analogies-clarification

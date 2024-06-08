@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add version numbers to PBIs that undergo multiple iterations to track changes and facilitate team decision-making."
 type: rule
 title: Do you add a version number to PBIs that have multiple iterations
 uri: do-you-add-a-version-number-to-pbis-that-have-multiple-iterations

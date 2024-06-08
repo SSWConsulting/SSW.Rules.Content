@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ask open-ended questions to engage prospects and encourage meaningful conversations during outbound calls."
 type: rule
 archivedreason: 
 title: Do you ask open-ended questions?
@@ -25,7 +24,7 @@ Here's an example of the kind of question you DON'T want to ask:
 **Question:** Do you know a lot about .NET?
 :::
 ::: bad
-Figure: Bad example
+Figure: Bad example 
 :::
 
 This question is a show stopper! It's too easy for prospects to give a one-word response. If they say no, then you've effectively dug a really deep hole for yourself and it's tough to recover from this position to close the prospect. If they say 'yes', then that's not too bad but they're probably sick of hearing you speak and are waiting for something to wake them up. If you give your callers a sniff of how to finish the call quickly then like a lion to its prey, they'll pounce: _"No, not interested!"_.

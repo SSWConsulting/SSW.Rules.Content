@@ -1,5 +1,4 @@
 ---
-seoDescription: "Windows Hello provides a secure and convenient way to authenticate to devices and accounts using biometric gestures."
 type: rule
 title: Do you use Windows Hello?
 uri: windows-hello

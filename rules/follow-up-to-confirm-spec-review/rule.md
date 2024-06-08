@@ -1,5 +1,4 @@
 ---
-seoDescription: "Confirming a Spec Review and keeping stakeholders aligned through timely follow-ups ensures a seamless experience."
 type: rule
 title: Do you follow-up to confirm a Spec Review?
 uri: follow-up-to-confirm-spec-review

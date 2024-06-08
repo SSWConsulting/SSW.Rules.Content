@@ -1,5 +1,4 @@
 ---
-seoDescription: "Technical oversight expertises provide a high-level view of projects, identifying broader problems and acting to correct them."
 type: rule
 title: Do you have a good technical overview?
 uri: technical-overview

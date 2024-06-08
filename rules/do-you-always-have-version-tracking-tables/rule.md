@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schema version tracking tables help ensure consistency and accuracy across development, test, and production environments."
 type: rule
 archivedreason: 
 title: Schema - Do you always have version tracking tables?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Storyboarding simplifies complex user requirements through visual mockups, saving time and improving understanding."
 type: rule
 archivedreason: one-line rule, redundant
 title: Do you know how to use storyboards?

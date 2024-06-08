@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you manage clients' expectations by being upfront about estimates and costs?"
 type: rule
 title: Do you manage clients' expectations?
 uri: do-you-manage-clients-expectations

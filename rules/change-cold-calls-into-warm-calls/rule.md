@@ -1,5 +1,4 @@
 ---
-seoDescription: "Convert cold calls into warm calls by sending prospects an email out, allowing them to decide if it's of interest to them."
 type: rule
 archivedreason: 
 title: Do you change cold calls into warm calls?

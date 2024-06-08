@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use emojis to give context and boost user adoption to Microsoft Teams by making channel names more memorable and engaging."
 type: rule
 title: Do you use emojis to help give context?
 uri: use-emojis

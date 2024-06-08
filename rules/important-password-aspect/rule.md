@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand the importance of password length and how it affects security with The Hive Systems."
 type: rule
 title: Passwords - Do you know the most important aspect of your password?
 uri: important-password-aspect

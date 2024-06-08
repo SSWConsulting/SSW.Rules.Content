@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Lync conference call organizers lead productive remote meetings as presenters with features including whiteboard collaboration, desktop and application sharing."
 type: rule
 archivedreason: 
 title: Do you setup Lync conference calls (that makes you the Organizer/Leader/Presenter)?

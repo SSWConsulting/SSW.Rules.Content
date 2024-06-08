@@ -1,5 +1,4 @@
 ---
-seoDescription: "Fixed Price projects end at the warranty period, but do you transition back to Time & Materials for ongoing work?"
 type: rule
 title: Fixed Price – Do you transition back to T&M at the end of the warranty period?
 uri: fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period

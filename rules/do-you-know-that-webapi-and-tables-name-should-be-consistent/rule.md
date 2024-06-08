@@ -1,5 +1,4 @@
 ---
-seoDescription: "WebAPIs and table names should be consistent to simplify development and maintenance of your API layer."
 type: rule
 archivedreason: 
 title: Do you know that WebAPI and table names should be consistent?

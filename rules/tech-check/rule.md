@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a seamless presentation by conducting a tech check before going live, covering microphones, speakers, displays, recording/stream, cameras, and lighting to avoid technical issues."
 type: rule
 title: Presenting - Do you do a tech check before presenting?
 uri: tech-check

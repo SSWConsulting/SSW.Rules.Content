@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you capture software requirements by storyboarding?"
 type: rule
 title: Do you capture software requirements by storyboarding?
 uri: storyboards

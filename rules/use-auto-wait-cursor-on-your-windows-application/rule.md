@@ -1,5 +1,4 @@
 ---
-seoDescription: "Automate cursor management on Windows applications and simplify your code with AutoWaitCursor, a class that sets and restores cursors according to application busy status."
 type: rule
 title: Do you use AutoWaitCursor on Windows applications?
 uri: use-auto-wait-cursor-on-your-windows-application

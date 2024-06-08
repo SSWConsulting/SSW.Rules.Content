@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use "Tree of Thought" prompts for complex reasoning? Improve ChatGPT's reasoning abilities with Tree of Thought (ToT) prompting! This technique enhances the model's ability to answer complex questions by exploring multiple branches of reasoning and self-correcting as it goes along."
 type: rule
 title: Do you use "Tree of Thought" prompts for complex reasoning?
 uri: tree-of-thought-prompts-for-complex-reasoning

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Answering questions in Jira involves opening a questioned task from your dashboard or an email link, deciding if it's still required, and completing relevant fields to save and assign it back."
 type: rule
 archivedreason: 
 title: Do you know how to answer a question in Jira?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "When retrieving data, it's more efficient to only collect the necessary information, reducing computation, IO, memory usage, and CPU load on the calling side."
 type: rule
 title: Do you only project properties you need?
 uri: only-project-properties-you-need

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the secrets to job satisfaction and enjoyment by finding meaning, cultivating positive relationships, seeking growth, maintaining work-life balance, celebrating achievements, and practicing open communication."
 type: rule
 archivedreason: 
 title: Do you seek job satisfaction and enjoyment?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Screen unwanted sales calls by asking the caller to provide the full name of the person they're seeking and verifying their context."
 type: rule
 archivedreason: 
 title: Do you screen unwanted sales calls?

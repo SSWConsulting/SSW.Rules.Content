@@ -1,5 +1,4 @@
 ---
-seoDescription: "Popup/modal forms should never have ShowInTaskbar=True as it can cause issues and make the form appear as a separate window."
 type: rule
 archivedreason: 
 title: Do you know that popup/modal forms should never have ShowInTaskbar=True?

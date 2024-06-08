@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid using bold tags inside headings to maintain consistency and improve readability."
 type: rule
 title: Do you avoid using bold tags inside headings?
 uri: do-you-know-not-to-use-bold-tags-inside-headings

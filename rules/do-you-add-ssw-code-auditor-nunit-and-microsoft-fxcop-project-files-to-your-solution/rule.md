@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add SSW Code Auditor, NUnit and Microsoft FxCop project files to your solution for effortless code auditing."
 type: rule
 archivedreason: 
 title: Do you Add SSW Code Auditor, NUnit and Microsoft FxCop project files to your Solution

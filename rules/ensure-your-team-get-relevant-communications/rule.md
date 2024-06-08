@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your team receives relevant communications and stay connected through surveys, training, and announcements."
 type: rule
 archivedreason: 
 title: Do you ensure your team get relevant communications?

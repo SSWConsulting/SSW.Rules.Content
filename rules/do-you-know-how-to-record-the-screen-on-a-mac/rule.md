@@ -1,5 +1,4 @@
 ---
-seoDescription: "Record your Mac screen using built-in functionalities or popular alternatives like Camtasia and ScreenFlow."
 type: rule
 archivedreason: 
 title: Do you know how to record the screen on a Mac?

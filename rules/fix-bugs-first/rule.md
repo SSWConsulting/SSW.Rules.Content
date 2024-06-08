@@ -1,5 +1,4 @@
 ---
-seoDescription: "Fixing bugs first saves time and effort as they become more complex and costly to resolve over time."
 type: rule
 title: Management - Do you fix bugs first?
 uri: fix-bugs-first

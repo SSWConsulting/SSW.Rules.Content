@@ -1,5 +1,4 @@
 ---
-seoDescription: "Professional video calls can improve communication skills and build relationships when using Teams/Zoom/ Skype."
 type: rule
 title: Communication - Do you go beyond text chat and do professional video calls?
 uri: go-beyond-just-using-chat

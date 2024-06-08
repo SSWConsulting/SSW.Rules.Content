@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the ultimate resources for mastering Angular development, including official documentation, training courses, books, and free events."
 type: rule
 title: Do you know the best learning resources for Angular?
 uri: the-best-learning-resources-for-angular

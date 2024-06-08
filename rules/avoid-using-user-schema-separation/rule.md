@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schema simplification boosts readability and maintainability, making it unnecessary to use user-schema separation unless dealing with very large databases."
 type: rule
 archivedreason: 
 title: Schema - Do you avoid using user-schema separation?
@@ -19,9 +18,11 @@ User-schema separation allows more flexibility by adding another level of naming
 
 <!--endintro-->
 
+
 ::: bad  
 ![Figure: Bad Example - AdventureWorks using user schema - instead, keep it simple and avoid using user schema unnecessarily](SQLDatabases\_UserSchema\_Bad.jpg)  
 :::
+
 
 ::: good  
 ![Figure: Good Example - Adventure works with user schema cleaned out. Much simpler and more readable](SQLDatabases\_UserSchema\_Good.jpg)  

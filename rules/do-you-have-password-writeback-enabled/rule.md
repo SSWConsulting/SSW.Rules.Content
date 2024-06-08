@@ -1,5 +1,4 @@
 ---
-seoDescription: "Azure AD Connect password writeback enables users to reset on-premises passwords from the cloud."
 type: rule
 title: Security - Do you have Password Writeback enabled?
 uri: do-you-have-password-writeback-enabled

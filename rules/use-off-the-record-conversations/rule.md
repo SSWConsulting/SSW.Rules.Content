@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use off-the-record conversations to address undesirable behavior and help employees improve while protecting them from negative repercussions."
 type: rule
 archivedreason: 
 title: Do you use ‘off the record’ conversations when appropriate?

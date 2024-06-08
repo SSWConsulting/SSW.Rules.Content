@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to effectively manage and respond to LinkedIn messages from clients, potential employees, and partners. Enable messaging for your Page, set up pre-set responses, conversation topics, and best practices to maintain a strong online presence and reputation."
 type: rule
 title: LinkedIn - Do you know how to reply to company messages on LinkedIn?
 uri: reply-linkedin-messages

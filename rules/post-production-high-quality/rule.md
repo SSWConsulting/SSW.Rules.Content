@@ -1,5 +1,4 @@
 ---
-seoDescription: "Post-production experts recommend using high-quality formats such as 4K or HD to ensure optimal video quality. By choosing the right format and compression settings, you can stream your videos seamlessly online without compromising on fidelity."
 type: rule
 title: Post-Production - Do you use 'HD or '4K' quality?
 uri: post-production-high-quality

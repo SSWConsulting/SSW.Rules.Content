@@ -1,5 +1,4 @@
 ---
-seoDescription: "Long-running processes should indicate a coffee cup to prepare users for extended wait times."
 type: rule
 archivedreason: 
 title: Very Long Process - Do you know that long-running processes should show a coffee cup?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Users can easily report bugs or give feedback on every page through a simple link, making it convenient to share their thoughts."
 type: rule
 archivedreason: 
 title: Do you provide a link for users to give feedback (or report bugs)?

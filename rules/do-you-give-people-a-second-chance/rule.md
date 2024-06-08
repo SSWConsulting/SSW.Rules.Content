@@ -1,5 +1,4 @@
 ---
-seoDescription: "Giving people a second chance to learn from their mistakes and grow can be a powerful way to build trust and foster a positive work environment."
 type: rule
 archivedreason: 
 title: Do you give people a second chance?

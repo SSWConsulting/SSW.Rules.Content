@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to configure YARP, a reverse proxy solution for ASP.NET Core applications, and discover its benefits in enhancing performance, security, and scalability."
 type: rule
 title: Do you know how to configure YARP?
 uri: do-you-know-how-to-configure-yarp

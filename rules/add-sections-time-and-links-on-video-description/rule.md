@@ -1,5 +1,4 @@
 ---
-seoDescription: "Add time links to YouTube videos' descriptions to enhance user engagement and provide easy access to specific sections or chapters."
 type: rule
 archivedreason: 
 title: Post-Production - Do you add time links to YouTube videos' descriptions?

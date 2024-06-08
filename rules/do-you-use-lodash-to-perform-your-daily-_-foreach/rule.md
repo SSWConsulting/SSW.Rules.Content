@@ -1,5 +1,4 @@
 ---
-seoDescription: "Lodash simplifies JavaScript development by providing a vast array of performant functions to avoid reinventing the wheel, making daily tasks more efficient."
 type: rule
 archivedreason: 
 title: Do you use lodash to perform your daily _.foreach?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best load testing tools for web applications, including open-source options and commercial solutions, to ensure your website can handle increased traffic and user loads."
 type: rule
 title: Do you know the best load testing tools for web applications?
 uri: the-best-load-testing-tools-for-web-applications

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure your DotNetNuke site remains up-to-date with the latest version to optimize performance and security."
 type: rule
 title: Have you installed the latest DNN version?
 uri: latest-dnn-version

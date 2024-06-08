@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep track of important but off-topic items in a "Parking Lot" to revisit later."
 type: rule
 title: Do you keep track of a "Parking Lot" for off topic items that are important, but need to be taken offline?
 uri: keep-track-of-a-parking-lot-for-topics

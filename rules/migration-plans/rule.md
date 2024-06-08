@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a migration plan by targeting multiple target frameworks (TFMs) to avoid introducing breaking changes while migrating from .NET Framework to .NET."
 type: rule
 title: Do you create a migration plan?
 uri: migration-plans

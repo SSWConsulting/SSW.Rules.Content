@@ -1,5 +1,4 @@
 ---
-seoDescription: "Master the art of capitalizing titles and headings with our easy-to-follow rules!"
 type: rule
 title: Do you know how to capitalize titles and headings?
 uri: how-to-capitalize-titles

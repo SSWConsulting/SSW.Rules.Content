@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to enter a receipt through Xero Me by following these simple steps and tips for efficient expense claims management."
 type: rule
 title: Do you know how to enter a receipt through Xero Me?
 uri: how-to-enter-a-xero-me-receipt

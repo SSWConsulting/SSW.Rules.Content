@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to backup data on SQL Azure using its built-in automatic backup system and avoid T-SQL restores."
 type: rule
 title: Do you know how to backup data on SQL Azure?
 uri: do-you-know-how-to-backup-data-on-sql-azure

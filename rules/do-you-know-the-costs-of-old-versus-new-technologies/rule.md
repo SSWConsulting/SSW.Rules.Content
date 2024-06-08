@@ -1,5 +1,4 @@
 ---
-seoDescription: "Old versus new technologies: Consider costs and compatibility when choosing a solution to build your project."
 type: rule
 archivedreason: 
 title: Do you know the costs of old versus new technologies?

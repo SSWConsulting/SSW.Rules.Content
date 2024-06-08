@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clear billing expectations for meetings and project work to avoid misunderstandings with clients."
 type: rule
 archivedreason: 
 title: Meetings - Are you clear about billable time in meetings?

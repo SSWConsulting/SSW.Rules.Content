@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Azure Machine Learning to make predictions from your data and unlock new insights with its easy-to-use and feature-rich platform."
 type: rule
 archivedreason: 
 title: Do you use Azure Machine Learning to make predictions from your data?

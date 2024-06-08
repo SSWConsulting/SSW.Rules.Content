@@ -1,5 +1,4 @@
 ---
-seoDescription: "Immerse your multinational teams in cultural exchange programs to improve communication and collaboration across global offices."
 type: rule
 title: Do you have a Cultural Exchange program?
 uri: cultural-exchange

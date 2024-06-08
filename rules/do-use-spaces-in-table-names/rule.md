@@ -1,5 +1,4 @@
 ---
-seoDescription: "Table names without spaces simplify code and prevent upsize issues to SQL Server, making it a better choice."
 type: rule
 archivedreason: 
 title: Do use spaces in table names?

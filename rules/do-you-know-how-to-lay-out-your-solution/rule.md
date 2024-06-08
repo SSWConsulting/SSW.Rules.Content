@@ -1,5 +1,4 @@
 ---
-seoDescription: "Know how to lay out your solution structure for a well-organized and maintainable .NET project."
 type: rule
 archivedreason: 
 title: Do you know how to lay out your solution?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set up a suitable SharePoint development environment using virtual machines or Visual Studio Code for efficient and flexible testing."
 type: rule
 title: Do you use the right SharePoint development environment?
 uri: use-the-right-sharepoint-development-environment

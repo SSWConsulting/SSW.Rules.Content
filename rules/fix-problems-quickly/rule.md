@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you fix problems quickly? Conflict can arise when issues aren't addressed promptly, leading to dissatisfaction and loss of trust. To avoid bad blood, prioritize resolving conflicts and offer an olive branch after a resolution is found."
 type: rule
 title: Conflict - Do you fix problems quickly?
 uri: fix-problems-quickly

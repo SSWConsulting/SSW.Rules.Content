@@ -1,5 +1,4 @@
 ---
-seoDescription: "Schedule marketing meetings to stay on track and avoid wasting your Marketing plan."
 type: rule
 archivedreason: 
 title: Do you schedule marketing meetings?

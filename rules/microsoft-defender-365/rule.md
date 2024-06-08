@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft Defender 365 helps enterprises prevent, detect, and respond to advanced threats with its robust endpoint security platform."
 type: rule
 title: Do you use Microsoft Defender 365?
 uri: microsoft-defender-365

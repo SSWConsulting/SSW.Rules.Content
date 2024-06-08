@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best microphone type for your video production needs, from webcam to shotgun mics."
 type: rule
 archivedreason: 
 title: Production - Do you know what type of microphone to use?

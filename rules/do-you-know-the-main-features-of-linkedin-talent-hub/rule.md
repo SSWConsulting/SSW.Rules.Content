@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the power of LinkedIn Talent Hub/Recruiter, a unified ATS platform for sourcing, managing and hiring top talent."
 type: rule
 title: Do you know the main features of LinkedIn Talent Hub/Recruiter?
 uri: do-you-know-the-main-features-of-linkedin-talent-hub

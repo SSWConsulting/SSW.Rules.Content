@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use natural language prompts to improve ChatGPT's conversational responses and get accurate answers."
 type: rule
 title: Do you use natural language with ChatGPT?
 uri: use-natural-language-with-chatgpt

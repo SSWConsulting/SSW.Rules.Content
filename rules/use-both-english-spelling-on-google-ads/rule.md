@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use both conventional and American English spelling to reach a broader audience on Google Ads."
 type: rule
 archivedreason: 
 title: SEM - Do you use both conventional and American spelling for your Google Ads?

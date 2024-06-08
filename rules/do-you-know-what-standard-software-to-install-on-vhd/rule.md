@@ -1,5 +1,4 @@
 ---
-seoDescription: "Standard software to install on VHD includes SnagIt for screen capture, O365 Apps, and TeamViewer."
 type: rule
 archivedreason: 
 title: Do you know what standard software to install on VHD?

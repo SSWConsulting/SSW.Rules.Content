@@ -1,5 +1,4 @@
 ---
-seoDescription: "When creating a new resource via the Web API, it's essential to include the URI of the new resource in the Location header of the response."
 type: rule
 archivedreason: 
 title: Do you return a Resource URL?

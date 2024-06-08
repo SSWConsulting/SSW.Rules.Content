@@ -1,5 +1,4 @@
 ---
-seoDescription: "DevOps checklist for monitoring and application life cycle management, ensuring quality metrics are tracked across three categories: Always Tasks, Daily Tasks, and End of Sprint Tasks."
 type: rule
 title: Do you have a DevOps Checklist?
 uri: do-you-have-a-devops-checklist

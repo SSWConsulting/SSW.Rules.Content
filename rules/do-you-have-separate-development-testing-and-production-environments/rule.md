@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maintain three separate environments for development, testing and production to ensure a smooth deployment process, reduce support costs, and provide a better user experience."
 type: rule
 archivedreason: 
 title: Do you have separate development, testing and production environments?

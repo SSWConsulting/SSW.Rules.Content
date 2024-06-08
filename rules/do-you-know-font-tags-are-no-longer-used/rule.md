@@ -1,5 +1,4 @@
 ---
-seoDescription: "Know how to use font tags? Don't! They're deprecated since HTML 4. Use CSS classes for styling instead."
 type: rule
 archivedreason: 
 title: Do you know to not use FONT tags?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Optical alignment ensures a harmonious visual flow by balancing text and whitespace to create a pleasing layout."
 type: rule
 archivedreason: 
 title: Do you consider optical alignment?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Follow established control size and spacing standards to ensure a consistent user experience and boost product professionalism."
 type: rule
 archivedreason: 
 title: Do you follow the control size and spacing standards?

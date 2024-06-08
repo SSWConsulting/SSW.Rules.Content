@@ -1,5 +1,4 @@
 ---
-seoDescription: "Painful R&D processes require meticulous record-keeping of failed experiments and evidence of innovative breakthroughs."
 type: rule
 archivedreason: 
 title: Do you know how painful R&D is?

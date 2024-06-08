@@ -1,5 +1,4 @@
 ---
-seoDescription: "Format your message text in code as you want to see on the screen. Write each parameter of MessageBox in a separate line for clarity."
 type: rule
 archivedreason: 
 title: Do you know how to format your MessageBox code?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering Blazor development requires a solid foundation in these essential resources, from tutorials to books and courses."
 type: rule
 archivedreason: 
 title: Do you know the best Blazor learning resources?

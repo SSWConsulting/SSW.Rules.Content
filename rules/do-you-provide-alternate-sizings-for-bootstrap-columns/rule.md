@@ -1,5 +1,4 @@
 ---
-seoDescription: "Alternate sizings for Bootstrap columns provide more control over responsive layouts, allowing customization of stacking behavior across various screen sizes."
 type: rule
 archivedreason: 
 title: Do you provide alternate sizings for Bootstrap columns?

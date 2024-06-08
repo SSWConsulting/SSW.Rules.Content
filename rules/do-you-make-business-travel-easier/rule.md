@@ -1,5 +1,4 @@
 ---
-seoDescription: "Make business travel easier with Uber for Business, a powerful tool that simplifies employee transportation and expense management."
 type: rule
 title: Do you make business travel easier?
 uri: do-you-make-business-travel-easier

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Simplify remote testing and collaboration by using Dev Tunnels or alternative port forwarding solutions to expose your locally running application over the internet."
 type: rule
 title: Do you use port forwarding to test local builds?
 uri: port-forwarding

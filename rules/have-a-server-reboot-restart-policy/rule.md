@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you have a planned outage process to ensure minimal disruption and effective communication with users?"
 type: rule
 title: Outage - Do you have a planned outage process?
 uri: planned-outage-process

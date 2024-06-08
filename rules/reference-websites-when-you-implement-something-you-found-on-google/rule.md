@@ -1,5 +1,4 @@
 ---
-seoDescription: "When implementing something you found on Google, it's essential to reference the original website where you discovered the solution."
 type: rule
 title: Do you reference websites when you implement something you found on Google?
 uri: reference-websites-when-you-implement-something-you-found-on-google

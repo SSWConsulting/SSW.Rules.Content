@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use your personal message to share good news and recent work with your IM contacts, promoting a sense of accomplishment and connection."
 type: rule
 archivedreason: 
 title: Display - Do you use your personal message to share good news with your contacts?

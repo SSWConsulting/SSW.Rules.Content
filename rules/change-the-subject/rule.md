@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to change the email subject: Change it cautiously and early on when the topic subtly changes, using accurate keywords for better searchability."
 type: rule
 archivedreason: 
 title: Do you know when to change the email subject (or appointment subject)?

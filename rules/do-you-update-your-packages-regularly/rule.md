@@ -1,5 +1,4 @@
 ---
-seoDescription: "Staying up-to-date with NuGet package updates ensures improved stability and reduced risk of breaking changes or regressions."
 type: rule
 title: Do you update your packages regularly?
 uri: do-you-update-your-packages-regularly

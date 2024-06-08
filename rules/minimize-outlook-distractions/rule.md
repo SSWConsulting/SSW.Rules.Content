@@ -1,5 +1,4 @@
 ---
-seoDescription: "Minimize Outlook distractions by turning off sounds, changing mouse cursors, and disabling new mail desktop alerts for improved productivity."
 type: rule
 archivedreason:
 title: Do you minimize your Outlook Distractions?

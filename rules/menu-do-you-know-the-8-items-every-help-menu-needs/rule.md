@@ -1,5 +1,4 @@
 ---
-seoDescription: "A comprehensive help menu should include training videos, online user guides, knowledge bases, suggestion tools, bug reporting features, and more."
 type: rule
 archivedreason: 
 title: Menu - Do you know the 8 items every "Help" menu needs?

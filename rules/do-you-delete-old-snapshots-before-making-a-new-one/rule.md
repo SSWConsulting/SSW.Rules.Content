@@ -1,5 +1,4 @@
 ---
-seoDescription: "Deleting old snapshots before making a new one optimizes disk space and ensures efficient virtual machine management."
 type: rule
 archivedreason: 
 title: Do you delete old snapshots before making a new one?

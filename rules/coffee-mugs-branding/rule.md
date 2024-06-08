@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you brand your computer safe coffee mugs and water bottles to protect your equipment from spillage and create a memorable gift for clients."
 type: rule
 title: Do you brand your (computer safe) coffee mugs and water bottles?
 uri: coffee-mugs-branding

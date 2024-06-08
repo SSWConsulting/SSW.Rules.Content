@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize your productivity and accuracy by ensuring you have essential fields on your timesheets, including client ID or name, work location, project and iteration, category, time spent, breaks, and notes."
 type: rule
 archivedreason: 
 title: Do you have essential fields for your timesheets?

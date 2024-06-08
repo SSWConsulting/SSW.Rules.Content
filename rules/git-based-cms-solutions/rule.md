@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here's your SEO description: "Unlock powerful workflows and scalability with Git-based CMS solutions like TinaCMS, CrafterCMS, Publii, Contentrain, or StaticCMS - perfect for developers seeking flexible content management.""
 type: rule
 title: Do you use Git-based Content Management Systems (CMS)? 
 uri: git-based-cms-solutions

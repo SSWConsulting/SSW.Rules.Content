@@ -1,5 +1,4 @@
 ---
-seoDescription: "Invoices for customised training clients should be sent promptly upon confirmation of the engagement to confirm the training and facilitate early payment."
 type: rule
 archivedreason: 
 title: Do you know how to invoice a customised training client?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Agile teams navigate uncertainty by focusing on near-term priorities and refining estimates as project understanding grows."
 type: rule
 archivedreason: 
 title: Do you explain the 'Cone of Uncertainty' to people on the fence about Agile?

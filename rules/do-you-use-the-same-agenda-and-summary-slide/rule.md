@@ -1,5 +1,4 @@
 ---
-seoDescription: "Match your presentation's agenda and summary slides to ensure a clear overview of key points and leave a lasting impression."
 type: rule
 title: Do you match the 'Agenda' and 'Summary' slides?
 uri: do-you-use-the-same-agenda-and-summary-slide

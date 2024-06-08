@@ -1,5 +1,4 @@
 ---
-seoDescription: "How to give customers a ballpark estimate of project costs using Scrum and Excel."
 type: rule
 archivedreason: 
 title: Do you know how to give the customer a ballpark?

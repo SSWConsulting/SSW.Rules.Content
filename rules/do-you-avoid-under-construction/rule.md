@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid website downtime by setting realistic goals and allocating necessary resources for a complete online presence."
 type: rule
 archivedreason: 
 title: Do you avoid "Under Construction"?

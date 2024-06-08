@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to target LTS versions of .NET Core and .NET 6+: Understand the support lifecycle and make informed decisions for your application."
 type: rule
 archivedreason: 
 title: Do you know when to target LTS versions?

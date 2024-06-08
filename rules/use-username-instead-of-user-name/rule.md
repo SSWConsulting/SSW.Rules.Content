@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid common mistakes by using "Username" instead of "User name"."
 type: rule
 title: 'Do you use "Username" instead of "User name"?'
 uri: use-username-instead-of-user-name

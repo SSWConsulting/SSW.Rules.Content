@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost video chat performance by setting Windows to use the GPU, a simple tweak that improves Microsoft Teams and other apps' graphics processing capabilities."
 type: rule
 title: Do you check the workstations are using the GPU?
 uri: workstations-use-gpu

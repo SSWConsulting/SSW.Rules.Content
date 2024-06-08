@@ -1,5 +1,4 @@
 ---
-seoDescription: "Book better flights within the US by utilizing domestic airline websites and optimizing your travel dates for cheaper fares."
 type: rule
 archivedreason: Outdated and no value, replaced by https://www.ssw.com.au/rules/do-you-know-how-to-book-better-flights/
 title: Do you know how to book better flights within US?

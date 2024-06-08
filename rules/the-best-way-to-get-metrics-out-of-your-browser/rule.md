@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get metrics out of your browser with Lighthouse, an open-source tool built into Google Chrome that audits for performance, accessibility, and more."
 type: rule
 archivedreason: 
 title: Do you know the best way to get metrics out of your browser?

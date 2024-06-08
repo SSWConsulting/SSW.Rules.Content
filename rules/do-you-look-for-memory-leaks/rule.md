@@ -1,5 +1,4 @@
 ---
-seoDescription: "Identify and prevent common memory leaks in UI, middle tiers and RIA services with best practices."
 type: rule
 archivedreason: 
 title: Do you look for memory leaks?

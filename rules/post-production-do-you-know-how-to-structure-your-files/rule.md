@@ -1,5 +1,4 @@
 ---
-seoDescription: "Organize your video files and workflow with a structured approach to streamline editing and collaboration."
 type: rule
 title: Post-Production - Do you know how to structure video files?
 uri: post-production-do-you-know-how-to-structure-your-files

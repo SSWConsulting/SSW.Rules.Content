@@ -1,5 +1,4 @@
 ---
-seoDescription: "Limit access to repository administrators and avoid granting excessive permissions to prevent accidental damage or misuse."
 type: rule
 title: Do you limit who gets admin access to repositories?
 uri: limit-admin-access

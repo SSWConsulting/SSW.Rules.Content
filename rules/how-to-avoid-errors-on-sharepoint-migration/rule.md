@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint migration experts remove customizations and unsupported columns to ensure error-free reports with Sharegate."
 type: rule
 archivedreason: 
 title: Do you know how to avoid errors?

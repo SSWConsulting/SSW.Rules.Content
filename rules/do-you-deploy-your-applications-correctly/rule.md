@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ensure a smooth user experience by deploying applications correctly, avoiding common issues such as inaccessible SQL Server databases or incorrect installation directories."
 type: rule
 title: Do you deploy your applications correctly?
 uri: do-you-deploy-your-applications-correctly

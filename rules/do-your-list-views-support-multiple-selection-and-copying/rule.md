@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enable multiple selection and copying in your List Views to simplify user interaction and reduce errors."
 type: rule
 title: Do your List Views support multiple selection and copying?
 uri: do-your-list-views-support-multiple-selection-and-copying

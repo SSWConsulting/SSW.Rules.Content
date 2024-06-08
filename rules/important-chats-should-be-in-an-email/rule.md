@@ -1,5 +1,4 @@
 ---
-seoDescription: "Important chats should be in an email, not instant messages."
 type: rule
 archivedreason: 
 title: Do you know important chats should be in an email?

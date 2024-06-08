@@ -1,5 +1,4 @@
 ---
-seoDescription: "SQL Server CPU pressure solutions include throwing hardware at the problem, updating index statistics, identifying high and poor-performing queries, and adding missing indexes."
 type: rule
 archivedreason: 
 title: What to do about SQL Server CPU Pressure?

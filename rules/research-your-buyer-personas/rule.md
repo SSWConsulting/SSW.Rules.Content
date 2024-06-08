@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand your ideal customer better and create targeted marketing strategies with buyer personas, semi-fictional representations of your target audience."
 type: rule
 archivedreason: 
 title: Do you know your 'buyer personas'?

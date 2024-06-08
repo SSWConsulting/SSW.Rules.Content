@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enhance your brand's presence by adding a logo and tagline to the Slide Master for consistent branding across all slides."
 type: rule
 title: Slide Master - Do you have your logo and tag line at the bottom?
 uri: slide-master-do-you-have-your-logo-and-tag-line-at-the-bottom

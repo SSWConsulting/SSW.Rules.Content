@@ -1,5 +1,4 @@
 ---
-seoDescription: "Remove spaces from your folders and files to ensure seamless URL translation and avoid technical issues. Use kebab-case with dashes between words for a more readable and URL-friendly naming convention."
 type: rule
 archivedreason: 
 title: Do you remove spaces from folders and files names?

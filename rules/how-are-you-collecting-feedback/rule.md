@@ -1,5 +1,4 @@
 ---
-seoDescription: "Collecting feedback from events is crucial to improve future experiences, with options including forms, online surveys, and rewards systems."
 type: rule
 title: Feedback - Do you collect feedback from your events?
 uri: how-are-you-collecting-feedback

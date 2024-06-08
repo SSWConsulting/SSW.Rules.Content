@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to share a file or folder in SharePoint correctly by copying links instead of using the Share email invite."
 type: rule
 archivedreason: 
 title: Do you know how to share a file/folder in SharePoint?

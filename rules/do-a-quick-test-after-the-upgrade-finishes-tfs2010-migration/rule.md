@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate TFS 2010 smoothly with a quick test after upgrade to ensure Team Web Access accessibility."
 type: rule
 archivedreason: 
 title: Do you do a quick test after the  for TFS 2010 migration finishes?

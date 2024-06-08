@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know the common Design Principles? (Part 2 - Example) Learn how to identify and refactor code that violates Single Responsibility Principle (SRP), reducing Cyclomatic Complexity, High Coupling, and Number of Lines."
 type: rule
 title: Do you know the common Design Principles? (Part 2 - Example)
 uri: do-you-know-the-common-design-principles-part-2-example

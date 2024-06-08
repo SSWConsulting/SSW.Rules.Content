@@ -1,5 +1,4 @@
 ---
-seoDescription: "People call SSW for information about consulting, products or events, to speak with someone specific, and occasionally to make complaints."
 type: rule
 archivedreason: 
 title: Do you know the reasons why people call?

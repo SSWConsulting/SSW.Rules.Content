@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Windows Integrated Authentication connection string in web.config to authenticate users?"
 type: rule
 archivedreason: 
 title: Do you use Windows Integrated Authentication connection string in web.config?

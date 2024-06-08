@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you know when to use Checkboxes? Control your choice with these guidelines! Use checkboxes for forms that require answers to questions or batch settings, single selections like Boolean True/False, or multi-selection from lists."
 type: rule
 title: Control Choice - Do you know when to use CheckBoxes?
 uri: control-choice-do-you-know-when-to-use-checkboxes

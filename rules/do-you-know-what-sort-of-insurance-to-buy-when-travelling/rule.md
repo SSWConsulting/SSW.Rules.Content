@@ -1,5 +1,4 @@
 ---
-seoDescription: "When travelling, knowing which type of insurance to get can be crucial - whether it's travel insurance or car hire insurance, make informed decisions to protect your trip."
 type: rule
 archivedreason: 
 title: Do you know what sort of insurance to get when travelling?

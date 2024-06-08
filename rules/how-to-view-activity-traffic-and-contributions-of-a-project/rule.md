@@ -1,5 +1,4 @@
 ---
-seoDescription: "View project activity, traffic, and contributions on GitHub with Insights, including Pulse, Contributors, and Traffic graphs."
 type: rule
 archivedreason: 
 title: Do you know how to view a project’s activity, traffic and contributions?

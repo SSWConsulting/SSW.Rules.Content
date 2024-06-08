@@ -1,5 +1,4 @@
 ---
-seoDescription: "Working from home doesn't mean abandoning personal appearance and professionalism, even for remote meetings, by dressing accordingly and setting up a dedicated workspace."
 type: rule
 archivedreason: null
 title: Do you take care of your personal appearance even for remote meetings?

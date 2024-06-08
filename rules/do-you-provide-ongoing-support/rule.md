@@ -1,5 +1,4 @@
 ---
-seoDescription: "Ongoing software support and maintenance services ensure applications stay efficient and bug-free, with options for dedicated developer time, pre-paid hours, or fixed price warranties."
 type: rule
 archivedreason: 
 title: Do you provide ongoing support?

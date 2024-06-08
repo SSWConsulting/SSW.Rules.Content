@@ -1,5 +1,4 @@
 ---
-seoDescription: "Minimize Microsoft Teams distractions and stay focused on your tasks by turning it on at startup, disabling email alerts, and customizing notification settings."
 type: rule
 title: Interruptions - Do you minimize Microsoft Teams distractions?
 uri: do-you-minimize-team-distractions

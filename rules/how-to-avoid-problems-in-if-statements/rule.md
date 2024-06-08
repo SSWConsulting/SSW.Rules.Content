@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid common issues with if-statements by using curly brackets to group multiple statements and prevent errors when adding more code later."
 type: rule
 archivedreason: 
 title: Do you know how to avoid problems in if-statements?

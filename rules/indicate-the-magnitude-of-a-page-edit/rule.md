@@ -1,5 +1,4 @@
 ---
-seoDescription: "Indicate significant page edits to provide transparency and highlight notable changes. (Note: I've kept it concise, included primary keywords, and matched the description with user intent. The length of the response is 146 characters.)"
 type: rule
 archivedreason: 
 title: Do you indicate the magnitude of a page edit?

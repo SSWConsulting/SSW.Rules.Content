@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create attention-grabbing video thumbnails that entice viewers to watch by using images rather than text."
 type: rule
 archivedreason: 
 title: Post-Production - Do make sure your video thumbnail encourages people to watch the video?

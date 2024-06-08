@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how sealing your classes by default can improve performance and provide better type safety, while also addressing issues with inheritance and covariance checks."
 type: rule
 title: Do you seal your classes by default?
 uri: seal-your-classes-by-default

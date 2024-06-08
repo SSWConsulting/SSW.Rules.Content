@@ -1,5 +1,4 @@
 ---
-seoDescription: "Write acceptance tests to verify acceptance criteria and ensure user stories meet requirements."
 type: rule
 title: Do you write Acceptance Tests to verify Acceptance Criteria?
 uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria

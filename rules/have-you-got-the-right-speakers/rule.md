@@ -1,5 +1,4 @@
 ---
-seoDescription: "Book top speakers early to ensure a successful event that attracts the right audience and boosts credibility."
 type: rule
 title: Have you got the right speakers?
 uri: have-you-got-the-right-speakers

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Return on Investment (ROI) analysis helps Product Owners make informed decisions by considering the cost and value of different solutions. By quantifying the manual time spent on tasks and calculating their financial impact, teams can prioritize initiatives that drive the most business value."
 type: rule
 title: Do you understand why Return on Investment (ROI) should affect decision making?
 uri: return-on-investment

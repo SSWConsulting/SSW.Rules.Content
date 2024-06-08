@@ -1,5 +1,4 @@
 ---
-seoDescription: "Windows Forms application design best practices emphasize consistent button styles to create a cohesive user experience."
 type: rule
 archivedreason: Deprecated
 title: Control Choice - Do you have a consistent look on your buttons? (Windows Forms Only)

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Effective event planning requires clear job assignments for each volunteer to minimize downtime and maximize enjoyment."
 type: rule
 archivedreason: 
 title: Does each volunteer have a job?

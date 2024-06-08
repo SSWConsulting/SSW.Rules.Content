@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep a record of your IM conversations to reference high-priority issues and resolve problems efficiently."
 type: rule
 archivedreason: 
 title: Do you keep a history of your IM conversations?

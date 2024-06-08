@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track QR code data in Google Analytics by adding UTM parameters to URLs and use the Campaign URL Builder tool to measure custom campaigns and gain insights into user behavior."
 type: rule
 title: Do you track QR codes' data for your own URLs in Google Analytics?
 uri: track-qr-code-data-in-ga

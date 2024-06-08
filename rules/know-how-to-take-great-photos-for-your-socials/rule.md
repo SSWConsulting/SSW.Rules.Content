@@ -1,5 +1,4 @@
 ---
-seoDescription: "Take stunning photos for your social media with these hot photography tips! Learn framing, composition, perspective choice, and photo style secrets to elevate your online presence."
 type: rule
 archivedreason: 
 title: Do you know how to take great photos for your socials?

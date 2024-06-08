@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn when to use StringBuilder and improve performance by minimizing String object creation and modification."
 type: rule
 title: Do you know when to use StringBuilder?
 uri: when-to-use-stringbuilder

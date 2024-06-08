@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use prefixes to improve code review communication, ensuring clarity and collaboration among developers, and streamline the overall code review process."
 type: rule
 title: Do you use prefixes to improve code review communication?
 uri: use-prefixes-to-improve-code-review-communication

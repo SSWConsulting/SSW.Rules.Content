@@ -1,5 +1,4 @@
 ---
-seoDescription: "A query language for APIs, GraphQL provides a simple and intuitive way to manage complex data relationships."
 type: rule
 title: Do you know what GraphQL is?
 uri: do-you-know-what-graphql-is

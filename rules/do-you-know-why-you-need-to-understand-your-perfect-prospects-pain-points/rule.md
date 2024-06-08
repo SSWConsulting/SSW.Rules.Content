@@ -1,5 +1,4 @@
 ---
-seoDescription: "Understand your perfect prospects' pain points to articulate their problems better than they can, and automatically earn their trust with solutions."
 type: rule
 archivedreason: 
 title: Do you know why you need to understand your perfect prospects pain points?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Purge cache to ensure immediate changes on your WordPress site."
 type: rule
 archivedreason: 
 title: Do you purge cache?

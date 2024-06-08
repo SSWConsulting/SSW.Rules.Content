@@ -1,5 +1,4 @@
 ---
-seoDescription: "Organize your workspace effectively using the Japanese-invented 5S desk space organization system, a simple yet powerful method to boost productivity and reduce stress."
 type: rule
 archivedreason: 
 title: Office environment - Do you use the 5S desk space organization system invented by the Japanese?

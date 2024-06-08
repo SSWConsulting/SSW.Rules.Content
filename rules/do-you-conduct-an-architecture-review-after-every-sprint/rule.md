@@ -1,5 +1,4 @@
 ---
-seoDescription: "Conducting an architecture review every few Sprints ensures internal code and architecture health, allowing for timely identification of technical debt and opportunities to improve scalability, maintainability, and reliability."
 type: rule
 archivedreason: 
 title: Do you conduct an architecture review every few Sprints?

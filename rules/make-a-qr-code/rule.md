@@ -1,5 +1,4 @@
 ---
-seoDescription: "QR code creation simplified! Make a QR Code Today and Boost Your Marketing Efforts. (Generated SEO description)"
 type: rule
 title: Do you know how to make a QR code?
 uri: make-a-qr-code

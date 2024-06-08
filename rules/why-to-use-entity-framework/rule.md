@@ -1,5 +1,4 @@
 ---
-seoDescription: "Why use Entity Framework? Simplify database interactions and query complexity with a strongly typed object framework."
 type: rule
 title: Do you know why to use Entity Framework?
 uri: why-to-use-entity-framework

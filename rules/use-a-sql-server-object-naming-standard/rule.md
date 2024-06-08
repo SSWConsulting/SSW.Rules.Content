@@ -1,5 +1,4 @@
 ---
-seoDescription: "SQL Server object naming standard ensures consistency and readability of database objects, including tables, views, procedures, and more."
 type: rule
 title: Do you use a SQL Server object naming standard?
 uri: use-a-sql-server-object-naming-standard

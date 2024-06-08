@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage your huge JavaScript solution efficiently with Nx, a build system that accelerates development and build times, ideal for medium to large-sized monorepos."
 type: rule
 archivedreason: 
 title: Tools - Do you use Nx to manage your huge JavaScript solution?

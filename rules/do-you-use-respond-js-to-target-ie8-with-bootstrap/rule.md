@@ -1,5 +1,4 @@
 ---
-seoDescription: "Targeting IE8 with Bootstrap using Respond JS"
 type: rule
 title: Do you use Respond JS to target IE8 with Bootstrap?
 uri: do-you-use-respond-js-to-target-ie8-with-bootstrap

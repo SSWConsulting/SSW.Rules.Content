@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track Jira requests efficiently using filters, dashboards, and favorites to monitor progress and stay organized."
 type: rule
 archivedreason: 
 title: Do you know how to track requests in Jira?

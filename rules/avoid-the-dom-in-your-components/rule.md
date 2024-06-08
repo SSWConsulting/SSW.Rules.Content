@@ -1,5 +1,4 @@
 ---
-seoDescription: "Avoid directly modifying the DOM from your components to maintain clean code, faster performance, and easier testing."
 type: rule
 archivedreason: 
 title: Practices - Do you avoid directly modifying the DOM from your components?

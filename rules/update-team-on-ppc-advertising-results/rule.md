@@ -1,5 +1,4 @@
 ---
-seoDescription: "Stay up-to-date on your PPC advertising results by sending regular reports to your team, highlighting key metrics, and using visuals to illustrate performance."
 type: rule
 archivedreason: 
 title: Do you update your team on your PPC advertising results?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Track your PPC campaign spend effectively and make data-driven decisions with regular reporting on monthly spend, clicks, impressions, CTR, and CPC."
 type: rule
 archivedreason: 
 title: SEM - Do you keep track of your PPC campaign spend?

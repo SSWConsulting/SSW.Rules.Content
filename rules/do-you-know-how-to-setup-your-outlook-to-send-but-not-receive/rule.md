@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set up Outlook to send emails while minimizing mailbox size by synchronizing specific folders and disabling offline mode."
 type: rule
 archivedreason: 
 title: Do you know how to setup your Outlook to send but not receive?

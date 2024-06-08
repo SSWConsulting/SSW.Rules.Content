@@ -1,5 +1,4 @@
 ---
-seoDescription: "Master your email management and turn your inbox into a powerful tool for efficient communication and task tracking."
 type: rule
 archivedreason: duplicated content from Rules to Better Email intro
 title: Do you manage your email?

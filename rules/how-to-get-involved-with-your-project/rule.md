@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to get involved with open source projects by providing clear documentation and guidelines for contributors."
 type: rule
 archivedreason: 
 title: Do You Tell People How To Get Involved with your Project?

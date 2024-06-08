@@ -1,5 +1,4 @@
 ---
-seoDescription: "Determine whether ClickOnce or MSI deployment best suits your application's needs by comparing features in this comprehensive table."
 type: rule
 title: Do you know whether you should use Click Once or MSI?
 uri: use-click-once-or-msi

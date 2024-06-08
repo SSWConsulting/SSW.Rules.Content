@@ -1,5 +1,4 @@
 ---
-seoDescription: "Deploy VMs quickly and consistently using Virtual Machine Manager (VMM) templates, ideal for setting up VM configurations and services."
 type: rule
 archivedreason: 
 title: Do you use Virtual Machine templates with Virtual Machine Manager (VMM)?

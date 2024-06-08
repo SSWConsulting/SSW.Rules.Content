@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use Bootstrap to create responsive and user-friendly websites that adapt to various devices and browsers?"
 type: rule
 archivedreason: 
 title: Do you use Bootstrap?

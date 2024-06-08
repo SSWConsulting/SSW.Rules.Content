@@ -1,5 +1,4 @@
 ---
-seoDescription: "Book your next appointment with clients before leaving to avoid forgetfulness and ensure a smooth follow-up process."
 type: rule
 archivedreason: 
 title: Do you know to make sure that you book the next appointment before you leave the client?

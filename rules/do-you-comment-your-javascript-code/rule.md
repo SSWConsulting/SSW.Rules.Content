@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you comment your JavaScript code? Learn how to write clear and concise comments that describe your code's functionality."
 type: rule
 archivedreason: 
 title: Do you comment your JavaScript code?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Take SharePoint data offline with SharePoint Workspace, synchronizing entire sites and avoiding burdens on Outlook."
 type: rule
 archivedreason: 
 title: Do you know the best way to take SharePoint data offline?

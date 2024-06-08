@@ -1,5 +1,4 @@
 ---
-seoDescription: "Boost productivity with proven strategies: create TODO lists, take regular breaks, and use a soundscape to stay focused."
 type: rule
 title: Do you know how to maintain productivity?
 uri: how-to-maintain-productivity

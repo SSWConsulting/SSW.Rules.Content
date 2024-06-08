@@ -1,5 +1,4 @@
 ---
-seoDescription: "Set InfoPath compatibility mode to "Design" for both Rich and Web client forms to ensure seamless integration with SharePoint."
 type: rule
 archivedreason: 
 title: Do you always set InfoPath compatibility mode to design for both Rich and Web client forms?

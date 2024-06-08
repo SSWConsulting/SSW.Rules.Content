@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you always check your button's event handler hook-up to ensure a responsive UI experience?"
 type: rule
 archivedreason: 
 title: Do you always check your button's event handler hook-up?
@@ -15,9 +14,11 @@ redirects:
 
 ---
 
-Sometimes the button's event handler hook-up could be lost by accident, but there will be no warning or error reported when you compile your applications.
+Sometimes the button's event handler hook-up could be lost by accident, but there will be no warning or error reported when you compile your applications. 
 
 <!--endintro-->
+
+
 
 ```cs
 this.button1 = new System.Windows.Forms.Button();
@@ -29,10 +30,15 @@ this.button1.TabIndex = 60;
 this.button1.UseVisualStyleBackColor = true;
 ```
 
+
+
+
 ::: bad
 Bad Example - the event handler hook-up is lost, so there will be no response after you click the button
 
 :::
+
+
 
 ```cs
 this.btnResetAll = new System.Windows.Forms.Button();
@@ -45,6 +51,9 @@ this.btnResetAll.Text = "Reset &All";
 this.btnResetAll.UseVisualStyleBackColor = true;
 this.btnResetAll.Click += new System.EventHandler(this.btnResetAll_Click);
 ```
+
+
+
 
 ::: good
 Good Example : keep the event handler hook-up together with the initialization of the button

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you clean your data before modelling? Learn how to filter out rows with missing values using Pandas and Numpy, and explore interpolation and mean-based filling techniques for handling incomplete data."
 type: rule
 title: Do you clean your data before modelling?
 uri: clean-your-data-before-modelling

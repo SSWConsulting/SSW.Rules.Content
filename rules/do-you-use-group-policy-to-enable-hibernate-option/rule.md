@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enable Hibernate on multiple PCs using Group Policy's fast and effective configuration method."
 type: rule
 archivedreason: 
 title: Do you use Group Policy to enable Hibernate option?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Intuitive design makes users instinctively know how to use a product or system by leveraging affordances and clear visual cues."
 type: rule
 title: Do you make users intuitively know how to use something?
 uri: do-you-make-users-intuitively-know-how-to-use-something

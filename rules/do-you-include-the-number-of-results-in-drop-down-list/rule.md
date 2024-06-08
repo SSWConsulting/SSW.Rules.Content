@@ -1,5 +1,4 @@
 ---
-seoDescription: "Including the number of results in a dropdown list helps users quickly gauge the scope of their search."
 type: rule
 archivedreason: 
 title: Do you include the number of results in drop down list?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Consultants who possess ability, affability, and availability excel at providing effective solutions to clients."
 type: rule
 title: Do you know the 3 A's for being a good consultant?
 uri: being-a-good-consultant

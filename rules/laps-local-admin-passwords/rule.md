@@ -1,5 +1,4 @@
 ---
-seoDescription: "Manage local administrator passwords securely with Microsoft LAPS, a best practice for limiting admin accounts and ensuring computer accessibility."
 type: rule
 title: Do you use LAPS to manage local administrator passwords?
 uri: laps-local-admin-passwords

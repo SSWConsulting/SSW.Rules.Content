@@ -1,5 +1,4 @@
 ---
-seoDescription: "Microsoft's Composite Application Guidance helps build loosely coupled WPF and Silverlight applications, promoting modular development and scalability."
 type: rule
 archivedreason: Silverlight was deprecated back in 2012.
 title: Do you follow Composite Application Guidance (formerly code-named "Prism") in your Silverlight (and WPF) Projects?

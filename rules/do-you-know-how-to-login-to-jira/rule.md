@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to login to Jira at [http://jira.ssw.com.au/](http://jira.ssw.com.au/) with Windows Domain authentication over LDAP, requiring a username in all lowercase without domain."
 type: rule
 archivedreason: 
 title: Do you know how to login to Jira?

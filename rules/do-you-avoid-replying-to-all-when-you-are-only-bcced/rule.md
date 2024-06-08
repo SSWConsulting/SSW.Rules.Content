@@ -1,5 +1,4 @@
 ---
-seoDescription: "When using BCC, it's crucial to refrain from replying all to avoid unnecessary email congestion and maintain confidentiality."
 type: rule
 archivedreason: 
 title: Do you avoid replying to all when you are only BCC'd?

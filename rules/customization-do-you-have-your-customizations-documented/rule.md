@@ -1,5 +1,4 @@
 ---
-seoDescription: "Customization documentation crucial for seamless CRM integration, ensure accurate tracking of custom entities, callouts and more with screen captures and highlighted areas."
 type: rule
 archivedreason: 
 title: Customization - Do you have your customizations documented?

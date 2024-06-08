@@ -1,5 +1,4 @@
 ---
-seoDescription: "Maximize Azure Storage Transactions Efficiency"
 type: rule
 title: Cost - Do you know how to be frugal with Azure Storage Transactions?
 uri: do-you-know-how-to-be-frugal-with-azure-storage-transactions

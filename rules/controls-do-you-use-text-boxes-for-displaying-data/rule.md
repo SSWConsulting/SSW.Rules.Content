@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Textbox controls to display data and provide an intuitive user experience by making information easily copyable and selectable."
 type: rule
 archivedreason: 
 title: Controls - Do you use Text Boxes for displaying data?

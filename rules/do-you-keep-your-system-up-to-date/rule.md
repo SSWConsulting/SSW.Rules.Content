@@ -1,5 +1,4 @@
 ---
-seoDescription: "Keep your system up to date with FileHippo, a handy tool that checks for software updates and alerts you when needed."
 type: rule
 archivedreason: 'UPDATE: April 2020: FileHippo .exe is dead, SSW Diagnostics .exe is dead and there is no equivalent utility.'
 title: Do you keep your system up to date?

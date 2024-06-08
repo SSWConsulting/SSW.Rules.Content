@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the top JavaScript frameworks to boost your web development skills in 2016 with expert insights from SSW."
 type: rule
 archivedreason: 
 title: Do you use the best JavaScript libraries?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "C# developers can now keep their code clean by using primary constructors to simplify class initialization and reduce boilerplate code."
 type: rule
 archivedreason:
 title: C# Code - Do you use primary constructors to keep your code clean?

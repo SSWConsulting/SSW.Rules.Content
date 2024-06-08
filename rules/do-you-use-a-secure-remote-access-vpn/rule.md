@@ -1,5 +1,4 @@
 ---
-seoDescription: "Secure your Remote Access VPN by using Multi-Factor Authentication (MFA) and a secure protocol such as SSL or IPSec."
 type: rule
 title: Do you use a secure VPN with MFA?
 uri: do-you-use-a-secure-remote-access-vpn

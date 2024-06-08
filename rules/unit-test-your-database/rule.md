@@ -1,5 +1,4 @@
 ---
-seoDescription: "Test and automate database logic with Visual Studio's unit tests for SQL Server, ensuring stored procedures, triggers, functions, and views are thoroughly tested."
 type: rule
 title: Do you unit test your database?
 uri: unit-test-your-database

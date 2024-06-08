@@ -1,5 +1,4 @@
 ---
-seoDescription: "Establishing a rule helps ensure consistency and efficiency in day-to-day activities by documenting processes and promoting better understanding."
 type: rule
 title: Do you know when to write a rule?
 uri: do-you-know-when-to-write-a-rule

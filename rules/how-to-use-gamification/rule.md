@@ -1,5 +1,4 @@
 ---
-seoDescription: "Gamification encourages user participation through incentives and rewards, driving engagement and loyalty."
 type: rule
 archivedreason: 
 title: Do you know how to use "gamification"?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mastering LINQ methods by using filtering parameters for efficient and readable code."
 type: rule
 title: Do you use the filtering parameter in LINQ methods?
 uri: use-filtering-in-linq-methods

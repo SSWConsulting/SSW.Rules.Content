@@ -1,5 +1,4 @@
 ---
-seoDescription: "Here is a potential SEO description: "Improve daily scrum efficiency and collaboration with these actionable tips on sending emails, using IM, and making meetings easy to find.""
 type: rule
 title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
 uri: methodology-daily-scrums

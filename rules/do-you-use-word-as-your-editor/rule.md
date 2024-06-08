@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use Word as your email editor in Microsoft Outlook to compress images, access advanced formatting and spell checking features."
 type: rule
 archivedreason: Deprecated.
 title: Do you use Word as your editor?

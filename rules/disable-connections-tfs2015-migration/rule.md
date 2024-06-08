@@ -1,5 +1,4 @@
 ---
-seoDescription: "Disable connections to prevent changes during TFS 2015 migration, ensuring data integrity and minimizing losses."
 type: rule
 archivedreason: 
 title: Do you disable connections for TFS 2015 migration?

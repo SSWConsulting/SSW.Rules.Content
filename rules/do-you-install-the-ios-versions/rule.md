@@ -1,5 +1,4 @@
 ---
-seoDescription: "Install the Microsoft Lync client on your iPhone or iPad to stay connected and available for calls and messages."
 type: rule
 archivedreason: 
 title: Do you install the iOS versions?

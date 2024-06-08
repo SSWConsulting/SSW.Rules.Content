@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn how to take feedback and criticism effectively by avoiding defensiveness and shutting down conversations."
 type: rule
 title: Communication - Do you avoid shutting down every feedback example?
 uri: feedback-avoid-chopping-down-every-example

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Get instant feedback from your clients and customers by using evaluation forms at every event you speak at."
 type: rule
 title: Feedback - Do you bring evaluation forms to every event you speak at?
 uri: bring-evaluation-forms-to-every-event-you-speak-at

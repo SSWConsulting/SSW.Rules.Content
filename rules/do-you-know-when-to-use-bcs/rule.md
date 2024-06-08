@@ -1,5 +1,4 @@
 ---
-seoDescription: "Know when to use Business Connectivity Services (BCS) in SharePoint to easily access data from remote or legacy systems."
 type: rule
 archivedreason: 
 title: Do you know when to use BCS?

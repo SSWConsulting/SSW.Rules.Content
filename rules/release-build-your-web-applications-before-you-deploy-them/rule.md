@@ -1,5 +1,4 @@
 ---
-seoDescription: "Release build your web applications before deployment to optimize performance and security with ASP.NET by compiling all files into one DLL and disabling resource caching."
 type: rule
 title: Do you release build your web applications before you deploy them?
 uri: release-build-your-web-applications-before-you-deploy-them

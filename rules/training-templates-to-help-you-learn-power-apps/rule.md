@@ -1,5 +1,4 @@
 ---
-seoDescription: "Learn Power Apps quickly with these two training templates, ideal for both citizen and pro makers, covering Canvas Apps and Office integrations."
 type: rule
 archivedreason: 
 title: Do you know there are Training Templates to help you learn Power Apps (Canvas)?

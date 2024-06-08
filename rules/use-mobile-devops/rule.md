@@ -1,5 +1,4 @@
 ---
-seoDescription: "Mobile DevOps enables seamless collaboration and automation, accelerating mobile application development and delivery to improve user experiences."
 type: rule
 archivedreason: Blank rule
 title: Do you use mobile DevOps?

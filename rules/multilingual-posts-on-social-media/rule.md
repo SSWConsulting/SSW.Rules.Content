@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enhance your global presence by posting multilingual social media content that connects with diverse audiences, fosters trust and establishes your brand as a language barrier-bridge."
 type: rule
 title: Do you post multilingual posts on Social Media?
 uri: multilingual-posts-on-social-media

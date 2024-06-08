@@ -1,5 +1,4 @@
 ---
-seoDescription: "Measure up-time as a DBA to proactively inform your manager about the success of SQL Server and other service level exceptions."
 type: rule
 archivedreason: 
 title: ​DBAs - Do you measure Up-Time?

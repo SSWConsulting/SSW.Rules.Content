@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you shut down a virtual machine before running a snapshot?"
 type: rule
 archivedreason: 
 title: Do you snapshot Virtual Machines before big changes?

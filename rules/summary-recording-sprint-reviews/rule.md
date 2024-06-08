@@ -1,5 +1,4 @@
 ---
-seoDescription: "Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement."
 type: rule
 title: Do you record a summary of Sprint Reviews for the stakeholders?
 uri: summary-recording-sprint-reviews

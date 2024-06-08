@@ -1,5 +1,4 @@
 ---
-seoDescription: "Use the correct HTML and CSS code to add images and captions with semantic meaning, featuring figure tags and figcaptions."
 type: rule
 archivedreason: 
 title: Figures - Do you use the right HTML/CSS code to add images and captions?

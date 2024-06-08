@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover and organize your photos using Google Photos, the ultimate platform to find any image instantly."
 type: rule
 archivedreason: 
 title: Do you manage your photos?

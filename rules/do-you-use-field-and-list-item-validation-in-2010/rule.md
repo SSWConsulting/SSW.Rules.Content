@@ -1,5 +1,4 @@
 ---
-seoDescription: "SharePoint 2010 developers use field and list item validation to ensure data accuracy, preventing incorrect information from being added or updated."
 type: rule
 title: Do you use field and list item validation (in 2010)
 uri: do-you-use-field-and-list-item-validation-in-2010

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover how to unlock the full potential of Dynamics solutions by leveraging Power Automate and Azure Functions."
 type: rule
 archivedreason: 
 title: Do you take advantage of Power Automate and Azure Functions in your Dynamics solutions?

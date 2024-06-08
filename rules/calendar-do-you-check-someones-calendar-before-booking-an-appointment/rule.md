@@ -1,5 +1,4 @@
 ---
-seoDescription: "Book appointments efficiently by checking someone's shared calendar permissions before scheduling a meeting."
 type: rule
 archivedreason: 
 title: Calendar Permissions - Do you check someone's calendar before booking an appointment?

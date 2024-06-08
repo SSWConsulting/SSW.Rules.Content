@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you publish your .NET components to SourceSafe? Learn how to share binary files with SourceSafe by following these four steps."
 type: rule
 archivedreason: 
 title: Do you publish your components to Source Safe?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you use enterprise secrets in your DevOps pipelines? Learn how to manage and secure sensitive data across multiple repositories and workflows with ease."
 type: rule
 title: Do you use enterprise secrets in your DevOps pipelines?
 uri: enterprise-secrets-in-pipelines

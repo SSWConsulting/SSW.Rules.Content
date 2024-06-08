@@ -1,5 +1,4 @@
 ---
-seoDescription: "Silverlight applications can be easily installed and launched from a user's desktop or start menu without additional downloads."
 type: rule
 archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 title: Do you offer out-of-browser support?

@@ -1,5 +1,4 @@
 ---
-seoDescription: "Deactivate old or irrelevant contacts to free up CRM space and optimize your database for duplicate detection."
 type: rule
 archivedreason: 
 title: Do you know how and when to deactivate a Company/Contact?

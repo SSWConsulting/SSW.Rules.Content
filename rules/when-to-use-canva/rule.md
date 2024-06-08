@@ -1,5 +1,4 @@
 ---
-seoDescription: "When to use Canva for creating engaging social media memes and designs that require a touch of creativity."
 type: rule
 title: Content - Do you know when to use Canva?
 uri: when-to-use-canva

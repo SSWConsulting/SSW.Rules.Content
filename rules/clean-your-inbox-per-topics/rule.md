@@ -1,5 +1,4 @@
 ---
-seoDescription: "Clean your inbox by topic and reply to all related emails to keep your task list organized."
 type: rule
 archivedreason: 
 title: Do you clean your inbox per topics?

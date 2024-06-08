@@ -1,5 +1,4 @@
 ---
-seoDescription: "Best bug tracking database allows developers to focus on coding by eliminating data re-entry."
 type: rule
 archivedreason: "Bugs are usually tracked using GitHub Issues (or similar) and Team Companion is dead. Superceded by related Rule"
 title: Do you keep the best possible bug database?

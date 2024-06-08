@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate from EDMX to EF Core necessary steps involve abstracting access to `ObjectContext` and scaffolding the DB."
 type: rule
 title: Do you know how to migrate from EDMX to EF Core
 guid: d0ba79cd-ee1c-48ae-aa4d-b7b6b974d244

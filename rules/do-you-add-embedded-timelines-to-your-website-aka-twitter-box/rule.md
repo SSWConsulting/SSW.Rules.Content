@@ -1,5 +1,4 @@
 ---
-seoDescription: "Increase engagement and enhance your online presence by adding an embedded Twitter timeline to your website, allowing visitors to interact with your tweets directly from your site."
 type: rule
 archivedreason: 
 title: Do you add embedded social media to your website (aka Twitter Box)?

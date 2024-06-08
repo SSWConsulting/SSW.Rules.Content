@@ -1,5 +1,4 @@
 ---
-seoDescription: "Our application provides intuitive drill-downs and drill-arounds, allowing users to seamlessly navigate related screens with ease."
 type: rule
 archivedreason: 
 title: Do you provide the user Drill-Downs and Drill-Arounds?

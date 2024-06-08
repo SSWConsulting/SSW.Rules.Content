@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate to TFS 2015 with recommended in-place migration or a new environment option while minimizing downtime with the TfsPreUpgrade tool."
 type: rule
 archivedreason: 
 title: Do you know your TFS 2015 migration choices?

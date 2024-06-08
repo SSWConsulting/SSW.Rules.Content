@@ -1,5 +1,4 @@
 ---
-seoDescription: "Migrate from System.Web to modern alternatives and upgrade .NET Framework applications to .NET or .NET Standard."
 type: rule
 title: Do you know how to migrate from System.Web to modern alternatives
 guid: 71755477-0a38-4402-a5c8-1347883df481

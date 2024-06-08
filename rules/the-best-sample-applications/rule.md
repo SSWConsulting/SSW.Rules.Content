@@ -1,5 +1,4 @@
 ---
-seoDescription: "Discover the best sample applications to get started with software development, including SQL Server, .NET Core, Blazor, Angular, and React examples."
 type: rule
 title: Do you know the best sample applications?
 uri: the-best-sample-applications

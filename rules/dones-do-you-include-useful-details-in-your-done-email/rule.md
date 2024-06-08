@@ -1,5 +1,4 @@
 ---
-seoDescription: "Do you include useful details in your 'Done' email? Make sure to add relevant information such as URLs, screenshots, and code snippets to keep others informed about what's been done or needs to be done."
 type: rule
 title: Dones - Do you include useful details in your 'Done' email?
 uri: dones-do-you-include-useful-details-in-your-done-email

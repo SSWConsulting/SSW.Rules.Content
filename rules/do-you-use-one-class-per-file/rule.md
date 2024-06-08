@@ -1,5 +1,4 @@
 ---
-seoDescription: "Class organization best practices emphasize separating each class into its own file, except when multiple classes form a cohesive unit."
 type: rule
 title: Do you use one class per file?
 uri: do-you-use-one-class-per-file

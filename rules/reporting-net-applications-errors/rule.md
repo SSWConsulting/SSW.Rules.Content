@@ -1,5 +1,4 @@
 ---
-seoDescription: "When reporting .NET applications errors, provide details by copying and pasting the top section of the error message within the 'Details' button, excluding the screenshot."
 type: rule
 title: Bug - Do you provide details when reporting .NET applications errors?
 uri: reporting-net-applications-errors

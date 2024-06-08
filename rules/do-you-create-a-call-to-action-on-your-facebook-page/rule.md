@@ -1,5 +1,4 @@
 ---
-seoDescription: "Create a call-to-action on your Facebook page to drive business objectives with the "Watch Video" button."
 type: rule
 archivedreason: 
 title: Facebook - Do you create a call to action on your Facebook page?
