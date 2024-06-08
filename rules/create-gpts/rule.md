@@ -30,15 +30,15 @@ If you frequently use the same prompt or series of prompts, it is valuable to ma
 
 There are 3 areas where a custom GPT can overcome the limitations of standard ChatGPT:
 
-#### Retrieval Augmented Generation (RAG)
+### Retrieval Augmented Generation (RAG)
 
 RAG is the term used to describe additional data your model can access that other models have not (or cannot). Perhaps this is the IP of your company, or simply more up-to-date information on a given topic. If your model has a richer or more refined data set than the competition, it can perform better.
 
-#### Instructions (System Prompt)
+### Instructions (System Prompt)
 
 In a GPT you have the ability to define a set of initial instructions. That means you can provide a great initial prompt so users have a high quality prompt even when their prompting skills are low. That means if you're a prompt wizard, you will get better responses than others.
 
-#### Custom actions
+### Custom actions
 
 A huge area for innovation is being able to connect your GPT model to your own API, allowing you to take both the user input and perform additional logic before returning a response to the user. Some examples are executing code to test its validity, or looking up a weather forecast for the user's location before suggesting activities that day.
 
