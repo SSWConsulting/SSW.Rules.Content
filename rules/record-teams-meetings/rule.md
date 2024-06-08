@@ -1,4 +1,5 @@
 ---
+seoDescription: "Record Microsoft Teams meetings to document decisions, easily share and access valuable information, and enhance remote inclusion."
 type: rule
 title: Do you record Teams meetings?
 uri: record-teams-meetings

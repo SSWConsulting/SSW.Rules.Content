@@ -1,4 +1,5 @@
 ---
+seoDescription: "PowerBI data visualization tips: Avoid alphabetical sorting, which is limited and lacks insight into ranks, trends, or proportions."
 type: rule
 title: Do you know not to use Alphabetical Sorting?
 uri: do-you-know-not-to-use-alphabetical-sorting

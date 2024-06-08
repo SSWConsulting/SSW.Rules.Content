@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to be a good Product Owner and maximize your project's ROI by prioritizing the product backlog, being available for Scrum meetings, unblocking developers, and understanding product backlog items."
 type: rule
 title: Do you know how to be a good Product Owner?
 uri: do-you-know-the-how-to-be-a-good-product-owner

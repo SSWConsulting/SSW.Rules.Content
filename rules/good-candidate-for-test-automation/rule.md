@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automating tests effectively requires evaluating whether a test is a good candidate for automation. Consider factors such as scale, subjectivity, and value to determine if a test should be automated."
 type: rule
 title: Do you know whether a test is a good candidate for automation?
 uri: good-candidate-for-test-automation

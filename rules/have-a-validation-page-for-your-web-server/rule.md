@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your website's health by validating dependencies with a 'Health Check' page, verifying server, services, databases, and more."
 type: rule
 archivedreason: 
 title: Do you have a Validation page (the /zsValidate) for your web server?

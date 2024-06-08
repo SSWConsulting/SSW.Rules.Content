@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure you have robust multi-factor authentication (MFA) enabled to protect your users and administrator accounts from unauthorized access."
 type: rule
 title: Security - Do you have MFA (Multi-Factor Authentication) enabled?
 uri: multi-factor-authentication-enabled

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Booking better flights within Australia made easy with these simple steps."
 type: rule
 archivedreason: Outdated and no value, replaced by https://www.ssw.com.au/rules/do-you-know-how-to-book-better-flights/
 title: Do you know how to booking better flights within Australia?

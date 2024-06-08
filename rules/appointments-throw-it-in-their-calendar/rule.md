@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to throw an appointment into someone's calendar and increase your chances of getting a meeting. By sending a specific time and date, you're giving them a chance to change it if needed, rather than leaving it up to them to propose a time that may not work out."
 type: rule
 title: Appointments - Do you know to throw it in their calendar?
 uri: appointments-throw-it-in-their-calendar

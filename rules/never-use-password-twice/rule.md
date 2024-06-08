@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent catastrophic password breaches by never using the same password twice, securing all your online accounts and services."
 type: rule
 title: Passwords - Do you know NEVER to use the same password for more than one account/service?
 uri: never-use-password-twice

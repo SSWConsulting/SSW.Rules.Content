@@ -1,4 +1,5 @@
 ---
+seoDescription: "Dates and times of change displayed as tooltips on hover, providing additional context without cluttering the main interface."
 type: rule
 title: Dates – Do you provide the date and time of change as a tooltip?
 uri: date-and-time-of-change-as-tooltip

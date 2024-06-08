@@ -1,4 +1,5 @@
 ---
+seoDescription: "After upgrading to TFS 2015, conduct a quick smoke test to ensure seamless functionality."
 type: rule
 archivedreason: 
 title: Do you do a quick test after the TFS 2015 migration finishes?

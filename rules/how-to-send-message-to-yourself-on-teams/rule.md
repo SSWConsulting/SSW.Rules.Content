@@ -1,4 +1,5 @@
 ---
+seoDescription: "Send a message to yourself on Microsoft Teams and easily share files or notes between devices using this quick tip."
 type: rule
 title: Do you know how to send message to yourself on Teams?
 uri: how-to-send-message-to-yourself-on-teams

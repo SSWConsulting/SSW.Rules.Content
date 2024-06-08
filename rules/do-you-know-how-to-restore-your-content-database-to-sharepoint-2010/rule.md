@@ -1,4 +1,5 @@
 ---
+seoDescription: "SharePoint 2010 migration experts guide you through restoring your content database, ensuring a seamless transition from SharePoint 2007."
 type: rule
 title: Do you know how to restore your content database to SharePoint 2010?
 uri: do-you-know-how-to-restore-your-content-database-to-sharepoint-2010

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Programs should provide a warning before exiting to prevent unexpected closures."
 type: rule
 title: Do you provide a warning before the program exits?
 uri: do-you-provide-a-warning-before-the-program-exits

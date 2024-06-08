@@ -1,4 +1,5 @@
 ---
+seoDescription: "When writing technical documentation, consistency in referring to the reader and author is crucial for a flowing reading experience. Ensure accurate referencing throughout your document. Generated SEO description: Consistent referencing ensures a smooth reading experience in technical documentation."
 type: rule
 archivedreason: 
 title: Do you refer to the reader and author consistently throughout your document?

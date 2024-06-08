@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you rotate your marketing communications? Learn how to increase reach and frequency with a monthly rotation of ads across multiple touchpoints."
 type: rule
 archivedreason: 
 title: Do you rotate your marketing communications?

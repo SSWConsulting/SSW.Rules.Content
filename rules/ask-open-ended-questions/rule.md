@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ask open-ended questions to engage prospects and encourage meaningful conversations during outbound calls."
 type: rule
 archivedreason: 
 title: Do you ask open-ended questions?

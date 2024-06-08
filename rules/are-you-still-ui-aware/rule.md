@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve user engagement and boost online presence by considering the design of your blog and incorporating effective User Interface (UI) and User Experience (UX) strategies."
 type: rule
 archivedreason: 
 title: Do you consider the design on your blog?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering anchor names is crucial for effective web development. Follow W3C guidelines and ensure unique, letter-started, and correctly formatted anchor names to avoid common mistakes."
 type: rule
 archivedreason:
 title: Do you use the right anchor names?

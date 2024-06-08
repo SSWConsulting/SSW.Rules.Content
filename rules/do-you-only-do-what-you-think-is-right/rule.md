@@ -1,4 +1,5 @@
 ---
+seoDescription: "Professional integrity requires standing up for ethics and discussing issues when asked to do something unethical."
 type: rule
 archivedreason: 
 title: Ethics - Do you only do what you think is right?

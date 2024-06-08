@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the essential emojis to streamline your Scrum process, boost productivity, and enhance agile communication."
 type: rule
 title: Do you know which emojis to use in Scrum?
 uri: which-emojis-to-use-in-scrum

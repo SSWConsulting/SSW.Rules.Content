@@ -1,4 +1,5 @@
 ---
+seoDescription: "Update DotNetNuke style sheets to underline all links for clear navigation and improved user experience."
 type: rule
 title: Do you always update the DotNetNuke style sheets to underline a link?
 uri: update-the-dotnetnuke-style-sheets-to-underline-a-link

@@ -1,4 +1,5 @@
 ---
+seoDescription: "What happens at a Sprint Retrospective meeting?"
 type: rule
 title: Do you know what happens at a Sprint Retrospective meeting?
 uri: what-happens-at-retro-meetings

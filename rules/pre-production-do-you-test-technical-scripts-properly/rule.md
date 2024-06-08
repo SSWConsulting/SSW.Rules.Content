@@ -1,4 +1,5 @@
 ---
+seoDescription: "Properly testing technical scripts ensures efficient video project execution and minimizes revisions after scripting."
 type: rule
 archivedreason: 
 title: Pre-Production - Do you test technical scripts properly?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use threading to improve user interface responsiveness during long-running processes."
 type: rule
 title: Do you use Threading to make your user interfaces more responsive?
 uri: use-threading-to-make-your-user-interfaces-more-responsive

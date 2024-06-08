@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you share code using packages? VSTS helps devs share source or binaries across their organization by caching and centralizing packages."
 type: rule
 archivedreason: 
 title: Do you share code using packages? (Binary and source sharing)

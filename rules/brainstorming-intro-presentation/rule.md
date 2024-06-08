@@ -1,4 +1,5 @@
 ---
+seoDescription: "Preparation for a brainstorming event involves curating key points from company retrospectives, sharing updates and agenda, playing a video on leveraging company brains, and allocating teams."
 type: rule
 title: Pre event - Do you prepare a Brainstorming intro presentation?
 uri: brainstorming-intro-presentation

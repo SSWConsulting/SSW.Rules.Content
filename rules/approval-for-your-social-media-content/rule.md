@@ -1,4 +1,5 @@
 ---
+seoDescription: "Seek approval for your social media content to ensure consistency and accuracy before posting."
 type: rule
 title: Management - Do you know to seek approval for your social media content?
 uri: approval-for-your-social-media-content

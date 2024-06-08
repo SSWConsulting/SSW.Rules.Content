@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to set your work hours in CRM and Outlook calendar to improve resource scheduling, communication with part-time employees, and reduce meeting conflicts."
 type: rule
 title: Calendar - Do you set your work hours in CRM and your Outlook calendar?
 uri: calendar-do-you-set-your-work-hours-in-your-calendars

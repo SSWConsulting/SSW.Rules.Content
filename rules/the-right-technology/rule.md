@@ -1,4 +1,5 @@
 ---
+seoDescription: ".NET MVC provides a better alternative to ASP.NET Web Forms with its testability, instant pages, better HTML markup control, simpler debugging, and mobile support."
 type: rule
 archivedreason: Old. Was replaced by Angular, React, and Blazor.
 title: Do you use .NET MVC over ASP.NET Web Forms?

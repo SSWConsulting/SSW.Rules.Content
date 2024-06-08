@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use TryUpdateModel instead of UpdateModel to ensure validation and model binding succeed without throwing exceptions."
 type: rule
 title: Do you use TryUpdateModel instead of UpdateModel?
 uri: do-you-use-tryupdatemodel-instead-of-updatemodel

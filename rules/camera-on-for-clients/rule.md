@@ -1,4 +1,5 @@
 ---
+seoDescription: "When working with clients on Teams calls, keeping your camera on conveys valuable information and builds trust through facial expressions and body language."
 type: rule
 title: Do you know you should always have your camera on for clients?
 uri: camera-on-for-clients

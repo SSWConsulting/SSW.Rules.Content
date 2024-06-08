@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the dangers of your strong suits and unlock a more authentic you."
 type: rule
 title: Do you know the dangers of your Strong Suits?
 uri: strong-suits

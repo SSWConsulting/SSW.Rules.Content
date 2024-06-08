@@ -1,4 +1,5 @@
 ---
+seoDescription: "Require permission to access pages and get a request access button"
 type: rule
 archivedreason: 
 title: Do you have a "request access" button in pages that require permission?

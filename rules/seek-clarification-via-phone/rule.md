@@ -1,4 +1,5 @@
 ---
+seoDescription: "Before seeking clarification on an unclear email, consider initiating a phone call or Teams conversation to resolve any misunderstandings."
 type: rule
 title: Do you seek clarification via the Teams/telephone first?
 uri: seek-clarification-via-phone

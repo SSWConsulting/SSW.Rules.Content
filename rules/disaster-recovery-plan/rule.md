@@ -1,4 +1,5 @@
 ---
+seoDescription: "Develop a comprehensive disaster recovery plan to ensure business continuity and minimize data loss during catastrophic incidents."
 type: rule
 title: Do you have a disaster recovery plan?
 uri: disaster-recovery-plan

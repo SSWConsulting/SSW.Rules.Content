@@ -1,4 +1,5 @@
 ---
+seoDescription: "Promote your application and business globally through targeted social media campaigns, localizing your message for each country's specific platforms."
 type: rule
 archivedreason: 
 title: Do you know how to use social media for international campaigns?

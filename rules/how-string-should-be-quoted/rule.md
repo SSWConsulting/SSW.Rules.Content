@@ -1,4 +1,5 @@
 ---
+seoDescription: "C# developers should use string literals effectively by choosing between quoted strings and raw string literals to avoid escape characters and improve code readability."
 type: rule
 archivedreason: 
 title: C# Code - Do you use string literals?

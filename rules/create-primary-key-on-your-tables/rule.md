@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schema guidelines recommend creating primary keys on tables to ensure data uniqueness and enable fast access."
 type: rule
 archivedreason: 
 title: Schema - Do you create primary key on your tables?

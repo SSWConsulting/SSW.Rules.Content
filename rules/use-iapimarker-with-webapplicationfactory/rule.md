@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use IApiMarker with WebApplicationFactory?"
 type: rule
 title: Do you use IApiMarker with WebApplicationFactory?
 uri: use-iapimarker-with-webapplicationfactory

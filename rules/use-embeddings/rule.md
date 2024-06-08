@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how embeddings revolutionize text comparison and classification, streamlining tasks with vector-based similarities."
 type: rule
 title: Do you use embeddings?
 uri: use-embeddings

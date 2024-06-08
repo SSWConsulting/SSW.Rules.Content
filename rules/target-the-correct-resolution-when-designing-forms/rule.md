@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure comfortable viewing by targeting resolutions that cater to your customers' devices, rather than demanding they upgrade their screens."
 type: rule
 archivedreason: 
 title: Do you target the correct resolution when designing forms?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover why "complete testing" is a myth and how to prioritize effective testing instead."
 type: rule
 title: Do you know that “complete testing” is impossible?
 uri: complete-testing-is-impossible

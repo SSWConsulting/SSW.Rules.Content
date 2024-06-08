@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create separate app.config files for different environments to simplify development and deployment processes."
 type: rule
 archivedreason: 
 title: Do You Create Different App.Config for Different Environment?

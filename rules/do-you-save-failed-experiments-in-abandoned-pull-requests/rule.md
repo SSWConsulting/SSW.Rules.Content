@@ -1,4 +1,5 @@
 ---
+seoDescription: "When creating a new feature, don't delete failed branch commits - save them as an abandoned pull request to maintain a historical log of work."
 type: rule
 archivedreason: 
 title: Do you save failed experiments in abandoned pull requests?

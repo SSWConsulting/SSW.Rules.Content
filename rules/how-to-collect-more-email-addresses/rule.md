@@ -1,4 +1,5 @@
 ---
+seoDescription: "Collect more email addresses by offering incentives and creating a seamless sign-up experience through a well-designed popup."
 type: rule
 archivedreason: 
 title: Do you know how to collect more email addresses?

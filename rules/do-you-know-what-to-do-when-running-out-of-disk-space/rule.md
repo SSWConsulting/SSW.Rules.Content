@@ -1,4 +1,5 @@
 ---
+seoDescription: "Free up disk space on servers by checking SQL backups and logs, using TreeSizePRO to identify issues, and automatically cleaning temporary files with CCleaner."
 type: rule
 archivedreason: 
 title: Do you know what to do when running out of disk space?

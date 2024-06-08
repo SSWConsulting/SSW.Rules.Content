@@ -1,4 +1,5 @@
 ---
+seoDescription: "Delete orphaned users from SharePoint's People Picker and keep your site organized with a simple URL and a few clicks."
 type: rule
 archivedreason: 
 title: Do you know how to delete orphaned users from the People Picker?

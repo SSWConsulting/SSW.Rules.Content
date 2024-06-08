@@ -1,4 +1,5 @@
 ---
+seoDescription: "Code Auditor helps you identify and resolve broken links, HTML errors, and Google Lighthouse issues in your codebase."
 type: rule
 title: Do you know how to manage errors with Code Auditor
 uri: managing-errors-with-code-auditor

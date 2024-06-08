@@ -1,4 +1,5 @@
 ---
+seoDescription: "Delete computer accounts from Active Directory to maintain a secure and tidy environment by removing decommissioned devices and improving domain access control."
 type: rule
 title: Do you delete computer accounts from Active Directory?
 uri: delete-computer-accounts-from-ad

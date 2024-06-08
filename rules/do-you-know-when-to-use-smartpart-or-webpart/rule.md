@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand when to use SharePoint SmartParts or Web Parts effectively and avoid common pitfalls by considering factors such as control layout complexity, performance requirements, and debugging needs."
 type: rule
 archivedreason: 
 title: Do you know when to use SmartPart or WebPart?

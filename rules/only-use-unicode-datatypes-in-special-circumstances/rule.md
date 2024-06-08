@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Unicode datatypes (nchar, nvarchar) only in special circumstances to avoid wasting space, especially for non-multilingual applications."
 type: rule
 archivedreason: 
 title: Schema - Do you only use Unicode datatypes (nchar, nvarchar and ntext) in special circumstances?

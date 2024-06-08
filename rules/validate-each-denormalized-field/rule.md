@@ -1,4 +1,5 @@
 ---
+seoDescription: "Validate each denormalized field to ensure reliable data integrity and prevent incorrect updates."
 type: rule
 title: Do you validate each "Denormalized Field"?
 uri: validate-each-denormalized-field

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understanding Semantic Versioning (SemVer) allows library developers to effectively communicate with users, conveying the type of changes made since the last release and whether they break backwards compatibility."
 type: rule
 title: Do you understand the value of Semantic Versioning?
 uri: semantic-versioning

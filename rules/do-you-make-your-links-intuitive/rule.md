@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make your links intuitive by providing clear navigation and explaining the destination of each hyperlink."
 type: rule
 archivedreason: 
 title: Do you make your links intuitive?

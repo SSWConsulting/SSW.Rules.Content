@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand if ads generate leads with a conversion pixel"
 type: rule
 archivedreason: 
 title: Do you use a conversion code in your lead generation campaigns?

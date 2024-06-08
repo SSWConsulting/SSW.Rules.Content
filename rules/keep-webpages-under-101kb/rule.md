@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your web pages to load quickly and improve mobile friendliness by keeping them under 101KB."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/keep-files-under-the-google-file-size-limit](/rules/keep-files-under-the-google-file-size-limit)
 title: Do you keep your webpages less than 101kb?

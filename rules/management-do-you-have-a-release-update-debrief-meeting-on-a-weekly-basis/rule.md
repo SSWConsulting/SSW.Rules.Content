@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a "Release Update/Debrief Meeting" on a weekly basis to discuss project status and client feedback?"
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 title: Management - Do you have a "Release Update/Debrief Meeting" on a weekly basis?

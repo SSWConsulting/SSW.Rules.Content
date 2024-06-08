@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stored procedures keep your code organized and efficient by encapsulating logic and reducing database complexity."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you keep your Stored Procedures simple?

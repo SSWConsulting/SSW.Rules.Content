@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate to TFS 2010 seamlessly by having a developer test the migration process."
 type: rule
 archivedreason: 
 title: Do you get a developer to test the TFS 2010 migration?

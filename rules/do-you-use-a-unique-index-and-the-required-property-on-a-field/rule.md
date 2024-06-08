@@ -1,4 +1,5 @@
 ---
+seoDescription: "Unique index fields cannot contain null values, ensuring data integrity and preventing duplicate records."
 type: rule
 archivedreason: 
 title: Do you use a unique index and the Required property on a field?

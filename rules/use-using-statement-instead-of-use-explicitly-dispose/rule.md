@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use "using" declaration instead of explicitly disposing?"
 type: rule
 archivedreason: 
 title: Do you use "using" declaration instead of use explicitly "dispose"?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find your MAC address on iPhone or Android to automate Wi-Fi connections and track employee presence with SSW SophieBot AI."
 type: rule
 title: Do you know how to find your mac address?
 uri: how-to-find-your-mac-address

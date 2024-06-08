@@ -1,4 +1,5 @@
 ---
+seoDescription: "When optimizing tables with fields having multiple key indexes, consider their total size to avoid upsizing problems."
 type: rule
 archivedreason: 
 title: Do you have fields with multiple key indexes (Upsizing Problem)?

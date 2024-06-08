@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add quotation marks to make them easily identifiable and improve readability by starting a new line with indentation."
 type: rule
 archivedreason: 
 title: Do you make quotes identifiable?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn data analysis techniques and present results using Azure Notebooks, a transparent technology ideal for scientific and academic communities."
 type: rule
 archivedreason: 
 title: Do you use Azure Notebooks to learn your data?

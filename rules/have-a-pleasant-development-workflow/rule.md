@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a pleasant development workflow? Tips and guidelines to ensure efficient coding and reduce waiting time."
 type: rule
 archivedreason: This has been properly fixed since Angular 4.
 title: Tips - Do you have a pleasant development workflow?

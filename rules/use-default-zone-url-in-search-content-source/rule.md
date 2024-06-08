@@ -1,4 +1,5 @@
 ---
+seoDescription: "Using default zone URLs in search content sources can automatically convert to relative URLs on search results, improving user experience."
 type: rule
 archivedreason: 
 title: Search - Do you use default zone URL in search content source?

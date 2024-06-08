@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enter timesheets at the end of each day, fresh in your mind, and ensure timely completion for Accounts team invoicing."
 type: rule
 archivedreason: 
 title: Do you know when to enter your timesheets?

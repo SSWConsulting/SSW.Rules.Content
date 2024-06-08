@@ -1,4 +1,5 @@
 ---
+seoDescription: "Validate XML documents unnecessarily and improve performance by using XmlTextReader instead of XmlValidatingReader."
 type: rule
 archivedreason: 
 title: Do you avoid validating XML documents unnecessarily?

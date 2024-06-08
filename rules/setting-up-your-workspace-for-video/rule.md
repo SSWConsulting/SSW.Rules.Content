@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set up a professional workspace for video conferencing and improve your online presence with these simple yet effective tips."
 type: rule
 archivedreason: 
 title: Do you know how to set up your workspace for video?

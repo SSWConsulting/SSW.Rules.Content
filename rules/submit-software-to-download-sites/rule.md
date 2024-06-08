@@ -1,4 +1,5 @@
 ---
+seoDescription: "Increase website search engine rankings by submitting software products to reputable download sites and leveraging inbound links."
 type: rule
 archivedreason: 
 title: Do you submit all your software to download sites?

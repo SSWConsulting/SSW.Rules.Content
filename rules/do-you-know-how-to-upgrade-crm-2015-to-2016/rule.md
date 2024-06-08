@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade Microsoft Dynamics CRM 2015 to 2016 with improved navigation and Power BI integration."
 type: rule
 archivedreason: 
 title: Do you know how to upgrade CRM 2015 to 2016

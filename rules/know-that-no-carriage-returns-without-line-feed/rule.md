@@ -1,4 +1,5 @@
 ---
+seoDescription: "DOS and Unix files have different line endings, with DOS using carriage return and line feed, while Unix uses just line feed."
 type: rule
 archivedreason: It is superseded by [https://ssw.com.au/rules/use-environment-newline-to-make-a-new-line-in-your-string](/rules/use-environment-newline-to-make-a-new-line-in-your-string)
 title: Do you know that no carriage returns without line feed?

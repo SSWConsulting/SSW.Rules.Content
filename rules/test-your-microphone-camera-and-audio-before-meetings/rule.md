@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test your microphone, web camera, and audio before online meetings to ensure a professional presentation."
 type: rule
 archivedreason: 
 title: Setup - Do you test your microphone, web camera and audio before meetings?

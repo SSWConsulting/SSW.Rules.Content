@@ -1,4 +1,5 @@
 ---
+seoDescription: "Standardize your pull request workflows to streamline development and ensure consistency across repositories with our tried-and-tested approaches."
 type: rule
 archivedreason: 
 title: Do you have a standard set of pull request workflows?

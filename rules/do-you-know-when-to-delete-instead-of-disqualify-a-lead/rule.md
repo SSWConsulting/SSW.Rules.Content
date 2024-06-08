@@ -1,4 +1,5 @@
 ---
+seoDescription: "Delete old leads without contact details to avoid false duplicates and improve data quality."
 type: rule
 archivedreason: 
 title: Do you know when to delete instead of disqualify a lead?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain verbal contact with clients through regular phone calls to ensure open communication and build trust."
 type: rule
 title: Management - Do you maintain verbal contact with your client?
 uri: management-do-you-maintain-verbal-contact-with-your-client

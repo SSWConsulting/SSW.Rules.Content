@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best place to put connection string: IOptions pattern over Web.config enables flexible and robust config in .NET."
 type: rule
 title: Do you know the best place to place the connection string?
 uri: best-place-to-place-the-connection-string

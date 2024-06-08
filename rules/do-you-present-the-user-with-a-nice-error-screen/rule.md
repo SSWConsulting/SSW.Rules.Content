@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you present the user with a nice error screen when an unexpected situation occurs on your ASP.NET Core application?"
 type: rule
 title: Do you present the user with a nice error screen?
 uri: do-you-present-the-user-with-a-nice-error-screen

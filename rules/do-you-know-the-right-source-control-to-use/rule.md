@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Team Foundation Server (TFS) recommended as a source control solution for efficient collaboration and version management."
 type: rule
 archivedreason: 
 title: Do you know the right source control to use?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you add end screens to your YouTube videos? Learn how to keep viewers engaged by adding a call-to-action (CTA) at the end of your video."
 type: rule
 title: Do you add end screen to your YouTube videos?
 guid: ddc1af04-cd76-4096-95aa-12626d12491f

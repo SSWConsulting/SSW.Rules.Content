@@ -1,4 +1,5 @@
 ---
+seoDescription: "Fixing people's display name in SharePoint involves updating the Name field in the User Profile Service Application or setting up User Profile Synchronization to keep profiles up to date."
 type: rule
 archivedreason: 
 title: Do you know how to fix people's display name in SharePoint ?

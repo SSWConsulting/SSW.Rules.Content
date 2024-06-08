@@ -1,4 +1,5 @@
 ---
+seoDescription: "Videos on product websites' homepages enhance features communication and boost SEO."
 type: rule
 archivedreason: 
 title: Videos - Do you have a video on the homepage of products websites?

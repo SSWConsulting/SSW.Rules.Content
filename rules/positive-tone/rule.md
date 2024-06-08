@@ -1,4 +1,5 @@
 ---
+seoDescription: "When interacting with clients, utilize a positive tone by focusing on what you will do instead of what you won't. Use phrases that create a sense of enthusiasm and cooperation."
 type: rule
 archivedreason: 
 title: Do you utilize a positive tone when interacting with clients?

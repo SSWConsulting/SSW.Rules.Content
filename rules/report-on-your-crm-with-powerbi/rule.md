@@ -1,4 +1,5 @@
 ---
+seoDescription: "Report on your CRM with Power BI and unlock insights to drive sales performance, customer engagement, and data-driven decision making."
 type: rule
 archivedreason: 
 title: Do you report on your CRM with Power BI?

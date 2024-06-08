@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid deleting records by flagging them as IsDeleted (aka Soft Delete) and instead keep historical data intact."
 type: rule
 title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka
   Soft Delete)?

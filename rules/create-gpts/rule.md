@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you create custom GPTs? Yes, OpenAI's standard ChatGPT has limitations, and creating a custom GPT means tailoring it for a specific purpose with custom training data and system prompting. It turns ChatGPT into a ready-made assistant that knows your instructions permanently."
 type: rule
 archivedreason: 
 title: Do you create custom GPTs?

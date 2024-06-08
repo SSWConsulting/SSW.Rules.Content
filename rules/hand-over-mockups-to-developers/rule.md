@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for sharing and collaborating on design work involve using Figma's shared project space to enable open and inclusive feedback."
 type: rule
 title: Do you know the best way to share and collaborate on your design work?
 uri: hand-over-mockups-to-developers

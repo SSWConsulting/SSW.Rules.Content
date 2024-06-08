@@ -1,4 +1,5 @@
 ---
+seoDescription: "Regularly inspect and adapt at scale to drive organizational agility, efficiency, and sustainable growth."
 type: rule
 title: Do you regularly inspect and adapt at scale?
 uri: regularly-inspect-and-adapt-at-scale

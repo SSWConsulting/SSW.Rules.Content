@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a recognisable product logo that reflects your brand's core visual language and colors to make a lasting positive impression on users or customers."
 type: rule
 archivedreason: 
 title: Do you know how to create a recognisable product logo?

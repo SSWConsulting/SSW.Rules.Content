@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best SharePoint navigation solutions to enhance your intranet experience with Warwick Leahy."
 type: rule
 title: Do you use the best SharePoint navigation?
 uri: best-sharepoint-navigation

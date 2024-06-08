@@ -1,4 +1,5 @@
 ---
+seoDescription: "Does your website have an 'About Us' section?"
 type: rule
 archivedreason: 
 title: Does your website have an 'About Us' section?

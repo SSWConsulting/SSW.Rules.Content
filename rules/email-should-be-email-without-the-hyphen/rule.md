@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Word spell checker may be lenient about "email" versus "e-mail", but it's essential to use "email" correctly."
 type: rule
 title: 'Tiny: Do you know "email" does not have a hyphen?'
 uri: email-should-be-email-without-the-hyphen

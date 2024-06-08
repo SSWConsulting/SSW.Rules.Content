@@ -1,4 +1,5 @@
 ---
+seoDescription: "Decommissioning a Virtual Machine requires proper planning and documentation to avoid data loss and ensure continuity."
 type: rule
 archivedreason: 
 title: Do you know how to decommission a Virtual Machine?

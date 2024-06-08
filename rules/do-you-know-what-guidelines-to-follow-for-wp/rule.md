@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn Microsoft's extensive documentation on Windows Phone design guidelines to create consistent and user-friendly experiences."
 type: rule
 archivedreason: Deprecated
 title: Do you know what guidelines to follow for WP?

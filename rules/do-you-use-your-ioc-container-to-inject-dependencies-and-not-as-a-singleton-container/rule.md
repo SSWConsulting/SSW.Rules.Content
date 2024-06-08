@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use an IOC container to inject dependencies and not as a singleton container, allowing for decoupling of classes from their dependencies."
 type: rule
 archivedreason: 
 title: Do you use your IOC container to Inject Dependencies – and not as a singleton container

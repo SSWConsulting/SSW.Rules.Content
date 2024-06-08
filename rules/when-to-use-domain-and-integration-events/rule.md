@@ -1,4 +1,5 @@
 ---
+seoDescription: "Domain and Integration Events improve decoupling and communication between application layers, enabling loose coupling and better maintainability."
 type: rule
 title: Do you know when to use Domain and Integration Events?
 guid: e91f22d2-d385-49b6-a27b-1195b4bb13f9

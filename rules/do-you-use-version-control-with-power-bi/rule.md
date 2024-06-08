@@ -1,4 +1,5 @@
 ---
+seoDescription: "Power BI version control walkthrough for business users and developers. Learn how to edit and commit reports using Power BI Service or Power BI Desktop, and deploy changes to production workspaces."
 type: rule
 title: Do you use version control with Power BI?
 uri: do-you-use-version-control-with-power-bi

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use Glimpse to easily perform diagnostics on your MVC application at runtime and gain valuable insights into routing information, profiling, request details, and more?"
 type: rule
 archivedreason: 
 title: Do you use Glimpse?

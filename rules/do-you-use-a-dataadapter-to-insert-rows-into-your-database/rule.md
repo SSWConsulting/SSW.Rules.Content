@@ -1,4 +1,5 @@
 ---
+seoDescription: "Inserting data rows using DataAdapter in .NET applications with SQL Server, Access, or other databases."
 type: rule
 archivedreason: Ugly rule, why aren't we advocating for EF? Refer to [https://www.ssw.com.au/rules/why-to-use-entity-framework](/rules/why-to-use-entity-framework)
 title: Do you use a DataAdapter to insert rows into your database?

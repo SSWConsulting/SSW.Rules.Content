@@ -1,4 +1,5 @@
 ---
+seoDescription: "The best approach to validate client requests is to use a MediatR pipeline behavior that automatically validates all incoming requests and throws a ValidationException if the request is invalid."
 type: rule
 archivedreason: 
 title: Do you know the best approach to validate your client requests?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know the layers of the Onion architecture? Learn about Application Core, Domain Model, Repository Interfaces, Business Logic Interfaces, Clients, and Dependencies to build a robust software application."
 type: rule
 archivedreason: 
 title: Do you know the layers of the onion architecture?

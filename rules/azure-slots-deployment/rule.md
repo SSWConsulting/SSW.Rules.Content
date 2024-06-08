@@ -1,4 +1,5 @@
 ---
+seoDescription: "Azure App Services offer a powerful way to deploy and manage web applications. Use deployment slots to create staging environments and easily swap between production and staging, ensuring smooth testing and rollbacks in case of issues."
 type: rule
 title: Do you know how to use slot deployment on Azure?
 uri: azure-slots-deployment

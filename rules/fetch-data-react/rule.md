@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover powerful data fetching libraries for React: Tanstack Query, SWR, and RTK Query."
 type: rule
 title: Do you know the best libraries to fetch data in React?
 uri: fetch-data-react

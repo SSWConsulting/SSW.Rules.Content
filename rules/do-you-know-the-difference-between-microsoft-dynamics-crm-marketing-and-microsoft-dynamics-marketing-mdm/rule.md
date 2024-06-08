@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Dynamics Marketing (MDM) takes lead generation to the next level by providing marketing planning, budgeting, management, and ROI tracking for businesses."
 type: rule
 archivedreason: 
 title: Do you know the difference between Microsoft Dynamics CRM marketing and Microsoft Dynamics Marketing (MDM)?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Integrate data and charts to enhance understanding and comparison of reports."
 type: rule
 archivedreason:
 title: Data Layout - Do you show data and chart in one?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective Azure DevOps permissions assignment requires granting specific access to team members only for necessary areas or iterations, minimizing risks and ensuring secure data accessibility."
 type: rule
 title: Do you know how to assign Azure DevOps permissions effectively?
 uri: azure-devops-permissions

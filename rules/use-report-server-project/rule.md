@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to use Report Server Project in Visual Studio to easily manage and develop reports for your business intelligence needs."
 type: rule
 title: Do you use Report Server Project?
 uri: use-report-server-project

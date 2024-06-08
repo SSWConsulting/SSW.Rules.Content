@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid common spelling and syntax mistakes to ensure effective communication by using correct grammar, punctuation, and language conventions."
 type: rule
 title: Do you avoid common spelling and syntax mistakes?
 uri: avoid-common-mistakes

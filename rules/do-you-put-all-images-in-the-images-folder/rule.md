@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize images by placing them all in a single folder for better structure and ease of use."
 type: rule
 archivedreason: 
 title: Do you put all images in the \images folder?

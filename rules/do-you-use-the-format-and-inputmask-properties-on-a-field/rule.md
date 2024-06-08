@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server and MSDE lack Format or InputMask properties found in Microsoft Access 2000, resulting in lost formatting during migration."
 type: rule
 archivedreason: 
 title: Do you use the Format and InputMask properties on a field?

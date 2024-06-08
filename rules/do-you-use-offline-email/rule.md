@@ -1,4 +1,5 @@
 ---
+seoDescription: "Sync your offline Outlook email regularly to ensure all folders and subfolders are properly synced with your online account."
 type: rule
 archivedreason: Deprecated
 title: Do you use Offline Email?

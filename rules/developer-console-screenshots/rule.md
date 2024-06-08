@@ -1,4 +1,5 @@
 ---
+seoDescription: "Take ultra-high resolution screenshots and edit elements on screen using the developer console to enhance video quality."
 type: rule
 title: Do you use Developer Console to edit and take better screenshots? 
 uri: developer-console-screenshots

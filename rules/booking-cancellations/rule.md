@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective management of booking cancellations requires proactive communication and flexibility to ensure optimal use of developer time."
 type: rule
 title: Do you know how to manage booking cancellations?
 uri: booking-cancellations

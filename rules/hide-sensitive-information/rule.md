@@ -1,4 +1,5 @@
 ---
+seoDescription: "Professional documentation requires discretion. Hide sensitive information like client names from public view to maintain confidentiality and trust."
 type: rule
 archivedreason:
 title: Do you hide sensitive information?

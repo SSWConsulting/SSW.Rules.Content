@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server table names longer than 24 characters may be truncated when linked to an Access front-end."
 type: rule
 archivedreason: Legacy rule relating only to Access limitation
 title: Schema - Do you use less than 24 characters for table names?

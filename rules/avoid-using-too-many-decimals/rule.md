@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using too many decimal places and keep numbers simple by rounding off values and omitting unnecessary zeros."
 type: rule
 title: Do you avoid using too many decimal places?
 uri: avoid-using-too-many-decimals

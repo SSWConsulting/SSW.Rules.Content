@@ -1,4 +1,5 @@
 ---
+seoDescription: "When designing a multi-line text box in a form, make the "Enter" key go to the next line instead of pressing the OK button."
 type: rule
 title: Do you make "Enter" go to the next line when you have a multi-line
   textbox rather than hit the OK button?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the importance of asking questions and transform your communication skills with expert tips on choosing the right time, avoiding interrupting, and crafting valuable inquiries."
 type: rule
 title: Do you know the importance of asking questions?
 uri: asking-questions

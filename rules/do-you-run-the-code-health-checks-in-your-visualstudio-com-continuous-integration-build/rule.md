@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?"
 type: rule
 archivedreason: 
 title: Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?

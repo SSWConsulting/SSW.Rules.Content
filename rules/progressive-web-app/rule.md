@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a PWA (Progressive Web App)? Your application should use a responsive design, be fast with service worker precaching and caching, and be installable with a web app manifest to notify users."
 type: rule
 archivedreason: 
 title: Do you have a PWA (Progressive Web App)?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stored procedures should always return a value indicating the status, with 0 signifying success and error numbers denoting errors."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you return a value indicating the status?

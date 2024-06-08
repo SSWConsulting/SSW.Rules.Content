@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know that the ASP.NET Core SPA Template for Angular uses the Angular CLI?"
 type: rule
 title: Options - Do you know that the ASP.NET Core SPA Template for Angular uses
   the Angular CLI?

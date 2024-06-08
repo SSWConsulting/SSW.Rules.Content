@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to set up Application Insights and start monitoring your application's performance, exceptions, and user behavior."
 type: rule
 archivedreason: 
 title: Do you know how to set up Application Insights?

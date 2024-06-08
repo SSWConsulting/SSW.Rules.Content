@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure all stakeholders involved in Specification Reviews to guarantee accurate business requirements and budget control."
 type: rule
 title: Do you make sure that all stakeholders are involved in the Specification Review?
 uri: involve-all-stakeholders

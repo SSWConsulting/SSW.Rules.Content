@@ -1,4 +1,5 @@
 ---
+seoDescription: "Powerful domains can boost your online presence and search engine rankings by using exact word matches, maintaining seniority, avoiding dashes, and enabling auto-renewal."
 type: rule
 title: Do you have a powerful domain?
 uri: does-your-domain-have-power

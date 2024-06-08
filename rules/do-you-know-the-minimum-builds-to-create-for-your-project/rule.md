@@ -1,4 +1,5 @@
 ---
+seoDescription: "Minimum builds necessary to prove project viability and success include CI and Nightly builds, with CI running unit tests and automated UI tests after successful check-ins, and Nightly building running all tests, including load and performance testing."
 type: rule
 title: Do you know the minimum builds to create for your project?
 uri: do-you-know-the-minimum-builds-to-create-for-your-project

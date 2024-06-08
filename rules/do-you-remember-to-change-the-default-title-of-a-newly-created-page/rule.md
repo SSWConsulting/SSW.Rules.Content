@@ -1,4 +1,5 @@
 ---
+seoDescription: "New page creation best practice: Change default title to a meaningful one, enhancing user experience and search engine optimization."
 type: rule
 archivedreason: 
 title: Do you remember to change the default title of a newly created page?

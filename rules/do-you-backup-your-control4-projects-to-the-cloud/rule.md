@@ -1,4 +1,5 @@
 ---
+seoDescription: "Backup your Control4 projects to the cloud and safeguard against data loss or corruption with automated backups."
 type: rule
 archivedreason: 
 title: Do you backup your Control4 projects to the cloud?

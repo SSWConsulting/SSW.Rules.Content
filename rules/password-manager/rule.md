@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a password manager to securely store and generate strong, unique passwords, ensuring your online accounts are protected from breaches and cyber threats."
 type: rule
 title: Passwords - Do you use a password manager?
 uri: password-manager

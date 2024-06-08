@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use environment variables to configure Power Apps solutions with customizable input parameters and avoid hardcoded configuration information."
 type: rule
 archivedreason: 
 title: Do you use Environment variables for environment-specific configurations?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use "&lt; Back" instead of "Previous" or other variations to navigate through records and follow Microsoft's design specifications for consistency."
 type: rule
 archivedreason: 
 title: Do you use "Back" instead of "Previous" (or other variations)?

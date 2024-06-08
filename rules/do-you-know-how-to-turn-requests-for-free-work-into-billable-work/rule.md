@@ -1,4 +1,5 @@
 ---
+seoDescription: "Transforming requests for free work into billable projects requires setting clear expectations with clients and communicating the value of your expertise."
 type: rule
 title: Do you know how to turn requests for free work into billable work?
 uri: do-you-know-how-to-turn-requests-for-free-work-into-billable-work

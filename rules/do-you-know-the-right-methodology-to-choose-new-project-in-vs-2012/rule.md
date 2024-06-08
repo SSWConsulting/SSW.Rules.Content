@@ -1,4 +1,5 @@
 ---
+seoDescription: "Choose the right methodology and process template in Visual Studio 2012 with TFS, using built-in templates or customizing to fit your development environment."
 type: rule
 archivedreason: 
 title: Do you know the right methodology to choose (new project in VS 2012)?

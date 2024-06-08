@@ -1,4 +1,5 @@
 ---
+seoDescription: "Technically cool jQuery plug-ins enhance website functionality with advanced features and user-friendly interfaces."
 type: rule
 archivedreason: 
 title: Do you know what are the best examples of technically cool jQuery plug-ins?

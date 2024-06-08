@@ -1,4 +1,5 @@
 ---
+seoDescription: "Securely connect with your website visitors by providing HTTPS security and ensuring their sensitive information remains protected."
 type: rule
 archivedreason: 
 title: Do you provide security to your website visitors?

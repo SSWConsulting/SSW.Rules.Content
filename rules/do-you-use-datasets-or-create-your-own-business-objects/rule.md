@@ -1,4 +1,5 @@
 ---
+seoDescription: "In .NET, you can pass data through layers using either DataSets or custom business objects."
 type: rule
 title: Do you use DataSets or create your own business objects?
 uri: do-you-use-datasets-or-create-your-own-business-objects

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using if-else statements instead of switch blocks to ensure better performance and maintainable code."
 type: rule
 title: Do you avoid using if-else instead of switch block?
 uri: avoid-using-if-else-instead-of-switch-block

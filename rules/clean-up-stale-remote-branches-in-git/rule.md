@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clean up stale remote branches in Git by using `git fetch -p` to efficiently prune and update your repository."
 type: rule
 archivedreason: 
 title: Do you know how clean up stale remote branches in git?

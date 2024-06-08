@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid specifying height and width attributes in your image tags to maintain responsiveness and prevent images from being stretched or distorted."
 type: rule
 archivedreason: 
 title: Do you avoid having height/width in an image tag?

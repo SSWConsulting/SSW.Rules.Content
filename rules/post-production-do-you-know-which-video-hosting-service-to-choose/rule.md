@@ -1,4 +1,5 @@
 ---
+seoDescription: "Choosing the right video hosting service depends on your marketing strategy and goals, with YouTube suitable for exposure and user engagement, while Wistia and Vimeo are better suited for professional purposes."
 type: rule
 archivedreason: 
 title: Post-Production - Do you know which video hosting service to choose?

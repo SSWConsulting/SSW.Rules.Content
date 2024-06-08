@@ -1,4 +1,5 @@
 ---
+seoDescription: "Accurately focus your shots with Focus peaking, a visual tool highlighting areas of sharp focus on live views or monitors."
 type: rule
 title: Do you know how to use Focus peaking?
 uri: focus-peaking

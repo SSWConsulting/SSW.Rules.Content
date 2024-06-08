@@ -1,4 +1,5 @@
 ---
+seoDescription: "Chinafy: Effectively manage third-party dependencies to ensure seamless website performance in China by removing unnecessary dependencies, hosting required CSS and JavaScript content locally or through a CDN available from China."
 type: rule
 title: Chinafy - Do you manage 3rd party dependencies?
 uri: do-you-manage-3rd-party-dependencies

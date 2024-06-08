@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate certificate management with Certify The Web and Let's Encrypt, removing human error and manual handling for hassle-free expiration control."
 type: rule
 title: Certificate - Do you know how to manage certificates?
 uri: how-to-manage-certificates

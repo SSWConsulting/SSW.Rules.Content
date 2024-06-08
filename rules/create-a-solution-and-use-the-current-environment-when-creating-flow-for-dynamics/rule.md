@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create workflows in Dynamics by using the Common Data Service (Current Environment) connector, ensuring seamless connections and deployments across environments."
 type: rule
 archivedreason: 
 title: Do you create a Solution and use "Current Environment" when creating Flow for Dynamics?

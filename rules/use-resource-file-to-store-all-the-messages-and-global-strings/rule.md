@@ -1,4 +1,5 @@
 ---
+seoDescription: "Storing messages and global strings in a resource file simplifies management and maintains application consistency."
 type: rule
 archivedreason: 
 title: Do you use resource file to store all the messages and globlal strings?

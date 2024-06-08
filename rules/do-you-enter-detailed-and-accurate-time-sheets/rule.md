@@ -1,4 +1,5 @@
 ---
+seoDescription: "Accurate time sheet entries ensure precise invoicing and client transparency."
 type: rule
 archivedreason: 
 title: Do you enter detailed and accurate time sheets?

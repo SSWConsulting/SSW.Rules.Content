@@ -1,4 +1,5 @@
 ---
+seoDescription: "Report page headers should be concise and contain as little content as possible to avoid duplication on every page. This approach helps save paper when printing and keeps the report organized."
 type: rule
 archivedreason:
 title: Layout - Do you put as little content as possible in a report page header?

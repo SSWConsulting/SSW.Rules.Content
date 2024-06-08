@@ -1,4 +1,5 @@
 ---
+seoDescription: "Management - Do you use Just-In-Time speccing? Write high-quality specs just in time for implementation, avoiding months of upfront planning and ensuring adaptability to evolving requirements."
 type: rule
 title: Management - Do you use Just-In-Time speccing?
 uri: management-do-you-use-just-in-time-speccing

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use Global List in TFS? Learn best practices and examples of referencing global lists in work item type definitions."
 type: rule
 archivedreason: 
 title: Do you use Global List in TFS?

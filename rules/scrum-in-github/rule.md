@@ -1,4 +1,5 @@
 ---
+seoDescription: "Master Scrum management with GitHub Projects, where you can track sprints, estimates, and custom fields while collating issues from multiple repositories."
 type: rule
 title: GitHub Projects - Do you know how to do Scrum?
 uri: scrum-in-github

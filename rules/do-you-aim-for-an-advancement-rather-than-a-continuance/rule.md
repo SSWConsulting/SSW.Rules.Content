@@ -1,4 +1,5 @@
 ---
+seoDescription: "Aim for an advancement rather than a continuance to drive business forward and increase chances of making a sale."
 type: rule
 archivedreason: 
 title: Do you aim for an advancement rather than a continuance?

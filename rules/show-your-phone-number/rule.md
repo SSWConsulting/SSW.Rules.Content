@@ -1,4 +1,5 @@
 ---
+seoDescription: "Show your phone number in IM profiles to enable easy communication and resolve urgent issues efficiently."
 type: rule
 title: Do you have your phone number in your IM profile?
 uri: show-your-phone-number

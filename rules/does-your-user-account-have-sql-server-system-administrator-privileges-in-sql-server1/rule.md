@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade to TFS 2012 and ensure sysadmin privileges on SQL Server to avoid corrupted databases."
 type: rule
 archivedreason: Duplicated of /does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server
 title: Does your user account have SQL Server System Administrator privileges in SQL Server?

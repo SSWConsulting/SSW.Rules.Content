@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using magic strings when referencing property and variable names, instead use nameof() operator to keep your code concise and maintainable."
 type: rule
 archivedreason: 
 title: Do you avoid using magic string when referencing property/variable names

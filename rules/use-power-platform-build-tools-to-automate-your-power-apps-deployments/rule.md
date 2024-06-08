@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate Power Apps deployments using Microsoft Power Platform Build Tools to streamline your application lifecycle and reduce manual errors."
 type: rule
 archivedreason: 
 title: Do you use Power Platform Build Tools to automate your Power Apps deployments?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Don't create a report whenever you need a number from a system. Instead, use Power BI to build a reusable report and satisfy your own curiosity."
 type: rule
 archivedreason: 
 title: Efficiency - Reuse - Do you create a report whenever you need a number from a system?

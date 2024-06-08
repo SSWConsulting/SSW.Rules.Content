@@ -1,4 +1,5 @@
 ---
+seoDescription: "Only include relationships you explicitly need to optimize database performance and reduce load."
 type: rule
 title: Do you only explicitly include relationships you need?
 uri: only-explicitly-include-relationships-you-need

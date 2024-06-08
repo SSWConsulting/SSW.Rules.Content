@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using absolute internal links to prevent issues during website migration or domain name changes and ensure a seamless user experience."
 type: rule
 title: Do you avoid absolute internal links?
 uri: avoid-absolute-internal-links

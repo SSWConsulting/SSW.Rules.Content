@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find top talent quickly and efficiently using LinkedIn Recruiter's powerful search features, including keyword searches, applicant suggestions, and customizable funnels."
 type: rule
 title: Do you use LinkedIn Recruiter to help you find more candidates?
 uri: do-you-use-linkedin-recruiter-to-help-you-find-more-candidates

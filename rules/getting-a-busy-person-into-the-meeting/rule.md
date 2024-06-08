@@ -1,4 +1,5 @@
 ---
+seoDescription: "Getting a busy person into an online meeting requires a proactive approach, including pinging them on Teams and persistently adding them to the call if they're missing."
 type: rule
 title: Ceremony - Do you know how to get a busy person into the meeting?
 uri: getting-a-busy-person-into-the-meeting

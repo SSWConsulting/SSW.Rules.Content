@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you provide event catering services that meet dietary requirements and ensure access to food and beverage areas?"
 type: rule
 title: Do you provide event catering?
 uri: catering-for-events

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Book better flights by being flexible with dates, using fare comparison websites, booking in advance, and clearing browser cookies."
 type: rule
 archivedreason: 
 title: Do you know how to book better flights?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Breaking messages into separate topics enhances understanding and encourages focused responses by clarifying individual points."
 type: rule
 title: Do you break messages to facilitate responses?
 uri: separate-messages

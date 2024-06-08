@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use high-quality icon libraries like Font Awesome, Bootstrap icons, or Google material icons to elevate your website's user experience and improve its search engine ranking."
 type: rule
 archivedreason: 
 title: Do you use the best libraries for icons?

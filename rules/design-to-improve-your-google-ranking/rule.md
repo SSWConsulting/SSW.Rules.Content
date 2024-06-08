@@ -1,4 +1,5 @@
 ---
+seoDescription: "Design a website that improves your Google ranking by using relevant keywords, meta tags, and internal linking to boost search engine visibility."
 type: rule
 archivedreason: 
 title: Do you design your website to improve your Google Ranking?

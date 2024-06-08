@@ -1,4 +1,5 @@
 ---
+seoDescription: "Include URLs in tasks and "Done" emails to enhance transparency and collaboration by providing easy access to relevant information."
 type: rule
 title: Do you include URLs in tasks and "Done" emails?
 uri: include-links-in-emails

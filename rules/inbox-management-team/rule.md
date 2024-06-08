@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize your inbox and boost productivity with an Inbox Zero team, where Scrum principles ensure accountability, prioritization, and collaboration to achieve a manageable inbox state."
 type: rule
 archivedreason:
 title: Do you have an Inbox Zero team?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Transforming Agile teams through collaborative war rooms, creating a centralized space for efficient work and seamless communication."
 type: rule
 archivedreason: 
 title: Do you have a war room? (summary)

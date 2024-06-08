@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your Windows file storage with Drive Bender, a powerful solution offering better performance and interface than Storage Spaces."
 type: rule
 archivedreason: 
 title: Do you use the best Windows file storage solution?

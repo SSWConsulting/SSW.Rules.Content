@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using uncommon acronyms in your writing to ensure clear communication and prevent confusion. Instead, opt for the full term or phrase to maintain clarity and understanding."
 type: rule
 title: Do you avoid uncommon acronyms in your writing?
 uri: avoid-acronyms

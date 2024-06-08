@@ -1,4 +1,5 @@
 ---
+seoDescription: "Harnessing the power of 'no' responses to open up honest and productive dialogues in sales and negotiations."
 type: rule
 title: Do you strive a 'no' response?
 uri: harnessing-the-power-of-no

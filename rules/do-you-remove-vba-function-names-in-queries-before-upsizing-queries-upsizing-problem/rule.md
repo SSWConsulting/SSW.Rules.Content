@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid upsizing Microsoft Access queries that include VBA function names without equivalent Transact-SQL functions."
 type: rule
 archivedreason: 
 title: Do you remove VBA function names in queries before upsizing queries (Upsizing problem)?

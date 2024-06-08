@@ -1,4 +1,5 @@
 ---
+seoDescription: "Sitefinity layouts are limited to assigning a class to a div, with widths hardcoded and no customization options."
 type: rule
 archivedreason: 
 title: Do you tell your designers to only use classes?

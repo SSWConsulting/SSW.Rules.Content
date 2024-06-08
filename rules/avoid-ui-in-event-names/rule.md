@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using "UI" in event names and instead use descriptive names that indicate the purpose of the event."
 type: rule
 title: Do you avoid "UI" in event names?
 uri: avoid-ui-in-event-names

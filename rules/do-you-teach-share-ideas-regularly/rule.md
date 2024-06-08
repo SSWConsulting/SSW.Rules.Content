@@ -1,4 +1,5 @@
 ---
+seoDescription: "IP share knowledge regularly to increase shared understanding and break reliance on individual expertise."
 type: rule
 archivedreason: 
 title: IP - Do you teach & share ideas regularly?

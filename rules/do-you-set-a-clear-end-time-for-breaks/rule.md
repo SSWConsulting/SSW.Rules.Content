@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set a clear end time for breaks to maintain integrity and ensure prompt returns, utilizing alarms or written reminders."
 type: rule
 archivedreason: 
 title: Do you set a clear end time for breaks?

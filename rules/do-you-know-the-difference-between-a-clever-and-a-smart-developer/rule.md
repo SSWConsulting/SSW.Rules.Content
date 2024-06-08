@@ -1,4 +1,5 @@
 ---
+seoDescription: "Smart developers understand the whole system before diving into a problem, anticipating and addressing potential issues."
 type: rule
 title: Do you know the difference between a 'smart' and a 'clever' developer?
 uri: do-you-know-the-difference-between-a-clever-and-a-smart-developer

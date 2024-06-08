@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consistently reply to tasks or questions across the same medium they were sent, ensuring courtesy and clarity."
 type: rule
 title: Do you always reply to tasks/questions in the same medium?
 uri: replying-in-the-same-medium

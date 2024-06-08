@@ -1,4 +1,5 @@
 ---
+seoDescription: "Review SharePoint usage analytics to measure engagement and optimize popular pages or sites."
 type: rule
 title: SharePoint - Do you review usage?
 uri: sharepoint-usage

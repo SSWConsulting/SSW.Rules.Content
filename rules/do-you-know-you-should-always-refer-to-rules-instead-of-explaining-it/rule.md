@@ -1,4 +1,5 @@
 ---
+seoDescription: "Referring to SharePoint rules ensures up-to-date information and accurate documentation, allowing users to easily access standards for future reference."
 type: rule
 archivedreason: 
 title: Do you know you should always refer to rules instead of explaining it?

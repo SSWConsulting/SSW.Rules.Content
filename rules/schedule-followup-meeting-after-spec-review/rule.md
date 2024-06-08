@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schedule a follow-up meeting after a Spec Review to ensure timely decision-making and address client questions, budget concerns, and approval processes."
 type: rule
 archivedreason: 
 title: Do you schedule a follow-up meeting after a Spec Review?

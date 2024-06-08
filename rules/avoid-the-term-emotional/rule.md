@@ -1,4 +1,5 @@
 ---
+seoDescription: "Passionate discussions reveal genuine enthusiasm and conviction."
 type: rule
 archivedreason: 
 title: Do you avoid the term "emotional"?

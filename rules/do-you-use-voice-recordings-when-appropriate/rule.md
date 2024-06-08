@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use videos or voice recordings instead of sending long emails?"
 type: rule
 archivedreason: 
 title: Communication - Do you use videos or voice recordings instead of sending long emails?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Master the art of structuring a Brainstorming presentation with Adam Cogan, William Liebenberg, and Piers Sinclair. Learn how to effectively share ideas with stakeholders, allocate time wisely, and create a seamless experience."
 type: rule
 title: Do you know how to structure a Brainstorming presentation?
 uri: brainstorming-presentations

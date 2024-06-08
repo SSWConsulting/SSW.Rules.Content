@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage travel expenses efficiently and compliantly through centralized systems, streamlining processes, controlling costs, and ensuring scalability."
 type: rule
 title: Do you manage travel in centralized systems?
 uri: manage-travel-in-centralized-systems

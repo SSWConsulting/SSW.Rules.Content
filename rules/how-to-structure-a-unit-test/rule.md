@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to structure a unit test with Adam Cogan's 3 A's: Arrange, Act, and Assert."
 type: rule
 title: Do you know how to structure a unit test (aka the 3 a's)?
 uri: how-to-structure-a-unit-test

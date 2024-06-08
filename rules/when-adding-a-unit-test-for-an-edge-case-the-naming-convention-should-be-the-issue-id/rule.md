@@ -1,4 +1,5 @@
 ---
+seoDescription: "When writing tests to confirm bugfixes, it's essential to reference the issue ID in the test name and comments. This provides context for future developers, helping them understand why a particular test exists."
 type: rule
 title: Do you reference the issue ID when writing a test to confirm a bugfix?
 uri: when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-the-issue-id

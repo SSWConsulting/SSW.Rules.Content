@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance meeting visibility by zooming in on projector displays to ensure clear reading from a distance."
 type: rule
 archivedreason: 
 title: Meetings - Do you always zoom in when using a projector?

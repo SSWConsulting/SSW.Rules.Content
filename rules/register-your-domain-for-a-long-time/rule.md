@@ -1,4 +1,5 @@
 ---
+seoDescription: "Registering a domain name for an extended period can boost credibility and improve Google rankings by indicating a permanent online presence."
 type: rule
 archivedreason: 
 title: Do you register your domain for a long time?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Turn a rant into a tip by sharing your mistakes and how to avoid them, making you a more empathetic and helpful blogger."
 type: rule
 archivedreason: 
 title: Do you know to tip, not rant?

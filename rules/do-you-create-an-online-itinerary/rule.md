@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a seamless travel experience by consolidating flight, hotel, and car rental bookings into a single online itinerary with TripIt."
 type: rule
 title: Do you create an online itinerary when traveling?
 uri: do-you-create-an-online-itinerary

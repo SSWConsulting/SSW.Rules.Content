@@ -1,4 +1,5 @@
 ---
+seoDescription: "Web configuration essentials in SharePoint include ASP.NET library references, system.web/pages/controls additions, HTTP modules, and safe control tags for custom DLLs."
 type: rule
 archivedreason: 
 title: Do you know common web configuration stuff you will need?

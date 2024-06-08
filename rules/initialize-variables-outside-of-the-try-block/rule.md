@@ -1,4 +1,5 @@
 ---
+seoDescription: "Initializing variables outside of a try block ensures that their values are set regardless of exceptions thrown within the try block."
 type: rule
 title: Do you initialize variables outside of the try block?
 uri: initialize-variables-outside-of-the-try-block

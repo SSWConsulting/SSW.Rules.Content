@@ -1,4 +1,5 @@
 ---
+seoDescription: "Know when to avoid using email by recognizing situations where a phone call or meeting is more effective."
 type: rule
 archivedreason: 
 title: Do you know when to NOT send an email?

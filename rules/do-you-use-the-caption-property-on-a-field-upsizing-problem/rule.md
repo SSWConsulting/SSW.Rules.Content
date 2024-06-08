@@ -1,4 +1,5 @@
 ---
+seoDescription: "The Caption property on a field has no impact on upsizing, as the true column name always takes precedence."
 type: rule
 archivedreason: 
 title: Do you use the Caption property on a field (Upsizing Problem)?

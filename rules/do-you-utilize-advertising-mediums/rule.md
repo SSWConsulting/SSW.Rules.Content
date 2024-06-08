@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify effective advertising mediums for IT businesses, from television to direct mail, and learn how SSW's experience with magazines and internet platforms compares."
 type: rule
 title: Do you utilize advertising mediums?
 uri: do-you-utilize-advertising-mediums

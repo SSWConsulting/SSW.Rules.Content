@@ -1,4 +1,5 @@
 ---
+seoDescription: "LinkedIn creator mode helps you grow your reach, influence, and audience by providing additional tools and features to create engaging content."
 type: rule
 title: LinkedIn – Do you use Creator mode?
 uri: linkedin-creator-mode

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure all software uses English as default language settings to avoid cultural and linguistic barriers when interacting with Western audiences."
 type: rule
 title: Do you make sure all software uses English as default on language settings?
 uri: make-sure-all-software-uses-english

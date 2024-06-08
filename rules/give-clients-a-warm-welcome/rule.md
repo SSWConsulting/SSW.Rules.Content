@@ -1,4 +1,5 @@
 ---
+seoDescription: "When you give clients a warm welcome, make a lasting impression and set the tone for a successful meeting."
 type: rule
 title: Do you give clients a warm welcome?
 uri: give-clients-a-warm-welcome

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have auto-generated maintenance pages on every project? Yes, with netTiers."
 type: rule
 archivedreason: 
 title: Do you have auto-generated maintenance pages on every project ?

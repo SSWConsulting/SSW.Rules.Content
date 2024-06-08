@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance your client gifts by adding branded stickers to physical presents or incorporating your logo into virtual e-vouchers for a personalized touch."
 type: rule
 title: Do you make your presents branded?
 uri: make-your-presents-branded

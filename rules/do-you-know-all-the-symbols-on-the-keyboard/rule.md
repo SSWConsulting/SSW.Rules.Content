@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering your keyboard's symbols can take you to new levels of typing efficiency and creativity."
 type: rule
 archivedreason: 
 title: Do you know all the symbols on the keyboard?

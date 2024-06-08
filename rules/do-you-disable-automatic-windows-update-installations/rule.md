@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enabling automatic Windows Update installations can be intrusive to your workflow, making it essential to set updates to be installed manually."
 type: rule
 archivedreason: 
 title: Do you enable automatic Windows Update Installations?

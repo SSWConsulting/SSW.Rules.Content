@@ -1,4 +1,5 @@
 ---
+seoDescription: "Copy email content to PBIs for better PBI visibility and easier future reference."
 type: rule
 archivedreason: superseded by changes to https://ssw.com.au/rules/turn-emails-into-pbis
 title: Do you copy email content to PBIs?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid leading questions when asking ChatGPT to ensure objective and informative responses that are more trustworthy."
 type: rule
 title: Do you avoid leading questions?
 uri: avoid-leading-prompt-questions

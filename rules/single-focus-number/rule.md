@@ -1,4 +1,5 @@
 ---
+seoDescription: "Single focus numbers provide a clear snapshot of performance, making it easy to understand report findings and identify areas for improvement."
 type: rule
 title: Do you have a single focus number for each report when possible?
 uri: single-focus-number

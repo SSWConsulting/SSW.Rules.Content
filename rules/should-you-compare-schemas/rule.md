@@ -1,4 +1,5 @@
 ---
+seoDescription: "Pre-deployment schema comparison tools can hinder deployment efficiency by making it a step at the end of your process."
 type: rule
 title: Do you know why you shouldn't compare schemas during deployment?
 uri: should-you-compare-schemas

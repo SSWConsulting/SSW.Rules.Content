@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use shared check-outs to prevent files from being locked and ensure multiple team members can collaborate on projects simultaneously."
 type: rule
 archivedreason: 
 title: Do you use shared check-outs?

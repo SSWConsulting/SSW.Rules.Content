@@ -1,4 +1,5 @@
 ---
+seoDescription: "Acquire successful outbound calling skills by practicing and having a positive attitude to boost your probability of success."
 type: rule
 title: Do you call enough people?
 uri: call-enough-people

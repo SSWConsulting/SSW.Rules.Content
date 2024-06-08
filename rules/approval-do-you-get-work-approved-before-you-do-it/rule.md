@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get work approved before acting to boost efficiency and reduce stress by avoiding potential fires."
 type: rule
 archivedreason: 
 title: Approval - Do you get work approved before you do it?

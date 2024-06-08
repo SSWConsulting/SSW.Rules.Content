@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid wasting time on tasks by setting a time limit with timeboxing, ensuring you stay focused and productive within allocated hours."
 type: rule
 archivedreason: 
 title: Do you use timeboxing to avoid wasted time?

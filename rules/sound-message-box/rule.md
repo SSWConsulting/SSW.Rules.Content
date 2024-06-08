@@ -1,4 +1,5 @@
 ---
+seoDescription: "Did you know that a message box automatically plays a beep?"
 type: rule
 title: Sound - Did you know that a message box automatically plays a beep?
 uri: sound-message-box

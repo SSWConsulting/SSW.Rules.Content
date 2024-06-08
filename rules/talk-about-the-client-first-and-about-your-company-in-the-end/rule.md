@@ -1,4 +1,5 @@
 ---
+seoDescription: "At SSW, proposals are structured to prioritize client information, with a brief company presentation coming last."
 type: rule
 archivedreason: 
 title: Do you talk about the client first and about your company in the end?

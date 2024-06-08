@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set default permissions for all new GitHub repositories and streamline your workflow with automated repository creation."
 type: rule
 archivedreason:
 title: Do you set default permissions for all new repositories?

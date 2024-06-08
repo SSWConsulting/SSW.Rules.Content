@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering document naming conventions is crucial for effective SharePoint search and file discovery. Use descriptive words and kebab-case (hyphens) to make your files easily searchable."
 type: rule
 title: Do you know how to name documents/files?
 uri: how-to-name-documents

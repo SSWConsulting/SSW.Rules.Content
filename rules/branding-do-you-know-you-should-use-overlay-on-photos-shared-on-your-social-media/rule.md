@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know when to use an overlay on images? Add a professional touch and consistency to your social media posts with overlays."
 type: rule
 archivedreason: 
 title: Branding - Do you know when to use an overlay on images?

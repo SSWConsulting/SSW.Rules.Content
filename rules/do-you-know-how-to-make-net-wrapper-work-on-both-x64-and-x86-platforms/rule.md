@@ -1,4 +1,5 @@
 ---
+seoDescription: ".NET wrapper compatibility on x64 and x86 platforms requires careful IntPtr management to avoid integer overflows."
 type: rule
 title: Do you know how to make .NET wrapper work on both x64 and x86 platforms?
 uri: do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms

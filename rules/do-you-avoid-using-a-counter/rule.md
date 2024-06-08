@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using website counters as they provide limited information and may not accurately reflect unique visitors."
 type: rule
 archivedreason: 
 title: Do you avoid using a Counter?

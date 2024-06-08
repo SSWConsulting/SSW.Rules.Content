@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers show client love weekly, while account managers track and encourage extra initiative."
 type: rule
 archivedreason:
 title: Do you encourage your team to do weekly "Client Love"?

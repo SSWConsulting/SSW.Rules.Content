@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use bar graphs rather than pie charts to visualize data that shows changes over time or compares different groups."
 type: rule
 archivedreason: 
 title: Charts - Do you use bar graph rather than pie graph?

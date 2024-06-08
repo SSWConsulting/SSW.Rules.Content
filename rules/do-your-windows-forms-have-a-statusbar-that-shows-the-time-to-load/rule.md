@@ -1,4 +1,5 @@
 ---
+seoDescription: "Windows Forms application development should include a StatusBar to display the time taken to load the form, providing valuable insights for developers and users alike."
 type: rule
 title: Do your Windows Forms have a StatusBar that shows the time to load?
 uri: do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load

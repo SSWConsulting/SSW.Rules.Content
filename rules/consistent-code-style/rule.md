@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consistent coding style and effortless code formatting with .editorconfig."
 type: rule
 title: Do you keep your code consistent using .editorconfig?
 uri: consistent-code-style

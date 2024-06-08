@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay focused and avoid distractions with these 11 tips: prioritize tasks, minimize multitasking, set browser defaults, reduce phone interruptions, and more."
 type: rule
 archivedreason: 
 title: Do you know how to deal with distractions?

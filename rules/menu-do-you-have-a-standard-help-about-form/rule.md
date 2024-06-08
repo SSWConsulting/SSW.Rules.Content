@@ -1,4 +1,5 @@
 ---
+seoDescription: "As a standard "Help | About" form, every application you build should have the same essential information. This includes the version number, URL, product description, contact details, and branding (logo)."
 type: rule
 archivedreason: 
 title: Menu - Do you have a standard "Help | About" form?

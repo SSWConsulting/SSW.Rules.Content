@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize the audience by moving attendees to be next to each other when numbers are low to create a visually appealing event space."
 type: rule
 archivedreason: 
 title: Events - Do you organize the audience when numbers are low?

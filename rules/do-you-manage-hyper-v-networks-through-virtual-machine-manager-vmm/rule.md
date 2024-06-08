@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage Hyper-V networks efficiently through Virtual Machine Manager (VMM) by configuring logical switches and monitoring physical network devices."
 type: rule
 archivedreason: 
 title: Do you manage Hyper-V Networks through Virtual Machine Manager (VMM)?

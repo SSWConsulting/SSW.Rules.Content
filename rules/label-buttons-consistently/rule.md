@@ -1,4 +1,5 @@
 ---
+seoDescription: "Labeling web-based form buttons consistently ensures a seamless user experience by minimizing confusion and learning curves."
 type: rule
 archivedreason:
 title: Do you know how to label web-based form buttons consistently?

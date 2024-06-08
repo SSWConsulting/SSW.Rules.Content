@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find the closest Azure Data Centre for your next project using AzureSpeed's latency test and additional performance tests."
 type: rule
 archivedreason: 
 title: Do you know how to find the closest Azure Data Centre for your next project?

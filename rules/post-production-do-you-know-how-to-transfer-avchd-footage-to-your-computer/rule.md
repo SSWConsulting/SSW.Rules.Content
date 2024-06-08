@@ -1,4 +1,5 @@
 ---
+seoDescription: "Post-production beginners can now seamlessly transfer AVCHD footage to their computer using Sony's Content Management Utility software."
 type: rule
 archivedreason: 
 title: Post-Production - Do you know how to transfer AVCHD footage to your computer?

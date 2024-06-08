@@ -1,4 +1,5 @@
 ---
+seoDescription: "Distributing a product in Release mode while retaining debugging information."
 type: rule
 title: Do you distribute a product in Release mode?
 uri: do-you-distribute-a-product-in-release-mode

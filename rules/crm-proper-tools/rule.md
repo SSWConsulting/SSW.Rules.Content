@@ -1,4 +1,5 @@
 ---
+seoDescription: "Elevate your CRM development with tools like XRMToolbox, D365 Developer Extensions, and XRMToolkit for efficient solution transfer, fetch XML editing, and more."
 type: rule
 archivedreason: 
 title: Do you have proper tools in your tool belt?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Notify clients of uncharged overtime hours to foster gratitude and build strong relationships."
 type: rule
 archivedreason: 
 title: Do you let your client know when you work overtime and it is not charged?

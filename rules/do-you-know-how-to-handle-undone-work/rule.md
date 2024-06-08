@@ -1,4 +1,5 @@
 ---
+seoDescription: "Handle undone work effectively by adjusting Acceptance Criteria and splitting large PBIs into smaller, achievable tasks with v2 PBI naming convention."
 type: rule
 title: Do you know how to handle Undone Work (aka V2 for PBIs)?
 uri: do-you-know-how-to-handle-undone-work

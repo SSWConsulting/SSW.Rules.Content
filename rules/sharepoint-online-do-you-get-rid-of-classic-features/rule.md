@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get rid of classic features in SharePoint Online and upgrade to a modern experience."
 type: rule
 title: SharePoint Online - Do you get rid of classic features?
 uri: sharepoint-online-do-you-get-rid-of-classic-features

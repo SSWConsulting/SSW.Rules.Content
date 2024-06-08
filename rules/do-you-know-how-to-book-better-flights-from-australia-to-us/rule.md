@@ -1,4 +1,5 @@
 ---
+seoDescription: "Book better flights from Australia to US by combining quotes and comparing prices for multi-stop itineraries."
 type: rule
 archivedreason: Outdated and no value, replaced by https://www.ssw.com.au/rules/do-you-know-how-to-book-better-flights/
 title: Do you know how to book better flights from Australia to US?

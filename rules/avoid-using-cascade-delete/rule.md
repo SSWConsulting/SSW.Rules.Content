@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server's ON DELETE CASCADE functionality can be dangerous, deleting related records without control, instead delete records in code for better control."
 type: rule
 archivedreason: 
 title: Relationships - Do you avoid using Cascade Delete?

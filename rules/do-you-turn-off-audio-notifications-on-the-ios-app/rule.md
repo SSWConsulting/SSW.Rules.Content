@@ -1,4 +1,5 @@
 ---
+seoDescription: "Turn off audio notifications on the iOS Slack app to maintain a pull-based system and minimize distractions."
 type: rule
 archivedreason: 
 title: Do you turn off audio notifications on the iOS app?

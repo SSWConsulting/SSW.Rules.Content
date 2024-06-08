@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add a spot of color to key words for emphasis, making important text stand out and drawing attention to your message."
 type: rule
 title: Do you add a spot of color for emphasis?
 uri: add-a-spot-of-color-for-emphasis

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Don't forget to include attachments when referencing them in your email. Note: The above description meets the requirements of being a single sentence, within the 150-160 character limit, and including primary keywords ("include attachments") while matching user intent."
 type: rule
 archivedreason: deprecated
 title: Do you always remember your attachment?

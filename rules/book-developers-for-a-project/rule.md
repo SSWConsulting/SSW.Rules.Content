@@ -1,4 +1,5 @@
 ---
+seoDescription: "Scheduling developers' time efficiently and effectively with Dynamics 365 and Outlook to ensure maximum productivity."
 type: rule
 title: Scheduling - Do you know how to book developers for a project?
 uri: book-developers-for-a-project

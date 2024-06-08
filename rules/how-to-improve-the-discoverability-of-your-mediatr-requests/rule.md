@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve discoverability of MediatR requests by nesting request handlers within requests, enhancing command logic visibility and developer experience."
 type: rule
 archivedreason: 
 title: Do you know how to improve the discoverability of your MediatR requests?

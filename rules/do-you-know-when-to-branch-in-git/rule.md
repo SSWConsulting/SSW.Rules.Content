@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know when to branch in Git? This guide explains when to create a feature branch and how to merge it back to master, ensuring your project stays organized and deployable at all times."
 type: rule
 archivedreason: 
 title: Do you know when to branch in git?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Setup a reliable remote meeting experience with good audio conferencing, using a decent microphone, camera, and conferencing software like Teams, Zoom, or Skype."
 type: rule
 archivedreason: 
 title: Setup - Do you have good audio conferencing?

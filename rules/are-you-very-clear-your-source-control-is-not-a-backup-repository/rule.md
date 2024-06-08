@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your source control system isn't used as a backup repository by regularly verifying and testing changes."
 type: rule
 archivedreason: 
 title: Are you very clear your Source Control is not a backup repository?

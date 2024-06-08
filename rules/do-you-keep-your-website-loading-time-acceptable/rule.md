@@ -1,4 +1,5 @@
 ---
+seoDescription: "Website performance matters! Optimize your site's load speed using Pingdom Website Speed Test to ensure it loads under 3 MB. Aim for an excellent score under 1 MB, like Apple.com."
 type: rule
 archivedreason: 
 title: Do you keep your website loading time acceptable?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Lock your computer when leaving your workstation to prevent security risks and protect sensitive information from unauthorized access."
 type: rule
 title: Do you lock your computer when leaving your workstation?
 uri: lock-your-computer-when-you-leave

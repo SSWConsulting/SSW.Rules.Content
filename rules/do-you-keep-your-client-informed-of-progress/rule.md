@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep clients informed of project progress to avoid costly surprises and ensure a smoother experience."
 type: rule
 archivedreason: Merged with [inform-clients-about-estimates-overrun](https://www.ssw.com.au/rules/inform-clients-about-estimates-overrun)
 title: Do you keep your client informed of progress?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the importance of critical distance in testing and how diverse teams can foster increased skepticism to reduce the chances of being fooled."
 type: rule
 title: Do you recognize the importance of critical distance?
 uri: importance-critical-distance

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do your User Stories include Acceptance Criteria?"
 type: rule
 title: Do your User Stories include Acceptance Criteria?
 uri: acceptance-criteria

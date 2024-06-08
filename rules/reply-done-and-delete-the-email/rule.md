@@ -1,4 +1,5 @@
 ---
+seoDescription: "When reassigning tasks, reply with "Done" and provide a URL link if applicable."
 type: rule
 title: Dones - Do you reply 'Done' and delete the original email?
 uri: reply-done-and-delete-the-email

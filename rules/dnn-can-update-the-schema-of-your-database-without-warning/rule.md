@@ -1,4 +1,5 @@
 ---
+seoDescription: "DNN updates database schema without warning, potentially altering data integrity."
 type: rule
 title: Do you know DNN can update the schema of your database without warning?
 uri: dnn-can-update-the-schema-of-your-database-without-warning

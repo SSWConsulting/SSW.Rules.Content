@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set retention policies to manage package and deployment storage on Octopus Deploy, ensuring efficient disk space usage."
 type: rule
 archivedreason: 
 title: Do you set retention policy?

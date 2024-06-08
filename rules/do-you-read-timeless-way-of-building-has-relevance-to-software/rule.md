@@ -1,4 +1,5 @@
 ---
+seoDescription: "The timeless way of building does not have direct relevance to software development."
 type: rule
 archivedreason: Empty rule
 title: Do you read “Timeless way of building” ( has relevance to software)?

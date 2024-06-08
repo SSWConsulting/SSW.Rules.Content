@@ -1,4 +1,5 @@
 ---
+seoDescription: "Documenting technologies, design patterns and ALM processes helps refine project architecture and work processes."
 type: rule
 archivedreason: 
 title: Do you document the technologies, design patterns and ALM processes?

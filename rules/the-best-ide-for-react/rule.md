@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best IDE for React development, Visual Studio Code offers a fast, customizable, and feature-rich environment for building scalable web applications."
 type: rule
 archivedreason: Duplicate of [https://ssw.com.au/rules/how-to-get-your-machine-setup](/rules/how-to-get-your-machine-setup)
 title: Tools - Do you know the best IDE for React?

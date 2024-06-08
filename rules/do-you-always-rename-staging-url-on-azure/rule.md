@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you always rename staging URL on Azure to boost productivity and ease site access?"
 type: rule
 archivedreason: 
 title: UX - Do you rename Azure’s default URL?

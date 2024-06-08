@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate TFS 2012 successfully by planning additional steps to integrate SharePoint sites and set up Build servers."
 type: rule
 archivedreason: 
 title: Do you plan your additional steps for TFS 2012 migration?

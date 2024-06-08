@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a passphrase instead of a password to ensure robust online security with infinite combinations of words and phrases."
 type: rule
 title: Passwords – Do you use a passphrase instead of a password?
 uri: using-passphrases

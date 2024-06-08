@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure consistent encoding in Visual Studio to avoid future encoding issues and maintain seamless collaboration with Sydney."
 type: rule
 archivedreason: 
 title: Do you make sure your Visual Studio encoding is consistent?

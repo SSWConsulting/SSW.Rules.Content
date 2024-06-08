@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upcoming events highlighted on your YouTube channel's banner create anticipation, connection with your audience, and showcases professionalism."
 type: rule
 archivedreason: 
 title: Does your home page banner show upcoming events?

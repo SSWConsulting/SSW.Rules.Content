@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a single package manager and be cautious of versioning issues to simplify your development workflow."
 type: rule
 archivedreason: 
 title: Do you use package managers appropriately?

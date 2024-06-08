@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you CC everyone and reply to all when necessary? Learn how to effectively communicate via email by CC'ing colleagues and replying to all relevant parties."
 type: rule
 title: Do you CC everyone and reply to all when necessary?
 uri: do-you-cc-everyone-and-reply-to-all-when-necessary

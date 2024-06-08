@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use HTML list tags (&lt;ul&gt; and &lt;ol&gt;) for unordered and ordered lists only."
 type: rule
 archivedreason: 
 title: Do you use "list" tags for lists only?

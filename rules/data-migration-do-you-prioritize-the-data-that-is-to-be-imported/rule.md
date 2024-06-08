@@ -1,4 +1,5 @@
 ---
+seoDescription: "Data migration prioritizes key data imports to ensure a successful transition from legacy systems."
 type: rule
 archivedreason: 
 title: Data Migration - Do you prioritize the data that is to be imported?

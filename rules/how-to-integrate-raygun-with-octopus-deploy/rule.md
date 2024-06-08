@@ -1,4 +1,5 @@
 ---
+seoDescription: "Integrate RayGun with Octopus Deploy to track crash reports against deployments and measure quality metrics."
 type: rule
 archivedreason: 
 title: Do you know how to integrate RayGun with Octopus Deploy?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Adding a prefix to blog post titles helps give context and clarity to users about what they can expect from the content."
 type: rule
 archivedreason: 
 title: Do you add a prefix on blog posts titles?

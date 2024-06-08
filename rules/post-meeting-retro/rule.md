@@ -1,4 +1,5 @@
 ---
+seoDescription: "Conduct a post-meeting evaluation to enhance board meeting quality through continuous improvement and constructive feedback."
 type: rule
 title: Do you conduct a post-meeting retro?
 uri: post-meeting-retro

@@ -1,4 +1,5 @@
 ---
+seoDescription: "When wrapping up client work, prioritize getting references from satisfied clients to boost your company's credibility and unlock new opportunities."
 type: rule
 title: Do you know the first thing to do when you come off client work?
 uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid sending emails immediately to ensure you don't forget crucial details and risk regretting your hasty decision."
 type: rule
 archivedreason: 
 title: Do you avoid sending your emails immediately?

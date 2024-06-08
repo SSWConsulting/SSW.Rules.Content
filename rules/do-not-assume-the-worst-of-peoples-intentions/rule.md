@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid assuming worst-case intentions and instead focus on observed facts and emotions when giving feedback."
 type: rule
 archivedreason: 
 title: Do you know not to assume the worst of peoples intentions?

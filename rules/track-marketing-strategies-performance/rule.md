@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you track your marketing strategies' performance? Identify and measure key metrics to gauge success."
 type: rule
 title: Do you track your marketing strategies’ performance?
 uri: track-marketing-strategies-performance

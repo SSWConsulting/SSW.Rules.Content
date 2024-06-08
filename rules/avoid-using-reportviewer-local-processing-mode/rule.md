@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using ReportViewer local processing mode to improve application performance and reduce server load."
 type: rule
 archivedreason: 
 title: Do you avoid using ReportViewer local processing mode?

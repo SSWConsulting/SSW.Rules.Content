@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure ExecuteBatchTemplate Build Process Template for automated deployment and site updates."
 type: rule
 archivedreason: 
 title: Do you Configure the ExecuteBatchTemplate Build Process Template?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Facilitate seamless real-time collaboration and streamline feedback compilation with Microsoft Loop, a powerful tool that automates note-taking across Microsoft 365 products."
 type: rule
 title: Do you know the best tool for facilitating real-time collaboration?
 uri: tool-for-facilitating-real-time-collaboration

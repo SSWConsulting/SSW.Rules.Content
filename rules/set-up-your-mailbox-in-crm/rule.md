@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set up your mailbox in Microsoft Dynamics 365 CRM to track appointments and emails securely."
 type: rule
 title: Do you set up your mailbox in CRM?
 uri: set-up-your-mailbox-in-crm

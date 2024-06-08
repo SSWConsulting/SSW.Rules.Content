@@ -1,4 +1,5 @@
 ---
+seoDescription: "Professional email communication relies on accurate spelling and grammar to convey a polished impression, avoiding misinterpretation of your message."
 type: rule
 archivedreason: 
 title: Do you use spelling and grammar checker to make your email professional?

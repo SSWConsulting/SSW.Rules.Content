@@ -1,4 +1,5 @@
 ---
+seoDescription: "Azure Policies enable effective governance of your Azure subscription by enforcing naming conventions, tagging requirements, and restricting resource creation."
 type: rule
 archivedreason: 
 title: Do you use Azure Policies?

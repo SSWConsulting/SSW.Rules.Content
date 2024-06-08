@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consistent time recording ensures accurate invoicing and reporting, with policies in place to guide developers' submissions."
 type: rule
 archivedreason: 
 title: Do you follow policies for recording time?

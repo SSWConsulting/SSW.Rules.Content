@@ -1,4 +1,5 @@
 ---
+seoDescription: "Include a useful footer at the bottom of your reports to provide valuable information such as date and time printed, execution time, page number, and link to company website."
 type: rule
 title: Layout - Do you include a useful footer at the bottom of your reports?
 uri: include-useful-footer

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have tests for difficult-to-spot errors, such as arithmetic, rounding and regular expressions? Write unit tests to catch unexpected issues in your code."
 type: rule
 title: Do you have tests for difficult to spot errors (e.g. arithmetic,
   rounding, regular expressions)?

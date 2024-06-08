@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay informed and avoid spreading misinformation by verifying facts before posting online, acknowledging limitations, and engaging with diverse perspectives."
 type: rule
 archivedreason:
 title: Do you check your facts before posting online? 

@@ -1,4 +1,5 @@
 ---
+seoDescription: "In Scrum, a PBI (Product Backlog Item) Owner is responsible for managing their story, conducting tests, and preparing a presentation for the Sprint Review."
 type: rule
 archivedreason: Merged to [https://www.ssw.com.au/rules/tasks-do-you-know-that-every-user-story-should-have-an-owner](/rules/tasks-do-you-know-that-every-user-story-should-have-an-owner)
 title: Do you know what a PBI Owner is responsible for?

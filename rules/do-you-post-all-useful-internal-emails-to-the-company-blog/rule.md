@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boosting company reputation and search engine visibility by publishing useful internal emails on the company blog, highlighting intelligent staff insights."
 type: rule
 archivedreason: 
 title: Do you post all useful internal emails to the company blog?

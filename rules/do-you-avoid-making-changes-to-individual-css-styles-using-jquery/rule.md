@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid making changes to individual CSS styles using jQuery, instead use CSS classes and utilize addClass() and removeClass() methods for dynamic styling."
 type: rule
 archivedreason: 
 title: Do you avoid making changes to individual CSS styles using jQuery?

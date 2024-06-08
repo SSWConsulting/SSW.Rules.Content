@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid unnecessary characters at the end of URLs to ensure compatibility and prevent misinterpretation."
 type: rule
 title: Do you avoid including full stop or slash at the end of URLs?
 uri: no-full-stop-or-slash-at-the-end-of-urls

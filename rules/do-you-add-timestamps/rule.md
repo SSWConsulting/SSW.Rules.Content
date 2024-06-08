@@ -1,4 +1,5 @@
 ---
+seoDescription: "Sending date/times with timezone information and at UTC format is crucial for accurate processing and analysis."
 type: rule
 archivedreason: 'Requested by Matt G under RE: Update [SSW] Rules to Better WebAPI'
 title: Do you add timestamps?

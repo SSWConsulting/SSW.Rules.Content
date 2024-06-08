@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you turn on 'Development Errors' and 'Platform Tracing' to troubleshoot issues in Microsoft Dynamics CRM?"
 type: rule
 archivedreason: 
 title: Do you turn on 'Development Errors' and 'Platform Tracing'?

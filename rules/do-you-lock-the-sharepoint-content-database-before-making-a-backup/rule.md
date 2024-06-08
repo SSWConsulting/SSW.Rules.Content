@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to lock your SharePoint Content Database before making a backup and prevent unwanted edits or check-ins during migration."
 type: rule
 archivedreason: 
 title: Do you lock the SharePoint Content Database before making a backup?

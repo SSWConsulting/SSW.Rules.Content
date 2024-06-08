@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize your Power BI Portal with a logo, cover image, and theme color to align with your organization's brand."
 type: rule
 archivedreason: 
 title: Do you know how to add custom branding to the Power BI portal?

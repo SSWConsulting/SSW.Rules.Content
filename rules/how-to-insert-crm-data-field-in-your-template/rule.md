@@ -1,4 +1,5 @@
 ---
+seoDescription: "Inserting a Microsoft Dynamics 365 data field into your template allows you to personalize emails with user-specific information."
 type: rule
 archivedreason: 
 title: Do you know how to insert a Microsoft Dynamics 365 data field into your template?

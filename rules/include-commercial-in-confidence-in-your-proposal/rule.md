@@ -1,4 +1,5 @@
 ---
+seoDescription: "Include confidential commercial information only when necessary, ensuring competitive advantage and proprietary secrets remain protected."
 type: rule
 archivedreason: 
 title: Do you include "Commercial in confidence" in your proposal?

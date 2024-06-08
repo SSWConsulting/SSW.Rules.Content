@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you send "As Per Our Conversation" emails to ensure important conversations are documented and decisions are confirmed?"
 type: rule
 title: Do you send "As Per Our Conversation" emails?
 uri: as-per-our-conversation-emails

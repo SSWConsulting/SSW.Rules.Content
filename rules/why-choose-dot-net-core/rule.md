@@ -1,4 +1,5 @@
 ---
+seoDescription: "Develop a cross-platform .NET Core application that runs on macOS, Linux, and Windows."
 type: rule
 archivedreason: 
 title: Do you know why you choose .NET Core?

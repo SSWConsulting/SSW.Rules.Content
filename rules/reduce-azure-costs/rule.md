@@ -1,4 +1,5 @@
 ---
+seoDescription: "Reduce Azure costs by gaining insights and recommendations to optimize spending with Azure Cost Analysis."
 type: rule
 title: Do you reduce your Azure costs?
 uri: reduce-azure-costs

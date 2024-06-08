@@ -1,4 +1,5 @@
 ---
+seoDescription: "IIS things to do: Optimize your site's search engine friendliness, improve traffic volume and quality, control search engine access and display, inform search engines about available indexing locations, and show broken pages."
 type: rule
 archivedreason: Microsoft has discontinued the Search Engine Optimization Toolkit.
 title: Do you know the IIS things to do?

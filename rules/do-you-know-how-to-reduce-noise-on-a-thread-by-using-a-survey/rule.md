@@ -1,4 +1,5 @@
 ---
+seoDescription: "How to reduce noise on a thread by using a survey with Office365 and OneDrive."
 type: rule
 archivedreason: 
 title: Do you know how to reduce noise on a thread by using a survey?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Azure resources creation: Learn how to create and manage Azure resources efficiently with Farmer or Bicep, rather than manual creation."
 type: rule
 title: Do you know how to create Azure resources?
 uri: azure-resources-creating

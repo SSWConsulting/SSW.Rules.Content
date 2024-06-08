@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize large .NET projects in Visual Studio using a single solution with project references, separate solutions for each application, or a recommended approach involving staging areas and drive letter mapping."
 type: rule
 title: Do you know the scenarios for building large .NET projects?
 uri: scenarios-of-building-the-system

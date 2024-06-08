@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover recommended tools for updating database schemas and ensure seamless deployment of your application updates with .NET 8."
 type: rule
 title: Do you know the best tools for updating database schemas?
 uri: tools-database-schema-changes

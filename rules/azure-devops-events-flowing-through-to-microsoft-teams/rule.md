@@ -1,4 +1,5 @@
 ---
+seoDescription: "Azure DevOps events flowing to Microsoft Teams for seamless project monitoring and collaboration."
 type: rule
 archivedreason: 
 title: Do you have Azure DevOps Events flowing through to Microsoft Teams?

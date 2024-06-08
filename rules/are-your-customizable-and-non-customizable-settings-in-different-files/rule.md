@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customizable and non-customizable settings in .NET are stored in different files, including App.config/Web.config, ToolsOptions.config, and UserSession.config."
 type: rule
 archivedreason: 
 title: Are your customizable and non-customizable settings in different files?

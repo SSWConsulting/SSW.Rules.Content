@@ -1,4 +1,5 @@
 ---
+seoDescription: "Indicate required fields and validate them to avoid user frustration and ensure data conformity to business requirements."
 type: rule
 archivedreason: 
 title: Forms - Do you indicate which fields are required and validate them?

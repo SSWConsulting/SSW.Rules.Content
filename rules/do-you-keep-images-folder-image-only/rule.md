@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep images folder organized by only storing image files, avoiding unnecessary clutter."
 type: rule
 archivedreason: 
 title: Do you keep \images folder image only?

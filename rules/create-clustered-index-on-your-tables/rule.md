@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the benefits of creating clustered indexes on your tables and learn how to choose the right field for optimal performance."
 type: rule
 archivedreason: 
 title: Schema - Do you create clustered index on your tables?

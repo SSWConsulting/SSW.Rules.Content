@@ -1,4 +1,5 @@
 ---
+seoDescription: "Edit details efficiently with a popup form, ensuring a clean UI design and focused functionality."
 type: rule
 archivedreason: 
 title: Do you create a popup form for editing details?

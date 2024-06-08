@@ -1,4 +1,5 @@
 ---
+seoDescription: "Power BI charts typically use "by" rather than "per", so it's best to maintain consistency throughout your visualizations."
 type: rule
 archivedreason: 
 title: Do you use “by” rather than “per” in your chart titles?

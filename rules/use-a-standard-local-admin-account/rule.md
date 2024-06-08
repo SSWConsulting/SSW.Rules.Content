@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a standard local admin account to ensure offline access and consistent administration across all devices while maintaining security and minimizing password changes."
 type: rule
 archivedreason:
 title: Do you use a standard local admin account?

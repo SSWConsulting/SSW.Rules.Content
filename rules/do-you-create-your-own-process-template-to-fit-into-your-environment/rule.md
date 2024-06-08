@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create your own Process Templates to fit into your environment and customize fields to suit your needs."
 type: rule
 archivedreason: 
 title: Do you create your own Process Template to fit into your environment?

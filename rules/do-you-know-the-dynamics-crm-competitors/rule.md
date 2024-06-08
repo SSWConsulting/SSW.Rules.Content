@@ -1,4 +1,5 @@
 ---
+seoDescription: "Dynamics 365 CRM competitors include Salesforce, Base CRM, Insightly, Zoho, and others offering sales, marketing, and customer service solutions."
 type: rule
 archivedreason: 
 title: Do you know the Dynamics 365 (CRM) competitors?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintaining consistent SharePoint sites helps users navigate through new pages with ease, thanks to familiar navigation and headings."
 type: rule
 title: Do you have consistent SharePoint Sites?
 uri: consistent-sharepoint-sites

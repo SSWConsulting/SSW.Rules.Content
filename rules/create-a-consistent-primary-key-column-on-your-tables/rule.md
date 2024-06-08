@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a consistent primary key column named "Id" on your tables for efficient data retrieval and manipulation."
 type: rule
 archivedreason: 
 title: Schema - Do you create a consistent primary key column on your tables?

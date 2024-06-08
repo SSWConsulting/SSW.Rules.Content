@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft 365 Groups allow you to choose which groups you follow and set up shared resources for collaboration, with options to reduce inbox noise by unfollowing or changing default behavior as an administrator."
 type: rule
 title: Do you choose which Microsoft 365 Groups you follow?
 uri: following-microsoft-365-groups

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate your SharePoint site to Online with a seamless plan, choosing the right tools and configuration for a successful transition."
 type: rule
 archivedreason: 
 title: Do you have a Migration plan?

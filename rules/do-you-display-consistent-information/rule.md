@@ -1,4 +1,5 @@
 ---
+seoDescription: "Display consistent information across your application and linked pages to ensure a seamless user experience."
 type: rule
 title: Do you display consistent information?
 uri: do-you-display-consistent-information

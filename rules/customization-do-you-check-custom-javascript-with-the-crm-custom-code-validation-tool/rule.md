@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check custom JavaScript with the CRM Custom Code Validation Tool to ensure compatibility and resolve deprecated functions."
 type: rule
 archivedreason: 
 title: Customization - Do you check custom JavaScript with the CRM Custom Code Validation Tool?

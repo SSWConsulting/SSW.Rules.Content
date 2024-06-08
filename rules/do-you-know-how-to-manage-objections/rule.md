@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering objections to secure clients' trust and confidence in your solution"
 type: rule
 title: Do you know how to manage objections?
 uri: do-you-know-how-to-manage-objections

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Encapsulate form values using the Browsable attribute to maintain consistency and prevent unintended changes."
 type: rule
 title: Do you encapsulate (aka lock) values of forms?
 uri: do-you-encapsulate-aka-lock-values-of-forms

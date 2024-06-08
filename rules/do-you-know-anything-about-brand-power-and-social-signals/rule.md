@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost your online presence by leveraging brand power and social signals, increasing website visibility and driving organic rankings through strategic social media engagement and linking."
 type: rule
 archivedreason: 
 title: Do you know about Brand Power and Social Signals?

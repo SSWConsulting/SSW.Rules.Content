@@ -1,4 +1,5 @@
 ---
+seoDescription: "Plan ahead and create marketing campaigns that advertise early to maximize success."
 type: rule
 archivedreason: 
 title: Do you plan in advance for your marketing campaigns?

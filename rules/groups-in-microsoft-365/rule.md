@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to choose the right group in Microsoft 365, including on-premises groups, distribution groups, security groups, and more. Learn about collaboration features and best practices for streamlining communication and improving productivity."
 type: rule
 title: Do you know how to choose the right group in Microsoft 365?
 uri: groups-in-microsoft-365

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make yourself available for emergency communication by providing a phone number or Skype ID to ensure seamless connections."
 type: rule
 archivedreason: Irrelevant
 title: Do you make yourself available for emergency communication?

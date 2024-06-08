@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ending a Sprint? Learn how to handle partially completed PBIs and update your backlog with ease."
 type: rule
 archivedreason: 
 title: Ending a Sprint - Do you know what to do with partially completed PBI?

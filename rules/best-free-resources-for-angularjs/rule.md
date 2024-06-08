@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover top free resources for AngularJS development, including tutorials, courses, and videos."
 type: rule
 archivedreason: 
 title: Do you know the best free resources for AngularJS

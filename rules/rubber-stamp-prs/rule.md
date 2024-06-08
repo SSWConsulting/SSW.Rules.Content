@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline your PR approvals with our "rubber stamp" label approach."
 type: rule
 title: Do you have a "rubber stamp" approval method for PRs?
 uri: rubber-stamp-prs

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn to create a great "Done Video"!"
 type: rule
 title: Do you know the key things for making a great 'Done Video'?
 uri: making-a-great-done-video

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Confirm key decisions and action points via email after phone conversations or meetings to ensure a clear record of agreements."
 type: rule
 title: Do you prepare, then confirm conversations/decisions?
 uri: do-you-prepare-then-confirm-conversations-decisions

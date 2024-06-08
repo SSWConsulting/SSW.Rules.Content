@@ -1,4 +1,5 @@
 ---
+seoDescription: "Confirm functional issues before tackling performance testing to identify scaling problems."
 type: rule
 archivedreason: 
 title: Do you know the best time to tackle performance testing?

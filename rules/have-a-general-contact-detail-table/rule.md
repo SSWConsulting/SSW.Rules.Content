@@ -1,4 +1,5 @@
 ---
+seoDescription: "General contact information is stored in a comprehensive Contact Detail table, accommodating various phone numbers and email addresses."
 type: rule
 archivedreason: 
 title: Do you have a general Contact Detail table?

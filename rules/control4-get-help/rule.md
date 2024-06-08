@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get expert help for Control4 issues through dealerships, tech community forums, Smart Skills videos, and technical support, or escalate to a Sales Engineer for on-site assistance."
 type: rule
 title: Do you know where to get help for Control4?
 uri: control4-get-help

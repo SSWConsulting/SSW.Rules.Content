@@ -1,4 +1,5 @@
 ---
+seoDescription: "Craft a compelling event agenda that showcases top speakers and boosts attendance."
 type: rule
 archivedreason: 
 title: Have you got an appropriate agenda?

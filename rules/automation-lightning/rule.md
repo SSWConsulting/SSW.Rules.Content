@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve lighting automation at your Newcastle office with DMX control, KNX integration and Gira mobile app."
 type: rule
 title: Do you know how to do lighting automation?
 uri: automation-lightning

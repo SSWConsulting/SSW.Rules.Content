@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test and validate your send mail code using TestSmtpServer, ensuring seamless email delivery."
 type: rule
 archivedreason: Sending emails in applications is usually handled through 3rd party providers nowadays e.g. SendGrid. As a result mail sending checks should be covered off by HealthChecks
 title: Do you have a integration test for your send mail code?

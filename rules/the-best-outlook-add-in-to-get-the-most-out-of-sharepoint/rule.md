@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize SharePoint efficiency through Outlook add-ins like Colligo, Harmon.ie, and Macroview, or explore OnePlaceMail for seamless collaboration."
 type: rule
 archivedreason: Irrelevant
 title: Do you know the best Outlook add-in to get the most out of SharePoint?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best way to display code on your website using simple and effective formatting with &lt;pre&gt; tags."
 type: rule
 archivedreason:
 title: Do you know the best way to display code on your website?

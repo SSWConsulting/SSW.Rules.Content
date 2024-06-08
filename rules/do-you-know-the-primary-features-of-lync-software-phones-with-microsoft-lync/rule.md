@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Lync features include internal calls, call transfer, conference calling and more, with presence icons, IM functionality, federation abilities, meetings, remote desktop and whiteboard capabilities."
 type: rule
 archivedreason: 
 title: Do you know the primary features of Lync? (Software Phones with Microsoft Lync)

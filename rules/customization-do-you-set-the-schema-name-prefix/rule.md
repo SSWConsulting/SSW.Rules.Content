@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customization allows you to set a schema-name prefix, distinguishing customized attributes from default ones."
 type: rule
 archivedreason: 
 title: Customization - Do you set the schema-name prefix?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid Double-Negative Conditionals in if-statements by using single positive conditions and simplify your code."
 type: rule
 archivedreason: 
 title: Do you avoid Double-Negative Conditionals in if-statements?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Deploy SharePoint efficiently with SSWPackage.exe, a combination of tools and processes that automates the deployment process, ensuring accurate and repeatable deployments between development, staging, and production servers."
 type: rule
 archivedreason: 
 title: Do you know how to deploy SharePoint?

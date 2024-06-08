@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use a precision mocker like NSubstitute instead of a monster mocker like Microsoft Fakes to write maintainable and loosely coupled code?"
 type: rule
 archivedreason: 
 title: Do you use a ‘Precision Mocker’ like NSubstitute instead of a ‘Monster Mocker’ like Microsoft Fakes?

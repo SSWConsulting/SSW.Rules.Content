@@ -1,4 +1,5 @@
 ---
+seoDescription: "View developers' availability and schedule projects efficiently using the CRM Service Calendar."
 type: rule
 archivedreason: 
 title: Scheduling - Do you know how to view the availability of each developer? (Resource Scheduling)

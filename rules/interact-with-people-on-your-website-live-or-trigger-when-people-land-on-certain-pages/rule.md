@@ -1,4 +1,5 @@
 ---
+seoDescription: "Proactively interact with website visitors using Zendesk Chat triggers, reducing cart abandonment and providing support on critical pages."
 type: rule
 archivedreason: 
 title: Do you know how to interact with people on your website live, or trigger when people land on certain pages?

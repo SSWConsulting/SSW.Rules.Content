@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure compliance and governance without compromising agility to achieve operational efficiency, risk mitigation, and business alignment while maintaining regulatory peace of mind."
 type: rule
 title: Do you ensure compliance and governance without compromising agility?
 uri: ensure-compliance-and-governance-without-compromising-agility

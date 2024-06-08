@@ -1,4 +1,5 @@
 ---
+seoDescription: "Minimize distractions and stay focused with these simple Skype settings: set your status to Busy, disable online/offline alerts, and customize IM sounds."
 type: rule
 archivedreason: 
 title: Interruptions - Do you minimize Skype distractions?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Open external links on a new tab to avoid "Back-Button Fatigue", maintain user flow and track analytics effectively."
 type: rule
 archivedreason: 
 title: Do you make external links open on a new tab?

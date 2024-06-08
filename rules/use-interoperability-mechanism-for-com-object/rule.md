@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use interoperability mechanism for COM object? Use .NET's interoperability features to work with existing unmanaged code and improve performance."
 type: rule
 archivedreason: 
 title: Do you use interoperability mechanism for COM object?

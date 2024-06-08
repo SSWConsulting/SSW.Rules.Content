@@ -1,4 +1,5 @@
 ---
+seoDescription: "Windows Forms design best practices ensure consistent alignment and border protection with red lines serving as a visual guide for perfect spacing."
 type: rule
 title: Do your Windows Forms have border protection?
 uri: do-your-windows-forms-have-border-protection

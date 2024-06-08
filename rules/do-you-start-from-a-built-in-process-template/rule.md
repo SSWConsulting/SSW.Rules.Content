@@ -1,4 +1,5 @@
 ---
+seoDescription: "Start your TFS process from a built-in template to save time and effort, with pre-set structures and reports available for customization."
 type: rule
 archivedreason: 
 title: Do you start from a built-in process template?

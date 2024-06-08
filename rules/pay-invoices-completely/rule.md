@@ -1,4 +1,5 @@
 ---
+seoDescription: "Pay invoices in full to avoid disputes and ensure accurate records."
 type: rule
 archivedreason: 
 title: Do you pay invoices completely?

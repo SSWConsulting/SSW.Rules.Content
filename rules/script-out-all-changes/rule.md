@@ -1,4 +1,5 @@
 ---
+seoDescription: "Script out all changes to your SQL Server Database, ensuring a stable database system through version control."
 type: rule
 archivedreason: 
 title: ​DBAs - Do you script out all changes?

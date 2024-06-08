@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain honest communication and trust by being candid and admitting uncertainty, rather than spreading wishful thinking."
 type: rule
 archivedreason: 
 title: Communication - Are you always candid in your communication?

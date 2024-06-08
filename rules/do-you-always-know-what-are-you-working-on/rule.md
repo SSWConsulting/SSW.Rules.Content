@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay on track with tasks and ensure accurate burndown reporting by always knowing what you're working on."
 type: rule
 archivedreason: 
 title: Do you always know what are you working on?

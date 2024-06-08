@@ -1,4 +1,5 @@
 ---
+seoDescription: "Master Windows Update Policy with Group Policy and avoid unexpected reboots on your servers by configuring automatic updates to download and notify for install."
 type: rule
 title: Do you use Group Policy to manage your Windows Update Policy?
 uri: do-you-use-group-policy-to-manage-your-windows-update-policy

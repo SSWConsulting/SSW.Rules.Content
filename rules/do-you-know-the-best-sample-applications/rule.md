@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best example projects created by the React community showcase innovative apps and tools built using React's flexible architecture."
 type: rule
 archivedreason: 
 title: Do you know the best example projects – React?

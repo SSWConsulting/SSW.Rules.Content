@@ -1,4 +1,5 @@
 ---
+seoDescription: "Deploy websites to Azure using Team Foundation Service and achieve continuous deployment with ease."
 type: rule
 archivedreason: "Requested by Brendan on \n\nRE: TFS Deployment Rule - Does anyone follow this rule"
 title: Do you deploy to Azure from Team Foundation Service?

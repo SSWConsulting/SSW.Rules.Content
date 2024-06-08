@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to generate PDFs for download using various .NET libraries and browser testing tools. From paid solutions like PDFTron and IronPDF to free options like Playwright, discover the pros and cons of each approach."
 type: rule
 title: Do you know how to generate PDFs for download?
 uri: generate-pdfs

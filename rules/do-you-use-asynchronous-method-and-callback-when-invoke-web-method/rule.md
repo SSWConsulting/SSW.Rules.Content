@@ -1,4 +1,5 @@
 ---
+seoDescription: "When invoking web methods, using asynchronous methods and callbacks ensures UI thread freedom during data transmission over the internet."
 type: rule
 archivedreason: 
 title: Do you use Asynchronous method and CallBack when invoke web method?

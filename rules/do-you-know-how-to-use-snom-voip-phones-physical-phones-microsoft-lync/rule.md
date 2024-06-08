@@ -1,4 +1,5 @@
 ---
+seoDescription: "Easily manage SNOM VOIP phones and Microsoft Lync with expert guidance on transferring calls, creating conferences, and making internal connections."
 type: rule
 archivedreason: 
 title: Do you know how to use SNOM VOIP phones? (Physical Phones + Microsoft Lync)

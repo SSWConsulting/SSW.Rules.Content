@@ -1,4 +1,5 @@
 ---
+seoDescription: "Management transparency and accountability require informing clients about task completion times, including investigation hours, to foster education and understanding."
 type: rule
 archivedreason: 
 title: Management - Do you always inform your client how long a task took?

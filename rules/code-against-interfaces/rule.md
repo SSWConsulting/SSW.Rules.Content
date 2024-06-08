@@ -1,4 +1,5 @@
 ---
+seoDescription: "Code effectively against interfaces to ensure maintainable and readable code, making it easier to swap out implementations without modifying using code."
 type: rule
 archivedreason: 
 title: Do you code against interfaces?

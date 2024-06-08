@@ -1,4 +1,5 @@
 ---
+seoDescription: "Bundle all customizations in a solution to streamline model-driven app development and deployment, ensuring easy transfer between environments."
 type: rule
 archivedreason: 
 title: Do you bundle all your customizations in a Solution (Model Driven)?

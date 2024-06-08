@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve search results by linking Office App server to SharePoint, enabling content preview for office documents."
 type: rule
 archivedreason: 
 title: Search - Do you fix search with Office App for content preview ? (on premise only)

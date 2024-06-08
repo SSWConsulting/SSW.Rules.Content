@@ -1,4 +1,5 @@
 ---
+seoDescription: "Continuous deployment ensures every change is deployable to production through automated pipelines and timely deployments."
 type: rule
 archivedreason: 
 title: Do you Continuously Deploy?

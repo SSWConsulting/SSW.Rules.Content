@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering JPG format: Compress images effectively to balance quality and file size, while ensuring a smooth online experience."
 type: rule
 archivedreason: 
 title: Do you know when to use JPG?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Troubleshoot Lync connectivity issues using Remote UC Troubleshooting Tool, Monitoring Reports and Internet Network connectivity tests."
 type: rule
 archivedreason: 
 title: Do you know how to troubleshoot Lync connectivity or configuration issues?

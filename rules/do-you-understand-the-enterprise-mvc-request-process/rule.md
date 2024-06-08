@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enterprise MVC request process involves a business layer and data layer abstraction, enhancing scalability and maintainability."
 type: rule
 archivedreason: 
 title: Do you understand the Enterprise MVC request process?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you link your commits to a Product Backlog Item (PBI) in Azure DevOps for better clarity on what work is done?"
 type: rule
 archivedreason: 
 title: Do you link your commits to a PBI?

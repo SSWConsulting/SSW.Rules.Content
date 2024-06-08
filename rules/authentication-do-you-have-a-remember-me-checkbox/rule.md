@@ -1,4 +1,5 @@
 ---
+seoDescription: "Authentication and login forms can be simplified with a 'Remember me' checkbox option, allowing users to save their username and password for future convenience."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Remember me' checkbox?

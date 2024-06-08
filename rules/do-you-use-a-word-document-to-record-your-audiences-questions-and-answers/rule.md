@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a Word document to record your audience's questions and answers during presentations."
 type: rule
 title: Do you use record your audience's Questions and Answers?
 uri: do-you-use-a-word-document-to-record-your-audiences-questions-and-answers

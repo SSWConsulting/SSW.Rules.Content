@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get accurate sprint forecasts at the start of each development cycle, prioritizing your highest goals."
 type: rule
 archivedreason: 
 title: Watch - Do you get Sprint forecasts?

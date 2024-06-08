@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you look at the architecture of .NET projects?"
 type: rule
 archivedreason: 
 title: Do you look at the architecture of .NET projects?

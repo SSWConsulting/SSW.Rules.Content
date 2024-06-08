@@ -1,4 +1,5 @@
 ---
+seoDescription: "Know your project's numbers with our simplified report, featuring billed hours to date, remaining days, booked calendar days, and next meeting details."
 type: rule
 archivedreason: 
 title: Do you know the numbers you give clients?

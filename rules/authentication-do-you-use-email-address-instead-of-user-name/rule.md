@@ -1,4 +1,5 @@
 ---
+seoDescription: "Users prefer to sign in with their email address instead of username due to its uniqueness and ease of recall."
 type: rule
 archivedreason: 
 title: Authentication - Do you use email address instead of username?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers should work in small chunks and check-in regularly, before leaving their workstation or after completing each task, to ensure code stability and ease of merging with other developers."
 type: rule
 archivedreason: 
 title: Do you work in small chunks & check in after completing each one?

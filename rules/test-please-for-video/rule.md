@@ -1,4 +1,5 @@
 ---
+seoDescription: "Post-production tests ensure high-quality video content creation by identifying errors and inconsistencies before going live. Conduct internal and external test procedures to meet internal standards and follow necessary rules for video content creation."
 type: rule
 title: Post-Production - Do you know how to conduct a 'Test Please' for video?
 uri: test-please-for-video

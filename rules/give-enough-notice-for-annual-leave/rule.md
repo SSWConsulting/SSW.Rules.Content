@@ -1,4 +1,5 @@
 ---
+seoDescription: "Give sufficient notice for annual leave to maintain a healthy work-life balance and reduce last-minute absences."
 type: rule
 archivedreason: 
 title: Office environment - Do you give enough notice for annual leave?

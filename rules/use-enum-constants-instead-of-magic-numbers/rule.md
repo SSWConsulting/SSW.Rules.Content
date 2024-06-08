@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve code readability and maintainability by replacing magic numbers with enum constants."
 type: rule
 archivedreason: 
 title: Use Enum Constants instead of Magic numbers?

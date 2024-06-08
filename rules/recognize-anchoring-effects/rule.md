@@ -1,4 +1,5 @@
 ---
+seoDescription: "Recognizing the effects of anchoring in decision making can help you avoid cognitive biases and make informed choices."
 type: rule
 title: Do you recognize the effects of anchoring in decision making?
 uri: recognize-anchoring-effects

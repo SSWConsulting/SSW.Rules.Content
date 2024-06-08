@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best IDE for Vue.js: Discover the ultimate code editor for your Vue.js project with Visual Studio Code's rich extensibility and official Vue Language Features extension."
 type: rule
 title: Do you know the best IDE for Vue.js?
 uri: best-ide-for-vue

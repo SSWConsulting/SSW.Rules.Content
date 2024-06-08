@@ -1,4 +1,5 @@
 ---
+seoDescription: "SharePoint image requirements include Windows Server 2003 or 2008, SQL Server 2005 sp1, WSS 3.0 sp1, MOSS 2007 sp1, MS Office SharePoint Designer sp1, and Visual Studio .NET 2005 or 2008."
 type: rule
 archivedreason: 
 title: What does a SharePoint image need?

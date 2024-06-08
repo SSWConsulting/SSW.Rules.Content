@@ -1,4 +1,5 @@
 ---
+seoDescription: "Establishing relationships between tables by adding FOREIGN KEY constraints on columns ending with 'ID' ensures data integrity and prevents orphaned records."
 type: rule
 archivedreason: 
 title: Relationships - Do you have FOREIGN KEY constraints on columns ending with ID?

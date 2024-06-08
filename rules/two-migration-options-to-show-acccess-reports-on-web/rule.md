@@ -1,4 +1,5 @@
 ---
+seoDescription: "Know your Access reports on the web with two migration options: SSW Access Reporter or Reporting Services."
 type: rule
 archivedreason: SSW Access Reporter is no longer supported
 title: Do you know your 2 migration options to show your Access reports on the web?

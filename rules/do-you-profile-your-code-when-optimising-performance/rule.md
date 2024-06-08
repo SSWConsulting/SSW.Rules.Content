@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize application performance by profiling code hotspots with JetBrains dotTrace and iterating through optimization steps."
 type: rule
 archivedreason: 
 title: Do you profile your code when optimising performance?

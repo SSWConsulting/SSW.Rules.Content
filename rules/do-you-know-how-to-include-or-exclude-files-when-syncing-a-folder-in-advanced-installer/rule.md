@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to include or exclude files when syncing a folder in Advanced Installer, and keep your package organized and clean."
 type: rule
 archivedreason: 
 title: Do you know how to include or exclude files when syncing a folder in Advanced Installer?

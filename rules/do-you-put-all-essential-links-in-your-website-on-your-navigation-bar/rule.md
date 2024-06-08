@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find essential links easily accessible from every page on your website, including home, contact us, news, and directions."
 type: rule
 archivedreason: 
 title: Do you put all essential links in your website on your navigation bar?

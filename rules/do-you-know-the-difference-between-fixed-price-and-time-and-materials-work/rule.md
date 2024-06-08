@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consulting services billed on time and materials or fixed price, with differences including warranty, scope definition, payment terms, and testing requirements."
 type: rule
 archivedreason: 
 title: Do you know the difference between Fixed Price and Time and Materials work?

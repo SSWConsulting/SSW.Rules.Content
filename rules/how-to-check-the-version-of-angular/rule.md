@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check Angular version using browser's "Inspect" tool for a seamless development experience."
 type: rule
 archivedreason: Moved to https://ssw.com.au/rules/why-upgrade-to-latest-angular
 title: Tips - Do you know how to check the version of Angular?

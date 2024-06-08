@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure important website content is accessible to search engines by placing it within normal HTML code for optimal indexing."
 type: rule
 archivedreason: 
 title: Do you avoid having important content in JavaScript?

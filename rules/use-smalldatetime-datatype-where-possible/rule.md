@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize database storage by using "smalldatetime" instead of "datetime" when possible."
 type: rule
 archivedreason: Rule no longer required - Information here is already covered in our other date time rules
 title: Schema - Do you use "smalldatetime datatype", where possible, instead of "datetime datatype"?

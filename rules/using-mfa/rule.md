@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay ahead of cyber threats by using multi-factor authentication (MFA) instead of typing passwords."
 type: rule
 title: Do you use MFA instead of typing a password?
 uri: using-mfa

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Open UI by default when typing [ApplicationName].exe from command line for seamless user experience."
 type: rule
 title: Do you open UI by default when you type [ApplicationName].exe?
 uri: ui-by-default-when-you-type-applicationname-exe

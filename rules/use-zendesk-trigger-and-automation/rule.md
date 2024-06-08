@@ -1,4 +1,5 @@
 ---
+seoDescription: "Harness Zendesk's power with triggers and automation, streamlining your workflow and improving customer satisfaction."
 type: rule
 title: Do you use triggers and automation effectively?
 uri: use-zendesk-trigger-and-automation

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Generate an AI image that showcases a futuristic cityscape with towering skyscrapers and flying cars zipping by, highlighting human innovation and progress."
 type: rule
 archivedreason:
 title: Do you know how to generate an AI image?

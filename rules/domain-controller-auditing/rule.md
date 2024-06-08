@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enabling advanced auditing on domain controllers with group policy settings for optimal security event detection and mitigation."
 type: rule
 title: Do you know what to audit on domain controllers?
 uri: domain-controller-auditing

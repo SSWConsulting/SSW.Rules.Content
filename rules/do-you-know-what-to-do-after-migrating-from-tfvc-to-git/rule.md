@@ -1,4 +1,5 @@
 ---
+seoDescription: "After migrating from TFVC to Git, it's essential to clean up TFVC and lock down access to prevent accidental code commits."
 type: rule
 archivedreason: 
 title: Do you know what to do after migrating from TFVC to Git?

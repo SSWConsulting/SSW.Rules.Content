@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrading TFS2013 Update 4 system requires preparation and a step-by-step process, including notifying users of downtime, ensuring project collections are offline, running the setup tool, and configuring additional services."
 type: rule
 archivedreason: 
 title: Do you know how to upgrade your TFS2013 Update 4 system? (the big one)

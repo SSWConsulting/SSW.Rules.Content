@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to effectively describe your work on timesheets, including using standard terms, avoiding ambiguity, and providing specific details."
 type: rule
 title: Do you know how to describe the work you have done?
 uri: how-to-describe-the-work-you-have-done

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance user convenience by adding a "Logout" shortcut next to the username, making it easy to log off with one click."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Logout' short cut next to the username ?

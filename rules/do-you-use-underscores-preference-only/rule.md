@@ -1,4 +1,5 @@
 ---
+seoDescription: "Order details and IDs made easy without underscores."
 type: rule
 archivedreason: 
 title: Do you avoid underscores (preference only)?

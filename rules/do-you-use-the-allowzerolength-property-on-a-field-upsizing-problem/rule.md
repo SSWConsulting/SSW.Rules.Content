@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using zero-length strings in fields by setting AllowZeroLength property correctly to ensure data integrity during upsizing."
 type: rule
 archivedreason: 
 title: Do you use the AllowZeroLength property on a field (Upsizing Problem)?

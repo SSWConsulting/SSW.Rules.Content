@@ -1,4 +1,5 @@
 ---
+seoDescription: "Reduce spam and protect your organization's resources by using anti-spam protection and Microsoft Defender."
 type: rule
 title: Do you know how to reduce spam?
 uri: do-you-know-how-to-reduce-spam

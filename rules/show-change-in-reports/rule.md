@@ -1,4 +1,5 @@
 ---
+seoDescription: "Showcasing changes between previous and current data enhances reports by providing valuable insights into trends and progress."
 type: rule
 archivedreason:
 title: Data Layout - Do you show change in your reports?

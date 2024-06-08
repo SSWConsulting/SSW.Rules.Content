@@ -1,4 +1,5 @@
 ---
+seoDescription: "Validate URLs effectively using a well-crafted regular expression."
 type: rule
 title: Do you use a regular expression to validate an URL?
 uri: use-a-regular-expression-to-validate-an-uri

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know where to discuss the backlog?"
 type: rule
 title: Scrum – Do you know where to discuss the backlog?
 uri: discuss-the-backlog

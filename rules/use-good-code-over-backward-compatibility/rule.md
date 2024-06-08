@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you prioritize using good code over backward compatibility?"
 type: rule
 archivedreason: 
 title: Do you use good code over backward compatibility?

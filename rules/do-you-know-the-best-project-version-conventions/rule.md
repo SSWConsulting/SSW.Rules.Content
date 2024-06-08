@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for project and version control conventions ensure a well-organized structure, making it easy to locate files and understand their purpose."
 type: rule
 archivedreason: 
 title: Do you know the best Project/Version conventions?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Turn off database mirroring before upgrading TFS databases to ensure a smooth and headache-free process."
 type: rule
 archivedreason: Duplicated of /turn-off-database-mirroring-before-upgrading-your-tfs-databases
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?

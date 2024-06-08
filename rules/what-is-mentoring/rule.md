@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover what makes a great mentor and how they can help you achieve success in your career."
 type: rule
 title: Mentoring - Do you know what makes a good mentor?
 uri: what-is-mentoring

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Write an image prompt that guides AI-generated images"
 type: rule
 archivedreason:
 title: Do you know how to write an image prompt?

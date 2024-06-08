@@ -1,4 +1,5 @@
 ---
+seoDescription: "VHD files expand to the size of the partition inside when booted into, requiring sufficient free space."
 type: rule
 archivedreason: 
 title: Do you know that the VHD file will expand to the size of the partition inside the VHD when you boot into it?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Teams Rooms simplifies meeting setup and collaboration, eliminating wasted time, complexity, and user discomfort."
 type: rule
 title: Do you use Microsoft Teams Rooms?
 uri: use-microsoft-teams-room

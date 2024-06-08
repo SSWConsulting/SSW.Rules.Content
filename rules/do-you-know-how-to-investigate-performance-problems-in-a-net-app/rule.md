@@ -1,4 +1,5 @@
 ---
+seoDescription: "Investigate performance problems in .NET apps with Application Insights and identify changes that coincide with the issue, then focus on code or database-related issues to resolve the problem."
 type: rule
 archivedreason: 
 title: Do you know how to investigate performance problems in a .NET app?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use managed metadata effectively across all Office versions with OnePlaceMail's UI, compatible with Office 2003, 2007 and File Explorer."
 type: rule
 archivedreason: 
 title: Do you know that you can't use 2010 Managed Metadata with Office 2007 out of the box?

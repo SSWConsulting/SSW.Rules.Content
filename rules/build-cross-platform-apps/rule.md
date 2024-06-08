@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you build cross-platform apps? Learn about the benefits and approaches to building installable binary apps that run on multiple platforms."
 type: rule
 title: Do you build cross-platform apps?
 uri: build-cross-platform-apps

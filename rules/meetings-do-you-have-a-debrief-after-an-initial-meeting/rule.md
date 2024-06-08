@@ -1,4 +1,5 @@
 ---
+seoDescription: "Debriefing after initial meetings with clients to refine sales skills and enhance client connections."
 type: rule
 archivedreason: 
 title: Meetings - Do you have a debrief after an initial meeting?

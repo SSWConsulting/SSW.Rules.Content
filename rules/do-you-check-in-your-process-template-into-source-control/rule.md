@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check in your customized process template into source control to track changes and avoid mistakes, ensuring version control and collaboration with team members."
 type: rule
 archivedreason: 
 title: Do you Check-in your process template into source control? (legacy)

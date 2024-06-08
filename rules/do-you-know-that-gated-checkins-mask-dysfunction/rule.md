@@ -1,4 +1,5 @@
 ---
+seoDescription: "Gated checkins mask dysfunction and hinder high-functioning teams, instead creating an environment where developers feel forced to work inefficiently."
 type: rule
 archivedreason: 
 title: Do you know that gated checkins mask dysfunction?

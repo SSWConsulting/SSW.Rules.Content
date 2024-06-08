@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you keep your file servers clean and tidy, or do you often find unnecessary files cluttering up your storage space?"
 type: rule
 title: Storage - Do you keep your file servers clean?
 uri: keep-your-file-servers-clean

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid type casts and use the "as operator" instead to ensure safer and more efficient code."
 type: rule
 archivedreason: 
 title: Do you avoid casts and use the "as operator" instead?

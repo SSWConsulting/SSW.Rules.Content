@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid auto-generated version numbers in releases and instead use package versions to ensure accurate tracking of deployed application versions."
 type: rule
 archivedreason: 
 title: Do you avoid auto generated version numbers?

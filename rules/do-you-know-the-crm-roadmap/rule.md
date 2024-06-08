@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Dynamics CRM roadmap provides a snapshot of recent developments, public previews, and future plans for the business."
 type: rule
 title: Do you know the CRM roadmap?
 uri: do-you-know-the-crm-roadmap

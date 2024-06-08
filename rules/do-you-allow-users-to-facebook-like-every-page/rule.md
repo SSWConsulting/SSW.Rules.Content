@@ -1,4 +1,5 @@
 ---
+seoDescription: "Facebook allows users to recommend pages by clicking a "Like" button, which displays the recommendation on their homepage and shares it with friends."
 type: rule
 archivedreason: Outdated (as per Camilla and Tiago)
 title: Do you allow users to Facebook 'Like' every page?

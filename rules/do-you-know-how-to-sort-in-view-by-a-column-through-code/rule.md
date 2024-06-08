@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to sort a SharePoint view by a column using code."
 type: rule
 archivedreason: 
 title: Do you know how to sort in view by a column through code

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Limit text on slides to enhance audience engagement and comprehension, using visuals to support your message rather than overwhelming with too much content."
 type: rule
 title: Do you limit the amount of text on your slides?
 uri: do-you-limit-the-amount-of-text-on-your-slides

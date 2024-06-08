@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to reply all to an appointment in Outlook and continue email conversations after meetings, reminders, or gathering more information."
 type: rule
 archivedreason: 
 title: Appointments - Do you know how to "Reply All" to an Appointment?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ideal place to store employee skills is LinkedIn skills, a cloud-based option with seamless sync and extensive features."
 type: rule
 archivedreason: 
 title: Do you know the ideal place to store employee skills?

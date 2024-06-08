@@ -1,4 +1,5 @@
 ---
+seoDescription: "TypeScript configuration for developers seeking type-safety and IDE refactoring support, while minimizing compile time and reported errors."
 type: rule
 archivedreason: 
 title: Do you have good TypeScript configuration?

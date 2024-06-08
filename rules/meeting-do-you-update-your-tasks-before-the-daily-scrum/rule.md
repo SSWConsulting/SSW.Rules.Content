@@ -1,4 +1,5 @@
 ---
+seoDescription: "All team members must update their tasks with status and remaining hours before attending the daily Scrum meeting to ensure an accurate burn-down rate."
 type: rule
 title: Meeting - Do you update your tasks before the Daily Scrum?
 uri: meeting-do-you-update-your-tasks-before-the-daily-scrum

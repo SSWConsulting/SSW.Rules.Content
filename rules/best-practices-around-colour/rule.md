@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices around colour usage in reports and visualizations, ensuring clarity and effectiveness through semantic colours, minimalism, consistent palette, and consideration for colour blindness."
 type: rule
 title: Do you know the best practices around colour?
 uri: best-practices-around-colour

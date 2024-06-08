@@ -1,4 +1,5 @@
 ---
+seoDescription: "Behavior-Driven Development (BDD) simplifies test case understanding by enabling organizations to define use cases in plain language, integrating with testing frameworks."
 type: rule
 title: Do you follow BDD?
 uri: bdd

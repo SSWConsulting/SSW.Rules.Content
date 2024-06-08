@@ -1,4 +1,5 @@
 ---
+seoDescription: "Simplify repetitive UI sections by encapsulating them in HTML Helpers or Partial Views to reduce code duplication and improve maintainability."
 type: rule
 title: Do you use Html Helpers and Partial Views to simplify Views?
 uri: do-you-use-html-helpers-and-partial-views-to-simplify-views

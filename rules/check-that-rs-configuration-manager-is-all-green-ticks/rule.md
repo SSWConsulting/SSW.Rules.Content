@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure Reporting Services runs smoothly by verifying green ticks in Report Server Configuration Manager."
 type: rule
 archivedreason: Reporting Services does not show green ticks anymore
 title: Do you check that "Report Server Configuration Manager" is all green ticks?

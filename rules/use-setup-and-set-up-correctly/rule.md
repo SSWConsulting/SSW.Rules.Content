@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use "setup" and "set up" correctly? Learn how to establish the correct usage of these words as nouns and verbs."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you use "setup" and "set up" correctly?'

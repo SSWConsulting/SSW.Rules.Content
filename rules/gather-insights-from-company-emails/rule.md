@@ -1,4 +1,5 @@
 ---
+seoDescription: "Unlock insights from company emails and transform data into actionable decisions with SSW EagleEye's email analysis."
 type: rule
 title: Do you gather insights from company emails?
 uri: gather-insights-from-company-emails

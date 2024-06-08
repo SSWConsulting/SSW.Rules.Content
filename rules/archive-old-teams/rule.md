@@ -1,4 +1,5 @@
 ---
+seoDescription: "Archived Teams help organizations declutter and streamline their Microsoft Teams experience by removing inactive or obsolete teams from view."
 type: rule
 archivedreason: 
 title: SysAdmin - Do you archive old Teams?

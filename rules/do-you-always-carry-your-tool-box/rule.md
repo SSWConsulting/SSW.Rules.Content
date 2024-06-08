@@ -1,4 +1,5 @@
 ---
+seoDescription: "Carry your own hardware and peripherals to save hours one day, including business cards, cables, thumb drives, external hard drives, software DVDs, and more."
 type: rule
 archivedreason: Outdated
 title: Do you always carry your Tool Box?

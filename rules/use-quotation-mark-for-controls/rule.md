@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use quotation marks to clarify controls and enhance user understanding in technical documentation, improving searchability and readability."
 type: rule
 archivedreason: 
 title: Reference - Do you use quotation mark for controls?

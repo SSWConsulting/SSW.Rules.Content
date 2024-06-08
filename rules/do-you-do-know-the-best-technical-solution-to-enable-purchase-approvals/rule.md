@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enable purchase approvals through a seamless workflow solution that integrates with existing systems, such as SharePoint or CRM, for efficient and automated business processes."
 type: rule
 archivedreason: Requested by Stephan
 title: Do you do know the best technical solution to enable purchase approvals?

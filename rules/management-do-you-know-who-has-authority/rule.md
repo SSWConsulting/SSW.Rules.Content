@@ -1,4 +1,5 @@
 ---
+seoDescription: "Management of a project requires knowing who has authority to make decisions and ensure that work is authorized by the person who signs the cheques."
 type: rule
 title: Management - Do you know who has authority?
 uri: management-do-you-know-who-has-authority

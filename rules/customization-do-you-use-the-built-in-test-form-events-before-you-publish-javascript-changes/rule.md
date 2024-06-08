@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize your forms by testing JavaScript events before publishing changes and avoiding unnecessary form re-publishing."
 type: rule
 archivedreason: 
 title: Customization - Do you use the built-in test form events before you publish JavaScript changes?

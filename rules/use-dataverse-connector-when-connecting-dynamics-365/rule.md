@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you need a Dynamics 365 connection? Use the Dataverse connector to unlock faster and more customizable reporting."
 type: rule
 archivedreason: 
 title: Do you use the Dataverse connector when connecting the Dynamics 365?

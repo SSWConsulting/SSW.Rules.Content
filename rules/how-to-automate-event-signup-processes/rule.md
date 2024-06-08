@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate event signup processes with ease using Zapier."
 type: rule
 archivedreason: 
 title: Do you know how to automate event signup processes?

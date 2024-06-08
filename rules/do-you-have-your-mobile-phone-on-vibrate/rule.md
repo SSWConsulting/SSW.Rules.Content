@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep your mobile phone on vibrate mode to ensure uninterrupted work and conversations while minimizing distractions."
 type: rule
 archivedreason: 
 title: Office environment - Do you have your mobile phone on vibrate?

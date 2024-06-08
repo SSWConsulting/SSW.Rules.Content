@@ -1,4 +1,5 @@
 ---
+seoDescription: "Interfaces and abstract classes provide a clear overview of code structure and behavior without delving into implementation details."
 type: rule
 title: Reading Source Code - Do you understand the importance of interfaces and
   abstract classes?

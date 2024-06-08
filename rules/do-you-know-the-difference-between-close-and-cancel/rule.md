@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering UI best practices, learn the difference between "Close" and "Cancel" buttons to ensure seamless user experience."
 type: rule
 archivedreason: 
 title: Do you know the difference between Close and Cancel?

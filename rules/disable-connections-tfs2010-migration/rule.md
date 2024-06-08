@@ -1,4 +1,5 @@
 ---
+seoDescription: "Disable connections to TFS 2010 during migration by stopping file check-ins and confirming no latest updates are possible."
 type: rule
 archivedreason: 
 title: Do you disable connections for TFS 2010 migration?

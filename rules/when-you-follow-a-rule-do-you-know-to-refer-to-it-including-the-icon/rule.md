@@ -1,4 +1,5 @@
 ---
+seoDescription: "When following a rule, refer to its URL including the icon."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/link-emails-to-the-rule-or-template-they-follow](/rules/link-emails-to-the-rule-or-template-they-follow)
 title: When you follow a rule do you know to refer to it (including the icon)?

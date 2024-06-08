@@ -1,4 +1,5 @@
 ---
+seoDescription: "Include annual costs to provide a complete picture of expenses and facilitate informed budget planning."
 type: rule
 title: Do you include the annual cost for recurring expenses?
 uri: include-annual-cost

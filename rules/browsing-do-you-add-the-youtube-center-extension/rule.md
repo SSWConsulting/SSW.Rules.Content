@@ -1,4 +1,5 @@
 ---
+seoDescription: "YouTube Center extension helps you customize and enhance your YouTube experience with features like ad removal, DASH playback control, video format downloads, and more."
 type: rule
 archivedreason: 
 title: Browsing - Do you add the YouTube Center extension?

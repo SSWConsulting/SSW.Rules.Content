@@ -1,4 +1,5 @@
 ---
+seoDescription: "Track usage patterns and optimize functionality with Redgate's Feature Usage Reporting, identifying top-searched terms and informing search page field layouts."
 type: rule
 title: Do you log usage?
 uri: do-you-log-usage

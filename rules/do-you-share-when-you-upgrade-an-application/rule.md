@@ -1,4 +1,5 @@
 ---
+seoDescription: "When upgrading an application, it's essential to inform your followers about the changes and their benefits."
 type: rule
 archivedreason: Moved to [https://www.ssw.com.au/rules/type-of-content-marketing-you-should-post](/rules/type-of-content-marketing-you-should-post)
 title: Do you share when you upgrade an application?

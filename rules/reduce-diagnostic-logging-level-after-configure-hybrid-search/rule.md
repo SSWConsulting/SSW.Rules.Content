@@ -1,4 +1,5 @@
 ---
+seoDescription: "Reduce diagnostic logging level after configuring hybrid search to minimize log size and improve performance."
 type: rule
 archivedreason: 
 title: Do you reduce diagnostic logging level after configure hybrid search?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure Active Directory security with PingCastle's auditing tool and receive actionable reports to address vulnerabilities."
 type: rule
 title: Do you check your AD security with PingCastle?
 uri: check-ad-security-with-pingcastle

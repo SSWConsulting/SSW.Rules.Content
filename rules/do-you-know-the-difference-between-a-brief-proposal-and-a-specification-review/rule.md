@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand the nuances between a brief proposal and a specification review, knowing that a brief proposal covers basic company info and next steps, while a specification review delves into technical details and initial release plans."
 type: rule
 archivedreason: 
 title: Do you know the difference between a brief proposal and a specification review?

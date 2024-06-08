@@ -1,4 +1,5 @@
 ---
+seoDescription: "Securely store sensitive information such as credit card details and passport data with an enterprise password manager like Keeper to protect against data breaches, non-compliance, and management issues."
 type: rule
 title: Do you store your sensitive information securely
 uri: store-sensitive-information-securely

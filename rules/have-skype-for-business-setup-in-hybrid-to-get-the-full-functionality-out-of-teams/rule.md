@@ -1,4 +1,5 @@
 ---
+seoDescription: "Setup Skype for Business in Hybrid mode to unlock full Microsoft Teams functionality and enhance collaboration."
 type: rule
 archivedreason: 
 title: Do you have Skype for Business setup in Hybrid to get the full functionality out of Teams?

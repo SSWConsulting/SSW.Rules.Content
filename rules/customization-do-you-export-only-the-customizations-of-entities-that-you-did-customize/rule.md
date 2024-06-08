@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize your CRM entities by exporting each individual customization or select what to import, ensuring seamless updates and minimizing impact on live environments."
 type: rule
 archivedreason: 
 title: Customization - Do you export only the customizations of entities that you did customize? (CRM 4 only)

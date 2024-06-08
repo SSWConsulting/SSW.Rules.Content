@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure business continuity and disaster recovery with Azure Site Recovery, a reliable solution to replicate and sync Virtual Machines across on-premises and Azure regions."
 type: rule
 title: Redundancy - Do you use Azure Site Recovery?
 uri: azure-site-recovery

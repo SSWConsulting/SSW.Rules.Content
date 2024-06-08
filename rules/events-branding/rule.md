@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to successfully brand your events and make a lasting impression on your target market."
 type: rule
 archivedreason: 
 title: Do you brand your events?

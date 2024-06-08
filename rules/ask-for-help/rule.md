@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to ask for help? Learn how to determine if it's time to ask, do your due diligence, figure out who to ask, and prepare to talk to a senior."
 type: rule
 title: Do you know when and how to ask for help?
 uri: ask-for-help

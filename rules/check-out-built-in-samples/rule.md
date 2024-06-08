@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get started with SQL Server 2008 R2 Reporting Services using built-in samples featuring Adventure Works 2008 R2 database."
 type: rule
 archivedreason:
 title: Do you check out the built-in samples?

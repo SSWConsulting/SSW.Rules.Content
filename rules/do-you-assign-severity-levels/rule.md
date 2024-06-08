@@ -1,4 +1,5 @@
 ---
+seoDescription: "Assigning severity levels to product backlog items (PBIs) helps prioritize tasks based on business impact, with options ranging from defaulting to highest or lowest severity."
 type: rule
 archivedreason: 
 title: Do you assign severity levels to PBIs?

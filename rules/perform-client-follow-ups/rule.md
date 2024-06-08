@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay on top of client relationships with daily follow-ups prioritized by existing clients, prospects, and internal affairs."
 type: rule
 archivedreason: 
 title: Do you perform client follow ups?

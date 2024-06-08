@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid large PRs by choosing between creating a new repository or folder, and merging using small pull requests, allowing for clean snapshots of legacy applications and isolated backlogs."
 type: rule
 title: Git - Do you know how to avoid large PRs?
 uri: avoid-large-prs

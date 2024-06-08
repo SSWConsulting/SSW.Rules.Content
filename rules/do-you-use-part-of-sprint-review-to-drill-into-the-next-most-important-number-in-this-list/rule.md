@@ -1,4 +1,5 @@
 ---
+seoDescription: "During sprint reviews, utilize part of the discussion to drill down into the next most important task in your list."
 type: rule
 archivedreason: Empty rule
 title: Do you use part of Sprint review to drill into the next most important number in this list?

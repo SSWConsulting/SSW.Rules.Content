@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade third-party tools to ensure compatibility with TFS 2012 and avoid version issues."
 type: rule
 archivedreason: Deprecated
 title: Do you know to upgrade your third party tools for TFS 2012?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schedule supplier payments efficiently using Xero and improve cash flow management by automating your accounting processes."
 type: rule
 title: Expenses - Do you use Xero to schedule supplier payments?
 uri: do-you-schedule-supplier-payments

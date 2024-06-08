@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost your online credibility with trusted testimonials showcasing real people's experiences and satisfaction with our services."
 type: rule
 archivedreason: 
 title: Do you show testimonials on your website?

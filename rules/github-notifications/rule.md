@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure GitHub notifications to reduce email spam and receive valuable updates, allowing you to prioritize important requests and reviews."
 type: rule
 title: Do you configure your GitHub Notifications?
 uri: github-notifications

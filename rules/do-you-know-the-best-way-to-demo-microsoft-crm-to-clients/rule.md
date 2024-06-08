@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best way to demo Microsoft CRM to clients is by using a dedicated demo environment that allows pre-installation of first-party or third-party solutions, and potential handover for further evaluation."
 type: rule
 archivedreason: 
 title: Do you know the best way to demo Microsoft CRM to clients?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using indexes on RowGuid columns due to their large size and lack of suitability for indexing, making searches slow and inefficient."
 type: rule
 archivedreason: 
 title: Schema - Do you avoid using indexes on RowGuid column?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to hand over a project smoothly and ensure continuity with our step-by-step guide. Know the responsibilities of the person transitioning away from the project and follow our comprehensive checklist."
 type: rule
 title: Do you know how to hand over a project?
 uri: hand-over-projects

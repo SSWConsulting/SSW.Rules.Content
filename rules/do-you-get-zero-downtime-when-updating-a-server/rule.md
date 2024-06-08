@@ -1,4 +1,5 @@
 ---
+seoDescription: "Update web servers without downtime using a network load balancer and follow these steps to ensure 100% uptime."
 type: rule
 archivedreason: 
 title: Web Servers - Do you get Zero Downtime when Updating a Server?

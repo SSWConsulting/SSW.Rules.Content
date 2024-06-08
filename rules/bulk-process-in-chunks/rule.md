@@ -1,4 +1,5 @@
 ---
+seoDescription: "Bulk processing databases efficiently involves breaking down updates into manageable chunks, reducing slowdowns and blocking issues for other users."
 type: rule
 title: Do you bulk process in chunks?
 uri: bulk-process-in-chunks

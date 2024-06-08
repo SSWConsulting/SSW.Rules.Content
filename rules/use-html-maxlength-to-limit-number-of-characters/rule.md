@@ -1,4 +1,5 @@
 ---
+seoDescription: "Limit text input to prevent overwhelming data fields while ensuring user comfort."
 type: rule
 archivedreason: 
 title: Do you use HTML "maxlength" attribute to limit number of characters on input fields?

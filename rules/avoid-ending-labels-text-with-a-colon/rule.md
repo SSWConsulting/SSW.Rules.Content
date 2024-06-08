@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practice for labels in Windows Forms is to keep them clean and avoid ending with a colon."
 type: rule
 archivedreason: 
 title: Being Pedantic - Do you avoid ending labels text with a colon?

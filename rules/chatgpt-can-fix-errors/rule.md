@@ -1,4 +1,5 @@
 ---
+seoDescription: "ChatGPT helps developers quickly resolve errors by providing instant feedback and solutions."
 type: rule
 title: Do you use ChatGPT to solve code errors?
 uri: chatgpt-can-fix-errors

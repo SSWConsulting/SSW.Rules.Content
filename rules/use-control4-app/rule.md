@@ -1,4 +1,5 @@
 ---
+seoDescription: "Control4 app lets you control and manage smart home/office features from your smartphone, eliminating the need for physical remote controls."
 type: rule
 archivedreason: 
 title: Do you use the Control4 app?

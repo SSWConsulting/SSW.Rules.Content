@@ -1,4 +1,5 @@
 ---
+seoDescription: "SSW uses Jira to track and prioritize system administration tasks with customizable workflows, dashboards, and links for efficient task management."
 type: rule
 archivedreason: 
 title: Do you know why SSW is using Jira?

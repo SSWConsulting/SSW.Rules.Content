@@ -1,4 +1,5 @@
 ---
+seoDescription: "Efficiently triage support tickets with a clear process and Zendesk views to streamline management."
 type: rule
 title: Do you triage your support tickets?
 uri: triage-support-tickets

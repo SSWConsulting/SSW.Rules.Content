@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify native code missing Dispose methods to prevent memory leaks and optimize application performance."
 type: rule
 archivedreason: Empty rule
 title: Do you look for native code that’s missing dispose?

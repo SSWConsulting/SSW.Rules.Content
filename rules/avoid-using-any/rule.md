@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using "any" to ensure type safety and avoid runtime errors, instead use "unknown" and leverage TypeScript's benefits such as intellisense and compile-time checks."
 type: rule
 title: Do you avoid using “any”?
 uri: avoid-using-any

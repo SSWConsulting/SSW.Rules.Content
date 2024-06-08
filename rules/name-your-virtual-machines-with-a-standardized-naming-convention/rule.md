@@ -1,4 +1,5 @@
 ---
+seoDescription: "Standardize virtual machine naming conventions to simplify identification and management across multiple hosts and environments."
 type: rule
 archivedreason: 
 title: Do you name your Virtual Machines with a standardized naming convention?

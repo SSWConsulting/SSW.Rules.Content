@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get your presentations tested by experts to ensure accuracy, relevance, and engagement."
 type: rule
 title: Do you get your "PPTX Testers" to do a 'Test Please'?
 uri: pptx-test-please

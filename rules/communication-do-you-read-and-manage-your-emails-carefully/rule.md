@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective email management ensures accurate record-keeping and timely responses for software development projects, promoting efficient communication."
 type: rule
 archivedreason: 
 title: Communication - Do you read and manage your emails carefully?

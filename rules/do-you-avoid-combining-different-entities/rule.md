@@ -1,4 +1,5 @@
 ---
+seoDescription: "Different form controls with unique data and validation should be kept separate to ensure accurate processing and ease of use."
 type: rule
 archivedreason: 
 title: Do you avoid combining different entities?

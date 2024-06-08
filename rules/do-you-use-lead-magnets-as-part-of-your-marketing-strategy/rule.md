@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to leverage Lead Magnets as a powerful marketing strategy, building trust with potential customers and driving revenue for your business."
 type: rule
 archivedreason: 
 title: Do you use Lead Magnets as part of your marketing strategy?

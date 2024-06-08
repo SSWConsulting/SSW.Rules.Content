@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create consistent campaign images using Photoshop artboards as a visual guideline for sizing and branding, allowing for quick and easy creation."
 type: rule
 archivedreason: 
 title: Do you use Photoshop artboards to create campaign images?

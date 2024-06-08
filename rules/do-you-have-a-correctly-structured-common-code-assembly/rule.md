@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize your .NET code with structured common code assemblies into Common, CommonWindows, and CommonWeb sections."
 type: rule
 title: Do you have a correctly structured common code assembly?
 uri: do-you-have-a-correctly-structured-common-code-assembly

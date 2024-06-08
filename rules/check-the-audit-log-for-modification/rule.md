@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a seamless migration by checking the audit log for modifications during the process to avoid losing important changes."
 type: rule
 archivedreason: 
 title: Do you check the audit log for modification?

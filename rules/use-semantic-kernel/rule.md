@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft's open-source Semantic Kernel SDK simplifies AI integration by orchestrating services like OpenAI and Azure OpenAI."
 type: rule
 title: Do you use Semantic Kernel?
 uri: use-semantic-kernel

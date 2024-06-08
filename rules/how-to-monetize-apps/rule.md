@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monetizing free apps through ethical models that avoid exploiting vulnerable users and maintain a strong re-use strategy."
 type: rule
 archivedreason: 
 title: Do you know how to monetize apps?

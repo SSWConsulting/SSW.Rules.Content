@@ -1,4 +1,5 @@
 ---
+seoDescription: "Define your organization's mission and purpose to drive marketing efforts and ensure everyone is aligned with overall goals."
 type: rule
 title: Do you have a clear mission statement?
 uri: have-a-clear-mission-statement

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover relevant keywords and reach your target audience with Google's Keyword Planner, a powerful tool that suggests ideas and provides cost-per-click estimates."
 type: rule
 archivedreason: 
 title: Do you know how to do Keyword Planning?

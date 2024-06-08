@@ -1,4 +1,5 @@
 ---
+seoDescription: "Standardize AD group names to simplify management and reduce confusion, using a consistent format that includes entity, resource, or service information."
 type: rule
 title: Do you standardize AD group names?
 uri: do-you-standardise-ad-group-names

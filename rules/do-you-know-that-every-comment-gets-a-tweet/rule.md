@@ -1,4 +1,5 @@
 ---
+seoDescription: "Twitter users who comment on blog posts find it polite to tweet the original blogger's post, making sense and worth sharing."
 type: rule
 archivedreason: 
 title: Twitter - Do you know that every comment gets a tweet?

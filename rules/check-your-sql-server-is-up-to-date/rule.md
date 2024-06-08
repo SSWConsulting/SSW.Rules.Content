@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your SQL Server remains up-to-date by manually checking its version and installing service packs within a fortnight."
 type: rule
 archivedreason: 
 title: DBAs - Do you check your SQL Server is up-to-date?

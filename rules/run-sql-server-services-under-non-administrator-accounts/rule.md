@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run SQL Server services under non-Administrator accounts to ensure security and prevent unauthorized access."
 type: rule
 archivedreason: 
 title: ​DBAs - Do you run SQL Server Services under non-Administrator accounts?

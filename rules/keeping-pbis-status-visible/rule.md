@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keeping a PBI's current status visible ensures transparency and helps teams collaborate effectively."
 type: rule
 title: Do you to keep a PBI's current status visible?
 uri: keeping-pbis-status-visible

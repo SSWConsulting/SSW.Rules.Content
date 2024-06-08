@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consulting company regular meetings keep employees connected and informed about key changes and updates."
 type: rule
 archivedreason: 
 title: Communication - Do you hold regular company meetings?

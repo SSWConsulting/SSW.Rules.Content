@@ -1,4 +1,5 @@
 ---
+seoDescription: "Develop a consistent .NET solution structure using dependency injection and the Onion Architecture, with well-named projects and folders, clear separation of concerns, and thorough testing."
 type: rule
 archivedreason: 
 title: Do you have a consistent .NET solution structure?

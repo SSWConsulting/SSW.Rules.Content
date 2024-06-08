@@ -1,4 +1,5 @@
 ---
+seoDescription: "Long-running processes should be accompanied by a progress bar and cancellation option to provide transparency and control for users."
 type: rule
 archivedreason: 
 title: Long Process - Do you know that you should show a progress bar and allow users to cancel?

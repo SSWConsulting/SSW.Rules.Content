@@ -1,4 +1,5 @@
 ---
+seoDescription: "Original artworks included in Source Control for version control and collaboration, exempting uncompressed video files to avoid delays."
 type: rule
 archivedreason: 
 title: Do you include original artworks in Source Control?

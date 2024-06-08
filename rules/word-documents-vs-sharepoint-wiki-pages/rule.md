@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how using Word Documents instead of Wiki Pages can improve your SharePoint experience. Enhance editing capabilities, leverage versioning features and sync files with OneDrive for a more efficient workflow."
 type: rule
 title: Do you use Word Documents instead of Wiki Pages in SharePoint?
 uri: word-documents-vs-sharepoint-wiki-pages

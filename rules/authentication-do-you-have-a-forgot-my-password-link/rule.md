@@ -1,4 +1,5 @@
 ---
+seoDescription: "Forgetting passwords can be frustrating, but providing a 'Forgot my password' link on the sign-in page makes it easy to regain access."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Forgot my password' link?

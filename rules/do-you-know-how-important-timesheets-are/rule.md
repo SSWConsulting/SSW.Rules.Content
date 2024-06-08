@@ -1,4 +1,5 @@
 ---
+seoDescription: "Timesheets are crucial for accurate income calculations and employee tracking."
 type: rule
 title: Do you know how important timesheets are?
 uri: do-you-know-how-important-timesheets-are

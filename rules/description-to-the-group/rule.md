@@ -1,4 +1,5 @@
 ---
+seoDescription: "Adding a clear and concise description to an Office 365 Group or Distribution List enhances communication, collaboration, and management within an organization by providing context about its purpose and scope."
 type: rule
 title: "Do you add a description to the group? "
 uri: description-to-the-group

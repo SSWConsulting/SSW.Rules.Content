@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize Control4 Director performance by monitoring CPU and memory usage with System Diagnostics tool."
 type: rule
 archivedreason: 
 title: Do you know what to check if your Control4 Director is running slowly?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "How to take feedback or criticism effectively, even if it's not your fault, by acknowledging the issue, apologizing, and taking action to prevent future occurrences."
 type: rule
 archivedreason: 
 title: Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?

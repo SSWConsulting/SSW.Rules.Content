@@ -1,4 +1,5 @@
 ---
+seoDescription: "Merging open-source pull requests using the "Squash and merge" option keeps commit history clean and easy to read, making it easier for developers to understand changes made in each PR."
 type: rule
 archivedreason: 
 title: Do you merge open source pull requests using the "Squash and merge" option?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Estimating business value helps prioritize product backlog items based on their ROI, allowing product owners to make informed decisions."
 type: rule
 title: Do you estimate “Business Value”?
 uri: do-you-estimate-business-value

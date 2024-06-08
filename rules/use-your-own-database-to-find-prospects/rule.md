@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use your own database to find targeted prospects and skip buying lists that may be outdated or used before."
 type: rule
 archivedreason: 
 title: Do you use your own database to find prospects?

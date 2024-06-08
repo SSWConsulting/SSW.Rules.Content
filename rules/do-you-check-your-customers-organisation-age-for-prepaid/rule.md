@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you check your customers' organization age for prepaid purposes? Learn how to determine a customer's organization age and ensure timely invoicing with ASIC Company Search."
 type: rule
 archivedreason: 
 title: Giving Credit - Do you check your customers organization age for prepaid purposes?

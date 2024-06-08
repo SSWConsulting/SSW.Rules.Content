@@ -1,4 +1,5 @@
 ---
+seoDescription: "Pop-up ads are intrusive and annoying, disrupting user experience online."
 type: rule
 archivedreason: 
 title: Popup - Do you know Pop-ups are evil?

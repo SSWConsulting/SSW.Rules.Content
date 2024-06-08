@@ -1,4 +1,5 @@
 ---
+seoDescription: "Does your Scrum Master (aka Project Manager) maintain a strict project schedule?"
 type: rule
 archivedreason: No longer relevant.
 title: Does your Scrum Master (aka Project Manager) maintain a strict project schedule?

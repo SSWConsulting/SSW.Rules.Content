@@ -1,4 +1,5 @@
 ---
+seoDescription: "Windows Integrated Authentication streamlines sign-ins by leveraging existing domain credentials, eliminating manual login requirements."
 type: rule
 archivedreason: 
 title: Do you use Windows Integrated Authentication?

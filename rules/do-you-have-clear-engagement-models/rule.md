@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clear engagement models for clients include Time & Materials, Prepaid Time & Materials, Fixed Price, and Recurring options, each with unique billing and project management approaches."
 type: rule
 title: Do you have clear Engagement Models?
 uri: do-you-have-clear-engagement-models

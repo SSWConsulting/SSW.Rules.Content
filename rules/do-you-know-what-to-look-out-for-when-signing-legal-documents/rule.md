@@ -1,4 +1,5 @@
 ---
+seoDescription: "When signing legal documents, ensure specific damages are left to courts, local courts handle conflicts, and common understanding of bug handling exists."
 type: rule
 archivedreason: 
 title: Do you know what to look out for when signing legal documents?

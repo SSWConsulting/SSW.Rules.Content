@@ -1,4 +1,5 @@
 ---
+seoDescription: "Deploying made easy with Entity Framework Code First migrations and Visual Studio's publishing options for web, rich clients, and databases."
 type: rule
 title: Do you make deploying easy?
 uri: do-you-know-deploying-is-so-easy

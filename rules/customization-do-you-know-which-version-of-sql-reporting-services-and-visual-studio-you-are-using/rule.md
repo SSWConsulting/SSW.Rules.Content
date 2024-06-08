@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize your SQL Reporting Services and Visual Studio experience by knowing which version you are using to ensure compatibility with CRM 2011."
 type: rule
 archivedreason: 
 title: Customization - Do you know which version of SQL Reporting Services and Visual Studio you are using?

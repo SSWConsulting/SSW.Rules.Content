@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you 'zz' old files rather than deleting them? Learn how to preserve your outdated .NET application releases and Microsoft Word proposals by prefixing filenames with 'zz'."
 type: rule
 title: Do you 'zz' old files rather than deleting them?
 uri: zz-files

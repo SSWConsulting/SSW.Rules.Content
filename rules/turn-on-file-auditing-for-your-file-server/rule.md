@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enable file auditing on your Windows server to monitor and track access to files and folders, ensuring enhanced security and compliance."
 type: rule
 archivedreason: 
 title: Do you turn on file auditing for your file server?

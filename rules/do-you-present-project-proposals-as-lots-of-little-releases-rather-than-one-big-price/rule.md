@@ -1,4 +1,5 @@
 ---
+seoDescription: "Present project proposals as a series of smaller releases, making it easier for clients to commit and reducing the risk of delayed decisions."
 type: rule
 archivedreason: 
 title: Do you present project proposals as lots of little releases rather than one big price?

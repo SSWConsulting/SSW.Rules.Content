@@ -1,4 +1,5 @@
 ---
+seoDescription: "Publish a report based on a list by using data view web part + AJAX or install Telerik grid and do aspx page with filtering, grouping, totals, and sorting."
 type: rule
 archivedreason: 
 title: How to publish a report based on a list?

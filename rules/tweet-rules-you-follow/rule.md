@@ -1,4 +1,5 @@
 ---
+seoDescription: "Twitter rules you follow and share with others using #ssw and #sswrules."
 type: rule
 title: Twitter - Do you tweet rules that you follow?
 guid: f18d0701-4461-4267-82ba-9c106410a207

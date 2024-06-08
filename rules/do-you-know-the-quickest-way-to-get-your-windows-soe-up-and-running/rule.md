@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here is a possible SEO description based on the provided MDX content: "Boost Windows SOE setup speed with package managers like Chocolatey and Winget for small to medium-sized companies or BYOD environments." Let me know if you'd like me to generate an alternative SEO description! 😊"
 type: rule
 title: Do you know the quickest way to get your Windows SOE up and running?
 uri: do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running

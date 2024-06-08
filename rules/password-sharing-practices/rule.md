@@ -1,4 +1,5 @@
 ---
+seoDescription: "Securely share passwords externally by utilizing your enterprise password manager's one-time secret sharing feature."
 type: rule
 title: Do you know the best way to share a password externally?
 uri: password-sharing-practices
