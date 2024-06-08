@@ -8,6 +8,10 @@ created: 2024-01-16T01:52:21.0000000Z
 authors:
 - title: Luke Cook
   url: https://ssw.com.au/people/luke-cook
+- title: Seth Daily
+  url: https://ssw.com.au/people/seth-daily
+- title: Calum Simpson
+  url: https://ssw.com.au/people/calum-simpson
 related: 
 redirects:
   - do-you-monetize-your-gpt-model
