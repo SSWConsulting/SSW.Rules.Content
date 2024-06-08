@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint) - Confirming the relationship between the Product Owner and Development Team in Agile Project Management."
 type: rule
 title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
 uri: sprint-forecast

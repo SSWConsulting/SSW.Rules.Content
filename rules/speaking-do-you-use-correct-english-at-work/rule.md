@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use correct English to boost professionalism and courtesy in your workplace."
 type: rule
 archivedreason: 
 title: Communication - Do you use correct English at work?

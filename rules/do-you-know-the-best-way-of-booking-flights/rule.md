@@ -1,4 +1,5 @@
 ---
+seoDescription: "Book flights efficiently with general tips and expert advice to secure your ideal travel dates and destinations."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-the-general-tips-for-booking-flights](/rules/do-you-know-the-general-tips-for-booking-flights)
 title: Do you know the best way of booking flights?

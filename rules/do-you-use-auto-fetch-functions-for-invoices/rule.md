@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate your invoicing process with auto-fetch functions that streamline invoice retrieval and reconciliation for efficient accounting and bookkeeping."
 type: rule
 archivedreason: 
 title: Expenses - Do you use auto-fetch function for invoices' emails?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand data differently with SQL Server's tables, views, relations, and stored procedures versus SharePoint's lists, filters, grouping, and formula fields."
 type: rule
 archivedreason: 
 title: Do you know you can't think of data the same way?

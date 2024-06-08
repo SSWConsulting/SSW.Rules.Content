@@ -1,4 +1,5 @@
 ---
+seoDescription: "To avoid an embedded "Add", open a new window (popup) for entering data when using "Add New". This approach provides better user clarity and simplifies coding. It's essential to requery after saving changes, as seen in Outlook's "New" button example."
 type: rule
 archivedreason: 
 title: Do you avoid doing an embedded 'Add'?

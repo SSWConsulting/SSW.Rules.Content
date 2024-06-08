@@ -1,4 +1,5 @@
 ---
+seoDescription: "When choosing a cross-platform framework for your app development needs, it's essential to consider factors such as existing skills, target platforms, and first-party support. With numerous frameworks available, developers have the luxury of selecting the best fit for their projects."
 type: rule
 title: Cross-platform Apps - Do you choose the right mobile framework?
 uri: maui-cross-platform

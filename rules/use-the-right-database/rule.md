@@ -1,4 +1,5 @@
 ---
+seoDescription: "Selecting the right database depends on your specific needs, as both SQL and NoSQL databases have their own strengths and weaknesses."
 type: rule
 title: Do you use the right database for the job?
 uri: use-the-right-database

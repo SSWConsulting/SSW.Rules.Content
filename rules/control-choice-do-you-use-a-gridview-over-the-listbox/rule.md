@@ -1,4 +1,5 @@
 ---
+seoDescription: "Control your data with a GridView over ListBox, leveraging rich features and checkbox functionality for enhanced user experience."
 type: rule
 archivedreason: 
 title: Control Choice - Do you use a GridView (over the ListBox)?

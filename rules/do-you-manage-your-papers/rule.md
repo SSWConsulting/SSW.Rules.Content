@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage your papers effectively and stay organized with SSW's simple yet efficient system, where you'll categorize and file documents by client type."
 type: rule
 archivedreason: 
 title: Do you manage your papers?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance user experience by adding an introductory screen with a screenshot and description, providing insight into the settings process and its purpose."
 type: rule
 archivedreason: 
 title: Do you add an useful introduction screen (with an image of where it is going) prior to settings?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover why using SharePoint solution packages is the preferred method for packaging and deploying changes between servers, ensuring minimal downtime and data loss."
 type: rule
 archivedreason: 
 title: Do you know why you need to use solution package instead of deployment manually?

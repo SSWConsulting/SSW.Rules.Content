@@ -1,4 +1,5 @@
 ---
+seoDescription: "Experimenting with different tones in your prompts helps you receive responses that match your desired communication style."
 type: rule
 title: Do you use different tones?
 uri: use-different-tones

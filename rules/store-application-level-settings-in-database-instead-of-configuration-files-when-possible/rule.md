@@ -1,4 +1,5 @@
 ---
+seoDescription: "Store application-level settings in your database instead of configuration files when possible to simplify updates and enhance querying capabilities."
 type: rule
 archivedreason: 
 title: Do you store Application-Level Settings in your database rather than configuration files when possible?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize your online security and boost Google site ranking by using IIS URL Rewrite to redirect HTTP traffic to HTTPS, ensuring a safer browsing experience for users."
 type: rule
 archivedreason: 
 title: Do you use URL Rewrite to redirect HTTP to HTTPS?

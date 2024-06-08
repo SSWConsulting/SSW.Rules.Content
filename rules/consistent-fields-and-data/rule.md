@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consistent field widths enhance user experience by providing clear data entry guidelines."
 type: rule
 title: Do you make your fields consistent with the data?
 uri: consistent-fields-and-data

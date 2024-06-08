@@ -1,4 +1,5 @@
 ---
+seoDescription: "Integrate Windows Explorer with TFS Power Tools for seamless source control management."
 type: rule
 archivedreason: 
 title: Do you use the Windows Explorer Integration?

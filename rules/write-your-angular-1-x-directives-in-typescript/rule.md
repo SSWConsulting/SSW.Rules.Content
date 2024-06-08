@@ -1,4 +1,5 @@
 ---
+seoDescription: "Write Angular 1.x directives in TypeScript to boost code robustness, reusability and migration ease to Angular 2.0."
 type: rule
 title: Do you write your Angular 1.x directives in TypeScript?
 uri: write-your-angular-1-x-directives-in-typescript

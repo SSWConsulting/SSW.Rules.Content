@@ -1,4 +1,5 @@
 ---
+seoDescription: "Explaining emails - Add context and reasoning to ensure clarity and understanding."
 type: rule
 title: Explaining - Do you add context/reasoning to emails?
 uri: add-context-reasoning-to-emails

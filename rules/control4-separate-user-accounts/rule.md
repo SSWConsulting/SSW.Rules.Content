@@ -1,4 +1,5 @@
 ---
+seoDescription: "Establish separate Control4 user accounts to simplify access management and ensure secure authentication for each individual."
 type: rule
 archivedreason: 
 title: Do you set up separate user accounts in Control4?

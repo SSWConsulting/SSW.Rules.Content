@@ -1,4 +1,5 @@
 ---
+seoDescription: "I'd be happy to help you generate an SEO description. Please provide the Markdown or MDX content, and I'll do my best to create a concise, keyword-rich, and user-intent-matching description. 😊"
 type: rule
 title: Do you know all the cool stuff you can do on SSW Rules?
 uri: rule

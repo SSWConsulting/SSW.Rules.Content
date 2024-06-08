@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get the most out of video production by creating a quiz immediately after recording to ensure accurate note-taking and understanding."
 type: rule
 archivedreason: Deprecated
 title: Production - Do You Create a Quiz Immediately Following Production?

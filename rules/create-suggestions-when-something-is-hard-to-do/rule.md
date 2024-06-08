@@ -1,4 +1,5 @@
 ---
+seoDescription: "When creating code, do you always make suggestions when something is hard to do?"
 type: rule
 archivedreason: 
 title: Do you always create suggestions when something is hard to do?

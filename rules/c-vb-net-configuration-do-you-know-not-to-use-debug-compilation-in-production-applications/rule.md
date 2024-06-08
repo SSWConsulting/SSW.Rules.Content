@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize C# and VB.NET applications for production use by avoiding debug compilation to ensure efficient memory usage and performance."
 type: rule
 archivedreason: 
 title: C#/VB.NET Configuration - Do you know not to use debug compilation in production applications?

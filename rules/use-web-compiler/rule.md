@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Visual Studio's Web Compiler extension to compile CSS files and find missing curly braces, but note that it may not catch all errors."
 type: rule
 archivedreason: 
 title: Do you use Web Compiler extension?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to set up Network Load Balancing (NLB) on Windows Server 2016, ensuring high availability and load balancing for your web servers."
 type: rule
 archivedreason: 
 title: Web Servers - Do you know how to Setup NLB on Windows Server 2016? (aka Network Load Balancing)

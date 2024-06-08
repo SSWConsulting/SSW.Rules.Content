@@ -1,4 +1,5 @@
 ---
+seoDescription: "CRM developers should not manually move from Dev to Test and Production servers. Instead, they can use batch files for deployment to automate the process."
 type: rule
 title: Do you make batch files for deployment to Test and Production servers?
   (CRM 4 Only)

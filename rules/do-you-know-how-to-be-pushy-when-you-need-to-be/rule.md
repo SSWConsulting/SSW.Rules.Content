@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize productivity and minimize delays at client sites by being assertive and asking questions until you get the necessary answers."
 type: rule
 archivedreason: 
 title: Do you know how to be pushy when you need to be?

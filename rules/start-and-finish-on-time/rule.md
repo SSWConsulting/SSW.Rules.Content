@@ -1,4 +1,5 @@
 ---
+seoDescription: "Start and finish meetings on time to respect attendees' schedules and maintain a sense of control."
 type: rule
 title: Do you start and finish on time?
 uri: start-and-finish-on-time

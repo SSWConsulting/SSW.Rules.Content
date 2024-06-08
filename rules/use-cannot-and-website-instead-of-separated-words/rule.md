@@ -1,4 +1,5 @@
 ---
+seoDescription: "Cannot and website should be written as one word instead of separated words."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you use "cannot" and "website" instead of separated words?'

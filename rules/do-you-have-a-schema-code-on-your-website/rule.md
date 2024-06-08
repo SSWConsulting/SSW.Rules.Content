@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a rich snippet result on Google search results?"
 type: rule
 archivedreason: 
 title: Do you have a Schema code on your website?

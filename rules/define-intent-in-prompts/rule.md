@@ -1,4 +1,5 @@
 ---
+seoDescription: "Define your intent clearly to help ChatGPT understand your goal and provide accurate responses."
 type: rule
 title: Do you always define your intent in prompts?
 uri: define-intent-in-prompts

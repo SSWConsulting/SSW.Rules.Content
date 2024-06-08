@@ -1,4 +1,5 @@
 ---
+seoDescription: "Is anyone using MEF on their projects?"
 type: rule
 archivedreason: >-
   Is anyone usin MEF on their projects?

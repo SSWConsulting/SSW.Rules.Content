@@ -1,4 +1,5 @@
 ---
+seoDescription: "Quickly resolve technical issues by calling your System Administrators before raising a ticket, saving time and increasing productivity."
 type: rule
 title: Do you call your System Administrators before raising a ticket?
 uri: call-your-system-administrators-before-raising-a-ticket

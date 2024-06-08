@@ -1,4 +1,5 @@
 ---
+seoDescription: "Does the first form provide the user product information?"
 type: rule
 archivedreason: 
 title: Does the first form provide the user product information?

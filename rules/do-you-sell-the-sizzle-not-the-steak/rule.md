@@ -1,4 +1,5 @@
 ---
+seoDescription: "Selling benefits over features, a timeless principle that helps businesses connect with customers' needs."
 type: rule
 archivedreason: 
 title: Do you sell the sizzle, not the steak?

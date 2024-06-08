@@ -1,4 +1,5 @@
 ---
+seoDescription: "Code comments should be used judiciously to clarify code intentions and avoid unnecessary duplication of information."
 type: rule
 archivedreason: 
 title: Do you review the code comments?

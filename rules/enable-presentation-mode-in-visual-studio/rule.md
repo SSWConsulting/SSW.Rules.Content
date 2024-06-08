@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make your Windows PC easy to view by increasing font sizes and removing distracting panes for a seamless presentation experience."
 type: rule
 title: Screen Recordings - Do you make sure your Windows PC is easy to view?
 uri: enable-presentation-mode-in-visual-studio

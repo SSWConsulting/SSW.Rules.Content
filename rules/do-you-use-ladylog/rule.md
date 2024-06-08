@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor application errors with LadyLog and provide a professional error reporting experience to your users."
 type: rule
 archivedreason: Has been replaced by Application Insights
 title: Do you use LadyLog?

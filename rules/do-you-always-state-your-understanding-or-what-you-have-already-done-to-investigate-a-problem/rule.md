@@ -1,4 +1,5 @@
 ---
+seoDescription: "When seeking advice or help from another, it's essential to establish your understanding and methods you've previously attempted to resolve the problem, avoiding unnecessary suggestions."
 type: rule
 title: Do you always state your understanding or what you have already done to investigate a problem?
 uri: do-you-always-state-your-understanding-or-what-you-have-already-done-to-investigate-a-problem

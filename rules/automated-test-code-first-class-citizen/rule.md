@@ -1,4 +1,5 @@
 ---
+seoDescription: "Treat automated test code as a first-class citizen by applying best practices and maintaining high-quality code to ensure reliable testing and prevent deployment of poor quality code."
 type: rule
 title: Do you treat your automated test code as a first-class citizen?
 uri: automated-test-code-first-class-citizen

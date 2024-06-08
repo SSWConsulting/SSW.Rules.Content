@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use PowerShell scripts that separate configuration from code for improved security and maintainability."
 type: rule
 archivedreason: 
 title: Do you use configuration files for PowerShell scripts?

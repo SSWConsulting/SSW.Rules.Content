@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize consulting opportunities by showcasing expertise through events such as training courses and tech breakfasts."
 type: rule
 archivedreason: 
 title: Do you use Events to market your consulting work?

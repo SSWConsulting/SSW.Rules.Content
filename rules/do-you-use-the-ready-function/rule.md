@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your JavaScript initialization code runs after the page's DOM is fully loaded and ready for manipulation by utilizing the .ready() function."
 type: rule
 archivedreason: 
 title: Do you use the .ready() function?

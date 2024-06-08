@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a Knowledge Base (KB)?"
 type: rule
 archivedreason: 
 title: Do you have a Knowledge Base (KB)?

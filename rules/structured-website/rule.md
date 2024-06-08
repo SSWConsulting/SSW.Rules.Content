@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize your website structure to keep it clean and efficient with separate directories for images, downloadable content, include files, executables, shopping cart pages, client login, reports, maintenance, and validation checks."
 type: rule
 archivedreason: 
 title: Do you have a structured website?

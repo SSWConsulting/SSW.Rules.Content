@@ -1,4 +1,5 @@
 ---
+seoDescription: "Update your work details on CRM with ease and accuracy, ensuring seamless client management and enhanced collaboration."
 type: rule
 archivedreason: Replaced by https://github.com/SSWConsulting/SSW.People.Profiles/wiki
 title: Do you know how to update your work details on CRM?

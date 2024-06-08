@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test and validate your JavaScript code using Jest, Karma, or Jasmine to ensure robust web applications."
 type: rule
 title: Do you test your JavaScript?
 uri: test-your-javascript

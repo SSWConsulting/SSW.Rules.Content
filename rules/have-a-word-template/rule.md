@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline proposal development with our proposal Word template, perfect for creating standardized proposals quickly and efficiently."
 type: rule
 archivedreason: 
 title: Do you have a proposal template?

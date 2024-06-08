@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn when to implement IDisposable and ensure efficient memory management in .NET by understanding how to control unmanaged resources with this guide."
 type: rule
 title: Do you know when to implement IDisposable?
 uri: when-to-implement-idisposable

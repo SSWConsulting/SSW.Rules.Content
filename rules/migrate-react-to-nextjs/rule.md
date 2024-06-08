@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate React projects to Next.js by leveraging `@next/ codemod` and understanding server-side rendering, API routes, and file-based routing."
 type: rule
 title: Do you know how to migrate React projects to Next.js?
 uri: migrate-react-to-nextjs

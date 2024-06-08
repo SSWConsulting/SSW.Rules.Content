@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use separators to improve numbers' readability and make large sums or phone numbers easier to comprehend."
 type: rule
 archivedreason: 
 title: Numbers - Do you use separators to improve numbers' readability?

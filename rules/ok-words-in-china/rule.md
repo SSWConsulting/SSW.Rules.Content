@@ -1,4 +1,5 @@
 ---
+seoDescription: "Localizing apps to China? Some English words are commonly accepted and can be used as-is on your user interface."
 type: rule
 archivedreason: 
 title: Chinafy - Do you know those English words are OK in China?

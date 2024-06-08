@@ -1,4 +1,5 @@
 ---
+seoDescription: "Assess and upgrade your Visual Basic 6.0 code with ease using this tool's statistical, structural, and functional analysis capabilities."
 type: rule
 title: Do you use Visual Basic 6.0 Upgrade Assessment Tool?
 uri: use-visual-basic-6-upgrade-assessment-tool

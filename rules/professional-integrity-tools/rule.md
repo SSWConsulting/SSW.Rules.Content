@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain your professional integrity by using tools and techniques to stay organized and committed to your promises."
 type: rule
 title: Do you know the best tools and techniques to maintain your professional
   integrity?

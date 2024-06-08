@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep Failed Requests clean to troubleshoot application issues efficiently."
 type: rule
 archivedreason:
 title: Do you keep Failed Requests clean?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here's the generated SEO description: "Create a rule category and summary page to organize SharePoint rules and improve user navigation." Let me know if you'd like any adjustments! 😊"
 type: rule
 archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories
 title: SharePoint - Do you know how to create a rule category? (internal only)

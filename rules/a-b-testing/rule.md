@@ -1,4 +1,5 @@
 ---
+seoDescription: "A/B testing enables you to test different versions of an application on different users, gathering empirical evidence to learn which version performs better."
 type: rule
 title: Do you know the best way to do A/B testing?
 uri: a-b-testing

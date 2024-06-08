@@ -1,4 +1,5 @@
 ---
+seoDescription: "Focus on your MVP by using a Police Line in your backlog to prioritize essential features."
 type: rule
 title: Do you use a Police Line in your backlog to help focus you on your MVP
   (Minimum Viable Product)?

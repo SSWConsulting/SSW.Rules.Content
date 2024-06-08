@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your Control4 smart home network performance by following Zigbee design principles, such as never placing mesh controllers in metal racks and centrally locating them to ensure reliable communication between devices."
 type: rule
 title: Do you know what Zigbee is and follow its design principles?
 uri: zigbee-design-principles

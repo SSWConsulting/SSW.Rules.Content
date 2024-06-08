@@ -1,4 +1,5 @@
 ---
+seoDescription: "Take short breaks to boost productivity and well-being by stretching and walking around every few hours."
 type: rule
 title: Do you take breaks?
 uri: take-breaks

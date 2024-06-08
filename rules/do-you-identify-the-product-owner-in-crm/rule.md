@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify the Product Owner within your CRM by including their role in job titles for seamless tracking and management."
 type: rule
 archivedreason: We don't follow this as per Uly - PO is not a job title. 
 title: Do you identify the Product Owner in CRM?

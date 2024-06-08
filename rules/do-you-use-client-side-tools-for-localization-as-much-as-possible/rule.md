@@ -1,4 +1,5 @@
 ---
+seoDescription: "Client-side localization tools optimize your service's performance by reducing backend dependencies, ensuring seamless cultural adaptations."
 type: rule
 archivedreason: 
 title: Do you use client-side tools for localization as much as possible?

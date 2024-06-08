@@ -1,4 +1,5 @@
 ---
+seoDescription: "Include important keywords naturally in the title, headings, and first few paragraphs of your content."
 type: rule
 title: SEO - Do you include important keywords where it matters?
 uri: include-important-keywords-where-it-matters

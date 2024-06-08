@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use email for tasks only, not for chatting? Learn how to minimize mailbox clutter and improve communication with these simple tips."
 type: rule
 title: Do you send emails for tasks only?
 uri: use-email-for-tasks-only

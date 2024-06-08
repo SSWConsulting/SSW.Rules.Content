@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor website uptime and availability in real-time with a detailed history of performance and downtime."
 type: rule
 archivedreason: 
 title: Do you have uptime report for your website?

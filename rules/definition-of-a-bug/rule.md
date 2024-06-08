@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clear definition of a bug: Software issue causing application crashes, data inconsistencies, missing functionality, or page design/ layout issues that can be reproduced and reported within a specified timeframe."
 type: rule
 title: Do you have a clear definition of a bug?
 uri: definition-of-a-bug

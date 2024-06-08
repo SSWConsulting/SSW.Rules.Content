@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a content marketing strategy for your business? Create and distribute valuable content to attract and retain a clearly-defined audience and drive profitable customer action."
 type: rule
 title: Content - Do you have a content marketing strategy for your business?
 uri: content-marketing-strategy-for-your-business

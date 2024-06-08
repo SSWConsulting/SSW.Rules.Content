@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to get approval for a purchase and avoid financial headaches in your office environment! Discover the best way to request approval from your boss or financial controller, including tips on providing quotes, awaiting approval, and documenting expenses."
 type: rule
 title: Office environment - Do you know how to get approval for a purchase?
 uri: purchase-please

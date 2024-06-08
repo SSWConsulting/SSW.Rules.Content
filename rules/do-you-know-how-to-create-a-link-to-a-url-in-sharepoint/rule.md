@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here's a generated SEO description: "Create links to URLs in SharePoint libraries using 'Link to a document' content type or upload shortcut files (.url), ideal for navigating to different websites and documents.""
 type: rule
 archivedreason: 
 title: Do you know how to create a link to a URL in SharePoint?

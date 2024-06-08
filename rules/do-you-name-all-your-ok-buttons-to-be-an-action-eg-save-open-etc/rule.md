@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices dictate renaming "OK" buttons to action verbs like "Save," "Open," or others to improve user experience and clarity."
 type: rule
 title: Do you label buttons to be an action, like "Save, "Open", etc?
 uri: do-you-name-all-your-ok-buttons-to-be-an-action-eg-save-open-etc

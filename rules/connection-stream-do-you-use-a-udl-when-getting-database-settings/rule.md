@@ -1,4 +1,5 @@
 ---
+seoDescription: "Connection stream do you use a UDL when getting database settings?"
 type: rule
 archivedreason: 
 title: Connection Stream - Do you use a UDL when getting database settings?

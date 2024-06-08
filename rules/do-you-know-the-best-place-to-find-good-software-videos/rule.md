@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover high-quality software development videos on Pluralsight and SSW TV, featuring expert-led courses, webinars, and interviews to boost your tech skills."
 type: rule
 archivedreason: 
 title: Quality - Do you know the best place to find good software videos?

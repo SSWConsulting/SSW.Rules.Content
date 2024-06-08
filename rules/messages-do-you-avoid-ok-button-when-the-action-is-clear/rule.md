@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using "OK" buttons when actions are clear, instead opt for descriptive names like Save, Move, or Print."
 type: rule
 archivedreason: 
 title: Messages - Do you avoid 'OK' button when the action is clear?

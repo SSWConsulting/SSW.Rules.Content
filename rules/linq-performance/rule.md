@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve LINQ performance by profiling and benchmarking, optimizing queries and data access for efficient business logic implementation."
 type: rule
 archivedreason:
 title: Do you know how to get the best performance out of LINQ?

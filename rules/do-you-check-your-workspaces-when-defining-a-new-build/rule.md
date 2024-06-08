@@ -1,4 +1,5 @@
 ---
+seoDescription: "Defining a new build in TFS requires checking workspaces to ensure only relevant files are included."
 type: rule
 archivedreason: 
 title: Do you check your Workspaces when defining a new build?

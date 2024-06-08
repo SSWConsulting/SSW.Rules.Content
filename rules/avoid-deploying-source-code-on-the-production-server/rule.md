@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid deploying source code on production servers by using tools like Publish utility to precompile and deploy ASP.NET projects, removing source code and identifying potential errors."
 type: rule
 archivedreason: 
 title: Do you avoid deploying source code on the production server?

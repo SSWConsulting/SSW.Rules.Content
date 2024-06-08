@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use URLs instead of images to optimize database size and improve image validation."
 type: rule
 archivedreason: 
 title: Data - Do you use a URL instead of an image in your database?

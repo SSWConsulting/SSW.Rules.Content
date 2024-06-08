@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify and optimize memory-intensive queries, release system cache, or add more RAM to alleviate SQL Server memory pressure."
 type: rule
 archivedreason: 
 title: What to do about SQL Server Memory Pressure?

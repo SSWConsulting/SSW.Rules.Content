@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover performance bottlenecks and optimize your application with Application Insights, uncovering key insights into request failures, page load times, and scaling issues."
 type: rule
 archivedreason: 
 title: Do you know how to find performance problems with Application Insights?

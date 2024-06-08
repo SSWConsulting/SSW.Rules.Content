@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here's a generated SEO description: "Master the three commitments in Scrum: Product Goal, Sprint Goal, and Definition of Done, to drive your team towards a defined outcome and ensure quality product delivery.""
 type: rule
 archivedreason: 
 title: Do you know the 3 commitments in Scrum (Product Goal, Sprint Goal, and Definition of Done)?

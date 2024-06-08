@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do not cache lookup data in your Windows Forms application to avoid unnecessary database look-ups and minimize potential issues with synchronizing data."
 type: rule
 title: Do you not cache lookup data in your Windows Forms application?
 uri: do-you-not-cache-lookup-data-in-your-windows-forms-application

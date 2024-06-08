@@ -1,4 +1,5 @@
 ---
+seoDescription: "When designing multicolumn lists, it's best to display data vertically instead of horizontally for better readability and faster scanning."
 type: rule
 title: Column Data - Do you do alphanumeric down instead of across?
 uri: column-data-do-you-do-alphanumeric-down-instead-of-across

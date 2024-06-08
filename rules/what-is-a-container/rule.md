@@ -1,4 +1,5 @@
 ---
+seoDescription: "Reduce running and maintenance costs with containers, a lightweight virtual machine that includes all libraries needed for web applications."
 type: rule
 title: Do you know what a container is?
 uri: what-is-a-container

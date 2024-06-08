@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create and track issues efficiently in Jira by submitting a summary and description through email or creating an issue directly."
 type: rule
 archivedreason: 
 title: Do you know how to create issues in Jira?

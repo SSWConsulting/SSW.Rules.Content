@@ -1,4 +1,5 @@
 ---
+seoDescription: "Contacting media professionals from time to time can be an effective way to advertise products and services, allowing for easy dissemination of information to a wider audience."
 type: rule
 title: Public Relations - Do you contact the media from time to time?
 uri: contact-the-media-from-time-to-time

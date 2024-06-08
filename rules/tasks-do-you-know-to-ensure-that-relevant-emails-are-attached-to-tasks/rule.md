@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure relevant emails are attached to tasks by designating a scribe who takes notes and screenshots, turns them into multiple emails, and adds them to Azure DevOps. This preserves task history and keeps stakeholders informed of status updates."
 type: rule
 title: Tasks - Do you know to ensure that relevant emails are attached to tasks?
 uri: tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks

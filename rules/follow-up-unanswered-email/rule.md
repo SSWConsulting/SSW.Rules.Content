@@ -1,4 +1,5 @@
 ---
+seoDescription: "Following up on an unanswered email requires a gentle yet persistent approach. Use "(PING)" to initiate a response, and if needed, add context while still keeping the tone friendly."
 type: rule
 archivedreason: 
 title: Do you know how to follow up an unanswered email?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Increase Event Viewer log size to improve security audit and error visibility while minimizing server space usage."
 type: rule
 archivedreason: 
 title: DBAs - Do you increase the Log Size of your Event Viewer?

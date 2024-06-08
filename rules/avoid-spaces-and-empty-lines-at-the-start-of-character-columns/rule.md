@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid spaces and empty lines at the start of character columns by handling whitespace in the middle-tier before it reaches the database."
 type: rule
 archivedreason: 
 title: Data - Do you avoid spaces and empty lines at the start of character columns?

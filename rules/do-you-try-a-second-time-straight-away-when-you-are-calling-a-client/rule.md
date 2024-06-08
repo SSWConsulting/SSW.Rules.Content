@@ -1,4 +1,5 @@
 ---
+seoDescription: "When calling clients, a second attempt straight away increases the chances of a successful connection and provides enough time for them to pick up."
 type: rule
 archivedreason: 
 title: Do you try a second time straight away when you are calling a client?

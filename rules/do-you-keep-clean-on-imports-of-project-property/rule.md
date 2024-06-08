@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep clean on imports of project property by removing default imports that aren't used frequently in your Dot Net code."
 type: rule
 title: Do you keep clean on Imports of Project Property?
 uri: do-you-keep-clean-on-imports-of-project-property

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use SAFe to align multiple Scrum teams and drive unified strategic objectives while ensuring consistent value delivery at scale."
 type: rule
 title: Do you use SAFe to align multiple Scrum teams?
 guid: 7604ea46-58d7-4d57-abad-8ee34d013cbe

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ergonomic setup crucial to prevent injuries and strains while working on your computer for extended periods."
 type: rule
 archivedreason: 
 title: Setup - Do you have an ergonomic setup?

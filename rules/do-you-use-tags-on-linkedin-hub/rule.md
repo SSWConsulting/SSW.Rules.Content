@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve recruitment tracking and reporting on LinkedIn Hub using tags to streamline candidate progress and team activities."
 type: rule
 title: Do you know how to use "Tags" on LinkedIn Hub?
 uri: do-you-use-tags-on-linkedin-hub

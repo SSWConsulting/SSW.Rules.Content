@@ -1,4 +1,5 @@
 ---
+seoDescription: "Preparedness is key to successful Scrum meetings, with daily scrums focused on progress updates and sprint planning, review, and retrospective meetings requiring specific preparation for optimal collaboration."
 type: rule
 title: Scrum Meetings - Do you know what to prepare for each meeting?
 uri: meeting-do-you-know-what-to-prepare-for-each-meeting

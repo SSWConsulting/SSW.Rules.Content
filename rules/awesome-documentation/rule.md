@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you make awesome documentation? Discover how to create a documentation strategy that empowers your team and stakeholders with clarity. Learn from examples of good and bad documentation practices, and get tips on how to make your documentation truly awesome!"
 type: rule
 title: Do you make awesome documentation?
 uri: awesome-documentation

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Regularly auditing your Google Ads account ensures accurate click tracking and prevents overcharging by identifying effective campaigns."
 type: rule
 archivedreason: 
 title: SEM - Do you regularly audit your Google Ads account?

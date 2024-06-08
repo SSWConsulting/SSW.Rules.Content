@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor your budget and track spending consistently to optimize Google Ads campaigns and maximize ROI."
 type: rule
 archivedreason: 
 title: Do you monitor your budget on Google and track your spending consistently?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage recurring tasks efficiently and on time to ensure smooth system operations, utilizing tools like Outlook appointments for periodic reminders."
 type: rule
 archivedreason: 
 title: Efficiency - Do you know the recurring tasks you have to do?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Break down your apps into manageable microservices to achieve scalability, maintainability, and simplified code, while leveraging tools like .NET Worker Services, Azure Container Apps, and Minimal APIs."
 type: rule
 title: Microservices - Do you break down your apps?
 uri: microservices

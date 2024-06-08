@@ -1,4 +1,5 @@
 ---
+seoDescription: "Travelers can now easily identify your location on Twitter by changing your display name to reflect where you are in the world."
 type: rule
 archivedreason: 
 title: Twitter - Do you change your display name when travelling?

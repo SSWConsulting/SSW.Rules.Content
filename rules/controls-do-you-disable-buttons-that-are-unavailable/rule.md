@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for designing disabled buttons emphasize clear visual hierarchy and distinct styling to differentiate them from active buttons."
 type: rule
 archivedreason: 
 title: Controls - Do you disable buttons that are unavailable?

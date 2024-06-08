@@ -1,4 +1,5 @@
 ---
+seoDescription: "Exposing events as events optimizes communication and streamlines programming."
 type: rule
 title: Do you expose events as events?
 uri: expose-events-as-events

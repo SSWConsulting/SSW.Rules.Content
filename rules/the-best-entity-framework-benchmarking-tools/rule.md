@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best .NET benchmarking tools include BenchmarkDotNet, Bombardier, NBomber, and RedLine13, offering memory consumption and timing monitoring, simple CLI load testing, automated load tests, and cost-effective scale for load testing."
 type: rule
 title: Do you know the best benchmarking tools?
 uri: the-best-entity-framework-benchmarking-tools

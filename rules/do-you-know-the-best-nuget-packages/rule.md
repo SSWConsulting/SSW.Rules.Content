@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover top NuGet packages including Glimpse, MiniProfiler, MVCMailer, MvcDonutCaching, and MobileViewEngines for enhanced ASP.NET development."
 type: rule
 archivedreason: 
 title: Do you know the best NuGet Packages ?

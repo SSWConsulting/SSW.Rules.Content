@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate service application databases from SharePoint 2010 to 2013 and ensure seamless integration."
 type: rule
 archivedreason: 
 title: Have you migrated your service application databases

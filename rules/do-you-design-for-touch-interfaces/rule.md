@@ -1,4 +1,5 @@
 ---
+seoDescription: "Designing mobile interfaces that cater to touch screens and varying user experiences is crucial for a seamless user experience."
 type: rule
 archivedreason: 
 title: Do you design for touch interfaces?

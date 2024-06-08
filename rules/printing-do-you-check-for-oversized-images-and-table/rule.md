@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize page readability and printing by limiting images and tables to 800 pixels wide, ensuring a smooth user experience."
 type: rule
 archivedreason: 
 title: Printing - Do you check for oversized images and table?

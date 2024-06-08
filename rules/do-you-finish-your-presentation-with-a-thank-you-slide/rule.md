@@ -1,4 +1,5 @@
 ---
+seoDescription: "Finish presentations with a clear "Thank You" slide to conclude the talk and provide contact details."
 type: rule
 title: Do you finish your presentation with a 'Thank You' slide?
 uri: do-you-finish-your-presentation-with-a-thank-you-slide

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automatically detect and display your web application's language preference to cater to users' diverse linguistic needs."
 type: rule
 archivedreason: 
 title: Do you set your application default language to automatically change to local language?

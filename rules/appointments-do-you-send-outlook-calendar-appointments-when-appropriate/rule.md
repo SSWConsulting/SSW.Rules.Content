@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize meetings with ease by sending Outlook appointments to colleagues and clients, ensuring timely reminders and updates."
 type: rule
 archivedreason: 
 title: Appointments - Do you send Outlook Calendar appointments when appropriate?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Remove orphaned users from SharePoint and prevent permissions issues with ShareGate's easy-to-use solution."
 type: rule
 title: Do you remove orphaned users from SharePoint?
 uri: sharepoint-removing-orphaned-users

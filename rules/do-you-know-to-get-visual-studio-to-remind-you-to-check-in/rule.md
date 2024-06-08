@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automatically check in Visual Studio projects and avoid partial check-ins with these simple settings."
 type: rule
 archivedreason: 
 title: Do you know to get Visual Studio to remind you to check in?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you share your developer secrets securely? Learn how to store and share sensitive information safely, avoiding common pitfalls and implementing best practices for secure development environments."
 type: rule
 archivedreason:
 title: Do you share your developer secrets securely?

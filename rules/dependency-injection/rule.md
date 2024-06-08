@@ -1,4 +1,5 @@
 ---
+seoDescription: "Implementing Dependency Injection effectively separates object creation from usage, increasing flexibility and testability while reducing coupling."
 type: rule
 archivedreason: 
 title: Do you use the Dependency Injection design pattern?

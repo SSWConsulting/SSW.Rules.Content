@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have templates for your PBIs and Bugs? Learn how to ensure clean and detailed steps to reproduce a bug in Azure DevOps by setting up custom work item templates."
 type: rule
 title: Do you have templates for your PBIs and Bugs?
 uri: do-you-have-templates-for-your-pbis-and-bugs

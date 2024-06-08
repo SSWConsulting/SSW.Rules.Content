@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create custom alerts to streamline database administration and stay informed about key exceptions."
 type: rule
 archivedreason: 
 title: DBAs - Do you create your own alerts?

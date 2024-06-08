@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test regular expressions to ensure future changes don't break existing requirements."
 type: rule
 title: Do you test your regular expressions?
 uri: test-regular-expressions

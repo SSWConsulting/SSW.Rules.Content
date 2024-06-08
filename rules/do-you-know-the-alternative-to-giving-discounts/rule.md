@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know the alternative to giving discounts? Instead of offering a discount, provide something of value that benefits both parties."
 type: rule
 archivedreason: 
 title: Do you know the alternative to giving discounts?

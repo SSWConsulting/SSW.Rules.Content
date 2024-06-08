@@ -1,4 +1,5 @@
 ---
+seoDescription: "Don't miss out on these hidden details on your boarding pass! Discover how to unlock valuable information like PRN reference numbers and more."
 type: rule
 archivedreason: 
 title: Do you check your boarding pass?

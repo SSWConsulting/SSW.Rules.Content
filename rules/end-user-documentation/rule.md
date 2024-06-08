@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you produce the best End-User Documentation?"
 type: rule
 archivedreason: 
 title: Do you produce the best End-User Documentation?

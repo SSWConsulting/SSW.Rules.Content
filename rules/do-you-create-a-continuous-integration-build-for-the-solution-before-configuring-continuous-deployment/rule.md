@@ -1,4 +1,5 @@
 ---
+seoDescription: "Before configuring continuous deployment, ensure your solution compiles by creating a continuous integration build that verifies code quality."
 type: rule
 archivedreason: 
 title: Do you create a Continuous Integration Build for the Solution?

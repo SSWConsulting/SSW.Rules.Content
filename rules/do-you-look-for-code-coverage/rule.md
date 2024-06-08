@@ -1,4 +1,5 @@
 ---
+seoDescription: "Code coverage analysis helps measure test effectiveness, but prioritize quality over quantity and focus on fragile code."
 type: rule
 title: Do you look for Code Coverage?
 uri: do-you-look-for-code-coverage

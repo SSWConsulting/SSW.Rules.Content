@@ -1,4 +1,5 @@
 ---
+seoDescription: "SharePoint developers can leverage CAML or object model to manage lists and site collections, with CAML ideal for querying and filtering elements across multiple lists."
 type: rule
 archivedreason: 
 title: Do you know when to use CAML instead of object model?

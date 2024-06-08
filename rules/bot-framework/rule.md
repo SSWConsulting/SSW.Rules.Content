@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best bot framework for your organization and create engaging chatbots with seamless integration into Microsoft products."
 type: rule
 title: Do you use the best bot framework?
 uri: bot-framework

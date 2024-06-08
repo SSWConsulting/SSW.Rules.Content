@@ -1,4 +1,5 @@
 ---
+seoDescription: "When designing custom applications, it's essential to include a useful and informative footer at the bottom of reports. A well-crafted footer should provide crucial details like date and time printed, execution time, page numbers, and links to company websites."
 type: rule
 title: Layout - Do you include useful information on the footer of reports?
 uri: reports-footer

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to effectively use hashtags on social media platforms like Twitter, Facebook, and more. Learn best practices for leveraging hashtags, including tips for companies and individuals, to increase visibility and engagement."
 type: rule
 title: Do you use and encourage others to use hashtags?
 uri: use-hashtags

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Perfectly fix bugs by including current status, investigation, and solution in your email replies, ensuring efficient communication with clients."
 type: rule
 archivedreason: 
 title: Dones - Do you know how to do a perfect 'Done' (replying to a bug)?

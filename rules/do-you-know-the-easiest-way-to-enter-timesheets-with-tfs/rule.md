@@ -1,4 +1,5 @@
 ---
+seoDescription: "Easily track and log work hours with TFS using Project Server 2013's integrated timesheet feature."
 type: rule
 archivedreason: 
 title: Do you know the easiest way to enter timesheets with TFS?

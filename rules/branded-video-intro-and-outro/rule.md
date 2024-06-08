@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance your video's brand recognition with a custom intro and outro featuring your company logo and tagline."
 type: rule
 archivedreason: 
 title: Post-Production - Do you have a branded intro and outro in your videos?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Never rebase master onto a feature branch to avoid confusing project history and ensuring clean collaboration."
 type: rule
 archivedreason: 
 title: Do you know The Golden Rule of Rebasing?

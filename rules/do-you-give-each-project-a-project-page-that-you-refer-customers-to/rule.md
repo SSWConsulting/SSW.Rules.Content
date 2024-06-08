@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize project details and facilitate collaboration between team members and clients with a dedicated project page."
 type: rule
 archivedreason: Outdated - We use Microsoft Teams now
 title: Do you give each project a project page (that you refer customers to)?

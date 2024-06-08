@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid materializing large IEnumerables to prevent memory and CPU issues, instead iterate through them directly."
 type: rule
 title: Do you avoid materializing an IEnumerable?
 uri: avoid-materializing-an-ienumerable

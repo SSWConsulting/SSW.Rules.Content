@@ -1,4 +1,5 @@
 ---
+seoDescription: "Visual Studio extension Web Essentials boosts web development productivity and integrates its features into Visual Studio."
 type: rule
 archivedreason: Outdated
 title: Do you use Web Essentials?

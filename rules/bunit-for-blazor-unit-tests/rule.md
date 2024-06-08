@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use bUnit to write robust unit tests for Blazor components and ensure reliable behavior when interacting with user interfaces."
 type: rule
 archivedreason:
 title: Do you use bUnit for unit tests in Blazor?

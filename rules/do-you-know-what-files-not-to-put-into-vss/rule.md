@@ -1,4 +1,5 @@
 ---
+seoDescription: "Source control best practices advise against storing specific files like SCC, VSPSCC, pdb, and user settings in Visual Studio to maintain integrity."
 type: rule
 archivedreason: 
 title: Do you know what files not to put into VSS?

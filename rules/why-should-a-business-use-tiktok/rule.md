@@ -1,4 +1,5 @@
 ---
+seoDescription: "Why should a business use TikTok? Discover the benefits of leveraging over 1 billion active users, maximizing creativity, and targeting a unique audience with our guide."
 type: rule
 title: TikTok - Do you know why a business should use TikTok?
 uri: why-should-a-business-use-tiktok

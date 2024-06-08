@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers can use various tools and techniques to create co-authored commits, a testament to teamwork and shared responsibility. From Visual Studio Live Share and Git Mob Extension to GitHub Desktop and the Git CLI, there are multiple ways to achieve this."
 type: rule
 title: Do you use Co-Authored Commits?
 uri: co-authored-commits

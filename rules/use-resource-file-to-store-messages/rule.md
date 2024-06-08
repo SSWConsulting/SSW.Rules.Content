@@ -1,4 +1,5 @@
 ---
+seoDescription: "Storing messages in a resource file allows for easy reusability and strong typing with IntelliSense in Visual Studio. This approach also enables better organization of constant values, making it easier to maintain and update your code."
 type: rule
 title: Do you use resource file to store messages?
 uri: use-resource-file-to-store-messages

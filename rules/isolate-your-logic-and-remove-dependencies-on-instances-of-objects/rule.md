@@ -1,4 +1,5 @@
 ---
+seoDescription: "Isolate complex logic evaluations and remove dependencies on instances of objects to improve testability and maintainability."
 type: rule
 title: Do you isolate your logic and remove dependencies on instances of objects?
 uri: isolate-your-logic-and-remove-dependencies-on-instances-of-objects

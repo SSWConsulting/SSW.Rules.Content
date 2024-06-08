@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure maximum infrastructure performance before testing your application to avoid common issues caused by misconfiguration or resource contention."
 type: rule
 archivedreason: 
 title: Do you stress tests your infrastructure before testing your application?

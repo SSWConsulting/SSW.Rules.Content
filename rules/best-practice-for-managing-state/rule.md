@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for managing state in applications involve using the Redux pattern, which ensures a single source of truth and provides predictable behavior."
 type: rule
 title: Do you know the best practice for managing state?
 uri: best-practice-for-managing-state

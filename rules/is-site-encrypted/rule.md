@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check if a website's connection is encrypted by looking for the padlock symbol and ensuring the address starts with https://, not http://."
 type: rule
 title: Do you know how to tell if a website is encrypted?
 uri: is-site-encrypted

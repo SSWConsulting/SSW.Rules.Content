@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to effectively use non-standard fonts on your website, exploring various methods including display as an image, sIFR, font stacking, Google Fonts, self-hosting, and Webfont services."
 type: rule
 archivedreason: 
 title: Do you know how to effectively use non-standard font on your website?

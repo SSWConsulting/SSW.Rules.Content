@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to set up a Vue.js project quickly and easily with create-vue, the official tool for scaffolding a Vue.js project, or use Vue CLI, although it's no longer recommended for new projects."
 type: rule
 title: Do you know how to set up a Vue.js project?
 uri: set-up-vue-project

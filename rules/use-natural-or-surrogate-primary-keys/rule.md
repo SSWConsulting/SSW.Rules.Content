@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schema: Do you use Natural or Surrogate primary keys?"
 type: rule
 archivedreason: 
 title: Schema - Do you use Natural or Surrogate primary keys?

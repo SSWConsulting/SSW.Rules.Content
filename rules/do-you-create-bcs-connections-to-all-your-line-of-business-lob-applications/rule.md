@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline your business processes by creating Business Connectivity Services (BCS) connections to all your line of business applications."
 type: rule
 archivedreason: 
 title: Do you create BCS connections to all your line of business (LOB) applications?

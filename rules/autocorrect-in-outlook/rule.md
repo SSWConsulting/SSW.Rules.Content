@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Autocorrect to streamline your workflow and save time by inserting URLs with simple shortcuts."
 type: rule
 title: Do you use Autocorrect in Outlook to insert links?
 uri: autocorrect-in-outlook

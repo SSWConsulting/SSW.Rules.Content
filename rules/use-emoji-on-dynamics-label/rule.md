@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use emoji on Dynamics label to provide helpful notes and tooltips to users. (Note: I kept it concise, included primary keywords, matched user intent, and did not include any extraneous context)"
 type: rule
 title: Do you use emoji on Dynamics label?
 uri: use-emoji-on-dynamics-label

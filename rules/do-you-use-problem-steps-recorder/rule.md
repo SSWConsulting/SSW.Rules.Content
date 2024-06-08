@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Problem Steps Recorder to capture bug details and reproduce issues on your Windows PC with ease."
 type: rule
 archivedreason: 
 title: Do you use Problem Steps Recorder?

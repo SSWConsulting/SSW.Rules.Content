@@ -1,4 +1,5 @@
 ---
+seoDescription: "Compare AI models ChatGPT and GPT to enhance your productivity and automation capabilities."
 type: rule
 title: When should you use ChatGPT vs GPT?
 uri: chatgpt-vs-gpt

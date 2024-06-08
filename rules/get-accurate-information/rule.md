@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get accurate information from clients during a Spec Review by understanding their process, creating mockups or diagrams, considering prototypes, recording reviews, and using Journey Maps to highlight key decisions."
 type: rule
 title: Do you know how to get accurate information from clients?
 uri: get-accurate-information

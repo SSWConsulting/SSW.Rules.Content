@@ -1,4 +1,5 @@
 ---
+seoDescription: "Data Layout - Use expressions to show the correct scale on charts, ensuring accurate visualization of data in Reporting Services 2005."
 type: rule
 archivedreason:
 title: Data Layout - Do you use expressions to show the correct scale on charts?

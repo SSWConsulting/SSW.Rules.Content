@@ -1,4 +1,5 @@
 ---
+seoDescription: "Design a user-friendly search system that simplifies data retrieval and enhances overall application usability by prioritizing clarity, simplicity, and adaptability."
 type: rule
 title: Do you know how to design a user friendly search system?
 uri: do-you-know-how-to-design-a-user-friendly-search-system

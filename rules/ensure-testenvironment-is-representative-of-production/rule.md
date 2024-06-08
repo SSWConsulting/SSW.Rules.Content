@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a representative test environment that mirrors production to avoid surprises and optimize performance."
 type: rule
 title: Do you ensure your Test environment is representative of Production?
 uri: ensure-testenvironment-is-representative-of-production

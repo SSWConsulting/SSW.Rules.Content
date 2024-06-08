@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate your sign-in process and save time with a 'Stay signed in' checkbox."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Sign me in automatically' checkbox?

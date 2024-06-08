@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you always propose all available options?"
 type: rule
 archivedreason: 
 title: Do you always propose all available options?

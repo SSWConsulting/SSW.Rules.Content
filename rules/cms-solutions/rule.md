@@ -1,4 +1,5 @@
 ---
+seoDescription: "Kontent vs Contentful: Which Headless CMS Reigns Supreme? Best-in-class headless CMS Kontent offers unparalleled flexibility and customization options for seamless website integration, whereas Contentful provides a more limited but still robust experience."
 type: rule
 title: Do you know the best CMS solutions for websites?
 uri: cms-solutions

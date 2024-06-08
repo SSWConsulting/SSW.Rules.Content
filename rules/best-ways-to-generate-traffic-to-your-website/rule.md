@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover effective ways to drive traffic to your website through linkable pages, blog posts, videos, social media sharing, and collaborative linking."
 type: rule
 archivedreason: 
 title: Do you know the best ways to generate traffic to your website?

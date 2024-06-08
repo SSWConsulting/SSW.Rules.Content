@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use +1 when you agree or support someone's suggestion or idea on a thread to show your endorsement and encourage others to do the same."
 type: rule
 archivedreason: 
 title: Do you use +1 when you agree?

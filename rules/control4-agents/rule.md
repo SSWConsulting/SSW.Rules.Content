@@ -1,4 +1,5 @@
 ---
+seoDescription: "Control4 Agents enable smart home automation and customization, streamlining daily routines with advanced lighting, scheduling, communication, and more."
 type: rule
 title: Do you know what Agents are in Control4?
 uri: control4-agents

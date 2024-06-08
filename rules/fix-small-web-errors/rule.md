@@ -1,4 +1,5 @@
 ---
+seoDescription: "Quickly fix small web errors and improve efficiency by correcting typos and mistakes immediately, without logging a PBI or sending an email to yourself."
 type: rule
 archivedreason: 
 title: Efficiency - Do you know the quickest way to fix small web errors?

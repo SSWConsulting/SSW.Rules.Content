@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enforce work item association with check-in to link code changes to user requirements and ensure end-to-end traceability in your TFS project."
 type: rule
 archivedreason: 
 title: Do you enforce work item association with check-in?

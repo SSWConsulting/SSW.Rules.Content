@@ -1,4 +1,5 @@
 ---
+seoDescription: "Increase Exchange Online's default message size limit to accommodate larger file sharing and attachments."
 type: rule
 title: Do you change message size restrictions in Exchange Online?
 uri: change-message-size-restrictions-exchange-online

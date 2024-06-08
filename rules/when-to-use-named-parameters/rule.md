@@ -1,4 +1,5 @@
 ---
+seoDescription: "Named parameters make sense when there are multiple options, offering flexibility and clarity in your code."
 type: rule
 archivedreason: 
 title: Do you know when to use named parameters?

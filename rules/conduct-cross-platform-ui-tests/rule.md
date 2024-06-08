@@ -1,4 +1,5 @@
 ---
+seoDescription: "Conducting cross-platform UI tests for .NET MAUI applications with Appium and NUnit."
 type: rule
 title: Testing - Do you conduct cross-platform UI Tests?
 guid: 8949d1b5-ff9d-4ffc-be57-87976af5b7c3

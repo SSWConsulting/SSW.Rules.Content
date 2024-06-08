@@ -1,4 +1,5 @@
 ---
+seoDescription: "Encourage engagement and discussion by asking thought-provoking questions at the end of your blog post."
 type: rule
 archivedreason: 
 title: Do you know how to encourage blog comments?

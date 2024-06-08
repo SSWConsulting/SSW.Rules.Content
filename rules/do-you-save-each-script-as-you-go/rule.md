@@ -1,4 +1,5 @@
 ---
+seoDescription: "Save each script as you go, ensuring a stable database system through change control and versioning."
 type: rule
 title: Do you save each script as you go?
 uri: do-you-save-each-script-as-you-go

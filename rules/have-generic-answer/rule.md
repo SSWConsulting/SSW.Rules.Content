@@ -1,4 +1,5 @@
 ---
+seoDescription: "If we don't have a specific answer to your question, it's okay! You can try searching online for more information or asking someone with more expertise. Additionally, our bot can provide some relevant keywords and phrases to help you find what you're looking for."
 type: rule
 title: Do you have generic answers?
 uri: have-generic-answer

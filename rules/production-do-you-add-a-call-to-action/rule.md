@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost video engagement and conversions by including a clear call-to-action (CTA) that prompts viewers to take a specific action."
 type: rule
 title: Production - Do you have a call to action (aka CTA)?
 uri: production-do-you-add-a-call-to-action

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Import SharePoint solutions without original installer using stsadm command to add customizations and packages to new server."
 type: rule
 archivedreason: 
 title: Import Method - Do you know how to import a solution if you don’t have the original installer? (optional)

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid adding unnecessary code blocks to your .NET projects by commenting out empty Visual C# methods and interfaces."
 type: rule
 archivedreason: 
 title: Do you avoid Empty code blocks?

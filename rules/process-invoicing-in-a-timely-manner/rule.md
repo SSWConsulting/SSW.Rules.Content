@@ -1,4 +1,5 @@
 ---
+seoDescription: "Process invoicing weekly to avoid miscommunication and ensure accurate accounting for clients."
 type: rule
 archivedreason: 
 title: Do you do invoicing in a timely manner (i.e. once a week)?

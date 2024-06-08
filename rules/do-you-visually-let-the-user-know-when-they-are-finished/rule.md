@@ -1,4 +1,5 @@
 ---
+seoDescription: "Visual indications on the last page of a wizard help users confirm completion, enhancing their experience."
 type: rule
 archivedreason: 
 title: Do you visually let the user know when they are finished?

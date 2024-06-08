@@ -1,4 +1,5 @@
 ---
+seoDescription: "Easy-to-digest charts and graphs that simplify complex data for your audience."
 type: rule
 archivedreason: 
 title: Charts - Do you make graphs easy to digest?

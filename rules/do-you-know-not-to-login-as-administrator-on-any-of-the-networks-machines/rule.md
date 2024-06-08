@@ -1,4 +1,5 @@
 ---
+seoDescription: "Log in securely using your own domain account to avoid unauthorized access and maintain transparency on network machines."
 type: rule
 archivedreason: 
 title: Do you know not to login as Administrator on any of the networks machines?

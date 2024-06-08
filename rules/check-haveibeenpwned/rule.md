@@ -1,4 +1,5 @@
 ---
+seoDescription: "Regularly check haveibeenpwned to protect your online identity and ensure compromised passwords are updated."
 type: rule
 title: Do you regularly check haveibeenpwned?
 uri: check-haveibeenpwned

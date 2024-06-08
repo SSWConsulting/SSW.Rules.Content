@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering website layouts through presentation templates enables consistent design across similar pages, streamlining user experience and enhancing overall brand identity."
 type: rule
 archivedreason: 
 title: Do you have a master template for your website layouts?

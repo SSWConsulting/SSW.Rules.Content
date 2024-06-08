@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate application deployment to multiple environments and run tests before deploying to production with GitHub actions or Azure DevOps."
 type: rule
 archivedreason:
 title: 'DevOps – Stage 2: Do you know what things to automate?'

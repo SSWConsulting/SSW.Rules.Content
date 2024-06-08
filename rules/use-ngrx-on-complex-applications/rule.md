@@ -1,4 +1,5 @@
 ---
+seoDescription: "Practices - Do you know to use NgRx on complex applications? NgRx helps manage complexity by storing state and handling side effects. Perfect for large-scale projects like shopping carts where multiple components need to stay in sync."
 type: rule
 archivedreason: 
 title: Practices - Do you know to use NgRx on complex applications?

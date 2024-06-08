@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find an employee's phone number quickly and easily using Skype for Business or Dynamics CRM at SSW."
 type: rule
 archivedreason: Replaced by SugarLearning item https://my.sugarlearning.com/SSW/items/12987/find-an-employees-phone-number
 title: Do you know how to find an employee or client's phone number?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost team performance by recognizing and addressing the five interrelated issues that undermine teamwork: absence of trust, fear of conflict, lack of commitment, avoidance of accountability, and inattention to results."
 type: rule
 archivedreason: 
 title: Teamwork - Do you know the 5 dysfunctions of a team?

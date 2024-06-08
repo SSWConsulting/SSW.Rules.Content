@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize group header styling in lists to enhance visual hierarchy and improve user experience, particularly when dealing with multi-level groups."
 type: rule
 archivedreason: 
 title: Do you customize group header styling in lists?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Azure certifications offer a range of training options to learn new skills, fill technical gaps and boost productivity."
 type: rule
 title: Do you know the relevant Azure certifications and associated exams?
 uri: azure-certifications-and-associated-exams

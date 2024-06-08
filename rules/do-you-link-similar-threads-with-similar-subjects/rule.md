@@ -1,4 +1,5 @@
 ---
+seoDescription: "Linking similar email threads on similar subjects helps organize and streamline communication."
 type: rule
 archivedreason: 
 title: Do you link similar threads with similar subjects?

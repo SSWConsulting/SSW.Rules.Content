@@ -1,4 +1,5 @@
 ---
+seoDescription: "After SharePoint migration, complete the process by configuring custom search scopes, removing on-premise permissions, and communicating changes to users."
 type: rule
 archivedreason: 
 title: Do you know what to do after migration?

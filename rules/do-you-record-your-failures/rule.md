@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you record your failures? Recording every attempt, even if it doesn't yield the desired results, helps prove R&D efforts and provides valuable experimentation history."
 type: rule
 archivedreason: 
 title: Do you record your failures?

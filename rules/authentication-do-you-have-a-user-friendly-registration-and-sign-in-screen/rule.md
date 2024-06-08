@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a user-friendly registration and sign-in process by combining forms on the same page, utilizing submit buttons instead of links, and providing clear navigation options."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a user friendly registration and sign in screen?

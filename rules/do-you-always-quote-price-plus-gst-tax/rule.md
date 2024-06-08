@@ -1,4 +1,5 @@
 ---
+seoDescription: "Quote prices plus GST (tax) to avoid confusion and ensure transparency."
 type: rule
 title: Do you always quote price plus GST (Tax)?
 uri: do-you-always-quote-price-plus-gst-tax

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Live migration and cluster traffic require a separate network from iSCSI or SAN traffic for optimal performance."
 type: rule
 archivedreason: 
 title: Do you know how to specify a Network for Live Migration?

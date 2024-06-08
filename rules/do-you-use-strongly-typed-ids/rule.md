@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers can avoid Primitive Obsession by using Strongly Typed IDs, which provide a clear representation of domain entity identifiers."
 type: rule
 title: Do you use Strongly Typed IDs to avoid Primitive Obsession
 guid: 7955fe7c-fdef-41e1-a4e6-6ccf8ae1c0eb

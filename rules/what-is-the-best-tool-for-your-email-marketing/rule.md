@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best email marketing tool for your company's unique needs and requirements."
 type: rule
 archivedreason: 
 title: Do you know what is the best tool for your email marketing?

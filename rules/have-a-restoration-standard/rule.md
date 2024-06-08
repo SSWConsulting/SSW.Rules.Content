@@ -1,4 +1,5 @@
 ---
+seoDescription: "Have a comprehensive restore standard to simplify backup and restoration processes, ensuring a smooth recovery from system failures."
 type: rule
 archivedreason: 
 title: Backup - Do you have a Restoration Standard?

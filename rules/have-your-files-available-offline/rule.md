@@ -1,4 +1,5 @@
 ---
+seoDescription: "Access files offline with "Always keep on this device" enabled."
 type: rule
 title: PC - Do you have your files available offline?
 uri: have-your-files-available-offline

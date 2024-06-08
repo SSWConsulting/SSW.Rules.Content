@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a comprehensive deployment plan to ensure smooth updates and rollbacks, including step-by-step instructions for deploying from scratch, updating versions, rolling back, and updating schema or data."
 type: rule
 archivedreason: 
 title: Do you have a deployment plan?

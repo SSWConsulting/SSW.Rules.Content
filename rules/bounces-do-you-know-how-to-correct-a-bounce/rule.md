@@ -1,4 +1,5 @@
 ---
+seoDescription: "Correcting email bounces requires verifying recipient addresses and resending messages with accurate information to ensure successful delivery."
 type: rule
 archivedreason: 
 title: Do you know how to correct an email bounce?

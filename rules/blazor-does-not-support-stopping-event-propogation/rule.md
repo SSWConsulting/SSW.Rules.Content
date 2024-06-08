@@ -1,4 +1,5 @@
 ---
+seoDescription: "Blazor doesn't support stopping event propagation, making it difficult to prevent unwanted events from triggering."
 type: rule
 title: Do you know Blazor doesn't support stopping event propagation?
 uri: blazor-does-not-support-stopping-event-propogation

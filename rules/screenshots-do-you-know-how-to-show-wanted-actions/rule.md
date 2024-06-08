@@ -1,4 +1,5 @@
 ---
+seoDescription: "Show desired actions on a screenshot by using Snagit's yellow highlighting for entering data, square boxes for clicking buttons, and arrows to point out important details."
 type: rule
 archivedreason: Please follow [https://www.ssw.com.au/rules/screenshots-add-branding](/rules/screenshots-add-branding)
 title: Screenshots - Do you know how to show wanted actions?

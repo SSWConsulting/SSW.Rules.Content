@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you make sure Sprint Reviews are "tick and flick"? Ensure efficient Sprint Reviews with better communication between developers and Product Owners."
 type: rule
 title: Do you make sure Sprint Reviews are "tick and flick"?
 uri: tick-and-flick

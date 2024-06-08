@@ -1,4 +1,5 @@
 ---
+seoDescription: "DotNetNuke pros and cons - a comprehensive guide to its benefits and limitations as the largest open source .NET CMS."
 type: rule
 title: Do you know the pros and cons of DotNetNuke?
 uri: pros-and-cons-of-dotnetnuke

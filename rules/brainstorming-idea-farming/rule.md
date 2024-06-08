@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to effectively farm brainstorming ideas by gathering high-quality concepts in advance, leveraging GitHub Discussions and structured templates for a successful and streamlined Brainstorming Day."
 type: rule
 title: Pre event - Do you know how to farm Brainstorming ideas?
 uri: brainstorming-idea-farming

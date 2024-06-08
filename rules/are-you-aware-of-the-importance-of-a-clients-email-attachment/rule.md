@@ -1,4 +1,5 @@
 ---
+seoDescription: "Including clients' email attachments in replies preserves history and provides clear context for issue resolution."
 type: rule
 title: Do you include clients' email attachments in your replies?
 uri: are-you-aware-of-the-importance-of-a-clients-email-attachment

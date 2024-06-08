@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your website displays correctly across multiple browsers, including Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. Focus on Chrome and Firefox, as they are most widely used, but also test in Edge and Safari to catch any compatibility issues."
 type: rule
 archivedreason: 
 title: Do you check your website is multi-browser compatible?

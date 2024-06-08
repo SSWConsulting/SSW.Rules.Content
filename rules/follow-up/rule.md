@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow up with attendees after events to reinforce connections and provide valuable resources."
 type: rule
 archivedreason: 
 title: Do you follow up with your attendees after events?

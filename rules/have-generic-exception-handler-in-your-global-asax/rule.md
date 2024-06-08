@@ -1,4 +1,5 @@
 ---
+seoDescription: "Handle exceptions in your ASP.NET application effectively with a generic exception handler in Global.asax, ensuring unhandled errors are logged and notified."
 type: rule
 title: Do you have generic exception handler in your Global.asax?
 uri: have-generic-exception-handler-in-your-global-asax

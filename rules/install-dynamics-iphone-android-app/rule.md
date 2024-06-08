@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance your Dynamics 365 experience on-the-go with our iPhone/Android app, streamlining sales, marketing, and customer service efforts."
 type: rule
 archivedreason: 
 title: Do you install the Dynamics 365 iPhone/Android app?

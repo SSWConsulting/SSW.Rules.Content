@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ephemeral environments provide isolated and repeatable workspaces for testing, development, and demonstrations, ensuring clean and efficient workflows."
 type: rule
 title: Do you use Ephemeral environments for clean and isolated testing?
 uri: ephemeral-environments

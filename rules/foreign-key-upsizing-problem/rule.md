@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid multiple foreign key relationships on tables that map to fields of a different name, as it can lead to upsizing issues and complications."
 type: rule
 archivedreason: 
 title: Do you have multiple key foreign key relationships on tables that map to fields of a different name (Upsizing Problem)?

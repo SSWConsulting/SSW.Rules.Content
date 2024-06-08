@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate TFS 2010 smoothly by backing up your databases to ensure a safe transition."
 type: rule
 archivedreason: 
 title: Do you backup your databases for TFS 2010 migration?

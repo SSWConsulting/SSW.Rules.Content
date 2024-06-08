@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrating to the cloud requires careful planning to ensure a seamless transition with minimal downtime and data loss."
 type: rule
 archivedreason: 
 title: Do you know all steps required when migrating to the Cloud?

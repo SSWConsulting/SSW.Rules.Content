@@ -1,4 +1,5 @@
 ---
+seoDescription: "How LINQ has evolved: A brief history of language integrated query in .NET from ArrayLists to IQueryable<T>."
 type: rule
 title: Do you know how LINQ has evolved?
 uri: how-linq-has-evolved

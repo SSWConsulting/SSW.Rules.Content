@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test-driven development ensures bug fixes are reliable and maintainable by creating a test case for every bug fix."
 type: rule
 archivedreason: 
 title: Do you know to always create a test if you are fixing a bug?

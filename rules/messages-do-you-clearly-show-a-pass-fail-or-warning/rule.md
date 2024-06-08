@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clear test results with green tick, red cross or yellow/orange exclamation mark for quick feedback."
 type: rule
 archivedreason: 
 title: Messages - Do you clearly show a pass, fail or warning?

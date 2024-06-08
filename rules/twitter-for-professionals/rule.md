@@ -1,4 +1,5 @@
 ---
+seoDescription: "Unlock the full potential of your Twitter account for business and monetize your presence with Twitter for Professionals."
 type: rule
 title: Twitter - do you use Twitter for Professionals for business accounts?
 uri: twitter-for-professionals

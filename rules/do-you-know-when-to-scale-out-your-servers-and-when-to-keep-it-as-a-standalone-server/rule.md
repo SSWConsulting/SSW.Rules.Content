@@ -1,4 +1,5 @@
 ---
+seoDescription: "Scale servers effectively by using virtualized standalone servers for isolated performance and easy backup, or scale out for optimized processing and separate functionality."
 type: rule
 archivedreason: 
 title: Do you know when to scale out your servers and when to keep it as a standalone server?

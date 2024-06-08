@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use TreeView control instead of XML control to represent hierarchical data and simplify customization with special properties."
 type: rule
 title: Do you use TreeView control instead of XML control?
 uri: do-you-use-treeview-control-instead-of-xml-control

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover who's in your audience and tailor your presentation for maximum impact by asking a few revealing slides."
 type: rule
 title: Do you have a few slides to find out a little bit about who is in your
   audience?

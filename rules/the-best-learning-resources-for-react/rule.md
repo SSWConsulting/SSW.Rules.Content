@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best learning resources for React, including free tutorials, courses, and books to help you master the JavaScript library."
 type: rule
 title: Do you know the best learning resources for React?
 uri: the-best-learning-resources-for-react

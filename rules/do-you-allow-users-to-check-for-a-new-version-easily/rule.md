@@ -1,4 +1,5 @@
 ---
+seoDescription: "Allowing users to easily check for new versions and download updates can enhance their experience with your application."
 type: rule
 archivedreason: 
 title: Do you allow users to check for a new version easily?

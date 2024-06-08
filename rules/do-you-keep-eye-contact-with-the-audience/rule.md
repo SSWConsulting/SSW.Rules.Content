@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintaining eye contact with your audience boosts engagement and attention during presentations, ensuring a successful outcome."
 type: rule
 archivedreason: 
 title: Do you keep eye contact with the audience?

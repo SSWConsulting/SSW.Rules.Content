@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to use dynamic imports in Next.js to optimize your web app's performance by lazy loading large components when needed."
 type: rule
 archivedreason: 
 title: Do you know when to use dynamic imports in Next.js?

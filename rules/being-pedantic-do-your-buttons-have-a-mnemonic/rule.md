@@ -1,4 +1,5 @@
 ---
+seoDescription: "Pedantic approach to button design improves user experience and accessibility by providing mnemonics for easy navigation."
 type: rule
 archivedreason: 
 title: Being Pedantic - Do your buttons have a mnemonic?

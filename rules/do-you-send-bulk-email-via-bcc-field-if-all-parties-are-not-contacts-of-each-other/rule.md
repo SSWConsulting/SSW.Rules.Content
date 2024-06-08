@@ -1,4 +1,5 @@
 ---
+seoDescription: "Send bulk emails via Bcc field to ensure privacy and protect recipients' email addresses from being shared."
 type: rule
 archivedreason: 
 title: Do you send bulk email via 'Bcc' field if all parties are not contacts of each other?

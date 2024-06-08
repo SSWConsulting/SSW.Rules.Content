@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you Disable AD Users rather than Deleting for better CRM Reporting?"
 type: rule
 title: Do you Disable AD Users rather than Deleting for better CRM Reporting?
 uri: disable-users-rather-than-deleting-for-better-crm-reporting

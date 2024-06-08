@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use the Common Data Service connector instead of Dynamics 365 when creating Flows to ensure compatibility and scalability."
 type: rule
 archivedreason: 
 title: Do you use the Common Data Service connector instead of the Dynamics 365 connector when using flows?

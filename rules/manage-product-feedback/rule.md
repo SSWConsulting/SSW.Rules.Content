@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective product feedback management requires a robust platform that integrates seamlessly with your development workflow. GitHub emerges as a superior choice for modern software development, offering transparent and collaborative tools to turn user suggestions into actionable items."
 type: rule
 title: Do you know the best way to manage product feedback?
 uri: manage-product-feedback

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Using an icon to indicate menu items with submenus helps users navigate efficiently and avoid unexpected surprises."
 type: rule
 archivedreason: 
 title: Do you indicate menu items that have a sub menu?

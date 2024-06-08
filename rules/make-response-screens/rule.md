@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Access - Boost Screen Responsiveness by Fetching Fewer Records and Filling Drop-Down Lists on Demand."
 type: rule
 archivedreason: 
 title: Microsoft Access - Do you make response screens? 

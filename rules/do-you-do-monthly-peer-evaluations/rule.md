@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve team productivity and working environment through regular peer evaluations, fostering constructive feedback and growth."
 type: rule
 archivedreason: This has been replaced by Scrum retrospectives and Microsoft Forms surveys
 title: Do you do monthly peer evaluations?

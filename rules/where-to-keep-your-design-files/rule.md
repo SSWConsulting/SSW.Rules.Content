@@ -1,4 +1,5 @@
 ---
+seoDescription: "Design files stored incorrectly can lead to version control issues and collaboration challenges."
 type: rule
 archivedreason: 
 title: Do you know where to keep your design files?

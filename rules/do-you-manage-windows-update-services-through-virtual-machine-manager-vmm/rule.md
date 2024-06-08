@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage Windows Update Services through Virtual Machine Manager (VMM) to streamline update management and reduce administrative burdens."
 type: rule
 archivedreason: 
 title: Do you manage Windows Update Services through Virtual Machine manager (VMM)?

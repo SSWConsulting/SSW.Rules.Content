@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test your interface to ensure user-friendly design and optimal usability."
 type: rule
 archivedreason: 
 title: Do you know the importance of testing your interface?

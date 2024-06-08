@@ -1,4 +1,5 @@
 ---
+seoDescription: "As online shoppers, sharing our experiences can shape a world of great user interfaces and influence purchasing decisions."
 type: rule
 archivedreason: 
 title: Do you purchase online as your 1st option, think of your experience, and have a voice?

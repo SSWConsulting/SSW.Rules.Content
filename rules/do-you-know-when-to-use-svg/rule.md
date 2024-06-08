@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to use SVG? Use SVG format for line art graphics and well-defined shapes, such as logos, vector illustrations, and more, for high-quality and resolution-preserved results."
 type: rule
 archivedreason: 
 title: Do you know when to use SVG?

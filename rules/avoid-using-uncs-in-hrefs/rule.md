@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using UNC paths (Uniform Naming Conventions) in HREFs as it can cause issues when pages are uploaded to the web."
 type: rule
 archivedreason: 
 title: Do you avoid using UNCs in HREFs?

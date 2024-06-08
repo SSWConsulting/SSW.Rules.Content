@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize internal emails by referencing the template used with a clear footer stating the rule followed."
 type: rule
 archivedreason: This is a duplicate of [https://www.ssw.com.au/rules/do-you-link-internal-emails-to-the-rule-they-follow](/rules/do-you-link-internal-emails-to-the-rule-they-follow)
 title: Do you reference which email template you are using?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Offer positive feedback and give credit to recognize success and motivate team members."
 type: rule
 archivedreason: 
 title: Do you offer positive feedback and give credit?

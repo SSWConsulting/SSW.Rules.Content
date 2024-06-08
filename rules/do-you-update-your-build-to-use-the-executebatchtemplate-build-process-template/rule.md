@@ -1,4 +1,5 @@
 ---
+seoDescription: "Update your build process template to ExecuteBatchTemplate and streamline your workflow."
 type: rule
 archivedreason: 
 title: Do you update your Build to use the ExecuteBatchTemplate Build Process Template?

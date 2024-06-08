@@ -1,4 +1,5 @@
 ---
+seoDescription: "Master the art of capitalizing tech terms correctly to boost your credibility and professionalism in the industry."
 type: rule
 archivedreason: null
 title: Do you know to capitalize tech terms correctly?

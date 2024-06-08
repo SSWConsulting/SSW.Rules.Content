@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize your Qantas flight upgrade chances by checking if your Economy class booking is eligible for a "Bid Now" upgrade within 7 days of flying."
 type: rule
 archivedreason: 
 title: Do you check if your Qantas flight is eligible for a "Bid Now" upgrade?

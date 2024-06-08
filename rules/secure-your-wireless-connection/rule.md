@@ -1,4 +1,5 @@
 ---
+seoDescription: "Secure your wireless connection and prevent unauthorized access to your office network with WPA2-Enterprise authentication using Radius servers and Active Directory."
 type: rule
 title: Wireless - Do you secure your wireless connection?
 uri: secure-your-wireless-connection

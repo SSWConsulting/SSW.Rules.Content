@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a private NuGet repository to share reusable internal code and boost collaboration across multiple solutions."
 type: rule
 archivedreason: 
 title: Do you create a private repository for reusable internal code?

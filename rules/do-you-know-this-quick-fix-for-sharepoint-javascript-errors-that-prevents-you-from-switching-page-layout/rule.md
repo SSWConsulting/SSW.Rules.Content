@@ -1,4 +1,5 @@
 ---
+seoDescription: "Quickly resolve SharePoint JavaScript errors preventing page layout switching by restricting valid layouts and fixing broken packages."
 type: rule
 archivedreason: 
 title: Do you know this quick fix for SharePoint JavaScript errors that prevents you from switching page layout?

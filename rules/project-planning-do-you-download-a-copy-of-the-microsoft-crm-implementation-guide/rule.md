@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Dynamics 365 Implementation Guide download provides essential planning and installation resources for a successful CRM implementation."
 type: rule
 archivedreason: 
 title: Project Planning - Do you download a copy of the Microsoft CRM Implementation Guide?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you make sure you are specific in your requirements? Ensure accuracy by outlining precise details, such as client contact information. Break tasks into bite-sized pieces and include them explicitly in the project plan to avoid misunderstandings."
 type: rule
 archivedreason: 
 title: Communication - Do you make sure you are specific in your requirements?

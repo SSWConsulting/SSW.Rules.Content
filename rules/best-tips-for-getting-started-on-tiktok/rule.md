@@ -1,4 +1,5 @@
 ---
+seoDescription: "Start growing your brand awareness and audience on TikTok by defining your goals, posting original and valuable content, being consistent, participating in challenges, and leveraging trends."
 type: rule
 title: TikTok - Do you know the best tips for getting started on TikTok?
 uri: best-tips-for-getting-started-on-tiktok

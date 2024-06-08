@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create quick and effective mock-ups with Expression Blend + SketchFlow, ideal for communication and development."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/software-for-product-design](/rules/software-for-product-design)
 title: Do you use Expression Blend + SketchFlow to create mock-ups?

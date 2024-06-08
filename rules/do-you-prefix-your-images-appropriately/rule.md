@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your images by using descriptive names and prefixes like "ban" for banners, "ico" for icons, or "Screen" for screenshots to improve search engine visibility."
 type: rule
 archivedreason: 
 title: Do you prefix your images appropriately?

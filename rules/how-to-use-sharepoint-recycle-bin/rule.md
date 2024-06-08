@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find deleted files and recover them easily from SharePoint's Recycle Bin, a crucial step in maintaining data integrity."
 type: rule
 archivedreason: 
 title: Do you know how to use SharePoint Recycle Bin?

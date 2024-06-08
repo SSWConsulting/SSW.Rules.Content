@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure correct casing and wording for "OK" in buttons and content to improve user experience and consistency."
 archivedreason: Moved to https://www.ssw.com.au/rules/avoid-common-mistakes
 type: rule
 title: Do you use "OK" instead of "Ok"?

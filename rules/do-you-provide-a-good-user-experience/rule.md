@@ -1,4 +1,5 @@
 ---
+seoDescription: "Provide a seamless user experience on your website to boost conversions and drive business growth."
 type: rule
 archivedreason: 
 title: Do you provide a good user experience?

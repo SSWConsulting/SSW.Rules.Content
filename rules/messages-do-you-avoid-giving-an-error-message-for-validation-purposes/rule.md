@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid giving an "Error" message for validation purposes and instead provide informative messages to users."
 type: rule
 archivedreason: 
 title: Messages - Do you avoid giving an "Error" message for validation purposes?

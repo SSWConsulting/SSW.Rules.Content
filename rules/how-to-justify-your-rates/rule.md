@@ -1,4 +1,5 @@
 ---
+seoDescription: "Justifying rates for bespoke software services requires highlighting value over competitors."
 type: rule
 title: Do you know how to justify your rates?
 uri: how-to-justify-your-rates

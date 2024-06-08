@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consistently placed slicers enhance user experience in Power BI reports by streamlining navigation and discovery."
 type: rule
 archivedreason:
 title: Do you place your slicers consistently?

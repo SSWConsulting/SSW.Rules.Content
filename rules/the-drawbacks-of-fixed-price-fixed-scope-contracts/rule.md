@@ -1,4 +1,5 @@
 ---
+seoDescription: "Fixed-price, fixed-scope projects can be risky and disappointing, lacking flexibility, collaboration, and quality, leading to project delays or failure."
 type: rule
 archivedreason: 
 title: Do you know the drawbacks of a fixed-price, fixed-scope contract?

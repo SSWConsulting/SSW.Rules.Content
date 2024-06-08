@@ -1,4 +1,5 @@
 ---
+seoDescription: "Auditing Active Directory environments to ensure security and compliance, third-party tools offer enhanced visibility, proactive alerting, and comprehensive reporting."
 type: rule
 title: Do you audit your Active Directory environment?
 uri: audit-ad

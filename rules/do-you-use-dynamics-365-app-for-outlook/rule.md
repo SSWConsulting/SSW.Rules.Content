@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize your Outlook experience with Dynamics 365 App, a lightweight and efficient way to track emails and appointments."
 type: rule
 archivedreason: 
 title: Do you use Dynamics 365 App for Outlook?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a "Recording in Progress" sign to notify others of an ongoing recording and minimize unwanted noise."
 type: rule
 archivedreason: 
 title: Production - Do you use a 'Recording in Progress' sign?

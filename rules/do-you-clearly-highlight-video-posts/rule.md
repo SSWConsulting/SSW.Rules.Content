@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clearly highlight video content on your blog by prefixing your post title with "VIDEO –" and placing the embedded video at the top of the post. This ensures users can easily identify and engage with your video content."
 type: rule
 title: Do you clearly highlight video content?
 uri: do-you-clearly-highlight-video-posts

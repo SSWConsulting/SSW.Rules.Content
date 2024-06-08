@@ -1,4 +1,5 @@
 ---
+seoDescription: "Striking through completed tasks helps track progress and provides a sense of accomplishment."
 type: rule
 title: Do you strike-through completed items?
 uri: do-you-strike-through-completed-items

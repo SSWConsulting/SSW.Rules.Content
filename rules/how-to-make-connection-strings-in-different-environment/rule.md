@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make connection strings easy by referencing a comprehensive online resource featuring abundant database product and file connections."
 type: rule
 title: Do you know how to make connection strings among different environment?
 uri: how-to-make-connection-strings-in-different-environment

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Gravatar to simplify profile management and provide a consistent experience across applications, as it allows your Gravatar image to follow you from site to site."
 type: rule
 title: Do you use Gravatar (or Cravatar for China) for your profile pictures?
 uri: do-you-use-gravatar-for-your-profile-pictures

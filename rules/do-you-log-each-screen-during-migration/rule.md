@@ -1,4 +1,5 @@
 ---
+seoDescription: "Log each screen during migration to maintain a historical record of the upgrade process and ensure seamless tracking of progress."
 type: rule
 archivedreason: 
 title: Do you log each screen during migration

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn Clean Architecture principles through Jason Taylor's videos and Robert C Martin's blog post, then dive into Uncle Bob's book or Steve Smith's e-book for in-depth guidance on software structure and design."
 type: rule
 archivedreason: 
 title: Clean Architecture - Do you know the best learning resources?

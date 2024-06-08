@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clean "no match found" screen is essential to provide a positive user experience."
 type: rule
 archivedreason: 
 title: Do you have a clean “no match found” screen?

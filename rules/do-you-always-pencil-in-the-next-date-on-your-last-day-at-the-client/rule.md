@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consulting clients with a clear plan for next steps ensures seamless project completion and reduces uncertainty. Book next appointments to avoid miscommunication and ensure a smooth workflow."
 type: rule
 title: Do you always pencil in the next date on your last day at the client?
 uri: do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client

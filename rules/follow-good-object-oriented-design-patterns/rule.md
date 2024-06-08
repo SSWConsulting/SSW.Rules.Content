@@ -1,4 +1,5 @@
 ---
+seoDescription: "Object-oriented design patterns in TypeScript ensure maintainable and scalable code through SOLID principles and DRY practices."
 type: rule
 archivedreason: 
 title: Do you follow good Object-Oriented design patterns?

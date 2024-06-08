@@ -1,4 +1,5 @@
 ---
+seoDescription: "Data layout best practices advise against showing change as a percentage when comparing data sets, instead opting for actual value differences."
 type: rule
 archivedreason:
 title: Data Layout - Do you avoid showing change as a percentage?

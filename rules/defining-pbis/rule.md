@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know how to define a PBI? Learn how to ensure your Product Backlog Items (PBIs) have all necessary information for successful development."
 type: rule
 title: Do you know how to define a PBI?
 uri: defining-pbis

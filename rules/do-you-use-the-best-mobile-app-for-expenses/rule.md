@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best mobile app for expenses and streamline your financial tracking with ease."
 type: rule
 title: Expenses - Do you use the best mobile app for expenses?
 uri: do-you-use-the-best-mobile-app-for-expenses

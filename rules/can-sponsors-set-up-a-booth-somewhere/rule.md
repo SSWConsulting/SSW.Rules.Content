@@ -1,4 +1,5 @@
 ---
+seoDescription: "Plan a designated area for sponsors to set up their booths and ensure early access to the venue."
 type: rule
 archivedreason: 
 title: Can Sponsors Set Up A Booth Somewhere?

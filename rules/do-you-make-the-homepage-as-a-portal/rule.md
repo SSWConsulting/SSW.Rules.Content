@@ -1,4 +1,5 @@
 ---
+seoDescription: "Turn your homepage into a portal by showcasing top billing customers and key metrics, making it easy to find core functions."
 type: rule
 title: Do you make the homepage as a portal?
 uri: do-you-make-the-homepage-as-a-portal

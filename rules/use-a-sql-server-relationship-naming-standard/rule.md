@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use a SQL Server relationship naming standard that outlines the syntax and best practices for creating descriptive relationship names?"
 type: rule
 title: Do you use a SQL Server Relationship Naming Standard?
 uri: use-a-sql-server-relationship-naming-standard

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Branding company cars enhances corporate visibility and reinforces brand identity on the road."
 type: rule
 title: Do you brand cars nicely?
 uri: cars-branding

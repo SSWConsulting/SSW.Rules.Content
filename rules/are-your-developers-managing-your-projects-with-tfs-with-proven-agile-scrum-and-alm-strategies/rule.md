@@ -1,4 +1,5 @@
 ---
+seoDescription: "Are your developers effectively managing projects using TFS with proven Agile/Scrum and ALM strategies?"
 type: rule
 archivedreason: 
 title: Do you manage SharePoint projects with TFS (with proven Agile/Scrum and ALM Strategies)?

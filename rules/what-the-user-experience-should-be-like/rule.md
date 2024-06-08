@@ -1,4 +1,5 @@
 ---
+seoDescription: "User experience should be seamless and intuitive with a standard "Check for Updates" menu option offering clear results."
 type: rule
 title: Do you know what the user experience should be like?
 uri: what-the-user-experience-should-be-like

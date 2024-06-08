@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to send targeted emails using Microsoft Dynamics 365 mail merge templates and quickly campaign marketing lists for efficient communication."
 type: rule
 archivedreason: 
 title: Do you know how to send an email using Microsoft Dynamics 365 mail merge templates?

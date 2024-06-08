@@ -1,4 +1,5 @@
 ---
+seoDescription: "Assume necessary tasks will get approval if they're minor and obvious, saving time and effort."
 type: rule
 archivedreason: 
 title: Approval - Do you assume necessary tasks will get approval?

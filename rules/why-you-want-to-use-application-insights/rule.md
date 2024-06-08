@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get holistic insights into your application's performance, errors, and usage with Application Insights."
 type: rule
 title: Do you know why to use Application Insights?
 uri: why-you-want-to-use-application-insights

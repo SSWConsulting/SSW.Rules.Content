@@ -1,4 +1,5 @@
 ---
+seoDescription: "When writing standards and rules, it's best to maintain an objective tone by avoiding first-person (I or we) and second-person (you or your) narration. Instead, use a third-person perspective, similar to Wikipedia."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/web-content-do-you-write-in-the-newsreader-and-eye-witness-style](/rules/web-content-do-you-write-in-the-newsreader-and-eye-witness-style)
 title: Do you avoid the first person narrative?

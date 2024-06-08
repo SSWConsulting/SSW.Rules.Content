@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage audience interactivity during presentations by setting clear guidelines and redirecting off-topic questions to maintain a productive Q&A session."
 type: rule
 archivedreason: 
 title: Production - Do you manage audience interactivity?

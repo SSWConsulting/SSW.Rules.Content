@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure data integrity by including a "Tools | Validate Data" feature in your application to prevent invalid data from entering the system."
 type: rule
 archivedreason: 
 title: Menu - Do you include a "Tools | Validate Data"?

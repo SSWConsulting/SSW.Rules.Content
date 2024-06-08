@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you color-code your keys to save time and reduce frustration when identifying the correct key?"
 type: rule
 title: Do you color-code your keys?
 uri: do-you-colour-code-your-keys

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to create a webinar using GoToWebinar and boost your online presence with this step-by-step guide."
 type: rule
 archivedreason: 
 title: Webinar - Do you know how to create a webinar using GoToWebinar?

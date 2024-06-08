@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clean designs for forms enhance user experience and accessibility by using simple layouts, clear typography, and minimal visual distractions."
 type: rule
 archivedreason: 
 title: Do you use clean designs when creating forms?

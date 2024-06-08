@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure your nodes identically to run Failover Cluster Manager efficiently and effectively, ensuring seamless virtual machine management."
 type: rule
 archivedreason: 
 title: Do you only use your nodes for Virtual Machine Management?

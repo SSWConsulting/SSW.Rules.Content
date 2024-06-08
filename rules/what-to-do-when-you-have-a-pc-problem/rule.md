@@ -1,4 +1,5 @@
 ---
+seoDescription: "PC problems? Follow these steps to troubleshoot Windows updates, driver upgrades, and firmware updates before reporting issues to SysAdmins."
 type: rule
 title: Do you know what to do when you have a PC problem?
 uri: what-to-do-when-you-have-a-pc-problem

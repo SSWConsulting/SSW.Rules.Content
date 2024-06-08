@@ -1,4 +1,5 @@
 ---
+seoDescription: "Integrate Power BI reports seamlessly with SSRS 2016 to streamline your reporting workflow."
 type: rule
 archivedreason: 
 title: Do you know how to integrate Power BI with Reporting Services 2016?

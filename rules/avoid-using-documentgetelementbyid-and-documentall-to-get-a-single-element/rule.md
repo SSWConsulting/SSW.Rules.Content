@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using document.getElementById(id) and document.all(id) to get a single element; instead use jQuery selector $(#id)."
 type: rule
 title: Do you avoid using document.getElementById(id) and document.all(id) to
   get a single element, instead use selector $(#id)?

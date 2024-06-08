@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow Windows conventions and use OK/Cancel buttons to ensure familiar dialog designs for users."
 type: rule
 archivedreason: 
 title: Do you use OK/Cancel Buttons?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Figma prototyping features help designers create interactive components and responsive layouts for exceptional user experiences across devices."
 type: rule
 title: Do you build interactive prototypes in Figma?
 uri: figma-prototypes

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Licensing Open Source software requires careful consideration of the correct license to use, ensuring you retain control and comply with copyright laws."
 type: rule
 title: Licensing – Do you know the correct license to use for Open Source software?
 uri: do-you-know-the-correct-license-to-use-for-open-source-software

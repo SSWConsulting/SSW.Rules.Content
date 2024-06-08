@@ -1,4 +1,5 @@
 ---
+seoDescription: "Product Backlog management involves creating clear PBIs, prioritizing them, ensuring business value and making it accessible to all stakeholders."
 type: rule
 archivedreason: 
 title: Do you know how to manage the Product Backlog?

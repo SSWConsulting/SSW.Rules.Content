@@ -1,4 +1,5 @@
 ---
+seoDescription: "Define the viewport meta tag to inform web browsers they need to behave responsively, setting the width equal to the device's screen size for proper rendering on any screen."
 type: rule
 title: Do you set device width when designing responsive web applications?
 uri: do-you-set-device-width-when-designing-responsive-web-applications

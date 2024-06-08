@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers should not worry about idempotency when scripting database changes, as scripts should be run in order to ensure correct results and identify any errors that may occur."
 type: rule
 archivedreason: 
 title: Do you ignore Idempotency?

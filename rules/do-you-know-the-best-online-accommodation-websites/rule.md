@@ -1,4 +1,5 @@
 ---
+seoDescription: "Compare hotel prices using online platforms like lastminute.com.au and stayz.com.au, then book directly with the hotel to potentially save hundreds."
 type: rule
 archivedreason: 
 title: Accommodation - Do you know the best online accommodation websites?

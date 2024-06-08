@@ -1,4 +1,5 @@
 ---
+seoDescription: "Confirm venue details to ensure a smooth presentation experience on the day of the event or the day before for morning presentations."
 type: rule
 archivedreason: 
 title: Do you confirm with the venue on the day of the presentation? (or the day before if it’s a morning presentation)

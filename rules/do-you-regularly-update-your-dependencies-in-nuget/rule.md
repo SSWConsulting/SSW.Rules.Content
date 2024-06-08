@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay up-to-date with your .NET dependencies and ensure a secure and efficient development experience by regularly updating NuGet packages."
 type: rule
 archivedreason: 
 title: Do you regularly update your dependencies in NuGet?

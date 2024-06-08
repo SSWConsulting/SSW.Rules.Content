@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance SharePoint site access by allowing users to request permission and facilitating administrator approval or denial."
 type: rule
 archivedreason: 
 title: Do you give users the friendlier Access Request dialog?

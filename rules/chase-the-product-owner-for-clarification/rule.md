@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you chase your Product Owner for clarification?"
 type: rule
 archivedreason: 
 title: Communication - Do you chase the Product Owner for clarification?

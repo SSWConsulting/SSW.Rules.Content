@@ -1,4 +1,5 @@
 ---
+seoDescription: "Scrum teams rely on committed team members to deliver Sprint goals; disrupting one member can impact the entire project."
 type: rule
 archivedreason: 
 title: Product Owners - Do you know the consequence of disrupting a team?

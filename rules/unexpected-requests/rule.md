@@ -1,4 +1,5 @@
 ---
+seoDescription: "When unexpected requests arise during a Sprint, acknowledge the request and prioritize it with the Product Owner. If it's not crucial, add the new task to the backlog or remove an item of similar size from the current Sprint."
 type: rule
 title: Do you know how to handle unexpected requests in the middle of a Sprint?
 uri: unexpected-requests

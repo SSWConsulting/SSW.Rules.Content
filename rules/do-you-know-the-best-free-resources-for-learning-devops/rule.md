@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn DevOps skills with these top free resources: Azure DevOps labs, GitHub Universe, and The Phoenix Project book."
 type: rule
 title: Do you know the best free resources for learning DevOps?
 uri: do-you-know-the-best-free-resources-for-learning-devops

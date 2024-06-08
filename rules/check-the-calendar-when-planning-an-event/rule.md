@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check the calendar when planning an event to avoid potential clashes or conflicts and ensure a smooth execution."
 type: rule
 title: Do you check the calendar when planning an event?
 uri: check-the-calendar-when-planning-an-event

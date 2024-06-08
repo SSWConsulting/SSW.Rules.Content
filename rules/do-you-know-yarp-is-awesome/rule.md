@@ -1,4 +1,5 @@
 ---
+seoDescription: "Yet Another Reverse Proxy (YARP) is a .NET toolkit for building fast and customizable proxy servers that seamlessly integrate with ASP.NET infrastructure."
 type: rule
 title: Do you know why YARP is awesome?
 uri: do-you-know-yarp-is-awesome

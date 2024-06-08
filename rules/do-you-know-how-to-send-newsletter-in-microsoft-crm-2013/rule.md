@@ -1,4 +1,5 @@
 ---
+seoDescription: "Send newsletters and track responses using Microsoft Dynamic CRM 2013 with Quick Campaigns and server-side sync."
 type: rule
 archivedreason: Deprecated
 title: Do you know how to send newsletter in Microsoft CRM 2013?

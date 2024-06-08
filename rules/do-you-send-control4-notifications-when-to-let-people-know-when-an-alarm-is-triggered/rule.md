@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay informed with timely notifications when an alarm is triggered in Control4, keeping everyone on the same page for enhanced security and swift response."
 type: rule
 archivedreason: 
 title: Do you send Control4 notifications when to let people know when an Alarm is triggered?

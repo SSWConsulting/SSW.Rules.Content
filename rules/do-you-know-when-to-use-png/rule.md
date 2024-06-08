@@ -1,4 +1,5 @@
 ---
+seoDescription: "PNG images offer high-quality alternatives to JPG and BMP, featuring alpha blending, unlimited color palettes, and multiple CRCs for integrity checks."
 type: rule
 archivedreason: 
 title: Do you know when to use PNG?

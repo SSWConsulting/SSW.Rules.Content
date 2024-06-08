@@ -1,4 +1,5 @@
 ---
+seoDescription: "Always have your rules proofread and edited to ensure high-quality text that effectively communicates its message and adheres to company standards."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-technical-documentation](/rules/rules-to-better-technical-documentation)
 title: Do you always get your rules proof read?

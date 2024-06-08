@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have a negative keyword list on your campaigns to prevent wasting money on irrelevant search terms?"
 type: rule
 archivedreason: 
 title: Do you have a negative keyword list on your campaigns?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best React build tool for production-ready apps, consider Webpack's module bundling capabilities or Create React App's out-of-the-box solution."
 type: rule
 archivedreason: 
 title: Tools - Do you know the best Build Tool for React?

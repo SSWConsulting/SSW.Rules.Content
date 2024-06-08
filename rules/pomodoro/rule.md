@@ -1,4 +1,5 @@
 ---
+seoDescription: "Master your focus and boost productivity with the Pomodoro Technique!"
 type: rule
 title: Do you use the Pomodoro Technique?
 uri: pomodoro

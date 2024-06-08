@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best package manager for React development, balancing speed, reliability, and efficiency with npm, Yarn, or pnpm."
 type: rule
 title: Do you know the best package manager for React?
 uri: the-best-package-manager-for-react

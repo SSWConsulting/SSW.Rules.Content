@@ -1,4 +1,5 @@
 ---
+seoDescription: "Office backgrounds library saves time and provides assurance for video shoots, featuring various settings and scenarios for presenters, interviews, and developers."
 type: rule
 title: Do you set office backgrounds for filming?
 uri: unique-office-backgrounds

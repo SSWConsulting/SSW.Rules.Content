@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize CRM systems effectively by assigning a single "CRM Champion" to manage schema changes and control customization access."
 type: rule
 archivedreason: 
 title: Customization - Do you have only one person making changes to your CRM customization?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Conduct a separate "Test Please" for each Scrum story to ensure bugs and issues are rolled up to the Story Owner."
 type: rule
 archivedreason: 
 title: Done - Do you know when to do a “Test Please” in Scrum?

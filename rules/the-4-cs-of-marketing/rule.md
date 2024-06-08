@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how the 4 C's of marketing - Consumer wants and needs, Cost, Convenience, and Communication - help you understand your target audience's needs and preferences."
 type: rule
 archivedreason: 
 title: Do you know the 4 Cs of Marketing?

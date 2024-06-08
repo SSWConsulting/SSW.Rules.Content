@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know how to create a "swing in" text effect? Learn how to simulate gravity and bring your titles to life using Adobe After Effects."
 type: rule
 archivedreason: 
 title: Post-Production - Do you know how to create the "swing in" text effect?

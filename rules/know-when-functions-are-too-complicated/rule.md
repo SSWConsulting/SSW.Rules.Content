@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn when to refactor functions and simplify code using Visual Studio's built-in Code Metrics tool and Cyclomatic Complexity analysis."
 type: rule
 title: Do you know when functions are too complicated?
 uri: know-when-functions-are-too-complicated

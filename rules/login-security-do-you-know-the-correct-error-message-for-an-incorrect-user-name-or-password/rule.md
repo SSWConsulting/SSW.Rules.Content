@@ -1,4 +1,5 @@
 ---
+seoDescription: "Invalid login attempts should be met with a vague error message to prevent hackers from exploiting incorrect credentials."
 type: rule
 archivedreason: 
 title: Login Security - Do you know the appropriate error message for an invalid username or password entry?

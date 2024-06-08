@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use US English to ensure international website visitors can easily find your pages through search engines and assume correct spellings."
 type: rule
 archivedreason: 
 title: Spelling - Do you use US English?

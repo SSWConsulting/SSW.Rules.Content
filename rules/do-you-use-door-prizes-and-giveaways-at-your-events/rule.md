@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost event engagement and attendee satisfaction with door prizes and giveaways that create memorable experiences and foster brand loyalty."
 type: rule
 archivedreason: 
 title: Do you use door prizes and giveaways at your events?

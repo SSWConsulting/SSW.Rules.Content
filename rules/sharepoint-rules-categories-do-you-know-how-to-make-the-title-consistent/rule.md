@@ -1,4 +1,5 @@
 ---
+seoDescription: "SharePoint rules categories require consistent title updates through Rule Summary page editing to synchronize with Site Title and Item Title."
 type: rule
 archivedreason: 
 title: SharePoint Rules Categories - Do You Know How to Make the Title Consistent?

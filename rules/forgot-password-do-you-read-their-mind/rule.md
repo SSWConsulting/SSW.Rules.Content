@@ -1,4 +1,5 @@
 ---
+seoDescription: "Forgot password process streamlined to save time and effort by auto-filling email address after incorrect login attempts."
 type: rule
 archivedreason: Re-entering the email after an incorrect login attempt and when proceeding to the "Forgot Password" screen is a good security practice in the password reset process. It helps ensure the customer's information remains secure.
 title: Forgot Password - Do you read their mind?

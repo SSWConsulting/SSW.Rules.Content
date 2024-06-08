@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monthly financial meetings streamline company finances, ensuring transparency and informed decision-making with sales reports, cash position insights, and revenue trends."
 type: rule
 archivedreason: 
 title: Do you have monthly financial meetings?

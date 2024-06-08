@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage work email accounts efficiently by CC'ing your work email account for any work-related emails sent from personal accounts."
 type: rule
 archivedreason: 
 title: Do you CC your work email account if you are unable to use it?

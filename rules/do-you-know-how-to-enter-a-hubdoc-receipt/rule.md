@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to easily enter and email a Hubdoc receipt, streamline your accounting processes, and save time with automated invoicing rules."
 type: rule
 archivedreason: 
 title: Expenses - Do you know how to enter and email a Hubdoc receipt?

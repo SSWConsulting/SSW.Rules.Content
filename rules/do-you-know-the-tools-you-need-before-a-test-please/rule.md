@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent bugs and ensure quality by following a thorough testing process before submitting a version to your client."
 type: rule
 archivedreason: 
 title: Do you know the tools you need before a "Test Please"?

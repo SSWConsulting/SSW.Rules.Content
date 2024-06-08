@@ -1,4 +1,5 @@
 ---
+seoDescription: "By providing clear implementation examples, you help readers successfully apply rules and improve comprehension."
 type: rule
 archivedreason: Replaced by figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
 title: Do you give implementation examples where appropriate?

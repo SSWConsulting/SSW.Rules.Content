@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using unnecessary words in titles to create concise and impactful headlines that drive search engine optimization."
 type: rule
 archivedreason: superceded by [https://www.ssw.com.au/rules/avoid-using-unnecessary-words](/rules/avoid-using-unnecessary-words)
 title: "Tiny: Do you avoid using \"that\" when it's not needed?"

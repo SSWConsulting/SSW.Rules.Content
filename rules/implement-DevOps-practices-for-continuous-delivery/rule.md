@@ -1,4 +1,5 @@
 ---
+seoDescription: "Implement DevOps practices to streamline software delivery and ensure continuous deployment with high quality and reliability."
 type: rule
 title: Do you implement DevOps practices for continuous delivery?
 uri: implement-DevOps-practices-for-continuous-delivery

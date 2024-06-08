@@ -1,4 +1,5 @@
 ---
+seoDescription: "By inserting an @ character in front of a string, you can prevent escape sequences and make file paths easier to read and work with."
 type: rule
 archivedreason: 
 title: Do you always make file paths @-quoted?

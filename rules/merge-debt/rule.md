@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to avoid merge debt by ensuring PRs don't stay open for too long, conducting daily reviews, and facilitating "over-the-shoulder" reviews."
 type: rule
 archivedreason:
 title: Do you avoid Merge Debt?

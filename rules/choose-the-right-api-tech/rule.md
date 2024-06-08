@@ -1,4 +1,5 @@
 ---
+seoDescription: "Choosing the right web API technology for your project requires careful consideration of your requirements and constraints."
 type: rule
 archivedreason: 
 title: Do you choose the right web API technology for your project?

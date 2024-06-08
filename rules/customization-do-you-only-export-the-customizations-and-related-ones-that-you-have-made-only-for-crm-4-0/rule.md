@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize CRM schema wisely, only exporting and importing changes to specific entities or relationships to avoid unexpected overriding of existing customizations."
 type: rule
 archivedreason: 
 title: Customization - Do you only export the customizations and related ones that you have made?

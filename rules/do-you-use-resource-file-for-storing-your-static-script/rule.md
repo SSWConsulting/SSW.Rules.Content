@@ -1,4 +1,5 @@
 ---
+seoDescription: "Storing static scripts in resource files enhances development workflow and eliminates scattered code snippets."
 type: rule
 title: Do you use resource file for storing your static script?
 uri: do-you-use-resource-file-for-storing-your-static-script

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Non-designers can easily create professional office signs using Canva's user-friendly design tool."
 type: rule
 title: Do you know how to manage office signs?
 uri: manage-office-signs

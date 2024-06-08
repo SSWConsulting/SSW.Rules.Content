@@ -1,4 +1,5 @@
 ---
+seoDescription: "GitHub Actions simplifies workflow analysis with customizable Job Summaries, providing at-a-glance insights into test results, reports, and more."
 type: rule
 title: GitHub Actions - Do you know why Job Summaries are awesome?
 uri: use-job-summaries

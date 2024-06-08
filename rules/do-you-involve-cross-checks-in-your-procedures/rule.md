@@ -1,4 +1,5 @@
 ---
+seoDescription: "Accounting accuracy relies on cross-checks and collaboration to minimize human error and promote accountability."
 type: rule
 title: Do you involve cross-checks in your procedures?
 uri: do-you-involve-cross-checks-in-your-procedures

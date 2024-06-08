@@ -1,4 +1,5 @@
 ---
+seoDescription: "Build responsive UI using jQuery and Web API to provide seamless user experiences."
 type: rule
 archivedreason: 
 title: Do you use jQuery with the Web API to build responsive UI?

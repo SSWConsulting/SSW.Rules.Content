@@ -1,4 +1,5 @@
 ---
+seoDescription: "Fix bugs efficiently by reproducing issues quickly and consulting clients only when necessary to resolve problems."
 type: rule
 title: Do you fix bugs with a phone call?
 uri: fix-bugs-via-phone

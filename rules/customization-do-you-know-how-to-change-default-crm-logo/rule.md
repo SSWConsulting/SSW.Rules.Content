@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize your CRM logo by renaming the default file and replacing it with your company's brand image."
 type: rule
 archivedreason: 
 title: Customization - Do you know how to change default CRM logo? (CRM 4 only)

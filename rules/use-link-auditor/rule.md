@@ -1,4 +1,5 @@
 ---
+seoDescription: "Analyze your website's performance and identify bad links with SSW Link Auditor, a tool that offers comprehensive site analysis."
 type: rule
 archivedreason: 
 title: Do you use Link Auditor to tell you about bad links?

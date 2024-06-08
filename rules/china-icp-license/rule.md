@@ -1,4 +1,5 @@
 ---
+seoDescription: "China requires commercial websites to obtain an ICP license, covering e-commerce, payment platforms, education sites, media outlets, and more."
 type: rule
 title: Chinafy - Do you know about ICP licenses?
 uri: china-icp-license

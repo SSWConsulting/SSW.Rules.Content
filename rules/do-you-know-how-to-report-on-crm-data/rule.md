@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to report on CRM data effectively and make informed decisions with actionable insights."
 type: rule
 archivedreason: 
 title: Do you know how to report on CRM data?

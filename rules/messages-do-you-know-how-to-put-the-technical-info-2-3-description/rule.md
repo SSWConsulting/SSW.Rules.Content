@@ -1,4 +1,5 @@
 ---
+seoDescription: "Error messages should be clear and concise, providing a brief explanation of what went wrong along with helpful details for debugging."
 type: rule
 archivedreason: 
 title: Messages - Do you know how to put the technical info? (2/3 Description)

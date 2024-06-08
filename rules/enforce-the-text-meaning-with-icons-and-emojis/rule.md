@@ -1,4 +1,5 @@
 ---
+seoDescription: "Using icons and emojis to enforce text meaning can be a simple yet effective way to draw attention to important information, clarify unclear requirements, and enhance user understanding."
 type: rule
 archivedreason: 
 title: Do you use icons/emojis to enforce the text meaning?

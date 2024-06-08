@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to create a Sprint backlog, assign items to a Sprint, and send a Sprint Forecast email to clients with Microsoft Docs and GitHub Projects."
 type: rule
 title: Backlog - Do you know how to create a Sprint Backlog?
 uri: how-to-create-a-sprint-backlog

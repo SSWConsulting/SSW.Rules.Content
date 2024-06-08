@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid displaying valid email addresses on your website to prevent spam and email harvesting."
 type: rule
 title: "Do you avoid using mailto: on your website?"
 uri: avoid-using-mailto-on-your-website

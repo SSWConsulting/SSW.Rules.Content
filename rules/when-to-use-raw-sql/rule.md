@@ -1,4 +1,5 @@
 ---
+seoDescription: "Raw SQL updates large numbers of rows efficiently and effectively, minimizing risks with proper precautions."
 type: rule
 title: Do you know when to use raw sql?
 uri: when-to-use-raw-sql

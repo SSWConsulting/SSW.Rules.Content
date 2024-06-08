@@ -1,4 +1,5 @@
 ---
+seoDescription: "How to move a SharePoint rule internally, without affecting its visibility on other pages."
 type: rule
 archivedreason: We use GitHub now. Check out the wiki - https://github.com/SSWConsulting/SSW.Rules.Content/wiki
 title: SharePoint - Do you know how to move a rule? (internal only)

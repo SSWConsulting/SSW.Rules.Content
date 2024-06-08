@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow a consistent naming convention for SQL Server objects to ensure ease of use and maintenance."
 type: rule
 archivedreason: 
 title: General - Do you know object name should follow your company naming conventions?

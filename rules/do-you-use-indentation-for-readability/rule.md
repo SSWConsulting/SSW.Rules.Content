@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to enhance your email communication by using indentation for readability. Discover tips and tricks to effectively reply to emails and improve understanding."
 type: rule
 title: Do you use indentation for readability?
 uri: do-you-use-indentation-for-readability

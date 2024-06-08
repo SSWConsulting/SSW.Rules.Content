@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Dynamics Marketing's automation options include action types such as email, landing page, task, scoring, social media, and printed mail, with features like schedulers and triggers to personalize lead nurturing."
 type: rule
 archivedreason: 
 title: Do you know the different MDM Marketing Automation options?

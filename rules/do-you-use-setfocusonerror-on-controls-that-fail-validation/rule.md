@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automatically focus on controls that fail validation to improve user experience and reduce confusion."
 type: rule
 archivedreason: Merged to [https://www.ssw.com.au/rules/validation-do-you-put-focus-to-the-correct-control-on-validation-error](/rules/validation-do-you-put-focus-to-the-correct-control-on-validation-error)
 title: Do you use SetFocusOnError on controls that fail validation?

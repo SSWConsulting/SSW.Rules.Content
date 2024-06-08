@@ -1,4 +1,5 @@
 ---
+seoDescription: "Client teams can be easily identified by prefixing them with "Client –", enhancing team management and collaboration."
 type: rule
 archivedreason: 
 title: Team Names - Do you have naming convention for client Teams?

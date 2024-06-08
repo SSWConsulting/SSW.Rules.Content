@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Enums instead of hard-coded strings to maintain cleaner and easier-to-manage code."
 type: rule
 archivedreason: 
 title: Do you use Enums instead of hard coded strings?

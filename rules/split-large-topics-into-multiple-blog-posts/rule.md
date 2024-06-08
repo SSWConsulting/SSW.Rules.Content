@@ -1,4 +1,5 @@
 ---
+seoDescription: "Large topic? No problem! Break it down into a series of shorter blog posts for easier reading and writing."
 type: rule
 archivedreason:
 title: Do you split large topics into multiple blog posts?

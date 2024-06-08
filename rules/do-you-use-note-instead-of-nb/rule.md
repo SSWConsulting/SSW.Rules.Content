@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using outdated abbreviations and instead opt for clear language. Use "note" to add important details or attract attention, ensuring your message is easily understood."
 type: rule
 archivedreason: superseded by [https://www.ssw.com.au/rules/avoid-acronyms](/rules/avoid-acronyms)
 title: 'Do you use "Note" instead of "NB"?'

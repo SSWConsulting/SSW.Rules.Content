@@ -1,4 +1,5 @@
 ---
+seoDescription: "Implementing business logic in middle tier languages such as VB.NET and C# increases adaptability, extensibility and maintainability of applications."
 type: rule
 archivedreason: null
 title: Middle Tier - Do you implement business logic in middle tier?

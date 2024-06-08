@@ -1,4 +1,5 @@
 ---
+seoDescription: "API versioning strategies include changing URLs to specify versions, using custom request headers, or determining versions based on authenticated callers."
 type: rule
 archivedreason: 
 title: Do you provide versioning?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Backup database scripts to track changes and deployments, ensuring data integrity and reliability."
 type: rule
 archivedreason: 
 title: Backup - Do you back up scripts?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make sure you have Visual Studio Code Analysis turned on to improve code quality and avoid errors."
 type: rule
 archivedreason: Replaced by https://ssw.com.au/rules/consistent-code-style
 title: Tools - Do you make sure you have Visual Studio Code Analysis turned on?

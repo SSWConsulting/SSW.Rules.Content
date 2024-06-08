@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover comprehensive guides on how to use Facebook advertising effectively and grow your business with LeadPages."
 type: rule
 archivedreason: Information is already out there. The rule is basically an external link
 title: Facebook Ads - Do you know how to advertise?

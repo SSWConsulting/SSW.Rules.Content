@@ -1,4 +1,5 @@
 ---
+seoDescription: "Delete a Team Project Collection in TFS and clean up SharePoint and Reporting Services sites to free up server resources."
 type: rule
 archivedreason: Deprecated
 title: Do you know how to delete a Team Project Collection?

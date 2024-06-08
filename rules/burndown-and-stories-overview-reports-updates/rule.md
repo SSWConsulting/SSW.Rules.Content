@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay informed about project costs and progress by receiving regular updates on actual spend, ETA, and testing quality."
 type: rule
 archivedreason: 
 title: Watch - Do you get regular updates on costs and progress (aka Project Progress, Burndown, etc.)?

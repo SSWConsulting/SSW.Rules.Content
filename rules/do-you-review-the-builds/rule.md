@@ -1,4 +1,5 @@
 ---
+seoDescription: "Review and validate software builds to ensure quality and stability before release."
 type: rule
 archivedreason: Empty rule
 title: Do you review the Builds?

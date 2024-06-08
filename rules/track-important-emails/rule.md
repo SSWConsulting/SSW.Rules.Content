@@ -1,4 +1,5 @@
 ---
+seoDescription: "Track important emails in Dynamics 365 CRM to centralize communication and facilitate team collaboration."
 type: rule
 archivedreason: 
 title: Do you track important emails in CRM?

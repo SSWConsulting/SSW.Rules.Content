@@ -1,4 +1,5 @@
 ---
+seoDescription: "ASP.NET skills that don't translate to SharePoint development include security models, UI frameworks, and deployment methodologies."
 type: rule
 title: Do you know the ASP.NET skills that do not translate (aka are different) ?
 uri: do-you-know-the-asp-net-skills-that-do-not-translate-aka-different

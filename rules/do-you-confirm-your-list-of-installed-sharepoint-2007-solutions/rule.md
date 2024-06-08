@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a seamless SharePoint migration by confirming your list of installed solutions before upgrading to SharePoint 2010."
 type: rule
 archivedreason: 
 title: Do you confirm your list of installed SharePoint 2007 Solutions

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Be persistent and turn down ideas into reality by keeping track of your concepts and bringing them up with your boss at a later time."
 type: rule
 archivedreason: 
 title: Are you persistent when you think something should be done?

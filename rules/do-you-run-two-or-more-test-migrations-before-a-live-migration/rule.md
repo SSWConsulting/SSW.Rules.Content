@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure successful test migrations by running at least two test migrations before a live migration to avoid CRM downtime."
 type: rule
 archivedreason: 
 title: Do you run two or more test migrations before a live migration

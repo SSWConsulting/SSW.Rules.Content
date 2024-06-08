@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify office presence using Slack's in/out functionality and Ubiquity Access Point's MAC address tracking."
 type: rule
 archivedreason: 
 title: Do you know the best way to see if someone is in the office?

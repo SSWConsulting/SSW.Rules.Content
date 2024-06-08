@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best Applicant Tracking System (ATS) with LinkedIn Talent Hub, a comprehensive solution for sourcing, managing, and hiring top talent."
 type: rule
 archivedreason: 
 title: Do you know the best Applicant Tracking System (ATS)?

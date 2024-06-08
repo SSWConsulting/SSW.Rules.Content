@@ -1,4 +1,5 @@
 ---
+seoDescription: "Chinafy - Do you know about ICP filing? Learn how to file an ICP application for your non-commercial website and access China with a domain name. Get insights into ICP requirements, including registration, verification, and display of the filing number."
 type: rule
 title: Chinafy - Do you know about ICP filing?
 uri: china-icp-filing

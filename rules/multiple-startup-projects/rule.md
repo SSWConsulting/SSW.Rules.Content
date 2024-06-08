@@ -1,4 +1,5 @@
 ---
+seoDescription: ".NET solutions often require multiple projects to manage APIs and UI components. Set multiple startup projects in Visual Studio or Rider for efficient project launching."
 type: rule
 archivedreason: 
 title: .NET - Do you set multiple startup projects?

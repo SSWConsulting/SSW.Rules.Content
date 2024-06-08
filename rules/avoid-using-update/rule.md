@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using update and instead opt for saving changes to minimize locking issues in the database when modifying entities with foreign key relationships."
 type: rule
 title: Do you avoid using update?
 uri: avoid-using-update

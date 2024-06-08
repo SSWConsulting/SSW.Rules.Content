@@ -1,4 +1,5 @@
 ---
+seoDescription: "Form design best practice: Use checkboxes instead of option groups to display contact method options for contacts and accounts."
 type: rule
 archivedreason: 
 title: Form Design - Do you change contact method options from default option group to checkboxes?

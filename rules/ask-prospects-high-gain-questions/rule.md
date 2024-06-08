@@ -1,4 +1,5 @@
 ---
+seoDescription: "Asking prospects high-gain questions helps prioritize potential leads and projects, avoiding wasted time on clients with unrealistic timelines or budgets."
 type: rule
 archivedreason: 
 title: Do you ask prospects high-gain questions?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your network cards receive the latest drivers for optimal Hyper-V Clustering performance and advanced networking features."
 type: rule
 archivedreason: 
 title: Do you update your network cards to the latest driver?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure proper spelling, grammar, and punctuation when creating web content to convey your message effectively."
 type: rule
 archivedreason: 
 title: Do you know to always be careful with your spelling, grammar, and punctuation?

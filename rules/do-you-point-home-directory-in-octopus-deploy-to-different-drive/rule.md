@@ -1,4 +1,5 @@
 ---
+seoDescription: "Point your Octopus Deploy Home directory to a different drive to avoid clogging up your OS drive."
 type: rule
 archivedreason: 
 title: Do you point Home directory to a different drive?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Impact of adding an "urgent new feature" to a Sprint can significantly alter project timelines, compromising original scope and prioritized tasks."
 type: rule
 archivedreason: 
 title: Do you know the impact of adding an "urgent new feature" to the Sprint?

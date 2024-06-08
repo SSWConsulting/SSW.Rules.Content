@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find excellent candidates with SSW's word-of-mouth referrals and engaging LinkedIn ads that showcase unique job titles and highlight the right cultural fit for your company."
 type: rule
 title: Do you know how to find excellent candidates?
 uri: find-excellent-candidates

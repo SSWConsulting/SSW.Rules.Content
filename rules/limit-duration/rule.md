@@ -1,4 +1,5 @@
 ---
+seoDescription: "Limiting board meeting duration boosts efficiency and engagement by keeping discussions concise and focused, respecting participants' time."
 type: rule
 title: Do you limit the duration of your board meetings?
 uri: limit-duration

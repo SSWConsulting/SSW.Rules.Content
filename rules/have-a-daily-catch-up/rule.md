@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve communication and collaboration by having a daily catch-up with your team, clients, or stakeholders to stay informed and aligned."
 type: rule
 archivedreason: 
 title: Communication - Do you have a daily catch-up?

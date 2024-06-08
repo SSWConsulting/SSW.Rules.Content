@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run dog food stats on TFS 2008 to record file numbers and iterations for future comparison."
 type: rule
 archivedreason: 
 title: Do you run your dog food stats (before TFS 2010 migration)?

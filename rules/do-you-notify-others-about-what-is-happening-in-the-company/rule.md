@@ -1,4 +1,5 @@
 ---
+seoDescription: "Notifying others about important company events and milestones can foster a sense of community and keep everyone informed. By sharing updates, achievements, and personal news, you can make the office feel more like a family and not just a place to work."
 type: rule
 archivedreason: 
 title: Communication - Do you notify others about what is happening?

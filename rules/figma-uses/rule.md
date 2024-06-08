@@ -1,4 +1,5 @@
 ---
+seoDescription: "Figma's cloud-based design and prototyping tool enables real-time collaboration on UI designs, prototypes, and design systems for efficient development projects."
 type: rule
 title: Do you know Figma's top uses?
 uri: figma-uses

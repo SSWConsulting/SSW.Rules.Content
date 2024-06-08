@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a smooth production by performing an equipment checklist before recording, including testing electronics and verifying camera space."
 type: rule
 archivedreason: 
 title: Production - Do you perform an equipment checklist?

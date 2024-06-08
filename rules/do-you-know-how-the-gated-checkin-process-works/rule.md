@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand how Gated Checkins work in Team Foundation Server and improve your workflow with our guide on reconciling workspace changes."
 type: rule
 archivedreason: 
 title: Do you know how the Gated Checkin process works?

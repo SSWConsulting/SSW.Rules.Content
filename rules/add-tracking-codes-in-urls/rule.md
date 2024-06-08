@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to add tracking codes in URLs and boost your online marketing efforts with UTM codes!"
 type: rule
 archivedreason: 
 title: Do you add tracking codes in URLs?

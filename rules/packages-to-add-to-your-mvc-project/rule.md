@@ -1,4 +1,5 @@
 ---
+seoDescription: "New MVC projects require specific packages to ensure efficiency and scalability."
 type: rule
 title: Do you know which packages to add to new MVC projects?
 uri: packages-to-add-to-your-mvc-project

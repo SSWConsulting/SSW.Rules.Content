@@ -1,4 +1,5 @@
 ---
+seoDescription: "Why Effective Communication on Microsoft Teams Matters for Client Relationships Boost client trust and engagement by leveraging Microsoft Teams as a primary communication channel."
 type: rule
 title: Do you know why it’s important to talk to clients on Teams? 
 uri: connect-client-im

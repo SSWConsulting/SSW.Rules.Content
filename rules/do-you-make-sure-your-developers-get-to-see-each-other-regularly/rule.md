@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent developer disconnection by bringing them back to the office 1-2 days a week for team connection and company alignment."
 type: rule
 archivedreason: 
 title: Do you make sure your developers get to see each other regularly to avoid becoming disconnected?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Generate strongly-typed interfaces for your DTOs using NSwag tools to simplify data transfer and ensure type safety."
 type: rule
 archivedreason: 
 title: Practices - Do you generate strongly-typed interfaces for your DTOs?

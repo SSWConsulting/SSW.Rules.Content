@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you number tasks or questions to make your communication clear and concise?"
 type: rule
 title: Do you number tasks/questions?
 uri: number-tasks-questions

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure seamless data access layers that seamlessly integrate with web services, facilitating cloud-based database connectivity for a future-proof application architecture."
 type: rule
 title: Are your Data Access Layers compatible with Web Services?
 uri: are-your-data-access-layers-compatible-with-web-services

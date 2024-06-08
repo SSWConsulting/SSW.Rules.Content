@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to create effective email signatures that boost your brand's consistency and marketing efforts with CodeTwo or manual setup."
 type: rule
 title: Do you use great email signatures?
 uri: great-email-signatures

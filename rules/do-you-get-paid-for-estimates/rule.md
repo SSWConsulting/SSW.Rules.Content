@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get accurate and detailed estimates by investing time upfront, or collaborate with clients to create a ballpark figure that builds trust."
 type: rule
 archivedreason: 
 title: Do you get paid for estimates?

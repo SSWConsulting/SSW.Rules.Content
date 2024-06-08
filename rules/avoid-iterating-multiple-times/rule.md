@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid iterating multiple times to prevent unnecessary expense and potential enumeration errors in LINQ expressions."
 type: rule
 title: Do you avoid iterating multiple times?
 uri: avoid-iterating-multiple-times

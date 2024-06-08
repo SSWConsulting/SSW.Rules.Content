@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve user experience by using balloon tooltips, which clearly indicate the destination control with an arrow."
 type: rule
 archivedreason: "RE: Tiago's feedback on unnecessary rules "
 title: Being Pedantic - Do you use balloon tooltip?

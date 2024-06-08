@@ -1,4 +1,5 @@
 ---
+seoDescription: "When searching doesn't find anything, websites should provide more information to help users find what they're looking for."
 type: rule
 archivedreason: 
 title: Search Results - Do you always give more information when searching doesn’t find anything?

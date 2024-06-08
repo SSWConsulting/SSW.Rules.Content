@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade from .NET Framework to the latest .NET to future-proof your applications with improved performance, cross-platform compatibility, and modern development features."
 type: rule
 archivedreason: 
 title: Do you know why to upgrade from .NET Framework to the latest .NET?

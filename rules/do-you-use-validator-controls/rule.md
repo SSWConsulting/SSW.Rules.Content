@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use the SSW Extended Provider to simplify error validation and display balloon tooltips on a data entry form."
 type: rule
 title: Do you use Validator controls?
 uri: do-you-use-validator-controls

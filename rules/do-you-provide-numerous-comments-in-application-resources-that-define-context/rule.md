@@ -1,4 +1,5 @@
 ---
+seoDescription: "Knowing the context and use of certain strings helps translators choose the right translation when localizing a web application."
 type: rule
 archivedreason: 
 title: Do you provide numerous comments in application resources that define context?

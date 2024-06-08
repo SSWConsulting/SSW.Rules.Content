@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use multiple cameras to enhance your video production and create visually appealing videos with cutaways, interviews, and event coverage."
 type: rule
 archivedreason: 
 title: Production - Do you use multiple cameras?

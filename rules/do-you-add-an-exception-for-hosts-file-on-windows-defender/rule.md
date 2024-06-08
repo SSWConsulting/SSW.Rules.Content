@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add Windows Defender exception for Hosts file to prevent anti-virus software from detecting legitimate modifications."
 type: rule
 archivedreason: 
 title: Do you add an exception for Hosts file on Windows Defender?

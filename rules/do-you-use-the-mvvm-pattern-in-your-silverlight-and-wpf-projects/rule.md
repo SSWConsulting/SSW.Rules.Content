@@ -1,4 +1,5 @@
 ---
+seoDescription: "Develop applications using Model-View-ViewModel (MVVM) design pattern to achieve loose coupling and improve maintainability in WPF and Silverlight projects."
 type: rule
 archivedreason: Deprecating as Silverlight is no longer installable and has been deprecated for 10 years.
 title: Do you use the MVVM pattern in your Silverlight and WPF Projects?

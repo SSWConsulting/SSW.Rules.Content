@@ -1,4 +1,5 @@
 ---
+seoDescription: "Empower employees closest to an issue to make decisions, fostering efficiency and strategic focus within the business."
 type: rule
 archivedreason: 
 title: Do you empower employees closest to an issue to make decisions?

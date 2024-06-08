@@ -1,4 +1,5 @@
 ---
+seoDescription: "Summarize meeting outcomes and actionable tasks after each gathering to boost productivity and collaboration."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/share-the-action-items-that-came-up](/rules/share-the-action-items-that-came-up)
 title: Do you send out an email summary after each meeting?

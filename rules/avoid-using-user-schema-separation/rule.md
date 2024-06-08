@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schema simplification boosts readability and maintainability, making it unnecessary to use user-schema separation unless dealing with very large databases."
 type: rule
 archivedreason: 
 title: Schema - Do you avoid using user-schema separation?

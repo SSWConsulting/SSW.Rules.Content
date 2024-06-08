@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check the global variable @@ERROR after executing a data manipulation statement to ensure transactional integrity and rollback potential errors."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you check the global variable @@ERROR after executing a data manipulation statement?

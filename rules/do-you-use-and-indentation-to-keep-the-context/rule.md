@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use indentation and "> " to keep the context of each part of your email reply, making it easier for the reader to understand."
 type: rule
 archivedreason: Merged with [https://www.ssw.com.au/rules/do-you-use-indentation-for-readability](/rules/do-you-use-indentation-for-readability)
 title: Do you use > and indentation to keep the context?

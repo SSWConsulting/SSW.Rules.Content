@@ -1,4 +1,5 @@
 ---
+seoDescription: "I will help you generate an SEO description that meets the requirements. Please provide the MD or MDX content, and I'll get started! 😊"
 type: rule
 archivedreason: 
 title: Do you avoid using unnecessary words?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Visiting links can be marked differently from unvisited ones with a less saturated color to give that "used" look."
 type: rule
 archivedreason: 
 title: Do you distinguish visited links?

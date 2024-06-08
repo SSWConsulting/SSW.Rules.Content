@@ -1,4 +1,5 @@
 ---
+seoDescription: "Promote your brand effectively and cost-efficiently by using branded stickers on takeaway coffee cups at events and conferences."
 type: rule
 archivedreason: 
 title: Do you brand your takeaway coffee cups?

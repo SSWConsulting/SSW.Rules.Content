@@ -1,4 +1,5 @@
 ---
+seoDescription: "Disagreeing with powerful stakeholders can have a significant impact on project outcomes. Learn how to effectively express your opinions and interests while keeping the conversation focused on the issue."
 type: rule
 title: Stakeholder Management - Do you know how to disagree with powerful stakeholders?
 uri: disagreeing-with-powerful-stakeholders

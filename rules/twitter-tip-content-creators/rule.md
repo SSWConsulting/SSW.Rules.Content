@@ -1,4 +1,5 @@
 ---
+seoDescription: "Twitter's new "Tips" feature allows users to support great content creators by sending money or Bitcoin tips through third-party payment services."
 type: rule
 title: Twitter - Do you tip great content creators?
 uri: twitter-tip-content-creators

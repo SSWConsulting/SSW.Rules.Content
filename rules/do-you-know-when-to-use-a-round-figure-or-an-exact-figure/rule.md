@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to use a round figure or an exact figure in project quotes."
 type: rule
 archivedreason: 
 title: Do you know when to use a round figure or an exact figure?

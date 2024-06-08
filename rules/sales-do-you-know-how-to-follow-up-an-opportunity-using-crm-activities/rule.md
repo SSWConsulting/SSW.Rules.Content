@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay on top of sales opportunities by using CRM activities to follow up with clients and ensure timely communication."
 type: rule
 archivedreason: 
 title: Sales - Do you know how to follow up an opportunity using CRM Activities?

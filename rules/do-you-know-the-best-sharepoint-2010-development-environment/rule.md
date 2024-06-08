@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know the best SharePoint 2010 development environment?"
 type: rule
 archivedreason: 
 title: Do you know the best SharePoint 2010 development environment?

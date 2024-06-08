@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you track and label your assets? Discover the importance of keeping a record of your business's physical assets, including laptops, mobile phones, workstations, and more."
 type: rule
 title: Hardware - Do you track and label your assets?
 uri: label-your-assets

@@ -1,4 +1,5 @@
 ---
+seoDescription: "A lead only makes sense when buying a large contact database where it's impractical to qualify each individual."
 type: rule
 archivedreason: 
 title: Do you know the one case where you use a CRM lead?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you always check your button's event handler hook-up to ensure a responsive UI experience?"
 type: rule
 archivedreason: 
 title: Do you always check your button's event handler hook-up?

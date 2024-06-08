@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid creating multiple Team Projects for the same project to streamline work item management and build processes."
 type: rule
 title: Do you avoid creating multiple Team Projects for the same project?
 uri: avoid-creating-multiple-team-projects-for-the-same-project

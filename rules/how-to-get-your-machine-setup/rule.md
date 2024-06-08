@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best IDE for Angular and React development: Visual Studio Code offers a free, lightweight, and cross-platform environment with extensive extensions for Angular and React projects."
 type: rule
 title: Tools - Do you know the best IDE for Angular and React?
 uri: how-to-get-your-machine-setup

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep your passwords private to prevent unauthorized access and protect yourself from malicious activities."
 archivedreason: This is too basic. Follow [https://www.ssw.com.au/rules/rules-to-better-security-end-users](/rules/rules-to-better-security-end-users) instead.
 type: rule
 title: Passwords - Do you know to NEVER share your password?

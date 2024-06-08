@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the right version and configuration for NUnit to ensure seamless integration with .NET Framework 1.1 or 2.0, and boost your testing experience."
 type: rule
 title: Do you know the right version and config for nUnit?
 uri: the-right-version-and-config-for-nunit

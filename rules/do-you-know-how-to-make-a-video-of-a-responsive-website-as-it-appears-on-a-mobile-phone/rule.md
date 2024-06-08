@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to create a video of a responsive website as it appears on a mobile phone using Chrome's Device Mode and Mobile Emulation."
 type: rule
 archivedreason: Irrelevant - Follow https://developer.chrome.com/docs/devtools/device-mode/ to get a responsive view on a browser
 title: Do you know how to make a video of a responsive website as it appears on a mobile phone?

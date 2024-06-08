@@ -1,4 +1,5 @@
 ---
+seoDescription: "Offer value to sponsors by providing opportunities for branding, booth setup and attendee engagement at your event."
 type: rule
 archivedreason: 
 title: Can you offer value to sponsors?

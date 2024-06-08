@@ -1,4 +1,5 @@
 ---
+seoDescription: "Easily keep your system up to date by checking for updates within the Help menu."
 type: rule
 title: Do you have a standard menu item "Check for Updates"?
 uri: there-should-be-a-standard-menu-item-check-for-updates

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for aligning add/edit/delete buttons ensure a seamless user experience by placing them horizontally at the bottom right of datagrids and listboxes."
 type: rule
 archivedreason: 
 title: Do you align your Add/Edit/Delete buttons horizontal and bottom right?

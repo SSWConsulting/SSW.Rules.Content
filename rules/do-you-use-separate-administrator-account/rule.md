@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a separate Administrator account to maintain domain security and prevent unauthorized access to servers and Domain Controllers."
 type: rule
 archivedreason: 
 title: Do you use separate Administrator account?

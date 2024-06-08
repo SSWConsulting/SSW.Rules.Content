@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Surface tablets can free up disk space by creating a Recovery partition, but it may consume up to 7GB of user-available storage."
 type: rule
 archivedreason: No value add
 title: Do you save a few GB by creating Recovery partition on a Surface?

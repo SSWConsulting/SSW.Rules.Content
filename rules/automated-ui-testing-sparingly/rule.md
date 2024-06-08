@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automated UI testing should be used sparingly to ensure a balanced approach that maximizes efficiency and minimizes unnecessary complexity."
 type: rule
 title: Do you remember to use automated UI testing sparingly?
 uri: automated-ui-testing-sparingly

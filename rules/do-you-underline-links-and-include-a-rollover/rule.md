@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you underline links and include a rollover to make them stand out from the background and surrounding text?"
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/do-you-use-underlines-only-on-links](/rules/do-you-use-underlines-only-on-links)
 title: Do you underline links (and include a rollover)?

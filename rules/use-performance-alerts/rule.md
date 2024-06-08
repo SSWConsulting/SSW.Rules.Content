@@ -1,4 +1,5 @@
 ---
+seoDescription: "DBAs can use performance alerts to proactively detect and address potential issues before they impact database performance or cause downtime."
 type: rule
 archivedreason: 
 title: DBAs - Do you use Performance Alerts?

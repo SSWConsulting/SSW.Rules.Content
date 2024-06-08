@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover why Vue.js is a great choice for web development, with its easy learning curve, lightweight framework, high performance, and excellent tooling."
 type: rule
 title: Do you know what makes Vue.js great?
 uri: why-vue-is-great

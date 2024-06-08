@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid logic errors by using Else If statements to handle unexpected values and provide a clear indication of incorrect inputs."
 type: rule
 archivedreason: 
 title: Do you avoid logic errors by using Else If?

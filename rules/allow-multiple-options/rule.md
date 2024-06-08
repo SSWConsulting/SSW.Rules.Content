@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you allow multiple options rather than forcing a best fit?"
 type: rule
 archivedreason: 
 title: Do you allow multiple options rather than forcing a best fit?

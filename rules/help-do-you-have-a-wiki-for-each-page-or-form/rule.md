@@ -1,4 +1,5 @@
 ---
+seoDescription: "Helpful documentation for each page or form is essential in agile development, as it allows users to quickly find solutions to common issues and planned changes. This wiki-based approach saves end-users from scouring the web for answers, making their experience more efficient and satisfying."
 type: rule
 archivedreason: Replaced by https://ssw.com.au/rules/awesome-documentation
 title: Help - Do you have a wiki for each page or form?

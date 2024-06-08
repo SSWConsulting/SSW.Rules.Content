@@ -1,4 +1,5 @@
 ---
+seoDescription: "Writing off small amounts of time to keep clients happy requires careful consideration and clear boundaries to avoid setting a precedent or being taken advantage of."
 type: rule
 archivedreason: 
 title: Do you sometimes write off small amounts of time to keep clients happy?

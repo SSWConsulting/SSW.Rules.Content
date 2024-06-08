@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance your remote work experience with a nice video background that boosts professionalism and comfort during Teams or Zoom meetings."
 type: rule
 title: Do you have a nice video background?
 uri: video-background

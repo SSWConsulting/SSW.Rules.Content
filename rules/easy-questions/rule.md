@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make your questions easy to respond to and save time"
 type: rule
 archivedreason:
 title: Do you keep your questions easy to answer?

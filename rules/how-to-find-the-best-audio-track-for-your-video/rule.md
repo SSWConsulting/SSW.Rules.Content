@@ -1,4 +1,5 @@
 ---
+seoDescription: "Find the perfect audio track for your video with licensed and royalty-free music options from Audio Network, Artlist, or Audio Jungle."
 type: rule
 title: Audio - Do you know how to find the best audio track for your video?
 uri: how-to-find-the-best-audio-track-for-your-video

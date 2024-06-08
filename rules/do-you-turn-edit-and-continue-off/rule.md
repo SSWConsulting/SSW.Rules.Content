@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you turn Edit and Continue OFF?"
 type: rule
 archivedreason: This is old and outdated advice.
 title: Do you turn Edit and Continue OFF?

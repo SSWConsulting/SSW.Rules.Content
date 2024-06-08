@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage Virtual Machines through Microsoft's Virtual Machine Manager (VMM) with ease, provisioning and deploying VMs using various approaches."
 type: rule
 archivedreason: 
 title: Do you manage Virtual Machines through Virtual Machine Manager (VMM)?

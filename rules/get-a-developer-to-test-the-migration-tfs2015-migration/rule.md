@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get another developer to test the TFS 2015 migration by following a series of steps to confirm code browsing, updates, and builds."
 type: rule
 archivedreason: 
 title: Do you get a developer to test the TFS 2015 migration?

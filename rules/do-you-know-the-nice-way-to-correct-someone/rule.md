@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn to correct someone's mistake effectively by providing a helpful tip with an URL, showcasing tactful communication and problem-solving."
 type: rule
 archivedreason: 
 title: Communication - Do you know the nice way to correct someone?

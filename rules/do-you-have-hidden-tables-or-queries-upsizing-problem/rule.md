@@ -1,4 +1,5 @@
 ---
+seoDescription: "Hidden tables and queries can cause upsizing problems in Access, even if they're not visible."
 type: rule
 archivedreason: 
 title: Do you have hidden tables or queries (Upsizing problem)?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Empathy unlocks effective communication and collaboration in the workplace by understanding colleagues', clients', and subordinates' perspectives."
 type: rule
 archivedreason:
 title: Communication - Do you understand the power of Empathy in the workplace?

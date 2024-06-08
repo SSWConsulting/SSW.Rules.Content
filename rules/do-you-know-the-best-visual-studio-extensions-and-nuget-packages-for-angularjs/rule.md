@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best Visual Studio Extensions and NuGet Packages for AngularJS development to speed up project development, follow best practices, and ensure team collaboration."
 type: rule
 archivedreason: 
 title: Do you know the best Visual Studio Extensions and NuGet Packages for AngularJS?

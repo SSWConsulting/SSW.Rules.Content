@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid accidental cancellations by making your cancel button less obvious and consider user platform preferences when placing it."
 type: rule
 archivedreason: 
 title: Do you make your cancel button less obvious?

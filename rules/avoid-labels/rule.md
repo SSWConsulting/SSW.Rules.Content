@@ -1,4 +1,5 @@
 ---
+seoDescription: "Minimize clutter and create clean interfaces by removing unnecessary labels and emphasizing user understanding."
 type: rule
 title: Do you avoid unnecessary labels?
 uri: avoid-labels

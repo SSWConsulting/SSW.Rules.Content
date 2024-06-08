@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent unexpected downtime and data loss by turning off auto-update on servers and instead using a controlled update process with WSUS."
 type: rule
 archivedreason: 
 title: Do you turn off auto-update on your servers?

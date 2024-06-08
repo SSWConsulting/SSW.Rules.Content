@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand web content consumption patterns and create user-friendly products that align with natural behavior by leveraging the F-Shape reading pattern."
 type: rule
 archivedreason: 
 title: Do you know users scan web content in an F-shaped pattern?

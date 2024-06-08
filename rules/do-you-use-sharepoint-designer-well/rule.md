@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn to use SharePoint Designer effectively by avoiding inline CSS, wrapping controls with divs, following naming conventions for control IDs, and disabling auto indent."
 type: rule
 archivedreason: 
 title: Do you use SharePoint designer well?

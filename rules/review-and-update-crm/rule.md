@@ -1,4 +1,5 @@
 ---
+seoDescription: "Review and update your CRM to ensure accurate tracking of open opportunities, including status, deal value, and contact information."
 type: rule
 archivedreason: 
 title: Do you review and update CRM?

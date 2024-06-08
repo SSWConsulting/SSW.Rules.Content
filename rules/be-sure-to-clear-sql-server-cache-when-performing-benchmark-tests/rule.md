@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize SQL Server performance by clearing the cache before benchmark tests to ensure accurate results and avoid cached data skewing test outcomes."
 type: rule
 archivedreason: 
 title: Performance Tuning - Do you make sure to clear SQL server cache when performing benchmark tests?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "When do you need a UX designer? A UX expert can help with specification reviews, application or web development, redesigns, usability issues, complex systems, user research, and accessibility."
 type: rule
 title: Do you know when you need a UX Designer?
 uri: when-do-you-need-a-ux-designer

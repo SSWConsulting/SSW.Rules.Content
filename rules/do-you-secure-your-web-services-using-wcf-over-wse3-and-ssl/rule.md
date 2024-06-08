@@ -1,4 +1,5 @@
 ---
+seoDescription: "Secure your web services using WCF over WSE3 and SSL by implementing username token authentication and configuring custom policies to prevent brute force attacks."
 type: rule
 title: Do you secure your web services using WCF over WSE3 and SSL?
 uri: do-you-secure-your-web-services-using-wcf-over-wse3-and-ssl

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Modern SharePoint architecture favors a flat hierarchy, abandoning subsites for greater flexibility and integration with Microsoft Teams and 365 Groups."
 type: rule
 title: "Do you use a flat hierarchy in SharePoint? "
 uri: sharepoint-flat-hierarchy

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use version numbers and well-formatted notes to keep track of solution changes, ensuring easy reference for customizations and painless environment comparisons."
 type: rule
 archivedreason: 
 title: Do you use version numbers and well formatted notes to keep track of solution changes?

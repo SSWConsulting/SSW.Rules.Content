@@ -1,4 +1,5 @@
 ---
+seoDescription: "Outlook enables email recall, allowing you to retract sent messages before recipients read them, available in Outlook 2007 and 2010."
 type: rule
 archivedreason: 
 title: Do you know how to recall an email?

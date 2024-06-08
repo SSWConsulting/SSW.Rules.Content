@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure timely notifications with uptime checks for your public SharePoint site's configuration settings, preventing issues like anonymous access mishaps."
 type: rule
 archivedreason: 
 title: Do you have uptime checks for your public sharepoint site?

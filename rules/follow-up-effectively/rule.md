@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you struggle to follow up on tasks effectively? Discover the best Microsoft tools and apps to help you stay organized and on track. From scheduling emails to setting reminders, we'll show you how to streamline your workflow and achieve more in less time."
 type: rule
 title: Do you follow up tasks effectively?
 uri: follow-up-effectively

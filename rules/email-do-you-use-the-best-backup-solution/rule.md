@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure robust email backup solutions with efficient data integrity and continuity using Microsoft Exchange Online or reliable third-party options."
 type: rule
 title: Email - Do you use the best backup solution?
 uri: email-do-you-use-the-best-backup-solution

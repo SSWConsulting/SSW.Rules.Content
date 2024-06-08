@@ -1,4 +1,5 @@
 ---
+seoDescription: "Build criteria by using a WHERE clause, allowing for more complex filtering and similar matches with LIKE statements."
 type: rule
 title: Do you build criteria by using a where clause?
 uri: build-criteria-by-using-a-where-clause

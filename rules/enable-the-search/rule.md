@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enable search functionality in Outlook Web App (OWA) by ensuring Microsoft Exchange Search service is running and configuring the IndexEnabled parameter for the mailbox database."
 type: rule
 title: Do you enable the search in OWA?
 uri: enable-the-search

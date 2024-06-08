@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set up a WordPress site on Windows Azure and learn how to upgrade your MySQL database storage without reaching its free 20Mb limit."
 type: rule
 archivedreason: 
 title: Do you know to pay for Azure WordPress databases?

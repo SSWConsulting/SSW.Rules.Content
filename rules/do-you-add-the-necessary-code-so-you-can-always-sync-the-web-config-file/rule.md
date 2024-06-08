@@ -1,4 +1,5 @@
 ---
+seoDescription: "Simplify your Web.config file management by using a code snippet that dynamically retrieves settings based on the computer name, eliminating the need for multiple configurations and promoting efficient development."
 type: rule
 archivedreason: Deprecated
 title: Do you add the necessary code so you can always sync the web.config file?

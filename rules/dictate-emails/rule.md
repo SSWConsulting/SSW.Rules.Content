@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the power of dictation in Microsoft Word, PowerPoint, and Outlook! Use voice commands to create emails, reports, and more with ease."
 type: rule
 title: Do you use Dictate for emails?
 uri: dictate-emails

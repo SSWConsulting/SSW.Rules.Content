@@ -1,4 +1,5 @@
 ---
+seoDescription: "Working together as a team can lead to increased productivity and job satisfaction, with the right mindset and support."
 type: rule
 archivedreason: 
 title: Do you know that working in a team is better than on your own? (aka The Ben Darwin rule)

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Planning Meeting - Do you encourage Spikes (aka investigation tasks) when a PBI is inestimable? When an unknown arises during Agile software development, create a spike PBI to conduct a time-boxed investigation and provide answers, thus resolving estimates for original PBIs."
 type: rule
 title: Planning Meeting - Do you encourage Spikes (aka investigation tasks) when
   a PBI is inestimable?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid modifying production SharePoint environments with Designer to prevent code reformattings and customized page layouts that hinder future changes."
 type: rule
 archivedreason: 
 title: Do you know to *never* touch a production environment with SharePoint designer?

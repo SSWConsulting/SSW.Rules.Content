@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server domain account best practices suggest naming it after the machine name to easily identify file updates."
 type: rule
 archivedreason: 
 title: ​DBAs - Do you name your SQL Server Domain Account as 'SQLServerMachineName' so it is easily identified when performing network operations?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Integrate RayGun issues into TFS/VisualStudio.com instances to streamline product development."
 type: rule
 archivedreason: 
 title: Do you know how to integrate RayGun with VisualStudio/TFS?

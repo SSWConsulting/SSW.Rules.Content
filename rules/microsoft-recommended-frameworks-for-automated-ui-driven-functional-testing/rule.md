@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft-recommended frameworks for automated UI-driven functional testing enable efficient and reliable execution of complex user interactions with web applications."
 type: rule
 archivedreason: Duplicate rule of Automated UI testing in UAT [https://www.ssw.com.au/rules/automated-ui-testing](/rules/automated-ui-testing)
 title: Do you know the most popular automated UI testing frameworks (aka functional testing)?

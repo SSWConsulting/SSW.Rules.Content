@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you avoid capturing data that was not manually entered by yourself?"
 type: rule
 archivedreason: 
 title: Do you avoid "Data Junk" (data not manually entered by yourself)?

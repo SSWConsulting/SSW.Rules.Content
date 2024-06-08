@@ -1,4 +1,5 @@
 ---
+seoDescription: "Bootstrap makes arranging form fields and labels easy by using the CSS class "form-horizontal"."
 type: rule
 archivedreason: The class [no-longer exists in Bootstrap 4](https://getbootstrap.com/docs/4.5/components/forms/#form-controls)
 title: Do you use the CSS class "form horizontal" to arrange your fields and labels?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Pre-formatting time strings before using TimeSpan.Parse() ensures accurate and crash-free parsing of time values."
 type: rule
 title: Do you pre-format your time strings before using TimeSpan.Parse()?
 uri: pre-format-your-time-strings-before-using-timespan-parse

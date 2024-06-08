@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run webinars across multiple time zones effortlessly with automated recordings, ensuring global participation and reducing logistical burdens."
 type: rule
 archivedreason: 
 title: Webinar - Do you use Automated Webinars for running Webinars in multiple Time Zones?

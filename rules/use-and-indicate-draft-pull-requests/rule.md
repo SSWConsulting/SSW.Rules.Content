@@ -1,4 +1,5 @@
 ---
+seoDescription: "Draft Pull Requests enhance collaboration and feedback by indicating work-in-progress, reducing duplication, and maintaining a transparent development pipeline."
 type: rule
 archivedreason: 
 title: Pull Requests - Do you use and indicate Draft Pull Requests?

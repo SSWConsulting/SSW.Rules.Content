@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure referential integrity in relationships by enabling cascading constraints to maintain data consistency and prevent orphaned records."
 type: rule
 archivedreason: 
 title: Relationships - Do you turn on referential integrity in relationships?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain server stability and security by keeping software updated, running only necessary services, and monitoring system logs."
 type: rule
 archivedreason: 
 title: Do you perform security and system checks?

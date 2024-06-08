@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn to use "Save", "Save and Close", and "Cancel" buttons effectively on your webpage to provide a seamless user experience."
 type: rule
 archivedreason: 
 title: Do you know to use Save, Save and Close on a webpage?

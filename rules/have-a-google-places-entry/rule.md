@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get found by customers searching for local services near you!"
 type: rule
 archivedreason: 
 title: Do you have a Google My Business (aka Places) entry?

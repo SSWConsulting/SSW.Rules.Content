@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate your processes efficiently with Power Automate, Azure Logic Apps, and Azure Functions, offering various connectors, custom integrations, and DevOps capabilities for seamless workflow management."
 type: rule
 title: Do you use the right tool to automate your processes?
 uri: automation-tools

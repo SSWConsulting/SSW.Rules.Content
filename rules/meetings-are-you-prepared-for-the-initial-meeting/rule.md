@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prepare for initial meetings by familiarizing yourself with client technology, reviewing their website and specifications, and having a standard sales presentation ready."
 type: rule
 archivedreason: 
 title: Meetings - Are you prepared for the initial meeting?

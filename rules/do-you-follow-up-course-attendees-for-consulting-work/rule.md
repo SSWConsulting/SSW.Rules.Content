@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow up with course attendees to generate consulting work opportunities by meeting them for a coffee and chat, discussing their experience and needs."
 type: rule
 title: Do you follow up course attendees for consulting work?
 uri: do-you-follow-up-course-attendees-for-consulting-work

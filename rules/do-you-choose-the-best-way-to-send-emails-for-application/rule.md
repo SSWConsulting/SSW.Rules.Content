@@ -1,4 +1,5 @@
 ---
+seoDescription: "When choosing the best way to send emails for your application, consider using Microsoft Graph API for security and ease of use. For more features, opt for Sendgrid's integrated API with click tracking and spam management."
 type: rule
 title: Do you choose the best way to send emails for your application?
 uri: do-you-choose-the-best-way-to-send-emails-for-application

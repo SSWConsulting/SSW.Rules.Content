@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering the 4 quadrants of important and urgent tasks helps individuals prioritize effectively, balancing urgent needs with long-term goals."
 type: rule
 title: Priorities - Do you know the 4 quadrants about important and urgent tasks?
 uri: 4-quadrants-important-and-urgent

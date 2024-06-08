@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a centralized hub for your reusable Canvas app components and increase collaboration with other makers."
 type: rule
 archivedreason: 
 title: Do you place you Components in a Component Library (Canvas Apps)?

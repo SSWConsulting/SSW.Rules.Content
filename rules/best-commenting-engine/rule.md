@@ -1,4 +1,5 @@
 ---
+seoDescription: "Allowing visitors to comment and rate your pages can be a great way to collect feedback and make it easier to maintain your content."
 type: rule
 archivedreason: 
 title: Do you allow users to comment and rate your pages?

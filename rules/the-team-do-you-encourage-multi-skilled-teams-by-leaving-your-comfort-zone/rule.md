@@ -1,4 +1,5 @@
 ---
+seoDescription: "Encourage multi-skilled teams by leaving your comfort zone and embracing learning and collaboration to reduce dependencies on individuals."
 type: rule
 archivedreason: 
 title: The Team - Do you encourage multi-skilled teams by leaving your comfort zone?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid huge images or attachments in emails by considering alternative methods to share large files, such as sending a URL or sharing through SharePoint."
 type: rule
 archivedreason: 
 title: Do you avoid huge images or attachments in emails?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Book a minimum of one day's work at a time to optimize sales efficiency and maximize billable hours."
 type: rule
 title: Do you book a minimum of 1 day's work at a time?
 uri: do-you-book-a-minimum-of-1-days-work-at-a-time
