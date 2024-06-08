@@ -88,7 +88,7 @@ You will need to pass: [Exam AZ-104: Microsoft Azure Administrator](https://docs
 
 ## Specialty
 
-Cosmos is becoming a very popular database solution. Learn more by completing: 
+Cosmos is becoming a very popular database solution. Learn more by completing:
 
 #### [Microsoft Certified: Azure Cosmos DB Developer Specialty](https://docs.microsoft.com/en-us/learn/certifications/azure-cosmos-db-developer-specialty/)
 

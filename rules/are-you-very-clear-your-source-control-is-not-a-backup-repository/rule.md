@@ -26,4 +26,4 @@ Note: If you did not finish working:
 
 <!--endintro-->
 
-**Note:** Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed. 
+**Note:** Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed.

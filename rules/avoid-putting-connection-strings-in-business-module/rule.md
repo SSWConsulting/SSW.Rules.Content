@@ -15,5 +15,3 @@ We strongly recommend that putting all connection strings together and saving th
 ::: bad
 ![Figure: Bad example - Putting connection strings in Business module](2024-03-09_16-10-24.png)
 :::
-
-

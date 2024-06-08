@@ -30,7 +30,6 @@ Figure: Bad Example - Hardcoding a reference to a property
 
 :::
 
-
 ```csharp
 (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
 ```

@@ -22,11 +22,9 @@ What do you do when you want images to link to your site? In the case of images,
 
 Hold the cursor over the image below and see what happens.
 
-
 ::: bad  
 ![Figure: Bad example - No attributes to the image](../../assets/SSWLogo.png)  
 :::
-
 
 ::: good  
 ![Figure: Good example - Search engines will index this text. Scroll over](../../assets/SSWLogo.png)  

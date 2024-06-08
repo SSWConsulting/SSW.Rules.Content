@@ -20,7 +20,6 @@ redirects:
 
 Select the element "SSW Internal Block" to show content only internally.
 
-
 <!--endintro-->
 
 ![Figure: Use this "SSW Internal Block" style to insert a section for "SSW Only" content](internal-only.jpg)  

@@ -25,7 +25,6 @@ You want them listening to you, not reading ahead.
 
 Animating the items on your Summary slide ensures they are listening to you, not reading ahead.
 
-
 ::: good  
 ![Good Example: Animate the points on your Summary slide](summary-animation.gif)  
 :::

@@ -33,9 +33,10 @@ static string Trim(string inputText)
 }
 ```
 
-**Figure: C# Removing whitespace and carriage returns in middle-tier** 
+**Figure: C# Removing whitespace and carriage returns in middle-tier**
 
 The code above:
+
 * Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
 * Retrieves the index of the character
 * Returns the text from the character onwards, thus removing the whitespace at the start

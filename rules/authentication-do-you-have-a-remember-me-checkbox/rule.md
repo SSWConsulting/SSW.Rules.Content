@@ -18,7 +18,6 @@ It is always good to provide the user with an option to have their username and 
 
 <!--endintro-->
 
-
 ::: good  
 ![Figure: 'Remember me' checkbox in a Web Form](sugarlearning-rememberme.jpg)  
 :::

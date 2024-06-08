@@ -26,15 +26,15 @@ A 2-week Sprint is the most common and allows a reasonable amount of work to be 
 
 A 4-week Sprint is a smell.
 
-It is important to note that as more project management overheads are added, these will have to be paid for. 
+It is important to note that as more project management overheads are added, these will have to be paid for.
 
 > "The more you want to see how much you're spending, the more you'll spend".
->                                   - Ulysses Maclaren
+> - Ulysses Maclaren
 
 It's important to find the right balance for you.
 
 ### Internal Projects
 
-For internal software development projects, since there is less cost involved in project management overhead, 1 week Sprints are recommended. 
+For internal software development projects, since there is less cost involved in project management overhead, 1 week Sprints are recommended.
 
 If there has been less than 5 man-days of effort during the Sprint, however, (e.g. due to leave or interruptions), keep adding 1 week to the Sprint until you have at least 5 man days of effort worked.

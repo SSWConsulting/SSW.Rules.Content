@@ -17,7 +17,7 @@ authors:
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
-::: img-medium 
+::: img-medium
 ![Figure: The power of Power Automate](power-automate-logo.png)
 :::
 
@@ -65,7 +65,7 @@ However, once the logic gets complex or you need to integrate with custom system
 
 ### Azure Logic Apps
 
-Azure Logic Apps are a really awesome way to integrate different systems and transfer data. Azure Logic Apps take integration to another level, by providing all the same connectors as Power Automate + tonnes more. 
+Azure Logic Apps are a really awesome way to integrate different systems and transfer data. Azure Logic Apps take integration to another level, by providing all the same connectors as Power Automate + tonnes more.
 
 You can also configure RBAC for Azure Logic Apps providing extra security control.
 

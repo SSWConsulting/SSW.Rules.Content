@@ -29,7 +29,7 @@ For a successful and streamlined Brainstorming Day, it's crucial to gather well-
 
 For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation not only smoothens the day's proceedings but also enhances its overall value.
 
-To ensure you get high-quality ideas, create a structured template for the Discussion.   
+To ensure you get high-quality ideas, create a structured template for the Discussion.
 
 ::: info
 **Tip:** You can use [this repo template which contains SSW's Discussion template](https://github.com/SSWConsulting/SSW.Brainstorming.Template).

@@ -14,7 +14,7 @@ archivedreason: null
 guid: 8ed33cf7-5f1c-460c-84d9-609d121649a0
 ---
 No "UI" in event names, the event raiser should be unaware of the UI in MVVM and user controls
-The handler of the event should then do something on the UI. 
+The handler of the event should then do something on the UI.
 
 <!--endintro-->
 

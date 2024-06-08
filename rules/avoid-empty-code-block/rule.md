@@ -20,13 +20,9 @@ Don’t add empty C# methods to your code. If you are adding one as a placeholde
 
 Also, to avoid unnecessary resource consumption, you should keep the entire method commented until it has been implemented.
 
-
 If the class implements an inherited interface method, ensure the method throws NotImplementedException.
 
-
 <!--endintro-->
-
-
 
 ```cs
 public class Example
@@ -37,11 +33,10 @@ public class Example
        }
  }
 ```
+
 ::: bad
 Figure: Bad Example - Method is empty
 :::
-
-
 
 ```cs
 public class Sample
@@ -52,11 +47,10 @@ public class Sample
         }
  }
 ```
+
 ::: good
 Figure: Good Example - Method implements some code
 :::
-
-
 
 ```cs
 public interface IDemo
@@ -77,11 +71,10 @@ public class Demo : IDemo
       } 
  }
 ```
+
 ::: bad
 Figure: Bad Example - No Comment within empty code block  
 :::
-
-
 
 ```cs
 public interface IDemo
@@ -103,6 +96,7 @@ public class Demo : IDemo
        } 
  }
 ```
+
 ::: good
 Figure: Good Example - Added comment within Empty Code block method of interface class  
 :::

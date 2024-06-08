@@ -64,6 +64,7 @@ public class ExampleComponentTests
     }
 }
 ```
+
 ::: good
 Figure: Good example - Using bUnit to test a Blazor component
 
@@ -76,4 +77,4 @@ Complex components such as complicated searching and filtering are good candidat
 
 ### References
 
-- [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)
+* [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)

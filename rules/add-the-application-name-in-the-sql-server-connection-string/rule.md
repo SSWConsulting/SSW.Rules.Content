@@ -17,25 +17,22 @@ redirects:
 
 You should always add the application name to the connection string so that SQL Server will know which application is connecting, and which database is used by that application. This will also allow SQL Profiler to trace individual applications which helps you monitor performance or resolve conflicts.
 
-
 <!--endintro-->
-
-
 
 ```xml
 <add key="Connection" value="Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Biotrack01;Data Source=sheep;"/>
 ```
+
 ::: bad
 Bad example - The connection string without Application Name
 :::
-
-
 
 ```xml
 <add key="Connection" value="Integrated Security=SSPI;Persist Security 
  Info=False;Initial Catalog=Biotrack01;Data Source=sheep; 
  Application Name=Biotracker"/> <!-- Good Code - Application Name is added in the connection string. -->
 ```
+
 ::: good
 Good example - The connection string with Application Name
 :::
