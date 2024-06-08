@@ -1,4 +1,5 @@
 ---
+seoDescription: "Develop cross-platform apps using C# and XAML with .NET MAUI, offering 96% code reuse across iOS, Android, and UWP platforms."
 type: rule
 title: | 
   Do you use .NET MAUI (was Xamarin)?

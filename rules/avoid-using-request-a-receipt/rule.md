@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid requesting receipts unnecessarily to prevent annoying recipients and ensure effective communication."
 type: rule
 archivedreason: 
 title: Do you avoid using "Request a Receipt"?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Don't push your pull requests! Discuss then build to ensure seamless collaboration and better outcomes for open source projects."
 type: rule
 archivedreason: 
 title: Do You Know to not 'Push' your Pull Requests? (aka discuss then build)

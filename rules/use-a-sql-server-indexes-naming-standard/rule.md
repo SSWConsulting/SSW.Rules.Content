@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server Indexes Naming Standard for Consistent and Organized Indexing Primary keywords: SQL Server, Indexes, Naming Standard"
 type: rule
 archivedreason: 
 title: General - Do you use a SQL Server Indexes Naming Standard?

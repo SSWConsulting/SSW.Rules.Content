@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor YouTube analytics and metrics effectively to inform content creators about audience engagement, top traffic sources, and overall performance."
 type: rule
 archivedreason: 
 title: Do you monitor YouTube Analytics and metrics effectively?

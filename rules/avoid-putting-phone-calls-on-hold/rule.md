@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid putting phone calls on hold and prioritize customer engagement to ensure a seamless buying experience."
 type: rule
 archivedreason: 
 title: Do you avoid putting your phone calls on hold?

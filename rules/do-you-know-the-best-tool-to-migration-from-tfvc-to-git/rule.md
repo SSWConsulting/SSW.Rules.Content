@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate from TFVC to Git using best tools like VisualStudio.com, Git-Tf, or recommended Git-Tfs."
 type: rule
 archivedreason: 
 title: Do you know the best tool to migration from TFVC to Git?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Quickly expand your ad reach by importing Google Ads campaigns to Microsoft Advertising and get started with a seamless transition."
 type: rule
 archivedreason: 
 title: Do you know that you can quickly import your Google campaigns to your Microsoft Ads?

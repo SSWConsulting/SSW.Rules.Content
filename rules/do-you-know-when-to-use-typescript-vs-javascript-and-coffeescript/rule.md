@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft's TypeScript compiles into JavaScript, ideal for reusable client-side libraries, while JavaScript suits page-specific scripts and CoffeeScript's syntax differs too much from JavaScript."
 type: rule
 archivedreason: 
 title: Do you know when to use TypeScript (vs JavaScript and CoffeeScript)?

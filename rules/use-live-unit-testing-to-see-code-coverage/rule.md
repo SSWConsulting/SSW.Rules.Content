@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enable Live Unit Testing in Visual Studio to gain insight into test coverage and receive immediate feedback on code changes."
 type: rule
 title: Do you use Live Unit Testing to see code coverage?
 uri: use-live-unit-testing-to-see-code-coverage

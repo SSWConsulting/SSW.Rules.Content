@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clients expect transparency and control when working with software development companies. To maintain trust, inform clients of any changes to resources or rates before sending next invoices."
 type: rule
 title: Do you inform the client of any resource or rate changes?
 uri: do-you-inform-the-client-of-any-resource-or-rate-changes

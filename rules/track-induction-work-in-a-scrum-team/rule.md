@@ -1,4 +1,5 @@
 ---
+seoDescription: "Track induction work in a Scrum team by creating a new PBI and adding tasks for onboarding activities, ensuring seamless integration with daily job responsibilities."
 type: rule
 archivedreason: 
 title: Starting - Do you track your induction work in a Scrum team?

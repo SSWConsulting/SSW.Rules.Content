@@ -1,4 +1,5 @@
 ---
+seoDescription: "As a repository maintainer, it's essential to review pull requests even when not required, as it fosters learning, improves code quality, and enhances team collaboration."
 type: rule
 title: Do you still review Pull Requests when you are not a required viewer?
 guid: 2e3f7d09-8004-4de5-a393-b8341e123534

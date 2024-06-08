@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage collaborator permissions effectively on GitHub by using teams to assign roles and control access levels."
 type: rule
 archivedreason:
 title: GitHub - Do you use GitHub teams for collaborator permissions?

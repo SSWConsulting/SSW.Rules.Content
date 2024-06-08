@@ -1,4 +1,5 @@
 ---
+seoDescription: "Valuing your clients through thoughtful gifts builds strong relationships and sets you apart from competitors."
 type: rule
 archivedreason: 
 title: Do you let your clients know they are valued?

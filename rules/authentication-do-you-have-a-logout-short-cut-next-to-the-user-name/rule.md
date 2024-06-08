@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance user convenience by adding a "Logout" shortcut next to the username, making it easy to log off with one click."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Logout' short cut next to the username ?
@@ -17,11 +18,9 @@ Although most of the sites have a 'Log off' submenu, we recommend adding a short
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - Only has a 'Log Off' operation in the submenu](logoff-bad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - Has a 'Logout' short cut next to the username](logoff-good.jpg)  

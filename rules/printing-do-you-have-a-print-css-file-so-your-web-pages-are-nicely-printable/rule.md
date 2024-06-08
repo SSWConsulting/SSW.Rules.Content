@@ -1,4 +1,5 @@
 ---
+seoDescription: "Generate a print.css file to optimize your website's printing experience, ensuring a nicely printable version of your web pages."
 type: rule
 archivedreason: 
 title: Printing - Do you have a print.css file so your web pages are nicely printable?

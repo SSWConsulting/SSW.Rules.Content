@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent SQL Server from consuming all RAM by limiting maximum server memory to ensure optimal system performance."
 type: rule
 archivedreason: 
 title: Do you know to never give SQL Server all your RAM?

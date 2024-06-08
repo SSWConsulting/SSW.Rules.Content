@@ -1,4 +1,5 @@
 ---
+seoDescription: "Integration tests ensure compatibility and loadability of dependencies, such as DLLs, by verifying their existence and versions."
 type: rule
 title: Do you write Integration Test for Dependencies - e.g. DLLs?
 uri: write-integration-test-for-dependencies

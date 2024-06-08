@@ -1,4 +1,5 @@
 ---
+seoDescription: "Edit a mail merge template in Microsoft Dynamics 365 by navigating to Settings, Personalization Settings, Email Templates, and editing or creating a new template."
 type: rule
 archivedreason: 
 title: Do you know how to edit a mail merge template in Microsoft Dynamics 365?

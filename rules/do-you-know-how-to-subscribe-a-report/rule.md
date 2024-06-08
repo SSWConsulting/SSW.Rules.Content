@@ -1,4 +1,5 @@
 ---
+seoDescription: "Subscribe to reports and stay updated with latest findings and insights."
 type: rule
 archivedreason: 
 title: Do you know how to subscribe a report?

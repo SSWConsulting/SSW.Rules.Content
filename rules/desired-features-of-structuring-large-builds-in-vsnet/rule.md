@@ -1,4 +1,5 @@
 ---
+seoDescription: "Desired features of structuring large Builds in VS.NET include scalability, multiple versions, efficiency, reliability, and switchability."
 type: rule
 title: Do you know the desired features of structuring large Builds in VS.NET?
 uri: desired-features-of-structuring-large-builds-in-vsnet

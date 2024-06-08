@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create task list comments for your code to manage features, corrections, and reminders with ease."
 type: rule
 archivedreason: 
 title: Comments - Do you create Task List Comments for your code?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Thoroughly testing employment candidates can prevent costly mistakes and ensure a good fit for your team."
 type: rule
 archivedreason:
 title: Do you thoroughly test employment candidates?

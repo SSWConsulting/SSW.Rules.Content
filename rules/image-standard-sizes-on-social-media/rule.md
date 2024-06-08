@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you follow image standard sizes on social media? Learn how to optimize your visuals across all platforms with our comprehensive guide. From Facebook and Instagram to Twitter, LinkedIn, YouTube, and TikTok, we've got you covered!"
 type: rule
 title: Do you follow image standard sizes on social media?
 uri: image-standard-sizes-on-social-media

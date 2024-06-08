@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using "General" project in timesheets, instead focus on specific projects or categories that accurately reflect work tasks."
 type: rule
 archivedreason: 
 title: Do you avoid using "General" in timesheets?

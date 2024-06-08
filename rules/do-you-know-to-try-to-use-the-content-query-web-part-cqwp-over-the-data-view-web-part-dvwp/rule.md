@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use the Content Query Web Part (CQWP) over the Data View Web Part (DVWP) for easier styling and customization."
 type: rule
 archivedreason: 
 title: Do you know to try to use the Content Query Web Part (CQWP) over the Data View Web Part (DVWP)?

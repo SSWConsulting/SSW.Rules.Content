@@ -1,4 +1,5 @@
 ---
+seoDescription: "Well-designed signage ensures attendees navigate your event smoothly and efficiently."
 type: rule
 archivedreason: 
 title: Is the signage adequate?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Before attending a meeting, prepare by researching the client and having answers to generic questions, allowing for meaningful conversation."
 type: rule
 title: Meetings - Do you prepare for your meetings?
 uri: meetings-do-you-go-to-meetings-prepared

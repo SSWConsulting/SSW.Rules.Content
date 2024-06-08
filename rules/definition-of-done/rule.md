@@ -1,4 +1,5 @@
 ---
+seoDescription: "Having a clear Definition of Done for your team is crucial to ensure quality management and success in Scrum."
 type: rule
 title: Done - Do you go beyond 'Done' and follow a 'Definition of Done'?
 uri: definition-of-done

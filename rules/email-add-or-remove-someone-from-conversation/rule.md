@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to add or remove someone from an email conversation, including tips on when and how to do it effectively."
 type: rule
 archivedreason: 
 title: Do you know how to add or remove someone from the conversation?

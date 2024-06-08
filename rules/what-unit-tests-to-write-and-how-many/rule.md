@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know what unit tests to write and how many? Learn that 100% Unit Test Coverage is impractical, focus on quality over quantity, and prioritize writing tests for methods with high risk of unintended consequences."
 type: rule
 title: Do you know what unit tests to write and how many?
 uri: what-unit-tests-to-write-and-how-many

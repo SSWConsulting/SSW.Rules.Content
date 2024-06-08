@@ -1,4 +1,5 @@
 ---
+seoDescription: "Gather personal information progressively to increase user trust and accuracy by collecting minimal details initially and gradually requesting more information."
 type: rule
 archivedreason: 
 title: Do you gather more personal information progressively?

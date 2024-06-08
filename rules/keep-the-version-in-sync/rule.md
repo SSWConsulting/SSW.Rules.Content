@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain Assembly and File versions in sync for seamless compatibility, ensuring smooth software updates and deployments."
 type: rule
 title: Do you keep the version in Sync (in all 3 places)?
 uri: keep-the-version-in-sync

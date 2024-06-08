@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve ChatGPT outputs through reflexion by having it critique itself, enhancing accuracy and iteration."
 type: rule
 title: ChatGPT - Do you use Reflexion to iterate on outputs?
 uri: reflexion

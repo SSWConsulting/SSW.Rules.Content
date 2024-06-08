@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Creative Commons images to avoid copyright issues and ensure legal usage in your presentations."
 type: rule
 archivedreason: 
 title: Do you know to use Creative Commons images?

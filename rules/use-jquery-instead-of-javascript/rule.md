@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use jQuery's powerful and cross-browser compatible syntax to simplify your JavaScript coding and enhance user experience."
 type: rule
 title: Do you use jQuery instead of JavaScript?
 uri: use-jquery-instead-of-javascript

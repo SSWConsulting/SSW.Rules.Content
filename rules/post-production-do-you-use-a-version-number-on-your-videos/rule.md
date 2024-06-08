@@ -1,4 +1,5 @@
 ---
+seoDescription: "Post-production video updates: subtly indicate version numbers to keep your team informed without affecting views."
 type: rule
 archivedreason: 
 title: Post-Production - Do you have a version number on your videos?

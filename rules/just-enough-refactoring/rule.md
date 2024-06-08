@@ -1,4 +1,5 @@
 ---
+seoDescription: "Software developers can maintain project health by balancing new development and technical debt using the "Just Enough Refactoring" principle, reducing complexity and costs."
 type: rule
 title: Do You Practice the 'Just Enough Refactoring' When Adding New Features?
 uri: just-enough-refactoring

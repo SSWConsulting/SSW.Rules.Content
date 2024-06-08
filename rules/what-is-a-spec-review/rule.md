@@ -1,4 +1,5 @@
 ---
+seoDescription: "A comprehensive solution for your project's stakeholders and a detailed roadmap to transform their ideas into a reality."
 type: rule
 title: Do you know what a Specification Review is?
 uri: what-is-a-spec-review

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Using consistent and generic names on examples helps maintain confidentiality and professionalism in documentation. This approach enables you to present realistic scenarios without exposing actual clients' information."
 type: rule
 archivedreason: 
 title: Sample Names - Do you use generic and consistent names on examples?

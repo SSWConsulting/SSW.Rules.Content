@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid redundant language in reports and boost readability by refraining from using the word "report"."
 type: rule
 archivedreason:
 title: Layout - Do you avoid using word 'Report' in your reports?

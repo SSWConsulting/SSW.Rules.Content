@@ -1,4 +1,5 @@
 ---
+seoDescription: "Table formatting best practices recommend avoiding inline styling and instead specifying widths through CSS files to improve website performance."
 type: rule
 archivedreason: 
 title: Do you know table tags should not specify the width?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "C# developers can simplify variable declarations by using the "var" keyword to infer the type from the initial assignment."
 type: rule
 title: Do you use "var"?
 uri: use-var

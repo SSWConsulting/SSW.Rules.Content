@@ -1,4 +1,5 @@
 ---
+seoDescription: "Generate SEO description based on provided MDX content."
 type: rule
 archivedreason: Irrelevant
 title: Give Context - Do you include extra information (e.g. Checkboxes)?

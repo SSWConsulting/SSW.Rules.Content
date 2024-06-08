@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using parameter queries with EXISTS keyword and comparison operators to prevent upsize issues."
 type: rule
 archivedreason: 
 title: Do you avoid parameter queries with EXISTS keyword and comparison operators (<> or =)(Upsizing Problem)?

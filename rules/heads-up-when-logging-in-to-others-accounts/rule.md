@@ -1,4 +1,5 @@
 ---
+seoDescription: "Log in to someone else's account or access a shared company email with transparency and alertness, notifying the owner of your actions for their peace of mind."
 type: rule
 archivedreason: 
 title: Do you give a heads up when logging in to someone else's accounts?

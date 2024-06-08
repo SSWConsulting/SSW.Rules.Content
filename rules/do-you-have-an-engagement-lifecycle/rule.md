@@ -1,4 +1,5 @@
 ---
+seoDescription: "Establish a documented engagement lifecycle to provide clients with a consistent experience, streamline onboarding for new employees, and ensure seamless project execution."
 type: rule
 archivedreason: 
 title: Do you have an Engagement Lifecycle?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Write unit tests using NUnit to ensure code stability and prevent introducing new bugs when fixing issues in someone else's code."
 type: rule
 title: Do you use NUnit to write Unit Tests?
 uri: use-nunit-to-write-unit-tests

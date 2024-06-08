@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a seamless TFS 2015 migration by having a rollback plan in place to recover from catastrophic disasters or in-place upgrades."
 type: rule
 archivedreason: 
 title: Do you have a rollback plan for TFS 2015 migration?

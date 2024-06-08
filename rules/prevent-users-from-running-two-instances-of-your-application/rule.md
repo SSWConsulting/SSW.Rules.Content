@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent simultaneous instances of your application to ensure smooth and expected behavior."
 type: rule
 title: Do you prevent users from running two instances of your application?
 uri: prevent-users-from-running-two-instances-of-your-application

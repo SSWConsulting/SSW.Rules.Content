@@ -1,4 +1,5 @@
 ---
+seoDescription: "Sitefinity disables caching when debug="true", impacting performance in test and production environments."
 type: rule
 archivedreason: 
 title: Do you know that caching is disabled when debug="true"

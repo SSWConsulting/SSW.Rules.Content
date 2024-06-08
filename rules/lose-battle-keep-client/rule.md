@@ -1,4 +1,5 @@
 ---
+seoDescription: "Winning an argument may be satisfying, but it's crucial to prioritize keeping a good client even when you don't see eye-to-eye."
 type: rule
 title: Do you know that it's bad to win the argument but lose the client?
 uri: lose-battle-keep-client

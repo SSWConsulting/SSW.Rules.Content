@@ -1,4 +1,5 @@
 ---
+seoDescription: "When filling non-common form fields, we provide hints to help users understand what information is required."
 type: rule
 archivedreason: 
 title: Do you provide hints for filling non-common fields?

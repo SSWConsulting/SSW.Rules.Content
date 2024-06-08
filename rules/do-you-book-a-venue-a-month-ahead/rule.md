@@ -1,4 +1,5 @@
 ---
+seoDescription: "Book a venue at least a month ahead to ensure availability and avoid last-minute changes."
 type: rule
 archivedreason: 
 title: Do you book a venue a month ahead?

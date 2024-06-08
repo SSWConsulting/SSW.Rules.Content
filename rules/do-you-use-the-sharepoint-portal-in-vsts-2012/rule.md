@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance project monitoring and reporting with VSTS 2012's SharePoint portal, where you can track work items, create dashboards, and access reports seamlessly."
 type: rule
 archivedreason: 
 title: Do you use the SharePoint portal in VSTS 2012?

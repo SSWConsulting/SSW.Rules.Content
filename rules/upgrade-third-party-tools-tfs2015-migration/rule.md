@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade third-party tools for TFS 2015 to ensure compatibility and avoid issues with TeamCompanion and Team Foundation Sidekicks."
 type: rule
 archivedreason: 
 title: Do you know to upgrade your third party tools for TFS 2015?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?"
 type: rule
 archivedreason: 
 title: Do you use a Content Delivery Network (CDN)?

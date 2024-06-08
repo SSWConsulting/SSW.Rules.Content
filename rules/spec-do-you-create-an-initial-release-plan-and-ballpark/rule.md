@@ -1,4 +1,5 @@
 ---
+seoDescription: "Know the Specification Review deliverables to get a realistic estimate and roadmap for your software development project."
 type: rule
 archivedreason: 
 title: Do you know the Specification Review deliverables?

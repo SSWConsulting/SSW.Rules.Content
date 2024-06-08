@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize your GitHub labels to categorize issues effectively and improve user experience."
 type: rule
 title: GitHub Issues – Do you customize your labels?
 uri: labels-in-github

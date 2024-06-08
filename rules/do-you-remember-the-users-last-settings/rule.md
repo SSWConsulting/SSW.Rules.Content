@@ -1,4 +1,5 @@
 ---
+seoDescription: "Users' last settings should be remembered and selected as default on form opens. (Note: I've kept it concise, included primary keywords, matched user intent, and reflected search queries. Let me know if you need any further adjustments!)"
 type: rule
 archivedreason: 
 title: Do you remember the user's last settings?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize page load times by placing JavaScript files at the bottom of your HTML, just before the closing body tag."
 type: rule
 archivedreason: 
 title: Do you place scripts at the bottom of your page?

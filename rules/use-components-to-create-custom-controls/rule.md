@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create custom controls in Canvas Apps using Components and reuse them across your application."
 type: rule
 archivedreason: 
 title: Do you use Components to create custom controls (Canvas App)?

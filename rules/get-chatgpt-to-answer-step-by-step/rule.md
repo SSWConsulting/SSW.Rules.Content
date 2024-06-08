@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get step-by-step answers from ChatGPT and improve response logic with zero-shot chain of thought prompting."
 type: rule
 title: Do you get ChatGPT to "think step by step"?
 uri: get-chatgpt-to-answer-step-by-step

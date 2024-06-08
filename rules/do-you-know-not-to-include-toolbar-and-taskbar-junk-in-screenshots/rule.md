@@ -1,4 +1,5 @@
 ---
+seoDescription: "Screenshots without unnecessary toolbars and taskbars improve image quality and user experience."
 type: rule
 archivedreason: 
 title: Do you know not to include toolbar and taskbar junk in screenshots?

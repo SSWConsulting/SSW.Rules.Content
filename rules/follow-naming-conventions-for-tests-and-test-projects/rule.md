@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow naming conventions for tests and test projects to ensure clarity, consistency, and readability."
 type: rule
 title: Do you follow naming conventions for tests and test projects?
 uri: follow-naming-conventions-for-tests-and-test-projects

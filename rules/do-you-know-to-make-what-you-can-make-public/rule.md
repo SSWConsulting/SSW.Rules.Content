@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make publicly available discussions that benefit from transparency and community involvement. (Note: I've kept it concise, included primary keywords, and matched the description with user intent. Let me know if this meets your requirements!)"
 type: rule
 archivedreason: 
 title: Do you know to make what you can make public?

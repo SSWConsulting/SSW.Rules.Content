@@ -1,4 +1,5 @@
 ---
+seoDescription: "Send appointments on behalf of someone else by sharing calendar permissions and inviting them as attendees, ensuring they receive the invitation and can check for any mistakes."
 type: rule
 archivedreason: 
 title: Calendar Permissions - Do you know how to send an appointment on behalf of someone else?
@@ -20,7 +21,7 @@ If someone has [shared their calendar permissions](/calendar-do-you-allow-full-a
 
 If someone wants you to send an appointment for them, but you don't want it to appear in your own calendar, this is the way to go.
 
-When sending an appointment from someone else's calendar, you should always include that person as an attendee so that they also receive the same appointment email that their guests do. It shows them that the invitation has been sent, and also allows them to check for any mistakes or additional information that needs to be added. 
+When sending an appointment from someone else's calendar, you should always include that person as an attendee so that they also receive the same appointment email that their guests do. It shows them that the invitation has been sent, and also allows them to check for any mistakes or additional information that needs to be added.
 
 <!--endintro-->
 

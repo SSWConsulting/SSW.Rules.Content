@@ -1,4 +1,5 @@
 ---
+seoDescription: "Control your data entry experience by using ComboBoxes instead of single-select List Boxes."
 type: rule
 archivedreason: 
 title: Control Choice - Do you use ComboBoxes instead of single-select List Boxes?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clear online authentication status notifications help users understand their logged-in state."
 type: rule
 title: Authentication - Do you make the logged in state clear?
 uri: authentication-do-you-make-the-logged-in-state-clear

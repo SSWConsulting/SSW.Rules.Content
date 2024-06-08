@@ -1,4 +1,5 @@
 ---
+seoDescription: "Visualize presentation structure with consistent section break slides to guide audience through content."
 type: rule
 title: Do you have 'Section Break' slides?
 uri: do-you-have-a-section-break-slide

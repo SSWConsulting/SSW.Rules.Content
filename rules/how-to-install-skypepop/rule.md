@@ -1,4 +1,5 @@
 ---
+seoDescription: "SkypePOP installation guide for PC, enabling Dynamics CRM contact popups on incoming calls."
 type: rule
 archivedreason: No longer used
 title: Do you know how to install SkypePOP on your PC?

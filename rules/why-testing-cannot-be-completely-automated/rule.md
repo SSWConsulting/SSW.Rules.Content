@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand why testing cannot be completely automated, despite its potential value in using automation, human capabilities are still required for key testing skills."
 type: rule
 title: Do you understand why testing cannot be completely automated?
 uri: why-testing-cannot-be-completely-automated

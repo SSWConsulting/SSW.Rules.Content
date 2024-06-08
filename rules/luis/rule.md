@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Bot Framework's LUIS enables natural language processing for conversational AI, offering built-in support and pre-trained entities."
 type: rule
 title: Do you use LUIS?
 uri: luis

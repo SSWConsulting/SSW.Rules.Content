@@ -1,4 +1,5 @@
 ---
+seoDescription: "Update and create a new version of the Sysprep VM by installing service packs, creating a copy of the master image, modifying scripts, and generalizing computer settings."
 type: rule
 archivedreason: 
 title: How do I update and create a new version of the Sysprep VM ?

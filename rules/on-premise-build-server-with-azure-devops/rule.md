@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure an on-premises build server in Azure DevOps to reduce continuous integration build costs and optimize your project's performance."
 type: rule
 title: Do you know when to use an on-premises build server with Azure DevOps?
 uri: on-premise-build-server-with-azure-devops

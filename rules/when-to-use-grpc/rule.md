@@ -1,4 +1,5 @@
 ---
+seoDescription: "gRPC enables efficient API communication by utilizing binary data, perfect for high-performance applications."
 type: rule
 archivedreason: 
 title: Do you know when to use gRPC?

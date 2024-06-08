@@ -1,4 +1,5 @@
 ---
+seoDescription: "Disable NetBIOS on dedicated purpose adapters for improved performance and cluster stability."
 type: rule
 archivedreason: 
 title: Do you disable NetBIOS on all dedicated purpose adapters (iSCSI and Cluster Communications)?

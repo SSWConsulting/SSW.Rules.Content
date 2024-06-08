@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to expand your VHDs when running low on space and ensure your virtual machine has enough storage capacity."
 type: rule
 archivedreason: 
 title: Do you know how to expand your VHD's when you are low on space?

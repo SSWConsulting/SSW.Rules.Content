@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize product information effectively by presenting clear descriptions, key features, screen shots, and testimonials to enhance user experience."
 type: rule
 archivedreason: 
 title: Do you organize your product information on your website appropriately?

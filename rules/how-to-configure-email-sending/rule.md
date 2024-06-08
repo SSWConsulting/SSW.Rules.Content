@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure email settings for Dynamics CRM by enabling Serverside Sync, replacing the deprecated Email router."
 type: rule
 archivedreason: 
 title: Do you know how to configure email sending?

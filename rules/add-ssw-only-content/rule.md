@@ -1,4 +1,5 @@
 ---
+seoDescription: "Sharepoint experts only can access internal SSW-only content within rules."
 type: rule
 archivedreason: SharePoint isn't used for rules anymore
 title: SharePoint - Do you know how to add "ssw only" content to a rule? (internal only)
@@ -18,7 +19,6 @@ redirects:
 ---
 
 Select the element "SSW Internal Block" to show content only internally.
-
 
 <!--endintro-->
 

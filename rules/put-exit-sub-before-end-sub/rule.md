@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid ending Visual Basic Sub procedures prematurely by not placing "Exit Sub" statements before "End Sub". This unnecessary code can hinder program functionality."
 type: rule
 title: Do you know not to put Exit Sub before End Sub? (VB)
 uri: put-exit-sub-before-end-sub

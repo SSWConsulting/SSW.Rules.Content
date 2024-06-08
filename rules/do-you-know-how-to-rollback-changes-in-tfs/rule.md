@@ -1,4 +1,5 @@
 ---
+seoDescription: "Rollback changes in TFS by undoing pending changes or using Team Foundation Server Power Tools to revert unwanted code revisions."
 type: rule
 archivedreason: 
 title: Do you know how to rollback changes in TFS?

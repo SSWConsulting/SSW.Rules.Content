@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know how to use the Oxford comma? Learn the rule and when to add that extra comma to avoid ambiguity in your writing."
 type: rule
 title: Do you know how to use the Oxford comma?
 uri: oxford-comma

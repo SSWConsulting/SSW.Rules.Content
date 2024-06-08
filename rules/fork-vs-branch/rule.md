@@ -1,4 +1,5 @@
 ---
+seoDescription: "When deciding whether to fork or branch a repository, consider the purpose, relationship to the original codebase, ownership, scope of changes, and collaboration aspects."
 type: rule
 title: Git - Do you know when to create a fork vs a branch?
 uri: fork-vs-branch

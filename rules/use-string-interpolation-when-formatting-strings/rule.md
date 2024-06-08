@@ -1,4 +1,5 @@
 ---
+seoDescription: "Using string interpolation when formatting strings greatly reduces boilerplate code and makes it more human-readable."
 type: rule
 archivedreason: 
 title: Do you use string interpolation when formatting strings

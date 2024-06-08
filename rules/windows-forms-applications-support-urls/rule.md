@@ -1,4 +1,5 @@
 ---
+seoDescription: "Windows Forms applications can support URLs by adding registry keys and handling extra parameters in the main method. This allows users to jump directly to a specific record or "page" using a URL."
 type: rule
 title: Do you support URLs on Windows Forms applications?
 uri: windows-forms-applications-support-urls

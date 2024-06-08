@@ -1,4 +1,5 @@
 ---
+seoDescription: "Well-formed HTML/XML tags are essential for proper document structure and rendering. Tags that open must be properly closed to ensure correct parsing and display. Generated SEO description: Ensure proper tag closure for accurate rendering."
 type: rule
 archivedreason: 
 title: Do you make sure that all your tags are well formed ?

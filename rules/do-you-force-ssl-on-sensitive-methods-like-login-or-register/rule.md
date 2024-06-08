@@ -1,4 +1,5 @@
 ---
+seoDescription: "Force SSL on sensitive methods like "Login" or "Register" to protect user data and ensure a secure online experience."
 type: rule
 title: Do you force SSL on sensitive methods like “Login” or “Register”?
 uri: do-you-force-ssl-on-sensitive-methods-like-login-or-register

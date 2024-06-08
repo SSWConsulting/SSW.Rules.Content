@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use correct symbols when documenting instructions to avoid user confusion and improve understanding by clearly listing steps in the correct order."
 type: rule
 title: Reference - Do you use the correct symbols when documenting instructions?
 uri: use-correct-symbols-when-documenting-instructions

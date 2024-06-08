@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure the Primary Field is always the first column in a view to provide seamless navigation and user experience in Dynamics and Model-driven PowerApps."
 type: rule
 title: Do you make sure the Primary Field is always the first column in a view?
 uri: make-sure-the-primary-field-is-always-the-first-column-in-a-view

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make sure your screenshots are readable by cropping them to relevant areas and ensuring text size is suitable for various screen sizes."
 type: rule
 title: Do you make sure your screenshots are readable?
 uri: do-you-avoid-having-unreadable-screenshot-galleries-aka-thumbnails

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to filter data effectively and efficiently in DataGrid using ASP.NET and RadGrid features."
 type: rule
 archivedreason: 
 title: Do you know how to filter data?

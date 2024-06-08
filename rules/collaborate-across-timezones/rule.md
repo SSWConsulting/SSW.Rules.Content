@@ -1,4 +1,5 @@
 ---
+seoDescription: "Collaborate across timezones with minimal overlap by handing over tasks daily through thorough documentation and communication."
 type: rule
 archivedreason: 
 title: Do you know how to collaborate across time zones with minimal overlap?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve your online conversations by investigating questions before asking someone on IM, and consider AI tools or chatbots as a helpful alternative."
 type: rule
 title: Interruptions - Do you investigate your question for 2 minutes before
   asking someone on IM?

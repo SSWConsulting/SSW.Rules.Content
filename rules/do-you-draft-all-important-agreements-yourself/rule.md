@@ -1,4 +1,5 @@
 ---
+seoDescription: "Draft important agreements yourself to ensure accuracy and accountability, avoiding potential pitfalls like lack of documentation or misaligned understanding."
 type: rule
 archivedreason: 
 title: Do you draft all important agreements yourself?

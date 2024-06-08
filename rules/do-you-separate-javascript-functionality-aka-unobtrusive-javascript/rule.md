@@ -1,4 +1,5 @@
 ---
+seoDescription: "Separate JavaScript functionality by placing code in external .js files and linking them to HTML pages with script tags, rather than embedding code within HTML."
 type: rule
 archivedreason: 
 title: Do you separate JavaScript functionality (aka Unobtrusive JavaScript)?

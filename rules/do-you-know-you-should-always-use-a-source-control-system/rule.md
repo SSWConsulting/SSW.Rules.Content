@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use a source control system to track and collaborate on code changes, reducing bug introduction and fixing time."
 type: rule
 title: Do you know you should always use a source control system?
 uri: do-you-know-you-should-always-use-a-source-control-system

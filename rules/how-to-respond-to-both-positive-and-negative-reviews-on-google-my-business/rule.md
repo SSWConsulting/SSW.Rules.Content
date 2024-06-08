@@ -1,4 +1,5 @@
 ---
+seoDescription: "Google My Business - Learn how to respond effectively to both positive and negative reviews on your Google My Business listing."
 type: rule
 title: Google Business - Do you know how to respond to both positive and
   negative reviews?

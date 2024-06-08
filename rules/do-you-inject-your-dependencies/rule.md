@@ -1,4 +1,5 @@
 ---
+seoDescription: "Loosely coupled code and increased testability through dependency injection."
 type: rule
 archivedreason: 
 title: Do you inject your dependencies?

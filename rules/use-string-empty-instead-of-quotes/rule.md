@@ -1,4 +1,5 @@
 ---
+seoDescription: ".NET developers can improve performance by using String.Empty instead of "" in .NET Framework projects."
 type: rule
 title: Do you use String.Empty instead of ""?
 uri: use-string-empty-instead-of-quotes

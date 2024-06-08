@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure a seamless departure by managing employee accounts efficiently and securely when they leave your organization, avoiding vulnerabilities and complexities."
 type: rule
 title: Do you know what to do with employees' accounts when they leave?
 uri: leaving-employee-standard

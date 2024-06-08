@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the ultimate PowerShell automation platform, empowering SysAdmins to create webpages, orchestrate scripts, and streamline tasks with ease."
 type: rule
 archivedreason: 
 title: Do you use the best PowerShell automation platform?

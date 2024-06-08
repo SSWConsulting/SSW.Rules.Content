@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrading to TFS 2015 requires running DogFoodStats queries to verify a successful migration."
 type: rule
 archivedreason: 
 title: Do you run Dog Food Stats (after TFS 2015 migration)?

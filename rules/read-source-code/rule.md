@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to read source code efficiently and effectively with a top-down approach, understanding software structure, documentation, and coding conventions, while eliminating noise and focusing on main logic."
 type: rule
 title: Do you know how to read source code?
 uri: read-source-code

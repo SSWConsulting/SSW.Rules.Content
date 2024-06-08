@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure an excellent first date by conducting a Specification Review, a crucial step in winning customers and setting expectations for your services."
 type: rule
 archivedreason: 
 title: Do you ensure an excellent 1st date? (aka winning customers via a smaller "Specification Review")

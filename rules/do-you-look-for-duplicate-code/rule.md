@@ -1,4 +1,5 @@
 ---
+seoDescription: "Code duplication detection and refactoring improves maintainability by minimizing repeated code snippets. By extracting common logic into reusable methods, developers can reduce code complexity and enhance overall system performance."
 type: rule
 title: Do you look for duplicate code?
 uri: do-you-look-for-duplicate-code

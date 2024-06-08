@@ -1,4 +1,5 @@
 ---
+seoDescription: "Facebook Ads Metrics to Monitor: Optimize Your Campaigns with Sales, Leads, and Engagement Insights."
 type: rule
 title: Facebook Ads - Do you know what metrics you should follow?
 uri: facebook-ads-metrics

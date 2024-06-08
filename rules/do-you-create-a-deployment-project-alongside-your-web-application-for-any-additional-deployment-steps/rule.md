@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a ".Deployment" project alongside your web application for streamlined and environment-specific deployment steps."
 type: rule
 archivedreason: 
 title: Do you Create a “.Deployment” Project alongside your Web Application for any additional deployment steps?

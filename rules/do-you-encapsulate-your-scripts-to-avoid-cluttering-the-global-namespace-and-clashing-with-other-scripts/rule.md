@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you encapsulate your scripts to avoid cluttering the global namespace and clashing with other scripts?"
 type: rule
 archivedreason: No longer relevant for modern TS and ES era.
 title: Do you encapsulate your scripts to avoid cluttering the global namespace and clashing with other scripts?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Azure resource naming best practices: Use lowercase letters, kebab case, and include environment details to ensure consistency and ease of management."
 type: rule
 title: Do you name your Azure resources correctly?
 uri: azure-naming-resources

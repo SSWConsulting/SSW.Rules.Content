@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Teams search helps you quickly find files and collaborate on projects by searching teams, channels, messages, people, and files."
 type: rule
 title: Do you know how to use Teams Search?
 uri: how-to-use-teams-search

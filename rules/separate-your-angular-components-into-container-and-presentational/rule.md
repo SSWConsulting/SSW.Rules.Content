@@ -1,4 +1,5 @@
 ---
+seoDescription: "Separate your Angular components into presentational and container ones to simplify application development and improve maintainability."
 type: rule
 title: Practices - Do you know to separate your Angular components into
   container and presentational?

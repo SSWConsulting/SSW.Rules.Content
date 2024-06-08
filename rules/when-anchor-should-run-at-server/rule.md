@@ -1,4 +1,5 @@
 ---
+seoDescription: "Anchor tags should run at server only when needed to change target at runtime, avoiding unnecessary overhead."
 type: rule
 archivedreason: 
 title: Do you know when anchor should "run at server"?

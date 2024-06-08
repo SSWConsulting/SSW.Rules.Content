@@ -1,4 +1,5 @@
 ---
+seoDescription: "Refactor code to improve readability and maintainability by breaking down long methods into shorter, more focused functions."
 type: rule
 archivedreason: 
 title: Do you refactor your code and keep methods short?

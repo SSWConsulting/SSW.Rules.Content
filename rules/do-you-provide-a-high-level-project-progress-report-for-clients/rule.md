@@ -1,4 +1,5 @@
 ---
+seoDescription: "Project progress reports help clients stay informed about project milestones and estimates, ensuring transparency and collaboration."
 type: rule
 title: Do you provide a high level "Project Progress" report for clients?
 uri: do-you-provide-a-high-level-project-progress-report-for-clients

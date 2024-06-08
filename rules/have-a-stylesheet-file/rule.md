@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline your website's design and maintenance with a single stylesheet file (.CSS)."
 type: rule
 archivedreason: 
 title: Do you have a stylesheet file for all your formatting?

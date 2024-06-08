@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to introduce yourself correctly, making a positive first impression with authority and courtesy."
 type: rule
 archivedreason: 
 title: Do you know how to introduce yourself correctly?

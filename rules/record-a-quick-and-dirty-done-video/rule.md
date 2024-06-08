@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn to record a quick and dirty 'Done' video using OBS Studio or Camtasia. Discover how to switch scenes in OBS with hotkeys, create a professional-looking video track, and export your file for sharing."
 type: rule
 title: Do you know how to record a quick and dirty 'Done Video'?
 uri: record-a-quick-and-dirty-done-video

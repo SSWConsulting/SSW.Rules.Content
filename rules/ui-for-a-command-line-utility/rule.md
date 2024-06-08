@@ -1,4 +1,5 @@
 ---
+seoDescription: "A UI for every command line utility is essential. A good example of this is Visual Studio's project types, where a UI is provided for each command line utility."
 type: rule
 title: Do you have a UI for a command line utility?
 uri: ui-for-a-command-line-utility

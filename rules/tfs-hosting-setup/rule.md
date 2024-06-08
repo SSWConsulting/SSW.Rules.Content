@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to set up a TFS hosting environment and connect with ease. Learn the steps for connecting to your Visual Studio server, accessing project portals, reports, and downloading builds from your build server."
 type: rule
 title: Do you know how to do a TFS hosting setup?
 uri: tfs-hosting-setup

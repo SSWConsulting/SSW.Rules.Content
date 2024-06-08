@@ -1,4 +1,5 @@
 ---
+seoDescription: "Change default link sharing behavior to improve security and permission inheritance in SharePoint sites by setting "People with existing access" as the default."
 type: rule
 title: Do you change link sharing default behaviour?
 uri: change-link-sharing-default-behaviour

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Stay ahead of tasks and anticipate your boss's needs by performing minor details or distractions before they arise."
 type: rule
 archivedreason: 
 title: Do you try to be one step ahead... doing tasks before they come up?

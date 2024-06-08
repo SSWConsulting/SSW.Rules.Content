@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use temporal tables to audit data changes and easily restore deleted records by querying a history table."
 type: rule
 archivedreason: 
 title: Data - Do you use temporal tables to audit data changes?

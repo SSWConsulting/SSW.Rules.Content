@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid empty lines at the start of character columns to ensure data consistency and improve query performance."
 type: rule
 archivedreason: Replaced by [https://ssw.com.au/rules/avoid-spaces-and-empty-lines-at-the-start-of-character-columns](/rules/avoid-spaces-and-empty-lines-at-the-start-of-character-columns)
 title: Data – Do you avoid empty lines at the start of character columns?

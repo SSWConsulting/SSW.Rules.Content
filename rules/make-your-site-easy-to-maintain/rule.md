@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make your site easy to maintain by providing an 'Edit' link on each page for database-driven pages. This allows for quick and easy updates when needed."
 type: rule
 archivedreason: 
 title: Do you make your site easy to maintain?

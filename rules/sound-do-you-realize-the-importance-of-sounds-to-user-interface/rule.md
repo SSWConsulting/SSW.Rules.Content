@@ -1,4 +1,5 @@
 ---
+seoDescription: "Sounds play a crucial role in user interfaces, providing auditory feedback and enhancing the overall experience."
 type: rule
 archivedreason: 
 title: Sound - Do you realize the importance of sounds to User Interface?

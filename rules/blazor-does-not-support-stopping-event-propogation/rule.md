@@ -1,4 +1,5 @@
 ---
+seoDescription: "Blazor doesn't support stopping event propagation, making it difficult to prevent unwanted events from triggering."
 type: rule
 title: Do you know Blazor doesn't support stopping event propagation?
 uri: blazor-does-not-support-stopping-event-propogation
@@ -15,7 +16,7 @@ Workaround - When you have two fields and you want to handle tabbing out of the 
 
 <!--endintro-->
 
-To solve the issue change the binding to `@bind:event="oninput"` so the value is captured before key down. 
+To solve the issue change the binding to `@bind:event="oninput"` so the value is captured before key down.
 
 The reason is due to the problem outlined in [Keyup event behavior on tab](https://stackoverflow.com/questions/18020098/keyup-event-behavior-on-tab).
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you get a signed copy of the whole Terms and Conditions document, not just the last page?"
 type: rule
 archivedreason: 
 title: Do you get a signed copy of the whole Terms and Conditions document (not just the last page)?

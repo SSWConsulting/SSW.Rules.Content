@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure transparent Long Service Leave (LSL) accruals and compliance across various state legislations with automated payslip updates."
 type: rule
 title: Do your payslips show Long Service Leave?
 uri: show-long-service-leave-on-your-payslip

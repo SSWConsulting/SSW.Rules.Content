@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create test cases directly from Work Items or Test Plans in Azure Test Plans to streamline testing and ensure quality."
 type: rule
 title: Do you know how to create a Test Case with Azure Test Plans?
 uri: create-a-test-case-with-azure-test-plans

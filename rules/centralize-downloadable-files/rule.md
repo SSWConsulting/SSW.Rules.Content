@@ -1,4 +1,5 @@
 ---
+seoDescription: "Centralize downloadable files to simplify organization, updating, and tracking of content while improving website performance and accessibility."
 type: rule
 title: Do you centralize downloadable files?
 uri: centralize-downloadable-files

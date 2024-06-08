@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add the right tabs when creating a new Teams conversation to streamline your workflow and access necessary work items from a single location."
 type: rule
 title: Tabs - Do you add the right tabs when creating a new Teams conversation?
 uri: teams-add-the-right-tabs

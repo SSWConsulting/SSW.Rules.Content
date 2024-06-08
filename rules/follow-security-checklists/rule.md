@@ -1,4 +1,5 @@
 ---
+seoDescription: "Securely follow security checklists to protect servers, applications, and data from hostile attacks."
 type: rule
 archivedreason: 
 title: Do you follow Security Checklists?

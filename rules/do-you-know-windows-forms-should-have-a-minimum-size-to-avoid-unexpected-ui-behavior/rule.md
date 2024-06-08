@@ -1,4 +1,5 @@
 ---
+seoDescription: "Windows Forms require a minimum size to prevent unpredictable UI behavior and ensure user-friendly experiences."
 type: rule
 archivedreason: 
 title: Do you know Windows Forms should have a minimum size to avoid unexpected UI behavior

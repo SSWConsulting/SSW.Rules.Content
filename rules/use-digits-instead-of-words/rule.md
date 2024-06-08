@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use numerals instead of words when writing numbers to improve readability and noticeability on your webpage."
 type: rule
 title: Numbers - Do you use numbers digits instead of words?
 uri: use-digits-instead-of-words

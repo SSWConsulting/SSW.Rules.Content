@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best static site tech stack and create lightning-fast websites with ease. With options like Next.js, Gatsby, Astro, Scully, Gridsome, and Jekyll, find the perfect fit for your project's needs."
 type: rule
 title: Do you use the best static site tech stack?
 uri: best-static-site-tech-stack

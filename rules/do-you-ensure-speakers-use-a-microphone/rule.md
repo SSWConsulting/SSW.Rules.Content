@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure clear communication by using microphones and minimizing side conversations to keep remote attendees engaged."
 type: rule
 archivedreason: 
 title: Setup - Do you ensure speakers use a microphone?

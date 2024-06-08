@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintaining a clean and transparent Git history is crucial for codebase readability and understanding changes made over time."
 type: rule
 title: Do you have a clean git history?
 uri: clean-git-history

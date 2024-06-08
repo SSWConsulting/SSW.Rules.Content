@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know the best way to generate your classes from Swagger? NSwag is Microsoft's recommended approach for automatically generating clients for APIs. It allows you to customize your configuration and even comes built-in with @JasonTaylorDev's Clean Architecture template developed by SSW."
 type: rule
 archivedreason: 
 title: Do you know the best way to generate your classes from swagger?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use large images on slides to ensure clear visibility from the back row and prioritize important text."
 type: rule
 title: Do you use the full slide for screenshots?
 uri: do-you-use-the-full-slide-for-screenshots

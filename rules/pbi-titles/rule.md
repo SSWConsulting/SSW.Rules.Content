@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use meaningful PBI titles to effectively communicate requirements and facilitate prioritization. (Note: The original text is quite long, so I've condensed it into a shorter summary that still captures the main points.)"
 type: rule
 title: Do you use meaningful PBI titles?
 uri: pbi-titles

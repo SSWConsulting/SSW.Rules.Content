@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize Android builds and start-up times by leveraging .NET MAUI's native layer optimizations, such as AAB, R8, and AAPT2, and .NET-specific optimizations like Concurrent GC, AOT, LLVM, and IL Stripping."
 type: rule
 archivedreason: 
 title: Do you optimize your Android builds and start-up times?

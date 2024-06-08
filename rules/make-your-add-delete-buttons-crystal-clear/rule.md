@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make your add/delete buttons crystal clear by using red delete buttons with a count of affected items to empower users before making irreversible changes."
 type: rule
 title: Do you make your add/delete buttons crystal clear?
 uri: make-your-add-delete-buttons-crystal-clear

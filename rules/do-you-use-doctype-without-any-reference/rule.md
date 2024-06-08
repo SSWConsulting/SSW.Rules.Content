@@ -1,4 +1,5 @@
 ---
+seoDescription: "Since HTML5, the DOCTYPE declaration no longer requires a reference to a DTD, simplifying document types and improving browser rendering."
 type: rule
 archivedreason: 
 title: Do you use DOCTYPE without any reference?

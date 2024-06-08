@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate VSS history to TFS when necessary, considering frequent check-ins, decommissioning old VSS, or active projects."
 type: rule
 archivedreason: 
 title: Do you need to migrate the history from VSS to TFS?

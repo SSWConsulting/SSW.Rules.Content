@@ -1,4 +1,5 @@
 ---
+seoDescription: "Taxi costs covered for client site travel only, obtain tax invoice for reimbursement."
 type: rule
 archivedreason: Internal - https://my.sugarlearning.com/SSW/items/9514/travel-to-client-sites
 title: Does your company cover taxi costs?

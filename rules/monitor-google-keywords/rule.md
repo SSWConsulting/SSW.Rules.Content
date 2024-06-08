@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor Google keywords effectively to boost your online presence and stay ahead of the competition with tools like Ahrefs or SEMrush."
 type: rule
 archivedreason: 
 title: Do you monitor Google keywords?

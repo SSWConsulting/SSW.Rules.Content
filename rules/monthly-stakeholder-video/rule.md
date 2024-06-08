@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monthly stakeholder updates in video form promote transparency and engagement while providing stakeholders with accessible insights into project progress."
 type: rule
 archivedreason: 
 title: Do you record a monthly stakeholder video?

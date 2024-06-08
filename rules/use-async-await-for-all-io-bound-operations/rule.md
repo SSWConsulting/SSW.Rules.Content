@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use async/await patterns to boost .NET application performance by releasing threads and improving scalability."
 type: rule
 title: Do you use async/await for all IO-bound operations?
 uri: use-async-await-for-all-io-bound-operations

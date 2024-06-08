@@ -1,4 +1,5 @@
 ---
+seoDescription: "Plan your event wisely by creating a budget that outlines expected sponsorship and income streams, ensuring informed decisions."
 type: rule
 archivedreason: 
 title: Have you got an adequate budget?

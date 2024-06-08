@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Outlook's search tool to quickly find emails in your sent items and streamline your workflow."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/searching-outlook-effectively](/rules/searching-outlook-effectively)
 title: Do you use the search tool to find emails in Outlook?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Choose the best method of authentication for your situation by considering factors such as scope, social, volume, and MFA requirements."
 type: rule
 title: Do you choose the best method of authentication for your situation?
 uri: choosing-authentication

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate your sign-in process and save time with a 'Stay signed in' checkbox."
 type: rule
 archivedreason: 
 title: Authentication - Do you have a 'Sign me in automatically' checkbox?
@@ -16,7 +17,6 @@ redirects: []
 When you present visitors to your site with an opportunity to sign in, you should                     always include an option to have that person signed in automatically.
 
 <!--endintro-->
-
 
 ::: good  
 ![Figure: 'Stay signed in' checkbox is available](signin.jpg)  

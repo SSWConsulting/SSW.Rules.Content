@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using if-else statements instead of switch blocks to ensure better performance and maintainable code."
 type: rule
 title: Do you avoid using if-else instead of switch block?
 uri: avoid-using-if-else-instead-of-switch-block
@@ -79,11 +80,12 @@ break;
 ```
 
 ::: good
-Figure: Good example of coding practice which will result better performance 
+Figure: Good example of coding practice which will result better performance
 :::
 
 In situation where your inputs have a very skewed distribution, if-else-if could outperform switch statement by offering a fast path. Ordering your if statement with the most frequent condition first will give priority to tests upfront, whereas switch statement will test all cases with equal priority.
 
 Further Reading:
+
 * [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
 * [C# If Versus Switch Performance](https://www.dotnetperls.com/if-switch-performance)

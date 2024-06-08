@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid having "Reset" buttons on web forms as they can cause frustration and are often unnecessary."
 type: rule
 archivedreason: 
 title: Do you avoid having "Reset" buttons on webforms?

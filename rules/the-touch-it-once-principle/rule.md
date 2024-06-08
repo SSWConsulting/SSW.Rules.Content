@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost productivity by completing tasks under 15 minutes immediately and reducing decision fatigue."
 type: rule
 archivedreason: 
 title: Do you know the "touch it once" principle? (aka if something takes less than 15 minutes, do it immediately)

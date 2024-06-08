@@ -1,4 +1,5 @@
 ---
+seoDescription: "Update CRM opportunities efficiently and boost sales performance by using Follow Up Then to schedule timely reminders and leveraging Power BI reports to identify potential gaps."
 type: rule
 archivedreason: 
 title: Do you know how to keep CRM Opportunities updated?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost your website's navigation and user experience by incorporating a 'Related Links' section at the bottom of each page."
 type: rule
 archivedreason: 
 title: Do you have a section for related links?

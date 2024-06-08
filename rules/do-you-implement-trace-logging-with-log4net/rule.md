@@ -1,4 +1,5 @@
 ---
+seoDescription: "Implement trace logging using Log4Net to debug .NET applications and gain valuable insights into application behavior."
 type: rule
 title: Do you implement trace logging (with Log4Net)?
 uri: do-you-implement-trace-logging-with-log4net

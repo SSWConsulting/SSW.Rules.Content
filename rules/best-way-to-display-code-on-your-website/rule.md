@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best way to display code on your website using simple and effective formatting with &lt;pre&gt; tags."
 type: rule
 archivedreason:
 title: Do you know the best way to display code on your website?
@@ -58,10 +59,9 @@ Figure: Bad code display example - using &lt;code&gt;
   }
 </pre>
 ```
+
 ::: good
 Figure: Good code display example - using &lt;pre&gt;
 :::
 
 **Tip:**  Do not use auto-format (Ctrl-K, Ctrl-F) in Visual Studio when updating page with &lt;pre&gt; tags, or it will destroy all the code formatting. We have made a suggestion to Microsoft to fix this.
-
-

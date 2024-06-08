@@ -1,4 +1,5 @@
 ---
+seoDescription: "Watch what's going on and take a hands-on approach to ensure your software development project stays on track."
 type: rule
 title: Watch - Do you know what is going on?
 uri: watch-do-you-know-what-is-going-on

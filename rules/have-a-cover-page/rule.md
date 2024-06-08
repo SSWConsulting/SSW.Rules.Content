@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add a client photo to your proposal cover to make it memorable and personalized."
 type: rule
 archivedreason: 
 title: ​Do you have a cover page with client's photo?

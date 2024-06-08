@@ -1,4 +1,5 @@
 ---
+seoDescription: "Customize Outlook Web Access to add a company logo and enhance user experience with Exchange 2013."
 type: rule
 title: Do you customise Outlook Web Access (OWA)?
 uri: customise-outlook-web-access-owa

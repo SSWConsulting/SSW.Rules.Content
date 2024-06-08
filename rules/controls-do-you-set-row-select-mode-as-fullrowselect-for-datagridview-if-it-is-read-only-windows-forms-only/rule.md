@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set row select mode to "FullRowSelect" for read-only DataGridViews to allow users to select entire rows instead of individual columns."
 type: rule
 archivedreason: 
 title: Controls - Do you set row select mode as "FullRowSelect" for DataGridView if it is read only? (Windows Forms Only)

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Quickly responding to developer queries boosts software project efficiency and reduces costs by ensuring timely decisions."
 type: rule
 archivedreason: 
 title: Communication - Do you respond to queries quickly?

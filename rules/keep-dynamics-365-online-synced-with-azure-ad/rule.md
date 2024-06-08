@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Dynamics 365 Online syncs Azure Active Directory fields to import user information."
 type: rule
 archivedreason: 
 title: Do you keep your Dynamics 365 Online synced with Azure AD?

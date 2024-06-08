@@ -1,4 +1,5 @@
 ---
+seoDescription: "Azure Search is a suitable option for your website if you rely on Azure-based data and don't require advanced search features."
 type: rule
 archivedreason: 
 title: Search - Do you consider Azure Search for your website?

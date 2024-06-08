@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand legal implications before signing a Non-Disclosure Agreement (NDA) and protect your confidential information."
 type: rule
 title: Do you know what to do when asked to sign an NDA?
 uri: nda-gotchas

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your source control system isn't used as a backup repository by regularly verifying and testing changes."
 type: rule
 archivedreason: 
 title: Are you very clear your Source Control is not a backup repository?
@@ -25,4 +26,4 @@ Note: If you did not finish working:
 
 <!--endintro-->
 
-**Note:** Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed. 
+**Note:** Another way to do this is to enable gated check-in and prevent check-ins that do not have build and tests passed.

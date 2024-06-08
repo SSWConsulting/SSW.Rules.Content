@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers sharing work preferences with managers and accepting less interesting tasks when needed."
 type: rule
 archivedreason: 
 title: Do you share your work preferences with your manager but accept less interesting tasks when needed?

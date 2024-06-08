@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid putting connection strings in business module and instead consolidate them into a single file for easier management and deployment."
 type: rule
 title: Do you avoid putting connection strings in Business module?
 uri: avoid-putting-connection-strings-in-business-module
@@ -14,5 +15,3 @@ We strongly recommend that putting all connection strings together and saving th
 ::: bad
 ![Figure: Bad example - Putting connection strings in Business module](2024-03-09_16-10-24.png)
 :::
-
-

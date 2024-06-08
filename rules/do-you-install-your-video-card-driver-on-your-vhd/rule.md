@@ -1,4 +1,5 @@
 ---
+seoDescription: "Install your video card driver on a VHD to run two monitors simultaneously and maximize resolution."
 type: rule
 archivedreason: 
 title: Do you install your Video Card Driver on your VHD?

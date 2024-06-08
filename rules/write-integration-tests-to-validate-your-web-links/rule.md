@@ -1,4 +1,5 @@
 ---
+seoDescription: "Write integration tests to validate web links stored in application settings and ensure they return HTTP status OK."
 type: rule
 title: Do you write integration tests to validate your web links?
 uri: write-integration-tests-to-validate-your-web-links

@@ -1,4 +1,5 @@
 ---
+seoDescription: "SharePoint developers should use LINQ instead of CAML as it provides better readability, maintainability, and performance."
 type: rule
 archivedreason: 
 title: Do you use LINQ instead of CAML?

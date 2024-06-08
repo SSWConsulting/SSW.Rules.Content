@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn the quick way to create a Contact, Account, and Opportunity in one go with CRM 2013's "Qualify" button, saving you time and effort."
 type: rule
 archivedreason: 
 title: Data Entry - Do you know the quick way to create a Contact, Account, and Opportunity in one go?

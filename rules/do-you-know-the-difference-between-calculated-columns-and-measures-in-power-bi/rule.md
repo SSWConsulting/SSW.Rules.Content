@@ -1,4 +1,5 @@
 ---
+seoDescription: "Power BI users can leverage DAX to create calculated columns or measures, with the former stored in the database and used for filtering/grouping data, while the latter computes numerical metrics on aggregates of values at query time."
 type: rule
 archivedreason: 
 title: Do you know the difference between Calculated Columns and Measures in Power BI?

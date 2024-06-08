@@ -1,4 +1,5 @@
 ---
+seoDescription: "Why upgrade from AngularJS to Angular?"
 type: rule
 archivedreason: 
 title: Do you know why to upgrade from AngularJS to Angular?

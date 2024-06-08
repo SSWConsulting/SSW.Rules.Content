@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent accidental GitHub repository deletions by restricting access to only organization owners."
 type: rule
 archivedreason:
 title: Do you restrict repository deletion?

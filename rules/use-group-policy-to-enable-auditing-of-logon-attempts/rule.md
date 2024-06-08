@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enable auditing of logon attempts using Group Policy to track and monitor success/failed login attempts on user accounts."
 type: rule
 title: Do you use Group Policy to enable auditing of logon attempts​?
 uri: use-group-policy-to-enable-auditing-of-logon-attempts

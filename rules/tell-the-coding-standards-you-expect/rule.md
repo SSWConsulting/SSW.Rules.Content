@@ -1,4 +1,5 @@
 ---
+seoDescription: "Coding standards and guidelines are clearly defined in an open-source project through engineering guidelines, ensuring consistency and collaboration among contributors."
 type: rule
 archivedreason: 
 title: Do You Tell People the Coding Standards You Expect?

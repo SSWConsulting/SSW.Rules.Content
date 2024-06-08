@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create instant brand recognition by using logo motifs independently of your full company logo, leveraging symbols and elements that define your identity."
 type: rule
 archivedreason: 
 title: Do you use identifying company logo motifs?

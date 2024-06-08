@@ -1,4 +1,5 @@
 ---
+seoDescription: "Organize meetings with ease by sending Outlook appointments to colleagues and clients, ensuring timely reminders and updates."
 type: rule
 archivedreason: 
 title: Appointments - Do you send Outlook Calendar appointments when appropriate?
@@ -19,7 +20,7 @@ redirects: []
 
 ---
 
-If you wish to organize a meeting that involves some of your colleagues and a client, instead of sending an email, send an appointment. Sending appointments is convenient because all the user has to do is click 'accept' and it is in their calendar. 
+If you wish to organize a meeting that involves some of your colleagues and a client, instead of sending an email, send an appointment. Sending appointments is convenient because all the user has to do is click 'accept' and it is in their calendar.
 
 <!--endintro-->
 

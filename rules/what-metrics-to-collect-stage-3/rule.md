@@ -1,4 +1,5 @@
 ---
+seoDescription: "DevOps Stage 3: Measure application performance and process efficiency by collecting metrics on exceptions, application performance, and code maintainability."
 type: rule
 archivedreason: 
 title: 'DevOps – Stage 3: Do you know what metrics to collect?'

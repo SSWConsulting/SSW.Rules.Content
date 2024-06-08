@@ -1,4 +1,5 @@
 ---
+seoDescription: "Posts with images or videos receive an average 37% increase in engagement on Facebook and 2.3 times more engagement than those without, making them a powerful tool for building brand awareness and customer loyalty."
 type: rule
 title: Content - Do you know that posts with images/videos are more engaging?
 uri: posts-with-images-are-more-engaging

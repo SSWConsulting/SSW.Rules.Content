@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate to TFS 2010 seamlessly and optimize your development workflow."
 type: rule
 archivedreason: 
 title: Do you know your migration choices?

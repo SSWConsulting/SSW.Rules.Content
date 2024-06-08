@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Teams users can schedule important messages and reminders with Send Later, a convenient add-in tool that allows for exact date and time control."
 type: rule
 title: Do you know how to send delayed message in Microsoft Teams?
 uri: send-delayed-message-in-microsoft-teams

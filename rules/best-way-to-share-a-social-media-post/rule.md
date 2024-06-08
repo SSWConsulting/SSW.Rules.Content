@@ -1,4 +1,5 @@
 ---
+seoDescription: "When sharing a post on social media, amplify the original author's voice by including their content and adding your own thoughts and hashtags."
 type: rule
 title: Do you know the best way to share a social media post?
 uri: best-way-to-share-a-social-media-post

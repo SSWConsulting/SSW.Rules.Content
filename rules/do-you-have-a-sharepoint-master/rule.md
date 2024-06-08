@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify and optimize your company's SharePoint experience with a dedicated master expert, ensuring seamless migrations, solution deployments, and feature updates."
 type: rule
 archivedreason: 
 title: Do you have a SharePoint Master?

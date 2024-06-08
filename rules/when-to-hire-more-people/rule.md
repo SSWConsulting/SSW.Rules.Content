@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to hire more people in a consulting company depends on balancing workload and resource utilization."
 type: rule
 archivedreason: 
 title: Do you know when to hire more people?

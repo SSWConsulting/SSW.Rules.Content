@@ -1,4 +1,5 @@
 ---
+seoDescription: "When designing responsive websites, it's crucial to consider the appropriate content for each screen size. Bootstrap provides display classes, such as `.d-None`, to quickly and responsively toggle the display value of components, hiding or showing content accordingly."
 type: rule
 title: Do you use display classes to responsively hide/show content?
 uri: do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content

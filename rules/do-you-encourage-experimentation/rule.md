@@ -1,4 +1,5 @@
 ---
+seoDescription: "Encourage experimentation to increase comfort and build confidence."
 type: rule
 title: Do you encourage experimentation?
 uri: do-you-encourage-experimentation

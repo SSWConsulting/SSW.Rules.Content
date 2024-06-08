@@ -1,4 +1,5 @@
 ---
+seoDescription: "Never concatenate words in email subjects or bodies to ensure accurate spell checking and avoid mistakes."
 type: rule
 archivedreason: Adam's request - Uly approval, seems not relevant anymore
 title: Do you know NEVER to concatenate words in an email?

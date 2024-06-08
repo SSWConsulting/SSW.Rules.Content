@@ -1,4 +1,5 @@
 ---
+seoDescription: "Explaining PBIs to Product Owners: Tips and Tricks"
 type: rule
 title: Do you know how to explain PBIs?
 uri: explaining-pbis

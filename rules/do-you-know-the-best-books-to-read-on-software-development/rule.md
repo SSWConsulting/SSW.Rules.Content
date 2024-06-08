@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best books to read on software development cover topics from project management and coding principles to design patterns and testing strategies."
 type: rule
 archivedreason: 
 title: Quality - Do you know the best books to read on software development?

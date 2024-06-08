@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the best learning resources for GraphQL, including official documentation, training courses, and books, to boost your skills and expertise."
 type: rule
 title: Do you know the best learning resources for GraphQL?
 uri: the-best-learning-resources-for-graphql

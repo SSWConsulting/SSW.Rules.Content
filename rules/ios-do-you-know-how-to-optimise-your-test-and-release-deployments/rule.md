@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize iOS test and release deployments by submitting your build to App Store Connect and Testflight simultaneously, ensuring a faster review cycle and minimizing delays."
 type: rule
 archivedreason: 
 title: iOS - Do you know how to optimise your test and release deployments?

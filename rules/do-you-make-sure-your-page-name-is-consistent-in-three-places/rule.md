@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure consistent page names across URLs, page titles, and navigation menus to optimize user experience and search engine rankings."
 type: rule
 archivedreason: 
 title: Do you make sure your page name is consistent in three places?

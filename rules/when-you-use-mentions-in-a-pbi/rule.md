@@ -1,4 +1,5 @@
 ---
+seoDescription: "When you update a Product Backlog Item (PBI) to reflect a change verbally requested by the Product Owner, use the discussions feature and mention the user using "@username" instead of sending an email. This keeps track of the conversation and allows everyone involved to stay updated."
 type: rule
 title: Do you know when you use @ mentions in a PBI?
 uri: when-you-use-mentions-in-a-pbi

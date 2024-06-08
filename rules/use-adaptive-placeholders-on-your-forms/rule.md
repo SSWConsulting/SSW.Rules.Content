@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your forms with adaptive placeholders for a seamless user experience, saving space and achieving a neat visual appearance."
 type: rule
 archivedreason: 
 title: Do you use adaptive placeholders on your forms?

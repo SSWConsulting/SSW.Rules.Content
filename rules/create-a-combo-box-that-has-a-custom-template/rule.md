@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a combo-box that has a custom template to help your user by providing a more detailed view of available options."
 type: rule
 title: Do you create a combo-box that has a custom template?
 uri: create-a-combo-box-that-has-a-custom-template

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Map your domain to a target host name with ANAME records, ensuring seamless updates and flexibility for apex records and multiple domains."
 type: rule
 archivedreason: 
 title: Do you use ANAME record?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Dynamics Marketing offers four user types: Regular User, Media Buyer, Web Portal, and Public, each with unique capabilities and license requirements."
 type: rule
 archivedreason: 
 title: Do you know the difference between MDM (Microsoft Dynamics Marketing) User Types?

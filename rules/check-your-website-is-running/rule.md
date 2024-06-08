@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here is a generated SEO description based on the provided MD/MDX content: Website monitoring made easy with WhatsUp - real-time checks for website availability and performance."
 type: rule
 archivedreason: 
 title: Do you check if your website is running?

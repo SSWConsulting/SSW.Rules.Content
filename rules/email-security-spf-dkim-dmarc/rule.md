@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance email security and authenticity with SPF, DKIM, and DMARC protocols in Exchange Online."
 type: rule
 title: Do you use SPF, DKIM and DMARC for email security?
 uri: email-security-spf-dkim-dmarc

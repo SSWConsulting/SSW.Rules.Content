@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade to VS.NET 2005 with the Visual Basic Upgrade Wizard and simplify your conversion process."
 type: rule
 title: Do you use .Net built-in Visual Basic Upgrade Wizard?
 uri: use-net-built-in-visual-basic-upgrade-wizard

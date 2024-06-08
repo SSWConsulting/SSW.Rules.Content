@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run write application to run with UAC turn on requires adding App.Manifest and setting project settings for WindowsUI using requestedExecutionLevel level="requireAdministrator"."
 type: rule
 title: Do you know how to run write application to run with UAC turn on?
 uri: know-how-to-run-write-application-to-run-with-uac-turn-on

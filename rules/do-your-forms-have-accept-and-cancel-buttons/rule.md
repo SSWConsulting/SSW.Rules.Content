@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your forms have both Accept and Cancel buttons to provide users with control using "Enter" and "Esc"."
 type: rule
 title: Do your forms have Accept and Cancel buttons?
 uri: do-your-forms-have-accept-and-cancel-buttons

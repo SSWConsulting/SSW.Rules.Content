@@ -1,4 +1,5 @@
 ---
+seoDescription: "Travelers can now easily identify your location on Twitter by changing your display name to reflect where you are in the world."
 type: rule
 archivedreason: 
 title: Twitter - Do you change your display name when travelling?
@@ -15,10 +16,10 @@ redirects:
 ---
 
 When at a conference change it to the conference's hashtag:
-Eg.  **Todd Gardner at #NdcOslo** 
+Eg.  **Todd Gardner at #NdcOslo**
 
 When traveling change it to the area you are in:
-Eg.  **Todd Gardner in Norway 🇳🇴** 
+Eg.  **Todd Gardner in Norway 🇳🇴**
 
 <!--endintro-->
 

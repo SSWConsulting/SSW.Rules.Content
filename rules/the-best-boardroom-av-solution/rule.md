@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know the best boardroom AV solution? Discover how to effectively and efficiently connect devices wirelessly to your TV for seamless conferencing."
 type: rule
 title: Do you know the best boardroom AV solution?
 uri: the-best-boardroom-av-solution

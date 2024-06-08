@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to securely run Remote Server Administration Tools (RSAT) from a non-domain joined computer and manage your Active Directory environment with ease."
 type: rule
 title: Do you know how to run RSAT from a non-domain computer?
 uri: run-rsat-from-non-domain-computer

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Code reading techniques involve deciphering code downwards to understand its intended purpose, while reading across highlights how different components interact and function together."
 type: rule
 archivedreason: 
 title: Code - Can you read code down across?

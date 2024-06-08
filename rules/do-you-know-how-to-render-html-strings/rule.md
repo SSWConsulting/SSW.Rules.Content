@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent cross-site scripting (XSS) attacks and double encoding issues by using .NET Core's `IHtmlString` interface to safely render HTML strings."
 type: rule
 title: Do you know how to render HTML strings?
 uri: do-you-know-how-to-render-html-strings
@@ -39,4 +40,4 @@ Figure: Good example - HTML tags using IHtmlContent will be treated as safe HTML
 You should only use IHtmlString when you are sure that the string doesn't contain any potentially harmful script tags. When dealing with user-provided content or content from an untrusted source, always sanitize or validate the HTML before rendering it.
 :::
 
-
+

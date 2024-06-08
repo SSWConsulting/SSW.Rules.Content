@@ -1,4 +1,5 @@
 ---
+seoDescription: "Controls expertly extend the size of your ComboBoxes to show as many results as possible, optimizing user experience while maintaining a balance between display and form space."
 type: rule
 title: Controls - Do you extend the size of your ComboBoxes to show as many
   results as possible? (Windows Forms Only)

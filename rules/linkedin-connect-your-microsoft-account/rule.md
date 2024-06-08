@@ -1,4 +1,5 @@
 ---
+seoDescription: "Connect your Microsoft account to LinkedIn and unlock seamless integration across Office 365 apps."
 type: rule
 title: LinkedIn - Do you connect your Microsoft account?
 uri: linkedin-connect-your-microsoft-account

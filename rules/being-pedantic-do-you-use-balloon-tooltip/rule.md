@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve user experience by using balloon tooltips, which clearly indicate the destination control with an arrow."
 type: rule
 archivedreason: "RE: Tiago's feedback on unnecessary rules "
 title: Being Pedantic - Do you use balloon tooltip?
@@ -15,11 +16,9 @@ The standard tooltip is a rectangle, so the tool tip for the control can be misl
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Standard tooltip.](../../assets/BadTooltip.gif)  
 :::
-
 
 ::: good  
 ![Figure: Balloon tooltip.](../../assets/GoodTooltip.gif)  

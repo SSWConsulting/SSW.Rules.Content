@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft .NET combines the best of VB and C++ with a rich set of optimized features, enabling rapid development and powerful applications."
 type: rule
 title: Do you know why you should move VB6 applications to .NET?
 uri: move-vb6-applications-to-net

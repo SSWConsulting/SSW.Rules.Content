@@ -1,4 +1,5 @@
 ---
+seoDescription: "Know when to give away and when not to, with guidelines on charging clients for products."
 type: rule
 archivedreason: 
 title: Do you know when, and when not, to give away products?

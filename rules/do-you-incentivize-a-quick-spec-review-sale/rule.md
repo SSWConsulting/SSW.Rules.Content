@@ -1,4 +1,5 @@
 ---
+seoDescription: "Boost your Spec Review sale by incentivizing a quick review within 30 days and get it done at half rates."
 type: rule
 archivedreason: 
 title: Do you incentivize a quick Spec Review sale?

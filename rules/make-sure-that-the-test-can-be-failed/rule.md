@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure unit tests can fail by returning invalid values or throwing `NotImplementedException()` with TODO markers. This helps prevent useless tests and enables effective Red/Green/Refactor cycles in Test-Driven Development (TDD)."
 type: rule
 archivedreason: 
 title: Do you make sure that the test can be failed?

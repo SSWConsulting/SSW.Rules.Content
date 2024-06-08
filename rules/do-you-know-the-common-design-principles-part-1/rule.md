@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand the fundamentals of software design by learning the five SOLID principles: Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle."
 type: rule
 archivedreason: 
 title: Do you know the common Design Principles? (Part 1)

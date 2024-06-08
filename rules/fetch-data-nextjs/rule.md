@@ -1,4 +1,5 @@
 ---
+seoDescription: "Fetch data in Next.js: Leverage server-side rendering to optimize performance and SEO by using getServerSideProps, getStaticProps, or incremental static regeneration (ISR)."
 type: rule
 title: Do you know how to fetch data in Next.js?
 uri: fetch-data-nextjs

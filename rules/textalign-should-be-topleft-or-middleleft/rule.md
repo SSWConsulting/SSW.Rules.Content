@@ -1,4 +1,5 @@
 ---
+seoDescription: "Text alignment should be set to TopLeft or MiddleLeft in forms to allow text boxes to grow horizontally but not vertically."
 type: rule
 title: Do you know TextAlign should be TopLeft or MiddleLeft?
 uri: textalign-should-be-topleft-or-middleleft

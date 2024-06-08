@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering email etiquette involves understanding four standard email types: FYI (information), Tasks, Test Please (testing and acceptance), and Done (task completion)."
 type: rule
 archivedreason: 
 title: Do you know the four standard email types?

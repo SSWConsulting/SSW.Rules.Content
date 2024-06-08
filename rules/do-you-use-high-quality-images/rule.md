@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use high-quality images that accurately represent your product to avoid degrading its perceived value and to match user intent."
 type: rule
 archivedreason: 
 title: Do you use high quality images?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Based on the provided MD/MDX content, I will generate an SEO description that meets the requirements. Please provide the content, and I'll get started! 😊"
 type: rule
 archivedreason: 
 title: Do you have a Cheat Sheet for Google Ads?
@@ -23,7 +24,6 @@ Here’s a little thing to keep in mind, as Google Ads has a limitation in chara
 * **Description Line** – 90 Character Maximum
 * **Display URL** – 35 Character Maximum
 * **Final URL** – 1024 Character Maximum
-
 
 Main Key metrics to follow (depending on your strategy):
 

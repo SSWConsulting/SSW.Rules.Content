@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ergonomic and hands-free communication made possible with Bluetooth headsets."
 type: rule
 archivedreason: 
 title: Do you use a headset?

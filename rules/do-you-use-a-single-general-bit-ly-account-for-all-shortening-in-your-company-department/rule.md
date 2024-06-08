@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline reporting and collaboration by using a single Bit.ly account for all company or department URL shortening."
 type: rule
 archivedreason: This rule has been merged as a "Tip" to [https://www.ssw.com.au/rules/do-you-use-bit-ly-to-manage-your-url-shortening](/rules/do-you-use-bit-ly-to-manage-your-url-shortening)
 title: Do you use a single general bit.ly account for all shortening in your company/department?

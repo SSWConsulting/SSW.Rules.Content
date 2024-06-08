@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Azure certifications offer a range of training options to learn new skills, fill technical gaps and boost productivity."
 type: rule
 title: Do you know the relevant Azure certifications and associated exams?
 uri: azure-certifications-and-associated-exams
@@ -87,7 +88,7 @@ You will need to pass: [Exam AZ-104: Microsoft Azure Administrator](https://docs
 
 ## Specialty
 
-Cosmos is becoming a very popular database solution. Learn more by completing: 
+Cosmos is becoming a very popular database solution. Learn more by completing:
 
 #### [Microsoft Certified: Azure Cosmos DB Developer Specialty](https://docs.microsoft.com/en-us/learn/certifications/azure-cosmos-db-developer-specialty/)
 

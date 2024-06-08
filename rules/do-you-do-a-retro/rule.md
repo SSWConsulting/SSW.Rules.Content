@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do a retrospective on your events and tasks to optimize future success with fresh feedback and improved processes."
 type: rule
 archivedreason: Merged with [https://www.ssw.com.au/rules/do-a-retrospective](/rules/do-a-retrospective)
 title: Do you do a retro?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do your validation with exit instead of return to simplify and improve code readability."
 type: rule
 title: Do you do your validation with Return?
 uri: do-your-validation-with-exit-sub

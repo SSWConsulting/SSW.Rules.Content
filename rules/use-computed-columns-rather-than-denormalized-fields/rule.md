@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schema uses computed columns rather than denormalized fields to improve data integrity and reduce complexity."
 type: rule
 title: Schema - Do you use computed columns rather than denormalized fields?
 uri: use-computed-columns-rather-than-denormalized-fields

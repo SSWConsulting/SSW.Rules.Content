@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify client-focused pages by featuring their logo prominently to clarify relevance and streamline proposal navigation."
 type: rule
 archivedreason: 
 title: Do you to put the client logo on the pages that are about the client's project only?

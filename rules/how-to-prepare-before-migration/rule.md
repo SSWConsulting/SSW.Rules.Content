@@ -1,4 +1,5 @@
 ---
+seoDescription: "Before migrating your content to SharePoint Online, prepare by removing unused or old items, auditing for Orphan Users and Documents with Custom permissions."
 type: rule
 archivedreason: 
 title: Do you know how to prepare your migration? (before migration)

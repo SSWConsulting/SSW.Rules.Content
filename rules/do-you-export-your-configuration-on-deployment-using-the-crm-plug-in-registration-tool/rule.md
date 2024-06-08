@@ -1,4 +1,5 @@
 ---
+seoDescription: "Export your CRM plug-in configuration settings on deployment using the registration tool to simplify manual setup."
 type: rule
 archivedreason: 
 title: Do you export your configuration on deployment using the CRM Plug-in Registration Tool?

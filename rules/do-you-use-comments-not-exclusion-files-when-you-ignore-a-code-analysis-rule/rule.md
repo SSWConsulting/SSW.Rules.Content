@@ -1,4 +1,5 @@
 ---
+seoDescription: "When ignoring Code Analysis rules, use comments not exclusion files to suppress unnecessary warnings and improve code maintainability."
 type: rule
 title: Do you use comments not exclusion files when you ignore a Code Analysis rule?
 uri: do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule

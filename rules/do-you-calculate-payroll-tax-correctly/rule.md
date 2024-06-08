@@ -1,4 +1,5 @@
 ---
+seoDescription: "Calculate payroll tax correctly by understanding Australian government rules and state-specific exemptions, avoiding common errors and staying up to date with changes."
 type: rule
 archivedreason:
 title: Payroll (Australia) - Do you calculate Payroll tax correctly?

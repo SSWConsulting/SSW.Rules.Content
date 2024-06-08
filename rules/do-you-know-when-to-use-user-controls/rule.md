@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to use User Controls? Master recurring or shared logic and promote code reuse with these reusable UI elements."
 type: rule
 title: Do you know when to use User Controls?
 uri: do-you-know-when-to-use-user-controls

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Before scheduling Scrum meetings, create a meeting agenda and share it with attendees to ensure everyone stays on track."
 type: rule
 title: Before - Do you share the agenda?
 uri: share-the-agenda

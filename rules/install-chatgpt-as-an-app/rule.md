@@ -1,4 +1,5 @@
 ---
+seoDescription: "Install ChatGPT as a Windows or Mobile app and experience an intelligent virtual assistant for seamless communication."
 type: rule
 title: Do you install ChatGPT on Windows and Mobile?
 uri: install-chatgpt-as-an-app

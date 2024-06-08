@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here is a generated SEO description: "Stay updated on SugarLearning's product progress, roadmap changes, and metrics with our bi-weekly review email.""
 type: rule
 title: Communication - Do you know how to communicate product progress?
 uri: communicate-your-product-status

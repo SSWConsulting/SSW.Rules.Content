@@ -1,4 +1,5 @@
 ---
+seoDescription: "View Application Insights data directly within Visual Studio using CodeLens, drill into request details for enhanced debugging and optimization."
 type: rule
 archivedreason: 
 title: Do you use CodeLens to view your Application Insights data?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make frequently accessed SharePoint pages easier to find by setting them up as tabs within Microsoft Teams."
 type: rule
 archivedreason: 
 title: Tabs - Do you make frequently accessed SharePoint pages easier to find?

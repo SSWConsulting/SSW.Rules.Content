@@ -1,4 +1,5 @@
 ---
+seoDescription: "Resolve broken links caused by page renaming in SharePoint sites using JavaScript or custom 404 pages, or wait for Microsoft to address the issue."
 type: rule
 archivedreason: Irrelevant as per Marcus, Jean, and Calum
 title: Do you know how to resolve the broken links caused by page renaming?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Search and extend web applications to add HTTPS securely in central admin site rather than configuring in IIS."
 type: rule
 archivedreason: 
 title: Search - Do you add https by extending web application

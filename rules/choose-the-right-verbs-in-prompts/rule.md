@@ -1,4 +1,5 @@
 ---
+seoDescription: "Choosing the right verbs in your prompts can significantly impact the results you get from ChatGPT, helping the model understand your intent more clearly."
 type: rule
 title: Do you pay attention to your verbs?
 uri: choose-the-right-verbs-in-prompts

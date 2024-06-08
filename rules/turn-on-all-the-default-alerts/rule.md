@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server administrators enable default alerts to stay informed of imminent failures and optimize database performance."
 type: rule
 archivedreason: 
 title: DBAs - Do you turn on all the default alerts?

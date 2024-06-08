@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to use Git for version control: Manage open source projects, remote teams, or unstable internet connections with built-in support from Team Foundation Server Update 2 and 2013."
 type: rule
 archivedreason: Deprecated
 title: Do you know when to use Git for version control?

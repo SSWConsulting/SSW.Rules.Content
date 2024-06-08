@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve user navigation by underlining items with Hyperlink Action in your reports."
 type: rule
 archivedreason:
 title: Layout - Do you underline items with Hyperlink Action?

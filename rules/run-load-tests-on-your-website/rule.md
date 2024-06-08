@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure your website's performance and scalability under high loads with load testing, avoiding errors and downtime."
 type: rule
 title: Do you run load tests on your website?
 uri: run-load-tests-on-your-website

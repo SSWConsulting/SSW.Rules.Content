@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain network security by separating VLANs and implementing access control lists and firewalls to prevent unauthorized access."
 type: rule
 title: Do you keep your networks separated?
 uri: separate-networks

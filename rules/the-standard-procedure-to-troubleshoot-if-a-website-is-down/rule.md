@@ -1,4 +1,5 @@
 ---
+seoDescription: "When a website goes down, troubleshoot the issue by restarting IIS services, recycling application pools, and rebooting the web server machine. If problems persist, turn on maintenance mode and reproduce the issue on a testing site."
 type: rule
 archivedreason: 
 title: Do you know the standard procedure to troubleshoot if a website is down?

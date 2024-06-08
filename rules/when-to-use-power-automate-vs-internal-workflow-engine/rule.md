@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to use Power Automate vs internal workflow engine (Model Driven Apps)?"
 type: rule
 archivedreason: 
 title: Do you know when to use Power Automate vs internal workflow engine (Model Driven Apps)?

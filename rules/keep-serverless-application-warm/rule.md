@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you keep your serverless application warm to avoid cold starts?"
 type: rule
 archivedreason: 
 title: Do you keep your serverless application warm (to avoid cold starts)?

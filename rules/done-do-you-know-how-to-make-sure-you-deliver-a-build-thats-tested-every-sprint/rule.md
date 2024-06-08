@@ -1,4 +1,5 @@
 ---
+seoDescription: "Deliver a build that's tested every Sprint by aiming for a "test please" a few days before the end and creating coded UI tests for each Story to prove completeness."
 type: rule
 archivedreason: 
 title: Done - Do you know how to make sure you deliver a build that’s tested every Sprint

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Developers ensure code quality by following a test-driven process, involving continuous integration and gated check-in."
 type: rule
 archivedreason: 
 title: Before starting - Do you follow a Test Driven Process?

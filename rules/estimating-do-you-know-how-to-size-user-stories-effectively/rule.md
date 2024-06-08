@@ -1,4 +1,5 @@
 ---
+seoDescription: "Estimating Product Backlog Items (PBIs) effectively - Do you know how to size your user stories correctly?"
 type: rule
 title: Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?
 uri: estimating-do-you-know-how-to-size-user-stories-effectively

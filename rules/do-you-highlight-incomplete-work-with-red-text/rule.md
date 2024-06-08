@@ -1,4 +1,5 @@
 ---
+seoDescription: "Highlighting incomplete work with red text makes it clear to testers and Product Owners which parts of your application are not yet ready for feedback."
 type: rule
 archivedreason: Covered by [https://www.ssw.com.au/rules/todo-tasks](/rules/todo-tasks)
 title: Do you highlight incomplete work with red text?

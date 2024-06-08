@@ -1,4 +1,5 @@
 ---
+seoDescription: "Documenting your Web API with Swagger provides an automatic UI to explore and test methods, ensuring seamless integration with your application."
 type: rule
 archivedreason: 
 title: Do you document your Web API?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a website in IIS before deploying with WebDeploy to specify settings like directory, app pool, and .Net version."
 type: rule
 archivedreason: 
 title: Do you know to Create the Website in IIS if using Web Deploy?

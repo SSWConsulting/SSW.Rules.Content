@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective management practices include enforcing deadlines, having a Sprint Plan, and conducting regular reviews and retrospectives."
 type: rule
 title: Management - Do you enforce deadlines, have a Sprint Plan, Review and Retro?
 uri: deadlines-and-sprints

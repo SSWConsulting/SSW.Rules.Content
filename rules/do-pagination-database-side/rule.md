@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you do pagination database side? Efficiently retrieve requested page with reduced data retrieval and counting."
 type: rule
 title: Do you do pagination database side?
 uri: do-pagination-database-side

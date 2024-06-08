@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add the rule owner and acknowledge contributors to every rule in SharePoint."
 type: rule
 archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-an-Acknowledgment
 title: Do you add acknowledgements to every rule?

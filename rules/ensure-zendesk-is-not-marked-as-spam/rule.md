@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent Zendesk tickets from being marked as spam by whitelisting your domain in your primary email server."
 type: rule
 archivedreason: 
 title: Do you ensure Zendesk is not marked as spam?

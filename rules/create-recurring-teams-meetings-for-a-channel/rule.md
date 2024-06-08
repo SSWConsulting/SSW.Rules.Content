@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create recurring team meetings for a channel and make them easily accessible to all members."
 type: rule
 title: Do you know how to create recurring teams meetings for a channel?
 uri: create-recurring-teams-meetings-for-a-channel

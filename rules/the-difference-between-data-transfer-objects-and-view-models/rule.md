@@ -1,4 +1,5 @@
 ---
+seoDescription: "Data Transfer Objects (DTOs) and View Models (VMs) are often confused with one another. A DTO simply moves data between parts of an application, while a ViewModel provides functionality and state for a view, acting as glue between UI and service layers."
 type: rule
 archivedreason: 
 title: Do you know the difference between data transfer objects and view models?

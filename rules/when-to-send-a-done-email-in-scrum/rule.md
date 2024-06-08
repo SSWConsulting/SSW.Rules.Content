@@ -1,4 +1,5 @@
 ---
+seoDescription: "When to send a 'done' email in Scrum and how to do it effectively."
 type: rule
 archivedreason: 
 title: Done - Do you know to send a 'done' email in Scrum?

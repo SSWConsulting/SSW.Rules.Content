@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Basic Volumes inside VHDs to ensure Microsoft Data Protection Manager can perform Child State Backups with Hyper-V Virtual Machines."
 type: rule
 archivedreason: 
 title: Do you use Basic Volumes inside VHD's?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to craft a compelling introduction and closing statements for your product demonstrations that leave viewers satisfied."
 type: rule
 archivedreason: 
 title: Production - Do you have a good introduction and closing statements?

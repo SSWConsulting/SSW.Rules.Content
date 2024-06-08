@@ -1,4 +1,5 @@
 ---
+seoDescription: "At a Sprint Planning meeting, the Scrum Team plans and prioritizes work to be done during the upcoming sprint, answering questions about why the sprint is valuable, what can be delivered, and how the work will be achieved."
 type: rule
 title: Do you know what happens at a Sprint Planning meeting?
 uri: what-happens-at-a-sprint-planning-meeting

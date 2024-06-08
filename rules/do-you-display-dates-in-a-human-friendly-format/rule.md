@@ -1,4 +1,5 @@
 ---
+seoDescription: "Format time and date on your website in a human-friendly manner to ensure users can easily understand the information presented."
 type: rule
 archivedreason: 
 title: Do you display date and time in a human friendly format?

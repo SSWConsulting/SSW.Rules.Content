@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft endpoint security uses Conditional Access policies to restrict user access to Azure and Office365 resources based on location, device types, and multi-factor authentication (MFA) requirements."
 type: rule
 title: Do you use Conditional Access policies?
 uri: conditional-access-policies

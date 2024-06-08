@@ -1,4 +1,5 @@
 ---
+seoDescription: "Handle customer complaints efficiently to retain loyalty and gain new customers by following a structured approach that prioritizes understanding the issue, isolating the problem, and providing a solution."
 type: rule
 title: Do you make complaints a positive experience?
 uri: make-complaints-a-positive-experience

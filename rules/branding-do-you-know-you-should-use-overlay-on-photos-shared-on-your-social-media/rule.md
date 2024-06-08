@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know when to use an overlay on images? Add a professional touch and consistency to your social media posts with overlays."
 type: rule
 archivedreason: 
 title: Branding - Do you know when to use an overlay on images?
@@ -30,12 +31,9 @@ redirects:
 
 ---
 
-Sometimes the photo you want to share is not ideal to include texts and/or your logo. Adding overlays on these images creates a professional look to any photo, helps to hide messy desks or floors if needed, and it gives it a consistent contrast and feel to the post. 
-
-
+Sometimes the photo you want to share is not ideal to include texts and/or your logo. Adding overlays on these images creates a professional look to any photo, helps to hide messy desks or floors if needed, and it gives it a consistent contrast and feel to the post.
 
 It’s a good way of adding text to a photo as well following your branding guidelines at the same time.
-
 
 <!--endintro-->
 

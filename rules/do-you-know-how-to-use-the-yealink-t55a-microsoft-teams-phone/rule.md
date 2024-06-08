@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate from Skype for Business to Microsoft Teams with Yealink's T55A phone and enjoy seamless voice transitions."
 type: rule
 archivedreason: 
 title: Do you know how to use the Yealink T55A Microsoft Teams phone?

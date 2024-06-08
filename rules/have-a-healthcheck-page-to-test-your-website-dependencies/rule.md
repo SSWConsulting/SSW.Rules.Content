@@ -1,4 +1,5 @@
 ---
+seoDescription: "Test your website's dependencies and functionality with a comprehensive health check page."
 type: rule
 title: Do you have a /HealthCheck (was /zsValidate) page to test your website
   dependencies?

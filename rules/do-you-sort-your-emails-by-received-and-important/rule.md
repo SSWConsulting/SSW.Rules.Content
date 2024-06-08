@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize your email productivity by sorting important messages received at the top with Outlook's built-in functionality."
 type: rule
 archivedreason: 
 title: Do you sort your emails by "Received" and "Important"?

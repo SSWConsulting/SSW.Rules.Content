@@ -1,4 +1,5 @@
 ---
+seoDescription: "Print out your general ledger and ask your boss to initial to ensure accurate cheque numbers and memo descriptions."
 type: rule
 archivedreason: 
 title: Do you print out your general ledger for the week and ask your boss to initial?

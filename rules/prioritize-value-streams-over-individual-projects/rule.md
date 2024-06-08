@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prioritize value streams over individual projects to ensure maximum business and customer value by aligning work with overarching goals, improving efficiency, and delivering genuine value to customers."
 type: rule
 title: Do you prioritize value streams over individual projects?
 guid: 2d901374-b579-4c9f-8672-f2a5e360ac87

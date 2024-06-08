@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage your deleted items in Outlook to avoid wasting space and time searching through thousands of messages."
 type: rule
 archivedreason: 
 title: Do you manage your Deleted Items?

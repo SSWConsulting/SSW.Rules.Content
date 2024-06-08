@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade your TFS2008 databases to TFS2010 by following a "move based upgrade" approach, ensuring a seamless transition with detailed steps and visuals."
 type: rule
 archivedreason: 
 title: Do you know how to upgrade your TFS2008 databases?

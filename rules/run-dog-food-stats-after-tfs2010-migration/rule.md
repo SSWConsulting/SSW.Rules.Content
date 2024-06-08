@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check if TFS 2010 migration was successful by running "Dog Food" stats and comparing numbers with previous results."
 type: rule
 archivedreason: 
 title: Do you run Dog Food Stats (after TFS 2010 migration)?

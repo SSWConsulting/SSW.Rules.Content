@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid redundant linking (aka single link to a single location) by having only one link per page section that points to the same target. This helps users focus on the main text content and reduces confusion caused by multiple links leading to the same place."
 type: rule
 archivedreason: 
 title: Do you avoid redundant linking (aka have a single link to a single location)?

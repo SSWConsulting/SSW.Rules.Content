@@ -1,4 +1,5 @@
 ---
+seoDescription: "Staying connected while traveling overseas without breaking the bank, explore affordable options like dual-SIM phones, portable routers, and prepaid travel SIMs."
 type: rule
 title: Do you keep yourself connected while travelling overseas?
 uri: keep-yourself-connected-overseas

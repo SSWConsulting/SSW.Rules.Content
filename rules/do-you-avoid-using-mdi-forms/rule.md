@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using MDI forms due to their limitations and outdated design, instead opting for SDI applications that provide a more intuitive and modern user experience."
 type: rule
 title: Do you avoid using MDI forms?
 uri: do-you-avoid-using-mdi-forms

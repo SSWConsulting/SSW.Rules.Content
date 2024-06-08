@@ -1,4 +1,5 @@
 ---
+seoDescription: "Setup internal and external access to a web application with default HTTP, secure HTTPS, and reverse proxy configurations for seamless sharing."
 type: rule
 archivedreason: 
 title: Do you setup web application for internal and external access

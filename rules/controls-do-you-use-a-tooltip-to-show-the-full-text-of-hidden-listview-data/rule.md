@@ -1,4 +1,5 @@
 ---
+seoDescription: "Controls - Show full text of hidden ListView data using ToolTip."
 type: rule
 title: Controls - Do you use a ToolTip to show the full text of hidden ListView data?
 uri: controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data

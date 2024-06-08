@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve productivity and multitasking with multiple monitors, increasing efficiency by up to 30% for developers and professionals alike."
 type: rule
 archivedreason: 
 title: Setup - Do you use two monitors?

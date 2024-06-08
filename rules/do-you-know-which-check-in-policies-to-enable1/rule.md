@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enable check-in policies in TFS to enforce code quality and coding standards before committing changes."
 type: rule
 archivedreason: 
 title: Do you know which check-in policies to enable?

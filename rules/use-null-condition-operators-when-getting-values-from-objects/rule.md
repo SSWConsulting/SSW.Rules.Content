@@ -1,4 +1,5 @@
 ---
+seoDescription: "Simplify code by using null-conditional operators to easily check for null values when retrieving object properties."
 type: rule
 archivedreason: 
 title: Do you use null condition operators when getting values from objects

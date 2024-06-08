@@ -1,4 +1,5 @@
 ---
+seoDescription: "React is a simple and easy-to-learn JavaScript library for building user interfaces that offers native approach to mobile app development, one-way data binding, performance, testability, and great developer tools."
 type: rule
 archivedreason: 
 title: Do you know why React is great?

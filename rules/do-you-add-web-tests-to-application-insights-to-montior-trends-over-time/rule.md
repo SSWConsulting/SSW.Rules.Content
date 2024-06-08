@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor trends over time and identify performance regressions with Application Insights web tests, tracking general performance from different locations worldwide."
 type: rule
 archivedreason: 
 title: Do you add Web Tests to Application Insights to monitor trends over time?

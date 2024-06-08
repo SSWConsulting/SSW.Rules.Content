@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you link emails to the rule or template they follow?"
 type: rule
 archivedreason: 
 title: Do you link emails to the rule/template they follow?

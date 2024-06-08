@@ -1,4 +1,5 @@
 ---
+seoDescription: "Protect sensitive information by avoiding email and using secure communication methods to prevent unauthorized access and potential harm."
 type: rule
 title: Do you avoid emailing sensitive information?
 uri: do-you-avoid-emailing-sensitive-information

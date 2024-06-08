@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to set up GitHub notifications to fit your personal preferences and reduce unwanted emails about automated actions."
 type: rule
 archivedreason:
 title: Do you know how to setup GitHub notifications?

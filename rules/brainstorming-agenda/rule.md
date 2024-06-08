@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here's the generated SEO description: "Prepare for a day of innovative ideas and collaboration at our Brainstorming Day, where teams will work together to develop and present their projects.""
 type: rule
 title: Pre event - Do you have a Brainstorming Day agenda?
 uri: brainstorming-agenda

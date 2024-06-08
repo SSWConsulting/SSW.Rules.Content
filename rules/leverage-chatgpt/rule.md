@@ -1,4 +1,5 @@
 ---
+seoDescription: "Leverage the ChatGPT API to revolutionize your applications with AI-driven language capabilities."
 type: rule
 title: Do you know how you can leverage the ChatGPT API?
 uri: leverage-chatgpt

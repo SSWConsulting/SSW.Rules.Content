@@ -1,4 +1,5 @@
 ---
+seoDescription: "Visually filter out non-direct emails by making CC's grey in your inbox to reduce noise and increase productivity."
 type: rule
 archivedreason: 
 title: Do you know how to make your CC’s grey?

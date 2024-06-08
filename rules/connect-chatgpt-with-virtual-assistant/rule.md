@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance your mobile experience by connecting ChatGPT with Siri or Google Assistant!"
 type: rule
 title: Do you Connect ChatGPT with your Siri or Google Assistant?
 uri: connect-chatgpt-with-virtual-assistant

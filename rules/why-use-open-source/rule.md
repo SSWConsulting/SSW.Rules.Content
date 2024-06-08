@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the benefits of using Open Source software, including transparency, customization, and quality, while also considering potential downsides such as lifespan and support limitations."
 type: rule
 title: Do you use Open Source software?
 uri: why-use-open-source

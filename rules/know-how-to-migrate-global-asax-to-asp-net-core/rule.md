@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate Global.asax to ASP.NET Core and refactor session management logic to leverage middleware."
 type: rule
 title: Do you know how to migrate Global.asax to ASP.NET Core?
 uri: know-how-to-migrate-global-asax-to-asp-net-core

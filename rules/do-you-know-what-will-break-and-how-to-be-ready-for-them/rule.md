@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrading to a new Team Foundation Server schema requires careful planning and migration of custom reports."
 type: rule
 archivedreason: 
 title: Do you know what will break and how to be ready for them?

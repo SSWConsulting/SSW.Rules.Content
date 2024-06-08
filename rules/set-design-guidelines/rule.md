@@ -1,4 +1,5 @@
 ---
+seoDescription: "Set design guidelines to unify your company's visual identity and create a cohesive brand image across all touchpoints."
 type: rule
 title: Do you set design guidelines for your company?
 uri: set-design-guidelines

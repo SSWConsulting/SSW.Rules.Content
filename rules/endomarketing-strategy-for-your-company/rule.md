@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to reduce employee turnover and attract top talent with an effective Endomarketing (Internal Marketing) strategy that nurtures a positive workplace culture."
 type: rule
 title: Do you have an Endomarketing (Internal Marketing) strategy in your company?
 uri: endomarketing-strategy-for-your-company

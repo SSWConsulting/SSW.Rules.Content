@@ -1,4 +1,5 @@
 ---
+seoDescription: "Naming conventions are crucial to simpler code, and following established guidelines can make a significant difference in maintaining readability and scalability."
 type: rule
 archivedreason: 
 title: Do you follow naming conventions?

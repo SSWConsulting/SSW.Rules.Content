@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you get rid of legacy items in SharePoint Online?"
 type: rule
 title: Do you get rid of legacy items in SharePoint Online?
 guid: 2156a33a-2b52-4ba7-89f0-96aa6a78f1a5

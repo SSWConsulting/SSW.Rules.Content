@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure proper spelling, grammar, and punctuation when creating web content to convey your message effectively."
 type: rule
 archivedreason: 
 title: Do you know to always be careful with your spelling, grammar, and punctuation?
@@ -29,7 +30,7 @@ When on a web page, [install Grammarly Addon for Chrome](https://chrome.google.c
 
 Any other text can be checked manually. Go to [Grammarly](https://app.grammarly.com), create a New Document and Paste your content to check your text.
 
-![Figure: A typo caught by Grammarly](grammarly.png) 
+![Figure: A typo caught by Grammarly](grammarly.png)
 
 ### Documents
 
@@ -46,4 +47,3 @@ On PowerPoint, press **F7** (or on the ribbon go to **Review | Spelling & Gramma
 You should also keep "Check grammar with spelling" checked in your PowerPoint **Options | Proofing**:
 
 ![Figure: Make sure "Check grammar with spelling" is enabled](ppt-check-spelling.png)  
-

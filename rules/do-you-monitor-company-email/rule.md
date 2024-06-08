@@ -1,4 +1,5 @@
 ---
+seoDescription: "Monitor company email health and security with Office 365 Security & Compliance's Mail Flow Map, outbound and inbound email counts, alerts, and queues for proactive issue detection."
 type: rule
 archivedreason: 
 title: Do you monitor company email?

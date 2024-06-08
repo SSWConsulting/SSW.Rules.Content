@@ -1,4 +1,5 @@
 ---
+seoDescription: "Replace the standard .NET Date Time Picker with Infragistics' UltraDatePicker to handle null date values and simplify DataBinding."
 type: rule
 title: Do you replace the standard .NET Date Time Picker?
 uri: do-you-replace-the-standard-net-date-time-picker

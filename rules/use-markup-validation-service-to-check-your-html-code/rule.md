@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use Markup Validation Service to check your HTML and XHTML code."
 type: rule
 archivedreason: 
 title: Do you use Markup Validation Service to check your HTML and XHTML code?

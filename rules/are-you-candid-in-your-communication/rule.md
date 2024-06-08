@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain honest communication and trust by being candid and admitting uncertainty, rather than spreading wishful thinking."
 type: rule
 archivedreason: 
 title: Communication - Are you always candid in your communication?
@@ -23,16 +24,16 @@ Nothing breaks down a team like a lack of trust. Remember, honesty starts with t
 You also need to make sure you qualify your level of certainty in an answer, so that your guess (which could be wrong) does not end up misleading someone.
 
 ::: greybox
-- Is the database corrupt?
-- No.
+* Is the database corrupt?
+* No.
 :::
 ::: bad
 Figure: Bad example
 :::
 
 ::: greybox
-- Is the database corrupt?
-- I don't think so but I'd need investigate further to be sure.
+* Is the database corrupt?
+* I don't think so but I'd need investigate further to be sure.
 :::
 ::: good
 Figure: Good example

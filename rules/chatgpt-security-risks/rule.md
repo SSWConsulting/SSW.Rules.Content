@@ -1,4 +1,5 @@
 ---
+seoDescription: "ChatGPT security risks include data breaches and unauthorized access to confidential information, while best practices involve not sharing sensitive info and monitoring data retention policies."
 type: rule
 title: Do you know the potential security risks of using ChatGPT?
 uri: chatgpt-security-risks

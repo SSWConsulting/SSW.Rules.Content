@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure accurate HTML coding by closing all opening quotations of attributes with equivalent closing quotations to maintain desired layout and avoid unexpected results."
 type: rule
 title: Do you close quotations of all your HTML attributes?
 uri: close-quotations-of-html-attributes

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering document version control to ensure transparency and collaboration."
 type: rule
 title: Do you know how to work with document versions?
 uri: do-you-know-how-to-work-with-document-versions

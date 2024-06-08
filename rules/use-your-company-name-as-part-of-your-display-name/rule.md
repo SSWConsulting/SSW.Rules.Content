@@ -1,4 +1,5 @@
 ---
+seoDescription: "Display your company name and location to brand your Skype account and indicate work purposes, while also avoiding confusion with others who may have the same name. [Your Company Name] [Location]."
 type: rule
 archivedreason: 
 title: Display - Do you use your company name and location as part of your display name?

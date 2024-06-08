@@ -1,4 +1,5 @@
 ---
+seoDescription: "When using Azure DevOps, reply 'Done' using Team Companion after completing a task that requires code changes."
 type: rule
 archivedreason: we don’t use Team Companion any more
 title: Dones - Do you reply 'Done' using Team Companion when using Azure DevOps?

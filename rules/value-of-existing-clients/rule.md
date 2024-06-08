@@ -1,4 +1,5 @@
 ---
+seoDescription: "Nurture existing client relationships to reap long-term benefits and reduce marketing costs by up to 600%."
 type: rule
 archivedreason: 
 title: Do you realize the value of existing clients?

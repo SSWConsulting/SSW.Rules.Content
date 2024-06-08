@@ -1,4 +1,5 @@
 ---
+seoDescription: "Types of video cuts include jump cuts, which involve straight cutting between the same piece of footage to shorten the video and quicken the pace."
 type: rule
 archivedreason: 
 title: Post-Production - Do you know the types of video cuts?

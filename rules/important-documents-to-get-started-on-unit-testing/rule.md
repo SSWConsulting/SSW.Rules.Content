@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover essential resources to get started with unit testing and learn how to write high-quality software with these expert-approved sources."
 type: rule
 title: Do you know good sources of information to get started with Unit Testing?
 uri: important-documents-to-get-started-on-unit-testing

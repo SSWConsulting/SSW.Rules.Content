@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline Azure alert notifications by setting them up to go directly to a Teams channel, eliminating the need for manual forwarding and ensuring important emails are easily accessible."
 type: rule
 title: Do you set up Azure alert emails to go to a Teams channel?
 uri: set-up-azure-alert-emails-on-teams-channel

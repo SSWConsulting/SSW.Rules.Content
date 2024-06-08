@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the power of Entity Relationship Diagrams (ERDs) in visualizing your database architecture. Learn how to define cardinality, optionality, and many-to-many relationships for a deeper understanding of your data's structure."
 type: rule
 title: Do you visualize your database with an ERD?
 uri: erds

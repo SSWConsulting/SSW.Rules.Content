@@ -1,4 +1,5 @@
 ---
+seoDescription: "Meet new prospects to show them an estimate by presenting findings from your Spec Review through a meeting or Teams call."
 type: rule
 title: Do you always meet new prospects to show them an estimate?
 uri: for-new-prospects-do-you-always-meet-them-to-show-them-an-estimate

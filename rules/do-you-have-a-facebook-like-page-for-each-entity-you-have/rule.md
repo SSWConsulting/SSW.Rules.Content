@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you need a Facebook Like Page for each entity? Decide wisely, as it requires consistent updates and maintenance."
 type: rule
 archivedreason: "Irrelevant as per Tiago \n\nRE: SSW Rules [BAD] - Do you have a Facebook Like Page for each entity you have?"
 title: Do you have a Facebook Like Page for each entity you have?

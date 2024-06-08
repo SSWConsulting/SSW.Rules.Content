@@ -1,4 +1,5 @@
 ---
+seoDescription: "Save important reference items outside your inbox to stay organized and focused on actionable tasks."
 type: rule
 title: Do you save important items in a separate folder?
 uri: do-you-save-important-items-in-a-separate-folder

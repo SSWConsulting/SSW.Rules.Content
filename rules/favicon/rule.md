@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add a high-quality favicon to your website to give it a professional look and feel, enhancing user experience."
 type: rule
 archivedreason: 
 title: Do you add a favicon to your website?

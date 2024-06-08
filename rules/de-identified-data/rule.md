@@ -1,4 +1,5 @@
 ---
+seoDescription: "Only transfer de-identified data to ensure the privacy and security of client information."
 type: rule
 archivedreason:
 title: Do you only transfer de-identified data?

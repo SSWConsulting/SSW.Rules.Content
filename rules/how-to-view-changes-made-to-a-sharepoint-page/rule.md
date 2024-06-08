@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to view changes made to a SharePoint page and document versions with our step-by-step guide."
 type: rule
 title: Do you know how to view changes made to a SharePoint page?
 uri: how-to-view-changes-made-to-a-sharepoint-page

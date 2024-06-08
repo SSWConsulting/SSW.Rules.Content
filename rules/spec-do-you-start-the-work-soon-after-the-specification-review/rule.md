@@ -1,4 +1,5 @@
 ---
+seoDescription: "Start software projects promptly after Specification Review to retain momentum and maintain developer focus."
 type: rule
 archivedreason: 
 title: Do you aim to start the work soon after the Specification Review?

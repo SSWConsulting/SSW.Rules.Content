@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upload work-related videos to your own YouTube channel under a playlist called "Professional" for unlisted videos or directly onto the company's YouTube channel for promoting their presence."
 type: rule
 archivedreason: 
 title: Do you know where to upload work related videos?

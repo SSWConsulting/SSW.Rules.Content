@@ -1,4 +1,5 @@
 ---
+seoDescription: "To aggregate similar subjects and make them easily searchable on Twitter, have a banner that clearly shows the hashtag people should use to refer to your business or event."
 type: rule
 archivedreason: Irrelevant as per Tiago and Camilla
 title: Do you have a banner to advertize the hashtag you want people to use?

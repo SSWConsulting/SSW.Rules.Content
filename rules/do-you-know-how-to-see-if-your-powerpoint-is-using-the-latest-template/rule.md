@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check if your PowerPoint template has been updated to the latest version with this simple trick."
 type: rule
 title: Do you know how to see if your PowerPoint is using the latest template?
 uri: do-you-know-how-to-see-if-your-powerpoint-is-using-the-latest-template

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid duplicate connection strings in web.config to prevent errors and improve application performance."
 type: rule
 title: Do you avoid using duplicate connection string in web.config?
 uri: do-you-avoid-using-duplicate-connection-string-in-web-config

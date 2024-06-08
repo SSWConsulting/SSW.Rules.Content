@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline cloud identity management and boost security by integrating SCIM with Azure Active Directory."
 type: rule
 title: Do you integrate SCIM for Identity Management?
 uri: use-scim-for-identity-management

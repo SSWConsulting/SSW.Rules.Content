@@ -1,4 +1,5 @@
 ---
+seoDescription: "When you update your blog post, use the word "UPDATED" clearly (in capitals and in red for example). The date should also be added, if relevant."
 type: rule
 archivedreason: 
 title: Do you know to update a blog?

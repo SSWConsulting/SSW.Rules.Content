@@ -1,4 +1,5 @@
 ---
+seoDescription: "Say goodbye to a co-worker leaving the company with a special farewell ceremony, personalized card, or team gathering."
 type: rule
 title: Leaving - Do you prepare a special goodbye to a co-worker leaving the company?
 uri: prepare-a-special-goodbye-to-a-co-worker-leaving-the-company

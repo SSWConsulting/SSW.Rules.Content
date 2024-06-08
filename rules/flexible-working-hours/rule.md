@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain a consistent routine and separate work from personal life to stay focused and motivated."
 type: rule
 archivedreason: 
 title: Do you aim to keep your working hours consistent?

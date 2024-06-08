@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to create new posts on your WordPress blog without access to the admin area using the Jetpack plugin and Ben Cull's video."
 type: rule
 archivedreason: 
 title: Do you know how to create posts via email?

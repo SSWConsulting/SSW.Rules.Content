@@ -1,4 +1,5 @@
 ---
+seoDescription: "SQL Server system administrator privileges ensure successful TFS upgrades and prevent database corruption issues."
 type: rule
 archivedreason: 
 title: Does your user account have SQL Server System Administrator privileges in SQL Server?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run services on their own AD accounts to ensure secure and organized management of your network's identity."
 type: rule
 title: Do you run services on their own AD accounts?
 uri: run-services-on-their-own-ad-accounts

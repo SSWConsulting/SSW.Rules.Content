@@ -1,4 +1,5 @@
 ---
+seoDescription: "Streamline your Dynamics 365 experience with real-time insights and next-best-action recommendations using Copilot."
 type: rule
 archivedreason: 
 title: Do you know how to use Dynamics 365 Copilot?

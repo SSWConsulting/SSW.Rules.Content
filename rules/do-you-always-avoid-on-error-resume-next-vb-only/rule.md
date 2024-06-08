@@ -1,4 +1,5 @@
 ---
+seoDescription: "Never use On Error Resume Next in VB (and VB.NET) projects. If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling."
 type: rule
 title: Do you always avoid On Error Resume Next? (VB Only)
 uri: do-you-always-avoid-on-error-resume-next-vb-only

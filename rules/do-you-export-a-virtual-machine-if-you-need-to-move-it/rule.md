@@ -1,4 +1,5 @@
 ---
+seoDescription: "Exporting virtual machines from Hyper-V servers ensures a safe and seamless migration process, preserving settings and snapshots."
 type: rule
 archivedreason: 
 title: Do you export a Virtual Machine if you need to move it?

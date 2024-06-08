@@ -1,4 +1,5 @@
 ---
+seoDescription: "Don't always use the latest jQuery version, as newer versions may not support older browsers."
 type: rule
 archivedreason: Can’t keep it up-to-date + we don't use jQuery. Approved by Anthony N
 title: Do you know which version of jQuery to use?

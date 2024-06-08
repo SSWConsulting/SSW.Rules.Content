@@ -1,4 +1,5 @@
 ---
+seoDescription: "Defining quality levels upfront (Gold vs Silver) sets clear expectations with stakeholders and ensures successful pre-production."
 type: rule
 archivedreason: 
 title: Pre-Production - Do you define the level of quality up front (Gold vs Silver)?

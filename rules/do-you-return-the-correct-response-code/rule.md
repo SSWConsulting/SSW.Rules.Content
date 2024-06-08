@@ -1,4 +1,5 @@
 ---
+seoDescription: "Here is a potential SEO description based on the provided MD content: "Learn how to return correct response codes in ASP.NET Core WebAPI and improve debugging efficiency.""
 type: rule
 archivedreason: 
 title: Do you return the correct response code?

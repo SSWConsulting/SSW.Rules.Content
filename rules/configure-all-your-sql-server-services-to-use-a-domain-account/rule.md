@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure SQL Server services to use domain accounts rather than local service accounts to enable features and enhance security."
 type: rule
 archivedreason: 
 title: ​DBAs - Do you configure all your SQL Server Services to use a Domain Account rather than a local service account?

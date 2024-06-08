@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate your patch management and ensure seamless updates on Microsoft operating systems and third-party apps with recommended solutions."
 type: rule
 title: Do you automate update and patch management?
 uri: automate-patch-management

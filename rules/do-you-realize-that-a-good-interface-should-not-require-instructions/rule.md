@@ -1,4 +1,5 @@
 ---
+seoDescription: "A well-designed interface should be intuitive and self-explanent, eliminating the need for instructions."
 type: rule
 title: Do you realize that a good interface should not require instructions?
 uri: do-you-realize-that-a-good-interface-should-not-require-instructions

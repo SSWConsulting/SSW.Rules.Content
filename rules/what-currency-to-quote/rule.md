@@ -1,4 +1,5 @@
 ---
+seoDescription: "Know which currency to quote by using local currency for domestic transactions and USD as a fallback for international deals."
 type: rule
 title: Do you know what currency to quote?
 uri: what-currency-to-quote

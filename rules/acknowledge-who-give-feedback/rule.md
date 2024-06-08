@@ -1,4 +1,5 @@
 ---
+seoDescription: "When incorporating feedback into your blog post, always acknowledge the contributors by naming them at the top. This boosts credibility and makes readers feel included, fostering loyalty. Generated SEO description: Acknowledge feedback contributors to boost credibility and reader engagement."
 type: rule
 archivedreason: 
 title: Do you acknowledge people who give you feedback?
@@ -21,11 +22,9 @@ If someone gives you feedback and you think it is worth incorporating into the c
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example, a static blog post. Does not look like it has been updated.](RulesBloggingAcknowledgeBad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example, dated and attributed updates give your posts credibility and make them seam alive.](RulesBloggingAcknowledgeGood.jpg)  

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Assign developers to projects by considering their comfort level and availability to ensure a seamless workflow."
 type: rule
 archivedreason:
 title: Do you make sure Devs are comfortable with their assignments?

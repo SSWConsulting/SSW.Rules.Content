@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the benefits of using Generation 2 VMs, including Secure Boot, faster boot times, and more."
 type: rule
 archivedreason:
 title: Do you use Generation 2 VMs?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Targeted cold calling efforts rely on precise prospect lists that align with your product or service offerings. By considering factors such as geographic spread, position/title, and interests, you can ensure a higher likelihood of success in your sales calls."
 type: rule
 archivedreason: 
 title: Do you target the right people?

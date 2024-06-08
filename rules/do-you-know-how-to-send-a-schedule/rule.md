@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to share your availability via email and schedule meetings efficiently using Outlook's calendar feature."
 type: rule
 archivedreason: 
 title: Calendar - Do you know how to share your availability via email?

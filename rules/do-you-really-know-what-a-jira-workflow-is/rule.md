@@ -1,4 +1,5 @@
 ---
+seoDescription: "A Jira workflow controls issue progression from creation to closure through a series of governed transitions and actions by assigned roles."
 type: rule
 archivedreason: 
 title: Do you really know what a Jira Workflow is?

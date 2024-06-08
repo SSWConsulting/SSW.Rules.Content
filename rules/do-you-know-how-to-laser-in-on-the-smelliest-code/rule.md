@@ -1,4 +1,5 @@
 ---
+seoDescription: "Identify and refactor "smelliest code" using Visual Studio's Code Metrics to pinpoint hotspots, then collaborate with responsible developers."
 type: rule
 archivedreason: 
 title: Do you know how to laser in on the smelliest code?

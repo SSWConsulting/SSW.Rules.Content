@@ -1,4 +1,5 @@
 ---
+seoDescription: "Include the number of results in ComboBoxes to help users quickly identify available options and make informed decisions."
 type: rule
 title: Forms - Do you include the number of results in ComboBoxes?
 uri: forms-do-you-include-the-number-of-results-in-comboboxes

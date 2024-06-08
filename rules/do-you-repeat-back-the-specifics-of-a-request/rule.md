@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective communication starts with repeating back specifics of a request to avoid misunderstandings and ensure correct task execution."
 type: rule
 archivedreason: 
 title: Communication - Do you repeat back the specifics of a request?

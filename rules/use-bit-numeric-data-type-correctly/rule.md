@@ -1,4 +1,5 @@
 ---
+seoDescription: "Schema optimization tip: Use bit/numeric data types correctly by choosing between tinyint, smallint, int, and bigint based on your specific requirements."
 type: rule
 archivedreason: 
 title: Schema - Do you use Bit/Numeric data type correctly?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use consistent salary terminology to avoid confusion and ensure employees understand their total remuneration package."
 type: rule
 title: Do you use consistent salary terminology?
 uri: salary-terminology

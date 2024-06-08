@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve page loading by providing instant details through jQuery tooltips, saving users time and effort."
 type: rule
 archivedreason: 
 title: Do you use jQuery Tooltips to save drilling through?

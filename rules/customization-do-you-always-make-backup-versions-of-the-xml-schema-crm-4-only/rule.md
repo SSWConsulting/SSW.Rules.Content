@@ -1,4 +1,5 @@
 ---
+seoDescription: "When publishing XML schema in CRM 4, it's essential to maintain a versioning scheme and regularly back up the schema to avoid corruption. Export customizations from Settings > Customization > Export Customizations, naming files with dates for easy tracking."
 type: rule
 archivedreason: 
 title: Customization - Do you always make backup versions of the XML schema? (CRM 4 only)

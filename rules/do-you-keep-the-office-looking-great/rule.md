@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain a professional office environment by keeping spaces clean and organized to ensure a positive impression for clients and colleagues."
 type: rule
 archivedreason: 
 title: Do you keep the office looking great?

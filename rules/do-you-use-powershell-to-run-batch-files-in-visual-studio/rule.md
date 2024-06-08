@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run batch files efficiently and seamlessly within Visual Studio by utilizing PowerShell's capabilities, eliminating compatibility issues with Windows Command Processor."
 type: rule
 archivedreason: 
 title: Do you use PowerShell to run batch files in Visual Studio?

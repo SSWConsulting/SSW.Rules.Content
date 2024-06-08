@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a professional-looking repository by setting up a good name, description, ReadMe file, .gitignore, and license."
 type: rule
 archivedreason: 
 title: Do you know to the requirements to create a new repository?

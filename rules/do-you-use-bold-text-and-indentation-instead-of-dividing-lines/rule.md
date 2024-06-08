@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use bold text and indentation instead of dividing lines to separate sections, enhancing visual clarity and reducing clutter for a better user experience."
 type: rule
 archivedreason: 
 title: Do you use bold text and indentation, instead of dividing lines?

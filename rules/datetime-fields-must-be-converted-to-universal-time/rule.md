@@ -1,4 +1,5 @@
 ---
+seoDescription: "When storing DateTime fields, they must be converted to universal time (UTC) from the application to the stored procedures."
 type: rule
 archivedreason: 
 title: Data - Dates - Do you know DateTime fields must be converted to universal time?

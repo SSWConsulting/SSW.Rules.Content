@@ -1,4 +1,5 @@
 ---
+seoDescription: "Confirm data integrity after migration by comparing SharePoint 2007 and SharePoint 2010 site contents to ensure item numbers match."
 type: rule
 archivedreason: 
 title: Do you confirm there is no data lost after the migration

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you reference "very calm/stable" DLLs by Assembly?"
 type: rule
 archivedreason: 
 title: Do you reference "very calm/stable" .dlls by Assembly?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Upgrade to the improved .NET DataGridView control in Visual Studio 2005 or explore top-rated third-party alternatives for advanced data grid features."
 type: rule
 title: Do you keep the standard .NET DataGrid?
 uri: do-you-keep-the-standard-net-datagrid

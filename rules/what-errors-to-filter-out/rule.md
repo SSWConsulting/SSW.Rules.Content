@@ -1,4 +1,5 @@
 ---
+seoDescription: "What errors to filter out? Learn how to hide frequent exceptions with RayGun's built-in filtering and improve your crash reporting experience."
 type: rule
 archivedreason: 
 title: Do you know what errors to filter out?

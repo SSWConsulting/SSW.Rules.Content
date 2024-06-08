@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add job experience on LinkedIn to boost credibility and visibility by showcasing career progression, skills, and areas of expertise, making you more discoverable in search results."
 type: rule
 title: LinkedIn - do you add your job experience?
 uri: linkedin-job-experience

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your videos for YouTube by writing attention-grabbing titles that include your main keyword and value proposition."
 type: rule
 archivedreason: 
 title: Do you optimize your videos for YouTube?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure your web applications to use application-specific accounts for database access to limit potential damage in case of a compromise."
 type: rule
 archivedreason: 
 title: Security - Do you configure your web applications to use specific accounts for database access?

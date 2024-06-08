@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you record your research under the PBI?"
 type: rule
 archivedreason: 
 title: Do you record your research under the PBI?

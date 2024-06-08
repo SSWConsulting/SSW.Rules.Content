@@ -1,4 +1,5 @@
 ---
+seoDescription: "Track recurring expenses and avoid surprises with accurate cash flow management, ensuring better financial decisions."
 type: rule
 archivedreason: 
 title: Expenses - Do you track your recurring expenses?

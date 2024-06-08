@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a Microsoft CRM 2016 mail merge template to streamline your marketing efforts and boost productivity."
 type: rule
 archivedreason: 
 title: Do you know how to create mail merge template in Microsoft CRM 2016?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "General tips for booking flights include minimizing connections, opting for flexible flights, and knowing preferred travel times to avoid peak hours."
 type: rule
 title: Do you know the general tips for booking flights?
 uri: general-tips-for-booking-flights

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you know how to deal with impediments in Scrum? This exercise uses the VS2010 planning poker deck of cards and TFS. Learn how your team can effectively handle obstacles and stay on track during a Scrum sprint."
 type: rule
 title: Do you know how you deal with impediments in Scrum?
 uri: do-you-know-how-you-deal-with-impediments-in-scrum

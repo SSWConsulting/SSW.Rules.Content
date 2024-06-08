@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add TODO items in red to utilize ideas and attract attention later."
 type: rule
 title: Do you make 'TODO' items in red?
 uri: do-you-make-todo-items-in-red

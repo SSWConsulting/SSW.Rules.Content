@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for sending attachments in emails differ depending on whether you're communicating with internal or external parties. For internal communications, consider sharing links to a document store on your intranet to minimize broken links and keep the work alive."
 type: rule
 title: Do you know not to send attachments in emails?
 uri: do-you-know-not-to-send-attachments-in-emails

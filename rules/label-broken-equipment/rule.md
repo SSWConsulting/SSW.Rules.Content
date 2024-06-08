@@ -1,4 +1,5 @@
 ---
+seoDescription: "Labeling broken equipment helps maintain a smooth office environment by keeping track of issues and ensuring prompt fixes."
 type: rule
 title: Office environment - Do you label broken equipment?
 uri: label-broken-equipment

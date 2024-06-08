@@ -1,4 +1,5 @@
 ---
+seoDescription: "Configure TFS to be accessible from outside the network by enabling Extranet Support, setting a domain name or IP address, and port forwarding via a firewall/router rule."
 type: rule
 archivedreason: 
 title: Do you configure your TFS to be accessible from outside the network?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover who hasn't checked-in to TFS and take control of your project with ease."
 type: rule
 archivedreason: 
 title: TFS Master - Do you have a report to see who has not checked-in?

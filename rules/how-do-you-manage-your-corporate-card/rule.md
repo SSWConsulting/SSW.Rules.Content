@@ -1,4 +1,5 @@
 ---
+seoDescription: "Manage corporate cards effectively and streamline expense tracking with our comprehensive guide on how to manage your corporate card."
 type: rule
 archivedreason:
 title: Expenses - Do you know how to manage your corporate card?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Write down attendee names to boost audience engagement and interaction during presentations with small groups."
 type: rule
 archivedreason: 
 title: Do you know to write down the Attendee Names?

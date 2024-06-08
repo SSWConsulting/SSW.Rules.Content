@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create your own IP Blacklist to stay ahead of network threats and enhance security with custom blocking."
 type: rule
 archivedreason: 
 title: Do you create your own IP Blacklist?

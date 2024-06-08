@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use stored procedures to return variable values efficiently and avoid silent truncation of money values."
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you use OUTPUT parameters if you need to return the value of variables?

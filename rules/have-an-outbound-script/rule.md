@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you have an outbound script that forms the foundation of all sales? Develop a conversational approach with your prospects by having an outbound script memorized and being flexible throughout the conversation."
 type: rule
 archivedreason: 
 title: Do have an outbound script?

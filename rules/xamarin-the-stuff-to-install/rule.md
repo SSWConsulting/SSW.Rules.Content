@@ -1,4 +1,5 @@
 ---
+seoDescription: "Xamarin developers can quickly set up their environment by installing VS 2015 and the Xamarin extension, followed by the Android SDK Manager, NuGet package updates, and a blank app project creation."
 type: rule
 archivedreason: 'Requested by Matt on RE: [SSW] Rules to Better Xamarin (mobile)'
 title: Xamarin - Do you know the stuff to install?

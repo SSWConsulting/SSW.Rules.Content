@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create a separate test plan per sprint to track testing progress and gain historical data on test pass rates for previous milestones."
 type: rule
 title: Do you create one test plan per Sprint?
 uri: do-you-create-one-test-plan-per-sprint

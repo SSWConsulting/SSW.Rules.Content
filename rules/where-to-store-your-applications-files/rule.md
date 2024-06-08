@@ -1,4 +1,5 @@
 ---
+seoDescription: "Windows applications' file storage locations explained, ensuring consistent user experience."
 type: rule
 archivedreason: 
 title: Do you know where to store your application's files?

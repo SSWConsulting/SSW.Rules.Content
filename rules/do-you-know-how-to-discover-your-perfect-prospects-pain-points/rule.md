@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover your perfect prospect's pain points by brainstorming with your team or client using a template, researching online, and asking clients directly through social media."
 type: rule
 archivedreason: 
 title: Do you know how to discover your perfect prospect’s pain points?

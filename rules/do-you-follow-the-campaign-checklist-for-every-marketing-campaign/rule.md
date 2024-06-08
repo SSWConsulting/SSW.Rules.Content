@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you follow a comprehensive marketing campaign checklist to ensure every project's success?"
 type: rule
 archivedreason: 
 title: Do you follow the campaign checklist for every marketing campaign?

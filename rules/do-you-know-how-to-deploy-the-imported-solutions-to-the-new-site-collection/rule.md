@@ -1,4 +1,5 @@
 ---
+seoDescription: "Deploy SharePoint solutions to new site collections before resorting the content database to ensure a seamless transition between servers."
 type: rule
 archivedreason: 
 title: Do you know how to deploy the imported solutions to the new site collection

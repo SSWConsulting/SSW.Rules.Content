@@ -1,4 +1,5 @@
 ---
+seoDescription: "Build client relationships and stay top-of-mind by sending educational and relevant content after an initial meeting."
 type: rule
 title: Do you send some "Client Love" a few days after the Initial Meeting?
 uri: client-love-after-initial-meeting

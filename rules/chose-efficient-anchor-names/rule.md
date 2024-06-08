@@ -1,4 +1,5 @@
 ---
+seoDescription: "Choose effective anchor names by considering these key points: Make it meaningful, know they're case sensitive, don't add spacing, and avoid starting with a #."
 type: rule
 archivedreason: 
 title: Do you chose effective anchor names?

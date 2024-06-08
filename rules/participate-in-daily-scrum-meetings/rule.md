@@ -1,4 +1,5 @@
 ---
+seoDescription: "Participate daily in Scrum meetings to stay updated on projects and team operations with Product Owners and stakeholders."
 type: rule
 archivedreason: 
 title: Do you participate in Daily Scrum meetings?

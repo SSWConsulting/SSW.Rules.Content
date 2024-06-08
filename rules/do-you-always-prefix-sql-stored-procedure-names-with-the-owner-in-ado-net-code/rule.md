@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prefix SQL stored procedure names with the owner to improve performance and avoid ambiguity when using ADO.NET."
 type: rule
 archivedreason: 
 title: Do you always prefix SQL stored procedure names with the owner in ADO.NET code?

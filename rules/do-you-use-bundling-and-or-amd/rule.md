@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use Bundling and/or AMD to improve JavaScript performance?"
 type: rule
 archivedreason: 
 title: Do you use Bundling and/or AMD

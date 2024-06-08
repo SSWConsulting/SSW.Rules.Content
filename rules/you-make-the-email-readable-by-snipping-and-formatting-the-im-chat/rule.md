@@ -1,4 +1,5 @@
 ---
+seoDescription: "Transforming IM chats into readable emails by snipping and formatting relevant information to keep it concise and easy to understand."
 type: rule
 archivedreason: 
 title: Do you make the email readable by snipping and formatting the IM chat?

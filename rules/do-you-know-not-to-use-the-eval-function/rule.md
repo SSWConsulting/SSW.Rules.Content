@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using inefficient "eval" functions in JavaScript, instead refer to global variables by concatenating variable names with strings."
 type: rule
 archivedreason: 
 title: Do you know not to use the "eval" function?

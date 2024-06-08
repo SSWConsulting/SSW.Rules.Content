@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid using update and instead opt for saving changes to minimize locking issues in the database when modifying entities with foreign key relationships."
 type: rule
 title: Do you avoid using update?
 uri: avoid-using-update
@@ -15,6 +16,7 @@ The Update method on an entity in EF Core marks all of its fields as dirty. This
 Writing the entire record to the database can cause locking issues in the database server if there are foreign key relationships involving the entity being modified.
 
 ::: bad
+
 ```cs
 var entity = context
     .Products
@@ -33,6 +35,7 @@ Figure: Bad example - The whole record is written back to the database.
 :::
 
 ::: good
+
 ```cs
 var entity = context
     .Products

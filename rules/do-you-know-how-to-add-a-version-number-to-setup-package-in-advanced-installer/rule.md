@@ -1,4 +1,5 @@
 ---
+seoDescription: "Add a version number to your setup package in Advanced Installer by modifying the MSI name configuration and adding [ProductVersion] or [ProductName]."
 type: rule
 archivedreason: 
 title: Do you know how to add a version number to setup package in Advanced Installer?

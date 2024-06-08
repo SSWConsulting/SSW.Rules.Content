@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maintain professional integrity by being true to your word, communicating a plan if you can't deliver, and acknowledging mistakes while repairing trust."
 type: rule
 title: Communication - Do you have professional integrity? (Be a person of your word)
 uri: professional-integrity

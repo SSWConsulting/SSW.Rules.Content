@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid dropping user databases during installation to prevent data loss and ensure smooth database creation processes."
 type: rule
 archivedreason: 
 title: Sample - Do you avoid dropping a user's database when you attempt to create a database?

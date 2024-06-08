@@ -1,4 +1,5 @@
 ---
+seoDescription: "Setup a dedicated working space at home to boost productivity and maintain mental well-being while working remotely."
 type: rule
 archivedreason: 
 title: Setup - Do you have a dedicated working space?

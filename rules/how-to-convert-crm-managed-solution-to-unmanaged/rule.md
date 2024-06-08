@@ -1,4 +1,5 @@
 ---
+seoDescription: "Convert Dynamics CRM managed solution to unmanaged, edit and override production managed solution with a script."
 type: rule
 archivedreason: 
 title: Do you know how to convert Dynamics CRM managed solution to unmanaged?

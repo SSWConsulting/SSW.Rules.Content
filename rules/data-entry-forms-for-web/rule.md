@@ -1,4 +1,5 @@
 ---
+seoDescription: "Best practices for developing web-based data forms include using Angular pipes to format data, auto-populating fields with default values, and implementing validation. Additionally, consider showing "created by" and "updated by" fields for logging and change history purposes."
 type: rule
 title: Do you know the correct way to develop web-based data entry forms?
 uri: data-entry-forms-for-web

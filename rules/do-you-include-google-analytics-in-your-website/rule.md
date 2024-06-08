@@ -1,4 +1,5 @@
 ---
+seoDescription: "Understand website analytics and boost online presence with Google Analytics."
 type: rule
 title: Do you include Google Analytics in your website?
 uri: do-you-include-google-analytics-in-your-website

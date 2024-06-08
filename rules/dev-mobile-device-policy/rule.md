@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mobile development teams require access to physical devices for testing to avoid issues and spiraling development costs."
 type: rule
 title: Do you have a device policy for your mobile dev teams?
 uri: dev-mobile-device-policy

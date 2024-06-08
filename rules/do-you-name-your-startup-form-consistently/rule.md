@@ -1,4 +1,5 @@
 ---
+seoDescription: "Consistently name your startup form to improve structure and design in Windows applications."
 type: rule
 archivedreason: Adds little to no value to this section of rules.
 title: Do you name your startup form consistently?

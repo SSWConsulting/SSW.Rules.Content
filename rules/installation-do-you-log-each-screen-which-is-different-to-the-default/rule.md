@@ -1,4 +1,5 @@
 ---
+seoDescription: "Installation logs each screen differently to the default, ensuring a historical record of settings and configurations for easy recall during troubleshooting or re-installation."
 type: rule
 archivedreason: 
 title: Installation - Do you log each screen which is different to the default?

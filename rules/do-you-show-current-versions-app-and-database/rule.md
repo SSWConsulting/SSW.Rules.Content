@@ -1,4 +1,5 @@
 ---
+seoDescription: "Showcasing application and database versions ensures transparency and facilitates updates, while modern frameworks handle versioning through code-first migrations."
 type: rule
 title: Do you show what version the App is, and what version the Database is?
 uri: do-you-show-current-versions-app-and-database

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Harness customer feedback to boost client satisfaction and optimize your business processes with Dynamics 365's Customer Voice Surveys."
 type: rule
 title: Do you use Customer Voice for feedback surveys?
 uri: use-customer-voice-for-feedback-surveys

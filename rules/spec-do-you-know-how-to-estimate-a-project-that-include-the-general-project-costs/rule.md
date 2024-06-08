@@ -1,4 +1,5 @@
 ---
+seoDescription: "Estimate a project's overall cost by considering both general project costs and specific project costs."
 type: rule
 archivedreason: 
 title: Do you know how to estimate a Project including 'General Project Costs'?

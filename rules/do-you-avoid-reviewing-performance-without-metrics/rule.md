@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your performance reviews by using metrics to measure and track progress, ensuring you're meeting clients' expectations and making informed improvements."
 type: rule
 archivedreason: 
 title: Do you avoid reviewing performance without metrics?

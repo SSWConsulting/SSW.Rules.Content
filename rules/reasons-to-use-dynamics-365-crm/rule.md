@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize sales efficiency and streamline client management with Dynamics 365 CRM, enabling you to track contact information, opportunities, projects, and bookings."
 type: rule
 archivedreason: 
 title: Do you know the reasons to use Dynamics 365 CRM?

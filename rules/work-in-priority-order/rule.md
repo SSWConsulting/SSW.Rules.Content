@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prioritize tasks effectively and complete critical items first, only deviating if dependencies or good reasons exist."
 type: rule
 title: Backlog - Do you always work in priority order, unless there’s a good
   reason not to?

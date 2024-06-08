@@ -1,4 +1,5 @@
 ---
+seoDescription: "To keep your website fresh and engaging, add interactivity with jQuery to make it come alive when users hover or click on elements."
 type: rule
 archivedreason: 
 title: Do you use jQuery for making a site come alive?

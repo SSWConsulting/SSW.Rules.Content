@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use a SQL Server Stored Procedure Naming Standard? A standard outlining naming conventions for stored procedures within SQL Server, including prefixing with 'proc', specifying table names and actions, and using consistent suffixes."
 type: rule
 archivedreason: 
 title: General - Do you use a SQL Server Stored Procedure Naming Standard?

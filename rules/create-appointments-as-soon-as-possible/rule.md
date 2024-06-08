@@ -1,4 +1,5 @@
 ---
+seoDescription: "Create appointments instantly to avoid mistakes and double bookings."
 type: rule
 archivedreason: 
 title: Appointments - Do you create appointments as soon as possible?

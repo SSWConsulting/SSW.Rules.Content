@@ -1,4 +1,5 @@
 ---
+seoDescription: "User Interface Fundamentals: simple design, clear communication, and meaningful shortcuts for easy tasks, with visible options and minimal distraction."
 type: rule
 archivedreason: Replaced by [https://ssw.com.au/rules/avoid-full-stops-in-bullet-point-lists/](/rules/avoid-full-stops-in-bullet-point-lists)
 title: Do you know when to use full stops at the end of bullet points?

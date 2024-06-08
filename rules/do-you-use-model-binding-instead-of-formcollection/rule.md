@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you use Model Binding instead of FormCollection? Learn how to leverage model binding in ASP.NET MVC for cleaner and more efficient code."
 type: rule
 title: Do you use Model Binding instead of FormCollection?
 uri: do-you-use-model-binding-instead-of-formcollection

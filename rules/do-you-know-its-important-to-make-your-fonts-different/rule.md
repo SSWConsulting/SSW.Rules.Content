@@ -1,4 +1,5 @@
 ---
+seoDescription: "Make font styles stand out to ensure clear visual hierarchy and avoid confusion."
 type: rule
 archivedreason: 
 title: Do you know it's important to make your fonts different?

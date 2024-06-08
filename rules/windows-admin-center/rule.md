@@ -1,4 +1,5 @@
 ---
+seoDescription: "Simplify server management and enhance security with Windows Admin Center, a web-based tool for unified management of Windows Servers and computers."
 type: rule
 title: Do you use Windows Admin Center?
 uri: windows-admin-center

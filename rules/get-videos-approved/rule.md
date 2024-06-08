@@ -1,4 +1,5 @@
 ---
+seoDescription: "Get SSW videos approved by following a simple test-please process with Adam or Uly, and stakeholders for final approval."
 type: rule
 title: Post-Production - Do you know how to get your videos approved?
 uri: get-videos-approved

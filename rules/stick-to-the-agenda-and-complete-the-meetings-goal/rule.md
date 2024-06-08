@@ -1,4 +1,5 @@
 ---
+seoDescription: "During a meeting, sticking to the agenda and completing the goal requires careful planning, prioritization, and time management."
 type: rule
 title: During a meeting, do you stick to the agenda and complete the meeting's goal?
 uri: stick-to-the-agenda-and-complete-the-meetings-goal

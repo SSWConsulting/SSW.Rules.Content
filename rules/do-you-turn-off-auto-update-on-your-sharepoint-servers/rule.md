@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent server downtime and ensure a stable production environment by disabling automatic Windows updates on your servers."
 type: rule
 archivedreason: Deprecated
 title: Do you turn off auto update on your servers?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Teams is an ideal platform to store project documents due to its integration with SharePoint, real-time collaboration features, and seamless sharing capabilities."
 type: rule
 title: Files - Do you store project documents in Teams?
 uri: track-project-documents

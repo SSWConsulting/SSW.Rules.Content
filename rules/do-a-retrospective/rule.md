@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to do a retrospective after an activity ends and gather valuable feedback from team members."
 type: rule
 archivedreason: 
 title: Do you do a retrospective after an activity ends (aka take feedback)?

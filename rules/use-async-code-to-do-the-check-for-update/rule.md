@@ -1,4 +1,5 @@
 ---
+seoDescription: "Check for application updates using async code to simplify the process for users and ensure a seamless experience."
 type: rule
 title: Do you know to use async code to do the check for update?
 uri: use-async-code-to-do-the-check-for-update

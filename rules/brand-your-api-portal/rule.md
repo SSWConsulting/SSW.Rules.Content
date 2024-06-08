@@ -1,4 +1,5 @@
 ---
+seoDescription: "Branding your API portal with Azure API Management's Developer Portal allows you to combine your corporate identity into the user interface, providing a customized experience for customers."
 type: rule
 archivedreason: 
 title: Do you know how to brand your API portal?

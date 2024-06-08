@@ -1,4 +1,5 @@
 ---
+seoDescription: "Implement performance improvements by establishing targets, automating tests, and measuring results against a baseline."
 type: rule
 archivedreason: 
 title: Do you know the steps required to implement a performance improvement?

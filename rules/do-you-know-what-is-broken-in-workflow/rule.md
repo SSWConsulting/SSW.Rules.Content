@@ -1,4 +1,5 @@
 ---
+seoDescription: "SharePoint's out-of-the-box workflows lack customization options, requiring businesses to adapt their processes to fit SharePoint's generic workflow."
 type: rule
 archivedreason: 
 title: Do you know what is broken in workflow?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "As a Scrum Master, scheduling three crucial meetings - Sprint Review, Retrospective, and Planning - ensures successful Sprints."
 type: rule
 title: Scrum Master - Do you schedule the 3 meetings?
 uri: scrum-master-do-you-schedule-the-3-meetings

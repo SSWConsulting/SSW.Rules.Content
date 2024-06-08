@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft Lync compatible IP phones from SNOM, HP, and ASTRA vendors are supported for seamless communication."
 type: rule
 archivedreason: 
 title: Do you know what IP phones are supported by Microsoft Lync?

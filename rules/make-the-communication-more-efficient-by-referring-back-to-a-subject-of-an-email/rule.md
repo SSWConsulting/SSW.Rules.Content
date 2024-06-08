@@ -1,4 +1,5 @@
 ---
+seoDescription: "Clarity improves by referring back to a subject of an email, making communication more efficient."
 type: rule
 archivedreason: 
 title: Clarity - Do you make the communication more efficient by referring back to a subject of an email?

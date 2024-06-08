@@ -1,4 +1,5 @@
 ---
+seoDescription: "Run successful events that boost your brand recognition and awareness through careful planning and organization."
 type: rule
 archivedreason: 
 title: Do you run events?

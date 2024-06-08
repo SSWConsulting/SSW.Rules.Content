@@ -1,4 +1,5 @@
 ---
+seoDescription: "Subcutaneous tests, a type of integration testing that bypasses the UI, providing a more stable and efficient way to test your application's underlying behavior."
 type: rule
 title: Do you use subcutaneous tests?
 uri: subcutaneous-tests

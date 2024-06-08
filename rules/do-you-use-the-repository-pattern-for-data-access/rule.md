@@ -1,4 +1,5 @@
 ---
+seoDescription: "Improve data access and abstraction using the repository pattern, providing a consistent way to retrieve and save domain objects while promoting testability and reusability."
 type: rule
 archivedreason: 
 title: Do you use the repository pattern for data access?

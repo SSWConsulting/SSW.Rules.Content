@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how many inbound links your website has and where they're coming from with our expert guide on finding backlinks."
 type: rule
 title: SEO - Does your website have Backlinks pointing to it?
 uri: how-to-find-inbound-links-to-your-pages

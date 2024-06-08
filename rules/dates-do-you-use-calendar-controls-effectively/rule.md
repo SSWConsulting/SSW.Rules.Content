@@ -1,4 +1,5 @@
 ---
+seoDescription: "Effective calendar control usage ensures accurate date display, highlighting current dates and bolding events with associated data."
 type: rule
 archivedreason: 
 title: Dates - Do you use Calendar controls effectively?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Implementing administrators' login options in SharePoint sites, including a straightforward "Login" link and alternative methods such as using a hidden dot or custom URL."
 type: rule
 archivedreason: 
 title: Do you know the best way to implement administrators' login

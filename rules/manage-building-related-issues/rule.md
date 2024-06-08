@@ -1,4 +1,5 @@
 ---
+seoDescription: "Ensure building repair and maintenance, including security access, tradespeople, utilities, and body corporate issues."
 type: rule
 archivedreason: 
 title: Do you manage building repair and maintenance?

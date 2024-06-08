@@ -1,4 +1,5 @@
 ---
+seoDescription: "Automate database structure handling via "Create", "Upgrade", and "Reconcile" buttons for seamless SQL Server schema deployment."
 type: rule
 title: Do you make sure that the database structure is handled automatically via
   3 buttons "Create", "Upgrade" and "Reconcile"?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Master the art of adding special characters to your HTML code with Unicode Hex codes, ensuring compatibility, versatility, and accessibility across platforms."
 type: rule
 title: Do you use Unicode Hex codes for special HTML characters?
 uri: html-unicode-hex-codes

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Maximize event promo video reusability by avoiding dates as text in graphics and ensure cost-effective updates."
 type: rule
 archivedreason: 
 title: Post-Production - Do you avoid dates text in graphics for events' promo videos?

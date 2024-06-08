@@ -1,4 +1,5 @@
 ---
+seoDescription: "Prevent long-term damage by standing up every half hour and stretching your hip flexors to counteract the negative effects of sitting."
 type: rule
 title: Do you know the dangers of sitting?
 uri: do-you-know-the-dangers-of-sitting

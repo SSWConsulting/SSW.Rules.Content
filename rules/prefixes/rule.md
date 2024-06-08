@@ -1,4 +1,5 @@
 ---
+seoDescription: "Unlocking clarity and context through prefixes enhances webpage titles, providing valuable insights for users and search engines alike."
 type: rule
 title: Prefixes - Do you know why they are awesome?
 uri: prefixes

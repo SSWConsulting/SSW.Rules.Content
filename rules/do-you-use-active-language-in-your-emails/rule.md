@@ -1,4 +1,5 @@
 ---
+seoDescription: "Use active language in your emails to sound more personal and engaging, avoiding unnecessary formality."
 type: rule
 archivedreason: 
 title: Do you use active language in your emails?

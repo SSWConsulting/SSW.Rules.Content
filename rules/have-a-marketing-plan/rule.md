@@ -1,4 +1,5 @@
 ---
+seoDescription: "Develop a marketing plan that serves as a blueprint for your business's marketing activities, helping you achieve your goals and stay competitive."
 type: rule
 title: Strategy - Do you have a marketing plan?
 uri: have-a-marketing-plan

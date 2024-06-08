@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid combining data entry and find navigation on a single form, as it can lead to confusion. Instead, use two forms: one for list views with "Add", "Edit", and "Delete" buttons, and another for data entry fields."
 type: rule
 archivedreason: 
 title: Do you avoid using one form for data entry?

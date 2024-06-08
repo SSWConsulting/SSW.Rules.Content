@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep AssemblyVersion consistent to avoid support and maintenance issues, ensuring a smooth development experience."
 type: rule
 title: Do you keep your Assembly Version Consistent?
 uri: do-you-keep-your-assembly-version-consistent

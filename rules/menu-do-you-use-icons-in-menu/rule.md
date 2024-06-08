@@ -1,4 +1,5 @@
 ---
+seoDescription: "Menu items with icons enhance user experience and visual appeal, making applications more expressive and engaging."
 type: rule
 archivedreason: 
 title: Menu - Do you use icons in menu?

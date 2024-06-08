@@ -1,4 +1,5 @@
 ---
+seoDescription: "Animate key points on your Summary slide to keep audience engaged and focused on your talk, rather than reading ahead."
 type: rule
 archivedreason: 
 title: Do you know to animate your summary slide?
@@ -23,7 +24,6 @@ The summary slide is very important. It's your chance to re-iterate what you hav
 You want them listening to you, not reading ahead.
 
 Animating the items on your Summary slide ensures they are listening to you, not reading ahead.
-
 
 ::: good  
 ![Good Example: Animate the points on your Summary slide](summary-animation.gif)  

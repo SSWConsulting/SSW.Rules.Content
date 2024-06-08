@@ -1,4 +1,5 @@
 ---
+seoDescription: "What is GPT? GPT is a large language model developed by OpenAI with major financial backing from Microsoft, currently leading the market in terms of technology and capability."
 type: rule
 title: What is GPT?
 uri: what-is-gpt

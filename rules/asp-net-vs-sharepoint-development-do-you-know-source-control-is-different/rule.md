@@ -1,4 +1,5 @@
 ---
+seoDescription: "ASP.NET and SharePoint development differ in source control systems, with ASP.NET typically using TFS for code management and SharePoint utilizing its own document control and version history."
 type: rule
 archivedreason: 
 title: ASP.NET vs SharePoint development - Do you know source control is different?

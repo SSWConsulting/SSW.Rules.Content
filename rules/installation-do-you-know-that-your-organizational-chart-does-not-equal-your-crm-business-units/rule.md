@@ -1,4 +1,5 @@
 ---
+seoDescription: "Microsoft CRM Business Units don't always equal organizational charts, requiring careful design considering security, data ownership, operations, and more."
 type: rule
 archivedreason: 
 title: Installation - Do you know that your organizational chart does not equal your CRM Business Units?

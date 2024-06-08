@@ -1,4 +1,5 @@
 ---
+seoDescription: "Octopus Deploy's Lifecycles feature enables continuous integration and deployment from TFS, with governance controls for automated deployments."
 type: rule
 archivedreason: 
 title: Do you use the Lifecycles feature in Octopus Deploy?

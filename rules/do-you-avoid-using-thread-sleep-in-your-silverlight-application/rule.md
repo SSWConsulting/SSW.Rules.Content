@@ -1,4 +1,5 @@
 ---
+seoDescription: "Silverlight applications should avoid using Thread.Sleep as it causes UI thread to sleep and application becomes non-responsive. Instead, use a Storyboard with a duration to delay execution of code."
 type: rule
 archivedreason: Deprecated - Silverlight is no longer installable and has been deprecated for 10 years.
 title: Do you avoid using Thread.Sleep in your Silverlight application?

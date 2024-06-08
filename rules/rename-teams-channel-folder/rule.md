@@ -1,4 +1,5 @@
 ---
+seoDescription: "Teams channel renaming workaround ensures accurate SharePoint folder naming"
 type: rule
 title: Do you know how to rename a Teams Channel file folder correctly?
 uri: rename-teams-channel-folder

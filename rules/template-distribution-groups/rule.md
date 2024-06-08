@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to avoid email template headaches by using distribution groups instead of individual names, and discover the benefits of managing roles with ease."
 type: rule
 title: Email Templates - Do you use distribution groups instead of individuals?
 uri: template-distribution-groups

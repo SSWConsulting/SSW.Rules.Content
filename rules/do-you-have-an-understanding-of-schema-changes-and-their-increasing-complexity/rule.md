@@ -1,4 +1,5 @@
 ---
+seoDescription: "Mastering schema changes and their increasing complexity requires understanding low-impact alterations and high-risk operations involving existing data."
 type: rule
 title: Do you have an understanding of 'schema changes' and their increasing
   complexity?

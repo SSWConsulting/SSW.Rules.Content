@@ -1,4 +1,5 @@
 ---
+seoDescription: "Facebook ad image guidelines require a text-to-image ratio of no more than 20% to ensure a clean and engaging user experience."
 type: rule
 archivedreason: 
 title: Do you know the text limit for images?

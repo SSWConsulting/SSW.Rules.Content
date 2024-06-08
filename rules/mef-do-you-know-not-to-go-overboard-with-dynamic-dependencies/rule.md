@@ -1,4 +1,5 @@
 ---
+seoDescription: "Managed Extensibility Framework (MEF) helps developers load dynamic dependencies at runtime, but it's not always necessary."
 type: rule
 archivedreason: >-
   Is anyone using MEF on their projects?

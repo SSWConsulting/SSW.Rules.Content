@@ -1,4 +1,5 @@
 ---
+seoDescription: "Do you sort your videos into playlists on YouTube to increase session time and boost your channel's performance? Organize your content with personalized thumbnails and optimize your videos for a better user experience."
 type: rule
 title: Do you sort your videos into playlists?
 uri: sort-videos-into-playlists

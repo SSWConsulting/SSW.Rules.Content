@@ -1,4 +1,5 @@
 ---
+seoDescription: "When making significant changes to your pipeline, it's crucial to test them in a separate repository first to avoid unintended deployments and ensure a thorough test."
 type: rule
 title: Do you complete major pipeline changes on another repo?
 uri: complete-major-changes-on-another-repo

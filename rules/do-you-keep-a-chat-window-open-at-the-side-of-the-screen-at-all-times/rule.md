@@ -1,4 +1,5 @@
 ---
+seoDescription: "Keep chat windows open at all times to facilitate seamless communication and collaboration."
 type: rule
 archivedreason: 
 title: Do you keep a chat window open at the side of the screen at all times?
