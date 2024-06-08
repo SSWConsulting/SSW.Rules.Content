@@ -16,6 +16,7 @@ related:
  - do-you-know-the-nice-way-to-correct-someone
  - feedback-avoid-chopping-down-every-example
 redirects:
+  - how-to-accept-unsolicited-feedback
 ---
 
 If you've ever felt stung by poorly delivered feedback, it can be tempting to ignore it or, worse, get defensive. But harsh criticism can also be a catalyst for growth. Do you let good feedback go to waste because of how it's delivered?

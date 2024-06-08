@@ -10,6 +10,7 @@ authors:
   url: https://ssw.com.au/people/john-xu
 related: []
 redirects:
+  - use-one-version-manager-supporting-multiple-softwares
 - do-you-know-to-use-one-version-manager-supporting-multiple-software
 
 ---

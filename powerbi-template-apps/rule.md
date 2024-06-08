@@ -2,13 +2,14 @@
 type: rule
 title: Do you create Power BI Template Apps?
 uri: powerbi-template-apps
+redirects:
+  - powerbi-template-app
 guid: a3b2c4d5-ff81-40b5-b3df-88a4f584b2c3
 authors:
 - title: Isabel Sandstroem
   url: https://www.ssw.com.au/people/isabel-sandstroem
 archivedreason: null
 related: []
-redirects: []
 created: 2024-02-22T13:42:55.7530000Z
 ---
 

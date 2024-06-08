@@ -4,6 +4,8 @@ archivedreason:
 title: Do you control who can create and manage Power Platform environments using the admin centre?
 guid: fdf48f2a-2292-4fab-9ffc-c3b439e4b1c0
 uri: control-who-can-manage-power-platform-environments
+redirects:
+  - control-who-can-manage-Power-Platform-environments
 created: 2021-06-01T17:30:01.0000000Z
 authors:
 - title: Mehmet Ozdemir
