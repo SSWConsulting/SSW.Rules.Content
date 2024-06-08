@@ -39,6 +39,7 @@ index:
 - show-all-report-parameters-in-body
 - use-logical-page-breaks
 - prevent-charts-growing-with-rows
+- use-vertical-text
 
 ---
 
