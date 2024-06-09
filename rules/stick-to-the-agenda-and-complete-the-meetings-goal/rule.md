@@ -1,6 +1,6 @@
 ---
 type: rule
-title: During a meeting, do you stick to the agenda and complete the meeting's goal?
+title: Do you stick to the agenda and complete the meeting's goal?
 uri: stick-to-the-agenda-and-complete-the-meetings-goal
 authors:
   - title: Ulysses Maclaren
@@ -11,7 +11,9 @@ related: null
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 02d4ed58-d19d-4895-ba49-55dae5a11f5b
+
 ---
+
 Any good meeting has a clear goal, and an agenda that breaks that goal up into items that are “For information,” “For discussion,” or “For decision”.
 
 <!--endintro-->
@@ -22,13 +24,13 @@ A few other ways to make the most of the attendees' time would be:
 * Start with the low hanging fruit so you get some decisions made
 * Keep the important topics closer to the front, than the end
 * Some items unite the meeting while others divide the members. The leader may want to start with unity before entering into division, or they may prefer the other way around. The point is to be aware of the choice and to make it consciously. It is always a good idea to end the meeting on a unifying item
-* Don’t get side-tracked for too long by urgent, but not important, items. Keep non-important topics timeboxed
+* Don't get side-tracked for too long by urgent, but not important, items. Keep non-important topics timeboxed
 * If your meeting is more than an hour or two, consider adding a break
-* To improve future meetings, at the end of the meeting, do a quick debrief (aka retro) to see how long the meeting took, if anything was covered that didn't need to be, etc.
+* To improve future meetings, at the end of the meeting, do [a quick debrief (aka Retro)](/do-a-retrospective) to see how long the meeting took, if anything was covered that didn't need to be, etc.
 
 ::: greybox
-⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with
-“Who will be the scribe so we can take notes of side issues?  Let’s aim to keep on track and avoid rat holes”
+⭐ **Tip:** A meeting is better without going down rat holes... Start a meeting with:
+_“Who will be the scribe so we can take notes of side issues?  Let’s aim to keep on track and avoid rat holes”_
 
 ![Figure: Don't go down rat holes](rathole.jpeg)
 
