@@ -1,5 +1,5 @@
 ---
-seoDescription: Based on your activity on the forum, here is a generated SEO description: "Forum expert shares insights and answers questions on Aardvark and MSDN" Let me know if you need any adjustments or changes! 😊
+seoDescription: If you are active in a forum, like the MSDN or StackOverflow forums, then you should set up the RSS for your activity to automatically tweet.
 type: rule
 archivedreason: Irrelevant (as per Camilla and Tiago)
 title: Do you know that your forum activity gets a tweet?
@@ -7,13 +7,12 @@ guid: d265e059-46e6-4161-9569-8ffbcb83a0f1
 uri: do-you-know-that-your-forum-activity-gets-a-tweet
 created: 2010-03-15T16:31:08.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
-
 ---
 
 If you are active in a forum, like the MSDN or StackOverflow forums, then you should set up the RSS for your activity to automatically tweet.

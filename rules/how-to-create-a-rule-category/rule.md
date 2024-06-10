@@ -1,5 +1,5 @@
 ---
-seoDescription: Here's the generated SEO description: "Create a rule category and summary page to organize SharePoint rules and improve user navigation." Let me know if you'd like any adjustments! 😊
+seoDescription: Create a rule category and summary page to organize SharePoint rules and improve user navigation.
 type: rule
 archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories
 title: SharePoint - Do you know how to create a rule category? (internal only)
@@ -7,16 +7,15 @@ guid: cddfc9a1-da16-4918-8280-c9a95add7463
 uri: how-to-create-a-rule-category
 created: 2014-08-21T20:38:15.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-how-to-create-a-rule-category-(internal-only)
-- sharepoint-do-you-know-how-to-create-a-rule-category-internal-only
-- sharepoint-do-you-know-how-to-create-a-rule-category-(internal-only)
-
+  - do-you-know-how-to-create-a-rule-category-(internal-only)
+  - sharepoint-do-you-know-how-to-create-a-rule-category-internal-only
+  - sharepoint-do-you-know-how-to-create-a-rule-category-(internal-only)
 ---
 
 Basically, creating a rule category contains two parts of work.

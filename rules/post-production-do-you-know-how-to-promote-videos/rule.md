@@ -1,5 +1,5 @@
 ---
-seoDescription: Here's a generated SEO description based on the provided content: "Promote your videos through social media, email, interviewees, and strategic partners to maximize exposure and reach." Please let me know if this meets your requirements or if you'd like any adjustments! 😊
+seoDescription: Promote your videos through social media, email, interviewees, and strategic partners to maximize exposure and reach.
 type: rule
 title: Post-Production - Do you know how to promote videos?
 uri: post-production-do-you-know-how-to-promote-videos

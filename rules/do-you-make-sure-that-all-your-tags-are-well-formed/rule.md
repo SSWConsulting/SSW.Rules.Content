@@ -1,17 +1,16 @@
 ---
-seoDescription: Well-formed HTML/XML tags are essential for proper document structure and rendering. Tags that open must be properly closed to ensure correct parsing and display. Generated SEO description: Ensure proper tag closure for accurate rendering.
+seoDescription: Well-formed HTML/XML tags are essential for proper document structure and rendering. Tags that open must be properly closed to ensure correct parsing and display
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you make sure that all your tags are well formed ?
 guid: 3673083a-7145-4441-918d-5d3d9419506c
 uri: do-you-make-sure-that-all-your-tags-are-well-formed
 created: 2011-04-28T09:29:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Do you know how to form HTML/XML tags on webpages?
