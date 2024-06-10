@@ -15,7 +15,7 @@ Always choose a GridView (over a ListBox) because it can have:
 
 1. Multiple columns
 2. Checkboxes in the header of the control, which enables users to easily check or uncheck all items
-3. Add sub-controls added such as buttons, links, charts, and even customized controls to the Gridview. This means you get unlimited flexibility with the GridView 
+3. Add sub-controls added such as buttons, links, charts, and even customized controls to the Gridview. This means you get unlimited flexibility with the GridView
 
 ::: bad
 ![Figure: Bad example - No header rows and no checkbox to check or uncheck all items. None of this can be done with the ListView](datagridviewbad.png)

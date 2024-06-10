@@ -32,11 +32,12 @@ services.AddIdentityServer()
     .AddTestUsers(new List<TestUser>())
     .AddDeveloperSigningCredential();
 ```
+
 ::: bad
 Figure: Bad example - you don't need to use `.AddDevelopersSigningCredential()` anymore
 :::
 
-When using version 5, instead of using `IdentityServer4.AccessTokenValidation()`, you should use the out of the box `AddAuthentication(("Bearer").AddJwtBearer("Bearer")` from .NET 5 
+When using version 5, instead of using `IdentityServer4.AccessTokenValidation()`, you should use the out of the box `AddAuthentication(("Bearer").AddJwtBearer("Bearer")` from .NET 5
 
 ```cs
 services.AddAuthentication("Bearer")
@@ -46,6 +47,7 @@ services.AddAuthentication("Bearer")
         options.Authority = "https://localhost:5000";
     });
 ```
+
 ::: bad
 Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package as it is deprecated.
 :::
@@ -58,6 +60,7 @@ services.AddAuthentication("Bearer")
       options.Authority = "https://localhost:5000";
     });
 ```
+
 ::: good
 Figure: Good example - use `AddJwtBearer("Bearer")` instead
 :::

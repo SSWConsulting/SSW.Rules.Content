@@ -95,13 +95,13 @@ So if you aren't manually creating your Azure resources, what options do you hav
 
 ### Option C: Enterprise configuration management $$$
 
-The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure. 
+The other option when moving to an automated Infrastructure as Code (IaC) solution is to move to a paid provider like [Pulumi](https://www.pulumi.com) or [Terraform](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs). These solutions are ideal if you are using multiple cloud providers or if you want to control the software installation as well as the infrastructure.
 
 * Both tools are great and have free tiers available
 * Paid tiers provide more benefits for larger teams and helps manage larger infrastructure solutions
 * Terraform uses HashiCorp Configuration Language HCL
   * like YAML but much more powerful
-  * https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf
+  * <https://learn.hashicorp.com/tutorials/terraform/cdktf-install?in=terraform/cdktf>
 * Pulumi uses real code (C#, TypeScript, Go, and Python) as infrastructure rather than JSON/YAML
 
 ::: good

@@ -20,7 +20,7 @@ Is working as a team all it is cracked up to be?
 
 It's a well known fact that a good team of 3 people will output more than 3 people working on their own. As well as that, the team members will find it more rewarding as well.
 
-The best sum up of this was by famous Wallaby player, Ben Darwin, who after breaking his neck in a Scrum. He was forced to quit being a Wallaby and rejoin normal society. He said:   
+The best sum up of this was by famous Wallaby player, Ben Darwin, who after breaking his neck in a Scrum. He was forced to quit being a Wallaby and rejoin normal society. He said:
 
 <!--endintro-->
 
@@ -30,7 +30,7 @@ We can see examples of this in nature as well. For the Antarctic Emperor Penguin
 
 It is essential that in order to be a contributing member of a successful team, you are willing to put the good of the team over your own interests so that everyone can benefit in the long term.
 
-`youtube: https://www.youtube.com/embed/cgGL6SbMfKc` 
+`youtube: https://www.youtube.com/embed/cgGL6SbMfKc`
 
 **Video: Emperor penguins unite for survival in Antarctica - David Attenborough - BBC wildlife (2 min)**
 

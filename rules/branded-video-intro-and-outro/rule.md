@@ -19,14 +19,11 @@ redirects:
 
 A branded intro and outro will associate the video with your company. Intros are the visuals at the very beginning of your video, while outros appear in the end.
 
-
 <!--endintro-->
-
 
 ::: good  
 ![Good example: Intros can have the video title; event logo; or speaker details (depending on the type of video you're making)](Screen Shot 2019-05-30 at 8.42.12 AM.png)  
 :::
-
 
 ::: good  
 ![Good example: Outros should have your logo and tagline](Screen Shot 2019-05-30 at 8.25.51 AM.png)  

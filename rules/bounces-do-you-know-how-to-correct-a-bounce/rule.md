@@ -33,7 +33,7 @@ Get the correct email address and ‘Reply to all’ with just this text in brac
 
 ::: greybox
   (Resending with Adam’s correct email)
-                                
+
   ---------------------------------
   {{ ORIGINAL EMAIL }}  
 :::

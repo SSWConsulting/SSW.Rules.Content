@@ -10,7 +10,7 @@ created: 2022-01-19T08:12:12.138Z
 guid: 94dbbef5-a1ac-4369-8955-45152590f1f4
 ---
 
-When there are key words that you want people to notice, you can add a spot of color on the important word for emphasis. 
+When there are key words that you want people to notice, you can add a spot of color on the important word for emphasis.
 
 <!--endintro-->
 

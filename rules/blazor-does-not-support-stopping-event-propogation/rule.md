@@ -16,7 +16,7 @@ Workaround - When you have two fields and you want to handle tabbing out of the 
 
 <!--endintro-->
 
-To solve the issue change the binding to `@bind:event="oninput"` so the value is captured before key down. 
+To solve the issue change the binding to `@bind:event="oninput"` so the value is captured before key down.
 
 The reason is due to the problem outlined in [Keyup event behavior on tab](https://stackoverflow.com/questions/18020098/keyup-event-behavior-on-tab).
 

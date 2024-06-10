@@ -16,10 +16,10 @@ redirects:
 ---
 
 When at a conference change it to the conference's hashtag:
-Eg.  **Todd Gardner at #NdcOslo** 
+Eg.  **Todd Gardner at #NdcOslo**
 
 When traveling change it to the area you are in:
-Eg.  **Todd Gardner in Norway 🇳🇴** 
+Eg.  **Todd Gardner in Norway 🇳🇴**
 
 <!--endintro-->
 

@@ -25,7 +25,6 @@ Creating a Production Build of a React project is complicated, you need great to
 
 **[Webpack](https://webpack.js.org/concepts)** is a module bundler. It packs CommonJs/AMD modules.
 
-
 ### Create React App
 
 ``` shell

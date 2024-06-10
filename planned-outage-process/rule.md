@@ -51,9 +51,9 @@ Example:
 | Subject: | Planned Outage | Date and time |  
 ::: email-content  
 
-### Hi All,
+### Hi All
 
-Here is the summary of the outage plan: 
+Here is the summary of the outage plan:
 
 | **Planned/Unplanned:**      | Planned                                                                                               |
 | --------------------------- | ----------------------------------------------------------------------------------------------------- |
@@ -66,7 +66,7 @@ Here is the summary of the outage plan:
 | **Planned Finish Time:**    | 26 October 11:30 PM                                                                                   |
 | **Affected Services:**      | \Windows Server 2016  ,  sharepoint.ssw&#46;com.au intranet.ssw&#46;com.au  , projects.ssw&#46;com.au |
 
-**Risk Lookup Table by Probability and Impact:** 
+**Risk Lookup Table by Probability and Impact:**
 
 ![Figure: Clearly showing the potential risks](risk-table.jpg)
 
@@ -78,35 +78,35 @@ and
 
 ![](rule-outage-2.jpg)
 
-### To myself,
+### To myself
 
 To show others who are interested in what needs to be done to fix the problem:
 
-**Detailed Change Plan:** 
+**Detailed Change Plan:**
 
 1. Lockout users via IIS
 2. Backup server
-3. Install Windows Updates 
+3. Install Windows Updates
 4. Reboot server
 5. Follow test plan
 6. Based on result of test plan, follow backout plan if procedure failed
-7. Procedure completed       
+7. Procedure completed
 
-**Test Plan:** 
+**Test Plan:**
 
 1. Check Event log for errors
 2. Check each affected service is running
-3. Call test users to start “Test Please” on the affect services 
-4. Get result of user “Test Please” by email by 11:15 PM       
+3. Call test users to start “Test Please” on the affect services
+4. Get result of user “Test Please” by email by 11:15 PM
 
-**Backout Plan:** 
+**Backout Plan:**
 
 1. Restore server from backup
 
 **Note:** &lt;This is as per rule [Outage - Do you have a planned outage process?](/planned-outage-process) &gt;
 
 :::
-::: 
+:::
 
 Immediately before the scheduled downtime, check for logged in users, file access, and database connections.
 
@@ -134,7 +134,7 @@ Once these have been checked for active users, and users have logged off, mainte
 
 1. Between 7am and 7:05am
 2. Between 1pm and 1:05pm
-3. Between 7pm and 7:05pm 
+3. Between 7pm and 7:05pm
 
 If a scheduled shutdown is required, use the PsShutdown utility from [Microsoft's Sys Internals](https://docs.microsoft.com/en-us/sysinternals/downloads/psshutdown) page.
 

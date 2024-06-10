@@ -17,7 +17,7 @@ When an organisation has a security breach, passwords are compromised and there 
 
 <!--endintro-->
 
-haveibeenpwned keeps a record of all known hacks and accounts that have been affected. 
+haveibeenpwned keeps a record of all known hacks and accounts that have been affected.
 
 It is a good idea to regularly check haveibeenpwned to see if any of your passwords have been exposed. If one of your accounts has been affected, then make sure to change the passwords you use for that account and anywhere else you use that password.
 

@@ -21,11 +21,9 @@ Avoid putting the date and time into the text field of a meeting since these are
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example - The appointment with the date in the text](Bad calendar appointment.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - The appointment without time and date in the text](Good calendar appointment.jpg)  

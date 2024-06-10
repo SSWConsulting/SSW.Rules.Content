@@ -25,7 +25,6 @@ Here’s a little thing to keep in mind, as Google Ads has a limitation in chara
 * **Display URL** – 35 Character Maximum
 * **Final URL** – 1024 Character Maximum
 
-
 Main Key metrics to follow (depending on your strategy):
 
 * CPC

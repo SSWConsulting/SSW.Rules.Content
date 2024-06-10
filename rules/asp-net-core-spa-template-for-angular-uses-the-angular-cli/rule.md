@@ -44,7 +44,7 @@ dotnet new angular -o MyAngularApp
 
 Although Visual Studio can be used to create the project, we still recommend Visual Studio Code for working with the Angular code, as per [Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
 
-### The ASP.NET Core SPA Template for Angular Includes: 
+### The ASP.NET Core SPA Template for Angular Includes
 
 ![Figure: A simple example WebAPI](simple-example-webapi.png)  
 

@@ -21,13 +21,13 @@ When you are working on a project, you need to follow the [get work approved bef
 
 If you reasonably assume that the task you are working on would be approved by the customer, and it will take less than half an hour, you should go ahead with that task.
 
-To: Scott 
+To: Scott
 Subject: QWI - Aqua UI Improvements from Adam
 
-Adam suggested that we make the positioning of the "New" Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes. 
+Adam suggested that we make the positioning of the "New" Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes.
 Please approve.
 Figure: Bad example.
-To: Scott 
+To: Scott
 Subject: QWI - Aqua UI Improvements from Adam
 
 Adam suggested that we make the positioning of the "New" Button consistent on all forms. Move the New to the right with the Save and close buttons. Estimated 15 minutes.

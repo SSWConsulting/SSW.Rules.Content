@@ -26,13 +26,13 @@ Image is everything. Improve the way you market, educate and promote yourself wi
 
 <!--endintro-->
 
-Even the most beautifully designed presentation can fall flat if the content isn't up to par. Ensuring accuracy, relevance, and clarity in your message is crucial for a successful delivery. 
+Even the most beautifully designed presentation can fall flat if the content isn't up to par. Ensuring accuracy, relevance, and clarity in your message is crucial for a successful delivery.
 
 Have a Presentation Master review the content of your slides to refine your message, validate information, and enhance engagement. Then use a designer to make your presentation stand out.
 
 1. Do the best job you can on your presentation
 2. Get a senior developer to go through it
-3. ⭐️ Test Pass - From a Presentation Master 
+3. ⭐️ Test Pass - From a Presentation Master
 4. ⭐️ Test Pass - From a designer for better look and feel
 5. Show it to an audience to get feedback
 

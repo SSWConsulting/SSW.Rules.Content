@@ -13,9 +13,8 @@ redirects:
 
 ---
 
-Here are the best collection of resources for AngularJS. 
+Here are the best collection of resources for AngularJS.
 <!--endintro-->
-
 
 * [http://tv.ssw.com/angularjs](http&#58;//tv.ssw.com/angularjs)
 * [https://channel9.msdn.com/Search?term=angularjs#ch9Search&lang-en=en](https&#58;//channel9.msdn.com/Search?term=angularjs#ch9Search&amp;lang-en=en)

@@ -16,9 +16,10 @@ This is the golden rule of LINQ. You generally have no idea how big the IEnumera
 ```cs
 foreach(var product in products.ToList())
 {
-	// Do something
+ // Do something
 } 
 ```
+
 ::: bad
 Figure: Bad example - This creates a list with all of the products in RAM before iterating over them. This can very easily cause an OutOfMemoryException.
 :::
@@ -26,11 +27,12 @@ Figure: Bad example - This creates a list with all of the products in RAM before
 ```cs
 foreach(var product in products)
 {
-    	// Do something
+     // Do something
 }
 ```
+
 ::: good
 Figure: Good example - Doesn't force the data to be read into memory before iterating. This will behave nicely even for an infinite enumerator.
 :::
 
-Don't materialize an IEnumerable, just iterate it. ie don't ToList or ToArray it until it's been filtered. Do not assume that the input stream fits in RAM. 
+Don't materialize an IEnumerable, just iterate it. ie don't ToList or ToArray it until it's been filtered. Do not assume that the input stream fits in RAM.

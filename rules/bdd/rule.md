@@ -28,9 +28,9 @@ First think about the different scenarios that you want to test, then write them
     Participant sees a greeting message
 
 **Scenario**: Participant sees a greeting message
-	Given I visit the website
-	When I navigate to the greeting screen
-	Then I see the greeting message
+ Given I visit the website
+ When I navigate to the greeting screen
+ Then I see the greeting message
 :::
 ::: good
 Figure: Good example - Gherkin syntax scenarios (Given, When, Then)
@@ -59,6 +59,7 @@ public async Task ThenISeeTheGreetingMessage()
     Assert.IsTrue(message == GreetingMessage);
 }
 ```
+
 ::: good
 Figure: Good example - Test steps to run, matching the Gherkin Syntax
 :::

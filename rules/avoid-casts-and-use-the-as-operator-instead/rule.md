@@ -17,11 +17,9 @@ redirects:
 
 Use casts only if:
 a. You know 100% that you get that type back
-b. You want to perform a user-defined conversion 
+b. You want to perform a user-defined conversion
 
 <!--endintro-->
-
-
 
 ```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -32,11 +30,10 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
  // snip snip snip
 }
 ```
+
 ::: bad
 Bad example
 :::
-
-
 
 ```cs
 private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -51,6 +48,7 @@ private void AMControlMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
    
 }
 ```
+
 ::: good
 Good example
 :::

@@ -21,14 +21,14 @@ The best way to avoid it is not to display valid individual email addresses in t
 <!--endintro-->
 
 ::: greybox
-FirstnameSurname@ssw.com.au
+<FirstnameSurname@ssw.com.au>
 :::
 
 ::: bad
 Figure: Bad way - normal email address in text format
 :::
 
-###  Better way: encryption technique 
+###  Better way: encryption technique
 
 1. Store email addresses in the web.config file
 

@@ -22,11 +22,9 @@ If someone gives you feedback and you think it is worth incorporating into the c
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example, a static blog post. Does not look like it has been updated.](RulesBloggingAcknowledgeBad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example, dated and attributed updates give your posts credibility and make them seam alive.](RulesBloggingAcknowledgeGood.jpg)  

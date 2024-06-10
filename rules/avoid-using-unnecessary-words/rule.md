@@ -16,7 +16,7 @@ redirects:
 
 ---
 
-When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation. 
+When writing any content it is vital you cut unnecessary words to keep the reader interested and focused. This is especially important for dense or technical documentation.
 Your writing can be less wordy and still get the message across.
 
 <!--endintro-->

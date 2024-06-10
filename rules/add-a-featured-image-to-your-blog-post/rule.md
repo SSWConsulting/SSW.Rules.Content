@@ -19,11 +19,9 @@ A relevant featured image is a great way to add a splash of color to your blog a
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example – the content might be interesting but it is not very appealing](blog-no-feat-image.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example – the content is more appealing](blog-with-feat-image.jpg)  

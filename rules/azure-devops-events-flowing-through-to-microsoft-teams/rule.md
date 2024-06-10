@@ -26,11 +26,9 @@ You can see details about your Azure DevOps Server (formerly known as TFS) proje
 * Builds
 * Release deployments and approvals
 
-
 Also bring your Azure DevOps Services Kanban board directly into Microsoft Teams as a tab.
 
-For more info, follow this link: https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=vsts
-
+For more info, follow this link: <https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/teams?view=vsts>
 
 <!--endintro-->
 

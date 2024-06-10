@@ -93,19 +93,21 @@ This style of documentation is used by modern teams who are Agile only.
 **4. _docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent.
 
 **5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
-* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project. 
+
+* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project.
 * Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
 * A link to [ADRs (Architectural Decision Records)](/do-you-use-architectural-decision-records/)
 * Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
-* 3rd party libraries used 
-* 3rd party services used 
+* 3rd party libraries used
+* 3rd party services used
 * A link to all [package-audit-logs](/package-audit-log)
 
 **6. _docs\Alternative-Solutions-Considered.md** – explains other options that were discounted. For example
-  * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
-  * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
-  * We chose to use Azure over on-premises to avoid procurement of costly servers.
-  * Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
+
+* We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
+* We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
+* We chose to use Azure over on-premises to avoid procurement of costly servers.
+* Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
 **7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
 
@@ -120,11 +122,13 @@ It also means that when a developer makes a change to the code that needs an upd
 Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. The Wiki should be sourced from the repo **docs\\** folder to ensure documentation is kept up-to-date. There are several options for creating a Wiki:
 
 Azure DevOps wiki options:
+
 * [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
 * [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 GitHub wiki options:
+
 * [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
@@ -157,7 +161,6 @@ GitHub wiki options:
 
 **Tip:** Use your documentation for onboarding developers
 
-
 ::: bad  
 ![Figure: Bad example - No documentation, go and sit with another developer](sit-dev-bad.png)  
 :::
@@ -177,12 +180,11 @@ When updating the Acceptance Criteria, ~~strike through~~ the altered Acceptance
 ::: greybox
 Example:
 
-~~Enter search text, click ‘Google’, and see the results populate below.~~   
+~~Enter search text, click ‘Google’, and see the results populate below.~~
 [Updated] Enter search text and automatically see the results populate below.  
 :::
 
 This should be added to the [Definition of Done](/definition-of-done).
-
 
 ### Technical Debt
 

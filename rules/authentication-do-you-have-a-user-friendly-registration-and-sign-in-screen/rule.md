@@ -18,7 +18,6 @@ For a website that expects a lot of first-time visitors, it is wise to put the  
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - non-friendly sign in screen](BadloginDialog.gif)  
 :::
@@ -30,14 +29,11 @@ The image is a bad example of a dialog box because:
 * The "Forgot my Password" link is ambiguous - Does it take me to a new page or do I have to enter the email address field first?
 * A button, not a link, should be used for submitting data, as links don't allow the user to hit "enter"
 
-
-
 ::: good  
 ![Figure: Good example - friendly sign in screen for many new visitors](GoodloginScreen.gif)  
 :::
 
 For a website that expects few first-time visitors, this is a good sign in screen, as it is clean and concise:
-
 
 ::: good  
 ![Figure: Good example - friendly sign in screen for few new visitors](GoodloginScreen-few.gif)  

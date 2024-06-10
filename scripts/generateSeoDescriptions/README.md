@@ -5,6 +5,7 @@
 This bash script automates the generation of SEO descriptions for Markdown files using the Ollama CLI. It searches for Markdown files in a specified directory, checks if they contain an existing SEO description, and if not, generates one using the Llama 3 LLM.
 
 ## Requirements
+
 * Bash shell
 * Ollama CLI tool (`ollama`) installed and configured
 

@@ -27,9 +27,9 @@ It's worth looking at Mike Cohn's automated test pyramid:
 
 ![Figure: Mike Cohn's automated test pyramid (2009)](test-pyramid-cohn_1710232021929.jpg)
 
-The topmost layer of the pyramid is deliberately small and represents the relatively small amount of end-to-end UI-based automated checks that should be written and executed against the system. 
+The topmost layer of the pyramid is deliberately small and represents the relatively small amount of end-to-end UI-based automated checks that should be written and executed against the system.
 
-✅ **Customer workflows** - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking that the most important customer workflows continue to function as expected 
+✅ **Customer workflows** - Tests at the level of the UI most closely mimic user interaction with the software and so are ideal for checking that the most important customer workflows continue to function as expected
 
 ❌ **Slow to execute** - Testing at this level offers the slowest feedback, since interacting with the user interface is necessarily slower than interacting with smaller units of code within the system
 
@@ -39,7 +39,7 @@ The topmost layer of the pyramid is deliberately small and represents the relati
 
 ❌ **Less deterministic** - The scope of automated UI tests is large, so when they fail, they generally don't pinpoint problems in the code as closely as, say, unit or API tests
 
-❌ **Hard to test business logic** - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level 
+❌ **Hard to test business logic** - There is always back-end functionality and business logic that is incredibly hard to "reach" via the user interface and internal infrastructure is nearly impossible to exercise/test via automation at this level
 
 ::: greybox
 Focusing automated UI testing on important user workflows in your system can be of great benefit. But choose your tests at this high level very carefully and consider using higher value, lower cost alternative types of test lower down the pyramid for the majority of your automated testing.

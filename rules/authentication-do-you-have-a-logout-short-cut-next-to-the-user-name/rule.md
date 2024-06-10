@@ -18,11 +18,9 @@ Although most of the sites have a 'Log off' submenu, we recommend adding a short
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - Only has a 'Log Off' operation in the submenu](logoff-bad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - Has a 'Logout' short cut next to the username](logoff-good.jpg)  

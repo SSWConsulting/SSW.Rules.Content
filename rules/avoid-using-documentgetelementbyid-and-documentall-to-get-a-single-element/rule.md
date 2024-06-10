@@ -30,6 +30,7 @@ With jQuery, you can write less code but do more work.
     document.all("Head1").style.color="red"; 
 </script>
 ```
+
 ::: bad
 Figure - Bad Code  
 :::
@@ -40,6 +41,7 @@ Figure - Bad Code
     document.getElementById("Head1").style.color="red"; 
 </script>
 ```
+
 ::: bad
 Figure: Bad Code  
 :::
@@ -50,6 +52,7 @@ Figure: Bad Code
     $("#Head1").css("color","red"); 
 </script>
 ```
+
 ::: good
 Figure: Good Code - Using $("#Head1")
 :::

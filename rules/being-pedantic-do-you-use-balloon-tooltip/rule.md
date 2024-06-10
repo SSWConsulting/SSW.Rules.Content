@@ -16,11 +16,9 @@ The standard tooltip is a rectangle, so the tool tip for the control can be misl
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Standard tooltip.](../../assets/BadTooltip.gif)  
 :::
-
 
 ::: good  
 ![Figure: Balloon tooltip.](../../assets/GoodTooltip.gif)  

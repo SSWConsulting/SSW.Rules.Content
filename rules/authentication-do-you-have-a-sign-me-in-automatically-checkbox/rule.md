@@ -18,7 +18,6 @@ When you present visitors to your site with an opportunity to sign in, you shoul
 
 <!--endintro-->
 
-
 ::: good  
 ![Figure: 'Stay signed in' checkbox is available](signin.jpg)  
 :::

@@ -34,7 +34,7 @@ As a guideline, you should not go more than 2 weeks without talking to your Prod
 No email or call.
 :::
 ::: bad
-Figure: The worst example - not reaching out to your Product Owner or manager at all. You should be in regular contact with them 
+Figure: The worst example - not reaching out to your Product Owner or manager at all. You should be in regular contact with them
 :::
 
 ::: email-template  
@@ -45,15 +45,16 @@ Figure: The worst example - not reaching out to your Product Owner or manager at
 | Subject: | What's next? |  
 ::: email-content  
 
-### Hi Uly,  
+### Hi Uly  
+
 Did I have a project or something due soon?
 
-Jason   
+Jason
 
 :::  
 :::  
 ::: bad
-Figure: Bad example - you shouldn't have to ask that! 
+Figure: Bad example - you shouldn't have to ask that!
 :::
 
 ::: email-template  
@@ -64,16 +65,16 @@ Figure: Bad example - you shouldn't have to ask that! 
 | Subject: | Northwind presentation v1 - review |  
 ::: email-content  
 
-### Hi Uly,  
+### Hi Uly  
 
-We've got the Northwind presentation coming up next week. I've finished a v1. 
+We've got the Northwind presentation coming up next week. I've finished a v1.
 
-Would you have some time on Thursday afternoon to go over it with me? 
+Would you have some time on Thursday afternoon to go over it with me?
 
-Jason   
+Jason
 
 :::  
-::: 
+:::
 ::: good
-Figure: Good example - Actively reaching out to your Product Owner 
+Figure: Good example - Actively reaching out to your Product Owner
 :::

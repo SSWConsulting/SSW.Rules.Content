@@ -18,6 +18,4 @@ TFS Team Project should be considered from a project management point of view in
 
 ![Figure: Bad Example - Multiple Team Projects for the same product](bad-multiple-projects.gif)
 
-
-
 ![Figure: Good Example - Multiple solution folders in the same Team Project](good-multiple-folders.gif)

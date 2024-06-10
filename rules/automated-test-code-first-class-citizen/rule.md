@@ -19,7 +19,7 @@ Depending on your automated tests to make deployment/release decisions means tha
 
 ![Figure: Don't make excuses for writing poor quality test code](important-find-a-way.jpg)
 
-You're writing (automated test) code because you, legitimately, have doubts about other (product) code, so this automated test code is as important as the production code - and maybe even more important! 
+You're writing (automated test) code because you, legitimately, have doubts about other (product) code, so this automated test code is as important as the production code - and maybe even more important!
 
 The test code should be treated as a first-class citizen, so:
 
@@ -30,4 +30,4 @@ The test code should be treated as a first-class citizen, so:
 
 ### Further reading
 
-- [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/) by Bas Dijkstra
+* [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/) by Bas Dijkstra

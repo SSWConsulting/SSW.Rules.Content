@@ -30,15 +30,15 @@ Follow this template to reply:
 | Subject: | Request to fix bug |  
 ::: email-content  
 
-### Hi Charlie,
+### Hi Charlie
 
-If it was a quick 5 mins I would do it straight away. However I need to do a little investigation - maybe a couple of hours. 
+If it was a quick 5 mins I would do it straight away. However I need to do a little investigation - maybe a couple of hours.
 
 If that is OK, I will spend that time on this and let you know how I go.
 
 1. Please approve
 
-Denise 
+Denise
 
 :::  
 :::  
