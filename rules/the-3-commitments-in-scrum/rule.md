@@ -1,19 +1,17 @@
 ---
-seoDescription: Here's a generated SEO description: "Master the three commitments in Scrum: Product Goal, Sprint Goal, and Definition of Done, to drive your team towards a defined outcome and ensure quality product delivery."
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the 3 commitments in Scrum (Product Goal, Sprint Goal, and Definition of Done)?
 guid: e74c37fd-b56f-41d3-9c4c-88693aafd95d
 uri: the-3-commitments-in-scrum
 created: 2020-12-04T00:27:09.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-the-3-commitments-in-scrum-product-goal-sprint-goal-and-definition-of-done
-- do-you-know-the-3-commitments-in-scrum-(product-goal-sprint-goal-and-definition-of-done)
-
+  - do-you-know-the-3-commitments-in-scrum-product-goal-sprint-goal-and-definition-of-done
+  - do-you-know-the-3-commitments-in-scrum-(product-goal-sprint-goal-and-definition-of-done)
 ---
 
 Each step of Scrum is designed to take you towards an outcome, and this is built upon 3 levels of commitment:

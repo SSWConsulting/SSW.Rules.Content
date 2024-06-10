@@ -1,19 +1,18 @@
 ---
-seoDescription: Here's a generated SEO description: "Create links to URLs in SharePoint libraries using 'Link to a document' content type or upload shortcut files (.url), ideal for navigating to different websites and documents."
+seoDescription: Create links to URLs in SharePoint libraries using 'Link to a document' content type or upload shortcut files (.url), ideal for navigating to different websites and documents.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to create a link to a URL in SharePoint?
 guid: f7e772d8-748f-4f21-8890-c25ef13718f9
 uri: do-you-know-how-to-create-a-link-to-a-url-in-sharepoint
 created: 2013-07-26T00:38:30.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 TODO TIAGO: ADD IMAGE OF WINDOWS EXPLORER (4 files in it) AND ANOTHER WITH SHAREPOINT DOCUMENTS LIBRARY

@@ -1,7 +1,7 @@
 ---
-seoDescription: Here's your SEO description: "Unlock powerful workflows and scalability with Git-based CMS solutions like TinaCMS, CrafterCMS, Publii, Contentrain, or StaticCMS - perfect for developers seeking flexible content management."
+seoDescription: Unlock powerful workflows and scalability with Git-based CMS solutions like TinaCMS, CrafterCMS, Publii, Contentrain, or StaticCMS - perfect for developers seeking flexible content management.
 type: rule
-title: Do you use Git-based Content Management Systems (CMS)? 
+title: Do you use Git-based Content Management Systems (CMS)?
 uri: git-based-cms-solutions
 authors:
   - title: William Liebenberg
@@ -11,7 +11,7 @@ authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook/
 related:
-    - do-you-know-the-best-cms-solutions-for-websites
+  - do-you-know-the-best-cms-solutions-for-websites
 redirects: []
 created: 2024-01-25T23:49:23.696Z
 guid: abfa31ba-9bb4-43a5-af73-21d1a928e3bb

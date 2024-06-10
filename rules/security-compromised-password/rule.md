@@ -1,5 +1,5 @@
 ---
-seoDescription: Employees must report compromised passwords immediately to their System Administrators, regardless of whether it's a personal or work account. Generated SEO Description: "Handle compromised passwords by informing sysadmins promptly for assistance with personal and work accounts."
+seoDescription: Handle compromised passwords by informing sysadmins promptly for assistance with personal and work accounts
 type: rule
 title: Passwords - Do you know how to handle compromised passwords?
 uri: security-compromised-password
