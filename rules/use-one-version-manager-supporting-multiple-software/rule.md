@@ -1,19 +1,18 @@
 ---
 seoDescription: Do you know to use one version manager supporting multiple software?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know to use one version manager supporting multiple software?
 guid: 6b7b2c3a-e363-4402-b1ee-460fd16125fb
 uri: use-one-version-manager-supporting-multiple-software
 created: 2023-07-21T21:54:27.0000000Z
 authors:
-- title: John Xu
-  url: https://ssw.com.au/people/john-xu
+  - title: John Xu
+    url: https://ssw.com.au/people/john-xu
 related: []
 redirects:
   - use-one-version-manager-supporting-multiple-softwares
-- do-you-know-to-use-one-version-manager-supporting-multiple-software
-
+  - do-you-know-to-use-one-version-manager-supporting-multiple-software
 ---
 
 Managing software versions can be a complex and time-consuming task, especially when you're dealing with multiple applications across various platforms. In today's fast-paced digital landscape, having a unified solution that supports multiple software packages is invaluable. Imagine a single version manager that streamlines the process, ensuring that all your software remains up to date effortlessly. Let's explore the advantages and possibilities of using a version manager capable of handling multiple software applications, simplifying your workflow and enhancing your software management experience.
