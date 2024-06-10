@@ -3,13 +3,14 @@ seoDescription: "Twitter account verification helps establish authenticity and c
 type: rule
 title: Twitter - Do you know how to verify your account?
 uri: twitter-how-to-verify-your-account
+redirects:
+  - twitter-do-you-know-how-to-verify-your-account
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
-redirects: []
 created: 2016-07-25T04:52:07.000Z
 archivedreason: null
 guid: 847919c8-fd1f-49e5-bd78-e6ed9b523a81

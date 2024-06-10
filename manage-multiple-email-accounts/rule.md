@@ -8,6 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/jimmy-chen
 related: null
 redirects:
+  - Manage-multiple-email-accounts
   - manage-multiple-email-accounts
 created: 2023-06-07T04:35:55.000Z
 archivedreason: null

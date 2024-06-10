@@ -3,6 +3,8 @@ seoDescription: "Migrating web apps to .NET and leveraging YARP's configuration 
 type: rule
 title: Migrating Web Apps to .NET
 uri: migrating-web-apps-to-dotnet
+redirects:
+  - migrating-web-apps
 authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook

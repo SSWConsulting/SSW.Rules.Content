@@ -2,6 +2,8 @@
 type: rule
 title: Do you use LINQ as a query language?
 uri: use-linq-as-a-query-language
+redirects:
+  - use-linq-as-a-query-language
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver

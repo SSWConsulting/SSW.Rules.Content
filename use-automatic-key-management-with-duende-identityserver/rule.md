@@ -5,6 +5,8 @@ archivedreason:
 title: Do you use Automatic Key management with Duende IdentityServer?
 guid: b045ffb9-254e-49e0-a971-31a4f6eb4ae7
 uri: use-automatic-key-management-with-duende-identityserver
+redirects:
+  - use-automatic-key-management-with-duende-identityServer
 created: 2021-03-17T09:45:07.0000000Z
 authors:
 - title: Anthony Nguyen
