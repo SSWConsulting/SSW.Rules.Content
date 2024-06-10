@@ -18,7 +18,7 @@ redirects: []
 If you are active in a forum, like the MSDN or StackOverflow forums, then you should set up the RSS for your activity to automatically tweet.
 
 ::: greybox
-Replied to the question Error when trying to 'add assembly from project output' in the package manager. in the Sha... http://bit.ly/bwREtu
+Replied to the question Error when trying to 'add assembly from project output' in the package manager. in the Sha... <http://bit.ly/bwREtu>
 6:02 PM Mar 12th via twitterfeed  
 :::
 ::: good

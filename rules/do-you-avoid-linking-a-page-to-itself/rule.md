@@ -19,6 +19,6 @@ A link on a page that takes you to the very same page is a weird experience. Don
 
 Exceptions can be:
 
-- **Permalinks** – Because it enables a user to get a link to the current page or bookmark.
-- **The logo on the homepage** – It’s widely known that clicking on the logo will take you to the homepage and it shouldn’t change if you are already on the homepage. People often click on it to reload the page.
-- **Menu items** – However you should visually indicate on what page you are on.
+* **Permalinks** – Because it enables a user to get a link to the current page or bookmark.
+* **The logo on the homepage** – It’s widely known that clicking on the logo will take you to the homepage and it shouldn’t change if you are already on the homepage. People often click on it to reload the page.
+* **Menu items** – However you should visually indicate on what page you are on.
