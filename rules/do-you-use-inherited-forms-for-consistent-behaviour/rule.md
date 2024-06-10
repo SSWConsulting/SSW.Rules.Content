@@ -22,10 +22,10 @@ We try to keep the number of controls on inherited forms, and the levels of inhe
 
 Every form in your application should inherit from a base form which has code common to every form, for example:
 
-- Company Icon
-- Remembering its size and location - Code sample <span style="background-color: red">to come</span> in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit)
-- Adding itself to a global forms collection if SDI (to find forms that are already open, or to close all open forms)
-- Logging usage frequency and performance of forms (load time)
+* Company Icon
+* Remembering its size and location - Code sample <span style="background-color: red">to come</span> in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit)
+* Adding itself to a global forms collection if SDI (to find forms that are already open, or to close all open forms)
+* Logging usage frequency and performance of forms (load time)
 
 ![Figure: Base Form for all SSW applications with SSW icon](baseform.gif)
 

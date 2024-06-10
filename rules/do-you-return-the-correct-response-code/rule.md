@@ -48,7 +48,7 @@ Figure: Bad Example – By default a 200 status code is returned.
 ```
 
 ::: good
-Figure: Good Example – When creating objects the “Created” status code is returned. 
+Figure: Good Example – When creating objects the “Created” status code is returned.
 :::
 
 ```csharp

@@ -40,18 +40,18 @@ Below is a list of some of the most popular tools:
 
 ✅ **Pros**
 
-- Open-source
-- Git-based versioning & workflows
-- GitHub Contributions
-- MDX Support for rich reusable components
-- Editorial Workflows
-- Supports Single Sign-On (SSO)
+* Open-source
+* Git-based versioning & workflows
+* GitHub Contributions
+* MDX Support for rich reusable components
+* Editorial Workflows
+* Supports Single Sign-On (SSO)
 
 ❌ **Cons**
 
-- Manage Pull Request in GitHub
-- Some minor UX issues
-- Pricing Tiers
+* Manage Pull Request in GitHub
+* Some minor UX issues
+* Pricing Tiers
 
 ### CrafterCMS
 
@@ -59,17 +59,17 @@ Below is a list of some of the most popular tools:
 
 ✅ **Pros**
 
-- Git-based versioning & workflows
-- Open-source
-- Docker Image
-- Supports most UI Frameworks
-- GraphQL support
-- Unlimited Sites, Projects, Users
+* Git-based versioning & workflows
+* Open-source
+* Docker Image
+* Supports most UI Frameworks
+* GraphQL support
+* Unlimited Sites, Projects, Users
 
 ❌ **Cons**
 
-- Does not support MDX
-- Need a user account
+* Does not support MDX
+* Need a user account
 
 There is also an enterprise version of CrafterCMS that has more features, like Internationalization and Generative AI. However that solution is $$$ Super expensive.
 
@@ -79,15 +79,15 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 ✅ **Pros**
 
-- Open-source
-- Privacy focused
-- Can sync content with git
+* Open-source
+* Privacy focused
+* Can sync content with git
 
 ❌ **Cons**
 
-- Does not support MDX
-- No GitHub contributions
-- Desktop Based Only
+* Does not support MDX
+* No GitHub contributions
+* Desktop Based Only
 
 ### Contentrain
 
@@ -95,16 +95,16 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 ✅ **Pros**
 
-- Pricing is comparable/affordable to most API-based CMSs
-- Real-time collaboration
-- Git-based versioning & workflows
-- Internationalization
+* Pricing is comparable/affordable to most API-based CMSs
+* Real-time collaboration
+* Git-based versioning & workflows
+* Internationalization
 
 ❌ **Cons**
 
-- JSON based content
-- No GitHub contributions
-- Need a user account
+* JSON based content
+* No GitHub contributions
+* Need a user account
 
 ### StaticCMS
 
@@ -112,11 +112,11 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 ✅ **Pros**
 
-- Editorial Workflow (in Beta)
-- Open Authoring (in Beta)
-- GitHub Contributions
+* Editorial Workflow (in Beta)
+* Open Authoring (in Beta)
+* GitHub Contributions
 
 ❌ **Cons**
 
-- No MDX support
-- No live-preview (markdown preview only)
+* No MDX support
+* No live-preview (markdown preview only)

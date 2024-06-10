@@ -79,9 +79,9 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 
 As per our conversation, the Daily Scrum will be held each day.
 
-- Project: XXX
-- Scrum Master: XXX
-- Task board: XXX
+* Project: XXX
+* Scrum Master: XXX
+* Task board: XXX
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
 
@@ -102,8 +102,8 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 ::: greybox
 **Notes:**
 
-- The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
-- If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
+* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
+* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
 
 :::
 
@@ -178,17 +178,17 @@ To avoid misunderstandings or even arguments, send your Daily Scrum as an email 
 
 Yesterday I worked on:
 
-- ✅ Done - XXX
-- ⏳ In Progress - XXX
-- ⬜ PBI - XXX
-- ❌ Blocked - XXX
+* ✅ Done - XXX
+* ⏳ In Progress - XXX
+* ⬜ PBI - XXX
+* ❌ Blocked - XXX
 
 Today I'm working on:
 
-- ⏳ In Progress - XXX
-- ⬜ PBI - XXX
-- ⬜ Email - XXX
-- ❌ Blocked - XXX
+* ⏳ In Progress - XXX
+* ⬜ PBI - XXX
+* ⬜ Email - XXX
+* ❌ Blocked - XXX
 
 :::
 :::
@@ -220,8 +220,8 @@ Yesterday I was on sick leave.
 
 Today I am working on:
 
-- Timepro PBIs
-- Tidy inbox
+* Timepro PBIs
+* Tidy inbox
 
 :::
 ::: bad
@@ -238,8 +238,8 @@ I have 22 emails in my inbox.
 
 Today I am working on:
 
-- TimePro - <mark>Adding new button to the next day</mark>
-- <mark>Getting my emails on "SSW.com" to zero</mark>
+* TimePro - <mark>Adding new button to the next day</mark>
+* <mark>Getting my emails on "SSW.com" to zero</mark>
 
 :::
 ::: good
@@ -262,8 +262,8 @@ When you are blocked, you should ideally take steps to unblock yourself. However
 
 The ideal people to ask for assistance are:
 
-- A fellow Developer that is Senior or knows the tech
-- Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
+* A fellow Developer that is Senior or knows the tech
+* Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
 
 **What happens when you run out of tasks?**
 
