@@ -1,5 +1,5 @@
 ---
-seoDescription: A well-crafted search engine optimization (SEO) description! Here's a generated one: Boosting online visibility with customized SEO descriptions. (Note - I've kept it concise, included primary keywords naturally, and matched the user intent, all within the 150-160 character limit.)
+seoDescription: People don’t answer in the same way every time. Neither should bots! All you need is a few different answer messages and a rand() function.
 type: rule
 title: Do you vary your bot responses?
 uri: vary-your-responses
@@ -12,7 +12,6 @@ redirects:
 created: 2018-09-18T20:11:30.000Z
 archivedreason: null
 guid: 9cc1584e-4edf-40d8-8457-e203fbe054e9
-
 ---
 
 People don’t answer in the same way every time. Neither should bots! All you need is a few different answer messages and a rand() function.
