@@ -27,24 +27,24 @@ There are a few ways that you can easily add comments and interactivity such as�
 
 **✅ Pros:**
 
-- Uses GitHub discussions to store comments
-- Uses GitHub login - most people already have this
-- Simple and lightweight
-- Always free
-- Open source
-- No tracking scripts
-- No ads
+* Uses GitHub discussions to store comments
+* Uses GitHub login - most people already have this
+* Simple and lightweight
+* Always free
+* Open source
+* No tracking scripts
+* No ads
 
 **❌ Cons:**
 
-- No moderation features
+* No moderation features
 
 #### [Disqus](https://disqus.com/)
 
 **✅ Pros:**
 
 * Moderation features
-- Spam protection features
+* Spam protection features
 
 **❌ Cons:**
 
@@ -59,17 +59,17 @@ There are a few ways that you can easily add comments and interactivity such as�
 * Uses GitHub login - most people already have this
 * Simple and lightweight
 * Always free
-- Open source
-- No tracking scripts
-- No ads
+* Open source
+* No tracking scripts
+* No ads
 
 **❌ Cons:**
 
-- Uses GitHub issues to store comments (not as good as Discussions)
+* Uses GitHub issues to store comments (not as good as Discussions)
 
 ### Other options
 
-- [Yotpo](https://www.yotpo.com/)
+* [Yotpo](https://www.yotpo.com/)
 
 The following video shows an overview of Yotpo ratings which we've implemented for our SSW Rules.
 
