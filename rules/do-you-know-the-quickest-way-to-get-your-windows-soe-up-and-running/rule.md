@@ -24,9 +24,9 @@ Your developers should be using the latest version of Windows for security, spee
 
 The next step is to get the Standard Operating Environment (SOE) installed. You have a few choices:
 
-- **Manually** - it can take over a day to install your favorite 20 or so apps
-- **Windows Image** - there is an overhead of maintaining the image as software changes - RECOMMENDED FOR LARGE COMPANIES, WITH COMPANY OWNED DEVICES
-- **Use a package manager (eg. chocolatey/Winget)** - RECOMMENDED FOR SMALLER COMPANIES, AND ANYONE RUNNING BYOD
+* **Manually** - it can take over a day to install your favorite 20 or so apps
+* **Windows Image** - there is an overhead of maintaining the image as software changes - RECOMMENDED FOR LARGE COMPANIES, WITH COMPANY OWNED DEVICES
+* **Use a package manager (eg. chocolatey/Winget)** - RECOMMENDED FOR SMALLER COMPANIES, AND ANYONE RUNNING BYOD
 
 <!--endintro-->
 
@@ -63,22 +63,22 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 
 Your new computer is ready ⭐️
 
-- Machine name: Bob-SurfacePro9
-- Model: Surface Pro 9
-- Operating System: Windows 11 Enterprise
+* Machine name: Bob-SurfacePro9
+* Model: Surface Pro 9
+* Operating System: Windows 11 Enterprise
 
 I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running) and this included:
 
-- Data - I have checked that your files are in OneDrive so that they will sync to your new computer
-- Branding - It looks great with its custom laptop skin
-- Power adapter - I labeled it for easy recognition
-- Contact details - I stuck your business card underneath in case it goes missing
-- Software - Installed all your software via Chocolatey
-- Software - Fully installed WIndows Updates for your laptop
-- Drivers/firmware - Used the app for your laptop model (e.g. Dell SupportAssist, Intel DSA) to update drivers and firmware
-- Printer - Added the main office printers
-- Asset - Added the asset to our asset management tool (e.g. Snipe)
-- Asset - I added a Asset Tag with a QR code and computer name (look here if you ever need to know your computer name)
+* Data - I have checked that your files are in OneDrive so that they will sync to your new computer
+* Branding - It looks great with its custom laptop skin
+* Power adapter - I labeled it for easy recognition
+* Contact details - I stuck your business card underneath in case it goes missing
+* Software - Installed all your software via Chocolatey
+* Software - Fully installed WIndows Updates for your laptop
+* Drivers/firmware - Used the app for your laptop model (e.g. Dell SupportAssist, Intel DSA) to update drivers and firmware
+* Printer - Added the main office printers
+* Asset - Added the asset to our asset management tool (e.g. Snipe)
+* Asset - I added a Asset Tag with a QR code and computer name (look here if you ever need to know your computer name)
 
 Now I need you to do (we can do this together if you are stuck, just give me a call 🕺)
 

@@ -15,9 +15,9 @@ guid: 43cdcd40-66f2-4111-843c-96dbdc1d8fc1
 
 There are a lot of reasons to have nice URLs for your website:
 
-- Easy to remember
-- Easy to navigate
-- Better for search engines
+* Easy to remember
+* Easy to navigate
+* Better for search engines
 
 <!--endintro-->
 
