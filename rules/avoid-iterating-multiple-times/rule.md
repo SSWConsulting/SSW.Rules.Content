@@ -15,6 +15,7 @@ Due to LINQ expressions being lazy executed, it is a important to avoid re-evalu
 <!--endintro-->
 
 There are 2 problems with multiple evaluations:
+
 * It is needlessly expensive
 * It may not be possible
 

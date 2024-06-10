@@ -55,6 +55,7 @@ Could you please:
 Please note that these changes will be lost as part of the old SharePoint server decommission. If the changes are important, please redo the modifications on the new Online Intranet.
 
 Regards,
+
 * SharePoint Admin Team  
 
 :::  
