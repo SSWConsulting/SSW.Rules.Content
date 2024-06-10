@@ -21,7 +21,7 @@ check_seo_description() {
   fi
 
   # Check if description includes "Here is the ..."
-  if echo "$seo_description" | grep -q "Here is the ..."; then
+  if echo "$seo_description" | grep -q "Here is"; then
     issues+=("Contains the phrase 'Here is the ...'")
   fi
 
@@ -30,9 +30,9 @@ check_seo_description() {
     issues+=("Contains 'I've generated'")
   fi
 
-  # Check if description includes odd characters * or _
-  if echo "$seo_description" | grep -q "[*_]"; then
-    issues+=("Contains odd characters * or _")
+  # Check if description includes odd characters *, _, or :
+  if echo "$seo_description" | grep -q "[*_:]"; then
+    issues+=("Contains odd characters *, _, or :")
   fi
 
   if [ ${#issues[@]} -gt 0 ]; then
