@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you understand a data type change = "Data Motion Scripts"? Learn how to correctly update your schema and migrate existing data when changing a column's data type from Boolean to char(2) in this informative tutorial."
+seoDescription: Do you understand a data type change = "Data Motion Scripts"? Learn how to correctly update your schema and migrate existing data when changing a column's data type from Boolean to char(2) in this informative tutorial.
 type: rule
 title: Do you understand a data type change = "Data Motion Scripts"?
 uri: do-you-understand-a-data-type-change-data-motion-scripts

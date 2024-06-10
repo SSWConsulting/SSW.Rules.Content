@@ -1,5 +1,5 @@
 ---
-seoDescription: "Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors."
+seoDescription: Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors.
 type: rule
 title: Do you know how to handle errors in Angular?
 guid: e2db8815-a9ce-4f42-92ab-744e29e2b913
@@ -77,7 +77,7 @@ export class HomeModule { }
 
 All failed API calls not handled (i.e. not caught) will be handled by `ErrorHandler`. There are several ways to handle API errors by hand in cases where we need to do a specific error handling for an API; some of them are:
 
-* In `Subscribe` method:
+- In `Subscribe` method:
 
   ```ts
   this.http.get("/foo").subscribe({
@@ -91,7 +91,7 @@ All failed API calls not handled (i.e. not caught) will be handled by `ErrorHand
   });
   ```
 
-* In `pipe` using `catchError()`:
+- In `pipe` using `catchError()`:
 
   ```ts
   this.http

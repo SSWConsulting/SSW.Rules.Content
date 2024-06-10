@@ -1,5 +1,5 @@
 ---
-seoDescription: "Simplify client meetings with Microsoft Bookings and Calendly - automate scheduling and reduce back-and-forth emails."
+seoDescription: Simplify client meetings with Microsoft Bookings and Calendly - automate scheduling and reduce back-and-forth emails.
 type: rule
 title: Do you know the best way to let clients book a meeting with you?
 uri: meeting-bookings
