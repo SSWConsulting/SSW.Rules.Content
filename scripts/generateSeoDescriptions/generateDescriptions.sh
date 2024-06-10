@@ -75,7 +75,7 @@ find "$search_dir" -name "*.md" -o -name "*.mdx" | while read -r markdown_file; 
           if (found == 0) { 
             found = 1; 
             print; 
-            print "seoDescription: \"" desc "\""; 
+            print "seoDescription: " desc;
             next 
           }
         }
