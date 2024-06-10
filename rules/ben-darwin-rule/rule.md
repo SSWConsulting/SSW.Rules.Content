@@ -41,11 +41,11 @@ It is essential that in order to be a contributing member of a successful team, 
 
 Suggested questions to ask the experts:
 
-- What do you define as success?
-- What are the things that you do not worry about?
-- What practices do you believe lead to your success as a high performing team?
-- Do you have defined/document practices and procedures that you follow?
-- What tools do you use that contribute to your effectiveness?
-- What metrics do you use to measure your success?
+* What do you define as success?
+* What are the things that you do not worry about?
+* What practices do you believe lead to your success as a high performing team?
+* Do you have defined/document practices and procedures that you follow?
+* What tools do you use that contribute to your effectiveness?
+* What metrics do you use to measure your success?
 
 With the rest of your team, prioritize the feedback you received and select a few key items that you can implement right away. Make a backlog from the feedback you received, set some goals and start your team on the road to being ‘Superstars’ too.

@@ -88,5 +88,5 @@ In situation where your inputs have a very skewed distribution, if-else-if could
 
 Further Reading:
 
-- [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
-- [C# If Versus Switch Performance](https://www.dotnetperls.com/if-switch-performance)
+* [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
+* [C# If Versus Switch Performance](https://www.dotnetperls.com/if-switch-performance)

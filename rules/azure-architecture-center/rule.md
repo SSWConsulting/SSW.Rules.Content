@@ -33,8 +33,8 @@ It is a one stop shop for all things Azure Architecture. It’s got a library of
 
 The architectures presented fit into 2 broad categories:
 
-- Complete end to end architectures. These architectures cover the full deployment of an application.
-- Architectures of a particular feature. These architectures explain how to incorporate a particular element into your architecture. The Caching example above explains how you might add caching into your application to improve performance.
+* Complete end to end architectures. These architectures cover the full deployment of an application.
+* Architectures of a particular feature. These architectures explain how to incorporate a particular element into your architecture. The Caching example above explains how you might add caching into your application to improve performance.
 
 Each architecture comes with comprehensive documentation providing all the information you need to build and deploy the solution.
 

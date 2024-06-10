@@ -25,9 +25,9 @@ In any case, we think it would be silly to overlook such a quick and easy task t
 
 There are many kinds of &lt;meta&gt; tags you should use, these are the most common:
 
-- **META DESCRIPTION** - Search engines will use the information in the &lt;meta&gt; description tag as well as the &lt;title&gt; to display a brief summary of your site that goes along with its link on search results. SEO experts recommends it to have between 50–160 characters. Learn more on [Meta Description](https://moz.com/learn/seo/meta-description)
+* **META DESCRIPTION** - Search engines will use the information in the &lt;meta&gt; description tag as well as the &lt;title&gt; to display a brief summary of your site that goes along with its link on search results. SEO experts recommends it to have between 50–160 characters. Learn more on [Meta Description](https://moz.com/learn/seo/meta-description)
 
-- **META KEYWORDS** (less important) - This holds words that you can use to help search engines classify your content. The keywords you use should be relevant to your content and appear in the body text as well. Learn more on [Meta Keywords: Should You Use Them?](https://www.semrush.com/blog/meta-keywords/)
+* **META KEYWORDS** (less important) - This holds words that you can use to help search engines classify your content. The keywords you use should be relevant to your content and appear in the body text as well. Learn more on [Meta Keywords: Should You Use Them?](https://www.semrush.com/blog/meta-keywords/)
 
 [View more on &lt;meta&gt; tags](https://www.w3schools.com/tags/tag_meta.asp)
 

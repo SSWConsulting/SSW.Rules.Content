@@ -19,15 +19,15 @@ PIM enables just-in-time privileged access for users that are eligible for it, r
 
 Things that we can do with PIM (taken from [What is Microsoft Entra Privileged Identity Management?](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)):
 
-- Provide **just-in-time** privileged access to Azure AD and Azure resources
-- Assign **time-bound** access to resources using start and end dates
-- Require **approval** to activate privileged roles
-- Enforce **multi-factor authentication** to activate any role
-- Use **justification** to understand why users activate
-- Get **notifications** when privileged roles are activated
-- Conduct **access reviews** to ensure users still need roles
-- Download **audit history** for internal or external audit
-- Prevents removal of the **last active Global Administrator** and **Privileged Role Administrator** role assignments
+* Provide **just-in-time** privileged access to Azure AD and Azure resources
+* Assign **time-bound** access to resources using start and end dates
+* Require **approval** to activate privileged roles
+* Enforce **multi-factor authentication** to activate any role
+* Use **justification** to understand why users activate
+* Get **notifications** when privileged roles are activated
+* Conduct **access reviews** to ensure users still need roles
+* Download **audit history** for internal or external audit
+* Prevents removal of the **last active Global Administrator** and **Privileged Role Administrator** role assignments
 
 ### Adding assignments in PIM
 

@@ -20,11 +20,11 @@ Having said that, the best way to share a post on your socials is by including t
 
 This process will:
 
-- Amplify the voice of the original author
+* Amplify the voice of the original author
 
-- Help your social media engagement when you share insightful content with your audience
+* Help your social media engagement when you share insightful content with your audience
 
-- Increase brand awareness of the profile you are resharing from
+* Increase brand awareness of the profile you are resharing from
 
 Remember to:
 

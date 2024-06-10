@@ -22,8 +22,8 @@ This is where the Autocorrect feature in Outlook can become a huge time-saver.
 
 ## Why Use Autocorrect for URLs?
 
-- **Efficiency**: It saves time by eliminating the need to find and copy-paste URLs
-- **Consistency**: It ensures that everyone is using the same URL and reduces the risk of errors
+* **Efficiency**: It saves time by eliminating the need to find and copy-paste URLs
+* **Consistency**: It ensures that everyone is using the same URL and reduces the risk of errors
 
 ## How to Set It Up
 

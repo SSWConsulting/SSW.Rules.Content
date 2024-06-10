@@ -20,9 +20,9 @@ Managing the process of selling tickets can be very time consuming if you try an
 
 A much better approach is to use a service like [EventBrite](http://www.eventbrite.com/). SSW uses EventBrite for all events, as it allows you to manage all aspects of ticketing
 
-- Selling
-- Refunding
-- Marketing
-- Mailing lists
-- Issuing more tickets
-- And much more
+* Selling
+* Refunding
+* Marketing
+* Mailing lists
+* Issuing more tickets
+* And much more

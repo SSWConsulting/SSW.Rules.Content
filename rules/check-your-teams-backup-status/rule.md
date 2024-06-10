@@ -20,6 +20,6 @@ Follow up your team to back up their PCs, then their mobile phones.
 
 <!--endintro-->
 
-### Related Link 
+### Related Link
 
-- [iCloud Storage Full? Here's What to Do](http://www.wsj.com/video/icloud-storage-full-heres-what-to-do/AE27E641-8F11-4A79-A375-8E276B9585A1.html)
+* [iCloud Storage Full? Here's What to Do](http://www.wsj.com/video/icloud-storage-full-heres-what-to-do/AE27E641-8F11-4A79-A375-8E276B9585A1.html)

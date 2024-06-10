@@ -28,25 +28,25 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 
 ### Account Manager
 
-- Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
-- Managing key relationships
-- Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
-- CRM data entry and maintenance of Company, Contact, Opportunities, and [tracked emails](/track-important-emails)
-- Invoicing
-- Conflict resolution
-- Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
-- Budget discussions
+* Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
+* Managing key relationships
+* Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
+* CRM data entry and maintenance of Company, Contact, Opportunities, and [tracked emails](/track-important-emails)
+* Invoicing
+* Conflict resolution
+* Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
+* Budget discussions
 
 ### Tech Lead
 
-- Displays ownership of the project, and keeps the code quality high, and technical debt low
-- Responsible for the delivery of the project into production
-- Spec Review - Primary communicator with the Product Owner
-- Project - Primary communicator with the Product Owner
-- DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
-- Responsible for the architecture and technical direction of the project
-- Helps the Account Manager with technical areas of conflict management
-- Keeps on top of the budget and timelines
+* Displays ownership of the project, and keeps the code quality high, and technical debt low
+* Responsible for the delivery of the project into production
+* Spec Review - Primary communicator with the Product Owner
+* Project - Primary communicator with the Product Owner
+* DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
+* Responsible for the architecture and technical direction of the project
+* Helps the Account Manager with technical areas of conflict management
+* Keeps on top of the budget and timelines
 
 ::: good
 ![Figure: Don't forget! You can use reports to identify projects that are being worked on without Tech Leads](tech-lead-report.png)

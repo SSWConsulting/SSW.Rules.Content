@@ -48,5 +48,6 @@ There are two primary ways to serve your frontend (e.g. Angular) application dep
   * ❌ Higher cost
 
 Based on the pros and cons of each option above, the recommended options are:
+
 * **For small to medium-sized projects** with less complicated requirements: **Option 1: Integrated with backend** is the recommended option since it allows faster development without having to worry too much about infrastructure.
 * **For larger projects** or projects with complicated requirements: **Option 2: Externally hosted** is the recommended option since it is more scalable and more flexible with infrastructure or technology changes.

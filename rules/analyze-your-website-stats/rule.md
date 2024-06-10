@@ -19,12 +19,12 @@ There is a lot of information tucked away in your web server log files. Valuable
 
 <!--endintro-->
 
-- Geographical origin of users
-- Referring pages (which external pages did the users come from e.g. search engines)
-- Number of users
-- Time spent on the website
-- Reasons for user's early departure
-- Popularity of pages within your website
+* Geographical origin of users
+* Referring pages (which external pages did the users come from e.g. search engines)
+* Number of users
+* Time spent on the website
+* Reasons for user's early departure
+* Popularity of pages within your website
 
 View a [sample template of Google Analytics report](https://www.ssw.com.au/ssw/Standards/templates/sswgooglereporttemplate.aspx).
 

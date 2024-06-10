@@ -13,5 +13,5 @@ guid: f8152d9c-a733-44b1-aa5a-35795427f8bb
 
 Did you know at SSW we always bring water to guests? 🥤💧
 
-- No questions as everyone drinks water…
-- And no offers of coffee as it could be a hassle…
+* No questions as everyone drinks water…
+* And no offers of coffee as it could be a hassle…

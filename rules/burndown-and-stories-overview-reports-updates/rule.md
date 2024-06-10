@@ -22,9 +22,9 @@ Insist on receiving these 3 reports in every Review meeting:
 
 <!--endintro-->
 
-- Project Progress ($ spent)
-- Burndown (ETA)
-- Story Overview (testing quality)
+* Project Progress ($ spent)
+* Burndown (ETA)
+* Story Overview (testing quality)
 
 Let's look at those 3 reports:
 

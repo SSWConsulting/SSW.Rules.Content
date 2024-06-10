@@ -41,7 +41,7 @@ Figure: Good example
 
 This question is great because of the following reasons:
 
-- Stays on the topic
-- It's likely the prospect has thought about this
-- The answer is likely to give you some good points to feed off or identify what doesn't interest them
-- The question can't be answered with a quick yes or no and the prospect must think about how they really feel/think. This increases their involvement and investment into the conversation bringing you a step closer to a sale
+* Stays on the topic
+* It's likely the prospect has thought about this
+* The answer is likely to give you some good points to feed off or identify what doesn't interest them
+* The question can't be answered with a quick yes or no and the prospect must think about how they really feel/think. This increases their involvement and investment into the conversation bringing you a step closer to a sale

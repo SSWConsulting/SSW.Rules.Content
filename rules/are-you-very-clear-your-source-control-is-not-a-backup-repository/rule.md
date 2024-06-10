@@ -20,8 +20,8 @@ redirects: []
 
 Note: If you did not finish working:
 
-- TFS put changes into shelveset
-- SVN put changes into sandbox / branches
+* TFS put changes into shelveset
+* SVN put changes into sandbox / branches
 
 <!--endintro-->
 

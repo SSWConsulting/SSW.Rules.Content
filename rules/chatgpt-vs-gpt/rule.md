@@ -22,17 +22,17 @@ GPT and ChatGPT are similar tools that serve slightly different purposes. Each o
 
 ChatGPT is strong at helping an individual do a specific task. For example, a user could could get responses to simple tasks like:
 
-- "Write me a blog post on EF Core Code-First Migrations"
-- "How do I create a table with EF Core?"
-- "Can you help me find information about Northwind?"
-- and much more...
+* "Write me a blog post on EF Core Code-First Migrations"
+* "How do I create a table with EF Core?"
+* "Can you help me find information about Northwind?"
+* and much more...
 
 On the other hand, GPT is better for tasks that require automation or programmatic integration. For example, it could be used to create systems for:
 
-- Summarizing a page of text
-- Tailoring inputs to output in a specific manner e.g. input a url, and it outputs an SSW rule
-- Changing email content to fit a specific audience e.g. Product Owner, Developer, Designer etc
-- and much more...
+* Summarizing a page of text
+* Tailoring inputs to output in a specific manner e.g. input a url, and it outputs an SSW rule
+* Changing email content to fit a specific audience e.g. Product Owner, Developer, Designer etc
+* and much more...
 
 Additionally, GPT provides [an API](https://openai.com/blog/openai-api) that developers can leverage.
 

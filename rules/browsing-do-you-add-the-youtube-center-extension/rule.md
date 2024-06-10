@@ -19,8 +19,8 @@ redirects: []
 
 Major features for us:
 
-- Removes Ads
-- Can enable or Disable DASH Playback
-- Specify HTML5 or Flash Player
-- Download Youtube Videos in a number of formats (inc. 1080p)
-- Change default player size and resolution
+* Removes Ads
+* Can enable or Disable DASH Playback
+* Specify HTML5 or Flash Player
+* Download Youtube Videos in a number of formats (inc. 1080p)
+* Change default player size and resolution

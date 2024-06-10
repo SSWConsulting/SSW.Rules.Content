@@ -55,5 +55,5 @@ Although these requirements come from the Product Owner, it is often the develop
 
 **What's next?**
 
-- [Discuss the backlog](/discuss-the-backlog)
-- [What to do when it's done?](/dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug)
+* [Discuss the backlog](/discuss-the-backlog)
+* [What to do when it's done?](/dones-do-you-know-how-to-do-a-perfect-done-replying-to-a-bug)

@@ -77,7 +77,7 @@ export class HomeModule { }
 
 All failed API calls not handled (i.e. not caught) will be handled by `ErrorHandler`. There are several ways to handle API errors by hand in cases where we need to do a specific error handling for an API; some of them are:
 
-- In `Subscribe` method:
+* In `Subscribe` method:
 
   ```ts
   this.http.get("/foo").subscribe({
@@ -91,7 +91,7 @@ All failed API calls not handled (i.e. not caught) will be handled by `ErrorHand
   });
   ```
 
-- In `pipe` using `catchError()`:
+* In `pipe` using `catchError()`:
 
   ```ts
   this.http

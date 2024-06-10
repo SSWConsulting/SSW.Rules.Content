@@ -16,9 +16,9 @@ Leading questions can result in biased or unhelpful answers from ChatGPT. To obt
 
 Here are some tips for avoiding leading questions:
 
-- Use neutral language that doesn't imply a specific answer or point of view
-- Focus on asking questions that encourage exploration and elaboration
-- Avoid making assumptions or expressing your opinions within the question itself
+* Use neutral language that doesn't imply a specific answer or point of view
+* Focus on asking questions that encourage exploration and elaboration
+* Avoid making assumptions or expressing your opinions within the question itself
 
 ::: greybox
 "Isn't it true that electric cars are far better for the environment than traditional gasoline cars?"

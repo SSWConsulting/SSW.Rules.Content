@@ -19,11 +19,11 @@ redirects:
 
 You can see details about your Azure DevOps Server (formerly known as TFS) projects directly in your Microsoft Teams channel. Examples of what you can monitor:
 
-- Work item updates
-- Pull requests
-- Code commits
-- Builds
-- Release deployments and approvals
+* Work item updates
+* Pull requests
+* Code commits
+* Builds
+* Release deployments and approvals
 
 Also bring your Azure DevOps Services Kanban board directly into Microsoft Teams as a tab.
 

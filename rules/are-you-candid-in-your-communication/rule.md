@@ -24,8 +24,8 @@ You also need to make sure you qualify your level of certainty in an answer, so 
 
 ::: greybox
 
-- Is the database corrupt?
-- No.
+* Is the database corrupt?
+* No.
   :::
   ::: bad
   Figure: Bad example
@@ -33,8 +33,8 @@ You also need to make sure you qualify your level of certainty in an answer, so 
 
 ::: greybox
 
-- Is the database corrupt?
-- I don't think so but I'd need investigate further to be sure.
+* Is the database corrupt?
+* I don't think so but I'd need investigate further to be sure.
   :::
   ::: good
   Figure: Good example

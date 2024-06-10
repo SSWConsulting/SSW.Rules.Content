@@ -15,10 +15,10 @@ redirects:
 
 Prepare for the future of web development by checking out these Blazor learning resources.
 
-- [Blazor Train](https://blazortrain.com/)
-- [Blazor WASM by example](https://www.packtpub.com/product/blazor-webassembly-by-example/9781800567511)
-- [Modern Web Dev with Blazor and .NET 6 with Jason Taylor](https://youtu.be/lRYrhj9lwQk)
-- [Microsoft Blazor tutorial](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro)
-- [Microsoft Learn](https://learn.microsoft.com/en-au/aspnet/core/blazor)
-  - [Performance Best Practices](https://learn.microsoft.com/en-us/aspnet/core/blazor/performance)
-- [Blazor in action](https://www.manning.com/books/blazor-in-action)
+* [Blazor Train](https://blazortrain.com/)
+* [Blazor WASM by example](https://www.packtpub.com/product/blazor-webassembly-by-example/9781800567511)
+* [Modern Web Dev with Blazor and .NET 6 with Jason Taylor](https://youtu.be/lRYrhj9lwQk)
+* [Microsoft Blazor tutorial](https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro)
+* [Microsoft Learn](https://learn.microsoft.com/en-au/aspnet/core/blazor)
+  * [Performance Best Practices](https://learn.microsoft.com/en-us/aspnet/core/blazor/performance)
+* [Blazor in action](https://www.manning.com/books/blazor-in-action)

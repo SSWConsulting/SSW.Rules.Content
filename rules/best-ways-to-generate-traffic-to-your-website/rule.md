@@ -20,9 +20,9 @@ redirects:
 
 Creating more pages with links to the others is a good way to generate traffic to your website. It follows the rule that having more pages is better than having excessively long pages. For the pages you create, here are some methods to increase their Google performance:
 
-- Writing Blogs about it (content is king!)
-- Recording videos to be embedded
-- Sharing in social medias, like Twitter, Facebook, LinkedIn and Instagram
-- Getting other websites to link to your page
+* Writing Blogs about it (content is king!)
+* Recording videos to be embedded
+* Sharing in social medias, like Twitter, Facebook, LinkedIn and Instagram
+* Getting other websites to link to your page
 
 <!--endintro-->

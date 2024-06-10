@@ -36,8 +36,8 @@ static string Trim(string inputText)
 
 The code above:
 
-- Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
-- Retrieves the index of the character
-- Returns the text from the character onwards, thus removing the whitespace at the start
+* Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
+* Retrieves the index of the character
+* Returns the text from the character onwards, thus removing the whitespace at the start
 
 This code could be triggered in the middle-tier before inserting into the database.

@@ -24,19 +24,19 @@ In simple components, having many logics (e.g. API calls and binding to the form
 
 Pros and cons of combining all logic into a single component:
 
-- 🟢 Less file footprint
-- 🟢 Easier to write
-- 🟢 Less problem with reactivity
-- ❌ No clear separation of logics
-- ❌ Harder to debug when things go wrong
-- ❌ Adding more features to this component can be challenging
+* 🟢 Less file footprint
+* 🟢 Easier to write
+* 🟢 Less problem with reactivity
+* ❌ No clear separation of logics
+* ❌ Harder to debug when things go wrong
+* ❌ Adding more features to this component can be challenging
 
 Consider splitting your component's logic when:
 
-- The file has reached 100+ lines of code
-- The component has two or more sources of data (e.g. route params and API)
-- UI has many fields that need to be populated from a data source
-- When it is not clear which data source drives the UI or when you want to abstract it out
+* The file has reached 100+ lines of code
+* The component has two or more sources of data (e.g. route params and API)
+* UI has many fields that need to be populated from a data source
+* When it is not clear which data source drives the UI or when you want to abstract it out
 
 ## How to separate the logic?
 
@@ -74,9 +74,9 @@ Here are the steps to split the logic:
 
 1. Group front-end logic into these processes:
 
-   - Data fetching: fetching data from external sources
-   - Data processing: processing source data to suit the UI better
-   - Data display: binding the UI displayed element to a value
+   * Data fetching: fetching data from external sources
+   * Data processing: processing source data to suit the UI better
+   * Data display: binding the UI displayed element to a value
 
 2. Identify which part of a smart component belongs to which process.
 

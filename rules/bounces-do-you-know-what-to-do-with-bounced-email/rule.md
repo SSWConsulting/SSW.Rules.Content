@@ -35,8 +35,8 @@ Dear xxx,
 
 As per this rule on bounced emails [https://www.ssw.com.au/rules/bounces-do-you-know-what-to-do-with-bounced-email](/bounces-do-you-know-what-to-do-with-bounced-email)
 
-- I have checked Step 1 – it is good
-- I have checked Step 2 – it is good
+* I have checked Step 1 – it is good
+* I have checked Step 2 – it is good
 
 The problem is likely your end
 

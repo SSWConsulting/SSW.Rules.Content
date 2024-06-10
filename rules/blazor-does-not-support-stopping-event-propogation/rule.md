@@ -12,8 +12,8 @@ guid: 8744a176-c690-43a2-abd8-6a48ab0725b5
 
 Workaround - When you have two fields and you want to handle tabbing out of the last one to do some stuff and save.
 
-- If you handle onkeydown the value isn't set yet
-- If you handle onkeyup it triggers on the first field instead of the last one
+* If you handle onkeydown the value isn't set yet
+* If you handle onkeyup it triggers on the first field instead of the last one
 
 <!--endintro-->
 

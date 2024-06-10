@@ -22,28 +22,28 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 
 ### ✅ Pros
 
-- **Ease of Distribution:** Template apps provide an easy way to distribute Power BI content to external users. Once published to the Power BI service, these apps can be shared widely without needing to individually manage access permissions
-- **Ease of Maintainance:** Template apps simplify the process of updating and maintaining the Power BI content with their Release Management
-- **Data Source Flexibility:** Users can easily integrate their own data
-- **Trial with Sample Data:** Testing the app with sample data allows users to easily explore and understand features before using their own data. As an added bonus this is also great for demos
+* **Ease of Distribution:** Template apps provide an easy way to distribute Power BI content to external users. Once published to the Power BI service, these apps can be shared widely without needing to individually manage access permissions
+* **Ease of Maintainance:** Template apps simplify the process of updating and maintaining the Power BI content with their Release Management
+* **Data Source Flexibility:** Users can easily integrate their own data
+* **Trial with Sample Data:** Testing the app with sample data allows users to easily explore and understand features before using their own data. As an added bonus this is also great for demos
 
 ### ❌ Cons
 
-- **Dependency on Power BI Environment:** External users need to have access to Power BI (Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
-- **Initial Setup Complexity:** Setting up a template app for external sharing require more overhead to set it up
-- **Limited Customization for End Users:** While creators can customize the app, end users have limited ability to modify or interact with the content beyond basic filtering and slicing
-- **Performance Considerations:** Large datasets or complex visualizations may impact the performance and loading times for end users
+* **Dependency on Power BI Environment:** External users need to have access to Power BI (Pro or Premium license), which may limit the accessibility for some users. To create Template Apps a Power BI Pro license is necessary
+* **Initial Setup Complexity:** Setting up a template app for external sharing require more overhead to set it up
+* **Limited Customization for End Users:** While creators can customize the app, end users have limited ability to modify or interact with the content beyond basic filtering and slicing
+* **Performance Considerations:** Large datasets or complex visualizations may impact the performance and loading times for end users
 
 ### Creating Power BI Template Apps
 
 #### Prerequisite
 
-- Power BI Pro license
-- Sample database with dummy data as the default connection for the template app (See section on "Configure a Database for Template Apps" for more information)
+* Power BI Pro license
+* Sample database with dummy data as the default connection for the template app (See section on "Configure a Database for Template Apps" for more information)
 
 #### Steps
 
-1.  **Enable "Develop Template Apps" in the Workspace**  
+1. **Enable "Develop Template Apps" in the Workspace**  
     Enabling "Develop Template Apps" in your Workspace allows you to create apps within the workspace.  
     In the workspace you can then choose which of your reports goes into an app, and you can share the app with other people without exposing the entire workspace.  
     To enable Template Apps you can either enable the current workspace or create a new workspace.
@@ -58,10 +58,10 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 **Note:** The workspace might need to be upgraded, if so request an admin to upgrade the workspace.
 :::
 
-- **Option B: Create a New Workspace**
+* **Option B: Create a New Workspace**
 
-  1.  Create a new workspace
-  2.  Go to "Advanced", and under the "Template Apps" tick off "Develop Template Apps"
+  1. Create a new workspace
+  2. Go to "Advanced", and under the "Template Apps" tick off "Develop Template Apps"
 
       ![](create-workspace-click-advanced.png)
 
@@ -95,9 +95,9 @@ Once the Template App is created it will live in the [Power BI Apps](https://app
 5. **Manage the App**  
    Manage your app in the "Release Management" pane. Here you can:
 
-   - Update the app once you have new changes in the report by clicking "Create App"
-   - Share the app to specific people to test it out by clicking "Get Link"
-   - Publish the app by clicking "Promote app"
+   * Update the app once you have new changes in the report by clicking "Create App"
+   * Share the app to specific people to test it out by clicking "Get Link"
+   * Publish the app by clicking "Promote app"
 
      ![](release-management.png)
 
@@ -159,5 +159,5 @@ The user will have the option to connect their data by following the following s
 
 #### More information
 
-- [What are Power BI template apps?](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-overview)
-- [Create a template app in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create)
+* [What are Power BI template apps?](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-overview)
+* [Create a template app in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/service-template-apps-create)

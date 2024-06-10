@@ -46,5 +46,5 @@ CRM users making bookings should [keep their naming standards consistent.](/sche
 
 Related rules
 
-- [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
-- [Scheduling - Do you have a consistent naming convention for your bookings?](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)
+* [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
+* [Scheduling - Do you have a consistent naming convention for your bookings?](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)

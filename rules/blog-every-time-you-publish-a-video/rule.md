@@ -18,8 +18,8 @@ Every time someone does a talk/records a video, it helps spread the word about y
 \
 If you have a blog, a good idea is to add a simple post to tag your new video. It gets double Google juice if you:
 
-- Have a good description of your video on YouTube; and
-- Your video is linked in a blog post using popular keywords for the content/topic you have recorded about.
+* Have a good description of your video on YouTube; and
+* Your video is linked in a blog post using popular keywords for the content/topic you have recorded about.
 
 <!--endintro-->
 

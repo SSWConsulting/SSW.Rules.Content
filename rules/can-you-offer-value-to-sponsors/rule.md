@@ -17,19 +17,19 @@ Putting on events aren’t free.
 
 You need to pay for some or all of these
 
-- Venue
-- Catering
-- Prizes
-- Speaker expenses
-- Attendee giveaways
-- Printing of agendas, signs etc.
+* Venue
+* Catering
+* Prizes
+* Speaker expenses
+* Attendee giveaways
+* Printing of agendas, signs etc.
 
 To raise the money for paying for these and to make the event a success you will have to get sponsors on board. To do this, find out what out what it is you are selling to potential sponsors:
 
-- Do they get their branding on your website?
-- Can they set up a booth at the venue?
-- Is their logo or other material included in event communication?
-- Can you share attendees' details (where they have permitted it)?
+* Do they get their branding on your website?
+* Can they set up a booth at the venue?
+* Is their logo or other material included in event communication?
+* Can you share attendees' details (where they have permitted it)?
 
 Sponsorship doesn't always have to be about cool hard cash. It can also include catering, prizes, giveaways, goody bags and much more. There are many ways sponsors can help your event, and it is up to you to determine what benefits you get out of each.
 

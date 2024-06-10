@@ -16,7 +16,7 @@ Here are the best collection of resources for AngularJS.
 
 <!--endintro-->
 
-- [http://tv.ssw.com/angularjs](http://tv.ssw.com/angularjs)
-- [https://channel9.msdn.com/Search?term=angularjs#ch9Search&lang-en=en](https://channel9.msdn.com/Search?term=angularjs#ch9Search&lang-en=en)
-- [https://www.youtube.com/playlist?list=PL173F1A311439C05D](https://www.youtube.com/playlist?list=PL173F1A311439C05D)
-- [https://mva.microsoft.com/search/SearchResults.aspx?q=angularjs#!q=angularjs&lang=1033](https://mva.microsoft.com/search/SearchResults.aspx?q=angularjs#%21q=angularjs&lang=1033)
+* [http://tv.ssw.com/angularjs](http://tv.ssw.com/angularjs)
+* [https://channel9.msdn.com/Search?term=angularjs#ch9Search&lang-en=en](https://channel9.msdn.com/Search?term=angularjs#ch9Search&lang-en=en)
+* [https://www.youtube.com/playlist?list=PL173F1A311439C05D](https://www.youtube.com/playlist?list=PL173F1A311439C05D)
+* [https://mva.microsoft.com/search/SearchResults.aspx?q=angularjs#!q=angularjs&lang=1033](https://mva.microsoft.com/search/SearchResults.aspx?q=angularjs#%21q=angularjs&lang=1033)

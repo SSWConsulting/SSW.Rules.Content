@@ -21,9 +21,9 @@ guid: d7c5b443-9f55-4983-ac7b-016c85a6d479
 
 Pure HTML pages are the fastest website around. However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
 
-- Cheap
-- Easy to use
-- Fast
+* Cheap
+* Easy to use
+* Fast
 
 On the other hand, complex functionality can be a bit more limited and time consuming to implement.
 
@@ -47,8 +47,8 @@ Two examples of static sites in action are [SSW People](https://www.ssw.com.au/p
 
 There are a few hosting options to choose from including:
 
-- [Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/) (recommended for small websites)
-- [Azure static storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) (recommended for large websites)
-- [Cloudflare](https://pages.cloudflare.com/)
-- [GitHub Pages](https://pages.github.com/)
-- [Surge.sh](https://surge.sh/)
+* [Azure static web apps](https://azure.microsoft.com/en-us/services/app-service/static/) (recommended for small websites)
+* [Azure static storage](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website) (recommended for large websites)
+* [Cloudflare](https://pages.cloudflare.com/)
+* [GitHub Pages](https://pages.github.com/)
+* [Surge.sh](https://surge.sh/)

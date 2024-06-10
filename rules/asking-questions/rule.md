@@ -21,17 +21,17 @@ A disproportionate amount of time is spent thinking about whether you got the **
 
 Topics:
 
-- The importance of questions
-- Curiosity based questions
-- Confirmation based questions
-- Asking questions is natural (by kids)
-- Tip #1: Choose the right time/avoid interrupting
-- Tip #2: Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)
-- Tip #3: Ask questions with added value
-- Tip #4: [Ask open-ended questions](/ask-open-ended-questions) (avoid yes/no questions)
-- Tip #5: Document the answers in the PBI/email as it can help others in the future
-- [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
-- [The Retro](/do-you-do-a-retro)
+* The importance of questions
+* Curiosity based questions
+* Confirmation based questions
+* Asking questions is natural (by kids)
+* Tip #1: Choose the right time/avoid interrupting
+* Tip #2: Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)
+* Tip #3: Ask questions with added value
+* Tip #4: [Ask open-ended questions](/ask-open-ended-questions) (avoid yes/no questions)
+* Tip #5: Document the answers in the PBI/email as it can help others in the future
+* [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
+* [The Retro](/do-you-do-a-retro)
 
 `youtube: https://www.youtube.com/embed/RlADH0sLOmc`
 

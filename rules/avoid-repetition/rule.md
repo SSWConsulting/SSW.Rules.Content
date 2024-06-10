@@ -27,9 +27,9 @@ This is especially valid for words in lists, but also applies to different types
 ::: greybox
 Following this rule:
 
-- Is important to help you increase productivity
-- Is important to help you save time
-- Is important to help you reduce stress
+* Is important to help you increase productivity
+* Is important to help you save time
+* Is important to help you reduce stress
 
 :::
 ::: bad
@@ -39,9 +39,9 @@ Bad example – Repeating words... Not following DRY :(
 ::: greybox
 Following this rule is important to help you:
 
-- Increase productivity
-- Save time
-- Reduce stress
+* Increase productivity
+* Save time
+* Reduce stress
 
 :::
 ::: good
@@ -58,15 +58,15 @@ When creating a list that includes emojis, avoid repeating the same emoji 3 or m
 
 ### ✅ Pros
 
-- ✅ Increases productivity
-- ✅ Saves time
-- ✅ Reduces stress
+* ✅ Increases productivity
+* ✅ Saves time
+* ✅ Reduces stress
 
 ### ❌ Cons
 
-- ❌ May be challenging to implement
-- ❌ May take time to adjust
-- ❌ Can be challenging to maintain
+* ❌ May be challenging to implement
+* ❌ May take time to adjust
+* ❌ Can be challenging to maintain
 
 :::
 ::: bad
@@ -77,15 +77,15 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 
 ### ✅ Pros
 
-- Increases productivity
-- Saves time
-- Reduces stress
+* Increases productivity
+* Saves time
+* Reduces stress
 
 ### ❌ Cons
 
-- Requires effort to implement
-- May take time to adjust
-- Can be challenging to maintain
+* Requires effort to implement
+* May take time to adjust
+* Can be challenging to maintain
   :::
   ::: good
   Good example – Using the DRY principle

@@ -32,11 +32,11 @@ Power Automate lets power users automate away repeatable manual processes. They 
 
 For example say you want to:
 
-- Monitor an inbox
-- Read emails with the subject “Invoice”
-- Get the attached PDF
-- Put the PDF in a SharePoint Document Library (there is a connector)
-- Put a record in Xero (there is an API - no connector)
+* Monitor an inbox
+* Read emails with the subject “Invoice”
+* Get the attached PDF
+* Put the PDF in a SharePoint Document Library (there is a connector)
+* Put a record in Xero (there is an API - no connector)
 
 These are all easy in Power Automate, and a tonne of code in an Azure Function.
 
@@ -46,12 +46,12 @@ Power Automate provides heaps of out-of-the-box integrations that mean you don't
 
 Some of the awesome connectors that exist include:
 
-- CRM systems e.g. Dynamics 365
-- Emails
-- Microsoft Dataverse
-- Microsoft Office 365
-- Microsoft SharePoint
-- Custom APIs  
+* CRM systems e.g. Dynamics 365
+* Emails
+* Microsoft Dataverse
+* Microsoft Office 365
+* Microsoft SharePoint
+* Custom APIs  
   and more...
 
 **Custom Connectors**

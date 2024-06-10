@@ -22,19 +22,19 @@ Efficient management of downloadable content, like PDFs and documents, is a crit
 
 ## Centralized file storage
 
-- **Primary directory** - Use 'public/downloads' as the central directory for all downloadable files to simplify organization, updating, and tracking of content
-- **Subdirectory use** (optional) - If needed, employ subdirectories for additional organization (based on the volume and diversity of the files)
-- **Uniform linking** - Direct all download links to this central location to eliminate duplication and streamline site maintenance
+* **Primary directory** - Use 'public/downloads' as the central directory for all downloadable files to simplify organization, updating, and tracking of content
+* **Subdirectory use** (optional) - If needed, employ subdirectories for additional organization (based on the volume and diversity of the files)
+* **Uniform linking** - Direct all download links to this central location to eliminate duplication and streamline site maintenance
 
 ## Efficient file naming
 
-- **Descriptive naming** - Use clear, descriptive file names with SEO-friendly keywords for easy identification and discoverability
-- **Version control** - Keep version information within documents, not in file names, to maintain consistent URLs
+* **Descriptive naming** - Use clear, descriptive file names with SEO-friendly keywords for easy identification and discoverability
+* **Version control** - Keep version information within documents, not in file names, to maintain consistent URLs
 
 ## Optimizing file accessibility
 
-- **File compression** - Compress larger files to improve download speed and site performance
-- **Accessibility compliance** - Ensure that all files comply with [ADA](https://www.ada.gov/resources/web-guidance/) and [WCAG](https://www.w3.org/TR/WCAG21/) guidelines
+* **File compression** - Compress larger files to improve download speed and site performance
+* **Accessibility compliance** - Ensure that all files comply with [ADA](https://www.ada.gov/resources/web-guidance/) and [WCAG](https://www.w3.org/TR/WCAG21/) guidelines
 
 ::: bad
 ![Figure: Bad example - Saving the same file in multiple places (cumbersome to update)](bad-example-centralize-downloadable-files.png)

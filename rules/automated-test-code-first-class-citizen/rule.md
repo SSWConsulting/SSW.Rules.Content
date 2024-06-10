@@ -31,4 +31,4 @@ The test code should be treated as a first-class citizen, so:
 
 ### Further reading
 
-- [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/) by Bas Dijkstra
+* [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/) by Bas Dijkstra

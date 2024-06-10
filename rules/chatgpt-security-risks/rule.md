@@ -18,46 +18,46 @@ Open AI is a third-party platform and you should not make assumptions about how 
 
 Key points:
 
-- Security measures by OpenAI:
+* Security measures by OpenAI:
 
-  - Encryption
-  - Access controls
-  - External security audits
-  - Bug bounty program
-  - Incident response plans
+  * Encryption
+  * Access controls
+  * External security audits
+  * Bug bounty program
+  * Incident response plans
 
-- Responsible data handling practices by OpenAI:
+* Responsible data handling practices by OpenAI:
 
-  - Transparency about data collection purposes
-  - Data storage and retention policies (30 days)
-  - Controlled data sharing with third parties
-  - Compliance with regional data protection regulations
-  - Respecting user rights and control over their data
+  * Transparency about data collection purposes
+  * Data storage and retention policies (30 days)
+  * Controlled data sharing with third parties
+  * Compliance with regional data protection regulations
+  * Respecting user rights and control over their data
 
-- ChatGPT is not confidential:
+* ChatGPT is not confidential:
 
-  - All conversations are used as training data by default, but this can be turnedd off in the paid versions
-  - Users should avoid sharing sensitive information in the free version
+  * All conversations are used as training data by default, but this can be turnedd off in the paid versions
+  * Users should avoid sharing sensitive information in the free version
 
 ![Figure: Toggle Your Name | Settings | Data controls | Improve the model for everyone to stop the model training on your data](trainingondata.png)
 
-- Potential risks of using ChatGPT:
+* Potential risks of using ChatGPT:
 
-  - Data breaches
-  - Unauthorized access to confidential information
-  - Biased or inaccurate information generation
+  * Data breaches
+  * Unauthorized access to confidential information
+  * Biased or inaccurate information generation
 
-- Best practices for using ChatGPT:
+* Best practices for using ChatGPT:
 
-  - Do not share or submit sensitive or confidential information on Chat GPT, ever
-  - Review privacy policies of platforms using ChatGPT
-  - Use anonymous or pseudonymous accounts
-  - Monitor data retention policies
+  * Do not share or submit sensitive or confidential information on Chat GPT, ever
+  * Review privacy policies of platforms using ChatGPT
+  * Use anonymous or pseudonymous accounts
+  * Monitor data retention policies
 
-- Current regulations:
+* Current regulations:
 
-  - No specific regulations for AI systems like ChatGPT
-  - Compliance with existing data protection and privacy regulations (e.g., GDPR, CCPA)
-  - Proposed AI Act could become the first comprehensive regulation for AI technologies
+  * No specific regulations for AI systems like ChatGPT
+  * Compliance with existing data protection and privacy regulations (e.g., GDPR, CCPA)
+  * Proposed AI Act could become the first comprehensive regulation for AI technologies
 
 Always exercise caution when using ChatGPT and avoid sharing sensitive information, as data retention policies and security measures can only provide a certain level of protection.

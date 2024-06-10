@@ -16,9 +16,9 @@ Utilizing chained prompting can help you guide ChatGPT through a series of quest
 
 Here are some tips for using chained prompting:
 
-- Break down your topic or task into a series of smaller, related prompts
-- Maintain a logical flow between prompts, ensuring that each subsequent prompt builds on the previous one
-- Provide context from previous prompts when necessary to help ChatGPT understand the connections between them
+* Break down your topic or task into a series of smaller, related prompts
+* Maintain a logical flow between prompts, ensuring that each subsequent prompt builds on the previous one
+* Provide context from previous prompts when necessary to help ChatGPT understand the connections between them
 
 Example chained prompts:
 

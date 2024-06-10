@@ -19,9 +19,9 @@ Additionally it will hit the performance because that will include the optional 
 
 In debug mode the compiler emits debug symbols for all variables and compiles the code as is. In release mode some optimizations are included:
 
-- unused variables do not get compiled at all
-- some loop variables are taken out of the loop by the compiler if they are proven to be invariants
-- code written under #debug directive is not included etc.
+* unused variables do not get compiled at all
+* some loop variables are taken out of the loop by the compiler if they are proven to be invariants
+* code written under #debug directive is not included etc.
 
 The rest is up to the JIT.
 

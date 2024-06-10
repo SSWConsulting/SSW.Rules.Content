@@ -34,28 +34,28 @@ Updating everything manually is time consuming, and it can be easy to miss patch
 
 This is where other Patch Management solutions come in. There are many options out there, including:
 
-- [ManageEngine Patch Manager Plus](https://www.manageengine.com.au/patch-management/) **\- RECOMMENDED**
+* [ManageEngine Patch Manager Plus](https://www.manageengine.com.au/patch-management/) **\- RECOMMENDED**
 
-  - Good, transparent [pricing $$](https://www.manageengine.com/patch-management/pricing.html)
-  - Long list of [supported applications](https://www.manageengine.com/patch-management/supported-applications.html)
+  * Good, transparent [pricing $$](https://www.manageengine.com/patch-management/pricing.html)
+  * Long list of [supported applications](https://www.manageengine.com/patch-management/supported-applications.html)
 
-- [Automox](https://www.automox.com/)
+* [Automox](https://www.automox.com/)
 
-  - More expensive $$
+  * More expensive $$
 
-- [Action1](https://www.action1.com/)
+* [Action1](https://www.action1.com/)
 
-  - Good pricing $$
-  - Needs more supported applications
+  * Good pricing $$
+  * Needs more supported applications
 
 These products have varied pricing options, including some free options with limitations on the number of devices and/or users. These solutions could be used alongside WSUS, but they do support Microsoft updates as well as 3rd party apps - so they can replace WSUS altogether.
 
 The main benefits of patch management solutions are:
 
-- Automatic installation of Windows updates (with or without rebooting)
-- Automatic installation of third-party updates
-- Manual deployment of patches without RDP access to the computer/s
-- Reporting - lots of information about installed or missing patches, and vulnerability levels
+* Automatic installation of Windows updates (with or without rebooting)
+* Automatic installation of third-party updates
+* Manual deployment of patches without RDP access to the computer/s
+* Reporting - lots of information about installed or missing patches, and vulnerability levels
 
 You should consider when to automatically install updates - of course, it needs to be a time that will cause minimal disruption, but it should also be a suitable amount of time after the updates are released in case there are any issues. Microsoft updates are released on the 2nd Tuesday of every month - known as Patch Tuesday - so you might choose to install the updates a week or two after this date.
 

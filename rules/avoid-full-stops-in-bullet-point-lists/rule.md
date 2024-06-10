@@ -37,9 +37,9 @@ However, if it _is_ necessary for your bullet point to have more than one senten
 
 ::: greybox
 
-- Sentence 1.
-- Sentence 2.
-- Sentence 3.
+* Sentence 1.
+* Sentence 2.
+* Sentence 3.
   :::
   ::: bad
   Figure: Bad example - Too much punctuation
@@ -47,9 +47,9 @@ However, if it _is_ necessary for your bullet point to have more than one senten
 
 ::: greybox
 
-- Sentence 1
-- Sentence 2. Sentence 3
-- Sentence 4
+* Sentence 1
+* Sentence 2. Sentence 3
+* Sentence 4
   :::
   ::: bad
   Figure: Bad example - Full stop is only used on multiple sentences, but not at the end
@@ -57,9 +57,9 @@ However, if it _is_ necessary for your bullet point to have more than one senten
 
 ::: greybox
 
-- Sentence 1
-- Sentence 2. Sentence 3.
-- Sentence 4
+* Sentence 1
+* Sentence 2. Sentence 3.
+* Sentence 4
   :::
   ::: ok
   Figure: OK example - Full stop is used on multiple sentences, and at the end, but the bullets are inconsistent
@@ -69,15 +69,15 @@ However, if it _is_ necessary for your bullet point to have more than one senten
 
 Full stops should not be used in bullet lists, e.g.:
 
-- In this list of bullet points there are no full stops
-- So this one doesn't have one either
-- Or this one
+* In this list of bullet points there are no full stops
+* So this one doesn't have one either
+* Or this one
 
 However, if you need full stops, make sure your bullets end with them and you maintain consistency, e.g.:
 
-- In this point, there is a full stop. Because of that, there needs to be one at the end too.
-- Because a bullet in this list has a full stop, they all need one.
-- Even this.
+* In this point, there is a full stop. Because of that, there needs to be one at the end too.
+* Because a bullet in this list has a full stop, they all need one.
+* Even this.
   :::
   ::: good
   Figure: Good example - Full stops are avoided where possible, but used correctly and consistently where necessary

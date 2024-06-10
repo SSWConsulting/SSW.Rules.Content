@@ -22,13 +22,13 @@ In SharePoint your left navigation can be:
 
 Good points:
 
-- Built-in – the default navigation system in SharePoint
+* Built-in – the default navigation system in SharePoint
 
 Bad points:
 
-- Viewer – Not very pretty
-- Viewer – Can only use emoji not icons in names
-- Customizing – Cant be customized
+* Viewer – Not very pretty
+* Viewer – Can only use emoji not icons in names
+* Customizing – Cant be customized
 
 ::: bad
 ![Figure: Bad example – Viewing](sharepoint-nav-bad1.png)
@@ -42,10 +42,10 @@ Bad points:
 
 Good points:
 
-- Pretty
-- Easy to edit
+* Pretty
+* Easy to edit
   Bad points:
-- Static (only exists on the page, won’t show on any other pages on the site)
+* Static (only exists on the page, won’t show on any other pages on the site)
 
 Good example:
 
