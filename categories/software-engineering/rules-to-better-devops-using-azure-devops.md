@@ -11,9 +11,10 @@ index:
 - continually-improve-processes
 - do-you-know-the-best-free-resources-for-learning-devops
 - enterprise-secrets-in-pipelines
+- on-premise-build-server-with-azure-devops
 
 ---
 
-If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/ssw/Consulting/DevOps.aspx) and book in a consultant.
+If you still need help, [visit our DevOps consulting page](https://www.ssw.com.au/consulting/devops) and book in a consultant.
 
 Learn more about [Scrum with Azure DevOps](/rules-to-better-scrum-using-azure-devops).
