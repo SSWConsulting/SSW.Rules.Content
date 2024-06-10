@@ -30,6 +30,11 @@ check_seo_description() {
     issues+=("Contains the phrase 'generated SEO'")
   fi
 
+  #  AI formality - Check if description includes "SEO description"
+  if echo "$seo_description" | grep -qi "SEO description"; then
+    issues+=("Contains the phrase 'SEO description'")
+  fi
+
   #  AI formality - I've generated
   if echo "$seo_description" | grep -qi "I've generated"; then
     issues+=("Contains 'I've generated'")
