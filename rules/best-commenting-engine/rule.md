@@ -10,6 +10,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-allow-users-to-comment-and-rate-your-pages
@@ -52,23 +54,10 @@ There are a few ways that you can easily add comments and interactivity such as�
 * Need a separate login
 * Paid (Unless you want ugly ads 🤮)
 
-#### [Utterances](https://utteranc.es/)
-
-**✅ Pros:**
-
-* Uses GitHub login - most people already have this
-* Simple and lightweight
-* Always free
-* Open source
-* No tracking scripts
-* No ads
-
-**❌ Cons:**
-
-* Uses GitHub issues to store comments (not as good as Discussions)
 
 ### Other options
 
+* [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
 * [Yotpo](https://www.yotpo.com/)
 
 The following video shows an overview of Yotpo ratings which we've implemented for our SSW Rules.
