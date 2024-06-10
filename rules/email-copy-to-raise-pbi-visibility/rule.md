@@ -1,5 +1,5 @@
 ---
-seoDescription: Here is a concise SEO description based on the provided MD content: "Improve PBI visibility by duplicating content into an email with unique subject and sender." Let me know if you need any adjustments! 😊
+seoDescription: Improve PBI visibility by duplicating content into an email with unique subject and sender.
 type: rule
 title: Do you send a PBI via email to raise visibility?
 uri: email-copy-to-raise-pbi-visibility
@@ -13,7 +13,6 @@ related:
   - turn-emails-into-pbis
 created: 2022-03-05T01:31:10.429Z
 guid: 15dedc41-6733-49e8-b40a-c5d123d340bd
-
 ---
 
 With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk of people deleting them without reading the content – it doesn't happen with manual emails that have unique subjects and a real person as the sender.

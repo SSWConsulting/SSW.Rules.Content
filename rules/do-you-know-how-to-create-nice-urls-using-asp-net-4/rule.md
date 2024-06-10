@@ -1,5 +1,5 @@
 ---
-seoDescription: Here is a possible SEO description based on the provided content: "Create nice URLs with ASP.NET 4 using routing features, improving user experience and search engine ranking." Let me know if this meets your requirements! 😊
+seoDescription: Create nice URLs with ASP.NET 4 using routing features, improving user experience and search engine ranking.
 type: rule
 title: Do you know how to create nice URLs using ASP.NET 4?
 uri: do-you-know-how-to-create-nice-urls-using-asp-net-4

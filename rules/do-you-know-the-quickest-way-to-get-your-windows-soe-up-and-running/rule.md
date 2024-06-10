@@ -1,5 +1,5 @@
 ---
-seoDescription: Here is a possible SEO description based on the provided MDX content: "Boost Windows SOE setup speed with package managers like Chocolatey and Winget for small to medium-sized companies or BYOD environments." Let me know if you'd like me to generate an alternative SEO description! 😊
+seoDescription: Boost Windows SOE setup speed with package managers like Chocolatey and Winget for small to medium-sized companies or BYOD environments.
 type: rule
 title: Do you know the quickest way to get your Windows SOE up and running?
 uri: do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
@@ -18,7 +18,6 @@ redirects:
 created: 2016-06-20T04:57:19.000Z
 archivedreason: null
 guid: 434aba3a-381a-474c-b8d3-357d10fc55bf
-
 ---
 
 Your developers should be using the latest version of Windows for security, speed, and the latest features.

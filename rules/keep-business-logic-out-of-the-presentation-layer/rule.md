@@ -1,18 +1,17 @@
 ---
-seoDescription: Here is a suggested SEO description based on the provided MD content: Do you keep business logic out of the presentation layer? MediatR simplifies CQRS and keeps logic independent of UI.
+seoDescription: Do you keep business logic out of the presentation layer? MediatR simplifies CQRS and keeps logic independent of UI.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you keep business logic out of the presentation layer?
 guid: b4f7ebab-f54f-4f53-a384-1eccb39041c7
 uri: keep-business-logic-out-of-the-presentation-layer
 created: 2019-04-14T21:50:59.0000000Z
 authors:
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
 related: []
 redirects:
-- do-you-keep-business-logic-out-of-the-presentation-layer
-
+  - do-you-keep-business-logic-out-of-the-presentation-layer
 ---
 
 It's common for business logic to be added directly to the presentation layer. When building ASP.NET MVC systems, this typically means that business logic is added to controllers as per the following example:
