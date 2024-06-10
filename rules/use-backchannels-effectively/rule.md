@@ -62,26 +62,6 @@ Figure: Good example - All team members, including the Product Owner and Solutio
 
 If the Software Engineers still disagree after the group chat, then they should make the matter official by sending a ['For the record'](/for-the-record) email.
 
-For example:  
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | {{ PRODUCT OWNER }} |
-| Cc:      | {{ OTHER PEOPLE INVOLVED }}, <3months@followupthen.com> |
-| Subject: | {{ EMAIL SUBJECT }}  |  
-::: email-content  
-
-### Hi {{ PRODUCT OWNER }}  
-
-"For the record... I understand you want microservices because of {{ REASON }}
-However I think that is wrong because of {{ REASON }}
-
-I have Cc'ed @followupthen.com to see if any of us have changed our mind in 3 months from now
-
-:::  
-:::  
-
 ### Keep managers informed about important conversations with clients
 
 ::: greybox
