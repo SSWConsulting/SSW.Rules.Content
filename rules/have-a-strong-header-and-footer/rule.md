@@ -21,8 +21,8 @@ A strong header and footer will make the client sure that document is from your 
 
 Make sure your document contains:
 
-- **Header** - The company logo and contact information
-- **Footer** - The filename (hyperlinked with the URL) and the [version number](/show-version-numbers)
+* **Header** - The company logo and contact information
+* **Footer** - The filename (hyperlinked with the URL) and the [version number](/show-version-numbers)
 
 ::: bad
 ![Bad example - The link is too long and messy](bad-footer.jpg)

@@ -220,7 +220,7 @@ The Power Automate visual allows you to set up automated workflows that can be t
 
 ## Ellipsis (Other)
 
-- **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
+* **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
 
 Remember, the choice of visualization should not only depend on what looks good but also on what communicates the data most effectively to your audience.
 

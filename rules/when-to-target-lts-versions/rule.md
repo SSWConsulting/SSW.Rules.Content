@@ -34,11 +34,11 @@ To help in these decisions, the .NET Core team has released a roadmap for upcomi
 
 Important questions to consider include:
 
-- What is the planned lifecycle of the project?
-- Will there be ongoing development in the future?
-- How are we planning to distribute and support this project?
-  - Web services that are automatically deployed to the cloud will be easier to continually update than a desktop app installed on customer PCs
-- How does my project’s lifecycle align with the .NET release cycle?
+* What is the planned lifecycle of the project?
+* Will there be ongoing development in the future?
+* How are we planning to distribute and support this project?
+  * Web services that are automatically deployed to the cloud will be easier to continually update than a desktop app installed on customer PCs
+* How does my project’s lifecycle align with the .NET release cycle?
 
 All supported versions of .NET will receive servicing releases and the work to apply these updates should always be factored into the Total Cost of Ownership for any project.
 

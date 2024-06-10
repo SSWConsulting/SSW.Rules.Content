@@ -26,8 +26,8 @@ Before recording your screen reduce visual noise by:
 2. ✅**Avoiding small fonts** - Zoom in to 125% by holding Ctrl and scrolling up on the mouse wheel
 3. ✅**Hiding the bookmark bar**
 
-   - Windows shortcut: Ctrl + Shift + b
-   - Mac shortcut: Cmd + Shift + b
+   * Windows shortcut: Ctrl + Shift + b
+   * Mac shortcut: Cmd + Shift + b
 
 ::: bad
 ![Figure: Bad example - This video will be cluttered and unprofessional](screen-recording-bad.png)

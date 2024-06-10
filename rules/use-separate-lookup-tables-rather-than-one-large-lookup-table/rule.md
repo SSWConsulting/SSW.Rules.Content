@@ -23,11 +23,11 @@ We prefer multiple lookup tables so they make more sense in ORM tools. If you ha
 
 When you are obtaining the OrderType for an order, you would have either:
 
-- Order.OrderType.OrderTypeID
+* Order.OrderType.OrderTypeID
 
 > Good as it is clear what is being retrieved from the lookup table.
 
-- Order.LookupTable.Value
+* Order.LookupTable.Value
 
 > Not great as it is not clear what the nature of the lookup table is.
 

@@ -19,7 +19,7 @@ MATERIAL-UI [https://material-ui.com](https://material-ui.com/)
 
 Bootstrap [https://getbootstrap.com](https://getbootstrap.com/)
 
-Tailwind https://tailwindcss.com/
+Tailwind <https://tailwindcss.com/>
 
 Ant Design [https://ant.design](https://ant.design/)
 
@@ -41,7 +41,7 @@ Get started: **[react-bootstrap-ui-official-docs-example](https://stackblitz.com
 
 Tailwind is a popular utility-first CSS framework that simplifies the process of building user interfaces. It provides a comprehensive set of pre-built utility classes that can be easily combined to create responsive and flexible designs. With Tailwind, developers can quickly style their components without writing custom CSS, resulting in faster development and easier maintenance.
 
-Get started: [ **tailwind-example**](https://tailwindcss.com/docs/utility-first)
+Get started: [**tailwind-example**](https://tailwindcss.com/docs/utility-first)
 
 ### Ant Design
 

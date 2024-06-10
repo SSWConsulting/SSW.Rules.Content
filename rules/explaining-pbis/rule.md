@@ -27,13 +27,13 @@ Luckily, there are a few tips and tricks you can use to make sure you are ready 
 
 ### Ways to help the Product Owner
 
-- **Give context** - For them to understand the big picture first by [zooming in then out](/zooming-in-and-out) and [catering to your audience](/catering-to-audience)
-- **Show and compare** - For them to learn the differences between the old version and then the new version
-- **Ask Questions** - To resolve any confusion or gaps in knowledge that they have and confirm they understand you are about to move on to another topic
+* **Give context** - For them to understand the big picture first by [zooming in then out](/zooming-in-and-out) and [catering to your audience](/catering-to-audience)
+* **Show and compare** - For them to learn the differences between the old version and then the new version
+* **Ask Questions** - To resolve any confusion or gaps in knowledge that they have and confirm they understand you are about to move on to another topic
 
 You can also prepare better by:
 
-- Recording a [Done Video](/record-a-quick-and-dirty-done-video)
-- Practicing with a dry run
+* Recording a [Done Video](/record-a-quick-and-dirty-done-video)
+* Practicing with a dry run
 
 This type of preparation can help you organize your thoughts and explain the issue.

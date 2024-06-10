@@ -18,9 +18,9 @@ guid: 81609e41-a911-4a99-9f54-fdaa2fb4a374
 CAML is the XML definition for all things in SharePoint, in deployment, and in creating templates, CAML is the only format.
 In SharePoint development, you will also need to know CAML, in particular, how to write a query in CAML.
 
-- Widely used in Content Query Web Parts
-- Also used in SharePoint content reports
-- In code, used by SPSiteDataQuery object
+* Widely used in Content Query Web Parts
+* Also used in SharePoint content reports
+* In code, used by SPSiteDataQuery object
 
 <!--endintro-->
 

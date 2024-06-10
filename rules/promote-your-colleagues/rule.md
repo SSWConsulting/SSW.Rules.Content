@@ -18,7 +18,7 @@ On your blog, you should have an about page that:
 
 <!--endintro-->
 
-- Promotes other bloggers in your company
-- References your company page. E.g. [SSW People](https://www.ssw.com.au/people/)
+* Promotes other bloggers in your company
+* References your company page. E.g. [SSW People](https://www.ssw.com.au/people/)
 
 Here is a good example: [ulyssesmaclaren.com](https://ulyssesmaclaren.com)

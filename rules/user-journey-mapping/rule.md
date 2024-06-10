@@ -60,6 +60,6 @@ Both these types of diagrams provide excellent documentation that is easily dige
 
 ## User journey mapping tools
 
-- [FigJam](https://www.figma.com/figjam/)
-- [Miro](https://miro.com/index/)
-- A whiteboard and a stack of sticky notes.
+* [FigJam](https://www.figma.com/figjam/)
+* [Miro](https://miro.com/index/)
+* A whiteboard and a stack of sticky notes.

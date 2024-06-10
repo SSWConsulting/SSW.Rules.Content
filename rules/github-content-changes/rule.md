@@ -22,10 +22,10 @@ A Pull Request is a request to make changes to 1 or more files. GitHub provides 
 
 1. Open the Pull Request
 2. Examine the changes using the tabs:
-   - **Conversations:** Comments people have made about the change
-   - **Commits:** Summary of the changes the requester has made
-   - **Checks:** You can ignore this if you are not a developer
-   - **Important - Files changed:** See the difference between the old and new files being changed. Red highlighting indicates deleted parts and green highlighting indicates added parts.  
+   * **Conversations:** Comments people have made about the change
+   * **Commits:** Summary of the changes the requester has made
+   * **Checks:** You can ignore this if you are not a developer
+   * **Important - Files changed:** See the difference between the old and new files being changed. Red highlighting indicates deleted parts and green highlighting indicates added parts.  
      This visual preview of the changes to a markdown file is accessed via **Files changed | Display the rich diff**
 
 ![Figure: Reviewing tabs in a GitHub Pull Request](https://user-images.githubusercontent.com/79821522/113648288-bb515b80-96cf-11eb-9f9c-3169e2f64a95.png)
@@ -37,10 +37,10 @@ A Pull Request is a request to make changes to 1 or more files. GitHub provides 
    a. Go to **Files changed | Review changes**  
     b. Select an option:
 
-   - Choose "Approve" to mark it as ready to go live  
+   * Choose "Approve" to mark it as ready to go live  
      Add a comment with feedback (if necessary)
-   - Choose "Comment" for general feedback when PR it's not ready for approval
-   - Choose "Request changes" for mandatory changes to the PR
+   * Choose "Comment" for general feedback when PR it's not ready for approval
+   * Choose "Request changes" for mandatory changes to the PR
 
    c. Press "Submit review" so that the requester can see it
 

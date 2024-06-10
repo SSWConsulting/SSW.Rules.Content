@@ -20,7 +20,7 @@ A URL is made up of a fully-qualified domain name (FQDN) and a path. The FQDN is
 
 The FQDN is made up of a top-level domain (TLD), a domain, and then a subdomain or subdomains. These move from right to left, so for the address <https://www.ssw.com.au/>, **.com.au** is the TLD, **ssw** is the domain, and **www** is a subdomain.
 
-For the address https://www.ssw.com.au/people/, **people** is the path. The path can include all kinds of other characters and parameters.
+For the address <https://www.ssw.com.au/people/>, **people** is the path. The path can include all kinds of other characters and parameters.
 
 You should always check that the **domain** matches the service or website you are expecting.
 

@@ -83,9 +83,9 @@ A routine leave request is an example of a task that might require 1 approval.
 
 2 approvals are for tasks that fall into one of the following categories:
 
-- They do not follow a well-documented process
-- They frequently have variations from the process
-- They are of high importance
+* They do not follow a well-documented process
+* They frequently have variations from the process
+* They are of high importance
 
 In these cases, a 2nd approval is valuable because:
 

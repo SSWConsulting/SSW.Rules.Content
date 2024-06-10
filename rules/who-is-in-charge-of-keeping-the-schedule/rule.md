@@ -56,8 +56,8 @@ Draw yourself a rough diagram of the room, start with intros and then go around 
 
 ### 4. (Optional) Coffee Orders
 
-- Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
+* Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
 
 ### 5. Evaluations
 
-- Share your evaluation forms out around 4 pm to give people time to complete them
+* Share your evaluation forms out around 4 pm to give people time to complete them

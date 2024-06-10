@@ -38,9 +38,9 @@ The Domain layer contains the enterprise logic and types. This layer should not 
 
 Examples:
 
-- Entities
-- [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects) (immutable objects that represent a single value or concept)
-- [Domain Events](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation) (something that has happened in the past)
+* Entities
+* [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects) (immutable objects that represent a single value or concept)
+* [Domain Events](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation) (something that has happened in the past)
 
 ### Application
 
@@ -54,9 +54,9 @@ One example is obtaining information about the HTTP interaction (e.g. the user's
 
 Examples:
 
-- Application Services
-- Use Cases/Features
-- DTOs
+* Application Services
+* Use Cases/Features
+* DTOs
 
 ### Infrastructure
 
@@ -66,11 +66,11 @@ This layer is important for keeping our application clean and testable. For gene
 
 Examples:
 
-- Persistence
-- Wrappers for interacting with External APIs
-- Email/SMS
-- Logging
-- Authentication Provider
+* Persistence
+* Wrappers for interacting with External APIs
+* Email/SMS
+* Logging
+* Authentication Provider
 
 ### Presentation
 
@@ -99,15 +99,15 @@ With this design, all dependencies must flow inwards. Core has no dependencies o
 
 This results in an architecture and design that is:
 
-- **Independent of Frameworks** - _Core should not be dependent on external frameworks such as Entity Framework_
-- **Testable** - _The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write._
-- **Independent of UI** - _It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic._
-- **Independent of Database** - _Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB_
-- **Independent of any external agency** - _Core simply doesn't know anything about the outside world_
+* **Independent of Frameworks** - _Core should not be dependent on external frameworks such as Entity Framework_
+* **Testable** - _The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write._
+* **Independent of UI** - _It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic._
+* **Independent of Database** - _Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB_
+* **Independent of any external agency** - _Core simply doesn't know anything about the outside world_
 
 While the design in the above figure only includes three circles, you may need more - just think of this as a starting point.
 
 ### References
 
-- [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-- [Clean architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)
+* [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+* [Clean architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)

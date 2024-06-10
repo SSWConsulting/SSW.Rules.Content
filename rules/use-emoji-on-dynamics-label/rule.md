@@ -26,11 +26,11 @@ How do you show a tooltip or a note to a Dynamics user?
 
 Advantages:
 
-- Out of box feature. No customizations needed
+* Out of box feature. No customizations needed
 
 Disadvantages:
 
-- Not obvious to see - users are often unaware they can hover on the label to see the note
+* Not obvious to see - users are often unaware they can hover on the label to see the note
 
 ![Figure: The out-of-box description attribute can be used as a tooltip. But it's not obvious to see](screenshot-at-oct-28-11-17-04.png "Figure: The out-of-box description attribute can be used as a tooltip. But it's not obvious to see")
 
@@ -38,12 +38,12 @@ Disadvantages:
 
 Advantages:
 
-- Flexibility - can customize any style or behaviour
+* Flexibility - can customize any style or behaviour
 
 Disadvantages:
 
-- Need more time to develop or install a package
-- Introduce a dependent package to the system
+* Need more time to develop or install a package
+* Introduce a dependent package to the system
 
 ![Figure: Use a PCF control to show a note and link to a web page](screenshot-at-oct-28-11-23-52.png "Figure: Use a PCF control to show a note and link to a web page")
 

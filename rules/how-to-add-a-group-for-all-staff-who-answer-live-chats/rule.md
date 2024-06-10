@@ -17,8 +17,8 @@ redirects:
 
 Specify how incoming chat requests are sent to agents with Chat Routing settings. There are two options for how incoming chats are sent to your agents:
 
-- **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
-- **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
+* **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
+* **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
 
 <!--endintro-->
 

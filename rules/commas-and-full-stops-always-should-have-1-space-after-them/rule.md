@@ -30,7 +30,7 @@ Figure: Bad example - No space after comma and full stop
 :::
 
 ::: greybox
-Looking for your sent emails through a searching tool is simple.  By using Windows Desktop search,  you can search your relevant emails by recipient and/or by subject.    
+Looking for your sent emails through a searching tool is simple.  By using Windows Desktop search,  you can search your relevant emails by recipient and/or by subject.
 :::
 
 ::: bad

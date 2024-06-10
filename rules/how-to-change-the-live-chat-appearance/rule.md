@@ -28,10 +28,10 @@ Today we're excited to introduce a new feature that will let you build your own 
 
 The Web SDK lets you build a chat widget, that's unique to your website. The sky's the limit. Here are some examples of how you can build your own chat widget:
 
-- Give your customers more space to chat by creating customized windows and docking it to the side of your website.
-- Add your own logo and branding to ensure a consistent customer experience.
-- Use custom sound notifications to alert your visitor whenever a chat is incoming.
-- Create entirely new interactions for customers when they start a chat, like adding a popup animation.
+* Give your customers more space to chat by creating customized windows and docking it to the side of your website.
+* Add your own logo and branding to ensure a consistent customer experience.
+* Use custom sound notifications to alert your visitor whenever a chat is incoming.
+* Create entirely new interactions for customers when they start a chat, like adding a popup animation.
 
 **Control the behavior of the widget**
 

@@ -38,7 +38,7 @@ If a customer has raised an issue publicly, addressing it publicly is the way to
 
 From the first comment, we can identify if a problem can escalate quickly, or if it’s harder to handle publicly. In cases like this, you can ask the client to contact you privately via email or direct message. This will hopefully take the damage offline and allows you to engage with the customer in a more personal way. It also allows other clients to see that you still responded and that you took action on a client's concern.
 
-### Tip #4: Remember that some people are just trolls!
+### Tip #4: Remember that some people are just trolls
 
 If you got a new comment that is not from a client or a potential client, remember that some people are just trolls and want to watch the world burn. If the customer is unreceptive to your helpful replies or they start posting anything offensive or inappropriate on your page, it is perfectly reasonable to block them – but this should be the last option in most cases.
 

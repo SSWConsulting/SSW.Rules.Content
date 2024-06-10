@@ -25,8 +25,8 @@ Want to register a WeChat Office Account for your company? Check the following s
 
 Before registering a WeChat Official Account for business in China, make sure you have:
 
-- A local company with a Chinese business license or a WFOE (Wholly Foreign-Owned Enterprise)
-- A Chinese ID card with WeChat payment account
+* A local company with a Chinese business license or a WFOE (Wholly Foreign-Owned Enterprise)
+* A Chinese ID card with WeChat payment account
 
 Here're the simple steps to create a WeChat Official Account.
 

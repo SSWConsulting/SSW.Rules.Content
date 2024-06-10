@@ -36,11 +36,11 @@ guid: ff423950-2e2e-46b2-bfa5-ef9d69e83774
 
 Organizing your cloud assets starts with good names. It is best to be consistent and use:
 
-- All lower case
-- Use [kebab case (“-“ as a separator)](/use-dashes-in-urls)
-- Include a [resource type abbreviation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations) (so it's easy to find the resource in a script)
-- Include which environment the resource is intended for i.e. [dev, test, prod, etc.](/do-you-have-separate-development-testing-and-production-environments)
-- If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix _api_
+* All lower case
+* Use [kebab case (“-“ as a separator)](/use-dashes-in-urls)
+* Include a [resource type abbreviation](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/resource-abbreviations) (so it's easy to find the resource in a script)
+* Include which environment the resource is intended for i.e. [dev, test, prod, etc.](/do-you-have-separate-development-testing-and-production-environments)
+* If applicable, include the intended use of the resource in the name e.g. an app service may have a suffix _api_
 
 <!--endintro-->
 
@@ -48,9 +48,9 @@ Azure defines [some best practices for naming and tagging your resource](https:/
 
 Having inconsistent resource names across projects creates all sorts of pain
 
-- Developers will struggle to find a project's resources and identify what those resources are being used for
-- Developers won't know what to call new resources they need to create.
-- You run the risk of creating duplicate resources... created because a developer has no idea that another developer created the same thing 6 months ago, under a different name, in a different Resource Group!
+* Developers will struggle to find a project's resources and identify what those resources are being used for
+* Developers won't know what to call new resources they need to create.
+* You run the risk of creating duplicate resources... created because a developer has no idea that another developer created the same thing 6 months ago, under a different name, in a different Resource Group!
 
 ### Keep your resources consistent
 

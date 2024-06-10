@@ -24,8 +24,8 @@ The way you and all members of your team present themselves is a crucial part of
 
 One aspect of this is the dress code. Dress code is important for two reasons:
 
-- Looking professional and keen for business
-- Reinforce the company's [branding](/rules-to-better-branding)
+* Looking professional and keen for business
+* Reinforce the company's [branding](/rules-to-better-branding)
 
 ### Public Events and Meetings
 
@@ -49,8 +49,8 @@ At SSW employees can optionally work from home Monday/Tuesday, then **"dress up"
 
 Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Fun Friday"**. Thursdays are for casual clothes. On Fridays, employees are encouraged to wear sporty clothes such as shorts. It allows the end of the week to be fun.
 
-- [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
-- [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
+* [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
+* [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
   :::
 
 ![Figure: SSW Dress Code poster](SSW-Dresscode-Poster-v2.png)
@@ -78,8 +78,8 @@ Today's forecast: **Sunny. Winds north to northwesterly 15 to 20 km/h turning we
 
 Note:
 
-- At SSW, shorts day is on **only** if this email comes.
-- Why? We don’t want people looking at different weather apps and having different rules apply... so if it’s over 30 but the email doesn’t come (e.g. there is a bug 🐞), then there’s no shorts that day.
+* At SSW, shorts day is on **only** if this email comes.
+* Why? We don’t want people looking at different weather apps and having different rules apply... so if it’s over 30 but the email doesn’t come (e.g. there is a bug 🐞), then there’s no shorts that day.
 
 Sophie
 

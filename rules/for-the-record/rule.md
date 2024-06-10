@@ -89,9 +89,9 @@ Figure: Good example - Documenting that client has asked you to do a shortcut
 ::: greybox
 "Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas **we have recommended using Angular** for the following reasons:
 
-- {{ LINK 1 }}
-- {{ LINK 2 }}
-- {{ LINK 3 }}
+* {{ LINK 1 }}
+* {{ LINK 2 }}
+* {{ LINK 3 }}
 
 That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
 

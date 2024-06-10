@@ -22,15 +22,15 @@ There are many good reasons why it's better to work in pairs.
 
 For everyone:
 
-- Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
-- You can keep each other motivated and you absorb knowledge from each other
-- Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
+* Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
+* You can keep each other motivated and you absorb knowledge from each other
+* Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
 
 Extra for developers:
 
-- Code will have less strange workarounds - because if something doesn't add up to a developer, they've got someone to ask
-- Cleaner code - because you know someone else is going to be looking at your code
-- Support - when you need changes down the track, you have two people to call on
+* Code will have less strange workarounds - because if something doesn't add up to a developer, they've got someone to ask
+* Cleaner code - because you know someone else is going to be looking at your code
+* Support - when you need changes down the track, you have two people to call on
 
 > _"I have found developers work better in pairs. I am not a fan of the classical pair programming - which is 2 developers working on the 1 PC. There are times for that especially during brainstorming activities, however on a day-to-day basis, I advise that developers work in pairs, but they each have their own PC."_
 >
@@ -71,8 +71,8 @@ If you are working with someone remote, you will be using an application like [T
 
 `youtube: https://www.youtube.com/watch?v=A2ceblXTBBc`
 
-- VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-- Visual Studio 2022! It's built in!
+* VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+* Visual Studio 2022! It's built in!
 
 [Code With me](https://www.jetbrains.com/code-with-me/) - A great tool for JetBrains IDE users who want to pair program. Though it isn't supported in Rider right now.
 

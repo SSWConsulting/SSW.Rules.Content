@@ -44,7 +44,7 @@ Integer (whole number) data from -2^63 (-9223372036854775808) through 2^63-1 (92
 
 **Recommendations:**
 
-- Use smallint datatype instead of bit datatype - so it can be indexed;
-- Use int datatype, where possible, instead of bigint datatype - for saving disk space;
-- Use smallint datatype, where possible, instead of int datatype - for saving disk space;
-- Use tinyint datatype, where possible, instead of smallint datatype - for saving disk space;
+* Use smallint datatype instead of bit datatype - so it can be indexed;
+* Use int datatype, where possible, instead of bigint datatype - for saving disk space;
+* Use smallint datatype, where possible, instead of int datatype - for saving disk space;
+* Use tinyint datatype, where possible, instead of smallint datatype - for saving disk space;

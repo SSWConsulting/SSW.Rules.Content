@@ -24,12 +24,12 @@ Modern websites can use 3rd party dependencies from many different sources. This
 
 Many of these services are completely blocked inside other countries. China, in particular, currently blocks all the below:
 
-- Facebook
-- Google
-- YouTube
-- Vimeo
-- Twitter
-- LinkedIn
+* Facebook
+* Google
+* YouTube
+* Vimeo
+* Twitter
+* LinkedIn
 
 Although China is the most well-known country for blocking sites, other countries also block services - like Google (e.g. Iran, Syria) and YouTube (e.g. Pakistan, Syria).
 

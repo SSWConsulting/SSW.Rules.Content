@@ -15,17 +15,17 @@ Some people like popup forms. Some do not.
 
 Popup modal forms are no good:
 
-- as you can't read or edit something else in a window behind
-- as they take a lot of time to load in a browser (ask any CRM 4 user)
+* as you can't read or edit something else in a window behind
+* as they take a lot of time to load in a browser (ask any CRM 4 user)
 
 <!--endintro-->
 
 Popup forms are good:
 
-- as it is obvious you have an action step to perform before continuing
-- as they simplify a form that has lots of fields
-- if they can't get lost behind another window
-- if you make them clear by dimming the background (see below)
+* as it is obvious you have an action step to perform before continuing
+* as they simplify a form that has lots of fields
+* if they can't get lost behind another window
+* if you make them clear by dimming the background (see below)
 
 ::: bad  
 ![Figure: Bad example - if this was a popup form it would be easier to focus on where to look (as a minimum you would be looking at half the screen)](../../assets/Popup01.jpg)  

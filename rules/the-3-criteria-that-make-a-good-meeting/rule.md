@@ -18,7 +18,7 @@ A meeting can be useful if it meets these three criteria:
 
 <!--endintro-->
 
-- [You know what you're going to do in it](/share-the-agenda)
-- [You do the thing](/stick-to-the-agenda-and-complete-the-meetings-goal)
-- At the end, somebody [emails the summary and action items out](/share-the-action-items-that-came-up):\
+* [You know what you're going to do in it](/share-the-agenda)
+* [You do the thing](/stick-to-the-agenda-and-complete-the-meetings-goal)
+* At the end, somebody [emails the summary and action items out](/share-the-action-items-that-came-up):\
   _‘OK, we’re all going to do these things going forward.’_

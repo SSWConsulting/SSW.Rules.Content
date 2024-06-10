@@ -16,11 +16,11 @@ redirects:
 
 There are a number of things you can do to make your content more search-friendly in IIS.
 
-- Make content search engine-friendly
-- Improve volume and quality of traffic
-- Control how search engines will access and display content
-- Inform search engines about locations that are available for indexing
-- Show broken pages
+* Make content search engine-friendly
+* Improve volume and quality of traffic
+* Control how search engines will access and display content
+* Inform search engines about locations that are available for indexing
+* Show broken pages
 
 <!--endintro-->
 

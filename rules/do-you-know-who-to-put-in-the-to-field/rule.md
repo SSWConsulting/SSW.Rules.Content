@@ -30,11 +30,11 @@ A fair percentage of people open an email and don’t read who is on the "To:" o
 | Subject: | Northwind App - Update work items |  
 ::: email-content
 
-### Hi All,
+### Hi All
 
 Can everyone make sure to update your work items as you work on them?
 
-### Hi Mark,
+### Hi Mark
 
 1. At the end of the day, please double check the above was done
 
@@ -52,11 +52,11 @@ Figure: Bad example - Mark can’t search for tasks that have been assigned to h
 | Subject: | Northwind App - Update work items |  
 ::: email-content
 
-### Hi All,
+### Hi All
 
 Can everyone make sure to update your work items as you work on them?
 
-### Hi Mark,
+### Hi Mark
 
 1. At the end of the day, please double check the above was done
 

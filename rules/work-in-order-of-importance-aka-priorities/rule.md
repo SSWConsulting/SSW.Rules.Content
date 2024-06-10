@@ -66,16 +66,16 @@ The word **"Urgent"** is more important than the word **"Important"**
 
 **Tips:**
 
-- Efficient people keep a priority list (often written)
-- Don't move an important task out of your inbox unless someone else is going to do it right away
-- The most recent task assigned is not necessarily the most important. Mentally do this (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land
-- You can use inbox subfolders to group and prioritize tasks
+* Efficient people keep a priority list (often written)
+* Don't move an important task out of your inbox unless someone else is going to do it right away
+* The most recent task assigned is not necessarily the most important. Mentally do this (e.g. an air traffic controller does not deal with the newest plane that has popped up on his radar when he has 4 lined up to land
+* You can use inbox subfolders to group and prioritize tasks
 
   ::: good
   ![Figure: Group by subfolders under your inbox](subfolders.png)
   :::
 
-- Double check - it's common that priority orders change, but clients don't always mean to, so confirm before proceeding.
+* Double check - it's common that priority orders change, but clients don't always mean to, so confirm before proceeding.
   E.g. When someone is asking you to do a new task while you are still working on another task, then ask:
 
   ::: greybox

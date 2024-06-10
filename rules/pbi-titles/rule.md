@@ -25,19 +25,19 @@ A well-thought-out PBI title can be the difference between an excellent Sprint P
 
 Many factors go into a good PBI title. Some of the core aspects are:
 
-- Audience interpretation
-- Importance
-- Business area
-- Type of PBI
-- Number of words
+* Audience interpretation
+* Importance
+* Business area
+* Type of PBI
+* Number of words
 
 ### Audience Interpretation
 
 People interpret things in different ways. Those interested in PBIs generally include:
 
-- Developers
-- Product Owners
-- External Stakeholders
+* Developers
+* Product Owners
+* External Stakeholders
 
 Consider the background of all interested and change the title accordingly. For example, a Product Owner might not know what "dependency" means, so it might be better to avoid including that in a PBI title.
 

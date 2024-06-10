@@ -29,8 +29,8 @@ But you say "My Delete links have JavaScript protection e.g. Are you sure you wa
 
 Thus, we must have:
 
-- Password protected areas on the website when we can update the database records via the web
-- All update ability must be via buttons, not hyperlinks (as buttons are known on the web to submit a form).
+* Password protected areas on the website when we can update the database records via the web
+* All update ability must be via buttons, not hyperlinks (as buttons are known on the web to submit a form).
 
 That being said, there are a couple of exceptions to this rule.
 
