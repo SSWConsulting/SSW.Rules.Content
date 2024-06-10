@@ -21,17 +21,17 @@ check_seo_description() {
   fi
 
   # AI formality - Check if description includes "Here is"
-  if echo "$seo_description" | grep -q "Here is"; then
+  if echo "$seo_description" | grep -qi "Here is"; then
     issues+=("Contains the phrase 'Here is'")
   fi
 
   #  AI formality - Check if description includes "Generated description"
-  if echo "$seo_description" | grep -q "Generated description"; then
-    issues+=("Contains the phrase 'Generated description'")
+  if echo "$seo_description" | grep -qi "generated SEO"; then
+    issues+=("Contains the phrase 'generated SEO'")
   fi
 
   #  AI formality - I've generated
-  if echo "$seo_description" | grep -q "I've generated"; then
+  if echo "$seo_description" | grep -qi "I've generated"; then
     issues+=("Contains 'I've generated'")
   fi
 
