@@ -20,12 +20,17 @@ check_seo_description() {
     issues+=("Exceeds 300 characters")
   fi
 
-  # Check if description includes "Here is the ..."
+  # AI formality - Check if description includes "Here is"
   if echo "$seo_description" | grep -q "Here is"; then
-    issues+=("Contains the phrase 'Here is the ...'")
+    issues+=("Contains the phrase 'Here is'")
   fi
 
-  # Check if the AI included formalities
+  #  AI formality - Check if description includes "Generated description"
+  if echo "$seo_description" | grep -q "Generated description"; then
+    issues+=("Contains the phrase 'Generated description'")
+  fi
+
+  #  AI formality - I've generated
   if echo "$seo_description" | grep -q "I've generated"; then
     issues+=("Contains 'I've generated'")
   fi
