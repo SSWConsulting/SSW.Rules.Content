@@ -1,5 +1,5 @@
 ---
-seoDescription: Linking Dynamics and Teams: Seamlessly connecting customers to their respective teams in CRM.
+seoDescription: Linking Dynamics and Teams - Seamlessly connecting customers to their respective teams in CRM.
 type: rule
 title: Dynamics and Teams - Do you link your customers in CRM to their
   respective Teams?

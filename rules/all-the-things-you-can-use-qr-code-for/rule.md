@@ -1,5 +1,5 @@
 ---
-seoDescription: Unlocking the Power of QR Codes: From Payments to Product Information Discover the numerous applications of QR codes, from making payments and installing apps to verifying product information and unlocking share-bikes. Explore the world of offline-to-online transactions, WeChat, Alipay, and more!
+seoDescription: Unlocking the Power of QR Codes - From Payments to Product Information Discover the numerous applications of QR codes, from making payments and installing apps to verifying product information and unlocking share-bikes. Explore the world of offline-to-online transactions, WeChat, Alipay, and more!
 type: rule
 title: Do you know all the things you can use QR codes for?
 uri: all-the-things-you-can-use-qr-code-for

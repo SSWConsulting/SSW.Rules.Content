@@ -1,7 +1,7 @@
 ---
-seoDescription: SQL Server Indexes Naming Standard for Consistent and Organized Indexing Primary keywords: SQL Server, Indexes, Naming Standard
+seoDescription: SQL Server Indexes Naming Standard for Consistent and Organized Indexing Primary keywords - SQL Server, Indexes, Naming Standard
 type: rule
-archivedreason: 
+archivedreason:
 title: General - Do you use a SQL Server Indexes Naming Standard?
 guid: 2448a989-ea55-4780-bfd8-aa8d0add8bde
 uri: use-a-sql-server-indexes-naming-standard
@@ -9,8 +9,7 @@ created: 2019-12-31T04:47:26.0000000Z
 authors: []
 related: []
 redirects:
-- general-do-you-use-a-sql-server-indexes-naming-standard
-
+  - general-do-you-use-a-sql-server-indexes-naming-standard
 ---
 
 This standard outlines the procedure on naming Indexes at SSW for SQL Server. Use this standard when creating new Indexes or if you find an older Index that doesn't follow that standard.

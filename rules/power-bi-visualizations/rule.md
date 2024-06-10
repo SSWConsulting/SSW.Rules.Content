@@ -1,5 +1,5 @@
 ---
-seoDescription: Power BI visualizations explained: Maps, Charts, Tables, and more.
+seoDescription: Power BI visualizations explained - Maps, Charts, Tables, and more.
 type: rule
 title: Do you know when to use each visualization in Power BI?
 uri: power-bi-visualizations

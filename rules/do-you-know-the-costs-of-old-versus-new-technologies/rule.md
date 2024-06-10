@@ -1,17 +1,16 @@
 ---
-seoDescription: Old versus new technologies: Consider costs and compatibility when choosing a solution to build your project.
+seoDescription: Old versus new technologies - Consider costs and compatibility when choosing a solution to build your project.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the costs of old versus new technologies?
 guid: a6d808e9-cfa1-408f-91c2-3ac54d7ff019
 uri: do-you-know-the-costs-of-old-versus-new-technologies
 created: 2012-11-08T15:22:28.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 Every new project faces the question "What technology should I build this solution in?". There are pros and cons to choosing new technologies over old ones:

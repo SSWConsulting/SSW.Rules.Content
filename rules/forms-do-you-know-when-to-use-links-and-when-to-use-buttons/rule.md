@@ -1,17 +1,16 @@
 ---
-seoDescription: Forms and navigation: Use buttons to submit data, links for navigation.
+seoDescription: Forms and navigation - Use buttons to submit data, links for navigation.
 type: rule
-archivedreason: 
+archivedreason:
 title: Forms - Do you know when to use links and when to use buttons?
 guid: 04b05bb8-9727-47b0-ab21-63836ab2ed3d
 uri: forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 created: 2014-12-04T20:13:43.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 It seems nearly all web developers are confused whether they should use hyperlinks or buttons on forms. The recommendation is that whenever data is being submitted (e.g. Save, Cancel, Apply) you should use a button, otherwise use a link.

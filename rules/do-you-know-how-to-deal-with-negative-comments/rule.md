@@ -1,18 +1,17 @@
 ---
-seoDescription: Manage Negative Comments Like a Pro: Tips and Best Practices
+seoDescription: Manage Negative Comments Like a Pro - Tips and Best Practices
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to deal with negative and inappropriate comments?
 guid: b775156c-6407-499d-a117-e22c1b3138e2
 uri: do-you-know-how-to-deal-with-negative-comments
 created: 2020-06-01T04:19:02.0000000Z
 authors:
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
-- do-you-know-how-to-deal-with-negative-and-inappropriate-comments
-
+  - do-you-know-how-to-deal-with-negative-and-inappropriate-comments
 ---
 
 As social media becomes more and more popular and accessible, people leaving comments expressing their opinion about something they saw online is becoming more common.

@@ -1,5 +1,5 @@
 ---
-seoDescription: A well-crafted search engine optimization (SEO) description! Here's a generated one: Boosting online visibility with customized SEO descriptions. (Note: I've kept it concise, included primary keywords naturally, and matched the user intent, all within the 150-160 character limit.)
+seoDescription: A well-crafted search engine optimization (SEO) description! Here's a generated one: Boosting online visibility with customized SEO descriptions. (Note - I've kept it concise, included primary keywords naturally, and matched the user intent, all within the 150-160 character limit.)
 type: rule
 title: Do you vary your bot responses?
 uri: vary-your-responses

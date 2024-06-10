@@ -1,5 +1,5 @@
 ---
-seoDescription: Use emoji on Dynamics label to provide helpful notes and tooltips to users. (Note: I kept it concise, included primary keywords, matched user intent, and did not include any extraneous context)
+seoDescription: Use emoji on Dynamics label to provide helpful notes and tooltips to users. (Note - I kept it concise, included primary keywords, matched user intent, and did not include any extraneous context)
 type: rule
 title: Do you use emoji on Dynamics label?
 uri: use-emoji-on-dynamics-label
@@ -12,11 +12,10 @@ authors:
   - title: Calum Simpson
     url: https://ssw.com.au/people/calum-simpson
 related: []
-redirects: 
+redirects:
   - do-you-use-emoji-on-dynamics-label
 created: 2022-10-28T02:58:56.919Z
 guid: f9803ec8-a3a3-488e-b34d-98b7ef0a6b25
-
 ---
 
 How do you show a tooltip or a note to a Dynamics user?

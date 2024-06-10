@@ -1,5 +1,5 @@
 ---
-seoDescription: Documenting discoveries and decisions: A crucial step in effective Scrum team collaboration.
+seoDescription: Documenting discoveries and decisions - A crucial step in effective Scrum team collaboration.
 type: rule
 title: Do you document discoveries and decisions?
 guid: e625ed0e-b800-4d0d-bc2a-696983b52f84

@@ -1,17 +1,16 @@
 ---
-seoDescription: Indicate significant page edits to provide transparency and highlight notable changes. (Note: I've kept it concise, included primary keywords, and matched the description with user intent. The length of the response is 146 characters.)
+seoDescription: Indicate significant page edits to provide transparency and highlight notable changes. (Note - I've kept it concise, included primary keywords, and matched the description with user intent. The length of the response is 146 characters.)
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you indicate the magnitude of a page edit?
 guid: d48b6e75-7e4b-4c03-8593-d2959368233b
 uri: indicate-the-magnitude-of-a-page-edit
 created: 2009-11-09T08:24:15.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 Add an extra column to the “Version History” page to show how big a change was made in each version (in number of lines modified or MB changed or something).

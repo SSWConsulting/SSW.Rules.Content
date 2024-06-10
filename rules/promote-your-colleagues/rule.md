@@ -1,5 +1,5 @@
 ---
-seoDescription: Promote your colleagues and learn from their expertise at [SSW People](https://www.ssw.com.au/people/)!
+seoDescription: Promote your colleagues and learn from their expertise at [SSW People](https -//www.ssw.com.au/people/)!
 type: rule
 archivedreason:
 title: Do you promote your colleagues?

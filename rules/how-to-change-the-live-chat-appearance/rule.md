@@ -1,18 +1,17 @@
 ---
-seoDescription: Zendesk Chat Widget Customization: Create Unique Experience With Web SDK
+seoDescription: Zendesk Chat Widget Customization - Create Unique Experience With Web SDK
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to change the live chat appearance?
 guid: 18e58104-f94f-4f04-84e2-99b5ca458029
 uri: how-to-change-the-live-chat-appearance
 created: 2017-06-19T22:52:13.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-how-to-change-the-live-chat-appearance
-
+  - do-you-know-how-to-change-the-live-chat-appearance
 ---
 
 Because it is often the first place a customer looks when they want help, the Zendesk Chat Widget can serve as the voice of your website. To deliver a quality customer experience it's essential that the chat widget is customized to your specifications. In essence, it should look and feel like the rest of your brand.

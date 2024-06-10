@@ -1,7 +1,7 @@
 ---
-seoDescription: When to use popup forms: Simplify complex forms, provide clear action steps and avoid distractions.
+seoDescription: When to use popup forms - Simplify complex forms, provide clear action steps and avoid distractions.
 type: rule
-archivedreason: 
+archivedreason:
 title: Popup - Do you know when Popup forms are good?
 guid: 68a939c7-cecd-40b9-82fb-dc02f24b0f81
 uri: popup-do-you-know-when-popup-forms-are-good
@@ -9,7 +9,6 @@ created: 2012-11-27T04:19:40.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 Some people like popup forms. Some do not.

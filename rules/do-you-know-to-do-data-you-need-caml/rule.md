@@ -1,5 +1,5 @@
 ---
-seoDescription: Mastering CAML: A Must-Know for SharePoint Development Discover how to create powerful queries and templates using Collaborative Application Markup Language (CAML), a crucial skill for SharePoint development.
+seoDescription: Mastering CAML - A Must-Know for SharePoint Development Discover how to create powerful queries and templates using Collaborative Application Markup Language (CAML), a crucial skill for SharePoint development.
 type: rule
 title: Do you know to do data you need CAML?
 uri: do-you-know-to-do-data-you-need-caml

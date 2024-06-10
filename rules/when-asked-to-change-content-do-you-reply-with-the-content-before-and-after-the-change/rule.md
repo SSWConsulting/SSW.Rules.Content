@@ -1,5 +1,5 @@
 ---
-seoDescription: Changes made to website page: [original content] → [new updated content].
+seoDescription: Changes made to website page - [original content] → [new updated content].
 type: rule
 title: Do you include the "before" and "after" when you make a content change?
 uri: when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change

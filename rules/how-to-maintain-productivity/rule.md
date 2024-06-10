@@ -1,5 +1,5 @@
 ---
-seoDescription: Boost productivity with proven strategies: create TODO lists, take regular breaks, and use a soundscape to stay focused.
+seoDescription: Boost productivity with proven strategies - create TODO lists, take regular breaks, and use a soundscape to stay focused.
 type: rule
 title: Do you know how to maintain productivity?
 uri: how-to-maintain-productivity
@@ -13,7 +13,6 @@ redirects:
 created: 2020-03-25T23:43:28.000Z
 archivedreason: null
 guid: 75204d16-cb9f-45ea-82e5-7c1ecedc711c
-
 ---
 
 It’s not always easy to stay on-flow and maintain productivity in a distracting environment. Here are 3 proven strategies to help you maintain productivity:

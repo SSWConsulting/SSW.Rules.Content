@@ -1,17 +1,16 @@
 ---
-seoDescription: Form design best practice: Use checkboxes instead of option groups to display contact method options for contacts and accounts.
+seoDescription: Form design best practice - Use checkboxes instead of option groups to display contact method options for contacts and accounts.
 type: rule
-archivedreason: 
+archivedreason:
 title: Form Design - Do you change contact method options from default option group to checkboxes?
 guid: 17d78b54-7583-4088-8327-53f80eedc95c
 uri: form-design-do-you-change-contact-method-options-from-default-option-group-to-checkboxes
 created: 2012-12-10T19:31:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 As per our rule [Do you know when to use CheckBox?](/control-choice-do-you-know-when-to-use-checkboxes). Checkboxes should be used instead of the option group since the answer is a boolean type.

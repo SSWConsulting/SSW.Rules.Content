@@ -1,7 +1,7 @@
 ---
-seoDescription: Avoid combining data entry and find navigation on a single form, as it can lead to confusion. Instead, use two forms: one for list views with "Add", "Edit", and "Delete" buttons, and another for data entry fields.
+seoDescription: Avoid combining data entry and find navigation on a single form, as it can lead to confusion. Instead, use two forms - one for list views with "Add", "Edit", and "Delete" buttons, and another for data entry fields.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid using one form for data entry?
 guid: 75cb4cf1-941f-4991-b117-db51a3d3157a
 uri: do-you-avoid-using-one-form-for-data-entry
@@ -9,7 +9,6 @@ created: 2014-12-01T00:57:26.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 Combining data entry and find navigation is a mistake. I think 2 forms are better than one. I prefer a list box on one form with "Add", "Edit" and "Delete" buttons to a popup form. Rather than a listbox and the data entry fields on one form.

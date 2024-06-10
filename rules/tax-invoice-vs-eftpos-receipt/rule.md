@@ -1,5 +1,5 @@
 ---
-seoDescription: Understand the difference between Tax Invoice and Eftpos Receipt: A comprehensive guide to tax compliance and expense management.
+seoDescription: Understand the difference between Tax Invoice and Eftpos Receipt - A comprehensive guide to tax compliance and expense management.
 type: rule
 title: "Do you understand the difference: Tax Invoice vs. Eftpos Receipt?"
 uri: tax-invoice-vs-eftpos-receipt

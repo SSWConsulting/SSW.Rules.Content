@@ -1,20 +1,20 @@
 ---
-seoDescription: Mastering the Art of Giving Feedback: When to Offer and How to Do It Right Discover how to provide constructive feedback that boosts growth and development. Learn when to offer feedback, what questions to ask yourself, and how to phrase it effectively.
+seoDescription: Mastering the Art of Giving Feedback - When to Offer and How to Do It Right Discover how to provide constructive feedback that boosts growth and development. Learn when to offer feedback, what questions to ask yourself, and how to phrase it effectively.
 type: rule
-archivedreason: 
+archivedreason:
 title: Communication - Do you know how (and when) to offer unsolicited feedback?
 guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
 uri: unsolicited-feedback
 created: 2023-03-02T20:28:20.0000000Z
 authors:
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related:
- - feedback-avoid-chopping-down-every-example
- - do-you-know-the-nice-way-to-correct-someone
- - feedback-avoid-chopping-down-every-example
+  - feedback-avoid-chopping-down-every-example
+  - do-you-know-the-nice-way-to-correct-someone
+  - feedback-avoid-chopping-down-every-example
 redirects:
-- how-to-offer-unsolicited-feedback
+  - how-to-offer-unsolicited-feedback
 ---
 
 When you see an opportunity for someone to improve, either professionally or personally, it's tempting to immediately offer them some advice or feedback. But if they haven't asked, you need to approach it carefully and considerately; and, most importantly, ask yourself, _am I doing this for them, or for me?_

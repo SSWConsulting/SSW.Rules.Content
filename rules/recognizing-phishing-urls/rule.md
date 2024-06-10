@@ -1,5 +1,5 @@
 ---
-seoDescription: Recognizing Phishing URLs: Protect Your Online Identity
+seoDescription: Recognizing Phishing URLs - Protect Your Online Identity
 type: rule
 title: Do you know how to recognize phishing URLs?
 uri: recognizing-phishing-urls

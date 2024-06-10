@@ -1,5 +1,5 @@
 ---
-seoDescription: Meetings can be productive if they meet three criteria: clear agenda, focused goals, and shared action items.
+seoDescription: Meetings can be productive if they meet three criteria - clear agenda, focused goals, and shared action items.
 type: rule
 title: Do you know the 3 criteria that make a good meeting?
 uri: the-3-criteria-that-make-a-good-meeting

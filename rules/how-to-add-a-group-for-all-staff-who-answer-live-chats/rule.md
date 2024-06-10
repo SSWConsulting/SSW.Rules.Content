@@ -1,19 +1,18 @@
 ---
-seoDescription: Incoming chat requests are routed to agents using Chat Routing settings with two options: Broadcast or Assigned.
+seoDescription: Incoming chat requests are routed to agents using Chat Routing settings with two options - Broadcast or Assigned.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to add a group (aka Departments) for all staff who answer live chats?
 guid: e0eb7b05-f5e5-4c1e-b7da-632b276a2949
 uri: how-to-add-a-group-for-all-staff-who-answer-live-chats
 created: 2017-06-19T23:06:04.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-how-to-add-a-group-aka-departments-for-all-staff-who-answer-live-chats
-- do-you-know-how-to-add-a-group-(aka-departments)-for-all-staff-who-answer-live-chats
-
+  - do-you-know-how-to-add-a-group-aka-departments-for-all-staff-who-answer-live-chats
+  - do-you-know-how-to-add-a-group-(aka-departments)-for-all-staff-who-answer-live-chats
 ---
 
 Specify how incoming chat requests are sent to agents with Chat Routing settings. There are two options for how incoming chats are sent to your agents:

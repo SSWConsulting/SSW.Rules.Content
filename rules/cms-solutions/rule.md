@@ -1,5 +1,5 @@
 ---
-seoDescription: Kontent vs Contentful: Which Headless CMS Reigns Supreme? Best-in-class headless CMS Kontent offers unparalleled flexibility and customization options for seamless website integration, whereas Contentful provides a more limited but still robust experience.
+seoDescription: Kontent vs Contentful - Which Headless CMS Reigns Supreme? Best-in-class headless CMS Kontent offers unparalleled flexibility and customization options for seamless website integration, whereas Contentful provides a more limited but still robust experience.
 type: rule
 title: Do you know the best CMS solutions for websites?
 uri: cms-solutions
@@ -9,7 +9,7 @@ authors:
   - title: Anthony Nguyen
     url: https://www.ssw.com.au/people/anthony-nguyen
 related:
-    - git-based-cms-solutions
+  - git-based-cms-solutions
 redirects:
   - do-you-know-the-best-cms-solutions-for-your-internet-intranet
   - do-you-know-the-best-cms-solutions-for-websites

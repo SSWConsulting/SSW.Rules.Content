@@ -1,18 +1,17 @@
 ---
-seoDescription: Stay focused and avoid distractions with these 11 tips: prioritize tasks, minimize multitasking, set browser defaults, reduce phone interruptions, and more.
+seoDescription: Stay focused and avoid distractions with these 11 tips - prioritize tasks, minimize multitasking, set browser defaults, reduce phone interruptions, and more.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to deal with distractions?
 guid: 6466aa27-c620-41f7-a05e-8628837b2903
 uri: do-you-deal-with-distractions
 created: 2009-03-10T07:38:32.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-how-to-deal-with-distractions
-
+  - do-you-know-how-to-deal-with-distractions
 ---
 
 **Keeping your mind on the job** is very important, especially when you're trying to fix a bug/issue or finalize a task to meet this afternoon's deadline. Here is how you keep "in the zone":

@@ -1,20 +1,19 @@
 ---
-seoDescription: Understand the fundamentals of software design by learning the five SOLID principles: Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.
+seoDescription: Understand the fundamentals of software design by learning the five SOLID principles - Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the common Design Principles? (Part 1)
 guid: 7507df2f-e227-4ecf-931f-4864ad85eb02
 uri: do-you-know-the-common-design-principles-part-1
 created: 2012-04-02T00:29:11.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects:
-- do-you-know-the-common-design-principles-(part-1)
-
+  - do-you-know-the-common-design-principles-(part-1)
 ---
 
 ::: greybox

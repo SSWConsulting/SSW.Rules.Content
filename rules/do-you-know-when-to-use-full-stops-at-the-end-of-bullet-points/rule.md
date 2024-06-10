@@ -1,5 +1,5 @@
 ---
-seoDescription: User Interface Fundamentals: simple design, clear communication, and meaningful shortcuts for easy tasks, with visible options and minimal distraction.
+seoDescription: User Interface Fundamentals - simple design, clear communication, and meaningful shortcuts for easy tasks, with visible options and minimal distraction.
 type: rule
 archivedreason: Replaced by [https://ssw.com.au/rules/avoid-full-stops-in-bullet-point-lists/](/rules/avoid-full-stops-in-bullet-point-lists)
 title: Do you know when to use full stops at the end of bullet points?
@@ -9,7 +9,6 @@ created: 2015-02-16T02:55:34.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 There are 2 types of bullet lists. The first type of bullet list is the most common, where each bullet point is a sentence fragment that will form a complete sentence if read together with the introductory line. For this type, place full stop at the end of the last point. For example:

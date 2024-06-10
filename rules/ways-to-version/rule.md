@@ -1,16 +1,15 @@
 ---
-seoDescription: Discover two common software versioning methods: Simple Versioning and Semantic Versioning. Learn when to use each for your project's unique needs.
+seoDescription: Discover two common software versioning methods - Simple Versioning and Semantic Versioning. Learn when to use each for your project's unique needs.
 type: rule
 title: Do you know the different ways to version?
 uri: ways-to-version
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
-related: 
+related:
   - semantic-versioning
 created: 2022-02-02T23:56:48.795Z
 guid: a50fc8ba-3ce8-42c4-b16f-ccc74cd5821b
-
 ---
 
 There are 2 very common types of software versioning. Knowing when it is appropriate to use each is important.

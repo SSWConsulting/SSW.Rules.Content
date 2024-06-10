@@ -1,5 +1,5 @@
 ---
-seoDescription: Ensure task assignment clarity by explicitly adding recipients' names to the "To:" field in emails.
+seoDescription: Ensure task assignment clarity by explicitly adding recipients' names to the "To -" field in emails.
 type: rule
 archivedreason:
 title: Do you know who to put in the "To:" field?

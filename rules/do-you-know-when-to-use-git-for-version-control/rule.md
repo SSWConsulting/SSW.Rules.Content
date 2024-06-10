@@ -1,5 +1,5 @@
 ---
-seoDescription: When to use Git for version control: Manage open source projects, remote teams, or unstable internet connections with built-in support from Team Foundation Server Update 2 and 2013.
+seoDescription: When to use Git for version control - Manage open source projects, remote teams, or unstable internet connections with built-in support from Team Foundation Server Update 2 and 2013.
 type: rule
 archivedreason: Deprecated
 title: Do you know when to use Git for version control?
@@ -7,15 +7,14 @@ guid: f4f15feb-8c1e-4f5f-865a-f18009c8b9d5
 uri: do-you-know-when-to-use-git-for-version-control
 created: 2013-08-21T16:39:49.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects: []
-
 ---
 
 Team Foundation Server Update 2 and Team Foundation Server 2013 comes with built in support for Git as a version control system.

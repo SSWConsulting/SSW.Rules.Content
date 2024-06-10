@@ -1,5 +1,5 @@
 ---
-seoDescription: Mastering priorities: Do you complete work in order of importance? Learn how to prioritize tasks effectively by following a structured approach.
+seoDescription: Mastering priorities - Do you complete work in order of importance? Learn how to prioritize tasks effectively by following a structured approach.
 type: rule
 title: Priorities - Do you complete work in order of importance?
 uri: work-in-order-of-importance-aka-priorities

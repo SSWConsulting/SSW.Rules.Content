@@ -1,20 +1,19 @@
 ---
-seoDescription: Clean Architecture: Separating Concerns and Building a Lasting System Discover how Clean Architecture enables teams to build systems that can be easily extended and maintained, without micromanagement. Learn about its principles, layers, and benefits.
+seoDescription: Clean Architecture - Separating Concerns and Building a Lasting System Discover how Clean Architecture enables teams to build systems that can be easily extended and maintained, without micromanagement. Learn about its principles, layers, and benefits.
 type: rule
-archivedreason: 
+archivedreason:
 title: Clean Architecture - Do you know the main principles?
 guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
 uri: the-main-principles-of-clean-architecture
 created: 2019-04-14T21:34:38.0000000Z
 authors:
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
-- title: Luke Parker
-  url: https://ssw.com.au/people/luke-parker
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
+  - title: Luke Parker
+    url: https://ssw.com.au/people/luke-parker
 related: []
 redirects:
-- do-you-know-the-main-principles-of-clean-architecture
-
+  - do-you-know-the-main-principles-of-clean-architecture
 ---
 
 Clean Architecture is, at its core, about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principle. The outcome of this is to guide teams over time towards the [pit of success](https://ricomariani.medium.com/the-pit-of-success-cfefc6cb64c8).

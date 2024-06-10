@@ -1,20 +1,19 @@
 ---
-seoDescription: Minimize distractions and stay focused with these simple Skype settings: set your status to Busy, disable online/offline alerts, and customize IM sounds.
+seoDescription: Minimize distractions and stay focused with these simple Skype settings - set your status to Busy, disable online/offline alerts, and customize IM sounds.
 type: rule
-archivedreason: 
+archivedreason:
 title: Interruptions - Do you minimize Skype distractions?
 guid: 7641dde4-8755-4640-a080-e59ec7aeb059
 uri: minimize-skype-distractions
 created: 2015-10-05T05:13:15.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
-- minimize-outlook-distractions
-- do-you-minimize-team-distractions
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - minimize-outlook-distractions
+  - do-you-minimize-team-distractions
 redirects:
-- interruptions-do-you-minimize-skype-distractions
-
+  - interruptions-do-you-minimize-skype-distractions
 ---
 
 [Dealing with distractions](/do-you-deal-with-distractions) is a fundamental rule to a successful project. Skype is a great way to get distracted. Following these options helps you to minimize messaging/communication distractions:

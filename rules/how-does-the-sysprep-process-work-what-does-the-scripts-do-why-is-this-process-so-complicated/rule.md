@@ -1,7 +1,7 @@
 ---
-seoDescription: Windows sysprep process explained: Generalize Windows, rename computer, and run scripts for SQL Server, SharePoint installation and configuration.
+seoDescription: Windows sysprep process explained - Generalize Windows, rename computer, and run scripts for SQL Server, SharePoint installation and configuration.
 type: rule
-archivedreason: 
+archivedreason:
 title: How does the sysprep process work, what does the scripts do? Why is this process so complicated ?
 guid: cbd6b55b-c6dd-4789-be1f-cc48e197a78b
 uri: how-does-the-sysprep-process-work-what-does-the-scripts-do-why-is-this-process-so-complicated
@@ -9,7 +9,6 @@ created: 2009-02-26T02:03:41.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 - SharePoint server can't be renamed after SharePoint is installed

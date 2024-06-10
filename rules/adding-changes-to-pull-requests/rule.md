@@ -1,5 +1,5 @@
 ---
-seoDescription: When to add changes to an existing pull request: Ensure correct, necessary, and beneficial updates to the project while considering expertise and project standards.
+seoDescription: When to add changes to an existing pull request - Ensure correct, necessary, and beneficial updates to the project while considering expertise and project standards.
 type: rule
 title: Do you know when to add your changes to an existing PR?
 uri: adding-changes-to-pull-requests
@@ -23,9 +23,9 @@ Certain projects (E.g. SSW.Rules) [allow these additional edits](https://docs.gi
 
 Most common scenarios where editing an existing PR is encouraged:
 
-* Fixing typos
-* Grammar improvements
-* Formatting (Markdown) fixes/improvements
+- Fixing typos
+- Grammar improvements
+- Formatting (Markdown) fixes/improvements
 
 For the cases where your wanted change can serve as a learning opportunity to others, it is always best if you ask them to action by [requesting a change](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-proposed-changes-in-a-pull-request). This way the extra change can be avoided in the future.
 
