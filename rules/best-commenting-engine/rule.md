@@ -54,7 +54,6 @@ There are a few ways that you can easily add comments and interactivity such asÂ
 * Need a separate login
 * Paid (Unless you want ugly ads ðŸ¤®)
 
-
 ### Other options
 
 * [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
