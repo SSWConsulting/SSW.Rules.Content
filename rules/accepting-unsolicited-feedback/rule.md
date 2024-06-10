@@ -1,21 +1,21 @@
 ---
-seoDescription: "Learning to accept unsolicited feedback and turn it into a growth opportunity requires distinguishing between the message and messenger, viewing feedback as a tool, not a weapon, and embracing resilience."
+seoDescription: Learning to accept unsolicited feedback and turn it into a growth opportunity requires distinguishing between the message and messenger, viewing feedback as a tool, not a weapon, and embracing resilience.
 type: rule
-archivedreason: 
+archivedreason:
 title: Communication - Do you know how to accept unsolicited feedback?
 guid: d2ea178c-4792-4387-9c04-2c65960d4c29
 uri: accepting-unsolicited-feedback
 created: 2023-03-02T20:28:20.0000000Z
 authors:
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
- - unsolicited-feedback
- - feedback-avoid-chopping-down-every-example
- - do-you-know-the-nice-way-to-correct-someone
- - feedback-avoid-chopping-down-every-example
+  - unsolicited-feedback
+  - feedback-avoid-chopping-down-every-example
+  - do-you-know-the-nice-way-to-correct-someone
+  - feedback-avoid-chopping-down-every-example
 redirects:
   - how-to-accept-unsolicited-feedback
 ---
@@ -31,9 +31,9 @@ Feedback is a powerful tool for growth and improvement in both professional and 
 When feedback comes your way, it's crucial to separate the message from the messenger and the delivery method. It's all too easy to dismiss valuable feedback from someone we may not like or respect, and conversely, to uncritically accept feedback from those we admire. However, from your point of view as the receiver, it's the message that's important, not the messenger or the delivery method.
 
 > The envelope a letter comes in doesn't define its content.
-Badly delivered feedback should not be disregarded
+> Badly delivered feedback should not be disregarded
 
-* _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
+- _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
 
 ## Feedback as a Tool, Not a Weapon
 
