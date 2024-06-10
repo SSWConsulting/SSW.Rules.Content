@@ -1,5 +1,5 @@
 ---
-seoDescription: ""Do you use backchannels effectively? Learn how to communicate with your manager or teammate before a client meeting, and keep them informed during real-time conversations, using private channels like Teams or SMS.""
+seoDescription: "Do you use backchannels effectively? Learn how to communicate with your manager or teammate before a client meeting, and keep them informed during real-time conversations, using private channels like Teams or SMS."
 type: rule
 title: Do you use backchannels effectively?
 uri: use-backchannels-effectively
@@ -45,7 +45,8 @@ This makes it purpose of the chat obvious and reduces the risk of private messag
 
 Often, you might feel that a decision made by a colleague or manager is not quite right. In such cases, backchanneling can help clarify and resolve these situations. Here’s how you should handle it:
 
-::: greybox  
+::: greybox
+
 In a meeting of 5 people, which includes the Product Owner, Solution Architect and 3 Software Engineers, the Software Engineers disagree with a decision made during the meeting. They start a backchannel to talk about it, without the Product Owner and Solution Architect involved, and reach a decision to not proceed.
 :::
 ::: bad

@@ -1,7 +1,7 @@
 ---
-seoDescription: "Use bar graphs rather than pie charts to visualize data that shows changes over time or compares different groups."
+seoDescription: Use bar graphs rather than pie charts to visualize data that shows changes over time or compares different groups.
 type: rule
-archivedreason: 
+archivedreason:
 title: Charts - Do you use bar graph rather than pie graph?
 guid: 08d70136-f605-4df6-b57a-7fead9e74512
 uri: charts-do-you-use-bar-graph-rather-than-pie-graph
@@ -9,20 +9,19 @@ created: 2014-12-01T05:54:53.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 > **Line graph**
-> Line graphs are used to track changes over short  and long periods of time. When smaller changes exist, line graphs are  better to use than bar graphs. Line graphs can also be used to compare  changes over the same period of time for more than one group.
+> Line graphs are used to track changes over short and long periods of time. When smaller changes exist, line graphs are better to use than bar graphs. Line graphs can also be used to compare changes over the same period of time for more than one group.
 >
 > **Pie Chart**
 > Pie charts are best to use when you are trying to compare parts of a whole. They do not show changes over time.
 >
 > **Bar Graph**
-> Bar graphs are used to compare things between  different groups or to track changes over time. However, when trying to  measure change over time, bar graphs are best when the changes are  larger.
-> [https://nces.ed.gov/nceskids/help/user\_guide/graph/whentouse.asp](https://nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp)
+> Bar graphs are used to compare things between different groups or to track changes over time. However, when trying to measure change over time, bar graphs are best when the changes are larger.
+> [https://nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp](https://nces.ed.gov/nceskids/help/user_guide/graph/whentouse.asp)
 
-This is a fancy way of saying use the right graph for  the right purpose. Pie graphs fulfill a specific requirement, unlike a  bar graph which is more multi-purpose.
+This is a fancy way of saying use the right graph for the right purpose. Pie graphs fulfill a specific requirement, unlike a bar graph which is more multi-purpose.
 
 <!--endintro-->
 

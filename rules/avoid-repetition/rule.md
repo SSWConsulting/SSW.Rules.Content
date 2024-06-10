@@ -1,5 +1,5 @@
 ---
-seoDescription: "Avoid repeating elements in your content to promote clear communication and maintainable writing practices, as excessive repetition can hinder comprehension and create visual clutter."
+seoDescription: Avoid repeating elements in your content to promote clear communication and maintainable writing practices, as excessive repetition can hinder comprehension and create visual clutter.
 type: rule
 title: DRY - Do you avoid repeated elements in content?
 uri: avoid-repetition
@@ -26,10 +26,10 @@ This is especially valid for words in lists, but also applies to different types
 
 ::: greybox
 Following this rule:
-  
-* Is important to help you increase productivity
-* Is important to help you save time
-* Is important to help you reduce stress
+
+- Is important to help you increase productivity
+- Is important to help you save time
+- Is important to help you reduce stress
 
 :::
 ::: bad
@@ -38,10 +38,10 @@ Bad example – Repeating words... Not following DRY :(
 
 ::: greybox
 Following this rule is important to help you:
-  
-* Increase productivity
-* Save time
-* Reduce stress
+
+- Increase productivity
+- Save time
+- Reduce stress
 
 :::
 ::: good
@@ -58,15 +58,15 @@ When creating a list that includes emojis, avoid repeating the same emoji 3 or m
 
 ### ✅ Pros
 
-* ✅ Increases productivity
-* ✅ Saves time
-* ✅ Reduces stress
+- ✅ Increases productivity
+- ✅ Saves time
+- ✅ Reduces stress
 
 ### ❌ Cons
 
-* ❌ May be challenging to implement
-* ❌ May take time to adjust
-* ❌ Can be challenging to maintain
+- ❌ May be challenging to implement
+- ❌ May take time to adjust
+- ❌ Can be challenging to maintain
 
 :::
 ::: bad
@@ -77,18 +77,18 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 
 ### ✅ Pros
 
-* Increases productivity
-* Saves time
-* Reduces stress
+- Increases productivity
+- Saves time
+- Reduces stress
 
 ### ❌ Cons
 
-* Requires effort to implement
-* May take time to adjust
-* Can be challenging to maintain
-:::
-::: good
-Good example – Using the DRY principle
-:::
+- Requires effort to implement
+- May take time to adjust
+- Can be challenging to maintain
+  :::
+  ::: good
+  Good example – Using the DRY principle
+  :::
 
 Following the DRY principle by avoiding excessive repetition of words/emojis helps to create content that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.

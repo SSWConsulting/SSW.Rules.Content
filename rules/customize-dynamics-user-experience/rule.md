@@ -1,5 +1,5 @@
 ---
-seoDescription: "Customize Dynamics 365 apps and enhance user experience with Power Apps Component Framework (PCF) controls, allowing for intuitive interfaces and seamless integration of favorite web technologies."
+seoDescription: Customize Dynamics 365 apps and enhance user experience with Power Apps Component Framework (PCF) controls, allowing for intuitive interfaces and seamless integration of favorite web technologies.
 type: rule
 title: Do you know how to customize the Dynamics User Experience?
 uri: customize-dynamics-user-experience
@@ -15,6 +15,7 @@ authors:
 created: 2021-08-12T03:51:29.996Z
 guid: 316f6ebe-1734-4a82-a4b0-551de9040334
 ---
+
 Dynamics isn't as customisable as your average React or Angular website and there are some prohibitive restrictions. For example, M:M relationship records can only be added, updated and viewed via grids.
 
 Use the power of [PCF controls](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/overview) to customize Dynamics 365 and provide more flexible functionality.

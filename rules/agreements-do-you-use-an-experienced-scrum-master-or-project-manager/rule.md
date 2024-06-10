@@ -1,18 +1,17 @@
 ---
-seoDescription: "Use an experienced Scrum Master or Project Manager to streamline your software development project and ensure timely delivery."
+seoDescription: Use an experienced Scrum Master or Project Manager to streamline your software development project and ensure timely delivery.
 type: rule
-archivedreason: 
+archivedreason:
 title: Agreements - Do you use an experienced Scrum Master (or Project Manager)?
 guid: c73f2949-72ed-4562-8e3c-3cf03e0403ba
 uri: agreements-do-you-use-an-experienced-scrum-master-or-project-manager
 created: 2010-05-20T10:43:28.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- agreements-do-you-use-an-experienced-scrum-master-(or-project-manager)
-
+  - agreements-do-you-use-an-experienced-scrum-master-(or-project-manager)
 ---
 
 Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians, and plumbers to just work it out between themselves. The house does get built if the foreman is keeping everyone on their toes, making sure they are doing their job.
@@ -29,18 +28,18 @@ It's generally best for the Scrum Master **not** to be a member of the developme
 
 Here is a common way a project goes with a Scrum Master involved:
 
-* The Sprint Backlog is approved by the Product Owner (the customer)
-* The development team works on the Sprint Backlog (usually 2 weeks)... The Scrum Master is ensuring the client is kept up-to-date (via the Review, Retro, and Planning meetings) #1
-* The Scrum Master is ensuring the client is kept up-to-date (via the 4 reports)
-* The Account Manager is booking in future Sprints (after the Planning Meeting)
-* The Account Manager invoices (usually every week).
+- The Sprint Backlog is approved by the Product Owner (the customer)
+- The development team works on the Sprint Backlog (usually 2 weeks)... The Scrum Master is ensuring the client is kept up-to-date (via the Review, Retro, and Planning meetings) #1
+- The Scrum Master is ensuring the client is kept up-to-date (via the 4 reports)
+- The Account Manager is booking in future Sprints (after the Planning Meeting)
+- The Account Manager invoices (usually every week).
 
 This is much better than the old waterfall method which goes like this:
 
-* The specification is approved by the customer
-* The development team is working to the specifications for some months (but can be from anywhere from 2 months to 2 years)
-* The Project Manager is ensuring the client is kept up-to-date (via ad hoc meetings)
-* The Account Manager sends invoices when milestones are met.
+- The specification is approved by the customer
+- The development team is working to the specifications for some months (but can be from anywhere from 2 months to 2 years)
+- The Project Manager is ensuring the client is kept up-to-date (via ad hoc meetings)
+- The Account Manager sends invoices when milestones are met.
 
 Insist that your Scrum Master (aka Project Manager) [maintains a strict project schedule](/does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule).
 

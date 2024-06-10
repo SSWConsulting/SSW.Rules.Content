@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you send "As Per Our Conversation" emails to ensure important conversations are documented and decisions are confirmed?"
+seoDescription: Do you send "As Per Our Conversation" emails to ensure important conversations are documented and decisions are confirmed?
 type: rule
 title: Do you send "As Per Our Conversation" emails?
 uri: as-per-our-conversation-emails
@@ -26,7 +26,6 @@ redirects:
 created: 2009-08-18T06:58:46.000Z
 archivedreason: null
 guid: f88e2745-24a0-4922-9bbe-ef831fd7fa64
-
 ---
 
 Always follow up **important** conversations (usually via phone or IM) with an email that begins with the words "As per our conversation". The intent is to document what was said and agreed upon.
@@ -41,11 +40,11 @@ Watch the video below and see how a single email can make your job easier.
 **Video: Do you send "As Per Our Conversation" emails? (2 min)**
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | John |
+| To: | John |
 | Subject: | Spec Review for Northwind |
-::: email-content  
+::: email-content
 
 ### Hi John
 
@@ -59,23 +58,23 @@ Figure: Good example - Using "As per our conversation" email
 
 This is not just a 'cover my ass' email. This is for several reasons:
 
-* To make sure that you did not get the message wrong
-* To keep an audit trail of agreed decisions
-* To keep people, who were not a party to the conversation, informed about the progress
+- To make sure that you did not get the message wrong
+- To keep an audit trail of agreed decisions
+- To keep people, who were not a party to the conversation, informed about the progress
 
 Use this approach internally and with clients. As a result, expect to see "as per our conversation" emails that:
 
-* **Require a task to be completed**
-* Explain the logic of the decision
-* Include URLs that were referred to
-* Can be referred back to in the future
+- **Require a task to be completed**
+- Explain the logic of the decision
+- Include URLs that were referred to
+- Can be referred back to in the future
 
 ::: info
 **Notes:**
 
-* This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
-* Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
-* For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
+- This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
+- Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
+- For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
 
 :::
 
@@ -83,16 +82,16 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 
 "As per our conversation" alternatives:
 
-* Thanks for the chat
-* Good talking to you
-* As discussed...
+- Thanks for the chat
+- Good talking to you
+- As discussed...
 
 "As per the message I left on your mobile" alternatives:
 
-* I couldn't catch you on the phone today.
-* I just left you a quick voicemail.
-* I called earlier but couldn't get through.
-* Hey I just called earlier to say...
+- I couldn't catch you on the phone today.
+- I just left you a quick voicemail.
+- I called earlier but couldn't get through.
+- Hey I just called earlier to say...
 
 ### What if they don't answer?
 
@@ -101,15 +100,15 @@ In most cases, you don't want to be blocked by not being able to have a conversa
 In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | John |
+| To: | John |
 | Subject: | Spec Review for Northwind |
-::: email-content  
+::: email-content
 
 ### Hi John
 
-<mark>I tried calling you but didn't get through.</mark> I am going to offer the client a Spec Review for {{ $ }}  
+<mark>I tried calling you but didn't get through.</mark> I am going to offer the client a Spec Review for {{ $ }}
 
 :::
 :::
@@ -128,11 +127,11 @@ You should also send a quick message on Microsoft Teams with a brief summary of 
 When you have an image or other information, remember to keep the main reason text as the first thing in the email body to give it better visibility.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | John |
+| To: | John |
 | Subject: | RE: PowerBi error |
-::: email-content  
+::: email-content
 
 ### Hi John
 
@@ -149,11 +148,11 @@ Figure: Bad example - Reason at the bottom
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | John |
+| To: | John |
 | Subject: | RE: PowerBi error |
-::: email-content  
+::: email-content
 
 ### Hi John
 

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's a generated SEO description: "Create links to URLs in SharePoint libraries using 'Link to a document' content type or upload shortcut files (.url), ideal for navigating to different websites and documents.""
+seoDescription: Here's a generated SEO description: "Create links to URLs in SharePoint libraries using 'Link to a document' content type or upload shortcut files (.url), ideal for navigating to different websites and documents."
 type: rule
 archivedreason: 
 title: Do you know how to create a link to a URL in SharePoint?
@@ -18,26 +18,15 @@ redirects: []
 
 TODO TIAGO: ADD IMAGE OF WINDOWS EXPLORER (4 files in it) AND ANOTHER WITH SHAREPOINT DOCUMENTS LIBRARY
 
-
-
-
 You may need a link in a SharePoint document to help you navigate to a different URL (like shortcut in Windows), there are different ways to implement this.
 
-
-
-
 ::: bad
-A.  Create a shortcut in windows, then upload the shortcut file (.url) to the document library.  
+A. Create a shortcut in windows, then upload the shortcut file (.url) to the document library.  
 :::
-
 
 ::: good
 B. Use "Link to a document" content type in SharePoint.  
 :::
-
-
-
-
 
 <!--endintro-->
 
@@ -49,13 +38,13 @@ To do this, you need to remove .url file type from your blocked file types in yo
 
 **B. Use "Link to a document" content type in SharePoint.**
 
-1) Enable "Content Type management" in your document library.
-![](EnableContentTypeDocument.png) **Figure: Enable Content Type management in library setting** 
-2) Add "Link to a Document" content type into the library.
-![](AddExistContentType.png) **Figure: Add from existing site content type** ![](SelectLinkToADocumentType.png) **Figure: Select "Link to a Document" content type** 
-3) Create a "Link to a document" instance
-![](CreateLinkToADocumentInstance.png) **Figure: select "File | New Document (dropdown) | Link to a document"** ![](InputLinkUrlAndName.png) **Figure: Input "Name" and "URL"** 
-4) Done
+1. Enable "Content Type management" in your document library.
+   ![](EnableContentTypeDocument.png) **Figure: Enable Content Type management in library setting**
+2. Add "Link to a Document" content type into the library.
+   ![](AddExistContentType.png) **Figure: Add from existing site content type** ![](SelectLinkToADocumentType.png) **Figure: Select "Link to a Document" content type**
+3. Create a "Link to a document" instance
+   ![](CreateLinkToADocumentInstance.png) **Figure: select "File | New Document (dropdown) | Link to a document"** ![](InputLinkUrlAndName.png) **Figure: Input "Name" and "URL"**
+4. Done
 
 You should be able to see the link type document in your library:
 ![](LinksTypeDocumentsWithShortcutIcon.png) **Figure: Link type documents with the lovely shortcut icon**

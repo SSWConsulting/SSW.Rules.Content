@@ -1,5 +1,5 @@
 ---
-seoDescription: "Efficiency Tip: Do You Always Try to Work in Pairs? Work smarter, not harder! Pair programming boosts productivity and code quality. Two heads are better than one, especially when working on complex projects. Reduce problem-solving time, stay motivated, and learn from each other's expertise."
+seoDescription: Efficiency Tip: Do You Always Try to Work in Pairs? Work smarter, not harder! Pair programming boosts productivity and code quality. Two heads are better than one, especially when working on complex projects. Reduce problem-solving time, stay motivated, and learn from each other's expertise.
 type: rule
 title: Efficiency - Do you always try to work in pairs?
 uri: efficiency-do-you-always-try-to-work-in-pairs
@@ -13,36 +13,37 @@ created: 2009-03-17T07:35:05.000Z
 archivedreason: null
 guid: e1ce40a6-7c15-4974-9e57-506b1bc7c337
 ---
-There are many good reasons why it's better to work in pairs.  
+
+There are many good reasons why it's better to work in pairs.
 
 <!--endintro-->
 
-![Figure: Do you always try to work in pairs?](ProjectManagement\_PairProgramming\_Luge.jpg)
+![Figure: Do you always try to work in pairs?](ProjectManagement_PairProgramming_Luge.jpg)
 
 For everyone:
 
-* Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
-* You can keep each other motivated  and you absorb knowledge from each other
-* Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
+- Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
+- You can keep each other motivated and you absorb knowledge from each other
+- Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
 
 Extra for developers:
 
-* Code will have less strange workarounds - because if something doesn't add up to a developer, they've got someone to ask
-* Cleaner code - because you know someone else is going to be looking at your code
-* Support - when you need changes down the track, you have two people to call on
+- Code will have less strange workarounds - because if something doesn't add up to a developer, they've got someone to ask
+- Cleaner code - because you know someone else is going to be looking at your code
+- Support - when you need changes down the track, you have two people to call on
 
-> *"I have found developers work better in pairs. I am not a fan of the classical pair programming - which is 2 developers working on the 1 PC. There are times for that especially during brainstorming activities, however on a day-to-day basis, I advise that developers work in pairs, but they each have their own PC."*
+> _"I have found developers work better in pairs. I am not a fan of the classical pair programming - which is 2 developers working on the 1 PC. There are times for that especially during brainstorming activities, however on a day-to-day basis, I advise that developers work in pairs, but they each have their own PC."_
 >
-> **\- Adam Cogan** 
+> **\- Adam Cogan**
 > SSW Chief Architect + Microsoft Regional Director
 
-- - -
+---
 
 If you are not sitting next to a person working on the same project, then fix it. If you cannot then at least mention it to your manager.
 
 ### Working Alone and Getting Stuck
 
-If you find yourself working alone, which we don't recommend, you should speak up as soon as possible. You should make it clear that working alone is not best practice and that developers working together are worth more than the sum of their parts. 
+If you find yourself working alone, which we don't recommend, you should speak up as soon as possible. You should make it clear that working alone is not best practice and that developers working together are worth more than the sum of their parts.
 
 1 dev plus 1 dev doesn't equal 2 devs worth of work. It equals 3! 🎉
 
@@ -66,12 +67,12 @@ If you are working with someone remote, you will be using an application like [T
 
 ### What is the best code collaboration tool?
 
-[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) - See Video (3 minutes):  
+[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) - See Video (3 minutes):
 
 `youtube: https://www.youtube.com/watch?v=A2ceblXTBBc`
 
-* VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-* Visual Studio 2022! It's built in!
+- VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- Visual Studio 2022! It's built in!
 
 [Code With me](https://www.jetbrains.com/code-with-me/) - A great tool for JetBrains IDE users who want to pair program. Though it isn't supported in Rider right now.
 

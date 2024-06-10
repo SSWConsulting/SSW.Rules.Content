@@ -1,5 +1,5 @@
 ---
-seoDescription: "When to change the email subject: Change it cautiously and early on when the topic subtly changes, using accurate keywords for better searchability."
+seoDescription: When to change the email subject: Change it cautiously and early on when the topic subtly changes, using accurate keywords for better searchability.
 type: rule
 archivedreason: 
 title: Do you know when to change the email subject (or appointment subject)?
@@ -30,17 +30,17 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
 ### When do you change the subject?
 
-* If the original **subject was too generic**, like "Reminder" or "Invoice".
-  
-  This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.  
+- If the original **subject was too generic**, like "Reminder" or "Invoice".
+
+  This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.
 
   E.g. From
   **"Invoice"**
 
   To
   **"Northwind website - Invoice for March \[WAS: Invoice\]"**
-  
-* When the original **email topic has been superseded** by new replies
+
+- When the original **email topic has been superseded** by new replies
 
   At that point change the email subject to a more relevant description of the content of the thread.
 
@@ -49,7 +49,7 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
   To
   **"Next Years Conference \[WAS: Field of Study\]"**
-  
+
   ::: info
   **Note:** If you are the one changing the topic, a whole new email thread is a better idea.
   :::

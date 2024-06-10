@@ -1,5 +1,5 @@
 ---
-seoDescription: "Office environment dress code: Follow company guidelines to present a professional image, reinforce branding, and create a good impression for clients."
+seoDescription: Office environment dress code: Follow company guidelines to present a professional image, reinforce branding, and create a good impression for clients.
 type: rule
 title: Office environment - Do you follow the company's dress code?
 uri: do-you-have-a-dress-code
@@ -15,6 +15,7 @@ created: 2012-09-25T17:57:39.000Z
 archivedreason: null
 guid: b07a6598-7717-4851-af8d-30bf26cd2486
 ---
+
 The way you and all members of your team present themselves is a crucial part of creating a good impression for your clients, particularly in their first encounters with you.
 
 <!--endintro-->
@@ -23,8 +24,8 @@ The way you and all members of your team present themselves is a crucial part of
 
 One aspect of this is the dress code. Dress code is important for two reasons:
 
-* Looking professional and keen for business
-* Reinforce the company's [branding](/rules-to-better-branding)
+- Looking professional and keen for business
+- Reinforce the company's [branding](/rules-to-better-branding)
 
 ### Public Events and Meetings
 
@@ -32,12 +33,12 @@ Of course, when in a public event such as a User Group, conference or seeing cli
 
 It should go without saying, but of course, things such as shaving off your weekend facial growth, using deodorant and having clean teeth and nice breath is assumed.
 
-![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery\_dressed-up.jpg)
+![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery_dressed-up.jpg)
 
 ### On a business flight
 
 It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.\
-![Figure: Why dress up in a flight](dresscode-linkedin.PNG)  
+![Figure: Why dress up in a flight](dresscode-linkedin.PNG)
 
 ### Dressing Down (aka Casual Fridays)
 
@@ -48,9 +49,9 @@ At SSW employees can optionally work from home Monday/Tuesday, then **"dress up"
 
 Then they **"dress down"** later in the week... so they have **"Casual Thursday"** and **"Fun Friday"**. Thursdays are for casual clothes. On Fridays, employees are encouraged to wear sporty clothes such as shorts. It allows the end of the week to be fun.
 
-* [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
-* [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
-:::
+- [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
+- [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
+  :::
 
 ![Figure: SSW Dress Code poster](SSW-Dresscode-Poster-v2.png)
 
@@ -59,11 +60,11 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 On very hot days, shorts are allowed as soon as you've got an email like this:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | SSWAll |
+| To: | SSWAll |
 | Subject: | SSW Sydney - 🩳 Shorts Today! (Over 30) |
-::: email-content  
+::: email-content
 
 ### Hi All
 
@@ -77,8 +78,8 @@ Today's forecast: **Sunny. Winds north to northwesterly 15 to 20 km/h turning we
 
 Note:
 
-* At SSW, shorts day is on **only** if this email comes.
-* Why? We don’t want people looking at different weather apps and having different rules apply... so if it’s over 30 but the email doesn’t come (e.g. there is a bug 🐞), then there’s no shorts that day.
+- At SSW, shorts day is on **only** if this email comes.
+- Why? We don’t want people looking at different weather apps and having different rules apply... so if it’s over 30 but the email doesn’t come (e.g. there is a bug 🐞), then there’s no shorts that day.
 
 Sophie
 

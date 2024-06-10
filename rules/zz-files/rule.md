@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you 'zz' old files rather than deleting them? Learn how to preserve your outdated .NET application releases and Microsoft Word proposals by prefixing filenames with 'zz'."
+seoDescription: Do you 'zz' old files rather than deleting them? Learn how to preserve your outdated .NET application releases and Microsoft Word proposals by prefixing filenames with 'zz'.
 type: rule
 title: Do you 'zz' old files rather than deleting them?
 uri: zz-files
@@ -19,6 +19,7 @@ created: 2009-03-02T02:45:33.000Z
 archivedreason: null
 guid: 89900a3a-2e3d-4d72-b935-0949bd1cd8ed
 ---
+
 When you are regularly creating new releases of a cool .NET application or simply producing new proposals in Microsoft Word, files will inevitably become **outdated**. Rather than deleting them, put a 'zz' at the front of the filename. These old versions should not be deleted straight away - it is just an unnecessary risk! The zz'd files can remain there until you need more space, then you should delete them.
 
 <!--endintro-->
@@ -39,8 +40,8 @@ In YouTube an uploaded video can't be replaced, so to create a new version of a 
 
 So that there are no broken or missing links, the video status is set to "unlisted", and we use the 'zz' process:
 
-* Add 'zz' to the beginning of the title.
-* Add a link to the latest version at the top of the description
+- Add 'zz' to the beginning of the title.
+- Add a link to the latest version at the top of the description
 
 ::: good
 ![Figure: Good example of the 'zz' process for YouTube videos](https://tv.ssw.com/wp-content/uploads/2021/09/zz-process-youtube.png)
@@ -64,7 +65,7 @@ If you are deleting something that uses resources and/or cost money, it is a goo
 
 Other systems are used that are less aggressive than this 'zz' rule.
 
-* In .NET, the keyword ["obsolete"](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx) is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning
-* In HTML content, the keyword [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm) is often used
+- In .NET, the keyword ["obsolete"](https://msdn.microsoft.com/en-us/library/22kk2b44%28v=vs.90%29.aspx) is used to mark types and members of types that should no longer be used - these then turn up as a compiler warning
+- In HTML content, the keyword [deprecated](http://www.ssw.com.au/ssw/Redirect/Deprecated.htm) is often used
 
 Both allow for some backward compatibility. In these cases, use 'yy' instead.

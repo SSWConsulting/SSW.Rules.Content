@@ -1,5 +1,5 @@
 ---
-seoDescription: "Form design best practice: Use checkboxes instead of option groups to display contact method options for contacts and accounts."
+seoDescription: Form design best practice: Use checkboxes instead of option groups to display contact method options for contacts and accounts.
 type: rule
 archivedreason: 
 title: Form Design - Do you change contact method options from default option group to checkboxes?
@@ -31,14 +31,14 @@ You can change the option group to checkboxes by:
 5. Click "Administration" tab
 6. Select a contact method field, i.e. Email
 7. Click "Change Properties"
-                          
-![Figure: Select and change the email field's properties.](CRMChangeContactMethodsFieldProperties.jpg)            
-            
+
+![Figure: Select and change the email field's properties.](CRMChangeContactMethodsFieldProperties.jpg)
+
 8. Click "Formatting" tab
 9. Change layout from "Two Columns" to "One Column" and select "Check box" as control formatting
-            
-![Figure: Change layout and control formatting of email field to one column type and check box.](CRMChangeContactMethodsFieldProperties.jpg)  
-            
+
+![Figure: Change layout and control formatting of email field to one column type and check box.](CRMChangeContactMethodsFieldProperties.jpg)
+
 10. Repeat steps 6-9 for other contact method
 11. Repeat steps 3-9 for account entity
 

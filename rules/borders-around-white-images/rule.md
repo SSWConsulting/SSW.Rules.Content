@@ -1,5 +1,5 @@
 ---
-seoDescription: "Add borders around white images to enhance visibility and professionalism on your website."
+seoDescription: Add borders around white images to enhance visibility and professionalism on your website.
 type: rule
 title: Do you put borders around white images?
 uri: borders-around-white-images
@@ -23,8 +23,8 @@ Imagine you're browsing a website. You come across an area on the page that seem
 
 Making your images distinct is a key part of creating a user-friendly website. You should add borders to images, especially those with a white or light-colored background.
 
-* **Visibility**: A border makes the image stand out, even if the website's background color matches the image's color.
-* **Professionalism**: Borders can add a sense of completeness to your site's design.
+- **Visibility**: A border makes the image stand out, even if the website's background color matches the image's color.
+- **Professionalism**: Borders can add a sense of completeness to your site's design.
 
 ::: bad
 ![Figure: Bad Example - Can't tell where the image begins and ends!](white-no-border.png)

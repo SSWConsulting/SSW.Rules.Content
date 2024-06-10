@@ -1,5 +1,5 @@
 ---
-seoDescription: "Learn a clever, lightweight way to embed YouTube videos and reduce your page size from 500kb to 15kb!"
+seoDescription: Learn a clever, lightweight way to embed YouTube videos and reduce your page size from 500kb to 15kb!
 type: rule
 archivedreason:
 title: Do you know the right way to embed a YouTube video?

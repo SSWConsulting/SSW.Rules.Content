@@ -1,5 +1,5 @@
 ---
-seoDescription: "Choose the Right Azure Services: Mastering Application Architecture Discover how to select the perfect Azure services for your application with a simple 2-question framework. Learn about the different control models, data storage options, and more to ensure a successful project outcome."
+seoDescription: Choose the Right Azure Services: Mastering Application Architecture Discover how to select the perfect Azure services for your application with a simple 2-question framework. Learn about the different control models, data storage options, and more to ensure a successful project outcome.
 type: rule
 title: Do you know how to choose Azure services?
 uri: choose-azure-services
@@ -11,11 +11,12 @@ authors:
 created: 2022-06-16T07:33:51.366Z
 guid: 00777476-6f6f-4bb8-b583-ca2a4a4ffbd6
 ---
+
 Getting application architecture right is super hard and often choosing the wrong architecture at the start of a project causes immense pain further down the line when the limitations start to become apparent.
 
 [Azure has 100s of offerings](https://azure.microsoft.com/services) and it can be hard to know what the right services are to choose for any given application.
 
-However, there are a few questions that [Azure MVP Barry Luijbregts has come up with](https://github.com/bmaluijb/HowIChooseMyAzureServices/blob/master/How%20I%20choose%20which%20services%20to%20use%20in%20Azure.pdf) to help narrow down the right services for each business case. 
+However, there are a few questions that [Azure MVP Barry Luijbregts has come up with](https://github.com/bmaluijb/HowIChooseMyAzureServices/blob/master/How%20I%20choose%20which%20services%20to%20use%20in%20Azure.pdf) to help narrow down the right services for each business case.
 
 <!--endintro-->
 
@@ -34,35 +35,38 @@ There are many different levels of control that can be provided. From a VM which
 
 Keep in mind, that the more control you have, the more maintenance will be required meaning more costs. It is crucial to find the sweet spot for control vs maintenance costs - is the extra control gained actually necessary?
 
-* Infrastructure as a Service (IaaS)
+- Infrastructure as a Service (IaaS)
 
-  * Consumer responsible for everything beyond the hardware
+  - Consumer responsible for everything beyond the hardware
 
     e.g. Azure VM, AKS
-* Platform as a Service (PaaS)
 
-  * Consumer responsible for App configuration, building the app and server configuration
+- Platform as a Service (PaaS)
+
+  - Consumer responsible for App configuration, building the app and server configuration
 
     e.g. Azure App Service
-* Functions as a Service (FaaS) -- the Logic 
 
-  * Consumer responsible for App configuration and building the app
+- Functions as a Service (FaaS) -- the Logic
+
+  - Consumer responsible for App configuration and building the app
 
     e.g. Azure Functions, Azure Logic Apps
-* Software as a Service (SaaS)
 
-  * Consumer responsible for only App configuration
+- Software as a Service (SaaS)
+
+  - Consumer responsible for only App configuration
 
 ![Figure: The different levels of control](control.png)
 
 ### 1.2 Location - Where do I need the app to run?
 
-Choosing where to run your app 
+Choosing where to run your app
 
-* Azure 
-* On-Premises
-* Other Platforms e.g. AWS, Netlify, GitHub Pages
-* Hybrid
+- Azure
+- On-Premises
+- Other Platforms e.g. AWS, Netlify, GitHub Pages
+- Hybrid
 
 ### 1.3 Frequency - How often does the app need to run?
 
@@ -70,12 +74,13 @@ Evaluating how often an app needs to run is crucial for determining the right co
 
 There are 2 models:
 
-* Runs all the time
+- Runs all the time
 
-  * Classic (Pay per month) e.g. Azure App Service, Azure VM, AKS
-* Runs Occasionally
+  - Classic (Pay per month) e.g. Azure App Service, Azure VM, AKS
 
-  * Serverless (Pay per execution) e.g. Azure Functions, Azure Logic Apps
+- Runs Occasionally
+
+  - Serverless (Pay per execution) e.g. Azure Functions, Azure Logic Apps
 
 ## 2. How do you store your data?
 
@@ -87,12 +92,13 @@ The first question is what is the purpose of the data. Data that is used for eve
 
 So data can be put into 2 categories:
 
-* Online Transaction Processing (OLTP)
+- Online Transaction Processing (OLTP)
 
-  * For general application usage e.g. storing customer data, invoice data, user data etc
-* Online Analytical Processing (OLAP)
+  - For general application usage e.g. storing customer data, invoice data, user data etc
 
-  * For data analytics e.g. reporting
+- Online Analytical Processing (OLAP)
+
+  - For data analytics e.g. reporting
 
 ### 2.2 Structure - What type of data is going to be stored?
 
@@ -100,8 +106,8 @@ Data comes in many shapes and forms. For example, it might have been normalized 
 
 Classify it into 2 categories:
 
-* Relational data e.g. a fully normalized database
-* Unstructured data e.g. document data, graph data, key/value data
+- Relational data e.g. a fully normalized database
+- Unstructured data e.g. document data, graph data, key/value data
 
 ## Example Scenario
 
@@ -121,17 +127,17 @@ It also has a scheduled job that runs daily, picks up all the user data and puts
 
 ### A1: The App - The best Azure services are
 
-* An Azure App Service for the website, since it is a PaaS offering that provides server configuration and constant availability
-* An Azure function for the scheduled Job, since it only runs occasionally and no server configuration is necessary
+- An Azure App Service for the website, since it is a PaaS offering that provides server configuration and constant availability
+- An Azure function for the scheduled Job, since it only runs occasionally and no server configuration is necessary
 
 ### Q2: Data - How to store it?
 
-**Purpose** - The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. 
+**Purpose** - The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics.
 
 **Structure** - The data is mostly structured except for the variable learning items.
 
 ### A2: Data - The best Azure Services are
 
-* Azure SQL for the main everyday usage
-* CosmosDB for the variable learning items
-* Azure Synapse for the data analytics
+- Azure SQL for the main everyday usage
+- CosmosDB for the variable learning items
+- Azure Synapse for the data analytics

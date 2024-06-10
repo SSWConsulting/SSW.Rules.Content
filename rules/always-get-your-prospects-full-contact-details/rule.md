@@ -1,5 +1,5 @@
 ---
-seoDescription: "Get your prospect's full contact details to ensure accurate follow-ups and streamline your sales process."
+seoDescription: Get your prospect's full contact details to ensure accurate follow-ups and streamline your sales process.
 type: rule
 title: Do you always get your prospect's full contact details?
 uri: always-get-your-prospects-full-contact-details
@@ -24,9 +24,9 @@ Here are some of the important details that need to be recorded:
 
 <!--endintro-->
 
-* Full name
-* Company
-* Position
-* Phone number (work and mobile)
-* Email address
-* Company address
+- Full name
+- Company
+- Position
+- Phone number (work and mobile)
+- Email address
+- Company address

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Show errors in red to improve readability and user experience in SQL Reporting Services (RS) reports."
+seoDescription: Show errors in red to improve readability and user experience in SQL Reporting Services (RS) reports.
 type: rule
 title: Layout - Do you show errors in red?
 uri: show-errors-in-red

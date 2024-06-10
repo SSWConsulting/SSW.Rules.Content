@@ -1,5 +1,5 @@
 ---
-seoDescription: "Schema do you use separate lookup tables rather than one large lookup table for your lookup data? Here's a concise and informative SEO description that matches user intent: Separate lookup tables simplify ORM mapping, maintain referential integrity and allow adding unique columns to each table."
+seoDescription: Schema do you use separate lookup tables rather than one large lookup table for your lookup data? Here's a concise and informative SEO description that matches user intent: Separate lookup tables simplify ORM mapping, maintain referential integrity and allow adding unique columns to each table.
 type: rule
 archivedreason: 
 title: Schema - Do you use separate lookup tables rather than one large lookup table for your lookup data?
@@ -20,31 +20,17 @@ Advantage: Simplifies ORM Mapping
 :::
 We prefer multiple lookup tables so they make more sense in ORM tools. If you have multiple lookups to the one table, you would need to do your mappings manually rather than using a tool. E.g. you could have either: LookupTable or OrderType
 
-
 <!--endintro-->
 
 When you are obtaining the OrderType for an order, you would have either:
 
-* Order.OrderType.OrderTypeID
-
-
-
-
+- Order.OrderType.OrderTypeID
 
 > Good as it is clear what is being retrieved from the lookup table.
 
-
-
-
-* Order.LookupTable.Value
-
-
-
-
+- Order.LookupTable.Value
 
 > Not great as it is not clear what the nature of the lookup table is.
-
-
 
 ::: good
 Advantage: Maintains Complete Referential Integrity without the need for triggers
@@ -55,12 +41,7 @@ One issue with having one large table is that you can still enter invalid values
 
 If I put OrderTypeID = 10, then I will not get referential integrity errors (even though I should) because I have entered a value which exists in the lookup table (even though it is for the wrong type).
 
-
 If I want to enforce referential integrity so I can only enter the correct type for my lookup table, then I would need to resort to triggers or a (fallible) coded data tier.
-
-
-
-
 
 ::: good
 Advantage: You can add new columns specific to each lookup table
@@ -68,9 +49,6 @@ Advantage: You can add new columns specific to each lookup table
 :::
 
 For example, if a Lookup table (e.g. CustomerType) has an associated value (e.g. the field MaximumDebtAmount), we don't need to add a field that is irrelevant to all the other lookup tables. We can just add it to the individual lookup table.
-
-
-
 
 ::: bad
 Disadvantage: Multiple tables make maintenance slightly more difficult, especially when making changes directly via Management Studio

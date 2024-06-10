@@ -1,5 +1,5 @@
 ---
-seoDescription: "Linking Dynamics and Teams: Seamlessly connecting customers to their respective teams in CRM."
+seoDescription: Linking Dynamics and Teams: Seamlessly connecting customers to their respective teams in CRM.
 type: rule
 title: Dynamics and Teams - Do you link your customers in CRM to their
   respective Teams?
@@ -30,6 +30,7 @@ created: 2020-03-27T21:55:12.000Z
 archivedreason: null
 guid: 1b2a7623-45c8-4a45-a46a-c2c9150f9180
 ---
+
 At your company, you never want to have a person asking "Where is that file?"
 The answer should be "The answer is Teams, the question is irrelevant".
 
@@ -61,11 +62,11 @@ Add a button to the Ribbon to provision a new team and link to it.
 
 ##### How to add the button to the Dynamics Ribbon?
 
-* [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer) (new approach - customizing command bar using the command designers)
+- [Customize the command bar - Power Apps | Microsoft Docs](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/use-command-designer) (new approach - customizing command bar using the command designers)
 
 or
 
-* [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) (old approach -  using the ribbon workbench)
+- [Ribbon Workbench](https://www.develop1.net/public/rwb/ribbonworkbench.aspx) (old approach - using the ribbon workbench)
 
 ![Figure: Use the Ribbon](account_createteamssite.png)
 

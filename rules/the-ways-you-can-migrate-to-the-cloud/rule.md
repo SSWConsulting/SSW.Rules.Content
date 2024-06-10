@@ -1,5 +1,5 @@
 ---
-seoDescription: "Migrate to the cloud by choosing from 7 options: taking the latest version, migrating work items using Excel, converting TFVC to Git, using community tools like VSTS Sync Migrator or OpsHub, and more."
+seoDescription: Migrate to the cloud by choosing from 7 options: taking the latest version, migrating work items using Excel, converting TFVC to Git, using community tools like VSTS Sync Migrator or OpsHub, and more.
 type: rule
 archivedreason: 
 title: Do you know all the ways you can migrate to the cloud?
@@ -19,13 +19,13 @@ The 7 options are:
 
 <!--endintro-->
 
-* **Option 1:** Take the latest version
-* **Option 2:** + Migrate Work Items using Excel
-* **Option 3:** Convert TFVC to Git
-* **Option 4:** + Community Tool: VSTS Sync Migrator (includes Work Items) by Martin Hinshelwood (ex-SSW)
-* **Option 5:** OpsHub
-* **Option 6:** Timely Migration
-* **Option 7:** TfsMigrator - Microsoft
+- **Option 1:** Take the latest version
+- **Option 2:** + Migrate Work Items using Excel
+- **Option 3:** Convert TFVC to Git
+- **Option 4:** + Community Tool: VSTS Sync Migrator (includes Work Items) by Martin Hinshelwood (ex-SSW)
+- **Option 5:** OpsHub
+- **Option 6:** Timely Migration
+- **Option 7:** TfsMigrator - Microsoft
 
 Watch the video:
 

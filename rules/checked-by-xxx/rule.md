@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you use 'Checked by xxx'? This rule emphasizes the importance of having someone review your emails before sending them to ensure accuracy, clarity, and professionalism."
+seoDescription: Do you use 'Checked by xxx'? This rule emphasizes the importance of having someone review your emails before sending them to ensure accuracy, clarity, and professionalism.
 type: rule
 title: Do you use 'Checked by xxx'?
 uri: checked-by-xxx
@@ -21,6 +21,7 @@ created: 2010-03-01T06:05:18.000Z
 archivedreason: null
 guid: 1aedc867-366f-47d3-aae8-9ff6d74da7ba
 ---
+
 There are times you should have your email checked by someone else before sending it. This way you are guaranteed instant feedback and you won't clog up someone else's inbox with unnecessary emails or mistakes.
 
 Simply ask for that person to come over and check it on your computer or call them and share your screen if the person is not nearby.
@@ -38,27 +39,27 @@ Simply ask for that person to come over and check it on your computer or call th
 
 Scenarios where having someone review your emails is recommended:
 
-* You are new to a company
-* Sending an email to a large distribution list
-* You are a little unsure
-* You feel that it is a complicated email
-* Sending a sensitive email (e.g. The content could be perceived as confrontational)
-* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
+- You are new to a company
+- Sending an email to a large distribution list
+- You are a little unsure
+- You feel that it is a complicated email
+- Sending a sensitive email (e.g. The content could be perceived as confrontational)
+- You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
 
 Doing this will ensure:
 
-* You avoid grammatical and spelling errors
-* Your message is clear
-* The layout and tone of the email is professional
-* You don’t forget anything important
-* The receiver knows who else agrees with the content
+- You avoid grammatical and spelling errors
+- Your message is clear
+- The layout and tone of the email is professional
+- You don’t forget anything important
+- The receiver knows who else agrees with the content
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
-| Cc:      | Ulysses |
-::: email-content  
+| To: | Bob |
+| Cc: | Ulysses |
+::: email-content
 
 (Checked by Uly)
 
@@ -79,16 +80,16 @@ Figure: Good example - Use 'Checked by xxx' when sending emails that require a s
 
 The term "checked by" typically implies a conversation took place. In situations where synchronous communication is not feasible, asynchronous methods like chatting on Teams or sending email are acceptable, provided you explicitly mention this in your "Checked by" email. Examples:
 
-* (Checked **via Teams Chat** by Chris S and Lloyd)
-* (Checked **via Email** by Chris S and Lloyd)
+- (Checked **via Teams Chat** by Chris S and Lloyd)
+- (Checked **via Email** by Chris S and Lloyd)
 
 ### Avoid being blocked
 
-Waiting for the 'checked by' may slow down your email to be sent... a proactive approach is to ping a couple of people with a message. E.g. *"I would like a Test Please, if you have time today call me back because I will be hitting send by 4pm today"*
+Waiting for the 'checked by' may slow down your email to be sent... a proactive approach is to ping a couple of people with a message. E.g. _"I would like a Test Please, if you have time today call me back because I will be hitting send by 4pm today"_
 
 ### Be visible
 
-If you attempted to get a ‘checked by’ and were unsuccessful, send the email indicating who you chased up at the top. E.g. *“(I tried to call Gordon, then Adam... but they were not available)”*
+If you attempted to get a ‘checked by’ and were unsuccessful, send the email indicating who you chased up at the top. E.g. _“(I tried to call Gordon, then Adam... but they were not available)”_
 
 ### Web content changes - Check for grammar and links as well
 
@@ -98,10 +99,10 @@ Once you confirm there are no errors, you may add the content to the site.
 
 After that, run [SSW CodeAuditor](https://codeauditor.com) in order to keep 0 broken links and other web errors on that page.
 
-### AI-Driven Insights  
+### AI-Driven Insights
 
 You can improve your team's productivity with streamlined analysis of "Checked by" emails.  
-[EagleEye's](https://ssweagleeye.com/) AI-powered analytics allow you to analyze your company's email content and pinpoint efficiencies and inconsistencies, and let data lead the way to a smarter workflow.  
+[EagleEye's](https://ssweagleeye.com/) AI-powered analytics allow you to analyze your company's email content and pinpoint efficiencies and inconsistencies, and let data lead the way to a smarter workflow.
 
 ![Figure: Example of a "Checked by" report generated by AI](eagle-eye-report.png)
 

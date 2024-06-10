@@ -1,5 +1,5 @@
 ---
-seoDescription: "LinkedIn profiles should include links to main services provided, enhancing visibility and showcasing expertise. (Note: I've kept it concise, included primary keywords, and matched with user intent. The generated SEO description is 155 characters long.)"
+seoDescription: LinkedIn profiles should include links to main services provided, enhancing visibility and showcasing expertise. (Note: I've kept it concise, included primary keywords, and matched with user intent. The generated SEO description is 155 characters long.)
 type: rule
 title: LinkedIn - Do you have links to your main services on your profile?
 uri: have-urls-to-your-main-services-on-linkedin
@@ -15,6 +15,7 @@ created: 2017-08-17T22:02:45.000Z
 archivedreason: null
 guid: f5a9dd86-30bc-4aba-907e-c8e7af6f9203
 ---
+
 LinkedIn is the main business and employment-oriented social networking service available. It's important to keep it up-to-date and link it to your company's services.
 
 <!--endintro-->

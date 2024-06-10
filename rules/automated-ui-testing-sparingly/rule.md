@@ -1,5 +1,5 @@
 ---
-seoDescription: "Automated UI testing should be used sparingly to ensure a balanced approach that maximizes efficiency and minimizes unnecessary complexity."
+seoDescription: Automated UI testing should be used sparingly to ensure a balanced approach that maximizes efficiency and minimizes unnecessary complexity.
 type: rule
 title: Do you remember to use automated UI testing sparingly?
 uri: automated-ui-testing-sparingly
@@ -15,7 +15,7 @@ guid: 6cbe4a66-f7c0-4e73-85a4-2346ed5334a6
 
 Watching an automated UI test doing its thing can be very compelling. Combining this with the availability (and powerful marketing) of so many automated UI testing frameworks & tools often leads teams to focus too heavily on automating their testing at the UI level.
 
-This is a classic illustration of [the law of the instrument or Maslow's hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument), a cognitive bias that involves an over-reliance on a familiar tool. Abraham Maslow wrote in 1966, *"If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail"*.
+This is a classic illustration of [the law of the instrument or Maslow's hammer](https://en.wikipedia.org/wiki/Law_of_the_instrument), a cognitive bias that involves an over-reliance on a familiar tool. Abraham Maslow wrote in 1966, _"If the only tool you have is a hammer, it is tempting to treat everything as if it were a nail"_.
 
 While automated UI testing has its place in an overall test strategy (involving both humans and automation), you need to exercise care about how much of your testing is performed at this level.
 

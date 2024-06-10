@@ -1,5 +1,5 @@
 ---
-seoDescription: "Treat automated test code as a first-class citizen by applying best practices and maintaining high-quality code to ensure reliable testing and prevent deployment of poor quality code."
+seoDescription: Treat automated test code as a first-class citizen by applying best practices and maintaining high-quality code to ensure reliable testing and prevent deployment of poor quality code.
 type: rule
 title: Do you treat your automated test code as a first-class citizen?
 uri: automated-test-code-first-class-citizen
@@ -9,6 +9,7 @@ authors:
 created: 2022-11-17T23:31:19.187Z
 guid: c3bb3017-1e8f-44d5-98c6-3a714cfb6f2b
 ---
+
 Good quality automated tests can help your development to continue more quickly and with more safety.
 
 Gating deployments on the successful outcomes of your automated test suites can prevent you from automatically pushing bad code into production.
@@ -30,4 +31,4 @@ The test code should be treated as a first-class citizen, so:
 
 ### Further reading
 
-* [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/) by Bas Dijkstra
+- [On treating your test code like production code](https://www.ontestautomation.com/on-treating-your-test-code-like-production-code/) by Bas Dijkstra

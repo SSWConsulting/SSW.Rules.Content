@@ -1,5 +1,5 @@
 ---
-seoDescription: "Configure alerting on Azure Security Center to receive notifications of changes and potential security threats, ensuring your infrastructure remains secure."
+seoDescription: Configure alerting on Azure Security Center to receive notifications of changes and potential security threats, ensuring your infrastructure remains secure.
 type: rule
 title: Do you have alerting for Azure Security Center?
 uri: alert-for-azure-security-center
@@ -9,6 +9,7 @@ authors:
 created: 2021-09-01T16:42:19.624Z
 guid: 4becc3ae-639c-4690-8836-7f0a1f74630d
 ---
+
 Once your environment is secured sufficiently you need to configure some alerting.
 This will ensure that any changes either due to changes in your Azure deployment or more importantly improved scanning in Security Center result in you being alerted so that your infrastructure can be better secured.
 

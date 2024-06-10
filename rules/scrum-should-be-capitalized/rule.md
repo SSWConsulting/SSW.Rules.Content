@@ -1,8 +1,8 @@
 ---
-seoDescription: "Scrum principles and terminology require proper capitalization, including Scrum, Sprint, Product Owner, Scrum Master, and more."
+seoDescription: Scrum principles and terminology require proper capitalization, including Scrum, Sprint, Product Owner, Scrum Master, and more.
 type: rule
 archivedreason: null
-title: | 
+title: |
   Do you know "Scrum" (and other Scrum terms) should be capitalized?
 guid: b0fdd7d0-664d-44ea-8cf8-7773c15becf4
 uri: scrum-should-be-capitalized
@@ -14,7 +14,6 @@ related:
   - use-the-right-capitalization
 redirects:
   - tiny-do-you-know-scrum-should-be-capitalized
-
 ---
 
 According to the Scrum Alliance, "Scrum" is capitalized.
@@ -29,13 +28,13 @@ You will occasionally see it written incorrectly:
 
 Other Scrum terms should also be capitalized:
 
-* Sprint
-* Product Owner
-* Scrum Master
-* Product Backlog
-* Sprint Review
-* Sprint Planning
-* Sprint Retrospective
+- Sprint
+- Product Owner
+- Scrum Master
+- Product Backlog
+- Sprint Review
+- Sprint Planning
+- Sprint Retrospective
 
 ::: greybox
 SSW CodeAuditor enforces this rule [https://codeauditor.com/rules](https://codeauditor.com/rules)

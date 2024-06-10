@@ -1,5 +1,5 @@
 ---
-seoDescription: "Choose effective anchor names by considering these key points: Make it meaningful, know they're case sensitive, don't add spacing, and avoid starting with a #."
+seoDescription: Choose effective anchor names by considering these key points: Make it meaningful, know they're case sensitive, don't add spacing, and avoid starting with a #.
 type: rule
 archivedreason: 
 title: Do you chose effective anchor names?
@@ -25,37 +25,37 @@ These are the things you should consider when creating an anchor link:
 
 3. **Don't add spacing** - When you are defining an anchor name, make sure there are no spaces within the name
 
-``` html
-<a name="Some Anchor Name">
+```html
+<a name="Some Anchor Name"></a>
 ```
 
 ::: bad
 Bad example - Spaces within anchor name
 :::
 
-``` html
-<a name="SomeAnchorName">
+```html
+<a name="SomeAnchorName"></a>
 ```
 
 ::: good
 Good example - No spaces within anchor name
 :::
 
-4. **Don't define names starting  with a #** - This is a common mistake because the # is used on the "href"
+4. **Don't define names starting with a #** - This is a common mistake because the # is used on the "href"
 
 When you are **defining** an anchor name you **do not** use a hashtag.  
 Bear in mind that when you are **referencing** an anchor you **do** use a hashtag.
 
-``` html
-<a name="#SomeAnchorName">
+```html
+<a name="#SomeAnchorName"></a>
 ```
 
 ::: bad
 Bad example - Hashtag on anchor name
 :::
 
-``` html
-<a name="SomeAnchorName">
+```html
+<a name="SomeAnchorName"></a>
 ```
 
 ::: good

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Learn how to be a good Product Owner and maximize your project's ROI by prioritizing the product backlog, being available for Scrum meetings, unblocking developers, and understanding product backlog items."
+seoDescription: Learn how to be a good Product Owner and maximize your project's ROI by prioritizing the product backlog, being available for Scrum meetings, unblocking developers, and understanding product backlog items.
 type: rule
 title: Do you know how to be a good Product Owner?
 uri: do-you-know-the-how-to-be-a-good-product-owner
@@ -29,7 +29,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 2. Prioritize the Product Backlog. The important things will be done first, in order to maximize the ROI as the budget will run out one day
 3. Be available (at least remotely) to unblock a developer if they have questions/impediments. A good PO has a feeling of urgency
 4. Ideally, listen in on [Daily Scrums](/methodology-daily-scrums). This is optional but means that the PO will have daily insight into the team’s progress.
-5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done.  
+5. Understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done.
 
 ::: greybox
 **Note:** It is helpful for developers to distinguish acceptance criteria between what is considered "essential" and what is merely "nice to have," as this can prevent them from investing excessive time in meeting non-essential criteria.

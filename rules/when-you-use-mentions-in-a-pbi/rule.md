@@ -1,5 +1,5 @@
 ---
-seoDescription: "When you update a Product Backlog Item (PBI) to reflect a change verbally requested by the Product Owner, use the discussions feature and mention the user using "@username" instead of sending an email. This keeps track of the conversation and allows everyone involved to stay updated."
+seoDescription: When you update a Product Backlog Item (PBI) to reflect a change verbally requested by the Product Owner, use the discussions feature and mention the user using "@username" instead of sending an email. This keeps track of the conversation and allows everyone involved to stay updated.
 type: rule
 title: Do you know when you use @ mentions in a PBI?
 uri: when-you-use-mentions-in-a-pbi
@@ -19,6 +19,7 @@ created: 2016-09-20T20:03:03.000Z
 archivedreason: null
 guid: 8d36a3c3-47e0-4302-a609-a09080565847
 ---
+
 When the Product Owner verbally requests a change to a PBI, how do you update the PBI to reflect the change and also keep track of the conversation?
 
 <!--endintro-->
@@ -33,18 +34,18 @@ Instead, what you should do is use the discussions feature in the PBI and mentio
 
 The benefits of using descriptions and comments on PBIs:
 
-* Quick and easy, no need to compose an email
-* History is visible to anyone looking at the PBI (with email, if you don't cc them, they wouldn't have a clue)
-* Easy to see all important information in one place, instead of digging through email
+- Quick and easy, no need to compose an email
+- History is visible to anyone looking at the PBI (with email, if you don't cc them, they wouldn't have a clue)
+- Easy to see all important information in one place, instead of digging through email
 
 When someone (especially the PO) asks you to work on a PBI, @mention that person in the PBI description/comments so they get notifications about the tasks.
 
 ### Scenario
 
-You are replying to *"Hey, can you please fix PBI 123?"*
+You are replying to _"Hey, can you please fix PBI 123?"_
 
 ::: greybox
-*"I have found the PBI and moved it near the top of our backlog"*
+_"I have found the PBI and moved it near the top of our backlog"_
 :::
 ::: bad
 Bad example - No @mention used
@@ -91,4 +92,4 @@ It is also good practise to use @mention in the discussion to track changes and 
 
 ### Related Suggestion
 
-* [Suggestion to Microsoft Azure DevOps - Help me know there is an image in the Work Item](https://bettersoftwaresuggestions.com/microsoft/azure-devops/help-me-know-there-is-an-image-in-the-work-item/)
+- [Suggestion to Microsoft Azure DevOps - Help me know there is an image in the Work Item](https://bettersoftwaresuggestions.com/microsoft/azure-devops/help-me-know-there-is-an-image-in-the-work-item/)

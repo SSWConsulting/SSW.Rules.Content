@@ -1,5 +1,5 @@
 ---
-seoDescription: "Post-production video updates: subtly indicate version numbers to keep your team informed without affecting views."
+seoDescription: Post-production video updates: subtly indicate version numbers to keep your team informed without affecting views.
 type: rule
 archivedreason: 
 title: Post-Production - Do you have a version number on your videos?
@@ -28,5 +28,5 @@ When updating a version of a video (especially in a corporate environment), it's
 
 The best way to label the version is as follows:
 
-* When a team member creates a new version, they should change the minor (i.e. the number after the decimal point).
-* When the Product Owner affirms a new version, the major changes (i.e. the number before the decimal point).
+- When a team member creates a new version, they should change the minor (i.e. the number after the decimal point).
+- When the Product Owner affirms a new version, the major changes (i.e. the number before the decimal point).

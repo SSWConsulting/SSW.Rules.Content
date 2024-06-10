@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you build cross-platform apps? Learn about the benefits and approaches to building installable binary apps that run on multiple platforms."
+seoDescription: Do you build cross-platform apps? Learn about the benefits and approaches to building installable binary apps that run on multiple platforms.
 type: rule
 title: Do you build cross-platform apps?
 uri: build-cross-platform-apps
@@ -11,7 +11,6 @@ related:
   - maui-cross-platform
 created: 2022-08-17T20:12:08.779Z
 guid: 8d03f974-6e64-4d65-a3b2-04d7e78a52f1
-
 ---
 
 ::: img-medium
@@ -21,7 +20,7 @@ guid: 8d03f974-6e64-4d65-a3b2-04d7e78a52f1
 If you're building installable binary apps (as opposed to web apps), it makes sense to use a cross-platform framework so that you don’t need to maintain multiple code bases.
 
 Writing apps in a single-platform language or framework can lead to fragmentation and technical debt, while writing your app once using a cross-platform technology is the best way to apply [DRY](/do-you-look-for-duplicate-code) to your app as a whole.
-  
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/2IoFI3tCN5g`

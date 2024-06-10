@@ -1,5 +1,5 @@
 ---
-seoDescription: "Empower Your Speakers: A Checklist for a Successful Event"
+seoDescription: Empower Your Speakers: A Checklist for a Successful Event
 type: rule
 archivedreason: 
 title: Do your speakers know what they need to do at an event?
@@ -31,13 +31,13 @@ Share the agenda with the audience, so they know the break times.
 
 We recommend the following breaks:
 
-| Schedule | Time |
-| :------------- | :----------- |
-| Registration | 9 am |
-| Morning tea | 10:30 am (15 min) |
-| Lunch |1 pm - 2 pm|
-| Afternoon tea | 3:30 pm (15 min) |
-| Finish | 5 pm |
+| Schedule      | Time              |
+| :------------ | :---------------- |
+| Registration  | 9 am              |
+| Morning tea   | 10:30 am (15 min) |
+| Lunch         | 1 pm - 2 pm       |
+| Afternoon tea | 3:30 pm (15 min)  |
+| Finish        | 5 pm              |
 
 ### 2. Breaks
 
@@ -57,8 +57,8 @@ Draw yourself a rough diagram of the room, start with intros and then go around 
 
 ### 4. (Optional) Coffee Orders
 
-* Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
+- Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
 
 ### 5. Evaluations
 
-* Share your evaluation forms out around 4 pm to give people time to complete them
+- Share your evaluation forms out around 4 pm to give people time to complete them

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Adding "https://" to text fields and content makes links easier to click, encouraging more users to interact with your content."
+seoDescription: Adding "https://" to text fields and content makes links easier to click, encouraging more users to interact with your content.
 type: rule
 title: Do you add https:// to text fields and content?
 uri: use-https-text
@@ -11,6 +11,7 @@ redirects:
 created: 2022-11-30T00:13:40.254Z
 guid: 4bf87ccf-91a1-470a-b1d6-bb2363761e06
 ---
+
 Have you ever seen the text in an email or YouTube description meant to be a link to a page and wondered why it's missing the customary blue underline or can't be clicked?
 
 The answer is simple: the links are missing the prefix " https:// ", a prefix most modern content editors or browsers recognise as link identifiers and convert otherwise normal-looking text into easily clickable links.

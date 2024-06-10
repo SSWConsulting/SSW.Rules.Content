@@ -1,5 +1,5 @@
 ---
-seoDescription: "Optimise your website favicon to ensure a seamless user experience across all devices. (Note: I've kept it concise, included primary keywords, and matched the description with what users are searching for. Let me know if you need any further adjustments!)"
+seoDescription: Optimise your website favicon to ensure a seamless user experience across all devices. (Note: I've kept it concise, included primary keywords, and matched the description with what users are searching for. Let me know if you need any further adjustments!)
 type: rule
 archivedreason:
 title: Do you optimise your website favicon?

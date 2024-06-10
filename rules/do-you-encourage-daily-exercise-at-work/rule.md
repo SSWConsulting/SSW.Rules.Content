@@ -1,5 +1,5 @@
 ---
-seoDescription: "Boost office morale and productivity by incorporating daily exercise at work, with simple activities like planking or walking outdoors."
+seoDescription: Boost office morale and productivity by incorporating daily exercise at work, with simple activities like planking or walking outdoors.
 type: rule
 title: Do you encourage daily exercise at work?
 uri: do-you-encourage-daily-exercise-at-work
@@ -12,6 +12,7 @@ created: 2016-11-07T06:40:46.000Z
 archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
+
 A healthy team is more energized, happy, and productive, and a culture to encourage this should come from the top.
 
 <!--endintro-->

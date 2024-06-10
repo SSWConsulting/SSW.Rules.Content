@@ -1,20 +1,19 @@
 ---
-seoDescription: "Stay informed about project costs and progress by receiving regular updates on actual spend, ETA, and testing quality."
+seoDescription: Stay informed about project costs and progress by receiving regular updates on actual spend, ETA, and testing quality.
 type: rule
-archivedreason: 
+archivedreason:
 title: Watch - Do you get regular updates on costs and progress (aka Project Progress, Burndown, etc.)?
 guid: 8b24e8bd-1bc5-4677-87fb-fcf6df669606
 uri: burndown-and-stories-overview-reports-updates
 created: 2010-05-20T10:48:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc
-- watch-do-you-get-regular-updates-on-costs-and-progress-(aka-project-progress-burndown-etc-)
-- reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day
-
+  - watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc
+  - watch-do-you-get-regular-updates-on-costs-and-progress-(aka-project-progress-burndown-etc-)
+  - reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day
 ---
 
 You're the one paying the bills, make sure you know where the costs are and how the project is progressing.
@@ -23,9 +22,9 @@ Insist on receiving these 3 reports in every Review meeting:
 
 <!--endintro-->
 
-* Project Progress ($ spent)
-* Burndown (ETA)
-* Story Overview (testing quality)
+- Project Progress ($ spent)
+- Burndown (ETA)
+- Story Overview (testing quality)
 
 Let's look at those 3 reports:
 
@@ -45,7 +44,7 @@ This allows you to see the actual costs of the project on a weekly basis.
 3. Has the team added work to the iteration?
 4. How much work does each team member have?
 
-See how to use the [Burndown and Burn Rate Report](https://docs.microsoft.com/en-us/previous-versions/dd380678(v=vs.100)?redirectedfrom=MSDN).
+See how to use the [Burndown and Burn Rate Report](<https://docs.microsoft.com/en-us/previous-versions/dd380678(v=vs.100)?redirectedfrom=MSDN>).
 
 ### 3. Story Overview - See how each task is tracking
 
@@ -58,4 +57,4 @@ See how to use the [Burndown and Burn Rate Report](https://docs.microsoft.com/en
 3. Are the tests for each story passing?
 4. How many active bugs does each story have?
 
-See how to use the [Stories Overview Report](https://docs.microsoft.com/en-us/previous-versions/dd380648(v=vs.100)?redirectedfrom=MSDN).
+See how to use the [Stories Overview Report](<https://docs.microsoft.com/en-us/previous-versions/dd380648(v=vs.100)?redirectedfrom=MSDN>).

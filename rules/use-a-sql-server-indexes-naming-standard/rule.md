@@ -1,5 +1,5 @@
 ---
-seoDescription: "SQL Server Indexes Naming Standard for Consistent and Organized Indexing Primary keywords: SQL Server, Indexes, Naming Standard"
+seoDescription: SQL Server Indexes Naming Standard for Consistent and Organized Indexing Primary keywords: SQL Server, Indexes, Naming Standard
 type: rule
 archivedreason: 
 title: General - Do you use a SQL Server Indexes Naming Standard?
@@ -19,21 +19,20 @@ This standard outlines the procedure on naming Indexes at SSW for SQL Server. Us
 
 **Note:** There is not a lot of use naming Indexes - we only do it when we are printing out documentation or using the 'Index Tuning Wizard' - then it becomes really handy.
 
-
 Index names are to have this syntax:
 
-[pkc\_] [TableName] by [FieldName]   
-[1] [2] [3]   
+[pkc\_] [TableName] by [FieldName]  
+[1] [2] [3]
 
 [1] All indexes must have a corresponding prefix.
 
-| **Prefix** | **Type** |
-| --- | --- |
-| pkc\_ | Primary Key, Clustered |
-| pknc\_ | Primary Key, Non Clustered |
-| ncu\_ | Non Clustered, Unique |
-| cu\_ | Clustered, Unique |
-| nc\_ | Non Clustered (Most Common) |
+| **Prefix** | **Type**                    |
+| ---------- | --------------------------- |
+| pkc\_      | Primary Key, Clustered      |
+| pknc\_     | Primary Key, Non Clustered  |
+| ncu\_      | Non Clustered, Unique       |
+| cu\_       | Clustered, Unique           |
+| nc\_       | Non Clustered (Most Common) |
 
 Make unique index name if possible. Ie. ProductName
 
@@ -44,6 +43,7 @@ Make unique index name if possible. Ie. ProductName
 Index 'BillingID'
 Primary Key 'aaaaaClient\_PK'
 ```
+
 ::: bad
 Figure: Bad Example
 :::
@@ -52,6 +52,7 @@ Figure: Bad Example
 'nc\_ClientDiary\_BillingID'
 'pknc\_ClientDiary\_ClientID'
 ```
+
 ::: good
 Figure: Good Example
 :::

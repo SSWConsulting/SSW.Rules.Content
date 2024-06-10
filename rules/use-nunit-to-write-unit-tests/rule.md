@@ -1,5 +1,5 @@
 ---
-seoDescription: "Write unit tests using NUnit to ensure code stability and prevent introducing new bugs when fixing issues in someone else's code."
+seoDescription: Write unit tests using NUnit to ensure code stability and prevent introducing new bugs when fixing issues in someone else's code.
 type: rule
 title: Do you use NUnit to write Unit Tests?
 uri: use-nunit-to-write-unit-tests
@@ -12,6 +12,7 @@ related: []
 redirects: []
 archivedreason: See a more generic and up to date rule [https://www.ssw.com.au/rules/rules-to-better-unit-tests/](/rules/rules-to-better-unit-tests)
 ---
+
 When anyone sends you a bug that happen in their environment do a unit test. Just because the code runs on your machine it doesnt mean it will work on the users machine. E.g permissions issues - you are an admin while the user is only a simple user, registry & io reads might fail, NUnit will test for this and let you know.
 
 <!--endintro-->

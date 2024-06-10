@@ -1,5 +1,5 @@
 ---
-seoDescription: "Scheduling developers' time efficiently and effectively with Dynamics 365 and Outlook to ensure maximum productivity."
+seoDescription: Scheduling developers' time efficiently and effectively with Dynamics 365 and Outlook to ensure maximum productivity.
 type: rule
 title: Scheduling - Do you know how to book developers for a project?
 uri: book-developers-for-a-project
@@ -16,17 +16,18 @@ created: 2012-12-06T13:32:15.000Z
 archivedreason: null
 guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
 ---
+
 It is the responsibility of Account Managers to book developers for known client work, however anyone can book a developer, including the developer themselves. Also if a developer notices they should be booked, but there's nothing in their calendar, and they can't figure out the below, as a minimum they should ask the Account Manager to book them.
 
-::: greybox  
+::: greybox
 
 **The Rule of the 3 T's**
 
 Before booking developers, make sure you talk to them and check that they are cool with:
 
-* The Time - how long is the project?
-* The Tech - what skills are required?
-* The Team - who will they be working with?
+- The Time - how long is the project?
+- The Tech - what skills are required?
+- The Team - who will they be working with?
 
 :::
 
@@ -133,7 +134,7 @@ Using the example of SSW's **crmtimeprosync@** account, this account is used to 
 
 ### How to set it up
 
-**For OWA**  
+**For OWA**
 
 Open browser’s incognito mode | go to <https://outlook.office.com> | logon with the **crmtimeprosync@** account
 

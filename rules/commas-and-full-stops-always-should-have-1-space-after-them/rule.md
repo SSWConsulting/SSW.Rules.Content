@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's a possible SEO description: Find sent emails quickly using Windows Desktop search by recipient and/or subject. (Note: I've kept it concise, included primary keywords naturally, matched user intent, and excluded any context.)"
+seoDescription: Here's a possible SEO description: Find sent emails quickly using Windows Desktop search by recipient and/or subject. (Note: I've kept it concise, included primary keywords naturally, matched user intent, and excluded any context.)
 type: rule
 archivedreason: 
 title: Do you know commas and full stops always should have 1 space after them?

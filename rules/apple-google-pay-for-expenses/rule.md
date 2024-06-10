@@ -1,5 +1,5 @@
 ---
-seoDescription: "Simplify expense management and improve financial processes by using Apple/Google Pay for company expenses."
+seoDescription: Simplify expense management and improve financial processes by using Apple/Google Pay for company expenses.
 type: rule
 title: Do you use Apple/Google Pay for company expenses?
 uri: apple-google-pay-for-expenses
@@ -12,6 +12,7 @@ created: 2023-05-26T15:08:44.000Z
 archivedreason: null
 guid: df30aae6-f8ba-4be8-8a7a-2b54447bb643
 ---
+
 When a company manages its small expenses, it is common to let the employees use a company credit card to avoid staff being blocked by reasonable purchases after appropriate authorization.
 
 Accountants are aware of the risks that come with sharing one credit card amongst multiple employees as transactions often become unaccountable as well as presenting opportunities for unauthorised use. However, issuing credit cards to each employee also brings pain due to extra administrative overhead and the increased risk of lost/stolen cards.
@@ -30,8 +31,8 @@ For example, here are 3 purchases from the same vendor at the same time. By refe
 
 Apple/Google Pay provides a centralized and easily accessible record of transactions. Each purchase generates a digital receipt, capturing important details such as the date, time, amount, and vendor information. This streamlined record-keeping simplifies expense tracking and reduces the administrative burden of manual expense reporting. Integrating Apple/Google Pay with expense management software allows for seamless synchronization of transaction data, providing real-time visibility into expenditure patterns
 
-* Find out [how to see your Apple Pay transaction history](https://support.apple.com/en-au/HT212786)
-* Find [Google transactions on Pay](https://guidebooks.google.com/google-pay-us/get-financial-insights-with-google-pay/how-to-check-google-pay-transaction-history)
+- Find out [how to see your Apple Pay transaction history](https://support.apple.com/en-au/HT212786)
+- Find [Google transactions on Pay](https://guidebooks.google.com/google-pay-us/get-financial-insights-with-google-pay/how-to-check-google-pay-transaction-history)
 
 ### Enhanced Security and Fraud Protection
 

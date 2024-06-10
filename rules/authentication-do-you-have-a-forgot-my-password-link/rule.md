@@ -1,19 +1,18 @@
 ---
-seoDescription: "Forgetting passwords can be frustrating, but providing a 'Forgot my password' link on the sign-in page makes it easy to regain access."
+seoDescription: Forgetting passwords can be frustrating, but providing a 'Forgot my password' link on the sign-in page makes it easy to regain access.
 type: rule
-archivedreason: 
+archivedreason:
 title: Authentication - Do you have a 'Forgot my password' link?
 guid: 07cac45a-80f4-4acb-a9df-7408987536c0
 uri: authentication-do-you-have-a-forgot-my-password-link
 created: 2014-12-11T20:10:16.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
 related: [forgot-password-do-you-read-their-mind]
 redirects: []
-
 ---
 
 It's easy and common for users to forget their passwords, the vital key which grants them access to the services they are eligible for.
@@ -40,7 +39,7 @@ You can read more on [Troy Hunt's blog post](http://www.troyhunt.com/2012/05/eve
 You should always aim to not disclose if a user is registered with your site or not.
 
 ::: bad  
-![Figure: Bad example - Displaying information that a user does not exist?](2016-01-05\_15-20-06.png)  
+![Figure: Bad example - Displaying information that a user does not exist?](2016-01-05_15-20-06.png)  
 :::
 
 ::: good  

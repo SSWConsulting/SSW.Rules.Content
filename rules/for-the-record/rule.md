@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's a well-crafted SEO description based on your input: Architectural decision documentation and retrospective analysis for significant projects, ensuring transparency and accountability."
+seoDescription: Here's a well-crafted SEO description based on your input: Architectural decision documentation and retrospective analysis for significant projects, ensuring transparency and accountability.
 type: rule
 title: Do you send a 'For the record' email when you disagree?
 uri: for-the-record
@@ -61,7 +61,7 @@ When you have a disagreement with someone who has decision making power, and you
 1. Later down the track it will provide a learning experience for someone (depending on who was right 😉)
 
 **Tip:** Use [follow up then](/do-you-follow-up-emails-effectively) to remind you to revisit your email (e.g. 6 months in the future), then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
-  
+
 2. After cooling down from the meeting, people might read it later and see it as useful input
 
 **Note:** A "For the record" email should be reserved for a significant architectural decision, etc. That will be difficult or costly to change later. You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
@@ -89,9 +89,9 @@ Figure: Good example - Documenting that client has asked you to do a shortcut
 ::: greybox
 "Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas **we have recommended using Angular** for the following reasons:
 
-* {{ LINK 1 }}
-* {{ LINK 2 }}
-* {{ LINK 3 }}
+- {{ LINK 1 }}
+- {{ LINK 2 }}
+- {{ LINK 3 }}
 
 That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
 

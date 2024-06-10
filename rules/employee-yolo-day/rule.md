@@ -1,5 +1,5 @@
 ---
-seoDescription: "Staff celebrate unique experiences on their "YOLO Day", an extra annual leave day to try something remarkable and share with the company."
+seoDescription: Staff celebrate unique experiences on their "YOLO Day", an extra annual leave day to try something remarkable and share with the company.
 type: rule
 title: Do you have a "YOLO Day"?
 uri: employee-yolo-day

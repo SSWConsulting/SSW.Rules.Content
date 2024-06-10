@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you use email for tasks only, not for chatting? Learn how to minimize mailbox clutter and improve communication with these simple tips."
+seoDescription: Do you use email for tasks only, not for chatting? Learn how to minimize mailbox clutter and improve communication with these simple tips.
 type: rule
 title: Do you send emails for tasks only?
 uri: use-email-for-tasks-only
@@ -17,27 +17,28 @@ created: 2009-03-23T03:30:08.000Z
 archivedreason: null
 guid: bf435d82-e523-4e77-bc31-a9f35cd35df1
 ---
+
 Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips:
 
 <!--endintro-->
 
-* Send emails that contain clear tasks, not banter
-* Don't send emails for chatting
-* If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “[As per our conversation...](/as-per-our-conversation-emails)” Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
-* If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
-* If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
-* If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
+- Send emails that contain clear tasks, not banter
+- Don't send emails for chatting
+- If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “[As per our conversation...](/as-per-our-conversation-emails)” Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
+- If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
+- If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
+- If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
   "I am not calling you right now as it is out of business hours..."
 
 Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| From:    | Tim |
-| To:      | Mark |
+| From: | Tim |
+| To: | Mark |
 | Subject: | What do you think? |
-::: email-content  
+::: email-content
 
 ### Hi Mark
 
@@ -52,12 +53,12 @@ Figure: Bad example - A bad email is one that gives no clear action items and wi
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| From:    | Tim |
-| To:      | Mark |
+| From: | Tim |
+| To: | Mark |
 | Subject: | Improve menu - Options |
-::: email-content  
+::: email-content
 
 ### Hi Mark
 

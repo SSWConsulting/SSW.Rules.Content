@@ -1,5 +1,5 @@
 ---
-seoDescription: "Streamline cloud identity management and boost security by integrating SCIM with Azure Active Directory."
+seoDescription: Streamline cloud identity management and boost security by integrating SCIM with Azure Active Directory.
 type: rule
 title: Do you integrate SCIM for Identity Management?
 uri: use-scim-for-identity-management
@@ -9,6 +9,7 @@ authors:
 created: 2023-12-08T06:07:07.533Z
 guid: 214b9c9f-5a9e-4b47-9389-b02bdeb660c6
 ---
+
 Leveraging SCIM (System for Cross-domain Identity Management) in conjunction with Entra ID (or whatever Identity provider you use) is crucial for efficient and secure identity synchronization across cloud-based applications and services.
 
 <!--endintro-->

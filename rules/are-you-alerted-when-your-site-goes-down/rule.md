@@ -1,7 +1,7 @@
 ---
-seoDescription: "Prevent unexpected downtime with Application Insights, which sends email alerts when your site becomes unavailable."
+seoDescription: Prevent unexpected downtime with Application Insights, which sends email alerts when your site becomes unavailable.
 type: rule
-archivedreason: 
+archivedreason:
 title: Are you alerted when your site goes down?
 guid: 4c47fb09-acc3-4af1-a00e-f9559f677d72
 uri: are-you-alerted-when-your-site-goes-down
@@ -9,7 +9,6 @@ created: 2016-07-15T00:34:17.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 Nothing is worse than having your site down being unaware for a long period of time.

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Based on your activity on the forum, here is a generated SEO description: "Forum expert shares insights and answers questions on Aardvark and MSDN" Let me know if you need any adjustments or changes! 😊"
+seoDescription: Based on your activity on the forum, here is a generated SEO description: "Forum expert shares insights and answers questions on Aardvark and MSDN" Let me know if you need any adjustments or changes! 😊
 type: rule
 archivedreason: Irrelevant (as per Camilla and Tiago)
 title: Do you know that your forum activity gets a tweet?
@@ -19,7 +19,7 @@ redirects: []
 If you are active in a forum, like the MSDN or StackOverflow forums, then you should set up the RSS for your activity to automatically tweet.
 
 ::: greybox
-Replied to the question Error when trying to 'add assembly from project output' in the package manager. in the Sha... http://bit.ly/bwREtu 
+Replied to the question Error when trying to 'add assembly from project output' in the package manager. in the Sha... http://bit.ly/bwREtu
 6:02 PM Mar 12th via twitterfeed  
 :::
 ::: good
@@ -39,4 +39,4 @@ Maybe your followers will want to chip in with a better answer.
 
 This is done by finding your "activity" feed on the forum.
 
-**Example of activity feed from StackOverflow**: [http://stackoverflow.com/feeds/user/11799](http&#58;//stackoverflow.com/feeds/user/11799)
+**Example of activity feed from StackOverflow**: [http://stackoverflow.com/feeds/user/11799](http://stackoverflow.com/feeds/user/11799)

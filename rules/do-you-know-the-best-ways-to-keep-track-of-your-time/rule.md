@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you know the best ways to keep track of your working time? Here are four efficient methods for developers: electronic timesheets, OneNote/Notepad++, physical diaries, and GitHub/Azure DevOps commits."
+seoDescription: Do you know the best ways to keep track of your working time? Here are four efficient methods for developers: electronic timesheets, OneNote/Notepad++, physical diaries, and GitHub/Azure DevOps commits.
 type: rule
 archivedreason: 
 title: Do you know the best ways to keep track of your working time?

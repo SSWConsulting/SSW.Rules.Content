@@ -1,5 +1,5 @@
 ---
-seoDescription: "Install ChatGPT as a Windows or Mobile app and experience an intelligent virtual assistant for seamless communication."
+seoDescription: Install ChatGPT as a Windows or Mobile app and experience an intelligent virtual assistant for seamless communication.
 type: rule
 title: Do you install ChatGPT on Windows and Mobile?
 uri: install-chatgpt-as-an-app
@@ -12,6 +12,7 @@ authors:
 created: 2023-05-02T23:41:47.302Z
 guid: 782829dd-79ad-4927-a256-4b1cdae2057c
 ---
+
 Adding ChatGPT as an app on your Windows, Android, or iOS device can be extremely useful for a number of reasons.
 
 For example, you can use ChatGPT to ask questions, seek advice, or just have a casual chat whenever you need it. Whether you're looking for information on a specific topic, need help with a task, or simply want to pass the time, ChatGPT is always available to assist you with its intelligent responses.
@@ -22,8 +23,8 @@ Furthermore, ChatGPT is constantly learning and improving its abilities, which m
 
 ### How to install ChatGPT on Mobile
 
-* Android - <https://play.google.com/store/apps/details?id=com.openai.chatgpt>
-* iOS - <https://apps.apple.com/us/app/chatgpt/id6448311069>
+- Android - <https://play.google.com/store/apps/details?id=com.openai.chatgpt>
+- iOS - <https://apps.apple.com/us/app/chatgpt/id6448311069>
 
 ### How to add ChatGPT as an Edge app
 

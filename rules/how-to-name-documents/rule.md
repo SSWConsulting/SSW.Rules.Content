@@ -1,5 +1,5 @@
 ---
-seoDescription: "Mastering document naming conventions is crucial for effective SharePoint search and file discovery. Use descriptive words and kebab-case (hyphens) to make your files easily searchable."
+seoDescription: Mastering document naming conventions is crucial for effective SharePoint search and file discovery. Use descriptive words and kebab-case (hyphens) to make your files easily searchable.
 type: rule
 title: Do you know how to name documents/files?
 uri: how-to-name-documents
@@ -63,7 +63,7 @@ This is a popular way to combine words as a convention in variable declarations 
 Monthly_Report.docx
 :::
 ::: ok
-Figure: OK example - Underscored (Snake\_Case) URLs have good readability but are not recommended by Google
+Figure: OK example - Underscored (Snake_Case) URLs have good readability but are not recommended by Google
 :::
 
 Underscores are not valid word separators for search in SharePoint, and not recommended by others. Also, sometimes underscores are less visible to users, for example, when a hyperlink is underlined. When reading a hyperlink that is underlined, it is often possible for the user to be mistaken by thinking that the URL contains spaces instead of underscores. For these reasons it is best to avoid their use in file names and titles.
@@ -85,10 +85,10 @@ You may use Uppercase in the first letter in Kebab-Case, however it's important 
 
 ### Extra
 
-* **Add relevant metadata where possible**
+- **Add relevant metadata where possible**
 
 If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.
 
-* **Ensure filenames are unique when tracking files with Git**
+- **Ensure filenames are unique when tracking files with Git**
 
 Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames.

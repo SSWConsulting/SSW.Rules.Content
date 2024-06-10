@@ -1,5 +1,5 @@
 ---
-seoDescription: "Power BI visualizations explained: Maps, Charts, Tables, and more."
+seoDescription: Power BI visualizations explained: Maps, Charts, Tables, and more.
 type: rule
 title: Do you know when to use each visualization in Power BI?
 uri: power-bi-visualizations
@@ -9,6 +9,7 @@ authors:
 created: 2023-11-22T01:24:15.521Z
 guid: 55f7b40c-7ea2-4731-9678-6ffd7bec0201
 ---
+
 Power BI offers a variety of visualizations, each suited for different types of data and insights. Choosing the correct visualization is crucial for effectively communicating data stories.
 
 ![Figure: The out of the box visuals from Power BI](visualizations.jpg)
@@ -219,7 +220,7 @@ The Power Automate visual allows you to set up automated workflows that can be t
 
 ## Ellipsis (Other)
 
-* **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
+- **Use when:** Accessing additional visuals not shown directly on the visualization pane or custom visuals.
 
 Remember, the choice of visualization should not only depend on what looks good but also on what communicates the data most effectively to your audience.
 

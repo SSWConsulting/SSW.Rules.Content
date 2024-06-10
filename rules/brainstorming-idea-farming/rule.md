@@ -1,5 +1,5 @@
 ---
-seoDescription: "Discover how to effectively farm brainstorming ideas by gathering high-quality concepts in advance, leveraging GitHub Discussions and structured templates for a successful and streamlined Brainstorming Day."
+seoDescription: Discover how to effectively farm brainstorming ideas by gathering high-quality concepts in advance, leveraging GitHub Discussions and structured templates for a successful and streamlined Brainstorming Day.
 type: rule
 title: Pre event - Do you know how to farm Brainstorming ideas?
 uri: brainstorming-idea-farming
@@ -19,6 +19,7 @@ created: 2023-10-22T02:15:11.000Z
 archivedreason: null
 guid: 3dcf22f6-5c13-46b4-88c7-b6edac5d6996
 ---
+
 Beginning a Brainstorming Day without ideas prepared in advance is not a recipe for success. Time will be wasted either coming up with ideas, or preparing them to work on.
 
 For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation smoothens the day's proceedings and increases its overall value.
@@ -39,13 +40,13 @@ One month before brainstorming, you should review the repo and then remind all a
 
 ### 1. Look at all existing ideas in the Brainstorming GitHub Discussions repo
 
-* Great minds think alike and if you had an idea it's possible somebody else has had it as well. You may even find an idea you like and decide to reach out to the author to collaborate.
-* If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
+- Great minds think alike and if you had an idea it's possible somebody else has had it as well. You may even find an idea you like and decide to reach out to the author to collaborate.
+- If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
 
 ### 2. Pre-cooking - Come up with a few ideas for the day
 
-* These ideas should come from high-level people in the company.
+- These ideas should come from high-level people in the company.
 
 ### 3. Send out an email asking people to submit any new ideas they have
 
-* The email should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions.
+- The email should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions.

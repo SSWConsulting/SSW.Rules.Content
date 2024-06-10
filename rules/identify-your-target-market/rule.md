@@ -1,5 +1,5 @@
 ---
-seoDescription: "Identify your target market to capture maximum benefits and focus marketing efforts effectively."
+seoDescription: Identify your target market to capture maximum benefits and focus marketing efforts effectively.
 type: rule
 title: Strategy - Do you identify your target market?
 uri: identify-your-target-market

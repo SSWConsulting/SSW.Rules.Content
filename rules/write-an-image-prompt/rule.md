@@ -1,12 +1,12 @@
 ---
-seoDescription: "Write an image prompt that guides AI-generated images"
+seoDescription: Write an image prompt that guides AI-generated images
 type: rule
 archivedreason:
 title: Do you know how to write an image prompt?
 guid: 76149172-6173-4a4c-bcf2-52c59d813454
 uri: write-an-image-prompt
 created: 2023-06-30T00:00:00.000Z
-authors: 
+authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
   - title: Jayden Alchin

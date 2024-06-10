@@ -1,5 +1,5 @@
 ---
-seoDescription: "Minimize distractions and stay focused with these simple Skype settings: set your status to Busy, disable online/offline alerts, and customize IM sounds."
+seoDescription: Minimize distractions and stay focused with these simple Skype settings: set your status to Busy, disable online/offline alerts, and customize IM sounds.
 type: rule
 archivedreason: 
 title: Interruptions - Do you minimize Skype distractions?
@@ -17,7 +17,7 @@ redirects:
 
 ---
 
-[Dealing with distractions](/do-you-deal-with-distractions) is a fundamental rule to a successful project. Skype is a great way to get distracted. Following these options helps you to minimize messaging/communication distractions: 
+[Dealing with distractions](/do-you-deal-with-distractions) is a fundamental rule to a successful project. Skype is a great way to get distracted. Following these options helps you to minimize messaging/communication distractions:
 
 <!--endintro-->
 
@@ -25,4 +25,4 @@ redirects:
 2. Don't display an alert when a contact comes online or goes offline
 3. Don't play a sound when you receive an email. Remember - you do need a sound when you receive an IM in case you're not looking at your PC when it arrives.
 
-![Figure: Minimize Skype alerts you receive](minimize-skype-distractions.jpg)  
+![Figure: Minimize Skype alerts you receive](minimize-skype-distractions.jpg)

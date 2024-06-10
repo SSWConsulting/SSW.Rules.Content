@@ -1,5 +1,5 @@
 ---
-seoDescription: "Best place to put connection string: IOptions pattern over Web.config enables flexible and robust config in .NET."
+seoDescription: Best place to put connection string: IOptions pattern over Web.config enables flexible and robust config in .NET.
 type: rule
 title: Do you know the best place to place the connection string?
 uri: best-place-to-place-the-connection-string
@@ -11,6 +11,7 @@ archivedreason: |
   Update connection string management: prefer IOptions pattern over Web.Config. Enables flexible, robust config in .NET, emphasizing dependency injection.
 guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
 ---
+
 The best place to put the connection string is in the Web.Config file.That makes the code simple and easy to read. Look into the following code:
 
 <!--endintro-->

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Ensure a seamless presentation experience with our presentation run sheet, providing clarity on speaker order and timing to keep events on track."
+seoDescription: Ensure a seamless presentation experience with our presentation run sheet, providing clarity on speaker order and timing to keep events on track.
 type: rule
 title: Do you provide a presentation run sheet?
 uri: presentation-run-sheet

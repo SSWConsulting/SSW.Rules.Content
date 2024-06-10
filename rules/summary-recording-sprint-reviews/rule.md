@@ -1,5 +1,5 @@
 ---
-seoDescription: "Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement."
+seoDescription: Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement.
 type: rule
 title: Do you record a summary of Sprint Reviews for the stakeholders?
 uri: summary-recording-sprint-reviews
@@ -15,6 +15,7 @@ related:
 created: 2024-04-15T00:46:35.508Z
 guid: 99674806-7353-4d39-ac9a-219620d4e107
 ---
+
 Creating a comprehensive summary and recording of Sprint Reviews is a great way to communicate changes in a Product to the community and stakeholders. Especially for people who are unable to attend these meetings.
 
 <!--endintro-->
@@ -36,6 +37,7 @@ Creating a comprehensive summary and recording of Sprint Reviews is a great way 
 - **Keep it Generic:** Viewers might not have the same context of the Product, so try to present PBIs as though the viewers do not have prior knowledge.
 
 ### Runsheet
+
 Here's a suggested runsheet for what to cover in the video:
 
 1. Show the Product website
@@ -65,14 +67,14 @@ Here's a suggested runsheet for what to cover in the video:
 
 ## Examples of Good vs. Bad Practices
 
-::: greybox 
+::: greybox
 "Simply jotting down a few notes or making a low-quality audio recording on a phone."
 :::
 ::: bad  
 Figure: Bad example - Inadequate details and poor audio quality can lead to misunderstandings and disengagement
 :::
 
-::: greybox 
+::: greybox
 "Preparing a structured document that highlights all key outcomes, decisions, and next steps, accompanied by a high-quality video recording of the session."
 :::
 ::: good  

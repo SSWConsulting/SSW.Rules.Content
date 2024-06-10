@@ -1,5 +1,5 @@
 ---
-seoDescription: "Harnessing the power of 'no' responses to open up honest and productive dialogues in sales and negotiations."
+seoDescription: Harnessing the power of 'no' responses to open up honest and productive dialogues in sales and negotiations.
 type: rule
 title: Do you strive a 'no' response?
 uri: harnessing-the-power-of-no
@@ -24,13 +24,13 @@ Harnessing the power of 'No' - In sales and negotiations, the traditional approa
 ### The Strategy
 
 1. **Start with a 'no-oriented' question** - Instead of asking _"Is now a good time to talk?"_ try _"Is now a bad time to talk?"_
-  This question makes it easier for prospects to feel in control and less pressured. A 'no' response here actually means they are open to the conversation
+   This question makes it easier for prospects to feel in control and less pressured. A 'no' response here actually means they are open to the conversation
 2. **Frame your propositions differently** - Replace _"Is this a good idea?"_ with _"Is it a ridiculous idea to...?"_
-  This phrasing encourages a 'no', which paradoxically can mean they are open to considering your idea. The information that follows their 'no' often reveals their true concerns or interests
+   This phrasing encourages a 'no', which paradoxically can mean they are open to considering your idea. The information that follows their 'no' often reveals their true concerns or interests
 3. **Invert commitment questions** - Instead of "Do you agree?" ask _"Are you against...?"_
-  This not only reduces the pressure of commitment but also clarifies their position more effectively
+   This not only reduces the pressure of commitment but also clarifies their position more effectively
 4. **Reengage with a 'No-oriented' question** - If a prospect has gone silent, ask _"Have you given up on this project/idea?"_
-  This question prompts them to explain their current stance and can reignite the conversation
+   This question prompts them to explain their current stance and can reignite the conversation
 
 ### Why it works
 

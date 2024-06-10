@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you have a planned outage process to ensure minimal disruption and effective communication with users?"
+seoDescription: Do you have a planned outage process to ensure minimal disruption and effective communication with users?
 type: rule
 title: Outage - Do you have a planned outage process?
 uri: planned-outage-process
@@ -20,7 +20,6 @@ redirects:
 created: 2017-06-30T19:21:55.000Z
 archivedreason: null
 guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd
-
 ---
 
 For unplanned outages, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
@@ -45,26 +44,26 @@ it easier to remember to send the 'done' email. E.g. "done - CRM is alive again"
 Example:
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | SSWAll |
+| To: | SSWAll |
 | Subject: | Planned Outage | Date and time |  
-::: email-content  
+::: email-content
 
 ### Hi All
 
 Here is the summary of the outage plan:
 
-| **Planned/Unplanned:**      | Planned                                                                                               |
-| --------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **Change Description:**     | Install Windows Updates and Restart Server                                                            |
-| **Risk (see table below):** | LOW RISK (LOW Probability and MEDIUM Impact)                                                          |
-| **Reason For Change:**      | Windows 2016 Windows Updates                                                                          |
-| **Uptime over last month:** | 91.361%                                                                                               |
-| **Planned Outage (mins):**  | 150                                                                                                   |
-| **Planned Start Time:**     | 26 October 9:00 PM                                                                                    |
-| **Planned Finish Time:**    | 26 October 11:30 PM                                                                                   |
-| **Affected Services:**      | \Windows Server 2016  ,  sharepoint.ssw&#46;com.au intranet.ssw&#46;com.au  , projects.ssw&#46;com.au |
+| **Planned/Unplanned:**      | Planned                                                                                            |
+| --------------------------- | -------------------------------------------------------------------------------------------------- |
+| **Change Description:**     | Install Windows Updates and Restart Server                                                         |
+| **Risk (see table below):** | LOW RISK (LOW Probability and MEDIUM Impact)                                                       |
+| **Reason For Change:**      | Windows 2016 Windows Updates                                                                       |
+| **Uptime over last month:** | 91.361%                                                                                            |
+| **Planned Outage (mins):**  | 150                                                                                                |
+| **Planned Start Time:**     | 26 October 9:00 PM                                                                                 |
+| **Planned Finish Time:**    | 26 October 11:30 PM                                                                                |
+| **Affected Services:**      | \Windows Server 2016 , sharepoint.ssw&#46;com.au intranet.ssw&#46;com.au , projects.ssw&#46;com.au |
 
 **Risk Lookup Table by Probability and Impact:**
 

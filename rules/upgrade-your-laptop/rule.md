@@ -1,5 +1,5 @@
 ---
-seoDescription: "Upgrade your laptop regularly to ensure optimal performance and reduce waste through a computer rotation policy that includes recycling old devices."
+seoDescription: Upgrade your laptop regularly to ensure optimal performance and reduce waste through a computer rotation policy that includes recycling old devices.
 type: rule
 title: Computer Rotation - Do you know when to upgrade your laptop?
 uri: upgrade-your-laptop
@@ -15,14 +15,15 @@ authors:
 created: 2022-09-27T05:52:37.565Z
 guid: 52b3f2c6-fcb8-42f6-b469-f1621f839b49
 ---
+
 Managing multiple computers can be a challenging task, especially when it comes to keeping track of them. It can be a real pain to constantly monitor and manage numerous devices, each with its configurations and updates. Electronic gadgets should have an expiry date because their performance fades as we use them.
 
 For example, in the IT industry, laptops are the tools of the trade. Employers spend thousands of $ on laptops with good specs. However, these laptops deteriorate over time leading to poor performance. Some employees notice and complain, some do not notice that their laptop is no longer performing well. If you don't have a computer rotation policy, then you only renew laptops for the squeaky wheels (the people who complain).
 
 There are a few things that should be done with laptops in a company's fleet.
 
-* Rotation - Keep the fleet up-to-date
-* Waste management - Recycle old laptops
+- Rotation - Keep the fleet up-to-date
+- Waste management - Recycle old laptops
 
 ### Rotation - Keep the fleet up-to-date
 

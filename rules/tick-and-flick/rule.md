@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you make sure Sprint Reviews are "tick and flick"? Ensure efficient Sprint Reviews with better communication between developers and Product Owners."
+seoDescription: Do you make sure Sprint Reviews are "tick and flick"? Ensure efficient Sprint Reviews with better communication between developers and Product Owners.
 type: rule
 title: Do you make sure Sprint Reviews are "tick and flick"?
 uri: tick-and-flick
@@ -38,7 +38,7 @@ If the developer has shown the Product Owner the PBI prior to the Sprint Review,
 
 Developer: This PBI is about making the new customer contact form. Let me show you what I've done:
 
-🖥️ *Developer Demos the change*
+🖥️ _Developer Demos the change_
 
 Developer: Any questions?
 

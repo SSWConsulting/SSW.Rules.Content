@@ -1,5 +1,5 @@
 ---
-seoDescription: "Control environment creation and management in Power Platform using admin centre settings to restrict access to only global admins, Dynamics 365 admins, or Power Platform admins."
+seoDescription: Control environment creation and management in Power Platform using admin centre settings to restrict access to only global admins, Dynamics 365 admins, or Power Platform admins.
 type: rule
 archivedreason:
 title: Do you control who can create and manage Power Platform environments using the admin centre?

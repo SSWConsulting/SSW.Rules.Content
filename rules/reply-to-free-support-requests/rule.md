@@ -1,5 +1,5 @@
 ---
-seoDescription: "When responding to free support requests that require more than 20 minutes of work, it's essential to seek approval for billable hours."
+seoDescription: When responding to free support requests that require more than 20 minutes of work, it's essential to seek approval for billable hours.
 type: rule
 title: Do you know how to reply to free support requests that takes more than 20 minutes?
 uri: reply-to-free-support-requests
@@ -9,12 +9,11 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related: []
-redirects: 
-- how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
+redirects:
+  - how-do-you-reply-to-free-support-requests-which-would-need-more-than-20-minutes-work
 created: 2009-04-03T09:08:36.000Z
 archivedreason: null
 guid: 3c8ba38b-30fc-4d3b-b3ff-eda169bb744c
-
 ---
 
 If you need more than 20 minutes of work to perform a task, then it's not free, and you need to get approval for it.
@@ -24,11 +23,11 @@ Follow this template to reply:
 <!--endintro-->
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Charlie |
+| To: | Charlie |
 | Subject: | Request to fix bug |  
-::: email-content  
+::: email-content
 
 ### Hi Charlie
 

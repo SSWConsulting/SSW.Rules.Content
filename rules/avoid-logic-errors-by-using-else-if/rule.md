@@ -1,18 +1,17 @@
 ---
-seoDescription: "Avoid logic errors by using Else If statements to handle unexpected values and provide a clear indication of incorrect inputs."
+seoDescription: Avoid logic errors by using Else If statements to handle unexpected values and provide a clear indication of incorrect inputs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid logic errors by using Else If?
 guid: 1e259f2d-e97e-47cc-bbb7-1f449a258367
 uri: avoid-logic-errors-by-using-else-if
 created: 2018-04-25T17:44:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-avoid-logic-errors-by-using-else-if
-
+  - do-you-avoid-logic-errors-by-using-else-if
 ---
 
 We see a lot of programmers doing this, they have two conditions - true and false - and they do not consider other possibilities - e.g. an empty string. Take a look at this example. We have an If statement that checks what backend database is being used.
@@ -30,7 +29,7 @@ void Load(string environment)
   }
   else
   {
-    // set Production environment variables 
+    // set Production environment variables
   }
 }
 ```
@@ -54,7 +53,7 @@ void Load(string environment)
   }
   else if (environment == "Production")
   {
-    // set Production environment variables 
+    // set Production environment variables
   }
   else
   {

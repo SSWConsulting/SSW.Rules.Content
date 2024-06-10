@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's a generated SEO description: "Master the three commitments in Scrum: Product Goal, Sprint Goal, and Definition of Done, to drive your team towards a defined outcome and ensure quality product delivery.""
+seoDescription: Here's a generated SEO description: "Master the three commitments in Scrum: Product Goal, Sprint Goal, and Definition of Done, to drive your team towards a defined outcome and ensure quality product delivery."
 type: rule
 archivedreason: 
 title: Do you know the 3 commitments in Scrum (Product Goal, Sprint Goal, and Definition of Done)?
@@ -27,7 +27,7 @@ This is the commitment at the Product Backlog level. It is defined by the Produc
 ::: greybox
 The Product Goal describes a future state of the product which can serve as a target for the Scrum Team to plan against. The Product Goal is in the Product Backlog. The rest of the Product Backlog emerges to define “what” will fulfill the Product Goal.
 
-*"A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined users or customers. A product could be a service, a physical product, or something more abstract."*
+_"A product is a vehicle to deliver value. It has a clear boundary, known stakeholders, well-defined users or customers. A product could be a service, a physical product, or something more abstract."_
 
 The Product Goal is the long-term objective for the Scrum Team. They must fulfill (or abandon) one objective before taking on the next.  
 :::

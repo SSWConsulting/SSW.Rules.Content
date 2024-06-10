@@ -1,5 +1,5 @@
 ---
-seoDescription: "When to use Git for version control: Manage open source projects, remote teams, or unstable internet connections with built-in support from Team Foundation Server Update 2 and 2013."
+seoDescription: When to use Git for version control: Manage open source projects, remote teams, or unstable internet connections with built-in support from Team Foundation Server Update 2 and 2013.
 type: rule
 archivedreason: Deprecated
 title: Do you know when to use Git for version control?
@@ -22,22 +22,20 @@ Team Foundation Server Update 2 and Team Foundation Server 2013 comes with built
 
 <!--endintro-->
 
-![Figure: How you start using Git on TFS](git-screen.jpg)  
+![Figure: How you start using Git on TFS](git-screen.jpg)
 
 You should use Git if you:
 
-* Are running an open source project
-* Have lots of remote team members (as you get offline repo access with full history)
-* Have an unstable/sporadic internet connection
-* Develop in a non Microsoft environment (e.g. Linux, OSX)
-
+- Are running an open source project
+- Have lots of remote team members (as you get offline repo access with full history)
+- Have an unstable/sporadic internet connection
+- Develop in a non Microsoft environment (e.g. Linux, OSX)
 
 There are also several disadvantages:
 
-* No "My Work" view in Team Explorer
-* No "Code Review" integration in Visual Studio
-* No "Check in Policies"
-* No SOX, FDA or CFD-11 compliance
-
+- No "My Work" view in Team Explorer
+- No "Code Review" integration in Visual Studio
+- No "Check in Policies"
+- No SOX, FDA or CFD-11 compliance
 
 At this point, SSW still recommends Team Foundation Version Control (TFVC) as the version control system of choice.

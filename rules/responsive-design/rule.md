@@ -1,5 +1,5 @@
 ---
-seoDescription: "Responsive web design ensures a seamless user experience across various devices and screen sizes by dynamically adjusting layout and content presentation based on the user's device."
+seoDescription: Responsive web design ensures a seamless user experience across various devices and screen sizes by dynamically adjusting layout and content presentation based on the user's device.
 type: rule
 title: Do you design websites and apps to be responsive (aka mobile-friendly)?
 uri: responsive-design
@@ -20,6 +20,7 @@ created: 2014-12-09T19:28:12.000Z
 archivedreason: null
 guid: 4b3d2320-8bdd-48b1-a2ef-5d699c168792
 ---
+
 Are you ensuring your websites and apps are responsive, or mobile-friendly? While you might have a high-resolution monitor at your workstation or home, it's important to remember that many users access content through their mobile phones or tablets. 📱
 
 Your goal should be to create designs that seamlessly adapt to various screen sizes, from small mobile displays to large desktop monitors.
@@ -30,7 +31,7 @@ Responsive design remains crucial in today's digital landscape. It enables websi
 
 However, responsive design is just the beginning. To truly cater to mobile users, it's essential to consider factors beyond mere adaptability. This includes optimizing for touch interaction, prioritizing fast page load speeds, and crafting concise and easily digestible content on smaller screens.
 
-## The 10 essential mobile user experience (UX) elements 
+## The 10 essential mobile user experience (UX) elements
 
 When designing for mobile web, several factors are particularly relevant for ensuring a smooth UX. Here are the most important ones:
 
@@ -45,6 +46,6 @@ When designing for mobile web, several factors are particularly relevant for ens
 9. **Page Layout and Content Hierarchy:** Optimize your website's layout and content hierarchy for mobile screens, ensuring that key information is prominently displayed and easily accessible without excessive scrolling or zooming.
 10. **Accessibility:** Prioritize accessibility features such as resizable text, high contrast modes, and screen reader compatibility to ensure that all users, including those with disabilities, can access and interact with your website effectively.
 
-**💡 Tip:** [Google PageSpeed Insights](https://pagespeed.web.dev/) is a valuable tool for optimizing your website's performance, including its mobile user experience. 
+**💡 Tip:** [Google PageSpeed Insights](https://pagespeed.web.dev/) is a valuable tool for optimizing your website's performance, including its mobile user experience.
 
 ![Figure: Google PageSpeed Insights provides both lab and field data about your site's loading speed on mobile devices, along with actionable recommendations to improve performance.](ssw-france-mobile-performance-google-pagespeed.png)

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Learn how to set your work hours in CRM and Outlook calendar to improve resource scheduling, communication with part-time employees, and reduce meeting conflicts."
+seoDescription: Learn how to set your work hours in CRM and Outlook calendar to improve resource scheduling, communication with part-time employees, and reduce meeting conflicts.
 type: rule
 title: Calendar - Do you set your work hours in CRM and your Outlook calendar?
 uri: calendar-do-you-set-your-work-hours-in-your-calendars
@@ -14,7 +14,6 @@ redirects:
 created: 2012-09-25T18:08:17.000Z
 archivedreason: null
 guid: 9ddc3832-9a7c-4a2a-a60a-f24f44dca17f
-
 ---
 
 Setting up an Outlook calendar can be highly beneficial not just for you, but also for others who need to see your availability. By sharing your calendar with your colleagues, they can easily see when you are free or busy and can schedule meetings or appointments with you.

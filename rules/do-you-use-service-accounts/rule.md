@@ -1,5 +1,5 @@
 ---
-seoDescription: "Use service accounts securely for recurring tasks and systems to maintain application integrity and avoid password-related risks."
+seoDescription: Use service accounts securely for recurring tasks and systems to maintain application integrity and avoid password-related risks.
 type: rule
 title: Security - Do you use service accounts?
 uri: do-you-use-service-accounts

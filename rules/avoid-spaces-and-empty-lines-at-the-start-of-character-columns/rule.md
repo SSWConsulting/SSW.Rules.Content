@@ -1,20 +1,19 @@
 ---
-seoDescription: "Avoid spaces and empty lines at the start of character columns by handling whitespace in the middle-tier before it reaches the database."
+seoDescription: Avoid spaces and empty lines at the start of character columns by handling whitespace in the middle-tier before it reaches the database.
 type: rule
-archivedreason: 
+archivedreason:
 title: Data - Do you avoid spaces and empty lines at the start of character columns?
 guid: 848bd3dc-36eb-408f-a216-ce06bb730c54
 uri: avoid-spaces-and-empty-lines-at-the-start-of-character-columns
 created: 2019-11-25T19:01:24.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
-- data-do-you-avoid-spaces-and-empty-lines-at-the-start-of-character-columns
-
+  - data-do-you-avoid-spaces-and-empty-lines-at-the-start-of-character-columns
 ---
 
 Text in character columns (char, varchar, text, nchar, varchar, text) can start with spaces or empty lines which is usually data entry error.
@@ -37,8 +36,8 @@ static string Trim(string inputText)
 
 The code above:
 
-* Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
-* Retrieves the index of the character
-* Returns the text from the character onwards, thus removing the whitespace at the start
+- Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
+- Retrieves the index of the character
+- Returns the text from the character onwards, thus removing the whitespace at the start
 
 This code could be triggered in the middle-tier before inserting into the database.

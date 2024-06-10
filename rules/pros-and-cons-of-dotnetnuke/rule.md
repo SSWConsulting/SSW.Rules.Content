@@ -1,5 +1,5 @@
 ---
-seoDescription: "DotNetNuke pros and cons - a comprehensive guide to its benefits and limitations as the largest open source .NET CMS."
+seoDescription: DotNetNuke pros and cons - a comprehensive guide to its benefits and limitations as the largest open source .NET CMS.
 type: rule
 title: Do you know the pros and cons of DotNetNuke?
 uri: pros-and-cons-of-dotnetnuke
@@ -25,4 +25,3 @@ guid: 2712e707-53d6-4545-bdf9-5eb5a4a4c0b6
 
 - It's not based on MVC like Orchard. Note that this may not be a con for your organization
 - It is missing some enterprise features like those in Sitecore, EpiServer and SharePoint
-            

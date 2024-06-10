@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's a possible SEO description: "Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors.""
+seoDescription: Here's a possible SEO description: "Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors."
 type: rule
 title: Do you know how to handle errors in Angular?
 guid: e2db8815-a9ce-4f42-92ab-744e29e2b913
@@ -34,11 +34,11 @@ export class AppModule { }
 ```
 
 ```ts
-@Injectable({ providedIn: 'root' })
+@Injectable({ providedIn: "root" })
 export class GlobalErrorHandlerService implements ErrorHandler {
   handleError(error: unknown): void {
     // Handle the error here, you can inject services
-    console.error('Uncaught error!', error);
+    console.error("Uncaught error!", error);
   }
 }
 ```
@@ -77,33 +77,36 @@ export class HomeModule { }
 
 All failed API calls not handled (i.e. not caught) will be handled by `ErrorHandler`. There are several ways to handle API errors by hand in cases where we need to do a specific error handling for an API; some of them are:
 
-* In `Subscribe` method:
+- In `Subscribe` method:
 
-    ```ts
-    this.http.get('/foo').subscribe({
-      next: response => {
-        // Handle response
-      },
-      error: err => {
+  ```ts
+  this.http.get("/foo").subscribe({
+    next: (response) => {
+      // Handle response
+    },
+    error: (err) => {
+      // Handle error
+      console.error("Error while calling API", err);
+    },
+  });
+  ```
+
+- In `pipe` using `catchError()`:
+
+  ```ts
+  this.http
+    .get("/foo")
+    .pipe(
+      catchError((err) => {
         // Handle error
-        console.error('Error while calling API', err);
-      },
-    });
-    ```
-
-* In `pipe` using `catchError()`:
-
-    ```ts
-    this.http.get('/foo').pipe(
-      catchError(err => {
-        // Handle error
-        console.error('Error while calling API', err);
+        console.error("Error while calling API", err);
         return of(null); // Return fallback value
       })
-    ).subscribe(response => {
+    )
+    .subscribe((response) => {
       // Handle response
     });
-    ```
+  ```
 
 ### Catching API errors in HTTP Interceptor
 
@@ -155,7 +158,7 @@ A structured error message is needed to communicate errors effectively between A
 One of the standard structures is using the `ProblemDetails` format. Read more about this on [Do you return detailed error messages?
 ](/do-you-return-detailed-error-messages).
 
-Using `ProblemDetails`, we can identify the errors,  extract information from the error payload, and act appropriately based on the error.
+Using `ProblemDetails`, we can identify the errors, extract information from the error payload, and act appropriately based on the error.
 
 In the example below, we show a message box showing the error message from the API.
 
@@ -166,28 +169,28 @@ In the example below, we show a message box showing the error message from the A
   "title": "Invalid ID",
   "status": 400,
   "detail": "The provided ID has invalid characters.",
-  "instance": "/account/12%203",
+  "instance": "/account/12%203"
 }
 ```
 
 ```ts
-this.http.get('/foo').subscribe({
-  next: response => {
+this.http.get("/foo").subscribe({
+  next: (response) => {
     // Handle response
   },
   error: (err) => {
     // Handle error
     if (!(err instanceof HttpErrorResponse)) {
-      console.error('Error while calling API', err);
+      console.error("Error while calling API", err);
     }
 
-    if (err.error.type === 'https://example.com/probs/invalid-id') {
+    if (err.error.type === "https://example.com/probs/invalid-id") {
       // Show error message
       this.snackbar.open(`${error.title} - ${error.detail}`);
       return;
     }
 
-    console.error('API error', err);
+    console.error("API error", err);
   },
 });
 ```

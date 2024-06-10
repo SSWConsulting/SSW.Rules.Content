@@ -1,5 +1,5 @@
 ---
-seoDescription: "As a Scrum Master, scheduling three crucial meetings - Sprint Review, Retrospective, and Planning - ensures successful Sprints."
+seoDescription: As a Scrum Master, scheduling three crucial meetings - Sprint Review, Retrospective, and Planning - ensures successful Sprints.
 type: rule
 title: Scrum Master - Do you schedule the 3 meetings?
 uri: scrum-master-do-you-schedule-the-3-meetings
@@ -23,14 +23,14 @@ The Scrum Master (not ScrumMaster), must schedule the Sprint Review, Retrospecti
 
 Estimate how much time each meeting will require, then schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
 
-* Ideally, each of the 3 meetings should be time-boxed to an hour for every week of their associated Sprint.
-* This timeboxing does not mean the whole time will be taken up, just that you should not let the time for each meeting be exceeded.
-* With the Product Owner's help, the Scrum Team will need some time to update the Product Backlog after the Retrospective and before the Planning meeting.
-* People need breaks.
-* The Sprint officially finishes at the end of the Sprint Retrospective meeting. The Sprint Planning meeting marks the beginning of the next Sprint.
-* These meetings do not necessarily have to be held on a Friday or Monday. You can have a Sprint start and end on any day of the week.
-Mid week meetings are recommended so that the likelihood of it occurring on a public holiday long weekend is minimized.
-* Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance.
+- Ideally, each of the 3 meetings should be time-boxed to an hour for every week of their associated Sprint.
+- This timeboxing does not mean the whole time will be taken up, just that you should not let the time for each meeting be exceeded.
+- With the Product Owner's help, the Scrum Team will need some time to update the Product Backlog after the Retrospective and before the Planning meeting.
+- People need breaks.
+- The Sprint officially finishes at the end of the Sprint Retrospective meeting. The Sprint Planning meeting marks the beginning of the next Sprint.
+- These meetings do not necessarily have to be held on a Friday or Monday. You can have a Sprint start and end on any day of the week.
+  Mid week meetings are recommended so that the likelihood of it occurring on a public holiday long weekend is minimized.
+- Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance.
 
 ::: greybox
 **Tip:** It can be helpful to finish the Sprint Planning meeting with the first Daily Scrum.
@@ -39,19 +39,19 @@ Mid week meetings are recommended so that the likelihood of it occurring on a pu
 Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| Required Attendees:      | Scrum Team |
-| Optional Attendees:      | Interested Stakeholders |
-| Recurrence:     | Every  **{{Number of weeks in the Sprint}}** weeks |
+| Required Attendees: | Scrum Team |
+| Optional Attendees: | Interested Stakeholders |
+| Recurrence: | Every **{{Number of weeks in the Sprint}}** weeks |
 | Subject: | {{Project Name}} – Sprint Review, Retro and Planning |  
-::: email-content  
+::: email-content
 
 ### Hi Team
 
-* Product Owner: {{Product Owner}}  
-* Scrum Master: {{Scrum Master}}  
-* Sprint Length: {{x}} weeks  
+- Product Owner: {{Product Owner}}
+- Scrum Master: {{Scrum Master}}
+- Sprint Length: {{x}} weeks
 
 This is a calendar appointment to hold the following 3 Scrum meetings:
 
@@ -92,8 +92,8 @@ See [Meetings - Do you know when to send an Appointment or a Teams Meeting?](/se
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting") (Stand-up)
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-:::
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+- [Daily Scrum Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting") (Stand-up)
+- [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+- [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+  :::

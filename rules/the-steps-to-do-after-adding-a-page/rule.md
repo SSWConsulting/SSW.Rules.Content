@@ -1,5 +1,5 @@
 ---
-seoDescription: "After adding a website page, follow these steps to keep your content healthy: Check MS Word (or Grammarly) for spelling and grammar mistakes. Run Link Auditor and Code Auditor on that page. Check the report and fix errors (if any). Repeat steps 2-3 until all green ticks. Output:"
+seoDescription: After adding a website page, follow these steps to keep your content healthy: Check MS Word (or Grammarly) for spelling and grammar mistakes. Run Link Auditor and Code Auditor on that page. Check the report and fix errors (if any). Repeat steps 2-3 until all green ticks. Output:
 type: rule
 archivedreason: 
 title: Do you know the steps to do after adding a website page?
@@ -23,5 +23,5 @@ In order to keep the content you add is healthy (doesn't have grammar or spellin
 
 1. Check the rule in MS Word (or [Grammarly](https://grammarly.com/)) to see [if it has spelling or grammar mistakes](/do-you-use-spelling-and-grammar-checker-to-make-your-email-professional)
 2. Run Link Auditor and Code Auditor on that page
-3. Check the report and fix the errors (if any)   
-  Repeat step 2 and 3 until Link Auditor and Code Auditor get all green ticks
+3. Check the report and fix the errors (if any)  
+   Repeat step 2 and 3 until Link Auditor and Code Auditor get all green ticks

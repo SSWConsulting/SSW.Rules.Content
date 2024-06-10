@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's a generated SEO description: "Optimize user interface design with simplicity and clarity to provide an intuitive experience for users, improving overall application usability and reducing support calls.""
+seoDescription: Here's a generated SEO description: "Optimize user interface design with simplicity and clarity to provide an intuitive experience for users, improving overall application usability and reducing support calls."
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/less-is-more](/rules/less-is-more)
 title: Windows Forms - Do you realize that when it comes to interfaces 'less is more'?
@@ -20,9 +20,9 @@ redirects: []
 
 How to make a user interface great:
 
-* Less is more - keep your design as simple and uncluttered as possible
-* Understand the importance of defaults - Aim for 'Next', 'Next', 'Next'
-* Hide advanced options, but make them easy to find!
+- Less is more - keep your design as simple and uncluttered as possible
+- Understand the importance of defaults - Aim for 'Next', 'Next', 'Next'
+- Hide advanced options, but make them easy to find!
 
 Most developers think about user interface last. They spend their time worrying about class design, threading, and system architecture. All this is important, of course. But the user only experiences software on the surface level.
 

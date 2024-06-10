@@ -1,5 +1,5 @@
 ---
-seoDescription: "Unlock employee creativity and innovation through brainstorming days, fostering team bonding and empowering your workforce to drive business growth."
+seoDescription: Unlock employee creativity and innovation through brainstorming days, fostering team bonding and empowering your workforce to drive business growth.
 type: rule
 title: Do you use the brains of your company?
 uri: use-the-brains-of-your-company
@@ -22,7 +22,6 @@ redirects:
 created: 2019-12-07T02:15:11.000Z
 archivedreason: null
 guid: e774f9e0-d13b-45f0-bd9d-ac1146f51ee3
-
 ---
 
 Your employees are your greatest asset, yet their valuable knowledge and insights often go unnoticed. Why not harness their creativity and problem-solving abilities by hosting a fun and collaborative Brainstorming day? It's a simple but effective way to unlock innovative ideas, foster team bonding, and empower your workforce. 🧠💪
@@ -37,10 +36,10 @@ Employees on the front line often have valuable insights into opportunities for 
 
 Different companies have different approaches to this. For example:
 
-* **Atlassian** - Give employees 1 day a year to work on a feature they want
-* **Google** - Employees are allowed to dedicate 20% of their time to 'pet projects' (subject to approval)
-* **Microsoft** - Scott Guthrie takes senior leaders offsite for 1 week each year
-* **SSW** - Adam Cogan conducts an annual Brainstorming day in each state office
+- **Atlassian** - Give employees 1 day a year to work on a feature they want
+- **Google** - Employees are allowed to dedicate 20% of their time to 'pet projects' (subject to approval)
+- **Microsoft** - Scott Guthrie takes senior leaders offsite for 1 week each year
+- **SSW** - Adam Cogan conducts an annual Brainstorming day in each state office
 
 `youtube: https://www.youtube.com/embed/ov8OGcApBjc`
 

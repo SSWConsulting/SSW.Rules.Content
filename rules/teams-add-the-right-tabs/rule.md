@@ -1,5 +1,5 @@
 ---
-seoDescription: "Add the right tabs when creating a new Teams conversation to streamline your workflow and access necessary work items from a single location."
+seoDescription: Add the right tabs when creating a new Teams conversation to streamline your workflow and access necessary work items from a single location.
 type: rule
 title: Tabs - Do you add the right tabs when creating a new Teams conversation?
 uri: teams-add-the-right-tabs
@@ -24,6 +24,7 @@ created: 2017-08-28T17:41:29.000Z
 archivedreason: null
 guid: 0dcf7ad1-63c7-456d-808f-49d589dcb3f6
 ---
+
 When you're having a discussion about the Northwind ordering system that you're building, you need to see your backlog, and of course, it would be handy to see a OneNote diagram of the workflow. It might also be handy to see an Excel spreadsheet of the stakeholders and testers.
 
 <!--endintro-->

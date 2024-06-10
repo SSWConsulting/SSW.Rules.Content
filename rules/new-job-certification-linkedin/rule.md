@@ -1,5 +1,5 @@
 ---
-seoDescription: "LinkedIn users announcing new job or certification can boost their professional network and career prospects by sharing engaging posts with branded images."
+seoDescription: LinkedIn users announcing new job or certification can boost their professional network and career prospects by sharing engaging posts with branded images.
 type: rule
 title: LinkedIn - Do you know the best way to announce you got a new job or
   certification?

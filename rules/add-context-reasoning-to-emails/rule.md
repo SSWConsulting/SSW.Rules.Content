@@ -1,5 +1,5 @@
 ---
-seoDescription: "Explaining emails - Add context and reasoning to ensure clarity and understanding."
+seoDescription: Explaining emails - Add context and reasoning to ensure clarity and understanding.
 type: rule
 title: Explaining - Do you add context/reasoning to emails?
 uri: add-context-reasoning-to-emails
@@ -17,7 +17,6 @@ redirects:
 created: 2009-03-27T03:20:53.000Z
 archivedreason: null
 guid: 0b07e78b-2624-46fd-bad1-ad767b7bf725
-
 ---
 
 Sometimes you send an email and get a response saying it's too cryptic. Never assume that others will understand you anyways. When sending an email it's very important to add context and reasoning, and make yourself as clear as possible. This way anyone can understand your content at any time in the future.
@@ -29,13 +28,13 @@ It starts with a [good email subject](/good-email-subject). Then provide extra c
 Also make sure to always [keep the history of an email](/keep-email-history), so there are enough details in the thread for anyone else to acknowledge what is going on.
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Dave |
+| To: | Dave |
 | Subject: | Map link |  
-::: email-content  
+::: email-content
 
-### Hi Dave  
+### Hi Dave
 
 I've added the map link
 
@@ -46,13 +45,13 @@ Figure: Bad example - There is no context or reasoning
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Dave |
+| To: | Dave |
 | Subject: | SSW.Website - Office page - Add link to address |  
-::: email-content  
+::: email-content
 
-### Hi Dave  
+### Hi Dave
 
 ssw.com.au/offices/sydney
 

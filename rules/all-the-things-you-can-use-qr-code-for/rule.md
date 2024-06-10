@@ -1,5 +1,5 @@
 ---
-seoDescription: "Unlocking the Power of QR Codes: From Payments to Product Information Discover the numerous applications of QR codes, from making payments and installing apps to verifying product information and unlocking share-bikes. Explore the world of offline-to-online transactions, WeChat, Alipay, and more!"
+seoDescription: Unlocking the Power of QR Codes: From Payments to Product Information Discover the numerous applications of QR codes, from making payments and installing apps to verifying product information and unlocking share-bikes. Explore the world of offline-to-online transactions, WeChat, Alipay, and more!
 type: rule
 title: Do you know all the things you can use QR codes for?
 uri: all-the-things-you-can-use-qr-code-for
@@ -68,7 +68,7 @@ QR codes are used for linking information such as supply and manufacture dates o
 Companies are using QR codes to distribute Apps to download and install. It is easier than putting a link on ads or asking customers to search in App stores.
 
 ![Figure: A government-sponsored billboard in Hangzhou showcasing apps for tourists](install-apps-qr-code.jpeg)
-  
+
 ### 7. Use a QR code to sign-up and login to websites
 
 Some websites offer login using WeChat’s third-party authentication API - simply use WeChat to scan their QR code.

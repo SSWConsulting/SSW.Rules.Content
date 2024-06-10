@@ -1,5 +1,5 @@
 ---
-seoDescription: "Manage multiple email accounts efficiently by avoiding confusion and inconsistencies in communication. Use your personal email account for replies and CC shared company emails to maintain transparency and keep threads tracked."
+seoDescription: Manage multiple email accounts efficiently by avoiding confusion and inconsistencies in communication. Use your personal email account for replies and CC shared company emails to maintain transparency and keep threads tracked.
 type: rule
 title: Manage multiple email accounts - personal and shared company emails
 uri: manage-multiple-email-accounts

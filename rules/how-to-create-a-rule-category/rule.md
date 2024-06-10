@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here's the generated SEO description: "Create a rule category and summary page to organize SharePoint rules and improve user navigation." Let me know if you'd like any adjustments! 😊"
+seoDescription: Here's the generated SEO description: "Create a rule category and summary page to organize SharePoint rules and improve user navigation." Let me know if you'd like any adjustments! 😊
 type: rule
 archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories
 title: SharePoint - Do you know how to create a rule category? (internal only)
@@ -38,16 +38,16 @@ Basically, creating a rule category contains two parts of work.
 
 **2. Create a "rule summary" page to show rule pages belong to this rule category**
 
-1) Go to "Site Setting" | "Add a page" to create a new page:
-  ![](rulecategor3.jpg)
+1. Go to "Site Setting" | "Add a page" to create a new page:
+   ![](rulecategor3.jpg)
 
-2) Type the rule category name in the popup dialog (same as the rule category name created in term store, e.g. "Rules to Better xxx"), then click "Create" button:
-  ![Figure: a friendly url will be automatically generated](rulecategor4.jpg)
+2. Type the rule category name in the popup dialog (same as the rule category name created in term store, e.g. "Rules to Better xxx"), then click "Create" button:
+   ![Figure: a friendly url will be automatically generated](rulecategor4.jpg)
 
-3) On the new created page, go to "Ribbon" | "Page" | "Page Layout" to change the new created page layout to be "SSW - Rule Summary Page":
+3. On the new created page, go to "Ribbon" | "Page" | "Page Layout" to change the new created page layout to be "SSW - Rule Summary Page":
 
-  ![](rulecategor5.jpg)
+![](rulecategor5.jpg)
 
-4) "Check in" and "Publish" this "Rule Summary" page, then you should have a page like below,
-  
-  ![Figure: Any futher created "rule pages" belong to this "rule category" will be listed on this page](rulecategor6.jpg)
+4. "Check in" and "Publish" this "Rule Summary" page, then you should have a page like below,
+
+![Figure: Any futher created "rule pages" belong to this "rule category" will be listed on this page](rulecategor6.jpg)

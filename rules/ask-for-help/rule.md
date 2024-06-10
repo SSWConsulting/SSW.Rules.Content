@@ -1,5 +1,5 @@
 ---
-seoDescription: "When to ask for help? Learn how to determine if it's time to ask, do your due diligence, figure out who to ask, and prepare to talk to a senior."
+seoDescription: When to ask for help? Learn how to determine if it's time to ask, do your due diligence, figure out who to ask, and prepare to talk to a senior.
 type: rule
 title: Do you know when and how to ask for help?
 uri: ask-for-help
@@ -22,7 +22,6 @@ related:
   - when-to-email-chat-call-or-meet
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
-
 ---
 
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
@@ -42,8 +41,8 @@ Asking for help should follow 4 phases:
 
 As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here are some useful guidelines:
 
-* Don't spend more than 1 hour blocked on a PBI before asking your team
-* Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
+- Don't spend more than 1 hour blocked on a PBI before asking your team
+- Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
 
 If you've spent more time than that blocked and haven't spoken to anyone **That is a problem!**
 
@@ -55,15 +54,15 @@ Before asking for help, ensure you've done your due diligence and exhausted your
 
 Here are some things developers should do before asking for help:
 
-* Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
-* Check [Stack Overflow](https://stackoverflow.com/)
-* Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
-* Explore the code
-  * Look at pages that do similar things
-  * Put breakpoints and check the values to see if you can figure out little bits
-  * Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
-* Try to resolve it yourself a few times
-* Explain the problem to yourself
+- Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
+- Check [Stack Overflow](https://stackoverflow.com/)
+- Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
+- Explore the code
+  - Look at pages that do similar things
+  - Put breakpoints and check the values to see if you can figure out little bits
+  - Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
+- Try to resolve it yourself a few times
+- Explain the problem to yourself
 
 ### 3 - Figure out who to ask
 
@@ -88,7 +87,7 @@ Make sure your struggles are documented in a PBI including context, screenshots 
 
 1. Document the recommendation in the PBI so that you can [manage up](/do-you-manage-up) when you call.
 2. Call and share screens showing the documented information.
-  
+
 ##### If you do **not** have a recommendation
 
 1. Document what you did to try and find a recommendation in the PBI.
@@ -100,5 +99,5 @@ That way, the senior doesn't need to interrogate you to figure out what you have
 
 ### Other tips
 
-* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue
-* Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock
+- A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue
+- Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock

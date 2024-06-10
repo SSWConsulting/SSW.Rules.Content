@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do not throw exceptions using System.Exception to avoid generic exception handling and instead use specific exception classes that clearly convey the error's meaning."
+seoDescription: Do not throw exceptions using System.Exception to avoid generic exception handling and instead use specific exception classes that clearly convey the error's meaning.
 type: rule
 title: Do you know that you should never throw an exception using System.Exception?
 uri: do-you-know-that-you-should-never-throw-an-exception-using-system-exception
@@ -27,7 +27,7 @@ As a standard, you should use an exception class with the name that best describ
 
 Also, System.ApplicationException should be avoided as well unless it's an exception related to the application. While it's acceptable and should be used in certain cases, be aware that using it broadly will be just as bad as 'throw new Exception()'.
 
-``` cs
+```cs
 
 public async Task<Unit> Handle(UpdateTodoListCommand request, CancellationToken cancellationToken)
 {
@@ -41,11 +41,12 @@ public async Task<Unit> Handle(UpdateTodoListCommand request, CancellationToken 
         ...
 }
 ```
+
 ::: bad
 Figure: Bad example - System.Exception is thrown, you now need to read the code to try to work out what is going wrong (hard if it was thrown by code outside of this solution)
 :::
 
-``` cs
+```cs
 
 public async Task<Unit> Handle(UpdateTodoListCommand request, CancellationToken cancellationToken)
 {
@@ -82,6 +83,7 @@ public class NotFoundException : Exception
         }
     }
 ```
+
 ::: good
 Figure: Good example - A specific exception is thrown which you can specifically catch, the message is consistently formatted and a consuming application can understand what was wrong with their request easily
 :::

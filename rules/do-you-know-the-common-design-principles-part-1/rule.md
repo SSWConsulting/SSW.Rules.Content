@@ -1,5 +1,5 @@
 ---
-seoDescription: "Understand the fundamentals of software design by learning the five SOLID principles: Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle."
+seoDescription: Understand the fundamentals of software design by learning the five SOLID principles: Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.
 type: rule
 archivedreason: 
 title: Do you know the common Design Principles? (Part 1)
@@ -37,7 +37,7 @@ A class should have one, and only one reason to change.
 :::
 
 ::: good
-Figure: Your code should be using     [SOLID principles](https&#58;//en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
+Figure: Your code should be using [SOLID principles](https://en.wikipedia.org/wiki/SOLID_%28object-oriented_design%29)
 
 :::
 
@@ -51,6 +51,6 @@ It is assumed knowledge that you know all 5 SOLID principles. If you don't, read
 2. Liskov Substitution and Dependency Inversion are the next most common violations, so keep an eye out for them next
 3. When teams first begin implementing Dependency Injection, it is common for them to generate bloated interfaces that violate the Interface Segregation Principle.
 
-After you have identified and corrected the most obvious broad principle violations, you can start drilling into the code and looking for localized code breaches. [ReSharper](http&#58;//www.jetbrains.com/resharper/) from JetBrains or [JustCode](http&#58;//www.telerik.com/products/justcode.aspx) from Telerik are invaluable tools once you get to this level.
+After you have identified and corrected the most obvious broad principle violations, you can start drilling into the code and looking for localized code breaches. [ReSharper](http://www.jetbrains.com/resharper/) from JetBrains or [JustCode](http://www.telerik.com/products/justcode.aspx) from Telerik are invaluable tools once you get to this level.
 
 Once you understand common design principles, look at [common design patterns](/do-you-know-the-common-design-patterns-part-1) to help you follow them in your projects.

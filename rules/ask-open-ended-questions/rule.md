@@ -1,18 +1,17 @@
 ---
-seoDescription: "Ask open-ended questions to engage prospects and encourage meaningful conversations during outbound calls."
+seoDescription: Ask open-ended questions to engage prospects and encourage meaningful conversations during outbound calls.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you ask open-ended questions?
 guid: c594fa87-59b6-4891-8487-e17d8f7fe6c3
 uri: ask-open-ended-questions
 created: 2018-04-09T23:42:39.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-ask-open-ended-questions
-
+  - do-you-ask-open-ended-questions
 ---
 
 The goal of any outbound call is to get the person on the other end of the line involved. The way to do this is to employ a knockout combo. If you were a boxer, you'd follow up a jab with a cross hook and an uppercut! (the good ole one-two-three knockout!). If you're a telemarketer you follow the ["Yes Ladder"](/build-a-yes-ladder-to-your-outbound-script) up with open-ended questions.
@@ -42,7 +41,7 @@ Figure: Good example
 
 This question is great because of the following reasons:
 
-* Stays on the topic
-* It's likely the prospect has thought about this
-* The answer is likely to give you some good points to feed off or identify what doesn't interest them
-* The question can't be answered with a quick yes or no and the prospect must think about how they really feel/think. This increases their involvement and investment into the conversation bringing you a step closer to a sale
+- Stays on the topic
+- It's likely the prospect has thought about this
+- The answer is likely to give you some good points to feed off or identify what doesn't interest them
+- The question can't be answered with a quick yes or no and the prospect must think about how they really feel/think. This increases their involvement and investment into the conversation bringing you a step closer to a sale

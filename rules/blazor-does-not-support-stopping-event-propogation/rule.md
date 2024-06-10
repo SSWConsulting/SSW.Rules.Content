@@ -1,5 +1,5 @@
 ---
-seoDescription: "Blazor doesn't support stopping event propagation, making it difficult to prevent unwanted events from triggering."
+seoDescription: Blazor doesn't support stopping event propagation, making it difficult to prevent unwanted events from triggering.
 type: rule
 title: Do you know Blazor doesn't support stopping event propagation?
 uri: blazor-does-not-support-stopping-event-propogation
@@ -9,10 +9,11 @@ authors:
 created: 2022-08-17T18:40:42.796Z
 guid: 8744a176-c690-43a2-abd8-6a48ab0725b5
 ---
+
 Workaround - When you have two fields and you want to handle tabbing out of the last one to do some stuff and save.
 
-* If you handle onkeydown the value isn't set yet
-* If you handle onkeyup it triggers on the first field instead of the last one
+- If you handle onkeydown the value isn't set yet
+- If you handle onkeyup it triggers on the first field instead of the last one
 
 <!--endintro-->
 

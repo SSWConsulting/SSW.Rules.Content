@@ -1,5 +1,5 @@
 ---
-seoDescription: "Include URLs in tasks and "Done" emails to enhance transparency and collaboration by providing easy access to relevant information."
+seoDescription: Include URLs in tasks and "Done" emails to enhance transparency and collaboration by providing easy access to relevant information.
 type: rule
 title: Do you include URLs in tasks and "Done" emails?
 uri: include-links-in-emails
@@ -19,7 +19,6 @@ redirects:
 created: 2009-12-10T06:55:30.000Z
 archivedreason: null
 guid: ed0fa76a-418b-4b59-9e3b-2544c08b910e
-
 ---
 
 Always include the relevant URL to your emails, like when you want to request or just made a change to a webpage or document. This way people can easily check the details of the tasks. This is especially important for ["Done" emails](/reply-done-and-delete-the-email).

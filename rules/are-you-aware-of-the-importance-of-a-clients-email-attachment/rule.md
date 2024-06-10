@@ -1,5 +1,5 @@
 ---
-seoDescription: "Including clients' email attachments in replies preserves history and provides clear context for issue resolution."
+seoDescription: Including clients' email attachments in replies preserves history and provides clear context for issue resolution.
 type: rule
 title: Do you include clients' email attachments in your replies?
 uri: are-you-aware-of-the-importance-of-a-clients-email-attachment
@@ -15,6 +15,7 @@ created: 2009-04-07T07:17:05.000Z
 archivedreason: null
 guid: d0e9e233-6618-48da-b5d1-7e2ffbbde7c7
 ---
+
 Sometimes clients will add attachment files into emails. Those files could be documents or images, which may contain details or solutions of the issue, or some helpful information.
 
 To keep the history, it is very important to keep the attachment files into the email since it's easy to lose those files when responding.

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Improve your presentations by leveraging PowerPoint comments for seamless feedback and task assignment, streamlining communication and ensuring everyone's on the same page."
+seoDescription: Improve your presentations by leveraging PowerPoint comments for seamless feedback and task assignment, streamlining communication and ensuring everyone's on the same page.
 type: rule
 title: Do you use PowerPoint comments for feedback?
 uri: powerpoint-comments

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Working from home doesn't mean abandoning personal appearance and professionalism, even for remote meetings, by dressing accordingly and setting up a dedicated workspace."
+seoDescription: Working from home doesn't mean abandoning personal appearance and professionalism, even for remote meetings, by dressing accordingly and setting up a dedicated workspace.
 type: rule
 archivedreason: null
 title: Do you take care of your personal appearance even for remote meetings?
@@ -16,7 +16,6 @@ authors:
 related: []
 redirects:
   - do-you-take-care-of-your-personal-appearance-even-for-remote-meetings
-
 ---
 
 Some people might think that if they are working from home it’s OK to wear pyjamas or not brush their hair. However, if you change into your usual dress code, you will feel more motivated and ready to work. Also, you will show professionalism by not wearing pyjamas and attending meetings as you would if you were there in person.

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Learn how to hand over a project smoothly and ensure continuity with our step-by-step guide. Know the responsibilities of the person transitioning away from the project and follow our comprehensive checklist."
+seoDescription: Learn how to hand over a project smoothly and ensure continuity with our step-by-step guide. Know the responsibilities of the person transitioning away from the project and follow our comprehensive checklist.
 type: rule
 title: Do you know how to hand over a project?
 uri: hand-over-projects
@@ -8,7 +8,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: 
+related:
   - hand-over-responsibilities
 redirects:
   - do-you-know-how-to-handover-a-project
@@ -33,11 +33,11 @@ It's essential to initiate the handover planning as soon as a transition is know
 Send this checklist in an email before the handover meeting to guide the discussion:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| From:    | {{ YOUR NAME }} |
-| To:      | {{ RECIPIENT }} |
-| Cc:      | {{ TEAM MEMBERS, PRODUCT OWNER }} |
+| From: | {{ YOUR NAME }} |
+| To: | {{ RECIPIENT }} |
+| Cc: | {{ TEAM MEMBERS, PRODUCT OWNER }} |
 | Subject: | 🤝 Handover Checklist - {{ PROJECT NAME }} |
 
 ::: email-content

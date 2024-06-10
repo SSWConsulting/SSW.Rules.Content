@@ -1,5 +1,5 @@
 ---
-seoDescription: "Effortlessly manage ticket sales and events with EventBrite, a comprehensive platform for selling, refunding, marketing, and more."
+seoDescription: Effortlessly manage ticket sales and events with EventBrite, a comprehensive platform for selling, refunding, marketing, and more.
 type: rule
 title: Sales - Do you have a way of selling tickets?
 uri: a-way-of-selling-tickets
@@ -18,11 +18,11 @@ Managing the process of selling tickets can be very time consuming if you try an
 
 <!--endintro-->
 
-A much better approach is to use a service like [EventBrite](http&#58;//www.eventbrite.com/). SSW uses EventBrite for all events, as it allows you to manage all aspects of ticketing
+A much better approach is to use a service like [EventBrite](http://www.eventbrite.com/). SSW uses EventBrite for all events, as it allows you to manage all aspects of ticketing
 
-* Selling
-* Refunding
-* Marketing
-* Mailing lists
-* Issuing more tickets
-* And much more
+- Selling
+- Refunding
+- Marketing
+- Mailing lists
+- Issuing more tickets
+- And much more

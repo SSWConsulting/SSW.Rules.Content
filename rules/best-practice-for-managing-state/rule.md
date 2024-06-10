@@ -1,5 +1,5 @@
 ---
-seoDescription: "Best practices for managing state in applications involve using the Redux pattern, which ensures a single source of truth and provides predictable behavior."
+seoDescription: Best practices for managing state in applications involve using the Redux pattern, which ensures a single source of truth and provides predictable behavior.
 type: rule
 title: Do you know the best practice for managing state?
 uri: best-practice-for-managing-state
@@ -43,6 +43,6 @@ Redux-Saga is a library that provides redux application side effects.
 
 The advantages of using Redux-Saga are:
 
-* Collects all asynchronous operations in one place, making the code clearer
-* Uses an  ES6 feature called Generators to make asynchronous flows easy to read, write and test
-* Generators also let these asynchronous flows look like your standard synchronous code (kind of like async/await in C#). This solves [“callback hell"](https://en.wiktionary.org/wiki/callback_hell)
+- Collects all asynchronous operations in one place, making the code clearer
+- Uses an ES6 feature called Generators to make asynchronous flows easy to read, write and test
+- Generators also let these asynchronous flows look like your standard synchronous code (kind of like async/await in C#). This solves [“callback hell"](https://en.wiktionary.org/wiki/callback_hell)

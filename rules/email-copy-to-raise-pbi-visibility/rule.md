@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here is a concise SEO description based on the provided MD content: "Improve PBI visibility by duplicating content into an email with unique subject and sender." Let me know if you need any adjustments! 😊"
+seoDescription: Here is a concise SEO description based on the provided MD content: "Improve PBI visibility by duplicating content into an email with unique subject and sender." Let me know if you need any adjustments! 😊
 type: rule
 title: Do you send a PBI via email to raise visibility?
 uri: email-copy-to-raise-pbi-visibility
@@ -23,11 +23,11 @@ With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk
 If you have an important PBI and want to improve its visibility, then duplicate the content of the PBI into an email.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Gary Green|
+| To: | Gary Green|
 | Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |
-::: email-content  
+::: email-content
 
 (copy of the PBI - {{ PBI LINK }} as per rule <https://ssw.com.au/rules/email-copy-to-raise-pbi-visibility>)
 

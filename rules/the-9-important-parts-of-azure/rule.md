@@ -1,5 +1,5 @@
 ---
-seoDescription: "Azure services you should be using: App Services, DevOps Project, Azure Cosmos DB, Azure AD, API Management, Logic Apps, Cognitive Services, Bots, and Containers."
+seoDescription: Azure services you should be using: App Services, DevOps Project, Azure Cosmos DB, Azure AD, API Management, Logic Apps, Cognitive Services, Bots, and Containers.
 type: rule
 archivedreason: 
 title: Do you know the 9 important parts of Azure?
@@ -29,17 +29,10 @@ To help you out, here is a list of the top 9 Azure services you should be using:
 8. Automation: Bots
 9. Storage: Containers
 
-
-
 ### Watch the video
 
-
 `youtube: https://www.youtube.com/embed/-Ac7z3YEkNI`
- 
 
 
 
-
-
-
-More details on [**Adam's Blog** - The 9 knights of Azure: services to get you started](https&#58;//adamcogan.com/2018/06/07/9-knights-azure-services-get-started/)
+More details on [**Adam's Blog** - The 9 knights of Azure: services to get you started](https://adamcogan.com/2018/06/07/9-knights-azure-services-get-started/)

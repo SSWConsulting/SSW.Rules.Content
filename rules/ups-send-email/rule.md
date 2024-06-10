@@ -1,5 +1,5 @@
 ---
-seoDescription: ""Maximize UPS efficiency and stay informed about server status with customizable email notifications.""
+seoDescription: "Maximize UPS efficiency and stay informed about server status with customizable email notifications."
 type: rule
 title: UPS - Do you have your UPS send an email when it kicks in?
 uri: ups-send-email
@@ -18,6 +18,7 @@ created: 2017-07-01T00:21:30.000Z
 archivedreason: null
 guid: 9510b8a1-2bfa-4976-a910-2100f0eb15b6
 ---
+
 Of course, all your servers are on UPS. (If not they should be!) How do you know that all the money you paid for a UPS was worth it? How many times has it saved our servers? How long do the batteries last for before they go flat? Why was a server off when you came in in the morning?
 
 <!--endintro-->

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Learn the 8 simple steps to Scrum and master Agile project management."
+seoDescription: Learn the 8 simple steps to Scrum and master Agile project management.
 type: rule
 title: Do you know the 8 Steps to Scrum?
 uri: 8-steps-to-scrum
@@ -17,11 +17,12 @@ created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
 ---
+
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 `youtube: https://youtu.be/xOvFK328C_Q`
 
-  **Video: 8 Steps To Scrum - Scrum Explained (4 min)**
+**Video: 8 Steps To Scrum - Scrum Explained (4 min)**
 
 <!--endintro-->
 

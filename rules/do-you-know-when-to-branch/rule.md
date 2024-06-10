@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you know when to branch in TFS (aka TFVC)? Learn how to simplify your workflow and avoid merging hell by understanding when to create branches."
+seoDescription: Do you know when to branch in TFS (aka TFVC)? Learn how to simplify your workflow and avoid merging hell by understanding when to create branches.
 type: rule
 title: Do you know when to branch in TFS (aka TFVC)?
 uri: do-you-know-when-to-branch
@@ -38,7 +38,7 @@ In that case you need to potentially update all of your branches and perform dep
 The better way is to use OctopusDeploy which relieves developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
 
 ::: good  
-![Figure: Good example - Manage deployments to multiple environments, view deployed versions.](2014-10-11\_18-54-00.png)  
+![Figure: Good example - Manage deployments to multiple environments, view deployed versions.](2014-10-11_18-54-00.png)  
 :::
 
 ### Why you should avoid branching
@@ -46,7 +46,7 @@ The better way is to use OctopusDeploy which relieves developers from having mul
 1. Merging is painful, complex and is a time consuming task that does not add value
 2. Often regressions are introduced as merges are missed and not merged back to trunk
 3. The longer branches are, the more people that have worked on them... the more unpleasant the merge is going to be
-  Amount of pain = size of the change \* the amount of work on the trunk in that period
+   Amount of pain = size of the change \* the amount of work on the trunk in that period
 4. The more you need to create a branch, the harder it is going to be to merge it back into the trunk!
 5. Branching impedes refactoring
 
@@ -56,8 +56,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
 
 ### When it's OK to branch
 
-* For a disposable, investigatory spike
-* To perform hotfixes to production environment
+- For a disposable, investigatory spike
+- To perform hotfixes to production environment
 
 ::: bad  
 ![Figure: Bad example – Creating a branch per feature leads to lots of merging (Image from paulhammant.com blog)](branch-bad.jpg)  
@@ -73,7 +73,7 @@ This is **very** likely to happen on code bases that require tidying when you ha
 
 #### Further reading
 
-* [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
-* [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
-* [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)  
-* [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)
+- [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
+- [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
+- [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)
+- [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)

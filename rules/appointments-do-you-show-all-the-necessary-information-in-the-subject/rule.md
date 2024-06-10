@@ -1,5 +1,5 @@
 ---
-seoDescription: "Make sure your appointment has a good subject by including essential information such as meeting attendees, hotel names and addresses, flight details, and booking numbers to help users quickly understand the purpose of the appointment."
+seoDescription: Make sure your appointment has a good subject by including essential information such as meeting attendees, hotel names and addresses, flight details, and booking numbers to help users quickly understand the purpose of the appointment.
 type: rule
 title: Appointments - Do you make sure your appointment has a good subject?
 uri: appointments-do-you-show-all-the-necessary-information-in-the-subject
@@ -15,6 +15,7 @@ created: 2009-04-03T06:27:53.000Z
 archivedreason: null
 guid: 0b42cf46-4576-44bb-895b-daf6f883ac22
 ---
+
 When sending an appointment, it's a good idea to choose your subject/title intelligently so that people can see all the information they need to see on the Subject of the Appointment.
 
 For example, if the appointment is a meeting request you should include the names of the persons attending that appointment.
@@ -45,5 +46,5 @@ CRM users making bookings should [keep their naming standards consistent.](/sche
 
 Related rules
 
-* [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
-* [Scheduling - Do you have a consistent naming convention for your bookings?](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)
+- [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
+- [Scheduling - Do you have a consistent naming convention for your bookings?](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)

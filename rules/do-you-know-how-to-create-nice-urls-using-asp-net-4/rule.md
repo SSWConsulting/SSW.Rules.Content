@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here is a possible SEO description based on the provided content: "Create nice URLs with ASP.NET 4 using routing features, improving user experience and search engine ranking." Let me know if this meets your requirements! 😊"
+seoDescription: Here is a possible SEO description based on the provided content: "Create nice URLs with ASP.NET 4 using routing features, improving user experience and search engine ranking." Let me know if this meets your requirements! 😊
 type: rule
 title: Do you know how to create nice URLs using ASP.NET 4?
 uri: do-you-know-how-to-create-nice-urls-using-asp-net-4
@@ -13,10 +13,11 @@ archivedreason: null
 guid: 43cdcd40-66f2-4111-843c-96dbdc1d8fc1
 ---
 
-There are a lot of reasons to have nice URLs for your website: 
-* Easy to remember
-* Easy to navigate
-* Better for search engines
+There are a lot of reasons to have nice URLs for your website:
+
+- Easy to remember
+- Easy to navigate
+- Better for search engines
 
 <!--endintro-->
 
@@ -41,7 +42,8 @@ protected void Application_Start(object sender, EventArgs e)
         new PageRouteHandler("~/ssw/Products/ProdCategoryList.aspx")));
 }
 ```
+
 **Figure: Example on how to route ssw.com.au/products/{everything} to ssw.com.au/ssw/Products/ProdCategoryList.aspx page**
-   
+
 **Note:** There is no dependency on the MVC framework in order to use this code.  
 **Note:** IIS7 has a module called [URL rewrite module](http://www.iis.net/learn/extensions/url-rewrite-module/using-the-url-rewrite-module) that can do this functionality without changing any code. Just a configuration of a "Rule" in the IIS Manager.

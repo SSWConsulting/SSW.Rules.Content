@@ -1,12 +1,12 @@
 ---
-seoDescription: "Microsoft Teams Preview allows early access to new features, but not all functionalities are supported yet, including custom tabs and applications."
+seoDescription: Microsoft Teams Preview allows early access to new features, but not all functionalities are supported yet, including custom tabs and applications.
 type: rule
 title: Do you know when to use Microsoft Teams Preview?
 guid: c7bdf2ad-18bb-4819-b96c-eb77bb9c58cb
 uri: when-to-use-microsoft-teams-preview
 authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
 related:
   - teams-add-the-right-tabs
 created: 2023-04-11T09:01:00Z

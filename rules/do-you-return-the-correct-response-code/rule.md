@@ -1,5 +1,5 @@
 ---
-seoDescription: "Here is a potential SEO description based on the provided MD content: "Learn how to return correct response codes in ASP.NET Core WebAPI and improve debugging efficiency.""
+seoDescription: Here is a potential SEO description based on the provided MD content: "Learn how to return correct response codes in ASP.NET Core WebAPI and improve debugging efficiency."
 type: rule
 archivedreason: 
 title: Do you return the correct response code?
@@ -18,7 +18,7 @@ redirects: []
 
 The use of correct response codes is a simple yet crucial step towards building a better WebAPI. In ASP.NET Core, by default the WebAPI framework sets the response status code to 200 (OK), regardless of whether the task succeed or an error occurred.
 
-You can  **save yourself countless hours of painful debugging** , by specifying the correct response code.
+You can **save yourself countless hours of painful debugging** , by specifying the correct response code.
 
 <!--endintro-->
 
@@ -42,8 +42,8 @@ Figure: Bad Example – By default a 200 status code is returned.
  {
  item = repository.Add(item);
  var response = Request.CreateResponse(HttpStatusCode.Created, item);
- 
-         
+
+
  return response;
  }
 ```

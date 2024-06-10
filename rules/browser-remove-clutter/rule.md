@@ -1,5 +1,5 @@
 ---
-seoDescription: "Remove browser clutter and boost productivity by turning off unnecessary new tab features."
+seoDescription: Remove browser clutter and boost productivity by turning off unnecessary new tab features.
 type: rule
 title: Do you remove clutter from your browser's new tabs?
 uri: browser-remove-clutter

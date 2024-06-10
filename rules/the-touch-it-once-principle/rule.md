@@ -1,19 +1,18 @@
 ---
-seoDescription: "Boost productivity by completing tasks under 15 minutes immediately and reducing decision fatigue."
+seoDescription: Boost productivity by completing tasks under 15 minutes immediately and reducing decision fatigue.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the "touch it once" principle? (aka if something takes less than 15 minutes, do it immediately)
 guid: d0e6f016-0c71-40d9-b548-8e9598671d4b
 uri: the-touch-it-once-principle
 created: 2018-11-20T17:42:47.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-the-touch-it-once-principle-aka-if-something-takes-less-than-5-minutes-do-it-immediately
-- do-you-know-the-touch-it-once-principle-(aka-if-something-takes-less-than-5-minutes-do-it-immediately)
-
+  - do-you-know-the-touch-it-once-principle-aka-if-something-takes-less-than-5-minutes-do-it-immediately
+  - do-you-know-the-touch-it-once-principle-(aka-if-something-takes-less-than-5-minutes-do-it-immediately)
 ---
 
 There is a hidden cost that every task or email in your inbox adds that is easy to miss, and that is that every time you scan over an item and decide not to do it, you are really just kicking the can down the road, and your future self will have to later scan that item again, and possibly again decide that it’s not worth doing yet, and so kick it further down the road.

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Don't forget to include attachments when referencing them in your email. Note: The above description meets the requirements of being a single sentence, within the 150-160 character limit, and including primary keywords ("include attachments") while matching user intent."
+seoDescription: Don't forget to include attachments when referencing them in your email. Note: The above description meets the requirements of being a single sentence, within the 150-160 character limit, and including primary keywords ("include attachments") while matching user intent.
 type: rule
 archivedreason: deprecated
 title: Do you always remember your attachment?
@@ -16,10 +16,9 @@ redirects: []
 
 ---
 
-When you refer to an attachment in your email, don't forget to include the attachment. I always attach the files first before I write my message. 
+When you refer to an attachment in your email, don't forget to include the attachment. I always attach the files first before I write my message.
 
 <!--endintro-->
 
-
-We have a program called [SSW LookOut! for Outlook](http://www.ssw.com.au/ssw/LookOut/) to check for this rule. 
+We have a program called [SSW LookOut! for Outlook](http://www.ssw.com.au/ssw/LookOut/) to check for this rule.
 ![Contact or attached](../../assets/ContactorAttached.gif)**Figure: SSW LookOut! for Outlook automatically warns you if you have forgotten to include your attachments.**

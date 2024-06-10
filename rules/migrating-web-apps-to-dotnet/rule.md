@@ -1,5 +1,5 @@
 ---
-seoDescription: "Migrating web apps to .NET and leveraging YARP's configuration and Upgrade Assistant for a seamless transition."
+seoDescription: Migrating web apps to .NET and leveraging YARP's configuration and Upgrade Assistant for a seamless transition.
 type: rule
 title: Migrating Web Apps to .NET
 uri: migrating-web-apps-to-dotnet
@@ -31,13 +31,13 @@ The differences between a web app built with ASP.NET Framework and one built wit
 
 ## To YARP, or not to YARP
 
-There exists, somewhere, a line that separates the "big bang" and "stranger fig" approach as being the *recommended* way to tackle web app migrations. While this decision point is unique to every project, you can examine a couple of metrics to help guide your decision.
+There exists, somewhere, a line that separates the "big bang" and "stranger fig" approach as being the _recommended_ way to tackle web app migrations. While this decision point is unique to every project, you can examine a couple of metrics to help guide your decision.
 
-* How many Sprints do you estimate the migration work will take?
-* Will feature development continue during the migration process?
-* Do you have plenty of leeway on both of the above?
+- How many Sprints do you estimate the migration work will take?
+- Will feature development continue during the migration process?
+- Do you have plenty of leeway on both of the above?
 
-If your [migration plan](https://ssw.com.au/rules/migration-plans) is solid, you should have a pretty clear idea of the effort involved in migrating your web app. If you're confident that you can get the migration done in a reasonable timeline, *and* you can implement a feature-freeze during that time, opting for the Big Bang approach may be a reasonable option.
+If your [migration plan](https://ssw.com.au/rules/migration-plans) is solid, you should have a pretty clear idea of the effort involved in migrating your web app. If you're confident that you can get the migration done in a reasonable timeline, _and_ you can implement a feature-freeze during that time, opting for the Big Bang approach may be a reasonable option.
 
 If, however, you know that the migration is going to take a long time, or there are other developers/teams that will be working on other, non-migration work (e.g. feature development), then adopting the Strangler Fig pattern with YARP is often a better choice, and one that we at SSW have had great success with.
 
@@ -47,7 +47,7 @@ The first step is to create a brand new ASP.NET Core web application, where you 
 
 The best way to do this is via the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant).
 
-This will create a new .NET 8 project *and* include YARP. For functionalities that have not yet been migrated, YARP will redirect them to the .NET Framework web application.
+This will create a new .NET 8 project _and_ include YARP. For functionalities that have not yet been migrated, YARP will redirect them to the .NET Framework web application.
 
 ### Configure YARP
 
@@ -135,6 +135,6 @@ When a web project is heavily reliant on .NET Framework dependencies, the first 
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-* [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
-* [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
-* [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-web-config-to-asp-net-core/)
+- [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
+- [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-web-config-to-asp-net-core/)

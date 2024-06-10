@@ -1,5 +1,5 @@
 ---
-seoDescription: "Agreements on using 1 or 2-week development iterations depend on project size and visibility needs."
+seoDescription: Agreements on using 1 or 2-week development iterations depend on project size and visibility needs.
 type: rule
 title: Agreements - Do you have 1 or 2-week Sprint?
 uri: agreements-do-you-use-1-or-2-week-sprints
@@ -13,7 +13,8 @@ archivedreason: null
 guid: 11cd2bad-7551-4500-a858-2e4743f63aa5
 ---
 
-Depending on how much visibility you need on ongoing costs, you will have to decide whether to use 1 or 2 week development iterations.  
+Depending on how much visibility you need on ongoing costs, you will have to decide whether to use 1 or 2 week development iterations.
+
 <!--endintro-->
 
 A 1-week Sprint is for small projects (less than 2 months) or if constant visibility into costs is an important factor, as it gives better feedback to the Product Owner.
@@ -30,7 +31,7 @@ It is important to note that as more project management overheads are added, the
 
 > "The more you want to see how much you're spending, the more you'll spend".
 >
-> * Ulysses Maclaren
+> - Ulysses Maclaren
 
 It's important to find the right balance for you.
 

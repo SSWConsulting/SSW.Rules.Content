@@ -1,5 +1,5 @@
 ---
-seoDescription: "Old versus new technologies: Consider costs and compatibility when choosing a solution to build your project."
+seoDescription: Old versus new technologies: Consider costs and compatibility when choosing a solution to build your project.
 type: rule
 archivedreason: 
 title: Do you know the costs of old versus new technologies?
@@ -14,22 +14,21 @@ redirects: []
 
 ---
 
-Every new project faces the question "What technology should I build this solution in?". There are pros and cons to choosing new technologies over old ones: 
+Every new project faces the question "What technology should I build this solution in?". There are pros and cons to choosing new technologies over old ones:
+
 <!--endintro-->
 
 Pros:
 
-* Productivity improvements (faster and cheaper development)
-* Less conversion issues later
-* Happier Developers
-* Potentially a competitive advantage
-* Development environments are likely current and so don’t need time to setup
-
+- Productivity improvements (faster and cheaper development)
+- Less conversion issues later
+- Happier Developers
+- Potentially a competitive advantage
+- Development environments are likely current and so don’t need time to setup
 
 Cons:
 
-* All issues are not necessarily known yet and workarounds may need to be found
-* Backwards compatibility (you may have users who have to use an older platform and new techs may not work for them)
-
+- All issues are not necessarily known yet and workarounds may need to be found
+- Backwards compatibility (you may have users who have to use an older platform and new techs may not work for them)
 
 One major issue with using old technologies is that you will often be up for additional costs to set up suitable legacy development environments. i.e. SQL 2005 Server, Windows 7 running VS2008 etc. and then there are bills for ongoing charges (if required to host and store dormant VMs)

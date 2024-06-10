@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you keep your Product Backlog Items (PBIs) smaller than 2 days' effort to avoid incomplete features at Sprint's end?"
+seoDescription: Do you keep your Product Backlog Items (PBIs) smaller than 2 days' effort to avoid incomplete features at Sprint's end?
 type: rule
 title: Backlog - Do you keep your PBIs smaller than 2 days' effort?
 uri: create-pbis-under-2-days

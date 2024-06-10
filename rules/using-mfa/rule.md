@@ -1,5 +1,5 @@
 ---
-seoDescription: "Stay ahead of cyber threats by using multi-factor authentication (MFA) instead of typing passwords."
+seoDescription: Stay ahead of cyber threats by using multi-factor authentication (MFA) instead of typing passwords.
 type: rule
 title: Do you use MFA instead of typing a password?
 uri: using-mfa
@@ -16,7 +16,6 @@ related:
   - password-manager
 created: 2022-03-17T05:06:21.573Z
 guid: 1e46b6c6-b5de-425d-a801-cad2c6c33905
-
 ---
 
 The best protection you can provide for your password is to not solely rely on it. Multi-factor authentication (MFA) lets you use a mix of techniques when logging into an account. Typically this is made up of something you know (your password) and something you have (your phone - older people will remember RSA tokens).

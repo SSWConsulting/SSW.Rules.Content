@@ -1,5 +1,5 @@
 ---
-seoDescription: "Manage appointments efficiently in Microsoft Teams and Outlook by creating, joining, editing, and leaving meetings easily."
+seoDescription: Manage appointments efficiently in Microsoft Teams and Outlook by creating, joining, editing, and leaving meetings easily.
 type: rule
 title: Appointments - Do you make your Teams meetings easy to find?
 uri: do-you-make-your-team-meetings-easy-to-find
@@ -26,6 +26,7 @@ created: 2020-04-02T06:07:17.000Z
 archivedreason: null
 guid: b4c925ae-3d9b-48fd-868c-11ca49155a50
 ---
+
 When a developer joins a team, they need to find important meetings like the Daily Scrum and the Sprint Review. Unfortunately, these meetings are often organized by a team member and there is no way to find them.
 
 Ideally, a new team member would jump into Microsoft Teams and find the team they are joining. Then they would see all the important meetings from within the team and join them as needed.

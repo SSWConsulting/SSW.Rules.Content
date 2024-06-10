@@ -1,5 +1,5 @@
 ---
-seoDescription: "Ensure you have robust multi-factor authentication (MFA) enabled to protect your users and administrator accounts from unauthorized access."
+seoDescription: Ensure you have robust multi-factor authentication (MFA) enabled to protect your users and administrator accounts from unauthorized access.
 type: rule
 title: Security - Do you have MFA (Multi-Factor Authentication) enabled?
 uri: multi-factor-authentication-enabled
@@ -29,10 +29,10 @@ MFA is another layer of security for your users and administrators, it adds anot
 
 Generally, every time you log in on a service, it will ask for your normal password and an additional code or approval. This can be retrieved through:
 
-* RECOMMENDED - An authenticator app with passwordless **(secure)**
-* An authenticator app with password **(secure)**
-* A hardware token/key **(secure)**
-* Email, SMS, or phone call **(less secure)**
+- RECOMMENDED - An authenticator app with passwordless **(secure)**
+- An authenticator app with password **(secure)**
+- A hardware token/key **(secure)**
+- Email, SMS, or phone call **(less secure)**
 
 ### MFA in Microsoft 365
 
@@ -40,8 +40,8 @@ If you have Microsoft 365 Premium, Azure P1 or higher licensing you should use C
 
 Once MFA is set up, you can see which method your users are using - go to **Azure AD | Security | Authentication Methods | User registration details**.
 
-* Under **Default authentication method**, you want to see **Microsoft Authenticator app**
-* Under **Methods Registered**, you also want to see **Microsoft Passwordless phone sign-in**
+- Under **Default authentication method**, you want to see **Microsoft Authenticator app**
+- Under **Methods Registered**, you also want to see **Microsoft Passwordless phone sign-in**
 
 ::: bad
 ![Figure: Bad example - No Microsoft Passwordless phone sign-in registered](azure-mfa-bad.png)

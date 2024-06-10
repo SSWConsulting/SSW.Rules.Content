@@ -1,5 +1,5 @@
 ---
-seoDescription: "Discover two common software versioning methods: Simple Versioning and Semantic Versioning. Learn when to use each for your project's unique needs."
+seoDescription: Discover two common software versioning methods: Simple Versioning and Semantic Versioning. Learn when to use each for your project's unique needs.
 type: rule
 title: Do you know the different ways to version?
 uri: ways-to-version
@@ -25,7 +25,7 @@ It can also be done differently but the main idea is to use a meaningful sequenc
 
 If the Microsoft Office user also wants the hairy details, Microsoft also gives them the less user-friendly build number.
 
-**When to use?** 
+**When to use?**
 
 Use this on websites and applications, it is generally found in the **Help | About** area. It is especially great on custom client projects where the whole project is all built together and a build is deployed. This is a quick and easy reference for your users.
 
@@ -33,11 +33,11 @@ Use this on websites and applications, it is generally found in the **Help | Abo
 
 ## Semantic Versioning
 
-Semantic Versioning has a multi part version (e.g. 2.1.0). Changes in each of the different parts of the version mean different things. This is used to convey information to consumers of the project. 
+Semantic Versioning has a multi part version (e.g. 2.1.0). Changes in each of the different parts of the version mean different things. This is used to convey information to consumers of the project.
 
 **When to use?**
 
-Use Semantic Versioning if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.   
+Use Semantic Versioning if you are producing libraries or APIs where it's important to easily convey whether a **consumer might expect breaking changes**.  
 Read more about [Semantic Versioning](/semantic-versioning).
 
 ![Figure: Nuget packages use Semantic Versioning (as do APIs)](semanticversion.png)

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Minimize Microsoft Teams distractions and stay focused on your tasks by turning it on at startup, disabling email alerts, and customizing notification settings."
+seoDescription: Minimize Microsoft Teams distractions and stay focused on your tasks by turning it on at startup, disabling email alerts, and customizing notification settings.
 type: rule
 title: Interruptions - Do you minimize Microsoft Teams distractions?
 uri: do-you-minimize-team-distractions
@@ -17,6 +17,7 @@ created: 2017-10-13T01:52:21.000Z
 archivedreason: null
 guid: aee8193e-8ca9-4cba-8fa8-c5c611112a50
 ---
+
 [Dealing with distractions](/do-you-deal-with-distractions) is a fundamental rule to a successful project. Microsoft Teams is a great way to get distracted. Following these options helps you to minimize message distractions:
 
 1. Turn on at start-up - With the application always on your desktop, there is no reason for alerts to be sent to your email or phone

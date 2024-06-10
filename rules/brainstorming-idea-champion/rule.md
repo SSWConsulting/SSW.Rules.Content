@@ -1,5 +1,5 @@
 ---
-seoDescription: "Generate an SEO description based on the provided MDX content: Assigning an "Idea Champion" for brainstormed ideas ensures accountability and momentum, driving projects forward from concept to reality."
+seoDescription: Generate an SEO description based on the provided MDX content: Assigning an "Idea Champion" for brainstormed ideas ensures accountability and momentum, driving projects forward from concept to reality.
 type: rule
 title: Do you have a brainstorming "Idea Champion"?
 uri: brainstorming-idea-champion
@@ -26,15 +26,15 @@ During a [Brainstorming Day](/use-the-brains-of-your-company), many great ideas 
 
 ## The Idea Champion's responsibilities
 
-* **Take accountability** for the idea until a Scrum Team has been assigned and development has started or the idea is parked
-* **Discuss** the idea and answer people's questions
-* **Communicate** the status of the idea in the relevant [GitHub Discussion](/brainstorming-idea-farming)
-* **Push the idea forwards** and get closure (approval/rejection)
+- **Take accountability** for the idea until a Scrum Team has been assigned and development has started or the idea is parked
+- **Discuss** the idea and answer people's questions
+- **Communicate** the status of the idea in the relevant [GitHub Discussion](/brainstorming-idea-farming)
+- **Push the idea forwards** and get closure (approval/rejection)
 
 ### Where it begins
 
-* An Idea Champion should be assigned to each idea for a specific Brainstorming Day. This is done when [allocating teams](/brainstorming-team-allocation)
-* The Idea Champion can change on the day of the Brainstorming, or after, if the team decides there is a better person
+- An Idea Champion should be assigned to each idea for a specific Brainstorming Day. This is done when [allocating teams](/brainstorming-team-allocation)
+- The Idea Champion can change on the day of the Brainstorming, or after, if the team decides there is a better person
 
 ### Where it ends
 

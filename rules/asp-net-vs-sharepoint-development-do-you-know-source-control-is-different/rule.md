@@ -1,17 +1,16 @@
 ---
-seoDescription: "ASP.NET and SharePoint development differ in source control systems, with ASP.NET typically using TFS for code management and SharePoint utilizing its own document control and version history."
+seoDescription: ASP.NET and SharePoint development differ in source control systems, with ASP.NET typically using TFS for code management and SharePoint utilizing its own document control and version history.
 type: rule
-archivedreason: 
+archivedreason:
 title: ASP.NET vs SharePoint development - Do you know source control is different?
 guid: 053ba2cd-205a-4ccb-a997-67988818e8be
 uri: asp-net-vs-sharepoint-development-do-you-know-source-control-is-different
 created: 2009-12-04T09:42:07.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
 related: []
 redirects: []
-
 ---
 
 **In ASP.NET** - Typically, the team will store the code on a source control system such as TFS (Team Foundation Server), check it out to their own local system, develop and test locally then check it back into source control for sharing.
@@ -24,12 +23,12 @@ redirects: []
 
 We think the following are best tracked on a development SharePoint server:
 
-* Master page
-* Page Layouts
-* XSL
-* CSS
+- Master page
+- Page Layouts
+- XSL
+- CSS
 
 And these should not (or cannot) be version controlled on SharePoint server:
 
-* Low level customizations such as custom web parts should still be developed in VS.NET and stored in TFS
-* Package files to build solution packages should be stored in TFS
+- Low level customizations such as custom web parts should still be developed in VS.NET and stored in TFS
+- Package files to build solution packages should be stored in TFS

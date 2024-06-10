@@ -1,23 +1,22 @@
 ---
-seoDescription: "Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?"
+seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use a Content Delivery Network (CDN)?
 guid: 8312c849-88a5-4745-82e7-739127d6e9f8
 uri: do-you-use-cdn-for-js-files
 created: 2019-05-16T06:32:40.0000000Z
 authors:
-- title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  - title: Barry Sanders
+    url: https://ssw.com.au/people/barry-sanders
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Shane Ye
+    url: https://ssw.com.au/people/shane-ye
 related: []
 redirects:
-- do-you-use-a-content-delivery-network-cdn
-- do-you-use-a-content-delivery-network-(cdn)
-
+  - do-you-use-a-content-delivery-network-cdn
+  - do-you-use-a-content-delivery-network-(cdn)
 ---
 
 If your site takes too long to load, there is a high chance your users will not wait for it to finish loading and abandon viewing it. It is therefore important that we use techniques to make pages load as quickly as possible. One of these techniques is to use a Content Delivery Network (CDN) to reduce the network latency for delivering pages, images, javascript and CSS libraries to users. This results in faster page load times and a better experience for your users.
@@ -25,6 +24,7 @@ If your site takes too long to load, there is a high chance your users will not 
 <!--endintro-->
 
 ### What is a CDN?
+
 CDN is short for a Content Delivery Network. It is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
 
 ### Why use a CDN?
@@ -47,9 +47,10 @@ When choosing a CDN provider, take into account where your user base is located 
 5. http://cdnjs.net/
 6. https://www.cloudflare.com/network/china/ (Cloudflare’s China Service)
 7. https://www.akamai.com
-8. https://cdnjs.cloudflare.com 
+8. https://cdnjs.cloudflare.com
 
 #### Which ones do not work well from China?
+
 1. https://maxcdn.bootstrapcdn.com
 2. https://ajax.googleapis.com
 

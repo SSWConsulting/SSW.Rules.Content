@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you know to use one version manager supporting multiple software?"
+seoDescription: Do you know to use one version manager supporting multiple software?
 type: rule
 archivedreason: 
 title: Do you know to use one version manager supporting multiple software?
@@ -35,7 +35,7 @@ However, it is not a good idea to use different version managers for different s
 ✅ Easy to use  
 ✅ Lightweight & Fast  
 ✅ Non-intrusive  
-✅ [~700 registered plugins covering most use cases](https://github.com/asdf-vm/asdf-plugins) including *node, dotnet, dotnet-core*  
+✅ [~700 registered plugins covering most use cases](https://github.com/asdf-vm/asdf-plugins) including _node, dotnet, dotnet-core_
 
 ❌ Linux/Mac/WSL only
 
@@ -53,8 +53,8 @@ However, it is not a good idea to use different version managers for different s
 
 ✅ Reproducibility - Same package installation process yields the same output  
 ✅ Declarative configuration - Nix uses a declarative configuration format to describe packages and their dependencies  
-✅ Extensibility - Developers can extend its functionality through plugins and custom builders  
+✅ Extensibility - Developers can extend its functionality through plugins and custom builders
 
 ❌ Steep learning curve  
 ❌ Intrusive  
-❌ Linux/Mac/WSL only  
+❌ Linux/Mac/WSL only

@@ -1,5 +1,5 @@
 ---
-seoDescription: "Get instant feedback from your clients and customers by using evaluation forms at every event you speak at."
+seoDescription: Get instant feedback from your clients and customers by using evaluation forms at every event you speak at.
 type: rule
 title: Feedback - Do you bring evaluation forms to every event you speak at?
 uri: bring-evaluation-forms-to-every-event-you-speak-at
@@ -20,4 +20,4 @@ The best way to find out how your clients and customers think about you is to as
 
 <!--endintro-->
 
-At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results. Take a look at our [Speakers and Presentation Evaluation Form](https&#58;//www.ssw.com.au/ssw/standards/forms/SSWEvaluationSurvey.pdf).
+At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results. Take a look at our [Speakers and Presentation Evaluation Form](https://www.ssw.com.au/ssw/standards/forms/SSWEvaluationSurvey.pdf).

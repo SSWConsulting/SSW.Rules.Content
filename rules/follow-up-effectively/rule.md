@@ -1,5 +1,5 @@
 ---
-seoDescription: "Do you struggle to follow up on tasks effectively? Discover the best Microsoft tools and apps to help you stay organized and on track. From scheduling emails to setting reminders, we'll show you how to streamline your workflow and achieve more in less time."
+seoDescription: Do you struggle to follow up on tasks effectively? Discover the best Microsoft tools and apps to help you stay organized and on track. From scheduling emails to setting reminders, we'll show you how to streamline your workflow and achieve more in less time.
 type: rule
 title: Do you follow up tasks effectively?
 uri: follow-up-effectively
@@ -25,6 +25,7 @@ created: 2009-03-27T03:06:15.000Z
 archivedreason: null
 guid: c2082c46-ca09-4d0c-aead-1a10f5df6b99
 ---
+
 Sometimes you can't complete a task right away or anytime soon. People might just say: _"I can't do it this week, but I should have it done by the end of next week"_.
 
 Another scenario is when the task should be done or will expire after a period of time. For example _"Send Google Analytics data after a month"_ or _"Remove course banner once the course is completed"_.
@@ -64,16 +65,16 @@ Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an emai
 If you BCC, you can include '(Bcc'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob Northwind, Brady Stroud |
-| Cc:      | William Liebenberg |
-| Bcc:     | <1week@followupthen.com> |
-| Subject: | Northwind.com - Errors in the logs  |  
+| To: | Bob Northwind, Brady Stroud |
+| Cc: | William Liebenberg |
+| Bcc: | <1week@followupthen.com> |
+| Subject: | Northwind.com - Errors in the logs |  
 ::: email-content  
 (Bcc'ing 1week@followupthen)
 
-### Hi Bob  
+### Hi Bob
 
 As per our conversation, I am confident the bugs causing the errors are fixed. To make sure, I am going to check the logs in a week.
 
@@ -131,7 +132,7 @@ You can even set a custom reminder for the recipient :)
 3. Outlook shows an info tip with the exact follow-up date you chose
 4. A To-Do item is also added to your Outlook To-Do list
 
-  **Note:** To-Do list can be found in the Tasks pane.
+   **Note:** To-Do list can be found in the Tasks pane.
 
 5. On the due date you will receive a Reminder popup from Outlook
 6. If you chose to add a custom reminder you will also receive a Reminder popup from Outlook
@@ -150,19 +151,19 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
 
 ### 5. Microsoft Teams | Schedule Send
 
-  Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
+Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
-* Right click the send button to schedule all the important messages in advance.
-  
+- Right click the send button to schedule all the important messages in advance.
+
   ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 
 ### 6. Microsoft Teams | Remind App
 
-  Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
+Remind yourself or your team members of important meetings, to-do items or even birthdays. Set personal reminders, group chat reminders, or channel reminders. You can even set recurring reminders (e.g. a team meeting every Monday at 9am)!
 
-  [Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
-  
-  ![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
+[Get the app](https://appsource.microsoft.com/en-us/product/office/wa200001444?tab=overview).
+
+![Figure: Remind App in Teams](https://user-images.githubusercontent.com/97415708/208787403-1cf64ce9-36cf-4115-94ff-80e61e35dd16.png)
 
 ### 7. Microsoft Teams | Hiding Chats
 

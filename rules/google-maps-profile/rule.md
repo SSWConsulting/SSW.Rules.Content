@@ -1,5 +1,5 @@
 ---
-seoDescription: "Make your Google Maps profile stand out with compelling images and up-to-date business information. Ensure a strong online presence by showcasing high-quality photos of your products, services, team, or premises, and confirm legitimacy with exterior building shots."
+seoDescription: Make your Google Maps profile stand out with compelling images and up-to-date business information. Ensure a strong online presence by showcasing high-quality photos of your products, services, team, or premises, and confirm legitimacy with exterior building shots.
 type: rule
 title: Google Business - Do you make your Google Maps profile look awesome?
 uri: google-maps-profile
@@ -31,10 +31,10 @@ Images are the first thing that someone looks at when clicking on a Google Maps 
 
 Make sure your business information is up to date. The important fields are:
 
-* Business name
-* Address
-* Contact information
-* Business hours
+- Business name
+- Address
+- Contact information
+- Business hours
 
 ### Respond to Reviews
 

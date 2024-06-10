@@ -1,5 +1,5 @@
 ---
-seoDescription: "Automate your processes efficiently with Power Automate, Azure Logic Apps, and Azure Functions, offering various connectors, custom integrations, and DevOps capabilities for seamless workflow management."
+seoDescription: Automate your processes efficiently with Power Automate, Azure Logic Apps, and Azure Functions, offering various connectors, custom integrations, and DevOps capabilities for seamless workflow management.
 type: rule
 title: Do you use the right tool to automate your processes?
 uri: automation-tools
@@ -17,6 +17,7 @@ authors:
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
+
 ::: img-medium
 ![Figure: The power of Power Automate](power-automate-logo.png)
 :::
@@ -31,11 +32,11 @@ Power Automate lets power users automate away repeatable manual processes. They 
 
 For example say you want to:
 
-* Monitor an inbox
-* Read emails with the subject “Invoice”
-* Get the attached PDF
-* Put the PDF in a SharePoint Document Library (there is a connector)
-* Put a record in Xero (there is an API - no connector)
+- Monitor an inbox
+- Read emails with the subject “Invoice”
+- Get the attached PDF
+- Put the PDF in a SharePoint Document Library (there is a connector)
+- Put a record in Xero (there is an API - no connector)
 
 These are all easy in Power Automate, and a tonne of code in an Azure Function.
 
@@ -45,12 +46,12 @@ Power Automate provides heaps of out-of-the-box integrations that mean you don't
 
 Some of the awesome connectors that exist include:
 
-* CRM systems e.g. Dynamics 365
-* Emails
-* Microsoft Dataverse
-* Microsoft Office 365
-* Microsoft SharePoint
-* Custom APIs  
+- CRM systems e.g. Dynamics 365
+- Emails
+- Microsoft Dataverse
+- Microsoft Office 365
+- Microsoft SharePoint
+- Custom APIs  
   and more...
 
 **Custom Connectors**
@@ -93,17 +94,17 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | -------------------------------------- | -------------- | -------------------- | ---------------------------------- | --------------- |
 | Pricing                                | Per User       | Per Action or Hosted | Consumption (CPU/Memory) or Hosted | Customisable    |
 | Target Users                           | End Users      | IT Pros              | Developers and IT Pros             | Developers      |
-| Built-In packaging for easy deployment | ✅              | ❌                    | ❌                                  | ❌               |
-| Quick To Spin-up                       | ✅              | ✅                    | ❌                                  | ❌               |
-| Heaps of built-in Connectors           | ✅              | ✅                    | ❌                                  | ❌               |
-| No Coding Required                     | ✅              | ✅                    | ❌                                  | ❌               |
-| Built-in Triggers                      | ✅              | ✅                    | ✅                                  | ❌               |
-| Vendor Agnostic                        | ❌              | ✅                    | ✅                                  | ✅               |
-| Fully Customisable DevOps              | ❌              | ✅                    | ✅                                  | ✅               |
-| Robust Source Control                  | ❌              | 🟠*                  | ✅                                  | ✅               |
-| Smooth Debugging Experience            | ❌              | ❌                    | ✅                                  | ✅               |
-| Easy Mathematical Manipulation         | ❌              | ❌                    | ✅                                  | ✅               |
-| Easy Modularization and Refactoring    | ❌              | ❌                    | ✅                                  | ✅               |
-| Easy Logic Flows and Looping           | ❌              | ❌                    | ✅                                  | ✅               |
+| Built-In packaging for easy deployment | ✅             | ❌                   | ❌                                 | ❌              |
+| Quick To Spin-up                       | ✅             | ✅                   | ❌                                 | ❌              |
+| Heaps of built-in Connectors           | ✅             | ✅                   | ❌                                 | ❌              |
+| No Coding Required                     | ✅             | ✅                   | ❌                                 | ❌              |
+| Built-in Triggers                      | ✅             | ✅                   | ✅                                 | ❌              |
+| Vendor Agnostic                        | ❌             | ✅                   | ✅                                 | ✅              |
+| Fully Customisable DevOps              | ❌             | ✅                   | ✅                                 | ✅              |
+| Robust Source Control                  | ❌             | 🟠\*                 | ✅                                 | ✅              |
+| Smooth Debugging Experience            | ❌             | ❌                   | ✅                                 | ✅              |
+| Easy Mathematical Manipulation         | ❌             | ❌                   | ✅                                 | ✅              |
+| Easy Modularization and Refactoring    | ❌             | ❌                   | ✅                                 | ✅              |
+| Easy Logic Flows and Looping           | ❌             | ❌                   | ✅                                 | ✅              |
 
 \* Has source control, but it isn't as smooth as traditional code

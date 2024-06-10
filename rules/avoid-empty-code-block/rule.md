@@ -1,18 +1,17 @@
 ---
-seoDescription: "Avoid adding unnecessary code blocks to your .NET projects by commenting out empty Visual C# methods and interfaces."
+seoDescription: Avoid adding unnecessary code blocks to your .NET projects by commenting out empty Visual C# methods and interfaces.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid Empty code blocks?
 guid: 87d8d6e4-deba-44bf-a5db-4cc8b2c937b5
 uri: avoid-empty-code-block
 created: 2018-04-30T22:08:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-avoid-empty-code-blocks
-
+  - do-you-avoid-empty-code-blocks
 ---
 
 Empty Visual C# .NET methods consume program resources unnecessarily. Put a comment in code block if its stub for future application.
@@ -29,7 +28,7 @@ public class Example
  {
        public double salary()
        { 
-   
+
        }
  }
 ```
@@ -65,10 +64,10 @@ public class Demo : IDemo
               // no audit issues
              Console.WriteLine("Useful");
        }
-       // audit issues 
+       // audit issues
       public void SomethingThatCanBeIgnored()
-      { 
-      } 
+      {
+      }
  }
 ```
 
@@ -89,11 +88,11 @@ public class Demo : IDemo
               // no audit issues
               Console.WriteLine("Useful");
        }
-       // No audit issues 
-       public void SomethingThatCanBeIgnored() 
+       // No audit issues
+       public void SomethingThatCanBeIgnored()
        {
               // stub for IDemo interface
-       } 
+       }
  }
 ```
 
