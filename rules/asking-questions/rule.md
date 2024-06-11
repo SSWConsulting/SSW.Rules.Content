@@ -19,20 +19,16 @@ A disproportionate amount of time is spent thinking about whether you got the **
 
 <!--endintro-->
 
-Topics:
+Understanding the significance of questions in communication is fundamental. Curiosity-driven inquiries and confirmation-based queries enhance engagement and clarity. Asking questions is not only natural but also essential for fostering curiosity and understanding.
 
-* The importance of questions
-* Curiosity based questions
-* Confirmation based questions
-* Asking questions is natural (by kids)
-* Tip #1: Choose the right time/avoid interrupting
-* Tip #2: Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)
-* Tip #3: Ask questions with added value
-* Tip #4: [Ask open-ended questions](/ask-open-ended-questions) (avoid yes/no questions)
-* Tip #5: Document the answers in the PBI/email as it can help others in the future
-* [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
-* [The Retro](/do-you-do-a-retro)
+Timing is key in effective questioning; avoiding interruptions and waffling ensures meaningful dialogue. By choosing the right moment and minimizing disruptions, individuals can engage in more productive and focused conversations. 
+
+Employing v2 questions and creating a backchannel further streamline communication, allowing for smoother exchanges and better comprehension.
+
+Moreover, questions should add value and encourage open-ended responses to foster deeper insights. Documenting answers facilitates knowledge sharing and collaboration, enabling others to benefit from past experiences. Leveraging insightful questions can also lead to upselling opportunities, highlighting the side value of good questioning techniques. 
+
+Lastly, incorporating feedback loops like retrospectives ensures continuous improvement and learning, cementing the importance of questions in driving progress and innovation.
 
 `youtube: https://www.youtube.com/embed/RlADH0sLOmc`
 
-**Tip:** This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.
+**Video: The importance of asking good questions (10 min)**
