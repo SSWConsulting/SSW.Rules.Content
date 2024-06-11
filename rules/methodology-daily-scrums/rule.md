@@ -164,26 +164,28 @@ Once you have completed your stand up, add “S” to your timesheet as per [Rul
 
 ### Tip #15: Send an email
 
-To avoid misunderstandings or even arguments, send your Daily Scrum as an email so everyone you are working with knows what you are working on. This is also helpful for team members who were not able to to join the Daily Scrum 😊.
+To prevent misunderstandings or potential disagreements, send your Daily Scrum update via email. This ensures that everyone on your team is aware of your current tasks, even if they were unable to attend the meeting. 😊
+
+**Note:** Be sure to include the project name in both the subject line and the email content, as people often read the message without referencing the subject.
 
 ::: email-template
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
 | Cc: | {{ ANYONE YOU'RE WORKING WITH }} |
-| Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
+| Subject: | {{ YOUR NAME / PROJECT NAME }} - Daily Scrum |
 ::: email-content
 
 ### Hi Bob
 
-Yesterday I worked on:
+Yesterday I worked on {{ PROJECT NAME }}:
 
 * ✅ Done - XXX
 * ⏳ In Progress - XXX
 * ⬜ PBI - XXX
 * ❌ Blocked - XXX
 
-Today I'm working on:
+Today I'm working on {{ PROJECT NAME }}:
 
 * ⏳ In Progress - XXX
 * ⬜ PBI - XXX
