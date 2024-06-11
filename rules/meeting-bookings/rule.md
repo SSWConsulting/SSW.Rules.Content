@@ -20,8 +20,8 @@ That's what scheduling automation is for, there are tonnes of tools that solve t
 
 ### The tools
 
-- [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
-- [Calendly](https://calendly.com/)
+* [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
+* [Calendly](https://calendly.com/)
 
 `youtube: https://www.youtube.com/embed/LsFofCLoUJE`
 **Video: Microsoft Bookings - How to get started (2 min)**
@@ -74,7 +74,7 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 3. Add any specific questions or information you need from the external parties
 4. Save your changes and share the booking page link with the people you want to meet individually
 
-- You can also retrieve this link by going to your OWA (Outlook web access) calendar and grabbing it from the left hand sidebar
+* You can also retrieve this link by going to your OWA (Outlook web access) calendar and grabbing it from the left hand sidebar
 
 6. They can now easily schedule a meeting with you by selecting a suitable time slot from your availability 🕒
 
