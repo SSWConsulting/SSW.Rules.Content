@@ -33,10 +33,10 @@ Images are the first thing that someone looks at when clicking on a Google Maps 
 
 Make sure your business information is up to date. The important fields are:
 
-- Business name
-- Address
-- Contact information
-- Business hours
+* Business name
+* Address
+* Contact information
+* Business hours
 
 ### Respond to Reviews
 
