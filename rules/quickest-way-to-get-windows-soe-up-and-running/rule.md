@@ -49,11 +49,11 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 8. In case you lose your laptop, it is a good idea to stick a business card to the underneath
 9. For branding, stick your company sticker to the laptop - or even better, a custom skin - see [Do you brand your assets?](/brand-your-assets)
 
-  ![Figure: Example login/branding script](login-script.png)
-  
-  ![Figure: Example package manager - using chocolatey to install required software](choco.png)
-  
-  ![Figure: Company branding on laptop](ssw-skin.jpeg)
+![Figure: Example login/branding script](login-script.png)
+
+![Figure: Example package manager - using chocolatey to install required software](choco.png)
+
+![Figure: Company branding on laptop](ssw-skin.jpeg)
 
 10. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
 
@@ -63,17 +63,18 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 | To: | Bob Northwind |
 | Subject: | Your new computer |
 ::: email-content
-  
+
 ### Hey Bob
-  
-  Your new computer is ready ⭐️
-  
+
+Your new computer is ready ⭐️
+
 * Machine name: Bob-SurfacePro9
 * Model: Surface Pro 9
 * Operating System: Windows 11 Enterprise
-  
-  I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running) and this included:
-  
+
+
+I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running) and this included:
+
 * Data - I have checked that your files are in OneDrive so that they will sync to your new computer
 * Branding - It looks great with its custom laptop skin
 * Power adapter - I labeled it for easy recognition
