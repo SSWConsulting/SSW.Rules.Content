@@ -1,11 +1,12 @@
 ---
+seoDescription: Learn how to connect with people on LinkedIn and build meaningful relationships!
 type: rule
 archivedreason:
 title: Do you know how to connect with people on LinkedIn?
 guid: 12a2e1c9-fc4e-4c10-9c4f-f11ed665e668
 uri: linkedin-connect-with-people
 created: 2024-04-29T15:00:00.000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
   - title: Brady Stroud
@@ -34,8 +35,8 @@ For this example, imagine that you've met someone at a user group and would like
 
 On LinkedIn mobile app:
 
-* **Avoid using the default "Connect" or "Message" buttons** - Instead, use the "ellipsis | Personalize invite" button to craft a custom message
-* **Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation
+- **Avoid using the default "Connect" or "Message" buttons** - Instead, use the "ellipsis | Personalize invite" button to craft a custom message
+- **Tailor your custom message** - Begin your message with a friendly greeting. Provide context for yourself and for them by mentioning where and how you met and if applicable, mention shared interests or topics discussed to help both parties recall the conversation
 
 **Note:** On the LinkedIn website - click "Connect | Add a note".
 
@@ -51,7 +52,7 @@ Figure: Bad example - You won't recall how you met this person and have no clue 
 ::: greybox
 Hi Bob 👋,
 
-It was great to meet you at the user group this week! It's great to know that a Vue dev has interest in Angular as well 😀  
+It was great to meet you at the user group this week! It's great to know that a Vue dev has interest in Angular as well 😀
 
 What benefits do you think Angular might have over Vue?
 :::

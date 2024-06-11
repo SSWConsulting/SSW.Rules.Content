@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you capture software requirements by storyboarding?
 type: rule
 title: Do you capture software requirements by storyboarding?
 uri: storyboards
@@ -23,11 +24,13 @@ created: 2009-02-28T09:45:02.000Z
 archivedreason: null
 guid: ea408502-0f81-42b8-9ad7-0083bf125ae6
 ---
+
 Developers often arrive at client meetings armed with a bunch of impressive software design and architecture documents. When they present these materials to the client, there is often confusion or difficulty in grasping the content. Even worse, walls of text may not be read.
 
 Storyboarding solves this pain by giving the client a visual representation of requirements. This representation helps the client 'feel' the value and prevents miscommunications as the product is developed.
 
 <!--endintro-->
+
 Crafting a UX storyboard does not require artistic skill, it only needs to be a rough sketch that shows the sequence of events. They help developers and stakeholders understand what the UX and user scenarios will be, and are usually included in Spec Reviews.
 
 Storyboarding first became popular as a tool in motion picture production.
@@ -50,10 +53,10 @@ On the other hand, Storyboarding is an effective way to capture, convey, and exp
 
 ### What are the best tools?
 
-* Hand-drawing (Recommended)
-* Virtual Whiteboards. e.g. [FigJam](https://www.figma.com/figjam/) or [Excalidraw](https://excalidraw.com)
-* [Diagrams.net](https://diagrams.net)
-* [Balsamiq](https://balsamiq.com)
+- Hand-drawing (Recommended)
+- Virtual Whiteboards. e.g. [FigJam](https://www.figma.com/figjam/) or [Excalidraw](https://excalidraw.com)
+- [Diagrams.net](https://diagrams.net)
+- [Balsamiq](https://balsamiq.com)
 
 `youtube: https://www.youtube.com/embed/bNh54LNUtv8`
 

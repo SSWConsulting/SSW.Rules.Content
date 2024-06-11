@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering anchor names is crucial for effective web development. Follow W3C guidelines and ensure unique, letter-started, and correctly formatted anchor names to avoid common mistakes.
 type: rule
 archivedreason:
 title: Do you use the right anchor names?
@@ -9,17 +10,16 @@ authors:
   - title: Tom Bui
     url: https://www.ssw.com.au/people/tom-bui
 related:
-
 ---
 
-An anchor name is the value of either the name or id attribute when used in the context of anchors. 
+An anchor name is the value of either the name or id attribute when used in the context of anchors.
 
 It is often that developers find themselves using the anchor names incorrectly.
 
-<!--endintro--> 
+<!--endintro-->
 
-According to SSW and [W3C](https://www.w3.org/TR/REC-html40/struct/links.html), anchor names must observe the following rules: 
+According to SSW and [W3C](https://www.w3.org/TR/REC-html40/struct/links.html), anchor names must observe the following rules:
 
 - Anchor names must be unique within a document
-- ID and NAME tokens must begin with a letter ```([A-Za-z])``` and may be followed by any number of letters, digits ```([0-9])```, hyphens ```("-")```, underscores ```("_")```, colons ```(":")```, and periods ```(".")```
-- Anchor name cannot start with ```#```
+- ID and NAME tokens must begin with a letter `([A-Za-z])` and may be followed by any number of letters, digits `([0-9])`, hyphens `("-")`, underscores `("_")`, colons `(":")`, and periods `(".")`
+- Anchor name cannot start with `#`

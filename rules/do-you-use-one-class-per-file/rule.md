@@ -1,4 +1,5 @@
 ---
+seoDescription: Class organization best practices emphasize separating each class into its own file, except when multiple classes form a cohesive unit.
 type: rule
 title: Do you use one class per file?
 uri: do-you-use-one-class-per-file
@@ -19,8 +20,7 @@ Each class definition should live in its own file. This ensures it's easy to loc
 
 <!--endintro-->
 
-The **only** exception should be classes that collectively forms one atomic unit of reuse should live in one file. 
-
+The **only** exception should be classes that collectively forms one atomic unit of reuse should live in one file.
 
 ```cs
 class MyClass
@@ -48,6 +48,7 @@ class MyClassBException
     // ...
 }
 ```
+
 ::: bad
 Bad example - 1 project, 1 file
 :::

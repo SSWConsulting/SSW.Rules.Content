@@ -1,4 +1,5 @@
 ---
+seoDescription: When sharing a post on social media, amplify the original author's voice by including their content and adding your own thoughts and hashtags.
 type: rule
 title: Do you know the best way to share a social media post?
 uri: best-way-to-share-a-social-media-post
@@ -10,6 +11,7 @@ guid: e8e8a5d6-7c27-4373-9d5f-725d4c556c31
 related:
   - keep-your-social-media-updated
 ---
+
 When sharing a post on social media, the ultimate goal is for your planned content to reach more people.
 
 Having said that, the best way to share a post on your socials is by including the original content by resharing it from the source, whether it's a business or personal profile.

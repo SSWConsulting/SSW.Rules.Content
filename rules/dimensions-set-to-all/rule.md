@@ -1,19 +1,19 @@
 ---
+seoDescription: Reports can be simplified and made more readable by configuring every dimension's "All Caption" to be simply "All", eliminating redundancy and making data presentation cleaner.
 type: rule
-archivedreason: 
+archivedreason:
 title: Reports - Do you configure every dimension’s "All Caption" to be "All"?
 guid: d9ee5679-c600-4f14-92ed-d7ea6b692455
 uri: dimensions-set-to-all
 created: 2014-12-01T06:06:37.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- reports-do-you-always-make-sure-the-dimensions-all-captions-all
-
+  - reports-do-you-always-make-sure-the-dimensions-all-captions-all
 ---
 
 In OLAP (Online Analytical Processing) cubes, dimensions are ways to categorize data. For example, in a sales cube, you might have dimensions for Time, Products, and Geography. Each dimension can have a hierarchy, and the top level is often represented as "All," which aggregates the data across all members of that dimension.
@@ -24,9 +24,9 @@ In OLAP (Online Analytical Processing) cubes, dimensions are ways to categorize 
 
 By default, the top level of each dimension is labeled as "All" followed by the dimension name. For example:
 
-* "All Products" for the Products dimension
-* "All Time" for the Time dimension
-* "All Geography" for the Geography dimension
+- "All Products" for the Products dimension
+- "All Time" for the Time dimension
+- "All Geography" for the Geography dimension
 
 This default labelling can be redundant and might not add clarity to the reports generated from these OLAP cubes.
 

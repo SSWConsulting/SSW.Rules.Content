@@ -1,4 +1,5 @@
 ---
+seoDescription: Azure AD Privileged Identity Management (PIM) secures and simplifies privileged access management for your organization.
 type: rule
 title: Security - Do you use Azure AD Privileged Identity Management?
 uri: azure-ad-pim
@@ -9,6 +10,7 @@ authors:
 created: 2022-07-14T05:19:20.642Z
 guid: c302c328-10b4-410c-ba99-0d9ebb19a95f
 ---
+
 Azure AD PIM (Privileged Identity Management) enables a more secure, manageable and monitorable approach to assigning privileged permissions in your organization.
 
 <!--endintro-->

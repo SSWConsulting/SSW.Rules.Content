@@ -1,4 +1,5 @@
 ---
+seoDescription: Scheduling developers' time efficiently and effectively with Dynamics 365 and Outlook to ensure maximum productivity.
 type: rule
 title: Scheduling - Do you know how to book developers for a project?
 uri: book-developers-for-a-project
@@ -15,9 +16,10 @@ created: 2012-12-06T13:32:15.000Z
 archivedreason: null
 guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
 ---
+
 It is the responsibility of Account Managers to book developers for known client work, however anyone can book a developer, including the developer themselves. Also if a developer notices they should be booked, but there's nothing in their calendar, and they can't figure out the below, as a minimum they should ask the Account Manager to book them.
 
-::: greybox  
+::: greybox
 
 **The Rule of the 3 T's**
 
@@ -106,6 +108,7 @@ To book someone for internal work:
 ### Deleting Bookings
 
 Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to follow these steps:
+
 1. In the appointment, open the Dynamics 365 App
 2. Click on the menu next to **Tracked regarding**
 3. Click **Untrack**, then **Delete**
@@ -127,17 +130,17 @@ Using the example of SSW's **crmtimeprosync@** account, this account is used to 
 
 ![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
-**Note:** If using a separate Exchange calendar, it's highly recommended to login via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid syncing issues. 
+**Note:** If using a separate Exchange calendar, it's highly recommended to login via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid syncing issues.
 
 ### How to set it up
 
-**For OWA**  
+**For OWA**
 
-Open browser’s incognito mode | go to https://outlook.office.com | logon with the **crmtimeprosync@** account
+Open browser’s incognito mode | go to <https://outlook.office.com> | logon with the **crmtimeprosync@** account
 
-**For Outlook Desktop** 
+**For Outlook Desktop**
 
-Go to Files | Add an account | Restart Outlook once it completes 
+Go to Files | Add an account | Restart Outlook once it completes
 
 ![Figure: Add account to your Outlook](Add account.jpg)
 

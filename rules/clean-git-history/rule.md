@@ -1,4 +1,5 @@
 ---
+seoDescription: Maintaining a clean and transparent Git history is crucial for codebase readability and understanding changes made over time.
 type: rule
 title: Do you have a clean git history?
 uri: clean-git-history
@@ -21,10 +22,10 @@ Things that create a good git history include:
 
 <!--endintro-->
 
-* Granularity of commits
-* Descriptive commit messages
-* Easy to maintain (i.e. easily revert an entire feature)
-* Never lose history
+- Granularity of commits
+- Descriptive commit messages
+- Easy to maintain (i.e. easily revert an entire feature)
+- Never lose history
 
 ## Squashing Pull Requests
 
@@ -80,9 +81,9 @@ Maintaining a clean git history is important for readability and understanding t
 
 Below is a summary of the things that create a good git history and the methods to achieve them:
 
-| | Granularity of commits | Descriptive commit messages | Easy to maintain | Never lose history |
-|----|----|----|----|----|
-| Squashing Pull Requests | ✅ | ✅ | ✅ |  |
-| Good Pull Request titles |  | ✅ | ✅ |  |
-| Preserving file history |  |  | ✅ | ✅ |
-| Merging multiple repositories |  |  | ✅ | ✅ |
+|                               | Granularity of commits | Descriptive commit messages | Easy to maintain | Never lose history |
+| ----------------------------- | ---------------------- | --------------------------- | ---------------- | ------------------ |
+| Squashing Pull Requests       | ✅                     | ✅                          | ✅               |                    |
+| Good Pull Request titles      |                        | ✅                          | ✅               |                    |
+| Preserving file history       |                        |                             | ✅               | ✅                 |
+| Merging multiple repositories |                        |                             | ✅               | ✅                 |

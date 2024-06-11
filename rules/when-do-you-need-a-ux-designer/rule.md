@@ -1,4 +1,5 @@
 ---
+seoDescription: When do you need a UX designer? A UX expert can help with specification reviews, application or web development, redesigns, usability issues, complex systems, user research, and accessibility.
 type: rule
 title: Do you know when you need a UX Designer?
 uri: when-do-you-need-a-ux-designer
@@ -8,6 +9,7 @@ authors:
 created: 2023-08-01T23:20:15.737Z
 guid: 1d33effb-507e-4188-8254-287319f1fdc4
 ---
+
 Have you ever found yourself on a project and wondered if you require a UX designer? Especially one who can create interactive prototypes with tools like Figma?
 
 If you are asking yourself that question, you probably need a UX designer. Here are 7 situations where you could benefit from a UX designer.

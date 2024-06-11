@@ -1,4 +1,5 @@
 ---
+seoDescription: Preserve emails sent to customers and maintain a record of correspondence with never-emptying your Sent Items folder.
 type: rule
 title: Do you always keep your Sent Items folder intact?
 uri: do-you-always-keep-your-sent-items
@@ -14,7 +15,7 @@ archivedreason: null
 guid: 01b8f596-506f-459b-9dbb-a204b21f49b7
 ---
 
-You should **never** empty your Sent Items folder. This folder will in most cases be the only record you have of the emails you have sent to customers and clients. 
+You should **never** empty your Sent Items folder. This folder will in most cases be the only record you have of the emails you have sent to customers and clients.
 
 <!--endintro-->
 

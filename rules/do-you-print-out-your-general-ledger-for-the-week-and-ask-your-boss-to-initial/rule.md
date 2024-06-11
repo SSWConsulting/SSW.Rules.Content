@@ -1,16 +1,16 @@
 ---
+seoDescription: Print out your general ledger and ask your boss to initial to ensure accurate cheque numbers and memo descriptions.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you print out your general ledger for the week and ask your boss to initial?
 guid: 9cac32fc-0e18-4b0c-adcc-fe3c557d14fd
 uri: do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
 created: 2013-04-19T18:53:33.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 In your first month as an Accountant for a new company, you should print out the general ledger for the week and ask your boss to initial to say that the "cheque numbers and memo descriptions are good".

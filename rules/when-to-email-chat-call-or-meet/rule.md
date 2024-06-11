@@ -1,4 +1,5 @@
 ---
+seoDescription: When to Send an Email, Chat Message, Call, or Organize a Meeting - Learn how to choose the right communication method for Microsoft Teams and email, considering factors like urgency, complexity, number of people involved, availability, and task requirements.
 type: rule
 title: Do you know when to send an email, a chat message, call, or organize a meeting?
 uri: when-to-email-chat-call-or-meet
@@ -13,7 +14,7 @@ authors:
     url: https://www.ssw.com.au/people/nick-curran
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-  
+
 related:
   - important-chats-should-be-in-an-email
   - if-communication-is-not-simple-call-the-person-instead-of-im
@@ -23,6 +24,7 @@ related:
 created: 2023-02-20T23:47:34.165Z
 guid: d2e68e2c-41ad-47b0-b0ac-43ba50d8d857
 ---
+
 When deciding whether to send a chat message, call, or organize a meeting in Microsoft Teams, or send an email, there are a few factors to consider:
 
 <!--endintro-->
@@ -48,9 +50,9 @@ Hi Matt,
 ❌ Blocked - I need your approval to keep working on the Northwind Traders Ltd project.
 
 1. Please call me ASAP.
-:::
-::: good
-Figure: Good example – The "❌ Blocked" makes it clear that this is urgent. Similar to if you were to say "❌ Blocked" in a [Daily Scrum](/methodology-daily-scrums)
-:::
+   :::
+   ::: good
+   Figure: Good example – The "❌ Blocked" makes it clear that this is urgent. Similar to if you were to say "❌ Blocked" in a [Daily Scrum](/methodology-daily-scrums)
+   :::
 
 In general, Teams is designed for real-time collaboration and communication, while email is better suited for asynchronous communication. Therefore, if you need to discuss something quickly or want to work collaboratively on a project, using Teams may be more appropriate. If, however, you need to communicate a more formal or official message, or want to provide detailed information that can be referenced later, an email may be more appropriate.

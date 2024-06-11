@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your GitHub Issues by standardizing them with templates, enhancing repository backlogs and developer workflow.
 type: rule
 title: GitHub Issues - Do you use Issue Templates?
 uri: github-issue-templates
@@ -35,16 +36,17 @@ Let's take a look at how implementing Issue Templates can improve repository bac
 ![Figure: Bad Example - Issue created without a Template](bad-example-issue.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good Example - Issue created from a Template](good-example-issue.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good Example - All the available Issue Template](list-of-options.png)
 :::
 
 ::: info
 For instructions on setting this up:
-- See [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository) 
+
+- See [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
 - Check out [SSW Github repo Template.](https://github.com/SSWConsulting/SSW.GitHub.Template)
-:::
+  :::

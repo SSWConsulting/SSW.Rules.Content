@@ -1,17 +1,17 @@
 ---
+seoDescription: Schema optimization tip - Use bit/numeric data types correctly by choosing between tinyint, smallint, int, and bigint based on your specific requirements.
 type: rule
-archivedreason: 
+archivedreason:
 title: Schema - Do you use Bit/Numeric data type correctly?
 guid: dc80624c-10d3-4141-bb84-aa5b159a84cd
 uri: use-bit-numeric-data-type-correctly
 created: 2019-11-05T23:02:43.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- schema-do-you-use-bit-numeric-data-type-correctly
-
+  - schema-do-you-use-bit-numeric-data-type-correctly
 ---
 
 ### 1. Bit data type

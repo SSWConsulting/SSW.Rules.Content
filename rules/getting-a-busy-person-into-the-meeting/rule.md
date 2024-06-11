@@ -1,4 +1,5 @@
 ---
+seoDescription: Getting a busy person into an online meeting requires a proactive approach, including pinging them on Teams and persistently adding them to the call if they're missing.
 type: rule
 title: Ceremony - Do you know how to get a busy person into the meeting?
 uri: getting-a-busy-person-into-the-meeting
@@ -14,6 +15,7 @@ redirects: []
 created: 2021-12-16T23:49:23.696Z
 guid: 2c6e0175-0723-4f3b-81c8-33260f625a46
 ---
+
 It can be difficult to get everybody into a meeting, especially these days when many meetings are online. It is important that time is not wasted in these situations, so it's good to be proactive and have a plan for when the decision maker is busy.
 
 <!--endintro-->
@@ -28,7 +30,7 @@ You have already [shared the agenda](/share-the-agenda), so pick out the best it
 
 ::: greybox
 If the meeting has started and someone is missing, then add them to the call. Ping them if they dont answer.
-If a decision maker is missing from the call and you don't get a response, tell them *"I will call you towards the end of the meeting for a summary"*, as per [Do you know how to loop someone in at the end of a meeting?](/loop-someone-in)
+If a decision maker is missing from the call and you don't get a response, tell them _"I will call you towards the end of the meeting for a summary"_, as per [Do you know how to loop someone in at the end of a meeting?](/loop-someone-in)
 :::
 
 Once you have done the above, you can start the meeting without the decision-maker. You may choose to start with the less important items in the agenda, or the ones that won't require a final decision ("For information" items) that can be easily summarised at the end of the meeting.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Setup a Twitter backchannel beforehand to encourage attendees to share thoughts and feedback during your presentation.
 type: rule
 title: Prior - Do you setup a Twitter backchannel beforehand?
 uri: prior-do-you-setup-a-twitter-backchannel-beforehand
@@ -12,7 +13,8 @@ created: 2010-10-22T01:07:04.000Z
 archivedreason: null
 guid: 019c2aca-4ddf-4fc7-bcb9-2726dfe7932f
 ---
-[Create a hashtag](/do-you-know-to-use-hash-tags) for your presentation prior to the presentation and display it in your slides! Twitter backchannels are valuable sources of feedback.  
+
+[Create a hashtag](/do-you-know-to-use-hash-tags) for your presentation prior to the presentation and display it in your slides! Twitter backchannels are valuable sources of feedback.
 
 <!--endintro-->
 

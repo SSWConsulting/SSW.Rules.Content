@@ -1,23 +1,23 @@
 ---
+seoDescription: Do you always rename staging URL on Azure to boost productivity and ease site access?
 type: rule
-archivedreason: 
+archivedreason:
 title: UX - Do you rename Azure’s default URL?
 guid: 92dd8fc9-110d-4ea6-8340-528f1b1d411e
 uri: do-you-always-rename-staging-url-on-azure
 created: 2015-03-08T23:23:53.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
-- title: Michael Demarco
-  url: https://ssw.com.au/people/michael-demarco
-- title: Shigemi Matsumoto
-  url: https://ssw.com.au/people/shigemi-matsumoto
-related: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
+  - title: Michael Demarco
+    url: https://ssw.com.au/people/michael-demarco
+  - title: Shigemi Matsumoto
+    url: https://ssw.com.au/people/shigemi-matsumoto
+related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects: []
-
 ---
 
 If you use the default Azure staging website URL, it can be difficult to remember and a waste of time trying to lookup the name every time you access it. Follow this rule to increase your productivity and make it easier for everyone to access your staging site.
@@ -44,7 +44,7 @@ Figure: Good example - Staging URL with "staging&#46;" prefix
 
 1. Add a CName to the default URL to your DNS server
 
-![Figure: CName being added to DNS for the default URL](2015-03-10_17-13-55.png) 
+![Figure: CName being added to DNS for the default URL](2015-03-10_17-13-55.png)
 
 2. Instruct Azure to accept the custom URL
 

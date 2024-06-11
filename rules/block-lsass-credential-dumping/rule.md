@@ -1,4 +1,5 @@
 ---
+seoDescription: Block credential dumping from lsass.exe and protect user credentials with Windows 10's Credential Guard, a feature that runs lsass.exe in an isolated virtualized environment without device drivers.
 type: rule
 title: Do you block credential dumping from lsass.exe?
 uri: block-lsass-credential-dumping
@@ -10,6 +11,7 @@ guid: 39c59fbc-5168-43f7-ae8f-5dd1b290b41f
 redirects:
   - block-lsass-credential-dump
 ---
+
 If an attacker gets into a computer on your network, they can dump hashed credentials of any user that has logged on to that computer from lsass.exe. This is easy to do if you know where to go - thankfully, it is also fairly easy to block!
 
 You can read more about credential dumping at [mitre.org](https://attack.mitre.org/techniques/T1003/001/), or in this [blog post from Microsoft](https://www.microsoft.com/security/blog/2022/10/05/detecting-and-preventing-lsass-credential-dumping-attacks/).

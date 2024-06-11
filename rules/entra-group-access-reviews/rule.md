@@ -1,4 +1,5 @@
 ---
+seoDescription: Automate group cleaning and ensure only the right people have ongoing access with Entra Access Reviews.
 type: rule
 title: Do you clean up your groups with Entra Access Reviews?
 uri: entra-group-access-reviews
@@ -12,7 +13,8 @@ related:
 created: 2023-09-04T05:14:04.172Z
 guid: a19eed88-a9e0-4ed9-ad84-cd64159caa3f
 ---
-When you have multiple ongoing projects with people moving in and out of project teams, you can end up with too many people in the related groups - especially if you are using public Microsoft 365 groups that anyone in the organization can join. 
+
+When you have multiple ongoing projects with people moving in and out of project teams, you can end up with too many people in the related groups - especially if you are using public Microsoft 365 groups that anyone in the organization can join.
 
 With [Access Reviews](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview), you can automate cleaning up these groups and make sure only the right people have ongoing access.
 

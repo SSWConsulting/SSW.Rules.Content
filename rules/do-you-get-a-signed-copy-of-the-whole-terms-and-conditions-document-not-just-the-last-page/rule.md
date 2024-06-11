@@ -1,22 +1,23 @@
 ---
+seoDescription: Do you get a signed copy of the whole Terms and Conditions document, not just the last page?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you get a signed copy of the whole Terms and Conditions document (not just the last page)?
 guid: aa53fa57-e32c-4d2c-9555-d9a7e81ad5b6
 uri: do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-not-just-the-last-page
 created: 2012-11-20T19:17:27.0000000Z
 authors:
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-(not-just-the-last-page)
-
+  - do-you-get-a-signed-copy-of-the-whole-terms-and-conditions-document-(not-just-the-last-page)
 ---
 
-Often clients will see a multi-page T&C document with a box at the end that says sign here, and they will think that is the only important page and so sign it and send it back. However this can be a problem when you've got to provide evidence as to the content of the whole document they signed. To fix this issue, you can get them to re-send you through the entire document, but sometimes you don’t want to rock the boat. Here is another solution: 
+Often clients will see a multi-page T&C document with a box at the end that says sign here, and they will think that is the only important page and so sign it and send it back. However this can be a problem when you've got to provide evidence as to the content of the whole document they signed. To fix this issue, you can get them to re-send you through the entire document, but sometimes you don’t want to rock the boat. Here is another solution:
+
 <!--endintro-->
 
 1. Print out the section of the contract/T&C's the client sent
@@ -27,11 +28,9 @@ Often clients will see a multi-page T&C document with a box at the end that says
 Note: to do this directly in PDF (without using a printer or scanner) use https://smallpdf.com/ (2 actions a day are free)
 
 ::: greybox
-Dear Client. 
+Dear Client.
 Because you only sent me the last page I printed the other pages and scanned all the pages as one document for convenience. If there any problems, please let me know  
 :::
-
-
 
 ::: good
 Figure - Good example: An elegant and helpful solution

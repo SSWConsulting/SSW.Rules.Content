@@ -1,4 +1,5 @@
 ---
+seoDescription: Gather opinions from your team and improve your business processes with a regular feedback loop.
 type: rule
 title: Do you gather opinions from your team?
 uri: gather-team-opinions
@@ -14,12 +15,14 @@ authors:
 created: 2023-03-29T23:46:59.734Z
 guid: 1b4cea4e-f968-4b75-8d1d-44c3aa781fd5
 ---
+
 No matter how well adapted your business and processes are, there's always room to improve and learn.
 Getting feedback from others, outside the [critical distance](/importance-critical-distance), helps to fine-tune ideas, even if you may think your processes are ideal.
 
 Once you've built a fantastic team of experts, it's important to actively listen to their opinions and ideas to continue building a great place to work and deliver more value to your customers.
 
 Having a regular forum like this is a great way to achieve also achieve 2 other important goals:
+
 1. Educating the team
 1. Aligning the company
 
@@ -63,9 +66,9 @@ A really effective metric to include is a star rating out of 5, this can be aver
 
 Once the deadline has passed, review the survey submissions, taking note of any:
 
-* Particularly high or low ratings
-* Suggestions for change
-* Ideas for future editions
+- Particularly high or low ratings
+- Suggestions for change
+- Ideas for future editions
 
 Don't just cherry-pick the ideas that you immediately like the looks of, it's worth examining (or even better, discussing) any submitted ideas.
 Your team members will appreciate feeling heard, so reach out to those members who submitted ideas which you don't agree with or are impractical to discuss why.

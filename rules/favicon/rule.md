@@ -1,20 +1,20 @@
 ---
+seoDescription: Add a high-quality favicon to your website to give it a professional look and feel, enhancing user experience.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you add a favicon to your website?
 guid: d9136030-ff29-4617-8d0b-074096ae8120
 uri: favicon
 created: 2015-10-13T00:47:56.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- does-your-sharepoint-site-have-a-favicon
+  - does-your-sharepoint-site-have-a-favicon
 redirects:
-- do-you-have-a-favicon-in-your-webpage
-
+  - do-you-have-a-favicon-in-your-webpage
 ---
 
 A Favicon is an image file included on professionally developed sites. The favicon reflects the look and feel of the website or the organizations' visual identity.
@@ -38,12 +38,13 @@ The format of the image must be one of PNG (a W3C standard), GIF, or ICO. You ca
 1. Copy your company's favicon to the root of the site
 2. Add the highlighted code below inside the `<head>` tag in your HTML
 
-``` html
+```html
 <head>
-<title>Page Title</title>
-<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+  <title>Page Title</title>
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 </head>
 ```
-**Figure: One line of HTML lets you add your company's icon to your web page** 
+
+**Figure: One line of HTML lets you add your company's icon to your web page**
 
 This works for most websites, including ASPX WebForms, MVC and WordPress.

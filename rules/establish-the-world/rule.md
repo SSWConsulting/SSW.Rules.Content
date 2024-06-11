@@ -1,4 +1,5 @@
 ---
+seoDescription: Establish the world and set the stage for your audience by using drone footage to showcase the location and create a lasting impression.
 type: rule
 title: Do you establish the world for your audience?
 uri: establish-the-world
@@ -14,9 +15,9 @@ guid: f1dac5ed-a422-4e19-bf72-f6c637ba0a23
 **Video: Drone Shots of the SSW Offices - France, Sydney, Newcastle, Melbourne, Brisbane and Hangzhou**
 
 Drone footage of Sydney and Newcastle captured by:
-William Fardell (https://www.greentreemedia.net/)  
+William Fardell (https://www.greentreemedia.net/)
 
-When creating video content, it's crucial to start by setting up the world and the location where your content is taking place. This initial impression can significantly impact how your audience engages with your video. 
+When creating video content, it's crucial to start by setting up the world and the location where your content is taking place. This initial impression can significantly impact how your audience engages with your video.
 
 One effective way to achieve this is through the use of drone footage.
 
@@ -28,12 +29,10 @@ One effective way to achieve this is through the use of drone footage.
 
 - **Spatial awareness** - By showing the environment from above, drone footage helps viewers understand the geographical context of the video's location
 
-
 ::: bad
 `youtube: https://youtu.be/7jOJ2QlfGUg`
 **Video: No establishing shots. The video starts abruptly without establishing the setting, leaving viewers confused about where the content is taking place**
 :::
-
 
 ::: good
 `youtube: https://youtu.be/uFLnYo_z6Pw`

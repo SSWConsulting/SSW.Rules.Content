@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accuracy and thoroughness in your work by following attention-to-detail strategies, including double-checking, using tools like ChatGPT and spell checkers, taking time to complete tasks, and breaking them down into smaller parts.
 type: rule
 title: Attention to Detail - Do you know how to make sure you've covered all your bases?
 uri: attention-to-detail

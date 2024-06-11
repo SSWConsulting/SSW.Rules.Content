@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to track and analyze your social media statistics on YouTube, LinkedIn, X (formerly Twitter), and more.
 type: rule
 title: Do you know how to check your social media statistics?
 uri: do-you-know-how-to-check-social-media-stats

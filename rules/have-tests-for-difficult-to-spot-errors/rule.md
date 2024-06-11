@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you have tests for difficult-to-spot errors, such as arithmetic, rounding and regular expressions? Write unit tests to catch unexpected issues in your code.
 type: rule
 title: Do you have tests for difficult to spot errors (e.g. arithmetic,
   rounding, regular expressions)?
@@ -22,7 +23,7 @@ By difficult to spot errors, we mean errors that do not give the user a prompt t
 
 ![](unit test - arithmetic code.jpg)
 
-**Figure: Function to calculate a total for a list of items** 
+**Figure: Function to calculate a total for a list of items**
 
 For a function like this, it might be simple to spot errors when there are one or two items. But if you were to calculate the total for 50 items, then the task of spotting an error isn't so easy. This is why a unit test should be written so that you know when the function doesn't work correctly.
 

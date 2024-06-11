@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when to implement IDisposable and ensure efficient memory management in .NET by understanding how to control unmanaged resources with this guide.
 type: rule
 title: Do you know when to implement IDisposable?
 uri: when-to-implement-idisposable
@@ -71,4 +72,4 @@ Figure: Good example - With the `using` statement, the unmanaged resources are d
 
 :::
 
-[See here](https&#58;//msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx) for more details.
+[See here](https://msdn.microsoft.com/en-us/library/system.idisposable.dispose.aspx) for more details.

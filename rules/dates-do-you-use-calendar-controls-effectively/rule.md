@@ -1,6 +1,7 @@
 ---
+seoDescription: Effective calendar control usage ensures accurate date display, highlighting current dates and bolding events with associated data.
 type: rule
-archivedreason: 
+archivedreason:
 title: Dates - Do you use Calendar controls effectively?
 guid: 5a0e9845-d686-4e98-aaa5-56d58d3a1194
 uri: dates-do-you-use-calendar-controls-effectively
@@ -8,19 +9,17 @@ created: 2014-12-01T05:57:12.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 In Outlook, the Calendar control has a number of important features:
 
-* Saturday and Sunday are displayed at the *end*.
-* Days that have data associated with them are  **bold**
-* The current day is highlighted with a box
-
+- Saturday and Sunday are displayed at the _end_.
+- Days that have data associated with them are **bold**
+- The current day is highlighted with a box
 
 <!--endintro-->
 
-Users are familiar with the Outlook calendar control. When the calendar control 
+Users are familiar with the Outlook calendar control. When the calendar control
 is used it should incorporate all of these features of the Outlook calendar control.
 
 ::: bad  
@@ -33,5 +32,5 @@ not highlighted, and items with data are not bolded](../../assets/CalendarContro
 is highlighted, and items with data are bolded](../../assets/CalendarControlGood.gif)
 :::
 
-We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/) 
+We have a program called [SSW Code Auditor](http://www.ssw.com.au/ssw/CodeAuditor/)
 to check for this rule.

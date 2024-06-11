@@ -1,4 +1,5 @@
 ---
+seoDescription: Confirm key decisions and action points via email after phone conversations or meetings to ensure a clear record of agreements.
 type: rule
 title: Do you prepare, then confirm conversations/decisions?
 uri: do-you-prepare-then-confirm-conversations-decisions
@@ -16,6 +17,7 @@ created: 2009-03-25T05:43:42.000Z
 archivedreason: null
 guid: 31313bb1-9741-4515-911e-cc67d081f58b
 ---
+
 Ideally, all phone conversations and meetings should be followed up with a confirmation to ensure there is a record of the decisions made and action points agreed upon. It is essential that meetings and phone calls are prepared for adequately to ensure they are conducted efficiently. However, the reality often is that after a meeting or phone call, we immediately move on to the next task at hand. Therefore, the following workflow is recommended:
 
 <!--endintro-->

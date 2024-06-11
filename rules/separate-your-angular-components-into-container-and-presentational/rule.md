@@ -1,4 +1,5 @@
 ---
+seoDescription: Separate your Angular components into presentational and container ones to simplify application development and improve maintainability.
 type: rule
 title: Practices - Do you know to separate your Angular components into
   container and presentational?
@@ -17,9 +18,8 @@ created: 2017-01-03T16:52:00.000Z
 archivedreason: null
 guid: 8beefebf-8aef-4821-b965-16c4a9923443
 ---
+
 There are 2 general types of components according its complexity: presentational and smart components. Presentational component is a component that is purely driven by its input data. Smart component on the other hand, is more complex - it can have business logic, dependencies, and also store its own state.
-
-
 
 <!--endintro-->
 
@@ -27,15 +27,16 @@ Aiming to have more presentational components makes building applications easier
 
 Smart components are harder to debug since they now have dependencies and state that need to be taken into account when debugging.
 
-
-
 ```typescript
 // company-list-table.component.ts
 
 @Component({
-  selector: 'fbc-company-list-table',
-  template: `
-    <table id="company-list-table" class="table table-hover table-striped company-list-table-component">
+  selector: "fbc-company-list-table",
+  template: `
+    <table
+      id="company-list-table"
+      class="table table-hover table-striped company-list-table-component"
+    >
       <thead>
         <tr>
           <th>Name</th>
@@ -46,18 +47,31 @@ Smart components are harder to debug since they now have dependencies and state 
       </thead>
       <tbody>
         <tr class="item" *ngFor="let company of companies">
-          <td>{{company.name}}</td>
-          <td>{{company.phone}}</td>
-          <td>{{company.email}}</td>
+          <td>{{ company.name }}</td>
+          <td>{{ company.phone }}</td>
+          <td>{{ company.email }}</td>
           <td class="button-column">
-            <button routerLink="/company/detail/{{company.id}}" class="btn btn-default" >Details</button>
-            <button routerLink="/company/edit/{{company.id}}" class="btn btn-default" >Edit</button>
-            <button (click)="confirmDelete(company)" class="btn btn-default">Delete</button>
+            <button
+              routerLink="/company/detail/{{ company.id }}"
+              class="btn btn-default"
+            >
+              Details
+            </button>
+            <button
+              routerLink="/company/edit/{{ company.id }}"
+              class="btn btn-default"
+            >
+              Edit
+            </button>
+            <button (click)="confirmDelete(company)" class="btn btn-default">
+              Delete
+            </button>
           </td>
         </tr>
       </tbody>
     </table>
-  `
+     
+  `,
 })
 export class CompanyListTableComponent {
   @Input() companies: Company[];

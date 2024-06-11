@@ -1,4 +1,5 @@
 ---
+seoDescription: Management of a project requires knowing who has authority to make decisions and ensure that work is authorized by the person who signs the cheques.
 type: rule
 title: Management - Do you know who has authority?
 uri: management-do-you-know-who-has-authority
@@ -19,10 +20,10 @@ OK, once a project gets going, you can end up dealing with many people on the cl
 <!--endintro-->
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | John, Bob Northwind |
-| Cc:      | Sophie |
+| To: | John, Bob Northwind |
+| Cc: | Sophie |
 | Subject: | Changes Requested by Sophie |  
 ::: email-content
 (CC'ing the Product Owner Bob)
@@ -38,14 +39,14 @@ Please let us know ASAP if you don't want this problem fixed.
 Thanks,
 John
 
-[www.ssw.com.au](http&#58;//www.ssw.com.au/)
+[www.ssw.com.au](http://www.ssw.com.au/)
 :::
 :::
- **Figure: Sample Change Request Confirmation email**
+**Figure: Sample Change Request Confirmation email**
 
 So, say Alan from Accounts would like the Username and Password authentication to have a "remember me" checkbox for the Accounts module. This sounds reasonable, but it doesn't mean that you should charge right in and start coding.
 The following is the recommended approach to governing this process:
 
-* At the beginning of the project an employee from the client is assigned as Product Owner. This person has full authority as to what work is "in" or "out". Every new item of work should be visible to the Product Owner. ([CC is your friend](/cc-the-client-whenever-possible), [@mention is your friend](/when-you-use-mentions-in-a-pbi))
-* Whenever someone who ISN'T the Product Owner makes a request for work, the Product Owner must be CC'd. For example, if Mary the receptionist has not done this, the developer sends the email again to himself, and CC's the Product Owner (and of course other relevant people).
-* **Note:** The assumption is made that the task is good to go, so it is the Product Owner's responsibility to reply ASAP if they don't want the problem fixed.
+- At the beginning of the project an employee from the client is assigned as Product Owner. This person has full authority as to what work is "in" or "out". Every new item of work should be visible to the Product Owner. ([CC is your friend](/cc-the-client-whenever-possible), [@mention is your friend](/when-you-use-mentions-in-a-pbi))
+- Whenever someone who ISN'T the Product Owner makes a request for work, the Product Owner must be CC'd. For example, if Mary the receptionist has not done this, the developer sends the email again to himself, and CC's the Product Owner (and of course other relevant people).
+- **Note:** The assumption is made that the task is good to go, so it is the Product Owner's responsibility to reply ASAP if they don't want the problem fixed.

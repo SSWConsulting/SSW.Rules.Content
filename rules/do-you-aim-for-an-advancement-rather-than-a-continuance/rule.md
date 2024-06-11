@@ -1,18 +1,18 @@
 ---
+seoDescription: Aim for an advancement rather than a continuance to drive business forward and increase chances of making a sale.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you aim for an advancement rather than a continuance?
 guid: cb26a54f-9b1d-48c1-b05d-0bab64d94813
 uri: do-you-aim-for-an-advancement-rather-than-a-continuance
 created: 2012-08-30T13:02:28.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 Once you have completed the initial meeting and provided a quote, you have to be careful to keep moving towards your goal of making the sale.

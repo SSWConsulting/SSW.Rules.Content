@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the importance of asking questions and transform your communication skills with expert tips on choosing the right time, avoiding interrupting, and crafting valuable inquiries.
 type: rule
 title: Do you know the importance of asking questions?
 uri: asking-questions
@@ -13,6 +14,7 @@ created: 2020-10-01T20:35:49.000Z
 archivedreason: null
 guid: b8082efe-e98e-419b-8b71-b0188640aef4
 ---
+
 A disproportionate amount of time is spent thinking about whether you got the **right answers** from the client (or in the software world "Did we get the right specs?"). However, asking the **right questions** is a very important part of this process.
 
 <!--endintro-->

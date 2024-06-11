@@ -1,21 +1,21 @@
 ---
+seoDescription: Standardize virtual machine naming conventions to simplify identification and management across multiple hosts and environments.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you name your Virtual Machines with a standardized naming convention?
 guid: 95d89bf5-a456-4ccf-b636-5bd7e56300f6
 uri: name-your-virtual-machines-with-a-standardized-naming-convention
 created: 2011-02-14T05:06:05.0000000Z
 authors:
-- title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  - title: Matthew Hodgkins
+    url: https://ssw.com.au/people/matthew-hodgkins
 related: []
-redirects: 
-- do-you-name-your-virtual-machines-with-a-standadized-naming-convention
-- do-you-name-your-virtual-machines-with-a-standardized-naming-convention
-
+redirects:
+  - do-you-name-your-virtual-machines-with-a-standadized-naming-convention
+  - do-you-name-your-virtual-machines-with-a-standardized-naming-convention
 ---
 
-When your Hyper-V environment is spread across multiple hosts and contains many Virtual Servers, it can get very confusing to find the one you are looking for amongst them all. This is why you should use a standard naming convention for all your Virtual machines.  
+When your Hyper-V environment is spread across multiple hosts and contains many Virtual Servers, it can get very confusing to find the one you are looking for amongst them all. This is why you should use a standard naming convention for all your Virtual machines.
 
 <!--endintro-->
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Forms and Google Forms allow collecting data from employees, users, and stakeholders. Measure form value by asking users to rate it out of 5, educating them to objectively compare against previous forms, and track progress using Power BI.
 type: rule
 title: Forms - Do you ask the value they received?
 uri: forms-value
@@ -9,6 +10,7 @@ created: 2022-02-04T00:39:27.916Z
 guid: 3d41f831-c7d7-4e80-81b1-2bd2a7f36a26
 archivedreason: null
 ---
+
 Microsoft Forms and Google Forms provide an invaluable way of collecting data from your employees, users and other stakeholders. It's important to understand if their experience of providing this feedback is a good or a bad one.
 
 Therefore, create a last question where they rate the form's questions from their perspective. That way you've got metrics to make better forms in the future.
@@ -37,10 +39,10 @@ In particular, new people are enthusiastic and want to give everything 5 out of 
 
 The general guidance should be to compare the value against previous entries. For example, the scale should be something like:
 
-* Terrible - 1
-* Poor - 2
-* OK - 3
-* Good - 4
-* Outstanding - 5
+- Terrible - 1
+- Poor - 2
+- OK - 3
+- Good - 4
+- Outstanding - 5
 
 If you educate the users about this, your data is going to be much more reflective of the actual value each form gives.

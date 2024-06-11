@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure a secure Windows PC by verifying 5 green ticks, indicating best practices for security and protection against vulnerabilities.
 type: rule
 title: PC - Do you check that Windows Security has 5 green ticks?
 uri: windows-security
@@ -10,6 +11,7 @@ authors:
 created: 2022-03-16T23:44:19.497Z
 guid: 20bcae53-8982-4dc9-bf97-0d0671c22844
 ---
+
 Often users don't know how to properly secure their computer and open themselves to vulnerabilities. Windows Security solves this by ensuring that a PC is running all the best practices to keep it safe from harm.
 
 <!--endintro-->

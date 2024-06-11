@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost Windows SOE setup speed with package managers like Chocolatey and Winget for small to medium-sized companies or BYOD environments.
 type: rule
 title: Do you know the quickest way to get your Windows SOE up and running?
 uri: do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
@@ -17,7 +18,6 @@ redirects:
 created: 2016-06-20T04:57:19.000Z
 archivedreason: null
 guid: 434aba3a-381a-474c-b8d3-357d10fc55bf
-
 ---
 
 Your developers should be using the latest version of Windows for security, speed, and the latest features.
@@ -53,19 +53,19 @@ Assuming that Windows is already installed, then get your SOE installed fast by 
 8. If you are preparing the machine for someone else or migrating an old PC, you could send an email based on the template below. Don't forget to change the names where necessary:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob Northwind |
+| To: | Bob Northwind |
 | Subject: | Your new computer |
-::: email-content  
+::: email-content
 
 ### Hey Bob
 
-Your new computer is ready ⭐️  
+Your new computer is ready ⭐️
 
 * Machine name: Bob-SurfacePro9
 * Model: Surface Pro 9
-* Operating System: Windows 11 Enterprise  
+* Operating System: Windows 11 Enterprise
 
 I have followed an SSW Rule: [ssw.com.au/rules/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running](/do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running) and this included:
 

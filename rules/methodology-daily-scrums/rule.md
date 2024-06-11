@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve daily scrum efficiency and collaboration with these actionable tips on sending emails, using IM, and making meetings easy to find.
 type: rule
 title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
 uri: methodology-daily-scrums
@@ -22,6 +23,7 @@ created: 2009-02-28T09:43:16.000Z
 archivedreason: null
 guid: f15f834f-70dd-4f38-8597-9e561336caf2
 ---
+
 Tight project teams have a Daily 'Scrum' every day at the same time.
 
 It was once called a 'stand-up meeting' but that discriminates people in wheelchairs.
@@ -66,12 +68,12 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 ### Tip #3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | {{ TEAM }} |
-| Recurrence:      | Everyday |
-| Subject: | Daily Scrum –  {{ PROJECT NAME }} |
-::: email-content  
+| To: | {{ TEAM }} |
+| Recurrence: | Everyday |
+| Subject: | Daily Scrum – {{ PROJECT NAME }} |
+::: email-content
 
 ### Hi {{ TEAM NAME }}
 
@@ -165,12 +167,12 @@ Once you have completed your stand up, add “S” to your timesheet as per [Rul
 To avoid misunderstandings or even arguments, send your Daily Scrum as an email so everyone you are working with knows what you are working on. This is also helpful for team members who were not able to to join the Daily Scrum 😊.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob Northwind |
-| Cc:      | {{ ANYONE YOU'RE WORKING WITH }} |
+| To: | Bob Northwind |
+| Cc: | {{ ANYONE YOU'RE WORKING WITH }} |
 | Subject: | {{ YOUR NAME / TEAM NAME }} - Daily Scrum |
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
@@ -197,7 +199,7 @@ Figure: Good example - Always include what you previously worked on and what you
 ### Tip #16: Use IM
 
 After you have sent your email, you can also make it front and center by sending them a ping on IM.
-*“Check your email for my Daily Scrum”* or paste in the below (a lightweight version with only what to do).
+_“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
 
 Use Teams or Skype to bridge gaps in geography.
 
@@ -250,7 +252,7 @@ AutoScrum will scan your Azure DevOps repositories and find all the PBIs that yo
 
 More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBlazor/AutoScrum).
 
-- - -
+---
 
 ### More information
 

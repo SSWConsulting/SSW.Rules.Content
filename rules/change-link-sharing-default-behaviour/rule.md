@@ -1,4 +1,5 @@
 ---
+seoDescription: Change default link sharing behavior to improve security and permission inheritance in SharePoint sites by setting "People with existing access" as the default.
 type: rule
 title: Do you change link sharing default behaviour?
 uri: change-link-sharing-default-behaviour
@@ -13,6 +14,7 @@ related:
   - avoid-using-share-functionality
   - how-to-share-a-file-folder-in-sharepoint
 ---
+
 If you are checking your sites permissions regularly you will probably notice a lot of unique permissions being applied.
 
 :::bad
@@ -20,12 +22,12 @@ If you are checking your sites permissions regularly you will probably notice a 
 ![Figure: Some items may have unique permissions](uniquepermissions.png)
 :::
 
-The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document".  This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
-The consequence in SharePoint is that unique permissions are applied to the individual items **breaking permission inheritance**. It also has performance implications.  Links should instead be created with the "People with existing access" setting.
+The default "Copy Link" setting in SharePoint is usually set to "People from your organization can view this document". This creates a unique sharing link each time it is used, giving people access to the file even if they didn't already.
+The consequence in SharePoint is that unique permissions are applied to the individual items **breaking permission inheritance**. It also has performance implications. Links should instead be created with the "People with existing access" setting.
 
 <!--endintro-->
 
-To fix the issue you need to change the default sharing method.  There are 2 ways to do this - manually via the GUI or programmatically via PNP.PowerShell.
+To fix the issue you need to change the default sharing method. There are 2 ways to do this - manually via the GUI or programmatically via PNP.PowerShell.
 
 ## Method 1 - Manually via SharePoint Admin GUI
 

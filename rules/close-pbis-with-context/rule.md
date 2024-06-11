@@ -1,4 +1,5 @@
 ---
+seoDescription: When closing PBIs, tasks, and goals, provide valuable context to help teams understand the outcome and changes made.
 type: rule
 title: Do you close PBIs, tasks and goals with context?
 uri: close-pbis-with-context
@@ -17,7 +18,6 @@ redirects: []
 created: 2023-07-06T23:11:00.000Z
 archivedreason: null
 guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
-
 ---
 
 PBIs, tasks, and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. By adding a closing comment, it allows others to understand why the PBI was closed and what the outcome was. This comment is critical when closing a PBI as "Won't Fix" or "Duplicate" but is valuable in all scenarios and should be the default approach.
@@ -38,12 +38,12 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 Screenshots are just one of the things that you could add for more context, some other things you could have are:
 
-* [Done Videos](/send-done-videos)
-* Mention if there is relevant documentation that was updated
-* Mention any additional context in the pull request that you didn't want to duplicate
-* If you had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)
-* If you are closing a PBI as "Duplicate", add a link to the PBI that is a duplicate
-* If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed
+- [Done Videos](/send-done-videos)
+- Mention if there is relevant documentation that was updated
+- Mention any additional context in the pull request that you didn't want to duplicate
+- If you had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)
+- If you are closing a PBI as "Duplicate", add a link to the PBI that is a duplicate
+- If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed
 
 ::: info
 **Note:** If you are using GitHub projects you will want to make sure you've checked the workflows for the your project to make sure the team understands the behavior of the work when it's state changes in the project.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your global presence by posting multilingual social media content that connects with diverse audiences, fosters trust and establishes your brand as a language barrier-bridge.
 type: rule
 title: Do you post multilingual posts on Social Media?
 uri: multilingual-posts-on-social-media
@@ -15,6 +16,7 @@ created: 2020-09-25T05:34:57.000Z
 archivedreason: null
 guid: 696842e3-372b-4842-b9cb-a9e64bfeea9a
 ---
+
 If you have an office in more than one country, a great way to show your diversity and connect with your different audiences is through posting multilingual social media.
 
 Building and maintaining a multilingual social media presence is not an easy undertaking, but when done properly it is well worth the time and effort. It allows you to truly connect with your audience regardless of which language they speak. International customers will appreciate the fact that your brand has taken time to communicate with them in their native tongue, it will also help establish their trust in your ability to understand them, and shows that you don't have to rely on dodgy automatic translations that often go wrong.

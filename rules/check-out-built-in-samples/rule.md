@@ -1,17 +1,17 @@
 ---
+seoDescription: Get started with SQL Server 2008 R2 Reporting Services using built-in samples featuring Adventure Works 2008 R2 database.
 type: rule
 archivedreason:
 title: Do you check out the built-in samples?
 guid: f52c8019-e61a-43e9-bcb1-14c270a9cab3
 uri: check-out-built-in-samples
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 SQL Server 2008 R2 Reporting Services comes with some great samples that will help get you started. Unfortunately, they aren't installed by default.

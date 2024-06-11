@@ -1,19 +1,19 @@
 ---
+seoDescription: Maximize your productivity and accuracy by ensuring you have essential fields on your timesheets, including client ID or name, work location, project and iteration, category, time spent, breaks, and notes.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have essential fields for your timesheets?
 guid: 7d5e0bc4-f018-4057-8092-6bfa4c662179
 uri: do-you-have-essential-fields-for-your-timesheets
 created: 2013-04-19T19:36:46.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-- do-you-follow-policies-for-recording-time
+  - do-you-follow-policies-for-recording-time
 redirects: []
-
 ---
 
 These are the essential fields for your timesheets:

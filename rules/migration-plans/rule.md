@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a migration plan by targeting multiple target frameworks (TFMs) to avoid introducing breaking changes while migrating from .NET Framework to .NET.
 type: rule
 title: Do you create a migration plan?
 uri: migration-plans
@@ -22,7 +23,7 @@ redirects:
   - do-you-create-a-migration-plan
 ---
 
-Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app *before* you start breaking things! So how do you ensure your migration is being done the right way?
+Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app _before_ you start breaking things! So how do you ensure your migration is being done the right way?
 
 <!--endintro-->
 
@@ -47,7 +48,7 @@ If you host your app on premise, it's also worth checking your infrastructure to
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
 
 ::: greybox
-**Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes *upstream*. If you migrate top-down (or outside-in), you will find yourself having to rewrite *downstream* code multiple times.
+**Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
 :::
 
 ### Upgrade the csproj files
@@ -78,15 +79,15 @@ try-convert --keep-current-tfms
 
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
-Targeting both your current .NET Framework version *and* your future .NET version will give you the following information:
+Targeting both your current .NET Framework version _and_ your future .NET version will give you the following information:
 
-* Expose any build errors you receive when trying to build for .NET
-* Expose any build errors you receive when trying to build for .NET Framework
+- Expose any build errors you receive when trying to build for .NET
+- Expose any build errors you receive when trying to build for .NET Framework
 
 ::: greybox
 Why is this important?
 
-Imagine you *don't* do this, and instead, you simply target the newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
+Imagine you _don't_ do this, and instead, you simply target the newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
 
 You start fixing these build errors. You go from 100 errors to 50 - progress!
 Then you're told there's an urgent bug/feature/whatever that needs fixing ASAP. But you've still got 50 build errors when you're targeting .NET.
@@ -97,7 +98,7 @@ You switch to .NET Framework, build the project, and...25 build errors?!
 
 While you were fixing those build errors, you wrote code that isn't compatible with .NET Framework. Now you have an urgent bug/feature/whatever, as well as 25 new build errors you have to solve ☠️.
 
-Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET, *without* introducing breaking changes in .NET Framework.
+Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET, _without_ introducing breaking changes in .NET Framework.
 
 This allows you up to work on your migration PBIs **incrementally**, while still allowing you to deploy your app on the current .NET version - win/win!
 :::
@@ -126,14 +127,14 @@ At this point, ensure your project can target both the .NET Framework and the ne
 
 By the end of this process, you'll have a much clearer view (and backlog!) of your path to the latest .NET:
 
-* PBIs for technical debt
-* PBIs for architectural concerns
-* PBIs for breaking changes
+- PBIs for technical debt
+- PBIs for architectural concerns
+- PBIs for breaking changes
 
 ## What's next?
 
 While this guide aims to give you a high-level view of migrating your app, there are other some special considerations when dealing with complex applications and web apps. Check out these other rules:
 
-* [Migrating web apps to .NET Core](/migrating-web-apps-to-dotnet/)
-* [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
-* [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
+- [Migrating web apps to .NET Core](/migrating-web-apps-to-dotnet/)
+- [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
+- [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)

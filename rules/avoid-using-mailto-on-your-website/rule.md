@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid displaying valid email addresses on your website to prevent spam and email harvesting.
 type: rule
 title: "Do you avoid using mailto: on your website?"
 uri: avoid-using-mailto-on-your-website
@@ -20,23 +21,23 @@ The best way to avoid it is not to display valid individual email addresses in t
 <!--endintro-->
 
 ::: greybox
-FirstnameSurname@ssw.com.au
+<FirstnameSurname@ssw.com.au>
 :::
 
 ::: bad
 Figure: Bad way - normal email address in text format
 :::
 
-###  Better way: encryption technique 
+###  Better way: encryption technique
 
 1. Store email addresses in the web.config file
 
 ```xml
-<configuration> 
-    <appSettings> 
-        <add key="SampleEncodedEmailAddress" value="David@sample.com.au" /> 
+<configuration>
+    <appSettings>
+        <add key="SampleEncodedEmailAddress" value="David@sample.com.au" />
         ...
-    </appSettings> 
+    </appSettings>
 </configuration>
 ```
 
@@ -54,8 +55,11 @@ Application("SampleEncodedEmailAddress") = BitConverter
 3. Decode on the client with a JavaScript function in the JavaScript
 
 ```html
-<a id="linkContact" href="javascript:sendEmail('44617669644073616D706C652E636F6D2E6175')">
-    CONTACT David
+<a
+  id="linkContact"
+  href="javascript:sendEmail('44617669644073616D706C652E636F6D2E6175')"
+>
+  CONTACT David
 </a>
 ```
 

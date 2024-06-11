@@ -1,4 +1,5 @@
 ---
+seoDescription: If web.config contains a `<httpHandlers>` or `<httpModules>` section, that section must contain a `<remove/>` or a `<clear/>` element.
 type: rule
 title: Do you know 'httpHandlers' or 'httpModules' sections in web.config must contain a 'remove' or 'clear' element?
 uri: httphandlers-sections-in-webconfig-must-contain-a-clear-element
@@ -24,15 +25,15 @@ This basically forces developers to explicitly enable inheritance in nested virt
 
 <!--endintro-->
 
-``` aspnet
+```aspnet
 <configuration>
    <system.web>
       <httpHandlers>
-         <add verb="*" 
-              path="*.New" 
+         <add verb="*"
+              path="*.New"
               type="MyHandler.New,MyHandler"/>
-         <add verb="GET,HEAD" 
-              path="*.MyNewFileExtension" 
+         <add verb="GET,HEAD"
+              path="*.MyNewFileExtension"
               type="MyHandler.MNFEHandler,MyHandler.dll"/>
      </httpHandlers>
    <system.web>
@@ -43,16 +44,16 @@ This basically forces developers to explicitly enable inheritance in nested virt
 Figure: Bad example
 :::
 
-``` aspnet
+```aspnet
 <configuration>
    <system.web>
       <httpHandlers>
          <clear/>
-         <add verb="*" 
-              path="*.New" 
+         <add verb="*"
+              path="*.New"
               type="MyHandler.New,MyHandler"/>
-         <add verb="GET,HEAD" 
-              path="*.MyNewFileExtension" 
+         <add verb="GET,HEAD"
+              path="*.MyNewFileExtension"
               type="MyHandler.MNFEHandler,MyHandler.dll"/>
      </httpHandlers>
    <system.web>

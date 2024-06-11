@@ -1,6 +1,7 @@
 ---
+seoDescription: Gather personal information progressively to increase user trust and accuracy by collecting minimal details initially and gradually requesting more information.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you gather more personal information progressively?
 guid: f9928c70-a007-4d02-972d-46fdde6db4db
 uri: gather-personal-information-progressively
@@ -11,7 +12,6 @@ authors:
 related: []
 redirects:
   - do-you-gather-more-personal-information-progressively
-
 ---
 
 Most people are reluctant to share personal information and may provide false data, especially when asked to disclose a lot of information at once. Collecting personal information in intervals, rather than in a single session, may lead to more accurate and thoughtful answers.

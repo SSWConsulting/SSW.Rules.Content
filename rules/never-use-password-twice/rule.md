@@ -1,4 +1,5 @@
 ---
+seoDescription: Prevent catastrophic password breaches by never using the same password twice, securing all your online accounts and services.
 type: rule
 title: Passwords - Do you know NEVER to use the same password for more than one account/service?
 uri: never-use-password-twice
@@ -7,7 +8,6 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T05:37:14.530Z
 guid: a49bd55a-f213-4f25-b0f8-3340cb142e18
-
 ---
 
 Using the same password for multiple accounts or services can pose a significant security risk. It's a common mistake that many people make, but understanding the importance of unique passwords is crucial for safeguarding your online accounts.

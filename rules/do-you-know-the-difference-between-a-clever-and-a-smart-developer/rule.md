@@ -1,4 +1,5 @@
 ---
+seoDescription: Smart developers understand the whole system before diving into a problem, anticipating and addressing potential issues.
 type: rule
 title: Do you know the difference between a 'smart' and a 'clever' developer?
 uri: do-you-know-the-difference-between-a-clever-and-a-smart-developer
@@ -11,7 +12,6 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
 created: 2022-09-23T01:44:15.693Z
 guid: 57fd6a3d-7685-4f36-bb39-90b6af6c3565
-
 ---
 
 When we first start out as a developer, we want to show the world what we can do by creating complex solutions. As we gain experience, we learn to show our worth by creating simple solutions.
@@ -24,12 +24,9 @@ Lets take this piece of code as an example:
 
 ```html
 <span className="text-xl">
-    {
-        targetedDays === 0 ? "Today" : 
-        targetedDays === -1 ? "Yesterday" : 
-        targetedDays === 1 ? "Tomorrow" : 
-        moment().add(targetedDays, 'days').format("dddd D MMMM YYYY")
-    }
+  { targetedDays === 0 ? "Today" : targetedDays === -1 ? "Yesterday" :
+  targetedDays === 1 ? "Tomorrow" : moment().add(targetedDays,
+  'days').format("dddd D MMMM YYYY") }
 </span>
 ```
 
@@ -146,7 +143,7 @@ Lets say you receive a PBI saying that XYZ method is always returning a value 0.
 Identifies that some incoming data is always out and results in the small rounding issue.
 
 ```js
-return (value-0.001) 
+return value - 0.001;
 ```
 
 #### Clever Developer

@@ -1,4 +1,5 @@
 ---
+seoDescription: Require two-factor authentication to join your GitHub organisation and protect your repositories from unauthorised access.
 type: rule
 archivedreason:
 title: Do you require 2FA to join your GitHub organisation?
@@ -6,13 +7,11 @@ guid: 90fc0ff0-e4d9-4ef7-9ea4-5c2bc712e22e
 uri: require-2fa-to-join-organisation
 created: 2021-03-08T15:13:00.0000000Z
 authors:
-- title: Brady Stroud
-  url: https://www.github.com/bradystroud
+  - title: Brady Stroud
+    url: https://www.github.com/bradystroud
 related: []
 redirects: []
-
 ---
-
 
 If all members use 2FA in your organisation, the risk of unauthorised access to your repositories is lower. GitHub organisations can be configured to require all members to use 2FA to join.
 

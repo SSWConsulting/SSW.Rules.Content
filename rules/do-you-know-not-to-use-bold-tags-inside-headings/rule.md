@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid using bold tags inside headings to maintain consistency and improve readability.
 type: rule
 title: Do you avoid using bold tags inside headings?
 uri: do-you-know-not-to-use-bold-tags-inside-headings
@@ -11,7 +12,8 @@ created: 2014-12-22T12:39:36.000Z
 archivedreason: null
 guid: f51bec68-b02b-4fe3-b3f4-c95088b02007
 ---
-You should avoid any extra style tags in your heading text, because it is unnecessary and generates inconsistency. 
+
+You should avoid any extra style tags in your heading text, because it is unnecessary and generates inconsistency.
 
 ::: bad
 ![Figure: Bad example – bold tags being used within header tags.](heading-with-bold-tags.png)

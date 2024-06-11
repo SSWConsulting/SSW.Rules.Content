@@ -1,6 +1,7 @@
 ---
+seoDescription: What to do about SQL Server database name?
 type: rule
-archivedreason: 
+archivedreason:
 title: What to do about SQL Server IO Pressure?
 guid: 83475165-1eba-47bc-a243-b9d4706ae5d5
 uri: sql-server-io-pressure
@@ -8,13 +9,12 @@ created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
-related: 
+related:
   - identify-sql-performance-sql-server
   - identify-sql-performance-azure
   - sql-server-cpu-pressure
   - sql-server-memory-pressure
   - sql-performance-io-pressure
-    
 ---
 
 So you've identified that your SQL Server is under IO pressure. What can you do about it?
@@ -45,25 +45,25 @@ If the cost is not overly high, it often provides a better return on investment 
 Use the following query from the Microsoft Learn article [Troubleshoot slow SQL Server performance caused by I/O issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-sql-io-performance) to identify which database files are under pressure.
 
 ```sql
-   SELECT   LEFT(mf.physical_name,100),   
-         ReadLatency = CASE WHEN num_of_reads = 0 THEN 0 ELSE (io_stall_read_ms / num_of_reads) END, 
-         WriteLatency = CASE WHEN num_of_writes = 0 THEN 0 ELSE (io_stall_write_ms / num_of_writes) END, 
-         AvgLatency =  CASE WHEN (num_of_reads = 0 AND num_of_writes = 0) THEN 0 
+   SELECT   LEFT(mf.physical_name,100),
+         ReadLatency = CASE WHEN num_of_reads = 0 THEN 0 ELSE (io_stall_read_ms / num_of_reads) END,
+         WriteLatency = CASE WHEN num_of_writes = 0 THEN 0 ELSE (io_stall_write_ms / num_of_writes) END,
+         AvgLatency =  CASE WHEN (num_of_reads = 0 AND num_of_writes = 0) THEN 0
                         ELSE (io_stall / (num_of_reads + num_of_writes)) END,
-         LatencyAssessment = CASE WHEN (num_of_reads = 0 AND num_of_writes = 0) THEN 'No data' ELSE 
-               CASE WHEN (io_stall / (num_of_reads + num_of_writes)) < 2 THEN 'Excellent' 
-                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 2 AND 5 THEN 'Very good' 
-                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 6 AND 15 THEN 'Good' 
-                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 16 AND 100 THEN 'Poor' 
-                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 100 AND 500 THEN  'Bad' 
-                    ELSE 'Deplorable' END  END, 
-         [Avg KBs/Transfer] =  CASE WHEN (num_of_reads = 0 AND num_of_writes = 0) THEN 0 
-                    ELSE ((([num_of_bytes_read] + [num_of_bytes_written]) / (num_of_reads + num_of_writes)) / 1024) END, 
-         LEFT (mf.physical_name, 2) AS Volume, 
+         LatencyAssessment = CASE WHEN (num_of_reads = 0 AND num_of_writes = 0) THEN 'No data' ELSE
+               CASE WHEN (io_stall / (num_of_reads + num_of_writes)) < 2 THEN 'Excellent'
+                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 2 AND 5 THEN 'Very good'
+                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 6 AND 15 THEN 'Good'
+                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 16 AND 100 THEN 'Poor'
+                    WHEN (io_stall / (num_of_reads + num_of_writes)) BETWEEN 100 AND 500 THEN  'Bad'
+                    ELSE 'Deplorable' END  END,
+         [Avg KBs/Transfer] =  CASE WHEN (num_of_reads = 0 AND num_of_writes = 0) THEN 0
+                    ELSE ((([num_of_bytes_read] + [num_of_bytes_written]) / (num_of_reads + num_of_writes)) / 1024) END,
+         LEFT (mf.physical_name, 2) AS Volume,
          LEFT(DB_NAME (vfs.database_id),32) AS [Database Name]
-       FROM sys.dm_io_virtual_file_stats (NULL,NULL) AS vfs  
-       JOIN sys.master_files AS mf ON vfs.database_id = mf.database_id 
-         AND vfs.file_id = mf.file_id 
+       FROM sys.dm_io_virtual_file_stats (NULL,NULL) AS vfs
+       JOIN sys.master_files AS mf ON vfs.database_id = mf.database_id
+         AND vfs.file_id = mf.file_id
        ORDER BY AvgLatency DESC
 ```
 
@@ -79,8 +79,8 @@ SELECT r.session_id, r.wait_type, r.wait_time as wait_time_ms
                                        FROM sys.dm_exec_requests r JOIN sys.dm_exec_sessions s
                                         ON r.session_id = s.session_id
                                        WHERE wait_type in (
-                                        'PAGEIOLATCH_EX', 
-                                        'PAGEIOLATCH_SH', 
+                                        'PAGEIOLATCH_EX',
+                                        'PAGEIOLATCH_SH',
                                         'PAGEIOLATCH_UP',
                                         'WRITELOG',
                                         'ASYNC_IO_COMPLETION',
@@ -129,20 +129,20 @@ Prior to SQL Server 2016, a single Log Writer thread performed all log writes. I
 
 Occurs when some of the following I/O activities happen:
 
-* The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
-* Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
-* Reading the actual data from the data files during a data backup.
+- The Bulk Insert Provider ("Insert Bulk") uses this wait type when performing I/O.
+- Reading Undo file in LogShipping and directing Async I/O for Log Shipping.
+- Reading the actual data from the data files during a data backup.
 
 ### IO_COMPLETION
 
 Occurs while waiting for I/O operations to complete. This wait type generally involves I/Os not related to data pages (buffers). Examples include:
 
-* Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
-* Reading and writing eager spools to disk (check tempdb storage).
-* Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
-* Reading a page from disk when database isn't set up yet.
-* Copying pages to a database snapshot (Copy-on-Write).
-* Closing database file and file uncompression.
+- Reading and writing of sort/hash results from/to disk during a spill (check performance of tempdb storage).
+- Reading and writing eager spools to disk (check tempdb storage).
+- Reading log blocks from the transaction log (during any operation that causes the log to be read from disk for example, recovery).
+- Reading a page from disk when database isn't set up yet.
+- Copying pages to a database snapshot (Copy-on-Write).
+- Closing database file and file uncompression.
 
 ### BACKUPIO
 

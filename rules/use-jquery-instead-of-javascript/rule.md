@@ -1,4 +1,5 @@
 ---
+seoDescription: Use jQuery's powerful and cross-browser compatible syntax to simplify your JavaScript coding and enhance user experience.
 type: rule
 title: Do you use jQuery instead of JavaScript?
 uri: use-jquery-instead-of-javascript
@@ -17,24 +18,29 @@ jQuery is the MUST HAVE tool for web developers. There are 3 good reasons why yo
 
 1. Cross Browsers (Edge, Firefox, Safari, Opera, Chrome)
 2. Powerful and easy to use
-    * Same selectos as CSS
-    * Designer can learn it fast
-    * More readable JavaScript code
+   - Same selectos as CSS
+   - Designer can learn it fast
+   - More readable JavaScript code
 3. Plugins - Tons of useful plugins and functionalities
 
 <!--endintro-->
 
 ```js
-window.onload = function() { alert("Welcome"); }
+window.onload = function () {
+  alert("Welcome");
+};
 ```
+
 ::: bad
 Figure: Bad example - Using JavaScript 'onload' event
 :::
 
-
 ```js
-$(document).ready(function() { alert("Welcome!"); });
+$(document).ready(function () {
+  alert("Welcome!");
+});
 ```
+
 ::: good
 Figure: Good example - Using jQuery document 'ready' event
 :::

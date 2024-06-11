@@ -1,4 +1,5 @@
 ---
+seoDescription: Handle compromised passwords by informing sysadmins promptly for assistance with personal and work accounts
 type: rule
 title: Passwords - Do you know how to handle compromised passwords?
 uri: security-compromised-password

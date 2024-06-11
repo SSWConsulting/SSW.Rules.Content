@@ -1,4 +1,5 @@
 ---
+seoDescription: Add version numbers to PBIs that undergo multiple iterations to track changes and facilitate team decision-making.
 type: rule
 title: Do you add a version number to PBIs that have multiple iterations
 uri: do-you-add-a-version-number-to-pbis-that-have-multiple-iterations
@@ -11,7 +12,8 @@ archivedreason: ' This is a duplicate of "Do you know how to handle Undone Work
 guid: d77b78e4-cdae-4e18-b143-989e3bd17389
 ---
 
-Sometimes your team will work on a PBI, finish it in the Sprint, and receive feedback about changes or extensions that weren't originally asked for in the [Acceptance Criteria](/do-your-user-stories-include-acceptance-criteria-%28aka-never-assume-automatic-gold-plating%29).  
+Sometimes your team will work on a PBI, finish it in the Sprint, and receive feedback about changes or extensions that weren't originally asked for in the [Acceptance Criteria](/do-your-user-stories-include-acceptance-criteria-%28aka-never-assume-automatic-gold-plating%29).
+
 <!--endintro-->
 
 **Bad Example:** Unlimited new tasks get added to that PBI so it takes multiple Sprints to finish

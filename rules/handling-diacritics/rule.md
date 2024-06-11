@@ -1,4 +1,5 @@
 ---
+seoDescription: Multilingual search features require handling diacritics to ensure accurate matches and a seamless user experience.
 type: rule
 archivedreason:
 title: Do you know how to handle diacritics?
@@ -47,7 +48,7 @@ There are 2 things happening in the code above:
 
 ### Handling diacritics in .NET
 
-You can also achieve the same result in .NET using a similar method [Normalize()](https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-8.0#system-string-normalize(system-text-normalizationform)):
+You can also achieve the same result in .NET using a similar method [Normalize()](<https://learn.microsoft.com/en-us/dotnet/api/system.string.normalize?view=net-8.0#system-string-normalize(system-text-normalizationform)>):
 
 ```csharp
 string accentedString = "résumé";

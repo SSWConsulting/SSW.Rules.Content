@@ -1,4 +1,5 @@
 ---
+seoDescription: When designing custom applications, it's essential to include a useful and informative footer at the bottom of reports. A well-crafted footer should provide crucial details like date and time printed, execution time, page numbers, and links to company websites.
 type: rule
 title: Layout - Do you include useful information on the footer of reports?
 uri: reports-footer
@@ -12,7 +13,6 @@ redirects:
 created: 2014-12-01T05:46:16.000Z
 archivedreason: null
 guid: 12e2004d-f293-418f-bb64-427cb37e3b18
-
 ---
 
 When designing custom applications you want to include branding on reports. You should always include a useful and informative footer at the bottom of your reports.
@@ -41,7 +41,7 @@ Use these handy report expressions to show the above information.
 Use these handy report expressions to show the above information.
 
 | Footer Item                     | Expression                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         | Sample Output                                           |
-|---------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
+| ------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | Date and Time printed / User ID | ="Printed by " + User!UserID + " on " + Globals!ExecutionTime.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | Printed by SSW2000\JatinValabjee on 3/1/2006 3:16:30 PM |
 | Execution Time                  | ="Execution Time: " + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).TotalSeconds < 1, "0 seconds", ( IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Hours > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Hours & " hour(s), ", "") + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Minutes > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Minutes & " minute(s), ", "") + IIf(System.DateTime.Now.Subtract(Globals!ExecutionTime).Seconds > 0, System.DateTime.Now.Subtract(Globals!ExecutionTime).Seconds & " second(s)", "")) ) | Execution time: 1 minute, 10 seconds                    |
 | Page x of y                     | ="Page " + Globals!PageNumber.ToString() + " of " + Globals!TotalPages.ToString()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  | Page 3 of 10                                            |
@@ -50,7 +50,7 @@ Use these handy report expressions to show the above information.
 ![Figure: Good example - Footer in visual studio designer](footerInDesigner.gif)
 :::
 
-**Tip:** Copy and Paste this XML into the <PageFooter> for the recommended footer of all your *.rdl files.
+**Tip:** Copy and Paste this XML into the <PageFooter> for the recommended footer of all your \*.rdl files.
 
 ```xml
  <PageFooter>
@@ -76,7 +76,7 @@ A quick workaround is to add a user function to fallback the error to a nice mes
  Catch
  Return "System"
  End Try
- End Function   
+ End Function
 ```
 
 Use above function to replace your reference to `Report.User!UserID` will allow the subscription to work correctly.

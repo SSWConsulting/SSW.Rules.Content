@@ -1,4 +1,5 @@
 ---
+seoDescription: Reinforce your marketing profile by using your waiting area to showcase your company's features and services.
 type: rule
 title: Do you have a waiting area that reinforces your marketing profile?
 uri: do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
@@ -19,7 +20,8 @@ created: 2014-10-13T19:27:08.000Z
 archivedreason: null
 guid: 4dd1771a-39b9-4f83-9eb2-d15ea71cbe87
 ---
-We believe in reinforcing your company profile at every appropriate opportunity. 
+
+We believe in reinforcing your company profile at every appropriate opportunity.
 
 The appearance of your office is very important because it is often the **first impression of your company** to any new visitor or client. In this way, its appearance is as important to your company profile as your clothing is to your personal profile. Although it may appear odd to cover yourself with marketing paraphernalia as you walk down the street, it's good business sense to use your office as one of your marketing tools.
 

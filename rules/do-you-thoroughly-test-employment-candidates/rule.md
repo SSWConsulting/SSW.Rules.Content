@@ -1,4 +1,5 @@
 ---
+seoDescription: Thoroughly testing employment candidates can prevent costly mistakes and ensure a good fit for your team.
 type: rule
 archivedreason:
 title: Do you thoroughly test employment candidates?
@@ -28,17 +29,17 @@ Another thing is that when interviewing you have to go on your instinct a bit. T
 
 We use a Microsoft Teams application that provides a seamless coding challenge experience to candidates that apply to SSW. This system ensures a consistent and efficient process for evaluating candidates' skills. It has the following features:
 
-* **Step-by-Step Guide**: Provides a detailed walkthrough of the interview process, ensuring candidates understand what is expected at each stage.
-* **Built-in Timer**: Helps candidates manage their time effectively during the challenge.
-* **Automated Tasks**: Automates tasks such as provisioning a GitHub repository for candidates to use during their coding challenge.
+- **Step-by-Step Guide**: Provides a detailed walkthrough of the interview process, ensuring candidates understand what is expected at each stage.
+- **Built-in Timer**: Helps candidates manage their time effectively during the challenge.
+- **Automated Tasks**: Automates tasks such as provisioning a GitHub repository for candidates to use during their coding challenge.
 
 ### Track Communication/Technical Challenges
 
 At SSW, we use a dedicated website to manage our candidate challenges. This platform offers several features:
 
-* **Create Challenges**: Allows you to create Communication/Technical challenges and automatically send out Outlook appointments to candidates.
-* **Customizable Challenge Types**: Supports various types of challenges tailored to different roles, such as Admin, Designer, Developer, SysAdmin, and TV for Communication Challenges. Data Engineer, Full Stack for Technical Challenges.
-* **Track Progress**: Enables you to monitor the progress of challenges, including the information about interviewers and candidates, upcoming challenges, ensuring you have a clear view of your hiring pipeline.
+- **Create Challenges**: Allows you to create Communication/Technical challenges and automatically send out Outlook appointments to candidates.
+- **Customizable Challenge Types**: Supports various types of challenges tailored to different roles, such as Admin, Designer, Developer, SysAdmin, and TV for Communication Challenges. Data Engineer, Full Stack for Technical Challenges.
+- **Track Progress**: Enables you to monitor the progress of challenges, including the information about interviewers and candidates, upcoming challenges, ensuring you have a clear view of your hiring pipeline.
 
 By automating and tracking the candidate testing process, you can ensure a thorough evaluation of each candidate's capabilities and streamline your hiring workflow.
 
@@ -46,8 +47,8 @@ By automating and tracking the candidate testing process, you can ensure a thoro
 
 Using the tracking data from your candidate assessments can provide valuable insights into your hiring process. By analyzing this data, you can:
 
-* **Popular Challenges**: Understand which types of challenges are more popular or frequently used, helping you refine your assessment strategy.
-* **Identify Challenge Managers**: Determine who is managing challenges effectively and recognize their contributions.
-* **Resource Allocation**: Optimize resource allocation by knowing which challenges require more attention and which are running smoothly.
+- **Popular Challenges**: Understand which types of challenges are more popular or frequently used, helping you refine your assessment strategy.
+- **Identify Challenge Managers**: Determine who is managing challenges effectively and recognize their contributions.
+- **Resource Allocation**: Optimize resource allocation by knowing which challenges require more attention and which are running smoothly.
 
 By leveraging these insights, you can continuously improve your hiring process, ensuring that you select the best candidates and maintain an efficient and organized system.

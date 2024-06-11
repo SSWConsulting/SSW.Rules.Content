@@ -1,4 +1,5 @@
 ---
+seoDescription: Contacting media professionals from time to time can be an effective way to advertise products and services, allowing for easy dissemination of information to a wider audience.
 type: rule
 title: Public Relations - Do you contact the media from time to time?
 uri: contact-the-media-from-time-to-time
@@ -32,6 +33,6 @@ I saw your column XXX and thought it wouldn't hurt to tell you more about SSW XX
 More than happy to give you a free copy and more information. Please reply to this email if you want one.
 
 Thanks, Adam Cogan
- <http://www.ssw.com.au>
+<http://www.ssw.com.au>
 
 :::

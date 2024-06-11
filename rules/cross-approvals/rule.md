@@ -1,20 +1,20 @@
 ---
+seoDescription: Cross-approvals - Streamline Your Company's Approval Process with Expert Guidance
 type: rule
-archivedreason: 
+archivedreason:
 title: Cross-approvals - Do you know how to scale approvals?
 guid: 4f425961-3b0e-4b1b-bea4-48bab98f5c05
 uri: cross-approvals
 created: 2023-08-08T13:00:00.0000000Z
 authors:
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
-related: 
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
+related:
   - bench-master
   - management-structures
 redirects:
   - streamline-approvals
   - streamlining-approvals
-
 ---
 
 In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. One approach that addresses this is to create an employee responsibility, which lists the people responsible for a specific approval. This list ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).

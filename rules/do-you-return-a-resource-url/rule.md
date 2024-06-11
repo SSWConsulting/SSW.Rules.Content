@@ -1,23 +1,21 @@
 ---
+seoDescription: When creating a new resource via the Web API, it's essential to include the URI of the new resource in the Location header of the response.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you return a Resource URL?
 guid: c9bcc58a-f5a3-4662-a210-a379dce8b933
 uri: do-you-return-a-resource-url
 created: 2014-11-05T18:22:22.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
 ---
 
 When the Web API creates a resource, it should include the URI of the new resource in the Location header of the response.
 
 <!--endintro-->
-
-
 
 ```cs
 public Product PostProduct(Product item)

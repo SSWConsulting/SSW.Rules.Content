@@ -1,4 +1,5 @@
 ---
+seoDescription: Before scheduling Scrum meetings, create a meeting agenda and share it with attendees to ensure everyone stays on track.
 type: rule
 title: Before - Do you share the agenda?
 uri: share-the-agenda
@@ -10,33 +11,35 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 37a80c11-43e4-4065-9ec3-1c3604b2640a
 ---
+
 Scheduling meetings can often feel like a necessary chore, especially when they lack a clear purpose or agenda. Calls or video meetings, without any clear agenda or purpose, are where your joy and energy go to die.
 
 Here’s how to ensure your meetings are effective and worthwhile. Before a meeting, to give it the best chance of success, you should make sure you have done the following:
 
 <!--endintro-->
 
-* Create a meeting agenda prior to the meeting
-  * Give each attendee a copy (usually in the appointment)
-  * If the discussion strays from the topic, everyone should use the agenda to help keep it on track
-  * Possibly [mark items on the agenda as “For information,” “For discussion,” or “For decision”](/stick-to-the-agenda-and-complete-the-meetings-goal)
-  * Don't add unnecessary agenda items. You won't have time in the future. If you wouldn’t want to do the thing tomorrow, don’t say yes to doing it a month from now
+- Create a meeting agenda prior to the meeting
 
-* Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
-* The meeting starts the minute the invite is sent, not when it physically starts
-  That means read the agenda and prepare. For example if feedback is needed on a large document, give people the link to the document + give advanced warning that  their feedback on the document will be taken ahead of time
-* Make sure all the presentation setup is working
+  - Give each attendee a copy (usually in the appointment)
+  - If the discussion strays from the topic, everyone should use the agenda to help keep it on track
+  - Possibly [mark items on the agenda as “For information,” “For discussion,” or “For decision”](/stick-to-the-agenda-and-complete-the-meetings-goal)
+  - Don't add unnecessary agenda items. You won't have time in the future. If you wouldn’t want to do the thing tomorrow, don’t say yes to doing it a month from now
+
+- Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
+- The meeting starts the minute the invite is sent, not when it physically starts
+  That means read the agenda and prepare. For example if feedback is needed on a large document, give people the link to the document + give advanced warning that their feedback on the document will be taken ahead of time
+- Make sure all the presentation setup is working
   E.g. Have '[AV Setup meetings](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)'.
-* For attendees, if you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
+- For attendees, if you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| Required Attendees:      | Scrum Team |
-| Optional Attendees:      | Interested Stakeholders |
-| Recurrence:     | Every  **{{ NUMBER OF WEEKS IN THE SPRINT }}** weeks |
+| Required Attendees: | Scrum Team |
+| Optional Attendees: | Interested Stakeholders |
+| Recurrence: | Every **{{ NUMBER OF WEEKS IN THE SPRINT }}** weeks |
 | Subject: | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
-::: email-content  
+::: email-content
 
 ### Hi Team 👋
 

@@ -1,17 +1,17 @@
 ---
+seoDescription: Run a pre-migration check on your SharePoint content database before attaching it to trigger the migration process.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you run Test-SPContentDatabase before migration
 guid: 9f201185-9e45-4def-a87c-65471653f57f
 uri: run-test-spcontentdatabase-before-actual-migration
 created: 2016-05-19T08:05:06.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
 related: []
 redirects:
-- do-you-run-test-spcontentdatabase-before-migration
-
+  - do-you-run-test-spcontentdatabase-before-migration
 ---
 
 **Assumption:**
@@ -20,12 +20,11 @@ redirects:
 2. You have restored the content database to SQL server
 3. You haven't attach the content database yet.
 
-
 It is strongly recommend to run a pre-migration check on the content database before attaching it to trigger the migration process.
 
 <!--endintro-->
 
- **Steps:** 
+**Steps:**
 
 1. Run SharePoint PowerShell Console as administrator
 2. Run the command below
@@ -33,4 +32,5 @@ It is strongly recommend to run a pre-migration check on the content databas
 ```bash
 Test-SPContentDatabase - name WSS_Content_DB  - webapplication http://sitename
 ```
+
 3. Check the output log, ensure there isn't any errors.

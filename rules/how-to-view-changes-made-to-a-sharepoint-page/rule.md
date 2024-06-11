@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to view changes made to a SharePoint page and document versions with our step-by-step guide.
 type: rule
 title: Do you know how to view changes made to a SharePoint page?
 uri: how-to-view-changes-made-to-a-sharepoint-page
@@ -19,6 +20,7 @@ created: 2013-10-15T04:25:42.000Z
 archivedreason: null
 guid: c4311375-2132-4cca-9699-862105cffb7e
 ---
+
 If you find a mistake on a SharePoint page, you should find who made the change before you fix it. That way you can inform the person of their mistake.
 
 As long as you are using the Text Webpart (aka the Rich text editor), you can easily see the exact changes made in each version of the page. See the advantages of the Text Webpart in this rule: [Do you know why to use the Rich text editor over the Markdown editor?](/sharepoint-rich-text-markdown/)
@@ -48,9 +50,9 @@ As long as you are using the Text Webpart (aka the Rich text editor), you can ea
 1. For the document you want to check, click on the 3 dots (**Show actions**)
 2. Click **Version history**
 
-![Figure: Show actions | Version History](Snipaste\_2018-10-08\_13-21-05.jpg)
+![Figure: Show actions | Version History](Snipaste_2018-10-08_13-21-05.jpg)
 
-![Figure: Version history listed](Snipaste\_2018-10-08\_13-22-46.jpg)
+![Figure: Version history listed](Snipaste_2018-10-08_13-22-46.jpg)
 
 ### Related rules
 

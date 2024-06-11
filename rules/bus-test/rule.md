@@ -1,4 +1,5 @@
 ---
+seoDescription: Project resilience ensures continuity and success by documenting knowledge, sharing processes, defining clear procedures, implementing a buddy system, using accessible tools, planning for absences, and fostering a culture of continuity.
 type: rule
 title: Does your project pass the bus test?
 uri: bus-test

@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost your online presence with a well-crafted LinkedIn profile, showcasing your skills, experience, and company affiliation.
 type: rule
 title: LinkedIn - Do you have a good profile?
 uri: linkedin-profile
@@ -10,13 +11,13 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
-- linkedin-profile
-- linkedin-job-experience
-- have-urls-to-your-main-services-on-linkedin
-- linkedin-contact-info
-- new-job-certification-linkedin
-- linkedin-connect-your-microsoft-account
-- linkedin-creator-mode
+  - linkedin-profile
+  - linkedin-job-experience
+  - have-urls-to-your-main-services-on-linkedin
+  - linkedin-contact-info
+  - new-job-certification-linkedin
+  - linkedin-connect-your-microsoft-account
+  - linkedin-creator-mode
 created: 2024-01-23T10:00:00.000Z
 guid: 4b4b7bc8-63ec-4f8e-8d11-c3e5e3b3c9cf
 ---

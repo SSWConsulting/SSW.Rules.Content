@@ -1,4 +1,5 @@
 ---
+seoDescription: Centralized leave calendars prevent scheduling conflicts and ensure seamless communication among team members.
 type: rule
 title: Calendar - Do you use a centralized leave calendar?
 uri: centralized-leave-calendar
@@ -8,13 +9,14 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related: []
-redirects: 
+redirects:
   - calendar-do-you-use-a-centralised-leave-calendar
 created: 2012-09-25T18:10:18.000Z
 archivedreason: null
 guid: 5ae6404e-8b1e-46f0-a865-e0188bf8f54a
 ---
-People take leave all the time, and it can be frustrating to find out that someone is not in the office after you've already sent an email to book them for a meeting.  You should have a centralized system to check for everyone's availability.
+
+People take leave all the time, and it can be frustrating to find out that someone is not in the office after you've already sent an email to book them for a meeting. You should have a centralized system to check for everyone's availability.
 
 <!--endintro-->
 

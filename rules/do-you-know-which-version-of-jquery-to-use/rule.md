@@ -1,4 +1,5 @@
 ---
+seoDescription: Don't always use the latest jQuery version, as newer versions may not support older browsers.
 type: rule
 archivedreason: Can’t keep it up-to-date + we don't use jQuery. Approved by Anthony N
 title: Do you know which version of jQuery to use?
@@ -6,15 +7,14 @@ guid: 7cef792d-fa7f-429c-a002-5328196286f7
 uri: do-you-know-which-version-of-jquery-to-use
 created: 2013-04-29T06:20:48.0000000Z
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related:
-- do-you-use-the-ready-function
-- do-you-use-bundling-and-or-amd
-- do-you-treat-javascript-like-a-real-language
-- do-you-use-hyperlinks-instead-of-javascript-to-open-pages
+  - do-you-use-the-ready-function
+  - do-you-use-bundling-and-or-amd
+  - do-you-treat-javascript-like-a-real-language
+  - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 redirects: []
-
 ---
 
 New jQuery versions are released regularly, but you shouldn't always use the latest version.

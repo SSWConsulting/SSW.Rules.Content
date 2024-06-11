@@ -1,4 +1,5 @@
 ---
+seoDescription: Twitter rules you follow and share with others using #ssw and #sswrules.
 type: rule
 title: Twitter - Do you tweet rules that you follow?
 guid: f18d0701-4461-4267-82ba-9c106410a207
@@ -8,7 +9,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: 
+redirects:
   - exercise-if-you-use-a-rule-then-tweet-it
   - twitter-do-you-tweet-rules-that-you-follow
 archivedreason: Replaced by https://ssw.com.au/rules/type-of-content-marketing-you-should-post/#9---general-content-writtenfollowed-by-your-team

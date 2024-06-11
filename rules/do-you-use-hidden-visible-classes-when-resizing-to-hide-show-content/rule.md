@@ -1,4 +1,5 @@
 ---
+seoDescription: When designing responsive websites, it's crucial to consider the appropriate content for each screen size. Bootstrap provides display classes, such as `.d-None`, to quickly and responsively toggle the display value of components, hiding or showing content accordingly.
 type: rule
 title: Do you use display classes to responsively hide/show content?
 uri: do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content
@@ -11,6 +12,7 @@ created: 2014-06-18T05:16:40.000Z
 archivedreason: null
 guid: 516a0486-d6d5-4ca2-9171-356115874c60
 ---
+
 When designing responsive websites, it's important to consider what content is appropriate for each screen size. Desktops might have large navigation areas and extra content in a sidebar, whereas the phone might focus on other content.
 
 <!--endintro-->
@@ -25,9 +27,10 @@ More information on [Display property - Quickly and responsively toggle the disp
 
 Remove the title by adding the `.hidden-xs` class.
 
-``` html
+```html
 <h1 class="d-xl-none">ASP.NET</h1>
 ```
+
 ::: good
 ![Figure: Good example - The mobile view is now leaner and cleaner thanks to Bootstrap display classes](RulesBootstrap - hidden2.png)
 :::

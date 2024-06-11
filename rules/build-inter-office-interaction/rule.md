@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve global collaboration and communication between offices across time zones or countries through team-building activities, employee exchange programs, mentoring, and cultural events.
 type: rule
 title: Do you build inter-office interaction?
 uri: build-inter-office-interaction
@@ -10,7 +11,6 @@ related:
   - efficiency-do-you-always-try-to-work-in-pairs
 created: 2022-08-16T23:48:06.805Z
 guid: eabe99f5-fdcd-40cf-bb27-1c1f8cd7f2e4
-
 ---
 
 When a company has many different office locations, often people in one office aren't familiar with people in other offices due to a lack of interaction. This problem is particularly pronounced where you have offices that span multiple time zones or countries.
@@ -43,6 +43,7 @@ It is crucial to build **interaction** between all company offices because it of
 Think about what your company can do to increase interaction. There are tonnes of unique ways that interaction can be developed. Examples include:
 
 * **Team building activities**
+
   * Playing a game together
   * Solving a puzzle together
   * Reviewing/updating a company standard together
@@ -51,36 +52,45 @@ Think about what your company can do to increase interaction. There are tonnes o
   * Retreat - Have a company retreat to bring everyone together
 
 * **[Cultural Exchange programs](/cultural-exchange)**
+
   * Having employees from China work in every Australian office for a month each or vice versa
   * Having developers from Brisbane spend a week in Melbourne
 
 * **[Mentoring](/mentoring-programs)**
 
 * **[Working together](/efficiency-do-you-always-try-to-work-in-pairs)**
+
   * Pair programming
   * Mob programming
   * Sitting together to work side-by-side
 
-* **Cultural events**  
+* **Cultural events**
+
   * Celebrating holidays from other countries
   * Having a cultural performance day where everyone chooses something cultural to perform such as a culturally relevant poem
 
 * **Creating cross-office teams**
+
   * Putting developers from the China office onto a project with Australian developers
 
 * **A fun weekly company meeting**
+
   * Everyone meets on Friday for 30 minutes to discuss a fun question
 
 * **Rotating Daily Scrum**
+
   * Each week, 1 person from each office is paired up to do a Daily Scrum with others
 
 * **Virtual coffee events**
+
   * People from different offices are paired up to have virtual coffee
 
 * **Get people involved with events for others offices (especially other countries)**
+
   * A Chinese dev does a presentation at the Sydney User Group
 
 * **Organize meetings to discuss culturally different issues**
+
   * Everyone talks about localization or WeChat Mini-Programs
   * Have a weekly language exchange catchup
 

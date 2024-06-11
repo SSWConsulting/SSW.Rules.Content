@@ -1,19 +1,19 @@
 ---
+seoDescription: Microsoft Lync enables interoperability with external IM networks including Skype and other providers, facilitating seamless communication across different platforms.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you federate Lync with Skype and other external IM providers?
 guid: abdf4b9c-232f-435b-8db2-201e73fa1095
 uri: do-you-federate-lync-with-skype-and-other-external-im-providers
 created: 2012-04-17T16:36:35.0000000Z
 authors:
-- title: Daragh Bannigan
-  url: https://twitter.com/dbannigan
-  noimage: true 
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Daragh Bannigan
+    url: https://twitter.com/dbannigan
+    noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Lync supports "federation" - enabling interoperability with other IM networks. Lync Server enables organizations to interoperate with four external IM services: AOL Instant Messenger, .NET Messenger Service, Yahoo! Messenger, and Google Talk.

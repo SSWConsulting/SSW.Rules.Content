@@ -1,4 +1,5 @@
 ---
+seoDescription: Does your Product Owner know how to maintain a backlog effectively by recording conversations as Product Backlog Items (PBIs) or Issues?
 type: rule
 title: Backlog - Does your Product Owner know how to maintain the backlog?
 uri: build-the-backlog
@@ -21,6 +22,7 @@ created: 2010-09-15T15:18:19.000Z
 archivedreason: null
 guid: fa1cee83-0211-413a-99cf-ea6a9438e59f
 ---
+
 All good Scrum teams have a backlog. The backlog is built by taking a conversation and recording it as one or more **Product Backlog Items** (PBIs) (e.g. Azure DevOps) or **Issues** (e.g. GitHub, JIRA).
 
 You should [create PBIs during or straight after the conversation](/report-bugs-and-suggestions), rather than using emails that may never be entered into the backlog.

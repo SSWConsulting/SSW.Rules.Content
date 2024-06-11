@@ -1,22 +1,22 @@
 ---
+seoDescription: Automate your invoicing process with auto-fetch functions that streamline invoice retrieval and reconciliation for efficient accounting and bookkeeping.
 type: rule
-archivedreason: 
+archivedreason:
 title: Expenses - Do you use auto-fetch function for invoices' emails?
 guid: a2d4ca37-f4b4-42e4-9f21-e6ceb939b9b8
 uri: do-you-use-auto-fetch-functions-for-invoices
 created: 2020-11-20T05:21:52.0000000Z
 authors:
-- title: Nick Viet
-  url: https://ssw.com.au/people/nick-viet
+  - title: Nick Viet
+    url: https://ssw.com.au/people/nick-viet
 related: []
 redirects:
-- do-you-use-auto-fetch-function-for-invoices
-
+  - do-you-use-auto-fetch-function-for-invoices
 ---
 
-Most bills in this modern age of technology are no longer mailed to a physical address and are accessible online. 
+Most bills in this modern age of technology are no longer mailed to a physical address and are accessible online.
 
-The downside of this is that a business may have tens or hundreds of invoices each month and it would not be worth the time for a team or staff member to either login to the supplier portal to obtain the invoice or sift through layers of emails in a dedicated accounts/invoicing email, to then submit it to the accountant or into the accounting system. 
+The downside of this is that a business may have tens or hundreds of invoices each month and it would not be worth the time for a team or staff member to either login to the supplier portal to obtain the invoice or sift through layers of emails in a dedicated accounts/invoicing email, to then submit it to the accountant or into the accounting system.
 
 Some systems or accounting add-ons would have an auto-fetch function. What this means is that whenever an invoice is generated, certain suppliers have made it possible for the system or add-on to bring in the invoice from the supplier platform to the system or add-on. This is called fetching of invoice.
 

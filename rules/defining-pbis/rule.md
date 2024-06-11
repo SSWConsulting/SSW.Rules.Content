@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you know how to define a PBI? Learn how to ensure your Product Backlog Items (PBIs) have all necessary information for successful development.
 type: rule
 title: Do you know how to define a PBI?
 uri: defining-pbis
@@ -12,6 +13,7 @@ related:
 created: 2022-10-18T03:27:00.098Z
 guid: da1579f4-b598-4a2c-8fed-0b9b2230f6e8
 ---
+
 It is very common that a developer looks at a PBI to work on, and finds out that it has limited or missing information. Usually, this is due to unclear requirements, ambiguous instructions or people simply don't understand the importance of getting the right information in the PBI.
 
 When that happens, it is crucial for the developer to raise their voice and gather enough information so it meets the [Definition of Ready](/have-a-definition-of-ready). Additionally, anyone working on the task who doesn't fully understand should raise the problem ASAP.
@@ -24,12 +26,12 @@ Generally, there are a few pieces of information that every PBI should have:
 
 ::: greybox
 
-* [Title](/meaningful-pbi-titles)
-* [Description](/spec-do-you-use-user-stories) - The required steps and critical information to complete the PBI
-* [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
-* Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
-* [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively) - How long it's going to take
-* [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner 
+- [Title](/meaningful-pbi-titles)
+- [Description](/spec-do-you-use-user-stories) - The required steps and critical information to complete the PBI
+- [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
+- Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
+- [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively) - How long it's going to take
+- [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner
 
 :::
 
@@ -41,10 +43,10 @@ The Definition of Ready helps to enforce this, by formally documenting the requi
 
 Here are a few key checkpoints where these issues should be flagged:
 
-* [Backlog Refinement](/backlog-refinement-meeting)
-* Sprint Planning
-* [Daily Scrums](/methodology-daily-scrums) – after in the Parking Lot 
-* Before commencing work
+- [Backlog Refinement](/backlog-refinement-meeting)
+- Sprint Planning
+- [Daily Scrums](/methodology-daily-scrums) – after in the Parking Lot
+- Before commencing work
 
 Ideally, you want to flag the missing information early, but it is better late than never.
 

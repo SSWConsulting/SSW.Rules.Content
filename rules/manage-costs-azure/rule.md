@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you manage the cost of your Azure resources? Discover how to keep track of your cloud expenses with Microsoft's Cost Analysis tool and best practices for developers and spend masters.
 type: rule
 title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure
@@ -14,7 +15,6 @@ redirects:
 created: 2021-09-29T07:27:48.269Z
 guid: fc2201ed-c7cd-4be0-98b9-e2f5957788a7
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/azure-budgets](/rules/azure-budgets)
-
 ---
 
 Managing the monthly spend on cloud resources (e.g. Azure) is hard. It gets harder for the [Spend Master (e.g. SysAdmins)](/do-you-have-an-azure-spend-master) when developers add services without sending an email to aid in reconciliation.
@@ -39,25 +39,25 @@ For everyone to be on the same page, the process a developer should follow is:
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Spend Master |
+| To: | Spend Master |
 | Subject: | Purchase Please - Azure Resource Request for {{product/service}} |
-::: email-content  
+::: email-content
 
 ### Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for xx
 
-* Azure Resource needed: I would like to create a new App Service Plan
-* Azure Calculator link: {{add link}}
-* Environment: {{add Dev/Staging/Prod}}
+- Azure Resource needed: I would like to create a new App Service Plan
+- Azure Calculator link: {{add link}}
+- Environment: {{add Dev/Staging/Prod}}
 
 Project details:
 
-* Project Name: A new project called {{add project name}}
-* Project Description (The SysAdmin will copy this info to the Azure Tag): {{add description}}
-* Project URL (e.g. Azure DevOps / Github): {{add URL}}
+- Project Name: A new project called {{add project name}}
+- Project Description (The SysAdmin will copy this info to the Azure Tag): {{add description}}
+- Project URL (e.g. Azure DevOps / Github): {{add URL}}
 
 Total: {{AUD$}} per month
 
