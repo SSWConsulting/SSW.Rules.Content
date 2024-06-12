@@ -12,7 +12,9 @@ guid: 9eddfea2-3870-4814-8097-ddbf68afaa36
 
 ChatGPT is an AI language model developed by OpenAI that is considered generally safe due to the implementation of various security measures, data handling practices, and privacy policies. However, users should be aware of potential risks and follow best practices when using the platform.
 
-Open AI is a third-party platform and you should not make assumptions about how they process or retain data. They will also likely be able to change their policies from time to time so even if something is stated today it might be different tomorrow. Confidential information should not be submitted to Chat GPT.
+Open AI is a third-party platform and you should not make assumptions about how they process or retain data. They will also likely be able to change their policies from time to time so even if something is stated today it might be different tomorrow. 
+
+You should never submit any confidential information into ChatGPT. Specifically, you should never submit any information which identifies or could potentially be used to identify an individual (E.g. name, address, date of birth, phone number etc.) 
 
 <!--endintro-->
 
