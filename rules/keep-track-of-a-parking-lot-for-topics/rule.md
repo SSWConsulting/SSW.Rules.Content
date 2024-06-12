@@ -21,4 +21,6 @@ E.g. During the meeting you can call out _“Off topic. I think that topic shoul
 
 <!--endintro-->
 
-![Figure: Video - See the Parking Lot in action: www.youtube.com/watch?v=-UUrLxNBK_g](parking-lot.jpg)
+![Figure: Video screenshot - The Parking Lot in action](parking-lot.jpg)
+
+See it in the video at aroung [9:00](https://youtu.be/-UUrLxNBK_g?si=XKIktpJI3StVHJhG&t=543)
