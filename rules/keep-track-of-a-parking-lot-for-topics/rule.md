@@ -23,4 +23,4 @@ E.g. During the meeting you can call out _“Off topic. I think that topic shoul
 
 ![Figure: Video screenshot - The Parking Lot in action](parking-lot.jpg)
 
-See it in the video at aroung [9:00](https://youtu.be/-UUrLxNBK_g?si=XKIktpJI3StVHJhG&t=543)
+See it in the video at around [9:00](https://youtu.be/-UUrLxNBK_g?si=XKIktpJI3StVHJhG&t=543)
