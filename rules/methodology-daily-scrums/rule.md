@@ -257,7 +257,7 @@ More details: [github.com/AwesomeBlazor/AutoScrum](https://github.com/AwesomeBla
 
 ---
 
-### Extra
+### More information
 
 #### What should I do when blocked?
 
