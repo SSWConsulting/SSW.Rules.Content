@@ -35,11 +35,11 @@ It is best to have it standing up, so it's short and to the point. No-one wants 
 Everybody knows the 3 essential questions:
 
 1. **What did you do yesterday?**
-   - Including having Azure DevOps (or other task tracking system) up-to-date
+   * Including having Azure DevOps (or other task tracking system) up-to-date
 2. **What are you going to do today?**
-   - Make sure the [task board](/task-board) has your current task "In progress"
+   * Make sure the [task board](/task-board) has your current task "In progress"
 3. **Do you have any roadblocks?**
-   - Explaing issues/impediments
+   * Explaing issues/impediments
 
 Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discover issues quickly and keep abreast of the progress.
 
