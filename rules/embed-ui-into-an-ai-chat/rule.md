@@ -1,5 +1,5 @@
 ---
-seoDescription: embedding react server components into AI chat with Vercel AI SDK
+seoDescription: Embedding react server components into AI chat with Vercel AI SDK
 type: rule
 title: Do you know how to embed UI into an AI chat?
 uri: embed-ui-into-an-ai-chat
@@ -35,16 +35,12 @@ See here for a demo of the Vercel AI SDK in action: [Vercel AI SDK Demo](https:/
 
 ### Examples
 
-:::
-::: ok example
-![OK Example](./text-based-chat.png)
-Figure: OK example - using only text-based responses can make the conversation less engaging and efficient.
+::: ok
+![Figure: OK example - using only text-based responses can make the conversation less engaging and efficient](./text-based-chat.png)
 :::
 
-:::
 ::: good
-![](./ui-based-chat.png)
-Figure: Good example - embedding visual UI elements like images can make the conversation much more engaging.
+![Figure: Good example - embedding visual UI elements like images can make the conversation much more engaging](./ui-based-chat.png)
 :::
 
 ### Use Cases
