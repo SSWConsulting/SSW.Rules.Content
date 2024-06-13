@@ -17,6 +17,7 @@ index:
 - when-to-use-domain-and-integration-events
 - cloud-architect
 - use-the-mediator-pattern-with-cqrs
+- software-architecture-decision-tree
 
 ---
 SSW implements strict standards on all code produced. Implementing strict coding standards means your code can be easily read, modified, and tested. The Clean Architecture rules aim to have a strong .NET API, as a robust backend is more critical than a front end, whether in Angular, React, Vue, or Blazor.

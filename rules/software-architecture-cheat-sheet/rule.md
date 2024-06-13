@@ -1,5 +1,5 @@
 ---
-seoDescription: TODO
+seoDescription: Choosing between Clean Architecture, Vertical Slice Architecture, Modular Monolith, and Microservices can be challenging. Use this decision tree to select the best software architecture for your system.
 type: rule
 title: Do you know how to choose the best software architecture for your system?
 uri: software-architecture-decision-tree
