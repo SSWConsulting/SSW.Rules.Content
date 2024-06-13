@@ -21,7 +21,7 @@ Choosing the right software architecture for your system is crucial for its succ
 ### Clean Architecture
 Clean Architecture emphasizes separation of concerns, making your system easier to maintain and scale. This architecture is designed to keep the business logic independent of the frameworks and tools, which helps in achieving a decoupled and testable codebase.
 
-See more [here](https://www.ssw.com.au/rules/rules-to-better-clean-architecture/).
+See more [here](/rules-to-better-clean-architecture/).
 
 ### Vertical Slice Architecture
 Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes.
@@ -29,12 +29,12 @@ Vertical Slice Architecture structures your system around features rather than t
 ### Modular Monolith
 A Modular Monolith organizes the system into modules that encapsulate specific functionalities. While it runs as a single application, it retains some benefits of microservices, such as independent module development and testing. It’s a good middle-ground between a monolith and microservices.
 
-See more [here](https://www.ssw.com.au/rules/rules-to-better-modular-monoliths/).
+See more [here](/rules-to-better-modular-monoliths/).
 
 ### Microservices
 Microservices architecture involves splitting the application into small, independently deployable services. Each service focuses on a specific business capability and can be developed, deployed, and scaled independently. This approach is beneficial for complex and large-scale applications with multiple teams working on different parts.
 
-See more [here](https://www.ssw.com.au/rules/rules-to-better-microservices/).
+See more [here](/rules-to-better-microservices/).
 
 ## Factors to Consider
 
