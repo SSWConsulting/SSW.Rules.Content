@@ -20,10 +20,10 @@ When the domain model is not properly encapsulated, business rules and logic mig
 
 ## Key benefits of encapsulation
 
-- **Maintains Integrity:** By keeping domain logic within the domain model, you ensure that all business rules (i.e. invariants) are enforced consistently
-- **Improves Maintainability:** Encapsulated models are easier to understand and modify because all relevant logic is contained within the model itself
-- **Enhances Testability:** Encapsulated domain models can be tested in isolation, improving the reliability of your tests
-- **Promotes Clear Boundaries:** Encapsulation helps define clear boundaries between different parts of the system, adhering to the principles of bounded contexts
+* **Maintains Integrity:** By keeping domain logic within the domain model, you ensure that all business rules (i.e. invariants) are enforced consistently
+* **Improves Maintainability:** Encapsulated models are easier to understand and modify because all relevant logic is contained within the model itself
+* **Enhances Testability:** Encapsulated domain models can be tested in isolation, improving the reliability of your tests
+* **Promotes Clear Boundaries:** Encapsulation helps define clear boundaries between different parts of the system, adhering to the principles of bounded contexts
 
 ## Best practices for encapsulating domain models
 
@@ -50,10 +50,10 @@ public class Order
     public ICollection<OrderItem> Items { get; set; } = [];
 }
 ```
+
 ::: bad
 Figure: Bad example - Public setters, exposed collections, no constructor
 :::
-
 
 ```csharp
 public class Order : AggregateRoot<Guid>
@@ -86,6 +86,7 @@ public class Order : AggregateRoot<Guid>
         }
     }
 ```
+
 ::: good
 Figure: Good example - Private setters, read-only collection, factory method
 :::
