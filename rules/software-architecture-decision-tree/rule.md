@@ -42,25 +42,25 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
 ## Factors to Consider
 
-- **Are your requirements certain?**  
+* **Are your requirements certain?**  
   If requirements are likely to change, Clean Architecture or Vertical Slice Architecture can offer more flexibility.
 
-- **Do you have multiple domains?**  
+* **Do you have multiple domains?**  
   For applications with multiple domains, Modular Monoliths or Microservices can provide better separation and modularity.
 
-- **Do you have many teams?**   
+* **Do you have many teams?**
   If you have many teams, Microservices or Modular Monolith can help in reducing inter-team dependencies and allow parallel development.
 
-- **Do you need independent deployments?**   
+* **Do you need independent deployments?**
   If independent deployments are necessary, Microservices is the best choice due to its isolated nature.
 
-- **Do you need independent scalability?**   
+* **Do you need independent scalability?**
   Microservices allow each service to be scaled independently based on its specific needs, which can be more efficient and cost-effective.
 
-- **Do you have DevOps maturity?**   
+* **Do you have DevOps maturity?**
   Microservices require a mature DevOps culture to manage deployments, monitoring, and scaling effectively. Without this, the overhead can be overwhelming.
 
-- **Is the team experienced?**   
+* **Is the team experienced?**
   The complexity of Microservices can be challenging for less experienced teams. Vertical Slice Architecture although simple, has fewer guardrails when compared to Clean Architecture and can lead to a mess if not managed correctly.  This leads to recommending Clean Architecture for less experienced teams that need more structure.
 
 ## Architecture Decision Tree
