@@ -53,6 +53,7 @@ index:
 - use-nextjs
 - cms-solutions
 - git-based-cms-solutions
+- best-online-documentation-site
 - use-web-compiler
 - packages-up-to-date
 - monitor-packages-for-vulnerability
