@@ -19,19 +19,23 @@ Choosing the right software architecture for your system is crucial for its succ
 ## Popular Architectures
 
 ### Clean Architecture
+
 Clean Architecture emphasizes separation of concerns, making your system easier to maintain and scale. This architecture is designed to keep the business logic independent of the frameworks and tools, which helps in achieving a decoupled and testable codebase.
 
 See more [here](/rules-to-better-clean-architecture/).
 
 ### Vertical Slice Architecture
+
 Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes.
 
 ### Modular Monolith
+
 A Modular Monolith organizes the system into modules that encapsulate specific functionalities. While it runs as a single application, it retains some benefits of microservices, such as independent module development and testing. It’s a good middle-ground between a monolith and microservices.
 
 See more [here](/rules-to-better-modular-monoliths/).
 
 ### Microservices
+
 Microservices architecture involves splitting the application into small, independently deployable services. Each service focuses on a specific business capability and can be developed, deployed, and scaled independently. This approach is beneficial for complex and large-scale applications with multiple teams working on different parts.
 
 See more [here](/rules-to-better-microservices/).
@@ -39,24 +43,31 @@ See more [here](/rules-to-better-microservices/).
 ## Factors to Consider
 
 ### Are your requirements certain?
+
 If requirements are likely to change, Clean Architecture or Vertical Slice Architecture can offer more flexibility.
 
 ### Do you have multiple domains?
+
 For applications with multiple domains, Modular Monoliths or Microservices can provide better separation and modularity.
 
 ### Do you have many teams?
+
 If you have many teams, Microservices or Modular Monolith can help in reducing inter-team dependencies and allow parallel development.
 
 ### Do you need independent deployments?
+
 If independent deployments are necessary, Microservices is the best choice due to its isolated nature.
 
 ### Do you need independent scalability?
+
 Microservices allow each service to be scaled independently based on its specific needs, which can be more efficient and cost-effective.
 
 ### Do you have DevOps maturity?
+
 Microservices require a mature DevOps culture to manage deployments, monitoring, and scaling effectively. Without this, the overhead can be overwhelming.
 
 ### Is the team experienced?
+
 The complexity of Microservices can be challenging for less experienced teams. Vertical Slice Architecture although simple, has fewer guardrails when compared to Clean Architecture and can lead to a mess if not managed correctly.  This leads to recommending Clean Architecture for less experienced teams that need more structure.
 
 ## Architecture Decision Tree
