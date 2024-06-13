@@ -68,13 +68,13 @@ Include this recent statistic: {{ RECENT STATISTIC, OR URL TO RECENT DATA }}.
 
 Mention this personal anecdote: {{ ADD RELEVENT PERSONAL STORY }}.
 
-Don’t always use the most natural words. Use the following words fewer than three times on this page: unique, ensure, utmost, meticulous, meticulously, navigate, navigation, digital era, art of, secrets of, ever-evolving, unlock, bespoke, realm of, utilize, synthesize, conceptualize, paradigm, leverage, pivot, robust, synergy, optimize, utilize, orchestrate, cultivate.”
+Don’t always use the most natural words. Use the following words fewer than three times on this page: unique, ensure, utmost, meticulous, meticulously, navigate, navigation, digital era, art of, secrets of, ever-evolving, unlock, bespoke, realm of, utilize, synthesize, conceptualize, paradigm, leverage, pivot, robust, synergy, optimize, utilize, orchestrate, cultivate.
 
 Mix short and long sentences to enhance readability.
 
 Eliminate vague statements and focus on specific, useful information.
 
-Engagement is the highest priority. Be conversation, empathetic, and occasionally humerous. Use idioms, metaphors, anecdotes, and natural dialogue."
+Engagement is the highest priority. Be conversation, empathetic, and occasionally humerous. Use idioms, metaphors, anecdotes, and natural dialogue.
 
 Adjust the tone and vocabulary to match the reading level and interests of a young adult audience.
 
