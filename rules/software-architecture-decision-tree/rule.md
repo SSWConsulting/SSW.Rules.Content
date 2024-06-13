@@ -1,5 +1,5 @@
 ---
-seoDescription: TODO
+seoDescription: Discover how to choose the best software architecture for your system by exploring popular architectures and key factors for making an informed decision.
 type: rule
 title: Do you know how to choose the best software architecture for your system?
 uri: software-architecture-decision-tree
