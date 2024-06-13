@@ -14,32 +14,31 @@ Encapsulating domain models is a critical aspect of domain-driven design (DDD) t
 
 <!--endintro-->
 
-## Why Encapsulate Domain Models?
+## Why encapsulate domain models?
 
 When the domain model is not properly encapsulated, business rules and logic might be spread across various parts of the application, making it difficult to understand, maintain, and extend. Encapsulation ensures that the domain model is self-contained, with a clear and coherent structure.
 
-## Key Benefits of Encapsulation
+## Key benefits of encapsulation
 
-- **Maintains Integrity:** By keeping domain logic within the domain model, you ensure that all business rules (i.e. invariants) are enforced consistently.
-- **Improves Maintainability:** Encapsulated models are easier to understand and modify because all relevant logic is contained within the model itself.
-- **Enhances Testability:** Encapsulated domain models can be tested in isolation, improving the reliability of your tests.
-- **Promotes Clear Boundaries:** Encapsulation helps define clear boundaries between different parts of the system, adhering to the principles of bounded contexts.
+- **Maintains Integrity:** By keeping domain logic within the domain model, you ensure that all business rules (i.e. invariants) are enforced consistently
+- **Improves Maintainability:** Encapsulated models are easier to understand and modify because all relevant logic is contained within the model itself
+- **Enhances Testability:** Encapsulated domain models can be tested in isolation, improving the reliability of your tests
+- **Promotes Clear Boundaries:** Encapsulation helps define clear boundaries between different parts of the system, adhering to the principles of bounded contexts
 
-## Best Practices for Encapsulating Domain Models
+## Best practices for encapsulating domain models
 
-1. **Use Aggregates:** Aggregates are clusters of domain objects that are treated as a single unit. Ensure that all changes to the domain model are done through aggregates.  This means that Entities are not directly modified, but rather through the Aggregate Root.
+1. **Use Aggregates:** Aggregates are clusters of domain objects that are treated as a single unit. Ensure that all changes to the domain model are done through aggregates. This means that Entities are not directly modified, but rather through the Aggregate Root
 
-2. **Hide Internal State:** Keep the internal state of the domain model private and provide methods to interact with the state safely.
+2. **Hide Internal State:** Keep the internal state of the domain model private and provide methods to interact with the state safely
 
-3. **Encapsulate Collections:** Collections should be exposed as read-only interfaces to prevent external code from modifying the collection directly (e.g. using `IEnumerable<T>` or `IReasOnlyList<T>` instead of `List<T>`).
+3. **Encapsulate Collections:** Collections should be exposed as read-only interfaces to prevent external code from modifying the collection directly (e.g. using `IEnumerable<T>` or `IReasOnlyList<T>` instead of `List<T>`)
 
-4. **Use Factory Methods:** Use factory methods to create instances of domain objects, ensuring that the object is always created in a valid state.
+4. **Use Factory Methods:** Use factory methods to create instances of domain objects, ensuring that the object is always created in a valid state
 
-5. **Use Value Objects:** Value objects are immutable objects that represent a concept in the domain. Use value objects to encapsulate domain concepts that are not entities.
+5. **Use Value Objects:** Value objects are immutable objects that represent a concept in the domain. Use value objects to encapsulate domain concepts that are not entities
 
-## Examples
+### Examples
 
-::: bad
 ```csharp
 public class Order
 {
@@ -51,10 +50,11 @@ public class Order
     public ICollection<OrderItem> Items { get; set; } = [];
 }
 ```
-**Figure: Bad example - public setters, exposed collections, no constructor**
+::: bad
+Figure: Bad example - Public setters, exposed collections, no constructor
 :::
 
-::: good
+
 ```csharp
 public class Order : AggregateRoot<Guid>
     {
@@ -86,5 +86,6 @@ public class Order : AggregateRoot<Guid>
         }
     }
 ```
-**Figure: Good example - private setters, read-only collection, factory method**
+::: good
+Figure: Good example - Private setters, read-only collection, factory method
 :::
