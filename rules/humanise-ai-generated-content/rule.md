@@ -76,7 +76,7 @@ Eliminate vague statements and focus on specific, useful information.
 
 Engagement is the highest priority. Be conversation, empathetic, and occasionally humerous. Use idioms, metaphors, anecdotes, and natural dialogue.
 
-Adjust the tone and vocabulary to match the reading level and interests of a young adult audience.
+Adjust the tone and vocabulary to match the reading level and interests of {{ INTENDED AUDIENCE E.G. DEVELOPERS}}.
 
 Analyze the attached articles for tone, structure, and vocabulary, then use this style to write new content."
 :::
