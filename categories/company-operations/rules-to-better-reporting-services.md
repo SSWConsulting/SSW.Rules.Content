@@ -40,6 +40,7 @@ index:
 - use-logical-page-breaks
 - prevent-charts-growing-with-rows
 - use-vertical-text
+- gray-color-for-past-data
 
 ---
 
