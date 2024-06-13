@@ -1,7 +1,7 @@
 ---
 seoDescription: Identify and prevent common memory leaks in UI, middle tiers and RIA services with best practices.
 type: rule
-archivedreason:
+archivedreason: This draft was created 10 years ago by Lu, but never got content
 title: Do you look for memory leaks?
 guid: 59dfe0f7-408d-462b-b489-57cf614e4a04
 uri: do-you-look-for-memory-leaks
@@ -9,6 +9,7 @@ created: 2012-04-01T09:50:13.0000000Z
 authors: []
 related: []
 redirects: []
+
 ---
 
 a. These
