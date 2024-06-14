@@ -26,6 +26,8 @@ index:
 - give-clients-a-warm-welcome
 - meetings-are-you-clear-about-billable-time-in-meetings
 - meetings-do-you-go-to-meetings-prepared
+- recognize-anchoring-effects
+- uncover-hidden-anchor-client
 - do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review
 - for-new-prospects-do-you-always-meet-them-to-show-them-an-estimate
 - meetings-do-you-exchange-names-in-meetings
