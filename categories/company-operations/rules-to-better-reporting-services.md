@@ -41,6 +41,7 @@ index:
 - prevent-charts-growing-with-rows
 - use-vertical-text
 - gray-color-for-past-data
+- use-3d-cylinder-in-column-chart
 
 ---
 
