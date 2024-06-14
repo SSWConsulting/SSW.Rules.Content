@@ -61,7 +61,7 @@ To overcome these issues, we can use Cloudflare.
 
 ### Cloudflare
 
-Cloudflare is known for its DDoS protection and Web Application Firewall (WAF), along with a host of other options.
+Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and Web Application Firewall (WAF), along with a host of other options.
 
 ✅ Pros:
 
