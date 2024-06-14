@@ -17,6 +17,7 @@ index:
 - design-to-improve-your-google-ranking
 - do-you-include-google-analytics-in-your-website
 - make-your-site-easy-to-maintain
+- streamline-development-with-npm-and-task-runners
 - 404-useful-error-page
 - 404-error-avoid-changing-the-url
 - always-put-javascript-in-a-separate-file
@@ -53,6 +54,7 @@ index:
 - use-nextjs
 - cms-solutions
 - git-based-cms-solutions
+- best-online-documentation-site
 - use-web-compiler
 - packages-up-to-date
 - monitor-packages-for-vulnerability
