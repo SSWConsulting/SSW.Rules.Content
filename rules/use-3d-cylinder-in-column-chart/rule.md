@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Data Layout - Do you use 3D cylinder in column chart?
-guid: 91e1de7c-2b27-427d-977f-7b50d1534b17
+guid: e8ed7d0d-1950-403d-89b3-4079831cc7e7
 uri: use-3d-cylinder-in-column-chart
 created: 2024-06-11T11:38:33.0000000Z
 authors: 
