@@ -10,6 +10,7 @@ index:
 - the-3-criteria-that-make-a-good-meeting
 - share-the-agenda
 - recognize-anchoring-effects
+- uncover-hidden-anchor-client
 - stick-to-the-agenda-and-complete-the-meetings-goal
 - creating-action-items
 - loop-someone-in
