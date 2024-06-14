@@ -1,3 +1,4 @@
+---
 seoDescription: Learn how to uncover the hidden budget anchor with clients to set realistic expectations and align project goals.
 type: rule
 title: Do you uncover the hidden anchor with a client?
@@ -26,11 +27,13 @@ Clients might not always communicate their budget or value expectations openly. 
 Clients typically come to meetings with one or more of the following types of anchors:
 
 #### Budget Set by the Business
+
 Often, clients have a budget set by the board or a financial decision-maker within their business. This budget is closely linked to the problem being solved.
 
 *Example*: If the problem is driving to the shop, but the only solution presented is buying a Lamborghini, and the client doesn't have the funds, this high cost will act as an anchor preventing the purchase.
 
 #### Experience-Based Anchor
+
 Clients might have previous experience with software or services that set their expectations. These experiences create a benchmark in their minds.
 
 *Example*: A client who has previously developed software with a specific budget might use that experience as a reference point for current projects.
@@ -40,8 +43,9 @@ Clients might have previous experience with software or services that set their 
 Using the right techniques can make it easier to identify the client's budget or value anchor.
 
 #### Direct Inquiry
-Directly ask about the budget in a professional manner. This can clear any ambiguities from the start. 
-Be careful, often clients think revealing this can limit negotiations and that if a budget is revealed this will create its own anchor. Clients will either avoid or be misleading within this approach. 
+
+Directly ask about the budget in a professional manner. This can clear any ambiguities from the start.
+Be careful, often clients think revealing this can limit negotiations and that if a budget is revealed this will create its own anchor. Clients will either avoid or be misleading within this approach.
 ::: greybox
 "Can you share your budget limitations for this project so we can tailor our proposal accordingly?"
 :::
@@ -50,6 +54,7 @@ Figure: Good example - Directly asking for the budget range
 :::
 
 #### Comparative Questions
+
 Ask questions that compare their project with similar past projects.
 ::: greybox
 "How does this project compare in scope and budget to others you've done recently?"
@@ -59,6 +64,7 @@ Figure: Good example - Comparing with past projects to gauge budget
 :::
 
 #### Value-Oriented Questions
+
 Focus on what the client values most in the project. This can often reveal their budget priorities.
 ::: greybox
 "What are the most important outcomes you expect from this project?"
@@ -72,6 +78,7 @@ Figure: Good example - Asking about expected outcomes to understand budget prior
 Directly asking a client for their budget is not always effective. There's a fair bit of gamesmanship in sales, and clients may not always be truthful about their budgets and expectations. In these cases, use indirect inquiry techniques to uncover the hidden anchor.
 
 #### Estimating Size and Value
+
 Clients are less likely to give deceptive answers about the size and value of the problem being solved.
 
 ::: greybox
@@ -82,6 +89,7 @@ Figure: Good example - Asking about the impact of the project to gauge its value
 :::
 
 #### Scenario-Based Questions
+
 Ask scenario-based questions to understand their priorities without directly discussing money.
 
 ::: greybox
@@ -92,6 +100,7 @@ Figure: Good example - Scenario-based question to identify priorities
 :::
 
 #### Historical Comparisons
+
 Clients can provide insights based on their past experiences without directly revealing their budget.
 
 ::: greybox
@@ -106,6 +115,7 @@ Figure: Good example - Asking about past projects to understand budget and expec
 The approach to uncovering hidden anchors should vary depending on the size of the client.
 
 #### Large Multinational Companies
+
 For large clients, the problems they face and their budgets are typically substantial. However, direct questions about budget can still be met with resistance or deceptive answers. Focus on understanding the scope and impact of the problem.
 
 ::: greybox
@@ -116,6 +126,7 @@ Figure: Good example - Understanding the scale of the solution for a large compa
 :::
 
 #### Small Businesses
+
 Small businesses often have strict budget constraints. Directly asking about their budget might make them self-conscious. Instead, discuss the size of the problem and practical constraints.
 
 ::: greybox
