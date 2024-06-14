@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Shane Ye
     url: https://ssw.com.au/people/shane-ye
+  - title: Aman Kumar
+    url: https://ssw.com.au/people/aman-kumar
 related: []
 redirects:
   - do-you-use-a-content-delivery-network-cdn
