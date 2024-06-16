@@ -32,6 +32,14 @@ In other words, the history of the changes isn't recorded anywhere.
 <!--endintro-->
 
 ::: bad
+![Figure: Bad example - There is no way to see version history of a report in Power BI Service](bad-example-no-history-in-powerbi-service-1.png)
+:::
+
+::: bad
+![Figure: Bad example - Even the report settings do not show its version history](bad-example-no-history-in-powerbi-service-2.png)
+:::
+
+::: bad
 ![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
