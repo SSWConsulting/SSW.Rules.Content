@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason:
+archivedreason: Outdated - if you are buildung reports, use PowerBI. See https://www.ssw.com.au/rules/rules-to-better-power-bi/
 title: Data Layout - Do you use 3D cylinder in column chart?
 guid: e8ed7d0d-1950-403d-89b3-4079831cc7e7
 uri: use-3d-cylinder-in-column-chart
