@@ -24,7 +24,7 @@ The Specification pattern is a design pattern used to define business rules in a
 
 1. **Reusable Queries**: Specifications can be used to define reusable query criteria for data access layers, making it easier to build complex queries.
 2. **Validation Rules**: Specifications can be used to define validation rules for input data, ensuring that it meets the required criteria.
-3. **Encapsulating Business Rules**: Specifications can encapsulate complex business rules in the Domain where most business logic should go. 
+3. **Encapsulating Business Rules**: Specifications can encapsulate complex business rules in the Domain where most business logic should go.
 4. **Repository Alternative**: Specifications can be used as an alternative to repositories for querying data.  Instead of encapsulating queries in repositories, you can encapsulate them in specifications.
 
 ### Using the Specification Pattern
@@ -34,6 +34,7 @@ Ardalis has created an excellent library called [Ardalis.Specifications](https:/
 To use the Specification pattern, follow these steps:
 
 1. **Define the Specification**:
+
     ```csharp
    public sealed class TeamByIdSpec : SingleResultSpecification<Team>
    {
@@ -47,6 +48,7 @@ To use the Specification pattern, follow these steps:
     ```
 
 2. **Use Specification**:
+
     ```csharp
         var teamId = new TeamId(request.TeamId);
         var team = dbContext.Teams
