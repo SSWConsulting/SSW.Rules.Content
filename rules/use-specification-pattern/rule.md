@@ -129,7 +129,7 @@ public class OrderService(ApplicationDbContext dbContext)
     public void RemoveItem(int age)
     {
         var order = dbContext.Orders
-            .WithSpecification(new OrderByIdSpec(orderIdorderId))
+            .WithSpecification(new IncompleteOrderByIdSpec(orderIdorderId))
             .FirstOrDefaultAsync();
         
         order.RemoveItem(item);
