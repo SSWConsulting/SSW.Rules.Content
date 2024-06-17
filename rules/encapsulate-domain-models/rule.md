@@ -56,8 +56,10 @@ Figure: Bad example - Public setters, exposed collections, no constructor
 :::
 
 ```csharp
-public class Order : AggregateRoot<Guid>
+    public class Order
     {
+        public Guid Id { get; private set; }
+        
         public Guid CustomerId { get; private set; }
     
         public OrderStatus OrderStatus { get; private set; }
