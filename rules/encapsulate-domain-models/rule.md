@@ -31,7 +31,7 @@ When the domain model is not properly encapsulated, business rules and logic mig
 
 2. **Hide Internal State:** Keep the internal state of the domain model private and provide methods to interact with the state safely
 
-3. **Encapsulate Collections:** Collections should be exposed as read-only interfaces to prevent external code from modifying the collection directly (e.g. using `IEnumerable<T>` or `IReasOnlyList<T>` instead of `List<T>`)
+3. **Encapsulate Collections:** Collections should be exposed as read-only interfaces to prevent external code from modifying the collection directly (e.g. using `IEnumerable<T>` or `IReadOnlyList<T>` instead of `List<T>`)
 
 4. **Use Factory Methods:** Use factory methods to create instances of domain objects, ensuring that the object is always created in a valid state
 
