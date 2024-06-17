@@ -18,6 +18,7 @@ authors:
 related:
   - dependency-injection
   - code-against-interfaces
+  - use-specification-pattern
 redirects:
   - do-you-know-the-common-design-patterns-(part-1)
   - do-you-know-the-common-design-patterns-part-1
