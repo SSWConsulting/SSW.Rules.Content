@@ -45,10 +45,10 @@ It's important that stakeholders stay in the loop of the projects progress, but 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum Meeting (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+* [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
+* [Daily Scrum (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+* [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
+* [Sprint Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::
 
