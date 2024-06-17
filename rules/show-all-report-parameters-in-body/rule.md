@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Data Layout - Do you show all of the report parameters in body?
-guid: 2c0f2507-e647-4689-adc6-a0db36840df9s
+guid: 9b61df55-3056-4d05-8d22-6c8a19e3a4d6
 uri: show-all-report-parameters-in-body
 created: 2024-06-04T16:38:33.0000000Z
 authors: 
