@@ -72,6 +72,10 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 - **Efficient Caching**: Better caching options.
 - **Instant Cache Purging**: Offers an instant purging option for caches.
 
+❌ Cons:
+
+- No built-in integration with Azure Services
+
 Also consider where your user base is located and which CDN providers support those locations. For example, some CDNs are not fast or reliable when accessed from China (due to the Great Firewall).
 
 #### Which CDNs work well from China?
