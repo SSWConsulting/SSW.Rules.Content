@@ -6,6 +6,8 @@ uri: use-specification-pattern
 authors:
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 created: 2023-06-17T13:42:55.753Z
 guid: D81A5868-E316-4AC5-8C52-CBC3CE944908
 related:
@@ -16,18 +18,56 @@ When developing software, ensuring that your code is maintainable, flexible, and
 
 <!--endintro-->
 
-### What is the Specification Pattern?
+## What Problem are we Solving here?
+
+Let's take the example below of adding/removing items to/from a customer's order.  When looking up the customer we need to include the current OrderItems and ensure the order is not complete.  This logic is duplicated in both the AddItem and RemoveItem methods, which violates the DRY principle.
+
+Even worse, if the logic changes, we need to update it in multiple places, increasing the risk of bugs and inconsistencies.  Below we correctly check the orders status when adding items, but not when removing them which is a bug.
+
+```csharp
+public class OrderService(ApplicationDbContext dbContext)
+{
+    public async Task AddItem(Guid orderId, OrderItem item)
+    {
+        var order = dbContext.Orders
+            .Include(o => o.OrderItems)
+            .FirstOrDefault(o => o.Id == orderId && o.Status != OrderStatus.Complete);
+        
+        order.AddItem(item);
+        
+        await dbContext.SaveChangesAsync();
+    }
+    
+    public void RemoveItem(int age)
+    {
+        // Duplicated logic and bug introduced by not checking OrderStatus
+        var order = dbContext.Orders
+            .Include(o => o.OrderItems)
+            .FirstOrDefault(o => o.Id == orderId);
+        
+        order.RemoveItem(item);
+        
+        await dbContext.SaveChangesAsync();
+    }
+}
+```
+
+::: bad
+Figure: Bad example - Duplicated query logic to fetch the customer
+:::
+
+## What is the Specification Pattern?
 
 The Specification pattern is a design pattern used to define business rules in a reusable and composable way. It encapsulates the logic of a business rule into a single unit, making it easy to test, reuse, and combine with other specifications.
 
-### Use Cases for the Specification Pattern
+## Use Cases for the Specification Pattern
 
 1. **Reusable Queries**: Specifications can be used to define reusable query criteria for data access layers, making it easier to build complex queries.
 2. **Validation Rules**: Specifications can be used to define validation rules for input data, ensuring that it meets the required criteria.
 3. **Encapsulating Business Rules**: Specifications can encapsulate complex business rules in the Domain where most business logic should go.
 4. **Repository Alternative**: Specifications can be used as an alternative to repositories for querying data.  Instead of encapsulating queries in repositories, you can encapsulate them in specifications.
 
-### Using the Specification Pattern
+## Using the Specification Pattern
 
 Steve Smith (aka ["Ardalis"])(https://github.com/ardalis) has created an excellent library called [Ardalis.Specifications](https://github.com/ardalis/Specification) that integrates well with EF Core.
 
@@ -57,3 +97,48 @@ To use the Specification pattern, follow these steps:
     ```
 
 For an end-to-end example of the specification pattern see the [SSW.CleanArchitecture Template](https://github.com/SSWConsulting/SSW.CleanArchitecture).
+
+## Good Example
+
+Re-visiting the example above, we can apply the Specification pattern as follows:
+
+```csharp
+public sealed class OrderByIdSpec : SingleResultSpecification<Order>
+{
+   public OrderByIdSpec(Guid orderId)
+   {
+        Query
+            .Include(o => o.OrderItems)
+            .Where(o => o.Id == orderId && o.Status != OrderStatus.Complete);
+   }
+} 
+
+public class OrderService(ApplicationDbContext dbContext)
+{
+    public async Task AddItem(Guid orderId, OrderItem item)
+    {
+        var order = dbContext.Orders
+            .WithSpecification(new OrderByIdSpec(orderIdorderId))
+            .FirstOrDefaultAsync();
+        
+        order.AddItem(item);
+        
+        await dbContext.SaveChangesAsync();
+    }
+    
+    public void RemoveItem(int age)
+    {
+        var order = dbContext.Orders
+            .WithSpecification(new OrderByIdSpec(orderIdorderId))
+            .FirstOrDefaultAsync();
+        
+        order.RemoveItem(item);
+        
+        await dbContext.SaveChangesAsync();
+    }
+}
+```
+
+::: good
+Figure: Good example - Specification used to keep Order query logic DRY
+:::
