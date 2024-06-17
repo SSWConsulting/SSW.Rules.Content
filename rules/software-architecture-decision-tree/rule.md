@@ -6,8 +6,16 @@ uri: software-architecture-decision-tree
 authors:
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
+  - title: Chris Clement
+    url: https://www.ssw.com.au/people/chris-clement
   - title: Luke Parker
     url: https://www.ssw.com.au/people/luke-parker
+  - title: Matt Parker
+    url: https://www.ssw.com.au/people/matt-parker
+  - title: Caleb Williams
+    url: https://www.ssw.com.au/people/caleb-williams
 created: 2024-06-13T17:00:00.000Z
 guid: 1CD0006D-24A7-4FBD-B59E-92C25D0D10BC
 ---
