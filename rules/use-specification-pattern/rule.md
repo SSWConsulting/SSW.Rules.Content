@@ -105,7 +105,7 @@ Re-visiting the example above, we can apply the Specification pattern as follows
 ```csharp
 public sealed class OrderByIdSpec : SingleResultSpecification<Order>
 {
-   public OrderByIdSpec(Guid orderId)
+   public IncompleteOrderByIdSpec(Guid orderId)
    {
         Query
             .Include(o => o.OrderItems)
