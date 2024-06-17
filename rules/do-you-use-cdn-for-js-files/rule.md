@@ -80,14 +80,14 @@ Also consider where your user base is located and which CDN providers support th
 
 #### Which CDNs work well from China?
 
-1. <http://www.staticfile.org/>
-2. <http://www.bootcdn.cn/>
-3. <https://intl.cloud.baidu.com/product/cdn.html>
-4. <http://lib.sinaapp.com/>
-5. <http://cdnjs.net/>
-6. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
-7. <https://www.akamai.com>
-8. <https://cdnjs.cloudflare.com>
+1. <https://cdnjs.cloudflare.com> (recommended)
+2. <http://www.staticfile.org/>
+3. <http://www.bootcdn.cn/>
+4. <https://intl.cloud.baidu.com/product/cdn.html>
+5. <http://lib.sinaapp.com/>
+6. <http://cdnjs.net/>
+7. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
+8. <https://www.akamai.com>
 
 #### Which ones do not work well from China?
 
