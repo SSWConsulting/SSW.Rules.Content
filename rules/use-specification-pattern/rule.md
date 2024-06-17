@@ -18,7 +18,7 @@ When developing software, ensuring that your code is maintainable, flexible, and
 
 ### What is the Specification Pattern?
 
-The Specification pattern is a design pattern used to define business rules in a reusable and combinable way. It encapsulates the logic of a business rule into a single unit, making it easy to test, reuse, and combine with other specifications.
+The Specification pattern is a design pattern used to define business rules in a reusable and composable way. It encapsulates the logic of a business rule into a single unit, making it easy to test, reuse, and combine with other specifications.
 
 ### Use Cases for the Specification Pattern
 
