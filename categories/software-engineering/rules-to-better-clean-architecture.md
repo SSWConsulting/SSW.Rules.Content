@@ -18,6 +18,7 @@ index:
 - cloud-architect
 - use-the-mediator-pattern-with-cqrs
 - software-architecture-decision-tree
+- use-specification-pattern
 - anemic-vs-rich-domain-models
 
 ---

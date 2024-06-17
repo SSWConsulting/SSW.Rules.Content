@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Shane Ye
     url: https://ssw.com.au/people/shane-ye
+  - title: Aman Kumar
+    url: https://ssw.com.au/people/aman-kumar
 related: []
 redirects:
   - do-you-use-a-content-delivery-network-cdn
@@ -36,23 +38,61 @@ CDNs not only ensure a faster experience to your users, but they also help to pr
 
 ### How to choose a CDN?
 
-When choosing a CDN provider, take into account where your user base is located and which CDN provider support those locations. For example, some CDN provides are not fast or reliable when accessed from China (behind the Great Firewall).
+When selecting a Content Delivery Network (CDN) for your website, you face the challenge of ensuring robust edge-level redirects and effective caching to speed up your site. Unfortunately, not all CDNs provide these functionalities seamlessly, making it difficult to find one that meets these critical needs.
+
+### Front Door as Your CDN
+
+Front Door is a good option, but it has some notable downsides regarding redirects and caching that you should be aware of:
+
+✅ Pros:
+
+* **Easy Integration**: Seamlessly integrates with other Azure services.
+* **Flexible Origin Handling**: Better handling for origin groups on a route level (e.g., /people can be hosted on a different server).
+
+❌ Cons:
+
+* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) per resource group.
+* **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
+* **Lack of Flexibility**: It doesn’t offer much flexibility for custom redirects, such as using regular expressions.
+* **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.
+* **High Costs**: It is quite expensive compared to other CDNs.
+
+To overcome these issues, we can use Cloudflare.
+
+### Cloudflare
+
+Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and Web Application Firewall (WAF), along with a host of other options.
+
+✅ Pros:
+
+* **Easy Deployment**: Simple deployment through Wrangler. (it takes a few seconds to deploy workers)
+* **Flexible Redirects**: More flexible in handling bulk and customizable redirects using [Cloudflare Workers](https://developers.cloudflare.com/workers/).
+* **Enhanced Security**: Provides better WAF protection and secure DDoS mitigation.
+* **Cost-Effective**: Much cheaper than other CDNs.
+* **Efficient Caching**: Better caching options.
+* **Instant Cache Purging**: Offers an instant purging option for caches.
+
+❌ Cons:
+
+* No built-in integration with Azure Services
+
+Also consider where your user base is located and which CDN providers support those locations. For example, some CDNs are not fast or reliable when accessed from China (due to the Great Firewall).
 
 #### Which CDNs work well from China?
 
-1. http://www.staticfile.org/
-2. http://www.bootcdn.cn/
-3. https://intl.cloud.baidu.com/product/cdn.html
-4. http://lib.sinaapp.com/
-5. http://cdnjs.net/
-6. https://www.cloudflare.com/network/china/ (Cloudflare’s China Service)
-7. https://www.akamai.com
-8. https://cdnjs.cloudflare.com
+1. <https://cdnjs.cloudflare.com> (recommended)
+2. <http://www.staticfile.org/>
+3. <http://www.bootcdn.cn/>
+4. <https://intl.cloud.baidu.com/product/cdn.html>
+5. <http://lib.sinaapp.com/>
+6. <http://cdnjs.net/>
+7. <https://www.cloudflare.com/network/china/> (Cloudflare’s China Service)
+8. <https://www.akamai.com>
 
 #### Which ones do not work well from China?
 
-1. https://maxcdn.bootstrapcdn.com
-2. https://ajax.googleapis.com
+1. <https://maxcdn.bootstrapcdn.com>
+2. <https://ajax.googleapis.com>
 
 ::: bad
 ![Figure: Bad example, jquery.min.js from GoogleAPIs failed to load](5-28.4.png)

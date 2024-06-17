@@ -5,6 +5,7 @@ guid: E893B1B8-A383-470C-A72E-149F95E5B6F0
 uri: rules-to-better-domain-driven-design
 index:
 - encapsulate-domain-models
+- use-specification-pattern
 - anemic-vs-rich-domain-models
 ---
 
