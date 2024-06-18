@@ -88,13 +88,6 @@ class Order {
 Figure: Example - Rich model where the Order class encapsulates data and business logic.
 :::
 
-## How does the Application Layer interact with the Model?
-
-The Application Layer is part of the 'Core' of our system.  It needs to interact with the Domain Layer for the system to function.  This will happen in two slightly different ways depending on the underlying model.
-
-1. **Anemic Domain Model**: Application Layer follows the 'Transaction Script' pattern. The Application will contain all logic in the system.  It will use the Domain Layer to update state, but will be in full control of the changes.  There is no logic in the Domain and the entities become 'Data Access Objects'.
-2. **Rich Domain Model**:  Application Layer becomes the 'Orchestrator' of the Domain.  It is responsible for fetching the entities from the Persistence Layer, but will delegate to the Domain for any updates.  The Domain Layer will be responsible for maintaining the state of the system and enforcing invariants.
-
 In both cases the Application is still responsible for communicating with external systems via abstractions implemented in the Infrastructure Layer.
 
 ## Choosing the Right Model
@@ -111,3 +104,10 @@ One side-effect of pushing logic into our Domain layer is that we can now start 
 * **Iterate and Improve:** Continuously refine your domain model as the project evolves
 
 By understanding the differences between anemic and rich domain models, you can make informed decisions about your software architecture and ensure that your project scales effectively with complexity.
+
+## How does the Application Layer interact with the Model?
+
+When using Clean Architecture we consider the Application Layer is part of the 'Core' of our system.  It needs to interact with the Domain Layer for the system to function.  This will happen in two slightly different ways depending on the underlying model.
+
+1. **Anemic Domain Model**: Application Layer follows the 'Transaction Script' pattern. The Application will contain all logic in the system.  It will use the Domain Layer to update state, but will be in full control of the changes.  There is no logic in the Domain and the entities become 'Data Access Objects'.
+2. **Rich Domain Model**:  Application Layer becomes the 'Orchestrator' of the Domain.  It is responsible for fetching the entities from the Persistence Layer, but will delegate to the Domain for any updates.  The Domain Layer will be responsible for maintaining the state of the system and enforcing invariants.
