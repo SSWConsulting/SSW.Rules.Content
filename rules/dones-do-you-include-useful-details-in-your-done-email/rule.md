@@ -75,12 +75,12 @@ Done - added "State" field to the contact form - northwind&#46;com/contact
 :::
 :::
 ::: good
-Figure: Good example - "Done" email has a link, a screenshot, and code changes
+Figure: Good example - "Done" email has a link, a screenshot showing the URL, and code changes
 :::
 
 ### More useful details to include in emails
 
-* On browser screenshots, include the top-left area - so others can see the URL and what browser was being used (e.g. Chrome or Edge)
+* For screenshots of a browser window, include the top-left area - so others can see the URL and guess what browser was being used (e.g. Chrome or Edge)
 * [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
 * When working on Azure DevOps or GitHub, [include a URL to the PBI or Issue](/when-to-send-a-done-email-in-scrum)
 * Include ["from X to Y"](/change-from-x-to-y) or a [.diff file](https://www.diffchecker.com) for greater code/text changes
