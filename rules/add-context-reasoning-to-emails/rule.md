@@ -27,7 +27,7 @@ It starts with a [good email subject](/good-email-subject). Then provide extra c
 
 Also make sure to always [keep the history of an email](/keep-email-history), so there are enough details in the thread for anyone else to acknowledge what is going on.
 
-::: email-template\
+::: email-template
 | | |
 | -------- | --- |
 | To: | Dave |
