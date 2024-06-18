@@ -20,9 +20,9 @@ It is strongly recommend to run a pre-migration check on the SharePoint conte
 
 **Assumptions:**
 
-- You have already installed the customized wsp package you know
-- You have restored the content database to SQL server
-- You haven't attach the content database yet
+* You have already installed the customized wsp package you know
+* You have restored the content database to SQL server
+* You haven't attach the content database yet
 
 **Steps:**
 
