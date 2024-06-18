@@ -16,9 +16,9 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - send-done-videos
-  - do-you-send-done-videos
   - record-better-audio
   - do-you-zz-old-files-rather-than-deleting-them
+  - recording-screen
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
 created: 2016-05-10T09:09:50.000Z
@@ -30,7 +30,7 @@ When you've finished a PBI you should record a video to send to your Product Own
 
 <!--endintro-->
 
-When deciding whether a PBI might be a good contender to record a Done video for, consider these factors:
+When deciding whether a PBI might be a good contender to record a Done Video for, consider these factors:
 
 1. Is it a key piece of functionality that has high business value?
 2. Would it be difficult to quickly demo in the Sprint Review without a video?
@@ -39,19 +39,12 @@ When deciding whether a PBI might be a good contender to record a Done video for
 ::: greybox
 
 **Choosing software to record your screen and camera together:**
-
-- Remote recordings: [Zoom](https://zoom.us), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI](https://www.ndi.tv), [StreamYard](https://streamyard.com) (advanced)
-- Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com),
-- Advanced recordings: [Clipchamp](https://clipchamp.com/en/), [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
-
-**Tip #1:** Clipchamp is recommended because it is easy to use both for recording and editing, completely free, and offer direct uploads to YouTube.
-
-**Tip #2:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**.
+Check out SSW Rule [Do you know how to record your screen?](/recording-screen) for the best options.
 
 **Choosing software to edit your video:**
 
-- Basic editing: Video Editor (for Windows), iMovie (for Mac)
-- Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
+* Basic editing: Video Editor (for Windows), iMovie (for Mac)
+* Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
 
 :::
 
@@ -109,10 +102,10 @@ E.g. A real example of a 'Done Video' with fades:
 
 After recording your video, you need to do some basic sound processing to make the audio awesome.
 
-- In the Timeline, select the clip with the audio
-- On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
-- On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
-- Listen and adjust as necessary
+* In the Timeline, select the clip with the audio
+* On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
+* On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
+* Listen and adjust as necessary
 
   ![Figure: Camtasia - audio effects panel with the compressor](audio-effects-panel.png)
 
@@ -144,10 +137,10 @@ Follow the steps to export your video:
 
 4. In the ‘Video settings’ tab, copy these settings:
 
-- Frame Rate: 30
-- H.264 Profile: High
-- Encoding mode: Quality
-- Increase the quality to 100%
+* Frame Rate: 30
+* H.264 Profile: High
+* Encoding mode: Quality
+* Increase the quality to 100%
 
   ![Figure: Copy these video settings](export-video4.png)
 
