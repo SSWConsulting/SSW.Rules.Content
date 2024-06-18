@@ -12,6 +12,8 @@ related:
   - dones-do-your-dones-include-a-url
   - keep-email-history
   - seek-clarification-via-phone
+  - screenshots-avoid-walls-of-text
+  - do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots
 redirects:
   - do-you-add-context-reasoning-to-your-emails
 created: 2009-03-27T03:20:53.000Z
