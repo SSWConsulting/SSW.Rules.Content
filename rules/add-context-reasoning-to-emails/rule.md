@@ -24,7 +24,7 @@ Sometimes you send an email and get a response saying it's too cryptic. Never as
 
 <!--endintro-->
 
-It starts with a [good email subject](/good-email-subject). 
+It starts with a [good email subject](/good-email-subject).
 
 Nearly every email can be enhanced by including a screenshot and a URL. Provide extra clear information by [adding links](/include-links-in-emails) and [useful captions on screenshots](/add-useful-and-concise-figure-captions).
 
