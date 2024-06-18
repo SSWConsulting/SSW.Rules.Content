@@ -21,16 +21,17 @@ An Anemic Domain Model is characterized by:
 - **Property Bags:** Entities are simple data containers with public getters and setters
 - **No Behavior:** No logic or validation within the entities
 
-### Pros of Anemic Domain Model:
+### Pros of Anemic Domain Model
 
 - Good for simple or CRUD (Create, Read, Update and Delete) projects
 - Easier to understand for developers new to the project
 
-### Cons of Anemic Domain Model:
+### Cons of Anemic Domain Model
 
-- Doesn’t scale well with complexity
-- Logic duplication across the application
+Doesn’t scale well with complexity due to:
+- Logic duplication across the Application Layer
 - Difficult to maintain as the project grows
+- Less readable code due to scattered logic across and Application
 
 ::: greybox
 class Order {
@@ -52,14 +53,14 @@ A Rich Domain Model is characterized by:
 - **Data and Behavior:** Combines data and behavior (business logic and validation) in the same entity
 - **Encapsulation:** Entities are responsible for maintaining their own state and enforcing invariants
 
-### Pros of Rich Domain Model:
+### Pros of Rich Domain Model
 
 - Scales well with complexity
 - Promotes encapsulation and cohesion
 - Easier to maintain and extend
 - Encourages better testability
 
-### Cons of Rich Domain Model:
+### Cons of Rich Domain Model
 
 - Steeper learning curve
 - May require more initial setup and design
