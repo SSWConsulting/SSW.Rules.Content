@@ -23,7 +23,7 @@ An Anemic Domain Model is characterized by:
 
 ### Pros of Anemic Domain Model:
 
-- Good for simple or CRUD projects
+- Good for simple or CRUD (Create, Read, Update and Delete) projects
 - Easier to understand for developers new to the project
 
 ### Cons of Anemic Domain Model:
