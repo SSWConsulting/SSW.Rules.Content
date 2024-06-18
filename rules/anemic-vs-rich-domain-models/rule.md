@@ -29,7 +29,7 @@ An Anemic Domain Model is characterized by:
 ### Cons of Anemic Domain Model
 
 * Doesn’t scale well with complexity - complex logic can be duplicated across many places in the client code
-* Difficult to maintain as the project grows - changes to logic needs to be updated in multiple places
+* Difficult to maintain as the project grows - changes to logic need to be updated in multiple places
 * Less readable code - Code related to an entity is scattered across multiple places
 
 ::: greybox
