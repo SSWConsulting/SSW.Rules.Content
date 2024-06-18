@@ -29,6 +29,7 @@ An Anemic Domain Model is characterized by:
 ### Cons of Anemic Domain Model
 
 Doesn’t scale well with complexity due to:
+
 * Logic duplication across the Application Layer
 * Difficult to maintain as the project grows
 * Less readable code due to scattered logic across and Application
