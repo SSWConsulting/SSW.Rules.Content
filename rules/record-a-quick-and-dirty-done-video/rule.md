@@ -43,8 +43,8 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 
 **Choosing software to edit your video:**
 
-- Basic editing: Video Editor (for Windows), iMovie (for Mac)
-- Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
+* Basic editing: Video Editor (for Windows), iMovie (for Mac)
+* Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
 
 :::
 
@@ -102,10 +102,10 @@ E.g. A real example of a 'Done Video' with fades:
 
 After recording your video, you need to do some basic sound processing to make the audio awesome.
 
-- In the Timeline, select the clip with the audio
-- On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
-- On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
-- Listen and adjust as necessary
+* In the Timeline, select the clip with the audio
+* On the top left panel, click ‘Audio Effects’ and drag the ‘Levelling’ effect onto your clip
+* On the timeline, move the new audio meter up just until the audio waveform is about to hit the top
+* Listen and adjust as necessary
 
   ![Figure: Camtasia - audio effects panel with the compressor](audio-effects-panel.png)
 
@@ -137,10 +137,10 @@ Follow the steps to export your video:
 
 4. In the ‘Video settings’ tab, copy these settings:
 
-- Frame Rate: 30
-- H.264 Profile: High
-- Encoding mode: Quality
-- Increase the quality to 100%
+* Frame Rate: 30
+* H.264 Profile: High
+* Encoding mode: Quality
+* Increase the quality to 100%
 
   ![Figure: Copy these video settings](export-video4.png)
 
