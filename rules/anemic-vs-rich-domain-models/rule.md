@@ -55,7 +55,7 @@ A Rich Domain Model is characterized by:
 ### Pros of Rich Domain Model
 
 * Scales well with complexity
-* Promotes encapsulation and cohesion
+* Promotes encapsulation and cohesion (fundamental OOP principles)
 * Easier to maintain and extend
 * Encourages better testability
 
