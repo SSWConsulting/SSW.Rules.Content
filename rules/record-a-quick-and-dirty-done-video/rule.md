@@ -16,9 +16,9 @@ authors:
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
   - send-done-videos
-  - do-you-send-done-videos
   - record-better-audio
   - do-you-zz-old-files-rather-than-deleting-them
+  - recording-screen
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
 created: 2016-05-10T09:09:50.000Z

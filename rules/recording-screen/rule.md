@@ -1,5 +1,4 @@
 ---
-seoDescription: 
 type: rule
 seoDescription: Learn how to record your screen using popular options like ClipChamp, Loom, Snagit, and OBS.
 title: Do you know how to record your screen?
@@ -9,7 +8,8 @@ created: 2024-06-18T01:26:35.0000000Z
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+  - record-a-quick-and-dirty-done-video
 redirects: []
 archivedreason: null
 ---
