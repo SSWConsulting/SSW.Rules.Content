@@ -30,7 +30,7 @@ When you've finished a PBI you should record a video to send to your Product Own
 
 <!--endintro-->
 
-When deciding whether a PBI might be a good contender to record a Done video for, consider these factors:
+When deciding whether a PBI might be a good contender to record a Done Video for, consider these factors:
 
 1. Is it a key piece of functionality that has high business value?
 2. Would it be difficult to quickly demo in the Sprint Review without a video?
@@ -39,14 +39,7 @@ When deciding whether a PBI might be a good contender to record a Done video for
 ::: greybox
 
 **Choosing software to record your screen and camera together:**
-
-- Remote recordings: [Zoom](https://zoom.us), [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams) via [NDI](https://www.ndi.tv), [StreamYard](https://streamyard.com) (advanced)
-- Basic recordings: [Snagit](https://www.techsmith.com/screen-capture.html), [Loom](https://www.loom.com),
-- Advanced recordings: [Clipchamp](https://clipchamp.com/en/), [OBS Studio](https://obsproject.com), [Camtasia](https://www.techsmith.com/store/camtasia),
-
-**Tip #1:** Clipchamp is recommended because it is easy to use both for recording and editing, completely free, and offer direct uploads to YouTube.
-
-**Tip #2:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**.
+Check out SSW Rule [Do you know how to record your screen?](/recording-screen) for the best options.
 
 **Choosing software to edit your video:**
 

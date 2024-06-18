@@ -1,7 +1,7 @@
 ---
 seoDescription: Record your Mac screen using built-in functionalities or popular alternatives like Camtasia and ScreenFlow.
 type: rule
-archivedreason:
+archivedreason: Replaced by https://ssw.com.au/rules/recording-screen
 title: Do you know how to record the screen on a Mac?
 guid: dc29102f-816e-4777-a3ac-49dad456a0ca
 uri: do-you-know-how-to-record-the-screen-on-a-mac
