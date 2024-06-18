@@ -40,8 +40,7 @@ class Order {
     public decimal TotalAmount { get; set; }
 }
 :::
-::: bad
-Figure: Bad Example - Anemic model where the Order class is just a data container with no behavior.
+Figure: Example - Anemic model where the Order class is just a data container with no behavior.
 :::
 
 ## Rich Domain Model
@@ -86,8 +85,7 @@ class Order {
     }
 }
 :::
-::: good
-Figure: Good Example - Rich model where the Order class encapsulates data and business logic.
+Figure: Example - Rich model where the Order class encapsulates data and business logic.
 :::
 
 ## How does the Application Layer interact with the Model?
