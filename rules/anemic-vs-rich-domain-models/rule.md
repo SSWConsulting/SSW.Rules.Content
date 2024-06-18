@@ -28,10 +28,9 @@ An Anemic Domain Model is characterized by:
 
 ### Cons of Anemic Domain Model
 
-Doesn’t scale well with complexity due to:
-* Logic duplication across the Application Layer
-* Difficult to maintain as the project grows
-* Less readable code due to scattered logic across and Application
+* Doesn’t scale well with complexity - complex logic can be duplicated across many places in the client code
+* Difficult to maintain as the project grows - changes to logic needs to be updated in multiple places
+* Less readable code - Code related to an entity is scattered across multiple places
 
 ::: greybox
 class Order {
@@ -54,10 +53,9 @@ A Rich Domain Model is characterized by:
 
 ### Pros of Rich Domain Model
 
-* Scales well with complexity
-* Promotes encapsulation and cohesion (fundamental OOP principles)
-* Easier to maintain and extend
-* Encourages better testability
+* Scales well with complexity - encapsulation and cohesion of Domain models (fundamental OOP principles) makes the calling client code simpler
+* Easier to maintain - logic is closer to the data it applies to
+* Encourages better testability - Domain models are easy to test in isolation
 
 ### Cons of Rich Domain Model
 
