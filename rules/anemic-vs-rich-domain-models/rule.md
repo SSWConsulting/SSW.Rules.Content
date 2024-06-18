@@ -44,7 +44,7 @@ Figure: Example - Anemic model where the Order class is just a data container wi
 
 ## Rich Domain Model
 
-A Rich Domain Model, on the other hand, embeds business logic within the entities. This approach makes the domain the heart of your system, as opposed to being database or UI-centric.
+A Rich Domain Model, on the other hand, embeds business logic in the model (within Aggegates/Entities/Value Objects/Services). This approach makes the domain the heart of your system, as opposed to being database or UI-centric.
 
 A Rich Domain Model is characterized by:
 
