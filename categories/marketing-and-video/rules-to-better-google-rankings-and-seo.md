@@ -42,7 +42,6 @@ index:
 - register-your-domain-for-a-long-time
 - spelling-do-you-use-us-english
 - know-the-iis-things-to-do
-- fix-ugly-urls
 - html-meta-tags
 - use-subdirectories-not-domains
 - website-heatmaps
