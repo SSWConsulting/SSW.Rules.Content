@@ -1,7 +1,9 @@
 ---
-seoDescription: Do you include useful details in your 'Done' email? Make sure to add relevant information such as URLs, screenshots, and code snippets to keep others informed about what's been done or needs to be done.
 type: rule
 title: Dones - Do you include useful details in your 'Done' email?
+seoDescription: Do you include useful details in your 'Done' email? Make sure to
+  add relevant information such as URLs, screenshots, and code snippets to keep
+  others informed about what's been done or needs to be done.
 uri: dones-do-you-include-useful-details-in-your-done-email
 authors:
   - title: Adam Cogan
@@ -65,6 +67,7 @@ Figure: Bad example - "Done" email lacks details
 ### Hi Dave
 
 Done - added "State" field to the contact form - northwind&#46;com/contact
+
 
 ![Figure: New "State" field added](good-done-example-form.png)
 
