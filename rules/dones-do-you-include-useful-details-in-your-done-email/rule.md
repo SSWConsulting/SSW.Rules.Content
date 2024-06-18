@@ -38,7 +38,7 @@ In any email you send, **include relevant information**, such as [URLs](/include
 * The client can raise questions based on what they see in the code
 * Finally, in the very unlikely case that the code repository and backup goes corrupt, your emails are a backup!
 
-### Examples
+#### Examples
 
 ::: email-template
 | | |
@@ -78,9 +78,9 @@ Done - added "State" field to the contact form - northwind&#46;com/contact
 Figure: Good example - "Done" email has a link, a screenshot, and code changes
 :::
 
-### Tips
+### More useful details to include in emails
 
+* On browser screenshots, include the top-left area - so others can see the URL and what browser was being used (e.g. Chrome or Edge)
 * [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
-* On browser screenshots, make sure you include the top-left area - so others can see the URL and what browser is being used. E.g. Chrome or Edge
-* If you are using Azure DevOps or GitHub, you should also include a URL to the work item
-* Include a [.diff file](https://www.diffchecker.com/) for greater code/text changes
+* When working on Azure DevOps or GitHub, [include a URL to the PBI or Issue](/when-to-send-a-done-email-in-scrum)
+* Include ["from X to Y"](/change-from-x-to-y) or a [.diff file](https://www.diffchecker.com) for greater code/text changes
