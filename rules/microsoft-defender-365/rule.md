@@ -19,7 +19,7 @@ Microsoft Defender for Endpoint is an enterprise endpoint security platform desi
 
 <!--endintro-->
 
-![Figure: Microsoft Defender 365 – Dashboard ](defender365_2022-08-10.jpg " ")
+![Figure: Microsoft Defender XDR – Dashboard ](defender365_2022-08-10.jpg " ")
 
 There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) for information.
 
