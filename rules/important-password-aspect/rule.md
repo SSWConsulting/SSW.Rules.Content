@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand the importance of password length and how it affects security with The Hive Systems.
 type: rule
 title: Passwords - Do you know the most important aspect of your password?
 uri: important-password-aspect
@@ -7,7 +8,6 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-17T04:59:44.169Z
 guid: e1bbd101-8e7b-48c0-a611-d4f61167516d
-
 ---
 
 Passwords are a legacy technology that is not fit for the purpose that we use them today. We're working our way towards a post-password world, in particular the [FIDO alliance](https://fidoalliance.org), and many biometric technologies, including fingerprint and face recognition that you may have in your phone. But for now, passwords are something we all need to live with.
@@ -16,10 +16,10 @@ Passwords are a legacy technology that is not fit for the purpose that we use th
 
 We're used to seeing lists of password requirements, such as:
 
-* Minimum length
-* Complexity (e.g. must include upper and lower-case letters, numbers, and special characters)
-* Minimum age (e.g. you can’t change it more than once in 24 hours)
-* Maximum age (e.g. you must change it every 30 days)
+- Minimum length
+- Complexity (e.g. must include upper and lower-case letters, numbers, and special characters)
+- Minimum age (e.g. you can’t change it more than once in 24 hours)
+- Maximum age (e.g. you must change it every 30 days)
 
 The most important of these is **length**.
 

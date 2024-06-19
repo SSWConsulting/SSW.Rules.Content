@@ -1,4 +1,5 @@
 ---
+seoDescription: Know which currency to quote by using local currency for domestic transactions and USD as a fallback for international deals.
 type: rule
 title: Do you know what currency to quote?
 uri: what-currency-to-quote
@@ -20,6 +21,7 @@ created: 2013-04-01T04:08:02.000Z
 archivedreason: null
 guid: e14419d7-ab99-4340-aba8-967a4d75f039
 ---
+
 The easiest thing to do is to quote the price in your local currency. Go the extra step and convert it to a currency they understand.
 
 If you are not sure what currency to use, just use US Dollars, which is the international currency.
@@ -41,7 +43,7 @@ Figure: Bad example - The client doesn't know whether it's AUD or USD
 Our price is AUD $1,000
 :::
 ::: good
-Figure: Good example  - AUD makes it more clear
+Figure: Good example - AUD makes it more clear
 :::
 
 ### International Transactions
@@ -61,7 +63,7 @@ Figure: Bad example - The client will need to convert it
 Our price is CNY ¥1,000 (about AUD $160)
 :::
 ::: good
-Figure: Good example  - AUD gives a clear understanding of the costs
+Figure: Good example - AUD gives a clear understanding of the costs
 :::
 
 #### Unfamiliar Local Currency

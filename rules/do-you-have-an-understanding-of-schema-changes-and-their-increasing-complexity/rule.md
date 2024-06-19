@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering schema changes and their increasing complexity requires understanding low-impact alterations and high-risk operations involving existing data.
 type: rule
 title: Do you have an understanding of 'schema changes' and their increasing
   complexity?
@@ -15,7 +16,8 @@ guid: 634434fa-12e0-4eed-9514-eaf4fb2fcc01
 
 Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are?
 
- Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](/the-best-sample-applications)):
+Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](/the-best-sample-applications)):
+
 <!--endintro-->
 
 ```sql
@@ -35,10 +37,10 @@ GO
 **Figure: Delete a column (Easy)**
 
 ```sql
-EXECUTE sp_rename N'dbo.Employees.HireDate', 
+EXECUTE sp_rename N'dbo.Employees.HireDate',
                   N'Tmp_StartDate_1', 'COLUMN'
 GO
-EXECUTE sp_rename N'dbo.Employees.Tmp_StartDate_1', 
+EXECUTE sp_rename N'dbo.Employees.Tmp_StartDate_1',
                   N'StartDate', 'COLUMN'
 GO
 ```
@@ -56,14 +58,14 @@ TEXTIMAGE_ON [PRIMARY]
 ...
 IF EXISTS(SELECT * FROM dbo.Employees)
     EXEC('INSERT INTO dbo.Tmp_Employees (..., Gender,...)
-              SELECT ...,Gender ,... 
+              SELECT ...,Gender ,...
               FROM dbo.Employees WITH (HOLDLOCK TABLOCKX)
-              ') 
+              ')
 ...
 GO
 DROP TABLE dbo.Employees
 GO
-EXECUTE sp_rename N'dbo.Tmp_Employees', 
+EXECUTE sp_rename N'dbo.Tmp_Employees',
                   N'Employees', 'OBJECT'
 GO
 ```
@@ -86,15 +88,15 @@ IF EXISTS(SELECT * FROM dbo.Employees)
                                  WHEN ''NA'' THEN ''2''
                                  WHEN ''U'' THEN ''3''
                                  ELSE ''-1''
-                     END AS Gender ,... 
-          FROM dbo.Employees WITH 
+                     END AS Gender ,...
+          FROM dbo.Employees WITH
           (HOLDLOCK TABLOCKX)
           ')
 ...
 GO
 DROP TABLE dbo.Employees
 GO
-EXECUTE sp_rename N'dbo.Tmp_Employees', 
+EXECUTE sp_rename N'dbo.Tmp_Employees',
                   N'Employees', 'OBJECT'
 GO
 ```

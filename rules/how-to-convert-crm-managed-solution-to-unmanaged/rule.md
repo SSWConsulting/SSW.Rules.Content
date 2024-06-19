@@ -1,6 +1,7 @@
 ---
+seoDescription: Convert Dynamics CRM managed solution to unmanaged, edit and override production managed solution with a script.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to convert Dynamics CRM managed solution to unmanaged?
 guid: d8ccbbb0-b1a9-4864-933f-9c59b7e49931
 uri: how-to-convert-crm-managed-solution-to-unmanaged
@@ -10,8 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
-- do-you-know-how-to-convert-dynamics-crm-managed-solution-to-unmanaged
-
+  - do-you-know-how-to-convert-dynamics-crm-managed-solution-to-unmanaged
 ---
 
 You might need to modify solutions during migration. But if that solution is managed, you cannot edit directly. If you have the unmanaged version in development environment, you can edit it and override the production managed solution.
@@ -20,7 +20,7 @@ You might need to modify solutions during migration. But if that solution is man
 
 If you don't have the unmanaged version (which is bad practice), see [Converting Managed Solutions to Unmanaged Solutions CRM 2013](https://community.dynamics.com/blogs/post/?postid=ea7fcf84-35e3-4047-94f9-d4a0c0e4e4a9) for good practice about CRM ALM. Use the following script to hack the org database:
 
-``` sql
+```sql
  declare @solutionId uniqueidentifier, @systemSolutionId uniqueidentifier
 
 -- specify the uniquename of the managed solution you'd like to unmanage here it is StagingOrg
@@ -32,28 +32,28 @@ select @systemSolutionId = solutionid from SolutionBase where UniqueName='Active
 -- go through all the tables that have the ismanaged/solutionid flag, find the related records for the current solution and move them to the crm active solution.
 
 insert into @tables (name, ismanaged, issolution) select name, 1, 0 from sysobjects where id in (select id from syscolumns where name in ('IsManaged')) and type='U' order by name
- 
+
 
 insert into @tables (name, ismanaged, issolution) select name, 0, 1 from sysobjects where id in (select id from syscolumns where name in ('SolutionId')) and type='U' and name not in ('SolutionComponentBase') and name not like '%ribbon%' -- ignore this table because it doesn't make a difference. it does cause dependency errors on the exported solution but we can manually edit the xml for that. order by name
- 
+
 
 select @count = count(*) from @tables while (@count > 0)
 begin
 
 select @currentTable =name, @currentM =ismanaged, @currentS =issolution from @tables where id=@count
- 
+
 
 if (@currentM = 1) begin select @sql ='update ' + @currentTable + ' set IsManaged=0 where SolutionId=N''' + cast(@solutionId as nvarchar(100)) + '''' exec (@sql)
- 
+
 
 print 'updated IsManaged to 0 on: ' + @currentTable end
- 
+
 
 if (@currentS = 1) begin select @sql ='update ' + @currentTable + ' set SolutionId=N''' + cast(@systemSolutionId as nvarchar(100)) + ''' where SolutionId=N''' + cast(@solutionId as nvarchar(100)) + '''' exec (@sql)
- 
+
 
 print 'updated SolutionId on: ' + @currentTable end
- 
+
 
 select @count = @count -1, @currentTable = NULL
 end

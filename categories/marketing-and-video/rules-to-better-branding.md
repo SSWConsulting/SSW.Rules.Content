@@ -22,7 +22,7 @@ index:
 - make-your-presents-branded
 - do-you-brand-your-takeaway-coffee-cups
 - have-urls-to-your-main-services-on-linkedin
-- screenshots-add-branding/
+- screenshots-add-branding
 - plastic-bags-branding
 
 ---

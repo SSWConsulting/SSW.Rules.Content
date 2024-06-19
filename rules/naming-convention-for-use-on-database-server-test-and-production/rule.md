@@ -1,4 +1,5 @@
 ---
+seoDescription: Database naming convention for test and production environments follows a standardized structure, with dev databases ending in "Dev" and test databases in "Test", while production databases remain name-only.
 type: rule
 title: Do you know the naming convention for use on database server test and
   production?
@@ -18,11 +19,9 @@ Generally, every client should have a dev and a test database, so the dev databa
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example - Database with bad names](BadDBName.gif)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Database with standard names](GoodDBName.gif)  

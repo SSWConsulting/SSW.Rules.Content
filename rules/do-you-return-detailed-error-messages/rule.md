@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you return detailed error messages?
 type: rule
 title: Do you return detailed error messages?
 uri: do-you-return-detailed-error-messages
@@ -13,6 +14,7 @@ created: 2015-08-27T01:00:17.000Z
 archivedreason: null
 guid: 7af36676-1eed-48dd-854b-2a956ef10e50
 ---
+
 Good error design is as important to the success of an API as the API design itself. A good error message provides context and visibility on how to troubleshoot and resolve issues at critical times.
 
 <!--endintro-->
@@ -23,20 +25,22 @@ Good error design is as important to the success of an API as the API design its
 
 The HTTP/1.1 RFC lists over 70 different HTTP Status Codes. Only some developers will be able to remember all of them, so it pays to keep it simple and use the most common Status Codes. Below are the most common HTTP status codes:
 
-* **2XX** - Success. Examples:
+- **2XX** - Success. Examples:
 
-  * 200 OK - Generic success response.
-* **4XX** - Client errors. Examples:
+  - 200 OK - Generic success response.
 
-  * 400 Bad Request - The server cannot understand the request.
-  * 401 Unauthorised - Invalid/non-existent credential for this request.
-* **5XX** - Server errors. Examples:
+- **4XX** - Client errors. Examples:
 
-  * 500 Internal Server Error - The server encountered errors preventing the request from being fulfilled.
+  - 400 Bad Request - The server cannot understand the request.
+  - 401 Unauthorised - Invalid/non-existent credential for this request.
+
+- **5XX** - Server errors. Examples:
+
+  - 500 Internal Server Error - The server encountered errors preventing the request from being fulfilled.
 
 ### Use ProblemDetails Format
 
-[RFC 7807 - Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc7807.html) details the specification for returning errors from your API. 
+[RFC 7807 - Problem Details for HTTP APIs](https://www.rfc-editor.org/rfc/rfc7807.html) details the specification for returning errors from your API.
 
 Problem Details defines a standardised way for HTTP APIs to communicate errors to clients. It introduces a simple and consistent format for describing errors, providing developers with a clear and uniform way to understand and handle errors in HTTP APIs.
 
@@ -55,12 +59,12 @@ Below is an example of an error message in Problem Details format:
 
 In the above example:
 
-* `type` specifies a URI that uniquely identifies the type of the problem.
-* `title` provides a short, human-readable summary of the problem.
-* `status` indicates the HTTP status code for the response.
-* `detail` gives a human-readable explanation specific to the occurrence of the problem.
-* `instance` provides a URI reference that identifies the specific occurrence of the problem.
-* `allowedCharacters` is an example property specificly added to the problem.
+- `type` specifies a URI that uniquely identifies the type of the problem.
+- `title` provides a short, human-readable summary of the problem.
+- `status` indicates the HTTP status code for the response.
+- `detail` gives a human-readable explanation specific to the occurrence of the problem.
+- `instance` provides a URI reference that identifies the specific occurrence of the problem.
+- `allowedCharacters` is an example property specificly added to the problem.
 
 Using the above structured message format, APIs can now reliably communicate problems to clients to enable better error handling.
 
@@ -82,7 +86,7 @@ builder.Services.AddProblemDetails();
 app.UseExceptionHandler();
 ```
 
-Using this option, the API will generate a problem details response for all HTTP client and server error responses that *don't have body content yet*.
+Using this option, the API will generate a problem details response for all HTTP client and server error responses that _don't have body content yet_.
 
 You can also customise the `ProblemDetailsService` behaviour - read more about it in the following link [Handle errors in ASP.NET Core | Customise Problem Details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#customize-problem-details).
 
@@ -123,7 +127,7 @@ Error messages should contain sufficient information that a developer or consumi
 
 ```json
 {
-    "errorMessage": "An error has occurred."
+  "errorMessage": "An error has occurred."
 }
 ```
 
@@ -133,7 +137,7 @@ Figure: Bad example - The error message does not contain information that can be
 
 ```json
 {
-    "errorMessage": "Client ID is a required field. Please provide a Client ID."
+  "errorMessage": "Client ID is a required field. Please provide a Client ID."
 }
 ```
 
@@ -185,7 +189,7 @@ A tracking or correlation ID will allow the consuming clients to provide the AP
 
 ```json
 {
-    "errorMessage": "An error has occurred. Please contact technical support"
+  "errorMessage": "An error has occurred. Please contact technical support"
 }
 ```
 
@@ -195,8 +199,8 @@ Figure: Bad example - No tracking or correlation ID is provided
 
 ```json
 {
-    "errorMessage": "An error has occurred. Please contact technical support",
-    "errorId": "3022af02-482e-4c06-885a-81d811ce9b34"
+  "errorMessage": "An error has occurred. Please contact technical support",
+  "errorId": "3022af02-482e-4c06-885a-81d811ce9b34"
 }
 ```
 
@@ -210,10 +214,10 @@ Providing a URI to an additional help resources as part of your request will all
 
 ```json
 {
-  "ErrorType": "DoesNotExist",
-  "Id": "3022af02-482e-4c06-885a-81d811ce9b34",
-  "Message": "No Client with a ID of 999999999 was found",
-  "StatusCode": 404
+  "ErrorType": "DoesNotExist",
+  "Id": "3022af02-482e-4c06-885a-81d811ce9b34",
+  "Message": "No Client with a ID of 999999999 was found",
+  "StatusCode": 404
 }
 ```
 
@@ -223,11 +227,11 @@ Figure: Bad example - No help link provided
 
 ```json
 {
-  "ErrorType": "DoesNotExist",
-  "HelpLink": "http://www.myapiapplication/api/help/doesnotexist",
-  "Id": "3022af02-482e-4c06-885a-81d811ce9b34",
-  "Message": "No Client with a ID of 999999999 was found",
-  "StatusCode": 404
+  "ErrorType": "DoesNotExist",
+  "HelpLink": "http://www.myapiapplication/api/help/doesnotexist",
+  "Id": "3022af02-482e-4c06-885a-81d811ce9b34",
+  "Message": "No Client with a ID of 999999999 was found",
+  "StatusCode": 404
 }
 ```
 

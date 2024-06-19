@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you explicitly declare member accessibility for all classes and methods in your C# code to improve readability and maintainability?
 type: rule
 title: Do you declare member accessibility for all classes?
 uri: declare-member-accessibility-for-all-classes
@@ -12,6 +13,7 @@ created: 2018-04-25T22:45:00.000Z
 archivedreason: null
 guid: b1ac5f48-0e88-4eed-8a13-c25ca5a87c6a
 ---
+
 Not explicitly specifying the access type for members of a structure or class can be misleading for other developers. The default member accessibility level for classes and structs in Visual C# .NET is always private. In Visual Basic .NET, the default for classes is private, but for structs is public.
 
 <!--endintro-->
@@ -21,7 +23,7 @@ Match MatchExpression(string input, string pattern)
 ```
 
 ::: bad
-Figure: Bad - Method without member accessibility declared 
+Figure: Bad - Method without member accessibility declared
 
 :::
 

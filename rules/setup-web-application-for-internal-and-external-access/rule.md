@@ -1,17 +1,17 @@
 ---
+seoDescription: Setup internal and external access to a web application with default HTTP, secure HTTPS, and reverse proxy configurations for seamless sharing.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you setup web application for internal and external access
 guid: 5724bda1-f138-449a-9a9f-38fb2f9ef752
 uri: setup-web-application-for-internal-and-external-access
 created: 2016-05-20T06:15:03.0000000Z
 authors:
-- title: Mark Liu
-  url: https://ssw.com.au/people/mark-liu
+  - title: Mark Liu
+    url: https://ssw.com.au/people/mark-liu
 related: []
 redirects:
-- do-you-setup-web-application-for-internal-and-external-access
-
+  - do-you-setup-web-application-for-internal-and-external-access
 ---
 
 - default zone should be over http, this is so search can access it over non-secure connection

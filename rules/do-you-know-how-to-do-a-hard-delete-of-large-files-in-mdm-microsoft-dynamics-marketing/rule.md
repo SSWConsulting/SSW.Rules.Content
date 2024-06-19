@@ -1,17 +1,17 @@
 ---
+seoDescription: Delete large files efficiently in MDM by overwriting with a small file before deletion, freeing up storage space without losing data.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to do a hard delete of large files in MDM (Microsoft Dynamics Marketing)?
 guid: 0e717199-7b4f-4cd8-8981-9dbd568f0d81
 uri: do-you-know-how-to-do-a-hard-delete-of-large-files-in-mdm-microsoft-dynamics-marketing
 created: 2014-10-16T21:49:58.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-how-to-do-a-hard-delete-of-large-files-in-mdm-(microsoft-dynamics-marketing)
-
+  - do-you-know-how-to-do-a-hard-delete-of-large-files-in-mdm-(microsoft-dynamics-marketing)
 ---
 
 MDM doesn’t do a hard delete, so if you try to delete a 2GB file, the space will still be being used up, sitting on your precious (and limited) online storage space.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best way to learn and master new technologies through mentorship, a proven approach that accelerates developer skills and keeps you ahead of the curve.
 type: rule
 title: Do you know the best way to learn?
 uri: the-best-way-to-learn

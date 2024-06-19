@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure quote accuracy by confirming that it includes all specified requirements and details.
 type: rule
 title: Do you confirm a quote includes what you have actually asked for?
 uri: confirm-quotes
@@ -10,16 +11,17 @@ authors:
 created: 2023-07-19T18:23:56.947Z
 guid: a4207a5e-a92c-43ba-9e3b-4fce5c01ca6c
 ---
-Too often a quote is requested via an email with the requirements specified. E.g. *“Please price painting all the columns in the garage white”* or *“Install a new media office with bi-fold doors”* and then contractor or tradesman, sends a quote, and then it is eagerly approved because the price looks good.  
 
-The contractor then does the work, but then the person realizes they didn’t paint all the columns in the carpark white, or didn’t install bi-fold doors on the media office, or whatever was specified in that email. 
+Too often a quote is requested via an email with the requirements specified. E.g. _“Please price painting all the columns in the garage white”_ or _“Install a new media office with bi-fold doors”_ and then contractor or tradesman, sends a quote, and then it is eagerly approved because the price looks good.
+
+The contractor then does the work, but then the person realizes they didn’t paint all the columns in the carpark white, or didn’t install bi-fold doors on the media office, or whatever was specified in that email.
 
 <!--endintro-->
 
-So, you call up the tradesman and say: *“You need to come back and paint the 3 columns in the rear corner of the car park”* or *“You need to change the doors as you installed regular doors in the media office when I specified bi-fold doors”*. 
+So, you call up the tradesman and say: _“You need to come back and paint the 3 columns in the rear corner of the car park”_ or _“You need to change the doors as you installed regular doors in the media office when I specified bi-fold doors”_.
 
-They say: *“Check the quote. We only priced 12 columns, not 15”* or “Nice try! We didn’t price bi-fold doors.” 
+They say: _“Check the quote. We only priced 12 columns, not 15”_ or “Nice try! We didn’t price bi-fold doors.”
 
-And so, when you check the quote you learn the contractor completely ignored your detailed email request, quoted something different and then it was approved.  
+And so, when you check the quote you learn the contractor completely ignored your detailed email request, quoted something different and then it was approved.
 
-The best way to fix this problem is to request the contractor to give a confirmation that *“The quote includes everything in {{ EMAIL SUBJECT }} from {{ DATE }}”.*
+The best way to fix this problem is to request the contractor to give a confirmation that _“The quote includes everything in {{ EMAIL SUBJECT }} from {{ DATE }}”._

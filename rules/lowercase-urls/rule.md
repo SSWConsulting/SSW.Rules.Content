@@ -1,4 +1,5 @@
 ---
+seoDescription: Create consistent and user-friendly URLs by sticking to lowercase letters and avoiding mixed case. This helps search engines and servers understand your website's structure and improves search ranking.
 type: rule
 archivedreason: null
 title: Do you use lowercase URLs?
@@ -8,16 +9,16 @@ created: 2023-06-27T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: 
-- create-friendly-short-urls
-- use-dashes-in-urls
+related:
+  - create-friendly-short-urls
+  - use-dashes-in-urls
 redirects: []
 ---
 
-When creating URLs, it's important to stick to lowercase letters. Some search engines and servers see URLs as case-sensitive, which means you cant use uppercase and lowercase URLs interchangably. 
+When creating URLs, it's important to stick to lowercase letters. Some search engines and servers see URLs as case-sensitive, which means you cant use uppercase and lowercase URLs interchangably.
 This is especially problematic when URLs that only differ in case lead to the same page, this can hurt your site's search ranking as search engines often penalize duplicate content.
 
-Also, using mixed case URLs can add confusion for users. 
+Also, using mixed case URLs can add confusion for users.
 
 ::: bad
 northwind.com/Flights/AustraliaToNZ

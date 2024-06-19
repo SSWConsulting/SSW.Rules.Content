@@ -1,6 +1,7 @@
 ---
+seoDescription: Collaborate across timezones with minimal overlap by handing over tasks daily through thorough documentation and communication.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to collaborate across time zones with minimal overlap?
 guid: f7e84818-b1f9-43b1-8ece-4786d3ddee31
 uri: collaborate-across-timezones
@@ -10,7 +11,6 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
 related: []
 redirects: []
-
 ---
 
 Timezones can make communication and collaboration difficult, but there is a silver lining! If there is a time-sensitive task you can asynchronously collaborate and get it done faster. Imagine a relay race, where you pass the baton to the next runner. This is how you should think about collaborating across timezones.
@@ -22,11 +22,11 @@ You should also list the remaining tasks and ask them to reply if they have comp
 If there is business hours overlap, get a [checked by](/checked-by-xxx) from the recipient.
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | {{ COWORKER IN OTHER TIMEZONE }} |
+| To: | {{ COWORKER IN OTHER TIMEZONE }} |
 | Subject: | {{ SUBJECT }} |  
-::: email-content  
+::: email-content
 
 ### Hi {{ COWORKER IN OTHER TIMEZONE }}
 

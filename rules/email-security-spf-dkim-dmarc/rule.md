@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance email security and authenticity with SPF, DKIM, and DMARC protocols in Exchange Online.
 type: rule
 title: Do you use SPF, DKIM and DMARC for email security?
 uri: email-security-spf-dkim-dmarc
@@ -10,6 +11,7 @@ related:
 created: 2023-11-02T04:12:53.453Z
 guid: 697d3978-0fb6-4266-bb63-2a6055ab57e4
 ---
+
 Email is a critical communication tool for businesses and individuals worldwide. However, it’s also a common vector for cyber threats like phishing and spoofing.
 
 Three ways these threats are combatted are **Sender Policy Framework (SPF)**, **DomainKeys Identified Mail (DKIM)**, and **Domain-based Message Authentication, Reporting & Conformance (DMARC)**.
@@ -36,8 +38,10 @@ DKIM provides an encryption key and digital signature that verifies that an emai
 ### Basic Steps for Implementing DKIM in Exchange Online:
 
 1. Generate a pair of cryptographic keys - one private and one public.
+
 - The private key is kept secure on your mail server.
 - The public key is added to the DNS records for your domain.
+
 2. When an email is sent, it is signed with the private key.
 
 See [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/office-365-security/email-authentication-dkim-configure?view=o365-worldwide) for more details on how to set this up in Exchange Online.
@@ -61,8 +65,8 @@ By implementing these three protocols in Exchange Online, you can significantly 
 
 Some companies will ask you to add their domain to an allow list, to avoid their emails getting marked as spam. Similarly, you might have internal emails that are sent from a 3rd party service, such as a contact form on your website - and to stop these emails getting marked as spam, it can be tempting to add your own domain to an allow list.
 
-This is a bad idea, as it allows emails to bypass your spam filters. This means emails that are spoofing your domain name (or another domain in your allow list) will get through. 
+This is a bad idea, as it allows emails to bypass your spam filters. This means emails that are spoofing your domain name (or another domain in your allow list) will get through.
 
-If **SPF**, **DKIM** and **DMARC** are set up correctly, there's no need to add domains to an allow list. 
+If **SPF**, **DKIM** and **DMARC** are set up correctly, there's no need to add domains to an allow list.
 
 To send from a 3rd party, there are many ways to make sure your emails are authorized. For example, for a WordPress website you can use [FluentSMTP](https://fluentsmtp.com/) to send emails through Microsoft 365 (or another SMTP server).

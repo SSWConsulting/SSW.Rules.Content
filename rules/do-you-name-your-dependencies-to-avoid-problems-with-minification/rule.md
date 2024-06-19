@@ -1,26 +1,26 @@
 ---
+seoDescription: Name dependencies to avoid problems with minification in Angular, ensuring correct injection of services even after code optimization.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you name your dependencies to avoid problems with minification?
 guid: a234f979-bc20-4415-8e9a-caf2b9cfc4fc
 uri: do-you-name-your-dependencies-to-avoid-problems-with-minification
 created: 2014-10-07T14:42:09.0000000Z
 authors:
-- title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
+  - title: Ben Cull
+    url: https://ssw.com.au/people/ben-cull
 related:
-- do-you-know-the-common-design-patterns-part-2-example
+  - do-you-know-the-common-design-patterns-part-2-example
 redirects: []
-
 ---
 
-Angular uses parameter names to determine which dependencies to inject. When you minify your angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly. 
+Angular uses parameter names to determine which dependencies to inject. When you minify your angular code, the parameter names are changed, so you must name your dependencies to ensure they work correctly.
 
 <!--endintro-->
 
 The standard way to inject your dependencies looks a little like the following. We're defining a controller in this case.
 
-``` js
+```js
 phonecatApp.controller('PhoneListCtrl', function ($scope, $http) {...}
 ```
 
@@ -32,7 +32,7 @@ When this code is minified the parameters are renamed. This means that the depe
 
 You can fix this in 2 ways. The first one uses the `$inject` property to identify the name of the parameters in order:
 
-``` js
+```js
 function PhoneListCtrl($scope, $http) {...}
 PhoneListCtrl.$inject = ['$scope', '$http'];
 phonecatApp.controller('PhoneListCtrl', PhoneListCtrl);
@@ -44,7 +44,7 @@ Code: Good example - This code names the parameters using the $inject property
 
 The second and **preferred** option is to pass an array containing the names, followed by the function itself. Take a look:
 
-``` js
+```js
 phonecatApp.controller('PhoneListCtrl', ['$scope', '$http', function($scope, $http) {...}]);
 ```
 

@@ -1,18 +1,18 @@
 ---
+seoDescription: Make your site easy to maintain by providing an 'Edit' link on each page for database-driven pages. This allows for quick and easy updates when needed.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you make your site easy to maintain?
 guid: 2cc65b39-79f2-43bf-b232-4742fd172a0a
 uri: make-your-site-easy-to-maintain
 created: 2016-08-11T18:32:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
-- using-markdown-to-store-your-content
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - using-markdown-to-store-your-content
 redirects:
-- do-you-make-your-site-easy-to-maintain
-
+  - do-you-make-your-site-easy-to-maintain
 ---
 
 If you have database driven pages on your website, you need a way of updating the data quickly and easily. **Each page should have an 'Edit' link** - only visible when the site is running internally or in administrator mode - that takes you directly to the page for editing the content on that page.
@@ -21,9 +21,9 @@ The exception to this is if you are using open-source data. [SSW.People](https:/
 
 <!--endintro-->
 
-![Figure: "New" and "Edit" links allow SSW Employees to maintain testimonial entries easily](MaintenanceDemo.gif)  
+![Figure: "New" and "Edit" links allow SSW Employees to maintain testimonial entries easily](MaintenanceDemo.gif)
 
-![Figure: "Edit" button on WordPress admin bar](wordpress-edit.png)  
+![Figure: "Edit" button on WordPress admin bar](wordpress-edit.png)
 
 ::: good  
 ![Figure: Good Example - "Edit" button on an Open Source page](github-edit.png)  

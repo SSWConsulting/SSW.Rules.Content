@@ -1,4 +1,5 @@
 ---
+seoDescription: Harness customer feedback to boost client satisfaction and optimize your business processes with Dynamics 365's Customer Voice Surveys.
 type: rule
 title: Do you use Customer Voice for feedback surveys?
 uri: use-customer-voice-for-feedback-surveys
@@ -8,6 +9,7 @@ authors:
 created: 2022-04-04T21:31:22.712Z
 guid: b52ce649-7dd7-4fab-93d1-650e22bde0a6
 ---
+
 You're doing some great work for your client... or you think you are, but how do you know for sure how happy they are?
 
 Customer feedback is something that most companies do not harness, and is key data that you should be looking at. It is as important as your profit and loss.
@@ -16,9 +18,9 @@ A focus on customer feedback will give your customers’ experience more of a we
 
 Main options available for this are:
 
-* MailChimp
-* Salesforce Surveys and Feedback Management
-* Dynamics Customer Voice **(recommended if you're already using Dynamics)**
+- MailChimp
+- Salesforce Surveys and Feedback Management
+- Dynamics Customer Voice **(recommended if you're already using Dynamics)**
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sbMReFrVYbs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -50,9 +52,9 @@ If you are running Scrum projects, and your clients are used to doing Sprint Ret
 
 Surveys can be sent manually, but for consistent value, you should have automated triggers in place. This could be after any significant milestone, and it’s best if it’s something easily automated: e.g.
 
-* After a Spec Review (i.e. when you mark an Opportunity as won or lost)
-* At billing milestones (e.g. $50k if your usual project sizes are > $100k... i.e. after 2 Sprints)
-* At project completion (manually triggered from Dynamics | Account | Project page in the ribbon)
+- After a Spec Review (i.e. when you mark an Opportunity as won or lost)
+- At billing milestones (e.g. $50k if your usual project sizes are > $100k... i.e. after 2 Sprints)
+- At project completion (manually triggered from Dynamics | Account | Project page in the ribbon)
 
 Note: Avoid sending these at high pressure points, when you're already asking them for a decision, e.g. too early in the sales process.
 
@@ -60,7 +62,7 @@ Note: Avoid sending these at high pressure points, when you're already asking th
 
 ### Receiving Responses
 
-The survey responses are viewable in the Dynamics | Survey Responses section, and stats like customer satisfaction  (CSAT) metrics are here.
+The survey responses are viewable in the Dynamics | Survey Responses section, and stats like customer satisfaction (CSAT) metrics are here.
 
 Or you can see individual responses from their respective Account’s page.
 

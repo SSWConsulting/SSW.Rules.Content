@@ -1,10 +1,11 @@
 ---
+seoDescription: Learn how to use standalone components in Angular, reducing boilerplate code and simplifying component creation.
 type: rule
 title: Do you use standalone components?
 guid: 2088c2e1-7243-45cc-b812-ee228856ddc1
 uri: standalone-components
 created: 2023-08-24T19:01:24.0000000Z
-authors: 
+authors:
   - title: Anton Polkanov
     url: https://www.ssw.com.au/people/anton-polkanov/
   - title: Chris Clement
@@ -27,7 +28,7 @@ To make a component standalone, set `standalone: true`
 ```javascript
 @Component({
   standalone: true,
-  selector: 'my-component',
+  selector: "my-component",
   imports: [FooComponent],
   template: `
     ...

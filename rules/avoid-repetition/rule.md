@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid repeating elements in your content to promote clear communication and maintainable writing practices, as excessive repetition can hinder comprehension and create visual clutter.
 type: rule
 title: DRY - Do you avoid repeated elements in content?
 uri: avoid-repetition
@@ -25,7 +26,7 @@ This is especially valid for words in lists, but also applies to different types
 
 ::: greybox
 Following this rule:
-  
+
 * Is important to help you increase productivity
 * Is important to help you save time
 * Is important to help you reduce stress
@@ -37,7 +38,7 @@ Bad example – Repeating words... Not following DRY :(
 
 ::: greybox
 Following this rule is important to help you:
-  
+
 * Increase productivity
 * Save time
 * Reduce stress
@@ -85,9 +86,9 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 * Requires effort to implement
 * May take time to adjust
 * Can be challenging to maintain
-:::
-::: good
-Good example – Using the DRY principle
-:::
+  :::
+  ::: good
+  Good example – Using the DRY principle
+  :::
 
 Following the DRY principle by avoiding excessive repetition of words/emojis helps to create content that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.

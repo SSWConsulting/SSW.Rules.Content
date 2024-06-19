@@ -1,4 +1,5 @@
 ---
+seoDescription: Communicate effectively without lengthy "Walls of Text" by using screenshots as a concise and efficient way to convey messages.
 type: rule
 title: Do you use screenshots instead of a 'Wall of Text'?
 uri: screenshots-avoid-walls-of-text
@@ -12,6 +13,7 @@ related:
   - screenshots-add-branding
   - screenshots-tools
   - change-from-x-to-y
+  - use-images-to-replace-words
 redirects:
   - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
 created: 2009-03-25T05:07:01.000Z
@@ -23,12 +25,9 @@ Communicating effectively often involves moving away from lengthy 'Walls of Text
 
 Consider the following points:
 
-* Efficiency - Screenshots enable people cc’ed to check the task by quickly skimming, not needing to click on links.
-* Capture the moment - Tasks can take time to get to, often weeks or months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at.
-* Clear and concise - Screenshots are like the ‘x’ in  the useful format of change x to y (see related rules) Make the task as clear as possible!
-
-You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
-The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.
+- **Efficiency** - Screenshots enable people cc’ed to check the task by quickly skimming, not needing to click on links
+- **Capture the moment** - Tasks can take time to get to, often weeks or months! Reports and dashboards change over time and without a screenshot, a developer probably won't know what the person was looking at
+- **Clear and concise** - Screenshots are like the ‘x’ in the useful format of change x to y (see related rules) Make the task as clear as possible!
 
 <!--endintro-->
 
@@ -49,6 +48,10 @@ It's like zooming in on the important bits, making them bigger and friendlier fo
 :::
 
 ### Tip #2: Add a balloon when you need to point at a specific area of your screenshot
+
+You can take screen captures to the next level by adding balloons that have the appropriate text (aka speech bubbles). Sometimes you need only the text in the balloon and no text in the email.
+
+The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.
 
 ::: bad
 ![Figure: Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
@@ -78,10 +81,10 @@ See more details on [how to configure balloons' branding in Fullshot and Snagit]
 
 In other words, you can use:
 
-* Plain screenshots
-* Balloons
-* Circles or boxes
-* Arrows
+- Plain screenshots
+- Balloons
+- Circles or boxes
+- Arrows
 
 They are all useful depending on the scenario. Be wise and try to make it as clear as possible to the reader.
 
@@ -92,7 +95,6 @@ Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
 **Figure: Betsy Weber Techsmith - Part 1 - Creator of Snagit. See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
 
-
 ### Tip #5: Pay attention to the arrow tail
 
 When you use an arrow in your screenshot, make sure you start the arrow from an appropriate place.
@@ -102,10 +104,5 @@ When you use an arrow in your screenshot, make sure you start the arrow from an 
 :::
 
 ::: good
-![Figure: Good Example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](ArrowGoodExample.png)
+![Figure: Good example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](ArrowGoodExample.png)
 :::
-
-## Do you know the best tools?
-
-Follow the rule [Screenshots - Do you know the best tools?](/screenshots-tools)
-

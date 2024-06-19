@@ -1,4 +1,5 @@
 ---
+seoDescription: Programs should provide a warning before exiting to prevent unexpected closures.
 type: rule
 title: Do you provide a warning before the program exits?
 uri: do-you-provide-a-warning-before-the-program-exits
@@ -9,6 +10,7 @@ created: 2012-11-27T03:10:56.000Z
 archivedreason: null
 guid: 46cc1b38-8001-481a-b8ca-98ea6dc45398
 ---
+
 A product should not close without providing a warning. We use the following message box to warn the user before closing a program:
 
 <!--endintro-->
@@ -18,15 +20,15 @@ A product should not close without providing a warning. We use the following mes
 :::
 
 ```cs
-private void OnExit(object sender) 
+private void OnExit(object sender)
 {
-    EventHandler handler = ExitRequest; 
+    EventHandler handler = ExitRequest;
 
-    if (handler!= null ) 
-    { 
+    if (handler!= null )
+    {
         handler(sender, EventArgs.Empty);
         return;
-    } 
+    }
 
     string closeTitle = string.Format("Exiting{0}", Application.ProductName);
     string closeMessage = string.Format("Are you sure you want to exit {0}", Application.ProductName);
@@ -34,9 +36,9 @@ private void OnExit(object sender)
     DialogResult result = MessageBox.Show(closeMessage, closeTitle, MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
 
     if (result == DialogResult.Yes)
-    { 
+    {
         Application.Exit();
-    } 
+    }
 }
 ```
 

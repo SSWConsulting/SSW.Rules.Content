@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the power of dictation in Microsoft Word, PowerPoint, and Outlook! Use voice commands to create emails, reports, and more with ease.
 type: rule
 title: Do you use Dictate for emails?
 uri: dictate-emails
@@ -10,6 +11,7 @@ authors:
 created: 2021-08-10T20:02:04.904Z
 guid: b00e956e-3770-4464-8101-cce4d6b8bc05
 ---
+
 Everyone knows that you can use Google Assistant or Siri to talk to your phone, but not everyone knows that you can also use dictate in Microsoft Word, PowerPoint and Outlook.
 
 <!--endintro-->
@@ -20,17 +22,17 @@ You can choose whether you want automatic punctuation or not, and it's quite goo
 
 Key commands that you will likely need include:
 
-* New/next paragraph
-* Backspace
-* Delete/scrap/undo (removes last word)
-* Delete/scrap/undo that (removes last sentence)
-* Delete/scrap/undo the last x characters/words/lines/sentences
-* Start list
-* Start numbered list
-* New/next line
-* Exit list
-* Bold/italicise/underline \<word or phrase you want formatted\>
-* Exit dictation
+- New/next paragraph
+- Backspace
+- Delete/scrap/undo (removes last word)
+- Delete/scrap/undo that (removes last sentence)
+- Delete/scrap/undo the last x characters/words/lines/sentences
+- Start list
+- Start numbered list
+- New/next line
+- Exit list
+- Bold/italicise/underline \<word or phrase you want formatted\>
+- Exit dictation
 
 ![Figure: For a full list of available commands, click here (the box that pops up at the bottom of the screen while you dictate)](dictate-more-commands.png)
 

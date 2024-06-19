@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Teams search helps you quickly find files and collaborate on projects by searching teams, channels, messages, people, and files.
 type: rule
 title: Do you know how to use Teams Search?
 uri: how-to-use-teams-search
@@ -20,11 +21,11 @@ Microsoft Teams search is designed to help you quickly find the files you are co
 
 From the main search box, you can search for:
 
-* Teams
-* Channels
-* Messages
-* People
-* Files
+- Teams
+- Channels
+- Messages
+- People
+- Files
 
 ### Be aware of Teams Search limitations
 
@@ -34,7 +35,7 @@ From the main search box, you can search for:
 
 If you start typing in the search box, you will see a dropdown with the main results that matches your query divided by type, prioritizing **Teams** and **Channels**:
 
-![Figure: Search results for "marketing"](teams-search-dropdown.png)  
+![Figure: Search results for "marketing"](teams-search-dropdown.png)
 
 ::: info
 **Tip:** Apart from the little heading, as per the image above, you can recognize a **Teams** result when it only shows up the title, while a **Channel** result shows the title with the name of the associated **Team** underneath.
@@ -42,7 +43,7 @@ If you start typing in the search box, you will see a dropdown with the main res
 
 Once you hit "enter", you will be directed to **all** results, separated by **Messages**, **People**, and **Files** tabs:
 
-![Figure: Use the 3 built-in tabs to search through the different types of results](teams-search-tabs.png)  
+![Figure: Use the 3 built-in tabs to search through the different types of results](teams-search-tabs.png)
 
 ::: info
 **Tip:** After hiting "enter", to see the **Teams** and **Channels** results, simply click the search box again.
@@ -50,10 +51,10 @@ Once you hit "enter", you will be directed to **all** results, separated by **Me
 
 You may use built-in filters to refine your search under each of the tabs:
 
-![Figure: Built-in filters for Messages](teams-search-filter.png)  
+![Figure: Built-in filters for Messages](teams-search-filter.png)
 
 ::: info
-**Important:** Even though Teams search gives you quick access to all your messages and documents; the search is scoped to **Teams only**, which means you cannot search for files hosted on SharePoint, OneDrive, other Office365 products (E.g. Delve/UserProfile), or external sources (E.g. sugarlearning.com). 
+**Important:** Even though Teams search gives you quick access to all your messages and documents; the search is scoped to **Teams only**, which means you cannot search for files hosted on SharePoint, OneDrive, other Office365 products (E.g. Delve/UserProfile), or external sources (E.g. sugarlearning.com).
 
 When you need to do a more extensive search, it is advised to use [SharePoint search](/sharepoint-search) instead.
 :::

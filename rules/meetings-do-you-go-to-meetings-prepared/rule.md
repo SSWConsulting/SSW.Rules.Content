@@ -1,8 +1,9 @@
 ---
+seoDescription: Before attending a meeting, prepare by researching the client and having answers to generic questions, allowing for meaningful conversation.
 type: rule
 title: Meetings - Do you prepare for your meetings?
 uri: meetings-do-you-go-to-meetings-prepared
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
@@ -12,7 +13,7 @@ archivedreason: null
 guid: b9ceeb3e-11fa-46e5-bfbe-6bed2057b2b8
 ---
 
-Before you attend a meeting you must come prepared with as much information as possible about the client; meaning **no unnecessary questions**. You should already have the answers to most generic questions. Extensive research is impressive to clients.  
+Before you attend a meeting you must come prepared with as much information as possible about the client; meaning **no unnecessary questions**. You should already have the answers to most generic questions. Extensive research is impressive to clients.
 
 <!--endintro-->
 

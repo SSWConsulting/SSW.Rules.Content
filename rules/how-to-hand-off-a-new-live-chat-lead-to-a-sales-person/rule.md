@@ -1,4 +1,5 @@
 ---
+seoDescription: Hand off new live chat leads to salespeople using Zendesk's support ticket feature, ensuring seamless customer service.
 type: rule
 title: Do you know how to hand off a new live chat lead to a sales person using
   support?
@@ -18,8 +19,8 @@ If you’re chatting with a client on Zendesk chat, and you realize you’re goi
 
 <!--endintro-->
 
-![Figure: Chatter can create a ticket directly from the chat window](zendesk-handoff-1-min.jpg)  
+![Figure: Chatter can create a ticket directly from the chat window](zendesk-handoff-1-min.jpg)
 
-![Figure: ticket is then created with chat history appended](zendesk-handoff-2-min.jpg)  
+![Figure: ticket is then created with chat history appended](zendesk-handoff-2-min.jpg)
 
 **Note:** You can also integrate with Dynamics 365 (aka CRM) to pass over lead details from Zendesk straight to a Dynamics 365 lead.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how embeddings revolutionize text comparison and classification, streamlining tasks with vector-based similarities.
 type: rule
 title: Do you use embeddings?
 uri: use-embeddings
@@ -47,7 +48,7 @@ Other databases such as Postgres have plugins to handle vectors.
 
 ### How do we get embeddings?
 
-OpenAI provides specialised embedding models that are accessible via an API, similar to the GPT API. These models are generally cheaper than the GPT models, meaning large amounts of text can be embedded cheaply. 
+OpenAI provides specialised embedding models that are accessible via an API, similar to the GPT API. These models are generally cheaper than the GPT models, meaning large amounts of text can be embedded cheaply.
 You can find more information on these models and how to access them [here](https://platform.openai.com/docs/guides/embeddings/embedding-models).
 
 There are also open source and self hosted models available at [Hugging Face](https://huggingface.co/models?other=embeddings).

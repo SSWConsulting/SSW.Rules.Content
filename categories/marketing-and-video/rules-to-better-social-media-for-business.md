@@ -18,7 +18,7 @@ index:
 - consistent-content-across-social-media
 - re-purpose-your-pillar-content-for-social-media
 - posts-with-images-are-more-engaging
-- do-you-know-to-use-hash-tags
+- use-hashtags
 - find-the-best-hashtags
 - text-limit-for-images
 - create-friendly-short-urls

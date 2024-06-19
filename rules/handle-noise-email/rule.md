@@ -1,15 +1,15 @@
 ---
+seoDescription: Learn how to manage noise emails from Microsoft Teams, GitHub, Azure Devops and more with simple rules in Outlook.
 type: rule
 title: Do you know how to handle noise email?
 guid: e0d0429d-79a7-4005-a683-20f4a6671d08
 uri: handle-noise-email
 created: 2023-10-25T04:05:17Z
-related: 
+related:
   - clean-your-inbox-per-topics
-authors: 
+authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh/
-
 ---
 
 <!--endintro-->

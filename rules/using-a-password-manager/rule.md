@@ -1,4 +1,5 @@
 ---
+seoDescription: Use a password manager to securely store and automatically enter complex passwords across all devices and platforms.
 type: rule
 title: Passwords – Do you use a password manager?
 uri: using-a-password-manager
@@ -9,7 +10,6 @@ created: 2022-03-17T05:24:13.787Z
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/password-manager](/rules/password-manager)
 guid: 53b76275-8c76-4118-afea-900d9febc66e
 ---
-
 
 The best passwords in the world are the ones you can never possibly remember. Computer generated passwords, with a length of at least 16 characters, offer the most protection. These passwords look something like this:
 
@@ -23,9 +23,9 @@ This is obviously not something you can realistically type in every time you nee
 
 Some popular options include:
 
-* 1Password
-* LastPass
-* Bitwarden
-* KeePass
+- 1Password
+- LastPass
+- Bitwarden
+- KeePass
 
 They each have their pros and cons and you should investigate them each thoroughly and decide which is the best one for you.

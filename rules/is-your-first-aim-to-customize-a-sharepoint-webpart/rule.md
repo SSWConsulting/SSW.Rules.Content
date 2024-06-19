@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Is your first aim to customize a SharePoint webpart?
+title: Do you aim to customize a SharePoint webpart first?
 uri: is-your-first-aim-to-customize-a-sharepoint-webpart
 authors:
   - title: Adam Cogan
@@ -15,31 +15,32 @@ guid: 8b78be7a-6ce0-4391-b4be-8650f0a0ba4d
 ---
 
 You should always try to configure existing out-of-the-box SharePoint webparts before you roll your own.
- The Content Query web part in particular is very flexible – allowing contents from different lists to be presented in different ways. 
+
+The Content Query web part in particular is very flexible – allowing contents from different lists to be presented in different ways.
 
 <!--endintro-->
 
 These are some of the fields in the CQWP that are often configured:
 
-**MainXslLink, ItemXslLink:**
+### MainXslLink, ItemXslLink
 
 These two controls the main and item XSL file paths.  Set these to your new XSL file under /Style Library/XSL Style Sheets/SSW/SSWMainContent.xsl and SSWItem.xsl files
 
-**ItemLimit**
+### ItemLimit
 
 The default number of items that are displayed on a Content Query web part is 15.  With unlimited pages.  Sometimes you want this number to be a lot higher (or -1 for no limit).
 
-Note: If you do make this unlimited - make sure your page is designed to grow infinitely or the layout may look strange.
+**Note:** If you do make this unlimited - make sure your page is designed to grow infinitely or the layout may look strange.
 
-**CommonViewFields**
+### CommonViewFields
 
-The Content Query web part automatically selects a few of the common fields for any query.  But sometimes you want a particular field that isn't selected by default.  This is when you should use CommonViewFields.
+The Content Query web part automatically selects a few of the common fields for any query.  But sometimes you want a particular field that isn't selected by default. This is when you should use CommonViewFields.
 
-The syntax is "fieldname,fieldtype;"
+The syntax is `fieldname,fieldtype;`
 
 E.g. PublishingContent,PublishingHTML;
 
-**Query and QueryOverride**
+### Query and QueryOverride
 
 The Content Query web part gives the user a lot of flexibility to design the query in the UI toolpart.  However if your needs are perculiar you can use the QueryOverride to skip over defining the query and use your supplied CAML directly.
 
@@ -59,7 +60,9 @@ public class WebPart1 : System.Web.UI.WebControls.WebParts.WebPart
 }
 ```
 
-**Bad Example: Inherit from System.Web.UI.WebControls.WebParts.WebPart**
+::: bad
+Bad example: Inherit from System.Web.UI.WebControls.WebParts.WebPart
+:::
 
 ```csharp
 public class RelatedContentByQueryWebPart:CustomContentByQueryWebPart
@@ -82,4 +85,7 @@ public class RelatedContentByQueryWebPart:CustomContentByQueryWebPart
     }
 }
 ```
-**Good Example: Inherit from CustomContentByQueryWebPart**
+
+::: good
+Good example: Inherit from CustomContentByQueryWebPart
+:::

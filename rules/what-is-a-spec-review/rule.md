@@ -1,4 +1,5 @@
 ---
+seoDescription: A comprehensive solution for your project's stakeholders and a detailed roadmap to transform their ideas into a reality.
 type: rule
 title: Do you know what a Specification Review is?
 uri: what-is-a-spec-review
@@ -13,6 +14,7 @@ redirects: []
 created: 2023-01-23T05:28:14.548Z
 guid: 6cf6fbbc-84bb-413b-9529-8666fb1c8b5c
 ---
+
 You would never build a house without getting an architect to create a plan first. Usually, a specification process is done with the client before beginning work on a project.
 
 <!--endintro-->
@@ -27,33 +29,33 @@ The deliverables for the Specification Review depend upon how large the applicat
 
 ### Requirement analysis
 
-* An architectural roadmap recommending technical solutions
-* A breakdown of the required software application into its core components, likely to include the approximate number of main features (e.g. forms, reports, etc.)
-* An integration plan
-* A deployment strategy
-* An MVP (Minimum Viable Product) will be identified, as well as a wish list - requiring the client to set the priorities for the project by defining what is in and out of scope for the MVP
-* A detailed list of 'issues' associated with the existing system which impact future development and maintenance
-* Hardware and licensed software recommendations
-* Mock-ups if required
+- An architectural roadmap recommending technical solutions
+- A breakdown of the required software application into its core components, likely to include the approximate number of main features (e.g. forms, reports, etc.)
+- An integration plan
+- A deployment strategy
+- An MVP (Minimum Viable Product) will be identified, as well as a wish list - requiring the client to set the priorities for the project by defining what is in and out of scope for the MVP
+- A detailed list of 'issues' associated with the existing system which impact future development and maintenance
+- Hardware and licensed software recommendations
+- Mock-ups if required
 
 ### Product Backlog
 
-* A list of Product Backlog Items (PBIs) will be broken down based on the requirements analysis and the architectural design
-* These PBIs will then be estimated
+- A list of Product Backlog Items (PBIs) will be broken down based on the requirements analysis and the architectural design
+- These PBIs will then be estimated
 
 ### Ballpark $ estimates
 
-* The estimated number of Sprints
-* The estimated number of developers
-* The estimated cost of the project
+- The estimated number of Sprints
+- The estimated number of developers
+- The estimated cost of the project
 
 ::: greybox
 
 These [deliverables](/specification-review-presentation) can be presented as either:
 
-* A high-level PowerPoint presentation
-* A Word document
-* A video presentation
+- A high-level PowerPoint presentation
+- A Word document
+- A video presentation
 
 :::
 
@@ -63,11 +65,11 @@ During the Spec Review process, we create wireframes to give the client a prev
 
 These wireframes are utilized in key stages of the development process:
 
-* The developers talk to the client to gain a deeper understanding of their needs
-* The developers design the wireframes for the client to envisage and sign off
-* These wireframes are the direct reference developers use to work from
-* The developers send the product back to the client to test
-* The developers showcase the final product with a Done Video
+- The developers talk to the client to gain a deeper understanding of their needs
+- The developers design the wireframes for the client to envisage and sign off
+- These wireframes are the direct reference developers use to work from
+- The developers send the product back to the client to test
+- The developers showcase the final product with a Done Video
 
 Let's take a look at a real-world example.
 

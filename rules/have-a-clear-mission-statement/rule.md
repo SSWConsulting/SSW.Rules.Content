@@ -1,4 +1,5 @@
 ---
+seoDescription: Define your organization's mission and purpose to drive marketing efforts and ensure everyone is aligned with overall goals.
 type: rule
 title: Do you have a clear mission statement?
 uri: have-a-clear-mission-statement
@@ -24,9 +25,9 @@ To ensure everyone is on the same page, you can create a mission statement that 
 
 A good mission statement can help in 3 main ways:
 
-* It provides an outline of how the marketing plan should seek to fulfill your overall goals/mission
-* It provides a means of evaluating and screening your marketing plan; e.g. are your daily marketing decisions consistent with the overall mission
-* It provides an incentive to implement the marketing plan, and keep updating and improving it
+- It provides an outline of how the marketing plan should seek to fulfill your overall goals/mission
+- It provides a means of evaluating and screening your marketing plan; e.g. are your daily marketing decisions consistent with the overall mission
+- It provides an incentive to implement the marketing plan, and keep updating and improving it
 
 ![Figure: A clear business mission should include the purpose, value, standard behaviors, strategy, and scope of your business. Having these clearly defined allows your team to always be pushing your overall goals](mission-statement.png)
 

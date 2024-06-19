@@ -1,4 +1,5 @@
 ---
+seoDescription: Useful React Hooks for managing state and DOM interactions, including useContext, useRef, and useReducer.
 type: rule
 title: Do you use these useful React Hooks?
 uri: do-you-use-these-useful-react-hooks
@@ -14,6 +15,7 @@ created: 2023-06-13T17:13:53.000Z
 archivedreason: null
 guid: e14a52b3-31f8-43e5-a6e7-b3f8f0de28ed
 ---
+
 React Hooks streamline state management and lifecycle processes in functional components, resulting in cleaner, more performant code. These are the most common and useful hooks that you should use in your React project:
 
 <!--endintro-->
@@ -23,7 +25,7 @@ React Hooks streamline state management and lifecycle processes in functional co
 The `useState` hook lets you add state to functional components. Call `useState` at the top level of your component to declare one or more state variables.
 
 ```jsx
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
@@ -32,17 +34,14 @@ export default function Counter() {
     setCount(count + 1);
   }
 
-  return (
-    <button onClick={handleClick}>
-      You pressed me {count} times
-    </button>
-  );
+  return <button onClick={handleClick}>You pressed me {count} times</button>;
 }
 ```
+
 **Figure: Using useState for a counter component**
 
 ::: info
-***Naming Convention***:
+**_Naming Convention_**:
 It's a common convention to name state variables using the pattern [**count**, **setCount**] with array destructuring.
 :::
 
@@ -71,21 +70,22 @@ Read more about `useState` on the [offical docs](https://react.dev/reference/rea
 In React functional components, **useEffect** serves as your toolkit to execute side effects, reminiscent of lifecycles in class-based components. Through dependencies, you can control when these effects run, granting granular control over side effect operations.
 
 ```jsx
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export default function Counter() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCount(c => c + 1); 
+      setCount((c) => c + 1);
     }, 1000);
     return () => clearInterval(intervalId);
-  }, []); 
+  }, []);
 
   return <h1>{count}</h1>;
 }
 ```
+
 **Figure: useEffect Count example**
 
 ::: info
@@ -116,15 +116,15 @@ Read more about `useEffect` on the [offical docs](https://react.dev/reference/re
 
 ## 3. **useContext**: Using Context Seamlessly 🌍
 
-`useContext` is a pivotal React Hook, giving you the power to both read and subscribe to context values right within your component. 
+`useContext` is a pivotal React Hook, giving you the power to both read and subscribe to context values right within your component.
 
 ```jsx
-import { createContext, useContext } from 'react';
+import { createContext, useContext } from "react";
 
 // Create a context
 const ThemeContext = createContext({
-  background: 'light',
-  foreground: 'dark',
+  background: "light",
+  foreground: "dark",
 });
 
 function ThemedButton() {
@@ -138,14 +138,14 @@ function ThemedButton() {
 
 export default function App() {
   return (
-    <ThemeContext.Provider value={{ background: 'black', foreground: 'white' }}>
+    <ThemeContext.Provider value={{ background: "black", foreground: "white" }}>
       <ThemedButton />
     </ThemeContext.Provider>
   );
 }
 ```
-**Figure: A Themed button example using useContext**
 
+**Figure: A Themed button example using useContext**
 
 ### ✅ Recommended Usage
 
@@ -171,7 +171,7 @@ Read more about `useContext` on the [offical docs](https://react.dev/reference/r
 The `useRef`` hook in React allows you to access and interact with DOM elements or maintain a mutable reference to values across renders without triggering a re-render.
 
 ```jsx
-import { useRef } from 'react';
+import { useRef } from "react";
 
 function MyComponent() {
   const inputRef = useRef(null);
@@ -188,6 +188,7 @@ function MyComponent() {
   );
 }
 ```
+
 **Figure: On button click focus the input using useRef**
 
 ### ✅ Recommended Usage
@@ -213,13 +214,13 @@ Read more about `useRef` on the [offical docs](https://react.dev/reference/react
 The `useReducer` is a React Hook that lets you add a reducer to your component, providing a more predictable state management method compared to useState.
 
 ```jsx
-import React, { useReducer } from 'react';
+import React, { useReducer } from "react";
 
 function counterReducer(state, action) {
   switch (action.type) {
-    case 'increment':
+    case "increment":
       return { count: state.count + 1 };
-    case 'decrement':
+    case "decrement":
       return { count: state.count - 1 };
     default:
       throw new Error();
@@ -232,12 +233,13 @@ function Counter() {
   return (
     <div>
       <p>Count: {state.count}</p>
-      <button onClick={() => dispatch({ type: 'increment' })}>Increment</button>
-      <button onClick={() => dispatch({ type: 'decrement' })}>Decrement</button>
+      <button onClick={() => dispatch({ type: "increment" })}>Increment</button>
+      <button onClick={() => dispatch({ type: "decrement" })}>Decrement</button>
     </div>
   );
 }
 ```
+
 **Figure: React Counter Component Using useReducer**
 
 ### ✅ Recommended Usage

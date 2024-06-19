@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering Outlook search techniques to find emails quickly and efficiently, just like a pro!
 type: rule
 title: Do you know how to search Outlook effectively?
 uri: searching-outlook-effectively
@@ -12,6 +13,7 @@ authors:
 created: 2022-03-09T05:28:52.197Z
 guid: 77ea51b9-baf8-46c2-9f8a-47f1c07fddc6
 ---
+
 Some people are really good at using Outlook search to find the emails they need, while others have a hard time. Searching for emails can be a real struggle, sometimes you want to find emails from months ago but you aren't sure exactly what to search for.
 
 Being able to find an email quickly in Outlook is an important skill. Here are some tips and tricks about how to find that email buried in your inbox...
@@ -35,33 +37,33 @@ If you get 10 calls a day, you should be using this tip 10 times a day. When you
 
 To get Bob's most recent emails the best thing to do, is to limit Outlook to only your inbox folder and only emails from Bob by:
 
-* Change the folder to "Current Folder"
-* Search for: &nbsp;&nbsp; **from:Bob**
+- Change the folder to "Current Folder"
+- Search for: &nbsp;&nbsp; **from:Bob**
 
 **Note #1:** You can change the folder scoping to fit your specific needs.
-  ![Figure: There are several scoping options available](search-scope.png)
+![Figure: There are several scoping options available](search-scope.png)
 
 **Note #2:** You can change the default to always be "Current Folder".
 
-  ![Figure: Outlook Options for Search, have been changed to “Current Folder”](outlook-search-options.png)
+![Figure: Outlook Options for Search, have been changed to “Current Folder”](outlook-search-options.png)
 
 ### Tip #2: Focus on the person (i.e. to: from: cc: bcc:)
 
 There are many different ways to focus on people. If know that the email was sent to Adam, from Bob, Luke was CC'd and Chris was BCC'd then:
 
-* Search for: &nbsp;&nbsp; **to:Adam from:Bob cc:Luke bcc:Chris**
+- Search for: &nbsp;&nbsp; **to:Adam from:Bob cc:Luke bcc:Chris**
 
 ### Tip #3: Focus on the subject (i.e. subject:)
 
 If you have a good idea of what the email subject contains, then the "subject:" scope can help a lot. For example, if you know that the email had Northwind and Bob in the subject then:
 
-* Search for: &nbsp;&nbsp; **"Subject: Northwind Bob"**
+- Search for: &nbsp;&nbsp; **"Subject: Northwind Bob"**
 
 ### Tip #4: Use negatives (i.e. –)
 
 Negatives are a great way to remove results you know definitely won't be relevant. For example, if you know Luke and Adam frequently work with Bob but weren't involved in that email then:
 
-* Search for: &nbsp;&nbsp; **\-Luke -Adam**
+- Search for: &nbsp;&nbsp; **\-Luke -Adam**
 
 Note: Start with a broad search, and then, when you start seeing irrelevant results about invoicing, add -invoice to your search
 
@@ -69,7 +71,7 @@ Note: Start with a broad search, and then, when you start seeing irrelevant resu
 
 You can search for a direct match in an email using quotation marks. For example, if you know that "days outstanding" was written in the email then:
 
-* Search for: &nbsp;&nbsp; **"days outstanding"**
+- Search for: &nbsp;&nbsp; **"days outstanding"**
 
 Note: Particularly useful when using common words but you know they were written in an exact phrase. E.g. “on top of this”
 
@@ -77,7 +79,7 @@ Note: Particularly useful when using common words but you know they were written
 
 Sometimes you might know a specific thing was referred to, but aren't sure what terminology was used. For example, let's say you know the email mentioned either "web app" or "website". In that case:
 
-* Search for: &nbsp;&nbsp; **"web app" OR website**
+- Search for: &nbsp;&nbsp; **"web app" OR website**
 
 Note: Must be upper case... lowercase “or” won’t work
 
@@ -85,13 +87,13 @@ Note: Must be upper case... lowercase “or” won’t work
 
 Emails can be filtered to only include ones with attachments. If you know the email has an attachment then:
 
-* Search for: &nbsp;&nbsp; **hasattachments:yes**
+- Search for: &nbsp;&nbsp; **hasattachments:yes**
 
 ### Tip #8: Find a file’s content (i.e. attachment:)
 
 File contents can also be searched. If you know that there was an attachment that contained the text "20/07/2021" then:
 
-* Search for: &nbsp;&nbsp; **attachment:"20/07/2021"**
+- Search for: &nbsp;&nbsp; **attachment:"20/07/2021"**
 
 Note: You must enter dates in USA format #ouch
 
@@ -99,7 +101,7 @@ Note: You must enter dates in USA format #ouch
 
 You can filter on a specific time period or date. For example, If you know that the email was received after 07/20/2019 then:
 
-* Search for: &nbsp;&nbsp; **received>"07/20/2019"**
+- Search for: &nbsp;&nbsp; **received>"07/20/2019"**
 
 Note #1: You must enter dates in USA format #ouch
 

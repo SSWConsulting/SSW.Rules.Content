@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost blog traffic and visibility by sharing every blog post on all used social media platforms, featuring a catchy image and explanatory caption to capture attention.
 type: rule
 title: Content - Do you share every blog post?
 uri: share-every-blog-post
@@ -15,6 +16,7 @@ created: 2010-03-12T16:58:32.000Z
 archivedreason: null
 guid: e7215e18-bb8e-4364-92f6-b5cdb7603afc
 ---
+
 You should always publish your blog posts to all social media platforms you use. It helps boost traffic and visibility for your site.
 
 <!--endintro-->

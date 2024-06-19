@@ -10,6 +10,7 @@ index:
 - minimize-skype-distractions
 - avoid-sending-unnecessary-messages
 - update-or-delete-mistakes
+- inform-others-about-chat-message-updates
 - avoid-sarcasm-misunderstanding
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - minimize-unrelated-interruptions

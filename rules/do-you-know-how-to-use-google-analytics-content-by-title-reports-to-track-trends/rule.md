@@ -1,19 +1,20 @@
 ---
+seoDescription: Track trends and improve your website's performance using Google Analytics' Content by Title reports, filtering by keyword terms, and analyzing day-to-day, weekly, and monthly views.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to use Google Analytics "Content by Title" reports to track Trends?
 guid: f3d13af1-589f-4891-b8ed-c792ede0ffe7
 uri: do-you-know-how-to-use-google-analytics-content-by-title-reports-to-track-trends
 created: 2010-09-17T09:38:11.0000000Z
-authors: 
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-Keeping on top of your website analytics can be daunting given the vast number of reports that are available in Google Analytics.  
+Keeping on top of your website analytics can be daunting given the vast number of reports that are available in Google Analytics.
+
 <!--endintro-->
 
 ### 1. Content by Title
@@ -39,7 +40,7 @@ The overall trend of your pageviews should be increasing.
 ### 5. View Segments
 
 ![Figure: Add Segments to compare your traffic sources including Search, Direct and Referral traffic. You can also compare with paid search traffic (if you are using AdWords to drive traffic)](analytics-segments.jpg)
- 
+
 ![Figure: The main segments to keep an eye on are the Search Traffic and Referral Traffic numbers – ideally both should be increasing](analytics-content-search-traffic.jpg)
 
 ![Figure: You can export the report to PDF and Excel, or email it to your boss. Or, print the report and stick on your company noticeboard in a prominent position](analytics-export.jpg)

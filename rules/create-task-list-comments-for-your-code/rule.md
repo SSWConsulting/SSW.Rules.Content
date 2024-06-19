@@ -1,26 +1,26 @@
 ---
+seoDescription: Create task list comments for your code to manage features, corrections, and reminders with ease.
 type: rule
-archivedreason: 
+archivedreason:
 title: Comments - Do you create Task List Comments for your code?
 guid: 7fd9ea97-c399-41b7-821b-b5d4005ca13c
 uri: create-task-list-comments-for-your-code
 created: 2018-04-24T20:53:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- comments-do-you-create-task-list-comments-for-your-code
-
+  - comments-do-you-create-task-list-comments-for-your-code
 ---
 
 Task List comments can be used to indicate a variety of work to be done at the location marked, including:
 
-* features to be added;
-* problems to be corrected;
-* classes to implement;
-* place markers for error-handling code;
-* reminders to check-in the file.
+- features to be added;
+- problems to be corrected;
+- classes to implement;
+- place markers for error-handling code;
+- reminders to check-in the file.
 
 <!--endintro-->
 

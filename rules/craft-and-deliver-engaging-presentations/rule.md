@@ -70,7 +70,7 @@ At its core, presentation delivery is about connection. It's about captivating a
 
 A good way to achieve a strong delivery is to avoid using filler and non-words. Watch this video to get rid of your umms and ahhs.
 
-`https://www.youtube.com/watch?v=mlDAO7DgJNk`
+`youtube: https://youtu.be/mlDAO7DgJNk?si=17Dci0Ub-z_oZOE6`
 
 ::: good
 

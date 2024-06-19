@@ -1,4 +1,5 @@
 ---
+seoDescription: Encourage active participation from all board members to leverage diverse expertise and perspectives, leading to more informed decisions and a sense of collective responsibility.
 type: rule
 title: Do you encourage active participation from all board members?
 uri: encourage-participation
@@ -8,6 +9,7 @@ authors:
 created: 2024-02-28T22:59:17.208Z
 guid: 42dbd13d-4fcf-42d7-8de2-871a311fe2cc
 ---
+
 Active participation from all board members is crucial for leveraging the diverse expertise and perspectives within the board, leading to more informed decisions and a sense of collective responsibility.
 
 <!--endintro-->

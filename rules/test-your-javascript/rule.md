@@ -1,4 +1,5 @@
 ---
+seoDescription: Test and validate your JavaScript code using Jest, Karma, or Jasmine to ensure robust web applications.
 type: rule
 title: Do you test your JavaScript?
 uri: test-your-javascript
@@ -23,8 +24,8 @@ Because JavaScript does not have the safeguards of strong typing and compile-tim
 
 You can write unit tests for JavaScript using:
 
-* [Jest](https&#58;//jestjs.io/) **(Recommended)**
-* [Karma](https&#58;//karma-runner.github.io/latest/index.html)
-* [Jasmine](https&#58;//jasmine.github.io/)
+- [Jest](https://jestjs.io/) **(Recommended)**
+- [Karma](https://karma-runner.github.io/latest/index.html)
+- [Jasmine](https://jasmine.github.io/)
 
 Jest is recommended since [it runs faster than Karma](https://charith-hettiarachchi.medium.com/why-use-jest-over-karma-for-angular-testing-b56ffa82f8) (due to the fact that Karma runs tests in a browser while Jest runs tests in Node).

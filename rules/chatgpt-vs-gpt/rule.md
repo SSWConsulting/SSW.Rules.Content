@@ -1,4 +1,5 @@
 ---
+seoDescription: Compare AI models ChatGPT and GPT to enhance your productivity and automation capabilities.
 type: rule
 title: When should you use ChatGPT vs GPT?
 uri: chatgpt-vs-gpt
@@ -14,17 +15,20 @@ guid: 7a20cbcb-0f9d-4beb-9563-2111b85b0c71
 redirects:
   - chatgpt-vs-gpt-3
 ---
+
 GPT and ChatGPT are similar tools that serve slightly different purposes. Each of them has strengths and weaknesses so it's crucial to understand the right time to use them.
-            
+
 <!--endintro-->
 
 ChatGPT is strong at helping an individual do a specific task. For example, a user could could get responses to simple tasks like:
+
 * "Write me a blog post on EF Core Code-First Migrations"
 * "How do I create a table with EF Core?"
 * "Can you help me find information about Northwind?"
 * and much more...
 
 On the other hand, GPT is better for tasks that require automation or programmatic integration. For example, it could be used to create systems for:
+
 * Summarizing a page of text
 * Tailoring inputs to output in a specific manner e.g. input a url, and it outputs an SSW rule
 * Changing email content to fit a specific audience e.g. Product Owner, Developer, Designer etc

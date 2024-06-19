@@ -1,6 +1,7 @@
 ---
+seoDescription: Migrating TFS installation quickly and efficiently by detaching team project collections, deleting databases, restoring backups, and attaching projects.
 type: rule
-archivedreason: 
+archivedreason:
 title: If you already have an installation
 guid: 46d7e5f8-996e-425b-833e-a490fb009293
 uri: if-you-already-have-an-installation
@@ -8,26 +9,21 @@ created: 2009-11-08T02:17:48.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 If you have already done some test migrations on the new server there is no need to start from scratch. Just follow these simple steps and you will be up and running in no time.
 
 1. Open the Team Foundation Server Admin Console
 2. Click Application Tier | Team Project Collections | Detach Team Project Collection
-![Detach Team Project Collection](Detach Team Project Collection.png) 
-**Figure: Remove the old Team Project Collection from the server.**
-3. Delete the Tfs\_\* databases except Tfs\_Configuration from SQL Server Management Studio
-4. Delete the Tfs\_Analysis database from SQL Server Analysis Server.
+   ![Detach Team Project Collection](Detach Team Project Collection.png)
+   **Figure: Remove the old Team Project Collection from the server.**
+3. Delete the Tfs\_\* databases except Tfs_Configuration from SQL Server Management Studio
+4. Delete the Tfs_Analysis database from SQL Server Analysis Server.
 5. Copy the TFS2010 backups to TFS2010 server (e.g. C:\TfsBackups)
 6. Restore the databases to the TFS2010’s SQL 2008 Server
 7. In the Team Foundation Server Admin Console
 8. Click Application Tier | Team Project Collections |Attach Team Project Collection
-![Attach Team Project Collection](Attach Team Project Collection.png)
+   ![Attach Team Project Collection](Attach Team Project Collection.png)
 9. Follow the wizard, [rule #8 from step 13](/do-you-know-how-to-upgrade-your-tfs2008-databases).
-
-
-
-
 
 <!--endintro-->

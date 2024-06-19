@@ -1,10 +1,8 @@
 ---
+seoDescription: Learn how to avoid merge debt by ensuring PRs don't stay open for too long, conducting daily reviews, and facilitating "over-the-shoulder" reviews.
 type: rule
-archivedreason:
 title: Do you avoid Merge Debt?
-guid: aa0d5e6d-f08a-43cd-9bee-4f72df367b78
 uri: merge-debt
-created: 2023-08-14T00:00:00.0000000Z
 authors:
   - title: Brook Jeynes
     url: https://www.ssw.com.au/people/brook-jeynes
@@ -12,9 +10,12 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
+related:
   - over-the-shoulder
 redirects: []
+created: 2023-08-14T00:00:00.000Z
+archivedreason: null
+guid: aa0d5e6d-f08a-43cd-9bee-4f72df367b78
 ---
 
 If you are in a team (i.e. an internal contributor), it is the PR author's responsibility to get a PR reviewed and action feedback ASAP.  
@@ -35,7 +36,7 @@ Merge debt refers to the amount of work a PR has to undergo before it can be mer
 
 Merge debt can be avoided by:
 
-* Ensuring PRs don't stay open for too long
+* Ensuring PRs don't stay open for too long - you could use [SSW Dory](http://www.sswdory.com) to automatically inform you of any outstanding PR's.
 * Conducting daily reviews on repos to ensure all PRs that can be merged are merged
 * Ensuring that once a PR is ready to be merged, an "over-the-shoulder" review occurs
 

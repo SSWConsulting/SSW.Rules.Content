@@ -1,4 +1,5 @@
 ---
+seoDescription: Auditing Active Directory environments to ensure security and compliance, third-party tools offer enhanced visibility, proactive alerting, and comprehensive reporting.
 type: rule
 title: Do you audit your Active Directory environment?
 uri: audit-ad
@@ -10,9 +11,10 @@ related:
 created: 2023-10-31T00:40:22.078Z
 guid: 48e02603-85fc-4d3c-a2ce-c7967305d31c
 ---
+
 Keeping your Active Directory (AD) environment secure is paramount for your overall security posture, so it is important to keep track of changes that are made in AD - and to have alerts for when potentially damaging changes are made.
 
-Auditing your Active Directory environment with third-party tools offers several advantages. While this can be done with a SIEM such as [Splunk](https://www.splunk.com/) or [Microsoft Sentinel](https://azure.microsoft.com/en-au/products/microsoft-sentinel), these might be overkill for some companies. 
+Auditing your Active Directory environment with third-party tools offers several advantages. While this can be done with a SIEM such as [Splunk](https://www.splunk.com/) or [Microsoft Sentinel](https://azure.microsoft.com/en-au/products/microsoft-sentinel), these might be overkill for some companies.
 
 There are dedicated tools just for AD Auditing, such as [ManageEngine ADAudit Plus](https://www.manageengine.com/products/active-directory-audit/). Let’s delve into the benefits of using such tools, focusing on visibility, alerting, and reporting:
 
@@ -58,11 +60,13 @@ Here are some notable third-party AD auditing solutions:
    * Tracks changes in real-time.
    * Provides pre-built reports and customizable dashboards.
    * [URL: ManageEngine ADAudit Plus](https://www.manageengine.com/products/active-directory-audit/)
+
 2. **SolarWinds Access Rights Manager**:
 
    * Covers compliance audits and permission auditing.
    * Enhances AD management with time-saving features.
    * [URL: SolarWinds Access Rights Manager](https://www.solarwinds.com/access-rights-manager/use-cases/active-directory-auditing-tool)
+
 3. **Netwrix Auditor**:
 
    * Offers change management features.

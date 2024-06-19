@@ -1,4 +1,5 @@
 ---
+seoDescription: Master Scrum management with GitHub Projects, where you can track sprints, estimates, and custom fields while collating issues from multiple repositories.
 type: rule
 title: GitHub Projects - Do you know how to do Scrum?
 uri: scrum-in-github
@@ -10,21 +11,21 @@ related:
 created: 2021-10-28T01:49:43.558Z
 guid: 1e308570-5ab0-43d7-8a83-6bdfd04d212e
 ---
+
 `youtube: qT0VMdx7vuI`
 
-GitHub is an awesome place to manage your code, but initially it wasn't the easiest place to manage Scrum.  Things improved in 2021 with GitHub Projects. 
+GitHub is an awesome place to manage your code, but initially it wasn't the easiest place to manage Scrum. Things improved in 2021 with GitHub Projects.
 
-[GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) lets you create Sprints and manage Issues (aka PBIs or Tasks) with far more power. 
+[GitHub Projects](https://docs.github.com/en/issues/trying-out-the-new-projects-experience/about-projects) lets you create Sprints and manage Issues (aka PBIs or Tasks) with far more power.
 
 Let's take a look at some of the great new things you can do...
 
 <!--endintro-->
 
-* Track Sprints
-* Track estimates
-* Add custom fields to Issues
-* Collate Issues from multiple repos
-* Set up automated workflows for your Issues in a project
+- Track Sprints
+- Track estimates
+- Add custom fields to Issues
+- Collate Issues from multiple repos
 
 ::: good
 ![Figure: Good example - GitHub Projects gives you much more powerful project management ability](githubscrumworkflowimproved.png)
@@ -32,43 +33,33 @@ Let's take a look at some of the great new things you can do...
 
 That's a tonne of awesome features....but it requires a bit of set up, follow these steps to get up and running:
 
-1. Navigate to **Projects | Projects (Beta) | New project**
+1. Navigate to **Projects | Projects | New project**
 
-![Figure: Create a new GitHub Project](newbetaproject.png)
+![Figure: Create a new GitHub Project](updatednavigatetogithubprojects.png)
 
-1. Now we have a blank slate, we need to setup our Sprint (they call them Iterations). Navigate to **+ | + New field**
+2. Now we have the option to create a project from a template or from blank. Here is a great template [[Template] GitHub Scrum](https://github.com/orgs/SSWConsulting/projects/42/views/1)
 
-![Figure: Create a new field for your Sprint](newfield.png)
+![Figure: Choose template to create a new project](organizationtemplatesgithub.png)
 
-3. Select the **Iteration** field type
+3. We now want to setup our sprint iteration. Navigate to **Project Settings | Sprint | + Add Iteration**
 
-![Figure: Turn this into an Sprint via the Iteration field type](selectiteration.png)
+![Figure: Creating sprint irterations in a new GitHub project](githubchooseiteration.png)
 
-4. You will see a window with options for your new Iteration, name it **Sprint** and enter **Start on** and **Duration**.
+4. You will see your new sprint created with settings. Click on the field you wish to edit to modify - name it **Sprint ‘X’** and enter **Start on** date and **Duration**.
 
-![Figure: Pick the name and the dates via the Iteration field options](iterationoptions.png)
+![Figure: Pick the name and the dates via the Iteration field options](githubeditsprint.png)
 
-5. Now add some Issues to the project and then you can assign them to the correct Sprint, by clicking the drop down in the **Sprint** field.
+5. We can now navigate through the project via the **view bar**. This will provide us the different dashboards for seperate elements of our projects.
 
-**Note:** You can even add Issues from different Repos
+![Figure: Example - SSW.Website View Bar](giTHubSSWWebsiteViews.png)
 
-![Figure: Pick the Sprint you want for your Issues](assignpbitodropdown.png)
+6. To modify a new view, select the down arrow next to the view name. This will allow you to customize views to your desired purpose.
 
-6. To add more Sprints, navigate to **Settings | Sprint | Add iteration**
+**Note**: To see the Sprints grouped, and the issues ordered by status, click the view drop down and select **group:Sprint** and **sort:Status-asc**
+![Figure: Editing a view](githubeditview.png)
 
-**Note:** You can also change **Starts on** and **Duration** here
+7. Voila! You have Scrum all setup! For bonus points check out the insights screen where we can gather specific data about our teams work.
 
-![Figure: To add a Sprint, Settings | Sprint | Add Iteration](settingsnav.png)
+![Figure: Finding the Insights Screen](insightsGitHub.png)
 
-![Figure: To add new Sprints, select Settings | Add iteration](additerations.png)
-
-7. To give yourself a better view of things, you might want to create a view that groups by Sprint. Name your current view **Backlog** then create a new view and name it **Sprints**
-8. To see the Sprints grouped, and the issues ordered by status, click the view drop down and select **group:Sprint** and **sort:Status-asc** 
-
-![Figure: To create a list of Sprints add grouping and sorting](groupandsort.png)
-
-9. Voila! You have Scrum all setup! For bonus points check out the workflow screen where you can automate parts of your issue workflow
-
-![Figure: You can enable or disable predefined Workflows](workflownav.png)
-
-![Figure: There are a bunch of predefined workflows (Coming soon: the ability to create your own! )](workflows.png)
+![Figure: Example Custom Chart - Displaying Current Workload this Sprint](currentSprintWorkLoadExampleGitHub.png)

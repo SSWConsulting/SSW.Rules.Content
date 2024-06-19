@@ -1,16 +1,16 @@
 ---
+seoDescription: Customize your marketing approach to effectively reach and engage with diverse target markets by considering their unique interests, needs, and preferences.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you customize your approach to your target market?
 guid: 7c7fd09b-43d8-4b99-a43a-da7bf6b8c6cb
 uri: do-you-customize-your-approach-to-your-target-market
 created: 2014-10-13T17:02:42.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 Every target market is different, and each one will respond to different stimuli that tickle their particular fancy. It is a good idea to customize your marketing approach to consider the particular interests and needs of that group, both in terms of the substance of your pitch, and its style.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Google's sophisticated ranking algorithms ensure high-quality results by considering factors like on-page content, user engagement, and technical aspects.
 type: rule
 title: Do you know how Google ranks pages in 2024?
 uri: how-google-ranks-pages
@@ -16,6 +17,7 @@ created: 2024-05-16T17:56:43.000Z
 archivedreason: null
 guid: 62497feb-55ae-416f-bbab-b0a0cba30b6e
 ---
+
 #### Overview
 
 Google's remarkable success in search engine technology is largely due to its sophisticated ranking algorithms. While the original PageRank algorithm laid the foundation, Google's approach to ranking pages has evolved significantly to combat spammy content and ensure quality. Let's explore how Google ranks pages as of 2024, considering the most recent updates and principles.
@@ -30,13 +32,13 @@ Explanation: PR stands for PageRank, 'A' represents the number of links from pag
 
 ##### Modern SEO Factors
 
-* While PageRank remains a factor, modern SEO includes numerous other elements:
-* On-page factors: Keyword proximity, frequency, and repetition.
-* Inbound anchor text relevance.
-* User engagement metrics: Time spent on page, bounce rate.
-* Mobile compatibility.
-* Page loading speed.
-* Content quality: Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T).
+- While PageRank remains a factor, modern SEO includes numerous other elements:
+- On-page factors: Keyword proximity, frequency, and repetition.
+- Inbound anchor text relevance.
+- User engagement metrics: Time spent on page, bounce rate.
+- Mobile compatibility.
+- Page loading speed.
+- Content quality: Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T).
 
 Recent Algorithm Updates
 
@@ -48,10 +50,10 @@ Recent Algorithm Updates
 
 ##### March 2024 Core Update
 
-* **Timeline:** Rolled out between March 5 and April 26, 2024.
-* **Objective:** To promote or reward high-quality web pages, not to penalize.
-* **Global Impact:** Affected all regions and languages.
-* **Result:** Aimed to reduce low-quality, unoriginal, and unhelpful content by 45%.
+- **Timeline:** Rolled out between March 5 and April 26, 2024.
+- **Objective:** To promote or reward high-quality web pages, not to penalize.
+- **Global Impact:** Affected all regions and languages.
+- **Result:** Aimed to reduce low-quality, unoriginal, and unhelpful content by 45%.
 
 **Observations:** Many websites, especially those mass-generating AI content, saw declines in rankings or were completely deindexed for violating Google's guidelines or employing questionable SEO tactics.
 

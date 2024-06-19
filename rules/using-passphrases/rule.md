@@ -1,4 +1,5 @@
 ---
+seoDescription: Use a passphrase instead of a password to ensure robust online security with infinite combinations of words and phrases.
 type: rule
 title: Passwords – Do you use a passphrase instead of a password?
 uri: using-passphrases
@@ -8,6 +9,7 @@ authors:
 created: 2022-03-17T05:20:57.719Z
 guid: 64bbe314-c04a-485b-9a9b-0a757eead506
 ---
+
 The available list of 10, 12, or 16 (or better yet in terms of length, 20) character words is limited. So if you pick one of these words you don’t afford yourself much protection.
 
 Possible combinations of words, or phrases as we call them, are almost infinite. While we still use the term ‘password’, you should use a short phrase rather than a word.

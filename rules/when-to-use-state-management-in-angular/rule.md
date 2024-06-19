@@ -1,21 +1,21 @@
 ---
+seoDescription: When to use state management in Angular - Understand why you need it and choose from options like parent-child hierarchies, observable services or Redux-like libraries like NgRx for complex applications.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to use state management in Angular?
 guid: cb706a95-5263-49dc-b568-a37bcb03058a
 uri: when-to-use-state-management-in-angular
 created: 2021-05-27T14:09:22.0000000Z
 authors:
-- title: Chris Clement
-  url: https://ssw.com.au/people/chris-clement
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  - title: Chris Clement
+    url: https://ssw.com.au/people/chris-clement
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Piers Sinclair
+    url: https://ssw.com.au/people/piers-sinclair
 related:
-- use-ngrx-on-complex-applications
+  - use-ngrx-on-complex-applications
 redirects: []
-
 ---
 
 State management in Angular can quickly become unmaintainable if done incorrectly. It is important to fully understand why you are implementing state management and then decide how you are going to do it.
@@ -82,4 +82,4 @@ Cons:
 * Boilerplate - Requires the use of many files and has a lot of repetition
 * Learning curve - Can be easy to get wrong if you are an inexperienced user
 * Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact.
-:::
+  :::

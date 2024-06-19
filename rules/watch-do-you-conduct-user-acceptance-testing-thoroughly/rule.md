@@ -1,4 +1,5 @@
 ---
+seoDescription: Conduct thorough user acceptance testing to ensure software meets client needs and identify issues early on.
 type: rule
 title: Watch - Do you conduct user acceptance testing thoroughly?
 uri: watch-do-you-conduct-user-acceptance-testing-thoroughly

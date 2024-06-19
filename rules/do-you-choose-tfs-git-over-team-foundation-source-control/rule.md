@@ -1,4 +1,5 @@
 ---
+seoDescription: Choose between TFS- Git or Team Foundation Source Control for version control and learn how to use them effectively with Continuous Integration and Deployment.
 type: rule
 archivedreason: No longer relevant. See [https://www.ssw.com.au/rules/rules-to-better-version-control-with-git](/rules/rules-to-better-version-control-with-git)
 title: Do You Choose TFS-Git Over Team Foundation Source Control?
@@ -6,11 +7,10 @@ guid: 9a1642c8-3164-49b4-bd21-d81a014df14f
 uri: do-you-choose-tfs-git-over-team-foundation-source-control
 created: 2014-05-22T19:47:49.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
 ---
 
 Only a madman would write software today without using source control.

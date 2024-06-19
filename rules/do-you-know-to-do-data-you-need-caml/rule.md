@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering CAML - A Must-Know for SharePoint Development Discover how to create powerful queries and templates using Collaborative Application Markup Language (CAML), a crucial skill for SharePoint development.
 type: rule
 title: Do you know to do data you need CAML?
 uri: do-you-know-to-do-data-you-need-caml
@@ -50,14 +51,14 @@ You can see - CAML is essentially the same as SQL WHERE syntax, but wrapped in a
 
 Problems with CAML:
 
-1. CAML is XML and is case sensitive – including attributes names.         
+1. CAML is XML and is case sensitive – including attributes names.
 
 ```caml
 <Query>
     <Where>
         <Or>
             <Eq>
-              <FieldRef name="Status" /> 
+              <FieldRef name="Status" />
             <Value Type="Text">Completed</Value>
             </Eq>
             <IsNull>
@@ -67,18 +68,19 @@ Problems with CAML:
     </Where>
 </Query>
 ```
+
 **Figure: Example of CAML query**
-    
-2. SharePoint is not good at telling you if you made a mistake with your CAML query.         
+
+2. SharePoint is not good at telling you if you made a mistake with your CAML query.
 
 ::: bad  
 ![Figure: Debug error message](CAMLError.png)  
 :::
- 
+
 3. Hard to debug.
 
 **Tip:** Use 3rd Party tools - U2U CAML Query Builder
-            
+
 ::: good  
 ![Figure: U2U CAML Query Builder](U2U.png)  
 :::

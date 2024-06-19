@@ -1,19 +1,19 @@
 ---
+seoDescription: Clean Architecture - Separating Concerns and Building a Lasting System Discover how Clean Architecture enables teams to build systems that can be easily extended and maintained, without micromanagement. Learn about its principles, layers, and benefits.
 type: rule
-archivedreason: 
+archivedreason:
 title: Clean Architecture - Do you know the main principles?
 guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
 uri: the-main-principles-of-clean-architecture
 created: 2019-04-14T21:34:38.0000000Z
 authors:
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
-- title: Luke Parker
-  url: https://ssw.com.au/people/luke-parker
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
+  - title: Luke Parker
+    url: https://ssw.com.au/people/luke-parker
 related: []
 redirects:
-- do-you-know-the-main-principles-of-clean-architecture
-
+  - do-you-know-the-main-principles-of-clean-architecture
 ---
 
 Clean Architecture is, at its core, about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principle. The outcome of this is to guide teams over time towards the [pit of success](https://ricomariani.medium.com/the-pit-of-success-cfefc6cb64c8).
@@ -38,9 +38,9 @@ The Domain layer contains the enterprise logic and types. This layer should not 
 
 Examples:
 
- - Entities
- - [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects) (immutable objects that represent a single value or concept)
- - [Domain Events](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation) (something that has happened in the past)
+* Entities
+* [Value Objects](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects) (immutable objects that represent a single value or concept)
+* [Domain Events](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-events-design-implementation) (something that has happened in the past)
 
 ### Application
 
@@ -54,9 +54,9 @@ One example is obtaining information about the HTTP interaction (e.g. the user's
 
 Examples:
 
-  - Application Services
-  - Use Cases/Features
-  - DTOs
+* Application Services
+* Use Cases/Features
+* DTOs
 
 ### Infrastructure
 
@@ -66,11 +66,11 @@ This layer is important for keeping our application clean and testable. For gene
 
 Examples:
 
-  - Persistence
-  - Wrappers for interacting with External APIs
-  - Email/SMS
-  - Logging
-  - Authentication Provider
+* Persistence
+* Wrappers for interacting with External APIs
+* Email/SMS
+* Logging
+* Authentication Provider
 
 ### Presentation
 
@@ -99,11 +99,11 @@ With this design, all dependencies must flow inwards. Core has no dependencies o
 
 This results in an architecture and design that is:
 
-* **Independent of Frameworks** - *Core should not be dependent on external frameworks such as Entity Framework*
-* **Testable** -  *The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write.*
-* **Independent of UI** - *It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic.*
-* **Independent of Database** -  *Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB*
-* **Independent of any external agency** -  *Core simply doesn't know anything about the outside world*
+* **Independent of Frameworks** - _Core should not be dependent on external frameworks such as Entity Framework_
+* **Testable** - _The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write._
+* **Independent of UI** - _It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic._
+* **Independent of Database** - _Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB_
+* **Independent of any external agency** - _Core simply doesn't know anything about the outside world_
 
 While the design in the above figure only includes three circles, you may need more - just think of this as a starting point.
 

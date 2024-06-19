@@ -1,4 +1,5 @@
 ---
+seoDescription: Post-production experts recommend using high-quality formats such as 4K or HD to ensure optimal video quality. By choosing the right format and compression settings, you can stream your videos seamlessly online without compromising on fidelity.
 type: rule
 title: Post-Production - Do you use 'HD or '4K' quality?
 uri: post-production-high-quality
@@ -15,6 +16,7 @@ created: 2011-08-24T16:17:24.000Z
 archivedreason: null
 guid: cf7c622f-2639-46e9-b4e4-56e02167f565
 ---
+
 There is a myriad of video formats and codecs that exist for all project types. It’s important for your project to use the correct format depending on what it is you are doing and what you want to achieve with your video.
 
 <!--endintro-->
@@ -29,12 +31,13 @@ After your videos recorded and edited using your editor of choice, you need to c
 
 ### Export Settings for Adobe Premiere Pro:
 
-* Select H.264 as your format
-* In the Video tab, the Bitrate settings will be pre-selected depending on the resolution selected.
+- Select H.264 as your format
+- In the Video tab, the Bitrate settings will be pre-selected depending on the resolution selected.
 
-  * For 1080p we recommend 5-10Mbps (smaller number smaller file size, less quality)
-  * For 4k we recommend 20-30Mbps
-* In the Audio tab| Bitrate Settings | Bitrate \[kbps] | 320kbps
+  - For 1080p we recommend 5-10Mbps (smaller number smaller file size, less quality)
+  - For 4k we recommend 20-30Mbps
+
+- In the Audio tab| Bitrate Settings | Bitrate \[kbps] | 320kbps
 
 ![Figure: Video Export settings in Premiere Pro](figure_video-export-settings-in-premiere-pro.jpg)
 

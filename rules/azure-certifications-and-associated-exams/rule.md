@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Azure certifications offer a range of training options to learn new skills, fill technical gaps and boost productivity.
 type: rule
 title: Do you know the relevant Azure certifications and associated exams?
 uri: azure-certifications-and-associated-exams
@@ -16,6 +17,7 @@ created: 2021-07-13T06:09:10.000Z
 archivedreason: null
 guid: 6b6e9e25-e70a-423e-947b-b6821848f1e2
 ---
+
 Whether you're an expert or just getting started, working towards gaining a new certification is a worthwhile investment.
 
 Microsoft provides numerous certifications and training options to help you:
@@ -29,15 +31,15 @@ Microsoft provides numerous certifications and training options to help you:
 
 ![Figure: Microsoft Certification RoadMap](azure-certification-branch.png)
 
-- - -
+---
 
 ## Fundamentals
 
-If you're just getting started,  take a look at:
+If you're just getting started, take a look at:
 
 #### [Microsoft Certified: Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)
 
-Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure.  
+Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure.
 
 You will need to pass Exam [AZ-900: Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900).
 
@@ -47,7 +49,7 @@ Earn this certification to prove you have foundational knowledge of core data co
 
 You will need to pass: [Exam DP-900: Microsoft Azure Data Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-900).
 
-- - -
+---
 
 ## Associate
 
@@ -83,11 +85,11 @@ Earn this certification to prove you understand how to implement, manage and mon
 
 You will need to pass: [Exam AZ-104: Microsoft Azure Administrator](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104).
 
-- - -
+---
 
 ## Specialty
 
-Cosmos is becoming a very popular database solution. Learn more by completing: 
+Cosmos is becoming a very popular database solution. Learn more by completing:
 
 #### [Microsoft Certified: Azure Cosmos DB Developer Specialty](https://docs.microsoft.com/en-us/learn/certifications/azure-cosmos-db-developer-specialty/)
 
@@ -95,7 +97,7 @@ Earn this certification to prove that you have strong knowledge of the intricaci
 
 You will need to pass: [Exam DP-420: Designing and Implementing Cloud-Native Applications Using Microsoft Azure Cosmos DB](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-420)
 
-- - -
+---
 
 ## Expert
 
@@ -107,7 +109,7 @@ Earn this certification to prove your subject matter expertise in designing and 
 
 You will need to pass: [Exam AZ-303: Microsoft Azure Architect Technologies](https://docs.microsoft.com/en-us/learn/certifications/exams/az-303) and [Exam AZ-304: Microsoft Azure Architect Design](https://docs.microsoft.com/en-us/learn/certifications/exams/az-304).
 
-- - -
+---
 
 Now that you can build awesome cloud applications, you might want to Deploy your applications to Microsoft Azure:
 
@@ -117,7 +119,7 @@ Earn this certification to prove your subject matter expertise working with peop
 
 You will need to pass: [Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400).
 
-- - -
+---
 
 ![Figure: Get the poster to see Microsoft's certifications](screen-shot-2022-01-06-at-10.17.14-pm.png)
 
