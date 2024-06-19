@@ -14,48 +14,46 @@ Microsoft Defender XDR (formerly Microsoft Defender 365) is a unified pre- and p
 
 ![Figure: Microsoft Defender XDR – Dashboard ](defender365_2022-08-10.jpg " ")
 
-There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) for information.[](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+Microsoft Defender XDR helps security teams protect and detect their organizations by using information from other Microsoft security products, including:
+
+* Microsoft Defender for Endpoint
+* Microsoft Defender for Identity
+* Microsoft Defender for Cloud Apps
+* Microsoft Entra ID Protection
+* Microsoft Data Loss Prevention
+* And more
+
+There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/defender-xdr/prerequisites#licensing-requirements) for information.
 
 ### Secure Score: 
 
-Microsoft Secure Score is a measurement of an organization's security posture, with a higher number indicating more improvement actions taken. It can be found at <https://security.microsoft.com/securescore>
-
-Points are given as per the following actions: 
-
-* Configuring recommended security features 
-* Remediating vulnerabilities  
-* Addressing the improvement action with a third-party application or software, or an alternate mitigation
+Microsoft Secure Score is a measurement of an organization's security posture, with a higher number indicating a more secure organization. It can be found at <https://security.microsoft.com/securescore>
 
 ![Figure: Microsoft Secure score  ](secure_score-2022-08-10.jpg)
 
 ### How to increase Secure Score: 
 
-Each improvement activity is worth no more than ten points, and most of them are assessed in a binary manner. Points are received if we carry out the improvement activity, such as setting up a new policy or turning on a certain setting, or updating recommended software. Points are awarded as a proportion of the overall configuration for additional enhancement actions. 
+Each improvement activity is worth up to 10 points, based on their importance. Points are obtained by implementing security recommendations, such as updating software or configuring Intune policies (or GPOs) to secure user accounts and devices.
 
-There are many Recommendation actions suggested by Microsoft with Ranks. Score impact, Points achieved, and status  
+Security admins should check this score regularly and improve the score where possible.
 
-## Device Inventory 
+## Device Inventory (Defender for Endpoint)
 
-The Device inventory shows a list of the devices in your network where alerts were generated. Devices are added to the device inventory throughout the Microsoft Defender for the Endpoint onboarding process. You'll see information such as device name, domain, risk level, exposure level, OS platform, onboarding status, sensor health state, and other details for easy identification of devices most at risk. 
+Device inventory shows a list of the devices in your network. Devices are added to the device inventory through the Microsoft Defender for the Endpoint onboarding process. You'll see information such as device name, domain, risk level, exposure level, OS platform, onboarding status, sensor health state, and other details for easy identification of devices most at risk. 
 
-Microsoft Defender for Endpoint can be used to manage and investigate all devices on your network - whether on your domain or joined to Intune.
+**Risk level** reflects the overall risk assessment of the device based on combination of factors, including the types and severity of active alerts on the device. Resolving active alerts, approving remediation activities, and suppressing subsequent alerts can lower the risk level.
+
+**Exposure level** reflects the current exposure of this device based on the cumulative impact of its pending security recommendations.
 
 To onboard devices with a GPO, [follow the instructions here.](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
 
 To onboard devices through Intune, [follow the instructions here.](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 
-Exposure score is continuously calculated on each device in the organization and influenced by the following factors: 
-
-* Weaknesses, such as vulnerabilities discovered on the device  
-* External and internal threats such as public exploit code and security alerts  
-* Likelihood of the device getting breached given its current security posture  
-* Value of the device to the organization given its role and content 
-
 ![Figure:❌Bad Example - High exposure level  ](badexample_exposure-2022-08-10.jpg)
 
 ![Figure: ✅ Good Example – No High exposure level](goodexample_exposure-2022-08-10.jpg)
 
-For all the high exposure level devices, address the discovered vulnerabilities starting with Critical severity recommendations. Once remediated, we can get those devices or servers from High exposure to Low exposure.
+Security admins should check this page regularly and reduce the risk/exposure/criticality levels where possible.
 
 ![Figure: Severity level – High Exposure ](discoveredvulner-2022-08-10.jpg)
 
