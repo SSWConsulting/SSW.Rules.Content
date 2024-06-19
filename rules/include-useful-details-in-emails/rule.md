@@ -1,10 +1,8 @@
 ---
 type: rule
-title: Do you include useful details in emails?
-seoDescription: Do you include useful details in your 'Done' email? Make sure to
-  add relevant information such as URLs, screenshots, and code snippets to keep
-  others informed about what's been done or needs to be done.
-uri: dones-do-you-include-useful-details-in-your-done-email
+title: Do you include URLs, screenshots, and code snippets in emails?
+seoDescription: Make sure to add relevant information such as URLs, screenshots, and code snippets to keep others informed about what's been done or needs to be done.
+uri: include-useful-details-in-emails
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -19,7 +17,8 @@ related:
   - comments-do-you-enforce-comments-with-check-ins
   - do-you-add-context-reasoning-to-your-emails
   - close-off-thread
-redirects: []
+redirects:
+  - dones-do-you-include-useful-details-in-your-done-email
 created: 2011-05-29T16:10:16.000Z
 archivedreason: null
 guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
