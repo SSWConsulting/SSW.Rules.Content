@@ -54,6 +54,10 @@ Doing this will ensure:
 - You don’t forget anything important
 - The receiver knows who else agrees with the content
 
+::: tip
+Not everyone knows about this rule - make the "checked by" line a hyperlink to this rule to avoid confusion
+:::
+
 ::: email-template
 | | |
 | -------- | --- |
@@ -61,7 +65,7 @@ Doing this will ensure:
 | Cc: | Ulysses |
 ::: email-content
 
-(Checked by Uly)
+[(Checked by Uly)](https://www.ssw.com.au/rules/checked-by-xxx/)
 
 ### Hi Bob
 
