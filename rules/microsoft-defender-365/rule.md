@@ -5,6 +5,10 @@ uri: microsoft-defender-365
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz
+related:
+  - implementing-intune
 created: 2022-08-11T00:59:55.755Z
 guid: f5ae8a73-d3f7-451f-b695-a03ef47844ad
 ---
@@ -59,11 +63,7 @@ Security admins should check this page regularly and reduce the risk/exposure/cr
 
 ### Security Recommendations
 
-The Microsoft Defender portal has security recommendations for exposed devices which can be remediated manually after doing the needful (maybe a simple update).
-
-![Figure: Security Recommendation - Request remediation ](security_recommendation-2022-08-10.jpg)
-
-When you request remediation, you will need to add notes, which should show the remediation activity details.
+The Microsoft Defender portal has security recommendations for exposed devices which can be remediated manually after doing the needful (maybe a simple update): https://security.microsoft.com/security-recommendations/
 
 ### Incidents & Alerts
 
