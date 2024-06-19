@@ -2,7 +2,7 @@
 type: rule
 title: Do you use Microsoft Defender XDR?
 seoDescription: Microsoft Defender XDR helps enterprises prevent, detect, and
-  respond to advanced threats with its robust endpoint security platform.
+  respond to advanced threats with its robust endpoint security platform
 uri: microsoft-defender-365
 authors:
   - title: Ash Anil
