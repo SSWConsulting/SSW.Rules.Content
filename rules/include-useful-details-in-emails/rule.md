@@ -40,10 +40,9 @@ For screenshots of a **browser** window, include the top-left area - so others c
 
 ### Reduced cost of fixing bugs
 
-
 The cost of a bug increases with the length of time it takes for the client to request a change. Providing an email with all the details helps others see the changes immediately. If they need further adjustments, addressing them on the same day is much cheaper than handling the same request two months later, when the context may be forgotten.
 
-Finally, in the very unlikely case that the code repository and backup goes corrupt, your emails are a backup!
+Finally, in the very unlikely case that the code repository and backup goes corrupt, the emails are a backup!
 
 ::: email-template
 | | |
@@ -71,16 +70,22 @@ Figure: Bad example - "Done" email lacks details
 
 ### Hi Dave
 
-Done - added "State" field to the contact form - northwind&#46;com/contact
+Done - added "State" field to the contact form: northwind&#46;com/contact
 
 ![Figure: New "State" field added](screenshot-contact-form.png)
 
-{{ INSERT CODE CHANGES }}
+From:
+
+{{ PREVIOUS CODE }}
+
+To:
+
+{{ NEW CODE }}
 
 :::
 :::
 ::: good
-Figure: Good example - "Done" email has a link, a screenshot showing the URL, and code changes
+Figure: Good example - "Done" email has a link, a screenshot (showing the URL), and code changes
 :::
 
 ### More useful details to include
