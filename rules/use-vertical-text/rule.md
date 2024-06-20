@@ -49,4 +49,4 @@ Emojis can add visual interest and make your report more engaging and easier to 
 
 **Note:** Microsoft have not given us the option of having the vertical text bottom to top. It would be easier to read. This suggestion has been added to Suggestions for Microsoft RS.
 
-**Note:** 
+**Note:**
