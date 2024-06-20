@@ -31,8 +31,8 @@ Microsoft Defender for Endpoint can be used to manage and investigate all device
 
 Follow the instructions to:
 
-- [Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
-- [Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+* [Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+* [Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 
 ### Secure Score
 
@@ -46,7 +46,7 @@ Points are given as per the following actions:
 
 ![Figure: Microsoft Secure Score  ](secure_score-2022-08-10.jpg)
 
-### How to increase Secure Score:
+### How to increase Secure Score
 
 Each improvement activity is worth up to 10 points, based on their importance. Points are obtained by implementing security recommendations, such as updating software or configuring Intune policies (or GPOs) to secure user accounts and devices.
 
@@ -74,7 +74,7 @@ Security admins should check this page regularly and reduce the risk/exposure/cr
 
 ### Security Recommendations
 
-The Microsoft Defender portal has security recommendations for exposed devices which can be remediated manually after doing the needful (maybe a simple update): https://security.microsoft.com/security-recommendations/
+The Microsoft Defender portal has security recommendations for exposed devices which can be remediated manually after doing the needful (maybe a simple update): <https://security.microsoft.com/security-recommendations/>
 
 ### Incidents & Alerts
 
