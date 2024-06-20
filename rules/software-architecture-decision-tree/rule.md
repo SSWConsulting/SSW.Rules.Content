@@ -36,6 +36,8 @@ See more on [Rules to Better Clean Architecture](/rules-to-better-clean-architec
 
 Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes.
 
+You can find our VSA template on [GitHub](https://github.com/SSWConsulting/SSW.VerticalSliceArchitecture)
+
 ### Modular Monolith
 
 A Modular Monolith organizes the system into modules that encapsulate specific functionalities. While it runs as a single application, it retains some benefits of microservices, such as independent module development and testing. It’s a good middle-ground between a monolith and microservices.
