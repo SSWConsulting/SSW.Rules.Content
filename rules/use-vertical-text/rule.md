@@ -35,7 +35,7 @@ To
 ![Figure: Bad example - Not using vertical text for headings, when you have lots of thin columns](RS_VerticalText_1.gif)  
 :::
 
-::: good  
+::: ok  
 ![Figure: OK example - Not using ticks and crosses](RS_VerticalText_2.gif)  
 :::
 
@@ -48,5 +48,3 @@ Take it to the next level by using emojis in your report.
 Emojis can add visual interest and make your report more engaging and easier to interpret at a glance.
 
 **Note:** Microsoft have not given us the option of having the vertical text bottom to top. It would be easier to read. This suggestion has been added to Suggestions for Microsoft RS.
-
-**Note:**
