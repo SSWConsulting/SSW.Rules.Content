@@ -93,18 +93,7 @@ Figure: Good example - These architectures offer flexibility and are easier to r
 :::
 
 ::: greybox
-**Scenario 2: Large Enterprise with Multiple Domains and Teams**
-
-You are developing a large-scale application with multiple business domains and have several teams working in parallel.
-
-**Choice:** Microservices.
-:::
-::: good
-Figure: Good example - Microservices allow independent development, deployment, and scaling, which suits large and complex applications
-:::
-
-::: greybox
-**Scenario 3: Medium-sized Business with Limited DevOps Maturity**
+**Scenario 2: Medium-sized Business with Limited DevOps Maturity**
 
 You have a mid-sized team, and your organization is still developing its DevOps practices.
 
@@ -112,6 +101,17 @@ You have a mid-sized team, and your organization is still developing its DevOps 
 :::
 ::: good
 Figure: Good example - A Modular Monolith provides some modularity benefits without the full complexity of Microservices, making it easier to manage with limited DevOps capabilities
+:::
+
+::: greybox
+**Scenario 3: Large Enterprise with Multiple Domains and Teams**
+
+You are developing a large-scale application with multiple business domains and have several teams working in parallel.
+
+**Choice:** Microservices.
+:::
+::: good
+Figure: Good example - Microservices allow independent development, deployment, and scaling, which suits large and complex applications
 :::
 
 By carefully considering these factors and understanding the strengths and limitations of each architectural style, you can choose the best architecture for your system, ensuring a balance between flexibility, scalability, and maintainability.
