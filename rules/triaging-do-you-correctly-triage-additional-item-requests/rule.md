@@ -38,11 +38,11 @@ The first step is to prioritize the new work item.
 
      2. Otherwise, you should attempt to prioritize the item based on the existing items in the backlog
 
-::: info 
+::: info
 **Note:** On a fixed price contract, the rules change. Bugs should be fixed in the current Sprint if time allows, otherwise first thing in the next Sprint as they are stopping you from being paid.  
 :::
 
-### Exception #1 - Critical Bugs go into the current Sprint 
+### Exception #1 - Critical Bugs go into the current Sprint
 
 If you have a crash-to-code bug, most of the time it will go into the current Sprint. If it prevents one or more users accessing the system, it will also go into the current Sprint. High-priority bugs are fixed "in this Sprint".
 
@@ -50,10 +50,10 @@ Bugs are usually prioritised, so even non-critical bugs will likely end up in th
 
 ### Exception #2 - A client can override
 
-A request for a new screen with a new look-up table that doesn't prevent users from operating the system, should be allocated to "a later Sprint". 
-If the client really *needs* it done now, they must specify "must be in this Sprint". This will become an 'additional item' in the current Sprint. 
+A request for a new screen with a new look-up table that doesn't prevent users from operating the system, should be allocated to "a later Sprint".
+If the client really *needs* it done now, they must specify "must be in this Sprint". This will become an 'additional item' in the current Sprint.
 
-If this request from the client will have a material impact on inflexible time and budget restraints, you need to speak and inform the client. 
+If this request from the client will have a material impact on inflexible time and budget restraints, you need to speak and inform the client.
 
 For example: *"Hi Bill, this task you specified 'must be in this Sprint' will take an extra 4 days. Our critical deadline will be missed. Is that OK?"*
 
@@ -70,13 +70,12 @@ If the work is over budget, then you need to obtain approval for any 'additional
 | Subject: | Northwind - Client List for Administrators  |  
 ::: email-content  
 
-### Hi Dave,  
+### Hi Dave  
 
-1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization. 
-2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc. 
+1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization.
+2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc.
 3. Please use the text Ascending instead of "smallest to Largest" and Descending for "Largest to Smallest".
 
 :::  
 :::  
 **Figure: The above email sample from a customer will, by default, go into a future Sprint, not the current**
-
