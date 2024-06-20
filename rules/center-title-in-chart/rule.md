@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason:
+archivedreason: This is a matter of preference and context, not a rule.
 title: Data Layout - Do you center the title in your chart?
 guid: 955d0518-14e9-4d84-8469-9b53b5c98841
 uri: center-title-in-chart
