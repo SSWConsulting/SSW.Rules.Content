@@ -56,7 +56,7 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
 It's important to keep in mind that these architectures are not mutually exclusive.
 
-A within a Modular Monolith Architecture, each module could be implemented using Clean Architecture or Vertical Slice Architecture. Similarly, a Microservices Architecture could use Clean Architecture or Vertical Slice Architecture within each service.
+Within a Modular Monolith Architecture, each module could be implemented using Clean Architecture or Vertical Slice Architecture. Similarly, a Microservices Architecture could use Clean Architecture or Vertical Slice Architecture within each service.
 
 Also, from a pragmatic point of view a combination of Modular Monolith and Microservices might provide the best of both worlds. The majority of the system could be implemented as a Modular Monolith, with a few key services implemented as Microservices to provide scalability and flexibility where needed.
 
