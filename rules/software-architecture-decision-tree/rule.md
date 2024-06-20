@@ -50,6 +50,10 @@ Microservices architecture involves splitting the application into small, indepe
 
 See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
+## Architecture Decision Tree
+
+![Architecture Decision Tree](architecture-decision-tree.jpg)
+
 ## Factors to Consider
 
 * **Are your requirements certain?**  
@@ -72,10 +76,6 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
 * **Is the team experienced?**
   The complexity of Microservices can be challenging for less experienced teams. Vertical Slice Architecture although simple, has fewer guardrails when compared to Clean Architecture and can lead to a mess if not managed correctly.  This leads to recommending Clean Architecture for less experienced teams that need more structure.
-
-## Architecture Decision Tree
-
-![Architecture Decision Tree](architecture-decision-tree.jpg)
 
 ### Examples
 
