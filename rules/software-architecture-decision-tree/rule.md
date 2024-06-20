@@ -30,7 +30,7 @@ Choosing the right software architecture for your system is crucial for its succ
 
 Clean Architecture emphasizes separation of concerns, making your system easier to maintain and scale. This architecture is designed to keep the business logic independent of the frameworks and tools, which helps in achieving a decoupled and testable codebase.
 
-See more on [Rules to Better Architecture](/rules-to-better-clean-architecture).
+See more on [Rules to Better Clean Architecture](/rules-to-better-clean-architecture).
 
 ### Vertical Slice Architecture
 
