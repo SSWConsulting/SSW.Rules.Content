@@ -20,7 +20,7 @@ created: 2024-06-13T17:00:00.000Z
 guid: 1CD0006D-24A7-4FBD-B59E-92C25D0D10BC
 ---
 
-Choosing the right software architecture for your system is crucial for its success and maintainability. Making the wrong choice can lead to increased complexity, difficulty in scaling, and higher costs. 
+Choosing the right software architecture for your system is crucial for its success and maintainability. Making the wrong choice can lead to increased complexity, difficulty in scaling, and higher costs.
 
 <!--endintro-->
 
