@@ -23,15 +23,20 @@ guid: 368379e7-2a52-439c-973f-e58de293d65b
 
 <!--endintro-->
 
-Managing additional work requests can reduce the adverse impact on estimates and deadlines.
+Managing additional work requests can reduce the adverse impact on estimates and deadlines. These work requests can include new feature requests, non-critical bug fixes, modifications and undiscovered work (i.e. work you didn't initially anticipate).
 
 ![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects\_Triage.jpg)  
 
-The first step is to analyse the priority of the additional item. Let's look at the rules to how to prioritize:
+## Prioritization
 
-### By default, move new work into the next Sprint
+The first step is to prioritize the new work item.
 
-Priority is dependent upon the severity of the request. Only if it is a 'critical bug', then it will be done "in this Sprint", most tasks however go "into the Backlog". They can include new feature requests, non-critical bug fixes, modifications and undiscovered work (i.e. work you didn't initially anticipate).   
+1. If it is a critical bug, call your Product Owner and add it to the current Sprint
+2. Otherwise, it should be added to the backlog:
+
+     1. If the item is assessed as important, it should be placed immediately after the current Sprint items
+
+     2. Otherwise, you should attempt to prioritize the item based on the existing items in the backlog
 
 ::: info 
 **Note:** On a fixed price contract, the rules change. Bugs should be fixed in the current Sprint if time allows, otherwise first thing in the next Sprint as they are stopping you from being paid.  
