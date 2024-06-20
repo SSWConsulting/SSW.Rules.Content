@@ -14,7 +14,9 @@ related:
   - implementing-intune
 created: 2022-08-11T00:59:55.755Z
 guid: f5ae8a73-d3f7-451f-b695-a03ef47844ad
+
 ---
+
 Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats. As part of Microsoft Defender XDR, it is managed at <https://security.microsoft.com/>
 
 <!--endintro-->
@@ -25,13 +27,16 @@ There are a number of licensing options - check out [Microsoft's documentation](
 
 Microsoft Defender for Endpoint can be used to manage and investigate all devices on your network - whether on your domain or joined to Intune.
 
-To onboard devices with a GPO, [follow the instructions here.](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+### Configuration
 
-To onboard devices through Intune, [follow the instructions here.](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+Follow the instructions to:
+
+* [Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+* [Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 
 ### Secure Score
 
-Microsoft Secure Score is a measurement of an organization's security posture, based on data from Defender for Endpoint and other Microsoft security products. It can be found at <https://security.microsoft.com/securescore>
+Microsoft Secure Score is a measurement of an organization's security posture, based on data from Defender for Endpoint and other Microsoft security products. It can be found at [security.microsoft.com/securescore](https://security.microsoft.com/securescore).
 
 Points are given as per the following actions:
 
@@ -41,7 +46,7 @@ Points are given as per the following actions:
 
 ![Figure: Microsoft Secure Score  ](secure_score-2022-08-10.jpg)
 
-### How to increase Secure Score:
+### How to increase Secure Score
 
 Each improvement activity is worth up to 10 points, based on their importance. Points are obtained by implementing security recommendations, such as updating software or configuring Intune policies (or GPOs) to secure user accounts and devices.
 
@@ -55,9 +60,13 @@ Risk level reflects the overall risk assessment of the device based on combinati
 
 Exposure level reflects the current exposure of this device based on the cumulative impact of its pending security recommendations.
 
-![Figure:❌Bad Example - High exposure level  ](badexample_exposure-2022-08-10.jpg)
+::: bad
+![Figure: Bad example - High exposure level](badexample_exposure-2022-08-10.jpg)
+:::
 
-![Figure: ✅ Good Example – No High exposure level](goodexample_exposure-2022-08-10.jpg)
+::: good
+![Figure: Good example – No High exposure level](goodexample_exposure-2022-08-10.jpg)
+:::
 
 Security admins should check this page regularly and reduce the risk/exposure/criticality levels where possible.
 
@@ -65,7 +74,7 @@ Security admins should check this page regularly and reduce the risk/exposure/cr
 
 ### Security Recommendations
 
-The Microsoft Defender portal has security recommendations for exposed devices which can be remediated manually after doing the needful (maybe a simple update): https://security.microsoft.com/security-recommendations/
+The Microsoft Defender portal has security recommendations for exposed devices which can be remediated manually after doing the needful (maybe a simple update): <https://security.microsoft.com/security-recommendations/>
 
 ### Incidents & Alerts
 
@@ -80,13 +89,9 @@ However, it is also important to check the [Incidents page](https://security.mic
 These alerts can include emails that have been reported as malware or phishing, data loss prevention (DLP), or unwanted software detections.
 
 ::: bad
-
 ![Figure: Bad example - Unresolved incidents](defender-incidents.png)
-
 :::
 
 ::: good
-
 ![Figure: Good example - All incidents resolved](defender-no-incidents.png)
-
 :::
