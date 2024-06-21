@@ -34,6 +34,8 @@ Clean Architecture emphasizes separation of concerns, making your system easier 
 
 See more on [Rules to Better Clean Architecture](/rules-to-better-clean-architecture).
 
+You can find our CA template on [GitHub](https://github.com/SSWConsulting/SSW.CleanArchitecture)
+
 ### Vertical Slice Architecture
 
 Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes.
