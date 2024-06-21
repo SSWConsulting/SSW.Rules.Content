@@ -1,7 +1,9 @@
 ---
-seoDescription: Learn how to enhance your email communication by using indentation for readability. Discover tips and tricks to effectively reply to emails and improve understanding.
 type: rule
 title: Do you use indentation for readability?
+seoDescription: Learn how to enhance your email communication by using
+  indentation for readability. Discover tips and tricks to effectively reply to
+  emails and improve understanding.
 uri: do-you-use-indentation-for-readability
 authors:
   - title: Adam Cogan
@@ -19,12 +21,11 @@ created: 2010-09-01T02:53:29.000Z
 archivedreason: null
 guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
 ---
-
 Written communication can easily cause misunderstandings. Help the reader understand your message better by:
 
-- Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to, or a web page, etc.
-- Your new text should be kept to the left
-- Add numbers if the sender didn't and it is appropriate
+* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to, or a web page, etc.
+* Your new text should be kept to the left
+* Add numbers if the sender didn't and it is appropriate
 
 <!--endintro-->
 
@@ -60,9 +61,9 @@ Figure: Bad example - There's too much information with no reasonable order
 
 ### Hi Adam,
 
-&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y  
-Done - {{ LINK }}  
-&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit  
+&nbsp;&nbsp;&nbsp; > 1. Please change from X to Y\
+Done - {{ LINK }}\
+&nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
 
 :::
@@ -100,11 +101,13 @@ Figure: Good example - You can clearly see the context of each part of the reply
 
 **Tip #1:** When using Outlook, the raw “>” character may be automatically formatted to a “>” bullet point. This change is a problem because it may change to a normal bullet point after being sent. To prevent this issue, press Control+Z to turn it back into the raw “>” character.
 
-**Tip #2:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually.
+**Tip #2:** For those using mobile devices the indentation function is not available, try instead using 3 spaces to indent manually
 
-**Tip #3:** Note the extra line break after each reply... this helps group each question with it's answer.
+**Tip #3:** Note the extra line break after each reply... this helps group each question with it's answer
 
-**Tip #4:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
+**Tip #4:** If you're quoting someone who already used >, you can use >>
+
+**Tip #5:** Some people also [use a different text color in their reply](/when-you-reply-inline-do-you-use-a-different-color), but this is generally overkill
 
 :::
 
