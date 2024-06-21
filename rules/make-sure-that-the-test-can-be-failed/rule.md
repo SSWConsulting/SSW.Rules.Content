@@ -46,7 +46,7 @@ public int Sum(int x, int y)
 Bad example: The test fails by throwing a `NotImplementedException`
 :::
 
-This test fails for the wrong reasons, by throwing a `NotImplementedException`. In production, this is not a valid reason for this test to fail.   
+This test fails for the wrong reasons, by throwing a `NotImplementedException`. In production, this is not a valid reason for this test to fail.
 A `NotImplementedException` is synonymous with "still in development", include a `//TODO:` marker with some notes about the steps to take to implement the test.
 
 A better approach would be to return a value that is invalid.
