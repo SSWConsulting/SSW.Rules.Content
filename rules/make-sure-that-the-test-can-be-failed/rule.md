@@ -74,7 +74,7 @@ Good Example: The test fails by returning an invalid value.
 :::
 
 ::: greybox
-Sometimes there is no clear definition of an invalid value, then it is acceptable to fail a test using `NotImplementedException`. Add additional remarks, notes or steps on what to test and how to implement with a `//TODO: ...` marker. This will asssist you or other developers coming across this failed test.
+Sometimes there is no clear definition of an invalid value, then it is acceptable to fail a test using `NotImplementedException`. Add additional remarks, notes or steps on what to test and how to implement with a `//TODO: ...` marker. This will assist you or other developers coming across this failed test.
 
 Make sure that this test will be implemented before a production release.
 :::
