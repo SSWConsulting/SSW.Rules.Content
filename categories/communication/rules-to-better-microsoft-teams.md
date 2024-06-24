@@ -35,7 +35,6 @@ index:
 - video-background
 - how-to-send-message-to-yourself-on-teams
 - answer-im-questions-in-order
-- when-to-use-microsoft-teams-preview
 - teams-usage
 - use-microsoft-teams-room
 - use-text-formatting-to-mention-email-subjects
