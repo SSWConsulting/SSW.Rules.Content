@@ -1,13 +1,13 @@
 ---
 seoDescription: Customize Dynamics 365 apps and enhance user experience with Power Apps Component Framework (PCF) controls, allowing for intuitive interfaces and seamless integration of favorite web technologies.
 type: rule
-title: Do you know how to customize the Dynamics User Experience?
+title: Do you know how to customize Dynamics UI/UX?
 uri: customize-dynamics-user-experience
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-  - url: https://www.ssw.com.au/people/adam-cogan
-    title: Adam Cogan
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Mehmet Ozdemir
     url: https://www.ssw.com.au/people/mehmet-ozdemir
   - title: Calum Simpson
@@ -26,8 +26,10 @@ PCF controls let you use your favourite web technologies to develop customized c
 
 ![Figure: PCF controls helps you easily generate intuitive interfaces, enhancing your Dynamics 365 apps](ux-v4.jpg)
 
+### PCF controls in action
+
 [PCF Gallery](https://pcf.gallery/) is a fantastic place to find all kinds of PCF controls that fit different use cases.
 
-See [Adam Cogan's blog post](https://adamcogan.com/2021/08/12/the-power-of-multi-select-multiple-options-on-forms/) or the video on [this rule](/allow-multiple-options) to see how PCF controls can be applied in the real world.
+PCF controls allow [multi-select power](/allow-multiple-options). Learn more on [The Power of Multi-select – Multiple Options on Data Entry Forms - Adam Cogan's blog](https://adamcogan.com/2021/08/12/the-power-of-multi-select-multiple-options-on-forms/).
 
-See [this rule](/connect-crm-to-microsoft-teams) for examples of how PCF's can be used with teams to improve communications with clients.
+PCF's can be also be [used with Microsoft Teams to improve communications with clients](/connect-crm-to-microsoft-teams).
