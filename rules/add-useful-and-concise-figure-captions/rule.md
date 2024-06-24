@@ -95,7 +95,27 @@ Figure: Bad example - Vague caption description
 Figure: Good example - Clear caption description
 :::
 
-### Tip #5: Add the titles + length on video captions
+### Tip #5: AI images - include your prompt
+
+If you're sharing an AI generated image, show others how you made it.
+
+::: greybox
+{{ IMAGE }}  
+**Figure: An AI image of baseball player sliding**
+:::
+::: bad
+Figure: Bad example - Doesn't educate others about AI images
+:::
+
+::: greybox
+{{ IMAGE }}  
+**Figure: An AI image of baseball player sliding. Prompt: A realistic image of a baseball player sliding. The uniform is white and the crowd is cheering.**
+:::
+::: good
+Figure: Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption
+:::
+
+### Tip #6: Add the titles + length on video captions
 
 When embedding videos, include a caption with **the video title** + **video length** in brackets. As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
 
@@ -111,7 +131,7 @@ This helps:
 **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
 :::
 
-### Tip #6: Link people's names to their profiles
+### Tip #7: Link people's names to their profiles
 
 When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](https://ssw.com.au/people)).
 
