@@ -1,8 +1,9 @@
 ---
-seoDescription: Linking Dynamics and Teams - Seamlessly connecting customers to their respective teams in CRM.
 type: rule
 title: Dynamics and Teams - Do you link your customers in CRM to their
   respective Teams?
+seoDescription: Linking Dynamics and Teams - Seamlessly connecting customers to
+  their respective teams in CRM.
 uri: connect-crm-to-microsoft-teams
 authors:
   - title: Jean Thirion
@@ -81,5 +82,3 @@ Click on this section on your CRM Dynamics to have a Team created:
 **Note #1:** Alternatively, this process can even be automated using Azure functions and Graph API to provision a new Team every time a new client is created in CRM. This has the disadvantage that every single Account would get a Team...and that could create a real mess of unused Teams.
 
 **Note #2:** The Team's name can get out of sync if the Dynamics client name is changed, therefore you need one extra flow that is called when the client name is changed to keep them in sync.
-
-See [how the PCF can make UI's shine](/customize-dynamics-user-experience).
