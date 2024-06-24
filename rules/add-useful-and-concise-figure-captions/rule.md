@@ -122,6 +122,7 @@ When embedding videos, include a caption with **the video title** + **video leng
 E.g. "**Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})**"
 
 This helps:
+
 * Giving a brief text summary of the video
 * Getting some extra Google Juice
 * Letting users know what to expect in terms of time required to watch
