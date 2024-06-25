@@ -76,7 +76,7 @@ If your company follows an SSW rule, then share it on your social media too. Use
 
 ![Figure: Hiring post following branding guidelines](hiring-v2.png)
 
-### 11 - Teamwork, parties, etc.
+### 11 - Teamwork, parties, etc
 
 ![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpeg)
 

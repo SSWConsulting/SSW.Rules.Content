@@ -26,32 +26,32 @@ Your followers may not know about the changes and the ones who are grateful are 
 
 **For the business:**
 
-- Keeps your social media active
-- Shows transparency (especially important for open-source projects)
-- Shows you are actively improving your products
-- Gets eyes on your product
+* Keeps your social media active
+* Shows transparency (especially important for open-source projects)
+* Shows you are actively improving your products
+* Gets eyes on your product
 
 **For the developer:**
 
-- Keeps your social media active
-- Visibility - Shows you are a useful employee
+* Keeps your social media active
+* Visibility - Shows you are a useful employee
   This is helpful for your current role and future roles
-- Shows you take ownership and pride in your work
+* Shows you take ownership and pride in your work
 
 The important things to include are
 
-- What changed
-- The problem it solves/value it adds
-- Tag/link the product
-- Link to the PBI e.g. GitHub Issue
-- [Done Video](/record-a-quick-and-dirty-done-video) or screenshots
+* What changed
+* The problem it solves/value it adds
+* Tag/link the product
+* Link to the PBI e.g. GitHub Issue
+* [Done Video](/record-a-quick-and-dirty-done-video) or screenshots
 
 Make sure to post it on a few channels to reach a wider audience.  
 E.g. Make an announcement GitHub Discussion then link to it from a tweet, LinkedIn post, etc.
 
 ## Example
 
-https://x.com/bradystroud_/status/1796363119507472424
+<https://x.com/bradystroud_/status/1796363119507472424>
 
 ::: good
 ![Figure: Good Example - GitHub Discussion with the update + useful info](share-product-improvements-github-discussion.png)
