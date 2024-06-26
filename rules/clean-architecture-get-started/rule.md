@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Clean Architecture - Do you know the best way to get started?
 guid: 4e1e6234-c8b8-4065-83d5-74c8b6e30f2b
-uri: clean-architecture-the-best-way-to-get-started
+uri: clean-architecture-get-started
 created: 2020-06-01T22:27:33.0000000Z
 authors:
   - title: Jason Taylor
@@ -14,6 +14,7 @@ authors:
 related: []
 redirects:
   - do-you-know-the-best-way-to-get-started
+  - clean-architecture-the-best-way-to-get-started
 ---
 
 If you're building applications based on .NET Core then the Clean Architecture Solution Template is the best way to get started.
