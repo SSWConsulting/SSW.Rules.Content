@@ -27,7 +27,7 @@ The best tool for this is [NSwag](https://github.com/RicoSuter/NSwag).
 
 This is Microsoft's recommended approach, and you can read more about how to set this up in your ASP.Net Core project at [the official documentation](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio).
 
-If you use the Clean Architecture template developed by SSW's @JasonTaylorDev, this is built in out of the box. See our [rule on getting started with clean architecture](/clean-architecture-the-best-way-to-get-started).
+If you use the Clean Architecture template developed by SSW, this is built in out of the box. See our [rule on getting started with clean architecture](/clean-architecture-get-started).
 
 ::: good  
 ![Figure: Good Example - NSwag Studio lets you customise your nswag config](nswag-studio.png)  

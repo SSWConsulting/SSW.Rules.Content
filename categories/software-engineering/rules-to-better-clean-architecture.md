@@ -6,7 +6,7 @@ uri: rules-to-better-clean-architecture
 index:
 - the-main-principles-of-clean-architecture
 - the-best-clean-architecture-learning-resources
-- clean-architecture-the-best-way-to-get-started
+- clean-architecture-get-started
 - keep-your-domain-layer-independent-of-the-data-access-concerns
 - keep-business-logic-out-of-the-presentation-layer
 - how-to-improve-the-discoverability-of-your-mediatr-requests

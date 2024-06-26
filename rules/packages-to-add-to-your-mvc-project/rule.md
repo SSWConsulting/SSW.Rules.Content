@@ -13,7 +13,7 @@ authors:
   - title: Andrew Harris
     url: https://ssw.com.au/people/andrew-harris
 related:
-  - clean-architecture-the-best-way-to-get-started
+  - clean-architecture-get-started
 redirects:
   - do-you-know-which-packages-to-add-to-your-new-mvc-project
 created: 2014-12-30T00:24:02.000Z
@@ -34,7 +34,7 @@ Some technologies to avoid are:
 - ❌ AngularJS
 - ❌ Gulp
 
-When creating a new MVC project we recommend you use the [Clean Architecture Template](/clean-architecture-the-best-way-to-get-started). This template not only gives you a great structure, but it also includes all the required packages.
+When creating a new MVC project we recommend you use the [Clean Architecture Template](/clean-architecture-get-started). This template not only gives you a great structure, but it also includes all the required packages.
 
 The following are some of the NuGet packages included:
 
