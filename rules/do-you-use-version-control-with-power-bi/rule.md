@@ -40,26 +40,28 @@ In other words, the history of the changes isn't recorded anywhere.
 :::
 
 ::: bad
-![Figure: Bad example - Publishing reports directly to Power BI Service does not record the history of changes](bad-example-publish-report-directly.png)
+![Figure: Bad example - Option 1: Publish reports directly to Power BI Service; however it does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct method is to:
+The correct method is the **PBIP method**, which is: 
 
 1. Convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control
-
 2. Use Power BI's Git integration to deploy reports
+   * Requires either Fabric capacity or a Power BI Premium per User license
+   * Currently only integrates with Git repos in Azure DevOps
+
+Read the rule on [Power BI version control features](/do-you-know-powerbi-version-control-features) to get a background on this.
 
 When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control.
 
 ::: good
-![Figure: Good example - PBIP format allows comparing changes made to reports by decomposing it into multiple text files](good-example-compare-changes-2.png)
+![Figure: Good example - Option 2: PBIP method - the PBIP format allows comparing changes made to reports by decomposing it into multiple text files](good-example-compare-changes-2.png)
 :::
 
 ::: good
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-Read the rule on [the Power BI version control features](/do-you-know-powerbi-version-control-features) to learn more about Power BI Desktop Projects, and Power BI's integration with Git.
 
 ### Editing and Committing Reports
 
