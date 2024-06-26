@@ -8,10 +8,10 @@ authors:
     url: https://ssw.com.au/people/manu-gulati
   - title: Mehmet Ozdemir
     url: https://ssw.com.au/people/mehmet-ozdemir
-  - title: Patricia Barros
-    url: https://ssw.com.au/people/patricia-barros
-  - title: Chris Beaver
-    url: https://ssw.com.au/people/chris-beaver
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
 related:
   - do-you-know-powerbi-version-control-features
   - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
@@ -62,14 +62,13 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-
 ### Editing and Committing Reports
 ### Business Users (Use Power BI Service)
 
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
 `youtube: https://www.youtube.com/watch?v=dlOK6QBEyQo`
-**Video: Power BI Source Control for the Business User**
+**Video: Power BI Source Control for the Business User (timebox 8:50 mins)**
 
 The entire process is done on Power BI Service (web) (except the step to create a pull request). At a high-level the steps are:
 
@@ -90,7 +89,7 @@ If you want to update the report's data model or want more sophisticated editing
 If you're a developer, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
 `youtube: https://www.youtube.com/watch?v=MpedXah-Hv0`
-**Video: Power BI Source Control for Developers**
+**Video: Power BI Source Control for Developers (timebox 5:00 mins)**
 
 The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
 
