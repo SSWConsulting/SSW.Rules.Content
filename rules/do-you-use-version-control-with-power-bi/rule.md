@@ -64,10 +64,7 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 
 
 ### Editing and Committing Reports
-
-You should no longer edit or publish reports directly in the production workspace on the Power BI Service. A better process for editing and committing reports is described below.
-
-### Business Users
+### Business Users (Use Power BI Service)
 
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
@@ -78,16 +75,17 @@ The entire process is done on Power BI Service (web) (except the step to create 
 
 1. Create a private workspace corresponding to the workspace where your report resides (1 time)
 2. Connect the private workspace to repo (1 time)
-3. Create new feature branch off ‘main’ (every time)
+3. Create new feature branch off ‘main’ (**every time**)
 4. Setup dataset connections (1 time) (take help from SysAdmins or Power BI Admins)
-5. Edit the report in Power BI Service (every time)
-6. Commit report to feature branch (every time)
-7. Create PR (pull request) to merge feature branch into ‘main’ on Azure DevOps (every time)
-8. Next time, create new feature branch on same workspace
+5. Edit the report in Power BI Service (**every time**)
+6. Commit report to feature branch (**every time**)
+7. Create PR (pull request) to merge feature branch into ‘main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
+8. Get a Power BI Admin to deploy the report
+9. Next time, create new feature branch on same workspace
 
 If you want to update the report's data model or want more sophisticated editing features, you will need to edit the report in Power BI Desktop instead. The next section explains how you can do so.
 
-### Developers
+### Developers (Use Power BI Desktop)
 
 If you're a developer, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
@@ -96,19 +94,20 @@ If you're a developer, watch the following video to get a walkthrough of the pro
 
 The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
 
-1. Setup a local repository on your PC
-2. Create new feature branch off ‘origin/main’
-3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
+1. Setup a local repository on your PC (1 time)
+2. Create new feature branch off ‘origin/main’ (**every time**)
+3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option (1 time)
 4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset.
 
    **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Please refresh the report to download the data.
 
-5. Edit report in Power BI Desktop
-6. Commit report to feature branch
-7. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps
-8. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
+5. Edit report in Power BI Desktop (**every time**)
+6. Commit report to feature branch (**every time**)
+7. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
+8. Get a Power BI Admin to deploy the report
+9. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
 
-### Deploying Reports
+### Power BI Admins - Deploying Reports (Use Power BI Service)
 
 Deployments would typically be done by Power BI Admins. You as a dev generally won't do this directly unless you're responsible for a workspace yourself.
 
