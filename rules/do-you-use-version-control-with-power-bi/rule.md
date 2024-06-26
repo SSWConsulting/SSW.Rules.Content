@@ -81,7 +81,7 @@ The entire process is done on Power BI Service (web) (except the step to create 
 5. Edit the report in Power BI Service (**every time**)
 6. Commit report to feature branch (**every time**)
 7. Create PR (pull request) to merge feature branch into ‘main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
-8. Get a Power BI Admin to deploy the report
+8. Get a Power BI Admin to deploy the report (**every time**)
 9. Next time, create new feature branch on same workspace
 
 If you want to update the report's data model or want more sophisticated editing features, you will need to edit the report in Power BI Desktop instead. The next section explains how you can do so.
@@ -98,14 +98,14 @@ The process is done on one's PC. You will need to download Power BI Desktop. At 
 1. Setup a local repository on your PC (1 time)
 2. Create new feature branch off ‘origin/main’ (**every time**)
 3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option (1 time)
-4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset.
+4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset. (**every time**)
 
    **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Please refresh the report to download the data.
 
 5. Edit report in Power BI Desktop (**every time**)
 6. Commit report to feature branch (**every time**)
 7. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
-8. Get a Power BI Admin to deploy the report
+8. Get a Power BI Admin to deploy the report (**every time**)
 9. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
 
 ### Power BI Admins - Deploying Reports (Use Power BI Service)
