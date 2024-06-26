@@ -62,6 +62,8 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
+Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats. 
+
 ### Editing and Committing Reports
 ### Business Users (Use Power BI Service)
 
