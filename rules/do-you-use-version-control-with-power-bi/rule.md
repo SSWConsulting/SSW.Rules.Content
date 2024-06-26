@@ -70,7 +70,7 @@ Historically report developers have used the .pbix or the .pbit format. These ar
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
 `youtube: https://www.youtube.com/watch?v=dlOK6QBEyQo`
-**Video: Power BI Source Control for the Business User (timebox 8 mins)**
+**Video: Power BI Source Control for the Business User (timebox 8 min)**
 
 The entire process is done on Power BI Service (web) (except the step to create a pull request). At a high-level the steps are:
 
@@ -91,7 +91,7 @@ If you want to update the report's data model or want more sophisticated editing
 If you're a developer, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
 
 `youtube: https://www.youtube.com/watch?v=MpedXah-Hv0`
-**Video: Power BI Source Control for Developers (timebox 5 mins)**
+**Video: Power BI Source Control for Developers (timebox 5 min)**
 
 The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
 
