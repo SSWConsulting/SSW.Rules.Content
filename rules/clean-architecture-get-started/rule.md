@@ -1,5 +1,5 @@
 ---
-seoDescription: Start building .NET Core applications with Clean Architecture using a solution template that includes Angular and ASP.NET Core.
+seoDescription: If you're building a Clean Architecture application, then the SSW Clean Architecture Template is the best way to get started.
 type: rule
 archivedreason:
 title: Clean Architecture - Do you know the best way to get started?
@@ -7,8 +7,8 @@ guid: 4e1e6234-c8b8-4065-83d5-74c8b6e30f2b
 uri: clean-architecture-get-started
 created: 2020-06-01T22:27:33.0000000Z
 authors:
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
@@ -17,20 +17,13 @@ redirects:
   - clean-architecture-the-best-way-to-get-started
 ---
 
-If you're building applications based on .NET Core then the Clean Architecture Solution Template is the best way to get started.
+If you're building a Clean Architecture application, then the SSW Clean Architecture Template is the best way to get started.
 
 <!--endintro-->
 
-![Figure: The Clean Architecture Solution Template by @JasonTaylorDev](clean-architecture-solution-template.png)
+![Figure: The SSW Clean Architecture Solution Template](ca-template-readme.png)
 
-The template is designed for creating a Single Page App (SPA) with Angular and ASP.NET Core, but it can easily be used for other .NET Core applications. Create a new project based on this template by visiting https://github.com/jasontaylordev/CleanArchitecture/ and clicking **Use this template** or by installing the [.NET Core Project Template](https://www.nuget.org/packages/Clean.Architecture.Solution.Template) package. To do so, follow these steps:
+The template is an implementation of Clean Architecture in a .NET Web API. It includes a full implementation of CA covering testing, validation and many other topics.
 
-1. Install the latest [.NET Core SDK](https://dotnet.microsoft.com/download)
-2. Install the latest [Node.js LTS](https://nodejs.org/en/)
-3. Run **dotnet new --install Clean.Architecture.Solution.Template** to install the project template
-4. Create a folder for your solution and cd into it (the template will use it as project name)
-5. Run **dotnet new ca-sln** to create a new project
-6. Navigate
-   **to** **src/WebUI** and run **dotnet run** to launch the project
-
-If you would like to learn more, review the following blog post: [Clean Architecture with .NET Core: Getting Started](https://jasontaylor.dev/clean-architecture-getting-started/).
+To set up this template, follow the steps in the project README  
+https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#-getting-started
