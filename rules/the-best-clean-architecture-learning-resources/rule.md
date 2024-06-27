@@ -23,7 +23,7 @@ There are many great resources for learning the principles of Clean Architecture
 
 `youtube: https://www.youtube.com/embed/5OtUm1BLmG0`
 
-**Video: Clean Architecture with ASP.NET Core 3.0 - Jason Taylor - NDC Sydney 2019 (1 hour)**
+**Video: Clean Architecture with ASP.NET Core 3.0 - Jason Taylor - NDC Sydney 2019 (1 hr)**
 
 `youtube: https://www.youtube.com/embed/_lwCVE_XgqI`
 
