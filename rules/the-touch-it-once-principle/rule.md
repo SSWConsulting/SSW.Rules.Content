@@ -21,6 +21,6 @@ There is a hidden cost that every task or email in your inbox adds that is easy 
 
 This tiny cost once multiplied multiple times per task, and considering how many small (&lt;15 minutes) style tasks we all get in a given day, can end up taking up a sizable portion of your effective time while at work.
 
-To combat this, if you ever receive a task that would take 15 minutes or less to complete, do it immediately, [reply](/dones-do-you-reply-done-and-delete-the-original-email)[done](/dones-do-you-reply-done-and-delete-the-original-email) if necessary, and then delete it.
+To combat this, if you ever receive a task that would take 15 minutes or less to complete, do it immediately, [reply done](/dones-do-you-reply-done-and-delete-the-original-email) if necessary, and then delete it.
 
 Another way to implement this principle to save yourself the cognitive load of re-reading emails is to [forward emails to followupthen.com](/do-you-follow-up-emails-effectively). For example, if you know you won’t be able to work on a particular task for at least 2 weeks because of a dependency, forward the email to `2weeks@followupthen.com`, and it will reappear in your inbox at the time you can actually do something about it.
