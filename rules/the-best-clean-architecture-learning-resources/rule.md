@@ -30,8 +30,7 @@ There are many great resources for learning the principles of Clean Architecture
 **Figure: Clean Architecture with ASP.NET Core 2.1**
 
 Check out the Awesome Clean Architecture repo for a community driven up-to-date list of CA resources.  
-https://github.com/sswconsulting/awesome-clean-architecture
-
+<https://github.com/sswconsulting/awesome-clean-architecture>
 
 <!--endintro-->
 
