@@ -47,3 +47,10 @@ This book by Robert C. Martin should be anyone’s starting point for reading fu
 This resource by Steve Smith is available as an online e-book and contains up-to-date specific examples for ASP.NET Core and Azure.
 
 ![Figure: Architecting Modern Web Applications with ASP.NET Core and Microsoft Azure](clean-architecture-book-2.png)
+
+## Courses
+SSW offers a selection of Clean Architecture courses
+- 1 Day - https://www.ssw.com.au/events/clean-architecture-superpowers-tour
+- 2 Day - https://www.ssw.com.au/events/clean-architecture-workshop
+
+https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles
