@@ -11,6 +11,7 @@ index:
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
 - monitor-seo-effectively
+- report-seo-results
 - seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
 - responsive-design
