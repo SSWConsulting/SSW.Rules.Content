@@ -34,14 +34,11 @@ The compliance sheet typically includes:
 ### ❌ What if you miss important due dates
 
 When a company forgets or overlooks important due dates for tax lodgements, payroll taxes, and other critical financial obligations, it can lead to a multitude of issues that adversely affect the business, such as:
-
-- Financial penalties
-- Legal repercussions
-- Cash flow disruptions
-- Reputational damage
-- Operational interruptions
+financial penalties, legal repercussions, cash flow disruptions, reputational damage, operational interruptions, etc.
 
 Understanding these potential problems highlights the necessity of maintaining a detailed compliance sheet.
+
+![Figure: Fail to meet the compliance requirements](compliance-sheet-image-2.jpg)
 
 ### ✅ Why you need a Compliance Sheet
 
