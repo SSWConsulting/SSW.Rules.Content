@@ -36,16 +36,6 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <!--endintro-->
 
-### Should the email become a PBI?
-
-Of course, you should use your judgement to decide if the email needs to become a PBI. For example, feedback that contains confidential information, or does not include an actionable task would not go into the backlog.
-
-Another example are [emails marked urgent](/work-in-order-of-importance-aka-priorities) - they should be done immediately. Use the following flow chart to determine if an urgent email should be turned into an email.
-
-::: good
-![Figure: Does an urgent email need to be turned into a PBI?](urgent-flowchart.png)
-:::
-
 ### Benefits of turning emails into PBIs
 
 There are several benefits of turning an email into a PBI including:
@@ -60,6 +50,25 @@ Better prioritization
 
 ::: good
 Easily accessible by anyone in the team
+:::
+
+### Should the email become a PBI?
+
+Of course, you should use your judgement to decide if the email needs to become a PBI. For example:
+
+- Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately.
+
+- Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? Urgent emails should be done immediately unless they are clearly not an emergency.
+
+Use the following flow chart to determine if an urgent email should be turned into an email.
+
+::: good
+![Figure: Can the email be turned into a PBI?](urgent-flowchart.drawio.svg)
+:::
+
+::: info
+
+Beyond this flowchart, you will still need to use your judgement. The feedback may contain confidential information, or does not include an actionable task would not go into the backlog.
 :::
 
 ### New PBI - Steps to turn an email into a PBI
