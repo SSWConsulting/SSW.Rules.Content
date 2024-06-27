@@ -1,5 +1,5 @@
 ---
-seoDescription: Clean Architecture - Separating Concerns and Building a Lasting System Discover how Clean Architecture enables teams to build systems that can be easily extended and maintained, without micromanagement. Learn about its principles, layers, and benefits.
+seoDescription: Clean Architecture - Separating concerns and building a lasting system. Discover how CA enables teams to build systems that can be easily extended and maintained. learn about its principles, layers, and benefits.
 type: rule
 archivedreason:
 title: Clean Architecture - Do you know the main principles?
@@ -7,8 +7,8 @@ guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
 uri: the-main-principles-of-clean-architecture
 created: 2019-04-14T21:34:38.0000000Z
 authors:
-  - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
   - title: Luke Parker
     url: https://ssw.com.au/people/luke-parker
 related: []
@@ -110,13 +110,13 @@ With this design, all dependencies must flow inwards. Core has no dependencies o
 
 This results in an architecture and design that is:
 
-* **Independent of frameworks** - _Core should not be dependent on external frameworks such as Entity Framework_
-* **Testable** - _The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write_
-* **Independent of UI** - _It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic_
-* **Independent of database** - _Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB_
-* **Independent of any external agency** - _Core simply doesn't know anything about the outside world_
+* **Independent of Frameworks** - Core should not be dependent on external frameworks such as Entity Framework
+* **Testable** - The logic within Core can be tested independently of anything external, such as UI, databases, servers. Without external dependencies, the tests are very simple to write.
+* **Independent of UI** - It is easy to swap out the Web UI for a Console UI, or Angular for Vue. Logic is contained within Core, so changing the UI will not impact logic.
+* **Independent of Database** - Initially you might choose SQL Server or Oracle, but soon we will all be switching to Cosmos DB
+* **Independent of any external agency** - Core simply doesn't know anything about the outside world
 
 ### References
 
 * [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
-* [Clean architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)
+* [Clean Architecture](https://docs.microsoft.com/en-us/dotnet/standard/modern-web-apps-azure-architecture/common-web-application-architectures#clean-architecture)
