@@ -38,7 +38,7 @@ financial penalties, legal repercussions, cash flow disruptions, reputational da
 
 Understanding these potential problems highlights the necessity of maintaining a detailed compliance sheet.
 
-![Figure: Fail to meet the compliance requirements](compliance-sheet-image-2.jpg)
+![Figure: Fail to meet the compliance requirements](compliance-sheet-image-2.png)
 
 ### ✅ Why you need a Compliance Sheet
 
