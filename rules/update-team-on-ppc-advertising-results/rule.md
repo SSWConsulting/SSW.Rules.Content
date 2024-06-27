@@ -10,7 +10,8 @@ authors:
   - title: Jerwin Parker Roberto
     url: https://ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
-related: []
+related:
+  - report-seo-results
 redirects:
   - do-you-update-your-team-on-your-ppc-advertising-results
 ---
