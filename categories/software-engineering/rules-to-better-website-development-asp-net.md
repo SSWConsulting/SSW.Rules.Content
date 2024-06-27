@@ -5,6 +5,7 @@ guid: e3e75b67-96d8-43fe-859d-ce05f447f9ae
 uri: rules-to-better-website-development-asp-net
 index:
   - do-you-know-how-to-create-nice-urls-using-asp-net-4
+  - fix-ugly-urls
   - do-you-know-how-to-filter-data
   - do-you-use-jquery-for-making-a-site-come-alive
   - do-you-use-jquery-tooltips-to-save-drilling-through
