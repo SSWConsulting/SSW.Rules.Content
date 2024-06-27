@@ -67,7 +67,7 @@ Of course, you should use your judgement to decide if the email needs to become 
 Use the following flow chart to determine if an urgent email should be turned into an email.
 
 ::: good
-![Figure: Can the email be turned into a PBI?](urgent-flowchart.drawio.svg)
+![Figure: Should the email be turned into a PBI?](urgent-flowchart.drawio.svg)
 :::
 
 ### New PBI - Steps to turn an email into a PBI
