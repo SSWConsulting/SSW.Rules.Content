@@ -19,18 +19,17 @@ redirects:
   - do-you-know-the-best-clean-architecture-learning-resources
 ---
 
-There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s video:
+There are many great resources for learning the principles of Clean Architecture, but a the best place to start is with Jason Taylor’s videos:
 
 `youtube: https://www.youtube.com/embed/5OtUm1BLmG0`
 
-**Figure: Clean Architecture with ASP.NET Core 3.0 <mark>(Recommended)</mark>**
+**Video: Clean Architecture with ASP.NET Core 3.0 - Jason Taylor - NDC Sydney 2019 (1 hour)**
 
 `youtube: https://www.youtube.com/embed/_lwCVE_XgqI`
 
-**Figure: Clean Architecture with ASP.NET Core 2.1**
+**Video: Clean Architecture with ASP.NET Core 2.1 | Jason Taylor (49 min)**
 
-Check out the Awesome Clean Architecture repo for a community driven up-to-date list of CA resources.  
-<https://github.com/sswconsulting/awesome-clean-architecture>
+Check out the [Awesome Clean Architecture repo](https://github.com/sswconsulting/awesome-clean-architecture) for a community driven up-to-date list of CA resources.
 
 <!--endintro-->
 
@@ -38,20 +37,16 @@ Check out the Awesome Clean Architecture repo for a community driven up-to-date 
 
 Start with Robert C. Martin (aka ‘Uncle Bob’)’s blog post: [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
 
-Then, check out these books:
-
-This book by Robert C. Martin should be anyone’s starting point for reading further.
+Then, check out this book by Robert C. Martin should be anyone’s starting point for reading further:
 
 ![Figure: Clean Architecture: A Craftsman's Guide to Software Structure and Design](clean-architecture-book-1.jpg)
 
-This resource by Steve Smith is available as an online e-book and contains up-to-date specific examples for ASP.NET Core and Azure.
+Also, this resource by Steve Smith is available as an online e-book and contains up-to-date specific examples for ASP.NET Core and Azure:
 
 ![Figure: Architecting Modern Web Applications with ASP.NET Core and Microsoft Azure](clean-architecture-book-2.png)
 
 ## Courses
 
-SSW offers a selection of Clean Architecture courses
-* 1 Day - <https://www.ssw.com.au/events/clean-architecture-superpowers-tour>
-* 2 Day - <https://www.ssw.com.au/events/clean-architecture-workshop>
-
-<https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles>
+* [SSW - Clean Architecture Dev Superpowers Tour](https://www.ssw.com.au/events/clean-architecture-superpowers-tour)
+* [SSW - Clean Architecture Hands on 2-day Workshop](https://www.ssw.com.au/events/clean-architecture-workshop)
+* [Pluralsight - Clean Architecture: Patterns, Practices, and Principles](https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles)
