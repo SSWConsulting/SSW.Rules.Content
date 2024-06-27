@@ -28,13 +28,20 @@ There are many great resources for learning the principles of Clean Architecture
 `youtube: https://www.youtube.com/embed/_lwCVE_XgqI`
 
 **Figure: Clean Architecture with ASP.NET Core 2.1**
-To read further, start with Robert C Martin’s blog post: [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+
+Check out the Awesome Clean Architecture repo for a community driven up-to-date list of CA resources.  
+https://github.com/sswconsulting/awesome-clean-architecture
+
 
 <!--endintro-->
 
+## Further reading
+
+Start with Robert C. Martin (aka ‘Uncle Bob’)’s blog post: [The Clean Architecture](http://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html).
+
 Then, check out these books:
 
-This book by Robert C. Martin (aka ‘Uncle Bob’) should be anyone’s starting point for reading further.
+This book by Robert C. Martin should be anyone’s starting point for reading further.
 
 ![Figure: Clean Architecture: A Craftsman's Guide to Software Structure and Design](clean-architecture-book-1.jpg)
 
