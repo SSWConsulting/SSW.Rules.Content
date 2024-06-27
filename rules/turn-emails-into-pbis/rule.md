@@ -141,11 +141,11 @@ When there is a new update in emails do the following ASAP:
 2. Mention that it was updated as per the email thread in the discussion
 
 ::: bad
-![Figure: Bad example - Don't work from your email inbox!](EmailExample.png)
+![Figure: Bad example - Don't work from your email inbox!](email-example.png)
 :::
 
 ::: good
-![Figure: Good example - Put it in a PBI!](PbiExample.png)
+![Figure: Good example - Put it in a PBI!](pbi-example.png)
 :::
 
 ### Turn emails into Tickets
