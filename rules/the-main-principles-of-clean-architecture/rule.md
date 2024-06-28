@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/daniel-mackay
   - title: Luke Parker
     url: https://ssw.com.au/people/luke-parker
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
 related: []
 redirects:
   - do-you-know-the-main-principles-of-clean-architecture
