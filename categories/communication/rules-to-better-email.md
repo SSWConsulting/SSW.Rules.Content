@@ -31,7 +31,7 @@ index:
 - seek-clarification-via-phone
 - include-links-in-emails
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
-- dones-do-you-include-useful-details-in-your-done-email
+- include-useful-details-in-emails
 - keep-email-history
 - do-you-avoid-attaching-emails-to-emails
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email

@@ -5,6 +5,10 @@ uri: do-you-know-powerbi-version-control-features
 authors:
   - title: Manu Gulati
     url: https://ssw.com.au/people/manu-gulati
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
 related:
   - do-you-use-version-control-with-power-bi
 redirects: []
@@ -25,7 +29,9 @@ The following video provides an overview of these features.
 `youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
 **Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
-At a high-level you can set up version control as follows. Click on the links to get more detailed instructions on Microsoft Learn.
+
+![Figure: Once version control has been setup you can see more clearly what changed in the report.](good-example-compare-changes-2.png)
+
 
 1. Convert all your Power BI reports to the PBIP format
 
