@@ -56,13 +56,13 @@ Easily accessible by anyone in the team
 
 Of course, you should use your judgement to decide if the email needs to become a PBI. For example:
 
-- Does the email contain 1 or more actionable tasks? If not, do not turn into an PBI.
+* Does the email contain 1 or more actionable tasks? If not, do not turn into an PBI.
 
-- Does the feedback contain confidential information? If so, do not turn into an PBI.
+* Does the feedback contain confidential information? If so, do not turn into an PBI.
 
-- Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately.
+* Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately.
 
-- Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? Urgent emails should be done immediately unless they are clearly not an emergency.
+* Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? Urgent emails should be done immediately unless they are clearly not an emergency.
 
 Use the following flow chart to determine if an urgent email should be turned into an email.
 
