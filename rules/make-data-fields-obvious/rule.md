@@ -11,6 +11,7 @@ created: 2024-06-28T22:04:27.629Z
 related:
   - avoid-full-stops-in-bullet-point-lists
   - web-users-dont-read
+  - number-tasks-questions
 guid: e241971a-b050-4b47-bcb3-f8bdcc2a8460
 
 ---
@@ -56,5 +57,5 @@ Hi Stephan,
 * Salary: **$100,000**
 :::
 ::: good
-Good example - List with yhe key information in bold, and the task at the top provide great readability
+Good example - List with the key information in bold, and the numbered task at the top provide great readability
 :::
