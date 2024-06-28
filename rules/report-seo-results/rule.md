@@ -9,6 +9,8 @@ uri: report-seo-results
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
 related:
   - update-team-on-ppc-advertising-results
 created: 2024-06-27T16:51:08.383Z
