@@ -2,14 +2,17 @@
 type: rule
 tips: ""
 title: Do you make data fields obvious in automated and template-based emails?
-seoDescription: "Learn how to enhance clarity and efficiency in your automated
-  and template-based emails by making data fields more obvious. "
+seoDescription: "Learn how to enhance clarity and efficiency in your automated and template-based emails by making data fields more obvious. "
 uri: make-data-fields-obvious
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2024-06-28T22:04:27.629Z
+related:
+  - avoid-full-stops-in-bullet-point-lists
+  - web-users-dont-read
 guid: e241971a-b050-4b47-bcb3-f8bdcc2a8460
+
 ---
 
 Automated and template-based emails are essential tools for businesses, but they often fall short in making data fields easily noticeable. Ensuring that important information stands out not only enhances readability but also improves user experience and efficiency. 
