@@ -21,4 +21,3 @@ A backlink is any “incoming” or “inbound” link to your website. Besides 
 <!--endintro-->
 
 Who's linking to you is an important question for SEO strategies and one that can be easily answered. To find out how many inbound links you have and where they're coming from, go to [www.google.com](https://www.google.com/) and type in "link:" then the URL of your page.
-
