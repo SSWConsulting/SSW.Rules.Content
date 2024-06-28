@@ -14,6 +14,7 @@ authors:
 related: []
 redirects:
   - do-you-know-the-main-principles-of-clean-architecture
+  - software-architecture-decision-tree
 ---
 
 Clean Architecture is, at its core, about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principle. The outcome of this is to guide teams over time towards the [pit of success](https://ricomariani.medium.com/the-pit-of-success-cfefc6cb64c8).
