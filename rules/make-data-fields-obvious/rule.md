@@ -44,7 +44,7 @@ Hi Stephan,
 Can you please make me a contract? 
 :::
 ::: bad
-Bad example - Labels in bold doesn't highlight the key information, task at the bottom
+Bad example - Labels in bold don't highlight the key information, task at the bottom
 :::
 
 ::: greybox
@@ -56,5 +56,5 @@ Hi Stephan,
 * Salary: **$100,000**
 :::
 ::: good
-Good example - Great readability in a list with yhe key information in bold, and the task at the top 
+Good example - List with yhe key information in bold, and the task at the top provide great readability
 :::
