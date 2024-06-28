@@ -58,7 +58,7 @@ Of course, you should use your judgement to decide if the email needs to become 
 
 * Does the email contain 1 or more actionable tasks? If not, do not turn into an PBI.
 
-* Does the feedback contain confidential information? If so, do not turn into an PBI.
+* Does the feedback contain confidential information that should not be on the backlog? If so, do not turn into an PBI.
 
 * Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately.
 
