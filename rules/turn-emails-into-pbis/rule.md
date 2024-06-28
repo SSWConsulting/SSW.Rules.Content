@@ -36,12 +36,6 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <!--endintro-->
 
-:::info
-
-Of course, you should use your judgement to decide if the email needs to become a PBI - for example, feedback that contains confidential information, or does not include an actionable task would not go into the backlog.
-
-:::
-
 ### Benefits of turning emails into PBIs
 
 There are several benefits of turning an email into a PBI including:
@@ -56,6 +50,24 @@ Better prioritization
 
 ::: good
 Easily accessible by anyone in the team
+:::
+
+### Should the email become a PBI?
+
+Of course, you should use your judgement to decide if the email needs to become a PBI. For example:
+
+* Does the email contain 1 or more actionable tasks? If not, do not turn into an PBI.
+
+* Does the feedback contain confidential information? If so, do not turn into an PBI.
+
+* Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately.
+
+* Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? Urgent emails should be done immediately unless they are clearly not an emergency.
+
+Use the following flow chart to determine if an urgent email should be turned into an email.
+
+::: good
+![Figure: Should the email be turned into a PBI?](urgent-flowchart.drawio.svg)
 :::
 
 ### New PBI - Steps to turn an email into a PBI
@@ -129,11 +141,11 @@ When there is a new update in emails do the following ASAP:
 2. Mention that it was updated as per the email thread in the discussion
 
 ::: bad
-![Figure: Bad example - Don't work from your email inbox!](EmailExample.png)
+![Figure: Bad example - Don't work from your email inbox!](email-example.png)
 :::
 
 ::: good
-![Figure: Good example - Put it in a PBI!](PbiExample.png)
+![Figure: Good example - Put it in a PBI!](pbi-example.png)
 :::
 
 ### Turn emails into Tickets
