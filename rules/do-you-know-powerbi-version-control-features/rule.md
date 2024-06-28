@@ -30,7 +30,7 @@ The following video provides an overview of these features.
 **Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
 
-![Figure: Once version control has been setup you can see more clearly what changed in the report.](good-example-compare-changes-2.png)
+![Figure: Once version control has been setup you can see more clearly what changed in the report.](good-example-compare-changes-2_1719542104669.png)
 
 
 1. Convert all your Power BI reports to the PBIP format
