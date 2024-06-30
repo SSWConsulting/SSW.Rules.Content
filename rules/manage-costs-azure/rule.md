@@ -67,7 +67,7 @@ Total: {{AUD$}} per month
 
 David
 
-<As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure>](/manage-costs-azure>)
+<As per SSW Rule: [https://www.ssw.com.au/rules/manage-costs-azure](/manage-costs-azure)>
 
 :::
 :::
