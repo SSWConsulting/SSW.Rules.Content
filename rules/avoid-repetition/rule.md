@@ -25,7 +25,7 @@ DRY, which stands for ‘don’t repeat yourself,’ is a principle of software 
 
 ### Words
 
-This is especially valid for words in lists, but also applies to [different types of content](/avoid-using-unnecessary-words). 
+This is especially valid for words in lists, but also applies to [different types of content](/avoid-using-unnecessary-words).
 
 For lists, you should keep only the part that is unique in each list item.
 
