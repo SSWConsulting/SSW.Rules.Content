@@ -86,9 +86,10 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 * Requires effort to implement
 * May take time to adjust
 * Can be challenging to maintain
-  :::
-  ::: good
-  Good example – Using the DRY principle
-  :::
+
+:::
+::: good
+Good example – Using the DRY principle
+:::
 
 Following the DRY principle by avoiding excessive repetition of words/emojis helps to create content that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
