@@ -86,6 +86,7 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 * Requires effort to implement
 * May take time to adjust
 * Can be challenging to maintain
+
   :::
   ::: good
   Good example – Using the DRY principle
