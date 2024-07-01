@@ -10,7 +10,7 @@ authors:
     url: https://ssw.com.au/people/marlon-marescia
 related: []
 redirects:
-  - contact-the-media-from-time-to-time
+  - do-you-contact-the-media-from-time-to-time
 created: 2015-02-04T16:41:50.000Z
 archivedreason: null
 guid: 8a113cf7-8e3b-46f2-8979-e7ab350bc4d4
