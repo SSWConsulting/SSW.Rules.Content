@@ -29,7 +29,7 @@ There are a few &lt;meta&gt; tags you should use, and these are the most common:
   
 * **TITLE TAG** - The [title tag](https://www.semrush.com/blog/title-tag/) is crucial for SEO as it tells search engines what the page is about. It's also the headline that appears in search results. Keep it under 50-60 characters to ensure it displays properly in search results. Include primary keywords relevant to the page content, and ensure your title aligns with what users are likely searching for and addresses their needs or queries. Each page should have a unique title to avoid duplicate content issues and ensure each page can rank for different queries.
 
-*  **HEADER TAGS (H1, H2, H3 etc).** - [Header tags](https://www.semrush.com/blog/header-tag/) help structure content and signal to search engines the hierarchy of information. The H1 tag should contain the primary keyword and clearly describe the page content. Use H2, H3, etc., to organize subheadings and support the main topic.
+* **HEADER TAGS (H1, H2, H3 etc).** - [Header tags](https://www.semrush.com/blog/header-tag/) help structure content and signal to search engines the hierarchy of information. The H1 tag should contain the primary keyword and clearly describe the page content. Use H2, H3, etc., to organize subheadings and support the main topic.
 
 * **ALT TEXT FOR IMAGES** - [Alt text](https://www.semrush.com/blog/alt-text/) provides a description of images, helping search engines understand the content of the images. Use relevant keywords but avoid keyword stuffing. Alt text also improves accessibility for visually impaired users.
 
