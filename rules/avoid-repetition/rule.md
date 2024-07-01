@@ -8,6 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/jack-pettit
 related:
   - use-emojis
+  - avoid-full-stops-in-bullet-point-lists
 created: 2023-02-28T00:28:10.330Z
 guid: 1acd6766-d31f-493f-b6f1-3b0b2ff2dc4e
 ---
@@ -22,7 +23,11 @@ Lists are great to make texts easier to digest. Emojis makes it even easier to c
 DRY, which stands for ‘don’t repeat yourself,’ is a principle of software development that aims at reducing the repetition of patterns and code duplication in favor of abstractions and avoiding redundancy.
 :::
 
-This is especially valid for words in lists, but also applies to different types of content. You should keep only the part that is unique in each list item.
+### Words
+
+This is especially valid for words in lists, but also applies to [different types of content](/avoid-using-unnecessary-words).
+
+For lists, you should keep only the part that is unique in each list item.
 
 ::: greybox
 Following this rule:
@@ -37,7 +42,7 @@ Bad example – Repeating words... Not following DRY :(
 :::
 
 ::: greybox
-Following this rule is important to help you:
+Following this rule is important to help you to:
 
 * Increase productivity
 * Save time
@@ -45,7 +50,7 @@ Following this rule is important to help you:
 
 :::
 ::: good
-Good example – No repeated words... using the DRY principle
+Good example – No repeated words by using the DRY principle
 :::
 
 ### Emojis
@@ -56,13 +61,13 @@ When creating a list that includes emojis, avoid repeating the same emoji 3 or m
 
 ::: greybox
 
-### ✅ Pros
+#### ✅ Pros
 
 * ✅ Increases productivity
 * ✅ Saves time
 * ✅ Reduces stress
 
-### ❌ Cons
+#### ❌ Cons
 
 * ❌ May be challenging to implement
 * ❌ May take time to adjust
@@ -70,18 +75,18 @@ When creating a list that includes emojis, avoid repeating the same emoji 3 or m
 
 :::
 ::: bad
-Bad example – Using an excessive amount of emojis. Not following DRY :(
+Bad example – Using an excessive amount of emojis... Not following DRY :(
 :::
 
 ::: greybox
 
-### ✅ Pros
+#### ✅ Pros
 
 * Increases productivity
 * Saves time
 * Reduces stress
 
-### ❌ Cons
+#### ❌ Cons
 
 * Requires effort to implement
 * May take time to adjust
@@ -89,7 +94,7 @@ Bad example – Using an excessive amount of emojis. Not following DRY :(
 
 :::
 ::: good
-Good example – Using the DRY principle
+Good example – Following the DRY principle
 :::
 
 Following the DRY principle by avoiding excessive repetition of words/emojis helps to create content that are visually interesting and easy to read, while also promoting efficient and maintainable content creation.
