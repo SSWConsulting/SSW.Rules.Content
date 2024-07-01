@@ -49,20 +49,24 @@ For most projects, you need to quickly store and locate important details and do
 - General documents e.g. Requirements/Specifications (Note: it is possible to share documents from Microsoft Teams externally, but not from Teams directly... just open it in Office Online or a specific Office app first)
 
 ::: bad  
+![Figure: Bad example - Files are stored on the desktop. Even though it is backed up by OneDrive, the files are not easily accessed by other team members if needed](Files-saved-on-Desktop.jpg)           
+:::     
+
+::: bad  
 ![Figure: Bad example – It might be easy to use File Shares, your Local C:, or emails – but don’t. They don’t work in a team environment as they aren’t easy for others to access](Dont-keep-files.jpg)  
-:::
+:::       
 
 ::: bad  
 ![Figure: Bad example – SharePoint integrated into Azure DevOps (was VSTS/TFS) is not supported via Visual Studio anymore](keep-files-TFS.jpg)  
-:::
-
-::: bad  
-![Figure: Bad example – Even though this is using SharePoint - this is using a Team Site with a Document Library - it is better to use Microsoft Teams which uses SharePoint under the covers](keep-files-SP.jpg)  
-:::
+:::      
 
 ::: good  
 ![Figure: Good example - Use Microsoft Teams and it will automatically create a Site for the Team (and that includes a document library which you can connect to with OneDrive)](keep-files-sp-teams.jpg)  
-:::
+:::    
+
+::: good    
+![Figure: Good example - Files are stored in a folder in SharePoint. Other team members can easily find these documents](Files-saved-on-SharePoint.jpg)     
+:::    
 
 ### What does _not_ get stored in Microsoft Teams?
 
