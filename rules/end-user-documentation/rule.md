@@ -13,6 +13,8 @@ authors:
     url: https://ssw.com.au/people/jason-taylor
   - title: Greg Harris
     url: https://ssw.com.au/people/greg-harris
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-produce-the-best-end-user-documentation
@@ -22,111 +24,98 @@ redirects:
 
 <!--endintro-->
 
-### Developer Documentation
+## Developer Documentation
 
 Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki.
 
-### End-User Documentation
+## End-User Documentation
 
-**Option 1: Word document**
+### Option 1: Word document
 
-::: good
-Content - Easy to edit
+[word](https://www.microsoft.com/en-au/microsoft-365/word)
 
-:::
+✅ **Pros:**
 
-::: good
-Navigation - Has nice navigation on the left
+- Content - Easy to edit
+- Navigation - Has nice navigation on the left
 
-:::
+❌ **Cons:**
 
-::: bad
-Copying Code - No code elements for technical training
+- Copying Code - No code elements for technical training
+- No Google Analytics  
+- Not native to the web  
 
-:::
+### Option 2: Plain HTML pages
 
-::: bad
-No Google Analytics  
-:::
+✅ **Pros:**
 
-::: bad
-Not native to the web  
-:::
+- You have complete control over how it looks
+- Can add Google Analytics
 
-**Option 2: Plain HTML pages**
+❌ **Cons:**
 
-::: good
-You have complete control over how it looks
+- Content - Hard to edit using HTML
+- Navigation - Does not have any navigation
+- Copying Code - No code elements for technical training
+- Lacks basic features, like search
 
-:::
+### Option 3: GitBook 
 
-::: good
-Can add Google Analytics
-
-:::
-
-::: bad
-Content - Hard to edit using HTML
-
-:::
-
-::: bad
-Navigation - Does not have any navigation
-
-:::
-
-::: bad
-Copying Code - No code elements for technical training
-
-:::
-
-::: bad
-Lacks basic features, like search
-
-:::
-
-**Option 3: GitBook.com (recommended)**
-
-::: good
-Content - It's in Markdown  
-:::
-
-::: good
-Navigation - Has nice navigation on the left
-
-:::
-
-::: good
-Copying Code - If you have code elements for technical training it allows easy copying and pasting
-Simple Branding options
-
-:::
-
-::: good
-$ - The base version is free for everyone else  
-:::
-
-::: good
-$ - The full version is free for open-source communities.  
-:::
-
-::: good
-It allows you to change the subdomain (only in full version)
-
-:::
-
-::: good
-It's in GitHub - allows people to give suggestions
-
-:::
-
-::: good
-Integrated search  
-:::
-
-::: good
-Integrated with Google Analytics
-
-:::
+[GitBook](https://gitbook.com)
 
 ![](gitbook.png)
+
+✅ **Pros:**
+
+- Content - It's in Markdown  
+- Navigation - Has nice navigation on the left
+- Copying Code - If you have code elements for technical training it allows easy copying and pasting
+- Simple Branding options
+- It's in GitHub - allows people to give suggestions
+- Integrated search  
+- Integrated with Google Analytics
+
+❌ **Cons:**
+
+- $ 6.70 USD per user per month (expensive)
+
+### Option 4: Nextbook
+
+[Nextbook](https://github.com/amiroff/NextBook)
+
+✅ **Pros:**
+
+- Content - It's in Markdown
+- Navigation - Has nice navigation on the left
+- Copying Code - If you have code elements for technical training it allows easy copying and pasting
+- It's in GitHub - allows people to give suggestions
+
+❌ **Cons:**
+
+- No Integrated search
+- No Integration with Google Analytics
+- No Branding options
+- Solo maintainer
+- Clunky menu system
+
+### Option 5: Docusaurus (recommended)
+
+[docusaurus.io](https://docusaurus.io/)
+
+✅ **Pros:**
+
+- Content - It's in Markdown
+- Navigation - Has nice navigation on the left
+- Copying Code - If you have code elements for technical training it allows easy copying and pasting
+- Branding via CSS
+- It's in GitHub - allows people to give suggestions
+- Maintained by Meta (Facebook)
+- Highly customizable via plugins
+- Integrated search (Algolia and more)
+- Integration with Google Analytics (plugin)
+- Internationalization (i18n) support
+- Free
+
+❌ **Cons:**
+
+- Need to self-host
