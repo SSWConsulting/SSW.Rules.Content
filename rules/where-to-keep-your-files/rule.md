@@ -13,6 +13,10 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Liam Elliott
     url: https://ssw.com.au/people/liam-elliott
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy
+  - title: Tanya Leahy
+    url: https://ssw.com.au/people/tanya-leahy
 related:
   - integrate-dynamics-365-and-microsoft-teams
 redirects:
