@@ -63,7 +63,7 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 
 [GitBook](https://gitbook.com)
 
-![](gitbook.png)
+![GitBook](gitbook.png)
 
 ✅ **Pros:**
 
