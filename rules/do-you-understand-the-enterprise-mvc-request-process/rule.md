@@ -1,18 +1,24 @@
 ---
-seoDescription: Enterprise MVC request process involves a business layer and data layer abstraction, enhancing scalability and maintainability.
 type: rule
-archivedreason:
 title: Do you understand the Enterprise MVC request process?
-guid: a2e23bee-1006-49a0-b7cd-b0efb629282a
+seoDescription: Enterprise MVC request process involves a business layer and
+  data layer abstraction, enhancing scalability and maintainability.
 uri: do-you-understand-the-enterprise-mvc-request-process
-created: 2012-10-19T19:39:03.0000000Z
 authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
+created: 2012-10-19T19:39:03.000Z
+archivedreason: null
+guid: a2e23bee-1006-49a0-b7cd-b0efb629282a
 ---
+::: bad
+![Figure: Good Example – An enterprise solution should include a business layer and a data layer abstraction](request-process-bad.jpg)
+:::
 
-![inject](request-process-bad.jpg)Figure: Bad Example – The sample applications do not include the concept of a business ![inject](request-process-good.jpg)Figure: Good Example – An enterprise solution should include a business layer and a data layer abstraction
+::: good
+![Figure: Good Example – An enterprise solution should include a business layer and a data layer abstraction](request-process-good.jpg)
+:::
 
 <!--endintro-->
