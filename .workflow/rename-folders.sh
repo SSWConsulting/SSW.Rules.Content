@@ -9,7 +9,7 @@ for rule_file in $(git diff --name-only $(git merge-base origin/main HEAD) | gre
   echo "Folder name: $folder_name"
   
   uri=$(grep -m 1 '^uri:' "${GITHUB_WORKSPACE}/$rule_file" | awk '{print $2}')
-  uri = $($uri | tr -d '\r')
+  uri=$($uri | tr -d '\r')
 
   echo "URI: $uri"
   
