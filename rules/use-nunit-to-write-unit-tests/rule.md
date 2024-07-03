@@ -31,6 +31,6 @@ Example: You may have a shared project that your application uses. Another devel
 
 ![Figure: Unit Tests accessible from the help menu](unittestsinhelpmenu.jpg)
 
-Unit tests should also be accessible from the Help menu to assist in troubleshooting when your users call up tech support. 
+Unit tests should also be accessible from the Help menu to assist in troubleshooting when your users call up tech support.
 
 **Note:** Unit testing also works with Web projects.
