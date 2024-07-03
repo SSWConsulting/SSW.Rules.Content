@@ -50,7 +50,7 @@ The correct method is the **PBIP method**, which is:
    * Requires either Fabric capacity or a Power BI Premium per User license
    * Currently only integrates with Git repos in Azure DevOps
 
-Read the rule on [Power BI version control features](/do-you-know-powerbi-version-control-features) to get a background on this.
+Read the rule on [Power BI version control features](/do-you-know-powerbi-version-control-features) to get a background on this. Note: This does not work for Power BI dashboards. Dashboards do not have a PBIP or PBIX file associated and are only available on Power BI service, and so cannot have any source control or version history.
 
 When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control.
 
@@ -77,7 +77,7 @@ The entire process is done on Power BI Service (web) (except the step to create 
 1. Create a private workspace corresponding to the workspace where your report resides (1 time)
 2. Connect the private workspace to repo (1 time)
 3. Create new feature branch off ‘main’ (**every time**)
-4. Setup dataset connections (1 time) (take help from SysAdmins or Power BI Admins)
+4. Setup dataset connections (1 time) (lookup your password manager or take help from SysAdmins or Power BI Admins)
 5. Edit the report in Power BI Service (**every time**)
 6. Commit report to feature branch (**every time**)
 7. Create PR (pull request) to merge feature branch into ‘main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
@@ -102,11 +102,12 @@ The process is done on one's PC. You will need to download Power BI Desktop. At 
 
    **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Please refresh the report to download the data.
 
-5. Edit report in Power BI Desktop (**every time**)
-6. Commit report to feature branch (**every time**)
-7. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
-8. Get a Power BI Admin to deploy the report (**every time**)
-9. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
+5. Setup dataset connections for that report (1 time) (lookup your password manager or take help from SysAdmins or Power BI Admins)
+6. Edit report in Power BI Desktop (**every time**)
+7. Commit report to feature branch (**every time**)
+8. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
+9. Get a Power BI Admin to deploy the report (**every time**)
+10. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
 
 ### Power BI Admins - Deploying Reports (Use Power BI Service)
 
