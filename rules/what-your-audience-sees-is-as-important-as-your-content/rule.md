@@ -18,7 +18,7 @@ redirects:
 The following video explains the importance of:
 
 - Hand gestures
-- An upbeat voice (especially at the beginning of your talk and during an elevator pitch)
+- An upbeat voice (especially at the beginning of your talk, or during an elevator pitch)
 
 <!--endintro-->
 
