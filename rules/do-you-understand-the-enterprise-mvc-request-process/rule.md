@@ -14,7 +14,7 @@ archivedreason: null
 guid: a2e23bee-1006-49a0-b7cd-b0efb629282a
 ---
 ::: bad
-![Figure: Good Example – An enterprise solution should include a business layer and a data layer abstraction](request-process-bad.jpg)
+![Figure: Bad Example – The sample applications do not include the concept of a business](request-process-bad.jpg)
 :::
 
 ::: good
