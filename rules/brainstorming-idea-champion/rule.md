@@ -1,4 +1,5 @@
 ---
+seoDescription: Generate an SEO description based on the provided MDX content - Assigning an "Idea Champion" for brainstormed ideas ensures accountability and momentum, driving projects forward from concept to reality.
 type: rule
 title: Do you have a brainstorming "Idea Champion"?
 uri: brainstorming-idea-champion

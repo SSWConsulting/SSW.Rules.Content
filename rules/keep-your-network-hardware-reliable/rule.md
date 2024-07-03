@@ -1,21 +1,21 @@
 ---
+seoDescription: Network hardware reliability is crucial to maintain seamless connectivity and performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you keep your network hardware reliable?
 guid: 585370ac-9e0e-43ff-8a29-a816b1f910ac
 uri: keep-your-network-hardware-reliable
 created: 2017-07-10T20:50:02.0000000Z
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
-- title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Steven Andrews
+    url: https://ssw.com.au/people/steven-andrews
 related: []
 redirects:
-- do-you-keep-your-network-hardware-reliable
-
+  - do-you-keep-your-network-hardware-reliable
 ---
 
 When purchasing new network hardware you should always choose the most reliable option.
@@ -28,10 +28,10 @@ We have discovered that:
 
 **1. Cisco ASA is the best.** Cisco has built a lot of trust and a large community of backers over the years by providing an extremely solid product. Finding support and assistance with Cisco devices is much easier than most vendors due to the sheer size of the community. Also pushing it to the lead are advanced features like:
 
-* Malware Protection
-* Application Control
-* FirePOWER Threat Defence
-* Centralised Firewall Management Center
+- Malware Protection
+- Application Control
+- FirePOWER Threat Defence
+- Centralised Firewall Management Center
 
 ![](ASA.jpg)
 

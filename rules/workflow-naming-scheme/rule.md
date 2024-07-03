@@ -1,4 +1,5 @@
 ---
+seoDescription: Naming your CI workflows - Follow a clear and descriptive naming convention to improve developer experience, reduce confusion, and save time by reflecting the purpose and sequence of each workflow.
 type: rule
 title: Do you know how to name your CI workflows?
 uri: workflow-naming-scheme
@@ -26,7 +27,6 @@ ssw-rulesgpt-prod.yml
 Figure: Bad Example - It's unclear what the workflow does, the name doesn't reflect the sequence of actions.
 :::
 
-
 ::: greybox
 main-build-deploy.yml
 :::
@@ -37,6 +37,7 @@ Figure: Bad Example - It's clear that changes to the main branch cause a build a
 It's easy to understand, even for someone new to the project.
 
 Steps to naming a workflow:
+
 1. Start with the trigger: What triggers the workflow? (e.g., main, pr)
 2. Describe the main action: What's the primary task? (e.g., build, lint)
 3. Include additional details: Any secondary actions or specific details? (e.g., and-deploy, infra-check)

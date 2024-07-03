@@ -1,4 +1,5 @@
 ---
+seoDescription: Limiting project scope requires effective communication and estimation to deliver maximum value to clients.
 type: rule
 title: Do you limit the project scope?
 uri: limit-project-scope
@@ -17,7 +18,7 @@ redirects:
   - limit-the-scope
 ---
 
-A client will often ask for more features than are really necessary for the MVP. They may also think that implementing a feature is easier than it is. 
+A client will often ask for more features than are really necessary for the MVP. They may also think that implementing a feature is easier than it is.
 
 There are a few things you can do to control the scope of the project and deliver the client the most value.
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Test your website's dependencies and functionality with a comprehensive health check page.
 type: rule
 title: Do you have a /HealthCheck (was /zsValidate) page to test your website
   dependencies?
@@ -21,4 +22,4 @@ There are two kinds of errors, coding errors and system health errors. Coding er
 
 Refer to the following rules for details:
 
-* See SSW Rules - [Do you have a HealthCheck page to make sure your website is healthy?](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy)
+- See SSW Rules - [Do you have a HealthCheck page to make sure your website is healthy?](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy)

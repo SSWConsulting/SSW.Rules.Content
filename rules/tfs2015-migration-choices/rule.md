@@ -1,6 +1,7 @@
 ---
+seoDescription: Migrate to TFS 2015 with recommended in-place migration or a new environment option while minimizing downtime with the TfsPreUpgrade tool.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know your TFS 2015 migration choices?
 guid: acd96e8e-9cac-47ce-bdf8-865d5c383e7e
 uri: tfs2015-migration-choices
@@ -8,8 +9,7 @@ created: 2015-08-12T15:26:07.0000000Z
 authors: []
 related: []
 redirects:
-- do-you-know-your-migration-choices1
-
+  - do-you-know-your-migration-choices1
 ---
 
 There are two main ways to move from TFS 2013 Update 4 to TFS 2015:
@@ -28,11 +28,11 @@ Migrating to a new environment may be required if you need to move to new upgrad
 
 With both options, you can also use the [TfsPreUpgrade tool to reduce downtime](https://msdn.microsoft.com/en-us/Library/vs/alm/TFS/upgrade/pre-upgrade). As per the article, the TfsPreUpgrade tool will:
 
-* Enable compression for a small number of tables that were not compressed in 2013 but will be in 2015.
-* Scan for and fix a very rare but well understood data corruption in TFS version control data.
-* Create new tables and migrate existing data to them.
-* Create triggers.
-* Update stored procedures.
-* Create indexes.
+- Enable compression for a small number of tables that were not compressed in 2013 but will be in 2015.
+- Scan for and fix a very rare but well understood data corruption in TFS version control data.
+- Create new tables and migrate existing data to them.
+- Create triggers.
+- Update stored procedures.
+- Create indexes.
 
 By using the TfsPreUpgrade tool, you can thereby reduce the downtime for the actual cut-over to the new version by ensuring that your databases are updated in advance.

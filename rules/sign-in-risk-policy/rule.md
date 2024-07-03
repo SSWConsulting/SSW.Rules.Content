@@ -1,4 +1,5 @@
 ---
+seoDescription: Azure AD's Sign-in risk policy protects users from malicious sign-ins by automatically blocking or requiring MFA based on determined risk levels.
 type: rule
 title: Do you have a Sign-in Risk Policy?
 uri: sign-in-risk-policy
@@ -10,6 +11,7 @@ related:
 created: 2022-04-29T02:06:23.523Z
 guid: 0aef7548-1e06-4723-9f51-a6da5f564813
 ---
+
 Azure Active Directory (AAD) Identity Protection's Sign-in risk policy helps automatically protect your users from risky sign ins to their accounts.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Limit text on slides to enhance audience engagement and comprehension, using visuals to support your message rather than overwhelming with too much content.
 type: rule
 title: Do you limit the amount of text on your slides?
 uri: do-you-limit-the-amount-of-text-on-your-slides
@@ -11,7 +12,8 @@ created: 2010-06-08T08:17:30.000Z
 archivedreason: null
 guid: 26b74f71-af77-4de1-acaf-876a461e430d
 ---
-Your audience cannot listen to you and read the slides at the same time. Therefore, you should not show too much text on your slides. The best presenters use hardly any text at all in their slides.  
+
+Your audience cannot listen to you and read the slides at the same time. Therefore, you should not show too much text on your slides. The best presenters use hardly any text at all in their slides.
 
 <!--endintro-->
 

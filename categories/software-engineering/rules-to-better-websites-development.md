@@ -9,6 +9,7 @@ index:
 - structured-website
 - always-have-a-default-index-page
 - have-a-stylesheet-file
+- scoped-css
 - close-quotations-of-html-attributes
 - best-way-to-display-code-on-your-website
 - use-heading-tags-h1-h2-h3
@@ -16,6 +17,7 @@ index:
 - design-to-improve-your-google-ranking
 - do-you-include-google-analytics-in-your-website
 - make-your-site-easy-to-maintain
+- streamline-development-with-npm-and-task-runners
 - 404-useful-error-page
 - 404-error-avoid-changing-the-url
 - always-put-javascript-in-a-separate-file
@@ -52,10 +54,12 @@ index:
 - use-nextjs
 - cms-solutions
 - git-based-cms-solutions
+- best-online-documentation-site
 - use-web-compiler
 - packages-up-to-date
 - monitor-packages-for-vulnerability
 - do-you-perform-migration-procedures-with-an-approved-plan
 - manage-bundle-size
+- best-commenting-engine
 
 ---

@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you provide event catering services that meet dietary requirements and ensure access to food and beverage areas?
 type: rule
 title: Do you provide event catering?
 uri: catering-for-events
@@ -8,7 +9,7 @@ authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva/
 related: []
-redirects: 
+redirects:
   - do-you-have-catering
 created: 2014-12-31T00:28:41.000Z
 archivedreason: null

@@ -1,19 +1,19 @@
 ---
+seoDescription: Generate strongly-typed interfaces for your DTOs using NSwag tools to simplify data transfer and ensure type safety.
 type: rule
-archivedreason: 
+archivedreason:
 title: Practices - Do you generate strongly-typed interfaces for your DTOs?
 guid: 9b55d5cf-d6b9-4a49-92a5-fcaba2717040
 uri: generate-interfaces-for-your-dtos
 created: 2016-04-22T22:33:50.0000000Z
 authors:
-- title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: Steve Leigh
+    url: https://ssw.com.au/people/steve-leigh
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
 related: []
 redirects:
-- practices-do-you-generate-strongly-typed-interfaces-for-your-dtos
-
+  - practices-do-you-generate-strongly-typed-interfaces-for-your-dtos
 ---
 
 Inevitably any well-engineered Angular application will need to send and receive data from a service of some sort – usually a Web API. A common mistake people make when doing this is using typescript’s built in **any** type for these services, which offers no type safety whatsoever.
@@ -32,11 +32,11 @@ One step better is to manually create interfaces for the DTOs. This gives type s
 
 But this still doesn’t give safety over-the-wire – if the server side model changes, a developer has to remember to update it here, and hope that there are no typos. This is also extra effort to perform something mindlessly repetitive – something a machine is much better at doing. And we are programmers, right?
 
-If your WebAPI has an OpenAPI (aka Swagger) specification, then the NSwag tools can build a complete Typescript client configured as an Angular injectable service - complete with: 
+If your WebAPI has an OpenAPI (aka Swagger) specification, then the NSwag tools can build a complete Typescript client configured as an Angular injectable service - complete with:
 
-* HttpClient calls that return Observables
-* All defined endpoints implemented as methods in the service
-* All DTOs included as Typescript interfaces
+- HttpClient calls that return Observables
+- All defined endpoints implemented as methods in the service
+- All DTOs included as Typescript interfaces
 
 ::: good  
 ![Figure: Good example - NSwag generates the boring work so that you don't have to](nswag.png)  

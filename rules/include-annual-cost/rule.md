@@ -1,4 +1,5 @@
 ---
+seoDescription: Include annual costs to provide a complete picture of expenses and facilitate informed budget planning.
 type: rule
 title: Do you include the annual cost for recurring expenses?
 uri: include-annual-cost
@@ -18,9 +19,9 @@ When quoting prices, it's common practice to state daily, weekly, or monthly cos
 
 <!--endintro-->
 
-* **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
-* **Comparison Ease**: Customers can more easily compare costs with other services or products
-* **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
+- **Annual Budget Planning**: It helps individuals and businesses in planning their annual budgets
+- **Comparison Ease**: Customers can more easily compare costs with other services or products
+- **Long-term Perspective**: It encourages customers to think about long-term costs and benefits, rather than just immediate expenses
 
 ::: greybox
 AUD $150 + GST/month

@@ -1,4 +1,5 @@
 ---
+seoDescription: Maintain professional integrity by being true to your word, communicating a plan if you can't deliver, and acknowledging mistakes while repairing trust.
 type: rule
 title: Communication - Do you have professional integrity? (Be a person of your word)
 uri: professional-integrity
@@ -86,20 +87,20 @@ Figure: Good example - Acknowledging an improvement for next time
 
 ## Examples of good professional integrity
 
-* Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
-  * A good measure of your Professional Integrity is how well your day resembles your calendar
-* Inform people of any potential delays
-* Deliver all of what was asked, not just a subset
-* TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
-* When they make a mistake, they proactively address it, and don't wait to be called out
+- Turn up for a meeting on time and, if that meeting looks like it will go over time, make sure everyone can continue
+  - A good measure of your Professional Integrity is how well your day resembles your calendar
+- Inform people of any potential delays
+- Deliver all of what was asked, not just a subset
+- TOFU - Take ownership and follow up. Even if you delegate some or all of the task, you stay responsible for the outcome
+- When they make a mistake, they proactively address it, and don't wait to be called out
 
-## Attributes of people who have professional integrity  
+## Attributes of people who have professional integrity
 
-* Always take full ownership of any task given to them
-* Inspire trust in co-workers and managers
-* Hold themselves to a high professional standard
+- Always take full ownership of any task given to them
+- Inspire trust in co-workers and managers
+- Hold themselves to a high professional standard
 
 ## Managers' feelings about employees who have professional integrity
 
-* Trust their employees
-* Are comfortable delegating more important work
+- Trust their employees
+- Are comfortable delegating more important work

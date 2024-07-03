@@ -1,4 +1,5 @@
 ---
+seoDescription: Qantas Business Rewards program helps companies earn points and credits by booking flights for employees with a frequent flyer number.
 type: rule
 title: Do you take advantage of Business Rewards programs?
 uri: do-you-take-advantage-of-business-rewards-programs
@@ -21,7 +22,7 @@ archivedreason: null
 guid: d33497bf-bc0d-446c-83e1-2fc48f18781e
 ---
 
-Some airlines offer rewards schemes to win over businesses. For example, [Qantas has started a frequent flyer program for businesses](https://www.qantasbusinessrewards.com/).
+Some airlines offer rewards schemes to win over businesses. For example, [Qantas has a frequent flyer program for businesses](https://www.qantas.com/au/en/business-rewards/home.html).
 
 This program lets businesses accrue points and credits. It’s simple: set up a business membership with Qantas, and then remember to enter the ABN alongside the traveller’s frequent flyer number when booking a flight.
 
@@ -32,6 +33,7 @@ Not all travellers will have a frequent flyer membership, but for those that do,
 It's always worth doing some research to see what each airline offers and take advantages of the additonal points. Other airlines we know who do this include, Virgin, British Airways, Air New Zealand, etc.
 
 <!--endintro-->
+
 ![Figure: Qantas Business Rewards Points Activity screen](qantas-business-rewards-points-activity.jpg)
 
 ::: info

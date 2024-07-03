@@ -42,7 +42,9 @@ On the other hand, in regards to **emails** and/or **informal documents**, line 
 Consider breaking lines/paragraphs when you have a long block of text. You should aim to separate the information by context.
 
 ::: greybox
+
 SSW is made up of a great team of staff that is passionate about technology and how it meets business needs. Today SSW has offices in Sydney, Melbourne, Brisbane, Newcastle, Strasbourg (France) and Hangzhou (China), with over 100 employees. Want to meet them? Have a look at SSW People.
+
 :::
 ::: bad  
 Figure: Bad example - Long block of text
@@ -71,6 +73,7 @@ Figure: Bad example - No line break before the note
 :::
 
 ::: greybox
+
 Test the login functionality thoroughly.
 **Note:** Try both valid and invalid credentials.
 :::
@@ -92,6 +95,7 @@ Figure: Bad example - No line break before the URL
 ::: greybox
 Check out these employment opportunities at SSW:  
 <https://www.ssw.com.au/employment#available>
+
 :::
 ::: good  
 Figure: Good example - The URL being on a fresh line makes it much easier to read
@@ -102,6 +106,7 @@ Figure: Good example - The URL being on a fresh line makes it much easier to rea
 It's a good idea to have some space after headings.
 
 ::: greybox
+
 Hey Bob,
 Check out this awesome new video about the SSW Cultural Exchange Program!
 :::
@@ -139,6 +144,7 @@ I will do the IoC after.
 
 :::
 ::: good  
+
 Figure: Good example - List is used to separate information and make it easier to digest
 :::
 

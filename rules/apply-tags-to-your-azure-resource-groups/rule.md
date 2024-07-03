@@ -1,20 +1,20 @@
 ---
+seoDescription: Organize your Azure resources with ease by applying tags to resource groups and leveraging a strong naming convention for efficient management.
 type: rule
-archivedreason: 
+archivedreason:
 title: Resource Groups- Do you apply Tags to your Azure Resource Groups?
 guid: 12857600-8e86-466e-8ab7-079e018c2263
 uri: apply-tags-to-your-azure-resource-groups
 created: 2019-12-23T22:00:09.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
-related: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
-- do-you-apply-tags-to-your-azure-resource-groups
-
+  - do-you-apply-tags-to-your-azure-resource-groups
 ---
 
 To help maintain order and control in your Azure environment, applying tags to resources and resources groups is the way to go.
@@ -23,7 +23,7 @@ Azure has the Tag feature, which allows you to apply different Tag Names and val
 
 <!--endintro-->
 
-![Figure: Little example of Tags in Resource Groups](tags-in-resources-group.png)  
+![Figure: Little example of Tags in Resource Groups](tags-in-resources-group.png)
 
 You can leverage this feature to organize your resources in a logical way, not relying in the names only. E.g.
 

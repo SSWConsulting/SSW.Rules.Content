@@ -1,4 +1,5 @@
 ---
+seoDescription: Developers show client love weekly, while account managers track and encourage extra initiative.
 type: rule
 archivedreason:
 title: Do you encourage your team to do weekly "Client Love"?
@@ -8,9 +9,9 @@ created: 2012-08-30T13:04:15.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
- - weekly-client-love
- - client-love-after-initial-meeting
+related:
+  - weekly-client-love
+  - client-love-after-initial-meeting
 redirects:
   - do-you-review-your-team-are-giving-＂client-love＂-to-your-customer-every-friday
   - encourage-client-love

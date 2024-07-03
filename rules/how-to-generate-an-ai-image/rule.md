@@ -1,20 +1,20 @@
 ---
+seoDescription: Generate an AI image that showcases a futuristic cityscape with towering skyscrapers and flying cars zipping by, highlighting human innovation and progress.
 type: rule
 archivedreason:
 title: Do you know how to generate an AI image?
 guid: d403d9cb-b041-476e-b893-d4208dda01c8
 uri: how-to-generate-an-ai-image
 created: 2023-06-30T00:00:00.000Z
-authors: 
-- title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily
+authors:
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
 related:
-- when-to-use-ai-generated-images
-- the-best-ai-image-generators
-- write-an-image-generation-prompt
-- use-negative-prompting
-- use-parameters-in-your-image-prompts
-
+  - when-to-use-ai-generated-images
+  - the-best-ai-image-generators
+  - write-an-image-generation-prompt
+  - use-negative-prompting
+  - use-parameters-in-your-image-prompts
 ---
 
 Imagine you’re browsing through an art exhibition online and you come across some strikingly unique images. Upon reading the descriptions, you realize they were all generated using Artificial Intelligence (AI). This piques your interest, and you find yourself wondering, "Could I create something like this?" The answer is yes. Here is how you can do it yourself.
@@ -40,7 +40,7 @@ The exact process will vary depending on the generator you're using, but general
 
 1. Navigate to the generator’s interface.
 2. Write a short description of the image you want
-(optional: include a [negative prompt](/use-negative-prompting) (specifying what you DON’T want in the image)
+   (optional: include a [negative prompt](/use-negative-prompting) (specifying what you DON’T want in the image)
 3. Generate the image: The tool will create an image based on your specifications.
 
 ::: good

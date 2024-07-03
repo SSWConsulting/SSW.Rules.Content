@@ -1,18 +1,18 @@
 ---
+seoDescription: Discover why using SharePoint solution packages is the preferred method for packaging and deploying changes between servers, ensuring minimal downtime and data loss.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know why you need to use solution package instead of deployment manually?
 guid: a7cc7bb5-c13f-4c56-86ae-312bb8c51d98
 uri: do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
 created: 2009-04-09T02:44:19.0000000Z
 authors:
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
+  - title: Jay Lin
+    url: https://ssw.com.au/people/jay-lin
 related: []
 redirects: []
-
 ---
 
 As a server product, SharePoint supports lots of configuration, but the support for packaging and deploying changes between servers remains very week.

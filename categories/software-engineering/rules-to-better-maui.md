@@ -9,11 +9,11 @@ index:
 - build-cross-platform-apps
 - maui-cross-platform
 - how-to-build-for-the-right-platforms
-- use-mvvm-pattern
-- use-design-time-data
 - the-best-maui-resources
+- use-mvvm-pattern
 - optimize-android-builds-and-start-up-times
 - use-hot-reload
+- use-design-time-data
 - consistently-style-your-app
 - conduct-cross-platform-ui-tests
 - dev-test-maui-apps

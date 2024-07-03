@@ -12,7 +12,7 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related: 
- - brainstorming-idea-champion
+  - brainstorming-idea-champion
 redirects: []
 created: 2023-10-23T02:15:11.000Z
 archivedreason: null

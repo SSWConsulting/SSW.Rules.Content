@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize form design by anchoring and docking single-line textboxes horizontally only to ensure proper resizing as forms widen.
 type: rule
 title: Anchoring and Docking - Do you use Anchoring and Docking (horizontal
   only) with single line textboxes?
@@ -9,6 +10,7 @@ authors:
 created: 2014-03-14T02:02:00.000Z
 guid: 422365e9-ddc8-45a7-8428-cfb712c58c12
 ---
+
 If you add a text box in a form you should add anchoring and/or docking properties to allow it to grow as the form widens, but not as it increases in height.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Involving business stakeholders in Program Increment (PI) planning ensures alignment with business objectives and fosters informed decision-making.
 type: rule
 title: Do you involve business stakeholders in Program Increment (PI) planning?
 uri: involve-stakeholders-in-pi-planning
@@ -15,6 +16,7 @@ created: 2023-10-13T17:45:00.000Z
 archivedreason: null
 guid: c7d58999-e7af-4e2d-89f7-38f693a9fbaa
 ---
+
 As you gear up for a new Program Increment (PI), your development teams are primed and ready. But there's a critical piece missing: active involvement from your business stakeholders.
 
 Without their insights, there's a tangible risk of a disconnect, where the development efforts might not fully align with the actual business requirements. Actively involving these stakeholders in PI planning is key to ensuring that what's being built truly meets the business needs and objectives.

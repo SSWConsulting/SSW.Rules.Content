@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure you apply CRM 2015 update rollup 1 before upgrading to CRM 2016.
 type: rule
 title: Do you apply CRM 2015 update rollup 1 before upgrading to 2016?
 uri: do-you-apply-crm-2015-update-rollup-1-before-upgrading-to-2016
@@ -20,19 +21,19 @@ Make sure CRM 2015 update rollup 1 has been applied before upgrading to CRM 2016
 
 **Note:** You might come accross the error below while applying CRM 2015 update rollup 1.
 
-``` sql
+```sql
 Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048. Continuing with other orgs. Exception: System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.Data.SqlClient.SqlException: The current transaction cannot be committed and cannot support operations that write to the log file. Roll back the transaction.</div><div>Uncommittable transaction is detected at the end of the batch. The transaction is rolled back.
 ```
 
-**Solution:** 
-  
-* Make a backup of the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
- 
-* Open the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install” 
+**Solution:**
 
-* Remove the entry about the index “cndx_BusinessDataLocalizedLabel”. This is found at the very end of the file:
+- Make a backup of the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
 
-  ``` xml
+- Open the file MetadataDiffs.xml from “C:\Program Files\Microsoft Dynamics CRM\Setup\Serviceability\Latest\Actions_Org\Install”
+
+- Remove the entry about the index “cndx_BusinessDataLocalizedLabel”. This is found at the very end of the file:
+
+  ```xml
   <index Name="cndx_BusinessDataLocalizedLabel">
      <EntityId&gt;4ba1569e-3c9c-4d9f-99ea-b61fb08d7f97&lt;/EntityId>
      <IsClustered>1</IsClustered>
@@ -47,13 +48,13 @@ Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048.
     </attributes>
    </index>
   ```
-  
-* Close Deployment Manager
-* Start Deployment Manager
-* Start the organization update from Deployment manager
-* Run the following query on the organization DB to manually recreate the index
 
-  ``` sql
+- Close Deployment Manager
+- Start Deployment Manager
+- Start the organization update from Deployment manager
+- Run the following query on the organization DB to manually recreate the index
+
+  ```sql
   IF EXISTS (SELECT * FROM sys.indexes WHERE name = 'cndx_BusinessDataLocalizedLabel' AND OBJECT_NAME(object_id) = 'BusinessDataLocalizedLabelBase') DROP INDEX [cndx_BusinessDataLocalizedLabel] ON [BusinessDataLocalizedLabelBase];
   IF NOT EXISTS (SELECT * FROM sys.indexes WHERE NAME = 'cndx_BusinessDataLocalizedLabel' AND OBJECT_NAME(object_id) = 'BusinessDataLocalizedLabelBase')
   BEGIN TRY
@@ -64,6 +65,6 @@ Database update install failed for orgId = 011d5962-3475-4df9-a123-c3ecaf88b048.
   END CATCH
   ```
 
-* Restore the file MetadataDiffs.xml to its original state using the backup taken at step 1
+- Restore the file MetadataDiffs.xml to its original state using the backup taken at step 1
 
 **Source:** [Error updating Microsoft Dynamics CRM 2015 0.1](https://community.dynamics.com/forums/thread/details/?threadid=8f9d9ec1-541e-4562-a813-f548550061e4)

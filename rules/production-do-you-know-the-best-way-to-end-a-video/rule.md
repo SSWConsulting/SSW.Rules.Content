@@ -1,4 +1,5 @@
 ---
+seoDescription: Best way to end a video includes a call-to-action, company logo, and speaker sign-off.
 type: rule
 title: Production - Do you know the best way to end a video?
 uri: production-do-you-know-the-best-way-to-end-a-video
@@ -11,6 +12,7 @@ created: 2011-10-19T15:48:28.000Z
 archivedreason: Replaced by [https://www.ssw.com.au/rules/production-do-you-add-a-call-to-action](/rules/production-do-you-add-a-call-to-action)
 guid: 28d64ecd-0582-42c6-bf7a-f3f9ae6c17b8
 ---
+
 The ending of your video should contain a [call to action](/production-do-you-add-a-call-to-action), the logo of your company and a sign off from the speaker(s).
 
 <!--endintro-->
@@ -23,7 +25,7 @@ In a lecture the best way is to finish is the same way the speaker would end a n
 "This is Adam Cogan signing off until next time" (grins at camera with a thumbs up)
 :::
 ::: bad
-Figure: Bad example – Impersonal, cheesy and uninformative sign off**
+Figure: Bad example – Impersonal, cheesy and uninformative sign off\*\*
 :::
 
 ::: greybox
@@ -36,5 +38,5 @@ Interviewee (Joe):
 
 :::
 ::: good
-Figure: Good example – Personal, the speakers relate to each other well, refers to subject matter in the video**
+Figure: Good example – Personal, the speakers relate to each other well, refers to subject matter in the video\*\*
 :::

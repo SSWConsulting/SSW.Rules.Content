@@ -1,4 +1,5 @@
 ---
+seoDescription: Facebook Ads Metrics to Monitor - Optimize Your Campaigns with Sales, Leads, and Engagement Insights.
 type: rule
 title: Facebook Ads - Do you know what metrics you should follow?
 uri: facebook-ads-metrics
@@ -17,6 +18,7 @@ created: 2015-11-30T22:36:30.000Z
 archivedreason: null
 guid: bdcc1ef2-46b4-4c60-82b3-99b66747ce15
 ---
+
 When it comes to Facebook advertising, we can be looking at a wide range of industries and strategies. For this reason, we could be talking about different metrics according to each scenario/strategy/business.
 
 <!--endintro-->

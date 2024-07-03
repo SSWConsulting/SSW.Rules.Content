@@ -6,6 +6,7 @@ uri: rules-to-better-modular-monoliths
 index:
 - modular-monoliths
 - use-mass-transit
+- software-architecture-decision-tree
 
 ---
 

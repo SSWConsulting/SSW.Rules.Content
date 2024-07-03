@@ -1,4 +1,5 @@
 ---
+seoDescription: Dates should be formatted consistently across an application to avoid confusion for users, aligning with the operating system's regional settings.
 type: rule
 title: Dates - Do you keep date formatting consistent across your application?
 uri: dates-do-you-keep-date-formats-consistent-across-your-application
@@ -18,7 +19,7 @@ Date formats should always be kept consistent across your application, more impo
 
 <!--endintro-->
 
-![Figure: Operating System's Regional Settings](../../assets/BetterInterface\_RegionalSettings.jpg)  
+![Figure: Operating System's Regional Settings](../../assets/BetterInterface_RegionalSettings.jpg)
 
 ::: bad  
 ![Figure: Bad example - Screens with inconsistent date formats](../../assets/BadExampleDP.gif)  
@@ -33,6 +34,7 @@ The best way to do this in your code is to grab the culture information from the
 ```dotnet
 startTimeTextBox.Text = resultResults.StartTime.ToString("dd/MM/yyyy hh:mm:ss");
 ```
+
 ::: bad
 Figure: Bad Example - Using hard coded formatting string
 :::
@@ -45,6 +47,7 @@ Public initialCulture As CultureInfo
 ...
 txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialCulture.DateTimeFormat)
 ```
+
 ::: good
 Figure: Good Example - Using culture info to format datetime
 :::

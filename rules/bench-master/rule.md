@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure a smooth transition between client projects by designating a Bench Master to manage internal resources and streamline workflow.
 type: rule
 archivedreason:
 title: Do you have a Bench Master?

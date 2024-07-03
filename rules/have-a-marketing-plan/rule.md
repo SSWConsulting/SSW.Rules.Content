@@ -1,4 +1,5 @@
 ---
+seoDescription: Develop a marketing plan that serves as a blueprint for your business's marketing activities, helping you achieve your goals and stay competitive.
 type: rule
 title: Strategy - Do you have a marketing plan?
 uri: have-a-marketing-plan
@@ -26,13 +27,13 @@ You should know that a marketing plan is of monumental importance. Although we r
 
 Here are some of the important points to consider in a marketing plan:
 
-* Set out your marketing goals and objectives then align them with your overall business goals and strategy
-* Set out a time frame for achieving those goals
-* Identify a target market and segmentation strategy
-* Define how you will position and differentiate your product
-* Use competitor and industry analysis
-* Identify current and proposed marketing methods
-* Include marketing reports (historical and forecasts)
-* Set the criteria against which the plan will be assessed for success or failure
+- Set out your marketing goals and objectives then align them with your overall business goals and strategy
+- Set out a time frame for achieving those goals
+- Identify a target market and segmentation strategy
+- Define how you will position and differentiate your product
+- Use competitor and industry analysis
+- Identify current and proposed marketing methods
+- Include marketing reports (historical and forecasts)
+- Set the criteria against which the plan will be assessed for success or failure
 
 The most important thing to remember about a marketing plan is that it is a work in progress, always needing to be reassessed and changed to adapt to the dynamic business environment.

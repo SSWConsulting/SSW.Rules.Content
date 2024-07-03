@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best screenshot tools to enhance your productivity and communication!
 type: rule
 title: Do you know the best screenshot tools?
 uri: screenshots-tools
@@ -14,7 +15,6 @@ redirects:
   - edit-screenshots
 created: 2022-06-09T02:55:13.497Z
 guid: dba3860a-9d3c-4ecb-9bc1-fc36443d0ddf
-
 ---
 
 A picture says a thousand words, so using screenshots to provide context is invaluable. However, it isn't always clear to others what part of the screenshot they need to be looking at. So, it is important that you edit your screenshots to add extra info such as highlighting critical information.

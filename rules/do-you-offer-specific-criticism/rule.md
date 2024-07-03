@@ -1,4 +1,5 @@
 ---
+seoDescription: Offering specific feedback improves communication and encourages meaningful change, whereas generic criticism can be unclear and unproductive.
 type: rule
 title: Communication - Do you offer specific feedback?
 uri: do-you-offer-specific-criticism
@@ -12,6 +13,7 @@ created: 2012-09-25T17:54:21.000Z
 archivedreason: null
 guid: 781aa623-f379-4187-930c-0e6923eb71c4
 ---
+
 Every day you will probably come across something that could be improved. If you're not making improvements, you're going backwards. But don't make suggestions or criticisms without being specific.
 
 <!--endintro-->
@@ -21,7 +23,7 @@ Every day you will probably come across something that could be improved. If yo
 :::
 
 ::: bad
-Figure: Bad Example - Nonspecific criticism 
+Figure: Bad Example - Nonspecific criticism
 :::
 
 When you find a problem, pinpoint it directly (and recommend a solution):

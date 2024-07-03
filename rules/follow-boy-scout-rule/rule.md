@@ -1,4 +1,5 @@
 ---
+seoDescription: Leave code cleaner than found it, removing smells and improving readability with techniques like DRY, renaming, and restructuring.
 type: rule
 title: Do you follow the boy scout rule?
 uri: follow-boy-scout-rule
@@ -11,7 +12,6 @@ redirects:
 created: 2018-04-30T22:01:51.000Z
 archivedreason: null
 guid: e7064a56-5702-42fb-b4a3-3c934c6163eb
-
 ---
 
 This rule is inspired by a piece from [Robert C. Martin (Uncle Bob)](https://www.oreilly.com/library/view/97-things-every/9780596809515/ch08.html) where he identifies an age old boys scouts rule could be used by software developers to constantly improve a codebase.

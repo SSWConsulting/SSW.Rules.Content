@@ -1,16 +1,16 @@
 ---
+seoDescription: Optimize user interface design with simplicity and clarity to provide an intuitive experience for users, improving overall application usability and reducing support calls.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/less-is-more](/rules/less-is-more)
 title: Windows Forms - Do you realize that when it comes to interfaces 'less is more'?
 guid: 0505dd41-16a8-4b0d-8768-c4d76bd4e03e
 uri: less-is-more-do-you-realize-that-when-it-comes-to-interface-design-less-is-more
 created: 2012-11-27T01:41:21.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 'Less is more' is the idea that simplicity and clarity lead to good design. The interface design is an attempt to solve the problem of how to communicate clearly.

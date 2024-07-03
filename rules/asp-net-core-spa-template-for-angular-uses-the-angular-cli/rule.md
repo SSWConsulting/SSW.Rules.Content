@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you know that the ASP.NET Core SPA Template for Angular uses the Angular CLI?
 type: rule
 title: Options - Do you know that the ASP.NET Core SPA Template for Angular uses
   the Angular CLI?
@@ -13,6 +14,7 @@ created: 2018-10-24T21:43:41.000Z
 archivedreason: null
 guid: 0e2c9d0c-ca13-4692-8eaf-96b6e6e30165
 ---
+
 **For .NET Developers only!**
 
 For many Angular solutions, a good practice is to keep your client-side and server-side code in separate projects.
@@ -39,16 +41,16 @@ To create an Angular application with the SPA template new project from the comm
 dotnet new angular -o MyAngularApp
 ```
 
-![Figure: Creating a project using Visual Studio](create-angular-via-vs.png)  
+![Figure: Creating a project using Visual Studio](create-angular-via-vs.png)
 
 Although Visual Studio can be used to create the project, we still recommend Visual Studio Code for working with the Angular code, as per [Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
 
-### The ASP.NET Core SPA Template for Angular Includes: 
+### The ASP.NET Core SPA Template for Angular Includes
 
-![Figure: A simple example WebAPI](simple-example-webapi.png)  
+![Figure: A simple example WebAPI](simple-example-webapi.png)
 
-![Figure: An Angular UI with Twitter Bootstrap styling](angular-ui-with-bootstrap.png)  
+![Figure: An Angular UI with Twitter Bootstrap styling](angular-ui-with-bootstrap.png)
 
-This Angular app uses the Angular CLI and is fully compatible with any other Angular CLI app. If you want to create a new app from scratch, simply delete the contents of the  **ClientApp** folder and run  **ng new.**
+This Angular app uses the Angular CLI and is fully compatible with any other Angular CLI app. If you want to create a new app from scratch, simply delete the contents of the **ClientApp** folder and run **ng new.**
 
 So you get the benefits of easy client-server integration without having to compromise any Angular client-side features or Angular CLI tooling.

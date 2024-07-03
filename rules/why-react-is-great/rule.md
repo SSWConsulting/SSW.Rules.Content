@@ -1,17 +1,17 @@
 ---
+seoDescription: React is a simple and easy-to-learn JavaScript library for building user interfaces that offers native approach to mobile app development, one-way data binding, performance, testability, and great developer tools.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know why React is great?
 guid: 670934a2-46c3-4325-b5c2-2b4aa7818a17
 uri: why-react-is-great
 created: 2019-05-06T14:13:53.0000000Z
 authors:
-- title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  - title: Shane Ye
+    url: https://ssw.com.au/people/shane-ye
 related: []
 redirects:
-- do-you-know-why-react-is-great
-
+  - do-you-know-why-react-is-great
 ---
 
 There are so many open-source platforms for making the front-end web application development easier, some people like Angular, some people like React. Let us take a look at the benefits of React.
@@ -48,8 +48,5 @@ Developer toolset is another important factor when you are choosing a developmen
 
 ### References
 
-
-
-
-* [React - A JavaScript library for building user interfaces](https&#58;//reactjs.org/)
-* [What Is ReactJS and Why Should We Use It?](https&#58;//www.c-sharpcorner.com/article/what-and-why-reactjs/)
+- [React - A JavaScript library for building user interfaces](https://reactjs.org/)
+- [What Is ReactJS and Why Should We Use It?](https://www.c-sharpcorner.com/article/what-and-why-reactjs/)

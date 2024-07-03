@@ -1,6 +1,7 @@
 ---
+seoDescription: Boost your Scrum productivity by visualizing the process on your War Room wall with an effective image that includes all crucial steps from initial meetings to reviews and retrospectives.
 type: rule
-archivedreason: 
+archivedreason:
 title: The War Room - Does your Scrum room have the best Scrum image?
 guid: e1a95e17-ed39-4faa-88cf-999c06ea6933
 uri: the-war-room-does-your-scrum-room-have-the-best-scrum-image
@@ -8,15 +9,14 @@ created: 2010-12-20T09:23:18.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
+related:
   - do-you-know-the-3-steps-to-a-pbi
 redirects: []
-
 ---
 
 We all know that a visual image can make a complex process easy to understand. Having a visual image of the Scrum process helps everyone, including the Product Owner and interested stakeholders, understand the process and make sure the steps are being followed.
 
-Here is an image for your war room wall...  
+Here is an image for your war room wall...
 
 <!--endintro-->
 
@@ -34,6 +34,6 @@ Here is an image for your war room wall...
 
 Find and print the PDF on the ["SSW 8 Steps to Scrum" rule](/8-steps-to-scrum), then put it on your 'War Room' wall.
 
-If you like this, retweet:  
+If you like this, retweet:
 
 `oembed: https://twitter.com/AdamCogan/status/94109372908711936`

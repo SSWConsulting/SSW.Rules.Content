@@ -1,4 +1,5 @@
 ---
+seoDescription: Text alignment should be set to TopLeft or MiddleLeft in forms to allow text boxes to grow horizontally but not vertically.
 type: rule
 title: Do you know TextAlign should be TopLeft or MiddleLeft?
 uri: textalign-should-be-topleft-or-middleleft
@@ -8,6 +9,7 @@ authors:
 created: 2014-03-14T02:44:00.000Z
 guid: ef0c7b24-336b-4c8a-87ae-7b8ce4b6598f
 ---
+
 If you add a text box in a form you should add anchoring and/or docking properties to allow it to grow as the form widens, but not as it increases in height.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Well-structured agendas boost board meeting efficiency and effectiveness by setting clear expectations, promoting focused discussions, and ensuring all critical topics are covered.
 type: rule
 title: Do you prepare an agenda for your board meetings?
 uri: prepare-an-agenda
@@ -10,6 +11,7 @@ related:
 created: 2024-02-28T22:53:34.710Z
 guid: f581f5f0-8e75-4bfa-a48d-724d4536a44d
 ---
+
 A well-structured agenda is the backbone of an effective board meeting. It sets clear expectations for what will be discussed, ensuring that time is used efficiently and that all necessary topics are covered.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Master the art of capitalizing titles and headings with our easy-to-follow rules!
 type: rule
 title: Do you know how to capitalize titles and headings?
 uri: how-to-capitalize-titles
@@ -13,6 +14,7 @@ created: 2016-04-21T06:04:30.000Z
 archivedreason: null
 guid: c8104ef3-2539-4459-9262-933b7333b619
 ---
+
 It's important to use correct capitalization when writing titles/headings for web content. For main titles, you should capitalize the first word, all nouns, all verbs (even short ones, like "is"), all adjectives, and all proper nouns. Leave subtitles in normal sentence form.
 
 You can find more rules & tips on capitalizing here: <!--StartFragment-->

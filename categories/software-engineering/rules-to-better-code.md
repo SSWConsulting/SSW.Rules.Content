@@ -67,6 +67,7 @@ index:
 - use-using-statement-instead-of-use-explicitly-dispose
 - warn-users-before-starting-a-long-process
 - wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again
+- do-you-know-the-difference-between-a-clever-and-a-smart-developer
 - use-enum-constants-instead-of-magic-numbers
 - avoid-using-magic-string-when-referencing-property-variable-names
 - use-null-condition-operators-when-getting-values-from-objects
@@ -85,6 +86,7 @@ index:
 - do-you-use-primary-constructors
 - do-you-use-collection-expressions
 - interfaces-abstract-classes
+- use-var
 
 ---
 

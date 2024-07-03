@@ -1,23 +1,23 @@
 ---
+seoDescription: Lodash simplifies JavaScript development by providing a vast array of performant functions to avoid reinventing the wheel, making daily tasks more efficient.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use lodash to perform your daily _.foreach?
 guid: 02d5d6d1-3af7-40f8-8480-d532ce9b8040
 uri: do-you-use-lodash-to-perform-your-daily-_-foreach
 created: 2015-05-05T18:45:14.0000000Z
 authors:
-- title: Ben Cull
-  url: https://ssw.com.au/people/ben-cull
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  - title: Ben Cull
+    url: https://ssw.com.au/people/ben-cull
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
-
 ---
 
 In a nutshell, Lo-Dash is a super useful library that gives you access to over 100 extremely performant functions to help you avoid reinventing the wheel whilst writing JavaScript.
 
-You can get lodash from [GitHub repository](https&#58;//github.com/lodash/lodash), [cdnjs](https&#58;//cdnjs.com/libraries/lodash.js) or via [NPM](https&#58;//www.npmjs.com/package/lodash). Once done you can include a reference in your HTML.
+You can get lodash from [GitHub repository](https://github.com/lodash/lodash), [cdnjs](https://cdnjs.com/libraries/lodash.js) or via [NPM](https://www.npmjs.com/package/lodash). Once done you can include a reference in your HTML.
 
 <!--endintro-->
 
@@ -31,7 +31,11 @@ A simple example of the power of lodash is this snippet of code which is looping
 This new simplified array of account numbers was then used in a dropdown to filter the Kendo grid. This single line saves a call to the database for another array of data and populates the dropdown with the same shared datasource. This would be a pain to write with vanilla javascript and difficult to read.
 
 ```js
-this.accountNumberDropDownData = _.chain(this.sharedDataSource).pluck('AccountNumber').uniq().sortBy().value();
+this.accountNumberDropDownData = _.chain(this.sharedDataSource)
+  .pluck("AccountNumber")
+  .uniq()
+  .sortBy()
+  .value();
 ```
 
 ::: good
@@ -45,5 +49,5 @@ If you have been into JavaScript development for a while you may of also heard a
 
 Further reading:
 
-1. [lodash.com](https&#58;//lodash.com/)
-2. [underscorejs.org](http&#58;//underscorejs.org/)
+1. [lodash.com](https://lodash.com/)
+2. [underscorejs.org](http://underscorejs.org/)

@@ -1,4 +1,5 @@
 ---
+seoDescription: Documenting discoveries and decisions - A crucial step in effective Scrum team collaboration.
 type: rule
 title: Do you document discoveries and decisions?
 guid: e625ed0e-b800-4d0d-bc2a-696983b52f84
@@ -13,6 +14,7 @@ redirects: []
 related: []
 archivedreason: null
 ---
+
 Work items often have a great description and Acceptance Criteria. However, work can change quickly; sometimes, the justification for those changes ends up in emails or instant messages.
 
 If decisions and discoveries aren't in a central location, it can cause significant pain down the line. For example, if a new developer starts working on a work item, they might get halfway through the task only to find out their work has been wasted due to side conversations in emails. Therefore, when the requirements of a Work Item change or critical information is found, these details should be accessible to everyone on the Scrum team.
@@ -30,13 +32,13 @@ All important discoveries and decisions made around a Work Item should be record
 
 Some examples include:
 
-**Discoveries**  
+**Discoveries**
 
-* A developer finds a blocking issue hindering the Work Item's progress  
+* A developer finds a blocking issue hindering the Work Item's progress
 * A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
 * A tester notices a problem with a feature
 
-**Decisions**  
+**Decisions**
 
 * The Product Owner has asked for changes to the functionality
 * A developer gets approval to implement a new UI design
@@ -88,19 +90,19 @@ Easily accessible by anyone in the team
 
 ::: good
 Provides proof of approval
-:::  
+:::
 
 ::: bad
 ![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Product Owner|
-| Cc:      | Development Team|
+| To: | Product Owner|
+| Cc: | Development Team|
 | Subject: | Project - Work Item Update |
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
@@ -110,7 +112,7 @@ As per our conversation, the primary button colour does not conform with the Nor
 
 ::: bad
 Figure: Bad example - Sending an email to confirm updates to the work item
-:::  
+:::
 
 ::: good
 ![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")

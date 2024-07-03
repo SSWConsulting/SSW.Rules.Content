@@ -1,17 +1,17 @@
 ---
+seoDescription: Granting least privileges to users is crucial for securing Azure permissions and preventing unauthorized access.
 type: rule
-archivedreason: 
+archivedreason:
 title: Security - Do you give users least privileges?
 guid: 84021197-733f-4203-b734-df845a2be063
 uri: give-users-least-privileges
 created: 2018-04-09T21:28:47.0000000Z
 authors:
-- title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  - title: Steven Andrews
+    url: https://ssw.com.au/people/steven-andrews
 related: []
 redirects:
-- do-you-give-users-least-privileges
-
+  - do-you-give-users-least-privileges
 ---
 
 Like other services, it is important that your company has a structured and secure approach to managing Azure Permissions.
@@ -28,4 +28,4 @@ First a little understanding of how Azure permissions work. For each subscriptio
 ![Figure: Good example - Only Administrators that will be managing overall permissions and content have been given Owner/Co-administrator](azure-permissions-good.png)  
 :::
 
-From the above image, only the main Administrators have been given Owner/Co-administrator access, all other users within the SSWDesigners and  **SSWDevelopers** Security Groups have been given Reader access. The **SSWSysAdmins** Security group has also been included as an owner which will assist in case permissions are accidentally stripped from the current Owners.
+From the above image, only the main Administrators have been given Owner/Co-administrator access, all other users within the SSWDesigners and **SSWDevelopers** Security Groups have been given Reader access. The **SSWSysAdmins** Security group has also been included as an owner which will assist in case permissions are accidentally stripped from the current Owners.

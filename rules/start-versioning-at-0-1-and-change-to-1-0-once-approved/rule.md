@@ -1,4 +1,5 @@
 ---
+seoDescription: Start versioning at 0.1 and upgrade to 1.0 after client or tester approval for a consistent and meaningful numbering system.
 type: rule
 title: Do you start versioning at 0.1 and change to 1.0 once approved by a
   client or tester?

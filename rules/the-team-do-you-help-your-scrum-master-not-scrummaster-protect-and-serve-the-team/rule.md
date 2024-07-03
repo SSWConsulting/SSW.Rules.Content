@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you help your Scrum Master protect and serve The Team by ensuring team members prioritize tasks, avoid distractions, and keep commitments while working together to deliver on their Sprint goals.
 type: rule
 title: The Team - Do you help your Scrum Master protect and serve The Team?
 uri: the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team
@@ -19,6 +20,7 @@ created: 2010-04-14T06:39:22.000Z
 archivedreason: null
 guid: 4981f2e8-4846-4d23-8aae-c1992683a312
 ---
+
 Part of the Scrum Master's (not ScrumMaster's) role is to protect the team from distractions so they can deliver on their commitments, to ensure agreed process is followed and to help all roles keep their promises.
 
 It is also important that team members do not allow themselves to get distracted and must work based on priority.
@@ -35,9 +37,9 @@ Any requests for work or distractions outside the scope of the project that take
 
 The only exceptions, where a Team Member can start the work before notifying the Scrum Master are:
 
-* Any critical production issues that absolutely requires the attention of the Team Member and nobody else is available
-* A client request for work when the Team Member is working on an internal project
-* Test please requests, if the total time taken from the Sprint for all Test Please requests is less than 8 hours
+- Any critical production issues that absolutely requires the attention of the Team Member and nobody else is available
+- A client request for work when the Team Member is working on an internal project
+- Test please requests, if the total time taken from the Sprint for all Test Please requests is less than 8 hours
 
 In these 3 exceptional cases only, even if the Team Member doesn't get a response from the Scrum Master, the requestor can insist that the member starts the other work immediately.
 

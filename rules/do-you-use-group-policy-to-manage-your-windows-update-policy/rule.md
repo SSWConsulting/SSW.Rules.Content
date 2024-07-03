@@ -1,4 +1,5 @@
 ---
+seoDescription: Master Windows Update Policy with Group Policy and avoid unexpected reboots on your servers by configuring automatic updates to download and notify for install.
 type: rule
 title: Do you use Group Policy to manage your Windows Update Policy?
 uri: do-you-use-group-policy-to-manage-your-windows-update-policy
@@ -15,7 +16,8 @@ created: 2011-03-21T00:27:18.000Z
 archivedreason: null
 guid: 19452101-3232-446e-9932-2e8486b410d4
 ---
-We all know it’s important to keep our servers updated. Unfortunately though, by default, Windows will automatically download and install all new Windows Updates on your servers. This will mean the servers will occasionally restart to install updates when you don’t want them too. You will also get annoying popups trying to get you to restart the computer. 
+
+We all know it’s important to keep our servers updated. Unfortunately though, by default, Windows will automatically download and install all new Windows Updates on your servers. This will mean the servers will occasionally restart to install updates when you don’t want them too. You will also get annoying popups trying to get you to restart the computer.
 
 <!--endintro-->
 
@@ -44,7 +46,7 @@ The best ensure you are still downloading updates but not installing them automa
 ![Create a new Group Policy for your Production Servers](updates-gpo.jpg)
 
 3. Edit the new Group Policy object and drill down to  
-   **Computer Configuration** | **Policies** | **Windows Components** | **Windows Update** 
+   **Computer Configuration** | **Policies** | **Windows Components** | **Windows Update**
 
 4. Edit  
    **Configure Automatic Update Properties** item and **enable** it

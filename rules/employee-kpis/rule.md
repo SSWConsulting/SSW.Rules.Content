@@ -21,18 +21,18 @@ When a company is small, Annual Employee Reviews start as a fairly informal proc
 
 As the company grows and more people join, 2 problems start to occur:
 
-1. Reviews start to get longer as scope increases.
-2. Other managers need to start leading reviews but aren't clear on the processes.
+1. Reviews start to get longer as scope increases
+2. Other managers need to start leading reviews but aren't clear on the processes
 
 For these reasons, it's important for all the review managers to get aligned about what topics and performance indicators need to be covered, and to ensure scope is limited.
 
-Key Performance Indicators (KPIs) are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on.
+**Key Performance Indicators (KPIs)** are a tool for standardizing how performance is measured at a company and ensuring employees are aware of what they need to focus on. However, everybody brings much more to their companies than just statistics; KPIs are just a conversation starter.
 
 KPIs also lead to efficient, focused Annual Employee Reviews.
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=NJYHlpv8jaE`
+`youtube: https://youtu.be/EPoK7paJNbU`
 **Video: Annual Reviews | Adam Cogan & Ulysses Maclaren | SSW Rules (8 min)**
 
 ### How KPIs should be used
@@ -49,18 +49,15 @@ The result is a final score and % showing the performance of the employee.
 
 #### Qualitative vs Quantitative KPIs
 
-While many organisations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance.
+While many organizations opt for quantitative KPIs, it's difficult to build a system that factors in all the nuance of performance.
 
 Qualitative KPIs provide more room to make a subjective judgment.
-
-::: warning
-KPIs are just a conversation starter.
-:::
 
 ### Metrics to measure
 
 There's lots of metrics that can be measured, and the right ones are going to depend on what is important to the organization.
 
-For example, SSW is a consulting company and these are the metrics for an consultant. [template KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs)
+For example, SSW is a consulting company and has particular metrics for a consultant (see [SSW template for Annual Review KPIs](https://github.com/SSWConsulting/SSW.EmployeeKPIs).  
 [Tina](https://tina.io) is a product company and there would be different metrics for an engineer.
+
 <!-- TODO: Add link to Tina KPIs -->

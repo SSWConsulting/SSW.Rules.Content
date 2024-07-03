@@ -1,4 +1,5 @@
 ---
+seoDescription: Storyboarding simplifies complex user requirements through visual mockups, saving time and improving understanding.
 type: rule
 archivedreason: one-line rule, redundant
 title: Do you know how to use storyboards?
@@ -8,10 +9,10 @@ created: 2012-11-27T01:46:49.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 Complex documentation can waste time. Many user requirements can be best encapsulated in screen mock-ups. Spend more time on mockups compared with time on documentation.
 
 <!--endintro-->
+
 [Read more about storyboarding](/storyboarding-do-you-conduct-specification-analysis-by-creating-mock-ups)

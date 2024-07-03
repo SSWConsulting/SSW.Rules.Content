@@ -1,4 +1,5 @@
 ---
+seoDescription: Minimize clutter and create clean interfaces by removing unnecessary labels and emphasizing user understanding.
 type: rule
 title: Do you avoid unnecessary labels?
 uri: avoid-labels
@@ -14,7 +15,6 @@ related:
 created: 2021-07-09T12:00:01.000Z
 archivedreason: null
 guid: b3b50fc7-72f1-42d7-9e63-80280c57b608
-
 ---
 
 Thinking about UI, the objective is to create **clean interfaces** by minimizing clutter. You do that by removing noise. One of the most common ways to avoid noise is the removal or de-emphasis of labels whenever possible.

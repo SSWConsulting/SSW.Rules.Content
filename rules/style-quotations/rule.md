@@ -1,21 +1,22 @@
 ---
+seoDescription: Add quotation marks to make them easily identifiable and improve readability by starting a new line with indentation.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you make quotes identifiable?
 guid: 0212ab54-f936-4d72-a690-c9276ded3cc6
 uri: style-quotations
 created: 2016-04-21T04:15:15.0000000Z
-authors: 
-- title: Tiago Araujo
-  url: https://www.ssw.com.au/people/tiago-araujo
-- title: Adam Cogan
-  url: https://www.ssw.com.au/people/adam-cogan
+authors:
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
-- commas-and-full-stops-always-should-have-1-space-after-them
-- use-quotation-mark-for-controls
+  - commas-and-full-stops-always-should-have-1-space-after-them
+  - use-quotation-mark-for-controls
 redirects:
-- do-you-know-how-to-make-quotations-easier-to-identify
-- how-to-add-quotations
+  - do-you-know-how-to-make-quotations-easier-to-identify
+  - how-to-add-quotations
 ---
 
 When you add a quotation, put them in a new line with an indent.
@@ -30,7 +31,7 @@ Figure: Bad example - The quotation without a new line (or indent)
 :::
 
 ::: greybox
-Software development can be painful and costly. Hang on, that should say:   
+Software development can be painful and costly. Hang on, that should say:  
 &nbsp;&nbsp;&nbsp;"Software development **is** painful and costly."  
 :::
 ::: good

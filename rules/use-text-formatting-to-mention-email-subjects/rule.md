@@ -1,18 +1,18 @@
 ---
+seoDescription: Enhance email references in Microsoft Teams chats by using text formatting to mention subjects.
 type: rule
 archivedreason: the content of this rule has been moved to the rule [make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email](/rules/make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email)
 title: Do you use text formatting to mention email subjects?
 guid: efc4aa59-3793-4f59-8ae0-227dc5ef336b
 uri: use-text-formatting-to-mention-email-subjects
 created: 2023-12-07T16:06:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- use-emojis
-redirects: 
-- do-you-use-text-formatting-to-mention-email-subjects
-
+  - use-emojis
+redirects:
+  - do-you-use-text-formatting-to-mention-email-subjects
 ---
 
 Usually, when mentioning an email in a Microsoft Teams chat, the approach is straightforward, such as typing "email subject: Good morning."

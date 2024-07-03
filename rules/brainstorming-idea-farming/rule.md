@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively farm brainstorming ideas by gathering high-quality concepts in advance, leveraging GitHub Discussions and structured templates for a successful and streamlined Brainstorming Day.
 type: rule
 title: Pre event - Do you know how to farm Brainstorming ideas?
 uri: brainstorming-idea-farming
@@ -18,6 +19,7 @@ created: 2023-10-22T02:15:11.000Z
 archivedreason: null
 guid: 3dcf22f6-5c13-46b4-88c7-b6edac5d6996
 ---
+
 Beginning a Brainstorming Day without ideas prepared in advance is not a recipe for success. Time will be wasted either coming up with ideas, or preparing them to work on.
 
 For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation smoothens the day's proceedings and increases its overall value.
@@ -28,7 +30,7 @@ For a successful and streamlined Brainstorming Day, it's crucial to gather well-
 
 For a successful and streamlined Brainstorming Day, it's crucial to gather well-formed ideas in advance. This preparation not only smoothens the day's proceedings but also enhances its overall value.
 
-To ensure you get high-quality ideas, create a structured template for the Discussion.   
+To ensure you get high-quality ideas, create a structured template for the Discussion.
 
 ::: info
 **Tip:** You can use [this repo template which contains SSW's Discussion template](https://github.com/SSWConsulting/SSW.Brainstorming.Template).

@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accuracy and thoroughness in your work by following attention-to-detail strategies, including double-checking, using tools like ChatGPT and spell checkers, taking time to complete tasks, and breaking them down into smaller parts.
 type: rule
 title: Attention to Detail - Do you know how to make sure you've covered all your bases?
 uri: attention-to-detail
@@ -6,7 +7,7 @@ authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
 related:
-- checked-by-xxx
+  - checked-by-xxx
 created: 2024-02-06T13:42:55.753Z
 guid: d83c5fa6-7b29-4d3e-ba6e-5d25c9b3e8f9
 ---

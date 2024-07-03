@@ -1,6 +1,7 @@
 ---
+seoDescription: Do you use interoperability mechanism for COM object? Use .NET's interoperability features to work with existing unmanaged code and improve performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use interoperability mechanism for COM object?
 guid: c9ef1559-48d1-43fc-b279-2bbc15d21f9d
 uri: use-interoperability-mechanism-for-com-object
@@ -8,8 +9,7 @@ created: 2018-04-25T22:10:13.0000000Z
 authors: []
 related: []
 redirects:
-- do-you-use-interoperability-mechanism-for-com-object
-
+  - do-you-use-interoperability-mechanism-for-com-object
 ---
 
 VB.NET includes the `CreateObject()` Method for creating the COM object. This is an old relationship between VB and COM.
@@ -35,13 +35,13 @@ callable wrappers for handling all interaction between the .NET client code (man
 
 To add references to COM objects:
 
-* On the Project menu, select Add Reference and then click the COM tab.
-* Select the component you want to use from the list of COM objects.
+- On the Project menu, select Add Reference and then click the COM tab.
+- Select the component you want to use from the list of COM objects.
 
-   ![](UserCOM.gif)  
+  ![](UserCOM.gif)
 
-* To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
-use the COM object.
+- To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
+  use the COM object.
 
 You can also create interoperability assemblies using the Tlbimp command line utility.
 

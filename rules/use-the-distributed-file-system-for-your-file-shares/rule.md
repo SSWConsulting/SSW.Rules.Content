@@ -1,4 +1,5 @@
 ---
+seoDescription: Domain-wide file sharing solution that consolidates multiple shares into one location, ensuring seamless user experience and tracking file movements.
 type: rule
 title: Domain - Do you use the Distributed File System for your file shares?
 uri: use-the-distributed-file-system-for-your-file-shares
@@ -14,6 +15,7 @@ created: 2017-07-10T21:18:15.000Z
 archivedreason: null
 guid: c9f9fd35-5c40-4293-87fc-ea8dfb39f480
 ---
+
 Occasionally, one server and its drives will not have sufficient space to store all related files in a network share. For example, you may have a "SetupFiles" directory that stores all Setup executables on your network e.g. \bee\SetupFiles. There are problems with this approach.
 
 <!--endintro-->
@@ -23,4 +25,4 @@ Occasionally, one server and its drives will not have sufficient space to store 
 
 So how do you get around this problem? The answer is in the **Distributed File System (DFS)**. Instead of having several server-specific file share locations, you can have a domain-wide setup location that offers a seamless experience to your users. DFS will even track a history of when and where file locations were moved.
 
-![Figure: The Distributed File System consolidates many separate file shares into one convenient location for your users](Network\_DistributedFileSystem.gif)
+![Figure: The Distributed File System consolidates many separate file shares into one convenient location for your users](Network_DistributedFileSystem.gif)

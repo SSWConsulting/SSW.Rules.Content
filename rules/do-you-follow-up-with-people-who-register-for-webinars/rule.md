@@ -1,17 +1,17 @@
 ---
+seoDescription: Maximize webinar opportunities by following up with attendees, including adding them to your newsletter list and conducting personalized calls to discuss their challenges and offer support.
 type: rule
-archivedreason: 
+archivedreason:
 title: Webinar - Do you follow up with people who register for webinars?
 guid: 72715af5-b1c0-4dba-b1d9-891e3c16f98d
 uri: do-you-follow-up-with-people-who-register-for-webinars
 created: 2014-10-14T19:31:40.0000000Z
 authors:
-- title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
+  - title: Marlon Marescia
+    url: https://ssw.com.au/people/marlon-marescia
 related: []
 redirects:
-- webinar-do-you-follow-up-with-people-who-register-for-webinars
-
+  - webinar-do-you-follow-up-with-people-who-register-for-webinars
 ---
 
 One of the best ways to generate new opportunities for your business is to hold a webinar. It is very important that you follow up with each attendee after each webinar otherwise you will waste the opportunities you have created. After each webinar you should complete the following:
@@ -31,12 +31,12 @@ One of the best ways to generate new opportunities for your business is to hold 
    6. What does your business do?
    7. What is your role in the business? (Responsibilities)
 2. Send an email to new prospects including the following:
-    1. Video of the webinar
-    2. Any related resource that they might need
-    3. Introduce them to an Account Manager
+   1. Video of the webinar
+   2. Any related resource that they might need
+   3. Introduce them to an Account Manager
 3. If they are taking the course from outside your region (and you cannot provide your service to them) then send them an email including the following:
-    1. Video
-    2. Ask them if your business can help them in any way
+   1. Video
+   2. Ask them if your business can help them in any way
 
 ### For Existing clients
 

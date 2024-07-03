@@ -1,4 +1,5 @@
 ---
+seoDescription: Disagreeing with powerful stakeholders can have a significant impact on project outcomes. Learn how to effectively express your opinions and interests while keeping the conversation focused on the issue.
 type: rule
 title: Stakeholder Management - Do you know how to disagree with powerful stakeholders?
 uri: disagreeing-with-powerful-stakeholders
@@ -16,6 +17,7 @@ created: 2024-03-21T04:59:07.597Z
 guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
 archivedreason: null
 ---
+
 Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively.
 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`

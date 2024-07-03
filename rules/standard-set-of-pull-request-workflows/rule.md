@@ -1,17 +1,17 @@
 ---
+seoDescription: Standardize your pull request workflows to streamline development and ensure consistency across repositories with our tried-and-tested approaches.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have a standard set of pull request workflows?
 guid: 660b3dce-0c6b-412e-839e-15083f829454
 uri: standard-set-of-pull-request-workflows
 created: 2020-08-12T01:21:08.0000000Z
 authors:
-- title: Gordon Beeming
-  url: https://ssw.com.au/people/gordon-beeming
-related: 
-- merge-debt
+  - title: Gordon Beeming
+    url: https://ssw.com.au/people/gordon-beeming
+related:
+  - merge-debt
 redirects: []
-
 ---
 
 Getting started with a new repository can be daunting, especially if you are new to the project. Having a standard set of pull request workflows can help you get started and make sure you are following the same process as everyone else on the team.

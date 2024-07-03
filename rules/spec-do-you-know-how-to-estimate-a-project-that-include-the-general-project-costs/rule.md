@@ -1,29 +1,30 @@
 ---
+seoDescription: Estimate a project's overall cost by considering both general project costs and specific project costs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to estimate a Project including 'General Project Costs'?
 guid: c7fa5a0d-0be1-46f7-8100-ebf27cec9b23
 uri: spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
 created: 2009-09-16T02:44:19.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- spec-do-you-know-how-to-estimate-a-project-(that-include-the-general-project-costs)
-- spec-do-you-know-how-to-estimate-a-project-include-the-general-project-costs
-- spec-do-you-know-how-to-estimate-a-project-(include-the-general-project-costs)
-
+  - spec-do-you-know-how-to-estimate-a-project-(that-include-the-general-project-costs)
+  - spec-do-you-know-how-to-estimate-a-project-include-the-general-project-costs
+  - spec-do-you-know-how-to-estimate-a-project-(include-the-general-project-costs)
 ---
 
-Estimates contain 2 main classes of work: 
-- Relating to the particular product (e.g. create page 'customers.aspx') 
+Estimates contain 2 main classes of work:
+
+- Relating to the particular product (e.g. create page 'customers.aspx')
 - Relating to the project as a whole (e.g. management, administration, testing, software audit etc.).
 
 PBIs may only make up about 60% of the total project time. Project Managers and developers should not think that the only work being charged on a project are coding tasks.
@@ -31,17 +32,18 @@ PBIs may only make up about 60% of the total project time. Project Managers an
 <!--endintro-->
 
 ### General Project Costs
+
 Management costs can change depending on how much management the client requires. You should recommend a suitable level of management. 'Management, accountability and transparency' has a cost.
 
 You should add general project costs as a % of the work items generally in line with the following (note that these numbers are just best guesses):
 
-* Testing: 20%
-* Bug Fixes: 20%
-* Software Audit (if relevant): 4 hours per Release - usually conducted by two experienced Architects
-* Fixes from the Software Audit: 5%
-* DevOps: 10%
-* Project Management: 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.
-* Unknowns (for risky projects): 10%. While this is arbitrary it raises awareness for everybody that **there are things we still don't know!**
+- Testing: 20%
+- Bug Fixes: 20%
+- Software Audit (if relevant): 4 hours per Release - usually conducted by two experienced Architects
+- Fixes from the Software Audit: 5%
+- DevOps: 10%
+- Project Management: 15% - this includes items like stand up meetings, timesheets, standard updates, reviews, etc.
+- Unknowns (for risky projects): 10%. While this is arbitrary it raises awareness for everybody that **there are things we still don't know!**
 
 ### Project Specific Costs
 

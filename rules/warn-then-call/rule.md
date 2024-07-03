@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you warn someone before calling them? A warm call can be a game-changer, prioritizing their attention and ensuring they're prepared to discuss important topics.
 type: rule
 title: Calling - Do you warn then call?
 uri: warn-then-call
@@ -24,14 +25,13 @@ redirects:
 created: 2015-10-05T05:50:19.000Z
 archivedreason: null
 guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
-
 ---
 
 It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus is getting disrupted.
 
 Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
-A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*).
+A good way to initiate a call is to warm them up by giving a warning (e.g. _“Calling you in 1 min to talk about the Northwind production site being down 💀.”_).
 
 ::: greybox
 
@@ -43,10 +43,10 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 
 ## The benefits of a warm call
 
-* **Prioritization** - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago, they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
-* **Consideration** - It gives the other person the time to prepare. They might be busy or in another call
-* **Easier Responses** - It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why
-* **Availability** - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc
+- **Prioritization** - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago, they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
+- **Consideration** - It gives the other person the time to prepare. They might be busy or in another call
+- **Easier Responses** - It puts you into their chat history, so even if they decline the call, they can easily write back to you to explain why
+- **Availability** - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc
 
 ::: info
 **Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's an emergency.

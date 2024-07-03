@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep track of expiring app registration secrets and certificates in Azure AD to avoid authentication issues.
 type: rule
 title: Do you keep track of expiring app registration secrets and certificates?
 uri: expiring-app-secrets-certificates
@@ -8,6 +9,7 @@ authors:
 created: 2023-05-12T00:55:28.532Z
 guid: 429dbbef-ea36-4fc6-b358-924330966b4a
 ---
+
 In Azure AD, App Registrations are used to establish a trust relationship between your app and the Microsoft identity platform. This allows you to give your app access to various resources, such as Graph API.
 
 App Registrations use secrets or certificates for authentication. It is important to keep track of the expiry date of these authentication methods, so you can update them before things break.
@@ -30,7 +32,7 @@ To extend the example above, you can run the script on a schedule using Task Sch
 
 :::greybox
 
-Note: To run this on a schedule, you should create an app registration to authenticate the script. The app registration will need the role **Cloud Application Administrator**. 
+Note: To run this on a schedule, you should create an app registration to authenticate the script. The app registration will need the role **Cloud Application Administrator**.
 
 :::
 
