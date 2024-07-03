@@ -18,7 +18,6 @@ redirects: []
 created: 2017-03-29T06:06:12.000Z
 archivedreason: null
 guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
-
 ---
 
 Power BI reports are generally published directly into the Power BI Service. But doing so has many drawbacks. For example, you **can't** see:
@@ -52,6 +51,8 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 :::
 
 Read the rule on [the Power BI version control features](/do-you-know-powerbi-version-control-features) to learn more about Power BI Desktop Projects, and Power BI's integration with Git. 
+
+Note: This only works on reports. Dashboards do not have a PIBX file associated and are only available on the online service, and so cannot have any source control or verison history. 
 
 ### Editing and Committing Reports
 
