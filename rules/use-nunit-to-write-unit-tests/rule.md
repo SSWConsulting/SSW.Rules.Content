@@ -31,12 +31,6 @@ Example: You may have a shared project that your application uses. Another devel
 
 ![Figure: Unit Tests accessible from the help menu](unittestsinhelpmenu.jpg)
 
-Unit tests should also be accessible from the Help menu to assist in troubleshooting when your users call up tech support. For more information see [Rules to Better Interfaces](RulestoBetterInterfaces-Windows-Applications.aspx#HelpMenu).
+Unit tests should also be accessible from the Help menu to assist in troubleshooting when your users call up tech support.
 
-Note: Unit testing also works with Web projects.
-
-For more information on unit testing see [Rules to Better Unit Tests](https://ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#NotVSTS)
-
-Also see [Suggestions to TFS](https://ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx)
-
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements these Unit Tests
+**Note:** Unit testing also works with Web projects.
