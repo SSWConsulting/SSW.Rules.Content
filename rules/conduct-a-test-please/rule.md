@@ -44,8 +44,8 @@ Yes! You almost always want a "Test Please". We usually want a second pair of ey
 :::
 
 If you are writing code, your Pull Request (PR) is your "Test Please".  
-Tip #1: You should do an [over the shoulder PR review](/over-the-shoulder)
-Tip #2: Embrace Proactive Testing – If you anticipate potential feedback or issues with your code, ensure it is tested by a team member in the development environment after merging.
+Tip #1: You should do an [over the shoulder PR review](/over-the-shoulder)  
+Tip #2: Embrace Proactive Testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production.
 
 If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
 
