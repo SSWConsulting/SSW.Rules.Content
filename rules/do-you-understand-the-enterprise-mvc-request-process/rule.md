@@ -15,6 +15,10 @@ guid: a2e23bee-1006-49a0-b7cd-b0efb629282a
 
 ---
 
+Understanding the Enterprise MVC request process is crucial for ensuring smooth operations, efficient handling of requests, and alignment with organizational goals. It enables timely delivery and keeps everyone well-informed throughout the process.
+
+<!--endintro-->
+
 ::: bad
 ![Figure: Bad example – The sample applications do not include the concept of a business](request-process-bad.jpg)
 :::
@@ -22,5 +26,3 @@ guid: a2e23bee-1006-49a0-b7cd-b0efb629282a
 ::: good
 ![Figure: Good example – An enterprise solution should include a business layer and a data layer abstraction](request-process-good.jpg)
 :::
-
-<!--endintro-->
