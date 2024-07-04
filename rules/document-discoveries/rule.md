@@ -46,7 +46,7 @@ Some examples include:
 
 #### What about project-wide changes?
 
-If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [project documentation](/awesome-documentation) and then link to it in the PBI as well.
+If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [Architectural Decision Record](/do-you-use-architectural-decision-records) and then link to it in the PBI as well.
 
 ### When should changes be documented?
 
