@@ -5,6 +5,8 @@ uri: architectural-decision-records
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 related:
   - checked-by-xxx
   - conduct-a-test-please
@@ -74,10 +76,10 @@ They should be stored wherever the technical documentation for your project live
 
 An ADR can be in any format, but it should be easily readable and accessible. Some options are
 
+- ⭐ Recommended - A dedicated ADR tool like Log4Brains (see details below)
 - Markdown files in your git repo
 - Wiki (e.g. GitHub or Confluence)
 - Loop
-- ⭐ A dedicated ADR tool like Log4Brains (see details below)
 
 [Log4Brains](https://github.com/thomvaill/log4brains) can help to create and view ADRs.
 
