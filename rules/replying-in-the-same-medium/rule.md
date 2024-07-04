@@ -1,4 +1,5 @@
 ---
+seoDescription: Consistently reply to tasks or questions across the same medium they were sent, ensuring courtesy and clarity.
 type: rule
 title: Do you always reply to tasks/questions in the same medium?
 uri: replying-in-the-same-medium
@@ -10,6 +11,7 @@ related:
 created: 2023-06-19T19:31:38.608Z
 guid: 4572b36e-6b6f-4da4-87b1-91e495c30e06
 ---
+
 Consistency is key in communication. Always reply to tasks or questions in the same medium they were sent. It's all about showing courtesy, avoiding confusion, and keeping things running smoothly.
 
 <!--endintro-->

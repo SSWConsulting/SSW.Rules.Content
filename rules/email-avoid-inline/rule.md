@@ -1,24 +1,24 @@
 ---
+seoDescription: Do you avoid using inline when replying to an email? Instead, copy and paste the entire email in your reply, commenting on each issue at a time, keeping the history intact.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid using inline when replying to an email?
 guid: 2f00e714-ef16-48cb-9da0-158b52a20fde
 uri: email-avoid-inline
 created: 2009-03-31T02:53:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Penny Walker
-  url: https://www.ssw.com.au/people/penny-walker
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Penny Walker
+    url: https://www.ssw.com.au/people/penny-walker
 related: []
 redirects:
-- do-you-use-a-different-color-when-replying-an-email
-- when-you-reply-inline-do-you-use-a-different-color
-
+  - do-you-use-a-different-color-when-replying-an-email
+  - when-you-reply-inline-do-you-use-a-different-color
 ---
 
 Replying inline can mess up the history of the email thread. What you should do is to copy and paste the entire email in your reply and comment on each issue at a time, keeping the history intact as per [reply 'Done' and delete the original email](/dones-do-you-reply-done-and-delete-the-original-email).
@@ -28,11 +28,11 @@ In the rare cases where you really need to reply inline for a special reason, it
 <!--endintro-->
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Adam |
+| To: | Adam |
 | Subject: | Daniel - Morning Goals |  
-::: email-content  
+::: email-content
 
 ### Hi Adam
 
@@ -48,16 +48,16 @@ Daniel
 **Subject:** Daniel - Morning Goals
 
 1. TimePro Online pages  
-Done  
+   Done
 
 2. Double check backups (get backup today on both drives, I configured the other drive last night)  
-Done
+   Done
 
 3. Make sure Exchange is backing itself up... Check Google on why not.  
-Not done
+   Not done
 
 4. Access reporter
-Not done  
+   Not done
 
 :::  
 :::  
@@ -66,11 +66,11 @@ Figure: Bad example - Replying inline can mess up the history. No indentation 
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Adam |
+| To: | Adam |
 | Subject: | Daniel - Morning Goals |  
-::: email-content  
+::: email-content
 
 ### Hi Adam
 
@@ -85,19 +85,19 @@ Daniel
 **To:** Daniel Hyles <www.ssw.com.au>
 **Subject:** Daniel - Morning Goals
 
-   <span style="color:green; padding-left:1rem;">1. TimePro Online pages  </span>
-
-Done  
-
-   <span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
+<span style="color:green; padding-left:1rem;">1. TimePro Online pages </span>
 
 Done
 
-   <span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
+<span style="color:green; padding-left:1rem;">2. Double check backups (get backup today on both drives, I configured the other drive last night) </span>
+
+Done
+
+<span style="color:green; padding-left:1rem;">3. Make sure Exchange is backing itself up... Check Google on why not. </span>
 
 Not Done
 
-   <span style="color:green; padding-left:1rem;">4. Access reporter  </span>
+<span style="color:green; padding-left:1rem;">4. Access reporter </span>
 
 Not Done
 
@@ -108,27 +108,27 @@ Figure: OK example - Replying inline should be avoided, but if you have a good 
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Adam |
+| To: | Adam |
 | Subject: | Daniel - Morning Goals |  
-::: email-content  
+::: email-content
 
 ### Hi Adam
 
-   <span style="color:green; padding-left:1rem;">\> 1. TimePro Online pages  </span>
-
-Done  
-
-   <span style="color:green; padding-left:1rem;">\> 2. Double check backups (get backup today on both drives, I configured the other drive last night)  </span>
+<span style="color:green; padding-left:1rem;">\> 1. TimePro Online pages </span>
 
 Done
 
-   <span style="color:green; padding-left:1rem;">\> 3. Make sure Exchange is backing itself up... Check Google on why not.  </span>
+<span style="color:green; padding-left:1rem;">\> 2. Double check backups (get backup today on both drives, I configured the other drive last night) </span>
+
+Done
+
+<span style="color:green; padding-left:1rem;">\> 3. Make sure Exchange is backing itself up... Check Google on why not. </span>
 
 Not Done
 
-   <span style="color:green; padding-left:1rem;">\> 4. Access reporter  </span>
+<span style="color:green; padding-left:1rem;">\> 4. Access reporter </span>
 
 Not Done
 
@@ -141,9 +141,9 @@ Daniel
 **To:** Daniel Hyles <www.ssw.com.au>
 **Subject:** Daniel - Morning Goals
 
-1. TimePro Online pages  
-2. Double check backups (get backup today on both drives, I configured the other drive last night)  
-3. Make sure Exchange is backing itself up... Check Google on why not.  
+1. TimePro Online pages
+2. Double check backups (get backup today on both drives, I configured the other drive last night)
+3. Make sure Exchange is backing itself up... Check Google on why not.
 4. Access reporter
 
 :::  

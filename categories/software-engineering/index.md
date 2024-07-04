@@ -11,6 +11,7 @@ index:
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
+- rules-to-better-domain-driven-design
 - rules-to-better-version-management
 - rules-to-better-bug-management-and-feedback
 - rules-to-better-user-acceptance-tests-uat-for-bug-management
@@ -81,5 +82,5 @@ index:
 - rules-to-better-dotnetnuke
 - rules-to-better-exchange-server
 - rules-to-better-windows-forms-applications-clickonce
----
 
+---

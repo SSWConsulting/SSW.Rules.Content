@@ -1,4 +1,5 @@
 ---
+seoDescription: Setup a printer server on your Windows network and add printers for easy access and printing from anywhere.
 type: rule
 title: Do you know how to add a print server?
 uri: print-server
@@ -18,6 +19,7 @@ created: 2015-05-21T17:25:55.000Z
 archivedreason: null
 guid: 5b60b93d-f9af-467e-8d0c-41b1e37700ba
 ---
+
 When you are connected to the company's network, you should complete the following procedure if you want to setup a printer server.
 
 <!--endintro-->
@@ -35,7 +37,7 @@ Steps to add a printer to Active Directory:
 
 4. Add DNS entry for your print server (e.g **\\printer**) to make it friendly for the users to find
 
-**Note:** Another method is using a Universal Printer in Azure  [https://azurescene.com/2020/04/10/how-to-configure-universal-print/](https://azurescene.com/2020/04/10/how-to-configure-universal-print/ "https\://azurescene.com/2020/04/10/how-to-configure-universal-print/")
+**Note:** Another method is using a Universal Printer in Azure  [https://azurescene.com/2020/04/10/how-to-configure-universal-print/](https://azurescene.com/2020/04/10/how-to-configure-universal-print/ "https://azurescene.com/2020/04/10/how-to-configure-universal-print/")
 
 ### Finding the Printers
 

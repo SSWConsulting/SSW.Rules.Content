@@ -1,4 +1,5 @@
 ---
+seoDescription: Use the SSW Extended Provider to simplify error validation and display balloon tooltips on a data entry form.
 type: rule
 title: Do you use Validator controls?
 uri: do-you-use-validator-controls
@@ -8,12 +9,13 @@ authors:
 created: 2014-03-14T02:45:00.000Z
 guid: 7af2d87a-55a0-4646-a1ad-35ff39da96ad
 ---
+
 Validation is extremely important on a data entry form. There are two ways to do validation:
 
 <!--endintro-->
 
 1. **ErrorProvider** control  
-   The **ErrorProvider** control is code intensive. You must manually handle the **Validating** event of each control you want to validate, in addition to manually running the validation methods when the OK or Apply button is clicked.      
+   The **ErrorProvider** control is code intensive. You must manually handle the **Validating** event of each control you want to validate, in addition to manually running the validation methods when the OK or Apply button is clicked.
 
 ```vb
 Private Sub productNameTextBox_Validating(ByVal sender As Object, _
@@ -157,8 +159,8 @@ The error provider has the advantage over the extended provider that it can be u
 
 ![Figure: .NET ErrorProvider Control with a custom balloon tooltip](errorprovider.gif)
 
-2. **SSW Extended Provider**The SSW Extended Provider integrates with the **ErrorProvider** control to provide the same functionality, but requires no code to implement (everything can be done in the Designer).  
-  
-![Figure: SSW Extended Provider controls and properties on a TextBox](extendedprovider.gif)  
+2. **SSW Extended Provider**The SSW Extended Provider integrates with the **ErrorProvider** control to provide the same functionality, but requires no code to implement (everything can be done in the Designer).
+
+![Figure: SSW Extended Provider controls and properties on a TextBox](extendedprovider.gif)
 
 We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements this cool Error Provider Control

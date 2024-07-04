@@ -1,4 +1,5 @@
 ---
+seoDescription: Fixing bugs first saves time and effort as they become more complex and costly to resolve over time.
 type: rule
 title: Management - Do you fix bugs first?
 uri: fix-bugs-first
@@ -13,14 +14,13 @@ redirects:
 created: 2009-02-28T09:43:45.000Z
 archivedreason: null
 guid: 03e6a2b1-f2c9-4c37-a61b-9fb033398f94
-
 ---
 
 This rule has been important for a long time: Fix bugs before adding functionality.
 
-* Bugs get more expensive as they get older
-* Bugs become more complex the longer you wait to fix them
-* You have better access to the developer who created it who will be able to fix it faster
+- Bugs get more expensive as they get older
+- Bugs become more complex the longer you wait to fix them
+- You have better access to the developer who created it who will be able to fix it faster
 
 <!--endintro-->
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best static site tech stack and create lightning-fast websites with ease. With options like Next.js, Gatsby, Astro, Scully, Gridsome, and Jekyll, find the perfect fit for your project's needs.
 type: rule
 title: Do you use the best static site tech stack?
 uri: best-static-site-tech-stack
@@ -17,7 +18,8 @@ created: 2020-01-09T04:00:36.000Z
 archivedreason: null
 guid: d7c5b443-9f55-4983-ac7b-016c85a6d479
 ---
-Pure HTML pages are the fastest website around.  However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
+
+Pure HTML pages are the fastest website around. However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
 
 * Cheap
 * Easy to use
@@ -27,13 +29,13 @@ On the other hand, complex functionality can be a bit more limited and time cons
 
 Here are some popular static site generators:
 
-| **Name**                     | [NextJS](https://nextjs.org/) (Recommended) | [Gatsby](https://www.gatsbyjs.com/)            | [Astro](https://astro.build/)                                                         | [Scully](https://scully.io/)      | [Gridsome](https://gridsome.org/)    | [Jekyll](https://jekyllrb.com/)                                                                              |
-| ---------------------------- | ------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------- | --------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| **Language**                 | [React](https://reactjs.org/)               | React                                          | Most major JS frameworks via [islands](https://docs.astro.build/en/concepts/islands/) | [Angular](https://angular.io/)    | [Vue](https://vuejs.org/)            | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) |
-| **Data Handling**            | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable                                                                    | Fully customisable                | GraphQL                              | Source code data files                                                                                       |
-| **Data Sources**             | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable                                                                    | Fully customisable                | Source Plugins, APIs, Local files    | Local files                                                                                                  |
-| **GitHub Pages Integration** | Requires setup                              | Seamless deployment via config files           | [Deployment via GitHub Actions](https://docs.astro.build/en/guides/deploy/github/)    | Deployment via GitHub Actions     | Seamless deployment via config files | Works out of the box                                                                                         |
-| **Decap CMS (formerly Netlify CMS) integration**  | ✅                     | ✅                                            | [✅](https://docs.astro.build/en/guides/cms/decap-cms/)                               | ✅                                | ✅                                  | ✅                                                                                                          |
+| **Name**                                         | [NextJS](https://nextjs.org/) (Recommended) | [Gatsby](https://www.gatsbyjs.com/)            | [Astro](https://astro.build/)                                                         | [Scully](https://scully.io/)   | [Gridsome](https://gridsome.org/)    | [Jekyll](https://jekyllrb.com/)                                                                              |
+| ------------------------------------------------ | ------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| **Language**                                     | [React](https://reactjs.org/)               | React                                          | Most major JS frameworks via [islands](https://docs.astro.build/en/concepts/islands/) | [Angular](https://angular.io/) | [Vue](https://vuejs.org/)            | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) |
+| **Data Handling**                                | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable                                                                    | Fully customisable             | GraphQL                              | Source code data files                                                                                       |
+| **Data Sources**                                 | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable                                                                    | Fully customisable             | Source Plugins, APIs, Local files    | Local files                                                                                                  |
+| **GitHub Pages Integration**                     | Requires setup                              | Seamless deployment via config files           | [Deployment via GitHub Actions](https://docs.astro.build/en/guides/deploy/github/)    | Deployment via GitHub Actions  | Seamless deployment via config files | Works out of the box                                                                                         |
+| **Decap CMS (formerly Netlify CMS) integration** | ✅                                          | ✅                                             | [✅](https://docs.astro.build/en/guides/cms/decap-cms/)                               | ✅                             | ✅                                   | ✅                                                                                                           |
 
 <br>
 

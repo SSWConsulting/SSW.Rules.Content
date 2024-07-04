@@ -1,19 +1,19 @@
 ---
+seoDescription: Digital on-screen graphics (DOGs) enhance video recognition and branding, ensuring instant professional identity and consistent visual presence.
 type: rule
-archivedreason: 
+archivedreason:
 title: Post-Production - Do you have digital on-screen graphics (aka DOG) on your videos?
 guid: d66bcde8-7a78-4db3-8633-dd86a358ea28
 uri: do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
 created: 2014-09-12T18:31:20.0000000Z
 authors:
-- title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Titus Maclaren
+    url: https://ssw.com.au/people/titus-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-have-a-dog-(aka-digital-on-screen-graphic)-on-your-videos
-
+  - do-you-have-a-dog-(aka-digital-on-screen-graphic)-on-your-videos
 ---
 
 A digital on-screen graphic (or DOG) is a watermark logo image that broadcasters place in the corner of the screen area to create a brand identity for their program or broadcast.

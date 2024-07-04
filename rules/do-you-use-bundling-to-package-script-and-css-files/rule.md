@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you use Bundling to package script and css files?
 type: rule
 title: Do you use Bundling to package script and css files?
 uri: do-you-use-bundling-to-package-script-and-css-files
@@ -23,7 +24,10 @@ Rather than link to each script or css file individually, use bundling to group 
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.resizable.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.selectable.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.accordion.css" />
-<link rel="stylesheet" href="~/Content/themes/base/jquery.ui.autocomplete.css" />
+<link
+  rel="stylesheet"
+  href="~/Content/themes/base/jquery.ui.autocomplete.css"
+/>
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.button.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.dialog.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.slider.css" />
@@ -32,6 +36,7 @@ Rather than link to each script or css file individually, use bundling to group 
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.progressbar.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.theme.css" />
 ```
+
 ::: bad
 Figure: Bad example – each reference will be downloaded separately and won’t be compressed
 :::
@@ -58,6 +63,7 @@ public static void RegisterBundles(BundleCollection bundles)
 View:
 @Styles.Render("~/Content/themes/base/css")
 ```
+
 ::: good
 Figure: Good example – Define a bundle and render it in the view for maximum performance
 :::

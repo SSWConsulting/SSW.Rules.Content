@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn to run manual tests efficiently in Microsoft Test Manager and track testing progress with ease.
 type: rule
 title: Do you know how to run a manual test in Microsoft Test Manager?
 uri: do-you-know-how-to-run-a-manual-test-in-microsoft-test-manager
@@ -14,4 +15,5 @@ guid: 7a2eff9c-7ce7-4d1b-923f-e1aaed934c47
 ---
 
 Running tests with MTM allows you to keep track of your testing progress.
+
 <!--endintro-->

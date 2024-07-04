@@ -1,4 +1,5 @@
 ---
+seoDescription: Guide conversations through a series of questions or tasks using chained prompting, yielding comprehensive and interconnected responses.
 type: rule
 title: Do you use chained prompting?
 uri: chained-prompting
@@ -8,6 +9,7 @@ authors:
 created: 2023-04-12T14:32:05.794Z
 guid: 37000b4b-fe77-4be7-a41b-12ca9aadc97b
 ---
+
 Utilizing chained prompting can help you guide ChatGPT through a series of questions or tasks, resulting in more comprehensive and interconnected responses. By creating a sequence of related prompts, you can explore a topic in-depth or complete a multi-step task more effectively.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Consistent brand image across media is crucial for building recognition and trust with customers.
 type: rule
 title: Branding - Do you have a consistent brand image?
 uri: have-a-consistent-brand-image
@@ -24,4 +25,4 @@ It is very important to have a consistent brand image across all media, whether 
 
 <!--endintro-->
 
-Know more on [Rules To Better Branding](http&#58;//www.ssw.com.au/ssw/Standards/Rules/RulestoBetterBranding.aspx).
+Know more on [Rules To Better Branding](http://www.ssw.com.au/ssw/Standards/Rules/RulestoBetterBranding.aspx).

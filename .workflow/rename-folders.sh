@@ -9,10 +9,12 @@ for rule_file in $(git diff --name-only $(git merge-base origin/main HEAD) | gre
   echo "Folder name: $folder_name"
   
   uri=$(grep -m 1 '^uri:' "${GITHUB_WORKSPACE}/$rule_file" | awk '{print $2}')
+  uri=$($uri | tr -d '\r')
+
   echo "URI: $uri"
   
   if [ "$folder_name" != "$uri" ]; then
-    mv "${GITHUB_WORKSPACE}/$folder_path" "${GITHUB_WORKSPACE}/$uri"
+    mv "${GITHUB_WORKSPACE}/$folder_path" "${GITHUB_WORKSPACE}/rules/$uri"
     is_rename=true
 
     if grep -q "^redirects: \[\]$" "${GITHUB_WORKSPACE}/$uri/rule.md"; then

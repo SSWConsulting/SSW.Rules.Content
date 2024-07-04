@@ -1,19 +1,19 @@
 ---
+seoDescription: Improve project workflow efficiency by contacting clients via Skype or Instant Messenger to resolve roadblocks and build relationships.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you contact your clients using IM?
 guid: 86febfc8-97bf-4852-a05b-64327e33d41c
 uri: do-you-contact-your-clients-using-lync-skype
 created: 2010-07-16T06:46:49.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-Having your clients as Instant Messenger contacts can improve your efficiency in project work. You can get a fast solution to road blocks and solve little problems quickly, as well as develop a better relationship!  
+Having your clients as Instant Messenger contacts can improve your efficiency in project work. You can get a fast solution to road blocks and solve little problems quickly, as well as develop a better relationship!
 
 <!--endintro-->
 

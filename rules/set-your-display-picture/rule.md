@@ -1,21 +1,21 @@
 ---
+seoDescription: Display your professional image by setting a high-quality picture of yourself as your profile display to make a great first impression.
 type: rule
-archivedreason: 
+archivedreason:
 title: Display - Do you set your display picture using a good photographic image of yourself?
 guid: 5042baae-0ec9-4afc-a9dc-302cd31ed89a
 uri: set-your-display-picture
 created: 2015-10-05T06:17:02.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- set-your-display-picture-using-a-good-photographic-image-of-yourself
-- display-do-you-set-your-display-picture-using-a-good-photographic-image-of-yourself
-
+  - set-your-display-picture-using-a-good-photographic-image-of-yourself
+  - display-do-you-set-your-display-picture-using-a-good-photographic-image-of-yourself
 ---
 
-In person conversations are much better than chats over the phone. Skype or Teams calls with video cams are great, but you won’t do that all the time for bandwidth and processing power reasons. The next best thing is to have a great professional picture of yourself. 
+In person conversations are much better than chats over the phone. Skype or Teams calls with video cams are great, but you won’t do that all the time for bandwidth and processing power reasons. The next best thing is to have a great professional picture of yourself.
 
 <!--endintro-->
 

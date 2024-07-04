@@ -1,17 +1,17 @@
 ---
+seoDescription: Data Layout - Use expressions to show the correct scale on charts, ensuring accurate visualization of data in Reporting Services 2005.
 type: rule
 archivedreason:
 title: Data Layout - Do you use expressions to show the correct scale on charts?
 guid: c74b30a3-3593-4b32-a996-6dd96256ab07
 uri: use-expressions-to-scale-charts
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 <!--endintro-->
@@ -40,7 +40,7 @@ Here's how to set the scale.
 
 ![Figure: Set the maximum value to the value of the textbox](RSRulesChart02.gif)
 
-7. If you expect to have negative values in the chart (e.g. when comparing 2 values), set the Minimum to -1 multiplied by the max value, i.e. "=-1 * ReportItems!MaxMyTotal.Value". Otherwise set it to 0 (zero).
+7. If you expect to have negative values in the chart (e.g. when comparing 2 values), set the Minimum to -1 multiplied by the max value, i.e. "=-1 \* ReportItems!MaxMyTotal.Value". Otherwise set it to 0 (zero).
 
 8. If you expect to have negative values in the chart, select the chart value in the Data tab and click "Edit..." . Go to **Appearance->Series Style->Fill** and enter the following expression:
 

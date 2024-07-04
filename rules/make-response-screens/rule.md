@@ -1,16 +1,16 @@
 ---
+seoDescription: Microsoft Access - Boost Screen Responsiveness by Fetching Fewer Records and Filling Drop-Down Lists on Demand.
 type: rule
-archivedreason: 
-title: Microsoft Access - Do you make response screens? 
+archivedreason:
+title: Microsoft Access - Do you make response screens?
 guid: 1db064f1-6b74-41a8-b8e8-0a6ae4528c1b
 uri: make-response-screens
 created: 2021-06-14T19:17:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 One of the more common complaints about Microsoft Access databases is that some screens are slow to respond. **This is often misinterpreted as poor performance on the part of the database engine but the real culprit is usually the screen design.**
@@ -31,7 +31,7 @@ Example:
 
 You have a table named "Client" with 10,000 records. The poor way to retreive records from is:
 
-``` sql
+```sql
 Form.RecordSource = "SELECT * FROM Client"
 
 Form.RecordSource = "SELECT * FROM Client"
@@ -44,13 +44,13 @@ The problem with this method, is that all records are returned to the client, an
 
 A better way to New Scenario he wants Big Forms to change to:
 
-``` sql
+```sql
 Form.RecordSource = "SELECT * FROM Client WHERE 1<>1"
 ```
 
-The solution Called via a wrapper function for OpenForm: 
+The solution Called via a wrapper function for OpenForm:
 
-``` sql
+```sql
 Function aOpenForm("frmClient","ClientID='SSW')
 ```
 
@@ -64,15 +64,14 @@ Every drop-down list takes its time to fetch data and delays the loading of the 
 
 **Tip:** Use an event procedure or a button to set the row source for the drop-down list. For example:
 
-``` sql
+```sql
 Me!myDrop List.Row Source = Q
 ```
 
 ...where Q is, once again, either the name of a query or an SQL string.
 
-**Tip:** Drop-down lists themselves will be more responsive if they return fewer records. Try cascading criteria so that successive lists are limited by the selection in a previous list. The row source query for a list could depend on the item selected in a previous list as in this example: 
+**Tip:** Drop-down lists themselves will be more responsive if they return fewer records. Try cascading criteria so that successive lists are limited by the selection in a previous list. The row source query for a list could depend on the item selected in a previous list as in this example:
 
-``` sql
+```sql
 Q = " SELECT Field1, Field2 FROM Table1 WHERE Field3 = " & Me!DropList1
 ```
-

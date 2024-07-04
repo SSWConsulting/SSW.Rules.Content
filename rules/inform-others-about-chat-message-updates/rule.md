@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you notify others after updating a chat message?
 seoDescription: Ensure clear communication and collaboration in IM chats by
   notifying others when updating messages. Promote transparency, avoid

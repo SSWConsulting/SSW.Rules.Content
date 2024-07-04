@@ -1,22 +1,23 @@
 ---
+seoDescription: Do you need to frequently update your work item types? This script helps you quickly upload customized process templates with one click, making development more efficient.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have a WitAdmin script to import work item definitions?
 guid: a3674fce-a018-47e0-ac55-e8e21043af58
 uri: do-you-have-a-witadmin-script-to-import-work-item-definitions
 created: 2012-07-18T07:34:00.0000000Z
 authors:
-- title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  - title: Lei Xu
+    url: https://ssw.com.au/people/lei-xu
 related: []
 redirects: []
-
 ---
 
 You will need to update your work item types very frequently once the customization process is started, make sure you have a script like below in your solution, this will help you to upload your process template quickly with one click, which make your development more efficient.
 
 <!--endintro-->
-``` bash
+
+```bash
 ECHO OFF
 ECHO \*\*\*\*\*\*\*\*\*\*\*Importing new definitions\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 ECHO ON

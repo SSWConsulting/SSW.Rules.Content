@@ -1,4 +1,5 @@
 ---
+seoDescription: When to ask for help? Learn how to determine if it's time to ask, do your due diligence, figure out who to ask, and prepare to talk to a senior.
 type: rule
 title: Do you know when and how to ask for help?
 uri: ask-for-help
@@ -21,7 +22,6 @@ related:
   - when-to-email-chat-call-or-meet
 created: 2022-08-30T04:06:01.553Z
 guid: 113b1e11-6df4-4901-9e9f-bcc06b6fb352
-
 ---
 
 Ideally, you should point out any problems with a work item when you are first assigned it in Sprint Planning. However, sometimes you think a PBI will be fine, but then you run into blocking issues during the Sprint. In that case, you shouldn't wait until the next Sprint Planning because that is burnt time being blocked. So, you are forced to do some googling, and investigation on how to move forward. These moments can be stressful, especially for junior developers and the question arises... **"When should I ask for help?"**
@@ -87,7 +87,7 @@ Make sure your struggles are documented in a PBI including context, screenshots 
 
 1. Document the recommendation in the PBI so that you can [manage up](/do-you-manage-up) when you call.
 2. Call and share screens showing the documented information.
-  
+
 ##### If you do **not** have a recommendation
 
 1. Document what you did to try and find a recommendation in the PBI.

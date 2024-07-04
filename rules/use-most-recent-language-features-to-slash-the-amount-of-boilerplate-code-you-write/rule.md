@@ -1,4 +1,5 @@
 ---
+seoDescription: C# 7 features reduce boilerplate code and improve readability by simplifying string formatting, null checks, and exception handling.
 type: rule
 title: Do you use the new C# 7 language features to slash the amount of boilerplate code you write?
 uri: use-most-recent-language-features-to-slash-the-amount-of-boilerplate-code-you-write
@@ -23,74 +24,74 @@ These 3 features will slash the amount of boilerplate code you have to write and
 
 1. **nameof expressions** - Allows us to get the name of the type of object. Now when we throw an exception, we can use the name of expressions feature to create robust code, which is more resistant to common mistakes when refactoring. This is achieved by reducing the amount of hard coding.
 
-  As you can see, when in the past you would have to write the following code:
-  
-  ```csharp
-  (if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
-  ```
-  
-  ::: bad
-  Figure: Bad example - Amount of boiler plate code for a simple task  
-  :::
-  
-  Now you only have write:
-  
-  ```csharp
-  (if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
-  ```
-  
-  ::: good
-  Figure: Good example - The same functionality as the Bad Example in a single line of code  
-  :::
-  
-  The benefit of this change is when refactoring our code, we don't need to worry about searching for magic strings. Which commonly slip through the cracks and lead to confusing error messages.
+As you can see, when in the past you would have to write the following code:
+
+```csharp
+(if customer.Address.ZipCode == null) throw new ArgumentNullException("ZipCode");
+```
+
+::: bad
+Figure: Bad example - Amount of boiler plate code for a simple task 
+:::
+
+Now you only have write:
+
+```csharp
+(if customer.Address.ZipCode == null) throw new ArgumentNullException(nameof(customer.Address.ZipCode));
+```
+
+::: good
+Figure: Good example - The same functionality as the Bad Example in a single line of code  
+ :::
+
+The benefit of this change is when refactoring our code, we don't need to worry about searching for magic strings. Which commonly slip through the cracks and lead to confusing error messages.
 
 2. S**tring Interpolation** - Greatly reduces the amount of boilerplate code required when working with strings
 
-  Formatting strings on the fly was previously a task which required a stack of boilerplate code. In the Visual Studio 2015, we can use the smart String Interpolation feature. Not only does this feature reduce the amount of code we have to write, it also improves code readability.
+Formatting strings on the fly was previously a task which required a stack of boilerplate code. In the Visual Studio 2015, we can use the smart String Interpolation feature. Not only does this feature reduce the amount of code we have to write, it also improves code readability.
 
-  For example, before C# 6, we would write:
-  
-  ```csharp
-  var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
-  ```
-  
-  ::: bad
-  Figure: Bad example - Using the string format make the code difficult to read
-  :::
+For example, before C# 6, we would write:
 
-  Now we are able to:
-  
-  ```csharp
-  var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
-  ```
-  
-  ::: good
-  Figure: Good example - Very human readable code
-  :::
+```csharp
+var s = String.Format("Profit is ${0} this year", p.TotalEarnings - p.Totalcost);
+```
 
-  As can be seen above by making use of the new String Interpolation feature, the understandability of your code is greatly improved.
+::: bad
+Figure: Bad example - Using the string format make the code difficult to read
+:::
 
-3. **Null-conditional operators** - Makes checking for null as easy as inserting a single question mark    This great new feature has had a raft of positive reactions from developers. The new Null-conditional operators feature boils down all of the previously laborious clunky code into a single question mark.
+Now we are able to:
 
-  For example, previously we would of had to write a chunk of code to achieve a simple task:
+```csharp
+var s = "Profit is ${p.TotalEarnings - p.Totalcost} this year";
+```
 
-  ```csharp
-  if(customers.Length != null) { int length = customers.Length; } else { int length = 0; }
-  ```
-  
-  ::: bad
-  Figure: Bad example - Fragile code
-  :::
-  
-  Now we are able to replace that chunk of code with a single line
-  
-  ```csharp
-  int length = customers?.Length ?? 0;
-  ```
-  
-  ::: good
-  Figure: Good example - Robust code 
-  :::
+::: good
+Figure: Good example - Very human readable code
+:::
+
+As can be seen above by making use of the new String Interpolation feature, the understandability of your code is greatly improved.
+
+3. **Null-conditional operators** - Makes checking for null as easy as inserting a single question mark This great new feature has had a raft of positive reactions from developers. The new Null-conditional operators feature boils down all of the previously laborious clunky code into a single question mark.
+
+For example, previously we would of had to write a chunk of code to achieve a simple task:
+
+```csharp
+if(customers.Length != null) { int length = customers.Length; } else { int length = 0; }
+```
+
+::: bad
+Figure: Bad example - Fragile code
+:::
+
+Now we are able to replace that chunk of code with a single line
+
+```csharp
+int length = customers?.Length ?? 0;
+```
+
+::: good
+Figure: Good example - Robust code
+:::
 
 In short, these new features will save you time, and help you write cleaner, more robust code - what's not to love?

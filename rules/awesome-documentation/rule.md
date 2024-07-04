@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you make awesome documentation? Discover how to create a documentation strategy that empowers your team and stakeholders with clarity. Learn from examples of good and bad documentation practices, and get tips on how to make your documentation truly awesome!
 type: rule
 title: Do you make awesome documentation?
 uri: awesome-documentation
@@ -28,7 +29,7 @@ related:
   - user-journey-mapping
   - package-audit-log
   - technical-debt
-  - do-you-use-architectural-decision-records
+  - architectural-decision-records
 redirects:
   - do-you-review-the-documentation
   - do-you-make-awesome-documentation
@@ -72,7 +73,7 @@ This is a well-established way to do documentation, but it has several problems:
 There may be exceptions – some situations benefit from this kind of documentation; for example, it may be necessary to support a business case – although a well-defined spec is a better document to support a business case.
 
 ::: greybox
- **More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
+**More info:** [Rules to Better Specification Reviews](/rules-to-better-specification-reviews)
 :::
 
 **Tip:** Documentation should be as minimal as possible. If your circumstances require this style of documentation, start by limiting it to just enough to cover your first couple of Sprints. And recognize that by going down this path you make a commitment to keeping it up-to-date.
@@ -85,30 +86,32 @@ This style of documentation is used by modern teams who are Agile only.
 
 **1. README.md** – Gives an overview of the project and provides links to the rest of the documentation. It is important for the README.md to show a high-level architecture diagram that illustrates the overarching solution.
 
-**2. _docs\Instructions-Compile.md** – Instructions on how to build and run the project (aka the F5 experience).
+**2. \_docs\Instructions-Compile.md** – Instructions on how to build and run the project (aka the F5 experience).
 
-**3. _docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
+**3. \_docs\Instructions-Deployment.md** – Explains how to deploy the solution, including any additional processes (e.g. DevOps)
 
-**4. _docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent.
+**4. \_docs\Business.md** – Explains the purpose of the application, including the problem, goals and statement of intent.
 
-**5. _docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
-* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project. 
+**5. \_docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
+
+* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project.
 * Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
 * A link to [ADRs (Architectural Decision Records)](/do-you-use-architectural-decision-records/)
 * Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
-* 3rd party libraries used 
-* 3rd party services used 
+* 3rd party libraries used
+* 3rd party services used
 * A link to all [package-audit-logs](/package-audit-log)
 
-**6. _docs\Alternative-Solutions-Considered.md** – explains other options that were discounted. For example
-  * We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
-  * We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
-  * We chose to use Azure over on-premises to avoid procurement of costly servers.
-  * Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
+**6. \_docs\Alternative-Solutions-Considered.md** – explains other options that were discounted. For example
 
-**7. _docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
+* We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
+* We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
+* We chose to use Azure over on-premises to avoid procurement of costly servers.
+* Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
-**8. _docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a Sprint (see [have-a-definition-of-ready](/have-a-definition-of-ready))
+**7. \_docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
+
+**8. \_docs\Definition-of-Ready.md** – Ensures that all your PBIs are well defined to an agreed standard before adding them to a Sprint (see [have-a-definition-of-ready](/have-a-definition-of-ready))
 
 Keeping these documents in the repository means that you ensure that any documentation the developers need to work on or run the code is where they need it - with the code.
 
@@ -119,11 +122,13 @@ It also means that when a developer makes a change to the code that needs an upd
 Documents to be read or edited by the Product Owner (or other members of the Scrum team) should be exposed through a Wiki. The advantage of this approach is that the writing experience in the Wiki is more friendly for non-developers. The Wiki should be sourced from the repo **docs\\** folder to ensure documentation is kept up-to-date. There are several options for creating a Wiki:
 
 Azure DevOps wiki options:
+
 * [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
 * [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 GitHub wiki options:
+
 * [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
 * The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
@@ -140,7 +145,7 @@ GitHub wiki options:
 ![Figure: Bad example - Azure DevOps project without any documentation or instructions](azuredevops-bad.png)  
 :::
 
-![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)  
+![Figure: OK example - Github project with README instructions on how to compile and run the project (but still has a TODO)](documentation__level2__good-example-1-gh.png)
 
 ::: good  
 ![Figure: Good example - Azure DevOps project with README instructions on how to compile and run the project](azuredevops-good.png)  
@@ -156,13 +161,12 @@ GitHub wiki options:
 
 **Tip:** Use your documentation for onboarding developers
 
-
 ::: bad  
 ![Figure: Bad example - No documentation, go and sit with another developer](sit-dev-bad.png)  
 :::
 
 ::: good  
-![Figure: Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues](documentation\_\_level2\_\_onboarding-pbi-3.png)  
+![Figure: Good example - Developer onboarding can be self-guided by good documentation, and offers a structure for feedback and improvement if the developer hits any issues](documentation__level2__onboarding-pbi-3.png)  
 :::
 
 **Tip:** Keep your documentation as minimal as possible - automate the F5 experience and deployment process (documents 2 and 3) using PowerShell scripts. Then your documents can just say "run these scripts"
@@ -176,12 +180,11 @@ When updating the Acceptance Criteria, ~~strike through~~ the altered Acceptance
 ::: greybox
 Example:
 
-~~Enter search text, click ‘Google’, and see the results populate below.~~   
+~~Enter search text, click ‘Google’, and see the results populate below.~~
 [Updated] Enter search text and automatically see the results populate below.  
 :::
 
 This should be added to the [Definition of Done](/definition-of-done).
-
 
 ### Technical Debt
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you number tasks or questions to make your communication clear and concise?
 type: rule
 title: Do you number tasks/questions?
 uri: number-tasks-questions
@@ -30,13 +31,14 @@ It is good practice to be clear on what you want. One way you can make things cl
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | Presenting at User Group |  
-::: email-content  
+::: email-content
 
 ### Hi Bob,
+
 We’ll commence the meeting at our office where we can provide you with an overview of the SSW operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
 How many attendees from will be attending on the meeting day? Are you able to stay for dinner or lunch with our team? Would you like to see some sights while you’re in town?
@@ -47,24 +49,24 @@ How many attendees from will be attending on the meeting day? Are you able to 
 Bad example - Tasks/questions may be skipped if the reader does not read very carefully
 :::
 
-
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | Presenting at User Group |  
-::: email-content  
+::: email-content
 
 ### Hi Bob,
+
 We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
 I have a few more questions about the day to help me and the team prepare:
 
-1.	How many attendees from will be attending on the meeting day?
+1. How many attendees from will be attending on the meeting day?
 
-2.	Are you able to stay for dinner or lunch with our team?  
+2. Are you able to stay for dinner or lunch with our team?
 
-3.	Would you like to see some sights while you’re in town?   
+3. Would you like to see some sights while you’re in town?
 
 :::  
 :::  
@@ -76,11 +78,11 @@ Good example - Tasks/questions are clear
 **⚠️ Warning - Avoid numbered lists that aren't tasks**
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | Presenting at User Group |  
-::: email-content  
+::: email-content
 
 ### Hi Bob,
 
@@ -90,9 +92,9 @@ I have a few more questions about the day to help me and the team prepare:
 
 1. How many attendees from will be attending on the meeting day?
 
-2. Are you able to stay for dinner or lunch with our team?  
+2. Are you able to stay for dinner or lunch with our team?
 
-3. Would you like to see some sights while you’re in town?   
+3. Would you like to see some sights while you’re in town?
 
 It can be very productive to walk around and take in the sights while discussing business matters. Some of the attractions that we could visit include:
 
@@ -111,5 +113,3 @@ Bad example - Confusing! The second list above is unnecessary and obscures the t
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
-
-

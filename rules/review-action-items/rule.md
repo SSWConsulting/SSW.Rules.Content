@@ -1,4 +1,5 @@
 ---
+seoDescription: Review and assign clear responsibilities to action items after board meetings to ensure accountability, track progress, and clarify expectations.
 type: rule
 title: Do you review action items and assign clear responsibilities?
 uri: review-action-items
@@ -8,6 +9,7 @@ authors:
 created: 2024-02-28T23:00:34.388Z
 guid: 35e2b0d2-2abf-453d-82e7-820c70fc96e6
 ---
+
 Reviewing action items and assigning clear responsibilities at the end of each board meeting ensures that decisions lead to actionable outcomes and that everyone knows their next steps.
 
 <!--endintro-->
@@ -33,4 +35,3 @@ Advantages:
 - Reinforces the culture of accountability and follow-through within the board.
 
 By reviewing action items and assigning clear responsibilities, boards can ensure that their meetings lead to meaningful action and results.
-

@@ -1,4 +1,5 @@
 ---
+seoDescription: Unlock optimal interactions with ChatGPT by mastering 0-shot, 1-shot, and multi-shot prompts.
 type: rule
 title: Do you know when to use 0-shot, 1-shot, or multi-shot prompts (e.g. give
   it 1 or more examples)?
@@ -9,6 +10,7 @@ authors:
 created: 2023-04-12T13:55:36.349Z
 guid: 5d53a8ed-35c1-43cd-8a1e-efc8fad352f6
 ---
+
 You can give ChatGPT examples of the type of output you want, including the format. Each example you feed it is known as a “shot”.
 
 Understanding when to use 0-shot, 1-shot, or multi-shot prompts can help you get the most out of ChatGPT. These approaches allow the model to learn from different contexts, making it more likely to generate the desired output.
@@ -51,8 +53,8 @@ Example multi-shot prompt:
 ::: greybox
 "Translate the following English sentences into French. Here are some examples:
 
-* 'I love playing soccer.' -> 'J'aime jouer au football.'
-* 'The weather is nice today.' -> 'Le temps est agréable aujourd'hui.'
+- 'I love playing soccer.' -> 'J'aime jouer au football.'
+- 'The weather is nice today.' -> 'Le temps est agréable aujourd'hui.'
 
 Now translate: 'They are going to the park.'"
 :::

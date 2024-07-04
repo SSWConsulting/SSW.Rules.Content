@@ -1,4 +1,5 @@
 ---
+seoDescription: Choose from a range of mobile app development tools to ensure a native experience on iOS and Android devices.
 type: rule
 title: Do you know the right mobile tool for the job?
 uri: the-right-mobile-tool-for-the-job

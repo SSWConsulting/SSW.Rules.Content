@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you know the outcomes of an Initial Meeting (either Specification Review or Ad Hoc)?
 type: rule
 title: Meetings - Do you know the outcomes of an Initial Meeting (either Spec Review or Ad Hoc)?
 uri: the-outcomes-from-your-initial-meeting
@@ -21,7 +22,7 @@ guid: 4568d400-5f40-40ea-b4ba-63eb98e40e25
 
 ### Scheduling a Specification Review
 
-For almost all projects, there is a need for an additional gathering of requirements. Some clients don't have any kind of specification, while others provide specifications that are lacking in detail or incomplete. Before you can provide an estimated price for completing the project, there is another step that requires the engagement of your resources - the  **Specification Review** .
+For almost all projects, there is a need for an additional gathering of requirements. Some clients don't have any kind of specification, while others provide specifications that are lacking in detail or incomplete. Before you can provide an estimated price for completing the project, there is another step that requires the engagement of your resources - the **Specification Review** .
 
 <!--endintro-->
 
@@ -37,13 +38,13 @@ You may also find that some clients are unable to progress to a Spec Review unti
 
 A salesperson has 16 hours per month of developer time they can invest in this pre-sales investigation, so this time has to be used wisely.
 
-![Figure: Pre-sale meeting - use time wisely](adam-cogan-ceo-in-a-business-meeting.jpg)  
+![Figure: Pre-sale meeting - use time wisely](adam-cogan-ceo-in-a-business-meeting.jpg)
 
-Never offer a fixed price at the conclusion of an Initial Meeting, make sure to choose this engagement model before the Specification Review is done. 
+Never offer a fixed price at the conclusion of an Initial Meeting, make sure to choose this engagement model before the Specification Review is done.
 
 More on the [Rules to Better Specification Reviews](/rules-to-better-specification-reviews).
 
-![Figure: Send a brief proposal](Brief-Proposal-MrNorthwind.jpg)  
+![Figure: Send a brief proposal](Brief-Proposal-MrNorthwind.jpg)
 
 ### Ad-Hoc Work/Consulting
 

@@ -1,17 +1,17 @@
 ---
+seoDescription: Print and display your report on the web correctly by adjusting page width, margins, and body width to ensure a professional-looking PDF export.
 type: rule
 archivedreason:
 title: Layout - Do you print and display your report on the web correctly?
 guid: cc62742e-d48b-4f76-a4b4-49bfd5232ffd
 uri: print-and-display-report-on-web
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 A lot of the time, you will want a hard copy of your reports. Obviously reports are different sizes on screen and on paper, so you need to format your report so it exports to PDF and prints properly. Here's how.

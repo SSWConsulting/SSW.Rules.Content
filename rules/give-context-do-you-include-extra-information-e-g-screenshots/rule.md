@@ -1,4 +1,5 @@
 ---
+seoDescription: Contextualize emails by including extra information such as screenshots to provide users with more useful details.
 type: rule
 archivedreason: Covered by do-you-add-context-reasoning-to-your-emails
 title: Give Context - Do you include extra information (e.g. Screenshots)?
@@ -8,8 +9,7 @@ created: 2012-11-27T02:09:20.0000000Z
 authors: []
 related: []
 redirects:
-- give-context-do-you-include-extra-information-(e-g-screenshots)
-
+  - give-context-do-you-include-extra-information-(e-g-screenshots)
 ---
 
 ::: good  

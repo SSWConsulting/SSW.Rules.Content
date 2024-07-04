@@ -1,4 +1,5 @@
 ---
+seoDescription: Before formatting company-owned laptops, it's essential to consult with SysAdmins to ensure compliance with company standards and avoid unnecessary rework.
 type: rule
 title: Do you call SysAdmins before formatting company-owned laptops?
 uri: call-sysadmins-before-formatting-company-owned-laptops

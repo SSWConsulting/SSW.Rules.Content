@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the right version and configuration for NUnit to ensure seamless integration with .NET Framework 1.1 or 2.0, and boost your testing experience.
 type: rule
 title: Do you know the right version and config for nUnit?
 uri: the-right-version-and-config-for-nunit
@@ -17,10 +18,9 @@ There are multiple versions of NUnit and .NET Framework, the following will expl
 
 <!--endintro-->
 
-* if your application was built with .NET Framework 1.1, NUnit 2.2.0 which was built with .NET Framework 1.1 is the best choice if you compact it into the installation package, You then don't need any additional config - it will auto use .NET Framework 1.1 to reflect your assembly;
-* If there is only .NET Framework 2.0 on the client-side, how to make it works?
-Just add the  **yellow**  into nunit-gui.exe.config (it is under the same folder as nunit-gui.exe), which will tell NUnit to reflect your assembly with .NET Framework 2.0;
-
+- if your application was built with .NET Framework 1.1, NUnit 2.2.0 which was built with .NET Framework 1.1 is the best choice if you compact it into the installation package, You then don't need any additional config - it will auto use .NET Framework 1.1 to reflect your assembly;
+- If there is only .NET Framework 2.0 on the client-side, how to make it works?
+  Just add the  **yellow**  into nunit-gui.exe.config (it is under the same folder as nunit-gui.exe), which will tell NUnit to reflect your assembly with .NET Framework 2.0;
 
 ```xml
 ...
@@ -33,9 +33,7 @@ Just add the  **yellow**  into nunit-gui.exe.config (it is under the same fold
 ...
 ```
 
-
-* if your application was built with .NET Framework 2.0, then you may get choices:
-* NUnit 2.2.7 or higher (built with .NET framework 2.0) (recommended)
-Then you don't need any extra configuration for NUnit, just follow the default;
-        * NUnit 2.2.0 or lower (built with .NET Framework 1.1)
-Then you need to add the yellow statement (see above in this section);
+- if your application was built with .NET Framework 2.0, then you may get choices:
+- NUnit 2.2.7 or higher (built with .NET framework 2.0) (recommended)
+  Then you don't need any extra configuration for NUnit, just follow the default; \* NUnit 2.2.0 or lower (built with .NET Framework 1.1)
+  Then you need to add the yellow statement (see above in this section);

@@ -1,4 +1,5 @@
 ---
+seoDescription: Intuitive design makes users instinctively know how to use a product or system by leveraging affordances and clear visual cues.
 type: rule
 title: Do you make users intuitively know how to use something?
 uri: do-you-make-users-intuitively-know-how-to-use-something
@@ -11,6 +12,7 @@ created: 2012-11-27T01:38:45.000Z
 archivedreason: null
 guid: 54bd2a5d-d4f8-451e-9fa7-3c746a0de88b
 ---
+
 1. When we see a door, we immediately know that we can open it and go through it
 2. Links in blue and underlined has an affordance of clickability
 3. Buttons can be pressed

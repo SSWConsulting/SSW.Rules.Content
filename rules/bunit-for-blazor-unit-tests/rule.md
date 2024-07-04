@@ -1,4 +1,5 @@
 ---
+seoDescription: Use bUnit to write robust unit tests for Blazor components and ensure reliable behavior when interacting with user interfaces.
 type: rule
 archivedreason:
 title: Do you use bUnit for unit tests in Blazor?
@@ -15,6 +16,7 @@ redirects: []
 [Unit testing](/rules-to-better-unit-tests) is an essential part of the software development process, especially for Blazor applications. [bUnit](https://bunit.dev/) is a testing library specifically designed for Blazor components, making it easier to write robust unit tests. It is installed via a [NuGet package](https://www.nuget.org/packages/bunit) and can be used with any testing framework such as xUnit.
 
 When you use bUnit, you can simulate user interactions and assert component behavior in a way that is close to how your users will interact with your application. This can significantly increase the reliability of your components.
+
 <!--endintro-->
 
 <br>
@@ -63,6 +65,7 @@ public class ExampleComponentTests
     }
 }
 ```
+
 ::: good
 Figure: Good example - Using bUnit to test a Blazor component
 
@@ -75,4 +78,4 @@ Complex components such as complicated searching and filtering are good candidat
 
 ### References
 
-- [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)
+* [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)

@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure a consistent reading experience by using Microsoft-recommended Tahoma font on Windows Forms, while allowing controls to use alternative fonts for specific information.
 type: rule
 archivedreason: Deprecated
 title: Controls - Do you use the fonts recommended by Microsoft in your application? (Windows Forms Only)
@@ -8,8 +9,7 @@ created: 2012-11-27T09:16:16.0000000Z
 authors: []
 related: []
 redirects:
-- controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-(windows-forms-only)
-
+  - controls-do-you-use-the-fonts-recommended-by-microsoft-in-your-application-(windows-forms-only)
 ---
 
 Some font are easier to read then others, at SSW we follow Microsoft's Visual Design Guidelines. This means we use Tahoma 8pt as our font of choice.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Estimate all tasks at the start of a Sprint to ensure accurate burndown tracking and make data-driven decisions.
 type: rule
 title: Do you estimate all tasks at the start of the Sprint?
 uri: do-you-estimate-all-tasks-at-the-start-of-the-sprint

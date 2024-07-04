@@ -1,4 +1,5 @@
 ---
+seoDescription: SQL Server object naming standard ensures consistency and readability of database objects, including tables, views, procedures, and more.
 type: rule
 title: Do you use a SQL Server object naming standard?
 uri: use-a-sql-server-object-naming-standard
@@ -17,20 +18,20 @@ This standard outlines the standard on naming objects within SQL Server. Use the
 
 <!--endintro-->
 
-| Object                 |   Prefix   |                       Example                        |
-| ---------------------- | :--------: | :--------------------------------------------------: |
-| Table                  |            |                      Clients                         |
-| Column (PK)            |            |                        Id                            |
-| Column (FK)            |            |                      ClientId                        |
-| Temporary Table        |    \_zt    |                    \_ztClients                       |
-| System Table           |    \_zs    |         \_zsDataVersion, \_zsVersionLatest           |
-| View                   |  vw, gy\_  |   vwClientsWithNoPhoneW, gy\_ClientsWithNoPhoneW     |
-| Stored Procedure       | proc, gp\_ | procSelectClientsClientID, gp\_SelectClientsClientID |
-| Trigger                |    trg     |                     trgOrderIU                       |
-| Default\*              |    dft \*  |                     dftToday \*                      |
-| Rule                   |    rul     |                     rulCheckZIP                      |
-| User-Defined Datatype  |    udt     |                      udtPhone                        |
-| User-Defined Functions |    udf     |                     udfDueDates                      |
+| Object                 |   Prefix   |                       Example                       |
+| ---------------------- | :--------: | :-------------------------------------------------: |
+| Table                  |            |                       Clients                       |
+| Column (PK)            |            |                         Id                          |
+| Column (FK)            |            |                      ClientId                       |
+| Temporary Table        |    \_zt    |                     \_ztClients                     |
+| System Table           |    \_zs    |         \_zsDataVersion, \_zsVersionLatest          |
+| View                   |  vw, gy\_  |    vwClientsWithNoPhoneW, gy_ClientsWithNoPhoneW    |
+| Stored Procedure       | proc, gp\_ | procSelectClientsClientID, gp_SelectClientsClientID |
+| Trigger                |    trg     |                     trgOrderIU                      |
+| Default\*              |   dft \*   |                     dftToday \*                     |
+| Rule                   |    rul     |                     rulCheckZIP                     |
+| User-Defined Datatype  |    udt     |                      udtPhone                       |
+| User-Defined Functions |    udf     |                     udfDueDates                     |
 
 **Note:** We never use defaults as objects, this is really an old thing that is just there for backwards compatibility. Much better to use a default constraint.
 

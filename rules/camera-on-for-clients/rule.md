@@ -1,4 +1,5 @@
 ---
+seoDescription: When working with clients on Teams calls, keeping your camera on conveys valuable information and builds trust through facial expressions and body language.
 type: rule
 title: Do you know you should always have your camera on for clients?
 uri: camera-on-for-clients
@@ -10,6 +11,7 @@ related:
 created: 2022-04-20T01:17:16.259Z
 guid: fde03304-2706-4b26-a31e-5173ebd43459
 ---
+
 When working with clients, inevitably you'll find yourself in Teams calls, and it's important to keep your front-facing camera on as much as possible. There's a lot of valuable information conveyed by your face and body language.
 
 * Facial expression and body language are important parts of communication, and help to convey your mood and intent

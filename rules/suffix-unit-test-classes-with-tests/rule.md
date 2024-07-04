@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve code readability by suffixing unit test classes with "Tests".
 type: rule
 title: Do you suffix unit test classes with "Tests"?
 uri: suffix-unit-test-classes-with-tests
@@ -12,6 +13,7 @@ created: 2018-04-25T23:24:57.000Z
 archivedreason: null
 guid: 7e401815-0507-40bf-a045-ae46ca1db46a
 ---
+
 Unit test classes should be suffixed with the word "Tests" for better coding readability.
 
 <!--endintro-->

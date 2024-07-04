@@ -11,6 +11,7 @@ index:
 - as-per-our-conversation-emails
 - number-tasks-questions
 - include-names-as-headings
+- do-not-bury-your-headline
 - standard-email-types
 - change-from-x-to-y
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
@@ -30,7 +31,7 @@ index:
 - seek-clarification-via-phone
 - include-links-in-emails
 - dones-do-you-reply-done-using-team-companion-when-using-tfs
-- dones-do-you-include-useful-details-in-your-done-email
+- include-useful-details-in-emails
 - keep-email-history
 - do-you-avoid-attaching-emails-to-emails
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email

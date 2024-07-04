@@ -1,4 +1,5 @@
 ---
+seoDescription: Posts with images or videos receive an average 37% increase in engagement on Facebook and 2.3 times more engagement than those without, making them a powerful tool for building brand awareness and customer loyalty.
 type: rule
 title: Content - Do you know that posts with images/videos are more engaging?
 uri: posts-with-images-are-more-engaging
@@ -31,10 +32,10 @@ Social Media Strategist [Jeff Bullas reports that Facebook posts](https://www.je
 
 Be aware that just sharing random or any images will not set your social media apart from your competitors. You have to think of several aspects of the photo/video, such as:
 
-* Quality of image
-* Framing, composition, perspective, and style - See [Do you know how to take great photos for your socials?](/know-how-to-take-great-photos-for-your-socials)
-* Text application on the image - See [Branding - Do you know when to use an overlay on images?](/branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media) and [Do you know the text limit for images?](/text-limit-for-images)
-* Following the business's branding
+- Quality of image
+- Framing, composition, perspective, and style - See [Do you know how to take great photos for your socials?](/know-how-to-take-great-photos-for-your-socials)
+- Text application on the image - See [Branding - Do you know when to use an overlay on images?](/branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media) and [Do you know the text limit for images?](/text-limit-for-images)
+- Following the business's branding
 
 ::: bad
 ![Figure: Bad example - Social media post without an image - Less engagement](Screen Shot 2020-04-23 at 3.42.25 pm.png)

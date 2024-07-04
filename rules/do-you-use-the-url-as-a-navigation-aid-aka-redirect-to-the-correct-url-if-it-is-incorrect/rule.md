@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you use the URL as a navigation aid (aka redirect if URL is incorrect)?
 type: rule
 title: Do you use the URL as a navigation aid (aka redirect if URL is incorrect)?
 uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-it-is-incorrect
@@ -38,8 +39,9 @@ public ActionResult Edit(string employeename, int id)
     return View(model);
 }
 ```
+
 ::: good
-Figure: Good example - The comment says it all  Wordpress and Stack Overflow have URL formats that do this very well
+Figure: Good example - The comment says it all Wordpress and Stack Overflow have URL formats that do this very well
 :::
 
 ::: greybox

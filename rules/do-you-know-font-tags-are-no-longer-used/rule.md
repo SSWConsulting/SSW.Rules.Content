@@ -1,16 +1,16 @@
 ---
+seoDescription: Know how to use font tags? Don't! They're deprecated since HTML 4. Use CSS classes for styling instead.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know to not use FONT tags?
 guid: e222a40a-c652-473c-8a43-fd86b3b67d13
 uri: do-you-know-font-tags-are-no-longer-used
 created: 2012-07-17T21:32:42.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
-
 ---
 
 The &lt;font&gt; tag is supported in all major browsers, however it is deprecated since HTML 4... so it should **not** be used. Learn more at [w3schools.com](https://www.w3schools.com/tags/tag_font.asp).

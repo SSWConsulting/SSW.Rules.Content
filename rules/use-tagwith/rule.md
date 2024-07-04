@@ -1,4 +1,5 @@
 ---
+seoDescription: Elevate query readability and debug efficiency with TagWith's comment-based approach.
 type: rule
 title: Do you use TagWith?
 uri: use-tagwith
@@ -8,6 +9,7 @@ authors:
 created: 2021-12-13T17:20:14.009Z
 guid: 566aeac8-777f-483b-9272-d01fba4aea4d
 ---
+
 TagWith adds comments to the generated SQL. This makes it easier to identify queries when they run on the database.
 
 <!--endintro-->

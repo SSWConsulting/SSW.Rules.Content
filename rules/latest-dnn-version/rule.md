@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your DotNetNuke site remains up-to-date with the latest version to optimize performance and security.
 type: rule
 title: Have you installed the latest DNN version?
 uri: latest-dnn-version
@@ -13,6 +14,7 @@ guid: ccc03498-b63b-428b-8a90-0ef9c29b3264
 You can check your DNN version via the "Host Memu", then "Host Settings" and tick the "Check For Upgrades" check box to see the latest version
 
 <!--endintro-->
+
 ::: bad
 ![Figure: Bad example - A new version is available, DotNetNuke needs to be upgraded](dnnoldversion.jpg)
 :::

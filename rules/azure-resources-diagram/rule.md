@@ -1,4 +1,5 @@
 ---
+seoDescription: Azure resources diagramming made easy! Visualize your Azure resources to simplify project understanding and management.
 type: rule
 title: Visualizing - Do you have an Azure resources diagram?
 uri: azure-resources-diagram

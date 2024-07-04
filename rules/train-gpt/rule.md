@@ -1,4 +1,5 @@
 ---
+seoDescription: Train your GPT model to unlock its full potential and generate accurate responses for complex or highly specific use cases.
 type: rule
 title: When should you train GPT?
 uri: train-gpt
@@ -8,12 +9,13 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Jack Reimers
-    url: https://www.ssw.com.au/people/jack-reimers 
+    url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-02-08T04:53:29.524Z
 guid: c655297f-eeea-41ca-beda-b1f9c27c7cdd
 redirects:
   - train-gpt-3
 ---
+
 GPT is an awesome product that can do a lot out-of-the-box.  
 However, sometimes that out-of-the-box model doesn't do what you need it to do.
 
@@ -30,16 +32,16 @@ Using the system prompt is the easiest way to provide additional data to GPT, bu
 
 **✅ Benefits**
 
-* Easy to implement
-* No extra setup cost
-* Data can be easily changed or removed
+- Easy to implement
+- No extra setup cost
+- Data can be easily changed or removed
 
 **❌ Disadvantages**
 
-* The system prompt counts towards total token count - not suitable for large amounts of data
-* Large system prompts can limit the amount of tokens available for questions and responses
-* Adds extra cost to each request
-* Potential for inconsistency depending on what data is sent
+- The system prompt counts towards total token count - not suitable for large amounts of data
+- Large system prompts can limit the amount of tokens available for questions and responses
+- Adds extra cost to each request
+- Potential for inconsistency depending on what data is sent
 
 ### Fine Tuning
 
@@ -57,13 +59,13 @@ For example, if you want to build an app that outputs SSW rules based on a title
 
 **✅ Benefits**
 
-* Suitable for larger amounts of data
-* No extra cost per request as trained data lives on the server
-* Consistent as trained data is available to all requests
+- Suitable for larger amounts of data
+- No extra cost per request as trained data lives on the server
+- Consistent as trained data is available to all requests
 
 **❌ Disadvantages**
 
-* Harder to implement
-* Extra setup cost to fine tune the model
-* Model needs to be fine tuned again to change or remove data
-* Fine tuning may not be available for every model
+- Harder to implement
+- Extra setup cost to fine tune the model
+- Model needs to be fine tuned again to change or remove data
+- Fine tuning may not be available for every model

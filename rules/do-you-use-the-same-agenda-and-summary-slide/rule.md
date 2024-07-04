@@ -1,4 +1,5 @@
 ---
+seoDescription: Match your presentation's agenda and summary slides to ensure a clear overview of key points and leave a lasting impression.
 type: rule
 title: Do you match the 'Agenda' and 'Summary' slides?
 uri: do-you-use-the-same-agenda-and-summary-slide
@@ -11,7 +12,8 @@ created: 2010-06-08T09:55:27.000Z
 archivedreason: null
 guid: cf9bb0d5-beb5-4abf-8f44-b60d1c996cc5
 ---
-A presentation is a verbal essay and it follows a structure. Shown at the start of the presentation, the 'Agenda' slide sets the expectation.   
+
+A presentation is a verbal essay and it follows a structure. Shown at the start of the presentation, the 'Agenda' slide sets the expectation.
 
 In the end, the 'Summary' slide should be identical, and summarize what you just spoke about.
 

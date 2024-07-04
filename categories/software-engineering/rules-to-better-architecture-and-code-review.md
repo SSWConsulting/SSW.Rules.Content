@@ -54,9 +54,10 @@ index:
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder
-  - do-you-use-architectural-decision-records
+  - architectural-decision-records
   - use-prefixes-to-improve-code-review-communication
   - use-mass-transit
+  - software-architecture-decision-tree
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.

@@ -1,18 +1,18 @@
 ---
+seoDescription: Zendesk email management best practices ensure efficient task distribution by only using one group to manage tasks and avoid duplication.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you reply to the correct Zendesk email?
 guid: 05e79060-8a83-4d49-b9e1-2c5831307637
 uri: do-you-reply-to-the-correct-zendesk-email
 created: 2018-06-28T23:13:36.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
-
 ---
 
 When a ticket is created in Zendesk, an email for it is created as well - and, if you have set up Zendesk correctly, the correct group of people will already receive the task.
@@ -27,25 +27,18 @@ It is best practice to only use the Zendesk group to manage tasks and not both g
 
 ![](zenddddd.png)
 
-
 ::: bad
 Bad Example: Adding groups with the same people twice. They will receive it twice in their inbox
 
 :::
 
-
-
 ![](zendndnd.png)
-
 
 ::: good
 Good Example: Add only one group, that goes to Zendesk and spread the ticket only once for everyone
 
 :::
 
-
-
 ### Related Links
 
-
-* [Rules to Better Scrum - Do you know when to use @ mentions in a PBI](/when-you-use-mentions-in-a-pbi)
+- [Rules to Better Scrum - Do you know when to use @ mentions in a PBI](/when-you-use-mentions-in-a-pbi)

@@ -1,16 +1,16 @@
 ---
+seoDescription: What to do when email bounces? Check your mail server's spam blacklist and MX records to ensure delivery issues aren't on your end.
 type: rule
-archivedreason: 
+archivedreason:
 title: Bounces - Do you know what to do with bounced email?
 guid: e21a0c88-e1a5-4b66-acc6-0dfb7fffbf12
 uri: bounces-do-you-know-what-to-do-with-bounced-email
 created: 2011-08-25T19:54:59.0000000Z
-authors: 
+authors:
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
 related: []
 redirects: []
-
 ---
 
 Having people report bounce back emails is frustrating and time consuming. The first thing to try when you get a report is to check that your mail server isn’t on a spam blacklist. An easy way to check this is via [MX Toolbox](http://mxtoolbox.com/).

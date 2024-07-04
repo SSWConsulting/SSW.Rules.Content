@@ -1,4 +1,5 @@
 ---
+seoDescription: Manage local administrator passwords securely with Microsoft LAPS, a best practice for limiting admin accounts and ensuring computer accessibility.
 type: rule
 title: Do you use LAPS to manage local administrator passwords?
 uri: laps-local-admin-passwords
@@ -10,6 +11,7 @@ authors:
 created: 2022-06-03T06:11:56.902Z
 guid: 001a5654-3620-4cd3-820a-83128b5faeab
 ---
+
 It is best practice to limit the number of administrator accounts in your environment, including local administrators on users' computers. However, it is necessary to have a local administrator account so the computer can be accessed if it loses connection to the domain. LAPS does exactly that.
 
 <!--endintro-->
@@ -19,9 +21,9 @@ Microsoft LAPS provides management of local account passwords of domain or hybri
 As of April 2023, Microsoft has launched a new solution called Microsoft LAPS which replaces the older Windows LAPS.
 This updated version of LAPS brings some much needed features:
 
-* Cloud native - You can back up passwords to Entra ID
-* Security - Passwords are encrypted in AD (they weren't in legacy)
-* History - Password change history is now recorded
+- Cloud native - You can back up passwords to Entra ID
+- Security - Passwords are encrypted in AD (they weren't in legacy)
+- History - Password change history is now recorded
 
 ::: info  
 If you still have legacy OSs (e.g. Windows Server 2016, older Windows 10/11 versions) in your fleet, you can have the new and legacy LAPS working in parallel with clever Group Policies applying to those systems, as the new LAPS **does not** work with them.

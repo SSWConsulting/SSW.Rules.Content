@@ -1,21 +1,21 @@
 ---
+seoDescription: Don't push your pull requests! Discuss then build to ensure seamless collaboration and better outcomes for open source projects.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do You Know to not 'Push' your Pull Requests? (aka discuss then build)
 guid: 4a8b579b-c602-429c-84f2-0f306d7ab9c3
 uri: dont-push-your-pull-requests
 created: 2016-03-29T18:35:55.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects:
-- do-you-know-to-not-push-your-pull-requests-a-k-a-discuss-then-build
-- do-you-know-to-not-push-your-pull-requests-(a-k-a-discuss-then-build)
-
+  - do-you-know-to-not-push-your-pull-requests-a-k-a-discuss-then-build
+  - do-you-know-to-not-push-your-pull-requests-(a-k-a-discuss-then-build)
 ---
 
-For the original article check out [Don't "Push" Your Pull Requests](https&#58;//www.igvita.com/2011/12/19/dont-push-your-pull-requests/)by Ilya Grigorik.
+For the original article check out [Don't "Push" Your Pull Requests](https://www.igvita.com/2011/12/19/dont-push-your-pull-requests/)by Ilya Grigorik.
 
 Open source software projects love it when the community get involved and pitch in.
 
@@ -39,13 +39,13 @@ Their contribution might solve their problem, but after it has been accepted it 
 
 **# Poor Communication Contribution**
 
-* developer has good idea for project
-* bashes away and writes 600 lines of code
-* submits pull request
-* core contributor looks at large pull request
-she doesn't fully understand purpose of request / the problem it solves
-she doesn't like that the PR author hasn't followed the existing coding standards
-she makes a push back comment
+- developer has good idea for project
+- bashes away and writes 600 lines of code
+- submits pull request
+- core contributor looks at large pull request
+  she doesn't fully understand purpose of request / the problem it solves
+  she doesn't like that the PR author hasn't followed the existing coding standards
+  she makes a push back comment
 
 :::
 
@@ -57,11 +57,11 @@ Figure: Bad Example - Poor early communication can lead to mis-directed work and
 
 **# Good Communication Contribution**
 
-* developer (PR Author) has good idea for project
-* reviews the list of outstanding issues for the project and confirms that someone hasn't already had the same idea and started a discussion on it
-* author creates an issue on GitHub and outlines the problem they are trying to solve, and outlines their suggested solution
-* the core contributors and other interested parties can help refine both the idea for the feature and the suggested implementation
-* the author can then start working on the feature knowing that their idea for the project complies with the maintainers vision for the project and know it is likely to be merged into the core codebase
+- developer (PR Author) has good idea for project
+- reviews the list of outstanding issues for the project and confirms that someone hasn't already had the same idea and started a discussion on it
+- author creates an issue on GitHub and outlines the problem they are trying to solve, and outlines their suggested solution
+- the core contributors and other interested parties can help refine both the idea for the feature and the suggested implementation
+- the author can then start working on the feature knowing that their idea for the project complies with the maintainers vision for the project and know it is likely to be merged into the core codebase
 
 :::
 
@@ -73,7 +73,7 @@ Figure: Good  Example - Good communication leads to collaboration and better ou
 
 **# Projects with Internal Teams**
 
-* Internal SSW team members should only work on features during work hours that have been assigned to a release by the core contributors for a project
-* Features will be assigned to a release during the Community Standup
+- Internal SSW team members should only work on features during work hours that have been assigned to a release by the core contributors for a project
+- Features will be assigned to a release during the Community Standup
 
 :::

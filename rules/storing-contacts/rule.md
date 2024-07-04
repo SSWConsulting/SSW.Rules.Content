@@ -1,4 +1,5 @@
 ---
+seoDescription: Storing your contacts in one place and syncing them across devices helps keep your contact information organized and easily accessible.
 type: rule
 title: Do you know where to store your contacts?
 uri: storing-contacts
@@ -8,6 +9,7 @@ authors:
 created: 2023-04-03T06:23:33.889Z
 guid: cd7c2bcb-c1a0-47ee-a434-5df0c9ab18e0
 ---
+
 If you are like most people, you probably have a lot of contact information stored in various places: your phone, your email, your social media accounts, etc.
 
 However, having your contacts scattered around can make it hard to find them when you need them, and can also increase the risk of losing them if something happens to one of your devices or accounts. That's why it's important to keep your contact information in one place and sync them between your devices. Here are some tips on how to do that.

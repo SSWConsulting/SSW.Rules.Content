@@ -1,4 +1,5 @@
 ---
+seoDescription: Keeping a PBI's current status visible ensures transparency and helps teams collaborate effectively.
 type: rule
 title: Do you to keep a PBI's current status visible?
 uri: keeping-pbis-status-visible
@@ -13,11 +14,12 @@ related:
 created: 2023-10-03T00:48:22.310Z
 guid: cec9aa77-4234-470b-bcab-557b39de6789
 ---
+
 As PBIs evolve, it's common for their initial descriptions to become outdated or for significant developments to occur that must be recorded for the benefit of the entire team.
 
 <!--endintro-->
 
-Whenever a PBI necessitates an update, the team should add a comment to the issue, detailing the change or event. 
+Whenever a PBI necessitates an update, the team should add a comment to the issue, detailing the change or event.
 
 ::: bad
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a group chat before making a Teams call to keep everyone involved and avoid disrupting others.
 type: rule
 title: Do you know when to create a group chat?
 uri: when-to-create-a-group-chat
@@ -10,24 +11,25 @@ related:
 created: 2022-06-30T02:04:24.883Z
 guid: 1036c4df-cca2-499b-bce9-705ed66abe0a
 ---
-If you intend to talk about someone in your chat, it's best to add that person to a group chat. 
 
-This approach is useful before starting a Teams call and you can simply say _"I'll call you in 5 mins"_ in your group chat to let everyone in the group know that you need to chat with them. 
+If you intend to talk about someone in your chat, it's best to add that person to a group chat.
+
+This approach is useful before starting a Teams call and you can simply say _"I'll call you in 5 mins"_ in your group chat to let everyone in the group know that you need to chat with them.
 
 Note that you shouldn't make the call if all of the participants have [Teams status](/use-the-status-message-in-teams) "In a call" or their status message suggests they shouldn't be disturbed.
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Mentioning someone in a chat they are not participating](group_chat_bad_example.jpg) 
+![Figure: Bad example - Mentioning someone in a chat they are not participating](group_chat_bad_example.jpg)
 :::
 
 ::: good
-![Figure: Good example - Initiating a group chat with everyone involved](group_chat_good_example.jpg) 
+![Figure: Good example - Initiating a group chat with everyone involved](group_chat_good_example.jpg)
 :::
 
 ::: bad
-![Figure: Bad example - Not a good time to call Adam and William as they're both "in a call"](teams_status.gif "Bad example - not a good time to call Adam and William as they're both \"in a call\"")
+![Figure: Bad example - Not a good time to call Adam and William as they're both "in a call"](teams_status.gif (Bad example - not a good time to call Adam and William as they're both "in a call"))
 :::
 
 ::: good

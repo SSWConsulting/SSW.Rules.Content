@@ -1,4 +1,5 @@
 ---
+seoDescription: Designate a page owner to ensure accuracy and accountability for webpage content
 type: rule
 title: Do you have a page owner for each webpage?
 uri: page-owner

@@ -1,19 +1,19 @@
 ---
+seoDescription: Microsoft Dynamics 365 Online syncs Azure Active Directory fields to import user information.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you keep your Dynamics 365 Online synced with Azure AD?
 guid: acd3409e-f1df-4c8c-8326-0549dc7ba205
 uri: keep-dynamics-365-online-synced-with-azure-ad
 created: 2020-09-16T18:50:43.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
-- do-you-keep-your-dynamics-365-online-synced-with-azure-ad
-
+  - do-you-keep-your-dynamics-365-online-synced-with-azure-ad
 ---
 
 If you are using Microsoft Dynamics 365 Online as your CRM solution, you might have noticed that it syncs some Azure Active Directory (Azure AD) fields automatically.

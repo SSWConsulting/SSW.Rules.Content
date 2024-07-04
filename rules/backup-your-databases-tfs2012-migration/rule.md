@@ -1,17 +1,17 @@
 ---
+seoDescription: Before upgrading to TFS 2012, it's crucial to back up your databases using a supported method to ensure data reliability.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you backup your databases for TFS 2012 migration?
 guid: b72a8d91-b030-4522-8059-6daee855c6e6
 uri: backup-your-databases-tfs2012-migration
 created: 2015-08-12T16:20:53.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-backup-your-databases1
-
+  - do-you-backup-your-databases1
 ---
 
 Before starting your upgrade, you should back up all your TFS databases.
@@ -26,9 +26,9 @@ It's important that you backup TFS by using one of the supported methods, to ens
 
 ![Figure: TFS Scheduled Backups Tool](tfs scheduled.jpg)
 
-In some cases you won't be able to use this tool e.g. with TFS 2012 Power Tools RTM. This version has a bug which causes a failure of Tfs\_Configuration DB when you try to restore it.
+In some cases you won't be able to use this tool e.g. with TFS 2012 Power Tools RTM. This version has a bug which causes a failure of Tfs_Configuration DB when you try to restore it.
 
-![Figure: TFS Backup tool failed to restore the Tfs\_Configuration DB – known bug in TFS 2012 Power Tools RTM](tfs backup.jpg)
+![Figure: TFS Backup tool failed to restore the Tfs_Configuration DB – known bug in TFS 2012 Power Tools RTM](tfs backup.jpg)
 
 In such case you will have to manually backup databases. Make sure all relevant databases have been backed up. This includes all those starting with "Tfs\_"
 
@@ -40,9 +40,9 @@ In such case you will have to manually backup databases. Make sure all relevant 
 Follow this instructions to properly backup your databases: [Manually back up Team Foundation Server](https://docs.microsoft.com/en-us/azure/devops/server/admin/backup/manually-backup-tfs?view=azure-devops-2020&viewFallbackFrom=azure-devops).
 :::
 
-![Figure: Add tbl\_TfsTransactionLogMark table to every Tfs\_\* Database](add tbl.jpg)
+![Figure: Add tbl_TfsTransactionLogMark table to every Tfs_* Database](add tbl.jpg)
 
-![Figure: Add sp\_SetTransactionLogMark stored procedure to every Tfs\_\* Database](add spset.jpg)
+![Figure: Add sp_SetTransactionLogMark stored procedure to every Tfs_* Database](add spset.jpg)
 
 If you manually backup the TFS Databases make sure you add additional jobs that execute 1 minute before the backup kick off.
 

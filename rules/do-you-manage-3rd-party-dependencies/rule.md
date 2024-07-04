@@ -1,4 +1,5 @@
 ---
+seoDescription: Chinafy - Effectively manage third-party dependencies to ensure seamless website performance in China by removing unnecessary dependencies, hosting required CSS and JavaScript content locally or through a CDN available from China.
 type: rule
 title: Chinafy - Do you manage 3rd party dependencies?
 uri: do-you-manage-3rd-party-dependencies
@@ -16,6 +17,7 @@ created: 2018-12-10T03:38:44.000Z
 archivedreason: null
 guid: 8534cd2d-5d40-44ba-b9d3-a9ce18e97294
 ---
+
 Modern websites can use 3rd party dependencies from many different sources. This can include js and CSS libraries from CDNs, video providers such as YouTube and other 3rd party APIs.
 
 <!--endintro-->
@@ -47,6 +49,6 @@ To measure the impact of this, you need to be able to browse the website from in
 
 This situation can first be improved by finding and removing unnecessary dependencies. Next, ensure that all required CSS and JavaScript content can be loaded, by either hosting within your site or using a CDN that is available from China.
 
-Finally, you may find that there are features you still want to use elsewhere but need to disable for users in China. In this case, we recommend detecting the available services from the client. 
+Finally, you may find that there are features you still want to use elsewhere but need to disable for users in China. In this case, we recommend detecting the available services from the client.
 
 For more information, see [Do you detect service availability from the client?](/do-you-detect-service-availability-from-the-client)

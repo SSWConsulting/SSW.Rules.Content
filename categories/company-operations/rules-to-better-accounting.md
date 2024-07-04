@@ -7,6 +7,7 @@ index:
 - do-you-involve-cross-checks-in-your-procedures
 - do-you-tie-knowledge-to-the-role
 - do-you-have-monthly-accounting-meetings
+- compliance-sheet
 - report-gas-in-the-tank
 - manage-travel-in-centralized-systems
 - do-you-know-how-to-claim-expense-reimbursements
@@ -33,5 +34,6 @@ index:
 - do-you-calculate-payroll-tax-correctly
 - do-you-check-your-customers-organisation-age-for-prepaid
 - do-you-treat-freebies-as-real-customers
+- show-certification-award
 ---
 

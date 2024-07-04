@@ -1,4 +1,5 @@
 ---
+seoDescription: Effective management of booking cancellations requires proactive communication and flexibility to ensure optimal use of developer time.
 type: rule
 title: Do you know how to manage booking cancellations?
 uri: booking-cancellations
@@ -12,7 +13,7 @@ created: 2021-10-27T05:29:12.699Z
 guid: 0f078936-c07b-47b7-aa0a-59262144daef
 ---
 
-On occasion, you may be asked in the morning or even halfway through the day, to pause your work by the client. 
+On occasion, you may be asked in the morning or even halfway through the day, to pause your work by the client.
 
 Scenario:
 
@@ -21,7 +22,7 @@ Scenario:
 
 The reaction from Developer X should be:
 
-> “OK, I will call my Account Manager and make sure *future* bookings are cancelled until further notice. 
-For today, is there anything else I can work on so you get the best value out of the rest of my day?”
+> “OK, I will call my Account Manager and make sure _future_ bookings are cancelled until further notice.
+> For today, is there anything else I can work on so you get the best value out of the rest of my day?”
 
 **Note:** Same-day cancellations still incur that day's costs. If there is nothing more you can work on, and the client is unhappy, refer the client to your Account Manager.

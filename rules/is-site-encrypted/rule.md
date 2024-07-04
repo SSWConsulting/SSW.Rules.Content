@@ -1,4 +1,5 @@
 ---
+seoDescription: Check if a website's connection is encrypted by looking for the padlock symbol and ensuring the address starts with https, not http
 type: rule
 title: Do you know how to tell if a website is encrypted?
 uri: is-site-encrypted
@@ -8,6 +9,7 @@ authors:
 created: 2022-03-17T05:51:19.905Z
 guid: 316e260c-d521-4df2-a4ee-b06ebd2f7fdb
 ---
+
 When entering your password (or any other sensitive information, including credit card numbers) into a website, you must make sure that your connection to that website is encrypted. The route your password takes from your web browser to the website is quite a journey – it starts by being broadcast across your wireless network (note your wireless network should be encrypted, but its best not to rely on that). It then goes to a router, then to your internet service provider (ISP), then anywhere across the world before getting to its destination. It can be intercepted at any step along this journey.
 
 <!--endintro-->

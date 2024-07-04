@@ -1,4 +1,5 @@
 ---
+seoDescription: Consultants who possess ability, affability, and availability excel at providing effective solutions to clients.
 type: rule
 title: Do you know the 3 A's for being a good consultant?
 uri: being-a-good-consultant
@@ -8,6 +9,7 @@ authors:
 created: 2022-04-27T18:59:57.414Z
 guid: 38910f86-d17e-4232-844d-f09e1b9b36d7
 ---
+
 The 3 A's for being a good consultant:
 
 1. Having **Ability**

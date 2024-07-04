@@ -1,4 +1,5 @@
 ---
+seoDescription: Customize AI applications using GPT API with system prompts that fit your application or company, ensuring consistent responses and tailored interactions.
 type: rule
 title: GPT - Do you use the system prompt?
 uri: use-system-prompt

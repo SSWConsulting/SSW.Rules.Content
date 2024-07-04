@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you do pagination database side? Efficiently retrieve requested page with reduced data retrieval and counting.
 type: rule
 title: Do you do pagination database side?
 uri: do-pagination-database-side
@@ -11,10 +12,9 @@ created: 2021-12-13T17:19:34.260Z
 guid: ef94f559-ea04-4c00-8b27-f8f7b80f07f4
 ---
 
-Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database. 
+Pagination can be expensive if all the pages are retrieved from the database before grabbing the relevant page. It's much more efficient to get only the page number requested back from the database.
 
 <!--endintro-->
-
 
 ```cs
 var query = context
@@ -29,10 +29,10 @@ result = result
     .Take(pageSize);
 return (count, result);
 ```
+
 ::: bad
 Figure: Bad example - Reads all the data from the database, counts the records and filters down to the page
 :::
-
 
 ```cs
 var query = context
@@ -45,9 +45,10 @@ int count = await query.CountAsync();
 query = query
     .Skip(page * pageSize)
     .Take(pageSize);
-var result = await query.ToListAsync();    
+var result = await query.ToListAsync();
 return (count, result);
 ```
+
 ::: good
 Figure: Good example - Reads only the count and 1 page of data from the database
 :::

@@ -1,8 +1,9 @@
 ---
+seoDescription: Use a Word document to record your audience's questions and answers during presentations.
 type: rule
 title: Do you use record your audience's Questions and Answers?
 uri: do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
@@ -11,6 +12,7 @@ created: 2010-06-09T00:01:49.000Z
 archivedreason: null
 guid: ad83268a-a882-431b-bbab-89dafe0bbaba
 ---
+
 Open a Word doc at the start of your presentation. It is a good idea to have some interaction with your audience in the form of Q&A. This will instill a lasting message long after your presentation is over.
 
 <!--endintro-->

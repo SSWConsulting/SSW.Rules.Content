@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve Code Health and Quality Gates in VS Code Projects with CSSLint, ESLint, and TSLint.
 type: rule
 title: Do you know the Code Health (Quality Gates) to add?
 uri: do-you-know-the-code-health-quality-gates-to-add
@@ -13,7 +14,6 @@ redirects:
 created: 2017-02-20T22:26:58.000Z
 archivedreason: "Content is covered in the following rule: https://ssw.com.au/rules/rules-to-better-code-quality"
 guid: 316c617a-3636-4c40-85dc-c94fdc98fbfa
-  
 ---
 
 Code health is all about quality and consistency. Here is how to use various auditors and linters not just in your development environment, but also on your Azure DevOps build.
@@ -30,18 +30,18 @@ Following the steps should take about 15 minutes to do, but longer to implement 
 
 Version 1.2
 
-* Added step to include "PrimaryBuild" variable as a pseudo id for the API
+- Added step to include "PrimaryBuild" variable as a pseudo id for the API
   Version 1.1
-* Removed CSSLint from VisualStudio.com build definition
-* Added Web Essentials to Visual Studio environment
+- Removed CSSLint from VisualStudio.com build definition
+- Added Web Essentials to Visual Studio environment
 
 ### Visual Studio
 
 Search & Install the NuGet packages:
 
-* [Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)
+- [Roslyn Security Guard](https://www.nuget.org/packages/RoslynSecurityGuard/)
 
-For Visual Studio development on web applications, [download Web Essentials](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153), it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript. 
+For Visual Studio development on web applications, [download Web Essentials](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.WebEssentials20153), it will provide intellisense for JS, CSS, HTML, Less, Scss, and CoffeeScript.
 
 ![Figure: Steps to install NuGet Packages](VS-InstallNuGetPackages_1710232021935.png)
 
@@ -59,7 +59,7 @@ Issues from these will now be returned in the Visual Studio analyzer error list.
 
 ![Figure: New Roslyn Rule issues raised in Visual Studio Analyzer](VS-RoslynRules_1710232021936.png)
 
-Run Code Analysis on the project. Check over all of the warnings, if they are unnecessary or inappropriate, disable them, otherwise modify their severity level to "Error". 
+Run Code Analysis on the project. Check over all of the warnings, if they are unnecessary or inappropriate, disable them, otherwise modify their severity level to "Error".
 
 When the build is run, "Errors" will break the build, while "Warnings" will be reported, but not break the build.\
 Rules which have been flagged should also be checked once the build is completed.
@@ -85,8 +85,8 @@ Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click 
 
 If you prefer not to use the Extensions, you can install them using npm as normal.
 
-* [CSSLint](https://www.npmjs.com/package/csslint)
-* [ESLint](https://www.npmjs.com/package/eslint)
+- [CSSLint](https://www.npmjs.com/package/csslint)
+- [ESLint](https://www.npmjs.com/package/eslint)
 
 ### Automatically Check your Build in Azure DevOps
 
@@ -114,7 +114,7 @@ Under advanced for the Command Line tasks, the Working Directory can be specifie
 **Name:** npm install tslint  
 **Working Folder:** {{ TOP DIRECTORY }}  
 **Npm Command:** install  
-**Arguments:** -g tslint typescript  
+**Arguments:** -g tslint typescript
 
 **Command Line** - Check the version (Useful to determine rule discrepancies across builds)  
 **Name** : Check tslint version  
@@ -129,8 +129,7 @@ Under advanced for the Command Line tasks, the Working Directory can be specifie
 **Command Line** - Run tslint, force is required to stop the build from crashing (TSLint will return and exit code of 1 regardless of if issues exist)  
 **Name:** Run tslint  
 **Tool:** TSLint  
-**Arguments:** --force {{ SOLUTION DIRECTORY }}/\*\*/*.ts{,x}
-
+**Arguments:** --force {{ SOLUTION DIRECTORY }}/\*\*/\*.ts{,x}
 
 If your build is being hosted, then the config file must be reloaded every time. If your build is running on premises, the config file will attempt to load over the existing one and break the build.
 
@@ -147,13 +146,13 @@ Once complete, save the build definition and run the build.
 
 Then check the build is successful.
 
-- If the build fails (due to errors), these should be corrected in the development environment. 
+- If the build fails (due to errors), these should be corrected in the development environment.
 - If warnings exist, the rule should be disabled or set as an error (If it is worth fixing, then it should be required for everyone).
 - If your project does not contain TypeScript files, then you do not need to include the TSLint build tasks.
 
 ![Figure: Ensure TSLint actually finds files to scan (if the project includes TSLint files) otherwise it will pass without you noticing](VSO-EnsureTSLintRuns.png)
 
-For the purposes of reporting, a unique tag must be added to the build definition which the Code Health steps have been applied to. 
+For the purposes of reporting, a unique tag must be added to the build definition which the Code Health steps have been applied to.
 
 This is done with the addition of a variable `(Name = PrimaryBuild, Value = true)`.
 

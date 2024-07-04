@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your Q&A sessions and presentations with Slido's interactive tools, including live polling and question collecting, for a more engaging audience experience.
 type: rule
 title: Do you use Slido to interact with your audience?
 uri: do-you-use-slido
@@ -8,6 +9,7 @@ authors:
 created: 2022-08-16T05:31:15.791Z
 guid: 97579616-5b48-4ac8-9638-0c261072f2cc
 ---
+
 Slido is an online platform which provide the easiest way to collect questions for your Q&A sessions, it also run interactive presentations with a top-rated live polling tool.
 
 <!--endintro-->

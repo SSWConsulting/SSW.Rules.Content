@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep your npm and yarn packages up to date to ensure your application's security and functionality.
 type: rule
 title: Do you keep your npm and yarn packages up to date?
 uri: packages-up-to-date
@@ -24,6 +25,7 @@ created: 2020-09-30T00:17:47.000Z
 archivedreason: null
 guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
 ---
+
 `youtube: https://www.youtube.com/embed/LN2zsrLqljY`
 **Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)**
 
@@ -43,14 +45,14 @@ yarn audit
 
 Running `npm outdated` returns an overview of your packages versions showing:
 
-* The **current** version your project is using
-* The **wanted** version, i.e. the maximum version of the package that satisfies the semver range specified in package.json
-* The **latest** version of the package
+- The **current** version your project is using
+- The **wanted** version, i.e. the maximum version of the package that satisfies the semver range specified in package.json
+- The **latest** version of the package
 
 The packages output from this command will also show up in different colours:
 
-* **Red** indicates the package version is below the wanted version
-* **Yellow** indicates the package version is at the wanted version but below the latest version
+- **Red** indicates the package version is below the wanted version
+- **Yellow** indicates the package version is at the wanted version but below the latest version
 
 ![Figure: Use 'npm outdated'](npm_outdated.png)
 
