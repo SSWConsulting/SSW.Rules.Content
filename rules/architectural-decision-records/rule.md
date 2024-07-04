@@ -19,15 +19,13 @@ created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 ---
 
-Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project. They do not necessarily have to be related to architecture, but could be any important decision made by the team.
+Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project, and the reasons behind them. 
+
+These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".
 
 <!--endintro-->
 
-## What is an ADR?
-
-An ADR is a “Architecture/Any Decision Record”. It's a lightweight structured document that captures an important architectural decision made along with its context. It is a way to document the decisions that have been made in a project, and the reasons behind them.
-
-Typically, this is the data you will include:
+Typically, this is the data it will have:
 
 * Title
 * Deciders
@@ -67,14 +65,14 @@ They should be stored wherever the technical documentation for your project live
 ## What decisions go in an ADR?
 
 * High impact decisions
-* Irreversible or Costly to change
+* Irreversible or costly to change
 * Decisions with long term implications
 * Anything that needs to be discussed with others
 * Choosing between multiple options with different pros and cons
 
 ## What can I use to create and manage ADRs?
 
-An ADR can be in any format, but it should be easily readable and accessible. Some options are
+An ADR can be in any format, but it should be easily readable and accessible. Some options are:
 
 * ⭐ Recommended - A dedicated ADR tool like Log4Brains (see details below)
 * Markdown files in your git repo
