@@ -54,7 +54,7 @@ index:
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder
-  - do-you-use-architectural-decision-records
+  - architectural-decision-records
   - use-prefixes-to-improve-code-review-communication
   - use-mass-transit
   - software-architecture-decision-tree

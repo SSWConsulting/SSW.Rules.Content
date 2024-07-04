@@ -11,7 +11,8 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 redirects: []
-related: []
+related:
+  - architectural-decision-records
 archivedreason: null
 ---
 
@@ -34,29 +35,29 @@ Some examples include:
 
 **Discoveries**
 
-* A developer finds a blocking issue hindering the Work Item's progress
-* A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
-* A tester notices a problem with a feature
+- A developer finds a blocking issue hindering the Work Item's progress
+- A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+- A tester notices a problem with a feature
 
 **Decisions**
 
-* The Product Owner has asked for changes to the functionality
-* A developer gets approval to implement a new UI design
-* A tester has tested and approved the feature in staging
+- The Product Owner has asked for changes to the functionality
+- A developer gets approval to implement a new UI design
+- A tester has tested and approved the feature in staging
 
 #### What about project-wide changes?
 
-If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [Architectural Decision Record](/do-you-use-architectural-decision-records) and then link to it in the PBI as well.
+If you're documenting something that **affects the project at a high level**, make sure to create an artifact for that in your [Architectural Decision Record](/architectural-decision-records) and then link to it in the PBI as well.
 
 ### When should changes be documented?
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
 
-* Before a call
-* Before a Sprint Review
-* After a significant event
-* Before switching focus
-* Before going home
+- Before a call
+- Before a Sprint Review
+- After a significant event
+- Before switching focus
+- Before going home
 
 Keeping Work Items as up-to-date as possible ensures that the information is recorded while fresh in your mind, isn't forgotten about and has a strong audit trail. It also keeps the people invested in the Work Item informed of progress.
 
