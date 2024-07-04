@@ -29,7 +29,7 @@ related:
   - user-journey-mapping
   - package-audit-log
   - technical-debt
-  - do-you-use-architectural-decision-records
+  - architectural-decision-records
 redirects:
   - do-you-review-the-documentation
   - do-you-make-awesome-documentation
