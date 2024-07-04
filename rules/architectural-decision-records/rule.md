@@ -36,7 +36,7 @@ Typically, this is the data you will include:
 * Decision Drivers
 * Options and Pros/Cons
 
-## What are the dangers of not documenting important decisions?
+## ⚠️ The dangers of not documenting important decisions
 
 1. Lack of transparency and communication
 2. Loss of intellectual property
@@ -44,7 +44,7 @@ Typically, this is the data you will include:
 4. Risk of repeating mistakes
 5. Difficulty in auditing and governance
 
-## What are the advantages of using ADRs?
+## ✅ The advantages of using ADRs
 
 1. Providing documentation and historical context
 2. Collaboration and communication
@@ -81,6 +81,8 @@ An ADR can be in any format, but it should be easily readable and accessible. So
 * Wiki (e.g. GitHub or Confluence)
 * Loop
 
+#### Log4Brains
+
 [Log4Brains](https://github.com/thomvaill/log4brains) can help to create and view ADRs.
 
 This can be installed by running:
@@ -109,12 +111,12 @@ Lastly, to preview your ADRs, run:
 log4brains preview
 ```
 
-## ADR Examples
+## ADR examples
 
 ![Figure: Example ADR from SSW.CleanArchitecture](adr.png)
 
 You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 
-## Related Articles
+## Related articles
 
 * [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
