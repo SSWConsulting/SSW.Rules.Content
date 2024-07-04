@@ -35,7 +35,7 @@ Typically, this is the data you will include:
 - Decision Drivers
 - Options and Pros/Cons
 
-### What are the dangers of not documenting important decisions?
+## What are the dangers of not documenting important decisions?
 
 1. Lack of transparency and communication
 2. Loss of intellectual property
@@ -43,7 +43,7 @@ Typically, this is the data you will include:
 4. Risk of repeating mistakes
 5. Difficulty in auditing and governance
 
-### What are the advantages of using ADRs?
+## What are the advantages of using ADRs?
 
 1. Providing documentation and historical context
 2. Collaboration and communication
@@ -59,26 +59,26 @@ ADRs can also help with knowledge sharing across teams, as other Solution Archit
 
 Another benefit is that future developers joining the project now have access to the historical context as to why certain decisions were made.
 
-### Where should ADRs be stored?
+## Where should ADRs be stored?
 
 They should be stored wherever the technical documentation for your project lives. Storing them in Git along with your code works well, but alternatively wherever your technical documentation lives (i.e. a wiki).
 
 ## What decisions go in an ADR?
 
-* High impact decisions
-* Irreversible or Costly to change
-* Decisions with long term implications
-* Anything that needs to be discussed with others
-* Choosing between multiple options with different pros and cons
+- High impact decisions
+- Irreversible or Costly to change
+- Decisions with long term implications
+- Anything that needs to be discussed with others
+- Choosing between multiple options with different pros and cons
 
-### What can I use to create and manage ADRs?
+## What can I use to create and manage ADRs?
 
 An ADR can be in any format, but it should be easily readable and accessible. Some options are
 
-* Markdown files in your git repo
-* Wiki (e.g. GitHub or Confluence)
-* Loop
-* ⭐ A dedicated ADR tool like Log4Brains (see details below)
+- Markdown files in your git repo
+- Wiki (e.g. GitHub or Confluence)
+- Loop
+- ⭐ A dedicated ADR tool like Log4Brains (see details below)
 
 [Log4Brains](https://github.com/thomvaill/log4brains) can help to create and view ADRs.
 
@@ -108,12 +108,12 @@ Lastly, to preview your ADRs, run:
 log4brains preview
 ```
 
-### ADR Examples
+## ADR Examples
 
 ![Figure: Example ADR from SSW.CleanArchitecture](adr.png)
 
 You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 
-### Related Articles
+## Related Articles
 
-* [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
+- [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
