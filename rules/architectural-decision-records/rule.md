@@ -5,40 +5,39 @@ uri: architectural-decision-records
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 related:
   - checked-by-xxx
   - conduct-a-test-please
   - over-the-shoulder
   - awesome-documentation
   - document-discoveries
-
 redirects:
-  - architectural-decision-records
+  - do-you-use-architectural-decision-records
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 ---
 
-Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project. They do not necessarily have to be related to architecture, but could be any important decision made by the team.
+Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project, and the reasons behind them. 
+
+These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".
 
 <!--endintro-->
 
-## What is an ADR?
+Typically, this is the data it will have:
 
-An ADR is a “Architecture/Any Decision Record”. It's a lightweight structured document that captures an important architectural decision made along with its context. It is a way to document the decisions that have been made in a project, and the reasons behind them.
-
-Typically, this is the data you will include:
-
-- Title
-- Deciders
-- Problem / Context
-- Decision
-- Decision Drivers
-- Options and Pros/Cons
+* Title
+* Deciders
+* Problem / Context
+* Decision
+* Decision Drivers
+* Options and Pros/Cons
 
 youtube: https://youtu.be/QiElThRQ2jE`
 **Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)**
 
-## What are the dangers of not documenting important decisions?
+## ⚠️ The dangers of not documenting important decisions
 
 1. Lack of transparency and communication
 2. Loss of intellectual property
@@ -46,7 +45,7 @@ youtube: https://youtu.be/QiElThRQ2jE`
 4. Risk of repeating mistakes
 5. Difficulty in auditing and governance
 
-## What are the advantages of using ADRs?
+## ✅ The advantages of using ADRs
 
 1. Providing documentation and historical context
 2. Collaboration and communication
@@ -68,20 +67,22 @@ They should be stored wherever the technical documentation for your project live
 
 ## What decisions go in an ADR?
 
-- High impact decisions
-- Irreversible or Costly to change
-- Decisions with long term implications
-- Anything that needs to be discussed with others
-- Choosing between multiple options with different pros and cons
+* High impact decisions
+* Irreversible or costly to change
+* Decisions with long term implications
+* Anything that needs to be discussed with others
+* Choosing between multiple options with different pros and cons
 
 ## What can I use to create and manage ADRs?
 
-An ADR can be in any format, but it should be easily readable and accessible. Some options are
+An ADR can be in any format, but it should be easily readable and accessible. Some options are:
 
-- Markdown files in your git repo
-- Wiki (e.g. GitHub or Confluence)
-- Loop
-- ⭐ A dedicated ADR tool like Log4Brains (see details below)
+* ⭐ Recommended - A dedicated ADR tool like Log4Brains (see details below)
+* Markdown files in your git repo
+* Wiki (e.g. GitHub or Confluence)
+* Loop
+
+#### Log4Brains
 
 [Log4Brains](https://github.com/thomvaill/log4brains) can help to create and view ADRs.
 
@@ -111,12 +112,12 @@ Lastly, to preview your ADRs, run:
 log4brains preview
 ```
 
-## ADR Examples
+## ADR examples
 
 ![Figure: Example ADR from SSW.CleanArchitecture](adr.png)
 
 You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 
-## Related Articles
+## Related articles
 
-- [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
+* [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
