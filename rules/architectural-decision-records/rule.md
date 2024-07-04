@@ -20,7 +20,7 @@ guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 
 ---
 
-Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project, and the reasons behind them. 
+Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project, and the reasons behind them.
 
 These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".
 
