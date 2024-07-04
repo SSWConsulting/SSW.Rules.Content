@@ -28,12 +28,15 @@ An ADR is a “Architecture/Any Decision Record”. It's a lightweight structure
 
 Typically, this is the data you will include:
 
-* Title
-* Deciders
-* Problem / Context
-* Decision
-* Decision Drivers
-* Options and Pros/Cons
+- Title
+- Deciders
+- Problem / Context
+- Decision
+- Decision Drivers
+- Options and Pros/Cons
+
+youtube: https://youtu.be/QiElThRQ2jE`
+**Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)**
 
 ## What are the dangers of not documenting important decisions?
 
@@ -65,20 +68,20 @@ They should be stored wherever the technical documentation for your project live
 
 ## What decisions go in an ADR?
 
-* High impact decisions
-* Irreversible or Costly to change
-* Decisions with long term implications
-* Anything that needs to be discussed with others
-* Choosing between multiple options with different pros and cons
+- High impact decisions
+- Irreversible or Costly to change
+- Decisions with long term implications
+- Anything that needs to be discussed with others
+- Choosing between multiple options with different pros and cons
 
 ## What can I use to create and manage ADRs?
 
 An ADR can be in any format, but it should be easily readable and accessible. Some options are
 
-* Markdown files in your git repo
-* Wiki (e.g. GitHub or Confluence)
-* Loop
-* ⭐ A dedicated ADR tool like Log4Brains (see details below)
+- Markdown files in your git repo
+- Wiki (e.g. GitHub or Confluence)
+- Loop
+- ⭐ A dedicated ADR tool like Log4Brains (see details below)
 
 [Log4Brains](https://github.com/thomvaill/log4brains) can help to create and view ADRs.
 
@@ -116,4 +119,4 @@ You can see more examples of ADRs with log4brains in action on our [SSW.CleanArc
 
 ## Related Articles
 
-* [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
+- [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
