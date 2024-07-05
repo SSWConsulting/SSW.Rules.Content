@@ -31,7 +31,7 @@ import { FormsModule } from '@angular/forms';
 
 @Component({
   standalone: true,
-  selector: 'app-complex-template-form',
+  selector: 'app-template-form',
   template: `
     <form #profileForm="ngForm" (ngSubmit)="onSubmit(profileForm)">
       <div>
@@ -84,7 +84,7 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
 
 @Component({
   standalone: true,
-  selector: 'app-complex-reactive-form',
+  selector: 'app-reactive-form',
   template: `
     <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
       <div formGroupName="personalDetails">
