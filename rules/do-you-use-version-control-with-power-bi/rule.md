@@ -12,6 +12,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Calum Simpson
     url: https://ssw.com.au/people/calum-simpson
+  - title: Kosta Madorsky
+    url: https://ssw.com.au/people/kosta-madorsky
 related:
   - do-you-know-powerbi-version-control-features
   - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
