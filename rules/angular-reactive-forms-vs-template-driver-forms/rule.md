@@ -2,6 +2,10 @@
 type: rule
 tips: ""
 title: Do you know when to use Reactive Forms vs Template-driven Forms in Angular?
+seoDescription: Learn the key differences between Reactive Forms and
+  Template-driven Forms in Angular. Discover when to use each approach, their
+  pros and cons, and why Reactive Forms are the preferred choice for complex
+  projects
 uri: angular-reactive-forms-vs-template-driver-forms
 authors:
   - title: Charles Vionnet
