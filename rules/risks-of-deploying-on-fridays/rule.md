@@ -21,7 +21,7 @@ Deploying on Fridays is inherently risky. If something goes wrong, it could lead
 
 <!--endintro-->
 
-::: img-small  
+::: img-large  
 ![Figure: When the Golden Rule is not followed](risks-of-deploying-on-fridays.png)
 :::
 
@@ -29,7 +29,7 @@ While it is best to avoid Friday deployments, sometimes it’s unavoidable, such
 
 ### How to be prepared?
 
-- Ensure Comprehensive Monitoring: Make sure all necessary monitoring tools are in place to quickly identify any issues, for instance by setting up [Application Insights](https://www.ssw.com.au/rules/how-to-set-up-application-insights/)
+- Ensure Comprehensive Monitoring: Make sure all necessary monitoring tools are in place to quickly identify any issues. For instance, use [Application Insights](https://www.ssw.com.au/rules/how-to-set-up-application-insights/)
 
 - Follow a Pre-Deployment Checklist: Verify the deployment process, including tests, backups, and a rollback plan in case something goes wrong.
 - Pre-Deployment Communication:
@@ -47,10 +47,3 @@ While it is best to avoid Friday deployments, sometimes it’s unavoidable, such
 
 Now, the Golden Rule can be updated to:
 > Never deploy on Friday… but be prepared if you must.
-
-
-
-
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
