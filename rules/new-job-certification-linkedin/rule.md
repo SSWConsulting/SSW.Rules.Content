@@ -38,4 +38,6 @@ The same principle applies to [sharing new certifications or courses.](https://w
 ![Figure: Good example - The branded image made a difference in the post and had a much higher engagement 🚀](linkedin-new-job-branded.png)
 :::
 
+![✅ Figure: Good Example - If you share a nice big image of the certification it will get a lot more attention and looks less generic than the LinkedIn suggested image!!](mscert.jpg)
+
 ![✅ Figure: Good Example - A nice way to share your new Microsoft certification on LinkedIn](linkedin-cert-image.png)
