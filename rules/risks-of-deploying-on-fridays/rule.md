@@ -8,6 +8,7 @@ seoDescription: Avoid deploying on Fridays due to higher risks and potential
   in place
 uri: risks-of-deploying-on-fridays
 authors:
+  - title: ""
   - title: Charles Vionnet
     url: https://www.ssw.com.au/people/charles-vionnet/
 created: 2024-07-05T02:41:49.271Z
@@ -20,20 +21,22 @@ Deploying on Fridays is inherently risky. If something goes wrong, it could lead
 
 <!--endintro-->
 
-::: img-large  
-![Figure: When the Golden Rule is not followed](risks-of-deploying-on-fridays.png)
-:::
+
+TODO - IMAGE
+ 
+**Figure: When the Golden Rule is not followed**
 
 While it is best to avoid Friday deployments, sometimes it’s unavoidable, such as for a security update. In that case, you must weigh up the pros and cons, acknowledge the risks involved and have a plan ready.
 
 ### How to be prepared?
 
-- Ensure Comprehensive Monitoring: Make sure all necessary monitoring tools are in place to quickly identify any issues. For instance, you can use [Application Insights](https://www.ssw.com.au/rules/how-to-set-up-application-insights/)
+- Ensure Comprehensive Monitoring: Make sure all necessary monitoring tools are in place to quickly identify any issues, for instance by setting up [Application Insights](https://www.ssw.com.au/rules/how-to-set-up-application-insights/)
 
 - Follow a Pre-Deployment Checklist: Verify the deployment process, including tests, backups, and a rollback plan in case something goes wrong.
 - Pre-Deployment Communication:
 
-  - Inform the team about the deployment and ensure that support staff or relevant team members are available if needed. Depending on company or country regulations, get approval from your manager to work over the weekend.
+  - Inform the team about the deployment and ensure that support staff or relevant team members are available if needed.
+  - Depending on company or country regulations, get approval from your manager to work over the weekend.
   - Notify all relevant stakeholders, acknowledging that you and the team are prepared to fix issues over the weekend if they occur.
 - Post-Deployment Communication: Inform stakeholders whether the deployment was successful or if there were any failures.
 - Document Everything: Record any issues, what was done to resolve them, and how to improve in the future.
@@ -45,3 +48,10 @@ While it is best to avoid Friday deployments, sometimes it’s unavoidable, such
 
 Now, the Golden Rule can be updated to:
 > Never deploy on Friday… but be prepared if you must.
+
+
+
+
+2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
+3. Submit your rule for review.
+4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
