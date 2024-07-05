@@ -25,6 +25,51 @@ When to use Template-driven Forms:
 - When you prefer a less structured and more declarative approach.
 - When you are working on a smaller project or a quick prototype.
 
+```ts
+import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+@Component({
+  standalone: true,
+  selector: 'app-complex-template-form',
+  template: `
+    <form #profileForm="ngForm" (ngSubmit)="onSubmit(profileForm)">
+      <div>
+        <label for="firstName">First Name:</label>
+        <input id="firstName" name="firstName" [(ngModel)]="personalDetails.firstName" required />
+        <div *ngIf="profileForm.controls['firstName']?.invalid && profileForm.controls['firstName']?.touched">
+          First Name is required.
+        </div>
+      </div>
+
+      <div>
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" name="lastName" [(ngModel)]="personalDetails.lastName" required />
+        <div *ngIf="profileForm.controls['lastName']?.invalid && profileForm.controls['lastName']?.touched">
+          Last Name is required.
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="profileForm.invalid">Submit</button>
+    </form>
+  `,
+  imports: [FormsModule],
+})
+export class TemplateFormComponent {
+  personalDetails = {
+    firstName: '',
+    lastName: ''
+  };
+
+  onSubmit(form: any): void {
+    if (form.valid) {
+      console.log('Form Submitted', form.value);
+    }
+  }
+}
+```
+**Figure: Template-driven Forms - Example of form implementation**
+
 ### Reactive Forms
 Reactive Forms are the preferred approach for complex forms. They offer more control and flexibility in form validation and data handling, though they are more complex and verbose.
 
@@ -33,12 +78,56 @@ When to use Reactive Forms:
 - When the form is dynamic (fields are added or removed at runtime).
 - When you prefer a more structured and predictable approach to form handling.
 
+```ts
+import { Component } from '@angular/core';
+import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+
+@Component({
+  standalone: true,
+  selector: 'app-complex-reactive-form',
+  template: `
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+      <div formGroupName="personalDetails">
+        <label for="firstName">First Name:</label>
+        <input id="firstName" formControlName="firstName" />
+        <div *ngIf="profileForm.get('personalDetails.firstName')?.invalid && profileForm.get('personalDetails.firstName')?.touched">
+          First Name is required.
+        </div>
+
+        <label for="lastName">Last Name:</label>
+        <input id="lastName" formControlName="lastName" />
+        <div *ngIf="profileForm.get('personalDetails.lastName')?.invalid && profileForm.get('personalDetails.lastName')?.touched">
+          Last Name is required.
+        </div>
+      </div>
+
+      <button type="submit" [disabled]="profileForm.invalid">Submit</button>
+    </form>
+  `,
+  imports: [ReactiveFormsModule],
+})
+export class ReactiveFormComponent {
+  profileForm: FormGroup;
+
+  constructor(private fb: FormBuilder) {
+    this.profileForm = this.fb.group({
+      personalDetails: this.fb.group({
+        firstName: ['', Validators.required],
+        lastName: ['', Validators.required],
+      }),
+    });
+  }
+
+  onSubmit(): void {
+    if (this.profileForm.valid) {
+      console.log(this.profileForm.value);
+    }
+  }
+}
+```
+**Figure: Reactive Forms - Example of form implementation**
+
 ### Which one should I use?
 Choosing between Reactive Forms and Template-driven Forms depends on the complexity of your form. Reactive Forms offer more control and flexibility, making them ideal for complex scenarios, while Template-driven Forms provide a simpler and more declarative approach, suitable for straightforward forms.
 
 At SSW, our projects are heavily relying on complex forms, and we encourage the usage of Reactive Forms.
-
-
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
