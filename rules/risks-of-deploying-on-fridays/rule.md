@@ -29,13 +29,12 @@ While it is best to avoid Friday deployments, sometimes it’s unavoidable, such
 
 ### How to be prepared?
 
-- Ensure Comprehensive Monitoring: Make sure all necessary monitoring tools are in place to quickly identify any issues. For instance, use [Application Insights](https://www.ssw.com.au/rules/how-to-set-up-application-insights/)
+- Ensure Comprehensive Monitoring: Make sure all necessary monitoring tools are in place to quickly identify any issues. For instance, you can use [Application Insights](https://www.ssw.com.au/rules/how-to-set-up-application-insights/)
 
 - Follow a Pre-Deployment Checklist: Verify the deployment process, including tests, backups, and a rollback plan in case something goes wrong.
 - Pre-Deployment Communication:
 
-  - Inform the team about the deployment and ensure that support staff or relevant team members are available if needed.
-  - Depending on company or country regulations, get approval from your manager to work over the weekend.
+  - Inform the team about the deployment and ensure that support staff or relevant team members are available if needed. Depending on company or country regulations, get approval from your manager to work over the weekend.
   - Notify all relevant stakeholders, acknowledging that you and the team are prepared to fix issues over the weekend if they occur.
 - Post-Deployment Communication: Inform stakeholders whether the deployment was successful or if there were any failures.
 - Document Everything: Record any issues, what was done to resolve them, and how to improve in the future.
