@@ -42,7 +42,6 @@ A recommended “Definition of Ready” would be:
 
 After the PBI is approved ask for a signature (or simply an initial) as a prove of approval. Check out this rules [ask-clients-approval](/do-you-estimate-business-value)
 
-::: greybox
 **Notes:**
 
 1. PBIs can still be accepted into a Sprint even if they do not meet the DoR. When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work. The recommendation is that PBI's are ready, but this is not mandatory.
@@ -54,6 +53,5 @@ After the PBI is approved ask for a signature (or simply an initial) as a prove 
 - “E” stimable (to a good approximation)
 - “S” mall (so as to fit within an iteration)
 - “T” estable (in principle, even if there isn’t a test for it yet)
-  :::
 
 Following the update to the Scrum Guide for 2020, this is the concept of a Product Backlog being "Ready"
