@@ -23,12 +23,12 @@ To understand the significance of upgrading from .NET Framework to the latest .N
 
 The .NET Framework has been the backbone of Windows application development for nearly two decades. It has provided a robust and versatile environment for building Windows desktop applications, web applications, and services. However, as technology progressed, the limitations of .NET Framework became more apparent.
 
-#### The Pain Point:
+#### The Pain Point
 
-- **Compatibility** - .NET Framework applications run on Windows, limiting cross-platform deployment.
-- **Performance** - Each new version of .NET brings improved performance and resource utilization, allowing the same .NET code to perform better on the same hardware.
-- **Security** - Limited security support for older .NET Framework versions(4, 4.5 and 4.5.1), and the support for NET Framework versions(4.5.2 and later) [follows the lifecycle policy of the underlying Windows OS on which it is installed](https://learn.microsoft.com/en-us/lifecycle/faq/dotnet-framework#what-is-the-microsoft-lifecycle-policy-for--net-framework-).
-- **Modern development features** - Newer versions of .NET give us more opportunities to design products and services using many newer capabilities that are not backported to .NET Framework. This allows us to build, test and deploy faster, and more securely than ever before, keeping us competitive in today's tech landscape.
+* **Compatibility** - .NET Framework applications run on Windows, limiting cross-platform deployment.
+* **Performance** - Each new version of .NET brings improved performance and resource utilization, allowing the same .NET code to perform better on the same hardware.
+* **Security** - Limited security support for older .NET Framework versions(4, 4.5 and 4.5.1), and the support for NET Framework versions(4.5.2 and later) [follows the lifecycle policy of the underlying Windows OS on which it is installed](https://learn.microsoft.com/en-us/lifecycle/faq/dotnet-framework#what-is-the-microsoft-lifecycle-policy-for--net-framework-).
+* **Modern development features** - Newer versions of .NET give us more opportunities to design products and services using many newer capabilities that are not backported to .NET Framework. This allows us to build, test and deploy faster, and more securely than ever before, keeping us competitive in today's tech landscape.
 
 ### Enter the Modern .NET
 
@@ -54,8 +54,8 @@ Upgrading from .NET Framework to the latest .NET is not just a technological shi
 
 For more information on the support policies of .NET Framework and .NET, you can refer to the following resources:
 
-- [.NET Framework support](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)
-- [.NET support](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
+* [.NET Framework support](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)
+* [.NET support](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
 
 ## Related articles
 
