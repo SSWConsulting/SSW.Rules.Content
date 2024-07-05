@@ -21,10 +21,9 @@ Deploying on Fridays is inherently risky. If something goes wrong, it could lead
 
 <!--endintro-->
 
-
-TODO - IMAGE
- 
-**Figure: When the Golden Rule is not followed**
+::: img-small  
+![Figure: When the Golden Rule is not followed](risks-of-deploying-on-fridays.png)
+:::
 
 While it is best to avoid Friday deployments, sometimes it’s unavoidable, such as for a security update. In that case, you must weigh up the pros and cons, acknowledge the risks involved and have a plan ready.
 
