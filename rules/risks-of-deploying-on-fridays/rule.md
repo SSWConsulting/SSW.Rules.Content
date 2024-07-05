@@ -8,7 +8,6 @@ seoDescription: Avoid deploying on Fridays due to higher risks and potential
   in place
 uri: risks-of-deploying-on-fridays
 authors:
-  - title: ""
   - title: Charles Vionnet
     url: https://www.ssw.com.au/people/charles-vionnet/
 created: 2024-07-05T02:41:49.271Z
