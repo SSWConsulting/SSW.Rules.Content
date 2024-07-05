@@ -56,3 +56,7 @@ For more information on the support policies of .NET Framework and .NET, you can
 
 - [.NET Framework support](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)
 - [.NET support](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
+
+## Related articles
+
+* [Adam's Blog - .NET 8 Migrations Made Easy](https://adamcogan.com/2024/03/19/dotnet-8-migrations-made-easy/)
