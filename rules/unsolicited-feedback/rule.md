@@ -1,11 +1,11 @@
 ---
-seoDescription: Mastering the Art of Giving Feedback - When to Offer and How to Do It Right Discover how to provide constructive feedback that boosts growth and development. Learn when to offer feedback, what questions to ask yourself, and how to phrase it effectively.
 type: rule
-archivedreason:
 title: Communication - Do you know how (and when) to offer unsolicited feedback?
-guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
+seoDescription: Mastering the Art of Giving Feedback - When to Offer and How to
+  Do It Right Discover how to provide constructive feedback that boosts growth
+  and development. Learn when to offer feedback, what questions to ask yourself,
+  and how to phrase it effectively.
 uri: unsolicited-feedback
-created: 2023-03-02T20:28:20.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
@@ -15,6 +15,9 @@ related:
   - feedback-avoid-chopping-down-every-example
 redirects:
   - how-to-offer-unsolicited-feedback
+created: 2023-03-02T20:28:20.000Z
+archivedreason: null
+guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
 ---
 
 When you see an opportunity for someone to improve, either professionally or personally, it's tempting to immediately offer them some advice or feedback. But if they haven't asked, you need to approach it carefully and considerately; and, most importantly, ask yourself, _am I doing this for them, or for me?_
@@ -86,22 +89,21 @@ As noted above, feedback is critical and necessary for growth. While the above g
 
 When feedback has been invited, it's easy to offer it up, but when it hasn't, the best thing to do is ask.
 
-:::greybox
 
-> Hey Bob, have you got a few minutes to discuss some ideas I have about _x_? I have some suggestions, you may already be across them so if you have the time I'd love to chat to you about them.
-> :::
+> Hey Bob, have you got a few minutes to discuss some ideas I have about *x*? I have some suggestions, you may already be across them so if you have the time I'd love to chat to you about them.
+
 
 Phrasing things correctly is important too. For example, let's say you watched an interview, and you noticed that the interviewer was telling anecdotes more than they were eliciting them from the interviewee.
 
-:::bad
-
 > Bob, I saw your interview and it was terrible! All you did was talk about yourself, you didn't give your guest a chance to get a word in edgewise!
-> :::
+:::bad
+Bad example - It may seem like John is being reprimanded.
+:::
 
+> Hey Bob, I really enjoyed watching your interview with \[guest] last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of \[guest] coming back? I'd love to hear more from *them* next time about *their* stories.
 :::good
-
-> Hey Bob, I really enjoyed watching your interview with [guest] last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of [guest] coming back? I'd love to hear more from _them_ next time about _their_ stories.
-> :::
+Good example - A better approach showing respect while offering feedback in context of the shared goal (assessing the interviewee).
+:::
 
 ## If feedback is personal
 
