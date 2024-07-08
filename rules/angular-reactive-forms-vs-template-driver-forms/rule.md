@@ -27,10 +27,11 @@ When to use Template-driven Forms:
 ```ts
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   standalone: true,
-  selector: 'app-template-form',
+  selector: 'template-form',
   template: `
     <form #profileForm="ngForm" (ngSubmit)="onSubmit(profileForm)">
       <div>
@@ -52,7 +53,7 @@ import { FormsModule } from '@angular/forms';
       <button type="submit" [disabled]="profileForm.invalid">Submit</button>
     </form>
   `,
-  imports: [FormsModule],
+  imports: [FormsModule, CommonModule],
 })
 export class TemplateFormComponent {
   personalDetails = {
@@ -79,10 +80,11 @@ When to use Reactive Forms:
 ```ts
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angular/forms';
+import { CommonModule } from '@angular/common';
 
 @Component({
   standalone: true,
-  selector: 'app-reactive-form',
+  selector: 'reactive-form',
   template: `
     <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
       <div formGroupName="personalDetails">
@@ -102,7 +104,7 @@ import { FormBuilder, FormGroup, Validators, ReactiveFormsModule } from '@angula
       <button type="submit" [disabled]="profileForm.invalid">Submit</button>
     </form>
   `,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule, CommonModule],
 })
 export class ReactiveFormComponent {
   profileForm: FormGroup;
@@ -128,4 +130,4 @@ export class ReactiveFormComponent {
 ### Which one should I use?
 Choosing between Reactive Forms and Template-driven Forms depends on the complexity of your form. Reactive Forms offer more control and flexibility, making them ideal for complex scenarios, while Template-driven Forms provide a simpler and more declarative approach, suitable for straightforward forms.
 
-At SSW, our projects are heavily relying on complex forms, and we encourage the usage of Reactive Forms.
+At SSW, our projects heavily rely on complex forms, and we encourage the usage of Reactive Forms.
