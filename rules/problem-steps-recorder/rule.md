@@ -10,7 +10,9 @@ authors:
   - title: Brendan Richards
     url: https://ssw.com.au/people/brendan-richards
 related: []
-redirects: []
+redirects:
+  - do-you-use-problem-steps-recorder
+
 ---
 
 **Problem Steps Recorder** is a useful tool that allows anyone to capture details of a bug. Best of all, It's already installed on your Windows PC!
