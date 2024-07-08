@@ -1,15 +1,15 @@
 ---
 seoDescription: Modern SharePoint architecture favors a flat hierarchy, abandoning subsites for greater flexibility and integration with Microsoft Teams and 365 Groups.
 type: rule
-title: "Do you use a flat hierarchy in SharePoint? "
+title: Do you use a flat hierarchy in SharePoint?
 uri: sharepoint-flat-hierarchy
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
-  - url: https://ssw.com.au/people/
-    title: Warwick Leahy
+  - title: Warwick Leahy
+    url: https://ssw.com.au/people/warwick-leahy 
 created: 2022-01-06T05:04:25.315Z
 guid: f9a14783-71e5-406b-8192-8675df717508
 ---
@@ -19,18 +19,14 @@ In the days of classic SharePoint, subsites were a popular way of organising you
 <!--endintro-->
 
 ::: bad
-
-![Bad: Old SharePoint architecture](sharepoint-bad-architecture.gif)
-
+![Figure: Bad example - Old SharePoint architecture](sharepoint-bad-architecture.gif)
 :::
 
 ::: good
-
-![Good: A flat hierarchy with Hub sites allows great flexibility (animated gif)](flat-hierarchy.gif)
-
+![Figure: Good example - A flat hierarchy with Hub sites allows great flexibility (animated gif)](flat-hierarchy.gif)
 :::
 
-There are several reasons why sub-sites are no longer recommended. [Callum Crowley talks about some of the important benefits of a flat hierarchy](https://callum.technology/2021/05/still-using-subsites-in-sharepoint-online-5-reasons-to-move-to-flat-architecture/) including:
+There are several reasons why sub-sites are no longer recommended. [Callum Crowley talks about some of the important benefits of a flat hierarchy](https://callum.foo/2021/05/still-using-subsites-in-sharepoint-online-5-reasons-to-move-to-flat-architecture), including:
 
 **Flexibility** – Sub-sites are a pain to move - you'll never need to do this with a flat hierarchy. Using Hub sites, it’s easy to change links and use dynamic content to make sure your SharePoint architecture matches your organisational structure.
 
