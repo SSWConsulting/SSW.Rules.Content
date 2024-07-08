@@ -22,8 +22,8 @@ For example, in the IT industry, laptops are the tools of the trade. Employers s
 
 There are a few things that should be done with laptops in a company's fleet.
 
-- Rotation - Keep the fleet up-to-date
-- Waste management - Recycle old laptops
+* Rotation - Keep the fleet up-to-date
+* Waste management - Recycle old laptops
 
 ### Rotation - Keep the fleet up-to-date
 
