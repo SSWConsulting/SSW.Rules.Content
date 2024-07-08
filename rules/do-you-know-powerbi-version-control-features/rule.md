@@ -9,6 +9,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Calum Simpson
     url: https://ssw.com.au/people/calum-simpson
+  - title: Kosta Madorsky
+    url: https://ssw.com.au/people/kosta-madorsky
 related:
   - do-you-use-version-control-with-power-bi
 redirects: []

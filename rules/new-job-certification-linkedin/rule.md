@@ -28,7 +28,7 @@ After you add a new job, LinkedIn suggests announcing this to your network and o
 
 We suggest you add a branded image or a nice photo of your first day!
 
-The same principle applies to [sharing new certifications or courses.](https://www.linkedin.com/help/linkedin/answer/a704787/add-learning-certificates-of-completion-and-skills-to-your-linkedin-profile) You can add an image to your post to make it an engaging announcement!
+The same principle applies to [sharing new certifications or courses](https://www.linkedin.com/help/linkedin/answer/a704787/add-learning-certificates-of-completion-and-skills-to-your-linkedin-profile). You can add an image to your post to make it an engaging announcement!
 
 ::: bad img-medium
 ![Figure: Bad example - LinkedIn offers templates without any personality, which most users will just keep scrolling and not really stop to read as they are very common ](linkedin-new-job-template.png)
