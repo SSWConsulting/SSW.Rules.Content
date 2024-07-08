@@ -102,7 +102,7 @@ Bad example - It may seem like John is being reprimanded
 
 > Hey Bob, I really enjoyed watching your interview with \[guest] last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of \[guest] coming back? I'd love to hear more from *them* next time about *their* stories.
 :::good
-Good example - A better approach showing respect while offering feedback in context of the shared goal (assessing the interviewee)
+Good example - A better approach, showing respect while offering feedback in context of the shared goal (assessing the interviewee)
 :::
 
 ## If feedback is personal
