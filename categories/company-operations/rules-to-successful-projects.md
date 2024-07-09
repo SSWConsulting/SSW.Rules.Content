@@ -58,6 +58,7 @@ index:
 - hand-over-projects
 - hand-over-responsibilities
 - do-you-have-a-deployment-plan
+- risks-of-deploying-on-fridays
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself
 - do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
