@@ -6,7 +6,7 @@ uri: support-community-indigenous-engagement
 authors:
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley/
-2024-07-03T11:30:00.000Z
+created: 2024-07-03T11:30:00.000Z
 guid: 6b7c4d8e-9123-4567-9f2a-abc3d456e789
 ---
 
