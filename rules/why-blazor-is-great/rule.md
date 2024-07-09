@@ -53,5 +53,4 @@ Blazor applications are easy to test thanks to community support with bUnit, a t
 ### References
 
 * [Blazor - A .NET web framework for building interactive web applications](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
-* [Why Choose Blazor for Your Next Project?](https://www.c-sharpcorner.com/article/why-choose-blazor-for-your-next-project/)
 * [Do you use bUnit for unit tests in Blazor?](https://www.ssw.com.au/rules/bunit-for-blazor-unit-tests)
