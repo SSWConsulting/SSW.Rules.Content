@@ -7,4 +7,5 @@ index:
 - ui-for-a-command-line-utility
 - ui-by-default-when-you-type-applicationname-exe
 - provide-list-of-arguments
+- organize-terminal-sessions-with-panes
 ---
