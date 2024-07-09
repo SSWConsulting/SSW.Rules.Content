@@ -1,4 +1,4 @@
-```markdown
+
 ---
 seoDescription: Demonstrating commitment to health and safety in the workplace.
 type: rule
