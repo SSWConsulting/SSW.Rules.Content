@@ -7,8 +7,8 @@ guid: 91d73e58-3b7a-4530-9844-dbbd799c7af6
 uri: why-blazor-is-great
 created: 2024-07-09T14:13:53.0000000Z
 authors:
-    - title: Brady Stroud
-      url: https://ssw.com.au/people/brady-stroud
+    - title: Matt Parker
+      url: https://ssw.com.au/people/matt-parker
 related: []
 redirects:
     
