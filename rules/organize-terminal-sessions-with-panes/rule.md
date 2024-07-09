@@ -2,6 +2,10 @@
 type: rule
 tips: ""
 title: Do you organize your terminal sessions using Windows Terminal panes?
+seoDescription: Manage multiple command-line tools efficiently with Windows
+  Terminal. Split the main window into panes for side-by-side sessions,
+  simplifying navigation and boosting productivity. Ideal for monitoring
+  processes, running multiple projects, and executing commands concurrently.
 uri: organize-terminal-sessions-with-panes
 authors:
   - title: Charles Vionnet
