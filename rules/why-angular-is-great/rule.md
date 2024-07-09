@@ -52,4 +52,4 @@ Angular is designed with testability in mind, providing tools and features to ea
 
 ### References
 
-- [Angular - A platform for building mobile and desktop web applications](https://angular.dev)
+* [Angular - A platform for building mobile and desktop web applications](https://angular.dev)
