@@ -1,4 +1,4 @@
-```markdown
+
 ---
 seoDescription: Respecting and protecting fundamental human and labour rights for workers.
 type: rule

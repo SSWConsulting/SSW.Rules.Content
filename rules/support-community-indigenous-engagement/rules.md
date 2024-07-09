@@ -1,4 +1,4 @@
-```markdown
+
 ---
 seoDescription: Supporting community and indigenous engagement initiatives.
 type: rule
