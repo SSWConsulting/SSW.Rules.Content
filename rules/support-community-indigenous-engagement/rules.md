@@ -20,27 +20,27 @@ To effectively support community and indigenous engagement initiatives, business
 
 #### Employing Locally
 
-- **Local Employment:** Prioritize hiring workers with the necessary skills from the host communities where your business operates. This not only provides employment opportunities but also strengthens community ties.
-- **Indigenous Employment:** Create specific programs and opportunities aimed at increasing indigenous employment within your business.
+* **Local Employment:** Prioritize hiring workers with the necessary skills from the host communities where your business operates. This not only provides employment opportunities but also strengthens community ties.
+* **Indigenous Employment:** Create specific programs and opportunities aimed at increasing indigenous employment within your business.
 
 #### Procuring Locally
 
-- **Local Procurement:** Whenever possible, source goods and services from local suppliers, especially small to medium-sized businesses and regional businesses. This supports local economies and reduces environmental impact.
-- **Indigenous Suppliers:** Support indigenous-owned businesses by incorporating them into your supply chain wherever possible. This can involve direct procurement or partnerships with larger suppliers to include indigenous businesses.
+* **Local Procurement:** Whenever possible, source goods and services from local suppliers, especially small to medium-sized businesses and regional businesses. This supports local economies and reduces environmental impact.
+* **Indigenous Suppliers:** Support indigenous-owned businesses by incorporating them into your supply chain wherever possible. This can involve direct procurement or partnerships with larger suppliers to include indigenous businesses.
 
 #### Community Engagement
 
-- **Initiatives and Programs:** Where ever appropriate actively participate in and support community and indigenous engagement initiatives. This can include sponsoring local events, participating in community programs, and collaborating with local organizations.
-- **Feedback and Consultation:** Regularly seek feedback from community members and indigenous groups to understand their needs and how your business can better support them.
+* **Initiatives and Programs:** Where ever appropriate actively participate in and support community and indigenous engagement initiatives. This can include sponsoring local events, participating in community programs, and collaborating with local organizations.
+* **Feedback and Consultation:** Regularly seek feedback from community members and indigenous groups to understand their needs and how your business can better support them.
 
 ### Practical Implementation Tips
 
 To put these principles into practice, consider the following tips:
 
-- **Partnerships:** Form partnerships with local organizations, indigenous groups, and business chambers to identify opportunities for engagement and support.
-- **Training Programs:** Develop training programs to enhance the skills of local and indigenous workers, preparing them for employment within your business.
-- **Mentorship and Support:** Provide mentorship and support to local and indigenous businesses, helping them grow and succeed.
-- **Transparent Reporting:** Maintain transparency in your community engagement efforts by reporting on your initiatives and their impacts regularly.
+* **Partnerships:** Form partnerships with local organizations, indigenous groups, and business chambers to identify opportunities for engagement and support.
+* **Training Programs:** Develop training programs to enhance the skills of local and indigenous workers, preparing them for employment within your business.
+* **Mentorship and Support:** Provide mentorship and support to local and indigenous businesses, helping them grow and succeed.
+* **Transparent Reporting:** Maintain transparency in your community engagement efforts by reporting on your initiatives and their impacts regularly.
 
 ### Good and Bad Examples
 

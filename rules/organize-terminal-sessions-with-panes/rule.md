@@ -20,11 +20,13 @@ Windows Terminal is a modern terminal application that allows users to manage mu
 This feature serves as an alternative to having multiple terminal windows open simultaneously. Panes help keep everything in one place, making it simpler to navigate between different sessions.
 
 Use cases:
+
 * Monitoring different processes simultaneously.
 * Running multiple projects locally.
 * Executing commands concurrently.
 
 Main shortcuts:
+
 * `Alt + Shift + +` to split the pane vertically.
 * `Alt + Shift + -` to split the pane horizontally.
 * `Alt + Shift + W` to close the pane.
