@@ -7,7 +7,8 @@ seoDescription: Discover when to utilize Google Analytics or Google Search
   enhance your digital strategy effectively.
 uri: google-search-console-vs-google-analytics
 authors:
-  - title: ""
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2024-07-09T20:21:50.796Z
 guid: 09bd4539-6c37-4233-81dd-e9f0392e2c37
 ---
