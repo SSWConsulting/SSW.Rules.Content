@@ -66,20 +66,7 @@ Agenda
 
 ![Figure: PBI should be marked as “Ready” before pulling it into the Sprint](pbi-marked-as-done.png)
 
-## What if there is an [unexpected PBI](/unexpected-requests/) that needs to be added into the Sprint?
-
-Sometimes, we may encounter urgent new requirements and priority changes that need to be pulled into the Sprint immediately.
-
-In that case, you may not have time to wait for the PBI refinement meeting, and the PBI may not be marked as "Ready" yet.
-
-### The Solution
-
-1. Create a new PBI (or update an existing one) with all the required information
-2. Call the Tech lead to check the PBI
-3. Mark the PBI as “Ready” and pull it into the Sprint
-4. Send an email to notify the Product Owner and cc the Tech Lead
-
-![Figure: Email notifying the Product Owner of a Sprint change](pbi-refinement-email.png)
+Sometimes, we may encounter urgent new requirements and priority changes that need to be pulled into the Sprint immediately. You can handle this by following the [unexpected PBI's rule](/unexpected-requests/).
 
 ## Benefits of Product Backlog Refinement
 
