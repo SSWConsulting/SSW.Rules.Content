@@ -15,6 +15,10 @@ index:
   - remind-your-staff-to-dress-well
   - reduce-your-admin
   - continuous-learning
+  - support-community-indigenous-engagement
+  - respect-and-protect-human-labor-rights
+  - commitment-to-health-and-safety
+  - best-practices-environmental-sustainability
 ---
 
 DevOps is about keeping software healthy by releasing often and inspecting stats each day from the live system.
