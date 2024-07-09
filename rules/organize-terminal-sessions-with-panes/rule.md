@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you organize your terminal sessions using Windows Terminal panes?
 seoDescription: Manage multiple command-line tools efficiently with Windows
   Terminal. Split the main window into panes for side-by-side sessions,
@@ -13,6 +12,7 @@ authors:
 created: 2024-07-09T00:48:21.770Z
 guid: ae7b6a73-0e44-4e86-8c3b-17fe169a8274
 ---
+
 Windows Terminal is a modern terminal application that allows users to manage multiple command-line tools from a single interface. One standout feature is the ability to split the main window into multiple panes, enabling the running and viewing of multiple sessions side by side within a single window.
             
 <!--endintro-->
