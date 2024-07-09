@@ -38,7 +38,7 @@ You can find our CA template on [GitHub](https://github.com/SSWConsulting/SSW.Cl
 
 ### Vertical Slice Architecture
 
-Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes. 
+Vertical Slice Architecture structures your system around features rather than technical layers. Each feature is implemented end-to-end, including UI/API, business logic, and data access. This approach improves maintainability and reduces the risk of breaking changes.
 
 This modular approach to software development can introduce inexperienced teams to the idea of shipping features as functional units with no shared knowledge of the domain entities, infrastructure layer, or application layer within another subsystem, further preparing them for future develeopment environments that may use Modular Monolith or Microservices Architecture.
 
@@ -58,7 +58,7 @@ See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
 ## Architecture Decision Tree
 
-![Architecture Decision Tree](architecture-decision-tree.jpg)
+![Architecture Decision Tree](architecture-decision-tree-v2.jpg)
 
 It's important to keep in mind that these architectures are not mutually exclusive.
 
@@ -114,7 +114,7 @@ You have a mid-sized team, and your organization is still developing its DevOps 
 ::: greybox
 You are developing a large-scale application with multiple business domains and have several teams working in parallel.
 
-✅ **Choice:** Microservices - Microservices allow independent development, deployment, and scaling, which suits large and complex applications.
+✅ **Choice: Microservices** - Microservices allow independent development, deployment, and scaling, which suits large and complex applications.
 :::
 
 By carefully considering these factors and understanding the strengths and limitations of each architectural style, you can choose the best architecture for your system, ensuring a balance between flexibility, scalability, and maintainability.

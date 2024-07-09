@@ -36,7 +36,7 @@ guid: 1de9df77-9b69-4242-b648-e08e5980e9a6
 ---
 A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work. It refers to an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project.
 
-Before a PBI is worked on it should be added to the current Sprint Backlog during [Sprint Planning](what-happens-at-a-sprint-planning-meeting). If your PBI doesn't exist, or is in an email then you need to [turn it into a PBI](/turn-emails-into-pbis) to be prioritized in Sprint Planning.
+Before a PBI is worked on it should be added to the current Sprint Backlog during [Sprint Planning](/what-happens-at-a-sprint-planning-meeting). If your PBI doesn't exist, or is in an email then you need to [turn it into a PBI](/turn-emails-into-pbis) to be prioritized in Sprint Planning.
 
 Once a PBI is in the Sprint Backlog, it's lifecycle can be broken down into 3 steps:
 
