@@ -94,11 +94,13 @@ When feedback has been invited, it's easy to offer it up, but when it hasn't, th
 Phrasing things correctly is important too. For example, let's say you watched an interview, and you noticed that the interviewer was telling anecdotes more than they were eliciting them from the interviewee.
 
 > Bob, I saw your interview and it was terrible! All you did was talk about yourself, you didn't give {{ GUEST }} a chance to get a word in edgewise!
+
 :::bad
 Bad example - It may seem like they are being reprimanded
 :::
 
 > Hey Bob, I really enjoyed watching your interview with {{ GUEST }} last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of {{ GUEST }} coming back? I'd love to hear more from *them* next time about *their* stories.
+
 :::good
 Good example - A better approach, showing respect while offering feedback in context of the shared goal (assessing the interviewee)
 :::
