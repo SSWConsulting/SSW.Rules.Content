@@ -89,18 +89,16 @@ As noted above, feedback is critical and necessary for growth. While the above g
 
 When feedback has been invited, it's easy to offer it up, but when it hasn't, the best thing to do is ask.
 
-
-> Hey Bob, have you got a few minutes to discuss some ideas I have about *x*? I have some suggestions, you may already be across them so if you have the time I'd love to chat to you about them.
-
+> Hey Bob, have you got a few minutes to discuss some ideas I have about {{ SUBJECT }}? I have some suggestions, you may already be across them so if you have the time I'd love to chat to you about them.
 
 Phrasing things correctly is important too. For example, let's say you watched an interview, and you noticed that the interviewer was telling anecdotes more than they were eliciting them from the interviewee.
 
-> Bob, I saw your interview and it was terrible! All you did was talk about yourself, you didn't give your guest a chance to get a word in edgewise!
+> Bob, I saw your interview and it was terrible! All you did was talk about yourself, you didn't give {{ GUEST }} a chance to get a word in edgewise!
 :::bad
-Bad example - It may seem like John is being reprimanded
+Bad example - It may seem like they are being reprimanded
 :::
 
-> Hey Bob, I really enjoyed watching your interview with \[guest] last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of \[guest] coming back? I'd love to hear more from *them* next time about *their* stories.
+> Hey Bob, I really enjoyed watching your interview with {{ GUEST }} last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of {{ GUEST }} coming back? I'd love to hear more from *them* next time about *their* stories.
 :::good
 Good example - A better approach, showing respect while offering feedback in context of the shared goal (assessing the interviewee)
 :::
@@ -110,5 +108,3 @@ Good example - A better approach, showing respect while offering feedback in con
 Sometimes the feedback you might want to give addresses an aspect of someone’s self rather than their work. For example, someone might be eating with their mouth open in a meeting and it looks unprofessional. If the feedback is personal like this, it's best to use a private chat or wait for a private setting to address it. This way, the recipient can accept the feedback without external pressure or judgment.
 
 ![Figure: Example of criticism in a private Teams chat](private-criticism.png)
-
-For more information, see our rule [Do you know the nice way to correct someone?](/do-you-know-the-nice-way-to-correct-someone)
