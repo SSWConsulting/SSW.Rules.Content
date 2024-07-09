@@ -27,3 +27,10 @@ Main shortcuts:
 - `Alt + Arrow` to move between panes.
 - `Alt + Shift + Arrow` to resize a pane.
 
+::: ok  
+![Figure: APIs and front-end applications running in different windows](multiple-windows.jpg)
+:::
+
+::: good  
+![Figure: APIs and front-end applications running in panes](one-window.jpg)
+:::
