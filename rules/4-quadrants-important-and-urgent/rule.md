@@ -24,5 +24,5 @@ There is a well-known quadrant where people look at where they spend their time.
 
 Understanding the difference between urgent and important tasks in software development is crucial:
 
-- **Urgent tasks** are driven by external deadlines and often require immediate attention to meet project milestones or resolve critical issues
-- **Important tasks** may not have immediate deadlines but have a significant impact on the project's success, such as planning architecture, conducting thorough testing, or implementing essential features
+* **Urgent tasks** are driven by external deadlines and often require immediate attention to meet project milestones or resolve critical issues
+* **Important tasks** may not have immediate deadlines but have a significant impact on the project's success, such as planning architecture, conducting thorough testing, or implementing essential features
