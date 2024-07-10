@@ -30,7 +30,8 @@ Each project should also include a detailed checklist for each phase of deployme
   - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/)
   - Production Deployment
   - Post-Deployment
-  - Troubleshooting
+
+Lastly, include a 'Troubleshooting' section that outlines key contacts for support and provides step-by-step actions to address issues.
 
 ### How to Mitigate the Risk of a Deployment?
 
