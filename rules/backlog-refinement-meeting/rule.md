@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair/
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related:
   - 8-steps-to-scrum
   - defining-pbis
@@ -19,7 +21,6 @@ related:
 created: 2023-08-01T05:00:34.793Z
 guid: e7fc1823-dc9b-4fc1-b5bd-b7ac6424c336
 ---
-
 
 When a Scrum Team meets for Sprint Planning, they want to plan out the next week's work so they can get cracking on improving the product. However, the team often runs into a roadblock when they find that the Product Backlog Items (PBIs) are lacking in basic details. This problem leads to 1 of 2 outcomes:
 
@@ -52,7 +53,7 @@ Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
 Agenda
 
 1. Skip all PBIs that are already marked as "Ready"
-2. Refine the top 5 PBIs that are not marked as "Ready"
+2. Refine and estimate the top 5 PBIs that are not marked as "Ready" or in the "Not Ready" state
     * Call in the Product Owner if any feature requires requirements clarification
 3. Check if any PBIs need to be added
     * Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint)
