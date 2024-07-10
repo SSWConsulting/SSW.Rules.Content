@@ -1,7 +1,10 @@
 ---
-seoDescription: When unexpected requests arise during a Sprint, acknowledge the request and prioritize it with the Product Owner. If it's not crucial, add the new task to the backlog or remove an item of similar size from the current Sprint.
 type: rule
 title: Do you know how to handle unexpected requests in the middle of a Sprint?
+seoDescription: When unexpected requests arise during a Sprint, acknowledge the
+  request and prioritize it with the Product Owner. If it's not crucial, add the
+  new task to the backlog or remove an item of similar size from the current
+  Sprint.
 uri: unexpected-requests
 authors:
   - title: Adam Cogan
@@ -63,7 +66,7 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 
 ### Hi {{ PRODUCT OWNER }},
 
-As per our conversation, you have directed us to complete some urgent PBIs this Sprint in preparation for next week’s conference:
+As per our conversation, you have asked us to prioritise some urgent PBIs this Sprint:
 
 **Added:**
 
@@ -74,7 +77,9 @@ As per our conversation, you have directed us to complete some urgent PBIs this 
 
 - {{ PBI URL }}
 
-Normally these PBIs would be prioritized for the next Sprint (see https://ssw.com.au/rules/unexpected-requests), but we understand the time constraints for this work.
+Normally, these PBIs would be prioritized for the next Sprint, but we understand the time constraints for this work.
+
+<This email is as per https://www.ssw.com.au/rules/unexpected-requests >
 
 :::
 :::
