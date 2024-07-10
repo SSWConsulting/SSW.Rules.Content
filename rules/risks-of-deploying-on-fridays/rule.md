@@ -20,7 +20,7 @@ Nonetheless, a bit of extra vigilance is advised.
 <!--endintro-->
 
 ::: img-large  
-![Figure: Do not deploy on Friday... unless you have a good plan](risks-of-deploying-on-fridays.png)
+![Figure: Avoid deploying on Friday... unless you have a good plan](risks-of-deploying-on-fridays.png)
 :::
 
 While it is best to avoid deployments on days with limited support availability, sometimes urgent updates like security patches cannot wait.
@@ -32,11 +32,11 @@ While it is best to avoid deployments on days with limited support availability,
   - Notify all relevant stakeholders, acknowledging that you and the team are prepared to fix issues over the weekend if they occur
 
 - Deployment Checklist and Best Practices: Each project should include a document to cover:
-  - Pre-Deployment
+  - Pre-Deployment: To ensure all project components are up-to-date and tested before deployment
   - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/)
   - Production Deployment
   - Post-Deployment
-  - Troubleshooting: Outlines key contacts for support and provides step-by-step actions to address issues
+  - Troubleshooting: To outline key contacts for support and provide step-by-step actions to address issues
 
 ### How to Mitigate the Risk of a Deployment?
 
