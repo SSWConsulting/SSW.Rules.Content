@@ -14,61 +14,63 @@ Monitoring your company's reviews on external websites such as Glassdoor is cruc
 
 <!--endintro-->
 
-### Verify Your Company on External Websites    
+### Verify Your Company on External Websites
 
-To manage your company's reviews effectively, you must first verify your company on the external website. This verification process often involves claiming your company's profile, which allows you to respond to reviews and access additional features.     
-    
-### Log In Regularly      
-      
-Make it a habit to log in regularly to monitor new reviews and feedback. Regular check-ins help you stay on top of what is being said about your company and allow you to address issues promptly.       
-      
-### Set Up Notifications           
+To manage your company's reviews effectively, you must first verify your company on the external website. This verification process often involves claiming your company's profile, which allows you to respond to reviews and access additional features.
 
-Ensure that notifications of new reviews are sent to the company's information email address. This way, one or more employees can monitor and respond to reviews without relying on a single person. Distributing this responsibility ensures timely responses and continuous oversight.     
-   
-### Respond to Feedback Appropriately      
-     
-Responding to both positive and negative feedback is essential. Acknowledge positive reviews with gratitude and address negative feedback professionally and constructively. This shows that your company values employee input and is committed to continuous improvement.     
+### Log In Regularly
 
-#### Positive Feedback     
-* Thank the reviewer for their positive comments    
-* Highlight specific points they appreciated and acknowledge their contribution    
+Make it a habit to log in regularly to monitor new reviews and feedback. Regular check-ins help you stay on top of what is being said about your company and allow you to address issues promptly.
 
-#### Negative Feedback    
-* Address the concerns raised by the reviewer directly   
-* Provide a clear explanation or steps being taken to resolve the issue    
-* Offer to continue the conversation offline if necessary    
-       
-By following these practices, you can maintain a positive online reputation, demonstrate your commitment to employee satisfaction, and identify areas for improvement.     
-      
-### Examples     
-     
-::: greybox      
-**Company Review:**     
-"Great place to work with supportive management and excellent growth opportunities."    
-**Company Response:**     
-"Thank you for your kind words! We're thrilled to hear about your positive experience and appreciate your contributions to our team."     
-:::    
-::: good      
-Figure: Good Example - The company responds promptly to positive feedback, showing appreciation and acknowledging specific points    
-:::    
-    
-::: greybox      
-**Company Review:**      
-"The management here is terrible and they don't care about employees at all."     
-**Company Response:**    
-"We disagree with your feedback. If you have specific concerns, you should bring them up directly instead of posting anonymously."    
-:::    
-::: bad    
-Figure: Bad Example - The company's response is defensive and dismissive, failing to address the reviewer's concerns constructively   
-:::   
-     
-::: greybox     
-**Company Review:**     
-"The management here is terrible and they don't care about employees at all."    
-**Company Response:**    
-"We're sorry to hear about your negative experience. We take feedback seriously and would like to learn more about your concerns. Please reach out to us at [contact email] so we can discuss this further and work towards a solution."     
-:::     
-::: good      
-Figure: Good Example - The company responds to negative feedback constructively, showing willingness to address the issues and engage in further discussion.    
-:::    
+### Set Up Notifications
+
+Ensure that notifications of new reviews are sent to the company's information email address. This way, one or more employees can monitor and respond to reviews without relying on a single person. Distributing this responsibility ensures timely responses and continuous oversight.
+
+### Respond to Feedback Appropriately
+
+Responding to both positive and negative feedback is essential. Acknowledge positive reviews with gratitude and address negative feedback professionally and constructively. This shows that your company values employee input and is committed to continuous improvement.
+
+#### Positive Feedback
+
+* Thank the reviewer for their positive comments
+* Highlight specific points they appreciated and acknowledge their contribution
+
+#### Negative Feedback
+
+* Address the concerns raised by the reviewer directly
+* Provide a clear explanation or steps being taken to resolve the issue
+* Offer to continue the conversation offline if necessary
+
+By following these practices, you can maintain a positive online reputation, demonstrate your commitment to employee satisfaction, and identify areas for improvement.
+
+### Examples
+
+::: greybox
+**Company Review:**
+"Great place to work with supportive management and excellent growth opportunities."
+**Company Response:**
+"Thank you for your kind words! We're thrilled to hear about your positive experience and appreciate your contributions to our team."
+:::
+::: good
+Figure: Good Example - The company responds promptly to positive feedback, showing appreciation and acknowledging specific points
+:::
+
+::: greybox
+**Company Review:**
+"The management here is terrible and they don't care about employees at all."
+**Company Response:**
+"We disagree with your feedback. If you have specific concerns, you should bring them up directly instead of posting anonymously."
+:::
+::: bad
+Figure: Bad Example - The company's response is defensive and dismissive, failing to address the reviewer's concerns constructively
+:::
+
+::: greybox
+**Company Review:**
+"The management here is terrible and they don't care about employees at all."
+**Company Response:**
+"We're sorry to hear about your negative experience. We take feedback seriously and would like to learn more about your concerns. Please reach out to us at [contact email] so we can discuss this further and work towards a solution."
+:::
+::: good
+Figure: Good Example - The company responds to negative feedback constructively, showing willingness to address the issues and engage in further discussion.
+:::
