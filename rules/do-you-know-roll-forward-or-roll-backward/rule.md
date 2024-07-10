@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Do you know when to Roll Forward and when to Roll Backward?
-seoDescription: Do You Know When to Roll Forward and When to Roll Backward?
+seoDescription: Learn when to roll forward and when to roll backward in software deployment.
 uri: do-you-know-roll-forward-or-roll-backward
 authors:
   - title: Ozair Ashfaque
@@ -18,10 +18,12 @@ guid: dc944a7a-f2dd-4410-8629-5eb8d320ff51
 ---
 In software development, deciding whether to **Roll Forward** or **Roll Backward** during deployments is crucial for maintaining system stability. This rule provides detailed scenarios to help determine the best strategy for handling deployment issues.
 
-#### Rolling Forward
+### Rolling Forward
+
 Rolling Forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to quickly apply a fix or additional update to resolve any problems caused by the initial deployment.
 
-##### Scenarios for Rolling Forward:
+#### Scenarios for Rolling Forward
+
 - **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
   - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
 
@@ -40,10 +42,11 @@ Rolling Forward involves moving ahead with a new deployment or update, even if i
 - **Backward-Compatible Database Changes:** Database schema changes do not break the previous version's functionality.
   - **Scenario:** Adding a new table or column that does not interfere with existing database structures or application functionality.
 
-#### Rolling Backward
+### Rolling Backward
 Rolling Backward involves reverting to a previous stable version of the software after encountering issues with the new deployment. This strategy aims to restore the system to a known good state. 
 
-##### Scenarios for Rolling Backward: 
+#### Scenarios for Rolling Backward
+
 - **Major Issues:** When the new deployment has significant bugs or performance issues that severely impact functionality.
   - **Scenario:** A new release causes the application to crash frequently, making it unusable for users.
 
@@ -62,7 +65,8 @@ Rolling Backward involves reverting to a previous stable version of the software
 - **High Downtime:** When the new deployment leads to high system downtime, affecting availability.
   - **Scenario:** The new version causes the system to be down frequently, impacting business operations and leading to a decision to revert to the stable version. 
 
-#### Summary
+### Summary
+
 - **Rolling Forward** is used when issues are minor, fixes are known and quick to apply, or the new deployment is crucial for business operations. Scenarios include minor bugs, emergency fixes, and improvements over the existing state. 
 
 - **Rolling Backward** is used when issues are major, no immediate fixes are available, or the impact on users and business operations is severe. Scenarios include significant bugs, data integrity risks, and regulatory compliance issues. 
