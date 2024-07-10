@@ -15,7 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Christian Morford-Waite
     url: https://www.ssw.com.au/people/christian-morford-waite
-created: 2024-07-10T05:26:23.421Z
+created: 2024-07-10T05:56:48.707Z
 guid: dc944a7a-f2dd-4410-8629-5eb8d320ff51
 ---
 In software development, deciding whether to **roll forward** or **roll backward** during deployments is crucial for maintaining system stability. This rule provides detailed scenarios to help determine the best strategy for handling deployment issues.
