@@ -31,7 +31,7 @@ While it is best to avoid deployments on days with limited support availability,
   - Inform the team about the deployment and ensure that support staff or relevant team members are available if needed
   - Notify all relevant stakeholders, acknowledging that you and the team are prepared to fix issues over the weekend if they occur
 
-- Deployment Checklist and Best Practices - Draft a document to cover each step of the deployment:
+- Deployment Checklist and Best Practices - Every project should have a document to cover each step of the deployment:
   - Pre-Deployment: Ensure that all project components are up-to-date and tested before deployment
   - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/): Test the application and check for any errors before moving to production
   - Production Deployment: Proceed to production only after confirming no issues in staging
