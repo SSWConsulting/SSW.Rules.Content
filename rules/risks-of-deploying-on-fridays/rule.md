@@ -10,6 +10,12 @@ uri: risks-of-deploying-on-fridays
 authors:
   - title: Charles Vionnet
     url: https://www.ssw.com.au/people/charles-vionnet/
+  - title: Ozair Ashfaque
+    url: https://www.ssw.com.au/people/ozair-ashfaque/
+  - title: Matt Goldman
+    url: https://www.ssw.com.au/people/matt-goldman/
+  - url: https://www.ssw.com.au/people/matt-wicks/
+    title: Matt Wicks
 created: 2024-07-05T02:41:49.271Z
 guid: 530a2540-9b59-4272-8c86-f79d0bfa6aef
 ---
