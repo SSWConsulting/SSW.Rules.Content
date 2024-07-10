@@ -46,31 +46,55 @@ By following these practices, you can maintain a positive online reputation, dem
 ### Examples
 
 ::: greybox
+
 **Company Review:**
+
 "Great place to work with supportive management and excellent growth opportunities."
+
 **Company Response:**
+
 "Thank you for your kind words! We're thrilled to hear about your positive experience and appreciate your contributions to our team."
+
 :::
+
 ::: good
+
 Figure: Good Example - The company responds promptly to positive feedback, showing appreciation and acknowledging specific points
+
 :::
 
 ::: greybox
+
 **Company Review:**
+
 "The management here is terrible and they don't care about employees at all."
+
 **Company Response:**
+
 "We disagree with your feedback. If you have specific concerns, you should bring them up directly instead of posting anonymously."
+
 :::
+
 ::: bad
+
 Figure: Bad Example - The company's response is defensive and dismissive, failing to address the reviewer's concerns constructively
+
 :::
 
 ::: greybox
+
 **Company Review:**
+
 "The management here is terrible and they don't care about employees at all."
+
 **Company Response:**
+
 "We're sorry to hear about your negative experience. We take feedback seriously and would like to learn more about your concerns. Please reach out to us at [contact email] so we can discuss this further and work towards a solution."
+
 :::
+
 ::: good
+
 Figure: Good Example - The company responds to negative feedback constructively, showing willingness to address the issues and engage in further discussion.
+
 :::
