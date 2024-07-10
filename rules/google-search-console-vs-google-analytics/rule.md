@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Tools - Do you know when to use Google Search Console or Google Analytics?
 seoDescription: Discover when to utilize Google Analytics or Google Search
   Console for optimal insights and performance tracking. Learn how each tool can
