@@ -13,14 +13,14 @@ authors:
 created: 2024-07-05T02:41:49.271Z
 guid: 530a2540-9b59-4272-8c86-f79d0bfa6aef
 ---
-Deploying on a Friday has traditionally been risky due to limited post-deployment support over the weekend, potentially leaving issues unaddressed. In the DevOps era, these concerns are largely mitigated by automated deployments, continuous integration, and real-time monitoring, making the deployment process smoother and more reliable.
+Deploying on a Friday has traditionally been risky due to limited post-deployment support over the weekend, potentially leaving issues unaddressed. Thanks to DevOps best practices, these concerns are largely mitigated by automated deployments, continuous integration, and real-time monitoring, making the deployment process smoother and more reliable.
 
-Nonetheless, a bit of extra preparation is advised.
+Nonetheless, we should be aware of situations where caution is advised.
 
 <!--endintro-->
 
 ::: img-large  
-![Figure: Avoid deploying on Friday... unless you have a good plan](risks-of-deploying-on-fridays.png)
+![Figure: Avoid deploying on Friday... unless you have a plan](risks-of-deploying-on-fridays.png)
 :::
 
 While it is best to avoid deployments on days with limited support availability, sometimes urgent updates like security patches cannot wait.
