@@ -39,5 +39,32 @@ Rolling forward involves moving ahead with a new deployment or update, even if i
 - **Minimal Impact on User Data:** The changes do not significantly alter user data or the existing data schema.
   - **Scenario:** A minor update to the user interface does not affect the underlying data, allowing for quick fixes without risking data integrity.
 
-- **Backward-Compatible Database Changes:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
-  - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
+- **Backward-Compatible Database Changes:** Database schema changes do not break the previous version's functionality.
+  - **Scenario:** Adding a new table or column that does not interfere with existing database structures or application functionality.
+
+#### Rolling Forward
+Rolling backward involves reverting to a previous stable version of the software after encountering issues with the new deployment. This strategy aims to restore the system to a known good state. 
+
+##### Scenarios for Rolling Backward: 
+- **Major Issues:** When the new deployment has significant bugs or performance issues that severely impact functionality.
+  - **Scenario:** A new release causes the application to crash frequently, making it unusable for users.
+
+- **No Immediate Fix:** If there are no immediate fixes available for the issues introduced by the new deployment.
+  - **Scenario:** A critical bug is discovered, and the development team estimates that it will take several days to fix.
+
+- **Data Integrity Risks:** When the new deployment risks compromising data integrity or security.
+  - **Scenario:** A deployment causes data corruption, putting user data at risk and requiring an immediate rollback to protect integrity.
+
+- **Regulatory Compliance:** When the issues violate regulatory compliance or legal requirements.
+  - **Scenario:** A deployment unintentionally causes the system to be non-compliant with **GDPR** regulations, necessitating a rollback to avoid legal consequences.
+
+- **Non-Backward-Compatible Database Changes:** The new release involves database schema changes that are not compatible with the previous version.
+  - **Scenario:** A new deployment alters the data schema in a way that breaks existing reports and data integrations, requiring a rollback.
+
+- **High Downtime:** When the new deployment leads to high system downtime, affecting availability.
+  - **Scenario:** The new version causes the system to be down frequently, impacting business operations and leading to a decision to revert to the stable version. 
+
+#### Summary
+- **Rolling Forward** is used when issues are minor, fixes are known and quick to apply, or the new deployment is crucial for business operations. Scenarios include minor bugs, emergency fixes, and improvements over the existing state. 
+
+- **Rolling Backward** is used when issues are major, no immediate fixes are available, or the impact on users and business operations is severe. Scenarios include significant bugs, data integrity risks, and regulatory compliance issues. 
