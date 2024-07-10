@@ -18,7 +18,7 @@ authors:
 created: 2024-07-10T05:56:48.707Z
 guid: dc944a7a-f2dd-4410-8629-5eb8d320ff51
 ---
-In software development, deciding whether to **roll forward** or **roll backward** during deployments is crucial for maintaining system stability. This rule provides detailed scenarios to help determine the best strategy for handling deployment issues.
+In software development, deciding whether to **Roll Forward** or **Roll Backward** during deployments is crucial for maintaining system stability. This rule provides detailed scenarios to help determine the best strategy for handling deployment issues.
 
 #### Rolling Forward
 Rolling forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to quickly apply a fix or additional update to resolve any problems caused by the initial deployment.
