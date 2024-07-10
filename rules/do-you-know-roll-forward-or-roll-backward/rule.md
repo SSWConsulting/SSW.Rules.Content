@@ -13,15 +13,13 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
-  - title: Christian Morford-Waite
-    url: https://www.ssw.com.au/people/christian-morford-waite
 created: 2024-07-10T05:56:48.707Z
 guid: dc944a7a-f2dd-4410-8629-5eb8d320ff51
 ---
 In software development, deciding whether to **Roll Forward** or **Roll Backward** during deployments is crucial for maintaining system stability. This rule provides detailed scenarios to help determine the best strategy for handling deployment issues.
 
 #### Rolling Forward
-Rolling forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to quickly apply a fix or additional update to resolve any problems caused by the initial deployment.
+Rolling Forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to quickly apply a fix or additional update to resolve any problems caused by the initial deployment.
 
 ##### Scenarios for Rolling Forward:
 - **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
@@ -42,8 +40,8 @@ Rolling forward involves moving ahead with a new deployment or update, even if i
 - **Backward-Compatible Database Changes:** Database schema changes do not break the previous version's functionality.
   - **Scenario:** Adding a new table or column that does not interfere with existing database structures or application functionality.
 
-#### Rolling Forward
-Rolling backward involves reverting to a previous stable version of the software after encountering issues with the new deployment. This strategy aims to restore the system to a known good state. 
+#### Rolling Backward
+Rolling Backward involves reverting to a previous stable version of the software after encountering issues with the new deployment. This strategy aims to restore the system to a known good state. 
 
 ##### Scenarios for Rolling Backward: 
 - **Major Issues:** When the new deployment has significant bugs or performance issues that severely impact functionality.
