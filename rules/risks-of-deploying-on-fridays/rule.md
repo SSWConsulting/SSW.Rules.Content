@@ -15,7 +15,7 @@ guid: 530a2540-9b59-4272-8c86-f79d0bfa6aef
 ---
 Deploying on a Friday has traditionally been risky due to limited post-deployment support over the weekend, potentially leaving issues unaddressed. In the DevOps era, these concerns are largely mitigated by automated deployments, continuous integration, and real-time monitoring, making the deployment process smoother and more reliable.
 
-Nonetheless, a bit of extra vigilance is advised.
+Nonetheless, a bit of extra preparation is advised.
 
 <!--endintro-->
 
@@ -31,12 +31,12 @@ While it is best to avoid deployments on days with limited support availability,
   - Inform the team about the deployment and ensure that support staff or relevant team members are available if needed
   - Notify all relevant stakeholders, acknowledging that you and the team are prepared to fix issues over the weekend if they occur
 
-- Deployment Checklist and Best Practices: Each project should include a document to cover:
-  - Pre-Deployment: To ensure all project components are up-to-date and tested before deployment
-  - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/)
-  - Production Deployment
-  - Post-Deployment
-  - Troubleshooting: To outline key contacts for support and provide step-by-step actions to address issues
+- Deployment Checklist and Best Practices - Draft a document to cover each step of the deployment:
+  - Pre-Deployment: Ensure that all project components are up-to-date and tested before deployment
+  - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/): Test the application and check for any errors before moving to production
+  - Production Deployment: Proceed to production only after confirming no issues in staging
+  - Post-Deployment: Monitor for any new issues
+  - Troubleshooting: Outline key contacts for support and provide step-by-step actions to address issues
 
 ### How to Mitigate the Risk of a Deployment?
 
