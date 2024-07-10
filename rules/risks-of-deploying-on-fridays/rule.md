@@ -15,21 +15,21 @@ guid: 530a2540-9b59-4272-8c86-f79d0bfa6aef
 ---
 Deploying on a Friday has traditionally been risky due to limited post-deployment support over the weekend, potentially leaving issues unaddressed. In the DevOps era, these concerns are largely mitigated by automated deployments, continuous integration, and real-time monitoring, making the deployment process smoother and more reliable.
 
-Nonetheless, extra caution is still advised at some level.
+Nonetheless, a bit of extra vigilance is advised.
 
 <!--endintro-->
 
 ::: img-large  
-![Figure: Follow good practices help to avoid deployment stress](risks-of-deploying-on-fridays.png)
+![Figure: Following good practices helps to avoid deployment stress](risks-of-deploying-on-fridays.png)
 :::
 
-While it is best to avoid deployments on days with limited support availability, sometimes urgent updates like security patches cannot wait. To ensure smooth operation and prevent any issues, make sure you have informed the team about the deployment and ensure that support staff or relevant team members are available if needed.
+While it is best to avoid deployments on days with limited support availability, sometimes urgent updates like security patches cannot wait. To ensure smooth operation and prevent any issues, make sure you have informed the team about the deployment and that support staff or relevant team members are available if needed.
 
-Each project should also include a detailed checklist and good practice for each phase of deployment:
+Each project should also include a detailed checklist for each phase of deployment:
   - Pre-Deployment
-  - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/) Verification
-  - Production Deployment Verification
-  - Post-Deployment Verification
+  - [Staging Deployment](https://www.ssw.com.au/rules/do-you-have-separate-development-testing-and-production-environments/)
+  - Production Deployment
+  - Post-Deployment
   - Troubleshooting
 
 ### How to Mitigate the Risk of a Deployment?
