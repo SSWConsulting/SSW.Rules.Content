@@ -6,7 +6,7 @@ uri: best-practices-environmental-sustainability
 authors:
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley/
-created: 2024-07-1T13:42:55.753Z
+created: 2024-07-01T13:42:55.000Z
 guid: 987e4567-e89b-12d3-a456-426614174001
 ---
 
