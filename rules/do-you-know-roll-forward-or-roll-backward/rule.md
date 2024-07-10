@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do You Know When to Roll Forward and When to Roll Backward?
+title: Do you know when to Roll Forward and when to Roll Backward?
 seoDescription: Do You Know When to Roll Forward and When to Roll Backward?
 uri: do-you-know-roll-forward-or-roll-backward
 authors:
