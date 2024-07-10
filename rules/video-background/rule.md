@@ -12,6 +12,8 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - have-good-lighting-on-your-home-office
   - browser-add-branding
