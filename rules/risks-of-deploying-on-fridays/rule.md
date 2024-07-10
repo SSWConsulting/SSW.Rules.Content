@@ -13,9 +13,9 @@ authors:
 created: 2024-07-05T02:41:49.271Z
 guid: 530a2540-9b59-4272-8c86-f79d0bfa6aef
 ---
-Deploying on a Friday has traditionally been risky due to limited post-deployment support over the weekend, potentially leaving issues unaddressed. Thanks to DevOps best practices, these concerns are largely mitigated by automated deployments, continuous integration, and real-time monitoring, making the deployment process smoother and more reliable.
+Deploying on a Friday has traditionally been risky due to limited post-deployment support over the weekend, potentially leaving issues unaddressed. Thanks to [DevOps best practices](https://www.ssw.com.au/rules/rules-to-better-devops/), these concerns are largely mitigated by automated deployments, continuous integration, and real-time monitoring, making the deployment process smoother and more reliable.
 
-Nonetheless, we should be aware of situations where caution is advised.
+Nonetheless, caution is recommended in certain situations.
 
 <!--endintro-->
 
