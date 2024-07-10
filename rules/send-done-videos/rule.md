@@ -15,7 +15,8 @@ created: 2015-10-20T23:05:17.000Z
 archivedreason: null
 guid: 5ac5799f-0ed1-4a6b-99a1-1dd4dd678bd4
 ---
-   The big communication points with clients are:
+
+The big communication points with clients are:
 
 * Daily Scrums (Product Owners often don’t join)
 * Sprint Review, Retro and Planning

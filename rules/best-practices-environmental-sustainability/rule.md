@@ -6,10 +6,10 @@ uri: best-practices-environmental-sustainability
 authors:
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley/
-created: 2024-07-1T13:42:55.753Z
+created: 2024-07-01T13:42:55.000Z
 guid: 987e4567-e89b-12d3-a456-426614174001
 ---
- 
+
 Adopting best practices for environmental sustainability is essential for software companies to minimize their ecological footprint and promote a greener future. Here are key strategies that software companies, like SSW, can implement to promote environmental sustainability within their operations.
 
 <!--endintro-->
