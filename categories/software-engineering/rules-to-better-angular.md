@@ -29,6 +29,7 @@ index:
 - standalone-components
 - angular-error-handling
 - angular-separate-component-concerns
+- angular-reactive-forms-vs-template-driver-forms
 
 ---
 
