@@ -26,13 +26,18 @@ Rolling forward involves moving ahead with a new deployment or update, even if i
 ##### Scenarios for Rolling Forward:
 - **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
   - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
+
 - **Emergency Fixes:** When the new deployment includes critical features or fixes that are necessary for the business.
   - **Scenario:** A security vulnerability is discovered, and an immediate patch is deployed to fix the issue, even though it introduces a few minor bugs.
-- **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
-  - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
-- **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
-  - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
-- **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
-  - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
-- **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
+
+- **Improvement Over Existing State:** If the new deployment, despite issues, is an improvement over the existing state of the system.
+  - **Scenario:** A security vulnerability is discovered, and an immediate patch is deployed to fix the issue, even though it introduces a few minor bugs.
+
+- **Cost of Rollback:** When the cost and impact of rolling back are higher than rolling forward with additional fixes.
+  - **Scenario:** Rolling back would require significant downtime, impacting business operations more than fixing the issues in the current deployment.
+
+- **Minimal Impact on User Data:** The changes do not significantly alter user data or the existing data schema.
+  - **Scenario:** A minor update to the user interface does not affect the underlying data, allowing for quick fixes without risking data integrity.
+
+- **Backward-Compatible Database Changes:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
   - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
