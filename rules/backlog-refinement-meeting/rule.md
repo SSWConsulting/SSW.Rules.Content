@@ -62,9 +62,10 @@ Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
 #### Agenda
 
 1. Skip all PBIs that are already marked as "Ready"
-2. Refine and estimate the top 5 PBIs that are not marked as "Ready" or in the "Not Ready" state
+2. Refine and estimate the top PBIs that are not marked as "Ready" or in the "Not Ready" state
+    * You should aim to have enough ready PBIs to cover work for the next 2-3 Sprints
     * Call in the Product Owner if any feature requires requirements clarification
-3. Check if any PBIs need to be added
+4. Check if any PBIs need to be added
     * Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint)
     * Consider if [PBIs need to be broken down](/create-pbis-under-2-days)
     * Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
