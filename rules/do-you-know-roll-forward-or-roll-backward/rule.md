@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know when to Roll Forward and when to Roll Backward?
 seoDescription: Learn when to roll forward and when to roll backward in software deployment.
-uri: do-you-know-roll-forward-or-roll-backward
+uri: when-to-roll-forward-or-roll-backward
 authors:
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque
