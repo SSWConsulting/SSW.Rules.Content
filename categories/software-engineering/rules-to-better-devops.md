@@ -38,7 +38,7 @@ index:
 - workflow-naming-scheme
 - enterprise-secrets-in-pipelines
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
-- do-you-know-roll-forward-or-roll-backward
+- when-to-roll-forward-or-roll-backward
 
 ---
 
