@@ -29,7 +29,7 @@ When a Scrum Team meets for Sprint Planning, they want to plan out the next week
 
 ## The Problem - Sparse PBIs
 
-The team often runs into a **roadblock** when they find that the Product Backlog Items (PBIs) are lacking in basic details. 
+The team often runs into a **roadblock** when they find that the Product Backlog Items (PBIs) are lacking in basic details.
 
 This problem leads to 1 of 2 outcomes:
 
@@ -40,7 +40,7 @@ This problem leads to 1 of 2 outcomes:
 
 You can avoid these scenarios by having well [defined PBIs](/defining-pbis) written in advance so the Sprint Planning session is simply a [tick and flick](/tick-and-flick).
 
-The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process of refining the Product Backlog as the core way to avoid these issues. However it is not prescriptive about how to perform this process. A Product Backlog Refinement meeting is a great way to ensure the Product Backlog is regularly refined. In this meeting, the Tech Lead and another developer refine all the PBIs. 
+The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process of refining the Product Backlog as the core way to avoid these issues. However it is not prescriptive about how to perform this process. A Product Backlog Refinement meeting is a great way to ensure the Product Backlog is regularly refined. In this meeting, the Tech Lead and another developer refine all the PBIs.
 
 This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](/have-a-definition-of-ready).
 
@@ -80,8 +80,8 @@ Sometimes, we may encounter urgent new requirements and priority changes that ne
 
 ## ✅ Benefits of Product Backlog Refinement
 
-- **Efficient Sprint Planning** - With most PBIs already refined, the Sprint Planning meeting becomes more efficient
-- **Less time wastage** - Only the Tech Lead and another developer are required for most of refinement, so other people's time can be utilised elsewhere instead of wasted waiting around
-- **Risk mitigation** - If the Product Owner or important stakeholders have to go on leave there is some extra buffer in the Product Backlog
-- **Engaged developers** - Developers are more likely to stay engaged when meetings are shorter and more focused
-- **Well-defined PBIs** - PBIs are well-defined before being added to the Sprint
+* **Efficient Sprint Planning** - With most PBIs already refined, the Sprint Planning meeting becomes more efficient
+* **Less time wastage** - Only the Tech Lead and another developer are required for most of refinement, so other people's time can be utilised elsewhere instead of wasted waiting around
+* **Risk mitigation** - If the Product Owner or important stakeholders have to go on leave there is some extra buffer in the Product Backlog
+* **Engaged developers** - Developers are more likely to stay engaged when meetings are shorter and more focused
+* **Well-defined PBIs** - PBIs are well-defined before being added to the Sprint
