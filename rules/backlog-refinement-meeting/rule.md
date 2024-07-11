@@ -40,7 +40,7 @@ This problem leads to 1 of 2 outcomes:
 
 You can avoid these scenarios by having well [defined PBIs](/defining-pbis) written in advance so the Sprint Planning session is simply a [tick and flick](/tick-and-flick).
 
-The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process of refining the Product Backlog as the core way to avoid these issues. However it is not prescriptive about how to perform this process. A Product Backlog Refinement meeting is a great way to ensure the Product Backlog is regularly refined. In this meeting, the Tech Lead and another developer refine all the PBIs.
+The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process of refining the Product Backlog as the core way to avoid these issues. Product refinement involves breaking PBIs into smaller and more manageable units of work with precisely defined requirements. This process ensures that work involved with each PBI is well defined and measurable that the outcomes of completing them are measurable. A Product Backlog Refinement meeting is a great way to ensure the Product Backlog is regularly refined. In this meeting, the Tech Lead and another developer refine all the PBIs.
 
 This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](/have-a-definition-of-ready).
 
