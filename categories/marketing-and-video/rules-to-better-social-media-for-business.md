@@ -30,6 +30,7 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - reply-linkedin-messages
 - managing-linkedin-for-international-companies
+- monitor-external-reviews
 - do-you-create-a-call-to-action-on-your-facebook-page
 - promotion-do-people-know-about-your-event
 - twitter-how-to-verify-your-account
