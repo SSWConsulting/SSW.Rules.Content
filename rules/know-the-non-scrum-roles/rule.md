@@ -22,8 +22,6 @@ Medium to large software development projects have people on them with varying r
 
 Scrum already covers the roles of the **[Developers](https://www.youtube.com/watch?v=vLqCkj0PvtE)**, the **[Product Owner](/do-you-know-the-how-to-be-a-good-product-owner)**, and the **[Scrum Master](/the-team-do-you-help-your-scrum-master-not-scrummaster-protect-and-serve-the-team)**, but from a consultancy’s side, there’s also the **Tech Lead** and the **Account Manager** to consider.
 
-![Figure: 5 roles in a Tech Project](roles-in-bricks-squared.png)
-
 <!--endintro-->
 
 ### Account Manager
@@ -55,15 +53,15 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 ::: email-template
 | | |
 | -------- | --- |
-| To: | {{Tech Lead}} |
-| Subject: | Tech Lead - {{Client Name}} |
+| To: | {{ TECH LEAD }} |
+| Subject: | Tech Lead - {{ CLIENT NAME }} |
 ::: email-content
 
-### Hi {{Tech Lead}}
+### Hi {{ TECH LEAD }}
 
-According to {{ link to Client record in CRM }}
+According to {{ LINK TO CLIENT CRM RECORD }}
 
-As you can see, you are the Tech Lead for {{Client Name}}.
+As you can see, you are the Tech Lead for {{ CLIENT NAME }}.
 
 1. Did you already know this?
 2. Have a read of [SSW.Rules | Do you know the non-Scrum roles of a project?](/know-the-non-scrum-roles) Make sure you know what is involved with this non-Scrum role (it’s not just responsibility of the technical decisions on the project 😉)
