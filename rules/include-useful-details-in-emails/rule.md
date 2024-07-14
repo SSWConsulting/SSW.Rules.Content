@@ -28,14 +28,14 @@ guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
 An email with just the word "Done" can often be enhanced with a screen capture or code snippet. Obviously this is also valid for tasks/requests.
 
 In any email you send, **include relevant information**. Improved visibility and transparency will allow others to understand what was done or needs to be done straight away, such as:
-- [URLs](/include-links-in-emails)
-  -  Links to where the change can be seen
-  -  Links to relevant PBIs in GitHub or Azure DevOps
-  -  Links to the related Pull Requests
-- Screenshots
-- [Done Videos](https://ssw.com.au/rules/send-done-videos/)
-- Pieces of code/text
-- Any more context or useful info
+* [URLs](/include-links-in-emails)
+  * Links to where the change can be seen
+  * Links to relevant PBIs in GitHub or Azure DevOps
+  * Links to the related Pull Requests
+* Screenshots
+* [Done Videos](https://ssw.com.au/rules/send-done-videos/)
+* Pieces of code/text
+* Any more context or useful info
 
 <!--endintro-->
 
