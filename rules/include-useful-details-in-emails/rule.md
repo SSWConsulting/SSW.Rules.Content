@@ -29,8 +29,13 @@ An email with just the word "Done" can often be enhanced with a screen capture o
 
 In any email you send, **include relevant information**. Improved visibility and transparency will allow others to understand what was done or needs to be done straight away, such as:
 - [URLs](/include-links-in-emails)
+  -  Links to where the change can be seen
+  -  Links to relevant PBIs in GitHub or Azure DevOps
+  -  Links to the related Pull Requests
 - Screenshots
-- Pieces of code/text 
+- [Done Videos](https://ssw.com.au/rules/send-done-videos/)
+- Pieces of code/text
+- Any more context or useful info
 
 <!--endintro-->
 
@@ -91,5 +96,4 @@ Figure: Good example - "Done" email has a link, a screenshot (showing the URL), 
 ### More useful details to include
 
 * [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
-* When working on Azure DevOps or GitHub, [include a URL to the PBI or Issue](/when-to-send-a-done-email-in-scrum)
 * Include ["from X to Y"](/change-from-x-to-y) or a [.diff file](https://www.diffchecker.com) for greater code/text changes
