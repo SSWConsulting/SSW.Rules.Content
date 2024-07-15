@@ -17,6 +17,7 @@ related:
   - comments-do-you-enforce-comments-with-check-ins
   - do-you-add-context-reasoning-to-your-emails
   - close-off-thread
+  - when-to-send-a-done-email-in-scrum
 redirects:
   - dones-do-you-include-useful-details-in-your-done-email
 created: 2011-05-29T16:10:16.000Z
