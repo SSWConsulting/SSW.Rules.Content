@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you run an Annual Employment Retro to find out why people leave?
 seoDescription: Learn the importance of conducting an Annual Employment
   Retrospective to understand why employees leave and improve retention
@@ -12,6 +11,7 @@ authors:
 created: 2024-07-11T17:16:46.180Z
 guid: 500d7172-c7b9-4b67-8bd6-44fca98f5b00
 ---
+
 Understanding why employees leave your company is crucial for improving retention strategies and fostering a positive work environment. 
 
 An Annual Employment Retrospective helps identify common trends in employee feedback, allowing you to make informed changes.
