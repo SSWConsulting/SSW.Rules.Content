@@ -18,12 +18,12 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 ### Outlook Email Templates
 
-::: greybox       
+::: greybox
 
-Simple to create and can be shared easily (e.g., via SharePoint). However, a new email is always generated from these templates, so they cannot be used for email replies or for calendars without manual copying and pasting.       
+Simple to create and can be shared easily (e.g., via SharePoint). However, a new email is always generated from these templates, so they cannot be used for email replies or for calendars without manual copying and pasting.
 
-:::      
-        
+:::
+
 ::: ok
 
 Figure: OK example - Outlook email templates are easy to share but have limitations with creation and calendar integration
@@ -48,45 +48,45 @@ Figure: Bad example - My Templates are limited in size and sharing capabilities,
 
 ::: greybox  
   
-Simple to create but are stored locally, so they can't be shared with other devices or users. Signatures have a 5000 character limit.       
-      
-:::       
-       
-::: bad        
-           
-Figure: Bad example - Signatures are easy to create but lack sharing capabilities and are limited by storage constraints        
-         
-:::         
+Simple to create but are stored locally, so they can't be shared with other devices or users. Signatures have a 5000 character limit.
 
-### Quick Parts      
-       
-::: greybox       
-       
+:::
+
+::: bad
+
+Figure: Bad example - Signatures are easy to create but lack sharing capabilities and are limited by storage constraints
+
+:::
+
+### Quick Parts
+
+::: greybox
+
 Supports rich text but is stored locally and can't be shared.
-        
-:::          
-        
-::: bad        
-             
-Figure: Bad example - Quick Parts are useful for rich text but not suitable for sharing among users      
-         
-:::     
-       
-### Word Documents on SharePoint       
-      
-::: greybox       
-          
-Allows for rich text and can be shared with anyone, but requires switching to another window to use.       
-      
-:::       
-       
-::: good      
-        
-Figure: Good example - Word documents on SharePoint support rich text and easy sharing, although the process lacks efficiency      
-     
-:::      
-      
-### Dynamics 365 Email Templates      
+
+:::
+
+::: bad
+
+Figure: Bad example - Quick Parts are useful for rich text but not suitable for sharing among users
+
+:::
+
+### Word Documents on SharePoint
+
+::: greybox
+
+Allows for rich text and can be shared with anyone, but requires switching to another window to use.
+
+:::
+
+::: good
+
+Figure: Good example - Word documents on SharePoint support rich text and easy sharing, although the process lacks efficiency
+
+:::
+
+### Dynamics 365 Email Templates
 
 ::: greybox
 
@@ -96,26 +96,26 @@ Offer rich text, can be shared with anyone, and provide access to contact data. 
 
 ::: ok
 
-Figure: OK example - Dynamics 365 Email Templates have robust features but are complex to manage and access      
-      
-:::      
-       
-### OfficeAtWork Content Chooser      
-       
-::: greybox       
-       
-Supports rich text and allows for easy sharing via SharePoint. Setup is straightforward—simply upload a Word document. However, templates must be updated manually.       
-     
-:::       
-       
-::: good       
-          
-Figure: Good example - OfficeAtWork Content Chooser offers ease of use and sharing, though it requires manual updates        
-      
-:::      
-       
-### Summary      
-            
+Figure: OK example - Dynamics 365 Email Templates have robust features but are complex to manage and access
+
+:::
+
+### OfficeAtWork Content Chooser
+
+::: greybox
+
+Supports rich text and allows for easy sharing via SharePoint. Setup is straightforward—simply upload a Word document. However, templates must be updated manually.
+
+:::
+
+::: good
+
+Figure: Good example - OfficeAtWork Content Chooser offers ease of use and sharing, though it requires manual updates
+
+:::
+
+### Summary
+
 | Option                         | Pros                                                        | Cons                                                    |
 |--------------------------------|-------------------------------------------------------------|---------------------------------------------------------|
 | **Outlook Email Templates**    | Simple to create, easily shared via SharePoint              | Must create a new email, can't be used for meeting invites in calendars    |
