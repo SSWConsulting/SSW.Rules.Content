@@ -1,15 +1,15 @@
 ---
 type: rule
 title: Do you run an Annual Employment Retro to find out why people leave?
-seoDescription: Learn the importance of conducting an Annual Employment
-  Retrospective to understand why employees leave and improve retention
-  strategies.
+seoDescription: Learn the importance of conducting an Annual Employment Retrospective to understand why employees leave and improve retention strategies.
 uri: annual-employment-retro
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
 created: 2024-07-11T17:16:46.180Z
 guid: 500d7172-c7b9-4b67-8bd6-44fca98f5b00
+related: []
+redirects: []
 ---
 
 Understanding why employees leave your company is crucial for improving retention strategies and fostering a positive work environment. 
@@ -54,9 +54,9 @@ Employee turnover can be costly and disruptive. Conducting an Annual Employment 
 |          |     |
 | -------- | --- |
 | To:      | {{ STATE MANAGERS }} |
-| Subject: | Annual Employment Retro {{ YEAR }} - Why did people leave?  |  
-::: email-content  
+| Subject: | Annual Employment Retro {{ YEAR }} - Why did people leave? |
 
+::: email-content  
 
 ### Hi State Managers,
  
