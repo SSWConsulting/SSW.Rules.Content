@@ -2,6 +2,8 @@
 type: rule
 tips: ""
 title: Do you use Autopod for editing multi-camera interviews?
+seoDescription: Improve your editing process with Autopod for multi-camera
+  interviews. Learn how it saves time and enhances efficiency.
 uri: use-autopod-for-editing-multi-camera-interviews
 authors:
   - title: ""
