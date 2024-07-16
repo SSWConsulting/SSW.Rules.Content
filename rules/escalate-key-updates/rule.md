@@ -64,4 +64,5 @@ Sometimes the PBI work originated from an email, in which case you should reply 
 
 - Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
 - You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
-  :::
+
+:::
