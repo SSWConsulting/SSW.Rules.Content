@@ -28,3 +28,11 @@ Dynamic viewport units are [compatible with every browser](https://developer.moz
 ::: img-medium
 ![Figure: Browser compatibility list for dynamic viewport units](dvu-browser-compatibility.png)
 :::
+
+::: bad  
+![Figure: Bad example - TinaCMS media manager window overflowing when open on iPadOS Safari when using view height](dvu-bad-example.png)  
+:::
+
+::: good  
+![Figure: Good example TinaCMS media manager window responding properly when open on iPadOS Safari when using dynamic view height](dvu-good-example.png)  
+:::
