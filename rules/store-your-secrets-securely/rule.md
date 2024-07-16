@@ -179,7 +179,7 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 8/10
+Figure: Good practice - Overall rating 8/10
 :::
 
 ::: greybox
@@ -203,7 +203,7 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 9/10
+Figure: Good practice - Overall rating 9/10
 :::
 
 ::: greybox
@@ -227,17 +227,17 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 10/10
+Figure: Good practice - Overall rating 10/10
 :::
 
 ### Resources
 
 The following resources show some concrete examples on how to apply the principles described:
 
-* <https://github.com/brydeno/bicepsofsteel>
-* <https://docs.microsoft.com/en-us/azure/key-vault/general/best-practices>
-* <https://docs.microsoft.com/en-us/azure/key-vault/general/security-features>[](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
-* [https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=windows](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
-* <https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15>
-* <https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x>
-* <https://www.youtube.com/watch?v=F9H0txgz0ns>
+* [github.com/brydeno/bicepsofsteel](https://github.com/brydeno/bicepsofsteel)
+* [Microsoft Learn | Best practices for using Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/best-practices)
+* [Microsoft Learn | Azure Key Vault security](https://learn.microsoft.com/en-us/azure/key-vault/general/security-features)
+* [Microsoft Learn | Safe storage of app secrets in development in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
+* [Microsoft Learn | Connection strings and configuration files](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15)
+* [Microsoft Learn | Use managed identities to access App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x&pivots=framework-dotnet)
+* [Stop storing your secrets with Azure Managed Identities | Bryden Oliver](https://www.youtube.com/watch?v=F9H0txgz0ns)
