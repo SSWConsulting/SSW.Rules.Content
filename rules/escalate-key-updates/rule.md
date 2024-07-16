@@ -59,10 +59,11 @@ This email is especially important for stakeholders that don't use, want to use,
 
 Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
 
+Additionally, giving the the Product Owner and/or Stakeholder(s) a call to show them the video is great - this ensures they watch it and you can get instant feedback.
+
 ::: info
 **Notes:**
 
-- Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
-- You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
-
+* Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
+* You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
 :::
