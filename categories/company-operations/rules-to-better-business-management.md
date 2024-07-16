@@ -11,5 +11,4 @@ index:
   - employee-kpis
   - monthly-stakeholder-video
   - annual-employment-retro
-
 ---
