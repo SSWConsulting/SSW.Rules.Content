@@ -1,17 +1,17 @@
 ---
+seoDescription: Migrate to the cloud by choosing from 7 options - taking the latest version, migrating work items using Excel, converting TFVC to Git, using community tools like VSTS Sync Migrator or OpsHub, and more.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know all the ways you can migrate to the cloud?
 guid: d9d89357-206e-4869-bedb-52ae116bf2fb
 uri: the-ways-you-can-migrate-to-the-cloud
 created: 2017-01-19T17:01:09.0000000Z
 authors:
-- title: Danijel Malik
-  url: https://ssw.com.au/people/danijel-malik
+  - title: Danijel Malik
+    url: https://ssw.com.au/people/danijel-malik
 related: []
 redirects:
-- do-you-know-all-the-ways-you-can-migrate-to-the-cloud
-
+  - do-you-know-all-the-ways-you-can-migrate-to-the-cloud
 ---
 
 The 7 options are:

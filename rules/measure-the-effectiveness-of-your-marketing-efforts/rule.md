@@ -1,4 +1,5 @@
 ---
+seoDescription: Measure the effectiveness of your marketing efforts by tracking key metrics and analyzing campaign performance to optimize future strategies.
 type: rule
 title: Analytics - Do you measure the effectiveness of your marketing efforts?
 uri: measure-the-effectiveness-of-your-marketing-efforts
@@ -6,7 +7,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Jerwin Parker Roberto
     url: https://ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg

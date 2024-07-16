@@ -1,15 +1,15 @@
 ---
+seoDescription: Protect your users from risky behavior with Azure Active Directory's user risk policy, automatically blocking or requiring password resets based on sign-in risk levels.
 type: rule
 title: Do you have a User Risk Policy?
 uri: user-risk-policy
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related:
   - sign-in-risk-policy
 created: 2022-04-29T02:13:58.669Z
 guid: 0aef7548-1e06-4723-9f51-a6da5f564813
-
 ---
 
 Azure Active Directory (AD) Identity Protection's user risk policy helps automatically protect your users from risky behaviour on their accounts.

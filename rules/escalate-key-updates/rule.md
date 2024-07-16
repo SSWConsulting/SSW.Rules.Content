@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you escalate key updates and deliverables on software development projects to ensure all stakeholders are informed?
 type: rule
 archivedreason: null
 title: Do you escalate key updates and deliverables?
@@ -8,10 +9,10 @@ created: 2023-06-20T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+  - when-you-use-mentions-in-a-pbi
 redirects:
- - escalate-done-videos
- - when-you-use-mentions-in-a-pbi
+  - escalate-done-videos
 ---
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned.
@@ -19,7 +20,7 @@ Key updates on projects may include Done Videos, critical text additions, or spe
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications](critical-update-bad-example.jpg)
+![Figure: Bad example - Automated notifications from project management tools can be easily missed or overlooked amidst other notifications](critical-update-bad-example.jpg)
 :::
 
 ::: good  
@@ -49,16 +50,19 @@ I just made a Done Video for this PBI {{ LINK TO PBI }}.
 
 If you have any feedback, please post it on the PBI.
 
-&lt;This email was sent as per <https://www.ssw.com.au/rules/escalate-key-updates/> &gt;
+<This email was sent as per [https://www.ssw.com.au/rules/escalate-key-updates](/escalate-key-updates)>
 
 :::  
 :::
 
-This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also @mention them in the PBI update as per [Do you know when you use @ mentions in a PBI?
-](/when-you-use-mentions-in-a-pbi/)
+This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi/).
 
 Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
 
 ::: info
-**Note:** You should be able to easily tell if a PBI was created from email, see [Do you turn an email into a PBI before starting work?](/turn-emails-into-pbis/)
+**Notes:**
+
+- Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
+- You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
+
 :::

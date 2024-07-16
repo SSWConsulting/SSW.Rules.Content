@@ -1,22 +1,22 @@
 ---
+seoDescription: Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a Spec Review for any one of the following possible cases
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how thorough your customer's specifications are?
 guid: 4e313ea3-4b70-41fd-b579-10f76f5ee919
 uri: specification-levels
 created: 2011-02-28T08:25:37.0000000Z
 authors:
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-(there-are-5-levels)
-- spec-do-you-know-how-thorough-your-customers-specifications-are-there-are-5-levels
-- spec-do-you-know-how-thorough-your-customers-specifications-are-(there-are-5-levels)
-- spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-there-are-5-levels
-
+  - spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-(there-are-5-levels)
+  - spec-do-you-know-how-thorough-your-customers-specifications-are-there-are-5-levels
+  - spec-do-you-know-how-thorough-your-customers-specifications-are-(there-are-5-levels)
+  - spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-there-are-5-levels
 ---
 
 Different clients will have different levels of documentation on what they want to be built. You need to be ready to do a Spec Review for any one of the following possible cases:
@@ -25,15 +25,15 @@ Different clients will have different levels of documentation on what they want 
 
 There are 5 levels/types of Specifications:
 
-### 1. I have an idea...
+### 1. I have an idea
 
-Run from this   
-or    
+Run from this  
+or  
 Verify they have a really hefty bank account!
 
 ### 2. High-Level Requirements Document
 
-This will read like a wish list with no details and many unanswered questions. High-Level requirements are very vague and open to many interpretations. 
+This will read like a wish list with no details and many unanswered questions. High-Level requirements are very vague and open to many interpretations.
 
 ### 3. Detailed Requirements Document
 
@@ -54,12 +54,12 @@ This will include detailed mock-ups for the UI, use cases/user stories and might
 * We need a login page for northwind.com
 * Must match existing site look and feel
 * Users table must be defined and added to the ABC database (SQL Server 2008)
-* **Username consists of user first initial and first 7 characters of the last name** 
-  - **For example Joe Jones -&gt; jjones**
+* **Username consists of user first initial and first 7 characters of the last name**
+  * **For example Joe Jones -&gt; jjones**
 * Password should be at least 8 characters
 * Site uses .NET 4 and this interface must be added to existing project
 * This is the layout for the login interface
-* **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed** 
+* **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed**
 
 ### 5. Technical Specification
 
@@ -72,7 +72,7 @@ This is the blueprint for the application. There should be no unanswered questio
   * For example Joe Jones -&gt; jjones
 * Password should be at least 8 characters
 * Site uses .NET 4 and this interface must be added to existing project
-* Define the data model explicitly   
+* Define the data model explicitly  
   ![](Table.jpg)
 * Must work with IE7, IE8, IE9, and FF3
 * Must display correctly at 1024x768 resolution

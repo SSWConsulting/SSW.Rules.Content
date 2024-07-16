@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: This rule has been replaced by [Do you choose the best method of authentication for your situation?](https://www.ssw.com.au/rules/choose-the-best-method-of-authentication-for-your-situation)
+archivedreason: This rule has been replaced by [Do you choose the best method of authentication for your situation?](/rules/choose-the-best-method-of-authentication-for-your-situation)
 title: '[DEPRECATED] Do you use built in authentication from MS?'
 guid: ddcc3cb1-7b5b-402b-ad6d-425efe194a18
 uri: do-you-use-built-in-authentication-from-ms

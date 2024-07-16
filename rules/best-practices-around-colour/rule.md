@@ -1,17 +1,20 @@
 ---
+seoDescription: Best practices around colour usage in reports and visualizations, ensuring clarity and effectiveness through semantic colours, minimalism, consistent palette, and consideration for colour blindness.
 type: rule
 title: Do you know the best practices around colour?
 uri: best-practices-around-colour
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - color-contrast
 redirects:
   - do-you-know-the-best-practices-around-colour
 created: 2020-10-14T17:07:45.000Z
 archivedreason: null
 guid: 632c4694-2279-4ab4-b33d-8e42edf6ac44
 ---
+
 Using colour in reports can bring them to life, or else make them confusing and noisy, so make sure youre intentional with them.
 
 <!--endintro-->

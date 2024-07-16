@@ -1,4 +1,5 @@
 ---
+seoDescription: Add test cases to a Microsoft Test Manager test plan and organize your testing efforts with ease.
 type: rule
 title: Do you know how to add a Test Case to a Test Plan in Microsoft Test Manager?
 uri: do-you-know-how-to-add-a-test-case-to-a-test-plan-in-microsoft-test-manager
@@ -12,7 +13,7 @@ redirects: []
 created: 2012-07-23T18:12:10.000Z
 archivedreason: Microsoft Test Manager has been superseded by Azure Test Plans,
   a new rule covers how to add test cases to test plans in Azure Test Plans
-  https://www.ssw.com.au/rules/add-test-case-to-test-plan-azure-test-plans
+  [https://www.ssw.com.au/rules/add-test-case-to-test-plan-azure-test-plans](/add-test-case-to-test-plan-azure-test-plans)
 guid: e9a59d93-db25-4894-887c-4fee2b76ad22
 ---
 

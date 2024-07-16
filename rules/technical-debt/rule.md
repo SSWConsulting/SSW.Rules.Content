@@ -1,4 +1,5 @@
 ---
+seoDescription: Repaying technical debt is crucial to maintain software velocity and avoid feature stagnation.
 type: rule
 title: Do you know the importance of paying back Technical Debt?
 uri: technical-debt
@@ -10,7 +11,7 @@ authors:
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
   - title: Jernej Kavka (JK)
-    url: https://ssw.com.au/people/jk
+    url: https://ssw.com.au/people/jernej-kavka
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
 related:
   - refactor-your-code-and-keep-methods-short
@@ -22,6 +23,7 @@ created: 2020-12-16T23:19:05.000Z
 archivedreason: null
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
 ---
+
 ### What is Technical Debt?
 
 Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
@@ -32,8 +34,8 @@ Technical Debt is when you defer work that needs doing in your code. And, just l
 
 Technical Debt can occur for all kinds of reasons, for example:
 
-* When you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
-* Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
+- When you take a shortcut or implement a hack to get a feature out quickly. Sometimes this is because, as a team (including the Product Owner), you've made a conscious decision to take this shortcut because, for example, you need a cut-down version of the feature urgently, or in other cases because of an open bug in a library you depend on.
+- Code that is hard to understand after reading it multiple times or a single method that spans multiple screens is also considered to be Technical Debt.
 
 Systems need to have features added to them to continually remain useful (or competitive). As new features are added to the system, often more Technical Debt will be introduced. But as any system ages, it **will** accumulate Technical Debt.
 
@@ -43,18 +45,18 @@ Systems need to have features added to them to continually remain useful (or com
 
 **Example:** A developer takes a shortcut to get some early feedback on a new feature
 
-* $100 - full feature
-* $20 - feature with shortcuts (no tests, dirty code, whatever it takes)
-* $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Technical Debt - Planned
+- $100 - full feature
+- $20 - feature with shortcuts (no tests, dirty code, whatever it takes)
+- $80 - IOU via PBI in the backlog e.g. \[FeatureName] – Technical Debt - Planned
 
 ::: good
-![Figure: Good example - Technical Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind.png)
+![Figure: Good example - Technical Debt is very visible to the Product Owner](waf-tech-debt-backlog-northwind_1710232021944.png)
 :::
 
 ### What are the consequences of Technical Debt?
 
-* Fewer features over time for the customers
-* More molasses (developer friction) for the developers
+- Fewer features over time for the customers
+- More molasses (developer friction) for the developers
 
 `youtube: https://www.youtube.com/embed/0FlLE8AdZgk`
 
@@ -65,7 +67,7 @@ Systems need to have features added to them to continually remain useful (or com
 Sometimes you want to quickly implement a new feature to get it out and receive some feedback.
 
 ::: greybox
-PBI: **\[FeatureName] – Technical Debt - Planned** 
+PBI: **\[FeatureName] – Technical Debt - Planned**
 :::
 
 **Note:** Martin Fowler calls this "Deliberate Technical Debt".
@@ -75,7 +77,7 @@ PBI: **\[FeatureName] – Technical Debt - Planned**
 During a code review, you or the team notice something as part of the system that is clearly Technical Debt. This code is hindering the ability to add new features or is hard to read/understand.
 
 ::: greybox
-PBI: **\[FeatureName] – Technical Debt - Discovered** 
+PBI: **\[FeatureName] – Technical Debt - Discovered**
 :::
 
 **Note:** Martin Fowler calls this "Inadvertent Technical Debt".

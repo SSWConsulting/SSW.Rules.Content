@@ -1,4 +1,5 @@
 ---
+seoDescription: Use View Models instead of ViewData to pass data safely and efficiently in MVC applications.
 type: rule
 title: Do you use View Models instead of ViewData?
 uri: do-you-use-view-models-instead-of-viewdata
@@ -24,6 +25,7 @@ public ActionResult Index() {
 
 <h1><%: ViewData["Message"] &></h1>
 ```
+
 ::: bad
 Figure: Bad example – ViewData being used to pass information to the View isn’t type-safe
 :::
@@ -37,7 +39,7 @@ public ActionResult Index() {
 
 <h1><%: Model.Message %></h1>
 ```
+
 ::: good
 Figure: Good example – Using a ViewModel is a safer way to pass data
 :::
-

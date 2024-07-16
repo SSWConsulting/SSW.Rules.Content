@@ -1,4 +1,5 @@
 ---
+seoDescription: When creating a SharePoint Modern page, use the Rich Text editor over Markdown to ensure a detailed version history and ease of editing.
 type: rule
 title: Do you know why to use the Rich text editor over the Markdown editor?
 uri: sharepoint-rich-text-markdown
@@ -13,9 +14,10 @@ related:
 created: 2023-04-06T05:17:09.631Z
 guid: a8867db2-7aca-4038-b826-622d03d02767
 ---
-When creating a SharePoint Modern page, you can use many different webparts to enrich your content - Videos, Embedded PowerBI, and many more. 
 
-When you want to add plain text to a page, you have two choices: Text (or Rich Text) Webpart, or Markdown WebPart.    
+When creating a SharePoint Modern page, you can use many different webparts to enrich your content - Videos, Embedded PowerBI, and many more.
+
+When you want to add plain text to a page, you have two choices: Text (or Rich Text) Webpart, or Markdown WebPart.
 
 ![Figure: The two common types of Text WebParts - "Text" and "Markdown"](md-vs-text-select.png)
 
@@ -27,9 +29,11 @@ Whenever possible, you should use the Text WebPart as it offers a much nicer edi
 
 ![Figure: You can navigate to the page version history through "Page Details" | "Version History"](version-history-nav.png)
 
-Tip: Don't forget to switch "Highlight changes on the page" 
+::: good
 
-![Figure: Don't forget this switch oe you won't see the detailed changes](tick-the-highlight-switch.png)
+![Figure: Good example - Turn on Highlight changes on this page so you can see the detailed changes in an easy-to-read format](tick-the-highlight-switch.png)
+
+:::
 
 ::: bad
 ![Figure: Bad Example - Markdown WebPart - No detailed history, all I can tell is that something changed on that component](bad-example-md.png)

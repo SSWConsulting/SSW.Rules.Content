@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand legal implications before signing a Non-Disclosure Agreement (NDA) and protect your confidential information.
 type: rule
 title: Do you know what to do when asked to sign an NDA?
 uri: nda-gotchas
@@ -10,6 +11,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
+    url: https://www.ssw.com.au/people/michael-smedley
 related: []
 redirects:
   - do-you-know-what-to-do-when-asked-to-sign-an-nda
@@ -18,6 +20,7 @@ created: 2016-01-08T04:50:39.000Z
 archivedreason: null
 guid: 1d33b09f-67ab-4c7f-a9e8-6d66b341a9ed
 ---
+
 Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confidentiality Agreement can sometimes have a lot of legal implications and you should be careful before signing one.
 
 `youtube: https://youtu.be/6S-OJspJAZA`
@@ -26,13 +29,13 @@ Signing contracts - A Non-Disclosure Agreement (NDA) also known as a Confiden
 
 ### What is an NDA
 
-A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](https://en.wikipedia.org/wiki/Party_(law) "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
+A **non-disclosure agreement** (**NDA**), also known as a **confidentiality agreement** (**CA**), **confidential disclosure agreement** (**CDA**), **proprietary information agreement** (**PIA**) or **secrecy agreement** (**SA**) or 'non-disparagement agreement' is a [legal](https://en.wikipedia.org/wiki/Law "Law") [contract](https://en.wikipedia.org/wiki/Contract "Contract") or part of a contract between at least two [parties](<https://en.wikipedia.org/wiki/Party_(law)> "Party (law)") that outlines confidential material, knowledge, or information that the parties wish to share with one another for certain purposes, but wish to restrict access to only the participants of the agreement.
 
 ### Be Sensible
 
 All parties are entitled to have legal representation with an NDA, but there are a few simple gotcha's we detail below that we think can keep all parties safe, without any unnecessary dramas.
 
-Remember an NDA is there to foster a sense of trust between the parties, and although it's wise to follow the advice mentioned below remember that to take legal action as a result of a breach is costly and time consuming. It will also no doubt end a reciprocal business relationship. 
+Remember an NDA is there to foster a sense of trust between the parties, and although it's wise to follow the advice mentioned below remember that to take legal action as a result of a breach is costly and time consuming. It will also no doubt end a reciprocal business relationship.
 
 ### If they will sign your NDA (recommended)
 

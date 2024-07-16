@@ -1,23 +1,30 @@
 ---
+seoDescription: Migrating an existing user store to an ExternalAuthProvider, such as IdentityServer or Azure AD, requires mapping users and handling pre-existing company users and new registrants.
 type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
 uri: migrate-an-existing-user-store-to-an-externalauthprovider
 authors:
   - title: "Dhruv Mathur"
-    url: https://www.ssw.com.au/people/dhruv/
+    url: https://www.ssw.com.au/people/dhruv-mathur/
+  - title: "Matt Goldman"
+    url: https://www.ssw.com.au/people/matt-goldman/
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 redirects:
-- integrate-identityserver-with-an-existing-user-store
-- migrate-an-existing-user-store-to-an-externalauthprovider
-
+  - integrate-identityserver-with-an-existing-user-store
+  - migrate-an-existing-user-store-to-an-externalauthprovider
 ---
 
-When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP .NET Core application which uses ASP .NET Core Identity, challenges arise due to different user identification systems.
+When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP.NET Core application which uses ASP.NET Core Identity, challenges arise due to different user identification systems.
 
-On the ExternalAuthProvider side, users are typically recognised by a unique SubId within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data.
+On the ExternalAuthProvider side, users are typically recognised by a unique Subject Id within their issued token after authentication. In contrast, an application's existing user store might use its own unique user ID, possibly combined with other data.
 
-The above discrepancy creates the need to effectively map or correlate the the user with SubId from the ExternalAuthProvider to the corresponding user with user ID within the app's user store.
+The above discrepancy creates the need to effectively map or correlate the the user with a Subject Id from the ExternalAuthProvider to the corresponding user within the app's user store.
+
+::: greybox
+**⚠️ Warning:**
+The approach described here assumes that the user's email address is verified. With some external providers, such as Apple, you can trust that the email is verified. For others, such as Microsoft, the email property can come from a freely editable field and should be treated as unverified. Email addresses from unverified providers should be verified within your application. You should always ensure a user owns an email address before relying on it to grant access to data.
+:::
 
 Two essential scenarios arise when integrating the ExternalAuthProvider:
 
@@ -47,7 +54,7 @@ Figure: Retrieving existing user by using the Email claim from the JWT token uti
 
 #### Users known to the application but not authenticated via ExternalAuthProvider
 
-Retrieve the SubId from the JWT token provided by the ExternalAuthProvider. Use ASP .NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
+Retrieve the SubId from the JWT provided by the ExternalAuthProvider. Use ASP.NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) method to associate this SubId as an external login with the user's record.
 
 ```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
@@ -55,17 +62,17 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 ```
 
 ::: greybox
-**Note**: In the example above the "EXTERNAL\_AUTH\_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY\_SERVER\_EXTERNAL\_LOGIN = "IdentityServer"
+**Note**: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
 :::
 
 #### Future Authentications
 
-For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)) method.
+For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)>) method.
 
 ### ✅ Benefits
 
-* Seamless authentication experience for existing users
-* Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) and [`FindAsync`](https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108))
+- Seamless authentication experience for existing users
+- Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) and [`FindAsync`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)>)
 
 ## 2. New ExternalAuthProvider registrants
 
@@ -118,6 +125,6 @@ var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, s
 
 ### ✅ Benefits
 
-* Facilitates the seamless integration of new users to the ecosystem.
-* Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
-* Streamlined process, avoiding manual or ad-hoc registration steps.
+- Facilitates the seamless integration of new users to the ecosystem.
+- Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
+- Streamlined process, avoiding manual or ad-hoc registration steps.

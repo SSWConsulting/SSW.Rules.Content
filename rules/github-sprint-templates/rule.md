@@ -1,5 +1,7 @@
 ---
+seoDescription: Standardize your Scrum processes with GitHub issue templates for Sprint Reviews/Retros and Forecasts, streamlining data entry and preserving visibility.
 type: rule
+archivedreason: Moving to Email ([Do you create a Sprint Review/Retro email?](/rules/sprint-review-retro-email/)) due to GitHub Issues' shortcomings, cluttered backlogs, necessity for private repos in public projects, and limitations in scope management.
 title: GitHub Issues - Do you create templates for Sprint Reviews/Retros/Forecasts?
 uri: github-sprint-templates
 authors:

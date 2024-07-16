@@ -26,7 +26,6 @@ index:
 - have-good-and-bad-bullet-points
 - do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
 - do-you-finish-your-presentation-with-a-thank-you-slide
-- do-you-keep-eye-contact-with-the-audience
 - pptx-test-please
 - do-you-keep-your-presentations-in-a-public-location
 - do-you-know-how-to-compress-your-powerpoint
@@ -34,6 +33,7 @@ index:
 - keep-your-urls-clean
 - use-creative-commons-images
 - no-text-slides
+- powerpoint-comments
 
 ---
  

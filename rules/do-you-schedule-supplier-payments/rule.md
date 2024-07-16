@@ -1,4 +1,5 @@
 ---
+seoDescription: Schedule supplier payments efficiently using Xero and improve cash flow management by automating your accounting processes.
 type: rule
 title: Expenses - Do you use Xero to schedule supplier payments?
 uri: do-you-schedule-supplier-payments
@@ -31,7 +32,7 @@ OR
 
 ![Figure: Use Xero Expense for capturing bills or money spent](2020-11-20_15-09-45.png)
 
-Once the invoice is in the bill's section, you can schedule a planned payment date. 
+Once the invoice is in the bill's section, you can schedule a planned payment date.
 
 ![Figure: Scheduling area of unpaid bills](2020-11-20_15-00-03.png)
 

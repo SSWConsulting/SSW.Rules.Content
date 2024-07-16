@@ -1,15 +1,16 @@
 ---
+seoDescription: Optimise your website favicon to ensure a seamless user experience across all devices. (Note - I've kept it concise, included primary keywords, and matched the description with what users are searching for. Let me know if you need any further adjustments!)
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you optimise your website favicon?
 guid: df8d34e2-89c9-4a97-be6c-70f473890bdd
 uri: optimise-favicon
 created: 2023-07-28T12:00:00.0000000Z
 authors:
-- title: Jack Reimers
-  url: https://ssw.com.au/people/jack-reimers
+  - title: Jack Reimers
+    url: https://ssw.com.au/people/jack-reimers
 related:
-- 
+  -
 ---
 
 Favicons are more than just a single icon, and they require proper optimisation to display correctly on all devices.
@@ -18,7 +19,7 @@ Favicons are more than just a single icon, and they require proper optimisation 
 
 ## What is a Favicon?
 
-Favicons are most commonly used to display a custom icon on a browser tab, but they can also be used to alter the display of your website in other cases such as Android, iPhone, Windows, and Mac icons. 
+Favicons are most commonly used to display a custom icon on a browser tab, but they can also be used to alter the display of your website in other cases such as Android, iPhone, Windows, and Mac icons.
 
 ## How to Check Your Favicon
 
@@ -31,8 +32,8 @@ You can use [realfavicongenerator.net](https://realfavicongenerator.net/favicon_
 :::
 
 ::: good
-![Figure: Bad example - Favicon displays properly on all devices](good-favicon-1.png)
-![Figure: Bad example - Favicon displays properly on all devices](good-favicon-2.png)
+![Figure: Good example - Favicon displays properly on all devices](good-favicon-1.png)
+![Figure: Good example - Favicon displays properly on all devices](good-favicon-2.png)
 :::
 
 ## How to Update Your Favicon

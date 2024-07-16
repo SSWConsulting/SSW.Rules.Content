@@ -4,13 +4,13 @@ title: Rules to Better IM
 guid: 67f8e978-2aa1-4bc9-96b6-a54cefc3d159
 uri: rules-to-better-im
 index:
-
 - no-hello
 - know-that-im-interrupts
 - do-you-minimize-team-distractions
 - minimize-skype-distractions
 - avoid-sending-unnecessary-messages
 - update-or-delete-mistakes
+- inform-others-about-chat-message-updates
 - avoid-sarcasm-misunderstanding
 - investigate-your-question-for-two-minutes-before-asking-someone-on-im
 - minimize-unrelated-interruptions
@@ -26,6 +26,7 @@ index:
 - better-late-than-never
 - when-to-create-a-group-chat
 - when-to-email-chat-call-or-meet
+- go-beyond-just-using-chat
 - replying-in-the-same-medium
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - warn-then-call
@@ -36,4 +37,4 @@ index:
 
 ---
 
-Whether you are chatting to a client on Teams or your friend on WeChat... These are the most common things that can improve your communication.
+Whether you are chatting to a client on Teams or a friend on WeChat... These are the most common things that can improve your communication.

@@ -1,20 +1,25 @@
 ---
+seoDescription: Avoid common spelling and syntax mistakes to ensure effective communication by using correct grammar, punctuation, and language conventions.
 type: rule
 title: Do you avoid common spelling and syntax mistakes?
 uri: avoid-common-mistakes
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
 created: 2023-10-05T17:05:14.553Z
 guid: 92fc2f34-a038-46ac-9fea-7cee042175ec
-
+related:
+  - ampersand
+  - are-you-careful-with-your-spelling-grammar-and-punctuation
+redirects:
+  - spell-aka-correctly
 ---
 
-Attention to detail plays a vital role to effective communication. Spelling and syntax errors, though seemingly minor, can significantly affect the clarity and professionalism of your writing. 
+Attention to detail plays a vital role to effective communication. **Grammar**, **spelling**, and/or **syntax** mistakes, though seemingly minor, can significantly affect the clarity and professionalism of your writing.
 
 <!--endintro-->
 
@@ -27,15 +32,18 @@ Embracing the modern standard not only keeps your writing current but also ensur
 * Use **"website"** not _"web site"_
 * Use **"username"** not _"user name"_
 * Use **"taskbar"** not _"task bar"_
-* Use **"aka"** not _"a.k.a"_
-  
-  **Note:** Although Wikipedia considers multiple ways to spell the acronym for "also known as", the convention is simply "aka" - All letters are in lowercase and letters are not separated by dots/spaces. 
+* Use **"OK"** not _"Ok"_ or _"okay/Okay"_
+* Use **"aka"** not _"AKA"_ or _"a.k.a"_
+
+::: info
+**Note:** Although Wikipedia considers multiple ways to spell the acronym for "also known as", the convention is simply "aka" - with all letters in lowercase and not separated by dots/spaces.
+:::
 
 ### Syntax changes the meaning of certain words
 
-Often when writing technical documents, you will instruct the reader to 'set up' his PC or run a 'setup' file. 
+Often when writing technical documents, you will instruct the reader to 'set up' his PC or run a 'setup' file.
 
-* **"Setup"** is a noun, basically meaning an 'arrangement'(e.g. _"The software setup"_)  
+* **"Setup"** is a noun, basically meaning an 'arrangement'(e.g. _"The software setup"_)
 * **"Set up"** is a phrasal verb, most commonly meaning 'to establish something.' (e.g. _"To set up a computer"_)
 
 How can you remember this? Mentally replace "setup" or "set up" with "setting up". If the sentence still basically makes sense, use two words. If it doesn't, use the single word. For example, the sentence _"...he is setting up the shop"_ makes sense. _"The setting up was all wrong"_ does not.
@@ -65,6 +73,6 @@ Words like “verses” and “versus” are homophones, meaning they are pronou
 
 ---
 
-Language precision is essential for effective communication. Spelling and syntax errors may appear trivial, but they significantly impact how your writing is perceived. 
+Language precision is a valuable skill and is essential for effective communication - they significantly impact how your writing is perceived.
 
-By following these guidelines and staying current with language conventions, you can enhance the clarity, professionalism, and effectiveness of your communication. Language precision is a valuable skill in our diverse and dynamic communication landscape.
+By following these guidelines and staying current with language conventions, you can enhance the clarity, professionalism, and effectiveness of your communication.

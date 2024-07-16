@@ -1,4 +1,5 @@
 ---
+seoDescription: Before seeking clarification on an unclear email, consider initiating a phone call or Teams conversation to resolve any misunderstandings.
 type: rule
 title: Do you seek clarification via the Teams/telephone first?
 uri: seek-clarification-via-phone
@@ -8,10 +9,10 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
   - title: Mike Smedley
-    url: https://www.ssw.com.au/people/mike
+    url: https://www.ssw.com.au/people/michael-smedley
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Michael-Smedley/Images/Michael-Smedley-Profile.jpg
   - title: Penny Walker
-    url: https://www.ssw.com.au/people/penny
+    url: https://www.ssw.com.au/people/penny-walker
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
 related:
@@ -22,7 +23,6 @@ redirects:
 created: 2009-03-25T05:31:48.000Z
 archivedreason: null
 guid: 03f728f0-9624-43e2-ad04-bbd2735c53ec
-
 ---
 
 Sometimes you get a cryptic email and think... _"what on earth!?"_ In those cases, a quick call (on Teams or a phone) can solve most of your troubles.
@@ -34,22 +34,22 @@ We've all received a cryptic email at some point. Simply replying _"I don't unde
 Having clarified the issue by phone, update the task by replying to the original email with the new details arising from the conversation. Remember to start with ["As per our conversation"](/as-per-our-conversation-emails).
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Dave |
+| To: | Dave |
 | Subject: | RE: Northwind App - Changes to UI |
-::: email-content  
+::: email-content
 
-### Hi Dave,
+### Hi Dave
 
-As per our conversation, I needed a bit more information to complete this task. As discussed, in the future so I don't have to bother you, please send me as much information about a task as possible.  
+As per our conversation, I needed a bit more information to complete this task. As discussed, in the future so I don't have to bother you, please send me as much information about a task as possible.
 
-### To Myself,
+### To Myself
 
 {{ INFO YOU'VE GOT FROM THE CONVERSATION }}
 
 Regards,
-Denise  
+Denise
 
 :::
 :::
@@ -57,16 +57,16 @@ Denise
 Figure: Good example - Send this email and now move on to your tasks
 :::
 
-However, sometimes you cannot immediately reach the task owner. In this case, you should try to contact the person a few more times. If you are still not able to contact them, you should reply to the email and state it in the first line: 
+However, sometimes you cannot immediately reach the task owner. In this case, you should try to contact the person a few more times. If you are still not able to contact them, you should reply to the email and state it in the first line:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Dave |
+| To: | Dave |
 | Subject: | RE: Northwind App - Changes to UI |
-::: email-content  
+::: email-content
 
-### Hi Dave,
+### Hi Dave
 
 I tried to call but couldn't get hold of you.
 
@@ -75,7 +75,7 @@ I need a bit more information to complete this task. To make sure we understand 
 {{ WHAT NEEDS CLARIFICATION }}
 
 Regards,
-Denise  
+Denise
 
 :::
 :::

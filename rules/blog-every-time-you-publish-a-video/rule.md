@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you publish a video every time you blog? By recording a video and publishing it on YouTube, you're helping spread the word about your content. Consider linking your video in a simple blog post with a good description, popular keywords, and an explanation of your thoughts to expand your audience.
 type: rule
 title: "Do you blog every time you publish a video? "
 uri: blog-every-time-you-publish-a-video
@@ -6,12 +7,13 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 created: 2022-03-28T05:26:11.233Z
 guid: 92f7ac52-6cd1-4285-850d-db64c56b4932
 ---
+
 Every time someone does a talk/records a video, it helps spread the word about your content if your video keeps getting shared. \
 \
 If you have a blog, a good idea is to add a simple post to tag your new video. It gets double Google juice if you:
@@ -31,4 +33,4 @@ You could go the extra mile and explain your whole talk for an even better resul
 \
 Plus, you have the added benefit of having visual/audio content through the video, as well as written content. That way, you are really catering and communicating to all types of learners, readers or consumers your audience might include.
 
-![Figure: A blog post that includes a video, keywords and the complete thought process will be seen with more authority by Google and give you more views](https://www.ssw.com.au/rules/static/d4b8c03a75bd571d4c7b57ad4f026e67/72e01/matt-goldman-blog-good-example.jpg)
+![Figure: A blog post that includes a video, keywords and the complete thought process will be seen with more authority by Google and give you more views](/static/d4b8c03a75bd571d4c7b57ad4f026e67/72e01/matt-goldman-blog-good-example.jpg)

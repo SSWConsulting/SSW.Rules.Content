@@ -1,4 +1,5 @@
 ---
+seoDescription: Reduce Azure costs by gaining insights and recommendations to optimize spending with Azure Cost Analysis.
 type: rule
 title: Do you reduce your Azure costs?
 uri: reduce-azure-costs
@@ -23,43 +24,44 @@ redirects:
 created: 2023-02-16T00:43:29.261Z
 guid: 41299301-4290-4a07-a974-a065e28cff0b
 ---
+
 Dealing with questions from Product Owners about expenses related to applications hosted on Azure can be a real headache 🥲
 
 Get ready to empower your Product Owners! When it comes to Azure expenses, you want to be [informed and monitor your costs](/azure-budgets). You can also have a solution that not only helps you understand where the spending is coming from, but also helps you find ways to optimize it. With **Azure Cost Analysis**, you can confidently provide your Product Owners with insights and recommendations that will save time and money, and make everyone's day a little brighter ✨
 
 > Always tackle the biggest 3 costs first. In most instances they will be upwards of 98% of your spend, particularly if you are in a wasteful environment. I have seen MANY projects where the largest cost by a significant margin was Application Insights.  
-**- Bryden Oliver, Azure expert**
+> **- Bryden Oliver, Azure expert**
 
 <!--endintro-->
 
 `youtube: whXWijQCQTU`
 **Video: Managing your Azure Costs | Bryden Oliver | SSW Rules (5 min)**
 
-Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It breaks down your cost by: 
+Azure Cost Analysis gives you a detailed breakdown of where any Azure spending is coming from. It breaks down your cost by:
 
-* Scoped Area e.g. a subscription 
-* Resource Group e.g. Northwind.Website
-* Location e.g. Australia East
-* Service type e.g. Azure App Service
+- Scoped Area e.g. a subscription
+- Resource Group e.g. Northwind.Website
+- Location e.g. Australia East
+- Service type e.g. Azure App Service
 
 **Note:** You can also 'filter by' any of these things to give you a narrowed down view.
 
 ### Analysing the expenditure - Finding the big dogs 🐶
 
-To optimize spending, analyze major costs in each category. Generally, it's a good idea to focus on the top 3 contributors - optimizing beyond that is usually not worth the effort. 
+To optimize spending, analyze major costs in each category. Generally, it's a good idea to focus on the top 3 contributors - optimizing beyond that is usually not worth the effort.
 
 Key questions to ask:
 
-* Do you need that resource?
-* Can you scale down?  
-* Can you refactor your application to consume less? 
-* Can you change the type of service or consumption model?
+- Do you need that resource?
+- Can you scale down?
+- Can you refactor your application to consume less?
+- Can you change the type of service or consumption model?
 
 ### Scoped Area
 
-The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the period of higher or sudden growth during that time. 
+The cumulative costs of a selected area over a given time period e.g. the cost of a subscription charted over the last year showing the period of higher or sudden growth during that time.
 
-![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/area-chart.jpg)
+![Figure: Azure Portal | Cost Analysis | Scoped Area Chart e.g. in February it was deployed and in August a marketing campaign caused more traffic](/azure-area-chart.jpg)
 
 ### Resource Group
 

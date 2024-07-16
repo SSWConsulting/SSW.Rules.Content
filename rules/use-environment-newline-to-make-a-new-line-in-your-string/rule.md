@@ -1,4 +1,5 @@
 ---
+seoDescription: When creating a new line in your string, use Environment.NewLine to improve readability and memory utilization.
 type: rule
 title: Do you use Environment.NewLine to make a new line in your string?
 uri: use-environment-newline-to-make-a-new-line-in-your-string
@@ -14,6 +15,7 @@ created: 2018-04-26T22:46:14.000Z
 archivedreason: null
 guid: 200df127-6aaf-415d-a54d-933a228b14fe
 ---
+
 When you need to create a new line in your string, make sure you use Environment.NewLine, and then literally begin typing your code on a new line for readability purposes.
 
 <!--endintro-->

@@ -12,7 +12,7 @@ redirects: []
 created: 2012-08-01T15:07:10.000Z
 archivedreason: "Details of how to write and run acceptance tests can be found
   in the following rule:
-  https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria"
+  [https://www.ssw.com.au/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria](/rules/does-your-team-write-acceptance-tests-to-verify-acceptance-criteria)"
 guid: edb1e5ff-cbbd-45d1-89ab-778ed8fdc95a
 ---
 

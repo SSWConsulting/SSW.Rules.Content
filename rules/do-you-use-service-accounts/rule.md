@@ -1,4 +1,5 @@
 ---
+seoDescription: Use service accounts securely for recurring tasks and systems to maintain application integrity and avoid password-related risks.
 type: rule
 title: Security - Do you use service accounts?
 uri: do-you-use-service-accounts
@@ -10,7 +11,7 @@ redirects: []
 created: 2018-08-22T05:08:37.000Z
 archivedreason: This rule is now outdated, service accounts are useful but gMSAs
   and other kinds of secure identities should be used instead - replaced by
-  https://www.ssw.com.au/rules/group-managed-service-account-gmsa
+  [https://www.ssw.com.au/rules/group-managed-service-account-gmsa](/rules/group-managed-service-account-gmsa)
 guid: 3a663158-60ca-4b55-b9cc-eec5774b3346
 ---
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Smart developers understand the whole system before diving into a problem, anticipating and addressing potential issues.
 type: rule
 title: Do you know the difference between a 'smart' and a 'clever' developer?
 uri: do-you-know-the-difference-between-a-clever-and-a-smart-developer
@@ -11,12 +12,11 @@ authors:
     url: https://www.ssw.com.au/people/william-liebenberg
 created: 2022-09-23T01:44:15.693Z
 guid: 57fd6a3d-7685-4f36-bb39-90b6af6c3565
-
 ---
 
 When we first start out as a developer, we want to show the world what we can do by creating complex solutions. As we gain experience, we learn to show our worth by creating simple solutions.
 
-> Developers are like a fine wine, they get better with age. 
+> Developers are like a fine wine, they get better with age.
 
 <!--endintro-->
 
@@ -24,12 +24,9 @@ Lets take this piece of code as an example:
 
 ```html
 <span className="text-xl">
-    {
-        targetedDays === 0 ? "Today" : 
-        targetedDays === -1 ? "Yesterday" : 
-        targetedDays === 1 ? "Tomorrow" : 
-        moment().add(targetedDays, 'days').format("dddd D MMMM YYYY")
-    }
+  { targetedDays === 0 ? "Today" : targetedDays === -1 ? "Yesterday" :
+  targetedDays === 1 ? "Tomorrow" : moment().add(targetedDays,
+  'days').format("dddd D MMMM YYYY") }
 </span>
 ```
 
@@ -129,7 +126,7 @@ foreach (var row in pixelsQuery)
         setPixel(pixel.X, pixel.Y, pixel.Color.ToDrawingColor());
 ```
 
-This was fortunately just someone's exercise in proving that they could and happily states 
+This was fortunately just someone's exercise in proving that they could and happily states
 
 > Just because you can, doesn't mean you should!
 
@@ -137,24 +134,24 @@ So what are some of the things that developers learn over time that takes them f
 
 ### Avoiding problems
 
-Clever developers fix a problem where Smart Developers stop a problem from happening. 
+Clever developers fix a problem where Smart Developers stop a problem from happening.
 
-Lets say you receive a PBI saying that XYZ method is always returning a value 0.001 more than it should. 
+Lets say you receive a PBI saying that XYZ method is always returning a value 0.001 more than it should.
 
-**Smart Developer**
+#### Smart Developer
 
-Identifies that some incoming data is always out and results in the small rounding issue. 
+Identifies that some incoming data is always out and results in the small rounding issue.
 
 ```js
-return (value-0.001) 
+return value - 0.001;
 ```
 
-**Clever Developer**
+#### Clever Developer
 
-Identifies that a method downstream is rounding to 2 decimal places and removes this. 
+Identifies that a method downstream is rounding to 2 decimal places and removes this.
 
 ### Understanding the whole before they start
 
-Code costs money, not just to create but also to maintain. 
+Code costs money, not just to create but also to maintain.
 
 ![Figure: Clever developer coding away and resolving PBI's](https://media1.giphy.com/media/IhO6ksgdk31JxbbFLA/200w.gif?cid=82a1493bmbpukqu53l1t49epgeet5ftpueaao9zhf2a6szbn&rid=200w.gif&ct=g)

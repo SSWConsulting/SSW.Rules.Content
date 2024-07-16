@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your .Net coding experience with LINQ, a powerful query language that simplifies data retrieval and manipulation.
 type: rule
 title: Do you look for opportunities to use Linq?
 uri: do-you-look-for-opportunities-to-use-linq
@@ -14,14 +15,13 @@ archivedreason: null
 guid: 3e87484c-47eb-4c38-9a83-3e530fed7498
 ---
 
-Linq is a fantastic addition to .Net which lets you write clear and beautiful declarative code. Linq allows you to focus more on the  **what** and less on the  **how** .
+Linq is a fantastic addition to .Net which lets you write clear and beautiful declarative code. Linq allows you to focus more on the **what** and less on the **how** .
 
 You should look for opportunities to replace your existing code with Linq.
 
 <!--endintro-->
 
 For example, replace your foreach loops with Linq.
-
 
 ```csharp
 var lucrativeCustomers = new List<Customer>();

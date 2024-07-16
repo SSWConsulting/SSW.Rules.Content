@@ -1,16 +1,16 @@
 ---
+seoDescription: Add Windows Defender exception for Hosts file to prevent anti-virus software from detecting legitimate modifications.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you add an exception for Hosts file on Windows Defender?
 guid: 1f973f5e-02ba-4933-8c2c-3753c745308a
 uri: do-you-add-an-exception-for-hosts-file-on-windows-defender
 created: 2012-09-19T18:15:45.0000000Z
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
-
 ---
 
 If you sometimes add entries into your Hosts file (C:\Windows\System32\Drivers\etc\Hosts) you will need to add an exception in Windows Defender as it assumes that malicious code has added an erroneous entry.

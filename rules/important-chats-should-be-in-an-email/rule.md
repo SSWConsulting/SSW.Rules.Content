@@ -1,20 +1,20 @@
 ---
+seoDescription: Important chats should be in an email, not instant messages.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know important chats should be in an email?
 guid: af52692d-63e4-4137-9034-79aef6cefa39
 uri: important-chats-should-be-in-an-email
 created: 2015-10-05T01:40:51.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- report-bugs-and-suggestions
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - report-bugs-and-suggestions
 redirects:
-- interruptions-do-you-know-important-chats-should-be-in-an-email
-
+  - interruptions-do-you-know-important-chats-should-be-in-an-email
 ---
 
 First of all, understand that IM is distracting so use it judiciously. However, IM is great when an email is unclear or you have an additional question about the email that is stopping you from sending a 'done'. IM is great for reminding people and is excellent to push the important things... especially for people who ignore emails!
@@ -42,12 +42,12 @@ When you copy and paste a IM conversation into an email remember the following:
 
 Make it readable by snipping out just the important information and Cc relevant parties. ([See rule on Snipping for more information](/you-make-the-email-readable-by-snipping-and-formatting-the-im-chat)).
 
-### Dealing internally 
+### Dealing internally
 
 If you get an internal IM that should be an email, don't simply convert it into in an email as above - [be a standard watchdog](/is-everyone-in-your-team-a-standards-watchdog) and let the other person know that they should send emails instead of instant messages:
 
 ::: greybox
-"Hi xxx, next time an email would have been less distracting.  
+"Hi xxx, next time an email would have been less distracting.
 
-For things like this - that are clearly tasks, and require a 'done' - please send an email straight away as per ssw.com.au/rules/important-chats-should-be-in-an-email" 
+For things like this - that are clearly tasks, and require a 'done' - please send an email straight away as per ssw.com.au/rules/important-chats-should-be-in-an-email"
 :::

@@ -7,6 +7,7 @@ index:
 - have-a-great-company-logo
 - set-design-guidelines
 - logo-redesign
+- do-you-use-identifying-company-logo-motifs
 - business-cards-branding
 - great-email-signatures
 - browser-add-branding
@@ -14,13 +15,14 @@ index:
 - events-branding
 - cars-branding
 - employees-branding
+- prefix-job-title
 - consistent-phone-message
 - coffee-mugs-branding
 - brand-your-assets
 - make-your-presents-branded
 - do-you-brand-your-takeaway-coffee-cups
-- do-you-use-identifying-company-logo-motifs
 - have-urls-to-your-main-services-on-linkedin
+- screenshots-add-branding
 - plastic-bags-branding
 
 ---
@@ -28,4 +30,3 @@ index:
 Branding is the key to success. In the cluttered global market, your company's brand is the way the outside world perceives your product or service. Many business problems revolve around poor branding: your clients might think you're too small for a job, or not technically capable, or charge too much. Common customer grievances could be alleviated by a positive brand image.
 
 Branding isn't necessarily tangible. It touches the emotive side of human behavior - you feel, see, or relate to a brand. But because it has such power it needs to be managed in any organization, no matter how big or small.
-

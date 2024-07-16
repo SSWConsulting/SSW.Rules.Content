@@ -4,7 +4,7 @@ archivedreason:
 title: Do you use negative prompting?
 guid: 5819b6ee-c0b5-4ada-bd04-71897ea7b668
 uri: use-negative-prompting
-created: 2023-06-30
+created: 2023-06-30T00:00:00.000Z
 authors: 
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily/

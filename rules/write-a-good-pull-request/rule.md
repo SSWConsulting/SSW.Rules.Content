@@ -20,16 +20,18 @@ authors:
 related:
   - useful-information-on-changes
   - close-pbis-with-context
+  - use-pull-request-templates-to-communicate-expectations
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
-  - use-emojis
-  - use-pull-request-templates-to-communicate-expectations
+  - reply-done-and-delete-the-email
 redirects:
   - do-you-know-how-to-write-a-good-pull-request
 created: 2020-07-17T01:21:08.000Z
 archivedreason: null
 guid: d35b49bf-bdd1-48eb-bc1d-944cdc5be4dc
+
 ---
+
 As a software developer, you are going to create Pull Requests (PRs) that you want to be easy for others to review and approve. The quality of a Pull Request can vary - from cryptic to well-written.
 
 Including a little bit of context helps your reviewer understand changes quickly so they can review your PR faster and give better suggestions.
@@ -42,13 +44,11 @@ There are 2 easy things you can do to improve your Pull Request:
 
 The key to writing a concise Pull Request is to base the PR itself on a PBI / issue.
 
-Good titles cover:
+Good **titles** cover:
 
-a. What the Pull Request will do
-
-b. How the Pull Request achieved it
-
-c. Emojis! Follow the [GitMoji.dev](https://gitmoji.dev) standard
+* What the Pull Request will do
+* How the Pull Request achieved it
+* Emojis! Follow the [GitMoji.dev](https://gitmoji.dev) standard
 
 Examples:
 
@@ -78,14 +78,14 @@ The Pull Request description is a medium for the developer to tell the reviewers
 **Tip:** For straight-forward changes the self-explanatory title might be enough. You should still include context so the reviewer knows what initiated the changes (examples below)
 :::
 
-Good descriptions cover:
+Good **descriptions** cover:
 
-a. Context:
+* Context:
 
-* Relates to #{{ ISSUE NUMBER or URL}} (⚠️ see [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/))
-* From email: {{ SUBJECT }} (like the rule [Warn then call](/warn-then-call))
-* As per my conversation with {{ NAME }} (like the rule [Do you send as per our conversation emails](/as-per-our-conversation-emails))
-* I noticed a problem: {{ DESCRIBE }}
+  * Relates to #{{ ISSUE NUMBER or URL}} (⚠️ see [avoid linking any Issues that you do not want to close](/avoid-auto-closing-issues/))
+  * From email: {{ SUBJECT }} (like the rule [Warn then call](/warn-then-call))
+  * As per my conversation with {{ NAME }} (like the rule [Do you send as per our conversation emails](/as-per-our-conversation-emails))
+  * I noticed a problem: {{ DESCRIBE }}
 
 ::: info
 Linking the source to a PR serves as documentation on which development work that was done. It helps in the future to debug when and which changes were introduced and the original specification of that piece of work.
@@ -95,46 +95,26 @@ Linking the source to a PR serves as documentation on which development work tha
 **Tip:** If you noticed that a change needed to be made and had no specific task/issue, use 'I noticed...' from above.
 :::
 
-b. Did you do pair or mob programming?
+* Pair or mob programming?
 
-* [Do you use Co-Creation Patterns?](/do-you-use-co-creation-patterns)
-* Example: Worked with @bob, @mary and @jane
+As per [Do you use Co-Creation Patterns?](/do-you-use-co-creation-patterns). E.g. "Worked with @bob, @mary and @jane"
 
-c. What the PR is about and why you raised it
+* What the PR is about and why you raised it
 
-d. How the PR will achieve the feature / fix the bug / other goals
+* How the PR will achieve the feature / fix the bug / other goals
 
-e. Include a screenshot/GIF/Done Video to help the reviewer to understand the changes (e.g. styling changes)
+* Screenshots / Done Videos to help the reviewer to understand the changes. E.g. Styling changes
 
-f. Tell he reviewers if there is an area you are uncertain about, e.g.: I'm looking for feedback on this code
+* Tell reviewers if there is an area you are uncertain about. E.g. "I'm looking for feedback on this code"
 
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
-**PR description:**\
+**PR description:**
 :::
 ::: bad
 Figure: Bad example - Cannot tell what was done here
 :::
-
-::: greybox
-**PR title:** Update Rule “meaningful-pbi-titles/rule”
-
-**PR description:** Changes made:
-
-1. Added missing video figure to embedded YouTube video
-2. Fixed typo:\
-   From:\
-   Use emojis. See our rule on emojis in Scrum).\
-   To:\
-   Use emojis. See our rule on emojis in Scrum
-
-:::
-::: ok
-Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
-:::
-
-Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
 
 ::: greybox
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
@@ -160,6 +140,12 @@ Figure: Good example - It's clear what changes are being made and where the task
 There is also well-known Pull Request semantics like [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) on how to write a PR body, but we can still have a great PR without using such preciseness.
 :::
 
+### How to approach making a Pull Request
+
+`youtube: https://www.youtube.com/watch?v=d8yGY6KsYys&t=29s`
+
+**Video: 5 Tips For Better Pull Requests (11 min)**
+
 #### FAQs
 
 **Q: Are you making many small changes?**
@@ -171,14 +157,10 @@ A: You should summarize by saying: *“Improved readability”* OR *“Fixed typ
 A: You should include a demonstration of the change.  
 E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.
 
-**Q: Are you using a GUI editor (like Netlify or Tina)**
+**Q: Are you using a CMS editor (like Netlify or Tina)**
 
-A: If you're using a GUI editor for your PRs, you may need to go to the PR afterward and update the description to include the context
+A: CMS editors may automatically add a placeholder description. If you're using a CMS to make your changes, you may need to go to the PR afterward and update the description to include the context.
 
-::: bad
-![Figure: Bad example - An automatically generated description doesn't give any context to reviewers](cms-bad-example.png)
-:::
-
-::: good
-![Figure: Good example - Updating the PR description to follow the repository standard helps you provide context to reviewers](cms-good-example.png)
+::: info
+**Tip:** Ensure devs follow these tips by using a template. [Learn more and check out a template example](/use-pull-request-templates-to-communicate-expectations).
 :::

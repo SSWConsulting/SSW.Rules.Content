@@ -1,4 +1,5 @@
 ---
+seoDescription: Companies have a lot of information and standards, some public and some private, making it essential to provide new employees with a guided induction process.
 type: rule
 title: Do you have an induction program?
 uri: have-an-induction-program
@@ -14,27 +15,28 @@ created: 2016-02-03T00:40:37.000Z
 archivedreason: null
 guid: 81cea1d7-0622-47b4-8d46-475e8ee5a512
 ---
-Companies have a lot of information and standards – some of it is **public** (company blog), some of it is **private** (company intranet). When there are thousands of documents, new employees should be given a guided process so they know what is important. 
+
+Companies have a lot of information and standards – some of it is **public** (company blog), some of it is **private** (company intranet). When there are thousands of documents, new employees should be given a guided process so they know what is important.
 
 <!--endintro-->
 
-When someone joins a company, it is a stressful event... they have to remember people's names, references to where things are... there is a lot of assumed knowledge and explanations of "this is how we do things". 
+When someone joins a company, it is a stressful event... they have to remember people's names, references to where things are... there is a lot of assumed knowledge and explanations of "this is how we do things".
 
-New employees often get inconsistently onboarded depending on who they got their initial information from. 
+New employees often get inconsistently onboarded depending on who they got their initial information from.
 
-An induction system is a way to solve these problems. 
+An induction system is a way to solve these problems.
 
 ---
 
 ### SugarLearning
 
-SSW uses and recommends **[SugarLearning.com](https://www.sugarlearning.com/)**. 
+SSW uses and recommends **[SugarLearning.com](https://www.sugarlearning.com/)**.
 
-What SugarLearning does is aggregate your learning items into one space to make it easy for you to complete your induction. Once you've done your reading, the follow-up quizzes help you confirm what you have learned.
+SugarLearning aggregates your learning experience into one space to make it easy for you to complete your induction. The learning process is broken up into reading, quizzes, and email tasks that are presented in a logical order.
 
-It's also a great continuous learning tool that shows employees where to find relevant information and also tests their knowledge. It's especially useful when a process changes, as a learning item can be invalidated and all employees informed to complete a new process. 
+SugarLearning is a great continuous learning tool that shows employees where to find relevant information. It is especially useful when a process changes, as a learning item can be invalidated, and all employees informed to complete the revised task.
 
-Certain jobs have a module and completing them gives each employee a license to do that job.
+Completing the sugar learning modules gives each employee a better understanding of what is expected of them when working in the company from the first day.
 
 ### What's what at SSW?
 

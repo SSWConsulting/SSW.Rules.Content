@@ -1,17 +1,17 @@
 ---
+seoDescription: Capture laptop video output with hardware devices for precise and efficient presentations.
 type: rule
-archivedreason: 
+archivedreason:
 title: Presentations - Do you use a hardware device to capture laptop video output?
 guid: 0557d3ed-e2fb-47dc-a1e7-5e9a0ed50a53
 uri: use-a-hardware-device-to-capture-laptop-video-output
 created: 2017-12-08T21:42:21.0000000Z
 authors:
-- title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  - title: Raj Dhatt
+    url: https://ssw.com.au/people/raj-dhatt
 related: []
 redirects:
-- do-you-use-a-hardware-capture-device-to-capture-laptop-video-output
-
+  - do-you-use-a-hardware-capture-device-to-capture-laptop-video-output
 ---
 
 You need to capture a presenters’ laptop, and they’re using PowerPoint. You decide to use a screen capture software like Camtasia or ScreenFlow.

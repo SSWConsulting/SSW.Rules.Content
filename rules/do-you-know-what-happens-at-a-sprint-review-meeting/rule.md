@@ -16,14 +16,13 @@ created: 2010-05-06T02:07:33.000Z
 archivedreason: null
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
-
 This is the meeting where the Product Owner accepts or rejects the stories in the Sprint and the Sprint itself.
 
 <!--endintro-->
 
 The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the stories to the Product Owner.
 
-One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believe that they have over or underachieved the Sprint Goal.
+One person, often the Scrum Master, presents a summary to the Product Owner of the stories committed at the Sprint Planning meeting and the stories being presented for acceptance.  The Team seeks to have more stories accepted than originally committed.  It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
 Each story is then presented by the Team for acceptance. They aim to get the Story accepted as quickly as possible ([aka tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
 
@@ -39,42 +38,44 @@ If a Story is rejected and returned to the Product Backlog but the Sprint itself
 
 The Scrum Master keeps the meeting on track and to the Timebox by disallowing discussions not relevant to the acceptance or rejection of the story; this is often done by making a note to bring the subject up again in the [Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) Meeting.
 
-This meeting is normally time-boxed to as many hours as there are weeks in the Sprint.
+This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
+
+It's important that stakeholders stay in the loop of the projects progress, but they are often too busy to join the Sprint Reviews. Before the summary, you should try [loop them in](/loop-someone-in) and if they cannot join, record the summary and send a link.
 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting)
-* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
-* Sprint Review Meeting (Described on this page)
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+* [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
+* [Daily Scrum (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+* [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
+* [Sprint Retrospective](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::
 
 #### What if you can't attend the Sprint Review
 
-![Figure: Playing golf](Golf-holiday.png)  
+![Figure: Playing golf](Golf-holiday.png)
 
 If you can't attend your team's Sprint Review (e.g. you're on leave, working part-time, or in a different timezone), you should give the team a summary of where you're at, so they can inform the stakeholders on your behalf.
 
 * Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
-  
+
 ::: greybox
 ::: email-template
 |          |     |
 | -------- | --- |
 | To:      | {{ YOUR SCRUM MASTER }} |
 | Cc:      | {{ YOUR TEAM }} |
-| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |  
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |\
 ::: email-content
 
-### Hi Team  
+### Hi Team
 
 I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
 
 * PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
 * PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
-...
+  ...
 
 :::
 :::
@@ -83,8 +84,8 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 
 ::: info
 
-### Not doing Scrum?
+**Not doing Scrum?**
 
 Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
-E.g. _"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"_.
+E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"*.
 :::

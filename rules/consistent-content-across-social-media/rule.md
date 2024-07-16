@@ -1,4 +1,5 @@
 ---
+seoDescription: Consistent branding across social media platforms helps reinforce a strong online presence and boosts audience engagement. By using the same caption, URLs, videos, images, and hashtags on each platform, you create a unified brand voice that resonates with your followers.
 type: rule
 title: Content - Do you keep your content consistent across your different
   social media platforms?
@@ -16,12 +17,14 @@ related:
   - know-how-to-take-great-photos-for-your-socials
   - image-standard-sizes-on-social-media
   - type-of-content-marketing-you-should-post
+  - post-using-social-media-management-tools
 redirects:
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
 created: 2020-04-02T01:36:58.000Z
 archivedreason: null
 guid: f571c3c6-ce13-4623-a54f-ece4df91cd6c
 ---
+
 **Being consistent on your content across the different platforms you use is key to having a consistent online brand presence.** It will help you grow audience engagement across the social media platforms you use for your business by following your branding guidelines and the personality you defined for your company.
 
 <!--endintro-->
@@ -34,8 +37,16 @@ Across all platforms, you will find that they have some limitations and recomme
 
 Also, Sprout Social has an interesting [social media character counter](https://sproutsocial.com/insights/social-media-character-counter/) that you can test your content before putting your post out.
 
+::: bad
+![Figure: Posting inconsistent content across social media accounts can lead to brand confusion and loss of audience engagement](Inconsistent.png)
+:::
+
+::: good
+![Figure: Posting consistent content reinforces a consistent brand presence](Consistent.png)
+:::
+
 Some tips:
 
-* Hashtags are really popular on Instagram and Twitter, but not as much on Facebook.\
+- Hashtags are really popular on Instagram and Twitter, but not as much on Facebook.\
   **Note:** This does not apply to social media ads. If you run campaigns with repetitive ad copy, you will fail in every single campaign. To be able to prove that you have good ad copywriting on a certain campaign, you will need a variety of text to see which ad is performing better and driving more conversions.
-* LinkedIn is a professional platform, so it is good sense to avoid using too many emojis or sharing memes if it's not the right fit for your industry. For more information on this topic, check out our Rule [Do you know why you should use memes as part of your business social media content?](/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content)
+- LinkedIn is a professional platform, so it is good sense to avoid using too many emojis or sharing memes if it's not the right fit for your industry. For more information on this topic, check out our Rule [Do you know why you should use memes as part of your business social media content?](/do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content)

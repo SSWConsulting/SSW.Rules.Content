@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you color-code your keys to save time and reduce frustration when identifying the correct key?
 type: rule
 title: Do you color-code your keys?
 uri: do-you-colour-code-your-keys
@@ -15,6 +16,7 @@ created: 2017-03-28T06:35:55.000Z
 archivedreason: null
 guid: 54de015d-46b2-42fb-99e9-96c143c57397
 ---
+
 Keys, we all have them. A key for the front door, a key for the garage, a key to the letterbox, and keys to your office… the list is often endless! How much time do you waste finding the correct key?
 
 <!--endintro-->

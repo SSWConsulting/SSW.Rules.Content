@@ -1,4 +1,5 @@
 ---
+seoDescription: Include addressed names as headings to help recipients quickly locate specific parts of the email.
 type: rule
 title: Do you include addressed names in emails as headings?
 uri: include-names-as-headings
@@ -24,18 +25,21 @@ If you have to address an email to one or multiple people (including [to yoursel
 <!--endintro-->
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Jean, Anthony |
-| Cc:      | Adam |
+| To: | Jean, Anthony |
+| Cc: | Adam |
 | Subject: | SSW CodeAuditor - Bug |  
-::: email-content  
+::: email-content
 
-### Hi Jean,  
+### Hi Jean,
+
 Can you help with this one?
 
-### Hi Anthony,  
+### Hi Anthony,
+
 I've tried to replicate the behaviour but was unsuccessful.
+
 1. Can you make sure Northwind is using the latest version?
 2. When finished, please repackage with the new registration
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accurate HTML coding by closing all opening quotations of attributes with equivalent closing quotations to maintain desired layout and avoid unexpected results.
 type: rule
 title: Do you close quotations of all your HTML attributes?
 uri: close-quotations-of-html-attributes
@@ -20,13 +21,15 @@ Make sure there are equivalent closing quotations for HTML attributes. A small m
 ```html
 <span style="font-size:12pt; background: #ccc;>
 ```
+
 ::: bad
 Figure: Bad code - Can you spot the missing quote? Code Auditor can
 :::
 
 ```html
-<span style="font-size:12pt; background: #ccc;">
+<span style="font-size:12pt; background: #ccc;"></span>
 ```
+
 ::: good
 Figure: All OK
 :::

@@ -1,4 +1,5 @@
 ---
+seoDescription: Organize your workspace efficiently and boost productivity with desk docks that keep desks tidy and cables managed.
 type: rule
 title: Do you use docks to keep desks organized?
 uri: desk-setups
@@ -26,14 +27,13 @@ To avoid this hassle and boost productivity, each desk should have a dock setup 
 ![Figure: Good Example - Clean desk with a dock](good-clean-desks.png)
 :::
 
-If you have a Thinkpad dock, MacOS users will need to install a driver to use it. 
+If you have a Thinkpad dock, MacOS users will need to install a driver to use it.
 See [DisplayLink Manager.](https://www.synaptics.com/products/displaylink-graphics/downloads/macos)
 
-There are some rare scenarios where people won't use docks. This is okay, but you need to ensure the desk is set up properly for the next user. All cables should use the dock wherever possible. 
+There are some rare scenarios where people won't use docks. This is OK, but you need to ensure the desk is set up properly for the next user. All cables should use the dock wherever possible.
 
 If you are having issues with the docks, try these steps
 
 1. Update OS
 2. Update/install drivers
 3. Restart your computer
-

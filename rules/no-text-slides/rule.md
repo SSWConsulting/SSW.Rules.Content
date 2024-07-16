@@ -10,7 +10,7 @@ authors:
 related:
   - concise-writing
 redirects: []
-created: 2023-11-9T21:46:41.000Z
+created: 2023-11-09T21:46:41.000Z
 archivedreason: null
 guid: d761c649-3b52-4268-9275-5ecee1e9fd3b
 ---
@@ -20,7 +20,7 @@ Presentations are hard to get right, it's easy to fall into the trap of putting 
 People can't read and listen at the same time. If they are looking at your slides, they are not listening to you. If they are listening to you, they are not reading your slides.
 
 See this article  
-https://www.linkedin.com/pulse/science-says-you-cant-read-listen-same-time-andrea-pacini/
+<https://www.linkedin.com/pulse/science-says-you-cant-read-listen-same-time-andrea-pacini/>
 
 <!-- endintro -->
 
@@ -49,8 +49,7 @@ It suggests alternative layouts and even icons to make points more illustrative.
 :::
 
 See the docs for more info on the designer
-https://support.microsoft.com/en-us/office/create-professional-slide-layouts-with-designer-53c77d7b-dc40-45c2-b684-81415eac0617
-
+<https://support.microsoft.com/en-us/office/create-professional-slide-layouts-with-designer-53c77d7b-dc40-45c2-b684-81415eac0617>
 
 #### Using SmartArt
 

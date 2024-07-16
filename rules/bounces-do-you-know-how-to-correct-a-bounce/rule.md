@@ -1,18 +1,18 @@
 ---
+seoDescription: Correcting email bounces requires verifying recipient addresses and resending messages with accurate information to ensure successful delivery.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to correct an email bounce?
 guid: afded4c5-7a9e-4e98-a769-5fee5dd7f6a3
 uri: bounces-do-you-know-how-to-correct-a-bounce
 created: 2009-09-11T06:23:29.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
-
 ---
 
 Let's say you press "Send" and get a bounce. E.g. An email in your inbox that reads:
@@ -32,8 +32,8 @@ Get the correct email address and ‘Reply to all’ with just this text in brac
 
 ::: greybox
   (Resending with Adam’s correct email)
-                                
-  ---------------------------------
+
+---------------------------------
   {{ ORIGINAL EMAIL }}  
 :::
 ::: good

@@ -1,4 +1,5 @@
 ---
+seoDescription: Establish a professional image and promote your brand by using a consistent phone message, while also providing a clear way for clients to get back in touch.
 type: rule
 title: Do you use a consistent phone message?
 uri: consistent-phone-message
@@ -12,9 +13,10 @@ created: 2015-11-24T18:42:48.000Z
 archivedreason: null
 guid: fef66d03-eb72-4e71-a0af-d239ddc15d94
 ---
-You should remember that any point of contact leaves an impression on clients or customers so, as a consultant, even the answering service on your phone should be taken into consideration. 
 
-Your personal mobile phone should have a standard answering message for any missed calls. 
+You should remember that any point of contact leaves an impression on clients or customers so, as a consultant, even the answering service on your phone should be taken into consideration.
+
+Your personal mobile phone should have a standard answering message for any missed calls.
 
 While many people don't use voice mail now, it's still nice to include subtle SSW branding in your message (noting that choosing to do so is entirely your choice).
 
@@ -32,7 +34,7 @@ While many people don't use voice mail now, it's still nice to include subtle SS
 Bad example (and [how it sounds](https://www.ssw.com.au/ssw/Standards/Rules/sounds/PhoneMessage.wav))
 :::
 
-> "Hi, you've reached Adam Cogan from SSW.  I don't use voice mail, so please send an SMS.  Thanks!"
+> "Hi, you've reached Adam Cogan from SSW. I don't use voice mail, so please send an SMS. Thanks!"
 
 ::: good
 Good example (and [how it sounds](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/rules/consistent-phone-message/adam_cogan_answering_message.m4a?raw=true))

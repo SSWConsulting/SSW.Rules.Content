@@ -1,4 +1,5 @@
 ---
+seoDescription: Use the AuthorizeAttribute to secure actions or controllers by restricting access to specific roles or users.
 type: rule
 title: Do you use AuthorizeAttribute to secure actions or controllers?
 uri: do-you-use-the-authorize-attribute-to-secure-actions-or-controllers
@@ -27,8 +28,9 @@ public ActionResult Delete(string tagName)
     return View();
 }
 ```
+
 ::: bad
-Figure: Bad example – Checking for an appropriate role in code leads to repetition 
+Figure: Bad example – Checking for an appropriate role in code leads to repetition
 :::
 
 ```cs
@@ -39,6 +41,7 @@ public ActionResult Delete(string tagName)
     return View();
 }
 ```
+
 ::: good
 Figure: Good example – Using the AuthorizeAttribute to check for appropriate roles
 :::

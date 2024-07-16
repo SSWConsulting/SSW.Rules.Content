@@ -1,4 +1,5 @@
 ---
+seoDescription: Establish clear expectations by asking clients about meeting goals and duration at the outset, ensuring a productive and time-efficient discussion.
 type: rule
 title: Meetings - Do you ask clients the 2 important questions at the beginning of each meeting?
 uri: meetings-do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting
@@ -6,7 +7,7 @@ authors: []
 related: []
 redirects: []
 created: 2010-07-16T06:26:46.000Z
-archivedreason: Replaced by https://www.ssw.com.au/rules/share-the-agenda and https://www.ssw.com.au/rules/start-and-finish-on-time
+archivedreason: Replaced by [https://www.ssw.com.au/rules/share-the-agenda](/rules/share-the-agenda) and [https://www.ssw.com.au/rules/start-and-finish-on-time](/rules/start-and-finish-on-time)
 guid: a66eec23-db4f-4e2d-909e-353df8486e4b
 ---
 

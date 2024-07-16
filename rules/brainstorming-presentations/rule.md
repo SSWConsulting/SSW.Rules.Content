@@ -1,4 +1,5 @@
 ---
+seoDescription: Master the art of structuring a Brainstorming presentation with Adam Cogan, William Liebenberg, and Piers Sinclair. Learn how to effectively share ideas with stakeholders, allocate time wisely, and create a seamless experience.
 type: rule
 title: Do you know how to structure a Brainstorming presentation?
 uri: brainstorming-presentations
@@ -36,10 +37,10 @@ In order to get through all the presentations in 1 day, allocate a strict schedu
 
 E.g.:
 
-- Presentation Delivery: **7 Minutes**
-- Audience Q&A: **3 Minutes**
-- Adam’s Feedback: **3 Minutes**
-- Changeover: The next group must be ready to start immediately!
+* Presentation Delivery: **7 Minutes**
+* Audience Q&A: **3 Minutes**
+* Adam’s Feedback: **3 Minutes**
+* Changeover: The next group must be ready to start immediately!
 
 If the team has a demo to share, get them to pre-record it and embed it into the PowerPoint. This will save time and ensure the demo goes smoothly.
 
@@ -47,4 +48,4 @@ If the team has a demo to share, get them to pre-record it and embed it into the
 
 To help presentations run smoother, it's a good idea to set up a [presentation run sheet](/presentation-run-sheet) and then share it with the attendees on the day.
 
-This could be in a GitHub Discussion, Microsoft Loop, or Word document. 
+This could be in a GitHub Discussion, Microsoft Loop, or Word document.

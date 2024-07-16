@@ -1,16 +1,16 @@
 ---
+seoDescription: Streamline your recruitment process by importing candidates from any source into LinkedIn Talent Hub and manage them in one place.
 type: rule
-archivedreason: 
+archivedreason:
 title: Does your ATS allow you to import your candidates from any source?
 guid: f428df5f-4a9c-4b4b-abb0-7a97f14871e6
 uri: does-your-ats-allow-you-to-import-your-candidates-from-any-source
 created: 2020-06-11T07:14:34.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
 related: []
 redirects: []
-
 ---
 
 Does your ATS allow you to store all of your candidates in the same place? Even if they applied from another source?

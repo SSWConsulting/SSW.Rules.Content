@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoiding Merge Debt and Ensuring Seamless Code Review with Over-the-Shoulder Reviews
 type: rule
 title: Pull Request - Do you do over the shoulder reviews?
 uri: over-the-shoulder
@@ -21,19 +22,17 @@ guid: f20af960-7a60-499c-980b-bd5bb6a0af91
 
 An "over-the-shoulder" review is one of the best ways to avoid [merge debt](/merge-debt). When a pull request (PR) is ready to be reviewed, get someone with you either in-person or on call, and go through the PR together. This not only allows you to demo the content of the PR but also talk with the person taking feedback when needed.
 
-> When you have finished coding, don't just create a PR and throw it over the fence. Part of finishing a PR is getting it approved. 
-> 
+> When you have finished coding, don't just create a PR and throw it over the fence. Part of finishing a PR is getting it approved.
+>
 > The best way to get it approved is via an "over the shoulder" review  
->                                   - Adam Cogan
+>  - Adam Cogan
 
 ## Drafting PRs
 
 A good way to avoid someone merging your PR before you have done an over the shoulder review is to keep the Pull Request in draft mode until you are ready for it to be reviewed for merging.
-
 
 ::: info
 **Note:** You should always avoid merge debt, it's your responsibility to follow up on your PRs and get them merged as soon as possible. For more info,
 
 See [Do you avoid Merge Debt?](/merge-debt/)
 :::
-

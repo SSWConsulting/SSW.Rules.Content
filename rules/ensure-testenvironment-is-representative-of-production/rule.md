@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure a representative test environment that mirrors production to avoid surprises and optimize performance.
 type: rule
 title: Do you ensure your Test environment is representative of Production?
 uri: ensure-testenvironment-is-representative-of-production
@@ -8,6 +9,7 @@ authors:
 created: 2021-12-13T17:23:22.156Z
 guid: 013bf720-9980-4ebb-b449-a27b4d7683a8
 ---
+
 To avoid embarrassing failures in Production, it is important to ensure that your development systems are as similar as possible to what's expected in Production.
 
 <!--endintro-->

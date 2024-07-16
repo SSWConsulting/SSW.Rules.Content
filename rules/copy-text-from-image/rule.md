@@ -1,4 +1,5 @@
 ---
+seoDescription: Unlocking text from image formats can be a huge time-saver and reduce errors when working with visual data. Learn how to copy text from images using OneNote or Google Drive's built-in tools!
 type: rule
 title: Do you know how to copy text from an image?
 uri: copy-text-from-image

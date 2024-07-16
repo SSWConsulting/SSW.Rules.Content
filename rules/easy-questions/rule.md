@@ -1,22 +1,22 @@
 ---
+seoDescription: Make your questions easy to respond to and save time
 type: rule
 archivedreason:
 title: Do you keep your questions easy to answer?
 guid: 3ea0adce-894f-424e-883b-d7ed17b6e613
 uri: easy-questions
 created: 2023-07-10T12:00:00.0000000Z
-authors: 
-- title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily/
-- title: Matt Wicks
-  url: https://www.ssw.com.au/people/matt-wicks/
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair/
+authors:
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily/
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks/
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair/
 related:
-- no-hello
-- as-per-our-conversation-emails
-- important-chats-should-be-in-an-email
-
+  - no-hello
+  - as-per-our-conversation-emails
+  - important-chats-should-be-in-an-email
 ---
 
 Do you sometimes spend time answering unnecessarily complicated questions? This can be a pain and cost valuable time. Or, when you're asking someone a question about something that is blocking you, do you ever get frustrated when the person reads your message but doesn't reply? This can lead to a series of reminders and time spent chasing them up.

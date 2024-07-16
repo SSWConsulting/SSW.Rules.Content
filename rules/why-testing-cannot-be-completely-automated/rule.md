@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand why testing cannot be completely automated, despite its potential value in using automation, human capabilities are still required for key testing skills.
 type: rule
 title: Do you understand why testing cannot be completely automated?
 uri: why-testing-cannot-be-completely-automated
@@ -10,7 +11,8 @@ related:
 created: 2022-10-06T23:22:00.911Z
 guid: 88d14ac9-bbf0-4ba9-9301-66c47c6c902e
 ---
-There is a common misconception that you can automate all the testing. 
+
+There is a common misconception that you can automate all the testing.
 
 While there can be great value in using automation in testing, human capabilities are still required for the key testing skills such as evaluation, experimentation, exploration, etc.
 
@@ -28,19 +30,19 @@ Recall the distinction between testing and checking (see [what "testing" really 
 **Checking** is the process of making evaluations by applying algorithmic decision rules to specific observations of a product.
 :::
 
-Looking at these definitions, **testing** is clearly a deeply human activity. Skills such as learning, exploring, questioning and inferring are not well suited to machines (even with the very best AI/ML). Humans may or may not *use* tools or other automation while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
+Looking at these definitions, **testing** is clearly a deeply human activity. Skills such as learning, exploring, questioning and inferring are not well suited to machines (even with the very best AI/ML). Humans may or may not _use_ tools or other automation while exercising these skills, but that doesn’t mean that the performance of testing is itself "automated".
 
-**Checking** is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations (pass/fail) from such checks only form a small part of the testing story. 
+**Checking** is a valuable component of our overall testing effort and, by this definition, lends itself to be automated. But the binary evaluations (pass/fail) from such checks only form a small part of the testing story.
 
 There are many aspects of product quality that are not amenable to such black and white evaluation.
 
 Thinking about checks, there's a lot that goes into them apart from the actual execution (by a machine or otherwise). For instance, someone...
 
-* Decided we needed a check (risk analysis)
-* Designed the check
-* Implemented the check (coding)
-* Decided what to observe and how to observe it, and 
-* Evaluated the results from executing the check
+- Decided we needed a check (risk analysis)
+- Designed the check
+- Implemented the check (coding)
+- Decided what to observe and how to observe it, and
+- Evaluated the results from executing the check
 
 These aspects of the check are testing activities and, importantly, they're not aspects that can be given over to a machine (i.e. be automated). There is significant testing skill required in the design, implementation and analysis of the check and its results - the execution (the automated part) is really the easy part.
 

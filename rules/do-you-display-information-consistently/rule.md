@@ -1,27 +1,35 @@
 ---
+seoDescription: When linking pages together, display consistent information to provide a seamless user experience and enhance site navigation.
 type: rule
-archivedreason: 
-title: Do you display information consistently?
-guid: 5b878864-7ced-4b4c-a979-adadf38c7363
+title: Do you display information consistently between linked pages?
 uri: do-you-display-information-consistently
-created: 2015-02-16T01:50:14.0000000Z
-authors: []
-related: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+related:
+  - descriptive-links
 redirects: []
-
+created: 2015-02-16T01:50:14.000Z
+archivedreason: null
+guid: 5b878864-7ced-4b4c-a979-adadf38c7363
 ---
 
-When redirecting users to another page make sure that the       text is consistent between the two pages.
+When redirecting users to another page, make sure that the text is consistent between the two pages.
 
 <!--endintro-->
 
-
-::: good  
-![Figure: Good example - Click "More" and the next page begins with the same information](../../assets/ConsistentInformation.gif)  
+::: good
+![Figure: Good example - The text is taken from where the "More on SSW Chinafy" link at the end goes](homepage-with-link-to-chinafy.png)
 :::
 
-As an example, the SSW website follows a consistent order: a summary of the product/service and its benefit followed by a longer paragraph with more information. When we want to redirect users to a page we simply use the summary part of that page as narrative on the other page (e.g. events list). As a result, user will have a nice flow between pages when navigating around the site.     [See a live example](http://www.ssw.com.au/ssw/Events/).
+::: good
+![Figure: Good example - You can see the text again here, at the link's destination](chinafy-page.png)
+:::
 
-Please Note: the figure here is intended to show the consistency in the text, the use of a link called More is not desirable as per our Google Rule     [Do your links have relevancy to the page you're linking to?](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterGoogleRankings.aspx#Relevancy)
+When we want to point users to a page, we simply use the summary part of that page as narrative on the other page. As a result, the user will have a nice flow between pages when navigating around the site.
 
-Please Note #2: This is about the text being consistent. However you should also keep your links consistent.
+As an example, the [SSW website](https://ssw.com.au) follows a consistent order: a summary of the product/service and its benefit, followed by a link for more information on that topic.
+
+**Tip:** In this scenario where the summary serves as a teaser for more detailed content, have the link **at the end** of the section, so it's the natural next step for someone who has read it and wants to know more.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how a data lake can unify your company's data and empower data-driven decision making.
 type: rule
 title: Do you have a Data Lake?
 uri: data-lake
@@ -26,7 +27,7 @@ These days, [data lakes](/understanding-data-lakes) make it easy to consolidate 
 <!--endintro-->
 
 ::: img-medium
-![](datalake-infographic.png)
+![](datalake-infographic_1710232021932.png)
 :::
 
 ### The Solution - A Data Lake

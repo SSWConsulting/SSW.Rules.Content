@@ -1,4 +1,5 @@
 ---
+seoDescription: Use emojis to give context and boost user adoption to Microsoft Teams by making channel names more memorable and engaging.
 type: rule
 title: Do you use emojis to help give context?
 uri: use-emojis
@@ -45,13 +46,14 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 :::
 
 ::: greybox
-* Fast to load (lightweight as no image)
-* UI - Consistent look
-* Maintenance of needing to upload to server
-:::
-::: bad
-Bad example - Regular list items
-:::
+
+- Fast to load (lightweight as no image)
+- UI - Consistent look
+- Maintenance of needing to upload to server
+  :::
+  ::: bad
+  Bad example - Regular list items
+  :::
 
 **Tip:** Always remember to add a space between the emoji and text, for better readability.
 
@@ -64,3 +66,6 @@ Bad example - Regular list items
 Good example - Emojis give context to each item
 :::
 
+::: info
+**Note:** When having lists that use emojis, be aware that if they are longer than 3 items, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
+:::

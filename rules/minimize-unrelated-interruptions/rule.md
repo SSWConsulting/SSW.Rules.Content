@@ -1,8 +1,9 @@
 ---
+seoDescription: Minimize distractions and keep group calls focused by messaging "BRB" or "I have to go" and muting your mic when interrupted.
 type: rule
-archivedreason: 
+archivedreason: null
 title: Group calls - Do you minimize unrelated interruptions?
-guid: 6acf2794-acef-4744-9173-4ac3c80ak27b
+guid: 6acf2794-acef-4744-9173-4ac3c80a27bf
 uri: minimize-unrelated-interruptions
 created: 2023-09-15T01:08:06.0000000Z
 authors:
@@ -10,10 +11,9 @@ authors:
     url: https://ssw.com.au/people/jonty-gardner
 related:
   - do-you-have-successful-remote-meetings
-
 ---
 
-Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation. 
+Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation.
 
 Here are the best ways to minimize distractions:
 
@@ -38,7 +38,7 @@ Figure: OK example - It's good to communicate, but still stops the chat for a bi
 :::
 
 ::: greybox
-Messaging in the group chat _"brb in X mins"_ ...   
+Messaging in the group chat _"brb in X mins"_ ...
 and then _"I’m back"_ when you return.
 
 OR
@@ -59,4 +59,4 @@ See this cool suggestion to [make BRB a built-in feature on Microsoft Teams](htt
 
 Another way to keep the group call smooth is to mute your mic if someone comes to talk to you in person. This avoids distracting background noise.
 
-**Be mindful** of people talking or other noises that might be registering into your microphone. It's okay to turn away for a minute, as long as you mute to keep the call free from random noise.
+**Be mindful** of people talking or other noises that might be registering into your microphone. It's OK to turn away for a minute, as long as you mute to keep the call free from random noise.

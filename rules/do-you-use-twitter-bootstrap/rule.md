@@ -1,20 +1,20 @@
 ---
+seoDescription: Do you use Bootstrap to create responsive and user-friendly websites that adapt to various devices and browsers?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use Bootstrap?
 guid: a77d521f-eab3-4490-9ed2-95cec7026f9f
 uri: do-you-use-twitter-bootstrap
 created: 2012-07-23T16:04:48.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Rebecca Liu
+    url: https://ssw.com.au/people/rebecca-liu
 related: []
 redirects: []
-
 ---
 
 Efficient programmers do not re-invent the wheel. That's why we [use the best Web UI libraries](/do-you-use-the-best-web-ui-libraries).
@@ -25,7 +25,7 @@ Twitter Bootstrap is a NuGet Package that provides a jump-start for HTML based p
 
 Building your site on top of bootstrap makes it much easier to have your website look great on devices of all sizes, across many different browsers.
 
-![Figure: This website template, along with many others is available as a starting point for building Bootstrap-based sites](bootstrap-1.jpg)  
+![Figure: This website template, along with many others is available as a starting point for building Bootstrap-based sites](bootstrap-1.jpg)
 
 ::: bad  
 ![Figure: Bad example - Many websites built by using tables for positioning would render poorly on smaller devices, and be hard to use](iphonenonresponsive.png)  

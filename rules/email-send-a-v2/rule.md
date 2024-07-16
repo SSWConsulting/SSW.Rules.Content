@@ -14,6 +14,7 @@ authors:
 related:
   - checked-by-xxx
   - email-add-or-remove-someone-from-conversation
+  - explain-deleted-or-modified-appointments
 redirects:
   - do-you-know-how-to-send-a-v2-of-an-email
   - how-to-send-a-v2-if-requested
@@ -23,36 +24,47 @@ guid: 11cb9562-d259-489f-a8e7-9dac55d2b7ac
 ---
 
 Sometimes you will need to send a new version for an email. This often is due to 2 main reasons:
-  - You **received substantial feedback** about the email you've sent that requires a new version
-  - You realized you've **made a mistake** and want to send an updated version of an email
+
+* You **received substantial feedback** about the email you've sent that requires a new version
+* You realized you've **made a mistake** and want to send an updated version of an email
 
 <!--endintro-->
 
 Having an entire new version of an email is important as it:
-   - Ensures that you understood feedback and incorporated it immediately
-   - Cleans up the email thread history to only have relevant content
+
+* Ensures that you understood feedback and incorporated it immediately
+* Cleans up the email thread history to only have relevant content
 
 `youtube: https://www.youtube.com/embed/SUo_hOCubeo`
-**Video: Fixing An Email Mistake with [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) (3 min)** 
+**Video: Fixing An Email Mistake with [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) (3 min)**
 
 ::: greybox
 **Note:** Not every feedback will need a v2. Some may be in the form of:
-  - Hints for what could be better for next time, in which case all that's required is you take the feedback on board
-  - Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
+
+* Hints for what could be better for next time, in which case all that's required is you take the feedback on board
+* Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
 :::
 
-### How to send a v2 (Outlook)
+### How to structure a v2
+
+1. Include (v2 - {{ REASON }}) on the first line of the email body
+   - For further versions of an email, replace the v2 with v3, v4, v5, etc
+2. The reason should include a summary of what was changed
+3. Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the previous version is not part of the email history
+4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
+
+::: info
+**Warning:** Do not add "v2" or make any changes to the subject as we want to keep the thread.
+:::
+
+#### How to send a v2 in Outlook
 
 1. Open your v1 email in Sent Items
 2. Click Actions | Resend this message
-3. Include (v2 - {{ REASON }}) on the first line of the email body  
 
-::: info
-**Warning:** Do not add "v2" to the subject as we want to keep the thread.
+::: greybox
+**Note:** For appointments the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments).
 :::
-
-4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email. 
-5. Replace your v1 with your v2 email, as if the v1 never happened (same for v3, v4, etc)
 
 ::: email-template  
 |          |     |
@@ -62,7 +74,7 @@ Having an entire new version of an email is important as it:
 
 (v2 - {{ REASON }})
 
-### Hi Bob,  
+### Hi Bob  
 
 {{ EMAIL CONTENT }}
 

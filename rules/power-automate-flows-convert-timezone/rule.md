@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering Power Automate flows requires correct timezone usage to avoid complex calculations, daylight saving time issues and user confusion.
 type: rule
 title: Do you know how to use correct timezone in your Power Automate flows?
 uri: power-automate-flows-convert-timezone
@@ -20,9 +21,9 @@ However, there are situations where using your local timezone might be more appr
 ![Figure: Bad example - Comparing Datetime in default timezone: UTC with UTC](comparing-timedate-without-converting.png)
 :::
 
-- ❌ **Complex Time Zone Calculations**: Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
-- ❌ **Daylight Saving Time Issues**: While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
-- ❌ **User Experience**: In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time
+❌ **Complex Time Zone Calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
+❌ **Daylight Saving Time Issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
+❌ **User Experience** - In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time
 
 So to convert it to the correct timezone, you can use built-in expression in your flow:
 
@@ -35,4 +36,5 @@ convertTimeZone({{ array/object }}?[{{ 'timedate variable' }}], 'UTC', 'AUS East
 :::
 
 For further details on converting timezones in Power Automate Flow, refer to the [Microsoft Learn - Converting time zone](https://learn.microsoft.com/en-us/troubleshoot/power-platform/power-automate/converting-time-zone-power-automate).
+
 For default timezones, refer to the [Microsoft Learn - Default time zones](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/default-time-zones?view=windows-11).

@@ -4,7 +4,7 @@ archivedreason:
 title: Do you know how ChatGPT tokens work?
 guid: 2f765699-a933-45a7-94b5-b03eb5c01a5a
 uri: gpt-tokens
-created: 2023-26-05T22:06:41.0000000Z
+created: 2023-05-26T22:06:41.0000000Z
 authors:
 - title: Seth Daily
   url: https://www.ssw.com.au/people/seth-daily
@@ -36,28 +36,30 @@ ChatGPT “remembers” elements of a conversation until it reaches its token li
 
 **1. Limit prompt length:** Since the number of input tokens affects the total token count, keep your prompts concise, especially if you expect a long answer. This leaves more room for ChatGPT's responses.
 
-::: greybox 
+::: greybox
 **Tip:** You can use the [ChatGPT Tokenizer](https://platform.openai.com/tokenizer) to see how many tokens a piece of text uses.
 :::
 
 **2. Control the length of responses:** If you are planning on having a longer conversation with ChatGPT, you can specify a length limit. This prevents it from generating overly long responses that consume too many tokens.
- 
-::: greybox 
- Examples: 
- - _"List the most important differences between Python and Java. **Be concise.**"_
- - _"Explain the principles of RESTful API design. **Give only 4 bullet points.**"_
+
+::: greybox
+ Examples:
+
+* _"List the most important differences between Python and Java. **Be concise.**"_
+* _"Explain the principles of RESTful API design. **Give only 4 bullet points.**"_
 :::
 
 **3. Use clear prompting:** Direct prompts can lead to more efficient token usage. Try to be specific and clear in your prompts to get a better response that uses fewer tokens and doesn’t give you background info you’re not interested in.
 
-::: greybox 
+::: greybox
 **Tip:** Refining prompts can improve your ChatGPT efficiency. See the rule on [creating ChatGPT prompt templates for repeatable tasks](/chatgpt-prompt-templates).
 :::
 
 **4. Balance complex queries:** There are scenarios where complex queries or long explanations may require a large number of tokens (e.g. you are inputing a multi-page document for ChatGPT to summarize). In such cases, it's essential to be mindful of the token count. You can use techniques like summarization or abstraction to reduce the token count while keeping the important information. See rule [Do you summarize long conversations for better context retention?](/summarize-long-conversations)
 
-::: greybox 
+::: greybox
 Examples:
-- _“**Summarize** your last reply while keeping all the important points”_
-- _“**Abstract** the main arguments in your last response”_
+
+* _“**Summarize** your last reply while keeping all the important points”_
+* _“**Abstract** the main arguments in your last response”_
 :::

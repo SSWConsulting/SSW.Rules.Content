@@ -1,21 +1,21 @@
 ---
+seoDescription: Create your own Process Templates to fit into your environment and customize fields to suit your needs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you create your own Process Template to fit into your environment?
 guid: ceaf1606-f1f7-4e0c-a59f-c12c42996162
 uri: do-you-create-your-own-process-template-to-fit-into-your-environment
 created: 2009-11-05T05:58:22.0000000Z
 authors:
-- title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Lei Xu
+    url: https://ssw.com.au/people/lei-xu
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-The built-in Process Templates in TFS will not always fit into your environment, so you can fix it by creating your own. 
+The built-in Process Templates in TFS will not always fit into your environment, so you can fix it by creating your own.
 
 <!--endintro-->
 
@@ -36,4 +36,3 @@ The built-in Process Templates in TFS will not always fit into your environment,
 :::
 
 **Note:** The URL field is used in the [SSW Smashing Barrier](https://smashingbarrier.com).
-

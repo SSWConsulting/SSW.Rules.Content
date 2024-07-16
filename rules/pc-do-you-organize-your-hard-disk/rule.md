@@ -1,10 +1,11 @@
 ---
+seoDescription: Do you organize your hard disk? Organize your computer files with a standard folder structure to quickly locate important information and perform automated backup operations.
 type: rule
 title: PC - Do you organize your hard disk?
 uri: pc-do-you-organize-your-hard-disk
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-do-organize-your-hard-disk
@@ -12,6 +13,7 @@ created: 2018-06-04T02:06:32.000Z
 archivedreason: null
 guid: 0b99ae80-634b-47db-9a7b-b6d3763361f3
 ---
+
 Using a standard file structure for storing user data on laptops makes locating the important information fast and performing automated backup operations easy - Use this checklist.
 
 Remember, the expectation is for all the questions to be answered with "YES" by the end of this checklist.
@@ -20,26 +22,26 @@ Remember, the expectation is for all the questions to be answered with "YES" by 
 
 <!--endintro-->
 
-### Domain-joined checklist:
+### Domain-joined checklist
 
 **1. Is your computer domain-joined?** {{ YES/NO }}  
-   **Note:** To check, go to File Explorer | This PC | Right-click | Properties | Check for "Domain" or "Workgroup". If it says "DOMAIN", you are on the domain. If it says "WORKGROUP", you are not.  
-   
-**2. The Backup Script - Date Last Run:** {{ DD/MM/YYYY }}  
-   If your computer is domain-joined, then your backup script should already be working (E.g. Daily at 11 am)  
-   Go to the logs, e.g. File Explorer |  Fileserver | UserBackups | ztBackupScripts | UserLogs.log to see the last time your backup was done 
+ **Note:** To check, go to File Explorer | This PC | Right-click | Properties | Check for "Domain" or "Workgroup". If it says "DOMAIN", you are on the domain. If it says "WORKGROUP", you are not.
 
-### Non-domain-joined checklist:
+**2. The Backup Script - Date Last Run:** {{ DD/MM/YYYY }}  
+ If your computer is domain-joined, then your backup script should already be working (E.g. Daily at 11 am)  
+ Go to the logs, e.g. File Explorer | Fileserver | UserBackups | ztBackupScripts | UserLogs.log to see the last time your backup was done
+
+### Non-domain-joined checklist
 
 **1. Do you use a cloud backup application?** {{ YES/NO }}  
-   Which one? {{ CLOUD APP }}   
+ Which one? {{ CLOUD APP }}
 
 ::: greybox
 **Tip:** Some good options include OneDrive for Business and Dropbox. You should [always keep important files in the cloud](/pc-do-you-use-the-best-backup-solution) for security reasons.
 :::
 
 **2. Do you keep your files in one folder structure?** {{ YES/NO }}  
-Location: {{ LOCATION }} Size: {{ USED }} GB of {{ TOTAL }} GB  Errors  {{ NUMBER OF ERRORS }}
+Location: {{ LOCATION }} Size: {{ USED }} GB of {{ TOTAL }} GB Errors {{ NUMBER OF ERRORS }}
 
 ::: greybox
 **Note:** For OneDrive the default is: C:\Users\[UserName]\OneDrive
@@ -61,12 +63,12 @@ E.g. Create a folder with your username in the root of C: prefix the folder with
 :::
 
 **3. Do you keep your desktop clean?** {{ YES/NO }}  
-Number of files on Desktop (Aim is zero) {{ NUMBER OF FILES }}    
+Number of files on Desktop (Aim is zero) {{ NUMBER OF FILES }}
 
 You should always aim to have a clean desktop, without temporary files or unnecessary shortcuts.
 Delete anything that is not necessary from there and do not save things there by default. Having a messy desktop just makes everything confusing.
 
-**4. Do you keep your Outlook PST/OST separated from your cloud backups?** {{ YES/NO }}   
+**4. Do you keep your Outlook PST/OST separated from your cloud backups?** {{ YES/NO }}
 
 ::: greybox
 **Tip:** You can check where your PST/OST is via Outlook | File | Account Settings | Data Files.
@@ -82,14 +84,14 @@ Create a temporary folder for temporary files, like "C:\temp". It makes it easie
 **6. (Optional) Phone - Can you see the files that are on your PC on your mobile too?** {{ YES/NO }}  
 Install the OneDrive (or your other selected backup application) app on your phone and log in with the same account you used on your PC.
 
-**7. (Optional) Phone - Do you care if you lose your photos?** {{ YES/NO }}   
+**7. (Optional) Phone - Do you care if you lose your photos?** {{ YES/NO }}
 
-  **If not, why? {{ REASON }}**
+**If not, why? {{ REASON }}**
 
-  Which phone? {{ IOS/ANDROID }}
+Which phone? {{ IOS/ANDROID }}
 
-  **Which backup application are you using? {{ BACKUP APP }}**
+**Which backup application are you using? {{ BACKUP APP }}**
 
-* If Yes and iOS, then use iCloud, OneDrive or your selected backup application on your phone to back them up automatically.
-* If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
-* If you don't care about losing your photos, do nothing!
+- If Yes and iOS, then use iCloud, OneDrive or your selected backup application on your phone to back them up automatically.
+- If Yes and Android, then use Google Drive, OneDrive or your selected backup application on your phone to back them up!
+- If you don't care about losing your photos, do nothing!

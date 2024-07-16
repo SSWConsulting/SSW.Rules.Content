@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn the 8 simple steps to Scrum and master Agile project management.
 type: rule
 title: Do you know the 8 Steps to Scrum?
 uri: 8-steps-to-scrum
@@ -9,27 +10,29 @@ authors:
     url: https://ssw.com.au/people/gerard-beckerleg
 related:
   - backlog-refinement-meeting
+  - 3-steps-to-a-pbi
 redirects:
   - do-you-know-the-8-steps-to-scrum
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
 ---
+
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
 `youtube: https://youtu.be/xOvFK328C_Q`
 
-  **Video: 8 Steps To Scrum - Scrum Explained (4 min)**
+**Video: 8 Steps To Scrum - Scrum Explained (4 min)**
 
 <!--endintro-->
 
 ::: good
 
-![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8stepstoscrum-v5-2.jpg)
+![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8StepstoScrum.png)
 
 :::
 
-Print out the [SSW 8 Steps to Scrum PDF](8StepstoScrum-V5-2.pdf) and put it on your "War Room" wall.
+Print out the [SSW 8 Steps to Scrum PDF](https://ssw.com.au/downloads/8StepstoScrum.pdf) and put it on your "War Room" wall.
 
 ### 1. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)
 
@@ -37,7 +40,7 @@ In the Initial Meeting, the Product Owner explains the product vision. The Devel
 
 ### 2. [Backlog Construction](/product-owner-do-you-know-how-to-update-the-backlog)
 
-The next step is Backlog Construction, also known as a Specification Review. The Developers propose a high-level software architecture and a to-do list called the Product Backlog. The required features are broken down into Product Backlog Items (PBIs for short). 
+The next step is Backlog Construction, also known as a Specification Review. The Developers propose a high-level software architecture and a to-do list called the Product Backlog. The required features are broken down into Product Backlog Items (PBIs for short).
 
 These PBIs are estimated and, before a dollar figure is presented, a buffer is added for generic tasks such as DevOps, Testing, Bug Fixes, Project Management, etc.
 
@@ -45,9 +48,9 @@ This is also when the Product Owner 1st defines the Product Goal (aka the "why" 
 
 A quick note, there are only 3 roles in a Scrum Team, The Product Owner (the boss), the Scrum Master (a kind of project manager), and the Developers (who do the work).
 
-### 3. [Sprint Planning](/do-you-know-what-happens-at-a-sprint-planning-meeting)
+### 3. [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
 
-The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week time-box). 
+The Sprint Planning session is for the Developers to focus on the subset of the Product Backlog that they think they can complete in the next Sprint, (which is most commonly a 2-week timebox).
 
 The Product Owner puts the PBIs into priority order and makes sure the top ones have enough detail to be worked on. The Developers then pulls PBIs from the top of the Backlog and commits to delivering as much as they forecast they can, in the coming Sprint.
 

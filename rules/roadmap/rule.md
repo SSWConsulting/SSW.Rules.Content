@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you have a product roadmap? A clear and defined product roadmap helps teams stay focused on long-term goals and priorities, while also preventing side-tracking on non-essential issues.
 type: rule
 title: Do you have a product roadmap?
 uri: roadmap
@@ -16,9 +17,9 @@ archivedreason: null
 guid: 3e1cb281-662b-4420-a016-713f27d69acf
 ---
 
-A Product Backlog is a great way to see the fairly small broken up Product Backlog Items (PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the product goals.
+A Product Backlog is a great way to see the fairly small broken up Product Backlog Items (PBIs) that make up your team's "to do" list, but it can be a bit too **zoomed in** and makes it easy to stray from the [Product Goal](/the-3-commitments-in-scrum/).
 
-To get a better **zoomed out** view, you should have a product roadmap. 
+To get a better **zoomed out** view, you should have a product roadmap.
 
 <!--endintro-->
 
@@ -47,10 +48,10 @@ Having this zoomed out view helps the team to stay focused on the overall goal o
 
 ### Building the product roadmap
 
-It's important to think about the scope of the product when building the product roadmap so that the milestones are an achievable grouping of tasks. Consider the size of your team: 
+It's important to think about the scope of the product when building the product roadmap so that the milestones are an achievable grouping of tasks. Consider the size of your team:
 
-* For small teams that shift to different products a lot, you might want to make the milestones a bit more granular and short term. 
-* For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
+- For small teams that shift to different products a lot, you might want to make the milestones a bit more granular and short term.
+- For larger product oriented teams, it is more important to have a general overview of what is going to happen across a longer timeframe.
 
 By factoring in the size of the team, it keeps everyone accountable while remaining realistic.
 
@@ -58,16 +59,16 @@ By factoring in the size of the team, it keeps everyone accountable while remain
 
 There are heaps of tools out there you can use to make a product roadmap including:
 
-* [GitHub Projects and GitHub Issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
-* [GitHub Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
-* [Azure DevOps - Team delivery plans in Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/plans/review-team-plans?view=azure-devops)
-* [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops)
-* [Azure DevOps - Using the Epic roadmap to provide a calendar view](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/epic-roadmap?view=azure-devops)
-* [Aha!](https://www.aha.io/roadmapping/guide/product-roadmap/roadmap-examples)
+- [GitHub Projects and GitHub Issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
+- [GitHub Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
+- [Azure DevOps - Team delivery plans in Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/plans/review-team-plans?view=azure-devops)
+- [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops)
+- [Azure DevOps - Using the Epic roadmap to provide a calendar view](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/epic-roadmap?view=azure-devops)
+- [Aha!](https://www.aha.io/roadmapping/guide/product-roadmap/roadmap-examples)
 
 These tools have a lot of functionality and use differing complicated terminology like Features, Epics or MMFs (Minimum Marketable Features). So, they can be an intimidating first step into product roadmaps.
 
-At their core, product roadmaps are simply a list of critical milestones to tick off as they are completed. So, as a stepping stone, you can store them in your project wiki. 
+At their core, product roadmaps are simply a list of critical milestones to tick off as they are completed. So, as a stepping stone, you can store them in your project wiki.
 
 The project wiki makes the concept much easier to understand and implement. Once the team is comfortable with the idea, move on to more complex tools.
 

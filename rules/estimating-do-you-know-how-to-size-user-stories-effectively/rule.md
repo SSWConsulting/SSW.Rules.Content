@@ -1,4 +1,5 @@
 ---
+seoDescription: Estimating Product Backlog Items (PBIs) effectively - Do you know how to size your user stories correctly?
 type: rule
 title: Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?
 uri: estimating-do-you-know-how-to-size-user-stories-effectively
@@ -25,11 +26,11 @@ guid: 033f1b77-a51d-4f52-894a-70d78efaecae
 
 A team knows how many PBIs they can commit to by measuring their velocity. The Team estimates the highest priority PBIs in the Product Backlog in Story Points. It is very important for teams to estimate tasks effectively. There are several methods for estimating:
 
-* Shirt Sizes
-* Fibonacci Extended (1-100)
-* Fibonacci Original (1-21)
-* Doubling
-* Thrown
+- Shirt Sizes
+- Fibonacci Extended (1-100)
+- Fibonacci Original (1-21)
+- Doubling
+- Thrown
 
 <!--endintro-->
 
@@ -37,7 +38,7 @@ Let's go through them:
 
 ### Shirt Sizes
 
-This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database. 
+This method is popular with Microsoft teams, but it has the problem of not easily mapping to the common 7 numbers when you enter it into a Task tracking Bug database.
 
 ::: greybox
 1 = XS  
@@ -80,7 +81,7 @@ Estimating using doubling numbers makes relative sizing simple. An 8 point PBI s
 It has one other advantage over the Fibonacci sequence, it is easier for non-techies because the numbers aren't whacky and the name isn't bizarre.
 
 ::: greybox
-**Estimate**   
+**Estimate**  
 1  
 2  
 4  
@@ -102,36 +103,35 @@ This is particularly useful if you don't have Planning Poker cards. Instead of F
 
 The action is done in the same method as the game 'Rock, Paper, Scissors'. The options the developer can estimate is 1,2,3,4,5.
 
-![Figure: PBI estimates using the "Thrown method"](fist-method.jpg)  
+![Figure: PBI estimates using the "Thrown method"](fist-method.jpg)
 
 ### Other Tips
 
-**#1 Don't Shout Out** 
+**#1 Don't Shout Out**
 It will just influence other people's votes.
 
-**#2 Guidelines for Estimating PBIs (aka Anchoring)** 
+**#2 Guidelines for Estimating PBIs (aka Anchoring)**
 Every team is different, but you can use the following guidelines for sizing PBIs.
 
+| **Estimate Value** | **Example PBI**                                                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------ |
+| 1                  | A less than 2 hours message box change                                                                                   |
+| 2                  | -                                                                                                                        |
+| 4                  | A timeboxed task for 1 day x 1 developer                                                                                 |
+| 8                  | A timeboxed task of 1 day x 2 developers                                                                                 |
+| 16                 | -                                                                                                                        |
+| 32                 | -                                                                                                                        |
+| 64                 | More than a month with a couple of developers (Don't include these in a Sprint because they are too risky. See #4 below) |
 
-| **Estimate Value**  | **Example PBI**  |
-| ------------------- | ---------------- |
-| 1 | A less than 2 hours message box change |
-| 2 | - |
-| 4 | A timeboxed task for 1 day x 1 developer |
-| 8 | A timeboxed task of 1 day x 2 developers |
-| 16 | - |
-| 32 | - |
-| 64 | More than a month with a couple of developers (Don't include these in a Sprint because they are too risky. See #4 below) |
- 
 ::: good
 Figure: Good example - Example PBI estimates  
 :::
 
-**#3 Using a Chat Program** 
-If you are working on a project with a remote team, use Microsoft Teams chat to size PBIs using Planning Poker.  Everyone should give their points for PBIs at the same time to avoid influencing each other.
+**#3 Using a Chat Program**
+If you are working on a project with a remote team, use Microsoft Teams chat to size PBIs using Planning Poker. Everyone should give their points for PBIs at the same time to avoid influencing each other.
 
-**#4 Big PBIs Smell** 
+**#4 Big PBIs Smell**
 PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider splitting them into smaller pieces to keep them under 2-4 days. See [Do You Break Large Tasks into Smaller Tasks?](/estimating-do-you-break-large-tasks-into-smaller-tasks)
 
-**#5 Use Spikes** 
+**#5 Use Spikes**
 If you do find a very large PBI, consider using a Spike (aka. an investigation task) to help work out how much work will be involved.

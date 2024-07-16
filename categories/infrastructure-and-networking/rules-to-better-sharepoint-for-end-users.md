@@ -13,9 +13,10 @@ index:
 - do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
 - rename-teams-channel-folder
 - change-link-sharing-default-behaviour
-- consistent-sharepoint-site
+- consistent-sharepoint-sites
 - no-checked-out-files
+- word-documents-vs-sharepoint-wiki-pages
 
 ---
 
-If you still need help, visit our [SharePoint Consulting page](https://www.ssw.com.au/ssw/Consulting/SharePoint.aspx) and book in a consultant.
+Want to get your organization using SharePoint to collaborate? Check [SSW's SharePoint consulting page](https://ssw.com.au/consulting/sharepoint).

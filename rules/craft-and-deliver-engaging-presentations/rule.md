@@ -58,13 +58,25 @@ For more information about gaining exposure to pressure situations and avoiding 
 
 ### Content
 
-<https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations>
+[https://www.ssw.com.au/rules/rules-to-better-powerpoint-presentations](/rules-to-better-powerpoint-presentations)
 
 <https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have> see “Give your audience only what they need to know”
 For more information on creating effective powerpoint slides, see:
 <https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides>
 
 ### Delivery
+
+At its core, presentation delivery is about connection. It's about captivating attention, holding it steadfast, and guiding individuals through a transformative journey of thoughts and emotions. A well-refined delivery can elevate even the most mundane content, transforming it into an unforgettable experience that lingers in the minds of listeners long after the words have faded. 🤖
+
+A good way to achieve a strong delivery is to avoid using filler and non-words. Watch this video to get rid of your umms and ahhs.
+
+`youtube: https://youtu.be/mlDAO7DgJNk?si=17Dci0Ub-z_oZOE6`
+
+::: good
+
+**Figure: Good example - Using silence to strengthen your message.**
+
+:::
 
 <https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/?sh=20a9c335536d>
 

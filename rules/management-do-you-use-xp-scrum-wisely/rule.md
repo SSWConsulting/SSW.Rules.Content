@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: Replaced by https://www.ssw.com.au/rules/do-you-know-the-8-steps-to-scrum
+archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-the-8-steps-to-scrum](/rules/do-you-know-the-8-steps-to-scrum)
 title: Management - Do you use XP/Scrum wisely?
 guid: 159c6af7-7619-4f1c-8b15-63a99398b1bc
 uri: management-do-you-use-xp-scrum-wisely

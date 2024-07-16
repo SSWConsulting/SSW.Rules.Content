@@ -1,19 +1,19 @@
 ---
+seoDescription: Keep your URLs clean and easy to read by removing extra noise, such as CampaignIDs, and breaking lines before long URLs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know to keep your URLs clean?
 guid: d5550f1b-d9fa-48e8-9633-13974c97378f
 uri: keep-your-urls-clean
 created: 2020-09-10T20:00:30.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
-- create-friendly-short-urls
-- relevant-words-on-links
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - create-friendly-short-urls
+  - relevant-words-on-links
 redirects:
-- do-you-know-to-keep-your-urls-clean
-
+  - do-you-know-to-keep-your-urls-clean
 ---
 
 When you’re sending emails, or pinging someone in Teams, your URLs should be as clean as possible. Having no extra noise ensures that they are easy to read, and it is more aesthetically pleasing. It is also a good idea to break a line before an URL, improving its readability.
@@ -23,16 +23,17 @@ When you’re sending emails, or pinging someone in Teams, your URLs should be a
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | Purchase please - new hand dryer |  
-::: email-content  
-### Hi Bob,  
+::: email-content
+
+### Hi Bob,
 
 Here is the link to the new hand dryer that you wanted to see:
 
-Vortex Hand Dryer, Super Quiet motor, 3 Years Warranty OZ2100 
+Vortex Hand Dryer, Super Quiet motor, 3 Years Warranty OZ2100
 $184 (no electrical installation required – plugs in – for the men's bathroom upstairs)
 https://www.ozwashroom.com.au/hand-dryer-285?campaignid=1683143023&adgroupid=62945164502&keyword=&device=c&gclid=Cj0KCQjw--GFBhDeARIsACH_kdbAtHf_smGug0NCviYbZvW_9uGLXLT1LjheMQ-bpBOOtqcD5ln3Uz0aAjS6EALw_wcB
 
@@ -46,12 +47,13 @@ Figure: Bad example - Dirty URL with superfluous information
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | Purchase please - new hand dryer |  
-::: email-content  
-### Hi Bob,  
+::: email-content
+
+### Hi Bob,
 
 Here is the link to the new hand dryer that you wanted to see:
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Never use On Error Resume Next in VB (and VB.NET) projects. If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.
 type: rule
 title: Do you always avoid On Error Resume Next? (VB Only)
 uri: do-you-always-avoid-on-error-resume-next-vb-only
@@ -15,7 +16,7 @@ guid: 44ff5d65-56bc-4b02-957d-378c8c0bfc5c
 
 Never use On Error Resume Next in VB (and VB.NET) projects.
 
- If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.
+If an error occurred, On Error Resume Next will hide the error and things can go very haywire! In .NET, stop using the On Error syntax and use the try-catch exception syntax for better structural exception handling.
 
 <!--endintro-->
 
@@ -32,6 +33,7 @@ Private Sub cmdSelect_Click()
     intRoutesPerDay = 2
     End Sub
 ```
+
 ::: bad
 Bad Example – Bad code
 :::
@@ -49,6 +51,7 @@ Private Sub cmdSelect_Click()
     .
     End Sub
 ```
+
 ::: good
 Good Example – Good code
 :::

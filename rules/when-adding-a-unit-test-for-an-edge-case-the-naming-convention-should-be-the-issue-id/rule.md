@@ -1,4 +1,5 @@
 ---
+seoDescription: When writing tests to confirm bugfixes, it's essential to reference the issue ID in the test name and comments. This provides context for future developers, helping them understand why a particular test exists.
 type: rule
 title: Do you reference the issue ID when writing a test to confirm a bugfix?
 uri: when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-the-issue-id
@@ -17,8 +18,6 @@ Some bugs have a whole history related to them and, when we fix them, we don't w
 
 <!--endintro-->
 
-
-
 ```cs
 [Test]
 public void TestProj11()
@@ -26,15 +25,10 @@ public void TestProj11()
 }
 ```
 
-
-
-
 ::: bad
 Figure: Bad example - The test name is the bug ID and it's unclear what it is meant to test
 
 :::
-
-
 
 ```cs
 ///
@@ -51,9 +45,6 @@ public void TestResavingAfterPressingBackShouldntBreak()
 {
 }
 ```
-
-
-
 
 ::: good
 Figure: Good example - The test name is clearer, good comments for the unit test give a little context, and there is a link to the original bug report

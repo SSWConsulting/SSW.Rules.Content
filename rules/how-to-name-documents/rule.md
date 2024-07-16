@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering document naming conventions is crucial for effective SharePoint search and file discovery. Use descriptive words and kebab-case (hyphens) to make your files easily searchable.
 type: rule
 title: Do you know how to name documents/files?
 uri: how-to-name-documents
@@ -13,7 +14,7 @@ related:
   - do-you-know-how-to-use-sharepoint-search
   - use-dashes-in-urls
   - remove-spaces-from-your-folders-and-filename
-  - do-you-zz-old-files-rather-than-deleting-them
+  - zz-files
 redirects:
   - do-you-know-how-to-name-documents
   - how-to-name-sharepoint-documents
@@ -41,7 +42,7 @@ Monthly Report.docx
 Figure: Bad example - File name using spaces to separate words
 :::
 
-As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable. 
+As far as search goes, using spaces is actually a usable option. What makes spaces less-preferable is the fact that the URL to this document will have those spaces escaped with the sequence %20. E.g. **sharepoint/site/library/Monthly%20Report.docx**. URLs with escaped spaces are longer and less human-readable.
 
 Know more on [Do you remove spaces from your folders and filename?](/remove-spaces-from-your-folders-and-filename)
 
@@ -62,7 +63,7 @@ This is a popular way to combine words as a convention in variable declarations 
 Monthly_Report.docx
 :::
 ::: ok
-Figure: OK example - Underscored (Snake\_Case) URLs have good readability but are not recommended by Google
+Figure: OK example - Underscored (Snake_Case) URLs have good readability but are not recommended by Google
 :::
 
 Underscores are not valid word separators for search in SharePoint, and not recommended by others. Also, sometimes underscores are less visible to users, for example, when a hyperlink is underlined. When reading a hyperlink that is underlined, it is often possible for the user to be mistaken by thinking that the URL contains spaces instead of underscores. For these reasons it is best to avoid their use in file names and titles.
@@ -90,4 +91,4 @@ If a document library is configured with metadata fields, add as much relevant i
 
 - **Ensure filenames are unique when tracking files with Git**
 
-Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames. 
+Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames.

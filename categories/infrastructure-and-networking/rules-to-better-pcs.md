@@ -6,13 +6,12 @@ uri: rules-to-better-pcs
 index:
 - do-you-benchmark-your-pc
 - upgrade-your-laptop
-- do-you-know-the-quickest-way-to-get-your-windows-soe-up-and-running
-- what-to-do-when-you-have-a-pc-problem
+- quickest-way-to-get-windows-soe-up-and-running
 - do-you-use-a-package-manager
-- call-SysAdmins-before-formatting-company-owned-laptops
+- what-to-do-when-you-have-a-pc-problem
+- call-sysadmins-before-formatting-company-owned-laptops
 - use-a-standard-local-admin-account
 - compare-and-synchronize-your-files
+- call-sysadmins-before-formatting-company-owned-laptops
 
 ---
-
-

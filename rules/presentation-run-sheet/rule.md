@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure a seamless presentation experience with our presentation run sheet, providing clarity on speaker order and timing to keep events on track.
 type: rule
 title: Do you provide a presentation run sheet?
 uri: presentation-run-sheet
@@ -12,9 +13,10 @@ archivedreason: null
 guid: 0c12029c-cde0-43f6-b9a6-258adaeac8a1
 ---
 
-At events where there are multiple presenters it's important that they know the presentation order so they can be ready to present at the right time.
-The presentation order is also valuable for the audience and the AV team.
+In events with multiple speakers clarity on the presentation order is crucial. Presenters need this to be ready to present at the right time, while attendees and the AV team benefit from knowing the flow.
 
-Before presentations start, make a presentation run sheet and share it with the presenters, audience and AV team.
+Before the sessions begin, make a presentation run sheet and distribute it among the speakers, attendees, and AV team.
 
-If the presentations are on a tight schedule, note the time each presentation is expected to start to help keep the event on track.
+For those streaming the event, introduce the next speaker in the chat beforehand. This can enhance the stream experience by clearly segmenting the discussion for each presentation.
+
+Tight schedules demand precise timing. Note the expected start time for each talk on the run sheet, helping everyone stay on track.

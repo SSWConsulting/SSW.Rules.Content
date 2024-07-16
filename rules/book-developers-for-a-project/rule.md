@@ -1,4 +1,5 @@
 ---
+seoDescription: Scheduling developers' time efficiently and effectively with Dynamics 365 and Outlook to ensure maximum productivity.
 type: rule
 title: Scheduling - Do you know how to book developers for a project?
 uri: book-developers-for-a-project
@@ -15,9 +16,10 @@ created: 2012-12-06T13:32:15.000Z
 archivedreason: null
 guid: 30fa45f9-d065-4f87-ba96-4ad52ae4468b
 ---
+
 It is the responsibility of Account Managers to book developers for known client work, however anyone can book a developer, including the developer themselves. Also if a developer notices they should be booked, but there's nothing in their calendar, and they can't figure out the below, as a minimum they should ask the Account Manager to book them.
 
-::: greybox  
+::: greybox
 
 **The Rule of the 3 T's**
 
@@ -103,6 +105,21 @@ To book someone for internal work:
 
 ![Figure: Internally 'Booked' days show as black and 'Pencilled In' days show as grey](2020-03-20_10-49-19.png)
 
+### Deleting Bookings
+
+Cancelling an appointment in Outlook will not delete the appointment from Dynamics 365. Instead, you need to follow these steps:
+
+1. In the appointment, open the Dynamics 365 App
+2. Click on the menu next to **Tracked regarding**
+3. Click **Untrack**, then **Delete**
+4. Wait about a minute for Dynamics 365 to sync, then cancel the appointment
+
+![Figure: Outlook | Dynamics 365 App | Click Untrack and then Delete](dynamics-untrack.png)
+
+::: info
+You can't untrack a single occurrence of a series of appointments - instead, you need to cancel the occurrence and delete the appointment from Dynamics 365 manually.
+:::
+
 ### Using a separate Outlook calendar to book appointments
 
 If you have a lot of staff, it can be useful to use a separate calendar to make your bookings - this stops them from covering your everyday calendar and making it hard to read.
@@ -113,17 +130,18 @@ Using the example of SSW's **crmtimeprosync@** account, this account is used to 
 
 ![Figure: Appointments tracked from with Outlook desktop](Appointments tracked from Outlook desktop.png)
 
-**Note:** If using a separate Exchange calendar, it's highly recommended to login via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid synching issues. 
+**Note:** If using a separate Exchange calendar, it's highly recommended to login via Outlook Web Access (OWA) rather than loading it up as a shared calendar in your Outlook Desktop client. This is because it handles multiple users much better this way, and will avoid syncing issues.
 
 ### How to set it up
 
-**For OWA** 
-Open browser’s incognito mode | go to https://outlook.office.com | logon with the **crmtimeprosync@** account
+**For OWA**
 
-**For Outlook Desktop** 
+Open browser’s incognito mode | go to <https://outlook.office.com> | logon with the **crmtimeprosync@** account
 
-Go to Files | Add an account | Restart Outlook once it completes 
+**For Outlook Desktop**
+
+Go to Files | Add an account | Restart Outlook once it completes
 
 ![Figure: Add account to your Outlook](Add account.jpg)
 
-Please note you will need to get the password from your friendly SysAdmins.
+Please note you will need to get the password from your enterprise password manager.

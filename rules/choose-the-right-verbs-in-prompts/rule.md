@@ -1,22 +1,24 @@
 ---
+seoDescription: Choosing the right verbs in your prompts can significantly impact the results you get from ChatGPT, helping the model understand your intent more clearly.
 type: rule
 title: Do you pay attention to your verbs?
 uri: choose-the-right-verbs-in-prompts
 authors:
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-04-12T14:11:36.586Z
 guid: efc303af-afc6-43ed-9262-93fb45954ede
 ---
+
 Choosing the right verbs in your prompts can significantly impact the results you get from ChatGPT. Verbs convey the desired action or result, and using appropriate verbs can help the model understand your intent more clearly.
 
 <!--endintro-->
- 
+
 Here are some tips for selecting the right verbs in your prompts:
 
-* Use clear, specific verbs that accurately describe the action or information you're seeking
-* Avoid using ambiguous verbs that could be interpreted in multiple ways
-* Consider the level of detail or depth you want in the response and choose verbs accordingly
+- Use clear, specific verbs that accurately describe the action or information you're seeking
+- Avoid using ambiguous verbs that could be interpreted in multiple ways
+- Consider the level of detail or depth you want in the response and choose verbs accordingly
 
 ::: greybox
 "Tell me about the French Revolution."

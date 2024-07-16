@@ -1,4 +1,5 @@
 ---
+seoDescription: Estimate all tasks at the start of a Sprint to ensure accurate burndown tracking and make data-driven decisions.
 type: rule
 title: Do you estimate all tasks at the start of the Sprint?
 uri: do-you-estimate-all-tasks-at-the-start-of-the-sprint
@@ -29,7 +30,7 @@ Azure DevOps can use the remaining hours assigned to tasks to calculate the burn
 :::
 
 ::: good
-![Figure: Good Example - The tasks were estimated from day one](burndown_good_example.png)
+![Figure: Good Example - The tasks were estimated from day one](burndown_good_example_1710232021934.png)
 :::
 
 **Note:** If you're not using task estimates, you can configure Azure DevOps to create a Sprint Burndown using PBI Effort instead.

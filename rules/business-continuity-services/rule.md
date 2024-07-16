@@ -1,10 +1,11 @@
 ---
+seoDescription: Ensure business continuity by implementing redundancy strategies to minimize downtime and ensure services remain available during outages.
 type: rule
 title: Redundancy - Do you ensure the business continuity of your services?
 uri: business-continuity-services
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kiki
+    url: https://ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related:
   - azure-site-recovery
@@ -12,11 +13,12 @@ related:
 created: 2021-10-14T05:29:39.921Z
 guid: a93c7265-c1d1-43c0-9dc3-21ccd7532f4e
 ---
+
 Business continuity is present in any good disaster recovery plan and means that when your services (e.g. websites, hardware, software) fail or suffer an outage, you have measures in place to ensure downtime is minimal.
 
 <!--endintro-->
 
-Before diving further, some terms need to be understood to fully understand the concept of business continuity: Redundancy, High Availability, Fault Tolerance and Disaster Recovery. These are concepts used to ensure that a system has as little downtime as possible, by applying different strategies or actions in case of a fault.
+Before diving further, some terms need to be understood to fully understand the concept of business continuity: **Redundancy**, **High Availability**, **Fault Tolerance** and **Disaster Recovery**. These are concepts used to ensure that a system has as little downtime as possible, by applying different strategies or actions in case of a fault.
 
 ## Step 1 - Redundancy
 
@@ -32,6 +34,7 @@ Let's imagine a scenario with the company Northwind, this is part of their infra
    * **on-premises** - e.g. a Data Protection Manager (DPM) server on Northwind HQ
    * **off-premises** - e.g. a DPM server in Northwind Brisbane branch
    * **cloud** - e.g. in Azure using Azure Site recovery and Azure Backups
+
 3. Hyper-V Redundancy - Two (or more) physical server blades as Hyper-V hosts
 4. Storage Redundancy - Two (or more) hard drives for the same data to be stored on
 5. Networking Redundancy - Two (or more) firewalls for traffic to go through
@@ -66,7 +69,7 @@ Let's imagine the same scenario with the company Northwind, this is part of thei
 For HA, one of the key points is having a system that redirects workloads in case of a failure - without that, you might have a redundant system, but not necessarily high available. If you need to manually swap a cable in case of a power failure, that's just redundant but not high available.
 
 ::: good
-![Figure: Good Example - It's crucial to add a redundancy plan to your disaster recovery plan](redundancy2.png)
+![Figure: Good example - It's crucial to add a redundancy plan to your disaster recovery plan](redundancy2.png)
 :::
 
 ### Step 3 - Disaster Recovery (DR)
@@ -78,6 +81,6 @@ DR plans generally show different scenarios or systems and what to do in each ca
 As an example, if one of the UPS in your server room stops working, that might not impact the day to day of your business if you have a secondary UPS and a HA circuit or system that automatically fails over between them - you need to replace the failed device, but no downtime is felt throughout the business.
 That might not be the case if your UPS fails, you have a secondary UPS, but you need to manually failover to the secondary. Your server room will be all offline until you manually change that cable, and that action should be in the DR plan in the case of a UPS fail.
 
-A good example of business continuity tools is Azure Site Recovery, which you can find more about [here](/azure-site-recovery)
+A good example of business continuity tools is [Azure Site Recovery](/azure-site-recovery).
 
-Backups are also important in your business continuity and disaster recovery plan, check out our other [rules for backups](/rules-to-better-backups)
+Backups are also important in your business continuity and disaster recovery plan, check out our other [Rules to Better Backups](/rules-to-better-backups).

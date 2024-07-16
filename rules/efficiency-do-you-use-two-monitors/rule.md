@@ -1,19 +1,19 @@
 ---
+seoDescription: Improve productivity and multitasking with multiple monitors, increasing efficiency by up to 30% for developers and professionals alike.
 type: rule
-archivedreason: 
+archivedreason:
 title: Setup - Do you use two monitors?
 guid: 3b822305-9f47-49b8-84d1-19a6883ba712
 uri: efficiency-do-you-use-two-monitors
 created: 2012-09-25T17:53:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- setup-do-you-use-two-monitors
-
+  - setup-do-you-use-two-monitors
 ---
 
 Studies have shown that you can get **up to a 30% increase in productivity** by using more than one monitor when you work.

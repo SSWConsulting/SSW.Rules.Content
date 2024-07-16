@@ -1,4 +1,5 @@
 ---
+seoDescription: Licensing Open Source software requires careful consideration of the correct license to use, ensuring you retain control and comply with copyright laws.
 type: rule
 title: Licensing – Do you know the correct license to use for Open Source software?
 uri: do-you-know-the-correct-license-to-use-for-open-source-software
@@ -16,21 +17,17 @@ More and more projects are being created as Open Source. However just because yo
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example - No License - Generally speaking, the absence of a license means that default copyright laws apply. This means that you retain all rights to your source code and that nobody else may reproduce, distribute, or create derivative works from your work. For more information read        http://choosealicense.com/no-license/](license-bad.png)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - GPL License – For projects where you want consumers of your code to share their changes. Anyone who distributes your code or a derivative of your code must make the source available under the same terms. Warning: Consider carefully before using on components to be used in commercial applications due to the CopyLeft requirement. Used by Linux, Git, WordPress - GNU General Public License on Wikipedia](license-good.png)  
 :::
 
-
 ::: good  
 ![Figure: Good Example - MIT License - for projects where you are happy for people to do anything with your code. Use for .Net core, jQuery and Node.js -        MIT License on Wikipedia](license-good-2.png)  
 :::
-
 
 ::: good  
 ![Figure: Good Example – Apache License - for projects where you require attribution. Microsoft use the Apache license for MVC, EntityFramework, SignalR and Roslyn -        Apache License on Wikipedia -        Used for all SSW Open Source Projects.](license-good-3.png)  

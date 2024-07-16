@@ -1,4 +1,5 @@
 ---
+seoDescription: People rarely read word by word, scanning pages instead. Simple designs help them quickly find what they need, with clear organization and visual cues.
 type: rule
 title: Do you know users skim rather than read?
 uri: web-users-dont-read
@@ -14,6 +15,7 @@ created: 2012-11-27T01:44:03.000Z
 archivedreason: null
 guid: bddfb24c-ec87-437e-9528-61df264a616d
 ---
+
 People rarely read word by word. Instead they scan the page, picking out individual words and sentences that seem more relevant.
 
 <!--endintro-->

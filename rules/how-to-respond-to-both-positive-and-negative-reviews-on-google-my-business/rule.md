@@ -1,17 +1,19 @@
 ---
+seoDescription: Google My Business - Learn how to respond effectively to both positive and negative reviews on your Google My Business listing.
 type: rule
 title: Google Business - Do you know how to respond to both positive and
   negative reviews?
 uri: how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 authors:
   - title: Camilla Rosa Silva
-    url: https://www.ssw.com.au/people/cammy
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - why-your-business-should-be-on-google-my-business
   - how-to-optimize-your-google-my-business-profile
 created: 2022-05-10T23:27:51.427Z
 guid: 75cb8ea9-146f-487e-b0a4-9a953154e3c0
 ---
+
 Many people use Google My Business to find reviews of potential businesses they could be going to to find out what other clients think about their service, products, or customer service before making a purchase decision.
 
 Through these reviews, you can find out what customers think. Some people will have good or bad experiences and leave a review; some will not make an effort. However, a couple of these reviews could be faked, for the good or the bad (by competitors). You can get a good feeling of the business when they respond to their customers.

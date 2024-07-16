@@ -1,4 +1,5 @@
 ---
+seoDescription: Rules are made for guidance of wise men and obedience of fools. Establishing clear procedures can streamline decision-making and maintain consistency, but it's essential to continually improve standards as they may become outdated or flawed.
 type: rule
 title: Do you know rules are made for the guidance of wise men and the obedience of fools?
 uri: continual-improvement
@@ -15,6 +16,7 @@ created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
 ---
+
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
 **Standards should \*not\* be followed blindly. Aim for continual improvement.**
@@ -25,15 +27,15 @@ There are pros and cons to having standards:
 
 **The pros:**
 
-* They help speed up the decision making process – getting you to the best decision faster
-* They help maintain [consistency](/do-you-understand-the-value-of-consistency)
+- They help speed up the decision making process – getting you to the best decision faster
+- They help maintain [consistency](/do-you-understand-the-value-of-consistency)
 
 **The cons:**
 
-* They take time to write in a generic fashion
-* Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
-* They have errors as they are written by imperfect people
-* People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
+- They take time to write in a generic fashion
+- Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
+- They have errors as they are written by imperfect people
+- People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
 
 **Standards should always help the critical thinking process, but never replace it.**
 

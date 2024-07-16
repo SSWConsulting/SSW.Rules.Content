@@ -1,22 +1,22 @@
 ---
+seoDescription: Learn when to mock up your API endpoints and how to create a mocked API endpoint using Azure API Management.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to mockup your API?
 guid: eee9e703-e6bd-40f8-9f65-8a12a3d92f8d
 uri: mockup-your-apis
 created: 2021-05-11T22:00:01.0000000Z
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Bryden Oliver
-  url: https://ssw.com.au/people/bryden-oliver
-related: 
-- brand-your-api-portal
-- tools-to-manage-apis
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Bryden Oliver
+    url: https://ssw.com.au/people/bryden-oliver
+related:
+  - brand-your-api-portal
+  - tools-to-manage-apis
 redirects:
-- comments-do-you-know-when-to-mockup-your-apis
-- do-you-know-when-to-mockup-your-apis
-
+  - comments-do-you-know-when-to-mockup-your-apis
+  - do-you-know-when-to-mockup-your-apis
 ---
 
 Designing your API up front can be very useful where you have a significant amount of backend development to complete before there is sufficient functionality for front end development to easily commence.
@@ -57,9 +57,10 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 1. Select your API from the API list
 2. Click **Add operation**
-3. Specify the Display name, Name and URL of your operation 
-  - **Display name** is a UI friendly display name that shows up in the Operations list
-  - **Name** is the programatic name of the operation that can be referenced programatically in policies
+3. Specify the Display name, Name and URL of your operation
+
+- **Display name** is a UI friendly display name that shows up in the Operations list
+- **Name** is the programatic name of the operation that can be referenced programatically in policies
 
 ![Figure: Adding a new Operation](step3-add-operation.png)
 
@@ -75,7 +76,7 @@ To complete the following steps, you need to create an instance of Azure API Man
 1. Specify the **Content Type** as `application/json`
 2. Specify the **Sample** as `{ "data": "fake" }`
 3. Click **Save**
-  
+
 ![Figure: Add a representation for your response with fake data](step5-add-represtntation.png)
 
 ![Figure: Operation added successfully](step5-operation-done.png)
@@ -116,8 +117,8 @@ To complete the following steps, you need to create an instance of Azure API Man
 1. Add a new `GET` request to your REST Client
 2. Specify the API Uri such as `https://william-ssw.azure-api.net/data`
 3. Add the subscription header `Ocp-Apim-Subscription-Key` and value
-     - you can copy the value directly from the operation HTTP Request section
-     - or, from the API Management service | Subscriptions blade
+   - you can copy the value directly from the operation HTTP Request section
+   - or, from the API Management service | Subscriptions blade
 4. **SEND** your request
 5. Verify the `200 OK` response and the mocked data
 
@@ -125,4 +126,4 @@ To complete the following steps, you need to create an instance of Azure API Man
 
 ## Conclusion
 
-Mocking API responses is awesome! You are able to quickly add mocked responses for all your API endpoints without even having a real backend implementation, and your front-end application can make REAL API calls. 
+Mocking API responses is awesome! You are able to quickly add mocked responses for all your API endpoints without even having a real backend implementation, and your front-end application can make REAL API calls.

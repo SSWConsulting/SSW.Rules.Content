@@ -1,16 +1,16 @@
 ---
+seoDescription: Identify new prospects and their interests through evaluation forms while respecting privacy laws by providing an "opt out" option.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do your evaluation forms identify prospects?
 guid: e6748954-1b0a-48f5-b06c-54753c326b8c
 uri: do-your-evaluation-forms-identify-prospects
 created: 2014-10-13T18:47:24.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 An evaluation form can be a great method of collecting information both about your own performance and the needs and wants of your market. You should always have questions in your evaluation forms that will allow you to add elements to your database which can be queried against in the future.

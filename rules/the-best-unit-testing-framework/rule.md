@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best unit testing framework for your .NET project and streamline your testing process with XUnit, a popular choice among developers.
 type: rule
 title: Do you know the best Unit Testing framework?
 uri: the-best-unit-testing-framework
@@ -11,7 +12,7 @@ redirects:
 created: 2017-02-02T18:12:03.000Z
 archivedreason: Content is outdated, current unit testing framework options can
   be found in
-  https://www.ssw.com.au/rules/testing-tools
+  [https://www.ssw.com.au/rules/testing-tools](/testing-tools)
 guid: 0afc7db0-4f87-4dd9-983d-3f4ebca4fce1
 ---
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Exploratory testing is a systematic approach that combines learning, designing, and executing tests concurrently to uncover product issues.
 type: rule
 title: Do you know what “exploratory testing” is?
 uri: what-is-exploratory-testing
@@ -11,9 +12,10 @@ related:
 created: 2022-10-20T23:14:34.486Z
 guid: b409cb23-a3d1-4cde-a9e4-a43c7d39cfe5
 ---
+
 Exploratory testing is an approach to testing that fits very well into agile teams and maximises the time the tester spends interacting with the software in search of problems that threaten the value of the software.
 
-Exploratory testing is often confused with random *ad hoc* approaches, but it has structure and is a credible and efficient way to approach testing.
+Exploratory testing is often confused with random _ad hoc_ approaches, but it has structure and is a credible and efficient way to approach testing.
 
 Let's dig deeper, look into why this approach is so important, and dispel some of the myths around this testing approach.
 
@@ -29,11 +31,11 @@ Other definitions of exploratory testing focus on the idea of learning, test des
 
 ### Why is exploratory testing so important?
 
-Exploratory testing affords testers the opportunity to use their skills and experience to unearth deeper problems in the software under test. 
+Exploratory testing affords testers the opportunity to use their skills and experience to unearth deeper problems in the software under test.
 
 ![Figure: Explore to learn about the "unknown unknowns"](unknowns.png)
 
-Rather than constraining the testing to "known knowns" (from requirements, user stories, etc.), exploration allows different kinds of risks to be investigated and "unknown unknowns" to be revealed. 
+Rather than constraining the testing to "known knowns" (from requirements, user stories, etc.), exploration allows different kinds of risks to be investigated and "unknown unknowns" to be revealed.
 
 It is often the case that the most serious problems in the software reside in these areas that were not clearly specified or understood before testing started.
 
@@ -55,40 +57,42 @@ Another exploratory approach is to assign each tester a role to test a certain p
 
 #### Exploratory Testing is just a fancy name for ad hoc testing
 
-Random "keyboard bashing" and testing without any real direction or purpose is *ad hoc* testing, it is not exploratory testing. Remember that in true exploratory testing, the tester is learning, designing and executing tests concurrently - they are not just randomly doing things without thinking about what they are doing, what particular kind of issues they are looking for, and what test ideas they need to use to look for those kind of issues. In fact, **ET is systematic, not random**.
+Random "keyboard bashing" and testing without any real direction or purpose is _ad hoc_ testing, it is not exploratory testing. Remember that in true exploratory testing, the tester is learning, designing and executing tests concurrently - they are not just randomly doing things without thinking about what they are doing, what particular kind of issues they are looking for, and what test ideas they need to use to look for those kind of issues. In fact, **ET is systematic, not random**.
 
 #### Exploratory Testing is too unstructured to be taken seriously
 
 The structure of ET comes from many sources:
 
-* Test design heuristics
-* Chartering
-* Timeboxing
-* Perceived product risks
-* The nature of specific tests
-* The structure of the product being tested
-* The process of learning the product
-* Development activities
-* Constraints and resources afforded by the project
-* The skills, talents and interests of the tester
-* The overall mission of testing
+- Test design heuristics
+- Chartering
+- Timeboxing
+- Perceived product risks
+- The nature of specific tests
+- The structure of the product being tested
+- The process of learning the product
+- Development activities
+- Constraints and resources afforded by the project
+- The skills, talents and interests of the tester
+- The overall mission of testing
 
 One structure, however, tends to dominate all the others - the Testing Story. Exploratory testers construct a compelling story of their testing and it is this story that gives ET a backbone. To test is to compose, edit, narrate and justify three stories:
 
-* A story about the status of the product
+- A story about the status of the product
 
-  * About how it failed and how it might fail
-  * In ways that matter to your various clients
-* A story about how you tested it
+  - About how it failed and how it might fail
+  - In ways that matter to your various clients
 
-  * How you configured, operated and observed it
-  * About what you haven't tested, yet
-  * And won't test, at all
-* A story about how good that testing was
+- A story about how you tested it
 
-  * What the risks and costs of testing are
-  * How testable (or not) the product is
-  * What you need and what you recommend
+  - How you configured, operated and observed it
+  - About what you haven't tested, yet
+  - And won't test, at all
+
+- A story about how good that testing was
+
+  - What the risks and costs of testing are
+  - How testable (or not) the product is
+  - What you need and what you recommend
 
 The testing story can be recorded in artifacts called session sheets but it should be obvious that the richness of this storytelling provides stakeholders with much more valuable information about your testing than, say, a pass/fail result on a test case.
 
@@ -100,10 +104,10 @@ It is a misconception that an exploratory approach to testing is best reserved f
 
 The different approach to documenting the test effort in exploratory testing is often claimed to lack the rigour required by auditors for teams working in regulated environments, such as finance or healthcare. This is simply untrue and there are now many well-documented case studies of the use of ET within regulated industries. Auditors are generally interested in answering two questions: "can you show me what you're supposed to do?" and "can you show me the evidence of what you actually do?". They are less interested in the form that the evidence takes. For example, formal test scripts actually provide less evidence of what was actually tested than a well-written testing story from a session of exploratory testing.
 
-Josh Gibbs has written on this topic in his article [Exploratory Testing in a Regulated Environment](http://www.stickyminds.com/article/exploratory-testing-regulated-environment) and [James Christie](<>) is another excellent advocate for the use of ET within regulated environments, as he spent many years as an auditor himself and knows the kinds of evidence they seek in order to complete their audits. Griffin Jones gave an excellent presentation on this topic at the CAST 2013 conference, [What is Good Evidence](https://www.youtube.com/watch?v=i8he7Rejn5s).
+Josh Gibbs has written on this topic in his article [Exploratory Testing in a Regulated Environment](http://www.stickyminds.com/article/exploratory-testing-regulated-environment) and [James Christie]() is another excellent advocate for the use of ET within regulated environments, as he spent many years as an auditor himself and knows the kinds of evidence they seek in order to complete their audits. Griffin Jones gave an excellent presentation on this topic at the CAST 2013 conference, [What is Good Evidence](https://www.youtube.com/watch?v=i8he7Rejn5s).
 
 ### Further reading
 
-* James Bach & Michael Bolton - [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
-* James Bach & Michael Bolton - [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
-* Ministry of Testing - [Exploratory Testing resources](https://www.ministryoftesting.com/search?q=exploratory&filters%5Btopics%5D%5B%5D=exploratory-testing)
+- James Bach & Michael Bolton - [History of Definitions of ET](https://www.satisfice.com/blog/archives/1504)
+- James Bach & Michael Bolton - [Exploratory Testing 3.0](https://www.satisfice.com/blog/archives/1509)
+- Ministry of Testing - [Exploratory Testing resources](https://www.ministryoftesting.com/search?q=exploratory&filters%5Btopics%5D%5B%5D=exploratory-testing)
