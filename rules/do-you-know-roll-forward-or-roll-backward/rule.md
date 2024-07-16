@@ -1,12 +1,14 @@
 ---
 type: rule
 tips: ""
-title: Do you know when to Roll Forward and when to Roll Backward?
-seoDescription: Learn when to roll forward and when to roll backward in software deployment.
+title: Do you know you should only Roll Forward?
+seoDescription: Learn that you should only Roll Forward and not Roll Backward.
 uri: when-to-roll-forward-or-roll-backward
 authors:
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque
+  - title: Tino Liu
+    url: https://ssw.com.au/people/tino-liu
   - title: Charles Vionnet
     url: https://www.ssw.com.au/people/charles-vionnet
   - title: Matt Wicks
@@ -16,13 +18,15 @@ authors:
 created: 2024-07-10T05:56:48.707Z
 guid: dc944a7a-f2dd-4410-8629-5eb8d320ff51
 ---
-In software development, deciding whether to **Roll Forward** or **Roll Backward** during deployments is crucial for maintaining system stability. This rule provides detailed scenarios to help determine the best strategy for handling deployment issues.
+You found out there's a bug in your application. As a Developer, what are you going to do?
 
-### Rolling Forward
+![New Bug](https://imgs.xkcd.com/comics/new_bug.png)
 
-Rolling Forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to quickly apply a fix or additional update to resolve any problems caused by the initial deployment.
+### Rolling Forward Makes the Dream Work
 
-#### Scenarios for Rolling Forward
+Rolling Forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to apply a fix or additional update to resolve any problems caused by the initial deployment. By doing so, it continuously moves the project towards its goals.
+
+#### Scenarios
 
 - **Minor Issues:** If the deployed update has minor issues that can be quickly fixed with subsequent patches.
   - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team can deploy a quick patch within hours.
@@ -41,6 +45,15 @@ Rolling Forward involves moving ahead with a new deployment or update, even if i
 
 - **Backward-Compatible Database Changes:** Database schema changes do not break the previous version's functionality.
   - **Scenario:** Adding a new table or column that does not interfere with existing database structures or application functionality.
+ 
+#### Hold up! What if the issue is HUGE and CATASTROPHIC?
+
+Generally speaking, catastrophic issues can be cought early in the delivery pipelines so that there's no need to Rolling Backward. Here are a few examples developers can do to prevent catastrophic issues from sneaking into prodcution ([Rules to Better Testing](https://www.ssw.com.au/rules/rules-to-better-testing/#3-integration-testing)):
+
+- Write Unit Tests ([Rules to Better Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests/))
+- Understand the different types of testing ([Rules for Different Types of Testing](https://www.ssw.com.au/rules/different-types-of-testing/))
+- Set up a production-like environment, such as a Staging environment, for testing ([Rules for Setting up Environments](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/))
+- Developers can implement new features using feature flags. If an issue arises in production, the feature can be disabled, allowing developers to fix the problem without rolling back the entire release
 
 ### Rolling Backward
 Rolling Backward involves reverting to a previous stable version of the software after encountering issues with the new deployment. This strategy aims to restore the system to a known good state. 
