@@ -55,7 +55,7 @@ Generally speaking, catastrophic issues should be cought early in the delivery p
 - Set up a production-like environment, such as a Staging environment, for testing ([Rules for Setting up Environments](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/))
 - Developers can implement new features using feature flags. If an issue arises in production, the feature can be disabled, allowing developers to fix the problem without rolling back the entire release ([Manage Feature Flags in Azure App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal))
 
-Rolling Backwards should only be considered when abosolutely necessary to maintain system stability and integrity.
+Rolling Backwards should only be considered when abosolutely necessary if an error is threatening system stability and integrity.
 Here are a few examples:
 
 - Critical Production Outages
@@ -64,4 +64,4 @@ Here are a few examples:
 - Compliance Violation
 
 ### Summary
-Software Engineers should prioritize Rolling Forward through practices that ensures continuous improvement, rist mitigation, and incremental process. Upwards and onwards!
+Software Engineers should prioritize Rolling Forward through practices that ensures continuous improvement, risk mitigation, and incremental process. Upwards and onwards!
