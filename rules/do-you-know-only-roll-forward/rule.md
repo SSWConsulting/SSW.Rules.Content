@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know you should only Roll Forward?
 seoDescription: Learn that you should only Roll Forward and not Roll Backward.
-uri: when-to-roll-forward-or-roll-backward
+uri: software-engineers-should-only-roll-forward
 authors:
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque
@@ -26,25 +26,14 @@ You found out there's a bug in your application. As a Developer, what are you go
 
 Rolling Forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to apply a fix or additional update to resolve any problems caused by the initial deployment. By doing so, it continuously moves the project towards its goals.
 
-#### Scenarios
+Here are the reasons why you should Roll Forward:
 
-- **Minor Issues:** Quick fixes for minor issues ensure continuous progress without reverting.
-  - **Scenario:** A new feature is released with a minor UI bug that does not affect core functionality. The development team deploys a quick patch within hours, maintaining forward momentum.
-
-- **Emergency Fixes:** Critical features or fixes are implemented promptly, prioritizing rolling forward over reverting.
-  - **Scenario:** A security vulnerability is discovered, and an immediate patch is deployed to fix the issue. Although it introduces a few minor bugs, these are swiftly addressed with subsequent updates.
-
-- **Improvement Over Existing State:** New deployments, even with minor issues, represent an overall improvement, justifying rolling forward.
-  - **Scenario:** A feature update, while introducing minor bugs, significantly enhances system performance and security. The team quickly patches the minor issues, ensuring the system remains improved.
-
-- **Cost of Rollback:** When the cost and impact of rolling back are higher than rolling forward with additional fixes.
-  - **Scenario:** Rolling back would require significant downtime, severely impacting business operations. Instead, the team rolls forward, fixing the issues in the current deployment with minimal disruption.
-
-- **Minimal Impact on User Data:** The changes do not significantly alter user data or the existing data schema.
-  - **Scenario:** A minor update to the user interface does not affect the underlying data, allowing for quick fixes without risking data integrity.
-
-- **Backward-Compatible Database Changes:** Database schema changes are implemented in a way that supports continuous forward compatibility.
-  - **Scenario:** Adding a new table or column that does not interfere with existing database structures or application functionality.
+- **Continuous Improvement:** Rolling forward allows for incremental improvements, ensuring that any issues are promptly addressed without hindering overall progress.
+- **Minimized Downtime:** By fixing issues on the go rather than reverting to previous versions, Rolling Forward reduces system downtime and minimizes disruptions to business operations.
+- **Data Integrity:** Changes that minimally impact user data or schema allow for seamless updates without risking data integrity. Rolling Forward ensures that data remains intact and consistent.
+- **Cost Efficiency:** The process of rolling back can be resource-intensive and costly, often requiring significant downtime and manual intervention. Rolling Forward with quick fixes is generally more cost-effective and efficient.
+- **User Experience:** Maintaining forward momentum by addressing issues quickly enhances the user experience. Rolling back can confuse users and disrupt their interaction with the system.
+- **Customer Confidence:** Demonstrating a commitment to Rolling Forward and resolving issues promptly can build customer confidence and trust in your ability to deliver reliable and up-to-date solutions.
  
 #### Hold up! What if the issue is HUGE and CATASTROPHIC?
 
