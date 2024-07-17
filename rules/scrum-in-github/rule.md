@@ -6,6 +6,8 @@ uri: scrum-in-github
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Josh Berman
+    url: https://ssw.com.au/people/josh-berman
 related:
   - github-sprint-templates
 created: 2021-10-28T01:49:43.558Z
