@@ -31,11 +31,9 @@ Rolling back not only negates new features and improvements but also risks reint
 
 Additionally, rolling backwards may be resource-intensive and disruptive, often causing significant downtime and manual intervention, which can negatively impact business operations.
 
-There will be rare occasions where rolling
+### From Setback to Comeback
 
-### Never Compromise
-
-Rolling Forward involves moving ahead with a new deployment or update, even if issues arise. The aim is to apply a fix or additional update to resolve any problems caused by the initial deployment. By doing so, it continuously moves the project towards its goals.
+Before jumping the gun and making blind decisions, developers should set up robust monitoring systems. With effective monitoring in place, identifying and addressing issues becomes more accurate and prompt, providing the clarity needed to make informed decisions. This is particularly important when it comes to Rolling Forward, which involves moving ahead with a new deployment or update even if issues arise. The aim is to apply a fix or additional update to resolve any problems caused by the initial deployment. By doing so, it continuously moves the project towards its goals.
 
 Here are the reasons why you should Roll Forward:
 
@@ -44,16 +42,16 @@ Here are the reasons why you should Roll Forward:
 - **Data Integrity:** Changes that minimally impact user data or schema allow for seamless updates without risking data integrity. Rolling Forward ensures that data remains intact and consistent.
 - **Customer Confidence:** Demonstrating a commitment to Rolling Forward and resolving issues promptly can build customer confidence and trust in your ability to deliver reliable and up-to-date solutions.
 
-By prioritizing rolling forward, you embrace a proactive approach that promotes resilience, agility, and continuous delivery.
+By prioritizing rolling forward, you embrace a proactive approach that promotes resilience, agility, and continuous delivery. 
  
 ### Prevention is Better Than Cure
 
 To keep your deployments stress free, you can do the following:
 
-- Good monitoring
+- [Set up Application Insights](https://www.ssw.com.au/rules/rules-to-better-application-insights/)
 - [Write Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests/)
 - [Understand the different types of testing](https://www.ssw.com.au/rules/different-types-of-testing/)
 - [Set up a production-like environment](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/)
 - [Manage Feature Flags](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal)
 
-Sometimes, even the best prevention 
+Sometimes, even the best prevention strategies can't catch everything. If issues does occur, rolling forward with targeted fixes is the best way to maintain progress and stability.
