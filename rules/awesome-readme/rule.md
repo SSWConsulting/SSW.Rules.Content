@@ -16,7 +16,7 @@ guid: d84cad17-a3d0-4e1f-aaba-f2cd7c950d86
 
 Have you ever opened a promising project, only to be lost because the README was unclear? It's a frustrating experience and causes users to quickly give up.
 
-A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. See some examples of gread READMEs here: https://github.com/matiassingers/awesome-readme
+A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. See some examples of great READMEs here: https://github.com/matiassingers/awesome-readme
 
 <!--endintro-->
 
