@@ -160,4 +160,3 @@ Figure: Good example - Simple and clear call for donations
 :::
 
 By following this eight-piece outline, you can create a README that effectively communicates the essential details of your project, making it easier for others to use and contribute to it.
-```
