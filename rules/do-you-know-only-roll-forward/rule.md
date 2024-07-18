@@ -27,7 +27,7 @@ It feels like reverting back to the previous stable version is the safest and qu
 
 ![Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
 
-Rolling back not only negates new features and improvements but also risks reintroducting problems that were previously fixed. If rolling backwards become a habit, it can create a cycle of constant reversion, preventing your software from evolving and improving.
+Rolling back not only negates new features and improvements but also risks reintroducing problems that were previously fixed. If rolling backwards become a habit, it can create a cycle of constant reversion, preventing your software from evolving and improving.
 
 Additionally, rolling backwards may be resource-intensive and disruptive, often causing significant downtime and manual intervention, which can negatively impact business operations.
 
