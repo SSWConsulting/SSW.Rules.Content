@@ -16,7 +16,7 @@ guid: d84cad17-a3d0-4e1f-aaba-f2cd7c950d86
 
 Have you ever opened a promising project, only to be lost because the README was unclear? It's a frustrating experience and causes users to quickly give up.
 
-A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. See some examples of great READMEs here: https://github.com/matiassingers/awesome-readme
+A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. See some examples of great READMEs here: <https://github.com/matiassingers/awesome-readme>
 
 <!--endintro-->
 
@@ -30,17 +30,22 @@ A good README helps others understand what your project does, how to set it up, 
 Let's break down how to write an effective README by following an outline of the necessary components.
 
 ## Strong H1 and H2 Titles
+
 Begin with a clear and concise title (H1) followed by a subtitle (H2) that provides a brief one-liner about what your project does, and helps with SEO (so others can find your project).
 
 ::: greybox
+
 #### MyProject
+
 ##### Efficient Task Management Tool
+
 :::
 ::: good
 Figure: Good example - Clear title and concise subtitle
 :::
 
 ## Intro Paragraph
+
 Provide an introductory paragraph that dives deeper into what your project does. This is also a great place to include SEO keywords to help people find your project.
 
 ::: greybox
@@ -51,6 +56,7 @@ Figure: Good example - Detailed introductory paragraph with SEO keywords
 :::
 
 ## Diagram or Video
+
 Include a diagram or video to visually explain how your project works. This can be a flowchart, system architecture diagram, or a demo video.
 
 ::: greybox
@@ -156,7 +162,7 @@ Include a section where people can donate to support your project. While time an
 
 ::: greybox
 
-##### Support this project!
+##### Support this project
 
 If you find this project useful, consider supporting us by [buying us a coffee](https://www.buymeacoffee.com/).
 :::
