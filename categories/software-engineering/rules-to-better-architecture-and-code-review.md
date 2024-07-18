@@ -9,6 +9,7 @@ index:
   - do-you-review-the-solution-and-project-names
   - do-you-conduct-an-architecture-review-after-every-sprint
   - awesome-documentation
+  - awesome-readme
   - architecture-diagram
   - do-you-document-the-technologies-design-patterns-and-alm-processes
   - look-at-the-architecture-of-javascript-projects
