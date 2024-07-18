@@ -31,8 +31,6 @@ Here are the reasons why you should Roll Forward:
 - **Continuous Improvement:** Rolling forward allows for incremental improvements, ensuring that any issues are promptly addressed without hindering overall progress.
 - **Minimized Downtime:** By fixing issues on the go rather than reverting to previous versions, Rolling Forward reduces system downtime and minimizes disruptions to business operations.
 - **Data Integrity:** Changes that minimally impact user data or schema allow for seamless updates without risking data integrity. Rolling Forward ensures that data remains intact and consistent.
-- **Cost Efficiency:** The process of rolling back can be resource-intensive and costly, often requiring significant downtime and manual intervention. Rolling Forward with quick fixes is generally more cost-effective and efficient.
-- **User Experience:** Maintaining forward momentum by addressing issues quickly enhances the user experience. Rolling back can confuse users and disrupt their interaction with the system.
 - **Customer Confidence:** Demonstrating a commitment to Rolling Forward and resolving issues promptly can build customer confidence and trust in your ability to deliver reliable and up-to-date solutions.
  
 #### Hold up! What if the issue is HUGE and CATASTROPHIC?
