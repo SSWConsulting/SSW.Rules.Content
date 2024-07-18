@@ -27,9 +27,11 @@ It feels like reverting back to the previous stable version is the safest and qu
 
 ![Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
 
-But SIKE! Rolling back not only negates new features and improvements but also risks reintroducting problems that were previously fixed. If rolling backwards become a habit, it can create a cycle of constant reversion, preventing your software from evolving and improving.
+Rolling back not only negates new features and improvements but also risks reintroducting problems that were previously fixed. If rolling backwards become a habit, it can create a cycle of constant reversion, preventing your software from evolving and improving.
 
-Additionally, rolling backwards can be resource-intensive and disruptive, often requiring significant downtime and manual intervention, which can negatively impact business operations.
+Additionally, rolling backwards may be resource-intensive and disruptive, often causing significant downtime and manual intervention, which can negatively impact business operations.
+
+There will be rare occasions where rolling
 
 ### Never Compromise
 
@@ -44,14 +46,14 @@ Here are the reasons why you should Roll Forward:
 
 By prioritizing rolling forward, you embrace a proactive approach that promotes resilience, agility, and continuous delivery.
  
-### The Painkiller
+### Prevention is Better Than Cure
 
-Generally speaking, catastrophic issues should be caught early in the delivery pipeline, reducing the likelihood of deployment failures or major faults. Here are a few examples developers can do to prevent them from sneaking into prodcution ([Rules to Better Testing](https://www.ssw.com.au/rules/rules-to-better-testing/#3-integration-testing)):
+To keep your deployments stress free, you can do the following:
 
-- Write Unit Tests ([Rules to Better Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests/))
-- Understand the different types of testing ([Rules for Different Types of Testing](https://www.ssw.com.au/rules/different-types-of-testing/))
-- Set up a production-like environment, such as a Staging environment, for testing ([Rules for Setting up Environments](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/))
-- Developers can implement new features using feature flags. If an issue arises in production, the feature can be disabled, allowing developers to fix the problem without rolling back the entire release ([Manage Feature Flags in Azure App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal))
+- Good monitoring
+- [Write Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests/)
+- [Understand the different types of testing](https://www.ssw.com.au/rules/different-types-of-testing/)
+- [Set up a production-like environment](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/)
+- [Manage Feature Flags](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal)
 
-### Summary
-While rolling back during a deployment failure seems to be the easier route, it's essential to recognize the limitations and drawbacks of this approach. By adopting robust mitigation strategies and embracing the philosophy of rolling forward, software engineers can ensure continuous improvement, enhanced security, and a positive user experience. Upwards and onwards!
+Sometimes, even the best prevention 
