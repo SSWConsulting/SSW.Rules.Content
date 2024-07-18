@@ -16,6 +16,8 @@ guid: d84cad17-a3d0-4e1f-aaba-f2cd7c950d86
 
 A well-crafted README file is essential for any project, whether it's open-source or internal. A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. Let's break down how to write an effective README by following a simple eight-piece outline.
 
+See some good examples here: https://github.com/matiassingers/awesome-readme
+
 <!--endintro-->
 
 ## 1. Strong H1 and H2 Titles
