@@ -25,7 +25,7 @@ Neither of these elements is intended to distract, so they are placed subtly in 
 
 ### How to do it
 
-Adding the tagline and logo in the Slide Master will replicate it automatically across all slides. The master will also dictate the size and font of text present on all slides.
+Adding the tagline and logo in the Slide Master will replicate it automatically across all slides. The master will also dictate the size and font of text present on all slides. Once you've added your logo to the slide master and you're happy with the size and positioning, you can save your changes by clicking **Slide Master | Close Master View** in the navigation bar.
 
 ![Figure: Step 1 - Click 'Slide Master' button on the 'View' ribbon](masterslide.png)
 
