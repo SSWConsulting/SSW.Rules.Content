@@ -14,27 +14,33 @@ created: 2024-07-18T13:42:55.753Z
 guid: d84cad17-a3d0-4e1f-aaba-f2cd7c950d86
 ---
 
-A well-crafted README file is essential for any project, whether it's open-source or internal. A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. Let's break down how to write an effective README by following a simple eight-piece outline.
+Have you ever opened a promising project, only to be lost because the README was unclear? It's a frustrating experience and causes users to quickly give up.
+
+A good README helps others understand what your project does, how to set it up, and how to use it, reducing the learning curve and saving time for everyone involved. See some examples of gread READMEs here: https://github.com/matiassingers/awesome-readme
 
 <!--endintro-->
 
-## 1. Strong H1 and H2 Titles
+`youtube: https://www.youtube.com/watch?v=E6NO0rgFub4&t=345s`
+**Video: How To Write a USEFUL README On Github (8 min)**
 
-Begin with a clear and concise title (H1) followed by a subtitle (H2) that provides a brief one-liner about what your project does, and helps with SEO (so others can find your project)
+::: bad
+![Figure: Bad example - We've all seen one of these 🤮](readme-bad.jpg)
+:::
+
+Let's break down how to write an effective README by following an outline of the necessary components.
+
+## Strong H1 and H2 Titles
+Begin with a clear and concise title (H1) followed by a subtitle (H2) that provides a brief one-liner about what your project does, and helps with SEO (so others can find your project).
 
 ::: greybox
-
-# MyProject
-
-## Efficient Task Management Tool
-
+#### MyProject
+##### Efficient Task Management Tool
 :::
 ::: good
 Figure: Good example - Clear title and concise subtitle
 :::
 
-## 2. Intro Paragraph
-
+## Intro Paragraph
 Provide an introductory paragraph that dives deeper into what your project does. This is also a great place to include SEO keywords to help people find your project.
 
 ::: greybox
@@ -44,26 +50,25 @@ MyProject is a web application designed to help users manage their tasks efficie
 Figure: Good example - Detailed introductory paragraph with SEO keywords
 :::
 
-## 3. Diagram or Video
-
+## Diagram or Video
 Include a diagram or video to visually explain how your project works. This can be a flowchart, system architecture diagram, or a demo video.
 
 ::: greybox
-![System Architecture](architecture-diagram.png)
+![Figure: System architecture diagram](architecture-diagram.jpg)
 :::
 ::: good
 Figure: Good example - Visual representation of the project's system architecture
 :::
 
-## 4. Installation Instructions for Users
+## Installation Instructions for Users
 
 Provide clear instructions on how to install and use your project. This section is aimed at end-users who may not have technical expertise.
 
 ::: greybox
 
-## Installation for Users
+##### Installation for Users
 
-1. Download the installer from the [releases page](releases).
+1. Download the installer from {{ URL }}.
 2. Run the installer and follow the on-screen instructions.
 3. Open the application and start managing your tasks.
 :::
@@ -71,13 +76,13 @@ Provide clear instructions on how to install and use your project. This section 
 Figure: Good example - Simple installation instructions for end-users
 :::
 
-## 5. Installation Instructions for Contributors
+## Installation Instructions for Contributors
 
 Give detailed instructions for contributors on how to set up the development environment, build the project, and start contributing.
 
 ::: greybox
 
-## Installation for Contributors
+##### Installation for Contributors
 
 1. Fork the repository and clone it to your local machine:
 
@@ -111,32 +116,32 @@ Give detailed instructions for contributors on how to set up the development env
 
 :::
 ::: good
-Figure: Good example - Comprehensive installation instructions for contributors
+Figure: Good example - Clear installation instructions for contributors
 :::
 
-## 6. Contributor Expectations
+## Contributor Expectations
 
 Outline your expectations for contributors. This includes guidelines for submitting pull requests, coding standards, and any other relevant information.
 
 ::: greybox
 
-## Contributor Expectations
+##### Contributor Expectations
 
 * Ensure all merges are squashed before submitting a pull request.
-* File an issue before submitting a pull request.
+* Submit an issue before submitting a pull request.
 * Follow the pull request template provided in the repository.
 :::
 ::: good
 Figure: Good example - Clear expectations for contributors
 :::
 
-## 7. Known Issues
+## Known Issues
 
-List any known issues or bugs in the project. This helps users and contributors understand what problems are already identified and being worked on.
+This avoids duplicate issues. List known issues or bugs in the project to ensure users and contributors understand what problems are already identified and being worked on.
 
 ::: greybox
 
-## Known Issues
+##### Known Issues
 
 * Notification system occasionally misses updates.
 * Reports may not display correctly in Safari browser.
@@ -145,18 +150,16 @@ List any known issues or bugs in the project. This helps users and contributors 
 Figure: Good example - Transparent communication of known issues
 :::
 
-## 8. Donations
+## Donations (optional)
 
 Include a section where people can donate to support your project. While time and contributions are invaluable, monetary donations can also help.
 
 ::: greybox
 
-## Support
+##### Support this project!
 
-If you find this project useful, consider supporting us by [buying us a coffee](https://www.buymeacoffee.com/username).
+If you find this project useful, consider supporting us by [buying us a coffee](https://www.buymeacoffee.com/).
 :::
 ::: good
 Figure: Good example - Simple and clear call for donations
 :::
-
-By following this eight-piece outline, you can create a README that effectively communicates the essential details of your project, making it easier for others to use and contribute to it.
