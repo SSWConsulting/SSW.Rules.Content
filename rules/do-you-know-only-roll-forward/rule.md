@@ -36,7 +36,7 @@ Rolling back can have several negative consequences, making it crucial to consid
 
 ### From Setback to Comeback
 
-Before jumping the gun and making blind decisions, developers should set up robust monitoring systems. With effective monitoring in place, identifying and addressing issues becomes more accurate and prompt, providing the clarity needed to make informed decisions. This is particularly important when it comes to Rolling Forward, which involves moving ahead with a new deployment or update even if issues arise. The aim is to apply a fix or additional update to resolve any problems caused by the initial deployment. By doing so, it continuously moves the project towards its goals.
+Before making decisions, developers should set up robust monitoring systems. Effective monitoring ensures accurate and prompt issue identification, aiding informed decision-making. This is particularly important when it comes making the decision to Roll Forward.
 
 Here are the reasons why you should Roll Forward:
 
