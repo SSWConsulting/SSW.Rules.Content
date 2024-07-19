@@ -27,9 +27,12 @@ It feels like reverting back to the previous stable version is the safest and qu
 
 ![Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
 
-Rolling back not only negates new features and improvements but also risks reintroducing problems that were previously fixed. If rolling backwards become a habit, it can create a cycle of constant reversion, preventing your software from evolving and improving.
+Rolling back can have several negative consequences, making it crucial to consider the drawbacks:
 
-Additionally, rolling backwards may be resource-intensive and disruptive, often causing significant downtime and manual intervention, which can negatively impact business operations.
+- Negation of New Features and Improvements
+- Cycle of Constant Reversion
+- Resource-Intensive and Disruptive
+- Causes Downtime and Requires Manual Intervention
 
 ### From Setback to Comeback
 
@@ -54,4 +57,4 @@ To keep your deployments stress free, you can do the following:
 - [Set up a production-like environment](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/)
 - [Manage Feature Flags](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal)
 
-Sometimes, even the best prevention strategies can't catch everything. If issues does occur, rolling forward with targeted fixes is the best way to maintain progress and stability.
+Sometimes, even the best prevention strategies can't catch everything. If issues do occur, rolling forward with targeted fixes is the best way to maintain progress and stability.
