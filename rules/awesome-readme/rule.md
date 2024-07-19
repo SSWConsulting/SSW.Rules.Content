@@ -87,7 +87,7 @@ You can also take a look at this video showcasing some of the tools and examples
 A great tool to help you build your README is [GitHub Simp](https://readmi.xyz/). It provides a simple editor to create a README with a live preview, and you can export it to Markdown or HTML.
 
 ::: good
-![Figure - Sample readme Generated with [GitHub Simp](https://readmi.xyz/)](github-simp-example.png)
+![Figure - Sample readme Generated with https://readmi.xyz/](github-simp-example.png)
 :::
 
 You can also try [readme.so](https://readme.so/), which offers a similar service with more customization options which is maintained by [Katherine Oelsner](https://github.com/octokatherine) from GitHub.
