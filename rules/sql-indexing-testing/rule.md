@@ -10,9 +10,9 @@ authors:
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
 related:
+  - sql-real-world-indexes
   - sql-indexing-orderby
   - sql-indexing-joins
-  - sql-real-world-indexes
   - sql-indexing-where
 ---
 

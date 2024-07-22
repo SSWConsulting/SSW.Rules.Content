@@ -55,4 +55,6 @@ CREATE INDEX IX_DisplayName_Location ON dbo.Users (DisplayName, Location) INCLUD
 
 Be aware that including columns in an index does make the index bigger. So deciding whether to include extra columns or not is a tradeoff between disk space, the extra time it takes to write the index, the extra disk io required when reading back the index, against the improvement achieved for the queries in question.
 
-If queries consistently want the same small subset of the columns on a table then this will generally be a good optimisation.
+If queries consistently want the same small subset of the columns on a table then this will generally be a good optimisation. 
+
+Also, it is often better to include the **included** columns at the end of the index key as there is very little benefit unless the size of the **included** columns is quite large (think large fixed length strings).
