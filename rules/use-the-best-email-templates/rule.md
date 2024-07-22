@@ -25,9 +25,7 @@ Simple to create and can be shared easily (e.g., via SharePoint). However, a new
 :::
 
 ::: bad
-
 Figure: Bad example - Outlook email templates are easy to share but have limitations with creation and calendar integration
-
 :::
 
 ### My Templates
@@ -39,23 +37,19 @@ Simple to create but can't be shared with other users, have a 32KB limit, and ar
 :::  
 
 ::: bad  
-
 Figure: Bad example - My Templates are limited in size and sharing capabilities, making them less useful for collaborative environments
-
 :::
 
 ### Signatures
 
-::: greybox  
-  
+::: greybox
+
 Simple to create but are stored locally, so they can't be shared with other devices or users. Signatures have a 5000 character limit.
 
 :::
 
 ::: bad
-
 Figure: Bad example - Signatures are easy to create but lack sharing capabilities and are limited by storage constraints
-
 :::
 
 ### Quick Parts
@@ -95,9 +89,7 @@ Offer rich text, can be shared with anyone, and provide access to contact data. 
 :::
 
 ::: ok
-
 Figure: OK example - Dynamics 365 Email Templates have robust features but are complex to manage and access
-
 :::
 
 ### OfficeAtWork Content Chooser
@@ -109,9 +101,7 @@ Supports rich text and allows for easy sharing via SharePoint. Setup is straight
 :::
 
 ::: good
-
 Figure: Good example - OfficeAtWork Content Chooser offers ease of use and sharing, though it requires manual updates
-
 :::
 
 ### Summary
