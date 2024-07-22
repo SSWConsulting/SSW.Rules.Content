@@ -4,11 +4,11 @@ title: Rules to Better SQL Databases - Indexing
 guid: 8cc85714-7833-42e2-a837-1d66d9d9fb2c
 uri: rules-to-better-sql-databases-indexing
 index:
-- real-world-indexes
-- indexing-where
-- indexing-testing
-- indexing-orderby
-- indexing-joins
+- sql-real-world-indexes
+- sql-indexing-orderby
+- sql-indexing-where
+- sql-indexing-testing
+- sql-indexing-joins
 
 ---
 Heres how to get started with indexing. This covers the basics to help a developer get started creating indexes on SQL databases.

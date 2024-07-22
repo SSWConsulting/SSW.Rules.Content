@@ -19,3 +19,5 @@ related:
 So you've created some indexes. How can you go about verifying that the indexes have actually improved the performance of your queries?
 
 <!--endintro-->
+
+So the previous rule talked about whether or not to INCLUDE extra columns in the index or not. When doing so, it would be great to be able to evaluate different options and identify which provide the best balance.
