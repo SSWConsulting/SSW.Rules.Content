@@ -41,8 +41,8 @@ Autopod offers a robust solution for streamlining the editing of multi-camera in
 Using Autopod to cut multi-camera footage for an interview with multiple speakers.
 :::
 ::: good
-Video -  [AutoPod in Action]
-(https://youtu.be/iIIwEvu4KSo)
+
+`youtube: https://youtu.be/iIIwEvu4KSo`
 
 
 Figure: Good Example ✅- Autopod efficiently handles synchronization and primary cuts, allowing the editor to focus on refining the content.
