@@ -52,5 +52,5 @@ Train your sales team to **prioritize phone calls when following up with leads**
 
 * **Script development:** Structured call scripts provide salespeople with key talking points and responses to common objections, ensuring consistency and effectiveness in communication
 * **Role-playing exercises:** These simulate real-life scenarios and help salespeople practice and refine their pitch and response skills, preparing them for actual calls
-* **CRM ttilization:** Training on how to use CRM tools effectively helps sales teams track interactions, set reminders, and access customer data, ensuring timely and informed follow-ups
+* **CRM utilization:** Training on how to use CRM tools effectively helps sales teams track interactions, set reminders, and access customer data, ensuring timely and informed follow-ups
 * **Personalization techniques:** Encouraging personalization of follow-up messages based on previous interactions makes the communication more relevant and engaging for prospects
