@@ -20,20 +20,20 @@ Now with this acquisition of Tina.io, we have more and more customers and traffi
 
 Creating a Cookie Consent Banner doesnt have to be tricky, it can be done simply in 3 steps.
 
-- Cookie banner UI
-- Creating and sending cookies
-- Setting up GTM consent mode as per user preferences
+* Cookie banner UI
+* Creating and sending cookies
+* Setting up GTM consent mode as per user preferences
 
 ## Cookie Banner UI
 
 This section is very much customizable and will be different from site to site. Essentially we want to create some sort of pop-up, banner, or modal that will be prompted to users when visiting your site. On [Tina.io](https://tina.io) we opted for a banner along the bottom of the page.
 
-The 3 button options should be 
--	‘Accept All’ – users accepts all types of cookies
--	‘Reject All’ – users reject all cookies 
--	‘Customize’ – According to GDRP we must allow users to manage their cookie preferences at any time. When users go to customize, all options must NOT be ticked. 
+The 3 button options should be
+* ‘Accept All’ – users accepts all types of cookies
+* ‘Reject All’ – users reject all cookies
+* ‘Customize’ – According to GDRP we must allow users to manage their cookie preferences at any time. When users go to customize, all options must NOT be ticked.
 
-On the Tina.io Site we let users customize their preferences with a modal. 
+On the Tina.io Site we let users customize their preferences with a modal.
 
 ![Figure: 🍪 Cookie Banner on Tina.io](tina-cookie-banner.jpg)
 
@@ -41,7 +41,7 @@ On the Tina.io Site we let users customize their preferences with a modal.
 
 ## Creating and Sending Cookies
 
-This section will actually send your cookie based on how users have interacted with your UI. We have used a nifty library called ‘js-cookie’ which provides a super easy way to transmit a cookie. 
+This section will actually send your cookie based on how users have interacted with your UI. We have used a nifty library called ‘js-cookie’ which provides a super easy way to transmit a cookie.
 
 1. Install package and use on your component
 
