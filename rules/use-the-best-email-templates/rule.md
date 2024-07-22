@@ -46,8 +46,7 @@ Figure: Bad example - My Templates are limited in size and sharing capabilities,
 
 ### Signatures
 
-::: greybox  
-  
+::: greybox    
 Simple to create but are stored locally, so they can't be shared with other devices or users. Signatures have a 5000 character limit.
 
 :::
