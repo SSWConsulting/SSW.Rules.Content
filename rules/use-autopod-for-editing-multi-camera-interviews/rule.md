@@ -28,7 +28,7 @@ Autopod offers a robust solution for streamlining the editing of multi-camera in
 
 #### Step-by-Step Guide
 
-1. **Install AutoPod**: Download, install and subsribe to AutoPod - **https://www.autopod.fm**
+1. **Install AutoPod**: Download, install and subscribe to AutoPod - **https://www.autopod.fm**
 2. **Import Footage**: Begin by importing all camera angles and audio tracks into your editing software.
 3. **Sync Footage**: Use Autopod to automatically sync the different camera angles based on audio waveforms.
 4. **Initial Cuts**: Allow Autopod to make initial cuts, switching between angles based on speaker activity and other predefined rules.
