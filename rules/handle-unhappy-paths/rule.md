@@ -32,5 +32,3 @@ Here are some tips to help you spot where you need to handle more scenarios:
 ::: good
 ![Figure: Good Example - Code checks the email is valid](good-validation-fields.png)
 :::
-
-
