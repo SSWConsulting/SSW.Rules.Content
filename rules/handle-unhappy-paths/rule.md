@@ -26,9 +26,9 @@ Here are some tips to help you spot where you need to handle more scenarios:
 * Do some [exploratory testing](/what-is-exploratory-testing)
 
 ::: bad
-![Figure: Bad Example - Users can enter invalid emails](bad-no-validaton.png)
+![Figure: Bad example - Users can enter invalid emails](bad-no-validaton.png)
 :::
 
 ::: good
-![Figure: Good Example - Code checks the email is valid](good-validation-fields.png)
+![Figure: Good example - Code checks the email is valid](good-validation-fields.png)
 :::
