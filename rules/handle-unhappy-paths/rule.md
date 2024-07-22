@@ -13,14 +13,15 @@ archivedreason: null
 guid: 676c1916-78b1-4ae4-b22b-4585274a873d
 ---
 
-When writing code, developers tend to focus on the happy path of the user. However, it is important to consider all possible scenarios that could occur. This includes edge cases, such as invalid inputs, unexpected user behavior, and system failures. By handling all possible scenarios, you can ensure that your code is robust and reliable.
+When developers build software, they naturally become experts in using the software. This is problematic because with this expertise, they will tend to focus on the happy path of the user. However, it is important to consider all possible scenarios that could occur. This includes edge cases, such as invalid inputs, unexpected user behavior, and system failures. By handling all possible scenarios, you can ensure that your code is robust and reliable.
 
 <!--endintro-->
 
 Here are some tips to help you spot where you need to handle more scenarios:
 
-* Think of potential "unhappy paths" - ask yourself "what could the user do wrong here?"
-  * e.g. What if the user enters an invalid email address?
+* Think of potential "unhappy paths"
+  * Ask yourself "what could the user do wrong here?" (e.g. What if the user enters an invalid email address?)
+  * Assume your users are doing something for the first time
 * Get a [test please](/conduct-a-test-please) on all your code
 * Do some [exploratory testing](/what-is-exploratory-testing)
 
@@ -31,3 +32,5 @@ Here are some tips to help you spot where you need to handle more scenarios:
 ::: good
 ![Figure: Good Example - Code checks the email is valid](good-validation-fields.png)
 :::
+
+
