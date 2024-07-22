@@ -2,7 +2,7 @@
 seoDescription: Ensure your code handles all possible scenarios, including edge cases, to improve robustness and reliability.
 type: rule
 title: Code - Do you handle all possible scenarios?
-uri: handle-edge-cases
+uri: handle-unhappy-paths
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
@@ -19,10 +19,10 @@ When writing code, developers tend to focus on the happy path of the user. Howev
 
 Here are some tips to help you spot where you need to handle more scenarios:
 
-* While coding, ask yourself "what could the user do wrong here?"
-  * e.g. What if the user enters an invalid email address?
-* Get a [test please](/conduct-a-test-please) on all your code
-* Do some [exploratory testing](/what-is-exploratory-testing)
+- Think of potential "unhappy paths" - ask yourself "what could the user do wrong here?"
+  - e.g. What if the user enters an invalid email address?
+- Get a [test please](/conduct-a-test-please) on all your code
+- Do some [exploratory testing](/what-is-exploratory-testing)
 
 ::: bad
 ![Figure: Bad Example - Users can enter invalid emails](image.png)
