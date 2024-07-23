@@ -102,6 +102,8 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 - Description
 - _How to add database migration_
 
+![](bad-example-gordonbeemingcom.jpg)
+
 :::
 ::: bad
 Figure: Bad example - [github.com/GordonBeeming/GordonBeemingCom](https://github.com/GordonBeeming/GordonBeemingCom)
@@ -113,6 +115,8 @@ Figure: Bad example - [github.com/GordonBeeming/GordonBeemingCom](https://github
 
 - Title
 - Description
+
+![](bad-example-pistriker.jpg)
 
 :::
 ::: bad
@@ -137,6 +141,8 @@ Figure: Bad example - [github.com/SSWConsulting/PiStriker](https://github.com/SS
 - Documentation Links
 - Contributing Guidelines
 
+![](good-example-sswcleanarchitecture.jpg)
+
 :::
 ::: good
 Figure: Good example - [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
@@ -154,6 +160,8 @@ Figure: Good example - [github.com/SSWConsulting/SSW.CleanArchitecture](https://
 - Community
 - Contributing Guidelines
 - Acknowledgments
+
+![](good-example-tinacms.jpg)
 
 :::
 ::: good
