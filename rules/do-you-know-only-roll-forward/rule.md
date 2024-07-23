@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/ozair-ashfaque
   - title: Tino Liu
     url: https://ssw.com.au/people/tino-liu
+  - title: Nick Curran
+    url: https://ssw.com.au/people/nick-curran
   - title: Charles Vionnet
     url: https://www.ssw.com.au/people/charles-vionnet
   - title: Matt Wicks
