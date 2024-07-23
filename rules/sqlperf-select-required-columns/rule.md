@@ -22,14 +22,13 @@ Do you only SELECT the columns that your application is about to use?
 
 <!--endintro-->
 
-Retrieving all the columns in a table is a common pattern. 
+Retrieving all the columns in a table is a common pattern.
 
 ```sql
 SELECT * FROM Users
 ```
+
 This is not an unusual statement to see. However statements of this type should not be employed inside an application. It's important to minimise the number of columns returned by queries because:
-- It takes more network bandwidth to transmit the results
-- It takes extra CPU at the database and the caller to encode/decode the response
-- In cases where all the columns required are available in an index, retrieving all columns can cause reading an index and then the main table to retrieve the remaining columns
-
-
+* It takes more network bandwidth to transmit the results
+* It takes extra CPU at the database and the caller to encode/decode the response
+* In cases where all the columns required are available in an index, retrieving all columns can cause reading an index and then the main table to retrieve the remaining columns
