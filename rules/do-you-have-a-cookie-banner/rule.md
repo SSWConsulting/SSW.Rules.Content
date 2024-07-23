@@ -21,7 +21,7 @@ Sites can grow to get a lot of traffic from across the globe, it's important tha
 Creating a Cookie Consent Banner doesnt have to be tricky, it can be done simply in 3 steps.
 
 1. Cookie banner UI
-2.  Creating and sending cookies
+2. Creating and sending cookies
 3. Setting up GTM consent mode as per user preferences
 
 ## Cookie Banner UI
@@ -29,6 +29,7 @@ Creating a Cookie Consent Banner doesnt have to be tricky, it can be done simply
 This section is very much customizable and will be different from site to site. Essentially we want to create some sort of pop-up, banner, or modal that will be prompted to users when visiting your site. On [Tina.io](https://tina.io) we opted for a banner along the bottom of the page.
 
 The 3 button options should be
+
 * ‘Accept All’ – users accepts all types of cookies
 * ‘Reject All’ – users reject all cookies
 * ‘Customize’ – According to GDRP we must allow users to manage their cookie preferences at any time. When users go to customize, all options must NOT be ticked.
