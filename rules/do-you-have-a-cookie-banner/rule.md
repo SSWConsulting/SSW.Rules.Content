@@ -11,7 +11,7 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related: []
-redirects:
+redirects: []
 ---
 
 ## The Problem
