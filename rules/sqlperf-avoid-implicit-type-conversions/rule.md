@@ -28,9 +28,10 @@ It doesn't seem right that getting the data type wrong can result in the databas
 SELECT * FROM dbo.VotesString WHERE PostId = '9999997'
 SELECT * FROM dbo.VotesString WHERE PostId = 9999997
 ```
+
 Note that in the VotesString table, the PostId is a string column, and there is an index on it.
 
-So the first query can seek straight to the correct row, and return it straight back. Almost no effort. 
+So the first query can seek straight to the correct row, and return it straight back. Almost no effort.
 
 But the second case where we are comparing the PostId as an integer, there are multiple integer representations of the same value. For instance '009999997' or in exponential form. Hence the server has to walk through every row of that column and try to cast the string to an integer and then perform the comparison.
 
