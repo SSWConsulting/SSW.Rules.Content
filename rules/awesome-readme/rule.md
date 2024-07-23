@@ -91,3 +91,71 @@ A great tool to help you build your README is [GitHub Simp](https://readmi.xyz/)
 :::
 
 You can also try [readme.so](https://readme.so/), which offers a similar service with more customization options which is maintained by [Katherine Oelsner](https://github.com/octokatherine) from GitHub.
+
+### Bad Examples
+
+::: greybox
+
+#### GordonBeemingCom
+
+- Title
+- Description
+- _How to add database migration_
+
+:::
+::: bad
+Figure: Bad example - [github.com/GordonBeeming/GordonBeemingCom](https://github.com/GordonBeeming/GordonBeemingCom)
+:::
+
+::: greybox
+
+#### PiStriker
+
+- Title
+- Description
+
+:::
+::: bad
+Figure: Bad example - [github.com/SSWConsulting/PiStriker](https://github.com/SSWConsulting/PiStriker)
+:::
+
+### Good Examples
+
+::: greybox
+
+#### SSW.CleanArchitecture
+
+- Title
+- Badges
+- Repository Activity
+- README Index
+- Description
+- Features
+- Installation (for users)
+- F5 Experience (for contributors)
+- Publishing updates (for maintainers)
+- Documentation Links
+- Contributing Guidelines
+
+:::
+::: good
+Figure: Good example - [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
+:::
+
+::: greybox
+
+#### TinaCMS
+
+- Badges
+- Title
+- Screenshots/GIFs
+- Installation
+- Documentation Links
+- Community
+- Contributing Guidelines
+- Acknowledgments
+
+:::
+::: good
+Figure: Good example - [github.com/tinacms/tinacms](https://github.com/tinacms/tinacms)
+:::
