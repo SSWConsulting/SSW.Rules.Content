@@ -26,7 +26,6 @@ For SQL Server there is what is called a query hint. This particular query hint 
 
 So if you create an index called IX_Index and you'd like to see if using the index improves a particular query, you can do something like the following. NB: The table itself is designated as Index 1.
 
-
 ```sql
 SET STATISTICS IO ON; # Grab the IO statistics for the query
 SELECT
@@ -41,6 +40,7 @@ FROM
 ```
 
 You'll get back output like this:
+
 ```
 (704 rows affected)
 Table 'Users'. Scan count 9, logical reads 45184, physical reads 1, page server reads 0, read-ahead reads 44526, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.

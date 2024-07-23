@@ -24,13 +24,14 @@ So you've identified that a WHERE clause is causing query performance issues. Ho
 
 -- Here's our query
 So let's say we have the following query:
+
 ```sql
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users
+ dbo.Users
 WHERE 
-	DisplayName = 'Frank'
+ DisplayName = 'Frank'
 ```
 
 We want to quickly be able to skip to data matching the DisplayName, so we should create an index on that column.
@@ -48,31 +49,33 @@ CREATE INDEX IX_DisplayName_Includes ON dbo.Users (DisplayName) INCLUDE (Locatio
 Having created 2 options, it's important to evaluate which of the options works better.
 
 So test the query as shown.
+
 ```sql
 SET STATISTICS IO ON;
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users WITH (Index = 1) -- use the primary key for a baseline
+ dbo.Users WITH (Index = 1) -- use the primary key for a baseline
 WHERE 
-	DisplayName = 'Frank'
+ DisplayName = 'Frank'
 
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users WITH (Index = IX_DisplayName)
+ dbo.Users WITH (Index = IX_DisplayName)
 WHERE 
-	DisplayName = 'Frank'
+ DisplayName = 'Frank'
 
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users WITH (Index = IX_DisplayName_Includes)
+ dbo.Users WITH (Index = IX_DisplayName_Includes)
 WHERE 
-	DisplayName = 'Frank'
+ DisplayName = 'Frank'
 ```
 
 This returns data like the following.
+
 ```
 (704 rows affected)
 Table 'Users'. Scan count 9, logical reads 45184, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
@@ -89,35 +92,39 @@ So in this example using no index was more than 20 times worse than the first in
 ## Indexing multiple comparisons in a WHERE clause
 
 So if the query becomes a bit more complicated then how would we index that. So for the following:
+
 ```sql
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users
+ dbo.Users
 WHERE 
-	DisplayName = 'Frank'
-	AND Location = 'United States'
+ DisplayName = 'Frank'
+ AND Location = 'United States'
 ```
 
 Based on the index created in the previous section, it looks like the index might be optimal. But if you were to run the following.
+
 ```sql
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users
+ dbo.Users
 WHERE 
-	DisplayName = 'Frank'
---	AND Location = 'United States'
+ DisplayName = 'Frank'
+-- AND Location = 'United States'
 ```
-You will see it's not actually optimal. If it were then all the United States records would be grouped together.
 
+You will see it's not actually optimal. If it were then all the United States records would be grouped together.
 
 ```sql
 CREATE INDEX IX_DisplayName_Location ON dbo.Users (DisplayName,Location)
 ```
-This is a better index for the query. 
+
+This is a better index for the query.
 However reversing the order of the 2 keys may be better. The key that has more uniqueness is the better one to have first.
 This index may be better:
+
 ```sql
 CREATE INDEX IX_Location_DisplayName ON dbo.Users (Location,DisplayName)
 ```
@@ -127,28 +134,28 @@ To test this then try the following:
 ```sql
 SET STATISTICS IO ON
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users WITH (Index = 1)
+ dbo.Users WITH (Index = 1)
 WHERE 
-	DisplayName = 'Frank'
-	AND Location = 'United States'
+ DisplayName = 'Frank'
+ AND Location = 'United States'
 
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
-	dbo.Users WITH (Index = IX_DisplayName_Location)
+ dbo.Users WITH (Index = IX_DisplayName_Location)
 WHERE 
-	DisplayName = 'Frank'
-	AND Location = 'United States'
+ DisplayName = 'Frank'
+ AND Location = 'United States'
 
 SELECT 
-	Id, DisplayName, Location
+ Id, DisplayName, Location
 FROM
   dbo.Users WITH (Index = IX_Location_DisplayName)
 WHERE 
-	DisplayName = 'Frank'
-	AND Location = 'United States'
+ DisplayName = 'Frank'
+ AND Location = 'United States'
 ```
 
 Read the io stats from the messages returned by the query to identify which query performed less logical reads. That is the better index for this query.
