@@ -20,24 +20,24 @@ guid: d84cad17-a3d0-4e1f-aaba-f2cd7c950d86
 
 Have you ever opened a promising project, only to be lost because the README was unclear? It's a frustrating experience and causes you to quickly give up.
 
-Crafting a README is not a one-size-fits-all endeavor. The content that makes a README truly great varies significantly depending on who your audience is and what type of project you're showcasing.
+Crafting a README is not a one-size-fits-all endeavor. The content that makes a README truly great varies significantly depending on who the **audience** is and what **type of project** you're showcasing.
 
 <!--endintro-->
 
-**Why Audience Matters:**
+## Why audience matters
 
-- **Internal Enterprise Software**: Your README needs to cater to developers and stakeholders within your organization. Focus on clear documentation, internal processes, and how the software fits into the company's ecosystem.
-- **Public Open Source Projects**: Your README becomes your project's public face. It needs to attract potential users and contributors, highlighting the project's value, ease of use, and community engagement opportunities.
+- **Internal Enterprise Software**: Your README needs to cater to developers and stakeholders within your organization. Focus on clear documentation, internal processes, and how the software fits into the company's ecosystem
+- **Public Open Source Projects**: Your README becomes your project's public face. It needs to attract potential users and contributors, highlighting the project's value, ease of use, and community engagement opportunities
 
-**Why Repository Type Matters:**
+## Why Repository type matters
 
-- **Packages/Libraries**: Explain how to install, import, and use the package's functionalities. Provide code examples and API documentation.
-- **CLI Tools**: Focus on installation instructions, command-line usage, and helpful examples for different use cases.
-- **Web Applications**: Highlight the app's features, screenshots, and setup instructions. Consider adding live demos or links to hosted versions.
+- **Packages/Libraries**: Explain how to install, import, and use the package's functionalities. Provide code examples and API documentation
+- **CLI Tools**: Focus on installation instructions, command-line usage, and helpful examples for different use cases
+- **Web Applications**: Highlight the app's features, screenshots, and setup instructions. Consider adding live demos or links to hosted versions
 
 By tailoring your README to the specific audience and repository type, you create a more effective document that serves the needs of your readers, whether they are colleagues, potential users, or open-source contributors.
 
-## Examples of Great READMEs
+## Examples of great READMEs
 
 These are examples of what you could include in your README, depending on the audience and repository type, This doesn't mean you need to include all of these sections, but they can serve as a guide to help you create a more effective README.
 
@@ -69,7 +69,7 @@ Some of these would be their own document, that could be linked to from the READ
 - **Community**: Links to forums, chat rooms, or mailing lists for getting help or discussing the project.
 - **Acknowledgments**: Thank contributors and any projects that your project depends on.
 
-## Getting Started with your README
+## Getting started with README files
 
 It can be overwhelming to start writing a README from scratch.
 
@@ -91,3 +91,77 @@ A great tool to help you build your README is [GitHub Simp](https://readmi.xyz/)
 :::
 
 You can also try [readme.so](https://readme.so/), which offers a similar service with more customization options which is maintained by [Katherine Oelsner](https://github.com/octokatherine) from GitHub.
+
+## More examples
+
+::: greybox
+
+#### GordonBeemingCom
+
+- Title
+- Description
+- _How to add database migration_
+
+![](bad-example-gordonbeemingcom.jpg)
+
+:::
+::: bad
+Figure: Bad example - [github.com/GordonBeeming/GordonBeemingCom](https://github.com/GordonBeeming/GordonBeemingCom)
+:::
+
+::: greybox
+
+#### PiStriker
+
+- Title
+- Description
+
+![](bad-example-pistriker.jpg)
+
+:::
+::: bad
+Figure: Bad example - [github.com/SSWConsulting/PiStriker](https://github.com/SSWConsulting/PiStriker)
+:::
+
+::: greybox
+
+#### SSW.CleanArchitecture
+
+- Title
+- Badges
+- Repository Activity
+- README Index
+- Description
+- Features
+- Installation (for users)
+- F5 Experience (for contributors)
+- Publishing updates (for maintainers)
+- Documentation Links
+- Contributing Guidelines
+
+![](good-example-sswcleanarchitecture.jpg)
+
+:::
+::: good
+Figure: Good example - [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
+:::
+
+::: greybox
+
+#### TinaCMS
+
+- Badges
+- Title
+- Screenshots/GIFs
+- Installation
+- Documentation Links
+- Community
+- Contributing Guidelines
+- Acknowledgments
+
+![](good-example-tinacms.jpg)
+
+:::
+::: good
+Figure: Good example - [github.com/tinacms/tinacms](https://github.com/tinacms/tinacms)
+:::
