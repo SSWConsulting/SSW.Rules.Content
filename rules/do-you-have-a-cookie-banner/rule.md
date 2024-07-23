@@ -14,15 +14,15 @@ redirects:
 
 ## The Problem
 
-Now with this acquisition of Tina.io, we have more and more customers and traffic coming from Europe. However, the General Data Protection Regulation (GDPR) for Europe, has been [tightening cookie usage laws since 2018](https://gdpr.eu/cookies/). The GDPR mandates that websites obtain explicit consent from users before storing or retrieving any non-essential information on their devices, such as cookies used for tracking and personalization. This regulation aims to protect users' privacy and give them greater control over their personal data. By implementing a cookie consent banner, we ensure transparency and adhere to legal requirements, thereby fostering trust and safeguarding our users' rights.
+Sites can grow to get a lot of traffic from across the globe, it's important that your site complies with any local regulations. The General Data Protection Regulation (GDPR) for Europe, has been [tightening cookie usage laws since 2018](https://gdpr.eu/cookies/). The GDPR mandates that websites obtain explicit consent from users before storing or retrieving any non-essential information on their devices, such as cookies used for tracking and personalization. This regulation aims to protect users' privacy and give them greater control over their personal data. By implementing a cookie consent banner, we ensure transparency and adhere to legal requirements, thereby fostering trust and safeguarding our users' rights.
 
 ## Do You Have a Cookie Consent Banner?
 
 Creating a Cookie Consent Banner doesnt have to be tricky, it can be done simply in 3 steps.
 
-* Cookie banner UI
-* Creating and sending cookies
-* Setting up GTM consent mode as per user preferences
+1. Cookie banner UI
+2.  Creating and sending cookies
+3. Setting up GTM consent mode as per user preferences
 
 ## Cookie Banner UI
 
