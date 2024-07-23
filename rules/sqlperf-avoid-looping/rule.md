@@ -21,3 +21,9 @@ related:
 It's very inefficient to loop in database queries. You should avoid it wherever possible.
 
 <!--endintro-->
+
+Looping in SQL causes the server to execute each iteration of the loop one after another. If you can get it to do in parallel much better and often GROUP BY or aggregation are a better choice.
+
+There are still times that looping is necessary in a query, but it is something to think long and hard about whether there is a better alternative.
+
+The most common reason for doing looping is to do aggregation of data so be aware of all the built in aggregation functions available as they often negate the need for looping.

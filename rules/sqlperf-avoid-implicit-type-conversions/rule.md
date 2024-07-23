@@ -21,3 +21,17 @@ related:
 Specifying the wrong data types in SQL queries can make the server scan your whole table. That can take ages. Find out more.
 
 <!--endintro-->
+
+It doesn't seem right that getting the data type wrong can result in the database having to walk an entire table, but if we think about the following 2 queries.
+
+```sql
+SELECT * FROM dbo.VotesString WHERE PostId = '9999997'
+SELECT * FROM dbo.VotesString WHERE PostId = 9999997
+```
+Note that in the VotesString table, the PostId is a string column, and there is an index on it.
+
+So the first query can seek straight to the correct row, and return it straight back. Almost no effort. 
+
+But the second case where we are comparing the PostId as an integer, there are multiple integer representations of the same value. For instance '009999997' or in exponential form. Hence the server has to walk through every row of that column and try to cast the string to an integer and then perform the comparison.
+
+So the rule of thumb is always make sure any comparisons have the same data types.
