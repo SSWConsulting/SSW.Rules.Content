@@ -20,3 +20,20 @@ So you've identified that you need to improve the performance of a SQL JOIN. How
 
 <!--endintro-->
 
+Joins behave just like a where clause. So for this statement:
+```sql
+SELECT 
+	u.DisplayName,
+	c.CreationDate,
+FROM
+	dbo.Users u
+	INNER JOIN dbo.Comments c ON u.Id = c.UserId
+Where
+	u.DisplayName = 'Jernej Kavka'
+```
+The following index would provide a performance increase.
+```sql
+CREATE INDEX IX_UserId_INCLUDES_CreationDate on dbo.Comments (UserId, CreationDate)
+```
+
+Note the fact that rather than including CreationDate in an included column it's been included in the indexed columns. That's because dates are a nice small column type, so the extra storage in the index tree nodes is negligible.
