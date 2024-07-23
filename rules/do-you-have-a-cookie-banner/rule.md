@@ -8,6 +8,8 @@ created: 2024-07-22T17:01:26.0000000Z
 authors:
   - title: Joshua Berman
     url: https://ssw.com.au/people/josh-berman
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related: []
 redirects:
 ---
