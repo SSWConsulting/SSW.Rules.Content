@@ -24,9 +24,9 @@ Following up with a phone call can dramatically increase the likelihood of conve
 
 ### Key points
 
-* **Instant Connection:** A phone call provides a direct line to the prospect, allowing you to answer questions and address concerns in real-time
-* **Personal Touch:** Hearing a human voice can create a more personal connection than an email or text message
-* **Immediate Feedback:** You can gauge the prospect's interest and adjust your approach based on their responses
+* **Instant connection:** A phone call provides a direct line to the prospect, allowing you to answer questions and address concerns in real-time
+* **Personal touch:** Hearing a human voice can create a more personal connection than an email or text message
+* **Immediate feedback:** You can gauge the prospect's interest and adjust your approach based on their responses
 
 Most forms only ask for an email address, leaving out the phone number. This limits the ways you can follow up with a lead.
 
