@@ -2,7 +2,7 @@
 seoDescription: Indexing SQL database JOINs.
 type: rule
 archivedreason:
-title: How to Index SQL JOINs?
+title: Do you know how to Index SQL JOINs?
 guid: 303d37d9-2b0b-42a4-824e-1801a4babe7a
 uri: sql-indexing-joins
 created: 2024-07-24T07:26:54.0000000Z
