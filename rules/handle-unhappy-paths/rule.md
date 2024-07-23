@@ -6,7 +6,8 @@ uri: handle-unhappy-paths
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
-related: []
+related:
+ - validation-do-you-avoid-capturing-incorrect-data
 redirects: []
 created: 2024-07-22T00:00:00.0000000Z
 archivedreason: null
