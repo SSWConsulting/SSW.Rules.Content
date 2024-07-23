@@ -41,7 +41,7 @@ FROM
 
 You'll get back output like this:
 
-```
+```text
 (704 rows affected)
 Table 'Users'. Scan count 9, logical reads 45184, physical reads 1, page server reads 0, read-ahead reads 44526, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
 
