@@ -92,7 +92,7 @@ A great tool to help you build your README is [GitHub Simp](https://readmi.xyz/)
 
 You can also try [readme.so](https://readme.so/), which offers a similar service with more customization options which is maintained by [Katherine Oelsner](https://github.com/octokatherine) from GitHub.
 
-### Bad Examples
+### Examples
 
 ::: greybox
 
@@ -118,8 +118,6 @@ Figure: Bad example - [github.com/GordonBeeming/GordonBeemingCom](https://github
 ::: bad
 Figure: Bad example - [github.com/SSWConsulting/PiStriker](https://github.com/SSWConsulting/PiStriker)
 :::
-
-### Good Examples
 
 ::: greybox
 
