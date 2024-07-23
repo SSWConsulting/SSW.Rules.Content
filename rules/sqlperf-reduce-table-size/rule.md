@@ -23,6 +23,7 @@ Reading data from smaller tables is much faster. How can you keep the amount of 
 <!--endintro-->
 
 There are a number of reasons to keep table sizes small. 
+
 - Large tables take longer to read and update
 - They also take up more space in the databases buffer cache
 
