@@ -33,5 +33,3 @@ This is not an unusual statement to see. However statements of this type should 
 * It takes more network bandwidth to transmit the results
 * It takes extra CPU at the database and the caller to encode/decode the response
 * In cases where all the columns required are available in an index, retrieving all columns can cause reading an index and then the main table to retrieve the remaining columns
-
-
