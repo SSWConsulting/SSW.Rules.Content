@@ -30,15 +30,21 @@ Making phone numbers optional on forms can improve user experience and increase 
 * **Higher Engagement**: Optional phone numbers can lead to higher engagement as users feel more comfortable sharing information
 
 ::: bad
+
 ![Figure: Bad example - The online booking form misses the opportunity to collect a phone number, reducing follow-up options](online-form-without-phone-number-field.jpg)
+
 :::
 
 ::: bad
+
 ![Figure: Bad example - The online booking form lists the phone number as mandatory, decreasing the chance of form completion](online-form-with-phone-number-mandatory.jpg)
+
 :::
 
 ::: good
+
 ![Figure: Good example - The online booking form collects all essential contact information, with the phone number as optional](online-form-with-phone-number-not-mandatory.jpg)
+
 :::
 
 ## The importance of phone follow-ups
