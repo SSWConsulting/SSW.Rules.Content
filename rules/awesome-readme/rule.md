@@ -98,34 +98,41 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 
 #### GordonBeemingCom
 
+[github.com/GordonBeeming/GordonBeemingCom](https://github.com/GordonBeeming/GordonBeemingCom)
+
 - Title
 - Description
 - _How to add database migration_
 
-![](bad-example-gordonbeemingcom.jpg)
+::: bad
+![Figure: Bad example - Not much useful information to anyone looking to contribute to the repository](bad-example-gordonbeemingcom.jpg)
+:::
 
 :::
-::: bad
-Figure: Bad example - [github.com/GordonBeeming/GordonBeemingCom](https://github.com/GordonBeeming/GordonBeemingCom)
-:::
+
 
 ::: greybox
 
 #### PiStriker
 
+[github.com/SSWConsulting/PiStriker](https://github.com/SSWConsulting/PiStriker)
+
 - Title
 - Description
 
-![](bad-example-pistriker.jpg)
+
+::: bad
+![Figure: Bad example - No information for how to contribute or use the repository](bad-example-pistriker.jpg)
+:::
 
 :::
-::: bad
-Figure: Bad example - [github.com/SSWConsulting/PiStriker](https://github.com/SSWConsulting/PiStriker)
-:::
+
 
 ::: greybox
 
 #### SSW.CleanArchitecture
+
+[github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
 
 - Title
 - Badges
@@ -139,16 +146,19 @@ Figure: Bad example - [github.com/SSWConsulting/PiStriker](https://github.com/SS
 - Documentation Links
 - Contributing Guidelines
 
-![](good-example-sswcleanarchitecture.jpg)
+
+::: good
+![Figure: Good example - Lots of great information for developers to know what they'd get with the SSW Clean Architecture template](good-example-sswcleanarchitecture.jpg)
+:::
 
 :::
-::: good
-Figure: Good example - [github.com/SSWConsulting/SSW.CleanArchitecture](https://github.com/SSWConsulting/SSW.CleanArchitecture)
-:::
+
 
 ::: greybox
 
 #### TinaCMS
+
+[github.com/tinacms/tinacms](https://github.com/tinacms/tinacms)
 
 - Badges
 - Title
@@ -159,9 +169,9 @@ Figure: Good example - [github.com/SSWConsulting/SSW.CleanArchitecture](https://
 - Contributing Guidelines
 - Acknowledgments
 
-![](good-example-tinacms.jpg)
+::: good
+![Figure: Good example - Plenty of useful information for contributors and customers of TinaCMS](good-example-tinacms.jpg)
+:::
 
 :::
-::: good
-Figure: Good example - [github.com/tinacms/tinacms](https://github.com/tinacms/tinacms)
-:::
+
