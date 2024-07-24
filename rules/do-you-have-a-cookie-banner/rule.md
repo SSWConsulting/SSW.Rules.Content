@@ -6,7 +6,7 @@ guid: cc7e551a-bcc3-4e04-858e-3d2182f94a81
 uri: do-you-have-a-cookie-banner
 created: 2024-07-22T17:01:26.0000000Z
 authors:
-  - title: Joshua Berman
+  - title: Josh Berman
     url: https://ssw.com.au/people/josh-berman
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
