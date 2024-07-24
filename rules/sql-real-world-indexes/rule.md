@@ -50,4 +50,4 @@ ORDER BY
 
 Note how the Name and Date which are the index keys, are included in the ORDER BY clause and the Location is only in the requested columns.
 
-If you'd like to know more or see this in action, check out `youtube: https://youtu.be/l18ltcOVN4I`
+If you'd like to know more or see this in action, check out [How to Plan for Database Performance](https://youtu.be/l18ltcOVN4I)
