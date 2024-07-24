@@ -94,8 +94,6 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 
 ## More examples
 
-::: greybox
-
 #### GordonBeemingCom
 
 [github.com/GordonBeeming/GordonBeemingCom](https://github.com/GordonBeeming/GordonBeemingCom)
@@ -108,10 +106,6 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 ![Figure: Bad example - Not much useful information to anyone looking to contribute to the repository](bad-example-gordonbeemingcom.jpg)
 :::
 
-:::
-
-
-::: greybox
 
 #### PiStriker
 
@@ -125,10 +119,6 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 ![Figure: Bad example - No information for how to contribute or use the repository](bad-example-pistriker.jpg)
 :::
 
-:::
-
-
-::: greybox
 
 #### SSW.CleanArchitecture
 
@@ -151,10 +141,6 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 ![Figure: Good example - Lots of great information for developers to know what they'd get with the SSW Clean Architecture template](good-example-sswcleanarchitecture.jpg)
 :::
 
-:::
-
-
-::: greybox
 
 #### TinaCMS
 
@@ -171,7 +157,5 @@ You can also try [readme.so](https://readme.so/), which offers a similar service
 
 ::: good
 ![Figure: Good example - Plenty of useful information for contributors and customers of TinaCMS](good-example-tinacms.jpg)
-:::
-
 :::
 
