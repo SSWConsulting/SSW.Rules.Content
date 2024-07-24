@@ -2,7 +2,7 @@
 seoDescription: How to index SQL ORDER BY clauses.
 type: rule
 archivedreason:
-title: Do you know how to Index SQL ORDER BY clauses?
+title: Do you know how to index SQL ORDER BY clauses?
 guid: 0c72c6f6-3a18-42a4-a733-5d5147d89506
 uri: sql-indexing-orderby
 created: 2024-07-22T07:26:54.0000000Z

@@ -2,7 +2,7 @@
 seoDescription: How to index SQL WHERE clauses.
 type: rule
 archivedreason:
-title: Do You Know How to Index SQL WHERE Clauses?
+title: Do you know how to index SQL WHERE clauses?
 guid: 65a83a45-bcdb-4eff-ad50-cca61011ab1a
 uri: sql-indexing-where
 created: 2024-07-22T07:26:54.0000000Z

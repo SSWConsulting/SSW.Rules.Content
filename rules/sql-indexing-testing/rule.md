@@ -2,7 +2,7 @@
 seoDescription: How to test the performance of your SQL indexes on SQL Server
 type: rule
 archivedreason:
-title: Do You Know How to Test Your Indexes in SQL Server?
+title: Do you know how to test your indexes in SQL Server?
 guid: a0a2192c-3615-424e-9119-9a4db7729d58
 uri: sql-indexing-testing
 created: 2024-07-22T07:26:54.0000000Z

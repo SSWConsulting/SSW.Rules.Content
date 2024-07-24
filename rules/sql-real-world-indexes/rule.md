@@ -2,7 +2,7 @@
 seoDescription: Understanding how SQL indexes work and common real world ways of visualising them
 type: rule
 archivedreason:
-title: Do You Know How to visualise SQL indexes?
+title: Do you know how to visualise SQL indexes?
 guid: 668bb820-5ef4-4f8e-872f-04e1846ea982
 uri: sql-real-world-indexes
 created: 2024-07-24T07:26:54.0000000Z
@@ -48,6 +48,6 @@ ORDER BY
   Name, Date
 ```
 
-Note how the Name and Date which are the index key go in the ORDER BY and the Location is only in the requested columns.
+Note how the Name and Date which are the index keys, are included in the ORDER BY clause and the Location is only in the requested columns.
 
 If you'd like to know more or see this in action, check out `youtube: https://youtu.be/l18ltcOVN4I`
