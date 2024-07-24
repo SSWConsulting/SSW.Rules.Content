@@ -25,6 +25,7 @@ So you've created some indexes on your database tables. How can you tell if they
 You'd be surprised to find out how often the indexes that have been defined on a table are not being used. As such it's worth checking that your indexes are being used.
 
 ## Ways to verify
+
 If you know the exact query being run, you can simply run the query in SQL Server Management Studio or Azure Data Studio with "Include Actual Execution Plan" turned on. Then check the execution plan to verify what indexes were used.
 
 The second option is to use the query below. It retrieves the index usage stats. The WHERE clause can be adjusted to ensure you only get the indexes you are interested in.
