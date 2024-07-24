@@ -18,7 +18,7 @@ related:
   - sqlperf-minimise-large-writes
 ---
 
-Specifying the wrong data types in SQL queries can make the server scan your whole table. That can take ages. Find out more.
+Specifying the wrong data types in SQL queries can make the server scan your whole table. That can take ages.
 
 <!--endintro-->
 
@@ -29,7 +29,7 @@ SELECT * FROM dbo.VotesString WHERE PostId = '9999997'
 SELECT * FROM dbo.VotesString WHERE PostId = 9999997
 ```
 
-Note that in the VotesString table, the PostId is a string column, and there is an index on it.
+**Note** In the VotesString table, the PostId is a string column, and there is an index on it.
 
 So the first query can seek straight to the correct row, and return it straight back. Almost no effort.
 

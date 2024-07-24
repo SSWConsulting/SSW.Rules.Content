@@ -18,7 +18,7 @@ related:
   - sqlperf-minimise-large-writes
 ---
 
-Do you only SELECT the columns that your application is about to use?
+It can be expensive retrieving all the columns of a table. Find out why.
 
 <!--endintro-->
 
