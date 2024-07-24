@@ -97,7 +97,7 @@ Figure: Good example - Clear caption description
 
 ### Tip #5: Video captions should be the title + length
 
-When embedding videos, include a caption with **the video title** + **video length** in brackets. 
+When embedding videos, include a caption with **the video title** + **video length** in brackets.
 
 **Note:** As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
 
