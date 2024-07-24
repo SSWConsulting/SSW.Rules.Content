@@ -16,6 +16,10 @@ index:
 - sqlperf-avoid-looping
 - sqlperf-use-and-instead-of-or
 - sqlperf-minimise-large-writes
+- sqlperf-wildcards
+- sqlperf-join-over-where
+- sqlperf-too-many-joins
+- sqlperf-top-for-sampling
 ---
 
 Here are some of the typical things that all SQL Server DBAs and Database developers should know about performance and how to identify the causes of poor performance. These should get you out of trouble the majority of the time.
