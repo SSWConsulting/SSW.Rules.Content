@@ -12,14 +12,14 @@ created: 2024-07-22T13:42:55.753Z
 guid: d3a57f29-ef1d-4932-9ae4-cf8296f6b3d8
 ---
 
-When users fill out an online form to make a booking request, it's common for businesses to collect basic contact details. Unfortunately, many online forms neglect to ask for a phone number. This oversight can lead to missed opportunities for follow-up or converting a lead into a customer. 
+When users fill out an online form to make a booking request, it's common for businesses to collect basic contact details. Unfortunately, many online forms neglect to ask for a phone number. This oversight can lead to missed opportunities for follow-up or converting a lead into a customer.
 
 By collecting phone numbers and following up with a phone call, you can significantly increase your chances of converting online leads into customers. Make sure your forms are designed to gather all necessary contact information, and prioritize personal, immediate follow-ups to build trust and engagement with your prospects.
 
 <!--endintro-->
 ::: greybox
 
-This does not apply for online forms designed for marketing purposes. Research indicates that online marketing forms, such as offering a free ebook, that request a phone number in addition to an email address, can negatively affect the form's completion rate. It is generally advised to keep these forms short and request only an email address. To ensure these marketing forms comply with [consent laws](https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/consent-to-the-handling-of-personal-information), they need to include a separate, clear consent checkbox (not pre-checked) to allow a person to opt in for further communications. 
+This does not apply for online forms designed for marketing purposes. Research indicates that online marketing forms, such as offering a free ebook, that request a phone number in addition to an email address, can negatively affect the form's completion rate. It is generally advised to keep these forms short and request only an email address. To ensure these marketing forms comply with [consent laws](https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/consent-to-the-handling-of-personal-information), they need to include a separate, clear consent checkbox (not pre-checked) to allow a person to opt in for further communications.
 
 :::
 
