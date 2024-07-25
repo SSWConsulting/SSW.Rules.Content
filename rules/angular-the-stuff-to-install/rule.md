@@ -45,7 +45,7 @@ If you get errors, follow instructions in the links:
 
 ### Which IDE should I use for developing Angular applications?
 
-We recommend[VSCode](http://code.visualstudio.com). Read more on [Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
+We recommend [VSCode](http://code.visualstudio.com). Read more on [Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
 
 ### Other tools to consider
 
