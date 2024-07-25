@@ -28,24 +28,23 @@ Autopod offers a robust solution for streamlining the editing of multi-camera in
 
 #### Step-by-Step Guide
 
-1. **Install AutoPod**: Download, install and subscribe to AutoPod - **https://www.autopod.fm**
+1. **[Install AutoPod](https://www.autopod.fm/)**: Download, install and subscribe to AutoPod 
 2. **Import Footage**: Begin by importing all camera angles and audio tracks into your editing software.
 3. **Sync Footage**: Use Autopod to automatically sync the different camera angles based on audio waveforms.
 4. **Initial Cuts**: Allow Autopod to make initial cuts, switching between angles based on speaker activity and other predefined rules.
 5. **Review and Refine**: Review the automated edits and make any necessary adjustments to ensure the flow and pacing meet your standards.
 6. **Export**: Once satisfied with the edits, export the final video for delivery.
 
-### Examples of Autopod in Action
+### Examples of AutoPod in Action
 
 ::: greybox
-Using Autopod to cut multi-camera footage for an interview with multiple speakers.
+Using AutoPod to cut multi-camera footage for an interview with multiple speakers.
+`youtube: https://youtu.be/iIIwEvu4KSo`
+
+Figure: Good Example ✅- Autopod efficiently handles synchronization and primary cuts, allowing the editor to focus on refining the content.
 :::
 ::: good
 
-`youtube: https://youtu.be/iIIwEvu4KSo`
-
-
-Figure: Good Example ✅- Autopod efficiently handles synchronization and primary cuts, allowing the editor to focus on refining the content.
 :::
 
 ### Conclusion
