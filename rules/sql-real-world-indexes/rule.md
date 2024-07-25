@@ -22,7 +22,9 @@ It's hard to understand what indexes are on SQL Databases. Find out how to visua
 
 The reason that indexes are called indexes is because they are very similar to how indexes in books work. As such, a good way to understand what indexes might work well is to think of the rows of data in your table as the pages in a book. Then based on the information think about what would be the best index you might find at the end of the book to allow you to quickly answer the query.
 
-For instance in a recipe book that contains main courses, you might want an index of the main ingredient as people may want to quickly find all of the chicken dishes. You may also have an index based on the recipe name.
+For instance in a recipe book that contains many types of dishes, you might want an index of the type of recipe. You may also have an index based on the recipe name.
+
+![Figure: Typical book index](index.png)
 
 Another useful thing to know is that if you'd like to see what the index looks like and try using it manually to fulfil your query (this a great way to verify you got the index correct) then you can do the following.
 
