@@ -17,6 +17,7 @@ index:
 - use-power-platform-build-tools-to-automate-your-power-apps-deployments
 - when-to-use-dataverse
 - when-to-use-low-code
+- build-cost-effective-power-apps
 
 ---
 

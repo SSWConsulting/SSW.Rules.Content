@@ -17,10 +17,8 @@ redirects:
   - do-you-use-architectural-decision-records
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
-
 ---
-
-Architectural Decision Records (ADRs) are lightweight documents use to record important decisions in your project, and the reasons behind them.
+Architectural Decision Records (ADRs) are lightweight documents used to record important decisions in your project, and the reasons behind them.
 
 These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".
 
@@ -115,7 +113,9 @@ log4brains preview
 
 ## ADR examples
 
-![Figure: Example ADR from SSW.CleanArchitecture](adr.png)
+![Figure: SSW.CleanArchitecture KB showing all ADRs](ssw-clean-architecture-template-adr.png)
+
+![Figure: Example of a single ADR from SSW.CleanArchitecture](adr.png)
 
 You can see more examples of ADRs with log4brains in action on our [SSW.CleanArchitecture template](https://sswconsulting.github.io/SSW.CleanArchitecture/).
 

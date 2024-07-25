@@ -95,7 +95,40 @@ Figure: Bad example - Vague caption description
 Figure: Good example - Clear caption description
 :::
 
-### Tip #5: AI images - include your prompt
+### Tip #5: Video captions should be the title + length
+
+When embedding videos, include a caption with **the video title** + **video length** in brackets.
+
+**Note:** As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
+
+::: greybox
+{{ VIDEO }}  
+**Figure: Scrum video**
+:::
+::: bad
+Figure: Bad example - Using "Figure:" for a video caption + a vague text
+:::
+
+::: greybox
+{{ VIDEO }}
+**Video: Intro to Scrum in Under 10 Minutes (9 min)**
+:::
+::: good
+Figure: Good example - Video caption following the standard "Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})"
+:::
+
+This helps:
+
+* Giving a brief text summary of the video
+* Getting some extra Google Juice
+* Letting users know what to expect in terms of time required to watch
+* Serving as a reminder in case that video ever gets removed by its owner
+
+::: info
+**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
+:::
+
+### Tip #6: AI images - include your prompt
 
 If you're sharing an AI generated image, show others how you made it.
 
@@ -115,33 +148,16 @@ Figure: Bad example - Doesn't educate others about AI images
 Figure: Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption
 :::
 
-### Tip #6: Add the titles + length on video captions
-
-When embedding videos, include a caption with **the video title** + **video length** in brackets. As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
-
-E.g. "**Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})**"
-
-This helps:
-
-* Giving a brief text summary of the video
-* Getting some extra Google Juice
-* Letting users know what to expect in terms of time required to watch
-* Serving as a reminder in case that video ever gets removed by its owner
-
-::: info
-**Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
-:::
-
 ### Tip #7: Link people's names to their profiles
 
-When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](https://ssw.com.au/people)).
+When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
 
 ::: greybox
 {{ VIDEO }}  
-**Figure: In this video, Bob talks about Outlook**
+**Video: In this video, Bob talks about Outlook**
 :::
 ::: bad
-Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link
+Figure: Bad example - A vague text with no link to Bob's profile. ALso missing the video length
 :::
 
 ::: greybox
@@ -149,5 +165,5 @@ Figure: Bad example - Using "Figure:" for a video caption + a vague text + no li
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
-Figure: Good example - A descriptive caption including "Video: " prefix + profile link + video length at the end
+Figure: Good example - A descriptive caption using the video title + profile link + video length at the end
 :::

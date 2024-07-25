@@ -27,6 +27,7 @@ index:
 - avoid-using-uncs-in-hrefs
 - check-your-website-is-running
 - progressive-web-app
+- use-dynamic-viewport-units
 - improve-performance-with-lazy-loading-of-media-assets
 - use-right-site-search-for-your-website
 - do-not-use-linkbutton

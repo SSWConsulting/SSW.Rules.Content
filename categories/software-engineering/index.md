@@ -51,6 +51,7 @@ index:
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
 - rules-to-better-sql-databases-performance
+- rules-to-better-sql-databases-indexing
 - rules-to-better-unit-tests
 - rules-to-better-naming-conventions
 - rules-to-better-entity-framework
