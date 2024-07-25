@@ -23,7 +23,6 @@ By collecting phone numbers and following up with a phone call, you can signific
 
 :::
 
-
 ## The importance of phone follow-ups
 
 Following up with a phone call can dramatically increase the likelihood of converting a lead into a customer. A phone call adds a personal touch, builds trust, and allows for immediate engagement and clarification. In fact, a majority of sales are completed over the phone, highlighting the importance of this method.
