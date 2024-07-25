@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know you should only Roll Forward?
 seoDescription: Learn that you should only Roll Forward and not Roll Backward.
-uri: software-engineers-should-only-roll-forward
+uri: do-you-only-roll-forward
 authors:
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque
