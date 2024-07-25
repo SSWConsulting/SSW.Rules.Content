@@ -9,6 +9,7 @@ index:
 - sql-indexing-where
 - sql-indexing-testing
 - sql-indexing-joins
+- sql-automatic-index-tuning
 
 ---
 Heres how to get started with indexing. This covers the basics to help a developer get started creating indexes on SQL databases.
