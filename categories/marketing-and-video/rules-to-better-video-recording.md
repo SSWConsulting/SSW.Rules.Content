@@ -68,6 +68,7 @@ index:
   - tech-check
   - establish-the-world
   - recording-screen
+  - use-autopod-for-editing-multi-camera-interviews
 ---
 
 Need a video for your business? Check [SSW's Video Production consulting page](https://ssw.com.au/consulting/video-production).
