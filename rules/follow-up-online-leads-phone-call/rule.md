@@ -17,6 +17,11 @@ When users fill out a form to make an appointment or download an ebook, it's com
 By collecting phone numbers and following up with a phone call, you can significantly increase your chances of converting online leads into customers. Make sure your forms are designed to gather all necessary contact information, and prioritize personal, immediate follow-ups to build trust and engagement with your prospects.
 
 <!--endintro-->
+::: greybox
+
+⚠️To comply with [privacy laws](https://www.oaic.gov.au/privacy/your-privacy-rights/your-personal-information/consent-to-the-handling-of-personal-information), forms that collect personal information must include a distinct, unselected consent checkbox. This checkbox allows individuals to opt in for additional communications beyond the original purpose for which the data is being collected.  
+
+:::
 
 ## The importance of phone follow-ups
 
