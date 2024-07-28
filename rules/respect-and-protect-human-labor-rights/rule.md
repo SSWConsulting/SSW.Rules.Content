@@ -1,7 +1,7 @@
 ---
-seoDescription: Respecting and protecting fundamental human and labour rights for workers.
 type: rule
 title: Do you respect and protect fundamental human and labour rights?
+seoDescription: Respecting and protecting fundamental human and labour rights for workers.
 uri: respect-and-protect-human-labor-rights
 authors:
   - title: Michael Smedley
@@ -9,7 +9,6 @@ authors:
 created: 2024-07-03T10:42:55.753Z
 guid: 9d80fdda-1234-4567-8abc-9aefbd12c345
 ---
-
 Creating an inclusive, fair, and respectful workplace is essential for the well-being and productivity of employees. Ensuring the protection of fundamental human and labour rights is not only a legal obligation but also a moral imperative that benefits the entire organization.
 
 <!--endintro-->
@@ -49,21 +48,5 @@ To ensure these principles are effectively implemented, follow these tips:
 * **Transparent Policies:** Establish clear, transparent policies on employment practices, pay scales, working conditions, and grievance mechanisms.
 * **Monitoring and Audits:** Regularly monitor and audit employment practices to ensure compliance with human and labour rights standards.
 * **Worker Feedback:** Encourage and facilitate feedback from workers regarding workplace conditions and practices.
-
-### Good and Bad Examples
-
-::: greybox
-A company requires all new employees to hand over their passports for "safekeeping" as a condition of employment.
-:::
-::: bad
-Figure: Bad Example - This practice restricts workers' freedom and can lead to coercion.
-:::
-
-::: greybox
-A company provides regular training on diversity and inclusion, has transparent policies on fair wages, and offers employees flexible working hours and adequate rest periods.
-:::
-::: good
-Figure: Good Example - Promoting a respectful and inclusive workplace with fair pay and working conditions.
-:::
 
 By adhering to these principles and practices, organizations can ensure they are respecting and protecting the fundamental human and labor rights of their workers, creating a positive and productive work environment.
