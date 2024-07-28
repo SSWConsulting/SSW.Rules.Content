@@ -78,6 +78,7 @@ index:
 - build-inter-office-interaction
 - efficiency-do-you-always-try-to-work-in-pairs
 - gather-team-opinions
+- call-your-system-administrators-before-raising-a-ticket
 - hand-over-responsibilities
 ---
  
