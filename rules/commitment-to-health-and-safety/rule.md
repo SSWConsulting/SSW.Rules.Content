@@ -1,7 +1,7 @@
 ---
-seoDescription: Demonstrating commitment to health and safety in the workplace.
 type: rule
 title: Do you demonstrate commitment to health and safety?
+seoDescription: Demonstrating commitment to health and safety in the workplace.
 uri: commitment-to-health-and-safety
 authors:
   - title: Michael Smedley
@@ -9,7 +9,6 @@ authors:
 created: 2024-07-03T11:00:00.000Z
 guid: 4a5f2d3b-6789-1234-9abc-dc0e12345678
 ---
-
 Ensuring health and safety in the workplace is a fundamental responsibility for all businesses. A commitment to health and safety not only protects workers but also fosters a positive and productive work environment. This commitment should be evident in all aspects of business operations, from adhering to safety standards to promoting a culture of safe behavior.
 
 <!--endintro-->
@@ -65,7 +64,7 @@ In the event of a fire:
 Inform SSW of any medical conditions, illnesses, or diseases to protect other staff. Provide a current medical certificate if applicable.
 
 ::: greybox
-To: <SSWAccounts@ssw.com.au>
+To: [SSWAccounts@ssw.com.au](mailto:SSWAccounts@ssw.com.au)
 Cc: Adam
 Subject: {{ YOUR NAME }} - My medical conditions (Medical Certificate attached)
 Attached is my Medical Certificate.
@@ -93,21 +92,5 @@ Know the location of the first aid kit in your office. For example:
 * Brisbane: In the kitchen to the left of the fridge.
 * Melbourne: In the equipment drawers next to the kitchen.
 * Newcastle: In the large cupboard to the right of the fire escape.
-
-### Good and Bad Examples
-
-::: greybox
-A company neglects to provide necessary safety training to its employees, leading to frequent workplace accidents.
-:::
-::: bad
-Figure: Bad Example - Lack of safety training results in increased workplace accidents.
-:::
-
-::: greybox
-A company conducts regular safety audits, provides comprehensive training, and rewards employees for reporting safety hazards and following safety protocols.
-:::
-::: good
-Figure: Good Example - Proactive approach to safety ensures a safe working environment.
-:::
 
 By consistently demonstrating a commitment to health and safety, businesses can protect their employees, enhance productivity, and build a reputation as a responsible and caring organization.
