@@ -1,7 +1,7 @@
 ---
-seoDescription: Supporting community and indigenous engagement initiatives.
 type: rule
 title: Do you actively support community and indigenous engagement initiatives?
+seoDescription: Supporting community and indigenous engagement initiatives.
 uri: support-community-indigenous-engagement
 authors:
   - title: Michael Smedley
@@ -9,7 +9,6 @@ authors:
 created: 2024-07-03T11:30:00.000Z
 guid: 6b7c4d8e-9123-4567-9f2a-abc3d456e789
 ---
-
 Supporting community and indigenous engagement initiatives is vital for fostering strong relationships with the communities in which we operate. By actively engaging with and supporting local, indigenous, small to medium-sized, and regional businesses, we can promote economic development and sustainability.
 
 <!--endintro-->
@@ -41,21 +40,5 @@ To put these principles into practice, consider the following tips:
 * **Training Programs:** Develop training programs to enhance the skills of local and indigenous workers, preparing them for employment within your business.
 * **Mentorship and Support:** Provide mentorship and support to local and indigenous businesses, helping them grow and succeed.
 * **Transparent Reporting:** Maintain transparency in your community engagement efforts by reporting on your initiatives and their impacts regularly.
-
-### Good and Bad Examples
-
-::: greybox
-A company ignores local suppliers and opts for cheaper, distant alternatives, neglecting the potential benefits to the local community.
-:::
-::: bad
-Figure: Bad Example - Neglecting local suppliers can harm community relationships and economic growth.
-:::
-
-::: greybox
-A company actively partners with indigenous organizations, hires local workers, and sources materials from small regional businesses.
-:::
-::: good
-Figure: Good Example - Supporting local and indigenous communities fosters economic development and strong community ties.
-:::
 
 By actively supporting community and indigenous engagement initiatives, businesses can create a positive impact, contributing to the economic and social well-being of the communities in which they operate.
