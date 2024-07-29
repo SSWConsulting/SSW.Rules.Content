@@ -11,11 +11,16 @@ seoDescription: Protecting your Remote Desktop connections is crucial in today's
   to gain access, significantly reducing the risk of unauthorized access.
 uri: remote-desktop-gateway-mfa
 authors:
-  - title: ""
+  - title: Kiki Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+    img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 created: 2024-07-28T23:54:43.601Z
 guid: bc8ab9ff-4cae-457b-852e-b61660a79801
 ---
 Protecting your Remote Desktop connections is crucial in today's cybersecurity landscape. One effective way to enhance security is by using Azure MFA (Multi-Factor Authentication) in conjunction with the Azure MFA NPS (Network Policy Server) extension. This setup ensures that even if an attacker obtains a user's credentials, they still need a second form of authentication to gain access, significantly reducing the risk of unauthorized access.
+
+`youtube: https://www.youtube.com/embed/qV9wddunpCY?si=RR0P8UBJ0wnYSXqn`
+**Video: Identity Architecture: MFA with RADIUS | Microsoft Entra ID (8 min)**
 
 ##### Why Use Azure MFA to Protect Servers?
 
@@ -24,7 +29,7 @@ Protecting your Remote Desktop connections is crucial in today's cybersecurity l
 
 <!--endintro-->
 
-You can follow along [Microsoft's documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-nps-extension) to implement this at your company, or you can follow the summary below, if you already fill the prerequisites:
+You can follow along [Microsoft's documentation](https://learn.microsoft.com/en-us/entra/identity/authentication/howto-mfa-nps-extension) to implement this at your company and follow the summary below, if you already fill the prerequisites:
 
 1. ##### Enable the NPS role on a domain-joined server
 
