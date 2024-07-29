@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you know you should only Roll Forward?
 seoDescription: Learn that you should only Roll Forward and not Roll Backward.
 uri: do-you-only-roll-forward
