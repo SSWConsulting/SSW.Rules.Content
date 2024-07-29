@@ -1,7 +1,8 @@
 ---
-seoDescription: Repaying technical debt is crucial to maintain software velocity and avoid feature stagnation.
 type: rule
 title: Do you know the importance of paying back Technical Debt?
+seoDescription: Repaying technical debt is crucial to maintain software velocity
+  and avoid feature stagnation.
 uri: technical-debt
 authors:
   - title: Matt Goldman
@@ -23,7 +24,6 @@ created: 2020-12-16T23:19:05.000Z
 archivedreason: null
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
 ---
-
 ### What is Technical Debt?
 
 Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
