@@ -16,12 +16,12 @@ related:
   - sql-indexing-where
 ---
 
-Feel like you don't know enough to manage the indexes on your SQL databases.
-SQL Server and Azure SQL databases have that covered for you.
+Feel like you don't know enough to manage the indexes on your SQL databases. SQL Server and Azure SQL databases have that covered for you.
+
 <!--endintro-->
 
 SQL Server 2017 introduced new features that make day to day database management much easier. The Automatic Tuning features can either be used to make recommendations of changes to indexes and query plans, or it can be allowed to take control and make the recommended changes without user intervention.
 
 In small organisations without a dedicated database administrator, turning these features on is strongly recommended. Also for less important servers it can free up the database administrator's time to deal with only the most business critical databases and servers.
 
- [For detailed information on this feature.](https://learn.microsoft.com/en-us/sql/relational-databases/automatic-tuning/)
+See [detailed information on this feature](https://learn.microsoft.com/en-us/sql/relational-databases/automatic-tuning/).
