@@ -114,4 +114,3 @@ At the Sprint Planning:
 ![Figure: Screenshot of Technical Debt on backlog](techdebt-backlog.png)
 
 ![Figure: SugarLearning architecture diagram](techdebt-architecture.png)
-
