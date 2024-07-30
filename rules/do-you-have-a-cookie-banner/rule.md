@@ -85,4 +85,4 @@ For example, the Tina.io cookie:
 Now that you have successfully created, customized and transmitted user cookies. Follow the following YouTube video to configure your Google Tag Manager.
 
 `youtube: yZjGzfWDc0Y`
-**Video: Guide to configuring consent code in Google Tag Manager**
+**Video: Guide to configuring consent code in Google Tag Manager (23 min)**
