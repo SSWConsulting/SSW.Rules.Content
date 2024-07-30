@@ -12,7 +12,7 @@ guid: 6cd97f44-7b65-4718-bf57-0db7f92d5c75
 
 ---
 
-[Event storming](/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process. 
+[Event storming](/event-storming) is fun! Running a successful workshop requires preparation and understanding of the Event Storming process.
 
 Every workshop has an Event Storming Master (aka Facilitator or Moderator) to guide participants through the workshop.
 
@@ -34,9 +34,9 @@ Before a workshop, the Event Storming Master is responsible for preparing the Ev
 
 It is important to invite the right people to the workshop. It is a problem if you're missing key participants or having too many participants.
 
-- Developers or Engineers usually ask the right questions
-- Domain experts are the people who will answer the questions
-- Dedicated Event Storming Master that will help guide the participants through the workshop
+* Developers or Engineers usually ask the right questions
+* Domain experts are the people who will answer the questions
+* Dedicated Event Storming Master that will help guide the participants through the workshop
 
 #### Schedule the right amount of time
 
@@ -49,7 +49,7 @@ During a [Specification Review](/conduct-a-spec-review) you can schedule this wo
 During a workshop, the Event Storming Master is responsible for helping participants to:
 
 * Follow the Event Storming rules
-* Focus on the learning the modelling of the business domain 
+* Focus on the learning the modelling of the business domain
 * Ask the right questions when getting stuck
 * Timeboxing the discovery steps
 
@@ -57,14 +57,14 @@ During a workshop, the Event Storming Master is responsible for helping particip
 
 * Different colored sticky notes
 * Marker pens
-* Long roll of paper or 
-* Wide white-board or 
+* Long roll of paper or
+* Wide white-board or
 * Office glass walls or windows
 
 It is important to make sure that the common terms are recorded and clearly visible during the workshop.
 
-Finally, make sure that the legend (explaining all the key concepts of Event Storming) is clearly visible. 
- 
+Finally, make sure that the legend (explaining all the key concepts of Event Storming) is clearly visible.
+
 ## Preparation - Choosing the right visualization tool
 
 Real-time collaboration (remote or in-person) has become the default choice for many teams. Instead of sticky notes and white-boards we can use tools such as:
@@ -94,7 +94,7 @@ Use the <svg width="1.4em" height="1em" style="display: inline-block;"><rect wid
 
 The domain experts and stakeholders can simply start recording the events that occur in a business domain or process. The events don't necessarily need to be in a precise timeline order (yet).
 
-Domain events are always rooted in the **past tense** to represent a fact. Facts cannot be changed because they actually happened. 
+Domain events are always rooted in the **past tense** to represent a fact. Facts cannot be changed because they actually happened.
 
 For example, we can have domain events such as 'Invoice Created', 'Email sent', 'Timesheet Updated'.
 
@@ -114,16 +114,13 @@ This will make it clear to participants that not everyone is aligned and will pr
 
 Use the <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg> blue sticky notes for Commands (also known as Actions).
 
-
 Use the light <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> yellow sticky notes for Users / Actors / Personas.
-
 
 **Commands** are the result of a **User** making a decisions and executing an operation.
 
 In this step we dive into the Mechanics and Core components of the domain. The discussions about commands and actions will prompt us to ask questions such as "Why does user X need to perform a particular command?"
 
 Once the events ordered chronologically we can start seeing a flow emerge.
-
 
 ### Step 4: Discover Read Model and Aggregates
 
@@ -158,21 +155,21 @@ Always spoken in terms of '**When-X Then-Y**' or '**Whenever**'.
 For example:
 
 ::: greybox
-- **When** a user logs > 8 hours work, **then** send a warning email and add to overtime
-- **Whenever** an invoice is updated with < 8 hours, **then** send a warning email
+* **When** a user logs > 8 hours work, **then** send a warning email and add to overtime
+* **Whenever** an invoice is updated with < 8 hours, **then** send a warning email
 :::
 
 ### End Result
 
 Lots of sticky notes arranged chronologically that shows:
-- <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg>Commands & <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg>Events grouped with <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg>Aggregates
-- Defined <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg>Read Models with data that <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> Users need to make decisions
-- Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg>External Systems / Dependencies
-- Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,148);"/></svg>Policies (reactive logic) that apply to the process
+* <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,51,255);"/></svg>Commands & <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,102,0);"/></svg>Events grouped with <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg>Aggregates
+* Defined <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg>Read Models with data that <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,255,153);"/></svg> Users need to make decisions
+* Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg>External Systems / Dependencies
+* Identified <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,0,148);"/></svg>Policies (reactive logic) that apply to the process
 
-If you ran an in-person workshop using sticky notes and a white-board you should capture the end-to-end flow by taking a photograph or by digitizing it with one of the diagraming tool listed in [Preparation - Choosing the right visualization tool](#preparation-choosing-the-right-visualization-tool). 
+If you ran an in-person workshop using sticky notes and a white-board you should capture the end-to-end flow by taking a photograph or by digitizing it with one of the diagraming tool listed in [Preparation - Choosing the right visualization tool](#preparation-choosing-the-right-visualization-tool).
 
-Make sure that he flow is stored in a central repository where everyone can access it. 
+Make sure that he flow is stored in a central repository where everyone can access it.
 
 Having access to this visual flow will:
 
