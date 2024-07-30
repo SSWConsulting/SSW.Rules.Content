@@ -51,7 +51,7 @@ E.g. Make an announcement GitHub Discussion then link to it from a tweet, Linked
 
 ## Example
 
-<https://x.com/bradystroud_/status/1796363119507472424>
+`oembed: https://x.com/bradystroud_/status/1796363119507472424`
 
 ::: good
 ![Figure: Good Example - GitHub Discussion with the update + useful info](share-product-improvements-github-discussion.png)
