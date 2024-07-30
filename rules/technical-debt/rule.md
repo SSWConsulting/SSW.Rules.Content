@@ -22,15 +22,16 @@ redirects:
 created: 2020-12-16T23:19:05.000Z
 archivedreason: null
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
+
 ---
 
 ### What is Technical Debt?
 
 Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
-`youtube: https://www.youtube.com/embed/ASVD4YIOgpU`
-
 <!--endintro-->
+
+`youtube: https://www.youtube.com/embed/ASVD4YIOgpU`
 
 Technical Debt can occur for all kinds of reasons, for example:
 
@@ -55,10 +56,11 @@ Systems need to have features added to them to continually remain useful (or com
 
 ### What are the consequences of Technical Debt?
 
-* Fewer features over time for the customers
-* More molasses (developer friction) for the developers
+* Fewer product features over time
+* More developer friction
+* More [developer frustration](https://survey.stackoverflow.co/2024/professional-developers#developer-experience-frustration)
 
-`youtube: https://www.youtube.com/embed/0FlLE8AdZgk`
+![Figure: Professional Developers survey](technical-debt-graph.png)
 
 ### The 3 types of Technical Debt
 
@@ -92,6 +94,10 @@ PBI: **{{ FeatureName }} - Technical Debt - Unavoidable**
 
 **Note:** Martin Fowler would also classify this as "Inadvertent Technical Debt".
 
+### Get a Verifiably Stable Application
+
+`youtube: https://www.youtube.com/embed/0FlLE8AdZgk`
+
 ### How to repay Technical Debt
 
 Just like a business that receives pre-payment from customers, a software team should be reviewing the size of their liabilities (being the list of PBIs with Technical Debt).
@@ -103,7 +109,7 @@ At the Sprint Planning:
 
 ### Screenshots
 
-![Figure: Screenshot of code with Technical Debt comment and link to GitHub issue](techdebt-github.png)
+![Figure: Screenshot of code with Technical Debt comment and link to GitHub Issue](techdebt-github.png)
 
 ![Figure: Screenshot of Technical Debt on backlog](techdebt-backlog.png)
 
