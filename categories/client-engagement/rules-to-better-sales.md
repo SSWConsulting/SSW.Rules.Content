@@ -7,6 +7,7 @@ redirects:
   - rules-to-successful-sales-and-account-management
 index:
   - do-you-know-the-6-stages-in-the-sales-pipeline
+  - follow-up-online-leads-phone-call
   - do-you-manage-your-inbound-leads-effectively
   - do-you-perform-a-background-check
   - do-you-have-clear-engagement-models
