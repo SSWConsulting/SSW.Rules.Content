@@ -59,7 +59,11 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 **Figure: Markdown to generate headings and blockquotes**
 
-## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
+::: info
+Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+:::
+
+## This is a heading 2 
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
