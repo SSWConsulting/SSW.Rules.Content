@@ -39,10 +39,10 @@ Each Sprint in a Scrum project can be considered a mini-project that has **time*
 
 Sprint Goals (in priority order):
 
-- Bugfixes
-- WDM Integration
-- SSO/Roles APIs
-- Download Documents APIs
+* Bugfixes
+* WDM Integration
+* SSO/Roles APIs
+* Download Documents APIs
 
 Please see below for a more detailed breakdown of the upcoming Sprint:
 
