@@ -23,8 +23,9 @@ Usually, a specification process is done with the client before beginning work o
 As you might appreciate, it is not realistic to understand the complexity of your system and give you a realistic estimate after a brief meeting. Our experience tells us we will need to spend a few days to obtain and document the requirements from your project’s stakeholders. This will help you turn your ideas into a more detailed roadmap.
 
 <!--endintro-->
-
+::: img-medium
 ![Figure: Remember... a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](baseballer.jpg)
+:::
 
 The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review. You should have the following:
 
