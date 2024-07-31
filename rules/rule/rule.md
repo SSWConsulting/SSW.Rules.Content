@@ -36,9 +36,9 @@ There are a few concepts that are applied to structure most SSW Rules:
 
 See a few examples of SSW Rules that follow the structure of good and bad examples, then link off to external documentation for more information:
 
-- [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
-- [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
-- [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
+* [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
+* [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
+* [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
 
 ### 1. Headings, paragraphs, and blockquotes
 
@@ -63,7 +63,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
 :::
 
-## This is a heading 2 
+## This is a heading 2
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
@@ -87,7 +87,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> - Someone famous in Source Title
+> * Someone famous in Source Title
 
 ---
 
@@ -153,13 +153,13 @@ _You **can** combine them_
 
 #### Unordered lists
 
-- This is the first item of an unordered list
-- This is the second item of an unordered list
-  1.  This is the first item of an ordered list inside an unordered list
-  2.  This is the second item of an ordered list inside an unordered list
-- This is the third item of an unordered list
-  - This is the first item of an unordered list inside another
-  - This is the second item of an unordered list inside another
+* This is the first item of an unordered list
+* This is the second item of an unordered list
+  1. This is the first item of an ordered list inside an unordered list
+  2. This is the second item of an ordered list inside an unordered list
+* This is the third item of an unordered list
+  * This is the first item of an unordered list inside another
+  * This is the second item of an unordered list inside another
     1. This is the first item of an ordered list inside a nested unordered list
     2. This is the second item of an ordered list inside a nested unordered list
 
@@ -168,8 +168,8 @@ _You **can** combine them_
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
-   - This is the first item of an unordered list inside an ordered list
-   - This is the second item of an unordered list inside an ordered list
+   * This is the first item of an unordered list inside an ordered list
+   * This is the second item of an unordered list inside an ordered list
      1. This is the first item of an ordered list inside another
      2. This is the second item of an ordered list inside another
 
@@ -192,8 +192,8 @@ This is [an external link](https://www.google.com).
 ::: info
 **Cool features:**
 
-- Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
-- We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
+* Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
+* We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
   :::
 
 ---
