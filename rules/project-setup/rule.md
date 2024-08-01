@@ -72,7 +72,7 @@ A perfect solution would need no static documentation. Perfect code would be so 
 
 All manual workstation setup steps should be scripted with PowerShell, as per the below example:
 
-::: greybox 
+::: greybox
 
 ```powershell
 PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1**
@@ -104,7 +104,7 @@ Learn more: [Project setup - Do you use Docker to containerize your SQL Server e
 
 ### Level 4: More standardization using dev containers
 
-Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. 
+Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience.
 
 Learn more: [Project setup - Do you containerize your dev environment?](/dev-containers)
 
