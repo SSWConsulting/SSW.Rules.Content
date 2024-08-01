@@ -38,17 +38,18 @@ You've recently had an engaging initial meeting with a prospective client. While
    To Myself,
 
    1. Send this: {{ RELEVANT LINK }}
-      :::
+
+   :::
 
    ::: good
    Figure: Good example - Setting a reminder ensures you won't forget this crucial step.
    :::
 
-2. Find relevant material
+3. Find relevant material
 
    Look for rules, articles, whitepapers, or videos that are directly related to what the client is working on or interested in. Make sure the material is educational and offers value.
 
-3. Send the email
+4. Send the email
 
    Compose an email that includes the educational material you've found. Make it personal and relevant to the discussion you had during the initial meeting.
 
