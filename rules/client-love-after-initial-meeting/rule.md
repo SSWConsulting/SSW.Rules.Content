@@ -22,9 +22,9 @@ You've recently had an engaging initial meeting with a prospective client. While
 
 ### Why is this important?
 
-- **Builds Relationship** - Sending something educational and relevant to the client's project shows that you're invested in their success
-- **Stands Out** - It differentiates you from competitors who may not take this extra step
-- **Encourages Engagement** - It keeps the conversation going and makes it more likely for the client to think of you when they're ready to proceed
+* **Builds Relationship** - Sending something educational and relevant to the client's project shows that you're invested in their success
+* **Stands Out** - It differentiates you from competitors who may not take this extra step
+* **Encourages Engagement** - It keeps the conversation going and makes it more likely for the client to think of you when they're ready to proceed
 
 ### How to implement
 

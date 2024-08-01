@@ -30,10 +30,10 @@ Bad example - you know nothing about how the project will be done
 
 ::: greybox
 
-- **Technologies:** WebAPI. The DI container is Structure Map. Entity Framework. Typescript. Angular
-- **Patterns:** Repository and Unit of Work (tied to Entity Framework to remove additional abstraction), IOC
-- **ALM:** Scrum with 2-week Sprints and a Definition of Done including StyleCop to green
-- **ALM:** Continuous deployment to staging
+* **Technologies:** WebAPI. The DI container is Structure Map. Entity Framework. Typescript. Angular
+* **Patterns:** Repository and Unit of Work (tied to Entity Framework to remove additional abstraction), IOC
+* **ALM:** Scrum with 2-week Sprints and a Definition of Done including StyleCop to green
+* **ALM:** Continuous deployment to staging
 
 :::
 ::: good
