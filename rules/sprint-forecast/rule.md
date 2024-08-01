@@ -83,4 +83,4 @@ Figure: Good example - Copy this as email template and send to Product Owner
    E.g. `https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201`
 2. Remove the unnecessary columns so it looks clean
 3. Select all items, copy, then paste into the Sprint Forecast email
-   :::
+:::
