@@ -57,8 +57,9 @@ Sprint Goals (in priority order):
 
 Please see below for a more detailed breakdown of the Sprint:
 
-| Sprint in Review:  | {{ SPRINT NUMBER }}                   |
+|                    |                                       |
 | ------------------ | ------------------------------------- |
+| Sprint in Review:  | {{ SPRINT NUMBER }}                   |
 | Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }})  |
 | Sprint Duration:   | {{ NUMBER OF WEEKS }}                 |
 | Project:           | {{ PROJECT NAME }}                    |
