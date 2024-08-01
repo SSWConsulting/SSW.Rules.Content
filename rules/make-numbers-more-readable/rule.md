@@ -41,8 +41,7 @@ Figure: Good example - Symbols or some spaces make these large numbers easier to
 :::
 
 ::: info
-**Note:**
+**Note:** For currency references, different countries use periods in place of commas and vice-versa.  
 
-For currency references, different countries use periods in place of commas and vice-versa.  
 E.g. In the United States and Australia: **$2,367.48** / In France and Brazil: **$2.367,48**.
 :::
