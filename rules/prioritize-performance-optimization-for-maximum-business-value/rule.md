@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Brendan Richards
     url: https://ssw.com.au/people/brendan-richards
-related: []
+related:
+  - where-your-goal-posts-are
+  - do-you-avoid-reviewing-performance-without-metrics
 redirects:
   - do-you-prioritize-performance-optimization-for-maximum-business-value
 ---
@@ -40,7 +42,7 @@ We optimized the "Edit Item" page because that had the biggest measurable impro
 :::
 
 ::: bad
-Bad example: although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer
+Bad example: Although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer
 
 :::
 
@@ -57,14 +59,10 @@ Recommended actions:
 - Ensure that performance metrics are included in the acceptance criteria of the migration PBI
 
 1. Please “reply all” with changes or your acceptance.   
-   :::
-
-::: good
-Good example: there is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner
 
 :::
 
-### Related Rules
+::: good
+Good example: There is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner
+:::
 
-- [Do you know where your goal posts are?](/where-your-goal-posts-are)
-- [Do you avoid reviewing performance without metrics?](/do-you-avoid-reviewing-performance-without-metrics)
