@@ -37,7 +37,8 @@ If you are using complexity, a better approach is to come up with a reusable, ea
 - Password123
 
 - P@55w0rd
-  :::
+
+:::
 
 ::: bad
 Bad examples
@@ -46,7 +47,8 @@ Bad examples
 ::: greybox
 
 - Pas!#@wor!#@d
-  :::
+
+:::
 
 ::: ok
 Better example (however never use this password - the fact that this has been published here has made it untrusted!)
