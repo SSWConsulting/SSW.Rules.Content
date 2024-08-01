@@ -34,10 +34,11 @@ Figure: Bad example - These numbers are unwieldy and difficult to read
 
 - Total: $2,721.65
 - Phone: +1 XXX XXX XXXX  
-  :::
-  ::: good
-  Figure: Good example - Symbols or some spaces make these large numbers easier to read  
-  :::
+
+:::
+::: good
+Figure: Good example - Symbols or some spaces make these large numbers easier to read  
+:::
 
 ::: info
 **Note:**
