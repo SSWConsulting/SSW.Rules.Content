@@ -18,13 +18,40 @@ related:
 
 It's hard to understand what indexes are on SQL Databases. Find out how to visualise what's happening so you can easily follow what your database queries are doing.
 
-<!--endintro-->
-
 The reason that indexes are called indexes is because they are very similar to how indexes in books work. As such, a good way to understand what indexes might work well is to think of the rows of data in your table as the pages in a book. Then based on the information think about what would be the best index you might find at the end of the book to allow you to quickly answer the query.
+
+<!--endintro-->
 
 For instance in a recipe book that contains many types of dishes, you might want an index of the type of recipe. You may also have an index based on the recipe name.
 
 ![Figure: Typical book index](index.png)
+
+```sql
+SELECT *
+FROM Badges
+WHERE Name = 'John Doe';
+```
+
+::: bad
+Bad example: Using a table scan - the DB needs to look at every row to find the result
+:::
+
+```sql
+CREATE INDEX IX_Name_Date
+ON dbo.Badges(Name) INCLUDE (Location);
+
+SELECT *
+FROM Badges
+WHERE Name = 'John Doe';
+```
+
+::: good
+Good example: Using an index - DB can quickly find the result
+:::
+
+By using the index, the database can quickly locate the rows where Name is 'John Doe' without scanning every row. This approach significantly improves query performance.
+
+## Visualising indexes
 
 Another useful thing to know is that if you'd like to see what the index looks like and try using it manually to fulfil your query (this a great way to verify you got the index correct) then you can do the following.
 
