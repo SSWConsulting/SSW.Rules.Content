@@ -46,6 +46,7 @@ Using the right techniques can make it easier to identify the client's budget or
 
 Directly ask about the budget in a professional manner. This can clear any ambiguities from the start.
 Be careful, often clients think revealing this can limit negotiations and that if a budget is revealed this will create its own anchor. Clients will either avoid or be misleading within this approach.
+
 ::: greybox
 "Can you share your budget limitations for this project so we can tailor our proposal accordingly?"
 :::
@@ -56,6 +57,7 @@ Figure: Good example - Directly asking for the budget range
 #### Comparative Questions
 
 Ask questions that compare their project with similar past projects.
+
 ::: greybox
 "How does this project compare in scope and budget to others you've done recently?"
 :::
@@ -66,6 +68,7 @@ Figure: Good example - Comparing with past projects to gauge budget
 #### Value-Oriented Questions
 
 Focus on what the client values most in the project. This can often reveal their budget priorities.
+
 ::: greybox
 "What are the most important outcomes you expect from this project?"
 :::
