@@ -51,7 +51,8 @@ You should also use prefixes (based on the content, like lists) for grouping an
 - Setup your HR Records (Not for Work Experience)
 - Your details on payroll system CRM - Add your details to CRM
 - Make a small code change on SugarLearning.com (Developers only)  
-  :::
+
+:::
 
 ::: bad
 Figure: Bad example - Data list with no prefixes
@@ -70,7 +71,8 @@ Figure: Bad example - Data list with no prefixes
 - CRM - Setup your HR Records (Not for Work Experience)
 - CRM - Your details on payroll system CRM - Add your details to CRM
 - Exercise - Make a small code change on SugarLearning.com (Developers only)
-  :::
-  ::: good
-  Figure: Good example - Using a prefix in data
-  :::
+
+:::
+::: good
+Figure: Good example - Using a prefix in data
+:::
