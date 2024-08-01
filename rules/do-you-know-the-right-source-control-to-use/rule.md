@@ -52,6 +52,7 @@ Figure: Bad example - Visual SourceSafe (VSS) is a bad choice
 
 ::: greybox
 Reasons companies choose Subversion (SVN)
+
 * It's free
 * It's easy to use
 * No Build integration
@@ -65,6 +66,7 @@ Figure: OK example - Subversion (SVN)
 
 ::: greybox
 Reasons companies choose Azure DevOps:
+
 * It's free (With MSDN)
 * It's easy to use
 * It's easy to install
