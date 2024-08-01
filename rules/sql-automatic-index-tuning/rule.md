@@ -16,7 +16,7 @@ related:
   - sql-indexing-where
 ---
 
-Feel like you don't know enough to manage the indexes on your SQL databases. SQL Server and Azure SQL databases have that covered for you.
+Feel like you don't know enough to manage the indexes on your SQL databases? SQL Server and Azure SQL databases have that covered for you.
 
 <!--endintro-->
 
