@@ -67,10 +67,10 @@ Do **not** use heading 1 content - the title is already a heading 1, and we shou
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
 
-## This is a heading 2 <strong>with some emphasized text using the `<strong>` tag</strong>
+## This is a heading 2 with some **emphasized text** by making it bold
 
-Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
-
+**Tip:** See [text decoration section](#2-text-decorations) for more details on making the text bold.
+ 
 ### This is a heading 3
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
