@@ -26,7 +26,8 @@ When a client arrives, your job is to make them feel comfortable and impress the
 
 - Leaving the client standing at the reception while finishing what you were doing
 - Offering them tea, coffee or biscuits (not everyone likes tea/coffee)
-  :::
+
+:::
 
 ::: bad
 Figure: Bad example - This could start the meeting poorly  
