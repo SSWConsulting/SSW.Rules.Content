@@ -54,7 +54,8 @@ E.g. Problems to check for:
 * Windows 8 not supported
 * Latest backup of the database
 * npm version
-  :::
+
+:::
 
 ::: greybox
 **Tip:** Don't forget about the database, your developers need to know how to work with the database
@@ -88,7 +89,7 @@ To try and automatically resolve the problems found, re-run the script with a `-
 :::
 
 ::: good
-**Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed**
+Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed
 :::
 
 ### Level 3: Less maintenance using Docker containerization
