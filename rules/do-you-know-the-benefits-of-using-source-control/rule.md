@@ -31,11 +31,12 @@ It also helps you to do root cause analysis by finding out who made the change. 
 ::: greybox
 **Using VS Code? There are 2 awesome extensions to see history:**
 
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-  :::
+* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
-![Figure: Right-click a file and select Git | View History to see the changes in source control.](FileChanges.jpg)
+:::
+
+![Figure: Right-click a file and select Git | View History to see the changes in source control](FileChanges.jpg)
 
 ![Figure: We can select different changesets and compare the changes](CompareFileChanges.jpg)
 
@@ -45,4 +46,4 @@ It also helps you to do root cause analysis by finding out who made the change. 
 
 ![Figure: Use annotate to understand (or find the guy) to understand his thoughts before deleting/changing someone elses code](AnnotatedFile.jpg)
 
-![Figure: Annotation is great, but it gets even better when clicking the commit code gives you its full details](AnnotateDetails.jpg)
+![Figure: Annotation is great, but it gets even better when clicking the commit code gives you full details](AnnotateDetails.jpg)
