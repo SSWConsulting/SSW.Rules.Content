@@ -115,7 +115,8 @@ These are all the packages that have been added to the project (ordered by most 
 - Actioned by: Brady Stroud
 - Approved by: Piers Sinclair
 - Why: For pretty styling on the application
-  :::
+
+:::
 
 :::bad
 Figure: Bad example - Packages documented in Technologies-and-Architecture.md
