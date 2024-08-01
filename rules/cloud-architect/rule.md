@@ -42,10 +42,11 @@ Figure: Bad example of a team for a new project
 - Load/Performance Testing
 - Security choices
 - SpendOps
-  :::
-  ::: good
-  Figure: Good example of a team for a new project
-  :::
+
+:::
+::: good
+Figure: Good example of a team for a new project
+:::
 
 Problems that can happen without a Cloud Architect:
 
