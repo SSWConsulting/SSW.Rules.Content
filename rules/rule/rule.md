@@ -198,7 +198,8 @@ This is [an external link](https://www.google.com).
 
 * Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
-  :::
+
+:::
 
 ---
 
