@@ -21,22 +21,22 @@ This rule outlines how to change the date of an existing commit using both a man
 
 <!--endintro-->
 
-# Method 1 – Use CLI
+## Method 1 – Use CLI
 
-1. Checkout to the rule branch
-::: greybox
+1. Checkout to the branch containing the commit
+``` bash
 git checkout -b {{ BRANCH NAME }} origin/{{ BRANCH NAME }}
-:::
+```
 
 2. Run git log to get the last commit hash
-::: greybox
+``` bash
 git log
-:::
+```
 
 3. Do an interactive rebase for the parent of the last commit
-::: greybox
+``` bash
 git rebase -i {{ COMMIT HASH }}^
-:::
+```
 
 4. This opens vi editor:
 * press "I" key to enter interactive mode,
@@ -45,25 +45,25 @@ git rebase -i {{ COMMIT HASH }}^
 * type ":wq" to save and exit
 
 5. Change the commit date
-::: greybox
+``` bash
 GIT_COMMITTER_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" GIT_AUTHOR_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" git commit --amend --no-edit
-:::
+```
 
 6. Finish the rebase
-::: greybox
+``` bash
 git rebase --continue
-:::
+```
 
 7. Force push to origin
-::: greybox
+``` bash
 git push origin {{ BRANCH NAME }} --force
-:::
+```
 
-# Method 2 (recommended) – Use a script
+## Method 2 (recommended) – Use a script
 
 If the date change is to be applied on several branches, it is preferable to automate the process with a script.
 
-::: greybox
+``` bash
 BRANCH=$1
 DATE=$2
 if [ -z "$BRANCH" ] || [ -z "$DATE" ]; then
@@ -77,9 +77,9 @@ GIT_COMMITTER_DATE="$DATE" GIT_AUTHOR_DATE="$DATE" git commit --amend --no-edit
 git rebase --continue
 git push origin "$BRANCH" --force
 git checkout main
-:::
+```
 
 The script can be actioned with the following command:
-::: greybox
+``` bash
 ./change_history.sh "{{ LOCAL PATH }}" "{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}"
-:::
+```
