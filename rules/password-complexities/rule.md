@@ -20,9 +20,9 @@ Brute force means they try different combinations until they find one that works
 
 When people see complexity requirements in password rules, they usually do 1 or both of 2 things:
 
-- **Transforms** - when you ‘transform’ a dictionary word in some way, like changing the word `password` to `password1` or `password123`.
+* **Transforms** - when you ‘transform’ a dictionary word in some way, like changing the word `password` to `password1` or `password123`.
 
-- **Substitutions** - when you substitute one character for another, like changing the word `password` to `p@55w0rd`.
+* **Substitutions** - when you substitute one character for another, like changing the word `password` to `p@55w0rd`.
 
 The problem with these rules is that the majority of people use similar transforms and substitutions, so the dictionaries and rainbow tables that attackers use are filled with what are called well-known transforms and substitutions. This means that `p@55w0rd`, `password1`, `password123`, and many other variations are in their dictionaries, and therefore offer no more protection that the actual word itself.
 
@@ -32,11 +32,11 @@ If you are using complexity, a better approach is to come up with a reusable, ea
 
 ::: greybox
 
-- Password1
+* Password1
 
-- Password123
+* Password123
 
-- P@55w0rd
+* P@55w0rd
 
 :::
 
@@ -46,7 +46,7 @@ Bad examples
 
 ::: greybox
 
-- Pas!#@wor!#@d
+* Pas!#@wor!#@d
 
 :::
 
