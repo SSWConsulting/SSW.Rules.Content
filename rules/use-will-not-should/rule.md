@@ -37,7 +37,7 @@ To print your document:
 
 :::
 ::: good
-Good example - Using present or future tense implies confidence   
+Good example - Using present or future tense implies confidence
 :::
 
 ::: info
