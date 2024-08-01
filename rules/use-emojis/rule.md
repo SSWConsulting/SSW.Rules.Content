@@ -50,10 +50,11 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 - Fast to load (lightweight as no image)
 - UI - Consistent look
 - Maintenance of needing to upload to server
-  :::
-  ::: bad
-  Bad example - Regular list items
-  :::
+
+:::
+::: bad
+Bad example - Regular list items
+:::
 
 **Tip:** Always remember to add a space between the emoji and text, for better readability.
 
