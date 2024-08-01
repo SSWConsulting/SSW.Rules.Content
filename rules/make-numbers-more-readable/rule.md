@@ -22,8 +22,8 @@ Remember to use dividers when referring to large sums or phone numbers.
 
 ::: greybox
 
-- Total: $27216
-- Phone: 14XXXXXXXXX
+* Total: $27216
+* Phone: 14XXXXXXXXX
 
 :::
 ::: bad
@@ -32,8 +32,8 @@ Figure: Bad example - These numbers are unwieldy and difficult to read
 
 ::: greybox
 
-- Total: $2,721.65
-- Phone: +1 XXX XXX XXXX  
+* Total: $2,721.65
+* Phone: +1 XXX XXX XXXX  
 
 :::
 ::: good

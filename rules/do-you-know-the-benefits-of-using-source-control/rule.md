@@ -31,8 +31,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
 ::: greybox
 **Using VS Code? There are 2 awesome extensions to see history:**
 
-- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 :::
 
