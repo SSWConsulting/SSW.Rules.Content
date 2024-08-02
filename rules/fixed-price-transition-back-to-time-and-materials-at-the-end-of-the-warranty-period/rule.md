@@ -37,7 +37,7 @@ As per our conversation, XXX is the last day of the warranty period. You have no
 
 In the instance that you need more work done after they’ve already been booked out, we can still support you with other developers as needed, but be aware this may incur some ramp up time. If you want your original developers, you may have to wait until they finish whatever project they get allocated to next.
 
-If you need to be able to guarantee quick turnaround times, maybe think about signing up for a Support Plan: [https://www.ssw.com.au/ssw/Consulting/Support-Plans.aspx](https://www.ssw.com.au/ssw/Consulting/Support-Plans.asp)
+If you need to be able to guarantee quick turnaround times, maybe think about signing up for a [Support Plan](https://www.ssw.com.au/consulting/support-plans)
 :::  
 :::  
 ::: good  
