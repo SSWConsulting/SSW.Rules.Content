@@ -1,7 +1,7 @@
 ---
 seoDescription: Enable Hyper-V role on your cluster after setting up clustered nodes and a SAN, allowing for virtual machine management and live migration capabilities.
 type: rule
-archivedreason: Archived. This is no longer the case, you enable cluster manager and hyper-v at the same time.
+archivedreason: Archived. This is no longer the case, you enable cluster manager and Hyper-V at the same time.
 title: Do you first get your Cluster and SAN going?
 guid: 5e133a38-deeb-45e7-8c5f-c7abcd0e4f0f
 uri: do-you-first-get-your-cluster-and-san-going
