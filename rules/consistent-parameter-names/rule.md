@@ -23,7 +23,7 @@ All display names referring to the same parameter should be consistent in everyw
 :::
 
 ::: good  
-![Figure: Good example - Consistent parameter names](ParameterName_Good.gif) 
+![Figure: Good example - Consistent parameter names](ParameterName_Good.gif)
 :::
 
 ::: greybox
