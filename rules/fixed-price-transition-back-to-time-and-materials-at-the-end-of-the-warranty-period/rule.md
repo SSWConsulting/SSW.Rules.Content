@@ -31,7 +31,7 @@ Your 1st choice should just be to book the developers for some ongoing T&M days,
 | Subject: | {{Client name}}: Transition back to T&M |  
 ::: email-content
 
-### Hi XXX,
+### Hi XXX
 
 As per our conversation, XXX is the last day of the warranty period. You have not currently booked any of the developers for any ongoing work, so please be aware that they may be booked to another client moving forwards.
 
