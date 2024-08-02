@@ -23,5 +23,5 @@ Words such as: "Select", "Enter" and "Type" used in the parameter names are alwa
 :::
 
 ::: good  
-![Figure: Good example - Parameters without unnecessary words](BadParameterlabelGood.png) 
+![Figure: Good example - Parameters without unnecessary words](BadParameterlabelGood.png)
 :::
