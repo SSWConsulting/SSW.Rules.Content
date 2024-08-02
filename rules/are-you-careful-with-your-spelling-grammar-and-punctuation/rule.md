@@ -17,7 +17,7 @@ redirects:
   - do-you-know-to-always-be-careful-with-your-spelling-grammar-and-punctuation
 ---
 
-Improper spelling, grammar, and punctuation gives a bad impression of your company and can result in your message not being conveyed correctly. 
+Improper spelling, grammar, and punctuation gives a bad impression of your company and can result in your message not being conveyed correctly.
 
 <!--endintro-->
 
