@@ -19,10 +19,10 @@ SQL Ranking functions are introduced since SQL 2005. With these handy functions,
 <!--endintro-->
 
 ```sql
-	SQL Snippet
-	SELECT Rank() Over(Order A.BillableTimeTotal Desc) As Rank
+ SQL Snippet
+ SELECT Rank() Over(Order A.BillableTimeTotal Desc) As Rank
 ```
 
 ::: good  
-![Figure: Good example - Rank by SQL Ranking functions](RS_SQLRank.gif) 
+![Figure: Good example - Rank by SQL Ranking functions](RS_SQLRank.gif)
 :::
