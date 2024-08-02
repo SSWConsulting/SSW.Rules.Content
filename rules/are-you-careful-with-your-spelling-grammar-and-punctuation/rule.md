@@ -12,7 +12,8 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
-  - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
+  - avoid-common-mistakes
+  - spelling-do-you-use-us-english
 redirects:
   - do-you-know-to-always-be-careful-with-your-spelling-grammar-and-punctuation
 ---
