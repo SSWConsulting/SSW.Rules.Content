@@ -14,7 +14,7 @@ redirects:
   - dones-do-you-reply-done-using-team-companion-when-using-azure-devops
 ---
 
-Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item. 
+Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item.
 
 <!--endintro-->
 
