@@ -31,13 +31,13 @@ Because $100 USD <> $100 AUD !
 :::
 
 ::: good  
-![Figure: Good example - This currency field stores Australian Dollars and will always display it that way](RSCurrency_good_au.gif) 
+![Figure: Good example - This currency field stores Australian Dollars and will always display it that way](RSCurrency_good_au.gif)
 :::
 
 ![Figure: AUD currency](RSCurrency_sample_au.gif)
 
 ::: good  
-![Figure: Good example - This currency field stores Chinese Yuan and will always display it that way](RSCurrency_good_cn.gif) 
+![Figure: Good example - This currency field stores Chinese Yuan and will always display it that way](RSCurrency_good_cn.gif)
 :::
 
 ![Figure: Chinese Yuan currency](RSCurrency_sample_cn.gif)
@@ -45,5 +45,5 @@ Because $100 USD <> $100 AUD !
 If you don't want to get currency fields hard coded in reports, you can use an expression to read settings from your database.
 
 ::: good  
-![Figure: Good example - Using specified language as per value of column CurrencyType in table SystemValue](RSCurrency_good_expression.gif) 
+![Figure: Good example - Using specified language as per value of column CurrencyType in table SystemValue](RSCurrency_good_expression.gif)
 :::
