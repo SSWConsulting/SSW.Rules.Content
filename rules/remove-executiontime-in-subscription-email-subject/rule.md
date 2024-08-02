@@ -25,5 +25,5 @@ In subscription settings, @ExecutionTime should be removed from subject, because
 So we always make subject of subscription exactly same as report name.
 
 ::: good  
-![Figure: Good example - Subject same as report name](RSRulesRemoveTimeNew.gif) 
+![Figure: Good example - Subject same as report name](RSRulesRemoveTimeNew.gif)
 :::
