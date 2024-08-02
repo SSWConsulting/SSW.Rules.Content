@@ -22,6 +22,9 @@ Database indexes get their name from book indexes because they work similarly. T
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=KkRpgtwBXvI`
+**Video:How to visualise SQL indexes? | Bryden Oliver | SSW Rules (3 min)**
+
 For instance in a recipe book that contains many types of dishes, you might want an index of the type of recipe. You may also have an index based on the recipe name, or maybe by ingredient.
 
 ![Figure: Typical book index](index.png)
