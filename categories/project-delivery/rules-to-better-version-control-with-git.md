@@ -18,7 +18,7 @@ index:
 - do-you-know-what-to-do-after-migrating-from-tfvc-to-git
 - fork-vs-branch
 - clean-git-history
-- rules-to-better-version-control-with-git
+- change-date-of-existing-commit
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
