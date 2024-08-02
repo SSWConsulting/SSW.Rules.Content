@@ -26,7 +26,7 @@ Creating a cookie consent banner doesn't have to be tricky, it can be done in 3 
 2. Creating and sending cookies
 3. Setting up GTM consent mode as per user preferences
 
-## Cookie Banner UI
+## Cookie banner UI
 
 This section is very much customizable and will be different from site to site. Essentially you should create a pop-up, banner, or modal that will be prompted to users when visiting your site. [Tina.io](https://tina.io) uses a banner along the bottom of the page.
 
@@ -42,7 +42,7 @@ The Tina.io website let users customize their preferences with a modal.
 
 ![Figure: 🍪 Cookie Preference Modal on Tina.io](tina-cookie-modal.jpg)
 
-## Creating and Sending Cookies
+## Creating and sending cookies
 
 This section will actually send your cookie based on how users have interacted with your UI. You can use a nifty library called ‘js-cookie’ which provides a super easy way to transmit a cookie.
 
@@ -85,3 +85,4 @@ For example, the Tina.io cookie:
 Now that you have successfully created, customized and transmitted user cookies. Follow the following YouTube video to configure your Google Tag Manager.
 
 `youtube: yZjGzfWDc0Y`
+**Video: Guide to configuring consent code in Google Tag Manager (23 min)**

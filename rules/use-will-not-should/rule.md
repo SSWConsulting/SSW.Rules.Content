@@ -23,20 +23,22 @@ To print your document:
 
 1. Select File | Print. The Print dialog should now show
 2. Select the number of copies and click "Print". The file **should** now print
-   :::
-   ::: bad
-   Figure: Bad example - Using "should" implies uncertainty  
-   :::
+
+:::
+::: bad
+Figure: Bad example - Using "should" implies uncertainty  
+:::
 
 ::: greybox
 To print your document:
 
 1. Select File | Print. The Print dialog is shown
 2. Select the number of copies and click "Print". The file **will** now print
-   :::
-   ::: good
-   Good example - Using present or future tense implies confidence  
-   :::
+
+:::
+::: good
+Good example - Using present or future tense implies confidence
+:::
 
 ::: info
 This is **not** detected by [SSW CodeAuditor](https://codeauditor.com) because it picks up false positives.
