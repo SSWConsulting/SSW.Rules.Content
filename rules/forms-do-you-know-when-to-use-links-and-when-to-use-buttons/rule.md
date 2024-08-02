@@ -23,7 +23,7 @@ Whereas a button indicates that something is being processed - "When I click thi
 
 #### Note: If you are using an automated link checker
 
-It is important you use buttons for updating or deleting data on your website. The main reason is problems will occur when you run a link checker (we run [SSW Link Auditor](http://www.ssw.com.au/ssw/LinkAuditor/)), and you have data driven pages with "Update" or "Delete" hyperlinks. The link checker will try to go to all associated links and potentially delete a lot of data from your website database.
+It is important you use buttons for updating or deleting data on your website. The main reason is problems will occur when you run a link checker (e.g. [SSW CodeAuditor](https://codeauditor.com/)), and you have data driven pages with "Update" or "Delete" hyperlinks. The link checker will try to go to all associated links and potentially delete a lot of data from your website database.
 
 But you say "My Delete links have JavaScript protection e.g. Are you sure you want to delete?". It is still no good because link checkers ignore all JavaScript validation.
 
@@ -40,9 +40,9 @@ That being said, there are a couple of exceptions to this rule.
 ![Figure: An exception to the rule - an "Update" button inside the datagrid would look inconsistent](LinksExample.gif)
 
 ::: bad  
-![Figure: Bad Example - The "sign in" hyperlink should be a button](LinkVsButton.gif)  
+![Figure: Bad example - The "sign in" hyperlink should be a button](LinkVsButton.gif)  
 :::
 
 ::: good  
-![Figure: Good Example - This is a perfect example of how a good sign in screen should look](Logon.gif)  
+![Figure: Good example - This is a perfect example of how a good sign in screen should look](Logon.gif)  
 :::
