@@ -17,7 +17,7 @@ Often you will receive rich information from your Product Owner (customer) about
 
 <!--endintro-->
 
-### The scribe will:
+### The scribe will
 
 1. Take screenshots and notes
 2. Turn them into multiple emails
