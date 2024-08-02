@@ -24,17 +24,17 @@ This rule outlines how to change the date of an existing commit using both a man
 ## Method 1 – Use CLI
 
 1. Checkout to the branch containing the commit
-``` bash
+```bash
 git checkout -b {{ BRANCH NAME }} origin/{{ BRANCH NAME }}
 ```
 
 2. Run git log to get the last commit hash
-``` bash
+```bash
 git log
 ```
 
 3. Do an interactive rebase for the parent of the last commit
-``` bash
+```bash
 git rebase -i {{ COMMIT HASH }}^
 ```
 
@@ -50,12 +50,12 @@ GIT_COMMITTER_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" GIT_AUTHOR_
 ```
 
 6. Finish the rebase
-``` bash
+```bash
 git rebase --continue
 ```
 
 7. Force push to origin
-``` bash
+```bash
 git push origin {{ BRANCH NAME }} --force
 ```
 
@@ -63,7 +63,7 @@ git push origin {{ BRANCH NAME }} --force
 
 If the date change is to be applied on several branches, it is preferable to automate the process with a script.
 
-``` bash
+```bash
 BRANCH=$1
 DATE=$2
 if [ -z "$BRANCH" ] || [ -z "$DATE" ]; then
@@ -80,6 +80,6 @@ git checkout main
 ```
 
 The script can be actioned with the following command:
-``` bash
+```bash
 ./change_history.sh "{{ LOCAL PATH }}" "{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}"
 ```
