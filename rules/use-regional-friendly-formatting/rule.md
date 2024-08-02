@@ -2,9 +2,9 @@
 type: rule
 archivedreason:
 title: Internationalization - Do you use regional friendly formatting?
-guid: 5dbeac8d-d20e-44b4-9efd-f7acd2184bda
+guid: 678c9572-805b-470a-ab25-ba4e77fd2ea9
 uri: use-regional-friendly-formatting
-created: 2023-12-11T14:38:33.0000000Z
+created: 2024-08-02T14:58:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
