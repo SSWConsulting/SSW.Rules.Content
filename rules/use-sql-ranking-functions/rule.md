@@ -2,9 +2,9 @@
 type: rule
 archivedreason:
 title: Data Logic - Do you use SQL Ranking functions to rank your data?
-guid: 6e392875-0d7f-4737-82a3-5e3b640c2e08
+guid: 9c85523b-824d-46cf-8398-5c1bdaae2a32
 uri: use-sql-ranking-functions
-created: 2023-12-13T14:38:33.0000000Z
+created: 2024-08-02T14:59:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
