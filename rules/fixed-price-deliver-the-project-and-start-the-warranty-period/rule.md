@@ -33,7 +33,7 @@ Send an email like this:
 | Subject: | {{ CLIENT NAME }} - Fixed Price component |  
 ::: email-content
 
-### Hi {{ CLIENT NAME }},
+### Hi {{ CLIENT NAME }}
 
 As per our conversation, we confirm that we have now finished the application, and so commences the 7-day warranty. The last day of the warranty will be {{ DATE }}.
 
