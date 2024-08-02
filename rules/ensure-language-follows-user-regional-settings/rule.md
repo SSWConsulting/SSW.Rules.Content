@@ -27,15 +27,15 @@ Now you can specify this on either the culture sensitive controls or the whole r
 :::
 
 ::: good  
-![Figure: Good example - Here the 'Language' setting is set to '=User!Language' to detect user's culture automatically](RSRulesLanguage3.jpg) 
+![Figure: Good example - Here the 'Language' setting is set to '=User!Language' to detect user's culture automatically](RSRulesLanguage3.jpg)
 :::
 
 ::: good  
-![Figure: Good example - Now the data respects user's Language preference of IE in this case English (Australia)](RSRulesLanguage1.jpg) 
+![Figure: Good example - Now the data respects user's Language preference of IE in this case English (Australia)](RSRulesLanguage1.jpg)
 :::
 
 ::: good  
-![Figure: Good example - Likewise the data also respects user's Language preference of IE in this case Chinese (China)](RSRulesLanguage2.jpg) 
+![Figure: Good example - Likewise the data also respects user's Language preference of IE in this case Chinese (China)](RSRulesLanguage2.jpg)
 :::
 
 **Warning: Adding the 'User' who printed the report, stops all data-driven subscriptions**
@@ -53,6 +53,7 @@ Public Function Language()
     End Try
 End Function   
 ```
+
 ::: good  
 Good example - Use above function to replace your reference to Report.User!Language it allow the subscription to work correctly
 :::
