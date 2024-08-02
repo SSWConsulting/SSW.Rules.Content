@@ -19,7 +19,7 @@ Currency formatting is not universal - therefore, it's crucial to adapt the form
 <!--endintro-->
 
 In Australia, one million is written this way: $1,000,000.00.
-But in Brazil, one million is written that way: $1.000.000,00. 
+But in Brazil, one million is written that way: $1.000.000,00.
 
 So, in order to be culturally sensitive, try and use regional friendly formatting.
 
@@ -28,7 +28,7 @@ So, in order to be culturally sensitive, try and use regional friendly formattin
 :::
 
 ::: good  
-![Figure: Good example - Good Number Format](RSNumberFormatGood.jpg) 
+![Figure: Good example - Good Number Format](RSNumberFormatGood.jpg)
 :::
 
 ::: bad  
@@ -36,7 +36,7 @@ So, in order to be culturally sensitive, try and use regional friendly formattin
 :::
 
 ::: good  
-![Figure: Good example - Good Currency Format](RSCurrencyFormatGood.jpg) 
+![Figure: Good example - Good Currency Format](RSCurrencyFormatGood.jpg)
 :::
 
 ::: bad  
@@ -44,5 +44,5 @@ So, in order to be culturally sensitive, try and use regional friendly formattin
 :::
 
 ::: good  
-![Figure: Good example - Good Percentage Format](RSPercentageFormatGood.jpg) 
+![Figure: Good example - Good Percentage Format](RSPercentageFormatGood.jpg)
 :::
