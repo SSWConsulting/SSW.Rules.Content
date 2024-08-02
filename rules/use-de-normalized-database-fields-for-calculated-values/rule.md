@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 Most reports contain some sort of calculation - order totals, freight costs and so on. You have 3 options on how to display this in your report:
+
+<!--endintro-->
 
 1. **Use an expression in the report (bad)**. Avoid doing this because your logic is scattered throughout the report, and also because this logic cannot be shared around reports or with your other web and windows applications.
 
