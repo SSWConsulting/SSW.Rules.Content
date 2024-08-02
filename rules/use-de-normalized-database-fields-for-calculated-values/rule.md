@@ -33,5 +33,5 @@ Most reports contain some sort of calculation - order totals, freight costs and 
 :::
 
 ::: good  
-![Figure: Good example - Use a denormalised database field for calculated values](RSRulesCalculatedBest.gif) 
+![Figure: Good example - Use a denormalised database field for calculated values](RSRulesCalculatedBest.gif)
 :::
