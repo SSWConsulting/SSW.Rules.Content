@@ -15,8 +15,8 @@ redirects: []
 
 ---
 
-Updating commit information can be essential for maintaining accurate project history or correcting errors.
-Whether you need to change a commit date for clarity, compliance, or other reasons, you have a couple of methods at your disposal.
+Updating commit information can be essential for maintaining accurate project history or correcting errors. Whether you need to change a commit date for clarity, compliance, or other reasons, you have a couple of methods at your disposal.
+
 This rule outlines how to change the date of an existing commit using both a manual CLI approach and an automated script.
 
 <!--endintro-->
@@ -24,40 +24,47 @@ This rule outlines how to change the date of an existing commit using both a man
 ## Method 1 – Use CLI
 
 1. Checkout to the branch containing the commit
-```bash
-git checkout -b {{ BRANCH NAME }} origin/{{ BRANCH NAME }}
-```
+
+    ```bash
+    git checkout -b {{ BRANCH NAME }} origin/{{ BRANCH NAME }}
+    ```
 
 2. Run git log to get the last commit hash
-```bash
-git log
-```
+  
+    ```bash
+    git log
+    ```
 
 3. Do an interactive rebase for the parent of the last commit
-```bash
-git rebase -i {{ COMMIT HASH }}^
-```
+  
+    ```bash
+    git rebase -i {{ COMMIT HASH }}^
+    ```
 
 4. This opens vi editor:
-* press "I" key to enter interactive mode,
-* change "pick" to "edit",
-* press "escape" to exit interactive mode,
-* type ":wq" to save and exit
+
+    1. Press "I" key to enter interactive mode,
+    2. Change "pick" to "edit",
+    3. Press "escape" to exit interactive mode,
+    4. Type ":wq" to save and exit
 
 5. Change the commit date
-``` bash
-GIT_COMMITTER_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" GIT_AUTHOR_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" git commit --amend --no-edit
-```
+  
+    ``` bash
+    GIT_COMMITTER_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" GIT_AUTHOR_DATE="{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}" git commit --amend --no-edit
+    ```
 
 6. Finish the rebase
-```bash
-git rebase --continue
-```
+
+    ```bash
+    git rebase --continue
+    ```
 
 7. Force push to origin
-```bash
-git push origin {{ BRANCH NAME }} --force
-```
+
+    ```bash
+    git push origin {{ BRANCH NAME }} --force
+    ```
 
 ## Method 2 (recommended) – Use a script
 
@@ -80,6 +87,7 @@ git checkout main
 ```
 
 The script can be actioned with the following command:
+
 ```bash
 ./change_history.sh "{{ LOCAL PATH }}" "{{ NEW DATE IN  'YYYY-MM-DD HH:MM:SS' FORMAT }}"
 ```
