@@ -14,9 +14,9 @@ redirects: []
 
 In Outlook, the Calendar control has a number of important features:
 
-- Saturday and Sunday are displayed at the _end_
-- Days that have data associated with them are **bold**
-- The current day is highlighted with a box
+* Saturday and Sunday are displayed at the _end_
+* Days that have data associated with them are **bold**
+* The current day is highlighted with a box
 
 <!--endintro-->
 
