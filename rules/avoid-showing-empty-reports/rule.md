@@ -29,7 +29,7 @@ The following report shows nothing, because the parameters are using meaningless
 :::
 
 ::: good  
-![Figure: Good example - This report shows initial data as the developer configure useful parameters (in this case default values for the entire month of October Note: in US date format)](RSRulesNoEmptyReportT8.gif) 
+![Figure: Good example - This report shows initial data as the developer configure useful parameters (in this case default values for the entire month of October Note: in US date format)](RSRulesNoEmptyReportT8.gif)
 :::
 
 In SQL Reporting Services, parameters can be:
@@ -50,6 +50,7 @@ DateSerial(Year(DateTime.Now), Month(DateTime.Now),1)
 --Expression to get the 1st day of the next month
 DateSerial(iif( Month(DateTime.Now)=12, Year(DateTime.Now)+1, Year(DateTime.Now)), iif( Month(DateTime.Now)=12, 1, Month(DateTime.Now) + 1), 1)
 ```
+
 ::: bad  
 Bad example - Expressions to set the date range to the current month
 :::
@@ -79,12 +80,13 @@ DATENAME(year, MAX(OrderDate))
 ) AS StartOfMonth
 FROM Orders
 ```
+
 ::: good  
 Good example - Using a query to retrieve the last month of available data
 :::
 
 ::: good  
-![Figure: Good example - Using a query to set default values for report parameters](RSRulesNoEmptyReportT10.jpg) 
+![Figure: Good example - Using a query to set default values for report parameters](RSRulesNoEmptyReportT10.jpg)
 :::
 
 The dataset 'ValidDates' looks similar to this:
