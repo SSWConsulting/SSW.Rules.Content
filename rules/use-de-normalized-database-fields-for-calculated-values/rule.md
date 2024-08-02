@@ -2,9 +2,9 @@
 type: rule
 archivedreason:
 title: Data Logic - Do you use de-normalized database fields for calculated values?
-guid: d55faa33-59fe-4881-beb6-1a8dbea718c5
+guid: 2af79b6f-e2db-4ea0-85ba-5726039ed0dc
 uri: use-de-normalized-database-fields-for-calculated-values
-created: 2023-12-11T14:38:33.0000000Z
+created: 2024-08-02T14:52:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
