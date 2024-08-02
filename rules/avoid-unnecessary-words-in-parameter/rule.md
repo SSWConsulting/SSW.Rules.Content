@@ -2,9 +2,9 @@
 type: rule
 archivedreason:
 title: Parameters - Do you avoid unnecessary words in the parameter?
-guid: 87b9257e-e8fd-4027-a28c-242115cada82
+guid: b844935c-7c6b-4b0b-a59f-6425233f2089
 uri: avoid-unnecessary-words-in-parameter
-created: 2023-12-11T14:38:33.0000000Z
+created: 2024-08-11T13:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
@@ -14,9 +14,9 @@ redirects: []
 
 ---
 
-<!--endintro-->
-
 Words such as: "Select", "Enter" and "Type" used in the parameter names are always a bad practice and should be avoided
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad example - Parameters with unnecessary words](BadParameterlabelBad.png)  
