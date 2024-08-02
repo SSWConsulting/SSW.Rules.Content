@@ -23,10 +23,8 @@ When going public with Reporting Services, you should have 2 ports:
 1. **A public access port.** This allows your public users to access their reports normally on a port which has been configured for anonymous users.
 
 2. **An admin access port on your web site.** This allows authenticated internal users to administer the report server via the Report Manager.
- 
 
 To set this up you need to perform the following:
-
 
 **In Windows Explorer:**
 
@@ -38,10 +36,9 @@ To set this up you need to perform the following:
 
 4. Set the file access security on the new folders so that "Everyone" has full permissions.
 
-5. Edit the ReportServer_External/rsreportserver.config file. Update the URL node <UrlRoot>http://xxxx:81/ReportServer</URlRoot>
+5. Edit the ReportServer_External/rsreportserver.config file. Update the URL node <UrlRoot><http://xxxx:81/ReportServer></URlRoot>
 
 6. the ReportManager_External/RSWebApplication.config file. Update the URL node <ReportServerUrl>http://xxxx:81/ReportServer</ReportServerUrl>
-
 
 **In IIS Manager:**
 
@@ -55,20 +52,17 @@ To set this up you need to perform the following:
 
 5. In the ReportServer Virtual Directory, make sure that it is running the same version of ASP.NET. Remove all the Application Mappings in the Application Confguration. Then add a wildcard mapping to the Executable C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\aspnet_isapi.dll
 
-
 **In SQL Management Studio:**
 
 Add the user for these folders to have access in SQL
- 
 
 **In Reporting Services:**
 
-1. Go to http://localhost/reports
+1. Go to <http://localhost/reports>
 
 2. Click Properties -> New Role Assignment
 
 3. Enter in IUSR_ReportViewer and click Browser then click OK
- 
 
 **Note #1:** The default website will be used for internal Admin (secure) use, and a website on a different port (in this example we use port 81) will be used for external anonymous access.
 
@@ -82,7 +76,6 @@ We think that we should have the ability to choose how IIS authenticates clients
 
 The process is a little simpler in SQL 2000:
 
-
 **In Windows Explorer:**
 
 1. Open up the ReportingServices directory (typically c:\Program Files\Microsoft SQL Server\MSSQL\Reporting Services\)
@@ -91,8 +84,7 @@ The process is a little simpler in SQL 2000:
 
 3. Duplicate the file access security settings on ReportManager in ReportManagerPublicAccess
 
-4. Edit the RSWebApplication.config in the ReportManagerPublicAccessfolder to point to http://server:81/ReportServer
-
+4. Edit the RSWebApplication.config in the ReportManagerPublicAccessfolder to point to <http://server:81/ReportServer>
 
 **In IIS Manager:**
 
@@ -107,5 +99,3 @@ The process is a little simpler in SQL 2000:
 5. Set the Reports virtual directory to point to the ReportsManagerSecure directory instead of just ReportsManager
 
 6. Set the directory security on the ReportServer on port 81 to use windows integrated security
-
-

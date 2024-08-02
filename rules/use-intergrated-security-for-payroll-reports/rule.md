@@ -23,7 +23,7 @@ Payroll report should only show the records of the current user, Reporting Servi
 :::
 
 ::: good  
-![Figure: Good example - The current employee can only see his own record](RSRulesPayRollByUserIDT2.jpg) 
+![Figure: Good example - The current employee can only see his own record](RSRulesPayRollByUserIDT2.jpg)
 :::
 
 To generate such a report, you need to use the filter on the data table:
