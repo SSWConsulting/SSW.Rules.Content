@@ -31,7 +31,7 @@ E.g. a string data type parameter with a value of "26/01/2006" is correct for "d
 :::
 
 ::: good  
-![Figure: Good example - Use DateTime data type for the date parameter - you will not get internationalization bugs and it gives users a calendar control](RSRulesUseDateTimeType2.jpg) 
+![Figure: Good example - Use DateTime data type for the date parameter - you will not get internationalization bugs and it gives users a calendar control](RSRulesUseDateTimeType2.jpg)
 :::
 
 ::: greybox
