@@ -43,6 +43,22 @@ index:
 - gray-color-for-past-data
 - use-3d-cylinder-in-column-chart
 - center-title-in-chart
+- use-de-normalized-database-fields-for-calculated-values
+- use-sql-ranking-functions
+- avoid-unnecessary-words-in-parameter
+- avoid-showing-empty-reports
+- use-date-time-data-type
+- consistent-parameter-names
+- cache-popular-reports
+- schedule-snapshots-of-slow-reports
+- use-regional-friendly-formatting
+- ensure-language-follows-user-regional-settings
+- date-format-of-parameters
+- language-rule-exception-for-currency-fields
+- validate-all-reports
+- create-separate-virtual-directory-for-admin-access
+- use-intergrated-security-for-payroll-reports
+- remove-executiontime-in-subscription-email-subject
 
 ---
 
