@@ -1,7 +1,7 @@
 ---
-seoDescription: Learn to create a great "Done Video"!
 type: rule
 title: Do you know the key things for making a great 'Done Video'?
+seoDescription: Learn to create a great "Done Video"!
 uri: making-a-great-done-video
 authors:
   - title: Jonty Gardner
@@ -16,7 +16,6 @@ redirects:
 created: 2023-05-08T23:25:40.698Z
 guid: 3444ccb7-0f6f-4ac6-97bc-035c491e6ec9
 ---
-
 For a great 'Done Video' here are the key things to remember:
 
 <!--endintro-->
@@ -35,13 +34,13 @@ For a great 'Done Video' here are the key things to remember:
 :::
 
 5. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
-6. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. _"Hi everyone, today I would like to show you..."_
-7. **Ending** - Finish with a strong closing that summarizes what you talked about.
+6. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. *"Hi everyone, today I would like to show you..."*
+7. **Ending** - Finish with a strong closing that summarizes what you talked about and conclude with a compelling call-to-action (CTA). See the rule about [SSW.Rules | Production - Do you have a call to action (aka CTA)?](/production-do-you-add-a-call-to-action/)
 8. **Show the Pain** - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
-9. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. _"Whoops, clicked build accidently. Let me just refresh and go again."_\
+9. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*\
    Note: If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
 10. **Quick** - Keep it short, concise, and don't repeat yourself!
-11. **Directing Attention** - Give people an idea of where to look by mentioning positions on the screen before taking actions. E.g. _"At the bottom of the screen" or "in the top right-hand corner."_
+11. **Directing Attention** - Give people an idea of where to look by mentioning positions on the screen before taking actions. E.g. *"At the bottom of the screen" or "in the top right-hand corner."*
 12. **Presentation** - present data from X to Y. E.g. for financial data start with the last month and then show the current month.
 13. **Clean UI** - Use a clean browser and IDE or hide your bookmarks bar, and zoom in to 125% in your browser. Hide the ribbon if presenting in Microsoft Office. Clear all irrelevant reminders if presenting in Outlook.\
     Note: You can easily get a clean browser by using a guest or incognito profile.
