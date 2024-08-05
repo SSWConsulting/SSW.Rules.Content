@@ -20,5 +20,3 @@ Never use bitmap images (.BMP format) on your website or in emails. BMP is an un
 <!--endintro-->
 
 As an alternative, the most ideal format for Internet-ready lossless images is PNG.
-
-We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
