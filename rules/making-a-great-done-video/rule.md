@@ -35,7 +35,7 @@ For a great 'Done Video' here are the key things to remember:
 
 5. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
 6. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. *"Hi everyone, today I would like to show you..."*
-7. **Ending** - Finish with a strong closing that summarizes what you talked about and conclude with a compelling call-to-action (CTA). See the rule about [SSW.Rules | Production - Do you have a call to action (aka CTA)?](https://www.ssw.com.au/rules/production-do-you-add-a-call-to-action/)
+7. **Ending** - Finish with a strong closing that summarizes what you talked about and conclude with a compelling call-to-action (CTA). See the rule about [SSW.Rules | Production - Do you have a call to action (aka CTA)?](/rules/production-do-you-add-a-call-to-action/)
 8. **Show the Pain** - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
 9. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*\
    Note: If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
