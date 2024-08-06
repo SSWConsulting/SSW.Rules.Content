@@ -1,9 +1,7 @@
 ---
 type: rule
-title: Hardware - Do you have your UPS (Uninterruptible Power Supply) send an
-  email when it kicks in?
-seoDescription: Maximize UPS efficiency and stay informed about server status
-  with customizable email notifications.
+title: Hardware - Do you have your UPS (Uninterruptible Power Supply) send an email when it kicks in?
+seoDescription: Maximize UPS efficiency and stay informed about server status with customizable email notifications.
 uri: ups-send-email
 authors:
   - title: Adam Cogan
@@ -20,7 +18,7 @@ created: 2017-07-01T00:21:30.000Z
 archivedreason: null
 guid: 9510b8a1-2bfa-4976-a910-2100f0eb15b6
 ---
-Of course, all your servers are on UPS (Uninterruptible Power Supply). (If not they should be!) 
+Of course, all your servers are on UPS - Uninterruptible Power Supply. If not they should be! 
 
 How do you know that all the money you paid for a UPS was worth it? How many times has it saved our servers? How long do the batteries last for before they go flat? Why was a server off when you came in in the morning?
 
@@ -34,4 +32,4 @@ All UPS's come with management software or hardware that can perform these actio
 
 For example, your company might use APC UPS' and they have physical management cards (hardware), which are able to send emails. The event categories are "severe", "warning" and "informational".
 
-![Figure: Good Example - APC UPS have a physical management card with some options](UPSexample.png)
+![Figure: Good example - APC UPS have a physical management card with some options](UPSexample.png)
