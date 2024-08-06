@@ -89,8 +89,16 @@ Figure: Good greybox
 This is a &lt;div&gt; using the class "highlight". If used in a &lt;p&gt; it won't get the border and paddings.  
 :::
 
+::: highlight  
+## This is an example of a heading in a highlight 
+:::
+
 ::: info  
 This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
+:::
+
+::: info  
+## This is an example of a heading in a info 
 :::
 
 ::: china  
