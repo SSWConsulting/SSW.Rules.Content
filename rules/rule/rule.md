@@ -27,6 +27,7 @@ Duis aute [this is a link](https://ssw.com.au/rules/rule) dolore  nulla [this is
 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumsunt in culpa qui officia.
 
 ## This is a heading 2
+## This is a heading 2 with some <strong>emphasized text</strong> by making it bold
 ### This is a heading 3
 #### This is a heading 4 
 ##### This is a heading 5
