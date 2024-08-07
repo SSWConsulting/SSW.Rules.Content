@@ -1,7 +1,7 @@
 ---
 seoDescription: Create task list comments for your code to manage features, corrections, and reminders with ease.
 type: rule
-archivedreason:
+archivedreason: Consolidated with todo-tasks pplus outdated legacy link
 title: Comments - Do you create Task List Comments for your code?
 guid: 7fd9ea97-c399-41b7-821b-b5d4005ca13c
 uri: create-task-list-comments-for-your-code
