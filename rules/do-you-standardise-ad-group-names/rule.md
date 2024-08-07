@@ -55,7 +55,7 @@ Figure: Good Example – By standardizing the names of AD groups it saves confus
 **Examples:** 
 
 * **L-LocalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **L-SYD-SP-SSW-Users**
-* **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**  
+* **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**
 :::
 
 ### Types of groups
