@@ -48,4 +48,3 @@ If you still need help, [visit our SharePoint consulting page](https://www.ssw.
 5. [Rules to Better SharePoint Migration from 2013 to 2016](/rules-to-better-sharepoint-migration-from-2013-to-2016)
 6. [Rules to Better SharePoint Migration from 2016 to Online](/rules-to-better-sharepoint-migration-from-2016-to-online)
 7. [Rules to Better SharePoint Virtualisation](/rules-to-better-sharepoint-virtualisation)
-
