@@ -43,13 +43,10 @@ public class UserService(ApplicationDbContext context) : IUserService
 }
 ```
 ::: bad
-Bad Example - there is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere
-
+Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere
 :::
 
-
 Just like with any other technical debt, it's critical to ensure that it is captured on the backlog. When you add a `TODO` in your code, it should _always_ be accompanied by a link to the PBI.
-
 
 ```cs
 public class UserService(ApplicationDbContext context) : IUserService
@@ -72,10 +69,9 @@ public class UserService(ApplicationDbContext context) : IUserService
 }
 ```
 ::: good
-Good Example - the `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly.
-
+Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly
 :::
 
 ::: info
-💡 **Tip:** If you are reviewing a Pull Request and you spot a `TODO` without a link to a PBI, you should either create the PBI and update the code (Good Samaritan) or request the change before approving and merging the code.
+**Tip:** If you are reviewing a Pull Request and you spot a `TODO` without a link to a PBI, you should either create the PBI and update the code (Good Samaritan) or request the change before approving and merging the code.
 :::
