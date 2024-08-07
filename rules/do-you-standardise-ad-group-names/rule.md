@@ -1,7 +1,9 @@
 ---
-seoDescription: Standardize AD group names to simplify management and reduce confusion, using a consistent format that includes entity, resource, or service information.
 type: rule
 title: Do you standardize AD group names?
+seoDescription: Standardize AD group names to simplify management and reduce
+  confusion, using a consistent format that includes entity, resource, or
+  service information.
 uri: do-you-standardise-ad-group-names
 authors:
   - title: Chris Briggs
@@ -57,8 +59,8 @@ Figure: Good Example – By standardizing the names of AD groups it saves confus
 **Examples:**
 
 - **L-LocalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **L-SYD-SP-SSW-Users**
-- **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**  
-  :::
+- **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**
+:::
 
 ### Types of groups
 
