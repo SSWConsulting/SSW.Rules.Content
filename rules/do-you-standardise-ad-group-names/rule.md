@@ -50,7 +50,7 @@ Figure: Good Example – By standardizing the names of AD groups it saves confus
 :::
 
 ::: info
-**Note:** For large organizations, a better way is  to use a type of group (eg. Local or Global)... then the entity it is associated to… then the resource (or service).
+**Note:** For large organizations, a better way is to use a type of group (e.g. Local or Global)... then the entity it is associated to… then the resource (or service).
 
 **Examples:** 
 
