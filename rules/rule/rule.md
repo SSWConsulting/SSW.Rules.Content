@@ -61,6 +61,13 @@ This is a &lt;figure&gt; using the class "greybox" with a &lt;div&gt; and no &lt
 
 #### Boxes with captions
 
+::: jeobox  
+This is a example of a jeo box  
+:::  
+::: jeobox  
+## This is an example of a heading in a jeo box  
+:::  
+
 ::: greybox  
 This is a example of a grey box  
 :::  
