@@ -30,20 +30,20 @@ Warning: Be very careful if you are renaming groups - permissions can break, esp
 For example, this is a list of AD groups associated with products:
 
 ::: greybox
- SSWSugarLearningAlerts\
- Alerts CodeAuditor\
- SEC_SSW-LinkAuditor-Devs\
- timepro-devs
+SSWSugarLearningAlerts  
+Alerts CodeAuditor  
+SEC_SSW-LinkAuditor-Devs  
+timepro-devs
 :::
 ::: bad
 Figure: Bad Example – With no consistency, it is difficult to know the correct name for an AD group
 :::
 
 ::: greybox
- SSWSugarLearningAlerts\
- SSWCodeAuditorAlerts\
- SEC_SSWLinkAuditorDevs\
- SEC_SSWTimeProDevs
+SSWSugarLearningAlerts  
+SSWCodeAuditorAlerts  
+SEC_SSWLinkAuditorDevs  
+SEC_SSWTimeProDevs
 :::
 ::: good
 Figure: Good Example – By standardizing the names of AD groups it saves confusion
