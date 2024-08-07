@@ -22,12 +22,12 @@ Email is a very powerful business tool. The main problem, however, is that for m
 
 <!--endintro-->
 
-- Send emails that contain clear tasks, not banter
-- Don't send emails for chatting
-- If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “[As per our conversation...](/as-per-our-conversation-emails)” Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
-- If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
-- If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
-- If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
+* Send emails that contain clear tasks, not banter
+* Don't send emails for chatting
+* If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “[As per our conversation...](/as-per-our-conversation-emails)” Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
+* If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
+* If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
+* If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
   "I am not calling you right now as it is out of business hours..."
 
 Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.
@@ -75,10 +75,9 @@ Figure: Good example - A good email has a clear task to be done (decision was ma
 :::
 
 ::: greybox
-**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule
-E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
+**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule. E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
 
-**Tip #2:** Make sure to number your tasks, if there is more than one, as per "[Do you number small tasks related to 1 topic](/number-tasks-questions)?"
+**Tip #2:** Make sure to [number your tasks/questions](/number-tasks-questions).
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

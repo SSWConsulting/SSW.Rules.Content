@@ -18,8 +18,7 @@ index:
 - do-you-know-what-to-do-after-migrating-from-tfvc-to-git
 - fork-vs-branch
 - clean-git-history
+- change-date-of-existing-commit
 ---
-Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.
 
-If you still need help, visit [Application Lifecycle Management](http&#58;//www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.
- Rules to Better Version Control with Git
+If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/consulting/alm-tooling) and book in a consultant.

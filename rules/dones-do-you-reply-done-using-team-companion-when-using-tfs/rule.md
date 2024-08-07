@@ -14,8 +14,8 @@ redirects:
   - dones-do-you-reply-done-using-team-companion-when-using-azure-devops
 ---
 
-Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item. Follow the [rule to happy clients - triage rule](/triaging-do-you-correctly-triage-additional-item-requests).
+Before you do the task – say if the task requires a code change and you are using Azure DevOps, make sure it goes in as a work item.
 
 <!--endintro-->
 
-After you do the task, the perfect workflow is to [follow the rule to better project management with Azure DevOps - use TeamCompanion to send your ‘done’ and reply ‘done – changeset xxx’](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterProjectManagementWithTFS.aspx#Send-Done-Email).
+After you do the task, the perfect workflow is to follow the rule to better project management with Azure DevOps - use TeamCompanion to send your ‘done’ and reply ‘done – changeset xxx’.

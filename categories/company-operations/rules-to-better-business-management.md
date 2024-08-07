@@ -10,4 +10,9 @@ index:
   - process-approvals-in-a-timely-manner
   - employee-kpis
   - monthly-stakeholder-video
+  - annual-employment-retro
+  - respect-and-protect-human-labor-rights
+  - support-community-indigenous-engagement
+  - commitment-to-health-and-safety
+  - best-practices-environmental-sustainability
 ---

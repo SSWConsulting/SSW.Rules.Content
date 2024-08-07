@@ -29,17 +29,4 @@ Server-Side Application: A dedicated web app can handle redirects, but maintenan
 
 Edge Level Redirects: Ideal for global distribution and ease of management. Solutions like Azure Front Door or Cloudflare can be effective.
 
-### ❌ Azure Front Door
-
-* [Limit of 800 deployments per resource group](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits).
-* Maximum of 100 redirects per route.
-* Deployment via Bicep can be lengthy.
-* Generally expensive.
-
-### ✅ Cloudflare Workers
-
-* Offers customizable redirects through scripts hosted within Cloudflare CDN.
-* Cost-effective and straightforward to deploy using Wrangler CLI.
-* Efficiently manage hundreds of redirects without delays.
-
-For a seamless migration and efficient redirect management, leveraging a CDN-level solution like [Cloudflare Workers](https://developers.cloudflare.com/workers/) is recommended.
+Check out our [SSW rule on CDNs](/do-you-use-cdn-for-js-files)

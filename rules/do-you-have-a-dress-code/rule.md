@@ -51,7 +51,8 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 
 * [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
 * [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
-  :::
+
+:::
 
 ![Figure: SSW Dress Code poster](SSW-Dresscode-Poster-v2.png)
 

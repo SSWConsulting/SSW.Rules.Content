@@ -12,6 +12,8 @@ authors:
     url: https://www.ssw.com.au/people/daniel-mackay
 created: 2024-01-20T02:50:25.269Z
 guid: 5213ed1f-8ae5-4631-9b76-e464d4011c17
+related:
+  - software-architecture-decision-tree
 ---
 
 A Modular Monolith is a software architecture pattern that combines elements of both monolithic and modular architectures. In this approach, the application is built as a single, unified codebase like a traditional monolith, but it is designed and organized in a modular manner, allowing for logical separation of different components or modules within the codebase.

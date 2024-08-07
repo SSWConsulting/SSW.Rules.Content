@@ -39,21 +39,22 @@ Each Sprint in a Scrum project can be considered a mini-project that has **time*
 
 Sprint Goals (in priority order):
 
-- Bugfixes
-- WDM Integration
-- SSO/Roles APIs
-- Download Documents APIs
+* Bugfixes
+* WDM Integration
+* SSO/Roles APIs
+* Download Documents APIs
 
 Please see below for a more detailed breakdown of the upcoming Sprint:
 
-| **Current Sprint:**    | **{{ SPRINT NUMBER }}**      |
-| ---------------------- | ---------------------------- |
-| Sprint Duration:       | {{ NUMBER OF WEEKS }}        |
-| Project:               | {{ PROJECT NAME }}           |
-| Project Portal:        | {{ LINK TO PROJECT PORTAL }} |
-| Product Owner:         | {{ PRODUCT OWNER NAME }}     |
-| Sprint Review Meeting: | {{ DATE AND TIME }}          |
-| Attendees:             | {{ NAMES OF THE ATTENDEES }} |
+| **Current Sprint:**    | **{{ SPRINT NUMBER }}**              |
+| ---------------------- | ------------------------------------ |
+| Summary Recording:     | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+| Sprint Duration:       | {{ NUMBER OF WEEKS }}                |
+| Project:               | {{ PROJECT NAME }}                   |
+| Project Portal:        | {{ LINK TO PROJECT PORTAL }}         |
+| Product Owner:         | {{ PRODUCT OWNER NAME }}             |
+| Sprint Review Meeting: | {{ DATE AND TIME }}                  |
+| Attendees:             | {{ NAMES OF THE ATTENDEES }}         |
 
 As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to the following Product Backlog Items (PBIs) being included in the current Sprint backlog.
 
@@ -82,4 +83,4 @@ Figure: Good example - Copy this as email template and send to Product Owner
    E.g. `https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201`
 2. Remove the unnecessary columns so it looks clean
 3. Select all items, copy, then paste into the Sprint Forecast email
-   :::
+:::

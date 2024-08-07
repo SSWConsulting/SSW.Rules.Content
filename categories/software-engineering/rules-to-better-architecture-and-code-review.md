@@ -9,6 +9,7 @@ index:
   - do-you-review-the-solution-and-project-names
   - do-you-conduct-an-architecture-review-after-every-sprint
   - awesome-documentation
+  - awesome-readme
   - architecture-diagram
   - do-you-document-the-technologies-design-patterns-and-alm-processes
   - look-at-the-architecture-of-javascript-projects
@@ -54,7 +55,7 @@ index:
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder
-  - do-you-use-architectural-decision-records
+  - architectural-decision-records
   - use-prefixes-to-improve-code-review-communication
   - use-mass-transit
   - software-architecture-decision-tree

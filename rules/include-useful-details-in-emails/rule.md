@@ -17,6 +17,7 @@ related:
   - comments-do-you-enforce-comments-with-check-ins
   - do-you-add-context-reasoning-to-your-emails
   - close-off-thread
+  - when-to-send-a-done-email-in-scrum
 redirects:
   - dones-do-you-include-useful-details-in-your-done-email
 created: 2011-05-29T16:10:16.000Z
@@ -28,9 +29,15 @@ guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
 An email with just the word "Done" can often be enhanced with a screen capture or code snippet. Obviously this is also valid for tasks/requests.
 
 In any email you send, **include relevant information**. Improved visibility and transparency will allow others to understand what was done or needs to be done straight away, such as:
-- [URLs](/include-links-in-emails)
-- Screenshots
-- Pieces of code/text 
+
+* [URLs](/include-links-in-emails)
+  * Links to where the change can be seen
+  * Links to relevant PBIs in GitHub or Azure DevOps
+  * Links to the related Pull Requests
+* Screenshots
+* [Done Videos](https://ssw.com.au/rules/send-done-videos/)
+* Pieces of code/text
+* Any more context or useful info
 
 <!--endintro-->
 
@@ -91,5 +98,4 @@ Figure: Good example - "Done" email has a link, a screenshot (showing the URL), 
 ### More useful details to include
 
 * [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
-* When working on Azure DevOps or GitHub, [include a URL to the PBI or Issue](/when-to-send-a-done-email-in-scrum)
 * Include ["from X to Y"](/change-from-x-to-y) or a [.diff file](https://www.diffchecker.com) for greater code/text changes

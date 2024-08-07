@@ -54,10 +54,11 @@ Figure: Bad example of Acceptance Criteria - Incomplete
 
 * When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
 * When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
-  :::
-  ::: ok
-  Figure: OK example of Acceptance Criteria - However the Product Owner probably hasn't included all of their requirements
-  :::
+
+:::
+::: ok
+Figure: OK example of Acceptance Criteria - However the Product Owner probably hasn't included all of their requirements
+:::
 
 ::: greybox
 
@@ -67,10 +68,11 @@ Figure: Bad example of Acceptance Criteria - Incomplete
 * If no search text is entered, the ‘Search’ button should be disabled
 * Right-clicking on a column header should provide ‘Sort’ functionality
 * If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
-  :::
-  ::: good
-  Figure: Good example of Acceptance Criteria
-  :::
+
+:::
+::: good
+Figure: Good example of Acceptance Criteria
+:::
 
 ::: info
 **Note:** For tiny User Stories, you can omit Acceptance Criteria. Sometimes you just need a **screenshot** or, even better, a **video**.  

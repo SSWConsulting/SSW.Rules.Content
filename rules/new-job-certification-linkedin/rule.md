@@ -1,8 +1,10 @@
 ---
-seoDescription: LinkedIn users announcing new job or certification can boost their professional network and career prospects by sharing engaging posts with branded images.
 type: rule
 title: LinkedIn - Do you know the best way to announce you got a new job or
   certification?
+seoDescription: LinkedIn users announcing new job or certification can boost
+  their professional network and career prospects by sharing engaging posts with
+  branded images.
 uri: new-job-certification-linkedin
 authors:
   - title: Camilla Rosa Silva
@@ -14,7 +16,6 @@ redirects:
 created: 2023-06-28T01:37:37.223Z
 guid: 683cdfac-d0c1-4093-9da8-4d10ef464f47
 ---
-
 Did you know that making a splash on LinkedIn when announcing your new job can enhance your professional network and career prospects?
 
 With over 740 million users globally and 55 million registered companies, LinkedIn has become the go-to platform for professional connections and opportunities. In fact, individuals who announce their new positions on LinkedIn can receive an average of 10 times more profile views and higher engagement from recruiters and industry peers.
@@ -27,7 +28,7 @@ After you add a new job, LinkedIn suggests announcing this to your network and o
 
 We suggest you add a branded image or a nice photo of your first day!
 
-The same principle applies to [sharing new certifications or courses.](https://www.linkedin.com/help/linkedin/answer/a704787/add-learning-certificates-of-completion-and-skills-to-your-linkedin-profile) You can add an image to your post to make it an engaging announcement!
+The same principle applies to [sharing new certifications or courses](https://www.linkedin.com/help/linkedin/answer/a704787/add-learning-certificates-of-completion-and-skills-to-your-linkedin-profile). You can add an image to your post to make it an engaging announcement!
 
 ::: bad img-medium
 ![Figure: Bad example - LinkedIn offers templates without any personality, which most users will just keep scrolling and not really stop to read as they are very common ](linkedin-new-job-template.png)
@@ -35,4 +36,12 @@ The same principle applies to [sharing new certifications or courses.](https://w
 
 ::: good img-medium
 ![Figure: Good example - The branded image made a difference in the post and had a much higher engagement 🚀](linkedin-new-job-branded.png)
+:::
+
+::: good img-medium
+![Figure: Good example - If you share a nice big image of the certification it will get a lot more attention and looks less generic than the LinkedIn suggested image!!](mscert.jpg)
+:::
+
+::: good img-medium
+![Figure: Good example - A nice way to share your new Microsoft certification on LinkedIn](linkedin-cert-image.png)
 :::

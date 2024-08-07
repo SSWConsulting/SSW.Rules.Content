@@ -13,7 +13,7 @@ authors:
   - title: Andrew Harris
     url: https://ssw.com.au/people/andrew-harris
 related:
-  - clean-architecture-the-best-way-to-get-started
+  - clean-architecture-get-started
 redirects:
   - do-you-know-which-packages-to-add-to-your-new-mvc-project
 created: 2014-12-30T00:24:02.000Z
@@ -27,30 +27,32 @@ When you create a new MVC project in Visual Studio it is important to include th
 
 Adding old, obsolete or incorrect packages can lead to decreased performance, scope creep as new requirements are discovered and generally lead to projects suffering.
 
-Some technologies to avoid are:
+❌ Some technologies to **avoid** are:
 
-- ❌ MVC Web Forms
-- ❌ KnockoutJS
-- ❌ AngularJS
-- ❌ Gulp
+* MVC Web Forms
+* KnockoutJS
+* AngularJS
+* Gulp
 
-When creating a new MVC project we recommend you use the [Clean Architecture Template](/clean-architecture-the-best-way-to-get-started). This template not only gives you a great structure, but it also includes all the required packages.
+When creating a new MVC project, we recommend you use the [Clean Architecture Template](/clean-architecture-get-started). This template not only gives you a great structure, but it also includes all the required packages.
 
-The following are some of the NuGet packages included:
+✅ Some of the NuGet packages included:
 
-- ✅ EntityFramework
-- ✅ FluentValidation
-- ✅ NSwag
-- ✅ AutoMapper
-- ✅ MediatR
+* EntityFramework
+* FluentValidation
+* NSwag
+* AutoMapper
+* MediatR
 
-The following are some of the NPM packages included:
+✅ Some of the NPM packages included:
 
-- ✅ Angular
-- ✅ FontAwesome
-- ✅ RxJs
-- ✅ NgRx
-- ✅ Bootstrap
-- ✅ TypeScript
+* Angular
+* FontAwesome
+* RxJs
+* NgRx
+* Bootstrap
+* TypeScript
 
-**Note:** Part of [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
+::: info
+**Note:** This is part of [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).
+:::

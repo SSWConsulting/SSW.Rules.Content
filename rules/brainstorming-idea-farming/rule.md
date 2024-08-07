@@ -1,7 +1,9 @@
 ---
-seoDescription: Discover how to effectively farm brainstorming ideas by gathering high-quality concepts in advance, leveraging GitHub Discussions and structured templates for a successful and streamlined Brainstorming Day.
 type: rule
 title: Pre event - Do you know how to farm Brainstorming ideas?
+seoDescription: Discover how to effectively farm brainstorming ideas by
+  gathering high-quality concepts in advance, leveraging GitHub Discussions and
+  structured templates for a successful and streamlined Brainstorming Day.
 uri: brainstorming-idea-farming
 authors:
   - title: Adam Cogan
@@ -50,3 +52,11 @@ One month before brainstorming, you should review the repo and then remind all a
 ### 3. Send out an email asking people to submit any new ideas they have
 
 * The email should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions.
+
+### 4. Have a Backlog Refinement Meeting
+
+* The Goal of this meeting is to make sure the ideas are ready to be allocated to teams.
+* This process only requires a small group, however they are free to call in relevant people as required. 
+
+`youtube: https://www.youtube.com/embed/lMpeffmoc0I`
+**Video: Backlog Refinement Meeting (3 min)**

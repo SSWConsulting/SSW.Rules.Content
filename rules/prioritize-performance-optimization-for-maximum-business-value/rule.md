@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Brendan Richards
     url: https://ssw.com.au/people/brendan-richards
-related: []
+related:
+  - where-your-goal-posts-are
+  - do-you-avoid-reviewing-performance-without-metrics
 redirects:
   - do-you-prioritize-performance-optimization-for-maximum-business-value
 ---
@@ -20,11 +22,11 @@ Like any development, performance optimization requires development time and sho
 
 Include the following considerations:
 
-- What is the preferred performance for this feature?
-- What represents an acceptable performance metric?
-- How many users are expected to use this feature within a timeframe?
-- What is the business impact of poor performance for this feature?
-- Are we planning to significantly change this feature in the near future?
+* What is the preferred performance for this feature?
+* What represents an acceptable performance metric?
+* How many users are expected to use this feature within a timeframe?
+* What is the business impact of poor performance for this feature?
+* Are we planning to significantly change this feature in the near future?
 
 <!--endintro-->
 
@@ -40,7 +42,7 @@ We optimized the "Edit Item" page because that had the biggest measurable impro
 :::
 
 ::: bad
-Bad example: although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer
+Bad example: Although the admin page has a bigger potential saving, the home page affects all users and therefore probably has a higher business value. Business value should be determined by the Product Owner, not the developer
 
 :::
 
@@ -52,19 +54,14 @@ However, this entire feature is scheduled to be migrated from MVC to Angular in 
 
 Recommended actions:
 
-- We won't optimize the existing implementation
-- Raise the priority of the Angular migration PBI
-- Ensure that performance metrics are included in the acceptance criteria of the migration PBI
+* We won't optimize the existing implementation
+* Raise the priority of the Angular migration PBI
+* Ensure that performance metrics are included in the acceptance criteria of the migration PBI
 
-1. Please “reply all” with changes or your acceptance.   
-   :::
-
-::: good
-Good example: there is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner
+1. Please “reply all” with changes or your acceptance.
 
 :::
 
-### Related Rules
-
-- [Do you know where your goal posts are?](/where-your-goal-posts-are)
-- [Do you avoid reviewing performance without metrics?](/do-you-avoid-reviewing-performance-without-metrics)
+::: good
+Good example: There is little business value in optimizing code that will soon be replaced – but the final decision on business value is left to the Product Owner
+:::

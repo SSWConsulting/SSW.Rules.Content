@@ -12,14 +12,23 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
-  - do-you-use-spelling-and-grammar-checker-to-make-your-email-professional
+  - avoid-common-mistakes
+  - spelling-do-you-use-us-english
 redirects:
   - do-you-know-to-always-be-careful-with-your-spelling-grammar-and-punctuation
 ---
 
-Improper spelling, grammar, and punctuation gives a bad impression of your company and can result in your message not being conveyed correctly. Emails with no full stops or commas are difficult to read and can sometimes even change the meaning of the text. And, if your program has a spelling checking option, why not use it?
+Improper spelling, grammar, and punctuation gives a bad impression of your company and can result in your message not being conveyed correctly.
 
 <!--endintro-->
+
+### Emails
+
+Emails with no full stops or commas are difficult to read and can sometimes even change the meaning of the text. And, if your program has a spelling checking option, why not use it?
+
+To ensure this doesn't happen, use Microsoft Outlook Spelling & Grammar Checker on the 'Editor Options' window.
+
+![Figure: You should also check “Always check spelling before sending” to ensure your message doesn't have mistakes](outlook-spelling.png)
 
 ### Web Content
 

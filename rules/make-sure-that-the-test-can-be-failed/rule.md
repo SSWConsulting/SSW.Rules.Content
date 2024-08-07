@@ -43,11 +43,11 @@ public int Sum(int x, int y)
 ```
 
 ::: bad
-Bad Example: The test fails by throwing a `NotImplementedException`.
+Bad example: The test fails by throwing a `NotImplementedException`
 :::
 
 This test fails for the wrong reasons, by throwing a `NotImplementedException`. In production, this is not a valid reason for this test to fail.
-A `NotImplementedException` is synonymous with "still in development", include a `//TODO: ` marker with some notes about the steps to take to implement the test.
+A `NotImplementedException` is synonymous with "still in development", include a `//TODO:` marker with some notes about the steps to take to implement the test.
 
 A better approach would be to return a value that is invalid.
 
@@ -70,11 +70,11 @@ public int IsPositive(int x)
 ```
 
 ::: good
-Good Example: The test fails by returning an invalid value.
+Good example: The test fails by returning an invalid value
 :::
 
-::: greybox
-Sometimes there is no clear definition of an invalid value, then it is acceptable to fail a test using `NotImplementedException`. Add additional remarks, notes or steps on what to test and how to implement with a `//TODO: ...` marker. This will asssist you or other developers coming across this failed test.
+::: info
+Sometimes there is no clear definition of an invalid value, then it is acceptable to fail a test using `NotImplementedException`. Add additional remarks, notes or steps on what to test and how to implement with a `//TODO: ...` marker. This will assist you or other developers coming across this failed test.
 
 Make sure that this test will be implemented before a production release.
 :::
@@ -96,14 +96,11 @@ public int Sum(int x, int y)
 ```
 
 ::: good
-Good Example: The test fails by returning an invalid result or throwing a `NotImplementedException()` with a `//TODO: ` item.
-
+Good example: The test fails by returning an invalid result or throwing a `NotImplementedException()` with a `//TODO:` item
 :::
 
 In this case, the test will fail because the `IsPositive` behavior is incorrect and `Sum` is missing its implementation.
 
-You should do mutation testing to remove false positive tests and test your test suite to have more confidence.
-Visit the Wiki for more information about [Mutation Testing](https://en.wikipedia.org/wiki/Mutation_testing)
+You should do mutation testing to remove false positive tests and test your test suite to have more confidence. Visit the [Wiki for more information about mutation testings](https://en.wikipedia.org/wiki/Mutation_testing).
 
-To perform mutation testing you can use Stryker.NET.
-For more information please visit the [Stryker website](https://stryker-mutator.io/docs/stryker-net/introduction/)
+To perform mutation testing you can use [Stryker.NET](https://stryker-mutator.io/docs/stryker-net/introduction/).

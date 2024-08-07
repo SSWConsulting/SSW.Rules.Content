@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
 created: 2021-11-11T05:54:22.790Z
 guid: e4d0411a-6184-4f16-9caf-f522bb07c703
+related:
+  - software-architecture-decision-tree
 ---
 
 There are two common types of application architecture:

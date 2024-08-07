@@ -32,6 +32,10 @@ Prompts are the instructions that you input. They can be as simple or as complex
 
 A general prompt might be "an image of a sunset over the ocean," which tells the AI exactly what you're looking for.
 
+::: info
+Tip: When sharing an AI image, [add the prompt to the image caption](/add-useful-and-concise-figure-captions) so others can see how you made it.
+:::
+
 ::: greybox
 “A brown dog on a skateboard”
 :::

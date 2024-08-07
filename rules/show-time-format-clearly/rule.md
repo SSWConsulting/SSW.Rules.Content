@@ -10,11 +10,13 @@ authors:
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
 - do-you-display-dates-in-a-human-friendly-format
+- dates-do-you-keep-time-formats-consistent-across-your-application
 redirects: []
 
 ---
 
 It will give a professional look for your report to show time in a clear and consistant format.
+
 <!--endintro-->
 
 ::: bad  
@@ -24,5 +26,3 @@ It will give a professional look for your report to show time in a clear and con
 ::: good  
 ![Figure: Good example - Clear time format](RSTimeFormat_good.gif)
 :::
-
-A related rule about time format is [Do you keep Time formats consistent across your application?](https://www.ssw.com.au/rules/designandpresentation/rulestobetterinterfacesreports/pages/default.aspx#TimePrecision)

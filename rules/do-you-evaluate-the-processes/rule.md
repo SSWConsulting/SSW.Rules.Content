@@ -23,8 +23,8 @@ Often an incorrect process is the main source of problems. Developers should be 
 
 1. Are devs getting bogged down in the UI?
 2. Do you have continuous integration and deployment?
-3. [Do you have a Schema Master?](/do-you-have-a-schema-master)
-4. [Do you have a DevOps Master?](/do-you-have-a-tfs-master)
+3. [Do you have a Schema Master?](/have-a-schema-master)
+4. [Do you have a DevOps Master?](/devops-master)
 5. [Do you have a Scrum Master?](/scrum-master-do-you-schedule-the-3-meetings)
 
-**Note:** Anyway keep this brief since it is out of scope. If this step is problematic, there are likely other things you may need to discuss with the developers about improving their process. For example, are they using [Test Driven Development](/before-starting-do-you-follow-a-test-driven-process), or are they checking in regularly, but all this and more should be saved for the [Team & Process Review](http://www.ssw.com.au/ssw/Consulting/SoftwareAudit.aspx).
+**Note:** Anyway keep this brief since it is out of scope. If this step is problematic, there are likely other things you may need to discuss with the developers about improving their process. For example, are they using [Test Driven Development](/before-starting-do-you-follow-a-test-driven-process), or are they checking in regularly... all this and more should be saved for the [Team & Process Review](https://www.ssw.com.au/consulting/software-audit).

@@ -16,7 +16,7 @@ When communicating important information via email, it's crucial to ensure that 
 
 <!--endintro-->
 
-- **State the main purpose early** - The main purpose of the email should be in the first sentences. This helps ensure that even if the recipient skims the email, they understand the primary message. [Do you know users scan web content in an F-shaped pattern?](/f-shaped-pattern).
+- **State the main purpose early** - The main purpose of the email should be in the first sentences. This helps ensure that even if the recipient [skims the email](/f-shaped-pattern), they understand the primary message.
 
 - **Clarity over complexity** - Readers should be able to read an email once and understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
 

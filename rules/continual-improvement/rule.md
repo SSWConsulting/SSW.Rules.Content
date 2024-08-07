@@ -19,32 +19,36 @@ guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
 
 Whenever you're doing something more than once there should be a clear procedure. We call them “standards” or “rules”. That means that there should be lots of standards.
 
-**Standards should \*not\* be followed blindly. Aim for continual improvement.**
+::: info
+Standards should **not** be followed blindly. They should always help the critical thinking process, but never replace it. Aim for continual improvement.
+:::
 
 There are pros and cons to having standards:
 
 <!--endintro-->
 
-**The pros:**
+**✅ The pros:**
 
-- They help speed up the decision making process – getting you to the best decision faster
-- They help maintain [consistency](/do-you-understand-the-value-of-consistency)
+* They help speed up the decision making process – getting you to the best decision faster
+* They help maintain [consistency](/do-you-understand-the-value-of-consistency)
 
-**The cons:**
+**❌ The cons:**
 
-- They take time to write in a generic fashion
-- Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
-- They have errors as they are written by imperfect people
-- People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
-
-**Standards should always help the critical thinking process, but never replace it.**
+* They take time to write in a generic fashion
+* Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
+* They have errors as they are written by imperfect people
+* People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
 
 ![Figure: As this sign demonstrates, no rule is universal](white-sign.jpg)
 
-If you think something can be done better or the standard is simply out of date, you should improve the standard. This is best done as a team effort with everyone making little changes often. Whenever you come across a standard which needs updating or improving you have three options:
-
-1. [Fix it yourself straight away](/fix-small-web-errors) by [editing the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
-2. Fix it yourself later if it's too big. In this case, [send yourself an email](/dones-do-you-send-yourself-emails)
-3. Ask someone else to fix it following the [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y)
+## Enhancing standards through continuous and collaborative improvement
 
 **Never** ignore a potential improvement or expect someone else to work on it.
+
+If you believe something can be improved or a standard is outdated, it's important to take action. The best approach is through a team effort, where everyone contributes small improvements regularly.
+
+Whenever you come across a standard which needs updating or improving you have 3 options:
+
+1. [Fix it yourself straight away](/fix-small-web-errors) and [edit the rule](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules) (preferred)
+2. Fix it yourself later if it's too big. In this case, [send yourself an email](/dones-do-you-send-yourself-emails)
+3. Ask someone else to fix it following the [change "x" to "y"](/do-you-ask-for-content-changes-using-from-x-to-y)
