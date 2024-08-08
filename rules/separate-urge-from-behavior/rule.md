@@ -23,7 +23,7 @@ These habits are not good as they lead to negative emotional responses.
 
 To get out of this habit, you can separate the initial emotional urge from the actual behavior and break the connection.
 
-Next time you are in a situation where you have the urge to behave negatively, instead of reacting immediately set a timer for 30 min. 
+Next time you are in a situation where you have the urge to behave negatively, instead of reacting immediately set a timer for 30 min.
 After this time, you can decide if you still want to proceed.
 
 This technique can help you
@@ -61,8 +61,7 @@ How am I supposed to know that? The PBIs Acceptance Criteria said put it on the 
 **Figure: Bad example - reacting immediately can lead to a bad decision 🔥**
 :::
 
-
-### Option 2 - Set a time for 30 min, then respond 
+### Option 2 - Set a time for 30 min, then respond
 
 You will be able to respond calmly and logically.
 
