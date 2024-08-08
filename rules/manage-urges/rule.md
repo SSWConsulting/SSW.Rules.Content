@@ -26,10 +26,10 @@ You can manage your urges by using a techinque called the 'Pause and Plan' respo
 Instead of reacting immediately, set a timer for 30 min. After this time, you can decide if you still want to proceed.
 
 This technique can help you
-- Avoid saying things you don't mean
-- Make better decisions
-- Overcome bad habits
-- Manage your emotions
+* Avoid saying things you don't mean
+* Make better decisions
+* Overcome bad habits
+* Manage your emotions
 
 `youtube: https://youtu.be/YcD40hmI4wA`
 **Video: A useful tool for quitting bad habits and poor emotional reactions (3 min)**
@@ -46,7 +46,6 @@ The nav menu is on the wrong side of the page. It should be on the left, not the
 1. Please fix this
 :::
 
-
 :::
 Hey Bob,
 
@@ -56,18 +55,13 @@ How am I supposed to know that? The PBIs Acceptance Criteria said put it on the 
 **Figure: Bad example - reacting immediately can lead to a bad desision 🔥**
 :::
 
-
 Option 2 - Pause and Plan
 :::
 Hey Bob,
 
-Thanks for letting me know, I've taken some time to check the Acceptance Criteria and you're right - I must have misread it.   
+Thanks for letting me know, I've taken some time to check the Acceptance Criteria and you're right - I must have misread it.
 This is quick to fix, so I'll do it now and send you a screenshot.
-::: 
+:::
 ::: good
 **Figure: Good example - setting a timer, gives you time to responding calmly**
 :::
-
-
-
-
