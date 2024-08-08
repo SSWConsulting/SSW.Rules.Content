@@ -218,48 +218,60 @@ This is a box using the class "greybox".
 :::
 
 ::: greybox  
+
 ## This is a heading 2 inside a "greybox"
-::: 
+
+:::
 
 ::: highlight  
 This is a box using the class "highlight".
 :::
 
 ::: highlight  
+
 ## This is a heading 2 inside a "highlight"
-::: 
+
+:::
 
 ::: info  
 This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
 :::
 
 ::: info  
+
 ## This is a heading 2 inside an "info"
-::: 
+
+:::
 
 ::: china  
 This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
 ::: china  
+
 ## This is a heading 2 inside a "china"
-::: 
+
+:::
 
 ::: codeauditor
 This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
 ::: codeauditor  
+
 ## This is a heading 2 inside a "codeauditor"
-::: 
+
+:::
 
 ::: todo  
 This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  
 :::
 
 ::: todo  
+
 ## This is a heading 2 inside a "todo"
-::: 
+
+:::
 
 #### Hiding content
 
