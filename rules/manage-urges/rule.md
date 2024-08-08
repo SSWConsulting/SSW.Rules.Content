@@ -1,5 +1,5 @@
 ---
-seoDescription: Emotional reactions are a natural part of life, but it's important to manage them effectively. Learn how to manage your emotional reactions in a healthy way.
+seoDescription: Emotional reactions are natural, but managing them is key. Learn the 'Pause and Plan' technique to handle your emotions effectively.
 type: rule
 archivedreason: null
 title: Do you know how to manage urges?
@@ -17,11 +17,11 @@ related:
 redirects: []
 ---
 
-Sometimes an emails or conversations can give you the urge to react poorly. Your poor reaction can mean you say or do something you regret. It's important to manage your urges to get over bad habits, avoid poor emotional reactions, and make better decisions.
+Emails or conversations can sometimes trigger a poor reaction, leading to regrets. Managing your urges helps you overcome bad habits, avoid emotional outbursts, and make better decisions.
 
 <!--endintro-->
 
-You can manage your urges by using a techinque called the 'Pause and Plan' response. This technique is based on the idea that when you are in a heightened emotional state, your brain is in 'fight or flight' mode. This means that you are more likely to react impulsively and say things you don't mean.
+You can manage your urges by using a technique called 'Pause and Plan.' When you're in a heightened emotional state, your brain enters 'fight or flight' mode, making impulsive reactions more likely. Instead of reacting immediately, set a timer for 30 minutes. After this pause, you'll be in a better position to decide if you still want to proceed.
 
 Instead of reacting immediately, set a timer for 30 min. After this time, you can decide if you still want to proceed.
 
