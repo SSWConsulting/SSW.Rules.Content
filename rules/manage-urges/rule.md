@@ -35,7 +35,7 @@ This technique can help you
 `youtube: https://youtu.be/YcD40hmI4wA`
 **Video: A useful tool for quitting bad habits and poor emotional reactions (3 min)**
 
-**Example:**
+## Example
 
 Imagine you've implemented a nav menu on a website, and you receive this email from the client.
 
@@ -47,7 +47,7 @@ The nav menu is on the wrong side of the page. It should be on the left, not the
 1. Please fix this
 :::
 
-:::
+::: greybox
 Hey Bob,
 
 How am I supposed to know that? The PBIs Acceptance Criteria said put it on the right. 😡
@@ -57,7 +57,7 @@ How am I supposed to know that? The PBIs Acceptance Criteria said put it on the 
 :::
 
 Option 2 - Pause and Plan
-:::
+::: greybox
 Hey Bob,
 
 Thanks for letting me know, I've taken some time to check the Acceptance Criteria and you're right - I must have misread it.
