@@ -17,7 +17,7 @@ related:
 redirects: []
 ---
 
-Emails or conversations can sometimes trigger a poor reaction, leading to regrets. Managing your urges helps you overcome bad habits, avoid emotional outbursts, and make better decisions.
+Emails or conversations can sometimes trigger negative emotional reactions leading to regrets. Managing your urges helps you overcome bad habits, avoid emotional outbursts, and make better decisions.
 
 <!--endintro-->
 
