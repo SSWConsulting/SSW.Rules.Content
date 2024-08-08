@@ -16,6 +16,7 @@ authors:
 related:
   - add-useful-and-concise-figure-captions
   - use-the-right-html-figure-caption
+  - html-css-do-you-know-how-to-create-spaces-in-a-web-page
 created: 2021-07-06T01:13:05.707Z
 archivedreason: ""
 guid: e05522a7-1822-412c-80ee-5619039f7d96
@@ -28,7 +29,7 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 
 ::: info
 **Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!
-You should use CSS margin and/or padding instead.
+You should [use CSS margin and/or padding](/html-css-do-you-know-how-to-create-spaces-in-a-web-page) instead.
 
 Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
