@@ -26,6 +26,7 @@ You can manage your urges by using a technique called 'Pause and Plan.' When you
 Instead of reacting immediately, set a timer for 30 min. After this time, you can decide if you still want to proceed.
 
 This technique can help you
+
 * Avoid saying things you don't mean
 * Make better decisions
 * Overcome bad habits
