@@ -1,5 +1,5 @@
 ---
-seoDescription: null
+seoDescription: Struggling with negative reactions to feedback or bad news? Learn to manage your emotional responses by separating initial urges from behavior.
 type: rule
 archivedreason: null
 title: Do you know how to separate the urge from the behavior?
@@ -23,10 +23,12 @@ These habits are not good as they lead to negative emotional responses.
 
 To get out of this habit, you can try separate the initial emotional urge from the actual behavior and break the connection.
 
-Next time you are in a situation where you have the urge to respond negatively, instead of reacting immediately set a timer for 30 min.
+<!--endintro-->
+
+Next time you are in a situation where you have the urge to respond negatively, instead of reacting immediately set a timer for 30 minutes.
 After this time, you can decide if you still want to proceed once your head is clear.
 
-This technique can help you
+This technique can help you:
 
 * Avoid saying things you don't mean
 * Make more logical decisions
@@ -34,8 +36,6 @@ This technique can help you
 * Manage your emotions
 
 This concept applies at work and at home.
-
-<!--endintro-->
 
 `youtube: https://youtu.be/YcD40hmI4wA`
 **Video: A useful tool for quitting bad habits and poor emotional reactions (3 min)**
