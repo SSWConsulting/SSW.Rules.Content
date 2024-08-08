@@ -57,7 +57,7 @@ The nav menu is on the wrong side of the page. It should be on the left, not the
 ::: greybox
 Hey Bob,
 
-How am I supposed to know that? I'm almost certain The PBIs Acceptance Criteria said put it on the right. 
+How am I supposed to know that? I'm almost certain The PBIs Acceptance Criteria said put it on the right.
 :::
 ::: bad
 **Figure: Bad example - reacting immediately can lead to a bad decision 😡**
