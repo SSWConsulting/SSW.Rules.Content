@@ -21,10 +21,10 @@ Sometimes people get in the bad habit of reacting poorly when they receive some 
 
 These habits are not good as they lead to negative emotional responses.
 
-To get out of this habit, you can separate the initial emotional urge from the actual behavior and break the connection.
+To get out of this habit, you can try separate the initial emotional urge from the actual behavior and break the connection.
 
-Next time you are in a situation where you have the urge to behave negatively, instead of reacting immediately set a timer for 30 min.
-After this time, you can decide if you still want to proceed.
+Next time you are in a situation where you have the urge to respond negatively, instead of reacting immediately set a timer for 30 min.
+After this time, you can decide if you still want to proceed once your head is clear.
 
 This technique can help you
 
@@ -32,6 +32,8 @@ This technique can help you
 * Make more logical decisions
 * Overcome bad habits
 * Manage your emotions
+
+This concept applies at work and at home.
 
 <!--endintro-->
 
@@ -55,10 +57,10 @@ The nav menu is on the wrong side of the page. It should be on the left, not the
 ::: greybox
 Hey Bob,
 
-How am I supposed to know that? The PBIs Acceptance Criteria said put it on the right. 😡
+How am I supposed to know that? I'm almost certain The PBIs Acceptance Criteria said put it on the right. 
 :::
 ::: bad
-**Figure: Bad example - reacting immediately can lead to a bad decision 🔥**
+**Figure: Bad example - reacting immediately can lead to a bad decision 😡**
 :::
 
 ### Option 2 - Set a time for 30 min, then respond
