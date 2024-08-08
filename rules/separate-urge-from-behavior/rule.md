@@ -1,27 +1,26 @@
 ---
-seoDescription: null
 type: rule
-archivedreason: null
 title: Do you know how to separate the urge from the behavior?
-guid: b3728da1-c02a-4f3b-9346-08c6f720e173
+seoDescription: null
 uri: separate-urge-from-behavior
-created: 2024-08-08T18:48:19.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: 
+related:
   - accepting-unsolicited-feedback
   - how-to-respond-to-criticism
 redirects: []
+created: 2024-08-08T18:48:19.000Z
+archivedreason: null
+guid: b3728da1-c02a-4f3b-9346-08c6f720e173
 ---
-
 Sometimes people get in the bad habit of reacting poorly when they receive some negative feedback, bad news or disappointing results.
 
 These habits are not good as they lead to negative emotional responses.
 
-To get out of this habit, you can try separate the initial emotional urge from the actual behavior and break the connection.
+To get out of this habit, you can try to separate the initial emotional urge from the actual behavior and break the connection.
 
 Next time you are in a situation where you have the urge to respond negatively, instead of reacting immediately set a timer for 30 min.
 After this time, you can decide if you still want to proceed once your head is clear.
@@ -50,7 +49,7 @@ Hi John,
 The nav menu is on the wrong side of the page. It should be on the left, not the right.
 
 1. Please fix this
-:::
+   :::
 
 ### Option 1 - React immediately
 
@@ -72,7 +71,7 @@ Hey Bob,
 
 Thanks for letting me know, I've taken some time to check the Acceptance Criteria and you're right - I must have misread it.
 This is quick to fix, so I'll do it now and send you a screenshot.
-:::  
+:::\
 ::: good
 **Figure: Good example - setting a timer disconnects the urge from the behavior (bad reaction)**
 :::
