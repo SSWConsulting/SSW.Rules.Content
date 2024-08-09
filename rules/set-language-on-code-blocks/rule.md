@@ -14,8 +14,8 @@ guid: 1f4e6b03-d6d3-45ca-9a8f-9595f3ff5fd5
 You should have a syntax highlighter to show pieces of code on your pages for a better readability. By specifying the language within your code block, you can enable color coding similar to that in an IDE.
 
 Examples:
-- [Prism](https://prismjs.com)
-- [highlight.js](https://highlightjs.org)
+* [Prism](https://prismjs.com)
+* [highlight.js](https://highlightjs.org)
 
 <!--endintro-->
 
