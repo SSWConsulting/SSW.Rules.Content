@@ -415,57 +415,13 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 
 ---
 
-### 10. Email Templates
-
-#### Code for email template
-
-```md
-::: email-template  
-| | |
-| -------- | --- |
-| To: | XXX |
-| Cc: | YYY |
-| Bcc: | ZZZ |
-| Subject: | {{ EMAIL SUBJECT }} |  
-::: email-content
-
-### Hi XXX,
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
-```
-
-**Figure: Markdown for email templates**
-
-::: email-template
-
-|          |                     |
-| -------- | ------------------- |
-| To:      | XXX                 |
-| Cc:      | YYY                 |
-| Bcc:     | ZZZ                 |
-| Subject: | {{ EMAIL SUBJECT }} |
-
-::: email-content
-
-### Hi XXX
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
-
----
-
 ### 11. Code
+
+To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line. 
+
+For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
+
+To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
 
 ```md
 This is a piece of code in a code block
@@ -475,9 +431,7 @@ This is a piece of code in a code block
 Figure: Bad example - Because this code doesn't include the language used
 :::
 
-Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
-
-See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in Rules. See below for some examples:
+See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
 ```javascript
 let iceCream = "chocolate";
@@ -533,23 +487,6 @@ public class MyClass
 
 **Figure: C Sharp code block**
 
-```cpp
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    cout << "Size of char: " << sizeof(char) << " byte" << endl;
-    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
-    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
-    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
-
-    return 0;
-}
-```
-
-**Figure: C++ code block**
-
 ```json
 {
   "glossary": {
@@ -576,6 +513,56 @@ int main()
 ```
 
 **Figure: JSON code block**
+
+---
+
+### 11. Email Templates
+
+#### Code for email template
+
+```md
+::: email-template  
+| | |
+| -------- | --- |
+| To: | XXX |
+| Cc: | YYY |
+| Bcc: | ZZZ |
+| Subject: | {{ EMAIL SUBJECT }} |  
+::: email-content
+
+### Hi XXX,
+
+{{ EMAIL CONTENT }}
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
+```
+
+**Figure: Markdown for email templates**
+
+::: email-template
+
+|          |                     |
+| -------- | ------------------- |
+| To:      | XXX                 |
+| Cc:      | YYY                 |
+| Bcc:     | ZZZ                 |
+| Subject: | {{ EMAIL SUBJECT }} |
+
+::: email-content
+
+### Hi XXX
+
+{{ EMAIL CONTENT }}
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
 
 ---
 
