@@ -11,11 +11,12 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - format-new-lines
 redirects: []
 ---
 
-There are many scenarios where you need some extra space in a web page. No matter which one you are at, CSS is the answer.
+There are many scenarios where you need some extra space in a web page (HTML or Markdown). No matter which one you are at, CSS is the answer.
 
 <!--endintro-->
 
