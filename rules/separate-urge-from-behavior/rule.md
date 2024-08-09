@@ -21,7 +21,7 @@ Sometimes people get in the bad habit of reacting poorly when they receive some 
 
 These habits are not good as they lead to negative emotional responses.
 
-To get out of this habit, you can try separate the initial emotional urge from the actual behavior and break the connection.
+To get out of this habit, you can try to separate the initial emotional urge from the actual behavior and break the connection.
 
 <!--endintro-->
 
