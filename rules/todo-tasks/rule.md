@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - do-you-make-todo-items-in-red
 created: 2021-08-09T23:00:41.371Z
