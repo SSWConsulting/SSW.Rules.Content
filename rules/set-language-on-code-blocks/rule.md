@@ -11,7 +11,7 @@ archivedreason: null
 guid: 1f4e6b03-d6d3-45ca-9a8f-9595f3ff5fd5
 ---
 
-You should have a syntax highlighter to show pieces of code on your pages for a better readability.
+You should have a syntax highlighter to show pieces of code on your pages for a better readability. By specifying the language within your code block, you can enable color coding similar to that in an IDE.
 
 Examples:
 - [Prism](https://prismjs.com)
@@ -22,6 +22,8 @@ Examples:
 ::: info
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules.
 :::
+
+To activate this feature, add the language name right after the opening [3 backticks used to write a code in Markdown](https://www.ssw.com.au/rules/rule/#11-code). For example, instead of starting a JavaScript code example with just <code>\`\`\`</code>, you should use <code>\`\`\`js</code> or <code>\`\`\`javascript</code> for highlighting.
 
 ::: bad
 
