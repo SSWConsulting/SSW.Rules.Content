@@ -14,25 +14,26 @@ Generating charts is essential in conveying data effectively. While creating cha
 
 <!--endintro-->
 
-### Benefits of Using ChatGPT to Generate Charts
+### ✅ Benefits of using ChatGPT to generate charts
 
-* **Speed:** Quickly generate charts without needing to know specific charting software.
-* **Accuracy:** Ensure that data is correctly represented with the right type of chart.
-* **Customization:** Easily customize chart parameters to suit your specific needs.
+* **Speed:** Quickly generate charts without needing to know specific charting software
+* **Accuracy:** Ensure that data is correctly represented with the right type of chart
+* **Customization:** Easily customize chart parameters to suit your specific needs
 
-### How to Prompt ChatGPT for Chart Generation
+### How to prompt ChatGPT for chart generation
 
-1. **Specify the Type of Chart:** Clearly indicate the type of chart you need. For example, "Generate a bar chart comparing the sales of different products."
-2. **Provide the Data:** Ensure you provide the data in a format that ChatGPT can interpret. For example, "Here’s the data: Product A - 30, Product B - 45, Product C - 25."
-3. **Ask for Customizations:** If needed, specify any customizations like colors, labels, or titles. For example, "Label the X-axis as 'Products' and the Y-axis as 'Sales in Units'."
+1. **Specify the Type of Chart:** Clearly indicate the type of chart you need. For example: "Generate a bar chart comparing the sales of different products"
+2. **Provide the Data:** Ensure you provide the data in a format that ChatGPT can interpret. For example: "Here’s the data: Product A - 30, Product B - 45, Product C - 25"
+3. **Ask for Customizations:** If needed, specify any customizations like colors, labels, or titles. For example: "Label the X-axis as 'Products' and the Y-axis as 'Sales in Units'"
 
-![TimePro - Original vs Migrated](timepro-original-vs-migrated.png)
-**Figure: Good Example - TimePro - Compare code metrics between the original and migrated codebase**
+::: good
+![Figure: Good example - TimePro - Compare code metrics between the original and migrated codebase](timepro-original-vs-migrated.png)
+:::
 
-### Limitations to Keep in Mind
+### Limitations to keep in mind
 
-* **Data Size:** ChatGPT works best with smaller datasets. For large datasets, it may be better to use specialized charting tools.
-* **Customization Options:** While you can request customizations, they might not be as extensive as those available in dedicated software.
-* **Interpretation:** Ensure that the data you provide is clear and unambiguous to avoid misinterpretations.
+* **Data Size:** ChatGPT works best with smaller datasets. For large datasets, it may be better to use specialized charting tools
+* **Customization Options:** While you can request customizations, they might not be as extensive as those available in dedicated software
+* **Interpretation:** Ensure that the data you provide is clear and unambiguous to avoid misinterpretations
 
 By using ChatGPT for generating charts, you can streamline your workflow, making it easier to visualize and present your data effectively.
