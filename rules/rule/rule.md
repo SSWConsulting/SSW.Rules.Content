@@ -415,7 +415,7 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 
 ---
 
-### 11. Code
+### 10. Code
 
 To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
 
