@@ -28,10 +28,13 @@ The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet power
 #### 2. **Run cloc on Your Codebase**
 
 - For a git repository (using a specific commit):
+
   ```bash
   cloc {{ COMMIT_HASH }}
   ```
+
 - For a specific file or folder:
+
   ```bash
   cloc /path/to/your/file_or_folder
   ```
