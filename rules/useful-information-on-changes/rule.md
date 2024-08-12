@@ -38,15 +38,15 @@ Figure: Bad example - Cannot tell what was done here
 **PR description:** Changes made:
 
 1. Added missing video figure to embedded YouTube video
-2. Fixed typo:  
-   From:  
+2. Removed the unecessary closing brackets from:  
    Use emojis. See our rule on emojis in Scrum).  
    To:  
    Use emojis. See our rule on emojis in Scrum
-   :::
-   ::: ok
-   Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
-   :::
+
+:::
+::: ok
+Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes
+:::
 
 Try to make generic comments that objectively summarize your changes. This way the reviewer will know what to expect and confirm the changes by looking at the file diffs.
 

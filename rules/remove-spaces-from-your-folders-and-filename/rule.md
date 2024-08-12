@@ -21,12 +21,12 @@ It is not a good idea to have spaces in a folder or file name as they don't tran
 
 Instead of using spaces, we **recommend**:
 
-- **kebab-case** - using dashes between words
+* **kebab-case** - using dashes between words
 
 Other **not recommended** options include:
 
-- **CamelCase** - using the first letter of each word in uppercase and the rest of the word in lowercase
-- **snake_case** - using underscores between words
+* **CamelCase** - using the first letter of each word in uppercase and the rest of the word in lowercase
+* **snake_case** - using underscores between words
 
 For further information, read [Do you know how to name documents?](/how-to-name-sharepoint-documents)
 
@@ -36,36 +36,40 @@ This rule should apply to any file or folder that is on the web. This includes
 
 ::: greybox
 
-- extremeemailsversion1.2.doc
-- Extreme Emails version 1.2.doc
-  :::
-  ::: bad
-  Figure: Bad examples - File names have spaces or dots
-  :::
+* extremeemailsversion1.2.doc
+* Extreme Emails version 1.2.doc
+
+:::
+::: bad
+Figure: Bad examples - File names have spaces or dots
+:::
 
 ::: greybox
 
-- extreme-emails-v1-2.doc
-- Extreme-Emails-v1-2.doc
-  :::
-  ::: good
-  Figure: Good examples - File names have dashes instead of spaces
-  :::
+* extreme-emails-v1-2.doc
+* Extreme-Emails-v1-2.doc
+
+:::
+::: good
+Figure: Good examples - File names have dashes instead of spaces
+:::
 
 ::: greybox
 
-- sharepoint&#46;ssw&#46;com&#46;au/Training/UTSNET/Pages/UTS%20NET%20Short%20Course&#46;aspx
-- fileserver/Shared%20Documents/Ignite%20Brisbane%20Talk&#46;docx
-  :::
-  ::: bad
-  Figure: Bad examples - File names have been published to the web with spaces so the URLs look ugly and are hard to read  
-  :::
+* sharepoint&#46;ssw&#46;com&#46;au/Training/UTSNET/Pages/UTS%20NET%20Short%20Course&#46;aspx
+* fileserver/Shared%20Documents/Ignite%20Brisbane%20Talk&#46;docx
+
+:::
+::: bad
+Figure: Bad examples - File names have been published to the web with spaces so the URLs look ugly and are hard to read  
+:::
 
 ::: greybox
 
-- sharepoint&#46;ssw&#46;com&#46;au/Training/UTS-NET/Pages/UTS-NET-Short-Course&#46;aspx
-- fileserver/Shared-Documents/Ignite-Brisbane-Talk&#46;docx"
-  :::
-  ::: good
-  Figure: Good examples - File names have no spaces so are much easier to read
-  :::
+* sharepoint&#46;ssw&#46;com&#46;au/Training/UTS-NET/Pages/UTS-NET-Short-Course&#46;aspx
+* fileserver/Shared-Documents/Ignite-Brisbane-Talk&#46;docx"
+
+:::
+::: good
+Figure: Good examples - File names have no spaces so are much easier to read
+:::

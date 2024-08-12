@@ -1,7 +1,7 @@
 ---
 seoDescription: Professional email communication relies on accurate spelling and grammar to convey a polished impression, avoiding misinterpretation of your message.
 type: rule
-archivedreason:
+archivedreason: Merged into https://www.ssw.com.au/rules/are-you-careful-with-your-spelling-grammar-and-punctuation
 title: Do you use spelling and grammar checker to make your email professional?
 guid: e51f9a2c-f010-4c05-b266-a7f63fd0ea19
 uri: do-you-use-spelling-and-grammar-checker-to-make-your-email-professional

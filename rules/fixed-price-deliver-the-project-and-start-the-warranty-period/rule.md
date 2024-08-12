@@ -33,11 +33,11 @@ Send an email like this:
 | Subject: | {{ CLIENT NAME }} - Fixed Price component |  
 ::: email-content
 
-### Hi {{ CLIENT NAME }},
+### Hi {{ CLIENT NAME }}
 
 As per our conversation, we confirm that we have now finished the application, and so commences the 7-day warranty. The last day of the warranty will be {{ DATE }}.
 
-During this time, any defects or variations from the scope (as defined in the Specification Review document) will be fixed at no charge. See section 10 of [https://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx](https://www.ssw.com.au/ssw/standards/forms/ConsultingOrderTermsConditions.aspx) for more details.
+During this time, any defects or variations from the scope (as defined in the Specification Review document) will be fixed at no charge. See section 10 of [ssw.com.au/terms-and-conditions](https://www.ssw.com.au/terms-and-conditions) for more details.
 
 If you find things that you’d like done that are not specified in the document, we’re happy to do those on a Time & Materials basis after the warranty period has ended.  
 :::  

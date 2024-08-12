@@ -36,7 +36,8 @@ The easiest approach is just to let your developers use their own devices for te
 2. Developer B works on Feature 2. They test it on their iOS phone, it works, so they open a PR and merge it.
 3. At the end of the Sprint, a build is sent to testers for UAT.
 4. Feature 1 doesn't work on iOS, and Feature 2 doesn't work on Android.
-   :::
+
+:::
 
 ## Option 2: Use a cloud based service
 

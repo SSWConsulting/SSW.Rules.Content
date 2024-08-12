@@ -76,7 +76,8 @@ Action Points (email subjects)
 2. Melbourne Brainstorming 2023 Retro - William L Action Points
 3. Melbourne Brainstorming 2023 Retro - Piers Action Points
 4. Melbourne Brainstorming 2023 Retro - Adam Action Points
-   :::
-   ::: good
-   Figure: Good Example - Mentioning the email subjects for each action point decided on in a retro
-   :::
+
+:::
+::: good
+Figure: Good Example - Mentioning the email subjects for each action point decided on in a Retro
+:::

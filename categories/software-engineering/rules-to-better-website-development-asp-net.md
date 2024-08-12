@@ -41,6 +41,7 @@ index:
   - use-windows-integrated-authentication
   - do-you-log-usage
   - do-you-know-how-to-render-html-strings
+  - do-you-have-a-cookie-banner
 ---
 
 If you still need help, [visit our Web Application Development consulting page](https://www.ssw.com.au/ssw/Consulting/Web-Applications.aspx) and book in a consultant.

@@ -33,4 +33,6 @@ Figure: Good example - Using &lt;p&gt; for texts and &lt;span&gt; for texts' var
 
 **Tip:** The best practice is to CSS classes to define the font family, size, and color.
 
-We have a program called [SSW Link Auditor](https://sswlinkauditor.com) to check for this rule.
+::: codeauditor
+We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
+:::
