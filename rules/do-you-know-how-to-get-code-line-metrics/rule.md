@@ -10,13 +10,13 @@ created: 2024-08-12T12:31:00.000Z
 guid: c72d02f4-8990-4f54-964f-17e558d833ae
 ---
 
-When working on software projects, it’s important to keep track of your codebase's size and structure. Code line metrics help you understand the scope of the code, identify potential areas for refactoring, and maintain a healthy balance between files, blank lines comments, and code. Without these metrics, your project can become difficult to manage, and you may struggle to track progress or maintain code quality.
+When working on software projects, it’s important to keep track of your codebase's size and structure. Code line metrics help you understand the scope of the code, identify potential areas for refactoring, and maintain a healthy balance between files, blank line comments, and code. Without these metrics, your project can become difficult to manage, and you may struggle to track progress or maintain code quality.
 
 <!--endintro-->
 
 ### Using cloc to Measure Code Line Metrics
 
-The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet powerful way to count number of files, blank lines, comment lines, and physical lines of source code across various programming languages. Here’s how you can use it effectively:
+The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet powerful way to count the number of files, blank lines, comment lines, and physical lines of source code across various programming languages. Here’s how you can use it effectively:
 
 ![](eagleeye-cloc-result.png)
 **Figure: Good Example - Running cloc on EagleEye project**
@@ -25,7 +25,7 @@ The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet power
 
 * **File Count:** The number of files in your project, helping you understand its size and complexity.
 * **Blank Lines:** These can indicate the organization of your code, providing insights into its readability.
-* **Comment Lines:** The number of lines that contain comments, helping you gauge how well-documented your code is.
+* **Comment Lines:** The number of lines that contain comments, helps you gauge how well-documented your code is.
 * **Physical Lines of Code (LOC):** This counts the actual code lines, excluding blank lines and comments.
 
 ### Benefits of Tracking Code Metrics
