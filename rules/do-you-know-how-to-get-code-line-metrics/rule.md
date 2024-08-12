@@ -39,6 +39,9 @@ The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet power
   cloc /path/to/your/file_or_folder
   ```
 
+![](eagleeye-cloc-result.png)
+**Figure: Good Example - Running cloc on EagleEye project**
+
 #### 3. **Understand the Output**
 
 - **File Count:** The number of files in your project, helping you understand its size and complexity.
