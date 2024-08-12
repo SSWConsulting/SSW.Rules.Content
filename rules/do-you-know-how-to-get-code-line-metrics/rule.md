@@ -49,10 +49,6 @@ The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet power
 * **Comment Lines:** The number of lines that contain comments, helping you gauge how well-documented your code is.
 * **Physical Lines of Code (LOC):** This counts the actual code lines, excluding blank lines and comments.
 
-#### 4. **Incorporate cloc in Your CI/CD Pipeline**
-
-* Regularly running cloc as part of your continuous integration process can help track changes in your codebase over time. This allows you to monitor code growth and ensure that the proportion of comments and blank lines remains healthy.
-
 ### Benefits of Tracking Code Metrics
 
 Tracking code metrics with cloc helps in maintaining clean and well-documented code. It provides insights that can lead to:
