@@ -49,4 +49,3 @@ There are heaps of great tools that provide much more advanced functionality:
 ![Figure: Lightshot is the most popular screenshot tool](screen-shot-2022-06-09-at-16.38.10.png)
 
 **Source:** [Google Trends](https://trends.google.com.au/trends/explore?q=screenshot%20snagit,screenshot%20lightshot,screenshot%20sharex,screenshot%20greenshot,screenshot%20fullshot)
-
