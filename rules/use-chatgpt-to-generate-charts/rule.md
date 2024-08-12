@@ -16,9 +16,9 @@ Generating charts is essential in conveying data effectively. While creating cha
 
 ### Benefits of Using ChatGPT to Generate Charts
 
-- **Speed:** Quickly generate charts without needing to know specific charting software.
-- **Accuracy:** Ensure that data is correctly represented with the right type of chart.
-- **Customization:** Easily customize chart parameters to suit your specific needs.
+* **Speed:** Quickly generate charts without needing to know specific charting software.
+* **Accuracy:** Ensure that data is correctly represented with the right type of chart.
+* **Customization:** Easily customize chart parameters to suit your specific needs.
 
 ### How to Prompt ChatGPT for Chart Generation
 
@@ -31,8 +31,8 @@ Generating charts is essential in conveying data effectively. While creating cha
 
 ### Limitations to Keep in Mind
 
-- **Data Size:** ChatGPT works best with smaller datasets. For large datasets, it may be better to use specialized charting tools.
-- **Customization Options:** While you can request customizations, they might not be as extensive as those available in dedicated software.
-- **Interpretation:** Ensure that the data you provide is clear and unambiguous to avoid misinterpretations.
+* **Data Size:** ChatGPT works best with smaller datasets. For large datasets, it may be better to use specialized charting tools.
+* **Customization Options:** While you can request customizations, they might not be as extensive as those available in dedicated software.
+* **Interpretation:** Ensure that the data you provide is clear and unambiguous to avoid misinterpretations.
 
 By using ChatGPT for generating charts, you can streamline your workflow, making it easier to visualize and present your data effectively.
