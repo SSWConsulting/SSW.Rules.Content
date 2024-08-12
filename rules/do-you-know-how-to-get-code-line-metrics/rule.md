@@ -20,20 +20,20 @@ The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet power
 
 #### 1. **Install cloc**
 
-- You can install cloc on most operating systems using package managers:
-  - **Windows**: Use [chocolatey](https://chocolatey.org/): `choco install cloc`
-  - **macOS**: Use [Homebrew](https://brew.sh/): `brew install cloc`
-  - **Linux**: Install via your package manager, e.g., `sudo apt-get install cloc` for Debian-based distributions.
+* You can install cloc on most operating systems using package managers:
+  * **Windows**: Use [chocolatey](https://chocolatey.org/): `choco install cloc`
+  * **macOS**: Use [Homebrew](https://brew.sh/): `brew install cloc`
+  * **Linux**: Install via your package manager, e.g., `sudo apt-get install cloc` for Debian-based distributions.
 
 #### 2. **Run cloc on Your Codebase**
 
-- For a git repository (using a specific commit):
+* For a git repository (using a specific commit):
 
   ```bash
   cloc {{ COMMIT_HASH }}
   ```
 
-- For a specific file or folder:
+* For a specific file or folder:
 
   ```bash
   cloc /path/to/your/file_or_folder
@@ -44,21 +44,21 @@ The tool [cloc](https://github.com/AlDanial/cloc) is a straightforward yet power
 
 #### 3. **Understand the Output**
 
-- **File Count:** The number of files in your project, helping you understand its size and complexity.
-- **Blank Lines:** These can indicate the organization of your code, providing insights into its readability.
-- **Comment Lines:** The number of lines that contain comments, helping you gauge how well-documented your code is.
-- **Physical Lines of Code (LOC):** This counts the actual code lines, excluding blank lines and comments.
+* **File Count:** The number of files in your project, helping you understand its size and complexity.
+* **Blank Lines:** These can indicate the organization of your code, providing insights into its readability.
+* **Comment Lines:** The number of lines that contain comments, helping you gauge how well-documented your code is.
+* **Physical Lines of Code (LOC):** This counts the actual code lines, excluding blank lines and comments.
 
 #### 4. **Incorporate cloc in Your CI/CD Pipeline**
 
-- Regularly running cloc as part of your continuous integration process can help track changes in your codebase over time. This allows you to monitor code growth and ensure that the proportion of comments and blank lines remains healthy.
+* Regularly running cloc as part of your continuous integration process can help track changes in your codebase over time. This allows you to monitor code growth and ensure that the proportion of comments and blank lines remains healthy.
 
 ### Benefits of Tracking Code Metrics
 
 Tracking code metrics with cloc helps in maintaining clean and well-documented code. It provides insights that can lead to:
 
-- **Improved Code Quality:** By identifying parts of the code that are poorly documented or unnecessarily complex.
-- **Better Project Management:** Enabling project leads to assess the size and complexity of the codebase and plan accordingly.
-- **Code Review Efficiency:** Assisting in identifying files that have changed significantly and might require more thorough reviews.
+* **Improved Code Quality:** By identifying parts of the code that are poorly documented or unnecessarily complex.
+* **Better Project Management:** Enabling project leads to assess the size and complexity of the codebase and plan accordingly.
+* **Code Review Efficiency:** Assisting in identifying files that have changed significantly and might require more thorough reviews.
 
 By integrating cloc into your workflow, you can ensure that your codebase remains manageable, maintainable, and well-documented as your project evolves.
