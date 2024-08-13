@@ -6,6 +6,8 @@ uri: use-chatgpt-to-generate-charts
 authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
+related:
+  - get-code-line-metrics
 created: 2024-08-12T16:35:00.000Z
 guid: b48f4f93-65c9-4d9e-9d17-9c0c5de654a8
 ---
