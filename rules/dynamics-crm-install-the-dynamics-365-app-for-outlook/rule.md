@@ -29,9 +29,9 @@ You should install the new Dynamics 365 App for Outlook to track your appointmen
 
 Follow these steps:
 
-1.  Open a new tab and navigate to your CRM. E.g. At SSW, it is [ssw.crm6.com](https://ssw.crm6.dynamics.com/main.aspx?app=d365default&forceUCI=1)
-2.  Select Settings (cog) | Advanced Settings
-3.  Select Settings (cog) | Apps For Dynamics 365
+1. Open a new tab and navigate to your CRM. E.g. At SSW, it is [ssw.crm6.com](https://ssw.crm6.dynamics.com/main.aspx?app=d365default&forceUCI=1)
+2. Select Settings (cog) | Advanced Settings
+3. Select Settings (cog) | Apps For Dynamics 365
 
 ![Figure: Select Settings (cog) | Apps for Dynamics 365 menu item](crm-addins_1.png)
 
@@ -47,5 +47,5 @@ Follow these steps:
 
 Now you can get up-and-running using CRM:
 
-- [Scheduling - Do you know how to book developers for a project?](/scheduling-do-you-know-how-to-book-developers-for-a-project)
-- [Sales - Do you track all sales-related activities in CRM?](/sales-do-you-track-all-sales-related-activities-in-crm)
+* [Scheduling - Do you know how to book developers for a project?](/scheduling-do-you-know-how-to-book-developers-for-a-project)
+* [Sales - Do you track all sales-related activities in CRM?](/sales-do-you-track-all-sales-related-activities-in-crm)
