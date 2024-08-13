@@ -6,7 +6,8 @@ uri: being-a-good-consultant
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-related: how-to-take-feedback-or-criticism
+related:
+  - how-to-take-feedback-or-criticism
 created: 2022-04-27T18:59:57.414Z
 guid: 38910f86-d17e-4232-844d-f09e1b9b36d7
 ---
