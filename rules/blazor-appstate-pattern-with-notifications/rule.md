@@ -157,4 +157,4 @@ The Counter page example below calls `StateHasChanged()` when the `PropertyChang
 
 Whenever the `IncrementCount()` or `Reset()` methods are invoked, any listeners on the page will invoke the handling code attached to the `PropertyChanged` event - and be able to invoke `StateHasChanged` in order to update their respective views.
 
-T﻿he real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components. 
+The real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components. 
