@@ -87,6 +87,7 @@ index:
   - interfaces-abstract-classes
   - use-var
   - handle-unhappy-paths
+  - get-code-line-metrics
 ---
 
 What makes code "cleaner"? What makes the difference between readable code and very readable code?
