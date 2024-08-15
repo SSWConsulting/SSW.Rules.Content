@@ -31,11 +31,13 @@ This formula helps you anchor the new behavior to something you already do regul
 
 **Tips for new habits:**
 
-* **Start small:** The habit should be tiny, so its easy to complete and hard to skip.
+* Start small - The habit should be tiny, so its easy to complete and hard to skip.
   E.g. Drink a glass of water
-* **Anchor it:** Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.
+* Anchor it - Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.
   E.g. After I brush my teeth
-* **Celebrate immediately:** Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.
+* Celebrate immediately - Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.
+* Don't forget - initially, you might need a reminder
+  E.g. Set an alarm, ask your partner to remind you, use sticky notes
 
 **Examples:**
 
