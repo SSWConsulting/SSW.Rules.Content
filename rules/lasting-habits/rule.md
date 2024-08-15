@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how to change your behavior effectively by creating tiny habits.
 type: rule
-title: Do you know how to build habits that last?
+title: Do you know how to build good habits that last?
 uri: lasting-habits
 authors:
   - title: Adam Cogan
@@ -25,32 +25,36 @@ The Tiny Habits method, developed by Dr. BJ Fogg, emphasizes starting with very 
 
 Use this simple template to create your tiny habits:
 
-**After I {{ EXISTING HABIT }}, I will {{ NEW TINY BEHAVIOUR }}.**
+::: greybox
+After I **{{ EXISTING HABIT }}**, I will **{{ NEW TINY BEHAVIOUR }}**.
+:::
 
 This formula helps you anchor the new behavior to something you already do regularly, making it more likely you'll follow through.
 
-**Tips for new habits:**
+## Tips for new habits
 
-* Set a goal - Think about what you want to improve
+* **Set a goal** - Think about what you want to improve.
   E.g. I want to drink more water
-* Anchor it - Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.  
-  E.g. pour my morning coffee
-* Start small - The habit should be tiny, so its easy to complete and hard to skip.  
+* **Anchor it** - Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.
+  E.g. Pour my morning coffee
+* **Start small** - The habit should be tiny, so its easy to complete and hard to skip.
   E.g. Drink a glass of water
-* Celebrate immediately - Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.
+* **Celebrate immediately** - Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.  
   E.g. Give yourself a high five
-* Don't forget - initially, you might need a reminder  
+* **Don't forget** - Initially, you might need a reminder.
   E.g. Set an alarm, ask your partner to remind you, put a sticky note in your bathroom
 
-**Examples:**
+## Examples
 
-* **After I** brush my teeth, **I will** floss one tooth.
-* **After I** pour my morning coffee, **I will** drink a glass of water.
-* **After I** start the toaster, **I will** do 5 push-ups.
+::: greybox
+
+* After I **brush my teeth**, I will **floss one tooth**
+* After I **pour my morning coffee**, I will **drink a glass of water**
+* After I **start the toaster**, I will **do 5 push-ups**
+:::
 
 By starting with something small, you remove the barrier of feeling overwhelmed, making it easier to stay consistent. As these tiny habits become automatic, you can gradually expand on them, leading to significant and sustainable changes over time.
 
-::: greybox
-This is similar to James Clear's Atomic Habits  
-<https://jamesclear.com/atomic-habits>
+::: info
+This is similar to [James Clear's Atomic Habits](https://jamesclear.com/atomic-habits).
 :::
