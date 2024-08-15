@@ -52,5 +52,5 @@ By starting with something small, you remove the barrier of feeling overwhelmed,
 
 ::: greybox
 This is similar to James Clear's Atomic Habits  
-https://jamesclear.com/atomic-habits
+<https://jamesclear.com/atomic-habits>
 :::
