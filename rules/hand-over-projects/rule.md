@@ -20,15 +20,15 @@ guid: 15b06388-5103-45e4-a5ea-96c13554df77
 
 Transitioning a project smoothly is crucial, whether due to changing project assignments or planned absences. A thorough handover process ensures continuity and minimizes disruption.
 
-It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over. Schedule a handover meeting with high priority.
+**The handover is the responsibility of the person transitioning away from the project.**
 
-Tip: If you are leaving a company, ideally your handover should be done as soon as possible so that the developer taking over can work with them while you're still available and they can ask questions.
-
-**The handover is the responsibility of the person transitioning away from the project**
-
-![Figure: This is not how you hand over a project](handover-project.gif)
+It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over, then schedule a handover meeting with high priority.
 
 <!--endintro-->
+
+**Tip:** If you are leaving a company, ideally your handover should be done **as soon as possible** so that the developer taking over can start working on them while you’re still available to answer any questions.
+
+![Figure: This is not how you hand over a project](handover-project.gif)
 
 ### Handover Checklist
 
@@ -46,11 +46,11 @@ Send this checklist in an email before the handover meeting to guide the discuss
 
 Hi {{ RECIPIENT }},
 
-I am looking forward to our upcoming handover meeting for {{ PROJECT NAME }}. Please find below the checklist we will go through:
+I am looking forward to our upcoming handover meeting for {{ PROJECT NAME }}. Please find below the checklist to go through:
 
 1. [Record this meeting](/record-teams-meetings) - It could be useful later!
-2. Review the roadmap/backlog - what are the current and upcoming goals?
-3. Scrum - Review [Definition of Done](/definition-of-done) and [Definition of Ready](/have-a-definition-of-ready).
+2. Review the roadmap/backlog - What are the current and upcoming goals?
+3. Scrum - Review [Definition of Done](/definition-of-done) and [Definition of Ready](/have-a-definition-of-ready)
 4. Discuss project roles
    1. Who is the Product Owner?
    2. Who is the Scrum Master?
@@ -58,11 +58,11 @@ I am looking forward to our upcoming handover meeting for {{ PROJECT NAME }}. Pl
 5. Architecture and Code Review
    1. Look for any [Tech Debt](/technical-debt)
    2. Test coverage and quality
-6. CI/CD - Overview of the pipelines and deployment process.
-7. Overview of monitoring, logging, and incident response procedures.
-8. Project access - ensure the new team member has all necessary permissions
+6. CI/CD - Overview of the pipelines and deployment process
+7. Overview of monitoring, logging, and incident response procedures
+8. Project access - Ensure the new team member has all necessary permissions
 9. Documentation - Review and update any missing or outdated documentation
-10. Optional - shadow some project meetings and development
+10. Optional - Shadow some project meetings and development
 
 We will record the meeting for future reference and add it to the project documentation. Please be ready to discuss these points, and let me know if you have any questions before the meeting.
 
@@ -74,7 +74,7 @@ Thanks!
 
 Ensure you [reply done](/reply-done-and-delete-the-email) to this email after the handover meeting, with a checked by from the recipient.
 
-For individual task handovers, see [Do you know how to hand over email tasks to others?](/how-to-hand-over-tasks-to-others).
+For individual task handovers, see [how to hand over email tasks to others](/how-to-hand-over-tasks-to-others).
 
 ::: greybox  
 **Tip:** Recording the handover process via a Teams call can be beneficial for future reference.  
