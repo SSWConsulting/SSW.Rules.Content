@@ -22,6 +22,8 @@ Transitioning a project smoothly is crucial, whether due to changing project ass
 
 It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over. Schedule a handover meeting with high priority.
 
+Tip: If you are leaving a company, ideally your handover should be done as soon as possible so that the developer taking over can work with them while you're still available and they can ask questions.
+
 **The handover is the responsibility of the person transitioning away from the project**
 
 ![Figure: This is not how you hand over a project](handover-project.gif)
