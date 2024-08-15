@@ -27,17 +27,18 @@ Use this simple template to create your tiny habits:
 
 This formula helps you anchor the new behavior to something you already do regularly, making it more likely you'll follow through.
 
-Tips for new habits:
+**Tips for new habits:**
 
-* **Start small:** The habit should be tiny so its easy to complete and hard to skip.
-e.g. Drink a glass of water
+* **Start small:** The habit should be tiny, so its easy to complete and hard to skip.
+  E.g. Drink a glass of water
 * **Anchor it:** Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.
-e.g. After I brush my teeth
+  E.g. After I brush my teeth
 * **Celebrate immediately:** Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.
 
 **Examples:**
+
 * **After I** brush my teeth, **I will** floss one tooth.
 * **After I** pour my morning coffee, **I will** drink a glass of water.
-* **After I** start the toater, **I will** do 5 push-ups.
+* **After I** start the toaster, **I will** do 5 push-ups.
 
 By starting with something small, you remove the barrier of feeling overwhelmed, making it easier to stay consistent. As these tiny habits become automatic, you can gradually expand on them, leading to significant and sustainable changes over time.
