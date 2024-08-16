@@ -19,8 +19,8 @@ Setting Perplexity as your default search engine can significantly enhance your 
 
 By making Perplexity your default search engine, you leverage the power of AI to get context-rich, personalized search results. This can help you find information faster, with more relevance, and with a better understanding of the context around your queries.
 
-::: bad
-![Figure: Bad example – Leaving Google as your default search engine means you are missing out](google-default.png)
+::: ok
+![Figure: OK example - If you generally are just trying to navigate to a particular page on the internet, Google is still an OK option](google-default.png)
 :::
 
 ::: good
