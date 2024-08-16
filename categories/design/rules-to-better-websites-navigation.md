@@ -20,6 +20,7 @@ index:
 - do-you-make-your-pages-easy-to-access
 - avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
+- anchor-links
 - do-you-use-the-right-anchor-names
 - hyperlink-phone-numbers
 - add-callable-link
