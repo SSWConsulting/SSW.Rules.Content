@@ -11,7 +11,7 @@ authors:
 created: 2024-08-15T20:53:13.541Z
 guid: 9fd16b38-a926-4905-a992-b6d7b1f0d742
 ---
-Setting Perplexity as your default search engine can significantly enhance your browsing experience by providing you with AI-driven, personalized search results. With Perplexity, you get more than just a list of links; you get context-rich answers, summaries, and insights tailored to your query. 
+Setting Perplexity as your default search engine can significantly enhance your browsing experience by providing you with AI-driven, personalized search results. With Perplexity, you get more than just a list of links; you get context-rich answers, summaries, and insights tailored to your query.
 
 <!--endintro-->
 
