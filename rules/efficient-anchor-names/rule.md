@@ -9,6 +9,8 @@ created: 2016-08-05T19:57:36.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - anchor-links
 redirects:
