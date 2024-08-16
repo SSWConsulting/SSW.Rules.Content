@@ -9,7 +9,8 @@ created: 2016-08-05T19:57:36.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - anchor-links
 redirects:
   - do-you-chose-efficient-anchor-names
   - chose-efficient-anchor-names
