@@ -28,7 +28,7 @@ Roaming package eg. Telstra are a big $ money waste
 
 There are few options:
 
-### Option A. Dual-SIM Phone with a Travel Sim (recommended)
+### Option A. Dual-SIM Phone with a Travel SIM (recommended)
 
 If you travel overseas a lot, it may be worth considering owning a dual-SIM phone. This is highly recommended due to its cost-effectiveness, easy management, and enhanced security.
 
