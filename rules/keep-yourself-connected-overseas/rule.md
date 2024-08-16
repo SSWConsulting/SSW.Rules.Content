@@ -18,11 +18,17 @@ Ensuring seamless connectivity during international travel is a crucial consider
 
 The question arises: _How can one stay connected without the risk of huge bills?_
 
+Roaming package eg. Telstra are a big $ money waste
+
+![❌ Bad example - Keep your Data Roaming on](keep-yourself-connected-4.png)
+
+![❌ Bad example - Exorbitant Telstra bills upon returning home due to roaming data usage of 120 GB](keep-yourself-connected-1.png)
+
 <!--endintro-->
 
 There are few options:
 
-### 1. Dual-SIM Phone (recommended)
+### Option #1. Dual-SIM Phone (recommended)
 
 If you travel overseas a lot, it may be worth considering owning a dual-SIM phone. This is highly recommended due to its cost-effectiveness, easy management, and enhanced security.
 
@@ -35,7 +41,7 @@ Take the popular iPhone as an example, which offers an eSIM and a physical SIM s
 Note: Sometimes it is better to use a eSIM travel app e.g. <https://roamless.com/>
 You can buy data and use it in 165 countries without changing SIM cards.
 
-### 2. Portable 4G Router
+### Option #2. Portable 4G Router
 
 Invest in a device, insert the local travel SIM, and share the Wi-Fi with multiple users and devices.
 
@@ -43,7 +49,7 @@ Invest in a device, insert the local travel SIM, and share the Wi-Fi with multip
 - ❌ You will need to carry an extra device
 - ❌ You may miss out on free Wi-Fi – the router is connected by Wi-Fi so you cannot connect to others, for example, hotels
 
-### 3. Roaming package
+### Option #3. Roaming package eg. Telstra
 
 Rely on your current roaming service, for example, Telstra charges $10 per day for 1 GB of data and $10 per extra GB. Some other carriers may offer more competitive packages.
 
@@ -62,8 +68,6 @@ Travel SIMs usually offers better user experience if you spend more data.
 - ✅ They are prepaid and disposable
 - ✅ It can be a perfect combination with your roaming service to have enough cheap data to use and make calls from your roaming service. Of course, you will have your regular mobile connected as well, so you won’t miss the important calls and text messages
 - ❌ Often limited to data only and will expire after a certain period
-
-![❌ Bad example - Exorbitant Telstra bills upon returning home due to roaming data usage of 120 GB](keep-yourself-connected-1.png)
 
 ![✅ Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
 
