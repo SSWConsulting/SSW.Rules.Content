@@ -44,4 +44,3 @@ To create a link to your anchor named section inside the same page, simply add a
 **Figure: This is how you add a link to that anchor name you created inside the same page. Remember to add the hashtag**
 
 **Tip:** Use a hashtag **alone** to link to the top of a page. E.g. `<a href="#">&Go to top</a>`
-
