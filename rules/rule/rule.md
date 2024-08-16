@@ -189,15 +189,16 @@ _You **can** combine them_
 
 This is [an internal link](https://www.ssw.com.au).
 
-This is [an internal link with title](https://www.ssw.com.au "SSW website") (hover me).
+This is [an internal link with title](https://www.ssw.com.au "This is a link title") (hover me).
 
 This is [an external link](https://www.google.com).
 
 ::: info
-**Cool features:**
+**Cool link features:**
 
-* Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
+* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.   
+   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
 :::
 
