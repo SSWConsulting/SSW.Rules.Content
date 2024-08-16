@@ -23,6 +23,7 @@ This is especially useful in long pages that can be separated into sections. You
 ```html
 <h2><a name="get-started"></a>Get Started</h2>
 ```
+
 **Figure: This is how you add an anchor name to an specific section of your page. Note it doesn't have the hash mark and the anchor tag is empty**
 
 You now have a custom URL that points to the specific section of the page. It is the page URL followed by the hashtag plus the name you chose:
@@ -39,11 +40,13 @@ To create a link to your anchor named section inside the same page, simply add a
 ```html
 <a href="#get-started">Go to Get Started section</a>
 ```
+
 **Figure: This is how you add a link to that anchor name you created inside the same page. Remember to add the hashtag**
 
 ::: greybox
-**Tips:** 
-* Use the hash mark **only** to go to the top of a page.   
+**Tips:**
+
+* Use the hash mark **only** to go to the top of a page.
   E.g. `<a href="#">&Go to top</a>`
 
 * Some browsers consider capitalization for anchor names (E.g. Firefox). Always check your links and anchor names are identical, matching the capitalization
