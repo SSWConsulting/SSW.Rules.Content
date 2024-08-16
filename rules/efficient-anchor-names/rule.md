@@ -37,6 +37,7 @@ These are the things you should consider when creating an anchor link:
 ```html
 <a name="1st section"></a>
 ```
+
 ::: bad
 Bad example - Beginning with a number, spaces within, and not meaningful anchor name
 :::
@@ -44,6 +45,7 @@ Bad example - Beginning with a number, spaces within, and not meaningful anchor 
 ```html
 <a name="get-started"></a>
 ```
+
 ::: good
 Good example - Beginning with a letter, no spaces, and  meaningful anchor name
 :::
