@@ -33,3 +33,17 @@ These are the things you should consider when creating an anchor link:
 * **Make it meaningful** - When you are sending the URL by email it helps indicate what you are talking about
 * **Avoid list numbers** - They often change. An anchor like `#13` becomes incorrect when the order changes
 * **Know they are case sensitive** - `#usergroups` is **not** the same as `#UserGroups`. Always check your links and anchor names are identical, matching the capitalization
+
+```html
+<a name="1st section"></a>
+```
+::: bad
+Bad example - Beginning with a number, spaces within, and not meaningful anchor name
+:::
+
+```html
+<a name="get-started"></a>
+```
+::: good
+Good example - Beginning with a letter, no spaces, and  meaningful anchor name
+:::
