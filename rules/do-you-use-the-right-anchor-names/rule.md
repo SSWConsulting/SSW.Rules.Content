@@ -1,7 +1,7 @@
 ---
 seoDescription: Mastering anchor names is crucial for effective web development. Follow W3C guidelines and ensure unique, letter-started, and correctly formatted anchor names to avoid common mistakes.
 type: rule
-archivedreason:
+archivedreason: Merged to https://www.ssw.com.au/rules/anchor-links
 title: Do you use the right anchor names?
 guid: 496b9746-5fbc-4c98-b730-e1bc9c4e9bd6
 uri: do-you-use-the-right-anchor-names
