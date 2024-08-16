@@ -2,7 +2,7 @@
 seoDescription: Learn how to use named anchor links to link to specific places within a page, providing "jump-to" functionality and customizable URLs.
 type: rule
 archivedreason:
-title: Do you know how to use named anchor links?
+title: Do you know how to use anchor links?
 guid: 599548c1-a1ff-4f0a-aed8-5938acb6fe83
 uri: anchor-links
 created: 2012-07-17T20:11:55.0000000Z
@@ -23,7 +23,6 @@ This is especially useful in long pages that can be separated into sections. You
 ```html
 <h2><a name="get-started"></a>Get Started</h2>
 ```
-
 **Figure: This is how you add an anchor name to an specific section of your page. Note it doesn't have the hash mark and the anchor tag is empty**
 
 You now have a custom URL that points to the specific section of the page. It is the page URL followed by the hashtag plus the name you chose:
@@ -40,21 +39,23 @@ To create a link to your anchor named section inside the same page, simply add a
 ```html
 <a href="#get-started">Go to Get Started section</a>
 ```
-
 **Figure: This is how you add a link to that anchor name you created inside the same page. Remember to add the hashtag**
 
 **Tip:** Use a hashtag **alone** to link to the top of a page. E.g. `<a href="#">&Go to top</a>`
 
-### Choosing the anchor link name
+### Choosing effective anchor names
 
-An anchor name is the value of either the name or id attribute when used in the context of anchors.
-
-It is often that developers find themselves using the anchor names incorrectly.
+It is often that developers find themselves using the incorrect/inefficient anchor names. 
 
 According to [W3C](https://www.w3.org/TR/REC-html40/struct/links.html), anchor names must observe the following rules:
 
-* Anchor names must be unique within a document
-* They must begin with a letter (A-Z, a-z) and may be followed by any number of letters, digits (0-9), hyphens ("-"), underscores ("_"), colons (":"), and periods (".")
-* Anchor name cannot start with `#`
+* Anchor names **must be unique** within a document
+* **Don't add spacing** - When you are defining an anchor name, make sure there are no spaces within the name
+* **Begin with a letter** (A-Z, a-z) and may be followed by any number of letters, digits (0-9), hyphens ("-"), underscores ("_"), colons (":"), and periods (".")
+* Anchor name **cannot start with `#`**
 
-**Note:** Some browsers consider capitalization for anchor names (E.g. Firefox). Always check your links and anchor names are identical, matching the capitalization
+These are the things you should consider when creating an anchor link:
+
+* **Make it meaningful** - When you are sending the URL by email it helps indicate what you are talking about
+* **Avoid list numbers** - They often change. An anchor like `#13` becomes incorrect when the order changes
+* **Know they are case sensitive** - `#usergroups` is **not** the same as `#UserGroups`. Always check your links and anchor names are identical, matching the capitalization
