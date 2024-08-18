@@ -45,7 +45,6 @@ index:
 - do-you-help-the-user-to-enter-a-url-field
 - do-you-make-sure-that-all-your-tags-are-well-formed
 - html-css-do-you-know-how-to-create-spaces-in-a-web-page
-- do-you-know-how-to-use-named-anchor-links
 - do-you-check-your-website-is-multi-browser-compatible
 - clean-no-match-found-screen
 - do-you-know-how-to-arrange-forms
