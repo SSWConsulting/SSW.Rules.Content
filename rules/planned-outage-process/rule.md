@@ -41,11 +41,11 @@ If you send an email it is a good idea to tell the user a way to monitor the net
 Include a "[To myself](/dones-do-you-send-yourself-emails)". It gives visibility to others who are interested in what needs to be done to fix the problem and makes
 it easier to remember to send the 'done' email. E.g. "done - CRM is alive again".
 
-::: email-template\
+::: email-template
 | | |
 | -------- | --- |
 | To: | SSWAll |
-| Subject: | Planned Outage | Date and time |\
+| Subject: | Planned Outage | Date and time |
 ::: email-content
 
 ### Hi All
