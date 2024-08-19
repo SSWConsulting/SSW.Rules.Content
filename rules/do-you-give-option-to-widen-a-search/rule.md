@@ -22,11 +22,9 @@ You must be careful when combining search and filtering functionality as this ca
 
 <!--endintro-->
 
-
 ::: bad
 ![Figure: Bad example - Search is not reminding the user about the fact that a built-in filter is applied to the search result](no-match-found-search.png)
 :::
-
 
 ::: good
 ![Figure: Good example - Search reminds the user that the search criteria can be widen to show more result](SearchOption-Good.png)
