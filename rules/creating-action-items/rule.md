@@ -19,7 +19,7 @@ guid: 50f5fd0b-a15f-45ad-bb35-2dd522d9a5db
 ---
 The goal of most meetings should be to establish clear next steps. These action items should be shared with the intended recipients, with all other attendees CC'd.
 
-It's beneficial to designate a scribe who drafts action points during the meeting and **assigns them directly to those responsible for completing the tasks**. If the scribe hasn't been identified at the start, simply ask, "Who will be the scribe?"
+It's beneficial to designate a scribe who drafts action points during the meeting and **assigns them directly to those responsible for completing the tasks**. If the scribe hasn't been identified at the start, simply ask: _"Who will be the scribe?"_
 
 The scribe should also document the decision-making process by writing down each person's arguments. After everyone comments on the options, the notes can be reviewed as a group and often the best course of action is clear.
 
@@ -50,7 +50,7 @@ The meeting organiser should allow time after the meeting to check the action po
 
 If you're in a regular Teams call rather than a scheduled meeting and don’t have access to the Notes tab, you can still effectively manage action items with these options:
 
-## Option 2: Quick and Dirty
+## Option 2: Quick and dirty
 
 During the call, type your key action items or decisions directly into a Teams message.
 
@@ -58,7 +58,7 @@ Once you've noted everything down, ask everyone in the call to "Like" 👍 the m
 
 This helps ensure consensus and provides a quick way to confirm that everyone is on the same page without the overhead of creating a new Loop.
 
-## Option 3: Loop It Up
+## Option 3: Loop it up
 
 For more detailed or complex notes, create a new Loop page and share the link with the group.
 
