@@ -19,7 +19,6 @@ related:
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
-
 redirects:
   - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
@@ -41,7 +40,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
 | Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review/Retro |
+| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review + Retro |
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
