@@ -1,7 +1,8 @@
 ---
-seoDescription: Do you have a planned outage process to ensure minimal disruption and effective communication with users?
 type: rule
 title: Outage - Do you have a planned outage process?
+seoDescription: Do you have a planned outage process to ensure minimal
+  disruption and effective communication with users?
 uri: planned-outage-process
 authors:
   - title: Adam Cogan
@@ -21,7 +22,6 @@ created: 2017-06-30T19:21:55.000Z
 archivedreason: null
 guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd
 ---
-
 For unplanned outages, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
@@ -41,13 +41,11 @@ If you send an email it is a good idea to tell the user a way to monitor the net
 Include a "[To myself](/dones-do-you-send-yourself-emails)". It gives visibility to others who are interested in what needs to be done to fix the problem and makes
 it easier to remember to send the 'done' email. E.g. "done - CRM is alive again".
 
-Example:
-
-::: email-template  
+::: email-template
 | | |
 | -------- | --- |
 | To: | SSWAll |
-| Subject: | Planned Outage | Date and time |  
+| Subject: | Planned Outage | Date and time |
 ::: email-content
 
 ### Hi All
@@ -107,23 +105,27 @@ To show others who are interested in what needs to be done to fix the problem:
 :::
 :::
 
+**Figure: Example planned outage email**
+
+### Pre-Outage Checklist
+
 Immediately before the scheduled downtime, check for logged in users, file access, and database connections.
 
-### Users
+#### Users
 
-Open 'Windows Task Manager' (Run &gt; taskmgr) and select the 'Users' tab. Check with users if they have active connections, then have them log off.
+Run | Taskmgr | Users' tab | Check active connections | Request users to log off
 
 ![Figure: Connected users can be viewed in Task Manager](rule-outage-3.png)
 
-### Files
+#### Files
 
-Open 'Computer Management' (Run &gt; compmgmt.msc), then 'System Tools &gt; Shared Folders'. Check 'Session' and 'Open Files' for user connections.
+Run | compmgmt.msc | System Tools | Shared Folders' | Review 'Session' and 'Open Files' for user connections
 
 ![Figure: Computer Management 'Open Files' View](rule-outage-4.png)
 
-### Database
+#### Database
 
-Open SQL Server Management Studio on the server. Connect to the local SQL Server. Expand 'Management' and double-click 'Activity Manager'.
+SQL Server Management Studio | SQL Server Connection | Activity Manager
 
 ![Figure: SQL Management Studio 'Active Connections' View](rule-outage-5.gif)
 
