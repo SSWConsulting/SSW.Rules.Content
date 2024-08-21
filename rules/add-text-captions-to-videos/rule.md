@@ -4,14 +4,15 @@ type: rule
 archivedreason:
 title: Post-Production - Do you add captions to your video?
 guid: da9b2c06-3483-46fe-9373-056464fa7f36
-uri: post-production-do-you-add-captions-to-your-video
+uri: add-text-captions-to-videos
 created: 2011-12-05T05:41:15.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
   - add-useful-and-concise-figure-captions
-redirects: []
+redirects:
+  - post-production-do-you-add-captions-to-your-video
 ---
 
 Adding text to videos (refer to any text pop-up on screen as a 'caption') can be a powerful way to reinforce the content and make it more engaging and accessible for viewers.
