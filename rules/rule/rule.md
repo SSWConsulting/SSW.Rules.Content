@@ -193,11 +193,11 @@ This is [an internal link with title](https://www.ssw.com.au "This is a link tit
 
 This is [an external link](https://www.google.com).
 
-::: info
+::: greybox
 **Cool link features:**
 
 * We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
-* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
+* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.   
    E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
 :::
@@ -218,60 +218,24 @@ This is a box using the class "greybox".
 This is a box using the class "greybox".  
 :::
 
-::: greybox  
-
-## This is a heading 2 inside a "greybox"
-
-:::
-
 ::: highlight  
 This is a box using the class "highlight".
-:::
-
-::: highlight  
-
-## This is a heading 2 inside a "highlight"
-
 :::
 
 ::: info  
 This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
 :::
 
-::: info  
-
-## This is a heading 2 inside an "info"
-
-:::
-
 ::: china  
 This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
-:::
-
-::: china  
-
-## This is a heading 2 inside a "china"
-
 :::
 
 ::: codeauditor
 This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
-::: codeauditor  
-
-## This is a heading 2 inside a "codeauditor"
-
-:::
-
 ::: todo  
 This is a &lt;div&gt; using the class "todo". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.  
-:::
-
-::: todo  
-
-## This is a heading 2 inside a "todo"
-
 :::
 
 #### Hiding content
