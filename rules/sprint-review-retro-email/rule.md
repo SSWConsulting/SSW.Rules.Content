@@ -65,6 +65,7 @@ Please see below for a more detailed breakdown of the Sprint:
 | Project Portal:    | {{ LINK TO PROJECT PORTAL }}          |
 | Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}        |
 | Product Owner:     | {{ PRODUCT OWNER NAME }}              |
+| Attendees:         | {{ NAMES OF THE ATTENDEES }}          |
 
 Attendees: *(Optional as they may be in the to and CC)*
 
