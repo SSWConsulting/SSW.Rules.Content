@@ -20,7 +20,9 @@ SEO is very important to companies, so devs should know the tools they can use t
 
 <!--endintro-->
 
-## [Google Search Console](https://search.google.com/search-console/about)
+## Google Search Console
+
+https://search.google.com/search-console/about
 
 - Free
 - Monitor and manage indexing of your pages
@@ -28,14 +30,18 @@ SEO is very important to companies, so devs should know the tools they can use t
 - Analyze search query data
 
 
-## [Google Analytics](https://analytics.google.com/)
+## Google Analytics
+
+https://analytics.google.com/
 
 - Free
 - Helps you track site traffic, user behavior, and marketing campaigns
 - Has reporting tools
 
 
-## [SEMrush](https://www.semrush.com/)
+## SEMrush
+
+https://www.semrush.com/
 
 - 💸 Paid tool - [semrush.com/pricing/](https://www.semrush.com/pricing/)
 - Has powerful features:
