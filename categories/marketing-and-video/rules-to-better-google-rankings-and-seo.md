@@ -10,7 +10,7 @@ index:
 - page-indexed-by-google
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
-- google-search-console-vs-google-analytics
+- seo-tools
 - monitor-seo-effectively
 - report-seo-results
 - seo-checklist
