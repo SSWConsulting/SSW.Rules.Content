@@ -23,7 +23,7 @@ The question arises: _How can one stay connected without the risk of huge bills?
 Roaming packages (e.g. Telstra) are a big $ money waste.
 
 ::: bad
-![Bad example - Keep your Data Roaming on](keep-yourself-connected-bad-example-1.png)
+![Bad example - Keep your Data Roaming on](keep-yourself-connected-bad-example-2.png)
 :::
 
 ::: bad
@@ -32,11 +32,11 @@ Roaming packages (e.g. Telstra) are a big $ money waste.
 
 There are few options:
 
-### Option A. Dual-SIM Phone with a Travel SIM (recommended)
+### Option A. Dual-SIM - Travel SIM/eSIM (recommended)
 
 If you travel overseas a lot, it may be worth considering owning a dual-SIM phone. This is highly recommended due to its cost-effectiveness, easy management, and enhanced security.
 
-Take the popular iPhone as an example, which offers multiple eSIM and a physical SIM slot. You can keep your primary mobile number to a SIM card and add an eSIM for your travel SIMs..
+Take the popular iPhone as an example, which offers multiple eSIM and a physical SIM slot. You can keep your primary mobile number and add an eSIM for your travel SIMs..
 
 ✅ Usually cheap, and easy to acquire and setup
 
@@ -66,7 +66,9 @@ Invest in a device, insert the local travel SIM, and share the Wi-Fi with multip
 Rely on your current roaming service, for example, Telstra charges $10 per day for 1 GB of data and $10 per extra GB. Some other carriers may offer more competitive packages.
 
 ✅ Straightforward, with no additional purchases, and a pay-as-you-go structure
+
 ✅ Good for a short trip
+
 ❌ Expensive and occasionally poor internet connectivity
 
 ---
