@@ -37,7 +37,7 @@ The PO must have the authority to make decisions regarding product features, pri
 
 ### Excellent Communication Skills
 
-The ability to communicate effectively with both technical and non-technical stakeholders is essential. They should translate business needs into technical requirements and convey technical complexities back 
+The ability to communicate effectively with both technical and non-technical stakeholders is essential. They should translate business needs into technical requirements and convey technical complexities back
 to the business in a clear manner.
 
 ### Prioritization Skills
@@ -68,8 +68,8 @@ Prior experience in Agile methodologies, especially Scrum, is beneficial. They s
 
 ### Set Team Goals
 
-The Product Owner is responsible for setting a clear Product Goal, which defines the long-term purpose or "why" of the product. 
-For each Sprint, they agree on a [Sprint Goal](/sprint-forecast) with the team, focusing on the most important outcome for that iteration. 
+The Product Owner is responsible for setting a clear Product Goal, which defines the long-term purpose or "why" of the product.
+For each Sprint, they agree on a [Sprint Goal](/sprint-forecast) with the team, focusing on the most important outcome for that iteration.
 The Product Owner ensures that the team stays focused on the Sprint Goal and works only on the items in the Sprint Backlog. Any new requests should be deferred to future sprints to maintain team focus and avoid distractions.
 
 ## Who should be the Product Owner?
@@ -84,7 +84,7 @@ A client-side PO typically has a strong understanding of the business, its goals
 
 They already have established relationships with key stakeholders, which can facilitate smoother communication and decision-making.
 
-### Long-term Vision:
+### Long-term Vision
 
 As an insider, they are more likely to be invested in the long-term success of the product, beyond just the current project scope.
 
@@ -92,13 +92,12 @@ As an insider, they are more likely to be invested in the long-term success of t
 
 A client-side PO may have faster access to executives and other decision-makers, which can speed up the approval process for changes or feature prioritization.
 
-
 It’s possible to outsource the role of PO to someone in the development consulting company, but this is not recommended ("don’t put the fox in charge of the chickens").
 
 Being a PO can seem duanting to some, especially if they don't have a lot of Scrum experience. It is recommended that all PO's read the Scrum Guide, watched the Product Owner video, and understand the role.
 <!-->
-##TODO: Create rule
-It is also recommended that the Scrum Master is from the development consultant company and supports the Product Owner in the Agile practices. See [Does your Scrum Master support the Product Owner](/scrum-master-support-product-owner) 
+## TODO: Create rule
+It is also recommended that the Scrum Master is from the development consultant company and supports the Product Owner in the Agile practices. See [Does your Scrum Master support the Product Owner](/scrum-master-support-product-owner)
 -->
 
 > “Most dysfunction I see in Scrum teams is caused by a bad Product Owner”
