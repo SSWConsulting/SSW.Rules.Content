@@ -17,26 +17,24 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 50f5fd0b-a15f-45ad-bb35-2dd522d9a5db
 ---
-The goal of most meetings should be to establish clear next steps. These action items should be shared with the intended recipients, with all other attendees CC'd.
+The primary objective of most meetings should be to establish clear next steps. These steps should be broken down into action items and assigned to the responsible individuals, with all other attendees CC’d.
 
-It's beneficial to designate a scribe who drafts action points during the meeting and **assigns them directly to those responsible for completing the tasks**. If the scribe hasn't been identified at the start, simply ask: _"Who will be the scribe?"_
+It's recommended to designate a scribe who drafts action points during the meeting and **assigns them directly to those responsible for completing the tasks**. The scribe should also document any decision-making process by writing down each person's arguments. After writing down everyone’s comments on the options, the notes can be reviewed as a group to better inform what the best course of action might be. If the scribe hasn't been designated at the start, simply ask: _"Who will be the scribe?"_
 
-The scribe should also document the decision-making process by writing down each person's arguments. After everyone comments on the options, the notes can be reviewed as a group and often the best course of action is clear.
-
-Common action items include:
+Common action items may include:
 
 <!--endintro-->
 
-* The outcomes from agenda points marked as “for decision”
-* [Off topics that require more discussion](/keep-track-of-a-parking-lot-for-topics) by subsets of the meeting’s attendees – aka a “parking lot”
+* Outcomes from the meeting’s agenda
+* [Items that may be off-topic](https://www.ssw.com.au/rules/keep-track-of-a-parking-lot-for-topics) and require more discussion by subsets of the meeting’s attendees – aka a “parking lot”
 * Ad hoc tasks that come up from brainstorming, usually sent as separate email tasks or created as PBIs in a backlog
-* Scheduling the next meeting, if necessary
+* Scheduling the next meeting
 
-If you are in a Teams meeting, the best place to put notes is the meeting Notes tab because it keeps the meeting notes with the context of the meeting:
+There are several effective ways to capture action items and notes during a meeting - **here are the recommended options:**
 
-## Option 1: The Notes tab
+## Option 1: Teams Meeting Notes tab
 
-In Microsoft Teams, the scribe can use the **Notes** tab during the meeting to add details and list follow-up tasks.
+In a scheduled Teams meeting, the **Notes** tab is the ideal place to record information, as it keeps everything connected to the meeting’s context.
 
 ::: good
 ![Figure: Good example - Use the Notes tab during the meeting to track assignments](MicrosoftTeams-Meeting-Notes.jpeg)
@@ -48,7 +46,9 @@ The meeting organiser should allow time after the meeting to check the action po
 ![Figure: Good example - Review the meeting summary for follow-ups](Meeting-Notes-Tasks.jpeg)
 :::
 
-If you're in a regular Teams call rather than a scheduled meeting and don’t have access to the Notes tab, you can still effectively manage action items with these options:
+::: greybox
+**Note:** If you're in a Teams call rather than a scheduled meeting, you won’t have access to the Notes tab.
+:::
 
 ## Option 2: Quick and dirty
 
@@ -64,6 +64,6 @@ For more detailed or complex notes, create a new Loop page and share the link wi
 
 As the discussion progresses, use the Loop to collaboratively edit and refine the notes.
 
-After the meeting, once you've created PBIs (Product Backlog Items) or other tasks based on the notes, remember to "zz" (mark as obsolete) the Loop notes and include a link to the corresponding PBIs.
+After the meeting, once you’ve created PBIs (Product Backlog Items) or other tasks based on the notes, include a link to the corresponding PBIs and remember to [“zz” (mark as obsolete)](https://www.ssw.com.au/rules/zz-files) the Loop notes.
 
 This prevents anyone from accidentally editing the old notes without realizing that a newer, finalized version exists.
