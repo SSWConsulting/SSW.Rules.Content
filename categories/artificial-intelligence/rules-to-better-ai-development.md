@@ -15,4 +15,3 @@ index:
 ---
 
 Want to revolutionize your business with AI? Check [SSW's Artificial Intelligence and Machine Learning consulting page](https://www.ssw.com.au/consulting/artificial-intelligence).
-
