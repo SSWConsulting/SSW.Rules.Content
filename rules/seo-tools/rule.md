@@ -24,7 +24,7 @@ SEO is very important to companies, so devs should know the tools they can use t
 
 A must-have tool for monitoring your website's performance in Google search results, providing essential insights directly from Google.
 
-🔗 [https://search.google.com/search-console/about](search.google.com/search-console/about)
+🔗 [search.google.com/search-console/about](https://search.google.com/search-console/about)
 
 * Free
 * Monitor and manage indexing of your pages
