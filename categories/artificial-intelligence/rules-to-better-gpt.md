@@ -15,9 +15,9 @@ index:
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
 - generate-ui-mockups-with-ai
+- use-embeddings
 - indicate-ai-helped
 - make-perplexity-your-default-search-engine
-- leverage-chatgpt
 - use-chatgpt-to-generate-charts
 
 ---
