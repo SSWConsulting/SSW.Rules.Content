@@ -21,7 +21,9 @@ Mobile device usage has been on the rise for years, driven by the increasing pop
 
 <!--endintro-->
 
-**Note:** The exact percentage can vary based on geographic regions and demographics.
+::: info
+**Note:** The exact percentage of mobile device users can vary based on geographic regions and demographics.
+:::
 
 Therefore, it is very important to hyperlink your phone number to increase the rate of conversion and improve the mobile user experience. This enables click and call, and eliminates the need to copy and paste phone numbers.
 
@@ -32,5 +34,5 @@ Devices and computers that don’t have phone functionality will either open a p
 ```
 
 ::: good
-Figure: Good example – This is the syntax to hyperlink phone numbers
+Figure: Good example – To make a telephone number clickable, use add a link with "tel:" inside the href attribute
 :::

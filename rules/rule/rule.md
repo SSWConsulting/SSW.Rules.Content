@@ -36,9 +36,9 @@ There are a few concepts that are applied to structure most SSW Rules:
 
 See a few examples of SSW Rules that follow the structure of good and bad examples, then link off to external documentation for more information:
 
-- [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
-- [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
-- [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
+* [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
+* [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
+* [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
 
 ### 1. Headings, paragraphs, and blockquotes
 
@@ -59,9 +59,17 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 **Figure: Markdown to generate headings and blockquotes**
 
-## This is a heading 2 (We never use heading 1 in SSW Rules Content to improve SEO, that's because the title is already a heading 1)
+::: info
+Do **not** use heading 1 content - the title is already a heading 1, and we should [avoid using multiple `<h1>` elements on one page](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements#avoid_using_multiple_h1_elements_on_one_page).
+:::
+
+## This is a heading 2
 
 Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. qui officia deserunt mollit anim id est laboru.
+
+## This is a heading 2 with some **emphasized text** by making it bold
+
+**Tip:** See [text decoration section](#2-text-decorations) for more details on making the text bold.
 
 ### This is a heading 3
 
@@ -83,7 +91,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> - Someone famous in Source Title
+> * Someone famous in Source Title
 
 ---
 
@@ -149,13 +157,13 @@ _You **can** combine them_
 
 #### Unordered lists
 
-- This is the first item of an unordered list
-- This is the second item of an unordered list
-  1.  This is the first item of an ordered list inside an unordered list
-  2.  This is the second item of an ordered list inside an unordered list
-- This is the third item of an unordered list
-  - This is the first item of an unordered list inside another
-  - This is the second item of an unordered list inside another
+* This is the first item of an unordered list
+* This is the second item of an unordered list
+  1. This is the first item of an ordered list inside an unordered list
+  2. This is the second item of an ordered list inside an unordered list
+* This is the third item of an unordered list
+  * This is the first item of an unordered list inside another
+  * This is the second item of an unordered list inside another
     1. This is the first item of an ordered list inside a nested unordered list
     2. This is the second item of an ordered list inside a nested unordered list
 
@@ -164,8 +172,8 @@ _You **can** combine them_
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
-   - This is the first item of an unordered list inside an ordered list
-   - This is the second item of an unordered list inside an ordered list
+   * This is the first item of an unordered list inside an ordered list
+   * This is the second item of an unordered list inside an ordered list
      1. This is the first item of an ordered list inside another
      2. This is the second item of an ordered list inside another
 
@@ -181,16 +189,18 @@ _You **can** combine them_
 
 This is [an internal link](https://www.ssw.com.au).
 
-This is [an internal link with title](https://www.ssw.com.au "SSW website") (hover me).
+This is [an internal link with title](https://www.ssw.com.au "This is a link title") (hover me).
 
 This is [an external link](https://www.google.com).
 
-::: info
-**Cool features:**
+::: greybox
+**Cool link features:**
 
-- Our main headings auto-generated anchor links so users can easily access a section of a long page like this one. E.g. <https://ssw.com.au/rules/rule/#4-links>
-- We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
-  :::
+* We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
+* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
+   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
+
+:::
 
 ---
 
@@ -370,57 +380,13 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 
 ---
 
-### 10. Email Templates
+### 10. Code
 
-#### Code for email template
+To include code block in Markdown, start with 3 backticks <code>```</code> on a new line, write or paste your code, and then end with 3 backticks on a new line.
 
-```md
-::: email-template  
-| | |
-| -------- | --- |
-| To: | XXX |
-| Cc: | YYY |
-| Bcc: | ZZZ |
-| Subject: | {{ EMAIL SUBJECT }} |  
-::: email-content
+For syntax highlighting in code blocks, add the language name right after the opening backticks. Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
 
-### Hi XXX,
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
-```
-
-**Figure: Markdown for email templates**
-
-::: email-template
-
-|          |                     |
-| -------- | ------------------- |
-| To:      | XXX                 |
-| Cc:      | YYY                 |
-| Bcc:     | ZZZ                 |
-| Subject: | {{ EMAIL SUBJECT }} |
-
-::: email-content
-
-### Hi XXX
-
-{{ EMAIL CONTENT }}
-
-:::  
-:::  
-::: good  
-Figure: Good example - Nice email template  
-:::
-
----
-
-### 11. Code
+To add inline code in Markdown, wrap the code snippet with single backticks. See `this text` as inline code for example.
 
 ```md
 This is a piece of code in a code block
@@ -430,9 +396,7 @@ This is a piece of code in a code block
 Figure: Bad example - Because this code doesn't include the language used
 :::
 
-Learn more on [Markdown – Do you set the language on code blocks?](/set-language-on-code-blocks)
-
-See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in Rules. See below for some examples:
+See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
 ```javascript
 let iceCream = "chocolate";
@@ -488,23 +452,6 @@ public class MyClass
 
 **Figure: C Sharp code block**
 
-```cpp
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    cout << "Size of char: " << sizeof(char) << " byte" << endl;
-    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
-    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
-    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
-
-    return 0;
-}
-```
-
-**Figure: C++ code block**
-
 ```json
 {
   "glossary": {
@@ -531,6 +478,56 @@ int main()
 ```
 
 **Figure: JSON code block**
+
+---
+
+### 11. Email Templates
+
+#### Code for email template
+
+```md
+::: email-template  
+| | |
+| -------- | --- |
+| To: | XXX |
+| Cc: | YYY |
+| Bcc: | ZZZ |
+| Subject: | {{ EMAIL SUBJECT }} |  
+::: email-content
+
+### Hi XXX,
+
+{{ EMAIL CONTENT }}
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
+```
+
+**Figure: Markdown for email templates**
+
+::: email-template
+
+|          |                     |
+| -------- | ------------------- |
+| To:      | XXX                 |
+| Cc:      | YYY                 |
+| Bcc:     | ZZZ                 |
+| Subject: | {{ EMAIL SUBJECT }} |
+
+::: email-content
+
+### Hi XXX
+
+{{ EMAIL CONTENT }}
+
+:::  
+:::  
+::: good  
+Figure: Good example - Nice email template  
+:::
 
 ---
 

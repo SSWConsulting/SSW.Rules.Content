@@ -1,17 +1,18 @@
 ---
-seoDescription: Angular is a robust web application framework for building dynamic single-page applications, offering a modular architecture, two-way data binding, dependency injection, and extensive tooling.
 type: rule
-archivedreason:
 title: Do you know why Angular is great?
-guid: 12d83e58-3a7a-4530-9844-dbbd789c7af7
+seoDescription: Angular is a robust web application framework for building
+  dynamic single-page applications, offering a modular architecture, two-way
+  data binding, dependency injection, and extensive tooling.
 uri: why-angular-is-great
-created: 2024-07-09T14:13:53.0000000Z
 authors:
   - title: Matt Parker
     url: https://ssw.com.au/people/matt-parker
 related: []
-redirects:
-
+redirects: null
+created: 2024-07-09T14:13:53.000Z
+archivedreason: null
+guid: 12d83e58-3a7a-4530-9844-dbbd789c7af7
 ---
 
 There are many frameworks available for building web applications, with developers often choosing their favorite tools. Some people like React, some prefer Vue, and many choose Angular. Let us take a look at the benefits of Angular.
@@ -25,6 +26,10 @@ Angular's modular architecture allows developers to organize code into modules, 
 ### Two-Way Data Binding
 
 Angular uses two-way data binding, which automatically synchronizes the data between the model and the view. This simplifies the development process by reducing the amount of boilerplate code needed to keep the model and view in sync.
+
+### Mediator Patterns
+
+When using form binding in Angular, Reactive Forms allow you to separate form inputs from the application logic. This gives you direct control over how, or whether or not form inputs alter the state of the application. For more details, refer to the [Reactive Forms guide](https://angular.dev/guide/forms/reactive-forms).
 
 ### Dependency Injection
 

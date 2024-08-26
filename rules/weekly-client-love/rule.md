@@ -70,6 +70,8 @@ The tasks don't have to cost anything. Free tasks are more thoughtful and show t
 
 Some of these are also relevant to previous clients. Great consultants try to maintain a friendly relationship with previous clients by touching base. This will keep you in the back of the clients mind, and they will think of you next time they need some work done.
 
+Try not to [upsell your products or services](/upsell) before you have gained your client's trust. The "Client Love" should focus on improving interpersonal relationship and should be non-work related.
+
 ::: greybox
 **Extra reading:** For some, the above comes naturally. For everyone else, read the book [How to Win Friends and Influence People](https://www.amazon.au/How-Win-Friends-Influence-People/dp/0671027034) written by Dale Carnegie. It is an easy read, the principles are easy to implement and will enhance all the relationships in your life.
 :::

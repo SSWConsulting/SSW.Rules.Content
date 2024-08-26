@@ -21,8 +21,10 @@ index:
 - use-embeddings
 - website-chatbot
 - indicate-ai-helped
+- make-perplexity-your-default-search-engine
 - leverage-chatgpt
 - embed-ui-into-an-ai-chat
+- use-chatgpt-to-generate-charts
 ---
 
 Want to revolutionize your business with GPT and ChatGPT integration? Check [SSW's GPT and ChatGPT consulting page](https://www.ssw.com.au/consulting/gpt).

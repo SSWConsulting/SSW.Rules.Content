@@ -36,7 +36,7 @@ index:
   - branded-video-intro-and-outro
   - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
   - ticks-crosses
-  - post-production-do-you-add-captions-to-your-video
+  - add-text-captions-to-videos
   - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
   - review-videos-collaboratively
   - post-production-do-you-know-how-to-create-the-swing-in-text-effect
@@ -68,6 +68,7 @@ index:
   - tech-check
   - establish-the-world
   - recording-screen
+  - use-autopod-for-editing-multi-camera-interviews
 ---
 
 Need a video for your business? Check [SSW's Video Production consulting page](https://ssw.com.au/consulting/video-production).

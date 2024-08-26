@@ -28,6 +28,7 @@ index:
 - what-is-mentoring
 - mentoring-programs
 - do-you-ask-questions-where-youre-stuck
+- how-to-avoid-being-blocked
 - do-you-cc-your-account-manager-on-emails-relating-to-new-work
 - do-you-enjoy-your-job
 - do-you-create-a-report-whenever-you-need-a-number-from-a-system
@@ -78,6 +79,7 @@ index:
 - build-inter-office-interaction
 - efficiency-do-you-always-try-to-work-in-pairs
 - gather-team-opinions
+- call-your-system-administrators-before-raising-a-ticket
 - hand-over-responsibilities
 ---
  

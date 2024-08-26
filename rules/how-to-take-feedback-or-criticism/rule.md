@@ -2,7 +2,7 @@
 seoDescription: How to take feedback or criticism effectively, even if it's not your fault, by acknowledging the issue, apologizing, and taking action to prevent future occurrences.
 type: rule
 archivedreason:
-title: Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?
+title: Communication - Do you know the 3 A's for receiving feedback/criticism (even if it’s not your fault)?
 guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
 uri: how-to-take-feedback-or-criticism
 created: 2013-04-08T20:28:20.0000000Z
@@ -14,6 +14,8 @@ authors:
 related:
   - feedback-avoid-chopping-down-every-example
   - make-complaints-a-positive-experience
+  - being-a-good-consultant
+
 redirects:
   - do-you-know-how-to-take-feedback-criticism-(even-if-it’s-not-your-fault)
   - communication-do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault
@@ -25,7 +27,7 @@ In any job, you will most likely at some point face some criticism. Someone may 
 
 <!--endintro-->
 
-The best way to take this is to reply to the person and tell them the following 3 A's.
+The best way to take this is to reply to the person and tell them the following 3 A's for receiving feedback.
 
 ### The 3 A’s: Acknowledge, Apologize, Act
 

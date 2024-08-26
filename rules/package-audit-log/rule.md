@@ -40,18 +40,18 @@ There are lots of things that can be tracked in a package audit log. Generally, 
 
 Some developers keep track of minimal information such as:
 
-- Name
-- Link to npm/NuGet
-- Why (the reason this package version was chosen)
+* Name
+* Link to npm/NuGet
+* Why (the reason this package version was chosen)
 
 While others keep track of maximum information such as:
 
-- Name
-- Link to npm/NuGet
-- Action (aka "added" or "removed")
-- Actioned by
-- Approved by
-- Why (the reason this package version was chosen)
+* Name
+* Link to npm/NuGet
+* Action (aka "added" or "removed")
+* Actioned by
+* Approved by
+* Why (the reason this package version was chosen)
 
 If you go with the maximum information, this smells like Technical Debt. However, it does provide an easy way to find out where the package is, who was involved in adding or removing it and why the change was made.
 
@@ -61,10 +61,10 @@ Managing NPM packages is a difficult task, especially when some packages require
 
 There are 4 different options that you could take:
 
-- Option 1 - Log the information in Technologies-and-Architecture.md
-- Option 2 - Make good commit messages
-- Option 3 - Leave comments in package.json
-- Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
+* Option 1 - Log the information in Technologies-and-Architecture.md
+* Option 2 - Make good commit messages
+* Option 3 - Leave comments in package.json
+* Option 4 - Option 2 and sometimes Option 3 (✅ Recommended)
 
 ### Option 1 - Log the information in Technologies-and-Architecture.md
 
@@ -90,32 +90,33 @@ These are all the packages that have been added to the project (ordered by most 
 
 ### [font-awesome](https://www.npmjs.com/package/font-awesome)
 
-- Action: ✅ Added
-- Actioned by: William Liebenberg
-- Approved by: No one available 😥
-- Why: Get pre-made icons in our app!
+* Action: ✅ Added
+* Actioned by: William Liebenberg
+* Approved by: No one available 😥
+* Why: Get pre-made icons in our app!
 
 ### [date-fns](https://www.npmjs.com/package/date-fns)
 
-- Action: ✅ Added
-- Actioned by: Piers Sinclair
-- Approved by: Adam Cogan
-- Why: It's faster than moment
+* Action: ✅ Added
+* Actioned by: Piers Sinclair
+* Approved by: Adam Cogan
+* Why: It's faster than moment
 
 ### [moment](https://www.npmjs.com/package/moment)
 
-- Action: ❌ Removed
-- Actioned by: Piers Sinclair
-- Approved by: William Liebenberg
-- Why: It's slower than date-fns
+* Action: ❌ Removed
+* Actioned by: Piers Sinclair
+* Approved by: William Liebenberg
+* Why: It's slower than date-fns
 
 ### [bootstrap](https://www.npmjs.com/package/bootstrap)
 
-- Action: ✅ Added
-- Actioned by: Brady Stroud
-- Approved by: Piers Sinclair
-- Why: For pretty styling on the application
-  :::
+* Action: ✅ Added
+* Actioned by: Brady Stroud
+* Approved by: Piers Sinclair
+* Why: For pretty styling on the application
+
+:::
 
 :::bad
 Figure: Bad example - Packages documented in Technologies-and-Architecture.md
