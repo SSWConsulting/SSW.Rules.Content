@@ -1,7 +1,7 @@
 ---
 seoDescription: PNG images offer high-quality alternatives to JPG and BMP, featuring alpha blending, unlimited color palettes, and multiple CRCs for integrity checks.
 type: rule
-archivedreason:
+archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you know when to use PNG?
 guid: 2894d789-cf04-4592-8dc9-1b7c1845489c
 uri: do-you-know-when-to-use-png
