@@ -23,7 +23,7 @@ GPT and ChatGPT are similar tools that serve slightly different purposes. Each o
 `youtube: https://www.youtube.com/embed/SGY56eGO6_4`
 **Video: ChatGPT vs. GPT - Which Is Better? - Q&A Comparison (2 min)**
 
-## ChatGPT 
+## ChatGPT
 
 ChatGPT is strong at helping an individual do a specific task. For example, a user could could get responses to simple tasks like:
 
@@ -32,7 +32,7 @@ ChatGPT is strong at helping an individual do a specific task. For example, a us
 * "Can you help me find information about Northwind?"
 * and much more...
 
-## GPT 
+## GPT
 
 On the other hand, **GPT** is better for tasks that require automation or programmatic integration. For example, it could be used to create systems for:
 
