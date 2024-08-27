@@ -1,7 +1,7 @@
 ---
 seoDescription: When to use SVG? Use SVG format for line art graphics and well-defined shapes, such as logos, vector illustrations, and more, for high-quality and resolution-preserved results.
 type: rule
-archivedreason:
+archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you know when to use SVG?
 guid: 575266c0-8c67-44f9-8bb3-fba02cc28c54
 uri: do-you-know-when-to-use-svg
@@ -19,16 +19,16 @@ Line art graphics and anything with well defined shapes (logos, vector illustrat
 
 Some of SVG format advantages are:
 
-- Written in XML
-- Text-based
-- Official W3C graphics standard
-- Accessible for people with visual disabilities
-- Searchable
-- Can be animated
-- No pixelation
-- Small file size
-- Supports transparency
-- Text can be selected, copied, spoken by the computer, and indexed by search engines.
+* Written in XML
+* Text-based
+* Official W3C graphics standard
+* Accessible for people with visual disabilities
+* Searchable
+* Can be animated
+* No pixelation
+* Small file size
+* Supports transparency
+* Text can be selected, copied, spoken by the computer, and indexed by search engines.
 
 <!--endintro-->
 
