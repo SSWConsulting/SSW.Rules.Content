@@ -36,7 +36,7 @@ When we don't set a system prompt the user can tell the model to act however the
 
 ![Figure: Responses with a system prompt](with-system-prompt.png)
 
-::: greybox
+::: info
 **Note:** Depending on the model you're using, you may need to be more firm with your system prompt for the model to listen. Test your prompt using [OpenAI's Playground](https://platform.openai.com/playground) before deploying.
 :::
 
