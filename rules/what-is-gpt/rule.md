@@ -1,7 +1,7 @@
 ---
 seoDescription: What is GPT? GPT is a large language model developed by OpenAI with major financial backing from Microsoft, currently leading the market in terms of technology and capability.
 type: rule
-title: What is GPT?
+title: Do you know what GPT is?
 uri: what-is-gpt
 authors:
   - title: Calum Simpson
@@ -51,19 +51,19 @@ For example, if the training data contains a weather report talking about beauti
 
 GPT is trained on a huge amount of parameters.
 
-- GPT-4: 1.76 **trillion** parameters.
-- GPT-3: 175 billion parameters.
-- GPT-2: 1.5 billion parameters.
-- GPT-1: 117 million parameters.
+* GPT-4: 1.76 **trillion** parameters.
+* GPT-3: 175 billion parameters.
+* GPT-2: 1.5 billion parameters.
+* GPT-1: 117 million parameters.
 
 ### Strengths
 
-- The model can respond to queries using natural language.
-- The model can handle grammatical and spelling errors.
-- Responses can come from the model very quickly - no need to access a database to retrieve data.
+* The model can respond to queries using natural language.
+* The model can handle grammatical and spelling errors.
+* Responses can come from the model very quickly - no need to access a database to retrieve data.
 
 ### Limitations
 
-- The model is only as good as it's training data and has no knowledge of anything outside of this data.
+* The model is only as good as it's training data and has no knowledge of anything outside of this data.
 
 Try it out in the [playground](https://platform.openai.com/playground)
