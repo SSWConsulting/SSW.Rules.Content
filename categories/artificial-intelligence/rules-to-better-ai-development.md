@@ -6,11 +6,13 @@ uri: rules-to-better-ai-development
 consulting: https://www.ssw.com.au/consulting/artificial-intelligence
 index:
 - create-gpts
+- train-gpt
 - use-system-prompt
 - use-semantic-kernel
 - website-chatbot
 - leverage-chatgpt
 - embed-ui-into-an-ai-chat
+- use-embeddings
 
 ---
 
