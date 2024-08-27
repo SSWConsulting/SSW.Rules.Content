@@ -2,7 +2,7 @@
 seoDescription: Optimize your images to reduce website loading time and improve user experience by compressing files without sacrificing quality.
 type: rule
 archivedreason:
-title: Do you optimize your images for web?
+title: Do you optimize images for web?
 guid: 11263bf7-51d9-4539-b28b-8818f1dc638c
 uri: optimize-your-images
 created: 2017-02-10T17:13:26.0000000Z
@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - image-formats
 redirects:
   - do-you-optimize-your-images-for-web
 ---
@@ -20,15 +21,17 @@ A nice looking image can be harmful to your website if it's not optimized. It's 
 
 <!--endintro-->
 
-The first thing is to [save your graphics in the right format](/do-you-know-how-to-save-your-graphics-in-the-right-format) and size. After that, you should run an image optimizer.
+The first thing is to [save your graphics in the right format](/image-formats) and size. After that, you should run an image optimizer.
 
 Some tips and techniques to keep in mind as you work on optimizing your images:
 
-- **Don't be afraid to dial down the "quality" settings** if the results are very good and byte savings are significant
-- **Remove unnecessary image metadata** like geo information, camera information, and so on
-- **Use** **automated tools** to ensure that all of your images are always optimized (E.g. [imagecompressor.com/](https://imagecompressor.com)
+* **Use** **automated tools** to ensure that all of your images are always optimized (E.g. [Optimizilla](https://imagecompressor.com))
+* **Don't be afraid to dial down the "quality" settings** if the results are very good and byte savings are significant
+* **Remove unnecessary image metadata** like geo information, camera information, and so on
 
-![Figure: Optimizilla reduced the image below in 31%](optimizeexample.png)
+![Figure: Optimizilla reduced the image in 31%](optimizeexample.png)
+
+---
 
 ### WordPress
 
