@@ -19,16 +19,16 @@ Line art graphics and anything with well defined shapes (logos, vector illustrat
 
 Some of SVG format advantages are:
 
-- Written in XML
-- Text-based
-- Official W3C graphics standard
-- Accessible for people with visual disabilities
-- Searchable
-- Can be animated
-- No pixelation
-- Small file size
-- Supports transparency
-- Text can be selected, copied, spoken by the computer, and indexed by search engines.
+* Written in XML
+* Text-based
+* Official W3C graphics standard
+* Accessible for people with visual disabilities
+* Searchable
+* Can be animated
+* No pixelation
+* Small file size
+* Supports transparency
+* Text can be selected, copied, spoken by the computer, and indexed by search engines.
 
 <!--endintro-->
 

@@ -160,6 +160,5 @@ Understanding the strengths and weaknesses of each format can help you make info
 * **GIFs** for simple animations, low-color images, or when you need a format that supports basic transparency. GIFs are a go-to for creating engaging, lightweight animations and small graphics
 
 ::: info
-**Tip:** Regardless of the format you choose, [optimizing your images](optimize-your-images) is key to ensuring fast loading times and a smooth user experience. 
+**Tip:** Regardless of the format you choose, [optimizing your images](optimize-your-images) is key to ensuring fast loading times and a smooth user experience.
 :::
-

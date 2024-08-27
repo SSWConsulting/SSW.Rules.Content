@@ -19,9 +19,9 @@ redirects: []
 
 PNG boasts:
 
-- Alpha blending (24 bit transparency map support)
-- Unlimited and limited color palettes. This makes it a good alternative to BMP.
-- Multiple CRCs so that file integrity can be checked without viewing
+* Alpha blending (24 bit transparency map support)
+* Unlimited and limited color palettes. This makes it a good alternative to BMP.
+* Multiple CRCs so that file integrity can be checked without viewing
 
 However, it has rather poor file compression and should be used sparingly.
 
