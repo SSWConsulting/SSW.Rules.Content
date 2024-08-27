@@ -25,5 +25,5 @@ Providing users with the ability to access more information and images simultane
 For example... if you were a developer, you could have your references in one monitor and your Visual Studio in another, and directly compare the 2 without compromising on space or layout.
 
 ::: good  
-![Figure: Good example - Two monitors are better than one](TwoMonitorsBetterThanOne.JPG)  
+![Figure: Good example - Two monitors are better than one](two-monitors-better-than-one.jpg)  
 :::
