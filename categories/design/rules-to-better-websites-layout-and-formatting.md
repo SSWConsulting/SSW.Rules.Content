@@ -13,6 +13,7 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
+- do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
