@@ -11,9 +11,11 @@ index:
 - when-to-use-ai-generated-images
 - how-to-generate-an-ai-image
 - the-best-ai-image-generators
-- write-an-image-prompt
-- use-negative-prompting
-- use-parameters-in-your-image-prompts
 - photoshop-generative-fill
+- write-an-image-prompt
+- use-parameters-in-your-image-prompts
+- generate-ui-mockups-with-ai
+- use-negative-prompting
 - ai-tools-voice-translations
+
 ---
