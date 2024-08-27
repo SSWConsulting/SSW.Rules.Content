@@ -32,16 +32,16 @@ Using the system prompt is the easiest way to provide additional data to GPT, bu
 
 #### ✅ Benefits
 
-- Easy to implement
-- No extra setup cost
-- Data can be easily changed or removed
+* Easy to implement
+* No extra setup cost
+* Data can be easily changed or removed
 
 #### ❌ Disadvantages
 
-- The system prompt counts towards total token count - not suitable for large amounts of data
-- Large system prompts can limit the amount of tokens available for questions and responses
-- Adds extra cost to each request
-- Potential for inconsistency depending on what data is sent
+* The system prompt counts towards total token count - not suitable for large amounts of data
+* Large system prompts can limit the amount of tokens available for questions and responses
+* Adds extra cost to each request
+* Potential for inconsistency depending on what data is sent
 
 ### 2. Fine Tuning
 
@@ -59,13 +59,13 @@ For example, if you want to build an app that outputs SSW rules based on a title
 
 #### ✅ Benefits
 
-- Suitable for larger amounts of data
-- No extra cost per request as trained data lives on the server
-- Consistent as trained data is available to all requests
+* Suitable for larger amounts of data
+* No extra cost per request as trained data lives on the server
+* Consistent as trained data is available to all requests
 
 #### ❌ Disadvantages
 
-- Harder to implement
-- Extra setup cost to fine tune the model
-- Model needs to be fine tuned again to change or remove data
-- Fine tuning may not be available for every model
+* Harder to implement
+* Extra setup cost to fine tune the model
+* Model needs to be fine tuned again to change or remove data
+* Fine tuning may not be available for every model
