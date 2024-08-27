@@ -23,8 +23,8 @@ Furthermore, ChatGPT is constantly learning and improving its abilities, which m
 
 ### Download ChatGPT for mobile
 
-- [Android](https://play.google.com/store/apps/details?id=com.openai.chatgpt)
-- [iOS](https://apps.apple.com/us/app/chatgpt/id6448311069)
+* [Android](https://play.google.com/store/apps/details?id=com.openai.chatgpt)
+* [iOS](https://apps.apple.com/us/app/chatgpt/id6448311069)
 
 ### How to add ChatGPT as an Edge app
 
