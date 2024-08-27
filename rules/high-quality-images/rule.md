@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - image-formats
 redirects:
   - do-you-use-high-quality-images
 ---
