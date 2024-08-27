@@ -6,7 +6,6 @@ uri: rules-to-better-websites-graphics
 index:
 - high-quality-images
 - good-quality-images
-- do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
 - optimize-your-images
 - image-formats
 - do-you-know-when-to-use-jpg
