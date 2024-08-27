@@ -18,7 +18,7 @@ Every time you add an image to your content, make sure it:
 
 <!--endintro-->
 
-- Has at least 800px width (except for logos, icons, and profile images)
-- Is readable if it has any text on it
-- Looks consistent with others on the same page
-- (optional) Is not in dark-mode - Light background images look better most of the times
+* Has at least 800px width (except for logos, icons, and profile images)
+* Is readable if it has any text on it
+* Looks consistent with others on the same page
+* (optional) Is not in dark-mode - Light background images look better most of the times
