@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better AI Generated Media
+title: Rules to Better AI-Generated Media
 guid: 692ea201-cdad-4505-bcb6-092e68793392
 uri: rules-to-better-ai-generated-media
 experts:
