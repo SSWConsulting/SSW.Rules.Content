@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - optimize-your-images
+  - high-quality-images
 redirects:
   - do-you-know-how-to-save-your-graphics-in-the-right-format
     
