@@ -1,7 +1,7 @@
 ---
 seoDescription: What is GPT? GPT is a large language model developed by OpenAI with major financial backing from Microsoft, currently leading the market in terms of technology and capability.
 type: rule
-title: Do you know what is GPT?
+title: Do you know what GPT is?
 uri: what-is-gpt
 authors:
   - title: Calum Simpson
