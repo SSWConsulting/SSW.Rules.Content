@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you avoid BMPs for web at all times?
 guid: 6b4e156f-8da4-465b-9cdf-9366fb3ab28b
 uri: do-you-avoid-bmps-for-the-internet-at-all-times
