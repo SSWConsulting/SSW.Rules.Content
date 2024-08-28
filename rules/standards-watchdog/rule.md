@@ -81,6 +81,10 @@ When you come across a code error, it's always better if you just [fix it straig
 
 In cases where you aren't able to fix yourself, send an email to [report the error/bug](/report-bugs-and-suggestions), which should be [become a PBI](/turn-emails-into-pbis) and then fixed.
 
+### What about checking PBIs?
+
+**You will be surprised at how many developers write bad PBIs. You need to be a standards watchdog and correct them until they understand the importance. Be patient, it takes many times, they do eventually write good quality PBIs.**
+
 #### Tips
 
 * If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
