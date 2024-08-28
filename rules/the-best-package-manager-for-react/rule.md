@@ -21,17 +21,15 @@ When working with Node.js, choosing the right package manager can significantly 
 
 <!--endintro-->
 
-While all three package managers have their strengths, the choice often boils down to the specific needs of a project and the preferences of the development team. Yarn offers a balanced blend of speed and reliability, npm provides familiarity and wide adoption, and pnpm shines in terms of efficiency and space-saving.
-
 ## 1. [pnpm](https://pnpm.io/) (Recommended ✅)
 
 ::: img-medium
 ![](pnpm-logo.png)
 :::
 
-* **Efficient Disk Space Usage:** pnpm uses a content-addressable file system to store all files in a single place on the disk. This means multiple projects can share the same packages, reducing disk space usage.
-* **Fast and Reliable:** With pnpm, package installations are faster because it avoids duplicating files in `node_modules`. Instead, it creates hard links, which makes the process quicker and more efficient.
-* **Strict Dependency Management:** pnpm enforces stricter rules for dependency resolution. Unlike npm and Yarn, pnpm prevents "phantom dependencies," ensuring that your project is more predictable and less prone to errors.
+* **Efficient Disk Space Usage:** pnpm uses a content-addressable file system to store all files in a single place on the disk. This means multiple projects can share the same packages, reducing disk space usage
+* **Fast and Reliable:** With pnpm, package installations are faster because it avoids duplicating files in `node_modules`. Instead, it creates hard links, which makes the process quicker and more efficient
+* **Strict Dependency Management:** pnpm enforces stricter rules for dependency resolution. Unlike npm and Yarn, pnpm prevents "phantom dependencies," ensuring that your project is more predictable and less prone to errors
 
 ## 2. [npm](https://www.npmjs.com/)
 
@@ -88,5 +86,7 @@ Bun is a newer entrant that aims to be an all-in-one tool for Node.js, combining
 
 **Cons:**
 
-* Relatively new and less mature than the other options.
-* Smaller community and less extensive documentation.
+* Relatively new and less mature than the other options
+* Smaller community and less extensive documentation
+
+While npm, Yarn, and Bun each have their strengths, pnpm is the recommended package manager for most Node.js projects. Its efficient use of disk space, faster installations, and stricter dependency management make it a superior choice. However, the best package manager for you may depend on your specific project's needs and your team's preferences.
