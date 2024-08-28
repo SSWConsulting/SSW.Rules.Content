@@ -7,6 +7,8 @@ authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
 related:
+  - defining-pbis
+  - explaining-pbis
   - good-email-subject
   - work-in-order-of-importance-aka-priorities
 redirects:
