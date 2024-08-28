@@ -26,41 +26,41 @@ archivedreason: null
 guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
 ---
 
-Very often you can come to the end of the Sprint and have incomplete features that either can’t be shipped or can be shipped but don't add any value to the end user or Product Owner. If you are given a feature that is going to take weeks, then split it following this rule.
+Very often you can come to the end of the Sprint and have incomplete features that either can’t be shipped or can be shipped but don't add any value to the end user or Product Owner. If you are given a feature that is going to take weeks, then split it by following this rule.
 
 <!--endintro-->
 
-Your project could be a very small project spanning just a few weeks/few Sprints or it could be a big project spread across months with multiple Sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the Sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used.
+> You are taking on **unnecessary** risk with a PBI that takes more than 2 days' effort.
 
-### How to avoid this
+Your project could be a very small project spanning just a few weeks/few Sprints or it could be a big project spread across months with multiple Sprint Reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the Sprint, you could still end up either not pushing things to production or pushing some half-done feature that can't be used.
+
+## How to avoid incomplete features at Sprint's end
 
 There are a few steps to take that help avoid this problem:
 
 1. [Check the PBI is well-defined](/defining-pbis)
 2. [Review the PBI estimate](/estimating-do-you-know-how-to-size-user-stories-effectively)
 3. [Check if you need a spike](/planning-meeting-do-you-encourage-spikes-aka-investigation-tasks-when-a-story-is-inestimable)
-4. Check the PBI fits in with the Sprint Goal.
-5. Avoid monolithic Product Backlog Items (PBIs). If the estimate is 2 days or more, it can probably be broken down further to make it more manageable.
+4. Check the PBI fits in with the Sprint Goal
+5. Avoid monolithic Product Backlog Items (PBIs). If the estimate is 2 days or more, it can probably be broken down further to make it more manageable
 6. Consider turning it into a parent PBI with many child PBIs using Epics (Azure DevOps) or Tasks/Sub-tasks (GitHub)
 
-### How to break up PBIs
+## How to break up PBIs
 
 When you break a monolithic PBI down, try to see if you can break this into shippable features that the customer can use. From a user perspective, it might be better to have a new UI page with only 2 textboxes that actually save data to the DB than have a page with all UI elements but the save button doesn’t work.
 
-If shippable features isn't going to work then another good way of splitting up a PBI is to think about what little pieces of functionality can be demoed to the Product Owner in the Sprint Review
+If shippable features isn't going to work then another good way of splitting up a PBI is to think about what little pieces of functionality can be demoed to the Product Owner in the Sprint Review.
 
-Let's take a look at some examples:
+Say you are doing the Sprint Planning and you see a PBI that says _“Sync data with Xero”_ but not much else. It's been estimated as an 8-day task, which will almost certainly take multiple Sprints. Here are some ways to approach it:
 
-Say you are doing the Sprint Planning and you see a PBI that says “Sync data with Xero” but not much else. It's been estimated as an 8 day task, which will almost certainly take multiple Sprints. Here are some ways to approach it:
-
-#### Example 1 - Sync Data with Xero - UI First
+### Example 1 - Sync Data with Xero - UI First
 
 * Start by having a PBI that shows the sync status of invoices. Then, during the Sprint Review you might not have any backend working, but at least you can show off a nice little UI addition.
 * Next, you might have the logic for syncing the invoice to Xero when you save it. Now in the Sprint Review, you can show that little UI piece changing as it syncs.
 * After that, you might do the reverse, and implement the web hooks to sync from Xero to the app. Then, in the Sprint Review you will be able to show the sync status changing the other way.
 * Finally, the last part might be to implement a manual sync fallback in case the automatic sync fails.
 
-#### Example 2 - Sync Data with Xero - Backend First
+### Example 2 - Sync Data with Xero - Backend First
 
 * Start by having a PBI that just calls the Xero API with the required data. During the Sprint review, you can then use Postman to demo this API call and Xero getting updated.
 * Similarly, the next PBI could be the web hooks from Xero calling your APIs to send data back which again you can demo via Postman or the Xero developer portal
