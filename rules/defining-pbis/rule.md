@@ -28,12 +28,12 @@ When that happens, it is crucial for the developer to raise their voice and gath
 
 Generally, there are a few pieces of information that every PBI should have:
 
-- [Title](/meaningful-pbi-titles) - Read the titles of PBIs should give an understanding of them
-- [Description](/spec-do-you-use-user-stories) - The required steps and critical information to complete the PBI
-- [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
-- Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
-- [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively) - How long it's going to take
-- [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner
+* [Title](/meaningful-pbi-titles) - Read the titles of PBIs should give an understanding of them
+* [Description](/spec-do-you-use-user-stories) - The required steps and critical information to complete the PBI
+* [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
+* Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
+* [Estimate](/estimating-do-you-know-how-to-size-user-stories-effectively) - How long it's going to take
+* [Business value](/do-you-estimate-business-value) - What's the value for the Product Owner
 
 :::
 
@@ -45,10 +45,10 @@ The Definition of Ready helps to enforce this, by formally documenting the requi
 
 Here are a few key checkpoints where these issues should be flagged:
 
-- [Backlog Refinement](/backlog-refinement-meeting)
-- Sprint Planning
-- [Daily Scrums](/methodology-daily-scrums) – after in the Parking Lot
-- Before commencing work
+* [Backlog Refinement](/backlog-refinement-meeting)
+* Sprint Planning
+* [Daily Scrums](/methodology-daily-scrums) – after in the Parking Lot
+* Before commencing work
 
 Ideally, you want to flag the missing information early, but it is better late than never.
 
