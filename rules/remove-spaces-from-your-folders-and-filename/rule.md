@@ -1,8 +1,8 @@
 ---
-seoDescription: Remove spaces from your folders and files to ensure seamless URL translation and avoid technical issues. Use kebab-case with dashes between words for a more readable and URL-friendly naming convention.
+seoDescription: Do not add spaces on folders and files names to ensure seamless URL translation and avoid technical issues. Use kebab-case with dashes between words for a more readable and URL-friendly naming convention.
 type: rule
 archivedreason:
-title: Do you remove spaces from folders and files names?
+title: Do you avoid using spaces in folder and file names?
 guid: 77003d23-7544-4bbe-92b9-48eae917d4a0
 uri: remove-spaces-from-your-folders-and-filename
 created: 2018-04-23T21:58:29.0000000Z
@@ -17,7 +17,7 @@ redirects:
   - do-you-remove-spaces-from-your-folders-and-filename
 ---
 
-It is not a good idea to have spaces in a folder or file name as they don't translate to URLs very well and can even cause technical problems.
+It is **not** a good idea to have spaces in a folder or file name as they don't translate to URLs very well and can even cause technical problems.
 
 Instead of using spaces, we **recommend**:
 
