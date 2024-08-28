@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - backlog-refinement-meeting
+  - meaningful-pbi-titles
+  - explaining-pbis
 created: 2022-10-18T03:27:00.098Z
 guid: da1579f4-b598-4a2c-8fed-0b9b2230f6e8
 ---
@@ -22,11 +24,11 @@ When that happens, it is crucial for the developer to raise their voice and gath
 
 `youtube: https://www.youtube.com/embed/OWeK5G-s3Nc`
 
+::: info
+
 Generally, there are a few pieces of information that every PBI should have:
 
-::: greybox
-
-- [Title](/meaningful-pbi-titles)
+- [Title](/meaningful-pbi-titles) - Read the titles of PBIs should give an understanding of them
 - [Description](/spec-do-you-use-user-stories) - The required steps and critical information to complete the PBI
 - [Acceptance Criteria](/acceptance-criteria) - Essentially the contract between the developers and the Product Owner
 - Screenshots - E.g. Mock-ups, [context for bugs](/report-bugs-and-suggestions) etc
