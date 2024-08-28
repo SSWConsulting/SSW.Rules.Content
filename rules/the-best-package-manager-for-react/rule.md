@@ -17,18 +17,16 @@ created: 2017-08-15T23:12:15.000Z
 archivedreason: null
 guid: b6564f50-7525-40d8-9a98-cc7619bcc854
 ---
-
 When working with Node.js, choosing the right package manager can significantly impact your project's performance, consistency, and ease of use. While npm is the default, developers often seek alternatives like Yarn, Bun, or pnpm for various advantages. But which one should you use? 
 
 <!--endintro-->
 
 While all three package managers have their strengths, the choice often boils down to the specific needs of a project and the preferences of the development team. Yarn offers a balanced blend of speed and reliability, npm provides familiarity and wide adoption, and pnpm shines in terms of efficiency and space-saving.
 
-
 ## 1. [pnpm](https://pnpm.io/) (Recommended ✅)
 
 ::: img-medium
-![](pnpm.svg)
+![](pnpm-logo.png)
 :::
 
 * **Efficient Disk Space Usage:** pnpm uses a content-addressable file system to store all files in a single place on the disk. This means multiple projects can share the same packages, reducing disk space usage.
@@ -37,7 +35,9 @@ While all three package managers have their strengths, the choice often boils do
 
 ## 2. [npm](https://www.npmjs.com/)
 
+::: img-medium
 ![](npm-logo.jpg)
+:::
 
 npm is the default package manager bundled with Node.js. It is straightforward to use and integrates seamlessly with the Node ecosystem.
 
@@ -55,10 +55,11 @@ npm is the default package manager bundled with Node.js. It is straightforward t
 * Slower compared to pnpm and Yarn
 * Issues with dependency resolution and "phantom dependencies."
 
-
 ## 3. [Yarn](https://yarnpkg.com/)
 
+::: img-medium
 ![](yarn-logo.jpg)
+:::
 
 Yarn was developed by Facebook to address some of npm's shortcomings, such as speed and reliability.
 
@@ -71,7 +72,6 @@ Yarn was developed by Facebook to address some of npm's shortcomings, such as sp
 
 * Slightly more complex to configure compared to npm
 * Still not as space-efficient as pnpm
-
 
 ## 4. [Bun](https://bun.sh/)
 
