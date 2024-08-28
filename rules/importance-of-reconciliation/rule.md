@@ -37,4 +37,5 @@ Auditors rely on reconciliation as a tool to assess the validity of financial st
 Reconciliation safeguards the accuracy and reliability of financial data.
 
 For **shareholders**, it instils trust, enables better decision-making, and ensures regulatory compliance.
+
 For **accountants**, it helps maintain professional standards, prevent fraud, and provide accurate financial information for decision-makers.
