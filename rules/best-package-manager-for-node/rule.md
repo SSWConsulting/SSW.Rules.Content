@@ -5,7 +5,8 @@ title: Do you know the best package manager for Node?
 seoDescription: Learn about the best package manager for Node.js
 uri: best-package-manager-for-node
 authors:
-  - title: ""
+  - title: Jack Pettit
+    url: https://www.ssw.com.au/people/jack-pettit/
 created: 2024-08-28T15:07:00.000Z
 guid: 8a12b90e-67c6-469b-bb44-2a76ea74276a
 ---
