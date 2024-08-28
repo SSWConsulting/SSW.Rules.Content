@@ -38,13 +38,13 @@ Send this checklist in an email before the handover meeting to guide the discuss
 | | |
 | -------- | --- |
 | From: | {{ YOUR NAME }} |
-| To: | {{ RECIPIENT }} |
+| To: | {{ NEW TASK OWNER }} |
 | Cc: | {{ TEAM MEMBERS, PRODUCT OWNER }} |
 | Subject: | 🤝 Handover Checklist - {{ PROJECT NAME }} |
 
 ::: email-content
 
-Hi {{ RECIPIENT }},
+Hi {{ NEW TASK OWNER }},
 
 I am looking forward to our upcoming handover meeting for {{ PROJECT NAME }}. Please find below the checklist to go through:
 
@@ -77,5 +77,7 @@ Ensure you [reply done](/reply-done-and-delete-the-email) to this email after th
 For individual task handovers, see [how to hand over email tasks to others](/how-to-hand-over-tasks-to-others).
 
 ::: greybox  
-**Tip:** Recording the handover process via a Teams call can be beneficial for future reference.  
+**Tip:** Recording the handover process via a Teams call can be beneficial for future reference. 
+
+Even better at the end of a long call record a quick summary so everybody knows what was agreed. And it's easier for other people to watch.
 :::
