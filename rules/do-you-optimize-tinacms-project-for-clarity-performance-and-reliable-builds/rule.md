@@ -64,6 +64,12 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
   * React’s cache is still a beta feature with limited applicability and minimal performance improvements. Relying on it can lead to unpredictable results, making it unsuitable for most production environments.
 
+### Common Practices:
+
+* **Utilizing Next.js caching via fetch:** 
+
+  * Next.js’s fetch API is designed to cache by default during static generation and server-side rendering.
+
 ### Good Practices:
 
 * **Utilizing Caching at the Highest Level of the Application:**
@@ -72,8 +78,11 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
   * This approach allows for more efficient data management and quicker response times.
 * **Using Dedicated Caching Packages:**
 
-  * **Redis**: An in-memory data structure store, Redis is fast and versatile, making it ideal for caching data in memory. This reduces the need for repeated database queries or API calls, particularly in applications requiring quick data retrieval and scalability.
-  * **Node-cache**: A lightweight, in-memory caching solution for Node.js applications, Node-cache is perfect for caching smaller datasets directly in your application, reducing latency and improving performance.
+  * [**Redis**:](https://redis.io/fr/solutions/cas-dutilisation/cache/) An in-memory data structure store, Redis is fast and versatile, making it ideal for caching data in memory. 
+  * **[Node-cache](https://www.npmjs.com/package/node-cache)**: A lightweight, in-memory caching solution for Node.js applications.
+
+### Diamond Practices:
+
 * **Implementing a Singleton Service for Data Requests:**
 
   * A singleton service that encapsulates general requests and provides data via cache ensures consistent data retrieval and minimizes repetitive API calls, thereby enhancing performance.
@@ -95,8 +104,11 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
   * Simplifying your data structure and avoiding deeply nested references can help ensure smoother and faster builds.
 * **Carefully Adjust `next.config.js` Settings:**
 
-  * While adjusting `next.config.js` settings can help manage server load, such as by modifying `workerThreads` and `cpus` options, this should be done cautiously. Reducing these values might underutilize server resources and could negatively impact build performance rather than improve it.
-
-## 4. Special Consideration: TinaCMS
-
-When using TinaCMS, favoring the use of a singleton cache over the native fetch API (which caches by default) can significantly improve build speed, nearly doubling it in some cases.
+  * If a build fails due to overload activities, you can consider reducing the server load by modifying the `next.config.js` file as follows, but this should be done cautiously. Reducing these values may negatively impact build performance rather than improve it.
+```
+experimental: 
+{
+   workerThreads : false,
+   cpus: 1
+}
+```
