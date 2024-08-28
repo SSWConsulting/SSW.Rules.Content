@@ -99,4 +99,3 @@ Being a PO can seem duanting to some, especially if they don't have a lot of Scr
 > “Most dysfunction I see in Scrum teams is caused by a bad Product Owner”
 >
 > **Adam Cogan** - Professional Scrum Trainer, Scrum.org, during a TechEd session
-
