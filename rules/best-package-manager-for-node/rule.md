@@ -8,6 +8,8 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Jack Pettit
+    url: https://www.ssw.com.au/people/jack-pettit/
 related:
   - do-you-keep-your-npm-packages-up-to-date
 redirects:
