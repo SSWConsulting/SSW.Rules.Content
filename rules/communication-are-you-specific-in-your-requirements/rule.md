@@ -36,7 +36,7 @@ _"I want to record my clients' firstname, surname, mobile phone, email address &
 :::
 
 ::: good
-Figure: Good Example - You'll get exactly what you want. Even better, use screenshots or mock-ups
+Figure: Good example - You'll get exactly what you want. Even better, use screenshots or mock-ups
 :::
 
 ### One email or Product Backlog Item per task
