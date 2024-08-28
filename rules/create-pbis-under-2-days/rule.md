@@ -28,6 +28,8 @@ guid: 06f5e085-3d2f-466d-91e9-6d0efe2b9d16
 
 Very often you can come to the end of the Sprint and have incomplete features that either can’t be shipped or can be shipped but don't add any value to the end user or Product Owner. If you are given a feature that is going to take weeks, then split it following this rule.
 
+**You are taking on unnecessary risk with a PBI that takes more than 2 days' effort**
+
 <!--endintro-->
 
 Your project could be a very small project spanning just a few weeks/few Sprints or it could be a big project spread across months with multiple Sprint reviews and multiple teams involved. The massive PBI problem finds its way in all projects. Inspite of all devs being available to work, no blockers, no last minute issues hijacking the Sprint, you could still end up either not pushing things to production or pushing some half done feature that can't be used.
