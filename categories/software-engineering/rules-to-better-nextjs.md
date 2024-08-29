@@ -12,7 +12,7 @@ index:
 - next-dynamic-routes
 - do-you-use-these-useful-react-hooks
 - migrate-react-to-nextjs
-- the-best-package-manager-for-react
+- best-package-manager-for-node
 - core-web-vitals
 ---
 

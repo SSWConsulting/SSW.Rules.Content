@@ -81,6 +81,7 @@ index:
   - installing-3rd-party-libraries
   - package-audit-log
   - use-package-managers-appropriately
+  - best-package-manager-for-node
   - local-copies-to-resolve-race-condition
   - do-you-use-primary-constructors
   - do-you-use-collection-expressions
