@@ -76,7 +76,7 @@ Yarn was developed by Facebook to address some of npm's shortcomings, such as sp
 ## 4. [Bun](https://bun.sh/)
 
 ::: img-medium
-![](logo.svg)
+![](bun-logo-4x.png)
 :::
 
 Bun is a newer entrant that aims to be an all-in-one tool for Node.js, combining package management with a fast JavaScript runtime and bundler.
