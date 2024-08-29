@@ -22,24 +22,56 @@ When migrating your old website to a new technology stack, maintaining SEO and a
 
 ## 1. Application Level
 
-### Client-Side Redirects: 
+### Client-Side Redirects:
 
-Client Side Redirects inolve sendi
+A client side redirect typically involves responding to the client request with a payload that will send their browser to a different locations. This is ususally achieved by sending some Javascript or a meta tag to the user's browser which will send them to a different location when the page loads. 
+
+We generally don't recommend this approach as it becomes very difficult to maintain very quickly. Especially if you're looking to add custom logic, such as tracking whether the redirects were hit in Google Analytics. For instance, if you're web pages are hosted statically and you're only only adding redirects for a couple of pages that had low rankings in Google to begin with it would probably be more cost effective to use a temporary client side redirect and save a buck.
+
+```
+<meta http-equiv="refresh" content="0; url=https://www.northwind.com/">
 ```
 
-```
+**Figure: ❌ Bad Example -  A client side redirect achieved by returning a meta tag**
 
+#### **Pros:**
 
+* **Customizability:** It's easy to embed extra code when using this approach. This can be useful if you're hoping to track whether or not the redirects are being hit using Azure Application Insights or Google Analytics
+* **Cost:** Compared to alternative options such as using Azure Front Door or Cloudflare, there are no additional costs 
 
+#### **Cons:**
 
+* **Poor Maintainability**: Compared to an IAC approach, this approach makes it difficult to keep track of which redirects were added, who added them and why.
 
+  * are easy to achieve can Easy but poor for SEO and maintenance. Migrating pages in the future would make this approach cumbersome.
+  * It's difficult to migrate these redirects to a CDN as opposed to other approaches such as ARM which handle 
 
-are easy to achieve can Easy but poor for SEO and maintenance. Migrating pages in the future would make this approach cumbersome.
+## 2. Server-Side Redirects:
 
-Server-Side Application: A dedicated web app can handle redirects, but maintenance and scalability become challenging over time.
+An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.Net allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1). This approach involves modifying the response to incoming requests at the source rather than simply sending html that will redirect the user to the appropriate location by proxy.
 
-#### 2. CDN Level (Global)
+### Pros:
 
-Edge Level Redirects: Ideal for global distribution and ease of management. Solutions like Azure Front Door or Cloudflare can be effective.
+* **SEO:** An added benefit of this approach is that you can document that the user was redirected by returning a 300 level response. For example, you can return a 301, which allows you to directs users to your new updated content with [minimal impact on you SEO](https://audisto.com/guides/redirects/#redirect---moved-permanently).
+
+#### Cons:
+
+ **Availability:** This approach only works for web applications. If you're hosting your website statically, such as in a Blob Storage Account, it 
+
+## 3. CDN Level (Global)
+
+CDNs allow you to redirect users at the edge level. This is ideal for global distribution and ease of management. Solutions like Azure Front Door or Cloudflare can be effective.
 
 Check out our [SSW rule on CDNs](/do-you-use-cdn-for-js-files)
+
+### Pros:
+* **Ease of Maintenance** Using a CDN allows you to keep track 
+
+* **Portability** Because redirects are handled at the edge rather than by your server, there's no need to port redirects if you make changes to your app service.
+
+* **Improved Performance:** Hosting your content on a CDN allows you to respond to requests using a server within the same geography as the user, improving latency.
+
+*** 
+
+### Cons: 
+* **Increased cost:** This approach is generally the most expensive of the 3 if you search ranking is of low value. You'll need to pay a subscription fee to a hosting provider to host your website on a CDN.
