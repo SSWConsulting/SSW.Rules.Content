@@ -11,8 +11,6 @@ authors:
 created: 2024-08-28T16:15:00.000Z
 guid: 3c59f56f-34b0-47a7-902a-718eb340d2e5
 ---
-**SEO Description**: Learn effective strategies to structure and optimize your TinaCMS project for clarity, performance, and successful builds.
-
 Structuring and optimizing your TinaCMS project is essential to achieve clarity, enhance performance, and prevent build failures. Poorly optimized projects can lead to slow site performance, increased server load, and even failed builds due to excessive or inefficient data requests.
 
 Let’s explore how to structure your project effectively and apply best practices to boost performance both in runtime and during the build process.
@@ -25,7 +23,6 @@ When working with large datasets or generating multiple subcomponents, following
 
 * **Making Individual Requests with Tina Client for Each Subcomponent:**
 
-  * It leads to performance degradation and deviates from Next.js paradigms, which prioritize static generation and server-side rendering.
   * This method can overwhelm the build process, particularly when dealing with a large number of subcomponents.
 * **Using Deeply Nested Schemas with Nested References:**
 
@@ -41,12 +38,10 @@ When working with large datasets or generating multiple subcomponents, following
 
 ![✅ Figure: Good example - Single request at the top-level server and passing props down](2024-08-28_16-21-56.png)
 
-
-
 * **Caching Data at a Top-Level and Accessing It When Necessary:**
 
   * If passing props is not feasible (e.g., when a component depends on Next.js router information), you should make a general top-level request, cache the data, and then access it directly from the cache within the component.
-  * This approach ensures efficient data retrieval and reduces the server load.
+  * This approach ensures efficient data retrieval and reduces the server load at build time.
 
 ## 2. Improving Runtime Performance
 
@@ -58,9 +53,6 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
   * This approach bypasses pre-fetched, cached data, increasing server load and slowing down the application.
   * It negates the benefits of static site generation, where data should be ready and waiting.
-* **Relying on React Cache:**
-
-  * React’s cache is still a beta feature with limited applicability and minimal performance improvements. Relying on it can lead to unpredictable results, making it unsuitable for most production environments.
 
 ### Common Practices:
 
@@ -79,7 +71,7 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
   * [**Redis**:](https://redis.io/fr/solutions/cas-dutilisation/cache/) An in-memory data structure store, Redis is fast and versatile, making it ideal for caching data in memory. 
   * **[Node-cache](https://www.npmjs.com/package/node-cache)**: A lightweight, in-memory caching solution for Node.js applications.
 
-### Diamond Practices:
+### Gold Plating:
 
 * **Implementing a Singleton Service for Data Requests:**
 
@@ -100,9 +92,14 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 * **Avoid Using Deeply Nested References:**
 
   * Simplifying your data structure and avoiding deeply nested references can help ensure smoother and faster builds.
-* **Carefully Adjust `next.config.js` Settings:**
+* **Write custom Tina queries:**
 
-  * If a build fails due to overload activities, you can consider reducing the server load by modifying the `next.config.js` file as follows, but this should be done cautiously. Reducing these values may negatively impact build performance rather than improve it.
+  * You can improve build generation and prevent build crash by creating your own Tina GraphQL queries.
+
+### One last option:
+
+* If a build fails due to overload activities, you can consider reducing the server load by modifying the `next.config.js` file as follows, but this should be done cautiously. This will slow the build process.
+
 ```
 experimental: 
 {
