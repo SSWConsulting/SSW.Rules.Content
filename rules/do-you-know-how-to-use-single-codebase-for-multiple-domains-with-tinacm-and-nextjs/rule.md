@@ -11,46 +11,47 @@ authors:
 created: 2024-08-28T17:37:00.000Z
 guid: 2bba887b-9dd7-4f07-978c-a793611e2f85
 ---
-# Guide: Using a Single Codebase for Multiple Domains with TinaCMS and Next.js
-
 ## Introduction
 
 This guide will walk you through the steps required to use a single codebase for multiple domains using TinaCMS and Next.js. This setup is particularly useful for managing content across different locations or websites, all from a centralized codebase. We will cover how to structure your project, configure middleware for domain-specific content, and manage environment variables for different locations.
 
 ## Project Structure
 
+We will detail a project structure using a simple example of a cooking application. \
+We are using the [App Router](https://nextjs.org/docs/app) introduced with version 13.4 of Next.js.
+
 To support multiple domains, the project structure is organized as follows:
 
 ### 1. **Content Directory**
 
-   The content for each location is organized under the `content` directory, which contains various subdirectories for categories, conferences, and pages. Each location, such as Melbourne or Sydney, has its own subdirectory under `pages` and `rooms`, which contains the content relevant to that location.
+   The content for each location is organized under the `content` directory, which contains various subdirectories for recipies, posts, and pages. Each location, such as Australia or France, has its own subdirectory under `pages` and `recipes` which contains the content relevant to that location.
 
 ```bash
 ├── content
-│   ├── categories
-│   ├── conferences
-│   ├── pages
-│   │   ├── melbourne
-│   │   └── sydney
-│   └── rooms
-│       ├── melbourne
-│       └── sydney
+|   ├── pages
+│   │   ├── Australia
+│   │   ├── France
+│   ├── posts
+│   └── recipes
+│       ├── Australia
+│       └── France
 ```
 
 ### 2. **Application Directory**
 
-The src/app/\[location] directory contains the shared codebase for all locations. This includes components like the agenda, slots, speakers, and workshops. The layout.tsx and page.tsx files handle the layout and page rendering for each location.
+The src/app/\[location] directory contains the shared codebase for all locations. This includes components like the posts, recipes, and other custom pages. The layout.tsx and page.tsx files handle the layout and page rendering for each location.
 
 ```bash
-├── content
-│   ├── categories
-│   ├── conferences
-│   ├── pages
-│   │   ├── melbourne
-│   │   └── sydney
-│   └── rooms
-│       ├── melbourne
-│       └── sydney
+├── src
+│   ├── app
+│   │   ├── [location]
+|   |   |   ├── [filename]
+│   │   │   |   ├── page.tsx
+|   │   │   ├── layout.tsx
+|   │   │   ├── not-found.tsx
+|   |   |   ├── page.tsx
+│   │   │   ├── posts
+|   |   |   ├── recipes
 ```
 
 ## Middleware Configuration
@@ -153,8 +154,8 @@ You need to configure the following environment variables for the middleware to 
 Example of .env file :
 
 ```bash
-NEXT_PUBLIC_LOCATION_LIST='[{"location": "melbourne", "domain": "melbourne.example.com"}, {"location": "sydney", "domain": "sydney.example.com"}]'
-DEFAULT_LOCALHOST_LOCATION="melbourne"
+NEXT_PUBLIC_LOCATION_LIST='[{"location": "australia", "domain": "website-australia.com.au"}, {"location": "france", "domain": "website-france.fr"}]'
+DEFAULT_LOCALHOST_LOCATION="australia"
 ```
 
 ### Vercel Configuration (or other host)
