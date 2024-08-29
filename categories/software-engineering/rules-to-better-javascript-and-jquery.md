@@ -22,6 +22,7 @@ index:
 - do-you-streamline-your-development-process-with-npm-and-task-runners
 - do-you-treat-javascript-like-a-real-language
 - angular-read-and-write-to-the-model-never-to-the-page
+- best-package-manager-for-node3
 - do-you-use-bundling-and-or-amd
 - use-jquery-instead-of-javascript
 - optimise-js-with-lodash

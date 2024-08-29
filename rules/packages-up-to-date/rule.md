@@ -17,7 +17,7 @@ authors:
   - title: Zach Keeping
     url: https://www.ssw.com.au/people/zach-keeping
 related:
-  - the-best-package-manager-for-react
+  - best-package-manager-for-node
   - monitor-packages-for-vulnerability
 redirects:
   - do-you-keep-your-npm-packages-up-to-date
