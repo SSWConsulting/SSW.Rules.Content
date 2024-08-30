@@ -1,7 +1,7 @@
 ---
 seoDescription: Know how to lay out your solution structure for a well-organized and maintainable .NET project.
 type: rule
-archivedreason:
+archivedreason: same as https://www.ssw.com.au/rules/do-you-have-a-consistent-net-solution-structure/
 title: Do you know how to lay out your solution?
 guid: fe6fa29b-60dd-49db-8836-c06ee3ff7ef1
 uri: do-you-know-how-to-lay-out-your-solution
