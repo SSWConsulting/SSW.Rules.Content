@@ -1,19 +1,19 @@
 ---
 type: rule
-tips: ""
-title: Do you know how to use Single Codebase for Multiple Domains with TinaCMS
-  and Next.js
+title: Do you Know how to Use Single Codebase for Multiple Domains with TinaCMS
+  and Next.js?
 seoDescription: Optimize your Next.js and TinaCMS project with a single codebase
   to efficiently manage multiple domains, locations, and content.
-uri: do-you-know-how-to-use-single-codebase-for-multiple-domains-with-tinacm-and-nextjs
+uri: single-codebase-for-multiple-domains-with-tinacm-nextjs
 authors:
-  - title: ""
+  - title: Gilles Pothieu
+    url: https://www.ssw.com.au/people/gilles-pothieu
 created: 2024-08-28T17:37:00.000Z
 guid: 2bba887b-9dd7-4f07-978c-a793611e2f85
 ---
-## Introduction
+Using multiple domains using TinaCMS and Next.js requires few steps. This setup is particularly useful for managing content across different locations or websites, all from a centralized codebase. We will cover how to structure your project, configure middleware for domain-specific content, and manage environment variables for different locations.
 
-This guide will walk you through the steps required to use a single codebase for multiple domains using TinaCMS and Next.js. This setup is particularly useful for managing content across different locations or websites, all from a centralized codebase. We will cover how to structure your project, configure middleware for domain-specific content, and manage environment variables for different locations.
+<!--endintro-->
 
 ## Project Structure
 
@@ -24,7 +24,7 @@ To support multiple domains, the project structure is organized as follows:
 
 ### 1. **Content Directory**
 
-   The content for each location is organized under the `content` directory, which contains various subdirectories for recipies, posts, and pages. Each location, such as Australia or France, has its own subdirectory under `pages` and `recipes` which contains the content relevant to that location.
+The content for each location is organized under the `content` directory, which contains various subdirectories for recipies, posts, and pages. Each location, such as Australia or France, has its own subdirectory under `pages` and `recipes` which contains the content relevant to that location.
 
 ```bash
 ├── content
@@ -142,22 +142,18 @@ export const config = {
 };
 ```
 
-## Environment Variables
-
-### Required Environment Variables
+## Environment Variables and Vercel Configuration (or other host)
 
 You need to configure the following environment variables for the middleware to function correctly:
 
 1. **NEXT_PUBLIC_LOCATION_LIST**: A JSON string representing the list of locations and their corresponding domains.
 2. **DEFAULT_LOCALHOST_LOCATION**: The default location to use when running the application locally.
 
-Example of .env file :
+Example of .env file:
 
 ```bash
 NEXT_PUBLIC_LOCATION_LIST='[{"location": "australia", "domain": "website-australia.com.au"}, {"location": "france", "domain": "website-france.fr"}]'
 DEFAULT_LOCALHOST_LOCATION="australia"
 ```
-
-### Vercel Configuration (or other host)
 
 If deploying on Vercel, ensure that the environment variables are set up in the project settings under Environment Variables. This will allow Vercel to use these variables during the build and runtime.
