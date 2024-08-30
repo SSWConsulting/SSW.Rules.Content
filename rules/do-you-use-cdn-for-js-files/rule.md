@@ -1,11 +1,9 @@
 ---
-seoDescription: Do you use a Content Delivery Network (CDN) to reduce network latency and improve page load times for your users?
 type: rule
-archivedreason:
 title: Do you use a Content Delivery Network (CDN)?
-guid: 8312c849-88a5-4745-82e7-739127d6e9f8
+seoDescription: Do you use a Content Delivery Network (CDN) to reduce network
+  latency and improve page load times for your users?
 uri: do-you-use-cdn-for-js-files
-created: 2019-05-16T06:32:40.0000000Z
 authors:
   - title: Barry Sanders
     url: https://ssw.com.au/people/barry-sanders
@@ -19,8 +17,10 @@ related: []
 redirects:
   - do-you-use-a-content-delivery-network-cdn
   - do-you-use-a-content-delivery-network-(cdn)
+created: 2019-05-16T06:32:40.000Z
+archivedreason: null
+guid: 8312c849-88a5-4745-82e7-739127d6e9f8
 ---
-
 If your site takes too long to load, there is a high chance your users will not wait for it to finish loading and abandon viewing it. It is therefore important that we use techniques to make pages load as quickly as possible. One of these techniques is to use a Content Delivery Network (CDN) to reduce the network latency for delivering pages, images, javascript and CSS libraries to users. This results in faster page load times and a better experience for your users.
 
 <!--endintro-->
@@ -51,7 +51,7 @@ Front Door is a good option, but it has some notable downsides regarding redirec
 
 ❌ Cons:
 
-* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits) per resource group.
+* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits) per resource group.
 * **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
 * **Lack of Flexibility**: It doesn’t offer much flexibility for custom redirects, such as using regular expressions.
 * **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.
@@ -74,9 +74,12 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 
 ❌ Cons:
 
-* No built-in integration with Azure Services
+* **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
+* **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
+* **Route Restrictions:** You are restricted to one Cloudflare Worker per route, see rule  [Do you know the common Design Principles? (Part 1)](https://www.ssw.com.au/rules/do-you-know-the-common-design-principles-part-1/)
 
-Also consider where your user base is located and which CDN providers support those locations. For example, some CDNs are not fast or reliable when accessed from China (due to the Great Firewall).
+
+
 
 #### Which CDNs work well from China?
 
@@ -99,5 +102,5 @@ Also consider where your user base is located and which CDN providers support th
 :::
 
 ::: good
-![Figure: Good example, jquery.min.js from CDNJS isn't block and is very fast](5-28.5.png)
+![Figure: Good example, jquery.min.js from CDNJS isn't blocked and is very fast](5-28.5.png)
 :::
