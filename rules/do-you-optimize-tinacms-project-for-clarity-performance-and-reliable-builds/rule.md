@@ -93,15 +93,3 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 * **Write custom Tina queries:**
 
   * You can improve build generation and prevent build crash by creating your own Tina GraphQL queries.
-
-### One last option:
-
-* If a build fails due to overload activities, you can consider reducing the server load by modifying the `next.config.js` file as follows, but this should be done cautiously. This will slow the build process.
-
-```js
-experimental: 
-{
-   workerThreads : false,
-   cpus: 1
-}
-```
