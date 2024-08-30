@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you Optimize Your TinaCMS Project for Clarity, Performance, and
   Reliable Builds
 seoDescription: Learn effective strategies to structure and optimize your
