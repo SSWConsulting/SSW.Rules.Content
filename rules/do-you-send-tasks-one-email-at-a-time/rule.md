@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - send-email-tasks-to-individuals
+  - communication-are-you-specific-in-your-requirements
 redirects: []
 ---
 
@@ -91,9 +92,9 @@ Figure: Good example - Separate emails for unrelated tasks. A few related tasks 
 
 If you have a very large task that requires days of work, it is also better to break it up and send separate related emails. A big task like "Boil the Ocean" would become several emails with consistent subjects:
 
-- "Boil the Ocean #1",
-- "Boil the Ocean #2",
-- "Boil the Ocean #3", etc
+* "Boil the Ocean #1",
+* "Boil the Ocean #2",
+* "Boil the Ocean #3", etc
 
 The advantages are that you get an email history for specific parts, making it easier to include someone else and follow up.
 

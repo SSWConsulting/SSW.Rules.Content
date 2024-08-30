@@ -1,7 +1,7 @@
 ---
 seoDescription: Mastering JPG format - Compress images effectively to balance quality and file size, while ensuring a smooth online experience.
 type: rule
-archivedreason:
+archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you know when to use JPG?
 guid: d29dc9d6-14ab-4318-a454-3601d5ea360f
 uri: do-you-know-when-to-use-jpg

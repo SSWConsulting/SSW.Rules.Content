@@ -1,7 +1,9 @@
 ---
-seoDescription: Appointments changed or deleted require explicit explanations to avoid confusion and ensure transparency, with version numbers tracking changes and attendees updated accordingly.
 type: rule
 title: Appointments - Do you explain why you've deleted or updated an appointment?
+seoDescription: Appointments changed or deleted require explicit explanations to
+  avoid confusion and ensure transparency, with version numbers tracking changes
+  and attendees updated accordingly.
 uri: explain-deleted-or-modified-appointments
 authors:
   - title: Adam Cogan
@@ -32,9 +34,11 @@ Whenever you have to modify the time, attendees, or subject of an appointment, a
 
 You should add to altered appointments to track this:
 
+1. **Your name** - If the appointment is coming from a shared mailbox or Team, it can hide who actually made the change - so it is good practice to put your name next to your alteration comment
+1. **As per our conversation** - If you are changing the appointment based on a conversation with someone, put this in the note so other people know who was involved in changing the appointment
 1. **Version number** - Adding the v# to the notes can help people to track of all of the changes.
 
-   E.g. _"(**V2** - Changed time because Bob cannot make it)"_
+   E.g. _"(**Calum: V2** - As per my conversation with Bob, changing the time as he can't make it)"_
 
 ::: email-template
 | | |
@@ -48,13 +52,13 @@ You should add to altered appointments to track this:
 
 Deleted: Meeting has been cancelled
 
-(V5 - Changed subject as we will be talking about Marketing first)
+(Bob: V5 - Changed subject as we will be talking about Marketing first)
 
-(V4 - Moving to Thursday as Adam could not make it)
+(Uly: V4 - As per my conversation with Adam, moving to Thursday as he can't make it)
 
-(V3 - Adding Uly since he may want to know about this)
+(Bob: V3 - As per my conversation with Uly, adding him in because he wants to know about this)
 
-(V2 - Changed subject as we will be talking about Marketing first)
+(Bob: V2 - Changed subject as we will be talking about Marketing first)
 
 {{ APPOINTMENT CONTENT }}
 :::

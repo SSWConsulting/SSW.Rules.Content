@@ -10,7 +10,7 @@ authors:
   - title: Harry Ross
     url: https://www.ssw.com.au/people/harry-ross
 related:
-  - the-best-package-manager-for-react
+  - best-package-manager-for-node
   - monitor-packages-for-vulnerability
   - packages-up-to-date
 ---

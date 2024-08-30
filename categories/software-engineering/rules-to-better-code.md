@@ -81,12 +81,14 @@ index:
   - installing-3rd-party-libraries
   - package-audit-log
   - use-package-managers-appropriately
+  - best-package-manager-for-node
   - local-copies-to-resolve-race-condition
   - do-you-use-primary-constructors
   - do-you-use-collection-expressions
   - interfaces-abstract-classes
   - use-var
   - handle-unhappy-paths
+  - get-code-line-metrics
 ---
 
 What makes code "cleaner"? What makes the difference between readable code and very readable code?

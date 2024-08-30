@@ -7,6 +7,8 @@ authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
 related:
+  - defining-pbis
+  - explaining-pbis
   - good-email-subject
   - work-in-order-of-importance-aka-priorities
 redirects:
@@ -50,17 +52,17 @@ Figure: Good example - "Important" emoji and text to bring attention to the PBI'
 
 ### ❌ Don't
 
-- Be generic (e.g. "Fix bug in site")
-- Write a novel in the title
-- Ignore the importance of urgent PBIs
+* Be generic (e.g. "Fix bug in site")
+* Write a novel in the title
+* Ignore the importance of urgent PBIs
 
 ### ✅ Do
 
-- Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
-- Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)
-- Prefix - Identify the type (e.g. 🐛 BUG)  
+* Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
+* Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)
+* Prefix - Identify the type (e.g. 🐛 BUG)  
   **Note:** Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)
-- Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
+* Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 ### Good PBI titles examples
 

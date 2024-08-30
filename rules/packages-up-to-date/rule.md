@@ -17,7 +17,7 @@ authors:
   - title: Zach Keeping
     url: https://www.ssw.com.au/people/zach-keeping
 related:
-  - the-best-package-manager-for-react
+  - best-package-manager-for-node
   - monitor-packages-for-vulnerability
 redirects:
   - do-you-keep-your-npm-packages-up-to-date
@@ -45,14 +45,14 @@ yarn audit
 
 Running `npm outdated` returns an overview of your packages versions showing:
 
-- The **current** version your project is using
-- The **wanted** version, i.e. the maximum version of the package that satisfies the semver range specified in package.json
-- The **latest** version of the package
+* The **current** version your project is using
+* The **wanted** version, i.e. the maximum version of the package that satisfies the semver range specified in package.json
+* The **latest** version of the package
 
 The packages output from this command will also show up in different colours:
 
-- **Red** indicates the package version is below the wanted version
-- **Yellow** indicates the package version is at the wanted version but below the latest version
+* **Red** indicates the package version is below the wanted version
+* **Yellow** indicates the package version is at the wanted version but below the latest version
 
 ![Figure: Use 'npm outdated'](npm_outdated.png)
 

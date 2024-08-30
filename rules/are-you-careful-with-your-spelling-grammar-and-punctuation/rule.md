@@ -28,7 +28,7 @@ Emails with no full stops or commas are difficult to read and can sometimes even
 
 To ensure this doesn't happen, use Microsoft Outlook Spelling & Grammar Checker on the 'Editor Options' window.
 
-![Figure: You should also check “Always check spelling before sending” to ensure your message doesn't have mistakes](outlook-spelling.png)
+![Figure: You should also check “Always check spelling before sending” to ensure your message doesn't have mistakes](outlook-spelling_1723171109112.png)
 
 ### Web Content
 

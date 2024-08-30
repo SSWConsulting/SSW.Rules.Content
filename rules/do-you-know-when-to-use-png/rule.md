@@ -1,7 +1,7 @@
 ---
 seoDescription: PNG images offer high-quality alternatives to JPG and BMP, featuring alpha blending, unlimited color palettes, and multiple CRCs for integrity checks.
 type: rule
-archivedreason:
+archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you know when to use PNG?
 guid: 2894d789-cf04-4592-8dc9-1b7c1845489c
 uri: do-you-know-when-to-use-png
@@ -19,9 +19,9 @@ redirects: []
 
 PNG boasts:
 
-- Alpha blending (24 bit transparency map support)
-- Unlimited and limited color palettes. This makes it a good alternative to BMP.
-- Multiple CRCs so that file integrity can be checked without viewing
+* Alpha blending (24 bit transparency map support)
+* Unlimited and limited color palettes. This makes it a good alternative to BMP.
+* Multiple CRCs so that file integrity can be checked without viewing
 
 However, it has rather poor file compression and should be used sparingly.
 
