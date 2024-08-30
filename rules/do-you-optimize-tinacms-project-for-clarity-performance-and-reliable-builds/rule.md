@@ -36,7 +36,9 @@ When working with large datasets or generating multiple subcomponents, following
   * Data fetched at the top level is cached by default, which enhances performance by reducing redundant API calls.
   * Subcomponents can directly access the necessary data, eliminating the need for repeated requests.
 
-![✅ Figure: Good example - Single request at the top-level server and passing props down](2024-08-28_16-21-56.png)
+::: good
+![Figure: Good example - Single request at the top-level server and passing props down](2024-08-28_16-21-56.png)
+:::
 
 * **Caching Data at a Top-Level and Accessing It When Necessary:**
 
