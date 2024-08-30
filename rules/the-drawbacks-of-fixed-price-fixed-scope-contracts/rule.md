@@ -24,13 +24,13 @@ Fixed-price, fixed-scope projects sound good but rarely end up with the expected
 
 First, let's define what is meant by "fixed price" and "waterfall" in software development:
 
-- **Fixed price:** A pricing model where the client pays a fixed amount of money for a predetermined scope of work. The scope of work is typically defined in advance, and any changes to that scope can result in additional charges or renegotiation of the contract.
-- **Waterfall:** This is a traditional project management approach where the development process is broken down into distinct phases, such as requirements gathering, design, implementation, testing, and deployment. Each phase is completed before moving on to the next, and changes to requirements or design are typically not allowed after a phase has been completed.
+* **Fixed price:** A pricing model where the client pays a fixed amount of money for a predetermined scope of work. The scope of work is typically defined in advance, and any changes to that scope can result in additional charges or renegotiation of the contract.
+* **Waterfall:** This is a traditional project management approach where the development process is broken down into distinct phases, such as requirements gathering, design, implementation, testing, and deployment. Each phase is completed before moving on to the next, and changes to requirements or design are typically not allowed after a phase has been completed.
 
 Now, let's look at the main reasons why fixed price and waterfall can be dangerous in software development:
 
 **1. Lack of flexibility:** You can’t predict the future. Fixed price and waterfall approaches are typically very rigid, with little room changes. Since it's knwown that requirements frequently change as the project progresses, and new information can come to light that requires a change in direction. The "Cone of Uncertainty" shows the range of cost changing at different stages through a project:  
- 
+
 ![Figure: The cone of uncertainty in software cost and size estimation](cone-of-uncertainty-software-price.jpg)
 
 **2. Extra cost and slow progress:** With a fixed price and waterfall approach, any changes to the scope of work or requirements can result in additional charges or delays.
