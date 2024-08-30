@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know you to handle redirects?
+title: Do You Know How to Handle Redirects?
 seoDescription: Upgrade your website seamlessly with efficient redirects using
   Cloudflare Workers or Azure Front Door to preserve SEO and traffic during the
   migration
@@ -22,17 +22,18 @@ When migrating your old website to a new technology stack, maintaining SEO and a
 ## Choosing the Right Redirect Method
 
 
-### 1. Client-Side Redirects:
+### 1. Client-Side Redirects
 
-A client side redirect typically involves responding to the client request with a payload that will send their browser to a different locations. This is ususally achieved by sending some Javascript or a meta tag to the user's browser which will send them to a different location when the page loads. 
+A client side redirect typically involves responding to the client request with a payload that will send their browser to a different locations. This is usually achieved by sending some JavaScript or a meta tag to the user's browser which will send them to a different location when the page loads. 
 
 We generally don't recommend this approach as it becomes very difficult to maintain very quickly. Especially if you're looking to add custom logic, such as tracking whether the redirects were hit in Google Analytics. For instance, if you're web pages are hosted statically and you're only only adding redirects for a couple of pages that had low rankings in Google to begin with it would probably be more cost effective to use a temporary client side redirect and save a buck.
 
 ```
 <meta http-equiv="refresh" content="0; url=https://www.northwind.com/">
 ```
-
-**Figure: ❌ Bad Example - A Client Side Redirect achieved by returning a meta refresh**
+::: good
+Figure: Bad example - A Client Side Redirect achieved by returning a meta refresh
+:::
 
 #### **Pros:**
 
@@ -46,13 +47,13 @@ We generally don't recommend this approach as it becomes very difficult to maint
   * are easy to achieve can Easy but poor for SEO and maintenance. Migrating pages in the future would make this approach cumbersome.
   * It's difficult to migrate these redirects to a CDN as opposed to other approaches such as ARM which handle 
 
-## 2. Server-Side Redirects:
+## 2. Server-Side Redirects
 
-An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.Net allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1). This approach involves modifying the response to incoming requests at the source rather than simply sending html that will redirect the user to the appropriate location by proxy.
+An alternative and more "official" way of handling redirects is to handle them on your server. For instance, Next JS allows you to use middleware to respond to requests with a [redirect](https://nextjs.org/docs/app/building-your-application/routing/redirecting#nextresponseredirect-in-middleware). ASP.NET allows you to return a custom [redirect object](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpresponse.redirect?view=netframework-4.8.1). This approach involves modifying the response to incoming requests at the source rather than simply sending html that will redirect the user to the appropriate location by proxy.
 
 ### Pros:
 
-* **SEO:** An added benefit of this approach is that you can document that the user was redirected by returning a 300 level response. For example, you can return a 301, which allows you to directs users to your new updated content with minimal impacts on your search engine ranking in Google. For more information about using a 301 check out the rule [Do you use "301" code to redirect renamed or moved pages?](/rules/use-301-redirect-on-renamed-or-moved-pages/)
+* **SEO:** An added benefit of this approach is that you can document that the user was redirected by returning a 300 level response. For example, you can return a 301, which allows you to directs users to your new updated content with minimal impacts on your search engine ranking in Google. For more information see rule [Do you use "301" code to redirect renamed or moved pages?](/rules/use-301-redirect-on-renamed-or-moved-pages/)
 
 #### Cons:
 
@@ -85,12 +86,15 @@ const redirects = {
   //you can add more redirects here if you need to
 }
 ```
-**Figure**: **✅ Good Example - Server side redirects using middleware in Next JS**
+::: good
+Figure: Good example - Server side redirects using middleware in Next JS
+:::
+
 ## 3. CDN Level (Global)
 
 CDNs allow you to redirect users at the edge level. This is ideal for global distribution and ease of management. Solutions like Azure Front Door or Cloudflare can be effective.
 
-Check out our [SSW rule on CDNs](/do-you-use-cdn-for-js-files)
+Learn more on [Do you use a Content Delivery Network (CDN)?](/do-you-use-cdn-for-js-files)
 
 ### Pros:
 * **Ease of Maintenance** Using a CDN allows you to keep track 
@@ -101,4 +105,4 @@ Check out our [SSW rule on CDNs](/do-you-use-cdn-for-js-files)
 
 
 ### Cons: 
-* **Increased cost:** This approach is generally the most expensive of the 3 if you search ranking is of low value. You'll need to pay a subscription fee to a hosting provider to host your website on a CDN.
+* **Increased Cost:** This approach is generally the most expensive of the 3 if you search ranking is of low value. You'll need to pay a subscription fee to a hosting provider to host your website on a CDN.
