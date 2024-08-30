@@ -84,12 +84,19 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 * **Avoid Isolating Tina Client Calls in Multiple Subcomponents:**
 
   * Centralize data fetching to avoid overwhelming the build process with excessive API requests.
+
+     E.g. If your application has a footer and a header that fetch data every time you navigate to a new page, you can improve performance by caching this data from a top-level call.
 * **Cache Large Datasets at a Top Level:**
 
   * By caching large datasets at a top level, you reduce the number of data fetches during the build process, lowering the risk of overwhelming the system.
+
+    E.g. If your application has a list of recipes that fetch data each time you view a recipe, caching all the data at the top level instead of fetching it each time would reduce API calls during the build process.
+
 * **Avoid Using Deeply Nested References:**
 
   * Simplifying your data structure and avoiding deeply nested references can help ensure smoother and faster builds.
 * **Write custom Tina queries:**
 
-  * You can improve build generation and prevent build crash by creating your own Tina GraphQL queries.
+  * You can improve build generation and prevent build crash by creating your own Tina GraphQL queries.  
+
+    Some of the auto-generated Tina queries are not optimized, such as those with nested objects containing redundant data. For example, recipes that include an ingredients object, which in turn includes the same recipes again. Creating custom queries can reduce the size of objects and improve performance.
