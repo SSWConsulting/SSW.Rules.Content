@@ -30,7 +30,8 @@ First, let's define what is meant by "fixed price" and "waterfall" in software d
 Now, let's look at the main reasons why fixed price and waterfall can be dangerous in software development:
 
 **1. Lack of flexibility:** You can’t predict the future. Fixed price and waterfall approaches are typically very rigid, with little room changes. Since it's knwown that requirements frequently change as the project progresses, and new information can come to light that requires a change in direction. The "Cone of Uncertainty" shows the range of cost changing at different stages through a project:  
- ![Figure: The cone of uncertainty in software cost and size estimation](cone-of-uncertainty.jpg)
+ 
+![Figure: The cone of uncertainty in software cost and size estimation](cone-of-uncertainty-software-price.jpg)
 
 **2. Extra cost and slow progress:** With a fixed price and waterfall approach, any changes to the scope of work or requirements can result in additional charges or delays.
 
