@@ -75,12 +75,6 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
   * [**Redis**:](https://redis.io/fr/solutions/cas-dutilisation/cache/) An in-memory data structure store, Redis is fast and versatile, making it ideal for caching data in memory. 
   * **[Node-cache](https://www.npmjs.com/package/node-cache)**: A lightweight, in-memory caching solution for Node.js applications.
 
-### Gold Plating:
-
-* **Implementing a Singleton Service for Data Requests:**
-
-  * A singleton service that encapsulates general requests and provides data via cache ensures consistent data retrieval and minimizes repetitive API calls, thereby enhancing performance.
-
 ## 3. Preventing Build Crashes
 
 To ensure smooth and reliable builds, it’s important to follow best practices that prevent excessive server load and manage data efficiently.
