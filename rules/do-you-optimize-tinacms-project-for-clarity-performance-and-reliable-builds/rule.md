@@ -15,6 +15,8 @@ Structuring and optimizing your TinaCMS project is essential to achieve clarity,
 
 Let’s explore how to structure your project effectively and apply best practices to boost performance both in runtime and during the build process.
 
+<!--endintro-->
+
 ## 1. Structuring Your TinaCMS Architecture
 
 When working with large datasets or generating multiple subcomponents, following best practices is crucial to maintain performance and clarity.
