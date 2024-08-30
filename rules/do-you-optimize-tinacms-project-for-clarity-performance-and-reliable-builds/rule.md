@@ -102,7 +102,7 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 
 * If a build fails due to overload activities, you can consider reducing the server load by modifying the `next.config.js` file as follows, but this should be done cautiously. This will slow the build process.
 
-```
+```js
 experimental: 
 {
    workerThreads : false,
