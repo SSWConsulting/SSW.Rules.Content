@@ -101,7 +101,7 @@ As of Dec 2020, FindTime does not work on iOS.
 
 ~~Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf.~~
 
-~~![Figure: Cortana will find a time that suits everyone and send the appointment](confirmation.jpg)~~ 
+~~![Figure: Cortana will find a time that suits everyone and send the appointment](confirmation.jpg)~~
 
 ~~#### Step 3 - Add Cortana as a contact~~
 
