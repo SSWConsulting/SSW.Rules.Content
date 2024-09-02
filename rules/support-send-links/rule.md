@@ -59,6 +59,7 @@ Figure: Good Example - Sending a link to a PBI is also acceptable
 After a while, you will build a great library of documentation that customers will use to self-serve their questions. This practice will also get you to read your documentation and improve it more often.
 
 **Exceptions to this rule:**
+
 * **Do not** write a documentation page if fixing the bug and releasing a new version solves the problem. In this case, create a PBI (or find an existing one) and reply with the link to it.
 * **Do not** write a documentation page or PBI if the question/answer is irrelevant to your product, e.g., "Next.js - how do I deploy my app?" (This is not relevant to TinaCMS.)
 
