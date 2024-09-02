@@ -3,7 +3,7 @@ type: rule
 title: Do you use a Content Delivery Network (CDN)?
 seoDescription: Do you use a Content Delivery Network (CDN) to reduce network
   latency and improve page load times for your users?
-uri: do-you-use-cdn-for-js-files
+uri: use-a-cdn
 authors:
   - title: Barry Sanders
     url: https://ssw.com.au/people/barry-sanders
@@ -17,6 +17,7 @@ related: []
 redirects:
   - do-you-use-a-content-delivery-network-cdn
   - do-you-use-a-content-delivery-network-(cdn)
+  - do-you-use-cdn-for-js-files
 created: 2019-05-16T06:32:40.000Z
 archivedreason: null
 guid: 8312c849-88a5-4745-82e7-739127d6e9f8
