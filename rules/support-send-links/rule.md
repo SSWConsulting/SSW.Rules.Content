@@ -17,7 +17,6 @@ redirects: []
 ---
 
 When offering support to customers using your product, think about whether this problem has occurred before or could happen again. If it has, there should be documentation available. This not only helps customers resolve their issues faster but also reduces the repetitive workload for the support team.
-<!--endintro-->
 
 You should never have to answer the same question twice.
 When you get a new question e.g. "Can I do validation in TinaCMS?" these are the steps you should follow
