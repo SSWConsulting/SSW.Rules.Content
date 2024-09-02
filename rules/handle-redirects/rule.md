@@ -9,7 +9,7 @@ authors:
   - title: Aman Kumar
     url: https://ssw.com.au/people/aman-kumar
 related:
-  - do-you-use-cdn-for-js-files
+  - use-a-cdn
   - use-301-redirect-on-renamed-or-moved-pages
 created: 2024-06-14T06:32:40.000Z
 archivedreason: null
@@ -97,7 +97,7 @@ Figure: Good example - Server-side redirects using middleware in Next JS
 
 CDNs allow you to redirect users at the edge level. This is ideal for global distribution and ease of management. Solutions like Azure Front Door or Cloudflare can be effective.
 
-Learn more on [using a Content Delivery Network (CDN)](/do-you-use-cdn-for-js-files).
+Learn more on [using a Content Delivery Network (CDN)](/use-a-cdn).
 
 #### ✅ Pros
 
