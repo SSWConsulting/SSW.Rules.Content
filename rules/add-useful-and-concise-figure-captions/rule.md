@@ -22,7 +22,6 @@ created: 2014-12-04T20:24:03.000Z
 archivedreason: null
 guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 ---
-
 When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
 
 It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
@@ -30,10 +29,6 @@ It's a convenient way of catching users' attention to your content. When people 
 <!--endintro-->
 
 To catch readers' attention, include a useful description - don't just describe what the image is... say what it's used for in the context of the document.
-
-::: good  
-![Figure: Good example - Some nice useful and concise text describing the image](good-caption.jpg)  
-:::
 
 It is especially important that images and captions serve a purpose, as opposed to graphics which are there solely for design.
 
@@ -102,7 +97,7 @@ When embedding videos, include a caption with **the video title** + **video leng
 **Note:** As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
 
 ::: greybox
-{{ VIDEO }}  
+{{ VIDEO }}\
 **Figure: Scrum video**
 :::
 ::: bad
@@ -133,7 +128,7 @@ This helps:
 If you're sharing an AI generated image, show others how you made it.
 
 ::: greybox
-{{ IMAGE }}  
+{{ IMAGE }}\
 **Figure: An AI image of baseball player sliding**
 :::
 ::: bad
@@ -141,7 +136,7 @@ Figure: Bad example - Doesn't educate others about AI images
 :::
 
 ::: greybox
-{{ IMAGE }}  
+{{ IMAGE }}\
 **Figure: An AI image of baseball player sliding. Prompt: A realistic image of a baseball player sliding. The uniform is white and the crowd is cheering.**
 :::
 ::: good
@@ -153,7 +148,7 @@ Figure: Good example - Readers understand how you made the image, and they impro
 When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
 
 ::: greybox
-{{ VIDEO }}  
+{{ VIDEO }}\
 **Video: In this video, Bob talks about Outlook**
 :::
 ::: bad
