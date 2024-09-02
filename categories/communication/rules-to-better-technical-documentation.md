@@ -51,4 +51,5 @@ index:
   - prefixes
   - do-you-know-all-the-symbols-on-the-keyboard
   - copy-text-from-image
+  - support-send-links
 ---
