@@ -4,16 +4,18 @@ type: rule
 archivedreason:
 title: Do you have a Knowledge Base (KB)?
 guid: 00879668-3bca-40bf-bdeb-7e4970062fc6
-uri: do-you-have-a-knowledge-base-kb
+uri: knowledge-base-kb
 created: 2009-03-02T02:45:54.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Titus Maclaren
     url: https://ssw.com.au/people/titus-maclaren
-related: []
+related:
+ - support-send-links
 redirects:
   - do-you-have-a-knowledge-base-(kb)
+  - do-you-have-a-knowledge-base-kb
 ---
 
 Do you know what the most useful thing on Microsoft website is? It is their knowledge base at [support.microsoft.com](https://support.microsoft.com/).
@@ -119,8 +121,6 @@ Focus on getting a version out. It is usually more important to have a version a
 However **don't** write a KB article if fixing the bug and making a new version solves the problem. You'll have to fix the problem anyway, so don't waste time writing a KB, just email the new version.
 
 You don't need to be Microsoft to build a KB. A Knowledge Base does not need to be complicated. We use a simple knowledge base which is located at [pdi-ssw.zendesk.com/hc/en-us](https://pdi-ssw.zendesk.com/hc/).
-
-Suggestions for features should be added to the backlog and voted on at uservoice.com.
 
 ::: greybox
 

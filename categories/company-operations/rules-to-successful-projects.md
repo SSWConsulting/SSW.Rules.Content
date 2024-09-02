@@ -33,7 +33,7 @@ index:
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
 - fix-small-web-errors
-- do-you-have-a-knowledge-base-kb
+- knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
@@ -84,6 +84,7 @@ index:
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 - hard-tasks-first
 - poc-vs-mvp
+- support-send-links
 
 ---
 ### What is a successful project?
