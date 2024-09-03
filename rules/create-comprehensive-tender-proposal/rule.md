@@ -5,7 +5,7 @@ title: Do you create a visually appealing and comprehensive tender proposal?
 uri: create-comprehensive-tender-proposal
 authors:
   - title: Michael Smedley
-    url: [https://www.ssw.com.au/people/uly](https://www.ssw.com.au/people/michael-smedley/)
+    url: https://www.ssw.com.au/people/michael-smedley/
 created: 2024-08-30T15:30:00.000Z
 guid: 8f7c4baf-91f7-4b5c-b8c4-8ed4bfe4f7d2
 ---
