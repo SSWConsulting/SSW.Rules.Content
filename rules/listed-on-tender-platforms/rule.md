@@ -5,7 +5,7 @@ title: Do you ensure you are listed on relevant tender platforms?
 uri: listed-on-tender-platforms
 authors:
   - title: Michael Smedley
-    url: [https://www.ssw.com.au/people/uly](https://www.ssw.com.au/people/michael-smedley/)
+    url: https://www.ssw.com.au/people/michael-smedley/
 created: 2024-08-30T15:00:00.000Z
 guid: 03fa4e97-9842-44b6-8c68-e78bcb78e913
 ---
