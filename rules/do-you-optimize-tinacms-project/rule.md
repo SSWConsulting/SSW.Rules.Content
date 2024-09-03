@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you Optimize your TinaCMS Project for Clarity, Performance, and
-  Reliable Builds?
+title: Do you optimize your TinaCMS project for clarity, performance, and reliable builds?
 seoDescription: Learn effective strategies to structure and optimize your
   TinaCMS project for clarity, performance, and successful builds.
 uri: do-you-optimize-tinacms-project
@@ -21,7 +20,7 @@ Let’s explore how to structure your project effectively and apply best practic
 
 When working with large datasets or generating multiple subcomponents, following best practices is crucial to maintain performance and clarity.
 
-### Bad practices
+### ❌ Bad practices
 
 * **Making individual requests with Tina client for each Subcomponent**
 
@@ -31,7 +30,7 @@ When working with large datasets or generating multiple subcomponents, following
   * Complex and deeply nested schemas increase the complexity of the project, making it harder to manage and more prone to build failures.
   * They can also lead to inefficient data fetching, further slowing down both runtime and build processes.
 
-### Good practices
+### ✅ Good practices
 
 * **Making a single request at a top-level server component and passing props down**
 
@@ -51,7 +50,7 @@ When working with large datasets or generating multiple subcomponents, following
 
 Optimizing runtime performance is key to delivering a fast and responsive user experience.
 
-### Bad practices
+### ❌ Bad practices
 
 * **Using client-side requests instead of cached values from server-side components**
 
@@ -64,7 +63,7 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
   * Next.js’s fetch API is designed to cache by default during static generation and server-side rendering.
 
-### Good practices
+### ✅ Good practices
 
 * **Utilizing caching at the highest level of the application**
 
@@ -79,13 +78,14 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
 To ensure smooth and reliable builds, it’s important to follow best practices that prevent excessive server load and manage data efficiently.
 
-### Best practices
+### ✅ Best practices
 
 * **Avoid isolating Tina client calls in multiple subcomponents**
 
   * Centralize data fetching to avoid overwhelming the build process with excessive API requests.
 
      E.g. If your application has a footer and a header that fetch data every time you navigate to a new page, you can improve performance by caching this data from a top-level call.
+
 * **Cache large datasets at a top level**
 
   * By caching large datasets at a top level, you reduce the number of data fetches during the build process, lowering the risk of overwhelming the system.
@@ -95,6 +95,7 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 * **Avoid using deeply nested references**
 
   * Simplifying your data structure and avoiding deeply nested references can help ensure smoother and faster builds.
+
 * **Write custom Tina queries**
 
   * You can improve build generation and prevent build crash by creating your own Tina GraphQL queries.  
