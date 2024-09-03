@@ -16,8 +16,8 @@ However, all of this implementations only work on x86 platform, and will crash o
 
 <!--endintro-->
 
-- In x86 platform, IntPtr = Int32
-- In x64 platform, IntPtr = Int64
+* In x86 platform, IntPtr = Int32
+* In x64 platform, IntPtr = Int64
 
 So, To fix the crash, we should re-write the code below:
 
