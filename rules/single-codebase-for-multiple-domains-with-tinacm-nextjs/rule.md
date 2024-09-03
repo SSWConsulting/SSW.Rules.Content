@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you Know how to Use Single Codebase for Multiple Domains with TinaCMS
-  and Next.js?
+title: Do you know how to use single codebase for multiple domains with TinaCMS and Next.js?
 seoDescription: Optimize your Next.js and TinaCMS project with a single codebase
   to efficiently manage multiple domains, locations, and content.
 uri: single-codebase-for-multiple-domains-with-tinacm-nextjs
@@ -17,8 +16,7 @@ Using multiple domains using TinaCMS and Next.js requires few steps. This setup 
 
 ## Project Structure
 
-We will detail a project structure using a simple example of a cooking application. \
-We are using the [App Router](https://nextjs.org/docs/app) introduced with version 13.4 of Next.js.
+We will detail a project structure using a simple example of a cooking application. We are using the [App Router](https://nextjs.org/docs/app) introduced with version 13.4 of Next.js.
 
 To support multiple domains, the project structure is organized as follows:
 
@@ -39,7 +37,7 @@ The content for each location is organized under the `content` directory, which 
 
 ### 2. **Application Directory**
 
-The src/app/\[location] directory contains the shared codebase for all locations. This includes components like the posts, recipes, and other custom pages. The layout.tsx and page.tsx files handle the layout and page rendering for each location.
+The src/app/\[location] directory contains the shared codebase for all locations. This includes components like the posts, recipes, and other custom pages. The `layout.tsx` and `page.tsx` files handle the layout and page rendering for each location.
 
 ```bash
 ├── src
@@ -56,7 +54,7 @@ The src/app/\[location] directory contains the shared codebase for all locations
 
 ## Middleware Configuration
 
-To handle domain-specific routing, we use a middleware file middleware.ts located in the src directory. This middleware rewrites URLs based on the hostname, routing requests to the appropriate location's content.
+To handle domain-specific routing, we use a middleware file `middleware.ts` located in the src directory. This middleware rewrites URLs based on the hostname, routing requests to the appropriate location's content.
 
 ### Middleware Implementation
 
@@ -149,7 +147,7 @@ You need to configure the following environment variables for the middleware to 
 1. **NEXT_PUBLIC_LOCATION_LIST**: A JSON string representing the list of locations and their corresponding domains.
 2. **DEFAULT_LOCALHOST_LOCATION**: The default location to use when running the application locally.
 
-Example of .env file:
+Example of `.env` file:
 
 ```bash
 NEXT_PUBLIC_LOCATION_LIST='[{"location": "australia", "domain": "website-australia.com.au"}, {"location": "france", "domain": "website-france.fr"}]'
