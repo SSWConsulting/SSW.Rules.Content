@@ -29,7 +29,7 @@ Nx offers the following features:
 - [Affected graph](https://nx.dev/concepts/affected) - see which projects is affected by your commit
 - and many more...
 
-Currently, Nx supports many frameworks, such as Angular, React, Node, and [many more](https://nx.dev/packages).
+Currently, Nx supports many frameworks, such as Angular, React, Node, and [many more](https://nx.dev/nx-api).
 
 Adding a tool such as Nx to a project will obviously add another moving parts to the solution, so it's a good idea to know the advantages and disadvantages of Nx.
 
@@ -38,7 +38,7 @@ Advantages:
 :::
 
 - Faster development build time
-- Faster CI time with [NxCloud](https://nx.app/)
+- Faster CI time with [Nx Cloud](https://www.networkoptix.com/nx-cloud)
 - Monorepo collaboration tool with [Package based](https://nx.dev/getting-started/package-based-repo-tutorial) or [Integrated repo based](https://nx.dev/getting-started/integrated-repo-tutorial) strategy
 
 ::: bad
