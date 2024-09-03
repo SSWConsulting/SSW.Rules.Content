@@ -72,7 +72,7 @@ They will also look good on any screen resolution or display.
 ✅ Free $  
 ✅ Can be used in any size  
 ✅ Large choice of icons (even more than UI Fabric!)  
-❌ Requires code (Inject CSS)   
+❌ Requires code (Inject CSS)
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
@@ -89,7 +89,7 @@ a[href$='.pdf']:before
 
 ### Option B: Using images
 
-Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle. 
+Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle.
 
 You will add each icon image to your server, and then add the path as background URL in the CSS file.
 
