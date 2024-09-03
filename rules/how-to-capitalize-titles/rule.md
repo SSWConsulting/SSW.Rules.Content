@@ -15,7 +15,7 @@ archivedreason: null
 guid: c8104ef3-2539-4459-9262-933b7333b619
 ---
 
-Using correct capitalization in titles and headings for web content is crucial. 
+Using correct capitalization in titles and headings for web content is crucial.
 
 For **main titles**, capitalize the first word, all nouns, verbs (even short ones like "is"), adjectives, and proper nouns. Conjunctions and prepositions should not be capitalized. E.g. "at", "on", "but", "and", "with", etc
 
@@ -40,7 +40,7 @@ Figure: Bad example - Inconsistency on words' capitalization and capitalized sub
 **Subtitle:**  How AI innovations are transforming industries and society
 :::
 ::: good
-Figure: Good example - Consistent and correct capilalization on title and subtitle 
+Figure: Good example - Consistent and correct capilalization on title and subtitle
 :::
 
 It's best to only do this on main titles, and leave subtitles in normal sentence form - only capitalize the first word and proper nouns. Basically, it saves hassles... English is a confusing language, and there are too many variations that cause too many arguments.
