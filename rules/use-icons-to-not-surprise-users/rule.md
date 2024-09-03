@@ -42,7 +42,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ![](xls-file.png)       |
 | **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ![](ppt-file.png)       |
 | **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ![](txt-file.png)       |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)               | ![](video-file.png)                      |
+| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/images/videos/MVC_background.mp4)  | ![](video-file.png)     |
 | **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)    |
 | **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
 | **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png) |
