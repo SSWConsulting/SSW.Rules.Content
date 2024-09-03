@@ -26,7 +26,7 @@ Usually, for common scenarios GPT will already be adequate, but for more complex
 
 ### 1. System Prompt
 
-The [system prompt](//use-system-prompt) is a prompt that is sent along with every request to the API, and is used to tell the model how it should behave.
+The [system prompt](/use-system-prompt) is a prompt that is sent along with every request to the API, and is used to tell the model how it should behave.
 
 Using the system prompt is the easiest way to provide additional data to GPT, but there are also some downsides to this approach.
 
