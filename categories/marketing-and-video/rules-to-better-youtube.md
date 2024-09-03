@@ -7,6 +7,7 @@ index:
 - browsing-do-you-add-the-youtube-center-extension
 - important-youtube-vocabulary
 - videos-youtube-friendly
+- youtube-livestreams
 - untapped-keywords
 - optimize-videos-for-youtube
 - youtube-banner-show-upcoming-events
