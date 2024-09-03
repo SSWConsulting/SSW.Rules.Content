@@ -10,8 +10,6 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
-  - title: Nick Curran
-    url: https://www.ssw.com.au/people/nick-curran
 related:
   - do-you-know-the-how-to-be-a-good-product-owner
   - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
@@ -25,8 +23,7 @@ archivedreason: null
 guid: dbe9010e-da5b-4617-8ff3-0e1e5fdc7772
 ---
 
-**Acceptance Criteria** (from the Product Owner) help to answer the question _"How will I know when I'm done with this Product Backlog Item (PBI)?"._ It
-defines the exact requirements that must be met for the PBI to be completed.
+**Acceptance Criteria** (from the Product Owner) help to answer the question _"How will I know when I'm done with this Product Backlog Item (PBI)?"._ It defines the exact requirements that must be met for the PBI to be completed. It is the Product Owner's responsibility to ensure that all Acceptance Criteria has been added - otherwise they should not expect that work to be done.
 
 <!--endintro-->
 
