@@ -17,8 +17,8 @@ The best NuGet packages are:
 
 <!--endintro-->
 
-- [MiniProfiler](http://nuget.org/packages/miniprofiler)
-- [MVCMailer](http://nuget.org/packages/mvcmailer)
-- [MvcDonutCaching](http://nuget.org/packages/mvcdonutcaching)
-- [MobileViewEngines](http://nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
-- [Glimpse](https://github.com/glimpse/glimpse) (archived)
+* [MiniProfiler](http://nuget.org/packages/miniprofiler)
+* [MVCMailer](http://nuget.org/packages/mvcmailer)
+* [MvcDonutCaching](http://nuget.org/packages/mvcdonutcaching)
+* [MobileViewEngines](http://nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
+* [Glimpse](https://github.com/glimpse/glimpse) (archived)
