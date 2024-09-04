@@ -26,7 +26,7 @@ Putting a “tsconfig.json” file in your project tells the typescript compiler
 
 ### Disable implicit “any”
 
-The primary benefit of TypeScript is type-safety, and attempting to escape from the type-safety should be a conscientious decision by the developer. So ensure that noImplicitAny is true, and keep your code type-aware and able to be refactored.
+The primary benefit of TypeScript is type-safety, and attempting to escape from the type-safety should be a conscientious decision by the developer. So ensure that noImplicitAny is true, and keep your code type-aware and able to be refactored. Enabling "noImplicitAny" doesn't mean your project will never use the "any" type. You can still have "any" types if you explicitly declare them. For more on the difference between implicit and explicit typing in TypeScript, check out the [different between explicit and implicit typing](https://www.schibsted.pl/blog/typescript-type-inference).
 
 ### Exclude external files
 

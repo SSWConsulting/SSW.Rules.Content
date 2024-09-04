@@ -13,6 +13,7 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
+- do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
@@ -45,7 +46,6 @@ index:
 - do-you-help-the-user-to-enter-a-url-field
 - do-you-make-sure-that-all-your-tags-are-well-formed
 - html-css-do-you-know-how-to-create-spaces-in-a-web-page
-- do-you-know-how-to-use-named-anchor-links
 - do-you-check-your-website-is-multi-browser-compatible
 - clean-no-match-found-screen
 - do-you-know-how-to-arrange-forms

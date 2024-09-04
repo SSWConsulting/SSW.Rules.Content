@@ -18,6 +18,6 @@ A `Regenerate.bat` file must exist under the solution items to recreate data acc
 
 ![Figure: The _Regenerate.bat file under solution items](regenerate.jpg)
 
-The built in Data Form Wizard in Visual Studio .NET is not any good. We prefer other code generators like [CodeSmith](https://ssw.com.au/ssw/Redirect/CodeSmith.htm) - Good for generating strongly-typed collections
+The built in Data Form Wizard in Visual Studio .NET is not any good. We prefer other code generators like [CodeSmith](https://www.codesmith.io) - Good for generating strongly-typed collections.
 
 **Note:** It also includes templates for Rocky Lhotka's CSLA architecture from a SQL Server database.

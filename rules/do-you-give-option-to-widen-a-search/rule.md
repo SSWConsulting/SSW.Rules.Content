@@ -22,16 +22,10 @@ You must be careful when combining search and filtering functionality as this ca
 
 <!--endintro-->
 
-![Find more (1).png](Find more (1).png)
-
 ::: bad
-Bad: Search is not reminding the user about the fact that a built-in filter is applied to the search result
-
+![Figure: Bad example - Search is not reminding the user about the fact that a built-in filter is applied to the search result](no-match-found-search.png)
 :::
 
-![](SearchOption-Good.png)
-
 ::: good
-Good: Search reminds the user that the search criteria can be widen to show more result
-
+![Figure: Good example - Search reminds the user that the search criteria can be widen to show more result](SearchOption-Good.png)
 :::

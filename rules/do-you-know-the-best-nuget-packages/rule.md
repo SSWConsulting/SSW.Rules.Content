@@ -2,7 +2,7 @@
 seoDescription: Discover top NuGet packages including Glimpse, MiniProfiler, MVCMailer, MvcDonutCaching, and MobileViewEngines for enhanced ASP.NET development.
 type: rule
 archivedreason:
-title: Do you know the best NuGet Packages ?
+title: Do you know the best NuGet Packages?
 guid: ca680fc1-cce3-4cf5-9985-a2f27a1059ae
 uri: do-you-know-the-best-nuget-packages
 created: 2012-10-19T19:00:36.0000000Z
@@ -17,8 +17,8 @@ The best NuGet packages are:
 
 <!--endintro-->
 
-- Glimpse - [https://github.com/glimpse/glimpse](http://getglimpse.com/)
-- [MiniProfiler](http://nuget.org/packages/miniprofiler)
-- [MVCMailer](http://nuget.org/packages/mvcmailer)
-- [MvcDonutCaching](http://nuget.org/packages/mvcdonutcaching)
-- [MobileViewEngines](http://nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
+* [MiniProfiler](http://nuget.org/packages/miniprofiler)
+* [MVCMailer](http://nuget.org/packages/mvcmailer)
+* [MvcDonutCaching](http://nuget.org/packages/mvcdonutcaching)
+* [MobileViewEngines](http://nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
+* [Glimpse](https://github.com/glimpse/glimpse) (archived)

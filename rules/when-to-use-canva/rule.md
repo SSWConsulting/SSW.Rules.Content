@@ -36,7 +36,7 @@ Do not use AI-generated images for social media content, as the current quality 
 :::
 
 ::: bad
-![﻿Figure: Bad example - Using Canva for a complex design](screenshot-2023-12-14-101802.png)
+![Figure: Bad example - Using Canva for a complex design](screenshot-2023-12-14-101802.png)
 :::
 
 ### Use Canva for simple memes on social media

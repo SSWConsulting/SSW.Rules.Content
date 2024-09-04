@@ -1,7 +1,7 @@
 ---
 seoDescription: Streamline your .NET development process with NPM and task runners, eliminating tedious tasks and improving collaboration.
 type: rule
-archivedreason: "Moved to [Do you know the best package manager for React?](/rules/the-best-package-manager-for-react/)"
+archivedreason: "Moved to [Do you know the best package manager for React?](/rules/best-package-manager-for-node/)"
 title: Do you streamline your development process with NPM and Task Runners?
 guid: 321b6beb-86c9-4df0-b200-f8a6a3aaf10a
 uri: streamline-development-with-npm-and-task-runners

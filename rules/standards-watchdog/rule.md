@@ -81,6 +81,10 @@ When you come across a code error, it's always better if you just [fix it straig
 
 In cases where you aren't able to fix yourself, send an email to [report the error/bug](/report-bugs-and-suggestions), which should be [become a PBI](/turn-emails-into-pbis) and then fixed.
 
+### What about checking PBIs?
+
+You will be surprised at how many developers write bad PBIs. You need to be a standards watchdog and correct them until they understand the importance. Be patient, it takes many times, they do eventually write good quality PBIs.
+
 #### Tips
 
 * If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
@@ -118,7 +122,7 @@ If a critique is personal, it can be hard to correct someone – especially if y
 ![Figure: Good example - Say 'thank you' to a person's corrections to show you don't have thin skin and encourage further positive and negative feedback. It all helps you to improve](watchdog-thankyou.jpg)
 :::
 
-### In Summary
+### Summary
 
 It's important to ensure others are doing their best to maintain and follow the standards. Remember, it can be just as important for someone's professional development to give feedback as it is to receive it. Being able to communicate feedback in an effective and professional manner can benefit you in any career.
 

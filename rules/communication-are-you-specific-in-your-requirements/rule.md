@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - do-you-send-tasks-one-email-at-a-time
 redirects:
   - communication-do-you-make-sure-you-are-specific-in-your-requirements
 ---
@@ -35,7 +36,7 @@ _"I want to record my clients' firstname, surname, mobile phone, email address &
 :::
 
 ::: good
-Figure: Good Example - You'll get exactly what you want. Even better, use screenshots or mock-ups
+Figure: Good example - You'll get exactly what you want. Even better, use screenshots or mock-ups
 :::
 
 ### One email or Product Backlog Item per task

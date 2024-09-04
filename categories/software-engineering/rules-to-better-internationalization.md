@@ -13,7 +13,7 @@ index:
   - do-you-provide-numerous-comments-in-application-resources-that-define-context
   - do-you-manage-3rd-party-dependencies
   - do-you-detect-service-availability-from-the-client
-  - do-you-use-cdn-for-js-files
+  - use-a-cdn
   - handle-redirects
   - add-multilingual-support-on-angular
   - do-you-avoid-reviewing-performance-without-metrics

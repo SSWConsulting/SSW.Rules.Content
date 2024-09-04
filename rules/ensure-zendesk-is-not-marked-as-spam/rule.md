@@ -22,7 +22,7 @@ Zendesk is being used everywhere now, and it is good! To ensure you are receivin
 
 If you are using Exchange, you can do this by doing the following:
 
-1. Go to your Exchange Admin Center (if Office 365, https://outlook.office365.com/ecp/);
+1. Go to your Exchange Admin Center
 2. Mail Flow | + icon | Bypass spam filtering:
 
 ![Figure: Bypass spam filtering setting in Exchange](bypass-spam-filtering.png)
