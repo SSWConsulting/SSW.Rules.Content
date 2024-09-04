@@ -55,11 +55,11 @@ User Stories should follow the INVEST principle:
 
 ::: greybox
 
-**"I" ndependent** (of all others)    
-**"N" egotiable** (not a specific contract for features)    
-**"V" aluable** (or vertical)    
-**"E" stimable** 👑 (to a good approximation)   
-**"S" mall** (so as to fit within an iteration)    
+**"I" ndependent** (of all others)
+**"N" egotiable** (not a specific contract for features)
+**"V" aluable** (or vertical)
+**"E" stimable** 👑 (to a good approximation)
+**"S" mall** (so as to fit within an iteration)
 **"T" estable** 👑 (in principle, even if there isn’t a test for it yet)  
 
 :::
