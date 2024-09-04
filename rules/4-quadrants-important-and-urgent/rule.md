@@ -20,7 +20,7 @@ There is a well-known quadrant where people look at where they spend their time.
 ![Figure: The decision-making 4 quadrants](7_habits_decision-making_matrix.png)
 :::
 
-**Image:** Davidjcmorris, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0>), via Wikimedia Commons.
+**Image:** Davidjcmorris, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons.
 
 Understanding the difference between urgent and important tasks in software development is crucial:
 

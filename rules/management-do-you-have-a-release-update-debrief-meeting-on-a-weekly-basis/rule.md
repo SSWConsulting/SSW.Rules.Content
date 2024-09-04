@@ -38,14 +38,12 @@ If "Yes"
 
 There are tools to help you do this:
 
-- [SSW TFS Add-in - Release Update/Debrief Report](https://www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate)
+* [SSW TFS Add-in - Release Update/Debrief Report](https://www.ssw.com.au/archive/agile-template/user-guide.html#ReleaseUpdate)
 
 ![Figure: The actual output of the Release Update Report](ProgressReport_small.jpg)
 
-Here is a PDF format [SSW Release Update Report.](https://www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip)
-
 **If you are at the end of a main section of work, promote your success**
 
-- [Ask for a testimonial for the work you have done](/rules-to-better-software-consultants-dealing-with-clients)
-- Create a case study and get it approved - This should be a win-win for the client. E.g. [WorleyParsons](https://www.ssw.com.au/ssw/Consulting/Case-Study/WorleyParsons.aspx)
-- Add a link to the work you have done on your website or marketing material. E.g. [Our Clients](https://www.ssw.com.au/ssw/Company/Clients) page
+* [Ask for a testimonial for the work you have done](/rules-to-better-software-consultants-dealing-with-clients)
+* Create a case study and get it approved - This should be a win-win for the client. E.g. [WorleyParsons](https://www.ssw.com.au/company/clients/worley-parsons)
+* Add a link to the work you have done on your website or marketing material. E.g. [Our Clients](https://www.ssw.com.au/company/clients) page
