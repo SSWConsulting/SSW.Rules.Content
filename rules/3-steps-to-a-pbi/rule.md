@@ -18,13 +18,10 @@ authors:
 related:
   - turn-emails-into-pbis
   - have-a-definition-of-ready
-  - rules-to-better-product-owners
   - acceptance-criteria
-  - reply-done-plus-added-a-unit-test
   - write-a-good-pull-request
   - record-a-quick-and-dirty-done-video
   - definition-of-done
-  - done-do-you-know-when-to-send-a-done-email-in-scrum
   - close-pbis-with-context
   - 8-steps-to-scrum
 redirects:
@@ -34,6 +31,7 @@ created: 2013-08-30T06:33:21.000Z
 archivedreason: null
 guid: 1de9df77-9b69-4242-b648-e08e5980e9a6
 ---
+
 A PBI (Product Backlog Item) is a term commonly used in Agile project management and software development to represent a unit of work. It refers to an item in the Product Backlog, which is a prioritized list of features, enhancements, or fixes to be addressed in a project.
 
 Before a PBI is worked on it should be added to the current Sprint Backlog during [Sprint Planning](/what-happens-at-a-sprint-planning-meeting). If your PBI doesn't exist, or is in an email then you need to [turn it into a PBI](/turn-emails-into-pbis) to be prioritized in Sprint Planning.
@@ -42,7 +40,7 @@ Once a PBI is in the Sprint Backlog, it's lifecycle can be broken down into 3 st
 
 <!--endintro-->
 
-### 1. Ready
+## 1. Ready
 
 You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already prioritized and approved by the [Product Owner](/rules-to-better-product-owners)
 
@@ -52,7 +50,7 @@ You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already
 
 ![Figure: "Testing Task" added to a PBI. This is the board the team will use for 90% of the Sprint so that testing is visible to everyone](Testing-task.png)
 
-### 2. Time to Code
+## 2. Time to Code
 
 This step depends on the complexity and nature of the task, especially if the PBI involves intricate coding or extensive testing to meet the defined [Acceptance Criteria](/acceptance-criteria).
 
@@ -66,14 +64,15 @@ This step depends on the complexity and nature of the task, especially if the PB
 8. Action the feedback (and then get more feedback)
 9. Check your [Definition of Done](/definition-of-done) and complete the Pull Request!
 
-### 3. Done
+## 3. Done
 
 This should be the easiest part!
 
 1. Check code is deployed 🚀
 2. Reply 'done' to the PBI and also in the email thread, as per [when to send a 'done' email in Scrum](/done-do-you-know-when-to-send-a-done-email-in-scrum)
 
-   Note: Remember to [close PBIs, tasks and goals with context?](/close-pbis-with-context)
+   **Note:** Remember to [close PBIs, tasks and goals with context](/close-pbis-with-context)
+
 3. Close the PBI
 
 Congrats, your PBI is ready to be demonstrated during your Sprint Review!
