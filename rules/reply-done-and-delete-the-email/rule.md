@@ -1,7 +1,7 @@
 ---
-seoDescription: When reassigning tasks, reply with "Done" and provide a URL link if applicable.
 type: rule
 title: Dones - Do you reply 'Done' and delete the original email?
+seoDescription: When reassigning tasks, reply with "Done" and provide a URL link if applicable.
 uri: reply-done-and-delete-the-email
 authors:
   - title: Adam Cogan
@@ -45,6 +45,11 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 - If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
 - If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
   **Note:** If you expect the 'done' to happen soon, wait to send the email instead of using "Partially done"
+- If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
+- If there is a better solution for the requested task:
+
+  1. Have a conversation first
+  2. Reply <mark>Done differently - {{ SOLUTION AND EXPLANATION }}</mark>.
 
 - If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
 
