@@ -13,10 +13,11 @@ archivedreason: Deprecated content moved from
   https://www.ssw.com.au/rules/automate-schedule-meetings/
 guid: bd7b698c-b409-48b4-8542-27378b80085a
 ---
+
 ::: info
 **Important:** [Cortana is deprecated](https://support.microsoft.com/en-us/topic/end-of-support-for-cortana-d025b39f-ee5b-4836-a954-0ab646ee1efa).
 :::
-            
+
 <!--endintro-->
 
 ## How to use Microsoft Cortana Scheduler (formerly known as Calendar.help)
