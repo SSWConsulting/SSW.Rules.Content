@@ -64,22 +64,22 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 
 ::: email-content
 
-### Hi {{ PRODUCT OWNER }},
+### Hi {{ PRODUCT OWNER }}
 
 As per our conversation, you have asked us to prioritise some urgent PBIs this Sprint:
 
 **Added:**
 
-- {{ PBI URL }}
-- {{ PBI URL }}
+* {{ PBI URL }}
+* {{ PBI URL }}
 
 **Removed:**
 
-- {{ PBI URL }}
+* {{ PBI URL }}
 
 Normally, these PBIs would be prioritized for the next Sprint, but we understand the time constraints for this work.
 
-<This email is as per https://www.ssw.com.au/rules/unexpected-requests >
+<This email is as per <https://www.ssw.com.au/rules/unexpected-requests> >
 
 :::
 :::
