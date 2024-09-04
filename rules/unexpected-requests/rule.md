@@ -54,7 +54,7 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 
 1. Double check **with the Product Owner** that this new item is more important than the current Sprint items (if not add it to the Product Backlog instead)
 2. Add the new PBI to the current Sprint
-3. Remove another item of similar size from the Sprint and put it back in the backlog
+3. Remove another PBI of similar size from the Sprint and put it back in the backlog (with the team's consent)
 
 ::: email-template
 | | |
