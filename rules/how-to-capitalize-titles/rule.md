@@ -46,7 +46,7 @@ Figure: Good example - Consistent and correct capilalization on title and subtit
 It's best to only do this on main titles, and leave subtitles in normal sentence form - only capitalize the first word and proper nouns. Basically, it saves hassles... English is a confusing language, and there are too many variations that cause too many arguments.
 
 ::: info
-**Note:** We acknowledge the paradox in this pge, as the title itself is not capitalized. The reason is because we structure SSW Rules content based on a category page. For example, [Rules to Better Technical Documentation](/rules-to-better-technical-documentation) is the main title, and every rule under it is considered a subtitle.
+**Note:** We acknowledge the paradox in this page, as the title itself is not capitalized. The reason is because we structure SSW Rules content based on a category page. For example, [Rules to Better Technical Documentation](/rules-to-better-technical-documentation) is the main title, and every rule under it is considered a subtitle.
 :::
 
 ::: good
