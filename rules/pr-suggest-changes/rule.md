@@ -23,13 +23,13 @@ When it comes to reviewing Pull Requests (PRs) in GitHub, this is not the case -
 **Video: TODO** -->
 
 ::: bad
-![Figure: Bad example - Need to copy+paste changes](bad-pr-suggest-changes.png)
+![Figure: Bad example - GitHub - Using change X to Y format (need to copy+paste changes)](bad-pr-suggest-changes.png)
 :::
 
 Instead, reviewers should use GitHub's **Add a suggestion** feature. This allows the reviewer to directly suggest changes in the code diff view, and the PR creator can easily accept or reject these changes with a single click. This process is more streamlined and makes it easier to implement suggestions.
 
 ::: good
-![Figure: Good example - Using the 'Add a suggestion' button](good-suggest-a-change-button.png)
+![Figure: Good example - GitHub - Using the 'Add a suggestion' button](good-suggest-a-change-button.png)
 :::
 
 <!--endintro-->
@@ -37,5 +37,5 @@ Instead, reviewers should use GitHub's **Add a suggestion** feature. This allows
 When the PR creator reviews the suggestion, they can either click **'Commit suggestion'** to apply it directly or **'Resolve conversation'** if they choose not to apply it.
 
 ::: good
-![Figure: Good example - easy to see what has changed + awesome 'Commit Suggestions' button ✨ ](good-pr-suggestions.png)
+![Figure: Good example - GitHub - Easy to see what has changed + awesome 'Commit Suggestions' button ✨ ](good-pr-suggestions.png)
 :::
