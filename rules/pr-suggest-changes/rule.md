@@ -37,5 +37,5 @@ Instead, reviewers should use GitHub's **Add a suggestion** feature. This allows
 When the PR creator reviews the suggestion, they can either click **'Commit suggestion'** to apply it directly or **'Resolve conversation'** if they choose not to apply it.
 
 ::: good
-![Figure: Good example - GitHub - Easy to see what has changed + awesome 'Commit Suggestions' button ✨ ](good-pr-suggestions.png)
+![Figure: Good example - GitHub - Easy to see what has changed + awesome 'Commit Suggestion' button ✨ ](good-pr-suggestions.png)
 :::
