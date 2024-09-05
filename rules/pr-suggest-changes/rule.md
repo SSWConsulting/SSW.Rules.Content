@@ -19,7 +19,6 @@ guid: 8b529efe-d500-42b8-9632-7de23506546a
 Normally, the best way to provide feedback on content changes is to use the [change X to Y format](/change-from-x-to-y).
 When it comes to reviewing Pull Requests (PRs) in GitHub, this is not the case - its  inefficient for the PR owner. They have to manually interpret each suggested change, implement them in the code, and then commit the changes, which can be time-consuming.
 
-
 <!-- `youtube: TODO`
 **Video: TODO** -->
 
@@ -31,7 +30,7 @@ Instead, reviewers should use GitHub's **Add a suggestion** feature. This allows
 
 ::: good
 ![Figure: Good example - Using the 'Add a suggestion' button](good-suggest-a-change-button.png)
-::: 
+:::
 
 <!--endintro-->
 
@@ -40,12 +39,3 @@ When the PR creator reviews the suggestion, they can either click **'Commit sugg
 ::: good
 ![Figure: Good example - easy to see what has changed + awesome 'Commit Suggestions' button ✨ ](good-pr-suggestions.png)
 :::
-
-
-
-
-
-
-
-
-
