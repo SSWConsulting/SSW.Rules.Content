@@ -23,11 +23,11 @@ A feature of Azure AppService is the ability to [use secrets from Key Vault as C
 So now rather than developers having to think about if a value is a secret or configurations, it's always configuration. It just might have its value stored securely in Key Vault.
 
 ::: good
-![Figure: Good Example - Developers don't need to know anything about Key Vault](goodkeyvault.png)
+![Figure: Good example - Developers don't need to know anything about Key Vault](goodkeyvault.png)
 :::
 
 ::: good
-![Figure: Using Key Vault values in Azure App Service](screenshot-2024-09-05-183121.png)
+![Figure: Good example -  Using Key Vault values in Azure App Service](screenshot-2024-09-05-183121.png)
 :::
 
-Note the "Pull reference values" button now available in App Service. When you update a Key Vault value, the old value is cached by App Services. You will need to use this option to refresh the value for your app.
+**Note:** the "Pull reference values" button now available in App Service. When you update a Key Vault value, the old value is cached by App Services. You will need to use this option to refresh the value for your app.
