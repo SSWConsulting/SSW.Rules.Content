@@ -38,9 +38,11 @@ Instead, reviewers should use GitHub's **Add a suggestion** feature. This allows
 When the PR creator reviews the suggestion, they can either click **'Commit suggestion'** to apply it directly or **'Resolve conversation'** if they choose not to apply it.
 
 ::: good
-![Figure: Good example - GitHub - Easy to see what has changed + awesome 'Commit Suggestion' button ✨ ](good-pr-suggestions.png)
+![Figure: Good example - GitHub - Easy to see what has changed + awesome 'Commit Suggestion' button ✨](good-pr-suggestions.png)
 :::
 
 If an author has made multiple suggestions to your code it may be best to add the suggestions in a batch and then. This allows you to create a single useful commit message that summarizes the changes in the feedback.
 
-![Figure: Applying code suggestions in a batch](batch-suggesions.png)
+::: good
+![Figure: Good exmample - Applying code suggestions in a batch](batch-suggesions.png)
+:::
