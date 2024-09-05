@@ -44,14 +44,14 @@ A recommended “Definition of Ready” would have:
 When the PBI is approved, [ask for a signature (or simply an initial) as a prove of approval](/ask-clients-approval).
 
 ::: info
-**Note:** PBIs can still be accepted into a Sprint even if they do **not** meet the DoR. When that happens, there will be more risk and uncertainty around the PBI, but this should not stop the team from doing the work. The recommendation is that PBI's are ready, but this is not mandatory.
+**Warning:** PBIs might be accepted into a Sprint even if they do **not** meet the DoR. When that happens, there will be **more risk** and **uncertainty** around the PBI. It is highly discouraged for not-ready PBIs to be included in a Sprint, as they can hinder progress and disrupt the team's workflow.
 :::
   
 ### INVEST principle
 
-The acronym INVEST serves as a helpful reminder of a widely accepted set of criteria, or checklist, used to evaluate the quality of a user story. If a story does not meet one of these criteria, the team may need to revise or even rewrite it for better clarity and effectiveness.
+The acronym INVEST serves as a helpful reminder of a widely accepted set of criteria, or checklist, used to evaluate the quality of a PBI. If a story does not meet one of these criteria, the team may need to revise or even rewrite it for better clarity and effectiveness.
 
-User Stories should follow the INVEST principle:
+PBIs should follow the INVEST principle:
 
 ::: greybox
 
@@ -64,6 +64,6 @@ User Stories should follow the INVEST principle:
 
 :::
 
-While acronyms like INVEST can seem over-elaborate, they offer a helpful framework to ensure consistency and clarity in evaluating User Stories.
+While acronyms like INVEST can seem over-elaborate, they offer a helpful framework to ensure consistency and clarity in evaluating PBIs.
 
 Following the update to the Scrum Guide for 2020, this is the concept of a Product Backlog being "Ready".
