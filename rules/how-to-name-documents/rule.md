@@ -50,7 +50,7 @@ Figure: Bad example - File name using spaces to separate words
 
 Know more on [removing spaces from your folders and file names](/remove-spaces-from-your-folders-and-filename).
 
-### ❌ Avoid dots
+### ❌ Avoid unnecessary dots
 
 Avoid using dots within filenames, as they can lead to potential issues with system processing, file recognition, and software compatibility. Dots are typically used to separate the name from the file extension (e.g., "document.pdf"), so additional dots can confuse systems, causing misinterpretation of the file type or errors when accessing the file
 
