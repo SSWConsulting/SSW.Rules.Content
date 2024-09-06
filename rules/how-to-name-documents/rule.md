@@ -29,6 +29,12 @@ When naming documents and images, use **descriptive words** and **kebab-case** 
 
 ## Naming files
 
+Following good practices when naming files ensures clarity, consistency, and efficiency, whether working individually or in a team. 
+
+### ❌ Avoid special characters
+
+Refrain from using special characters like / \ ? % * : | " < >. These can cause errors on certain systems.
+
 ### ✅ Use relevant words
 
 The file name and its title is regarded more highly by search than the content within documents. Also, the file name is what is displayed in search results, so by making it descriptive you are making it easier for people to identify the purpose of your document.
