@@ -20,13 +20,13 @@ In line with the statement above, all photographs should be stored in JPG format
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example – Low quality JPG (11.87k)](Screen-JPGQuality1.jpg)  
+![Figure: Bad Example – Low quality JPG (11.87k)](Screen-JPGQuality1_1725590550926.jpg)  
 :::
 
 ::: bad  
-![Figure: Bad Example – Uncompressed JPG (159.6k)](Screen-JPGQuality2.jpg)  
+![Figure: Bad Example – Uncompressed JPG (159.6k)](Screen-JPGQuality2_1725590550927.jpg)  
 :::
 
 ::: good  
-![Figure: Good Example – Compressed JPG (59.6k)](Screen-JPGQuality3.jpg)  
+![Figure: Good Example – Compressed JPG (59.6k)](Screen-JPGQuality3_1725590550928.jpg)  
 :::
