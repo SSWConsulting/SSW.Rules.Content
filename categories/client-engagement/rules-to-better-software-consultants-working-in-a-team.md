@@ -53,8 +53,9 @@ index:
 - do-you-use-source-control-and-backups
 - do-you-use-voice-recordings-when-appropriate
 - efficiency-do-you-use-two-monitors
-- do-you-use-suspend-on-your-notebook
+- hand-over-responsibilities
 - efficiency-do-you-always-try-to-work-in-pairs-1
+- collaborate-across-timezones
 - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 - quality-do-you-implement-an-error-logger-that-has-notifications
 - request-a-test-please
@@ -80,6 +81,7 @@ index:
 - efficiency-do-you-always-try-to-work-in-pairs
 - gather-team-opinions
 - call-your-system-administrators-before-raising-a-ticket
-- hand-over-responsibilities
+- do-you-use-suspend-on-your-notebook
+
 ---
  
