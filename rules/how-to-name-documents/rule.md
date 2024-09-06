@@ -34,6 +34,7 @@ When naming documents and images, use **descriptive words** and **kebab-case** 
 The file name and its title is regarded more highly by search than the content within documents. Also, the file name is what is displayed in search results, so by making it descriptive you are making it easier for people to identify the purpose of your document.
 
 ## Formatting file names
+
 Once you have chosen the best words, make it readable and consistent in formatting:
 
 ### ❌ Avoid spaces
