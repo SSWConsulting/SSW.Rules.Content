@@ -29,7 +29,7 @@ When naming documents and images, use **descriptive words** and **kebab-case** 
 
 ## Naming files
 
-Following good practices when naming files ensures clarity, consistency, and efficiency, whether working individually or in a team. 
+Following good practices when naming files ensures clarity, consistency, and efficiency, whether working individually or in a team.
 
 ### ❌ Avoid special characters
 
