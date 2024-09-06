@@ -51,16 +51,15 @@ When the PBI is approved, [ask for a signature (or simply an initial) as a prove
 
 The acronym INVEST serves as a helpful reminder of a widely accepted set of criteria, or checklist, used to evaluate the quality of a PBI. If a story does not meet one of these criteria, the team may need to revise or even rewrite it for better clarity and effectiveness.
 
+::: greybox
 PBIs should follow the INVEST principle:
 
-::: greybox
-
-**"I" ndependent** (of all others)
-**"N" egotiable** (not a specific contract for features)
-**"V" aluable** (or vertical)
-**"E" stimable** 👑 (to a good approximation)
-**"S" mall** (so as to fit within an iteration)
-**"T" estable** 👑 (in principle, even if there isn’t a test for it yet)  
+**"I" ndependent** (of all others)   
+**"N" egotiable** (not a specific contract for features)   
+**"V" aluable** (or vertical)   
+**"E" stimable** 👑 (to a good approximation)   
+**"S" mall** (so as to fit within an iteration)   
+**"T" estable** 👑 (in principle, even if there isn’t a test for it yet)     
 
 :::
 
