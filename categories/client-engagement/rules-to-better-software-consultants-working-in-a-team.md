@@ -54,7 +54,7 @@ index:
 - do-you-use-voice-recordings-when-appropriate
 - efficiency-do-you-use-two-monitors
 - do-you-use-suspend-on-your-notebook
-- efficiency-do-you-always-try-to-work-in-pairs-1
+- work-in-pairs
 - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 - quality-do-you-implement-an-error-logger-that-has-notifications
 - request-a-test-please
