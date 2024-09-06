@@ -61,6 +61,10 @@ monthly.report.docx
 Figure: Bad example - File name using dots to separate words
 :::
 
+::: info
+**Note:** `.drawio.svg` and `.drawio.png` are valid svg/png images that contain an embedded **Draw.io** diagram. For these files, the extra dot is OK. More information on [Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio).
+:::
+
 ### ❌ Avoid CamelCase
 
 ::: greybox
