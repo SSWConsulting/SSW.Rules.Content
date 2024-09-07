@@ -4,7 +4,7 @@ title: GPT - Do you use the system prompt?
 uri: use-system-prompt
 authors:
   - title: Jack Reimers
-    url: https://www.ssw.com.au/people/jack-reimers
+    url: https://www.ssw.com.au/people/alumni/jack-reimers/
 created: 2023-09-28T12:00:00.000Z
 guid: d98b6b99-28a2-4be3-8095-6f5c45094a98
 ---
