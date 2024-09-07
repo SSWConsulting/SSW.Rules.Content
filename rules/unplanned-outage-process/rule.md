@@ -1,4 +1,5 @@
 ---
+seoDescription: Unplanned outage process for SysAdmins to ensure minimal disruption to business operations while resolving hardware and service outages.
 type: rule
 title: Outage - Do you have an unplanned outage process?
 uri: unplanned-outage-process
@@ -9,13 +10,12 @@ authors:
     url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg
 related:
- - planned-outage-process
+  - planned-outage-process
 redirects:
   - do-you-have-an-unplanned-outage-process
 created: 2021-01-07T13:16:27.000Z
 archivedreason: null
 guid: d96278bc-f927-4079-ba6c-c0b3c9a49b0d
-
 ---
 
 During your course of being a SysAdmin, you will come across many unplanned outages. Some of them will impact BAU (Business as usual) and others will just be minor service outages. Do you know what to do in the event of these outages?
@@ -30,19 +30,19 @@ Below is a process for these types of outages. Some amount of common sense is re
 
 Hardware Outage:
 
-* Firewall
-* Switch
-* Blade Servers
-* SAN Storage
-* UPS
+- Firewall
+- Switch
+- Blade Servers
+- SAN Storage
+- UPS
 
 Service Outage:
 
-* Active Directory Domain Services
-* O365 Services; Teams, SharePoint, Exchange, OneDrive
-* File Servers
-* SQL Servers
-* IIS Servers
+- Active Directory Domain Services
+- O365 Services; Teams, SharePoint, Exchange, OneDrive
+- File Servers
+- SQL Servers
+- IIS Servers
 
 ### Determining what services are disrupted
 
@@ -71,19 +71,19 @@ If you cannot reach anyone move on to the Email section.
 If from the previous discussion you have determined that an email needs to be sent to your entire company, or you have decided this is necessary if you cannot contact anyone above, send an email in the following format:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | SSWAll |
+| To: | SSWAll |
 | Subject: | SysAdmins – Outage Notice |
-::: email-content  
+::: email-content
 
 ### Hi All
 
 We are experiencing an outage and the following services have been affected:
 
-* XXX
-* YYY
-* ZZZ
+- XXX
+- YYY
+- ZZZ
 
 We are working on restoring these services and will keep you updated.
 
@@ -96,11 +96,11 @@ SysAdmins
 A separate email needs to be sent to SysAdmins outlining what was discussed on the call. If no one was contactable, please proceed with what you have determined on your own.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | SysAdmins |
+| To: | SysAdmins |
 | Subject: | SysAdmins – Outage Notice |
-::: email-content  
+::: email-content
 
 ### Hi Team
 
@@ -108,15 +108,15 @@ As per our conversation,
 
 The following services are disrupted:
 
-* XXX
-* YYY
-* ZZZ
+- XXX
+- YYY
+- ZZZ
 
 The impact of these services disrupted are:
 
-* XXX
-* YYY
-* ZZZ
+- XXX
+- YYY
+- ZZZ
 
 We have decided that an email to ALL is/is not required.
 

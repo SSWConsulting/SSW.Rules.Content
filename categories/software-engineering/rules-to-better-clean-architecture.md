@@ -6,7 +6,7 @@ uri: rules-to-better-clean-architecture
 index:
 - the-main-principles-of-clean-architecture
 - the-best-clean-architecture-learning-resources
-- clean-architecture-the-best-way-to-get-started
+- clean-architecture-get-started
 - keep-your-domain-layer-independent-of-the-data-access-concerns
 - keep-business-logic-out-of-the-presentation-layer
 - how-to-improve-the-discoverability-of-your-mediatr-requests
@@ -17,6 +17,9 @@ index:
 - when-to-use-domain-and-integration-events
 - cloud-architect
 - use-the-mediator-pattern-with-cqrs
+- software-architecture-decision-tree
+- use-specification-pattern
+- anemic-vs-rich-domain-models
 
 ---
 SSW implements strict standards on all code produced. Implementing strict coding standards means your code can be easily read, modified, and tested. The Clean Architecture rules aim to have a strong .NET API, as a robust backend is more critical than a front end, whether in Angular, React, Vue, or Blazor.

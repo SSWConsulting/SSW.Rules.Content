@@ -22,6 +22,7 @@ index:
 - do-you-know-to-try-to-use-the-content-query-web-part-cqwp-over-the-data-view-web-part-dvwp
 - do-you-know-what-is-broken-in-workflow
 - do-you-use-sharepoint-designer-well
+- style-files-for-deployment-in-sharepoint
 - do-you-always-use-site-columns-instead-of-list-columns
 - do-you-know-when-to-use-caml-instead-of-object-model
 - do-you-know-when-to-use-smartpart-or-webpart
@@ -68,10 +69,11 @@ index:
 - the-best-forms-solution
 - reduce-diagnostic-logging-level-after-configure-hybrid-search
 - do-you-turn-off-auto-update-on-your-servers
+- do-you-get-rid-of-legacy-items-in-sharepoint-online
 - do-you-use-the-right-service-in-sharepoint-2013
 - never-dispose-objects-from-spcontext-current
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
-- consistent-sharepoint-site
+- consistent-sharepoint-sites
 - best-sharepoint-navigation
 
 ---

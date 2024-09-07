@@ -1,16 +1,16 @@
 ---
+seoDescription: Don't rely on JavaScript for crucial actions, ensuring your website remains accessible and usable without it, as an estimated 2% of users may have JavaScript disabled.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid relying on Javascript for crucial actions?
 guid: f93855fc-baa6-4e3a-9e97-3c466d614e98
 uri: do-you-avoid-relying-on-javascript-for-crucial-actions
 created: 2012-07-24T18:11:08.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
-
 ---
 
 Don't assume JavaScript is always enabled.
@@ -21,8 +21,7 @@ JavaScript should be used to enhance the overall user experience and not as a de
 
 JavaScript is very useful for improving user-interaction, along with reducing the number of requests made on the server; but it can be disabled - an estimated 2% of web users do not have JavaScript enabled
 
-Depending on your audience you may choose to disregard this rule, but for mainstream websites it is highly recommended that you don't rely on JavaScript for crucial actions, such as  **validation** or  **business-logic** purposes. Do a server-side validation instead.
-
+Depending on your audience you may choose to disregard this rule, but for mainstream websites it is highly recommended that you don't rely on JavaScript for crucial actions, such as **validation** or **business-logic** purposes. Do a server-side validation instead.
 
 ::: greybox
 

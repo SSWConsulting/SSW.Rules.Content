@@ -1,17 +1,17 @@
 ---
+seoDescription: Synchronize Azure Active Directory passwords with your on-premises AD to enable seamless login and access cloud services.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have Azure Active Directory Password Hash Synchronization activated?
 guid: 30b0179b-4a85-4aed-9f56-ada07a8ca067
 uri: have-azure-active-directory-password-hash-synchronization-activated
 created: 2020-11-13T00:12:28.0000000Z
 authors:
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
-- do-you-have-azure-active-directory-password-hash-synchronization-activated
-
+  - do-you-have-azure-active-directory-password-hash-synchronization-activated
 ---
 
 Azure Active Directory (AAD) Password Hash Synchronization (PHS) is one of the methods you can use if you want to have your identities synced to the cloud, alongside Pass-through Authentication (PTA) and Federation with AD FS.
@@ -24,7 +24,6 @@ AAD PHS synchronizes the password in on-premises AD with AAD so you can use your
 AAD PHS also allows you to have an absolute lean infrastructure on-premises, as the only needed moving part is Azure AD Connect Sync to be installed in a server or Domain Controller. No agents or internet-facing machines necessary.
 
 The web requests don't even come to your server, they are server by Microsoft's big pool of servers around the globe!
-
 
 ::: good  
 ![Figure: Good Example – AAD PHS infrastructure workflow](aad-phs.png)  

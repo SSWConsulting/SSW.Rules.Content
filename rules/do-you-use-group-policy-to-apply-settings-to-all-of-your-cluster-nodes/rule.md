@@ -1,16 +1,16 @@
 ---
+seoDescription: Consistently manage cluster node settings using group policy to ensure uniformity across all nodes.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use group policy to apply settings to all of your cluster nodes?
 guid: 9a9c8925-bfc8-4463-ae14-2b9daa471a3e
 uri: do-you-use-group-policy-to-apply-settings-to-all-of-your-cluster-nodes
 created: 2012-03-02T18:43:20.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Don't log in and make manual changes to the clustered nodes.

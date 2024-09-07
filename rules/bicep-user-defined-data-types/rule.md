@@ -1,4 +1,5 @@
 ---
+seoDescription: User-defined data types in Bicep enable developers to create custom data structures, enhancing code organization, type safety, and maintainability.
 type: rule
 title: Bicep - Do you use User-defined Data Types?
 guid: 2a3ba816-ba40-4cfe-8193-7e151e038ac5
@@ -10,7 +11,6 @@ authors:
 related: []
 redirects: []
 archivedreason: null
-
 ---
 
 [User-defined data types in Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/user-defined-data-types) allow you to create custom data structures for better code organization and type safety. They enhance reusability, abstraction, and maintainability within projects.
@@ -19,7 +19,7 @@ archivedreason: null
 
 When creating a cloud resource, numerous parameters are typically required for configuration and customization. Organizing and naming these parameters effectively is increasingly important.
 
-``` bicep
+```bicep
 @allowed(['Basic', 'Standard'])
 param skuName string = 'Basic'
 @allowed([5, 10, 20, 50, 100])
@@ -31,7 +31,7 @@ param skuSizeInGB int = 2
 Bad example - Relying on parameter prefixes and order leads to unclear code, high complexity, and increased maintenance effort
 :::
 
-``` bicep
+```bicep
 param sku object
 ```
 
@@ -39,7 +39,7 @@ param sku object
 Bad example - When declaring a parameter as an untyped object, bicep cannot validate the object's properties and values at compile time, risking runtime errors.
 :::
 
-``` bicep
+```bicep
 // User-defined data type
 type skuConfig = {
   name: 'Basic' | 'Standard'

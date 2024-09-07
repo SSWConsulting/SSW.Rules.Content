@@ -10,7 +10,9 @@ index:
 - page-indexed-by-google
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
+- seo-tools
 - monitor-seo-effectively
+- report-seo-results
 - seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
 - responsive-design
@@ -42,7 +44,6 @@ index:
 - register-your-domain-for-a-long-time
 - spelling-do-you-use-us-english
 - know-the-iis-things-to-do
-- fix-ugly-urls
 - html-meta-tags
 - use-subdirectories-not-domains
 - website-heatmaps

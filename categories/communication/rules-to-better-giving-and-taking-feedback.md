@@ -25,6 +25,8 @@ index:
 - unsolicited-feedback
 - accepting-unsolicited-feedback
 - disagreeing-with-powerful-stakeholders
+- separate-urge-from-behavior
+
 ---
 
 Before giving feedback to someone, always ask yourself:

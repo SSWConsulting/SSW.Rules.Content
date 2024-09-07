@@ -1,30 +1,31 @@
 ---
 type: rule
-archivedreason: 
 title: Do you know the Specification Review deliverables?
-guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
+seoDescription: Know the Specification Review deliverables to get a realistic
+  estimate and roadmap for your software development project.
 uri: spec-do-you-create-an-initial-release-plan-and-ballpark
-created: 2009-02-26T02:02:12.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
 related: []
 redirects:
-- spec-what-are-the-specification-review-deliverables
-
+  - spec-what-are-the-specification-review-deliverables
+created: 2009-02-26T02:02:12.000Z
+archivedreason: null
+guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 ---
-
 Usually, a specification process is done with the client before beginning work on a project, just like you would never build a house without getting an architect to create a plan.
- 
-As you might appreciate, it is not realistic to understand the complexity of your system and give you a realistic estimate after a brief meeting. Our experience tells us we will need to spend a few days to obtain and document the requirements from your project’s stakeholders. This will help you turn your ideas into a more detailed roadmap. 
+
+As you might appreciate, it is not realistic to understand the complexity of your system and give you a realistic estimate after a brief meeting. Our experience tells us we will need to spend a few days to obtain and document the requirements from your project’s stakeholders. This will help you turn your ideas into a more detailed roadmap.
 
 <!--endintro-->
-
-![Figure: Remember... a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](ProjectManagement\_BallPark\_Catch.jpg)  
+::: img-medium
+![Figure: Remember... a batter aims to hit the ball way out of the ballpark. Don't set an indefensible boundary too early by estimating too small](baseballer.jpg)
+:::
 
 The deliverables for the Specification Review depend upon how large the application is and the time we have spent on the review. You should have the following:
 

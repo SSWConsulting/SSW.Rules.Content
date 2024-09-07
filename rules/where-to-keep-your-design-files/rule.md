@@ -1,24 +1,24 @@
 ---
+seoDescription: Design files stored incorrectly can lead to version control issues and collaboration challenges.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know where to keep your design files?
 guid: 77730639-c6a0-490a-8892-a96e56b25f7d
 uri: where-to-keep-your-design-files
 created: 2014-03-03T04:11:03.0000000Z
 authors:
-- title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  - title: Rebecca Liu
+    url: https://ssw.com.au/people/rebecca-liu
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ken Shi
+    url: https://ssw.com.au/people/ken-shi
 related:
-- software-for-product-design
-- hand-over-mockups-to-developers
-- version-control-software-for-designers
-redirects: 
-- do-you-know-the-best-source-control-for-designers
-
+  - software-for-product-design
+  - hand-over-mockups-to-developers
+  - version-control-software-for-designers
+redirects:
+  - do-you-know-the-best-source-control-for-designers
 ---
 
 Design files should never be stored in Azure DevOps (was VSTS/TFS) or any other development file system.

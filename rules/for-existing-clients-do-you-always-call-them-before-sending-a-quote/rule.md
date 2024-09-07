@@ -1,21 +1,21 @@
 ---
+seoDescription: Existing clients already impressed with your work deserve a personalized touch before sending quotes, ensuring they receive and review estimates promptly.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you always call existing clients before sending a quote?
 guid: e9b36dc7-38ca-4e8d-8d43-30a346017f4d
 uri: for-existing-clients-do-you-always-call-them-before-sending-a-quote
 created: 2010-07-16T04:23:52.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-If you have an existing client, who is already impressed with your work, you don't need to go to the trouble of meeting then to show them an estimate. However, you should at least call them. When you're competing for someone's business, what could be worse than losing the work simply because the client either didn't receive your email, or was too busy to read it? For this reason, always call the client before you send a quote. This way, they know you are about to send them something so will look out for it.  
-<!--endintro-->
+If you have an existing client, who is already impressed with your work, you don't need to go to the trouble of meeting then to show them an estimate. However, you should at least call them. When you're competing for someone's business, what could be worse than losing the work simply because the client either didn't receive your email, or was too busy to read it? For this reason, always call the client before you send a quote. This way, they know you are about to send them something so will look out for it.
 
+<!--endintro-->
 
 ::: greybox
 

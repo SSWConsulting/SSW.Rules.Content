@@ -6,6 +6,7 @@ uri: rules-to-better-software-consultants-dealing-with-clients
 index:
 - being-a-good-consultant
 - elevator-pitch
+- pitch-a-product
 - do-you-prioritize-your-existing-clients-over-prospective-ones
 - do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
 - do-you-always-follow-up-your-clients
@@ -25,6 +26,8 @@ index:
 - give-clients-a-warm-welcome
 - meetings-are-you-clear-about-billable-time-in-meetings
 - meetings-do-you-go-to-meetings-prepared
+- recognize-anchoring-effects
+- uncover-hidden-anchor-client
 - do-you-know-the-difference-between-a-brief-proposal-and-a-specification-review
 - for-new-prospects-do-you-always-meet-them-to-show-them-an-estimate
 - meetings-do-you-exchange-names-in-meetings
@@ -52,7 +55,7 @@ index:
 - for-the-record
 - do-you-know-how-to-handover-a-sales-enquiry-to-a-sales-person
 - do-you-not-interrupt-people-when-they-are-in-the-zone
-- do-you-build-the-client-relationship-by-completing-client-love-each-week-aka-customer-love
+- weekly-client-love
 - use-browser-profiles
 - cc-the-client-whenever-possible
 - use-backchannels-effectively

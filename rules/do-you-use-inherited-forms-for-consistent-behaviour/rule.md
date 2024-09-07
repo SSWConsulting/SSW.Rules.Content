@@ -1,4 +1,5 @@
 ---
+seoDescription: Master consistent behavior in .NET Windows Forms by utilizing inherited forms and implementing best practices for design and coding.
 type: rule
 title: Do you use inherited forms for consistent behaviour?
 uri: do-you-use-inherited-forms-for-consistent-behaviour
@@ -13,22 +14,20 @@ If you ask a new .NET developer (from the Access or VB6 world) what is the best 
 
 <!--endintro-->
 
-If you can keep the level of form inheritance to a minimum, then you may not see the problem or at least you will experience the problem less. Anyway even if you do, stop whinging and just close down Visual Studio.NET and restart. You don't change the base form that often anyway.     
+If you can keep the level of form inheritance to a minimum, then you may not see the problem or at least you will experience the problem less. Anyway even if you do, stop whinging and just close down Visual Studio.NET and restart. You don't change the base form that often anyway.
 
 Well how do you keep it to a minimum? Well make the first base form without any controls, only code (to make it as flexible as possible and avoid having a multitude of base forms).
 
 We try to keep the number of controls on inherited forms, and the levels of inheritance to a minimum, because it reduces the risk of problems with the Visual Studio Designer (you know when the controls start jumping around, or disappearing from the Designer, or properties getting reset on inherited copies or even the tab order getting corrupted). Designer errors can also occur in the task list if the **InitializeComponent** method fails.
 
-Every form in your application should inherit from a base form which has code common to every form, for example: 
+Every form in your application should inherit from a base form which has code common to every form, for example:
 
 * Company Icon
 * Remembering its size and location - Code sample <span style="background-color: red">to come</span> in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit)
 * Adding itself to a global forms collection if SDI (to find forms that are already open, or to close all open forms)
-* Logging usage frequency and performance of forms (load time)                                                     
+* Logging usage frequency and performance of forms (load time)
 
 ![Figure: Base Form for all SSW applications with SSW icon](baseform.gif)
-
-
 
 a) Sorting out the **StartPosition**:
 

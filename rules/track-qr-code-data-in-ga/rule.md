@@ -1,4 +1,5 @@
 ---
+seoDescription: Track QR code data in Google Analytics by adding UTM parameters to URLs and use the Campaign URL Builder tool to measure custom campaigns and gain insights into user behavior.
 type: rule
 title: Do you track QR codes' data for your own URLs in Google Analytics?
 uri: track-qr-code-data-in-ga
@@ -8,6 +9,7 @@ authors:
 created: 2023-05-11T01:26:19.889Z
 guid: dd810edd-10ea-4b6f-af61-02f2bcf40b46
 ---
+
 To ensure you are tracking the traffic taken to your website from a QR code, it's important to add UTM parameters to the URLs you are using to create your QR codes.
 
 This will allow you to see users, bounce rate, sessions, events, conversions and more in Google Analytics.
@@ -16,7 +18,7 @@ This will allow you to see users, bounce rate, sessions, events, conversions and
 >
 > Source: [Wikipedia](https://en.wikipedia.org/wiki/UTM_parameters#:~:text=The%20UTM%20parameters%20in%20a,and%20used%20to%20populate%20reports.)
 
-**Important:** this only works for your own domain or domains that you have access to in your Google Analytics account.  
+**Important:** this only works for your own domain or domains that you have access to in your Google Analytics account.
 
 <!--endintro-->
 

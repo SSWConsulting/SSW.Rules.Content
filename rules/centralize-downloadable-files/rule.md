@@ -1,4 +1,5 @@
 ---
+seoDescription: Centralize downloadable files to simplify organization, updating, and tracking of content while improving website performance and accessibility.
 type: rule
 title: Do you centralize downloadable files?
 uri: centralize-downloadable-files
@@ -14,6 +15,7 @@ related:
 created: 2024-01-04T05:00:00.000Z
 guid: c1fd3db5-3138-40e3-9fdf-e67165717926
 ---
+
 Efficient management of downloadable content, like PDFs and documents, is a critical component of website maintenance. Simplify the process of making files public on your website by following these guidelines.
 
 <!--endintro-->

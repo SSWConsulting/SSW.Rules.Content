@@ -1,6 +1,7 @@
 ---
+seoDescription: SQL Server CPU pressure solutions include throwing hardware at the problem, updating index statistics, identifying high and poor-performing queries, and adding missing indexes.
 type: rule
-archivedreason: 
+archivedreason:
 title: What to do about SQL Server CPU Pressure?
 guid: 870f4673-3a45-48d9-b73d-14921a77bc70
 uri: sql-server-cpu-pressure
@@ -8,12 +9,13 @@ created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
-related: 
+related:
   - identify-sql-performance-sql-server
   - identify-sql-performance-azure
   - sql-server-memory-pressure
   - sql-server-io-pressure
 ---
+
 So you've identified that your SQL Server is under CPU pressure. What can you do about it?
 
 <!--endintro-->
@@ -34,7 +36,7 @@ In many situations, the problem is poorly specifying the hardware configuration 
 
 This can be achieved by
 
-``` sql
+```sql
 exec sp_updatestats
 ```
 
@@ -57,7 +59,7 @@ SELECT TOP 10 s.session_id,
                 WHEN -1 THEN DATALENGTH(st.TEXT)
                 ELSE r.statement_end_offset
             END - r.statement_start_offset) / 2) + 1) AS statement_text,
-           COALESCE(QUOTENAME(DB_NAME(st.dbid)) + N'.' + QUOTENAME(OBJECT_SCHEMA_NAME(st.objectid, st.dbid)) 
+           COALESCE(QUOTENAME(DB_NAME(st.dbid)) + N'.' + QUOTENAME(OBJECT_SCHEMA_NAME(st.objectid, st.dbid))
            + N'.' + QUOTENAME(OBJECT_NAME(st.objectid, st.dbid)), '') AS command_text,
            r.command,
            s.login_name,
@@ -74,7 +76,7 @@ ORDER BY r.cpu_time DESC
 
 If queries aren't driving the CPU currently, try the following query.
 
-``` sql
+```sql
 SELECT TOP 10 st.text AS batch_text,
     SUBSTRING(st.TEXT, (qs.statement_start_offset / 2) + 1, ((CASE qs.statement_end_offset WHEN - 1 THEN DATALENGTH(st.TEXT) ELSE qs.statement_end_offset END - qs.statement_start_offset) / 2) + 1) AS statement_text,
     (qs.total_worker_time / 1000) / qs.execution_count AS avg_cpu_time_ms,
@@ -91,7 +93,7 @@ ORDER BY (qs.total_worker_time / qs.execution_count) DESC
 
 Indexes can dramatically improve query performance. SQL Server has inbuilt mechanisms to try and identify indexes that would aid a particular query. Running the following SQL identifies the 50 queries consuming the most CPU where SQL Server has identified that there is potentially a missing index.
 
-``` sql
+```sql
 SELECT
     qs_cpu.total_worker_time / 1000 AS total_cpu_time_ms,
     q.[text],
@@ -106,7 +108,7 @@ FROM
      qs.execution_count FROM sys.dm_exec_query_stats qs ORDER BY qs.total_worker_time DESC) AS qs_cpu
 CROSS APPLY sys.dm_exec_sql_text(plan_handle) AS q
 CROSS APPLY sys.dm_exec_query_plan(plan_handle) p
-WHERE p.query_plan.exist('declare namespace 
+WHERE p.query_plan.exist('declare namespace
         qplan = "http://schemas.microsoft.com/sqlserver/2004/07/showplan";
         //qplan:MissingIndexes')=1
 ```
@@ -119,10 +121,10 @@ This is super useful for giving suggestions. Otherwise, you may need to manually
 
 Try running
 
-``` sql
+```sql
 DBCC FREEPROCCACHE
 ```
 
 This will empty the plan cache. If this resolves the issue, then it's probably a parameter-sensitive problem.
 
-*Note* DBCC is an acronym for Database Console Command and identifies things that do not denote structured queries.
+_Note_ DBCC is an acronym for Database Console Command and identifies things that do not denote structured queries.

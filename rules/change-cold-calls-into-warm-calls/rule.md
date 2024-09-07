@@ -1,17 +1,17 @@
 ---
+seoDescription: Convert cold calls into warm calls by sending prospects an email out, allowing them to decide if it's of interest to them.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you change cold calls into warm calls?
 guid: e88544da-4ecf-4dfc-ae8c-1194f5240054
 uri: change-cold-calls-into-warm-calls
 created: 2018-04-10T00:26:29.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-change-cold-calls-into-warm-calls
-
+  - do-you-change-cold-calls-into-warm-calls
 ---
 
 Sometimes if your cold calling isn't working, no matter how much you try or how great your list is, you might need to convert your cold calls into warm calls. In a nutshell, a warm call is a cold call where the prospect has exposure to your company or what you're trying to sell.

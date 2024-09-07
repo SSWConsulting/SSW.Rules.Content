@@ -1,21 +1,21 @@
 ---
+seoDescription: Giving people a second chance to learn from their mistakes and grow can be a powerful way to build trust and foster a positive work environment.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you give people a second chance?
 guid: abdaf169-60b3-4eae-bf70-1c8de5ffa3b9
 uri: do-you-give-people-a-second-chance
 created: 2012-09-25T17:56:02.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 ::: greybox
 
-"A great man shows his greatness," said Carlyle, "by the way he treats little men". Bob Hoover, a famous test pilot and frequent performer at air shows, was returning to his home in Los Angeles from an air show in San Diego. As described in the magazine *Flight Operations*, at three hundred feet in the air, both engines suddenly stopped. By deft manoeuvring he managed to land the plane, but it was badly damaged although nobody was hurt.
+"A great man shows his greatness," said Carlyle, "by the way he treats little men". Bob Hoover, a famous test pilot and frequent performer at air shows, was returning to his home in Los Angeles from an air show in San Diego. As described in the magazine _Flight Operations_, at three hundred feet in the air, both engines suddenly stopped. By deft manoeuvring he managed to land the plane, but it was badly damaged although nobody was hurt.
 
 Hoover's first act after the emergency landing was to inspect the airplane's fuel. Just as he suspected, the World War II propeller plane he had been flying had been fuelled with jet fuel rather than gasoline.
 
@@ -31,12 +31,9 @@ To err is human and it happens to the best of us. When a mistake happens, getti
 
 This story from Adam Cogan is a good example of this:
 
-
 ::: greybox
 One of my staff, I won't tell you Edward's last name 😉, offered to help clean up my laptop by backing up my files, reformatting and starting from scratch. For some reason or another, all of my emails and client work were destroyed. Naturally, I was upset, but instead of coming down on him like a ton of bricks, I:
-1. Went through the steps he took;
-2. Identified where he did not do what he was supposed to; and
-3. Showed him the company standard for backups.
+1. Went through the steps he took; 2. Identified where he did not do what he was supposed to; and 3. Showed him the company standard for backups.
 
 By giving him a second chance, I ensured that he and others would not make the same mistake again, without making him feel any worse than he already did.
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Most popular unit testing frameworks for .NET applications include xUnit, NUnit, and MSTest, each with its own strengths and syntax.
 type: rule
 title: Do you know the most popular unit and integration testing frameworks for .NET applications?
 uri: testing-tools
@@ -17,11 +18,12 @@ created: 2020-03-16T20:05:20.000Z
 archivedreason: null
 guid: c7465c5f-45be-4185-ade6-836ff4d6b633
 ---
+
 There are three main frameworks for unit testing. The good news is that they are all acceptable choices:
 
-* They all have test runner packages for running tests directly from Visual Studio
-* They all have console-based runners that can run tests as part of a CI/CD pipeline
-* They differ slightly in syntax and feature set
+- They all have test runner packages for running tests directly from Visual Studio
+- They all have console-based runners that can run tests as part of a CI/CD pipeline
+- They differ slightly in syntax and feature set
 
 <!--endintro-->
 
@@ -37,9 +39,9 @@ xUnit.net is the default choice for .NET Core web applications and APIs at SSW.
 
 ### NUnit
 
-The [NUnit](https://github.com/nunit/docs) project deserves recognition for being the first powerful and open-source unit test framework for the .NET universe – and it’s still a solid choice today. 
+The [NUnit](https://github.com/nunit/docs) project deserves recognition for being the first powerful and open-source unit test framework for the .NET universe – and it’s still a solid choice today.
 
-NUnit has undergone large changes in the last 10 years with its NUnit3 version.  The most notable is the Assert Constraints, which is a built-in Fluent Assertion library, allowing you to write readable asserts like `Assert.That(x, Is.EqualTo(42).Within(0.1))`. It has also adopted the lifetime scopes of XUnit, but you can choose which one to use. 
+NUnit has undergone large changes in the last 10 years with its NUnit3 version. The most notable is the Assert Constraints, which is a built-in Fluent Assertion library, allowing you to write readable asserts like `Assert.That(x, Is.EqualTo(42).Within(0.1))`. It has also adopted the lifetime scopes of XUnit, but you can choose which one to use.
 
 NUnit differs from XUnit in being more flexible and more adaptable versus XUnit being more restrictive and opinionated.
 
@@ -55,7 +57,7 @@ Because NUnit has an open-source .NET UI control for running tests, NUnit is s
 
 ### TestContainers for .NET
 
-[Testcontainers for .NET!](https://dotnet.testcontainers.org/) is a library that enables C# .NET developers to create, manage, and dispose of throwaway instances of database systems or other software components within Docker containers for the purpose of automated testing. 
+[Testcontainers for .NET!](https://dotnet.testcontainers.org/) is a library that enables C# .NET developers to create, manage, and dispose of throwaway instances of database systems or other software components within Docker containers for the purpose of automated testing.
 
 It provides a programmatic API to spin up and tear down containers, ensuring a clean and isolated environment for each test run. Testcontainers supports various containers, including databases like SQL Server, PostgreSQL, and MongoDB, as well as other services like Redis, Kafka, and more, making it a versatile tool for integration testing in a .NET environment.
 

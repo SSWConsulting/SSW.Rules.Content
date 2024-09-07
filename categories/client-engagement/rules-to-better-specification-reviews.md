@@ -25,7 +25,8 @@ index:
 - event-storming
 - event-storming-workshop
 - connect-crm-to-microsoft-teams
-- keep-PBIs-smaller-than-2-days
+- create-pbis-under-2-days
+- software-architecture-decision-tree
 
 ---
 

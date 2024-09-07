@@ -1,4 +1,5 @@
 ---
+seoDescription: Storing messages in a resource file allows for easy reusability and strong typing with IntelliSense in Visual Studio. This approach also enables better organization of constant values, making it easier to maintain and update your code.
 type: rule
 title: Do you use resource file to store messages?
 uri: use-resource-file-to-store-messages
@@ -12,6 +13,7 @@ created: 2018-04-25T23:19:47.000Z
 archivedreason: null
 guid: fce44252-62d0-45b3-b459-4e7014bef61e
 ---
+
 All messages are stored in one central place so it's easy to reuse. Furthermore, it is strongly typed - easy to type with IntelliSense in Visual Studio.
 
 <!--endintro-->
@@ -33,5 +35,5 @@ Module Startup Sub Main() Console.Write(My.Resources.Messages.Constant_HelloWorl
 ```
 
 ::: good
-Good example of a constant message 
+Good example of a constant message
 :::

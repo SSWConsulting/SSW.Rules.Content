@@ -1,4 +1,5 @@
 ---
+seoDescription: Appoint a new time with ease and efficiency using Outlook's "Propose New Time" feature.
 type: rule
 title: Appointments - Do you know how to propose a new time?
 uri: use-propose-new-time

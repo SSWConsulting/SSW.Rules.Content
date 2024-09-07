@@ -1,4 +1,5 @@
 ---
+seoDescription: Simplify server management and enhance security with Windows Admin Center, a web-based tool for unified management of Windows Servers and computers.
 type: rule
 title: Do you use Windows Admin Center?
 uri: windows-admin-center
@@ -12,6 +13,7 @@ related:
 created: 2023-02-27T03:26:34.119Z
 guid: 0090b1a8-e578-4e34-8d08-d5306950670a
 ---
+
 Managing multiple servers and computers located at different locations can be challenging, which is why remote access is often used as a solution. Remote access allows you to remotely log in to a system, making it easier to manage server maintenance.
 
 <!--endintro-->

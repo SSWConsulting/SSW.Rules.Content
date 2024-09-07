@@ -1,4 +1,5 @@
 ---
+seoDescription: Check if your email address has been compromised in a data breach and get notified straight away with Have I Been Pwned's subscription service.
 type: rule
 title: Passwords - Do you check for data breach on haveibeenpwned?
 uri: subscribe-to-haveibeenpwned

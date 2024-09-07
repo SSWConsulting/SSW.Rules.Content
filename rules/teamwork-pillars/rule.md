@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the 5 pillars of exceptional teamwork, including trust and vulnerability, healthy conflict, commitment to decisions, accountability, and attention to results.
 type: rule
 title: Teamwork - Do you know the 5 pillars of teamwork?
 uri: teamwork-pillars

@@ -1,4 +1,5 @@
 ---
+seoDescription: Use numerals instead of words when writing numbers to improve readability and noticeability on your webpage.
 type: rule
 title: Numbers - Do you use numbers digits instead of words?
 uri: use-digits-instead-of-words
@@ -13,12 +14,11 @@ redirects:
 created: 2016-04-21T05:57:12.000Z
 archivedreason: null
 guid: cacddfdb-8ee8-4322-b4db-db071702b258
-
 ---
 
 Whenever writing numbers, it's generally a good idea to use numerals, especially for complicated numbers. Numerals are more easily noticed when a page is scanned by a user's eye.
 
-For example: 
+For example:
 
 <!--endintro-->
 

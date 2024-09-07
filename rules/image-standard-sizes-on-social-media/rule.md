@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you follow image standard sizes on social media? Learn how to optimize your visuals across all platforms with our comprehensive guide. From Facebook and Instagram to Twitter, LinkedIn, YouTube, and TikTok, we've got you covered!
 type: rule
 title: Do you follow image standard sizes on social media?
 uri: image-standard-sizes-on-social-media
@@ -18,7 +19,7 @@ archivedreason: null
 guid: 05a6c93d-e85c-43d0-a33a-857afad845ba
 ---
 
-For a better visual **across all your social media accounts,**, you should follow the standards that each platform requests. 
+For a better visual **across all your social media accounts,**, you should follow the standards that each platform requests.
 
 They have variations of sizes according to the placement, for example, banner, profile icon or a post. If you are creating an image for an advertising campaign on Facebook, they will offer you a hand full of placement options, like news feed, Facebook marketplace, video feeds, right column and many others.
 
@@ -30,39 +31,39 @@ As all of them will have different specifications, so it’s best to check their
 
 On [Twitter](https://www.twitter.com), we have the following variations for images:
 
-* Image post
-* Cover photo
-* Profile image
+- Image post
+- Cover photo
+- Profile image
 
 ### Instagram
 
 On [Instagram](https://www.instagram.com), we can have a lot of variations if we use all their placements. See next:
 
-* Image post can now be a variation of a square, vertical or horizontal photo
-* Stories
-* Reels
-* Profile image
+- Image post can now be a variation of a square, vertical or horizontal photo
+- Stories
+- Reels
+- Profile image
 
 ### Facebook
 
 On [Facebook](https://www.facebook.com), they have the following variations for images:
 
-* Image post
-* Images with Shared Links
-* Cover photo
-* Profile image
-* Facebook Stories post
+- Image post
+- Images with Shared Links
+- Cover photo
+- Profile image
+- Facebook Stories post
 
 ### Facebook Ads
 
 Besides following the size of the images on Facebook Ads, you should also have limited text on images as there’s a better chance of your design or video getting approved more easily. If you need more information about Ads placement, check [Facebook support](https://www.facebook.com/business/help/407108559393196?id=369787570424415) for clarification.
 
-* News Feed Ads, Marketplace Ads and Messenger Ads
-* Collection Ads
-* Carousel Ads
-* In-Stream Video Ads
-* Search results
-* Stories (Instagram, Facebook and Messenger)
+- News Feed Ads, Marketplace Ads and Messenger Ads
+- Collection Ads
+- Carousel Ads
+- In-Stream Video Ads
+- Search results
+- Stories (Instagram, Facebook and Messenger)
 
 ::: good
 ![Figure: Good example – Images for ads on Facebook and Instagram consistent with company's branding guidelines and also with the traning sub-branding](jason2.png)
@@ -72,24 +73,24 @@ Besides following the size of the images on Facebook Ads, you should also have l
 
 [LinkedIn](https://www.linkedin.com) is like Twitter and Facebook:
 
-* Business Profile image
-* Cover photo
-* Post image
-* LinkedIn stories post
+- Business Profile image
+- Cover photo
+- Post image
+- LinkedIn stories post
 
 ### YouTube
 
 On [YouTube](https://www.youtube.com), you will find:
 
-* Profile image
-* Cover Photo
-* Video Thumbnail
-* Shorts
-* YouTube stories post
+- Profile image
+- Cover Photo
+- Video Thumbnail
+- Shorts
+- YouTube stories post
 
 ### TikTok
 
 On **[TikTok](https://www.tiktok.com)** they have the following variations for images:
 
-* Profile photo size: 20 x 20 pixels (minimum size to upload)
-* Cover photo for your TikTok video (ideal ratio is 1:1 or 9:16)
+- Profile photo size: 20 x 20 pixels (minimum size to upload)
+- Cover photo for your TikTok video (ideal ratio is 1:1 or 9:16)

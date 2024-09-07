@@ -1,20 +1,20 @@
 ---
+seoDescription: Monitor company email health and security with Office 365 Security & Compliance's Mail Flow Map, outbound and inbound email counts, alerts, and queues for proactive issue detection.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you monitor company email?
 guid: 8e60ccdc-f1cd-494b-9c81-f6eff475e26f
 uri: do-you-monitor-company-email
 created: 2009-04-03T07:12:18.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
-
 ---
 
 If email is the property of the employer, then it makes sense to monitor the health of your emails and email server.

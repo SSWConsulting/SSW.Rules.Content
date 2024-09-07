@@ -20,8 +20,11 @@ index:
 - do-you-make-your-pages-easy-to-access
 - avoid-redundant-links
 - do-you-avoid-linking-a-page-to-itself
+- anchor-links
+- efficient-anchor-names
 - do-you-use-the-right-anchor-names
 - hyperlink-phone-numbers
+- add-callable-link
 - do-you-make-external-links-clear
 - external-links-open-on-a-new-tab
 - avoid-absolute-internal-links

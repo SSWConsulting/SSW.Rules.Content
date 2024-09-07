@@ -1,6 +1,7 @@
 ---
+seoDescription: Why Effective Communication on Microsoft Teams Matters for Client Relationships Boost client trust and engagement by leveraging Microsoft Teams as a primary communication channel.
 type: rule
-title: Do you know why it’s important to talk to clients on Teams? 
+title: Do you know why it’s important to talk to clients on Teams?
 uri: connect-client-im
 authors:
   - title: Asher Paris
@@ -40,9 +41,9 @@ Once you’ve arranged an Initial Meeting or before a Spec Review, follow these 
 
 ### If the client has an open tenant, you should send a welcome message in Teams
 
-:::  greybox
+::: greybox
 Hey thanks for the meeting. Feel free to ping me on Teams or by email any time if you have any questions 😀
-:::  
+:::
 
 **Figure: Send an email to your client confirming you will contact them through Teams**
 
@@ -51,11 +52,11 @@ Hey thanks for the meeting. Feel free to ping me on Teams or by email any time i
 ![Figure: Client with a closed tenant](https://github.com/SSWConsulting/SSW.Rules.Content/assets/147477898/c6cead28-1d2c-45e3-8e3f-d089447de683)
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | {{ CLIENT }} |
+| To: | {{ CLIENT }} |
 | Subject: | Communication via Microsoft Teams |  
-::: email-content  
+::: email-content
 
 ### Dear {{ CLIENT }}
 
@@ -70,6 +71,6 @@ Please copy them your IT into this email chain so I can request access.
 Thanks,
 {{ YOUR NAME }}
 :::  
-:::  
+:::
 
 **Figure: Send an email to your client requesting access to their organization's tenant**

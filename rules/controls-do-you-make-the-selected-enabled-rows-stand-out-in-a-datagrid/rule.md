@@ -1,4 +1,5 @@
 ---
+seoDescription: Make selected rows stand out in a datagrid by subtly dimming unselected text.
 type: rule
 title: Controls - Do you make the selected/enabled rows stand out in a datagrid?
 uri: controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
@@ -17,17 +18,17 @@ Many times you allow a multiple selection in a grid by using a checkbox. When yo
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - Selected rows are not separate from others.](../../assets/Interface\_Selected\_Rows\_Bad.JPG)  
+![Figure: Bad example - Selected rows are not separate from others.](../../assets/Interface_Selected_Rows_Bad.JPG)  
 :::
 
 ::: good  
-![Figure: Good example - Selected rows are separate from others.](../../assets/Interface\_Selected\_Rows\_Good.JPG)  
+![Figure: Good example - Selected rows are separate from others.](../../assets/Interface_Selected_Rows_Good.JPG)  
 :::
 
-To make this effect in datagrid, you may need to edit the  **cellcontentclick** event handler code. 
+To make this effect in datagrid, you may need to edit the **cellcontentclick** event handler code.
 Example:
 
-``` cs
+```cs
 private void DatagridviewRules_CellContentClick(object sender, DataGridViewCellEventArgs e) {
 
   if (DatagridviewRules.Columns[e.ColumnIndex] is DataGridViewCheckBoxColumn && e.ColumnIndex == 0 && e.RowIndex != -1) {
@@ -47,5 +48,5 @@ private void DatagridviewRules_CellContentClick(object sender, DataGridViewCellE
 
 }
 ```
- 
+
 Setting the ForeColor to different ones, like black and gray, can separate the selected rows from others.

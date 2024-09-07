@@ -1,4 +1,5 @@
 ---
+seoDescription: Maintain clarity and simplicity by centralizing conditional actions and concurrency controls in your main CI/CD workflow, ensuring streamlined and efficient pipeline management.
 type: rule
 title: Do you keep conditional actions and concurrency to the main workflow?
 uri: keep-conditional-actions-concurrency-main-workflow

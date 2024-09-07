@@ -11,6 +11,7 @@ index:
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 - send-a-thank-you-email-to-your-client
 - poc-vs-mvp
+- manage-urges
 
 ---
 

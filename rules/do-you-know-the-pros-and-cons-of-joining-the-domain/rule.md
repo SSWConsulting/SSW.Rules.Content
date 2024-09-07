@@ -1,4 +1,5 @@
 ---
+seoDescription: Joining your company's domain offers client management through GPOs, direct resource access, and automatic scripts, but lacks freedom and autonomy.
 type: rule
 title: Domain - Do you know the pros and cons of joining the domain?
 uri: do-you-know-the-pros-and-cons-of-joining-the-domain
@@ -11,11 +12,12 @@ created: 2018-11-20T00:56:28.000Z
 archivedreason: null
 guid: 68db3fb1-c43a-456d-9288-ababd8832f67
 ---
+
 Do you know if your computer should be joined to the domain or not?
 
 <!--endintro-->
 
-Joining your company's domain is a trade-off: 
+Joining your company's domain is a trade-off:
 
 Option #1: If you join the domain, the company is the one responsible for managing your device, so all company rules and policies will be applied to it (Windows Update frequency, users, password resets, etc) and you will need to go through your SysAdmins if you have troubles with it.
 

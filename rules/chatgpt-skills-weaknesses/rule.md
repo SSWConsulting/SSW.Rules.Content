@@ -1,4 +1,5 @@
 ---
+seoDescription: Unlock the power of ChatGPT! This AI tool can assist with writing, summarization, coding, creativity, content generation, critiquing, learning, research, and translation tasks.
 type: rule
 title: Do you know what you can use ChatGPT for?
 uri: chatgpt-skills-weaknesses

@@ -30,6 +30,35 @@ index:
 - use-expressions-to-scale-charts
 - show-change-in-reports
 - avoid-showing-change-as-percentage
+- use-alternating-row-colors
+- nodes-count-like-outlook
+- avoid-using-too-many-decimals-ssrs
+- consistent-height-of-table-row
+- display-zero-number-as-blank
+- show-time-format-clearly
+- show-all-report-parameters-in-body
+- use-logical-page-breaks
+- prevent-charts-growing-with-rows
+- use-vertical-text
+- gray-color-for-past-data
+- use-3d-cylinder-in-column-chart
+- center-title-in-chart
+- use-de-normalized-database-fields-for-calculated-values
+- use-sql-ranking-functions
+- avoid-unnecessary-words-in-parameter
+- avoid-showing-empty-reports
+- use-date-time-data-type
+- consistent-parameter-names
+- cache-popular-reports
+- schedule-snapshots-of-slow-reports
+- use-regional-friendly-formatting
+- ensure-language-follows-user-regional-settings
+- date-format-of-parameters
+- language-rule-exception-for-currency-fields
+- validate-all-reports
+- create-separate-virtual-directory-for-admin-access
+- use-intergrated-security-for-payroll-reports
+- remove-executiontime-in-subscription-email-subject
 
 ---
 

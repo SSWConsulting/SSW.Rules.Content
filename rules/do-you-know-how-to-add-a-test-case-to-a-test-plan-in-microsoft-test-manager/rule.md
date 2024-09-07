@@ -1,4 +1,5 @@
 ---
+seoDescription: Add test cases to a Microsoft Test Manager test plan and organize your testing efforts with ease.
 type: rule
 title: Do you know how to add a Test Case to a Test Plan in Microsoft Test Manager?
 uri: do-you-know-how-to-add-a-test-case-to-a-test-plan-in-microsoft-test-manager

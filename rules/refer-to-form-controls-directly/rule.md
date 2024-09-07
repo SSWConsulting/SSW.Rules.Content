@@ -1,4 +1,5 @@
 ---
+seoDescription: When programming in form-based environments, it's best to avoid referencing form controls directly and instead pass control values through parameters.
 type: rule
 title: Do you refer to form controls directly?
 uri: refer-to-form-controls-directly
@@ -12,7 +13,8 @@ created: 2018-04-25T18:05:11.000Z
 archivedreason: null
 guid: f5a0ec53-9abd-49b2-90ac-ad01daf5d6d6
 ---
-When programming in form based environments one thing to remember is not to refer to form controls directly. The correct way is to pass the controls values that you need through parameters. 
+
+When programming in form based environments one thing to remember is not to refer to form controls directly. The correct way is to pass the controls values that you need through parameters.
 
 <!--endintro-->
 

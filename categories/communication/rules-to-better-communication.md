@@ -5,6 +5,7 @@ guid: 471816bf-f0df-4835-bf4d-66a90f6f1adc
 uri: rules-to-better-communication
 index:
   - follow-up-effectively
+  - keep-tasks-handy-for-calls
   - tool-for-facilitating-real-time-collaboration
   - catering-to-audience
   - zooming-in-and-out
@@ -27,6 +28,7 @@ index:
   - corridor-conversations
   - tofu
   - attention-to-detail
+  - collaborate-across-timezones
   
 ---
 

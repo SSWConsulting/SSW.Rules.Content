@@ -1,17 +1,17 @@
 ---
+seoDescription: Organize the audience by moving attendees to be next to each other when numbers are low to create a visually appealing event space.
 type: rule
-archivedreason: 
+archivedreason:
 title: Events - Do you organize the audience when numbers are low?
 guid: f4e06a24-0919-4e55-9384-c8a8b36e4702
 uri: organize-the-audience-when-numbers-are-low
 created: 2016-07-29T14:46:51.0000000Z
 authors:
-- title: Farrukh Khan
-  url: https://ssw.com.au/people/farrukh-khan
+  - title: Farrukh Khan
+    url: https://ssw.com.au/people/farrukh-khan
 related: []
 redirects:
-- do-you-organize-the-audience-when-numbers-are-low
-
+  - do-you-organize-the-audience-when-numbers-are-low
 ---
 
 Audience shots are great except when you don’t have a full house. In this case you should move people to be next to each other.
@@ -31,7 +31,7 @@ Audience shots are great except when you don’t have a full house. In this case
 :::
 
 ::: info
-**Tip:** To ensure you get the best shot possible, fill seating from the front back. It's a good idea to use VIP signs and place them on the back row to prevent people sitting there initially. These can be moved later when all seats are filled at the front. 
+**Tip:** To ensure you get the best shot possible, fill seating from the front back. It's a good idea to use VIP signs and place them on the back row to prevent people sitting there initially. These can be moved later when all seats are filled at the front.
 
-  ![Figure: Using a VIP sign on the back row to prevent people sitting there initially](vip.jpg)
+![Figure: Using a VIP sign on the back row to prevent people sitting there initially](vip.jpg)
 :::

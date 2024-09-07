@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve email organization and reduce noise by using conditional formatting to visually deprioritize emails where you're only CC'd.
 type: rule
 title: Do you use conditional formatting to visually deprioritize emails you're CC'd on?
 uri: use-conditional-formatting-to-visually-deprioritize-emails
@@ -7,7 +8,6 @@ authors:
     url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2022-09-06T18:27:37.042Z
 guid: a1d92b8b-a852-4be8-b906-a476649ebf02
-
 ---
 
 In your inbox, it's a good idea to reduce noise by giving more attention to emails where you're on the "To" field, and dim the ones you're CC'd on.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Set up a suitable SharePoint development environment using virtual machines or Visual Studio Code for efficient and flexible testing.
 type: rule
 title: Do you use the right SharePoint development environment?
 uri: use-the-right-sharepoint-development-environment
@@ -17,7 +18,7 @@ archivedreason: null
 guid: 3af8b6aa-2559-45aa-a7ab-6a30bebd0866
 ---
 
-Development for SharePoint is very different depending upon whether you are online or using old On-Premises SharePoint. 
+Development for SharePoint is very different depending upon whether you are online or using old On-Premises SharePoint.
 
 <!--endintro-->
 
@@ -31,7 +32,6 @@ Development for SharePoint is very different depending upon whether you are onli
 6. Very easy for someone to quickly create a new SharePoint server to quickly test or experiment with SharePoint.
 7. Bad - There might be more work required to activate additional servers. SharePoint Farms are a lot of work. E.g. Search Server VMs.
 
-### For SharePoint Online 
+### For SharePoint Online
 
 Use VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
-              

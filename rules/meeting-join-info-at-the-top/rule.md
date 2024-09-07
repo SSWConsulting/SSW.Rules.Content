@@ -1,4 +1,5 @@
 ---
+seoDescription: Put meeting join information at the top of the email body to ensure attendees can quickly find the link and prepare for remote meetings.
 type: rule
 title: Do you know to put any meeting join info at the top of the body?
 uri: meeting-join-info-at-the-top
@@ -8,9 +9,10 @@ authors:
 created: 2022-03-23T22:27:17.977Z
 guid: 00d9842c-7dd6-45b6-8a17-0d349de929d2
 ---
+
 When you send a meeting appointment to someone, it’s important to put the meeting join information (e.g. Microsoft Teams Meeting URL) at the top of the email body as whoever is invited will be able to quickly find the link.
 
-If the meeting URL is placed under the email body, there are more chances the receiver could miss out on your meeting URL.  
+If the meeting URL is placed under the email body, there are more chances the receiver could miss out on your meeting URL.
 
 <!--endintro-->
 

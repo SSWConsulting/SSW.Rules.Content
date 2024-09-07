@@ -6,6 +6,8 @@ uri: rules-to-better-health-and-exercise-in-the-workplace
 index:
 - do-you-encourage-daily-exercise-at-work
 - do-you-know-the-dangers-of-sitting
+- healthy-office-food
+- lasting-habits
 
 ---
 Are you at your best when you sit down for +8 hours straight every day? No? Neither are we.

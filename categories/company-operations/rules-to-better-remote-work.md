@@ -31,6 +31,7 @@ index:
 - setting-up-your-workspace-for-video
 - do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
 - pomodoro
+- collaborate-across-timezones
 
 ---
 

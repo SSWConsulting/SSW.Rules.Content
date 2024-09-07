@@ -1,8 +1,9 @@
 ---
+seoDescription: Disclose existing issues and prioritize bug fixes to ensure seamless application development and reduce costly rework.
 type: rule
 title: Watch - Do you disclose existing issues?
 uri: watch-are-you-aware-of-existing-issues
-authors: 
+authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related: []
@@ -11,6 +12,7 @@ created: 2010-05-20T10:35:32.000Z
 archivedreason: null
 guid: d61e5e2d-d08d-4fd1-b994-e54b86415b40
 ---
+
 No doubt there will be a time when you get new developers to work on an existing application. Known issues with the existing application should be clearly delineated as much as possible. But new bugs will occur when changes have unforeseen effects on functionality down the line. This is to be expected.
 
 <!--endintro-->

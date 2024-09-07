@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you CC everyone and reply to all when necessary? Learn how to effectively communicate via email by CC'ing colleagues and replying to all relevant parties.
 type: rule
 title: Do you CC everyone and reply to all when necessary?
 uri: do-you-cc-everyone-and-reply-to-all-when-necessary
@@ -16,9 +17,9 @@ guid: a681c2ee-2561-42ac-b8b1-5d7056800545
 
 When emailing external parties, it is a good idea to CC the other colleagues within your organization that may have an interest in the email. Some of the benefits of CC'ing others are:
 
-* It can save time
-* Gives the email more credibility if you have CC'd others in your organization
-* Colleagues may correct your mistakes
+- It can save time
+- Gives the email more credibility if you have CC'd others in your organization
+- Colleagues may correct your mistakes
 
 <!--endintro-->
 
@@ -44,9 +45,9 @@ At this point if you are still Cc'd, you should reply and add all those dropped 
 
 ### Exceptions
 
-* If not all recipients need to be informed
-* The opinions of the rest of the recipients do not matter as they are unlikely to disagree
-* If the original email was to an alias with many subscribers, in general you should not Reply All.     
-* Also, if the sender requests a ['little r'](http://www.ssw.com.au/ssw/Redirect/Netlingo.htm) reply, then you should not 'Reply All'.
+- If not all recipients need to be informed
+- The opinions of the rest of the recipients do not matter as they are unlikely to disagree
+- If the original email was to an alias with many subscribers, in general you should not Reply All.
+- Also, if the sender requests a ['little r'](http://www.ssw.com.au/ssw/Redirect/Netlingo.htm) reply, then you should not 'Reply All'.
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)

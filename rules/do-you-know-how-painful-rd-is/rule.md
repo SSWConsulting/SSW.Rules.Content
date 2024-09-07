@@ -1,24 +1,24 @@
 ---
+seoDescription: Painful R&D processes require meticulous record-keeping of failed experiments and evidence of innovative breakthroughs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how painful R&D is?
 guid: 2aac7b4f-f893-437c-b903-0c8d7232b684
 uri: do-you-know-how-painful-rd-is
 created: 2019-03-28T22:20:52.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Andreas Lengkeek
-  url: https://ssw.com.au/people/andreas-lengkeek
-- title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
-- title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
-- title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Andreas Lengkeek
+    url: https://ssw.com.au/people/andreas-lengkeek
+  - title: Jernej Kavka
+    url: https://ssw.com.au/people/jernej-kavka
+  - title: Patricia Barros
+    url: https://ssw.com.au/people/patricia-barros
+  - title: Barry Sanders
+    url: https://ssw.com.au/people/barry-sanders
 related: []
 redirects: []
-
 ---
 
 ![](female researcher inspecting tube.jpg)
@@ -28,7 +28,6 @@ An experiment, in R&D terms, translates to an iterative series of changes over t
 That means you will need to be able to show code you wrote that didn’t work. If you didn’t check that in at some stage, you are in trouble.
 
 ### Forgetting to record failed experiments
-
 
 Unfortunately for R&D, when a software developer is making changes to a system they do one of two things. Either it is correct and the work is committed then checked in. Or, it doesn't meet the spec and they revert the changes and try again.
 
@@ -42,10 +41,6 @@ While developers communicate, there can be a lot of internal discussion and smal
 
 The last thing you want to do is read through old employee inboxes and conversations.
 
-
-
 Follow the below rules and you will be solving these issues, ensuring you're in accordance with the Australian R&D regulations.
-
-
 
 <!--endintro-->

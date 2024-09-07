@@ -1,4 +1,5 @@
 ---
+seoDescription: Write Angular 1.x directives in TypeScript to boost code robustness, reusability and migration ease to Angular 2.0.
 type: rule
 title: Do you write your Angular 1.x directives in TypeScript?
 uri: write-your-angular-1-x-directives-in-typescript
@@ -22,7 +23,6 @@ Angular 1.x directives are awesome and they help you reuse your code base by bei
 
 <!--endintro-->
 
-
 Writing your AngularJS 1.x directives in Typescript will help in the following ways:
 
 1. You will more easily migrate to Angular2 which is written in TypeScript
@@ -39,6 +39,7 @@ Writing Angular 1.x directives in Typescript can be a challenge with only a few 
 ```
 
 ### Typescript
+
 ```ts
 module app.widgets {
     'use strict';

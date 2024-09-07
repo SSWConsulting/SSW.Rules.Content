@@ -11,7 +11,7 @@ index:
 - do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-an-email-regarding-a-client
-- do-you-show-your-phone-number-in-skype
+- be-available-for-emergency-communication
 - do-you-share-screens-when-working-remotely
 - build-inter-office-interaction
 

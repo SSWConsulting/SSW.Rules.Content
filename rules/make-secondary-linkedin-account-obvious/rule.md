@@ -1,4 +1,5 @@
 ---
+seoDescription: Make your secondary LinkedIn account obvious by clearly stating it's a recruitment or talent acquisition account and not meant for professional networking.
 type: rule
 title: Do you make your secondary LinkedIn account obvious?
 uri: make-secondary-linkedin-account-obvious
@@ -8,6 +9,7 @@ authors:
 created: 2022-05-10T21:20:26.417Z
 guid: bb1a97d9-84eb-496a-9b3b-958d2cea92c8
 ---
+
 If you’re working with LinkedIn Talent Hub solutions and don’t want to use your primary LinkedIn account, you will need to create a second one. The issue is that the secondary account will show up when people search for your name:
 
 <!--endintro-->
@@ -16,7 +18,7 @@ If you’re working with LinkedIn Talent Hub solutions and don’t want to use y
 ![Figure: Bad example - Bryden Oliver showing twice on LinkedIn Search](linkedin-secondary-profile.png)
 :::
 
-Unfortunately there is no way to disable/hide your secondary profile if it is associated with Talent Hub: 
+Unfortunately there is no way to disable/hide your secondary profile if it is associated with Talent Hub:
 
 ![Figure: LinkedIn doesn’t let you disable/hibernate an account that has a Recruiter License](linkedin-unable-hibernate.png)
 

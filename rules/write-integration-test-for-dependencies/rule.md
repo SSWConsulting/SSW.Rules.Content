@@ -1,4 +1,5 @@
 ---
+seoDescription: Integration tests ensure compatibility and loadability of dependencies, such as DLLs, by verifying their existence and versions.
 type: rule
 title: Do you write Integration Test for Dependencies - e.g. DLLs?
 uri: write-integration-test-for-dependencies
@@ -17,15 +18,12 @@ Dependant code is code that relies on other factors like methods and classes ins
 
 <!--endintro-->
 
-* An unhandled exception ("System.IO.FileNotFoundException") occurred in SSW.NETToolkit.exe.
-* System.IO.FileLoadException The located assembly's manifest definition with name 'SSW.SQLDeploy.Check' does not match the assembly reference.
-
+- An unhandled exception ("System.IO.FileNotFoundException") occurred in SSW.NETToolkit.exe.
+- System.IO.FileLoadException The located assembly's manifest definition with name 'SSW.SQLDeploy.Check' does not match the assembly reference.
 
 These errors can be fixed by writing a integration test to check all referenced assemblies in a project.
 
 Sample code:
-
-
 
 ```cs
 [Test]
@@ -51,5 +49,4 @@ public void ReferencedAssembliesTest()
 }
 ```
 
-
- **Figure: This code is a unit test for checking that all referenced assemblies are able to load.**
+**Figure: This code is a unit test for checking that all referenced assemblies are able to load.**

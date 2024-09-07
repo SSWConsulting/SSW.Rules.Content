@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: ASP.NET vs SharePoint development - do you know what you get for free out of the box?
+title: ASP.NET vs SharePoint development - Do you know what you get for free out of the box?
 guid: 0d0d049e-49fe-458a-95f6-814b1bf1961c
 uri: asp-net-vs-sharepoint-development-do-you-know-what-you-get-for-free-out-of-the-box
 created: 2009-06-16T01:23:22.0000000Z
@@ -17,7 +17,6 @@ redirects: []
 
 SharePoint as a platform on top of ASP.NET gives you many components that you don’t get from ASP.NET out of the box:
 <!--endintro-->
-
 
 * WYSIWYG editing (IE only, no FireFox)
 
@@ -53,6 +52,5 @@ SharePoint as a platform on top of ASP.NET gives you many components that you do
     SharePoint search can index Office documents as well as other popular document formats like PDF.
 
     Search engines like Google performs well for public content, but there is no way for the search crawler to index inside your organization. SharePoint uses its own internal crawler to keep your site’s content up to date in the search results.
-
 
 In ASP.NET - this is often overlooked – most ASP.NET search facilities are limited to only specific kind of data: e.g. *search clients with the ID of SSW*

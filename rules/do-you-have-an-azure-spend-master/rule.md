@@ -1,25 +1,25 @@
 ---
+seoDescription: Azure Spend Master controls access to reduce costs and streamline Azure management.
 type: rule
-archivedreason: 
+archivedreason:
 title: Cost - Do you have an Azure Spend $ master?
 guid: ea05ddf7-1ff4-4f08-92af-e5c379331a83
 uri: do-you-have-an-azure-spend-master
 created: 2018-06-28T00:15:42.0000000Z
 authors:
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
-
 ---
 
-Azure is Microsoft's Cloud service. However, you have to pay for every little bit of service that you use. 
+Azure is Microsoft's Cloud service. However, you have to pay for every little bit of service that you use.
 
 <!--endintro-->
 
 Before diving in, it is good to have an understanding of the basic built-in user roles:
 
-![Figure: Roles in Azure](tabl.png)  
+![Figure: Roles in Azure](tabl.png)
 
 **More info:** https://docs.microsoft.com/en-us/azure/role-based-access-control/built-in-roles
 

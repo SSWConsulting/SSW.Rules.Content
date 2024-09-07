@@ -1,15 +1,16 @@
 ---
+seoDescription: Manage corporate cards effectively and streamline expense tracking with our comprehensive guide on how to manage your corporate card.
 type: rule
 archivedreason:
 title: Expenses - Do you know how to manage your corporate card?
 guid: bbab3709-d9a3-49c8-9c9c-77efa0d6e5ca
 uri: how-do-you-manage-your-corporate-card
 created: 2021-06-16T00:00:00Z
-authors: 
+authors:
   - title: Nick Viet
     url: https://www.ssw.com.au/people/nick-viet
 related:
-- do-you-use-the-best-mobile-app-for-expenses
+  - do-you-use-the-best-mobile-app-for-expenses
 ---
 
 When an organisation grows and has multiple offices, corporate cards can be issued to the various office managers to provide relevant amenities for their respective offices.

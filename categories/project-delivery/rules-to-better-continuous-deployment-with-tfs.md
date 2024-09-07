@@ -18,6 +18,7 @@ index:
 - do-you-update-your-build-to-use-the-executebatchtemplate-build-process-template
 - the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-better-than-deploying-directly-from-the-build
 - use-web-compiler
+- do-you-only-roll-forward
 
 ---
 

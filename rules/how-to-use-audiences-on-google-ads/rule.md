@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to use audiences on Google Ads and increase your campaign engagement!
 type: rule
 title: Do you know how to use Audiences on Google Ads?
 uri: how-to-use-audiences-on-google-ads
@@ -15,14 +16,15 @@ created: 2019-03-26T22:39:24.000Z
 archivedreason: null
 guid: 2ac980ab-659a-4a45-b403-02d1e43ba9a6
 ---
+
 Audiences, in general, will allow you to try pulling up your ads to different groups of people based on tons of different criteria!
 
 <!--endintro-->
 
-* **Affinity Audience** – Show your ads to unique audiences based on their lifestyles, buying habits, and long-term interests that you can pick.
-* **Custom Affinity Audience** – Show your ads to specific audiences based on the affinity selections that you can choose to create a custom audience.
-* **In-Market Audience** – Find customers who are researching and are actively looking into buying a service or product you sell.
-* **Remarketing & Similar Audiences** – Show your ads to people who have visited your website previously before (You can choose the period) or viewed your content somewhere online. This would include remarketing lists.
+- **Affinity Audience** – Show your ads to unique audiences based on their lifestyles, buying habits, and long-term interests that you can pick.
+- **Custom Affinity Audience** – Show your ads to specific audiences based on the affinity selections that you can choose to create a custom audience.
+- **In-Market Audience** – Find customers who are researching and are actively looking into buying a service or product you sell.
+- **Remarketing & Similar Audiences** – Show your ads to people who have visited your website previously before (You can choose the period) or viewed your content somewhere online. This would include remarketing lists.
 
 ::: bad\
 ![Figure: Bad Example – No audiences were set up yet](audience-1.png)\

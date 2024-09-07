@@ -1,4 +1,5 @@
 ---
+seoDescription: Quickly resolve technical issues by calling your System Administrators before raising a ticket, saving time and increasing productivity.
 type: rule
 title: Do you call your System Administrators before raising a ticket?
 uri: call-your-system-administrators-before-raising-a-ticket
@@ -21,6 +22,6 @@ When you need to request technical help, the steps you should take are:
 
 2. Call an available SysAdmin to discuss the issue. Share your screen with the email so that they can review the details you have collected
 
-    **Note:** If you are working outside of normal working hours and it is not an emergency, just send the email to raise the ticket.
+   **Note:** If you are working outside of normal working hours and it is not an emergency, just send the email to raise the ticket.
 
 3. You likely won’t need to send the email if the problem can be resolved quickly. If the issue requires further investigation, add [“(Checked by {{ SYSADMIN NAME }})”](/checked-by-xxx) to the start of the email and send it

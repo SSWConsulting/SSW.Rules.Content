@@ -1,22 +1,22 @@
 ---
+seoDescription: Manage your inbox as a task list only by treating emails as actionable items and deleting completed tasks.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you keep your inbox as a task list only?
 guid: 69dd06ee-2a9a-47ff-af6d-23a1a8ff8fb4
 uri: dones-is-your-inbox-a-task-list-only
 created: 2009-03-23T03:56:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-related: 
-- dones-do-you-use-email-for-tasks-only-not-communication
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+related:
+  - dones-do-you-use-email-for-tasks-only-not-communication
 redirects:
-- do-you-keep-your-inbox-as-a-task-list-only
-
+  - do-you-keep-your-inbox-as-a-task-list-only
 ---
 
 Most people don’t manage their inbox effectively. Emails should be treated as a list to do. As you complete a task you can just delete the email.

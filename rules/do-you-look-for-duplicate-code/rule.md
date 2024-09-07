@@ -1,4 +1,5 @@
 ---
+seoDescription: Code duplication detection and refactoring improves maintainability by minimizing repeated code snippets. By extracting common logic into reusable methods, developers can reduce code complexity and enhance overall system performance.
 type: rule
 title: Do you look for duplicate code?
 uri: do-you-look-for-duplicate-code
@@ -13,7 +14,8 @@ created: 2012-04-01T09:56:14.000Z
 archivedreason: null
 guid: 2c1f0b48-dc84-48ac-8255-0ffb0e4821d6
 ---
-Code duplication is a big "code smell" that harms maintainability.  You should keep an eye out for repeated code and make sure you refactor it into a single place.
+
+Code duplication is a big "code smell" that harms maintainability. You should keep an eye out for repeated code and make sure you refactor it into a single place.
 
 <!--endintro-->
 

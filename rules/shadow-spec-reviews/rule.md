@@ -1,6 +1,9 @@
 ---
 type: rule
 title: Do you shadow Spec Reviews?
+seoDescription: Explore the critical importance of shadowing experienced
+  developers during Spec Reviews to ensure successful software project outcomes
+  and structured learning for trainees
 uri: shadow-spec-reviews
 authors:
   - title: Sam Smith
@@ -9,14 +12,16 @@ related:
   - spec-add-value
 created: 2023-11-27T00:34:16.382Z
 guid: a3e51a8d-66d5-48e1-a109-f89d6a19ee15
+
 ---
+
 Spec Reviews are a vital part of architecting a new solution for a client, they are the plans upon which a new project is modeled. They serve as a key stage in the pre-sales process for software development consultancies as they create an opportunity for the developers to demonstrate expertise and provide immediate value to the client. For these reasons alone, it is evident that those who are assigned to carry out this exercise must be well-trained in the matter.
 
 <!--endintro-->
 
 ### Importance of Specification Reviews
 
-As the documentation delivered at the end of the Spec Review is the foundation upon which the project is built, it is imperative that the proposed solution meets the client's needs as closely as possible, this includes proposing the correct choice of technologies (factoring in their budget from [corridor conversations](https://ssw.com.au/rules/corridor-conversations/)) and providing realistic estimates of time required per resource.
+As the documentation delivered at the end of the Spec Review is the foundation upon which the project is built, it is imperative that the proposed solution meets the client's needs as closely as possible, this includes proposing the correct choice of technologies (factoring in their budget from [corridor conversations](/corridor-conversations)) and providing realistic estimates of time required per resource.
 
 Involving developers with no experience in Spec Reviews can lead to significant issues; underestimates, a misunderstanding of the right tech for the job, or a miscommunication between the developer and the client could all have huge implications on the success of the project down the line. This highlights the need for a structured training approach.
 
@@ -36,3 +41,7 @@ Before being able to partake in an unsupervised Spec Review, the trainee develop
 2. **Assistance Phase**: Developers must then assist in at least 1 Spec Review as a 'secondary' developer, applying their observations and understanding their role in the process - they will be a billable resource, but will follow the lead of another experienced developer.
 
 After successfully completing the shadowing and assistance phases, developers are ready to conduct Spec Reviews independently, equipped with the necessary knowledge and experience.
+
+### Approvals
+
+If an Account Manager wants to add an additional dev to shadow a Spec Review, they should get [cross-approval](/cross-approvals) from another Account Manager, to make sure it's necessary.

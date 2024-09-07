@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the elevator pitch?
+title: Do you know the elevator pitch for a company?
 uri: elevator-pitch
 authors:
   - title: Piers Sinclair
@@ -13,6 +13,8 @@ authors:
     url: https://www.ssw.com.au/people/michael-smedley
 created: 2022-07-14T03:55:56.590Z
 guid: 56375812-4759-4db5-86fb-190507f241b6
+related: 
+ - pitch-a-product
 ---
 The first impression given to a prospective client or employee is essential to forming their image of a company. A bad impression means they are unlikely to be interested.
 
@@ -67,6 +69,7 @@ For example, the company might have offices in:
 * Brisbane
 * Newcastle
 * Hangzhou
+* Strasbourg
 
 ### #4 Now practice
 

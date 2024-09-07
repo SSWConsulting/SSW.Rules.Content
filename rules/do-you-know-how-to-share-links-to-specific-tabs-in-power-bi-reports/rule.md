@@ -1,16 +1,16 @@
 ---
+seoDescription: Learn how to share links to specific tabs in Power BI reports and send users directly to the desired page.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to share links to specific tabs in Power BI reports
 guid: 754ac957-db19-4691-b2b5-325ca7d29dad
 uri: do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
 created: 2017-01-13T03:52:35.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 The problem with the standard File | Publish to Web options, is it always goes to the same tab of a report, but if you want to send a link to a specific tab, you have to do one more step...

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover why "complete testing" is a myth and how to prioritize effective testing instead.
 type: rule
 title: Do you know that “complete testing” is impossible?
 uri: complete-testing-is-impossible
@@ -10,6 +11,7 @@ related:
 created: 2022-10-05T03:25:30.775Z
 guid: a58ba6fa-1f34-40f5-afea-95e986f7e557
 ---
+
 Without a good understanding of testing and its limitations, it's easy for clients and customers to believe that we "test everything" - but there's a problem with this belief:
 
 **Complete (or 100% or exhaustive) testing is impossible.**
@@ -23,18 +25,18 @@ Without a good understanding of testing and its limitations, it's easy for clien
 ![Figure: Don't take on impossible missions!](100-is-impossible.jpg)
 Complete testing is impossible for several reasons:
 
-* We can’t test **all** the inputs to the program.
-* We can’t test **all** the combinations of inputs to the program.
-* We can’t test **all** the paths through the program.
-* We can’t test for **all** of the other potential failures, such as those caused by:
+- We can’t test **all** the inputs to the program.
+- We can’t test **all** the combinations of inputs to the program.
+- We can’t test **all** the paths through the program.
+- We can’t test for **all** of the other potential failures, such as those caused by:
 
-  * User interface design
+  - User interface design
     errors and other usability problems
-  * Incomplete requirements analyses
-  * Malfunctioning hardware
-  * Humans making mistakes when using the software
-  * Hardware/software compatibility issues
-  * Timing issues, etc.
+  - Incomplete requirements analyses
+  - Malfunctioning hardware
+  - Humans making mistakes when using the software
+  - Hardware/software compatibility issues
+  - Timing issues, etc.
 
 For non-trivial programs, complete testing is impossible because the population of possible tests is infinite. So, you can’t have complete coverage - no matter how many tests you run, only partial coverage can be achieved.
 
@@ -58,6 +60,6 @@ The focus should be on doing "good enough testing". You can say you’re done wh
 
 ![Figure: Aim for "good enough" testing over complete testing](good-enough.jpg)
 
-Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5 - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.   
+Watch the <a href="https://vimeo.com/451827063">BBST&reg; Foundations Lecture 5 - The Impossibility of Complete Testing</a> by Dr Cem Kaner on <a href="https://vimeo.com">Vimeo</a>.
 
 Read [The Impossibility of Complete Testing](https://bbst.courses/wp-content/uploads/2022/08/Kaner_impossibility.pdf) by Dr Cem Kaner.

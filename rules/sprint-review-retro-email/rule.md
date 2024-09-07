@@ -19,7 +19,6 @@ related:
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
-
 redirects:
   - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
@@ -41,7 +40,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
 | Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review/Retro |
+| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review + Retro |
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
@@ -57,13 +56,16 @@ Sprint Goals (in priority order):
 
 Please see below for a more detailed breakdown of the Sprint:
 
-| Sprint in Review: | {{ SPRINT NUMBER }}            |
-| ----------------- | ------------------------------ |
-| Sprint Duration:  | {{ NUMBER OF WEEKS }}          |
-| Project:          | {{ PROJECT NAME }}             |
-| Project Portal:   | {{ LINK TO PROJECT PORTAL }}   |
-| Test Environment: | {{ LINK TO TEST ENVIRONMENT }} |
-| Product Owner:    | {{ PRODUCT OWNER NAME }}       |
+|                    |                                       |
+| ------------------ | ------------------------------------- |
+| Sprint in Review:  | {{ SPRINT NUMBER }}                   |
+| Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }})  |
+| Sprint Duration:   | {{ NUMBER OF WEEKS }}                 |
+| Project:           | {{ PROJECT NAME }}                    |
+| Project Portal:    | {{ LINK TO PROJECT PORTAL }}          |
+| Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}        |
+| Product Owner:     | {{ PRODUCT OWNER NAME }}              |
+| Attendees:         | {{ NAMES OF THE ATTENDEES }}          |
 
 Attendees: *(Optional as they may be in the to and CC)*
 
@@ -172,4 +174,8 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 ::: good
 Figure: Good example - Template for Sprint Review/Retro email
+:::
+
+::: good
+![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::

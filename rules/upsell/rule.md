@@ -78,3 +78,7 @@ Figure: Good example - of upselling
 From the above video, you can see that the software consultants at SSW completed a Microsoft Form with the question: Your advice: Pretend you are talking to a junior dev about this concept of upselling. What do you say to them? Here were some stand out answers:
 
 ![Figure: Good ways to upsell](Screen Shot 2020-09-10 at 10.16.58 AM.png)
+
+::: greybox
+**Tip:** [Show your "Client Love" regularly](/weekly-client-love) so that your client are more willing to buy your upsellings.
+:::

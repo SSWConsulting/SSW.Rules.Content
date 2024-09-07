@@ -1,4 +1,5 @@
 ---
+seoDescription: Securely share passwords by using a powerful password manager to search, share, or generate links for ultra-secure access.
 type: rule
 title: Passwords - Do you know how to securely share your passwords?
 uri: secure-password-share
@@ -8,12 +9,13 @@ authors:
 created: 2023-02-15T00:41:00.699Z
 guid: e2cb1054-e5d4-45dd-ad52-b298ba5a73a5
 ---
+
 The best way to protect your passwords is to never share them. However, in some cases, sharing passwords may be necessary. In these situations, it is essential to follow a strict password sharing procedure to ensure the security of sensitive information. The key to this procedure is having a powerful password manager to be able to share passwords securely and efficiently.
 
 <!--endintro-->
 
 Learn more about [the best password managers](/password-manager).
-            
+
 Do the following, in this order, to securely share passwords:
 
 1. **Search for the password in a password manager** - If you read the rule above, then you have set up a company-wide password manager. Users should be able to search for the passwords they need in the manager, directly. This method is considered ultra secure.

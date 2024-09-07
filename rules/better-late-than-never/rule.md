@@ -1,4 +1,5 @@
 ---
+seoDescription: Better late than never! Respond to emails and IM messages, no matter how long it takes, to show you value the sender's input and ideas.
 type: rule
 title: Do you know replying is better late than never?
 uri: better-late-than-never
@@ -14,7 +15,6 @@ redirects:
 created: 2009-03-27T02:52:19.000Z
 archivedreason: null
 guid: 09d05330-27de-41b1-803c-0dfc67b752ff
-
 ---
 
 You should always try and reply to emails and IM messages within a timely period, but this is not always possible.

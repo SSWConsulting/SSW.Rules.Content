@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid using ASP/ASP.NET tags in plain HTML pages to prevent unnecessary file size increase and browser confusion.
 type: rule
 title: Do you avoid using ASP/ASP.NET tags in plain HTML?
 uri: avoid-using-asp-asp-net-tags-in-plain-html

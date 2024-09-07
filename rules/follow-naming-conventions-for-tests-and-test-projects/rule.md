@@ -1,4 +1,5 @@
 ---
+seoDescription: Follow naming conventions for tests and test projects to ensure clarity, consistency, and readability.
 type: rule
 title: Do you follow naming conventions for tests and test projects?
 uri: follow-naming-conventions-for-tests-and-test-projects
@@ -19,6 +20,7 @@ created: 2020-03-24T00:04:10.000Z
 archivedreason: null
 guid: 1aea50c6-b2cc-4e1e-a483-34b4776e0e1e
 ---
+
 ### Test Projects
 
 Tests typically live in separate projects – and you usually create a project from a template for your chosen test framework.
@@ -29,7 +31,7 @@ A unit test project usually targets a single code project.
 
 Integration and unit tests should be kept separate and should be named to clearly distinguish the two.
 This is to make it easier to run only unit tests on your build server (and this should be possible as unit tests should have no external dependencies).
-Integration tests require dependencies and often won't run as part of your build process.  These should be automated later in the DevOps pipeline.
+Integration tests require dependencies and often won't run as part of your build process. These should be automated later in the DevOps pipeline.
 
 <!--endintro-->
 
@@ -110,7 +112,7 @@ GivenResidingInAustralia_WhenCheckout_ThenCharge10PercentTax
 
 ## Conclusion
 
-Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](/do-you-use-architectural-decision-records/)
+Remember, pick what naming method works for your team & organisation's way of working ([Do you understand the value of consistency?](/the-value-of-consistency/)). Then record it in your team's [Architectural Decision Records](/architectural-decision-records/)
 
 ## Resources
 

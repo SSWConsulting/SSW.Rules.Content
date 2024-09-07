@@ -1,4 +1,5 @@
 ---
+seoDescription: Always install latest updates when fixing someone else's PC to ensure security and stability, whether done locally or remotely.
 type: rule
 title: Do you always install latest updates when you fix someone else's PC?
 uri: do-you-always-install-latest-updates-when-you-fix-someone-elses-pc
@@ -13,14 +14,15 @@ created: 2009-03-09T06:56:48.000Z
 archivedreason: null
 guid: 4f9f2aa2-a488-4cce-8e1f-f49db34396bd
 ---
-When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates.  
+
+When you fix someone else's PC (locally or remotely), one of the best practices is always make sure it has the latest updates.
 
 <!--endintro-->
 
-* To achieve this, we run Windows Update and install all latest updates.
+- To achieve this, we run Windows Update and install all latest updates.
 
 ::: bad
-![Here are some updates that need to be applied](2021-04-20_11-50-38.png) 
+![Here are some updates that need to be applied](2021-04-20_11-50-38.png)
 :::
 
 ::: good

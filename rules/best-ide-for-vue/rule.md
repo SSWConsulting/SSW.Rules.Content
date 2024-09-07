@@ -1,4 +1,5 @@
 ---
+seoDescription: Best IDE for Vue.js - Discover the ultimate code editor for your Vue.js project with Visual Studio Code's rich extensibility and official Vue Language Features extension.
 type: rule
 title: Do you know the best IDE for Vue.js?
 uri: best-ide-for-vue
@@ -8,6 +9,7 @@ authors:
 created: 2023-07-14T02:16:51.886Z
 guid: 6b454e54-70c6-4875-885f-7c077b0bb761
 ---
+
 There are many options available for code editors for working with Vue.js. The recommended editor is **[Visual Studio Code](https://visualstudio.microsoft.com/downloads/)**.
 
 <!--endintro-->

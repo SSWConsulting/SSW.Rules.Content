@@ -1,17 +1,17 @@
 ---
+seoDescription: Data Layout - Show past 6 months of totals in a chart to facilitate easy comparison.
 type: rule
 archivedreason:
 title: Data Layout - Do you show the past 6 months of totals in a chart?
 guid: fd58a962-6abb-4b89-b147-06d5a9df26fa
 uri: show-past-six-months-in-chart
 created: 2023-12-13T10:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 When you are working with reports that use time-based data (sales figures, employee productivity etc.), it is handy to see how you went this month compared to the past 6 months. The best way to show this is on a bar chart.
@@ -35,7 +35,7 @@ SELECT DISTINCT TOP 6
 FROM
   MyTable
 WHERE
-  MyDate BETWEEN DateAdd(Month,-5,convert(varchar(12), Month(@pEndDate)) + '/1/' + convert(varchar(12), Year(@pEndDate))) AND 
+  MyDate BETWEEN DateAdd(Month,-5,convert(varchar(12), Month(@pEndDate)) + '/1/' + convert(varchar(12), Year(@pEndDate))) AND
 CASE WHEN datepart(d,@pEndDate) = 1 THEN DateAdd(d, 1, @pEndDate) ELSE @pEndDate END
 GROUP BY
   CONVERT(varchar(12), Year(MyDate), 101) + '-' + RIGHT('0' + Convert(Varchar(2), MyDate, 101), 2)

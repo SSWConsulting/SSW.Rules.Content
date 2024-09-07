@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your SharePoint experience by styling links with icons, ensuring a consistent look and feel.
 type: rule
 title: Do you style your SharePoint link with icons?
 uri: use-icons-sharepoint
@@ -20,7 +21,7 @@ Out of the box, SharePoint provides widgets (aka webparts) to style your link wi
 
 If that's not enough and you want to customize your own links somewhere else on screen, use CSS to match the extension at the end of the `<a>` tag. Don't forget to add some padding to give it some space before the text (where the icon will be).
 
-### Option A: Standard left navigation + emojis 🔥
+### Option A: Standard left navigation + emojis 💖
 
 If you want to style your navigation, using emojis is the simplest way to achieve consistency.
 

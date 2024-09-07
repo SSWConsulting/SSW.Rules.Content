@@ -1,4 +1,5 @@
 ---
+seoDescription: Encourage your boss to put new appointments directly into their phone calendar for efficient scheduling and reduced dependency on assistants.
 type: rule
 title: Do you encourage your boss to put new appointments directly into their phone?
 uri: do-you-encourage-your-boss-to-put-new-appointments-directly-into-his-phone
@@ -20,6 +21,5 @@ When your boss takes a call from someone wanting to book an appointment there ar
 
 1. create a 'Outlook Calendar Appointment', or
 2. call their PA and have them double check that they are free, and then create an Outlook Calendar Appointment
-
 
 It used to be that if the appointment was for the same day, your boss would have to take option 2 to keep the PA informed but now with mobile devices you should generally use option 1.

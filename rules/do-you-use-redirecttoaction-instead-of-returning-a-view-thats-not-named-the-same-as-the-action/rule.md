@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you use RedirectToAction instead of returning a view that's not named the same as the action?
 type: rule
 title: Do you use RedirectToAction instead of returning a view that’s not named
   the same as the action?
@@ -13,6 +14,7 @@ created: 2013-03-07T18:33:55.000Z
 archivedreason: null
 guid: d44d29b2-9e4b-4ea7-a23b-2cd524dbd814
 ---
+
 Returning a view that is named differently to the action confuses the MVC process and can make the code difficult to maintain.
 
 <!--endintro-->
@@ -30,6 +32,7 @@ public ActionResult Create(CreateModel model)
     return View("Success");
 }
 ```
+
 ::: bad
 Figure: Bad example – Returning a different view is misleading and potentially dangerous
 :::
@@ -48,6 +51,7 @@ public ActionResult Success(string message)
     return View();
 }
 ```
+
 ::: good
 Figure: Good example – Using the PRG pattern to avoid duplicate data being posted
 :::
