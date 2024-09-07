@@ -1,4 +1,5 @@
 ---
+seoDescription: When making significant changes to your pipeline, it's crucial to test them in a separate repository first to avoid unintended deployments and ensure a thorough test.
 type: rule
 title: Do you complete major pipeline changes on another repo?
 uri: complete-major-changes-on-another-repo
@@ -8,6 +9,7 @@ authors:
 created: 2023-09-14T04:26:51.981Z
 guid: 1a7f3fb9-63b0-4fa0-83a2-8a2656c43131
 ---
+
 When making significant changes to your pipeline, it's crucial to test them in a separate repository first. This approach ensures that the main repository remains unaffected by potential errors or disruptions during the testing phase. Most importantly, it guarantees that unintended deployments, especially to production, are avoided.
 
 <!--endintro-->

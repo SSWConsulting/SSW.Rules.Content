@@ -1,19 +1,19 @@
 ---
+seoDescription: Make your templates accessible to everyone in your organization to share knowledge and maintain high-quality work.
 type: rule
-archivedreason: 
+archivedreason:
 title: IP - Do you make your templates accessible to everyone in your organization?
 guid: ce7cf067-10fa-402c-b915-2a69cdaea651
 uri: quality-do-you-make-your-templates-accessible-to-everyone-in-your-organisation
 created: 2012-09-25T18:01:13.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
 related: []
 redirects:
-- ip-do-you-make-your-templates-accessible-to-everyone-in-your-organisation
-
+  - ip-do-you-make-your-templates-accessible-to-everyone-in-your-organisation
 ---
 
 A common mistake is to use code or emails that you have previously written, and stored somewhere on your computer, and change around key bits to make it relevant for the current situation.

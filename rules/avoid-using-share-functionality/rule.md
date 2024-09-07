@@ -1,4 +1,5 @@
 ---
+seoDescription: Office365 users avoid using the 'Share' functionality with tasks/questions to ensure important emails are noticed and read.
 type: rule
 title: Office365 - Do you avoid using 'Share' functionality with tasks/questions?
 uri: avoid-using-share-functionality
@@ -7,15 +8,19 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2023-12-01T15:34:47.574Z
 guid: 02a35dc4-5c79-47b9-a561-8f4d2fe81363
+related:
+  - how-to-share-a-file-folder-in-sharepoint
+  - change-link-sharing-default-behaviour
 ---
-Sharing a file is easy when looking at a file. However the email people get from it will have a notification-looking, which may result in it being overlooked/ignored.
+
+Sharing a file is easy when looking at a file. However the email people get from it will have a notification-look, which may result in it being overlooked/ignored.
 
 Because of that, you should avoid using that functionality if you want people to notice and read your email. A normal email with the link and instructions should be sent instead.
 
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Sending an email with a file using the 'Share' funcionality](share-screenshot.jpg "Figure: Sending an email with a file using the Office365 'Share' functionality")
+![Figure: Bad example - Sending an email with a file using the 'Share' functionality](share-screenshot.jpg "Figure: Sending an email with a file using the Office365 'Share' functionality")
 :::
 
 ::: bad
@@ -23,14 +28,14 @@ Because of that, you should avoid using that functionality if you want people to
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| From:      | Adam |
-| To:      | Gordon |
-| Subject: | "Invoices in June&July 2019" - Do we need this?  |  
-::: email-content  
+| From: | Adam |
+| To: | Gordon |
+| Subject: | "Invoices in June&July 2019" - Do we need this? |  
+::: email-content
 
-### Hi Gordon  
+### Hi Gordon
 
 See this file: {{ URL }}
 

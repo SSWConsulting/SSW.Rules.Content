@@ -1,38 +1,30 @@
 ---
+seoDescription: Monthly financial meetings streamline company finances, ensuring transparency and informed decision-making with sales reports, cash position insights, and revenue trends.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have monthly financial meetings?
 guid: 9c154d6c-d475-45fe-8235-3af5c184c1b3
 uri: do-you-have-monthly-accounting-meetings
 created: 2015-09-18T05:50:26.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-have-monthly-financial-meetings
-
+  - do-you-have-monthly-financial-meetings
 ---
 
 It is important to have monthly meetings to get an overview of where the company finances are throughout the year.
 
-
-
 Since different people need to report for different sections, it's a good idea to split this into 2 meetings.
 
 <!--endintro-->
- In this meeting, key staff members should review the past month and look at forecasts for next month. 
 
-
+In this meeting, key staff members should review the past month and look at forecasts for next month.
 
 Here is a sample agenda:
 
-
-
-
 ### Pre Meeting:
-
-
 
 1. Reconcile invoicing system with the Accounting system
 2. Print Monthly Profit and Loss Report
@@ -47,28 +39,17 @@ Here is a sample agenda:
 11. Print Snapshot Report - Monthly and Cumulative Data
 12. Print Profit and Loss Return % Report
 
-
 **Note:** the pre-meeting section should be done the day before meeting #1, and a lot of it can be delegated to admin employees
 
 ### During meeting #1:
-
 
 1. Review Sales reports
 2. Review billable leaderboard
 3. Review utilization report for the month
 
-
- **Note:** It's a good idea to record a quick summary of this meeting so people in Meeting #2 know the executive overview.
-
-
-
-
+**Note:** It's a good idea to record a quick summary of this meeting so people in Meeting #2 know the executive overview.
 
 ### During Meeting #2:
-
-
-
-
 
 1. Review Cash Position
 2. Review revenue by client

@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost your online presence with a well-crafted LinkedIn profile, showcasing your skills, experience, and company affiliation.
 type: rule
 title: LinkedIn - Do you have a good profile?
 uri: linkedin-profile
@@ -10,13 +11,13 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
-- linkedin-profile
-- linkedin-job-experience
-- have-urls-to-your-main-services-on-linkedin
-- linkedin-contact-info
-- new-job-certification-linkedin
-- linkedin-connect-your-microsoft-account
-- linkedin-creator-mode
+  - linkedin-profile
+  - linkedin-job-experience
+  - have-urls-to-your-main-services-on-linkedin
+  - linkedin-contact-info
+  - new-job-certification-linkedin
+  - linkedin-connect-your-microsoft-account
+  - linkedin-creator-mode
 created: 2024-01-23T10:00:00.000Z
 guid: 4b4b7bc8-63ec-4f8e-8d11-c3e5e3b3c9cf
 ---
@@ -35,8 +36,9 @@ Do the following on your profile page:
 6. [Include other social media](/linkedin-contact-info)
 7. Add your top skills in the 'About' section (Aim for 5)
 8. [Add your job experience](/linkedin-job-experience)
-9. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
-10. Add a link to your company's profile in your description
+9. Under your company, add [relevant links](https://www.youtube.com/watch?v=3rPpCchYUfc) to showcase your experience in a specific job
+10. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
+11. Add a link to your company's profile in your description
 
 E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
 

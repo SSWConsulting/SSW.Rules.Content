@@ -1,4 +1,5 @@
 ---
+seoDescription: As a Product Manager, I want to use User Stories format when appropriate, so that developers understand the context and requirements of a Product Backlog Item.
 type: rule
 title: Do you use User Stories format when appropriate?
 uri: spec-do-you-use-user-stories
@@ -16,12 +17,13 @@ created: 2009-11-03T10:33:18.000Z
 archivedreason: null
 guid: 0daa42ed-f103-4e4b-9d27-e9b77647b4b6
 ---
+
 Product Backlog Items (PBIs) can be described in the form of a "User Stories" when appropriate. It ensures the developers will know the context for a PBI.
 
 ::: greybox
 As a **\[type of User]**\
-I want  **\[some goal]**\
-So that **\[some reason]** 
+I want **\[some goal]**\
+So that **\[some reason]**
 :::
 **Figure: User Story - template for description**
 
@@ -44,5 +46,5 @@ I want to **be able to search for customers by country and last name**,
 So that **I can find their numbers and call customers that are close to me**.  
 :::
 ::: good
-Figure: Good Example - Clear user story following the [INVEST principle](https://en.wikipedia.org/wiki/INVEST_(mnemonic))
+Figure: Good Example - Clear user story following the [INVEST principle](<https://en.wikipedia.org/wiki/INVEST_(mnemonic)>)
 :::

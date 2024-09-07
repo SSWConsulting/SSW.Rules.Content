@@ -1,4 +1,5 @@
 ---
+seoDescription: Office environment dress code - Follow company guidelines to present a professional image, reinforce branding, and create a good impression for clients.
 type: rule
 title: Office environment - Do you follow the company's dress code?
 uri: do-you-have-a-dress-code
@@ -14,6 +15,7 @@ created: 2012-09-25T17:57:39.000Z
 archivedreason: null
 guid: b07a6598-7717-4851-af8d-30bf26cd2486
 ---
+
 The way you and all members of your team present themselves is a crucial part of creating a good impression for your clients, particularly in their first encounters with you.
 
 <!--endintro-->
@@ -31,12 +33,12 @@ Of course, when in a public event such as a User Group, conference or seeing cli
 
 It should go without saying, but of course, things such as shaving off your weekend facial growth, using deodorant and having clean teeth and nice breath is assumed.
 
-![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery\_dressed-up.jpg)
+![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery_dressed-up.jpg)
 
 ### On a business flight
 
 It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.\
-![Figure: Why dress up in a flight](dresscode-linkedin.PNG)  
+![Figure: Why dress up in a flight](dresscode-linkedin.PNG)
 
 ### Dressing Down (aka Casual Fridays)
 
@@ -49,6 +51,7 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 
 * [@SSW_TV tweet](https://twitter.com/SSW_TV/status/1103567355836153862?ref_src=twsrc%5Etfw)
 * [SSW Dress Code poster download (internal only)](https://sswcom.sharepoint.com/:b:/s/SSWDESIGN/EfVEIVvnUK5EoEE22SnqtskBlSE3nryQTkLDTjsfGrTV-Q?e=xilv3b)
+
 :::
 
 ![Figure: SSW Dress Code poster](SSW-Dresscode-Poster-v2.png)
@@ -58,11 +61,11 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 On very hot days, shorts are allowed as soon as you've got an email like this:
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | SSWAll |
+| To: | SSWAll |
 | Subject: | SSW Sydney - 🩳 Shorts Today! (Over 30) |
-::: email-content  
+::: email-content
 
 ### Hi All
 

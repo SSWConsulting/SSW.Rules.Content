@@ -1,4 +1,5 @@
 ---
+seoDescription: Azure DevOps Scrum Template - Boost Agility and Collaboration
 type: rule
 title: Do you use the Scrum template with Azure DevOps?
 uri: use-devops-scrum-template
@@ -12,6 +13,7 @@ authors:
 created: 2023-10-05T05:38:23.907Z
 guid: 8fefac19-a746-4ce9-903b-e18b52ce1cf2
 ---
+
 When initiating a new project in Azure DevOps, selecting the right template is crucial as it sets the groundwork for project management and collaboration. The Scrum template is a recommended choice due to its adherence to widely recognized Scrum terminology and practices. This rule guides you on how to select the Scrum template and elaborates on the benefits of doing so.
 
 <!--endintro-->
@@ -37,7 +39,6 @@ Using the Scrum template has its fair share of cool perks:
 
 Azure DevOps does have other templates like Agile and CMMI, but the Scrum template has a special spot. It sticks to the Scrum playbook, making it a go-to for teams keen on keeping the Scrum spirit alive. It's all about boosting agility, making chats flow easily, and letting new folks blend in without a hitch.
 
-
 ::: img-large
 ![Figure: Product backlog has Product Backlog Items (PBIs)](scrum_template_backlog.jpg)
 :::
@@ -45,5 +46,3 @@ Azure DevOps does have other templates like Agile and CMMI, but the Scrum templa
 ::: img-large
 ![Figure: PBI states are terms which are Scrum terms](scrum_template_states.jpg)
 :::
-
-

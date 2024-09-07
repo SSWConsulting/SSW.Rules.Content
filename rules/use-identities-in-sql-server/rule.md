@@ -1,48 +1,44 @@
 ---
+seoDescription: Data - Do you use Identities in SQL Server? Should you use identities in SQL Server? While they offer convenience and conflict-free replication, they also introduce limitations when importing data or manually updating primary keys.
 type: rule
-archivedreason: 
+archivedreason:
 title: Data - Do you use Identities in SQL Server?
 guid: fdf8110f-4d46-4459-b97c-a825bab3efed
 uri: use-identities-in-sql-server
 created: 2019-11-25T19:08:06.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- data-do-you-use-identities-in-sql-server
-
+  - data-do-you-use-identities-in-sql-server
 ---
 
 This one is going to be a controversial one. But the bottom line is every now and then you want to do something and then you curse and wish your database didn't have identities. So why use them? Let's look at the problems first:
 
 <!--endintro-->
 
-
 ::: bad
 Cons
 :::
 
-* You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
-* Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
-* Replication you will get conflicts
-
+- You can't manually change a Primary Key and let the Cascade Update do its work, eg. an InvoiceID
+- Hassles when importing data into related tables where you want to control the Primary Key eg. Order and Order Details
+- Replication you will get conflicts
 
 In Microsoft Access you have autonumbers and there is no way around them so never use them.
 But in SQL Server you have identities and we have these procs:
 
-* DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
-* SET IDENTITY\_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
-
+- DBCC CHECKIDENT - Checks the current identity value for the specified table and, if needed, corrects the identity value
+- SET IDENTITY_INSERT { table } { ON | OFF } - Allows explicit values to be inserted into the identity column of a table
 
 ::: good
 Pros
 :::
 
-* Less programming - letting the database take care of it
-* Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
-* Avoiding concurrency errors on high INSERT systems so no coding
-
+- Less programming - letting the database take care of it
+- Replication (identities are supported by SQL Server with ranges so when you want replication, no coding)
+- Avoiding concurrency errors on high INSERT systems so no coding
 
 So the only Con left is the importing of data but we can use one of the above procs to get around it. See grey box.
 
@@ -51,25 +47,25 @@ So the only Con left is the importing of data but we can use one of the above pr
 Using SQL Management Studio
 
 1. Right-Click your database to open the menu
-2. Navigate to  **Tasks | Import Data…** to open the wizard
-3. When selecting Source Tables and Views click on  **Edit Mappings…**
+2. Navigate to **Tasks | Import Data…** to open the wizard
+3. When selecting Source Tables and Views click on **Edit Mappings…**
 
-  ![Figure: SQL Import Wizard - Edit Mappings](IdentityImportEditMappings.png)
+![Figure: SQL Import Wizard - Edit Mappings](IdentityImportEditMappings.png)
 
 4. Ensure the Enable identity insert is checked
-  ![Figure: SQL Import Wizard – Ensure Enable identity insert is checked](EnableIdentityInsert.png)
+   ![Figure: SQL Import Wizard – Ensure Enable identity insert is checked](EnableIdentityInsert.png)
 
 Alternatively, you can also enable and disable the identity insert through SQL with the following commands:
 
-``` sql
+```sql
 SET IDENTITY_INSERT Shippers ON --this will allow manual identity INSERTS on the requested table
- 
+
 -- Modify the table here
- 
+
 SET IDENTITY_INSERT Shippers OFF --as it can only be on for one table at a time
 ```
 
-More information on [IDENTITY\_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
+More information on [IDENTITY_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
 
 ### Automatic Identity Range Handling
 

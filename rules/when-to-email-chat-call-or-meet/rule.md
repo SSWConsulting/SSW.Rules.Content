@@ -1,4 +1,5 @@
 ---
+seoDescription: When to Send an Email, Chat Message, Call, or Organize a Meeting - Learn how to choose the right communication method for Microsoft Teams and email, considering factors like urgency, complexity, number of people involved, availability, and task requirements.
 type: rule
 title: Do you know when to send an email, a chat message, call, or organize a meeting?
 uri: when-to-email-chat-call-or-meet
@@ -13,7 +14,7 @@ authors:
     url: https://www.ssw.com.au/people/nick-curran
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-  
+
 related:
   - important-chats-should-be-in-an-email
   - if-communication-is-not-simple-call-the-person-instead-of-im
@@ -23,6 +24,7 @@ related:
 created: 2023-02-20T23:47:34.165Z
 guid: d2e68e2c-41ad-47b0-b0ac-43ba50d8d857
 ---
+
 When deciding whether to send a chat message, call, or organize a meeting in Microsoft Teams, or send an email, there are a few factors to consider:
 
 <!--endintro-->

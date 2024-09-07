@@ -1,4 +1,5 @@
 ---
+seoDescription: Maximize meeting productivity by minimizing attendees to 6 or fewer, ensuring everyone contributes and participates.
 type: rule
 title: Do you only invite the minimum number of people possible?
 uri: only-invite-the-minimum-number-of-people-possible

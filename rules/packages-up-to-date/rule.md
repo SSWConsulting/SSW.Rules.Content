@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep your npm and yarn packages up to date to ensure your application's security and functionality.
 type: rule
 title: Do you keep your npm and yarn packages up to date?
 uri: packages-up-to-date
@@ -16,7 +17,7 @@ authors:
   - title: Zach Keeping
     url: https://www.ssw.com.au/people/zach-keeping
 related:
-  - the-best-package-manager-for-react
+  - best-package-manager-for-node
   - monitor-packages-for-vulnerability
 redirects:
   - do-you-keep-your-npm-packages-up-to-date
@@ -24,6 +25,7 @@ created: 2020-09-30T00:17:47.000Z
 archivedreason: null
 guid: 1cf8a8d6-8140-42bb-8f5f-d8416a1f9dd7
 ---
+
 `youtube: https://www.youtube.com/embed/LN2zsrLqljY`
 **Video: NPM package hell 🔥... How to avoid going insane with [Brook Jeynes](https://ssw.com.au/people/brook-jeynes/) (4 min)**
 

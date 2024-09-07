@@ -1,4 +1,5 @@
 ---
+seoDescription: Deploy to multiple environments with PowerShell and Infrastructure-As-Code, including staging and production.
 type: rule
 archivedreason: Deprecated - Currently we deploy with PowerShell and Infrastructure-As-Code via platforms like GitHub and AzureDevOps.
 title: Do you Deploy to other Environments?
@@ -6,11 +7,10 @@ guid: ed2c4951-62af-4e56-8e98-67c53a5fb67d
 uri: do-you-deploy-to-other-environments
 created: 2013-02-06T18:56:41.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
 ---
 
 Once you have configured “Build Once, Deploy Many” you can open the folder for any build on the build server and deploy any build, to any environment.

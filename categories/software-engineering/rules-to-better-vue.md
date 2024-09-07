@@ -7,6 +7,7 @@ index:
 - why-vue-is-great
 - best-ide-for-vue
 - set-up-vue-project
+- best-package-manager-for-node
 
 ---
 

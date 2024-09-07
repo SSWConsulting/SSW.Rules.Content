@@ -1,33 +1,35 @@
 ---
+seoDescription: How to take feedback or criticism effectively, even if it's not your fault, by acknowledging the issue, apologizing, and taking action to prevent future occurrences.
 type: rule
-archivedreason: 
-title: Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?
+archivedreason:
+title: Communication - Do you know the 3 A's for receiving feedback/criticism (even if it’s not your fault)?
 guid: 496ddcb4-0eaa-46b3-be94-bbfaf3bc8e84
 uri: how-to-take-feedback-or-criticism
 created: 2013-04-08T20:28:20.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
- - feedback-avoid-chopping-down-every-example
- - make-complaints-a-positive-experience
-redirects:
-- do-you-know-how-to-take-feedback-criticism-(even-if-it’s-not-your-fault)
-- communication-do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault
-- communication-do-you-know-how-to-take-feedback-criticism-(even-if-it’s-not-your-fault)
-- do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault
+  - feedback-avoid-chopping-down-every-example
+  - make-complaints-a-positive-experience
+  - being-a-good-consultant
 
+redirects:
+  - do-you-know-how-to-take-feedback-criticism-(even-if-it’s-not-your-fault)
+  - communication-do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault
+  - communication-do-you-know-how-to-take-feedback-criticism-(even-if-it’s-not-your-fault)
+  - do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault
 ---
 
 In any job, you will most likely at some point face some criticism. Someone may be telling you that you’ve done something wrong or just expressing displeasure because you didn’t do something they wanted.
 
 <!--endintro-->
 
-The best way to take this is to reply to the person and tell them the following 3 A's.
+The best way to take this is to reply to the person and tell them the following 3 A's for receiving feedback.
 
-### The 3 A’s:  Acknowledge, Apologize, Act  
+### The 3 A’s: Acknowledge, Apologize, Act
 
 **Acknowledge -** The first part of good customer service is **acknowledging** that something happened. If you don't acknowledge the pain, then another person won't know if you agree or not.
 
@@ -43,10 +45,10 @@ Even if you've been wrongly accused of something, you should still show you unde
 
 Next is to see if you can avoid it happening in the first place – you could explain the new steps in the process you’ll add or simply say: _"I'll be more diligent testing in the future"_.
 
-![Figure: Make sure you know how to take criticism well](dilbert-criticism-1.gif)  
+![Figure: Make sure you know how to take criticism well](dilbert-criticism-1.gif)
 
 ![Figure: Active listening can help with communication issues](Defensive-behaviour.png)
 
-### Video 
+### Video
 
 `youtube: https://youtu.be/7wlUSq73Ejo`

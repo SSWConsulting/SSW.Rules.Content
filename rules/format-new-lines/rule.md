@@ -16,6 +16,7 @@ authors:
 related:
   - add-useful-and-concise-figure-captions
   - use-the-right-html-figure-caption
+  - html-css-do-you-know-how-to-create-spaces-in-a-web-page
 created: 2021-07-06T01:13:05.707Z
 archivedreason: ""
 guid: e05522a7-1822-412c-80ee-5619039f7d96
@@ -28,7 +29,7 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 
 ::: info
 **Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!
-You should use CSS margin and/or padding instead.
+You should [use CSS margin and/or padding](/html-css-do-you-know-how-to-create-spaces-in-a-web-page) instead.
 
 Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
@@ -42,7 +43,9 @@ On the other hand, in regards to **emails** and/or **informal documents**, line 
 Consider breaking lines/paragraphs when you have a long block of text. You should aim to separate the information by context.
 
 ::: greybox
+
 SSW is made up of a great team of staff that is passionate about technology and how it meets business needs. Today SSW has offices in Sydney, Melbourne, Brisbane, Newcastle, Strasbourg (France) and Hangzhou (China), with over 100 employees. Want to meet them? Have a look at SSW People.
+
 :::
 ::: bad  
 Figure: Bad example - Long block of text
@@ -71,6 +74,7 @@ Figure: Bad example - No line break before the note
 :::
 
 ::: greybox
+
 Test the login functionality thoroughly.
 **Note:** Try both valid and invalid credentials.
 :::
@@ -92,6 +96,7 @@ Figure: Bad example - No line break before the URL
 ::: greybox
 Check out these employment opportunities at SSW:  
 <https://www.ssw.com.au/employment#available>
+
 :::
 ::: good  
 Figure: Good example - The URL being on a fresh line makes it much easier to read
@@ -102,6 +107,7 @@ Figure: Good example - The URL being on a fresh line makes it much easier to rea
 It's a good idea to have some space after headings.
 
 ::: greybox
+
 Hey Bob,
 Check out this awesome new video about the SSW Cultural Exchange Program!
 :::
@@ -139,6 +145,7 @@ I will do the IoC after.
 
 :::
 ::: good  
+
 Figure: Good example - List is used to separate information and make it easier to digest
 :::
 

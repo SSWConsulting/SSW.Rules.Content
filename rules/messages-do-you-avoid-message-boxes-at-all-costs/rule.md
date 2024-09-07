@@ -1,6 +1,7 @@
 ---
+seoDescription: Avoid message boxes at all costs and only use them to confirm record deletion or kick off long running processes that cannot be cancelled.
 type: rule
-archivedreason: 
+archivedreason:
 title: Messages - Do you avoid message boxes at all costs?
 guid: 38ab92dd-cb1e-49f8-b154-c723d467be4c
 uri: messages-do-you-avoid-message-boxes-at-all-costs
@@ -8,7 +9,6 @@ created: 2012-11-27T04:24:26.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 Now, if you can't get rid of message boxes; try again.
@@ -21,15 +21,12 @@ Now think of that scenario every time you give a user a message box.
 
 Exception: Only use them in the following scenarios:
 
-* Confirming the deletion of a record
-* Kicking off a long running process that cannot be cancelled
-
-
+- Confirming the deletion of a record
+- Kicking off a long running process that cannot be cancelled
 
 ::: bad  
 ![Figure: Bad example - could the information in this message box be moved into the panel on the right](../../assets/MoveErrorMSG.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good example - An error message that does not pop up and block your user](../../assets/oneplacemailerror.png)  

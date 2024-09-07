@@ -1,6 +1,8 @@
 ---
 type: rule
-title: Post-Production - Do you create 'Golden Moments'?
+title: Post-Production - Do you create 'Golden Moments' for the video hook?
+seoDescription: Start your video with a captivating Golden Moment to grab
+  audience attention and set the tone for your engaging content.
 uri: golden-moment
 authors:
   - title: Landon Maxwell
@@ -9,7 +11,7 @@ created: 2021-10-06T01:05:17.525Z
 guid: 73c13d84-6f88-46af-8cb7-790489f73c92
 ---
 In a world of constant distractions, getting your audience's attention to watch your video content can be difficult.
-One great method is to start your video with a tiny snippet that will 'tease' the audience, which is called the Golden Moment (aka Featured Highlight, hype teaser).
+One great method is to start your video with a tiny snippet that will 'tease' the audience, which is called the Golden Moment (aka Featured highlight, hype teaser, or hook).
 
 <!--endintro-->
 
@@ -50,3 +52,5 @@ When recording your video, a little bit of forward thinking will go a long way.
 Make sure you include a sentence that covers all of the Golden Moment essentials listed above.
 
 It is best if you can incorporate it into your main content, but if your main content doesn't have anything suitable then your Golden Moment can be recorded afterwards. In this situation, try to replicate the initial recording conditions so it matches the rest of your video (e.g. same lighting, clothing, position and background).
+
+You can use this custom GPT to help brainstorm a script for the hook: [Video Hook Generator](https://chatgpt.com/g/g-gjEEhVR9c-video-hook-generator)

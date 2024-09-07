@@ -8,7 +8,10 @@ index:
 - do-you-use-the-code-health-extensions-in-vs-code
 - do-you-use-the-code-health-extensions-in-visual-studio
 - consistent-code-style
+- do-you-know-which-check-in-policies-to-enable
 - safe-against-the-owasp-top-10
+- do-you-know-how-to-get-code-line-metrics
+
 ---
 
 

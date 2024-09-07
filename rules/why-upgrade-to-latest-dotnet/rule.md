@@ -1,6 +1,7 @@
 ---
+seoDescription: Upgrade from .NET Framework to the latest .NET to future-proof your applications with improved performance, cross-platform compatibility, and modern development features.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know why to upgrade from .NET Framework to the latest .NET?
 guid: 75e296c8-1c21-4a4e-a2fb-4df32fd6140e
 uri: why-upgrade-to-latest-dotnet
@@ -8,9 +9,10 @@ created: 2023-10-06T23:18:38.515Z
 authors:
   - title: Yazhi Chen
     url: https://www.ssw.com.au/people/yazhi-chen
-
 ---
+
 In the world of software development, staying up-to-date with technology is not just a trend; it's a necessity. As the digital landscape evolves, so do the tools and frameworks that developers rely on to build applications. One significant transition that has been taking place in recent years is the migration from the legacy .NET Framework to the latest .NET offerings. Read more about [the .NET version lifecycle](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core#lifecycle). But why is this shift so crucial, and what benefits does it bring to the table?
+
 <!--endintro-->
 
 ## The Evolution of .NET
@@ -21,7 +23,7 @@ To understand the significance of upgrading from .NET Framework to the latest .N
 
 The .NET Framework has been the backbone of Windows application development for nearly two decades. It has provided a robust and versatile environment for building Windows desktop applications, web applications, and services. However, as technology progressed, the limitations of .NET Framework became more apparent.
 
-#### The Pain Point:
+#### The Pain Point
 
 * **Compatibility** - .NET Framework applications run on Windows, limiting cross-platform deployment.
 * **Performance** - Each new version of .NET brings improved performance and resource utilization, allowing the same .NET code to perform better on the same hardware.
@@ -52,10 +54,9 @@ Upgrading from .NET Framework to the latest .NET is not just a technological shi
 
 For more information on the support policies of .NET Framework and .NET, you can refer to the following resources:
 
-- [.NET Framework support](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)
-- [.NET support](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
+* [.NET Framework support](https://learn.microsoft.com/en-us/lifecycle/products/microsoft-net-framework)
+* [.NET support](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
 
+## Related articles
 
-
-
-
+* [Adam's Blog - .NET 8 Migrations Made Easy](https://adamcogan.com/2024/03/19/dotnet-8-migrations-made-easy/)

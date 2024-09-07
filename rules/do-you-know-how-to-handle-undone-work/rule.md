@@ -1,4 +1,5 @@
 ---
+seoDescription: Handle undone work effectively by adjusting Acceptance Criteria and splitting large PBIs into smaller, achievable tasks with v2 PBI naming convention.
 type: rule
 title: Do you know how to handle Undone Work (aka V2 for PBIs)?
 uri: do-you-know-how-to-handle-undone-work
@@ -11,6 +12,7 @@ created: 2014-07-24T19:28:00.000Z
 archivedreason: null
 guid: aaf53b41-bed8-4237-b114-26a502b44c9b
 ---
+
 The goal is always to complete Product Backlog Items (PBIs) for the Sprint Review.
 
 Often PBIs grow or change and it does not make sense to deliver what was originally proposed in the Acceptance Criteria.
@@ -23,8 +25,8 @@ Assuming approval, then adjust some of the Acceptance Criteria, add "v1" to the 
 
 e.g.
 
-* Customer and Contact Form v1
-* Customer and Contact Form v2
+- Customer and Contact Form v1
+- Customer and Contact Form v2
 
 **Note:** A common example for when to use this is when the full acceptance criteria of a large PBI (or Epic) would not be attainable within one Sprint, so splitting an Epic into 2 attainable PBIs is a better option.
 

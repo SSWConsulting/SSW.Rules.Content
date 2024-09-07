@@ -1,22 +1,22 @@
 ---
+seoDescription: Use "&lt; Back" instead of "Previous" or other variations to navigate through records and follow Microsoft's design specifications for consistency.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use "Back" instead of "Previous" (or other variations)?
 guid: cd64ef97-75d9-4158-b732-f319de35069b
 uri: do-you-use-back-instead-of-previous-or-other-variations
 created: 2009-12-04T09:16:18.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tristan Kurniawan
+    url: https://ssw.com.au/people/tristan-kurniawan
 related: []
 redirects:
-- do-you-use-＂-back＂-instead-of-＂-previous＂-or-other-variations
-
+  - do-you-use-＂-back＂-instead-of-＂-previous＂-or-other-variations
 ---
 
-According to [Design Specifications and Guidelines - User Assistance](https://docs.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29), the commands for navigating through a wizard should be "&lt; Back" and "Next &gt;".   
+According to [Design Specifications and Guidelines - User Assistance](https://docs.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29), the commands for navigating through a wizard should be "&lt; Back" and "Next &gt;".
 
 <!--endintro-->
 
@@ -35,9 +35,9 @@ Below is an example of a Good "&lt; Back" link versus some Bad variations.
 :::
 
 ::: bad  
-![Figure: This is bad because it has too many "&lt;"s or it has no space between the "&lt;" and the "Back"](badbacklink.gif)  
+![Figure: This is bad because it has too many "<"s or it has no space between the "<" and the "Back"](badbacklink.gif)  
 :::
 
 ::: good  
-![Figure: A Good example of a "&lt; Back" link](textboxeswithshowbutton.gif)  
+![Figure: A Good example of a "< Back" link](textboxeswithshowbutton.gif)  
 :::

@@ -7,14 +7,16 @@ redirects:
   - rules-to-successful-sales-and-account-management
 index:
   - do-you-know-the-6-stages-in-the-sales-pipeline
+  - follow-up-online-leads-phone-call
   - do-you-manage-your-inbound-leads-effectively
   - do-you-perform-a-background-check
   - do-you-have-clear-engagement-models
   - how-to-justify-your-rates
   - meetings-are-you-prepared-for-the-initial-meeting
   - meetings-do-you-know-the-agenda-for-the-initial-meeting
+  - record-your-sales-meetings
   - meetings-do-you-have-a-debrief-after-an-initial-meeting
-  - do-you-send-some-client-love-a-few-days-after-the-initial-meeting
+  - client-love-after-initial-meeting
   - do-you-incentivize-a-quick-spec-review-sale
   - follow-up-to-confirm-spec-review
   - connect-client-im

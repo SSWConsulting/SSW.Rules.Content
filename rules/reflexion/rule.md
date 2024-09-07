@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve ChatGPT outputs through reflexion by having it critique itself, enhancing accuracy and iteration.
 type: rule
 title: ChatGPT - Do you use Reflexion to iterate on outputs?
 uri: reflexion
@@ -39,7 +40,7 @@ Reflexion takes an LLM into a more nuanced and iterative approach to problem-sol
 Write me a recipe for healthy cookies.
 :::
 
-::: bad 
+::: bad
 Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and misses the opportunity for iterative improvement
 :::
 
@@ -53,11 +54,12 @@ Figure: Bad Example - This prompt doesn't engage the LLM in a Reflexion loop and
 
 :::
 
-::: good 
+::: good
 Figure: Good Example - This prompt initiates a Reflexion loop by asking the LLM to evaluate and critique its output
 :::
 
 ### Iteration - Manual Edits vs Automatic Edits
+
 ChatGPT is great at giving recommendations for improvement, but sometimes it doesn't apply them very well. You can always apply some of the recommendations manually and feed your new version back in.
 
 In the good example above, after Prompt #2, you could update the recipe yourself and change Prompt #3 to say to evaluate the new version.

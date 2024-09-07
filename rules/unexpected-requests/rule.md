@@ -1,6 +1,10 @@
 ---
 type: rule
 title: Do you know how to handle unexpected requests in the middle of a Sprint?
+seoDescription: When unexpected requests arise during a Sprint, acknowledge the
+  request and prioritize it with the Product Owner. If it's not crucial, add the
+  new task to the backlog or remove an item of similar size from the current
+  Sprint.
 uri: unexpected-requests
 authors:
   - title: Adam Cogan
@@ -26,6 +30,7 @@ created: 2009-08-20T04:57:29.000Z
 archivedreason: null
 guid: d98a0462-7682-4532-b440-5376d2d84a44
 ---
+
 To use Scrum correctly, all team members must understand the importance of Sprints, Sprint Planning, and capacity. Sprints are sacred - they give the team a clear goal, with a clear set of tasks and a timeframe to achieve it in.
 
 However, Product Owners or stakeholders can derail a Sprint by coming to the team with a new task that wasn't planned for. Maybe it's a new feature, or a critical bug, or just a time-sensitive item that appeared out of the blue.
@@ -33,14 +38,15 @@ However, Product Owners or stakeholders can derail a Sprint by coming to the tea
 These interruptions may occur frequently - especially with clients or teams that aren't familiar with Scrum. Therefore it's important to teach the client how to treat the team.
 
 <!--endintro-->
-`youtube: https://www.youtube.com/embed/ua_y1TfdflM`   
+
+`youtube: https://www.youtube.com/embed/ua_y1TfdflM`  
 **Video: The best way to handle requests from your boss (2 min 38 sec)**
 
 If a Product Owner or stakeholder comes to you with a new request, it's important that you first acknowledge it (e.g. "That's a great idea!"). Then, you need to establish the priority.
 
 If it is a **stakeholder** who contacted you, loop in the Product Owner so they can help prioritize. If you can't reach the Product Owner, let the stakeholder know you will ask the Product Owner about it later.
 
-If it is the **Product Owner** who contacted you, then you need to work with them to figure out the priority. Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint.  
+If it is the **Product Owner** who contacted you, then you need to work with them to figure out the priority. Most of the time, the Product Owner is happy to add the new request to the product's backlog. But every now and then, they are going to want to change your priorities and have you work on something which they see as more important than some of the items in your current Sprint.
 
 **So what will you do when this happens?**
 
@@ -48,46 +54,45 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 
 1. Double check **with the Product Owner** that this new item is more important than the current Sprint items (if not add it to the Product Backlog instead)
 2. Add the new PBI to the current Sprint
-3. Remove another item of similar size from the Sprint and put it back in the backlog
+3. Remove another PBI of similar size from the Sprint and put it back in the backlog (with the team's consent)
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | {{ PRODUCT OWNER }} |
+| To: | {{ PRODUCT OWNER }} |
 | Subject: | SSW TV - Sprint 643 - PBI Substitutions |
 
-::: email-content  
+::: email-content
 
-### Hi {{ PRODUCT OWNER }},
+### Hi {{ PRODUCT OWNER }}
 
-As per our conversation, you have directed us to complete some urgent PBIs this Sprint in preparation for next week’s conference:
+As per our conversation, you have asked us to prioritise some urgent PBIs this Sprint:
 
 **Added:**
 
-
-- {{ PBI URL }}
-- {{ PBI URL }}
-
+* {{ PBI URL }}
+* {{ PBI URL }}
 
 **Removed:**
 
-- {{ PBI URL }}
+* {{ PBI URL }}
 
+Normally, these PBIs would be prioritized for the next Sprint, but we understand the time constraints for this work.
 
-Normally these PBIs would be prioritized for the next Sprint (see https://ssw.com.au/rules/unexpected-requests), but we understand the time constraints for this work.
+<This email is as per <https://www.ssw.com.au/rules/unexpected-requests> >
 
 :::
 :::
 ::: good
 Figure: Good example - For urgent changes, you can substitute in some PBIs as long as you stay within capacity
-::: 
+:::
 
 ### Sprint Goal RIP?
 
 In the rare case where the entire Sprint goal and all PBIs are no longer high priority, you can instead cancel the entire Sprint and start again:
 
 1. Move any left over work/items to the backlog
-2. Send a debrief to the client with a note. E.g. *As per your request we have just cancelled Sprint 05 and will start on Sprint 06. The remaining items have been moved into the backlog.*
+2. Send a debrief to the client with a note. E.g. _As per your request we have just cancelled Sprint 05 and will start on Sprint 06. The remaining items have been moved into the backlog._
 3. Send a Sprint Forecast for the new Sprint
 
 This should only be done in extreme circumstances as it is traumatic to the team.

@@ -1,17 +1,17 @@
 ---
+seoDescription: Do you have auto-generated maintenance pages on every project? Yes, with netTiers.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have auto-generated maintenance pages on every project ?
 guid: 13cf7a86-c170-438a-8072-d894b12e5f8d
 uri: have-auto-generated-maintenance-pages
 created: 2016-11-28T18:52:32.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-have-auto-generated-maintenance-pages-on-every-project
-
+  - do-you-have-auto-generated-maintenance-pages-on-every-project
 ---
 
 Nowadays, most application are dealing with Data. And it would be nice to have maintenance pages to manage data (select, insert, update and delete).
@@ -29,16 +29,11 @@ Please follow these steps to create your maintenance pages.
 5. Set requires properties following instructions.
 
 ![Figure: Properties Window](NetTiersConfig.jpg)  
-6. Generate.
-7. Open the solution.
-8. Build it and run it in IE.
-9. Congratulations! It's up and running.
+6. Generate. 7. Open the solution. 8. Build it and run it in IE. 9. Congratulations! It's up and running.
 
-![Figure: The application is running](RunNorthwind.jpg)  
-
+![Figure: The application is running](RunNorthwind.jpg)
 
 Code Smith enables to do this generate with a single command. If you want to generate it again, just run this command.
-
 
 ```bash
 cs D:\DataDavidBian\Personal\New12345\NetTiers.csp

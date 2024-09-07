@@ -1,4 +1,5 @@
 ---
+seoDescription: When ignoring Code Analysis rules, use comments not exclusion files to suppress unnecessary warnings and improve code maintainability.
 type: rule
 title: Do you use comments not exclusion files when you ignore a Code Analysis rule?
 uri: do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule
@@ -12,7 +13,8 @@ archivedreason: null
 guid: 2733b6f3-1374-41eb-ba4e-d8188eaa1098
 ---
 
-When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing. 
+When running code analysis you may need to ignore some rules that aren't relevant to your application. Visual Studio has a handy way of doing thing.
+
 <!--endintro-->
 
 ::: bad
@@ -35,6 +37,7 @@ public partial class Account
     }
 }
 ```
+
 ::: good
 Figure: Good example - The Solution and Projects are named consistently
 :::

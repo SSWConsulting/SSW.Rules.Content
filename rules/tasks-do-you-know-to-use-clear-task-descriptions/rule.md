@@ -1,4 +1,5 @@
 ---
+seoDescription: Clear task descriptions in Scrum ensure anyone can complete tasks by providing detailed information, using rich text and images, and attaching relevant emails.
 type: rule
 title: Tasks - Do you know to use clear task descriptions?
 uri: tasks-do-you-know-to-use-clear-task-descriptions
@@ -11,6 +12,7 @@ created: 2010-04-28T17:56:54.000Z
 archivedreason: null
 guid: 51b0b862-66cd-43e8-9f88-046dc423995d
 ---
+
 When you create tasks in Scrum you are doing this within a time box and you tend to add only the information you need to remember what the task is. And the entire Team was at the meeting and were involved in the discussions around the task, so why do you need more?
 
 <!--endintro-->

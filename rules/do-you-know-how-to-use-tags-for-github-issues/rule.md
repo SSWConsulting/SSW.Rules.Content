@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to use labels for GitHub issues and streamline your open-source project's workflow.
 type: rule
 title: Do you know how to use labels for GitHub Issues?
 uri: do-you-know-how-to-use-tags-for-github-issues
@@ -14,6 +15,7 @@ created: 2019-11-15T04:19:40.000Z
 archivedreason: null
 guid: c530e5c8-1fca-4a4b-bc17-fb0ba65b8625
 ---
+
 It is important that you, especially a developer, knows how to use labels for GitHub issues when using an open source project on GitHub, as it would help compact issues and make the issue management workflow more efficient. Essentially, having such a predictable workflow will let the community feel professional.
 
 <!--endintro-->

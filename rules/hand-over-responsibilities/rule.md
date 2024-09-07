@@ -1,4 +1,5 @@
 ---
+seoDescription: Hand over responsibilities effectively to ensure a seamless transition and minimize disruptions during your absence.
 type: rule
 title: Do you hand over your responsibilities?
 uri: hand-over-responsibilities
@@ -9,6 +10,7 @@ authors:
     url: https://ssw.com.au/people/brady-stroud
 related:
   - hand-over-projects
+  - how-to-hand-over-tasks-to-others
 redirects: []
 created: 2024-03-07T06:22:03.000Z
 archivedreason: null
@@ -23,6 +25,7 @@ It's essential your responsibilities are handed over for a few reasons so your a
 :::
 
 <!--endintro-->
+
 ![Figure: This is what happens if you don't hand over correctly](angry-dev-beach.png)
 
 There are a number of things to remember to handover

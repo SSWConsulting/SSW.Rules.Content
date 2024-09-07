@@ -33,7 +33,7 @@ index:
 - do-you-know-the-best-way-of-managing-recurring-tasks
 - do-you-constantly-add-to-the-backlog
 - fix-small-web-errors
-- do-you-have-a-knowledge-base-kb
+- knowledge-base-kb
 - do-you-know-the-best-way-to-give-the-best-customer-support
 - do-you-stop-dealing-with-data-and-schema
 - do-you-have-separate-development-testing-and-production-environments
@@ -58,17 +58,17 @@ index:
 - hand-over-projects
 - hand-over-responsibilities
 - do-you-have-a-deployment-plan
+- risks-of-deploying-on-fridays
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 - do-you-draft-all-important-agreements-yourself
 - do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
-- do-you-conduct-a-test-please
+- conduct-a-test-please
 - do-you-have-an-engagement-lifecycle
 - request-a-test-please
 - do-you-know-the-tools-you-need-before-a-test-please
 - does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule
 - management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 - management-do-you-know-who-has-authority
-- conduct-a-test-please
 - have-an-induction-program
 - do-you-identify-development-test-and-production-crm-web-servers-by-colors
 - record-a-quick-and-dirty-done-video
@@ -84,6 +84,7 @@ index:
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 - hard-tasks-first
 - poc-vs-mvp
+- support-send-links
 
 ---
 ### What is a successful project?

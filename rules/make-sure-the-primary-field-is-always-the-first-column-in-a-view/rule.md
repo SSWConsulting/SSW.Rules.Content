@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure the Primary Field is always the first column in a view to provide seamless navigation and user experience in Dynamics and Model-driven PowerApps.
 type: rule
 title: Do you make sure the Primary Field is always the first column in a view?
 uri: make-sure-the-primary-field-is-always-the-first-column-in-a-view
@@ -13,7 +14,6 @@ redirects:
 created: 2020-06-29T21:32:13.000Z
 archivedreason: null
 guid: 2d7b56ea-cd7d-4b02-950b-ba4a662594ee
-
 ---
 
 When modifying existing or creating custom views in Dynamics (or Model-driven PowerApps) always pay special attention to the first column. The first column should always contain the **Primary Field** for the entity that the view is based on. For example, all views for **Opportunities** should use **Topic** (name), **Contacts** should use **Full Name** (fullname) as the first column.

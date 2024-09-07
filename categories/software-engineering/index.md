@@ -11,6 +11,7 @@ index:
 - rules-to-better-mvc
 - rules-to-better-bots
 - rules-to-better-clean-architecture
+- rules-to-better-domain-driven-design
 - rules-to-better-version-management
 - rules-to-better-bug-management-and-feedback
 - rules-to-better-user-acceptance-tests-uat-for-bug-management
@@ -50,6 +51,7 @@ index:
 - rules-to-better-sql-databases-admin
 - rules-to-better-sql-databases-developers
 - rules-to-better-sql-databases-performance
+- rules-to-better-sql-databases-indexing
 - rules-to-better-unit-tests
 - rules-to-better-naming-conventions
 - rules-to-better-entity-framework
@@ -77,5 +79,9 @@ index:
 - rules-to-better-windows-forms-applications
 - rules-to-better-large-builds-in-visual-studionet
 - rules-to-better-vb6-migration-to-net
----
+- rules-to-better-command-lines
+- rules-to-better-dotnetnuke
+- rules-to-better-exchange-server
+- rules-to-better-windows-forms-applications-clickonce
 
+---

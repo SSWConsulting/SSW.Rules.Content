@@ -1,15 +1,16 @@
 ---
+seoDescription: Developers can avoid Primitive Obsession by using Strongly Typed IDs, which provide a clear representation of domain entity identifiers.
 type: rule
 title: Do you use Strongly Typed IDs to avoid Primitive Obsession
 guid: 7955fe7c-fdef-41e1-a4e6-6ccf8ae1c0eb
 uri: do-you-use-strongly-typed-ids
 created: 2023-08-10T12:15:00.0000000Z
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 archivedreason:
-related: 
-- when-to-use-value-objects
+related:
+  - when-to-use-value-objects
 redirects:
 ---
 
@@ -108,7 +109,7 @@ public class PersonConfiguration : IEntityTypeConfiguration<Person>
     public void Configure(EntityTypeBuilder<Person> builder)
     {
         var converter = new ValueConverter<PersonId, Guid>(
-            id => id.Value, 
+            id => id.Value,
             guidValue => new PersonId(guid));
 
         builder.HasKey(e => e.Id);

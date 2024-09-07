@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover powerful data fetching libraries for React - Tanstack Query, SWR, and RTK Query.
 type: rule
 title: Do you know the best libraries to fetch data in React?
 uri: fetch-data-react
@@ -121,16 +122,16 @@ SWR is an alternative to Tanstack Query developed by Vercel, the team behind Nex
 Here's a basic example of how you can use the library's fetching hook:
 
 ```tsx
-const fetcher = (url) => fetch(url).then(res => res.json())
+const fetcher = (url) => fetch(url).then((res) => res.json());
 
 export const Page = () => {
   const { data, error, isLoading } = useSWR("/api/todos", fetcher);
 
-  if (error) return <div>Error loading data</div>
-  if (loading) return <div>Loading...</div>
+  if (error) return <div>Error loading data</div>;
+  if (loading) return <div>Loading...</div>;
 
-  return <div>{/* Display todos here */}</div>
-}
+  return <div>{/* Display todos here */}</div>;
+};
 ```
 
 Some features of SWR:
@@ -155,13 +156,13 @@ Additionally, RTK Query, part of the Redux Toolkit, is a similar library to SWR 
 Here's a basic example of how you can use RTK Query:
 
 ```tsx
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
+import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 const todosApi = createApi({
-  baseQuery: fetchBaseQuery({ baseUrl: '/api' }),
+  baseQuery: fetchBaseQuery({ baseUrl: "/api" }),
   endpoints: (builder) => ({
     getTodos: builder.query<Array<Todo>, void>({
-      query: () => 'todos',
+      query: () => "todos",
     }),
   }),
 });
@@ -177,9 +178,7 @@ const TodoPage = () => {
   if (isLoading) return <p>Loading...</p>;
   if (isError) return <p>Error fetching todos</p>;
 
-  return (
-    <div>{/*( Display todos here */}</div>
-  );
+  return <div>{/*( Display todos here */}</div>;
 };
 ```
 

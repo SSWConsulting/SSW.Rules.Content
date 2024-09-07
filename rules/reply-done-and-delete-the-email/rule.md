@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Dones - Do you reply 'Done' and delete the original email?
+seoDescription: When reassigning tasks, reply with "Done" and provide a URL link if applicable.
 uri: reply-done-and-delete-the-email
 authors:
   - title: Adam Cogan
@@ -19,7 +20,6 @@ redirects:
 created: 2009-03-23T04:03:34.000Z
 archivedreason: null
 guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
-
 ---
 
 If someone asks you to perform a task by email, don't reply "OK, I will do that" or fail to reply at all. Instead, do the task and reply "<mark>Done</mark>" when the task has been completed, and then delete the email. This way the person requesting the task knows that it has been done, and doesn't waste time following you up.
@@ -30,30 +30,36 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 ### Only say "Done" when the work is completed
 
-* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
-* If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
-* For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
+- [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
+- If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
+- For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
 
 ### Alternatives to classic "Done" emails
 
-* If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
-* If you don't agree with the task or are unable to complete the task:
+- If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
+- If you don't agree with the task or are unable to complete the task:
+
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
   2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 
-* If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
+- If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
+- If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
   **Note:** If you expect the 'done' to happen soon, wait to send the email instead of using "Partially done"
+- If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
+- If there is a better solution for the requested task:
 
-* If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
+  1. Have a conversation first
+  2. Reply <mark>Done differently - {{ SOLUTION AND EXPLANATION }}</mark>.
+
+- If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Jason |
+| To: | Jason |
 | Subject: | RE: Northwind - Include one more field to the form |
 
-::: email-content  
+::: email-content
 
 ### Hi Jason
 
@@ -78,12 +84,12 @@ In any reply, [include relevant information](/dones-do-you-include-useful-detail
 It is important that you clearly reply to each of the multiple tasks.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Jason |
+| To: | Jason |
 | Subject: | Northwind website - Update logo + add a photo |
 
-::: email-content  
+::: email-content
 
 ### Hi Jason
 
@@ -99,12 +105,12 @@ Bob
 **Figure: Original email with the client request**
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
@@ -118,12 +124,12 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
@@ -131,15 +137,15 @@ I've replied inline in **bold**.
 
 Jason
 
-- - -
+---
 
 **From:** Bob
 **To:** Jason
-**Subject:** Northwind website - Update logo + add a photo  
+**Subject:** Northwind website - Update logo + add a photo
 
 ### Hi Jason
 
- &gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**   
+&gt; 1. Update the logo on Northwind website to the new logo. **Done - See northwind&#46;com**  
  &gt; 2. Take a photo of the office façade and add to the "About Us" page. **Not Done - I couldn't find a camera**
 
 Bob
@@ -151,19 +157,19 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 1. Update the logo on Northwind website to the new logo  
 Done - See <u>northwind&#46;com</u>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > 2. Take a photo of the office façade and add to the "About Us" page  
 Not Done - I couldn't find a camera
 
 ### To myself
@@ -179,14 +185,14 @@ Figure: Good example – It is very clear which tasks have been done and which h
 ::: greybox
 **Extra:**
 
-What do you do with the "Not Done" tasks?  
+What do you do with the "Not Done" tasks?
 
 If there are multiple items of work in an email and you can't do them all at once, reply to each item individually ("Done" and "Not Done"). With the "Not Dones" you should add a plan to action:
 
-a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later   
-b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)   
-c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix   
-d. Give a reason if it won't be done   
+a. Put [yourself in the "To:"](/dones-do-you-send-yourself-emails) if you are going to do the remaining items later  
+b. Add another person if you are [reassigning](/how-to-hand-over-tasks-to-others)  
+c. [Create a PBI/Issue](/turn-emails-into-pbis) for the team to fix  
+d. Give a reason if it won't be done  
 :::
 
 #### Replying "All done"
@@ -196,12 +202,12 @@ If you have completed multiple tasks without requiring additional information, i
 Make sure all tasks have been done and others can see the history of the requests. A URL is especially useful in these cases.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
@@ -236,16 +242,16 @@ When it fits, choose text over images or screenshots! This way, it's simpler to 
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Bob |
+| To: | Bob |
 | Subject: | RE: Northwind website - find orders |
 
-::: email-content  
+::: email-content
 
 ### Hi Bob
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;1. Find the orders   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &gt;1. Find the orders  
 Done - used the following to get it:
 
 ```sql
@@ -255,15 +261,15 @@ ProdName = CASE WHEN Download.ProdCategoryID <> ''
 THEN ProdCategory.CategoryName
 ELSE Download.ProdName END,
 Downloads = (SELECT Count(*) FROM ClientDiary
-WHERE ClientDiary.DownloadID = Download.DownloadID 
+WHERE ClientDiary.DownloadID = Download.DownloadID
 
 AND ClientDiary.CategoryID = 'DOWN'
 AND ClientDiary.DateCreated > '01/01/2010'
 AND ClientDiary.DateCreated < '01/01/2020')
 FROM
 Download
-LEFT JOIN ProdCategory 
-ON Download.ProdCategoryID = ProdCategory.CategoryID    
+LEFT JOIN ProdCategory
+ON Download.ProdCategoryID = ProdCategory.CategoryID
 
 ORDER By Downloads DESC
 ```

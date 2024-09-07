@@ -1,21 +1,22 @@
 ---
+seoDescription: Learn how to send tasks one email at a time and improve communication by breaking up unrelated tasks, grouping related tasks, and replying to "done"s.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to send tasks one email at a time?
 guid: 9f321108-9a2e-4a89-b287-aff227d5d5a2
 uri: do-you-send-tasks-one-email-at-a-time
 created: 2009-03-30T03:26:32.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- send-email-tasks-to-individuals
+  - send-email-tasks-to-individuals
+  - communication-are-you-specific-in-your-requirements
 redirects: []
-
 ---
 
 Do you sometimes find that people don't follow all the items you have listed in a long and carefully drafted email?
@@ -34,13 +35,13 @@ If you have a list of things to be done, have a second look, you may find that y
 As per the examples above, if you are requesting many smaller tasks under the same topic, you should group them in the same email. In this case, [number each task that you wish to be completed](/number-tasks-questions).
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Steven |
+| To: | Steven |
 | Subject: | Northwind website domain change and CSS fixes |  
-::: email-content  
+::: email-content
 
-### Hi Steven  
+### Hi Steven
 
 1. Please buy the domain **Northwind.com**
 2. Migrate all the content from **Northwind.com.au** to **Northwind.com**
@@ -55,13 +56,13 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Steven |
+| To: | Steven |
 | Subject: | Northwind website domain change |  
-::: email-content  
+::: email-content
 
-### Hi Steven  
+### Hi Steven
 
 1. Please buy the domain **Northwind.com**
 2. Migrate all the content from **Northwind.com.au** to **Northwind.com**
@@ -70,13 +71,13 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 :::  
 :::
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Steven |
+| To: | Steven |
 | Subject: | Northwind website CSS fixes |  
-::: email-content  
+::: email-content
 
-### Hi Steven  
+### Hi Steven
 
 1. Make sure all the fonts are consistent
 2. Make the headings bold

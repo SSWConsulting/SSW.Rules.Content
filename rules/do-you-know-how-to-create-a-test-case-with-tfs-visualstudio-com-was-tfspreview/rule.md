@@ -1,4 +1,5 @@
 ---
+seoDescription: Create test cases in TFS Visual Studio using linked work items and iterations to streamline your testing process.
 type: rule
 title: Do you know how to create a Test Case with TFS.VisualStudio.com (was
   TFSPreview)?

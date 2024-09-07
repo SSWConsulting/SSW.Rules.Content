@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost code quality and consistency for lightweight web projects using CSSLint and ESLint extensions in VS Code.
 type: rule
 title: Do you use the Code Health Extensions in VS Code?
 uri: do-you-use-the-code-health-extensions-in-vs-code
@@ -13,14 +14,15 @@ created: 2017-03-09T22:12:04.000Z
 archivedreason: null
 guid: ba1170f1-3d1a-4af1-b35e-b0c82b5b6ac2
 ---
+
 For lightweight web projects such as Angular, often VS Code is more appropriate than Visual Studio. So make sure your code quality remains consistent with CSSLint and ESLint.
 
 <!--endintro-->
 
 ### Related Steps to Code Health:
 
-* [Do you use the Code Health Extensions in Visual Studio?](/do-you-use-the-code-health-extensions-in-visual-studio)
-* [Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?](/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build)
+- [Do you use the Code Health Extensions in Visual Studio?](/do-you-use-the-code-health-extensions-in-visual-studio)
+- [Do you run the Code Health checks in your VisualStudio.com Continuous Integration Build?](/do-you-run-the-code-health-checks-in-your-visualstudio-com-continuous-integration-build)
 
 ### Which Extensions to Use in VS Code
 
@@ -30,6 +32,6 @@ Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click 
 
 ![Figure: Addition of CSSLint and ESLint to VS Code Project](vs-code-extensions.png)
 
-If you prefer not to use the Extensions, you can install them using npm as normal. 
+If you prefer not to use the Extensions, you can install them using npm as normal.
 CSSLint ([CSSLint npm guide](https://www.npmjs.com/package/csslint))
 ESLint ([ESLint npm guide](https://www.npmjs.com/package/eslint))

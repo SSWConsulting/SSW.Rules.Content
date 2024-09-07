@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your remote work experience with a nice video background that boosts professionalism and comfort during Teams or Zoom meetings.
 type: rule
 title: Do you have a nice video background?
 uri: video-background
@@ -11,6 +12,8 @@ authors:
     url: https://ssw.com.au/people/steven-andrews
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - have-good-lighting-on-your-home-office
   - browser-add-branding
@@ -22,6 +25,7 @@ created: 2020-03-25T02:09:43.000Z
 archivedreason: null
 guid: 206a1074-72d2-4039-beba-c10d51a1d601
 ---
+
 You are likely to have constant Teams or Zoom video calls with clients or work colleagues. One of the first things you should think about should be how to have a nice background.
 
 <!--endintro-->
@@ -45,7 +49,7 @@ For home offices, follow "less is more":
 :::
 
 ::: good
-![Figure: Good example – The office background](brisbane-office-background-example.png)
+![Figure: Good example – The office background](jimmy-teams.jpg)
 :::
 
 ### Virtual backgrounds

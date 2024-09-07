@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep AssemblyVersion consistent to avoid support and maintenance issues, ensuring a smooth development experience.
 type: rule
 title: Do you keep your Assembly Version Consistent?
 uri: do-you-keep-your-assembly-version-consistent
@@ -15,22 +16,22 @@ archivedreason: null
 guid: 9615f20a-8b4e-4666-beb8-c7da8dfb358e
 ---
 
-![](VersionConsistent1.jpg) 
+![](VersionConsistent1.jpg)
 **Figure: Keep these two versions consistent** If you are not using the GAC, it is important to keep AssemblyVersion, AssemblyFileVersion and AssemblyInformationalVersionAttribute the same, otherwise it can lead to support and maintenance nightmares. By default these version values are defined in the AssemblyInfo file. In the following examples, the first line is the version of the assembly and the second line is the actual version display in file properties.
 
 <!--endintro-->
-
 
 ```cs
 [assembly: AssemblyVersion("2.0.0.*")]
 [assembly: AssemblyFileVersion("2.0.0.*")]
 [assembly: AssemblyInformationalVersion("2.0.0.*")]
 ```
+
 ::: bad
 Bad example - AssemblyFileVersion and AssemblyInformationalVersion don't support the asterisk (\*) character  
 :::
 
-If you use an asterisk in the AssemblyVersion, the version will be generated as described in the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.reflection.assemblyversionattribute%28v=vs.110%29.aspx). 
+If you use an asterisk in the AssemblyVersion, the version will be generated as described in the [MSDN documentation](https://msdn.microsoft.com/en-us/library/system.reflection.assemblyversionattribute%28v=vs.110%29.aspx).
 
 If you use an asterisk in the AssemblyFileVersion, you will see a warning, and the asterisk will be replaced with zeroes. If you use an asterisk in the AssemblyInformationVersion, the asterisk will be stored, as this version property is stored as a string.
 
@@ -41,6 +42,7 @@ If you use an asterisk in the AssemblyFileVersion, you will see a warning, and t
 [assembly: AssemblyFileVersion("2.0.1.1")]
 [assembly: AssemblyInformationalVersion("2.0")]
 ```
+
 ::: good
 Good example - MSBuild will automatically set the Assembly version on build (when not using the GAC)  
 :::
@@ -54,6 +56,7 @@ If you are using the GAC, you should adopt a single AssemblyVersion and Assembly
 [assembly: AssemblyFileVersion("2.0.0.1")]
 [assembly: AssemblyInformationalVersion("My Product 2015 Professional")]
 ```
+
 ::: good
 Good example - The best way for Assembly versioning (when using the GAC)  
 :::

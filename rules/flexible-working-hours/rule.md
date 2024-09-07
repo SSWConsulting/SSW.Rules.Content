@@ -1,18 +1,18 @@
 ---
+seoDescription: Maintain a consistent routine and separate work from personal life to stay focused and motivated.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you aim to keep your working hours consistent?
 guid: 55ae1309-c16c-42b5-aefd-9c8cf3d8d77f
 uri: flexible-working-hours
 created: 2020-03-25T23:53:51.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
-related: 
-- calendar-do-you-set-your-work-hours-in-your-calendars
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
+related:
+  - calendar-do-you-set-your-work-hours-in-your-calendars
 redirects:
-- do-you-aim-to-keep-your-working-hours-consistent
-
+  - do-you-aim-to-keep-your-working-hours-consistent
 ---
 
 While flexible work hours are awesome, and it’s fun to set your own schedule, most roles where you are working with a client require you to have set hours. Chopping and changing when you are available looks unprofessional, so you need to have a known routine.

@@ -1,19 +1,20 @@
 ---
+seoDescription: Consistent naming convention for each machine helps network configuration and easy identification, adopting animal kingdom theme at SSW.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have a consistent naming convention for each machine?
 guid: cc882743-28c9-42c3-b867-2c67eac04953
 uri: do-you-have-a-consistent-naming-convention-for-each-machine
 created: 2014-09-03T19:12:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 When we configure networks we give all computers in the company a naming theme like:
+
 - Buildings
 - Cars
 - Countries

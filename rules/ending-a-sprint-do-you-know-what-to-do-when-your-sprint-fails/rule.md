@@ -1,20 +1,20 @@
 ---
+seoDescription: Failed Sprint resolution requires rolling back source code and re-adding stories to the Product Backlog.
 type: rule
-archivedreason: 
+archivedreason:
 title: Ending a Sprint - Do you know what to do when your Sprint fails?
 guid: ee7827d7-36a2-4edd-9c44-2f3d6251c3ac
 uri: ending-a-sprint-do-you-know-what-to-do-when-your-sprint-fails
 created: 2010-09-17T11:50:02.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
-
 ---
 
 Having a rejected Sprint is so rare that you should be hard pushed to find any team that has had one.

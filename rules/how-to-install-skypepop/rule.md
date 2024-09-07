@@ -1,4 +1,5 @@
 ---
+seoDescription: SkypePOP installation guide for PC, enabling Dynamics CRM contact popups on incoming calls.
 type: rule
 archivedreason: No longer used
 title: Do you know how to install SkypePOP on your PC?
@@ -6,12 +7,11 @@ guid: b36ddefd-6fa0-49e1-9c8f-cd942b14cf44
 uri: how-to-install-skypepop
 created: 2016-12-21T21:04:20.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-how-to-install-skypepop-on-your-pc
-
+  - do-you-know-how-to-install-skypepop-on-your-pc
 ---
 
 All company receptionists should install SkypePOP on your PC.
@@ -60,7 +60,7 @@ Only receptionists should have SkypePOP installed.
 
 ![Figure: Enter your CRM Connection Details](2016-12-02_15-14-23.jpg)
 
-4. Change the SkypePOP  **Preferences**
+4. Change the SkypePOP **Preferences**
 
 ![Figure: Right-click on the icon in the taskbar and select 'Preferences'](2016-12-22_9-13-03.jpg)
 

@@ -1,20 +1,20 @@
 ---
+seoDescription: Do you generate the VS Dependency Graph?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you generate the VS Dependency Graph?
 guid: 726eadfd-fa6c-4549-acfd-bc9e30e378fe
 uri: do-you-generate-the-vs-dependency-graph
 created: 2012-03-16T08:04:49.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Igor Goldobin
-  url: https://ssw.com.au/people/igor-goldobin
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Igor Goldobin
+    url: https://ssw.com.au/people/igor-goldobin
 related: []
 redirects: []
-
 ---
 
 Dependency graphs are important because they give you an indication of the coupling between the different components within your application.
@@ -23,11 +23,9 @@ A well architected application (ie. one that correctly follows the Onion Archite
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example- The Visual Studio Dependency Graph is hard to read](TimePRODependence.png)  
 :::
-
 
 ::: good  
 ![Figure: Good Example – The ReSharper Dependency graph groups dependencies based on Solution Folders. By having a        Consistent Solution Structure it is easy to see from your Dependency Graph if there is coupling between your UI and your Dependencies](TimePRODependence-good.png)  
@@ -35,5 +33,5 @@ A well architected application (ie. one that correctly follows the Onion Archite
 
 #### Further Reading:
 
-* [Do you use a dependency injection centric architecture?](/do-you-use-a-dependency-injection-centric-architecture)
-* [Do you know the best dependency injection container?](/the-best-dependency-injection-container)
+- [Do you use a dependency injection centric architecture?](/do-you-use-a-dependency-injection-centric-architecture)
+- [Do you know the best dependency injection container?](/the-best-dependency-injection-container)

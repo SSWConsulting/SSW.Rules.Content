@@ -1,19 +1,19 @@
 ---
+seoDescription: Ensure a seamless TFS 2015 migration by having a rollback plan in place to recover from catastrophic disasters or in-place upgrades.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have a rollback plan for TFS 2015 migration?
 guid: f7bc73a3-32c9-450a-9eb4-ac056e93f7bb
 uri: rollback-plan-tfs2015-migration
 created: 2015-08-12T15:35:42.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
 related: []
 redirects:
-- do-you-have-a-rollback-plan1
-
+  - do-you-have-a-rollback-plan1
 ---
 
 Always [plan for a catastrophic disaster](/disaster-recovery-plan). This means backing up your environment, and making sure you have a working plan to recover from that backup should you need to.

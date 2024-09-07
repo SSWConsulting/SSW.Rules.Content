@@ -1,4 +1,5 @@
 ---
+seoDescription: Project resilience ensures continuity and success by documenting knowledge, sharing processes, defining clear procedures, implementing a buddy system, using accessible tools, planning for absences, and fostering a culture of continuity.
 type: rule
 title: Does your project pass the bus test?
 uri: bus-test
@@ -10,7 +11,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-    - track-project-documents
+  - track-project-documents
 redirects:
   - do-you-know-how-to-handover-a-project
 created: 2024-01-05T06:22:03.000Z

@@ -1,4 +1,5 @@
 ---
+seoDescription: At a Sprint Planning meeting, the Scrum Team plans and prioritizes work to be done during the upcoming sprint, answering questions about why the sprint is valuable, what can be delivered, and how the work will be achieved.
 type: rule
 title: Do you know what happens at a Sprint Planning meeting?
 uri: what-happens-at-a-sprint-planning-meeting
@@ -15,14 +16,13 @@ redirects:
 created: 2010-05-06T04:11:55.000Z
 archivedreason: null
 guid: f0bf4d20-cee6-4731-b343-603cf7db3e5d
-
 ---
 
 The work to be performed in the Sprint is planned at the Sprint Planning meeting. At the Sprint Planning meeting, the following 3 questions are answered:
 
-* Why is this Sprint valuable?
-* What can be delivered in the increment(s) resulting from the upcoming Sprint?
-* How will the work needed to deliver the increment(s) be achieved?
+- Why is this Sprint valuable?
+- What can be delivered in the increment(s) resulting from the upcoming Sprint?
+- How will the work needed to deliver the increment(s) be achieved?
 
 <!--endintro-->
 
@@ -36,18 +36,18 @@ What can be delivered in the Increment resulting from the upcoming Sprint?
 
 [Technical Debt](/technical-debt) should be considered prior to the Sprint Planning, as it is imperative to address it. [Just Enough Refactoring](/just-enough-refactoring) should be used to solve the debt that directly surrounds or is impacted by the features included into the Sprint.
 
-The Product Backlog is examined and the Product Owner makes changes so that it is prioritized with bugs prioritized amongst Product Backlog Items (PBIs).
+The Product Backlog is examined, and the Product Owner makes changes so that it is prioritized, with bugs prioritized among the Product Backlog Items (PBIs).
 
-The Product Owner is then asked to group the top ranking Bugs into PBIs for inclusion in the Sprint. See this [rule](/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog).
+The Product Owner is then asked to group the top-ranking bugs into PBIs for inclusion in the Sprint. See this [rule](/bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog).
 
-The Team are then advised of their resourcing for the Sprint as there may be additions, subtractions, leave or public holidays which are different to the previous Sprint. Considering their previous record and their current resources, The team decide on the number of story points that they will deliver in the forthcoming Sprint. When the team are not currently co-located this is often done by voting, and discussed until consensus is reached.
+The team are then advised of their resourcing for the Sprint as there may be additions, subtractions, leave or public holidays which are different to the previous Sprint. Considering their previous record and their current resources, The team decide on the number of story points that they will deliver in the forthcoming Sprint. When the team are not currently co-located this is often done by voting, and discussed until consensus is reached.
 
 The team then size (assign Story points to) PBIs starting at the top until there are more than enough PBIs to fill the Sprint.
 
 The process of sizing is somewhat formal. Either using cards or IM (essential if not co-located) the team vote privately on the size of the PBI. They can either:
 
-* Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
-* Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
+- Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
+- Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
 
 Once the differing votes are in, the Scrum Master asks the smallest and biggest voters to explain the reasons for their vote. Assumptions and omissions are quickly identified through discussions and the Scrum Master encourages discussion until consensus on the story points is reached. Any PBI voted at 16 or higher should be broken down into smaller stories; re-prioritized by the Product Owner and re-sized if necessary.
 
@@ -73,7 +73,7 @@ No actual work on the Sprint should start until this planning is complete. It is
 
 The team should also ensure that the burndown chart is working and will be automatically sent to all members of the Scrum team overnight.
 
-The meeting concludes when The Team reports to the Scrum Master that their planning is complete and they are able to display the burndown chart.
+The meeting concludes when the team reports to the Scrum Master that their planning is complete and they are able to display the burndown chart.
 
 Ideally this meeting is timeboxed to as many hours as there will be weeks in the Sprint. However, the Sprint Planning is so essential that it must continue to completion outside the meeting if necessary.
 
@@ -85,9 +85,9 @@ Once this meeting is finished, the Scrum Master should email the Product Owner w
 
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+- [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+- [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
+- [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::

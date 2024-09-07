@@ -1,4 +1,5 @@
 ---
+seoDescription: The Well-Architected Framework is a set of best practices for designing solution architecture, ensuring reliability, cost optimization, performance efficiency, security, and operational excellence in cloud-based workloads.
 type: rule
 title: Do you use the Well-Architected Framework?
 uri: well-architected-framework
@@ -18,6 +19,7 @@ related:
 created: 2022-02-10T07:49:50.377Z
 guid: 16cd6da6-fbe3-4234-ae55-6281bccc5279
 ---
+
 The Well-Architected Framework is a set of best practices which form a repeatable process for designing solution architecture, to help identify potential issues and optimize workloads.
 
 ![Figure: The Well-Architected Framework includes the five pillars of architectural excellence. Surrounding the Well-Architected Framework are six supporting elements](waf-diagram-revised.png)
@@ -26,11 +28,11 @@ The Well-Architected Framework is a set of best practices which form a repeatabl
 
 ### The 5 Pillars
 
-* **Reliability** – Handling and recovering from failures <https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/principles>
-* **Cost Optimization** – Minimizing costs without impacting workload performance <https://docs.microsoft.com/en-us/azure/architecture/framework/cost/principles>
-* **Performance Efficiency** **(Scalability)** – Testing, monitoring and adapting to changes in load e.g. new product launch, Black Friday sale, etc. <https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/principles>
-* **Security** – Protecting from threats and bad actors <https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-principles>
-* **Operational Excellence** **(DevOps)** – Deploying and managing workloads once deployed <https://docs.microsoft.com/en-us/azure/architecture/framework/devops/principles>
+- **Reliability** – Handling and recovering from failures <https://docs.microsoft.com/en-us/azure/architecture/framework/resiliency/principles>
+- **Cost Optimization** – Minimizing costs without impacting workload performance <https://docs.microsoft.com/en-us/azure/architecture/framework/cost/principles>
+- **Performance Efficiency** **(Scalability)** – Testing, monitoring and adapting to changes in load e.g. new product launch, Black Friday sale, etc. <https://docs.microsoft.com/en-us/azure/architecture/framework/scalability/principles>
+- **Security** – Protecting from threats and bad actors <https://docs.microsoft.com/en-us/azure/architecture/framework/security/security-principles>
+- **Operational Excellence** **(DevOps)** – Deploying and managing workloads once deployed <https://docs.microsoft.com/en-us/azure/architecture/framework/devops/principles>
 
 ### Trade-offs
 
@@ -51,5 +53,5 @@ Just like Agile, this is intended to be applied for continuous improvement throu
 ![Figure: Recommended actions results show things to be improved](waf-reliability-results-2.png)
 
 ::: good
-![Figure: Good example - WAF is very visible to the Product Owner on the backlog](waf-tech-debt-backlog-northwind.png) 
+![Figure: Good example - WAF is very visible to the Product Owner on the backlog](waf-tech-debt-backlog-northwind.png)
 :::

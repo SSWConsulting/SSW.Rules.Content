@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a WeChat Official Account - A Step-by-Step Guide Boost your business's online presence with a WeChat official account. Learn how to register and set up an account for your company in China.
 type: rule
 title: WeChat - Do you know how to create a WeChat official account?
 uri: how-to-create-wechat-official-account
@@ -22,19 +23,20 @@ Want to register a WeChat Office Account for your company? Check the following s
 
 <!--endintro-->
 
-Before registering a WeChat Official Account for business in China, make sure you have:  
-- A local company with a Chinese business license or a WFOE (Wholly Foreign-Owned Enterprise)
-- A Chinese ID card with WeChat payment account
+Before registering a WeChat Official Account for business in China, make sure you have:
+
+* A local company with a Chinese business license or a WFOE (Wholly Foreign-Owned Enterprise)
+* A Chinese ID card with WeChat payment account
 
 Here're the simple steps to create a WeChat Official Account.
 
 1. Go to [WeChat Official Accounts Page](https://mp.weixin.qq.com/?lang=en_US&token=), click 'Register Now' on the top right corner.
 
-  ![Figure: WeChat Official Accounts register page](wechat-o-a-1.png)
+![Figure: WeChat Official Accounts register page](wechat-o-a-1.png)
 
 2. Select an account type to continue.
 
-  ![Figure: Choose which type of account you want to register](wechat-o-a-2.png)
+![Figure: Choose which type of account you want to register](wechat-o-a-2.png)
 
 There're 3 different types of WeChat Official Accounts - **Subscription accounts**, **Service accounts**, and **Enterprise accounts**. WeChat Mini-Programs are essentially apps that live within the WeChat ecosystem, are different from the other accounts.
 
@@ -52,28 +54,28 @@ Verified service accounts can also register for WeChat Pay and set up a WeChat S
 ### Enterprise Accounts (企业号)
 
 While subscription accounts and service accounts target external markets, WeChat enterprise accounts are primarily for internal communication and management. This makes this type of WeChat official account similar to Slack and Workplace by Facebook.
- 
+
 3. Choose Subscription Account as an example (the register steps for other options are similar)
 
-  ![Figure: Fill in with required information – each email address can be registered for only one WeChat product which means if you use an email to register WeChat Subscription Account, you can’t use it for WeChat Service Account or WeChat Mini Program registration](wechat-o-a-3.png)
+![Figure: Fill in with required information – each email address can be registered for only one WeChat product which means if you use an email to register WeChat Subscription Account, you can’t use it for WeChat Service Account or WeChat Mini Program registration](wechat-o-a-3.png)
 
 4. Choose where your business is registered
 
-  ![Figure: So far WeChat only accept China mainland, so click “Confirm” to continue](wechat-o-a-4.png)
- 
+![Figure: So far WeChat only accept China mainland, so click “Confirm” to continue](wechat-o-a-4.png)
+
 5. Select your account type
 
-  ![Figure: Choose “Subscription Account” as we planned](wechat-o-a-5.png)
+![Figure: Choose “Subscription Account” as we planned](wechat-o-a-5.png)
 
 6. Fill in the registration info
 
 ![Figure: As a company, we choose “Corporation” to continue](wechat-o-a-6.png)
 
-  ![Figure: The admin person of this account should be a Chinese because the verification will need his/her personal ID and WeChat payment account](wechat-o-a-7.png)
+![Figure: The admin person of this account should be a Chinese because the verification will need his/her personal ID and WeChat payment account](wechat-o-a-7.png)
 
 ![Figure：System will remind you that all the information you submitted cannot be changed afterwards](wechat-o-a-8.png)
 
-7. Pay the verification fee of CNY￥300 (Approx. to AUD $60) to the specified account, waiting for 5-7 working days, and your WeChat Account is available.
-Login by your email and password on [WeChat Official Accounts Page](https://mp.weixin.qq.com/?lang=en_US&token=), you will go to your Office Account operation interface and start to use it.
+7. Pay the verification fee of CNY ￥ 300 (Approx. to AUD $60) to the specified account, waiting for 5-7 working days, and your WeChat Account is available.
+   Login by your email and password on [WeChat Official Accounts Page](https://mp.weixin.qq.com/?lang=en_US&token=), you will go to your Office Account operation interface and start to use it.
 
-  ![Figure: A WeChat Office Account operation interface](wechat-o-a-9.png)
+![Figure: A WeChat Office Account operation interface](wechat-o-a-9.png)

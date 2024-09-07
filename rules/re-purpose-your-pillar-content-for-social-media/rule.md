@@ -56,7 +56,7 @@ This is the content that will be used to create all other types of content. They
 3. Create a [Giphy](https://giphy.com/) with one of the main points and a moving background video from the pillar content. Write the copy for the post.
 4. Create a blog post from the audio
 
-* Use tools like [Rev](https://www.rev.com/services/video-transcription) or [Descript](https://www.descript.com/) to transcribe the video file and re-write the transcript as a blog post
+* Use tools like [Rev](https://www.rev.com) or [Descript](https://www.descript.com/) to transcribe the video file and re-write the transcript as a blog post
 * Post the blog post to other platforms like Medium.com, LinkedIn Articles, [Substack](https://substack.com/)and your blog
 
 ### Step 2: Distribute content

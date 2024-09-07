@@ -1,4 +1,5 @@
 ---
+seoDescription: Write unit tests using NUnit to ensure code stability and prevent introducing new bugs when fixing issues in someone else's code.
 type: rule
 title: Do you use NUnit to write Unit Tests?
 uri: use-nunit-to-write-unit-tests
@@ -11,6 +12,7 @@ related: []
 redirects: []
 archivedreason: See a more generic and up to date rule [https://www.ssw.com.au/rules/rules-to-better-unit-tests/](/rules/rules-to-better-unit-tests)
 ---
+
 When anyone sends you a bug that happen in their environment do a unit test. Just because the code runs on your machine it doesnt mean it will work on the users machine. E.g permissions issues - you are an admin while the user is only a simple user, registry & io reads might fail, NUnit will test for this and let you know.
 
 <!--endintro-->
@@ -29,12 +31,6 @@ Example: You may have a shared project that your application uses. Another devel
 
 ![Figure: Unit Tests accessible from the help menu](unittestsinhelpmenu.jpg)
 
-Unit tests should also be accessible from the Help menu to assist in troubleshooting when your users call up tech support. For more information see [Rules to Better Interfaces](RulestoBetterInterfaces-Windows-Applications.aspx#HelpMenu).
+Unit tests should also be accessible from the Help menu to assist in troubleshooting when your users call up tech support.
 
-Note: Unit testing also works with Web projects.
-
-For more information on unit testing see [Rules to Better Unit Tests](https://ssw.com.au/ssw/Standards/Rules/RulesToBetterUnitTests.aspx#NotVSTS)
-
-Also see [Suggestions to TFS](https://ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/TeamFoundationServer.aspx)
-
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements these Unit Tests
+**Note:** Unit testing also works with Web projects.

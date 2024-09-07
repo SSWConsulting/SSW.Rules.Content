@@ -1,4 +1,5 @@
 ---
+seoDescription: Master the art of capitalizing titles and headings with our easy-to-follow rules!
 type: rule
 title: Do you know how to capitalize titles and headings?
 uri: how-to-capitalize-titles
@@ -13,29 +14,40 @@ created: 2016-04-21T06:04:30.000Z
 archivedreason: null
 guid: c8104ef3-2539-4459-9262-933b7333b619
 ---
-It's important to use correct capitalization when writing titles/headings for web content. For main titles, you should capitalize the first word, all nouns, all verbs (even short ones, like "is"), all adjectives, and all proper nouns. Leave subtitles in normal sentence form.
 
-You can find more rules & tips on capitalizing here: <!--StartFragment-->
+Using correct capitalization in titles and headings for web content is crucial.
 
-[How to Capitalize Titles and Headings Correctly](https://editorsmanual.com/articles/capitalizing-headings/#:~:text=Here%20are%20the%20general%20rules%20for%20capitalizing%20headlines,element%20of%20a%20hyphenated%20term.%20...%20More%20items)
+For **main titles**, capitalize the first word, all nouns, verbs (even short ones like "is"), adjectives, and proper nouns. Conjunctions and prepositions should not be capitalized. E.g. "at", "on", "but", "and", "with", etc
+
+**Subtitles/subheadings** should be written in regular sentence form, without additional capitalization.
 
 <!--endintro-->
 
+You can find more rules & tips about this subject in the article [Title Case: Capitalization of Titles, Headings, and Headlines](https://editorsmanual.com/articles/capitalizing-headings/)
+
 ::: greybox
-"The Lord of the rings – Return of the king"
+**Title:** Exploring the future of Artificial intelligence
+
+**Subtitle:** How AI Innovations Are Transforming Industries and Society
 :::
 ::: bad
-Figure: Bad example for titles - Inconsistency on words' capitalization
+Figure: Bad example - Inconsistency on words' capitalization and capitalized subtitle
 :::
 
 ::: greybox
-"The Lord of the Rings – Return of the King"
+**Title:**  Exploring the Future of Artificial Intelligence
+
+**Subtitle:**  How AI innovations are transforming industries and society
 :::
 ::: good
-Figure: Good example for titles - Only conjunctions and prepositions (both having similar rules) should not be capitalized. E.g. "at", "on", "but", "and", "with", etc
+Figure: Good example - Consistent and correct capilalization on title and subtitle
 :::
 
 It's best to only do this on main titles, and leave subtitles in normal sentence form - only capitalize the first word and proper nouns. Basically, it saves hassles... English is a confusing language, and there are too many variations that cause too many arguments.
+
+::: info
+**Note:** We acknowledge the paradox in this page, as the title itself is not capitalized. The reason is because we structure SSW Rules content based on a category page. For example, [Rules to Better Technical Documentation](/rules-to-better-technical-documentation) is the main title, and every rule under it is considered a subtitle.
+:::
 
 ::: good
 ![Figure: Good example - The main title has capitalization and the subtitles don't](rules-to-better-technical-documentation-example.png)

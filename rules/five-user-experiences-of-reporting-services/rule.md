@@ -1,7 +1,8 @@
 ---
+seoDescription: Unlocking the five user experiences of Reporting Services, including Vanilla, Website, Email, Windows, and SharePoint.
 type: rule
 archivedreason: Only showing example screenshots
-title: 'Do you know the 5 user experiences of Reporting Services?'
+title: "Do you know the 5 user experiences of Reporting Services?"
 guid: 67dd5881-cd15-4305-a3c9-aec4ca5d6e28
 uri: five-user-experiences-of-reporting-services
 created: 2013-07-02T07:51:10.0000000Z
@@ -13,16 +14,15 @@ authors:
 related: []
 redirects:
   - do-you-know-the-5-user-experiences-of-reporting-services-vanilla-website-email-windows-and-sharepoint
-
 ---
 
 The five user experiences of Reporting Services are:
 
-* Vanilla (Report Manager)
-* Website
-* Email
-* Windows
-* SharePoint
+- Vanilla (Report Manager)
+- Website
+- Email
+- Windows
+- SharePoint
 
 <!--endintro-->
 
