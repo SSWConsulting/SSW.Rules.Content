@@ -10,7 +10,7 @@ index:
 - understand-the-dangers-of-social-engineering
 - follow-security-checklists
 - conditional-access-policies
-- microsoft-defender-365
+- microsoft-defender-xdr
 - do-you-use-access-packages
 - use-scim-for-identity-management
 - implementing-intune
