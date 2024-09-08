@@ -4,6 +4,8 @@ title: Do you use Microsoft Defender XDR?
 seoDescription: Microsoft Defender XDR helps enterprises prevent, detect, and
   respond to advanced threats with its robust endpoint security platform.
 uri: microsoft-defender-xdr
+redirects: 
+  - microsoft-defender-365
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil
@@ -27,7 +29,7 @@ There are a number of licensing options - check out [Microsoft's documentation](
 Follow the instructions to:
 
 * [Defender for Endpoint: Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
-* [](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)[Defender for Endpoint: Onboard](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)[ devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+* [Defender for Endpoint: Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
 * [Defender for Identity: Onboard domain controllers](https://learn.microsoft.com/en-us/defender-for-identity/deploy/install-sensor)
 
 ### Secure Score
