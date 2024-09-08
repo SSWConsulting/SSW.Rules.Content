@@ -1,10 +1,9 @@
 ---
 type: rule
-title: Do you use Microsoft Defender for Endpoint?
-seoDescription: Microsoft Defender for Endpoint helps enterprises prevent,
-  detect, and respond to advanced threats with its robust endpoint security
-  platform.
-uri: microsoft-defender-365
+title: Do you use Microsoft Defender XDR?
+seoDescription: Microsoft Defender XDR helps enterprises prevent, detect, and
+  respond to advanced threats with its robust endpoint security platform.
+uri: microsoft-defender-xdr
 authors:
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil
@@ -14,10 +13,8 @@ related:
   - implementing-intune
 created: 2022-08-11T00:59:55.755Z
 guid: f5ae8a73-d3f7-451f-b695-a03ef47844ad
-
 ---
-
-Microsoft Defender for Endpoint is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats. As part of Microsoft Defender XDR, it is managed at <https://security.microsoft.com/>
+Microsoft Defender XDR is an enterprise endpoint security platform designed to help enterprise networks prevent, detect, investigate, and respond to advanced threats. It is managed at <https://security.microsoft.com/>
 
 <!--endintro-->
 
@@ -25,14 +22,13 @@ Microsoft Defender for Endpoint is an enterprise endpoint security platform desi
 
 There are a number of licensing options - check out [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/microsoft-defender-endpoint?view=o365-worldwide) for information.
 
-Microsoft Defender for Endpoint can be used to manage and investigate all devices on your network - whether on your domain or joined to Intune.
-
 ### Configuration
 
 Follow the instructions to:
 
-* [Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
-* [Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+* [Defender for Endpoint: Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+* [](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)[Defender for Endpoint: Onboard](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)[ devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+* [Defender for Identity: Onboard domain controllers](https://learn.microsoft.com/en-us/defender-for-identity/deploy/install-sensor)
 
 ### Secure Score
 
