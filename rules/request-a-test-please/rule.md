@@ -122,7 +122,7 @@ You have 2 options:
 1. **Keep the "test" in the same thread** (recommended)\
    In this case, just add the people you need to the thread, asking them specifically for a 'Test Please' on what you need
 2. **Create a new thread for the 'Test Please'**
-   This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).\
+   This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
    In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
 
 This way everyone will have the entire history of the task and its progress.
