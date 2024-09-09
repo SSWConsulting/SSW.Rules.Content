@@ -51,13 +51,10 @@ I have done what I could for my code's health. E.g.
 * Run SSW LinkAuditor - it has {{ X }} errors (if not 0, give reason)
 * Kept my eye on Application Insights
 * Ensured all packages are as up-to-date as possible
-
   * Updated:
-
     * Updated {{ PACKAGE }} from {{ VERSION }} to {{ VERSION }}
     * ...
   * Out-of-date:
-
     * {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
     * ...
 
