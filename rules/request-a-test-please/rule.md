@@ -37,7 +37,6 @@ These are the steps you should take when requesting a "Test Please":
 1. <mark>'Test Please'</mark>
 
 ### Hi John,
-
 I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
