@@ -100,15 +100,15 @@ Stands for "Joint Photographic Experts Group".
 ### Examples
 
 ::: bad  
-![Figure: Bad example – Low quality JPG (18k)](Screen-JPGQuality1.jpg)  
+![Figure: Bad example – Low quality JPG (18k)](image-formats-bad-low.jpg)  
 :::
 
 ::: bad  
-![Figure: Bad example – Uncompressed JPG (100k)](Screen-JPGQuality2.jpg)  
+![Figure: Bad example – Uncompressed JPG (100k)](image-formats-bad-uncompressed.jpg)
 :::
 
 ::: good  
-![Figure: Good example – Compressed JPG (28k)](Screen-JPGQuality3.jpg)  
+![Figure: Good example – Compressed JPG (28k)](image-formats-good-compressed.jpg)  
 :::
 
 ## GIF
