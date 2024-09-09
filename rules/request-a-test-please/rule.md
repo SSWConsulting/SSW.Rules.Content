@@ -27,11 +27,11 @@ These are the steps you should take when requesting a "Test Please":
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "Test Please" following this template:
 
-::: email-template\
+::: email-template
 |          |     |
 | -------- | --- |
 | To:      | John |
-| Subject: | Product Name v1.11 |\
+| Subject: | Product Name v1.11 |
 ::: email-content  
 
 1. <mark>'Test Please'</mark>
