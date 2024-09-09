@@ -30,6 +30,27 @@ The video should be recorded by the Product Owner (or other head of the team)
 4. Upload the video to YouTube (public if there is no sensitive information - unlisted if there is)
 5. Email your stakeholders with the video link
 
+::: email-template
+| | |
+| -------- | --- |
+| To: | Product Owner |
+| Subject: | Stakeholders |
+::: email-content
+
+### Hi {{ PRODUCT OWNER }}
+FYI - I have recorded the Monthly Marketing video for August video with {{ COLLEAGUE }} on the call with me.
+✅ Done - I have called you to watch the video together.
+
+Here’s the link {{ YOUTUBE }}
+
+< As per https://www.ssw.com.au/rules/monthly-stakeholder-video/ >
+
+:::
+:::
+::: good
+Figure: Good example - Watching the video with the Product Owner, then sending it in an email
+:::
+
 ### Benefits
 
 - **Transparency**: Regular updates promote transparency and problems get resolved before they balloon
