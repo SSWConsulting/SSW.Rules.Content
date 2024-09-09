@@ -55,7 +55,7 @@ The video should be recorded by the Product Owner (or other head of the team).
 
 ### Hi {{ PRODUCT OWNER }}
 
-FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEAGUE }} on the call with me.
+FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEAGUE }} on the call with me.   
 ✅ Done - I have called you to watch the video together.
 
 Here’s the link {{ YOUTUBE LINK }}
