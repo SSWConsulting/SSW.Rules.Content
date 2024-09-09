@@ -26,11 +26,16 @@ There are a number of licensing options - check out [Microsoft's documentation](
 
 ### Configuration
 
-Follow the instructions to:
+Follow the instructions to install Defender on Workstations:
 
-* [Defender for Endpoint: Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
-* [Defender for Endpoint: Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+* [Onboard devices with a GPO](https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/configure-endpoints-gp?view=o365-worldwide)
+* [Onboard devices through Intune](https://learn.microsoft.com/en-us/mem/intune/protect/advanced-threat-protection-configure#enable-microsoft-defender-for-endpoint-in-intune)
+
+Follow the instructions to install Defender on Servers:
+
+* [Defender for Endpoint: Onboard servers](https://learn.microsoft.com/en-us/defender-endpoint/configure-server-endpoints)
 * [Defender for Identity: Onboard domain controllers](https://learn.microsoft.com/en-us/defender-for-identity/deploy/install-sensor)
+  * The Azure Advanced Threat Protection sensor configurations vary depending on whether Endpoint or Identity is installed.
 
 ### Secure Score
 
