@@ -1,14 +1,15 @@
 ---
-seoDescription: Efficiency Tip - Do You Always Try to Work in Pairs? Work smarter, not harder! Pair programming boosts productivity and code quality. Two heads are better than one, especially when working on complex projects. Reduce problem-solving time, stay motivated, and learn from each other's expertise.
+seoDescription: Work smarter, not harder! Pair programming boosts productivity and code quality. 2 heads are better than one, especially when working on complex projects. Reduce problem-solving time, stay motivated, and learn from each other's expertise.
 type: rule
 title: Efficiency - Do you always try to work in pairs?
-uri: efficiency-do-you-always-try-to-work-in-pairs
+uri: work-in-pairs
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - efficiency-do-you-always-try-to-work-in-pairs-1
+  - efficiency-do-you-always-try-to-work-in-pairs
 created: 2009-03-17T07:35:05.000Z
 archivedreason: null
 guid: e1ce40a6-7c15-4974-9e57-506b1bc7c337
@@ -20,13 +21,13 @@ There are many good reasons why it's better to work in pairs.
 
 ![Figure: Do you always try to work in pairs?](ProjectManagement_PairProgramming_Luge.jpg)
 
-For everyone:
+**For everyone:**
 
 * Less time stuck on a problem - you have someone familiar with the project to help you work through the problem
 * You can keep each other motivated and you absorb knowledge from each other
-* Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
+* Experience shows that 2 people working on a problem together are often more productive than one person working alone for twice as long
 
-Extra for developers:
+**Extra - For developers:**
 
 * Code will have less strange workarounds - because if something doesn't add up to a developer, they've got someone to ask
 * Cleaner code - because you know someone else is going to be looking at your code
