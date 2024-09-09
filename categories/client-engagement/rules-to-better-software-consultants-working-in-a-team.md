@@ -55,7 +55,6 @@ index:
 - efficiency-do-you-use-two-monitors
 - hand-over-responsibilities
 - collaborate-across-timezones
-- do-you-use-suspend-on-your-notebook
 - work-in-pairs
 - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 - quality-do-you-implement-an-error-logger-that-has-notifications
