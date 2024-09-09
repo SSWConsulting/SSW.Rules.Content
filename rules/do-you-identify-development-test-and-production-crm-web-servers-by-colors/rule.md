@@ -109,8 +109,8 @@ Regarding the color codes, we use to differentiate Production to Test with Share
 
 Here is what we change:
 
-- Site Settings | Change The Look
-- Test – Orange
+* Site Settings | Change The Look
+* Test – Orange
 
 ![Figure: Selecting Orange theme for test](sharepoint-orange-theme.jpg)
 
