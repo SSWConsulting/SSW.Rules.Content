@@ -14,7 +14,7 @@ related:
   - google-search-console-vs-google-analytics
 ---
 
-When trying to optimize your website’s performance and visibility, there are a few tools that can help (e.g., Google Search Console, Google Analytics, SEMrush). Each offers unique features suited to different aspects of your site's SEO.
+When trying to optimize your website’s performance and visibility, there are a few tools that can help (e.g. Google Search Console, Google Analytics, SEMrush). Each offers unique features suited to different aspects of your site's SEO.
 
 SEO is very important to companies, so devs should know the tools they can use to optimize websites, analyze data, and improve search engine rankings.
 
