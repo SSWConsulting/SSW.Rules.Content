@@ -1,12 +1,14 @@
 ---
 type: rule
-tips: ""
 title: Do you know when to use the term SPIKE (Agile) or PoC (proof of concept)?”
-seoDescription: In Agile development, SPIKE and Proof of Concept (PoC) help
-  manage uncertainty. Learn their key differences and applications in Agile.
+seoDescription: In Agile development, SPIKE and Proof of Concept (PoC) help manage uncertainty. Learn their key differences and applications in Agile.
 uri: spike-vs-poc
 authors:
-  - title: ""
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - generate-ui-mockups-with-ai
+  - encourage-spikes-when-a-story-is-inestimable
 created: 2024-09-09T11:17:00.000Z
 guid: 85c4e576-1d07-499e-95f6-c69490bd7692
 ---
