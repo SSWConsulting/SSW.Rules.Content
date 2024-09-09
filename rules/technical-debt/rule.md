@@ -1,7 +1,8 @@
 ---
-seoDescription: Repaying technical debt is crucial to maintain software velocity and avoid feature stagnation.
 type: rule
 title: Do you know the importance of paying back Technical Debt?
+seoDescription: Repaying technical debt is crucial to maintain software velocity
+  and avoid feature stagnation.
 uri: technical-debt
 authors:
   - title: Matt Goldman
@@ -17,12 +18,12 @@ related:
   - refactor-your-code-and-keep-methods-short
   - well-architected-framework
   - just-enough-refactoring
+  - do-you-show-current-versions-app-and-database
 redirects:
   - do-you-know-the-importance-of-paying-back-technical-debt
 created: 2020-12-16T23:19:05.000Z
 archivedreason: null
 guid: de86d886-3341-43d0-a487-5e8b3cee3938
-
 ---
 
 ### What is Technical Debt?
