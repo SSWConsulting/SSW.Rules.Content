@@ -75,7 +75,6 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
   * Please CC the project manager and the client
 * Do not reply to this message until you can say:
-
   * "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
     or 
   * "**❌ Test Please failed** (as per Critical bugs reported)"
