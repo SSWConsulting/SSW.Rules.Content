@@ -38,12 +38,13 @@ The video should be recorded by the Product Owner (or other head of the team)
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
+
 FYI - I have recorded the Monthly Marketing video for August video with {{ COLLEAGUE }} on the call with me.
 ✅ Done - I have called you to watch the video together.
 
 Here’s the link {{ YOUTUBE }}
 
-< As per https://www.ssw.com.au/rules/monthly-stakeholder-video/ >
+< As per <https://www.ssw.com.au/rules/monthly-stakeholder-video/> >
 
 :::
 :::
@@ -53,14 +54,14 @@ Figure: Good example - Watching the video with the Product Owner, then sending i
 
 ### Benefits
 
-- **Transparency**: Regular updates promote transparency and problems get resolved before they balloon
-- **Engagement**: Videos are more engaging than written reports
-- **Accessibility**: Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts.
+* **Transparency**: Regular updates promote transparency and problems get resolved before they balloon
+* **Engagement**: Videos are more engaging than written reports
+* **Accessibility**: Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts.
 
 ### Tips
 
-- Plan your content - have tabs open in a browser and cycle through them
-- Be concise - just give the most important points
-- Use visuals - trends are the most important - have analytics graphs that show changes over time
-- Highlight successes and challenges - include the best and worst news/statistic for that month
-- Make videos public - Users can follow product updates and the videos can be good marketing
+* Plan your content - have tabs open in a browser and cycle through them
+* Be concise - just give the most important points
+* Use visuals - trends are the most important - have analytics graphs that show changes over time
+* Highlight successes and challenges - include the best and worst news/statistic for that month
+* Make videos public - Users can follow product updates and the videos can be good marketing
