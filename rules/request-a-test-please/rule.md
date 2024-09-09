@@ -99,7 +99,7 @@ If current version is better than the last version you can release (even with a 
 You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
 ::: greybox
-"Ping!\
+"Ping!
 I need you to check my 'Test Please' email\
 See subject: **Product Name v1.11**"
 :::
