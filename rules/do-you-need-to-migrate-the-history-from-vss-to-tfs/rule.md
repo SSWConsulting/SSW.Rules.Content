@@ -27,11 +27,11 @@ Normally, you don't need to check the history very often. If you do need someti
 
 But there are also some considerations that you may want to migrate the history:
 
-- If the history of source changes will be checked very often, so you can check the old history with the recent together via TFS
-- You are going to decommission the old VSS completely. Say you don't want to keep the old VSS database, and then it will be necessary to keep the information somewhere
-- If the project is very active, then it will be worthy to migrate the history because your developers may need them every day
+* If the history of source changes will be checked very often, so you can check the old history with the recent together via TFS
+* You are going to decommission the old VSS completely. Say you don't want to keep the old VSS database, and then it will be necessary to keep the information somewhere
+* If the project is very active, then it will be worthy to migrate the history because your developers may need them every day
 
 If you are going to move the history, the links may help:
 
-- [Walkthrough: Migrating from Visual SourceSafe to Team Foundation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms181247(v=vs.90)?redirectedfrom=MSDN)
-- [Migrating from SourceSafe to Team Foundation Server](https://devblogs.microsoft.com/buckh/migrating-from-sourcesafe-to-team-foundation-server/)
+* [Walkthrough: Migrating from Visual SourceSafe to Team Foundation](https://learn.microsoft.com/en-us/previous-versions/visualstudio/visual-studio-2008/ms181247(v=vs.90)?redirectedfrom=MSDN)
+* [Migrating from SourceSafe to Team Foundation Server](https://devblogs.microsoft.com/buckh/migrating-from-sourcesafe-to-team-foundation-server/)
