@@ -31,7 +31,7 @@ The way to change the default background color is to edit the CRM CSS files. The
 
 Using theme feature to change the environment color.
 
-![Figure: Changing CRM 2016 UI by using theme feature](CRM2015Theme.JPG)
+![Figure: Changing CRM 2016 UI by using theme feature](CRM2015Theme.jpg)
 
 ### CRM 2013
 
@@ -109,8 +109,8 @@ Regarding the color codes, we use to differentiate Production to Test with Share
 
 Here is what we change:
 
-- Site Settings | Change The Look
-- Test – Orange
+* Site Settings | Change The Look
+* Test – Orange
 
 ![Figure: Selecting Orange theme for test](sharepoint-orange-theme.jpg)
 
