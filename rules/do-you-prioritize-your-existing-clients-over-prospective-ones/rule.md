@@ -22,3 +22,11 @@ In order to gain a good reputation in the industry, it is vital to [make existin
 A good way to think of it is _"is the ball in their court?"_ This means that your client is never waiting for you to do something, and that if there is a bottleneck; it is not on your end.
 
 A good saying pertaining to keeping your existing clients happy is: _"A bird in the hand is worth two in the bush"_.
+
+::: greybox
+
+Lee Iacocca, the legendary automotive executive, believed in closing any business discussion with an "ask" to maintain momentum and focus on outcomes. He emphasized the importance of always having a clear request or actionable step at the end of a conversation, whether it was for commitment, resources, or next steps, to drive progress and ensure accountability.
+
+:::
+
+When emailing a client, especially when an engagement is coming to an end, always include a clear request or action. Make sure the ball is always in their court 🎾
