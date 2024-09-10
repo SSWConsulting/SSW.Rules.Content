@@ -45,9 +45,8 @@ With this strategy, the decision maker can get to the important points quickly. 
 
 * What's important - Why should they care?
 * What action needs to be taken
-* What are the choices
+* What are the choices - don't leave out the recommendation
 * What decisions have to be made and when
-* What is your position - don't leave out the recommendation
 
 ::: greybox
 **Tip:** If you can't add them to the summary, [record a summary](/record-teams-meetings) and send them a link to watch when they have time.
