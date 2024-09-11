@@ -15,7 +15,7 @@ index:
 - do-you-make-sure-your-visual-studio-encoding-is-consistent
 - do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
 - are-you-careful-with-your-spelling-grammar-and-punctuation
-  
+
 ---
 
 Outsourcing can boost efficiency and reduce costs, but success requires clear guidelines and communication. Establishing rules early ensures projects meet quality standards and align with your goals.
