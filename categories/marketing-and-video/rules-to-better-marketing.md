@@ -28,7 +28,7 @@ index:
 - endomarketing-strategy-for-your-company
 - do-you-know-how-to-schedule-presenters-for-webinars
 - how-to-create-a-webinar-using-gotowebinar
-- do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
+- automated-webinars-for-multiple-time-zones
 - do-you-follow-up-with-people-who-register-for-webinars
 - do-you-use-optinmonster-for-your-content-downloads
 - do-you-use-photoshop-artboards-to-create-campaign-images
