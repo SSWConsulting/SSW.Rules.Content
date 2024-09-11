@@ -24,7 +24,7 @@ At SSW we run webinars in multiple time zones around the world. Our webinars are
 
 This means that you have create 3 different pages on Eventbrite for signups. We also have to have a technical person wake up early in the morning on the day to run the first webinar for the US audience. They then run the webinar at 11:00am for the Australian and Asia attendees, and finally they stay back at work until 10pm that night to run the webinar for the European audience.
 
-Because of the different time zones and because we want to keep the quality of the video high so we can put the webinar recording on our website SSW TV we prerecord the webinars and then play them at the relevant times.
+Because of the different time zones and because we want to keep the quality of the video high so we can put the webinar recording on our website SSW TV we prerecord the webinars and then play them at the relevant times. You can see an example of a recorded webinar at [How to make web applications with AngularJS and ASP.NET MVC | Dev SuperPowers Episode #7 | Ben Cull](http://tv.ssw.com/5682/how-to-make-web-applications-with-angularjs-and-asp-net-mvc-dev-superpowers-episode-7).
 
 Creating the multiple Eventbrite pages for multiple time zones are prone to error and is very labour intensive to keep updated along with the landing pages. Also having a staff member come in early and work late is not sustainable.
 
