@@ -101,12 +101,6 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 
 ### Best practices
 
-* **Cache large datasets at a top level**
-
-  * By caching large datasets at a top level, you reduce the number of data fetches during the build process, lowering the risk of overwhelming the system.
-
-    E.g. If your application has a list of recipes that fetch data each time you view a recipe, caching all the data at the top level instead of fetching it each time would reduce API calls during the build process.
-
 * **Write custom GraphQL queries**
 
   * You can improve data retreival by creating your own GraphQL queries  
