@@ -53,27 +53,19 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
 ### Bad practices
 
-* **Using client-side requests instead of cached values from server-side components**
+* **Using client-side requests instead of relying on cached data from build process**
 
-  * This approach bypasses pre-fetched, cached data, increasing server load and slowing down the application.
-  * It negates the benefits of static site generation, where data should be ready and waiting.
-
-### Common practices
-
-* **Utilizing Next.js caching via fetch** 
-
-  * Next.js’s fetch API is designed to cache by default during static generation and server-side rendering.
+  * This approach can negate the benefit of static site generation, where data is fetched and cached during the process
+  * Making too many client-side requests increses server load and slows down the application.
 
 ### Good practices
 
-* **Utilizing caching at the highest level of the application**
+* **Using static site generation (SSG) to fetch and cache content during the build** 
 
-  * By caching data at the top level, you ensure that it is readily available throughout your application, reducing redundant data fetching and improving overall performance.
-  * This approach allows for more efficient data management and quicker response times.
-* **Using dedicated caching packages**
-
-  * [**Redis**:](https://redis.io/fr/solutions/cas-dutilisation/cache/) An in-memory data structure store, Redis is fast and versatile, making it ideal for caching data in memory. 
-  * [**Node-cache**:](https://www.npmjs.com/package/node-cache) A lightweight, in-memory caching solution for Node.js applications.
+  * With TinaCMS, data can be fetched at build time, this will :
+    - minimizes dynamic fetching and enhances performance
+    - faster load time
+    - less strain on the server
 
 ## 3. Preventing Build Crashes
 
