@@ -23,9 +23,6 @@ When working with large datasets or generating multiple subcomponents, following
 
 ### Bad practices
 
-* **Making individual requests with Tina client for each Subcomponent**
-
-  * This method can overwhelm the build process, particularly when dealing with a large number of subcomponents.
 * **Using deeply nested schemas with nested references**
 
   * Complex and deeply nested schemas increase the complexity of the project, making it harder to manage and more prone to build failures.
