@@ -42,7 +42,7 @@ It's important to diversify your cultural experiences - don't pick the same coun
 
 ## Costs
 
-This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation (and their family, if they want to bring them).
+This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation.
 
 ::: info
 **Tip:** Put your house on [Airbnb](https://www.airbnb.com) while you're away
