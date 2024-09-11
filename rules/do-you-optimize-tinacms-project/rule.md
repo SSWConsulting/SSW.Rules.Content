@@ -95,7 +95,7 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
     - faster load time
     - less strain on the server
 
-## 3. Preventing Build Crashes
+## 3. Improving Build Performance
 
 To ensure smooth and reliable builds, it’s important to follow best practices that prevent excessive server load and manage data efficiently.
 
