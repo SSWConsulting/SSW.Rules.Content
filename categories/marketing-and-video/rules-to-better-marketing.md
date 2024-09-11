@@ -54,5 +54,5 @@ index:
 Marketing can be a very broad and complicated topic. Everyday technology is constantly changing the way we market businesses, with new vs. old advertising, automation tools, social media algorithms, how AI impacts social media networks, and much more. Marketing is an iterative process. After marketing became mainly digital, and the introduction of new terms like 'customer journey', 'ROI', and 'social media engagement', we understand that altogether, it can be hard to follow.
 
 So much has changed over the last years; an online presence has become key to success; with a new focus on branding consistency and credibility. Due to this, the cost of marketing has increased a lot, on top of all of the knowledge you now need to have as a marketer.
- 
+
 With this set of rules, we aim to help you cut through the maze of marketing jargon and to help you reach your goals faster.
