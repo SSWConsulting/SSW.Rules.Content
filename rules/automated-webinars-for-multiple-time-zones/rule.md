@@ -2,16 +2,18 @@
 seoDescription: Run webinars across multiple time zones effortlessly with automated recordings, ensuring global participation and reducing logistical burdens.
 type: rule
 archivedreason:
-title: Webinar - Do you use Automated Webinars for running Webinars in multiple Time Zones?
+title: Do you use automated webinars for running webinars in multiple time zones?
 guid: 322eb1a0-5416-4ad2-b850-f6713bbfb5d3
-uri: do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
+uri: automated-webinars-for-multiple-time-zones
 created: 2015-05-07T00:12:14.0000000Z
 authors:
   - title: Marlon Marescia
     url: https://ssw.com.au/people/marlon-marescia
-related: []
+related:
+  - automate-schedule-meetings
 redirects:
   - webinar-do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
+  - do-you-use-automated-webinars-for-running-webinars-in-multiple-time-zones
 ---
 
 Using automated webinars allows users in different time zones to view the webinar at a time that is convenient for them.
@@ -20,9 +22,9 @@ Using automated webinars allows users in different time zones to view the webina
 
 At SSW we run webinars in multiple time zones around the world. Our webinars are attended by people from Europe, US, Australia and Asia. Because we want people to see the webinar at time that is suitable for them, we have been running our webinars in three different time zones.
 
-This means that we have create three different pages on Eventbrite for signups. We also have to have a technical person wake up early in the morning on the day to run the first webinar for the US audience. They then run the webinar at 11:00am for the Australian and Asia attendees, and finally they stay back at work until 10pm that night to run the webinar for the European audience.
+This means that you have create 3 different pages on Eventbrite for signups. We also have to have a technical person wake up early in the morning on the day to run the first webinar for the US audience. They then run the webinar at 11:00am for the Australian and Asia attendees, and finally they stay back at work until 10pm that night to run the webinar for the European audience.
 
-Because of the different time zones and because we want to keep the quality of the video high so we can put the webinar recording on our website SSW TV we prerecord the webinars and then play them at the relevant times. You can see an example of a recorded webinar at [http://tv.ssw.com/5682/how-to-make-web-applications-with-angularjs-and-asp-net-mvc-dev-superpowers-episode-7](http://tv.ssw.com/5682/how-to-make-web-applications-with-angularjs-and-asp-net-mvc-dev-superpowers-episode-7)
+Because of the different time zones and because we want to keep the quality of the video high so we can put the webinar recording on our website SSW TV we prerecord the webinars and then play them at the relevant times.
 
 Creating the multiple Eventbrite pages for multiple time zones are prone to error and is very labour intensive to keep updated along with the landing pages. Also having a staff member come in early and work late is not sustainable.
 
