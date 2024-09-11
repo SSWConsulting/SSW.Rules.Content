@@ -23,11 +23,10 @@ When communicating with others, it is important to match the tone of your voice 
 To ensure your tone matches your intent, try these steps:
 
 1. During your next call, record your voice
-2. Reflect - Listen to the recording and ask yourself:
-
-* **Emotion** - Does your tone convey the emotion you intended?
-* **Exciting** - Are you speaking with enough energy and enthusiasm?
-* **Engaging** - Does your voice sound engaging and confident?
+2. Reflect - Listen to the recording and ask yourself these questions  
+  a. **Emotion** - Does your tone convey the emotion you intended?  
+  b. **Exciting** - Are you speaking with enough energy and enthusiasm?  
+  c. **Engaging** - Does your voice sound engaging and confident?
 
 If you do this for a while, you will start to notice patterns in your tone and be able to adjust it in realtime.
 
