@@ -28,4 +28,3 @@ The way that your company answers phone calls is vitally important as it is ofte
 The benefits of a strong phone manner are such that clients retain positive perceptions of the service provided by the company and the staff that they interact with. Another great benefit of a proper phone etiquette is the chance to upsell, promote complimentary services or promote a better understanding between yourself and your customer. Here's a series of rules that detail some of the issues involved with maintaining a proper phone etiquette.
 
 Do you agree with them all? Are we missing some? Let us know what you think.
-
