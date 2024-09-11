@@ -24,6 +24,7 @@ To ensure your tone matches your intent, try these steps:
 
 1. During your next call, record your voice
 2. Reflect - Listen to the recording and ask yourself:
+
 * Emotion - Does your tone convey the emotion you intended?
 * Exciting - Are you speaking with enough energy and enthusiasm?
 * Engaging - Does your voice sound engaging and confident?
