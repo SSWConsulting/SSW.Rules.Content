@@ -27,7 +27,8 @@ A good saying pertaining to keeping your existing clients happy is: _"A bird in 
 ### Why is it important
 
 Keep in mind these statistics (2024):
-1.	Existing customers are more likely to make repeat purchases:
+
+1. Existing customers are more likely to make repeat purchases:
 Existing customers are 50% more likely to try new products and spend 31% more compared to new customers.
 2. Retention is cheaper than acquisition:
 Acquiring new customers is anywhere from 5 to 25 times more expensive than retaining existing customers .
@@ -40,7 +41,7 @@ Businesses with strong customer retention see up to a 50% higher revenue growth 
 
 ## How to retain customers
 
-One way to keep existing clients happy is making sure the client is never waiting for you to do something. 
+One way to keep existing clients happy is making sure the client is never waiting for you to do something.
 When emailing a client, especially when an engagement is coming to an end, always include a clear request or action. Make sure the ball is always in their court 🎾
 
 ::: greybox
