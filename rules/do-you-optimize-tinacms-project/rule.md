@@ -1,7 +1,6 @@
 ---
 type: rule
-title: Do you Optimize your TinaCMS Project for Clarity, Performance, and
-  Reliable Builds?
+title: Do you optimize your TinaCMS project for clarity, performance, and reliable builds?
 seoDescription: Learn effective strategies to structure and optimize your
   TinaCMS project for clarity, performance, and successful builds.
 uri: do-you-optimize-tinacms-project
@@ -21,14 +20,14 @@ Let’s explore how to structure your project effectively and apply best practic
 
 When working with large datasets or generating multiple subcomponents, following best practices is crucial to maintain performance and clarity.
 
-### Bad practices
+### ❌ Bad practices
 
 * **Using deeply nested schemas with nested references**
 
   * Complex and deeply nested schemas increase the complexity of the project, making it harder to manage and more prone to build failures
   * They can also lead to inefficient data fetching, further slowing down both runtime and build processes
 
-### Good practices
+### ✅ Good practices
 
 * **Making a single request at a top-level server component and using React Context or a state management library**
 
@@ -79,14 +78,14 @@ export async function generateStaticParams() {
 
 Optimizing runtime performance is key to delivering a fast and responsive user experience.
 
-### Bad practices
+### ❌ Bad practices
 
 * **Using client-side requests instead of relying on cached data from build process**
 
   * This approach can negate the benefit of static site generation, where data is fetched and cached during the process
   * Making too many client-side requests increses server load and slows down the application
 
-### Good practices
+### ✅ Good practices
 
 * **Using static site generation (SSG) to fetch and cache content during the build** 
 
@@ -99,7 +98,7 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
 To ensure smooth and reliable builds, it’s important to follow best practices that prevent excessive server load and manage data efficiently.
 
-### Best practices
+### ✅ Best practices
 
 * **Write custom GraphQL queries**
 
