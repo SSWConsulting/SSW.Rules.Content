@@ -70,7 +70,7 @@ index:
 - management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 - management-do-you-know-who-has-authority
 - have-an-induction-program
-- do-you-identify-development-test-and-production-crm-web-servers-by-colors
+- identify-web-servers-by-colors
 - record-a-quick-and-dirty-done-video
 - the-best-way-to-learn
 - use-the-brains-of-your-company
