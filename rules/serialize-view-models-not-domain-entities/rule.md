@@ -1,8 +1,8 @@
 ---
-seoDescription: Do you serialize view models (aka DTOs) not domain entities when building a simple API based on Entity Framework?
+seoDescription: Do you serialize View Models (aka DTOs) not Domain Entities when building a simple API based on Entity Framework?
 type: rule
 archivedreason:
-title: Do You Serialize View Models (aka DTOs), not Domain Entities?
+title: Do you serialize View Models (aka DTOs), not Domain Entities?
 guid: 27b5ec09-aaea-4acf-976c-7a9d65dcdb1b
 uri: serialize-view-models-not-domain-entities
 created: 2019-03-05T19:04:34.0000000Z
@@ -20,7 +20,7 @@ When building a simple API based on Entity Framework, It can be tempting to keep
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad Example - A naive WebAPI implementation](bad-webapi.png)  
+![Figure: Bad example - A naive WebAPI implementation](bad-webapi.png)  
 :::
 
 Although this code is very simple to write, there can be a number of potential problems:
@@ -33,10 +33,10 @@ Although this code is very simple to write, there can be a number of potential p
 Update operations can be even more problematic:
 
 ::: bad  
-![Figure: Bad Example - A naive update operation](bad-webapi-operation.png)  
+![Figure: Bad example - A naive update operation](bad-webapi-operation.png)  
 :::
 
-Consider the Product object that is received as a [FromBody] parameter by the action.
+Consider the Product object that is received as a `FromBody` parameter by the action.
 
 At the start of the action this is not a persistent entity that has been loaded from the database and attached to a DBContext. Instead it is an entirely new object that has been created by the MVC databinding system.
 
@@ -55,11 +55,10 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
 - Consider this to be a case where the Single Responsibility Principle (SRP) generally outweighs Don’t Repeat Yourself (DRY)
 - Read operations can be optimised by selecting from DBSets directly into view models
 
-::: good  
-![](good-webapi-1.png)  
-:::
 
- <img src="good-webapi-2.png" alt="good-webapi-2.png">
+![](good-webapi-1.png)  
+ 
+![](good-webapi-2.png)  
 
 ::: good  
 ![Figure: Good Example - Update an Entity from a submitted View Model](good-webapi-2.png)  
@@ -68,17 +67,15 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
 This approach requires a bit more boiler-plate code as the fields to be updated are applied manually, but there is far less risk of unintended side effects.
 As the complexity of the code increases, it will be much easier for developers to keep a clear distinction between ViewModel objects that were received from web requests, and persistent entities that came from Entity Framework.
 
-::: good  
 ![](good-webapi-operation-1.png)  
-:::
 
- <img src="good-webapi-operation-2.png" alt="good-webapi-operation-2.png">
+![](good-webapi-operation-2.png)  
 
 ::: good  
-![Figure: Good Example - A Read Operation that selects directly into a view model](good-webapi-operation-2.png)  
+![Figure: Good example - A Read Operation that selects directly into a view model](good-webapi-operation-2.png)  
 :::
 
 For the above read, Entity Framework will execute an SQL select statement containing only the fields that have been projected via .Select()  
 This will also prevent change tracking on the source entity.
 
-The above example also demonstrates how a projection / mapping from an entity to a view model can be reused by creating an Expression&lt;Func&lt;EntityType, ViewModelType&gt;&gt;
+The above example also demonstrates how a projection / mapping from an entity to a view model can be reused by creating an Expression `<Func<EntityType, ViewModelType>>`.
