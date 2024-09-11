@@ -109,6 +109,5 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 
 * **Write custom Tina queries**
 
-  * You can improve build generation and prevent build crash by creating your own Tina GraphQL queries.  
-
-    Some of the auto-generated Tina queries are not optimized, such as those with nested objects containing redundant data. For example, recipes that include an ingredients object, which in turn includes the same recipes again. Creating custom queries can reduce the size of objects and improve performance.
+  * You can improve data retreival by creating your own GraphQL queries  
+    Auto-generated GraphQL queries are not optimized, as a result, they may include nested objects with redundant data. For example, recipes that include an ingredients object, which in turn includes the same recipes again. Creating custom queries can reduce the size of objects and improve performance
