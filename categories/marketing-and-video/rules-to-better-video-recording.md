@@ -22,6 +22,7 @@ index:
   - unique-office-backgrounds
   - production-do-you-know-the-correct-way-to-frame-your-subject
   - production-do-you-manage-audience-interactivity
+  - match-tone-with-intent
   - production-do-you-perform-an-equipment-checklist
   - production-do-you-set-up-the-speaker-prior-to-recording
   - production-do-you-use-a-recording-in-progress-sign
