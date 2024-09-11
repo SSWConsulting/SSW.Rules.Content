@@ -12,6 +12,7 @@ index:
   - awesome-readme
   - architecture-diagram
   - do-you-document-the-technologies-design-patterns-and-alm-processes
+  - spike-vs-poc
   - look-at-the-architecture-of-javascript-projects
   - do-you-look-at-the-architecture
   - do-you-generate-the-vs-dependency-graph
