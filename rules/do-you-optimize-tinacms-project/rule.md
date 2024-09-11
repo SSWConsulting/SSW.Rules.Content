@@ -107,7 +107,7 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 
     E.g. If your application has a list of recipes that fetch data each time you view a recipe, caching all the data at the top level instead of fetching it each time would reduce API calls during the build process.
 
-* **Write custom Tina queries**
+* **Write custom GraphQL queries**
 
   * You can improve data retreival by creating your own GraphQL queries  
     Auto-generated GraphQL queries are not optimized, as a result, they may include nested objects with redundant data. For example, recipes that include an ingredients object, which in turn includes the same recipes again. Creating custom queries can reduce the size of objects and improve performance
