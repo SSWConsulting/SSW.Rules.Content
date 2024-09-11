@@ -1,14 +1,17 @@
 ---
 type: rule
-tips: ""
 title: Are you clear when sending dates to people?
 seoDescription: Sending clear dates in emails and appointments
 uri: add-days-to-dates
 authors:
-  - title: ""
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
+  - title: Penny Walker
+    url: https://www.ssw.com.au/people/penny-walker
 created: 2024-09-11T14:32:00.000Z
 guid: 41332a7f-b065-48b2-a1df-847594fe7815
 ---
+
 When you are planning on meeting someone or planning an event, it is very important that the date you are meeting up, or running the event on is clear.
         
 
