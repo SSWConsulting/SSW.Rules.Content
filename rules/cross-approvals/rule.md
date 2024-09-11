@@ -26,6 +26,7 @@ In small companies, a single key stakeholder often approves everything, ensuring
 **Video: Cross-approvals - Do you know how to scale approvals? (4 min)**
 
 ## What is an approval?
+
 Before we dive into the benefits of scaling approvals. It's worth establishing a baseline for what an approval is. Generally an approval is anytime you need someone else to check a piece of work you have done before it can be marked as done.
 
 ## Benefits of scaling approvals
