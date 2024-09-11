@@ -25,8 +25,8 @@ When working with large datasets or generating multiple subcomponents, following
 
 * **Using deeply nested schemas with nested references**
 
-  * Complex and deeply nested schemas increase the complexity of the project, making it harder to manage and more prone to build failures.
-  * They can also lead to inefficient data fetching, further slowing down both runtime and build processes.
+  * Complex and deeply nested schemas increase the complexity of the project, making it harder to manage and more prone to build failures
+  * They can also lead to inefficient data fetching, further slowing down both runtime and build processes
 
 ### Good practices
 
@@ -72,8 +72,8 @@ export async function generateStaticParams() {
 
 * **Caching data at a Top-level and accessing it when necessary**
 
-  * If passing props is not feasible (e.g., when a component depends on Next.js router information), you should make a general top-level request, cache the data, and then access it directly from the cache within the component.
-  * This approach ensures efficient data retrieval and reduces the server load at build time.
+  * If passing props is not feasible (e.g., when a component depends on Next.js router information), you should make a general top-level request, cache the data, and then access it directly from the cache within the component
+  * This approach ensures efficient data retrieval and reduces the server load at build time
 
 ## 2. Improving Runtime Performance
 
@@ -84,7 +84,7 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 * **Using client-side requests instead of relying on cached data from build process**
 
   * This approach can negate the benefit of static site generation, where data is fetched and cached during the process
-  * Making too many client-side requests increses server load and slows down the application.
+  * Making too many client-side requests increses server load and slows down the application
 
 ### Good practices
 
