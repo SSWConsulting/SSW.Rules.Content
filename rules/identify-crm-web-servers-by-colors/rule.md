@@ -2,9 +2,9 @@
 seoDescription: Identify Development, Test, and Production Web Servers by colors to ensure a seamless transition between environments.
 type: rule
 archivedreason:
-title: Do you identify Development, Test and Production Web Servers by colors?
+title: Do you identify Development, Test and Production web servers by colors?
 guid: 9b723127-5c2d-4e40-a2a5-45ccd4840d2b
-uri: do-you-identify-development-test-and-production-crm-web-servers-by-colors
+uri: identify-crm-web-servers-by-colors
 created: 2012-12-10T19:42:40.0000000Z
 authors:
   - title: Adam Cogan
@@ -15,6 +15,7 @@ related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
   - do-you-identify-development-test-and-production-web-servers-by-colors
+  - do-you-identify-development-test-and-production-crm-web-servers-by-colors
 ---
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
