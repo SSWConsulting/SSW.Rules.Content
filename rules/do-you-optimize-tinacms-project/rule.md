@@ -30,13 +30,44 @@ When working with large datasets or generating multiple subcomponents, following
 
 ### Good practices
 
-* **Making a single request at a top-level server component and passing props down**
+* **Making a single request at a top-level server component and using React Context or a state management library**
 
-  * Data fetched at the top level is cached by default, which enhances performance by reducing redundant API calls.
-  * Subcomponents can directly access the necessary data, eliminating the need for repeated requests.
+  * Data fetched at the top level can be stored in a React Context or a global state management solution (e.g., [Redux](https://redux.js.org/)). This allows all components to access the data without the need to pass props manually
+  * This approach ensures better scalability, as subcomponents can access the necessary data directly from the context or store, eliminating redundant API calls and avoiding prop drilling
 
 ::: good
-![Figure: Good example - Single request at the top-level server and passing props down](2024-08-28_16-21-56.png)
+```js
+export default async function Home({ params }: HomePageProps) {
+  const location = params.location;
+  
+  // Appel à l'API ou client GraphQL
+  const websiteProps = await client.queries.website({
+    relativePath: `${location}/website.md`,
+  });
+
+  // Imaginons que websiteProps contient ces données
+  const { conferencesData, footerData, speakers } = websiteProps.data;
+
+  return (
+      <ConferenceContext.Provider value={conferencesData}>
+        <FooterContext.Provider value={footerData}>
+          <PageTransition>
+            <HomeComponent speakers={speakers}/>
+          </PageTransition>
+        </FooterContext.Provider>
+      </ConferenceContext.Provider>
+  );
+}
+
+// Génération des paramètres statiques pour SSG
+export async function generateStaticParams() {
+  const contentDir = path.join(process.cwd(), 'content/websites');
+  const locations = await fs.readdir(contentDir);
+
+  return locations.map((location) => ({ location }));
+}
+```
+**Figure: This code provides `conferencesData` and `footerData` via contexts, while passing `speakers` directly as props to `HomeComponent` for immediate use**
 :::
 
 * **Caching data at a Top-level and accessing it when necessary**
