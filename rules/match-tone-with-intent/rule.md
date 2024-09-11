@@ -18,22 +18,23 @@ When communicating with others, it is important to match the tone of your voice 
 
 `youtube: https://www.youtube.com/embed/FFPpQwHbWW4`
 
-
 ## Improve your vocal tone
 
 To ensure your tone matches your intent, try these steps:
 
 1. During your next call, record your voice
 2. Reflect - Listen to the recording and ask yourself:
-- Emotion - Does your tone convey the emotion you intended?
-- Exciting - Are you speaking with enough energy and enthusiasm?
-- Engaging - Does your voice sound engaging and confident?
+* Emotion - Does your tone convey the emotion you intended?
+* Exciting - Are you speaking with enough energy and enthusiasm?
+* Engaging - Does your voice sound engaging and confident?
 
 If you do this for a while, you will start to notice patterns in your tone and be able to adjust it in realtime.
 
 You can also improve your tone by watching a good speaker and trying to mimic their tone.
 
 ::: greybox
+
 ## Speak with certainty
+
 Avoid the common pitfall of "upspeak" — a rising intonation at the end of your statements. This habit can make your statements sound like questions, reducing your perceived confidence and authority. Instead, aim to finish your sentences with a neutral or downward inflection to project certainty and credibility.
 :::
