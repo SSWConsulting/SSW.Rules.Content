@@ -14,9 +14,9 @@ guid: 774b7ef3-8e7e-49bc-927f-379503a8ce91
 
 When communicating with others, it is important to match the tone of your voice with your intent.
 
-<!-- endintro -->
-
 `youtube: https://www.youtube.com/embed/FFPpQwHbWW4`
+
+<!-- endintro -->
 
 ## Improve your vocal tone
 
@@ -36,5 +36,6 @@ You can also improve your tone by watching a good speaker and trying to mimic th
 
 ## Speak with certainty
 
-Avoid the common pitfall of "upspeak" — a rising intonation at the end of your statements. This habit can make your statements sound like questions, reducing your perceived confidence and authority. Instead, aim to finish your sentences with a neutral or downward inflection to project certainty and credibility.
+Avoid "upspeaking" — a rising intonation at the end of your statements. This habit can make your statements sound like questions,  reducing your perceived confidence and authority.  
+Instead, aim to finish your sentences with a neutral or downward inflection to project certainty and credibility.
 :::
