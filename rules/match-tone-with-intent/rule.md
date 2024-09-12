@@ -14,25 +14,41 @@ guid: 774b7ef3-8e7e-49bc-927f-379503a8ce91
 
 When communicating with others, it is important to match the tone of your voice with your intent. The way you deliver your message can significantly impact how it is received. A well-matched tone ensures clarity, understanding, and strengthens relationships, allowing your true intentions to shine through effectively.
 
+This is extra important for consultants - we need to make sure our clients trust us and feel confident in the solutions we provide.
+
 <!-- endintro -->
 
 `youtube: https://www.youtube.com/embed/FFPpQwHbWW4`
+**Video: Are you Engaging to Listen to? How you Sound Matters**
+
+## Tips to matching tone with intent
+
+* **Show confidence** - Avoid a rising intonation at the end of your statements. This habit can make your statements sound like questions, reducing your perceived confidence and authority.  
+Instead, aim to finish your sentences with a neutral or downward inflection to project confidence.
+* **Show you care** - Speak with lots of energy to keep your listeners engaged and feeling good
+* **Avoid sounding defensive** - It can come across as agressive
 
 ## Improve your vocal tone
+
+### By yourself
 
 To ensure your tone matches your intent, try these steps:
 
 1. During your next call, record your voice
 2. Reflect - Listen to the recording and ask yourself these questions  
-  a. **Emotion** - Does your tone convey the emotion you intended?  
-  b. **Exciting** - Are you speaking with enough energy and enthusiasm?  
-  c. **Engaging** - Does your voice sound engaging and confident?
+  a. Are you showing confidence?
+  b. Are you showing care?
+  c. Do you sound defensive?
+
+### In a team
+1. In your next Daily Scrum, play the video at the start
+2. Then do your Daily Scrum while being careful with tone
+3. Afterwards, ask if anybody wants to comment on tone suggestions
 
 If you do this for a while, you will start to notice patterns in your tone and be able to adjust it in realtime.
 
 You can also improve your tone by watching a good speaker and trying to mimic their tone.
 
-## Speak with certainty
-
-Avoid "upspeaking" — a rising intonation at the end of your statements. This habit can make your statements sound like questions,  reducing your perceived confidence and authority.  
-Instead, aim to finish your sentences with a neutral or downward inflection to project certainty and credibility.
+::: greybox
+**Tip:** Before a call, its important to get in the right mindset
+:::
