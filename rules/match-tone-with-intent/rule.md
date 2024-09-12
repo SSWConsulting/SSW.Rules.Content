@@ -41,6 +41,7 @@ To ensure your tone matches your intent, try these steps:
   c. Do you sound defensive?
 
 ### In a team
+
 1. In your next Daily Scrum, play the video at the start
 2. Then do your Daily Scrum while being careful with tone
 3. Afterwards, ask if anybody wants to comment on tone suggestions
