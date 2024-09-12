@@ -13,7 +13,7 @@ index:
 - have-a-strict-password-security-policy
 - multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
-- azure-ad-pim
+- microsoft-entra-pim
 - group-managed-service-account-gmsa
 - remote-desktop-manager
 - windows-admin-center
