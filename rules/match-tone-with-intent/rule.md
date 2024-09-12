@@ -21,8 +21,8 @@ This is extra important for consultants - we need to make sure our clients trust
 `youtube: https://www.youtube.com/embed/FFPpQwHbWW4`
 **Video: Are you Engaging to Listen to? How you Sound Matters (30 sec)**
 
-<!--`youtube: https://www.youtube.com/watch?v=PkGIZ5yQSp4`
-**Video: Do you match tone with intent | Brady Stroud & Adam Cogan | Rules**-->
+`youtube: https://www.youtube.com/watch?v=PkGIZ5yQSp4`
+**Video: Do you match tone with intent | Brady Stroud & Adam Cogan | Rules**
 
 ## Tips to matching tone with intent
 
@@ -46,14 +46,17 @@ To ensure your tone matches your intent, try these steps:
 
 ### In a team
 
-1. In your next Daily Scrum, play the video at the start
+1. In your next Daily Scrum, play the videos at the start
+https://youtu.be/FFPpQwHbWW4 (30 sec)
+https://youtu.be/PkGIZ5yQSp4 (3 min)
 2. Then do your Daily Scrum while being careful with tone
-3. Afterwards, ask if anybody wants to comment on tone suggestions
+3. Ask if anybody wants to comment on tone suggestions
+4. Ask the question "Show a thumbs up if everyones tone was great"
 
 If you do this for a while, you will start to notice patterns in your tone and be able to adjust it in realtime.
 
 You can also improve your tone by watching a good speaker and trying to mimic their tone.
 
 ::: greybox
-**Tip:** Before a call, its important to get in the right mindset
+**Tip:** Before a call, its important to get in the right mindset E.g., Some people like to smile at the camera before they try call
 :::
