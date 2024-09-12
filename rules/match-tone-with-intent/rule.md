@@ -22,7 +22,7 @@ This is extra important for consultants - we need to make sure our clients trust
 **Video: Are you Engaging to Listen to? How you Sound Matters (30 sec)**
 
 `youtube: https://youtu.be/aFw5cdgrsyQ`
-**Video: Do you match tone with intent | Brady Stroud & Adam Cogan | Rules (3 min)**
+**Video: Do you match tone with intent | Brady Stroud & Adam Cogan | SSW Rules (3 min)**
 
 ## Tips - Match tone with intent
 
@@ -39,16 +39,16 @@ Instead, aim to finish your sentences with a neutral or downward inflection to p
 To ensure your tone matches your intent, try these steps:
 
 1. During your next call, record your voice
-2. Reflect - Listen to the recording and ask yourself these questions  
-  a. Are you showing confidence?
-  b. Are you showing care?
-  c. Do you sound defensive?
+2. Reflect - Listen to the recording and ask yourself these questions:    
+  - Are you showing **confidence**?
+  - Are you showing **care**?
+  - Do you sound **defensive**?
 
 ### In a team
 
-1. In your next Daily Scrum, play the videos at the start
-<https://youtu.be/FFPpQwHbWW4> (30 sec)
-<https://youtu.be/PkGIZ5yQSp4> (3 min)
+1. In your next Daily Scrum, play the videos at the start:   
+   [Are you Engaging to Listen to? How you Sound Matters (30 sec)](https://youtu.be/FFPpQwHbWW4) 
+   [Do you match tone with intent | Brady Stroud & Adam Cogan | SSW Rules (3 min)](https://youtu.be/PkGIZ5yQSp4)
 2. Then do your Daily Scrum while being careful with tone
 3. Ask if anybody wants to comment on tone suggestions
 4. Ask the question "Show a thumbs up if everyone's tone was great"
