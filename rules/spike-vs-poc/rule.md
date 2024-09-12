@@ -44,7 +44,7 @@ Used to demonstrate the feasibility or viability of a broader idea or concept. P
 
 #### Outcome
 
-* **Spike** – Results in knowledge or information (not deliverables) to guide future work  
+* **Spike** – Results in knowledge or information (**not deliverables**) to guide future work  
 * **PoC** – Results in a prototype or partial implementation to demonstrate viability
 
 #### Application
