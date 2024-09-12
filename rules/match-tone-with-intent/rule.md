@@ -47,8 +47,8 @@ To ensure your tone matches your intent, try these steps:
 ### In a team
 
 1. In your next Daily Scrum, play the videos at the start
-https://youtu.be/FFPpQwHbWW4 (30 sec)
-https://youtu.be/PkGIZ5yQSp4 (3 min)
+<https://youtu.be/FFPpQwHbWW4> (30 sec)
+<https://youtu.be/PkGIZ5yQSp4> (3 min)
 2. Then do your Daily Scrum while being careful with tone
 3. Ask if anybody wants to comment on tone suggestions
 4. Ask the question "Show a thumbs up if everyones tone was great"
