@@ -22,7 +22,7 @@ This is extra important for consultants - we need to make sure our clients trust
 **Video: Are you Engaging to Listen to? How you Sound Matters (30 sec)**
 
 `youtube: https://youtu.be/aFw5cdgrsyQ`
-**Video: Do you match tone with intent | Brady Stroud & Adam Cogan | Rules**
+**Video: Do you match tone with intent | Brady Stroud & Adam Cogan | Rules (3 min)**
 
 ## Tips to matching tone with intent
 
