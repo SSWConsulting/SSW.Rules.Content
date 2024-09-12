@@ -39,7 +39,7 @@ Increasing customer retention rates by just 5% can increase profits by 25% to 95
 5. Retention impacts growth:
 Businesses with strong customer retention see up to a 50% higher revenue growth rate compared to those focused mainly on acquisition .
 
-## How to retain customers
+### How to retain customers
 
 One way to keep existing clients happy is making sure the client is never waiting for you to do something.
 When emailing a client, especially when an engagement is coming to an end, always include a clear request or action. Make sure the ball is always in their court 🎾
