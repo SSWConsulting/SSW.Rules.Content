@@ -22,6 +22,9 @@ Reading data from smaller tables is much faster. How can you keep the amount of 
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/BmiRwme50Qc`  
+**Video: Reduce Table Size with Bryden**
+
 There are a number of reasons to keep table sizes small.
 
 * Large tables take longer to read and update
