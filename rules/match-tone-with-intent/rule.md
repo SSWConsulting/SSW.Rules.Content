@@ -26,7 +26,7 @@ This is extra important for consultants - we need to make sure our clients trust
 
 ## Tips to matching tone with intent
 
-* **Show confidence** - Avoid a rising intonation at the end of your statements. This habit can make your statements sound like questions, reducing your perceived confidence and authority.  
+* **Show confidence** - Avoid a raised inflection at the end of your statements. This habit can make your statements sound like questions, reducing your perceived confidence and authority.  
 Instead, aim to finish your sentences with a neutral or downward inflection to project confidence.
 * **Show you care** - Speak with lots of energy to keep your listeners engaged and feeling good
 * **Avoid sounding defensive** - It can come across as agressive
@@ -51,7 +51,7 @@ To ensure your tone matches your intent, try these steps:
 <https://youtu.be/PkGIZ5yQSp4> (3 min)
 2. Then do your Daily Scrum while being careful with tone
 3. Ask if anybody wants to comment on tone suggestions
-4. Ask the question "Show a thumbs up if everyones tone was great"
+4. Ask the question "Show a thumbs up if everyone's tone was great"
 
 If you do this for a while, you will start to notice patterns in your tone and be able to adjust it in realtime.
 
