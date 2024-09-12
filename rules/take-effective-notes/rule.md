@@ -31,5 +31,4 @@ Here are a few examples of how this can be done:
 ![Figure: Good Example - The phone contact notes have date and name followed by details](contact-notes.png)
 :::
 
-
 By following these tips and developing a system that works for you, you can take more effective notes that will help you stay organized and remember important information.

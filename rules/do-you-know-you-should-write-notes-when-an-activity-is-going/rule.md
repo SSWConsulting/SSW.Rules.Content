@@ -19,10 +19,9 @@ related:
 redirects: []
 ---
 
-During meetings, there is a lot of communication between you and the client. It is very hard to keep the entire conversation in your head; hence it is very important you take notes. Notes must be short but descriptive enough so that you can remember what the conversation was all about and what tasks were created during the meeting. 
+During meetings, there is a lot of communication between you and the client. It is very hard to keep the entire conversation in your head; hence it is very important you take notes. Notes must be short but descriptive enough so that you can remember what the conversation was all about and what tasks were created during the meeting.
 
 It is also very important that you use appropriate tools e.g. Microsoft Loop, Microsoft OneNote, Trello, Microsoft Word etc and avoid tools like Notepad.
-
 
 <!--endintro-->
 
