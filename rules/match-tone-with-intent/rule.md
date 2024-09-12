@@ -30,6 +30,7 @@ This is extra important for consultants - we need to make sure our clients trust
 Instead, aim to finish your sentences with a neutral or downward inflection to project confidence.
 * **Show you care** - Speak with lots of energy to keep your listeners engaged and feeling good
 * **Avoid sounding defensive** - It can come across as agressive
+* **Pause effectively** - Use pauses to emphasise key points and show you are thinking about something
 
 ## Improve your vocal tone
 
