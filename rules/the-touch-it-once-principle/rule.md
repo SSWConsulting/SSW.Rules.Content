@@ -24,3 +24,7 @@ This tiny cost once multiplied multiple times per task, and considering how many
 To combat this, if you ever receive a task that would take 15 minutes or less to complete, do it immediately, [reply done](/dones-do-you-reply-done-and-delete-the-original-email) if necessary, and then delete it.
 
 Another way to implement this principle to save yourself the cognitive load of re-reading emails is to [forward emails to followupthen.com](/do-you-follow-up-emails-effectively). For example, if you know you won’t be able to work on a particular task for at least 2 weeks because of a dependency, forward the email to `2weeks@followupthen.com`, and it will reappear in your inbox at the time you can actually do something about it.
+
+::: info
+**Note:** Some clients have strict change management procedures that require that a PBI is created for all work, and even work as minor as correcting a spelling mistake requires Product Owner approval. In that case, you must [turn your email into a PBI](/turn-emails-into-pbis).
+:::
