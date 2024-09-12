@@ -7,6 +7,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 created: 2023-03-30T23:48:50.319Z
 guid: d96efe9b-8981-44d0-b22e-b41a7d173db8
+related:
+  - creating-action-items
+  - do-you-know-you-should-write-notes-when-an-activity-is-going 
 ---
 Taking effective notes is an important skill that can help you stay organized and remember important information. Whether you’re in a meeting with a client or jotting down tasks for your to-do list, it’s important to have a system in place for taking and organizing your notes.
 
