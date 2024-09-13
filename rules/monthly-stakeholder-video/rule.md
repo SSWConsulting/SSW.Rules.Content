@@ -25,6 +25,29 @@ So, to keep stakeholders well informed, these teams should record a monthly stak
 * **Engagement** - Videos are more engaging than written reports
 * **Accessibility** -  Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts
 
+To be consistent, have a recurring appointment each month:
+
+::: email-template
+| | |
+| -------- | --- |
+| Required Attendees: | {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }} |
+| Optional Attendees: | {{ REST OF THE TEAM }} |
+| Recurrence: | 1st Monday of each month |
+| Subject: | {{ PROJECT NAME }} – Monthly Video |
+::: email-content
+
+### Hi {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }}
+
+Please record this month’s marketing analytics video!
+
+1. Follow the instructions: {{ URL TO THE LIST OF REPORTS TO REVIEW }}
+2. Try having {{ PRODUCT OWNER }} on the call – if not choose another relevant person
+
+< As per <https://ssw.com.au/rules/monthly-stakeholder-video> >
+
+:::
+:::
+
 ## Create an effective video
 
 To ensure your message is clear, engaging, and aligned with stakeholders' interests, follow these tips:
@@ -41,7 +64,7 @@ The video should be recorded by the Product Owner (or other head of the team).
 
 1. Open the relevant pages/analytics in browser tabs (this might be PowerBI for Sales, Google Ads and social media for Marketing, etc.)
 2. Bring up the important points you will talk about
-3. Record the video, clicking through the tabs and talking through the important metrics   
+3. Record the video, clicking through the tabs and talking through the important metrics\
    **Tip:** Use [ZoomIt](https://learn.microsoft.com/en-us/sysinternals/downloads/zoomit) for easy recording and on screen notation
 4. Upload the video to YouTube (public if there is no sensitive information - unlisted if there is)
 5. Email your stakeholders with the video link
@@ -55,7 +78,8 @@ The video should be recorded by the Product Owner (or other head of the team).
 
 ### Hi {{ PRODUCT OWNER }}
 
-FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEAGUE }} on the call with me.   
+FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEAGUE }} on the call with me.
+
 ✅ Done - I have called you to watch the video together.
 
 Here’s the link {{ YOUTUBE LINK }}
