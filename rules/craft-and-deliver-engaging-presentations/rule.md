@@ -28,12 +28,13 @@ A good starting point is to watch "7 Deadly Presentation Sins" presentation. In 
 **Video: 7 Deadly Presentation Sins with Andrew & Samantha Coates (1 hr 16 min)**
 
 Read these articles:
+
 * [5 Tips To Making an Awesome PowerPoint Presentation](https://www.linkedin.com/business/learning/blog/productivity-tips/5-best-practices-for-making-awesome-powerpoint-slides).
 * [Seven Tips for Effective Body Language on Stage](https://www.forbes.com/sites/carolkinseygoman/2012/02/13/seven-tips-for-effective-body-language-on-stage/)
   
 You should also consider taking the course [Speaking Confidently and Effectively](https://www.linkedin.com/learning/speaking-confidently-and-effectively/great-speaking-skills-are-a-must-have).
   
-## Make time for adequate preparation 
+## Make time for adequate preparation
 
 Structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong. Don’t wait until the last minute! If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 
@@ -49,7 +50,7 @@ Figure: Good example - A well prepared presentation with an excellent delivery
 
 ## Be understood
 
-Make the effort to be understood, speak clearly, and check for understanding as you go along, even if you can't hear the audience. 
+Make the effort to be understood, speak clearly, and check for understanding as you go along, even if you can't hear the audience.
 
 For more information read about [identifying your audience knowledge level](https://www.linkedin.com/learning/creating-and-giving-business-presentations/identify-your-audience-s-knowledge-level)
 
@@ -84,12 +85,12 @@ A good way to achieve a strong delivery is to avoid using filler and non-words. 
 * Don't put your hands in your pockets, or if you do, don’t have your keys in your pockets
 * Don't rock back and forth
 * If you’re moving, move deliberately
-   * When you're walking, they’ll look at you
-   * When you stop and turn, they’ll look at the slides
+  * When you're walking, they’ll look at you
+  * When you stop and turn, they’ll look at the slides
 * Stay focused on the topic. Don’t just ramble on
 * Put yourself in the audiences shoes
-   * Can they see and hear you?
-   * Can they read your screen?
+  * Can they see and hear you?
+  * Can they read your screen?
 * Be prepared for demo failures
 
 :::
