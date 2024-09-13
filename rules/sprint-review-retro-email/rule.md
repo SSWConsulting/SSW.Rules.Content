@@ -81,7 +81,7 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 1. Sprint Burndown (a quick overview of the Sprint)
 
-   ![Figure: Sprint Burndown](burndown.JPG)
+   ![Figure: Sprint Burndown](burndown.jpg)
 
 1. Timesheet data - Who worked in a Sprint?
 
@@ -99,17 +99,17 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 1. Burnup (for the release - the whole project, how are we tracking for the big picture?)
 
-   ![Figure: Release Burnup](ReleaseBurnup.jpg)
+   ![Figure: Release Burnup](release-burnup.jpg)
 
 1. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
 
-   ![Figure: Build Pipeline Health from DevOps](thumbnail_image.png)
+   ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
 
    ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
 
 1. Application Health Overview Timeline (For the entire Sprint)
 
-   ![Figure: Application Health Overview Timeline](ApplicationInsights.jpg)
+   ![Figure: Application Health Overview Timeline](application-insights.jpg)
 
 1. Product Roadmap
 

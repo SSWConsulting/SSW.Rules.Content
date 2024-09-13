@@ -1,15 +1,15 @@
 ---
 seoDescription: Avoid deploying source code on production servers by using tools like Publish utility to precompile and deploy ASP.NET projects, removing source code and identifying potential errors.
 type: rule
-archivedreason:
 title: Do you avoid deploying source code on the production server?
-guid: d8faf9ec-e8fb-4399-90fe-c01f818420f8
 uri: avoid-deploying-source-code-on-the-production-server
-created: 2016-11-17T13:15:08.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
+created: 2016-11-17T13:15:08.0000000Z
+archivedreason:
+guid: d8faf9ec-e8fb-4399-90fe-c01f818420f8
 redirects:
   - do-you-avoid-deploying-source-code-on-the-production-server
 ---
@@ -26,9 +26,9 @@ Instead, please use 'Publish' utility to deploy your website or Web application.
 
 To access this dialog box, please open a website that you want to deploy and click **Build** menu, then click **Publish Website** .
 
-![Figure: How to open Publish Website dialog box](PublishWebsite.jpg)
+![Figure: How to open Publish Website dialog box](publish-website.jpg)
 
-![Figure: Publish Website dialog box](PublishWebsiteDialog.JPG)
+![Figure: Publish Website dialog box](publish-website-dialog.jpg)
 
 See more about [Publishing Websites](<https://docs.microsoft.com/en-us/previous-versions/20yh9f1b(v=vs.140)?redirectedfrom=MSDN>).
 
@@ -38,8 +38,8 @@ The **Publish Web** dialog box enables you to build and publish a Web applicatio
 
 To access this dialog box, open a Web application project that you want to publish and click **Publish** ApplicationName on the **Build** menu.
 
-![Figure: How to open Publish Web dialog ('WebApp' is the name of this application)](PublishWebApp.jpg)
+![Figure: How to open Publish Web dialog ('WebApp' is the name of this application)](publish-web-app.jpg)
 
-![Figure: Publish Web dialog box](PublishWebAppDialog.JPG)
+![Figure: Publish Web dialog box](publish-web-app-dialog.jpg)
 
 See more about [How to Publish Web Applications](<https://docs.microsoft.com/en-us/previous-versions/aspnet/aa983453(v=vs.100)?redirectedfrom=MSDN>).

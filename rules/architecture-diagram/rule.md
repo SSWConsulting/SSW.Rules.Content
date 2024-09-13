@@ -113,13 +113,13 @@ Putting something on a whiteboard is "low risk" for the participants as its real
 > * Brendan Richards, SSW Solution Architect
 
 ::: ok img-medium
-![Figure: SSW Rewards - start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram](IMG_9906.JPG)
+![Figure: SSW Rewards - start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram](rewards-hand-drawn-sketch.jpg)
 :::
 
 **Tip:** [Microsoft Office Lens](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi6-NTb1MvrAhWXA3IKHevqC-MQtwIwAHoECAEQAQ&url=https://www.youtube.com/watch?v%3DjzZ3WVhgi5w&usg=AOvVaw25XKH6ZRcPfM5jaVajFOlH) is a free mobile app that uses your smartphone camera to capture scan-like images of documents, photographs, business cards, and whiteboards (including searchable handwritten text).
 
 ::: good img-medium
-![Figure: Better example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!](IMG_9908.JPG)
+![Figure: Better example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!](reward-hand-drawn-sketch-office-lens.jpg)
 :::
 
 ### Tip #7: ...and Finish up with Diagrams.net
