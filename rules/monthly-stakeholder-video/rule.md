@@ -25,6 +25,28 @@ So, to keep stakeholders well informed, these teams should record a monthly stak
 * **Engagement** - Videos are more engaging than written reports
 * **Accessibility** -  Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts
 
+To be consistent, have a recurring appointment each month:
+
+::: email-template
+| | |
+| -------- | --- |
+| To: | {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }} |
+| Subject: | Stakeholders |
+::: email-content
+
+### Hi {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }},
+Please record this month’s marketing analytics video!
+
+1.	Follow the instructions: {{ URL TO THE LIST OF REPORTS TO REVIEW }}
+2.	Try having {{ PRODUCT OWNER }} on the call – if not choose another relevant person
+
+< As per <https://ssw.com.au/rules/monthly-stakeholder-video> >
+
+:::
+:::
+
+
+
 ## Create an effective video
 
 To ensure your message is clear, engaging, and aligned with stakeholders' interests, follow these tips:
