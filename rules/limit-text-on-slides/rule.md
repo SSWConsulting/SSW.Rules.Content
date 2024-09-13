@@ -11,6 +11,7 @@ related:
   - concise-writing
 redirects:
   - no-text-slides
+  - less-is-more
 created: 2023-11-09T21:46:41.000Z
 archivedreason: null
 guid: d761c649-3b52-4268-9275-5ecee1e9fd3b
