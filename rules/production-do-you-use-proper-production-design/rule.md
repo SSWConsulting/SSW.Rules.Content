@@ -41,12 +41,11 @@ Creating a set for a production is a complex and tricky business but there are s
 ![Figure: Good example - Interesting background but not distracting, relevant furniture, set reflects theme of show](good-set-design-example.png)
 :::
 
-###  Location
+### Location
 
 Location is similar to set design, only in this instance the aspects are mostly out of your control. You can certainly dress the set (see below) but at the end of the day there are some things that will be there no matter what. As such, choose your location carefully.
 
 Things to consider are background, framing, sound and distractions. Is there a loud lecture theatre, highway or skate ramp next door? Is there a window on your set that's going to create a distracting reflection? Is there a boring, featureless wall in your background? Is there a line that appears to be passing straight through someone's head? Also avoid high contrast, such as a very dark wall next to the bright wall your subjects are in front of, or a large white spot on a black wall.
-
 
 `youtube: https://www.youtube.com/embed/2wbykQVvfkc`
 **Video: Good and Bad examples of filming locations (1 min)**
