@@ -19,10 +19,6 @@ If you use Exchange Server, Auto-Archive moves the archived items from the Excha
 
 <!--endintro-->
 
-![Outlook Auto Archive](OutlookAutoArchive.gif)**Figure: Turn off AutoArchive so your emails do not get thrown away**
+![Figure: Turn off AutoArchive so your emails do not get thrown away](outlook-auto-archive.png)
+
 I promise you'll be thankful you never deleted your Sent Items.
-
-We have a program called [SSW LookOut! for Outlook](http://www.ssw.com.au/ssw/LookOut/) to check for this rule.
-
-SSW LookOut! for Outlook can tell you if you have archive on.
-![Contact or No Aging](ContactorNoAging.JPG)**Figure: SSW LookOut! for Outlook warns you if Outlook is set to archive your emails**
