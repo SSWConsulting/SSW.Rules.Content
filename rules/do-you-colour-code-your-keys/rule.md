@@ -24,11 +24,11 @@ Keys, we all have them. A key for the front door, a key for the garage, a key to
 If you allocate each individual lock a color and then tag or color your keys to match, you can save a lot of time and effort identifying the correct key. This is x10 worse if you have a lot of keys! Nothing worse than receiving 50 keys and you have no idea what any of them do! 💀
 
 ::: bad
-![Figure: Bad example - A key bunch with no color-coding, total anarchy!](keys 2.JPG)
+![Figure: Bad example - A key bunch with no color-coding, total anarchy!](bad-example-keys.jpg)
 :::
 
 ::: good
-![Figure: Good example - Color-coded keys with labels, perfect order](keys 1.JPG)
+![Figure: Good example - Color-coded keys with labels, perfect order](good-example-keys.jpg)
 :::
 
 **Tip:** While you can buy colored keys, they are not as strong as their silver counterparts, and can break in the locks of heavier doors. Using nail polish to mark your keys, or using a key cover is a better way to go!
