@@ -33,12 +33,12 @@ Of course, when in a public event such as a User Group, conference or seeing cli
 
 It should go without saying, but of course, things such as shaving off your weekend facial growth, using deodorant and having clean teeth and nice breath is assumed.
 
-![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery_dressed-up.jpg)
+![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery-dressed-up.jpg)
 
 ### On a business flight
 
 It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.\
-![Figure: Why dress up in a flight](dresscode-linkedin.PNG)
+![Figure: Why dress up in a flight](dresscode-linkedin.png)
 
 ### Dressing Down (aka Casual Fridays)
 
@@ -54,7 +54,7 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 
 :::
 
-![Figure: SSW Dress Code poster](SSW-Dresscode-Poster-v2.png)
+![Figure: SSW Dress Code poster](ssw-dresscode-poster-v2.png)
 
 ### Shorts Days - the cool exception
 
