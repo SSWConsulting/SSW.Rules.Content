@@ -50,20 +50,20 @@ It’s actually quite simple, here is a code snippet converting a table from the
 ```sql
 CREATE TABLE dbo.Shippers
 (
-               [ShipperID] int IDENTITY(1, 1) NOT NULL,
-               [CompanyName] nvarchar(40) NOT NULL,
-               [Phone] nvarchar(24) NULL,
-              [SysStartTime] datetime2 GENERATED ALWAYS AS ROW START, [SysEndTime]  datetime2 GENERATED ALWAYS AS ROW END, PERIOD FOR SYSTEM_TIME (SysStartTime, SysEndTime), CONSTRAINT PK_Shippers PRIMARY KEY CLUSTERED
-               (
-                              [ShipperID]
-               )
+    [ShipperID] int IDENTITY(1, 1) NOT NULL,
+    [CompanyName] nvarchar(40) NOT NULL,
+    [Phone] nvarchar(24) NULL,
+    [SysStartTime] datetime2 GENERATED ALWAYS AS ROW START, [SysEndTime]  datetime2 GENERATED ALWAYS AS ROW END, PERIOD FOR SYSTEM_TIME (SysStartTime, SysEndTime), CONSTRAINT PK_Shippers PRIMARY KEY CLUSTERED
+    (
+        [ShipperID]
+    )
 )
- WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.ShippersHistory));
+WITH (SYSTEM_VERSIONING = ON (HISTORY_TABLE = dbo.ShippersHistory));
 ```
 
 **Figure: Shippers table from the Northwind schema converted to a temporal table.**
 
-![Figure: New temporal table shown in SQL Management Studio.](Shippers_TemporalTable.PNG)
+![Figure: New temporal table shown in SQL Management Studio.](shippers-temporal-table.png)
 
 ```sql
 -- Update the tables history data retention
@@ -71,8 +71,7 @@ ALTER TABLE dbo.Shippers
 SET (SYSTEM_VERSIONING = ON (HISTORY_RETENTION_PERIOD = 7 YEARS));
 ```
 
-**Figure: Code snippet for updating data retention.
-**
+**Figure: Code snippet for updating data retention.**
 
 Some alternative solutions are:
 
