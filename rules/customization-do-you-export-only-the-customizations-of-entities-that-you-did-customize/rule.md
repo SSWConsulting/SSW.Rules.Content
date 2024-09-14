@@ -17,8 +17,8 @@ redirects:
 
 Export each single entity customization and keep each entity customization in a separate file, like:
 
-- Account_11022009.xml
-- Contact_11022009.xml
+* Account_11022009.xml
+* Contact_11022009.xml
 
 <!--endintro-->
 
