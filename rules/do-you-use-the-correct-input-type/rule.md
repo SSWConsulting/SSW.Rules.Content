@@ -28,9 +28,7 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 Figure: Bad example – This field is using a text type and shows a standard keyboard on mobile  
 :::
 
-
 ![](field-type-tel.png)
-
 
 ```html
 <label for="phone">Phone</label>:
@@ -42,7 +40,6 @@ Figure: Good example – This field is using the correct field type and shows th
 :::
 
 Here is a table of some useful input types and what they do:
-
 
 | Type | What |
 | --- | --- |
