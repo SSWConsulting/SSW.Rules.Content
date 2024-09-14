@@ -27,10 +27,10 @@ While not everyone chooses to agree with everything He said, it's a valid point 
 
 <!--endintro-->
 
-- People begin to share responsibility for work that traditionally is claimed as _"not my problem"_
-- Others will return the favour when you really need it
-- The sense of workplace isolation disappears
-- Productivity lifts as tasks can be achieved more quickly
+* People begin to share responsibility for work that traditionally is claimed as _"not my problem"_
+* Others will return the favour when you really need it
+* The sense of workplace isolation disappears
+* Productivity lifts as tasks can be achieved more quickly
 
 ![Figure: Going the extra mile](cows-bum.jpg)
 
