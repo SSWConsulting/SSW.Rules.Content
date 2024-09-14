@@ -27,9 +27,9 @@ Whenever there is a deployment problem, instead of fixing it straight away, we f
 
 .NET Core has the ability to add a health check to your application and can be configured for a variety of real-time monitoring scenarios:
 
-- Health probes can be used by container orchestrators and load balancers to check an app's status. For example, a container orchestrator may respond to a failing health check by halting a rolling deployment or restarting a container. A load balancer might react to an unhealthy app by routing traffic away from the failing instance to a healthy instance.
-- Use of memory, disk, and other physical server resources can be monitored for healthy status.
-- Health checks can test an app's dependencies, such as databases and external service endpoints, to confirm availability and normal functioning.
+* Health probes can be used by container orchestrators and load balancers to check an app's status. For example, a container orchestrator may respond to a failing health check by halting a rolling deployment or restarting a container. A load balancer might react to an unhealthy app by routing traffic away from the failing instance to a healthy instance.
+* Use of memory, disk, and other physical server resources can be monitored for healthy status.
+* Health checks can test an app's dependencies, such as databases and external service endpoints, to confirm availability and normal functioning.
 
 See more at [Health checks in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-3.1).
 
