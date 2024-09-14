@@ -1,8 +1,7 @@
 ---
 seoDescription: Ensure your website's health by having a HealthCheck page with /zsValidate to prevent deployment errors and identify coding mistakes.
 type: rule
-title: Do you have a HealthCheck page (from /zsValidate) to make sure your
-  website is healthy?
+title: Do you have a HealthCheck page (from /zsValidate) to make sure your website is healthy?
 uri: have-a-healthcheck-page-to-make-sure-your-website-is-healthy
 authors:
   - title: Adam Cogan
@@ -59,4 +58,4 @@ Best of all they have a [Release Gate available on the DevOps market place](http
 
 See [Do you have a HealthCheck page to test your website dependencies?](/have-a-healthcheck-page-to-test-your-website-dependencies)
 
-![Figure: Check everything with care](check-everything.JPG)
+![Figure: Check everything with care](check-everything.jpg)
