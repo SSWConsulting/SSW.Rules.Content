@@ -14,6 +14,8 @@ index:
 - do-you-know-the-correct-license-to-use-for-open-source-software
 - clean-git-history
 - find-your-license
+- share-product-improvements
+
 ---
 
 
