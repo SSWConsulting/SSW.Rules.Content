@@ -21,7 +21,9 @@ When filming a scene it is always important to remember production design aspect
 
 Overall, one should try and use as little colours as possible when designing a production. That doesn't mean use mainly tones, it means try and limit your colour palette to as few colours as possible. If you are creating corporate work try and include your company's colours.
 
-So, for example, if you were creating a production for SSW, you would use black, white, red and bronze (the bronze refers to the colour of skin - this will almost always be involved in your colour palette). You might end up having to include another colour or two but you will find the less unnecessary colours you use the better. Try and apply this to every aspect of your production design.
+::: info
+For example, when creating a production for SSW, we'd would use black, white, red and bronze (the bronze refers to the colour of skin - this will almost always be involved in your colour palette). You might end up having to include another colour or two but you will find the less unnecessary colours you use the better. Try and apply this to every aspect of your production design.
+:::
 
 ### Wardrobe
 
@@ -34,7 +36,7 @@ Wardrobe refers to what people wear when they're on screen. Keep in mind the ton
 Creating a set for a production is a complex and tricky business but there are some basic ideas you can use to create appealing set design. First off try and design your set to reflect the theme of your production. So for example if you were creating a set for a software design talk show, you would probably want lots of metal and technical art, however if you were creating a set for a drama about a youth who's run away from home, you would want something dirty, dark and depressing to reflect the character's grim situation. Again, avoid stripes that are too close together. A general rule of thumb is that the stripes should be at least 5cm in width. Make sure that everything is safe and if there is construction to be done, hire a professional.
 
 ::: bad
-![Figure: Bad example - Dark wall on the side, boring wall in the middle, reflective surface with people passing behind, lack of depth.](Bad-set-design-example.jpg)
+![Figure: Bad example - Dark wall on the side, boring wall in the middle, reflective surface with people passing behind, lack of depth](bad-set-design-example.jpg)
 :::
 
 ::: good
@@ -55,11 +57,11 @@ Things to consider are background, framing, sound and distractions. Is there a l
 If you are working with a D.O.P. (Director of Photography) and/or your are lighting your scene, its a good idea to include lights as part of the production design (on the set). Don't include a bright light shining directly into the lens or anything, but a lamp can provide a good source of light to work with and create an interesting object in the frame.
 
 ::: bad
-![Figure: Bad example - The light is far too bright in comparison to the rest of the shot.](lighting-bad-example.jpg)
+![Figure: Bad example - The light is far too bright in comparison to the rest of the shot](lighting-bad-example.jpg)
 :::
 
 ::: good
-![Figure: Good example - These lights are diffused enough that the rest of the picture is clearly visible.](japan-by-dhatt.jpg)
+![Figure: Good example - These lights are diffused enough that the rest of the picture is clearly visible](japan-by-dhatt.jpg)
 :::
 
 ### Props
@@ -69,9 +71,9 @@ Props and set dressing are important; props are defined as objects in the script
 If your subject needs to drink something while they're on camera, offer them a glass (its more visually pleasing). Look carefully at the frame and ask yourself, is there any camera equipment visible? Does that ugly mess of cables really need to be there? Does this scrap of paper or backpack *need* to be in the frame? If not, ditch it. If it adds value to the picture and doesn't distract, keep it.
 
 ::: bad
-![Figure: Bad example - Too much clutter on the desk, unnecessary dirty bowl, loose sheets of paper, this would only work if you wanted to illustrate that the character is messy.](props-bad-example.jpg)
+![Figure: Bad example - Too much clutter on the desk, unnecessary dirty bowl, loose sheets of paper, this would only work if you wanted to illustrate that the character is messy](props-bad-example.jpg)
 :::
 
 ::: good
-![Figure: Good example - Clear space, clear point of focus, minimal cables, only necessary items.](props-good-example.jpg)
+![Figure: Good example - Clear space, clear point of focus, minimal cables, only necessary items](props-good-example.jpg)
 :::
