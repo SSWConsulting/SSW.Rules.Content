@@ -59,6 +59,21 @@ index:
 - create-separate-virtual-directory-for-admin-access
 - use-intergrated-security-for-payroll-reports
 - remove-executiontime-in-subscription-email-subject
+- embed-rs-report-in-asp-net-page
+- get-email-list-of-report-subscription
+- add-report-owner
+- use-single-line-box
+- change-name-of-site-settings
+- use-correct-authentication-for-report
+- url-access-link-for-report
+- have-clear-labelling-for-including-excluding-gst
+- summary-and-detailed-version-of-report
+- use-live-data-feed-in-excel
+- follow-naming-convention-standards-in-reporting-service
+- use-sharepoint-integration-reporting-mode
+- display-reports-in-firefox-chrome-safari
+- display-reports-properly-in-firefox-chrome
+- report-that-refreshes-data-source
 
 ---
 
