@@ -23,5 +23,5 @@ Double line box makes reports look messy and inelegant, so it is better to use s
 :::
 
 ::: good  
-![Figure: Good example - Single line box makes the report above look clean and elegant](Good_Report.gif) 
+![Figure: Good example - Single line box makes the report above look clean and elegant](Good_Report.gif)
 :::
