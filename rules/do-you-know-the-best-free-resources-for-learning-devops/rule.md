@@ -34,7 +34,7 @@ guid: 36d8604a-c473-4515-b696-7fa1ff568df6
 
 ### Reviewing projects
 
-When reviewing projects make sure to ask these questions. 
+When reviewing projects make sure to ask these questions.
 
 * **Onboarding** - How quick is f5?
 * **Deploying** - How quick is deployment?
