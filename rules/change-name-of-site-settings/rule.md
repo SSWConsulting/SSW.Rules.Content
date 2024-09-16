@@ -23,9 +23,9 @@ The default site settings name of SSRS is "SQL Server Reporting Services" regard
 :::
 
 ::: good  
-![Figure: Good example - Site settings with version of SSRS 2005](GoodSiteSetting2005.gif) 
+![Figure: Good example - Site settings with version of SSRS 2005](GoodSiteSetting2005.gif)
 :::
 
 ::: good  
-![Figure: Good example - Site settings with version of SSRS 2008](GoodSiteSetting2008.gif) 
+![Figure: Good example - Site settings with version of SSRS 2008](GoodSiteSetting2008.gif)
 :::
