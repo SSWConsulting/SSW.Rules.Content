@@ -28,6 +28,7 @@ The bad old way was to use an IFrame and point it to the report's URL (including
     &rs:Command=Render&ClientContactID=<%=mintClientContactID%>&ClientExInfo=<%=clientInfo%>&rc:Parameters=false">
 </IFRAME>                      
 ```
+
 ::: bad  
 Bad Example - Embed report using IFrame
 :::
@@ -38,6 +39,7 @@ Bad Example - Embed report using IFrame
     ReportPath="/TimeProOnlineReports/ClientRegisteredProductsByDate" />
 </rsweb:ReportViewer>
 ```
+
 ::: good  
 Good Example - Embed report using Report Viewer
 :::
@@ -47,5 +49,5 @@ Good Example - Embed report using Report Viewer
 :::
 
 ::: good  
-![Figure: Good example - Report Viewer without vertical scrollbar](ReportViewer.gif) 
+![Figure: Good example - Report Viewer without vertical scrollbar](ReportViewer.gif)
 :::
