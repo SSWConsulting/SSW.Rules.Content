@@ -42,7 +42,7 @@ if (element)
 Once this change is made reports will be visible.
 
 ::: good  
-![Figure: Good example - SQL RS fixed to correctly display in Chrome](report-display-good.jpg) 
+![Figure: Good example - SQL RS fixed to correctly display in Chrome](report-display-good.jpg)
 :::
 
 More information at: [stackoverflow.com/questions/5968082/ssrs-2008-r2-reports-are-blank-in-safari-and-chrome](https://stackoverflow.com/questions/5968082/ssrs-2008-r2-ssrs-2012-reportviewer-reports-are-blank-in-safari-and-chrome)
