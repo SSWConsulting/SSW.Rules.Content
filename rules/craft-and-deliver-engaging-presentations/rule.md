@@ -39,11 +39,13 @@ You should also consider taking the course [Speaking Confidently and Effectively
 Structure & learn your content well and then rehearse the delivery for a given audience and context until you are getting it right more often than you are getting it wrong. Don’t wait until the last minute! If you are well prepared you can focus on your delivery instead of worrying about knowing your content or running a demo.
 
 `youtube: https://youtu.be/V8eLdbKXGzk`
+
 ::: bad
 Figure: Bad example – Ill prepared and low energy. They shows you how to fix it though
 :::
 
 `youtube: https://youtu.be/nPIAiPhKtvc`
+
 ::: good
 Figure: Good example - A well prepared presentation with an excellent delivery
 :::
@@ -75,7 +77,7 @@ A good way to achieve a strong delivery is to avoid using filler and non-words. 
 `youtube: https://youtu.be/mlDAO7DgJNk?si=17Dci0Ub-z_oZOE6`
 
 ::: good
-**Figure: Good example - Using silence to strengthen your message**
+Figure: Good example - Using silence to strengthen your message
 :::
 
 ::: info
