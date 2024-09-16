@@ -53,7 +53,6 @@ Sprint Goals (in priority order):
 * {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
 * {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
 
-
 Please see below for a more detailed breakdown of the Sprint:
 
 |                    |                                       |
