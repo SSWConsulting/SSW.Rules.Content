@@ -25,5 +25,5 @@ It is very important to have clear labelling to avoid the user guessing on wheth
 :::
 
 ::: good  
-![Figure: Good example - Clear labelling](ClearText.jpg) 
+![Figure: Good example - Clear labelling](ClearText.jpg)
 :::
