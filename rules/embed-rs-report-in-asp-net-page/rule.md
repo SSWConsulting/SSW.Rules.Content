@@ -14,11 +14,13 @@ redirects: []
 
 ---
 
-⚠️ This rule is obsolete and has been replaced with [Do you know the best way to do printable reports?](https://www.ssw.com.au/rules/do-you-know-the-best-way-to-do-printable-reports)
-
-<!--endintro-->
+::: info
+**Warning:** This rule is obsolete and has been replaced with [Do you know the best way to do printable reports?](https://www.ssw.com.au/rules/do-you-know-the-best-way-to-do-printable-reports)
+:::
 
 Visual Studio provides a Report Viewer control for WebForms, so use it instead of the old IFrame method. The report viewer control is super easy to use - just drag the control into your page designer and select the properties you like.
+
+<!--endintro-->
 
 The bad old way was to use an IFrame and point it to the report's URL (including parameters). This is bad because you might encounter a typing error. If you want to disable vertical scrollbar, you need to adjust the height of IFrame manually. Furthermore, you can't configure the report's authentication separately.
 
