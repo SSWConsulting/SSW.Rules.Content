@@ -24,5 +24,5 @@ Your report should have:
 * A table display the history of previous refresh including start time, duration and status...
 
 ::: good  
-![Figure: Good example - A report with a radio button allows you to refresh data and a table showing the history](ReportRefreshData.jpg) 
+![Figure: Good example - A report with a radio button allows you to refresh data and a table showing the history](ReportRefreshData.jpg)
 :::
