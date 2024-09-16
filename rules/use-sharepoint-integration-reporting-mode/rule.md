@@ -31,5 +31,5 @@ The users can take advantage of the new version of Report Builder that came with
 :::
 
 ::: good  
-![Figure: Good example - SharePoint Integration (you get nice source control via SharePoint and you can use the nice Report Builder 3)](SharePointIntegratedMode.jpg) 
+![Figure: Good example - SharePoint Integration (you get nice source control via SharePoint and you can use the nice Report Builder 3)](SharePointIntegratedMode.jpg)
 :::
