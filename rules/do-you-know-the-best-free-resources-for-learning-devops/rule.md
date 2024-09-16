@@ -14,7 +14,7 @@ guid: 36d8604a-c473-4515-b696-7fa1ff568df6
 
 ### DevOps learning resources
 
-* **DevOps Introduction**: [The Complete DevOps Roadmap 2024](https://www.youtube.com/watch?v=6GQRb4fGvtk)
+* **DevOps introduction**: [The Complete DevOps Roadmap 2024](https://www.youtube.com/watch?v=6GQRb4fGvtk)
 * **Azure DevOps**: [Azure DevOps Labs](https://azuredevopslabs.com "https://azuredevopslabs.com/")
 * **Event**: [GitHub Universe](https://githubuniverse.com "https://githubuniverse.com/")
 * **Book:** [The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
