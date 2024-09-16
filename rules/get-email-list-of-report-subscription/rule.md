@@ -55,5 +55,5 @@ DEALLOCATE xmlCursor
 ```
 
 ::: good
-Good Example - Get email list
+Good example - Get email list
 :::
