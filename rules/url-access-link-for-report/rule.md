@@ -27,16 +27,15 @@ At SSW, we have "URL Access" at the bottom of reports for easy reference.
 ![Figure: Good example - URL Access link for quick reference at the bottom of report](BetterRS_URLAccess.jpg)
 :::
 
-```
+``` html
 http://localhost/ReportServer/Pages/ReportViewer.aspx?%2fSSWTimePRO_CompanyPerformance%2f01+-+BillableTimeSummary&rs:Command=Render
-
 ```
 
 ::: bad  
 Bad example - Only refer to the default report URL, parameters on the report will be lost
 :::
 
-```
+``` html
 http://localhost/ReportServer/Pages/ReportViewer.aspx?/SSWTimePRO_CompanyPerformance/01%20-%20BillableTimeSummary&rs:Command=Render&rs:ParameterLanguage=en-AU&pStartDate=1/06/2009&pEndDate=7/06/2009&pEmpID=ALZ
 ```
 
