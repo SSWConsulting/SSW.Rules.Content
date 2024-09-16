@@ -29,15 +29,15 @@ The Solution:
 Add the code below to "%ProgramFiles%\Microsoft SQL Server\MSSQL.3\ReportingServices\ReportManager\Styles\ReportingServevices.css"
 
 ```sql
-	.DocMapAndReportFrame
-	{
-	min-height: 860px;
-	min-width: 2000px;
-	}
+ .DocMapAndReportFrame
+ {
+ min-height: 860px;
+ min-width: 2000px;
+ }
 ```
 
 ::: good  
-![Figure: Good example - SQL Report viewed in Firefox / Chrome (which displays properly in Firefox and Chrome)](GoodImageInFirefox.jpg) 
+![Figure: Good example - SQL Report viewed in Firefox / Chrome (which displays properly in Firefox and Chrome)](GoodImageInFirefox.jpg)
 :::
 
 Read [how to display reports properly for Reporting Services 2008R2/2012](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLReportingServices.aspx#FirefoxChromeReportDisplay20082012).
