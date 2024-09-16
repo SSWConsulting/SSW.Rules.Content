@@ -23,6 +23,9 @@ One of the easiest ways to get the ball rolling with your web pages and being no
 
 <!--endintro-->
 
+However, it's still beneficial to complete this quick and easy task.
+
+
 There are a few &lt;meta&gt; tags you should use, and these are the most common:
 
 * **META DESCRIPTION** - Search engines will use the information in the &lt;meta&gt; description tag as well as the &lt;title&gt; to display a brief summary of your site that goes along with its link on search results. SEO experts recommends it to have between 50–160 characters. A well-crafted meta description can improve click-through rates from search results. Learn more on [Meta Description](https://moz.com/learn/seo/meta-description)
