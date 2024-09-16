@@ -13,7 +13,7 @@ guid: 36d8604a-c473-4515-b696-7fa1ff568df6
 ---
 
 ### DevOps Learning Resources
-
+* **DevOps Introduction**: [roadmap & tools high level summary](https://www.youtube.com/watch?v=6GQRb4fGvtk")
 * **Azure DevOps**: [https://azuredevopslabs.com](https://azuredevopslabs.com "https://azuredevopslabs.com/")
 * **GitHub Universe**: [https://githubuniverse.com](https://githubuniverse.com "https://githubuniverse.com/")
 * **Book:** [The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project)
