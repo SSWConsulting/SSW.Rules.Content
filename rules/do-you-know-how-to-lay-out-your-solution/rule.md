@@ -13,25 +13,19 @@ authors:
     url: https://ssw.com.au/people/tristan-kurniawan
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
-related: []
+related:
+  - do-you-have-a-consistent-net-solution-structure
 redirects: []
 ---
 
-Whenever we setup a new Team Project we implement a basic version control structure. We put "readme.txt" files in the folder structure explaining the different levels, and a solution file called [Client].[Product].sln?located at ?/[Client]/[Product]/DEV/ within version control.
+Whenever we setup a new Team Project we implement a basic version control structure. We put "readme.txt" files in the folder structure explaining the different levels, and a solution file called `[Client].[Product].sln?` located at `?/[Client]/[Product]/DEV/` within version control.
+
+<!--endintro-->
 
 ::: bad  
 ![Figure: Bad Example, how would anyone know how to sort this mess out?](MessySolution.jpg)  
 :::
 
-<!--endintro-->
-
 ::: good  
 ![Figure: Good Example, The ideal solution.](IdealSolution.jpg)  
 :::
-
-For more implementation details see:  
-[http://blog.hinshelwood.com/archive/2010/05/17/guidance-how-to-layout-you-files-for-an-ideal-solution.aspx](http://www.ssw.com.au/ssw/redirect/LayoutSolution.htm)
-
-### Related rule
-
-* [Do you have a consistent .NET Solution Structure?](/do-you-have-a-consistent-net-solution-structure)
