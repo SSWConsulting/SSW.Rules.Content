@@ -53,6 +53,7 @@ CLOSE xmlCursor
 DEALLOCATE xmlCursor
 
 ```
-::: good 
+
+::: good
 Good Example - Get email list
 :::
