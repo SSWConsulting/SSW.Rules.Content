@@ -14,11 +14,11 @@ redirects: []
 
 ---
 
-With the use of SharePoint 2010 Integration mode of Reporting, users can have following advantages:
+With the use of SharePoint 2010 Integration mode of Reporting, users can have the following advantages:
 
 <!--endintro-->
 
-The users Can easily deploy data sources, reports to sharePoint document libraries instead of Report Manager.
+The users can easily deploy data sources, reports to sharePoint document libraries instead of Report Manager.
 The users can be much more self-sufficient with SharePoint.
 Very easy one step configuration of the add-in
 37 languages supported including bi-directional languages.
