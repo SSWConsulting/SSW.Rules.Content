@@ -25,6 +25,7 @@ created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 ---
+
 After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint:
 
 <!--endintro-->
@@ -49,10 +50,8 @@ Here are the Sprint Goals and their status at a glance:
 
 Sprint Goals (in priority order):
 
-* Bugfixes – Done ✅
-* WDM Integration – Done ✅
-* SSO/Roles APIs – In Progress 🕑
-* Download Documents APIs  – Not Done ❌
+* {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
+* {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
 
 Please see below for a more detailed breakdown of the Sprint:
 
@@ -71,11 +70,10 @@ Attendees: *(Optional as they may be in the to and CC)*
 
 ### Sprint Review
 
-| **ID** | **Title**                           | **State** | **Effort** |
-| ------ | ----------------------------------- | --------- | ---------- |
-| 24124  | UI Improvements                     | Done      | 4          |
-| 24112  | Integrate Business Logic to MVC app | Done      | 8          |
-| 24097  | Styling                             | Committed | 16         |
+| **ID** | **Title** | **State** | **Effort** |
+| ------ | --------- | --------- | ---------- |
+| {{ ID }}  | {{ PBI TITLE }} | {{ STATE }} | {{ EFFORT }} |
+| {{ ID }}  | {{ PBI TITLE }} | {{ STATE }} | {{ EFFORT }} |
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
@@ -83,7 +81,7 @@ Attendees: *(Optional as they may be in the to and CC)*
 
    ![Figure: Sprint Burndown](burndown.jpg)
 
-1. Timesheet data - Who worked in a Sprint?
+2. Timesheet data - Who worked in a Sprint?
 
 :::img-medium
 ![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
