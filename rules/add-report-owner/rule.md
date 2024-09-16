@@ -25,7 +25,7 @@ There are four things you have to take care of.
 2. Make the report owner a hyperlink which links to the definition of the group (or the team).
 
 ::: good  
-![Figure: Good example - Show report owner in the report](ReportOwner.gif) 
+![Figure: Good example - Show report owner in the report](ReportOwner.gif)
 :::
 
 3. When you cannot refer to a group, refer to the person
@@ -34,5 +34,5 @@ Use the same idea for web pages, however in that case use the term "Page Owner"
 4. In CRM, the report can read from the CRM database since the report owner is stored by CRM against the report:
 
 ::: good  
-![Figure: Good example - CRM - You already have a report owner so display this in your report](ReportOwnerCRM.gif) 
+![Figure: Good example - CRM - You already have a report owner so display this in your report](ReportOwnerCRM.gif)
 :::
