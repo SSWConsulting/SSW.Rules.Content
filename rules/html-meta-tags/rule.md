@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Caleb Williams
+    url: https://www.ssw.com.au/people/caleb-williams/
 related: []
 redirects:
   - do-you-use-meta-description-and-meta-keywords-tags
