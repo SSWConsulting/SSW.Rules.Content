@@ -18,7 +18,7 @@ Using anonymous authentication is not recommended because of security reasons.
 
 <!--endintro-->
 
-* Anonymous accounts (the IUSER_* and IWAM_* accounts) are managed by windows security system. We do not want to use these accounts because we have to manually configure our report server security settings.
+* Anonymous accounts (the IUSER_*and IWAM_* accounts) are managed by windows security system. We do not want to use these accounts because we have to manually configure our report server security settings.
 * We do not want everyone on the Internet update or overwrite stuffs on the report server.
 Besides, anonymous authentication is no longer supported in RS 2008.
 
