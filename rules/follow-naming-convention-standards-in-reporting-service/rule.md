@@ -18,5 +18,5 @@ There are no specific rules for Reporting Service management beyond the general 
 
 <!--endintro-->
 
-* [Don't use plurals in folder names](https://www.ssw.com.au/rules/rules-to-better-sql-databases-developers/#NamingConventions)
-* [Add zs prefix to system folders](https://www.ssw.com.au/rules/rules-to-better-sql-databases-developers/#ZSPrefix)
+* [Don't use plurals in folder names](/object-name-should-follow-your-company-naming-conventions)
+* [Add zs prefix to system folders](/schema-do-you-add-zs-prefix-to-system-tables)
