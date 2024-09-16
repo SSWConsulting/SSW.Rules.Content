@@ -23,5 +23,5 @@ In the vast majority of cases where the readership of the report is wide, some v
 :::
 
 ::: good  
-![Figure: Good example - Only the most important columns included for the summary version and the detailed version can be left as in the "Bad Example" above.](DetailReport.jpg) 
+![Figure: Good example - Only the most important columns included for the summary version and the detailed version can be left as in the "Bad Example" above.](DetailReport.jpg)
 :::
