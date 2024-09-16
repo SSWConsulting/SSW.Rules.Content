@@ -1,7 +1,7 @@
 ---
 seoDescription: Print out your general ledger and ask your boss to initial to ensure accurate cheque numbers and memo descriptions.
 type: rule
-archivedreason:
+archivedreason:SSW has moved from MYOB to Xero and fully paperless.This process will not be followed.
 title: Do you print out your general ledger for the week and ask your boss to initial?
 guid: 9cac32fc-0e18-4b0c-adcc-fe3c557d14fd
 uri: do-you-print-out-your-general-ledger-for-the-week-and-ask-your-boss-to-initial
