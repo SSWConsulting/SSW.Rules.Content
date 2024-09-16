@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you use the correct authentication for your report?
+title: Do you use the correct authentication for reports?
 guid: e619bac7-d1f3-4549-949c-0113ddcfa6ca
 uri: use-correct-authentication-for-report
 created: 2024-09-16T09:06:00.0000000Z
@@ -19,8 +19,7 @@ Using anonymous authentication is not recommended because of security reasons.
 <!--endintro-->
 
 * Anonymous accounts (the IUSER_*and IWAM_* accounts) are managed by windows security system. We do not want to use these accounts because we have to manually configure our report server security settings.
-* We do not want everyone on the Internet update or overwrite stuffs on the report server.
-Besides, anonymous authentication is no longer supported in RS 2008.
+* We do not want everyone on the Internet update or overwrite stuffs on the report server. Besides, anonymous authentication is no longer supported in RS 2008.
 
 The best way to expose your report is to use ReportViewer and setup the credentials on it using ReportViewerCredentials.
 
@@ -36,5 +35,5 @@ reportViewer.ServerReport.SetParameters(paramList)
 ```
 
 ::: info
-**Warning:** Thsi is only supported for .NET Full Framework because of the ReportViewer component.
+**Warning:** This is only supported for .NET Full Framework because of the ReportViewer component.
 :::
