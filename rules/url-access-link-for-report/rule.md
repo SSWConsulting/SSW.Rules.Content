@@ -44,8 +44,8 @@ http://localhost/ReportServer/Pages/ReportViewer.aspx?/SSWTimePRO_CompanyPerform
 Good example - Refer to the report with all parameters ready
 :::
 
-Please note "rs:ParameterLanguage=en-AU" in the query string, this is very important especially when you are passing culture sensitive data (DateTime) over URL. The server may not know your intended culture so you have to specify this together with the actual data in the URL.
+Note `rs:ParameterLanguage=en-AU` in the query string, this is very important especially when you are passing culture sensitive data (DateTime) over URL. The server may not know your intended culture so you have to specify this together with the actual data in the URL.
 
 Refer to the following MSDN references for more details:
 
-* URL Access for Reporting Services: <http://msdn.microsoft.com/en-us/library/ms153586.aspx>
+* [URL Access for Reporting Services](https://learn.microsoft.com/en-us/sql/reporting-services/url-access-ssrs?view=sql-server-ver16&redirectedfrom=MSDN)
