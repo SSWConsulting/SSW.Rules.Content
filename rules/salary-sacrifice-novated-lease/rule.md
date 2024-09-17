@@ -1,7 +1,7 @@
 ---
 seoDescription: Discover how salary sacrificing cars can boost your superannuation and reduce tax liabilities with our expert insights.
 type: rule
-title: Paryoll - Do you take advantage of salary sacrificing cars? (Aussie Only)
+title: Payroll - Do you take advantage of salary sacrificing cars? (Aussie only)
 uri: salary-sacrifice-novated-lease
 authors:
   - title: Jimmy Chen
