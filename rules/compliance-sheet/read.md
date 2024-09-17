@@ -1,7 +1,7 @@
 ---
 seoDescription: A compliance sheet is a detailed document or tool used by companies to track and manage their compliance obligations.
 type: rule
-title: Do you have a company compliance sheet?
+title: Operations - Do you have a company compliance sheet?
 uri: compliance-sheet
 authors:
   - title: Jimmy Chen
