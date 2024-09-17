@@ -30,7 +30,7 @@ Your slides should illustrate your point. They should not describe your point.
 
 The slides are not there to convey all the information you plan to present, they are there to support the information you plan to present.
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - Sentences on slides mean the audience isn't listening](my-day-bad.png)
 :::
 
@@ -40,7 +40,7 @@ Now let's look at some strategies to present text nicely and make information mo
 
 PowerPoint has a built in Designer tool that can help you make your slides look better. It suggests alternative layouts and even icons to make points more illustrative.
 
-::: good
+::: good img-medium
 ![Figure: Good example - Use the designer to make slides more interesting](design-ideas-ppt.gif)
 :::
 
@@ -50,11 +50,11 @@ See [more info on the Designer](https://support.microsoft.com/en-us/office/creat
 
 SmartArt is another tool that can help you present text in a more interesting way. It allows you to easily try different visuals to display your information. It even has a built-in icon library to make your content more beautiful.
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - Bullet points make the intent unclear](ugly-timeline.png)
 :::
 
-::: good
+::: good img-medium
 ![Figure: Good example - SmartArt easily converts bullets into a timeline](cool-timeline.png)
 :::
 
@@ -64,6 +64,6 @@ You can use animations to enhance your messaging, for example, reveal points one
 
 Animations help avoid a wall of text.
 
-::: good
+::: good img-medium
 ![Figure: Good example - Animations](animations-pros-cons.gif)
 :::
