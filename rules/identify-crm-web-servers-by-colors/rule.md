@@ -1,11 +1,9 @@
 ---
-seoDescription: Identify Development, Test, and Production Web Servers by colors to ensure a seamless transition between environments.
 type: rule
-archivedreason:
 title: Do you identify Development, Test and Production web servers by colors?
-guid: 9b723127-5c2d-4e40-a2a5-45ccd4840d2b
+seoDescription: Identify Development, Test, and Production Web Servers by colors
+  to ensure a seamless transition between environments.
 uri: identify-crm-web-servers-by-colors
-created: 2012-12-10T19:42:40.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -16,7 +14,11 @@ related:
 redirects:
   - do-you-identify-development-test-and-production-web-servers-by-colors
   - do-you-identify-development-test-and-production-crm-web-servers-by-colors
+created: 2012-12-10T19:42:40.000Z
+archivedreason: null
+guid: 9b723127-5c2d-4e40-a2a5-45ccd4840d2b
 ---
+![]()
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
 
@@ -104,21 +106,20 @@ body.stage
 
 ![Figure: Color of CRM Production Server - Default](CRM_ProductionColor.jpg)
 
-### SharePoint online
+### SharePoint Online
 
-Regarding the color codes, we use to differentiate Production to Test with SharePoint online.
+In SharePoint Online, we use Theme colours to differentiate between Production and Development environments.
 
-Here is what we change:
+To change the Theme, simply navigate to Site Settings | Change The Look | Theme
 
-* Site Settings | Change The Look
-* Test – Orange
+![](2024-09-16_18-10-35.jpg "Figure: To change the theme, navigate to Settings | Change the look | Theme")
 
-![Figure: Selecting Orange theme for test](sharepoint-orange-theme.jpg)
+### Development - Default Microsoft Blue Theme
 
-![Figure: orange theme applied](sharepoint-orange-applied.jpg)
+![](2024-09-16_18-03-50.jpg "Figure: Selecting Blue default theme for Development")
 
-### Production - Office
+### Production - SSW Custom Theme
 
-![Figure: Selecting Office theme for Production](sharepoint-office-theme.jpg)
+![Figure: Selecting Red SSW Custom theme for Production ](2024-09-16_18-06-09.jpg)
 
-![Figure: office (blue) theme applied](sharepoint-office-applied.jpg)
+More about SharePoint Online custom themes: https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-deploy-a-custom-theme-in-sharepoint
