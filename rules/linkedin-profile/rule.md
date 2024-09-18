@@ -30,7 +30,7 @@ Do the following on your profile page:
 
 1. Make sure your basic information is correct (name, location, education, etc)
 2. Use a [great profile photo](/profile-photos)
-3. Add a nice branded banner image ([see example](blob:https://sswcom.sharepoint.com/30d450d2-2ff2-422a-8bed-1a02a9c5747f))
+3. Add a nice branded banner image ([see example](https://ssw.com.au/public/images/logos/SSW-LinkedIn-Banner.jpg ))
 4. Add a headline for your profile
 5. [Add the company name before your position](/prefix-job-title)
 6. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
