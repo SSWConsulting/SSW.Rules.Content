@@ -45,22 +45,22 @@ Attendees:
 
 What did you use AI for this week?
 
-* Levi
+* **Levi**
   * SSW Initial Meeting Pro GPT - Post email (Company: LIC)
   * SSW Initial Meeting Pro GPT - Adding functionality
   * (Personal, but interesting) Create a bill of sale for car purchase (online legal company wanted $40)
-* Aman
+* **Aman**
   * Using it for code reviews
   * ChatGPT - Using it for algorithms
   * ChatGPT - Writing emails or comments
   * ChatGPT - Azure services-related queries
   * ChatGPT - Writing Emails
-* Uly
+* **Uly**
   * SSW Initial Meeting Pro GPT - Post Initial Meeting email – AIPA
   * SSW Initial Meeting Pro GPT - Post Initial Meeting email – TSA
   * Update a rule on consistency with updated technologies
   * UX – asking how to best use a Toast in the UI
-* Yang
+* **Yang**
   * Use ChatGPT to correct and polish my English, and translate social media content from English to Chinese.
   * Use ChatGPT to create a meeting chairing process and draft (in Chinese)
   * Use ChatGPT to check the flu symptoms and the difference between flu A and flu B （because my son's got flu this weekend)
@@ -82,7 +82,7 @@ Hi Seth,
 1. News above - Please update our monthly tech news with the **bold**
 2. Check next week's meeting - if not already done, add 2 new people for the next 2 weeks
 
-<This email is as per [https://www.ssw.com.au/rules/weekly-ai-meetings](/weekly-ai-meetings)>
+<This email is as per [ssw.com.au/rules/weekly-ai-meetings](/weekly-ai-meetings)>
 
 :::
 :::
