@@ -57,45 +57,35 @@ Easily accessible by anyone in the team
 Of course, you should use your judgement to decide if the email needs to become a PBI. For example:
 
 * Does the email contain 1 or more actionable tasks? If not, do not turn into an PBI.
-
 * Does the feedback contain confidential information that should not be on the backlog? If so, do not turn into an PBI.
-
 * Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately.
-
 * Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? Urgent emails should be done immediately unless they are clearly not an emergency.
 
 Use the following flow chart to determine if an urgent email should be turned into a PBI.
 
-![Figure: Should the email be turned into a PBI?](urgent-flowchart.svg)
+![Figure: Should the email be turned into a PBI?](urgent-flowchart.png)
 
 ### New PBI - Steps to turn an email into a PBI
 
 It's important that you follow the right steps so that the PBI contains all the information someone would need to find the original email thread, and also so that the original sender knows where the PBI is, and whether it has completed.
 
 1. Create a PBI in the backlog and give it a name
-
 2. Copy the **email header** into the top of the PBI, indent it and add the words "Based on email chain:" so that the email can be found later.
-
 3. If possible, replace the users with @mentions, if you'd like to keep those users informed.
-  
 4. Fill out the Description
-
 5. Ensure that the Product Owner is @mentioned in the PBI
-
 6. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
-
 7. Prioritize the PBI. If it is important, then it should be added at the top of the Product Backlog after the current Sprint items. Otherwise, you should make your best guess as to its priority.
-
 8. Reply back to the original email saying: *"That's awesome feedback, we have a PBI for prioritization: {{ URL }}\
    For future issues, if you have access, please add your comments to items in that backlog 🙂"*
 
 ::: greybox
 Based on email chain:
 
-**From:** Bob Northwind "<BobNorthwind@northwind.com>"\
+**From:** Bob Northwind "[BobNorthwind@northwind.com](mailto:BobNorthwind@northwind.com)"\
 **Sent:** Thursday, 24 November 2023\
-**To:** Jane Doe "<JaneDoe@northwind.com>"\
-**Cc:** John Davis "<JohnDavis@northwind.com>"; Eliza Northwind "<ElizaNorthwind@northwind.com>"\
+**To:** Jane Doe "[JaneDoe@northwind.com](mailto:JaneDoe@northwind.com)"\
+**Cc:** John Davis "[JohnDavis@northwind.com](mailto:JohnDavis@northwind.com)"; Eliza Northwind "[ElizaNorthwind@northwind.com](mailto:ElizaNorthwind@northwind.com)"\
 **Subject:** TimePro PBI 50209: ☠️ Displaying past employees
 :::
 ::: ok
@@ -124,9 +114,7 @@ Figure: Good example - Has the email header data and @mentions users
 Sometimes you will receive feedback on an existing PBI within an email. It is important to inform the sender and keep them up to date.
 
 1. Copy the **email header** into to a comment within the PBI, indent it and add the words "Based on email chain:"
-
 2. If possible, replace the users with @mentions, if you'd like to keep those users informed.
-
 3. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
 
 ### Keeping the PBI up-to-date
@@ -158,7 +146,7 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 |          |     |
 | -------- | --- |
 | To:      | Bob |
-| Cc:      | Tim, <SysAdmins@northwind.zendesk.com> |
+| Cc:      | Tim, [SysAdmins@northwind.zendesk.com](mailto:SysAdmins@northwind.zendesk.com) |
 | Subject: | Re: Add me to Azure DevOps |
 
 ::: email-content  
@@ -167,14 +155,14 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 
 ### Hi Bob
 
-&nbsp;&nbsp;&nbsp;&nbsp;\> 1. Could you please add me to Azure DevOps?
+&nbsp;&nbsp;&nbsp;&nbsp;> 1. Could you please add me to Azure DevOps?
 
 Thanks for sending this through. Please remember to send tasks to our Zendesk address in the future :).
 
 &dash; Chris
 
-:::  
-:::  
+:::\
+:::\
 ::: good
 Figure: Good example - send it to Zendesk!
 :::
