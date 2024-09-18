@@ -1,5 +1,5 @@
 ---
-seoDescription: Weekly AI meetings with the AI evangelists in your company can help stay up todate and ahead of the competition.
+seoDescription: Weekly AI meetings with the AI evangelists in your company can help stay up to date and ahead of the competition.
 type: rule
 title: Do you have weekly AI meetings?
 uri: weekly-ai-meetings
