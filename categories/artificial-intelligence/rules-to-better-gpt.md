@@ -9,6 +9,7 @@ index:
 - chatgpt-skills-weaknesses
 - what-is-gpt
 - chatgpt-vs-gpt
+- weekly-ai-meetings
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
 - chatgpt-can-help-code
