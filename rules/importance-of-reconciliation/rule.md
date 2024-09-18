@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the importance of reconciliation in accounting?
+title: Operations - Do you know the importance of reconciliation in accounting?
 uri: importance-of-reconciliation
 authors:
   - title: Jimmy Chen

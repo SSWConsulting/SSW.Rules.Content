@@ -1,7 +1,7 @@
 ---
 seoDescription: Certification Rewards offer additional leave to employees who complete Microsoft certifications, encouraging professional development and recognizing achievements.
 type: rule
-title: Do your payslips show Certification Rewards?
+title: Payroll - Do your payslips show Certification Rewards?
 uri: show-certification-award
 authors:
   - title: Stephan Fako
