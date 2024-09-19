@@ -7,7 +7,10 @@ authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh/
 created: 2024-09-19T13:42:55.753Z
-guid: 8fbdbce9-4d3d-45e9-88b3-13fc7f6b9a34
+guid: 1e89d2a8-3718-4920-934a-c28f1d4cb497
+related: 
+- do-you-know-the-benefits-of-using-source-control
+- do-you-know-these-important-git-commands
 ---
 
 The `.gitignore` file tells Git which files to ignore and not track in your repository. Every Git project should have a `.gitignore` file to keep unnecessary files out of the repo. For example, cache files should not be included in the main repository.
@@ -31,7 +34,7 @@ Here are some useful patterns you might need in a `.gitignore` file:
 
 - `*` (e.g. `*.log` This will ignore all files ending in `.log` anywhere in the repository.)
 - `**` (e.g. `**/lib/name.file` This pattern will ignore `name.file` in any `lib/` directory within the repository, no matter its depth.)
-- `/{name}/`(e.g.`/build/` This will ignore the `build/` directory only at the root level.)
+- `/{{name}}/`(e.g.`/build/` This will ignore the `build/` directory only at the root level.)
 
 For more details and advanced patterns, refer to the [w3schools Gitignore tutorial](https://www.w3schools.com/git/git_ignore.asp?remote=github).
 
