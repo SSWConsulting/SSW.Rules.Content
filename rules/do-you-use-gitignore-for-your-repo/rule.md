@@ -55,7 +55,7 @@ node_modules/
 1. Use Pre-made Templates:
 You don’t need to write a .gitignore from scratch! You can:
 
-a. Use templates based on your programming language or framework.
+a. Use templates based on your programming language or framework. gitignore template from [github](https://github.com/github/gitignore)
 b. Use a generator like [gitignore.io](https://www.toptal.com/developers/gitignore) to create a .gitignore file tailored to your project.
 c. Use command `dotnet new gitignore` to create gitignore file for dotnet application. More details on [create dotnet gitignore](https://dev.to/rafalpienkowski/easy-to-create-gitignore-for-the-dotnet-developers-1h42)
 
