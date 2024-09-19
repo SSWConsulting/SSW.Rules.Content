@@ -20,11 +20,11 @@ The .gitignore file tells Git which files to ignore and not track in your reposi
 
 When working on projects, you often generate files that should not be committed to the version control system. These might include:
 
-- Temporary files generated during development (e.g., .log, .tmp)
-- Configuration files with sensitive data (e.g., .env)
-- Build outputs (e.g., bin/, obj/ folders for .NET projects)
-- Dependency caches (e.g., /node_module folder for javacript projects)
-- Personal IDE config (e.g., .vscode sometimes you might want to share IDE config intentionally)
+* Temporary files generated during development (e.g., .log, .tmp)
+* Configuration files with sensitive data (e.g., .env)
+* Build outputs (e.g., bin/, obj/ folders for .NET projects)
+* Dependency caches (e.g., /node_module folder for javacript projects)
+* Personal IDE config (e.g., .vscode sometimes you might want to share IDE config intentionally)
   
 A .gitignore file tells Git which files or folders to ignore. This keeps your repository clean and ensures that only important files are tracked, improving efficiency.
 
@@ -32,13 +32,14 @@ A .gitignore file tells Git which files or folders to ignore. This keeps your re
 
 Here are some useful patterns you might need in a .gitignore file:
 
-- " * " - (e.g. *.log This will ignore all files ending in .log anywhere in the repository.)
-- " ** " - (e.g. **/lib/name.file This pattern will ignore name.file in any lib/ directory within the repository, no matter its depth.)
-- " /{{name}}/ " - (e.g./build/ This will ignore the build/ directory only at the root level.)
+* " *" - (e.g.*.log This will ignore all files ending in .log anywhere in the repository.)
+* " **" - (e.g.**/lib/name.file This pattern will ignore name.file in any lib/ directory within the repository, no matter its depth.)
+* " /{{name}}/ " - (e.g./build/ This will ignore the build/ directory only at the root level.)
 
 For more details and advanced patterns, refer to the [w3schools Gitignore tutorial](https://www.w3schools.com/git/git_ignore.asp?remote=github).
 
 ### How to setup .gitignore?
+
 1. Create a .gitignore File:
 In your project’s root directory, create a file named .gitignore if it doesn't already exist.
 
@@ -58,18 +59,21 @@ node_modules/
 1. Use Pre-made Templates:
 You don’t need to write a .gitignore from scratch! You can:
 
-- Use templates based on your programming language or framework. gitignore template from [github](https://github.com/github/gitignore)
-- Use a generator like [gitignore.io](https://www.toptal.com/developers/gitignore) to create a .gitignore file tailored to your project.
-- Use command dotnet new gitignore to create gitignore file for dotnet application. More details on [create dotnet gitignore](https://dev.to/rafalpienkowski/easy-to-create-gitignore-for-the-dotnet-developers-1h42)
+* Use templates based on your programming language or framework. gitignore template from [github](https://github.com/github/gitignore)
+* Use a generator like [gitignore.io](https://www.toptal.com/developers/gitignore) to create a .gitignore file tailored to your project.
+* Use command dotnet new gitignore to create gitignore file for dotnet application. More details on [create dotnet gitignore](https://dev.to/rafalpienkowski/easy-to-create-gitignore-for-the-dotnet-developers-1h42)
 
 2. Use Comments:
 You can add comments in the .gitignore file to explain why certain files or directories are being ignored. Use # for comments. For example:
 
 gitignore
+
 # Ignore environment variables for security
+
 .env
 
 # Ignore node_modules folder to avoid unnecessary files in the repo
+
 node_modules/
 
 **Figure: Example of gitignore file with comment**
