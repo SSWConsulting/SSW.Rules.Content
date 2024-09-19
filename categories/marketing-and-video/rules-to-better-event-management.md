@@ -21,7 +21,7 @@ index:
 - can-sponsors-set-up-a-booth-somewhere
 - who-is-in-charge-of-keeping-the-schedule
 - organize-the-audience-when-numbers-are-low
-- how-are-you-collecting-feedback
+- event-feedback
 - bring-evaluation-forms-to-every-event-you-speak-at
 - follow-up
 - evaluate-your-event-feedback
