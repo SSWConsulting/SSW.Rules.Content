@@ -4,7 +4,11 @@ tips: ""
 title: "  Do you know how to deal with tasks with a ticking clock ⏰?"
 uri: tasks-with-a-ticking-clock
 authors:
-  - title: ""
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz/
+related:
+  - give-emails-a-business-value
+  - follow-up-effectively
 guid: 9d8638f8-e930-4510-afa7-d54c5ef0a07d
 ---
 SysAdmins get through many tasks in a day. These tasks are generally prioritized based on their importance, but some tasks will have a due date - or a ticking clock ⏰. It's important to have a system in place to make sure these tasks are done on time.
