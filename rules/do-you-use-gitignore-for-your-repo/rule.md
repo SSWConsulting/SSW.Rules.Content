@@ -2,7 +2,7 @@
 seoDescription: Learn why and how to use .gitignore to manage clean repositories. Understand key patterns and explore gitignore templates for different projects.
 type: rule
 title: Do you use a .gitignore file to keep your Git repository clean?
-uri: do-you-use-gitignore-for-clean-repo
+uri: use-gitignore-for-clean-repo
 authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh/
