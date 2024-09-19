@@ -44,7 +44,7 @@ Once a PBI is in the Sprint Backlog, it's lifecycle can be broken down into 3 st
 
 You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already prioritized and approved by the [Product Owner](/rules-to-better-product-owners)
 
-1. Choose a PBI
+1. Choose a PBI and assign yourself to it
 2. Double check the [Definition of Ready](/have-a-definition-of-ready)
 3. Break the PBI into tasks (optional)
 
