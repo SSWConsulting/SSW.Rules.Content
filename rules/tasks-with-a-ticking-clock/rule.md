@@ -19,7 +19,7 @@ Of course, this does not just apply to SysAdmins - use this rule for any teams o
 
 Everyone receives tasks in their inbox, so it's good to know how to set a due date on your emails. Just like [following up effectively](https://www.ssw.com.au/rules/follow-up-effectively/), there are a many ways to do this - let's look at 3 ways:
 
-#### 1. followupthen.com
+#### A. followupthen.com
 
 followupthen.com is a simple way to get an email reminder when you need to start working on something. 
 
@@ -45,7 +45,7 @@ Thanks!
 :::\
 :::  
 
-#### 2. Follow up flags
+#### B. Follow up flags
 
 Follow up flags are Outlook's built-in way to set a due date on an email. Add a follow up flag from the red flag icon in the ribbon, or by right-clicking on an email | Follow up. From there you can also set a custom reminder.
 
@@ -53,7 +53,7 @@ The only downside is that you only get a notification (not an email) - so you mi
 
 ![Figure: Outlook | Follow up flag | Custom reminder](follow-up-flag.png)
 
-#### 3. Microsoft To Do
+#### C. Microsoft To Do
 
 [Microsoft To Do](https://www.microsoft.com/en-au/microsoft-365/microsoft-to-do-list-app) is available within Outlook, as a separate app, or on the web. It's a great way to keep track of tasks, reminders and other lists. It can also integrate follow up flags from Outlook.
 
@@ -62,3 +62,7 @@ The only downside is that you only get a notification (not an email) - so you mi
 ### Option 2: Using Zendesk
 
 SysAdmins will mostly work out of a ticketing system like [Zendesk](https://www.ssw.com.au/rules/rules-to-better-zendesk/). Other ticketing systems likely have similar functionality to the below.
+
+In Zendesk, it's easy to add a due date to a task. Agents can do this in their Agent workspace. You can also give users the ability to set their own due date from the web interface or the Teams app.
+
+![Figure: Zendesk | Agent workspace | Due date and time](zendesk-due-date.png)
