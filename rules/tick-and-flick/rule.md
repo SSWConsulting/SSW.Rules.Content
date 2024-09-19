@@ -68,3 +68,10 @@ Here are some tips that help improve communication with the Product Owner during
 6. Call the Product Owner to run through what's been done in the PBI
 
 By incorporating these tips into your team's workflow, and turning PBIs into a "tick and flick state" you can keep the Product Owner informed and subsequently make Sprint Reviews a "tick and flick experience".
+
+Here's a video showing the some common mistakes that can slow down Sprint Reviews:
+
+`youtube: https://www.youtube.com/watch?v=-0PUveZg3wk`
+**Video: Run a smooth Sprint Review | [Jeoffrey Fischer](https://www.ssw.com.au/people/jeoffrey-fischer/) | SSW Rules (4 min)**
+
+
