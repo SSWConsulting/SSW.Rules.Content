@@ -41,4 +41,3 @@ The rules are split into three distinct sections:
 3. After the event
 
 The rules assume that your event idea has been properly researched and you have an audience for the particular field and topic you are addressing.
-
