@@ -52,6 +52,7 @@ node_modules/
 .env
 *.log
 ```
+
 **Figure: Example of gitnore file**
 
 ### Additional Tips
@@ -76,4 +77,5 @@ You can add comments in the .gitignore file to explain why certain files or dire
 
 node_modules/
 ```
+
 **Figure: Example of gitignore file with comment**
