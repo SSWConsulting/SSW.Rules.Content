@@ -7,7 +7,7 @@ index:
 - being-a-good-consultant
 - elevator-pitch
 - pitch-a-product
-- do-you-prioritize-your-existing-clients-over-prospective-ones
+- do-you-always-keep-the-ball-in-the-clients-court
 - do-you-give-potential-consulting-work-emails-the-next-highest-priority-after-existing-clients
 - do-you-always-follow-up-your-clients
 - do-you-get-paid-for-estimates

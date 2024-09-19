@@ -54,7 +54,7 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 
 1. Double check **with the Product Owner** that this new item is more important than the current Sprint items (if not add it to the Product Backlog instead)
 2. Add the new PBI to the current Sprint
-3. Remove another item of similar size from the Sprint and put it back in the backlog
+3. Remove another PBI of similar size from the Sprint and put it back in the backlog (with the team's consent)
 
 ::: email-template
 | | |
@@ -64,22 +64,22 @@ Generally, it's good to stick to the "customer is always right" philosophy. Howe
 
 ::: email-content
 
-### Hi {{ PRODUCT OWNER }},
+### Hi {{ PRODUCT OWNER }}
 
 As per our conversation, you have asked us to prioritise some urgent PBIs this Sprint:
 
 **Added:**
 
-- {{ PBI URL }}
-- {{ PBI URL }}
+* {{ PBI URL }}
+* {{ PBI URL }}
 
 **Removed:**
 
-- {{ PBI URL }}
+* {{ PBI URL }}
 
 Normally, these PBIs would be prioritized for the next Sprint, but we understand the time constraints for this work.
 
-<This email is as per https://www.ssw.com.au/rules/unexpected-requests >
+<This email is as per <https://www.ssw.com.au/rules/unexpected-requests> >
 
 :::
 :::

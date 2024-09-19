@@ -23,6 +23,7 @@ index:
 - co-authored-commits
 - page-owner
 - clean-git-history
+- pr-suggest-changes
 ---
 
 Pull Requests are the backbone of an effective development team. That's why it's crucial to ensure that everyone on the team understands the expectations around Pull Requests.

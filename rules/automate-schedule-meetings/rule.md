@@ -12,6 +12,7 @@ authors:
 related: 
   - appointments-throw-it-in-their-calendar
   - collaborate-across-timezones
+  - automated-webinars-for-multiple-time-zones
 redirects:
   - appointments-do-you-automate-scheduling-of-meetings
 created: 2020-11-10T18:24:51.000Z

@@ -1,7 +1,9 @@
 ---
 type: rule
 title: Do you include URLs, screenshots, and code snippets in emails?
-seoDescription: Make sure to add relevant information such as URLs, screenshots, and code snippets to keep others informed about what's been done or needs to be done.
+seoDescription: Make sure to add relevant information such as URLs, screenshots,
+  and code snippets to keep others informed about what's been done or needs to
+  be done.
 uri: include-useful-details-in-emails
 authors:
   - title: Adam Cogan
@@ -18,12 +20,12 @@ related:
   - do-you-add-context-reasoning-to-your-emails
   - close-off-thread
   - when-to-send-a-done-email-in-scrum
+  - reply-done-and-delete-the-email
 redirects:
   - dones-do-you-include-useful-details-in-your-done-email
 created: 2011-05-29T16:10:16.000Z
 archivedreason: null
 guid: d5b7a283-6bad-4b12-a49d-9a88e30a552b
-
 ---
 
 An email with just the word "Done" can often be enhanced with a screen capture or code snippet. Obviously this is also valid for tasks/requests.

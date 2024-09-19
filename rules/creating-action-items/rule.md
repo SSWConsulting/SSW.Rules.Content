@@ -11,6 +11,8 @@ related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
   - follow-up-effectively
   - stick-to-the-agenda-and-complete-the-meetings-goal
+  - take-effective-notes
+  - do-you-know-you-should-write-notes-when-an-activity-is-going
 redirects:
   - share-the-action-items-that-came-up
 created: 2021-07-20T06:35:55.000Z
