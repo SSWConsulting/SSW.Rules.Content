@@ -4,14 +4,13 @@ type: rule
 title: Do you use a `.gitignore` file to keep your Git repository clean?
 uri: use-gitignore-for-clean-repo
 authors:
-  - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
-created: 2023-09-19T13:42:55.753Z
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh/
+created: 2024-09-19T13:42:55.753Z
 guid: 8fbdbce9-4d3d-45e9-88b3-13fc7f6b9a34
 ---
 
-The `.gitignore` file plays a crucial role in ensuring your Git repository remains clean and organized. Without it, you risk cluttering the repository with unnecessary files such as build outputs, environment variables, and system files. This can make collaboration difficult and increase the repository size unnecessarily.
-
+The `.gitignore` file tells Git which files to ignore and not track in your repository. Every Git project should have a `.gitignore` file to keep unnecessary files out of the repo. For example, cache files should not be included in the main repository.
 <!--endintro-->
 
 ### Why Use `.gitignore`?
@@ -20,12 +19,52 @@ When working on projects, you often generate files that should not be committed 
 
 - Temporary files generated during development (e.g., `.log`, `.tmp`)
 - Configuration files with sensitive data (e.g., `.env`)
-- Build outputs (e.g., `bin/`, `obj/` folders in .NET projects)
+- Build outputs (e.g., `bin/`, `obj/` folders for .NET projects)
+- Dependency caches (e.g., `/node_module` folder for javacript projects)
+- Personal IDE config (e.g., `.vscode` sometimes you might want to share IDE config intentionally)
   
-A `.gitignore` file helps by specifying which files or directories Git should ignore. This ensures that only relevant and necessary files are tracked, improving efficiency and preventing issues with conflicting or unwanted files in the repository.
+A `.gitignore` file tells Git which files or folders to ignore. This keeps your repository clean and ensures that only important files are tracked, improving efficiency.
 
 ### Common Syntax Patterns for `.gitignore`
 
 Here are some useful patterns you might need in a `.gitignore` file:
 
-- **Ignoring specific files:**
+- `*` (e.g. `*.log` This will ignore all files ending in `.log` anywhere in the repository.)
+- `**` (e.g. `**/lib/name.file` This pattern will ignore `name.file` in any `lib/` directory within the repository, no matter its depth.)
+- `/{name}/`(e.g.`/build/` This will ignore the `build/` directory only at the root level.)
+
+For more details and advanced patterns, refer to the [w3schools Gitignore tutorial](https://www.w3schools.com/git/git_ignore.asp?remote=github).
+
+### How to setup `.gitignore`?
+1. Create a .gitignore File:
+In your project’s root directory, create a file named .gitignore if it doesn't already exist.
+
+2. Add Files or Directories to Ignore:
+Open the .gitignore file and list the files or directories you want Git to ignore. Each entry should be on a new line. For example:
+
+`
+bash
+Copy code
+node_modules/
+.env
+*.log
+`
+
+### Additional Tips
+
+1. Use Pre-made Templates:
+You don’t need to write a .gitignore from scratch! You can:
+
+a. Use templates based on your programming language or framework.
+b. Use a generator like (gitignore.io)[https://www.toptal.com/developers/gitignore] to create a .gitignore file tailored to your project.
+c. Use command `dotnet new gitignore` to create gitignore file for dotnet application. More details on (create dotnet gitignore)[https://dev.to/rafalpienkowski/easy-to-create-gitignore-for-the-dotnet-developers-1h42]
+
+2. Use Comments:
+You can add comments in the .gitignore file to explain why certain files or directories are being ignored. Use # for comments. For example:
+`
+# Ignore environment variables for security
+.env
+
+# Ignore node_modules folder to avoid unnecessary files in the repo
+node_modules/
+`
