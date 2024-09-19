@@ -66,3 +66,7 @@ SysAdmins will mostly work out of a ticketing system like [Zendesk](https://www.
 In Zendesk, it's easy to add a due date to a task. Agents can do this in their Agent workspace. You can also give users the ability to set their own due date from the web interface or the Teams app.
 
 ![Figure: Zendesk | Agent workspace | Due date and time](zendesk-due-date.png)
+
+Then, you can set up an automation to send an email reminder a certain number of hours before the task is due. See [Zendesk's documentation](https://support.zendesk.com/hc/en-us/articles/4408881800218-Can-I-be-notified-by-email-before-a-task-ticket-s-due-date) for how to set it up.
+
+![Figure: Zendesk Admin Center | Automations | Send email 24 hours before due date](zendesk-due-date-automation.png)
