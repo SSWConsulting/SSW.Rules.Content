@@ -68,13 +68,10 @@ You don’t need to write a .gitignore from scratch! You can:
 You can add comments in the .gitignore file to explain why certain files or directories are being ignored. Use # for comments. For example:
 
 ```gitignore
-
 # Ignore environment variables for security
-
 .env
 
 # Ignore node_modules folder to avoid unnecessary files in the repo
-
 node_modules/
 ```
 
