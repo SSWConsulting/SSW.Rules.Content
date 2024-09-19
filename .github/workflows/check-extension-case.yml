@@ -14,7 +14,7 @@ jobs:
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
 
-      - name: test
+      - name: check-image-extension-case
         run: |
           FILES=${{steps.file_changes.outputs.files_added}}
 
@@ -26,7 +26,7 @@ jobs:
               do
                   fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
-                  if [ $lowercaseFileExtension == 'gif' ] || [ $lowercaseFileExtension == 'svg' ]
+                  if [ $lowercaseFileExtension == 'gif' ] || [ $lowercaseFileExtension == 'svg' ] [ $lowercaseFileExtension == 'png' ] || [ $lowercaseFileExtension == 'jpg' ]
                   then
                       if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
                       then
