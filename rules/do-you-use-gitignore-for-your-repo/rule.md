@@ -1,5 +1,5 @@
 ---
-seoDescription: Learn why and how to use `.gitignore` to manage clean repositories. Understand key patterns and explore gitignore templates for .NET and JavaScript projects.
+seoDescription: Learn why and how to use `.gitignore` to manage clean repositories. Understand key patterns and explore gitignore templates for different projects.
 type: rule
 title: Do you use a `.gitignore` file to keep your Git repository clean?
 uri: use-gitignore-for-clean-repo
