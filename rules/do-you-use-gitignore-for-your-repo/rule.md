@@ -56,8 +56,8 @@ node_modules/
 You don’t need to write a .gitignore from scratch! You can:
 
 a. Use templates based on your programming language or framework.
-b. Use a generator like (gitignore.io)[https://www.toptal.com/developers/gitignore] to create a .gitignore file tailored to your project.
-c. Use command `dotnet new gitignore` to create gitignore file for dotnet application. More details on (create dotnet gitignore)[https://dev.to/rafalpienkowski/easy-to-create-gitignore-for-the-dotnet-developers-1h42]
+b. Use a generator like [gitignore.io](https://www.toptal.com/developers/gitignore) to create a .gitignore file tailored to your project.
+c. Use command `dotnet new gitignore` to create gitignore file for dotnet application. More details on [create dotnet gitignore](https://dev.to/rafalpienkowski/easy-to-create-gitignore-for-the-dotnet-developers-1h42)
 
 2. Use Comments:
 You can add comments in the .gitignore file to explain why certain files or directories are being ignored. Use # for comments. For example:
