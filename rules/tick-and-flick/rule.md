@@ -75,5 +75,3 @@ Here's a video highlighting common mistakes that can slow down Sprint Reviews:
 
 `youtube: https://www.youtube.com/watch?v=-0PUveZg3wk`
 **Video: Run a smooth Sprint Review | [Jeoffrey Fischer](https://www.ssw.com.au/people/jeoffrey-fischer/) | SSW Rules (4 min)**
-
-
