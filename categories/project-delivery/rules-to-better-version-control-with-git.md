@@ -6,6 +6,7 @@ uri: rules-to-better-version-control-with-git
 index:
 - do-you-know-the-benefits-of-using-source-control
 - do-you-know-these-important-git-commands
+- use-gitignore-for-clean-repo
 - do-you-know-how-to-manage-nuget-packages-with-git
 - do-you-know-how-to-programmatically-get-git-commits
 - the-levels-to-git-mastery
