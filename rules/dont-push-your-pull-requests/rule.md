@@ -25,8 +25,8 @@ A short PR to fix a small problem is easy to review and accept.
 
 <!--endintro-->
 
-It's great when someone adds a much-needed feature...   
-...as long as the feature fits in with the project the core contributors have for the project...   
+It's great when someone adds a much-needed feature...
+...as long as the feature fits in with the project the core contributors have for the project...
 ...and it meets the existing coding patterns and engineering standards.
 
 This is where frustration often starts to set in on open source projects.
@@ -39,25 +39,25 @@ Their contribution might solve their problem, but after it has been accepted it 
 
 Poor early communication can lead to mis-directed work and pull requests not being accepted.
 
-- Developer has good idea for project
-- Bashes away and writes 600 lines of code
-- Submits pull request   
-- Core contributor looks at large pull request   
-  They don't fully understand purpose of request / the problem it solves   
-  They don't like that the PR author hasn't followed the existing coding standards   
-  They make a push back comment   
+* Developer has good idea for project
+* Bashes away and writes 600 lines of code
+* Submits pull request
+* Core contributor looks at large pull request
+  They don't fully understand purpose of request / the problem it solves
+  They don't like that the PR author hasn't followed the existing coding standards
+  They make a push back comment
 
 ## ✅ Good communication contribution
 
 Good communication leads to collaboration and better outcomes for the author and the project.
 
-- Developer (PR Author) has good idea for project
-- Reviews the list of outstanding issues for the project and confirms that someone hasn't already had the same idea and started a discussion on it
-- Author creates an issue on GitHub and outlines the problem they are trying to solve, and outlines their suggested solution
-- The core contributors and other interested parties can help refine both the idea for the feature and the suggested implementation
-- The author can then start working on the feature knowing that their idea for the project complies with the maintainers vision for the project and know it is likely to be merged into the core codebase
+* Developer (PR Author) has good idea for project
+* Reviews the list of outstanding issues for the project and confirms that someone hasn't already had the same idea and started a discussion on it
+* Author creates an issue on GitHub and outlines the problem they are trying to solve, and outlines their suggested solution
+* The core contributors and other interested parties can help refine both the idea for the feature and the suggested implementation
+* The author can then start working on the feature knowing that their idea for the project complies with the maintainers vision for the project and know it is likely to be merged into the core codebase
 
 ## Projects with internal teams
 
-- Internal team members should only work on features during work hours that have been assigned to a release by the core contributors for a project
-- Features will be assigned to a release during the Community Standup
+* Internal team members should only work on features during work hours that have been assigned to a release by the core contributors for a project
+* Features will be assigned to a release during the Community Standup
