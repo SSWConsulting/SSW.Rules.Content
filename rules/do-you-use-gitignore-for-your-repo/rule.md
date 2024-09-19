@@ -42,13 +42,13 @@ In your project’s root directory, create a file named .gitignore if it doesn't
 2. Add Files or Directories to Ignore:
 Open the .gitignore file and list the files or directories you want Git to ignore. Each entry should be on a new line. For example:
 
-`
+```gitignore
 bash
 Copy code
 node_modules/
 .env
 *.log
-`
+```
 
 ### Additional Tips
 
@@ -61,10 +61,11 @@ c. Use command `dotnet new gitignore` to create gitignore file for dotnet applic
 
 2. Use Comments:
 You can add comments in the .gitignore file to explain why certain files or directories are being ignored. Use # for comments. For example:
-`
+
+```gitignore
 # Ignore environment variables for security
 .env
 
 # Ignore node_modules folder to avoid unnecessary files in the repo
 node_modules/
-`
+```
