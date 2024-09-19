@@ -46,12 +46,12 @@ In your project’s root directory, create a file named .gitignore if it doesn't
 2. Add Files or Directories to Ignore:
 Open the .gitignore file and list the files or directories you want Git to ignore. Each entry should be on a new line. For example:
 
-gitignore
+```gitignore
 bash
 node_modules/
 .env
 *.log
-
+```
 **Figure: Example of gitnore file**
 
 ### Additional Tips
@@ -66,7 +66,7 @@ You don’t need to write a .gitignore from scratch! You can:
 2. Use Comments:
 You can add comments in the .gitignore file to explain why certain files or directories are being ignored. Use # for comments. For example:
 
-gitignore
+```gitignore
 
 # Ignore environment variables for security
 
@@ -75,5 +75,5 @@ gitignore
 # Ignore node_modules folder to avoid unnecessary files in the repo
 
 node_modules/
-
+```
 **Figure: Example of gitignore file with comment**
