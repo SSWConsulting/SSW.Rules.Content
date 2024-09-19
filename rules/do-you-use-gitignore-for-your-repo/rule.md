@@ -47,7 +47,6 @@ Open the .gitignore file and list the files or directories you want Git to ignor
 
 ```gitignore
 bash
-Copy code
 node_modules/
 .env
 *.log
