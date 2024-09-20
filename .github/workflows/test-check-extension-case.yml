@@ -27,7 +27,7 @@ jobs:
               for filename in "${myarray[@]}" 
               do
                   echo "Checking file: $filename"
-                  fileExtension=$(echo "${filename##*.}" | sed 's/[]]//g')
+                  fileExtension=$(echo "${filename##*.}" | sed 's/["\]]//g')
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
                   echo "File extension: $fileExtension"
                   echo "Lowercase file extension: $lowercaseFileExtension"
