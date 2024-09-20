@@ -54,5 +54,9 @@ You can open the **Hamburger menu | Workflows** to view all the workflows
 :::
 
 ::: info
-**Note:** In GitHub, an excellent feature allows PBIs to be automatically closed when a pull request (PR) is merged. Ideally, the PR contains all the context that would normally be included in a 'Done' reply to the PBI, streamlining the process. This feature is particularly useful as it ensures the issue is linked to the PR and eliminates the common 'I forgot to close the PBI' oversight.
+**Note:** In GitHub, there is a feature that allows PBIs to be automatically closed when a pull request (PR) is merged. Ideally, the PR contains all the context that would normally be included in a 'Done' reply to the PBI, streamlining the process. This feature is particularly useful as it ensures the issue is linked to the PR and eliminates the common 'I forgot to close the PBI' oversight. This feature is good for some teams.
+
+Be aware, this auto-closes the issue and assumes merging the PR is the only work required. This is not always true depending on your [Definition of Done](/definition-of-done) and deployment process.
+
+See [Avoid auto-closing issues](/avoid-auto-closing-issues).
 :::
