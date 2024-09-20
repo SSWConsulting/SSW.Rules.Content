@@ -32,8 +32,7 @@ jobs:
                      [ $lowercaseFileExtension == 'svg' ] || \
                      [ $lowercaseFileExtension == 'png' ] || \
                      [ $lowercaseFileExtension == 'jpg' ] || \
-                     [ $lowercaseFileExtension == 'jpeg' ]
-                  then
+                     [ $lowercaseFileExtension == 'jpeg' ]; then
                       if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
                       then
                           echo "Use lowercase file extensions"
