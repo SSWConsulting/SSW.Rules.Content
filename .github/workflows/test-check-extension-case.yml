@@ -27,8 +27,15 @@ jobs:
               for filename in "${myarray[@]}" 
               do
                   echo "Checking file: $filename"
-                  fileExtension=$(echo "${filename##*.}" | sed 's/["\]]//g')
+                  
+                  # Extract the extension (everything after the last dot)
+                  fileExtension="${filename##*.}"
+
+                  # Remove unwanted characters from the extension (specifically ] and ")
+                  fileExtension=$(echo "$fileExtension" | tr -d '"]')
+                  
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
+                  
                   echo "File extension: $fileExtension"
                   echo "Lowercase file extension: $lowercaseFileExtension"
                   if [ $lowercaseFileExtension == 'gif' ] || \
