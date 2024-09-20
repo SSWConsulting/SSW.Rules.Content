@@ -26,13 +26,14 @@ jobs:
 
               for filename in "${myarray[@]}" 
               do
-                  fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
+                  fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -oE '.{3,4}$')
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
                   if [ $lowercaseFileExtension == 'gif' ] || \
                      [ $lowercaseFileExtension == 'svg' ] || \
                      [ $lowercaseFileExtension == 'png' ] || \
                      [ $lowercaseFileExtension == 'jpg' ] || \
-                     [ $lowercaseFileExtension == 'jpeg' ]; then
+                     [ $lowercaseFileExtension == 'jpeg' ]
+                  then
                       if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
                       then
                           echo "Use lowercase file extensions"
