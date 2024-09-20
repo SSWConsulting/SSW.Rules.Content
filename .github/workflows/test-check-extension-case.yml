@@ -29,6 +29,8 @@ jobs:
                   echo "Checking file: $filename"
                   fileExtension="${filename##*.}"
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
+                  echo "File extension: $fileExtension"
+                  echo "Lowercase file extension: $lowercaseFileExtension"
                   if [ $lowercaseFileExtension == 'gif' ] || \
                      [ $lowercaseFileExtension == 'svg' ] || \
                      [ $lowercaseFileExtension == 'png' ] || \
