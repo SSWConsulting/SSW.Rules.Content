@@ -32,9 +32,11 @@ A .gitignore file tells Git which files or folders to ignore. This keeps your re
 
 Here are some useful patterns you might need in a .gitignore file:
 
-* " *" - (e.g.*.log This will ignore all files ending in .log anywhere in the repository.)
-* " **" - (e.g.**/lib/name.file This pattern will ignore name.file in any lib/ directory within the repository, no matter its depth.)
-* " /{{name}}/ " - (e.g./build/ This will ignore the build/ directory only at the root level.)
+ "*" - (e.g. *.log This will ignore all files ending in .log anywhere in the repository.)
+ 
+ "**" - (e.g. **/lib/name.file This pattern will ignore name.file in any lib/ directory within the repository, no matter its depth.)
+ 
+ " /{{name}}/ " - (e.g./build/ This will ignore the build/ directory only at the root level.)
 
 For more details and advanced patterns, refer to the [w3schools Gitignore tutorial](https://www.w3schools.com/git/git_ignore.asp?remote=github).
 
