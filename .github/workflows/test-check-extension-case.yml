@@ -42,7 +42,8 @@ jobs:
                      [ $lowercaseFileExtension == 'svg' ] || \
                      [ $lowercaseFileExtension == 'png' ] || \
                      [ $lowercaseFileExtension == 'jpg' ] || \
-                     [ $lowercaseFileExtension == 'jpeg' ]
+                     [ $lowercaseFileExtension == 'jpeg' ] || \
+                     [ $lowercaseFileExtension == 'webp' ]
                   then
                       if [ "$fileExtension" != "$lowercaseFileExtension" ];
                       then
