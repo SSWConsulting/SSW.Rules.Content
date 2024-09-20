@@ -38,12 +38,12 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 Screenshots are just one of the things that you could add for more context, some other things you could have are:
 
-- [Done Videos](/send-done-videos)
-- Mention if there is relevant documentation that was updated
-- Mention any additional context in the pull request that you didn't want to duplicate
-- If you had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)
-- If you are closing a PBI as "Duplicate", add a link to the PBI that is a duplicate
-- If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed
+* [Done Videos](/send-done-videos)
+* Mention if there is relevant documentation that was updated
+* Mention any additional context in the pull request that you didn't want to duplicate
+* If you had a conversation with someone to change the outcome of the PBI, mention ["as per my conversation with..."](/as-per-our-conversation-emails/)
+* If you are closing a PBI as "Duplicate", add a link to the PBI that is a duplicate
+* If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed
 
 ::: info
 **Note:** If you are using GitHub projects you will want to make sure you've checked the workflows for the your project to make sure the team understands the behavior of the work when it's state changes in the project.
@@ -51,4 +51,12 @@ Screenshots are just one of the things that you could add for more context, some
 You can open the **Hamburger menu | Workflows** to view all the workflows
 
 ![Figure: For issues specifically it's recommended you have these workflows configured and enabled](project-workflows.jpg)
+:::
+
+::: info
+**Note:** In GitHub, there is a feature that allows PBIs to be automatically closed when a pull request (PR) is merged. Ideally, the PR contains all the context that would normally be included in a 'Done' reply to the PBI, streamlining the process. This feature is particularly useful as it ensures the issue is linked to the PR and eliminates the common 'I forgot to close the PBI' oversight. This feature is good for some teams.
+
+Be aware, this auto-closes the issue and assumes merging the PR is the only work required. This is not always true depending on your [Definition of Done](/definition-of-done) and deployment process.
+
+See [Avoid auto-closing issues](/avoid-auto-closing-issues).
 :::
