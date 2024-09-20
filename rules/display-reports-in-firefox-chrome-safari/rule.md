@@ -19,7 +19,7 @@ SQL Reporting Services works great with Internet Explorer but other browsers som
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - SQL RS does not work in Chrome by default](report-display-bad.jpg)  
+![Figure: Bad example - SQL RS does not work in Chrome by default](report-display-bad_1726800492478.jpg)  
 :::
 
 This issue is caused by Reporting Services emitting Quirks Mode HTML, to fix this make the following changes to the ReportingServices.js file the full path to this file is:
@@ -42,7 +42,7 @@ if (element)
 Once this change is made reports will be visible.
 
 ::: good  
-![Figure: Good example - SQL RS fixed to correctly display in Chrome](report-display-good.jpg)
+![Figure: Good example - SQL RS fixed to correctly display in Chrome](report-display-good_1726800492478.jpg)
 :::
 
 More information at: [stackoverflow.com/questions/5968082/ssrs-2008-r2-reports-are-blank-in-safari-and-chrome](https://stackoverflow.com/questions/5968082/ssrs-2008-r2-ssrs-2012-reportviewer-reports-are-blank-in-safari-and-chrome)
