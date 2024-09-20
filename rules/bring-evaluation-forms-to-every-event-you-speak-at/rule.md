@@ -20,4 +20,4 @@ The best way to find out how your clients and customers think about you is to as
 
 <!--endintro-->
 
-At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results. 
+At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results.
