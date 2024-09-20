@@ -35,9 +35,9 @@ jobs:
                      [ $lowercaseFileExtension == 'jpg' ] || \
                      [ $lowercaseFileExtension == 'jpeg' ]
                   then
-                      if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
+                      if [ "$fileExtension" != "$lowercaseFileExtension" ];
                       then
-                          echo "Use lowercase file extensions"
+                          echo "Error: Use lowercase file extensions"
                           exit 1
                       fi
                   fi
