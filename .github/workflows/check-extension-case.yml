@@ -14,7 +14,7 @@ jobs:
       - id: file_changes
         uses: trilom/file-changes-action@v1.2.4
 
-      - name: test
+      - name: check-image-extension-case
         run: |
           FILES=${{steps.file_changes.outputs.files_added}}
 
@@ -24,13 +24,26 @@ jobs:
 
               for filename in "${myarray[@]}" 
               do
-                  fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -o '...$')
+                  echo "Checking file: $filename"
+                  
+                  # Extract the extension (everything after the last dot)
+                  fileExtension="${filename##*.}"
+
+                  # Remove unwanted characters from the extension (specifically ] and ")
+                  fileExtension=$(echo "$fileExtension" | tr -d '"]')
+                  
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
-                  if [ $lowercaseFileExtension == 'gif' ] || [ $lowercaseFileExtension == 'svg' ]
+
+                  if [ $lowercaseFileExtension == 'gif' ] || \
+                     [ $lowercaseFileExtension == 'svg' ] || \
+                     [ $lowercaseFileExtension == 'png' ] || \
+                     [ $lowercaseFileExtension == 'jpg' ] || \
+                     [ $lowercaseFileExtension == 'jpeg' ] || \
+                     [ $lowercaseFileExtension == 'webp' ]
                   then
-                      if ! [[ $fileExtension =~ ^[[:lower:]]+$ ]];
+                      if [ "$fileExtension" != "$lowercaseFileExtension" ];
                       then
-                          echo "Use lowercase file extensions"
+                          echo "Error: Use lowercase file extensions"
                           exit 1
                       fi
                   fi
