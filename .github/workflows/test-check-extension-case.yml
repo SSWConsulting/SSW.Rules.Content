@@ -26,7 +26,8 @@ jobs:
 
               for filename in "${myarray[@]}" 
               do
-                  fileExtension=$(echo $filename | sed 's/"//g' | sed 's/]//g' | grep -oE '.{3,4}$')
+                  echo "Checking file: $filename"
+                  fileExtension="${filename##*.}"
                   lowercaseFileExtension=$(echo "$fileExtension" | tr '[:upper:]' '[:lower:]')
                   if [ $lowercaseFileExtension == 'gif' ] || \
                      [ $lowercaseFileExtension == 'svg' ] || \
