@@ -20,7 +20,7 @@ redirects:
   - do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
 ---
 
-It’s tempting for companies to blur the lines between design and development roles, especially when resources are limited.  Maintaining a clear distinction between disciplines is crucial for creating cohesive and effective user experiences. 
+It’s tempting for companies to blur the lines between design and development roles, especially when resources are limited.  Maintaining a clear distinction between disciplines is crucial for creating cohesive and effective user experiences.
 
 For most developers, especially those early in their careers, the risk of making choices that negatively impact the overall design is too high. When Product Owners delegate design work to developers, they are likely to accumulate accumulate significant UX Debt.
 
@@ -34,7 +34,7 @@ While it’s important to be flexible in real-world situations, particularly whe
 
 ## Streamlining design decisions
 
-Design is an inherently subjective field, and even experienced designers don't always agree on every decision. 
+Design is an inherently subjective field, and even experienced designers don't always agree on every decision.
 
 Design needs to be approached holistically, meaning every element should be considered as part of the whole. For example, color choices, typography, and user experience should all work together to create a unified design. When too many people, especially those without a design background, get involved, it can result in a disjointed and inconsistent product.
 
