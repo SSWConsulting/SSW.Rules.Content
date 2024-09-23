@@ -66,26 +66,24 @@ Please see below for a more detailed breakdown of the Sprint:
 | Product Owner:     | {{ PRODUCT OWNER NAME }}              |
 | Attendees:         | {{ NAMES OF THE ATTENDEES }}          |
 
-Attendees: *(Optional as they may be in the to and CC)*
-
 ### Sprint Review
 
-| **ID** | **Title** | **State** | **Effort** |
-| ------ | --------- | --------- | ---------- |
-| {{ ID }}  | {{ PBI TITLE }} | {{ STATE }} | {{ EFFORT }} |
-| {{ ID }}  | {{ PBI TITLE }} | {{ STATE }} | {{ EFFORT }} |
+| **ID** | **Title** | **Assignee** | **State** | **Effort** |
+| ------ | --------- | ---------- | --------- | ---------- |
+| {{ ID }}  | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
+| {{ ID }}  | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
-1. Sprint Burndown (a quick overview of the Sprint)
-
-   ![Figure: Sprint Burndown](burndown.jpg)
-
-2. Timesheet data - Who worked in a Sprint?
+1. Timesheet data - Who worked in a Sprint?
 
 :::img-medium
 ![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
 :::
+
+2. Sprint Burndown (a quick overview of the Sprint)
+
+   ![Figure: Sprint Burndown](burndown.jpg)
 
 1. Code Coverage (hopefully tests are increasing each Sprint)
 
