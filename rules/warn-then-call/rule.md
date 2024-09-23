@@ -49,7 +49,8 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. _“C
 - **Availability** - Giving someone even a 1 minute warning is a good idea even if you see their Teams Status is on green ‘available’. Remember it is not easy to always change their status to ‘busy’ - they could be on a mobile phone, on a WhatsApp call, in a physical meeting, etc
 
 ::: info
-**Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's an emergency.
+**Warning**: First check the persons Teams status is not "Do not Disturb", "Presenting", or "On a call" make sure **not** to call them unless it's a high priority item or a scheduled meeting 
+e.g. a Sprint Review
 ![Figure: Check their status first](team-status-1.jpg)
 :::
 
