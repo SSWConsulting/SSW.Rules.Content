@@ -17,7 +17,7 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 
 ::: bad
 
-https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401
+<https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>
 ![Figure: Bad Example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable.](meeting-energy-bad-example.png)
 
 :::
@@ -25,7 +25,7 @@ https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401
 * Avoid sitting silently or showing frustration about the wait.
 * Do not dive into the main agenda without the key participants present.
 * Avoid using filler time to discuss irrelevant or heavy topics that could disengage participants.
-* Do not use this time just to look at yourself in the camera view     
+* Do not use this time just to look at yourself in the camera view
 
 Here are some tips to ensure meetings start with energy and engagement while waiting for attendees:
 
@@ -39,8 +39,8 @@ When someone new joins, pause the current conversation to acknowledge them. It�
 
 **Example:**
 
-- In chat, type: “Waiting for Bob”
-- Say: “Welcome Mary, just waiting for Bob. We are currently talking about the status of the backlog while waiting.”
+* In chat, type: “Waiting for Bob”
+* Say: “Welcome Mary, just waiting for Bob. We are currently talking about the status of the backlog while waiting.”
 
 ### 3. Avoid Jumping into the Agenda
 
@@ -54,16 +54,13 @@ A good laugh can make people more comfortable and open to participation. Share a
 
 Ask questions that prompt responses from those present. This can be something simple like “How was your weekend?” or “What’s one thing you’re excited about this week?”
 
-
-
 ::: greybox
+
 * “Waiting for Bob. We are discussing the team's progress while we wait.”
 * “Welcome Mary, just waiting for Bob. We are chatting about weekend plans while waiting.”
 :::
 ::: good
 Figure: Good example - Acknowledging new participants and keeping the conversation light and engaging.
 :::
-
-
 
 By following these tips, you can ensure that meetings start on a positive note, making everyone feel valued and engaged right from the beginning.
