@@ -19,7 +19,7 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 
 <https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>
 
-![Figure: Bad Example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable](meeting-energy-bad-example.png)
+![Figure: Bad example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable](meeting-energy-bad-example.png)
 
 :::
 
@@ -64,7 +64,7 @@ Ask questions that prompt responses from those present. This can be something si
 
 ::: good
 
-Figure: Good Example - Acknowledging new participants and keeping the conversation light and engaging
+Figure: Good example - Acknowledging new participants and keeping the conversation light and engaging
 
 :::
 
