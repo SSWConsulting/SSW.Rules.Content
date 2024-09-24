@@ -5,7 +5,8 @@ title: Do you use Microsoft 365 Archive Mailboxes for large mailboxes?
 seoDescription: ""
 uri: archive-mailboxes
 authors:
-  - title: ""
+  - title: Chris Schultz
+    url: https://www.ssw.com.au/people/chris-schultz/
 guid: fcac7c42-21d3-42e8-8dd5-67f84352c68b
 ---
 In Microsoft 365, user mailboxes are limited to 50GB or 100GB, [depending on the licence you have](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits). For users with lots of emails, you need a solution to keep mailboxes under the limit, without losing data or access to emails.
@@ -20,13 +21,17 @@ This video explains the 3 "archiving" options in Outlook (skip to 4:43 for Archi
 **Video: Are you using the Right "Archive" in Outlook? (7 min)**
 
 **In Summary:**\
-❌ Archive folder - just another folder in your mailbox\
-❌ Auto-Archive - stored on your computer, not available online (you will lose data!)\
-✅ Archive Mailboxes - the right solution
+❌ **Archive folder** - just another folder in your mailbox\
+❌ **Auto-Archive** - stored on your computer, not available online (you will lose data!)\
+✅ **Archive Mailboxes** - the right solution!
 
-Archive Mailboxes give you 50GB or 1.5TB(!) of extra storage, depending on your licence. They are stored in the cloud and are accessible in Outlook on all devices.
+* Archive Mailboxes give you 50GB or 1.5TB(!) of extra storage, depending on your licence.
+* They are stored in the cloud - no lost data
+*  They are accessible in Outlook on all devices
 
-### Enable Archive Mailboxes
+
+
+## Enable Archive Mailboxes
 
 1. Go to the **[Exchange admin center](https://admin.exchange.microsoft.com/) | Mailboxes** 
 2. Select a user
@@ -41,7 +46,7 @@ Users will see their new Online Archive as a separate mailbox in Outlook
 
 ![Figure: Outlook | Online Archive mailbox](archive-outlook.png)
 
-### **Archive Policies**
+## Archive Policies
 
 By default, emails will be moved to the archive mailbox after 2 years. Users can select a different archiving policy per folder by going to the Outlook folder **Properties | Policy**.
 
