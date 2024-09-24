@@ -80,7 +80,7 @@ Please see below for a more detailed breakdown of the Sprint:
 ![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
 :::
 
-2. Sprint Burndown - a quick overview of the Sprint
+2. Sprint Burndown - A quick overview of the Sprint
 
 ![Figure: Sprint Burndown](burndown.jpg)
 
