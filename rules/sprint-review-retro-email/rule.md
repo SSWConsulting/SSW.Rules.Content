@@ -82,27 +82,33 @@ Please see below for a more detailed breakdown of the Sprint:
 
 2. Sprint Burndown (a quick overview of the Sprint)
 
-   ![Figure: Sprint Burndown](burndown.jpg)
+![Figure: Sprint Burndown](burndown.jpg)
+
 3. Code Coverage (hopefully tests are increasing each Sprint)
 
-   {{ CODE COVERAGE }}
+{{ CODE COVERAGE }}
+
 4. Velocity *(Optional)*
 
-   {{ VELOCITY }}
+{{ VELOCITY }}
+
 5. Burnup (for the release - the whole project, how are we tracking for the big picture?)
 
-   ![Figure: Release Burnup](release-burnup.jpg)
+![Figure: Release Burnup](release-burnup.jpg)
+
 6. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
 
-   ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
+![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
 
-   ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
+![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
+
 7. Application Health Overview Timeline (For the entire Sprint)
 
-   ![Figure: Application Health Overview Timeline](application-insights.jpg)
+![Figure: Application Health Overview Timeline](application-insights.jpg)
+
 8. Product Roadmap
 
-   {{ ROADMAP LINK }}
+{{ ROADMAP LINK }}
 
 Progress:
 
@@ -127,7 +133,7 @@ Progress:
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
-### R&D
+9. R&D
 
 **Did we do any experimental work?**
 
