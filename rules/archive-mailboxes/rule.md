@@ -52,3 +52,5 @@ Admins can edit the default policy, or add new policy options in **[Microsoft Pu
 * Use the **MRM Retention Policies** tab to apply default and/or optional policies to users
 
 ![Figure: Microsoft Purview | MRM Retention tags](archive-tags.png)
+
+For more information see Microsoft's documentation: https://learn.microsoft.com/en-us/purview/archive-mailboxes
