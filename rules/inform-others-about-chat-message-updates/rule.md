@@ -10,6 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - update-or-delete-mistakes
+  - email-send-a-v2
 created: 2024-05-29T18:15:42.034Z
 guid: 1b2a81d8-2738-4274-9eab-0ae4e0d010f5
 ---
@@ -22,7 +23,10 @@ This simple practice promotes transparency, avoids confusion, and ensures everyo
 <!--endintro-->
 
 ::: info
-**Note:** If you're simply fixing a typo or making a minor edit that won't alter the meaning of your message, it's **not** necessary to notify others.
+**Note:** It's **not** necessary to notify others if:
+
+* You're simply fixing a typo or making a minor edit that won't alter the meaning of your message
+* The other person hasn't read the message yet
 :::
 
 ::: bad
