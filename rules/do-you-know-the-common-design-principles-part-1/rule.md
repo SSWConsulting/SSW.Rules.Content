@@ -1,11 +1,11 @@
 ---
-seoDescription: Understand the fundamentals of software design by learning the five SOLID principles - Single Responsibility Principle, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.
 type: rule
-archivedreason:
 title: Do you know the common Design Principles? (Part 1)
-guid: 7507df2f-e227-4ecf-931f-4864ad85eb02
+seoDescription: Understand the fundamentals of software design by learning the
+  five SOLID principles - Single Responsibility Principle, Open-Closed
+  Principle, Liskov Substitution Principle, Interface Segregation Principle, and
+  Dependency Inversion Principle.
 uri: do-you-know-the-common-design-principles-part-1
-created: 2012-04-02T00:29:11.0000000Z
 authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
@@ -14,6 +14,9 @@ authors:
 related: []
 redirects:
   - do-you-know-the-common-design-principles-(part-1)
+created: 2012-04-02T00:29:11.000Z
+archivedreason: null
+guid: 7507df2f-e227-4ecf-931f-4864ad85eb02
 ---
 
 ::: greybox
@@ -21,17 +24,13 @@ redirects:
 **SRP The Single Responsibility Principle**
 A class should have one, and only one reason to change.
 
-**OCP The Open Closed Principle
-** You should be able to extend a class's behavior without modifying it.
+**OCP The Open Closed Principle** You should be able to extend a class's behavior without modifying it.
 
-**LSP The Liskov Substitution Principle
-** Derived classes must be substitutable for their base classes.
+**LSP The Liskov Substitution Principle** Derived classes must be substitutable for their base classes.
 
-**ISP The Interface Segregation Principle
-** Make fine-grained interfaces that are client specific.
+**ISP The Interface Segregation Principle** Make fine-grained interfaces that are client specific.
 
-**DIP The Dependency Inversion Principle
-** Depend on abstractions, not on concretions.
+**DIP The Dependency Inversion Principle** Depend on abstractions, not on concretions.
 
 :::
 
