@@ -14,25 +14,24 @@ Using the "Meet Now" button in Microsoft Teams can be an efficient way to start 
 
 <!--endintro-->
 
-
-::: bad   
+::: bad
   
-![Figure: Bad Example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone](video-call-no-notice.png)   
+![Figure: Bad Example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone](video-call-no-notice.png)
 :::
-
-
 
 ::: good
 
 ![Figure: Good Example - The user sends the group a message and then presses the "Meet Now" button which doesn't interupt the entire group](meet-now-in-teams.png)
 :::
 
-### Using "Meet Now" is effective for:
+### Using "Meet Now" is effective for
+
 * **Quick Collaboration:** You need an immediate response or decision from a few people who are available
 * **Unplanned Discussions:** A short, impromptu discussion that cannot be resolved via chat
 * **Co-working Sessions:** When working together on a document or project and all team members are ready to engage
 
 ### Best Practices for Using "Meet Now"
+
 * **Send a Heads-Up Message:** Use a chat message to confirm if a quick call is appropriate
 * **Set Expectations:** Clarify the purpose and duration of the call in advance
 * **Use Scheduling for Larger Groups:** For large groups or in-depth discussions, use the "Schedule a Meeting" feature instead
