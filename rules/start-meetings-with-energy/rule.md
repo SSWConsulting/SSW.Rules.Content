@@ -18,6 +18,7 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 
 
 <https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>
+
 ::: bad
 
 ![Figure: Bad example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable](meeting-energy-bad-example.png)
