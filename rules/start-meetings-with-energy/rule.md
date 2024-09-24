@@ -15,8 +15,6 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 
 <!--endintro-->
 
-
-
 <https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>
 
 ::: bad
