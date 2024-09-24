@@ -22,7 +22,7 @@ redirects:
 
 It’s tempting for companies to blur the lines between design and development roles, especially when resources are limited.  Maintaining a clear distinction between disciplines is crucial for creating cohesive and effective user experiences.
 
-For most developers, especially those early in their careers, the risk of making choices that negatively impact the overall design is too high. When Product Owners delegate design work to developers, they are likely to accumulate accumulate significant UX Debt.
+For many developers, especially those early in their careers, the risk of making design decisions that negatively affect the overall user experience is high. When Product Owners delegate design work to developers, they may unintentionally accumulate significant UX debt. UX debt, like tech debt, accumulates when design shortcuts are taken, leading to user experience issues that need to be fixed later—often at a greater cost.
 
 <!--endintro-->
 
