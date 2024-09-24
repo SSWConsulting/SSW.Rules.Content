@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how to start meetings with energy and engagement while waiting for participants to join, ensuring everyone feels included from the start.
 type: rule
-title: Do you ensure meetings start with energy while waiting for attendees?
+title: Do you start meetings with energy while waiting for attendees?
 uri: start-meetings-with-energy
 authors:
   - title: Adam Cogan
@@ -19,7 +19,7 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 
 ::: bad
 
-![Figure: Bad example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable](meeting-energy-bad-example.png)
+![Figure: Bad example - Awkward silence makes waiting uncomfortable](meeting-energy-bad-example.png)
 
 :::
 
