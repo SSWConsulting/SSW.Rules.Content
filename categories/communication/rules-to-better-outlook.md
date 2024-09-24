@@ -21,5 +21,6 @@ index:
 - do-you-use-the-security-options-in-outlook
 - do-you-use-the-voting-option-appropriately
 - do-you-avoid-using-out-of-office
+- archive-mailboxes
 
 ---
