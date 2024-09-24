@@ -95,13 +95,10 @@ Example: A routine leave request
 
 In these cases, a 2nd approval is valuable because:
 
-✅ It establishes confidence in the process
-
-✅ It esults in fewer mistakes slipping through
-
-✅ A single approver may make a rushed or wrong decision
-
-✅ The approvers hold each other accountable
+* ✅ It establishes confidence in the process
+* ✅ It esults in fewer mistakes slipping through
+* ✅ A single approver may make a rushed or wrong decision
+* ✅ The approvers hold each other accountable
 
 Example: A purchase for $500-$5,000 (relatively expensive).
 
@@ -128,7 +125,7 @@ To prevent this issue, create reports tracking the number of approvals people do
 
 ![Figure: A report tracking how many approvals people do (from the Teams Approvals app)](teams-approvals-report.jpg)
 
-![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
+![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)(eagle-eye-report.jpg)]
 
 ## Keeping Approvers Aligned
 
