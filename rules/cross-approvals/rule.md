@@ -95,9 +95,9 @@ Tasks that require 1 approval are usually well-documented, routine processes. In
 
 In these cases, a 2nd approval is valuable because:
 
-✅ It establishes confidence in the process   
-✅ It results in fewer mistakes slipping through   
-✅ A single approver may make a rushed or wrong decision   
+✅ It establishes confidence in the process
+✅ It results in fewer mistakes slipping through
+✅ A single approver may make a rushed or wrong decision
 ✅ The approvers hold each other accountable
 
 **Example:** A purchase for $500-$5,000 (relatively expensive).
