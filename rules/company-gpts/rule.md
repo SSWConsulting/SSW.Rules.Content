@@ -17,9 +17,9 @@ As more organizations adopt GPTs and AI tools to streamline work processes, one 
 A directory of AI tools (e.g. GPTs) ensures that everyone in the company knows what tools others have been using available.
 
 ### Benefits
-- **Awareness**: You want all your employees to know about the tools
-- **Adoption**: Employees are more likely to use tools that are easy to find
-- **Avoid Duplication**: You don't want 2 people to work on the same tool without knowing - you want visibility into what already exists.
+* **Awareness**: You want all your employees to know about the tools
+* **Adoption**: Employees are more likely to use tools that are easy to find
+* **Avoid Duplication**: You don't want 2 people to work on the same tool without knowing - you want visibility into what already exists.
 
 ### Best Practices
 
