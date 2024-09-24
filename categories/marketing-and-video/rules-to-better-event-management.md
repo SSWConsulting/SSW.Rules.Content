@@ -21,7 +21,7 @@ index:
 - can-sponsors-set-up-a-booth-somewhere
 - who-is-in-charge-of-keeping-the-schedule
 - organize-the-audience-when-numbers-are-low
-- how-are-you-collecting-feedback
+- event-feedback
 - bring-evaluation-forms-to-every-event-you-speak-at
 - follow-up
 - evaluate-your-event-feedback
@@ -41,4 +41,3 @@ The rules are split into three distinct sections:
 3. After the event
 
 The rules assume that your event idea has been properly researched and you have an audience for the particular field and topic you are addressing.
-

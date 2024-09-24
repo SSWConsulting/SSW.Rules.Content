@@ -77,4 +77,9 @@ index:
 
 ---
 
-If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.
+SQL Server Reporting Services is a comprehensive, server-based reporting solution that can author, manage, and deliver both paper-oriented and interactive, Web-based reports. Do you agree with them all? Are we missing some? [Let us know](https://www.ssw.com.au/company/contact-us) what you think.  
+If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.  
+
+[Listen to Adam's podcast on these rules with Greg Low](https://sqldownunder.blob.core.windows.net/podcasts/SDU14FullShow.mp3)  
+Duration: 42 min  
+Size: 14.5 MB  
