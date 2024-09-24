@@ -36,7 +36,7 @@ While flexibility is important, particularly when dealing with a low designer-to
 
 Design is an inherently subjective field, and even experienced designers don't always agree on every decision.
 
-Design needs to be approached holistically, meaning every element should be considered as part of the whole. For example, color choices, typography, and user experience should all work together to create a unified design. When too many people, especially those without a design background, get involved, it can result in a disjointed and inconsistent product.
+In addition, effective design demands a holistic approach, where layout, typography, color, UX, and other essential elements work together to create cohesion. When non-designers, especially those without a strong grasp of these principles, get involved, the result is often disjointed and inconsistent, leading to a fragmented user experience.
 
 This situation is analogous to designers writing code. Many designers may know basic HTML or CSS, or use tools like ChatGPT to generate code. However, without a developer to review and refine it, there’s a higher risk of introducing poor-quality code, which can lead to tech debt. This often results in long-term maintenance challenges and system inefficiencies. Even if a developer steps in to review, it adds unnecessary workload and distracts them from their primary responsibilities.
 
