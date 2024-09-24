@@ -30,7 +30,7 @@ For many developers, especially those early in their careers, the risk of making
 ![Figure: Bad design can be dangerous!](BadDesignGun.jpg)  
 :::
 
-While it’s important to be flexible in real-world situations, particularly when dealing with a low designer-to-developer ratio, it's still wise to keep design work primarily in the hands of designers.
+While flexibility is important, particularly when dealing with a low designer-to-developer ratio, it's still wise to keep design work primarily in the hands of designers to maintain consistency and quality.
 
 ## Streamlining design decisions
 
