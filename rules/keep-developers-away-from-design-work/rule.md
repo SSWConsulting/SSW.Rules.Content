@@ -38,7 +38,7 @@ Design is an inherently subjective field, and even experienced designers don't a
 
 Design needs to be approached holistically, meaning every element should be considered as part of the whole. For example, color choices, typography, and user experience should all work together to create a unified design. When too many people, especially those without a design background, get involved, it can result in a disjointed and inconsistent product.
 
-This situation is analogous to designers writing code. Many designers might know some HTML or CSS, and they could even use tools like ChatGPT to generate code. However, without a developer to review and refine this code, the risk of introducing poor-quality code into the system increases. Even if a developer does review it, it adds unnecessary workload, diverting their focus from their primary responsibilities.
+This situation is analogous to designers writing code. Many designers may know basic HTML or CSS, or use tools like ChatGPT to generate code. However, without a developer to review and refine it, there’s a higher risk of introducing poor-quality code, which can lead to tech debt. This often results in long-term maintenance challenges and system inefficiencies. Even if a developer steps in to review, it adds unnecessary workload and distracts them from their primary responsibilities.
 
 ::: info
 **Note:** Allowing developers to take on design tasks only makes sense when training them to transition into design roles or vice versa, as part of a deliberate learning process. Otherwise, companies should let designers handle design and developers focus on their strengths. This ensures each aspect of a project gets the expertise it needs for better results.
