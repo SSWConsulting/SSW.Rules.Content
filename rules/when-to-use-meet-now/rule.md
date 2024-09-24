@@ -15,7 +15,7 @@ Using the "Meet Now" button in Microsoft Teams can be an efficient way to start 
 <!--endintro-->
 
 ::: bad
-  
+
 ![Figure: Bad example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone](video-call-no-notice.png)
 :::
 
@@ -24,7 +24,7 @@ Using the "Meet Now" button in Microsoft Teams can be an efficient way to start 
 ![Figure: Good example - The user sends the group a message and then presses the "Meet Now" button which doesn't interupt the entire group](meet-now-in-teams.png)
 :::
 
-### Using "Meet Now" is effective for
+### Using "Meet Now" is effective for:
 
 * **Quick collaboration:** You need an immediate response or decision from a few people who are available
 * **Unplanned discussions:** A short, impromptu discussion that cannot be resolved via chat

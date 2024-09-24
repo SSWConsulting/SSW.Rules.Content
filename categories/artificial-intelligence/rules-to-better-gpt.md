@@ -10,6 +10,7 @@ index:
 - what-is-gpt
 - chatgpt-vs-gpt
 - weekly-ai-meetings
+- company-ai-tools
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
 - chatgpt-can-help-code
