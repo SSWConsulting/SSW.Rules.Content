@@ -18,13 +18,13 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 ::: bad
 
 <https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>
-![Figure: Bad Example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable.](meeting-energy-bad-example.png)
+![Figure: Bad Example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable](meeting-energy-bad-example.png)
 
 :::
 
-* Avoid sitting silently or showing frustration about the wait.
-* Do not dive into the main agenda without the key participants present.
-* Avoid using filler time to discuss irrelevant or heavy topics that could disengage participants.
+* Avoid sitting silently or showing frustration about the wait
+* Do not dive into the main agenda without the key participants present
+* Avoid using filler time to discuss irrelevant or heavy topics that could disengage participants
 * Do not use this time just to look at yourself in the camera view
 
 Here are some tips to ensure meetings start with energy and engagement while waiting for attendees:
@@ -60,7 +60,7 @@ Ask questions that prompt responses from those present. This can be something si
 * “Welcome Mary, just waiting for Bob. We are chatting about weekend plans while waiting.”
 :::
 ::: good
-Figure: Good example - Acknowledging new participants and keeping the conversation light and engaging.
+Figure: Good example - Acknowledging new participants and keeping the conversation light and engaging
 :::
 
 By following these tips, you can ensure that meetings start on a positive note, making everyone feel valued and engaged right from the beginning.
