@@ -15,7 +15,7 @@ Using the "Meet Now" button in Microsoft Teams can be an efficient way to start 
 <!--endintro-->
 
 ::: bad
-  
+
 ![Figure: Bad example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone](video-call-no-notice.png)
 :::
 
