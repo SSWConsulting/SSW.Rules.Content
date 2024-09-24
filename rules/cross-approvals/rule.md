@@ -31,13 +31,12 @@ In small companies, a single key stakeholder often approves everything, ensuring
 Generally an approval is anytime you need someone else to check a piece of your work before it can be marked as done.
 
 Approvals can either be:
-
-* Ad hoc - you should follow the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
+* Ad hoc - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
 * Recurring - these cause "approval hell" - you should use **approval scaling**
 
 ## Benefits of scaling approvals
 
-✅ Significant time savings for the person causing the bottlenecks (aka the "original approver")
+✅ Time savings for the person causing the bottlenecks (aka the "original approver")
 ✅ Fewer bottlenecks for those seeking approval
 ✅ Consistent and high-quality approvals
 
@@ -55,7 +54,7 @@ There are 5 steps to developing the new system of approvals:
 
 Look for tasks which frequently take a long time to be approved.
 
-For example, there might be delays in approval for induction completion because the person assigned to approve it is often busy.
+Example: Delays in approval for induction completion because the assigned approver is often busy.
 
 ### 2. Assign - Appoint trusted subject matter experts to be responsible
 
@@ -120,13 +119,16 @@ The final step is to record all the established decisions and induct the new app
 3. Create a template in the Teams Approvals app to ensure a standard process is followed
 4. Update the relevant standard so that instead of contacting the "original approver", individuals contact the new approvers
 
+
 ### 5. Monitor - Keep track of each employee's responsibilities
 
 One problem with this system is responsibility creep! When someone is a trusted individual within the company, they can end up with too many responsibilities, causing new bottlenecks.
 
 To prevent this issue, create reports tracking the number of approvals people do. That way, if someone has too many, you can reallocate some of them.
 
-![Figure: A report tracking how many approvals people do is valuable for figuring out where to distribute the workload](ApprovalsReport.png)
+![Figure: A report tracking how many approvals people do (from the Teams Approvals app)](teams-approvals-report.jpg)
+
+![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
 
 ## Keeping Approvers Aligned
 
@@ -146,14 +148,9 @@ Approvers may also have differing views about how to handle an approval. Dispute
 ![Figure: Good example - There are 8 Induction Masters responsible for approving everyone's induction](InductionMastersGoodExample.png)  
 :::
 
+
 ## Communicating the streamlined approvals process
 
 This process should ideally be implemented across all business bottlenecks. However, identifying the most problematic approvals can be challenging.
 
 To solve this, communicate the new approval process company-wide, encouraging employees to suggest areas for implementation. This crowdsourcing approach should yield valuable feedback on where to apply the streamlined approval process.
-
-Examples:
-
-![Figure: The Teams Approvals app is a good way to add structure and data capture to the system](teams-approvals-report.jpg)
-
-![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
