@@ -12,12 +12,13 @@ authors:
 related:
   - bench-master
   - management-structures
+  - checked-by-xxx
 redirects:
   - streamline-approvals
   - streamlining-approvals
 ---
 
-In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks. One approach that addresses this is to create an employee responsibility, which lists the people responsible for a specific approval. This list ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).
+In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks - or "approval hell". One approach that addresses this is to have multiple people responsible for a specific approval. This ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).
 
 <!--endintro-->
 
@@ -27,14 +28,16 @@ In small companies, a single key stakeholder often approves everything, ensuring
 
 ## What is an approval?
 
-Before we dive into the benefits of scaling approvals. It's worth establishing a baseline for what an approval is. Generally an approval is anytime you need someone else to check a piece of work you have done before it can be marked as done.
+Generally an approval is anytime you need someone else to check a piece of your work before it can be marked as done.
+
+Approvals can either be:
+* Ad hoc - you should follow the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
+* Recurring - these cause "approval hell" - you should use **approval scaling**
 
 ## Benefits of scaling approvals
 
 ✅ Significant time savings for the person causing the bottlenecks (aka the "original approver")
-
 ✅ Fewer bottlenecks for those seeking approval
-
 ✅ Consistent and high-quality approvals
 
 ## Developing the system
@@ -49,15 +52,13 @@ There are 5 steps to developing the new system of approvals:
 
 ### 1. Process - Identify tasks causing "approval hell"
 
-Before being able to fix "approval hell", problem tasks need to be identified.
-
 Look for tasks which frequently take a long time to be approved.
 
 For example, there might be delays in approval for induction completion because the person assigned to approve it is often busy.
 
 ### 2. Assign - Appoint trusted subject matter experts to be responsible
 
-Start building out a list of people who are experts on that subject. Those people will become the ones responsible for approvals.
+Build a list of people who are experts on that subject - they will be responsible for approvals.
 
 Once the list is compiled, assign each person a priority. That determines the order to contact people.
 
@@ -65,7 +66,7 @@ Tip: Set the "original approver" as the lowest priority to minimize their involv
 
 ### 3. Classify - Determine the importance of the task
 
-Some tasks are more valuable than others, meaning the quality check required will differ. For example, a task to fix spelling mistakes doesn't matter as much as deleting invoices. Therefore, you would assign more approvers to the task of deleting invoices.
+Some tasks are more valuable than others. For example, a task to fix spelling mistakes doesn't matter as much as deleting invoices. Therefore, you would assign more approvers to the task of deleting invoices.
 
 Figuring out the correct number of approvals can be difficult. Generally, the idea is to reduce the amount of approvals as much as possible without sacrificing quality or risk.
 
@@ -81,7 +82,7 @@ In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party t
 
 Tasks that require 1 approval are usually well-documented, routine processes. In that case, the standard acts as the second approver since it is assumed that it has been followed.
 
-A routine leave request is an example of a task that might require 1 approval.
+Example: A routine leave request
 
 ##### Number of Approvals: 2
 
@@ -95,28 +96,29 @@ In these cases, a 2nd approval is valuable because:
 
 ✅ It establishes confidence in the process
 
-✅ A second perspective results in fewer mistakes slipping through
+✅ It esults in fewer mistakes slipping through
 
 ✅ A single approver may make a rushed or wrong decision
 
 ✅ The approvers hold each other accountable
 
-A purchase for $500-$5,000 is an example of a task that might require 2 approvals because it is relatively expensive.
+Example: A purchase for $500-$5,000 (relatively expensive).
 
 ##### Number of Approvals: 3+ or stick with the "original approver"
 
-When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business. For example, opening a new office might require 3 approvals because it is costly and risky.
+When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business.
+
+Example: Opening a new office might (costly and risky).
 
 ### 4. Implement - Document and induct the new approvers
 
 The final step is to record all the established decisions and induct the new approvers.
 
-1. Induct each person by having them shadow the "original approver" for at least 3 approval processes, ensuring they understand the goal
-2. Document the new approvers in a central repository, naming it {{ APPROVAL }} Masters
+1. Induct each person by having them shadow the "original approver" for at least 3 approval processes
+2. Document the new approvers in a central location (e.g. Teams Approvals), naming it {{ APPROVAL NAME }} Masters
 3. Create a template in the Teams Approvals app to ensure a standard process is followed
-4. Update the standard so that instead of contacting the "original approver", individuals use the Teams approval template and contact the new approvers in order until they get the required number of approvals as determined when classifying the importance of the task
+4. Update the relevant standard so that instead of contacting the "original approver", individuals contact the new approvers
 
-![Figure: The Teams Approvals app is a good way to add structure and data capture to the system.](TeamsApprovalsTemplate.png)
 
 ### 5. Monitor - Keep track of each employee's responsibilities
 
@@ -144,8 +146,17 @@ Approvers may also have differing views about how to handle an approval. Dispute
 ![Figure: Good example - There are 8 Induction Masters responsible for approving everyone's induction](InductionMastersGoodExample.png)  
 :::
 
+
+
 ## Communicating the streamlined approvals process
 
 This process should ideally be implemented across all business bottlenecks. However, identifying the most problematic approvals can be challenging.
 
 To solve this, communicate the new approval process company-wide, encouraging employees to suggest areas for implementation. This crowdsourcing approach should yield valuable feedback on where to apply the streamlined approval process.
+
+
+Examples:
+
+![Figure: The Teams Approvals app is a good way to add structure and data capture to the system](teams-approvals-report.jpg)
+
+![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
