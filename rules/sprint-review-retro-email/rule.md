@@ -1,9 +1,6 @@
 ---
 type: rule
 title: Do you create a Sprint Review/Retro email?
-seoDescription: Learn how to create a structured Sprint Review/Retro email
-  template with best practices for clear communication and effective team
-  collaboration in Agile processes.
 uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
@@ -16,8 +13,6 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
-  - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
 related:
   - roadmap
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
@@ -41,7 +36,6 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
-
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -63,7 +57,7 @@ Please see below for a more detailed breakdown of the Sprint:
 |                    |                                      |
 | ------------------ | ------------------------------------ |
 | Sprint in Review:  | {{ SPRINT NUMBER }}                  |
-| Summary Recording: | {{ YOUTUBE PLAYLIST URL }}           |
+| Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
 | Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
 | Project:           | {{ PROJECT NAME }}                   |
 | Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
@@ -73,12 +67,6 @@ Please see below for a more detailed breakdown of the Sprint:
 
 ### Sprint Review
 
-1. Timesheet data - Who worked in the Sprint?
-
-![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
-
-2. What got done?
-
 | **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
 | -------- | --------------- | -------------- | ----------- | ------------ |
 | {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
@@ -86,35 +74,35 @@ Please see below for a more detailed breakdown of the Sprint:
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
-3. Sprint Burndown - A quick overview of the Sprint
+1. Timesheet data - Who worked in the Sprint?
 
-![Figure: Sprint Burndown](burndown.jpg)
+:::img-medium
+![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
+:::
 
-4. Code Coverage - Hopefully tests are increasing each Sprint
+2. Sprint Burndown (a quick overview of the Sprint)
 
-{{ CODE COVERAGE }}
+   ![Figure: Sprint Burndown](burndown.jpg)
+3. Code Coverage (hopefully tests are increasing each Sprint)
 
-5. Velocity *(Optional)*
+   {{ CODE COVERAGE }}
+4. Velocity *(Optional)*
 
-{{ VELOCITY }}
+   {{ VELOCITY }}
+5. Burnup (for the release - the whole project, how are we tracking for the big picture?)
 
-6. Burnup - How are we tracking for the big picture? *
+   ![Figure: Release Burnup](release-burnup.jpg)
+6. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
 
-![Figure: Release Burnup](release-burnup.jpg)
+   ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
 
-7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
+   ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
+7. Application Health Overview Timeline (For the entire Sprint)
 
-![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
+   ![Figure: Application Health Overview Timeline](application-insights.jpg)
+8. Product Roadmap
 
-![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
-
-8. Application Health Overview Timeline - For the entire Sprint
-
-![Figure: Application Health Overview Timeline](application-insights.jpg)
-
-9. Product Roadmap
-
-{{ ROADMAP LINK }}
+   {{ ROADMAP LINK }}
 
 Progress:
 
@@ -139,16 +127,13 @@ Progress:
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
-10. R&D - Did we do any experimental work?
+### R&D
+
+**Did we do any experimental work?**
 
 {{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
-
-11. AI Use - what tools did you use?
-
-* {{ PERSON }} - {{ TOOL }}
-* {{ ETC }}
 
 ### Sprint Retrospective
 
@@ -165,12 +150,6 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 💡 **What improvements will be made for the next Sprint?**
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
-
-⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
-
-As per <https://www.ssw.com.au/rules/for-the-record/>
-
-{{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
 **Definition of Ready** *(Optional)*
 
