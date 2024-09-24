@@ -36,7 +36,6 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
-
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -57,8 +56,8 @@ Please see below for a more detailed breakdown of the Sprint:
 
 |                    |                                      |
 | ------------------ | ------------------------------------ |
-| Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
 | Sprint in Review:  | {{ SPRINT NUMBER }}                  |
+| Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
 | Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
 | Project:           | {{ PROJECT NAME }}                   |
 | Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
@@ -68,49 +67,42 @@ Please see below for a more detailed breakdown of the Sprint:
 
 ### Sprint Review
 
-|   ID     |   Title         |   Assignee     |   State     |   Effort     |
+| **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
 | -------- | --------------- | -------------- | ----------- | ------------ |
-|   ID     |   Title         |   Assignee     |   State     |   Effort     |
 | {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
 | {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
-1. Timesheet data - Who worked in the Sprint? *
+1. Timesheet data - Who worked in the Sprint?
 
 :::img-medium
 ![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
 :::
 
-2. Sprint Burndown - A quick overview of the Sprint
+2. Sprint Burndown (a quick overview of the Sprint)
 
-![Figure: Sprint Burndown](burndown.jpg)
+   ![Figure: Sprint Burndown](burndown.jpg)
+3. Code Coverage (hopefully tests are increasing each Sprint)
 
-3. Code Coverage - Hopefully tests are increasing each Sprint
-
-{{ CODE COVERAGE }}
-
+   {{ CODE COVERAGE }}
 4. Velocity *(Optional)*
 
-{{ VELOCITY }}
+   {{ VELOCITY }}
+5. Burnup (for the release - the whole project, how are we tracking for the big picture?)
 
-5. Burnup - How are we tracking for the big picture? *
+   ![Figure: Release Burnup](release-burnup.jpg)
+6. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
 
-![Figure: Release Burnup](release-burnup.jpg)
+   ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
 
-6. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
+   ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
+7. Application Health Overview Timeline (For the entire Sprint)
 
-![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
-
-![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
-
-7. Application Health Overview Timeline - For the entire Sprint
-
-![Figure: Application Health Overview Timeline](application-insights.jpg)
-
+   ![Figure: Application Health Overview Timeline](application-insights.jpg)
 8. Product Roadmap
 
-{{ ROADMAP LINK }}
+   {{ ROADMAP LINK }}
 
 Progress:
 
@@ -135,7 +127,9 @@ Progress:
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
-9. R&D - Did we do any experimental work?
+### R&D
+
+**Did we do any experimental work?**
 
 {{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
 
