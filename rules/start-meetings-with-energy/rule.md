@@ -17,7 +17,7 @@ Waiting for participants to join a meeting can be awkward and make people feel d
 
 ::: bad
 
-<https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>      
+<https://www.tiktok.com/@mrrobertmayhew/video/7416717135965146401>
 
 ![Figure: Bad Example - Awkward silence or using the time just to look at yourself makes the waiting time feel uncomfortable](meeting-energy-bad-example.png)
 
@@ -59,7 +59,7 @@ Ask questions that prompt responses from those present. This can be something si
 
 * “Waiting for Bob. We are discussing the team's progress while we wait.”
 * “Welcome Mary, just waiting for Bob. We are chatting about weekend plans while waiting.”
-                         
+
 :::
 
 ::: good
