@@ -1,7 +1,8 @@
 ---
-seoDescription: Do you give your emails a Business Value? Learn how to prioritize your tasks effectively with our expert guide.
 type: rule
 title: Do you give your emails a Business Value?
+seoDescription: Do you give your emails a Business Value? Learn how to
+  prioritize your tasks effectively with our expert guide.
 uri: give-emails-a-business-value
 authors:
   - title: Adam Cogan
@@ -14,6 +15,7 @@ related:
   - estimating-do-you-know-how-to-size-user-stories-effectively
   - do-you-estimate-business-value
   - unexpected-requests
+  - tasks-with-a-ticking-clock
 redirects:
   - do-you-give-your-emails-a-business-value
 created: 2017-05-02T04:05:56.000Z
