@@ -11,6 +11,7 @@ index:
 - teams-group-chat
 - send-appointment-or-teams-meeting
 - do-you-make-your-team-meetings-easy-to-find
+- start-meetings-with-energy
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
 - track-project-documents
