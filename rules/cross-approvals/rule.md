@@ -31,6 +31,7 @@ In small companies, a single key stakeholder often approves everything, ensuring
 Generally an approval is anytime you need someone else to check a piece of your work before it can be marked as done.
 
 Approvals can either be:
+
 * Ad hoc - you should follow the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
 * Recurring - these cause "approval hell" - you should use **approval scaling**
 
@@ -119,7 +120,6 @@ The final step is to record all the established decisions and induct the new app
 3. Create a template in the Teams Approvals app to ensure a standard process is followed
 4. Update the relevant standard so that instead of contacting the "original approver", individuals contact the new approvers
 
-
 ### 5. Monitor - Keep track of each employee's responsibilities
 
 One problem with this system is responsibility creep! When someone is a trusted individual within the company, they can end up with too many responsibilities, causing new bottlenecks.
@@ -146,14 +146,11 @@ Approvers may also have differing views about how to handle an approval. Dispute
 ![Figure: Good example - There are 8 Induction Masters responsible for approving everyone's induction](InductionMastersGoodExample.png)  
 :::
 
-
-
 ## Communicating the streamlined approvals process
 
 This process should ideally be implemented across all business bottlenecks. However, identifying the most problematic approvals can be challenging.
 
 To solve this, communicate the new approval process company-wide, encouraging employees to suggest areas for implementation. This crowdsourcing approach should yield valuable feedback on where to apply the streamlined approval process.
-
 
 Examples:
 
