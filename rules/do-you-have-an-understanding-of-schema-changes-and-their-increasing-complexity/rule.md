@@ -1,59 +1,53 @@
 ---
+seoDescription: Mastering schema changes and their increasing complexity requires understanding low-impact alterations and high-risk operations involving existing data.
 type: rule
-archivedreason: 
-title: Do you have an understanding of 'schema changes' and their increasing complexity?
-guid: 634434fa-12e0-4eed-9514-eaf4fb2fcc01
+title: Do you have an understanding of 'schema changes' and their increasing
+  complexity?
 uri: do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity
-created: 2009-10-06T23:32:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
+created: 2009-10-06T23:32:50.000Z
+archivedreason: null
+guid: 634434fa-12e0-4eed-9514-eaf4fb2fcc01
 ---
 
-Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are? 
+Do you dream to be a 'Schema Master' one day? If so you need to know what changes are low impact and what needs to be done with care. Take care when it involves existing data. Do you know what the hard ones are?
 
- Let's look at examples of this increasing complexity (using [The Mr Northwinds database](http&#58;//www.microsoft.com/Downloads/details.aspx?FamilyID=06616212-0356-46a0-8da2-eebc53a68034&amp;displaylang=en)) :   
+Let's look at examples of this increasing complexity (As per the Northwind sample database: [Do you know the best sample applications?](/the-best-sample-applications)):
+
 <!--endintro-->
 
-
-
-```
+```sql
 ALTER TABLE dbo.Employees
     ADD Gender bit NOT NULL
 GO
 ```
 
+**Figure: Add a column (Easy)**
 
-     Figure: Add a column (Easy)        
-
-
-```
+```sql
 ALTER TABLE dbo.Employees
     DROP COLUMN TitleOfCourtesy
 GO
 ```
 
+**Figure: Delete a column (Easy)**
 
-     Figure: Delete a column (Easy)        
-
-
-```
-EXECUTE sp_rename N'dbo.Employees.HireDate', 
+```sql
+EXECUTE sp_rename N'dbo.Employees.HireDate',
                   N'Tmp_StartDate_1', 'COLUMN'
 GO
-EXECUTE sp_rename N'dbo.Employees.Tmp_StartDate_1', 
+EXECUTE sp_rename N'dbo.Employees.Tmp_StartDate_1',
                   N'StartDate', 'COLUMN'
 GO
 ```
 
+**Figure: Rename a column (Medium)**
 
-     Figure: Rename a column (Medium)        
-
-
-```
+```sql
 CREATE TABLE dbo.Tmp_Employees
 (
     ...
@@ -64,23 +58,21 @@ TEXTIMAGE_ON [PRIMARY]
 ...
 IF EXISTS(SELECT * FROM dbo.Employees)
     EXEC('INSERT INTO dbo.Tmp_Employees (..., Gender,...)
-              SELECT ...,Gender ,... 
+              SELECT ...,Gender ,...
               FROM dbo.Employees WITH (HOLDLOCK TABLOCKX)
-              ') 
+              ')
 ...
 GO
 DROP TABLE dbo.Employees
 GO
-EXECUTE sp_rename N'dbo.Tmp_Employees', 
+EXECUTE sp_rename N'dbo.Tmp_Employees',
                   N'Employees', 'OBJECT'
 GO
 ```
 
+**Figure: Change data type (Hard) e.g. Bit to Integer. The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesBitToInt.sql)**
 
-     Figure: Change data type (Hard) e.g. Bit to Integer. The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesBitToInt.sql)
-
-
-```
+```sql
 CREATE TABLE dbo.Tmp_Employees
 (
     ...
@@ -96,19 +88,19 @@ IF EXISTS(SELECT * FROM dbo.Employees)
                                  WHEN ''NA'' THEN ''2''
                                  WHEN ''U'' THEN ''3''
                                  ELSE ''-1''
-                     END AS Gender ,... 
-          FROM dbo.Employees WITH 
+                     END AS Gender ,...
+          FROM dbo.Employees WITH
           (HOLDLOCK TABLOCKX)
           ')
 ...
 GO
 DROP TABLE dbo.Employees
 GO
-EXECUTE sp_rename N'dbo.Tmp_Employees', 
+EXECUTE sp_rename N'dbo.Tmp_Employees',
                   N'Employees', 'OBJECT'
 GO
 ```
 
+**Figure: Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires ["Data Motion Scripts"](/do-you-understand-a-data-type-change-data-motion-scripts). The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesCharToInt.sql)**
 
-     Figure: Change data type (Very Hard) e.g. Text to Integer. Text to Integer and data conversion requires ["Data Motion Scripts"](/do-you-understand-a-data-type-change-data-motion-scripts). The above is abbreviated, see [the full .SQL file](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity/EmployeesCharToInt.sql)     
- And the point of know this. Well no tool out there, not Redgate's SQL Compare, not Microsoft's Data Dude, nor SSW's SQL Deploy will do this automagically for you. So you better understand that this stuff is delicate.
+The point of this is to know that no tool out there, not Redgate's SQL Compare, not Visual Studio SQL Schema Compare (aka Data Dude), nor SSW's SQL Deploy will do this automagically for you. So you better understand that this stuff is delicate.

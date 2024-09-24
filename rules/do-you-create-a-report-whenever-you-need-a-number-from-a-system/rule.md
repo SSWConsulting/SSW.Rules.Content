@@ -1,17 +1,17 @@
 ---
+seoDescription: Don't create a report whenever you need a number from a system. Instead, use Power BI to build a reusable report and satisfy your own curiosity.
 type: rule
-archivedreason: 
+archivedreason:
 title: Efficiency - Reuse - Do you create a report whenever you need a number from a system?
 guid: 4ec2e94b-d3bf-44cd-a64e-0700048567d0
 uri: do-you-create-a-report-whenever-you-need-a-number-from-a-system
 created: 2012-09-25T18:04:31.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- efficiency-reuse-do-you-create-a-report-whenever-you-need-a-number-from-a-system
-
+  - efficiency-reuse-do-you-create-a-report-whenever-you-need-a-number-from-a-system
 ---
 
 Whenever you need a number from a system you should think of how you can create a report, so next time you can press a button to get the result.
@@ -22,31 +22,33 @@ If you found yourself doing ad-hoc reports, or random SQL queries, a few years a
 
 Since 2015, the best practice is instead to jump into Power BI and build the report yourself.
 
+::: email-template  
+| | |
+| -------- | --- |
+| To: | Mr. Northwind |
+| Subject: | Report needed |  
+::: email-content
 
+### Dear boss,
 
-::: greybox
- **Subject: Report needed** 
+Today I needed to find xxx and so I had to write a query to find it. You can find it at \\server\Reports_Adhoc\SalesByRegion.xlsx
 
-Dear boss,
+I suggest adding this into our Performance Point Cube so I could find it at a URL.
 
-Today I needed to find xxx and so I had to write a query to find it. You can find it at \\server\Reports\_Adhoc\SalesByRegion.xlsx
+Dave
 
-I suggest adding this into our Performance Point Cube so I could find it at a URL.  
-
-Jonny
-
-:::
-
-
-
-
+:::  
+:::  
 ::: bad
-Figure - Bad Example: If you can't build it yourself, send an email to your boss for a number
-  
+Figure: Bad example - Can't build it yourself, sending an email to your boss for a number
 :::
- <img src="Power BI.png" alt="Power BI.png" style="margin:5px;width:808px;"> 
 
 ::: good
-Figure - Good Example: Sate your own curiosity with Power BI  
+![Figure: Good example - Sate your own curiosity with Power BI](Power BI.png)
 :::
- See Ulysses' video on how Power BI is the best tool for this: https://tv.ssw.com/6839/power-bi-finally-can-make-decisions-based-facts-ulysses-maclaren
+
+See Ulysses' video on how Power BI is the best tool for this:
+
+`youtube: https://www.youtube.com/watch?v=Y4tvF0DWEec`
+
+**Video: Power BI - Decisions based on facts: A Real World Look at Power BI (1 h 6 m)**

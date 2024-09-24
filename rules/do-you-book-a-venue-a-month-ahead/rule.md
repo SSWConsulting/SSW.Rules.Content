@@ -1,16 +1,16 @@
 ---
+seoDescription: Book a venue at least a month ahead to ensure availability and avoid last-minute changes.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you book a venue a month ahead?
 guid: e296762a-6ccb-47fe-821a-1625d57a5346
 uri: do-you-book-a-venue-a-month-ahead
 created: 2013-05-17T16:56:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 At least a month before a user group talk the room for the presentation should be booked.

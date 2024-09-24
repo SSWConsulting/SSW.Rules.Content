@@ -1,4 +1,5 @@
 ---
+seoDescription: Personalized video thumbnails help viewers quickly identify and understand your content, boosting engagement and click-throughs.
 type: rule
 title: Do you use personalized video thumbnails?
 uri: video-thumbnails
@@ -9,6 +10,8 @@ authors:
     url: https://ssw.com.au/people/florent-dezettre
   - title: Jayden Alchin
     url: https://ssw.com.au/people/jayden-alchin
+  - url: https://www.ssw.com.au/people/landon-maxwell
+    title: Landon Maxwell
 related:
   - do-you-sort-your-videos-into-playlists
   - do-you-use-untapped-keywords
@@ -28,10 +31,10 @@ Thumbnails are a great way of telling your (potential) viewers what your video i
 
 A thumbnail can draw attention by:
 
-* Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t blend in
-* Being custom ([90% of the best performing videos on YouTube have custom thumbnails](https://creatoracademy.youtube.com/page/lesson/thumbnails#strategies-zippy-link-2))
-* Using big bold titles (30 characters maximum, remember a thumbnail is small)
-* Feature your main keyword in the title
+- Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t blend in
+- Being custom ([90% of the best performing videos on YouTube have custom thumbnails](https://backlinko.com/hub/youtube/thumbnail))
+- Using big bold titles (30 characters maximum, remember a thumbnail is small)
+- Feature your main keyword in the title
 
 `youtube: https://www.youtube.com/embed/lh5WcImQzRY`
 
@@ -42,9 +45,9 @@ YouTube offers [resources to create better custom thumbnails](https://support.go
 Establishing a unique visual style for thumbnails is great for grouping similar videos together and encouraging click-throughs. This has the added benefit of increasing brand recognition and strengthening the connection between grouped content.
 
 ::: bad
-![Bad example: despite looking "trustworthy", a thumbnail automatically generated from the video is not engaging enough](custom-thumbnails-bad.png)
+![Figure: Bad example - Automatically generated thumbnails are not engaging and inconsistent](custom-thumbnails-bad.png)
 :::
 
 ::: good
-![Good example: Consistent thumbnail styles elevate branding and helps viewers identify similar content](custom-thumbnails-good.png)
+![Figure: Good example - Consistent thumbnail styles elevate branding and helps viewers identify similar content](custom-thumbnails-good.png)
 :::

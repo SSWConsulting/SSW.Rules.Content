@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you know how to screen capture a Mac using hardware capture? Learn how to overcome copy protection and connect your Mac to a scaler device for seamless recording.
 type: rule
 archivedreason: Not relevant anymore (as per Landon)
 title: Production - Do You Know How to Screen Capture a Mac Using Hardware Capture?
@@ -6,14 +7,13 @@ guid: b144c772-9c63-4f5f-8075-f56b1100909d
 uri: production-do-you-know-how-to-screen-capture-a-mac-using-hardware-capture
 created: 2014-10-29T01:51:33.0000000Z
 authors:
-- title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  - title: Raj Dhatt
+    url: https://ssw.com.au/people/raj-dhatt
 related: []
 redirects: []
-
 ---
 
-Capturing video from your mac can be done in different ways. One way is to use software that will capture the screen, and create a file that you can use in your editing software. The other is to use hardware capture that connects to the video output (i.e. HDMI) of your mac. This rule will focus on capturing video via hardware. 
+Capturing video from your mac can be done in different ways. One way is to use software that will capture the screen, and create a file that you can use in your editing software. The other is to use hardware capture that connects to the video output (i.e. HDMI) of your mac. This rule will focus on capturing video via hardware.
 
 <!--endintro-->
 
@@ -30,7 +30,6 @@ Mac’s however run into a issue with copy protection when outputting via a digi
 ::: greybox
 Pic of HDCP
 :::
-
 
 If connecting a MAC via a digital connection, you will see the above message in XSplit (and any other similar streaming/capture software).
 
@@ -56,6 +55,5 @@ Connecting the Mac to the capture devce:
 
 1. Use the Mini DP to VGA to connect to the VGA input on the scaler.
 2. Connect the HDMI 2 output to the capture device on your workstation
-
 
 If you use Windows natively on Mac (not using Parallels), you will not have any issues with HDCP protection, so you can just connect via the display port or HDMI with no issues.

@@ -1,39 +1,39 @@
 ---
+seoDescription: Do you add end screens to your YouTube videos? Learn how to keep viewers engaged by adding a call-to-action (CTA) at the end of your video.
 type: rule
-archivedreason: 
 title: Do you add end screen to your YouTube videos?
 guid: ddc1af04-cd76-4096-95aa-12626d12491f
 uri: do-you-add-end-screen-to-your-youtube-videos
 created: 2018-07-27T00:10:17.0000000Z
 authors:
-- title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  - title: Florent Dezettre
+    url: https://ssw.com.au/people/florent-dezettre
 related:
-- personalized-thumbnail
-- sort-videos-into-playlists
-- untapped-keywords
-- videos-youtube-friendly
-- optimize-videos-for-youtube
-- keep-audience-happy
-- youtube-cards
-- do-you-add-time-links-on-your-youtube-videos
-- do-you-follow-image-standard-sizes-on-social-media
+  - personalized-thumbnail
+  - sort-videos-into-playlists
+  - untapped-keywords
+  - videos-youtube-friendly
+  - optimize-videos-for-youtube
+  - keep-audience-happy
+  - youtube-cards
+  - do-you-add-time-links-on-your-youtube-videos
+  - do-you-follow-image-standard-sizes-on-social-media
 redirects: []
-
+archivedreason: null
 ---
 
 On top of [YouTube Cards](/youtube-cards), you can also add an end screen for the last seconds of your video which is a perfect time to add a CTA (Call to Action)!
 
 <!--endintro-->
 
-End screens help to avoid viewers to go away by suggesting to them the next content they can watch. The idea remains similar to cards `\*LINKBACKANDFORTH\*:` you display a CTA to your viewers so they can watch more of your content. End screens tend to work better (viewers can decide to ignore cards to keep watching the video which is okay as it increases the chance they will finish your video- increasing session time), as viewers are now done with your video and need to look for another video to watch. 
+End screens help to avoid viewers to go away by suggesting to them the next content they can watch. The idea remains similar to cards `\*LINKBACKANDFORTH\*:` you display a CTA to your viewers so they can watch more of your content. End screens tend to work better (viewers can decide to ignore cards to keep watching the video which is OK as it increases the chance they will finish your video- increasing session time), as viewers are now done with your video and need to look for another video to watch.
 
 Hold their hand by promoting up to four elements which can be:
 
-* Another video or playlist
-* A subscribe button
-* Another channel
-* A link to an approved website
+- Another video or playlist
+- A subscribe button
+- Another channel
+- A link to an approved website
 
 ![Figure: To add an end screen, go to VIDEO MANAGER | Videos | (select your video) | End screens and Annotations | Add element](end screen.png)
 

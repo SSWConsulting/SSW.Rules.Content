@@ -1,38 +1,28 @@
 ---
+seoDescription: Automate event signup processes with ease using Zapier.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to automate event signup processes?
 guid: 62526932-5a88-4d38-b130-2079885200ab
 uri: how-to-automate-event-signup-processes
 created: 2017-02-27T00:36:43.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-how-to-automate-event-signup-processes
-
+  - do-you-know-how-to-automate-event-signup-processes
 ---
 
-You should automate signup processes using [Zapier](https&#58;//zapier.com/).
-
-
-
+You should automate signup processes using [Zapier](https://zapier.com/).
 
 <!--endintro-->
 
 This is the process of a soon-to-be attendee Mr. Northwind signing up for an event:
 
-
-
-1. Mr. Northwind visits one of the event pages, e.g. [http://xamarinhackday.com/](http&#58;//xamarinhackday.com/)
-2. He presses sign up on [http://xamarinhackday.com/register/](http&#58;//xamarinhackday.com/register/)
-3. After selecting a city, he presses register now on [http://xamarinhackday.com/sydney/](http&#58;//xamarinhackday.com/sydney/)
-4. He registers for the event on Eventbrite, e.g. [https://www.eventbrite.com/e/xamarin-hack-day-sydney-tickets-20718021159?aff=erelexpmlt](https&#58;//www.eventbrite.com/e/xamarin-hack-day-sydney-tickets-20718021159?aff=erelexpmlt)
-
-
-
-
+1. Mr. Northwind visits one of the event pages. E.g. angularhackday.com
+2. After selecting a city and date, they press "Register now"
+3. Then registers for the event on Eventbrite
 
 This is the according internal process:
 

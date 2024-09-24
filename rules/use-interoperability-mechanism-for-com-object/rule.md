@@ -1,6 +1,7 @@
 ---
+seoDescription: Do you use interoperability mechanism for COM object? Use .NET's interoperability features to work with existing unmanaged code and improve performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use interoperability mechanism for COM object?
 guid: c9ef1559-48d1-43fc-b279-2bbc15d21f9d
 uri: use-interoperability-mechanism-for-com-object
@@ -8,28 +9,22 @@ created: 2018-04-25T22:10:13.0000000Z
 authors: []
 related: []
 redirects:
-- do-you-use-interoperability-mechanism-for-com-object
-
+  - do-you-use-interoperability-mechanism-for-com-object
 ---
 
-VB.NET includes the CreateObject () Method for creating the COM object. This is an old relationship between VB and COM.
+VB.NET includes the `CreateObject()` Method for creating the COM object. This is an old relationship between VB and COM.
 
 <!--endintro-->
 
-
-
-```
+```vbnet
 Sub CreateADODBConnection()
 Dim adoApp As Object
 adoApp = CreateObject("ADODB.Connection")
 End Sub
 ```
 
-
-
-
 ::: bad
-Figure: Bad code. Uses a VB technique - CreateObject() - for creating a COM object  
+Figure: Bad code - Uses a VB technique `CreateObject()` for creating a COM object  
 :::
 
 Using the CreateObject() method affects the performance of your application. The variable adoApp is of type Object and this results in "late binding"
@@ -40,16 +35,14 @@ callable wrappers for handling all interaction between the .NET client code (man
 
 To add references to COM objects:
 
-* On the Project menu, select Add Reference and then click the COM tab.
-* Select the component you want to use from the list of COM objects.
-![](UserCOM.gif)  
+- On the Project menu, select Add Reference and then click the COM tab.
+- Select the component you want to use from the list of COM objects.
 
-* To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
-use the COM object.
+  ![](UserCOM.gif)
 
+- To access to the interoperability assembly in your application, add an Imports statement to the top of the class or module in which you will
+  use the COM object.
 
 You can also create interoperability assemblies using the Tlbimp command line utility.
-
-
 
 We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Interoper) to check for this rule.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Elevate query readability and debug efficiency with TagWith's comment-based approach.
 type: rule
 title: Do you use TagWith?
 uri: use-tagwith
@@ -8,13 +9,14 @@ authors:
 created: 2021-12-13T17:20:14.009Z
 guid: 566aeac8-777f-483b-9272-d01fba4aea4d
 ---
+
 TagWith adds comments to the generated SQL. This makes it easier to identify queries when they run on the database.
 
 <!--endintro-->
 
 This is very useful when debugging issues as there are often multiple pieces of code that generate similar statements and as such it's hard to identify what is executing particular queries.
 
-```
+```cs
 var list = await context
     .Sales
     .TagWith("Get All Sales")
@@ -23,7 +25,7 @@ var list = await context
 
 Figure: Code to add tagging
 
-```
+```sql
 -- Get All Sales
 
 select * from sales

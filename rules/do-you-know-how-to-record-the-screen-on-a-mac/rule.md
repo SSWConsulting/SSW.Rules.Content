@@ -1,40 +1,32 @@
 ---
+seoDescription: Record your Mac screen using built-in functionalities or popular alternatives like Camtasia and ScreenFlow.
 type: rule
-archivedreason: 
+archivedreason: Replaced by https://ssw.com.au/rules/recording-screen
 title: Do you know how to record the screen on a Mac?
 guid: dc29102f-816e-4777-a3ac-49dad456a0ca
 uri: do-you-know-how-to-record-the-screen-on-a-mac
 created: 2014-12-08T12:03:19.0000000Z
 authors:
-- title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: []
-redirects: []
-
+  - title: Daniel Šmon
+    url: https://ssw.com.au/people/daniel-smon
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - production-do-you-know-how-to-start-recording-with-camtasia
+redirects:
+  - production-do-you-know-how-to-record-the-screen-on-a-mac
 ---
 
-If you don't have Camtasia or ScreenFlow, you can use the built-in QuickTime Player to record the screen on Mac OSX.
+If you don't have [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) or ScreenFlow, you can use the built-in Mac functionalities to record the screen on Mac OS.
 
 <!--endintro-->
 
-Open the QuickTime Player through the Applications folder, or by using search (Ctrl + Space) and typing QuickTime:
+You have 2 options:
 
-![Figure: Search for QuickTime Player](QuickTime Player.png)  
+* [How to record the screen on your Mac](https://support.apple.com/en-au/HT208721) (recommended)
+* [Record your screen in QuickTime Player on Mac](https://support.apple.com/en-ca/guide/quicktime-player/qtp97b08e666/mac)
 
-From QuickTime Player, you can start a new Screen Recording from the File menu:
-
-![Figure: QuickTime Player New Screen Recording](QuickTime new screen recording.png)  
-
-In the Screen Recording window, you an select which microphone to use if you want to record audio:
-
-![Figure: Select your audio device](QuickTime Recorder.png)  
-
-**Tip:** Alternatively, you can use [Loom](https://www.useloom.com/) , which works as a Google Chrome extension.
-
-### Related Rule 
-
-
-* [Do you know how to start recording with Camtasia?](/production-do-you-know-how-to-start-recording-with-camtasia)
+::: greybox
+**Tip:** Alternatively, you can use [Loom](https://www.useloom.com), which works as a Google Chrome extension.
+:::

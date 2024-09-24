@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use the correct input type?
 guid: 00cffd59-b110-46db-ab2d-bb70c0dbe9cf
 uri: do-you-use-the-correct-input-type
@@ -11,49 +11,35 @@ redirects: []
 
 ---
 
-HTML5 introduced a whole slew of new type properties for forms. Gone are the days of just using type="text" for every field in a form (barring buttons and checkboxes).
+HTML 5 introduced a whole slew of new type properties for forms. Gone are the days of just using `type="text"` for every field in a form (barring buttons and checkboxes).
 
 Although most of these don't do anything on desktop, on mobile devices they bring up the correct keyboard. As we move into a more mobile digital age, small things like the proper numerical keyboard or a keyboard with a quick ".com" becomes increasingly important.
 
 <!--endintro-->
 
-![](fieldtype-text.PNG)
+![](field-type-text.png)
 
-
-
+```html
+<label for="phone">Phone</label>:
+<input type="text" name="phone" />
 ```
-<label for="phone">Phone</label>: <input 
-         type="text" name="phone"></input>
-```
-
-
-
 
 ::: bad
-Figure: Bad Example – This field is using a text type and shows a standard keyboard on mobile  
+Figure: Bad example – This field is using a text type and shows a standard keyboard on mobile  
 :::
 
+![](field-type-tel.png)
 
-![](fieldtype-tel.PNG)
-
-
-
+```html
+<label for="phone">Phone</label>:
+<input type="tel" name="phone" />
 ```
-<label for="phone">Phone</label>: <input 
-         type="tel" name="phone"></input>
-```
-
-
-
 
 ::: good
-Figure: Good Example – This field is using the correct field type and shows the keypad on mobile  
+Figure: Good example – This field is using the correct field type and shows the keypad on mobile
 :::
 
-
-
 Here is a table of some useful input types and what they do:
-
 
 | Type | What |
 | --- | --- |

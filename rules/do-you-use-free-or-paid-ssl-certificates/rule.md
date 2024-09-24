@@ -1,4 +1,5 @@
 ---
+seoDescription: Secure your website with HTTPS and choose between free or paid SSL certificates to ensure online trust and credibility.
 type: rule
 title: Certificate - Do you use free or paid SSL certificates?
 uri: do-you-use-free-or-paid-ssl-certificates
@@ -23,12 +24,13 @@ When it comes to website certificates, you can choose from free or paid SSL cert
 **Free certificates** can be obtained from Certificate Authorities like Let's Encrypt, which is helping provide free and automated certificates for the web.
 
 Free certificates:
+
 - provide the same level of SSL encryption as paid certificates;
 - provide HTTPS with a green padlock on the address bar of your browser, just like paid certificates;
-- can be automatically renewed, easily.
+- can be automatically renewed easily, through programs like [Certify The Web](https://certifytheweb.com/) or [win-acme](https://www.win-acme.com/)
 
 ::: good
-![Good Example: Let's Encrypt Free Certificate Authority](letsenc.png) 
+![Good Example: Let's Encrypt Free Certificate Authority](letsenc.png)
 :::
 
 Why would anyone use **paid certificates**, then?
@@ -36,6 +38,7 @@ Why would anyone use **paid certificates**, then?
 If you are operating a big business, paid certificates give you some more assurances over free ones, and you can obtain them through reputable Certificate Authorities like Comodo, GeoTrust, Symantec, etc:
 
 Paid certificates:
+
 - gives you warranty against misuse or wrongly issued certificates;
 - are normally valid for at least 1 year or more, while free certificates are only valid for 3 months;
 - offer support for any errors or problems you have with your certificates.

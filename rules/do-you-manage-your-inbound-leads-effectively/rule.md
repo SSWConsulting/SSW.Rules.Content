@@ -1,18 +1,18 @@
 ---
+seoDescription: Do you manage your inbound leads effectively by qualifying prospects and scheduling initial meetings to drive conversions?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you manage your inbound leads effectively?
 guid: 721dbb9b-c719-4ef2-8bbe-b2019fa2d63b
 uri: do-you-manage-your-inbound-leads-effectively
 created: 2012-08-30T12:40:27.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 With the amount of money companies spend on marketing these days, it's vital that, when you receive a phone call enquiring about your services, you know how to handle it.
@@ -27,7 +27,7 @@ Once you have qualified the lead, your aim for the remainder of the call should 
 2. Send a [Pre-Initial Meeting](BriefProposal-PreInitialMeeting.docx) email.
 3. Send an appointment to the client and everyone attending the meeting (copy the email above).
 
-![Figure: Send an appointment for your initial meeting](meeting-request.jpg)  
+![Figure: Send an appointment for your initial meeting](meeting-request.jpg)
 
 If the client wants to commence ad-hoc work (e.g. Consulting) without a meeting, you should immediately:
 

@@ -6,6 +6,7 @@ uri: rules-to-better-microsoft-dynamics-marketing-mdm
 index:
 - do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-microsoft-dynamics-marketing-mdm
 - do-you-know-how-mdm-microsoft-dynamics-marketing-structures-its-contacts-and-companies
+- dynamics-365-copilot
 - do-you-know-the-different-mdm-marketing-automation-options
 - do-you-enable-unsubscribe-via-a-foolproof-subscription-centre
 - do-you-know-the-difference-between-mdm-microsoft-dynamics-marketing-user-types

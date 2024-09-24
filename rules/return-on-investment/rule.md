@@ -1,4 +1,5 @@
 ---
+seoDescription: Return on Investment (ROI) analysis helps Product Owners make informed decisions by considering the cost and value of different solutions. By quantifying the manual time spent on tasks and calculating their financial impact, teams can prioritize initiatives that drive the most business value.
 type: rule
 title: Do you understand why Return on Investment (ROI) should affect decision making?
 uri: return-on-investment
@@ -27,21 +28,21 @@ An important part of communication is to improve the Product Owner's understandi
 
 If you find out that another solution would be better, then you should clearly communicate that to the Product Owner.
 
-In the software world to calculate ROI we take a PBI and do [Business Value ÷ Effort](https://www.ssw.com.au/rules/do-you-estimate-business-value)
+In the software world to calculate ROI we take a PBI and do [Business Value ÷ Effort](/do-you-estimate-business-value)
 
 If the Product Owner still disagrees with you then it may be a good idea to [send a 'For the record' email](/send-a-for-the-record-email-when-you-disagree).
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| From:    | Piers |
-| To:      | Bob Northwind |
+| From: | Piers |
+| To: | Bob Northwind |
 | Subject: | Email signature - not working |
-::: email-content  
+::: email-content
 
-### Hi Bob,
+### Hi Bob
 
-Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
+Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour.
 
 Thanks!
 
@@ -53,16 +54,16 @@ Figure: Bad Example - ROI was not mentioned
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| From:    | Piers |
-| To:      | Bob Northwind |
+| From: | Piers |
+| To: | Bob Northwind |
 | Subject: | Email signature - not working |
-::: email-content 
+::: email-content
 
-### Hi Bob,
+### Hi Bob
 
-Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
+Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour.
 
 **ROI Consideration -** As per our conversation, **I have to make these changes every month for 12 users**. Therefore, for future changes to email signatures, let's wait until I implement the new 3rd party solution I am working on. This will give better ROI because I won't need to do any further wasted work.
 
@@ -76,31 +77,31 @@ Figure: OK Example - ROI is mentioned
 :::
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| From:    | Piers |
-| To:      | Bob Northwind |
+| From: | Piers |
+| To: | Bob Northwind |
 | Subject: | Email signature - not working |
-::: email-content 
+::: email-content
 
-### Hi Bob,
+### Hi Bob
 
-Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour. 
+Done - I have fixed the email signature by changing the file server's HTML and it took me 1 hour.
 
-...**but I will have to do it for each of our 12 users once a month**. 
+...**but I will have to do it for each of our 12 users once a month**.
 
 The choices:
 
-**Option A** - Continue manually adding each email signature, every month. 
+**Option A** - Continue manually adding each email signature, every month.
 
-* Maintenance: SysAdmin x 12 hours x $200/hr = $2,400 per month
-* Total cost = $28,800 per year
+- Maintenance: SysAdmin x 12 hours x $200/hr = $2,400 per month
+- Total cost = $28,800 per year
 
 **Option B (recommended)** - Purchase and configure an email signature system.
 
-* Configure: SysAdmin x 16 hours x $200/hr = $3,200 flat fee
-* License: 1 License fee x $2,000 = $2,000 flat fee
-* Total cost = $5,200 flat fee
+- Configure: SysAdmin x 16 hours x $200/hr = $3,200 flat fee
+- License: 1 License fee x $2,000 = $2,000 flat fee
+- Total cost = $5,200 flat fee
 
 Thanks!
 
@@ -112,4 +113,3 @@ Figure: Good Example - ROI is mentioned and quantified
 :::
 
 **Note:** If fixing the email signatures had been a huge task then it would have been better for Piers to have a conversation with Bob before he implemented the fix.
-

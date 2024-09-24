@@ -1,4 +1,5 @@
 ---
+seoDescription: Changes made to website page - [original content] → [new updated content].
 type: rule
 title: Do you include the "before" and "after" when you make a content change?
 uri: when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
@@ -13,7 +14,8 @@ created: 2009-03-31T02:58:51.000Z
 archivedreason: null
 guid: dca72e51-0017-4600-ab30-d85d836f4ee4
 ---
-Your boss asks you to change a page on your website. You discuss it with your team and come up with the changes. Wouldn't it be nice if your boss could see exactly what was changed? 
+
+Your boss asks you to change a page on your website. You discuss it with your team and come up with the changes. Wouldn't it be nice if your boss could see exactly what was changed?
 
 <!--endintro-->
 

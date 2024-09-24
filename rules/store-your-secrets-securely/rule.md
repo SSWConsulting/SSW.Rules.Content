@@ -1,34 +1,34 @@
 ---
 type: rule
 title: Do you store your secrets securely?
+seoDescription: Do you securely store your secrets and avoid common pitfalls?
 uri: store-your-secrets-securely
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
-- title: Bryden Oliver
-  url: https://ssw.com.au/people/bryden-oliver
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Andrew Lean
-  url: https://ssw.com.au/people/andrew-lean
-- title: William Liebenberg
-  url: https://www.ssw.com.au/people/william-liebenberg
-- title: Piers Sinclair
-  url: https://www.ssw.com.au/people/piers-sinclair
-related: []
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Bryden Oliver
+    url: https://ssw.com.au/people/bryden-oliver
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
+  - title: Andrew Lean
+    url: https://ssw.com.au/people/andrew-lean
+  - title: William Liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
+  - title: Piers Sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
+related:
+  - share-your-developer-secrets-securely
 redirects:
   - do-you-store-your-secrets-securely
 created: 2016-04-28T19:19:40.000Z
 archivedreason: null
 guid: 57dc15ba-605a-4a71-8b0e-d9f1551b9fc0
-
 ---
-
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
 
-These secrets **must not** be stored in source control in plain text – it is insecure by nature, and basically means that it is sitting.
+These secrets **must not** be stored in source control. It is insecure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.
 
 <!--endintro-->
 
@@ -41,10 +41,12 @@ There are many options for managing secrets in a secure way:
 #### Store production passwords in source control
 
 Pros:
+
 * Minimal change to existing process
 * Simple and easy to understand
 
 Cons:
+
 * Passwords are readable by anyone who has either source code or access to source control
 * Difficult to manage production and non-production config settings
 * Developers can read and access the production password
@@ -79,7 +81,7 @@ Figure: Bad practice - Overall rating: 2/10
 
 ::: greybox
 
-#### Use Windows Identity instead of username/ password
+#### Use Windows Identity instead of username / password
 
 Pros:
 
@@ -96,7 +98,7 @@ Cons:
 
 :::
 ::: bad
-Figure: Bad practice - Overall rating: 4/10  
+Figure: Bad practice - Overall rating: 4/10
 :::
 
 ::: greybox
@@ -117,7 +119,7 @@ Cons:
 :::
 
 ::: bad
-Figure: Bad practice - Overall rating: 1/10  
+Figure: Bad practice - Overall rating: 1/10
 :::
 
 ### Good Practices
@@ -138,12 +140,12 @@ Cons:
 
 :::
 ::: good
-Figure: Good practice - Overall rating: 8/10  
+Figure: Good practice - Overall rating: 8/10
 :::
 
 ::: greybox
 
-#### Use Enterprise Secret Management Tool – LastPass/ Hashicorp Vault/ etc..
+#### Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc
 
 Pros:
 
@@ -177,12 +179,12 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 8/10  
+Figure: Good practice - Overall rating 8/10
 :::
 
 ::: greybox
 
-#### Use Azure KeyVault
+#### Use Azure Key Vault
 
 See the [SSW Rewards](https://www.ssw.com.au/ssw/Rewards/) mobile app repository for how SSW is using this in a production application: <https://github.com/SSWConsulting/SSW.Rewards>
 
@@ -193,6 +195,7 @@ Pros:
 * Dynamically cycles secrets
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
 * Can be used to inject secrets in your CI/CD pipelines for non-cloud solutions
+* Can be used by on-premise applications (more configuration - see [Use Application ID and X.509 certificate for non-Azure-hosted apps](https://learn.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-7.0#use-application-id-and-x509-certificate-for-non-azure-hosted-apps))
 
 Cons:
 
@@ -200,7 +203,7 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 9/10  
+Figure: Good practice - Overall rating 9/10
 :::
 
 ::: greybox
@@ -210,10 +213,11 @@ Figure: Good Practice - Overall rating 9/10
 The easiest way to manage secrets is not to have them in the first place. Azure Managed Identities allows you to assign an Azure AD identity to your application and then allow it to use its identity to log in to other services. This avoids the need for any secrets to be stored.
 
 Pros:
+
 * Best solution for cloud (Azure) solutions
 * Enterprise grade
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
-* Roles can be ugranted to your application your CI/CD pipelines at the time your services are deployed
+* Roles can be granted to your application your CI/CD pipelines at the time your services are deployed
 
 Cons:
 
@@ -223,18 +227,17 @@ Cons:
 
 :::
 ::: good
-Figure: Good Practice - Overall rating 10/10
+Figure: Good practice - Overall rating 10/10
 :::
 
 ### Resources
 
 The following resources show some concrete examples on how to apply the principles described:
 
-* https://github.com/brydeno/bicepsofsteel
-* https://docs.microsoft.com/en-us/azure/key-vault/general/best-practices
-* https://docs.microsoft.com/en-us/azure/key-vault/general/security-features
-* https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows
-* https://docs.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15
-* https://docs.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x
-* https://www.youtube.com/embed/-aTlON-UCVM
-
+* [github.com/brydeno/bicepsofsteel](https://github.com/brydeno/bicepsofsteel)
+* [Microsoft Learn | Best practices for using Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/best-practices)
+* [Microsoft Learn | Azure Key Vault security](https://learn.microsoft.com/en-us/azure/key-vault/general/security-features)
+* [Microsoft Learn | Safe storage of app secrets in development in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
+* [Microsoft Learn | Connection strings and configuration files](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15)
+* [Microsoft Learn | Use managed identities to access App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x&pivots=framework-dotnet)
+* [Stop storing your secrets with Azure Managed Identities | Bryden Oliver](https://www.youtube.com/watch?v=F9H0txgz0ns)

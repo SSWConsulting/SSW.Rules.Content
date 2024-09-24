@@ -1,24 +1,24 @@
 ---
+seoDescription: Do you use "using" declaration instead of explicitly disposing?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use "using" declaration instead of use explicitly "dispose"?
 guid: 5307acc7-e011-4c7e-905d-ae604f32e5be
 uri: use-using-statement-instead-of-use-explicitly-dispose
 created: 2018-04-26T20:56:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-use-using-declaration-instead-of-use-explicitly-dispose
-
+  - do-you-use-using-declaration-instead-of-use-explicitly-dispose
 ---
 
-Don't explicitly use "dispose" to close objects and dispose of them, the "using" statement will do all of them for you. It is another awesome tool that helps reduce coding effort and possible issues. 
+Don't explicitly use "dispose" to close objects and dispose of them, the "using" statement will do all of them for you. It is another awesome tool that helps reduce coding effort and possible issues.
 
 <!--endintro-->
 
-```
+```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {
   // We must declare the variable outside of the using block
@@ -45,7 +45,7 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 Figure: Bad example of dispose of resources
 :::
 
-```
+```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {
   // We must declare the variable outside of the using block
@@ -70,10 +70,10 @@ static int WriteLinesToFile(IEnumerable<string> lines)
 ```
 
 ::: bad
-Figure: Bad example of dispose of resources 
+Figure: Bad example of dispose of resources
 :::
 
-```
+```csharp
 static int WriteLinesToFile(IEnumerable<string> lines)
 {
   using var file = new System.IO.StreamWriter("WriteLines2.txt");
@@ -95,10 +95,10 @@ static int WriteLinesToFile(IEnumerable<string> lines)
    // file is disposed here
 }
 ```
+
 ::: good
 Figure: Good example of dispose of resources, using c# 8.0 using declaration  
 :::
-
 
 ::: greybox
 **Tip: Did you know it is not recommended to dispose HttpClient?**

@@ -1,18 +1,18 @@
 ---
+seoDescription: A consistent .NET solution structure is crucial for a well-organized project. Ensure that your solution and project names are consistent to improve maintainability and collaboration.
 type: rule
-archivedreason: 
+archivedreason: Same as https://www.ssw.com.au/rules/do-you-have-a-consistent-net-solution-structure/
 title: Do you review the Solution and Project names?
 guid: 90e5d8a3-a91f-44e0-bca9-d1d6e098f775
 uri: do-you-review-the-solution-and-project-names
 created: 2012-03-16T07:55:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
 ---
 
 The name of your solution and the names of the projects in your solution should be consistent.

@@ -1,18 +1,16 @@
 ---
 type: main
 index:
-- management
+- artificial-intelligence
 - communication
-- software-development
-- websites
-- design-and-presentation
+- client-engagement
+- company-operations
+- project-delivery
+- software-engineering
 - infrastructure-and-networking
-- application-lifecycle-management-alm
-- products
+- design
 - marketing-and-video
-- reporting-solutions
 - others
-- software
 
 ---
 

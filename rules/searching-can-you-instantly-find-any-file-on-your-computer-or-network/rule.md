@@ -1,4 +1,5 @@
 ---
+seoDescription: Find files on your computer or network instantly with built-in search functionality and third-party tools.
 type: rule
 title: Searching - Do you know how to instantly find any file on your computer or network?
 uri: searching-can-you-instantly-find-any-file-on-your-computer-or-network
@@ -16,9 +17,8 @@ Often you will want to quickly find a file on your computer or local network. W
 
 <!--endintro-->
 
-
 If you are using Windows, desktop search is integrated within the operating system. This can either be done from the **Start Menu**, **Cortana** or **File Explorer**. Additionally, third-party tools such as [Everything](https://www.voidtools.com/) can be installed and used for fast searching of files on your drives.
 
 If you are using a Mac, **Spotlight Search** 🔎 is located on the top-right corner or **Finder**.
 
-If you are using Office 365 (Teams, Delve, OneDrive, Dynamics) you can use [SharePoint Search](https://www.ssw.com.au/rules/do-you-know-what-are-the-sharepoint-features-our-customers-love) to easily find your documents, profiles, and web pages.
+If you are using Office 365 (Teams, Delve, OneDrive, Dynamics) you can use [SharePoint Search](/do-you-know-what-are-the-sharepoint-features-our-customers-love) to easily find your documents, profiles, and web pages.

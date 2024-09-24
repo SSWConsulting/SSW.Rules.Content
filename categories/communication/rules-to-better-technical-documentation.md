@@ -4,50 +4,52 @@ title: Rules to Better Technical Documentation
 guid: 961f2035-1540-4425-9b29-0d6273ac0726
 uri: rules-to-better-technical-documentation
 index:
-- do-you-avoid-duplicating-content
-- safety-step-when-deleting-context
-- web-content-do-you-write-in-the-newsreader-and-eye-witness-style
-- use-the-right-capitalization
-- how-to-capitalize-titles
-- highlight-items-in-your-document
-- hide-sensitive-information
-- include-version-numbers-in-your-file
-- how-to-add-quotations
-- avoid-using-unnecessary-words
-- make-numbers-more-readable
-- address-formatting
-- refer-consistently-throughout-your-document
-- are-you-careful-with-your-spelling-grammar-and-punctuation
-- use-digits-instead-of-words
-- use-quotation-mark-for-controls
-- use-correct-symbols-when-documenting-instructions
-- use-the-right-order-of-instructions
-- screenshots-do-you-use-balloons-instead-of-a-wall-of-text
-- add-branding-to-screenshots
-- use-setup-and-set-up-correctly
-- use-will-not-should
-- when-to-use-log-on-log-in-and-sign-in
-- use-try-again-instead-of-retry
-- use-taskbar-instead-of-task-bar
-- use-cannot-and-website-instead-of-separated-words
-- email-should-be-email-without-the-hyphen
-- commas-and-full-stops-always-should-have-1-space-after-them
-- avoid-using-that-when-its-not-needed
-- avoid-full-stops-in-bullet-point-lists
-- do-you-know-when-to-versus-and-verses
-- do-you-use-note-instead-of-nb
-- use-active-phrases
-- prefix-on-blog-posts-titles
-- do-you-know-all-the-symbols-on-the-keyboard
-- avoid-using-gendered-pronouns
-- use-lowercase-after-a-dash
-- end-user-documentation
-- use-generic-consistent-names-on-examples
-- relevant-words-on-links
-- do-you-write-the-word-email-in-the-correct-format
-- scrum-should-be-capitalized
-- keep-your-urls-clean
-- format-new-lines
-- how-to-name-sharepoint-documents
-
+  - rule
+  - safety-step-when-deleting-content
+  - do-you-avoid-duplicating-content
+  - avoid-using-unnecessary-words
+  - use-bad-and-good-examples
+  - avoid-repetition
+  - screenshots-tools
+  - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
+  - add-branding-to-screenshots
+  - have-a-strong-header-and-footer
+  - hide-sensitive-information
+  - borders-around-white-images
+  - distinguish-keywords-from-content
+  - placeholder-for-replaceable-text
+  - style-quotations
+  - use-digits-instead-of-words
+  - make-numbers-more-readable
+  - address-formatting
+  - descriptive-links
+  - keep-your-urls-clean
+  - how-to-capitalize-titles
+  - use-the-right-capitalization
+  - scrum-should-be-capitalized
+  - are-you-careful-with-your-spelling-grammar-and-punctuation
+  - avoid-common-mistakes
+  - avoid-acronyms
+  - use-will-not-should
+  - user-authentication-terms
+  - use-try-again-instead-of-retry
+  - commas-and-full-stops-always-should-have-1-space-after-them
+  - use-lowercase-after-a-dash
+  - refer-consistently-throughout-your-document
+  - use-correct-symbols-when-documenting-instructions
+  - use-emojis
+  - format-new-lines
+  - use-quotation-mark-for-controls
+  - use-generic-consistent-names-on-examples
+  - create-friendly-short-urls
+  - how-to-name-documents
+  - show-version-numbers
+  - remove-spaces-from-your-folders-and-filename
+  - document-the-job
+  - end-user-documentation
+  - architectural-decision-records
+  - prefixes
+  - do-you-know-all-the-symbols-on-the-keyboard
+  - copy-text-from-image
+  - support-send-links
 ---

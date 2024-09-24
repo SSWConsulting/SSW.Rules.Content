@@ -1,4 +1,5 @@
 ---
+seoDescription: All team members must update their tasks with status and remaining hours before attending the daily Scrum meeting to ensure an accurate burn-down rate.
 type: rule
 title: Meeting - Do you update your tasks before the Daily Scrum?
 uri: meeting-do-you-update-your-tasks-before-the-daily-scrum
@@ -13,7 +14,8 @@ created: 2010-04-07T05:21:16.000Z
 archivedreason: null
 guid: 7ba991bc-384e-48ad-919e-09cb5b67472c
 ---
-All team members must update their tasks with  status, (and remaining hours if you are estimating tasks) prior to the daily Scrum meeting.
+
+All team members must update their tasks with status, (and remaining hours if you are estimating tasks) prior to the daily Scrum meeting.
 
 <!--endintro-->
 
@@ -24,10 +26,10 @@ All team members must update their tasks with  status, (and remaining hours if y
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning Meeting](/do-you-know-what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
-* Scrum Meeting (Daily standup - described on this page)
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+- [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+- [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
+- [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 :::
 

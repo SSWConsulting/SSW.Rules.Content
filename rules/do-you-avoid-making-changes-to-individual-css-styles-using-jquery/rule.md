@@ -1,16 +1,16 @@
 ---
+seoDescription: Avoid making changes to individual CSS styles using jQuery, instead use CSS classes and utilize addClass() and removeClass() methods for dynamic styling.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid making changes to individual CSS styles using jQuery?
 guid: 2adca90a-3482-44f5-a3d4-06391521cf0a
 uri: do-you-avoid-making-changes-to-individual-css-styles-using-jquery
 created: 2012-07-24T18:13:03.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
-
 ---
 
 We all know that jQuery is very powerful and can do a lot of stuff, including style changes. However, this practice is bad.

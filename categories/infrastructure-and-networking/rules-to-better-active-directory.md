@@ -13,6 +13,13 @@ index:
 - do-you-use-group-policy-to-enable-hibernate-option
 - do-you-use-separate-administrator-account
 - run-services-on-their-own-ad-accounts
+- check-ad-security-with-pingcastle
+- leaving-employee-standard
+- delete-computer-accounts-from-ad
+- audit-ad
+- domain-controller-auditing
+- laps-local-admin-passwords
+- run-rsat-from-non-domain-computer
 
 ---
 

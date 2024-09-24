@@ -1,71 +1,88 @@
 ---
+seoDescription: Separate your Angular components into presentational and container ones to simplify application development and improve maintainability.
 type: rule
-archivedreason: 
-title: Practices - Do you know to separate your Angular components into container and presentational components?
-guid: 8beefebf-8aef-4821-b965-16c4a9923443
+title: Practices - Do you know to separate your Angular components into
+  container and presentational?
 uri: separate-your-angular-components-into-container-and-presentational
-created: 2017-01-03T16:52:00.0000000Z
 authors:
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
-- title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  - title: Duncan Hunter
+    url: https://ssw.com.au/people/duncan-hunter
+  - title: Gabriel George
+    url: https://ssw.com.au/people/gabriel-george
+  - title: Chris Clement
+    url: https://www.ssw.com.au/people/chris-clement/
 related: []
 redirects:
-- practices-do-you-know-to-separate-your-angular-components-into-container-and-presentational-components
-
+  - practices-do-you-know-to-separate-your-angular-components-into-container-and-presentational-components
+created: 2017-01-03T16:52:00.000Z
+archivedreason: null
+guid: 8beefebf-8aef-4821-b965-16c4a9923443
 ---
 
-There are two types of components 'dumb' and 'smart' components. Dumb components normally have no dependencies and no logic and just have @Input() and @Output(). Smart components are their parent components that would have multiple dependencies and logic but not necessarily an HTML template.
+There are 2 general types of components according its complexity: presentational and smart components. Presentational component is a component that is purely driven by its input data. Smart component on the other hand, is more complex - it can have business logic, dependencies, and also store its own state.
 
 <!--endintro-->
 
-Aiming to keep the components that display data 'dumb' makes them much easy to reuse in your application and less buggy, but many people do not like the terms smart and dumb components as a dumb component may just have less logic versus none. Many people and SSW included are preferring the terms container and presentational components for these reasons.
+Aiming to have more presentational components makes building applications easier; it provides high reusability, and they are easier to debug since they have the same output for the same input.
 
+Smart components are harder to debug since they now have dependencies and state that need to be taken into account when debugging.
 
+```typescript
+// company-list-table.component.ts
 
-```
-company-list-table.component.ts @Component({
-    selector: 'fbc-company-list-table',
-    template: `
-     <table id="company-list-table" class="table table-hover table-striped company-list-table-component">
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Phone</th>
-                    <th>Email</th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-               <tr class="item" *ngFor="let company of companies">
-                    <td>{{company.name}}</td>
-                    <td>{{company.phone}}</td>
-                    <td>{{company.email}}</td>
-                    <td class="button-column">
-                        <button routerLink="/company/detail/{{company.id}}" class="btn btn-default" >Details</button>
-                        <button routerLink="/company/edit/{{company.id}}" class="btn btn-default" >Edit</button>
-                        <button (click)="confirmDelete(company)" class="btn btn-default">Delete</button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    `
+@Component({
+  selector: "fbc-company-list-table",
+  template: `
+    <table
+      id="company-list-table"
+      class="table table-hover table-striped company-list-table-component"
+    >
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Phone</th>
+          <th>Email</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="item" *ngFor="let company of companies">
+          <td>{{ company.name }}</td>
+          <td>{{ company.phone }}</td>
+          <td>{{ company.email }}</td>
+          <td class="button-column">
+            <button
+              routerLink="/company/detail/{{ company.id }}"
+              class="btn btn-default"
+            >
+              Details
+            </button>
+            <button
+              routerLink="/company/edit/{{ company.id }}"
+              class="btn btn-default"
+            >
+              Edit
+            </button>
+            <button (click)="confirmDelete(company)" class="btn btn-default">
+              Delete
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+     
+  `,
 })
 export class CompanyListTableComponent {
-    @Input() companies: Company[];
-    @Output() deleteCompanySelected = new EventEmitter<number>();
-     
-    confirmDelete(company: Company) {
-        this.deleteCompanySelected.emit(company.id);
-    }
+  @Input() companies: Company[];
+  @Output() deleteCompanySelected = new EventEmitter<number>();
+
+  confirmDelete(company: Company) {
+    this.deleteCompanySelected.emit(company.id);
+  }
 }
 ```
 
-
-
-
 ::: good
-Figure: Good example of a presentational component with no injected dependencies
-
+Figure: Good example - A presentational component with no injected dependencies
 :::

@@ -1,4 +1,5 @@
 ---
+seoDescription: Turn off database mirroring before upgrading TFS databases to ensure a smooth and headache-free process.
 type: rule
 archivedreason: Duplicated of /turn-off-database-mirroring-before-upgrading-your-tfs-databases
 title: Do you turn off Database Mirroring before Upgrading your TFS databases?
@@ -8,9 +9,8 @@ created: 2015-08-12T16:10:38.0000000Z
 authors: []
 related: []
 redirects:
-- do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
-- do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases1
-
+  - do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
+  - do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases1
 ---
 
 To avoid headaches while upgrading the TFS database schemas, you should manually turn off database mirroring prior to running the Verify step of your configuration.

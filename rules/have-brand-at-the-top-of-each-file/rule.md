@@ -1,17 +1,17 @@
 ---
+seoDescription: Summary of SSW's User class to handle user preference and login information with copyright declaration.
 type: rule
-archivedreason: 
+archivedreason: We don't do this anymore
 title: Comments - Do you have brand at the top of each file?
 guid: f758f222-b220-47f5-aac5-cabe8401ad2f
 uri: have-brand-at-the-top-of-each-file
 created: 2018-04-23T23:39:43.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- comments-do-you-have-brand-at-the-top-of-each-file
-
+  - comments-do-you-have-brand-at-the-top-of-each-file
 ---
 
 The brand is the summary of our company.
@@ -20,18 +20,10 @@ The brand is the summary of our company.
 
 The brand should contain the copyright declaration.
 
-
-::: bad
-Bad header comments
-
-:::
-
-
-
-```
+```vs
 ///<summary>
 ///'----------------------------------------------
-/// Copyright 2017 Superior Software for Windows 
+/// Copyright 2017 SSW 
 /// www.ssw.com.au All Rights Reserved.
 ///'----------------------------------------------
 /// Comment: User class to handle user preference and login information
@@ -41,18 +33,6 @@ Bad header comments
 ///'----------------------------------------------
 ```
 
-
-
-
-
 ::: good
 Good header comments
-
 :::
-
-
-
-
-```
-/// Copyright 2017 www.ssw.com.au
-```

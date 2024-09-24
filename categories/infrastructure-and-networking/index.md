@@ -14,6 +14,7 @@ index:
 - rules-to-better-skype-for-business-formerly-lync
 - rules-to-better-presentation-pcs
 - rules-to-better-security
+- rules-to-better-security-end-users
 - rules-to-better-cloud-security
 - rules-to-better-sharepoint
 - rules-to-better-sharepoint-for-end-users
@@ -27,11 +28,15 @@ index:
 - rules-to-better-windows-servers
 - rules-to-better-exchange-server
 - rules-to-better-pcs
+- rules-to-better-microsoft-surface
+- rules-to-better-zendesk
+- rules-to-better-control4
 - rules-to-better-system-administrators
 - rules-to-better-backups
 - rules-to-better-whatsup-gold
 - rules-to-better-office-365
 - rules-to-better-automation
+- rules-to-better-access-databases
 
 ---
 

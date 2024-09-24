@@ -1,4 +1,5 @@
 ---
+seoDescription: Azure AD Connect password writeback enables users to reset on-premises passwords from the cloud.
 type: rule
 title: Security - Do you have Password Writeback enabled?
 uri: do-you-have-password-writeback-enabled
@@ -23,7 +24,6 @@ You can read more about Password Writeback from the Microsoft Documentation: htt
 When setting up Azure AD Connect, you need to set the "Password Writeback" option:
 
 ![](enablepasswordwriteback.png)
-
 
 ::: good
 Good Example: Setting up Password Writeback in Azure AD Connect  

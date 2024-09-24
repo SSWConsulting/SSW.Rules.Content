@@ -1,17 +1,17 @@
 ---
+seoDescription: Data doesn't allow nulls in text fields to simplify queries and reduce complexity.
 type: rule
-archivedreason: 
+archivedreason:
 title: Data - Do you not allow Nulls in text fields?
 guid: c1b019ad-1c24-4960-9d0a-bf4e0924d8e5
 uri: do-not-allow-nulls-in-text-fields
 created: 2019-11-23T00:18:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- data-do-you-not-allow-nulls-in-text-fields
-
+  - data-do-you-not-allow-nulls-in-text-fields
 ---
 
 NULLs complicate your life. To avoid having to constantly differentiate between empty strings and NULLs, you should avoid storing NULLS if you can.
@@ -22,18 +22,20 @@ Why? Well, what is wrong with this?
 ```sql
 SELECT ContactName FROM Customer WHERE ContactName <> ''
 ```
-**Figure: Selecting on empty string** 
+
+**Figure: Selecting on empty string**
 
 Nothing if your data is perfect, but if you allow Nulls in your database, then statements like this will give you unexpected results. To get it working you would have to add the following to the last line:
 
 ```sql
 WHERE ContactName <> '' OR ContactName Is Null
 ```
+
 **Figure: Allowing null strings makes queries more complex**
 
 What about only allowing empty strings? Well, we choose to block Nulls because it is a lot easier to check off a check box in SQL Server Management Studio than it is to put a constraint on every field that disallows empty string ('').
 
-![Figure: Don't allow Nulls](SqlTableWithNullValue.PNG)  
+![Figure: Don't allow Nulls](sql-table-with-null-value.png)
 
 However, you should always be aware that Nulls and empty strings are totally different, so if you absolutely have to have them, they should be used consistently. In the ANSI SQL-92 standard, an empty string ('') is never equated to Null, because empty string can be significant in certain applications.
 
@@ -47,7 +49,7 @@ However, you should always be aware that Nulls and empty strings are totally dif
 
 For example, you have Address1 and Address2 in your database, a Null value in Address2 means you don't know what the Address2 is, but an empty string means you know there is no data for Address2. You have to use a checkbox on the UI to explicitly distinguish Null value and empty string:
 
-![Figure: A check box is required if you want to allow user to use Null value on the UI](NullValueOnUI.jpg)  
+![Figure: A check box is required if you want to allow user to use Null value on the UI](null-value-on-ui.jpg)
 
 Some people are not going to like this rule, but this is how it works in Oracle and Access:
 

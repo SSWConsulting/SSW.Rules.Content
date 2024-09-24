@@ -1,59 +1,120 @@
 ---
+seoDescription: Power BI version control walkthrough for business users and developers. Learn how to edit and commit reports using Power BI Service or Power BI Desktop, and deploy changes to production workspaces.
 type: rule
-archivedreason: 
 title: Do you use version control with Power BI?
-guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 uri: do-you-use-version-control-with-power-bi
-created: 2017-03-29T06:06:12.0000000Z
 authors:
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
-- title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
-- title: Chris Beaver
-  url: https://ssw.com.au/people/chris-beaver
+  - title: Manu Gulati
+    url: https://ssw.com.au/people/manu-gulati
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
+  - title: Kosta Madorsky
+    url: https://ssw.com.au/people/kosta-madorsky
 related:
-- do-you-know-the-best-tool-to-migration-from-tfvc-to-git
+  - do-you-know-powerbi-version-control-features
+  - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 redirects: []
-
+created: 2017-03-29T06:06:12.000Z
+archivedreason: null
+guid: 80cbeca6-d33a-4ad3-8127-d3ae46fc5f00
 ---
 
-Developers in 2018 have better control history than before.
+Power BI reports are generally published directly into the Power BI Service. But doing so has many drawbacks. For example, you **can't** see:
 
-Prior to the April 2016 update, storing a Power BI Report in version control could be prohibitive, as pbix files contain the dataset and report definition, which in some cases can be gigabytes in size.
+- What was changed
+- Who made the change
+- When the change was made
 
-The April 2016 update features the ability to export a Power BI Report template (pbit) file, which contains the report definition minus the dataset.
-
-If the pbix file size is not too large, you may choose to store it directly in source control. When a pbix file is very large, then it may be more economical to store the template (pbit file) only in source control.  
-
-Here’s the pros and cons we’ve found for each file type:
+In other words, the history of the changes isn't recorded anywhere.
 
 <!--endintro-->
 
-**Template pbit files** are small, but when you open a template in Power BI Desktop, the dataset needs to reload.  If the changes you need to make to a report are small, waiting for a dataset reload can be frustrating (e.g. waiting 10 minutes for the reload to do a one-minute change). The Power BI pbix file will still be required to publish to Power BI Online.
-
-**Power BI pbix files** can get very large, but when you open them, the data is there and you can immediately make changes to the report. However, if your workplace is geographically dispersed, then upload and download times to/from source control will be a consideration.
-
-Having a mixed set of rules for storing different file types based on their size will quickly get messy if you have a number of reports, so make a decision to go one way or the other based on your environment.
-
-::: bad  
-![Figure: Bad Example – Mixed Template and Power BI Files in Source Control](PowerBI-SourceControl-BadExample.png)  
+::: bad
+![Figure: Bad example - There is no way to see version history of a report in Power BI Service](bad-example-no-history-in-powerbi-service-1.png)
 :::
 
-::: good  
-![Figure: Good Example – Single File Type in Source Control](PowerBI-SourceControl-GoodExample.png)  
+::: bad
+![Figure: Bad example - Even the report settings do not show its version history](bad-example-no-history-in-powerbi-service-2.png)
 :::
 
-To export a template from Power BI Desktop, select File | Export | Power BI template from the menu, enter a description, file name and click save, as per the below figures.
+::: bad
+![Figure: Bad example - Option 1: Publish reports directly to Power BI Service; however it does not record the history of changes](bad-example-publish-report-directly.png)
+:::
 
-![Figure: Exporting a Power BI Template from Power BI Desktop](PowerBI-SourceControl-1-3.jpg)  
- 
-Add comments describing the changes made to the report and append to these, in descending order, each time a change is made. This way the history will be at hand each time the template is opened.
+The correct method is the **PBIP method**, which is: 
 
-![Figure: Enter a Description for the Template](PowerBI-SourceControl-2-3.jpg)  
+1. Convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control
+2. Use Power BI's Git integration to deploy reports
+   * Requires either Fabric capacity or a Power BI Premium per User license
+   * Currently only integrates with Git repos in Azure DevOps
 
-![Figure: Enter a File Name and Save](PowerBI-SourceControl-3-3.jpg)  
+Read the rule on [Power BI version control features](/do-you-know-powerbi-version-control-features) to get a background on this. Note: This does not work for Power BI dashboards. Dashboards do not have a PBIP or PBIX file associated and are only available on Power BI service, and so cannot have any source control or version history.
 
-Save your pbix file to the same folder as the template above, you’ll need these if you want to publish your report to Power BI Online.
+When a report is saved in the PBIP format, Power BI decomposes it into multiple text files. This allows version control to identify the parts of the report that were changed. Additionally, Power BI saves the data associated with the report separately in a file called cache.abf. This file should not be saved in version control.
 
-If you’ve decided to store template pbit files in source control, ensure you’ve set your source control application to ignore \*.pbix files.
+::: good
+![Figure: Good example - Option 2: PBIP method - the PBIP format allows comparing changes made to reports by decomposing it into multiple text files](good-example-compare-changes-2.png)
+:::
+
+::: good
+![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
+:::
+
+Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats. 
+
+### Editing and Committing Reports
+### Business Users (Use Power BI Service)
+
+If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
+
+`youtube: https://www.youtube.com/watch?v=dlOK6QBEyQo`
+**Video: Power BI Source Control for the Business User (timebox 8 min)**
+
+The entire process is done on Power BI Service (web) (except the step to create a pull request). At a high-level the steps are:
+
+1. Create a private workspace corresponding to the workspace where your report resides (1 time)
+2. Connect the private workspace to repo (1 time)
+3. Create new feature branch off ‘main’ (**every time**)
+4. Setup dataset connections (1 time) (lookup your password manager or take help from SysAdmins or Power BI Admins)
+5. Edit the report in Power BI Service (**every time**)
+6. Commit report to feature branch (**every time**)
+7. Create PR (pull request) to merge feature branch into ‘main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
+8. Get a Power BI Admin to deploy the report (**every time**)
+9. Next time, create new feature branch on same workspace
+
+If you want to update the report's data model or want more sophisticated editing features, you will need to edit the report in Power BI Desktop instead. The next section explains how you can do so.
+
+### Developers (Use Power BI Desktop)
+
+If you're a developer, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.
+
+`youtube: https://www.youtube.com/watch?v=MpedXah-Hv0`
+**Video: Power BI Source Control for Developers (timebox 5 min)**
+
+The process is done on one's PC. You will need to download Power BI Desktop. At a high-level the steps are:
+
+1. Setup a local repository on your PC (1 time)
+2. Create new feature branch off ‘origin/main’ (**every time**)
+3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option (1 time)
+4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset. (**every time**)
+
+   **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Please refresh the report to download the data.
+
+5. Setup dataset connections for that report (1 time) (lookup your password manager or take help from SysAdmins or Power BI Admins)
+6. Edit report in Power BI Desktop (**every time**)
+7. Commit report to feature branch (**every time**)
+8. Create PR to merge feature branch into ‘origin/main’ on Azure DevOps and get it reviewed by a Power BI Admin (**every time**)
+9. Get a Power BI Admin to deploy the report (**every time**)
+10. If you are creating a new report in Power BI Desktop, please save the report as a **.pbip** report (and not .pbix). You can do so via File | Save as | Select .pbip as the file type
+
+### Power BI Admins - Deploying Reports (Use Power BI Service)
+
+Deployments would typically be done by Power BI Admins. You as a dev generally won't do this directly unless you're responsible for a workspace yourself.
+
+Reports can be deployed to a production workspace on Power BI Service by simply syncing the workspace with the 'main' branch in the Reports repository.
+
+![Figure: How to sync changes into a workspace in Power BI Service, effectively deploying reports](SyncChanges.png)

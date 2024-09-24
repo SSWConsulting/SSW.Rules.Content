@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you present the user with a nice error screen when an unexpected situation occurs on your ASP.NET Core application?
 type: rule
 title: Do you present the user with a nice error screen?
 uri: do-you-present-the-user-with-a-nice-error-screen
@@ -30,7 +31,7 @@ Your users should never see the “yellow screen of death”. Errors should be c
 ![Figure: Bad Example – ASP.NET Yellow Screen of Death](error-screen-bad.png)
 :::
 
-::: bad 
+::: bad
 ![Figure: Bad Example - Default exception page](net-core-default.png)
 :::
 
@@ -38,7 +39,7 @@ Your users should never see the “yellow screen of death”. Errors should be c
 ![Figure: Good Example - GitHub custom error page](error-screen-good.png)
 :::
 
-However, as a developer you still want to be able to view the detail of the exception in your local development environment. 
+However, as a developer you still want to be able to view the detail of the exception in your local development environment.
 
 ## How-to set up development environment exception pages in ASP.NET Core
 

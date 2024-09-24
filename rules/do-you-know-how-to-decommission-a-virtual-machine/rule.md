@@ -1,19 +1,20 @@
 ---
+seoDescription: Decommissioning a Virtual Machine requires proper planning and documentation to avoid data loss and ensure continuity.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to decommission a Virtual Machine?
 guid: 84cd91df-2a3a-4b9d-9622-eb9a3bdea871
 uri: do-you-know-how-to-decommission-a-virtual-machine
 created: 2011-06-14T04:32:43.0000000Z
 authors:
-- title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
+  - title: Matthew Hodgkins
+    url: https://ssw.com.au/people/matthew-hodgkins
 related: []
 redirects: []
-
 ---
 
-It is important to properly decommission a Virtual Machine rather than just delete it. Developers have a knack for leaving important files everywhere, and inside a Virtual Machine is no exception.   
+It is important to properly decommission a Virtual Machine rather than just delete it. Developers have a knack for leaving important files everywhere, and inside a Virtual Machine is no exception.
+
 <!--endintro-->
 
 1. Let the people that may have been using the Virtual Machine that it is going to be decommissioned. This might be difficult if it was being used for testing or staging.

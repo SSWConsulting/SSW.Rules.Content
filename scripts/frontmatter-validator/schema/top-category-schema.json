@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "top-category"
+    },
+    "title": {
+      "type": "string"
+    },
+    "index": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uri": {
+      "type": "string",
+      "format": "uri-reference"
+    }
+  },
+  "required": ["type", "title", "index", "uri"],
+  "additionalProperties": true,
+  "errorMessage": {
+    "properties": {
+      "title": "'title' cannot be empty.",
+      "type": "'type' must be set to 'top-category'.",
+      "index": "'index' must be a markdown list of categories URIs composing the top-category.",
+      "uri": "'uri' must not be empty."
+    }
+  }
+}
