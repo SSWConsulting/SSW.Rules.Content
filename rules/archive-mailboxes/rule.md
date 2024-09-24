@@ -8,7 +8,7 @@ authors:
   - title: ""
 guid: fcac7c42-21d3-42e8-8dd5-67f84352c68b
 ---
-In Microsoft 365, user mailboxes are limited to 50GB or 100GB, [depending on the licence you have](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits). For users with lots of emails, you need a solution to keep under the limit - without losing data or easy access to these emails.
+In Microsoft 365, user mailboxes are limited to 50GB or 100GB, [depending on the licence you have](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#storage-limits). For users with lots of emails, you need a solution to keep mailboxes under the limit, without losing data or access to emails.
 
 There are 3 ways to "archive" emails in Outlook/Exchange, however there's only one true archive option that should be used - **Archive Mailboxes** (also called Online Archive, or In-Place Archiving).
 
@@ -24,15 +24,16 @@ This video explains the 3 "archiving" options in Outlook (skip to 4:43 for Archi
 ❌ Auto-Archive - stored on your computer, not available online (you will lose data!)\
 ✅ Archive Mailboxes - the right solution
 
-Archive Mailboxes give you 50GB or 1.5TB(!) of extra storage, depending on your licence. They are stored in the cloud, and are accessible in the user's email client.
+Archive Mailboxes give you 50GB or 1.5TB(!) of extra storage, depending on your licence. They are stored in the cloud and are accessible in Outlook on all devices.
 
 ### Enable Archive Mailboxes
 
 1. Go to the **[Exchange admin center](https://admin.exchange.microsoft.com/) | Mailboxes** 
-2. Select the user you want to enable it for
+2. Select a user
 3. Go to **Others | Manage mailbox archive**
-4. (Optional) Add a name - if no name is added, it will default to **Online Archive**
-5. Click **Save**
+4. Change **Mailbox archive status** to **Enabled**
+5. (Optional) Add a name - if no name is added, it will default to **Online Archive**
+6. Click **Save**
 
 ![Figure: Exchange admin center | Manage mailbox archive](archive-mailbox.png)
 
