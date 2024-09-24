@@ -6,6 +6,7 @@ uri: rules-to-better-im
 index:
 - no-hello
 - know-that-im-interrupts
+- warn-then-call
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - easy-questions
 - start-your-answer-with-yes-or-no-then-say-your-opinion
@@ -19,15 +20,14 @@ index:
 - answer-im-questions-in-order
 - important-chats-should-be-in-an-email
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
-- close-off-thread
 - separate-messages
+- close-off-thread
 - keep-a-history-of-your-im-conversations
 - better-late-than-never
 - when-to-create-a-group-chat
 - when-to-email-chat-call-or-meet
 - go-beyond-just-using-chat
 - replying-in-the-same-medium
-- warn-then-call
 - you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
 - set-your-display-picture
 - show-your-phone-number
