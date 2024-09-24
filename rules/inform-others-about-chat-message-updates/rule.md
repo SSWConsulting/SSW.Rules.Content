@@ -23,6 +23,7 @@ This simple practice promotes transparency, avoids confusion, and ensures everyo
 
 ::: info
 **Note:** It's **not** necessary to notify others if:
+
 * You're simply fixing a typo or making a minor edit that won't alter the meaning of your message
 * The other person hasn't read the message yet
 :::
