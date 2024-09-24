@@ -51,4 +51,4 @@ Admins can edit the default policy, or add new policy options in **[Microsoft Pu
 * Use the **MRM Retention Tags** tab to create archive time-frame options, e.g. archive after 3 years
 * Use the **MRM Retention Policies** tab to apply default and/or optional policies to users
 
-![Figure: Example - Microsoft Purview | Default MRM Retention tag changed to 3 years](archive-tags.png)
+![Figure: Microsoft Purview | MRM Retention tags](archive-tags.png)
