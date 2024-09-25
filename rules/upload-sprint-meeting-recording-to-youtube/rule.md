@@ -38,57 +38,56 @@ Before starting, ensure that you have:
 2. Select account
 
     Click the channel icon in the top-right corner, select "Switch account" and choose your Team's account.
-
+    
     ![Figure: Switch to your Team's YouTube channel](Figure1-login.png)  
 
 3. Upload video
 
-    In the top-right corner of the YouTube homepage, click the Create icon 🎥.
-    Then select "Upload video". A new window will pop up.
+    In the top-right corner of the YouTube homepage, click the Create icon 🎥.   
+    Then select "Upload video". A new window will pop up.   
     Click on "Select Files" - or drag and drop the video file from your computer into the upload area.  
-
+    
     ![Figure: Upload the video](Figure2-upload-video.png)
 
 4. Add details
 
     Fill the following fields:
-
+    
     * **Title:** ensure to include the Sprint iteration, the Team's name and the date of the recording.
-
+    
     Ex:
     ::: greybox  
     Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
     :::
-
+    
     * **Description:** ensure to include the Sprint iteration, the Team's name and a link to the team's website.
-
+    
     ::: info
     **Tip:** Add timestamps to improve UX
     :::
-
+    
     Ex:
     ::: greybox
     Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Meeting
-
+    
     {{ MIN }}:{{ SEC }} Intro
     {{ MIN }}:{{ SEC }} Sprint Review
     {{ MIN }}:{{ SEC }} Sprint Retro
     {{ MIN }}:{{ SEC }} Sprint Planning
     {{ MIN }}:{{ SEC }} Outro
-
+    
     🔗 Link: {{ TEAM WEBSITE }}
     :::
-
-    * **Thumbnail:** upload the thumbnail
-
-    * **Playlist (optional):**
-    If you have a specific Playlist to store your Sprint meeting recordings, select it here.
-
-    * **Audience:** select "No, it's not made for kids"
+    
+    * **Thumbnail:** Upload the thumbnail
+    
+    * **Playlist (optional):** If you have a specific Playlist to store your Sprint meeting recordings, select it here
+    
+    * **Audience:** Select "No, it's not made for kids"  
     This implicitly means that this video is not made exclusively for kids
-
+    
     ![Figure: Add details](Figure3-details.png)
-
+    
     Click next until you reach the last category "Visibility"
 
 5. Set video visibility
@@ -99,7 +98,7 @@ Before starting, ensure that you have:
 
 6. Save and get link
 
-   Once all required fields are filled out and your video is processed, click the Save button.
+   Once all required fields are filled out and your video is processed, click the Save button.   
    After saving, your video is uploaded, and you can share the link on your social media or with others.
 
    ![Figure: How your video will look like once uploaded](Figure5-live-video.png)
