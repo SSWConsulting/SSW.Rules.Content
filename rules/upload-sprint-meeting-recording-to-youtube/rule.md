@@ -92,13 +92,13 @@ Before starting, ensure that you have:
 
 5. Set video visibility
 
-   Choose "unlisted"
+   Choose "Unlisted"
 
    ![Figure: Add details](Figure4-visibility.png)
 
 6. Save and get link
 
-   Once all required fields are filled out and your video is processed, click the Save button.
+   Once all required fields are filled out and your video is processed, click the Save button.   
    After saving, your video is uploaded, and you can share the link on your social media or with others.
 
    ![Figure: How your video will look like once uploaded](Figure5-live-video.png)
