@@ -32,14 +32,14 @@ Generally an approval is anytime you need someone else to check a piece of your 
 
 Approvals can either be:
 
-* Ad hoc - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
-* Recurring - these cause "approval hell" - you should use **approval scaling**
+* **Ad hoc** - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
+* **Recurring** - these cause "approval hell" - you should use **approval scaling**
 
-## Benefits of scaling approvals
+## ✅ Benefits of scaling approvals
 
-✅ Time savings for the person causing the bottlenecks (aka the "original approver")
-✅ Fewer bottlenecks for those seeking approval
-✅ Consistent and high-quality approvals
+* Time savings for the person causing the bottlenecks (aka the "original approver")
+* Fewer bottlenecks for those seeking approval
+* Consistent and high-quality approvals
 
 ## Developing the system
 
@@ -73,19 +73,19 @@ Figuring out the correct number of approvals can be difficult. Generally, the id
 
 Here are some guidelines:
 
-##### Number of Approvals: 0
+#### Number of Approvals: 0
 
 The gold standard is to look for a way to remove approvals entirely. This gold standard can usually be achieved for common sense fixes using tools like Grammarly and ChatGPT. For example, you may decide that any spelling mistake fix can be applied to the company induction system as long as Grammarly has verified it.
 
 In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party tool acts as the approver.
 
-##### Number of Approvals: 1
+#### Number of Approvals: 1
 
 Tasks that require 1 approval are usually well-documented, routine processes. In that case, the standard acts as the second approver since it is assumed that it has been followed.
 
-Example: A routine leave request
+**Example:** A routine leave request.
 
-##### Number of Approvals: 2
+#### Number of Approvals: 2
 
 2 approvals are for tasks that fall into one of the following categories:
 
@@ -96,20 +96,17 @@ Example: A routine leave request
 In these cases, a 2nd approval is valuable because:
 
 ✅ It establishes confidence in the process
-
-✅ It esults in fewer mistakes slipping through
-
+✅ It results in fewer mistakes slipping through
 ✅ A single approver may make a rushed or wrong decision
-
 ✅ The approvers hold each other accountable
 
-Example: A purchase for $500-$5,000 (relatively expensive).
+**Example:** A purchase for $500-$5,000 (relatively expensive).
 
-##### Number of Approvals: 3+ or stick with the "original approver"
+#### Number of Approvals: 3+ or stick with the "original approver"
 
 When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business.
 
-Example: Opening a new office might (costly and risky).
+**Example:** Opening a new office might (costly and risky).
 
 ### 4. Implement - Document and induct the new approvers
 
@@ -128,9 +125,9 @@ To prevent this issue, create reports tracking the number of approvals people do
 
 ![Figure: A report tracking how many approvals people do (from the Teams Approvals app)](teams-approvals-report.jpg)
 
-![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
+![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)(eagle-eye-report.jpg)]
 
-## Keeping Approvers Aligned
+## Keeping approvers aligned
 
 Sometimes, approvers may run into a controversial approval or need clarification about how to handle an approval. When that happens, they should call in the "original approver" to help resolve the problem.
 
