@@ -18,7 +18,6 @@ index:
 - avoid-sending-unnecessary-messages
 - update-or-delete-mistakes
 - inform-others-about-chat-message-updates
-
 - minimize-unrelated-interruptions
 - important-chats-should-be-in-an-email
 - use-your-company-name-as-part-of-your-display-name
