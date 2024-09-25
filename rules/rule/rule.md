@@ -222,16 +222,32 @@ This is a box using the class "greybox".
 This is a box using the class "highlight".
 :::
 
+::: highlight  
+## This is an example of a heading in a highlight 
+:::
+
 ::: info  
 This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
+:::
+
+::: info  
+## This is an example of a heading in a info 
 :::
 
 ::: china  
 This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
+::: china  
+## This is an example of a heading in a china 
+:::
+
 ::: codeauditor
 This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
+:::
+
+::: codeauditor  
+## This is an example of a heading in a codeauditor 
 :::
 
 ::: todo  

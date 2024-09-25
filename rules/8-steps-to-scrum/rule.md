@@ -16,7 +16,8 @@ redirects:
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null
 guid: 5759f753-1524-4803-869c-8b881eae28a1
----
+seoDescription: Discover how Scrum becomes simpler in 8 straightforward steps, from the initial meeting to sprint reviews. Print out the SSW 8 Steps to Scrum PDF and optimize your project management strategy
+
 
 Scrum is easier than it seems, we'll explain how in these 8 simple steps.
 
