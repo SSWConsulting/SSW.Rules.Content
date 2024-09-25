@@ -25,6 +25,7 @@ index:
 - go-the-extra-mile
 - browser-remove-clutter
 - standards-watchdog
+- keep-developers-away-from-design-work
 - what-is-mentoring
 - mentoring-programs
 - do-you-ask-questions-where-youre-stuck
