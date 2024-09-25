@@ -11,7 +11,8 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
 related: []
-redirects: []
+redirects:
+  - do-you-know-that-you-should-never-throw-an-exception-using-system-exception
 created: 2013-09-11T21:27:14.000Z
 archivedreason: null
 guid: d1c0e7ba-09e6-4b89-b2d5-695e47e18064
