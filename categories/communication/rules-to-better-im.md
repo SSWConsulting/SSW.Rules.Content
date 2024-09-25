@@ -4,11 +4,11 @@ title: Rules to Better IM
 guid: 67f8e978-2aa1-4bc9-96b6-a54cefc3d159
 uri: rules-to-better-im
 index:
-- no-hello
-- know-that-im-interrupts
 - warn-then-call
+- know-that-im-interrupts
 - if-communication-is-not-simple-call-the-person-instead-of-im
 - easy-questions
+- no-hello
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - do-you-minimize-team-distractions
 - avoid-sending-unnecessary-messages
@@ -19,6 +19,8 @@ index:
 - minimize-unrelated-interruptions
 - answer-im-questions-in-order
 - important-chats-should-be-in-an-email
+- use-your-company-name-as-part-of-your-display-name
+- set-your-display-picture
 - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
 - separate-messages
 - close-off-thread
@@ -29,9 +31,7 @@ index:
 - go-beyond-just-using-chat
 - replying-in-the-same-medium
 - you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
-- set-your-display-picture
 - show-your-phone-number
-- use-your-company-name-as-part-of-your-display-name
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - minimize-skype-distractions
 ---
