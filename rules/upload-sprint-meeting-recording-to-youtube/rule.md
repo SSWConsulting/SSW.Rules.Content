@@ -20,15 +20,13 @@ Now you need to upload your recording to YouTube: this is what this rule is abou
 
 <!--endintro-->
 
-
 ## Prerequisites
 
 Before starting, ensure that you have:
 
-- the video recording file
-- a thumbnail - make sure they are consistent. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
-- access to the related YouTube channel - see [📖 YouTube Channel Management](https://my.sugarlearning.com/SSW/items/14066/youtube-channel-management)
-
+* the video recording file
+* a thumbnail - make sure they are consistent. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
+* access to the related YouTube channel - see [📖 YouTube Channel Management](https://my.sugarlearning.com/SSW/items/14066/youtube-channel-management)
 
 ## Steps
 
@@ -54,21 +52,21 @@ Click on "Select Files" - or drag and drop the video file from your computer int
 
 Fill the following fields:
 
-- **Title:** ensure to include the Sprint iteration, the Team's name and the date of the recording.
+* **Title:** ensure to include the Sprint iteration, the Team's name and the date of the recording.
 
 Ex:
 ::: greybox  
 Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
 :::
 
-- **Description:** ensure to include the Sprint iteration, the Team's name and a link to the team's website.
+* **Description:** ensure to include the Sprint iteration, the Team's name and a link to the team's website.
 
 ::: info
 **Tip:** Add timestamps to improve UX
 :::
 
 Ex:
-::: greybox 
+::: greybox
 Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Meeting
 
 {{ MIN }}:{{ SEC }} Intro
@@ -80,12 +78,12 @@ Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Me
 🔗 Link: {{ TEAM WEBSITE }}
 :::
 
-- **Thumbnail:** upload the thumbnail
+* **Thumbnail:** upload the thumbnail
 
-- **Playlist (optional):**
+* **Playlist (optional):**
 If you have a specific Playlist to store your Sprint meeting recordings, select it here.
 
-- **Audience:** select "No, it's not made for kids"
+* **Audience:** select "No, it's not made for kids"
 This implicitly means that this video is not made exclusively for kids
 
 ![Figure: Add details](Figure3-details.png)
