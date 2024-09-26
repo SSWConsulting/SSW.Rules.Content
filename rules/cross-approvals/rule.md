@@ -9,6 +9,18 @@ created: 2023-08-08T13:00:00.0000000Z
 authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
+  - title: Rick Su
+    url: https://ssw.com.au/people/rick-su
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
 related:
   - bench-master
   - management-structures
