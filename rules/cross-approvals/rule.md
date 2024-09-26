@@ -34,7 +34,7 @@ In small companies, a single key stakeholder often approves everything, ensuring
 
 <!--endintro-->
 
-`youtube: https://youtu.be/uEAB3lc1898`
+`youtube: https://www.youtube.com/watch?v=-Xfi9CbIK1Q`
 
 **Video: Cross-approvals - Do you know how to scale approvals? (4 min)**
 
