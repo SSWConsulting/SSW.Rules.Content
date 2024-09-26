@@ -162,7 +162,6 @@ Disputes between 2 approvers can be solved as follows:
 
 ![Figure: Good example - Read the employee instructions to see how to get it approved](bench-masters-good.jpg)
 
-
 ## Communicating the streamlined approvals process
 
 This process should ideally be implemented across all business bottlenecks. However, identifying the most problematic approvals can be challenging.
