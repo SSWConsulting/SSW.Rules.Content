@@ -150,7 +150,7 @@ In these cases, a 2nd approval is valuable because:
 When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business.
 
 ::: greybox
-**Example:** Opening a new office might (costly and risky).
+**Example:** Opening a new office (costly and risky).
 :::
 
 #### 4. Implement - Document and induct the new approvers
