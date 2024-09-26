@@ -51,14 +51,13 @@ Approvals can either be:
 ![Figure: Bad example - Aproval hell!](approval-hell.png)  
 :::
 
-
 ## ✅ Benefits of scaling approvals
 
 * Time savings for the person causing the bottlenecks (aka the "original approver")
 * Fewer bottlenecks for those seeking approval
 * Consistent and high-quality approvals
 
-::: good 
+::: good
 ![Figure: Good example - Scaled approvals](cross-approvals.png)  
 :::
 
