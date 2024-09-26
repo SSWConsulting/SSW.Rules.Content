@@ -1,5 +1,5 @@
 ---
-seoDescription: Cross-approvals - Streamline Your Company's Approval Process with Expert Guidance
+seoDescription: Cross-approvals - Streamline your company's aspproval process with expert guidance.
 type: rule
 archivedreason:
 title: Cross-approvals - Do you know how to scale approvals?
@@ -48,7 +48,7 @@ Approvals can either be:
 * **Recurring** - these cause "approval hell" - you should use **approval scaling**
 
 ::: bad  
-![Figure: Bad example - Aproval hell!](approval-hell.png)  
+![Figure: Bad example - Approval hell!](approval-hell.png)  
 :::
 
 ## ✅ Benefits of scaling approvals
@@ -61,7 +61,7 @@ Approvals can either be:
 ![Figure: Good example - Scaled approvals](cross-approvals.png)  
 :::
 
-## Developing the system
+### Developing the approval system
 
 There are 5 steps to developing the new system of approvals:
 
@@ -75,15 +75,27 @@ There are 5 steps to developing the new system of approvals:
 
 Look for tasks which frequently take a long time to be approved.
 
-Example: Delays in approval for induction completion because the assigned approver is often busy.
+::: greybox
+**Example:** Delays in approval for induction completion because the assigned approver is often busy.
+:::
 
-#### 2. Assign - Appoint trusted subject matter experts to be responsible (see image below)
+#### 2. Assign - Appoint trusted subject matter experts to be responsible
 
 Build a list of people who are experts on that subject - they will be responsible for approvals.
 
 Once the list is compiled, assign each person a priority. That determines the order to contact people.
 
-Tip: Set the "original approver" as the lowest priority to minimize their involvement.
+::: greybox
+**Tip:** Set the "original approver" as the lowest priority to minimize their involvement.
+:::
+
+::: bad  
+![Figure: Bad example - Adam approves the completion of everyone's induction](InductionMastersBadExample.png)  
+:::
+
+::: good  
+![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)  
+:::
 
 #### 3. Classify - Determine the importance of the task
 
@@ -99,11 +111,17 @@ The gold standard is to look for a way to remove approvals entirely. This gold s
 
 In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party tool acts as the approver.
 
+::: greybox
+**Example:** Fixing a typo.
+:::
+
 ##### Number of Approvals: 1
 
 Tasks that require 1 approval are usually well-documented, routine processes. In that case, the standard acts as the second approver since it is assumed that it has been followed.
 
+::: greybox
 **Example:** A routine leave request.
+:::
 
 ##### Number of Approvals: 2
 
@@ -123,22 +141,30 @@ In these cases, a 2nd approval is valuable because:
 
 ✅ The approvers hold each other accountable
 
+::: greybox
 **Example:** A purchase for $500-$5,000 (relatively expensive).
+:::
 
 ##### Number of Approvals: 3+ or stick with the "original approver"
 
 When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business.
 
+::: greybox
 **Example:** Opening a new office might (costly and risky).
+:::
 
 #### 4. Implement - Document and induct the new approvers
 
 The final step is to record all the established decisions and induct the new approvers.
 
 1. Induct each person by having them shadow the "original approver" for at least 3 approval processes
-2. Document the new approvers in a central location (e.g. Teams Approvals), naming it {{ APPROVAL NAME }} Masters
+2. Document the new approvers in a central location (e.g. Teams Approvals), naming it "{{ APPROVAL NAME }} Masters"
 3. Create a template in the Teams Approvals app to ensure a standard process is followed
 4. Update the relevant standard so that instead of contacting the "original approver", individuals contact the new approvers
+
+::: good
+![Figure: Good example - Read the employee instructions to see how to get it approved](v2-bench-masters-good.jpg)
+:::
 
 #### 5. Monitor - Keep track of each employee's responsibilities
 
@@ -150,7 +176,7 @@ To prevent this issue, create reports tracking the number of approvals people do
 
 ![Figure: Instead of using an approvals app, this is a report tracking how many approvals people do from company emails (unstructured data). Each person needs to first manually look up who is the employee responsible for approving the email](eagle-eye-report.jpg)
 
-The tool is called [SSW EagleEye](https://www.ssweagleeye.com/)
+The tool is called [SSW EagleEye](https://www.ssweagleeye.com/).
 
 ## Handling conflicts
 
@@ -161,18 +187,6 @@ Disputes between 2 approvers can be solved as follows:
 1. The 2 approvers should have a call to get aligned about how to solve the problem
 2. If they still cannot agree, they should call in a 3rd approver to mediate
 3. If they still cannot agree, then the original approver should act as arbiter
-
-::: bad  
-![Figure: Bad example - Adam approves the completion of everyone's induction](InductionMastersBadExample.png)  
-:::
-
-::: good  
-![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)  
-:::
-
-::: good
-![Figure: Good example - Read the employee instructions to see how to get it approved](v2-bench-masters-good.jpg)
-:::
 
 ## Communicating the streamlined approvals process
 
