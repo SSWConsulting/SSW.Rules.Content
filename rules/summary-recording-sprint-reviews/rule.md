@@ -58,11 +58,12 @@ In order to upload the video on YouTube, you first need access to the related Yo
 
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
 
-When you upload the video, you need to provide some information such as a title, description and thumbnail. This section provides templates on our preferred templates
+During the process, you will need to provide some information such as a title, description and thumbnail. 
 
 #### Title
 
-The title should include the Sprint iteration, the Team's name and the date when the meeting occured.
+
+It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video. E.g. At SSW, we follow this format:
 
 ::: greybox  
     Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
@@ -70,27 +71,27 @@ The title should include the Sprint iteration, the Team's name and the date when
 
 #### Description
 
-The description should include the Sprint iteration, the Team's name and a link to the product website.
-
-::: info
-    **Tip:** Add timestamps to improve UX
-:::
+You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
 ::: greybox
-    Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Meeting
-
+    Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Meeting  
+  
     {{ MIN }}:{{ SEC }} Intro
     {{ MIN }}:{{ SEC }} Sprint Review
     {{ MIN }}:{{ SEC }} Sprint Retro
     {{ MIN }}:{{ SEC }} Sprint Planning
     {{ MIN }}:{{ SEC }} Outro
-
+  
     🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
 
 #### Thumbnail
 
-The thumbnail should show  the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
+The thumbnail should show the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
+
+::: good
+![Figure: Good example – The video contains a great title, description and thumbnail](GoodExample-framing.jpeg)
+:::
 
 ## Example of a Sprint Meeting recording
 
