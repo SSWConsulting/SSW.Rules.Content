@@ -62,23 +62,23 @@ It is important to have an accurate title that makes it clear what Scrum Sprint 
 At SSW, we follow this format:
 
 ::: greybox  
-    Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
+Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
 :::
 
 #### Video Description
 
 You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
-::: greybox
-    Join us for {{ TEAM NAME }}'s Sprint {{ ITERATION }} Review, Retro and Planning
+::: greybox  
+Join us for {{ TEAM NAME }}'s Sprint {{ ITERATION }} Review, Retro and Planning
   
-    {{ MIN }}:{{ SEC }} Intro
-    {{ MIN }}:{{ SEC }} Sprint Review
-    {{ MIN }}:{{ SEC }} Sprint Retro
-    {{ MIN }}:{{ SEC }} Sprint Planning
-    {{ MIN }}:{{ SEC }} Outro
+{{ MIN }}:{{ SEC }} Intro
+{{ MIN }}:{{ SEC }} Sprint Review
+{{ MIN }}:{{ SEC }} Sprint Retro
+{{ MIN }}:{{ SEC }} Sprint Planning
+{{ MIN }}:{{ SEC }} Outro
   
-    🔗 Link: {{ PRODUCT WEBSITE URL }}
+🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
 
 #### Video Thumbnail
