@@ -90,7 +90,7 @@ Once the list is compiled, assign each person a priority. That determines the or
 :::
 
 ::: bad  
-![Figure: Bad example - Adam approves the completion of everyone's induction](InductionMastersBadExample.png)  
+![Figure: Bad example - Adam approves the completion of everyone's induction](induction-bad.png)  
 :::
 
 ::: good  
