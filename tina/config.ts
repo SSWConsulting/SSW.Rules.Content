@@ -15,7 +15,7 @@ export default defineConfig({
 
   clientId: process.env.TINA_CLIENT_ID,
   token: process.env.TINA_TOKEN,
-  localContentPath: process.env.LOCAL_CONTENT_PATH,
+  localContentPath: "../../SSW.Rules.Content",
 
   branch: "tina/sample-content",
 
@@ -31,40 +31,6 @@ export default defineConfig({
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
-    collections: [
-      {
-        name: "post",
-        label: "Posts",
-        path: "/posts",
-        format: "mdx",
-        // ui: {
-        //   router: ({ document }) => {
-        //     return `/posts/${document._sys.filename.toLocaleLowerCase()}`
-        //   },
-        // },
-        fields: [
-          {
-            type: "string",
-            name: "uri",
-            label: "Slug",
-            required: true,
-          },
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
-      Rules,
-    ],
+    collections: [Rules],
   },
 })
