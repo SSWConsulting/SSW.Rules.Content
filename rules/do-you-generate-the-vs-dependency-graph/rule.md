@@ -27,20 +27,20 @@ There are many tools to generate dependency graphs for your .NET projects. Each 
 
 ### Option 1 - Rider
 
-Generating dependency graph is easy with the Rider's built-in tool. Check the official [docs](https://www.jetbrains.com/help/rider/Architecture__Project_Dependencies_Exploration.html) for more information about dependency graphs in Rider.
+Generating the dependency graph is easy with the Rider's built-in tool. Check the official [docs](https://www.jetbrains.com/help/rider/Architecture__Project_Dependencies_Exploration.html) for more information about dependency graphs in Rider.
 
 ### ✅ Pros
 
 * **Dependency view** - The graph is readable and organized
-* **Dependency cycle** - It is easy to find the dependency issue of the project
+* **Dependency cycle** - It is easy to find the dependency issues of the project
 * **Generation time** - The dependency graph generation is very fast
 * **Interface** - The interaction with the graph feels very smoothly
-* **Customizability** - It has beautiful menu in the left to select or deselect any project from the graph
+* **Customizability** - It has useful menu to select or deselect any project from the graph
 * **Availability** - You don't require to install any extension into Rider or select any component when you are installing Rider, it is already available in the IDE
 
 ### ❌ Cons
 
-* **Cost** - After 1 month trial, you will need license to continue using Rider
+* **Cost** - After one-month trial, you will need a license to continue using Rider
 * **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
 * **Layout** - Only Top to Bottom layout
 
@@ -50,7 +50,7 @@ Generating dependency graph is easy with the Rider's built-in tool. Check the of
 
 ### Option 2 - Visual Studio Enterprise
 
-To generate dependency graph with Visual Studio, first you need to check if you have installed **Code Map** and **Live Dependency Validation** components. Check official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/install-architecture-tools?view=vs-2022) to learn more about architecture tools in Visual Studio.
+To generate the dependency graph with Visual Studio, first you need to check if you have installed **Code Map** and **Live Dependency Validation** components. Check official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/install-architecture-tools?view=vs-2022) to learn more about architecture tools in Visual Studio.
 
 ![**Figure: Your Visual Studio need to have these components installed to be able to use architecture tools**](vs-installer-with-graph-feature.png)
 
@@ -73,22 +73,21 @@ To generate dependency graph with Visual Studio, first you need to check if you 
 
 ### Option 3 - Visual Studio + ReSharper
 
-The other option to generate dependency graph is by installing ReSharper extension for Visual Studio.
-Check the official [docs](https://www.jetbrains.com/resharper/) about installing ReSharper in Visual Studio.
+The other option to generate dependency graph is by installing ReSharper extension in Visual Studio.
+Check the official [docs](https://www.jetbrains.com/resharper/) about installing ReSharper.
 
 ### ✅ Pros
 
 * **Dependency view** - The graph is readable and organized
-* **Dependency cycle** - It is easy to find the dependency issue of the project
-* **Generation time** - The dependency graph generation is fast
+* **Dependency cycle** - It is easy to find the dependency issues of the project
 * **Interface** - The interaction with the graph feels very smoothly
-* **Customizability** - It has beautiful menu in the left to select or deselect any project from the graph same with Rider
+* **Customizability** - It has useful menu to select or deselect any project from the graph (same with Rider)
 
 ### ❌ Cons
 
 * **Requires ReSharper** - Need to install a third-party ReSharper extension in Visual Studio
-* **Performance impact** - Some slowdown can be noticed in Visual Studio with ReSharper
-* **Additional cost** - After one-month trial, you will need a license to continue using ReSharper in Visual Studio
+* **Performance impact** - Some slowdown can be noticed when ReSharper is enabled
+* **Additional cost** - After one-month trial, you will need a license to continue using ReSharper
 * **Preferred tool** - Use Rider instead of Visual Studio + ReSharper
 * **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
 * **Layout** - Only Top to Bottom layout
