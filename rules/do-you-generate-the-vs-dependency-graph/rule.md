@@ -31,8 +31,8 @@ Generating dependency graph is easy with the Rider's built-in tool. Check the of
 
 ### ✅ Pros
 
-* **Dependency view** - The graph is more readable and organized
-* **Dependency cycle** - It’s easy to track the dependencies of the project and determine underlying issues
+* **Dependency view** - The graph is readable and organized
+* **Dependency cycle** - It is easy to find the dependency issue of the project
 * **Generation time** - The dependency graph generation is very fast
 * **Interface** - The interaction with the graph feels very smoothly
 * **Customizability** - It has beautiful menu in the left to select or deselect any project from the graph
@@ -42,6 +42,7 @@ Generating dependency graph is easy with the Rider's built-in tool. Check the of
 
 * **Cost** - After 1 month trial, you will need license to continue using Rider
 * **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
+* **Layout** - Only Top to Bottom layout
 
 ::: good  
 ![Figure: Good Example- The Rider Dependency Graph](sugarlearning-dependency-graph-by-rider.png)  
@@ -60,7 +61,7 @@ To generate dependency graph with Visual Studio, first you need to check if you 
 
 ### ❌ Cons
 
-* **Dependency cycle** - It is hard to track the dependencies and find the issues of the project, so needs manual customization to graph nodes to make it more readable
+* **Dependency cycle** - It is hard to track the dependencies and find the issues of the project, needs manual customization to the graph nodes to make it more readable
 * **Interface** - Interacting with the graph is slow and not fluid
 * **Cluttered view** - Graph becomes unreadable and confusing for complex projects
 * **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
@@ -69,8 +70,30 @@ To generate dependency graph with Visual Studio, first you need to check if you 
 ![Figure: Good Example- The Visual Studio Dependency Graph](sugarlearning-dependency-graph-by-visual-studio.png)  
 :::
 
-::: good  
-![Figure: Good Example – The ReSharper Dependency graph groups dependencies based on Solution Folders. By having a        Consistent Solution Structure it is easy to see from your Dependency Graph if there is coupling between your UI and your Dependencies](TimePRODependence-good.png)  
+### Option 3 - Visual Studio + ReSharper
+
+The other option to generate dependency graph is by installing ReSharper extension for Visual Studio.
+Check the official [docs](https://www.jetbrains.com/resharper/) about installing ReSharper in Visual Studio.
+
+### ✅ Pros
+
+* **Dependency view** - The graph is readable and organized
+* **Dependency cycle** - It is easy to find the dependency issue of the project
+* **Generation time** - The dependency graph generation is fast
+* **Interface** - The interaction with the graph feels very smoothly
+* **Customizability** - It has beautiful menu in the left to select or deselect any project from the graph same with Rider
+
+### ❌ Cons
+
+* **Requires ReSharper** - Need to install a third-party ReSharper extension in Visual Studio
+* **Performance impact** - Some slowdown can be noticed in Visual Studio with ReSharper
+* **Additional cost** - After one-month trial, you will need a license to continue using ReSharper in Visual Studio
+* **Preferred tool** - Use Rider instead of Visual Studio + ReSharper
+* **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
+* **Layout** - Only Top to Bottom layout
+
+::: ok  
+![Figure: OK Example - The Visual Studio + ReSharper Dependency Graph](sugarlearning-dependency-graph-by-vs-and-resharper.png)  
 :::
 
 #### Further Reading
