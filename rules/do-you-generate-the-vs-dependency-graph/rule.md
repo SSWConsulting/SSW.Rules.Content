@@ -42,8 +42,30 @@ Generating dependency graph is easy with the Rider's built-in tool. Check the of
 * **Cost** - After 1 month trial, you will need license to continue using Rider
 * **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
 
-::: good
-![Figure: Good Example- The Rider Dependency Graph makes to track couples between projects](sugarlearning-dependency-graph-by-rider.png)
+::: good  
+![Figure: Good Example- The Rider Dependency Graph](sugarlearning-dependency-graph-by-rider.png)  
+:::
+
+### Option 2 - Visual Studio Enterprise
+To generate dependency graph with Visual Studio, first you need to check if you have installed **Code Map** and **Live Dependency Validation** components. Check official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/install-architecture-tools?view=vs-2022) to learn more about architecture tools in Visual Studio.
+
+![**Figure: Your Visual Studio need to have these components installed to be able to use architecture tools**](vs-installer-with-graph-feature.png)
+
+### ✅ Pros
+
+* **Dependency view** - Provides high-level view of project dependencies
+* **Layout** - Visual Studio gives different layout options, e.g. Top to Bottom, Quick Clusters, Left to Right, etc.
+* **Availabilty of graph for everyone** - Any Visual Studio edition can read already generated dependency graphs
+
+### ❌ Cons
+
+* **Dependency cycle** - It is hard to track the dependencies and find the issues of the project, so needs manual customization to graph nodes to make it more readable
+* **Interface** - Interacting with the graph is slow and not fluid
+* **Cluttered view** - Graph becomes unreadable and confusing for complex projects
+* **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
+
+::: good  
+![Figure: Good Example- The Visual Studio Dependency Graph](sugarlearning-dependency-graph-by-visual-studio.png)  
 :::
 
 ::: good  
