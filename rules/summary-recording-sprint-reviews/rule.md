@@ -54,21 +54,22 @@ If you need to make edits on your recording, please see this rule: [Do you know 
 
 ## Share the Sprint Meeting summary recording
 
-In order to upload the video on YouTube, you first need access to the related YouTube channel - see [📖 YouTube Channel Management](https://my.sugarlearning.com/SSW/items/14066/youtube-channel-management)
-
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
+
+Note: Don't forget to check that you're uploading to the right channel. We recommend having a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro]([https://www.youtube.com/@sswtimepro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
 
 During the process, you will need to provide some information such as a title, description and thumbnail.
 
-#### Title
+#### Video Title
 
-It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video. E.g. At SSW, we follow this format:
+It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video.  
+At SSW, we follow this format:
 
 ::: greybox  
     Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
 :::
 
-#### Description
+#### Video Description
 
 You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
@@ -84,7 +85,7 @@ You should also include a description about the contents for ease of navigation.
     🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
 
-#### Thumbnail
+#### Video Thumbnail
 
 The thumbnail should show the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
 
@@ -92,7 +93,7 @@ The thumbnail should show the Sprint iteration, the Team's name and the date whe
 ![Figure: Good example – The video contains a great title, description and thumbnail](GoodExample-framing.jpeg)
 :::
 
-## Example of a Sprint Meeting recording
+## ✅ Good Example of a Sprint Meeting recording
 
 Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
 
