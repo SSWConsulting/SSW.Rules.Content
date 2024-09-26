@@ -47,11 +47,19 @@ Approvals can either be:
 * **Ad hoc** - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
 * **Recurring** - these cause "approval hell" - you should use **approval scaling**
 
+::: bad  
+![Figure: Bad example - Aproval hell!](approval-hell.png)  
+:::
+
 ## ✅ Benefits of scaling approvals
 
 * Time savings for the person causing the bottlenecks (aka the "original approver")
 * Fewer bottlenecks for those seeking approval
 * Consistent and high-quality approvals
+
+::: good
+![Figure: Good example - Scaled approvals](cross-approvals.png)  
+:::
 
 ## Developing the system
 
