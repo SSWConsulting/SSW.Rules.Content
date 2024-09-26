@@ -21,11 +21,7 @@ created: 2024-04-15T00:46:35.508Z
 guid: 99674806-7353-4d39-ac9a-219620d4e107
 ---
 
-Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a Product to the community and stakeholders - especially for people who are unable to attend these meetings. This rule covers the following:
-
-* Why you should record a summary of the Sprint Meeting
-* How to record it (best practices)
-* How to share the recording
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend.
 
 <!--endintro-->
 
