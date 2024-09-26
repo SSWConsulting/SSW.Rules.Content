@@ -74,7 +74,7 @@ At SSW, we follow this format:
 You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
 ::: greybox
-    Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Meeting  
+    Join us for {{ TEAM NAME }}'s Sprint {{ ITERATION }} Review, Retro and Planning
   
     {{ MIN }}:{{ SEC }} Intro
     {{ MIN }}:{{ SEC }} Sprint Review
