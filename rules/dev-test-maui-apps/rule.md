@@ -25,9 +25,9 @@ There are several ways that developers can test mobile apps on different devices
 
 Some of the popular .NET MAUI emulator apps are:
 
-- **iOS Simulator** - Allows developers to preview their apps on iOS and macOS devices
-- **Android Emulator** - Allows developers to test their apps on various Android devices
-- **Tizen Simulator** - Allows developers to test their apps on Tizen devices
+* **iOS Simulator** - Allows developers to preview their apps on iOS and macOS devices
+* **Android Emulator** - Allows developers to test their apps on various Android devices
+* **Tizen Simulator** - Allows developers to test their apps on Tizen devices
 
 ## Option 2: Use a cloud-based service
 
@@ -35,10 +35,10 @@ Testing mobile apps with cloud-based services like BrowserStack offers several a
 
 Apart from BrowserStack, there are several services that offer similar functionality:
 
-- Sauce Labs
-- LambdaTest
-- Experitest
-- CrossBrowserTesting
+* Sauce Labs
+* LambdaTest
+* Experitest
+* CrossBrowserTesting
 
 ## Option 3: Use real devices (Recommended)
 
