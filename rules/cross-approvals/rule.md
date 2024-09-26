@@ -57,7 +57,7 @@ Look for tasks which frequently take a long time to be approved.
 
 Example: Delays in approval for induction completion because the assigned approver is often busy.
 
-### 2. Assign - Appoint trusted subject matter experts to be responsible
+### 2. Assign - Appoint trusted subject matter experts to be responsible (see image below)
 
 Build a list of people who are experts on that subject - they will be responsible for approvals.
 
@@ -96,8 +96,11 @@ Tasks that require 1 approval are usually well-documented, routine processes. In
 In these cases, a 2nd approval is valuable because:
 
 ✅ It establishes confidence in the process
+
 ✅ It results in fewer mistakes slipping through
+
 ✅ A single approver may make a rushed or wrong decision
+
 ✅ The approvers hold each other accountable
 
 **Example:** A purchase for $500-$5,000 (relatively expensive).
@@ -142,7 +145,7 @@ Approvers may also have differing views about how to handle an approval. Dispute
 :::
 
 ::: good  
-![Figure: Good example - There are 8 Induction Masters responsible for approving everyone's induction](InductionMastersGoodExample.png)  
+![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction](induction-good.jpg)  
 :::
 
 ## Communicating the streamlined approvals process
