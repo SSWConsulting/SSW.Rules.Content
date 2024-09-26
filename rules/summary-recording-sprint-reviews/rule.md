@@ -36,48 +36,23 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 * **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
 * **Community:** Allows the community at large to see what is happening on a product and provide feedback.
 
-## Record the Meeting summary
+## Record the Sprint Meeting summary
 
-### Preparing the Summary
+The Sprint Meeting summary should be what it is: a summary. So keep it concise by focusing on the main goals and decisions that were discussed during the Sprint Meeting.  
 
-* **Highlight Key Points:** Focus on decisions made, goals achieved, and major discussions.
-* **Use Clear, Concise Language:** Ensure that the summary is easily understandable, avoiding technical jargon where possible.
-* **Include Actionable Items:** Clearly note any action items or decisions that require follow-up.
-* **Keep it Generic:** Viewers might not have the same context of the Product, so try to present PBIs as though the viewers do not have prior knowledge.
+Here's a suggested runsheet for what to cover in the video:  
 
-### Runsheet
-
-Here's a suggested runsheet for what to cover in the video:
-
-1. Before the recording, ask the participants if there's nothing sensitive in the Sprint Retrospective
+1. Before the recording, inform participants that the session is being recorded and ask them if there's nothing sensitive in the Sprint Retrospective
 2. Start the recording by showing the Product website
 3. Run through Sprint Review Email - which should include the Sprint Retrospective
 4. Run through Sprint Planning Email
 5. Finish the recording on the Product YouTube Channel, and mention that the current recording will be uploaded there
 
-If you're looking for useuful tips on how to make great videos, please see this rule: [Do you know the key things for making a great 'Done Video'?](https://www.ssw.com.au/rules/making-a-great-done-video)
+If you're looking for useful tips on how to make great videos, please see this rule: [Do you know the key things for making a great 'Done Video'?](https://www.ssw.com.au/rules/making-a-great-done-video)
 
-### Making the Recording
+If you need to make edits on your recording, please see this rule: [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/)
 
-* **Ensure Good Audio Quality:** Use a decent microphone and test audio levels before starting.
-* **Capture Visuals:** Record the screen or presentation to provide context to the discussions.
-* **Keep it Engaging:** Even though it’s a recording, try to keep the delivery lively and engaging to maintain viewer interest.
-
-### Utilizing Modern Tools for Recording and Editing
-
-#### Using Microsoft Teams Record Feature
-
-* **Start Recording:** Utilize the built-in recording feature in Microsoft Teams to capture both audio and video of the Sprint Review.
-* **Notify Participants:** Always inform participants that the session is being recorded, ensuring compliance with privacy policies.
-
-#### Editing with ClipChamp
-
-* **Import the Recording:** Once the meeting is over, download the recording and import it into ClipChamp.
-* **Edit for Clarity:** Trim unnecessary parts, highlight key moments, and add titles or transitions to enhance viewer understanding.
-* **Use a consistent professional thumbnail:** Get the design team to make you a nice thumbnail to use for your Sprint Reviews so that it looks professional.
-* **Export and Share:** Once edited, export the final video and consider uploading it to a platform like YouTube for easy access and sharing within your organization.
-
-## Share the Meeting summary recording
+## Share the Sprint Meeting summary recording
 
 In order to upload the video on YouTube, you first need access to the related YouTube channel - see [📖 YouTube Channel Management](https://my.sugarlearning.com/SSW/items/14066/youtube-channel-management)
 
@@ -115,9 +90,9 @@ The description should include the Sprint iteration, the Team's name and a link 
 
 #### Thumbnail
 
-TODO ask Betty
+The thumbnail should show  the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
 
-## ✅ Good example
+## Example of a Sprint Meeting recording
 
 Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
 
