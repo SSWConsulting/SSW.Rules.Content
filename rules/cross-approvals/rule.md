@@ -157,7 +157,7 @@ Disputes between 2 approvers can be solved as follows:
 :::
 
 ::: good  
-![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction](induction-good.jpg)  
+![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)  
 :::
 
 ## Communicating the streamlined approvals process
