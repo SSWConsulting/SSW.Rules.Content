@@ -138,9 +138,11 @@ One problem with this system is responsibility creep! When someone is a trusted 
 
 To prevent this issue, create reports tracking the number of approvals people do. That way, if someone has too many, you can reallocate some of them.
 
-![Figure: A report tracking how many approvals people do (from the Teams Approvals app)](teams-approvals-report.jpg)
+![Figure: A report tracking how many approvals people do from the Teams Approvals app (structured data). Inside the form there are the right people to approve](teams-approvals-report.jpg)
 
-![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
+![Figure: Instead of using an approvals app, this is a report tracking how many approvals people do from company emails (unstructured data). Each person needs to first manually look up who is the employee responsible for approving the email](eagle-eye-report.jpg)
+
+The tool is called [SSW EagleEye](https://www.ssweagleeye.com/)
 
 ## Handling conflicts
 
