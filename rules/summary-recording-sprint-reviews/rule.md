@@ -1,33 +1,42 @@
 ---
 seoDescription: Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement.
 type: rule
-title: Do you record a summary of Sprint Reviews for the stakeholders?
+title: Do you record a summary of your Sprint Meeting?
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
     url: https://ssw.com.au/people/jack-pettit/
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer/
+  - title: Landon Maxwell
+    url: https://ssw.com.au/people/landon-maxwell/
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan/
 related:
   - tech-check
   - record-a-quick-and-dirty-done-video
   - rules-to-better-video-recording
+  - making-a-great-done-video
 created: 2024-04-15T00:46:35.508Z
 guid: 99674806-7353-4d39-ac9a-219620d4e107
 ---
 
-Creating a comprehensive summary and recording of Sprint Reviews is a great way to communicate changes in a Product to the community and stakeholders. Especially for people who are unable to attend these meetings.
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a Product to the community and stakeholders - especially for people who are unable to attend these meetings. This rule covers the following:
+
+- Why you should record a summary of the Sprint Meeting
+- How to record it (best practices)
+- How to share the recording
 
 <!--endintro-->
 
-## Why Create a Summary and Recording?
+## Why record a summary of the Sprint Meeting?
 
-1. **Enhanced Clarity and Transparency:** Provides a clear, accessible update for all stakeholders, including those not present.
-2. **Documentation for Future Reference:** Serves as a historical record of decisions and discussions, valuable for future sprints and project continuity.
-3. **Inclusive Stakeholder Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
-4. **Community Engagement:** Allows the community at large to see what is happening on a product and provide feedback.
+- **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present.
+- **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity.
+- **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
+- **Community:** Allows the community at large to see what is happening on a product and provide feedback.
 
-## Best Practices for Effective Summaries and Recordings
+## Record the Meeting summary
 
 ### Preparing the Summary
 
@@ -40,10 +49,13 @@ Creating a comprehensive summary and recording of Sprint Reviews is a great way 
 
 Here's a suggested runsheet for what to cover in the video:
 
-1. Show the Product website
-2. Run through Sprint Review Email
-3. Run through Sprint Planning Email
-4. Finish on the Product YouTube Channel
+1. Before the recording, ask the participants if there's nothing sensitive in the Sprint Retrospective
+2. Start the recording by showing the Product website
+3. Run through Sprint Review Email - which should include the Sprint Retrospective
+4. Run through Sprint Planning Email
+5. Finish the recording on the Product YouTube Channel, and mention that the current recording will be uploaded there
+
+If you're looking for useuful tips on how to make great videos, please see this rule: [Do you know the key things for making a great 'Done Video'?](https://www.ssw.com.au/rules/making-a-great-done-video)
 
 ### Making the Recording
 
@@ -65,20 +77,51 @@ Here's a suggested runsheet for what to cover in the video:
 - **Use a consistent professional thumbnail:** Get the design team to make you a nice thumbnail to use for your Sprint Reviews so that it looks professional.
 - **Export and Share:** Once edited, export the final video and consider uploading it to a platform like YouTube for easy access and sharing within your organization.
 
-## Examples of Good vs. Bad Practices
+## Share the Meeting summary recording
+
+In order to upload the video on YouTube, you first need access to the related YouTube channel - see [📖 YouTube Channel Management](https://my.sugarlearning.com/SSW/items/14066/youtube-channel-management)
+
+If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
+
+When you upload the video, you need to provide some information such as a title, description and thumbnail. This section provides templates on our preferred templates
+
+#### Title
+
+The title should include the Sprint iteration, the Team's name and the date when the meeting occured.
+
+::: greybox  
+    Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
+:::
+
+#### Description
+
+The description should include the Sprint iteration, the Team's name and a link to the product website.
+
+::: info
+    **Tip:** Add timestamps to improve UX
+:::
 
 ::: greybox
-"Simply jotting down a few notes or making a low-quality audio recording on a phone."
-:::
-::: bad  
-Figure: Bad example - Inadequate details and poor audio quality can lead to misunderstandings and disengagement
+    Join us for Sprint {{ ITERATION }} {{ TEAM NAME }} Review, Retro and Planning Meeting
+
+    {{ MIN }}:{{ SEC }} Intro
+    {{ MIN }}:{{ SEC }} Sprint Review
+    {{ MIN }}:{{ SEC }} Sprint Retro
+    {{ MIN }}:{{ SEC }} Sprint Planning
+    {{ MIN }}:{{ SEC }} Outro
+
+    🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
 
-::: greybox
-"Preparing a structured document that highlights all key outcomes, decisions, and next steps, accompanied by a high-quality video recording of the session."
-:::
-::: good  
-Figure: Good example - Provides a comprehensive and clear record that is useful for all stakeholders
-:::
+#### Thumbnail
 
-By adopting these practices, teams can ensure that the outcomes of Sprint Reviews are effectively communicated and documented, supporting project success and stakeholder satisfaction.
+TODO ask Betty
+
+## ✅ Good example
+
+Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
+
+`youtube: https://www.youtube.com/watch?v=t3SlxTKiT6U`
+**Video: TinaCMS - Sprint 23 Review and Sprint 24 Forecast (10 min)**
+
+By adopting these practices, teams can ensure that the outcomes of Sprint Meetings are effectively communicated and documented, supporting project success and stakeholder satisfaction.
