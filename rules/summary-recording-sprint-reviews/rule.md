@@ -58,10 +58,9 @@ In order to upload the video on YouTube, you first need access to the related Yo
 
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
 
-During the process, you will need to provide some information such as a title, description and thumbnail. 
+During the process, you will need to provide some information such as a title, description and thumbnail.
 
 #### Title
-
 
 It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video. E.g. At SSW, we follow this format:
 
