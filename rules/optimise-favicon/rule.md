@@ -10,7 +10,6 @@ authors:
   - title: Jack Reimers
     url: https://ssw.com.au/people/jack-reimers
 related:
-  -
 ---
 
 Favicons are more than just a single icon, and they require proper optimisation to display correctly on all devices.
