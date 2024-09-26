@@ -63,13 +63,13 @@ There are 5 steps to developing the new system of approvals:
 4. **Implement** - Document and induct the new approvers
 5. **Monitor** - Keep track of each employee's responsibilities
 
-### 1. Process - Identify tasks causing "approval hell"
+#### 1. Process - Identify tasks causing "approval hell"
 
 Look for tasks which frequently take a long time to be approved.
 
 Example: Delays in approval for induction completion because the assigned approver is often busy.
 
-### 2. Assign - Appoint trusted subject matter experts to be responsible (see image below)
+#### 2. Assign - Appoint trusted subject matter experts to be responsible (see image below)
 
 Build a list of people who are experts on that subject - they will be responsible for approvals.
 
@@ -77,7 +77,7 @@ Once the list is compiled, assign each person a priority. That determines the or
 
 Tip: Set the "original approver" as the lowest priority to minimize their involvement.
 
-### 3. Classify - Determine the importance of the task
+#### 3. Classify - Determine the importance of the task
 
 Some tasks are more valuable than others. For example, a task to fix spelling mistakes doesn't matter as much as deleting invoices. Therefore, you would assign more approvers to the task of deleting invoices.
 
@@ -85,19 +85,19 @@ Figuring out the correct number of approvals can be difficult. Generally, the id
 
 Here are some guidelines:
 
-#### Number of Approvals: 0
+##### Number of Approvals: 0
 
 The gold standard is to look for a way to remove approvals entirely. This gold standard can usually be achieved for common sense fixes using tools like Grammarly and ChatGPT. For example, you may decide that any spelling mistake fix can be applied to the company induction system as long as Grammarly has verified it.
 
 In these cases, it becomes a [rubber stamp](/rubber-stamp-prs) and a 3rd party tool acts as the approver.
 
-#### Number of Approvals: 1
+##### Number of Approvals: 1
 
 Tasks that require 1 approval are usually well-documented, routine processes. In that case, the standard acts as the second approver since it is assumed that it has been followed.
 
 **Example:** A routine leave request.
 
-#### Number of Approvals: 2
+##### Number of Approvals: 2
 
 2 approvals are for tasks that fall into one of the following categories:
 
@@ -117,13 +117,13 @@ In these cases, a 2nd approval is valuable because:
 
 **Example:** A purchase for $500-$5,000 (relatively expensive).
 
-#### Number of Approvals: 3+ or stick with the "original approver"
+##### Number of Approvals: 3+ or stick with the "original approver"
 
 When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business.
 
 **Example:** Opening a new office might (costly and risky).
 
-### 4. Implement - Document and induct the new approvers
+#### 4. Implement - Document and induct the new approvers
 
 The final step is to record all the established decisions and induct the new approvers.
 
@@ -132,7 +132,7 @@ The final step is to record all the established decisions and induct the new app
 3. Create a template in the Teams Approvals app to ensure a standard process is followed
 4. Update the relevant standard so that instead of contacting the "original approver", individuals contact the new approvers
 
-### 5. Monitor - Keep track of each employee's responsibilities
+#### 5. Monitor - Keep track of each employee's responsibilities
 
 One problem with this system is responsibility creep! When someone is a trusted individual within the company, they can end up with too many responsibilities, causing new bottlenecks.
 
@@ -140,13 +140,13 @@ To prevent this issue, create reports tracking the number of approvals people do
 
 ![Figure: A report tracking how many approvals people do (from the Teams Approvals app)](teams-approvals-report.jpg)
 
-![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)(eagle-eye-report.jpg)]
+![Figure: Instead of using an approvals app, you can assign Employee Responsibilities - then track the data in PowerBI using a tool like [SSW.EagleEye](https://www.ssweagleeye.com/)](eagle-eye-report.jpg)
 
-## Keeping approvers aligned
+## Handling conflicts
 
-Sometimes, approvers may run into a controversial approval or need clarification about how to handle an approval. When that happens, they should call in the "original approver" to help resolve the problem.
+Sometimes, approvers may run into a controversial approval or be unsure about an approval. Approvers may also have differing views about how to handle an approval.
 
-Approvers may also have differing views about how to handle an approval. Disputes between 2 approvers can be solved as follows:
+Disputes between 2 approvers can be solved as follows:
 
 1. The 2 approvers should have a call to get aligned about how to solve the problem
 2. If they still cannot agree, they should call in a 3rd approver to mediate
