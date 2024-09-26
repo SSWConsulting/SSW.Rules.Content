@@ -52,7 +52,7 @@ If you need to make edits on your recording, please see this rule: [Do you know 
 
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
 
-Note: Don't forget to check that you're uploading to the right channel. We recommend having a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro]([https://www.youtube.com/@sswtimepro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
+Note: Don't forget to check that you're uploading to the right channel. We recommend having a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
 
 During the process, you will need to provide some information such as a title, description and thumbnail.
 
@@ -62,34 +62,36 @@ It is important to have an accurate title that makes it clear what Scrum Sprint 
 At SSW, we follow this format:
 
 ::: greybox  
-    Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}
+Sprint {{ ITERATION }} - {{ TEAM NAME }} - Review, Retro and Planning - {{ DATE }}  
 :::
 
 #### Video Description
 
 You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
-::: greybox
-    Join us for {{ TEAM NAME }}'s Sprint {{ ITERATION }} Review, Retro and Planning
+::: greybox  
+Join us for {{ TEAM NAME }}'s Sprint {{ ITERATION }} Review, Retro and Planning  
   
-    {{ MIN }}:{{ SEC }} Intro
-    {{ MIN }}:{{ SEC }} Sprint Review
-    {{ MIN }}:{{ SEC }} Sprint Retro
-    {{ MIN }}:{{ SEC }} Sprint Planning
-    {{ MIN }}:{{ SEC }} Outro
+{{ MIN }}:{{ SEC }} Intro  
+{{ MIN }}:{{ SEC }} Sprint Review  
+{{ MIN }}:{{ SEC }} Sprint Retro  
+{{ MIN }}:{{ SEC }} Sprint Planning  
+{{ MIN }}:{{ SEC }} Outro  
   
-    🔗 Link: {{ PRODUCT WEBSITE URL }}
+🔗 Link: {{ PRODUCT WEBSITE URL }}  
 :::
 
 #### Video Thumbnail
 
 The thumbnail should show the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
 
+Below is a good example of how the title, description and thumbnail should look like on YouTube.
+
 ::: good
-![Figure: Good example – The video contains a great title, description and thumbnail](good-example-video-title-and-description.png)
+![Figure: Good example – The video contains a great title, description and thumbnail](good-example-video-title-description-thumbnail.png)
 :::
 
-## ✅ Good Example of a Sprint Meeting recording
+#### ✅ Good Example of a Sprint Meeting recording
 
 Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
 
