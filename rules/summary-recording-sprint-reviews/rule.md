@@ -23,27 +23,27 @@ guid: 99674806-7353-4d39-ac9a-219620d4e107
 
 Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a Product to the community and stakeholders - especially for people who are unable to attend these meetings. This rule covers the following:
 
-- Why you should record a summary of the Sprint Meeting
-- How to record it (best practices)
-- How to share the recording
+* Why you should record a summary of the Sprint Meeting
+* How to record it (best practices)
+* How to share the recording
 
 <!--endintro-->
 
 ## Why record a summary of the Sprint Meeting?
 
-- **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present.
-- **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity.
-- **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
-- **Community:** Allows the community at large to see what is happening on a product and provide feedback.
+* **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present.
+* **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity.
+* **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
+* **Community:** Allows the community at large to see what is happening on a product and provide feedback.
 
 ## Record the Meeting summary
 
 ### Preparing the Summary
 
-- **Highlight Key Points:** Focus on decisions made, goals achieved, and major discussions.
-- **Use Clear, Concise Language:** Ensure that the summary is easily understandable, avoiding technical jargon where possible.
-- **Include Actionable Items:** Clearly note any action items or decisions that require follow-up.
-- **Keep it Generic:** Viewers might not have the same context of the Product, so try to present PBIs as though the viewers do not have prior knowledge.
+* **Highlight Key Points:** Focus on decisions made, goals achieved, and major discussions.
+* **Use Clear, Concise Language:** Ensure that the summary is easily understandable, avoiding technical jargon where possible.
+* **Include Actionable Items:** Clearly note any action items or decisions that require follow-up.
+* **Keep it Generic:** Viewers might not have the same context of the Product, so try to present PBIs as though the viewers do not have prior knowledge.
 
 ### Runsheet
 
@@ -59,23 +59,23 @@ If you're looking for useuful tips on how to make great videos, please see this 
 
 ### Making the Recording
 
-- **Ensure Good Audio Quality:** Use a decent microphone and test audio levels before starting.
-- **Capture Visuals:** Record the screen or presentation to provide context to the discussions.
-- **Keep it Engaging:** Even though it’s a recording, try to keep the delivery lively and engaging to maintain viewer interest.
+* **Ensure Good Audio Quality:** Use a decent microphone and test audio levels before starting.
+* **Capture Visuals:** Record the screen or presentation to provide context to the discussions.
+* **Keep it Engaging:** Even though it’s a recording, try to keep the delivery lively and engaging to maintain viewer interest.
 
 ### Utilizing Modern Tools for Recording and Editing
 
 #### Using Microsoft Teams Record Feature
 
-- **Start Recording:** Utilize the built-in recording feature in Microsoft Teams to capture both audio and video of the Sprint Review.
-- **Notify Participants:** Always inform participants that the session is being recorded, ensuring compliance with privacy policies.
+* **Start Recording:** Utilize the built-in recording feature in Microsoft Teams to capture both audio and video of the Sprint Review.
+* **Notify Participants:** Always inform participants that the session is being recorded, ensuring compliance with privacy policies.
 
 #### Editing with ClipChamp
 
-- **Import the Recording:** Once the meeting is over, download the recording and import it into ClipChamp.
-- **Edit for Clarity:** Trim unnecessary parts, highlight key moments, and add titles or transitions to enhance viewer understanding.
-- **Use a consistent professional thumbnail:** Get the design team to make you a nice thumbnail to use for your Sprint Reviews so that it looks professional.
-- **Export and Share:** Once edited, export the final video and consider uploading it to a platform like YouTube for easy access and sharing within your organization.
+* **Import the Recording:** Once the meeting is over, download the recording and import it into ClipChamp.
+* **Edit for Clarity:** Trim unnecessary parts, highlight key moments, and add titles or transitions to enhance viewer understanding.
+* **Use a consistent professional thumbnail:** Get the design team to make you a nice thumbnail to use for your Sprint Reviews so that it looks professional.
+* **Export and Share:** Once edited, export the final video and consider uploading it to a platform like YouTube for easy access and sharing within your organization.
 
 ## Share the Meeting summary recording
 
