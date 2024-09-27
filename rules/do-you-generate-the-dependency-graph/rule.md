@@ -1,10 +1,10 @@
 ---
-seoDescription: Do you generate the VS Dependency Graph?
+seoDescription: Do you generate the Dependency Graph?
 type: rule
 archivedreason:
-title: Do you generate the VS Dependency Graph?
+title: Do you generate the Dependency Graph?
 guid: 726eadfd-fa6c-4549-acfd-bc9e30e378fe
-uri: do-you-generate-the-vs-dependency-graph
+uri: do-you-generate-the-dependency-graph
 created: 2012-03-16T08:04:49.0000000Z
 authors:
   - title: Adam Cogan
