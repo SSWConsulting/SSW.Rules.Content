@@ -41,6 +41,7 @@ Make the changes even easier to see and understand by highlighting:
 **Note:** All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Dave |
@@ -64,6 +65,7 @@ Figure: Bad example - The original version of content has not been included in t
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Dave |
