@@ -22,3 +22,5 @@ index:
 - efcore-in-memory-provider
 - migrate-from-edmx-to-ef-core
 ---
+
+Optimize your use of Entity Framework by following best practices that enhance performance and maintainability. These guidelines cover everything from efficient querying and data manipulation to leveraging migrations and in-memory providers, ensuring your application runs smoothly and effectively.
