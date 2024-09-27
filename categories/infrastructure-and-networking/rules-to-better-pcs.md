@@ -15,3 +15,5 @@ index:
 - call-sysadmins-before-formatting-company-owned-laptops
 
 ---
+
+Enhance your PC management with these essential rules designed to streamline performance and troubleshoot effectively. These guidelines cover everything from benchmarking and upgrades to file synchronization, ensuring your systems operate at their best.
