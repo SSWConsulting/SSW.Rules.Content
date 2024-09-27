@@ -15,7 +15,7 @@ index:
   - spike-vs-poc
   - look-at-the-architecture-of-javascript-projects
   - do-you-look-at-the-architecture
-  - do-you-generate-the-vs-dependency-graph
+  - do-you-generate-the-dependency-graph
   - do-you-know-how-to-laser-in-on-the-smelliest-code
   - do-you-know-the-common-design-principles-part-1
   - do-you-know-the-common-design-principles-part-2-example
