@@ -47,8 +47,8 @@ Approvals can either be:
 * **Ad hoc** - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
 * **Recurring** - these cause "approval hell" - you should use **approval scaling**
 
-::: bad\
-![Figure: Bad example - Approval hell!](approval-hell.png)\
+::: bad
+![Figure: Bad example - Approval hell!](approval-hell.png)
 :::
 
 ## ✅ Benefits of scaling approvals
@@ -58,7 +58,7 @@ Approvals can either be:
 * Consistent and high-quality approvals
 
 ::: good
-![Figure: Good example - Scaled approvals](cross-approvals.png)\
+![Figure: Good example - Scaled approvals](cross-approvals.png)
 :::
 
 ### Developing the approval system
@@ -89,12 +89,12 @@ Once the list is compiled, assign each person a priority. That determines the or
 **Tip:** Set the "original approver" as the lowest priority to minimize their involvement.
 :::
 
-::: bad\
-![Figure: Bad example - Adam approves the completion of everyone's induction](induction-bad.png)\
+::: bad
+![Figure: Bad example - Adam approves the completion of everyone's induction](induction-bad.png)
 :::
 
-::: good\
-![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)\
+::: good
+![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)
 :::
 
 #### 3. Classify - Determine the importance of the task
