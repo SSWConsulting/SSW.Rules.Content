@@ -53,3 +53,5 @@ index:
   - copy-text-from-image
   - support-send-links
 ---
+
+Improve the clarity, consistency, and effectiveness of your technical documentation with these comprehensive rules. From formatting and SEO to ensuring readability and accuracy, these guidelines will help you create top-quality documentation.
