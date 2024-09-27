@@ -23,3 +23,4 @@ index:
 
 ---
 
+Optimize your Active Directory management by adding staff profile pictures for better visibility and disabling users instead of deleting them for improved CRM reporting. Standardize group names, utilize Group Policy for settings, enable auditing of logon attempts, and manage local administrator passwords with LAPS to enhance security and efficiency.

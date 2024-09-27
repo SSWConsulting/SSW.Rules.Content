@@ -17,4 +17,4 @@ index:
 
 ---
  
-
+To optimize your presentation PCs, set up a Boot to VHD image in a standard folder with clear instructions. Ensure you install necessary features on the Windows Server VHD and standard software, including your video card driver. Test the VHD on a projector beforehand and configure Outlook to send but not receive emails for a smoother presentation experience.

@@ -9,4 +9,4 @@ index:
 
 ---
  
-
+When migrating from CRM 2015 to 2016, make sure to apply CRM 2015 update rollup 1 before the upgrade and familiarize yourself with the upgrade process for a smooth transition.

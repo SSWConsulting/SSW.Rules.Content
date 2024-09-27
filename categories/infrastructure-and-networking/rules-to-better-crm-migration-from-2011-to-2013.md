@@ -9,4 +9,4 @@ index:
 
 ---
  
-
+To successfully migrate from Dynamics CRM 2011 to 2013, ensure you know how to convert a managed solution to unmanaged and utilize a legacy check tool before proceeding with the migration.
