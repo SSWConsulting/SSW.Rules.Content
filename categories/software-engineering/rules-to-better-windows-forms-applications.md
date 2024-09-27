@@ -61,3 +61,5 @@ index:
 - use-anchoring-and-docking-horizontal-only-with-single-line-textboxes
 - textalign-should-be-topleft-or-middleleft
 ---
+
+Elevate your Windows Forms applications with a set of best practices designed to enhance user experience and maintainability. This guide covers key principles for design consistency, error logging, user settings management, and efficient data handling, ensuring your applications are both functional and user-friendly.

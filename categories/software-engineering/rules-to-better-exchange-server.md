@@ -8,3 +8,5 @@ index:
 - customise-outlook-web-access-owa
 - add-redirect-from-http-to-https-for-owa
 ---
+
+Optimize your Exchange Server experience with essential rules focused on enhancing functionality and security. This collection provides guidance on enabling search features, customizing Outlook Web Access (OWA), and implementing secure HTTP redirection.

@@ -17,4 +17,4 @@ index:
 
 ---
 
-
+Explore best practices for developing and managing your Web API using REST principles. This guide covers essential topics such as serialization of view models, documentation, versioning, and returning appropriate response codes.
