@@ -18,4 +18,4 @@ index:
 
 ---
 
-
+Discover the key principles for effectively engaging with open source software. This guide covers the importance of using open source, proper contribution etiquette, and how to maintain clear communication about project status, coding standards, and licensing.
