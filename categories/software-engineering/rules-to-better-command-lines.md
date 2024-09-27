@@ -9,3 +9,5 @@ index:
 - provide-list-of-arguments
 - organize-terminal-sessions-with-panes
 ---
+
+Enhance your command line utilities with effective design and organization principles. This collection of rules provides guidance on creating user-friendly interfaces, managing terminal sessions, and optimizing argument lists for improved functionality.
