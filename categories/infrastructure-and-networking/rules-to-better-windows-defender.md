@@ -8,4 +8,4 @@ index:
 
 ---
  
-
+When managing Windows Defender, it's important to ensure your Hosts file is protected from interference. This rule emphasizes the necessity of adding an exception for the Hosts file in Windows Defender to maintain system functionality.
