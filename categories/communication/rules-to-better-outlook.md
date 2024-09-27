@@ -24,3 +24,5 @@ index:
 - archive-mailboxes
 
 ---
+
+Boost your productivity and email management skills with these Outlook rules. From mastering search to minimizing distractions and leveraging advanced features, these tips will help you optimize your Outlook experience.
