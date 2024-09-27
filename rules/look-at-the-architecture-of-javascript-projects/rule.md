@@ -11,8 +11,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Jernej Kavka
     url: https://ssw.com.au/people/jernej-kavka
-related:
-  - do-you-look-at-the-architecture
+related: []
 redirects:
   - do-you-look-at-the-architecture-of-javascript-projects
 ---
