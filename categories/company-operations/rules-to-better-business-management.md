@@ -16,3 +16,5 @@ index:
   - commitment-to-health-and-safety
   - best-practices-environmental-sustainability
 ---
+
+Evaluate different management structures and understand how to scale approval processes effectively. Empower employees to make decisions, ensure timely processing of approvals, and establish KPIs for annual employee reviews. Engage in monthly stakeholder communication, conduct retrospectives to understand employee turnover, and commit to health, safety, and environmental sustainability practices.
