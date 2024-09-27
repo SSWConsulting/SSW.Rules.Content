@@ -51,7 +51,9 @@ Generating the dependency graph is easy with the Rider's built-in tool. Check th
 
 To generate the dependency graph with Visual Studio, first you need to check if you have installed **Code Map** and **Live Dependency Validation** components. Check official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/install-architecture-tools?view=vs-2022) to learn more about architecture tools in Visual Studio.
 
+::: img-medium
 ![**Figure: Your Visual Studio need to have these components installed to be able to use architecture tools**](vs-installer-with-graph-feature.png)
+:::
 
 ### ✅ Pros
 
