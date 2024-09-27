@@ -81,6 +81,6 @@ SQL Server Reporting Services is a comprehensive, server-based reporting solutio
 
 🔊 Historical (2006) [Listen to Adam's podcast on these rules with Greg Low](https://sqldownunder.blob.core.windows.net/podcasts/SDU14FullShow.mp3) (42 min)  
 
-⚠️ While SQL Server Reporting Services (SSRS) is still in use, it is considered legacy technology. For modern data reporting and analytics, Power BI is the recommended solution. Check out our [Rules to better Power BI](https://www.ssw.com.au/rules/rules-to-better-power-bi/)
+⚠️ While SQL Server Reporting Services (SSRS) is still in use, it is considered legacy technology. For modern data reporting and analytics, Power BI is the recommended solution. Check out our [Rules to better Power BI](https://www.ssw.com.au/rules/rules-to-better-power-bi/).
 
 If you need consulting help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.  
