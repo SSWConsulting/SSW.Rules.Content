@@ -13,4 +13,4 @@ index:
 
 ---
 
-
+Enhance your TypeScript skills with essential guidelines that promote good coding practices. This collection of rules focuses on effective type management, object-oriented design patterns, and maintaining a clean codebase for optimal performance.
