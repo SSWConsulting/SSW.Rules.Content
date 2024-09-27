@@ -86,7 +86,7 @@ Check the official [docs](https://www.jetbrains.com/resharper/) about installing
 
 ### ❌ Cons
 
-* **Requires ReSharper** - Need to install a third-party ReSharper extension in Visual Studio
+* **Requires ReSharper** - Need to install 3rd party ReSharper extension in Visual Studio
 * **Performance impact** - Some slowdown can be noticed when ReSharper is enabled
 * **Additional cost** - After one-month trial, you will need a license to continue using ReSharper
 * **Preferred tool** - Use Rider instead of Visual Studio + ReSharper
