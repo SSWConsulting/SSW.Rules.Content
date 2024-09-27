@@ -85,10 +85,10 @@ Join us for {{ TEAM NAME }}'s Sprint {{ ITERATION }} Review, Retro and Planning
 
 The thumbnail should show the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
 
-Below is a good example of how the title, description and thumbnail should look like on YouTube.
+Below is a good example of how the title and description should look like on YouTube.
 
 ::: good
-![Figure: Good example – The video contains a great title, description and thumbnail](good-example-video-title-description-thumbnail.png)
+![Figure: Good example – The video contains a great title, description and thumbnail](good-example-video-title-description.png)
 :::
 
 #### ✅ Good Example of a Sprint Meeting recording
