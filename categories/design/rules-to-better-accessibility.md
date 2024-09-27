@@ -7,3 +7,5 @@ index:
 - wcag-compliance
 - color-contrast
 ---
+
+Ensure your projects meet accessibility standards with these important rules focusing on WCAG compliance and color contrast, essential for creating inclusive digital experiences.
