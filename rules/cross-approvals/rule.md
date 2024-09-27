@@ -1,11 +1,9 @@
 ---
-seoDescription: Cross-approvals - Streamline your company's aspproval process with expert guidance.
 type: rule
-archivedreason:
 title: Cross-approvals - Do you know how to scale approvals?
-guid: 4f425961-3b0e-4b1b-bea4-48bab98f5c05
+seoDescription: Cross-approvals - Streamline your company's aspproval process
+  with expert guidance.
 uri: cross-approvals
-created: 2023-08-08T13:00:00.0000000Z
 authors:
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
@@ -28,8 +26,10 @@ related:
 redirects:
   - streamline-approvals
   - streamlining-approvals
+created: 2023-08-08T13:00:00.000Z
+archivedreason: null
+guid: 4f425961-3b0e-4b1b-bea4-48bab98f5c05
 ---
-
 In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks - or "approval hell". One approach that addresses this is to have multiple people responsible for a specific approval. This ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).
 
 <!--endintro-->
@@ -47,8 +47,8 @@ Approvals can either be:
 * **Ad hoc** - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
 * **Recurring** - these cause "approval hell" - you should use **approval scaling**
 
-::: bad  
-![Figure: Bad example - Approval hell!](approval-hell.png)  
+::: bad\
+![Figure: Bad example - Approval hell!](approval-hell.png)\
 :::
 
 ## ✅ Benefits of scaling approvals
@@ -58,7 +58,7 @@ Approvals can either be:
 * Consistent and high-quality approvals
 
 ::: good
-![Figure: Good example - Scaled approvals](cross-approvals.png)  
+![Figure: Good example - Scaled approvals](cross-approvals.png)\
 :::
 
 ### Developing the approval system
@@ -89,12 +89,12 @@ Once the list is compiled, assign each person a priority. That determines the or
 **Tip:** Set the "original approver" as the lowest priority to minimize their involvement.
 :::
 
-::: bad  
-![Figure: Bad example - Adam approves the completion of everyone's induction](induction-bad.png)  
+::: bad\
+![Figure: Bad example - Adam approves the completion of everyone's induction](induction-bad.png)\
 :::
 
-::: good  
-![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)  
+::: good\
+![Figure: Good example - There are 10 Induction Masters responsible for approving everyone's induction - in this case I would start with Brady](induction-good.jpg)\
 :::
 
 #### 3. Classify - Determine the importance of the task
@@ -147,7 +147,7 @@ In these cases, a 2nd approval is valuable because:
 
 ##### Number of Approvals: 3+ or stick with the "original approver"
 
-When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business.
+When approval is critical to the business, it is worth considering if it should be approved by a "council" of people or by the "original approver". These are tasks where a mistake could be catastrophic for the business. It's important that one of the approvers of these tasks is a senior in the relevant field. Any key stakeholders affected by the change should also be alerted.
 
 ::: greybox
 **Example:** Opening a new office (costly and risky).
