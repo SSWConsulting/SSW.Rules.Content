@@ -12,6 +12,8 @@ authors:
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - no-hello
   - appointments-throw-it-in-their-calendar
@@ -33,15 +35,14 @@ Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
 A good way to initiate a call is to warm them up by giving a warning (e.g. _“Calling you in 1 min to talk about the Northwind production site being down 💀.”_).
 
-::: greybox
+<!--endintro-->
 
+::: greybox
 **Warm Calling:** Give a warning, then call.  
 **Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.  
 :::
 
-<!--endintro-->
-
-## The benefits of a warm call
+## ✅ The benefits of a warm call
 
 * **Prioritization** - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago, they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
 * **Consideration** - It gives the other person the time to prepare. They might be busy or in another call
@@ -76,7 +77,7 @@ Calling in 1 minute about this email thread:
 Good example - Includes email subject for reference and doesn't leave anyone waiting
 :::
 
-### Using Outlook | Share to Teams
+## Using Outlook | Share to Teams
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
@@ -86,9 +87,9 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 ![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams](share-to-teams.png)
 :::
 
-### What if your call is declined?
+### What if your call is declined/not answered?
 
-When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten.
+When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
 :::greybox
 "Tried to call - will try again in 1 hour"
@@ -98,3 +99,16 @@ Good example - Send them a message indicating you will try again later
 :::
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
+
+### 🔴 Blocked - What if can't reach the person for a whole day?
+
+If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
+
+:::greybox
+"Tried to call with no luck. Since I'm blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
+(checked by {{ APPROVER }}).
+Please get back to me if you prefer another way."
+:::
+:::good
+Good example - Send them a message explaining how the next steps will move forward
+:::
