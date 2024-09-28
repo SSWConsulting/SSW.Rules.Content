@@ -103,8 +103,8 @@ Good example - Send them a message indicating you will try again later
 If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
 :::greybox
-"Tried to call with no luck. Since I'm blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.   
-(checked by {{ APPROVER }}).   
+"Tried to call with no luck. Since I'm blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
+(checked by {{ APPROVER }}).
 Please get back to me if you prefer another way."
 :::
 :::good
