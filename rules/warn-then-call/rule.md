@@ -12,6 +12,8 @@ authors:
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - no-hello
   - appointments-throw-it-in-their-calendar
