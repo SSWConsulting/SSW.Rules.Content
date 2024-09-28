@@ -100,10 +100,12 @@ Good example - Send them a message indicating you will try again later
 
 ### What if can't reach the person for a whole day?
 
-If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation and inform that will be actioned soon unless they get back to you.
+If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
 :::greybox
-"Tried to call 4 times with no luck. We will action {{ YOUR RECOMMENDATION }} tomorrow. Please get back to us if you prefer another way."
+"Tried to call with no luck. Since I'm blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.   
+(checked by {{ APPROVER }}).   
+Please get back to me if you prefer another way."
 :::
 :::good
 Good example - Send them a message explaining how the next steps will move forward
