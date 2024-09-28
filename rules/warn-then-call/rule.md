@@ -57,7 +57,7 @@ e.g. a Sprint Review
 
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).
 
-:::greybox
+::: greybox
 Calling in 1 minute. See the PBI/Issue:
 
 **{{ URL }}**
