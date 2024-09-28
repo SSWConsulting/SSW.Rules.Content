@@ -87,7 +87,7 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 
 ### What if your call is declined/not answered?
 
-When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up at least 3 times after the first call.
+When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
 :::greybox
 "Tried to call - will try again in 1 hour"
