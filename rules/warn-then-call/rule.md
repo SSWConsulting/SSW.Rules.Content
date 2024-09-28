@@ -62,18 +62,18 @@ Calling in 1 minute. See the PBI/Issue:
 
 **{{ URL }}**
 :::
-:::good
+::: good
 Good example - Includes PBI/Issue link for reference and doesn't leave anyone waiting
 :::
 
 **Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
-:::greybox
+::: greybox
 Calling in 1 minute about this email thread:
 
 **{{ EMAIL SUBJECT }}**
 :::
-:::good
+::: good
 Good example - Includes email subject for reference and doesn't leave anyone waiting
 :::
 
@@ -83,7 +83,7 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 
 ![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
 
-:::good
+::: good
 ![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams](share-to-teams.png)
 :::
 
@@ -91,10 +91,10 @@ Outlook can do some of the heavy lifting for you! You can directly paste an emai
 
 When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
-:::greybox
+::: greybox
 "Tried to call - will try again in 1 hour"
 :::
-:::good
+::: good
 Good example - Send them a message indicating you will try again later
 :::
 
@@ -104,11 +104,11 @@ Good example - Send them a message indicating you will try again later
 
 If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
-:::greybox
+::: greybox
 "Tried to call with no luck. Since I'm blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
 (checked by {{ APPROVER }}).
 Please get back to me if you prefer another way."
 :::
-:::good
+::: good
 Good example - Send them a message explaining how the next steps will move forward
 :::
