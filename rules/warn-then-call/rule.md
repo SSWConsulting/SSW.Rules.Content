@@ -100,7 +100,7 @@ Good example - Send them a message indicating you will try again later
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
 
-### What if can't reach the person for a whole day?
+### 🔴 Blocked - What if can't reach the person for a whole day?
 
 If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
