@@ -11,6 +11,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-know-where-to-upload-work-related-videos
