@@ -85,5 +85,5 @@ index:
 - do-you-use-suspend-on-your-notebook
 
 ---
- 
+
 Enhance software consulting practices by exploring essential principles that focus on teamwork, communication, and professionalism. Discover key rules designed to foster collaboration and integrity among consultants.
