@@ -5,7 +5,7 @@ guid: 692ea201-cdad-4505-bcb6-092e68793392
 uri: rules-to-better-ai-generated-media
 experts:
 consulting:
-redirects: 
+redirects:
  - rules-to-better-ai-image-generators
 index:
 - when-to-use-ai-generated-images

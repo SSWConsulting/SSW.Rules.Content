@@ -34,9 +34,9 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 ## Record the Sprint Meeting summary
 
-The Sprint Meeting summary should be what it is: a summary. So keep it concise by focusing on the main goals and decisions that were discussed during the Sprint Meeting.  
+The Sprint Meeting summary should be what it is: a summary. So keep it concise by focusing on the main goals and decisions that were discussed during the Sprint Meeting.
 
-Here's a suggested runsheet for what to cover in the video:  
+Here's a suggested runsheet for what to cover in the video:
 
 1. Before the recording, inform participants that the session is being recorded and ask them if there's nothing sensitive in the Sprint Retrospective
 2. Start the recording by showing the Product website
@@ -58,10 +58,10 @@ During the process, you will need to provide some information such as a title, d
 
 #### Video Title
 
-It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video.  
+It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video.
 At SSW, we follow this format:
 
-::: greybox  
+::: greybox
 {{ TEAM NAME }} - Sprint {{ OLD NUMBER }} Review + Retro and Sprint {{ NEW NUMBER }} Planning - {{ DATE }}  
 :::
 
@@ -69,16 +69,16 @@ At SSW, we follow this format:
 
 You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
-::: greybox  
-Join us for {{ TEAM NAME }}'s Sprint {{ OLD NUMBER }} Review + Retro and Sprint {{ NEW NUMBER }} Planning  
-  
-{{ MIN }}:{{ SEC }} Intro  
-{{ MIN }}:{{ SEC }} Sprint Review  
-{{ MIN }}:{{ SEC }} Sprint Retro  
-{{ MIN }}:{{ SEC }} Sprint Planning  
-{{ MIN }}:{{ SEC }} Outro  
-  
-🔗 Link: {{ PRODUCT WEBSITE URL }}  
+::: greybox
+Join us for {{ TEAM NAME }}'s Sprint {{ OLD NUMBER }} Review + Retro and Sprint {{ NEW NUMBER }} Planning
+
+{{ MIN }}:{{ SEC }} Intro
+{{ MIN }}:{{ SEC }} Sprint Review
+{{ MIN }}:{{ SEC }} Sprint Retro
+{{ MIN }}:{{ SEC }} Sprint Planning
+{{ MIN }}:{{ SEC }} Outro
+
+🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
 
 #### Video Thumbnail
