@@ -14,27 +14,27 @@ redirects: []
 
 ---
 
-Observables are a fundamental concept in Angular, enabling developers to manage asynchronous data streams efficiently. 
+Observables are a fundamental concept in Angular, enabling developers to manage asynchronous data streams efficiently.
 This rule explores what observables are, how to use them effectively in your applications, and provides practical examples to enhance your understanding.
 
 <!--endintro-->
 
 ## What are Observables?
 
-Imagine you're in a busy coffee shop, and you’ve ordered your favorite drink. 
-Instead of waiting at the counter for it to be prepared, the barista hands you a special buzzer. 
-This buzzer will light up and vibrate when your drink is ready, allowing you to continue chatting with friends or reading a book without interruption. 
+Imagine you're in a busy coffee shop, and you’ve ordered your favorite drink.
+Instead of waiting at the counter for it to be prepared, the barista hands you a special buzzer.
+This buzzer will light up and vibrate when your drink is ready, allowing you to continue chatting with friends or reading a book without interruption.
 In this scenario, the coffee order process is an analogy for observables in Angular.
 
-Observables are like this buzzer. 
-They are a way to handle asynchronous data streams, allowing your application to react to changes over time without blocking the main thread. 
+Observables are like this buzzer.
+They are a way to handle asynchronous data streams, allowing your application to react to changes over time without blocking the main thread.
 Just like the buzzer informs you only when your drink is ready, observables notify your application when new data is available, enabling efficient management of asynchronous events.
 
 ## How to use Observables
 
 1. Creating Observables
 
-You can create observables in several ways, including using the Observable constructor or Angular’s built-in HttpClient for handling HTTP requests. 
+You can create observables in several ways, including using the Observable constructor or Angular’s built-in HttpClient for handling HTTP requests.
 Here’s how to create a simple observable:
 
 ```typescript  
@@ -48,8 +48,8 @@ const myObservable = new Observable(subscriber => {
 
 2. Subscribing to Observables
 
-To receive data from an observable, you need to subscribe to it. 
-This is like waiting for your buzzer to alert you. 
+To receive data from an observable, you need to subscribe to it.
+This is like waiting for your buzzer to alert you.
 Here’s an example of subscribing to the observable created above:
 
 ```typescript  
@@ -65,7 +65,7 @@ myObservable.subscribe({
 
 3. Using Observables in Angular Services
 
-In Angular, observables are often used in services, especially for making HTTP requests. 
+In Angular, observables are often used in services, especially for making HTTP requests.
 Here’s how you might use Angular’s HttpClient to get data from an API:
 
 ```typescript  
@@ -87,7 +87,7 @@ export class DataService {
 
 4. Using the AsyncPipe in Templates
 
-To display data from an observable in your component’s template, you can use the AsyncPipe. 
+To display data from an observable in your component’s template, you can use the AsyncPipe.
 This automatically subscribes and unsubscribes to the observable for you, simplifying your code:
 
 ```html  
@@ -95,7 +95,6 @@ This automatically subscribes and unsubscribes to the observable for you, simpli
   <p>{{ data }}</p>  
 </div>
 ```  
-
 
 ## Examples of Observables
 
@@ -151,6 +150,6 @@ forkJoin([this.service1.getData(), this.service2.getData()]).subscribe(results =
 });  
 ```  
 
-Observables are a powerful tool in Angular for managing asynchronous data streams, much like the buzzer that alerts you when your coffee is ready. 
-By understanding how to create, subscribe to, and use observables effectively, you can build responsive and efficient Angular applications that handle data seamlessly. 
+Observables are a powerful tool in Angular for managing asynchronous data streams, much like the buzzer that alerts you when your coffee is ready.
+By understanding how to create, subscribe to, and use observables effectively, you can build responsive and efficient Angular applications that handle data seamlessly.
 Embrace the power of observables and take your Angular skills to the next level!
