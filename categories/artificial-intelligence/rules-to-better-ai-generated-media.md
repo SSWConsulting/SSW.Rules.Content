@@ -18,4 +18,5 @@ index:
 - use-negative-prompting
 - ai-tools-voice-translations
 ---
+
 Mastering AI-generated media is key to enhancing creativity and efficiency. These rules cover everything from generating images to transforming them, ensuring you're equipped with the best practices for AI-driven content creation.
