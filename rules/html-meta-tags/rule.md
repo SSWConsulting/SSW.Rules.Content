@@ -25,9 +25,7 @@ One of the easiest ways to get the ball rolling with your web pages and being no
 
 <!--endintro-->
 
-
-
-![Figure: An SEO expert hard at work ](seo_expert.jpg)
+![Figure: An SEO expert hard at work](seo_expert.jpg)
 
 However, it's still beneficial to complete this quick and easy task.
 
