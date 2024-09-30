@@ -23,10 +23,13 @@ guid: 3bcee6c3-13c6-45a7-8379-236a7cf44030
 ---
 One of the easiest ways to get the ball rolling with your web pages and being noticed by search engines is to use [HTML &lt;meta&gt; tags](https://www.w3schools.com/tags/tag_meta.asp). Years ago, many webmasters took this as an opportunity to abuse the &lt;meta&gt; tags and the search engines found that the quality of search results was suffering. Today, search engines don't give the &lt;meta&gt; tags weight - Google announced in September of 2009 that neither **meta descriptions** nor **meta keywords** affects Google's ranking algorithms for web searches.
 
-<!--endintro-->
-
 However, it's still beneficial to complete this quick and easy task.
 
+
+
+<!--endintro-->
+
+![Figure: An SEO expert hard at work](seo_expert.jpg)
 
 There are a few &lt;meta&gt; tags you should use, and these are the most common:
 
@@ -43,9 +46,9 @@ There are a few &lt;meta&gt; tags you should use, and these are the most common:
 To ensure your meta tags are present and well formatted, we have a useful program called [SSW Code Auditor](https://codeauditor.com/).
 
 ##### Avoiding Duplicate Content
+
 **The duplicate content myth** There is a widely held misconception that Google penalizes authors for having duplicate meta tags, particularly meta description and meta title tags. However, Google primarily targets pages that are exact duplicates of other pages when penalizing for duplicate content. Read more about this in Google's [original blog post](https://tina.io/docs/reference/fields/#definition).
 
 **Why you should care about duplicate content** While having duplicate meta title or meta description tags may not impact your search engine performance directly it can still result in a [poor user experience](https://www.semrush.com/blog/duplicate-meta-descriptions/). For example, if two pages with the same title appear in a set of search results the user may be unsure which link to click. It may also impact your rankings in other search engines.
 
 **Rectifying the issue** This issue is common for users publishing content with a CMS. In this case we generally recommend meta descriptions and title fields a required field. For example, Tina CMS allows you to add [required fields](https://tina.io/docs/reference/fields/#definition). You could also get creative and pass the drafted content of your page into a custom GPT with instructions to create a summary of the content suitable for a meta title or meta description. For more information about creating custom GPTs read the rule [Do You Create Custom GPTs](https://www.ssw.com.au/rules/create-gpts/).
-
