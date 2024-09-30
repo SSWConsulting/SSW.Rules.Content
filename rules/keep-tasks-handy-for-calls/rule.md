@@ -15,6 +15,8 @@ related:
 In today’s busy work environment, it is crucial to stay organized and be ready to update your Manager on your tasks at any moment. Using Microsoft Loop in a Teams Tab can help you manage your tasks effectively.
 
 <!--endintro-->
+`youtube: https://www.youtube.com/watch?v=itWQ8d-9giQ`
+**Video: Efficient Task Management with Microsoft Loop Tutorial | Tanya Leahy | SSW Rules (3 mins)**
 
 ::: bad  
 ![Figure: Bad example - Unorganized tasks written in a notebook](rules/keep-tasks-handy-for-calls/notebook-task-list.png)
