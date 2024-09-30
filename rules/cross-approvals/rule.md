@@ -58,7 +58,9 @@ Approvals can either be:
 * Consistent and high-quality approvals
 
 ::: good
-![Figure: Good example - Scaled approvals](cross-approvals.png)
+![Figure: Good example - Scaled approvals - The group of people in charge of a cross approval are called a XXX Master
+
+](cross-approvals.png)
 :::
 
 ### Developing the approval system
