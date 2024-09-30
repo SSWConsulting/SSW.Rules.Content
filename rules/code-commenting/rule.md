@@ -39,18 +39,15 @@ There is almost always a better alternative to adding comments to your code. [Ch
     - For a method with large number of parameters, wrap them all up in a Parameter Object
     - Pair up with someone else, think... be creative
 
-### What are some **bad** types of comments?
+### What are some **bad** comments?
 
-1. That explain the "what"/"how" of the code. Basically the code rewritten in your mother tongue
-2. Documentation comments in non-public surface area
+1. Those that explain the "what"/"how" of the code. Basically the code rewritten in your mother tongue
+2. Those that documentation comments in non-public surface area
 3. Commenting out the code itself (perhaps to work on it later? That’s what source control is for)
 4. TODO comments (Little ones are OK, don't leave them there for too long. The big effort TODOs - say that are over an hour or two - should have a work item URL to it)   
    And many more...
 
-### What are some **good** types of comments?
-
-Very few of these really. Although even these are subject to all the downsides of comments.
-Note that a lot of punch can be delivered in 140 characters! Twitter previously?
+### What are some **good** comments?
 
 1. Comments that explain the why (e.g. strategic insights)
 2. ...that hyperlink to an external source where you got the idea/piece of code
