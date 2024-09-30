@@ -28,14 +28,14 @@ In this scenario, the coffee order process is an analogy for observables in Angu
 
 Observables are like this buzzer.
 They are a way to handle asynchronous data streams, allowing your application to react to changes over time without blocking the main thread.
-Just like the buzzer informs you only when your drink is ready, observables notify your application when new data is available, enabling efficient management of asynchronous events.
+Just like the buzzer informs you only when your drink is ready, observables notify your application when new data is available, enabling efficient management of asynchronous events.  
 
-## How to use Observables
+## How to use Observables  
 
-1. Creating Observables
+### Creating Observables  
 
 You can create observables in several ways, including using the Observable constructor or Angular’s built-in HttpClient for handling HTTP requests.
-Here’s how to create a simple observable:
+Here’s how to create a simple observable:  
 
 ```typescript  
 import { Observable } from 'rxjs';  
@@ -46,11 +46,11 @@ const myObservable = new Observable(subscriber => {
 });  
 ```  
 
-2. Subscribing to Observables
+### Subscribing to Observables  
 
 To receive data from an observable, you need to subscribe to it.
 This is like waiting for your buzzer to alert you.
-Here’s an example of subscribing to the observable created above:
+Here’s an example of subscribing to the observable created above:  
 
 ```typescript  
 myObservable.subscribe({  
@@ -63,10 +63,10 @@ myObservable.subscribe({
 });  
 ```  
 
-3. Using Observables in Angular Services
+### Using Observables in Angular Services  
 
 In Angular, observables are often used in services, especially for making HTTP requests.
-Here’s how you might use Angular’s HttpClient to get data from an API:
+Here’s how you might use Angular’s HttpClient to get data from an API:  
 
 ```typescript  
 import { HttpClient } from '@angular/common/http';  
@@ -85,10 +85,10 @@ export class DataService {
 }  
 ```  
 
-4. Using the AsyncPipe in Templates
+### Using the AsyncPipe in Templates  
 
 To display data from an observable in your component’s template, you can use the AsyncPipe.
-This automatically subscribes and unsubscribes to the observable for you, simplifying your code:
+This automatically subscribes and unsubscribes to the observable for you, simplifying your code:  
 
 ```html  
 <div *ngIf="dataService.getData() | async as data">  
@@ -96,13 +96,13 @@ This automatically subscribes and unsubscribes to the observable for you, simpli
 </div>
 ```  
 
-## Examples of Observables
+## Examples of Observables  
 
-Here are some common use cases and examples of observables in Angular:
+Here are some common use cases and examples of observables in Angular:  
 
-1. Fetching Data from an API
+### Fetching Data from an API
 
-Using observables to handle HTTP requests allows you to manage asynchronous data fetching effortlessly:
+Using observables to handle HTTP requests allows you to manage asynchronous data fetching effortlessly:  
 
 ```typescript  
 this.dataService.getData().subscribe(data => {  
@@ -110,9 +110,9 @@ this.dataService.getData().subscribe(data => {
 });  
 ```  
 
-2. Listening to User Inputs
+### Listening to User Inputs  
 
-You can use observables to react to user inputs, such as typing in a search box:
+You can use observables to react to user inputs, such as typing in a search box:  
 
 ```typescript  
 import { Subject } from 'rxjs';  
@@ -128,9 +128,9 @@ this.searchTerm.pipe(
 });  
 ```  
 
-3. Handling Events
+### Handling Events  
 
-Observables can also be used to manage events, such as clicks:
+Observables can also be used to manage events, such as clicks:  
 
 ```typescript  
 fromEvent(document, 'click').subscribe(event => {  
@@ -138,9 +138,9 @@ fromEvent(document, 'click').subscribe(event => {
 });  
 ```  
 
-4. Combining Multiple Observables
+### Combining Multiple Observables  
 
-You can combine multiple observables using operators like combineLatest or forkJoin:
+You can combine multiple observables using operators like combineLatest or forkJoin:  
 
 ```typescript  
 import { forkJoin } from 'rxjs';  
