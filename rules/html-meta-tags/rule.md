@@ -23,11 +23,13 @@ guid: 3bcee6c3-13c6-45a7-8379-236a7cf44030
 ---
 One of the easiest ways to get the ball rolling with your web pages and being noticed by search engines is to use [HTML &lt;meta&gt; tags](https://www.w3schools.com/tags/tag_meta.asp). Years ago, many webmasters took this as an opportunity to abuse the &lt;meta&gt; tags and the search engines found that the quality of search results was suffering. Today, search engines don't give the &lt;meta&gt; tags weight - Google announced in September of 2009 that neither **meta descriptions** nor **meta keywords** affects Google's ranking algorithms for web searches.
 
+However, it's still beneficial to complete this quick and easy task.
+
+
+
 <!--endintro-->
 
 ![Figure: An SEO expert hard at work](seo_expert.jpg)
-
-However, it's still beneficial to complete this quick and easy task.
 
 There are a few &lt;meta&gt; tags you should use, and these are the most common:
 
