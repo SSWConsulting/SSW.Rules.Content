@@ -33,7 +33,7 @@ Typically, this is the data it will have:
 * Decision Drivers
 * Options and Pros/Cons
 
-`youtube: https://youtu.be/QiElThRQ2jE`
+`youtube: https://youtu.be/9w5yApybZbY`
 **Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)**
 
 ## ⚠️ The dangers of not documenting important decisions
