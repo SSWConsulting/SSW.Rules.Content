@@ -72,11 +72,11 @@ You should also include a description about the contents for ease of navigation.
 ::: greybox
 Join us for {{ TEAM NAME }}'s Sprint {{ OLD NUMBER }} Review + Retro and Sprint {{ NEW NUMBER }} Planning
 
-{{ MIN }}:{{ SEC }} Intro
-{{ MIN }}:{{ SEC }} Sprint Review
-{{ MIN }}:{{ SEC }} Sprint Retro
-{{ MIN }}:{{ SEC }} Sprint Planning
-{{ MIN }}:{{ SEC }} Outro
+{{ MIN }}:{{ SEC }} Intro  
+{{ MIN }}:{{ SEC }} Sprint Review  
+{{ MIN }}:{{ SEC }} Sprint Retro  
+{{ MIN }}:{{ SEC }} Sprint Planning  
+{{ MIN }}:{{ SEC }} Outro  
 
 🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
