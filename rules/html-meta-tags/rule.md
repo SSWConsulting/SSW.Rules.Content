@@ -45,6 +45,10 @@ There are a few &lt;meta&gt; tags you should use, and these are the most common:
 
 To ensure your meta tags are present and well formatted, we have a useful program called [SSW Code Auditor](https://codeauditor.com/).
 
+![❌Figure: Bad Example - Website with a missing meta description tag](dorybadmetadescription.jpg)
+
+![✅Figure: Good Example - SSW Dory's website has a meta description tag](metadescriptionsswdory.jpg)
+
 ##### Avoiding Duplicate Content
 
 **The duplicate content myth** There is a widely held misconception that Google penalizes authors for having duplicate meta tags, particularly meta description and meta title tags. However, Google primarily targets pages that are exact duplicates of other pages when penalizing for duplicate content. Read more about this in Google's [original blog post](https://tina.io/docs/reference/fields/#definition).
