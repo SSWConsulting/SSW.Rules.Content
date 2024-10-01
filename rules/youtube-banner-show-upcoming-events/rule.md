@@ -2,7 +2,7 @@
 seoDescription: Upcoming events highlighted on your YouTube channel's banner create anticipation, connection with your audience, and showcases professionalism.
 type: rule
 archivedreason:
-title: Does your home page banner show upcoming events?
+title: Channel - Does your home page banner show upcoming events?
 guid: 61d15bb1-aa8c-406c-97ea-4cd08bd22340
 uri: youtube-banner-show-upcoming-events
 created: 2023-08-11T03:56:22.0000000Z
