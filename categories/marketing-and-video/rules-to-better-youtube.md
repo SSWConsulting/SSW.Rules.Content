@@ -8,6 +8,7 @@ index:
 - where-to-upload-work-related-videos
 - videos-youtube-friendly
 - optimize-videos-for-youtube
+- video-topic-ideas
 - untapped-keywords
 - youtube-livestreams
 - manage-youtube-livestream-content
