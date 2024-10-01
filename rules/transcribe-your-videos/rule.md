@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you transcribe your videos?
+title: Searchability - Do you transcribe your videos?
 uri: transcribe-your-videos
 authors:
   - title: Adam Cogan
