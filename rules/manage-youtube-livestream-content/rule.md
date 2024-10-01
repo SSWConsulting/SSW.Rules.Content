@@ -1,7 +1,7 @@
 ---
 seoDescription: Manage your YouTube live-stream content effectively with our recommended approach, featuring a balance between consistency and engagement.
 type: rule
-title: Do you manage your YouTube live-stream content?
+title: Streaming - Do you manage your YouTube live-stream content?
 uri: manage-youtube-livestream-content
 authors:
   - title: Jonty Gardner
@@ -20,9 +20,9 @@ Secondly, editing a livestream after the fact can be time-consuming and tedious.
 
 Thirdly, as of 27 Oct 2022, Shorts and live streams no longer appear in the videos tab. It’s now split into 3 categories:
 
-1. SHORTS
-2. LIVE
-3. VIDEOS
+* **Shorts**
+* **Live**
+* **Videos**
 
 ![Figure: Videos, Shorts, and Live tabs on your YouTube channel](rules/manage-youtube-livestream-content/Videos-shorts-live.jpg)
 
