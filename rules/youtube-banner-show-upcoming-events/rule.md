@@ -2,7 +2,7 @@
 seoDescription: Upcoming events highlighted on your YouTube channel's banner create anticipation, connection with your audience, and showcases professionalism.
 type: rule
 archivedreason:
-title: Does your home page banner show upcoming events?
+title: Channel - Does your home page banner show upcoming events?
 guid: 61d15bb1-aa8c-406c-97ea-4cd08bd22340
 uri: youtube-banner-show-upcoming-events
 created: 2023-08-11T03:56:22.0000000Z
@@ -19,9 +19,9 @@ Imagine a potential client visiting your YouTube channel, keen to engage with yo
 
 ### Why?
 
-- **Engagement and connection**: A visual and current home page creates anticipation and informs your audience about your next event.
-- **Professionalism**: A timely and well-designed banner shows commitment to quality and consistency.
-- **Relevance**: It keeps your channel relevant and gives viewers a reason to check out your content.
+* **Engagement and connection**: A visual and current home page creates anticipation and informs your audience about your next event.
+* **Professionalism**: A timely and well-designed banner shows commitment to quality and consistency.
+* **Relevance**: It keeps your channel relevant and gives viewers a reason to check out your content.
 
 ### How?
 
