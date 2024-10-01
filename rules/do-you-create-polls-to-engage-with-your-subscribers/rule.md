@@ -22,4 +22,4 @@ To create a Community post, go to the tab called “Community” from your chann
 
 1. You click on the Create button | Create post.
 2. Click Poll Icon
-3. Add your Questions and options in, once done press post 
+3. Add your Questions and options in, once done press post
