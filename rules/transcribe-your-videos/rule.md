@@ -16,7 +16,7 @@ guid: 762aa1d7-eb94-4fbf-90c9-39c38db5e03b
 ---
 When you upload a video, the most important step is setting a good title and description. However there is a further step to take in order to help others find your video content.
 
-One of the few disadvantages of videos over written content is that Google can't tell much about your video apart from the title and tags you may provide when you upload it. By **having your video transcribed** and adding the transcription text to wherever the video is shown, you're giving Google specific information about the content of your video.   
+One of the few disadvantages of videos over written content is that Google can't tell much about your video apart from the title and tags you may provide when you upload it. By **having your video transcribed** and adding the transcription text to wherever the video is shown, you're giving Google specific information about the content of your video.
 
 <!--endintro-->
 
