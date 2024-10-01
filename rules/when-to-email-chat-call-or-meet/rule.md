@@ -60,6 +60,6 @@ Figure: Good example – The "❌ Blocked" makes it clear that this is urgent
 This is similar to saying "❌ Blocked" in a [Daily Scrum](/methodology-daily-scrums).
 :::
 
-In general, **IM is designed for real-time collaboration and communication**, while **email is better suited for asynchronous communication**.   
-Therefore, if you need to discuss something quickly or want to work collaboratively on a project, using Teams is more suitable.   
+In general, **IM is designed for real-time collaboration and communication**, while **email is better suited for asynchronous communication**.
+Therefore, if you need to discuss something quickly or want to work collaboratively on a project, using Teams is more suitable.
 If you need to send a formal or official message, or want to provide detailed information that can be referenced later, an email may be more appropriate.
