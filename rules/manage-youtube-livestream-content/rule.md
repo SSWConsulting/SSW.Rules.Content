@@ -32,8 +32,8 @@ With this in mind, there are several options you can do to manage your live-stre
 
 ## Option 1 - Complete Consistency (OK)
 
-- After the livestream, take it down and upload it so it shows in the videos tab
-- Live is archived or zz'd
+* After the livestream, take it down and upload it so it shows in the videos tab
+* Live is archived or zz'd
   ✅Consistent
   ✅Shows UserGroup on videos tab
   ❌Lose views and engagement
@@ -45,7 +45,7 @@ With this in mind, there are several options you can do to manage your live-stre
 
 ## Option 2 - If the video is live and good quality, edit directly in YouTube Editor (Good)
 
-- Add it to a playlist and make that playlist prominent on the YouTube home page\
+* Add it to a playlist and make that playlist prominent on the YouTube home page\
   ✅Engagement - Keeps views and comments
   ✅Cheap
   ✅Faster in outputting content
@@ -58,8 +58,8 @@ With this in mind, there are several options you can do to manage your live-stre
 
 ## Option 3 - Separate the videos (Recommended)
 
-- Keep the unedited Live version online
-- Upload an edited version separately (cutting out all the fluff, fixing audio glitches, etc.)\
+* Keep the unedited Live version online
+* Upload an edited version separately (cutting out all the fluff, fixing audio glitches, etc.)\
   ✅Consistent and keep views
   ✅Shows your edited version on the videos tab
   ❌Could be viewed as repetitive content (debatable)
