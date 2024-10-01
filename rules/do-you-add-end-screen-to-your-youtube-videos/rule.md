@@ -30,10 +30,10 @@ End screens help to avoid viewers to go away by suggesting to them the next cont
 
 Hold their hand by promoting up to four elements which can be:
 
-- Another video or playlist
-- A subscribe button
-- Another channel
-- A link to an approved website
+* Another video or playlist
+* A subscribe button
+* Another channel
+* A link to an approved website
 
 ![Figure: To add an end screen, go to VIDEO MANAGER | Videos | (select your video) | End screens and Annotations | Add element](end screen.png)
 

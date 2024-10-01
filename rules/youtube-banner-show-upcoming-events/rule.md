@@ -19,9 +19,9 @@ Imagine a potential client visiting your YouTube channel, keen to engage with yo
 
 ### Why?
 
-- **Engagement and connection**: A visual and current home page creates anticipation and informs your audience about your next event.
-- **Professionalism**: A timely and well-designed banner shows commitment to quality and consistency.
-- **Relevance**: It keeps your channel relevant and gives viewers a reason to check out your content.
+* **Engagement and connection**: A visual and current home page creates anticipation and informs your audience about your next event.
+* **Professionalism**: A timely and well-designed banner shows commitment to quality and consistency.
+* **Relevance**: It keeps your channel relevant and gives viewers a reason to check out your content.
 
 ### How?
 

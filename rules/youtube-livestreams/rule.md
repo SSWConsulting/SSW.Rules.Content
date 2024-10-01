@@ -10,9 +10,9 @@ authors:
 created: 2024-08-30T11:48:00.000Z
 guid: 8bc8adff-6ed5-465f-80ce-8c2a998f6845
 ---
-Livestreams are a valuable tool for reaching a global audience, yet they come with their own set of challenges. 
+Livestreams are a valuable tool for reaching a global audience, yet they come with their own set of challenges.
 
-They enable us to connect with a worldwide audience in real-time, providing an opportunity to build a larger community over time. In the beginning your livestreams may have low attendance, imagine how incredible it could be to have over a thousand attendees. This can only happen if you persistently build your audience month by month. 
+They enable us to connect with a worldwide audience in real-time, providing an opportunity to build a larger community over time. In the beginning your livestreams may have low attendance, imagine how incredible it could be to have over a thousand attendees. This can only happen if you persistently build your audience month by month.
 
 ## ✅ The benefits of livestreaming
 
