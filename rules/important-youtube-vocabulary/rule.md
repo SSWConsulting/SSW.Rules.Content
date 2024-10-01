@@ -2,7 +2,7 @@
 seoDescription: Unlock the secrets of YouTube's most important metrics, including session time, watch time, pattern interrupts, CTR, and audience retention.
 type: rule
 archivedreason:
-title: Do you know the important YouTube vocabulary?
+title: Analytics - Do you know the important YouTube vocabulary?
 guid: 6aaa0879-ba3c-481c-9dba-85cfe6fd43ec
 uri: important-youtube-vocabulary
 created: 2018-05-21T00:23:40.0000000Z
