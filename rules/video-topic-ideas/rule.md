@@ -18,15 +18,16 @@ To keep your video content relevant and aligned with your business goals, it's c
 
 Marketing priorities may shift over time due to changes in business focus, customer feedback, or industry trends. By holding a dedicated brainstorming sessions, you can:
 
-- **Stay aligned with your business goals:** Revisit your strategy and assess whether your video content is still on track.
-- **Respond to market changes:** Adapt to new industry trends and address emerging customer concerns.
-- **Ensure consistent content creation:** Avoid periods of stagnation by planning your content pipeline ahead of time.
+* **Stay aligned with your business goals:** Revisit your strategy and assess whether your video content is still on track.
+* **Respond to market changes:** Adapt to new industry trends and address emerging customer concerns.
+* **Ensure consistent content creation:** Avoid periods of stagnation by planning your content pipeline ahead of time.
 
 ### How to brainstorm effectively
 
 Schedule a recurring meeting
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Marketing Team, Video Team |
@@ -34,17 +35,17 @@ Schedule a recurring meeting
 | Subject: | Marketing Video Ideation – Recurring Quarterly Meeting |
 ::: email-content  
 
-### Hi Team,
+### Hi Team
 
 Here's the agenda for our quarterly marketing video ideation meeting:
 
 Attendees: {{ PEOPLE }}
 
 **Agenda:**
+
 * Brainstorm searchable video titles from {{ MARKETING STRATEGY URL }}
 * Experiment with {{ PRECOOKED IDEAS }} (e.g. targeting dev vs CTO)
 * Add the topics to {{ VIDEO BACKLOG }} [SSW.ChewingTheFat/issues](https://github.com/SSWConsulting/SSW.ChewingTheFat/issues) with a "Checked by Brady"
-
 
 <This email is as per [https://www.ssw.com.au/rules/video-topic-ideas](https://www.ssw.com.au/rules/video-topic-ideas)>
 
