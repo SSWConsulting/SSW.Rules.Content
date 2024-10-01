@@ -35,10 +35,10 @@ Open any email in your Inbox – by double-clicking on it - then go to the “Mo
 3. Setup the condition and action  
 
 In the “Create Rule” dialog, choose the following options  
-- a condition e.g. Subject contains: “Newsletter”  
-- an action e.g. Move the item folder: Newsletters  
+* a condition e.g. Subject contains: “Newsletter”  
+* an action e.g. Move the item folder: Newsletters  
 
-![Figure: Setup your preferences](figure-2-setup-the-rule.png)   
+![Figure: Setup your preferences](figure-2-setup-the-rule.png)
 
 4. Save your changes  
 
