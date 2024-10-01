@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use Premiere Pro Markers as YouTube Chapter Links?
+title: Videos - Do you use Premiere Pro Markers as YouTube Chapter Links?
 uri: premiere-pro-markers-as-youtube-chapter-links
 authors:
   - title: Jonty Gardner
