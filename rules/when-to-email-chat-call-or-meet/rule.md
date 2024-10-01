@@ -14,7 +14,8 @@ authors:
     url: https://www.ssw.com.au/people/nick-curran
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - important-chats-should-be-in-an-email
   - if-communication-is-not-simple-call-the-person-instead-of-im
