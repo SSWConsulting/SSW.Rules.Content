@@ -9,6 +9,9 @@ authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny-walker
 created: 2024-09-11T14:32:00.000Z
+related:
+  - do-you-know-how-to-format-dates-to-include-the-weekday
+  - do-you-display-dates-in-a-human-friendly-format
 guid: 41332a7f-b065-48b2-a1df-847594fe7815
 ---
 
