@@ -45,11 +45,12 @@ Attendees: {{ PEOPLE }}
 
 * Brainstorm searchable video titles from {{ MARKETING STRATEGY URL }}
 * Experiment with {{ PRECOOKED IDEAS }} (e.g. targeting dev vs CTO)
-* Add the topics to {{ VIDEO BACKLOG }} [SSW.ChewingTheFat/issues](https://github.com/SSWConsulting/SSW.ChewingTheFat/issues) with a "Checked by Brady"
+* Add the topics to {{ VIDEO BACKLOG }} [SSW.ChewingTheFat/issues](https://github.com/SSWConsulting/SSW.ChewingTheFat/issues) with a "[Checked by XXX](/checked-by-xxx)"
 
 <This email is as per [https://www.ssw.com.au/rules/video-topic-ideas](https://www.ssw.com.au/rules/video-topic-ideas)>
-
 :::
+:::
+
 ::: good  
 Figure: Good example - Getting video topics aligned with the marketing strategy.  
 :::
