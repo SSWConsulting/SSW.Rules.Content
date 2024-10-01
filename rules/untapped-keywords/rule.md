@@ -2,7 +2,7 @@
 seoDescription: Do you use untapped keywords to boost your YouTube video's visibility?
 type: rule
 archivedreason:
-title: Do you use untapped keywords?
+title: Titles - Do you use untapped keywords?
 guid: 0749f5bd-e3c6-41fe-9107-cbc156fc8d64
 uri: untapped-keywords
 created: 2018-05-20T23:22:34.0000000Z
