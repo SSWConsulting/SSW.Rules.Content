@@ -25,39 +25,45 @@ Asking easy questions saves time for both the person asking and the person answe
 
 <!--endintro-->
 
-# Make your questions easy to respond to
+## Make questions that are easy to respond to
 
-If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points. Depending on your question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. Don't ask for a $10,000 purchase please with a Teams message!
+If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points. 
+
+Depending on your question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. Don't ask for a $10,000 purchase please with a Teams message!
 
 ### Yes or no
 
 This type of question is the easiest to answer. The clearest way to phrase it is with a 'y or n' at the end of your question.
 
 ::: greybox
-What do you think of this caption for our new video on Facebook?
+What are your thoughts on this title for our new video on YouTube?
 :::
 
 ::: bad
-Figure: Bad example - open ended question
+Figure: Bad example - Open ended question
 :::
 
 ::: greybox
-Is this caption good for our new video on Facebook? Y or n?
+Is this title good for our new video on YouTube? Yes or no?
 :::
 
 ::: good
-Figure: Good example - the other person knows immediately how to answer
+Figure: Good example - The other person knows immediately how to answer
 :::
 
-Tip: Don't feel like you are confining their reply - if they feel like they need to add more detail, they can!
+**Tip:** Don't feel like you are confining their reply - if they feel like they need to add more detail, they can!
 
 ### Simple questions
 
 For a simple question with multiple options, list the options and ask them to thumbs up 👍 their preferred one. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
-![Figure: ❌ Bad example - The person might spend unnecessary time pondering and then typing a reply ](bad-question.png)
+::: bad
+![Figure: Bad example - The person might spend unnecessary time pondering and then typing a reply](bad-question.png)
+:::
 
-![Figure: ✅ Good example - The question and options are easy for a busy person to action ](no-hello.jpg)
+::: good
+![Figure: Good example - The question and options are easy for a busy person to action](no-hello.jpg)
+:::
 
 ### Questions to a group
 
