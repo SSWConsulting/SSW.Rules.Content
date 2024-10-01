@@ -11,6 +11,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - when-to-email-chat-call-or-meet
+  - warn-then-call
 redirects:
   - do-you-call-instead-of-im-when-communication-is-not-simple
 ---
@@ -24,9 +25,9 @@ Communication using voice is much faster than typing a message and it can clear 
 Example:
 
 ::: greybox
-**Scott:**  Did you say to me, you would contact Tiago on Skype to do it collaboratively... rather than email?
+**Scott:**  Did you say to me, you would contact Mike on Teams to do it collaboratively... rather than email?
 
-**Dave:**  I agreed I'll contact them over Skype as suggested by Drew
+**Dave:**  I agreed I'll contact them over Teams as suggested by Sophie
 
 **Scott:**  Isn't that what I just said? (and you said you were sending emails)
 
