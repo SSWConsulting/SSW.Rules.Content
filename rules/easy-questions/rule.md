@@ -27,7 +27,7 @@ Asking easy questions saves time for both the person asking and the person answe
 
 ## Make questions that are easy to respond to
 
-If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points. 
+If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points.
 
 Depending on your question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. Don't ask for a $10,000 purchase please with a Teams message!
 
