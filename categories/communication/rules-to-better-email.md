@@ -98,6 +98,7 @@ index:
 - description-to-the-group
 - highlight-template-differences
 - format-new-lines
+- move-emails-into-folders
 
 ---
 
