@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you do Youtube livestreams?
+title: Streaming - Do you do Youtube livestreams?
 seoDescription: "Learn the best practices for using YouTube livestreams to engage with your audience effectively."
 uri: youtube-livestreams
 authors:
