@@ -18,6 +18,7 @@ related:
   - no-hello
   - appointments-throw-it-in-their-calendar
   - as-per-our-conversation-emails
+  - when-to-email-chat-call-or-meet
 redirects:
   - im-your-contact-to-see-if-they’re-free-before-you-try-calling-them
   - calling-do-you-im-your-contact-to-see-if-theyre-free-before-you-try-calling-them
@@ -100,12 +101,12 @@ Good example - Send them a message indicating you will try again later
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
 
-### 🔴 Blocked - What if can't reach the person for a whole day?
+### ❌ Blocked - What if you are blocked and can't reach the person for a whole day?
 
-If you couldn't get hold of the person, and a decision needs to be made, you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
+If you couldn't get hold of the person, and a decision needs to be made (aka blocked), you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
 
 ::: greybox
-"Tried to call with no luck. Since I'm blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
+"Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
 (checked by {{ APPROVER }}).
 Please get back to me if you prefer another way."
 :::
