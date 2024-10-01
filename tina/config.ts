@@ -2,12 +2,7 @@ import { defineConfig } from 'tinacms';
 import { Rules } from './collections/rules';
 
 // Your hosting provider likely exposes this as an environment variable
-const branch =
-  process.env.CONTENT_BRANCH ||
-  process.env.GITHUB_BRANCH ||
-  process.env.VERCEL_GIT_COMMIT_REF ||
-  process.env.HEAD ||
-  'main';
+const branch = 'tina/sample-content';
 
 const localContentPath = process.env.LOCAL_CONTENT_RELATIVE_PATH ?? undefined;
 const clientId = process.env.TINA_CLIENT_ID;
@@ -24,6 +19,7 @@ export default defineConfig({
   localContentPath,
 
   build: {
+    basePath: 'rules',
     outputFolder: 'admin',
     publicFolder: 'static',
   },
