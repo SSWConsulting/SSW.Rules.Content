@@ -2,7 +2,7 @@
 seoDescription: Keep your audience engaged by responding to comments, sharing videos on other platforms, and promoting them with attention-grabbing titles and emotional keywords.
 type: rule
 archivedreason:
-title: Do you keep your audience happy?
+title: Channel - Do you keep your audience happy?
 guid: 1c6b93fa-3ed4-40e6-aa15-642c909788d4
 uri: keep-audience-happy
 created: 2018-05-21T00:49:56.0000000Z
