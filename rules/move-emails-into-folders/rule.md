@@ -26,13 +26,13 @@ We’ve all experienced the frustration of a cluttered inbox, wasting time manua
 Open your Outlook app, right click on "Inbox" and create a new folder.
 This folder will be the container where the emails will be redirected to e.g. Newsletters.  
 
-1. Open the Rules menu  
+2. Open the Rules menu  
 
 Open any email in your Inbox – by double-clicking on it - then go to the “Move” tab of the ribbon and click on Rules | Create Rule.  
 
 ![Figure: Open the Rules dialog](figure-1-open-rules-dialog.png)  
 
-1. Setup the condition and action  
+3. Setup the condition and action  
 
 In the “Create Rule” dialog, choose the following options  
 
@@ -41,7 +41,7 @@ In the “Create Rule” dialog, choose the following options
 
 ![Figure: Setup your preferences](figure-2-setup-the-rule.png)
 
-1. Save your changes  
+4. Save your changes  
 
 Just click "OK" and you're done. From now on, all the Newsletter emails will automatically be moved into the Newsletter folder.  
 
