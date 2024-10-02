@@ -16,7 +16,7 @@ guid: 86866bb2-9079-413e-8a6d-6eef85c87a48
 
 If you need to remember the password then a passphrase is best. Preferably these should be made up of 4 random words with a length of at least 16 characters. These eliminate the requirement for special characters and are incredibly difficult for a computer to guess.
 
-A **strong password** would looks something like this:
+A **strong password** would look something like this:
 
 :::greybox
 correcthorsebatterystaple
