@@ -45,7 +45,7 @@ Cons:
 Pros:
 
 - Provides a balanced starting point for PBIs, allowing the team to focus on a mix of priorities
-- Aligns with a normal distribution, making it easier for the Scrum team to decide which PBIs to tackle in the next sprint
+- Aligns with a normal distribution, making it easier for the Scrum team to decide which PBIs to tackle in the next Sprint
 
 Cons:
 
@@ -61,4 +61,4 @@ For an effective distribution of severity levels, consider the following distrib
 - Severity 2 and 4: 13% each
 - Severity 3: 68%
 
-This distribution resembles a normal distribution and provides a clear guideline for the team to decide which PBIs to prioritize in the upcoming sprints.
+This distribution resembles a normal distribution and provides a clear guideline for the team to decide which PBIs to prioritize in the upcoming Sprints.
