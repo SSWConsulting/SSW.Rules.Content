@@ -26,12 +26,14 @@ Here's a list of the best AI tools for various categories (visit their websites 
 * **[HyperWrite](https://www.hyperwrite.ai)** - Assists with long-form content generation, offering context-aware suggestions
 
 ## Presentation design
+
 * **[Gamma.app](https://www.gamma.app)** - Revolutionizes presentation creation with interactive and dynamic slides
 * **[Beautiful.ai](https://www.beautiful.ai)** - Automatically designs stunning slides based on your content
 * **[Tome](https://www.tome.app)** - AI-powered tool for storytelling and visual presentations
 * **[Pitch](https://www.pitch.com)** - Collaborative presentation tool that leverages AI for enhanced slide design and data integration
 
 ## Image and design creation
+
 * **[DALL-E](https://openai.com/dall-e-2)** - The best tool at the moment, plus it's inside ChatGPT. Generates unique images based on text prompts
 * **[Midjourney](https://www.midjourney.com)** - Powerful tool for generating realistic and creative art based on prompts
 * **[Adobe Firefly](https://www.adobe.com/sensei/generative-ai/firefly.html)** - Adobe's generative AI tool for creating high-quality visuals
@@ -39,6 +41,7 @@ Here's a list of the best AI tools for various categories (visit their websites 
 * **[Stable Diffusion](https://stability.ai/stable-diffusion)** - Open-source model known for creating realistic and artistic images based on text prompts
 
 ## Video editing and creation
+
 * **[Runway](https://www.runwayml.com)** - Offers advanced AI video editing features like object removal and background replacement
 * **[Synthesia](https://www.synthesia.io)** - Allows users to create videos with AI-generated avatars and voiceovers
 * **[Lumen5](https://www.lumen5.com)** - Transforms text content into engaging video summaries
