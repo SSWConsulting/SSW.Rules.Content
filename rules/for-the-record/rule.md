@@ -26,7 +26,7 @@ Over the course of work on a project, there will likely be many little disagreem
 
 Too often developers say they disagree but months later, the client may say: _"No I don’t recall you disagreed, I thought I gave counter arguments and then I assumed you had agreed with me."_
 
-Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’. 
+Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’.
 
 ## Don't win by attrition
 
