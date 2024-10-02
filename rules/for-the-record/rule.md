@@ -53,7 +53,7 @@ I spoke to the developer about it, and he knew 100% that he had agreed with the 
 
 **Note:** Even better the developer could have included a URL in the email with a link to a PBI to remove this technical debt later."
 
-Adam Cogan
+[Adam Cogan](https://www.ssw.com.au/people/adam-cogan)   
 SSW Chief Architect
 :::
 
