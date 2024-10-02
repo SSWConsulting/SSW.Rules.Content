@@ -25,20 +25,21 @@ Everyone receives tasks in their inbox, so it's good to know how to set a due da
 
 #### A. followupthen.com
 
-followupthen.com is a simple way to get an email reminder when you need to start working on something. 
+followupthen.com is a simple way to get an email reminder when you need to start working on something.
 
 Just email {{ TIME/DATE }}@followupthen.com, and you'll get an email in your inbox when you need it. Of course, you'll need to give yourself time to complete the task before it's due!
 
 Note: You can BCC @followupthen.com on any email with other people, and the reminder will only go to you.
 
 ::: email-template
+
 | | |
 | -------- | --- |
-| To: | 1week@followupthen.com |
+| To: | <1week@followupthen.com> |
 | Subject: | New Starter - Sophie Belle |
 ::: email-content  
 
-### To Myself,
+### To Myself
 
 Sophie Belle starts work tomorrow.
 
