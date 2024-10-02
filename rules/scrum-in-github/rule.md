@@ -9,7 +9,7 @@ authors:
   - title: Josh Berman
     url: https://ssw.com.au/people/josh-berman
 related:
-  - github-Sprint-templates
+  - github-sprint-templates
 created: 2021-10-28T01:49:43.558Z
 guid: 1e308570-5ab0-43d7-8a83-6bdfd04d212e
 ---
