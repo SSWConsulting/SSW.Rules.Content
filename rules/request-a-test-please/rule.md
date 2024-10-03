@@ -28,6 +28,7 @@ These are the steps you should take when requesting a "Test Please":
 3. Create your "Test Please" following this template:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | John |
@@ -36,7 +37,8 @@ These are the steps you should take when requesting a "Test Please":
 
 1. <mark>'Test Please'</mark>
 
-### Hi John,
+### Hi John
+
 I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
@@ -75,7 +77,7 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
   * Please CC the project manager and the client
 * Do not reply to this message until you can say:
   * "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
-    or 
+    or
   * "**❌ Test Please failed** (as per Critical bugs reported)"
 
 Regards,
