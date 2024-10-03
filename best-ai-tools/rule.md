@@ -47,6 +47,6 @@ Note: most of the paid ones have a free trial, though you usually don't get full
 ## Video editing and creation
 
 * ⭐ **[Runway](https://www.runwayml.com)** - Offers advanced AI video editing features like object removal and background replacement
-* ⭐💲 **[ElevenLabs](https://elevenlabs.io/)** - A widely used text to voice tool that is often used for videos. 
+* ⭐💲 **[ElevenLabs](https://elevenlabs.io/)** - A widely used text to voice tool that is often used for videos.
 * **[Synthesia](https://www.synthesia.io)** - Allows users to create videos with AI-generated avatars and voiceovers
 * 💲 **[Lumen5](https://www.lumen5.com)** - Transforms text content into engaging video summaries
