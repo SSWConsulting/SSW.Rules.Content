@@ -91,7 +91,7 @@ If current version is better than the last version you can release (even with a 
 * 2 people have tested it
 * The changes in this version are fairly important to get out
 * You get to work on the failures ASAP
-  :::
+:::
 
 ### Don't send a 'Test Please' content via IM
 
