@@ -143,12 +143,12 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 3. When the task is done (or if there are other updates), reply in Zendesk - the email will go to everyone originally included in the email.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Bob |
 | Cc:      | Tim, [SysAdmins@northwind.zendesk.com](mailto:SysAdmins@northwind.zendesk.com) |
 | Subject: | Re: Add me to Azure DevOps |
-
 ::: email-content  
 
 (zendesking)
@@ -161,8 +161,8 @@ Thanks for sending this through. Please remember to send tasks to our Zendesk ad
 
 &dash; Chris
 
-:::\
-:::\
+:::
+:::
 ::: good
 Figure: Good example - send it to Zendesk!
 :::
