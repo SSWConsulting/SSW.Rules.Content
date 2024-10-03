@@ -45,5 +45,4 @@ In the “Create Rule” dialog, choose the following options
 
 Just click "OK" and you're done. From now on, all the Newsletter emails will automatically be moved into the Newsletter folder.  
 
-    
 By using Outlook rules, you can efficiently manage your inbox without having to manually sort through emails. Once set up, your emails will automatically move into their designated folders, helping you stay organized and productive.
