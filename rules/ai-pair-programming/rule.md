@@ -40,7 +40,7 @@ There is a lot to love with AI pair programming ❤️, here is just a taste of 
 * Query APIs
 * Do unit tests
 
-### Help with reading and understanding code
+### Github.com - Help with reading and understanding code
 
 * Generate Pull Request summaries
 * Explore and learn about a codebase
