@@ -40,7 +40,7 @@ There is a lot to love with AI pair programming ❤️, here is just a taste of 
 * Query APIs
 * Do unit tests
 
-### Help with reading and understanding code
+### Github.com - Help with reading and understanding code
 
 * Generate Pull Request summaries
 * Explore and learn about a codebase
@@ -53,11 +53,10 @@ These features normally requre paid plans as they index repos. Some tools that o
 AI pair programming has so much to offer, here are the 3 key benefits:
 
 1. **Accessibility** - Quick suggestions in heaps of languages
-
-* C#
-* JavaScript
-* SQL  
-   and many more
+    * C#
+    * JavaScript
+    * SQL  
+    * and many more
 
 2. **Efficiency** - Less time doing gruntwork like repetitive tasks and making boilerplate
 3. **Confidence** - Higher confidence and less wasted time when working in unfamiliar languages or areas
