@@ -19,6 +19,9 @@ Not to worry, AI pair programming is here to save the day!
 `youtube: https://www.youtube.com/embed/SXtMnn1v7d8`
 **Video: See awesome examples of GitHub Copilot in action with [Jesse Skinner](https://www.youtube.com/c/CodingwithJesse/featured)**
 
+`youtube: https://www.youtube.com/watch?v=vUX5u_4B2AM`
+**Video: Say hello to GitHub Copilot Enterprise! (17 min)**
+
 New tools like [GitHub Copilot](https://github.com/features/copilot) provide devs with potentially complete solutions as they type. It might sound like it's too good to be true, but in reality you can do so much with these tools.
 
 > "It’s hard to believe that GitHub Copilot is actually an AI and not a Mechanical Turk. The quality of the code is at the very least comparable to my own (and in fairness that's me bragging), and it's staggering to see how accurate it is in determining your needs, even in the most obscure scenarios."  
@@ -29,7 +32,6 @@ New tools like [GitHub Copilot](https://github.com/features/copilot) provide dev
 There is a lot to love with AI pair programming ❤️, here is just a taste of what it can do:
 
 ### Help with writing code
-
 * Populate a form
 * Do complex maths
 * Create DTOs
@@ -38,7 +40,6 @@ There is a lot to love with AI pair programming ❤️, here is just a taste of 
 * Do unit tests
 
 ### Help with reading and understanding code
-
 * Generate Pull Request summaries
 * Explore and learn about a codebase
 * Understand PBIs and how to implement them
