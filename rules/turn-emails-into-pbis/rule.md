@@ -143,6 +143,7 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 3. When the task is done (or if there are other updates), reply in Zendesk - the email will go to everyone originally included in the email.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Bob |
