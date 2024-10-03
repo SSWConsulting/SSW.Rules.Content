@@ -1,5 +1,5 @@
 ---
-seoDescription: Master Scrum management with GitHub Projects, where you can track sprints, estimates, and custom fields while collating issues from multiple repositories.
+seoDescription: Master Scrum management with GitHub Projects, where you can track Sprints, estimates, and custom fields while collating issues from multiple repositories.
 type: rule
 title: GitHub Projects - Do you know how to do Scrum?
 uri: scrum-in-github
@@ -47,11 +47,11 @@ That's a tonne of awesome features....but it requires a bit of set up, follow th
 
    ![Figure: Choose template to create a new project](organizationtemplatesgithub.png)
 
-3. We now want to setup our sprint iteration. Navigate to **Project Settings | Sprint | + Add Iteration**
+3. We now want to setup our Sprint iteration. Navigate to **Project Settings | Sprint | + Add Iteration**
 
-   ![Figure: Creating sprint irterations in a new GitHub project](githubchooseiteration.png)
+   ![Figure: Creating Sprint irterations in a new GitHub project](githubchooseiteration.png)
 
-4. You will see your new sprint created with settings. Click on the field you wish to edit to modify - name it **Sprint ‘X’** and enter **Start on** date and **Duration**.
+4. You will see your new Sprint created with settings. Click on the field you wish to edit to modify - name it **Sprint ‘X’** and enter **Start on** date and **Duration**.
 
    ![Figure: Pick the name and the dates via the Iteration field options](githubeditsprint.png)
 

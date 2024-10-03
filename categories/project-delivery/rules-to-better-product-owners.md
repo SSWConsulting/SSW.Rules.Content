@@ -36,4 +36,4 @@ index:
 
 ---
 
-Enhance your effectiveness as a Product Owner by mastering key responsibilities and communication strategies. Ensure timely sprint bookings, manage requirements clearly, and maintain regular updates on progress and costs while effectively triaging feedback and requests.
+Enhance your effectiveness as a Product Owner by mastering key responsibilities and communication strategies. Ensure timely Sprint bookings, manage requirements clearly, and maintain regular updates on progress and costs while effectively triaging feedback and requests.
