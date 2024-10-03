@@ -53,11 +53,10 @@ These features normally requre paid plans as they index repos. Some tools that o
 AI pair programming has so much to offer, here are the 3 key benefits:
 
 1. **Accessibility** - Quick suggestions in heaps of languages
-
-* C#
-* JavaScript
-* SQL  
-   and many more
+    * C#
+    * JavaScript
+    * SQL  
+    * and many more
 
 2. **Efficiency** - Less time doing gruntwork like repetitive tasks and making boilerplate
 3. **Confidence** - Higher confidence and less wasted time when working in unfamiliar languages or areas
