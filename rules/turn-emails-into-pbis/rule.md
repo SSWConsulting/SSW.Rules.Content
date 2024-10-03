@@ -148,7 +148,6 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 | To:      | Bob |
 | Cc:      | Tim, [SysAdmins@northwind.zendesk.com](mailto:SysAdmins@northwind.zendesk.com) |
 | Subject: | Re: Add me to Azure DevOps |
-
 ::: email-content  
 
 (zendesking)
@@ -161,8 +160,8 @@ Thanks for sending this through. Please remember to send tasks to our Zendesk ad
 
 &dash; Chris
 
-:::\
-:::\
+:::
+:::
 ::: good
 Figure: Good example - send it to Zendesk!
 :::
