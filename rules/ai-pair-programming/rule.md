@@ -32,6 +32,7 @@ New tools like [GitHub Copilot](https://github.com/features/copilot) provide dev
 There is a lot to love with AI pair programming ❤️, here is just a taste of what it can do:
 
 ### Help with writing code
+
 * Populate a form
 * Do complex maths
 * Create DTOs
@@ -40,6 +41,7 @@ There is a lot to love with AI pair programming ❤️, here is just a taste of 
 * Do unit tests
 
 ### Help with reading and understanding code
+
 * Generate Pull Request summaries
 * Explore and learn about a codebase
 * Understand PBIs and how to implement them
