@@ -36,7 +36,7 @@ Open any email in your Inbox – by double-clicking on it - then go to the “Mo
 
 In the “Create Rule” dialog, choose the following options  
 
-* a condition e.g. Subject contains: “Newsletter”  
+* a condition e.g. Subject contains: Newsletter  
 * an action e.g. Move the item to folder: Newsletters  
 
 ![Figure: Setup your preferences](figure-2-setup-the-rule.png)
