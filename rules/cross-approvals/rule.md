@@ -89,6 +89,11 @@ Once the list is compiled, assign each person a priority. That determines the or
 **Tip:** Set the "original approver" as the lowest priority to minimize their involvement.
 :::
 
+::: greybox
+**Tip:** When pinging the approvers in priority order, make sure to include the priority number as part of the message.  
+**Example:** Calling you to review a code change - Code Master (2/5)
+:::
+
 ::: bad
 ![Figure: Bad example - Adam approves the completion of everyone's induction](induction-bad.png)
 :::
