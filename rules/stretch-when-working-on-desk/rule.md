@@ -15,6 +15,7 @@ redirects: []
 
 ---
 
+What do devs, designers, accountants and managers all have in common: they spend a lot of time at a desk — sometimes up to 8 hours a day!  
 Sitting for extended periods can lead to chronic pain and tightness in key areas of the body: the hip flexors, chest, and back. These muscle groups become tight and imbalanced, leading to discomfort, poor posture, and potential long-term injuries.  
 
 <!--endintro-->
