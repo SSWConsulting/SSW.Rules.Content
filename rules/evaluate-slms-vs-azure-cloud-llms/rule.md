@@ -37,7 +37,7 @@ Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after eval
 
 ### How to evaluate SLMs against Azure AI’s cloud LLMs
 
-**Set performance benchmarks**: Run both the SLM and Azure’s cloud-based LLMs on the same dataset or task. Measure their performance in terms of accuracy, response quality, latency, and resource consumption
+**Set performance benchmarks**: Run both the SLM and Azure OpenAI services on the same dataset or task. Measure their performance in terms of accuracy, response quality, latency, and resource consumption
 
 **Compare output quality**: Test how well each model responds to different types of queries, from simple to complex. While Azure’s LLMs might excel at complex, open-ended tasks, an SLM may be sufficient for simpler, well-defined tasks
 
