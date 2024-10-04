@@ -26,7 +26,7 @@ The work to be performed in the Sprint is planned at the Sprint Planning meeting
 
 <!--endintro-->
 
-### Why is this Sprint valuable?
+## Why is this Sprint valuable?
 
 The Product Owner proposes how the product could increase its value and utility in the current Sprint. The whole Scrum Team then collaborates to define a Sprint Goal that communicates why the Sprint is valuable to stakeholders.
 
@@ -57,7 +57,7 @@ Once enough stories are sized, the Product Owner is given the opportunity to re-
 
 This meeting should be timeboxed to an hour for every week in the Sprint. However, the Scrum Master must be sensitive to the meeting producing a workable result.
 
-### Capacity Planning
+## Capacity Planning
 
 It is important for Sprint capacity planning to be consistent across all teams. As such, there should be consistency in how many story points you allocate to a Sprint. It's unreasonable to think that someone will be able to work productively and consecutively for 8 hours straight on a particular task. For example, if a task is allotted a 4 for effort (8 hours), the developer will probably spend about 6 hours coding, and 2 of those 8 hours fixing bugs, communicating, or working on the admin side of things. Even if devs may try to factor these things into their estimation, a 20% buffer never hurts.
 
@@ -65,7 +65,7 @@ Therefore, a standard 1-week Sprint with 2 resources would have about 32 story p
 
 **Note:** This is specifically for the first couple of Sprints in a project, until you get an average velocity that you can use for capacity planning moving forward.
 
-### How will the work needed to deliver the Increment be achieved?
+## How will the work needed to deliver the Increment be achieved?
 
 To answer the second question the team create tasks, with sub-tasks where necessary, for everything that needs to be done to implement the PBI. Every task and sub-task should be given an estimate in hours and the same value placed in the Remaining field.
 
@@ -79,7 +79,7 @@ Ideally this meeting is timeboxed to as many hours as there will be weeks in the
 
 It is not essential for the Product Owner or the Scrum Master to be present for the whole meeting but they must be available for consultation. The Scrum Master should formally close the meeting.
 
-Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
+Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/sprint-forecast).
 
 ---
 
@@ -89,7 +89,7 @@ Learn more about the meetings in Scrum:
 * Sprint Planning Meeting (this rule)
 * [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
 * [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
+* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
