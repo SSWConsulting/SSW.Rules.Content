@@ -12,6 +12,9 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
 related:
   - 8-steps-to-scrum
+  - what-happens-at-a-sprint-planning-meeting
+  - what-happens-at-retro-meetings
+  - what-happens-at-a-sprint-review-meeting
 redirects: []
 created: 2010-05-06T05:41:54.000Z
 archivedreason: null
