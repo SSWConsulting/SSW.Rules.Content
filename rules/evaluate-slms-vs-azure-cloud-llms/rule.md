@@ -4,8 +4,8 @@ type: rule
 title: Do you evaluate SLMs for performance compared to Azure AI’s cloud-based LLMs?
 uri: evaluate-slms-vs-azure-cloud-llms
 authors:
-  - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/uly
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka/
 created: 2024-10-03T16:15:00.000Z
 guid: e9b7c5bc-cb35-4876-9785-d2031fb4f69e
 ---
