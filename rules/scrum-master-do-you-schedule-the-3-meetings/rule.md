@@ -39,8 +39,17 @@ The Scrum Master should estimate how much time each meeting will require, then s
 * Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance
 
 ::: greybox
-**Tip:** It can be helpful to finish the Sprint Planning meeting with the first Daily Scrum.
+Learn more about the meetings in Scrum:
+
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
+
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
+
+## Scheduling the meetings
 
 Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 
@@ -95,13 +104,3 @@ Figure: Good example - Copy this appointment template and send to the Scrum Team
 :::
 
 See [Meetings - Do you know when to send an Appointment or a Teams Meeting?](/send-appointment-or-teams-meeting) for more information.
-
-::: greybox
-In Scrum, there are 4 meetings in total that you need to know about:
-
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting") (Stand-up)
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-
-:::
