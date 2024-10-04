@@ -20,9 +20,9 @@ guid: f0bf4d20-cee6-4731-b343-603cf7db3e5d
 
 The work to be performed in the Sprint is planned at the Sprint Planning meeting. At the Sprint Planning meeting, the following 3 questions are answered:
 
-- Why is this Sprint valuable?
-- What can be delivered in the increment(s) resulting from the upcoming Sprint?
-- How will the work needed to deliver the increment(s) be achieved?
+* Why is this Sprint valuable?
+* What can be delivered in the increment(s) resulting from the upcoming Sprint?
+* How will the work needed to deliver the increment(s) be achieved?
 
 <!--endintro-->
 
@@ -46,8 +46,8 @@ The team then size (assign Story points to) PBIs starting at the top until there
 
 The process of sizing is somewhat formal. Either using cards or IM (essential if not co-located) the team vote privately on the size of the PBI. They can either:
 
-- Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
-- Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
+* Use t-shirt sizes of XXS, XS, S, M, L, XL, XXL and XXXL or
+* Their equivalent number of story points for which we use the Doubling Series of 1, 2, 4, 8, 16 or 32.
 
 Once the differing votes are in, the Scrum Master asks the smallest and biggest voters to explain the reasons for their vote. Assumptions and omissions are quickly identified through discussions and the Scrum Master encourages discussion until consensus on the story points is reached. Any PBI voted at 16 or higher should be broken down into smaller stories; re-prioritized by the Product Owner and re-sized if necessary.
 
