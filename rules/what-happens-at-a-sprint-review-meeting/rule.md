@@ -63,6 +63,7 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 ::: greybox
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ YOUR SCRUM MASTER }} |
