@@ -35,7 +35,7 @@ Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after eval
 
 **Model control**: Using an SLM, particularly if it is deployed locally, offers more control over the model’s behavior, updates, and fine-tuning. This can be valuable for applications where privacy, security, or specific customizations are required
 
-### How to evaluate SLMs against Azure AI’s cloud LLMs
+### How to evaluate SLMs against Azure OpenAI services
 
 **Set performance benchmarks**: Run both the SLM and Azure OpenAI services on the same dataset or task. Measure their performance in terms of accuracy, response quality, latency, and resource consumption
 
