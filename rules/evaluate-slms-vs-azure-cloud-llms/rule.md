@@ -13,21 +13,21 @@ guid: e9b7c5bc-cb35-4876-9785-d2031fb4f69e
 When using Azure AI services, you often have the choice between Small Language Models (SLMs) and Azure’s powerful cloud-based Large Language Models (LLMs), like GPT-4. While Azure LLMs offer significant capabilities, they can also be expensive. In many cases, SLMs can perform just as well for certain tasks, making them a more cost-effective solution. Evaluating the performance of SLMs against Azure AI’s LLMs is essential for balancing cost and performance.
 
 <!--endintro-->
-::: greybox         
-A startup builds a simple FAQ chatbot that answers repetitive customer service questions like “What are your business hours?” or “How do I reset my password?” They choose to implement Azure GPT-4, leading to high operational costs. An SLM could have provided the same answers without the extra expense.      
-:::           
-::: bad          
-Figure: Bad example - Using Azure GPT-4 for simple FAQ tasks incurs high costs, while an SLM would be more cost-effective   
-:::         
+::: greybox
+A startup builds a simple FAQ chatbot that answers repetitive customer service questions like “What are your business hours?” or “How do I reset my password?” They choose to implement Azure GPT-4, leading to high operational costs. An SLM could have provided the same answers without the extra expense.
+:::
+::: bad
+Figure: Bad example - Using Azure GPT-4 for simple FAQ tasks incurs high costs, while an SLM would be more cost-effective
+:::
 
-::: greybox       
-A financial services company needs to develop a chatbot to guide customers through complex mortgage applications, requiring the chatbot to understand intricate details and provide personalized advice. After evaluating both, they use Azure GPT-4 due to its better handling of complex queries and personalized responses, which an SLM could not manage effectively.           
-:::       
-::: good           
-Figure: Good example - Choosing Azure GPT-4 for complex tasks after evaluation provides better customer service and justifies the higher cost     
-:::         
+::: greybox
+A financial services company needs to develop a chatbot to guide customers through complex mortgage applications, requiring the chatbot to understand intricate details and provide personalized advice. After evaluating both, they use Azure GPT-4 due to its better handling of complex queries and personalized responses, which an SLM could not manage effectively.
+:::
+::: good
+Figure: Good example - Choosing Azure GPT-4 for complex tasks after evaluation provides better customer service and justifies the higher cost
+:::
 
-### Why evaluate SLMs?     
+### Why evaluate SLMs?
 
 **Cost considerations**: Azure AI’s cloud-based LLMs, such as GPT-4, charge per usage, which can quickly add up. On the other hand, SLMs, which can be deployed locally or in a more cost-efficient environment, may offer similar results for less complex tasks, reducing overall costs
 
@@ -47,7 +47,7 @@ Figure: Good example - Choosing Azure GPT-4 for complex tasks after evaluation p
 
 ### When to stick with Azure AI’s cloud LLMs
 
-- For complex tasks that require deep understanding, creativity, or nuanced language generation, Azure’s LLMs, like GPT-4, may still be the best choice
-- Cloud-based LLMs offer ease of scalability and quick integration with Azure services, making them ideal for projects that need high availability or require rapid deployment without complex infrastructure management
+* For complex tasks that require deep understanding, creativity, or nuanced language generation, Azure’s LLMs, like GPT-4, may still be the best choice
+* Cloud-based LLMs offer ease of scalability and quick integration with Azure services, making them ideal for projects that need high availability or require rapid deployment without complex infrastructure management
 
 By evaluating SLMs against Azure AI’s cloud-based LLMs, you can make informed decisions that balance performance with cost, ensuring your AI deployments are both efficient and economical.
