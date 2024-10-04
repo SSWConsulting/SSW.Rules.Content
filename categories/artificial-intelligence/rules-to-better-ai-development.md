@@ -9,6 +9,7 @@ index:
 - train-gpt
 - use-system-prompt
 - use-semantic-kernel
+- evaluate-slms-vs-azure-cloud-llms
 - website-chatbot
 - leverage-chatgpt
 - embed-ui-into-an-ai-chat
