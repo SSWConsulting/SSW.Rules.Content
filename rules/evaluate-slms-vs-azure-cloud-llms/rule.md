@@ -29,7 +29,7 @@ Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after eval
 
 ### Why evaluate SLMs?
 
-**Cost considerations**: Azure AI’s cloud-based LLMs, such as GPT-4, charge per usage, which can quickly add up. On the other hand, SLMs, which can be deployed locally or in a more cost-efficient environment, may offer similar results for less complex tasks, reducing overall costs
+**Cost considerations**: Azure OpenAI services, such as GPT-4o, charge per usage, which can quickly add up. On the other hand, SLMs, which can be deployed locally or in a more cost-efficient environment, may offer similar results for less complex tasks, reducing overall costs
 
 **Performance needs**: Not every task requires the full power of an Azure LLM. Tasks like text classification, keyword extraction, or template-based responses can often be handled just as well by an SLM, saving both on compute resources and cost
 
