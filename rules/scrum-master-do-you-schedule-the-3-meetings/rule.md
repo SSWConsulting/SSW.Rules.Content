@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Scrum Master - Do you schedule the 3 meetings?
+title: Scrum Master - Do you schedule the 3 Scrum meetings?
 seoDescription: As a Scrum Master, scheduling 3 crucial meetings - Sprint Review, Retrospective, and Planning - ensures successful Sprints.
 uri: scrum-master-do-you-schedule-the-3-meetings
 authors:
@@ -10,7 +10,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+  - 8-steps-to-scrum
 redirects: []
 created: 2010-05-06T05:41:54.000Z
 archivedreason: null
@@ -20,6 +21,8 @@ guid: 19441e59-3e96-4747-8bd9-e4607e422b81
 The Scrum Master plays a key role in the Scrum framework by scheduling and facilitating 3 crucial meetings: the Sprint **Review**, **Retrospective**, and **Planning**. These meetings are essential for reviewing progress, reflecting on performance, and planning future work, helping the team stay aligned and continuously improve.
 
 <!--endintro-->
+
+![Figure: The 3 meetings in the Scrum steps](8StepstoScrum-meetings.png)
 
 The Scrum Master should estimate how much time each meeting will require, then schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
 
