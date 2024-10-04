@@ -62,7 +62,7 @@ If the timebox limit is reached, the remaining issues should be recorded and dea
 
 The timebox for this meeting is usually as many hours as weeks in the Sprint.
 
-### Using interactive tools (Apps)
+## Using interactive tools (Apps)
 
 The goal is to make Retro sessions as engaging and insightful as possible. There are 2 main options:
 
