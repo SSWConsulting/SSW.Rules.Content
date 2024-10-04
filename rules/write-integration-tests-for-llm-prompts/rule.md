@@ -16,12 +16,12 @@ When integrating Azure AI's language models (LLMs) into your application, it’s
 
 <!--endintro-->
 
-:::             
-::: good            
-![Figure: Good example - EagleEye is doing Integration Testing for prompts](EagleEye.png)    
-:::             
+:::
+::: good
+![Figure: Good example - EagleEye is doing Integration Testing for prompts](EagleEye.png)
+:::
 
-### Why you need integration tests for LLM prompts     
+### Why you need integration tests for LLM prompts
 
 **Ensure consistency**: Integration tests allow you to check if the responses for your most critical prompts stay within an acceptable range of variation. Without these tests, you risk introducing variability that could negatively affect user experience or critical business logic
 
@@ -40,4 +40,3 @@ When integrating Azure AI's language models (LLMs) into your application, it’s
 **Automate testing**: Use continuous integration (CI) pipelines to automatically run your LLM integration tests after each deployment or model update
 
 **Log outputs**: Log the outputs from your tests to detect subtle changes over time. This can help identify patterns in model behavior and flag potential issues before they become problematic
-
