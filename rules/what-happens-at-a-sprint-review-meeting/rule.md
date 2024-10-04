@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what happens at a Sprint Review meeting?
-uri: do-you-know-what-happens-at-a-sprint-review-meeting
+uri: what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,7 +11,8 @@ related:
   - tick-and-flick
   - explaining-pbis
   - getting-a-busy-person-into-the-meeting
-redirects: []
+redirects:
+  - do-you-know-what-happens-at-a-sprint-review-meeting
 created: 2010-05-06T02:07:33.000Z
 archivedreason: null
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
