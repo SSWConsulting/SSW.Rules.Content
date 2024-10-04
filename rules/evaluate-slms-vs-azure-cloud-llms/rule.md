@@ -24,7 +24,7 @@ Figure: Bad example - Using Azure OpenAI services for simple FAQ tasks incurs hi
 A financial services company needs to develop a chatbot to guide customers through complex mortgage applications, requiring the chatbot to understand intricate details and provide personalized advice. After evaluating both, they use Azure OpenAI GPT-4o due to its better handling of complex queries and personalized responses, which an SLM could not manage effectively.
 :::
 ::: good
-Figure: Good example - Choosing Azure GPT-4 for complex tasks after evaluation provides better customer service and justifies the higher cost
+Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after evaluation provides better customer service and justifies the higher cost
 :::
 
 ### Why evaluate SLMs?
