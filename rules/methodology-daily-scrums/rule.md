@@ -72,6 +72,7 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 ## Tip #3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | {{ TEAM }} |
@@ -170,6 +171,7 @@ To prevent misunderstandings or potential disagreements, send your Daily Scrum u
 **Note:** Be sure to include the project name in both the subject line and the email content, as people often read the message without referencing the subject.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
