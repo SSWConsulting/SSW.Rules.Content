@@ -81,13 +81,15 @@ It is not essential for the Product Owner or the Scrum Master to be present for 
 
 Once this meeting is finished, the Scrum Master should email the Product Owner with a [forecast](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint).
 
+---
+
 ::: greybox
+Learn more about the meetings in Scrum:
 
-In Scrum, there are 4 meetings in total that you need to know about:
+* Sprint Planning Meeting (this rule)
+* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
 
-- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-- [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-- [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
-- [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
-
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
