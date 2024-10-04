@@ -9,6 +9,7 @@ index:
 - train-gpt
 - use-system-prompt
 - use-semantic-kernel
+- write-integration-tests-for-llm-prompts
 - website-chatbot
 - leverage-chatgpt
 - embed-ui-into-an-ai-chat
