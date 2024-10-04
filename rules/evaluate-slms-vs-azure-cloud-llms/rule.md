@@ -17,7 +17,7 @@ When using Azure AI services, you often choose between Small Language Models (SL
 A startup builds a simple FAQ chatbot that answers repetitive customer service questions like “What are your business hours?” or “How do I reset my password?” They choose to implement Azure OpenAI services, leading to high operational costs. An SLM could have provided the same answers without the extra expense.
 :::
 ::: bad
-Figure: Bad example - Using Azure GPT-4 for simple FAQ tasks incurs high costs, while an SLM would be more cost-effective
+Figure: Bad example - Using Azure OpenAI services for simple FAQ tasks incurs high costs, while an SLM would be more cost-effective
 :::
 
 ::: greybox
