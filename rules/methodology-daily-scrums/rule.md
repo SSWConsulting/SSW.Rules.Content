@@ -277,3 +277,16 @@ The goal is to be productive for 8 hours of the day, so communicate with the res
 It is important that any major incidents are dealt with first. Start with any major incidents that occurred in the last 24 hours.
 
 ![Figure: Daily Scrums will alert everyone if there is a major problem and get all brains aligned in the right direction. There is no sense in putting a Band-Aid on a patient's scraped knee if there is a big knife in his eye!](NewStandUpImage_1710232021942.jpg)
+
+---
+
+::: greybox
+Learn more about the meetings in Scrum:
+
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
+* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* Daily Scrum (Stand-up) Meeting (this rule)
+
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
+:::
