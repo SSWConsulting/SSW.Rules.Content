@@ -92,9 +92,11 @@ Below is a good example of how the title and description should look like on You
 :::
 
 ::: greybox
-Don't let all the time you spent making the perfect video go to waste - ensure people actually watch it! For all people required to view the video, send them the following task
+Don't let the time you spent creating the perfect video go to waste — make sure people actually watch it! For those required to view the video, send them the following task:
 
-  1. Please watch {{ YouTube URL }}, give it a rating /10 and a small comment
+  1. Watch the video: {{ YouTube URL }}
+  2. Rate it out of 10
+  3. Leave a brief comment
 :::
 
 #### ✅ Good Example of a Sprint Meeting recording
