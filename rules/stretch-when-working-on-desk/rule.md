@@ -19,19 +19,17 @@ Sitting for extended periods can lead to chronic pain and tightness in key areas
 
 <!--endintro-->
 
-
 ## The Pain Points  
 
-- Hip Flexors: Prolonged sitting keeps the hip flexors in a shortened position, leading to tightness and reduced mobility, which can cause lower back pain and hip discomfort.  
+* Hip Flexors: Prolonged sitting keeps the hip flexors in a shortened position, leading to tightness and reduced mobility, which can cause lower back pain and hip discomfort.  
 
-- Chest: Sitting hunched over a desk causes the chest muscles to tighten, contributing to poor shoulder posture and restricting breathing.  
+* Chest: Sitting hunched over a desk causes the chest muscles to tighten, contributing to poor shoulder posture and restricting breathing.  
 
-- Back: The back muscles become weak and strained from slouching, placing stress on the spine and leading to pain and stiffness.  
+* Back: The back muscles become weak and strained from slouching, placing stress on the spine and leading to pain and stiffness.  
 
 ::: bad  
 ![Figure: Bad example - Common bad posture when sitting on a desk](bad-example-bad-posture.png)  
 :::
-
 
 ## The Solution: Stretches to Relieve Tension
 
@@ -49,10 +47,10 @@ Here are detailed stretches to target each of these areas:
 
 ::: info
 **Benefits:** This stretch lengthens the hip flexors, helping to counteract the tightness caused by sitting.  
-:::   
+:::
 
 ::: good  
-![Figure: Good example - Standing Hip Flexor Stretch](good-example-stretch-hip-flexors.png) 
+![Figure: Good example - Standing Hip Flexor Stretch](good-example-stretch-hip-flexors.png)
 :::  
 
 ### Chest: Head Behind Neck and Bend Backwards
@@ -67,10 +65,10 @@ Here are detailed stretches to target each of these areas:
 
 ::: info
 **Benefits:** This stretch opens up the chest and shoulders, improving posture and relieving tightness caused by slouching forward.  
-:::   
+:::
 
 ::: good  
-![Figure: Good example - Head Behind Neck and Bend Backwards](good-example-stretch-chest.png) 
+![Figure: Good example - Head Behind Neck and Bend Backwards](good-example-stretch-chest.png)
 :::  
 
 ### Back: Chest Opener Stretch
@@ -85,21 +83,20 @@ Here are detailed stretches to target each of these areas:
 
 ::: info
 **Benefits:** This stretch relieves tension in both the chest and back, helping to correct rounded shoulders and ease back strain.  
-:::   
+:::
 
 ::: good  
-![Figure: Good example - Chest Opener Stretch](good-example-stretch-back.png) 
+![Figure: Good example - Chest Opener Stretch](good-example-stretch-back.png)
 :::  
-
 
 ## Long-Term Solution: Exercise
 
 While stretching helps to alleviate tightness, regular exercise is key to maintaining a healthy body and preventing chronic issues. Aim for:  
 
-- Frequency: Exercise at least 3-4 times per week.  
+* Frequency: Exercise at least 3-4 times per week.  
 
-- Intensity: Focus on moderate-intensity workouts, such as brisk walking, cycling, or strength training. You should feel your heart rate increase and sweat, but still be able to hold a conversation.  
+* Intensity: Focus on moderate-intensity workouts, such as brisk walking, cycling, or strength training. You should feel your heart rate increase and sweat, but still be able to hold a conversation.  
 
-- Duration: Each session should last 30-60 minutes, balancing cardio for heart health and strength training to improve muscle tone and posture.  
+* Duration: Each session should last 30-60 minutes, balancing cardio for heart health and strength training to improve muscle tone and posture.  
 
 This combination of stretching and exercise will help you combat the negative effects of prolonged sitting, ensuring better posture, flexibility, and overall well-being.
