@@ -94,7 +94,7 @@ Below is a good example of how the title and description should look like on You
 ::: greybox
 Don't let the time you spent creating the perfect video go to waste — make sure people actually watch it! For those required to view the video, send them the following task:
 
-  1. Watch the video: {{ YouTube URL }}
+  1. Watch the video: {{ YOUTUBE URL }}
   2. Rate it out of 10
   3. Leave a brief comment
 :::
