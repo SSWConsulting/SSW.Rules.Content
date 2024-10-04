@@ -84,14 +84,6 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 
 :::
 
-::: info
-
-**Not doing Scrum?**
-
-Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
-E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"*.
-:::
-
 ---
 
 ::: greybox
@@ -100,7 +92,16 @@ Learn more about the meetings in Scrum:
 * [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
 * Sprint Review Meeting (this rule)
 * [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
+* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
+:::
+
+---
+
+::: info
+**Not doing Scrum?**
+
+Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
+E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"*.
 :::
