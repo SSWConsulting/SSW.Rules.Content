@@ -50,4 +50,4 @@ Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after eval
 * For complex tasks that require deep understanding, creativity, or nuanced language generation, Azure OpenAI service, like GPT-4o, may still be the best choice
 * Cloud-based LLMs offer ease of scalability and quick integration with Azure services, making them ideal for projects that need high availability or require rapid deployment without complex infrastructure management
 
-By evaluating SLMs against Azure AI’s cloud-based LLMs, you can make informed decisions that balance performance with cost, ensuring your AI deployments are both efficient and economical.
+By evaluating SLMs against Azure OpenAI services, you can make informed decisions that balance performance with cost, ensuring your AI deployments are both efficient and economical.
