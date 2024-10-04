@@ -50,6 +50,12 @@ If you need to make edits on your recording, please see this rule: [Do you know 
 
 ## Share the Sprint Meeting summary recording
 
+::: greybox
+Dont let all the time you spent making the perfect video go to waste, ensure people actually watch it. For all people required to view the video - send them the following task
+
+  1. Please watch {{ YouTube URL }} and give it a rating /10 and a small comment
+:::
+
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
 
 Note: Don't forget to check that you're uploading to the right channel. We recommend having a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
