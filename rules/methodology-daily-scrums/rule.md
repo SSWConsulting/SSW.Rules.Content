@@ -57,22 +57,21 @@ The team's successes and failures are shared, and anyone who knows the answer to
 
 Follow these essential tips to improve your Daily Scrum meetings:
 
-### Tip #1: Be prepared for the meeting
+## Tip #1: Be prepared for the meeting
 
 Before you join the Daily Scrum, [check the group](/how-to-see-what-is-going-on-in-your-project) to see what your colleagues have been discussing and working on, and check the portal to confirm the meeting time. If you’re joining a new project or re-joining a previous one after some time away, these steps are important to keep yourself up-to-date and abreast of progress.
 
 Then you’ll be able to say to your Scrum Master: “I've had a look at the Teams group. I am ready to join the daily Scrum”.
 
-### Tip #2: Have your Scrum Master to review the Sprint progress at the end
+## Tip #2: Have your Scrum Master to review the Sprint progress at the end
 
 At the end of the Scrum, the Scrum Master should [review the current burn down](/burndown-and-stories-overview-reports-updates) to check on the progress of the team.
 
 ![Figure: A burndown chart in visualstudio.com](burndowntfspreview_1710232021943.png)
 
-### Tip #3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
+## Tip #3: Keep a schedule of the Daily Scrum times on a wall (+ have a recurring appointment in Outlook)
 
 ::: email-template
-
 | | |
 | -------- | --- |
 | To: | {{ TEAM }} |
@@ -98,7 +97,7 @@ Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
 
 ![Figure: Or you can use Microsoft Teams](teams-meeting-daily-scrum.jpg)
 
-### Tip #4: Keep to the schedule - Same place, same time (even if people are missing)
+## Tip #4: Keep to the schedule - Same place, same time (even if people are missing)
 
 Get started on time. Especially in the beginning, people will be late, but the meeting should be held with the remaining people. Don't worry. People learn.
 
@@ -112,39 +111,39 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 
 :::
 
-### Tip #5: Update tasks before the Daily Scrum
+## Tip #5: Update tasks before the Daily Scrum
 
 Daily Scrums are more effective when team members arrive when their tasks are already updated.
 
 See [Do you update your tasks before the daily stand-up meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
 
-### Tip #6: Don't go into detail
+## Tip #6: Don't go into detail
 
 Keep your answers short and concise. Do not stray from the 3 main questions. Don't let your Daily Scrum become a general meeting.
 
 Remember to use the ["Parking Lot"](/keep-track-of-a-parking-lot-for-topics), the place for any discussions that stop the Team from answering the 3 main questions. Only interested people stay for the "Parking Lot" to discuss issues after the Daily Scrum.
 
-### Tip #7: No phones + no checking email - No distractions
+## Tip #7: No phones + no checking email - No distractions
 
 Technology in the Daily Scrum causes people to lose focus on the goal. The goal is for the team to synchronize by sharing what they are doing. Avoid giving people the opportunity to be distracted easily by forbidding email, SMS and mobile phones from the Daily Scrum.
 
-### Tip #8: Use a task board (even better use an electronic one)
+## Tip #8: Use a task board (even better use an electronic one)
 
 A task board allows people to visualize what the team is talking about.
 
 ![Figure: A Task Board from Azure DevOps](tfspreviewtaskboard_1710232021943.png)
 
-### Tip #9: Carry a pen and paper
+## Tip #9: Carry a pen and paper
 
 Use a pen and paper to jot things down. A whiteboard is also great for "Parking Lot" topics that arise, to be discussed after the meeting.
 
-### Tip #10: If you have raised impediments, consider contacting the Product Owner
+## Tip #10: If you have raised impediments, consider contacting the Product Owner
 
 Often the Product Owner won’t be at the Scrum. However, call the Product Owner if you have an impediment (aka roadblock). Communication with the Product Owner is essential and if you haven't touched base with him in the few days, then do so. A disconnected or absent Product Owner is a sign of dysfunction.
 
 ![Figure: Call the Product Owner if you have an impediment](ProductOwnerTelephone_1710232021942.jpg)
 
-### Tip #11: Store Daily Scrums in the Teams team so the PO can easily access it
+## Tip #11: Store Daily Scrums in the Teams team so the PO can easily access it
 
 Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Adding them to every meeting would create lots of noise in their calendar. Instead, make the [Teams meetings easy to find](/do-you-make-your-team-meetings-easy-to-find) so they can locate the Daily Scrum for any project via the Teams team.
 
@@ -156,22 +155,21 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
 ![Figure: Good example - Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
 :::
 
-### Tip #12: What to do when you're working for a PO directly
+## Tip #12: What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
 
-### Tip #13: How do you enter Scrum meetings into your timesheets?
+## Tip #13: How do you enter Scrum meetings into your timesheets?
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
-### Tip #14: Send an email
+## Tip #14: Send an email
 
 To prevent misunderstandings or potential disagreements, send your Daily Scrum update via email. This ensures that everyone on your team is aware of your current tasks, even if they were unable to attend the meeting. 😊
 
 **Note:** Be sure to include the project name in both the subject line and the email content, as people often read the message without referencing the subject.
 
 ::: email-template
-
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -201,7 +199,7 @@ Today I'm working on {{ PROJECT NAME }}:
 Figure: Good example - Always include what you previously worked on and what you plan on doing today
 :::
 
-### Tip #15: Use IM
+## Tip #15: Use IM
 
 After you have sent your email, you can also make it front and center by sending them a ping on IM.
 _“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
@@ -251,7 +249,7 @@ Today I am working on:
 Figure: Good example - Clear details
 :::
 
-### Tip #16: Auto-generate your Daily Scrum with AutoScrum
+## Tip #16: Auto-generate your Daily Scrum with AutoScrum
 
 AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
 
