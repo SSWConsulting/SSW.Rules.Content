@@ -89,11 +89,12 @@ The advantages are:
 ---
 
 ::: greybox
-In Scrum, there are 4 meetings in total that you need to know about:
+Learn more about the meetings in Scrum:
 
-- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-- [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-- [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
-- [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* Sprint Retrospective Meeting (this rule)
+* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
 
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
