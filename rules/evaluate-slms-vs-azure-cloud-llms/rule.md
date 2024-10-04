@@ -10,7 +10,7 @@ created: 2024-10-03T16:15:00.000Z
 guid: e9b7c5bc-cb35-4876-9785-d2031fb4f69e
 ---
 
-When using Azure AI services, you often have the choice between Small Language Models (SLMs) and Azure’s powerful cloud-based Large Language Models (LLMs), like GPT-4. While Azure LLMs offer significant capabilities, they can also be expensive. In many cases, SLMs can perform just as well for certain tasks, making them a more cost-effective solution. Evaluating the performance of SLMs against Azure AI’s LLMs is essential for balancing cost and performance.
+When using Azure AI services, you often choose between Small Language Models (SLMs) and powerful cloud-based Large Language Models (LLMs), like Azure OpenAI o1. While Azure LLMs offer significant capabilities, they can also be expensive. In many cases, SLMs can perform just as well for certain tasks, making them a more cost-effective solution. Evaluating the performance of SLMs against Azure OpenAI services is essential for balancing cost and performance.
 
 <!--endintro-->
 ::: greybox
