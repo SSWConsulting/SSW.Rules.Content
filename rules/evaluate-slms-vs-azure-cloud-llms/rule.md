@@ -31,7 +31,7 @@ Figure: Good example - Choosing Azure OpenAI GPT-4o for complex tasks after eval
 
 **Cost considerations**: Azure OpenAI services, such as GPT-4o, charge per usage, which can quickly add up. On the other hand, SLMs, which can be deployed locally or in a more cost-efficient environment, may offer similar results for less complex tasks, reducing overall costs
 
-**Performance needs**: Not every task requires the full power of an Azure LLM. Tasks like text classification, keyword extraction, or template-based responses can often be handled just as well by an SLM, saving both on compute resources and cost
+**Performance needs**: Not every task requires the full power of a cloud-based LLM. Tasks like text classification, keyword extraction, or template-based responses can often be handled just as well by an SLM, saving both on compute resources and cost
 
 **Model control**: Using an SLM, particularly if it is deployed locally, offers more control over the model’s behavior, updates, and fine-tuning. This can be valuable for applications where privacy, security, or specific customizations are required
 
