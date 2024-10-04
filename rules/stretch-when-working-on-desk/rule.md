@@ -22,6 +22,8 @@ Sitting for extended periods can lead to chronic pain and tightness in key areas
 
 ## The Pain Points  
 
+Here are the common pain points that arise from sitting for long periods, affecting key muscle groups and leading to discomfort and potential long-term issues:
+
 * Hip Flexors: Prolonged sitting keeps the hip flexors in a shortened position, leading to tightness and reduced mobility, which can cause lower back pain and hip discomfort.  
 
 * Chest: Sitting hunched over a desk causes the chest muscles to tighten, contributing to poor shoulder posture and restricting breathing.  
