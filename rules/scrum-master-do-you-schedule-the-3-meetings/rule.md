@@ -42,6 +42,7 @@ The Scrum Master should estimate how much time each meeting will require, then s
 Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | Required Attendees: | Scrum Team |
@@ -50,7 +51,7 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 | Subject: | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
 ::: email-content
 
-### Hi Team,
+### Hi Team
 
 * Product Owner: {{ PRODUCT OWNER }}
 * Scrum Master: {{ SCRUM MASTER }}
@@ -71,8 +72,8 @@ See rule [What happens at a Sprint Retrospective Meeting?](/do-you-know-what-hap
 
 **Sprint Planning Meeting**
 
-We go through the backlog (aka to-do list), get more information, estimate and then prioritize.   
-We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.   
+We go through the backlog (aka to-do list), get more information, estimate and then prioritize.
+We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.
 See the rule [What happens at a Sprint Planning Meeting?](/what-happens-at-a-sprint-planning-meeting)
 
 Regards,
