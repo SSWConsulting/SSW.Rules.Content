@@ -7,6 +7,9 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 created: 2024-09-24T14:00:00.000Z
+related:
+  - know-that-im-interrupts
+  - warn-then-call
 guid: 123e4567-e89b-12d3-a456-426614174000
 ---
 
