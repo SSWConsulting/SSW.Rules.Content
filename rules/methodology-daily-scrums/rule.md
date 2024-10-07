@@ -156,15 +156,17 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
 ![Figure: Good example - Make Daily Scrums easy to find via the Teams Channel Calendar](daily-scrum-good.png)
 :::
 
-### Tip #12: What to do when you're working for a PO directly
+::: info
+#### What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
+:::
 
-### Tip #13: Enter Scrum meetings into your timesheets
+### Tip #12: Enter Scrum meetings into your timesheets
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
-### Tip #14: Send an email
+### Tip #13: Send a Daily Scrum email
 
 To prevent misunderstandings or potential disagreements, send your Daily Scrum update via email. This ensures that everyone on your team is aware of your current tasks, even if they were unable to attend the meeting. 😊
 
@@ -201,7 +203,7 @@ Today I'm working on {{ PROJECT NAME }}:
 Figure: Good example - Always include what you previously worked on and what you plan on doing today
 :::
 
-### Tip #15: Use IM
+### Tip #14: Use IM
 
 After you have sent your email, you can also make it front and center by sending them a ping on IM.
 _“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
@@ -217,7 +219,7 @@ When using email or IM try to be brief and as specific as possible:
 
 ::: greybox
 
-#### Hi Bob
+#### Hi Bob,
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
@@ -230,12 +232,12 @@ Today I am working on:
 
 :::
 ::: bad
-Figure: Bad example - Lack of details. E.g. Yesterday - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working
+Figure: Bad example - Lack of details... For example, saying "Yesterday" - if it's Monday, you wouldn't say “Yesterday was Sunday"... so if you were sick, it's more useful to go back to the prior day you were working
 :::
 
 ::: greybox
 
-#### Hi Bob
+#### Hi Bob,
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
@@ -251,7 +253,7 @@ Today I am working on:
 Figure: Good example - Clear details
 :::
 
-### Tip #16: Auto-generate your Daily Scrum with AutoScrum
+### Tip #15: Auto-generate your Daily Scrum with AutoScrum
 
 AutoScrum will scan your Azure DevOps repositories and find all the PBIs that you worked on yesterday and that are In Progress today.
 
