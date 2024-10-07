@@ -21,9 +21,7 @@ If someone's blog post is interesting or inflammatory enough that you want to co
 <!--endintro-->
 
 ::: greybox
-**@MrHinsh** I missed this...John Liu, making sense, something to see https://bit.ly/9wzSVT 
+**@MrHinsh** I missed this...John Liu, making sense, something to see <https://bit.ly/9wzSVT>
 less than 20 seconds ago via bit.ly
 :::
 Figure: When you comment, tweet the other person's blog. It's only polite
-
-
