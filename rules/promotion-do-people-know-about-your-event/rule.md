@@ -17,7 +17,7 @@ redirects:
 ---
 
 
-A successful event requires attendees to show up, or it won't reach its full potential. You will have to promote your event in a way that makes sense to your topic and approach. 
+A successful event requires attendees to show up, or it won't reach its full potential. You will have to promote your event in a way that makes sense to your topic and approach.
 
 The most cost-effective way is to use a large variety of online services that are available and to talk about the event.
 
@@ -27,10 +27,10 @@ The most cost-effective way is to use a large variety of online services that ar
 
 This is the best way to increase the discoverability of your event. [Meetup](https://www.meetup.com) provides the following:
 
-- Allows people to search and discover events
-- Allows people to join your group to get updates
-- You can easily list your upcoming events and have people join them
-- Comes with an automatic mailing list so you can send out announcements
+* Allows people to search and discover events
+* Allows people to join your group to get updates
+* You can easily list your upcoming events and have people join them
+* Comes with an automatic mailing list so you can send out announcements
 
 ## Social Media
 
