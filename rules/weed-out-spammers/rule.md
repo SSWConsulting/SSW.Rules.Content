@@ -22,7 +22,7 @@ redirects:
 
 ---
 
-Maintaining a public profile on sites such as Facebook and LinkedIn is a free and easy way to connect with users and keep them updated your products, services or events. 
+Maintaining a public profile on sites such as Facebook and LinkedIn is a free and easy way to connect with users and keep them updated your products, services or events.
 
 The downside to this is that not all who want to connect with you and your groups are real people – some are spammers or bots who will clog up your group, forum or event listing with unwanted advertisements or even links to sites that contain malicious code.
 
@@ -38,7 +38,7 @@ Before approving a membership request, consider:
 * Are they a member of many incongruous groups that don’t fit with their location?
 
 ::: info
-**Note:** These are only guidelines, not a hard and fast rule. Use your initiative when approving membership requests. 
+**Note:** These are only guidelines, not a hard and fast rule. Use your initiative when approving membership requests.
 :::
 
 For groups on Facebook, there is now a tool that allows admin to ask up to 3 preset questions of all users wishing to join. This can be helpful in establishing in separating spammers from legitimate users.
