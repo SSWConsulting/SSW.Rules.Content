@@ -29,13 +29,13 @@ With [YakShaver](https://www.sswyakshaver.com), you can start recording a "shave
 ![Figure: Good example - The user sends the group a message and then presses the "Meet Now" button which doesn't interupt the entire group](meet-now-in-teams.png)
 :::
 
-### When to use "Meet Now"
+## When to use "Meet Now"
 
 * **Quick collaboration** - You need an immediate response or decision from a few people who are available
 * **Unplanned discussions** - A short, impromptu discussion that cannot be resolved via chat
 * **Co-working sessions** - When working together on a document or project and all team members are ready to engage
 
-### Best practices for using "Meet Now"
+## Best practices for using "Meet Now"
 
 * **Send a heads-up message** - Use a chat message to confirm if a quick call is appropriate
 * **Set expectations** - Clarify the purpose and duration of the call in advance
