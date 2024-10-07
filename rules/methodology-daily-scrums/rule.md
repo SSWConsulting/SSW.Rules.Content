@@ -123,7 +123,7 @@ Keep your answers short and concise. Do not stray from the 3 main questions. Don
 
 Remember to use the ["Parking Lot"](/keep-track-of-a-parking-lot-for-topics), the place for any discussions that stop the Team from answering the 3 main questions. Only interested people stay for the "Parking Lot" to discuss issues after the Daily Scrum.
 
-### Tip #7: No phones + no checking email - No distractions
+### Tip #7: Avoid distractions - No phones / no checking email
 
 Technology in the Daily Scrum causes people to lose focus on the goal. The goal is for the team to synchronize by sharing what they are doing. Avoid giving people the opportunity to be distracted easily by forbidding email, SMS and mobile phones from the Daily Scrum.
 
@@ -159,7 +159,7 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
 
-### Tip #13: How do you enter Scrum meetings into your timesheets?
+### Tip #13: Enter Scrum meetings into your timesheets
 
 Once you have completed your stand up, add “S” to your timesheet as per [Rules to Better Timesheets](/rules-to-better-timesheets).
 
@@ -206,7 +206,7 @@ _“Check your email for my Daily Scrum”_ or paste in the below (a lightweight
 
 Use Teams or Skype to bridge gaps in geography.
 
-**Focus on the Flow**
+#### Focus on the Flow
 
 > "Extend this rule to focus on 'flow of value', not just people. In a continuous flow mindset, the daily standup is less about the people... it's about flow. The team faces the Scrum board and goes ticket by ticket for all the items in the 'work in progress', finding out what is needed to get it to the next stage... respecting work in progress constraints."
 > [Joel Semeniuk](http://joelfromcanada.com)
@@ -215,7 +215,7 @@ When using email or IM try to be brief and as specific as possible:
 
 ::: greybox
 
-Hi Bob,
+#### Hi Bob,
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
@@ -233,7 +233,7 @@ Figure: Bad example - Lack of details. E.g. Yesterday - if it's Monday, you woul
 
 ::: greybox
 
-Hi Bob,
+#### Hi Bob,
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
