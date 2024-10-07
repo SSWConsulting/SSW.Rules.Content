@@ -40,4 +40,6 @@ Good - Using an encoded email address
 
 **Tip:** If you use Wordpress, use the [Email Encoder Bundle plugin](https://wordpress.org/plugins/email-encoder-bundle) to help you encode email addresses easily.
 
+::: codeauditor
 We have a program called [SSW CodeAuditor](https://codeauditor.com) to check for this rule.
+:::
