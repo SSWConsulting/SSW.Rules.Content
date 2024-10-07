@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Twitter - Do you know when to use hashtags vs mentions?
+title: X - Do you know when to use hashtags vs mentions?
 guid: e738f965-78f2-44c7-8f28-805bb07a963b
 uri: do-you-know-when-to-use-a-hashtag-vs-a-mention
 created: 2014-07-04T05:49:34.0000000Z
@@ -22,6 +22,8 @@ redirects:
 
 **#Hashtags** are used when talking about something – a topic or keyword. Using a hashtag creates a link that leads to a page displaying an aggregated list of posts about that thing. 
 
+<!--endintro-->
+
 So if it is about the topic, then the hashtag is the way to go:
 
 > Microsoft releases **#VisualStudio** 2013 Update 2
@@ -31,8 +33,6 @@ On the other hand, **@Mentions** are used when talking to or about someone (the 
 So if you are talking to someone directly, or mention a specific user in your tweet, you should use the @mention: 
 
 > Thanks to **@visualstudio** for the map to Bill Gates’s house – I’m looting his safe right now!
-
-<!--endintro-->
 
 The best tweets will use a combination of @mentions and #hashtags where appropriate to properly leverage the platform – that way readers can check out the people involved OR join the conversation about a topic.
 
