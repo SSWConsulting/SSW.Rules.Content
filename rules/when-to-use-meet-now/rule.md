@@ -14,26 +14,28 @@ Using the "Meet Now" button in Microsoft Teams can be an efficient way to start 
 
 <!--endintro-->
 
-::: bad
+::: info
+With [YakShaver](https://www.sswyakshaver.com), you can start recording a "shave" after selecting "Meet Now," without needing to call anyone in.
+:::
 
+::: bad
 ![Figure: Bad example - Triggering a group call without warning or context can be jarring and disrespectful to others' schedules and interupts everyone](video-call-no-notice.png)
 :::
 
 ::: good
-
 ![Figure: Good example - The user sends the group a message and then presses the "Meet Now" button which doesn't interupt the entire group](meet-now-in-teams.png)
 :::
 
-### Using "Meet Now" is effective for:
+### When to use "Meet Now"
 
-* **Quick collaboration:** You need an immediate response or decision from a few people who are available
-* **Unplanned discussions:** A short, impromptu discussion that cannot be resolved via chat
-* **Co-working sessions:** When working together on a document or project and all team members are ready to engage
+* **Quick collaboration** - You need an immediate response or decision from a few people who are available
+* **Unplanned discussions** - A short, impromptu discussion that cannot be resolved via chat
+* **Co-working sessions** - When working together on a document or project and all team members are ready to engage
 
-### Best Practices for Using "Meet Now"
+### Best practices for using "Meet Now"
 
-* **Send a heads-up message:** Use a chat message to confirm if a quick call is appropriate
-* **Set expectations:** Clarify the purpose and duration of the call in advance
-* **Use scheduling for larger groups:** For large groups or in-depth discussions, use the "Schedule a Meeting" feature instead
+* **Send a heads-up message** - Use a chat message to confirm if a quick call is appropriate
+* **Set expectations** - Clarify the purpose and duration of the call in advance
+* **Use scheduling for larger groups** - For large groups or in-depth discussions, use the "Schedule a Meeting" feature instead
 
 By following these guidelines, you can make better use of the "Meet Now" button, ensuring your meetings are productive and respectful of everyone's time.
