@@ -37,9 +37,9 @@ index:
 - twitter-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
+- thank-others-for-each-reference-to-you
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
 - twitter-for-professionals
-- thank-others-for-each-reference-to-you
 - twitter-tip-content-creators
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
