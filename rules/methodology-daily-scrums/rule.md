@@ -157,6 +157,7 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
 :::
 
 ::: info
+
 #### What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
@@ -219,7 +220,7 @@ When using email or IM try to be brief and as specific as possible:
 
 ::: greybox
 
-#### Hi Bob,
+#### Hi Bob
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
@@ -237,7 +238,7 @@ Figure: Bad example - Lack of details... For example, saying "Yesterday" - if it
 
 ::: greybox
 
-#### Hi Bob,
+#### Hi Bob
 
 I have XX days until my next client booking.
 I have XX emails in my inbox.
