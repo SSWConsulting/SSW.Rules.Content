@@ -2,7 +2,10 @@
 type: rule
 tips: ""
 title: Does your Scrum Master support the Product Owner?
-seoDescription: learn how the scrum master can support the product owner
+seoDescription: Learn how a Scrum Master can effectively support a Product Owner
+  in Agile projects by guiding backlog management, stakeholder engagement,
+  sprint planning, and risk management. This rule outlines best practices to
+  ensure smooth collaboration and successful product delivery.
 uri: scrum-master-support-product-owner
 authors:
   - title: ""
