@@ -46,7 +46,6 @@ Check the [official docs](https://www.jetbrains.com/resharper/) about installing
 * **Requires ReSharper** - Need to install 3rd party ReSharper extension in Visual Studio
 * **Performance impact** - Some slowdown can be noticed when ReSharper is enabled
 * **Additional cost** - After one-month trial, you will need a license to continue using ReSharper
-* **Preferred tool** - Use Rider instead of Visual Studio + ReSharper
 * **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
 * **Layout** - Only Top to Bottom layout
 
