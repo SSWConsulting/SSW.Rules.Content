@@ -17,29 +17,31 @@ As a developer you're likely using GitHub all the time - it's one of the main re
 
 <!--endintro-->
 
-Having GitHub on your mobile helpw you unblock people quickly, and leave comments all while you’re on the go. Devs are more productive [when they get regular breaks](https://www.ssw.com.au/rules/pomodoro) - so why not review pull requests in the park!
+Having GitHub on your mobile helps you unblock people quickly, and leave comments all while you’re on the go. Devs are more productive [when they get regular breaks](/pomodoro) - so why not review pull requests in the park!
 
-### Why You Should Have GitHub on Your Phone
+## ✅ Benefits of having GitHub on your phone
 
 * **Unblock others** - Nothing is more frustrating for a developer than waiting hours or even days for a small PR approval or a comment on an issue
 
-* **Stay updated** - It’s easier to fall behind on comments and issues if you’re only able to check GitHub from your computer.
+* **Stay updated** - It’s easier to fall behind on comments and issues if you’re only able to check GitHub from your computer
 
-* **[Get notifications](https://www.ssw.com.au/rules/github-notifications/)**  GitHub's mobile app lets you control which notifications you receive
+* **[Get notifications](/github-notifications)** - GitHub's mobile app lets you control which notifications you receive
 
 ### GitHub Contributions Widget
 
-Seeing your contributions can be a great motivator and helps you keep track of your activity. You can add the GitHub contributions widget to your phone’s home screen to view your recent contributions at a glance.
+Seeing contributions can be a great motivator and helps you keep track of your activity. You can add the GitHub contributions widget to your phone’s home screen to view recent contributions at a glance.
 
 1. **iOS**:  
-   * Tap and hold on your home screen until the icons jiggle.
-   * Tap the “+” icon in the top-left corner and search for “GitHub.”
-   * Choose the GitHub contributions widget and place it on your home screen.
+   * Tap and hold on your home screen until the icons jiggle
+   * Tap the “+” icon in the top-left corner and search for “GitHub”
+   * Choose the GitHub contributions widget and place it on your home screen
 
 2. **Android**:  
-   * Tap and hold on your home screen and select “Widgets.”
-   * Search for the GitHub contributions widget and add it to your home screen.
+   * Tap and hold on your home screen and select “Widgets”
+   * Search for the GitHub contributions widget and add it to your home screen
 
 ::: good
+::: img-medium
 ![Figure: Good example - You can see your contributions from the home screen 🤖](contributions-mobile.png)
+:::
 :::
