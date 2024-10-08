@@ -5,6 +5,7 @@ guid: 29c34567-f635-4815-8265-c7b02f503521
 uri: rules-to-better-product-owners
 index:
 - do-you-know-the-how-to-be-a-good-product-owner
+- scrum-master-support-product-owner
 - agreements-do-you-book-the-next-sprint-ahead-of-time
 - agreements-do-you-join-the-team-as-a-tester
 - agreements-do-you-know-who-pays-for-bugs
