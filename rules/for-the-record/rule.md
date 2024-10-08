@@ -32,7 +32,7 @@ Regardless it is important to document disagreements so the client is crystal cl
 
 Disagreements should never be resolved merely by who gets tired of arguing first.
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - Never resolve an argument by who gets exhausted first](winning-by-attrition.png)
 :::
 
@@ -40,7 +40,7 @@ Disagreements should never be resolved merely by who gets tired of arguing first
 
 Enhance productivity by disagreeing and getting on with the job anyway. This is similar to 'for the record' except verbal rather than written.
 
-::: good
+::: good img-medium
 ![Figure: Good example - Even though you disagree it's best to still commit and proceed](disagree-and-commit.png)
 :::
 
@@ -61,14 +61,18 @@ When you have a disagreement with someone who has decision making power, and you
 
 * Later down the track it will provide a learning experience for someone (depending on who was right 😉)
 
-   **Tip:** Use [follow up then](/do-you-follow-up-emails-effectively) to remind you to revisit your email (e.g. 6 months in the future), then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
+::: info
+**Tip:** Use [follow up then](/do-you-follow-up-emails-effectively) to remind you to revisit your email (e.g. 6 months in the future), then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
+:::
 
 * After cooling down from the meeting, people might read it later and see it as useful input
 
-   **Note:** A "For the record" email should be reserved for a significant architectural decision, etc. That will be difficult or costly to change later. You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
+::: info
+**Note:** A "For the record" email should be reserved for a significant architectural decision, etc. That will be difficult or costly to change later. You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
+:::
 
 ::: greybox
-(...on the day)
+**(...on the day)**
 
 "OK, I will just go with the the Product Owner decision."
 :::
@@ -77,7 +81,7 @@ Figure: Bad example - Just go with the client decision reluctantly
 :::
 
 ::: greybox
-(...on the day)
+**(...on the day)**
 
 "Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
 :::
@@ -86,13 +90,11 @@ Figure: Good example - Documenting that client has asked you to do a shortcut
 :::
 
 ::: greybox
-(...on the day)
+**(...on the day)**
 
 "Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas **we have recommended using Angular** for the following reasons:
 
-* {{ LINK 1 }}
-* {{ LINK 2 }}
-* {{ LINK 3 }}
+* {{ LIST OF REASONS }}
 
 That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
 
@@ -104,7 +106,7 @@ Figure: Good example - You have politely pointed out they are making a poor tech
 **Note:** It's also a good email to have in your back pocket in case the client complains about slow progress in a few months time.
 
 ::: greybox
-(...6 months later)
+**(...6 months later)**
 
 "I knew it, we should never have used React for the Northwind project."
 :::
@@ -113,7 +115,7 @@ Figure: Bad example - Being improductive and too late
 :::
 
 ::: greybox
-(...6 months later - the curious retrospective)
+**(...6 months later - the curious retrospective)**
 
 "I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.  
 
