@@ -96,7 +96,7 @@ Nex option to generate the dependency graph is with Visual Studio, first you nee
 * **Dependency arrows** - Arrows are messy and go into the directory rather than into specific project that makes unclear to see which project it is referencing to
 * **Interface** - Interacting with the graph is slow and not fluid
 * **Cluttered view** - Graph becomes unreadable and confusing for complex projects
-* **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see official [docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
+* **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
 * **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
 
 ::: ok  
