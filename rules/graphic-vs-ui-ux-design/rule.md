@@ -28,6 +28,9 @@ Graphic design emphasizes the **visual** aspects of a product or communication. 
 - Crafting digital advertisements or social media graphics
 - Choosing typography and creating cohesive color palettes
 
+<img src="tina-graphics.png" alt="TinaCMS Pull up Banner graphics" /><br/>
+<strong>Figure: TinaCMS Graphics - Pull up Banner Design</strong>
+
 ### UI/UX Design: Focus on User Interaction and Experience
 
 UI/UX design focuses on how users interact with a product, balancing form and function. **User Interface (UI)** design ensures that the product’s interface is visually consistent and intuitive, while **User Experience (UX)** design ensures that the product is functional, easy to navigate, and aligned with user needs. 
@@ -39,6 +42,9 @@ A UI/UX designer often has knowledge of user-centered design principles, wirefra
 - Designing a website or app interface, ensuring that interactive elements like buttons and menus are easy to use and visually cohesive (UI)
 - Creating wireframes and interactive prototypes to map out user flows (UX/UI)
 - Writing HTML/CSS code to ensure design integrity during implementation (UI)
+
+<img src="tina-mockup.png" alt="TinaCMS Website Mockup" /><br/>
+<strong>Figure: TinaCMS UI/UX - Website Mockups</strong>
 
 ### Key Differences
 
