@@ -12,7 +12,7 @@ created: 2022-11-30T00:13:40.254Z
 guid: 4bf87ccf-91a1-470a-b1d6-bb2363761e06
 ---
 
-Sometimes, you may come across text in an YouTube description that appears to be a link but lacks the familiar blue color and underline and isn't clickable. This often happens because the text is missing the "https://" prefix.
+Sometimes, you may come across text in a YouTube description that appears to be a link but lacks the familiar blue color plus underline and isn't clickable. This often happens because the text is missing the "https://" prefix.
 
 Modern content editors and web browsers usually recognize this prefix as an indicator that the text should be converted into a clickable link. Without it, the text remains plain and doesn’t function as a hyperlink.
 
