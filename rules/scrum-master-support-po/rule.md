@@ -8,7 +8,6 @@ seoDescription: Learn how a Scrum Master can effectively support a Product Owner
   ensure smooth collaboration and successful product delivery.
 uri: scrum-master-support-product-owner
 authors:
-  - title: ""
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
 created: 2024-10-08T17:22:00.000Z
