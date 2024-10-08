@@ -2,9 +2,13 @@
 type: rule
 tips: ""
 title: Does your Scrum Master support the Product Owner?
-uri: scrum-master-support-po
+seoDescription: learn how the scrum master can support the product owner
+uri: scrum-master-support-product-owner
 authors:
   - title: ""
+  - title: Gert Marx
+    url: https://ssw.com.au/people/gert-marx
+created: 2024-10-08T17:22:00.000Z
 guid: 778936df-ed76-4903-9f7d-5e3df9da2327
 ---
 When working with a client-side Product Owner (PO), it’s crucial for the Scrum Master to come from the consultancy. Typically, the consultant Scrum Master has more experience in agile and Scrum methodologies than the client PO. This experience can significantly impact the success of the project by providing essential guidance and support to the PO in their key responsibilities.
