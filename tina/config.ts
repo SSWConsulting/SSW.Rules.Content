@@ -2,11 +2,11 @@ import { defineConfig } from 'tinacms';
 import { Rules } from './collections/rules';
 
 // Your hosting provider likely exposes this as an environment variable
-const branch = 'tina/sample-content';
-
+const branch = process.env.TINA_CONTENT_BRANCH ?? 'main';
 const localContentPath = process.env.LOCAL_CONTENT_RELATIVE_PATH ?? undefined;
 const clientId = process.env.TINA_CLIENT_ID;
 const token = process.env.TINA_TOKEN;
+const basePath = process.env.TINA_BASE_PATH ?? undefined;
 
 export default defineConfig({
   // Required as per https://tina.io/docs/frameworks/gatsby/#workaround-for-graphql-mismatch-issue
@@ -19,7 +19,7 @@ export default defineConfig({
   localContentPath,
 
   build: {
-    basePath: 'rules',
+    basePath,
     outputFolder: 'admin',
     publicFolder: 'static',
   },

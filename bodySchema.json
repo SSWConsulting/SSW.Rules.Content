@@ -1,0 +1,103 @@
+{
+    "type": "rich-text",
+    "name": "body",
+    "label": "Body",
+    "isBody": true,
+    "templates": [
+      {
+      "name": "custommarkdown",
+      "label": "Custom Markdown",
+      "match": {
+        "start": ":::",
+        "end": ":::"
+      },
+    "fields": [
+        
+        {
+          "name": "content",
+          "label": "Content",
+          "type": "string",
+          "ui": {
+            "component": "textarea"
+          }
+        }
+      ]
+      },
+      {
+        "name": "curlybraces",
+        "label": "Custom Markdown",
+        "match": {
+          "start": "{{",
+          "end": "}}"
+        },
+      "fields": [
+          
+          {
+            "name": "content",
+            "label": "Content",
+            "type": "string",
+            "ui": {
+              "component": "textarea"
+            }
+          }
+        ]
+        },
+        {
+          "name": "endintro",
+          "label": "Custom Markdown",
+          "match": {
+            "start": "<!--",
+            "end": "-->"
+          },
+        "fields": [
+            
+            {
+              "name": "content",
+              "label": "Content",
+              "type": "string",
+              "ui": {
+                "component": "textarea"
+              }
+            }
+          ]
+          },
+          {
+            "name": "backticks",
+            "label": "Custom Markdown",
+            "match": {
+              "start": "```",
+              "end": "```"
+            },
+          "fields": [
+              
+              {
+                "name": "content",
+                "label": "Content",
+                "type": "string",
+                "ui": {
+                  "component": "textarea"
+                }
+              }
+            ]
+            },
+            {
+              "name": "tildes",
+              "label": "Custom Markdown",
+              "match": {
+                "start": "~~",
+                "end": "~~"
+              },
+            "fields": [
+                
+                {
+                  "name": "content",
+                  "label": "Content",
+                  "type": "string",
+                  "ui": {
+                    "component": "textarea"
+                  }
+                }
+              ]
+              }
+    ]
+  }

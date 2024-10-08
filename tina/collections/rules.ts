@@ -1,4 +1,6 @@
-import { Collection } from "tinacms";
+import { Collection, TinaField } from "tinacms";
+import bodySchema from "../../bodySchema.json";
+
 
 export const Rules: Collection = {
   label: 'Rules',
@@ -68,11 +70,6 @@ export const Rules: Collection = {
       name: 'seoDescription',
       label: 'SEO Description',
     },
-    {
-      type: 'rich-text',
-      name: 'body',
-      label: 'Body',
-      isBody: true,
-    },
-  ],
+    bodySchema as TinaField<false>
+  ]
 };
