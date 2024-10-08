@@ -1,7 +1,7 @@
 ---
 seoDescription: Adding "https" to text fields and content makes links easier to click, encouraging more users to interact with your content.
 type: rule
-title: YouTube - Do you add "https://" to links in descriptions?
+title: Do you add "https://" to links in YouTube descriptions?
 uri: use-https-text
 authors:
   - title: Joseph Fernandez
