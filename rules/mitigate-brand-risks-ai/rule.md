@@ -2,8 +2,7 @@
 type: rule
 tips: ""
 title: Do you mitigate brand risks when using AI?
-seoDescription: Learn how to manage brand risks when adopting AI, including
-  inaccurate outputs, privacy concerns, and maintaining customer trust.
+seoDescription: Learn how to manage brand risks when adopting AI, including inaccurate outputs, privacy concerns, and maintaining customer trust.
 uri: mitigate-brand-risks-ai
 authors:
   - title: Ulysses Maclaren
@@ -24,9 +23,9 @@ While AI has enormous potential, businesses must proactively manage the brand ri
    
 * **Privacy violations** - AI systems that handle customer data must respect privacy laws and customer expectations. Mishandling sensitive data or failing to anonymize information can lead to public outrage and legal consequences.
  
-## How to Mitigate Brand Risks
+## How to mitigate brand risks
  
-### 1. Ensure Transparency in AI Decisions
+### 1. Ensure transparency in AI decisions
 
 Customers need to understand how and why AI systems are making certain decisions. Ensure your AI models are explainable, especially when they are involved in critical decisions like credit approval or hiring.
 
