@@ -84,8 +84,8 @@ See rule [What happens at a Sprint Retrospective Meeting?](/do-you-know-what-hap
 
 **Sprint Planning Meeting**
 
-We go through the backlog (aka to-do list), get more information, estimate and then prioritize.   
-We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.   
+We go through the backlog (aka to-do list), get more information, estimate and then prioritize.
+We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.
 See the rule [What happens at a Sprint Planning Meeting?](/what-happens-at-a-sprint-planning-meeting)
 
 Regards,
