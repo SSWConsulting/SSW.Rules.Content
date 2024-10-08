@@ -24,4 +24,4 @@ Watch the video to know more:
 
 ### Related suggestion to Google Photos
 
-- [Let me know my account doesn’t have access instead of a 404](https://bettersoftwaresuggestions.com/google/google-photos/let-me-know-my-account-doesnt-have-access-instead-of-a-404/)
+* [Let me know my account doesn’t have access instead of a 404](https://bettersoftwaresuggestions.com/google/google-photos/let-me-know-my-account-doesnt-have-access-instead-of-a-404/)
