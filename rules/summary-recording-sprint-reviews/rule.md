@@ -96,7 +96,7 @@ Don't let the time you spent creating the perfect video go to waste — make sur
 
   1. Watch the video: {{ YOUTUBE URL }}
   2. Rate it out of 10
-  3. Leave a brief comment
+  3. Leave a brief comment on YouTube
 :::
 
 #### ✅ Good Example of a Sprint Meeting recording
