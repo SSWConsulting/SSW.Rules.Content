@@ -7,8 +7,8 @@ seoDescription: Learn the key differences between graphic design and UI/UX
   discipline.
 uri: graphic-vs-ui-ux-design
 authors:
-  - title: ""
   - title: Betty Bondoc
+    url: https://www.ssw.com.au/people/betty-bondoc/
 related:
   - when-do-you-need-a-ux-designer
 guid: e03357e7-f9f6-44a3-bf73-7e6d2b1972ef
