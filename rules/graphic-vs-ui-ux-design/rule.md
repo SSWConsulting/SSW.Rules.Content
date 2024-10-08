@@ -7,10 +7,11 @@ seoDescription: Learn the key differences between graphic design and UI/UX
   discipline.
 uri: graphic-vs-ui-ux-design
 authors:
+  - title: ""
   - title: Betty Bondoc
-    url: https://www.ssw.com.au/people/betty-bondoc/
 related:
   - when-do-you-need-a-ux-designer
+created: 2024-10-08T17:21:00.000Z
 guid: e03357e7-f9f6-44a3-bf73-7e6d2b1972ef
 ---
 Many people confuse graphic design with UI/UX design, thinking they serve the same purpose. In fact, these are entirely different areas of expertise, each requiring specialized skills. Confusing the two can lead to design inefficiencies or poor user experiences, as each discipline brings distinct value to a project.
