@@ -18,9 +18,9 @@ Many people confuse graphic design with UI/UX design, thinking they serve the sa
 
 <!--endintro-->
 
-- **Graphic design** is about how things look and ensuring they capture attention and evoke emotion
-- **UI design** focuses on the interactive elements users engage with, aiming to create an intuitive and efficient user interface
-- **UX design** considers the entire experience a user has with a product, ensuring it is smooth and satisfying
+* **Graphic design** is about how things look and ensuring they capture attention and evoke emotion
+* **UI design** focuses on the interactive elements users engage with, aiming to create an intuitive and efficient user interface
+* **UX design** considers the entire experience a user has with a product, ensuring it is smooth and satisfying
 
 ::: info
 UI and UX are combined since they work together to create a cohesive experience that is both visually appealing and easy to use, ensuring the design not only attracts users but also guides them through intuitive interactions.
@@ -32,28 +32,28 @@ Graphic design emphasizes the **visual** aspects of a product or communication. 
 
 **Examples of graphic design Tasks:**
 
-- Creating a logo and visual identity for a brand
-- Designing a business card or brochure, ensuring print specifications like color profiles and bleed margins are correct
-- Crafting digital advertisements or social media graphics
-- Choosing typography and creating cohesive color palettes
+* Creating a logo and visual identity for a brand
+* Designing a business card or brochure, ensuring print specifications like color profiles and bleed margins are correct
+* Crafting digital advertisements or social media graphics
+* Choosing typography and creating cohesive color palettes
 
 ![Figure: TinaCMS pull up banner design (graphic)](tina-graphics.png)
 
 ### UI/UX design - focus on user interaction and experience
 
-UI/UX design focuses on how users interact with a product, balancing form and function. **User Interface (UI)** design ensures that the product’s interface is visually consistent and intuitive, while **User Experience (UX)** design ensures that the product is functional, easy to navigate, and aligned with user needs. 
+UI/UX design focuses on how users interact with a product, balancing form and function. **User Interface (UI)** design ensures that the product’s interface is visually consistent and intuitive, while **User Experience (UX)** design ensures that the product is functional, easy to navigate, and aligned with user needs.
 
-A UI/UX designer often has knowledge of user-centered design principles, wireframing, and prototyping. They may even conduct usability testing to gather user feedback or collaborate with developers to implement designs in code. 
+A UI/UX designer often has knowledge of user-centered design principles, wireframing, and prototyping. They may even conduct usability testing to gather user feedback or collaborate with developers to implement designs in code.
 
 ::: info
 Some UI/UX designers are capable of writing front-end code themselves, further blurring the line between design and development.
 :::
 
 **Examples of UI/UX design tasks:**
-- Conducting usability testing to identify user pain points and refine the product’s functionality (UX)
-- Designing a website or app interface, ensuring that interactive elements like buttons and menus are easy to use and visually cohesive (UI)
-- Creating wireframes and interactive prototypes to map out user flows (UX/UI)
-- Writing HTML/CSS code to ensure design integrity during implementation (UI)
+* Conducting usability testing to identify user pain points and refine the product’s functionality (UX)
+* Designing a website or app interface, ensuring that interactive elements like buttons and menus are easy to use and visually cohesive (UI)
+* Creating wireframes and interactive prototypes to map out user flows (UX/UI)
+* Writing HTML/CSS code to ensure design integrity during implementation (UI)
 
 ![Figure: TinaCMS website mockups (UI/UX)](tina-mockup.png)
 
