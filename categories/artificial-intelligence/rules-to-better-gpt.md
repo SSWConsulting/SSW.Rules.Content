@@ -19,6 +19,9 @@ index:
 - indicate-ai-helped
 - make-perplexity-your-default-search-engine
 - use-chatgpt-to-generate-charts
+- manage-security-risks-when-adopting-ai-solutions
+- manage-legal-implications-of-ai
+- mitigate-brand-risks-ai
 
 ---
 
