@@ -39,7 +39,7 @@ Check the [official docs](https://www.jetbrains.com/resharper/) about installing
 * **Dependency view** - The graph is readable and organized
 * **Dependency cycle** - Enables users to find dependency problems in the project
 * **Interface** - The interaction with the graph feels very smoothly
-* **Customizability** - It has useful menu to select or deselect any project from the graph (same with Rider)
+* **Customizability** - It has useful menu to select or deselect any project from the graph (when project added or removed it discards all manual adjustments that has been made before)
 
 ### ❌ Cons
 
