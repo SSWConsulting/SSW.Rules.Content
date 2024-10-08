@@ -17,7 +17,7 @@ When making significant changes to your pipeline, it's crucial to test them in a
 Examining a mistake directly in the GitHub YAML file can be error-prone and might not provide a clear understanding of the issue.
 
 ::: bad
-![Figure: This should read needs: approval-gate](2023-09-14_14-05-04.png)
+![Figure: Bad example - This should read "needs: approval-gate"](2023-09-14_14-05-04.png)
 
 :::
 
@@ -26,5 +26,5 @@ To safely test a pipeline, particularly one that deploys to production, it's imp
 By executing the pipeline and examining its graphical representation, errors or inefficiencies become more apparent. This visual insight aids in swiftly pinpointing and comprehending any issues.
 
 ::: good
-![Figure: Pipeline Graph shows the issue instantly - Prod deployment and approval-gate in the wrong order](2023-09-14_14-11-09.png)
+![Figure: Good exampele - Pipeline Graph shows the issue instantly - Prod deployment and approval-gate in the wrong order](2023-09-14_14-11-09.png)
 :::
