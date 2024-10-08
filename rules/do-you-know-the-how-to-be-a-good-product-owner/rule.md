@@ -99,3 +99,5 @@ Being a PO can seem duanting to some, especially if they don't have a lot of Scr
 > “Most dysfunction I see in Scrum teams is caused by a bad Product Owner”
 >
 > **Adam Cogan** - Professional Scrum Trainer, Scrum.org, during a TechEd session
+
+It is also recommended that the Scrum Master is from the development consultant company and supports the Product Owner in the Agile practices. See [Does your Scrum Master support the Product Owner](/scrum-master-support-product-owner)
