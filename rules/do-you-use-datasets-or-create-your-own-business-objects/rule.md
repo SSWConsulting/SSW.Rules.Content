@@ -14,22 +14,22 @@ In .NET, there are 2 ways to pass data through the layers of your application. Y
 
 <!--endintro-->
 
-- Use DataSet objects, OR
-- Write your own custom business objects
+* Use DataSet objects, OR
+* Write your own custom business objects
 
 There are 2 very different opinions on this matter amongst .NET developers:
 
 ✅ Pros of **DataSet** object:
 
-- **Code Generation** - Strongly typed **DataSet** objects can be created automatically in Visual Studio. Custom business objects must be laboriously coded by hand.
-- **CRUD functionality DataSets** - When used with data adapters, can provide CRUD (Create, Read, Update, Delete) support. You must manually implement this functionality with custom business objects.
-- **Concurrency** - Support for concurrency is part of the **DataSet** object. Again, you must implement this yourself in a custom business object.
-- **Data binding** - It is difficult and time-consuming to write custom business objects that are compatible with data binding. The **DataSet** object is designed for data binding.
+* **Code Generation** - Strongly typed **DataSet** objects can be created automatically in Visual Studio. Custom business objects must be laboriously coded by hand.
+* **CRUD functionality DataSets** - When used with data adapters, can provide CRUD (Create, Read, Update, Delete) support. You must manually implement this functionality with custom business objects.
+* **Concurrency** - Support for concurrency is part of the **DataSet** object. Again, you must implement this yourself in a custom business object.
+* **Data binding** - It is difficult and time-consuming to write custom business objects that are compatible with data binding. The **DataSet** object is designed for data binding.
 
 ✅ Pros of **Custom Business** objects:
 
-- **Better performance** - The **DataSet** object is a very heavy object and is memory-intensive. In contrast custom business objects are always much more efficient. Business objects are usually faster when manipulating data, or when custom sorting is required.
-- Business objects allow you to combine data storage (NOT data access) and business logic (e.g. validation) in the one class. If you use **DataSet** objects, these must be in separate classes.
+* **Better performance** - The **DataSet** object is a very heavy object and is memory-intensive. In contrast custom business objects are always much more efficient. Business objects are usually faster when manipulating data, or when custom sorting is required.
+* Business objects allow you to combine data storage (NOT data access) and business logic (e.g. validation) in the one class. If you use **DataSet** objects, these must be in separate classes.
 
 ### The Case for Business Objects
 
