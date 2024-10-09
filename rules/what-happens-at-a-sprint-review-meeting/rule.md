@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know what happens at a Sprint Review meeting?
-uri: do-you-know-what-happens-at-a-sprint-review-meeting
+uri: what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,7 +11,8 @@ related:
   - tick-and-flick
   - explaining-pbis
   - getting-a-busy-person-into-the-meeting
-redirects: []
+redirects:
+  - do-you-know-what-happens-at-a-sprint-review-meeting
 created: 2010-05-06T02:07:33.000Z
 archivedreason: null
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
@@ -62,6 +63,7 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 ::: greybox
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ YOUR SCRUM MASTER }} |
@@ -82,8 +84,22 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 
 :::
 
-::: info
+---
 
+::: greybox
+Learn more about the meetings in Scrum:
+
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* Sprint Review Meeting (this rule)
+* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
+
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
+:::
+
+---
+
+::: info
 **Not doing Scrum?**
 
 Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
