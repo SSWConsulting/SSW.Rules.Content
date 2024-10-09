@@ -26,5 +26,5 @@ To safely test a pipeline, particularly one that deploys to production, it's imp
 By executing the pipeline and examining its graphical representation, errors or inefficiencies become more apparent. This visual insight aids in swiftly pinpointing and comprehending any issues.
 
 ::: good
-![Figure: Good exampele - Pipeline Graph shows the issue instantly - Prod deployment and approval-gate in the wrong order](2023-09-14_14-11-09.png)
+![Figure: Good example - Pipeline Graph shows the issue instantly - Prod deployment and approval-gate in the wrong order](2023-09-14_14-11-09.png)
 :::
