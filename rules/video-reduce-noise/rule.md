@@ -11,7 +11,7 @@ guid: e81dcdfd-d346-41e9-bda9-96abab268efa
 ---
 
 In the world of video production, capturing pristine footage is not always feasible. Environmental factors, equipment limitations, and shooting conditions can introduce unwanted digital grain (aka "noise") and imperfections into your videos. Fortunately, there are ways to rescue your footage and elevate its quality to new heights, using denoising and enhancement tools.
-One of the best tools for this is [Neat Video](https://www.neatvideo.com), a plug-in that works with most NLEs (non-linear editors), including Adobe Premiere Pro & After Effects, Final Cut, and Davinci Resolve.
+One of the best tools for this is [Neat Video](https://www.neatvideo.com/), a plug-in that works with most NLEs (non-linear editors), including Adobe Premiere Pro & After Effects, Final Cut, and Davinci Resolve.
 
 <!--endintro-->
 
