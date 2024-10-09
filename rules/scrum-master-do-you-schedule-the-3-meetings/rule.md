@@ -73,13 +73,13 @@ This is a calendar appointment to hold the following 3 Scrum meetings:
 
 **Sprint Review Meeting**
 
-We will go through the user stories that have been completed and demonstrate them.\  
+We will go through the user stories that have been completed and demonstrate them.\
 See rule [What happens at a Sprint Review Meeting?](/do-you-know-what-happens-at-a-sprint-review-meeting)
 
 **Sprint Retrospective Meeting**
 
 Sprint closed and new Sprint starts.  
-We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.\  
+We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.\
 See rule [What happens at a Sprint Retrospective Meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 **Sprint Planning Meeting**
