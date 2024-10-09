@@ -24,7 +24,7 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 
 ## Content
 
-1. **Generic** - Keep your video appealing and easy to understand for a global audience. Generally, the video should not directly discuss the specific tasks of a PBI, but rather address the feature or change as a whole.
+1. **Generic** - Keep your video appealing and easy to understand for a global audience. The video should not directly discuss the specific tasks of a PBI, but rather address the new feature or change as a whole.
 2. **Prepare** - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your Intro and Outro!
 3. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. *"Hi everyone, my name is Bob Northwind and today I would like to show you..."*
 4. **Show the Pain** - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
