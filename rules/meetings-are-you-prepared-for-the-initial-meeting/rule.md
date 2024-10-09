@@ -17,6 +17,8 @@ related: []
 redirects: []
 ---
 
+![Figure: Preparing for an Initial Meeting - AI is your best friend!](https://github.com/user-attachments/assets/29063a5a-131a-4a2e-bc48-e951f598e2a8)
+
 Be prepared for the initial meeting because first impressions are the most important. Preparation cements your professionalism and underscores your eye for detail and capacity to deliver.
 
 <!--endintro-->
