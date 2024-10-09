@@ -4,13 +4,15 @@ type: rule
 archivedreason:
 title: Meetings - Are you prepared for the initial meeting?
 guid: 1c0c7bfe-e9d8-4968-8f99-446cdd6cbc13
-uri: meetings-are-you-prepared-for-the-initial-meeting
+uri: prepare-for-initial-meetings
 created: 2012-08-30T12:57:36.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Levi Jackson
+    url: https://www.ssw.com.au/people/levi-jackson/
 related: []
 redirects: []
 ---
@@ -29,5 +31,5 @@ Preparing for the meeting includes:
 - Have all the information that was recorded during the [initial call](/be-prepared-for-inbound-calls)
 - A hard copy of the [Consulting Order Terms and Conditions](https://www.ssw.com.au/SSW/Standards/Forms/ConsultingOrderTermsConditions.aspx) may be useful for them to review when the meeting is concluded
 - Plenty of business cards (that haven't been sitting in your wallet for three months!)
-- Use ChatGPT or a similar AI service to help you think of questions that are relevant to your project's technology. Try our new GPT, SIMP (SSW Initial Meeting Pro) for an easy and efficient way to prepare: <https://chat.openai.com/g/g-PlDXigpe3-simp-ssw-initial-meeting-pro>
+- Use ChatGPT or a similar AI service to help you think of questions that are relevant to your project's technology. Try our GPT, [SSW Sales Pro](https://chatgpt.com/g/g-PlDXigpe3-ssw-sales-pro) for an easy and efficient way to prepare.
 - Turning up early!
