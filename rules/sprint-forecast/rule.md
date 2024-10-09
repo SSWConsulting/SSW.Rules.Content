@@ -46,9 +46,10 @@ Sprint Goals (in priority order):
 
 Please see below for a more detailed breakdown of the upcoming Sprint:
 
-| **Current Sprint:**    | **{{ SPRINT NUMBER }}**              |
+|                        |                                      |
 | ---------------------- | ------------------------------------ |
 | Summary Recording:     | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+| This Sprint:           | {{ SPRINT NUMBER }}                  |
 | Sprint Duration:       | {{ NUMBER OF WEEKS }}                |
 | Project:               | {{ PROJECT NAME }}                   |
 | Project Portal:        | {{ LINK TO PROJECT PORTAL }}         |
@@ -60,8 +61,9 @@ As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to
 
 The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the Sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
 
-| **ID** | **Title**                           | **State** | **Effort** |
+|   ID   |   Title                             |   State   |   Effort   |
 | ------ | ----------------------------------- | --------- | ---------- |
+|   ID   |   Title                             |   State   |   Effort   |
 | 24124  | UI Improvements                     | Done      | 4          |
 | 24112  | Integrate Business Logic to MVC app | Done      | 8          |
 | 24097  | Styling                             | Committed | 16         |
