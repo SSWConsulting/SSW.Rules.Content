@@ -23,6 +23,7 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 <!--endintro-->
 
 ## Content
+
 1. **Generic** - Keep your video appealing and easy to understand for a global audience. Generally, the video should not directly discuss the specific tasks of a PBI, but rather address the feature or change as a whole.
 2. **Prepare** - Plan what you're going to say and open the browser tabs you'll show beforehand. This means you should practice what you're going to say, especially your Intro and Outro!
 3. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. *"Hi everyone, my name is Bob Northwind and today I would like to show you..."*
@@ -30,11 +31,10 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 5. **Ending** - Finish with a strong closing that summarizes what you talked about and conclude with a compelling call-to-action (CTA). See the rule about [SSW.Rules | Production - Do you have a call to action (aka CTA)?](/production-do-you-add-a-call-to-action/)
 6. **Quick** - Keep it short, concise, and don't repeat yourself! Ideally we want to kee the video under 5 minutes.
 7. **Directing Attention** - Give people an idea of where to look by mentioning positions on the screen before taking actions. E.g. *"At the bottom of the screen" or "in the top right-hand corner."*
-8.  **Presentation** -  Present data from X to Y. E.g. for financial data start with the last month and then show the current month.
-
-
+8. **Presentation** -  Present data from X to Y. E.g. for financial data start with the last month and then show the current month.
 
 ## Presentation
+
 1. **Apparel** - If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
 2. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
 
@@ -48,12 +48,12 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 
 3. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
 4. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*
-   - **Note:** If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
+   * **Note:** If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
 
 5. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
-   - For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
-   - If presenting in Microsoft Office, hide the ribbon.
-   - When using Outlook for presentations, clear any irrelevant reminders.
+   * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
+   * If presenting in Microsoft Office, hide the ribbon.
+   * When using Outlook for presentations, clear any irrelevant reminders.
 
 ::: bad
 ![Figure: Bad example - 2 lines of irrelevant reminders in Outlook](BadExample-2-lines.jpg)
