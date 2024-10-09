@@ -40,8 +40,6 @@ Seeing contributions can be a great motivator and helps you keep track of your a
    * Tap and hold the home screen and select “Widgets”
    * Search for the GitHub contributions widget and add it to the home screen
 
-::: good
-::: img-medium
+::: good img-medium
 ![Figure: Good example - You can see your contributions from the home screen 🤖](contributions-mobile.png)
-:::
 :::
