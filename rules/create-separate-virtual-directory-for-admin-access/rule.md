@@ -86,7 +86,7 @@ The process is a little simpler in SQL 2000:
 
 3. Duplicate the file access security settings on ReportManager in ReportManagerPublicAccess
 
-4. Edit the RSWebApplication.config in the ReportManagerPublicAccessfolder to point to <http://server:81/ReportServer>
+4. Edit the RSWebApplication.config in the ReportManagerPublicAccessfolder to point to `http://server:81/ReportServer`
 
 ### In IIS Manager
 
