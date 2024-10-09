@@ -63,12 +63,12 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 ![Figure: Good example – Clean Outlook UI](GoodExample-clean-UI.png)
 :::
 
-1. **Resolution** - Set your screen to 1080p (1920x1080).
-2. **Recording** - Record both your screen and webcam.
-3. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
-4. **Be Friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro.
-5. **No Edits** - Don't edit the video; use a picture-in-picture format and hotkeys to switch visuals.
-6. **Do a Test Recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions.
+6. **Resolution** - Set your screen to 1080p (1920x1080).
+7. **Recording** - Record both your screen and webcam.
+8. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
+9. **Be Friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro.
+10. **No Edits** - Don't edit the video; use a picture-in-picture format and hotkeys to switch visuals.
+11. **Do a Test Recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions.
 
 Remember to watch some "Done" videos to get an idea of what a good "Done Video" looks like!
 
