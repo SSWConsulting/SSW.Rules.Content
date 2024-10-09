@@ -36,6 +36,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
