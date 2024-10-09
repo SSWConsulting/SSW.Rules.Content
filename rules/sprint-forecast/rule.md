@@ -29,6 +29,7 @@ This is simply an agreement between the Development Team and the PO for one Spri
 Each Sprint in a Scrum project can be considered a mini-project that has **time** (Sprint Length), **scope** (Sprint Backlog), **quality** (Definition of Done) and **cost** (Team Size \* Sprint Length). Only the scope can vary and this is measured every Sprint.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | {{Product Owner}} |
