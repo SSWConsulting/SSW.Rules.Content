@@ -47,8 +47,6 @@ Before using Windows Hello for Business, you must ensure that the following requ
 ![Figure: Good example - Windows Hello for Business setup](windowshello.jpg)
 :::
 
-### Checking Usage
-
 You can check Windows Hello for Business usage in the Azure portal - go to **Microsoft Entra authentication methods | Monitoring | [Activity](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity)**. From there, you can see registrations and usage stats for Windows Hello for Business and other methods.
 
 ![Figure: Example - Windows Hello for Business registration stats](whfb.png)
