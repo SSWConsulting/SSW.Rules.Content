@@ -29,7 +29,7 @@ Although it can be daunting, creating a awesome 'Done Video' doesn't have to be 
 3. **Introduction** - Start by introducing yourself and what you will be talking about. E.g. *"Hi everyone, my name is Bob Northwind and today I would like to show you..."*
 4. **Show the Pain** - Demonstrate the problem that your new feature will fix, then demonstrate your feature.
 5. **Ending** - Finish with a strong closing that summarizes what you talked about and conclude with a compelling call-to-action (CTA). See the rule about [SSW.Rules | Production - Do you have a call to action (aka CTA)?](/production-do-you-add-a-call-to-action/)
-6. **Quick** - Keep it short, concise, and don't repeat yourself! Ideally we want to kee the video under 5 minutes.
+6. **Quick** - Keep it short, concise, and don't repeat yourself! Ideally we want to keep the video under 5 minutes.
 7. **Directing Attention** - Give people an idea of where to look by mentioning positions on the screen before taking actions. E.g. *"At the bottom of the screen" or "in the top right-hand corner."*
 8. **Presentation** -  Present data from X to Y. E.g. for financial data start with the last month and then show the current month.
 
