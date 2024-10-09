@@ -12,10 +12,13 @@ authors:
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - no-hello
   - appointments-throw-it-in-their-calendar
   - as-per-our-conversation-emails
+  - when-to-email-chat-call-or-meet
 redirects:
   - im-your-contact-to-see-if-they’re-free-before-you-try-calling-them
   - calling-do-you-im-your-contact-to-see-if-theyre-free-before-you-try-calling-them
@@ -33,15 +36,14 @@ Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
 A good way to initiate a call is to warm them up by giving a warning (e.g. _“Calling you in 1 min to talk about the Northwind production site being down 💀.”_).
 
-::: greybox
+<!--endintro-->
 
+::: greybox
 **Warm Calling:** Give a warning, then call.  
 **Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.  
 :::
 
-<!--endintro-->
-
-## The benefits of a warm call
+## ✅ The benefits of a warm call
 
 * **Prioritization** - The other person can see what the call is about and can determine if it is a priority. For example, if you mention that you want to talk about an email from several years ago, they might think it isn't that important. Conversely, if you mention the production server is down, they will almost definitely answer you!
 * **Consideration** - It gives the other person the time to prepare. They might be busy or in another call
@@ -56,45 +58,58 @@ e.g. a Sprint Review
 
 If the conversation has history, like a PBI/Issue or email, then it's important to [include the context](/add-context-reasoning-to-emails).
 
-:::greybox
+::: greybox
 Calling in 1 minute. See the PBI/Issue:
 
 **{{ URL }}**
 :::
-:::good
+::: good
 Good example - Includes PBI/Issue link for reference and doesn't leave anyone waiting
 :::
 
 **Tip:** For the example above, PBIs often have long URLs. Include a line break for better readability.
 
-:::greybox
+::: greybox
 Calling in 1 minute about this email thread:
 
 **{{ EMAIL SUBJECT }}**
 :::
-:::good
+::: good
 Good example - Includes email subject for reference and doesn't leave anyone waiting
 :::
 
-### Using Outlook | Share to Teams
+## Using Outlook | Share to Teams
 
 Outlook can do some of the heavy lifting for you! You can directly paste an email into a teams message with one click.
 
 ![Figure: In Outlook | Share to Teams ](share-to-teams-outlook-button.png)
 
-:::good
+::: good
 ![Figure: Good example - Includes a task, and gives context by sharing the email to a teams chat using Outlook | Share to Teams](share-to-teams.png)
 :::
 
-### What if your call is declined?
+### What if your call is declined/not answered?
 
-When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten.
+When a call is declined, it is important to follow up in order to ensure the task remains a priority and does not get forgotten. You should follow up twice after the first call.
 
-:::greybox
+::: greybox
 "Tried to call - will try again in 1 hour"
 :::
-:::good
+::: good
 Good example - Send them a message indicating you will try again later
 :::
 
 **Tip:** The [follow-up effectively](/follow-up-effectively) rule will help you remember to call.
+
+### ❌ Blocked - What if you are blocked and can't reach the person for a whole day?
+
+If you couldn't get hold of the person, and a decision needs to be made (aka blocked), you should write your recommendation, get a [cross-approval](/cross-approvals) and inform them.
+
+::: greybox
+"Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
+(checked by {{ APPROVER }}).
+Please get back to me if you prefer another way."
+:::
+::: good
+Good example - Send them a message explaining how the next steps will move forward
+:::

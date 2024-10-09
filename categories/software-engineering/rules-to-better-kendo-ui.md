@@ -9,3 +9,5 @@ index:
 - do-you-use-a-grid-to-display-tabular-information
 
 ---
+
+Discover essential practices for effectively using Kendo UI in your applications. This guide includes tips on integrating AngularJS services, implementing tooltips for grid icons, and utilizing grids for displaying tabular information.

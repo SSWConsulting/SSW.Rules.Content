@@ -5,6 +5,7 @@ guid: 9e0c432c-4925-4075-a824-5230e0e71354
 uri: rules-to-better-gpt
 consulting: https://www.ssw.com.au/consulting/gpt
 index:
+- best-ai-tools
 - what-is-chatgpt
 - chatgpt-skills-weaknesses
 - what-is-gpt
@@ -18,6 +19,9 @@ index:
 - indicate-ai-helped
 - make-perplexity-your-default-search-engine
 - use-chatgpt-to-generate-charts
+- manage-security-risks-when-adopting-ai-solutions
+- manage-legal-implications-of-ai
+- mitigate-brand-risks-ai
 
 ---
 

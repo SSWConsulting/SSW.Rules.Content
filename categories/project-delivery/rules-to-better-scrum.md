@@ -7,7 +7,7 @@ index:
   - scrum-guide
   - 8-steps-to-scrum
   - scrum-master-do-you-schedule-the-3-meetings
-  - do-you-know-what-happens-at-a-sprint-review-meeting
+  - what-happens-at-a-sprint-review-meeting
   - what-happens-at-retro-meetings
   - what-happens-at-a-sprint-planning-meeting
   - methodology-daily-scrums

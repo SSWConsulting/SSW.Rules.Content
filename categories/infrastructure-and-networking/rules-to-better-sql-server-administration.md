@@ -10,5 +10,5 @@ index:
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
 
 ---
- 
 
+Effective SQL Server administration involves not allocating all RAM to SQL Server to ensure system stability, keeping SharePoint databases in a separate SQL instance for performance management, and turning off auto-update on your servers to maintain control over when updates are applied.

@@ -2,7 +2,7 @@
 seoDescription: Optimize your videos for YouTube by writing attention-grabbing titles that include your main keyword and value proposition.
 type: rule
 archivedreason:
-title: Do you optimize your videos for YouTube?
+title: Searchability - Do you optimize your videos for YouTube?
 guid: aecea52a-e173-4d2f-935c-72ced2402830
 uri: optimize-videos-for-youtube
 created: 2018-05-21T00:08:58.0000000Z

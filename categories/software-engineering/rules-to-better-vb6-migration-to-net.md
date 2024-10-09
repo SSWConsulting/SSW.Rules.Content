@@ -8,3 +8,5 @@ index:
 - use-visual-basic-6-upgrade-assessment-tool
 - use-net-built-in-visual-basic-upgrade-wizard
 ---
+
+Facilitate a smooth transition from VB6 to .NET with essential guidelines and tools. This resource outlines key strategies for migrating applications, including leveraging the Visual Basic 6 Upgrade Assessment Tool and the built-in .NET Upgrade Wizard to ensure a successful upgrade process.

@@ -28,3 +28,5 @@ index:
 - scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings
 
 ---
+
+Establish clear and consistent naming conventions to enhance the readability and maintainability of your code and resources. These guidelines will help you name everything from databases and APIs to Azure resources and virtual machines, ensuring a cohesive and professional approach across your projects.

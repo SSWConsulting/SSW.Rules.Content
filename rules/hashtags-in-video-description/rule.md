@@ -1,7 +1,7 @@
 ---
 seoDescription: Add relevant hashtags to your YouTube video descriptions to increase reach and engagement by grouping related content together.
 type: rule
-title: YouTube - Do you add hashtags to your video descriptions?
+title: Searchability - Do you add hashtags to your descriptions?
 uri: hashtags-in-video-description
 authors:
   - title: Adriana Tavares
@@ -19,7 +19,7 @@ For example, if you are uploading a video about SSW Rules, including the hashtag
 When uploading your video on YouTube and creating the description, don't forget to add relevant hashtags to increase your video reach 😊
 
 ::: greybox
-**Tip:** If the hashtags aren't appearing at the top of your description, remove your location - having both creates a conflict. 
+**Tip:** If the hashtags aren't appearing at the top of your description, remove your location - having both creates a conflict.
 :::
 
 Watch this video for a simple explanation:

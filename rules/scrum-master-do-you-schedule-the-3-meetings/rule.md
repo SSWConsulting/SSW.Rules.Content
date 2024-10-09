@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Scrum Master - Do you schedule the 3 meetings?
+title: Scrum Master - Do you schedule the 3 Scrum meetings?
 seoDescription: As a Scrum Master, scheduling 3 crucial meetings - Sprint Review, Retrospective, and Planning - ensures successful Sprints.
 uri: scrum-master-do-you-schedule-the-3-meetings
 authors:
@@ -10,7 +10,11 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+  - 8-steps-to-scrum
+  - what-happens-at-a-sprint-planning-meeting
+  - what-happens-at-retro-meetings
+  - what-happens-at-a-sprint-review-meeting
 redirects: []
 created: 2010-05-06T05:41:54.000Z
 archivedreason: null
@@ -20,6 +24,8 @@ guid: 19441e59-3e96-4747-8bd9-e4607e422b81
 The Scrum Master plays a key role in the Scrum framework by scheduling and facilitating 3 crucial meetings: the Sprint **Review**, **Retrospective**, and **Planning**. These meetings are essential for reviewing progress, reflecting on performance, and planning future work, helping the team stay aligned and continuously improve.
 
 <!--endintro-->
+
+![Figure: The 3 meetings in the Scrum steps](8StepstoScrum-meetings.png)
 
 The Scrum Master should estimate how much time each meeting will require, then schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
 
@@ -33,12 +39,22 @@ The Scrum Master should estimate how much time each meeting will require, then s
 * Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance
 
 ::: greybox
-**Tip:** It can be helpful to finish the Sprint Planning meeting with the first Daily Scrum.
+Learn more about the meetings in Scrum:
+
+* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
+
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
+
+## Scheduling the meetings
 
 Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | Required Attendees: | Scrum Team |
@@ -47,7 +63,7 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 | Subject: | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
 ::: email-content
 
-### Hi Team,
+### Hi Team
 
 * Product Owner: {{ PRODUCT OWNER }}
 * Scrum Master: {{ SCRUM MASTER }}
@@ -57,19 +73,19 @@ This is a calendar appointment to hold the following 3 Scrum meetings:
 
 **Sprint Review Meeting**
 
-We will go through the user stories that have been completed and demonstrate them.  
+We will go through the user stories that have been completed and demonstrate them.\  
 See rule [What happens at a Sprint Review Meeting?](/do-you-know-what-happens-at-a-sprint-review-meeting)
 
 **Sprint Retrospective Meeting**
 
 Sprint closed and new Sprint starts.  
-We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.  
+We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.\  
 See rule [What happens at a Sprint Retrospective Meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 **Sprint Planning Meeting**
 
-We go through the backlog (aka to-do list), get more information, estimate and then prioritize.   
-We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.   
+We go through the backlog (aka to-do list), get more information, estimate and then prioritize.\
+We then breakdown to tasks and commit to what we believe we can deliver for the next Sprint.\
 See the rule [What happens at a Sprint Planning Meeting?](/what-happens-at-a-sprint-planning-meeting)
 
 Regards,
@@ -88,13 +104,3 @@ Figure: Good example - Copy this appointment template and send to the Scrum Team
 :::
 
 See [Meetings - Do you know when to send an Appointment or a Teams Meeting?](/send-appointment-or-teams-meeting) for more information.
-
-::: greybox
-In Scrum, there are 4 meetings in total that you need to know about:
-
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting") (Stand-up)
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-
-:::

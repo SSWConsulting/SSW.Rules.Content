@@ -9,7 +9,9 @@ created: 2009-06-26T10:07:46.0000000Z
 authors:
   - title: William Yin
     url: https://ssw.com.au/people/william-yin
-related: []
+related: 
+  - do-you-display-dates-in-a-human-friendly-format
+  - add-days-to-dates
 redirects: []
 ---
 

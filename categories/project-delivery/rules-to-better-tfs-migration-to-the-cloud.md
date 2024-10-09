@@ -11,4 +11,4 @@ index:
 
 ---
 
-
+Successfully migrate your TFS to the cloud by understanding various migration methods and the essential steps involved. Assess whether to retain your TFS Build Server and consider appropriate actions for managing data related to former employees.
