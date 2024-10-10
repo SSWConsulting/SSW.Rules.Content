@@ -94,8 +94,6 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 >
 > - Someone famous in Source Title
 
----
-
 ### 2. Text decorations
 
 ```markdown
@@ -125,8 +123,6 @@ _This will also be italic_
 _You **can** combine them_
 
 <mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
-
----
 
 ### 3. Lists
 
@@ -178,8 +174,6 @@ _You **can** combine them_
      1. This is the first item of an ordered list inside another
      2. This is the second item of an ordered list inside another
 
----
-
 ### 4. Links
 
 ```md
@@ -202,8 +196,6 @@ This is [an external link](https://www.google.com).
   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
 :::
-
----
 
 ### 5. Boxes
 
@@ -275,15 +267,11 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 **Figure: Nothing will show up from this Markdown**
 
----
-
 ### 6. Images
 
 ::: todo  
 TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
 :::
-
----
 
 ### 7. Captions
 
@@ -331,8 +319,6 @@ This is an example of a good grey box.
 Figure: Caption for good examples  
 :::
 
----
-
 ### 8. Videos
 
 #### Code for videos
@@ -351,8 +337,6 @@ Check out this video - it's responsive!
 `youtube: https://www.youtube.com/embed/0ugMkda9IBw`
 **Video: Top 5 Reasons Why ASP.NET MVC is Great (3 min)**
 
----
-
 ### 9. Twitter Cards Embed
 
 Embedding a Tweet is similar to a video. Copy the link of the tweet then add it to the rule with backticks on each side like this:
@@ -362,8 +346,6 @@ Embedding a Tweet is similar to a video. Copy the link of the tweet then add it 
 ```
 
 `oembed: https://twitter.com/MrHinsh/status/24123713864`
-
----
 
 ### 10. Code
 
@@ -464,8 +446,6 @@ public class MyClass
 
 **Figure: JSON code block**
 
----
-
 ### 11. Email Templates
 
 #### Code for email template
@@ -473,7 +453,7 @@ public class MyClass
 ```md
 ::: email-template  
 | | |
-| -------- | --- |
+| -- | |
 | To: | XXX |
 | Cc: | YYY |
 | Bcc: | ZZZ |
@@ -514,8 +494,6 @@ Figure: Good example - Nice email template
 Figure: Good example - Nice email template  
 :::
 
----
-
 ### 12. Tables
 
 #### Code for tables
@@ -538,21 +516,17 @@ Figure: Good example - Nice email template
 | col 2 is      |   centered    |   \$12 |
 | zebra stripes |   are neat    |    \$1 |
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
-
----
+| Markdown | Less | Pretty |
+| -- | | - |
+| _Still_ | `renders` | **nicely** |
+| 1 | 2 | 3 |
 
 ### 13. Thematic breaks (horizontal rules)
 
 #### Code for hr
 
 ```md
----
+
 ```
 
 #### Examples
-
----
