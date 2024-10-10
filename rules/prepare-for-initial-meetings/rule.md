@@ -41,3 +41,4 @@ Preparing for the meeting includes:
 * Turning up early!
 
 `youtube: https://youtu.be/DzYnADsjNQw`
+**Video: How to plan an initial meeting with Levi Jackson & Luke Cook (8 min)**
