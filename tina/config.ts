@@ -1,5 +1,6 @@
 import { defineConfig } from 'tinacms';
 import { Rules } from './collections/rules';
+import { Sidebar } from './collections/sidebar';
 
 // Your hosting provider likely exposes this as an environment variable
 const branch = process.env.TINA_CONTENT_BRANCH ?? 'main';
@@ -31,6 +32,6 @@ export default defineConfig({
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
-    collections: [Rules],
+    collections: [Rules, Sidebar],
   },
 });

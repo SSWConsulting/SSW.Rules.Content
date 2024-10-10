@@ -1,5 +1,5 @@
 import { Collection, TinaField } from "tinacms";
-import bodySchema from "../../bodySchema.json";
+import bodySchema from "../../schemas/bodySchema.json";
 
 
 export const Rules: Collection = {
