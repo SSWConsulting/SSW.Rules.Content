@@ -13,7 +13,7 @@ authors:
 created: 2024-10-08T17:22:00.000Z
 guid: 778936df-ed76-4903-9f7d-5e3df9da2327
 ---
-When working with a client-side Product Owner (PO), it’s crucial for the Scrum Master to come from the consultancy. Typically, the consultant Scrum Master has more experience in agile and Scrum methodologies than the client PO. This experience can significantly impact the success of the project by providing essential guidance and support to the PO in their key responsibilities.
+When working with a client-side Product Owner (PO), it’s crucial for the Scrum Master to come from the consultancy. Typically, the consultant Scrum Master has more experience in Agile and Scrum methodologies than the client PO. This experience can significantly impact the success of the project by providing essential guidance and support to the PO in their key responsibilities.
 
 Without proper support, the PO might struggle with critical tasks like backlog management, prioritisation, and stakeholder communication, which can lead to misaligned expectations, missed deadlines, and reduced product quality.
             
@@ -55,18 +55,6 @@ Projects often encounter risks and changes, which need to be managed properly. T
 #### 2. **Training and Support**
 It’s common for a client-side Product Owner to be relatively new to Scrum. The Scrum Master should take on the responsibility of training the PO, offering guidance, and providing ongoing support. This ensures the PO grows in their role and becomes more effective over time.
 
-### Practical Example: 
-
-**Bad Example:**
-The Scrum Master allows the PO to take full ownership of backlog prioritisation without offering any guidance, leading to misalignment between business needs and development work.
-
-Figure: Bad Example – The Scrum Master fails to provide support, causing the Product Owner to struggle with key responsibilities.
-
-**Good Example:**
-The Scrum Master holds regular backlog refinement sessions with the PO, helping them prioritise based on stakeholder input and business goals. The Scrum Master also provides support during sprint planning and review sessions to ensure the PO is confident in their decisions.
-
-Figure: Good Example – The Scrum Master guides the Product Owner, ensuring the backlog is well-managed and priorities are clear.
-
 ### Conclusion
 
-A Scrum Master plays a vital role in supporting the Product Owner by offering expertise in agile practices, helping manage the product backlog, and ensuring stakeholder engagement. When the Scrum Master effectively supports the PO, it leads to better product outcomes, more efficient sprints, and clearer communication across the board.
+A Scrum Master plays a vital role in supporting the Product Owner by offering expertise in Agile practices, helping manage the product backlog, and ensuring stakeholder engagement. When the Scrum Master effectively supports the PO, it leads to better product outcomes, more efficient sprints, and clearer communication across the board.
