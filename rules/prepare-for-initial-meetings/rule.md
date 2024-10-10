@@ -1,11 +1,10 @@
 ---
-seoDescription: Prepare for initial meetings by familiarizing yourself with client technology, reviewing their website and specifications, and having a standard sales presentation ready.
 type: rule
-archivedreason:
 title: Meetings - Are you prepared for the initial meeting?
-guid: 1c0c7bfe-e9d8-4968-8f99-446cdd6cbc13
+seoDescription: Prepare for initial meetings by familiarizing yourself with
+  client technology, reviewing their website and specifications, and having a
+  standard sales presentation ready.
 uri: prepare-for-initial-meetings
-created: 2012-08-30T12:57:36.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,11 +13,15 @@ authors:
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson/
 related: []
-redirects: 
- - meetings-are-you-prepared-for-the-initial-meeting
+redirects:
+  - meetings-are-you-prepared-for-the-initial-meeting
+created: 2012-08-30T12:57:36.000Z
+archivedreason: null
+guid: 1c0c7bfe-e9d8-4968-8f99-446cdd6cbc13
 ---
 
-![Figure: Preparing for an Initial Meeting - AI is your best friend!](https://github.com/user-attachments/assets/29063a5a-131a-4a2e-bc48-e951f598e2a8)
+
+![Figure: Preparing for an Initial Meeting - AI is your best friend!](ai-handshake.webp)
 
 Be prepared for the initial meeting because first impressions are the most important. Preparation cements your professionalism and underscores your eye for detail and capacity to deliver.
 
