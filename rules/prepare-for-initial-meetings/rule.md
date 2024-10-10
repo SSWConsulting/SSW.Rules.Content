@@ -18,11 +18,11 @@ archivedreason: null
 guid: 1c0c7bfe-e9d8-4968-8f99-446cdd6cbc13
 ---
 
-![Figure: Preparing for an Initial Meeting - AI is your best friend!](ai-handshake.webp)
-
 Be prepared for the initial meeting because first impressions are the most important. Preparation cements your professionalism and underscores your eye for detail and capacity to deliver.
 
 <!--endintro-->
+
+![Figure: Preparing for an Initial Meeting - AI is your best friend!](ai-handshake.webp)
 
 Preparing for the meeting includes:
 
