@@ -11,8 +11,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Damian Brady
     url: https://ssw.com.au/people/damian-brady
-related:
-  - do-you-look-at-the-architecture
+related: []
 redirects: []
 ---
 
