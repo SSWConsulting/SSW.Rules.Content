@@ -14,7 +14,8 @@ authors:
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson/
 related: []
-redirects: []
+redirects: 
+ - meetings-are-you-prepared-for-the-initial-meeting
 ---
 
 ![Figure: Preparing for an Initial Meeting - AI is your best friend!](https://github.com/user-attachments/assets/29063a5a-131a-4a2e-bc48-e951f598e2a8)
