@@ -279,12 +279,6 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 
 ### 6. Images
 
-```md
-::: img-small  
-![Figure: Caption text](image-file.jpg)
-:::
-```
-
 ::: todo  
 TODO: Make these images hosted internally as per [Do you make sure your images are hosted internally?](/images-should-be-hosted-internally)
 :::
