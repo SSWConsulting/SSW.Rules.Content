@@ -36,7 +36,7 @@ Preparing for the meeting includes:
 * **Business cards** - Bring a fresh stack of up to date business cards, ready to share with new contacts. Or, even better, use [digital business cards](https://www.ssw.com.au/rules/business-cards-branding).
 * **Internet access** - In case you're onsite, make sure you can hotspot with your phone. In fact, it is preferred you do not connect to the client's network due to time and security issues
 
-## **AI assistance** 
+## **AI assistance**
 
 Use ChatGPT or a similar AI service to help you think of questions that are relevant to your project's technology or industry. Try our GPT, [SSW Sales Pro](https://chatgpt.com/g/g-PlDXigpe3-ssw-sales-pro) for an easy and efficient way to prepare - see video below.
 
