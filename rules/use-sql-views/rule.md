@@ -20,41 +20,41 @@ A view is a virtual table produced from executing a stored query on the database
 
 <!--endintro-->
 
-## ✅ Advantages 
+## ✅ Advantages
 
 **1. Simplicity**
 
-- Multiple tables can be joined and simplified into a single virtual table
-- Complex calculations, groupings and filters can be hidden from the user so that the results appear as a simple dataset
-- Views can be used to transparently partition data such as having Sales2019 and Sales2020 but both views read from the underlying Sales table
-- Duplication can be reduced in procedures and queries by using a common view
+* Multiple tables can be joined and simplified into a single virtual table
+* Complex calculations, groupings and filters can be hidden from the user so that the results appear as a simple dataset
+* Views can be used to transparently partition data such as having Sales2019 and Sales2020 but both views read from the underlying Sales table
+* Duplication can be reduced in procedures and queries by using a common view
 
 **2. Security**
 
-- Views can be used to provide a specific data set to a user while protecting the underlying tables
-- Permission management of tables cannot be limited to a row or a column, but it can be implemented simply through views
+* Views can be used to provide a specific data set to a user while protecting the underlying tables
+* Permission management of tables cannot be limited to a row or a column, but it can be implemented simply through views
 
 **3. Flexibility**
 
-- Once the view structure is determined, you can shield the impact of changes in the table structure on users
-- Modifying the column name of the source table can be solved by modifying the view, without impacting end users
-- Aliases can be used on column names to make them more readable and descriptive
-- Adding columns to the source table has no impact on the view
-- The ability to soft-delete records by filtering them with an IsDeleted column
+* Once the view structure is determined, you can shield the impact of changes in the table structure on users
+* Modifying the column name of the source table can be solved by modifying the view, without impacting end users
+* Aliases can be used on column names to make them more readable and descriptive
+* Adding columns to the source table has no impact on the view
+* The ability to soft-delete records by filtering them with an IsDeleted column
 
 ## ❌ Disadvantages
 
 **1. Performance**
 
-- Views can take longer to query than tables as they may contain complex functions or multi-table queries
+* Views can take longer to query than tables as they may contain complex functions or multi-table queries
 
 **2. Dependencies**
 
-- Views depend on the underlying tables for its data, so if the structure of the tables change it may break the view
+* Views depend on the underlying tables for its data, so if the structure of the tables change it may break the view
 
 **3. Update Restrictions**
 
-- Depending on the complexity of the view, you may not be able to modify the data through the view to the underlying base tables
+* Depending on the complexity of the view, you may not be able to modify the data through the view to the underlying base tables
 
 ## Modifying tables through views
 
@@ -68,7 +68,7 @@ UPDATE vwProductsNorthwind SET Cost = @ItemCost WHERE Id = @ItemId;
 DELETE vwProductsNorthwind WHERE Id = @ItemId;
 ```
 
-**Figure: Example of an updatable view using a single base table** 
+**Figure: Example of an updatable view using a single base table**
 
 More complex views, such as a multi-table view can be used after the where clause in another update statement.
 
