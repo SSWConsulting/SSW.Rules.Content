@@ -22,8 +22,8 @@ Many developers are frightened of making a change to the existing database becau
 2. Trawl through source control, all network locations and all the source code around to check what connection strings are being used
 3. You can have a zsApplication table and manually populate with application it uses (Recommended). This can be populated with a run of a SQL profiler over a period of a week so all usage is captured.
 
-![Figure: Add a zsApplication table to make applications that use it visible to all developers](SQLDatabases_zsApplication.png)
+    ![Figure: Add a zsApplication table to make applications that use it visible to all developers](SQLDatabases_zsApplication.png)
 
 4. Keep a constantly running login Audit with a SQL Server Profiler Trace that saves to a table and make sure all applications have an application name in their connection string. This method is the most comprehensive option but is not recommended because you get a constant performance hit from SQL Profiler running.
-   <span style="color:#555555;font-weight:bold;"><img src="2020-01-09_18-55-46.png" alt="2020-01-09_18-55-46.png" style="margin:5px;width:808px;">
-   </span><span style="color:#555555;font-weight:bold;">Figure: SQL Profiler can help you design for change with auditing of Login events by giving you a guide on what applications are connecting to your database</span>
+
+    ![Figure: SQL Profiler can help you design for change with auditing of Login events by giving you a guide on what applications are connecting to your database](2020-01-09_18-55-46.png)
