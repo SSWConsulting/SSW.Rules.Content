@@ -87,10 +87,41 @@ To prepare for meetings and maximise the chances of success for your project, en
    * When users write new articles, the hardest part is to add links to other articles. Therefore, work should be prioritized to improve how links are created between articles
    * When a new account is created, it is taking 4 minutes to provision. We need to aim to reduce this to 1 minute
 
-9. **Resources - do you have everything you need to complete the updated Product Roadmap?** Ensure that you have agreements for staffing, services, extra consultants and additional resources to ensure that the Roadmap can be delivered. For example:
+9. **Resources - Do you have everything you need to complete the updated Product Roadmap?** Ensure that you have agreements for staffing, services, extra consultants and additional resources to ensure that the Roadmap can be delivered. For example:
 
    * To implement the new article search functionality, approval is required to cover the development and the Azure Search Service instance
    * To implement the AI co-writing feature, approval is required to bring in an external expert to advise the team
+
+You can use the following template when scheduling the meeting.
+
+::: email-template
+| | |
+| -------- | --- |
+| Required Attendees: | {{ PRODUCT OWNER }}, Interested Stakeholders |
+| Recurrence: | Every {{ NUMBER OF MONTHS }} months |
+| Subject: | {{ PROJECT NAME }} – 🤠 Roadmap Rodeo |
+::: email-content
+
+### Hi Everyone,
+
+This meeting is intended to keep you informed of {{ PRODUCT }}’s progress.
+
+**Agenda**
+
+-	Value - What features have been delivered recently?
+-	Development - How has the Roadmap progressed?
+-	Development - What delays or blockers have been encountered while writing the software?
+-	Operations - How do the Product's metrics compare historically?
+-	Operations - What issues have been seen in Production?
+-	Planning - What decisions have been made regarding the project?
+-	Vision - Are we still happy with the Product Goal?
+-	Planning - Should the Roadmap be changed to align with the Product Goal?
+-	Resources - Do you have everything you need to complete the update Product Roadmap?
+
+&lt; Sent as per the rule https://www.ssw.com.au/rules/communicate-your-product-status/ &gt;
+
+:::
+:::
 
 ## Good Example - Roadmap Rodeo for SugarLearning
 
@@ -178,6 +209,7 @@ No Changes
 
 * Approved for funding to upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
 
+&lt; Sent as per the rule https://www.ssw.com.au/rules/communicate-your-product-status/ &gt;
 :::
 :::
 
@@ -270,6 +302,8 @@ To:
 #### Resources - Requests
 
 * Approved for {{ SERVICE EXPENSE }}
+
+&lt; Sent as per the rule https://www.ssw.com.au/rules/communicate-your-product-status/ &gt;
 
 :::
 :::
