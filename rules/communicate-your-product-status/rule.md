@@ -95,6 +95,7 @@ To prepare for meetings and maximise the chances of success for your project, en
 You can use the following template when scheduling the meeting.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | Required Attendees: | {{ PRODUCT OWNER }}, Interested Stakeholders |
@@ -102,23 +103,23 @@ You can use the following template when scheduling the meeting.
 | Subject: | {{ PROJECT NAME }} – 🤠 Roadmap Rodeo |
 ::: email-content
 
-### Hi Everyone,
+### Hi Everyone
 
 This meeting is intended to keep you informed of {{ PRODUCT }}’s progress.
 
 **Agenda**
 
--	Value - What features have been delivered recently?
--	Development - How has the Roadmap progressed?
--	Development - What delays or blockers have been encountered while writing the software?
--	Operations - How do the Product's metrics compare historically?
--	Operations - What issues have been seen in Production?
--	Planning - What decisions have been made regarding the project?
--	Vision - Are we still happy with the Product Goal?
--	Planning - Should the Roadmap be changed to align with the Product Goal?
--	Resources - Do you have everything you need to complete the update Product Roadmap?
+* Value - What features have been delivered recently?
+* Development - How has the Roadmap progressed?
+* Development - What delays or blockers have been encountered while writing the software?
+* Operations - How do the Product's metrics compare historically?
+* Operations - What issues have been seen in Production?
+* Planning - What decisions have been made regarding the project?
+* Vision - Are we still happy with the Product Goal?
+* Planning - Should the Roadmap be changed to align with the Product Goal?
+* Resources - Do you have everything you need to complete the update Product Roadmap?
 
-&lt; Sent as per the rule https://www.ssw.com.au/rules/communicate-your-product-status/ &gt;
+&lt; Sent as per the rule <https://www.ssw.com.au/rules/communicate-your-product-status/> &gt;
 
 :::
 :::
@@ -128,6 +129,7 @@ This meeting is intended to keep you informed of {{ PRODUCT }}’s progress.
 Here is a full example of how to record a Roadmap Rodeo in an email.
 
 ::: email-template
+
 | | |
 | --- | --- |
 | To: | ✉️ SugarLearningStakeholders |
@@ -209,7 +211,7 @@ No Changes
 
 * Approved for funding to upgrade Azure SQL Database Service and Compute Tier plan from "basic" to "standard"
 
-&lt; Sent as per the rule https://www.ssw.com.au/rules/communicate-your-product-status/ &gt;
+&lt; Sent as per the rule <https://www.ssw.com.au/rules/communicate-your-product-status/> &gt;
 :::
 :::
 
@@ -218,6 +220,7 @@ No Changes
 Use the email template below. Note that this template uses "epics", which are collections of PBIs.
 
 ::: email-template
+
 | | |
 | --- | --- |
 | To: | {{ STAKEHOLDERS }} |
@@ -303,7 +306,7 @@ To:
 
 * Approved for {{ SERVICE EXPENSE }}
 
-&lt; Sent as per the rule https://www.ssw.com.au/rules/communicate-your-product-status/ &gt;
+&lt; Sent as per the rule <https://www.ssw.com.au/rules/communicate-your-product-status/> &gt;
 
 :::
 :::
