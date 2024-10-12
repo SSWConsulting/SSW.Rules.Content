@@ -13,6 +13,12 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
   - title: Igor Goldobin
     url: https://ssw.com.au/people/igor-goldobin
+  - title: Babanazar Kamyljanov
+    url: https://www.ssw.com.au/people/baba-kamyljanov
+  - title: Jernej Kavka
+    url: https://www.ssw.com.au/people/jernej-kavka
+  - title: Kosta Madorsky
+    url: https://www.ssw.com.au/people/kosta-madorsky
 related:
   - do-you-use-a-dependency-injection-centric-architecture
   - the-best-dependency-injection-container
