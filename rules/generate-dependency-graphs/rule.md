@@ -1,8 +1,8 @@
 ---
-seoDescription: Do you generate Dependency Graphs?
+seoDescription: Do you generate dependency graphs?
 type: rule
 archivedreason:
-title: Do you generate Dependency Graphs?
+title: Do you generate dependency graphs?
 guid: 726eadfd-fa6c-4549-acfd-bc9e30e378fe
 uri: generate-dependency-graphs
 created: 2012-03-16T08:04:49.0000000Z
