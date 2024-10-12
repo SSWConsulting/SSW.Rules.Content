@@ -66,7 +66,7 @@ Check the [official docs](https://www.jetbrains.com/resharper/) about installing
 
 ## Option 2 - Rider
 
-Another options to generate the dependency graph is with the Rider's built-in tool. Check the [official docs](https://www.jetbrains.com/help/rider/Architecture__Project_Dependencies_Exploration.html) for more information about dependency graphs in Rider.
+Another option to generate the dependency graph is with the Rider's built-in tool. Check the [official docs](https://www.jetbrains.com/help/rider/Architecture__Project_Dependencies_Exploration.html) for more information about dependency graphs in Rider.
 
 ### ✅ Pros
 
