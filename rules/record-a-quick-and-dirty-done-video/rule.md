@@ -41,7 +41,6 @@ When deciding whether a PBI might be a good contender to record a Done Video for
 ::: greybox
 
 **Choosing software to record your screen and camera together:**
-
 Check out SSW Rule [Do you know how to record your screen?](/recording-screen) for the best options.
 
 **Choosing software to edit your video:**
@@ -51,29 +50,33 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 
 :::
 
-### For a quick and dirty 'Done Video'
+### For a Quick and Dirty Done Video
+
 
 Your done videos should follow the following format
 
-1. **Intro** 
+1. Intro 
    - Fade in to a medium close up shot of yourself
    - You should stare at the camera for 2 seconds before speaking
-   - Briefly introduce yourself   
-2. **Post-intro**
+   - Briefly introduce yourself
+   
+   
+2. Post-intro
     - Fade into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
     - Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](https://www.ssw.com.au/rules/zooming-in-and-out/))
     - You should start with the tabs you are planning to use open
-2. **Show the Pain** 
+2. Show the Pain 
    - Explain the problem you or the stakeholder was having before you finished your work
    - Show a example of where this issue occurred
-3. **Demo the solution**
+3. Demo the solution
    - Provide a working example of your code
    - You should try to demo the code with a realistic use case rather than showing the code itself
    - Harken back to the pain you alluded to earlier to remind the audience you've solved the problem
-4. **Outro**
+4. Outro
    - Fade back into a medium close up shot of yourself
    - Provide a brief summary of what you discussed in the video
    - Use a signature to bid farewell to the audience (e.g. you could say "This is Bob Northwind signing off")
+
 
 Here's a video describing how to record and edit a quick Done video using Clipchamp:
 
