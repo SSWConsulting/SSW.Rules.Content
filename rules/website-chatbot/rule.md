@@ -31,40 +31,41 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 ##### Custom Built vs 3rd Party Service
 
-- **Initial cost**: Custom built provides more control but incurs high development effort & cost
-- **Recurring costs**: may be lower in custom built solutions for high volume of traffic
+* **Initial cost**: Custom built provides more control but incurs high development effort & cost
+* **Recurring costs**: may be lower in custom built solutions for high volume of traffic
 
 ##### Performance
 
-- **Responses**: Smooth and natural responses that answer questions while understanding context.
-- **Visual Design**: Aligns with brand aesthetics.
-- **Content Tailoring**: Adapts responses to fit brand voice.
+* **Responses**: Smooth and natural responses that answer questions while understanding context.
+* **Visual Design**: Aligns with brand aesthetics.
+* **Content Tailoring**: Adapts responses to fit brand voice.
 
 ##### Development Effort
 
-- **Pre-built Templates**: Speeds up deployment.
-- **Drag-and-Drop Builders**: Simplifies creation without coding.
-- **Documentation & Support**: Assists in development.
+* **Pre-built Templates**: Speeds up deployment.
+* **Drag-and-Drop Builders**: Simplifies creation without coding.
+* **Documentation & Support**: Assists in development.
 
 ##### Research and Training
 
-- **API Support**: API integration for third-party applications.
-- **Data Syncing**: How often does it refresh it data from your website?\
+* **API Support**: API integration for third-party applications.
+* **Data Syncing**: How often does it refresh it data from your website?\
+
 ##### Scalability
 
-- **Traffic Management**: Handles varying user traffic levels.
-- **Data Storage**: Manages increasing user data.
+* **Traffic Management**: Handles varying user traffic levels.
+* **Data Storage**: Manages increasing user data.
 
 ##### Handling Curveballs
 
-- **Adaptive Responses**: Adjusts to unexpected user inputs.
-- **Feedback Loop**: Improves from past interactions.
-- **Human Agent Referral**: Transfers smoothly to a human if needed.
+* **Adaptive Responses**: Adjusts to unexpected user inputs.
+* **Feedback Loop**: Improves from past interactions.
+* **Human Agent Referral**: Transfers smoothly to a human if needed.
 
 ##### Resilience to Trick Questions
 
-- **Response Filtering**: Identifies misleading questions.
-- **Learning from Mistakes**: Improves trick question handling.
+* **Response Filtering**: Identifies misleading questions.
+* **Learning from Mistakes**: Improves trick question handling.
 
 ### Comparing platforms
 
@@ -130,8 +131,8 @@ If you decide to go with a 3rd party service, you might be torn between two popu
 
 While both platforms offer unique features, Chatbase stands out as the superior choice in most instances. Here's why:
 
-- Chatbase allows easy customization and integration with various tools
-- Chatbase's user-friendly interface makes it accessible to a wide range of users. A prompt engineer can setup, tweak and improve the system. No development required
-- Botpress lacks the intuitive interface of Chatbase, and is more prone non-sequeter conversation without extensive workflow development and testing
+* Chatbase allows easy customization and integration with various tools
+* Chatbase's user-friendly interface makes it accessible to a wide range of users. A prompt engineer can setup, tweak and improve the system. No development required
+* Botpress lacks the intuitive interface of Chatbase, and is more prone non-sequeter conversation without extensive workflow development and testing
 
 ![Figure: Although Botpress seems to have more attention online recently, this may be because it's harder to configure so people are Googling it to help with that](botpress-vs-chatbase.jpg)
