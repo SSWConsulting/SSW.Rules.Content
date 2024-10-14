@@ -29,47 +29,39 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 ### Factors to consider
 
-##### Custom Built vs 3rd Party Service
 
-* **Initial cost**: Custom built provides more control but incurs high development effort & cost
-* **Recurring costs**: may be lower in custom built solutions for high volume of traffic
+##### Development Effort/Cost
+
+* **Custom Built vs 3rd Party Service**: Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front
+* **Pre-built/Drag-and-Drop Builders**: Simplifies creation without coding
+* **Documentation & Support**: Bad documentation can make a simple product hard to use - incurring more costs
 
 ##### Performance
 
-* **Responses**: Smooth and natural responses that answer questions while understanding context.
-* **Visual Design**: Aligns with brand aesthetics.
-* **Content Tailoring**: Adapts responses to fit brand voice.
-
-##### Development Effort
-
-* **Pre-built Templates**: Speeds up deployment.
-* **Drag-and-Drop Builders**: Simplifies creation without coding.
-* **Documentation & Support**: Assists in development.
+* **Responses**: Smooth and natural responses that answer questions while understanding context
+* **Visual Design**: Aligns with brand aesthetics
+* **Content Tailoring**: Adapts responses to fit brand voice
 
 ##### Research and Training
 
-* **API Support**: API integration for third-party applications.
-* **Data Syncing**: How often does it refresh it data from your website?\
+* **API Support**: API integration if you might want to use it in other applications
+* **Data Syncing**: How often does it refresh it data from your website?
 
 ##### Scalability
 
-* **Traffic Management**: Handles varying user traffic levels.
-* **Data Storage**: Manages increasing user data.
+* **Traffic Management**: Handles varying user traffic levels
+* **Data Storage**: Manages increasing user data
 
 ##### Handling Curveballs
 
-* **Adaptive Responses**: Adjusts to unexpected user inputs.
-* **Feedback Loop**: Improves from past interactions.
-* **Human Agent Referral**: Transfers smoothly to a human if needed.
-
-##### Resilience to Trick Questions
-
-* **Response Filtering**: Identifies misleading questions.
-* **Learning from Mistakes**: Improves trick question handling.
+* **Adaptive Responses**: Adjusts to unexpected user inputs
+* **Feedback Loop**: Improves from past interactions
+* **Human Agent Referral**: Transfers smoothly to a human if needed
+* **Response Filtering**: Is not tricked by misleading questions
 
 ### Comparing platforms
 
-The first decision is to choose between using a 3rd party chatbot service such as ChatBase/Botpress vs developing your own from scratch using the OpenAI API. The table below gives a summary of how these two options compare.
+The first decision is to choose between using a 3rd party chatbot service (e.g. ChatBase or Botpress) vs developing your own from scratch using a large language model API (e.g. OpenAI API).
 
 | Factor                      | Directly from an API (e.g. OpenAI) | 3rd Party              |
 | --------------------------- | ---------- | ---------------------- |
@@ -81,17 +73,17 @@ The first decision is to choose between using a 3rd party chatbot service such a
 
 Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology.
 
-##### Steps to create chatbot using a 3rd Party service
+### Using a 3rd Party service
 
-For e.g. in Chatbase you would:
+After creating your account and starting a new project, you should:
 
-1. Train the bot by providing links to your web pages or by uploading docs
+1. Choose the best large language model – e.g. in 2023 you'd choose GPT-4
 2. Craft a pointed prompt to give it instructions on how to respond to the user. For e.g. you can ask it to share URLs to your web pages when appropriate
-3. Choose a GPT model – GPT-4 highly recommended
-4. Embed an iframe or javascript code provided by the service on your website
-5. Configure the chatbot for features such as a greeting msg, company logo, chat bubble colours, etc.
+3. Train the bot by providing links to your web pages or by uploading docs
+4. Configure the chatbot for features such as a greeting msg, company logo, chat bubble colours, etc.
+5. Embed an iframe or javascript code provided by the service on your website
 
-##### Steps to create chatbot using the OpenAI API
+### Creating a chatbot using an API (e.g. OpenAI API)
 
 The following provides a very high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation please watch:
 `youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
