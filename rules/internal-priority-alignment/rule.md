@@ -95,5 +95,3 @@ After the meeting, the Bench Masters should record a [quick summary](/summary-re
 ## Where do I store the meeting artifacts?
 
 Microsoft loop is a good option, but its important to copy them into an email and send them out to the stakeholders.
-
-![Figure: Priority Alignment meeting](internal-priority-alignment-loop.png)
