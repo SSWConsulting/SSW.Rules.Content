@@ -17,10 +17,10 @@ archivedreason: null
 guid: 945588b4-8053-41cf-9052-b2f871c4363d
 ---
 
-A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of Generative AI, good chatbots have become a necessary part of the User Experience.
+A chatbot is a computer program that uses artificial intelligence to engage in text or voice conversations with users, often to answer questions, provide assistance, or automate tasks. In the age of generative AI, good chatbots have become a necessary part of the user experience.
 
-::: img-small
-![Figure: A good chatbot in action](chatbot-example.png)
+::: good img-small
+![Figure: Good example - A good chatbot in action](chatbot-example.png)
 :::
 
 Choosing the right chatbot service for your website can be a challenging task. With so many options available it's essential to find the one that best fits your needs and provides a good experience for your users. But what distinguishes a good chatbot from a great one? Here are some factors to consider.
@@ -31,8 +31,8 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 ##### Custom Built vs 3rd Party Service
 
-- **Control vs Effort**: Custom built provides more control but incurs high development effort & cost
-- **Cost per message**: may be lower in custom built solutions for high volume of traffic
+- **Initial cost**: Custom built provides more control but incurs high development effort & cost
+- **Recurring costs**: may be lower in custom built solutions for high volume of traffic
 
 ##### Performance
 
@@ -46,17 +46,10 @@ Choosing the right chatbot service for your website can be a challenging task. W
 - **Drag-and-Drop Builders**: Simplifies creation without coding.
 - **Documentation & Support**: Assists in development.
 
-##### Ease of Access
-
-- **Multi-Platform**: Seamless functionality on desktop and mobile.
-- **Messaging App Integration**: Works with apps like WhatsApp, Messenger.
-- **Language Support**: Multilingual for global reach.
-
 ##### Research and Training
 
 - **API Support**: API integration for third-party applications.
-- **Data Syncing**: Real-time synchronization for up-to-date responses.
-
+- **Data Syncing**: How often does it refresh it data from your website?\
 ##### Scalability
 
 - **Traffic Management**: Handles varying user traffic levels.
@@ -77,7 +70,7 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 The first decision is to choose between using a 3rd party chatbot service such as ChatBase/Botpress vs developing your own from scratch using the OpenAI API. The table below gives a summary of how these two options compare.
 
-| Factor                      | OpenAI API | 3rd Party              |
+| Factor                      | Directly from an API (e.g. OpenAI) | 3rd Party              |
 | --------------------------- | ---------- | ---------------------- |
 | Development effort and cost | Very High  | Low                    |
 | Control                     | Very High  | Moderate               |
