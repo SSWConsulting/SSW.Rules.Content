@@ -49,7 +49,7 @@ For home offices, follow "less is more":
 :::
 
 ::: good
-![Figure: Good example – The office background](jimmy-teams.jpg)
+![Figure: Good example – Simple background with clear and good lighting](good-background-seth.png)
 :::
 
 ### Virtual backgrounds
