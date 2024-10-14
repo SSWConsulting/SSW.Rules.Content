@@ -26,9 +26,9 @@ This can avoid scheduling conflicts, especially when different people work diffe
 
 You should always set your working hours in your Outlook calendar so others knows when you are working, this will help us to:
 
-- ✅ Let others know when you are working  
-- ✅ Allow for better company resource scheduling  
-- ✅ Communicate better with part time employees and contractors
+* ✅ Let others know when you are working  
+* ✅ Allow for better company resource scheduling  
+* ✅ Communicate better with part time employees and contractors
 
 ### On Windows OS
 
