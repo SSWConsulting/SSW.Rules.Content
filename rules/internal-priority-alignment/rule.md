@@ -29,6 +29,7 @@ This alignment can be achieved through a weekly meeting with the Bench Masters a
 The following meeting structure should be followed
 
 ::: email-template  
+
 |          |                                                      |
 | -------- | ---------------------------------------------------- |
 | To:      | {{ COMPANY STAKEHOLDERS }}                           |
@@ -43,32 +44,33 @@ Hey {{ COMPANY STAKEHOLDERS }},
 The goal is to use our internal devs on the best project.
 
 ### Attendees
+
 {{ ATTENDEES }}
 
 ### Summary - Have there been any staffing changes for any of our internal projects in the past week?
 
-- {{ PROJECT 1 }} - {{ STATUS 1 }}
-- {{ PROJECT 2 }} - {{ STATUS 2 }}
-- {{ PROJECT 3 }} - {{ STATUS 3 }}
-- ❓{{ PERSON 1 }} - from {{ PREVIOUS PROJECT }} to {{ NEW PROJECT }} - {{ NOTE }}
-- {{ PERSON 2 }} - Back on {{ PROJECT NAME }} next {{ DATE }}
+* {{ PROJECT 1 }} - {{ STATUS 1 }}
+* {{ PROJECT 2 }} - {{ STATUS 2 }}
+* {{ PROJECT 3 }} - {{ STATUS 3 }}
+* ❓{{ PERSON 1 }} - from {{ PREVIOUS PROJECT }} to {{ NEW PROJECT }} - {{ NOTE }}
+* {{ PERSON 2 }} - Back on {{ PROJECT NAME }} next {{ DATE }}
 
 ### 🛑 Blocked people (times we proxied for {{ COMPANY STAKEHOLDER }})
 
-- {{ BLOCKED PERSON 1 }} - {{ ISSUE DESCRIPTION }}
-- {{ BLOCKED PERSON 2 }} - {{ ISSUE DESCRIPTION }}
+* {{ BLOCKED PERSON 1 }} - {{ ISSUE DESCRIPTION }}
+* {{ BLOCKED PERSON 2 }} - {{ ISSUE DESCRIPTION }}
 
 ### ✅ The highlights
 
-- {{ PERSON }} - {{ DETAILS }}
+* {{ PERSON }} - {{ DETAILS }}
 
 ### ❌ The lowlights – any issues or concerns?
 
-- {{ PERSON }} - {{ DETAILS }}
+* {{ PERSON }} - {{ DETAILS }}
 
 ### Ad hoc topics
 
-- {{ TOPIC }}
+* {{ TOPIC }}
 
 ### Priorities - any new tasks that need to get done and who should do it?
 
@@ -83,7 +85,6 @@ Legend:
 | ------------------- | -------------------- | ------------------ |
 | **{{ PRODUCT 1 }}** | {{ PROJECT DETAIL }} | {{ TEAM MEMBERS }} |
 | **{{ PRODUCT 2 }}** | {{ PROJECT DETAIL }} | {{ TEAM MEMBERS }} |
-
 
 <This email was sent as per the rule: [ssw.com.au/rules/internal-priority-alignment](/internal-priority-alignment)>
 
