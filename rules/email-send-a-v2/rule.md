@@ -52,14 +52,14 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 1. Open your v1 email in Sent Items
 2. Reply to All
 3. Delete the whole v1 from the thread, including:
-   - The previous email headings (From:, To:, Cc:, Bcc, Subject:, etc.)
-   - Your signature
-   - The words "RE:" from the subject only in the cases where first email was **not** a reply
+   * The previous email headings (From:, To:, Cc:, Bcc, Subject:, etc.)
+   * Your signature
+   * The words "RE:" from the subject only in the cases where first email was **not** a reply
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
 5. Write the v2
 6. Include (v2 - {{ REASON }}) on the first line of the email body
-   - For further versions of an email, replace the v2 with v3, v4, v5, etc
-   - The reason should include a summary of what was changed
+   * For further versions of an email, replace the v2 with v3, v4, v5, etc
+   * The reason should include a summary of what was changed
 
 ::: info
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.
@@ -75,6 +75,7 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Bob |
