@@ -42,6 +42,7 @@ You should add to altered appointments to track this:
    E.g. _"(**Calum: V2** - As per my conversation with Bob, changing the time as he can't make it)"_
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | SSWBrisbaneAll; Uly |
