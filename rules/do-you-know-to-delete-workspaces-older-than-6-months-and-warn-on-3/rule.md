@@ -45,7 +45,7 @@ If a developer had code checked out to a workspace that they have not even looke
 * Warn developers for workspaces that have not been accessed in 3 months
 
 ::: bad
-![Figure: Bad example - Rebecca has a workspace that has not been accessed in a while](LongtimeWorkspaces.jpg) 
+![Figure: Bad example - Rebecca has a workspace that has not been accessed in a while](LongtimeWorkspaces.jpg)
 :::
 
 ::: good
