@@ -20,7 +20,7 @@ Microsoft SQL Server is made to use all the available memory in a server for its
 1. Open SQL Server Management Studio
 
    ![Figure: SQL Server Management Studio - Login Screen](SqlServerAllYourRam_01.png)
-   
+
 3. Right click on the server name and select “Properties”
 
    ![Figure: SQL Database options and properties menu](SqlServerAllYourRam_02.png)
