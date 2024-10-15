@@ -37,7 +37,7 @@ In Visual Basic 6 this is done by going through Tools -&gt; Source Safe -&gt; Op
 
 ![Figure: You can also check-in automatically in VB6](SourceSafeVB6.gif)
 
-## What about Access applications? 
+## What about Access applications?
 
 We also use VSS for Access projects. Access 2000 had problems with MDBs (not ADPs) but Access 2003 works fine with both. The only thing you have to be careful of is that if a form is not checked out, it still lets you modify the form, but when you close the form, it rolls back to the VSS version and you lose all of your changes.
 
