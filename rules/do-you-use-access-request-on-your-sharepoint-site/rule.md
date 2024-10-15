@@ -28,7 +28,7 @@ The "request manager" will receive an email:
 
 The link in the email will navigate administrator to the **Pending Requests** list:
 
-![Figure: Pending Requests List](LinkToPendingRequestsList.png) 
+![Figure: Pending Requests List](LinkToPendingRequestsList.png)
 
 After reading the request infomation, the administrator can "Approve" or "Decline" the request, or he can start a conversation with the request user on the **Pending Requests** list directly to inquire more information:
 
