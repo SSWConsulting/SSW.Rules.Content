@@ -18,6 +18,7 @@ related:
   - do-you-know-to-update-a-blog
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation
   - do-you-know-when-you-should-change-a-subject
+  - email-send-a-v2
 redirects:
   - appointments-do-you-explain-why-youve-deleted-or-updated-an-appointment
   - appointments-do-you-explain-why-youve-deleted-or-modified-an-appointment
