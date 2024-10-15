@@ -13,7 +13,7 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
   - title: Igor Goldobin
     url: https://ssw.com.au/people/igor-goldobin
-  - title: Babanazar Kamyljanov
+  - title: Baba Kamyljanov
     url: https://www.ssw.com.au/people/baba-kamyljanov
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
