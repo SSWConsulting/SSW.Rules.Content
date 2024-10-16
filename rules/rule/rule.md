@@ -255,10 +255,12 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 ### 6. Images
 
 ```md
-::: img-small  
+::: class
 ![Figure: Caption text](image-file.jpg)
 :::
 ```
+
+#### Classes for images
 
 ::: img-small  
 ![Figure: Image using class "img-small"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
@@ -273,8 +275,10 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 :::
 
 ::: no-border
-![Figure: Image without border](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Image using class "no-border"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
+
+#### Extra examples
 
 ![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens...](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
