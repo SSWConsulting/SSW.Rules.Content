@@ -1,7 +1,7 @@
 ---
 seoDescription: Unlock the full potential of your X account for business and monetize your presence with X Business (was Twitter for Professionals).
 type: rule
-title: X - do you use X Business for business accounts?
+title: X - Do you use X Business?
 uri: twitter-for-professionals
 authors:
   - title: Seth Daily
@@ -14,7 +14,7 @@ created: 2023-07-20T00:00:00.000Z
 guid: a4af175d-77a1-4622-b767-885212f0f436
 ---
 
-If you are using your X account for business, there are benefits to be had from using [X Business](https://business.x.com/en):
+If you are using your X account for business, there are benefits to be had from using [X Business](https://business.x.com/en).
 
 <!--endintro-->
 

@@ -36,6 +36,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -56,8 +57,8 @@ Please see below for a more detailed breakdown of the Sprint:
 
 |                    |                                      |
 | ------------------ | ------------------------------------ |
-| Sprint in Review:  | {{ SPRINT NUMBER }}                  |
 | Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+| Sprint in Review:  | {{ SPRINT NUMBER }}                  |
 | Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
 | Project:           | {{ PROJECT NAME }}                   |
 | Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
@@ -67,8 +68,9 @@ Please see below for a more detailed breakdown of the Sprint:
 
 ### Sprint Review
 
-| **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
+|   ID     |   Title         |   Assignee     |   State     |   Effort     |
 | -------- | --------------- | -------------- | ----------- | ------------ |
+|   ID     |   Title         |   Assignee     |   State     |   Effort     |
 | {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
 | {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
 

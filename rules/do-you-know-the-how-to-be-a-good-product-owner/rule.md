@@ -74,7 +74,7 @@ The Product Owner ensures that the team stays focused on the Sprint Goal and wor
 
 # Who should be the Product Owner?
 
-It is recommended that the Product Owner is from the client. There are several reasons for this.
+It is recommended that the Product Owner is from the client. Here are the essential abilities a Product Owner from the client should have.
 
 ## Deep Business Knowledge
 

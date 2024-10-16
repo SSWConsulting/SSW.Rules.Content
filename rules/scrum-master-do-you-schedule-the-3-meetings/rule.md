@@ -27,16 +27,31 @@ The Scrum Master plays a key role in the Scrum framework by scheduling and facil
 
 ![Figure: The 3 meetings in the Scrum steps](8StepstoScrum-meetings.png)
 
-The Scrum Master should estimate how much time each meeting will require, then schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
+The Scrum Master should schedule a single calendar appointment to cater to the 3 meetings. When scheduling the calendar appointment, keep in mind the following:
 
-* Ideally, each of the 3 meetings should be time-boxed to an hour for every week of their associated Sprint
-* This timeboxing does not mean the whole time will be taken up, just that you should not let the time for each meeting be exceeded
-* With the Product Owner's help, the Scrum Team will need some time to update the Product Backlog after the Retrospective and before the Planning meeting
-* People need breaks
-* The Sprint officially finishes at the end of the Sprint Retrospective meeting. The Sprint Planning meeting marks the beginning of the next Sprint
-* These meetings do not necessarily have to be held on a Friday or Monday. You can have a Sprint starting/ending on any day of the week
-  * In fact, mid-week meetings are recommended so that the likelihood of it occurring on a public holiday long weekend is minimized
-* Since these meetings will occur every Sprint - set a recurrence on the calendar appointment (every 1, 2, 3, or 4 weeks) so that people have the time blocked out well in advance
+## Time-boxing
+
+The Scrum Master should estimate how much time each meeting will require. Ideally, each of the 3 key Sprint meetings should be limited to one hour or less per week. This time-boxing ensures that meetings remain focused and efficient, preventing them from running longer than necessary.
+
+## Importance of breaks
+
+Regular breaks are essential for maintaining productivity and focus. If a meeting runs longer than the planned one hour, having short breaks can help keep the team engaged and reduce fatigue, ultimately improving overall performance and participation.
+
+## Updating the product backlog
+
+After the Sprint Retrospective and before the next Planning meeting, the Scrum Team, with the Product Owner's assistance, should allocate time to update the Product Backlog. This step ensures that the team has clear priorities and tasks for the upcoming Sprint.
+
+## Sprint start and end
+
+The Sprint officially ends with the Sprint Retrospective meeting, while the Sprint Planning meeting signifies the beginning of the next Sprint. This structure helps maintain a clear cycle for continuous improvement.
+
+## Flexible scheduling of meetings
+
+Sprint meetings don’t have to be held on specific days like Fridays or Mondays. Scheduling them mid-week can often help avoid conflicts with long weekends or public holidays.
+
+## Recurring calendar appointments
+
+Since Sprint meetings occur regularly, it's best to set them up as recurring calendar events. This approach ensures that all team members have the necessary time blocked out in advance, helping with better planning and time management.
 
 ::: greybox
 Learn more about the meetings in Scrum:
@@ -73,13 +88,13 @@ This is a calendar appointment to hold the following 3 Scrum meetings:
 
 **Sprint Review Meeting**
 
-We will go through the user stories that have been completed and demonstrate them.\  
+We will go through the user stories that have been completed and demonstrate them.\
 See rule [What happens at a Sprint Review Meeting?](/do-you-know-what-happens-at-a-sprint-review-meeting)
 
 **Sprint Retrospective Meeting**
 
 Sprint closed and new Sprint starts.  
-We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.\  
+We ask for feedback of the previous Sprint so that we can ‘Inspect and Adapt’.\
 See rule [What happens at a Sprint Retrospective Meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 
 **Sprint Planning Meeting**
@@ -103,4 +118,4 @@ Figure: Good example - Copy this appointment template and send to the Scrum Team
 ![It is a great idea to run your Scrum meetings through Microsoft Teams, so that the whole team is invited and new developers can easily find the meetings](Screen Shot 2020-04-06 at 4.15.50 PM.png)
 :::
 
-See [Meetings - Do you know when to send an Appointment or a Teams Meeting?](/send-appointment-or-teams-meeting) for more information.
+**Tip:** See more information on [when to send an Appointment or a Teams Meeting](/send-appointment-or-teams-meeting).

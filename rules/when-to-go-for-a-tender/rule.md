@@ -43,3 +43,12 @@ Tenders are time-consuming for a sales team and generally need a process like a
 4. Does the tender fit Agile methodologies? - Look carefully at the process to make changes and how detailed the scope is. Also, see if the client is open to a Spec Review to fine-tune the estimates and scope. If Agile development is not possible, the Tender is not a good fit.
 
 Tenders can be a waste of time, with low-skilled assessment by purchasing people who can overly focus on cost and a narrow set of requirements. Only go for them if you have a good chance of winning.
+
+### Review opportunities and processes frequently
+
+At least every 2 weeks the following should be reviewed.
+1. Review current opportunities
+2. The team should vote on potential opportunities to be pursued
+3. Report to the team on the various platforms - any compliance documents needed
+4. Report on any wins and deal progress
+5. Review the process and if it can be improved
