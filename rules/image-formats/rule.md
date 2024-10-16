@@ -161,7 +161,7 @@ GIFs are appropriate for simple, short loops where universal compatibility and q
 
 ### Best use cases
 
-* Simple animations (e.g., loading spinners, small banners). 
+* Simple animations (e.g., loading spinners, small banners).
 * Memes and short video clips
 * Low-color images with transparency
 
