@@ -75,7 +75,7 @@ Figure: Bad example - No line break before the note
 
 ::: greybox
 
-Test the login functionality thoroughly.
+Test the login functionality thoroughly.  
 **Note:** Try both valid and invalid credentials.
 :::
 ::: good  
