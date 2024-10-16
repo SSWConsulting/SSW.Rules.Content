@@ -38,7 +38,7 @@ See the [more information on line breaks in Markdown](https://www.markdownguide.
 On the other hand, in regards to **emails** and/or **informal documents**, line breaks can be used for spacing. In these cases, correct syntax is not crucial, and breaking a line is more convinient than dealing with margins/line spacing.
 :::
 
-### Long paragraphs
+## Long paragraphs
 
 Consider breaking lines/paragraphs when you have a long block of text. You should aim to separate the information by context.
 
@@ -62,7 +62,7 @@ Want to meet them? Have a look at SSW People.
 Figure: Good example - The text is separated by paragraphs
 :::
 
-### Notes, Tips, PS
+## Callouts
 
 Content elements like **Note**, **Tip**, **PS** (and similar) should be on a new line to enable better readability. It is beneficial to bold those words.
 
@@ -75,14 +75,14 @@ Figure: Bad example - No line break before the note
 
 ::: greybox
 
-Test the login functionality thoroughly.
+Test the login functionality thoroughly.\
 **Note:** Try both valid and invalid credentials.
 :::
 ::: good  
 Figure: Good example - The "Note" being on a fresh line and in bold makes it much easier to read
 :::
 
-### URLs
+## URLs
 
 Breaking a line is also recommended before URLs.
 
@@ -94,7 +94,7 @@ Figure: Bad example - No line break before the URL
 :::
 
 ::: greybox
-Check out these employment opportunities at SSW:  
+Check out these employment opportunities at SSW:  \
 <https://www.ssw.com.au/employment#available>
 
 :::
@@ -102,7 +102,7 @@ Check out these employment opportunities at SSW:
 Figure: Good example - The URL being on a fresh line makes it much easier to read
 :::
 
-### Headings
+## Headings
 
 It's a good idea to have some space after headings.
 
@@ -124,7 +124,7 @@ Check out this awesome new video about the SSW Cultural Exchange Program!
 Figure: Good example - Spacing after heading
 :::
 
-### Multiple items as lists
+## Multiple items as lists
 
 If you text has information that can be turned into multiple items, you should do so, by creating a list. For example, when sending PBIs for a Sprint.
 
@@ -152,6 +152,6 @@ Figure: Good example - List is used to separate information and make it easier t
 **Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.
 However, you should [only use acronyms when the recipient is familiar with the term](/avoid-acronyms).
 
-### Images and captions
+## Images and captions
 
 It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help users focus on them.
