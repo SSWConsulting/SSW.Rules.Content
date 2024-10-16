@@ -36,7 +36,7 @@ Let's check out some of the top tips for growing your brand awareness, audience,
 8. **Live streaming** – This is one of the best ways to grow the audience and get potential customers  
 
    ::: greybox
-   **Notes:** 
+   **Notes:**
    * Currently, [TikTok doesn't allow live streaming from third-party tools](https://support.streamyard.com/hc/en-us/articles/360051974452-Can-I-Stream-to-TikTok-From-StreamYard-).
    * The live sessions are [recommended by TikTok to be under 30 minutes](https://www.tiktok.com/creator-academy/en/article/Going-LIVE), and you need to have more than [1,000 followers to access this feature](https://digitalmarketersworld.com/how-to-live-stream-on-tiktok/).
    :::
