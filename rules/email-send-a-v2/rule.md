@@ -35,9 +35,6 @@ Having an entire new version of an email is important as it:
 * Ensures that you understood feedback and incorporated it immediately
 * Cleans up the email thread history to only have relevant content
 
-`youtube: https://www.youtube.com/embed/SUo_hOCubeo`
-**Video: Fixing An Email Mistake with [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) (3 min)**
-
 ::: greybox
 **Note:** Not every feedback will need a v2. Some may be in the form of:
 
@@ -66,10 +63,10 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 :::
 
 ::: greybox
-**Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This should be avoided as it breaks the thread.
+**Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
 
 ::: bad
-![Figure: Bad example - 'Resend This Message' on Outlook](microsoftteams-image.png)
+![Figure: Bad example - Outlook's 'Resend This Message' feature is no longer recommended](microsoftteams-image.png)
 :::
 
 :::
