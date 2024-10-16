@@ -9,6 +9,9 @@ authors:
     url: https://www.ssw.com.au/people/ash-anil
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
+related:
+  - using-mfa
+  - multi-factor-authentication-enabled
 created: 2023-04-26T22:46:44.041Z
 guid: ded389f1-e6a9-417f-a36e-8a31f88a686a
 ---
