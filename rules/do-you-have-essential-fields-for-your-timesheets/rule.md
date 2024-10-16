@@ -26,7 +26,7 @@ These are the essential fields for your timesheets:
 4. Category (what kind of work it is)
 5. Amount of time
 6. Break - Minimum 1/2 hour break if you work more than 5.5 hours
-7. Notes - Things you've worked on, including people who you were working with - both internal or external
+7. Notes - [Describe the things you've worked on](/how-to-describe-the-work-you-have-done), including people who you were working with - both internal or external
 
 ::: good
 ![Figure: Good example - A good timesheet with all the required fields taken from SSW TimePro](Good Timesheet.jpg)
