@@ -21,7 +21,7 @@ Tools like [Prism](https://prismjs.com), [highlight.js](https://highlightjs.org)
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases that can be used in SSW Rules.
 :::
 
-To activate this feature, add the language name right after the opening 3 backticks (used to [write a code in Markdown](https://www.ssw.com.au/rules/rule/#11-code)). 
+To activate this feature, add the language name right after the opening 3 backticks (used to [write a code in Markdown](https://www.ssw.com.au/rules/rule/#11-code)).
 
 For example, instead of starting a **JavaScript** code example with: **<code>\`\`\`</code>**, you should use **<code>\`\`\`js</code>** or **<code>\`\`\`javascript</code>** for syntax highlighting.
 
@@ -34,6 +34,7 @@ if (iceCream === 'chocolate') {
   alert('Awwww, but chocolate is my favorite...');    
 }
 ```
+
 ::: bad
 Figure: Bad example - No syntax highlighting
 :::  
@@ -47,6 +48,7 @@ if (iceCream === 'chocolate') {
   alert('Awwww, but chocolate is my favorite...');    
 }
 ```
+
 ::: good
 Figure: Good example - This JavaScript code block shows its syntax highlighted
 :::
