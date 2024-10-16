@@ -22,10 +22,10 @@ Displaying code on a website is an important aspect of creating developer-friend
 
 ## The best way to display a piece of code
 
-Use HTML `<code>` and `<pre>` tags: 
+Use HTML `<code>` and `<pre>` tags:
 
-- The `<code>` tag is used for inline or block-level code snippets that are embedded within other text. It applies minimal styling, indicating that the enclosed content is code. However, it does not preserve formatting like indentation or line breaks
-- The `<code>` tag is used to display preformatted text and code blocks where whitespace, line breaks, and indentation are preserved. It’s especially useful for larger code blocks where maintaining the original formatting is essential. This tag ensures that the code appears exactly as written in the source
+* The `<code>` tag is used for inline or block-level code snippets that are embedded within other text. It applies minimal styling, indicating that the enclosed content is code. However, it does not preserve formatting like indentation or line breaks
+* The `<code>` tag is used to display preformatted text and code blocks where whitespace, line breaks, and indentation are preserved. It’s especially useful for larger code blocks where maintaining the original formatting is essential. This tag ensures that the code appears exactly as written in the source
 
 ### Using monospace fonts and syntax highlighting
 
@@ -46,7 +46,6 @@ Tools like Prism.js, Highlight.js, or Google Prettify automatically apply syntax
 ::: bad
 Figure: Bad example - Using `<font>` with a bad inline styling to display some code
 :::
-
 
 ```html
 <p>The function <code>console.log()</code> prints messages to the console.</p>
