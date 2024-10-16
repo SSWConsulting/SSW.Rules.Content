@@ -18,7 +18,7 @@ related:
   - do-you-understand-the-value-of-consistency
   - add-useful-and-concise-figure-captions
 created: 2021-01-20T05:06:33.000Z
-archivedreason: null
+archivedreason: archived rule template for testing purposes
 guid: 55db32aa-0718-4868-995c-673d8dd69f62
 ---
 
@@ -36,9 +36,9 @@ There are a few concepts that are applied to structure most SSW Rules:
 
 See a few examples of SSW Rules that follow the structure of good and bad examples, then link off to external documentation for more information:
 
-* [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
-* [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
-* [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
+- [GitHub Issues - Do you use Issue Templates?](/github-issue-templates)
+- [Bicep - Do you use User-defined Data Types?](/bicep-user-defined-data-types)
+- [Do you know how to backup data on SQL Azure?](/do-you-know-how-to-backup-data-on-sql-azure)
 
 ### 1. Headings, paragraphs, and blockquotes
 
@@ -53,8 +53,9 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 
 ###### This is a heading 6 and below is a blockquote
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->  - Someone famous in Source Title
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
+>
+> - Someone famous in Source Title
 ```
 
 **Figure: Markdown to generate headings and blockquotes**
@@ -91,7 +92,7 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> * Someone famous in Source Title
+> - Someone famous in Source Title
 
 ---
 
@@ -157,13 +158,13 @@ _You **can** combine them_
 
 #### Unordered lists
 
-* This is the first item of an unordered list
-* This is the second item of an unordered list
+- This is the first item of an unordered list
+- This is the second item of an unordered list
   1. This is the first item of an ordered list inside an unordered list
   2. This is the second item of an ordered list inside an unordered list
-* This is the third item of an unordered list
-  * This is the first item of an unordered list inside another
-  * This is the second item of an unordered list inside another
+- This is the third item of an unordered list
+  - This is the first item of an unordered list inside another
+  - This is the second item of an unordered list inside another
     1. This is the first item of an ordered list inside a nested unordered list
     2. This is the second item of an ordered list inside a nested unordered list
 
@@ -172,8 +173,8 @@ _You **can** combine them_
 1. This is the first item of an ordered list
 2. This is the second item of an ordered list
 3. This is the third item of an ordered list
-   * This is the first item of an unordered list inside an ordered list
-   * This is the second item of an unordered list inside an ordered list
+   - This is the first item of an unordered list inside an ordered list
+   - This is the second item of an unordered list inside an ordered list
      1. This is the first item of an ordered list inside another
      2. This is the second item of an ordered list inside another
 
@@ -182,23 +183,23 @@ _You **can** combine them_
 ### 4. Links
 
 ```md
-[link text](https://www.url.com "link title")
+[link text](https://www.url.com 'link title')
 ```
 
 **Figure: Markdown to generate links**
 
 This is [an internal link](https://www.ssw.com.au).
 
-This is [an internal link with title](https://www.ssw.com.au "This is a link title") (hover me).
+This is [an internal link with title](https://www.ssw.com.au 'This is a link title') (hover me).
 
 This is [an external link](https://www.google.com).
 
 ::: greybox
 **Cool link features:**
 
-* We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
-* Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
-   E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
+- We use [icons on files' links](/use-icons-to-not-surprise-users) to not to surprise users
+- Our main headings auto-generated [anchor links](/anchor-links) so users can easily access a section of a long page like this one.
+  E.g. To go straight to this section of the page, you can access [https://ssw.com.au/rules/rule/#4-links](#4-links)
 
 :::
 
@@ -222,32 +223,40 @@ This is a box using the class "greybox".
 This is a box using the class "highlight".
 :::
 
-::: highlight  
-## This is an example of a heading in a highlight 
+::: highlight
+
+## This is an example of a heading in a highlight
+
 :::
 
 ::: info  
 This is a &lt;div&gt; using the class "info". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.  
 :::
 
-::: info  
-## This is an example of a heading in a info 
+::: info
+
+## This is an example of a heading in a info
+
 :::
 
 ::: china  
 This is a &lt;div&gt; using the class "china". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
-::: china  
-## This is an example of a heading in a china 
+::: china
+
+## This is an example of a heading in a china
+
 :::
 
 ::: codeauditor
 This is a &lt;div&gt; using the class "codeauditor". Works the same as using a &lt;p&gt; . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  
 :::
 
-::: codeauditor  
-## This is an example of a heading in a codeauditor 
+::: codeauditor
+
+## This is an example of a heading in a codeauditor
+
 :::
 
 ::: todo  
@@ -415,11 +424,11 @@ Figure: Bad example - Because this code doesn't include the language used
 See this [json file](https://unpkg.com/gatsby-remark-vscode@1.0.3/lib/grammars/manifest.json) for all supported languages and their aliases we can use in SSW Rules. See some examples:
 
 ```javascript
-let iceCream = "chocolate";
-if (iceCream === "chocolate") {
-  alert("Yay, I love chocolate ice cream!");
+let iceCream = 'chocolate';
+if (iceCream === 'chocolate') {
+  alert('Yay, I love chocolate ice cream!');
 } else {
-  alert("Awwww, but chocolate is my favorite...");
+  alert('Awwww, but chocolate is my favorite...');
 }
 ```
 
