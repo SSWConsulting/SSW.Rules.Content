@@ -49,6 +49,12 @@ Before using Windows Hello for Business, you must ensure that the following requ
 
 ### Checking Usage
 
-You can check Windows Hello for Business usage in the Azure portal - go to **Microsoft Entra authentication methods | Monitoring | [Activity](https://portal.azure.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity)**. From there, you can see registrations and usage stats for Windows Hello for Business and other methods.
+You can check Windows Hello for Business usage in the Microsoft Entra admin center - go to **Microsoft Entra admin center | Identity | Monitoring & health | Workbooks | Authentication Prompts Analysis**. From there, you can filter the report to only show Windows Hello authentication. 
 
-![Figure: Example - Windows Hello for Business registration stats](whfb.png)
+:::info
+Filter the report to **AuthMethod: Password** and **AppDisplayName: Windows Sign In** to see who is **not** using Windows Hello to sign in.
+:::
+
+![Figure: Example - Authentication Prompts Analysis filtered to Windows Hello](entra-windows-hello.png)
+
+You can also check Windows Hello Registration stats in Entra - go to **Microsoft Entra admin center | Identity | Monitoring & health | Usage & insights | [Authentication methods activity.](https://entra.microsoft.com/#view/Microsoft_AAD_IAM/AuthenticationMethodsMenuBlade/~/AuthMethodsActivity/menuId/AuthMethodsActivity)**
