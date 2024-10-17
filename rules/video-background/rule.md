@@ -52,6 +52,10 @@ For home offices, follow "less is more":
 ![Figure: Good example – Simple background with clear and good lighting](good-background-seth.png)
 :::
 
+::: good
+![Figure: Good example – Office background with nice lighting ☀️](good-office-background.png)
+:::
+
 ### Virtual backgrounds
 
 Not ideal, but if you can't have a nice and clean background, the alternative is to use the virtual background effect feature (e.g. blur OR a background image):
