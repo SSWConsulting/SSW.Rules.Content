@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/camilla-rosa-silva
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
-related: []
+related:
+  - video-background
 redirects:
   - do-you-take-care-of-your-personal-appearance-even-for-remote-meetings
 ---
