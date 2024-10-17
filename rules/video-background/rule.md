@@ -18,6 +18,7 @@ related:
   - have-good-lighting-on-your-home-office
   - browser-add-branding
   - unique-office-backgrounds
+  - less-is-more
 redirects:
   - setup-do-you-have-a-nice-background-in-your-home-office
   - have-a-nice-background-in-your-home-office
@@ -30,27 +31,34 @@ You are likely to have constant Teams or Zoom video calls with clients or work c
 
 <!--endintro-->
 
-When in the office, you can have a nice branded background, which is the best option.
+## Home offices 
 
-For home offices, follow "less is more":
+For home offices, follow "less is more" - A neutral background, good lighting, and a clutter-free space can significantly enhance the quality of your video.
 
 * Have a neutral wall or setup behind you or with minimal objects - you may be fond of family pictures or band posters, but the person on the other side may be distracted
 * Check you don't have a pile of clothes to fold, boxes, or any mess that may be behind your desk
-* Test - sit at your desk and take a selfie. Then organize your background accordingly
 * [Good lighting](/have-good-lighting-on-your-home-office) can improve the general quality of your video
 * If you want to go the extra mile, designate one wall as your company wall and keep it consistent with the company branding
 
+::: greybox
+**Test your background** - Start by sitting at your desk and taking a selfie to check your background. Use this as a guide to tidy and organize your space for a more professional appearance.
+:::
+
 ::: bad
-![Figure: Bad example – A messy background will not look professional](bad-background.png)
+![Figure: Bad example – A messy background and bad lighting do not look professional](bad-background.png)
 :::
 
 ::: ok
-![Figure: OK example – Clean home background with a branded monitor (showing off the company website)](good-background.png)
+![Figure: OK example – Clean home background with a branded monitor showing off the company website (unnecessarily hard to set up)](good-background.png)
 :::
 
 ::: good
-![Figure: Good example – Simple background with clear and good lighting](good-background-seth.png)
+![Figure: Good example – Clean and simple home background with clear and good lighting](good-background-seth.png)
 :::
+
+## On-site offices 
+
+When you're in the office, it's easy to have a professionally branded background, which remains the most effective option.
 
 ::: good
 ![Figure: Good example – Office background with nice lighting ☀️](good-office-background.png)
