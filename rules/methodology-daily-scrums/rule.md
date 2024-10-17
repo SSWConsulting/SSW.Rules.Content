@@ -290,7 +290,7 @@ Learn more about the meetings in Scrum:
 
 * [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
 * [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
+* [Sprint Retrospective Meeting](/what-happens-at-retro-meetings "Sprint Retrospective Meeting")
 * Daily Scrum (Stand-up) Meeting (this rule)
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
