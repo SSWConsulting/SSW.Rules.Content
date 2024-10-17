@@ -42,4 +42,3 @@ A good way to avoid someone merging your PR before you have done an over the sho
 ::: good
 ![Figure: Good example - Devs reviewing a PR on a call - no merge debt!](over-the-shoulder-pr.png)
 :::
-
