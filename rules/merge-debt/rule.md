@@ -8,6 +8,10 @@ authors:
     url: https://www.ssw.com.au/people/brook-jeynes
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
+  - title: Luke Cook
+    url: https://ssw.com.au/people/luke-cook
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
@@ -21,6 +25,9 @@ guid: aa0d5e6d-f08a-43cd-9bee-4f72df367b78
 When a PR is created but left open for a long time, it becomes stale. Stale PRs equate to merge debt because the longer the PR stays open, the more changes occur on the main branch and the harder it is to merge back in (Merge Debt).
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=SJdq7mLGdgA`
+**Video: Merge Debt | Matt Goldman & Luke Cook | Rules (16 min)**
 
 If you are in a team (i.e. an internal contributor), it is the PR author's responsibility to get a PR reviewed and action feedback ASAP.
 **Tip:** For internal contributors, it's a good idea to have a [call with the PR reviewers](/over-the-shoulder).
