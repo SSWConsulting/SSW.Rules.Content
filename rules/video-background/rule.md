@@ -31,7 +31,7 @@ You are likely to have constant Teams or Zoom video calls with clients or work c
 
 <!--endintro-->
 
-## Home offices 
+## Home offices
 
 For home offices, follow "less is more" - A neutral background, good lighting, and a clutter-free space can significantly enhance the quality of your video.
 
@@ -56,7 +56,7 @@ For home offices, follow "less is more" - A neutral background, good lighting, a
 ![Figure: Good example – Clean and simple home background with clear and good lighting](good-background-seth.png)
 :::
 
-## On-site offices 
+## On-site offices
 
 When you're in the office, it's easy to have a professionally branded background, which remains the most effective option.
 
