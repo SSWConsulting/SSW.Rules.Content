@@ -20,7 +20,7 @@ created: 2023-05-15T21:36:54.519Z
 guid: f20af960-7a60-499c-980b-bd5bb6a0af91
 ---
 
-The PR author is responsible to follow up and get PRs merged as soon as possible. An "over-the-shoulder" review is one of the best ways to [avoid merge debt](/merge-debt).
+The PR author is responsible to [follow up](/tofu) and get PRs merged as soon as possible. An "over-the-shoulder" review is one of the best ways to [avoid merge debt](/merge-debt).
 
 When a pull request (PR) is ready to be reviewed, get someone with you either in-person or on call, and go through the PR together. This not only allows you to demo the content of the PR but also talk with the person taking feedback when needed.
 
@@ -34,3 +34,12 @@ When a pull request (PR) is ready to be reviewed, get someone with you either in
 ## Drafting PRs
 
 A good way to avoid someone merging your PR before you have done an over the shoulder review is to keep the Pull Request in draft mode until you are ready for it to be reviewed for merging.
+
+::: bad
+![Figure: Bad example - Pressing commit and forgetting about it. PR has been left open for a over 2 weeks](over-the-shoulder-old-PR.png)
+:::
+
+::: good
+![Figure: Good example - Devs reviewing a PR on a call - no merge debt!](over-the-shoulder-pr.png)
+:::
+
