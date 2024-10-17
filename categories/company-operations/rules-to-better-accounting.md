@@ -21,7 +21,6 @@ index:
 - do-you-check-your-customers-organisation-age-for-prepaid
 - pay-invoices-completely
 - manage-travel-in-centralized-systems
-- monitor-uber-expenses
 - do-you-know-how-to-claim-expense-reimbursements
 - tax-invoice-vs-eftpos-receipt
 - do-you-use-the-best-mobile-app-for-expenses
