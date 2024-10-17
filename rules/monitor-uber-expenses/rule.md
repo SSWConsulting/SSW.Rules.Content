@@ -15,40 +15,31 @@ archivedreason: null
 guid: cd0b5585-d45a-4989-aa2d-656c86e26ce9
 ---
 
-At SSW, we proudly offer Uber for Business programs that allow our employees to travel easily and efficiently. 
-This program removes the admin hassle and provides a convenient solution for business-related trips. 
+Offering [Uber for Business allows employees to travel easily and efficiently](/do-you-make-business-travel-easier). This program removes the admin hassle and provides a convenient solution for business-related trips. 
 
-> See SSW Rule - [Do you make business travel easier?](https://www.ssw.com.au/rules/do-you-make-business-travel-easier/)
+Given the relatively unrestricted nature of this travel policy, it’s essential to regularly monitor trip costs and usage patterns to ensure the program remains efficient and free from misuse.  This can be done at the beginning of each month when the business is receiving the Uber for Business monthly report.
 
-Given the relatively unrestricted nature of our travel policy, it’s essential that we regularly monitor trip costs and usage patterns to ensure the program remains efficient and free from misuse. 
-This can be done at the beginning of each month when the business is receiving the Uber for Business monthly report.
 <!--endintro-->
 
 Here are some suggestions on how to monitor these expenses:
 
-1. Use the Uber for Business Dashboard:
+1. Use the [Uber for Business dashboard](https://www.uber.com/au/en/business/products/business-hub):
 
-- In the Uber for Business portal, there is a Dashboard that provides an overview of your organization's ride activity.
+   - In the Uber for Business portal, there is a Dashboard that provides an overview of your organization's ride activity
+   - You can view metrics such as total trips, spending trends, and usage by your team
 
-- You can view metrics such as total trips, spending trends, and usage by your team.
+2. View trip reports:
 
-2. View Trip Reports:
+   - In the Uber for Business portal, there is a section where you can access trip reports
+   - These reports provide details like date, time, employee names, pick-up and drop-off locations, and fare breakdowns
 
-- In the Uber for Business portal, there is a section where you can access trip reports.
+3. Download CSV reports:
+   - The Uber for Business platform allows you to download CSV files for detailed trip and expense analysis
+   - These reports can include a range of data, such as the date of trips, employee names, and fare costs, which can be imported into financial systems or spreadsheets for further review
 
-- These reports provide details like date, time, employee names, pick-up and drop-off locations, and fare breakdowns.
+4. Set up notifications:
+   - You can configure automated notifications or reports within the Uber for Business platform
+   - These alerts can help you monitor expenses, track high-cost trips, or detect unusual patterns
 
-3. Download CSV Reports:
-
-- The Uber for Business platform allows you to download CSV files for detailed trip and expense analysis.
-
-- These reports can include a range of data, such as the date of trips, employee names, and fare costs, which can be imported into financial systems or spreadsheets for further review.
-
-4. Set Up Notifications:
-
-- You can configure automated notifications or reports within the Uber for Business platform.
-
-- These alerts can help you monitor expenses, track high-cost trips, or detect unusual patterns.
-
-Monitoring trip data not only safeguards against misuse but also helps us make data-driven decisions to optimize the program’s value for the business and its employees.
+Monitoring trip data not only safeguards against misuse but also helps making data-driven decisions to optimize the program’s value for the business and its employees.
 
