@@ -19,7 +19,7 @@ related:
 
 ---
 
-Too often, developers are writing a line of code, and they forget that little bit of syntax they need to do what they want. In that case, they usually end up googling it to find the documentation and then copy and paste it into their code. That process is a pain because it wastes valuable dev time. They might also ask another dev for help. 
+Too often, developers are writing a line of code, and they forget that little bit of syntax they need to do what they want. In that case, they usually end up googling it to find the documentation and then copy and paste it into their code. That process is a pain because it wastes valuable dev time. They might also ask another dev for help.
 
 Not to worry, AI pair programming is here to save the day!
 
