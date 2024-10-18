@@ -13,6 +13,7 @@ related:
 redirects:
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
   - what-happens-at-sprint-retrospective-meetings
+  - what-happens-at-a-sprint-retrospective-meeting
 created: 2010-05-06T03:18:17.000Z
 archivedreason: null
 guid: d8ab71ab-506f-49b6-9756-f5e811aa9ab5
