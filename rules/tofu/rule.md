@@ -23,14 +23,14 @@ That means taking ownership of the task and chasing the people you are waiting o
 
 There are 2 main aspects to TOFU:
 
-- **Taking Ownership** - Giving timely honest updates to stakeholders about progress
-- **Following up** - Proactively communicating with blockers (ideally chase them at least one a day)
+* **Taking Ownership** - Giving timely honest updates to stakeholders about progress
+* **Following up** - Proactively communicating with blockers (ideally chase them at least one a day)
 
 ### Why it's important
 
-- **Accountability** - The TOFU principle fosters a culture of accountability, where individuals feel personally invested in the outcome of their work.
-- **Clarity** - Regular follow-ups provide clarity to all stakeholders, keeping everyone informed about progress, challenges, and changes.
-- **Trust** - Demonstrating reliability through consistent follow-up strengthens trust among team members and with clients or stakeholders.
+* **Accountability** - The TOFU principle fosters a culture of accountability, where individuals feel personally invested in the outcome of their work.
+* **Clarity** - Regular follow-ups provide clarity to all stakeholders, keeping everyone informed about progress, challenges, and changes.
+* **Trust** - Demonstrating reliability through consistent follow-up strengthens trust among team members and with clients or stakeholders.
 
 ### How to do it effectively
 
@@ -42,8 +42,8 @@ There are 2 main aspects to TOFU:
 
 ### Common pitfalls to avoid
 
-- **Overcommitting** - Only take ownership of tasks you have the bandwidth to manage. Overcommitting can lead to missed deadlines and decreased quality of work.
-- **Under-communicating** - Assuming others are aware of your progress or challenges without regular updates can lead to misunderstandings and delays.
-- **Neglecting the big picture** - While focusing on your tasks, don't lose sight of how they fit into the larger goals and timelines.
+* **Overcommitting** - Only take ownership of tasks you have the bandwidth to manage. Overcommitting can lead to missed deadlines and decreased quality of work.
+* **Under-communicating** - Assuming others are aware of your progress or challenges without regular updates can lead to misunderstandings and delays.
+* **Neglecting the big picture** - While focusing on your tasks, don't lose sight of how they fit into the larger goals and timelines.
 
 Embracing the TOFU principle is not just about completing tasks - it's about building a reliable, transparent, and efficient work environment. By consistently applying these principles, you contribute to the success of your projects, the growth of your team, and your personal development.
