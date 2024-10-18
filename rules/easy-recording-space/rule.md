@@ -1,13 +1,11 @@
 ---
 type: rule
-tips: ""
 title: Do you have a space to easily record awesome videos?
 seoDescription: Discover how to set up an effective video recording space that
   ensures high-quality output, saves time, and avoids common pitfalls like
   noise, poor lighting, and cluttered backgrounds.
 uri: easy-recording-space
 authors:
-  - title: ""
   - title: Bahjat Alaadel
     url: https://www.ssw.com.au/people/bahjat-alaadel
 related:
