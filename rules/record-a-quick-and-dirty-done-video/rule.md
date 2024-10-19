@@ -74,6 +74,7 @@ Your done videos should follow the following format
    - Fade back into a medium close up shot of yourself
    - Provide a brief summary of what you discussed in the video
    - Use a signature to bid farewell to the audience (e.g. you could say "This is Bob Northwind signing off")
+   - Hold eye contact With the camera for 2 seconds before the video ends
 
 Here's a video describing how to record and edit a quick Done video using Clipchamp:
 
