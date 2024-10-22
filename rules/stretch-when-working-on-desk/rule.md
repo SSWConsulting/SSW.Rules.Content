@@ -38,7 +38,7 @@ Here are the common pain points that arise from sitting for long periods, affect
 
 Here are detailed stretches to target each of these areas:  
 
-### Hip Flexors: Standing Hip Flexor Stretch
+### Hips: Hip Flexor Stretch
 
 1. Start by standing with your feet together. Take a big step forward with your right leg and lower your body into a lunge position, with your left knee touching or hovering above the ground.  
 
@@ -56,7 +56,7 @@ Here are detailed stretches to target each of these areas:
 ![Figure: Good example - Standing Hip Flexor Stretch](good-example-stretch-hip-flexors.png)
 :::  
 
-### Chest: Head Behind Neck and Bend Backwards
+### Back: Thoracic Spine Stretch
 
 1. Stand or sit up straight with your feet shoulder-width apart.  
 
@@ -71,10 +71,10 @@ Here are detailed stretches to target each of these areas:
 :::
 
 ::: good  
-![Figure: Good example - Head Behind Neck and Bend Backwards](good-example-stretch-chest.png)
+![Figure: Good example - Head Behind Neck and Bend Backwards](good-example-stretch-back.png)
 :::  
 
-### Back: Chest Opener Stretch
+### Chest: Chest Opener Stretch
 
 1. Stand or sit with a straight spine.  
 
@@ -89,7 +89,7 @@ Here are detailed stretches to target each of these areas:
 :::
 
 ::: good  
-![Figure: Good example - Chest Opener Stretch](good-example-stretch-back.png)
+![Figure: Good example - Chest Opener Stretch](good-example-stretch-chest.png)
 :::  
 
 ## Long-Term Solution: Exercise
