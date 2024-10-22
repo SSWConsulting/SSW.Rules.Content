@@ -95,7 +95,7 @@ Choosing the right Super fund can make a big difference in your retirement balan
 
 Rolling over your Superannuation to a different fund can be a smart move, especially if you're looking for lower fees or better performance. The process is relatively simple, and here’s how:
 
-**Step #1. Compare Super Funds**
+**1. Compare Super Funds**
 
 Before rolling over your Super, it’s important to compare different Super funds to ensure you’re choosing the one that best fits your needs. Look for:
 
@@ -104,11 +104,11 @@ Before rolling over your Super, it’s important to compare different Super fund
 * **Investment options**: Make sure the fund offers investment choices that align with your risk tolerance and goals.\
   You can use the ATO Super Comparison Tool (previously mentioned) to help compare funds.
 
-**Step #2. Check for Exit Fees and Insurance**
+**2. Check for Exit Fees and Insurance**
 
 Some Super funds may charge exit fees, although many have been phased out. Additionally, check if you have any insurance attached to your existing fund, as this may not automatically transfer. Ensure your new fund offers adequate insurance coverage if needed.
 
-**Step #3. Rollover**
+**3. Rollover**
 
 Once you’ve chosen a new fund, follow these steps to roll over your Super:
 
