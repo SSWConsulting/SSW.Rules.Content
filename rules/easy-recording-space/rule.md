@@ -18,42 +18,30 @@ related:
 created: 2024-10-15T11:40:00.000Z
 guid: 70888624-0cb5-48e9-b9c4-f2b747024f42
 ---
-Creating high-quality videos consistently requires more than just a camera. You need a dedicated space that allows for efficient setup and minimizes distractions.
+Creating high-quality videos consistently requires more than just a great idea. You need a dedicated setup that allows you to focus.
 
-Without a proper setup, you may end up with poor audio, bad lighting, or a cluttered background that detracts from your content. A streamlined, well-organized recording space can help save time and ensure your videos look and sound professional.
+The popular open plan office will commonly result in poor vocal audio, bad lighting, and an inconsistent background that detracts from your content. A streamlined, self contained recording space can help save time and ensure your videos look and sound professional without the technical burden.
 
 <!--endintro-->
 
 ### Common Pitfalls to Avoid
 
-When setting up your video recording space, be aware of these issues that can lead to poor-quality output:
+When setting up your video recording space, be aware of these issues that can lead to a poor-quality video:
 
 ::: greybox
-**Example 1:** Recording in a busy office or shared workspace with background chatter, printers, and phones ringing.
+**Example 1:** Recording in a busy office with harsh fluorescent lights with background chatter and unpredictable changes to the ambient workspace volume and background elements.
 :::
+![DALL·E 2024-10-23 08 41 28 - A realistic office setting with a frustrated person holding a laptop, facing forward  The person appears stressed, with a tense expression, clutching ](https://github.com/user-attachments/assets/8da27a37-48e7-49d4-9779-755d11e42467)
 ::: bad
-Figure: Bad Example - Noisy environment makes it hard to capture clear audio
-:::
-
-::: greybox
-**Example 2:** Using a room with harsh fluorescent lights or minimal lighting that creates shadows and makes the subject look tired.
-:::
-::: bad
-Figure: Bad Example - Poor lighting affects video quality and makes it hard to see the speaker clearly
+Figure: Bad Example - Shared noisy environment makes it hard to capture clear audio and branded visuals
 :::
 
 ::: greybox
-**Example 3:** Recording in front of a cluttered background, such as an unorganized bookshelf, or in a space where the background is too busy or distracting.
+**Example 2:** Setting up and tearing down equipment each time you want to record.
 :::
+![Firefly a frustrated person struggling to set up a cluttered desk with a microphone , webcam and rin (1)](https://github.com/user-attachments/assets/dfd4efca-8a93-4257-b09c-9689acc4ede7)
 ::: bad
-Figure: Bad Example - Messy or distracting background pulls focus away from the speaker
-:::
-
-::: greybox
-**Example 4:** Setting up and tearing down equipment each time you want to record, leading to inconsistent quality and wasting time.
-:::
-::: bad
-Figure: Bad Example - Difficulty of setup leads to inefficiency and inconsistent output
+Figure: Bad Example - Difficult setups leading to inconsistent quality and wasting time
 :::
 
 ### How to Set Up an Effective Recording Space
@@ -78,8 +66,10 @@ A good recording space should be optimized for sound, lighting, background, and 
    * Consider an external microphone for better sound quality, and test audio levels regularly.
 
 ::: greybox
-**Good Example:** A small office or studio with soundproofing, diffused soft lighting, and a mounted camera on a tripod. The microphone is attached to the desk, and the background is a clean, branded wall with subtle colors. Equipment remains in place, so the recording can begin within minutes.
+**Good Example:** An office pod or studio with soundproofing, diffused soft lighting, and a mounted camera. The microphone is attached to the desk, and the background is a clean, branded wall with subtle colors. Equipment remains in place, so the recording can begin within minutes.
 :::
+![Melbourne-recording-booth](https://github.com/user-attachments/assets/883aff45-3714-478d-9365-ba98aac57a06)
+
 ::: good
 Figure: Good Example - Plug and play system that ensures consistent quality and saves time
 :::
