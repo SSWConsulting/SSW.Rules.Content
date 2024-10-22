@@ -1,7 +1,10 @@
 ---
-seoDescription: Do you know what unit tests to write and how many? Learn that 100% Unit Test Coverage is impractical, focus on quality over quantity, and prioritize writing tests for methods with high risk of unintended consequences.
 type: rule
 title: Do you know what unit tests to write and how many?
+seoDescription: Do you know what unit tests to write and how many? Learn that
+  100% Unit Test Coverage is impractical, focus on quality over quantity, and
+  prioritize writing tests for methods with high risk of unintended
+  consequences.
 uri: what-unit-tests-to-write-and-how-many
 authors:
   - title: Adam Cogan
@@ -30,6 +33,8 @@ Remember that unit tests are designed to be small in scope and help mitigate the
 
 ✅ Unit tests should be written for:
 
+- Critical path
+- Core functionality
 - Fragile code
   e.g. regular expressions
 - When errors can be difficult to spot
