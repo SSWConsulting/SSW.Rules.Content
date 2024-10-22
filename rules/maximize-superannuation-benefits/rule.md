@@ -5,7 +5,12 @@ title: Do you know how to maximize Superannuation benefits?
 seoDescription: "How to choose the best Super fund? "
 uri: maximize-superannuation-benefits
 authors:
-  - title: ""
+  - title: Stephan Fako
+    url: https://www.ssw.com.au/people/stephan-fako
+related:
+  - salary-terminology
+  - salary-sacrifice-electronic-devices
+created: 2024-10-22T11:36:00.000Z
 guid: b455ea0e-0b1c-41e3-a97a-2e2315b20d08
 ---
 Superannuation (Super) is a compulsory retirement savings system in Australia. Your employer makes contributions on your behalf, which are invested and managed by your chosen Super fund until retirement.
