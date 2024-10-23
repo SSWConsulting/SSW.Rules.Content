@@ -14,6 +14,7 @@ index:
 - show-long-service-leave-on-your-payslip
 - salary-sacrifice-electronic-devices
 - salary-sacrifice-novated-lease
+- maximize-superannuation-benefits
 - salary-terminology
 - do-you-calculate-payroll-tax-correctly
 - show-certification-award
