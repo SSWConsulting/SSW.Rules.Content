@@ -18,5 +18,6 @@ We used to use the [CRM Outlook Client Plugin](https://www.microsoft.com/en-US/d
 
 <!--endintro-->
 
-![](track-email-in-outlook.png) **Figure: Track an Email in Outlook with Dynamics 365 App**
-<img src="track-email-in-owa.png" alt="track-email-in-owa.png" style="margin:5px;width:668px;height:468px;"> <strong>Figure: Track an Emails in OWA with Dynamics 365 App</strong>
+![Figure: Track an email in Outlook with Dynamics 365 App](track-email-in-outlook.png)
+
+![Figure: Track an email in OWA with Dynamics 365 App](track-email-in-owa.png)

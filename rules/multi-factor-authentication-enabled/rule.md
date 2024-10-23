@@ -1,7 +1,8 @@
 ---
-seoDescription: Ensure you have robust multi-factor authentication (MFA) enabled to protect your users and administrator accounts from unauthorized access.
 type: rule
 title: Security - Do you have MFA (Multi-Factor Authentication) enabled?
+seoDescription: Ensure you have robust multi-factor authentication (MFA) enabled
+  to protect your users and administrator accounts from unauthorized access.
 uri: multi-factor-authentication-enabled
 authors:
   - title: Kaique Biancatti
@@ -10,7 +11,9 @@ authors:
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Andrew Harris
     url: https://www.ssw.com.au/people/andrew-harris
-related: []
+related:
+  - using-mfa
+  - windows-hello
 redirects:
   - do-you-have-mfa-(multi-factor-authentication)-enabled
   - do-you-have-mfa-multi-factor-authentication-enabled

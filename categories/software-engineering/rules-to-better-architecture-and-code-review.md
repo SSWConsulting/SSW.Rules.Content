@@ -14,7 +14,7 @@ index:
   - do-you-document-the-technologies-design-patterns-and-alm-processes
   - spike-vs-poc
   - look-at-the-architecture-of-javascript-projects
-  - do-you-generate-the-dependency-graph
+  - generate-dependency-graphs
   - do-you-know-how-to-laser-in-on-the-smelliest-code
   - do-you-know-the-common-design-principles-part-1
   - do-you-know-the-common-design-principles-part-2-example

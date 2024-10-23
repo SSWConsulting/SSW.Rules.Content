@@ -16,7 +16,7 @@ authors:
   url: https://ssw.com.au/people/yazhi-chen
 related:
 - do-you-use-a-dependency-injection-centric-architecture
-- do-you-generate-the-dependency-graph
+- generate-dependency-graphs
 - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
 redirects:
 - do-you-know-the-best-dependency-injection-container-(aka-dont-waste-days-evaluating-ioc-containers)
