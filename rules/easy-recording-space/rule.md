@@ -31,17 +31,17 @@ When setting up your video recording space, be aware of these issues that can le
 ::: greybox
 **Example 1:** Recording in a busy office with harsh fluorescent lights with background chatter and unpredictable changes to the ambient workspace volume and background elements.
 :::
-![DALL·E 2024-10-23 08 41 28 - A realistic office setting with a frustrated person holding a laptop, facing forward  The person appears stressed, with a tense expression, clutching ](https://github.com/user-attachments/assets/8da27a37-48e7-49d4-9779-755d11e42467)
+
 ::: bad
-Figure: Bad Example - Shared noisy environment makes it hard to capture clear audio and branded visuals
+![Figure: Bad Example - Shared noisy environment makes it hard to capture clear audio and branded visuals](https://github.com/user-attachments/assets/8da27a37-48e7-49d4-9779-755d11e42467)
 :::
 
 ::: greybox
 **Example 2:** Setting up and tearing down equipment each time you want to record.
 :::
-![Firefly a frustrated person struggling to set up a cluttered desk with a microphone , webcam and rin (1)](https://github.com/user-attachments/assets/dfd4efca-8a93-4257-b09c-9689acc4ede7)
+
 ::: bad
-Figure: Bad Example - Difficult setups leading to inconsistent quality and wasting time
+![Figure: Bad Example - Difficult setups leading to inconsistent quality and wasting time](https://github.com/user-attachments/assets/dfd4efca-8a93-4257-b09c-9689acc4ede7)
 :::
 
 ### How to Set Up an Effective Recording Space
@@ -68,10 +68,9 @@ A good recording space should be optimized for sound, lighting, background, and 
 ::: greybox
 **Good Example:** An office pod or studio with soundproofing, diffused soft lighting, and a mounted camera. The microphone is attached to the desk, and the background is a clean, branded wall with subtle colors. Equipment remains in place, so the recording can begin within minutes.
 :::
-![Melbourne-recording-booth](https://github.com/user-attachments/assets/883aff45-3714-478d-9365-ba98aac57a06)
 
 ::: good
-Figure: Good Example - Plug and play system that ensures consistent quality and saves time
+![Figure: Good Example - Plug and play system that ensures consistent quality and saves time](https://github.com/user-attachments/assets/883aff45-3714-478d-9365-ba98aac57a06)
 :::
 
 By setting up a dedicated recording space that addresses these factors, you can streamline your workflow, reduce stress, and consistently produce high-quality videos that engage your audience. Spend time to get your space right once, and you’ll save hours on every future recording session.
