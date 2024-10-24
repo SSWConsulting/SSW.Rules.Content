@@ -11,7 +11,7 @@ related:
   - why-react-is-great
   - why-blazor-is-great
   - why-angular-is-great
-created: 2024-10-224T00:00:00.001Z
+created: 2024-10-24T00:00:00.001Z
 guid: be0d9e5f-8580-4997-9abd-d7130ec9b240
 ---
 
