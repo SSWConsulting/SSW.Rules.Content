@@ -70,4 +70,6 @@ Being a PO can seem daunting to some, especially if they don't have a lot of Scr
 >
 > **Adam Cogan** - Professional Scrum Trainer, Scrum.org, during a TechEd session
 
-It is also recommended that the Scrum Master is from the development consultant company and supports the Product Owner in the Agile practices. See [Does your Scrum Master support the Product Owner](/scrum-master-support-product-owner)
+## What about the Scrum Master?
+
+It is recommended that the Scrum Master is from the development consultant company and supports the Product Owner in the Agile practices. See [Does your Scrum Master support the Product Owner?](/scrum-master-support-product-owner)
