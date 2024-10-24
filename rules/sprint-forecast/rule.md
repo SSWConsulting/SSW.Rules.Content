@@ -1,10 +1,7 @@
 ---
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality that will be
-  developed during the Sprint)
-seoDescription: Do you create a Sprint Forecast? (aka The functionality that
-  will be developed during the Sprint) - Confirming the relationship between the
-  Product Owner and Development Team in Agile Project Management.
+title: Do you create a Sprint Forecast? (aka The functionality to be developed in the Sprint)
+seoDescription: The functionality that will be developed during the Sprint confirms the relationship between the Product Owner and Development Team in Agile Project Management.
 uri: sprint-forecast
 authors:
   - title: Adam Cogan
