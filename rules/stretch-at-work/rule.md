@@ -42,7 +42,7 @@ Here are detailed stretches to target each of these areas:
 
 ### 1. Back - Thoracic spine stretch
 
-**✅ Benefits:** This stretch opens up the chest and shoulders, improving posture and relieving tightness caused by slouching forward. 
+**✅ Benefits:** This stretch opens up the chest and shoulders, improving posture and relieving tightness caused by slouching forward.
 
 1. Stand or sit up straight with your feet shoulder-width apart
 2. Interlace your fingers behind your neck and bring your elbows parallel and pointing forward
