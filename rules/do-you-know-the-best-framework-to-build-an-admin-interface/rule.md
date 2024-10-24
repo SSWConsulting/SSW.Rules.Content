@@ -1,7 +1,7 @@
 ---
 seoDescription: Find the best framework for your admin interface. Explore top choices like React, Blazor, and Angular, based on your tech stack and project needs
 type: rule
-title: Do you know the best Framework to build an Admin Interface for your Web App?
+title: Do you know the best framework to build an admin interface for Web Apps?
 uri: do-you-know-the-best-framework-to-build-an-admin-interface
 authors:
   - title: Tom Iwainski
@@ -19,53 +19,56 @@ When it comes to developing an admin interface for your web application, choosin
 
 <!--endintro-->
 
-## Stick to your existing Tech Stack
+## Stick to your existing tech stack
 
 If your application already has an established tech stack, it's generally advisable to stick with it. Maintaining consistency across your application can simplify development, reduce onboarding time for new developers, and make it easier to manage dependencies.
 
 Here are some reasons to stay within your current stack:
 
-1. Familiarity: Your team is already comfortable with the tools and languages in use.
-2. Integration: Existing components and services can be more easily integrated.
-3. Reduced Overhead: Fewer technologies mean less complexity in your build and deployment processes.
+1. **Familiarity** - Your team is already comfortable with the tools and languages in use
+2. **Integration** - Existing components and services can be more easily integrated
+3. **Reduced overhead** - Fewer technologies mean less complexity in your build and deployment processes
 
 However, if your current stack isn't suited for an admin interface, or if there are significant improvements to be made, it might be worth exploring new options.
 
-## Evaluating Frameworks
+## Evaluating frameworks
 
 When considering frameworks for building an admin interface, keep the following criteria in mind:
 
-- **Ease of Use**: The framework should allow for rapid development and easy maintenance.
-- **Customizability**: Look for options that provide flexibility for unique UI requirements.
-- **Community Support**: A strong community can be invaluable for troubleshooting and finding resources.
-- **Performance**: Ensure that the framework can handle your app’s data load efficiently.
+- **Ease of Use** - The framework should allow for rapid development and easy maintenance
+- **Customizability** - Look for options that provide flexibility for unique UI requirements
+- **Community Support** - A strong community can be invaluable for troubleshooting and finding resources
+- **Performance** - Ensure that the framework can handle your app’s data load efficiently
 
-## Top Frameworks to Consider
+## Top trameworks to consider
 
 ### React / Next.js
 
-- **Why Use It**: React provides a component-based architecture that makes building complex UIs intuitive. With Next.js, you gain additional features like server-side rendering and static site generation, which can improve performance and SEO.
-- **Best For**: Applications that require dynamic content and a rich user interface. Ideal for teams already using React for their frontend.
+React provides a component-based architecture that makes building complex UIs intuitive. With Next.js, you gain additional features like server-side rendering and static site generation, which can improve performance and SEO.
 
-For some more information visit our rule:
+**Best for:** Applications that require dynamic content and a rich user interface. Ideal for teams already using React for their frontend.
 
-- [Do you know why Next.js is awesome?](https://www.ssw.com.au/rules/use-nextjs/)
-- [Do you know why React is awesome?](https://www.ssw.com.au/rules/why-react-is-great/)
+For more information, see our rules:
+
+- [Do you know why Next.js is awesome?](/use-nextjs)
+- [Do you know why React is awesome?](/why-react-is-great)
 
 ### Blazor
 
-- **Why Use It**: Blazor allows you to build interactive web UIs using C# instead of JavaScript. It can be a great choice for .NET developers looking to leverage their existing skills.
-- **Best For**: .NET applications where you want a seamless experience across client and server-side development, particularly for teams familiar with C#.
+Blazor allows you to build interactive web UIs using C# instead of JavaScript. It can be a great choice for .NET developers looking to leverage their existing skills.
 
-For some more information visit our rule:
+**Best for:** .NET applications where you want a seamless experience across client and server-side development, particularly for teams familiar with C#.
 
-- [Do you know why Blazor is awesome?](https://www.ssw.com.au/rules/why-blazor-is-great/)
+For more information, see our rule:
+
+- [Do you know why Blazor is awesome?](/why-blazor-is-great/)
 
 ### Angular
 
-- **Why Use It**: Angular offers a robust framework for building single-page applications (SPAs) with a strong focus on scalability and maintainability. It includes powerful features like two-way data binding, dependency injection, and a rich set of built-in components.
-- **Best For**: Large applications requiring a structured framework that can handle complex features and extensive data management.
+Angular offers a robust framework for building single-page applications (SPAs) with a strong focus on scalability and maintainability. It includes powerful features like two-way data binding, dependency injection, and a rich set of built-in components.
 
-For some more information visit our rule:
+**Best for:** Large applications requiring a structured framework that can handle complex features and extensive data management.
 
-- [Do you know why Angular is great?](https://www.ssw.com.au/rules/why-angular-is-great/)
+For more information, see our rule:
+
+- [Do you know why Angular is great?](/why-angular-is-great)
