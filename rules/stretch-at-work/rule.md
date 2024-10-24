@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you know to stretch when working at a desk?
 guid: 11df63bc-a1dd-4b63-8720-8a7be0d253c4
-uri: stretch-when-working-on-desk
+uri: stretch-at-work
 created: 2023-12-11T14:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
@@ -37,24 +37,6 @@ Here are the common pain points that arise from sitting for long periods, affect
 ## The Solution: Stretches to Relieve Tension
 
 Here are detailed stretches to target each of these areas:  
-
-### Hips: Hip Flexor Stretch
-
-1. Start by standing with your feet together. Take a big step forward with your right leg and lower your body into a lunge position, with your left knee touching or hovering above the ground.  
-
-2. Make sure your right knee is at a 90-degree angle and directly above your ankle.  
-
-3. Shift your weight forward into your hips, feeling a stretch along the front of your left hip and thigh (hip flexors).  
-
-4. Hold this position for 20-30 seconds, then switch sides.  
-
-::: info
-**Benefits:** This stretch lengthens the hip flexors, helping to counteract the tightness caused by sitting.  
-:::
-
-::: good  
-![Figure: Good example - Standing Hip Flexor Stretch](good-example-stretch-hip-flexors.png)
-:::  
 
 ### Back: Thoracic Spine Stretch
 
@@ -90,6 +72,24 @@ Here are detailed stretches to target each of these areas:
 
 ::: good  
 ![Figure: Good example - Chest Opener Stretch](good-example-stretch-chest.png)
+:::  
+
+### Hips: Hip Flexor Stretch
+
+1. Start by standing with your feet together. Take a big step forward with your right leg and lower your body into a lunge position, with your left knee touching or hovering above the ground.  
+
+2. Make sure your right knee is at a 90-degree angle and directly above your ankle.  
+
+3. Shift your weight forward into your hips, feeling a stretch along the front of your left hip and thigh (hip flexors).  
+
+4. Hold this position for 20-30 seconds, then switch sides.  
+
+::: info
+**Benefits:** This stretch lengthens the hip flexors, helping to counteract the tightness caused by sitting.  
+:::
+
+::: good  
+![Figure: Good example - Standing Hip Flexor Stretch](good-example-stretch-hip-flexors.png)
 :::  
 
 ## Long-Term Solution: Exercise
