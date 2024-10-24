@@ -1,7 +1,10 @@
 ---
-seoDescription: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint) - Confirming the relationship between the Product Owner and Development Team in Agile Project Management.
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
+title: Do you create a Sprint Forecast? (aka The functionality that will be
+  developed during the Sprint)
+seoDescription: Do you create a Sprint Forecast? (aka The functionality that
+  will be developed during the Sprint) - Confirming the relationship between the
+  Product Owner and Development Team in Agile Project Management.
 uri: sprint-forecast
 authors:
   - title: Adam Cogan
@@ -30,13 +33,13 @@ Each Sprint in a Scrum project can be considered a mini-project that has **time*
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | {{Product Owner}} |
-| Subject: | {{Client Name}}: Sprint XXX Forecast |
+|          |                                        |
+| -------- | -------------------------------------- |
+| To:      | {{ PRODUCT OWNER }}                    |
+| Subject: | {{ CLIENT NAME }}: Sprint XXX Forecast |
 ::: email-content
 
-### Hi {{Product Owner}}
+### Hi {{ PRODUCT OWNER }}
 
 Sprint Goals (in priority order):
 
