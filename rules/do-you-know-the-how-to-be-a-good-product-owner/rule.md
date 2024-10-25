@@ -25,7 +25,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 `youtube: https://www.youtube.com/embed/3eljozEWpf8`
 **Video: What is a 'Product Owner'? - Scrum Guide (2 min)**
 
-# What are the key factors for a good Product Owner?
+## What are the key factors for a good Product Owner?
 
 1. **Product Vision - The PO understands the product's vision**  
    The Product Owner should have a deep understanding of the product's vision, goals, and business value, and be able to communicate this clearly to both the development team and stakeholders.
@@ -46,7 +46,7 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 5. **Availability and Commitment - The PO is available and committed to the team**  
    The Product Owner must be available to the team regularly to answer questions, provide feedback, and make decisions quickly. Their commitment to participating in [Sprint Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings and staying connected to the team's progress (such as through [Daily Scrums](/methodology-daily-scrums)) is crucial to maintaining momentum. A good PO has a feeling of urgency!
 
-# Who should be the Product Owner?
+## Who should be the Product Owner?
 
 It is recommended that the Product Owner is from the client - here is why:
 
