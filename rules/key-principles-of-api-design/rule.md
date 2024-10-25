@@ -25,15 +25,15 @@ Building a high-quality API means adhering to best practices that enhance clarit
 
 ## Tip \#1 - Use clear naming  
 
-Choose descriptive, intuitive names for endpoints and parameters to improve readability. Adhere to REST conventions, using nouns and verbs logically (e.g., `/users` for accessing user data, `/users/{id}` for specific user information). 
+Choose descriptive, intuitive names for endpoints and parameters to improve readability. Adhere to REST conventions, using nouns and verbs logically (e.g., `/users` for accessing user data, `/users/{id}` for specific user information).
 
 Clear naming simplifies usage and reduces misunderstandings.  
 
 ## Tip \#2 - Ensure reliability through idempotency  
 
-To avoid unintended actions from repeated requests, design POST, PUT, and DELETE operations as idempotent, where repeating an action yields the same result as performing it once. 
+To avoid unintended actions from repeated requests, design POST, PUT, and DELETE operations as idempotent, where repeating an action yields the same result as performing it once.
 
-For example, if a DELETE request removes a record, re-sending it should not throw errors if the record is already deleted. 
+For example, if a DELETE request removes a record, re-sending it should not throw errors if the record is already deleted.
 
 This prevents accidental duplicate data processing.  
 
