@@ -30,7 +30,7 @@ Analyze the total cost of ownership for each model, including initial setup cost
 
 ### Scalability Requirements
 
-Consider how easily each model can scale with your user base. If you anticipate rapid growth, a model that allows for seamless scaling without significant re-architecture (like single application with multiple databases) may be preferable34.
+Consider how easily each model can scale with your user base. If you anticipate rapid growth, a model that allows for seamless scaling without significant re-architecture (like single application with multiple databases) may be preferable.
 
 ### Data Isolation and Security Needs
 
