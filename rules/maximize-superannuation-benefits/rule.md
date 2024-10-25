@@ -32,7 +32,7 @@ You may have heard people say that the sooner you start saving, the better off y
 
 Compound interest occurs when your initial investment earns interest, and then that interest also earns interest. Over time, this snowball effect can significantly increase your returns. Since Superannuation is a long-term investment, the impact of compound interest can multiply your funds over decades.
 
-If you would like to find out more on the types of interest, check out Investopedia’s website.
+If you would like to find out more on the types of interest, check out [Investopedia’s](https://www.investopedia.com/articles/investing/020614/learn-simple-and-compound-interest.asp) website.
 
 Most financial institutions will apply compounding to your investment without the need for you to explicitly ask for its activation.
 
