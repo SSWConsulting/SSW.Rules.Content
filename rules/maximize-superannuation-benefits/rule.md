@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know how to maximize Superannuation benefits?
+title: Payroll - Do you know how to maximize Superannuation benefits? (Aussie only)
 seoDescription: "How to choose the best Super fund? "
 uri: maximize-superannuation-benefits
 authors:
