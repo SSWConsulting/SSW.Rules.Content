@@ -33,15 +33,15 @@ The client is generally the Product Owner (PO). They should read the Scrum Guide
 2. **Decision-Making Authority - The PO has the authority to make key decisions**  
    The Product Owner must have the authority to make decisions regarding product features, priorities, and scope to keep the project moving forward.
 
-3. **Communication and Collaboration - The PO can communicate and collaborate effectively**  
+3. **Prioritization and Backlog Management - The PO is skilled at prioritizing and managing the backlog**  
+   A strong Product Owner excels at backlog management, making tough decisions on what features to prioritize to maximize ROI and deliver business value. They should ensure the backlog is always aligned with changing business needs and available resources.
+
+4. **Communication and Collaboration - The PO can communicate and collaborate effectively**  
    The Product Owner must be an effective communicator with both technical and non-technical stakeholders, translating business needs into technical requirements and explaining complexities back to the business. They should also collaborate closely with stakeholders, developers, and the Scrum Master to ensure everyone is aligned on goals and priorities. They should be adept at negotiating scope and timelines when necessary. They should also understand Product Backlog Items (PBIs) and be able to explain what they want using [Acceptance Criteria](/acceptance-criteria). This is the main way that developers and POs sync their understanding of what needs to be done.
 
     ::: greybox
     **Note:** It is helpful for developers to distinguish acceptance criteria between what is considered "essential" and what is merely "nice to have," as this can prevent them from investing excessive time in meeting non-essential criteria.
     :::
-
-4. **Prioritization and Backlog Management - The PO is skilled at prioritizing and managing the backlog**  
-   A strong Product Owner excels at backlog management, making tough decisions on what features to prioritize to maximize ROI and deliver business value. They should ensure the backlog is always aligned with changing business needs and available resources.
 
 5. **Availability and Commitment - The PO is available and committed to the team**  
    The Product Owner must be available to the team regularly to answer questions, provide feedback, and make decisions quickly. Their commitment to participating in [Sprint Reviews](/do-you-know-what-happens-at-a-sprint-review-meeting), [Retrospectives](/do-you-know-what-happens-at-a-sprint-retrospective-meeting) and [Sprint Planning](/what-happens-at-a-sprint-planning-meeting) meetings and staying connected to the team's progress (such as through [Daily Scrums](/methodology-daily-scrums)) is crucial to maintaining momentum. A good PO has a feeling of urgency!
