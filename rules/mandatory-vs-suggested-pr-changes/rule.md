@@ -7,7 +7,7 @@ authors:
   - title: Daniel Mackay
     url: https://www.ssw.com.au/people/daniel-mackay
   - title: Matt Goldman
-    url: https://www.ssw.com.au/people/william-liebenberg
+    url: https://www.ssw.com.au/people/goldie
 created: 2024-10-28T17:00:00.000Z
 guid: 6F5AE6FC-F29A-4938-B012-FDE7F669998C
 ---
