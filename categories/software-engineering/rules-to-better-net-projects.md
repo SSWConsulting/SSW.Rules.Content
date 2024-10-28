@@ -75,6 +75,7 @@ index:
 - dev-containers
 - containerize-sql-server
 - minimal-apis
+- directory-build-props
 
 ---
 
