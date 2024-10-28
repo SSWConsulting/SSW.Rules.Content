@@ -20,7 +20,7 @@ When working on large enterprise scale projects .NET Solutions can often become 
 
 A [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild/customize-by-directory?view=vs-2022) file is an MSBuild file used in .NET projects to define common properties and configurations that apply to multiple projects within a directory tree. This file helps centralize the configuration and reduce redundancy by allowing you to specify settings that will be inherited by all projects under the directory where the file is located.
 
-## Usages
+### Usages
 
 This can be used for:
 
@@ -31,9 +31,11 @@ This can be used for:
 * Static code analysis
 * Author / Company
 
-## ❌ Bad Example
+### Examples
 
-Project1.csproj:
+::: greybox
+
+**Project1.csproj:**
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -54,7 +56,7 @@ Project1.csproj:
 </Project>
 ```
 
-Project2.csproj:
+**Project2.csproj:**
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
@@ -74,24 +76,27 @@ Project2.csproj:
 
 </Project>
 ```
+:::
+::: bad
+Bad example - Redundant configuration
+:::
 
-## ✅ Good Example
-
-Project1.csproj:
-
-```xml
-<Project Sdk="Microsoft.NET.Sdk.Web">
-</Project>
-```
-
-Project2.csproj:
+::: good
+**Project1.csproj:**
 
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
 </Project>
 ```
 
-Directory.Build.props:
+**Project2.csproj:**
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk.Web">
+</Project>
+```
+
+**Directory.Build.props:**
 
 ```xml
 <Project>
@@ -109,3 +114,7 @@ Directory.Build.props:
     </PropertyGroup>
 </Project>
 ```
+:::
+::: good
+Good example - Centralized configuration
+:::
