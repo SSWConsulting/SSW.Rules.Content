@@ -1,0 +1,57 @@
+---
+seoDescription: TODO
+type: rule
+title: Do you know how to indicate mandatory vs suggested PR changes?
+uri: mandatory-vs-suggested-pr-changes
+authors:
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Matt Goldman
+    url: https://www.ssw.com.au/people/william-liebenberg
+created: 2024-10-28T17:00:00.000Z
+guid: 6F5AE6FC-F29A-4938-B012-FDE7F669998C
+---
+
+When reviewing another developers pull request, review comments can fall into a mix of categories. Some comments might be required, while others might be optional. This is where the mandatory vs suggested PR changes rule comes in.
+
+<!--endintro-->
+
+## Types of Pull Request Feedback
+
+When reviewing pull request comments can often be divided into two categories:
+
+* **Change** - you must change this if you want me to approve.
+* **Consider** – consider this suggestion, but don’t feel obliged to change (i.e. I would do this, but I won’t block you on it)
+* **PBI** – Important, but create a PBI to fix this in future
+
+By prefixing the comment with one of the categories above, the reviewer can make it clear to the author if they must make the change or not.
+
+## Pull Request Comment Examples
+
+::: greybox  
+This could be refactored to be better 
+:::  
+::: bad  
+Figure: Bad example - not clear if the author should make the change or not
+:::
+
+::: greybox  
+Change – check for null reference and throw if found
+:::  
+::: good  
+Figure: Good example - clear that the change should be made before the PR will be approved
+:::
+
+::: greybox  
+Consider – break long method into several smaller ones
+:::  
+::: good  
+Figure: Good example - the reviewer has left a suggestion, but it's up to the author do change or not
+:::
+
+::: greybox  
+PBI – Consolidate these xUnit ‘Fact’ tests to use ‘InlineData’
+:::  
+::: good  
+Figure: Good example - This change doesn't need to be done now, but should be added to the backlog with a comment in the code
+:::
