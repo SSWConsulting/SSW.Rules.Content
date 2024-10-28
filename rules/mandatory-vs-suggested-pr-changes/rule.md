@@ -20,7 +20,7 @@ When reviewing another developer's pull request, review comments can fall into a
 
 When reviewing pull requests, comments can often be divided into two categories:
 
-* **Change** - you must change this if you want me to approve.
+* **Change** - you must change this if you want me to approve
 * **Consider** – consider this suggestion, but don’t feel obliged to change (i.e. I would do this, but I won’t block you on it)
 * **PBI** – Important, but create a PBI to fix this in future
 
