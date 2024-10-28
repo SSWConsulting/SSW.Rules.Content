@@ -12,7 +12,7 @@ created: 2024-10-28T17:00:00.000Z
 guid: E3F562C1-30FF-4982-B96F-2AA0A716E842
 ---
 
-When working on large enterprise scale projects .NET Solutions can often become unwieldy and difficult to maintain. This is particulary true of `.csproj` files which end up repeating configuration across all projects.
+When working on large enterprise scale projects .NET Solutions can often become unwieldy and difficult to maintain. This is particularly true of `.csproj` files which end up repeating configuration across all projects.
 
 <!--endintro-->
 
