@@ -29,7 +29,7 @@ By prefixing the comment with one of the categories above, the reviewer can make
 ## Pull Request Comment Examples
 
 ::: greybox  
-This could be refactored to be better 
+This could be refactored to be better
 :::  
 ::: bad  
 Figure: Bad example - not clear if the author should make the change or not
