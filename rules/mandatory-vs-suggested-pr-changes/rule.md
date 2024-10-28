@@ -18,7 +18,7 @@ When reviewing another developer's pull request, review comments can fall into a
 
 ## Types of Pull Request Feedback
 
-When reviewing pull request comments can often be divided into two categories:
+When reviewing pull requests, comments can often be divided into two categories:
 
 * **Change** - you must change this if you want me to approve.
 * **Consider** – consider this suggestion, but don’t feel obliged to change (i.e. I would do this, but I won’t block you on it)
