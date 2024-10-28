@@ -1,5 +1,5 @@
 ---
-seoDescription: TODO
+seoDescription: Master effective pull request reviews by categorizing feedback into ‘Change,’ ‘Consider,’ and ‘PBI’ for clear, actionable guidance. Improve collaboration and streamline approvals with structured, prioritized comments
 type: rule
 title: Do you know how to indicate mandatory vs suggested PR changes?
 uri: mandatory-vs-suggested-pr-changes
@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/daniel-mackay
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/goldie
+related:
+  - todo-tasks
 created: 2024-10-28T17:00:00.000Z
 guid: 6F5AE6FC-F29A-4938-B012-FDE7F669998C
 ---
@@ -25,6 +27,8 @@ When reviewing pull requests, comments can often be divided into two categories:
 * **PBI** – Important, but create a PBI to fix this in future
 
 By prefixing the comment with one of the categories above, the reviewer can make it clear to the author if they must make the change or not.
+
+When adding 'PBI' comments, a "good Samaritan" approach is to create the PBI and link to it (add a TODO). Alternatively if you just leave the comment and want the requester to do it, they should do the same (add a TODO with a link to the PBI) before you approve it. See [todo-tasks](https://www.ssw.com.au/rules/todo-tasks/) for more details.
 
 ## Pull Request Comment Examples
 
