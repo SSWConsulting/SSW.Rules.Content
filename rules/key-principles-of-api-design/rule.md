@@ -21,7 +21,8 @@ Building a high-quality API means adhering to best practices that enhance clarit
 
 <!--endintro-->
 
-[Video: Good APIs Vs Bad APIs: 7 Tips for API Design](https://www.youtube.com/watch?v=_gQaygjm_hg)
+`youtube: https://youtu.be/_gQaygjm_hg`
+**Video: Good APIs Vs Bad APIs: 7 Tips for API Design (6 min)**
 
 ## Tip \#1 - Use clear naming  
 
