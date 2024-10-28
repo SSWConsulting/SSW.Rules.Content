@@ -29,11 +29,11 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 <!--endintro-->
 
-Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject. 
-We send and recieve so many emails each day, therefore its important to use the email Subject to grab your recipient's attention. 
+Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject.
+We send and recieve so many emails each day, therefore its important to use the email Subject to grab your recipient's attention.
 Choosing the right subject can give an email a sense of urgency or importance and allows the user to quickly glance through the inbox to assist with prioritization.
 
-This is especially important when trying to get your clients and suppliers to take notice of your email. 
+This is especially important when trying to get your clients and suppliers to take notice of your email.
 
 ::: greybox
 Subject: **🕑 Reminder about event**
@@ -51,11 +51,11 @@ Figure: Good Example - Definitely going to read this email
 
 The best way of doing this is to ensure that your subject includes either an:
 
-- **Action point**   
-  E.g. **"6.30 TONIGHT! See you at The Oaks Hotel..."** 
+* **Action point**
+  E.g. **"6.30 TONIGHT! See you at The Oaks Hotel..."**
 
-- **Result** of a task you were asked to do   
-  E.g. **"Charles Merton - 5 min of feedback"**. 
+* **Result** of a task you were asked to do
+  E.g. **"Charles Merton - 5 min of feedback"**.
   
 You'll note from this that including the date and time in the subject gives immediacy to the email.
 
@@ -116,7 +116,7 @@ Subject: **{{ EMOJI }} {{ PROJECT TOUCHED }} - {{ BUSINESS AREA TOUCHED }} - {{ 
 Example:
 
 :::greybox
-Subject: **📧 Northwind – IOP – Customer.aspx - Add email address validation** 
+Subject: **📧 Northwind – IOP – Customer.aspx - Add email address validation**
 :::
 
 The advantage of this is that when you sort by the subject in Outlook, you get all of the emails grouped together, and it is easy to recognize the client/product, because the subject contains the relevant information.
