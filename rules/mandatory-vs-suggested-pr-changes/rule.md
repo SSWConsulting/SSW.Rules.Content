@@ -28,7 +28,7 @@ When reviewing pull requests, comments can often be divided into two categories:
 
 By prefixing the comment with one of the categories above, the reviewer can make it clear to the author if they must make the change or not.
 
-When adding 'PBI' comments, a "good Samaritan" approach is to create the PBI and link to it (add a TODO). Alternatively if you just leave the comment and want the requester to do it, they should do the same (add a TODO with a link to the PBI) before you approve it. See [todo-tasks](https://www.ssw.com.au/rules/todo-tasks/) for more details.
+When adding 'PBI' comments, a "good Samaritan" approach is to create the PBI and link to it (add a [TODO task](https://www.ssw.com.au/rules/todo-tasks/)). Alternatively if you just leave the comment and want the requester to do it, they should do the same (add a TODO with a link to the PBI) before you approve it.
 
 ## Pull Request Comment Examples
 
