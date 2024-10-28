@@ -12,7 +12,7 @@ created: 2024-10-28T17:00:00.000Z
 guid: 6F5AE6FC-F29A-4938-B012-FDE7F669998C
 ---
 
-When reviewing another developers pull request, review comments can fall into a mix of categories. Some comments might be required, while others might be optional. This is where the mandatory vs suggested PR changes rule comes in.
+When reviewing another developer's pull request, review comments can fall into a mix of categories. Some changes might be required, while others might be optional. Do you know the best way to tell the requester which is which?
 
 <!--endintro-->
 
