@@ -24,15 +24,16 @@ A [Directory.Build.props](https://learn.microsoft.com/en-us/visualstudio/msbuild
 
 This can be used for:
 
-- .NET framework version
-- Nullability
-- Implicit references
-- Configuring warnings as errors
-- Static code analysis
+* .NET framework version
+* Nullability
+* Implicit references
+* Configuring warnings as errors
+* Static code analysis
 
 ## ❌ Bad Example
 
 Project1.csproj:
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
@@ -53,6 +54,7 @@ Project1.csproj:
 ```
 
 Project2.csproj:
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
@@ -75,18 +77,21 @@ Project2.csproj:
 ## ✅ Good Example
 
 Project1.csproj:
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
 </Project>
 ```
 
 Project2.csproj:
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk.Web">
 </Project>
 ```
 
 Directory.Build.props:
+
 ```xml
 <Project>
     <PropertyGroup>
