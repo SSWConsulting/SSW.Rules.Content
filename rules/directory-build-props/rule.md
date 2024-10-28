@@ -76,6 +76,7 @@ This can be used for:
 
 </Project>
 ```
+
 :::
 ::: bad
 Bad example - Redundant configuration
@@ -114,6 +115,7 @@ Bad example - Redundant configuration
     </PropertyGroup>
 </Project>
 ```
+
 :::
 ::: good
 Good example - Centralized configuration
