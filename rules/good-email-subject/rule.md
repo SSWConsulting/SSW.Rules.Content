@@ -39,14 +39,14 @@ This is especially important when trying to get your clients and suppliers to ta
 Subject: **🕑 Reminder about event**
 :::
 ::: bad  
-Figure: Bad Example - Easily missed, can't get the main information without reading the email
+Figure: Bad example - Easily missed, can't get the main information without reading the email
 :::
 
 ::: greybox
 Subject: **🕑 6:30PM Tonight! See you at the User Group**
 :::
 ::: good  
-Figure: Good Example - Definitely going to read this email
+Figure: Good example - Definitely going to read this email
 :::
 
 The best way of doing this is to ensure that your subject includes either an:
@@ -63,41 +63,41 @@ You'll note from this that including the date and time in the subject gives imme
 **Warning:** Never leave the subject blank! It's like writing a book and failing to give it a name!
 :::
 
-### Good Subject Examples
+## Good subject examples
 
 Always use a descriptive email subject to make it easier to find later. Use [emojis](/use-emojis) and [prefixes](/prefixes) to give context straight away.
 
-#### Consulting
+### Consulting
 
 ::: greybox
 Subject: **🕑 Northwind - Future - Meeting to get your software solution rolling, next Monday 2PM**
 :::
 
-#### Dinner
+### Dinner
 
 ::: greybox
 Subject: **🍴 Dinner Tonight, 6.30PM at The Oaks**
 :::
 
-#### Bugs
+### Bugs
 
 ::: greybox
 Subject: **🐛 BUG - Northwind form - Button not working**
 :::
 
-#### Call someone
+### Call someone
 
 ::: greybox
 Subject: **📱 SSW User Group - This month needs a speaker - Call Tom Howe pronto!**
 :::
 
-#### Feedback on a product
+### Feedback on a product
 
 ::: greybox
 Subject: **🎨 Northwind app - User Interface feedback**
 :::
 
-#### [Test please](/request-a-test-please)
+### [Test please](/request-a-test-please)
 
 ::: greybox
 Subject: **🧪 Test Please - Product Name v1.11**
