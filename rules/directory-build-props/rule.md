@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you use Directory.Build.Props to simplify multi-project build configurations?
+seoDescription: Simplify and streamline your .NET projects by using the Directory.Build.props file. Learn how this MSBuild feature centralizes configuration for multiple projects, reduces redundancy, and improves maintainability for enterprise-level .NET solutions. Discover how to manage common settings like .NET framework version, nullability, implicit references, and static code analysis efficiently across your solution.
 type: rule
 title: Do you use Directory.Build.Props to simplify multi-project build configurations?
 uri: directory-build-props
