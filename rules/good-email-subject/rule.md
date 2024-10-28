@@ -7,6 +7,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Levi Jackson
+    url: https://ssw.com.au/people/levi-jackson    
 related:
   - do-you-complete-work-in-order-of-importance-aka-priorities
   - appointments-do-you-show-all-the-necessary-information-in-the-subject
@@ -21,9 +23,24 @@ guid: 5f1e85d7-f385-4d3b-8338-d49fe11eab91
 
 ---
 
-Just as we should not 'judge a book by its cover' - we will not judge an email by its subject. But, we do! Because users get so many emails, getting your clients and suppliers to take notice of yours in their inbox can be quite a struggle. 
+![Email subjects](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
+
+If there's anything to be learned from spammers, they know how to get your attention. Spammers use very tabloid based, or headline-grabbing subjects, to try and coerce you to open that email. But don't make your email subjects tabloid-tacky, instead follow a good broadsheet paper's style of attention-grabbing lines.
 
 <!--endintro-->
+
+Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject. 
+We send and recieve so many emails each day, therefore its important to use the email Subject to grab your recipient's attention. 
+Choosing the right subject can give an email a sense of urgency or importance and allows the user to quickly glance through the inbox to assist with prioritization.
+
+This is especially important when trying to get your clients and suppliers to take notice of your email. 
+
+::: greybox
+Subject: **🕑 Reminder about event**
+:::
+::: bad  
+Figure: Bad Example - Easily missed, can't get the main information without reading the email
+:::
 
 ::: greybox
 Subject: **🕑 6:30PM Tonight! See you at the User Group**
@@ -32,19 +49,15 @@ Subject: **🕑 6:30PM Tonight! See you at the User Group**
 Figure: Good Example - Definitely going to read this email
 :::
 
-Use the email Subject to grab your recipient's attention. Choosing the right subject can give an email a sense of urgency or importance that choosing the wrong subject won't!
-
 The best way of doing this is to ensure that your subject includes either an:
 
 - **Action point**   
   E.g. **"6.30 TONIGHT! See you at The Oaks Hotel..."** 
 
 - **Result** of a task you were asked to do   
-  E.g. **"Here's the 5 min of feedback you requested from our meeting with Charles Merton"**. 
+  E.g. **"Charles Merton - 5 min of feedback"**. 
   
 You'll note from this that including the date and time in the subject gives immediacy to the email.
-
-If there's anything to be learned from spammers, they know how to get your attention. Spammers use very tabloid based, or headline-grabbing subjects, to try and coerce you to open that email. But don't make your email subjects tabloid-tacky, instead follow a good broadsheet paper's style of attention-grabbing lines.
 
 ::: info
 **Warning:** Never leave the subject blank! It's like writing a book and failing to give it a name!
