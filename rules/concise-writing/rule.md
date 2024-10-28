@@ -26,7 +26,7 @@ In today's fast-paced world, lengthy emails, web content, and instant messages c
 
 ## Embrace the principle of "less is more"
 
-By being concise and focusing on relevant information only, we can capture the reader's attention and prevent important messages from being overlooked or postponed due to time constraints. 
+By being concise and focusing on relevant information only, we can capture the reader's attention and prevent important messages from being overlooked or postponed due to time constraints.
 
 ::: greybox
 "The team conducted a comprehensive evaluation of the project’s scope and objectives to determine the best course of action moving forward."
