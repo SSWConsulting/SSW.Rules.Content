@@ -28,7 +28,7 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 <!--endintro-->
 
-![Email subjects](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
+![**Figure: Make your email stand out!**](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
 
 Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject.
 We send and receive so many emails each day, therefore it's important to use the email subject to grab your recipient's attention.
