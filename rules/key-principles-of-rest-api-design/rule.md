@@ -47,7 +47,7 @@ Versioning helps users manage changes without breaking existing implementations,
 
 ## Tip \#4 - Add pagination for responses  
 
-For endpoints that return lists, apply pagination to prevent overwhelming the client with too much data.
+For endpoints that return lists, apply pagination to prevent overwhelming the client with too much data. When paging parameters are omitted from the request, the API should apply some sensible defaults (e.g. page 1, 50 records).
 
 Use query parameters like ?page= and ?limit= to specify page numbers and size, offering a more manageable data experience while improving performance.  
 
