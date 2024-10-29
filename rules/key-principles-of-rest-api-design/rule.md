@@ -84,7 +84,7 @@ For example, aovoid using messy query patameters such as `api/products?user_id=1
 
 Implement rate limiting to control the number of requests per user within a time frame, protecting the API from abuse and ensuring fair resource usage.
 
-Provide appropriate status codes and messages (e.g., `HTTP 429`) when limits are reached to inform users clearly. 
+Provide appropriate status codes and messages (e.g., `HTTP 429`) when limits are reached to inform users clearly.
 
 ## Extra tip - Caching
 
