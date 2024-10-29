@@ -84,7 +84,19 @@ For example, aovoid using messy query patameters such as `api/products?user_id=1
 
 Implement rate limiting to control the number of requests per user within a time frame, protecting the API from abuse and ensuring fair resource usage.
 
-Provide appropriate status codes and messages (e.g., `HTTP 429`) when limits are reached to inform users clearly.  
+Provide appropriate status codes and messages (e.g., `HTTP 429`) when limits are reached to inform users clearly. 
+
+## Extra tip - Caching
+
+Implement caching for frequently requested data to reduce server load and response times, enhancing the user experience. Cache static data responses at the client or server side where appropriate, especially for resources that don't change frequently.  
+
+Use HTTP cache headers like `Cache-Control` and `ETag` to guide clients on when to use cached data or refresh it, balancing speed and data freshness.  
+
+## Extra tip - Compression
+
+Enable compression for API responses, especially for large data payloads, to reduce bandwidth and improve loading times.  
+
+Use GZIP or Brotli compression formats, which are widely supported and effective in reducing data sizes.  
 
 ---
 
