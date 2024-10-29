@@ -49,9 +49,9 @@ Introduce versioning from the start (e.g., `/v1/resource`) to maintain backward 
 Versioning helps users manage changes without breaking existing implementations, allowing them to adopt new features gradually.  
 
 There are 3 common ways to implement versioning:  
-- Route  
-- Query String  
-- Header  
+* Route  
+* Query String  
+* Header  
 
 For more details, you can check this rule: [https://www.ssw.com.au/rules/do-you-provide-versioning/](Do you provide versioning?).  
 
