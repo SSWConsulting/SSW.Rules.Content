@@ -8,6 +8,7 @@ index:
 - microservice-key-components
 - use-mass-transit
 - software-architecture-decision-tree
+- review-microservice-boundaries
 - prioritize-devex-in-microservices
 
 ---
