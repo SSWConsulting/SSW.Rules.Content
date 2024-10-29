@@ -15,7 +15,7 @@ redirects: []
 
 ---
 
-APIs are everywhere in our daily lives—from social media updates and online shopping to weather forecasts and GPS navigation. These interfaces allow different applications to connect seamlessly, providing the backbone for countless modern conveniences.
+REST APIs are everywhere in our daily lives—from social media updates and online shopping to weather forecasts and GPS navigation. These interfaces allow different applications to connect seamlessly, providing the backbone for countless modern conveniences.
 
 Building a high-quality API means adhering to best practices that enhance clarity, reliability, and security, creating a more consistent experience for developers and users.
 
