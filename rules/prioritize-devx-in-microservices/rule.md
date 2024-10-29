@@ -26,6 +26,7 @@ Microservice architecture can be complex, and ensuring a positive developer expe
   * Configuration settings
   * Deployment instructions
   * Common troubleshooting steps
+  * Which services are required for which flows (large Microservice environment)
 
 ### Keep it accessible
 
