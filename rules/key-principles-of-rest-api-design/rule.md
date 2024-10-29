@@ -61,7 +61,7 @@ For endpoints that return lists, apply pagination to prevent overwhelming the cl
 
 When paging parameters are omitted from the request, the API should apply some sensible defaults (e.g. page 1, 50 records).
 
-Use query parameters like ?page= and ?limit= to specify page numbers and size, offering a more manageable data experience while improving performance.  
+Use query parameters like `?page=` and `?limit=` to specify page numbers and size, offering a more manageable data experience while improving performance.  
 
 ## Tip \#5 - Use clear query strings for sorting  
 
