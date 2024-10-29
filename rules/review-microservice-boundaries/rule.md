@@ -1,4 +1,5 @@
 ---
+seoDescription: Microservice boundaries are hard. Keep your product healthy, scalable, and successful by reviewing your boundaries regularly.
 type: rule
 title: Do you regularly review your Microservice boundaries?
 uri: review-microservice-boundaries
