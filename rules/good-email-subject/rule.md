@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you realize the importance of a good email subject?
+seoDescription: Learn the art of crafting impactful email subject lines to boost open rates, prioritize messages, and capture attention. This guide provides practical examples for writing clear, concise, and searchable subjects
 uri: good-email-subject
 authors:
   - title: Adam Cogan
@@ -23,16 +24,16 @@ guid: 5f1e85d7-f385-4d3b-8338-d49fe11eab91
 
 ---
 
-![Email subjects](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
-
-If there's anything to be learned from spammers, they know how to get your attention. Spammers use very tabloid based, or headline-grabbing subjects, to try and coerce you to open that email. But don't make your email subjects tabloid-tacky, instead follow a good broadsheet paper's style of attention-grabbing lines.
+If there's anything to be learned from spammers, they know how to get your attention. Spammers use very tabloid-based, or headline-grabbing subjects, to try and coerce you into opening that email. But don't make your email subjects tabloid-tacky, instead follow a good broadsheet paper's style of attention-grabbing lines.
 
 <!--endintro-->
 
-Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject.
-We send and recieve so many emails each day, therefore its important to use the email Subject to grab your recipient's attention.
-Choosing the right subject can give an email a sense of urgency or importance and allows the user to quickly glance through the inbox to assist with prioritization.
+![Email subjects](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
 
+Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject.
+We send and receive so many emails each day, therefore it's important to use the email subject to grab your recipient's attention.
+
+Choosing the right subject can give an email a sense of urgency or importance and allows the user to quickly glance through the inbox to assist with prioritization.
 This is especially important when trying to get your clients and suppliers to take notice of your email.
 
 ::: greybox
@@ -49,7 +50,7 @@ Subject: **🕑 6:30PM Tonight! See you at the User Group**
 Figure: Good example - Definitely going to read this email
 :::
 
-The best way of doing this is to ensure that your subject includes either an:
+The best way of doing this is to ensure that your subject includes either a:
 
 * **Action point**
   E.g. **"6.30 TONIGHT! See you at The Oaks Hotel..."**
