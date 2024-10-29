@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason:
-title: Do you know the key principles of API Design?
+title: Do you know the key principles of REST API Design?
 guid: f847325c-97a5-48e7-a2ce-8e56b33512d1
 uri: key-principles-of-api-design
 created: 2024-10-25T14:38:33.0000000Z
