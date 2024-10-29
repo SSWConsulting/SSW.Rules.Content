@@ -27,7 +27,7 @@ Building a high-quality API means adhering to best practices that enhance clarit
 
 ## Tip \#1 - Use clear naming  
 
-Choose descriptive, intuitive names for endpoints and parameters to improve readability. Adhere to REST conventions, using nouns and verbs logically (e.g., `/users` for accessing user data, `/users/{id}` for specific user information).
+Choose descriptive, intuitive names for endpoints and parameters to improve readability. Adhere to REST conventions, using nouns and verbs logically (e.g., `/api/users` for accessing user data, `/api/users/{id}` for specific user information). Endpoints should also use plurals. i.e `/api/users` instead of `/api/user`. This provides a much more consistent API structure when querying both collections and single entities.
 
 Clear naming simplifies usage and reduces misunderstandings.  
 
