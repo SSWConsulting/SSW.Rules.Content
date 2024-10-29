@@ -11,7 +11,6 @@ index:
 - use-fluent-validation
 - do-you-add-timestamps
 - do-you-apply-the-validatemodel-attribute-to-all-controllers
-- key-principles-of-rest-api-design
 
 ---
 
