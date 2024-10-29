@@ -9,6 +9,8 @@ created: 2024-10-25T14:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay/
 related:
 - choose-the-right-api-tech
 - do-you-know-the-common-design-principles-part-1
