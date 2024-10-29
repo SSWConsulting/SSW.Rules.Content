@@ -72,9 +72,9 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 
 ## Tip \#6 - Security should not be an afterthought
 
-Security is paramount in API design. Pass sensitive information, like access tokens, securely via headers (e.g., `Authorization: Bearer {token}`).  
+Security is paramount when building REST APIs. Most REST APIs are hosted online, and you don't want to rely on "security via obscurity". Ensure you spend time hardening your surface area.  
 
-Common security headers should also be considered:  
+Common sense approaches include protecting your endpoints via short-lived access tokens (even for seemingly benign functionality), as well as your typical security headers such as:  
 
 * Content-Security-Policy (CSP)  
 * Strict-Transport-Security (HSTS)  
