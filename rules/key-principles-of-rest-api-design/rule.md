@@ -88,7 +88,7 @@ For APIs that reference multiple resources (e.g., `userId` in a post endpoint), 
 
 Provide clear references or IDs rather than nested data whenever possible to keep API responses readable and easy to follow.  
 
-For example, aovoid using messy query patameters such as `api/products?user_id=123&product_id=321`. Instead, use clearly defined endpoints like `api/users/123/products/321`.
+For example, avoid using messy query patameters such as `api/products?user_id=123&product_id=321`. Instead, use clearly defined endpoints like `api/users/123/products/321`.
 
 ## Extra tip - Rate limiting  
 
