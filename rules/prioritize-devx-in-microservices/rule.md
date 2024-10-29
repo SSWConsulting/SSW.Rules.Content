@@ -22,24 +22,29 @@ So how can you prevent these problems?
 Microservice architecture can be complex, and ensuring a positive developer experience (DevEx) is crucial for maintaining productivity and morale within your development team. Here are some key areas to focus on to ensure your DevEx is top-notch:
 
 ## Ensure your documentation is bullet-proof
+
 * Comprehensive and up-to-date documentation is essential. Each microservice should have clear and concise documentation that covers:
-    * API endpoints and their usage
-    * Configuration settings
-    * Deployment instructions
-    * Common troubleshooting steps
+  * API endpoints and their usage
+  * Configuration settings
+  * Deployment instructions
+  * Common troubleshooting steps
+  * Which services are required for which flows (large Microservice environment)
 
 ### Keep it accessible
+
 * Documentation should be easily accessible to all team members. The recommended way is to have a great `readme` file at the top level of your repo. See our [awesome documentation rules](awesome-documentation) for great tips on what to include!
 * If your Microservices span multiple repositories, each repo's `readme` should have all the information needed to **start that particular application in isolation**. Instructions on starting multiple applications in unison should be kept in a higher level document - typically a Wiki or other platform that can be linked to from each `readme`.
 
 ## Create a seamless "F5 experience" per microservice
+
 * Developers should be able to run and debug each microservice locally with minimal setup. This includes:
-    * Providing clear instructions for setting up the development environment
-    * Using containerization (e.g., Docker) to ensure consistency across different environments
-    * Automating common tasks such as database migrations and seeding
-    * Minimal reliance on shared or volatile data & services
+  * Providing clear instructions for setting up the development environment
+  * Using containerization (e.g., Docker) to ensure consistency across different environments
+  * Automating common tasks such as database migrations and seeding
+  * Minimal reliance on shared or volatile data & services
 
 ### Simplify local development
+
 * Ensure that dependencies are well-managed and that developers can easily spin up any required services or databases locally.
 
 A great way to tackle this problem is via an **Up script** ( ie `Up.ps1` or `Up.sh`), where a developer executes the script and has all data, infra, and config automatically provisioned in their development environment.
@@ -47,10 +52,11 @@ A great way to tackle this problem is via an **Up script** ( ie `Up.ps1` or `Up.
 If you're building a .NET application, an even better way is using [.NET Aspire](https://learn.microsoft.com/en-us/dotnet/aspire/get-started/aspire-overview).
 
 ## Foster a culture of collaboration
+
 * Encourage open communication and collaboration among team members. This can be achieved through:
-    * Regular code reviews
-    * Pair programming sessions
-    * Knowledge-sharing meetings or brown bag sessions
+  * Regular code reviews
+  * Pair programming sessions
+  * Knowledge-sharing meetings or brown bag sessions
 
 ### Use modern tools and practices
 * Adopt modern development tools and practices that enhance DevEx, such as:
