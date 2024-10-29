@@ -29,6 +29,7 @@ Building a high-quality API means adhering to best practices that enhance clarit
 **Video: Good APIs Vs Bad APIs: 7 Tips for API Design (6 min)**
 
 ## 1. Use clear naming
+
 Choose descriptive, intuitive names for endpoints and parameters following REST conventions.
 
 * Use nouns and verbs logically (e.g., `/api/users` for accessing user data, `/api/users/{id}` for specific user information).
@@ -37,6 +38,7 @@ Choose descriptive, intuitive names for endpoints and parameters following REST 
 This provides a much more consistent API structure when querying both collections and single entities.
 
 ## 2. Ensure reliability through idempotency  
+
 Design POST, PUT, and DELETE operations as idempotent, where repeating an action yields the same result as performing it once.
 This avoids unintended actions from repeated requests.
 
@@ -49,6 +51,7 @@ Figure: Good example - This prevents accidental duplicate data processing
 :::
 
 ## 3. Implement versioning  
+
 Introduce versioning from the start (e.g., `/v1/resource`) to maintain backward compatibility when updating the API.
 Versioning helps users manage changes without breaking existing implementations, allowing them to adopt new features gradually.  
 There are 3 common ways to implement versioning:  
@@ -60,16 +63,19 @@ There are 3 common ways to implement versioning:
 For more details, see this rule: [Do you provide versioning?](/do-you-provide-versioning).  
 
 ## 4. Add pagination for responses  
+
 For endpoints that return lists, it's best to apply pagination to prevent overwhelming the client with too much data.
 When paging parameters are omitted from the request, the API should apply some sensible defaults (e.g. page 1, 50 records).
 Use query parameters like `?page=` and `?limit=` to specify page numbers and size, offering a more manageable data experience while improving performance.  
 
 ## 5. Use clear query strings for sorting  
+
 When supporting sorting, apply clear query strings (e.g., `?sortBy=name&order=asc`). Query params should generally be optional making the API easier to consume.
 
 Consistent sorting parameters allow developers to retrieve and organize data efficiently and minimize confusion in handling API responses.  
 
 ## 6. Security should not be an afterthought
+
 Security is paramount when building REST APIs. Most REST APIs are hosted online, and you don't want to rely on "security via obscurity". Ensure you spend time hardening your surface area.  
 
 Common sense approaches include protecting your endpoints via short-lived access tokens (even for seemingly benign functionality), as well as your typical security headers such as:  
@@ -82,6 +88,7 @@ Common sense approaches include protecting your endpoints via short-lived access
 Enforce HTTPS for encrypted communication and consider OAuth for user authentication and authorization, protecting against unauthorized access.  
 
 ## 7. Keep cross-resource references simple
+
 For APIs that reference multiple resources (e.g., `userId` in a post endpoint), keep relationships simple to prevent over-complicating endpoints.
 Provide clear references or IDs rather than nested data whenever possible to keep API responses readable and easy to follow.  
 
@@ -93,7 +100,6 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 Figure: Bad example - messy query parameter
 :::
 
-
 ::: greybox
 `api/users/123/products/321`
 :::
@@ -103,6 +109,7 @@ Figure: Good example - clearly defined endpoint
 :::
 
 ## Tip - Rate limiting  
+
 Rate limiting controls the number of requests per user within a time frame, protecting the API from abuse.
 When adding rate limiting you should provide appropriate status codes and messages (e.g., `HTTP 429`) when limits are reached.
 
@@ -113,6 +120,7 @@ When adding rate limiting you should provide appropriate status codes and messag
 * Use HTTP cache headers like `Cache-Control` and `ETag` to guide clients on when to use cached data or refresh it, balancing speed and data freshness.  
 
 ## Tip - Compression
+
 Enabling compression for API responses, especially for large data payloads, reduces bandwidth and improves loading times.  
 
 * Use GZIP or Brotli compression formats, which are widely supported and effective in reducing data sizes.  
