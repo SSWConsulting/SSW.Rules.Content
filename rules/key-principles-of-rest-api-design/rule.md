@@ -53,7 +53,7 @@ Use query parameters like ?page= and ?limit= to specify page numbers and size, o
 
 ## Tip \#5 - Use clear query strings for sorting  
 
-When supporting sorting, apply clear query strings (e.g., `?sortBy=name&order=asc`).
+When supporting sorting, apply clear query strings (e.g., `?sortBy=name&order=asc`). Query params should generally be optional making the API easier to consume.
 
 Consistent sorting parameters allow developers to retrieve and organize data efficiently and minimize confusion in handling API responses.  
 
