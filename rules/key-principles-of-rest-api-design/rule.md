@@ -14,6 +14,7 @@ authors:
 related:
 - choose-the-right-api-tech
 - do-you-know-the-common-design-principles-part-1
+- do-you-provide-versioning
 redirects: []
 
 ---
@@ -46,6 +47,13 @@ This prevents accidental duplicate data processing.
 Introduce versioning from the start (e.g., `/v1/resource`) to maintain backward compatibility when updating the API.
 
 Versioning helps users manage changes without breaking existing implementations, allowing them to adopt new features gradually.  
+
+There are 3 common ways to implement versioning:  
+- Route  
+- Query String  
+- Header  
+
+For more details, you can check this rule: [https://www.ssw.com.au/rules/do-you-provide-versioning/](Do you provide versioning?).  
 
 ## Tip \#4 - Add pagination for responses  
 
