@@ -5,6 +5,8 @@ uri: review-microservice-boundaries
 authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
 
 created: 2024-10-25T01:09:23.840Z
