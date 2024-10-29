@@ -59,9 +59,10 @@ If you're building a .NET application, an even better way is using [.NET Aspire]
   * Knowledge-sharing meetings or brown bag sessions
 
 ### Use modern tools and practices
+
 * Adopt modern development tools and practices that enhance DevEx, such as:
-    * Continuous Integration/Continuous Deployment (CI/CD) pipelines
-    * Automated testing frameworks
-    * Code quality tools (e.g., linters, static analysis)
+  * Continuous Integration/Continuous Deployment (CI/CD) pipelines
+  * Automated testing frameworks
+  * Code quality tools (e.g., linters, static analysis)
 
 By prioritizing DevEx, you can create a more efficient, enjoyable, and productive environment for your development team, ultimately leading to better outcomes for your microservice architecture.
