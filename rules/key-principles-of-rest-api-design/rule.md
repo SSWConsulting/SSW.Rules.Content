@@ -64,6 +64,7 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 Security is paramount in API design. Pass sensitive information, like access tokens, securely via headers (e.g., `Authorization: Bearer {token}`).  
 
 Common security headers should also be considered:  
+
 * Content-Security-Policy (CSP)  
 * Strict-Transport-Security (HSTS)  
 * X-Content-Type-Options  
