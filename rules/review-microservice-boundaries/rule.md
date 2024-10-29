@@ -37,6 +37,8 @@ Hotspots are often a **code smell** that could point to Microservices being tigh
 In order to measure your Microservice boundary health, you should see what path a "typical" use case takes through your Microservice.
 A great way of performing this exercise is using your [event storming](https://ssw.com.au/rules/event-storming) artefacts (if you haven't previously gone through an event storming exercise, it's highly recommended you do so).
 
+Another great DDD method is [context mapping](https://www.infoq.com/articles/ddd-contextmapping/), which helps make context boundaries more explicit.
+
 Pick the most common or business-critical use case for your business (if there are several, repeat this exercise per use case). Map out your user's journey through your current Microservice ecosystem.
 
 ## Reflect and adjust
