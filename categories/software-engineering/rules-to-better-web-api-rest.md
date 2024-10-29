@@ -14,6 +14,7 @@ index:
 - do-you-return-detailed-error-messages
 - do-you-return-the-correct-response-code
 - use-fluent-validation
+- key-principles-of-rest-api-design
 
 ---
 
