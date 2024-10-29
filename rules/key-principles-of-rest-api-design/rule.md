@@ -47,7 +47,7 @@ Versioning helps users manage changes without breaking existing implementations,
 
 ## Tip \#4 - Add pagination for responses  
 
-For endpoints that return lists, apply pagination to prevent overwhelming the client with too much data. 
+For endpoints that return lists, apply pagination to prevent overwhelming the client with too much data.
 
 When paging parameters are omitted from the request, the API should apply some sensible defaults (e.g. page 1, 50 records).
 
@@ -64,10 +64,10 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 Security is paramount in API design. Pass sensitive information, like access tokens, securely via headers (e.g., `Authorization: Bearer {token}`).  
 
 Common security headers should also be considered:  
-- Content-Security-Policy (CSP)  
-- Strict-Transport-Security (HSTS)  
-- X-Content-Type-Options  
-- X-Frame-Options  
+* Content-Security-Policy (CSP)  
+* Strict-Transport-Security (HSTS)  
+* X-Content-Type-Options  
+* X-Frame-Options  
 
 Enforce HTTPS for encrypted communication and consider OAuth for user authentication and authorization, protecting against unauthorized access.  
 
