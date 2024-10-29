@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn the essential principles of REST API design to create APIs that are clear, reliable, and secure. Discover tips on naming conventions, idempotency, versioning, pagination, sorting, security, and more to build developer-friendly interfaces that foster trust and ease of use.
 type: rule
 archivedreason:
 title: Do you know the key principles of REST API Design?
