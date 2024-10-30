@@ -14,6 +14,7 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
+- css-changes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
