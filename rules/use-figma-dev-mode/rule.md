@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you use Figma Dev Mode to improve developer handovers?
 seoDescription: "Learn how Figma Dev Mode streamlines developer handovers by
   providing a seamless bridge between design and development. type: rule"
@@ -8,6 +7,7 @@ uri: use-figma-dev-mode
 authors:
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
+created: 2024-10-30T14:20:35.753Z
 guid: 83be089e-9cad-4d55-8f77-26b1ce2d2fbc
 ---
 
