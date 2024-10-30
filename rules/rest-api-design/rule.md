@@ -15,6 +15,7 @@ related:
 - choose-the-right-api-tech
 - do-you-know-the-common-design-principles-part-1
 - do-you-provide-versioning
+- key-principles-of-rest-api-design
 redirects: []
 
 ---
