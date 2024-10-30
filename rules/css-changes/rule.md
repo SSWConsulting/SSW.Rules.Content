@@ -1,9 +1,7 @@
 ---
 type: rule
-tips: ""
-title: Do you know when to seek help with CSS changes?
-seoDescription: This rule explains when to involve a developer for CSS changes
-  and when to make small changes yourself
+title: Do you consider factors before making a CSS change?
+seoDescription: This rule explains when to involve a developer for CSS changes and when to make small changes yourself
 uri: css-changes
 authors:
   - title: Betty Bondoc
