@@ -80,7 +80,8 @@ When supporting sorting, apply clear query strings. Query params should generall
 Consistent sorting parameters allow developers to retrieve and organize data efficiently and minimize confusion in handling API responses.  
 
 ::: greybox
-`?x=name&y=asc`:::
+`?x=name&y=asc`
+:::
 
 ::: bad
 Figure: Bad example - it's impossible to understand what those query string mean!
