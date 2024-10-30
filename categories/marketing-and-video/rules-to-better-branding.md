@@ -1,3 +1,4 @@
+---
 type: category
 title: Rules to Better Branding
 guid: 101302ea-9cc1-4fec-986b-a2ca54a535cb
