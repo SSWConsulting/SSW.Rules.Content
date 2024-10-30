@@ -1,12 +1,9 @@
 ---
 type: rule
-tips: ""
 title: Do you know your brand is more than your logo?
-seoDescription: Understand the full scope of branding—beyond just logos—through
-  color, typography, voice, and consistent messaging.
+seoDescription: Understand the full scope of branding—beyond just logos—through color, typography, voice, and consistent messaging.
 uri: brand-more-than-logo
 authors:
-  - title: ""
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
 created: 2024-10-30T16:40:00.000Z
