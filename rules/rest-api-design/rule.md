@@ -30,6 +30,7 @@ Building a high-quality API means adhering to best practices that enhance clarit
 **Video: Good APIs Vs Bad APIs: 7 Tips for API Design (6 min)**
 
 ## Recommendations
+
 The following configuration is recommended for most REST APIs.
 
 ### Security
@@ -93,7 +94,6 @@ Figure: Bad example - it's impossible to understand what those query string mean
 Figure: Good example - query strings are meaningful
 :::
 
-
 ### Simple cross-resource references
 
 For APIs that reference multiple resources (e.g., `userId` in a post endpoint), keep relationships simple to prevent over-complicating endpoints.
@@ -107,7 +107,6 @@ Provide clear references or IDs rather than nested data whenever possible to kee
 Figure: Bad example - messy query parameter
 :::
 
-
 ::: greybox
 `api/orders/123/items/456/products/789`
 :::
@@ -115,7 +114,6 @@ Figure: Bad example - messy query parameter
 ::: bad
 Figure: Bad example - overly complicated endpoint
 :::
-
 
 ::: greybox
 `api/products/789`
@@ -125,8 +123,8 @@ Figure: Bad example - overly complicated endpoint
 Figure: Good example - clearly defined endpoint
 :::
 
-
 ## Optional
+
 These other design choices may only be required in certain circumstances. You should consider the specific use case of your API e.g. public facing or under heavy load.
 
 ### Rate limiting  
