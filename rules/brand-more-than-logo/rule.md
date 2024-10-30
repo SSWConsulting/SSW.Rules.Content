@@ -68,5 +68,5 @@ Your logo may be the face of your brand, but it is not the full story. By aligni
 - **Evolve over time:** Review your brand strategy to keep it relevant
 
 ::: info
-**Pro tip:** Regularly review your brand guidelines to ensure they align with your company’s growth and market changes.
+**Pro tip:** Regularly review your brand guidelines to ensure they evolve with your company’s growth and shifting market demands. For inspiration, explore the [IBM Design Language](https://www.ssw.com.au/company/typography), a comprehensive example of how to maintain consistency across visual identity, tone, and user interactions while adapting to new opportunities.
 :::
