@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/fa856574-0a21-454c-a159-6bb28a324f9c)---
 type: category
 title: Rules to Better Branding
 guid: 101302ea-9cc1-4fec-986b-a2ca54a535cb
