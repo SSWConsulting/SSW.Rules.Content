@@ -28,13 +28,17 @@ For small or simple adjustments, it’s often faster and more efficient to handl
 ::: good  
 ```css
 .button {
-  font-size: 16px;
+  font-size: 1rem;
 }
 ```
 Figure: Good example – A simple CSS change handled without involving a developer
 :::
 
-## When to involve a developer
+::: info
+Making the changes yourself still require someone else to check your work (e.g. [over the shoulder](https://www.ssw.com.au/rules/over-the-shoulder/))
+:::
+
+## When to involve a front-end developer
 
 More extensive or unfamiliar CSS changes require careful handling to avoid unintended side effects. In these cases, seeking help from a developer is advisable:
 
@@ -90,15 +94,15 @@ Figure: Bad example – A complex layout change attempted without consulting a d
 ## Key Factors
 When determining whether to proceed independently or engage a developer, consider:
 
-- Scope – How many components/pages will be affected?
-- Complexity – Are structural elements or media queries involved?
-- Impact – Will the change affect other functionalities?
-- Familiarity – Do you understand the CSS framework or codebase?
-- Time – How much time will it take?
-- Testing – Does the change need cross-browser/device testing?
-- Dependencies – Will this change break other components?
-- Stakeholders – Do significant changes require input from designers or project managers?
+- **Scope** – How many components/pages will be affected?
+- **Complexity** – Are structural elements or media queries involved?
+- **Impact** – Will the change affect other functionalities?
+- **Familiarity** – Do you understand the CSS framework or codebase?
+- **Time** – How much time will it take?
+- **Testing** – Does the change need cross-browser/device testing?
+- **Dependencies** – Will this change break other components?
+- **Stakeholders** – Do significant changes require input from designers or project managers?
 
-By evaluating these factors, you can balance efficiency with caution, ensuring smooth updates without compromising quality.
+By evaluating these factors, you can balance efficiency with caution, ensuring smooth updates without compromising quality. When in doubt, consulting a front-end developer who is familiar with the project is always the best approach.
 
 ![Figure: Working with CSS](working-with-css.gif)
