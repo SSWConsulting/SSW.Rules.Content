@@ -41,7 +41,5 @@ One of the biggest pain points during design-to-development handover is the loss
 ![Figure: Good Example - The design includes useful developer details such as color codes, font styles, measurements, and spacing.](figma-dev-mode.png)  
 :::
 
-### Watch this video on Figma Dev Mode
-
 `youtube: https://www.youtube.com/watch?v=__ABPkb0aF8`
 **Video: Intro to Dev Mode (4 min 25 sec)**
