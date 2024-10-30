@@ -101,4 +101,4 @@ When determining whether to proceed independently or engage a developer, conside
 
 By evaluating these factors, you can balance efficiency with caution, ensuring smooth updates without compromising quality.
 
-![Figure: Working with CSS](working-with-css.png)
+![Figure: Working with CSS](working-with-css.gif)
