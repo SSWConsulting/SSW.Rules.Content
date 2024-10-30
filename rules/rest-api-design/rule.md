@@ -81,7 +81,7 @@ Consistent sorting parameters allow developers to retrieve and organize data eff
 
 ```js
 `?x=name&y=asc`
-``` 
+```
 
 ::: bad
 Figure: Bad example - It's impossible to understand what those query string mean!
@@ -125,7 +125,7 @@ Figure: Bad example - Overly complicated endpoint
 Figure: Good example - Clearly defined endpoint
 :::
 
-## Optional configurations 
+## Optional configurations
 
 These other design choices may only be required in certain circumstances. You should consider the specific use case of your API e.g. public facing or under heavy load.
 
