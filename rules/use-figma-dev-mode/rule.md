@@ -1,9 +1,8 @@
 ---
 type: rule
 title: Do you use Figma Dev Mode to improve developer handovers?
-seoDescription: "Learn how Figma Dev Mode streamlines developer handovers by
-  providing a seamless bridge between design and development. type: rule"
-uri: use-figma-dev-mode
+seoDescription: Learn how Figma Dev Mode streamlines developer handovers by providing a seamless bridge between design and development
+uri: figma-dev-mode
 authors:
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
@@ -15,15 +14,15 @@ One of the biggest pain points during design-to-development handover is the loss
 
 <!--endintro-->
 
-Figma Dev Mode solves this issue by offering developers all the necessary design details in a developer-friendly format. With access to measurements, code snippets, and assets, developers can easily translate designs into code without needing constant input from designers.
+[Figma Dev Mode](https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode) solves this issue by offering developers all the necessary design details in a developer-friendly format. With access to measurements, code snippets, and assets, developers can easily translate designs into code without needing constant input from designers.
 
 ## Benefits of Using Figma Dev Mode
 
-- **Reduced Friction:** All design assets are presented in a format developers can immediately use, reducing misunderstandings.
-- **Code Snippets Ready to Use:** Extract CSS, Swift, or Android code directly from the design elements.
-- **Access to Design Properties:** Measurements, spacing, and font details are available in one place, eliminating the need to switch between tools.
-- **Downloadable Assets:** Developers can directly download production-ready images and icons from Figma without requesting files from designers.
-- **Version Control Visibility:** See updates and changes in real-time, ensuring everyone is aligned with the latest design iteration.
+* **Reduced Friction:** All design assets are presented in a format developers can immediately use, reducing misunderstandings.
+* **Code Snippets Ready to Use:** Extract CSS, Swift, or Android code directly from the design elements.
+* **Access to Design Properties:** Measurements, spacing, and font details are available in one place, eliminating the need to switch between tools.
+* **Downloadable Assets:** Developers can directly download production-ready images and icons from Figma without requesting files from designers.
+* **Version Control Visibility:** See updates and changes in real-time, ensuring everyone is aligned with the latest design iteration.
 
 ## How to Use Dev Mode Effectively
 
@@ -42,6 +41,5 @@ Figma Dev Mode solves this issue by offering developers all the necessary design
 ![Figure: Good Example - The design includes useful developer details such as color codes, font styles, measurements, and spacing.](figma-dev-mode.png)  
 :::
 
-### Watch this video on Figma Dev Mode
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/__ABPkb0aF8?si=gV7URLi-X5NiPs4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+`youtube: https://www.youtube.com/watch?v=__ABPkb0aF8`
+**Video: Intro to Dev Mode (4 min 25 sec)**
