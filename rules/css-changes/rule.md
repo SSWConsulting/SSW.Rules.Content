@@ -42,11 +42,11 @@ Making the changes yourself still require someone else to check your work (e.g. 
 
 More extensive or unfamiliar CSS changes require careful handling to avoid unintended side effects. In these cases, seeking help from a developer is advisable:
 
-- Scope: The change spans multiple pages or templates
-- Complexity: It involves restructuring layouts or adding new functionality
-- Dependencies: Modifying elements tied to JavaScript or backend code
-- Testing requirements: Requires thorough cross-browser testing
-- High impact: Changes that affect core UI components or interactions
+- **Scope**: The change spans multiple pages or templates
+- **Complexity**: It involves restructuring layouts or adding new functionality
+- **Dependencies**: Modifying elements tied to JavaScript or backend code
+- **Testing requirements**: Requires thorough cross-browser testing
+- **High impact**: Changes that affect core UI components or interactions
 
 
 ::: bad  
