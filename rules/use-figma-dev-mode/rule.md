@@ -34,18 +34,12 @@ Figma Dev Mode solves this issue by offering developers all the necessary design
 
 ### Good Practices for Dev Mode Handovers
 
-::: greybox
-A designer hands over a file with Dev Mode enabled, providing all relevant CSS properties, including padding, margins, and hex values for colors. Assets are exported at the correct resolutions, and a comment explains how a hover state should behave.
-:::
-::: good
-Figure: Good Example - A well-prepared handover saves developers time by reducing back-and-forth clarifications.
+::: bad  
+![Figure: Bad Example - A basic mockup or prototype with no technical details, forcing developers to guess measurements and styles.](figma-preview.png)  
 :::
 
-::: greybox
-A design is shared without any specifications. Developers struggle to identify which fonts or spacing to use, resulting in constant requests for clarification.
-:::
-::: bad
-Figure: Bad Example - Missing details create delays in the development process.
+::: good  
+![Figure: Good Example - The design includes useful developer details such as color codes, font styles, measurements, and spacing.](figma-dev-mode.png)  
 :::
 
 ### Watch this video on Figma Dev Mode
