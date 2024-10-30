@@ -1,9 +1,8 @@
 ---
 type: rule
 title: Do you use Figma Dev Mode to improve developer handovers?
-seoDescription: "Learn how Figma Dev Mode streamlines developer handovers by
-  providing a seamless bridge between design and development. type: rule"
-uri: use-figma-dev-mode
+seoDescription: Learn how Figma Dev Mode streamlines developer handovers by providing a seamless bridge between design and development
+uri: figma-dev-mode
 authors:
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
@@ -15,7 +14,7 @@ One of the biggest pain points during design-to-development handover is the loss
 
 <!--endintro-->
 
-Figma Dev Mode solves this issue by offering developers all the necessary design details in a developer-friendly format. With access to measurements, code snippets, and assets, developers can easily translate designs into code without needing constant input from designers.
+[Figma Dev Mode](https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode) solves this issue by offering developers all the necessary design details in a developer-friendly format. With access to measurements, code snippets, and assets, developers can easily translate designs into code without needing constant input from designers.
 
 ## Benefits of Using Figma Dev Mode
 
@@ -44,4 +43,5 @@ Figma Dev Mode solves this issue by offering developers all the necessary design
 
 ### Watch this video on Figma Dev Mode
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/__ABPkb0aF8?si=gV7URLi-X5NiPs4y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+`youtube: https://www.youtube.com/watch?v=__ABPkb0aF8`
+**Video: Intro to Dev Mode (4 min 25 sec)**
