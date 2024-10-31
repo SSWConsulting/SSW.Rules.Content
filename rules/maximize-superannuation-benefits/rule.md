@@ -52,7 +52,7 @@ When investment returns are higher, your Super fund’s investments generate mor
 
 Conversely, a lower return rate reduces the speed at which your Super balance grows. Although your investment still benefits from compounding, the overall growth is more modest compared to higher rates.
 
-![Figure: It looks the same but increasing the investment return rate from 6% to 7% over 30 years will increase your ending balance for almost $190k (a slightly better fund, can give you higher returns)](coumpound-interest-2.jpg)
+![Figure: It looks the same but increasing the investment return rate from 6% to 7% over 30 years will increase your ending balance for almost $20k (a slightly better fund, can give you higher returns)](coumpound-interest-2.jpg)
 
 ## 2. Increasing your Super balance through salary sacrifice
 
@@ -64,7 +64,7 @@ Learn more about the [benefits of salary sacrificing](/salary-sacrifice-electron
 
 Super Salary Sacrifice offers 2 key benefits:
 
-✅ **Tax Savings** - Your salary sacrifice contributions are taxed at 15%, which can be up to 30% lower than your marginal [income tax rate](https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents)     
+✅ **Tax Savings** - Your salary sacrifice contributions are taxed at 15%, which can be up to 30% lower than your marginal [income tax rate](https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents)\
 ✅ **Super Boost** - Extra contributions into Super lead to faster compounding growth
 
 The important thing to remember with Super is that your contributions are subject to the Superannuation Contributions Cap. The Cap is $30,000 per year in FY2025, but it changes over time.
@@ -73,7 +73,7 @@ The important thing to remember with Super is that your contributions are subjec
 **Warning**: It’s essential to check the current Cap each year and consider both your employer’s contributions and any Super Salary Sacrifice contributions to avoid exceeding the Cap.
 :::
 
-![Figure: Salary Sacrificing $100 per month, with a 7% investment return over 30 years will increase your compounded interest by almost $80k](coumpound-interest-3.jpg)
+![Figure: Salary Sacrificing $50 per week, with a 7% investment return over 30 years will increase your compounded interest by almost $170k](coumpound-interest-3.jpg)
 
 ## 3. How to choose the right investment option in your Super
 
@@ -136,7 +136,7 @@ This strategy can help you save for a deposit faster, while still benefiting fro
 
 Check out ATO’s website for further information on the [First Home Super Saver Scheme](https://www.ato.gov.au/individuals-and-families/super-for-individuals-and-families/super/withdrawing-and-using-your-super/early-access-to-super/first-home-super-saver-scheme).
 
----
+- - -
 
 ## Maximize your financial future
 
