@@ -55,7 +55,7 @@ This provides a much more consistent API structure when querying both collection
 
 ### 3. Idempotent requests
 
-Design `POST`, `PUT`, and `DELETE` operations as idempotent, where repeating an action yields the same result as performing it once. This avoids unintended actions from repeated requests.
+Design `GET`, `PUT` and `DELETE` operations as idempotent, where repeating an action yields the same result as performing it once. This avoids unintended actions from repeated requests.
 
 ::: greybox
 If a `DELETE` request removes a record, re-sending it should not throw errors if the record is already deleted.
