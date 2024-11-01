@@ -9,7 +9,7 @@ authors:
 created: 2024-10-30T16:40:00.000Z
 guid: a58d7671-4567-4812-870c-0feace088524
 ---
-Many organizations rely too heavily on their logo, assuming it defines their brand. But a brand is much more than a visual mark—it's an emotional connection built through every interaction customers have with your business. 
+Many organizations rely too heavily on their logo, assuming it defines their brand. But a brand is much more than a visual mark—it's an emotional connection built through every interaction customers have with your business.
 
 <!--endintro-->
 
@@ -27,44 +27,49 @@ Branding encompasses much more than just a logo; it includes the **color palette
 ## Key elements of brand identity
 
 ### 1. Color palette: The emotional trigger
+
 Your brand colors evoke specific emotions. Consistent use helps build recognition and trust. Examples include:
-- 🟦 **Blue:** Trust and stability (e.g., IBM, Visa)
-- 🟥 **Red:** Energy and excitement (e.g., Coca-Cola, Netflix)
-- 🟩 **Green:** Growth and tranquility (e.g., Starbucks, Whole Foods)
+* 🟦 **Blue:** Trust and stability (e.g., IBM, Visa)
+* 🟥 **Red:** Energy and excitement (e.g., Coca-Cola, Netflix)
+* 🟩 **Green:** Growth and tranquility (e.g., Starbucks, Whole Foods)
 
 ### 2. Typography: Communicating personality
+
 Fonts do more than look good—they communicate your brand’s personality
-- **Sans-serif fonts** (e.g., Helvetica): Modern and approachable
-- **Serif fonts** (e.g., Times New Roman): Traditional and reliable  
-- **Custom fonts** (e.g., Coca-Cola’s script): Unique to the brand
+* **Sans-serif fonts** (e.g., Helvetica): Modern and approachable
+* **Serif fonts** (e.g., Times New Roman): Traditional and reliable  
+* **Custom fonts** (e.g., Coca-Cola’s script): Unique to the brand
 
 ### 3. Tone of voice: Shaping perception
+
 How you say things matters just as much as what you say. Examples of tone in action:
-- **Formal:** Financial institutions (e.g., Goldman Sachs)
-- **Conversational:** Consumer apps (e.g., Slack)
-- **Inspirational:** Athletic brands (e.g., Nike)
+* **Formal:** Financial institutions (e.g., Goldman Sachs)
+* **Conversational:** Consumer apps (e.g., Slack)
+* **Inspirational:** Athletic brands (e.g., Nike)
 
 ## Brand guidelines ensure consistency
 
 Without guidelines, brand communication becomes inconsistent. A brand guideline includes:
-- **Color usage:** HEX, RGB values
-- **Typography standards:** Font sizes, spacing
-- **Logo rules:** Placement, acceptable variations
-- **Imagery guidelines:** Photo styles and iconography
-- **Tone of voice examples:** Proper messaging across platforms
+* **Color usage:** HEX, RGB values
+* **Typography standards:** Font sizes, spacing
+* **Logo rules:** Placement, acceptable variations
+* **Imagery guidelines:** Photo styles and iconography
+* **Tone of voice examples:** Proper messaging across platforms
 
 ::: info
+
 #### Case Study: [Google's seamless brand identity](https://design.google/library/evolving-google-identity)
+
 Even without their logo, Google’s identity is recognizable through their playful tone, minimalistic design, and consistent color use. This demonstrates the power of cohesive branding across all touchpoints.
 :::
 
 ## A logo is only the beginning
 
 Your logo may be the face of your brand, but it is not the full story. By aligning all brand elements—colors, typography, messaging, and voice—you build a strong, lasting impression that resonates with customers. **Consistency** across every interaction fosters trust and makes your brand instantly recognizable.
-- **Consistency matters:** Uniform use of brand elements builds trust
-- **Create emotional connections:** Align brand components with your values to foster relationships
-- **Use visual identity wisely:** Make your visuals reflect your brand’s message
-- **Evolve over time:** Review your brand strategy to keep it relevant
+* **Consistency matters:** Uniform use of brand elements builds trust
+* **Create emotional connections:** Align brand components with your values to foster relationships
+* **Use visual identity wisely:** Make your visuals reflect your brand’s message
+* **Evolve over time:** Review your brand strategy to keep it relevant
 
 ::: info
 **Pro tip:** Regularly review your brand guidelines to ensure they evolve with your company’s growth and shifting market demands. For inspiration, explore the [IBM Design Language](https://www.ssw.com.au/company/typography), a comprehensive example of how to maintain consistency across visual identity, tone, and user interactions while adapting to new opportunities.
