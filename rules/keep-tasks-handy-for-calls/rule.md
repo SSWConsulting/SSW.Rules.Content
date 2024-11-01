@@ -33,6 +33,7 @@ In today’s busy work environment, it is crucial to stay organized and be ready
 2. **Add a Loop Component:** Inside the shared workspace, create a new Loop component where you will track your tasks
 3. **Enter Tasks:** Record all your tasks, deadlines, and priorities into the Loop component
 4. **Add Loop to Teams Tab:** Open your Teams Chat | Tabs | + | Search 'Website' | Paste in Loop Workspace URL | Rename tab, e.g. ToDo - Tanya and Adam
+
 ::: img-medium
 ![Figure: Add Loop to Teams Tab](loop-tab-creation.jpg)
 :::
