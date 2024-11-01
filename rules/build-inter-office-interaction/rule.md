@@ -85,7 +85,7 @@ Think about what your company can do to increase interaction. There are tonnes o
 * What is it like to work in the China office?
 * What is your reaction if you see Chinese on a web page?
 * What are the differences in the app market in China and Australia? I.e. WeChat vs Facebook
-    
+
 **Fun weekly company meetings**
 
 * Everyone meets on Friday for 30 minutes to discuss a fun question
