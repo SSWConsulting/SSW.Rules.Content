@@ -6,6 +6,8 @@ uri: branding-is-more-than-logo
 authors:
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
+  - title: Pravin Kumar
+    url: https://www.ssw.com.au/people/pravin-kumar/
 created: 2024-10-30T16:40:00.000Z
 guid: a58d7671-4567-4812-870c-0feace088524
 ---
