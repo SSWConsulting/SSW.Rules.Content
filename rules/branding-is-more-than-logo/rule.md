@@ -31,6 +31,7 @@ Branding encompasses much more than just a logo; it includes the **color palette
 ### 1. Color palette: The emotional trigger
 
 Your brand colors evoke specific emotions. Consistent use helps build recognition and trust. Examples include:
+
 * 🟦 **Blue:** Trust and stability (e.g., IBM, Visa)
 * 🟥 **Red:** Energy and excitement (e.g., Coca-Cola, Netflix)
 * 🟩 **Green:** Growth and tranquility (e.g., Starbucks, Whole Foods)
@@ -38,6 +39,7 @@ Your brand colors evoke specific emotions. Consistent use helps build recognitio
 ### 2. Typography: Communicating personality
 
 Fonts do more than look good—they communicate your brand’s personality
+
 * **Sans-serif fonts** (e.g., Helvetica): Modern and approachable
 * **Serif fonts** (e.g., Times New Roman): Traditional and reliable  
 * **Custom fonts** (e.g., Coca-Cola’s script): Unique to the brand
@@ -45,6 +47,7 @@ Fonts do more than look good—they communicate your brand’s personality
 ### 3. Tone of voice: Shaping perception
 
 How you say things matters just as much as what you say. Examples of tone in action:
+
 * **Formal:** Financial institutions (e.g., Goldman Sachs)
 * **Conversational:** Consumer apps (e.g., Slack)
 * **Inspirational:** Athletic brands (e.g., Nike)
@@ -52,6 +55,7 @@ How you say things matters just as much as what you say. Examples of tone in act
 ## Brand guidelines ensure consistency
 
 Without guidelines, brand communication becomes inconsistent. A brand guideline includes:
+
 * **Color usage:** HEX, RGB values
 * **Typography standards:** Font sizes, spacing
 * **Logo rules:** Placement, acceptable variations
@@ -68,6 +72,7 @@ Even without their logo, Google’s identity is recognizable through their playf
 ## A logo is only the beginning
 
 Your logo may be the face of your brand, but it is not the full story. By aligning all brand elements—colors, typography, messaging, and voice—you build a strong, lasting impression that resonates with customers. **Consistency** across every interaction fosters trust and makes your brand instantly recognizable.
+
 * **Consistency matters:** Uniform use of brand elements builds trust
 * **Create emotional connections:** Align brand components with your values to foster relationships
 * **Use visual identity wisely:** Make your visuals reflect your brand’s message
