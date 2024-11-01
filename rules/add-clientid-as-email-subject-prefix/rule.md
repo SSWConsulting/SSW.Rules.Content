@@ -21,4 +21,3 @@ When discussing client work in an email, it is not always clear which client you
 <!--endintro-->
 
 ![Figure: Make sure you add ClientID as the email subject prefix](AddClientAsEmailSubjectPrefix.png)
-
