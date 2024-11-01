@@ -2,7 +2,7 @@
 seoDescription: Enhance email clarity by adding ClientID as your subject prefix, ensuring seamless communication regarding specific client work.
 type: rule
 archivedreason:
-title: Do you know to add the ClientID as your email subject prefix when sending an email regarding a client?
+title: Do you add the ClientID as the subject prefix when sending an email regarding a client?
 guid: 58f7e7d4-262c-463c-aa88-35d4f97d1ef8
 uri: do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-an-email-regarding-a-client
 created: 2014-06-25T07:49:36.0000000Z
@@ -19,5 +19,5 @@ When discussing client work in an email, it is not always clear which client you
 
 <!--endintro-->
 
-![Mmake sure you add ClientID as your email subject prefix](AddClientAsEmailSubjectPrefix.png)
-Figure: Make sure you add ClientID as your email subject prefix
+![Figure: Make sure you add ClientID as the email subject prefix](AddClientAsEmailSubjectPrefix.png)
+
