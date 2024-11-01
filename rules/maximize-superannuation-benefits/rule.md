@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Payroll - Do you maximize your Superannuation benefits? (Aussie only)
-seoDescription: Superannuation isn’t just savings—it’s a powerful investment. Maximize your future wealth with compound interest, strategic contributions, and smart management today!
+seoDescription: Superannuation isn’t just savings, it’s a powerful investment. Maximize your future wealth with compound interest, strategic contributions, and smart management today!
 uri: maximize-superannuation-benefits
 authors:
   - title: Stephan Fako
