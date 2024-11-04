@@ -63,7 +63,7 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
     const regex = new RegExp(`[\\s^](${field}:)\\S`);
     const match = frontmatterContents.match(regex);
     if (frontmatterContents.match(regex)) {
-      errors.push(`Space missing for field: '${match[1]}'`);
+      errors.push(`space missing for field: '${match[1]}'`);
     }
   }
   return errors;
