@@ -114,7 +114,6 @@ function parseFrontmatterToJson(fileContents) {
   try {
     return yaml.load(fileContents, {
       schema: yaml.JSON_SCHEMA,
-      onWarning: (e) => console.log('warning', e),
     });
   } catch (e) {
     return undefined;
