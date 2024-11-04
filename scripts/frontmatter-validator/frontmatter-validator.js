@@ -150,7 +150,6 @@ function main() {
     validateFiles(fileListPath);
   } else {
     const filesChanged = args[0];
-    console.log('Files changed:', filesChanged);
     if (filesChanged) {
       const filePaths = filesChanged
         .split(',')
