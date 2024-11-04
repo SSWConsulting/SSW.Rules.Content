@@ -61,7 +61,6 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
   if (!frontmatterContents) return [];
   for (const field of Object.keys(schema.properties)) {
     const regex = new RegExp(`[\\s^](${field}:)\\S`);
-    const match = frontmatterContents.match(regex);
     if (frontmatterContents.match(regex)) {
       errors.push(
         `A space is missing after the ':' in the field '${field}'. Please add a space between the ':' and the '${field}' value`
