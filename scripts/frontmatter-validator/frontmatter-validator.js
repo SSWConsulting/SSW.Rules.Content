@@ -64,7 +64,7 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
     const match = frontmatterContents.match(regex);
     if (frontmatterContents.match(regex)) {
       errors.push(
-        `A space is missing after the ':' in the field '${field}'. Please add a space between the ':' and the ${field} value`
+        `A space is missing after the ':' in the field '${field}'. Please add a space between the ':' and the '${field}' value`
       );
     }
   }
