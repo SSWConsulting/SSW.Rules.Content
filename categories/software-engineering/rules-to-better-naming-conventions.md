@@ -4,7 +4,15 @@ title: Rules to Better Naming Conventions
 guid: 5e9a6545-bca8-4178-b807-a11900b03149
 uri: rules-to-better-naming-conventions
 index:
-- follow-naming-conventions
+- clear-meaningful-names
+- nouns-for-class-names
+- verbs-for-method-names
+- avoid-generic-names
+- avoid-micro-jargon
+- consistent-words-for-concepts
+- when-to-use-technical-names
+- avoid-using-your-name-in-client-code
+- use-meadningful-modifiers
 - follow-naming-conventions-for-your-boolean-property
 - do-you-know-that-webapi-and-tables-name-should-be-consistent
 - follow-naming-conventions-for-tests-and-test-projects
