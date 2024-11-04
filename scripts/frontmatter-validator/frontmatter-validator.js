@@ -63,7 +63,9 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
     const regex = new RegExp(`[\\s^](${field}:)\\S`);
     const match = frontmatterContents.match(regex);
     if (frontmatterContents.match(regex)) {
-      errors.push(`space missing for field: '${match[1]}'`);
+      errors.push(
+        `A space is missing after the ':' in the field '${field}'. Please add a space between the ':' and the ${field} value`
+      );
     }
   }
   return errors;
@@ -168,7 +170,7 @@ function main() {
     console.log(
       `## Rule: [${filePath}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${filePath})\n`
     );
-    console.log('Issues:');
+    console.log('Issues Detected:');
     fileErrors.forEach((issue) => console.log(`- **${issue}**`));
     console.log('\n');
     console.log('\n');
