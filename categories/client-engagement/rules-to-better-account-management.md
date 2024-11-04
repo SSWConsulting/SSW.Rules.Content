@@ -2,7 +2,7 @@
 type: category
 title: Rules to Better Account Management
 guid: 99c48dc0-aefb-4ba7-b4a4-dc1783173a4a
-uri: rules-to-better-account-management
+uri: test
 index:
   - do-you-inform-the-client-of-any-resource-or-rate-changes
   - do-you-regularly-check-up-on-your-clients-to-make-sure-theyre-happy
