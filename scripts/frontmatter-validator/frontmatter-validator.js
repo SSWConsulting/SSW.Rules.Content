@@ -70,6 +70,7 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
 }
 
 function validateFrontmatter(filePath) {
+  if (filePath && filePath.endsWith('/categories/index.md')) return;
   if (!fs.existsSync(filePath) || filePath.indexOf('.github') !== -1) {
     return; // Skip if file does not exist or is in .github directory
   }
