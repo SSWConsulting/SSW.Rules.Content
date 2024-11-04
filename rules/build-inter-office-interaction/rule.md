@@ -27,58 +27,65 @@ When a company has many different office locations, often people in one office a
 
 It is crucial to build **interaction** between all company offices because it often improves the following:
 
-* Communication
-* Relationships
-* Technical Skills
-* Access to resources
+* **Communication**
+* **Relationships**
+* **Technical skills**
+  * Knowing alternative approaches
+* **Access to resources**
   * Knowing who has certain skills
   * Knowing who can provide you with localized or domain specific information
-* Cooperation
-* Confidence
-* Knowledge of alternative approaches
-* Cultural understanding
-* Understanding of foreign perspectives
-  * Knowing why someone from another culture responds to questions in a different way to what you are used to
+* **Cooperation**
+* **Confidence**
+* **Understanding of foreign perspectives**
+  * Knowing why someone from another culture responds in a different way to what you are used to
 
 ## Boost interaction with unique strategies
 
 Think about what your company can do to increase interaction. There are tonnes of ways that interaction can be developed. Examples include:
 
-* **Team building activities**
-  * Playing a game together
-  * Solving a puzzle together
-  * Reviewing/updating a company standard together
-  * Go on a group trip (e.g., to the Great Wall of China)
-  * Visit local companies together
-  * Retreat - Have a company retreat to bring everyone together
+**Team building activities**
 
-* **[Cultural Exchange programs](/cultural-exchange)**
-  * Having employees from China work in every Australian office for a month each or vice versa
-  * Having developers from Brisbane spend a week in Melbourne
+* Playing a game/solving a puzzle together
+* Reviewing/updating a company standard together
+* Having a company retreat to bring everyone together
+* Going on a group trip (e.g., to the Great Wall of China)
+* Visiting local companies together
 
-* **[Mentoring](/mentoring-programs)**
+**[Cultural Exchange programs](/cultural-exchange)**
 
-* **[Working together](/efficiency-do-you-always-try-to-work-in-pairs)**
-  * Pair programming
-  * Mob programming
+* Having employees from China to work in every Australian office for a month each or vice versa
+* Having developers from Brisbane spend a week in Melbourne
 
-* **Rotating Daily Scrum**
-  * Each week, 1 person from each office is paired up to do a Daily Scrum with others
+**[Mentoring](/mentoring-programs)**
 
-* **Creating cross-office teams and events**
-  * Putting developers from the China office onto a project with Australian developers
-  * People from different offices are paired up to have virtual coffee
-  * A Chinese dev does a presentation at the Sydney User Group
+**[Working together](/efficiency-do-you-always-try-to-work-in-pairs)**
 
-* **Cultural events and videos**
-  * Celebrating holidays from other countries
-  * Organize meetings to discuss culturally different issues
-  * Film videos about other offices
-    * What is it like to work in the China office?
-    * Localization - What is your reaction if you see Chinese on a web page?
-    * What are the differences in the app market in China and Australia? I.e. WeChat vs Facebook etc
-  * Have a weekly language exchange catchup
-  * Having a cultural performance day where everyone chooses something cultural to perform such as a culturally relevant poem
+* Pair programming
+* Mob programming
 
-* **Fun weekly company meetings**
-  * Everyone meets on Friday for 30 minutes to discuss a fun question
+**Rotating Daily Scrum**
+
+* Each week, 1 person from each office is paired up to do a Daily Scrum with others
+
+**Creating cross-office teams and events**
+
+* Putting developers from the China office onto a project with Australian developers
+* People from different offices are paired up to have virtual coffee
+* A Chinese dev does a presentation at the Sydney User Group
+
+**Cultural events and videos**
+
+* Celebrating holidays from other countries
+* Organize meetings to discuss culturally different issues
+* Have a weekly language exchange catchup
+* Organize a cultural performance day where everyone shares a piece from their culture
+
+**Product videos about other offices**
+
+* What is it like to work in the China office?
+* What is your reaction if you see Chinese on a web page?
+* What are the differences in the app market in China and Australia? I.e. WeChat vs Facebook
+
+**Fun weekly company meetings**
+
+* Everyone meets on Friday for 30 minutes to discuss a fun question
