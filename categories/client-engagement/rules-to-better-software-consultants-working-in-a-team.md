@@ -83,6 +83,7 @@ index:
 - gather-team-opinions
 - call-your-system-administrators-before-raising-a-ticket
 - do-you-use-suspend-on-your-notebook
+- microsoft-planner-for-tasks
 
 ---
 
