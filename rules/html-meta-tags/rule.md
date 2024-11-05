@@ -25,8 +25,6 @@ One of the easiest ways to get the ball rolling with your web pages and being no
 
 However, it's still beneficial to complete this quick and easy task.
 
-
-
 <!--endintro-->
 
 ![Figure: An SEO expert hard at work](seo_expert.jpg)
@@ -49,10 +47,24 @@ To ensure your meta tags are present and well formatted, we have a useful progra
 
 ![✅Figure: Good Example - SSW Dory's website has a meta description tag](metadescriptionsswdory.jpg)
 
-##### Avoiding Duplicate Content
+#### Avoiding Duplicate Content
 
 **The duplicate content myth** There is a widely held misconception that Google penalizes authors for having duplicate meta tags, particularly meta description and meta title tags. However, Google primarily targets pages that are exact duplicates of other pages when penalizing for duplicate content. Read more about this in Google's [original blog post](https://tina.io/docs/reference/fields/#definition).
 
 **Why you should care about duplicate content** While having duplicate meta title or meta description tags may not impact your search engine performance directly it can still result in a [poor user experience](https://www.semrush.com/blog/duplicate-meta-descriptions/). For example, if two pages with the same title appear in a set of search results the user may be unsure which link to click. It may also impact your rankings in other search engines.
 
 **Rectifying the issue** This issue is common for users publishing content with a CMS. In this case we generally recommend meta descriptions and title fields a required field. For example, Tina CMS allows you to add [required fields](https://tina.io/docs/reference/fields/#definition). You could also get creative and pass the drafted content of your page into a custom GPT with instructions to create a summary of the content suitable for a meta title or meta description. For more information about creating custom GPTs read the rule [Do You Create Custom GPTs](https://www.ssw.com.au/rules/create-gpts/).
+
+#### Quality Meta Descriptions
+
+Even if you have a meta description tags filled out for a particular page Google may instead opt to use it's own summary of the content when displaying the link. This is called a **snippet**. If you'd prefer to use your own meta-description tags it's imperative to make sure your tag complies with [Google's quality standards for meta tags](https://developers.google.com/search/docs/appearance/snippet#use-quality-descriptions).
+
+##### Snippets
+
+A snippet is an auto generated summary of the content for your web page. As the name would suggest, Google derives snippets by sampling the literary content of your page and trimmig it. The result is usually unsightly. If you'd prefer not to use them Google gives you the option to opt out using the **Googlebot** tag meta tag. For more information about the types of tags you can use to customize your search results see Google's \[meta tag, data-nosnippet, and X-Robots-Tag specifications](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag)
+
+```html
+<!--Google will not create a snippet for this page-->
+
+<meta name="googlebot" content="nosnippet">
+```
