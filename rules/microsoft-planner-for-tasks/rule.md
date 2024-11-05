@@ -43,7 +43,7 @@ By using Microsoft Planner and Power Automate, you can streamline recurring task
 
 ### Additional benefits of using Power Automate as well
 
-**Timely Notifications**: Ensure team members get timely reminders where they usually work, like in their Outlook inbox or Teams notifications.
+* **Timely Notifications**: Ensure team members get timely reminders where they usually work, like in their Outlook inbox or Teams notifications.
 * **Reduce noise**: Tasks are only visibile in your Planner when they're supposed to be worked on, or if they're overdue.
 
 By centralising and automating task management, you improve accountability and can quickly identify if any tasks are slipping through the cracks. Adopt this method to keep your team organized and efficient.
