@@ -20,9 +20,7 @@ redirects:
 created: 2015-11-09T19:11:28.000Z
 archivedreason: null
 guid: 3bcee6c3-13c6-45a7-8379-236a7cf44030
-
 ---
-
 One of the easiest ways to get the ball rolling with your web pages and being noticed by search engines is to use [HTML `<meta>` tags](https://www.w3schools.com/tags/tag_meta.asp). Years ago, many webmasters took this as an opportunity to abuse the `<meta>` tags and the search engines found that the quality of search results was suffering. Today, search engines don't give the &lt;meta&gt; tags weight - Google announced in September of 2009 that neither **meta descriptions** nor **meta keywords** affects Google's ranking algorithms for web searches.
 
 However, it's still beneficial to complete this quick and easy task.
@@ -70,10 +68,15 @@ Even if you have a meta description tags filled out for a particular page Google
 
 ### Auto-generated snippets
 
-A snippet is an auto-generated summary of the content for your web page. As the name would suggest, Google derives snippets by sampling the literary content of your page and trimmig it. The result is usually unsightly. If you'd prefer not to use them Google gives you the option to opt out using the **Googlebot** tag meta tag. For more information about the types of tags you can use to customize your search results see Google's \[meta tag, data-nosnippet, and X-Robots-Tag specifications](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag)
+A snippet is an auto-generated summary of your web page. As the name would suggest, Google derives snippets by sampling the literary content of your page and trimming it. The result is usually unsightly. If you do choose to use them you can customize which parts get left out using the **data-nosnippet** attribute on either a **\<section\>**, **\<p\>**, or **\<div\>** tag. This will omit the child elements of the targeted from the snippet as well.
 
 ```html
-<!--Google will not create a snippet for this page-->
+<!--Google will not use this part of the snippet when creating a page snippet-->
 
-<meta name="googlebot" content="nosnippet">
+<section data-nosnippet class="post-article">
+<p> Did this article engage peak your interests as a dog lover? The University of Adelaide is conducting a study to investigate occurences of methemoglobinemia in Pomeranians. To participate in the study click this <a>link</a>
+</section>
 ```
+
+::: good
+Figure: Good example - using the nosnippet attribute to remove irrelevant content
