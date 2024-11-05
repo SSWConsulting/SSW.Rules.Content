@@ -74,7 +74,11 @@ A snippet is an auto-generated summary of your web page. As the name would sugge
 <!--Google will not use this part of the snippet when creating a page snippet-->
 
 <section data-nosnippet class="post-article">
-<p> Did this article engage peak your interests as a dog lover? The University of Adelaide is conducting a study to investigate occurences of methemoglobinemia in Pomeranians. To participate in the study click this <a>link</a>
+    <p>
+    Did this article engage peak your interests as a dog lover? 
+    The University of Adelaide is conducting a study to investigate occurences of methemoglobinemia in Pomeranians. 
+    To participate in the study click this <a>link</a>.
+    </p>
 </section>
 ```
 
