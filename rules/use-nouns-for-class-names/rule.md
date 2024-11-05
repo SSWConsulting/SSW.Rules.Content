@@ -28,13 +28,20 @@ A fundamental principle of object-oriented programming is that a class represent
 ## What is a noun?
 A noun is a word that names a thing. Common examples include tangible items like Table, Cup, or Computer and abstract entities like Record, Database, or Cloud. In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
 
-:::bad
+:::greybox
 Imagine you’re building an e-commerce application, and you create a class called `ProcessOrder`. While it might seem reasonable, this name is misleading — it suggests an action, not a thing. The class’s responsibility is not the act of processing but the concept of an Order itself.
 :::
+:::bad
+A class that appears from its name to be an action is confusing
+:::
 
-:::good
+:::greybox
 Naming the class `Order` better represents its role as an entity that holds order-related data and behavior. Later, if you need to perform an action on the order, you might create a `ProcessOrder` method within the`OrderService` or `OrderProcessor` class (see our rule [Do you use verbs for method names?](/verbs-for-method-names)). This keeps the naming consistent with object-oriented principles.
 :::
+:::good
+A class name that clearly represents a thing is much easier to understand
+:::
+
 
 ## Events: The exception that proves the rule
 In domain-driven design (DDD) and event-driven architectures (EDA), you’ll often see exceptions to this rule. Events like `OrderPlaced` or `UserRegistered` are commonly named with verb phrases to represent specific actions or occurrences within the system, rather than entities with persistent state. This naming convention is acceptable, as it indicates a change or trigger rather than a static object. For other class types, however, sticking to nouns keeps the codebase clear and consistent.
