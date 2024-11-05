@@ -2,7 +2,7 @@
 seoDescription: Generic names like "manager" are easy and can trick us into thinking they are good for consistency. But they can quickly undermine conveying the meaning of your code.
 type: rule
 archivedreason:
-title: Do you avoid generic names like “manager,” “processor,” “data,” or “info”?
+title: Do you avoid generic names like “manager” or "helper"?
 uri: avoid-generic-names
 created: 2024-11-05T00:00:00.0000000Z
 authors:
