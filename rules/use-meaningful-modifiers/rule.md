@@ -1,5 +1,5 @@
 ---
-seoDescription: Cusomtied versions of classes or components should reflect the customization in the name.
+seoDescription: Customized versions of classes or components should reflect the customization in the name.
 type: rule
 archivedreason:
 title: Do you use meaningful modifiers for custom implementations?
