@@ -18,6 +18,7 @@ related:
   - avoid-using-your-name-in-client-code
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: bf8b49d4-82f7-42fc-9e56-01076e6e5732
 ---
 
 Code that relies on nicknames, abbreviations, or internal jokes can create unnecessary obstacles for new team members or future collaborators. Terms that only make sense to the “in-group” (like a specific project team or company department) can be hard to interpret, causing frustration and slowing down onboarding. Instead, favor widely understandable names or domain-specific terms that reflect a shared understanding of the business or domain.

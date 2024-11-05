@@ -18,6 +18,7 @@ related:
   - avoid-using-your-name-in-client-code
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: 881ea4a4-f8a4-4e2e-a298-1cd020ffd7d5
 ---
 
 Naming is most effective when it aligns with the audience’s understanding. In code, this often means distinguishing between when to use technical terms, which are clear to developers, and when to use domain-specific terms, which align more closely with business requirements and are familiar to stakeholders. Using technical terms in the wrong context can make code feel disconnected from the business, while overusing domain terms for technical concepts can create confusion.

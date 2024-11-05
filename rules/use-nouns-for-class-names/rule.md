@@ -18,6 +18,7 @@ related:
   - avoid-using-your-name-in-client-code
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: b5fa18cd-5fb7-4273-9b09-70379de7ef60
 ---
 
 A fundamental principle of object-oriented programming is that a class represents something from outside the code—whether a tangible item, like a Car, or an abstract concept, like a Record. A class should reflect its purpose as a "thing," not an action. Calling a car "Drive" would quickly become confusing, and the same is true in your code. Keeping classes named as nouns maintains clarity and reinforces their role as representations of entities in the system.

@@ -20,6 +20,7 @@ related:
   - follow-naming-conventions-for-tests-and-test-projects
 redirects:
   - do-you-follow-naming-conventions
+guid: bfcbc0ef-d2f8-4e77-85d9-97ccb841eb19
 ---
 
 In the early days of coding, we had to store more information in our heads than in our computers, leading to all sorts of creative abbreviations and clever shortcuts. But today, storage and readability are no longer limitations—our computers can handle verbose names better than our brains can handle cryptic codes. Clinging to those old practices can hurt your code’s readability and make life harder for your team.

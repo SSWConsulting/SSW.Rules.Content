@@ -18,6 +18,7 @@ related:
   - when-to-use-technical-names
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: 7d9eb8d3-4522-40c9-bcbd-b22f48f50edf
 ---
 
 When building solutions for clients, it’s tempting to include personal or company identifiers in control or component names, like GoldieEntry or SSWButton. However, naming controls after yourself or your company in client projects can create confusion, dilute the client’s branding, and look unprofessional. For consultants, the goal should be to name components in ways that make sense within the client’s business context.

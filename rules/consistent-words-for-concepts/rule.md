@@ -18,6 +18,7 @@ related:
   - avoid-using-your-name-in-client-code
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: 782822da-92e3-4912-855b-cf1f2a05542b
 ---
 
 There’s more than one way to skin a cat (apparently—we don’t have any rules on cat-skinning), and equally, there’s often more than one term to represent a concept. While some terms may have nuanced differences, they can often seem interchangeable. But once you’ve picked a term, stick with it and use it everywhere. Inconsistent language is one of the quickest ways to violate the DRY principle and add unnecessary complexity to your codebase.

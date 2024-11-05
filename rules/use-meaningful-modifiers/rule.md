@@ -18,6 +18,7 @@ related:
   - when-to-use-technical-names
   - avoid-using-your-name-in-client-code
   - follow-naming-conventions-for-tests-and-test-projects
+guid: 5a4fe6d7-4df6-4baf-848a-6645c2ef549a
 ---
 
 When creating custom controls, avoid vague or generic names like CustomStepper or CustomDbContext. Generic terms like “custom” or “base” don’t communicate what makes the component unique, and they add little value for other developers. Instead, use meaningful modifiers that describe the component’s specific purpose or customization.

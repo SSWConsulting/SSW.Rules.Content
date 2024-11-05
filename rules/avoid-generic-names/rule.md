@@ -18,6 +18,7 @@ related:
   - avoid-using-your-name-in-client-code
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: f0b473e1-c892-4a21-8319-68f56f713c0d
 ---
 
 Generic names like “manager,” “processor,” “data,” and “info” are easy to reach for, but they tell us very little about a class or method’s true purpose. These words are catch-alls — they don’t communicate what the code actually does or what entity it represents. Avoiding these vague terms forces us to choose names that reflect a specific role or responsibility.

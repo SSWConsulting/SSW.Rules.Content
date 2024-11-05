@@ -18,6 +18,7 @@ related:
   - avoid-using-your-name-in-client-code
   - use-meadningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
+guid: ca38d766-d16b-4bc3-b206-10b85fe41530
 ---
 
 Code becomes easier to understand when names align closely with their meaning. Since classes represent things, they should use nouns. Methods, on the other hand, represent actions and should be named using verbs. A method named Person, for example, could easily confuse your team by suggesting an entity rather than an action.
