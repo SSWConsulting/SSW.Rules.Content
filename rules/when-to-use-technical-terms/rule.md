@@ -16,7 +16,7 @@ related:
   - avoid-micro-jargon
   - consistent-words-for-concepts
   - avoid-using-your-name-in-client-code
-  - use-meadningful-modifiers
+  - use-meaningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
 guid: 881ea4a4-f8a4-4e2e-a298-1cd020ffd7d5
 ---

@@ -3,7 +3,7 @@ seoDescription: Cusomtied versions of classes or components should reflect the c
 type: rule
 archivedreason:
 title: Do you use meaningful modifiers for custom implementations?
-uri: use-meadningful-modifiers
+uri: use-meaningful-modifiers
 created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman

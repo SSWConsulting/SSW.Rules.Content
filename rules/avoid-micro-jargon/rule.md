@@ -16,7 +16,7 @@ related:
   - consistent-words-for-concepts
   - when-to-use-technical-names
   - avoid-using-your-name-in-client-code
-  - use-meadningful-modifiers
+  - use-meaningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
 guid: bf8b49d4-82f7-42fc-9e56-01076e6e5732
 ---

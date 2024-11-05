@@ -16,7 +16,7 @@ related:
   - avoid-micro-jargon
   - when-to-use-technical-names
   - avoid-using-your-name-in-client-code
-  - use-meadningful-modifiers
+  - use-meaningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
 guid: 782822da-92e3-4912-855b-cf1f2a05542b
 ---

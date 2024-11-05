@@ -16,7 +16,7 @@ related:
   - avoid-micro-jargon
   - consistent-words-for-concepts
   - when-to-use-technical-names
-  - use-meadningful-modifiers
+  - use-meaningful-modifiers
   - follow-naming-conventions-for-tests-and-test-projects
 guid: 7d9eb8d3-4522-40c9-bcbd-b22f48f50edf
 ---
@@ -36,5 +36,5 @@ Naming a custom entry field `GoldieEntry` or `SSWEntry` might make sense in a pe
 :::good
 Instead, using something like `NorthwindStepper` is more client-aligned and indicates that this is a customized variation of a standard control.
 
-**Note:** This approach is ok to denote a branded version of something, but often it's better to indicate the customization itself in the name. See our rule [Do you use meaningful modifiers for custom implementations?](/use-meadningful-modifiers).
+**Note:** This approach is ok to denote a branded version of something, but often it's better to indicate the customization itself in the name. See our rule [Do you use meaningful modifiers for custom implementations?](/use-meaningful-modifiers).
 :::
