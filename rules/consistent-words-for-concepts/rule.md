@@ -37,13 +37,14 @@ Imagine you’re working on an e-commerce app, and you’ve been tasked with add
 
 Later, you open a pull request, and a colleague calls, confused, asking why you’ve re-implemented an entire feature. After some back and forth, they show you the existing `SendOrder` method, which already handles notifications.
 
-:::bad
 ```csharp
 public void SendOrder(NotificationType type)
 { 
     // existing implementation
 }
 ```
+:::bad
+The name used for this method is not consistent with the name used for the same concept everywhere else in the code base
 :::
 
 ## Outcome
@@ -53,13 +54,14 @@ In this case, the terms “order” and “consignment” may seem related, but 
 
 In this scenario, the `SendOrder` method should have been called `SendConsignment`, assuming “consignment” was already used in the codebase. 
 
-:::good
 ```csharp
 public void SendConsignment(NotificationType type)
 { 
     // new implementation
 }
 ```
+:::good
+The name used for this method is the same name used for this concept throughout the code base
 :::
 
 

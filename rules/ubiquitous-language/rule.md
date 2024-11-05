@@ -25,12 +25,18 @@ Ubiquitous language is a core principle in domain-driven design (DDD) that encou
 ## Why Ubiquitous Language Matters
 Ubiquitous language helps bridge the gap between technical and non-technical stakeholders, creating a consistent and clear understanding of the domain. When everyone uses the same terms — whether in code, documentation, or discussions — it’s easier to align on requirements, troubleshoot issues, and onboard new team members. Without it, terms can become muddled, causing confusion and misinterpretation.
 
-:::bad
+:::greybox
 Let’s say you’re working on an insurance system, and the domain term “policyholder” is used consistently among stakeholders. However, in the codebase, you see different terms used interchangeably: `AccountOwner`, `Customer`, and `InsuredParty`. Each of these terms could technically represent the policyholder, but the inconsistency can lead to confusion and misunderstandings about the exact role of each entity.
 :::
+:::bad
+Terms in the code do not reflect domain language used by stakeholders
+:::
 
-:::good
+:::greybox
 To follow ubiquitous language, you would use `PolicyHolder` consistently across the codebase, aligning the code’s vocabulary with the language used by domain experts. This approach eliminates ambiguity, making it clear that `PolicyHolder` refers to the specific entity recognized by all stakeholders.
+:::
+:::good
+Ubiquitous language is used, and developers and stakeholders are on the same page
 :::
 
 ### Benefits
