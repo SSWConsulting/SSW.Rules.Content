@@ -28,7 +28,7 @@ Code that relies on nicknames, abbreviations, or internal jokes can create unnec
 
 :::greybox
 **How this differs from ubiquitous language**    
-Using ubiquitous language is about naming concepts in ways that align with terms used by domain experts and stakeholders. While this might seem like micro-culture jargon at first glance, it’s different for an important reason. Unlike insider terms, ubiquitous language refers to widely recognized ideas within the domain, making code clearer for anyone familiar with the field. Avoid in-grouped terms that don’t convey meaning to people outside the team, even if they seem descriptive to those who are “in the know.”
+Using ubiquitous language (see our rule [Do you use ubiquitous language?](/ubiquitous-language)) is about naming concepts in ways that align with terms used by domain experts and stakeholders. While this might seem like micro-culture jargon at first glance, it’s different for an important reason. Unlike insider terms, ubiquitous language refers to widely recognized ideas within the domain, making code clearer for anyone familiar with the field. Avoid in-grouped terms that don’t convey meaning to people outside the team, even if they seem descriptive to those who are “in the know.”
 :::
 
 :::bad

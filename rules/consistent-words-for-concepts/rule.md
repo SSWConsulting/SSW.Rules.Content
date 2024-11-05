@@ -63,7 +63,7 @@ public void SendConsignment(NotificationType type)
 :::
 
 
-To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is ubiquitous. It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code. Any introduction of new terminology, such as “consignment,” should be a proactive, team-wide decision that includes any necessary refactoring.
+To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is ubiquitous (see our rule [Do you use ubiquitous language?](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code. Any introduction of new terminology, such as “consignment,” should be a proactive, team-wide decision that includes any necessary refactoring.
 
 ## DRY Principle Implications
 In a worst-case scenario, someone unfamiliar with the `SendOrder` method might merge the `SendConsignment` code without realizing it’s redundant. Now, two methods exist for the same function — each handling notifications differently. This violates the DRY principle, as you now have two distinct pieces of knowledge on handling order shipments, potentially leading to divergent behavior and increased maintenance overhead.
