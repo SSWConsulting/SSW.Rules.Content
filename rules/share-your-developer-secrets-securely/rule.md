@@ -9,6 +9,8 @@ created: 2023-08-14T00:00:00.0000000Z
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
 related:
   - store-your-secrets-securely
 redirects: []
