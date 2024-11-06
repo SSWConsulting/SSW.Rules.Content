@@ -2,7 +2,8 @@
 type: rule
 tips: ""
 title: Do you mitigate brand risks when using AI?
-seoDescription: Learn how to manage brand risks when adopting AI, including inaccurate outputs, privacy concerns, and maintaining customer trust.
+seoDescription: Learn how to manage brand risks when adopting AI, including
+  inaccurate outputs, privacy concerns, and maintaining customer trust.
 uri: mitigate-brand-risks-ai
 authors:
   - title: Ulysses Maclaren
@@ -22,51 +23,36 @@ While AI has enormous potential, businesses must proactively manage the brand ri
 * **Bias in AI decisions** - If not properly managed, AI systems can perpetuate or even amplify biases present in the data, resulting in unfair or discriminatory outcomes, which can lead to reputational damage and loss of customer confidence.
    
 * **Privacy violations** - AI systems that handle customer data must respect privacy laws and customer expectations. Mishandling sensitive data or failing to anonymize information can lead to public outrage and legal consequences.
- 
+
+::: greybox
+Imagine a financial services company that uses an AI chatbot to assist customers with loan inquiries. The chatbot, due to a lack of proper training and oversight, provides incorrect interest rate information to multiple customers. Some customers are misled into believing they qualify for a lower rate, leading to confusion and frustration.
+
+Worse yet, the chatbot inadvertently reveals another customer's sensitive information during one of these interactions due to improper data handling practices. The combination of misleading information and privacy violations causes customers to lose trust, prompting public backlash on social media and even regulatory scrutiny.
+:::
+::: bad
+Figure: Bad Example - Inadequate management of AI systems can lead to serious brand damage
+:::
+
 ## How to mitigate brand risks
  
 ### 1. Ensure transparency in AI decisions
 
 Customers need to understand how and why AI systems are making certain decisions. Ensure your AI models are explainable, especially when they are involved in critical decisions like credit approval or hiring.
-
-::: greybox
-Implement explainability tools to help users understand how AI decisions are made, ensuring that decision-making is transparent and justifiable.
-:::
-::: good
-Figure: Good example – Providing explainable AI helps build customer trust and mitigates the risk of confusion or backlash
-:::
  
 ### 2. Prioritize accuracy and continuous learning
 
-AI models can degrade in performance if they are not regularly updated and fine-tuned. Regularly evaluate your models' accuracy to prevent incorrect outputs from reaching customers.
-
-::: greybox
-Establish a process for regularly retraining AI models to ensure accuracy, especially when new data becomes available.
-:::
-::: good
-Figure: Good example – Retraining AI models helps maintain accuracy and prevents the spread of misleading information
-:::
+AI models can degrade in performance if not regularly updated and fine-tuned. Regularly evaluate and retrain your models to prevent incorrect outputs from reaching customers. This can involve incorporating fresh data, conducting error analysis, adjusting hyperparameters, and incorporating human feedback to further enhance model accuracy. Additionally, consider implementing source citation or reflection mechanisms within the model to increase reliability and transparency.
  
 ### 3. Address bias in AI models
 
-Bias can severely damage your brand. Conduct bias audits to ensure that AI models are fair and do not produce discriminatory outputs. This includes identifying sources of bias in the data and correcting them before they affect decision-making.
- 
-::: greybox
-Run bias audits on AI models at regular intervals and adjust models to ensure fairness in decision-making.
-:::
-::: good
-Figure: Good example – Regular bias audits ensure that AI outputs are fair and non-discriminatory, protecting your brand
-:::
+Bias can damage your brand, leading to loss of trust and negative publicity. To mitigate this risk, conduct regular bias audits to ensure AI models are fair and non-discriminatory. Identify and address sources of bias in the training data before they affect decision-making.
+
+Bias audits should include regular reviews of input data, model outputs, and decision logic. Incorporate diverse perspectives during model development to catch potential biases early.
+
  
 ### 4. Respect customer privacy
 
 Handle customer data with care. Anonymize data when possible, and ensure that your AI systems comply with privacy regulations, like GDPR or CCPA. Additionally, be transparent with your customers about how their data is used.
 
-::: greybox
-Use privacy-preserving techniques, like data anonymization and differential privacy, to protect sensitive information in AI systems
-:::
-::: good
-Figure: Good example – Data anonymization protects customer privacy and reduces the risk of breaches that can harm your brand
-:::
 
 By addressing these brand risks proactively, businesses can maintain customer trust while reaping the benefits of AI. In a world where AI is becoming increasingly integrated into daily operations, it’s vital to ensure that your AI systems work in your favor, not against your brand.
