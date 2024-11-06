@@ -40,7 +40,7 @@ Figure: Bad Example - explaining how to solve the problem when there are already
 :::
 
 ::: greybox
-Yes - you can do validation in TinaCMS. Here is the link to the docs. [https://tina.io/docs/plugins/forms/](https://tina.io/docs/plugins/forms/)
+Yes - you can do validation in TinaCMS. Here is the link to the docs [https://tina.io/docs/extending-tina/validation](https://tina.io/docs/extending-tina/validation).
 :::
 ::: good
 Figure: Good Example - Replying with a link to the docs
