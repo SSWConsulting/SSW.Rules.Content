@@ -1,7 +1,8 @@
 ---
-seoDescription: Microsoft Teams Rooms simplifies meeting setup and collaboration, eliminating wasted time, complexity, and user discomfort.
 type: rule
 title: Do you use Microsoft Teams Rooms?
+seoDescription: Microsoft Teams Rooms simplifies meeting setup and
+  collaboration, eliminating wasted time, complexity, and user discomfort.
 uri: use-microsoft-teams-room
 authors:
   - title: Jonty Gardner
@@ -16,7 +17,7 @@ In today's fast-paced work environment, efficient communication and collaboratio
 
 <!--endintro-->
 
-`youtube: https://youtu.be/bKb-5VbU_4g`
+`youtube: https://youtu.be/3JxH3Hq2s1M`
 **Video: Microsoft Teams Room - How to Use The Boardroom (6 min)**
 
 ## The Pain
