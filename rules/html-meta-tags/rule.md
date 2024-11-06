@@ -83,4 +83,5 @@ A snippet is an auto-generated summary of your web page. As the name would sugge
 ```
 
 ::: good
-Figure: Good example - using the nosnippet attribute to remove irrelevant content
+Figure: Good example - Using the nosnippet attribute to remove irrelevant content
+:::
