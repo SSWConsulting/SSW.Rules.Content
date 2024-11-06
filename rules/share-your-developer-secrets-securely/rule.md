@@ -78,14 +78,14 @@ Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely
 
 Pros:
 
-- Simple to share secrets
-- Free
+* Simple to share secrets
+* Free
 
 Cons:
 
-- Requires a developer to have a copy of the `secrets.json` file already
-- Developers need to remember to add placeholders for developer specific secrets before sharing
-- Access Control - Although the link is single use, there's no absolute guarantee that the person opening the link is authorized to do so
+* Requires a developer to have a copy of the `secrets.json` file already
+* Developers need to remember to add placeholders for developer specific secrets before sharing
+* Access Control - Although the link is single use, there's no absolute guarantee that the person opening the link is authorized to do so
 
 ![](1ty-me.jpg)
 
@@ -102,17 +102,17 @@ Azure Key Vault is a great way to store secrets securely. It is great for produc
 
 Pros:
 
-- Enterprise grade
-- Uses industry standard best encryption
-- Dynamically cycles secrets
-- Access Control - Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
+* Enterprise grade
+* Uses industry standard best encryption
+* Dynamically cycles secrets
+* Access Control - Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
 
 Cons:
 
-- Not able to configure developer specific secrets
-- No offline access
-- Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern
-- Authentication into Key Vault requires Azure service authentication, which isn't supported in every IDE
+* Not able to configure developer specific secrets
+* No offline access
+* Tightly integrated into Azure so if you are running on another provider or on premises, this may be a concern
+* Authentication into Key Vault requires Azure service authentication, which isn't supported in every IDE
 
 :::
 ::: good
@@ -127,14 +127,14 @@ Enterprise Secret Management tools have are great for storing secrets for variou
 
 Pros:
 
-- Developers don't need to call other developers to get secrets
-- Placeholders can be placed in the stored secrets
-- Access Control - Only developers who are authorized to access the secrets can do so
+* Developers don't need to call other developers to get secrets
+* Placeholders can be placed in the stored secrets
+* Access Control - Only developers who are authorized to access the secrets can do so
 
 Cons:
 
-- More complex to install and administer
-- Paid Service
+* More complex to install and administer
+* Paid Service
 
 ![](developer-secrets-in-keeper.jpg)
 
