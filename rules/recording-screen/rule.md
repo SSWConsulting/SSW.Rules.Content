@@ -33,7 +33,7 @@ There are many ways to record your screen. Here are some popular options:
 * [Loom](https://www.loom.com) (only 25 videos free)
 * [Snagit](https://www.techsmith.com/screen-capture.html)
 * [Clipchamp](https://clipchamp.com/en/)
-  * Direct upload to You
+  * Direct upload to Clipchamp
 
 ### Advanced recordings
 
@@ -41,9 +41,13 @@ There are many ways to record your screen. Here are some popular options:
 * [Camtasia](https://www.techsmith.com/store/camtasia) (Windows only)
 
 ::: greybox
-**Tip 1:** If you are recording the steps to reproduce a bug, it might be better to use [Chrome Recorder](https://developer.chrome.com/docs/devtools/recorder) instead.
+**Tip #1:** If you are recording the steps to reproduce a bug, it might be better to use [Chrome Recorder](https://developer.chrome.com/docs/devtools/recorder) instead.
 :::
 
 ::: greybox
 **Tip #2:** Zoom, and Microsoft Teams are cloud-based services, so consider whether an option such as Snagit, Loom or Clipchamp that records locally is more appropriate. **If you record with Zoom, post-production editing will be required**
+:::
+
+::: greybox
+**Tip #3:** Sometimes, all you need is a GIF to demonstrate something. For this, you can record one with a tool like [Gifox](https://gifox.app/) (MacOS only).
 :::
