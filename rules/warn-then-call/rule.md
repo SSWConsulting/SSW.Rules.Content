@@ -40,8 +40,8 @@ A good way to initiate a call is to warm them up by giving a warning (e.g. *“C
 <!--endintro-->
 
 ::: greybox
-**Warm Calling:** Give a warning, then call.\
-**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.\
+**Warm Calling:** Give a warning, then call.
+**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.
 :::
 
 ## ✅ The benefits of a warm call
