@@ -9,7 +9,7 @@ authors:
 related: []
 created: 2024-11-05T12:52:08.000Z
 archivedreason: null
-guid: 2feb782f-0cee-4022-95d9-f44b9f739b90
+guid: dc76970f-deea-4e92-9d55-731e83bee7b5
 ---
 
 Unit tests are an essential part of ensuring that your .NET applications work correctly. However, when it comes to testing logging, things can get tricky. You don't want to rely on actual logging infrastructure like file writes or external logging systems during tests, as this could lead to unnecessary complexity and slow down your test suite.
