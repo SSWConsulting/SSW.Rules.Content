@@ -1,11 +1,10 @@
 ---
-seoDescription: Do you share your developer secrets securely? Learn how to store and share sensitive information safely, avoiding common pitfalls and implementing best practices for secure development environments.
 type: rule
-archivedreason:
 title: Do you share your developer secrets securely?
-guid: 6165deaa-a3b0-40b1-8659-482a34faf7c4
+seoDescription: Do you share your developer secrets securely? Learn how to store
+  and share sensitive information safely, avoiding common pitfalls and
+  implementing best practices for secure development environments.
 uri: share-your-developer-secrets-securely
-created: 2023-08-14T00:00:00.0000000Z
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
@@ -14,8 +13,10 @@ authors:
 related:
   - store-your-secrets-securely
 redirects: []
+created: 2023-08-14T00:00:00.000Z
+archivedreason: null
+guid: 6165deaa-a3b0-40b1-8659-482a34faf7c4
 ---
-
 Most systems will have variables that need to be stored securely; OpenId shared secret keys, connection strings, and API tokens to name a few.
 
 These secrets **must not** be stored in source control. It is not secure and means they are sitting out in the open, wherever code has been downloaded, for anyone to see.
@@ -25,6 +26,9 @@ These secrets **must not** be stored in source control. It is not secure and mea
 You may be asking what's a secret for a development environment? A developer secret is any value that would be considered sensitive.
 
 <!--endintro-->
+
+`youtube: https://www.youtube.com/watch?v=IwvCTwz0C7M`
+**Video: Do you share secrets securely | Jeoffrey Fischer (7min)**
 
 An encryption key or sql connection string to a developer's local machine/container is a good example of something that will not always be sensitive for in a development environment, whereas a GitHub PAT token or Azure Storage SAS token would be considered sensitive as it allows access to company-owned resources outside of the local development machine.
 
