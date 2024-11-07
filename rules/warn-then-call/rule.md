@@ -1,7 +1,9 @@
 ---
-seoDescription: Do you warn someone before calling them? A warm call can be a game-changer, prioritizing their attention and ensuring they're prepared to discuss important topics.
 type: rule
 title: Calling - Do you warn then call?
+seoDescription: Do you warn someone before calling them? A warm call can be a
+  game-changer, prioritizing their attention and ensuring they're prepared to
+  discuss important topics.
 uri: warn-then-call
 authors:
   - title: Adam Cogan
@@ -29,18 +31,17 @@ created: 2015-10-05T05:50:19.000Z
 archivedreason: null
 guid: f1f96132-3b5d-43a6-9ed4-aed16f885875
 ---
-
 It can be very jarring when somebody is called out of the blue and they are not expecting it. They might be deep in a task or talking to a client and by calling them their focus is getting disrupted.
 
 Before calling someone, be sure [not to just say 'hello'](/no-hello).
 
-A good way to initiate a call is to warm them up by giving a warning (e.g. _“Calling you in 1 min to talk about the Northwind production site being down 💀.”_).
+A good way to initiate a call is to warm them up by giving a warning (e.g. *“Calling you in 1 min to talk about the Northwind production site being down 💀.”*).
 
 <!--endintro-->
 
 ::: greybox
-**Warm Calling:** Give a warning, then call.  
-**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.  
+**Warm Calling:** Give a warning, then call.\
+**Hot Calling:** There's no need to give a warning, as the person you are calling is expecting your pre-arranged call.\
 :::
 
 ## ✅ The benefits of a warm call
@@ -76,6 +77,15 @@ Calling in 1 minute about this email thread:
 :::
 ::: good
 Good example - Includes email subject for reference and doesn't leave anyone waiting
+:::
+
+For [cross approvals](/cross-approvals), pinging the approvers with their priority order number shows how many you have attempted to contact before them, and how many are after if they can not take the call.
+
+::: greybox
+Calling you in 2 minutes to review a code change - Code Master (3/5)
+:::
+::: good
+Good example - Includes priority order numbers to share how many other approvers you have attempted to contact 
 :::
 
 ## Using Outlook | Share to Teams
