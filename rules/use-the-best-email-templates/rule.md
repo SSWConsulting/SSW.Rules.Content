@@ -109,7 +109,8 @@ Figure: OK example - Dynamics 365 Email Templates have robust features but are c
 
 ### OfficeAtWork Content Chooser
 
-See here for more information on [OfficeAtWork Content Chooser.](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser)
+More information on [OfficeAtWork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
+
 
 ::: greybox
 
