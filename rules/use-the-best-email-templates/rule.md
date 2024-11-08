@@ -48,7 +48,8 @@ Figure: Bad example - My Templates are limited in size and sharing capabilities,
 
 ### Signatures
 
-See here for more information on [Signatures.](https://support.microsoft.com/en-au/office/create-and-add-an-email-signature-in-outlook-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2)
+More information on [Signatures](https://support.microsoft.com/en-au/office/create-and-add-an-email-signature-in-outlook-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2).
+
 
 ::: greybox
 
