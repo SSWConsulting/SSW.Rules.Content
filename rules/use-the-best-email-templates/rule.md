@@ -33,7 +33,8 @@ Figure: Bad example - Outlook Templates are easy to share but have limitations w
 
 ### My Templates
 
-See here for more information on [My Templates.](https://www.howtogeek.com/697468/how-to-use-outlooks-my-templates-add-in-for-quick-text-entry/)
+More information on [My Templates](https://www.howtogeek.com/697468/how-to-use-outlooks-my-templates-add-in-for-quick-text-entry/).
+
 
 ::: greybox
 
