@@ -16,7 +16,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 <!--endintro-->
 
-### Outlook Email Templates
+## Outlook Templates
 
 ::: greybox
 
@@ -25,10 +25,12 @@ Simple to create and can be shared easily (e.g., via SharePoint). However, a new
 :::
 
 ::: bad
-Figure: Bad example - Outlook email templates are easy to share but have limitations with creation and calendar integration
+Figure: Bad example - Outlook Templates are easy to share but have limitations with creation and calendar integration
 :::
 
-### My Templates
+More information on [Outlook Templates](https://support.microsoft.com/en-au/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1).
+
+## My Templates
 
 ::: greybox
 
@@ -36,11 +38,14 @@ Simple to create but can't be shared with other users, have a 32KB limit, and ar
 
 :::  
 
-::: bad  
+::: bad
 Figure: Bad example - My Templates are limited in size and sharing capabilities, making them less useful for collaborative environments
+
 :::
 
-### Signatures
+More information on [My Templates](https://www.howtogeek.com/697468/how-to-use-outlooks-my-templates-add-in-for-quick-text-entry/).
+
+## Signatures
 
 ::: greybox
 
@@ -52,7 +57,9 @@ Simple to create but are stored locally, so they can't be shared with other devi
 Figure: Bad example - Signatures are easy to create but lack sharing capabilities and are limited by storage constraints
 :::
 
-### Quick Parts
+More information on [Signatures](https://support.microsoft.com/en-au/office/create-and-add-an-email-signature-in-outlook-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2).
+
+## Quick Parts
 
 ::: greybox
 
@@ -66,7 +73,9 @@ Figure: Bad example - Quick Parts are useful for rich text but not suitable for 
 
 :::
 
-### Word Documents on SharePoint
+More information on [Quick Parts](https://support.microsoft.com/en-au/office/quick-parts-4ffef7c5-7596-4e95-9faf-41c771847a7b).
+
+## Word Documents on SharePoint
 
 ::: greybox
 
@@ -80,7 +89,7 @@ Figure: OK example - Word documents on SharePoint support rich text and easy sha
 
 :::
 
-### Dynamics 365 Email Templates
+## Dynamics 365 Email Templates
 
 ::: greybox
 
@@ -92,7 +101,9 @@ Offer rich text, can be shared with anyone, and provide access to contact data. 
 Figure: OK example - Dynamics 365 Email Templates have robust features but are complex to manage and access
 :::
 
-### OfficeAtWork Content Chooser
+More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/).
+
+## OfficeAtWork Content Chooser
 
 ::: greybox
 
@@ -104,11 +115,13 @@ Supports rich text and allows for easy sharing via SharePoint. Setup is straight
 Figure: Good example - OfficeAtWork Content Chooser offers ease of use and sharing, though it requires manual updates
 :::
 
-### Summary
+More information on [OfficeAtWork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
+
+## Summary
 
 | Option                         | Pros                                                        | Cons                                                    |
 |--------------------------------|-------------------------------------------------------------|---------------------------------------------------------|
-| **Outlook Email Templates**    | Simple to create, easily shared via SharePoint              | Must create a new email, can't be used for meeting invites in calendars    |
+| **Outlook Templates**    | Simple to create, easily shared via SharePoint              | Must create a new email, can't be used for meeting invites in calendars    |
 | **My Templates**               | Simple to create                                            | Can't be shared, 32KB limit, stored on the server       |
 | **Signatures**                 | Rich text, simple to create                                | Stored locally, can't be shared, size restricted          |
 | **Quick Parts**                | Rich text                                                   | Stored locally, can't be shared                         |
