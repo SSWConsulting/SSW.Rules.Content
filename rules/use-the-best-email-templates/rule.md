@@ -18,7 +18,8 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 ### Outlook Templates
 
-See here for more information on [Outlook Templates.](https://support.microsoft.com/en-au/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1)
+More information on [Outlook Templates](https://support.microsoft.com/en-au/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1).
+
 
 ::: greybox
 
