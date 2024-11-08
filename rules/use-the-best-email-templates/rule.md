@@ -94,7 +94,8 @@ Figure: OK example - Word documents on SharePoint support rich text and easy sha
 
 ### Dynamics 365 Email Templates
 
-See here for more information on [Dynamics 365 Email Templates.](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/)
+More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/).
+
 
 ::: greybox
 
