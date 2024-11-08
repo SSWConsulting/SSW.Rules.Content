@@ -117,7 +117,7 @@ Figure: Good example - OfficeAtWork Content Chooser offers ease of use and shari
 
 More information on [OfficeAtWork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
 
-### Summary
+## Summary
 
 | Option                         | Pros                                                        | Cons                                                    |
 |--------------------------------|-------------------------------------------------------------|---------------------------------------------------------|
