@@ -20,7 +20,6 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 More information on [Outlook Templates](https://support.microsoft.com/en-au/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1).
 
-
 ::: greybox
 
 Simple to create and can be shared easily (e.g., via SharePoint). However, a new email is always generated from these templates, so they cannot be used for email replies or for calendars without manual copying and pasting.
@@ -34,7 +33,6 @@ Figure: Bad example - Outlook Templates are easy to share but have limitations w
 ### My Templates
 
 More information on [My Templates](https://www.howtogeek.com/697468/how-to-use-outlooks-my-templates-add-in-for-quick-text-entry/).
-
 
 ::: greybox
 
@@ -50,7 +48,6 @@ Figure: Bad example - My Templates are limited in size and sharing capabilities,
 
 More information on [Signatures](https://support.microsoft.com/en-au/office/create-and-add-an-email-signature-in-outlook-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2).
 
-
 ::: greybox
 
 Simple to create but are stored locally, so they can't be shared with other devices or users. Signatures have a 5000 character limit.
@@ -64,7 +61,6 @@ Figure: Bad example - Signatures are easy to create but lack sharing capabilitie
 ### Quick Parts
 
 More information on [Quick Parts](https://support.microsoft.com/en-au/office/quick-parts-4ffef7c5-7596-4e95-9faf-41c771847a7b).
-
 
 ::: greybox
 
@@ -96,7 +92,6 @@ Figure: OK example - Word documents on SharePoint support rich text and easy sha
 
 More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/).
 
-
 ::: greybox
 
 Offer rich text, can be shared with anyone, and provide access to contact data. However, they are complex to set up, fonts can be tricky, they don't work with meetings, and may involve many clicks to access.
@@ -110,7 +105,6 @@ Figure: OK example - Dynamics 365 Email Templates have robust features but are c
 ### OfficeAtWork Content Chooser
 
 More information on [OfficeAtWork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
-
 
 ::: greybox
 
