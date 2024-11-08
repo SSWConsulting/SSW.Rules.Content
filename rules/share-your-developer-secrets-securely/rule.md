@@ -34,6 +34,7 @@ An encryption key or SQL connection string to a developer's local machine/contai
 ## ❌ Bad practices
 
 ::: greybox
+
 ### ❌ Do not store secrets in appsettings.Development.json
 
 The `appsettings.Development.json` file is meant for storing development settings. It is **not** meant for storing secrets. This is a bad practice because it means that the secrets are stored in source control, which is not secure.
@@ -46,6 +47,7 @@ Figure: Bad practice - Overall rating: 1/10
 :::
 
 ::: greybox
+
 ### ❌ Do not share secrets via email/Microsoft Teams
 
 Sending secrets over Microsoft Teams is a terrible idea, the messages can land up in logs, but they are also stored in the chat history. Developers can delete the messages once copied out, although this extra admin adds friction to the process and is often forgotten.
@@ -62,6 +64,7 @@ Figure: Bad practice - Overall rating: 3/10
 ## ✅ Good practices
 
 ::: greybox
+
 ### ✅ Remind developers where the secrets are for a project
 
 For development purposes once you are using .NET User Secrets you will still need to share them with other developers on the project.
@@ -78,6 +81,7 @@ Figure: Good practice - Remind developers where the secrets are for this project
 :::
 
 ::: greybox
+
 ### ✅ Use 1ty.me to share secrets securely
 
 Using a site like [1ty.me](https://1ty.me/) allows you to share secrets securely with other developers on the project.
@@ -101,6 +105,7 @@ Figure: Good practice - Overall rating 8/10
 :::
 
 ::: greybox
+
 ### ✅ Use Azure Key Vault
 
 Azure Key Vault is a great way to store secrets securely. It is great for production environments, although for development purposes it means you would have to be online at all times.
@@ -126,7 +131,7 @@ Figure: Good practice - Overall rating 8/10
 
 ::: greybox
 
-### ✅ (Recommended) Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc... 
+### ✅ (Recommended) Use Enterprise Secret Management Tool – Keeper, 1Password, LastPass, Hashicorp Vault, etc
 
 Enterprise Secret Management tools have are great for storing secrets for various systems across the whole organization. This includes developer secrets
 
