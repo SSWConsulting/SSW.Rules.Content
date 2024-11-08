@@ -63,7 +63,8 @@ Figure: Bad example - Signatures are easy to create but lack sharing capabilitie
 
 ### Quick Parts
 
-See here for more information on [Quick Parts.](https://support.microsoft.com/en-au/office/quick-parts-4ffef7c5-7596-4e95-9faf-41c771847a7b)
+More information on [Quick Parts](https://support.microsoft.com/en-au/office/quick-parts-4ffef7c5-7596-4e95-9faf-41c771847a7b).
+
 
 ::: greybox
 
