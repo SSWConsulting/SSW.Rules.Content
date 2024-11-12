@@ -30,6 +30,7 @@ You may be involved in different tasks simultaneously every day. The best way to
 :::
 
 Follow these steps to group by conversation:
+Let's take the Outlook Version 2410 as an example,
 
 1. Open Outlook and select "View" on the ribbon.
 2. Tick the "Show as Conversations" option as displayed in the image.
