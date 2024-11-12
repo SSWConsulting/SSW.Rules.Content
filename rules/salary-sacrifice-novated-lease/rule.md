@@ -16,7 +16,7 @@ Salary sacrifice is an effective way to reduce your taxable income, allowing you
 
 <!--endintro-->
 
-When it comes to cars, this arrangement is known as a novated lease—a car financing option that lets employees treat their personal car as if it were a company car. It's a 3-way agreement between the employee, their employer, and the novated lease provider. 
+When it comes to cars, this arrangement is known as a novated lease — a car financing option that lets employees treat their personal car as if it were a company car. It's a 3-way agreement between the employee, their employer, and the novated lease provider. 
 
 As one of the most cost-effective car ownership options for Australians, a novated lease offers access to income tax and GST savings, additional fleet discounts, and the convenience of having a fully maintained car through the lease provider.
 
