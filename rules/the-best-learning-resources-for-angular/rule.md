@@ -29,21 +29,21 @@ Here are the best collection of resources for Angular.
 
 ## Free Resources
 
-- **[The official documentation - Angular.io](https://angular.io)**  
+* **[The official documentation - Angular.io](https://angular.io)**  
    Run through the [tutorial](https://angular.io/tutorial)
-- **[SSW TV - Angular category](https://tv.ssw.com/?s=angular)**
+* **[SSW TV - Angular category](https://tv.ssw.com/?s=angular)**
 
 ## Training Courses $
 
-- **[Angular Dev Superpowers Tour](https://www.ssw.com.au/events/angular-superpowers-tour)**
-- **[PluralSight - Getting Started with Angular](https://www.pluralsight.com/courses/angular-2-getting-started-update)**
+* **[Angular Dev Superpowers Tour](https://www.ssw.com.au/events/angular-superpowers-tour)**
+* **[PluralSight - Getting Started with Angular](https://www.pluralsight.com/courses/angular-2-getting-started-update)**
 
 ## Books
 
-- **[Little Book of Angular](Little-Book-Angular.pdf)**
-- **[The ng-book](https://www.ng-book.com/2)**
+* **[Little Book of Angular](Little-Book-Angular.pdf)**
+* **[The ng-book](https://www.ng-book.com/2)**
 
 ## Free Events
 
-- **[Angular Hack Day](https://angularhackday.com)**
-- **Your local JavaScript or Angular User Group** - [Find on Meetup](https://www.meetup.com)
+* **[Angular Hack Day](https://angularhackday.com)**
+* **Your local JavaScript or Angular User Group** - [Find on Meetup](https://www.meetup.com)
