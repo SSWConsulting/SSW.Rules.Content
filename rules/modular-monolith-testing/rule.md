@@ -24,8 +24,8 @@ There are 3 main testing strategies that can be used to effectively test modular
 
 Unit testing is critical in a modular monolith to validate the core business rules and domain logic within individual modules. Effective unit tests ensure that each module functions as expected, enabling:
 
-- **Verification of isolated business logic** within each module, such as validation rules or calculations.
-- **Maintenance of a clean, well-defined contract** for each module’s internal methods.
+* **Verification of isolated business logic** within each module, such as validation rules or calculations.
+* **Maintenance of a clean, well-defined contract** for each module’s internal methods.
 
 ::: greybox
 Ensure each module’s domain logic has comprehensive unit tests that cover typical and edge cases.
@@ -36,12 +36,12 @@ Figure: Good Example - Unit tests confirm the integrity of domain logic in isola
 
 ## Integration Testing
 
-Integration testing in modular monoliths is one of the highest-value forms of testing, as it verifies that modules interact as intended with infrastructure such as databases, and that modules also communicate correctly together. This is essential since a failure in module interactions can lead to complex issues in production. 
+Integration testing in modular monoliths is one of the highest-value forms of testing, as it verifies that modules interact as intended with infrastructure such as databases, and that modules also communicate correctly together. This is essential since a failure in module interactions can lead to complex issues in production.
 
 A reliable integration testing approach involves:
 
-- **Testing interactions between modules** to ensure data is handled and processed correctly across boundaries.
-- **Simulating database and service dependencies** to validate that modules function cohesively in a realistic environment.
+* **Testing interactions between modules** to ensure data is handled and processed correctly across boundaries.
+* **Simulating database and service dependencies** to validate that modules function cohesively in a realistic environment.
 
 There are several strategies that can make integration tests even more effective:
 
@@ -55,8 +55,8 @@ Integration tests allow teams to identify and resolve issues that occur only whe
 
 Workflow (or end-to-end) tests are invaluable in modular monoliths as they cover the application’s key business flows from start to finish. These tests simulate real user actions across multiple modules and validate that all components work together to produce the expected outcomes. This type of testing should be focused on:
 
-- **Simulating critical application workflows** that span multiple modules, such as user registration, order processing, or data retrieval.
-- **Ensuring that each step in the workflow** completes successfully and transitions correctly to the next, providing a realistic assessment of application stability.
+* **Simulating critical application workflows** that span multiple modules, such as user registration, order processing, or data retrieval.
+* **Ensuring that each step in the workflow** completes successfully and transitions correctly to the next, providing a realistic assessment of application stability.
 
 While workflow tests are the most complex and resource-intensive, they provide confidence that major application processes are functioning correctly and as intended.
 
