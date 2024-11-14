@@ -19,7 +19,6 @@ When sending repetitive emails, consistency across the organization is crucial. 
 `youtube: https://www.youtube.com/watch?v=kTVpvny0vRg`
 **Video: Email Template Showdown: We Put the Top Tools to the Test! | Tanya Leahy | Rules (16 mins)**
 
-
 | Options                        | ✅ Pros                                                     | ❌ Cons                                                    |
 |--------------------------------|-------------------------------------------------------------|---------------------------------------------------------|
 | **Outlook Templates**    | Simple to create, easily shared via SharePoint              | Must create a new email, can't be used for meeting invites in calendars    |
@@ -32,7 +31,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 ## More information
 
-With a variety of options available, each offering unique features for customization, automation, and integration, we’ve narrowed down a summary for each of the top contenders. 
+With a variety of options available, each offering unique features for customization, automation, and integration, we’ve narrowed down a summary for each of the top contenders.
 
 ### Option 1 - Outlook Templates
 
