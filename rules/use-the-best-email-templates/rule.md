@@ -16,6 +16,9 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=kTVpvny0vRg`
+**Video: Email Template Showdown: We Put the Top Tools to the Test! | Tanya Leahy | Rules (16 mins)**
+
 ## Outlook Templates
 
 ::: greybox
