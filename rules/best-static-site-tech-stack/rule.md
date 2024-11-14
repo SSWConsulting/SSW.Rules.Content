@@ -56,6 +56,8 @@ Here are some popular static site generators:
 | **State of JS (2023)**             | 57% used it 👑       | 17% used it     | N/A           | 17% used it      | N/A                      |
 | **Google Trends Rank**             | 1st 👑               | 4th             | 3rd           | 2nd              | 5th (almost 0 data)      |
 
+(This data was captured in Dec 2024)
+
 <br>
 
 ![Figure: Google trends for the above SSGs. In a substantial lead is NextJS, followed by Gatsby.](google-trends-nextjs.png)
