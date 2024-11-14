@@ -17,9 +17,9 @@ related: []
 redirects: []
 ---
 
-![Onion Architecture](Onion-Architecture.jpg)
-<br>
-Figure: The layers of the [onion architecture](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-know-the-layers-of-the-onion-architecture/Onion-Architecture.pdf)
+![Figure: Onion Architecture](Onion-Architecture.jpg)
+
+[Download Onion Architecture PDF](Onion-Architecture.pdf)
 
 <!--endintro-->
 
@@ -63,8 +63,8 @@ The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wi
 
 #### References:
 
-- http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/
-- [http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371#9933371](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
+- [Blog | Peeling Back the Onion Architecture](http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/)
+- [Stack Overflow Questions | What type of architecture is this called?](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
 
 ### Use SSW Data Onion to Generate your Code
 
