@@ -19,15 +19,15 @@ guid: 25648802-8fef-4ddd-94ad-41c2d3d649ab
 
 How you work with attachments should change depending on who you are emailing.
 
-For internal communications, linking to a document store on the intranet keeps files accessible, up-to-date, and minimizes the risk of broken links. When communicating externally, attaching the file directly is often more convenient for recipients who may not have access to internal systems. 
- 
+For internal communications, linking to a document store on the intranet keeps files accessible, up-to-date, and minimizes the risk of broken links. When communicating externally, attaching the file directly is often more convenient for recipients who may not have access to internal systems.
+
 <!--endintro-->
 
 ## Internal documents
 
 If you're sending to a fellow employee, **use a link** to a document store on your intranet (E.g.: `intranet.northwind.com/SharedDocuments`)
 
-When sharing documents internally it's best to keep the work alive in a link. The best way to do that is to have it hosted in one place where all working parties can access it. 
+When sharing documents internally it's best to keep the work alive in a link. The best way to do that is to have it hosted in one place where all working parties can access it.
 
 **Tip:** Using SharePoint will help minimize broken links.
 
@@ -56,5 +56,3 @@ It's often easier to **attach the file** than share a link due to permission iss
 ::: good
 ![Figure: Good example – Added external file as an attachment](email-external-good-example.png)
 :::
-
-
