@@ -29,13 +29,34 @@ On the other hand, complex functionality can be a bit more limited and time cons
 
 Here are some popular static site generators:
 
-| **Name**                                         | [NextJS](https://nextjs.org/) (Recommended) | [Gatsby](https://www.gatsbyjs.com/)            | [Astro](https://astro.build/)                                                         | [Scully](https://scully.io/)   | [Gridsome](https://gridsome.org/)    | [Jekyll](https://jekyllrb.com/)                                                                              |
-| ------------------------------------------------ | ------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| **Language**                                     | [React](https://reactjs.org/)               | React                                          | Most major JS frameworks via [islands](https://docs.astro.build/en/concepts/islands/) | [Angular](https://angular.io/) | [Vue](https://vuejs.org/)            | [Liquid](https://www.shopify.com/partners/blog/115244038-an-overview-of-liquid-shopifys-templating-language) |
-| **Data Handling**                                | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable                                                                    | Fully customisable             | GraphQL                              | Source code data files                                                                                       |
-| **Data Sources**                                 | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable                                                                    | Fully customisable             | Source Plugins, APIs, Local files    | Local files                                                                                                  |
-| **GitHub Pages Integration**                     | Requires setup                              | Seamless deployment via config files           | [Deployment via GitHub Actions](https://docs.astro.build/en/guides/deploy/github/)    | Deployment via GitHub Actions  | Seamless deployment via config files | Works out of the box                                                                                         |
-| **Decap CMS (formerly Netlify CMS) integration** | ✅                                          | ✅                                             | [✅](https://docs.astro.build/en/guides/cms/decap-cms/)                               | ✅                             | ✅                                   | ✅                                                                                                           |
+## Features
+
+| **Name**                           | [NextJS](https://nextjs.org/) (Recommended) | [Gatsby 🪦](https://www.gatsbyjs.com/)         | [Astro](https://astro.build/)                                                        | [Hugo](https://gohugo.io/)       | [Builder.io](https://www.builder.io/)              |
+| ---------------------------------- | ------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------------- | -------------------------------- | ----------------------------------- |
+| **Language**                       | [React](https://reactjs.org/)               | React                                          | Most major JS frameworks via [islands](https://docs.astro.build/en/concepts/islands/) | Go                                 | Customizable                       |
+| **Data Handling**                  | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable                                                                    | Customizable                      | Fully customisable                  |
+| **Data Sources**                   | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable                                                                    | Filesystem                        | CMS, APIs, Customizable             |
+| **GitHub Pages Integration**       | Requires setup                              | Seamless deployment via config files           | [Deployment via GitHub Actions](https://docs.astro.build/en/guides/deploy/github/)    | Deployment with GitHub Actions    | Customizable                        |
+| **[TinaCMS](https://tina.io) integration**            | ✅                                          | ✅                                             | [✅](https://docs.astro.build/en/guides/cms/tinacms/)                                 | ✅                                | ✅                                   |
+
+<br>
+
+::: info
+**Note:** 🪦 Gatsby is no longer being actively developed.
+:::
+
+## Market Share
+
+| **Name**                         | **Next.js (Recommended)**  | **Gatsby**     | **Hugo**    | **Astro**     | **Builder.io**           |
+|------------------------------------|----------------------|-----------------|---------------|------------------|--------------------------|
+| **GitHub Stars**                   | 127,000 👑           | 55,000          | 75,000        | 47,000           | 8,000                    |
+| **NPM Downloads (Weekly)**         | 6,000,000 👑        | 260,000         | N/A           | 247,000          | N/A                      |
+| **Stack Overflow Questions**       | 92,000 👑            | 15,000          | 6,000         | 2,000            | 100                      |
+| **BuiltWith Sites**                | 1,400,000 👑       | 126,000         | 167,000       | 483,000          | N/A                      |
+| **State of JS (2023)**             | 57% used it 👑       | 17% used it     | N/A           | 17% used it      | N/A                      |
+| **Google Trends Rank**             | 1st 👑               | 4th             | 3rd           | 2nd              | 5th (almost 0 data)      |
+
+(This data was captured in Dec 2024)
 
 <br>
 
