@@ -61,10 +61,10 @@ Because the Application core only relies on abstractions of the dependencies, it
 The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wikipedia.org/wiki/Dependency_inversion_principle) principle and other [SOLID principles](/do-you-know-the-common-design-principles-part-1).
 (Note: Onion Architecture has been replaced by [Clean Architecture](/rules-to-better-clean-architecture))
 
-#### References:
+#### References
 
-- [Blog | Peeling Back the Onion Architecture](http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/)
-- [Stack Overflow Questions | What type of architecture is this called?](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
+* [Blog | Peeling Back the Onion Architecture](http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/)
+* [Stack Overflow Questions | What type of architecture is this called?](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
 
 ### Use SSW Data Onion to Generate your Code
 

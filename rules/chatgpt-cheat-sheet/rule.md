@@ -56,19 +56,19 @@ _...{{ POSITION }} interviewer: "Act as a UX Designer interviewer and ask me 5 r
 
 ## Some dos ✅
 
-- For complex tasks, use: _"ask any questions needed for context"_
+* For complex tasks, use: _"ask any questions needed for context"_
 
 ::: greybox
 _"Design a new feature for our mobile app and ask me any questions for context."_
 :::
 
-- Tell it to _"be concise"_ or _"use bullet points"_
+* Tell it to _"be concise"_ or _"use bullet points"_
 
 ::: greybox
 _"Summarize the benefits of using React in our project, and please be concise. Use bullet points with pros and cons."_
 :::
 
-- Set the tone for responses (e.g. professional, informal, funny)
+* Set the tone for responses (e.g. professional, informal, funny)
 
 ::: greybox
 Professional: _"Explain the importance of code reviews in a professional tone."_
@@ -80,7 +80,7 @@ Funny: _"Share a funny anecdote about a marketing campaign that went wrong."_
 
 ## Some don’ts ❌
 
-- Don't ask leading questions. Don’t anchor ChatGPT.
+* Don't ask leading questions. Don’t anchor ChatGPT.
 
 ::: greybox
 _“Isn't Python the best language for this project?"_
@@ -96,7 +96,7 @@ _"What language would be best for this project and why?"_
 Good example
 :::
 
-- Don’t share confidential information with ChatGPT
+* Don’t share confidential information with ChatGPT
 
 According to Forbes, any data shared with ChatGPT could end up being leaked since the data becomes part of a collective database.
 
@@ -104,11 +104,11 @@ According to Forbes, any data shared with ChatGPT could end up being leaked sinc
 
 It’s important to consider what a prompt is made up of. Here’s an example that breaks down the different components of a good prompt:
 
-- **Role** - _You are a Software Developer._
-- **Result** - _Create 5 email subjects._
-- **Context** - _The email is to inform all the developers about a UX problem with search._
-- **Intent** - _The goal is to get them to critique my YouTube video._
-- **Constraint** - _Subject < 50 characters._
+* **Role** - _You are a Software Developer._
+* **Result** - _Create 5 email subjects._
+* **Context** - _The email is to inform all the developers about a UX problem with search._
+* **Intent** - _The goal is to get them to critique my YouTube video._
+* **Constraint** - _Subject < 50 characters._
 
 For more on this prompt structure, see: [Do you know the fundamentals of Prompt Engineering?](/fundamentals-of-prompt-engineering)
 
