@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn about the best email template software options to ensure consistency in your organization's communications.
 type: rule
-title: Do you know the best email template software?
+title: Do you know the best software for email templates?
 uri: use-the-best-email-templates
 authors:
   - title: Warwick Leahy
