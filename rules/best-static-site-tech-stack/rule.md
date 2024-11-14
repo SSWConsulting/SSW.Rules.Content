@@ -37,7 +37,7 @@ Here are some popular static site generators:
 | **Data Handling**                  | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable                                                                    | Customizable                      | Fully customisable                  |
 | **Data Sources**                   | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable                                                                    | Filesystem                        | CMS, APIs, Customizable             |
 | **GitHub Pages Integration**       | Requires setup                              | Seamless deployment via config files           | [Deployment via GitHub Actions](https://docs.astro.build/en/guides/deploy/github/)    | Deployment with GitHub Actions    | Customizable                        |
-| **TinaCMS integration**            | ✅                                          | ✅                                             | [✅](https://docs.astro.build/en/guides/cms/tinacms/)                                 | ✅                                | ✅                                   |
+| **[TinaCMS](https://tina.io) integration**            | ✅                                          | ✅                                             | [✅](https://docs.astro.build/en/guides/cms/tinacms/)                                 | ✅                                | ✅                                   |
 
 <br>
 
