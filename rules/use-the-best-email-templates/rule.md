@@ -27,7 +27,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 | **Quick Parts**                  | Rich text                                      | Stored locally, can't be shared                                              |
 | **Word Documents on SharePoint** | Rich text, easily shared                       | Need to switch between windows to use                                        |
 | **Dynamics 365 Email Templates** | Rich text, shared, access to contact data      | Complex setup, font issues, doesn't work with meetings, template duplication |
-| **OfficeAtWork Content Chooser** | Rich text, easily shared, simple setup         | Templates must be manually updated                                           |
+| **officeatwork Content Chooser** | Rich text, easily shared, simple setup         | Templates must be manually updated                                           |
 
 ## More information
 
@@ -120,7 +120,7 @@ Figure: OK example - Dynamics 365 Email Templates have robust features but are c
 
 More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/).
 
-### Option 7 - OfficeAtWork Content Chooser
+### Option 7 - officeatwork Content Chooser
 
 ::: greybox
 
@@ -129,7 +129,7 @@ Supports rich text and allows for easy sharing via SharePoint. Setup is straight
 :::
 
 ::: good
-Figure: Good example - OfficeAtWork Content Chooser offers ease of use and sharing, though it requires manual updates
+Figure: Good example - officeatwork Content Chooser offers ease of use and sharing, though it requires manual updates
 :::
 
-More information on [OfficeAtWork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
+More information on [officeatwork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
