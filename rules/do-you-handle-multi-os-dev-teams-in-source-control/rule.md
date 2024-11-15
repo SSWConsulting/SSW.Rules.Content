@@ -51,64 +51,54 @@ This ensures that, no matter what OS a developer is using, files are checked out
 
 Onboarding new developers is a critical step in ensuring that everyone is up and running quickly, but multi-OS teams often struggle with platform-specific setup instructions. The goal is to make onboarding as seamless as possible, whether a developer is using Windows, macOS, or Linux.
 
-### Solution: Write Cross-Platform setup scripts
+### Solution: Write Cross-Platform Setup Scripts Using PowerShell
 
-The key to ensuring easy onboarding is writing platform-agnostic setup scripts that work regardless of OS. Consider the following practices:
+To streamline onboarding and ensure compatibility across different platforms, it’s crucial to write setup scripts that work on all major operating systems. PowerShell is an ideal choice because it is natively available on Windows and can also be installed on macOS and Linux, making it a truly cross-platform solution. Here's how you can approach writing cross-platform setup scripts with PowerShell:
 
-- **Use shell scripts for macOS/Linux**: A shell script (`setup.sh`) can handle setup for Linux/macOS environments. You can use tools like `brew` (Homebrew) or `apt` for macOS/Linux package management to install dependencies.
+- **PowerShell for Windows, macOS, and Linux**: Instead of using separate scripts for each platform, write a PowerShell script (`setup.ps1`) that works on all platforms. PowerShell Core (now simply known as PowerShell) is cross-platform and can be run on Windows, macOS, and Linux, allowing you to write one script for all environments. You can use package managers like `Chocolatey` on Windows, `Homebrew` on macOS, or `apt`/`yum` on Linux within the same PowerShell script.
 
-- **Use PowerShell for Windows**: For Windows users, write a PowerShell script (`setup.ps1`) that handles Windows-specific installations and configurations, such as installing software via Chocolatey or downloading other necessary tools.
+- **Handling OS-Specific Logic in PowerShell**: PowerShell makes it easy to detect the operating system and execute different setup commands depending on the platform. For example, you can check whether the script is running on Windows, macOS, or Linux and then call the appropriate package manager or command for each environment.
 
-- **Universal Setup Script with .NET Core**: If you need a script that works across platforms, consider using **.NET Core**. Since .NET Core is cross-platform and works on Windows, macOS, and Linux, it provides a powerful and consistent environment for writing setup scripts. You can create a `.NET Core` application (like a console app) that checks the operating system and runs the corresponding setup commands.
+Here’s an example of a cross-platform setup script in PowerShell:
 
-Example of a cross-platform setup script in **.NET Core**:
+```powershell
+# Detect the OS and perform platform-specific setup
 
-```csharp
-using System;
-  using System.Diagnostics;
+$os = $env:OS
 
-  class Program
-  {
-      static void Main(string[] args)
-      {
-          // Check for OS type
-          string os = Environment.OSVersion.Platform.ToString();
+if ($os -like "*Windows*") {
+    Write-Host "Setting up for Windows..."
+    # Windows-specific setup, e.g., installing packages via Chocolatey
+    choco install somepackage
+}
+elseif ($os -like "*Linux*" -or $os -like "*Unix*") {
+    Write-Host "Setting up for Linux/macOS..."
+    # Linux/macOS-specific setup
+    if ($IsMacOS) {
+        # macOS-specific package manager (Homebrew)
+        brew install somepackage
+    }
+    else {
+        # Linux-specific package manager (apt, yum, etc.)
+        sudo apt-get install somepackage
+    }
+}
+else {
+    Write-Host "Unsupported OS detected."
+}
 
-          if (os.Contains("Win"))
-          {
-              RunCommand("powershell.exe", "-ExecutionPolicy Bypass -File setup.ps1");
-          }
-          else if (os.Contains("Unix"))
-          {
-              RunCommand("bash", "setup.sh");
-          }
-          else
-          {
-              Console.WriteLine("Unsupported OS");
-          }
-      }
-
-      static void RunCommand(string command, string arguments)
-      {
-          var processStartInfo = new ProcessStartInfo
-          {
-              FileName = command,
-              Arguments = arguments,
-              RedirectStandardOutput = true,
-              UseShellExecute = false
-          };
-
-          using (var process = Process.Start(processStartInfo))
-          using (var reader = process.StandardOutput)
-          {
-              string result = reader.ReadToEnd();
-              Console.WriteLine(result);
-          }
-      }
-  }
+Write-Host "Setup complete!"
 ```
 
-This script checks the platform and runs the appropriate setup script based on the OS.
+This script does the following:
+
+1. It checks the environment variable `$env:OS` to detect the operating system.
+2. Depending on the platform, it uses the appropriate package manager:
+   - **Windows**: Uses `choco` (Chocolatey) to install software.
+   - **macOS**: Uses `brew` (Homebrew) for package installation.
+   - **Linux**: Uses `apt-get` or similar package managers.
+
+By using PowerShell, you can create a single script that works across all major platforms, reducing the need for platform-specific scripts and simplifying the setup process for your users.
 
 ## Consistent Git configuration for Multi-OS Teams
 
@@ -138,8 +128,6 @@ To further ensure smooth collaboration among multi-OS teams, it’s important to
 
 - **Hooks and Templates**: Some repositories might require hooks or commit templates to enforce conventions like conventional commit messages or certain commit checks. Using a `.githooks` or `.gitmessage` file in the repository can help maintain consistency across platforms.
 
----
-
 ## Handling .NET secrets across platforms
 
 When working with .NET applications, developers often use the Visual Studio UI for managing secrets. The UI doesn’t work well across different platforms. To ensure consistency, the **CLI** is a better choice for managing secrets in a cross-platform environment.
@@ -163,15 +151,3 @@ Use the `.NET CLI` to store and retrieve secrets, as this approach works consist
 By relying on the `.NET CLI`, your team ensures that secrets are handled consistently, regardless of the operating system.
 
 For more information visit [Safe storage of app secrets in development in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=linux)
-
----
-
-## General best practices for Cross-Platform efficiency
-
-Finally, here are a few other general tips that can improve team efficiency regardless of their OS:
-
-- **Use Cross-Platform IDEs**: Encourage the use of cross-platform IDEs like **VS Code**, which work equally well on Windows, macOS, and Linux. Configure shared extensions and settings that improve productivity.
-
-- **Use Docker for local development**: Using Docker containers for local development can ensure that all team members, regardless of their OS, are working in a consistent environment. This also helps avoid issues where code works on one developer’s machine but not on another's due to OS-specific dependencies.
-
-- **Use CI/CD Pipelines**: Set up Continuous Integration and Continuous Deployment (CI/CD) pipelines that build and test your application on multiple operating systems to catch any platform-specific issues early.
