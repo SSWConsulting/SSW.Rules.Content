@@ -132,7 +132,7 @@ To further ensure smooth collaboration among multi-OS teams, it’s important to
 
 ## Handling .NET secrets across platforms
 
-When working with .NET applications, developers often use the Visual Studio UI for managing secrets. The UI doesn’t work well across different platforms. To ensure consistency, the **CLI** is a better choice for managing secrets in a cross-platform environment.
+When working with .NET applications, developers often use the Visual Studio UI for managing local development secrets. The UI doesn’t work well across different platforms or IDE's like VS Code. To ensure consistency, the **CLI** is a better choice for managing secrets in a cross-platform environment.
 
 ### Solution: Use the .NET CLI for local development secrets management
 
