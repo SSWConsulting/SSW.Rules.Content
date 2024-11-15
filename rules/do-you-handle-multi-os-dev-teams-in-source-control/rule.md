@@ -12,7 +12,9 @@ archivedreason: null
 guid: 7bc2e9c8-2b12-466b-8ecd-34576e3a1648
 ---
 
-In today’s development world, teams often consist of developers working on different operating systems (OS), such as Windows, macOS, and Linux. While each OS has its own strengths, managing a cross-platform development environment can introduce challenges. Issues like inconsistent line endings, platform-specific setup scripts, and configuration mismatches can lead to headaches for both individual developers and the team as a whole.
+In today’s development world, teams often consist of developers working on different operating systems (OS), such as Windows, macOS, and Linux. While each OS has its own strengths, managing a cross-platform development environment can introduce challenges. 
+
+Issues like inconsistent line endings, platform-specific setup scripts, and configuration mismatches can lead to headaches for both individual developers and the team as a whole.
 
 <!--endintro-->
 
@@ -24,19 +26,19 @@ One of the most common issues faced by teams working with Git across different p
 
 Git provides a way to manage line endings across different operating systems by using the `core.autocrlf` setting. This configuration ensures that line endings are normalized when files are checked in and out of the repository.
 
-- **Windows Users**: Set Git to automatically convert line endings to **CRLF** when checking out files, and convert them back to **LF** when committing.
+- **Windows users**: Set Git to automatically convert line endings to **CRLF** when checking out files, and convert them back to **LF** when committing.
 
   ```bash
   git config --global core.autocrlf true
   ```
 
-- **macOS/Linux Users**: Set Git to automatically convert **CRLF** line endings to **LF** when checking out files and leave them as **LF** when committing.
+- **macOS/Linux users**: Set Git to automatically convert **CRLF** line endings to **LF** when checking out files and leave them as **LF** when committing.
 
   ```bash
   git config --global core.autocrlf input
   ```
 
-- **Repository-Wide Configuration**: It’s a good practice to enforce this configuration across the team via a `.gitattributes` file, which allows you to define how specific file types should be handled. For example:
+- **Repository-Wide configuration**: It's a good practice to enforce this configuration across the team via a `.gitattributes` file, which allows you to define how specific file types should be handled. For example:
 
   ```text
   * text=auto
@@ -104,7 +106,7 @@ By using PowerShell, you can create a single script that works across all major 
 
 To further ensure smooth collaboration among multi-OS teams, it’s important to standardize Git configurations. Beyond line endings, Git offers other configurations that help maintain consistency.
 
-### Key Git cnfigurations for Multi-OS Teams:
+### Key Git configurations for Multi-OS Teams:
 
 - **User Name and Email**: Ensure each developer has set up their user name and email, as this is crucial for committing with correct author information:
 
