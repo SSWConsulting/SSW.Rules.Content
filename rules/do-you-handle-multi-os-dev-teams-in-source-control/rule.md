@@ -2,7 +2,7 @@
 seoDescription: Learn how to manage a multi-OS development team in source control. This article covers best practices for handling line endings (CRLF vs LF), creating cross-platform setup scripts, configuring Git for consistency, and using .NET CLI for secrets management to boost efficiency across Windows, macOS, and Linux.
 type: rule
 title: Do you handle Multi-OS dev teams in source control?
-uri: do-you-handle-multi-os-dev-teams-in-source-control
+uri: handle-multi-os-dev-teams-in-source-control
 authors:
   - title: Tom Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski
@@ -12,7 +12,7 @@ archivedreason: null
 guid: 7bc2e9c8-2b12-466b-8ecd-34576e3a1648
 ---
 
-In today’s development world, teams often consist of developers working on different operating systems (OS), such as Windows, macOS, and Linux. While each OS has its own strengths, managing a cross-platform development environment can introduce challenges. 
+In today’s development world, teams often consist of developers working on different operating systems (OS), such as Windows, macOS, and Linux. While each OS has its own strengths, managing a cross-platform development environment can introduce challenges.
 
 Issues like inconsistent line endings, platform-specific setup scripts, and configuration mismatches can lead to headaches for both individual developers and the team as a whole.
 
