@@ -24,9 +24,13 @@ Showing URLs on a slide is sometimes necessary - for example, you might be speci
 A much better approach is to use QR codes in your slides instead. Your audience can quickly scan the code and bookmark the interesting resource you are sharing.
 
 ::: good
-![Figure: Good example - A QR code is easier for your audience to quickly scan during your talk](url-in-presentation-good.png)
+![Figure: Good example - A QR code is easier for the audience to quickly scan during a talk](url-in-presentation-good.png)
 :::
 
-**💡 Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for your slides within PowerPoint. Check out this video:
+---
+
+**💡 Tip:** You can use an Office add-in called QR4Office to directly generate these QR codes for slides within PowerPoint. Check out this video:
 
 `youtube: https://www.youtube.com/embed/XRveGL3nXUM`
+
+**Video: How to create QR code in PowerPoint (2 min)**
