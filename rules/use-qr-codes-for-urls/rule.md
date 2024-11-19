@@ -1,7 +1,7 @@
 ---
 seoDescription: Taking note of a URL during a presentation is hard - make it easy for your users by giving them a QR code to scan instead
 type: rule
-title: 
+title: Do you use QR codes for URLs?
 guid: 31376058-c926-4f3e-a796-5a457b8ff139
 uri: use-qr-codes-for-urls
 created: 2024-11-18T00:43:28.0000000Z
