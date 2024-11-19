@@ -86,6 +86,43 @@ Hi Seth,
 
 :::
 :::
-::: good
-Figure: Good example - Notes from an AI meeting - sharing learnings 🧠
+::: ok
+Figure: Ok example - Notes from an AI meeting - sharing learnings 🧠 but the meeting is quite long
 :::
+
+If the above format is too long, it can be good to get it down to the essentials:
+
+::: email-template
+| | |
+| -------- | --- |
+| To: | {{ AI EVANGELISTS }} |
+| CC: | Interested Stakeholders |
+| Subject: | Getting the most out of AI tools |
+::: email-content
+
+### Hey All
+
+Here are the notes from our 74th meeting.
+
+Attendees:
+•	Uly, Mike, Seth, Louis
+
+News/developments for the week?
+
+* **{{ IMPORTANT TITLE }}** - {{ URL }} ({{ PERSON }} to share on Linkedin, if applicable)
+* {{ TITLE }} - {{ URL }} ({{ PERSON }} to share on Linkedin, if applicable)
+* etc.
+
+Hi Seth,
+ 
+1.	Please update the tech news with the bold above
+2.	Update the template below with the agenda from the new appointment, and this email format too
+ 
+<This email is as per [ssw.com.au/rules/weekly-ai-meetings](/weekly-ai-meetings)>
+
+:::
+:::
+::: good
+Figure: Good example - Quicker meeting that gets down to the important part - what's new in AI? 🧠
+:::
+
