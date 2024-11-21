@@ -1,3 +1,4 @@
+---
 type: rule
 title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
