@@ -8,6 +8,10 @@ created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - nouns-for-class-names
@@ -26,6 +30,7 @@ Code becomes easier to understand when names align closely with their meaning. S
 <!--endintro-->
 
 ## What is a verb?
+
 A verb is a word that describes an action or process—something that’s done. Examples include walk, run, think, listen, and breathe, as well as process, calculate, send, and save. While your method names shouldn’t all be single verbs (since that’s often too vague), they should be verb-based, using a verb as the foundation of their meaning.
 
 :::greybox

@@ -8,6 +8,10 @@ uri: avoid-micro-jargon
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names
@@ -25,16 +29,15 @@ guid: bf8b49d4-82f7-42fc-9e56-01076e6e5732
 
 Code that relies on nicknames, abbreviations, or internal jokes can create unnecessary obstacles for new team members or future collaborators. Terms that only make sense to the “in-group” (like a specific project team or company department) can be hard to interpret, causing frustration and slowing down onboarding. Instead, favor widely understandable names or domain-specific terms that reflect a shared understanding of the business or domain.
 
-
 <!--endintro-->
 
 :::greybox
-**How this differs from ubiquitous language**    
+**How this differs from ubiquitous language**
 Using ubiquitous language (see our rule [Do you use ubiquitous language?](/ubiquitous-language)) is about naming concepts in ways that align with terms used by domain experts and stakeholders. While this might seem like micro-culture jargon at first glance, it’s different for an important reason. Unlike insider terms, ubiquitous language refers to widely recognized ideas within the domain, making code clearer for anyone familiar with the field. Avoid in-grouped terms that don’t convey meaning to people outside the team, even if they seem descriptive to those who are “in the know.”
 :::
 
-
 Imagine you’re working on a temperature regulation system and need functions to identify areas where the temperature has exceeded an upper or lower threshold. You write an enum to represent the state of an area that’s too hot or too cold:
+
 ```csharp
 enum ThresholdBreachState
 {
@@ -42,6 +45,7 @@ enum ThresholdBreachState
   Mustafar
 }
 ```
+
 :::bad
 These names are cool but require specific knowledge as well as context about the person who wrote them
 :::
@@ -49,6 +53,7 @@ These names are cool but require specific knowledge as well as context about the
 Now, this is actually pretty awesome, and if I saw this in your code, I’d probably buy you a beer. But realistically, this is too niche a description, and the mental leap required to connect the dots is burdensome.
 
 A more universally understandable version would be:
+
 ```csharp
 enum ThresholdBreachState
 {
@@ -56,6 +61,7 @@ enum ThresholdBreachState
   MinExceeded
 }
 ```
+
 :::good
 These names are _not_ cool, but they are meaningful and easy for any developer to understand
 :::
@@ -73,12 +79,12 @@ public byte[] LittleDavify(Stream input)
     //
 }
 ```
+
 :::bad
 You might think this is fun - John and Dave might even think so too - but the meaning here is completely unclear
 :::
 
 For instance, if nicknames are used ironically (think of “Little John” from Robin Hood), it’s possible that `LittleDavify` actually decompresses messages while `BigJohnify` compresses them. Did you spot the word "respectively" at the end of the first sentence? Anyone “in the know” might understand this, but it demands unique insider knowledge and risks being both unprofessional and confusing.
-
 
 A far better method name pair would be `CompressMessage` and `DecompressMessage`. They are clear and concise to anyone reading the code, without the need for insider knowledge or the cognitive load of applying it.
 
@@ -93,6 +99,7 @@ public byte[] Decompress(Stream input)
     //
 }
 ```
+
 :::good
 These method names are much better - they instantly convey to anyone what they do
 :::

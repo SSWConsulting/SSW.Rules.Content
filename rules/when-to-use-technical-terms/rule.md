@@ -8,6 +8,10 @@ created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names
@@ -26,10 +30,13 @@ Naming is most effective when it aligns with the audience’s understanding. In 
 <!--endintro-->
 
 ## Choosing the Right Term
+
 ### Use Domain Terms for Business Logic
+
 When naming classes, methods, or variables that represent core business concepts, use terms that reflect the language of the domain. This approach, often called *ubiquitous language* (see our rule [Do you use ubiquitous language?](/ubiquitous-language)), helps ensure that the code is understandable to developers and domain experts alike, reducing the risk of misinterpretation. For example, in a retail application, classes like `Order`, `ProductCatalog`, and `CustomerAccount` use domain terms that match stakeholders' understanding.
 
 ### Use Technical Terms for Implementation Details
+
 Conversely, use technical terms for internal or lower-level code that doesn't directly involve business logic. These terms should clearly describe the technical functionality, helping developers quickly understand the purpose without needing domain context. For instance, classes or methods named `CacheInterceptor`, `AnalyticsLogger`, or `CustomerRepository` make sense to developers without domain knowledge, focusing instead on their technical purpose.
 
 :::greybox

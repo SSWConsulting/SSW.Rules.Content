@@ -8,6 +8,10 @@ created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names
@@ -23,10 +27,10 @@ guid: 7d9eb8d3-4522-40c9-bcbd-b22f48f50edf
 
 When building solutions for clients, it’s tempting to include personal or company identifiers in control or component names, like `GoldieEntry` or `SSWButton`. However, naming controls after yourself or your company in client projects can create confusion, dilute the client’s branding, and look unprofessional. For consultants, the goal should be to name components in ways that make sense within the client’s business context.
 
-
 <!--endintro-->
 
 ## Why It Matters
+
 Names that reflect the client’s brand or domain are clearer and more meaningful for the client’s internal teams and stakeholders. They also reduce the risk of naming conflicts and make it easier for future developers to understand the purpose of a component in context.
 
 :::greybox

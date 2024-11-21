@@ -8,6 +8,10 @@ created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names
@@ -26,6 +30,7 @@ A fundamental principle of object-oriented programming is that a class represent
 <!--endintro-->
 
 ## What is a noun?
+
 A noun is a word that names a thing. Common examples include tangible items like Table, Cup, or Computer and abstract entities like Record, Database, or Cloud. In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
 
 :::greybox
@@ -42,6 +47,6 @@ Naming the class `Order` better represents its role as an entity that holds orde
 A class name that clearly represents a thing is much easier to understand
 :::
 
-
 ## Events: The exception that proves the rule
+
 In domain-driven design (DDD) and event-driven architectures (EDA), you’ll often see exceptions to this rule. Events like `OrderPlaced` or `UserRegistered` are commonly named with verb phrases to represent specific actions or occurrences within the system, rather than entities with persistent state. This naming convention is acceptable, as it indicates a change or trigger rather than a static object. For other class types, however, sticking to nouns keeps the codebase clear and consistent.
