@@ -8,6 +8,10 @@ created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - nouns-for-class-names
   - verbs-for-method-names
@@ -22,6 +26,10 @@ redirects:
   - do-you-follow-naming-conventions
 guid: bfcbc0ef-d2f8-4e77-85d9-97ccb841eb19
 ---
+
+`youtube: https://youtu.be/VzEZXx54spc`
+
+**Video: Hear from Jeoffrey Fischer about how to follow good naming conventions!**
 
 In the early days of coding, we had to store more information in our heads than in our computers, leading to all sorts of creative abbreviations and clever shortcuts. But today, storage and readability are no longer limitations—our computers can handle verbose names better than our brains can handle cryptic codes. Clinging to those old practices can hurt your code’s readability and make life harder for your team.
 
