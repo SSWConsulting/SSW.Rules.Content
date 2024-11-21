@@ -134,6 +134,7 @@ When there is a new update in emails do the following ASAP:
 Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. Refer to the rule [Do you escalate key updates and deliverables?](/escalate-key-updates) for guidance on how to share critical updates effectively.
 
 For example:
+
 * After completing a Done Video or resolving a major issue, use the Escalate Key Updates rule to communicate results via email to ensure visibility.
 * Use @mentions in PBIs for less critical updates and emails for high-priority updates that require stakeholder attention.
 
