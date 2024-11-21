@@ -128,6 +128,17 @@ When there is a new update in emails do the following ASAP:
 ![Figure: Good example - Put it in a PBI!](pbi-example.png)
 :::
 
+## Escalating Key Updates After Completing a PBI
+
+Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. Refer to the rule [Do you escalate key updates and deliverables?](/escalate-key-updates) for guidance on how to share critical updates effectively.
+
+For example:
+
+* After completing a Done Video or resolving a major issue, use the Escalate Key Updates rule to communicate results via email to ensure visibility.
+* Use @mentions in PBIs for less critical updates and emails for high-priority updates that require stakeholder attention.
+
+This ensures a seamless workflow from task creation to stakeholder communication, preventing updates from being missed.
+
 ## Turn emails into tickets
 
 If you use a ticketing system like Zendesk, you should follow a similar process to the above to turn emails with tasks into tickets.
