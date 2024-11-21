@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/47f4dfd0-c013-44ff-96a6-bdb9d16a6fec)![image](https://github.com/user-attachments/assets/2591584e-88bb-45b0-87b6-0daad8ff044f)---
 type: rule
 title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
