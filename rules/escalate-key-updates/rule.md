@@ -57,7 +57,7 @@ If you have any feedback, please post it on the PBI.
 
 This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi/).
 
-Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
+Sometimes the [PBI work originated from an email](/turn-emails-into-pbis/), in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
 
 Additionally, giving the the Product Owner and/or Stakeholder(s) a call to show them the video is great - this ensures they watch it and you can get instant feedback.
 
@@ -65,5 +65,4 @@ Additionally, giving the the Product Owner and/or Stakeholder(s) a call to show 
 **Notes:**
 
 * Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
-* You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
 :::
