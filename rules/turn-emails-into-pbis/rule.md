@@ -131,7 +131,7 @@ When there is a new update in emails do the following ASAP:
 
 ## Escalating Key Updates After Completing a PBI
 
-Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. Refer to the rule [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/) for guidance on how to share critical updates effectively.
+Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. Refer to the rule [Do you escalate key updates and deliverables?](/escalate-key-updates/) for guidance on how to share critical updates effectively.
 
 For example:
 * After completing a Done Video or resolving a major issue, use the Escalate Key Updates rule to communicate results via email to ensure visibility.
