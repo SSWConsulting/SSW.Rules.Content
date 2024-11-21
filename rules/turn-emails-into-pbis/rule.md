@@ -3,27 +3,28 @@ type: rule
 title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
-  - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-  - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
-  - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+
+* title: Adam Cogan
+    url: <https://ssw.com.au/people/adam-cogan>
+* title: Damian Brady
+    url: <https://ssw.com.au/people/damian-brady>
+* title: Piers Sinclair
+    url: <https://ssw.com.au/people/piers-sinclair>
+* title: Matt Wicks
+    url: <https://ssw.com.au/people/matt-wicks>
+* title: Drew Robson
+    url: <https://ssw.com.au/people/drew-robson>
+* title: Chris Schultz
+    url: <https://ssw.com.au/people/chris-schultz>
 related:
-  - do-you-know-the-3-steps-to-a-pbi
-  - when-you-use-mentions-in-a-pbi
-  - reply-done-and-delete-the-email
-  - triage-support-tickets
+* do-you-know-the-3-steps-to-a-pbi
+* when-you-use-mentions-in-a-pbi
+* reply-done-and-delete-the-email
+* triage-support-tickets
 redirects:
-  - do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
-  - do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
-  - turn-emails-into-work-items
+* do-you-turn-an-email-into-a-tfs-work-item-before-starting-work
+* do-you-turn-an-email-into-an-azure-devops-work-item-before-starting-work
+* turn-emails-into-work-items
 created: 2013-06-27T18:28:23.000Z
 archivedreason: null
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
@@ -133,8 +134,8 @@ When there is a new update in emails do the following ASAP:
 Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. Refer to the rule [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/) for guidance on how to share critical updates effectively.
 
 For example:
--	After completing a Done Video or resolving a major issue, use the Escalate Key Updates rule to communicate results via email to ensure visibility.
--	Use @mentions in PBIs for less critical updates and emails for high-priority updates that require stakeholder attention.
+* After completing a Done Video or resolving a major issue, use the Escalate Key Updates rule to communicate results via email to ensure visibility.
+* Use @mentions in PBIs for less critical updates and emails for high-priority updates that require stakeholder attention.
 
 This ensures a seamless workflow from task creation to stakeholder communication, preventing updates from being missed.
 
