@@ -30,6 +30,7 @@ When creating custom controls, avoid vague or generic names like CustomStepper o
 <!--endintro-->
 
 ## Why It Matters
+
 Meaningful modifiers make it clear what a class, module, or component does or how it differs from a standard version. This helps developers understand its role without digging through code and reduces the chance of naming conflicts with other libraries.
 
 :::greybox
