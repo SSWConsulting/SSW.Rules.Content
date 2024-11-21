@@ -8,6 +8,10 @@ created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
     url: https://ssw.com.au/people/matt-goldman
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
   - nouns-for-class-names
   - verbs-for-method-names
@@ -23,21 +27,28 @@ redirects:
 guid: bfcbc0ef-d2f8-4e77-85d9-97ccb841eb19
 ---
 
+`youtube: https://youtu.be/VzEZXx54spc`
+
+**Video: Hear from Jeoffrey Fischer about how to follow good naming conventions!**
+
 In the early days of coding, we had to store more information in our heads than in our computers, leading to all sorts of creative abbreviations and clever shortcuts. But today, storage and readability are no longer limitations—our computers can handle verbose names better than our brains can handle cryptic codes. Clinging to those old practices can hurt your code’s readability and make life harder for your team.
 
 <!--endintro-->
 
 ## Avoid mental encoding
+
 It’s easy to invent clever codes to keep names short, like `cstmrMgr` to represent a "customer manager." But using shorthand requires other developers (or your future self) to mentally decode each abbreviation, slowing comprehension and increasing the risk of misinterpretation. Instead, use instantly recognizable names — there’s no need to not simply call it `CustomerManager` (although there are reasons to avoid "manager" as a name, see our rule [Do you avoid generic names like “manager,” “processor,” “data,” or “info”?](/avoid-generic-names)).
 
-
 ## Be verbose
+
 Today, there’s no reason to squeeze names into character limits or cryptic codes. While you shouldn’t use full sentences for a class or method name (test cases might be an exception, see our rule [Do you follow naming conventions for tests and test projects?](/follow-naming-conventions-for-tests-and-test-projects)), full, meaningful words make your code far more readable and maintainable.
 
 :::greybox
 Imagine you’re creating a game and need a variable to store the player’s health. You might decide to use an integer called `NRG`. It’s short for "energy," which might seem clever — it’s easy to write, and you know what it means. But this has some problems:
+
 * Other developers might misinterpret "energy" as something else, like power or ammo. Wouldn't "health" better represent the intended meaning here?
 * If you add enemies with their own energy, what will you name their variable? (Spoiler: `nmeNrg`.)
+
 :::
 :::bad
 Using clever abbreviations is unnecessary, and can easily cause confusion
@@ -51,7 +62,7 @@ A clear and precise name avoids confusion and conveys its meaning clearly
 :::
 
 :::greybox
-Now let’s say you’re working on an invitation and activation feature. You need a variable to store the validity period for an invitation, so you create one called: `ttlDays`.    
+Now let’s say you’re working on an invitation and activation feature. You need a variable to store the validity period for an invitation, so you create one called: `ttlDays`.
 While `ttlDays` might seem logical as shorthand for "time-to-live in days," other developers might interpret it as "total days," or spend extra time deciphering its intended use.
 :::
 :::bad
