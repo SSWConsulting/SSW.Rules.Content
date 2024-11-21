@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/47f4dfd0-c013-44ff-96a6-bdb9d16a6fec)![image](https://github.com/user-attachments/assets/2591584e-88bb-45b0-87b6-0daad8ff044f)---
 type: rule
 title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
@@ -127,6 +127,16 @@ When there is a new update in emails do the following ASAP:
 ::: good
 ![Figure: Good example - Put it in a PBI!](pbi-example.png)
 :::
+
+## Escalating Key Updates After Completing a PBI
+
+Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. Refer to the rule [Do you escalate key updates and deliverables?](https://www.ssw.com.au/rules/escalate-key-updates/) for guidance on how to share critical updates effectively.
+
+For example:
+-	After completing a Done Video or resolving a major issue, use the Escalate Key Updates rule to communicate results via email to ensure visibility.
+-	Use @mentions in PBIs for less critical updates and emails for high-priority updates that require stakeholder attention.
+
+This ensures a seamless workflow from task creation to stakeholder communication, preventing updates from being missed.
 
 ## Turn emails into tickets
 
