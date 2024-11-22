@@ -130,7 +130,7 @@ When there is a new update in emails do the following ASAP:
 
 ## Escalating key updates after completing a PBI
 
-Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables. 
+Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables.
 
 Refer to rule on [escalating key updates and deliverables](/escalate-key-updates) for guidance on how to share critical updates effectively.
 
