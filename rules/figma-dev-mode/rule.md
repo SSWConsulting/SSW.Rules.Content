@@ -35,9 +35,9 @@ One of the biggest pain points during design-to-development handover is the loss
 4. **Test Asset Downloads:** Ensure assets are correctly prepared and named for development to prevent rework.
 
 ::: bad  
-![Figure: Bad Example - A basic mockup or prototype with no technical details, forcing developers to guess measurements and styles.](figma-preview.png)  
+![Figure: Bad Example - A basic mockup or prototype with no technical details, forcing developers to guess measurements and styles.](figma-preview_1732244330056.png)  
 :::
 
 ::: good  
-![Figure: Good Example - The design includes useful developer details such as color codes, font styles, measurements, and spacing.](figma-dev-mode.png)  
+![Figure: Good Example - The design includes useful developer details such as color codes, font styles, measurements, and spacing.](figma-dev-mode_1732244330055.png)  
 :::
