@@ -21,7 +21,7 @@ Usually when an employee from the company wants to make a decision about either 
 <!--endintro-->
 
 ::: good
-![Figure: Good Example - Using the voting buttons option](OutlookVoting.gif) 
+![Figure: Good Example - Using the voting buttons option](OutlookVoting.gif)
 :::
 
 ## How to use the voting option feature
