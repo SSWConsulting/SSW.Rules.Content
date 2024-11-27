@@ -16,25 +16,29 @@ redirects:
   - post-production-review-videos-collaboratively
 ---
 
-So you have just finished that sweet video edit and you are now ready & excited to receive feedback from your team and or client. You just sent the link to the video to get "Test Pleased" and now the struggle begins with issues like:
+So you have just finished that sweet video edit and are now ready to receive feedback from the team or client. You just sent the link to the video with a "test please" and the struggle begins with issues like:
 
-- Feedback and video are in 2 different places - So you have to jump back and forth between feedback notes and video
-- No single source of feedback - Feedback is given by word of mouth, multiple email threads, comments and handwritten notes
-- Overlapping or conflicting feedback from different people
-- Version control - Versions not linked automatically
-- Timecodes - You need to manually document timecodes
-- Video accessibility - During a teams call only one person can interact with the video
-- Feedback clarity - No ability to draw on the video
-- Project handover - Difficulty sharing with other editors E.G. No single source of truth
+<!--endintro-->
+
+- **Feedback and video are in 2 different places** - So you have to jump back and forth between feedback notes and video
+- **No single source of feedback** - Feedback is given by word of mouth, multiple email threads, group chat, comments, and/or handwritten notes
+- **Overlapping or conflicting feedback** from different people
+- **No version control** - Versions not linked automatically
+- **No timecodes** - You need to manually document timecodes
+- **Limited video accessibility** - During a Teams call only one person can interact with the video
+- **Lack of feedback clarity** - E.g. No ability to draw on the video
+- **Difficult project handover** - No easy way to share with other editors. No single source of truth
 
 This is where collaborative viewing platforms like [Frame.io](https://frame.io) come in.
+
+## Using Frame.io
 
 `youtube: https://www.youtube.com/embed/rapbhpW3jPM`
 **Video: What is Frame.io? (2 min)**
 
 Frame.io is a purpose-built video review and collaboration software that lets you share, comment, and approve videos with your team and clients. Frame.io integrates with popular editing tools such as Adobe Premiere Pro and After Effects, so you can work seamlessly across different platforms.
 
-## Getting started
+### Getting started
 
 To review and comment on video projects in Frame.io you don't need an account, it will simply prompt you to put in your name and email address.
 
@@ -46,7 +50,7 @@ Once you have logged in, you can create projects and invite collaborators. You c
 
 ![Figure: Projects page on frame.io](frameio-projects1.png "Projects page on frame.io")
 
-## Sharing video for feedback
+### Sharing video for feedback
 
 To share a video for review, you can generate a shareable link that anyone can access without logging in. You can customize the link settings such as password protection, expiration date, download permission, watermarking, etc. To do this;
 
@@ -63,7 +67,7 @@ To share a video for review, you can generate a shareable link that anyone can a
 
 ![Figure: Share link page](frame-edit-7.png "Share link page")
 
-## Reviewing videos
+### Reviewing videos
 
 To review a video, you can play it back through a browser on any device and leave feedback, pinpointed down to the second! You can use annotations, emojis, drawings, etc. to make your comments more specific and actionable. You can also reply to other comments or tag collaborators to notify them.
 
@@ -106,7 +110,7 @@ To review a video, you can play it back through a browser on any device and leav
 
 ![Figure: Video versions menu](frame-version-2.png "Comparing all video versions")
 
-## Actioning feedback
+### Actioning feedback
 
 Exporting feedback - to download all comments:
 
@@ -122,17 +126,9 @@ Exporting feedback - to download all comments:
 
 ![Figure: Mark comment as done button](frame-edit-3.png "Mark comment as done button")
 
-## Why you shouldn't review videos on delivery platforms
+### Why you shouldn't review videos on delivery platforms
 
-The top video social media are:
-
-- YouTube
-- YouTube Shorts
-- Vimeo
-- Instagram
-- TikTok
-
-Comparison table using delivery platforms over Frame.io for reviewing
+See the comparison table using the top delivery platforms over Frame.io for reviewing:
 
 |                                     | Frame.io | One Drive | Vimeo |   YouTube   | YouTube Shorts | Instagram | TikTok |
 | ----------------------------------- | -------- | :-------: | :---: | :---------: | :------------: | :-------: | -----: |
