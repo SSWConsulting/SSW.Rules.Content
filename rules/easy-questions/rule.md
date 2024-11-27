@@ -1,18 +1,18 @@
 ---
-seoDescription: Make your questions easy to respond to and save time
+seoDescription: Learn how to save time and reduce frustration with effective question-asking techniques. Discover why simple, clear questions lead to faster decisions and better communication.
 type: rule
 archivedreason:
-title: Do you keep your questions easy to answer?
+title: Do you make your questions easy to answer?
 guid: 3ea0adce-894f-424e-883b-d7ed17b6e613
 uri: easy-questions
 created: 2023-07-10T12:00:00.0000000Z
 authors:
   - title: Seth Daily
-    url: https://www.ssw.com.au/people/seth-daily/
+    url: https://www.ssw.com.au/people/seth-daily
   - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks/
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
-    url: https://www.ssw.com.au/people/piers-sinclair/
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - no-hello
   - as-per-our-conversation-emails
@@ -25,13 +25,15 @@ Asking easy questions saves time for both the person asking and the person answe
 
 <!--endintro-->
 
-## Make questions that are easy to respond to
+## Making questions that are easy to respond to
 
-If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase your question without losing the important points.
+If you need an answer quickly, you should aim to make as easy as possible for the other person to respond. Where possible, avoid open ended questions as they take more time and effort to reply to. The easier it is for the other person to respond, the quicker and more effective your communication will be. Therefore, you should always aim for the simplest way you can phrase the question without losing the important points.
 
-Depending on your question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. Don't ask for a $10,000 purchase please with a Teams message!
+::: info
+**Note:** Depending on the question, you should approach asking it differently - make sure that the way you ask the question matches the level of importance and complexity. E.g.: Don't ask for a $10,000 purchase on a Teams message!
+:::
 
-### Yes or no
+### Use "yes or no"
 
 This type of question is the easiest to answer. The clearest way to phrase it is with a 'y or n' at the end of your question.
 
@@ -51,11 +53,13 @@ Is this title good for our new video on YouTube? Yes or no?
 Figure: Good example - The other person knows immediately how to answer
 :::
 
-**Tip:** Don't feel like you are confining their reply - if they feel like they need to add more detail, they can!
+::: info
+**Tip:** Don't feel like you are confining their reply - if they feel like needing to add more detail, they can and will.
+:::
 
-### Simple questions
+### Ask for reactions for multiple options
 
-For a simple question with multiple options, list the options and ask them to thumbs up 👍 their preferred one. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
+For a simple question with multiple options, list the options and ask them to "thumbs up 👍" their preferred one. That makes it as simple as possible to respond so you can even catch people who are extremely busy!
 
 ::: bad
 ![Figure: Bad example - The person might spend unnecessary time pondering and then typing a reply](bad-question.png)
@@ -65,7 +69,7 @@ For a simple question with multiple options, list the options and ask them to th
 ![Figure: Good example - The question and options are easy for a busy person to action](no-hello.jpg)
 :::
 
-### Questions to a group
+### Use polls for questions to a group
 
 When you anticipate many replies/votes to your question (e.g. in a group chat), use polls. In Microsoft Teams, use the 'Voting Table' Loop component. Polls help to reduce noise and easily analyze responses.
 
@@ -81,9 +85,15 @@ When you anticipate many replies/votes to your question (e.g. in a group chat), 
 ![Figure: Good example - This easily shows everybody's replies and is editable in real time](lunch-choice-good.png)
 :::
 
-### When you need a paper trail
+### Avoid a call
 
-If it will be important to have a record of your discussion, the best thing to do is call or have an in-person discussion. Once you have the answer, send an [as per our conversation email](/as-per-our-conversation-emails/) to make sure both parties are clear on the result.
+A good technique is to say "_Can you answer the above... if not, I will give you a call in 15 mins_".
+
+---
+
+## When you can't make it simple and need a paper trail
+
+If it is important to have a record of a discussion, the best thing to do is call or have an in-person discussion. Once you have the answer, send an [as per our conversation email](/as-per-our-conversation-emails/) to make sure both parties are clear on the result.
 
 ::: bad
 ![Figure: Bad example - A small thumbs up can result in a big miscommunication](purchase-please-bad.png)
