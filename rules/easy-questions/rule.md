@@ -17,6 +17,8 @@ related:
   - no-hello
   - as-per-our-conversation-emails
   - important-chats-should-be-in-an-email
+  - do-you-use-the-voting-option-appropriately
+
 ---
 
 Do you sometimes spend time answering unnecessarily complicated questions? This can be a pain and cost valuable time. Or, when you're asking someone a question about something that is blocking you, do you ever get frustrated when the person reads your message but doesn't reply? This can lead to a series of reminders and time spent chasing them up.
