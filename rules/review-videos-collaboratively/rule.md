@@ -20,14 +20,14 @@ So you have just finished that sweet video edit and are now ready to receive fee
 
 <!--endintro-->
 
-- **Feedback and video are in 2 different places** - So you have to jump back and forth between feedback notes and video
-- **No single source of feedback** - Feedback is given by word of mouth, multiple email threads, group chat, comments, and/or handwritten notes
-- **Overlapping or conflicting feedback** from different people
-- **No version control** - Versions not linked automatically
-- **No timecodes** - You need to manually document timecodes
-- **Limited video accessibility** - During a Teams call only one person can interact with the video
-- **Lack of feedback clarity** - E.g. No ability to draw on the video
-- **Difficult project handover** - No easy way to share with other editors. No single source of truth
+* **Feedback and video are in 2 different places** - So you have to jump back and forth between feedback notes and video
+* **No single source of feedback** - Feedback is given by word of mouth, multiple email threads, group chat, comments, and/or handwritten notes
+* **Overlapping or conflicting feedback** from different people
+* **No version control** - Versions not linked automatically
+* **No timecodes** - You need to manually document timecodes
+* **Limited video accessibility** - During a Teams call only one person can interact with the video
+* **Lack of feedback clarity** - E.g. No ability to draw on the video
+* **Difficult project handover** - No easy way to share with other editors. No single source of truth
 
 This is where collaborative viewing platforms like [Frame.io](https://frame.io) come in.
 
@@ -87,8 +87,8 @@ To review a video, you can play it back through a browser on any device and leav
 
    **Notes:**
 
-- To clear the playback range of the video press the escape key on the keyboard.
-- Playback of a section will loop in the playback range.
+* To clear the playback range of the video press the escape key on the keyboard.
+* Playback of a section will loop in the playback range.
 
   ![Figure: In and out point](frame-comment-4.png)
 
