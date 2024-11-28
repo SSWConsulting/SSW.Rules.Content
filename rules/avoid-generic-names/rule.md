@@ -34,29 +34,30 @@ Generic names like “manager”, "helper", “processor”, “data”, and “
 Words like "manager" and "processor" imply something that handles various tasks, which can make it tempting to pile unrelated responsibilities into one class. "Helper" makes this worse as it becomes a catch-all for a collection of disorganized functionality.Names like "data" or "info" are similarly ambiguous, as they could apply to nearly anything, from a database connection to a simple string. Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
 
 :::greybox
-Imagine you’re writing a class to handle orders in an e-commerce system. You name it `OrderManager`. While this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Is it creating orders, updating them, processing payments, or all of the above? The generic term “manager” gives us no clear indication.
+`OrderManager` - a class to handle orders in an e-commerce system
 :::
 :::bad
-Generic names only tell you what part of the domain or code base a class or method works with, not what it does
+Bad example - while this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?
 :::
 
 :::greybox
-A better name could be `OrderProcessor`, but if the class specifically handles only one aspect — say, sending orders for shipment — a more precise name would be `ShippingOrderHandler` or `OrderShipmentService`. This name directly reflects its purpose, making it immediately clear what the class is responsible for.
+`OrderCreator` - specifically creating orders
+`ShippingOrderHandler` or `OrderShipmentService` - specifically handles only one aspect - sending orders for shipment
 :::
 :::good
-Specific names are better than generic names
+Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for
 :::
 
 :::greybox
-Let’s say you’re building a system to track medical records, and you create a class called `PatientData`. The name could apply to anything — health information, appointment history, test results. There’s no way to tell what role this class actually plays.
+`UserData` - tracking the data for each user account
 :::
 :::bad
-The name 'data' could literally mean just about anything
+The name 'data' could mean just about anything
 :::
 
 :::greybox
-If the class is responsible for managing a patient’s appointment history, a more accurate name could be `PatientAppointmentHistory`. This name immediately tells us the scope and purpose of the class without relying on catch-all terms.
+`UserOrderHistory` - no explanation needed!
 :::
 :::good
-A class name for the specific data that it represents is much easier to understand
+Good example - immediately tells us the scope and purpose of the class
 :::
