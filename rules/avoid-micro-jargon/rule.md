@@ -27,7 +27,7 @@ archivedreason: null
 guid: bf8b49d4-82f7-42fc-9e56-01076e6e5732
 ---
 
-Code that relies on nicknames, abbreviations, or internal jokes can create unnecessary obstacles for new team members or future collaborators. Terms that only make sense to the “in-group” (like a specific project team or company department) can be hard to interpret, causing frustration and slowing down onboarding. 
+Code that relies on nicknames, abbreviations, or internal jokes can create unnecessary obstacles for new team members or future collaborators. Terms that only make sense to the “in-group” (like a specific project team or company department) can be hard to interpret, causing frustration and slowing down onboarding.
 
 Instead, favor widely understandable names or domain-specific terms that reflect a shared understanding of the business or domain.
 
@@ -36,7 +36,7 @@ Instead, favor widely understandable names or domain-specific terms that reflect
 :::greybox
 **How this differs from ubiquitous language?**
 
-Using [ubiquitous language](/ubiquitous-language)) is about naming concepts in ways that align with terms used by domain experts and stakeholders. While this might seem like micro-culture jargon at first glance, it’s different for an important reason. Unlike insider terms, ubiquitous language refers to widely recognized ideas within the domain, making code clearer for anyone familiar with the field. 
+Using [ubiquitous language](/ubiquitous-language)) is about naming concepts in ways that align with terms used by domain experts and stakeholders. While this might seem like micro-culture jargon at first glance, it’s different for an important reason. Unlike insider terms, ubiquitous language refers to widely recognized ideas within the domain, making code clearer for anyone familiar with the field.
 
 Avoid in-grouped terms that don’t convey meaning to people outside the team, even if they seem descriptive to those who are “in the know.”
 :::
