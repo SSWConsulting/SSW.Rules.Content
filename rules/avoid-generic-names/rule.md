@@ -41,7 +41,7 @@ Bad example - while this name suggests that it might have something to do with o
 :::
 
 :::greybox
-`OrderCreator` - specifically creating orders 
+`OrderCreator` - specifically creating orders
 `ShippingOrderHandler` or `OrderShipmentService` - specifically handles only one aspect - sending orders for shipment
 :::
 :::good
@@ -49,14 +49,14 @@ Good example - This name directly reflects its purpose, making it immediately cl
 :::
 
 :::greybox
-`UserData` - tracking the data for each user account 
+`UserData` - tracking the data for each user account
 :::
 :::bad
 The name 'data' could mean just about anything
 :::
 
 :::greybox
-`UserOrderHistory` - no explanation needed! 
+`UserOrderHistory` - no explanation needed!
 :::
 :::good
 Good example - immediately tells us the scope and purpose of the class
