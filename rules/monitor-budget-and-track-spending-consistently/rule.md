@@ -19,12 +19,12 @@ Tracking your spending in Google Ads is essential. You can assign a daily budget
 
 <!--endintro-->
 
-A shared budget is ideal if you don’t want to time monitoring multiple individual campaigns but would still like to get the most clicks possible with your budget in mind.
+Individual budgets are ideal if you have fewer than 10 campaigns so you have utmost control on budget and can maximise performance (larger budgets on fewer campaigns is Google's preference). 
 
 These are some steps to follow to ensure the budget is being spent effectively:
 
 1. Once a week, ensure campaigns are not overspending!
-2. Go to **ads.google.com | Tools and Settings | Shared Library | Shared Budgets**  
+2. Go to your campaigns and check what they are spending 
    Once there, check to see which campaigns are limited by budget, underspending, or performing well
 
-**Note:** If campaigns are performing well, it’s a good idea to increase the budget and continue to measure results.
+**Note:** If the campaign seems to be performing, double-check its keywords to see if you're burning budget on engaging but low-converting keywords. If the keywords look good, then it's a good idea to increase the budget and continue measuring results. 
