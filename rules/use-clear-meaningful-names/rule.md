@@ -2,7 +2,7 @@
 seoDescription: Naming things is hard, but also important. Using clear, meaningful names will make your code more readable and reduce cognitive load and risk for your development team.
 type: rule
 archivedreason:
-title: Do you use clear, meaningful names?
+title: Do you use clear and meaningful names when coding?
 uri: clear-meaningful-names
 created: 2024-11-05T00:00:00.0000000Z
 authors:
@@ -31,80 +31,72 @@ In the early days of coding, we had to store more information in our heads than 
 
 Names should always describe at first glance what something represents.
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/watch?v=t-t7P2BZnS4`
 
 **Video: Naming Conventions | Jeoffrey Fischer (5 min)**
 
-<!--endintro-->
-
 ## ⚠️ Avoid mental encoding
 
-Keep names obvious. It’s easy to invent codes to keep names short, like `cstmrMgr` to represent a "customer manager" - and you might feel clever doing it. But this kind of shorthand requires other developers (or your future self) to mentally decode each abbreviation. There’s no good reason not to simply call it `CustomerManager` (although there are reasons to avoid "manager" as a name, see [Do you avoid generic names like “manager,” “processor,” “data,” or “info”?](/avoid-generic-names)).
+Keep names obvious. It’s easy to invent codes to keep names short, like `cstmrMgr` to represent a "customer manager" - and you might feel clever doing it. But this kind of shorthand requires other developers (or your future self) to mentally decode each abbreviation. There’s no good reason not to simply call it `CustomerManager` (although there are reasons to avoid "manager" as a name - see rule on [avoiding generic names like “manager,” “processor,” “data,” or “info”](/avoid-generic-names)).
 
 ## Be verbose
 
-Today, we have the luxury of not worrying about character limits. While you shouldn’t use full sentences for a class or method name, there’s no reason to squeeze names into cryptic codes (testing can be an exception, see [Do you follow naming conventions for tests and test projects?](/follow-naming-conventions-for-tests-and-test-projects)).
+Today, we have the luxury of not worrying about character limits. While you shouldn’t use full sentences for a class or method name, there’s no reason to squeeze names into cryptic codes (testing can be an exception, see [naming conventions for tests and test projects](/follow-naming-conventions-for-tests-and-test-projects)).
+
 Full, meaningful words make your code readable and maintainable.
 
-## Scenario - Creating a game with user accounts and multiplayer
+### Scenario - Creating a game with user accounts and multiplayer
+
+Say you are to create a variable to represent the player health...
 
 :::greybox
-`Nrg` - variable short for "energy," — it’s easy to write, and you know what it means.
+Using **`Nrg`** (variable short for "energy") is easy to write, but confusing to know what it means.
 :::
 :::bad
-Bad example - Being clever for you can cause confusion to others  - they might misinterpret "energy" as something else, like power or ammo. Then if you add enemies, would you name their energy variable `nmeNrg`?
+Bad example - Being clever for you can cause confusion to others. They might misinterpret "energy" as something else, like power or ammo. Then if you add enemies, would you name their energy variable `nmeNrg`?
 :::  
 
-
-
 :::greybox
-`PlayerHealth` - clearly describes the specific kind of "energy" (health) and who it belongs to (the player)
+Using **`PlayerHealth`** clearly describes the specific kind of "energy" (health) and who it belongs to (the player)
 :::
 :::good
-Good example - instantly understandable to anyone reading the code
+Good example - Instantly understandable to anyone reading the code
 :::  
 
-
-
-Now let’s say you’re working on an invitation and activation feature. You need a variable to store the validity period for an invitation - the live time.
+Now let’s say you’re working on an invitation and activation feature. You need a variable to store the validity period for an invitation - the live time...
 
 :::greybox
-`itrDays` - shorthand for "invitation-time-remaining in days"
+Using **`itrDays`** (shorthand for "invitation-time-remaining in days")
 :::
 :::bad
-Bad example - others will have fun deciphering this one
+Bad example - Others will have fun deciphering this one
 :::  
 
-
-
 :::greybox
-`InvitationTimeRemainingInDays` - no explanation needed here!
+Using **`InvitationTimeRemainingInDays`** requires no explanation!
 :::
 :::good
-Good example - leaves no room for misinterpretation and makes the purpose obvious
+Good example - Leaves no room for misinterpretation and makes the purpose obvious
 :::  
 
+What if you need to create some classes for validation...
+
 :::greybox
-`UserValidator` - this class is responsible for validating a user
+Using **`UserValidator`** as a class responsible for validating a user
 :::
 :::bad
 Bad example - Validating what exactly? Login credentials? Profile information? Something else?
 :::  
 
-
-
 :::greybox
-`UserValidationHandler` - indicates it’s an engine responsible for executing multiple rules to handle user-related validation
+Using **`UserValidationHandler`** indicates it’s an engine responsible for executing multiple rules to handle user-related validation.
 
-`UserNameLengthValidator` - validator is for a specific aspect of a user - the length of a username
-`UserEmailFormatValidator` - validator for another specific aspect - ensures email contains "@" and a domain
+Using **`UserNameLengthValidator`** is for a specific aspect of a user - the length of a username.
+
+Using **`UserEmailFormatValidator`** to ensure email contains "@" and a domain.
 :::
 :::good
-Good example - the definition of the classes is in their names
+Good example - The definition of the classes is in their names
 :::  
-
-
-
-:::info
-**Remember:** Names should always describe what something represents without mental gymnastics to decode it.
-:::
