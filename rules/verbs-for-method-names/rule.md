@@ -47,7 +47,6 @@ Bad example - While 'ship' is a verb, it’s also a noun, making it ambiguous. P
 Good example - A method that is named as a verb clearly tells you that it does something (sends), and what that thing is (a customer order)
 :::  
 
-
 :::greybox
 `Administration` - a method name for nurses to document medications that have been administered to patients
 :::
