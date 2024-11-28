@@ -44,6 +44,9 @@ The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process
 
 This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](/have-a-definition-of-ready).
 
+`youtube: https://www.youtube.com/watch?v=lMpeffmoc0I`
+**Video: Backlog Refinement Meetings| Calum Simpson | Rules (3 min)**
+
 To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following agenda:
 
 ::: email-template
