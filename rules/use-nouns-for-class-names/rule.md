@@ -25,27 +25,32 @@ related:
 guid: b5fa18cd-5fb7-4273-9b09-70379de7ef60
 ---
 
-A fundamental principle of object-oriented programming is that a class represents something from outside the code—whether a tangible item, like a Car, or an abstract concept, like a Record. A class should reflect its purpose as a "thing," not an action. Calling a car "Drive" would quickly become confusing, and the same is true in your code. Keeping classes named as nouns maintains clarity and reinforces their role as representations of entities in the system.
+A fundamental principle of object-oriented programming is that a class represents something from outside the code—whether a tangible item, like a car, or an abstract concept, like a record. A class should reflect its purpose as a "thing," not an action. Calling a car "drive" would quickly become confusing, and the same is true in your code. Keeping classes named as nouns maintains clarity and reinforces their role as representations of entities in the system.
 
 <!--endintro-->
 
 ## What is a noun?
 
-A noun is a word that names a thing. Common examples include tangible items like Table, Cup, or Computer and abstract entities like Record, Database, or Cloud. In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
+[A noun is a word that names a thing](https://www.merriam-webster.com/dictionary/noun). Common examples include tangible items like table, cup, or computer and abstract entities like record, database, or cloud. In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
+
+Fun fact: [Some languages even capitalize nouns in normal writing!](https://www.thoughtco.com/capitalization-in-german-4069437) They can just know what's a noun by checking if it's capitalized - but in English we need to remember.
 
 :::greybox
-Imagine you’re building an e-commerce application, and you create a class called `ProcessOrder`. While it might seem reasonable, this name is misleading — it suggests an action, not a thing. The class’s responsibility is not the act of processing but the concept of an Order itself.
+`ProcessOrder`
 :::
 :::bad
-A class that appears from its name to be an action is confusing
-:::
+Bad example - This name suggests an action which sounds like it could be a method - but it's meant to represent the order itself.
+:::  
+
 
 :::greybox
-Naming the class `Order` better represents its role as an entity that holds order-related data and behavior. Later, if you need to perform an action on the order, you might create a `ProcessOrder` method within the`OrderService` or `OrderProcessor` class (see our rule [Do you use verbs for method names?](/verbs-for-method-names)). This keeps the naming consistent with object-oriented principles.
+`Order` - better represents its role as an entity that holds order-related data and behavior
 :::
 :::good
-A class name that clearly represents a thing is much easier to understand
-:::
+A class name that clearly represents a thing is much easier to understand - you couldn't misinterpret this as a method
+:::  
+
+Later, if you need to perform an action on the order, you might create a `ProcessOrder` method within the`OrderService` or `OrderProcessor` class (see our rule [Do you use verbs for method names?](/verbs-for-method-names))
 
 ## Events: The exception that proves the rule
 
