@@ -35,7 +35,7 @@ Keeping classes named as nouns maintains clarity and reinforces their role as re
 
 [A noun is a word that names a thing](https://www.merriam-webster.com/dictionary/noun). Common examples include tangible items like **table**, **cup**, or **computer**; and abstract entities like **record**, **database**, or **cloud**.
 
-## Keeping classes named as nouns
+## Naming classes as nouns
 
 In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
 
