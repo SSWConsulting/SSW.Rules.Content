@@ -29,20 +29,20 @@ When creating custom controls, avoid vague or generic names like CustomStepper o
 
 <!--endintro-->
 
-## Why It Matters
+## Why it matters
 
 Meaningful modifiers make it clear what a class, module, or component does or how it differs from a standard version. This helps developers understand its role without digging through code and reduces the chance of naming conflicts with other libraries.
 
 :::greybox
-Naming a custom `DbContext` implementation `CustomDbContext` or a specialized input control `CustomInput` doesn’t provide any real information. It’s unclear what is customized, making it harder to understand and maintain.
+Naming a custom **`DbContext`** implementation **`CustomDbContext`** or a specialized input control **`CustomInput`** doesn’t provide any real information. It’s unclear what is customized, making it harder to understand and maintain.
 :::
 :::bad
-A modifier that doesn't tell you what has been modified is of no value
+Bad example - A modifier that doesn't tell you what has been modified is of no value
 :::
 
 :::greybox
-A more descriptive name, like `WriteOnlyDbContext` or `BorderlessTextInput`, indicates exactly what’s different about the component, making it easier to understand its function at a glance.
+A more descriptive name, like **`WriteOnlyDbContext`** or **`BorderlessTextInput`**, indicates exactly what’s different about the component, making it easier to understand its function at a glance.
 :::
 :::good
-A modifier that clearly conveys what is different from the original can save developers time reading through the code
+Good example - A modifier that clearly conveys what is different from the original can save developers time reading through the code
 :::
