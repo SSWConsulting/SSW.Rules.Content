@@ -25,7 +25,7 @@ related:
 guid: b5fa18cd-5fb7-4273-9b09-70379de7ef60
 ---
 
-A fundamental principle of object-oriented programming is that a class represents something from outside the code whether a tangible item, like a car, or an abstract concept, like a record. A class should reflect its purpose as a "thing," not an action. Calling a car "drive" would quickly become confusing, and the same is true in your code. 
+A fundamental principle of object-oriented programming is that a class represents something from outside the code whether a tangible item, like a car, or an abstract concept, like a record. A class should reflect its purpose as a "thing," not an action. Calling a car "drive" would quickly become confusing, and the same is true in your code.
 
 Keeping classes named as nouns maintains clarity and reinforces their role as representations of entities in the system.
 
@@ -33,7 +33,7 @@ Keeping classes named as nouns maintains clarity and reinforces their role as re
 
 ## What is a noun?
 
-[A noun is a word that names a thing](https://www.merriam-webster.com/dictionary/noun). Common examples include tangible items like **table**, **cup**, or **computer**; and abstract entities like **record**, **database**, or **cloud**. 
+[A noun is a word that names a thing](https://www.merriam-webster.com/dictionary/noun). Common examples include tangible items like **table**, **cup**, or **computer**; and abstract entities like **record**, **database**, or **cloud**.
 
 ## Keeping classes named as nouns
 
