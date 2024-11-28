@@ -25,7 +25,7 @@ related:
 guid: 782822da-92e3-4912-855b-cf1f2a05542b
 ---
 
-There’s more than one way to skin a cat (apparently—we don’t have any rules on cat-skinning), and equally, there’s often more than one term to represent a concept. While some terms may have nuanced differences, they can often seem interchangeable. But once you’ve picked a term, stick with it and use it everywhere. 
+There’s more than one way to skin a cat (apparently—we don’t have any rules on cat-skinning), and equally, there’s often more than one term to represent a concept. While some terms may have nuanced differences, they can often seem interchangeable. But once you’ve picked a term, stick with it and use it everywhere.
 
 Inconsistent language is one of the quickest ways to violate the [DRY principle](/avoid-repetition) and add unnecessary complexity to your codebase.
 
@@ -73,7 +73,7 @@ public void SendConsignment(NotificationType type)
 Good example - The name used for this method is the same name used for this concept throughout the code base
 :::
 
-To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is [ubiquitous](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code. 
+To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is [ubiquitous](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code.
 
 Any introduction of new terminology, such as “consignment,” should be a proactive, team-wide decision that includes any necessary refactoring.
 
