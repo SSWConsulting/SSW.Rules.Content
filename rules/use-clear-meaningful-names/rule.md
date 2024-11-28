@@ -39,7 +39,7 @@ Names should always describe at first glance what something represents.
 
 ## ⚠️ Avoid mental encoding
 
-It’s easy to invent codes to keep names short, like `cstmrMgr` to represent a "customer manager" - and you might feel clever doing it. But this kind of shorthand requires other developers (or your future self) to mentally decode each abbreviation. There’s no good reason not to simply call it `CustomerManager` (although there are reasons to avoid "manager" as a name, see [Do you avoid generic names like “manager,” “processor,” “data,” or “info”?](/avoid-generic-names)).
+Keep names obvious. It’s easy to invent codes to keep names short, like `cstmrMgr` to represent a "customer manager" - and you might feel clever doing it. But this kind of shorthand requires other developers (or your future self) to mentally decode each abbreviation. There’s no good reason not to simply call it `CustomerManager` (although there are reasons to avoid "manager" as a name, see [Do you avoid generic names like “manager,” “processor,” “data,” or “info”?](/avoid-generic-names)).
 
 ## Be verbose
 
@@ -87,6 +87,7 @@ Bad example - Validating what exactly? Login credentials? Profile information? S
 
 :::greybox
 `UserValidationHandler` - indicates it’s an engine responsible for executing multiple rules to handle user-related validation
+
 `UserNameLengthValidator` - validator is for a specific aspect of a user - the length of a username
 `UserEmailFormatValidator` - validator for another specific aspect - ensures email contains "@" and a domain
 :::
