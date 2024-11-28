@@ -18,6 +18,8 @@ Selecting the right keywords can be hard when you're completing your campaigns. 
 
 The Keyword Planner allows you to get keyword ideas that can help you reach people interested in your product or service. You can also see roughly how much keywords will cost you per click, as well as the frequency each keyword is searched. Simply enter words, phrases or the URL related to your campaign and the planner will come back with additional keyword suggestions and data on each keyword.
 
+There are several 3rd party solutions to keyword planning that should be used in addition to Google's Keyword Planner. SEMrush, Ahrefs and SERanking are some examples that have excellent keyword tools to help you identify what's best for your campaign. 
+
 <!--endintro-->
 
 ![Figure: Keyword planner in action!](keyword-planning.jpg)
