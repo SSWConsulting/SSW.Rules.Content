@@ -31,32 +31,36 @@ Code becomes easier to understand when names align closely with their meaning. S
 
 ## What is a verb?
 
-A verb is a word that describes an action or process—something that’s done. Examples include walk, run, think, listen, and breathe, as well as process, calculate, send, and save. While your method names shouldn’t all be single verbs (since that’s often too vague), they should be verb-based, using a verb as the foundation of their meaning.
+A verb is a word that describes an action or process—something that’s done. Examples include **walk**, **run**, **think**, **listen**, and **breathe**, as well as **process**, **calculate**, **send**, and **save**. 
+
+## Naming methods as verbs
+
+While your method names shouldn’t all be single verbs (since that’s often too vague), they should be verb-based, using a verb as the foundation of their meaning.
 
 :::greybox
-`Ship` - A method to initiate shipping orders to customers.
+Using **`Ship`** as a method to initiate shipping orders to customers.
 :::
 :::bad
 Bad example - While 'ship' is a verb, it’s also a noun, making it ambiguous. Plus, it's not very descriptive!
 :::
 
 :::greybox
-`SendCustomerOrder`
+Using **`SendCustomerOrder`**
 :::
 :::good
 Good example - A method that is named as a verb clearly tells you that it does something (sends), and what that thing is (a customer order)
 :::  
 
 :::greybox
-`Administration` - a method name for nurses to document medications that have been administered to patients
+Using **`Administration`** as a method name for nurses to document medications that have been administered to patients.
 :::
 :::bad
-Bad example - it’s a noun, and it’s ambiguous. 'Administration' has multiple meanings, and the method name doesn’t make it clear what this action involves
+Bad example - It’s a noun, and it’s ambiguous. 'Administration' has multiple meanings, and the method name doesn’t make it clear what this action involves
 :::  
 
 :::greybox
-`AdministerMedication` - the action is clear
+Using **`AdministerMedication`** makes the action clear
 :::
 :::good
-Good example -  Method name describes the action
+Good example - Method name describes the action
 :::
