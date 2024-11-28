@@ -46,8 +46,7 @@ It’s easy to invent codes to keep names short, like `cstmrMgr` to represent a 
 Today, we have the luxury of not worrying about character limits. While you shouldn’t use full sentences for a class or method name, there’s no reason to squeeze names into cryptic codes (testing can be an exception, see [Do you follow naming conventions for tests and test projects?](/follow-naming-conventions-for-tests-and-test-projects)).
 Full, meaningful words make your code readable and maintainable.
 
-
-## Scenario - Creating a game with user accounts and multiplayer.
+## Scenario - Creating a game with user accounts and multiplayer
 
 :::greybox
 `Nrg` - variable short for "energy," — it’s easy to write, and you know what it means.
@@ -62,7 +61,6 @@ Bad example - Being clever for you can cause confusion to others  - they might m
 :::good
 Good example - instantly understandable to anyone reading the code
 :::
-
 
 Now let’s say you’re working on an invitation and activation feature. You need a variable to store the validity period for an invitation - the live time.
 
@@ -80,14 +78,12 @@ Bad example - others will have fun deciphering this one
 Good example - leaves no room for misinterpretation and makes the purpose obvious
 :::
 
-
 :::greybox
 `UserValidator` - this class is responsible for validating a user
 :::
 :::bad
 Bad example - Validating what exactly? Login credentials? Profile information? Something else?
 :::
-
 
 :::greybox
 `UserValidationHandler` - indicates it’s an engine responsible for executing multiple rules to handle user-related validation
