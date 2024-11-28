@@ -31,7 +31,7 @@ Code becomes easier to understand when names align closely with their meaning. S
 
 ## What is a verb?
 
-A verb is a word that describes an action or process—something that’s done. Examples include **walk**, **run**, **think**, **listen**, and **breathe**, as well as **process**, **calculate**, **send**, and **save**. 
+A verb is a word that describes an action or process—something that’s done. Examples include **walk**, **run**, **think**, **listen**, and **breathe**, as well as **process**, **calculate**, **send**, and **save**.
 
 ## Naming methods as verbs
 
