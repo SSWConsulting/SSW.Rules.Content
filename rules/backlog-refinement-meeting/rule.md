@@ -55,7 +55,7 @@ To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting
 | To:      | {{ TECH LEAD }}, {{ CHOSEN DEVELOPER }} |
 | Cc:      | {{ REST OF THE SCRUM TEAM }} |
 | Recurrence:      | {{ ONCE PER SPRINT }} |
-| Subject: | Product Backlog Refinement –  {{ PROJECT NAME }} |
+| Subject: | {{ PROJECT NAME }} - Product Backlog Refinement |
 ::: email-content
 
 This meeting is to perform Product Backlog Refinement.
