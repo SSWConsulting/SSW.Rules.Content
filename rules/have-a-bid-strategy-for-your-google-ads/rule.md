@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason: Lots of out-of-date content, likely needs a new rule
 title: Do you have a Bid Strategy for your Google Ads?
 guid: 32197d05-5a93-4f06-aa39-10fdaf116e72
 uri: have-a-bid-strategy-for-your-google-ads
