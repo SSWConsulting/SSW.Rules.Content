@@ -31,7 +31,7 @@ Generic names like “manager”, "helper", “processor”, “data”, and “
 
 ## Why generic names are problematic
 
-Words like "manager" and "processor" imply something that handles various tasks, which can make it tempting to pile unrelated responsibilities into one class. "Helper" makes this worse as it becomes a catch-all for a collection of disorganized functionality.Names like "data" or "info" are similarly ambiguous, as they could apply to nearly anything, from a database connection to a simple string. Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
+Words like "manager" and "processor" imply something that handles various tasks, which can make it tempting to pile unrelated responsibilities into one class. "Helper" makes this worse as it becomes a catch-all for a collection of disorganized functionality. Names like "data" or "info" are similarly ambiguous, as they could apply to nearly anything, from a database connection to a simple string. Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
 
 :::greybox
 `OrderManager` - a class to handle orders in an e-commerce system
@@ -41,12 +41,14 @@ Bad example - while this name suggests that it might have something to do with o
 :::
 
 :::greybox
-`OrderCreator` - specifically creating orders
+`OrderCreator` - specifically creating orders  
+
 `ShippingOrderHandler` or `OrderShipmentService` - specifically handles only one aspect - sending orders for shipment
 :::
 :::good
 Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for
-:::
+:::  
+
 
 :::greybox
 `UserData` - tracking the data for each user account
