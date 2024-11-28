@@ -25,19 +25,19 @@ related:
 guid: 782822da-92e3-4912-855b-cf1f2a05542b
 ---
 
-There’s more than one way to skin a cat (apparently—we don’t have any rules on cat-skinning), and equally, there’s often more than one term to represent a concept. While some terms may have nuanced differences, they can often seem interchangeable. But once you’ve picked a term, stick with it and use it everywhere. Inconsistent language is one of the quickest ways to violate the DRY principle and add unnecessary complexity to your codebase.
+There’s more than one way to skin a cat (apparently—we don’t have any rules on cat-skinning), and equally, there’s often more than one term to represent a concept. While some terms may have nuanced differences, they can often seem interchangeable. But once you’ve picked a term, stick with it and use it everywhere.
+
+Inconsistent language is one of the quickest ways to violate the [DRY principle](/avoid-repetition) and add unnecessary complexity to your codebase.
 
 <!--endintro-->
 
-## Why Consistency Matters
+## Why consistency matters?
 
-### The DRY Principle
+Using multiple terms to describe the same thing adds **cognitive load** and increases the mental effort required to understand the codebase. Consistency reduces this burden and makes it easier for anyone to follow the logic.
+
+### The DRY principle
 
 The DRY (Don’t Repeat Yourself) principle states that within a codebase, there should be a single authoritative source of knowledge for each concept. Inconsistent naming makes it harder for developers to find existing code, as they may search for one term and miss relevant code that uses another name.
-
-### Cognitive Load
-
-Using multiple terms to describe the same thing adds cognitive load and increases the mental effort required to understand the codebase. Consistency reduces this burden and makes it easier for anyone to follow the logic.
 
 ## Scenario
 
@@ -53,12 +53,10 @@ public void SendOrder(NotificationType type)
 ```
 
 :::bad
-The name used for this method is not consistent with the name used for the same concept everywhere else in the code base
+bad example - The name used for this method is not consistent with the name used for the same concept everywhere else in the code base
 :::
 
-## Outcome
-
-What went wrong here? Was it a lack of diligence in searching for existing functionality, or the use of different terms — “order” and “consignment” — interchangeably? Likely a bit of both, but primarily, the issue is rooted in inconsistent terminology.
+What went wrong here? Was it a lack of diligence in searching for existing functionality, or the use of different terms - “order” and “consignment” - interchangeably? Likely a bit of both, but primarily, the issue is rooted in inconsistent terminology.
 
 In this case, the terms “order” and “consignment” may seem related, but they have distinct meanings. An order is something a customer places, indicating their intent to purchase goods or services. A consignment, on the other hand, refers to what a supplier sends to a customer, which may partially or fully fulfill an order.
 
@@ -72,11 +70,13 @@ public void SendConsignment(NotificationType type)
 ```
 
 :::good
-The name used for this method is the same name used for this concept throughout the code base
+Good example - The name used for this method is the same name used for this concept throughout the code base
 :::
 
-To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is ubiquitous (see our rule [Do you use ubiquitous language?](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code. Any introduction of new terminology, such as “consignment,” should be a proactive, team-wide decision that includes any necessary refactoring.
+To clarify, it's not necessarily wrong to have a `SendOrder` method, if the term order is [ubiquitous](/ubiquitous-language)). It might represent a pipeline for example, tracking a workflow from submission by the customer to receipt by the customer, and everything in between. But if “order” was the chosen term, the team should have used it consistently across the code.
 
-## DRY Principle Implications
+Any introduction of new terminology, such as “consignment,” should be a proactive, team-wide decision that includes any necessary refactoring.
+
+## DRY principle implications
 
 In a worst-case scenario, someone unfamiliar with the `SendOrder` method might merge the `SendConsignment` code without realizing it’s redundant. Now, two methods exist for the same function — each handling notifications differently. This violates the DRY principle, as you now have two distinct pieces of knowledge on handling order shipments, potentially leading to divergent behavior and increased maintenance overhead.
