@@ -42,7 +42,6 @@ Fun fact: [Some languages even capitalize nouns in normal writing!](https://www.
 Bad example - This name suggests an action which sounds like it could be a method - but it's meant to represent the order itself.
 :::  
 
-
 :::greybox
 `Order` - better represents its role as an entity that holds order-related data and behavior
 :::
