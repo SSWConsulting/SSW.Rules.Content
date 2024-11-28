@@ -40,14 +40,14 @@ Keeping classes named as nouns maintains clarity and reinforces their role as re
 In your code, class names should clearly reflect what they represent, giving developers an immediate understanding of the class’s role.
 
 :::greybox
-**`ProcessOrder`**
+Using **`ProcessOrder`**
 :::
 :::bad
 Bad example - This name suggests an action which sounds like it could be a method - but it's meant to represent the order itself
 :::  
 
 :::greybox
-**`Order`** better represents its role as an entity that holds order-related data and behavior
+Using **`Order`** better represents its role as an entity that holds order-related data and behavior
 :::
 :::good
 Good example - A class name that clearly represents a thing is much easier to understand - you couldn't misinterpret this as a method
