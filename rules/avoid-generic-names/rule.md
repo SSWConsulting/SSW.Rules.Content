@@ -31,35 +31,36 @@ Generic names like “manager”, "helper", “processor”, “data”, and “
 
 ## Why generic names are problematic
 
-Words like "manager" and "processor" imply something that handles various tasks, which can make it tempting to pile unrelated responsibilities into one class. "Helper" makes this worse as it becomes a catch-all for a collection of disorganized functionality. Names like "data" or "info" are similarly ambiguous, as they could apply to nearly anything, from a database connection to a simple string. Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
+Words like "manager" and "processor" imply something that handles various tasks, which can make it tempting to pile unrelated responsibilities into one class. "Helper" makes this worse as it becomes a catch-all for a collection of disorganized functionality. Names like "data" or "info" are similarly ambiguous, as they could apply to nearly anything, from a database connection to a simple string.
+
+Specific names are always preferable, as they make the code easier to understand and prevent code bloat from accumulating unrelated functionality.
 
 :::greybox
-`OrderManager` - a class to handle orders in an e-commerce system
+Using **`OrderManager`** as a class to handle orders in an e-commerce system.
 :::
 :::bad
-Bad example - while this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?
+Bad example - While this name suggests that it might have something to do with orders, it doesn’t clarify how it interacts with them. Creating orders? Updating them? Processing payments? All of the above?
 :::
 
 :::greybox
-`OrderCreator` - specifically creating orders  
+Using **`OrderCreator`** for specifically creating orders  
 
-`ShippingOrderHandler` or `OrderShipmentService` - specifically handles only one aspect - sending orders for shipment
+Using **`ShippingOrderHandler`** or **`OrderShipmentService`** specifically handles only one aspect of the order - sending for shipment
 :::
 :::good
 Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for
 :::  
 
-
 :::greybox
-`UserData` - tracking the data for each user account
+Using **`UserData`** for tracking the data for each user account.
 :::
 :::bad
-The name 'data' could mean just about anything
+Bad example - The name 'data' could mean just about anything
 :::
 
 :::greybox
-`UserOrderHistory` - no explanation needed!
+Using **`UserOrderHistory`** requires no explanation!
 :::
 :::good
-Good example - immediately tells us the scope and purpose of the class
+Good example - Immediately tells us the scope and purpose of the class
 :::
