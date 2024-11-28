@@ -27,7 +27,7 @@ redirects:
 guid: bfcbc0ef-d2f8-4e77-85d9-97ccb841eb19
 ---
 
-`youtube: https://youtu.be/VzEZXx54spc`
+`youtube: https://www.youtube.com/watch?v=t-t7P2BZnS4`
 
 **Video: Hear from Jeoffrey Fischer about how to follow good naming conventions!**
 
