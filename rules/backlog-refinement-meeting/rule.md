@@ -50,6 +50,7 @@ This process involves refining the PBIs in the backlog and adding a "Ready" tag 
 To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following agenda:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ TECH LEAD }}, {{ CHOSEN DEVELOPER }} |
