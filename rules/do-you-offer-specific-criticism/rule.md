@@ -36,7 +36,6 @@ When you find a problem, pinpoint it directly (and recommend a solution):
 Figure: Good Example - Offering criticism in this way ensures that something will happen to fix the problem
 :::  
 
-
 ::: greybox
 "Not done, please try again"
 
@@ -54,11 +53,9 @@ Figure: Bad Example - If they don't immediately know what to fix, this might end
 The specific missed requirement lets them quickly fix the mistake
 :::  
 
-
 Of course, there are times that you can 'feel' that a problem exists, but you may not even be sure how are unable to pinpoint it or can't think of a good solution. In this instance you should speak to someone who you think may be able to identify a solution, come to an agreement, and then request that action be taken.
 
 When criticism is generic, it is impossible to know what to fix.
-
 
 It's alsoimportant to consider both your audience and the overall context.  
 
@@ -69,6 +66,6 @@ It's alsoimportant to consider both your audience and the overall context.
 :::greybox
 _I hope people ask for a ‘Checked By’ when it is at least a 7/10.
 Then I hope the feedback gets it to a 9/10, if not a 10._
-- Adam Cogan
-:::
+* Adam Cogan
 
+:::
