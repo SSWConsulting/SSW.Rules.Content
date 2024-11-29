@@ -19,7 +19,9 @@ archivedreason: null
 guid: d7c5b443-9f55-4983-ac7b-016c85a6d479
 ---
 
-Pure HTML pages are the fastest website around. However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are
+Pure HTML pages are the fastest website around. However, server-side scripting languages enable richer functionality. Static sites solve this problem by providing the best of both worlds. Static sites are:
+
+<!--endintro-->
 
 * Cheap
 * Easy to use
@@ -37,15 +39,15 @@ Here are some popular static site generators:
 | **Data Handling**                  | Fully customisable                          | [GraphQL](https://graphql.org/)                | Fully customisable                                                                    | Customizable                      | Fully customisable                  |
 | **Data Sources**                   | Fully customisable                          | Filesystems, CMS, APIs, Databases, Local files | Fully customisable                                                                    | Filesystem                        | CMS, APIs, Customizable             |
 | **GitHub Pages Integration**       | Requires setup                              | Seamless deployment via config files           | [Deployment via GitHub Actions](https://docs.astro.build/en/guides/deploy/github/)    | Deployment with GitHub Actions    | Customizable                        |
-| **[TinaCMS](https://tina.io) integration**            | ✅                                          | ✅                                             | [✅](https://docs.astro.build/en/guides/cms/tinacms/)                                 | ✅                                | ✅                                   |
-
-<br>
+| **[TinaCMS](https://tina.io) integration**            | ✅ | ✅ | ✅ | ✅ | ✅ |
 
 ::: info
 **Note:** 🪦 Gatsby is no longer being actively developed.
 :::
 
 ## Market Share
+
+(Data captured in late 2024)
 
 | **Name**                         | **Next.js (Recommended)**  | **Gatsby**     | **Hugo**    | **Astro**     | **Builder.io**           |
 |------------------------------------|----------------------|-----------------|---------------|------------------|--------------------------|
@@ -56,11 +58,7 @@ Here are some popular static site generators:
 | **State of JS (2023)**             | 57% used it 👑       | 17% used it     | N/A           | 17% used it      | N/A                      |
 | **Google Trends Rank**             | 1st 👑               | 4th             | 3rd           | 2nd              | 5th (almost 0 data)      |
 
-(This data was captured in Dec 2024)
-
-<br>
-
-![Figure: Google trends for the above SSGs. In a substantial lead is NextJS, followed by Gatsby.](google-trends-nextjs.png)
+![Figure: Google trends for the above SSGs. In a substantial lead is NextJS, followed by Gatsby](google-trends-nextjs.png)
 
 ![Figure: NextJS and Gatsby are the major competitors that have been duking it out, lately Next.js has exploded in popularity](GatsbyVsNextjs.png)
 
