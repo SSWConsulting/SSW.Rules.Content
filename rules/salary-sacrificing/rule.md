@@ -2,7 +2,7 @@
 seoDescription: Pay less tax on electronic devices by salary sacrificing with your pre-tax money and save approximately 30% depending on your tax bracket.
 type: rule
 title: Payroll - Do you take advantage of salary sacrificing electronic devices? (Aussie only)
-uri: salary-sacrifice-electronic-devices
+uri: salary-sacrificing
 authors:
   - title: Jimmy Chen
     url: https://www.ssw.com.au/people/jimmy-chen
@@ -18,6 +18,7 @@ redirects:
   - do-you-take-advantage-of-salary-sacrificing-electronic-devices
   - salary-sacrificing-electronic-devices
   - salary-sacrificing-eletronic-devices
+  - salary-sacrifice-electronic-devices
 created: 2023-12-11T00:10:16.831Z
 guid: 08919f62-423b-4734-b99e-54903108e240
 ---
