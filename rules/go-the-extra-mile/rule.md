@@ -23,7 +23,7 @@ This idea is different from the other rules in this category in that it strikes 
 "And whoever compels you to go one mile, go with him two."
 :::
 
-While not everyone chooses to agree with everything He said, it's a valid point when it comes to creating a positive team environment. If you're willing to be proactive and help others above and beyond the call of duty, a whole ream of benefits flow:
+While not everyone chooses to agree with everything said, it's a valid point when it comes to creating a positive team environment. If you're willing to be proactive and help others above and beyond the call of duty, a whole ream of benefits flow:
 
 <!--endintro-->
 
