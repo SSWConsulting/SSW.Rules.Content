@@ -12,14 +12,15 @@ Passive aggressive comments can hinder effective communication and breed resentm
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/shorts/ctQKdiYY_60`     
-**Video: How to handle passive aggressive comments (1 min)**    
+`youtube: https://www.youtube.com/shorts/ctQKdiYY_60`
+**Video: How to handle passive aggressive comments (1 min)**
 
 ### Steps to Handle Passive Aggressive Comments
 
 #### 1. Acknowledge the Subtext
 
 Begin by reflecting what you sense in their comment. Use phrases like:
+
 * "It sounds like there’s more to that."
 * "It seems like you’re holding something back."
 * "It sounds like there’s more for me to understand about what you just said."
@@ -29,21 +30,23 @@ These responses show that you recognize a deeper concern without escalating the 
 #### 2. Seek Clarification
 
 Ask, “Should I read into that?”
+
 * This invites the person to clarify their statement
 * Even if they respond “no,” they’ll be more mindful in future conversations knowing that their comments won’t be ignored
 
 #### 3. Address Feelings Directly
 
 Ask, “How are you feeling?”— genuinely and calmly
+
 * Many people use passive aggression because they struggle to express their feelings openly
 * Discussing emotions can lead to a more honest and constructive dialogue
 
-::: greybox      
-A teammate says, "I didn’t realize you suddenly cared about deadlines."      
-:::         
-::: good        
-Figure: Good Example - Responding thoughtfully by saying, “It sounds like there’s more to that. How are you feeling about the deadlines?”       
-:::          
+::: greybox
+A teammate says, "I didn’t realize you suddenly cared about deadlines."
+:::
+::: good
+Figure: Good Example - Responding thoughtfully by saying, “It sounds like there’s more to that. How are you feeling about the deadlines?”
+:::
 
 ### Why This Works
 
