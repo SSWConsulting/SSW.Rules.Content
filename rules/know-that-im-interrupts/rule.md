@@ -12,7 +12,7 @@ authors:
 related:
   - when-you-use-mentions-in-a-pbi
   - avoid sending-unnecessary-messages   
-  - use-quiet-time-in-teams      
+  - use-quiet-hours-in-teams      
 redirects:
   - interruptions-do-you-know-that-im-interrupts
 ---

@@ -10,7 +10,7 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
 related:
   - dones-is-your-inbox-a-task-list-only
-  - use-quiet-time-in-teams
+  - use-quiet-hours-in-teams
 redirects:
   - do-you-use-email-for-tasks-only-not-chatting
   - dones-do-you-use-email-for-tasks-only-not-communication
