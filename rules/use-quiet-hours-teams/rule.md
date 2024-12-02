@@ -17,20 +17,20 @@ related:
 Receiving Teams messages after work hours can be stressful, disrupting personal time and mental well-being. Microsoft Teams' Quiet Hours feature helps you create boundaries by silencing notifications during non-work hours. By proactively setting Quiet Hours, you can [reduce interruptions](https://www.ssw.com.au/rules/know-that-im-interrupts/), maintain focus during work, and preserve your personal time for relaxation or family.
 
 <!--endintro-->
-::: greybox     
-Teams notifications pop up repeatedly during dinner, creating stress and distraction.     
-:::       
-::: bad       
-Figure: Bad Example - Notifications during personal time without Quiet Hours enabled     
-:::     
+::: greybox
+Teams notifications pop up repeatedly during dinner, creating stress and distraction.
+:::
+::: bad
+Figure: Bad Example - Notifications during personal time without Quiet Hours enabled
+:::
 
-::: greybox      
-Quiet Hours silences Teams messages after work, leaving you stress-free to enjoy family time.     
-:::     
-::: good      
-Figure: Good Example - Quiet Hours helps maintain boundaries for better work-life balance    
-:::     
-   
+::: greybox
+Quiet Hours silences Teams messages after work, leaving you stress-free to enjoy family time.
+:::
+::: good
+Figure: Good Example - Quiet Hours helps maintain boundaries for better work-life balance
+:::
+
 ### Why use Quiet Hours?
 
 1. **Reduce Stress**: Continuous notifications can lead to burnout and stress
