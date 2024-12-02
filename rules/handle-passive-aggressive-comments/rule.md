@@ -29,37 +29,38 @@ Begin by reflecting what you sense in their comment. Use phrases like:
 * "It sounds like there’s more for me to understand about what you just said."
 
 These responses show that you recognize a deeper concern without escalating the situation.
-      
-#### 2. Seek Clarification       
-       
-Ask, “Should I read into that?”     
-     
-* This invites the person to clarify their statement       
-* Even if they respond “no,” they’ll be more mindful in future conversations knowing that their comments won’t be ignored     
-       
-#### 3. Address Feelings Directly      
-     
-Kindly and genuinely ask, “How are you feeling?”      
-- This can create a safe space for the other person to express what’s really bothering them      
-- Often, addressing emotions leads to a more productive discussion and resolution       
 
-#### What Not to Do       
+#### 2. Seek Clarification
 
-Avoid explicitly calling out the behavior as passive aggressive, such as saying, “That was a bit passive aggressive.” This approach is likely to put the other person on the defensive and escalate tension.    
+Ask, “Should I read into that?”
 
-::: greybox       
-A teammate says, "I didn’t realize you suddenly cared about deadlines."       
-:::         
-::: bad         
-Figure: Bad Example - Responding defensively with, “That was a bit passive aggressive. What’s your problem?” escalates tension and makes the situation worse     
-:::        
-::: good          
+* This invites the person to clarify their statement
+* Even if they respond “no,” they’ll be more mindful in future conversations knowing that their comments won’t be ignored
+
+#### 3. Address Feelings Directly
+
+Kindly and genuinely ask, “How are you feeling?”
+* This can create a safe space for the other person to express what’s really bothering them
+* Often, addressing emotions leads to a more productive discussion and resolution
+
+#### What Not to Do
+
+Avoid explicitly calling out the behavior as passive aggressive, such as saying, “That was a bit passive aggressive.” This approach is likely to put the other person on the defensive and escalate tension.
+
+::: greybox
+A teammate says, "I didn’t realize you suddenly cared about deadlines."
+:::
+::: bad
+Figure: Bad Example - Responding defensively with, “That was a bit passive aggressive. What’s your problem?” escalates tension and makes the situation worse
+:::
+::: good
 Figure: Good Example - Responding kindly with, “It sounds like there’s more to that. How are you feeling about the deadlines?” opens the door to a constructive conversation
-:::          
+:::
 
-### Why This Works       
-1. **De-escalation:** Thoughtful responses defuse tension and avoid accusations      
-2. **Clarity:** Direct questions about feelings or intent help uncover the real issue      
-3. **Resolution:** Focusing on emotions often resolves misunderstandings and fosters better communication       
+### Why This Works
+
+1. **De-escalation:** Thoughtful responses defuse tension and avoid accusations
+2. **Clarity:** Direct questions about feelings or intent help uncover the real issue
+3. **Resolution:** Focusing on emotions often resolves misunderstandings and fosters better communication
 
 By responding with empathy and professionalism, you can handle passive aggressive comments effectively, maintain a positive atmosphere, and build stronger relationships within your team.
