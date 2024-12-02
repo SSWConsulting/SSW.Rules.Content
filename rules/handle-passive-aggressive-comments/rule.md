@@ -47,15 +47,15 @@ Kindly and genuinely ask, “How are you feeling?”
 
 Avoid explicitly calling out the behavior as passive aggressive, such as saying, “That was a bit passive aggressive.” This approach is likely to put the other person on the defensive and escalate tension.
 
-::: greybox
-A teammate says, "I didn’t realize you suddenly cared about deadlines."
-:::
-::: bad
-Figure: Bad Example - Responding defensively with, “That was a bit passive aggressive. What’s your problem?” escalates tension and makes the situation worse
-:::
-::: good
-Figure: Good Example - Responding kindly with, “It sounds like there’s more to that. How are you feeling about the deadlines?” opens the door to a constructive conversation
-:::
+::: greybox       
+A teammate says, "I didn’t realize you suddenly cared about deadlines."      
+:::       
+::: bad         
+Figure: Bad Example - Responding defensively with, “That was a bit passive aggressive. What’s your problem?” escalates tension and makes the situation worse       
+:::       
+::: good       
+Figure: Good Example - Responding kindly with, “It sounds like there’s more to that. How are you feeling about the deadlines?” opens the door to a constructive conversation      
+:::        
 
 ### Why This Works
 
