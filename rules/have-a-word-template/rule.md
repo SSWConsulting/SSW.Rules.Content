@@ -19,3 +19,7 @@ A proposal Word template means that anyone in the company will be able to easily
 <!--endintro-->
 
 When creating the template, remember to add instructions to the user in yellow (things to be edited/deleted) and check you are following [Rules to Better Proposals](/rules-to-better-proposals).
+
+::: greybox
+Warning: ⚠️ Templates can be harmful. Don’t treat them as law - don't be afraid to delete irrelevant sections. Let your colleagues know which bits you deleted.
+:::
