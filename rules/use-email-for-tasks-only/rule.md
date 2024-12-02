@@ -10,6 +10,7 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
 related:
   - dones-is-your-inbox-a-task-list-only
+  - use-quiet-time-in-teams
 redirects:
   - do-you-use-email-for-tasks-only-not-chatting
   - dones-do-you-use-email-for-tasks-only-not-communication
@@ -33,6 +34,7 @@ Email is a very powerful business tool. The main problem, however, is that for m
 Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | Tim |
@@ -53,6 +55,7 @@ Figure: Bad example - A bad email is one that gives no clear action items and wi
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | Tim |
