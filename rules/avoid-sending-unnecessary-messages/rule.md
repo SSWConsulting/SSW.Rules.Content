@@ -9,7 +9,7 @@ created: 2015-10-05T05:32:56.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related: [- use-quiet-hours-in-teams]
 redirects:
   - do-you-avoid-sending-unnecessary-messages
 ---

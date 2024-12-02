@@ -13,6 +13,7 @@ related:
 redirects:
   - do-you-use-email-for-tasks-only-not-chatting
   - dones-do-you-use-email-for-tasks-only-not-communication
+  - use-quiet-time-in-teams
 created: 2009-03-23T03:30:08.000Z
 archivedreason: null
 guid: bf435d82-e523-4e77-bc31-a9f35cd35df1
