@@ -2,15 +2,17 @@
 seoDescription: Learn to effectively address passive aggressive comments to foster open communication and better understanding in your team.
 type: rule
 title: Communication - Do you handle passive aggressive comments effectively?
+uri: handle-passive-aggressive-comments
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 created: 2024-11-25T12:00:00.000Z
 related:
-  - understand-the-power-of-empathy     
-  - accepting-unsolicited-feedback      
-guid: e2b5c77a-c3d6-4d54-9ec2-5c219a8f2bbf       
+  - understand-the-power-of-empathy
+  - accepting-unsolicited-feedback
+guid: e2b5c77a-c3d6-4d54-9ec2-5c219a8f2bbf
 ---
+
 Passive aggressive comments can hinder effective communication and breed resentment in a team. Addressing such comments thoughtfully can transform a frustrating interaction into a productive discussion.
 
 <!--endintro-->
