@@ -39,9 +39,10 @@ Figure: Good Example - Quiet Hours helps maintain boundaries for better work-lif
 
 ### How to Enable Quiet Hours
 
-1. Open the **Teams app** on your mobile device and tap on your profile picture
-2. Navigate to **Settings** > **Notifications**
+1. Open the **Teams app** on your mobile device and tap on your profile picture in the top left corner
+2. Navigate to **Notifications** | **Under Blocked notifications** | **During quiet hours**
 3. Set your preferred **Quiet Hours** (specific hours) and **Quiet Days** (specific days)
+4. To sync quiet hours across all mobile devices, turn on the **Set on Teams and Outlook** toggle
 
 ### Tips for Effective Use
 
