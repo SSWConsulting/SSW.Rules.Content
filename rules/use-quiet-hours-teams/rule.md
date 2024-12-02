@@ -14,28 +14,27 @@ related:
  - avoid-sending-unnecessary-messages
 ---
 
-Receiving Teams messages after work hours can be stressful, disrupting personal time and mental well-being. Microsoft Teams' Quiet Hours feature helps you create boundaries by silencing notifications during non-work hours. By proactively setting Quiet Hours, you can [reduce interruptions](https://www.ssw.com.au/rules/know-that-im-interrupts/), maintain focus during work, and preserve your personal time for relaxation or family.        
-      
-<!--endintro-->     
-::: greybox            
-Teams notifications pop up repeatedly during dinner, creating stress and distraction.           
-:::          
-::: bad                
-Figure: Bad Example - Notifications during personal time without Quiet Hours enabled       
-:::            
-         
-::: greybox             
-Quiet Hours silences Teams messages after work, leaving you stress-free to enjoy family time.                  
-:::            
-::: good                       
-Figure: Good Example - Quiet Hours helps maintain boundaries for better work-life balance          
-:::                    
+Receiving Teams messages after work hours can be stressful, disrupting personal time and mental well-being. Microsoft Teams' Quiet Hours feature helps you create boundaries by silencing notifications during non-work hours. By proactively setting Quiet Hours, you can [reduce interruptions](https://www.ssw.com.au/rules/know-that-im-interrupts/), maintain focus during work, and preserve your personal time for relaxation or family.
 
+<!--endintro-->
+::: greybox
+Teams notifications pop up repeatedly during dinner, creating stress and distraction.
+:::
+::: bad
+Figure: Bad Example - Notifications during personal time without Quiet Hours enabled
+:::
+
+::: greybox
+Quiet Hours silences Teams messages after work, leaving you stress-free to enjoy family time.
+:::
+::: good
+Figure: Good Example - Quiet Hours helps maintain boundaries for better work-life balance
+:::
 
 ### Why use Quiet Hours?
 
-1. **Reduce Stress**: Continuous notifications can lead to burnout and stress    
-2. **Maintain Work-Life Balance**: Ensuring that work stays within its designated hours is crucial for personal well-being     
+1. **Reduce Stress**: Continuous notifications can lead to burnout and stress
+2. **Maintain Work-Life Balance**: Ensuring that work stays within its designated hours is crucial for personal well-being
 3. **Minimize Unnecessary Interruptions**: For non-urgent communications, email is often less intrusive than instant messages. [Do you send emails for tasks only?](https://www.ssw.com.au/rules/use-email-for-tasks-only/)
 
 ### How to Enable Quiet Hours
@@ -46,14 +45,14 @@ Figure: Good Example - Quiet Hours helps maintain boundaries for better work-lif
 
 ### Tips for Effective Use
 
-- **Set Clear Expectations**: Inform your team about your Quiet Hours to align communication strategies
-- **Encourage Alternatives**:
-  - Use emails for non-urgent matters
-  - Escalate urgent issues through other means if necessary
+* **Set Clear Expectations**: Inform your team about your Quiet Hours to align communication strategies
+* **Encourage Alternatives**:
+  * Use emails for non-urgent matters
+  * Escalate urgent issues through other means if necessary
 
 ### Related Considerations
 
-- For urgent or emergency communications, follow the principle of using calls or alternative means
-- Understand the broader implications of after-hours messaging and employee rights under regulations like the [Right to Disconnect](https://www.fairwork.gov.au/employment-conditions/hours-of-work-breaks-and-rosters/right-to-disconnect)
+* For urgent or emergency communications, follow the principle of using calls or alternative means
+* Understand the broader implications of after-hours messaging and employee rights under regulations like the [Right to Disconnect](https://www.fairwork.gov.au/employment-conditions/hours-of-work-breaks-and-rosters/right-to-disconnect)
 
 By using Quiet Hours in Microsoft Teams, you can enjoy better focus at work, a healthier personal life, and a more effective communication strategy within your team.
