@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you go two miles when you're only asked to go one? Go the extra mile and foster a positive team environment by taking initiative and helping others beyond expectations.
+seoDescription: Go the extra mile and foster a positive team environment by taking initiative and helping others beyond expectations.
 type: rule
 title: Quality - Do you go 2 miles when you're only asked to go 1?
 uri: go-the-extra-mile
