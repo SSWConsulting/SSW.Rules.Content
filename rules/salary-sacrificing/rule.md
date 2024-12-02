@@ -2,7 +2,7 @@
 seoDescription: Pay less tax on electronic devices by salary sacrificing with your pre-tax money and save approximately 30% depending on your tax bracket.
 type: rule
 title: Payroll - Do you take advantage of salary sacrificing electronic devices? (Aussie only)
-uri: salary-sacrifice-electronic-devices
+uri: salary-sacrificing
 authors:
   - title: Jimmy Chen
     url: https://www.ssw.com.au/people/jimmy-chen
@@ -18,6 +18,7 @@ redirects:
   - do-you-take-advantage-of-salary-sacrificing-electronic-devices
   - salary-sacrificing-electronic-devices
   - salary-sacrificing-eletronic-devices
+  - salary-sacrifice-electronic-devices
 created: 2023-12-11T00:10:16.831Z
 guid: 08919f62-423b-4734-b99e-54903108e240
 ---
@@ -33,11 +34,11 @@ In Australia, salary sacrificing is when your employer agrees to pay for your de
 
 Most companies will let you salary sacrifice FBT-exempted ([Fringe benefit tax](https://www.forgov.qld.gov.au/finance-and-procurement/finance-travel-and-assets/taxation-and-financial-management/manage-taxation/fringe-benefits-tax-fbt)) portable electronic devices that:
 
-- Are used predominantly for work-related purposes
-- Are easily portable and designed for use away from an office environment
-- Are small and light
-- Can operate without an external power supply
-- Are designed as a complete unit
+* Are used predominantly for work-related purposes
+* Are easily portable and designed for use away from an office environment
+* Are small and light
+* Can operate without an external power supply
+* Are designed as a complete unit
 
 This provides you with a wide variety of work-related devices that you could salary sacrifice and save money on. Some devices such as laptops, tablets, phones, and headphones are just some of the examples.
 
