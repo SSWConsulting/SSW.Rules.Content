@@ -57,7 +57,8 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 Your done videos should follow the following format
 
 1. **Intro**
-   * Fade in to a medium close up shot of yourself
+   * Prepare and practise your talking points and visual elements
+   * Start with a medium close up shot of yourself
    * Start with a smile the camera for 2 seconds before speaking
    * Briefly introduce yourself e.g. first name, role, "from SSW"
 2. **Post-intro**
@@ -69,8 +70,9 @@ Your done videos should follow the following format
    * Show a example of where this issue occurred
 3. **Demo the solution**
    * Provide a working example of your code
-   * You should try to demo the code with a realistic use case rather than showing the code itself
-   * Harken back to the pain you alluded to earlier to remind the audience you've solved the problem
+   * Demo the code with a realistic use case
+   * Direct attention and give people an idea of where to look
+   * Harken back to the pain showing the value of your solution
 4. **Outro**
    * Transition back into a medium close up shot of yourself
    * Provide a brief summary of what you discussed in the video
@@ -115,7 +117,33 @@ Switching Scenes in OBS - it is quite easy to do with these simple steps using O
 
 **Video: How To Switch Scenes In OBS Easily! (OBS Hotkeys) | Tutorial (4 min)**
 
-### Example of a good Done Video
+## Presentation
+
+1. **Apparel** - If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
+2. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
+
+::: good
+![Figure: Good Example - Good framing, lights and background](https://github.com/user-attachments/assets/204f8986-5146-4e0c-9c5f-34985728d03d)
+:::
+
+3. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
+4. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*
+
+::: info 
+If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
+::: 
+
+6. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
+   * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
+   * If presenting in Microsoft Office, hide the ribbon.
+   * When using Outlook for presentations, clear any irrelevant reminders.
+7. **Resolution** - Set your screen to 1080p (1920x1080).
+8. **Recording** - Record both your screen and webcam.
+9. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
+10. **Be Friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro.
+11. **Do a Test Recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions.
+
+Remember to watch some "Done" videos to get an idea of what a good "Done Video" looks like!
 
 `youtube: https://www.youtube.com/embed/DnNTaS7lYZY`
 
