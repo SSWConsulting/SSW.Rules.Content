@@ -25,14 +25,13 @@ There are many ways to record your screen. Here are some popular options:
 * [Zoom](https://zoom.us)
 * [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams)
   * Perfect if you are alreay on a call [see](/record-teams-meetings)
-  * Use [NDI](https://www.ndi.tv) for better quality (separate video files for each participant and the screen share)
 * [StreamYard](https://streamyard.com) (advanced - good for live streaming)
 
 ### Simple recordings
 
 * [Loom](https://www.loom.com) (only 25 videos free)
 * [Snagit](https://www.techsmith.com/screen-capture.html)
-* [Clipchamp](https://clipchamp.com/en/)
+* [Clipchamp](https://clipchamp.com/en/) Recommended - Used at SSW, great start for "Done Videos"
   * Direct upload to Clipchamp
 
 ### Advanced recordings
