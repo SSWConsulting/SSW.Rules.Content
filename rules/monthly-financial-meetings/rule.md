@@ -1,10 +1,8 @@
 ---
 type: rule
 title: Operations - Do you conduct effective monthly financial meetings?
-seoDescription: Monthly financial meetings streamline company finances, ensuring
-  transparency and informed decision-making with sales reports, cash position
-  insights, and revenue trends.
-uri: do-you-conduct-effective-monthly-financial-meetings
+seoDescription: Monthly financial meetings streamline company finances, ensuring transparency and informed decision-making with sales reports, cash position insights, and revenue trends.
+uri: monthly-financial-meetings
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,6 +11,8 @@ authors:
 related: []
 redirects:
   - do-you-have-monthly-financial-meetings
+  - do-you-conduct-effective-monthly-financial-meetings
+  - do-you-have-monthly-accounting-meetings
 created: 2015-09-18T05:50:26.000Z
 archivedreason: null
 guid: 9c154d6c-d475-45fe-8235-3af5c184c1b3
