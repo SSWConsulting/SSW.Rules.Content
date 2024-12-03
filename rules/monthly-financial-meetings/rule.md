@@ -91,7 +91,6 @@ This meeting focuses on financial health and longer-term trends. Use visuals lik
 * **Profit and loss analysis**
   * Monthly profit (with graph)  
   * Monthly expenses
-  * Monthly expenses
   * Year-on-year trends
   * Profit contribution % trends
   * Profit and Loss Return % trends 
