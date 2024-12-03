@@ -1,62 +1,97 @@
 ---
-seoDescription: Monthly financial meetings streamline company finances, ensuring transparency and informed decision-making with sales reports, cash position insights, and revenue trends.
 type: rule
-archivedreason:
-title: Operations - Do you have monthly financial meetings?
-guid: 9c154d6c-d475-45fe-8235-3af5c184c1b3
-uri: do-you-have-monthly-accounting-meetings
-created: 2015-09-18T05:50:26.0000000Z
+title: Operations - Do You Conduct Effective Monthly Financial Meetings?
+seoDescription: Monthly financial meetings streamline company finances, ensuring
+  transparency and informed decision-making with sales reports, cash position
+  insights, and revenue trends.
+uri: do-you-conduct-effective-monthly-financial-meetings
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - url: https://www.ssw.com.au/people/stephan-fako/
+    title: Stephan Fako
 related: []
 redirects:
   - do-you-have-monthly-financial-meetings
+created: 2015-09-18T05:50:26.000Z
+archivedreason: null
+guid: 9c154d6c-d475-45fe-8235-3af5c184c1b3
 ---
+Companies often lose sight of their financial health due to disorganized processes or lack of regular oversight.
 
-It is important to have monthly meetings to get an overview of where the company finances are throughout the year.
-
-Since different people need to report for different sections, it's a good idea to split this into 2 meetings.
+This can lead to missed opportunities, unnecessary spending, or even financial instability.
 
 <!--endintro-->
 
-In this meeting, key staff members should review the past month and look at forecasts for next month.
+Monthly financial meetings help mitigate these risks by providing clarity, accountability, and actionable insights into your business's performance.\
+\
+In these meetings, key staff members should review the past month and look at forecasts for next month.
 
-Here is a sample agenda:
+It is a good idea to split reporting responsibilities into two sections:
 
-### Pre Meeting:
+* **Sales Team** - Responsible for preparing sales reports, utilization metrics, and billable leaderboards.
+* **Accounting Team** - Responsible for generating financial reports, select KPIs, forecasting and trend analysis.
 
-1. Reconcile invoicing system with the Accounting system
-2. Print Monthly Profit and Loss Report
-3. Print YTD Profit and Loss Report
-4. Print Monthly Profit with graph
-5. Complete and print current cash position and include the previous signed version
-6. Review invoices that should be canceled or removed
-7. Fix any invalid data
-8. Print Monthly Receipts Report
-9. Print Invoices vs Receipts by financial month
-10. Print Expenses by Financial Month Report
-11. Print Snapshot Report - Monthly and Cumulative Data
-12. Print Profit and Loss Return % Report
+### Pre-Meeting Preparation
 
-**Note:** the pre-meeting section should be done the day before meeting #1, and a lot of it can be delegated to admin employees
+Proper preparation is crucial to avoid delays and ensure accurate data is available for discussion. At our company, we use Fathom and Power BI to generate detailed financial and operational reports. 
 
-### During meeting #1:
+Preparation Steps:
 
-1. Review Sales reports
-2. Review billable leaderboard
-3. Review utilization report for the month
+**1. Reconciling**
 
-**Note:** It's a good idea to record a quick summary of this meeting so people in Meeting #2 know the executive overview.
+* Reconcile transactions in the accounting systems
+* Balance Sheet reconciliation - emphasis on accruals, prepayments, loans
+* Allocation of costs to appropriate cost centers
 
-### During Meeting #2:
+**2. Data Validation**
 
-1. Review Cash Position
-2. Review revenue by client
-3. Review monthly invoices and receipts
-4. Review monthly profit with graph
-5. Review monthly expenses
-6. Review monthly profit and loss
-7. Review trends year on year
-8. Review trends profit contribution %
-9. Review profit and loss return %
+* Fix any data discrepancies between systems
+* Review of invoicing
+
+**3. Generate Reports**
+
+* Executive page (summary KPIs)
+* Current cash position
+* Monthly Profit and Loss Report
+* Year-to-Date (YTD) Profit and Loss Report
+* Monthly Receipts Report
+* Sales and Invoicing Report
+* Utilization and Breakeven Analysis Report
+* Cash Flow Report
+* KPI selection
+* Expenses Breakdown and Revenue Breakdown by Office
+* Balance Sheet Summary Report
+
+### Meeting #1: Sales and Operational Performance (Sales Team)
+
+This meeting focuses on operational and sales metrics to gauge the company's performance over the past month. 
+
+**Agenda:**
+
+* **Review Sales Reports** - Identify trends and performance gaps.
+* **Analyze Billable Leaderboard** - Highlight top-performing staff or projects.
+* **Discuss Utilization Rates** - Evaluate efficiency and productivity metrics.
+
+**Tip:** Record a concise summary of Meeting #1 to share with participants in Meeting #2 for an executive overview.
+
+### Meeting #2: Financial Review and Strategic Planning (Accounting Team)
+
+This meeting focuses on financial health and longer-term trends. Use visuals like graphs to simplify complex data.
+
+**Agenda:**
+
+* **Cash Position** - Review current and historical cash flow.
+* **Revenue by Client** - Identify high-performing and underperforming clients.
+* **Invoices and Receipts** - Assess monthly figures for accuracy.
+* **Profit and Loss Analysis**
+  * Monthly profit (with graph)  
+  * Monthly expenses
+  * Monthly expenses
+  * Year-on-year trends
+  * Profit contribution % trends
+  * Profit and Loss Return % trends
+
+### Effective Monthly Financial Meetings
+
+By adhering to this structure and leveraging the tips provided, your monthly financial meetings will deliver actionable insights and drive better decision-making for your company.
