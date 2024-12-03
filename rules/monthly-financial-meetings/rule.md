@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Operations - Do you conduct effective monthly financial meetings?
-seoDescription: Monthly financial meetings streamline company finances, ensuring
-  transparency and informed decision-making with sales reports, cash position
-  insights, and revenue trends.
+seoDescription: Monthly financial meetings streamline company finances, ensuring transparency and informed decision-making with sales reports, cash position insights, and revenue trends.
 uri: monthly-financial-meetings
 authors:
   - title: Adam Cogan
