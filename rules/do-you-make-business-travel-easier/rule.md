@@ -9,6 +9,7 @@ authors:
 related:
   - do-you-know-how-to-claim-expense-reimbursements
   - do-you-use-the-best-mobile-app-for-expenses
+  - monitor-uber-expenses
 redirects:
   - uber-for-business
 created: 2024-01-11T00:00:00.000Z

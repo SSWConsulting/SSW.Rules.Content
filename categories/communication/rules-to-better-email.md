@@ -67,7 +67,7 @@ index:
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
-- do-you-know-not-to-send-attachments-in-emails
+- links-or-attachments-in-emails
 - avoid-using-share-functionality
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts

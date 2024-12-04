@@ -54,7 +54,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 ###### This is a heading 6 and below is a blockquote
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->  - Someone famous in Source Title
+> \- Someone famous
 ```
 
 **Figure: Markdown to generate headings and blockquotes**
@@ -91,39 +91,35 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> * Someone famous in Source Title
+> \- Someone famous
 
 ---
 
 ### 2. Text decorations
 
 ```markdown
-_This text will be italic_
-_This will also be italic_
+_This text will be italic._  
 
-**This text will be bold**
-**This will also be bold**
+**And this text will be bold.**
 
-_You **can** combine them_
+~~strikethrough.~~
 
-~~strikethrough~~
+_You **can** combine them_.
 
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
+<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed).
 ```
 
 **Figure: Markdown to generate different text styles**
 
-_This text will be italic_  
-_This will also be italic_
+_This text will be italic._  
 
-**This text will be bold**  
-**This will also be bold**
+**And this text will be bold.**
 
-~~strikethrough~~
+~~strikethrough.~~
 
-_You **can** combine them_
+_You **can** combine them_.
 
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
+<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed).
 
 ---
 
@@ -255,10 +251,12 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 ### 6. Images
 
 ```md
-::: img-small  
+::: class
 ![Figure: Caption text](image-file.jpg)
 :::
 ```
+
+#### Classes for images
 
 ::: img-small  
 ![Figure: Image using class "img-small"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
@@ -273,8 +271,10 @@ bfb265e3-644e-4cbe-b17c-4d378b014809-7947936
 :::
 
 ::: no-border
-![Figure: Image without border](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
+![Figure: Image using class "no-border"](https://images.unsplash.com/photo-1513677785800-9df79ae4b10b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80)
 :::
+
+#### Extra examples
 
 ![Figure: How a smaller image (400px) works with long caption. Full screen on mobile, real width on larger screens...](https://images.unsplash.com/photo-1528820454441-189cd70a6c3c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 

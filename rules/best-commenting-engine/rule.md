@@ -60,10 +60,8 @@ There are a few ways that you can easily add comments and interactivity such asÂ
 * [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
 * [Yotpo](https://www.yotpo.com/)
 
-The following video shows an overview of Yotpo ratings whichÂ we've implemented for our SSW Rules.
+The following is a Done Video that explains Giscus integration to SSW Rules.
 
-`youtube: https://www.youtube.com/embed/JcnPYEm76-4`
+`youtube: https://www.youtube.com/embed/4JLIpuoTeho`
 
-::: good
-Good Example: Yotpo ratings on the SSW Rules site  
-:::
+**Video: SSW Rules moved from Disqus to Giscus (5min)**

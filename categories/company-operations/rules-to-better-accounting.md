@@ -5,7 +5,7 @@ guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
 - do-you-tie-knowledge-to-the-role
-- do-you-have-monthly-accounting-meetings
+- monthly-financial-meetings
 - compliance-sheet
 - do-you-involve-cross-checks-in-your-procedures
 - importance-of-reconciliation
@@ -14,6 +14,7 @@ index:
 - show-long-service-leave-on-your-payslip
 - salary-sacrifice-electronic-devices
 - salary-sacrifice-novated-lease
+- maximize-superannuation-benefits
 - salary-terminology
 - do-you-calculate-payroll-tax-correctly
 - show-certification-award
