@@ -1,7 +1,8 @@
 ---
-seoDescription: Do you build cross-platform apps? Learn about the benefits and approaches to building installable binary apps that run on multiple platforms.
 type: rule
 title: Do you build cross-platform apps?
+seoDescription: Do you build cross-platform apps? Learn about the benefits and
+  approaches to building installable binary apps that run on multiple platforms.
 uri: build-cross-platform-apps
 authors:
   - title: Matt Goldman
@@ -10,6 +11,7 @@ related:
   - why-react-is-great
   - maui-cross-platform
 created: 2022-08-17T20:12:08.779Z
+archivedreason: Duplicate of https://www.ssw.com.au/rules/maui-cross-platform/
 guid: 8d03f974-6e64-4d65-a3b2-04d7e78a52f1
 ---
 

@@ -1,7 +1,7 @@
 ---
 seoDescription: Do you maintain a "Gas in the Tank" report to track your cash reserves and stay ahead of potential business downturns?
 type: rule
-title: Do you maintain a "Gas in the Tank" report?
+title: Cashflow - Do you maintain a "Gas in the Tank" report?
 uri: report-gas-in-the-tank
 authors:
   - title: Nick Viet

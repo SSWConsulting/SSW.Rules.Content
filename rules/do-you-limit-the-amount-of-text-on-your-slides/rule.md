@@ -9,7 +9,7 @@ authors:
 related: []
 redirects: []
 created: 2010-06-08T08:17:30.000Z
-archivedreason: null
+archivedreason: Merged to https://www.ssw.com.au/rules/limit-text-on-slides
 guid: 26b74f71-af77-4de1-acaf-876a461e430d
 ---
 

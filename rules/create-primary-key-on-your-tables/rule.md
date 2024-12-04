@@ -16,17 +16,13 @@ redirects:
 
 When you specify a PRIMARY KEY constraint for a table, SQL Server enforces data uniqueness by creating a unique index for the primary key columns. This index also permits fast access to data when the primary key is used in queries.
 Although, strictly speaking, the primary key is not essential - we recommend all tables have a primary key (except tables that have a high volume of continuous transactions).
-![](SqlTableWithoutPrimaryKey.PNG)
 
 ::: bad
-Figure: Bad Example - Table missing primarykey
-
+![Figure: Bad Example - Table missing primarykey](sql-table-without-primary-key.png)
 :::
-![](SqlTableWithPrimaryKey.PNG)
 
 ::: good
-Figure: Good Example - Table with primary key
-
+![Figure: Good Example - Table with primary key](sql-table-with-primary-key.png)
 :::
 
 **Legacy:**

@@ -59,7 +59,28 @@ index:
 - create-separate-virtual-directory-for-admin-access
 - use-intergrated-security-for-payroll-reports
 - remove-executiontime-in-subscription-email-subject
+- embed-rs-report-in-asp-net-page
+- get-email-list-of-report-subscription
+- add-report-owner
+- use-single-line-box
+- change-name-of-site-settings
+- use-correct-authentication-for-report
+- url-access-link-for-report
+- have-clear-labelling-for-including-excluding-gst
+- summary-and-detailed-version-of-report
+- use-live-data-feed-in-excel
+- follow-naming-convention-standards-in-reporting-service
+- use-sharepoint-integration-reporting-mode
+- display-reports-in-firefox-chrome-safari
+- display-reports-properly-in-firefox-chrome
+- report-that-refreshes-data-source
 
 ---
 
-If you still need help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.
+SQL Server Reporting Services is a comprehensive, server-based reporting solution that can author, manage, and deliver both paper-oriented and interactive, Web-based reports. Do you agree with all these rules? Are we missing some? [Let us know](https://www.ssw.com.au/company/contact-us) what you think.
+
+🔊 Historical (2006) [Listen to Adam's podcast on these rules with Greg Low](https://sqldownunder.blob.core.windows.net/podcasts/SDU14FullShow.mp3) (42 min)  
+
+⚠️ While SQL Server Reporting Services (SSRS) is still in use, it is considered legacy technology. For modern data reporting and analytics, Power BI is the recommended solution. Check out our [Rules to better Power BI](https://www.ssw.com.au/rules/rules-to-better-power-bi/).
+
+If you need consulting help, visit [Enterprise Reporting and BI](https://www.ssw.com.au/consulting/enterprise-reporting) and book in a consultant.

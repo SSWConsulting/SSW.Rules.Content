@@ -1,7 +1,7 @@
 ---
 seoDescription: Gratitude amplifies online engagement and boosts search visibility when others mention or re-tweet you.
 type: rule
-title: Twitter - Do you know to thank others for each reference to you?
+title: X - Do you know to thank others for each reference to you?
 uri: thank-others-for-each-reference-to-you
 authors:
   - title: Adam Cogan
@@ -24,7 +24,7 @@ When others mention you on their blog or podcast and if they re-tweet you then y
 <!--endintro-->
 
 ::: good
-![Figure: Good example, always thanking someone is not just good practice and polite, you both get Google juice as well](twitter-thanks-reply.png)
+![Figure: Good example - Always thanking someone is not just good practice and polite, you both get Google juice as well](twitter-thanks-reply.png)
 :::
 
 Remember to say something constructive, and not just "thanks" to build on the engagement.

@@ -14,6 +14,8 @@ index:
 - do-you-know-the-correct-license-to-use-for-open-source-software
 - clean-git-history
 - find-your-license
+- share-product-improvements
+
 ---
 
-
+Discover the key principles for effectively engaging with open source software. This guide covers the importance of using open source, proper contribution etiquette, and how to maintain clear communication about project status, coding standards, and licensing.

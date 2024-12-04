@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you know the layers of the Onion architecture? Learn about Application Core, Domain Model, Repository Interfaces, Business Logic Interfaces, Clients, and Dependencies to build a robust software application.
+seoDescription: Learn about Application Core, Domain Model, Repository Interfaces, Business Logic Interfaces, Clients, and Dependencies to build a robust software application.
 type: rule
 archivedreason:
 title: Do you know the layers of the onion architecture?
@@ -17,38 +17,40 @@ related: []
 redirects: []
 ---
 
-![Onion Architecture](Onion-Architecture.jpg)
-<br>
-Figure: The layers of the [onion architecture](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/do-you-know-the-layers-of-the-onion-architecture/Onion-Architecture.pdf)
+The Onion Architecture is a software design approach that promotes a clear separation of concerns by organizing code into distinct layers. Each layer has a specific purpose, forming concentric circles around the core business logic, much like layers of an onion. This architecture encourages flexibility, testability, and resilience, ensuring that changes in outer layers have minimal impact on the core logic.
 
 <!--endintro-->
 
-### Application Core (the grey stuff)
+![Figure: Onion Architecture](Onion-Architecture.jpg)
+
+[Download Onion Architecture PDF](Onion-Architecture.pdf)
+
+## Application Core (the grey stuff)
 
 This should be the big meaty part of the application where the domain logic resides.
 
-### Domain Model
+## Domain Model
 
 In the very centre, we see the Domain Model, which represents the state and behaviour combination that models truth for the organization and is only coupled to itself.
 
-### Repository Interfaces
+## Repository Interfaces
 
 The first layer around the Domain Model is typically where we find interfaces that provide object saving and retrieving behaviour.
 The object saving behaviour is not in the application core, however, because it typically involves a database. Only the interface is in the application core. The actual implementation is a dependency which is injected.
 
-### Business Logic Interfaces
+## Business Logic Interfaces
 
 Business logic is also exposed via interfaces to provide decoupling of business logic.
 Examples of where this is useful include substituting a FacebookNotificationService for an EmailNotificationService or a FedExShippingCalculator for a DHLShippingCalculator
 
-### Clients (the red stuff)
+## Clients (the red stuff)
 
 The outer layer is reserved for things that change often. E.g. UI and the other applications that consume the Application Core.
 This includes the MVC project.
 Any interface dependencies in factories, services, repositories, etc, are injected into the domain by the controller.
 This means any constructor-injected interfaces in domain classes are resolved automatically by the IoC container.
 
-### Dependencies
+## Dependencies
 
 Dependencies are implementations of interfaces defined in Repository and Business Logic Interfaces and Domain.
 These classes are specific implementations and can be coupled to a particular method of data access, or specific service technology.
@@ -61,12 +63,14 @@ Because the Application core only relies on abstractions of the dependencies, it
 The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wikipedia.org/wiki/Dependency_inversion_principle) principle and other [SOLID principles](/do-you-know-the-common-design-principles-part-1).
 (Note: Onion Architecture has been replaced by [Clean Architecture](/rules-to-better-clean-architecture))
 
-#### References:
+### References
 
-- http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/
-- [http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371#9933371](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
+* [Blog | Peeling Back the Onion Architecture](http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/)
+* [Stack Overflow Questions | What type of architecture is this called?](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
 
-### Use SSW Data Onion to Generate your Code
+---
+
+## Use SSW Data Onion to Generate your Code
 
 To help make this process pain free, we've developed the [SSW Data Onion](http://www.sswdataonion.com/) to get you going and take away the boilerplate code you would normally need to write. Check out this cool video to see how it works:
 

@@ -21,6 +21,8 @@ related:
 It can be expensive retrieving all the columns of a table. Find out why.
 
 <!--endintro-->
+`youtube: https://www.youtube.com/embed/K5L1Dc_nUL8`  
+**Video: SELECT only the columns you want ✨ | Bryden Oliver (4 min)**
 
 Retrieving all the columns in a table is a common pattern.
 

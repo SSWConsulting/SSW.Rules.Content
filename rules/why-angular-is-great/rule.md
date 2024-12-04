@@ -27,7 +27,7 @@ Angular's modular architecture allows developers to organize code into modules, 
 
 Angular uses two-way data binding, which automatically synchronizes the data between the model and the view. This simplifies the development process by reducing the amount of boilerplate code needed to keep the model and view in sync.
 
-### Mediator Patterns
+### Reactive Forms
 
 When using form binding in Angular, Reactive Forms allow you to separate form inputs from the application logic. This gives you direct control over how, or whether or not form inputs alter the state of the application. For more details, refer to the [Reactive Forms guide](https://angular.dev/guide/forms/reactive-forms).
 
@@ -54,6 +54,10 @@ Angular has a rich ecosystem supported by Google and a vibrant community. This e
 ### Extensive Testing Support
 
 Angular is designed with testability in mind, providing tools and features to easily write unit tests, integration tests, and end-to-end tests. The framework includes testing utilities and works seamlessly with testing frameworks like Jasmine and Protractor.
+
+### Comprehensive Documentation and Learning Resources
+
+Angular offers extensive documentation and a variety of learning resources, including tutorials, guides, and examples. This helps developers at all levels quickly understand the framework and its features, facilitating faster onboarding and skill development. For more details, visit [Angular docs](https://angular.dev/overview).
 
 ### References
 

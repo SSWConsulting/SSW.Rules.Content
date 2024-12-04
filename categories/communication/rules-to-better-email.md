@@ -10,6 +10,7 @@ index:
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions
+- add-days-to-dates
 - include-names-as-headings
 - do-not-bury-your-headline
 - standard-email-types
@@ -66,7 +67,7 @@ index:
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
-- do-you-know-not-to-send-attachments-in-emails
+- links-or-attachments-in-emails
 - avoid-using-share-functionality
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts
@@ -97,6 +98,7 @@ index:
 - description-to-the-group
 - highlight-template-differences
 - format-new-lines
+- move-emails-into-folders
 
 ---
 

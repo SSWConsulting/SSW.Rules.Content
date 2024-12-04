@@ -19,12 +19,12 @@ Screenshots are a very important part of websites these days. Be careful to avoi
 
 <!--endintro-->
 
-::: bad  
-![Figure: Bad example - Screenshot includes personal browsers](Bad_Screenshot-with-personal-data.JPG)  
+::: bad
+![Figure: Bad example - Screenshot includes personal browsers](bad-screenshot-with-personal-data.jpg)  
 :::
 
-::: good  
-![Figure: Good example - Screenshot has been cropped to hide personal browsers](Good_No-Personal-Info.jpg)  
+::: good
+![Figure: Good example - Screenshot has been cropped to hide personal browsers](good-no-personal-info.jpg)  
 :::
 
 Tips:
@@ -33,6 +33,6 @@ Tips:
 * Go full screen
 * Always have the 'Auto-hide the taskbar' option checked
 
-::: good  
-![Figure: Always have the 'Auto-hide the taskbar' option checked so you do be screenshots](Good_Auto-Hide-Taskbar.gif)  
+::: good
+![Figure: Always have the 'Auto-hide the taskbar' option checked so you do better screenshots](good-auto-hide-taskbar.gif)  
 :::

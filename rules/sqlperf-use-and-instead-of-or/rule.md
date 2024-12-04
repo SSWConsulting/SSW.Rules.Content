@@ -21,6 +21,9 @@ related:
 To understand why this is the case it takes a little bit of thought.
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/HFPtQxeFrVc`  
+**Video: Use AND instead of OR for SQL performance | Bryden Oliver (3 min)**
+
  When doing an OR, the server needs to get all the rows that match the first clause in the OR statement. Then it needs to get all the rows that match and then join the 2 results together. If you think about it this is just doing a union and you can generally write a statement with an OR using a UNION instead and the performance will improve. It will however be a bit less readable.
 
 ```sql

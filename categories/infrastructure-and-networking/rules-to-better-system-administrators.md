@@ -13,7 +13,7 @@ index:
 - have-a-strict-password-security-policy
 - multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
-- azure-ad-pim
+- microsoft-entra-pim
 - group-managed-service-account-gmsa
 - remote-desktop-manager
 - windows-admin-center
@@ -36,6 +36,7 @@ index:
 - entra-group-access-reviews
 - run-rsat-from-non-domain-computer
 - what-is-dns
+- tasks-with-a-ticking-clock
 ---
 
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.

@@ -8,6 +8,7 @@ index:
 - do-you-know-the-dangers-of-sitting
 - healthy-office-food
 - lasting-habits
+- stretch-at-work
 
 ---
 Are you at your best when you sit down for +8 hours straight every day? No? Neither are we.

@@ -27,6 +27,8 @@ If you've ever wondered why the formats of graphics on the web differ from each 
 
 Stands for "Scalable Vector Graphics".
 
+SVG is best suited for scalable vector graphics, ideal for logos, icons, and illustrations that need to maintain quality at any size or resolution.
+
 ✅ **Advantages**
 
 * **Scalability** - SVGs are vector-based, meaning they can be scaled to any size without losing quality. This makes them ideal for logos, icons, and illustrations that need to look sharp on all devices, from mobile screens to large monitors - No pixelation
@@ -59,6 +61,8 @@ Stands for "Scalable Vector Graphics".
 
 Stands for "Portable Network Graphics".
 
+PNG is best suited for images that require transparency or lossless compression, such as logos, icons, and illustrations with sharp edges.
+
 ✅ **Advantages**
 
 * **Transparency** - PNG supports transparent backgrounds, making it perfect for images that need to be layered over other content
@@ -80,6 +84,8 @@ Stands for "Portable Network Graphics".
 
 Stands for "Joint Photographic Experts Group".
 
+JPG is best suited for photographs and complex images where rich colors and gradients are essential, with some trade-offs in compression and quality.
+
 ✅ **Advantages**
 
 * **File size** - JPGs use lossy compression, which significantly reduces file size, making them ideal for large images like photographs
@@ -100,20 +106,46 @@ Stands for "Joint Photographic Experts Group".
 ### Examples
 
 ::: bad  
-![Figure: Bad example – Low quality JPG (18k)](Screen-JPGQuality1.jpg)  
+![Figure: Bad example – Low quality JPG (18k)](image-formats-bad-low.jpg)  
 :::
 
 ::: bad  
-![Figure: Bad example – Uncompressed JPG (100k)](Screen-JPGQuality2.jpg)  
+![Figure: Bad example – Uncompressed JPG (100k)](image-formats-bad-uncompressed.jpg)
 :::
 
 ::: good  
-![Figure: Good example – Compressed JPG (28k)](Screen-JPGQuality3.jpg)  
+![Figure: Good example – Compressed JPG (28k)](image-formats-good-compressed.jpg)  
 :::
+
+## WebM
+
+Stands for "Web Media File Format".
+
+WebM is best suited for high-quality animations and video where performance and file size efficiency are crucial.
+
+✅ **Advantages**
+
+* **Superior compression** - WebM uses advanced video codecs like VP8 and VP9, allowing for higher compression without a significant loss in quality, resulting in smaller file sizes compared to GIFs
+* **High quality** - WebM supports full-color depth (24-bit) and high frame rates, making it ideal for high-quality animations and video with smooth playback and vibrant color
+* **Audio support** - Unlike GIFs, WebM files can include audio, offering a more versatile option for multimedia, tutorials, or short clips that require sound
+* **Performance efficiency** - WebM is optimized for efficient playback, reducing CPU usage and battery drain, especially important for mobile devices
+
+❌ **Disadvantages**
+
+* **Limited compatibility** - WebM is not supported by all web browsers (e.g., older versions of Safari and Internet Explorer), which can lead to accessibility issues without fallback options like MP4 or GIF
+* **More complex implementation** - Embedding WebM requires more knowledge and effort than GIFs, particularly if fallback formats are necessary for cross-browser compatibility
+
+### Best use cases
+
+* Video-based animations with audio
+* High-resolution web animations (e.g., UI/UX interactions, tutorials)
+* Short videos with complex visuals or gradients that would be degraded in GIF format
 
 ## GIF
 
 Stands for "Graphics Interchange Format".
+
+GIFs are appropriate for simple, short loops where universal compatibility and quick implementation are key.
 
 ✅ **Advantages**
 
@@ -129,7 +161,7 @@ Stands for "Graphics Interchange Format".
 
 ### Best use cases
 
-* Simple animations (e.g., loading spinners, small banners)
+* Simple animations (e.g., loading spinners, small banners).
 * Memes and short video clips
 * Low-color images with transparency
 
@@ -139,7 +171,10 @@ If you decide to use GIFs on your website, here are some optimization tips to en
 
 * **Reduce the number of frames** - Fewer frames can lead to a smaller file size without drastically affecting the animation quality
 * **Optimize colors** - Use tools to reduce the color palette of your GIF to the minimum needed for acceptable quality
-* **Consider alternatives** - For more complex animations, consider using CSS animations or video formats like MP4, which offer better compression and quality
+
+::: info
+**Note:** For more complex animations, consider using CSS animations or other formats like WebM (see above) or MP4, which offer better compression and quality.
+:::
 
 ## BMP
 

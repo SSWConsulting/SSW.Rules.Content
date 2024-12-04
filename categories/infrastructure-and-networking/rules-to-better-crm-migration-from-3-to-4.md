@@ -12,4 +12,4 @@ index:
 
 ---
 
-
+Ensure a smooth CRM migration from version 3 to 4 by applying all hotfixes to the server post-migration, backing up everything beforehand, and logging each screen during the process. Conduct multiple test migrations before going live and update CRM installation files to guarantee compatibility and functionality.

@@ -2,7 +2,7 @@
 seoDescription: Do you add cards to your YouTube videos and keep viewers engaged with suggested related content?
 type: rule
 archivedreason:
-title: Do you add cards to your YouTube videos?
+title: Videos - Do you add cards to your YouTube videos?
 guid: d81a0607-640e-40ab-939d-92f4bd422289
 uri: youtube-cards
 created: 2018-05-22T22:49:45.0000000Z

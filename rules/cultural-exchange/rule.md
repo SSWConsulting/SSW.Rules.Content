@@ -28,11 +28,11 @@ For example, in the SSW Cultural Exchange program employees (and their families)
 
 They immerse themselves in the local office and community by participating in extra-curricular activities, such as:
 
-- Company retreats (depends on the timing)
-- Present or attend User Groups
-- Team events and outings (like team dinners, board game parties, etc.)
-- Language classes
-- Weekend cultural events (e.g. local festivals)
+* Company retreats (depends on the timing)
+* Present or attend User Groups
+* Team events and outings (like team dinners, board game parties, etc.)
+* Language classes
+* Weekend cultural events (e.g. local festivals)
 
 **Tip:** Encourage your employees to bring their family too. See: [Ruby Cogan - Life in China is not boring for a high school student](https://rubycogan.com/2018/12/life-in-china-is-not-boring-for-a-high-school-student) and [Adam Cogan - Luckin Coffee vs Starbucks](https://adamcogan.com/2018/12/05/luckin-coffee-vs-starbucks-a-luckin-success-in-china)
 
@@ -42,7 +42,7 @@ It's important to diversify your cultural experiences - don't pick the same coun
 
 ## Costs
 
-This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation (and their family, if they want to bring them).
+This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation.
 
 ::: info
 **Tip:** Put your house on [Airbnb](https://www.airbnb.com) while you're away

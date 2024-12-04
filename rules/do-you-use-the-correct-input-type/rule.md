@@ -1,6 +1,6 @@
 ---
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use the correct input type?
 guid: 00cffd59-b110-46db-ab2d-bb70c0dbe9cf
 uri: do-you-use-the-correct-input-type
@@ -17,10 +17,10 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 
 <!--endintro-->
 
-![](fieldtype-text.PNG)
+![](field-type-text.png)
 
 ```html
-<label for="phone">Phone</label>: 
+<label for="phone">Phone</label>:
 <input type="text" name="phone" />
 ```
 
@@ -28,21 +28,18 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 Figure: Bad example – This field is using a text type and shows a standard keyboard on mobile  
 :::
 
-
-![](fieldtype-tel.PNG)
-
+![](field-type-tel.png)
 
 ```html
-<label for="phone">Phone</label>: 
+<label for="phone">Phone</label>:
 <input type="tel" name="phone" />
 ```
 
 ::: good
-Figure: Good example – This field is using the correct field type and shows the keypad on mobile  
+Figure: Good example – This field is using the correct field type and shows the keypad on mobile
 :::
 
 Here is a table of some useful input types and what they do:
-
 
 | Type | What |
 | --- | --- |

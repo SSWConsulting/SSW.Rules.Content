@@ -27,16 +27,10 @@ This makes sure that we have a historical log of work completed, and still keeps
 
 <!--endintro-->
 
-![](create-pr-for-failed-branch.png)
-
 ::: good
-Good Example: Setup pull request for feature branch so that we have a history of the commits
-
+![Figure: Good example - Setup pull request for feature branch so that we have a history of the commits](create-pr-for-failed-branch.png)
 :::
 
-![](abandoned-pr-for-branch.png)
-
 ::: good
-Good Example: PR is abandoned with a deleted branch
-
+![Figure: Good example - PR is abandoned with a deleted branch](abandoned-pr-for-branch.png)
 :::

@@ -9,7 +9,9 @@ created: 2015-03-17T04:47:35.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - do-you-know-how-to-format-dates-to-include-the-weekday
+  - add-days-to-dates
 redirects: []
 ---
 

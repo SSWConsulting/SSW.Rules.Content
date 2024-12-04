@@ -35,7 +35,7 @@ This shouldnt be a large task - prepare a quick note form that reminds you what 
 ![Figure: Good Example - Label broken things with a sticky note](LeaningTowerOfPisa.jpg)
 :::
 
-If you want to have a more formal version of the sticky note, the SSW Design Team has created [this PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/label-broken-equipment/SSW-label-broken-things.pdf) which can be printed and attached to stuff that needs fixing (however, normally just a yellow sticky note and an email does the job just fine)
+If you want to have a more formal version of the sticky note, the SSW Design Team has created [this PDF](SSW-label-broken-things.pdf) which can be printed and attached to stuff that needs fixing (however, normally just a yellow sticky note and an email does the job just fine)
 
 ::: good
 ![Figure: OK Example - Print PDF, fill the form and attach to broken things in the office](broken-things.jpg)

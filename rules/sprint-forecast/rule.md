@@ -1,7 +1,7 @@
 ---
-seoDescription: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint) - Confirming the relationship between the Product Owner and Development Team in Agile Project Management.
 type: rule
-title: Do you create a Sprint Forecast? (aka The functionality that will be developed during the Sprint)
+title: Do you create a Sprint Forecast? (aka The functionality to be developed in the Sprint)
+seoDescription: The functionality that will be developed during the Sprint confirms the relationship between the Product Owner and Development Team in Agile Project Management.
 uri: sprint-forecast
 authors:
   - title: Adam Cogan
@@ -29,13 +29,14 @@ This is simply an agreement between the Development Team and the PO for one Spri
 Each Sprint in a Scrum project can be considered a mini-project that has **time** (Sprint Length), **scope** (Sprint Backlog), **quality** (Definition of Done) and **cost** (Team Size \* Sprint Length). Only the scope can vary and this is measured every Sprint.
 
 ::: email-template
-| | |
-| -------- | --- |
-| To: | {{Product Owner}} |
-| Subject: | {{Client Name}}: Sprint XXX Forecast |
+
+|          |                                        |
+| -------- | -------------------------------------- |
+| To:      | {{ PRODUCT OWNER }}                    |
+| Subject: | {{ CLIENT NAME }}: Sprint XXX Forecast |
 ::: email-content
 
-### Hi {{Product Owner}}
+### Hi {{ PRODUCT OWNER }}
 
 Sprint Goals (in priority order):
 
@@ -46,9 +47,10 @@ Sprint Goals (in priority order):
 
 Please see below for a more detailed breakdown of the upcoming Sprint:
 
-| **Current Sprint:**    | **{{ SPRINT NUMBER }}**              |
+|                        |                                      |
 | ---------------------- | ------------------------------------ |
 | Summary Recording:     | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+| This Sprint:           | {{ SPRINT NUMBER }}                  |
 | Sprint Duration:       | {{ NUMBER OF WEEKS }}                |
 | Project:               | {{ PROJECT NAME }}                   |
 | Project Portal:        | {{ LINK TO PROJECT PORTAL }}         |
@@ -60,8 +62,9 @@ As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to
 
 The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the Sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
 
-| **ID** | **Title**                           | **State** | **Effort** |
+|   ID   |   Title                             |   State   |   Effort   |
 | ------ | ----------------------------------- | --------- | ---------- |
+|   ID   |   Title                             |   State   |   Effort   |
 | 24124  | UI Improvements                     | Done      | 4          |
 | 24112  | Integrate Business Logic to MVC app | Done      | 8          |
 | 24097  | Styling                             | Committed | 16         |

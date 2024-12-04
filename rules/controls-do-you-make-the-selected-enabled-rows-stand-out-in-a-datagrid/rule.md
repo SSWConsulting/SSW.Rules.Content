@@ -18,15 +18,14 @@ Many times you allow a multiple selection in a grid by using a checkbox. When yo
 <!--endintro-->
 
 ::: bad  
-![Figure: Bad example - Selected rows are not separate from others.](../../assets/Interface_Selected_Rows_Bad.JPG)  
+![Figure: Bad example - Selected rows are not separate from others](../../assets/interface-selected-rows-bad.jpg)  
 :::
 
 ::: good  
-![Figure: Good example - Selected rows are separate from others.](../../assets/Interface_Selected_Rows_Good.JPG)  
+![Figure: Good example - Selected rows are separate from others](../../assets/interface-selected-rows-good.jpg)  
 :::
 
-To make this effect in datagrid, you may need to edit the **cellcontentclick** event handler code.
-Example:
+To make this effect in datagrid, you may need to edit the **cellcontentclick** event handler code. Example:
 
 ```cs
 private void DatagridviewRules_CellContentClick(object sender, DataGridViewCellEventArgs e) {

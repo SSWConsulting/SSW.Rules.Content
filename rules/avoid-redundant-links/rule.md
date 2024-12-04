@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - less-is-more
+  - do-you-avoid-linking-a-page-to-itself
 redirects:
   - do-you-avoid-redundant-linking-(aka-single-link-to-single-location)
   - do-you-avoid-redundant-linking-aka-single-link-to-single-location

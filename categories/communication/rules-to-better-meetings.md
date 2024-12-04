@@ -9,6 +9,7 @@ index:
 - only-invite-the-minimum-number-of-people-possible
 - the-3-criteria-that-make-a-good-meeting
 - share-the-agenda
+- start-meetings-with-energy
 - recognize-anchoring-effects
 - uncover-hidden-anchor-client
 - stick-to-the-agenda-and-complete-the-meetings-goal

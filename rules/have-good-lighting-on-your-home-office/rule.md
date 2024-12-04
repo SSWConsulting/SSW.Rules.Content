@@ -23,10 +23,10 @@ Lights can improve the general quality of your calls. The best light will always
 
 Here are some tips:
 
-- If you have a desk lamp, move it so it is not directly on your face or on a white background to avoid extreme contrasting on your image
-- Avoid having light (even from a window) behind you, otherwise, it can create annoying glare on your monitor or shadows on your work station
-- You can have a nice work station with some decorative lights, such as desk lamps
-- On general principle, you always want the subject to be the brightest and most well-lit subject in the frame.
+* If you have a desk lamp, move it so it is not directly on your face or on a white background to avoid extreme contrasting on your image
+* Avoid having light (even from a window) behind you, otherwise, it can create annoying glare on your monitor or shadows on your work station
+* You can have a nice work station with some decorative lights, such as desk lamps
+* On general principle, you always want the subject to be the brightest and most well-lit subject in the frame
 
 ::: bad
 ![Figure: Bad example - Overexposed kitchen](overexposed-kitchen.png)

@@ -15,7 +15,7 @@ authors:
     url: https://ssw.com.au/people/adam-stephensen
 related:
   - do-you-use-a-dependency-injection-centric-architecture
-  - do-you-generate-the-vs-dependency-graph
+  - generate-dependency-graphs
   - the-best-dependency-injection-container
 redirects:
   - do-you-know-what-to-do-about-asp-net-core-(aka-asp-net-5)-default-dependency-injection

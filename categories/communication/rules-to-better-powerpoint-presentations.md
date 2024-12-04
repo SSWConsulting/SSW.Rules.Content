@@ -8,6 +8,7 @@ index:
 - do-you-know-how-to-see-if-your-powerpoint-is-using-the-latest-template
 - do-you-know-how-to-change-the-layout-for-your-slides
 - do-you-limit-the-number-of-fonts
+- limit-text-on-slides
 - do-you-limit-the-amount-of-text-on-your-slides
 - slide-master-do-you-have-your-logo-and-tag-line-at-the-bottom
 - prior-is-your-first-slide-pre-setup
@@ -31,10 +32,10 @@ index:
 - do-you-know-how-to-compress-your-powerpoint
 - animate-your-summary-slide
 - keep-your-urls-clean
+- use-qr-codes-for-urls
 - use-creative-commons-images
-- no-text-slides
 - powerpoint-comments
 
 ---
- 
 
+Create impactful PowerPoint presentations with these essential rules. From using templates effectively to engaging your audience with interactive tools, these tips will help you deliver clear, professional, and visually appealing presentations.

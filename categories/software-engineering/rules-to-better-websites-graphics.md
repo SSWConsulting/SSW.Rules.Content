@@ -28,3 +28,5 @@ index:
 - do-you-exclude-width-and-height-properties-from-image-references-in-content
 
 ---
+
+Enhance your website's visual appeal and performance by adhering to key graphic rules. This collection outlines best practices for image quality, formats, hosting, and optimization, ensuring that your visuals contribute effectively to user experience and site efficiency.

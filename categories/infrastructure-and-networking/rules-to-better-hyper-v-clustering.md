@@ -16,5 +16,5 @@ index:
 - do-you-first-get-your-cluster-and-san-going
 
 ---
- 
 
+To enhance your Hyper-V clustering setup, ensure you disable NetBIOS on dedicated adapters, give your network adapters meaningful names, and segregate iSCSI and cluster networks on their own VLANs or switches. Additionally, specify a network for Live Migration and utilize a Microsoft-supported network setup for optimal performance.

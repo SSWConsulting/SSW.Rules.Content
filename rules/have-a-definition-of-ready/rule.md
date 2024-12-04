@@ -54,13 +54,12 @@ The acronym INVEST serves as a helpful reminder of a widely accepted set of crit
 ::: greybox
 PBIs should follow the INVEST principle:
 
-**"I" ndependent** (of all others)
-**"N" egotiable** (not a specific contract for features)
-**"V" aluable** (or vertical)
-**"E" stimable** 👑 (to a good approximation)
-**"S" mall** (so as to fit within an iteration)
-**"T" estable** 👑 (in principle, even if there isn’t a test for it yet)
-
+**"I" ndependent** (of all others)  
+**"N" egotiable** (not a specific contract for features)  
+**"V" aluable** (or vertical)  
+**"E" stimable** 👑 (to a good approximation)  
+**"S" mall** (so as to fit within an iteration)  
+**"T" estable** 👑 (in principle, even if there isn’t a test for it yet)  
 :::
 
 While acronyms like INVEST can seem over-elaborate, they offer a helpful framework to ensure consistency and clarity in evaluating PBIs.

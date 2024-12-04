@@ -2,7 +2,7 @@
 seoDescription: Create engaging polls on YouTube to connect with fans and gather feedback beyond video uploads, leveraging Community posts for increased audience interaction.
 type: rule
 archivedreason:
-title: Do you create polls to engage with your subscribers?
+title: Channel - Do you create polls to engage with your subscribers?
 guid: dc5b62d1-42fb-4372-ba61-08615b70a443
 uri: do-you-create-polls-to-engage-with-your-subscribers
 created: 2020-11-10T05:22:50.0000000Z
@@ -21,11 +21,5 @@ Community polls are lightweight engagement tools that allow Creators on Youtube
 To create a Community post, go to the tab called “Community” from your channel homepage on desktop or mobile. From here, you can promote a collaboration video; poll your audience on what type of video they want to see next.
 
 1. You click on the Create button | Create post.
-
-Figure: Create post
-
 2. Click Poll Icon
-   Figure: Create Poll on YouTube
-
-3. Add your Questions and options in, once done press post 
-Figure: Add your Questions and options in, once done press post
+3. Add your Questions and options in, once done press post

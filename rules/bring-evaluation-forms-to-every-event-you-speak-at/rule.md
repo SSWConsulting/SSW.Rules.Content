@@ -12,7 +12,7 @@ related: []
 redirects:
   - do-you-bring-evaluation-forms-to-every-event-you-speak-at
 created: 2014-10-13T18:28:41.000Z
-archivedreason: null
+archivedreason: Replaced by https://www.ssw.com.au/rules/event-feedback
 guid: 1b58d5fb-0854-4b67-8d02-abded206d002
 ---
 
@@ -20,4 +20,4 @@ The best way to find out how your clients and customers think about you is to as
 
 <!--endintro-->
 
-At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results. Take a look at our [Speakers and Presentation Evaluation Form](https://www.ssw.com.au/ssw/standards/forms/SSWEvaluationSurvey.pdf).
+At SSW we bring our eval forms to every event we run or speak at. This allows us to reflect on our performance and run some quantitative analysis on the survey results.

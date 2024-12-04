@@ -2,7 +2,7 @@
 seoDescription: Monitor YouTube analytics and metrics effectively to inform content creators about audience engagement, top traffic sources, and overall performance.
 type: rule
 archivedreason:
-title: Do you monitor YouTube Analytics and metrics effectively?
+title: Channel - Do you monitor YouTube Analytics and metrics effectively?
 guid: 13d7b5be-519f-4608-8003-85079d427e59
 uri: monitor-youtube-analytics-and-metrics
 created: 2020-10-13T04:31:06.0000000Z

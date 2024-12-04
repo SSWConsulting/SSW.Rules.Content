@@ -1,7 +1,8 @@
 ---
-seoDescription: Stay ahead of cyber threats by using multi-factor authentication (MFA) instead of typing passwords.
 type: rule
-title: Do you use MFA instead of typing a password?
+title: Do you use MFA and avoid typing passwords?
+seoDescription: Stay ahead of cyber threats by using multi-factor authentication
+  (MFA), and setup passwordless sign-in to avoid typing passwords.
 uri: using-mfa
 authors:
   - title: Matt Goldman
@@ -14,6 +15,8 @@ authors:
     url: https://www.ssw.com.au/people/warwick-leahy
 related:
   - password-manager
+  - multi-factor-authentication-enabled
+  - windows-hello
 created: 2022-03-17T05:06:21.573Z
 guid: 1e46b6c6-b5de-425d-a801-cad2c6c33905
 ---

@@ -29,6 +29,7 @@ index:
   - use-github-discussions
   - use-github-topics
   - use-teams
+  - github-mobile
   - how-to-view-activity-traffic-and-contributions-of-a-project
   - limit-admin-access
   - set-default-permissions-for-new-repositories
