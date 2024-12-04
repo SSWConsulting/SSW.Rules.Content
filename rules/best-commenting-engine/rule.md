@@ -30,35 +30,35 @@ There are a few ways that you can easily add comments and interactivity such as�
 
 **✅ Pros:**
 
-- Uses GitHub discussions to store comments
-- Uses GitHub login - most people already have this
-- Simple and lightweight
-- Always free
-- Open source
-- No tracking scripts
-- No ads
+* Uses GitHub discussions to store comments
+* Uses GitHub login - most people already have this
+* Simple and lightweight
+* Always free
+* Open source
+* No tracking scripts
+* No ads
 
 **❌ Cons:**
 
-- No moderation features
+* No moderation features
 
 #### [Disqus](https://disqus.com/)
 
 **✅ Pros:**
 
-- Moderation features
-- Spam protection features
+* Moderation features
+* Spam protection features
 
 **❌ Cons:**
 
-- Heavy - adds lots of tracking scripts
-- Need a separate login
-- Paid (Unless you want ugly ads 🤮)
+* Heavy - adds lots of tracking scripts
+* Need a separate login
+* Paid (Unless you want ugly ads 🤮)
 
 ### Other options
 
-- [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
-- [Yotpo](https://www.yotpo.com/)
+* [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
+* [Yotpo](https://www.yotpo.com/)
 
 The following is a Done Video that explains Giscus integration to SSW Rules.
 
