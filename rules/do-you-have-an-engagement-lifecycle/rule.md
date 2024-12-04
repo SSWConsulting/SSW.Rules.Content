@@ -25,7 +25,7 @@ Our engagement lifecycle overlaps with our [sales pipeline](/do-you-know-the-6-s
 
 1. **Initial Phone Call**
    - The client has made contact but no initial meeting has yet been made
-2. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting) - Booked
+2. **[Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)** - Booked
    - Sales team has arranged an initial meeting and it's booked in.
    - The Initial Meeting is a non-billed meeting that maps to the Initial Meeting described in the **8 Steps to Scrum**. It is attended by a Sales person and ideally a Solution Architect.
 3. **Follow Up Meeting** - Booked
