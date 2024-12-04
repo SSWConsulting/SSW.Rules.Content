@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do You Know When to Use MDX?
 seoDescription: " Learn when to use MDX for custom components and advanced
   functionality, regardless of the framework, versus sticking with Markdown for
