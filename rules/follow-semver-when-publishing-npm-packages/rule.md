@@ -55,6 +55,9 @@ Here are a few tools and resources that can help you manage SemVer compliance wh
 - **[semver](https://www.npmjs.com/package/semver)**  
   A library that helps parse and compare version numbers. It’s useful for checking if a version change follows the SemVer rules.
 
+- **[changesets](https://www.npmjs.com/package/changeset)**
+  A tool designed to manage versioning, changelogs, and release workflows in a more structured way. It helps you track changes in your codebase with "changeset" files that describe the changes made and their version impact, ensuring consistent versioning and changelog generation.
+
 - **[Semantic Versioning Specification](https://github.com/semver/semver/blob/master/semver.md)**  
   The official guide for Semantic Versioning. It outlines the full specification and provides more detailed rules that you should follow when working with SemVer.
 
