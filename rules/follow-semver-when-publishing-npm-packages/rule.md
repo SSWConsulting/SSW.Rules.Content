@@ -81,7 +81,4 @@ Here are some key rules from the [Semantic Versioning Specification](https://git
    Always ensure that your API is backward compatible unless you are marking it as a breaking change. It’s essential to be mindful of how updates impact users' current implementations.
 
 5. **Changelogs and Documentation**  
-   Always document changes thoroughly, particularly breaking changes, in your changelog and version history. This documentation provides context and helps users understand what to expect from each version.
-
----
-  
+   Always document changes thoroughly, particularly breaking changes, in your changelog and version history. This documentation provides context and helps users understand what to expect from each version.  
