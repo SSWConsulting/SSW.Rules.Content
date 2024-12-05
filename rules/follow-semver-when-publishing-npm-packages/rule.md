@@ -39,8 +39,6 @@ To better understand what the `^`, `~`, and other symbols mean in npm versioning
 ### Forgetting to Communicate Breaking Changes
 For major updates, clearly communicate the breaking changes in your release notes or changelog. This helps users prepare for or adapt to the changes.
 
----
-
 ## Tools to Help You Follow SemVer
 
 Here are a few tools and resources that can help you manage SemVer compliance when publishing npm packages:
@@ -60,7 +58,6 @@ Here are a few tools and resources that can help you manage SemVer compliance wh
 - **[Semantic Versioning Specification](https://github.com/semver/semver/blob/master/semver.md)**  
   The official guide for Semantic Versioning. It outlines the full specification and provides more detailed rules that you should follow when working with SemVer.
 
----
 
 ## Important SemVer Rules to Follow
 
