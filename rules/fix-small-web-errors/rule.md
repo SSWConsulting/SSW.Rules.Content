@@ -25,7 +25,7 @@ Meanwhile they are thinking... _"That took more time to report the error than it
 
 <!--endintro-->
 
-Small errors should be fixed by the person who found them straight away. Text changes can be easily done in SharePoint, WordPress, or GitHub. The easiest way to make changes is with [TinaCMS](https://tina.io/)
+Small errors should be fixed by the person who found them straight away. Text changes can be easily done in SharePoint, WordPress, or GitHub. The best way to make changes easy is by using [TinaCMS](https://tina.io/).
 
 Bear in mind that communication is indispensable. Therefore, it's crucial to ensure that other individuals connected to that content are informed about the fixes/changes through either an @mention or a brief instant message (IM).
 
