@@ -31,23 +31,26 @@ npm uses **Semantic Versioning (SemVer)**, structured as:
   }
 ```
 
-- **MAJOR**: Breaking changes  
-- **MINOR**: Backward-compatible new features  
-- **PATCH**: Backward-compatible bug fixes  
+* **MAJOR**: Breaking changes  
+* **MINOR**: Backward-compatible new features  
+* **PATCH**: Backward-compatible bug fixes  
 
 Understanding SemVer helps you understand the common version symbols below. Learn more about [semantic versioning](https://www.ssw.com.au/rules/semantic-versioning/)
 
 ## 🎯 Symbols Cheat Sheet  
 
 ### 1. Caret (`^`)  
+
 Allows minor and patch updates.  
 Example: `^1.0.0` matches `>=1.0.0` and `<2.0.0`.  
 
 ### 2. Tilde (`~`)  
+
 Allows only patch updates.  
 Example: `~1.0.0` matches `>=1.0.0` and `<1.1.0`.  
 
 ### 3. Wildcard (`*`)  
+
 Matches any version.  
 Example: `*` installs the latest version.  
 
@@ -57,10 +60,10 @@ When you run `npm install`, npm resolves the version of the dependency based on 
 
 ## 💡 Best Practices  
 
-- Use **`^` (caret)** only when you trust the package maintainers.  
-- Use **`~` (tilde)** when you want only patch updates for bug fixes.  
-- Avoid **wildcards (`*`)** for production projects.  
-- Lock exact versions for critical applications to ensure stability.  
+* Use **`^` (caret)** only when you trust the package maintainers.  
+* Use **`~` (tilde)** when you want only patch updates for bug fixes.  
+* Avoid **wildcards (`*`)** for production projects.  
+* Lock exact versions for critical applications to ensure stability.  
 
 By understanding these symbols, you can avoid unexpected error and keep your project on track! 🚀  
 
