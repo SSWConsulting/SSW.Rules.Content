@@ -2,7 +2,7 @@
 type: rule
 title: Do you know what the different symbols mean for npm version?
 seoDescription: Learn the meaning of symbols like ^, ~, and * in npm versioning. Understand how to select dependency versions wisely for stable and predictable JavaScript projects.
-uri: different-symbols-mean-for-npm-version
+uri: npm-packages-version-symbols
 authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh/
