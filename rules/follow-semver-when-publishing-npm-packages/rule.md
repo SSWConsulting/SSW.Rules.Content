@@ -13,7 +13,7 @@ created: 2024-12-5T08:33:21.000Z
 guid: 03d090d3-d813-43d9-998e-209c895050b3
 ---
 
-When publishing an npm package, following **Semantic Versioning (SemVer)** is essential. It communicates changes clearly to your users and ensures smooth updates for their projects. This guide will tell you why adhering to SemVer is critical and how to do it effectively.  
+When publishing an npm package, following **Semantic Versioning (SemVer)** is essential. It communicates changes clearly to your users and ensures smooth updates for their projects.
 
 <!--endintro-->
 
@@ -25,14 +25,13 @@ Semantic Versioning (SemVer) helps your users understand the impact of updates a
 - **MINOR (New Features):** Informs users about new features that won’t break existing functionality.
 - **PATCH (Bug Fixes):** Indicates that bug fixes or small improvements have been made without changing behavior.
 
-Without proper SemVer practices, users might face unexpected issues or be unable to safely upgrade their dependencies, which can result in losing the user.
 
 ## Common Mistakes to Avoid
 
 ### Incorrect Versioning
-Ensure you understand the type of changes you’re making. For example, if you introduce breaking changes but incorrectly release it as a patch update (e.g., from `1.0.0` to `1.0.1`), it can cause significant issues for users relying on version ranges like `^1.0.0` or `~1.0.0` in their `package.json`.  
+Ensure you understand the type of changes you’re making. For example, **if you introduce breaking changes but incorrectly release it as a patch update** (e.g., from `1.0.0` to `1.0.1`), it can cause significant issues for users relying on version ranges like `^1.0.0` or `~1.0.0` in their `package.json`.  
 
-These ranges automatically pull in updates for compatible versions. By incorrectly marking a breaking change as a patch, you risk breaking their projects without warning, damaging trust in your package. Always increment the **MAJOR** version for breaking changes to ensure users can consciously decide when to adopt them.  
+These ranges automatically pull in updates for compatible versions. By incorrectly marking a breaking change as a patch, you risk breaking their projects without warning. Always increment the **MAJOR** version for breaking changes to ensure users can consciously decide when to adopt them.
 
 To better understand what the `^`, `~`, and other symbols mean in npm versioning, check out [What do the different symbols mean for npm version?](https://www.ssw.com.au/rules/different-symbols-mean-for-npm-version).  
 
@@ -40,8 +39,6 @@ To better understand what the `^`, `~`, and other symbols mean in npm versioning
 For major updates, clearly communicate the breaking changes in your release notes or changelog. This helps users prepare for or adapt to the changes.
 
 ## Tools to Help You Follow SemVer
-
-Here are a few tools and resources that can help you manage SemVer compliance when publishing npm packages:
 
 - **[changesets](https://www.npmjs.com/package/changeset)**
   A tool designed to manage versioning, changelogs, and release workflows in a more structured way. It helps you track changes in your codebase with "changeset" files that describe the changes made and their version impact, ensuring consistent versioning and changelog generation.
