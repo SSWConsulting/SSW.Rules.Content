@@ -66,3 +66,7 @@ An office pod or studio with soundproofing, diffused soft lighting, and a mounte
 :::
 
 By setting up a dedicated recording space that addresses these factors, you can streamline your workflow, reduce stress, and consistently produce high-quality videos that engage your audience. Spend time to get your space right once, and you’ll save hours on every future recording session.
+
+::: highlight
+Try recording your own video today and share it with the world!
+:::
