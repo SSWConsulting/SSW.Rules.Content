@@ -6,8 +6,11 @@ seoDescription: " Learn when to use MDX for custom components and advanced
   simplicity."
 uri: mdx-vs-markdown
 authors:
-  - title: ""
+  - title: Jack Pettit
+    uri: https://ssw.com.au/people/jack-pettit
 guid: 9231556d-6d72-43b8-ba7d-ce704e64221c
+related: []
+redirects: []
 ---
 Let's face it, not all content is created equal. Sometimes you just need a simple document, and other times you want something more dynamic and interactive.
 
