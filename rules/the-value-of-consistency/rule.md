@@ -86,8 +86,6 @@ Standards don't need to come at the expense of creativity. Following standards m
 
 *What is an SSW Rule that is memorable to you?*
 
-
 *Or, in general what makes a rule memorable?*
-
 
 *Or, ever had a time that a rule saved you time (or from making a mistake)?*
