@@ -8,6 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/ben-neoh/
 related:
   - packages-up-to-date
+  - semantic-versioning
 created: 2024-12-5T06:33:21.000Z
 guid: 2c75d069-4477-484d-a467-32f02a23d29c
 ---
@@ -34,7 +35,7 @@ npm uses **Semantic Versioning (SemVer)**, structured as:
 - **MINOR**: Backward-compatible new features  
 - **PATCH**: Backward-compatible bug fixes  
 
-Understanding SemVer helps you understand the common version symbols below.  
+Understanding SemVer helps you understand the common version symbols below. Learn more about [semantic versioning](https://www.ssw.com.au/rules/semantic-versioning/)
 
 ## 🎯 Symbols Cheat Sheet  
 
@@ -61,6 +62,6 @@ When you run `npm install`, npm resolves the version of the dependency based on 
 - Avoid **wildcards (`*`)** for production projects.  
 - Lock exact versions for critical applications to ensure stability.  
 
-By mastering these symbols, you can avoid dependency hell and keep your project on track! 🚀  
+By understanding these symbols, you can avoid unexpected error and keep your project on track! 🚀  
 
 For more details about npm version selection and symbols, check out the [official npm documentation on semver ranges](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#dependencies).  
