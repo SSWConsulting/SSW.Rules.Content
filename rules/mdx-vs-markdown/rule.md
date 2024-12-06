@@ -17,7 +17,7 @@ Let's face it, not all content is created equal. Sometimes you just need a simpl
 <!--endintro-->
 
 
-## When to Use Markdown (.md)
+## When to use Markdown (.md)
 
 Markdown is perfect for straightforward content. Think of it like writing a clear, no-frills document. You'll want to use Markdown when:
 
@@ -30,7 +30,7 @@ Markdown is perfect for straightforward content. Think of it like writing a clea
 **Example:** A recipe blog post with some text, headings, and a few pictures. Markdown handles this beautifully without any extra complexity.
 :::
 
-## When to Use MDX (.mdx)
+## When to use MDX (.mdx)
 
 MDX steps up when you need something more powerful. It lets you add interactive elements and custom components to your content. You'll want MDX when:
 
@@ -44,15 +44,15 @@ MDX steps up when you need something more powerful. It lets you add interactive 
 **Example:** A coding tutorial with an interactive chart showing performance metrics, or a documentation page with a live code editor where readers can try out code in real-time.
 ::: 
 
-## Things to Consider
+## Things to consider
 
 MDX isn't perfect for every situation. Before you jump in, consider:
 
-- **Complexity**: It's more advanced than plain Markdown. Your non-technical team might find it tricky
-- **Performance**: Too many fancy components can slow down your page
-- **Extra Setup**: You'll need to manage more technical dependencies
+- **Complexity** - Since it's more advanced than plain Markdown, non-technical teams might find it tricky
+- **Performance** - Too many fancy components can slow down your page
+- **Extra setup** - You'll need to manage more technical dependencies
 
-## The Golden Rule
+## The golden rule ⭐️
 
 Choose Markdown for simple, fast content. Choose MDX when you need more interactive and dynamic features.
 
