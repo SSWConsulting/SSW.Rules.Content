@@ -12,7 +12,6 @@ authors:
 created: 2023-04-14T19:11:11.002Z
 guid: c50ed7aa-1539-4ff9-a11c-d95cc0616d4e
 ---
-
 As ChatGPT becomes increasingly popular, users are discovering the most effective ways to prompt the AI for different scenarios. One way to compile this information is by putting it in easy to read graphics called cheat sheets. Cheat sheets can spark ideas that you would not have otherwise thought of!
 
 <!--endintro-->
@@ -34,7 +33,7 @@ Here are examples of the prompting techniques on the cheat sheet:
 ## Give a role
 
 ::: greybox
-_You are a... 🤖_
+*You are a... 🤖*
 :::
 
 ChatGPT can be given a role to understand the context of what it will need to do/know.
@@ -43,39 +42,47 @@ See some examples below:
 
 ::: greybox
 
-_...writing coach: How can I improve the clarity and impact of this project proposal?"_
+*...writing coach: How can I improve the clarity and impact of this project proposal?"*
 
-_...GitHub Actions expert: "What's the best way to set up a CI/CD pipeline using GitHub Actions?"_
+*...GitHub Actions expert: "What's the best way to set up a CI/CD pipeline using GitHub Actions?"*
 
-_...C# code reviewer: "Please review this C# code snippet for a new feature implementation."_
+*...C# code reviewer: "Please review this C# code snippet for a new feature implementation."*
 
-_...Copywriter: "Help me write a catchy headline for our new marketing campaign."_
+*...Copywriter: "Help me write a catchy headline for our new marketing campaign."*
 
-_...{{ POSITION }} interviewer: "Act as a UX Designer interviewer and ask me 5 relevant questions."_
+*...{{ POSITION }} interviewer: "Act as a UX Designer interviewer and ask me 5 relevant questions."*
 :::
 
 ## Some dos ✅
 
-* For complex tasks, use: _"ask any questions needed for context"_
+* For complex tasks, use: *"ask any questions needed for context"*
 
 ::: greybox
-_"Design a new feature for our mobile app and ask me any questions for context."_
+*"Design a new feature for our mobile app and ask me any questions for context."*
 :::
 
-* Tell it to _"be concise"_ or _"use bullet points"_
+* Tell it to *"be concise"* or *"use bullet points"*
 
 ::: greybox
-_"Summarize the benefits of using React in our project, and please be concise. Use bullet points with pros and cons."_
+*"Summarize the benefits of using React in our project, and please be concise. Use bullet points with pros and cons."*
 :::
 
 * Set the tone for responses (e.g. professional, informal, funny)
 
 ::: greybox
-Professional: _"Explain the importance of code reviews in a professional tone."_
+Professional: *"Explain the importance of code reviews in a professional tone."*
 
-Informal: _"In an informal tone, tell me why UX design matters for our app."_
+Informal: *"In an informal tone, tell me why UX design matters for our app."*
 
-Funny: _"Share a funny anecdote about a marketing campaign that went wrong."_
+Funny: *"Share a funny anecdote about a marketing campaign that went wrong."*
+:::
+
+* Specify the response format (e.g. "describe point by point", "paragraph description")
+
+::: greybox
+Point-by-point description: *"Please describe the advantages of using React in points."*
+
+Paragraph description: *"Please describe the development process of C# in four paragraphs."*
 :::
 
 ## Some don’ts ❌
@@ -83,14 +90,14 @@ Funny: _"Share a funny anecdote about a marketing campaign that went wrong."_
 * Don't ask leading questions. Don’t anchor ChatGPT.
 
 ::: greybox
-_“Isn't Python the best language for this project?"_
+*“Isn't Python the best language for this project?"*
 :::
 ::: bad
 Bad example
 :::
 
 ::: greybox
-_"What language would be best for this project and why?"_
+*"What language would be best for this project and why?"*
 :::
 ::: good
 Good example
@@ -104,11 +111,11 @@ According to Forbes, any data shared with ChatGPT could end up being leaked sinc
 
 It’s important to consider what a prompt is made up of. Here’s an example that breaks down the different components of a good prompt:
 
-* **Role** - _You are a Software Developer._
-* **Result** - _Create 5 email subjects._
-* **Context** - _The email is to inform all the developers about a UX problem with search._
-* **Intent** - _The goal is to get them to critique my YouTube video._
-* **Constraint** - _Subject < 50 characters._
+* **Role** - *You are a Software Developer.*
+* **Result** - *Create 5 email subjects.*
+* **Context** - *The email is to inform all the developers about a UX problem with search.*
+* **Intent** - *The goal is to get them to critique my YouTube video.*
+* **Constraint** - *Subject < 50 characters.*
 
 For more on this prompt structure, see: [Do you know the fundamentals of Prompt Engineering?](/fundamentals-of-prompt-engineering)
 
