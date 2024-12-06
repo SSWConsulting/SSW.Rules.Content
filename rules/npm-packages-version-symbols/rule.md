@@ -35,7 +35,7 @@ npm uses **Semantic Versioning (SemVer)**, structured as:
 * **MINOR**: Backward-compatible new features  
 * **PATCH**: Backward-compatible bug fixes  
 
-Understanding SemVer helps you understand the common version symbols below. Learn more about [semantic versioning](/semantic-versioning/)
+Understanding SemVer helps you understand the common version symbols below. Learn more about [semantic versioning](/semantic-versioning)
 
 ## 🎯 Symbols cheat sheet  
 
