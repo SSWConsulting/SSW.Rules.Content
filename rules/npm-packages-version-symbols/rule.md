@@ -41,7 +41,7 @@ Understanding SemVer helps you understand the common version symbols below. Lear
 
 ### 1. Caret (`^`)  
 
-Allows **minor** and **patch** updates. 
+Allows **minor** and **patch** updates.
 
 **Example:** `^1.0.0` matches `>=1.0.0` and `<2.0.0`.  
 
