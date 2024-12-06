@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do You Know When to Use MDX?
+title: Do you know when to use MDX over Markdown?
 seoDescription: " Learn when to use MDX for custom components and advanced
   functionality, regardless of the framework, versus sticking with Markdown for
   simplicity."
