@@ -9,6 +9,7 @@ authors:
 related:
   - different-symbols-mean-for-npm-version
   - packages-up-to-date
+  - semantic-versioning
 created: 2024-12-5T08:33:21.000Z
 guid: 03d090d3-d813-43d9-998e-209c895050b3
 ---
@@ -24,6 +25,8 @@ Semantic Versioning (SemVer) helps your users understand the impact of updates a
 * **💥 MAJOR (Breaking Changes):** Signals to users that there are incompatible changes.
 * **🚀 MINOR (New Features):** Informs users about new features that won’t break existing functionality.
 * **🐛 PATCH (Bug Fixes):** Indicates that bug fixes or small improvements have been made without changing behavior.
+
+Learn more about [semantic versioning](https://www.ssw.com.au/rules/semantic-versioning/)
 
 ## Common Mistakes to Avoid ⚠️
 
