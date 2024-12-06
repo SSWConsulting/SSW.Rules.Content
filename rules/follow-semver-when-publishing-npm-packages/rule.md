@@ -39,6 +39,10 @@ To better understand what the `^`, `~`, and other symbols mean in npm versioning
 
 For major updates, clearly communicate the breaking changes in your release notes or changelog. This helps users prepare for or adapt to the changes.
 
+![image](https://github.com/user-attachments/assets/ccb38aa4-f0cf-4886-8f8f-1410d9516e8b)
+
+**✅ Figure: Good Example - Tell public about the major release update and breaking changes**
+
 ## Tools to Help You Follow SemVer
 
 * **[changesets](https://www.npmjs.com/package/changeset)**
