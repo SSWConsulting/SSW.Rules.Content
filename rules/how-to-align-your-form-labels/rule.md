@@ -31,17 +31,17 @@ Pros:
 
 :::
 
-- Easiest to process
-- Fastest completion times
-- Good for multiple languages
+* Easiest to process
+* Fastest completion times
+* Good for multiple languages
 
 ::: bad
 Cons:
 
 :::
 
-- Takes up a lot of vertical space!
-- Makes a long-form look even longer!
+* Takes up a lot of vertical space!
+* Makes a long-form look even longer!
 
 ### Left aligned
 
@@ -52,18 +52,18 @@ Pros
 
 :::
 
-- Easy to scan labels, especially if you have a lot of optional labels
-- Takes a little more attention to fill in, so useful for complicated forms that require accuracy
+* Easy to scan labels, especially if you have a lot of optional labels
+* Takes a little more attention to fill in, so useful for complicated forms that require accuracy
 
 ::: bad
 Cons
 
 :::
 
-- Horizontal space, unlike vertical space, is not limitless, and an unintended horizontal scrollbar is the first sin of web development.
-- Slowest completion times
-- Poor multilanguage support
-- Not even very good responsive support
+* Horizontal space, unlike vertical space, is not limitless, and an unintended horizontal scrollbar is the first sin of web development.
+* Slowest completion times
+* Poor multilanguage support
+* Not even very good responsive support
 
 ### Right aligned
 
@@ -74,17 +74,17 @@ Pros
 
 :::
 
-- Best at linking label and form
-- Good completion rates on small, common forms (i.e. Login, Sign up)
+* Best at linking label and form
+* Good completion rates on small, common forms (i.e. Login, Sign up)
 
 ::: bad
 Cons
 
 :::
 
-- Hardest to read and scan
-- Poor multilanguage support
-- Poor responsive support
+* Hardest to read and scan
+* Poor multilanguage support
+* Poor responsive support
 
 ### Material labeling
 
@@ -97,16 +97,16 @@ Pros
 
 :::
 
-- Best for readability
-- Best for visual connectivity
-- Best for completion rates
-- Decent multilanguage support
-- Decent responsive support
+* Best for readability
+* Best for visual connectivity
+* Best for completion rates
+* Decent multilanguage support
+* Decent responsive support
 
 ::: bad
 Cons
 
 :::
 
-- Extremely time-consuming to implement. Need to consider the cost/benefit.
-- Not necessarily available on 3rd party platforms, like Wufoo or Microsoft Forms.
+* Extremely time-consuming to implement. Need to consider the cost/benefit.
+* Not necessarily available on 3rd party platforms, like Wufoo or Microsoft Forms.

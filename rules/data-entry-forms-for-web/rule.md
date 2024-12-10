@@ -32,9 +32,9 @@ Forms should clearly indicate how a button will affect the page's state. For ins
 
 To avoid confusion, provide buttons for every possible state change and make ["cancel" less obvious](/do-you-make-your-cancel-button-less-obvious/). For example, include 3 buttons:
 
-- **"Save"** - Saves the form without closing it
-- **"Save and close"** - Saves and closes the form
-- **"Cancel"** - Closes the form without saving
+* **"Save"** - Saves the form without closing it
+* **"Save and close"** - Saves and closes the form
+* **"Cancel"** - Closes the form without saving
 
 Furthermore, ensure state-based actions are [labelled consistently](/label-buttons-consistently/) across the application so that users always know what to expect.
 
@@ -52,9 +52,9 @@ With the diversity of modern devices used to access web-based applications, resp
 
 Consider the following Questions:
 
-- Is the form resizable?
-- What happens if the user resizes and/or maximizes the form?
-- What if the user is using their mobile phone or tablet?
+* Is the form resizable?
+* What happens if the user resizes and/or maximizes the form?
+* What if the user is using their mobile phone or tablet?
 
 For more information, read about [making webpages work on mobiles and tablets](/responsive-design) and [providing alternate sizings for Bootstrap columns](/do-you-provide-alternate-sizings-for-bootstrap-columns).
 
@@ -70,12 +70,12 @@ For more information, read about [making webpages work on mobiles and tablets](/
 
 Field formatting is essential for a good UX. Ensure that the data is displayed in a logical manner based on the datatype of the input. always consider the usecase of the data being conveyed, but here are some guidelines to get you started:
 
-- The size of the field should be similar to the expected size of the data
-- Numerical values contain the least amount of decimal places to convey the information required
-  - For example: On an invoice you need to provide very precise figures, so you would need to use 2 decimal places. However, on a sales report you may not use any decimal places as it is just to convey the general trend of dollars to management.
-  - The frontend converts the database format into a human readable format e.g. 2 decimal places
-- Numerical values have right-alignment
-- Currency and Percentage fields contain relevant numerical symbols i.e. '$' or '%'
+* The size of the field should be similar to the expected size of the data
+* Numerical values contain the least amount of decimal places to convey the information required
+  * For example: On an invoice you need to provide very precise figures, so you would need to use 2 decimal places. However, on a sales report you may not use any decimal places as it is just to convey the general trend of dollars to management.
+  * The frontend converts the database format into a human readable format e.g. 2 decimal places
+* Numerical values have right-alignment
+* Currency and Percentage fields contain relevant numerical symbols i.e. '$' or '%'
 
 ::: info
 **Note:** This format conversion can be difficult for data-bound fields. Luckily, many frameworks such as Angular provide convenient methods for handling such situations. In the following code extract, an example of Angular pipes can be seen to format the currency and percentage fields.
@@ -117,9 +117,9 @@ Populating fields with default values, such as pulling data from system time, en
 
 Validation is essential for any form development, with the majority of fields requiring validation of some description. The 3 main categories of validation include:
 
-- **Required** - The field should be filled in
-- **Formatting** - The field must be in the correct format. e.g. currency or date
-- **Logical** - The field needs to pass some validation tests in the business layer
+* **Required** - The field should be filled in
+* **Formatting** - The field must be in the correct format. e.g. currency or date
+* **Logical** - The field needs to pass some validation tests in the business layer
 
 Tip for long forms: the desired behaviour for when a validation error occurs is to take the user back to the improper field via a scrolling motion. This is particularly important for mobile devices where the responsive layout may cause the form to be extended, requiring further effort to identify the issue.
 
@@ -131,10 +131,10 @@ Tip for long forms: the desired behaviour for when a validation error occurs is 
 
 For the purposes of logging and change history, it is highly recommended that the following information is maintained:
 
-- **Date Created** - The date on which the record was created
-- **Employee Created** - The employee responsible for its creation
-- **Date Updated** - The date on which the record was last updated
-- **Employee Updated** - The employee that last updated the record
+* **Date Created** - The date on which the record was created
+* **Employee Created** - The employee responsible for its creation
+* **Date Updated** - The date on which the record was last updated
+* **Employee Updated** - The employee that last updated the record
 
 This will assist with accountability, allowing users to quickly see information about recent changes.
 
