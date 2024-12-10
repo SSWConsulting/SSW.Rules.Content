@@ -12,7 +12,7 @@ archivedreason: null
 guid: dc76970f-deea-4e92-9d55-731e83bee7b5
 ---
 
-Unit tests are an essential part of ensuring that your .NET applications work correctly. However, when it comes to testing logging, things can get tricky. You don't want to rely on actual logging infrastructure like file writes or external logging systems during tests, as this could lead to unnecessary complexity and slow down your test suite.
+Unit tests are an essential part of ensuring .NET applications work correctly. However, when it comes to testing logging, things can get tricky. You don't want to rely on actual logging infrastructure like file writes or external logging systems during tests, as this could lead to unnecessary complexity and slow down your test suite.
 
 Microsoft provides a simple solution with `FakeLogger`. This logger allows you to capture and verify logging calls in unit tests without needing to integrate with a real logging framework.
 
