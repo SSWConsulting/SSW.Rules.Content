@@ -115,4 +115,4 @@ The LoggerMessage pattern is particularly beneficial in scenarios where logging 
 
 ## More information
 
-There is a great article on Microsoft Learn which goes into more detail and usage examples: [High-performance logging in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/high-performance-logging)
+See this great article on Microsoft Learn which goes into more detail and usage examples: [High-performance logging in .NET](https://learn.microsoft.com/en-us/dotnet/core/extensions/high-performance-logging).
