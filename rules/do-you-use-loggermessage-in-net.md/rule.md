@@ -111,7 +111,7 @@ The LoggerMessage pattern is particularly beneficial in scenarios where logging 
 
 - Logging is done in high-throughput scenarios (e.g., background services, real-time applications)
 - You require structured logging for easier integration with advanced logging systems (e.g., Serilog, ElasticSearch)
-- Reducing object allocations and computational overhead is a priority for the application.
+- Reducing object allocations and computational overhead is a priority for the application
 
 ## More information
 
