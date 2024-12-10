@@ -28,7 +28,7 @@ The advantage of using `FakeLogger` is that it behaves like a real `ILogger<T>`,
 
 ## Benefits of using FakeLogger
 
-- **No External Dependencies**: Since `FakeLogger` does not actually write logs anywhere (such as to disk or a remote server), it keeps your unit tests isolated and fast.
+- **No External Dependencies** - Since `FakeLogger` does not actually write logs anywhere (such as to disk or a remote server), it keeps unit tests isolated and fast
 - **Verify Log Entries**: You can assert that certain log messages were generated during the execution of specific methods, helping to verify that your logging statements are firing correctly.
 - **Easy Integration**: `FakeLogger` is easy to integrate into any unit test framework, making it a seamless addition to your existing test suite.
 
