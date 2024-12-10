@@ -36,7 +36,7 @@ The advantage of using `FakeLogger` is that it behaves like a real `ILogger<T>`,
 
 To get started with `FakeLogger`, you need to install the necessary package.
 
-Once you have the package installed, you can begin using the FakeLogger in your unit tests. Here's how to use it:
+Then you can begin using the FakeLogger in unit tests. Here's how to use it:
 
 ### Step 1: Create the FakeLogger
 
