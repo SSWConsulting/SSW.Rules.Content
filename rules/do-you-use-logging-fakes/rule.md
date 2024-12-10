@@ -122,7 +122,7 @@ var logEntries = logger.GetLogEntries();
 Assert.Contains(logEntries, log => log.LogLevel == LogLevel.Error);
 ```
 
-#### Verifying Log Event IDs
+### Verifying Log Event IDs
 
 In some scenarios, you may log messages with specific event IDs to categorize logs. FakeLogger captures these event IDs, allowing you to assert that they are set correctly.
 
