@@ -24,7 +24,7 @@ By incorporating `FakeLogger` into tests, you can ensure that the logging functi
 
 The FakeLogger is a mock logger provided by Microsoft for unit testing. It is part of the Microsoft.Extensions.Logging namespace and is used primarily in tests to verify that logging actions occur during the execution of the application, without sending log output to external destinations like the console or log files. Instead, it "fakes" the log output, allowing assertions to be made on the log entries.
 
-The advantage of using `FakeLogger` is that it behaves like a real `ILogger<T>`, but it stores the logs in memory, making them available for examination during your tests.
+The advantage of using `FakeLogger` is that it behaves like a real `ILogger<T>`, but it stores the logs in memory, making them available for examination during tests.
 
 ## Benefits of using FakeLogger
 
