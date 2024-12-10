@@ -108,7 +108,7 @@ This assertion checks that exactly one log entry was captured and that the messa
 
 While the basic usage of FakeLogger is straightforward, you can also use it to verify log levels, event IDs, and other log-related data.
 
-#### Verifying Log Levels
+### Verifying Log Levels
 
 You can verify that the correct log level was used when logging messages. For example, if you're testing that an error is logged, you can assert that the log level is `LogLevel.Error`.
 
