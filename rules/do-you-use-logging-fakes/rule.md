@@ -16,7 +16,7 @@ Unit tests are an essential part of ensuring .NET applications work correctly. H
 
 Microsoft provides a simple solution with `FakeLogger`. This logger allows you to capture and verify logging calls in unit tests without needing to integrate with a real logging framework.
 
-By incorporating `FakeLogger` into your tests, you can ensure that your logging functionality is correct and meets your application's needs, all while maintaining fast and isolated tests.
+By incorporating `FakeLogger` into tests, you can ensure that the logging functionality is correct and meets your application's needs, all while maintaining fast and isolated tests.
 
 <!--endintro-->
 
