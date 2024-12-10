@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
-related: []
+related: 
+  - do-you-know-how-to-arrange-forms
+  - data-entry-forms-for-web
 redirects:
   - do-you-know-how-to-align-your-form-labels
 ---

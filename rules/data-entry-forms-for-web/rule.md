@@ -8,7 +8,9 @@ authors:
     url: https://github.com/TobyChurches
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
-related: []
+related: 
+  - how-to-align-your-form-labels
+  - do-you-know-how-to-arrange-forms
 redirects:
   - do-you-know-the-correct-way-to-develop-data-entry-forms-for-web
 created: 2014-12-01T00:36:14.000Z
