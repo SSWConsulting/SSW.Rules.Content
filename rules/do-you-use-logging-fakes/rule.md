@@ -2,7 +2,7 @@
 seoDescription: Learn how to use Microsoft's `FakeLogger` in unit tests to verify logging behavior in .NET applications. This guide shows you how to capture log entries, check log levels, and ensure your logging works as expected during testing.
 type: rule
 title: Do you use Logging Fakes?
-uri: do-you-use-logging-fakes
+uri: use-logging-fakes
 authors:
   - title: Tom Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski
