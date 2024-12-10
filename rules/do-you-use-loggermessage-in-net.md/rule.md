@@ -2,7 +2,7 @@
 seoDescription: Learn how to optimize logging in .NET applications using the LoggerMessage class. Discover the performance benefits, such as reduced object allocations and efficient message parsing, and get practical tips on how to implement this pattern for better logging efficiency and structured logs in high-performance scenarios.
 type: rule
 title: Do you use LoggerMessage in .NET?
-uri: do-you-use-loggermessage-in-net
+uri: use-loggermessage-in-net
 authors:
   - title: Tom Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski
