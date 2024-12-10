@@ -1,7 +1,8 @@
 ---
-seoDescription: Create a group chat with your project team to boost collaboration and communication.
 type: rule
 title: Do you create a group chat with your project team?
+seoDescription: Create a group chat with your project team to boost
+  collaboration and communication.
 uri: teams-group-chat
 authors:
   - title: Ulysses Maclaren
@@ -27,4 +28,10 @@ The cons are:
 
 ::: good
 ![Good example - Use normal chat group for Team members](teams-group-chat.png)
+:::
+
+:::info
+💡 **Tip:** You often need to add someone to a chat, and sometimes it's a good idea to share all history with them to provide context. However, sometimes the contents of a chat can be sensitive and shouldn't be shared. In this cases you should think carefully before adding someone to a chat, and doubly so before sharing history with them.
+
+To make these sensitive chats easier to identify, rename them something appropriate (that doesn't give away the sensitivity in case you're sharing your screen), and **use a padlock emoji (🔒) at the start of the chat name as a mental shortcut to indicate not to share it**. See rule: [Do you use emojis to help give context?](use-emojis)
 :::

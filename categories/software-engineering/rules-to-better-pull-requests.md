@@ -24,6 +24,7 @@ index:
 - page-owner
 - clean-git-history
 - pr-suggest-changes
+- mandatory-vs-suggested-pr-changes
 ---
 
 Pull Requests are the backbone of an effective development team. That's why it's crucial to ensure that everyone on the team understands the expectations around Pull Requests.

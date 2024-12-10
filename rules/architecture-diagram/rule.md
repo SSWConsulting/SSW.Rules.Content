@@ -66,7 +66,7 @@ Your diagram needs to include the relationships between these components, and ho
 
 The .NET dependency diagram is a useful tool, but it drills down into a specific component of the solution (the code) while ignoring the rest of it (the infrastructure). If it adds value to your documentation (i.e., there is a specific reason to include it) you can include the .NET dependency diagram, but don't use it here in place of the architecture diagram.
 
-See SSW rule: [Do you generate the Dependency Graph?](/do-you-generate-the-dependency-graph)
+See SSW rule: [Do you generate dependency graphs?](/generate-dependency-graphs)
 
 ::: bad img-medium
 ![Figure: Bad example - The .NET dependency diagram shows code dependencies, but not the application's architecture](dependency-validation-01.png)

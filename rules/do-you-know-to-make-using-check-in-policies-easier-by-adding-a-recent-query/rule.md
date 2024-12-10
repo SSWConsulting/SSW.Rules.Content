@@ -22,14 +22,21 @@ redirects:
   - do-you-know-to-make-using-check-in-policies-easier-(by-adding-a-recent-query)
 ---
 
-![Select A Recent Work Item](SelectARecentWorkItem.jpg)Figure: When you use Check-in policies you often will need to select a work item that you selected recently
+When you use Check-in policies you often will need to select a work item that you selected recently
 
 <!--endintro-->
 
-Make this easy on yourself by adding a query 'Recent'1. Create a work item query that returns you the last changed work item <img alt="Add a query" src="AddQuery.jpg">
+![Figure: When you use Check-in policies you often will need to select a work item that you selected recently](SelectARecentWorkItem.jpg)
 
-<dd>Figure: Add a query just for your associated check ins </dd>
+Make this easy on yourself by adding a query 'Recent'.
+
+1. Create a work item query that returns you the last changed work item
+
+   ![Figure: Add a query just for your associated check ins](AddQuery.jpg)
+
 2. Just copy the 'Tasks - My' query
-3. Add the sort date of 'Changed Date' sorted by descending <img alt="Sorted the query by 'Changed Date' " src="SortedByChangedDate.jpg">
-<dd>Figure: The query should be sorted by 'Changed Date' </dd>
+3. Add the sort date of 'Changed Date' sorted by descending
+
+   <![Figure: The query should be sorted by 'Changed Date'](SortedByChangedDate.jpg)
+
 4. Use that query on your check ins and you find the relevant work item easily

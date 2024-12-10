@@ -34,6 +34,14 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 - If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
 - For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
 
+### When it's ok to reply before the task is done
+
+If you believe the sender expects the task to be done sooner than you can reasonably complete it, it may be appropriate to reply to an email before the task is fully completed. In these cases, it’s important to set expectations to maintain [professional integrity](https://www.ssw.com.au/rules/professional-integrity).
+
+Reply with an estimated timeline, for example, “I’ve started working on this, and I expect it to be done by {{ DATE }}. This will take a bit longer due to {{ REASON }}.”
+
+Use this approach to prevent misunderstandings and to make sure the requester is informed of the progress and any potential delays.
+
 ### Alternatives to classic "Done" emails
 
 - If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"

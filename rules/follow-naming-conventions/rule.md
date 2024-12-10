@@ -1,7 +1,7 @@
 ---
 seoDescription: Naming conventions are crucial to simpler code, and following established guidelines can make a significant difference in maintaining readability and scalability.
 type: rule
-archivedreason:
+archivedreason: Superseeded by 9 individual rules
 title: Do you follow naming conventions?
 guid: 5bbf48f1-2e94-4e10-a520-6c4e39ba4522
 uri: follow-naming-conventions
