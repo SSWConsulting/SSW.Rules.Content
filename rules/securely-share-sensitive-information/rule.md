@@ -69,5 +69,5 @@ You need to share a sprint summary video with your team, and it contains client-
 :::
 
 :::bad
-![Figure: Bad Example - Sensitive sprint summary uploaded as a public YouTube video, exposing information to unauthoried viewers.](SecureSprintReviewsBad.png)
+![Figure: Bad Example - Sensitive sprint summary uploaded as a private YouTube video, however confidential information is exposed.](SecureSprintReviewsBad.png)
 :::
