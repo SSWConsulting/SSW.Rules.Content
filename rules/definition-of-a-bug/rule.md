@@ -30,26 +30,31 @@ A software issue can be classed as a bug where:
 3. The application is **missing functionality specified in the specification**; **or**
 4. The **page design/layout is substantially inconsistent** with the agreed mock-ups **and** the developers can reproduce the above on the test server **and** the application is not yet "live" **and** the issue has been reported in time (generally 30 days).
 
-### Examples of what **could** constitute a bug
+## Examples of what **could** constitute a bug
 
-1. The application crashes to code because it doesn't check that a connection is valid before running a stored procedure **(this is likely covered because it crashes to code)**
+1. The application crashes to code because it doesn't check that a connection is valid before running a stored procedure   
+   **This is likely covered because it crashes to code**
+
    ![Figure: Yellow screen of death](YellowScreenofDeath.jpg)
 
-2. A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance **(this is likely covered because data is inconsistent with the specified business rules)**
+2. A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance   
+   **This is likely covered because data is inconsistent with the specified business rules**
    ![Figure: An incorrect sum is likely to be a bug](IncorrectSum.jpg)
 
-3. The application is missing the Monthly Sales report **(this is likely covered because the application is missing functionality specified in the specification)**
+3. The application is missing the Monthly Sales report  
+   **This is likely covered because the application is missing functionality specified in the specification**
 
-4. The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Internet Explorer 9) **(this is likely covered because it is substantially inconsistent with the agreed mockup)**
+4. The output HTML in the application is formatted way out of line and does not display in the specified browser (e.g. Safari)  
+   **This is likely covered because it is substantially inconsistent with the agreed mockup**
 
-### Examples of what is **not** a bug
+## Examples of what is **not** a bug
 
-1. Any problem caused by software or an application not written by the organization supplying the software.
-2. The customer requirement was not included in the user interface/mock-ups/specifications.
-3. The client decides that they don't like the look of the current form and wants the buttons at the bottom of the form instead of at the top, even though the form is substantially the same as shown in the specification.
-4. The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract.
+1. Any problem caused by software or an application not written by the organization supplying the software
+2. The customer requirement was not included in the user interface/mock-ups/specifications
+3. The client decides that they don't like the look of the current form and wants the buttons at the bottom of the form instead of at the top, even though the form is substantially the same as shown in the specification
+4. The original specification states that the total price excludes GST, but it really should have included GST. This is a change to the specification, and is not included in the contract
 
-### Using Work Items in Azure DevOps or GitHub
+## Using Work Items in Azure DevOps or GitHub
 
 Using a Work Tracking tool allows you to create work items such as user stories, bugs, tasks, test cases etc. Only create bugs for defects, faults, flaws, or imperfections that fulfill your definition of a bug. For everything else, use other work item types.
 
