@@ -42,7 +42,6 @@ Git provides a way to manage line endings across different operating systems by 
 
   ```text
   * text=auto
-  *.cs text eol=lf
   *.sh text eol=lf
   *.bat text eol=crlf
   ```
@@ -129,27 +128,3 @@ To further ensure smooth collaboration among multi-OS teams, it’s important to
   ```
 
 - **Hooks and Templates**: Some repositories might require hooks or commit templates to enforce conventions like conventional commit messages or certain commit checks. Using a `.githooks` or `.gitmessage` file in the repository can help maintain consistency across platforms.
-
-## Handling .NET secrets across platforms
-
-When working with .NET applications, developers often use the Visual Studio UI for managing local development secrets. The UI doesn’t work well across different platforms or IDE's like VS Code. To ensure consistency, the **CLI** is a better choice for managing secrets in a cross-platform environment.
-
-### Solution: Use the .NET CLI for local development secrets management
-
-Use the `.NET CLI` to store and retrieve secrets, as this approach works consistently on all platforms:
-
-- **Set a secret**:
-
-  ```bash
-  dotnet user-secrets set "MySecret" "secret-value"
-  ```
-
-- **Get a secret**:
-
-  ```bash
-  dotnet user-secrets get "MySecret"
-  ```
-
-By relying on the `.NET CLI`, your team ensures that secrets are handled consistently, regardless of the operating system.
-
-For more information visit [Safe storage of app secrets in development in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-8.0&tabs=linux)
