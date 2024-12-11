@@ -13,6 +13,7 @@ index:
   - do-you-have-clear-engagement-models
   - how-to-justify-your-rates
   - prepare-for-initial-meetings
+  - initial-meetings-face-to-face
   - meetings-do-you-know-the-agenda-for-the-initial-meeting
   - record-your-sales-meetings
   - meetings-do-you-have-a-debrief-after-an-initial-meeting
