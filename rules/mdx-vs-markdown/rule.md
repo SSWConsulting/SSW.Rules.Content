@@ -58,6 +58,3 @@ Choose Markdown for simple, fast content. Choose MDX when you need more interact
 
 The key is to start simple. Use Markdown for most of your content, and only switch to MDX when you truly need those extra capabilities.
 
-::: info
-**Tip**: Keep it simple. If regular Markdown does the job, stick with it. Add MDX only when you really need those advanced features.
-:::
