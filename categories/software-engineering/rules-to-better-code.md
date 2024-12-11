@@ -90,7 +90,6 @@ index:
   - handle-unhappy-paths
   - get-code-line-metrics
   - single-codebase-for-multiple-domains-with-tinacm-nextjs
-  - do-you-handle-multi-os-dev-teams-in-source-control
 ---
 
 What makes code "cleaner"? What makes the difference between readable code and very readable code?
