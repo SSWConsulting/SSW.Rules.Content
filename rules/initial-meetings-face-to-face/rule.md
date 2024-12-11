@@ -12,6 +12,8 @@ guid: 9a8c6e5b-3f2d-452d-b85a-5a5b14e54df2
 
 The initial meeting with a prospect often starts as an impersonal interaction—a web inquiry or a phone call. These methods lack the tangible connection of a physical presence. Inviting the prospect to your office for a face-to-face meeting changes everything. Sitting in the boardroom, sharing a coffee, and looking across the table humanizes the interaction and brings your company to life. This is the foundation for building trust and a lasting relationship.
 
+
+![Figure: It is important to greet people with a warm smile in a professional setting at your office](Office-meeting.webp)
 <!--endintro-->
 
 ### Why Face-to-Face Matters
