@@ -20,9 +20,13 @@ When creating sprint summaries that include sensitive content, such as internal 
 
 #### 1. Choose a Secure Hosting Platform
 
-- **SharePoint**: Upload sprint summary videos and documents to a secure SharePoint library. SharePoint integrates seamlessly with Microsoft Teams and provides fine-grained access controls.
-- **Microsoft Stream**: Use Microsoft Stream to host videos within your organization. This ensures the content stays within your Microsoft 365 ecosystem and supports organizational security policies.
-- **YouTube (Private)**: As a last resort, use YouTube to upload videos with the "Private" setting. Be cautious, as this approach requires explicit control over sharing permissions to prevent accidental exposure.
+- **Option 1 (Recommended)**: **Microsoft Stream** (for videos) and **SharePoint** (for files)
+  - When recording videos via Teams, they are automatically uploaded to Microsoft Stream, which ensures the videos remain private within your organization. SharePoint provides similar controls for document sharing and integrates seamlessly with other Microsoft 365 tools.
+  - This is the ideal choice for organizations already using Microsoft Teams and Microsoft 365.
+
+- **Option 2**: **YouTube Private**
+  - For teams not using Microsoft Teams, YouTube's "Private" option can be used to share videos securely. Be cautious, as this approach requires explicit control over sharing permissions to prevent accidental exposure.
+  - Use this option only when Microsoft Stream is not available.
 
 #### 2. Restrict Access to Authorized Individuals
 
@@ -40,9 +44,9 @@ Obfuscation reduces the risk of accidental exposure while still allowing for eff
 
 #### 4. Securely Share Links
 
-When sharing links:
-- Use expiring links or one-time access options if supported by your platform.
-- Avoid sending links over unencrypted communication channels like email unless necessary.
+If you need to Securely Share Links of your recording, please see these rule:
+- [Do you know how to securely share your passwords?](https://www.ssw.com.au/rules/secure-password-share)
+- [Do you know the best way to share a password externally?](https://www.ssw.com.au/rules/password-sharing-practices)
 
 #### 5. Regularly Review Privacy Policies of Hosting Services
 
@@ -61,7 +65,11 @@ You need to share a sprint summary video with your team, and it contains client-
 :::
 
 ::: good
-Figure: Good example - Sensitive sprint summary uploaded to Microsoft Stream with restricted access and time-limited sharing links.
+![Figure: Good example - Sensitive sprint summary uploaded to Microsoft Stream with confidential information redacted.]
+:::
+
+::: bad
+![Figure: Bad Example - Sensitive sprint summary uploaded as a public YouTube video, exposing information to unauthorized viewers.](https://via.placeholder.com/400)
 :::
 
 By adopting these practices, you can create and share sprint summaries confidently, ensuring sensitive information remains secure.
