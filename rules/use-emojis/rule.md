@@ -27,7 +27,11 @@ It's usually easier for users to remember where given information is when it is 
 
 <!--endintro-->
 
-An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use Emojis in your channel names (using **Windows Key** + **.**)!
+**Tip:** Always remember to add a space between the emoji and text, for better readability.
+
+## Microsoft Teams channel names
+
+An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names (using **Windows Key** + **.**).
 
 ::: bad  
 ![Figure: Bad example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
@@ -37,26 +41,28 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 ![Figure: Good example - Teams Channel names have emojis](Teams_Emojis_Good.png)  
 :::
 
+## Control4
+
 ::: good  
 ![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](control4-emojis.png)
 :::
+
+## Appointments
 
 ::: good  
 ![Figure: Good example - Some appointments can benefit from an emoji too, like a Sprint meeting in Scrum](calendar-emoji.png)  
 :::
 
-::: greybox
+## Lists
 
+::: greybox
 * Fast to load (lightweight as no image)
 * UI - Consistent look
 * Maintenance of needing to upload to server
-
 :::
 ::: bad
 Bad example - Regular list items
 :::
-
-**Tip:** Always remember to add a space between the emoji and text, for better readability.
 
 ::: greybox
 ✅ Fast to load (lightweight as no image)  
@@ -70,3 +76,7 @@ Good example - Emojis give context to each item
 ::: info
 **Note:** When having lists that use emojis, be aware that if they are longer than 3 items, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
 :::
+
+## AI content
+
+[Use the 🤖 emoji](/indicate-ai-helped) at the end of your message/email when you were helped by AI. 
