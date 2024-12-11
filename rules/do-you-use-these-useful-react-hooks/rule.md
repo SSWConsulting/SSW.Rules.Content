@@ -169,7 +169,7 @@ Read more about `useContext` on the [offical docs](https://react.dev/reference/r
 
 ## 4. **useRef**: Direct DOM Access & Persistent References 🎯
 
-The `useRef hook in React allows you to access and interact with DOM elements or maintain a mutable reference to values across renders without triggering a re-render.
+The `useRef` hook in React allows you to access and interact with DOM elements or maintain a mutable reference to values across renders without triggering a re-render.
 
 ```jsx
 import { useRef } from "react";
@@ -194,7 +194,7 @@ function MyComponent() {
 
 ### ✅ Recommended Usage
 
-* **Referencing a Value:** `useRef lets you reference a value that doesn't affect the rendering of your component
+* **Referencing a Value:** `useRef` lets you reference a value that doesn't affect the rendering of your component
 * **Manipulating the DOM:** By attaching the returned ref object as a ref attribute to a JSX node, React sets its current property to that DOM node, allowing direct DOM manipulations
 * **Avoiding Recreating the Ref Contents:** React preserves the initial ref value and doesn't recreate it during subsequent renders. This is beneficial for computationally expensive values
 * **Storing Information from Previous Renders:** Refs persist their data across renders and can store information that doesn’t initiate a re-render
@@ -202,9 +202,9 @@ function MyComponent() {
 
 ### ⚠️ Pitfalls
 
-* **Mutable current Property:** Although `ref.current is mutable, avoid mutating objects used in rendering
-* **No Re-render on Change:** Adjusting ref.current doesn’t trigger a re-render; React doesn’t detect changes to the ref
-* **Avoid Reading/Writing During Rendering:** Refrain from accessing or altering ref.current while rendering, except for its initialization
+* **Mutable current Property:** Although `ref.current` is mutable, avoid mutating objects used in rendering
+* **No Re-render on Change:** Adjusting `ref.current` doesn’t trigger a re-render; React doesn’t detect changes to the ref
+* **Avoid Reading/Writing During Rendering:** Refrain from accessing or altering `ref.current` while rendering, except for its initialization
 * **Strict Mode Double Render:** In strict mode, React may execute your component twice for side effect detection. This double execution results in the ref object being created twice, though one is discarded
 * **Pure Component Behavior:** React assumes your component is a pure function. Interacting with a ref during rendering contradicts this presumption
 
@@ -212,7 +212,7 @@ Read more about `useRef` on the [offical docs](https://react.dev/reference/react
 
 ## 5. **useReducer**: Advanced State Logic 📊
 
-The `useReducer` is a React Hook that lets you add a reducer to your component, providing a more predictable state management method compared to useState.
+The `useReducer` is a React Hook that lets you add a reducer to your component, providing a more predictable state management method compared to `useState`.
 
 ```jsx
 import React, { useReducer } from "react";
@@ -245,7 +245,7 @@ function Counter() {
 
 ### ✅ Recommended Usage
 
-* **Adding a Reducer to a Component:** useReducer allows you to manage your component's state using a reducer function
+* **Adding a Reducer to a Component:** `useReducer` allows you to manage your component's state using a reducer function
 * **Predictable State Updates:** Reducers specify how the state transitions from one state to the next, making state updates more predictable
 * **Handling Complex State Logic:** It's suitable for managing state logic that's more complex than what useState can handle
 * **Avoiding Recreating the Initial State:** React saves the initial state once and ignores it on subsequent renders. This is useful for values that are expensive to compute
