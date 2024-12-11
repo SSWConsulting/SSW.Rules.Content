@@ -12,7 +12,7 @@ related:
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
   - use-icons-webpages
-  - do-a-retrospective
+  - indicate-ai-helped
   - write-a-good-pull-request
 redirects:
   - team-names-do-you-use-emojis-in-your-teams-channel-names
