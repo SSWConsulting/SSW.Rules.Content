@@ -56,7 +56,7 @@ A software issue can be classed as a bug where:
 
 ## Using Work Items in Azure DevOps or GitHub
 
-Using a Work Tracking tool allows you to create work items such as user stories, bugs, tasks, test cases etc. Only create bugs for defects, faults, flaws, or imperfections that **fulfill your definition of a bug**. 
+Using a Work Tracking tool allows you to create work items such as user stories, bugs, tasks, test cases etc. Only create bugs for defects, faults, flaws, or imperfections that **fulfill your definition of a bug**.
 
 For everything else, use other work item types.
 
@@ -64,7 +64,7 @@ For everything else, use other work item types.
 
 ### Handling additional work for fixed-price contracts
 
-Scrum wasn't designed for "fixed price, fixed scope" contracts. Any new features or modifications (non-bug items) not in the original Sprint or Sprints are classed as additional work and are outside the scope of the contract. 
+Scrum wasn't designed for "fixed price, fixed scope" contracts. Any new features or modifications (non-bug items) not in the original Sprint or Sprints are classed as additional work and are outside the scope of the contract.
 
 Any tasks which **are** bugs should be marked as additional items and be completed in the current Sprint if possible. Most importantly, after the Sprint Plan has been sent, **a PBI should NOT be entered as an item (additional or otherwise) in ANY Sprints if they are not a bug**. Instead, move all non-bug items to the Product Backlog for future review after the warranty period for the fixed price contract has passed.
 
