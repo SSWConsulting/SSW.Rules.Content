@@ -70,9 +70,9 @@ Any tasks which **are** bugs should be marked as additional items and be complet
 
 ### Handling additional work in a Scrum project
 
-Any new features or modifications (non-bug items) not in the original Product Backlog are classed as additional PBI's and placed on the Product Backlog. 
+Any new features or modifications (non-bug items) not in the original Product Backlog are classed as additional PBI's and placed on the Product Backlog.
 
-Any tasks which are bugs found **during** the current Sprint should be fixed within the current Sprint. 
+Any tasks which are bugs found **during** the current Sprint should be fixed within the current Sprint.
 
 Any tasks which are bugs found **outside** of the current Sprint should be added to the Product Backlog.
 
