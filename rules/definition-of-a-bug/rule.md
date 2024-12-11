@@ -70,9 +70,15 @@ Any tasks which **are** bugs should be marked as additional items and be complet
 
 ### Handling additional work in a Scrum project
 
-Any new features or modifications (non-bug items) not in the original Product Backlog are classed as additional PBI's and placed on the Product Backlog. Any tasks which **are** bugs found during the current Sprint should be fixed within the current Sprint. Any tasks which **are** bugs found outside of the current Sprint should be added to the Product Backlog. See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs "Do you know when to create bugs?") and [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
+Any new features or modifications (non-bug items) not in the original Product Backlog are classed as additional PBI's and placed on the Product Backlog. 
 
-![Figure: Adding a bug to the Product Backlog in Azure DevOps](62034c_tfs_preview_add_bug.png)
+Any tasks which are bugs found **during** the current Sprint should be fixed within the current Sprint. 
+
+Any tasks which are bugs found **outside** of the current Sprint should be added to the Product Backlog.
+
+![Figure: Adding a bug to the Product Backlog in Azure DevOps](adding-pbi-to-backlog.png)
+
+See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs "Do you know when to create bugs?") and [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
 
 ::: info
 **Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/).
