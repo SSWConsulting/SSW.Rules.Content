@@ -56,6 +56,7 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 ## Lists
 
 ::: greybox
+
 * Fast to load (lightweight as no image)
 * UI - Consistent look
 * Maintenance of needing to upload to server
@@ -79,4 +80,4 @@ Good example - Emojis give context to each item
 
 ## AI content
 
-[Use the 🤖 emoji](/indicate-ai-helped) at the end of your message/email when you were helped by AI. 
+[Use the 🤖 emoji](/indicate-ai-helped) at the end of your message/email when you were helped by AI.
