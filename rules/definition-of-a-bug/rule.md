@@ -32,12 +32,12 @@ A software issue can be classed as a bug where:
 
 ## Examples of what **could** constitute a bug
 
-1. The application crashes to code because it doesn't check that a connection is valid before running a stored procedure   
+1. The application crashes to code because it doesn't check that a connection is valid before running a stored procedure
    **This is likely covered because it crashes to code**
 
    ![Figure: Yellow screen of death](YellowScreenofDeath.jpg)
 
-2. A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance   
+2. A sum total is negative instead of positive because the wrong operator (plus instead of minus) has been used to calculate the running balance
    **This is likely covered because data is inconsistent with the specified business rules**
    ![Figure: An incorrect sum is likely to be a bug](IncorrectSum.jpg)
 
