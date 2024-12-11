@@ -31,7 +31,7 @@ It's usually easier for users to remember where given information is when it is 
 
 ## Microsoft Teams channel names
 
-An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names (using **Windows Key** + **.**).
+An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names.
 
 ::: bad  
 ![Figure: Bad example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
@@ -75,7 +75,7 @@ Good example - Emojis give context to each item
 :::
 
 ::: info
-**Note:** When having lists that use emojis, be aware that if they are longer than 3 items, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
+**Note:** When having lists that use emojis, be aware that if they are longer than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
 :::
 
 ## AI content
