@@ -38,19 +38,19 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 :::
 
 ::: good  
-![Figure: Good example - Teams Channel names have emojis](Teams_Emojis_Good.png)  
+![Figure: Good example - Teams Channel names with emojis](Teams_Emojis_Good.png)  
 :::
 
 ## Control4
 
 ::: good  
-![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](control4-emojis.png)
+![Figure: Good example - Control4 automation UI is more friendly with emojis](control4-emojis.png)
 :::
 
 ## Appointments
 
 ::: good  
-![Figure: Good example - Some appointments can benefit from an emoji too, like a Sprint meeting in Scrum](calendar-emoji.png)  
+![Figure: Good example - Some appointments can benefit from an emoji too, like using a 🏃‍♂️ for a Sprint meeting](calendar-emoji.png)  
 :::
 
 ## Lists
