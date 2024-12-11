@@ -65,11 +65,11 @@ You need to share a sprint summary video with your team, and it contains client-
 :::
 
 ::: good
-![Figure: Good example - Sensitive sprint summary uploaded to Microsoft Stream with confidential information redacted.]
+![Figure: Good example - Sensitive sprint summary uploaded to Microsoft Stream with confidential information redacted.](SecureSprintReviews.png)
 :::
 
 ::: bad
-![Figure: Bad Example - Sensitive sprint summary uploaded as a public YouTube video, exposing information to unauthorized viewers.](https://via.placeholder.com/400)
+![Figure: Bad Example - Sensitive sprint summary uploaded as a public YouTube video, exposing information to unauthorized viewers.](SecureSprintReviewsBad.png)
 :::
 
 By adopting these practices, you can create and share sprint summaries confidently, ensuring sensitive information remains secure.
