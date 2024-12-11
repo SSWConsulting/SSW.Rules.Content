@@ -22,6 +22,9 @@ Specifying the wrong data types in SQL queries can make the server scan your who
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/3Hh-RGxFcec`  
+**Video: Avoid implicit type conversions | Bryden Oliver (3 min)**
+
 It doesn't seem right that getting the data type wrong can result in the database having to walk an entire table, but if we think about the following 2 queries.
 
 ```sql

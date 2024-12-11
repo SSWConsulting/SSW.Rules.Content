@@ -11,4 +11,4 @@ index:
 
 ---
 
-
+Enhance your Octopus Deploy practices by avoiding auto-generated version numbers and integrating RayGun for better error tracking. Ensure your home directory points to a different drive and establish a clear retention policy for your deployments.

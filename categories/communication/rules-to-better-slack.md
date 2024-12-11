@@ -12,4 +12,4 @@ index:
 
 ---
 
-
+Enhance your team's communication and productivity with these Slack best practices. From managing channels to optimizing notifications, these rules will help you get the most out of Slack.

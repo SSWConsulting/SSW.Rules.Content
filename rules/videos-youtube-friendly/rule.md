@@ -2,7 +2,7 @@
 seoDescription: Optimize your videos for YouTube by creating engaging, long-form content that captures viewers' attention within the first 15 seconds.
 type: rule
 archivedreason:
-title: Do you make your videos YouTube friendly?
+title: Videos - Do you make your videos YouTube friendly?
 guid: 0186bc10-02ac-49e8-a0e0-015dd655b0d2
 uri: videos-youtube-friendly
 created: 2018-05-21T00:03:43.0000000Z

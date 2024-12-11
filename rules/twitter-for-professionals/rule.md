@@ -1,7 +1,7 @@
 ---
-seoDescription: Unlock the full potential of your Twitter account for business and monetize your presence with Twitter for Professionals.
+seoDescription: Unlock the full potential of your X account for business and monetize your presence with X Business (was Twitter for Professionals).
 type: rule
-title: Twitter - do you use Twitter for Professionals for business accounts?
+title: X - Do you use X Business?
 uri: twitter-for-professionals
 authors:
   - title: Seth Daily
@@ -14,21 +14,21 @@ created: 2023-07-20T00:00:00.000Z
 guid: a4af175d-77a1-4622-b767-885212f0f436
 ---
 
-If you are using your Twitter account for business, there are benefits to be had from using Twitter for Professionals:
+If you are using your X account for business, there are benefits to be had from using [X Business](https://business.x.com/en).
 
 <!--endintro-->
 
-Twitter for Professionals is free to activate in the settings of your Twitter account. It provides:
+X Business is free to activate in the settings of your X account. It provides:
 
-- **Additional Profile Information:** More profile information and links, freeing up space in your bio for more detail.
-- **Newsletters:** You can set up a mailing list, send out regular content, and advertise the subscription link on your profile.
-- **Ticketed Twitter Spaces:** Host live audio events with speakers and Q&A sessions and sell tickets to monetize them.
-- **Super Follows:** By activating Super Follows you can charge followers who want to receive extra content.
-- **Tips:** Users can leave you a tip for a tweet.
-- **Quick Promote:** Easier set up for ads without going through the Twitter Ads page.
+* **Additional Profile Information:** More profile information and links, freeing up space in your bio for more detail
+* **Newsletters:** You can set up a mailing list, send out regular content, and advertise the subscription link on your profile
+* **Ticketed Twitter Spaces:** Host live audio events with speakers and Q&A sessions and sell tickets to monetize them
+* **Super Follows:** By activating Super Follows you can charge followers who want to receive extra content
+* **Tips:** Users can leave you a tip for a tweet
+* **Quick Promote:** Easier set up for ads without going through the X Ads page
 
 It is ideal to use for businesses or for content creators looking to monetize their account.
 
 ::: good
-![Figure: Twitter for Professionals - new profile information](elon-twitter.png)
+![Figure: X Business - New profile information](elon-twitter.png)
 :::

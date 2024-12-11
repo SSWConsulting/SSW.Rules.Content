@@ -11,4 +11,4 @@ index:
 
 ---
 
-
+Master the use of SharePoint and Teams search functionalities to enhance your information retrieval. Utilize Outlook's search capabilities effectively and discover the best methods for finding recent files for yourself and others.

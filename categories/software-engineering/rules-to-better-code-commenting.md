@@ -13,4 +13,4 @@ index:
 - comment-each-property-and-method
 ---
 
-
+Learn effective strategies for code commenting to enhance readability and maintainability. This guide covers best practices for commenting on code updates, handling debug statements, and documenting methods and properties.

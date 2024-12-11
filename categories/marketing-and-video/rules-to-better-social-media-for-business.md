@@ -23,6 +23,8 @@ index:
 - text-limit-for-images
 - create-friendly-short-urls
 - share-every-blog-post
+- promotion-do-people-know-about-your-event
+- avoid-dates-text-in-graphics-for-events
 - post-using-social-media-management-tools
 - do-your-presentations-promote-online-discussion
 - do-you-share-when-you-upgrade-an-application
@@ -32,15 +34,13 @@ index:
 - managing-linkedin-for-international-companies
 - monitor-external-reviews
 - do-you-create-a-call-to-action-on-your-facebook-page
-- promotion-do-people-know-about-your-event
 - twitter-how-to-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
+- thank-others-for-each-reference-to-you
 - do-you-know-when-to-use-a-hashtag-vs-a-mention
 - twitter-for-professionals
-- thank-others-for-each-reference-to-you
 - twitter-tip-content-creators
-- avoid-dates-text-in-graphics-for-events
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments

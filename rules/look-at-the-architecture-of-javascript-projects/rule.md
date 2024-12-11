@@ -11,8 +11,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Jernej Kavka
     url: https://ssw.com.au/people/jernej-kavka
-related:
-  - do-you-look-at-the-architecture
+related: []
 redirects:
   - do-you-look-at-the-architecture-of-javascript-projects
 ---
@@ -43,7 +42,7 @@ Unfortunately, the create-react-app from version 3 has removed the “--stats" f
 
 ### For React projects use source-map-explorer
 
-This tool uses a bundle's generated source map files to analyse the size and composition of a bundler and render a visualization of the bundle similar to what **webpack-bundle-analyzer** does. To create a bundle analysis for a React project, follow the instructions from the Create React App documentation: https://create-react-app.dev/docs/analyzing-the-bundle-size/
+This tool uses a bundle's generated source map files to analyse the size and composition of a bundler and render a visualization of the bundle similar to what **webpack-bundle-analyzer** does. To create a bundle analysis for a React project, follow the instructions from the [Create React App documentation](https://create-react-app.dev/docs/analyzing-the-bundle-size).
 
 ::: good  
 ![Figure: Good example – use source-map-explorer on React projects](architecture-good-react.png)  

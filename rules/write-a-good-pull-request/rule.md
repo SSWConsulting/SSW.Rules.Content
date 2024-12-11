@@ -68,7 +68,7 @@ Bad example - Pull Request title does not tell what issues have been fixed and h
 Good example - Pull Request title briefly describes the fix that it has
 :::
 
-Having the **"What"** information allows the reviewers to quickly understand what this is about while having the "How" can help the reviewer to quickly understand how your PR solved the problem. Sometimes we might want to put the **"How"** in the PR body if it is too long or hard to explain in one sentence.
+Having the **"What"** information allows the reviewers to quickly understand what this is about while having the **"How"** can help the reviewer to quickly understand how your PR solved the problem. Sometimes we might want to put the **"How"** in the PR body if it is too long or hard to explain in one sentence.
 
 ### 2. Write a clear and concise description
 

@@ -22,6 +22,9 @@ It's very inefficient to loop in database queries. You should avoid it wherever 
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/3a2ACgGWyUY`  
+**Video: Avoid looping for SQL performance | Bryden Oliver (3 min)**
+
 Looping in SQL causes the server to execute each iteration of the loop one after another. If you can get it to do in parallel much better and often GROUP BY or aggregation are a better choice.
 
 There are still times that looping is necessary in a query, but it is something to think long and hard about whether there is a better alternative.

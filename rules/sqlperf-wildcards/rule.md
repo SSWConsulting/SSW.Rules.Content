@@ -22,6 +22,9 @@ Using a wildcard at the start of a string match can cause performance problems w
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/mDWsG3P947E`  
+**Video: Avoid wildcards at the start of filters for SQL performance | Bryden Oliver (4 min)**
+
 If you have a table that is indexed on a string column and then you use a query like:
 
 ```sql

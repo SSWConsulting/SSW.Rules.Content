@@ -1,7 +1,7 @@
 ---
 seoDescription: Answering IM questions one by one can greatly improve signal to noise ratio and make communication more efficient. To do this, simply respond to each question separately, repeating its keywords as necessary.
 type: rule
-title: Clarity - Do you answer IM questions in order?
+title: Do you answer IM questions in order?
 uri: answer-im-questions-in-order
 authors:
   - title: Adam Cogan

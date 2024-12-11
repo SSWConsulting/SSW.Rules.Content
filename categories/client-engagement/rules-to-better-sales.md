@@ -12,7 +12,8 @@ index:
   - do-you-perform-a-background-check
   - do-you-have-clear-engagement-models
   - how-to-justify-your-rates
-  - meetings-are-you-prepared-for-the-initial-meeting
+  - prepare-for-initial-meetings
+  - initial-meetings-face-to-face
   - meetings-do-you-know-the-agenda-for-the-initial-meeting
   - record-your-sales-meetings
   - meetings-do-you-have-a-debrief-after-an-initial-meeting

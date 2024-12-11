@@ -55,11 +55,11 @@ You can take screen captures to the next level by adding balloons that have the 
 The balloon is great because you can point to a specific part of the image. It is much easier than reading the old ‘Wall of Text’.
 
 ::: bad
-![Figure: Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](BalloonBadExample.jpg)
+![Figure: Bad example – The email is using a screenshot so that is good, but you need to read the text and relate it to the image](balloon-bad-example.jpg)
 :::
 
 ::: good
-![Figure: Good example – The balloon with text on the screenshot, makes it quicker to understand](BalloonGoodExample.jpg)
+![Figure: Good example – The balloon with text on the screenshot, makes it quicker to understand](balloon-good-example.jpg)
 :::
 
 ::: info
@@ -73,11 +73,11 @@ See more details on [how to configure balloons' branding in Fullshot and Snagit]
 :::
 
 ::: good
-![Figure: Good example – See 3 balloons were not needed](balloon-not-needed.JPG)
+![Figure: Good example – See 3 balloons were not needed](balloon-not-needed.jpg)
 :::
 
 ::: good
-![Figure: Good Example - Sometimes an arrow is all that is needed](arrow_example.png)
+![Figure: Good Example - Sometimes an arrow is all that is needed](arrow-example.png)
 :::
 
 In other words, you can use:
@@ -94,16 +94,16 @@ They are all useful depending on the scenario. Be wise and try to make it as cle
 Follow the rule [Do you add branding to screenshots?](/screenshots-add-branding)
 
 `youtube: https://www.youtube.com/embed/5TB61bqQKtE`
-**Figure: Betsy Weber Techsmith - Part 1 - Creator of Snagit. See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
+**Video: Betsy Weber Techsmith - Part 1 - Creator of Snagit (13 min). See [full series here](http://tv.ssw.com/204/betsy-weber-teched-interview)**
 
 ### Tip #5: Pay attention to the arrow tail
 
 When you use an arrow in your screenshot, make sure you start the arrow from an appropriate place.
 
 ::: bad
-![Figure: Bad example – Arrow might make people think 'chat' and the direction it points are related](ArrowBadExample.png)
+![Figure: Bad example – Arrow might make people think 'chat' and the direction it points are related](arrow-bad-example.png)
 :::
 
 ::: good
-![Figure: Good example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](ArrowGoodExample.png)
+![Figure: Good example - If you just want to emphasize what you're pointing to, start drawing the arrow from an empty space](arrow-good-example.png)
 :::

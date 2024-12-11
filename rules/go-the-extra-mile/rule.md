@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you go two miles when you're only asked to go one? Go the extra mile and foster a positive team environment by taking initiative and helping others beyond expectations.
+seoDescription: Go the extra mile and foster a positive team environment by taking initiative and helping others beyond expectations.
 type: rule
 title: Quality - Do you go 2 miles when you're only asked to go 1?
 uri: go-the-extra-mile
@@ -23,15 +23,15 @@ This idea is different from the other rules in this category in that it strikes 
 "And whoever compels you to go one mile, go with him two."
 :::
 
-While not everyone chooses to agree with everything He said, it's a valid point when it comes to creating a positive team environment. If you're willing to be proactive and help others above and beyond the call of duty, a whole ream of benefits flow:
+While not everyone chooses to agree with everything said, it's a valid point when it comes to creating a positive team environment. If you're willing to be proactive and help others above and beyond the call of duty, a whole ream of benefits flow:
 
 <!--endintro-->
 
-- People begin to share responsibility for work that traditionally is claimed as _"not my problem"_
-- Others will return the favour when you really need it
-- The sense of workplace isolation disappears
-- Productivity lifts as tasks can be achieved more quickly
+* People begin to share responsibility for work that traditionally is claimed as _"not my problem"_
+* Others will return the favour when you really need it
+* The sense of workplace isolation disappears
+* Productivity lifts as tasks can be achieved more quickly
 
-![Figure: Going the extra mile](CowsBum.JPG)
+![Figure: Going the extra mile](cows-bum.jpg)
 
 This rule particularly applies when a person is [blocked](/ask-for-help) – as identified in their Daily Scrum.

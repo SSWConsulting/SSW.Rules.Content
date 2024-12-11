@@ -108,7 +108,9 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 ### StaticCMS
 
-[StaticCMS](https://www.staticcms.org/) is a newer entry in the field and offers a Git-based, open-source CMS. It's designed to work well with static site generators and is a lesser-known brand. StaticCMS is a fork of [Decap CMS](https://decapcms.org/) (previously Netlify CMS).
+[StaticCMS](https://staticjscms.netlify.app) was designed to work well with static site generators and is a lesser-known brand. StaticCMS is a fork of [Decap CMS](https://decapcms.org/) (previously Netlify CMS).
+
+**Update:** [Static CMS has been archived](https://github.com/StaticJsCMS/static-cms).
 
 ✅ **Pros**
 

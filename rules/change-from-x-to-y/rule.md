@@ -23,7 +23,7 @@ guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
 When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "Change from X to Y".
 
-This process consists of including the original version of the content ("X") among with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like.
+This process consists of including the original version of the content ("X") along with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like.
 
 <!--endintro-->
 
@@ -41,6 +41,7 @@ Make the changes even easier to see and understand by highlighting:
 **Note:** All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Dave |
@@ -64,6 +65,7 @@ Figure: Bad example - The original version of content has not been included in t
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Dave |

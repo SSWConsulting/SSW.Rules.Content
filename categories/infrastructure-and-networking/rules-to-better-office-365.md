@@ -10,6 +10,7 @@ index:
 - integrate-dynamics-365-and-microsoft-teams
 - change-message-size-restrictions-exchange-online
 - groups-in-microsoft-365
+- archive-mailboxes
 
 ---
 

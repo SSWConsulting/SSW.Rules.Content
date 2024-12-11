@@ -6,6 +6,8 @@ uri: build-inter-office-interaction
 authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - mentoring-programs
   - efficiency-do-you-always-try-to-work-in-pairs
@@ -21,81 +23,69 @@ When a company has many different office locations, often people in one office a
 **Tip:** You can use a [time zone converter](/collaborate-across-timezones/#use-time-zone-converter--time-difference-calculator) to know the time difference between offices. You may also install one of the numerous apps to help with that info.
 :::
 
-## What can be improved?
+## What improvements come from better interaction?
 
 It is crucial to build **interaction** between all company offices because it often improves the following:
 
-* Communication
-* Relationships
-* Technical Skills
-* Access to resources
+* **Communication**
+* **Relationships**
+* **Technical skills**
+  * Knowing alternative approaches
+* **Access to resources**
   * Knowing who has certain skills
   * Knowing who can provide you with localized or domain specific information
-* Cooperation
-* Confidence
-* Knowledge of alternative approaches
-* Cultural understanding
-* Understanding of foreign perspectives
-  * Knowing why someone from another culture responds to questions in a different way to what you are used to
+* **Cooperation**
+* **Confidence**
+* **Understanding of foreign perspectives**
+  * Knowing why someone from another culture responds in a different way to what you are used to
 
-## Methods
+## Boost interaction with unique strategies
 
-Think about what your company can do to increase interaction. There are tonnes of unique ways that interaction can be developed. Examples include:
+Think about what your company can do to increase interaction. There are tonnes of ways that interaction can be developed. Examples include:
 
-### Team building activities
+**Team building activities**
 
-* Playing a game together
-* Solving a puzzle together
+* Playing a game/solving a puzzle together
 * Reviewing/updating a company standard together
-* Go on a group trip to the Great Wall of China
-* Visit local companies together
-* Retreat - Have a company retreat to bring everyone together
+* Having a company retreat to bring everyone together
+* Going on a group trip (e.g., to the Great Wall of China)
+* Visiting local companies together
 
-### [Cultural Exchange programs](/cultural-exchange)
+**[Cultural Exchange programs](/cultural-exchange)**
 
-* Having employees from China work in every Australian office for a month each or vice versa
+* Having employees from China to work in every Australian office for a month each or vice versa
 * Having developers from Brisbane spend a week in Melbourne
 
-### [Mentoring](/mentoring-programs)
+**[Mentoring](/mentoring-programs)**
 
-### [Working together](/efficiency-do-you-always-try-to-work-in-pairs)
+**[Working together](/efficiency-do-you-always-try-to-work-in-pairs)**
 
 * Pair programming
 * Mob programming
-* Sitting together to work side-by-side
 
-### Cultural events
-
-* Celebrating holidays from other countries
-* Having a cultural performance day where everyone chooses something cultural to perform such as a culturally relevant poem
-
-### Creating cross-office teams
-
-* Putting developers from the China office onto a project with Australian developers
-
-### A fun weekly company meeting
-
-* Everyone meets on Friday for 30 minutes to discuss a fun question
-
-### Rotating Daily Scrum
+**Rotating Daily Scrum**
 
 * Each week, 1 person from each office is paired up to do a Daily Scrum with others
 
-### Virtual coffee events
+**Creating cross-office teams and events**
 
+* Putting developers from the China office onto a project with Australian developers
 * People from different offices are paired up to have virtual coffee
-
-### Get people involved with events for others offices (especially other countries)
-
 * A Chinese dev does a presentation at the Sydney User Group
 
-### Organize meetings to discuss culturally different issues
+**Cultural events and videos**
 
-* Everyone talks about localization or WeChat Mini-Programs
+* Celebrating holidays from other countries
+* Organize meetings to discuss culturally different issues
 * Have a weekly language exchange catchup
+* Organize a cultural performance day where everyone shares a piece from their culture
 
-### Film videos about other offices
+**Product videos about other offices**
 
 * What is it like to work in the China office?
-* What are the differences in the app market in China and Australia? I.e. WeChat vs Facebook etc
-* Localization - What is your reaction if you see Chinese on a web page?
+* What is your reaction if you see Chinese on a web page?
+* What are the differences in the app market in China and Australia? I.e. WeChat vs Facebook
+
+**Fun weekly company meetings**
+
+* Everyone meets on Friday for 30 minutes to discuss a fun question

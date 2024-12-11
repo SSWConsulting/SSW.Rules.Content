@@ -22,9 +22,11 @@ index:
 - send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
+- handle-passive-aggressive-comments
 - go-the-extra-mile
 - browser-remove-clutter
 - standards-watchdog
+- keep-developers-away-from-design-work
 - what-is-mentoring
 - mentoring-programs
 - do-you-ask-questions-where-youre-stuck
@@ -82,6 +84,8 @@ index:
 - gather-team-opinions
 - call-your-system-administrators-before-raising-a-ticket
 - do-you-use-suspend-on-your-notebook
+- microsoft-planner-for-tasks
 
 ---
- 
+
+Enhance software consulting practices by exploring essential principles that focus on teamwork, communication, and professionalism. Discover key rules designed to foster collaboration and integrity among consultants.

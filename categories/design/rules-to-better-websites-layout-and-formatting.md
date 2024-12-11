@@ -5,6 +5,7 @@ guid: a4ffafbb-7fc8-4395-a35e-cb6c66ee6ec3
 uri: rules-to-better-websites-layout-and-formatting
 index:
 - cta-banana-rule
+- keep-developers-away-from-design-work
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 - forms-do-you-include-the-number-of-results-in-comboboxes
@@ -13,7 +14,7 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
-- do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel
+- css-changes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
