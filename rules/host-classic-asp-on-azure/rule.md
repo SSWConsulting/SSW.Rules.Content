@@ -58,3 +58,5 @@ If you choose to migrate your Classic ASP application to Azure App Service using
 5. **Create [Azure Web App using Docker image](https://learn.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux&tabs=azure-cli):** Create an Azure Web App and configure it to use your Docker image from the Azure Container Registry.
 
 
+**Considerations and Challenges**
+Migrating a Classic ASP website to Azure can present some challenges that require careful consideration:
