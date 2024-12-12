@@ -16,7 +16,7 @@ Migrating a website can be a challenging undertaking, especially when dealing wi
 
 Azure doesn't natively support Classic ASP as it does for newer **.NET applications**. With the introduction of virtual machine roles, Azure opened up possibilities for hosting Classic ASP applications. Here are the most suitable options for hosting your website:
 
-- **[Azure App Service with Docker](https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service):** This is generally the preferred approach for migrating Classic ASP websites. Containerizing your application with Docker allows for seamless deployment to Azure App Service and enables you to leverage its key features, including scalability, load balancing, and automated deployments.
+- **[Azure App Service with Docker](https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service)(Recommended):** This is generally the preferred approach for migrating Classic ASP websites. Containerizing your application with Docker allows for seamless deployment to Azure App Service and enables you to leverage its key features, including scalability, load balancing, and automated deployments.
 - **[Windows virtual machines](https://azure.microsoft.com/en-us/products/virtual-machines/windows)**: If you need greater control over the underlying infrastructure or have specific dependencies that aren't compatible with App Service, you can create a Windows Virtual Machine in Azure and install the necessary components to host your Classic ASP application
 
 
