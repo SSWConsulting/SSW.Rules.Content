@@ -73,4 +73,6 @@ Migrating a Classic ASP website to Azure can present some challenges that requir
 - **Assess Your Application:** Thoroughly evaluate your application's dependencies, codebase, and configuration to identify potential challenges and plan accordingly.
 - **Containerize with Docker:** If using Azure App Service, containerize your application with Docker to simplify deployment and improve portability.
 - **Modernize Your Code:** Update outdated libraries, refactor code, and address security vulnerabilities to improve security, performance, and maintainability.
+- **Test Thoroughly:** Before switching over to Azure, rigorously test your application in the new environment to ensure everything functions as expected.
+- **Use Migration Tools:** Leverage Azure Migrate and other migration tools to streamline the process and reduce manual effort.
 
