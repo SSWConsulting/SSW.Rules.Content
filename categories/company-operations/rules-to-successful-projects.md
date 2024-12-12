@@ -5,7 +5,7 @@ guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
 - the-value-of-consistency
-- continual-improvement
+- wise-men-improve-rules
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
 - deadlines-and-sprints
