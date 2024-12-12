@@ -59,4 +59,11 @@ If you choose to migrate your Classic ASP application to Azure App Service using
 
 
 **Considerations and Challenges**
+
 Migrating a Classic ASP website to Azure can present some challenges that require careful consideration:
+
+- **[COM/COM+ Components](https://imranarshad.com/containerize-and-migrate-legacy-classic-asp-to-azure-app-service/)**: Azure App Service does not allow the registration of COM/COM+ components. If your application relies on these, you'll need to rewrite them in managed code or explore alternative solutions. This might involve significant code modifications and refactoring
+
+- **[Windows Authentication](https://imranarshad.com/containerize-and-migrate-legacy-classic-asp-to-azure-app-service/):** If your application uses Windows Authentication, you might need to replace it with Azure AD. This could require code changes and potential adjustments to your application logic to ensure compatibility with Azure AD
+
+- **[Database Connectivity](https://imranarshad.com/containerize-and-migrate-legacy-classic-asp-to-azure-app-service/):** Ensure that your database can be migrated to Azure or accessed from Azure. You might need to adjust connection strings and configure network settings to establish proper connectivity between your application and the database. For example, if you're migrating to Azure SQL Database, you'll need to update your connection strings with the appropriate credentials and server address. You might also need to configure firewall rules to allow access from your Azure App Service or Virtual Machine.
