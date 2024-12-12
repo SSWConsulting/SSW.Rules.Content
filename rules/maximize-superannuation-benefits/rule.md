@@ -20,6 +20,10 @@ Superannuation is more than just a retirement savings account - it's a long-term
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=oo9fD5B98N4`
+
+**Video: Naming Conventions | Stephan Fako (5 min)**
+
 Let’s break it down by exploring 3 key aspects you need to understand:  
 
 * How compounding and interest rates affect your investment return
