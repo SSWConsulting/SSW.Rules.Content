@@ -60,7 +60,7 @@ Using a Work Tracking tool allows you to create work items such as user stories,
 
 For everything else, use other work item types.
 
-![Figure: Work item types](work-items-type-options)
+![Figure: Work item types](work-items-type-options.png)
 
 ### Handling additional work for fixed-price contracts
 
