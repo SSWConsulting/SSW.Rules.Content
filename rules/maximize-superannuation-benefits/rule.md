@@ -22,8 +22,8 @@ Superannuation is more than just a retirement savings account - it's a long-term
 
 Let’s break it down by exploring 3 key aspects you need to understand:  
 
-* How compounding and interest rates affect your investment return 
-* How to grow Super through salary sacrifice (going beyond the mandatory 11.5% in 2025 and 12% in 2026) 
+* How compounding and interest rates affect your investment return
+* How to grow Super through salary sacrifice (going beyond the mandatory 11.5% in 2025 and 12% in 2026)
 * How to check your Super fund is giving you strong returns
 
 **What is Superannuation?**
