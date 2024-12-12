@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know how to host classic ASP on Azure?
+title: Do you know how to host Classic ASP on Azure?
 seoDescription: This rule outlines the steps, considerations, and best practices
   for migrating your Classic ASP website to Azure, including using Azure App
   Service with Docker and Azure Virtual Machines
