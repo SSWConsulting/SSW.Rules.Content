@@ -2,9 +2,9 @@
 type: rule
 tips: ""
 title: Do you know how to host Classic ASP on Azure?
-seoDescription: This rule outlines the steps, considerations, and best practices
-  for migrating your Classic ASP website to Azure, including using Azure App
-  Service with Docker and Azure Virtual Machines
+seoDescription: How to migrate your Classic ASP website to Azure, using Azure
+  App Service with Docker or Azure Virtual Machines including considerations and
+  best practices
 uri: host-classic-asp-on-azure
 authors:
   - title: Gordon Beeming
@@ -85,7 +85,7 @@ Migrating a Classic ASP website to Azure can present some challenges that requir
 - **Modernize Your Code:** Update outdated libraries, refactor code, and address security vulnerabilities to improve security, performance, and maintainability.
 - **Test Thoroughly:** Before switching over to Azure, rigorously test your application in the new environment to ensure everything functions as expected.
 - **Use Migration Tools:** Leverage Azure Migrate and other migration tools to streamline the process and reduce manual effort.
-- **Understand File Structure:** Azure App Services stores the root content for a site in a fixed home directory (D:\home\site\wwwroot). Migration tools will copy the content under the site root to this directory and configure the correct paths for any virtual directories.
+- **Understand File Structure:** When hosting on self-hosted IIS, the default location of the sites is `C:\inetpub\wwwroot`, Azure App Services stores the root content for a site in a fixed home directory `D:\home\site\wwwroot`. Double-check your code and application configuration for any references to this path.
 
 ## Conclusion
 Migrating a Classic ASP website to Azure can be a complex process, but with careful planning and execution, it can bring significant benefits. By understanding the available options, considering the challenges, and following best practices, you can successfully move your website to the cloud and enjoy improved performance, scalability, and reliability.
