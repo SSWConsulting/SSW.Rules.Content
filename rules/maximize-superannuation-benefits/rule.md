@@ -20,6 +20,8 @@ Superannuation is more than just a retirement savings account - it's a long-term
 
 <!--endintro-->
 
+![Figure: Maximize your Super](maximize-your-super.jpg)
+
 `youtube: https://www.youtube.com/watch?v=oo9fD5B98N4`
 
 **Video: Naming Conventions | Stephan Fako (5 min)**
