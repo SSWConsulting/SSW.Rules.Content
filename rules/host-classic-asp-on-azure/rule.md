@@ -52,9 +52,9 @@ If you need greater control over the underlying infrastructure or have specific 
 If you choose to migrate your Classic ASP application to Azure App Service using Docker, here's a step-by-step guide to help you through the process:
 
 1. **Setup Classic ASP Application:** Ensure your application is properly configured and ready for containerization.
-2. **Create Dockerfile:** In your application folder, create a Dockerfile that defines the environment and dependencies for your application.
-3. **Create local Docker image:** Build a Docker image locally based on your Dockerfile.
-4. **Push the Image to Azure Container Registry:** Create an Azure Container Registry and push your Docker image to it.
+2. **Create [Dockerfile](https://docs.docker.com/reference/dockerfile/):** In your application folder, create a Dockerfile that defines the environment and dependencies for your application.
+3. **Create local [Docker image](https://docs.docker.com/get-started/docker-concepts/building-images/):** Build a Docker image locally based on your Dockerfile.
+4. **Push the Image to [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal):** Create an Azure Container Registry and push your Docker image to it.
 5. **Create Azure Web App using Docker image:** Create an Azure Web App and configure it to use your Docker image from the Azure Container Registry.
 
 
