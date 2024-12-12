@@ -36,8 +36,15 @@ This is generally the preferred approach for migrating Classic ASP websites. Con
 
 **Option 2: [Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/windows)**
 
-If you need greater control over the underlying infrastructure or have specific dependencies that aren't compatible with App Service, you can create a Windows Virtual Machine in Azure and install the necessary components to host your Classic ASP application
+If you need greater control over the underlying infrastructure or have specific dependencies that aren't compatible with App Service, you can create a Windows Virtual Machine in Azure and install the necessary components to host your Classic ASP application.
 
+**✅ Pros:**
+- Full control over the environment
+- Can accommodate complex dependencies
+- Suitable for applications that require specific configurations
+**❌ Cons:**
+- More management overhead  
+- Higher cost compared to App Service
 
 2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
 3. Submit your rule for review.
