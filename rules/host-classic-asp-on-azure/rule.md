@@ -42,10 +42,19 @@ If you need greater control over the underlying infrastructure or have specific 
 - Full control over the environment
 - Can accommodate complex dependencies
 - Suitable for applications that require specific configurations
+
 **❌ Cons:**
 - More management overhead  
 - Higher cost compared to App Service
 
-2. Place your content here. Markdown is your friend. See this [example rule](https://www.ssw.com.au/rules/rule) for all the things you can do with Rules.
-3. Submit your rule for review.
-4. Add your rule to a category. See [How to Add and Edit Categories and Top Categories](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Add-and-Edit-Categories-and-Top-Categories).
+**Migration with Docker**
+
+If you choose to migrate your Classic ASP application to Azure App Service using Docker, here's a step-by-step guide to help you through the process:
+
+1. **Setup Classic ASP Application:** Ensure your application is properly configured and ready for containerization.
+2. **Create Dockerfile:** In your application folder, create a Dockerfile that defines the environment and dependencies for your application.
+3. **Create local Docker image:** Build a Docker image locally based on your Dockerfile.
+4. **Push the Image to Azure Container Registry:** Create an Azure Container Registry and push your Docker image to it.
+5. **Create Azure Web App using Docker image:** Create an Azure Web App and configure it to use your Docker image from the Azure Container Registry.
+
+
