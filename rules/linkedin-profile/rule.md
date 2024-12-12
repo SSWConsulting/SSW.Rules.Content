@@ -35,11 +35,12 @@ Do the following on your profile page:
 5. [Add the company name before your position](/prefix-job-title)
 6. [Add a friendly URL](/create-friendly-short-urls) - See [how to](https://www.linkedin.com/pulse/how-simplify-your-linkedin-url-brenda-meller-zawacki-/)
 7. [Include other social media](/linkedin-contact-info)
-8. Add your top skills in the 'About' section (Aim for 5)
-9. [Add your job experience](/linkedin-job-experience)
-10. Under your company, add [relevant links](https://www.youtube.com/watch?v=3rPpCchYUfc) to showcase your experience in a specific job
-11. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
-12. Add a link to your company's profile in your description
+8. Add a custom button - ['visit my website'](https://feed.link/blog/visit-my-website-link-to-linkedin-profile/)
+9. Add your top skills in the 'About' section (Aim for 5)
+10. [Add your job experience](/linkedin-job-experience)
+11. Under your company, add [relevant links](https://www.youtube.com/watch?v=3rPpCchYUfc) to showcase your experience in a specific job
+12. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
+13. Add a link to your company's profile in your description
 
    E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
 

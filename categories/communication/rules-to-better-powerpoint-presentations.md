@@ -32,6 +32,7 @@ index:
 - do-you-know-how-to-compress-your-powerpoint
 - animate-your-summary-slide
 - keep-your-urls-clean
+- use-qr-codes-for-urls
 - use-creative-commons-images
 - powerpoint-comments
 

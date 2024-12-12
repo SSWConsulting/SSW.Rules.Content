@@ -22,6 +22,7 @@ index:
 - send-done-videos
 - how-to-take-feedback-or-criticism
 - understand-the-power-of-empathy
+- handle-passive-aggressive-comments
 - go-the-extra-mile
 - browser-remove-clutter
 - standards-watchdog

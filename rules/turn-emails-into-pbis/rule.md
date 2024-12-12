@@ -42,18 +42,18 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 There are several benefits of turning an email into a PBI including:
 
-✅ Providing one source of truth
-✅ Better prioritization
-✅ Easily accessible by anyone in the team
+✅ Providing one source of truth  
+✅ Better prioritization  
+✅ Easily accessible by anyone in the team  
 
-## Should the email become a PBI?
+## When should the email become a PBI?
 
 You should use your judgement to decide if the email needs to become a PBI. For example:
 
-* Does the email contain 1 or more actionable tasks? If not, do not turn into an PBI
-* Does the feedback contain confidential information that should not be on the backlog? If so, do not turn into an PBI
-* Will the task take less than 15 minutes to complete? If so, follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately
-* Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? Urgent emails should be done immediately unless they are clearly not an emergency
+* Does the email contain 1 or more actionable tasks? If not, **do not** turn into an PBI
+* Does the feedback contain confidential information that should not be on the backlog? If so, **do not** turn into an PBI
+* Will the task take less than 15 minutes to complete? If so, **do not** turn into an PBI and follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately
+* Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)?  If so, **do not** turn into an PBI. Urgent emails should be done immediately unless they are clearly not an emergency
 
 Use the following flow chart to determine if an urgent email should be turned into a PBI.
 
@@ -127,6 +127,20 @@ When there is a new update in emails do the following ASAP:
 ::: good
 ![Figure: Good example - Put it in a PBI!](pbi-example.png)
 :::
+
+## Escalating key updates after completing a PBI
+
+Once you’ve turned an email into a PBI and the work is complete, it’s crucial to ensure that all relevant stakeholders are informed about key updates or deliverables.
+
+Refer to rule on [escalating key updates and deliverables](/escalate-key-updates) for guidance on how to share critical updates effectively.
+
+For example:
+
+* After completing a Done Video or resolving a major issue, communicate results via email to ensure visibility
+* Use emails for high-priority updates that require stakeholder attention
+* Keep @mentions in PBIs for less critical updates
+
+This ensures a seamless workflow from task creation to stakeholder communication, preventing updates from being missed.
 
 ## Turn emails into tickets
 

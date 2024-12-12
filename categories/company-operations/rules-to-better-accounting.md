@@ -4,8 +4,9 @@ title: Rules to Better Accounting
 guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
+- salary-sacrificing
 - do-you-tie-knowledge-to-the-role
-- do-you-have-monthly-accounting-meetings
+- monthly-financial-meetings
 - compliance-sheet
 - do-you-involve-cross-checks-in-your-procedures
 - importance-of-reconciliation

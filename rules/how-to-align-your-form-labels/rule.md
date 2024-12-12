@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
-related: []
+related: 
+  - do-you-know-how-to-arrange-forms
+  - data-entry-forms-for-web
 redirects:
   - do-you-know-how-to-align-your-form-labels
 ---
@@ -20,91 +22,67 @@ There are different ways to align your form labels and each has its own pros and
 
 <!--endintro-->
 
-### Top aligned
+## Top aligned
 
 ![](label-top-aligned.png)
 
-::: good
-Pros:
+**✅ Pros**
 
-:::
+* Easiest to process
+* Fastest completion times
+* Good for multiple languages
 
-- Easiest to process
-- Fastest completion times
-- Good for multiple languages
+**❌ Cons**
 
-::: bad
-Cons:
+* Takes up a lot of vertical space
+* Makes a long-form look even longer
 
-:::
-
-- Takes up a lot of vertical space!
-- Makes a long-form look even longer!
-
-### Left aligned
+## Left aligned
 
 ![](label-left-aligned.png)
 
-::: good
-Pros
+**✅ Pros**
 
-:::
+* Easy to scan labels, especially if you have a lot of optional labels
+* Takes a little more attention to fill in, so useful for complicated forms that require accuracy
 
-- Easy to scan labels, especially if you have a lot of optional labels
-- Takes a little more attention to fill in, so useful for complicated forms that require accuracy
+**❌ Cons**
 
-::: bad
-Cons
+* Horizontal space, unlike vertical space, is not limitless, and an unintended horizontal scrollbar is the first sin of web development
+* Slowest completion times
+* Poor multilanguage support
+* Not even very good responsive support
 
-:::
-
-- Horizontal space, unlike vertical space, is not limitless, and an unintended horizontal scrollbar is the first sin of web development.
-- Slowest completion times
-- Poor multilanguage support
-- Not even very good responsive support
-
-### Right aligned
+## Right aligned
 
 ![](label-right-aligned.png)
 
-::: good
-Pros
+**✅ Pros**
 
-:::
+* Best at linking label and form
+* Good completion rates on small, common forms (i.e. Login, Sign up)
 
-- Best at linking label and form
-- Good completion rates on small, common forms (i.e. Login, Sign up)
+**❌ Cons**
 
-::: bad
-Cons
+* Hardest to read and scan
+* Poor multilanguage support
+* Poor responsive support
 
-:::
-
-- Hardest to read and scan
-- Poor multilanguage support
-- Poor responsive support
-
-### Material labeling
+## Material labeling
 
 Alternatively, we can use Material labeling which places them inside the form and slides up on focus.
 
 ![](label-material-labeling.png)
 
-::: good
-Pros
+**✅ Pros**
 
-:::
+* Best for readability
+* Best for visual connectivity
+* Best for completion rates
+* Decent multilanguage support
+* Decent responsive support
 
-- Best for readability
-- Best for visual connectivity
-- Best for completion rates
-- Decent multilanguage support
-- Decent responsive support
+**❌ Cons**
 
-::: bad
-Cons
-
-:::
-
-- Extremely time-consuming to implement. Need to consider the cost/benefit.
-- Not necessarily available on 3rd party platforms, like Wufoo or Microsoft Forms.
+* Extremely time-consuming to implement. Need to consider the cost/benefit
+* Not necessarily available on 3rd party platforms, like Wufoo or Microsoft Forms

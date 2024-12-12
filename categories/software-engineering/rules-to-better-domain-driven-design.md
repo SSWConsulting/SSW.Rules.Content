@@ -7,6 +7,7 @@ index:
 - encapsulate-domain-models
 - use-specification-pattern
 - anemic-vs-rich-domain-models
+- ubiquitous-language
 ---
 
 Domain-Driven Design (DDD) is a software development approach that focuses on the domain of the problem, rather than the technology. It is a way of thinking and a set of priorities, aimed at accelerating software projects that have to deal with complex domains.

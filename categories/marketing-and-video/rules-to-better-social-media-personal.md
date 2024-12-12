@@ -16,6 +16,8 @@ index:
 - linkedin-contact-info
 - new-job-certification-linkedin
 - linkedin-connect-your-microsoft-account
+- linkedin-connect-with-people
+- linkedin-maintain-connections
 - linkedin-creator-mode
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
@@ -29,8 +31,6 @@ index:
 - do-you-know-how-to-use-social-media-effectively-in-china
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-check-social-media-stats
-- linkedin-connect-with-people
-- linkedin-maintain-connections
 
 ---
 

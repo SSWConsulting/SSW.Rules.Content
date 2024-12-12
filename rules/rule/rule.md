@@ -54,7 +54,7 @@ See a few examples of SSW Rules that follow the structure of good and bad exampl
 ###### This is a heading 6 and below is a blockquote
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.  
->  - Someone famous in Source Title
+> \- Someone famous
 ```
 
 **Figure: Markdown to generate headings and blockquotes**
@@ -91,39 +91,35 @@ Lorem ipsum dolor sit amet. Ut enim ad minim veniam, quis nostrud exercitation. 
 
 > Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
 >
-> * Someone famous in Source Title
+> \- Someone famous
 
 ---
 
 ### 2. Text decorations
 
 ```markdown
-_This text will be italic_
-_This will also be italic_
+_This text will be italic._  
 
-**This text will be bold**
-**This will also be bold**
+**And this text will be bold.**
 
-_You **can** combine them_
+~~strikethrough.~~
 
-~~strikethrough~~
+_You **can** combine them_.
 
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
+<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed).
 ```
 
 **Figure: Markdown to generate different text styles**
 
-_This text will be italic_  
-_This will also be italic_
+_This text will be italic._  
 
-**This text will be bold**  
-**This will also be bold**
+**And this text will be bold.**
 
-~~strikethrough~~
+~~strikethrough.~~
 
-_You **can** combine them_
+_You **can** combine them_.
 
-<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed)
+<mark>These words</mark> are surrounded by a &lt;mark&gt; (HTML needed).
 
 ---
 
