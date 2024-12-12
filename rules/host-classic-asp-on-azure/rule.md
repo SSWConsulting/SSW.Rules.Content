@@ -17,7 +17,7 @@ Moving to Azure offers numerous advantages, including enhanced scalability, reli
 
 **Azure Services for Hosting Classic ASP Websites**
 
-Azure doesn't natively support Classic ASP as it does for newer .NET applications. With the introduction of virtual machine roles, Azure opened up possibilities for hosting Classic ASP applications. Here are the most suitable options for hosting your website:
+Azure doesn't natively support Classic ASP as it does for newer .NET applications. However, there are two primary options for hosting your Classic ASP website on Azure:
 
 **Option 1: [Azure App Service with Docker](https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service)(Recommended)** 
 
@@ -67,4 +67,6 @@ Migrating a Classic ASP website to Azure can present some challenges that requir
 - **Windows Authentication:** If your application uses Windows Authentication, you might need to replace it with Azure AD. This could require code changes and potential adjustments to your application logic to ensure compatibility with Azure AD
 
 - **Database Connectivity:** Ensure that your database can be migrated to Azure or accessed from Azure. You might need to adjust connection strings and configure network settings to establish proper connectivity between your application and the database. For example, if you're migrating to Azure SQL Database, you'll need to update your connection strings with the appropriate credentials and server address. You might also need to configure firewall rules to allow access from your Azure App Service or Virtual Machine.
-- **Third-party Dependencies:** Evaluate any third-party dependencies your application uses and ensure they are compatible with the chosen Azure service. Some older libraries or components might not be compatible with the Azure environment, requiring you to find alternatives or update them to newer versions
+- **Third-party Dependencies:** Evaluate any third-party dependencies your application uses and ensure they are compatible with the chosen Azure service. Some older libraries or components might not be compatible with the Azure environment, requiring you to find alternatives or update them to newer versions.
+
+**Considerations and Challenges**
