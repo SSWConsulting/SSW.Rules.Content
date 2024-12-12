@@ -45,6 +45,9 @@ https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-as
 
 If you need greater control over the underlying infrastructure or have specific dependencies that aren't compatible with App Service, you can create a Windows Virtual Machine in Azure and install the necessary components to host your Classic ASP application.
 
+See:
+https://azure.microsoft.com/en-us/products/virtual-machines/windows
+
 **✅ Pros:**
 - Full control over the environment
 - Can accommodate complex dependencies
@@ -53,9 +56,6 @@ If you need greater control over the underlying infrastructure or have specific 
 **❌ Cons:**
 - More management overhead  
 - Higher cost compared to App Service
-
-See:
-https://azure.microsoft.com/en-us/products/virtual-machines/windows
 
 ## Migration with Docker
 
