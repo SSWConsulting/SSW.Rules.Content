@@ -7,7 +7,10 @@ seoDescription: This rule outlines the steps, considerations, and best practices
   Service with Docker and Azure Virtual Machines
 uri: host-classic-asp-on-azure
 authors:
-  - title: ""
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming/
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks/
 guid: 8f04a3f4-01c8-4ecb-8bb7-281b80576ed9
 ---
 Migrating a website can be a challenging undertaking, especially when dealing with legacy technologies like Classic ASP. Many organizations with Classic ASP applications are looking to move to a cloud platform like **Azure** due to issues with their current hosting providers, such as outages and downtime that result in unacceptable levels of downtime for end users. 
