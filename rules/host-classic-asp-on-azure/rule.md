@@ -81,5 +81,18 @@ Migrating a Classic ASP website to Azure can present some challenges that requir
 - **Modernize Your Code:** Update outdated libraries, refactor code, and address security vulnerabilities to improve security, performance, and maintainability.
 - **Test Thoroughly:** Before switching over to Azure, rigorously test your application in the new environment to ensure everything functions as expected.
 - **Use Migration Tools:** Leverage Azure Migrate and other migration tools to streamline the process and reduce manual effort.
+- **Understand File Structure:** Azure App Services stores the root content for a site in a fixed home directory (D:\home\site\wwwroot). Migration tools will copy the content under the site root to this directory and configure the correct paths for any virtual directories.
+
+## Conclusion
+Migrating a Classic ASP website to Azure can be a complex process, but with careful planning and execution, it can bring significant benefits. By understanding the available options, considering the challenges, and following best practices, you can successfully move your website to the cloud and enjoy improved performance, scalability, and reliability.
+
+Key takeaways from the research include:
+
+- **Containerization with Docker:** Using Docker to containerize your Classic ASP application simplifies the deployment process and enhances portability when using Azure App Service.
+- **Legacy Dependencies:** Migrating legacy dependencies like COM/COM+ components and Windows Authentication can be challenging and may require code modifications.
+- **Database Migration:** Ensure your database is compatible with Azure or can be accessed from Azure. Plan for potential adjustments to connection strings and network settings.
+- **Thorough Assessment and Testing:** Before migrating, thoroughly assess your application and conduct rigorous testing in the Azure environment to ensure a smooth transition.
+
+
 
 
