@@ -12,7 +12,7 @@ related:
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
   - use-icons-webpages
-  - do-a-retrospective
+  - indicate-ai-helped
   - write-a-good-pull-request
 redirects:
   - team-names-do-you-use-emojis-in-your-teams-channel-names
@@ -27,36 +27,43 @@ It's usually easier for users to remember where given information is when it is 
 
 <!--endintro-->
 
-An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use Emojis in your channel names (using **Windows Key** + **.**)!
+**Tip:** Always remember to add a space between the emoji and text, for better readability.
+
+## Microsoft Teams channel names
+
+An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names.
 
 ::: bad  
 ![Figure: Bad example - Teams Channel names without emojis](Teams_Emojis_Bad.png)  
 :::
 
 ::: good  
-![Figure: Good example - Teams Channel names have emojis](Teams_Emojis_Good.png)  
+![Figure: Good example - Teams Channel names with emojis](Teams_Emojis_Good.png)  
 :::
 
-::: good  
-![Figure: Good example - Control4 automation Mobile UI is more friendly with emojis](control4-emojis.png)
-:::
+## Control4
 
 ::: good  
-![Figure: Good example - Some appointments can benefit from an emoji too, like a Sprint meeting in Scrum](calendar-emoji.png)  
+![Figure: Good example - Control4 automation UI is more friendly with emojis](control4-emojis.png)
 :::
+
+## Appointments
+
+::: good  
+![Figure: Good example - Some appointments can benefit from an emoji too, like using a 🏃‍♂️ for a Sprint meeting](calendar-emoji.png)  
+:::
+
+## Lists
 
 ::: greybox
 
 * Fast to load (lightweight as no image)
 * UI - Consistent look
 * Maintenance of needing to upload to server
-
 :::
 ::: bad
 Bad example - Regular list items
 :::
-
-**Tip:** Always remember to add a space between the emoji and text, for better readability.
 
 ::: greybox
 ✅ Fast to load (lightweight as no image)  
@@ -68,5 +75,9 @@ Good example - Emojis give context to each item
 :::
 
 ::: info
-**Note:** When having lists that use emojis, be aware that if they are longer than 3 items, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
+**Note:** When having lists that use emojis, be aware that if they are longer than 3 items with the same emoji, you should follow [DRY - avoid repeated elements](/avoid-repetition/#emojis).
 :::
+
+## AI content
+
+[Use the 🤖 emoji](/indicate-ai-helped) at the end of your message/email when you were helped by AI.
