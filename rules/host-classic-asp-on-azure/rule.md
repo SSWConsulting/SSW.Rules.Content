@@ -15,13 +15,16 @@ Migrating a website can be a challenging undertaking, especially when dealing wi
 Moving to Azure offers numerous advantages, including enhanced scalability, reliability, and security. This rule provides a comprehensive guide to migrating your Classic ASP website to Azure, outlining the best options, considerations, and best practices.
 <!--endintro-->
 
-**Azure Services for Hosting Classic ASP Websites**
+## Azure service options for hosting classic ASP websites
 
 Azure doesn't natively support Classic ASP as it does for newer .NET applications. However, there are two primary options for hosting your Classic ASP website on Azure:
 
-**Option 1: [Azure App Service with Docker](https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service)(Recommended)** 
+### Option 1: Azure App Service with Docker (Recommended)
 
-This is generally the preferred approach for migrating Classic ASP websites. Containerizing your application with Docker allows for seamless deployment to Azure App Service and enables you to leverage its key features, including scalability, load balancing, and automated deployments.
+This is generally the preferred approach for migrating Classic ASP websites. Containerizing your application with Docker allows for seamless deployment to Azure App Service and enables you to leverage its key features, including scalability, load balancing, and automated deployments. 
+
+See:
+https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service
 
 **✅ Pros:**
 - Scalability and load balancing
@@ -34,7 +37,7 @@ This is generally the preferred approach for migrating Classic ASP websites. Con
 - Requires Docker knowledge 
 - May require code changes for compatibility
 
-**Option 2: [Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/windows)**
+### Option 2: Azure Virtual Machines
 
 If you need greater control over the underlying infrastructure or have specific dependencies that aren't compatible with App Service, you can create a Windows Virtual Machine in Azure and install the necessary components to host your Classic ASP application.
 
@@ -47,7 +50,10 @@ If you need greater control over the underlying infrastructure or have specific 
 - More management overhead  
 - Higher cost compared to App Service
 
-**Migration with Docker**
+See:
+https://azure.microsoft.com/en-us/products/virtual-machines/windows
+
+## Migration with Docker
 
 If you choose to migrate your Classic ASP application to Azure App Service using Docker, here's a step-by-step guide to help you through the process:
 
@@ -58,18 +64,18 @@ If you choose to migrate your Classic ASP application to Azure App Service using
 5. **Create [Azure Web App using Docker image](https://learn.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux&tabs=azure-cli):** Create an Azure Web App and configure it to use your Docker image from the Azure Container Registry.
 
 
-**Considerations and Challenges**
+## Considerations and Challenges
 
 Migrating a Classic ASP website to Azure can present some challenges that require careful consideration:
 
-- **[COM/COM+ Components](https://imranarshad.com/containerize-and-migrate-legacy-classic-asp-to-azure-app-service/)**: Azure App Service does not allow the registration of COM/COM+ components. If your application relies on these, you'll need to rewrite them in managed code or explore alternative solutions. This might involve significant code modifications and refactoring
+- **COM/COM+ Components**: Azure App Service does not allow the registration of COM/COM+ components. If your application relies on these, you'll need to rewrite them in managed code or explore alternative solutions. This might involve significant code modifications and refactoring
 
-- **Windows Authentication:** If your application uses Windows Authentication, you might need to replace it with Azure AD. This could require code changes and potential adjustments to your application logic to ensure compatibility with Azure AD
+- **Windows Authentication:** If your application uses Windows Authentication, you might need to replace it with Azure Entra ID. This could require code changes and potential adjustments to your application logic to ensure compatibility with Azure Entra ID
 
 - **Database Connectivity:** Ensure that your database can be migrated to Azure or accessed from Azure. You might need to adjust connection strings and configure network settings to establish proper connectivity between your application and the database. For example, if you're migrating to Azure SQL Database, you'll need to update your connection strings with the appropriate credentials and server address. You might also need to configure firewall rules to allow access from your Azure App Service or Virtual Machine.
 - **Third-party Dependencies:** Evaluate any third-party dependencies your application uses and ensure they are compatible with the chosen Azure service. Some older libraries or components might not be compatible with the Azure environment, requiring you to find alternatives or update them to newer versions.
 
-**Best Practices for Migrating Classic ASP Websites to Azure**
+## Best Practices for Migrating Classic ASP Websites to Azure
 - **Assess Your Application:** Thoroughly evaluate your application's dependencies, codebase, and configuration to identify potential challenges and plan accordingly.
 - **Containerize with Docker:** If using Azure App Service, containerize your application with Docker to simplify deployment and improve portability.
 - **Modernize Your Code:** Update outdated libraries, refactor code, and address security vulnerabilities to improve security, performance, and maintainability.
