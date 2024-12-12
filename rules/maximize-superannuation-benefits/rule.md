@@ -14,13 +14,12 @@ related:
 created: 2024-10-22T11:36:00.000Z
 guid: b455ea0e-0b1c-41e3-a97a-2e2315b20d08
 ---
-Almost everyone has a low care factor to their Superannuation because it is so far away. That is a mistake!
+
+Most people show little interest in their superannuation because it feels so distant in the future. That is a mistake!
 
 Superannuation is more than just a retirement savings account - it's a long-term investment that benefits greatly from the power of compound interest, strategic salary sacrifice, and good fund management. Use these tools and strategies to maximize your financial future!
 
 <!--endintro-->
-
-![Figure: Maximize your Super](maximize-your-super.jpg)
 
 `youtube: https://www.youtube.com/watch?v=oo9fD5B98N4`
 
@@ -32,9 +31,11 @@ Let’s break it down by exploring 3 key aspects you need to understand:
 * How to grow Super through salary sacrifice (going beyond the mandatory 11.5% in 2025 and 12% in 2026)
 * How to check your Super fund is giving you strong returns
 
+::: info
 **What is Superannuation?**
 
 Superannuation (Super) is a compulsory retirement savings system in Australia. Your employer makes contributions on your behalf, which are invested and managed by your chosen Super fund until retirement.
+:::
 
 ## 1. The power of compound interest
 
@@ -56,13 +57,14 @@ Conversely, a lower return rate reduces the speed at which your Super balance gr
 
 ![Figure: It looks the same but increasing the investment return rate from 6% to 7% over 30 years will increase your ending balance for almost $20k (a slightly better fund, can give you higher returns)](coumpound-interest-2.jpg)
 
-## 2. Increasing your Super balance through salary sacrifice
+## 2. Increasing Super balance through salary sacrifice
 
 Another great way to boost your Super balance is to go beyond the mandatory 11.5% (FY 2025) contribution (aka Super Salary Sacrifice). This strategy allows you to contribute additional funds to your Super from your pre-tax salary.
 
 Super Salary Sacrifice offers 2 key benefits:
 
-✅ **Tax Savings** - Your salary sacrifice contributions are taxed at 15%, which is much lower than the top tax rate of 45% (that is 30% lower than your marginal [income tax rate](https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents)\
+✅ **Tax Savings** - Your salary sacrifice contributions are taxed at 15%, which is much lower than the top tax rate of 45% (that is 30% lower than your marginal [income tax rate](https://www.ato.gov.au/tax-rates-and-codes/tax-rates-australian-residents))
+
 ✅ **Super Boost** - Extra contributions into Super lead to faster compounding growth
 
 ::: info
@@ -71,7 +73,7 @@ Super Salary Sacrifice offers 2 key benefits:
 
 ![Figure: Salary Sacrificing $50 per week, with a 7% investment return over 30 years will increase your compounded interest by almost $170k](coumpound-interest-3.jpg)
 
-## 3. How to choose the right investment option for your Super
+## 3. How to choose the right Super investment option
 
 Understanding the impact of compounding and return rates helps you compare your Super fund returns to a benchmark or assess alternate investment options.
 
@@ -91,15 +93,19 @@ Choosing the right Super fund can make a big difference in your retirement balan
 
 Use the [ATO's Super Comparison Tool](https://www.ato.gov.au/calculators-and-tools/super-yoursuper-comparison-tool) to compare Super funds and find one that suits your needs.
 
-![Figure: Look at the best performing non-excluded Super funds (⚠️ Warning – performances change so look at it once a year)](ato-comparison-tool.jpg)
+::: info
+**Warning:** Performances change so look at it once a year.
+:::
 
-### How to rollover your Super into a different fund
+![Figure: Look at the best performing non-excluded Super funds](ato-comparison-tool.jpg)
+
+### How to rollover into a different Super fund
 
 Rolling over your Superannuation to a different fund can be a smart move, especially if you're looking for lower fees or better performance. The process is relatively simple, and here's how:
 
 **1. Compare Super Funds**
 
-Before rolling over your Super, it’s important to compare different Super funds to ensure you’re choosing the one that best fits your needs. Look for:
+Before rolling over your Super, it's important to compare different Super funds to ensure you’re choosing the one that best fits your needs. Look for:
 
 * **Fees** - Lower fees mean more money stays in your Super
 * **Performance** - Check past performance, but remember, it doesn’t guarantee future results
@@ -115,9 +121,9 @@ Some Super funds may charge exit fees, although many have been phased out. Addit
 
 Once you’ve chosen a new fund, follow these steps to roll over your Super:
 
-* **Log in to MyGov**: if you have a MyGov account linked to the ATO, you can initiate the rollover online
-* **Complete a Rollover Form**: alternatively, you can fill out a form provided by your new Super fund. They may also offer an online service to handle the rollover on your behalf
-* **Email your employer**: with your new fund details and membership number
+* **Log in to MyGov** - If you have a MyGov account linked to the ATO, you can initiate the rollover online
+* **Complete a Rollover Form** - Alternatively, you can fill out a form provided by your new Super fund. They may also offer an online service to handle the rollover on your behalf
+* **Email your employer** - With your new fund details and membership number
 
 ## Bonus: Using Super to buy your first home (Salary Sacrificed amount)
 
