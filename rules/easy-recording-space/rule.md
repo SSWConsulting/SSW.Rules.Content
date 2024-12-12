@@ -44,21 +44,21 @@ When setting up the video recording space, be aware of these issues that can lea
 
 A good recording space should be optimized for sound, lighting, background, and ease of use. Here are some tips:
 
-1. **Create a soundproof environment**
+1. **Audio - Create a soundproof environment**
    * Use a quiet room, preferably away from noisy areas
    * Consider soundproofing with foam panels, carpets, or curtains to minimize echoes and background noise
 
-2. **Set up proper lighting**
+2. **Lights - Set up proper lighting**
    * Use soft, diffused lighting to avoid harsh shadows. Ring lights, softboxes, or LED panels can help
    * Ensure the lighting setup is consistent and avoids flickering or changes during recording
    * See these [examples](/have-good-lighting-on-your-home-office) for lighting
 
-3. **Choose a [clean, professional background](/unique-office-backgrounds)**
+3. **Background - Choose a clean, professional [background](/unique-office-backgrounds)**
    * Opt for a neutral or branded background that is visually appealing and not overly busy
    * Consider a dedicated backdrop or a wall with minimal design to keep the focus on the speaker
    * Here's some tips on [backgrounds](/video-background)
 
-4. **Plug and play equipment setup**
+4. **Easy Setup - Plug and play equipment**
    * Keep your camera, microphone, and lighting equipment permanently set up and ready to go. A "plug and play" system minimizes setup time and ensures consistent quality
    * Use a tripod for your camera and adjustable stands for lighting, so they are always in the correct position
    * Consider an external microphone for better sound quality, and test audio levels regularly
