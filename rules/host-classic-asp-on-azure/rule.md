@@ -75,10 +75,11 @@ Migrating a Classic ASP website to Azure can present some challenges that requir
 - **Database Connectivity:** Ensure that your database can be migrated to Azure or accessed from Azure. You might need to adjust connection strings and configure network settings to establish proper connectivity between your application and the database. For example, if you're migrating to Azure SQL Database, you'll need to update your connection strings with the appropriate credentials and server address. You might also need to configure firewall rules to allow access from your Azure App Service or Virtual Machine.
 - **Third-party Dependencies:** Evaluate any third-party dependencies your application uses and ensure they are compatible with the chosen Azure service. Some older libraries or components might not be compatible with the Azure environment, requiring you to find alternatives or update them to newer versions.
 
-## Best Practices for Migrating Classic ASP Websites to Azure
+## Best practices for migrating classic ASP websites to Azure
 - **Assess Your Application:** Thoroughly evaluate your application's dependencies, codebase, and configuration to identify potential challenges and plan accordingly.
 - **Containerize with Docker:** If using Azure App Service, containerize your application with Docker to simplify deployment and improve portability.
 - **Modernize Your Code:** Update outdated libraries, refactor code, and address security vulnerabilities to improve security, performance, and maintainability.
 - **Test Thoroughly:** Before switching over to Azure, rigorously test your application in the new environment to ensure everything functions as expected.
 - **Use Migration Tools:** Leverage Azure Migrate and other migration tools to streamline the process and reduce manual effort.
+
 
