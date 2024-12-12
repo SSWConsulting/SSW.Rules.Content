@@ -28,7 +28,7 @@ The findings of the Spec Review should be presented by the developers and the Ac
 
 If you've run the Spec Review successfully the client should not be surprised by anything you present. This means discussions should focus on issues such as what particular requirements could be added into the scope for the MVP, or what releases can be completed by what date, rather than spending the meeting helping the client regain consciousness after they blacked out from seeing the price.
 
-The Spec Review presentation should be scheduled by the Consultant or Account Manager for the afternoon of the final day of the Spec Review.
+To ensure all relevant stakeholders and key decision-makers have the opportunity to participate in the Spec Review presentation, at the beginning of the engagement, the lead Solution Architect should send an appointment to all parties for 3 PM on the final day of the Spec Review.
 
 ::: greybox
 “I will send you a proposal when I get back to the office”  
