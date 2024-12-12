@@ -44,19 +44,19 @@ Figure: Bad example – A common mistake is to tell the client you will complete
 Figure: Good example – This is an appointment with a specific time for the next schedule The benefits are:  
 :::
 
-- You are striking while the iron is hot
-- All parties benefit while the information is fresh in their minds
-- The client won't experience the inevitable delays when you go back to the office and get stuck on other client issues that appear more urgent
+* You are striking while the iron is hot
+* All parties benefit while the information is fresh in their minds
+* The client won't experience the inevitable delays when you go back to the office and get stuck on other client issues that appear more urgent
 
 ### What does the client get at the conclusion of the Spec Review?
 
-- **Option A** - Email (if they want to minimize documentation time)
+* **Option A** - Email (if they want to minimize documentation time)
 
-- **Option B** - Word document (if they need to get approval from someone higher up)
+* **Option B** - Word document (if they need to get approval from someone higher up)
 
-- **Option C** - PowerPoint presentation (if they are the decision maker, and they don't want a doc)
+* **Option C** - PowerPoint presentation (if they are the decision maker, and they don't want a doc)
 
-- **Option D (Recommended)** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. [PointBank](https://sswconsulting.github.io/PointBank)
+* **Option D (Recommended)** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. [PointBank](https://sswconsulting.github.io/PointBank)
 
   ::: good  
   ![Figure: Good example - Export your PowerPoint presentation as a video](pptx-to-video.png)  
