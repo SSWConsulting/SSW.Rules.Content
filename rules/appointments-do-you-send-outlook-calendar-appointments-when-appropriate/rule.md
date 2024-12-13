@@ -19,7 +19,7 @@ created: 2009-04-03T03:37:31.000Z
 archivedreason: null
 guid: 202ef538-6e38-4a0f-af2f-5d2cb610e63c
 ---
-If you wish to organize a meeting that involves some of your colleagues and a client, instead of sending an email, send an appointment. Sending appointments is convenient because all the user has to do is click 'accept' and it is in their calendar.
+If you wish to organize a meeting that involves some of your colleagues and a client, instead of sending an email, send an appointment. Sending appointments is convenient because all the user has to do is click 'Accept' and it is in their calendar.
 
 <!--endintro-->
 
@@ -29,10 +29,10 @@ This way Outlook will remind your colleagues about the appointment and you can u
 
 If the appointment is for **3 days or less**, send a separate appointment for each day. This is because multiple-day appointments appear at the top in your Outlook Calendar, so you risk missing the appointment (see below).
 
-::: bad\
-![Figure: Bad Example - Multiple-day appointments appear hidden at the top of your Outlook calendar, so you might miss it, thinking that the time is free](BadMultipleDayAppointment.gif)\
+::: bad
+![Figure: Bad example - Multiple-day appointments appear hidden at the top of the Outlook calendar, so you might miss it thinking that the time is free](BadMultipleDayAppointment.gif)
 :::
 
-::: good\
-![Figure: Good Example - Send a separate appointment for each day so you can clearly see it in your Outlook calendar](GoodSingleDayAppointments.gif)\
+::: good
+![Figure: Good example - Send a separate appointment for each day so you can clearly see it in Outlook calendar](GoodSingleDayAppointments.gif)
 :::
