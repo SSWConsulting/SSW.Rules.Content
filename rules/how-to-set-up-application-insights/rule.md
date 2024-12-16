@@ -23,7 +23,9 @@ Lets take a look at the overview and our tips to help you get the most out of Ap
 
 <!--endintro-->
 
-**An overview of the setup steps** Application Insights requires that you make 2 general modifications to your application:
+## An overview of the setup steps
+
+Application Insights requires that you make 2 general modifications to your application:
 
 1. On the client side, manually[add a Javascript tracker to your web page header](https://azure.microsoft.com/en-us/documentation/articles/app-insights-javascript/) (i.e. by placing directly on each page or through a "master page" or "layout template"), this modification enables the "browser page loading time" monitor and can track client-side exceptions:
    ![Browser side stats have been enabled with the JavaScript tracker](app-insights-browser-loading-time.jpg)
@@ -31,11 +33,14 @@ Lets take a look at the overview and our tips to help you get the most out of Ap
 2. On the server side, [add the Application Insights DLL references and update web.config](https://azure.microsoft.com/en-us/documentation/articles/app-insights-start-monitoring-app-health-usage/), these modifications enable the "server response time", "server request" and "failed requests" monitors. This step can either be done within Visual Studio when right-clicking on a project in Solution Explorer, but it can also be done with the server monitoring tool on ASP.NET applications you don't have control over (e.g. SharePoint).
   ![Server side stats have been enabled now that it has been added to the ASP.NET pipeline](server-response-requests-failed-requests.jpg)
 
-**Tip #1: Add enhanced Exception tracking to your application**
-The default set up and configuration of Application Insights will send generic performance stats and Exceptions. If you will be using Application Insights to look deeper into these Exceptions then it is important to make sure the full stack trace is sent when Exceptions occur. This can be added to your application by adding code for all unhandled exceptions. Follow this documentation page for more information <https://azure.microsoft.com/en-us/documentation/articles/app-insights-asp-net-exceptions/>
 
-**Tip #2: Add Web tests to monitor performance metrics over time**
-As soon as you have configured Application Insights, you should immediately add a web test to track the general performance trends over time. More information can be found at [Do you add Web Tests to Application Insights to monitor trends over time?](/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time)
+### Tip #1: Add enhanced Exception tracking to your application
 
-**Tip #3: What if you don't have the source code of your ASP.NET application**
+The default set up and configuration of Application Insights will send generic performance stats and Exceptions. If you will be using Application Insights to look deeper into these Exceptions then it is important to make sure the full stack trace is sent when Exceptions occur. This can be added to your application by adding code for all unhandled exceptions. Follow [Diagnose exceptions in web apps with Application Insights
+](https://learn.microsoft.com/en-us/azure/azure-monitor/app/asp-net-exceptions) for more information.
+
+### Tip #2: Add Web tests to monitor performance metrics over time
+As soon as you have configured Application Insights, you should immediately add a web test to track the general performance trends over time. More information can be found at [Do you add Web Tests to Application Insights to monitor trends over time?](/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time).
+
+### Tip #3: What if you don't have the source code of your ASP.NET application
 [Do you know how to set up Application Insights (in SharePoint)?](/application-insights-in-sharepoint) shows that you can use the Application Insights Status Monitor to monitor an application that’s already installed and running without updating the code or redeploying it.
