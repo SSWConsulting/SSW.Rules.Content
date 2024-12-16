@@ -32,7 +32,7 @@ Lets take a look at the overview and our tips to help you get the most out of Ap
   ![Server side stats have been enabled now that it has been added to the ASP.NET pipeline](server-response-requests-failed-requests.jpg)
 
 **Tip #1: Add enhanced Exception tracking to your application**
-The default set up and configuration of Application Insights will send generic performance stats and Exceptions. If you will be using Application Insights to look deeper into these Exceptions then it is important to make sure the full stack trace is sent when Exceptions occur. This can be added to your application by adding code for all unhandled exceptions. Follow this documentation page for more information https://azure.microsoft.com/en-us/documentation/articles/app-insights-asp-net-exceptions/
+The default set up and configuration of Application Insights will send generic performance stats and Exceptions. If you will be using Application Insights to look deeper into these Exceptions then it is important to make sure the full stack trace is sent when Exceptions occur. This can be added to your application by adding code for all unhandled exceptions. Follow this documentation page for more information <https://azure.microsoft.com/en-us/documentation/articles/app-insights-asp-net-exceptions/>
 
 **Tip #2: Add Web tests to monitor performance metrics over time**
 As soon as you have configured Application Insights, you should immediately add a web test to track the general performance trends over time. More information can be found at [Do you add Web Tests to Application Insights to monitor trends over time?](/do-you-add-web-tests-to-application-insights-to-montior-trends-over-time)
