@@ -42,7 +42,7 @@ When labels are left-aligned, the spacing between labels and input fields become
 * Not even very good responsive support
 
 ::: bad
-![Figure: Bad example - Inconsistent spacing between labels and input fields](label-left-aligned.png)
+![Figure: Bad example - Inconsistent spacing between labels and input fields](labels-left-aligned.png)
 :::
 
 ## 2. Right-aligned
@@ -63,7 +63,7 @@ However, the inconsistent spacing on the left side of the forms makes it harder 
 * Poor responsive support
 
 ::: ok
-![Figure: OK example - If aligning labels inline is necessary, opt for right-aligned labels](label-right-aligned.png)
+![Figure: OK example - If aligning labels inline is necessary, opt for right-aligned labels](labels-right-aligned.png)
 :::
 
 ## 3. Top-aligned
@@ -84,7 +84,7 @@ The downside of this alignment is that it increases the overall height of the fo
 * Makes a long-form look even longer
 
 ::: ok
-![Figure: OK example - Top-aligned labels are space-efficient, making it adaptable to all resolutions](label-top-aligned.png)
+![Figure: OK example - Top-aligned labels are space-efficient, making it adaptable to all resolutions](labels-top-aligned.png)
 :::
 
 ## 4. Adaptive placeholders
