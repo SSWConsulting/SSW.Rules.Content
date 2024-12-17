@@ -38,7 +38,7 @@ When labels are left-aligned, the spacing between labels and input fields become
 * Poor multilanguage support
 * Not even very good responsive support
 
-::: bad 
+::: bad
 ![Figure: Bad example - Inconsistent spacing between labels and input fields](label-left-aligned.png)
 :::
 
