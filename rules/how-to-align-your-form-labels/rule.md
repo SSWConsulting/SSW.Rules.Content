@@ -9,11 +9,14 @@ created: 2020-09-16T17:06:51.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
 related: 
   - do-you-know-how-to-arrange-forms
   - data-entry-forms-for-web
+  - use-adaptive-placeholders-on-your-forms
 redirects:
   - do-you-know-how-to-align-your-form-labels
 ---
