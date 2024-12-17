@@ -105,7 +105,7 @@ The downside of this alignment is that it increases the overall height of the fo
 * Not always available on 3rd party platforms, like Wufoo or Microsoft Forms
 
 ::: good
-![Figure: Good example - Using adaptive placeholders](label-material-labeling.png)
+![Figure: Good example - Using adaptive placeholders](adaptative-labels.gif)
 :::
 
 ---
