@@ -6,6 +6,9 @@ uri: keep-prompts-concise-and-clear
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+
 created: 2023-04-12T13:28:33.799Z
 guid: f2b159a6-68a4-4e9b-ae7e-6378a9eedb36
 ---
@@ -16,10 +19,10 @@ When crafting prompts for ChatGPT, it's essential to make them concise and clear
 
 Here are some tips for creating concise and clear prompts:
 
-- Use simple and direct language
-- Avoid using jargon or overly complex terms, unless necessary
-- Be specific in your request or question, but don't overload the prompt with too much information
-- Ensure your prompt is easily understandable, even to someone with minimal background knowledge
+* Use simple and direct language
+* Avoid using jargon or overly complex terms, unless necessary
+* Be specific in your request or question, but don't overload the prompt with too much information
+* Ensure your prompt is easily understandable, even to someone with minimal background knowledge
 
 ::: greybox
 "Tell me everything about the thing that happened a long time ago when there was a conflict between multiple groups of people in Europe that resulted in significant changes in the region's political landscape and had a lasting impact on global history."

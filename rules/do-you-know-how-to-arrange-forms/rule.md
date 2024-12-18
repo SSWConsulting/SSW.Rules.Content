@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/drew-robson
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related: 
+  - how-to-align-your-form-labels
+  - data-entry-forms-for-web
 redirects: []
 ---
 

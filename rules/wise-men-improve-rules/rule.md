@@ -2,7 +2,7 @@
 seoDescription: Rules are made for guidance of wise men and obedience of fools. Establishing clear procedures can streamline decision-making and maintain consistency, but it's essential to continually improve standards as they may become outdated or flawed.
 type: rule
 title: Do you know rules are made for the guidance of wise men and the obedience of fools?
-uri: continual-improvement
+uri: wise-men-improve-rules
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,6 +12,7 @@ related: []
 redirects:
   - general-do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
   - do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
+  - continual-improvement
 created: 2009-02-28T09:44:50.000Z
 archivedreason: null
 guid: 7b3f3fcc-e34e-43f8-beb7-394af6665f21
