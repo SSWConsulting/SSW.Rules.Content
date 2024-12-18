@@ -5,7 +5,7 @@ title: Do you know the best practices for automating the home with Control4?
 uri: best-practices-home-automation
 authors:
   - title: Rob Thomlinson
-    url: https://www.ssw.com.au/people/robthomlinson
+    url: https://www.ssw.com.au/people/rob-thomlinson
 created: 2024-12-18T15:00:00.000Z
 guid: d3ad5d9a-4b91-47de-80e5-3ff49cfd5996
 ---
