@@ -8,6 +8,10 @@ authors:
     url: https://ssw.com.au/people/rob-thomlinson
 created: 2024-12-11T13:42:55.753
 guid: 4612ecc6-00dc-4591-a087-680c57197706
+related:
+  - change-link-sharing-default-behaviour
+  - secure-password-share
+  - password-sharing-practices
 ---
 
 Sharing sensitive information is an essential part of any business, however sharing information securely is equally important, especially when files, videos or images can contain sensitive information. Without proper precautions, sensitive data can inadvertently become accessible to unauthorised parties, creating significant risks.
