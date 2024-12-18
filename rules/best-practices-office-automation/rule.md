@@ -27,7 +27,7 @@ Drivers form the foundation of automation:
 
 Control4's Composer programming allows intricate automation for advanced scenarios:
 - Use programing logic to personalize behaviors based on conditions, such as:
-  - “If a security key is used to access the building, the alarm is deactivated, turn on reception lights and sinage”
+  - “If a security key is used to access the building, the alarm is deactivated, turn on reception lights and signage”
 
 ::: greybox
 If-then programming scenario:
