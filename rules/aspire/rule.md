@@ -6,8 +6,6 @@ uri: aspire
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
-  - title: Matt Wicks
-    url: https://www.ssw.com.au/people/matt-wicks
 created: 2024-12-19T21:36:54.519Z
 guid: 7a96c83a-1d97-4904-a429-c71d5c7f3410
 ---
