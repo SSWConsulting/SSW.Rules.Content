@@ -1,5 +1,5 @@
 ---
-seoDescription:Discover the pros and cons of top-aligned, left-aligned, right-aligned, and material labeling options for optimal form completion rates.
+seoDescription: Discover the pros and cons of top-aligned, left-aligned, right-aligned, and material labeling options for optimal form completion rates.
 type: rule
 archivedreason:
 title: Do you know how to align form labels?
@@ -18,7 +18,7 @@ related:
   - data-entry-forms-for-web
   - use-adaptive-placeholders-on-your-forms
 redirects:
-  - do-you-know-how-to-align-your-form-labels 
+  - do-you-know-how-to-align-your-form-labels
 ---
 
 There are different ways to align your form labels and each has its own pros and cons.
