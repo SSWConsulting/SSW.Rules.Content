@@ -26,7 +26,7 @@ Also, the complexity of modern cloud-native applications can make them difficult
 
 <!--endintro-->
 
-![Figure: Aspire makes common time-consuming develoepr chores a breeze. ](aspire-cool-stuff.png)
+![Figure: Aspire makes common time-consuming developer chores a breeze. ](aspire-cool-stuff.png)
 
 .NET Aspire addresses common pain points in cloud-native development:
 
