@@ -12,6 +12,7 @@ index:
 - azure-architecture-center
 - well-architected-framework
 - azure-resources-diagram
+- aspire
 - do-you-always-rename-staging-url-on-azure
 - do-you-consider-azuresearch-for-your-website
 - azure-resources-creating
