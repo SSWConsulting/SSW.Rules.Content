@@ -6,6 +6,8 @@ uri: aspire
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 created: 2024-12-19T21:36:54.519Z
 guid: 7a96c83a-1d97-4904-a429-c71d5c7f3410
 ---
@@ -51,10 +53,31 @@ Leverage predefined templates and tooling to:
 
 ## Example - Adding Redis Cache to a .NET Core app
 
-### The old way
+### The old way - with Docker Compose
 
 1. Manually set up a Redis container (e.g., using Docker Compose).
-2. Write custom code to handle connection strings and inject them into your application.
+
+```yaml
+version: '3.9'
+
+services:
+  redis:
+    image: redis:latest
+    container_name: redis-cache
+    ports:
+      - "6379:6379"
+    environment:
+      REDIS_PASSWORD: examplepassword # Optional, for enabling authentication
+    command: ["redis-server", "--requirepass", "examplepassword"] # Optional, for setting up a password
+    volumes:
+      - redis_data:/data # Persist data locally
+
+volumes:
+  redis_data:
+    driver: local
+```
+
+2. Write custom code to handle connection strings and inject them into your application (this needs to be manually kept in sync with all your environments)
 
 ```csharp
 var redisConnection = Environment.GetEnvironmentVariable("REDIS_CONNECTION_STRING") ?? "localhost:6379";
@@ -73,6 +96,8 @@ Figure: Bad Example - Manually setting up Redis cache 🥱
 
 Aspire handles Redis setup and connection string injection for you:
 
+1. Configure your Aspire application and pass a reference to Redis Cache
+
 ```csharp
 var builder = DistributedApplication.CreateBuilder(args);
 var cache = builder.AddRedis("cache");
@@ -81,11 +106,18 @@ builder.AddProject<Projects.MyApp>("app")
        .WaitFor(cache);
 ```
 
+2. Add the client integration for Redis
+
+```cs
+builder.AddRedisClient("cache");
+```
+
 ::: good
 **Figure: Good Example - Simple Redis setup with .NET Aspire 🚀**
 :::
 
 No need to write Docker Compose files.
+No need for yaml 🤮.
 Connection string is automatically injected.
 
 ## Get Started with Aspire
