@@ -15,8 +15,6 @@ There are lots of ways to build cloud-native applications and the overwhelming n
 
 ![Figure: Too many lego pieces - Where do you start?](too-complex-aspire.png)
 
-
-
 Also, the complexity of modern cloud-native applications can make them difficult to manage and maintain.
 
 .NET Aspire is a powerful set of tools, templates, and integrations designed to streamline cloud-native app development with .NET. It offers a consistent approach to orchestration, standardized integrations, and developer-friendly tooling to help you build robust, production-ready applications.
@@ -99,5 +97,5 @@ Check out Microsoft's docs
 
 ::: greybox  
 You can test out Aspire by running the SSW.CleanArchitecture template - Let us know what you think!  
-https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template  
+<https://github.com/SSWConsulting/SSW.CleanArchitecture?tab=readme-ov-file#installing-the-template>  
 :::
