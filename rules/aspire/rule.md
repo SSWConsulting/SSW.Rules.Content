@@ -29,6 +29,7 @@ Also, the complexity of modern cloud-native applications can make them difficult
 #### Orchestration
 
 .NET Aspire helps you manage interconnected services and resources in your application by:
+
 * Automatically setting up service discovery and environment variables.
 * Providing tools to spin up local containers and configure dependencies.
 * Simplifying complex setups with clear abstractions, reducing the need for low-level configuration.
@@ -36,12 +37,14 @@ Also, the complexity of modern cloud-native applications can make them difficult
 #### Integrations
 
 .NET Aspire integrations make it easy to connect to essential services:
+
 * NuGet packages like `AddRedis` or `AddAzureServiceBusClient` streamline configuration and health checks.
 * Standardized interfaces reduce boilerplate code and ensure seamless connectivity.
 
 #### Tooling and Templates
 
 Leverage predefined templates and tooling to:
+
 * Generate projects with common configurations like health checks and telemetry.
 * Save time with opinionated defaults for service discovery, logging, and monitoring.
 * Kickstart new projects or integrate Aspire into existing .NET apps.
