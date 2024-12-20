@@ -1,7 +1,7 @@
 ---
 seoDescription: How to handover tasks and responsibilities to others effectively, ensuring a smooth transition and minimizing misunderstandings.
 type: rule
-title: Do you know how to hand over email tasks to others?
+title: Do you know how to hand over email tasks or responsibilities to others?
 uri: how-to-hand-over-tasks-to-others
 authors:
   - title: Adam Cogan
