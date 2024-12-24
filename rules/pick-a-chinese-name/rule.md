@@ -7,6 +7,7 @@ uri: pick-a-chinese-name
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Clara Fang
 related: []
 redirects:
   - do-you-pick-a-chinese-name
