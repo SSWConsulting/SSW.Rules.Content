@@ -52,6 +52,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | {{ TECH LEAD }} |
