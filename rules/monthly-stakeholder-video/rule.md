@@ -29,6 +29,7 @@ So, to keep stakeholders well informed, these teams should record a monthly stak
 To be consistent, have a recurring appointment each month:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | Required Attendees: | {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }} |
@@ -65,11 +66,12 @@ The video should be recorded by the Product Owner (or other head of the team).
 5. Email your stakeholders with the video link
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Product Owner |
 | CC: | Stakeholders |
-| Subject: 	Recording - Monthly Finance Meeting for {{ MONTH YEAR }}
+| Subject:  Recording - Monthly Finance Meeting for {{ MONTH YEAR }}
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
