@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - know-the-non-scrum-roles
 redirects:
   - communication-do-you-cc-your-account-manager-on-emails-relating-to-new-work
 ---
