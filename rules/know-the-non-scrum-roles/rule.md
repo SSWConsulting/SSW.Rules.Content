@@ -14,6 +14,7 @@ authors:
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
 related:
+  - do-you-cc-your-account-manager-on-emails-relating-to-new-work
 redirects:
   - know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
 ---
