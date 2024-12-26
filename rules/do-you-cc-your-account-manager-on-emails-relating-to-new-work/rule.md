@@ -24,6 +24,7 @@ Once a project gets underway, it is not uncommon for the development team to t
 When this is the case, the "As per our conversation" email should CC the Account Manager so he is always aware of all work being done, and can create a [new CRM opportunity](/data-entry-do-you-know-how-to-create-new-opportunities) if required.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -31,7 +32,7 @@ When this is the case, the "As per our conversation" email should CC the Account
 | Subject: | Northwind App - Additional work booking |  
 ::: email-content
 
-Hi Bob,   
+Hi Bob,
 
 As per our conversation, you agreed to book me for another 2 weeks on this additional work.
 
