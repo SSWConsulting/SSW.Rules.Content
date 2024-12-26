@@ -2,9 +2,9 @@
 seoDescription: Discover the benefits of CC'ing your Account Manager on emails about new projects. Streamline communication, ensure smooth workflows, and never miss an important detail.
 type: rule
 archivedreason:
-title: Communication - Do you CC the Account Manager on emails relating to new work?
+title: Communication - Do you CC the Account Manager on emails related to new work?
 guid: d5b3d276-ab75-4326-9c40-c04b45b62939
-uri: do-you-cc-your-account-manager-on-emails-relating-to-new-work
+uri: cc-account-manager-on-emails-related-to-new-work
 created: 2012-09-25T17:49:58.0000000Z
 authors:
   - title: Adam Cogan
@@ -15,6 +15,7 @@ related:
   - know-the-non-scrum-roles
 redirects:
   - communication-do-you-cc-your-account-manager-on-emails-relating-to-new-work
+  - do-you-cc-your-account-manager-on-emails-relating-to-new-work
 ---
 
 Once a project gets underway, it is not uncommon for the development team to take over a lot of the project management workload. Since they are the people most in contact with the client, sometimes new work will be organized through them instead of the Account Manager.
