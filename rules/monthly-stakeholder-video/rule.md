@@ -9,7 +9,8 @@ created: 2015-10-19T21:32:14.0000000Z
 authors:
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
-related: []
+related:
+  - making-a-great-done-video
 redirects: []
 ---
 
@@ -28,37 +29,32 @@ So, to keep stakeholders well informed, these teams should record a monthly stak
 To be consistent, have a recurring appointment each month:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | Required Attendees: | {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }} |
 | Optional Attendees: | {{ REST OF THE TEAM }} |
 | Recurrence: | 1st Monday of each month |
-| Subject: | {{ PROJECT NAME }} – Monthly Video |
+| Subject: | Recording - Monthly {{ PROJECT NAME }} for {{ MONTH }} |
 ::: email-content
 
 ### Hi {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }}
 
-Please record this month’s marketing analytics video!
+Please record last month’s overview video.
 
 1. Follow the instructions: {{ URL TO THE LIST OF REPORTS TO REVIEW }}
 2. Try having {{ PRODUCT OWNER }} on the call – if not choose another relevant person
 
-< As per <https://ssw.com.au/rules/monthly-stakeholder-video> >
+\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::
 
-## Create an effective video
+## Creating an effective video
 
-To ensure your message is clear, engaging, and aligned with stakeholders' interests, follow these tips:
+To ensure your video is clear and following best practices, read and follow [the key things for making a great 'Done Video'](/making-a-great-done-video/).
 
-* **Plan your content** - Have tabs open in a browser and cycle through them
-* **Be concise** - Just give the most important points
-* **Use visuals** - Trends are the most important. Include analytics graphs that show changes over time
-* **Highlight successes and challenges** - Include the best and worst news/statistic for that month
-* **Make videos public** - Users can follow product updates and the videos can be good marketing
-  
-## Steps
+### Steps
 
 The video should be recorded by the Product Owner (or other head of the team).
 
@@ -70,10 +66,12 @@ The video should be recorded by the Product Owner (or other head of the team).
 5. Email your stakeholders with the video link
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Product Owner |
-| Subject: | Stakeholders |
+| CC: | Stakeholders |
+| Subject:  Recording - Monthly Finance Meeting for {{ MONTH YEAR }}
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
@@ -84,10 +82,14 @@ FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEA
 
 Here’s the link {{ YOUTUBE LINK }}
 
-< As per <https://ssw.com.au/rules/monthly-stakeholder-video> >
+\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::
 ::: good
 Figure: Good example - Watching the video with the Product Owner, then sending it in an email
+:::
+
+::: good
+![Figure: Good example - a list of reports to review each month (this one is a SharePoint example)](reports-list-marketing.jpg)
 :::
