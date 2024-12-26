@@ -45,16 +45,16 @@ Please record last month’s overview video.
 1. Follow the instructions: {{ URL TO THE LIST OF REPORTS TO REVIEW }}
 2. Try having {{ PRODUCT OWNER }} on the call – if not choose another relevant person
 
-< As per <https://ssw.com.au/rules/monthly-stakeholder-video> >
+\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::
 
-## Create an effective video
+## Creating an effective video
 
-To ensure your video is clear and following best practices, read and follow: [Do you know the key things for making a great 'Done Video'?](https://www.ssw.com.au/rules/making-a-great-done-video/)
+To ensure your video is clear and following best practices, read and follow [the key things for making a great 'Done Video'](/making-a-great-done-video/).
 
-## Steps
+### Steps
 
 The video should be recorded by the Product Owner (or other head of the team).
 
@@ -82,7 +82,7 @@ FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEA
 
 Here’s the link {{ YOUTUBE LINK }}
 
-< As per <https://ssw.com.au/rules/monthly-stakeholder-video> >
+\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::
