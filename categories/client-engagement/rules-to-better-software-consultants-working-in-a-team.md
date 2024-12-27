@@ -31,7 +31,7 @@ index:
 - mentoring-programs
 - do-you-ask-questions-where-youre-stuck
 - how-to-avoid-being-blocked
-- do-you-cc-your-account-manager-on-emails-relating-to-new-work
+- cc-account-manager-on-emails-related-to-new-work
 - do-you-enjoy-your-job
 - do-you-create-a-report-whenever-you-need-a-number-from-a-system
 - do-you-give-120-when-deadlines-are-tight
