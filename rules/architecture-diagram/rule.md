@@ -97,7 +97,7 @@ Group components logically by enclosing them in a box. Components that operate i
 **Note:** For clarity, out of scope items whether one or many, should be in a box.
 
 ::: good img-medium
-![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
+![Figure: Good example - SSW Rewards (Xamarin with Entra ID B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
 
 ### Tip #6: Start with paper
