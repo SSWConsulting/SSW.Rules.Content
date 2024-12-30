@@ -75,7 +75,7 @@ flowchart
  Hosting -->|"On-Premises"| Kerberos
  Hosting -->|"Cloud"| Ecosystem
 
- Ecosystem --> Azure(["Azure AD"])
+ Ecosystem --> Entra(["Entra ID"])
  Ecosystem --> Auth0(["Auth0"])
  Ecosystem --> OtherIDP(["Other Cloud IDP"])
 
@@ -416,7 +416,7 @@ For internal applications (referred to as "intranet applications" by Microsoft),
 **Scenario:**
 
 Scope - You have an internal enterprise application, which will support approximately 1,000 users.
-You already have Active Directory in place and are syncing with an Azure AD tenant.
+You already have Active Directory in place and are syncing with an Entra tenant.
 Your users will need to access this application from anywhere.
 MFA - As per your company security policy, you must enforce MFA.
 
