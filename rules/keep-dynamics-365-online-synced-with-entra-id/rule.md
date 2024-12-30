@@ -30,7 +30,7 @@ Dynamics 365 Online leverages Entra ID fields to import information to users, e.
 
 And, depending on your configuration, these Entra ID fields might be coming directly from on-premises Active Directory (AD), which means that any changes made in AD will go through all the way to Dynamics 365 Online!
 
-That also means that if you change a field in Dynamics 365 directly, that might get overwritten by the value in Azure AD in the next sync (usually every 15-30 minutes), so make sure you make that field read-only so users are not led to error.
+That also means that if you change a field in Dynamics 365 directly, that might get overwritten by the value in Entra ID in the next sync (usually every 15-30 minutes), so make sure you make that field read-only so users are not led to error.
 
 Recommended fields to keep as read-only in Dynamics 365:
 
