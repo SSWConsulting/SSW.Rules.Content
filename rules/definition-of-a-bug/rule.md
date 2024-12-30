@@ -28,7 +28,7 @@ A software issue can be classed as a bug where:
 1. The application **crashes to code** (excluding bugs resulting from third party products, e.g. "blue screen of death" or crashing in a third party data grid that we cannot control); **or**
 2. The application displays **data inconsistent with the specified business rules**; **or**
 3. The application is **missing functionality specified in the specification**; **or**
-4. The **page design/layout is substantially inconsistent** with the agreed mock-ups. 
+4. The **page design/layout is substantially inconsistent** with the agreed mock-ups.
 
 As you can see, bugs come in different shapes and sizes. Some bugs are minor, like alignment on a webpage. Some bugs are major, like blocking bugs, which prevent you from using the system entirely. It's important to categorize bugs by their severity, so that the worst ones can be fixed first.  
 
