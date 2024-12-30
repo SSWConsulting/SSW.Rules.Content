@@ -36,7 +36,7 @@ If you are using Conditional Access for MFA, you will need to add an exception f
 
 :::
 
-![Figure: Intune connected to AAD](intune_aad.png)
+![Figure: Intune connected to Entra ID](intune_aad.png)
 
 - SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
 
