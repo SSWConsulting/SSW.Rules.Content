@@ -16,7 +16,7 @@ guid: a8d119d1-50fa-4296-95db-84eceb65accd
 
 <!--endintro-->
 
-Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
+Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Entra ID to control who has access and what they can access.
 
 With Intune, you can:
 
@@ -28,7 +28,7 @@ With Intune, you can:
 
 ### Managing Devices
 
-When Intune is connected to Azure AD its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory.
+When Intune is connected to Entra ID its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Entra ID.
 
 :::info
 
