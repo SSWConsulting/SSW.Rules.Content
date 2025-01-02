@@ -18,7 +18,7 @@ archivedreason: ""
 guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
 ---
 
-Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. Now AI has been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), now embedding an even deeper level of AI Integration within a developer's workflow.
+Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. AI has now been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), embedding an even deeper level of AI Integration within a developer's workflow.
 
 <!--endintro-->
 
