@@ -18,7 +18,7 @@ archivedreason: ""
 guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
 ---
 
-Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. Now AI has been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), now embedding an even deeper level of AI Integration within a developer's workflow. 
+Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. Now AI has been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), now embedding an even deeper level of AI Integration within a developer's workflow.
 
 <!--endintro-->
 
@@ -54,10 +54,9 @@ In Cursor, the `@Web` function is very useful for any situations where recent in
 
 The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands).
 
-::: bad 
+::: bad
 ![Figure: Bad example - Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE](bad-example-chatgpt.png)
 :::
-
 
 ::: good
 ![Figure: Good example - Using Cursor Agent to create a Tina App, with multiple provided instructions](good-example-using-agent.png)
@@ -81,12 +80,12 @@ The Agent function in AI-powered IDEs represents a significant leap in a develop
 | Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported) | • Azure Data Studio<br>• JetBrains IDEs<br>• VS Code<br>• Visual Studio<br>• Neovim<br>• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported) | • Browser based<br>• VSCode Support (GitHub CodeSpace) |
 
 ::: info
-**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you. 
+**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you.
 :::
 
 ## A word of caution
 
-AI is still very much a work in progress. It makes mistakes, especially when working with lesser-known programming languages and frameworks, and will often hallucinate. It is the developer's responsibility to ensure that the code they publish is optimized, and AI tools should only be used for assistance, and not as a direct replacement for a developer. 
+AI is still very much a work in progress. It makes mistakes, especially when working with lesser-known programming languages and frameworks, and will often hallucinate. It is the developer's responsibility to ensure that the code they publish is optimized, and AI tools should only be used for assistance, and not as a direct replacement for a developer.
 
 You wouldn't send an email written by ChatGPT without first checking it for correctness and intention. Similarly, you should not commit any code written by AI without first reading through it, and testing it.
 
@@ -94,7 +93,7 @@ You are solely responsible for the code you commit!
 
 ## Which is best?
 
-As you can see from the comparison table, each of the AI-powered IDEs rival each other in most categories, and you can't go wrong with any of them. 
+As you can see from the comparison table, each of the AI-powered IDEs rival each other in most categories, and you can't go wrong with any of them.
 
 Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype based on [Google Trends](https://trends.google.com.au/trends/explore?q=cursor%20ide,windsurf%20ide&hl=en). However, Windsurf is a formidable competitor in the battle for the best AI-powered IDE.
 
