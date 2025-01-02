@@ -29,7 +29,7 @@ GitHub Copilot first popularized the 'code completion' feature for AI-powered ID
 
 In Cursor and Windsurf, you can hit ctrl-K (or command-K), to convert natural language to a bash command. This is very useful for when you have forgotten the exact syntax of a bash command.
 
-![Cursor Command Generation](cursor-command-generation.gif)
+![](cursor-command-generation.gif)
 **Figure: Cursor Command Generation (ctrl-K)**
 
 ## Chat
@@ -40,7 +40,7 @@ Chat functionality within an AI-powered IDE adds an intelligent assistant that c
 
 Within the chat for Cursor, you can specify the level of context you would like to include with your prompt. By typing the `@` character, the following menu will appear.
 
-![Cursor Chat Context](cursor-chat-context.png)
+![](cursor-chat-context.png)
 **Figure: Cursor Chat Context, opened by typing `@`**
 
 In Cursor, the `@Web` function is very useful for any situations where recent information, or information that the model has not been trained on is needed! You can also use `@Git` to compare diffs with the main branch, to generate a nice PR summary.
@@ -50,14 +50,14 @@ In Cursor, the `@Web` function is very useful for any situations where recent in
 The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands).
 
 
-![Bad Example Using ChatGPT](bad-example-chatgpt.png)
+![](bad-example-chatgpt.png)
 
 ::: bad 
 Bad Example: Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE.
 :::
 
 
-![Create Tina App](good-example-using-agent.png)
+![](good-example-using-agent.png)
 
 ::: good
 Good Example: Using Cursor Agent to create a Tina App, with multiple provided instructions.
