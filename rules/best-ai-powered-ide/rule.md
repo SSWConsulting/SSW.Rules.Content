@@ -76,13 +76,13 @@ The Agent function in AI-powered IDEs represents a significant leap in a develop
 | Web Searching         | ✅ | ❌ | ✅ | ❌ |
 | Supported IDE         | Cursor IDE - Forked VS Code (with VSCode Extensions Supported) | • Azure Data Studio<br>• JetBrains IDEs<br>• VS Code<br>• Visual Studio<br>• Neovim<br>• Xcode | Windsurf IDE - Forked VS Code (with VSCode Extensions Supported) | • Browser based<br>• VSCode Support (GitHub CodeSpace) |
 
-::: tip
-ddd
+::: info
+**Tip**: Give each of them a try – most of them have free trials, so you can see which one works best for you. 
 :::
 
 ## A word of caution
 
-Artificial Intelligence is still very much a work in progress. It makes mistakes, especially when working with lesser-known programming languages and frameworks, and will often hallucinate. It is the developer's responsibility to ensure that the code they publish is optimized, and AI tools should only be used for assistance, and not as a direct replacement for a developer. 
+AI is still very much a work in progress. It makes mistakes, especially when working with lesser-known programming languages and frameworks, and will often hallucinate. It is the developer's responsibility to ensure that the code they publish is optimized, and AI tools should only be used for assistance, and not as a direct replacement for a developer. 
 
 You wouldn't send an email written by ChatGPT without first checking it for correctness and intention. Similarly, you should not commit any code written by AI without first reading through it, and testing it.
 
@@ -90,11 +90,13 @@ You are solely responsible for the code you commit!
 
 ## Which is best?
 
-Reminder: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
-
 As you can see from the comparison table, each of the AI-powered IDEs rival each other in most categories, and you can't go wrong with any of them. 
 
-Give each of them a try – they all have free trials, so you can see which one works best for you. 
+Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype based on [Google Trends](https://trends.google.com.au/trends/explore?q=cursor%20ide,windsurf%20ide&hl=en). However, Windsurf is a formidable competitor in the battle for the best AI-powered IDE.
+
+::: info
+**Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
+:::
 
 Share some details about your experience  with AI assisted development.
 e.g. What tool did you use, what did you use it for, how did you use it, what was the experience like, etc.
