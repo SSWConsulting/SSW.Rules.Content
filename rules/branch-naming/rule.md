@@ -20,10 +20,10 @@ Consistent naming conventions in source control systems help improve collaborati
 Using meaningful branch names with PBI numbers enhances traceability and reduces technical debt.
 
 **Always Remember To:**
-- ✅ **Include a PBI Number:** This makes it easy to track the purpose of the branch, reduces confusion, and provides context.
-- ✅ **Use lowercase kebab style naming:** Keeps the name easy to read and compatible with a wide range of systems.
-- ✅ **Be Descriptive:** Clearly indicate the purpose or content of the branch.
-- ✅ **Keep It Short:** Use concise yet meaningful names.
+- **Include a PBI Number:** This makes it easy to track the purpose of the branch, reduces confusion, and provides context.
+- **Use lowercase kebab style naming:** Keeps the name easy to read and compatible with a wide range of systems.
+- **Be Descriptive:** Clearly indicate the purpose or content of the branch.
+- **Keep It Short:** Use concise yet meaningful names.
 
 ::: greybox
 {{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}  
