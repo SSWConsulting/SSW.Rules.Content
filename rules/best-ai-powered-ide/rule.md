@@ -27,6 +27,9 @@ GitHub Copilot first popularized the 'code completion' feature for AI-powered ID
 
 In Cursor and Windsurf, you can hit ctrl-K (or command-K), to convert natural language to a bash command. This is very useful for when you have forgotten the exact syntax of a bash command.
 
+![Cursor Command Generation](cursor-command-generation.gif)
+**Figure: Cursor Command Generation (ctrl-K)**
+
 ## Chat
 
 Chat functionality within an AI-powered IDE adds an intelligent assistant that can offer answers and suggestions without needing to leave the IDE. Unlike generic AI tools, it allows you to add context to your question, such as a file or even codebase, which lets the AI provide more tailored solutions.
@@ -35,6 +38,9 @@ Chat functionality within an AI-powered IDE adds an intelligent assistant that c
 
 Within the chat for Cursor, you can specify the level of context you would like to include with your prompt. By typing the `@` character, the following menu will appear.
 
+![Cursor Chat Context](cursor-chat-context.png)
+**Figure: Cursor Chat Context, opened by typing `@`**
+
 In Cursor, the `@Web` function is very useful for any situations where recent information, or information that the model has not been trained on is needed! You can also use `@Git` to compare diffs with the main branch, to generate a nice PR summary.
 
 ## Agent
@@ -42,13 +48,24 @@ In Cursor, the `@Web` function is very useful for any situations where recent in
 The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands).
 
 
+![Bad Example Using ChatGPT](bad-example-chatgpt.png)
+::: bad 
+Bad Example: Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE.
+:::
+
+
+![Create Tina App](good-example-using-agent.png)
+::: good
+Good Example: Using Cursor Agent to create a Tina App, with multiple provided instructions.
+:::
+
 ## Comparison Table
 
-| Feature               | Cursor                                                       | IDE + GitHub Copilot                                         | Windsurf                                                     | GitHub Copilot Workspace                       |
+| Feature               | Cursor | IDE + GitHub Copilot | Windsurf | GitHub Copilot Workspace |
 | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
 | Free Version          | • 2000 completions per month<br>• 50 slow premium requests per month | • 2000 completions per month<br>• 50 chat messages per month | • 5 premium user prompts<br>• 5 premium Flow Actions | ❌ |
 | Price (USD per month) | $20 | $10 | $15 | $10 (Bundled with Copilot Pro) |
-| AI Model(s)           | • cursor-small (free)<br>• Anthropic Models (Sonnet, Haiku)<br>• OpenAI Models (GPT 3.5, 4o, o1, etc.) | • GPT 3.5<br>• GPT 4o<br>• GPT 4 | • Meta Llama (Free)<br>• Claude Models (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4o, etc.) | OpenAI Models (GPT 3.5, 4o, o1, etc.) |
+| AI Model(s)           | • cursor-small (free)<br>• Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | • Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | • Meta Llama<br>• Anthropic Claude (Sonnet, Haiku)<br>• OpenAI (GPT 3.5, 4, 4o) | OpenAI (GPT 3.5, 4, 4o) |
 | Custom Models         | ❌ | ❌ | ❌ | Enterprise Version |
 | Custom Rules          | ✅ | ✅ | ✅ | ❌ |
 | Auto-Completion       | ✅ | ✅ | ✅ | ✅ |
