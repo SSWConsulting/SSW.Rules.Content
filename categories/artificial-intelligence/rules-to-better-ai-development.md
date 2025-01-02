@@ -15,6 +15,7 @@ index:
 - leverage-chatgpt
 - embed-ui-into-an-ai-chat
 - use-embeddings
+- best-ai-powered-ide
 
 ---
 
