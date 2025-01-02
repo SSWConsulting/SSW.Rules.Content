@@ -20,7 +20,7 @@ guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
 Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. Now AI has been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), now embedding an even deeper level of AI Integration within a developer's workflow. 
 
 `youtube: https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n`  
-**Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 mins)**
+**Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 min)**
 
 ## Powerful features that AI-Powered IDEs provide:
 
