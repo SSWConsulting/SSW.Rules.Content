@@ -91,6 +91,11 @@ You wouldn't send an email written by ChatGPT without first checking it for corr
 
 You are solely responsible for the code you commit!
 
+::: info
+**Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.  
+See <https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code>
+:::
+
 ## Which is best?
 
 As you can see from the comparison table, each of the AI-powered IDEs rival each other in most categories, and you can't go wrong with any of them.
