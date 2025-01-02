@@ -49,12 +49,14 @@ The Agent function in AI-powered IDEs represents a significant leap in a develop
 
 
 ![Bad Example Using ChatGPT](bad-example-chatgpt.png)
+
 ::: bad 
 Bad Example: Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE.
 :::
 
 
 ![Create Tina App](good-example-using-agent.png)
+
 ::: good
 Good Example: Using Cursor Agent to create a Tina App, with multiple provided instructions.
 :::
