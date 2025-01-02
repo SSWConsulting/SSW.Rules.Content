@@ -20,14 +20,17 @@ guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
 
 Since the release of [GitHub Copilot](https://github.com/features/copilot) in 2021, we have witnessed a dramatic evolution in how developers work within their IDE. It started with a simple AI autocomplete, and has since progressed to a chat function. Now AI has been integrated deeply into IDEs with products like [Cursor](https://www.cursor.com/) and [Windsurf](https://codeium.com/windsurf), now embedding an even deeper level of AI Integration within a developer's workflow. 
 
-`youtube: https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n`  
+<!--endintro-->
+
+`youtube: https://youtu.be/fVYM10-fpG4?si=JeOx6-jN1Jin-W0n`
+
 **Video: Let Cursor do the coding for you | Calum Simpson | SSW Rules (10 min)**
 
-## Powerful features that AI-Powered IDEs provide:
+## Powerful features that AI-Powered IDEs provide
 
 ### Code Completion
 
-GitHub Copilot first popularized the 'code completion' feature for AI-powered IDEs. Code completion will try to guess what you are going to write, and suggest how to complete this line – saving time and effort by simply pressing 'tab'
+GitHub Copilot first popularized the 'code completion' feature for AI-powered IDEs. Code completion will try to guess what you are going to write, and suggest how to complete this line – saving time and effort by simply pressing 'tab'.
 
 ### Command Generation
 
@@ -39,7 +42,7 @@ In Cursor and Windsurf, you can hit ctrl-K (or command-K), to convert natural la
 
 Chat functionality within an AI-powered IDE adds an intelligent assistant that can offer answers and suggestions without needing to leave the IDE. Unlike generic AI tools, it allows you to add context to your question, such as a file or even codebase, which lets the AI provide more tailored solutions.
 
-**Context**
+#### Specify the level of context
 
 Within the chat for Cursor, you can specify the level of context you would like to include with your prompt. By typing the `@` character, the following menu will appear.
 
@@ -52,12 +55,12 @@ In Cursor, the `@Web` function is very useful for any situations where recent in
 The Agent function in AI-powered IDEs represents a significant leap in a developer's workflow. It acts as a semi-autonomous coding assistant, capable of directly controlling the IDE (creating/editing files, reading the codebase, searching the web, executing bash commands).
 
 ::: bad 
-![Bad Example: Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE.](bad-example-chatgpt.png)
+![Figure: Bad example - Using ChatGPT with only one instruction, requiring you to copy paste the commands into the IDE](bad-example-chatgpt.png)
 :::
 
 
 ::: good
-![Good Example: Using Cursor Agent to create a Tina App, with multiple provided instructions.](good-example-using-agent.png)
+![Figure: Good example - Using Cursor Agent to create a Tina App, with multiple provided instructions](good-example-using-agent.png)
 :::
 
 ## AI-Powered IDE Comparison
@@ -99,5 +102,4 @@ Currently, SSW Developers tend to prefer Cursor, and it seems to have more hype 
 **Tip**: Investing in one of these tools may prove to be worthwhile, and you can always claim it as a tax deduction.
 :::
 
-Share some details about your experience  with AI assisted development.
-e.g. What tool did you use, what did you use it for, how did you use it, what was the experience like, etc.
+Share some details about your experience  with AI assisted development e.g. What tool did you use, what did you use it for, how did you use it, what was the experience like, etc.
