@@ -61,7 +61,7 @@ Good Example: Using Cursor Agent to create a Tina App, with multiple provided in
 
 ## Comparison Table
 
-| Feature               | Cursor | IDE + GitHub Copilot | Windsurf | GitHub Copilot Workspace |
+| Feature               | [Cursor](https://www.cursor.com/) | [IDE + GitHub Copilot](https://github.com/features/copilot) | [Windsurf](https://codeium.com/windsurf) | [GitHub Copilot Workspace](https://githubnext.com/projects/copilot-workspace) |
 | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------- |
 | Free Version          | • 2000 completions per month<br>• 50 slow premium requests per month | • 2000 completions per month<br>• 50 chat messages per month | • 5 premium user prompts<br>• 5 premium Flow Actions | ❌ |
 | Price (USD per month) | $20 | $10 | $15 | $10 (Bundled with Copilot Pro) |
