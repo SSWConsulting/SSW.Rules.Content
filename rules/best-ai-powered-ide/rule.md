@@ -11,7 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/lewis-toh/
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson/
-related: []
+related:
+  - ai-pair-programming
 created: 2025-01-02T12:40:00.000Z
 archivedreason: ""
 guid: 49ac441c-6882-4c4b-adef-47f4e87ea68c
