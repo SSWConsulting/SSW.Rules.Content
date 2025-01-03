@@ -48,4 +48,32 @@ Effective management of Microsoft Entra ID (formerly Azure Active Directory) is 
 
 - **Monitor and Secure Emergency Accounts:** Regularly audit these accounts to ensure they are not misused and are only accessed during emergencies.
 
-By adhering to these best practices, you can strengthen your organisation's security posture and ensure efficient management of Microsoft Entra ID.
+### **7. Use Clear Access Group Naming Conventions**
+
+Clear and consistent naming conventions for access groups make management simpler and ensure clarity across the organisation.
+
+#### **Why Are Naming Conventions Important?**
+Without clear naming conventions, it becomes difficult to understand the purpose or scope of access groups, leading to confusion and potential security risks.
+
+#### **Best Practices**
+1. **Follow a Standard Structure:** Include key details in the group name, such as department, function, and access level.
+   - Example: `[Department]-[Resource]-[Level]`
+   - `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
+2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group.
+   - `DL-` for Distribution List, `SG-` for Security Group, `O365-` for Office 365 Group.
+3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context.
+4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. SSW uses kebab case :)
+
+#### **Common Naming Conventions Example**
+| **Name**                | **Purpose**                               |
+|--------------------------|-------------------------------------------|
+| IT-VPN-Access           | Provides VPN access for IT personnel.    |
+| Marketing-WebAnalytics  | Grants access to web analytics tools.    |
+| Finance-ERP-ReadOnly    | Read-only access to the ERP system.       |
+| All-Company-Broadcast   | Organization-wide communication group.   |
+
+Figure: Good examples of access group naming conventions that improve clarity and reduce errors in assignment.
+
+---
+
+By adhering to these best practices, including clear naming conventions for access groups, you can strengthen your organization's security posture and streamline the management of Microsoft Entra ID.
