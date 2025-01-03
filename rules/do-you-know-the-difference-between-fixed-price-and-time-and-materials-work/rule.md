@@ -5,8 +5,15 @@ seoDescription: Consulting services billed on time and materials or fixed price,
   with differences including warranty, scope definition, payment terms, and
   testing requirements.
 uri: do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
-authors: []
-related: []
+authors:
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud/
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion/
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren/
+related:
+  - fixed-price-deliver-the-project-and-start-the-warranty-period
 redirects: []
 created: 2010-07-16T04:26:47.000Z
 archivedreason: null
@@ -37,8 +44,10 @@ Fixed price is where the client is billed a fixed amount agreed between the clie
 
 This set of conditions ensure a fair distribution of risk for both parties. It's perfectly fine to be unhappy about a feature and requesting some changes, but once approved, a piece of work shouldn't be worked on again for free.
 
-![](refusing-meal-restaurant.jpg "Figure: Refusing a meal at the restaurant")
+
 
 **Analogy**
 
 The warranty process is similar to what happens at a restaurant; if you look carefully when your meal is served and realise it's not what you ordered or there's something wrong with it, it's perfectly fine to send it back. However once you've started to eat your burger, it's too late to send it back and ask it to be changed 🧑‍🍳
+
+![Figure: Testing the application in Staging is like testing your meal](refusing-meal-restaurant.jpg "Figure: Refusing a meal at the restaurant")
