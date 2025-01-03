@@ -48,7 +48,7 @@ Let's take a look at how implementing Issue Templates can improve repository bac
 
 For instructions on setting this up:
 
-- See [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-- Check out [SSW Github repo Template.](https://github.com/SSWConsulting/SSW.GitHub.Template)
+* See [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+* Check out [SSW Github repo Template.](https://github.com/SSWConsulting/SSW.GitHub.Template)
 
 :::
