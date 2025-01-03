@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how to share links to specific tabs in Power BI reports and send users directly to the desired page.
 type: rule
-archivedreason:
+archivedreason: The 'Share' button is now clear and it shares the specific tab.
 title: Do you know how to share links to specific tabs in Power BI reports
 guid: 754ac957-db19-4691-b2b5-325ca7d29dad
 uri: do-you-know-how-to-share-links-to-specific-tabs-in-power-bi-reports
