@@ -16,7 +16,7 @@ guid: a97fa64d-7684-4220-8042-0b3be889aa9d
 
 Have you ever looked at the list of branches in your repository and not know what they were for?
 
-Consistent naming conventions in source control systems help improve collaboration, clarity, and organization across teams. Using meaningful branch names with PBI numbers enhances traceability and reduces [technical debt](/technical-debt).
+Consistent naming conventions in source control systems help improve collaboration, clarity, and organization across teams. Using meaningful branch names with PBI numbers enhances traceability and reduces [merge debt](/merge-debt).
 
 <!--endintro-->
 
@@ -30,13 +30,6 @@ Always remember to:
 
 ::: info
 **Note:** Release branches should always include a prefix (e.g., release/) to distinguish them from other branch types and keep them organized.
-:::
-
-::: greybox
-{{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}   
-:::
-::: good
-Figure: Good example - Recommended naming format
 :::
 
 ---
@@ -69,6 +62,13 @@ Figure: OK example - Branches with PBI numbers and meaningful names
 :::
 ::: good
 Figure: Good example - Branches with category prefixes
+:::
+
+::: greybox
+{{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}   
+:::
+::: good
+Figure: Good example - Recommended naming format
 :::
 
 ## ❌ Avoid using `SomeUser-patch-1`
