@@ -1,7 +1,9 @@
 ---
-seoDescription: Understand the difference between Tax Invoice and Eftpos Receipt - A comprehensive guide to tax compliance and expense management.
 type: rule
-title: Expenses - Do you understand the difference between Tax Invoice and Eftpos Receipt?
+title: Expenses - Do you understand the difference between Tax Invoice and
+  Eftpos Receipt?
+seoDescription: Understand the difference between Tax Invoice and Eftpos Receipt
+  - A comprehensive guide to tax compliance and expense management.
 uri: tax-invoice-vs-eftpos-receipt
 authors:
   - title: Jimmy Chen
@@ -34,8 +36,8 @@ A tax invoice would normally have the following:
 
 **Business Information**
 
-* Seller's info - Name, address, and contact details
-* Buyer's info - Name and address
+* Seller's info – Name, address, and contact details
+* Buyer's info – Name and address
 
 **Invoice Details**
 
@@ -44,12 +46,12 @@ A tax invoice would normally have the following:
 
 **Product/Service Information**
 
-* Description - The products or services
-* How much - Quantity, unit price, and total amount
+* Description – The products or services
+* How much – Quantity, unit price, and total amount
 
 **Tax Information**
 
-* Tax - Goods and Services Tax (GST) details
+* Tax – Goods and Services Tax (GST) details
 * Total amount (including GST)
 
 ![Figure:Example of Tax Invoices](tax-invoice-example-au.1678919047955.jpg)
@@ -63,17 +65,17 @@ It usually shows information:
 
 **Transaction Details**
 
-* When - Date and time of the transaction
-* How - Payment method and card type
+* When – Date and time of the transaction
+* How – Payment method and card type
 
 **Business Information**
 
-* Who - Merchant's name and contact information
+* Who – Merchant's name and contact information
 
 **Amount Information**
 
-* How much - Total amount paid
-* Approved or declined - Confirmation of payment
+* How much – Total amount paid
+* Approved or declined – Confirmation of payment
 
 ![Figure: Example of Eftpos Payment Receipt](Picture2.png)
 
