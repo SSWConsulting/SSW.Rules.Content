@@ -80,6 +80,8 @@ FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEA
 
 ✅ Done - I have called you to watch the video together.
 
+1. So I know who has watched this - please like and comment on the video 
+
 Here’s the link {{ YOUTUBE LINK }}
 
 \< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
@@ -87,7 +89,7 @@ Here’s the link {{ YOUTUBE LINK }}
 :::
 :::
 ::: good
-Figure: Good example - Watching the video with the Product Owner, then sending it in an email
+Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visability from your team.
 :::
 
 ::: good
