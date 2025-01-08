@@ -72,8 +72,8 @@ The video should be recorded by the Product Owner (or other head of the team).
 | -------- | --- |
 | To: | Product Owner |
 | CC: | Stakeholders |
-
 | Subject: | Recording - Monthly Finance Meeting for {{ MONTH YEAR }} |
+
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
