@@ -18,25 +18,52 @@ redirects: []
 
 ---
 
-Don't waste time evaluating which Web UI libraries to use. Most of the commonly used libraries are very similar in functionality. The recommended library is [Bootstrap](https://getbootstrap.com/).
+Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://shadcn.dev/) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com/).
 
 <!--endintro-->
 
-It's the most popular available framework today, which means more people involved in the project, more tutorials and articles from the community, more real-world examples/websites, more third-party extensions, and better integration with other web development products
+## If you want to find a better fit
 
-![Figure: Leader among frameworks today, Bootstrap toolkit is recommended to build successful websites](bootstrap.png)  
+First consider the import type – some component libraries use a "copy and paste" style of code sharing, while others have typical import behaviour (hiding implementation details behind their APIs). 
 
-### The 3 things a developer need to know to get up and running quickly with ASP.NET MVC
+The latter kind are typically easier to use, but harder to extend. There's also a divide in terms of maintenance responsibility – if you paste and modify code into your project, you'll have update code to newer versions yourself. 
 
-`youtube: https://www.youtube.com/embed/z3bIM72-YaU?rel=0`
- 
-### Bootstrap & ASP.NET MVC - Intro / Quickstart
+Typical imports may be upgraded and maintained by the community, but you have to be conscious of any API changes.
 
-`youtube: https://www.youtube.com/embed/bIGiUSMBwoo?rel=0`
- 
-### Other useful frameworks
+When evaluating a component library, also keep in mind:
+- **Community Support**: Does it have an active user base, comprehensive documentation, and external resources like tutorials and plugins?
+- **Integration**: How well does it work with your current tech stack (e.g., React, Angular, Vue)?
+- **Performance**: Does it maintain fast load times and responsiveness, even with complex components?
 
-Now that you saved a lot of UI development time by using Bootstrap, you can play around with other useful frameworks.
+## (Recommended approach) shadcn/ui – customised with V0
 
-* **[KendoUI](http://www.kendoui.com/)** for enhanced HTML and jQuery controls
-* **[SignalR](http://signalr.net/)** for real-time web functionality
+shadcn/ui is an excellent choice for React developers looking for a library that is both customizable and pre-built.
+- **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
+- **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
+
+## Bootstrap (recommended for ease of use)
+
+Bootstrap has been the go-to general-purpose component library for years.
+- **Wide Adoption**: It’s the most popular library, meaning more community support, tutorials, third-party plugins, and better integration.
+- **Framework Agnostic**: Works seamlessly with JS, Angular, React, Vue, or even pure HTML/CSS.
+- **Optimized Ports**: Specialized ports exist for frameworks like [React Bootstrap](https://react-bootstrap.netlify.app/).
+
+While Bootstrap is a safe and reliable choice, it does have drawbacks, such as limited customizability and heavy reliance on CSS overrides to achieve bespoke designs.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shadcn-ui/ui,mui/material-ui,ant-design/ant-design,mantinedev/mantine,nextui-org/nextui,twbs/bootstrap,react-bootstrap/react-bootstrap&type=Timeline)](https://star-history.com/#shadcn-ui/ui&mui/material-ui&ant-design/ant-design&mantinedev/mantine&nextui-org/nextui&twbs/bootstrap&react-bootstrap/react-bootstrap&Timeline)  
+**Figure – Bootstrap is the most popular UI library**
+
+---
+
+### Deep Dive: Front-End Development with shadcn/ui and Next.js
+
+Check out this insightful tutorial:  
+`youtube: https://www.youtube.com/embed/U8LyScigrcA?si=btShpW-NWVCwWKZZ`
+
+---
+
+### Other Useful Frameworks
+
+Once you’ve saved time by using a pre-built UI library, explore these additional frameworks to enhance your web app:
+- **[KendoUI](http://www.kendoui.com/)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
+- **[SignalR](http://signalr.net/)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).

@@ -17,6 +17,8 @@ authors:
     url: https://ssw.com.au/people/william-liebenberg
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
+  - title: Louis Roa
+    url: https://ssw.com.au/people/louis-roa
 related:
   - mockups-and-prototypes
   - storyboards
@@ -35,8 +37,9 @@ Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, B
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=r8z0a3bPeuM`
-**Video: v0 by Vercel: Create UI Components from Text & Images! (6 min)**
+`youtube: https://www.youtube.com/watch?v=cyFVtaLy-bA`
+**Video: Build a fullstack app in 7 minutes with v0 (Figma to code)! (7 min)**
+
 
 Here is a longer example of someone using v0.dev to generate a calculator UI and then trying to replicate the same UI by hand: [V0 coded a calculator 30x faster than me (17 min)](https://youtu.be/WFZ-g0w3OW4?si=A-18DvJRd2KXfbNy)
 
@@ -58,7 +61,9 @@ If you're a dev that likes (or is forced) to moonlight as a designer these tools
 
 Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 
-![Figure: A cool user form](v0_user_form.png)
+
+![Figure: A matrix-style blog site](matrix.gif "matrix blog")
+
 
 ::: greybox
 🤖 AI prompts excamples:
