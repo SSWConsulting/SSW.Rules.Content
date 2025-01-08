@@ -66,6 +66,7 @@ There's also a divide in terms of maintenance responsibility – if you copy and
 Alternatively, package imports may be upgraded and maintained by the community, but you have to be conscious of any API changes.
 
 When evaluating a component library, also keep in mind:
+
 * **Community Support**: Does it have an active user base, comprehensive documentation, and external resources like tutorials and plugins?
 * **Integration**: How well does it work with your current tech stack (e.g., React, Angular, Vue)?
 * **Performance**: Does it maintain fast load times and responsiveness, even with complex components?
@@ -73,6 +74,7 @@ When evaluating a component library, also keep in mind:
 ### Other Useful Frameworks
 
 Once you’ve saved time by using a pre-built UI library, explore these additional frameworks to enhance your web app:
+
 * **[KendoUI](http://www.kendoui.com/)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
 * **[SignalR](http://signalr.net/)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).
 * **[MUI](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
