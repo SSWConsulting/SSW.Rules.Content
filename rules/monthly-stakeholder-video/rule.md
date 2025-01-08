@@ -80,9 +80,9 @@ FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEA
 
 ✅ Done - I have called you to watch the video together.
 
-1. So I know who has watched this - please like and comment on the video
-
 Here’s the link {{ YOUTUBE LINK }}
+
+1. So I know who has watched this - please like and comment on the video
 
 \< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
 
