@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to generate UI mockups with AI tools to streamline your design process.
 type: rule
 title: Do you generate UI mockups with AI?
 uri: generate-ui-mockups-with-ai
