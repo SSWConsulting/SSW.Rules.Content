@@ -14,6 +14,8 @@ authors:
 - title: Daniel Šmon
   url: https://ssw.com.au/people/daniel-smon
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+- title: Isaac Lombard
+  url: https://ssw.com.au/people/isaac-lombard
 related: []
 redirects: []
 
