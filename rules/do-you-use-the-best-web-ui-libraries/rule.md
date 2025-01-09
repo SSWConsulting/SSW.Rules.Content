@@ -25,20 +25,31 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
 
 <!--endintro-->
 
-### shadcn/ui – customised with V0 (Recommended)
+### shadcn/ui – customized with V0 (Recommended)
 
 This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
+
+It builds off [radix-ui](https://www.radix-ui.com/) and [TailwindCSS](https://tailwindcss.com/) (the industry standard CSS framework).
+
+::: info
+While Shadcn/ui is largely copying their component code into your project, they have a [CLI](https://ui.shadcn.com/docs/cli) which is recommended over manual installation.
+:::
+
+To install/[update](https://github.com/shadcn-ui/ui/discussions/790) all Shadcn/ui components at once, you can use the npx command: `npx shadcn@latest add -a -y -o`.
 
 * **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
 * **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
 
 V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways.
 It's also integrated with the shadcn/ui path alias conventions.
+For more info, see the related rule on [generating mockups with V0](https://www.ssw.com.au/rules/generate-ui-mockups-with-ai/).
 
 In effect, these technologies together let you quicky build your own custom component library for any React application.
 
-`youtube: https://www.youtube.com/embed/TBIjgBVFjVI?si=Z7ecxmwZmFOTSnTm`
-**Video – Front-end web development is changing, quickly (4 mins)**
+`youtube: https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u`
+**Video – Why Everyone Loves Shadcn UI Right Now (1 min)**
+
+For a more in depth look, see the video later on.
 
 ---
 
@@ -76,19 +87,22 @@ When evaluating a component library, also keep in mind:
 
 ### Deep Dive: Front-End Development with shadcn/ui and Next.js
 
-`youtube: https://www.youtube.com/embed/U8LyScigrcA?si=btShpW-NWVCwWKZZ`
-**Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library (55 mins)**
+`youtube: https://www.youtube.com/embed/U8LyScigrcA?si=VE5qksK9YKgObQoX&amp;start=668`
+**Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library, from 11:08 (10 mins)**
 
-### Other Useful Frameworks
+### Popular Component Libraries – Ordered by Stars
 
-Once you’ve saved time by using a pre-built UI library, explore these additional frameworks to enhance your web app:
-
-* **[KendoUI](http://www.kendoui.com/)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
-* **[SignalR](http://signalr.net/)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).
-* **[MUI](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
+* **[Bootstrap](https://getbootstrap.com/)**: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web.
+* **[TailwindCSS](https://tailwindcss.com/)**: A set of utility classes that can be used in place or alongside component libraries to create custom component styling.
+* **[Material UI (MUI)](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
 * **[Ant Design](https://ant.design/)**: A comprehensive React-based UI framework with a strong focus on enterprise applications.
-* **[Mantine](https://mantine.dev/)**: A flexible and fully accessible UI library with 100+ customizable components and hooks for React.
+* **[shadcn/ui](https://ui.shadcn.com/)**: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 * **[Chakra UI](https://chakra-ui.com/)**: A modular and accessible component library for React with a focus on design flexibility.
-* **[NextUI](https://nextui.org/)**: A modern React UI library optimized for dark mode by default with customizable components.
+* **[Mantine](https://mantine.dev/)**: A flexible and fully accessible UI library with 100+ customizable components and hooks for React.
 * **[PrimeReact](https://primereact.org/)**: A comprehensive collection of components for React, part of the PrimeFaces family.
+* **[NextUI](https://nextui.org/)**: A modern React UI library optimized for dark mode by default with customizable components.
 * **[React Suite](https://rsuitejs.com/)**: A set of React components built for middle and back-office applications.
+* **[SignalR](https://github.com/dotnet/aspnetcore)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).
+* **[KendoUI](https://www.telerik.com/kendo-ui)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
+
+What's your favourite UI library?
