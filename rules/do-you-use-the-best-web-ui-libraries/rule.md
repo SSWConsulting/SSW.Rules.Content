@@ -40,7 +40,7 @@ It's builds off [radix-ui](https://www.radix-ui.com/) and [TailwindCSS](https://
 * **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
 * **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
 
-V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways. 
+V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways.
 It's also integrated with the shadcn/ui path alias conventions.
 See the related rule on [generating mockups with V0](https://www.ssw.com.au/rules/generate-ui-mockups-with-ai/).
 
