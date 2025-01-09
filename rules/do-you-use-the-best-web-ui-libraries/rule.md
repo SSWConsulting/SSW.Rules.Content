@@ -35,7 +35,7 @@ This is the best choice for React ecosystems. Shadcn/ui is more recent, but chan
 V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways. 
 It's also integrated with the shadcn/ui path alias conventions.
 
-In effect, these technologies together let you quicky build your own custom component library for any given application.
+In effect, these technologies together let you quicky build your own custom component library for any React application.
 
 `youtube: https://www.youtube.com/embed/TBIjgBVFjVI?si=Z7ecxmwZmFOTSnTm`
 **Video – Front-end web development is changing, quickly (4 mins)**
