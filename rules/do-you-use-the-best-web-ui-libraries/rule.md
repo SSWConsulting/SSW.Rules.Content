@@ -87,10 +87,8 @@ When evaluating a component library, also keep in mind:
 
 ### Deep Dive: Front-End Development with shadcn/ui and Next.js
 
-<TODO – add timestamp to link so it starts at relevant section, and mention in Rule>
-
 `youtube: https://www.youtube.com/embed/U8LyScigrcA?si=VE5qksK9YKgObQoX&amp;start=668`
-**Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library (55 mins)**
+**Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library, from 11:08 (10 mins)**
 
 ### Popular Frameworks – Ordered by Stars
 
