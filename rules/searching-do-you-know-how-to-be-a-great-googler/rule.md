@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Searching - Do you know how to be a great Googler?
+seoDescription: Learn effective Google search techniques to enhance your problem-solving skills
 uri: searching-do-you-know-how-to-be-a-great-googler
 authors:
   - title: Adam Cogan
