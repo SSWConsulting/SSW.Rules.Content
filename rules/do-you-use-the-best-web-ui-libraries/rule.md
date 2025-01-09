@@ -25,7 +25,7 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
 
 <!--endintro-->
 
-### shadcn/ui – customised with V0 (Recommended)
+### shadcn/ui – customized with V0 (Recommended)
 
 This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
 
