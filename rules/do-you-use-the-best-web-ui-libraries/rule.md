@@ -98,7 +98,6 @@ When evaluating a component library, also keep in mind:
 ### Popular Component Libraries – Ordered by Stars
 
 * **[Bootstrap](https://getbootstrap.com/)**: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web.
-* **[TailwindCSS](https://tailwindcss.com/)**: A set of utility classes that can be used in place or alongside component libraries to create custom component styling.
 * **[Material UI (MUI)](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
 * **[Ant Design](https://ant.design/)**: A comprehensive React-based UI framework with a strong focus on enterprise applications.
 * **[shadcn/ui](https://ui.shadcn.com/)**: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
@@ -107,7 +106,6 @@ When evaluating a component library, also keep in mind:
 * **[PrimeReact](https://primereact.org/)**: A comprehensive collection of components for React, part of the PrimeFaces family.
 * **[NextUI](https://nextui.org/)**: A modern React UI library optimized for dark mode by default with customizable components.
 * **[React Suite](https://rsuitejs.com/)**: A set of React components built for middle and back-office applications.
-* **[SignalR](https://github.com/dotnet/aspnetcore)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).
 * **[KendoUI](https://www.telerik.com/kendo-ui)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
 
 What's your favourite UI library?
