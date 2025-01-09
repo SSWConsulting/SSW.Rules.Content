@@ -29,6 +29,11 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
 
 This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
 
+<TODO - locks you into Tailwind CSS>
+
+<TODO – tip to let you install / update all components>
+https://github.com/shadcn-ui/ui/discussions/790 "Need easy way to update components"
+
 * **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
 * **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
 
@@ -79,16 +84,17 @@ When evaluating a component library, also keep in mind:
 `youtube: https://www.youtube.com/embed/U8LyScigrcA?si=btShpW-NWVCwWKZZ`
 **Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library (55 mins)**
 
-### Other Useful Frameworks
+### Other Useful Frameworks – Ordered by Popularity
 
-Once you’ve saved time by using a pre-built UI library, explore these additional frameworks to enhance your web app:
+<TODO GitHub stars>
 
 * **[KendoUI](http://www.kendoui.com/)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
 * **[SignalR](http://signalr.net/)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).
-* **[MUI](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
+* **[Material UI (MUI)](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
 * **[Ant Design](https://ant.design/)**: A comprehensive React-based UI framework with a strong focus on enterprise applications.
 * **[Mantine](https://mantine.dev/)**: A flexible and fully accessible UI library with 100+ customizable components and hooks for React.
 * **[Chakra UI](https://chakra-ui.com/)**: A modular and accessible component library for React with a focus on design flexibility.
 * **[NextUI](https://nextui.org/)**: A modern React UI library optimized for dark mode by default with customizable components.
 * **[PrimeReact](https://primereact.org/)**: A comprehensive collection of components for React, part of the PrimeFaces family.
 * **[React Suite](https://rsuitejs.com/)**: A set of React components built for middle and back-office applications.
+<TODO Tailwind>
