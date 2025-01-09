@@ -49,7 +49,7 @@ V0 is the premier frontend code generation tool by Vercel. It has partnered with
 It's also integrated with the shadcn/ui path alias conventions.
 For more info, see the related rule on [generating mockups with V0](https://www.ssw.com.au/rules/generate-ui-mockups-with-ai/).
 
-In effect, these technologies together let you quicky build your own custom component library for any React application.
+In effect, these technologies together let you quickly build your own custom component library for any React application.
 
 `youtube: https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u`
 **Video – Why Everyone Loves Shadcn UI Right Now (1 min)**
