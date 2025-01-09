@@ -29,7 +29,7 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
 
 This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
 
-It's builds off [radix-ui](https://www.radix-ui.com/) and [TailwindCSS](https://tailwindcss.com/) (the industry standard CSS framework).
+It builds off [radix-ui](https://www.radix-ui.com/) and [TailwindCSS](https://tailwindcss.com/) (the industry standard CSS framework).
 
 ::: info
 While Shadcn/ui is largely copying their component code into your project, they have a [CLI](https://ui.shadcn.com/docs/cli) which is recommended over manual installation.
@@ -90,7 +90,7 @@ When evaluating a component library, also keep in mind:
 `youtube: https://www.youtube.com/embed/U8LyScigrcA?si=VE5qksK9YKgObQoX&amp;start=668`
 **Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library, from 11:08 (10 mins)**
 
-### Popular Frameworks – Ordered by Stars
+### Popular Component Libraries – Ordered by Stars
 
 * **[Bootstrap](https://getbootstrap.com/)**: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first projects on the web.
 * **[TailwindCSS](https://tailwindcss.com/)**: A set of utility classes that can be used in place or alongside component libraries to create custom component styling.
