@@ -36,10 +36,8 @@ V0 is the premier frontend code generation tool by Vercel, and it's partnered wi
 
 In effect, these two let you quicky build your own custom component library for any given application.
 
-### Deep Dive: Front-End Development with shadcn/ui and Next.js
-
-Check out this insightful tutorial:  
-`youtube: https://www.youtube.com/embed/U8LyScigrcA?si=btShpW-NWVCwWKZZ`
+`youtube: https://www.youtube.com/embed/TBIjgBVFjVI?si=Z7ecxmwZmFOTSnTm`
+**Video – Front-end web development is changing, quickly (4 mins)**
 
 ---
 
@@ -52,9 +50,6 @@ Bootstrap has been the go-to general-purpose component library for years.
 * **Optimized Ports**: Specialized ports exist for frameworks like [React Bootstrap](https://react-bootstrap.netlify.app/).
 
 While Bootstrap is a safe and reliable choice, it does have drawbacks, such as limited customizability and heavy reliance on CSS overrides to achieve bespoke designs.
-
-[![Star History Chart](https://api.star-history.com/svg?repos=shadcn-ui/ui,mui/material-ui,ant-design/ant-design,mantinedev/mantine,nextui-org/nextui,twbs/bootstrap,react-bootstrap/react-bootstrap&type=Timeline)](https://star-history.com/#shadcn-ui/ui&mui/material-ui&ant-design/ant-design&mantinedev/mantine&nextui-org/nextui&twbs/bootstrap&react-bootstrap/react-bootstrap&Timeline)  
-**Figure – Bootstrap is the most popular UI library**
 
 ---
 
@@ -73,6 +68,11 @@ When evaluating a component library, also keep in mind:
 * **Community Support**: Does it have an active user base, comprehensive documentation, and external resources like tutorials and plugins?
 * **Integration**: How well does it work with your current tech stack (e.g., React, Angular, Vue)?
 * **Performance**: Does it maintain fast load times and responsiveness, even with complex components?
+
+### Deep Dive: Front-End Development with shadcn/ui and Next.js
+
+`youtube: https://www.youtube.com/embed/U8LyScigrcA?si=btShpW-NWVCwWKZZ`
+**Video – Modern Websites - Why Everyone is Choosing Next.JS & the Best Headless UI Library (55 mins)**
 
 ### Other Useful Frameworks
 
