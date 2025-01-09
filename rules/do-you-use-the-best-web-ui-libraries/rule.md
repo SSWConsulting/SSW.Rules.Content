@@ -32,7 +32,7 @@ This is the best choice for React ecosystems. Shadcn/ui is more recent, but chan
 * **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
 * **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
 
-V0 is the premier frontend code generation tool by Vercel, and it's partnered with shadcn/ui to extend the clean, modern shadcn components in a myriad of ways – and integrate these extensions with the shadcn/ui path alias conventions.
+V0 is the premier frontend code generation tool by Vercel, and it's partnered with shadcn/ui to extend the clean, modern shadcn components in a myriad of ways. Integrate these extensions with the shadcn/ui path alias conventions.
 
 In effect, these two let you quicky build your own custom component library for any given application.
 
