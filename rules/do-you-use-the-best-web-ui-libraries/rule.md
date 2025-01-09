@@ -47,6 +47,8 @@ It's also integrated with the shadcn/ui path alias conventions.
 
 In effect, these technologies together let you quicky build your own custom component library for any React application.
 
+<TODO – shorts/ZmtyFc_7p1A?si=X5CaxWlQ-rRIp6-M, new video with and without shorts/>
+
 `youtube: https://www.youtube.com/embed/TBIjgBVFjVI?si=Z7ecxmwZmFOTSnTm`
 **Video – Front-end web development is changing, quickly (4 mins)**
 
