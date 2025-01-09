@@ -45,9 +45,9 @@ Figure: Good example - The link is nice and clear
 **Tip:** You can [use a different color on underlines](https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp) as a nice touch.
 :::
 
-### Mouse hovering effect
+## Always include a hovering effect
 
-Rollovers are also important as they offer visual feedback to a user that this link that will take them somewhere. While there is a myriad of ways to do this; you can't go wrong with a color change. Hover the good example above to see this working.
+Rollovers are also important as they offer visual feedback to a user that this link that will take them somewhere. While there is a myriad of ways to do this; color change is recommended because it preserves text readability. Hover the good example above to see this working.
 
 The basic CSS for changing the link color on hover is:
 
@@ -57,7 +57,11 @@ a:hover {
 }
 ```
 
-### CSS - Avoid borders on text
+::: info
+**Warning:** Effects like bold, scaling, rotation, or background changes can distort text, making it harder for users to read and interact with links. These effects mey be used for buttons or other non-text content elements.
+:::
+
+## CSS - Avoid borders on text
 
 The default implementation of underlines in CSS is:
 
