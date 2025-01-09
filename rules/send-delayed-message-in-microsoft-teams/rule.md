@@ -13,7 +13,7 @@ guid: 765f0879-9848-48ca-a50a-a4079e50c512
 Have you ever sent a message late at night, only to worry about disturbing your colleague's downtime? Or perhaps you’ve received a message outside of working hours and felt pressured to respond? In today’s always-connected world, messages can arrive at inconvenient times, creating unnecessary stress and disruption. 
 
 ::: bad
-![Bad Example: Sending Teams message outside of Sue's working hours](Delayed-Message-Bad-Example.png)
+![Figure: Bad example - Sending Teams message outside of Sue's working hours](Delayed-Message-Bad-Example.png)
 :::
 
 <!--endintro-->
@@ -50,7 +50,7 @@ With this feature, you can schedule messages to be sent at the right time, ensur
 ---
 
 ::: good
-![Good Example: Sending a delayed message to Sue that is to be received at 9 am UK Timezone](Delayed-Message-Good-Example.png)
+![Figure: Good example - Sending a delayed message to Sue that is to be received at 9 am UK Timezone](Delayed-Message-Good-Example.png)
 :::
 
 By using the delayed message feature in Microsoft Teams, you can communicate more thoughtfully and foster a better work environment for everyone—no matter the time zone.
