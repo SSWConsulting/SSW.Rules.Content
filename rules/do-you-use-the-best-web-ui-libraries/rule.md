@@ -96,12 +96,12 @@ When evaluating a component library, also keep in mind:
 * **[TailwindCSS](https://tailwindcss.com/)**: A set of utility classes that can be used in place or alongside component libraries to create custom component styling.
 * **[Material UI (MUI)](https://mui.com/)**: A popular React UI framework following Google’s Material Design guidelines.
 * **[Ant Design](https://ant.design/)**: A comprehensive React-based UI framework with a strong focus on enterprise applications.
+* **[shadcn/ui](https://ui.shadcn.com/)**: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 * **[Chakra UI](https://chakra-ui.com/)**: A modular and accessible component library for React with a focus on design flexibility.
 * **[Mantine](https://mantine.dev/)**: A flexible and fully accessible UI library with 100+ customizable components and hooks for React.
 * **[PrimeReact](https://primereact.org/)**: A comprehensive collection of components for React, part of the PrimeFaces family.
 * **[NextUI](https://nextui.org/)**: A modern React UI library optimized for dark mode by default with customizable components.
 * **[React Suite](https://rsuitejs.com/)**: A set of React components built for middle and back-office applications.
-* **[shadcn/ui](https://ui.shadcn.com/)**: Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.
 * **[SignalR](https://github.com/dotnet/aspnetcore)**: Provides real-time web functionality, perfect for apps needing live updates (e.g., chat apps, dashboards).
 * **[KendoUI](https://www.telerik.com/kendo-ui)**: Offers advanced HTML and jQuery controls for data grids, charts, and more.
 
