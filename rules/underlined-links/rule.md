@@ -63,7 +63,7 @@ a:hover {
 Effects like bold, scaling, rotation, or background changes can distort text, making it harder for users to read and interact with links. 
 
 ::: bad
-![Figure: Bad example - Bold on hovering cause text distortion](bad-example-bold-hover.gif)
+![Figure: Bad example - Using bold on hovering may cause a text shift](bad-example-bold-hover.gif)
 :::
 
 **Note:** These effects may be used for buttons or other non-text content elements.
