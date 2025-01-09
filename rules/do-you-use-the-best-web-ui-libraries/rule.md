@@ -92,4 +92,3 @@ Once you’ve saved time by using a pre-built UI library, explore these addition
 * **[NextUI](https://nextui.org/)**: A modern React UI library optimized for dark mode by default with customizable components.
 * **[PrimeReact](https://primereact.org/)**: A comprehensive collection of components for React, part of the PrimeFaces family.
 * **[React Suite](https://rsuitejs.com/)**: A set of React components built for middle and back-office applications.
-* **[Magic Design](https://magic.design/)**: A lightweight UI component library designed for React with a focus on simplicity.
