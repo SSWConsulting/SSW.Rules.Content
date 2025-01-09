@@ -12,7 +12,8 @@ authors:
   - title: Rebecca Liu
     url: https://ssw.com.au/people/rebecca-liu
 related: []
-redirects: []
+redirects:
+  - do-you-use-twitter-bootstrap
 created: 2012-07-23T16:04:48.000Z
 archivedreason: null
 guid: a77d521f-eab3-4490-9ed2-95cec7026f9f
