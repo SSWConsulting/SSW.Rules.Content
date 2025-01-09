@@ -22,9 +22,13 @@ archivedreason: null
 guid: ed0b5cce-5f87-4fe4-907d-d2100a77ef06
 ---
 
-Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://shadcn.dev/) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com/). When using Bootstrap it's best to opt for the framework specific integration of Bootstrap, for example Angular users would opt for [NgBootstrap](https://ng-bootstrap.github.io/#/home)
+Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://shadcn.dev/) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com/).
 
 <!--endintro-->
+
+::: info
+When using Bootstrap it's best to opt for the framework specific integration of Bootstrap, for example Angular users would opt for [NgBootstrap](https://ng-bootstrap.github.io/#/home).
+:::
 
 ### shadcn/ui – customized with V0 (Recommended)
 
