@@ -29,6 +29,8 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
 
 This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
 
+<TODO – link to the V0 rules, which links back here>
+
 <TODO - locks you into Tailwind CSS>
 
 <TODO – tip, don't copy paste manually, use the cli>
