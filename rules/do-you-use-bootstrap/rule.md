@@ -3,7 +3,7 @@ type: rule
 title: Do you use Bootstrap?
 seoDescription: Do you use Bootstrap to create responsive and user-friendly
   websites that adapt to various devices and browsers?
-uri: do-you-use-twitter-bootstrap
+uri: do-you-use-bootstrap
 authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
