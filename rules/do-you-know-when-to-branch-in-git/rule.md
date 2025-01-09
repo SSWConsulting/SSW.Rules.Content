@@ -29,7 +29,7 @@ Using this strategy, **master** is always production-ready and deployable.
 
 <!--endintro-->
 
-![](finishing-a-feature-with-world-class-flow.jpg)
+![Finishing a Feature with World Class Flow](finishing-a-feature-with-world-class-flow.jpg)
 
 ::: greybox
 **Note:** This rule applies to git. For branching advice in TFVC, see [when to branch](/do-you-know-when-to-branch).
