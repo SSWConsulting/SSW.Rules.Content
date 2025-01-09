@@ -19,6 +19,7 @@ authors:
     url: https://ssw.com.au/people/gabriel-george
 related:
   - do-you-use-the-best-deployment-tool
+  - branch-naming
 redirects: []
 ---
 
@@ -70,11 +71,11 @@ Figure: Bad example - Branch name is not descriptive
 :::
 
 ```console
-git branch create-basic-web-application
+git branch feature/1234-create-basic-web-application
 ```
 
 ::: good
-Figure: Good example - Branch name describes the intent of the change
+Figure: Good example - Branch name describes the intent of the change and follows a [branch naming convention](/branch-naming)
 :::
 
 **It is critical that this branch always comes off master, not another feature branch. Master is the only branch that is mandated to be in a deployable state, so any other option is unsafe.**
