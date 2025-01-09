@@ -1,27 +1,28 @@
 ---
-seoDescription: Discover the best Web UI libraries for your projects. Learn about shadcn/ui for React and Bootstrap for general use, and explore other useful frameworks to enhance your web applications.
 type: rule
-archivedreason: 
 title: Do you use the best Web UI libraries?
-guid: ed0b5cce-5f87-4fe4-907d-d2100a77ef06
+seoDescription: Discover the best Web UI libraries for your projects. Learn
+  about shadcn/ui for React and Bootstrap for general use, and explore other
+  useful frameworks to enhance your web applications.
 uri: do-you-use-the-best-web-ui-libraries
-created: 2013-12-18T15:32:43.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Daniel Šmon
-  url: https://ssw.com.au/people/daniel-smon
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
-- title: Isaac Lombard
-  url: https://ssw.com.au/people/isaac-lombard
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Daniel Šmon
+    url: https://ssw.com.au/people/daniel-smon
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
+  - title: Isaac Lombard
+    url: https://ssw.com.au/people/isaac-lombard
 related: []
 redirects: []
-
+created: 2013-12-18T15:32:43.000Z
+archivedreason: null
+guid: ed0b5cce-5f87-4fe4-907d-d2100a77ef06
 ---
 
-Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://shadcn.dev/) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com/).
+Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://shadcn.dev/) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com/). When using Bootstrap it's best to opt for the framework specific integration of Bootstrap, for example Angular users would opt for [NgBootstrap](https://ng-bootstrap.github.io/#/home)
 
 <!--endintro-->
 
