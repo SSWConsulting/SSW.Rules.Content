@@ -19,11 +19,12 @@ redirects:
 
 ---
 
-Ensure your links are easily distinguishable from the background and surrounding text by **always making them underlined**. Users expect underlined texts to be a link; and links to be underlined. 
+Ensure your links are easily distinguishable from the background and surrounding text by **always making them underlined**. Users expect underlined texts to be a link; and links to be underlined.
 
 <!--endintro-->
 
 Keep in mind:
+
 * Underlines are **not** necessary on obvious links, like menu items or buttons
 * **Never underline a text that isn't a link** - Use bold or another styling if you need emphasis.
 
@@ -67,7 +68,7 @@ The default implementation of underlines in CSS is:
 
 ``` css
 text-decoration: underline;
-``` 
+```
 
 Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for example. In this case, you can even have a dotted underline. However, it's **not recommended** you use this method unless you are a designer and know what you are doing. It may create extra pixels in the interface, which can potentially cause other problems in your UI:
 
