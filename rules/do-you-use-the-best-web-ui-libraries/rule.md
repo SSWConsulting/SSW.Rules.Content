@@ -32,7 +32,7 @@ This is the best choice for React ecosystems. Shadcn/ui is more recent, but chan
 <TODO - locks you into Tailwind CSS>
 
 <TODO – tip to let you install / update all components>
-https://github.com/shadcn-ui/ui/discussions/790 "Need easy way to update components"
+<https://github.com/shadcn-ui/ui/discussions/790> "Need easy way to update components"
 
 * **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
 * **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
