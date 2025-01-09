@@ -29,7 +29,7 @@ Don't waste time evaluating which Web UI (Component) libraries to use. If you're
 
 This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
 
-<TODO - locks you into Tailwind CSS>
+It's builds off [radix-ui](https://www.radix-ui.com/) and [TailwindCSS](https://tailwindcss.com/) (the industry standard CSS framework).
 
 <TODO – tip, don't copy paste manually, use the cli>
 
@@ -40,7 +40,7 @@ This is the best choice for React ecosystems. Shadcn/ui is more recent, but chan
 * **Hybrid Approach**: Combines the benefits of a traditional UI library with flexibility, letting you customize components without being locked into specific styles or functionality.
 * **Modern Design System**: Comes with clean, accessible, and responsive components that follow modern design principles.
 
-V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways.
+V0 is the premier frontend code generation tool by Vercel. It has partnered with shadcn/ui to allow you to extend the clean, modern shadcn components in a myriad of ways. 
 It's also integrated with the shadcn/ui path alias conventions.
 See the related rule on [generating mockups with V0](https://www.ssw.com.au/rules/generate-ui-mockups-with-ai/).
 
