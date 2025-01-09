@@ -33,6 +33,7 @@ This is the best choice for React ecosystems. Shadcn/ui is more recent, but chan
 
 <TODO – tip, don't copy paste manually, use the cli>
 
+<Warning – this installs all the components>
 <TODO – tip to let you install / update all components>
 <https://github.com/shadcn-ui/ui/discussions/790> "Need easy way to update components"
 
