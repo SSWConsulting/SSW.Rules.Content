@@ -23,16 +23,8 @@ Ensure your links are easily distinguishable from the background and surrounding
 
 <!--endintro-->
 
-Keep in mind:
-
-* Underlines are **not** necessary on obvious links, like menu items or buttons
-* **Never underline a text that isn't a link** - Use bold or another styling if you need emphasis.
-
-::: greybox
-When you develop on SharePoint, you <u>do not</u> have a full copy of web.config in your Visual Studio project.
-:::
-::: bad  
-Figure: Bad example - Never underline the text when it isn't a link  
+::: info
+**Note:** Underlines are **not** necessary on obvious links, like **menu items** or **buttons**.
 :::
 
 ::: greybox
@@ -44,6 +36,24 @@ Figure: Good example - The link is nice and clear
 
 ::: info
 **Tip:** You can [use a different color on underlines](https://www.w3schools.com/cssref/css3_pr_text-decoration-color.asp) as a nice touch.
+:::
+
+## Never underline a text that isn't a link
+
+Use bold or another styling if you need emphasis.
+
+::: greybox
+When you develop on SharePoint, you <u>do not</u> have a full copy of web.config in your Visual Studio project.
+:::
+::: bad  
+Figure: Bad example - Never underline the text when it isn't a link  
+:::
+
+::: greybox
+When you develop on SharePoint, you **do not** have a full copy of web.config in your Visual Studio project.
+:::
+::: good  
+Figure: Good example - Using bold for emphasis  
 :::
 
 ## Include a hovering effect
@@ -60,7 +70,7 @@ a:hover {
 
 ### Avoid other effects on hover for text
 
-Effects like bold, scaling, rotation, or background changes can distort text, making it harder for users to read and interact with links.
+Effects like bold, scaling, rotation, or background changes can distort text, making it harder for users to read and interact with links. 
 
 ::: bad
 ![Figure: Bad example - Using bold on hovering may cause a text shift](bad-example-bold-hover.gif)
