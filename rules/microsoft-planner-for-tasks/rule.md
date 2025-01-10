@@ -22,7 +22,7 @@ By using Microsoft Planner, you can streamline recurring task management:
 
 * **Microsoft Planner** organizes and assigns tasks to team members, showing progress and status.
 
-### How to set it up in 3 steps
+### How to set it up in 2 steps
 
 1. **Select or create a Team in Microsoft Teams**
 
