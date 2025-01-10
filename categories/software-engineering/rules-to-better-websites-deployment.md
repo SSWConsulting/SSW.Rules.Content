@@ -10,6 +10,7 @@ index:
 - do-your-developers-deploy-manually
 - do-you-deploy-to-azure-from-team-foundation-service
 - handling-diacritics
+- npm-packages-version-symbols
 
 ---
 

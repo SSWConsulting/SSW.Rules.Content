@@ -21,9 +21,9 @@ These are the 3 columns (aka swim lanes) you need:
 
 <!--endintro-->
 
-- To do
-- In progress
-- Done
+* To do
+* In progress
+* Done
 
 ::: good  
 ![Figure: Good example - a virtual client task board in action](TFS Preview Task Board.png)  
@@ -37,10 +37,10 @@ Physical is OK too for small, co-located teams.
 
 Near your task board, stick an SSW "Want to submit a User Story?"
 
-- Where to find their project portal
-- Who to contact with questions
-- How to add tasks to the task board
+* Where to find their project portal
+* Who to contact with questions
+* How to add tasks to the task board
 
-[Print out this PDF](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/rules/the-war-room-does-your-scrum-room-have-the-best-scrum-image/8StepstoScrum.pdf) and fill in the 2 fields and stick it on own task board.
+[Print out this PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/the-war-room-does-your-scrum-room-have-the-best-scrum-image/8StepstoScrum.pdf) and fill in the 2 fields and stick it on own task board.
 
 ![Figure: Create an avatar for each person and stick them on the current task. You can find our User Story Cards here. You can write the Azure DevOps Work Item ID on each card](Avatar.jpg)

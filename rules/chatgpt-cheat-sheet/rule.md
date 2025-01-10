@@ -12,17 +12,17 @@ authors:
 created: 2023-04-14T19:11:11.002Z
 guid: c50ed7aa-1539-4ff9-a11c-d95cc0616d4e
 ---
-As ChatGPT becomes increasingly popular, users are discovering the most effective ways to prompt the AI for different scenarios. One way to compile this information is by putting it in easy to read graphics called cheat sheets. Cheat sheets can spark ideas that you would not have otherwise thought of!  
+As ChatGPT becomes increasingly popular, users are discovering the most effective ways to prompt the AI for different scenarios. One way to compile this information is by putting it in easy to read graphics called cheat sheets. Cheat sheets can spark ideas that you would not have otherwise thought of!
 
 <!--endintro-->
 
 ![Figure: SSW ChatGPT Cheat Sheet](chatgpt-cheat-sheet-bathroom-door.jpg)
 
-[Download "SSW ChatGPT Cheat Sheet" PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/chatgpt-cheat-sheet/ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf).
+[Download "SSW ChatGPT Cheat Sheet" PDF](ChatGPT-Cheat-sheet-Bathroom-Door-v2.pdf).
 
 ![Figure: SSW ChatGPT Cheat Sheet For Developers](ChatGPT-Cheat-Sheet-Devs-v2-2.jpg)
 
-[Download "ChatGPT Cheat Sheet For Developers" PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/chatgpt-cheat-sheet/ChatGPT-Cheat-Sheet-Devs-v2-2.pdf).
+[Download "ChatGPT Cheat Sheet For Developers" PDF](ChatGPT-Cheat-Sheet-Devs-v2-2.pdf).
 
 ::: greybox
 **Tip:** You can use ChatGPT to find a courteous and fun way to [correct somebody's mistake](/is-everyone-in-your-team-a-standards-watchdog).
@@ -77,6 +77,14 @@ Informal: *"In an informal tone, tell me why UX design matters for our app."*
 Funny: *"Share a funny anecdote about a marketing campaign that went wrong."*
 :::
 
+* Specify the response format (e.g. "describe point by point", "paragraph description")
+
+::: greybox
+Point-by-point description: *"Please describe the advantages of using React in points."*
+
+Paragraph description: *"Please describe the development process of C# in four paragraphs."*
+:::
+
 ## Some don’ts ❌
 
 * Don't ask leading questions. Don’t anchor ChatGPT.
@@ -103,10 +111,10 @@ According to Forbes, any data shared with ChatGPT could end up being leaked sinc
 
 It’s important to consider what a prompt is made up of. Here’s an example that breaks down the different components of a good prompt:
 
-* **Role** - *You are a Software Developer.*  
+* **Role** - *You are a Software Developer.*
 * **Result** - *Create 5 email subjects.*
-* **Context** - *The email is to inform all the developers about a UX problem with search.*  
-* **Intent** - *The goal is to get them to critique my YouTube video.*  
+* **Context** - *The email is to inform all the developers about a UX problem with search.*
+* **Intent** - *The goal is to get them to critique my YouTube video.*
 * **Constraint** - *Subject < 50 characters.*
 
 For more on this prompt structure, see: [Do you know the fundamentals of Prompt Engineering?](/fundamentals-of-prompt-engineering)

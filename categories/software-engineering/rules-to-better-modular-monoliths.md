@@ -7,6 +7,7 @@ index:
 - modular-monoliths
 - use-mass-transit
 - software-architecture-decision-tree
+- modular-monolith-testing
 
 ---
 

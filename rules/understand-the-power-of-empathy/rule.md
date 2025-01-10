@@ -10,6 +10,7 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
+  - handle-passive-aggressive-comments
 ---
 
 Empathy is the ability to put yourself in someone else’s shoes and understand what they’re feeling. In a deeply technical profession like software engineering, it might not sound like a useful tool but nothing is further from the truth.

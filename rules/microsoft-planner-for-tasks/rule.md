@@ -44,6 +44,8 @@ By using Microsoft Planner, you can streamline recurring task management:
 
 Planner has filters that can help only show you the tasks that are relevent for you to see right now. You should use the following "Due Date" filters:
 
+* **Reduce noise**: Tasks are only visibile in your Planner when they're supposed to be worked on, or if they're overdue.
+
 ![Figure: Limit the due dates so you don't have to look at tasks that are not due for ages](planner-filters.png)
 
 By centralising and automating task management, you improve accountability and can quickly identify if any tasks are slipping through the cracks. Adopt this method to keep your team organized and efficient.

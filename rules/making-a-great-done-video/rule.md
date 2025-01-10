@@ -13,6 +13,7 @@ related:
   - change-from-x-to-y
   - unique-office-backgrounds
   - production-do-you-know-the-correct-way-to-frame-your-subject
+  - monthly-stakeholder-video
 redirects:
   - key-things-for-making-a-great-done-video
 created: 2023-05-08T23:25:40.698Z
