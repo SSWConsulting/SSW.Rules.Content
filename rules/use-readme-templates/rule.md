@@ -7,6 +7,7 @@ seoDescription: Learn how to boost your GitHub Project's audience reach and
 uri: use-readme-templates
 authors:
   - title: Caleb Williams
+    url: https://www.ssw.com.au/people/caleb-williams/
 created: 2025-01-10T18:23:00.000Z
 guid: 0c108f17-9d2c-4253-a976-5d13b0e5ac3a
 ---
