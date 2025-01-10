@@ -10,8 +10,6 @@ authors:
 created: 2024-11-04T12:00:00.000Z
 guid: ef38bffb-9659-4101-b70b-c1def85a3a4b
 ---
-![]()
-
 Managing recurring tasks effectively can be a major challenge, especially when you don’t have visibility into whether tasks are completed on time or not.
 
 Previously, we relied on manual methods like recurring calendar appointments or reminders. However, these approaches made it difficult to track the status of tasks and understand each team member's workload. Microsoft Planner offers a better solution, allowing you to manage, automate, and gain insight into recurring tasks for your team.
