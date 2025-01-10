@@ -17,7 +17,7 @@ A README can often be a potential contributor's first impression of your project
 Having a README template ensures that you’re checking all of the boxes for ensuring that contributors have an easy time getting your project up and running and beneficiaries know how to use your code.
 README templates can be beneficial for ensuring your personal projects have the features necessary for gaining momentum and ensuring that projects done at an organizational level are up to a high standard.
 
-![Figure: ❌ Bad example - README created without a template](bad-readme.jpg)
+![Figure: ❌ Bad example - README created without a template](bad-readme.png)
 
 This README is very basic, the setup instructions are limited and there is room for improvement:
 
@@ -27,7 +27,7 @@ This README is very basic, the setup instructions are limited and there is room 
 * Multiple level headings
 * Known Issues
 
-![Figure: Good example - The ReadMe above clearly outlines the goals of the project and provides new developers with enough context to get started](good-readme.jpg)
+![Figure: Good example - The ReadMe above clearly outlines the goals of the project and provides new developers with enough context to get started](good-readme.png)
 
 It’s important to keep your README templates in a convenient place to ensure that you can quickly bootstrap a project when you get started.
 
@@ -41,13 +41,13 @@ Gold standard READMEs are primarily for public facing projects. They should prim
 
 Social media links, exciting graphics and entertaining explanation videos are of paramount importance so that the community remains invested and has a sense of ownership for the project.
 
-![Figure: A Gold standard README template](gold-standard-readme.jpg)
+![Figure: A Gold standard README template](gold-standard-readme.png)
 
 ### Silver standard READMEs
 
 The silver README standard prioritizes a smooth developer experience as well as making the project handover easier. Note how the social media links have been removed and instructions for setting up the project have been brought to the forefront at the top of the README. The instructions for contributing are also much more detailed.
 
-![Figure: A Silver standard README](silver-standard-readme.jpg)
+![Figure: A Silver standard README](silver-standard-readme.png)
 
 ### Bronze READMEs
 
@@ -55,4 +55,4 @@ The bronze README standard is designed for projects where scalability is a low p
 
 
 
-![Figure: A Bronze standard README](bronze-standard-readme.jpg)
+![Figure: A Bronze standard README](bronze-standard-readme.png)
