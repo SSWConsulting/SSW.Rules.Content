@@ -10,15 +10,20 @@ authors:
     url: https://www.ssw.com.au/people/caleb-williams/
 created: 2025-01-10T18:23:00.000Z
 guid: 0c108f17-9d2c-4253-a976-5d13b0e5ac3a
+
 ---
-A README can often be a potential contributor's first impression of your project. It communicates the project’s vision, how to contribute to the project and places where people can donate and installation instructions.
+
+A README can often be a potential contributor's first impression of your project. It communicates the project's vision, how to contribute to the project and places where people can donate and installation instructions.
 
 <!--endintro-->
 
 Having a README template ensures that you’re checking all of the boxes for ensuring that contributors have an easy time getting your project up and running and beneficiaries know how to use your code.
+
 README templates can be beneficial for ensuring your personal projects have the features necessary for gaining momentum and ensuring that projects done at an organizational level are up to a high standard.
 
-![Figure: ❌ Bad example - README created without a template](bad-readme.png)
+::: bad
+![Figure: Bad example - README created without a template](bad-readme.png)
+:::
 
 This README is very basic, the setup instructions are limited and there is room for improvement:
 
@@ -28,9 +33,11 @@ This README is very basic, the setup instructions are limited and there is room 
 * Multiple level headings
 * Known Issues
 
+::: good
 ![Figure: Good example - The ReadMe above clearly outlines the goals of the project and provides new developers with enough context to get started](good-readme.png)
+:::
 
-It’s important to keep your README templates in a convenient place to ensure that you can quickly bootstrap a project when you get started.
+It's important to keep your README templates in a convenient place to ensure that you can quickly bootstrap a project when you get started.
 
 ## What does an awesome README template look like?
 
@@ -53,7 +60,5 @@ The silver README standard prioritizes a smooth developer experience as well as 
 ### Bronze READMEs
 
 The bronze README standard is designed for projects where scalability is a low priority, and the scope of the project is limited. The README template should only be used to expedite making the repository public, or accessible to any contributing team members. In this case approaches to make the project more marketable take a back seat in favor of making the README quick and easy to digest.
-
-
 
 ![Figure: A Bronze standard README](bronze-standard-readme.png)
