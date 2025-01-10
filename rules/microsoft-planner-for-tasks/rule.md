@@ -16,21 +16,20 @@ Previously, we relied on manual methods like recurring calendar appointments or 
 
 <!--endintro-->
 
-### Why use Microsoft Planner?
+## Why use Microsoft Planner?
 
-By using Microsoft Planner, you can streamline recurring task management:
+By using Microsoft Planner, you can streamline recurring task management. It organizes and assigns tasks to team members, showing progress and status.
 
-* **Microsoft Planner** organizes and assigns tasks to team members, showing progress and status.
-
-### How to set it up in 3 steps
+### How to set it up in 2 steps
 
 1. **Select or create a Team in Microsoft Teams**
 
-   * Ideally it has all the people you want to manage these recurring tasks for. 
+   * Ideally it has all the people you want to manage these recurring tasks for
+ 
 2. **Create a Plan in Microsoft Planner**
 
-   * Use Microsoft Planner’s built-in recurrence feature to create tasks that repeat daily, weekly, monthly or at any specified interval.
-   * Example: Assign a task for team members to complete every Monday, such as sending a status update.
+   * Use Microsoft Planner’s built-in recurrence feature to create tasks that repeat daily, weekly, monthly or at any specified interval
+   * Example: Assign a task for team members to complete every Monday, such as sending a status update
 
 ![Figure: See your team's upcoming or outstanding recurring tasks](planner.png)
 
