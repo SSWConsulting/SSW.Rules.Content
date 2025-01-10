@@ -1,6 +1,7 @@
 ---
 type: rule
 archivedreason: 
+seoDescription: Hover effects on text links are a great way to enhance user experience and make your website more interactive. 
 title: Do you use underlines on links?
 guid: b55df040-7424-48e4-b19b-14d4bcdcfbc7
 uri: underlined-links
