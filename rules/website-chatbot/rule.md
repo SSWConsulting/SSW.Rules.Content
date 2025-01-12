@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/khaled-albahsh/
   - title: Manu Gulati
     url: https://www.ssw.com.au/people/manu-gulati
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
 related: null
 redirects: null
 created: 2023-08-23T03:50:10.000Z
@@ -29,35 +31,24 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 ### Factors to consider
 
-##### Development Effort/Cost
+Depending on your intended use, some factors will be more or less important to you.
 
 * **Custom Built vs 3rd Party Service**: Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front
 * **Pre-built/Drag-and-Drop Builders**: Simplifies creation without coding
 * **Documentation & Support**: Bad documentation can make a simple product hard to use - incurring more costs
-
-##### Performance
-
-* **Responses**: Smooth and natural responses that answer questions while understanding context
+* **Performance**: Smooth and natural responses that answer questions while understanding context
 * **Visual Design**: Aligns with brand aesthetics
-* **Content Tailoring**: Adapts responses to fit brand voice
-
-##### Research and Training
-
+* **Customization**: Adapts responses to fit brand voice, and is not tricked by misleading questions
 * **API Support**: API integration if you might want to use it in other applications
 * **Data Syncing**: How often does it refresh it data from your website?
-
-##### Scalability
-
-* **Traffic Management**: Handles varying user traffic levels
-* **Data Storage**: Manages increasing user data
+* **Traffic Management**: Handles increasing traffic load
+* **Scalability**: Manages increasing user data
 * **Knowledge Base** There is usually a limit in 3rd party chatbots e.g. Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text
-
-##### Handling Curveballs
-
-* **Adaptive Responses**: Adjusts to unexpected user inputs
-* **Feedback Loop**: Improves from past interactions
 * **Human Agent Referral**: Transfers smoothly to a human if needed
-* **Response Filtering**: Is not tricked by misleading questions
+
+::: img-medium
+![Figure: A drag and drop interface on the [Botpress](https://botpress.com) platform](botpress-interface.png)
+:::
 
 ### Comparing platforms
 
@@ -65,15 +56,15 @@ The first decision is to choose between using a 3rd party chatbot service (e.g. 
 
 | Factor                      | Directly from an API (e.g. OpenAI) | 3rd Party              |
 | --------------------------- | ---------- | ---------------------- |
-| Development effort and cost | Very High  | Low                    |
-| Control                     | Very High  | Moderate               |
-| Cost to Train               | Very Low   | Very Low               |
-| Knowledge Base Limits       | Unlimited  | Limited but Sufficient |
+| Development effort and cost | High  | Low                    |
+| Control                     | High  | Moderate               |
+| Cost to Train               | Low   | Low               |
+| Knowledge Base Limits       | Unlimited  | Limited but sufficient |
 | Cost per Message            | Moderate   | High                   |
 
 Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology.
 
-### Using a 3rd Party service
+### Creating a chatbot using a 3rd party service
 
 After creating your account and starting a new project, you should:
 
@@ -85,9 +76,7 @@ After creating your account and starting a new project, you should:
 
 ### Creating a chatbot using an API (e.g. OpenAI API)
 
-The following provides a very high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation please watch:
-`youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
-**Video: Exploring the Capabilities of ChatGPT | Calum Simpson | User Group (132 mins)**
+Here is a high level description of creating a chatbot from scratch using the OpenAI API. For a more in-depth explanation, see the video below.
 
 1. Convert your knowledge base into embeddings
 2. Store embeddings and their corresponding text content in a vector database
@@ -99,7 +88,12 @@ The following provides a very high level description of creating a chatbot from 
    5. Wait for OpenAI to generate a response. Present the response to the user.
 4. Create a chatbot front-end widget
 
-As you can see, developing a chatbot from scratch using the OpenAI API requires significant development effort and expertise. 3rd party chatbots on the other hand are much easier to program and embed on your website. As a rough estimate assume it will take a developer 20 days to build a custom chatbot - or $20K up front (assuming the developer costs $1000/day. Assuming a $399/month subscription of Chatbase on the other hand, it would take the custom solution over 4 years just to break even.
+Going deeper with an in-depth explanation:
+
+`youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
+**Video: Exploring the Capabilities of ChatGPT | Calum Simpson | User Group (132 mins)**
+
+As you can see, developing a chatbot from scratch using the OpenAI API requires significant development effort and expertise. 3rd party chatbots are easier to program and embed on your website. As a rough estimate assume it will take a developer 20 days to build a custom chatbot - or $20K up front (assuming the developer costs $1000/day. Assuming a $399/month subscription of Chatbase on the other hand, it would take the custom solution over 4 years just to break even.
 
 However, custom built chatbots provide a lot more control in how you train the AI model, what content you match the user query with, and what system message you provide the GPT engine to respond to a user’s query. You don’t get this level of control with 3rd party chatbots. The backend of custom built solutions can also be leveraged to serve multiple chatbots supporting completely different use cases. For e.g. one chatbot could provide basic company info to visitor’s on the company website, while a second chatbot could help employees find info on the company Intranet.
 
@@ -107,7 +101,7 @@ Cost to train the chatbot on your knowledge base is very inexpensive in both opt
 
 #### Chatbase vs Botpress - 2 popular solutions
 
-If you decide to go with a 3rd party service, you might be torn between 2 popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/).
+If you go with a 3rd party service, you might be torn between 2 popular platforms: [Botpress](https://botpress.com/) and [Chatbase](https://www.chatbase.co/).
 
 `youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
 **Video: Do you know the best chatbot for your website? (8 min)**
