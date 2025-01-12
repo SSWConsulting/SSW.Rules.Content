@@ -1,7 +1,9 @@
 ---
-seoDescription: Microsoft Teams users can schedule important messages and reminders with Send Later, a convenient built-in tool that allows for exact date and time control.
 type: rule
-title: Do you know how to send delayed message in Microsoft Teams?
+title: Do you send delayed messages in Microsoft Teams?
+seoDescription: Microsoft Teams users can schedule important messages and
+  reminders with Send Later, a convenient built-in tool that allows for exact
+  date and time control.
 uri: send-delayed-message-in-microsoft-teams
 authors:
   - url: https://www.ssw.com.au/people/jimmy-chen
@@ -47,10 +49,15 @@ With this feature, you can schedule messages to be sent at the right time, ensur
 
    - When working across time zones, your working hours might align with someone else’s rest time. Scheduled messages ensure your communication doesn’t interrupt their sleep or personal time.
 
+4. **Ensuring Timely Delivery**
+
+   - Make sure they receive the message at the right time. For example, if you want Bob to do a task on Friday, you can send a delayed message on Friday morning.
 ---
 
 ::: good
 ![Figure: Good example - Sending a delayed message to Sue that is to be received at 9 am UK Timezone](Delayed-Message-Good-Example.png)
 :::
+
+You might want to add “(this is a delayed message)” or specify an exact time, like 8 AM or 3:30 PM, so they know the message was sent later.
 
 By using the delayed message feature in Microsoft Teams, you can communicate more thoughtfully and foster a better work environment for everyone—no matter the time zone.
