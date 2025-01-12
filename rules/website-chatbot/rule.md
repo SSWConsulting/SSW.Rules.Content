@@ -61,8 +61,9 @@ Choosing the right chatbot service for your website can be a challenging task. W
 * **Human Agent Referral**: Transfers smoothly to a human if needed
 * **Response Filtering**: Is not tricked by misleading questions
 
-
+::: img-medium
 ![Figure: Example of a drag and drop interface by using [Botpress](https://botpress.com/)](botpress-interface.png)
+:::
 
 ### Comparing platforms
 
