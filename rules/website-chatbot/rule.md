@@ -30,6 +30,7 @@ Choosing the right chatbot service for your website can be a challenging task. W
 <!--endintro-->
 
 ### Factors to consider
+
 Depending on your intended use, some factors will be more or less important to you.
 
 * **Custom Built vs 3rd Party Service**: Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front
@@ -87,13 +88,10 @@ Here is a high level description of creating a chatbot from scratch using the Op
    5. Wait for OpenAI to generate a response. Present the response to the user.
 4. Create a chatbot front-end widget
 
-
 Going deeper with an in-depth explanation:
-
 
 `youtube: https://www.youtube.com/watch?v=9cUciEMUcnA&t=884s`
 **Video: Exploring the Capabilities of ChatGPT | Calum Simpson | User Group (132 mins)**
-
 
 As you can see, developing a chatbot from scratch using the OpenAI API requires significant development effort and expertise. 3rd party chatbots are easier to program and embed on your website. As a rough estimate assume it will take a developer 20 days to build a custom chatbot - or $20K up front (assuming the developer costs $1000/day. Assuming a $399/month subscription of Chatbase on the other hand, it would take the custom solution over 4 years just to break even.
 
