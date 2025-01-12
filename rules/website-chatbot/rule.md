@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/khaled-albahsh/
   - title: Manu Gulati
     url: https://www.ssw.com.au/people/manu-gulati
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
 related: null
 redirects: null
 created: 2023-08-23T03:50:10.000Z
@@ -58,6 +60,9 @@ Choosing the right chatbot service for your website can be a challenging task. W
 * **Feedback Loop**: Improves from past interactions
 * **Human Agent Referral**: Transfers smoothly to a human if needed
 * **Response Filtering**: Is not tricked by misleading questions
+
+
+![Figure: Example of a drag and drop interface by using [Botpress](https://botpress.com/)](botpress-interface.png)
 
 ### Comparing platforms
 
