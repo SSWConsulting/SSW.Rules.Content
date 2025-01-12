@@ -30,39 +30,23 @@ Choosing the right chatbot service for your website can be a challenging task. W
 <!--endintro-->
 
 ### Factors to consider
-
-##### Development Effort/Cost
+Depending on your intended use, some factors will be more or less important to you.
 
 * **Custom Built vs 3rd Party Service**: Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front
 * **Pre-built/Drag-and-Drop Builders**: Simplifies creation without coding
 * **Documentation & Support**: Bad documentation can make a simple product hard to use - incurring more costs
-
-##### Performance
-
-* **Responses**: Smooth and natural responses that answer questions while understanding context
+* **Performance**: Smooth and natural responses that answer questions while understanding context
 * **Visual Design**: Aligns with brand aesthetics
-* **Content Tailoring**: Adapts responses to fit brand voice
-
-##### Research and Training
-
+* **Customization**: Adapts responses to fit brand voice, and is not tricked by misleading questions
 * **API Support**: API integration if you might want to use it in other applications
 * **Data Syncing**: How often does it refresh it data from your website?
-
-##### Scalability
-
-* **Traffic Management**: Handles varying user traffic levels
-* **Data Storage**: Manages increasing user data
+* **Traffic Management**: Handles increasing traffic load
+* **Scalability**: Manages increasing user data
 * **Knowledge Base** There is usually a limit in 3rd party chatbots e.g. Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text
-
-##### Handling Curveballs
-
-* **Adaptive Responses**: Adjusts to unexpected user inputs
-* **Feedback Loop**: Improves from past interactions
 * **Human Agent Referral**: Transfers smoothly to a human if needed
-* **Response Filtering**: Is not tricked by misleading questions
 
 ::: img-medium
-![Figure: Example of a drag and drop interface by using [Botpress](https://botpress.com/)](botpress-interface.png)
+![Figure: A drag and drop interface on the [Botpress](https://botpress.com) platform](botpress-interface.png)
 :::
 
 ### Comparing platforms
@@ -71,10 +55,10 @@ The first decision is to choose between using a 3rd party chatbot service (e.g. 
 
 | Factor                      | Directly from an API (e.g. OpenAI) | 3rd Party              |
 | --------------------------- | ---------- | ---------------------- |
-| Development effort and cost | Very High  | Low                    |
-| Control                     | Very High  | Moderate               |
-| Cost to Train               | Very Low   | Very Low               |
-| Knowledge Base Limits       | Unlimited  | Limited but Sufficient |
+| Development effort and cost | High  | Low                    |
+| Control                     | High  | Moderate               |
+| Cost to Train               | Low   | Low               |
+| Knowledge Base Limits       | Unlimited  | Limited but sufficient |
 | Cost per Message            | Moderate   | High                   |
 
 Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology.
