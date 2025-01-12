@@ -8,6 +8,8 @@ uri: use-readme-templates
 authors:
   - title: Caleb Williams
     url: https://www.ssw.com.au/people/caleb-williams/
+related: 
+  - awesome-readme
 created: 2025-01-10T18:23:00.000Z
 guid: 0c108f17-9d2c-4253-a976-5d13b0e5ac3a
 ---
