@@ -2,8 +2,7 @@
 type: rule
 tips: ""
 title: Do you use README templates?
-seoDescription: Learn how to boost your GitHub Project's audience reach and
-  impact with README Templates
+seoDescription: Learn how to boost your GitHub Project's audience reach and impact with README Templates.
 uri: use-readme-templates
 authors:
   - title: Caleb Williams
@@ -47,7 +46,7 @@ The templates should vary depending on the overall goal of the project. As you g
 
 ### Gold standard READMEs
 
-Gold standard READMEs are primarily for public facing projects. They should primarily focus on getting the audience invested and excited to see the project succeed. This fosters a healthy community that will band together to see the project succeed
+Gold standard READMEs are primarily for public facing projects. They should primarily focus on getting the audience invested and excited to see the project succeed. This fosters a healthy community that will band together to see the project succeed.
 
 Social media links, exciting graphics and entertaining explanation videos are of paramount importance so that the community remains invested and has a sense of ownership for the project.
 
@@ -59,7 +58,7 @@ The silver README standard prioritizes a smooth developer experience as well as 
 
 ![Figure: A Silver standard README](silver-standard-readme.png)
 
-### Bronze READMEs
+### Bronze standard READMEs
 
 The bronze README standard is designed for projects where scalability is a low priority, and the scope of the project is limited. The README template should only be used to expedite making the repository public, or accessible to any contributing team members. In this case approaches to make the project more marketable take a back seat in favor of making the README quick and easy to digest.
 
