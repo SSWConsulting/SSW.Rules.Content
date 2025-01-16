@@ -123,18 +123,15 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 ✅ **Pros:**
 
 * Content - Supports Markdown
-* Navigation - Has nice navigation on the left
+* Editing - user-friendly WYSIWYG editor
 * Copying Code - Supports easy copying and pasting of code elements
-* Branding via custom React components
+* Customization - Freedom to build custom React components
 * Seamless with GitHub - Allows for pull requrests and suggestions
-* Integration with Google Analytics
 * Internationalization (i18n) support
-* User-friendly interface for both developers and content creators
 * Pricing - Free for small projects and flexible pricing for larger ones
-* Hosting - option to self-host (free) or use TinaCloud (paid)
+* Hosting - free to choose - no lock in
 * Works with Docusaurus
 
 ❌ **Cons:**
 
-* Themes/Design - Requires custom frontend development
-* Ecosystem - Fewer readily-available plugins, extensions, and third-party tools
+Developer investment - You get the best experience by taking the time to develop custom components 
