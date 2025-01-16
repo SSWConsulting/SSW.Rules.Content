@@ -22,7 +22,7 @@ redirects:
 
 ## Developer Documentation
 
-Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki. Whatabout end user documentation?
+Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki. What about end user documentation?
 
 <!--endintro-->
 
