@@ -20,7 +20,7 @@ redirects:
   - do-you-produce-the-best-end-user-documentation
 ---
 
-`youtube: https://www.youtube.com/embed/yfbKXqRAgOA`
+`youtube: https://www.youtube.com/watch?v=2bHBwM54UB8`
 
 <!--endintro-->
 
@@ -98,7 +98,7 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 * Solo maintainer
 * Clunky menu system
 
-### Option 5: Docusaurus (recommended)
+### Option 5: Docusaurus
 
 [docusaurus.io](https://docusaurus.io/)
 
@@ -119,3 +119,24 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 ❌ **Cons:**
 
 * Need to self-host
+
+### Option 6: TinaCMS (recommended)
+
+✅ **Pros:**
+
+* Content - Supports Markdown
+* Navigation - Has nice navigation on the left
+* Copying Code - Supports easy copying and pasting of code elements
+* Branding via custom React components
+* Seamless with GitHub - Allows for pull requrests and suggestions
+* Integration with Google Analytics
+* Internationalization (i18n) support
+* User-friendly interface for both developers and content creators
+* Pricing - Free for small projects and flexible pricing for larger ones
+* Hosting - option to self-host (free) or use TinaCloud (paid)
+* Works with Docusaurus
+
+❌ **Cons:**
+
+* Themes/Design - Requires custom frontend development
+* Ecosystem - Fewer readily-available plugins, extensions, and third-party tools
