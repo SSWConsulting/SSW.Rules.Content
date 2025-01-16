@@ -24,9 +24,7 @@ Ensure your links are easily distinguishable from the background and surrounding
 
 <!--endintro-->
 
-::: info
-**Note:** Underlines are **not** necessary on obvious links, like **menu items** or **buttons**.
-:::
+**Note:** Underlines are **not** necessary on obvious links, like **menu/breadcrumb items** or **buttons**. On the other hand, hover effect (see more below) should always exist.
 
 ::: greybox
 For more information on this, please go to [SSW website](https://www.ssw.com.au).
