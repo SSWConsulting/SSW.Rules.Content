@@ -4,9 +4,10 @@ tips: ""
 title: Do you follow the Double Diamond design process?
 uri: double-diamond
 authors:
-  - title: ""
   - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo/
   - title: Pravin Kumar
+    url: https://www.ssw.com.au/people/pravin-kumar/
 guid: 5258b82c-86a4-4cc1-91eb-e68626e3b491
 ---
 The **Double Diamond design process** is a structured framework developed by the British Design Council, aimed at fostering creativity, collaboration, and clarity in problem-solving. It is divided into two main phases, each consisting of two key stages:
