@@ -2,6 +2,10 @@
 type: rule
 tips: ""
 title: Do you follow the Double Diamond design process?
+seoDescription: Learn how the Double Diamond design process enhances User
+  Experience (UX) Design by fostering user-centered solutions through structured
+  problem exploration, creative ideation, and iterative development. Improve
+  your design outcomes with this proven framework.
 uri: double-diamond
 authors:
   - title: Tiago Araujo
