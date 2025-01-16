@@ -20,13 +20,11 @@ redirects:
   - do-you-produce-the-best-end-user-documentation
 ---
 
-`youtube: https://www.youtube.com/watch?v=2bHBwM54UB8`
-
-<!--endintro-->
-
 ## Developer Documentation
 
-Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki.
+Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki. Whatabout end user documentation?
+
+<!--endintro-->
 
 ## End-User Documentation
 
