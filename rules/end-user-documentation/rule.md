@@ -134,4 +134,4 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 
 ❌ **Cons:**
 
-Developer investment - You get the best experience by taking the time to develop custom components 
+Developer investment - You get the best experience by taking the time to develop custom components
