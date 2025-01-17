@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know if Google has indexed your page?
+title: Basics - Do you know if Google has indexed your page?
 guid: cfa0fe53-9bc7-4089-9972-046c982c2059
 uri: page-indexed-by-google
 created: 2015-11-09T18:03:57.0000000Z
