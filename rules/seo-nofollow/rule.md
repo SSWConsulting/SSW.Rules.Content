@@ -1,6 +1,6 @@
 ---
 type: rule
-title: SEO - Do you tag external URLs with rel=”nofollow”?
+title: Technical - Do you tag external URLs with rel=”nofollow”?
 uri: seo-nofollow
 authors:
   - title: Camilla Rosa Silva
