@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use meta description tags?
+title: On-page - Do you use meta description tags?
 seoDescription: Based on the provided MD/MDX content, I'll generate an SEO
   description for you. Please provide the content below, and I'll create a
   concise, 150-160 character-long description that includes primary keywords and
