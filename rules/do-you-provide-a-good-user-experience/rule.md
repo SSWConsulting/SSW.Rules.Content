@@ -2,7 +2,7 @@
 seoDescription: Provide a seamless user experience on your website to boost conversions and drive business growth.
 type: rule
 archivedreason:
-title: Do you provide a good user experience?
+title: Basics - Do you provide a good user experience?
 guid: db1d98ec-caf9-489e-b84a-cf8f13f2080d
 uri: do-you-provide-a-good-user-experience
 created: 2019-04-17T05:36:38.0000000Z
