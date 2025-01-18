@@ -1,7 +1,7 @@
 ---
 seoDescription: PageRank's relevance has been disputed as Google removed it from Webmaster Tools and only updates it infrequently.
 type: rule
-archivedreason:
+archivedreason: Page Rank became outdated 10 years ago
 title: Do you know PageRank is no longer relevant?
 guid: d0683f77-9bd1-4cf4-99c4-17278c4e13c7
 uri: page-rank-is-no-longer-relevant
