@@ -1,7 +1,7 @@
 ---
 seoDescription: Responsive web design ensures a seamless user experience across various devices and screen sizes by dynamically adjusting layout and content presentation based on the user's device.
 type: rule
-title: Do you design websites and apps to be responsive (aka mobile-friendly)?
+title: On-page - Do you design websites and apps to be responsive (aka mobile-friendly)?
 uri: responsive-design
 authors:
   - title: Adam Cogan
