@@ -2,7 +2,7 @@
 seoDescription: Get found by customers searching for local services near you!
 type: rule
 archivedreason:
-title: Do you have a Google My Business (aka Places) entry?
+title: Basics - Do you have a Google My Business (aka Places) entry?
 guid: c496783a-d780-451b-8eef-cb4a9d82ae66
 uri: have-a-google-places-entry
 created: 2015-11-10T20:36:16.0000000Z
