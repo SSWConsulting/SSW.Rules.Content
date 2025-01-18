@@ -1,7 +1,7 @@
 ---
 seoDescription: Do you monitor your SEO effectively?
 type: rule
-title: Do you monitor your SEO effectively?
+title: Reporting - Do you monitor your SEO effectively?
 uri: monitor-seo-effectively
 authors:
   - title: Camilla Rosa Silva
