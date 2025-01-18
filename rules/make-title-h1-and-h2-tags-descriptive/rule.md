@@ -1,6 +1,6 @@
 ---
 type: rule
-title: SEO - Do you make your "title", "h1", and "h2" tags descriptive?
+title: On-page - Do you make your "title", "h1", and "h2" tags descriptive?
 uri: make-title-h1-and-h2-tags-descriptive
 authors:
   - title: Adam Cogan
