@@ -1,7 +1,7 @@
 ---
 seoDescription: Optimize your website's speed to ensure a seamless user experience and boost conversions.
 type: rule
-title: Do you have a good page speed?
+title: Technical - Do you have a good page speed?
 uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
