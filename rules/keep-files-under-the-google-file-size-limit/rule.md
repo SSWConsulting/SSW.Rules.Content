@@ -2,7 +2,7 @@
 seoDescription: Google's search appliance has a file size limit of 500kb and may ignore files larger than 30MB.
 type: rule
 archivedreason:
-title: Do you keep your files under the Google file size limit?
+title: Technical - Do you keep your files under the Google file size limit?
 guid: 2dce17ea-4786-4f31-a919-e1b36a044a26
 uri: keep-files-under-the-google-file-size-limit
 created: 2015-11-10T19:57:28.0000000Z
