@@ -24,9 +24,9 @@ A maximum file size may be enforced per crawler. Content which is after the maxi
 
 Regarding other files:
 
-- All files larger than 30MB will be completely ignored.
-- HTML, the search appliance indexes up to 2.5MB of the document, caches it, and discards the rest.
-- A non-HTML format, the search appliance:
+* All files larger than 30MB will be completely ignored.
+* HTML, the search appliance indexes up to 2.5MB of the document, caches it, and discards the rest.
+* A non-HTML format, the search appliance:
 
 1. Downloads the non-HTML file.
 2. Converts the non-HTML file to HTML.

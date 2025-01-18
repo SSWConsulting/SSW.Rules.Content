@@ -21,8 +21,8 @@ Did you know that all pilots around the world must speak English? Back then, the
 
 If you are an Australian or British this rule is controversial, but it is worth it for the following reasons:
 
-- Aim for the majority. Most web traffic is from American users and they expect American (most probably will assume anything different is an error)
-- SEO - On the practical side, more web searches are going to be returned for US spelling of words.
+* Aim for the majority. Most web traffic is from American users and they expect American (most probably will assume anything different is an error)
+* SEO - On the practical side, more web searches are going to be returned for US spelling of words.
 
 ::: good  
 ![Figure: Good example - the US English is the selected language](SetLanguageUS.png)  

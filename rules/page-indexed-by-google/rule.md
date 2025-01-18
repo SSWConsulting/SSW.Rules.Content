@@ -26,9 +26,7 @@ If you can't find it, go to [Google's Search Console](https://www.google.com/web
 
 **Note:** Internal pages should be crawled automatically, so you only need to inform the root of the site.
 
-### WordPress 
-   
-
+### WordPress
 
 If your website is built on WordPress, make sure you have unselected the "Discourage search engines from indexing this site" option. This can be found under      **Reading Settings** :
 
