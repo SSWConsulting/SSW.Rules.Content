@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you use "301" code to redirect renamed or moved pages?
+title: Technical - Do you use "301" code to redirect renamed or moved pages?
 uri: use-301-redirect-on-renamed-or-moved-pages
 authors:
   - title: Adam Cogan
