@@ -83,6 +83,6 @@ Your default mode should be that if you say you'll do something, you check to se
 
 Once you start thinking in terms of professional integrity, you will always be trying to under promise and over deliver, and the easiest way to do this consistently is to start adding some contingency buffers to your estimates.
 
-- Change from "I'll be there in 5 minutes" to "I'll be there in 15 minutes"
-- Change from setting 30 minute appointments to 1 or 2 hour appointments when needed
-- Change from estimating best case scenarios to closer to worst case scenarios
+* Change from "I'll be there in 5 minutes" to "I'll be there in 15 minutes"
+* Change from setting 30 minute appointments to 1 or 2 hour appointments when needed
+* Change from estimating best case scenarios to closer to worst case scenarios
