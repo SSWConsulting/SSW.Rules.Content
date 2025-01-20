@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you take steps to be clear when sending dates to others?
-seoDescription: Sending clear dates in emails and appointments
+seoDescription: Enhance date clarity by adding weekdays alongside dates. Improve readability and organization for schedules, calendars, and event planning.
 uri: add-days-to-dates
 authors:
   - title: Adam Cogan
