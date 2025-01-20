@@ -19,7 +19,7 @@ Here's a list of the best AI tools for various categories (visit their websites 
 ⭐ = recommended
 💲 = paid
 
-Note: most of the paid ones have a free trial, though you usually don't get full functionality.
+Note: most of the paid ones have a free trial, though you usually don't get full functionality
 
 ## Writing/coding
 
