@@ -9,6 +9,7 @@ index:
 - professional-integrity-tools
 - strong-suits
 - do-you-manage-up
+- follow-up-effectively
 - do-you-know-the-5-dysfunctions-of-a-team
 - teamwork-pillars
 - chase-the-product-owner-for-clarification
