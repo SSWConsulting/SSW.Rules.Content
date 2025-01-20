@@ -8,6 +8,8 @@ authors:
     url: https://ssw.com.au/people/billy-terblanche
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - right-format-to-show-phone-numbers
   - add-useful-and-concise-figure-captions
