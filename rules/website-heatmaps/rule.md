@@ -2,7 +2,7 @@
 seoDescription: Discover how heatmaps of your website can help you identify and improve user engagement, conversion rates and overall site performance.
 type: rule
 archivedreason:
-title: Do you track website heatmaps?
+title: Reporting - Do you track website heatmaps?
 guid: 81583552-1cc9-42ae-9709-fb473a852bc6
 uri: website-heatmaps
 created: 2018-08-16T23:22:33.0000000Z

@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know the importance of measuring Core Web Vitals?
+title: Technical - Do you know the importance of measuring Core Web Vitals?
 uri: core-web-vitals
 authors:
   - title: Harry Ross

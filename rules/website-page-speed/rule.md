@@ -1,7 +1,7 @@
 ---
 seoDescription: Optimize your website's speed to ensure a seamless user experience and boost conversions.
 type: rule
-title: Do you have a good page speed?
+title: Technical - Do you have a good page speed?
 uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
@@ -34,9 +34,9 @@ Bad example - Things that will negatively impact the website UX
 ::: greybox
 On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins. These optimizations contribute to:
 
-- Faster page loading
-- Enhancing user satisfaction
-- Increasing the chances of retaining visitors and conversions
+* Faster page loading
+* Enhancing user satisfaction
+* Increasing the chances of retaining visitors and conversions
 
 :::
 ::: good
