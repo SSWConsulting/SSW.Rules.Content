@@ -12,7 +12,9 @@ authors:
 related:
   - when-you-use-mentions-in-a-pbi
   - avoid sending-unnecessary-messages   
-  - use-quiet-hours-in-teams      
+  - use-quiet-hours-in-teams
+  - work-in-order-of-importance-aka-priorities
+  - 4-quadrants-important-and-urgent 
 redirects:
   - interruptions-do-you-know-that-im-interrupts
 ---
