@@ -26,7 +26,7 @@ jobs:
         env:
           PR_METRICS_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          base-size: 1
+          base-size: 20
           growth-rate: 2.0
           test-factor: 0
           code-file-extensions: |
