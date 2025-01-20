@@ -2,7 +2,7 @@
 seoDescription: Format dates to include weekdays using calculated columns and formulas in SharePoint.
 type: rule
 archivedreason:
-title: Do you know how to format dates to include the weekday?
+title: Do you know how to format dates to include the weekday in SharePoint?
 guid: 11a7a554-2fd9-4dad-a588-a06f7e56c68f
 uri: do-you-know-how-to-format-dates-to-include-the-weekday
 created: 2009-06-26T10:07:46.0000000Z
@@ -20,11 +20,11 @@ Format dates to include weekdays using calculated columns and formulas in ShareP
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - using the default Date Format](BadDateFormat.gif)
+![Figure: Bad example - Using the default Date Format](BadDateFormat.gif)
 :::
 
 ::: good
-![Figure: Good example - using the Date Format with 'ddd'](GoodDateFormat.gif)
+![Figure: Good example - Using the Date Format with 'ddd'](GoodDateFormat.gif)
 :::
 
 ## How do you do this?
