@@ -23,6 +23,7 @@ To ensure complete clarity, you should always include the **day of the week** al
 <!--endintro-->
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | SSWSydney |
@@ -30,13 +31,13 @@ To ensure complete clarity, you should always include the **day of the week** al
 | Subject: | Penny - Working from the Sydney office for 3 days |  
 ::: email-content
 
-### Hi Sydney Team,
+### Hi Sydney Team
 
 As per my conversation with Uly, I will be visiting your office for 3 days (**16th Sep** to **18th Sep**) to:
 
 1. Run the Angular 2-Day Workshop
-   
-Looking forward to seeing you all!   
+
+Looking forward to seeing you all!
 Penny
 
 :::  
@@ -46,6 +47,7 @@ Figure: Bad example - The team know what dates you're coming, but it's not clear
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | SSWSydney |
@@ -53,13 +55,13 @@ Figure: Bad example - The team know what dates you're coming, but it's not clear
 | Subject: | Penny - Working from the Sydney office for 3 days |  
 ::: email-content
 
-### Hi Sydney Team,
+### Hi Sydney Team
 
 As per my conversation with Uly, I will be visiting your office for 3 days (**Mon 16th Sep** to **Wed 18th Sep**) to:
 
 1. Run the Angular 2-Day Workshop
-   
-Looking forward to seeing you all!   
+
+Looking forward to seeing you all!
 Penny
 
 :::  
@@ -71,7 +73,7 @@ Figure: Good example - Having the day of the week next to the date makes it easy
 
 ## Use abbreviations
 
-Using abbreviations is a great idea because they save space by conveying information in a more compact form, which is especially useful for tight layouts or designs. They also improve readability by reducing clutter, making content easier to scan and understand quickly. 
+Using abbreviations is a great idea because they save space by conveying information in a more compact form, which is especially useful for tight layouts or designs. They also improve readability by reducing clutter, making content easier to scan and understand quickly.
 
 ### Weekdays Table
 
