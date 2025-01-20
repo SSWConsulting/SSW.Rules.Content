@@ -33,11 +33,11 @@ To ensure complete clarity, you should always include the **day of the week** al
 | Subject: | Penny - Working from the Sydney office for 3 days |  
 ::: email-content
 
-### Hi Sydney team
+### Hi Sydney team,
 
-As per my conversation with Uly, I will be visiting your office for 3 days (**16th Sep** to **18th Sep**) to run the Angular Workshop.
+I'll be visiting your office for 3 days (**16th Sep** to **18th Sep**) to run the Angular Workshop.
 
-Looking forward to seeing you all!
+Looking forward to seeing you all!   
 Penny
 
 :::  
@@ -55,14 +55,15 @@ Figure: Bad example - The team know what dates you're coming, but it's not clear
 | Subject: | Penny - Working from the Sydney office for 3 days |  
 ::: email-content
 
-### Hi Sydney team
+### Hi Sydney team,
 
-As per my conversation with Uly, I will be visiting your office for 3 days (**Mon 16th Sep** to **Wed 18th Sep**) to run the Angular Workshop.
+I'll be visiting your office for 3 days (**Mon 16th Sep** to **Wed 18th Sep**) to run the Angular Workshop.
 
-Looking forward to seeing you all!
+Looking forward to seeing you all!   
 Penny
 
-:::  
+:::
+:::
 ::: good  
 Figure: Good example - Having the day of the week next to the date makes it easy for the team to know exactly when you're visting
 :::
