@@ -28,18 +28,16 @@ To ensure complete clarity, you should always include the **day of the week** al
 
 | | |
 | -------- | --- |
-| To: | SSWSydney |
+| To: | SSW Sydney |
 | Cc: | Uly |
 | Subject: | Penny - Working from the Sydney office for 3 days |  
 ::: email-content
 
 ### Hi Sydney Team
 
-As per my conversation with Uly, I will be visiting your office for 3 days (**16th Sep** to **18th Sep**) to:
+As per my conversation with Uly, I will be visiting your office for 3 days (**16th Sep** to **18th Sep**) to run the Angular Workshop.
 
-1. Run the Angular 2-Day Workshop
-
-Looking forward to seeing you all!
+Looking forward to seeing you all!   
 Penny
 
 :::  
@@ -52,18 +50,16 @@ Figure: Bad example - The team know what dates you're coming, but it's not clear
 
 | | |
 | -------- | --- |
-| To: | SSWSydney |
+| To: | SSW Sydney |
 | Cc: | Uly |
 | Subject: | Penny - Working from the Sydney office for 3 days |  
 ::: email-content
 
 ### Hi Sydney Team
 
-As per my conversation with Uly, I will be visiting your office for 3 days (**Mon 16th Sep** to **Wed 18th Sep**) to:
+As per my conversation with Uly, I will be visiting your office for 3 days (**Mon 16th Sep** to **Wed 18th Sep**) to run the Angular Workshop.
 
-1. Run the Angular 2-Day Workshop
-
-Looking forward to seeing you all!
+Looking forward to seeing you all!   
 Penny
 
 :::  
