@@ -27,7 +27,7 @@ Your Gravatar or Cravatar is an image that follows you from site to site appeari
 
 It is simple to set up and if you are developing an MVC application, there are even several Nuget packages to make your life easier. The [GravatarHelper](https://www.nuget.org/packages/GravatarHelper) is recommended.
 
-```aspnet
+```cshtml
 @Html.GravatarImage("MyEmailAddress@example.com", 80, new { Title = "My Gravatar", Alt = "Gravatar" })
 ```
 
@@ -39,9 +39,9 @@ The below short video shows how to get up and running with Gravatar in your ASP.
 
 ### Setting up Cravatar in your application
 
-Unlike Gravatar, Cravatar doesn't provide any library to generate profile image. To solve this issue we can create custom helper class which creates profile URL for us.
+Unlike Gravatar, Cravatar doesn't provide any library to generate profile image URL from email address. To solve this issue we can create custom helper class which creates profile URL for us.
 
-```
+```csharp
 public static class CravatarHelper
 {
     private const int MIN_IMAGE_SIZE = 1;
@@ -109,7 +109,7 @@ public static class StringExtensionMethods
 
 Now we can call custom helper function to create a profile URL and use it in the application.
 
-```
+```cshtml
 @{
     ViewData["Title"] = "Home Page";
     string profileURL = CravatarHelper.GetCravatarImageUrl("MyEmailAddress@example.com", 80, "mm");
