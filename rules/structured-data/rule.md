@@ -28,22 +28,22 @@ Structured data is a standardized format for providing information about a page 
 
 ## Why use structured data for data-driven websites?
 
-- **Improved search visibility** - Structured data enhances your content's appearance in search results through rich snippets, knowledge panels, and other enhanced search features
+* **Improved search visibility** - Structured data enhances your content's appearance in search results through rich snippets, knowledge panels, and other enhanced search features
 
-- **Better content understanding** - Search engines can more accurately interpret dynamic content on data-driven websites, ensuring important information is not missed during crawling
+* **Better content understanding** - Search engines can more accurately interpret dynamic content on data-driven websites, ensuring important information is not missed during crawling
 
-- **Rich UX (User Experience)** - By providing detailed and structured metadata, you enable features like breadcrumbs, FAQs, and product reviews to appear directly in search results, increasing CTR (click-through rate)
+* **Rich UX (User Experience)** - By providing detailed and structured metadata, you enable features like breadcrumbs, FAQs, and product reviews to appear directly in search results, increasing CTR (click-through rate)
 
-- **SEO benefits** - While structured data itself is not a direct ranking factor, it significantly improves the relevance and presentation of your content, indirectly boosting your SEO performance
+* **SEO benefits** - While structured data itself is not a direct ranking factor, it significantly improves the relevance and presentation of your content, indirectly boosting your SEO performance
 
 ### Best practices for using structured data
 
 1. **Identify relevant content types** - Start by mapping the types of content your data-driven website serves. Common examples include:
 
-    - **Products:** Use Product schema to describe details like name, price, and availability
-    - **Events:** Apply Event schema for events with information like date, time, and location
-    - **Articles:** Use Article schema to structure blog posts, news, or educational content
-    - **Recipes:** For culinary websites, implement Recipe schema to outline ingredients, instructions, and cooking times
+    * **Products:** Use Product schema to describe details like name, price, and availability
+    * **Events:** Apply Event schema for events with information like date, time, and location
+    * **Articles:** Use Article schema to structure blog posts, news, or educational content
+    * **Recipes:** For culinary websites, implement Recipe schema to outline ingredients, instructions, and cooking times
 
 2. **Use Schema.org vocabulary** - Schema.org provides a wide range of types and properties to annotate your content. For example:
 
