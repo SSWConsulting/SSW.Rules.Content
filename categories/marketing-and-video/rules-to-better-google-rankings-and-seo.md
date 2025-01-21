@@ -32,8 +32,8 @@ index:
 - use-301-redirect-on-renamed-or-moved-pages
 - descriptive-links
 - use-dashes-in-urls
-- make-your-data-driven-pages-easier-to-find
 - give-the-written-text-in-an-image
+- structured-data
 - avoid-link-farms
 - avoid-using-frames-on-your-website
 - avoid-content-in-javascript
