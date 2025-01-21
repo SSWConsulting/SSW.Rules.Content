@@ -39,7 +39,7 @@ The below short video shows how to get up and running with Gravatar in your ASP.
 
 ### Setting up Cravatar in your application
 
-Unlike Gravatar, Cravatar doesn't provide any library to generate profile image. To solve this issue we can create custom helper class which creates profile URL for us.
+Unlike Gravatar, Cravatar doesn't provide any library to generate profile image URL from email address. To solve this issue we can create custom helper class which creates profile URL for us.
 
 ```
 public static class CravatarHelper
