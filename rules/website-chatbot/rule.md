@@ -33,18 +33,18 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 Depending on your intended use, some factors will be more or less important to you.
 
-- **Custom built vs 3rd party service** - Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front  
-- **Pre-built/drag-and-drop builders** - Simplifies creation without coding  
-- **Documentation & support** - Bad documentation can make a simple product hard to use - incurring more costs  
-- **Performance** - Smooth and natural responses that answer questions while understanding context  
-- **Visual design** - Aligns with brand aesthetics  
-- **Customization** - Adapts responses to fit brand voice, and is not tricked by misleading questions  
-- **API support** - API integration if you might want to use it in other applications  
-- **Data syncing** - How often does it refresh its data from your website?  
-- **Traffic management** - Handles increasing traffic load  
-- **Scalability** - Manages increasing user data  
-- **Knowledge base** - There is usually a limit in 3rd party chatbots e.g. Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text  
-- **Human agent referral** - Transfers smoothly to a human if needed  
+* **Custom built vs 3rd party service** - Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front  
+* **Pre-built/drag-and-drop builders** - Simplifies creation without coding  
+* **Documentation & support** - Bad documentation can make a simple product hard to use - incurring more costs  
+* **Performance** - Smooth and natural responses that answer questions while understanding context  
+* **Visual design** - Aligns with brand aesthetics  
+* **Customization** - Adapts responses to fit brand voice, and is not tricked by misleading questions  
+* **API support** - API integration if you might want to use it in other applications  
+* **Data syncing** - How often does it refresh its data from your website?  
+* **Traffic management** - Handles increasing traffic load  
+* **Scalability** - Manages increasing user data  
+* **Knowledge base** - There is usually a limit in 3rd party chatbots e.g. Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text  
+* **Human agent referral** - Transfers smoothly to a human if needed  
 
 ::: img-medium
 ![Figure: A drag and drop interface on the Botpress platform](botpress-interface.png)
