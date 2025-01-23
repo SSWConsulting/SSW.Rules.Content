@@ -37,7 +37,7 @@ Bad Example: It is hard to understand what issues are being worked on
 Good Example: It is very simple to understand if an issue has received attention
 :::
 
-## Review and Clean Up Labels 
+## Review and Clean Up Labels
 
 You should review the labels regularly and clean up outdated or irrelevant labels to keep the backlog clean and organized. A good use of labels can improve project clarity, enhance communication among team members, and streamline issue prioritization. In contrast, poor management of labels can lead to confusion, misaligned priorities in workflow.
 
@@ -50,11 +50,10 @@ Bad Example: The `Need Refinement` labels are still on closed issues
 ![](label_good_example.png)
 
 ::: good
-Good Example: Labels are relevant 
+Good Example: Labels are relevant
 :::
 
- 
-### When to Review a Label:
+### When to Review a Label
 
 **When the label is no longer relevant** - For example, removing a "blocked" label after resolving dependencies or unblocking an issue.
 
@@ -65,5 +64,3 @@ Good Example: Labels are relevant
 **If the label is unused or duplicated** - Remove labels that are not actively used or merge duplicates (e.g., replacing "bug-fix" with "bug").
 
 **When team conventions change** - If the team revises its workflow or labeling strategy, update labels to align with the new conventions.
-
-
