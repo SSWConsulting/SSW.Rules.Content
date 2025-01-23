@@ -18,13 +18,14 @@ AI is transforming frontend development by enabling faster delivery of code and 
 
 Here is a comparison of AI code generation tools we've tried, at the time of writing:
 
-| Tool                                  | Best Use Case                                                                                                        | Integrations and Source Options                        |
-| ------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [v0](https://v0.dev/) ✨ (Recommended) | Interactive React code utilizing shad-cn/ui. Integrated deployment with Vercel.                                      | Prompts, images (screenshots, sketches, or via Figma). |
-| [Lovable](https://lovable.dev/)       | Responsive design – from desktop to mobile, and full-stack applications.                                             | Prompts, images, or via Figma.                         |
-| [Bolt.new](https://bolt.new/)         | Non-React frameworks, terminal access via their playground for specific run commands. Integrated deployment options. | Prompt or image.                                       |
-| [Anima](https://www.animaapp.com/)    | Near pixel-accurate code (React, HTML, CSS) based on design tooling integrations.                                    | Figma, Sketch, or other design tooling via plug-ins.   |
-| [Uizard](https://uizard.io/)          | As a pseudo-designer to quickly create a set of page designs, with code export options.                              | Prompt or screenshot.                                  |
+| Best Use Case             | Tool                                  | Details                                                   | Integrations and Source Options                        |
+| ------------------------- | ------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------ |
+| Interactivity and Deployment     | [v0](https://v0.dev/) ✨ (Recommended) | Utilizes shad-cn/ui. Integrated deployment with Vercel.    | Prompts, images (screenshots, sketches, or via Figma). |
+| Responsive Design          | [Lovable](https://lovable.dev/)       | From desktop to mobile, and full-stack applications.       | Prompts, images, or via Figma.                         |
+| Non-React Frameworks       | [Bolt.new](https://bolt.new/)         | Terminal access via playground for specific run commands. Integrated deployment options. | Prompt or image.                                       |
+| Pixel-accurate Code        | [Anima](https://www.animaapp.com/)    | Near pixel-accurate code (React, HTML, CSS) based on design tooling integrations. | Figma, Sketch, or other design tooling via plug-ins.   |
+| Quick Page Designs         | [Uizard](https://uizard.io/)          | Pseudo-designer for creating a set of page designs, with code export options. | Prompt or screenshot.                                  |
+
 
 :::info
 These tools keep getting better - what they can do changes quickly.
