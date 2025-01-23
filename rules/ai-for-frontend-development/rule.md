@@ -5,7 +5,9 @@ title: Do you use AI in your frontend development workflow?
 seoDescription: Do you use AI in your frontend development workflow?
 uri: ai-for-frontend-development
 authors:
-  - title: ""
+  - title: Isaac Lombard
+    url: https://www.ssw.com.au/people/isaac-lombard/
+created: 2025-01-23T16:56:00.000Z
 guid: dc8d2bb0-bc49-452b-9d0e-00a8d20f9e93
 ---
 AI is transforming frontend development by enabling faster delivery of code and making web development more accessible. From prototyping visuals, generating and deploying entire sites, to generating boilerplate code – the right AI tools can  enhance your productivity and fill gaps in your skillset.
