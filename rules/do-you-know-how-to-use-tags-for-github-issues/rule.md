@@ -8,6 +8,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Andreas Lengkeek
     url: https://ssw.com.au/people/andreas-lengkeek
+  - title: Steven Qiang
+    url: https://ssw.com.au/people/steven-qiang
 related: []
 redirects:
   - do-you-know-how-to-use-labels-for-github-issues
@@ -20,9 +22,9 @@ It is important that you, especially a developer, knows how to use labels for 
 
 <!--endintro-->
 
-Every new repository comes in with some default labels out of the box that you could use to label your issues to help create a standard workflow in a repository. A list of the default labels and their general uses can be found here: [GitHub - Managing Labels](https://docs.github.com/en/enterprise-server@3.1/issues/using-labels-and-milestones-to-track-work/managing-labels)
+Every new repository comes in with some default labels out of the box that you could use to label your issues to help create a standard workflow in a repository. A list of the default labels and their general uses can be found here: [GitHub - Managing Labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)
 
-Depend on projects, there often need to be new labels created on top of the default labels. For instance, when you are using an internal project management solution (such as Azure DevOps) for an open source project, a new label "added to backlog" is created and applied to applicable issues specifically for demonstrating that an issue has been added to the Azure DevOps backlog and is being worked on for the community. This way you can give the community an understanding of the current goals of the project and a higher feeling of interactivity with your development team.
+Depending on the project, there is often a need to create labels on top of the default labels. For instance, when you are using an internal project management solution (such as Azure DevOps) for an open source project, a new label "added to backlog" is created and applied to applicable issues specifically for demonstrating that an issue has been added to the Azure DevOps backlog and is being worked on for the community. This way you can give the community an understanding of the current goals of the project and a higher feeling of interactivity with your development team.
 ![](issues_bad_example.png)
 
 ::: bad
@@ -34,3 +36,34 @@ Bad Example: It is hard to understand what issues are being worked on
 ::: good
 Good Example: It is very simple to understand if an issue has received attention
 :::
+
+## Review and Clean Up Labels 
+
+You should review the labels regularly and clean up outdated or irrelevant labels to keep the backlog clean and organized. A good use of labels can improve project clarity, enhance communication among team members, and streamline issue prioritization. In contrast, poor management of labels can lead to confusion, misaligned priorities in workflow.
+
+![](label_bad_example.png)
+
+::: bad
+Bad Example: The `Need Refinement` labels are still on closed issues
+:::
+
+![](label_good_example.png)
+
+::: good
+Good Example: Labels are relevant 
+:::
+
+ 
+### When to Review a Label:
+
+**When the label is no longer relevant** - For example, removing a "blocked" label after resolving dependencies or unblocking an issue.
+
+**If it misrepresents the current state** - For instance, removing "need refinement" after the details has been added.
+
+**When the issue is closed** - Ensure the labels are consistent before closing the issue to maintain an accurate project history.
+
+**If the label is unused or duplicated** - Remove labels that are not actively used or merge duplicates (e.g., replacing "bug-fix" with "bug").
+
+**When team conventions change** - If the team revises its workflow or labeling strategy, update labels to align with the new conventions.
+
+
