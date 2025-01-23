@@ -16,6 +16,7 @@ index:
 - embed-ui-into-an-ai-chat
 - use-embeddings
 - best-ai-powered-ide
+- ai-for-frontend-development
 
 ---
 
