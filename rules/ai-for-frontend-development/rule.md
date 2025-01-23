@@ -14,7 +14,7 @@ guid: dc8d2bb0-bc49-452b-9d0e-00a8d20f9e93
 ---
 AI is transforming frontend development by enabling faster delivery of code and making web development more accessible. From prototyping visuals, generating and deploying entire sites, to generating boilerplate code – the right AI tools can  enhance your productivity and fill gaps in your skillset.
 
-\`youtube: https://www.youtube.com/embed/TBIjgBVFjVI?si=YaeJSEk6NDMOSONh\`
+`youtube: https://www.youtube.com/embed/TBIjgBVFjVI?si=YaeJSEk6NDMOSONh`
 
 ## Tooling Options
 
