@@ -16,13 +16,15 @@ AI is transforming frontend development by enabling faster delivery of code and 
 
 Here is a comparison of AI code generation tools we've tried, at the time of writing:
 
-| Tool        | Best Use Case                                                   | Integrations and Source Options                     |
-|-------------|-----------------------------------------------------------------|----------------------------------------------------|
-| V0          | Interactive React code utilizing shad-cn/ui. Integrated deployment with Vercel. | Prompts, images (screenshots, sketches, or via Figma). |
-| Lovable     | Responsive design – from desktop to mobile, and full-stack applications. | Prompts, images, or via Figma.                     |
-| Bolt.new    | Non-React frameworks, terminal access via their playground for specific run commands. Integrated deployment options. | Prompt or image.                                   |
-| Anima       | Near pixel-accurate code (React, HTML, CSS) based on design tooling integrations. | Figma, Sketch, or other design tooling via plug-ins. |
-| Uizard      | As a pseudo-designer to quickly create a set of page designs, with code export options. | Prompt or screenshot.                              |
+| Tool                               | Best Use Case                                                                                                        | Integrations and Source Options                        |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [V0](https://v0.dev/)              | Interactive React code utilizing shad-cn/ui. Integrated deployment with Vercel.                                      | Prompts, images (screenshots, sketches, or via Figma). |
+| [Lovable](https://lovable.dev/)    | Responsive design – from desktop to mobile, and full-stack applications.                                             | Prompts, images, or via Figma.                         |
+| [Bolt.new](https://bolt.new/)      | Non-React frameworks, terminal access via their playground for specific run commands. Integrated deployment options. | Prompt or image.                                       |
+| [Anima](https://www.animaapp.com/) | Near pixel-accurate code (React, HTML, CSS) based on design tooling integrations.                                    | Figma, Sketch, or other design tooling via plug-ins.   |
+| [Uizard](https://uizard.io/)       | As a pseudo-designer to quickly create a set of page designs, with code export options.                              | Prompt or screenshot.                                  |
+
+
 
 :::info
 These tools keep getting better - what they can do changes quickly.
@@ -44,7 +46,7 @@ Using an AI-generated website as a launching point can save you hours of develop
 
 Tools like V0 and Bolt.new let non-technical users take a project from idea to deployment. A team member can turn wireframes, sketches, or Figma files into functional prototypes and deploy them using hosting services like Vercel. This allows stakeholders to interact with live prototypes, provide quick feedback, and iterate collaboratively. The process bridges the gap between design and deployment, speeding up validation and improving teamwork.
 
-### Custom components
+### Custom Components
 
 AI tools make it easy to replicate components from reference websites with minimal effort. Tools like V0 or Anima can analyze and recreate elements like navigation bars, buttons, or card layouts based on inspiration sites. These tools generate the code as a starting point, which you can refine to match your project.
 
@@ -56,12 +58,12 @@ These are powerful tools, but still have some caveats you should keep in mind if
 
 Lack of Context Awareness:
 
-- AI tools often lack the full context of your project, which can complicate integration. An AI-powered IDE may be more effective if knowledge of your website is crucial.
+* AI tools often lack the full context of your project, which can complicate integration. An AI-powered IDE may be more effective if knowledge of your website is crucial.
 
 Quality:
 
-- Converting designs may not always result in pixel-perfect outcomes. Complex UIs requiring physics knowledge aren't often accurate. Be prepared for manual adjustments.
+* Converting designs may not always result in pixel-perfect outcomes. Complex UIs or animation heavy components are still a challenge. Be prepared for manual adjustments.
 
 Security:
 
-- AI tools trained on public datasets might introduce biased patterns or insecure code. Properly audit any generated code for enterprise use.
+* AI tools trained on public datasets might introduce biased patterns or insecure code. Properly audit any generated code for enterprise use.
