@@ -23,17 +23,21 @@ The **Double Diamond design process** is a structured framework developed by the
 ## Phase 1: Problem exploration
 
 ### Discover
+
 This stage focuses on understanding the problem by gathering insights from users, stakeholders, and the environment. Methods such as user research, interviews, and observations are essential for uncovering real needs and behaviors.
 
-### Define 
+### Define
+
 After collecting data, the next step is to synthesize findings into clear problem statements or design challenges. This helps ensure the right problem is being addressed before moving forward.
 
 ## Phase 2: Solution development
 
 ### Develop
+
 In this stage, teams brainstorm, prototype, and explore multiple potential solutions. Rapid iteration, sketching, and usability testing help identify the most viable options.
 
-### Deliver 
+### Deliver
+
 The final step is about refining the chosen solution, conducting user tests, and preparing for launch. Feedback from users ensures the solution is both functional and user-friendly.
 
 ---
