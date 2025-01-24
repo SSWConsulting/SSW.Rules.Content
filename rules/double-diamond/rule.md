@@ -18,9 +18,9 @@ The **Double Diamond design process** is a structured framework developed by the
 
 <!--endintro-->
 
-![Figure: The Double Diamond design process](the-double-diamond-design-process.jpg "Figure: The Double Diamond design process")
+![Figure: The Double Diamond design process model](the-double-diamond-design-process.jpg "Figure: The Double Diamond design process")
 
-## Phase 1: Problem Exploration
+## Phase 1: Problem exploration
 
 ### Discover
 This stage focuses on understanding the problem by gathering insights from users, stakeholders, and the environment. Methods such as user research, interviews, and observations are essential for uncovering real needs and behaviors.
@@ -28,7 +28,7 @@ This stage focuses on understanding the problem by gathering insights from users
 ### Define 
 After collecting data, the next step is to synthesize findings into clear problem statements or design challenges. This helps ensure the right problem is being addressed before moving forward.
 
-## Phase 2: Solution Development
+## Phase 2: Solution development
 
 ### Develop
 In this stage, teams brainstorm, prototype, and explore multiple potential solutions. Rapid iteration, sketching, and usability testing help identify the most viable options.
