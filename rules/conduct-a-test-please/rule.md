@@ -48,7 +48,7 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 
 If you are writing code, your Pull Request (PR) review is your "Test Please"
 
-**Tips:** 
+**Tips:**
 
 * You should do an [over the shoulder PR review](/over-the-shoulder)  
 * Embrace proactive testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production
@@ -62,6 +62,7 @@ If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Pleas
 If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Gary |
