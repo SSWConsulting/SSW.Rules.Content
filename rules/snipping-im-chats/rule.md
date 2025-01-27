@@ -16,7 +16,7 @@ redirects:
   - you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
 ---
 
-A manager or client may suggest a course of action or a piece of work that they would like completed in an IM chat. It's highly important that such chats are [converted into an email](/important-chats-should-be-in-an-email). You would copy the messages from the chat screen, paste into an email, then sent to the client or manager with a note: _"As per our IM chat this morning..."_, CC'ing anyone else who is relevant. 
+A manager or client may suggest a course of action or a piece of work that they would like completed in an IM chat. It's highly important that such chats are [converted into an email](/important-chats-should-be-in-an-email). You would copy the messages from the chat screen, paste into an email, then sent to the client or manager with a note: _"As per our IM chat this morning..."_, CC'ing anyone else who is relevant.
 
 However, don't just paste the whole conversation into an email. **Snip the relevant information only.** You can do this by:
 
