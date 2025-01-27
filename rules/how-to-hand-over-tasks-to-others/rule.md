@@ -48,13 +48,13 @@ Always make sure you clearly reallocate a task with an email to the person who w
 
 I already talked with David, he will handle it
 
-Regards,   
+Regards,
 Andy
 
 ---
 
-**From:** Bob   
-**To:** Andy   
+**From:** Bob
+**To:** Andy
 **Subject:** Northwind app
 
 ### Hi Andy
@@ -84,13 +84,13 @@ As per our conversation,
 
 1. Please action
 
-Regards,   
+Regards,
 Andy
 
 ---
 
 **From:** Bob  
-**To:** Andy   
+**To:** Andy
 **Subject:** Northwind app  
 
 ### Hi Andy
@@ -109,7 +109,8 @@ Figure: Good example - Clear reassignment from Andy to David
 
 If you are handing over an employee responsibility using an intranet, you should always talk to the person first, then send an email as an "as per our conversation" email, including a link and copying the important stuff.
 
-**Tips:** 
+**Tips:**
+
 * You should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent
 * Cc the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future
 
