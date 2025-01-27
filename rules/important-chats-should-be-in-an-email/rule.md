@@ -30,14 +30,14 @@ The golden rule is **never send a task on IM** (e.g. Microsoft Teams)!
 Understand that IM is distracting so use it judiciously.
 :::
 
-## Dealing with external clients 
+## Dealing with external clients
 
 During the course of an IM chat with a client or manager, an action or a piece of work may be required. It's highly important that such chats are copied from the chat and pasted into an email.
 
 For example:
 
 ::: greybox
-"As per our IM conversation, I will XXX."   
+"As per our IM conversation, I will XXX."
 :::
 
 When you copy and paste a IM conversation into an email remember the following:
@@ -45,8 +45,8 @@ When you copy and paste a IM conversation into an email remember the following:
 1. Who are you sending the email to? Is there any private information that should not be shared with the group?
 2. Have you asked for permission to copy the IM conversation into an email? The other party may not want to share it in an email
 3. Does the conversation add value to the email or can it be left out?
-4. If you decide to copy the conversation then make sure you make it readable by [snipping out just the important information](/snipping-im-chats) 
-5. Don't forget to Cc relevant parties. 
+4. If you decide to copy the conversation then make sure you make it readable by [snipping out just the important information](/snipping-im-chats)
+5. Don't forget to Cc relevant parties.
 
 ## Dealing internally
 
