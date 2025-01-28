@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you conduct a "Test Please"?
+seoDescription: Ensure project success with thorough testing. A "Test Please" review guarantees quality, boosts client confidence, and delivers a flawless application that performs as expected.
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
