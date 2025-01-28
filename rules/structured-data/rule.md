@@ -2,7 +2,7 @@
 seoDescription: Structured data offers a solution by providing a standardized way to describe the content on websites, making it easier for search engines to interpret and display your information in rich and meaningful ways.
 type: rule
 archivedreason:
-title: Do you use structured data for data-driven websites?
+title: Technical - Do you use structured data for data-driven websites?
 guid: b9a26576-3717-401c-b2b7-2fac461eac65
 uri: structured-data
 created: 2015-11-10T17:51:49.0000000Z
