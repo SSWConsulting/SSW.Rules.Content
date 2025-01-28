@@ -27,13 +27,13 @@ guid: e2ac70fe-d0e4-4014-be14-464c6ab454ad
 
 The most dangerous time in a task's life cycle is in a handover. This is the most likely time for a misunderstanding to occur leading to a task getting lost and not being completed.
 
+Always make sure you clearly reallocate a task with an email to the person who will complete the task.
+
 <!--endintro-->
 
 ::: info
-This rule is a variation of the popular ["as per our conversation"](/as-per-our-conversation-emails) rule.
+**Note:** This rule is a variation of the popular ["as per our conversation"](/as-per-our-conversation-emails) rule.
 :::
-
-Always make sure you clearly reallocate a task with an email to the person who will complete the task.
 
 ::: email-template
 
@@ -48,13 +48,13 @@ Always make sure you clearly reallocate a task with an email to the person who w
 
 I already talked with David, he will handle it
 
-Regards,
+Regards,\
 Andy
 
 ---
 
-**From:** Bob
-**To:** Andy
+**From:** Bob\
+**To:** Andy\
 **Subject:** Northwind app
 
 ### Hi Andy
@@ -84,13 +84,13 @@ As per our conversation,
 
 1. Please action
 
-Regards,
+Regards,\
 Andy
 
 ---
 
-**From:** Bob  
-**To:** Andy
+**From:** Bob\
+**To:** Andy\
 **Subject:** Northwind app  
 
 ### Hi Andy
@@ -132,7 +132,7 @@ As discussed, you'll need to:
 * Always have a few months' worth of user groups scheduled ahead of time
 * Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
 
-Regards,  
+Regards,\
 Andy
 
 \<As per [ssw.com.au/rules/how-to-hand-over-tasks-to-others](/how-to-hand-over-tasks-to-others)\>
