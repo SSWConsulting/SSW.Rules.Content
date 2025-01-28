@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you conduct a "Test Please"?
+seoDescription: Ensure project success with thorough testing. A "Test Please" review guarantees quality, boosts client confidence, and delivers a flawless application that performs as expected.
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
@@ -20,6 +21,7 @@ related:
   - do-you-know-when-to-do-use-checked-by-xxx
   - request-a-test-please
   - ask-clients-approval
+  - presentation-test-please
 redirects:
   - conduct-a-test-please-internally-and-then-with-the-client
   - do-you-conduct-a-test-please
@@ -40,18 +42,28 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ::: greybox  
 **Does the "Test Please" principle apply to more than code?**
 
-Yes! You almost always want a "Test Please". We usually want a second pair of eyes to catch unseen errors! This isn't necessary for small changes e.g. spelling mistakes.  
+👍 Yes! You almost always want a "Test Please". We usually want a second pair of eyes to catch unseen errors! This isn't necessary for small changes, such as spelling mistakes.  
 :::
 
-If you are writing code, your Pull Request (PR) is your "Test Please".  
-Tip #1: You should do an [over the shoulder PR review](/over-the-shoulder)  
-Tip #2: Embrace Proactive Testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production.
+## Coding
+
+If you are writing code, your Pull Request (PR) review is your "Test Please"
+
+**Tips:**
+
+* You should do an [over the shoulder PR review](/over-the-shoulder)  
+* Embrace proactive testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production
+
+## Emails
 
 If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
+
+## Anything else
 
 If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Gary |
@@ -68,7 +80,7 @@ If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoi
 :::
 :::
 ::: good  
-Figure: Good Example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email
+Figure: Good example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email
 :::
 
 **Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.
