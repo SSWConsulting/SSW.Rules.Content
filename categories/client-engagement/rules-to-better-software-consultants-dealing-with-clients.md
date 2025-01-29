@@ -12,7 +12,7 @@ index:
 - do-you-always-follow-up-your-clients
 - do-you-get-paid-for-estimates
 - the-drawbacks-of-fixed-price-fixed-scope-contracts
-- for-existing-clients-do-you-always-call-them-before-sending-a-quote
+- call-clients-before-sending-an-estimate
 - management-do-you-maintain-verbal-contact-with-your-client
 - do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
 - do-you-know-the-difference-between-ad-hoc-work-and-managed-work
