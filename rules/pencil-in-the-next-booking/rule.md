@@ -8,6 +8,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - being-a-good-consultant
+  - book-developers-for-a-project
 redirects:
   - do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
 created: 2010-07-16T06:38:09.000Z
@@ -17,12 +18,12 @@ guid: 6c65eb49-e31d-465d-9652-226b15e5d426
 
 A common mistake for developers is to say _"See you later, call me sometime next month."_
 
-On your last day of consulting with a client, you should always book in the next date.
+If you don't create another appointment straight away, you and the client may forget. On your last day of consulting with a client, you should **always book in the next date**.
 
 <!--endintro-->
 
 ::: info
-Be aware of the main blockage people get, which the client is saying _"How about I check my calendar and get back to you?"_
+Be aware of the common blockage people get, which the client is saying _"How about I check my calendar and get back to you?"_
 
 Often this never happens.
 :::
@@ -37,7 +38,11 @@ Figure: Bad example - No appointment sent
 :::
 
 ::: greybox
-_"My calendar fills up really quick, how about I pencil you in... say in 2 weeks' time? Don't forget you can cancel or reschedule it anytime."_
+_"My calendar fills up really quick, how about I pencil you in... say in 2 weeks' time?"_
+
+Then create the appointment rather than remembering it later.
+
+_"Don't forget you can cancel or reschedule it anytime."_
 :::
 ::: good
 Figure: Good example - Proactively sending an appointment, bringing up urgency and options
