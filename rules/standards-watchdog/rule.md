@@ -109,7 +109,7 @@ When you notice someone doing the wrong thing:
 
 ### Timing is everything - Don't bottle it up
 
-It can be tempting to offer your feedback as soon as you think of it, but it's better to hold off until the recipient is in a place where they can hear it. If a person is busy, distracted, or in a poor emotional state, chances are your feedback won’t hit the mark. 
+It can be tempting to offer your feedback as soon as you think of it, but it's better to hold off until the recipient is in a place where they can hear it. If a person is busy, distracted, or in a poor emotional state, chances are your feedback won’t hit the mark.
 
 Wait until the person is calm and relaxed before asking them if now is a good time to offer your feedback.
 
@@ -158,6 +158,7 @@ Say 'thank you' to a person's corrections to show you don't have thin skin and e
 It's important to ensure others are doing their best to maintain and follow the standards. Remember, it can be just as important for someone's professional development to give feedback as it is to receive it. Being able to communicate feedback in an effective and professional manner can benefit you in any career.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Peter |
@@ -165,7 +166,7 @@ It's important to ensure others are doing their best to maintain and follow the 
 | Subject: | ApplicationForm error |
 ::: email-content  
 
-### Dear Peter,
+### Dear Peter
 
 While you were away, I came across this page you edited, called **ApplicationForm.aspx** which was giving an error:
 
@@ -176,7 +177,7 @@ Instead, you should use **yyyy/mm/dd** as per Rules to Better Databases.
 
 Let's fix it together when we get to work tomorrow.
 
-Cheers,   
+Cheers,
 John
 
 :::
