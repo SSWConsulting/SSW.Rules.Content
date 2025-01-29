@@ -1,7 +1,7 @@
 ---
 seoDescription: Book your next appointment with clients before leaving to avoid forgetfulness and ensure a smooth follow-up process.
 type: rule
-archivedreason:
+archivedreason: Duplicate of https://www.ssw.com.au/rules/pencil-in-the-next-booking
 title: Do you know to make sure that you book the next appointment before you leave the client?
 guid: 9f9ccaa9-1bfc-4f7e-ac54-dc22b19f8656
 uri: do-you-know-to-make-sure-that-you-book-the-next-appointment-before-you-leave-the-client
