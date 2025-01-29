@@ -18,7 +18,6 @@ index:
 - do-you-know-the-difference-between-ad-hoc-work-and-managed-work
 - do-you-know-how-to-be-pushy-when-you-need-to-be
 - are-you-persistent-when-you-think-something-should-be-done
-- do-you-know-to-make-sure-that-you-book-the-next-appointment-before-you-leave-the-client
 - do-you-always-quote-price-plus-gst-tax
 - do-you-know-how-to-turn-requests-for-free-work-into-billable-work
 - do-you-avoid-invoicing-issues-where-possible-and-resolve-them-quickly-when-they-come-up
@@ -37,7 +36,8 @@ index:
 - do-you-always-state-your-understanding-or-what-you-have-already-done-to-investigate-a-problem
 - do-you-reliably-deliver-your-tasks
 - do-you-enter-detailed-and-accurate-time-sheets
-- do-you-always-pencil-in-the-next-date-on-your-last-day-at-the-client
+- pencil-in-the-next-booking
+- do-you-know-to-make-sure-that-you-book-the-next-appointment-before-you-leave-the-client
 - do-you-plan-the-night-before-what-you-are-doing-the-next-day
 - do-you-let-your-client-know-when-you-work-overtime-and-it-is-not-charged
 - booking-cancellations
