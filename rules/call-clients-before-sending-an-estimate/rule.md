@@ -15,11 +15,11 @@ redirects:
 
 ---
 
-When you're competing for someone's business, what could be worse than losing the work simply because the client either didn't receive your email, or was too busy to read it? 
+When you're competing for someone's business, what could be worse than losing the work simply because the client either didn't receive your email, or was too busy to read it?
 
 If you have an existing client, who is already impressed with your work, you don't need to go to the trouble of meeting then to show them an estimate. However, you should at least call them. This way, they know you are about to send them something so will look out for it.
 
-Always call the client **before** you send an estimate, then send the email with "[As per our conversation](/as-per-our-conversation-emails)". 
+Always call the client **before** you send an estimate, then send the email with "[As per our conversation](/as-per-our-conversation-emails)".
 
 <!--endintro-->
 
