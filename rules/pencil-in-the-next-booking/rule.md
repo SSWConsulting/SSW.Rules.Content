@@ -17,12 +17,12 @@ guid: 6c65eb49-e31d-465d-9652-226b15e5d426
 
 A common mistake for developers is to say _"See you later, call me sometime next month."_
 
-On your last day of consulting with a client, you should always book in the next date. 
+On your last day of consulting with a client, you should always book in the next date.
 
 <!--endintro-->
 
 ::: info
-Be aware of the main blockage people get, which the client is saying _"How about I check my calendar and get back to you?"_ 
+Be aware of the main blockage people get, which the client is saying _"How about I check my calendar and get back to you?"_
 
 Often this never happens.
 :::
