@@ -9,6 +9,8 @@ created: 2009-03-30T02:33:59.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
@@ -38,14 +40,14 @@ Be aware it is common to "over Cc" people. Every person added to a thread has a 
 | To: | Scott |
 | Cc: | Gary; Dave; Sophie |
 | Bcc: | |
-| Subject: | This is the subject |  
+| Subject: | {{ SUBJECT }} |  
 ::: email-content
 
 (looping in Gary, Dave, and Sophie in case they have any insight on the GitHub action)
 
 ### Hi Scott
 
-{{ Email content }}
+{{ EMAIL CONTENT }}
 
 :::  
 :::  
@@ -55,7 +57,7 @@ Figure: Good example - Adding people to an email thread
 
 ## Removing someone from the conversation
 
-If you need to remove someone from the loop (e.g. To have an internal conversation about an email to a client), include _(removing xxx from the loop)_ at the top of the email.
+If you need to remove someone from the loop (e.g. To have an internal conversation about an email to a client), include _(removing Bob from the loop)_ at the top of the email.
 
 ::: email-template  
 
@@ -64,14 +66,14 @@ If you need to remove someone from the loop (e.g. To have an internal conversati
 | To: | Scott |
 | Cc: | Gary; Dave; Sophie |
 | Bcc: | |
-| Subject: | This is the subject |  
+| Subject: | {{ SUBJECT }} |  
 ::: email-content
 
 (removing Bob from the loop)
 
 ### Hi Scott
 
-{{ Email content }}
+{{ EMAIL CONTENT }}
 
 :::  
 :::  
@@ -87,7 +89,7 @@ Some issues might happen when deleting people from an email thread:
 * The people who added them in the 1st place don't know that they included unnecessary people
 * The others on the thread might not notice the change in email addresses
 
-To avoid these issues, instead of deleting people from the email, you can move them to the Bcc, including _(moving xxx to Bcc)_ at the top of the email:
+To avoid these issues, instead of deleting people from the email, you can move them to the Bcc, including _(moving Bob to Bcc)_ at the top of the email:
 
 ::: email-template  
 
@@ -96,14 +98,14 @@ To avoid these issues, instead of deleting people from the email, you can move t
 | To: | Scott |
 | Cc: | Gary |
 | Bcc: | Dave; Sophie|
-| Subject: | This is the subject |  
+| Subject: | {{ SUBJECT }} |  
 ::: email-content
 
 (moving non-technical to Bcc)
 
 ### Hi Scott
 
-{{ Email content }}
+{{ EMAIL CONTENT }}
 
 :::  
 :::  
