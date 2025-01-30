@@ -43,17 +43,17 @@ These platforms simplify testing and deploying different AI models from a variet
 
 #### [Azure AI Foundry](https://ai.azure.com/) (⭐Recommended for production)
 
-- Provides access to a variety of foundation models from different providers.
-- Allows side-by-side evaluation of models within the Azure ecosystem.
-- Enables fine-tuning and optimization for specific business needs.
+* Provides access to a variety of foundation models from different providers.
+* Allows side-by-side evaluation of models within the Azure ecosystem.
+* Enables fine-tuning and optimization for specific business needs.
 
 #### [GitHub Models](https://github.com/marketplace/models) (⭐Recommended for development)
 
-- **Free offering, rate-limited for development purposes.**
-- Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library.
-- Flexible Model Choices – Select larger models for power or compressed models for efficiency.
-- Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs.
-- Available models include models from...
+* **Free offering, rate-limited for development purposes.**
+* Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library.
+* Flexible Model Choices – Select larger models for power or compressed models for efficiency.
+* Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs.
+* Available models include models from...
   * OpenAI (GPTs)
   * Microsoft (Phi)
   * Meta (Llama)
@@ -61,17 +61,16 @@ These platforms simplify testing and deploying different AI models from a variet
 
 #### [AWS SageMaker AI](https://aws.amazon.com/sagemaker/)
 
-- Supports training, deploying, and managing LLMs at scale.
-- Offers built-in model evaluation and cost management features.
-- Enables model fine-tuning and hosting for enterprise AI solutions.
+* Supports training, deploying, and managing LLMs at scale.
+* Offers built-in model evaluation and cost management features.
+* Enables model fine-tuning and hosting for enterprise AI solutions.
 
 ## Other Tools to Compare Models
 
 ##### [GroqCloud Playground](https://console.groq.com/playground)
 
-- Free, rate-limited API and browser tool.
-- Provides a low-latency inference environment for running various LLMs.
-
+* Free, rate-limited API and browser tool.
+* Provides a low-latency inference environment for running various LLMs.
 
 ##### **[OpenAI Playground](https://platform.openai.com/playground/chat?models=gpt-4o)**
 
@@ -91,7 +90,7 @@ GitHub Models provides you with a free, rate-limited key you can use for practic
 
 GitHub Models supports a large amount of language models within the same ecosystem. The development cost of switching from one model to another is minimal, assuming you're using the Azure AI Inference API. Switching from one model to another is as simple as changing an API parameter. Your code implementation can stay the same.
 
-You have the option to choose between most major language models. You can experiment by submitting prompts to find the best fit for your scenario. 
+You have the option to choose between most major language models. You can experiment by submitting prompts to find the best fit for your scenario.
 
 For example, you may be building a chatbot and find that GPT 4o mini provides suitable responses and that you don't need to invest in the extra compute costs involved with running a larger model.
 
