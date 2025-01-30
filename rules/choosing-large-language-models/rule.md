@@ -96,9 +96,11 @@ GitHub Models provides an ecosystem where developers can try out a wide variety 
 * Ministral
 * Mistral
 
-GitHub models supports a large amount of language models within the same ecosystem. The development cost of switching from one model to another is minimal, assuming you're using the Azure AI inference API. Switching from one model to another is as simple as changing an API parameter. Your code implementation can stay the same.
+GitHub Models supports a large amount of language models within the same ecosystem. The development cost of switching from one model to another is minimal, assuming you're using the Azure AI inference API. Switching from one model to another is as simple as changing an API parameter. Your code implementation can stay the same.
 
-By providing a broad ecosystem of Large Language Models to choose from GitHub models provides an excellent interface for figuring out which language models are suitable for specific tasks. This is useful for scenarios where you need to choose a broad range of specialized Language Models, such as using [Semantic Kernel](https://www.ssw.com.au/rules/use-semantic-kernel/)
+You have the option to choose between larger or more compressed language models which allows you to experiment by submitting prompts with more or less compressed language models to determine whether that particular model will provide the best value for your scenario. For example, you may be building a chatbot and find that GPT 4o mini provides suitable responses and that you don't need to invest in the extra compute costs involved with running a larger model.
+
+By providing a broad ecosystem of Large Language Models to choose from GitHub Models provides an excellent interface for figuring out which language models are suitable for specific tasks. This is useful for scenarios where you need to choose a broad range of specialized Language Models, such as using [Semantic Kernel](https://www.ssw.com.au/rules/use-semantic-kernel/)
 
 ###### Deploying to production
 
