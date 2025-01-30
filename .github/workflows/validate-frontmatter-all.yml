@@ -1,7 +1,7 @@
 name: Validate-Frontmatter-in-All-Rules
 
 on:
-  push:
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
@@ -23,6 +23,7 @@ jobs:
 
       - name: Find all Markdown files in rules
         run: |
+          echo "Finding rules in the repository..."
           find rules -type f -name '*.md' > all_rules_files.txt
           echo "Found Markdown files:"
           cat all_rules_files.txt
@@ -46,4 +47,3 @@ jobs:
           else
             echo "No validation issues detected." >> $GITHUB_STEP_SUMMARY
           fi
-
