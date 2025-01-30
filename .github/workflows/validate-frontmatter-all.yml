@@ -36,6 +36,8 @@ jobs:
       - name: Validate Frontmatter in Rule Files
         id: validate_frontmatter
         run: |
+          echo "confirming file exists in image"
+          cat all_rules_files.txt
           node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt
 
       - name: Create Job Summary
