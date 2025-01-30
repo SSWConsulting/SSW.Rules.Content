@@ -38,6 +38,7 @@ jobs:
         run: |
           echo "confirming file exists in image"
           cat all_rules_files.txt
+          echo "Validating frontmatter in all rule files..."
 
       - name: Create Job Summary
         if: always()
