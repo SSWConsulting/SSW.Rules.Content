@@ -32,7 +32,7 @@ This approach is useful before starting a Teams call and you can simply say _"I'
 
 ## What if people are sitting next to each other
 
-Always add everybody into the chat, even if they’re sitting next to each other. If messages are sent, everybody gets them.
+Always add everybody into the chat, even if they’re sitting next to each other. If during the call messages are sent, everybody gets them.
 
 ## Make sure people are available
 
