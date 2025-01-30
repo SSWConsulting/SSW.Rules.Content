@@ -40,6 +40,7 @@ jobs:
           cat all_rules_files.txt
           echo "Validating frontmatter in all rule files..."
           node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt
+          echo "Validation complete."
           cat validation_results.txt
 
       - name: Create Job Summary
