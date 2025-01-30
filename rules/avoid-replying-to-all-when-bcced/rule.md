@@ -1,16 +1,17 @@
 ---
 type: rule
 title: Do you avoid replying to all when you are only BCC'd?
-seoDescription: When using BCC, it's crucial to refrain from replying all to
-  avoid unnecessary email congestion and maintain confidentiality.
-uri: do-you-avoid-replying-to-all-when-you-are-only-bcced
+seoDescription: When using BCC, it's crucial to refrain from replying all to avoid unnecessary email congestion and maintain confidentiality.
+uri: avoid-replying-to-all-when-bcced
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
-related: []
-redirects: []
+related:
+  - cc-and-reply-to-all
+redirects:
+  - do-you-avoid-replying-to-all-when-you-are-only-bcced
 created: 2009-04-03T08:15:29.000Z
 archivedreason: null
 guid: 8c22bd4c-cfdf-4642-872c-a7fe2c251114
