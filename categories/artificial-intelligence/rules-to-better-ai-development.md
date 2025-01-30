@@ -10,6 +10,7 @@ index:
 - use-system-prompt
 - use-semantic-kernel
 - evaluate-slms-vs-azure-cloud-llms
+- choosing-large-language-models
 - write-integration-tests-for-llm-prompts
 - website-chatbot
 - leverage-chatgpt
