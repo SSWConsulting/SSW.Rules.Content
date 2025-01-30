@@ -32,6 +32,7 @@ Be aware it is common to "over Cc" people. Every person added to a thread has a 
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Scott |
@@ -42,7 +43,7 @@ Be aware it is common to "over Cc" people. Every person added to a thread has a 
 
 (looping in Gary, Dave, and Sophie in case they have any insight on the GitHub action)
 
-### Hi Scott,
+### Hi Scott
 
 {{ Email content }}
 
@@ -57,6 +58,7 @@ Figure: Good example - Adding people to an email thread
 If you need to remove someone from the loop (e.g. To have an internal conversation about an email to a client), include _(removing xxx from the loop)_ at the top of the email.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Scott |
@@ -67,7 +69,7 @@ If you need to remove someone from the loop (e.g. To have an internal conversati
 
 (removing Bob from the loop)
 
-### Hi Scott,
+### Hi Scott
 
 {{ Email content }}
 
@@ -81,13 +83,14 @@ Figure: Good example - Removing someone from an email thread
 
 Some issues might happen when deleting people from an email thread:
 
-- The people being dropped won’t know and won’t be able to say _"I don't want to be dropped from this thread"_
-- The people who added them in the 1st place don't know that they included unnecessary people
-- The others on the thread might not notice the change in email addresses
+* The people being dropped won’t know and won’t be able to say _"I don't want to be dropped from this thread"_
+* The people who added them in the 1st place don't know that they included unnecessary people
+* The others on the thread might not notice the change in email addresses
 
 To avoid these issues, instead of deleting people from the email, you can move them to the Bcc, including _(moving xxx to Bcc)_ at the top of the email:
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Scott |
@@ -98,7 +101,7 @@ To avoid these issues, instead of deleting people from the email, you can move t
 
 (moving non-technical to Bcc)
 
-### Hi Scott,
+### Hi Scott
 
 {{ Email content }}
 
