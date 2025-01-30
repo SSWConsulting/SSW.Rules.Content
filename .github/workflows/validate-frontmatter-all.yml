@@ -38,14 +38,13 @@ jobs:
         run: |
           node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt
           cat validation_results.txt
-          wc -l <validation_results.txt
-
       - name: Create Job Summary
         if: always()
         run: |
           echo "## Frontmatter Validation Issues" >> $GITHUB_STEP_SUMMARY
           if [ -s validation_results.txt ]; then
             cat validation_results.txt >> $GITHUB_STEP_SUMMARY
+            exit 1
           else
             echo "No validation issues detected." >> $GITHUB_STEP_SUMMARY
           fi
