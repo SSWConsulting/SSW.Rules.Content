@@ -39,6 +39,7 @@ jobs:
           echo "confirming file exists in image"
           cat all_rules_files.txt
           echo "Validating frontmatter in all rule files..."
+          node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt
 
       - name: Create Job Summary
         if: always()
