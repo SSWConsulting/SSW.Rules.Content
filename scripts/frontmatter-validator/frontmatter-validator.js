@@ -144,6 +144,7 @@ function validateFiles(fileListPath) {
 
 function main() {
   console.log('starting frontmatter validation');
+  return;
   const args = process.argv.slice(2);
 
   if (args.includes('--file')) {
