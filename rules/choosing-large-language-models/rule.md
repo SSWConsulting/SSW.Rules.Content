@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you test before you invest In Large Language Models?
+title: Do you pick the best Large Language Model for your project?
 seoDescription: When choosing an AI model for your application, it's crucial to
   try out different Large Language Models (LLMs) before committing. Learn how to
   do this efficiently with platforms like GitHub Models.
