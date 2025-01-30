@@ -33,7 +33,6 @@ Using the chat interface provided by GitHub models you have the option to choose
 
 
 ### AI Playgrounds
-There are a variety fof
 
 **[Open AI Playground](https://platform.openai.com/playground/chat?models=gpt-4o)**
 
