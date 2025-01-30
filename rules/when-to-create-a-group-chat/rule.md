@@ -45,4 +45,3 @@ You shouldn't make the call if the participants have [Teams status](/use-the-sta
 ::: good
 ![Figure: Good example - It's a good time to call Bryden and Lachie as they're both available](good_status.jpg "Good example - it's a good time to call Bryden and Lachie as they're both available")
 :::
-
