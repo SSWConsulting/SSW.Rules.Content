@@ -10,7 +10,6 @@ authors:
   - title: ""
 guid: e6891815-5e9b-4626-a1f7-42f13ce53aec
 ---
-
 When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (Llama, GPT-4o, and Mistral), and they are always changing and subject to varying levels of news and hype.
 
 When choosing one for a project, it can be hard to know which to pick, and if you're making the right choice - being wrong could cost valuable performance and UX points.
@@ -22,22 +21,48 @@ Fortunately, there exist good tools to do this **for free**.
 **Video: Choosing the Right AI Model? GitHub Models Makes It Easy! | Isaac Lombard & Caleb Williams | Rules
  (3 min)**
 
-
-
 <!--endintro-->
 
 ## The challenge of trying out AI models
 
 Many AI providers charge per API call, making it expensive to experiment with different models.
 
-* **Decision Fatigue** There's  a large number of Language models to choose from. The market size is expected to reach 13.52 billion in 2029.
-* **Different Implementations** AI services generally provide their own API's with separate documentation for use.
-* **Fine Tuning** Finding a cost to performance ratio for an LLM can be difficult to do. 
-* **Cost Accumulates Rapidly** when testing AI integration, particularly with large prompts or frequent calls.
+* **Decision Fatigue** There's  a large number of Language models to choose from. The market size is expected to reach 13.52 billion US dollars by 2029.
+* **Different implementations** specific to the service provider may create some implementation overhead when adding a model to your application.
+* **Fine tuning** each model to get the best result might also be necessary.
+* **Cost accumulates rapidly** when testing AI integration, particularly with large prompts or frequent calls.
 
-When choosing a language model for your project there are some important considerations that affect the performance and cost of integrating AI into your project. Here are the best comparison tools out there:
+## AI Model Hubs & LLM Evaluation Platforms
 
-### AI Playgrounds
+These platforms simplify testing and deploying different AI models from a variety of service providers, helping developers make informed decisions and experiment using different models in their application for testing. Some of these allow developers to test model responses interactively in a browser.
+
+#### Azure AI Foundry (Recommended for production)
+
+- Provides access to a variety of foundation models from different providers.
+- Allows side-by-side evaluation of models within the Azure ecosystem.
+Enables fine-tuning and optimization for specific business needs.
+
+#### GitHub Models (Recommended for development)
+
+- **Free offering, rate-limited for development purposes.**
+- Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library.
+- Flexible Model Choices – Select larger models for power or compressed models for efficiency.
+- Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs.
+
+##### GroqCloud Playground
+
+- Free, rate-limited API.
+- Provides a low-latency inference environment for running various LLMs.
+- Allows developers to test model responses interactively in a browser.
+- Focuses on efficiency and performance, making it ideal for real-time applications.
+
+#### AWS SageMaker AI
+
+- Supports training, deploying, and managing LLMs at scale.
+- Offers built-in model evaluation and cost management features.
+- Enables model fine-tuning and hosting for enterprise AI solutions.
+
+
 
 **[Open AI Playground](https://platform.openai.com/playground/chat?models=gpt-4o)**
 
