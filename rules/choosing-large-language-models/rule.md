@@ -7,12 +7,18 @@ seoDescription: When choosing an AI model for your application, it's crucial to
   do this efficiently with platforms like GitHub Models.
 uri: choosing-large-language-models
 authors:
-  - title: ""
-  - title: caleb williams
-  - title: isaac lombard
-  - title: eddie kranz
-  - title: luke cook
-  - title: lewis toh
+- title: Ulysses Maclaren
+  url: https://www.ssw.com.au/people/ulysses-maclaren
+- title: Caleb Williams
+  url: https://www.ssw.com.au/people/caleb-williams
+- title: Isaac Lombard
+  url: https://www.ssw.com.au/people/isaac-lombard
+- title: Eddie Kranz
+  url: https://www.ssw.com.au/people/eddie-kranz
+- title: Luke Cook
+  url: https://www.ssw.com.au/people/luke-cook
+- title: Lewis Toh
+  url: https://www.ssw.com.au/people/lewis-toh
 guid: e6891815-5e9b-4626-a1f7-42f13ce53aec
 ---
 When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (Llama, GPT-4o, and Mistral), and they are always changing and subject to varying levels of news and hype.
