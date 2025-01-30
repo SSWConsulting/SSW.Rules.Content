@@ -167,7 +167,6 @@ function main() {
   }
 
   console.log('Frontmatter validation after allErrors.length == 0');
-  return;
   allErrors.forEach(({ filePath, fileErrors }) => {
     console.log(
       `## Rule: [${filePath}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${filePath})\n`
@@ -177,6 +176,9 @@ function main() {
     console.log('\n');
     console.log('\n');
   });
+  console.log('found some issues > : (');
+  return;
+
   process.exit(1);
 }
 main();
