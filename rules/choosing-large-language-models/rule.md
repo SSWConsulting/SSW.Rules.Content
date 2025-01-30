@@ -1,7 +1,9 @@
 ---
 type: rule
 title: Do you pick the best Large Language Model for your project?
-seoDescription: When choosing an AI model for your application, it's crucial to try out different Large Language Models (LLMs) before committing. Learn how to do this efficiently with platforms like GitHub Models.
+seoDescription: When choosing an AI model for your application, it's crucial to
+  try out different Large Language Models (LLMs) before committing. Learn how to
+  do this efficiently with platforms like GitHub Models.
 uri: choosing-large-language-models
 authors:
   - title: Ulysses Maclaren
@@ -17,14 +19,13 @@ authors:
   - title: Lewis Toh
     url: https://www.ssw.com.au/people/lewis-toh
 guid: e6891815-5e9b-4626-a1f7-42f13ce53aec
-
 ---
 
-When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (Llama, GPT-4o, and Mistral), and they are always changing and subject to varying levels of news and hype.
+When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (Llama, GPT, Gemini, Mistral, Grok, DeepSeek, etc.), and they are always changing and subject to varying levels of news and hype.
 
 When choosing one for a project, it can be hard to know which to pick, and if you're making the right choice - being wrong could cost valuable performance and UX points.
 
-Because different LLMs are good at different things, it's essential to test them your specific use case to find which is the best.
+Because different LLMs are good at different things, it's essential to test them on your specific use case to find which is the best.
 
 <!--endintro-->
 
@@ -54,7 +55,7 @@ These platforms simplify testing and deploying different AI models from a variet
 
 * **Free offering, rate-limited for development purposes.**
 * Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library
-* Flexible Model Choices – Select larger models for power or compressed models for efficiency
+* Flexible Model Choices – Select larger models for power or compressed (e.g. distilled or quantized) models for efficiency
 * Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs
 * Available models include models from...
 
