@@ -22,12 +22,12 @@ Because different LLMs are good at different things, it's essential to test them
 
 Many AI providers charge per API call, making it expensive to experiment with different models.
 
-* **Decision Fatigue** There's  a large number of Language models to choose from. The market size is expected to reach 13.52 billion US dollars by 2029.
-* **Different implementations** specific to the service provider may create some implementation overhead when adding a model to your application.
-* **Fine tuning** each model to get the best result might also be necessary.
-* **Cost accumulates rapidly** when testing AI integration, particularly with large prompts or frequent calls.
+* **Decision fatigue** - as there's  a growing number of Language Models to choose from.
+* **Different implementations** - not all models have the same libraries.
+* **Tweaking Parameters** - testing different parameters such as the temperature (creativity), token limit, and more to get the best result.
+* **Cost accumulates rapidly** - when testing AI integration, particularly with large prompts or frequent calls.
 
-Ultimately you need to test against different models to find one that fits your use case, and tweak parameters such as the temperature (creativity), token limit, and others.
+Ultimately you need to test against different models to find one that fits your use case.
 
 ## AI Model Hubs - Experiment with Different Models
 
