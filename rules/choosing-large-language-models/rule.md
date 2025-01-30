@@ -35,9 +35,7 @@ Many AI providers charge per API call, making it expensive to experiment with di
 * **Fine Tuning** Finding a cost to performance ratio for an LLM can be difficult to do. 
 * **Cost Accumulates Rapidly** when testing AI integration, particularly with large prompts or frequent calls.
 
-When choosing a language model for your project there are some important considerations which may effect the performance and cost of integrating AI into your project. For example the context, AI models with larger context sizes may be more suitable for handling requests with large token sizes, but will often experience reduced performance and hallucinations with questions with smaller token sizes. Some GPTs such as GPT-4o may be suitable for a broad range of tasks but the cost of using them will be more expensive.
-
-Using the chat interface provided by GitHub models you have the option to choose between larger or more compressed language models. Using this interface you can start to experiment by submitting prompts with with more or less compressed language models to determine whether that particular model will provide the best value for your scenario. For example you may be building a chatbot and find that GPT 4o mini provides suitable responses and that you don't need to invest in the extra compute costs involved with running a larger model.
+When choosing a language model for your project there are some important considerations that affect the performance and cost of integrating AI into your project. Here are the best comparison tools out there:
 
 ### AI Playgrounds
 
