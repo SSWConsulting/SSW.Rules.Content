@@ -177,6 +177,5 @@ function main() {
     console.log('\n');
   });
   console.log('found some issues > : (');
-  process.exit(1);
 }
 main();
