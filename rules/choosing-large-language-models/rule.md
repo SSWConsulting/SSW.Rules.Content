@@ -28,6 +28,10 @@ Because different LLMs are good at different things, it's essential to test them
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/embed/iXmf6UDo404?si=LjRyiaygh28dhVlV`
+**Video: Choosing the Right AI Model? GitHub Models Makes It Easy! | Isaac Lombard & Caleb Williams | Rules
+ (3 min)**
+
 ## Challenges in Implementing AI
 
 * **Decision fatigue** - there's  an overwhelming number of Language Models to choose from.
@@ -82,9 +86,7 @@ Self-hosted offering. No additional costs for using the language model. High har
 
 ## Using GitHub Models as a Development Tool
 
-`youtube: https://www.youtube.com/embed/iXmf6UDo404?si=LjRyiaygh28dhVlV`
-**Video: Choosing the Right AI Model? GitHub Models Makes It Easy! | Isaac Lombard & Caleb Williams | Rules
- (3 min)**
+![Figure: GitHub Models makes life easy](https://github.com/user-attachments/assets/f8fdca43-fd0c-4a16-a37d-b1d322752712)
 
 GitHub Models provides you with a free, rate-limited key you can use for practical tests in your application during development.
 
