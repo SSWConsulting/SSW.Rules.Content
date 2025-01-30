@@ -12,16 +12,20 @@ authors:
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
 related:
+  - cc-and-reply-to-all
+  - avoid-replying-to-all-when-bcced
   - email-send-a-v2
 redirects:
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation
 ---
 
-### Adding someone to the conversation
-
-If you think someone should be involved in a conversation but they're not on the recipient list, all you need to do is "Reply All", put the new recipient in the 'Cc' field and include _(adding xxx to the loop)_ at the top of the email. to inform people for clarity.
+It's crucial to have the right people in email threads to maintain clear communication by ensuring key stakeholders are informed, unnecessary participants are removed, and sensitive information is handled with discretion through BCC.
 
 <!--endintro-->
+
+## Adding someone to the conversation
+
+If you think someone should be involved in a conversation but they're not on the recipient list, all you need to do is ["Reply All", put the new recipient in the 'Cc' field](/cc-and-reply-to-all) and include _(adding xxx to the loop)_ at the top of the email. to inform people for clarity.
 
 ::: info
 Be aware it is common to "over Cc" people. Every person added to a thread has a cost, so try to not copy people without a reason. When adding someone, it is a good idea to state the reason why they are being added, so it justifies the cost of their time. E.g.: _(Adding Dave to the loop - during the Daily Scrum today it was mentioned he has worked on similar issues and might have some input)_
@@ -40,15 +44,15 @@ Be aware it is common to "over Cc" people. Every person added to a thread has a 
 
 ### Hi Scott,
 
-\[Email content\]
+{{ Email content }}
 
 :::  
 :::  
 ::: good  
-Figure: Good Example - Adding people to an email thread
+Figure: Good example - Adding people to an email thread
 :::
 
-### Removing someone from the conversation
+## Removing someone from the conversation
 
 If you need to remove someone from the loop (e.g. To have an internal conversation about an email to a client), include _(removing xxx from the loop)_ at the top of the email.
 
@@ -65,15 +69,15 @@ If you need to remove someone from the loop (e.g. To have an internal conversati
 
 ### Hi Scott,
 
-\[Email content\]
+{{ Email content }}
 
 :::  
 :::  
 ::: good  
-Figure: Good Example - Removing someone from an email thread
+Figure: Good example - Removing someone from an email thread
 :::
 
-### Moving someone to Bcc
+## Moving someone to Bcc
 
 Some issues might happen when deleting people from an email thread:
 
@@ -96,12 +100,12 @@ To avoid these issues, instead of deleting people from the email, you can move t
 
 ### Hi Scott,
 
-\[Email content\]
+{{ Email content }}
 
 :::  
 :::  
 ::: good  
-Figure: Good Example - Moving someone to Bcc
+Figure: Good example - Moving someone to Bcc
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
