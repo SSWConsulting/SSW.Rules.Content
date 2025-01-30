@@ -1,9 +1,7 @@
 ---
 type: rule
-title: Do You Pick The Best Large Language Model For Your Project?
-seoDescription: When choosing an AI model for your application, it's crucial to
-  try out different Large Language Models (LLMs) before committing. Learn how to
-  do this efficiently with platforms like GitHub Models.
+title: Do you pick the best Large Language Model for your project?
+seoDescription: When choosing an AI model for your application, it's crucial to try out different Large Language Models (LLMs) before committing. Learn how to do this efficiently with platforms like GitHub Models.
 uri: choosing-large-language-models
 authors:
   - title: Ulysses Maclaren
@@ -19,7 +17,9 @@ authors:
   - title: Lewis Toh
     url: https://www.ssw.com.au/people/lewis-toh
 guid: e6891815-5e9b-4626-a1f7-42f13ce53aec
+
 ---
+
 When building an AI-powered solution, developers will inevitably need to choose which Large Language Model (LLM) to use. Many powerful models exist (Llama, GPT-4o, and Mistral), and they are always changing and subject to varying levels of news and hype.
 
 When choosing one for a project, it can be hard to know which to pick, and if you're making the right choice - being wrong could cost valuable performance and UX points.
@@ -29,34 +29,33 @@ Because different LLMs are good at different things, it's essential to test them
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/sVELvhGdSfs?si=KdSIZiLbwaxPT3MP`
-**Video: Choosing the Right AI Model? GitHub Models Makes It Easy! | Isaac Lombard & Caleb Williams | Rules
- (3 min)**
+**Video: Choosing the Right AI Model? GitHub Models Makes It Easy! | Isaac Lombard & Caleb Williams | Rules (3 min)**
 
 ## Challenges in Implementing AI
 
-* **Decision fatigue** - there's  an overwhelming number of Language Models to choose from.
-* **Different implementations** - not all models use the same libraries.
-* **Tweaking parameters** - to get the best result involves testing different parameters such as the temperature (creativity), token limit, and more.
-* **Cost accumulates rapidly** - Costs from API calls during testing can accumulate, particularly with large prompts or frequent calls.
+* **Decision fatigue** - There's  an overwhelming number of Language Models to choose from
+* **Different implementations** - Not all models use the same libraries
+* **Tweaking parameters** - To get the best result involves testing different parameters such as the temperature (creativity), token limit, and more
+* **Cost accumulates rapidly** - Costs from API calls during testing can accumulate, particularly with large prompts or frequent calls
 
 Ultimately you need to test against different models to find one that fits your use case.
 
-## AI Model Hubs - Experiment with Different Models
+## AI Model Hubs - Experiment with different models
 
 These platforms simplify testing and deploying different AI models from a variety of service providers, helping developers make informed decisions. Some of these allow developers to test model responses interactively in a browser with configurable parameter settings.
 
-#### [Azure AI Foundry](https://ai.azure.com/) (⭐Recommended for production)
+### [Azure AI Foundry](https://ai.azure.com/) (⭐ Recommended for Production)
 
-* Provides access to a variety of foundation models from different providers.
-* Allows side-by-side evaluation of models within the Azure ecosystem.
-* Enables fine-tuning and optimization for specific business needs.
+* Provides access to a variety of foundation models from different providers
+* Allows side-by-side evaluation of models within the Azure ecosystem
+* Enables fine-tuning and optimization for specific business needs
 
-#### [GitHub Models](https://github.com/marketplace/models) (⭐Recommended for development)
+### [GitHub Models](https://github.com/marketplace/models) (⭐ Recommended for Development)
 
 * **Free offering, rate-limited for development purposes.**
-* Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library.
-* Flexible Model Choices – Select larger models for power or compressed models for efficiency.
-* Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs.
+* Easy Model Switching – Change models with a single API parameter using the Azure AI Inference library
+* Flexible Model Choices – Select larger models for power or compressed models for efficiency
+* Broad Ecosystem – GitHub Models simplifies testing and selecting the best LLMs
 * Available models include models from...
 
   * OpenAI (GPTs)
@@ -64,28 +63,28 @@ These platforms simplify testing and deploying different AI models from a variet
   * Meta (Llama)
   * and more...
 
-#### [AWS SageMaker AI](https://aws.amazon.com/sagemaker/)
+### [AWS SageMaker AI](https://aws.amazon.com/sagemaker/)
 
-* Supports training, deploying, and managing LLMs at scale.
-* Offers built-in model evaluation and cost management features.
-* Enables model fine-tuning and hosting for enterprise AI solutions.
+* Supports training, deploying, and managing LLMs at scale
+* Offers built-in model evaluation and cost management features
+* Enables model fine-tuning and hosting for enterprise AI solutions
 
-## Other Tools to Compare Models
+### Other tools to compare models
 
-##### [GroqCloud Playground](https://console.groq.com/playground)
+#### [GroqCloud Playground](https://console.groq.com/playground)
 
-* Free, rate-limited API and browser tool.
-* Provides a low-latency inference environment for running various LLMs.
+* Free, rate-limited API and browser tool
+* Provides a low-latency inference environment for running various LLMs
 
-##### **[OpenAI Playground](https://platform.openai.com/playground/chat?models=gpt-4o)**
+#### **[OpenAI Playground](https://platform.openai.com/playground/chat?models=gpt-4o)**
 
 Free for use browser tool which lets you test out OpenAI model configurations and get associated code snippets. Has access to cutting edge features (real-time and assistants APIs).
 
-##### **[LM Studio](https://lmstudio.ai/)**
+#### **[LM Studio](https://lmstudio.ai/)**
 
 Self-hosted offering. No additional costs for using the language model. High hardware costs, available models are limited by your hardware configuration. You the need to download models individually. For enterprise applications with high security needs.
 
-## Using GitHub Models as a Development Tool
+## Using GitHub Models as a development tool
 
 ![Figure: GitHub Models makes life easy](https://github.com/user-attachments/assets/f8fdca43-fd0c-4a16-a37d-b1d322752712)
 
@@ -97,15 +96,13 @@ You have the option to choose between most major language models. You can experi
 
 For example, you may be building a chatbot and find that GPT 4o mini provides suitable responses and that you don't need to invest in the extra compute costs involved with running a larger model.
 
-###### Deploying to production
+## Deploying to production
 
 Once you've identified the best model for your needs, GitHub Models simplifies deployment. You can:
 
-1. Generate a **production key** for your app.
-2. Start incurring costs **only when you go live**.
+1. Generate a **production key** for your app
+2. Start incurring costs **only when you go live**
 
 This approach allows you to make an informed decision before committing financially, ensuring you're using the right AI model for your application.
 
 In effect, GitHub Models is the lite version of Azure's AI Foundry – it can even use the same API.
-
-Can you see yourself trying GitHub Models out? Why or why not?
