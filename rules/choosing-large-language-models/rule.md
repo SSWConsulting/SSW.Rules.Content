@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do You Pick The Best Large Language Model For Your Project?
 seoDescription: When choosing an AI model for your application, it's crucial to
   try out different Large Language Models (LLMs) before committing. Learn how to
@@ -104,3 +103,7 @@ Once you've identified the best model for your needs, GitHub Models simplifies d
 2. Start incurring costs **only when you go live**.
 
 This approach allows you to make an informed decision before committing financially, ensuring you're using the right AI model for your application.
+
+In effect, GitHub Models is the lite version of Azure's AI Foundry – it can even use the same API.
+
+Can you see yourself trying GitHub Models out? Why or why not?
