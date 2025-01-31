@@ -1,5 +1,4 @@
 ---
-seoDescription: Delays application processing with Thread.Sleep and Application.DoEvents in .NET code.
 type: rule
 archivedreason:
 title: Comments - Do you add a comment when you use Thread.Sleep?
