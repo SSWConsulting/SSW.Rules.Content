@@ -37,7 +37,6 @@ jobs:
         id: validate_frontmatter
         run: |
           node scripts/frontmatter-validator/frontmatter-validator.js --file all_rules_files.txt > validation_results.txt
-          cat validation_results.txt
       - name: Create Job Summary
         if: always()
         run: |
