@@ -28,11 +28,12 @@ These are the steps you should take when requesting a "Test Please":
 3. Create your "Test Please" following this template:
 
 ::: email-template
-|  |  |
-| --- | --- |
-| To: | John |
+|          |     |
+| -------- | --- |
+| To:      | John |
 | Subject: | Product Name v1.11 |
-| ::: email-content |  |
+::: email-content
+
 1. <mark>'Test Please'</mark>
 
 ### Hi John
@@ -86,7 +87,6 @@ Regards,
 
 :::
 
-:::
 
 
 ::: info
