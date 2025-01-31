@@ -143,7 +143,6 @@ function validateFiles(fileListPath) {
 }
 
 function main() {
-  console.log('starting frontmatter validation');
   const args = process.argv.slice(2);
 
   if (args.includes('--file')) {
@@ -166,7 +165,6 @@ function main() {
     return;
   }
 
-  console.log('Frontmatter validation after allErrors.length == 0');
   allErrors.forEach(({ filePath, fileErrors }) => {
     console.log(
       `## Rule: [${filePath}](https://github.com/SSWConsulting/SSW.Rules.Content/tree/main/${filePath})\n`
@@ -176,6 +174,5 @@ function main() {
     console.log('\n');
     console.log('\n');
   });
-  console.log('found some issues > : (');
 }
 main();
