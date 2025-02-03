@@ -1,7 +1,7 @@
 ---
-seoDescription: PageSpeed Insights can significantly optimize your webpages' performance with actionable suggestions. Let me know if you need anything else! 😊
+seoDescription: PageSpeed Insights can significantly optimize your webpages' performance with actionable suggestions. 
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/website-page-speed (using Google's standard page instead of a browser add-on)
 title: Do you use PageSpeed?
 guid: 0db8cbaf-1906-45e5-bc4f-73751a27dade
 uri: do-you-use-pagespeed
@@ -21,13 +21,13 @@ PageSpeed can analyze the performance of your webpages and get specific suggesti
 
 <!--endintro-->
 
-### How to install PageSpeed?
+## How to install PageSpeed?
 
 Install PageSpeed from [Chrome web store](https://chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?hl=en-GB).
 
 ![Figure:  Install PageSpeed Insights (with PNaCl)](2d.png)
 
-### How to use PageSpeed?
+## How to use PageSpeed?
 
 In Developer Tools (F12), you will have a new tab named PageSpeed.
 
