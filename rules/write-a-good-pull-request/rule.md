@@ -97,6 +97,10 @@ If there is an area you are uncertain about, add:
 
 * "I'm looking for feedback on this code"
 
+If the PR is closing an email task after merged, remember to refer back to it:
+
+* "Done - see email: **{{ EMAIL SUBJECT }}**
+
 ::: info
 Linking the source to a PR serves as documentation on which development work that was done. It helps in the future to debug when and which changes were introduced and the original specification of that piece of work.
 :::
