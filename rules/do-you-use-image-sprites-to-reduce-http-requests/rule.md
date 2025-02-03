@@ -1,12 +1,14 @@
 ---
 seoDescription: Reduce HTTP requests and speed up page load times by using CSS image sprites, a technique that combines multiple images into one, allowing browsers to display only the needed portion.
 type: rule
-archivedreason:
+archivedreason: Considered obsolete due to advancements in modern web technologies, like https://www.ssw.com.au/rules/use-a-cdn
 title: Do you use image sprites to reduce HTTP requests?
 guid: feb7f72b-d35c-4b46-a86b-92ae10916504
 uri: do-you-use-image-sprites-to-reduce-http-requests
 created: 2015-10-13T00:58:22.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -24,7 +26,7 @@ The benefits to use CSS image sprites are:
 Ensure that the file size of your master image isn't greater than the sum of its pieces.
 
 ::: bad  
-![Figure: Bad Example - four images, one for each icon](ImageSprites_bad.gif)  
+![Figure: Bad example - four images, one for each icon](ImageSprites_bad.gif)  
 :::
 
 ::: good  
