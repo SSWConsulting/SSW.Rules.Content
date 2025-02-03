@@ -14,7 +14,7 @@ index:
 - the-drawbacks-of-fixed-price-fixed-scope-contracts
 - call-clients-before-sending-an-estimate
 - management-do-you-maintain-verbal-contact-with-your-client
-- do-you-know-the-difference-between-fixed-price-and-time-and-materials-work
+- fixed-price-vs-time-and-materials
 - do-you-know-the-difference-between-ad-hoc-work-and-managed-work
 - do-you-know-how-to-be-pushy-when-you-need-to-be
 - are-you-persistent-when-you-think-something-should-be-done
