@@ -33,9 +33,9 @@ This includes checking for improvements on:
 * Page responsiveness
 
 ::: greybox
-A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times. 
+A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times.
 
-Visitors may encounter delays, increasing the likelihood of frustration and abandonment. 
+Visitors may encounter delays, increasing the likelihood of frustration and abandonment.
 
 This negatively impacts user experience and potential conversions.
 :::
@@ -44,7 +44,7 @@ Bad example - Things that will negatively impact the website UX
 :::
 
 ::: greybox
-On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins. 
+On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
 
 These optimizations contribute to:
 
