@@ -38,7 +38,9 @@ With a mountain of emails, it is difficult to make sure the most important tasks
 The word **"Urgent"** is more important than the word **"Important"**
 :::
 
+::: img-medium
 ![Figure: Is it urgent or important?](Urgent-or-Important.png)
+:::
 
 ### This is the order which you should work
 
