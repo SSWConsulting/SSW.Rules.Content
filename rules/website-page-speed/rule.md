@@ -7,7 +7,7 @@ authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
 related:
-  - do-you-use-pagespeed
+  - optimize-your-images
 redirects:
   - do-you-have-a-good-page-speed
 created: 2019-04-16T22:59:21.000Z
