@@ -20,13 +20,13 @@ archivedreason: null
 guid: 7cc338e9-0090-45c2-af82-936aa15ddb58
 ---
 
-PBIs/Issues, tasks, PRs and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. This allows others to understand the PBI was closed and what the outcome was. 
+PBIs/Issues, tasks, PRs and goals are the backbone of work regardless of whether they are stored in Azure DevOps, GitHub, Jira, Trello, or some other platform. When you finish a task, marking it as done is satisfying, but remember to add a closing comment for future context. This allows others to understand the PBI was closed and what the outcome was.
 
 <!--endintro-->
 
 For example, if you have UI changes, a [Done video](/send-done-videos) or a couple of screenshots can go a long way to help the team understand what was completed. Similarly, if there are changes to architecture documents (e.g. the readme), providing a link to those artifacts helps others get across the change.
 
-::: info 
+::: info
 **Note:** A comment is critical when closing a PBI as "Won't Fix" or "Duplicate" but is valuable in all scenarios and should be the default approach.
 :::
 
