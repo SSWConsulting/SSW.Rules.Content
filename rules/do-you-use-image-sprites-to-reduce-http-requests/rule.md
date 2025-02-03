@@ -19,9 +19,9 @@ A sprite is an image that has all of your other images inside of it, so if your 
 
 The benefits to use CSS image sprites are:
 
-- to save bandwidth
-- to reduce HTTP server requests
-- to speed up page load times
+* to save bandwidth
+* to reduce HTTP server requests
+* to speed up page load times
 
 Ensure that the file size of your master image isn't greater than the sum of its pieces.
 
