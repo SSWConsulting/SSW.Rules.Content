@@ -23,7 +23,7 @@ archivedreason: null
 guid: ed0b5cce-5f87-4fe4-907d-d2100a77ef06
 ---
 
-Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://shadcn.dev) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com).
+Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://ui.shadcn.com) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com).
 
 <!--endintro-->
 
@@ -104,7 +104,7 @@ When evaluating a component library, also keep in mind:
 * **[Mantine](https://mantine.dev)** - A flexible and fully accessible UI library with 100+ customizable components and hooks for React
 * **[PrimeReact](https://primereact.org)** - A comprehensive collection of components for React, part of the PrimeFaces family
 * **[NextUI](https://nextui.org)** - A modern React UI library optimized for dark mode by default with customizable components
-* **[React Suite](https://rsuitejs.com-)** - A set of React components built for middle and back-office applications
+* **[React Suite](https://rsuitejs.com)** - A set of React components built for middle and back-office applications
 * **[KendoUI](https://www.telerik.com/kendo-ui)** - Offers advanced HTML and jQuery controls for data grids, charts, and more
 
 What's your favourite UI library?
