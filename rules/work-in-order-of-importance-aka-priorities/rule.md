@@ -25,12 +25,21 @@ archivedreason: null
 guid: d7ed07f0-6d42-45a8-8ea5-dbeb78576aef
 ---
 
+::: greybox
+"The difficult we do immediately; the impossible takes a little longer"
+— French Proverb
+:::
+
 With a mountain of emails, it is difficult to make sure the most important tasks get done first. You want to keep your clients happy while still removing roadblocks for others.
 
 <!--endintro-->
 
 ::: info
 The word **"Urgent"** is more important than the word **"Important"**
+:::
+
+::: img-medium
+![Figure: Is it urgent or important?](Urgent-or-Important.png)
 :::
 
 ### This is the order which you should work
