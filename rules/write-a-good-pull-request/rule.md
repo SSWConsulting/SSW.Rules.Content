@@ -88,13 +88,14 @@ Examples of sentences to have in a good PR description:
 * "Worked with **{{ @MENTION(S) }}**" (as per [pair or mob programming](/do-you-use-co-creation-patterns) rule)
 * "This PR is to **{{ ACHIEVE THE FEATURE / FIX THE BUG / OTHER GOAL(S) }}**" (anything that was not possible to explain in the title)
 * See **"{{ SCREENSHOT / DONE VIDEO }}** for more details" (to help the reviewer to understand the changes. E.g. Styling changes)
-    
+
 If you noticed that a change needed to be made and had no specific task/issue, use:
   
 * "I/We noticed a problem: **{{ DETAILS }}**"
 
 If there is an area you are uncertain about, add:
- * "I'm looking for feedback on this code"
+
+* "I'm looking for feedback on this code"
 
 ::: info
 Linking the source to a PR serves as documentation on which development work that was done. It helps in the future to debug when and which changes were introduced and the original specification of that piece of work.
@@ -122,7 +123,7 @@ Figure: OK example - Clear and concise description, however it's not clear what 
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:**
-From email subject by @bob: **SSW.Rules - Video caption missing** 
+From email subject by @bob: **SSW.Rules - Video caption missing**
 Added missing video caption + removed unnecessary brackets
 :::
 ::: good
