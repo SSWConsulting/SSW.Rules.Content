@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
-import os, sys, subprocess, re
+import os
+import sys
+import re
+from ollama import generate
 
 def generate_seo_description(file_content):
     script_dir = os.path.dirname(os.path.realpath(__file__))
     prompt_file = os.path.join(script_dir, "prompt.txt")
     with open(prompt_file, "r", encoding="utf-8") as pf:
         prompt = pf.read()
-    result = subprocess.run(
-        ["ollama", "run", "deepseek-r1:14b", prompt],
-        input=file_content, text=True, capture_output=True
-    )
-    seo_description = result.stdout
-    # Remove <think>...</think> tags (including multiline content)
+    combined_prompt = f"{prompt}\n\n{file_content}"
+    response = generate(model="deepseek-r1:14b", prompt=combined_prompt)
+
+    seo_description = response['response']
+    
+    # Remove <think>...</think> tags from reasoning models
     cleaned = re.sub(r"<think>.*?</think>", "", seo_description, flags=re.DOTALL)
     return cleaned
 
@@ -34,6 +37,7 @@ def main():
     script_dir = os.path.dirname(os.path.realpath(__file__))
     log_file = os.path.join(script_dir, "seo_issues.log")
 
+    # Gather markdown files (.md and .mdx)
     markdown_files = []
     for root, _, files in os.walk(search_dir):
         for file in files:
@@ -47,12 +51,13 @@ def main():
         with open(md_file, "r", encoding="utf-8") as f:
             content = f.read()
 
+        # Skip if seoDescription already exists
         if re.search(r"^seoDescription:", content, re.MULTILINE):
             print(f"SEO description already present in {md_file} ✅\n")
         else:
             seo_desc = generate_seo_description(content)
             issues = check_seo_description(seo_desc)
-            # Flatten description to a single line
+            # Flatten to a single line for YAML
             seo_desc_single = " ".join(seo_desc.split())
             if not issues:
                 lines = content.splitlines()
