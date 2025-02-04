@@ -1,12 +1,13 @@
 ---
 seoDescription: Optimize your website's speed to ensure a seamless user experience and boost conversions.
 type: rule
-title: Technical - Do you have a good page speed?
+title: Technical - Do you check your website performance?
 uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
-related: []
+related:
+  - optimize-your-images
 redirects:
   - do-you-have-a-good-page-speed
 created: 2019-04-16T22:59:21.000Z
@@ -20,19 +21,33 @@ The demand for instant information has made faster loading times more crucial th
 
 <!--endintro-->
 
-💡**Tip:** To gauge and enhance your website's performance, consider utilizing the free Google tool, PageSpeed Insights, which provides valuable insights into your URL's loading speed.
+**💡 Tip:** Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
 
-Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
+For a smooth and responsive user experience, your site needs to be checked for performance bottlenecks. These usually become noticeable sometime after deployment, as your user base and quantity of content grows.
+
+This includes checking for improvements on:
+
+* The slowest pages
+* The compression of unnecessarily large images
+* Inefficient Ajax JavaScript code
+* Slow database queries
+* Page responsiveness
 
 ::: greybox
-A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times. Visitors may encounter delays, increasing the likelihood of frustration and abandonment. This negatively impacts user experience and potential conversions.
+A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times.
+
+Visitors may encounter delays, increasing the likelihood of frustration and abandonment.
+
+This negatively impacts user experience and potential conversions.
 :::
 ::: bad
 Bad example - Things that will negatively impact the website UX
 :::
 
 ::: greybox
-On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins. These optimizations contribute to:
+On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
+
+These optimizations contribute to:
 
 * Faster page loading
 * Enhancing user satisfaction
@@ -41,5 +56,4 @@ On the contrary, a well-optimized website employs techniques such as image compr
 :::
 ::: good
 Good example - Good performance will improve the website's UX
-
 :::
