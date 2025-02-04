@@ -31,6 +31,7 @@ index:
 - migrate-an-existing-user-store-to-an-externalauthprovider
 - modern-stateless-authentication
 - securely-share-sensitive-information
+- use-eye-toggle-to-see-password
 ---
 
 Want to avoid embarrassing or expensive data breaches? Check [SSW's Security consulting page](https://www.ssw.com.au/consulting/security).
