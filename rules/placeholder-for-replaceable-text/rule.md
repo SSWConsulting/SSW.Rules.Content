@@ -32,6 +32,7 @@ Use a consistent character to make it clear which piece of text should be substi
 However, everyone has their own preferences about which placeholder character to use 🥸
 
 For example:
+
 * SSW Rules historically used xxx
 * SSW Intranet | Sales templates use ❌❌❌
 * SSW GitHub Sprint Templates use ✏️xxx
@@ -42,6 +43,7 @@ For example:
 * Visual Studio code reviewers are used to TODO:
 
 Let's see these in action:
+
 * The quick brown fox xxx over the lazy dog
 * The quick brown fox ❌❌❌ over the lazy dog
 * The quick brown fox ✏️xxx over the lazy dog
