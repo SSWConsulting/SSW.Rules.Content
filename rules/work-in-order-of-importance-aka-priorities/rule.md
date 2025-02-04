@@ -29,7 +29,7 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
 
 <!--endintro-->
 
-> "The difficult we do immediately; the impossible takes a little longer"   
+> "The difficult we do immediately; the impossible takes a little longer"
 > \— French Proverb
 
 ::: img-medium
@@ -44,10 +44,10 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
     The word **"Urgent"** is more important than the word **"Important"**.
     :::
 
-    If you see the keyword "URGENT" (or ⚠️ emoji) in the subject/title/body, it automatically becomes the **top priority** and is to be resolved immediately.   
+    If you see the keyword "URGENT" (or ⚠️ emoji) in the subject/title/body, it automatically becomes the **top priority** and is to be resolved immediately.
     E.g. "⚠️ URGENT - The website is down"
 
-    If you see the keyword "IMPORTANT" (or ❗ emoji), that PBI should to be treated as **high priority** and is to be resolved ASAP.   
+    If you see the keyword "IMPORTANT" (or ❗ emoji), that PBI should to be treated as **high priority** and is to be resolved ASAP.
     E.g. "❗️ IMPORTANT - Broken link"
 
     ::: warning
@@ -57,7 +57,7 @@ With a mountain of emails and PBIs, it is difficult to make sure the most import
     ::: info
     **Note:** The fire 🔥 emoji is no longer used to indicate something bad, as it can be misinterpreted.
     Often these days the 🔥 emoji is used for "hot topics".
-   
+
    Instead, the ⚠️ warning emoji should be used to indicate an issue of concern.
    :::
 
@@ -100,5 +100,3 @@ Figure: Good example - Confirming the priority order with the client
   ::: good
   ![Figure: Group by subfolders under your inbox](subfolders.png)
   :::
-
-
