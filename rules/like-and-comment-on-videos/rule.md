@@ -9,6 +9,8 @@ uri: like-and-comment-on-videos
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - conduct-a-test-please
   - refer-to-email-subject
@@ -21,11 +23,11 @@ Engaging with important videos by liking and commenting not only boosts their pe
 
 If you're a video creator, encourage testers to like and comment on videos to confirm they've watched and to gather their valuable feedback.
 
-These video interactions help building a history for the videos, like who are the viewers and their thoughts on them.
+These video interactions help build a history, like who are the viewers and their thoughts.
 
-:::
-**Comment on video:** Test Pass - liked video and sent feedback via email subject: "TimePro - fix report alignment"
+::: greybox
+**Comment on video:** Test Pass - liked video and sent feedback via email subject: "TimePro UI - fix report alignment"
 :::
 ::: good
-Figure: Good example - Video interactions creates a record that it has been watched
+Figure: Good example - Video interactions creates a record that it has been watched and tested
 :::
