@@ -58,6 +58,10 @@ If you are writing code, your Pull Request (PR) review is your "Test Please"
 
 If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
 
+## Videos
+
+If you created a video, [likes and comments](/like-and-comment-on-videos) are your "Test Please".
+
 ## Anything else
 
 If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
