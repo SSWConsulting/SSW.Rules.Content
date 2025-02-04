@@ -2,6 +2,9 @@
 type: rule
 tips: ""
 title: Do you take the time to interact with important videos?
+seoDescription: Discover the importance of interacting with test-related videos.
+  Learn how liking and commenting can boost visibility, track your viewing
+  history, and provide valuable feedback for video creators and viewers.
 uri: like-and-comment-on-videos
 authors:
   - title: Adam Cogan
