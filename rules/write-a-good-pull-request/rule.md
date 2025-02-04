@@ -18,6 +18,7 @@ authors:
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
 related:
+  - refer-to-email-subject
   - useful-information-on-changes
   - close-pbis-with-context
   - use-pull-request-templates-to-communicate-expectations
