@@ -1,4 +1,5 @@
 ---
+seoDescription: Detect service availability issues and implement fallback strategies using our open-source library for seamless handling of blocked services in China or behind corporate firewalls.
 type: rule
 archivedreason: 
 title: Do you detect service availability from the client?

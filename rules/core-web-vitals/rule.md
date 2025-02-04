@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover why measuring Core Web Vitals is crucial for enhancing page performance and boosting your site's SEO rankings.
 type: rule
 title: Technical - Do you know the importance of measuring Core Web Vitals?
 uri: core-web-vitals

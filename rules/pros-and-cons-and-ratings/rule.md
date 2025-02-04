@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your decision-making process with ChatGPT by requesting pros, cons, and ratings when comparing options or seeking advice.
 type: rule
 title: Do you ask for pros and cons and a rating when seeking advice or
   comparing options?

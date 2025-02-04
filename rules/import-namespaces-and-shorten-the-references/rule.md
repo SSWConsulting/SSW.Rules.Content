@@ -1,4 +1,5 @@
 ---
+seoDescription: Import namespaces and shorten references in C# for cleaner, more readable code.
 type: rule
 archivedreason: 
 title: Do you import namespaces and shorten the references?

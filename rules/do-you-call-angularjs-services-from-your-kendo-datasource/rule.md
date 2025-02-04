@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to properly integrate AngularJS services with Kendo DataSource for cleaner code and better maintainability.
 type: rule
 archivedreason: 
 title: Do you call AngularJS services from your Kendo datasource?

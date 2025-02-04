@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively report bugs by including detailed UX information and consider using screen recordings for clarity.
 type: rule
 archivedreason: Replaced by do-you-know-the-right-way-to-report-bugs
 title: Do you provide UX details when reporting a bug?
@@ -53,5 +54,4 @@ Figure: Good example - We can easily identify more the one way to improve the UX
 :::
 
 Better than a good description of the bug is a screen recording. This should be followed for a more detailed report. Use Snagit (preferred) or Jing to record your screen.
-
 

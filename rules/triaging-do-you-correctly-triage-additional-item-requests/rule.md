@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to triage additional item requests effectively to keep your project on track.
 type: rule
 title: Triaging - Do you correctly triage additional item requests?
 uri: triaging-do-you-correctly-triage-additional-item-requests

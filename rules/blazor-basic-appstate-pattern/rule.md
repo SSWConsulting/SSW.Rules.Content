@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to implement the AppState pattern in Blazor for simple yet effective state management across components.
 type: rule
 title: State Management - Do you use the AppState pattern?
 uri: blazor-basic-appstate-pattern

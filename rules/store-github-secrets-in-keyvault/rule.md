@@ -1,4 +1,5 @@
 ---
+seoDescription: Securely manage GitHub secrets with Azure KeyVault for enhanced security and centralized control.
 type: rule
 title: Do you store your GitHub secrets in Azure KeyVault?
 uri: store-github-secrets-in-keyvault

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential naming convention tips for Reporting Service, including avoiding plurals and using "zs" prefixes for system folders.
 type: rule
 archivedreason:
 title: Do you follow the naming convention standards in Reporting Service?

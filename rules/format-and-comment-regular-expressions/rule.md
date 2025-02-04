@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance readability and maintainability of your regular expressions by formatting them neatly and adding clear comments.
 type: rule
 title: Do you format and comment your regular expressions?
 uri: format-and-comment-regular-expressions

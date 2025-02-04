@@ -1,4 +1,5 @@
 ---
+seoDescription: Timebox approval requests to prevent delays and wasted effort, ensuring efficient workflow management.
 type: rule
 title: Efficiency - Do you timebox approval requests?
 uri: do-you-timebox-approval-requests

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to use ChatGPT to write effective rules with this step-by-step guide, perfect for creating best practice guidelines.
 type: rule
 title: Do you know how to use ChatGPT to write a rule?
 uri: use-chatgpt-to-write-a-rule

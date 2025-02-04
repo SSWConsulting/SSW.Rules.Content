@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to prevent email mistakes by delaying sends in Outlook for 15 minutes.
 type: rule
 title: Do you give yourself a 2nd chance by not sending emails immediately?
 uri: avoid-sending-emails-immediately

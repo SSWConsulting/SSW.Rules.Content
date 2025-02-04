@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create custom bullets with symbols or pictures in Office to clearly distinguish your good and bad bullet points.
 type: rule
 title: Do you have good and bad bullet points?
 uri: have-good-and-bad-bullet-points

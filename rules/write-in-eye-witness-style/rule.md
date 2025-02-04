@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to write professional web content in a newsreader style using 3rd person language for objective and engaging results.
 type: rule
 title: Do you write in the newsreader and eyewitness style?
 uri: write-in-eye-witness-style

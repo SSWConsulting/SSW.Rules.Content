@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your TikTok videos with expert editing tips for maximum engagement and visibility. Discover best practices for video length, music usage, and captioning to captivate audiences.
 type: rule
 title: TikTok - Do you edit your videos for TikTok?
 uri: edit-your-videos-for-tiktok

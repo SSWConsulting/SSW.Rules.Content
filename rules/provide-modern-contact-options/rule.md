@@ -1,4 +1,5 @@
 ---
+seoDescription: Upgrade your site's CX with modern contact options like chat, VoIP, and more for happier customers.
 type: rule
 title: Do you provide modern contact options?
 uri: provide-modern-contact-options

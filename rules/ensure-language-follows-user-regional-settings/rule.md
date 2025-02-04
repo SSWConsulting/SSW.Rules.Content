@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your reports respect users' language settings by setting 'Language' to "=User!Language" for automatic regional culture detection, enhancing accessibility across diverse regions.
 type: rule
 archivedreason:
 title: Internationalization - Do you make sure your language follows the user's regional settings?

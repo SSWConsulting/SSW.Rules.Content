@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn effective versioning strategies for Power Platform solutions to enhance tracking, deployment, and development lifecycle management.
 type: rule
 title: Do you version Power Platform solutions before deploying?
 uri: power-platform-versioning

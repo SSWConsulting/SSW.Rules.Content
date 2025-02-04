@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively use version control for Power BI reports with PBIP format and Git integration via Microsoft Fabric. Learn to manage your reports using Azure DevOps seamlessly.
 type: rule
 title: Do you know the Power BI version control features?
 uri: do-you-know-powerbi-version-control-features

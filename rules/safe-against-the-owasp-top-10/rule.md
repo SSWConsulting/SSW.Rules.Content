@@ -1,4 +1,5 @@
 ---
+seoDescription: Protect your web application from OWASP Top 10 risks with essential security tips and resources.
 type: rule
 archivedreason: 
 title: Do you stay safe against the OWASP Top 10?

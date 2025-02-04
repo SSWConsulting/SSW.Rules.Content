@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn the best way to indicate replaceable text in email templates using clear placeholders.
 type: rule
 title: Do you use the right character for replaceable text placeholders?
 uri: placeholder-for-replaceable-text
@@ -112,4 +113,3 @@ Regards,
 ::: good  
 Figure: Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE 
 :::
-

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to display the correct SharePoint document version number in your Word files.
 type: rule
 archivedreason: 
 title: Do you know how to get the SharePoint document version in Word?

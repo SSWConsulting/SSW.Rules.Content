@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how using a resource file for regular expressions simplifies management and improves maintainability.
 type: rule
 title: Do you use resource file to store your regular expressions?
 uri: use-resource-file-to-store-regular-expressions

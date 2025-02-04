@@ -1,4 +1,5 @@
 ---
+seoDescription: Streamline your database schema with standardized tables and columns for efficient auditing, version control, and application defaults.
 type: rule
 archivedreason: 
 title: Schema - Do you have standard tables and columns?

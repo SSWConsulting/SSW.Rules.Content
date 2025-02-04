@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective strategies for managing a LinkedIn page for international companies, including how to create targeted multilingual posts and expand your global reach.
 type: rule
 title: "LinkedIn - Do you know how to manage a LinkedIn page for international
   companies?  "

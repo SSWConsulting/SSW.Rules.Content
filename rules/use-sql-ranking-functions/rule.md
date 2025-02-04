@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively rank your data with SQL ranking functions since SQL 2005.
 type: rule
 archivedreason:
 title: Data Logic - Do you use SQL Ranking functions to rank your data?

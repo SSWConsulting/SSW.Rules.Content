@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover why software testing is crucial for identifying risks and ensuring high-quality outcomes.
 type: rule
 title: Do you understand why testing is important?
 uri: why-testing-is-important

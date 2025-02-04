@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to recognize software problems using oracles, heuristics, and specifications to enhance your credibility in bug reporting.
 type: rule
 title: Do you understand how you know when you’ve found a problem?
 uri: know-when-you-have-found-a-problem

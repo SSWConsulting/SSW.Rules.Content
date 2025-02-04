@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover how to document your decisions and processes effectively using rules or blog posts for better clarity and reusability."
 type: rule
 title: Do you document what you are doing in rules/blog posts?
 uri: document-what-you-are-doing

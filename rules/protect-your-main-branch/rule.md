@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure code safety and quality with branch protection rules in Git.
 type: rule
 title: Do you protect your main branch? aka branch protection
 uri: protect-your-main-branch

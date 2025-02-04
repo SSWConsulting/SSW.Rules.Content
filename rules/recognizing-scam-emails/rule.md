@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential tips to identify and avoid email scams while enhancing your email security. Learn how to spot phishing attempts and protect yourself from malicious threats.
 type: rule
 title: Do you know how to recognize scam emails?
 uri: recognizing-scam-emails

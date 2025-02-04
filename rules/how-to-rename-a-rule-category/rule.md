@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to update a rule category name in SharePoint with step-by-step instructions.
 type: rule
 archivedreason: Replaced by GitHub https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Rename-Rules
 title: SharePoint - Do you know how to rename a rule category? (internal only)

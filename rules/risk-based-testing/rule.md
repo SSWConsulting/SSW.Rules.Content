@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to prioritize your tests using risk-based strategies to uncover critical issues early and reduce quality risks in software testing.
 type: rule
 title: Do you take a risk-based approach to test planning?
 uri: risk-based-testing

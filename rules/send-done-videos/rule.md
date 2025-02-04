@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance client communication with Done Videos—transparent, early-release feature demos fostering collaboration.
 type: rule
 title: Communication - Do you send "Done Videos"?
 uri: send-done-videos

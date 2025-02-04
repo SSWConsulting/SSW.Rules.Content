@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the essential out-of-the-box features SharePoint offers compared to ASP.NET, including WYSIWYG editing, content version control, permission management, and more.
 type: rule
 archivedreason: 
 title: ASP.NET vs SharePoint development - Do you know what you get for free out of the box?

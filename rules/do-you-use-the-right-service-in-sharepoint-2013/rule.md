@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the updated REST API endpoints for SharePoint 2013 and learn how to access list data with the new service.
 type: rule
 archivedreason: 
 title: Do you use the right service in SharePoint 2013

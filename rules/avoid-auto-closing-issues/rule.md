@@ -1,4 +1,5 @@
 ---
+seoDescription: "Avoid closing GitHub Issues prematurely by not linking them to PRs—use alternative terms instead of 'closes' or 'fixes.'"
 type: rule
 title: Do you avoid linking issues to PRs in GitHub?
 uri: avoid-auto-closing-issues

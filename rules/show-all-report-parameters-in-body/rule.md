@@ -1,4 +1,5 @@
 ---
+seoDescription: Display all report parameters in your report body for clear user understanding across platforms like IE, PDF, and Excel.
 type: rule
 archivedreason:
 title: Data Layout - Do you show all of the report parameters in body?

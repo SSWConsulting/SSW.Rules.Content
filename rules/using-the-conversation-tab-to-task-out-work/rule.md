@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively task out work by adding it to the backlog using the conversation tab for better project management.
 type: rule
 archivedreason: 
 title: Do you avoid using the conversation tab to task out work?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how information, intelligence, and wisdom differ when analyzing A/B test results to make informed decisions.
 type: rule
 title: Do you know the difference between information, intelligence, and wisdom?
 uri: information-intelligence-wisdom

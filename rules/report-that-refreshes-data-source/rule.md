@@ -1,4 +1,5 @@
 ---
+seoDescription: Generate reports with manual data refresh options and track refresh history efficiently.
 type: rule
 archivedreason:
 title: Do you have a report which refreshes your data source?

@@ -1,4 +1,5 @@
 ---
+seoDescription: "Always use English in communications involving your head office for seamless collaboration and clarity."
 type: rule
 archivedreason: 
 title: Do you know you should always use the language of your head office? (usually English)

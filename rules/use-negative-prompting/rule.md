@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to use negative prompting in AI image generation to create clearer results by excluding unwanted elements in Midjourney, DALL-E-2, and other tools.
 type: rule
 archivedreason:
 title: Do you use negative prompting?

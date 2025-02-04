@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how Active Directory Federation Services (ADFS) enables Single Sign-On (SSO) for secure access to multiple systems like Office 365 and Dynamics 365.
 type: rule
 archivedreason: 
 title: Do you have Active Directory Federation Services activated?

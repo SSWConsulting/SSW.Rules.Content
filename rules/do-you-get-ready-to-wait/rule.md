@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize Sitefinity performance with essential tips to speed up initial load times, including module management, database maintenance, and reflection tool usage.
 type: rule
 archivedreason: 
 title: Do you get ready to wait?

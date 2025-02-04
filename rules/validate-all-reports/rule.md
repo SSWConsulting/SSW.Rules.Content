@@ -1,4 +1,5 @@
 ---
+seoDescription: Validate all your SQL Server Reports instantly with the SSW SQL Reporting Services Auditor and ensure every report renders correctly without any errors.
 type: rule
 archivedreason:
 title: Admin - Do you validate all your reports?

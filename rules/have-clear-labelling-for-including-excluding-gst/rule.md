@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accurate reporting by clearly labelling GST inclusion or exclusion.
 type: rule
 archivedreason:
 title: Do you have a clear labelling for including / excluding GST?

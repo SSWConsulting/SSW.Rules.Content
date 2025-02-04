@@ -1,4 +1,5 @@
 ---
+seoDescription: Summarize your project's major features using a table format to clearly compare required elements, desired additions, and recommended options for informed decision-making.
 type: rule
 archivedreason: 
 title: Do you have a table summarizing the major features and options?

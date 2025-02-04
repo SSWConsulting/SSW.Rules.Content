@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create SQL Server databases without specifying paths using default settings for simpler, version-agnostic scripts.
 type: rule
 archivedreason: 
 title: DBAs - Do you create new databases in the default data directory?
@@ -43,7 +44,8 @@ CREATE DATABASE [DatabaseName]
  (
  NAME = N''[DatabaseName]_log'', 
  FILENAME = N''' + @device_directory + N'[DatabaseName].ldf''
- ) 		COLLATE SQL_Latin1_General_CP1_CI_AS
+ ) 
+		COLLATE SQL_Latin1_General_CP1_CI_AS
  ' 
  )
 Go

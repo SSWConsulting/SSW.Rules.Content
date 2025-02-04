@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential tips for performance testing using tools like k6, Apache JMeter, and NBomber to ensure your application meets user expectations.
 type: rule
 title: Do you have tests for Performance?
 uri: have-tests-for-performance

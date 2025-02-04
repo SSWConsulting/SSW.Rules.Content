@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how dynamic routing in Next.js enhances your application by enabling flexible, data-driven content delivery through dynamic paths and page generation.
 type: rule
 title: Do you use dynamic routing in Next.js?
 uri: next-dynamic-routes

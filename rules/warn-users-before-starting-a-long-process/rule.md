@@ -1,4 +1,5 @@
 ---
+seoDescription: Warn users before starting long processes in applications by showing a warning message with time estimates.
 type: rule
 archivedreason: 
 title: Do you warn users before starting a long process?

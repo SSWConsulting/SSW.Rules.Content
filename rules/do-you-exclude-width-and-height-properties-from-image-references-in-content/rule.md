@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid using width and height attributes in image tags to optimize content delivery and improve SEO performance.
 type: rule
 archivedreason: 
 title: Do you avoid having width and height properties in image tags?

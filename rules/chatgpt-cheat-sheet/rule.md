@@ -1,4 +1,5 @@
 ---
+seoDescription: Master ChatGPT with our cheat sheet, exploring roles, dos, don’ts, and effective prompting techniques for better AI interactions.
 type: rule
 title: Do you have a ChatGPT cheat sheet?
 uri: chatgpt-cheat-sheet

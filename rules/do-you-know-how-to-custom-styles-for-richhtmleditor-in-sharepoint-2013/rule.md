@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to customize styles for SharePoint 2013's RichHtmlEditor using PrefixStyleSheet and CSS files for consistent site branding.
 type: rule
 archivedreason: Outdated and content contains HTML
 title: Do you know how to custom styles for RichHtmlEditor in SharePoint 2013?

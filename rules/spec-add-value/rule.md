@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your contribution in Specification Reviews with essential tips on adding value, asking questions, and refining requirements for better outcomes.
 type: rule
 title: Do you know how to add value to a Specification Review?
 uri: spec-add-value

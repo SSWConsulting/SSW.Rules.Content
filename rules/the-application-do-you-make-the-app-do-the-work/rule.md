@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn effective deployment strategies for database changes in application upgrades, comparing manual and automated solutions.
 type: rule
 title: The application – Do you make the app do the work?
 uri: the-application-do-you-make-the-app-do-the-work

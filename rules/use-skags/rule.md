@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how Single Keyword Ad Groups (SKAGS) enhance your Google Ads strategy, boosting CTR and quality scores for better campaign performance.
 type: rule
 archivedreason: 
 title: Do you use Single keyword Ad Groups (SKAGS)?

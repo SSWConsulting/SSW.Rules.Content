@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how implementing a mentoring program fosters professional growth, enhances knowledge transfer, and boosts team success through effective mentorship strategies.
 type: rule
 title: Mentoring - Do you have a mentoring program?
 uri: mentoring-programs

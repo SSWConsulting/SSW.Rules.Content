@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the importance of consistent code comments for better readability and maintainability across all programming languages.
 type: rule
 title: Comments - Do you comment each property and method?
 uri: comment-each-property-and-method

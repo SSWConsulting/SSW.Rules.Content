@@ -1,4 +1,5 @@
 ---
+seoDescription: When determining if enough testing has been done, consider stopping heuristics like time constraints, significant bug discovery, ethical concerns, or project objectives, while focusing on high-risk areas through risk-based testing to ensure critical issues are addressed.
 type: rule
 title: Do you know when you've done "enough" testing?
 uri: enough-testing

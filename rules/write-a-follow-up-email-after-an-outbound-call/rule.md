@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to craft a personalized follow-up email after an outbound call with actionable tips to keep clients engaged and avoid cold starts in future communication.
 type: rule
 archivedreason: 
 title: Do you know how to write a follow-up email after an outbound call?

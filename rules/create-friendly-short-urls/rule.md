@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your website's accessibility and SEO by creating short, readable URLs that clearly convey their purpose.
 type: rule
 archivedreason: 
 title: Do you make URLs short and readable?

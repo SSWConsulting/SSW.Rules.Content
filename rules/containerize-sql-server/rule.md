@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to containerize your SQL Server environment using Docker for isolated development, faster setups, and cross-platform compatibility.
 type: rule
 title: Project setup - Do you use Docker to containerize your SQL Server environment?
 uri: containerize-sql-server

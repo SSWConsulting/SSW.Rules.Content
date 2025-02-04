@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize report calculations by using denormalized database fields for calculated values to enhance performance and streamline your data access.
 type: rule
 archivedreason:
 title: Data Logic - Do you use de-normalized database fields for calculated values?

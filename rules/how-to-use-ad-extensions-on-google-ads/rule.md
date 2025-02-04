@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how ad extensions can boost your Google Ads visibility and ROI with proven strategies.
 type: rule
 archivedreason: 
 title: Do you know how to use Ad Extensions on Google Ads?
