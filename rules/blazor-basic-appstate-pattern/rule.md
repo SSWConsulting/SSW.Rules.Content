@@ -121,16 +121,13 @@ public partial class Counter : ComponentBase
 }
 ```
 
-### Drawbacks of basic AppState pattern
+## ❌ Drawbacks of basic AppState pattern
 
-❌ We are unable to react to state changes made to the state object by other components
+* We are unable to react to state changes made to the state object by other components
+* We can modify the state but the page will not refresh to reflect the change
+* We need to call `StateHasChanged()` manually when we modify the state
 
-❌ We can modify the state but the page will not refresh to reflect the change
+## ✅ Benefits of basic AppState pattern
 
-❌ We need to call `StateHasChanged()` manually when we modify the state
-
-### Benefits of basic AppState pattern
-
-✅ Implementation is trivial - register, inject, consume
-
-✅ Works for very basic scenarios - especially if there are basic user interactions and basic state mutations directly on the `@code` (aka `ViewModel`) section  
+* Implementation is trivial - register, inject, consume
+* Works for very basic scenarios - especially if there are basic user interactions and basic state mutations directly on the `@code` (aka `ViewModel`) section  
