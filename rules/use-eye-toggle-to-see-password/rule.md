@@ -28,5 +28,5 @@ Adding an eye toggle icon solves this problem by allowing users to verify their 
 :::
 
 ::: good  
-![Figure: Good example - Sign-up form with an eye toggle](good-example-eye-toggle.pg)
+![Figure: Good example - Sign-up form with an eye toggle](good-example-eye-toggle.png)
 :::
