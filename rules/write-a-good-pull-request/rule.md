@@ -70,7 +70,7 @@ Good example - Pull Request title briefly describes the fix that it has
 
 Having the **"What"** information allows the reviewers to quickly understand what this is about while having the **"How"** can help the reviewer to quickly understand how your PR solved the problem. Sometimes we might want to put the **"How"** in the PR descriptions (see below) if it is too long or hard to explain in one sentence.
 
-## 2. Clear and informative **description** 
+## 2. Clear and informative **description**
 
 The Pull Request description is a medium for the developer to tell the reviewers what the changes are about.
 
@@ -145,14 +145,14 @@ There is also well-known Pull Request semantics like [Conventional Commits](http
 
 #### FAQs
 
-**Q: Are you making many small changes?**   
+**Q: Are you making many small changes?**
 **A:** You should summarize by saying: *“Improved readability”* OR *“Fixed typos and grammar”*.
 
-**Q: Are the changes big and complex?**    
+**Q: Are the changes big and complex?**
 **A:** You should include a demonstration of the change.  
 E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.
 
-**Q: Are you using a CMS editor (i.e. Netlify or [Tina](https://tina.io))**    
+**Q: Are you using a CMS editor (i.e. Netlify or [Tina](https://tina.io))**
 **A:** CMS editors may automatically add a placeholder description. If you're using a CMS to make your changes, you may need to go to the PR afterward and update the description to include the context.
 
 ::: info
