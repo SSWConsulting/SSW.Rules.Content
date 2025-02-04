@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential tips for performance testing using tools like k6, Apache JMeter, and NBomber to ensure your application meets user expectations.
 type: rule
 title: Do you have tests for Performance?
 uri: have-tests-for-performance
@@ -39,7 +40,7 @@ export default function () {
 
 **Figure: This code uses k6 to test that the MainPage loads in under 4 seconds**
 
-Sometimes, during performance load testing, it becomes necessary to simulate traffic originating from various regions to comprehensively assess system performance. This allows for a more realistic evaluation of how the application or system responds under diverse geographical conditions, reflecting the experiences of users worldwide. 
+Sometimes, during performance load testing, it becomes necessary to simulate traffic originating from various regions to comprehensively assess system performance. This allows for a more realistic evaluation of how the application or system responds under diverse geographical conditions, reflecting the experiences of users worldwide.
 
 **Sample Code:**
 
@@ -89,13 +90,14 @@ export default function () {
   };   
 }
 ```
+
 **Figure: This code uses k6 to test several endpoints by simulating traffic from different regions**
 
 ::: good  
 ![Figure: Good example - Output the result of simulating traffic from West US to K6 Cloud](run-script-with-k6-cloud.png)  
 :::
 
-Some popular open source load testing tools are: 
+Some popular open source load testing tools are:
 
 * [Apache JMeter](https://jmeter.apache.org) - 100% Java application with built in reporting - 6.7k Stars on GitHub
 * [k6](https://k6.io/open-source) - Write load tests in javascript - 19.2k Stars on GitHub

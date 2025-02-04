@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your Google Ads campaigns with the right bid strategy for conversions, clicks, or impressions.
 type: rule
 archivedreason: Lots of out-of-date content, likely needs a new rule
 title: Do you have a Bid Strategy for your Google Ads?

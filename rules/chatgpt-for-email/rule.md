@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your email writing with ChatGPT by drafting, personalizing, and refining messages for better communication.
 type: rule
 archivedreason:
 title: Do you use ChatGPT for better emails?

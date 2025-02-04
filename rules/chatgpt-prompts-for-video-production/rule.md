@@ -1,4 +1,5 @@
 ---
+seoDescription: Unlock your video production potential with ChatGPT prompts! Generate scripts, optimize SEO, and streamline workflows effortlessly.
 type: rule
 title: Do you use ChatGPT prompts for video production?
 uri: chatgpt-prompts-for-video-production

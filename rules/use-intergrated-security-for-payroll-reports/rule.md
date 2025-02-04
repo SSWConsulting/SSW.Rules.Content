@@ -1,4 +1,5 @@
 ---
+seoDescription: Secure your payroll reports with Integrated Security, ensuring each user views only their relevant data.
 type: rule
 archivedreason:
 title: Admin - Do you take advantage of 'Integrated Security' to do Payroll reports?

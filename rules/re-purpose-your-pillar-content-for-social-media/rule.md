@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to maximize your video content by repurposing pillar content into engaging micro-content for Instagram, Twitter, Facebook, and LinkedIn.
 type: rule
 title: Content - Do you re-purpose your pillar content for social media?
 uri: re-purpose-your-pillar-content-for-social-media

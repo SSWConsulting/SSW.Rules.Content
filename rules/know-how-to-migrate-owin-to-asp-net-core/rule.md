@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to migrate OWIN-based authentication to ASP.NET Core for modern web applications.
 type: rule
 title: Do you know how to migrate OWIN to ASP.NET Core?
 uri: know-how-to-migrate-owin-to-asp-net-core

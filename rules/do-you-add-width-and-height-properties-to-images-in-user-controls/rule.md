@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn whether adding width and height properties to images in user controls improves load times or impacts responsiveness.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-exclude-width-and-height-properties-from-image-references-in-content](/rules/do-you-exclude-width-and-height-properties-from-image-references-in-content)
 title: Do you add width and height properties to images in user controls?

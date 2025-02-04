@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively task out work by adding it to the backlog using the conversation tab for better project management.
 type: rule
 archivedreason: 
 title: Do you avoid using the conversation tab to task out work?
@@ -18,16 +19,12 @@ Tasking out work means adding it to the backlog. Adding it to the backlog has pr
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example - asking someone to do work in a conversation](teams - tasking in conversation.png)  
 :::
 
-
 ::: good  
 ![Figure: Good Example - task is added to the backlog](teams - add to backlog.png)  
 :::
-
-
 
 TODO: Have the bot listen in on the conversations to remind you about the rule

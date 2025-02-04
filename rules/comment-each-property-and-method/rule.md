@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the importance of consistent code comments for better readability and maintainability across all programming languages.
 type: rule
 title: Comments - Do you comment each property and method?
 uri: comment-each-property-and-method
@@ -21,14 +22,14 @@ It's important that you have a consistent code comment standard throughout an ap
 
 E.g. catch (InteropServices.COMException ex) //Catch all COM Exceptions from third-party COM component
 
-In JavaScript and HTML, you should put these comments between the 
+In JavaScript and HTML, you should put these comments between the
 &lt;HEAD&gt; and &lt;/HEAD&gt;
 tags.
 
-To delimit the comments (ie top and bottom), you should use the standard block comment markers of 
-&lt;!-- and --&gt;. 
+To delimit the comments (ie top and bottom), you should use the standard block comment markers of
+&lt;!-- and --&gt;.
 
-A CSS file should be delimited with the block comment marks of 
+A CSS file should be delimited with the block comment marks of
 /\* and \*/.
 
 If the file contains any function/sub module/class declaration, comments will be contained to each of them containing at least the following:
@@ -36,10 +37,7 @@ If the file contains any function/sub module/class declaration, comments will be
 * function/sub module/class name
 * role of the function/sub module/class declaration
 
-
 **Above a method or property declaration:**
-
-
 
 ```cs
 /// <summary>
@@ -49,7 +47,5 @@ If the file contains any function/sub module/class declaration, comments will be
 /// <param name="e"></param>
 /// <remarks ></remarks>
 ```
-
-
 
 **Bonus - you can automatically generate documentation - but the number of clients that want this is minimal.**
