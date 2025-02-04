@@ -46,4 +46,3 @@ To make your messages more visually appealing, you can use "> {{ MESSAGE }}" in 
 ::: good  
 ![Figure: Good example - Mentioning an email using the "> {{ MESSAGE }}" formatting](good-example---use-formatting.png)
 :::
-
