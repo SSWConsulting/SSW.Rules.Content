@@ -113,6 +113,7 @@ Sixth, do not give a summary, only give the chapter markers
 :::
 
 ## 5. Blog post
+
 ::: greybox  
    "As a SSW TV content creator, write a blog post about a video project. (Goal: Generate traffic, Constraint: Use proper SEO guidelines)\
    \
