@@ -17,7 +17,7 @@ redirects: []
 
 ---
 
-The tone of your application speaks volumes about how users view it. Read this [Google documentation on the voice of Android](https://m2.material.io/design). 
+The tone of your application speaks volumes about how users view it. Read this [Google documentation on the voice of Android](https://m2.material.io/design).
 
 <!--endintro-->
 

@@ -14,7 +14,7 @@ guid: 2bbd6c36-1fbd-4b51-bb93-cfc408e54c17
 
 ---
 
-When filming a subject (or subjects) there are numerous ways to frame them. 
+When filming a subject (or subjects) there are numerous ways to frame them.
 
 <!--endintro-->
 

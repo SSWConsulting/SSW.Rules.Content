@@ -29,7 +29,7 @@ TikTok videos can be anywhere as short as 2 seconds to a maximum of 10 minutes. 
 
 While creators are able to make longer video the optimum length would appear to be shorter.
 
-Source: https://danslee.co.uk/2020/01/21/clipped-i-watched-the-100-best-tiktok-videos-to-find-the-optimum-length-of-a-clip/
+Source: <https://danslee.co.uk/2020/01/21/clipped-i-watched-the-100-best-tiktok-videos-to-find-the-optimum-length-of-a-clip/>
 
 ![Figure: Most watched video lengths on TikTok](tiktok-pie-chart.png)
 
@@ -61,7 +61,7 @@ Captions are an excellent way to open your TikTok videos to a broader audience. 
 * Attention deficit disorder
 * Autism
 
-### Top 5 reasons for including captions:
+### Top 5 reasons for including captions
 
 1. Accessibility: As mentioned above, it makes your content more accessible.
 2. SEO: Backing up your video with captions and a transcript of the audio helps you rank on Google.

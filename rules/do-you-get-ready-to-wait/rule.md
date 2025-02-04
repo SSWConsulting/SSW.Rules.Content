@@ -34,5 +34,4 @@ This will ensure that the Sitefinity query's remain quick: [Sitefinity Database 
 4. Use a reflection tool like DotTrace that can show you what is slow on application start time.
 Using this method we determined that Sitefinity was using reflection on assemblies to find any MVC widgets and add them into the Sitefinity widget list. This process took a few seconds and we removed tags to speed this up.
 
-
 **Telerik Suggestion:** Have a best practise analyser wizard that is available in the backend which will look at the project and what is used and recommend settings that could be changed, modules that are not used, and any other improvements that can be applied.

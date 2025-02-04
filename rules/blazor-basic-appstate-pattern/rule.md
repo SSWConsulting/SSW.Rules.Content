@@ -59,7 +59,6 @@ public class Timesheet
 
 Typically, these state objects would be hydrated from user input or a request to the backend API. In order for us to use this state object, we first need to register it as an injectable service (in `Program.cs`):
 
-
 ```cs
 builder.Services.AddScoped<Counter>();
 builder.Services.AddScoped<RegistrationForm>();
@@ -122,7 +121,6 @@ public partial class Counter : ComponentBase
 }
 ```
 
-
 ### Drawbacks of basic AppState pattern
 
 ❌ We are unable to react to state changes made to the state object by other components
@@ -130,7 +128,6 @@ public partial class Counter : ComponentBase
 ❌ We can modify the state but the page will not refresh to reflect the change
 
 ❌ We need to call `StateHasChanged()` manually when we modify the state
-
 
 ### Benefits of basic AppState pattern
 

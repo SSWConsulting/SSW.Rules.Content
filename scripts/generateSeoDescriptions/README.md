@@ -15,17 +15,21 @@ Note: You can use any available model with Ollama. To do so, update the model na
 ## Usage Instructions
 
 1. Ensure you've pulled the desired model. The default is set to use deepseek-r1:14b. To change it, update the line in your code:
+
     ```
     ollama pull deepseek-r1:14b  # Replace 'deepseek-r1:14b' with your desired model name
     ```
+
 2. Run the script with the directory path as an argument:
+
     ```
     python ./generateDescriptions.py {{ PATH/TO/MARKDOWN/FILES }}
     ```
+
 3. The script processes each Markdown file:
-    - If the file lacks an SEO description, it generates one and inserts it into the YAML front matter.
-    - If an SEO description already exists, the file is skipped.
-    - Any issues with the generated description are logged in seo_issues.log.
+    * If the file lacks an SEO description, it generates one and inserts it into the YAML front matter.
+    * If an SEO description already exists, the file is skipped.
+    * Any issues with the generated description are logged in seo_issues.log.
 
 ## Prompting
 

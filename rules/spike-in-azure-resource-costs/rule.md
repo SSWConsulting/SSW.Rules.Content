@@ -51,6 +51,7 @@ Figure: Informing and emailing stakeholders before a spike makes everyone happy
 #### Email template
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ SpendMaster (aka SysAdmins) }} |

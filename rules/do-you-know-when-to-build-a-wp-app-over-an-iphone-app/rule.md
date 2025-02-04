@@ -13,7 +13,7 @@ guid: b1c20a73-4a7e-41d1-a983-a7dc322369e1
 
 1. ~~If your app is built on Silverlight today.~~ Stop building things on Silverlight today.
 
-<!--endintro--> 
+<!--endintro-->
 
 2. Reasons are:
     * Time to market

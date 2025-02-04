@@ -27,12 +27,12 @@ This implementation gives you security over which users are acessing which appli
 
 ![](sso.png)
 
-
 ::: good
 Figure: Good Example - Using one account on many systems  
 :::
 
 ADFS also gives you a solution in other corner cases:
+
   1. When you want to use Office 365 and not store your password on the cloud;  2. When you want the authentication to take place on-premises;  3. When you want to create a trust between SharePoint on-premises and Entra ID;  4. Amongst many others.
 ![](adfs.jpg)
 

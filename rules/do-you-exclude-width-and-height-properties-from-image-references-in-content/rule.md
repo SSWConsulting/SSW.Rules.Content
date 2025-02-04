@@ -25,6 +25,7 @@ In other words, you **should not** have the image dimensions specified in HTML u
 ```html
 <img src="MyPic.gif" width="93" height="25">
 ```
+
 ::: bad
 Figure: Bad example - Including the width and height properties for content images
 :::
@@ -32,6 +33,7 @@ Figure: Bad example - Including the width and height properties for content imag
 ```html
 <img src="MyPic.gif">
 ```
+
 ::: good
 Figure: Good example - Exclude width and height properties for content images
 :::

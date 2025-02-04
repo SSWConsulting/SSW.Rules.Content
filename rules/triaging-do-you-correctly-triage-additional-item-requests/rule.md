@@ -65,6 +65,7 @@ A client may request a small feature (e.g. changing the sort order of a combo-bo
 If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate).
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Dave |

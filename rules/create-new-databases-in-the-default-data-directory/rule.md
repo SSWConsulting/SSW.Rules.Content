@@ -25,8 +25,6 @@ The moral of the story is - keep it simple.
 
 When using a create script to create a new database, let SQL Server determine the filename and path from its default settings. This will help make the script simpler, more flexible, and ready to use with utilities such as MS OSQL and SSW SQL Deploy.
 
-
-
 ```sql
 DECLARE @device_directory NVARCHAR(520)
 SELECT @device_directory = SUBSTRING(phyname, 1,
@@ -45,7 +43,7 @@ CREATE DATABASE [DatabaseName]
  NAME = N''[DatabaseName]_log'', 
  FILENAME = N''' + @device_directory + N'[DatabaseName].ldf''
  ) 
-		COLLATE SQL_Latin1_General_CP1_CI_AS
+  COLLATE SQL_Latin1_General_CP1_CI_AS
  ' 
  )
 Go

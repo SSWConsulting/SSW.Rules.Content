@@ -22,7 +22,7 @@ guid: 3c146b39-4bb1-4da1-845a-2f4d936d19ec
 Email templates are an awesome way to help people save time writing emails. Often the template needs to indicate a piece of text that should be replaced with custom content. When you need to identify text that should be replaced (e.g. in an email template), it's important to use a consistent way of indicating the replaceable text with a placeholder.
 
 Use a consistent character to make it clear which piece of text should be substituted.
-            
+
 <!--endintro-->
 
 `youtube: https://youtu.be/uFLnYo_z6Pw`
@@ -32,25 +32,25 @@ Use a consistent character to make it clear which piece of text should be substi
 However, everyone has their own preferences about which placeholder character to use 🥸
 
 For example:
-- SSW Rules historically used xxx
-- SSW Intranet | Sales templates use ❌❌❌
-- SSW GitHub Sprint Templates use ✏️xxx
-- SQL developers are used to [ ]
-- Word Mail Merge users are used to « »
-- API and React developers are used to { }
-- Angular developers are used to {{ }}
-- Visual Studio code reviewers are used to TODO:
+* SSW Rules historically used xxx
+* SSW Intranet | Sales templates use ❌❌❌
+* SSW GitHub Sprint Templates use ✏️xxx
+* SQL developers are used to [ ]
+* Word Mail Merge users are used to « »
+* API and React developers are used to { }
+* Angular developers are used to {{ }}
+* Visual Studio code reviewers are used to TODO:
 
 Let's see these in action:
-- The quick brown fox xxx over the lazy dog
-- The quick brown fox ❌❌❌ over the lazy dog
-- The quick brown fox ✏️xxx over the lazy dog
-- The quick brown fox [ action ] over the lazy dog
-- The quick brown fox « action » over the lazy dog
-- The quick brown fox { action } over the lazy dog
-- The quick brown fox {{ action }} over the lazy dog
-- The quick brown fox {{ ACTION }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
-- The quick brown fox TODO:action over the lazy dog
+* The quick brown fox xxx over the lazy dog
+* The quick brown fox ❌❌❌ over the lazy dog
+* The quick brown fox ✏️xxx over the lazy dog
+* The quick brown fox [ action ] over the lazy dog
+* The quick brown fox « action » over the lazy dog
+* The quick brown fox { action } over the lazy dog
+* The quick brown fox {{ action }} over the lazy dog
+* The quick brown fox {{ ACTION }} over the lazy dog (currently the standard in SugarLearning and SSW Rules)
+* The quick brown fox TODO:action over the lazy dog
 
 ### More info on the origins
 
@@ -73,13 +73,14 @@ Another way to draw attention to text is to make the placeholder all caps.
 Replaceable text is often seen in email templates:
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | \[Client email\] |
 | Subject: | \[Project name\] - Test please |  
 ::: email-content  
 
-### Hi \[Client name\],  
+### Hi \[Client name\]  
 
 I've been working on \[Project name\] and just deployed version \[Version number\] with the latest requirements.
 
@@ -94,13 +95,14 @@ Figure: Bad example - Using square brackets for replaceable text
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ CLIENT EMAIL }} |
 | Subject: | {{ PROJECT NAME }} - Test please |  
 ::: email-content  
 
-### Hi {{ CLIENT NAME }},  
+### Hi {{ CLIENT NAME }}  
 
 I've been working on {{ PROJECT NAME }} and just deployed version {{ VERSION NUMBER }} with the latest requirements.
 
@@ -111,5 +113,5 @@ Regards,
 :::  
 :::  
 ::: good  
-Figure: Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE 
+Figure: Good example - Using double curly brackets for replaceable text... with spaces, and words in UPPERCASE
 :::

@@ -15,11 +15,10 @@ redirects:
 
 ---
 
-The better you describe the problem you had, the more effective will be the solution. 
+The better you describe the problem you had, the more effective will be the solution.
 <!--endintro-->
 
 Make sure you always explain and give as much details as you can of how you got an error or a bad experience.
-
 
 ::: greybox
 Where is TV.SSW on the navigation?  
@@ -54,4 +53,3 @@ Figure: Good example - We can easily identify more the one way to improve the UX
 :::
 
 Better than a good description of the bug is a screen recording. This should be followed for a more detailed report. Use Snagit (preferred) or Jing to record your screen.
-

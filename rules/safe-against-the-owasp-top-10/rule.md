@@ -38,6 +38,6 @@ The current OWASP Top 10 states the following are the top risks for web applicat
 
 Protecting against these is a large topic in their own right. There are plenty of resources with information on protecting against these, linked below:
 
-* [Troy Hunt – Protecting your web apps from the tyranny of evil with OWASP](https://tv.ssw.com/1492/protecting-your-web-apps-from-the-tyranny-of-evil-with-owasp) - 
+* [Troy Hunt – Protecting your web apps from the tyranny of evil with OWASP](https://tv.ssw.com/1492/protecting-your-web-apps-from-the-tyranny-of-evil-with-owasp) -
 This video goes through the OWASP Top 10 in more detail, describing each risk, how to exploit it, and how to protect against it
 * [OWASP Top 10](https://owasp.org/www-project-top-ten/) - The OWASP home page is a little difficult to navigate but contains fantastic information on the risks and how to protect against them. Use the link above to get details on each of the vulnerabilities, with examples on attacking, “Cheat Sheets” for prevention and risk/impact assessment
