@@ -34,18 +34,18 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 These are sentences you should add to include context when closing a PBI / Issue:
 
-* "For more details, see the **{{ DONE VIDEO }}** / **{{ SCREENSHOT(S) }}**"
-* "The document/page was updated: **{{ LINK }}**
-* "Done - see email: **{{ EMAIL SUBJECT }}**
+* "For more details, see **{{ DONE VIDEO }}** / **{{ SCREENSHOT(S) }}**"
+* "The document/page was updated: **{{ LINK }}**"
+* "Done - see email: **{{ EMAIL SUBJECT }}**"
 * "[As per conversation with](/as-per-our-conversation-emails/) **{{ @NAME(S) }}**"
 
 If you are closing a PBI as duplicate:
 
-* "Duplicate of **{{ LINK TO THE OTHER PBI }}**
+* "Duplicate of **{{ LINK TO THE OTHER PBI }}**"
 
 If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed:
 
-* "Not done - **{{ REASON }}**
+* "Not done - **{{ REASON }}**"
 
 ::: bad  
 ![Figure: Bad example - This PBI is closed with no context around changes made](closing-pbis-without-context.jpg)

@@ -40,7 +40,7 @@ There are 2 essential things you should have when writing a Pull Request:
 
 <!--endintro-->
 
-## 1. Concise and self-explanatory title
+## 1. Concise and self-explanatory **title**
 
 Good **PR titles** provide a clear, concise summary of the change, helping reviewers quickly understand its purpose and priority.
 
@@ -70,14 +70,14 @@ Good example - Pull Request title briefly describes the fix that it has
 
 Having the **"What"** information allows the reviewers to quickly understand what this is about while having the **"How"** can help the reviewer to quickly understand how your PR solved the problem. Sometimes we might want to put the **"How"** in the PR descriptions (see below) if it is too long or hard to explain in one sentence.
 
-## 2. Clear and informative description that gives all the context
+## 2. Clear and informative **description**
 
 The Pull Request description is a medium for the developer to tell the reviewers what the changes are about.
 
-Good **PR descriptions** provide background information helps others quickly understand the problem, solution, and rationale. This minimizes confusion, accelerates reviews, and improves overall code quality.
+Good **PR descriptions** provide context to help others quickly understand the problem, solution, and rationale. This minimizes confusion, accelerates reviews, and improves overall code quality.
 
 ::: info
-**Tip:** For rare straight-forward changes the self-explanatory title might be enough. You should still include context so the reviewer knows what initiated the changes (examples below)
+**Tip:** For rare straight-forward changes, the self-explanatory title might be enough. You should still make sure there is enough details so the reviewer knows what initiated the changes. E.g. "**PR Title:** Fixed broken LinkedIn link caught by CodeAuditor on footer"
 :::
 
 Examples of sentences to have in a good PR description:
@@ -87,7 +87,7 @@ Examples of sentences to have in a good PR description:
 * "As per my conversation with **{{ NAME(S) }}**" (similar to "[as per our conversation](/as-per-our-conversation-emails)" rule)
 * "Worked with **{{ @MENTION(S) }}**" (as per [pair or mob programming](/do-you-use-co-creation-patterns) rule)
 * "This PR is to **{{ ACHIEVE THE FEATURE / FIX THE BUG / OTHER GOAL(S) }}**" (anything that was not possible to explain in the title)
-* See **"{{ SCREENSHOT / DONE VIDEO }}** for more details" (to help the reviewer to understand the changes. E.g. Styling changes)
+* "See **{{ SCREENSHOT / DONE VIDEO }}** for more details" (to help the reviewer to understand the changes. E.g. styling changes)
 
 If you noticed that a change needed to be made and had no specific task/issue, use:
   
@@ -99,7 +99,7 @@ If there is an area you are uncertain about, add:
 
 If the PR is closing an email task after merged, remember to refer back to it:
 
-* "Done - see email: **{{ EMAIL SUBJECT }}**
+* "Done - see email: **{{ EMAIL SUBJECT }}**"
 
 ::: info
 Linking the source to a PR serves as documentation on which development work that was done. It helps in the future to debug when and which changes were introduced and the original specification of that piece of work.
@@ -127,8 +127,7 @@ Figure: OK example - Clear and concise description, however it's not clear what 
 **PR title:** Update Rule “meaningful-pbi-titles/rule”
 
 **PR description:**
-From email subject by @bob: **SSW.Rules - Video caption missing**
-Added missing video caption + removed unnecessary brackets
+From email subject by @bob: **SSW.Rules - Video caption missing**. Done - Added missing video caption + removed unnecessary brackets
 :::
 ::: good
 Figure: Good example - It's clear what changes are being made and where the task came from
@@ -147,16 +146,13 @@ There is also well-known Pull Request semantics like [Conventional Commits](http
 #### FAQs
 
 **Q: Are you making many small changes?**
-
 **A:** You should summarize by saying: *“Improved readability”* OR *“Fixed typos and grammar”*.
 
 **Q: Are the changes big and complex?**
-
 **A:** You should include a demonstration of the change.  
 E.g. A [screenshot](/screenshots-avoid-walls-of-text) to show text/UI changes, or a [Done video](/record-a-quick-and-dirty-done-video) to demo functionality changes.
 
-**Q: Are you using a CMS editor (like Netlify or Tina)**
-
+**Q: Are you using a CMS editor (i.e. Netlify or [Tina](https://tina.io))**
 **A:** CMS editors may automatically add a placeholder description. If you're using a CMS to make your changes, you may need to go to the PR afterward and update the description to include the context.
 
 ::: info
