@@ -6,6 +6,8 @@ uri: do-you-use-gravatar-for-your-profile-pictures
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Baba Kamyljanov
+    url: https://www.ssw.com.au/people/baba-kamyljanov
 related: []
 redirects: []
 created: 2015-03-16T10:17:40.000Z
