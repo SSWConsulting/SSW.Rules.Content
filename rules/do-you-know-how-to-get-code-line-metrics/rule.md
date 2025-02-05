@@ -8,6 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/luke-mao
 related:
   - use-chatgpt-to-generate-charts
+redirects:
+  - do-you-know-how-to-get-code-line-metrics
 created: 2024-08-12T12:31:00.000Z
 guid: c72d02f4-8990-4f54-964f-17e558d833ae
 ---
