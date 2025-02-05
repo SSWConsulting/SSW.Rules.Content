@@ -51,7 +51,7 @@ index:
 - clean-no-match-found-screen
 - do-you-know-how-to-arrange-forms
 - do-you-use-list-tags-for-lists-only
-- do-you-use-gravatar-for-your-profile-pictures
+- gravatar-for-profile-management
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
 - right-format-to-write-videos-time-length
