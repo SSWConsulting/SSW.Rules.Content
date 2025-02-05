@@ -22,9 +22,9 @@ A few standard workflows helps developers see a consistent process across all re
 
 <!--endintro-->
 
-Below are a few standard workflows that you can use in your repositories.
+Below are some standard workflows that you can use in your repositories.
 
-### PR - t-shirt size the pr
+## T-shirt size the PRs
 
 This workflow uses the [microsoft/PR-Metrics](https://github.com/microsoft/PR-Metrics) action to update each pull request with information that helps ensure engineers keep PRs to an appropriate size with appropriate test coverage, while informing reviewers of the expected time commitment for a thorough review of the code.
 
@@ -32,9 +32,9 @@ This workflow uses the [microsoft/PR-Metrics](https://github.com/microsoft/PR-Me
 
 You can find the workflow at [SSWConsulting/SSW.GitHub.Template/.github/workflows/pr-metrics.yml](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/workflows/pr-metrics.yml)
 
-**Tip:** this action is customisable to cater for repositories where different file extensions are considered "code" and how to size the PR. For example, the SSW.Rules repository considers markdown to be code and has custom sizing configured to help us review PRs - see [SSWConsulting/SSW.Rules.Content/.github/workflows/pr-metrics.yml](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/.github/workflows/pr-metrics.yml)
+**Tip:** This action is customizable to cater for repositories where different file extensions are considered "code" and how to size the PR. For example, the SSW.Rules repository considers Markdown to be code and has custom sizing configured to help us review PRs - see [SSWConsulting/SSW.Rules.Content/.github/workflows/pr-metrics.yml](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/.github/workflows/pr-metrics.yml)
 
-### PR - Manage Stale PRs
+## Manage stale PRs
 
 This workflow creates adds labels to pull requests as they age.
 
