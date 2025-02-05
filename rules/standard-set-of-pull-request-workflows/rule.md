@@ -9,6 +9,8 @@ created: 2020-08-12T01:21:08.0000000Z
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related:
   - merge-debt
 redirects: []
@@ -29,6 +31,8 @@ This workflow uses the [microsoft/PR-Metrics](https://github.com/microsoft/PR-Me
 ![Figure: PR Metrics gives warnings with suggested actions](pr-metrics.jpg)
 
 You can find the workflow at [SSWConsulting/SSW.GitHub.Template/.github/workflows/pr-metrics.yml](https://github.com/SSWConsulting/SSW.GitHub.Template/blob/main/.github/workflows/pr-metrics.yml)
+
+**Tip:** this action is customisable to cater for repositories where different file extensions are considered "code" and how to size the PR. For example, the SSW.Rules repository considers markdown to be code and has custom sizing configured to help us review PRs - see [SSWConsulting/SSW.Rules.Content/.github/workflows/pr-metrics.yml](https://github.com/SSWConsulting/SSW.Rules.Content/blob/main/.github/workflows/pr-metrics.yml)
 
 ### PR - Manage Stale PRs
 
