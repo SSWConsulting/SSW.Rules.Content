@@ -21,6 +21,7 @@ related:
   - useful-information-on-changes
   - close-pbis-with-context
   - use-pull-request-templates-to-communicate-expectations
+  - refer-to-email-subject
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
   - reply-done-and-delete-the-email
