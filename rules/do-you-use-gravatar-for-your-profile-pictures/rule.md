@@ -1,7 +1,7 @@
 ---
 seoDescription: Use Gravatar to simplify profile management and provide a consistent experience across applications, as it allows your Gravatar image to follow you from site to site.
 type: rule
-title: Do you use Gravatar (or Cravatar for China) for your profile pictures?
+title: Do you use Gravatar (Cravatar for China) on your applications?
 uri: do-you-use-gravatar-for-your-profile-pictures
 authors:
   - title: Adam Cogan
@@ -15,17 +15,17 @@ archivedreason: null
 guid: b790dbfc-fe37-4a4a-992e-c9294620a06b
 ---
 
-To keep profile management simple and make it easier for users to have a consistent experience across applications, you should use [Gravatar](https://en.gravatar.com/) for showing profile images in your application.
+To keep profile management simple and make it easier for users to have a consistent experience across applications, you should use [Gravatar](https://en.gravatar.com) for showing profile images in your application.
+
+<!--endintro-->
 
 ::: china
-Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn/).
+Gravatar is blocked by Great Firewall of China (GFW), and clients from China can't access their profile photos successfully without a VPN. There is an alternative option for Chinese users which is [Cravatar](https://cravatar.cn).
 :::
 
 Your Gravatar or Cravatar is an image that follows you from site to site appearing beside your name when you do things like comment or post on a blog.
 
-<!--endintro-->
-
-### Setting up Gravatar in your application
+## Setting up Gravatar in your application
 
 It is simple to set up and if you are developing an MVC application, there are even several Nuget packages to make your life easier. The [GravatarHelper](https://www.nuget.org/packages/GravatarHelper) is recommended.
 
@@ -39,7 +39,7 @@ The below short video shows how to get up and running with Gravatar in your ASP.
 
 `youtube: https://www.youtube.com/embed/rjFjVD9jPIk`
 
-### Setting up Cravatar in your application
+## Setting up Cravatar in your application
 
 Unlike Gravatar, Cravatar doesn't provide any library to generate profile image URL from email address. To solve this issue we can create custom helper class which creates profile URL for us.
 
