@@ -33,7 +33,7 @@ It is important for several reasons:
 * Evaluates **incident response measures** by measuring how well the security team detects, responds to, and mitigates attacks.
 * As attack techniques evolve, penetration tests help companies **adapt and defend** against emerging threats and vulnerabilities.
 
-\[TODO: Interview can go here (if approved)]
+<!--\[Video goes here - test passed, waiting for external approval]-->
 
 ### How can you improve your security?
 
