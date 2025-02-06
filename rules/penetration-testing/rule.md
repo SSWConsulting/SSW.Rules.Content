@@ -2,7 +2,7 @@
 type: rule
 tips: ""
 title: Do you take Penetration Testing seriously?
-seoDescription: "When testing the security of company systems, it's important to conduct Penetration Testing to get a holistic view of company systems to ensure that vulnerabilities are identified and patched before bad actors get to them. Read what penetration tests are, why it's important to do them, how you can protect yourself, and what tools can be used to assist with penetration testing during development"
+seoDescription: When testing the security of company systems, it's important to conduct Penetration Testing to get a holistic view of company systems to ensure that vulnerabilities are identified and patched before bad actors get to them. Read what penetration tests are, why it's important to do them, how you can protect yourself, and what tools can be used to assist with penetration testing during development.
 uri: penetration-testing
 authors:
   - title: Lewis Toh
@@ -20,13 +20,16 @@ Penetration testing is an important part of maintaining secure networks and syst
 
 <!--endintro-->
 
-![Figure: Penetration Testing is an important part of securing your systems](imagefx.jpg)
+`youtube: https://www.youtube.com/embed/0mPZ0BomyG8`
+**Video: Do you take Penetration Testing seriously? | Rob Thomlinson & Oliver Judson | Rules (8 min)**
 
-### What is Penetration Testing?
+## What is Penetration Testing?
 
 Penetration Testing is a **simulated cyberattack performed by security professionals** to evaluate the security of the services, systems, and networks of an individual or company. It helps companies identify vulnerabilities in their security systems, access the potential impact and damages, and steps to fix these vulnerabilities.
 
-### Why do we need penetration testing?
+![Figure: Penetration Testing is an important part of securing your systems](imagefx.jpg) 
+
+## Why do we need penetration testing?
 
 It is important for several reasons:
 
@@ -37,7 +40,7 @@ It is important for several reasons:
 * Evaluates **incident response measures** by measuring how well the security team detects, responds to, and mitigates attacks.
 * As attack techniques evolve, penetration tests help companies **adapt and defend** against emerging threats and vulnerabilities.
 
-### How can you improve your security?
+## How can you improve your security?
 
 Great company security starts with great user security. Here are some of the most valuable ways you can help defend against an attacker:
 
@@ -47,14 +50,14 @@ Great company security starts with great user security. Here are some of the mos
 4. **[Avoid malware](https://www.ssw.com.au/rules/understand-the-dangers-of-social-engineering/)** by not clicking on suspicious links and making sure the person is who they say they are.
 5. **[Report potential breaches to SysAdmins]((https://www.ssw.com.au/rules/security-compromised-password/))**, whether it's your personal account or a company account.
 
-### Tools
+## Tools
 
-##### For SysAdmins:
+### For SysAdmins
 
 * **[BloodHound](https://bloodhound.readthedocs.io/en/latest/index.html)** and **[Pingcastle](https://www.pingcastle.com/)** can be used to analyse domain security.
 * **[Kali Linux](https://www.kali.org/)** is an Open Source **Linux** distribution that focuses on penetration testing and network security assessments.
 
-##### For Developers:
+### For Developers
 
 * **[Burp Suite](https://portswigger.net/burp)** is used for Web-application security testing
 * **[Insomnia](https://insomnia.rest/)** is used for API management and testing
