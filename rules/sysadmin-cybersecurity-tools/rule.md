@@ -25,58 +25,58 @@ A well-rounded cybersecurity strategy should include tools for:
     * *PingCastle*
     * *BloodHound*
 
-3. **Vulnerability Management**: 
+2. **Vulnerability Management**: 
 
    * *Nessus*
    * *Qualys*
    * *OpenVAS*  
 
-4. **Patch Management**: 
+3. **Patch Management**: 
 
    * *Patch ManageEngine (Recommended)*
    * *WSUS (Windows Server Update Services)* 
    * *Automox*
 
-5. **Multi-Factor Authentication (MFA)**: 
+4. **Multi-Factor Authentication (MFA)**: 
 
    * *Duende Identity Server* (Recommended)
    * *Microsoft Entra ID (formerly Azure AD)*
    * *Okta*
    * *Duo Security*
-6. **Privileged Access Management (PAM)**
+5. **Privileged Access Management (PAM)**
 
    * *CyberArk*
    * *BeyondTrust*
-7. **Automated Backup Solutions**: 
+6. **Automated Backup Solutions**: 
 
    * *Veeam*
    * *Acronis*
    * *Azure Backup*
-8. **Endpoint Security Suites**: 
+7. **Endpoint Security Suites**: 
 
    * *Microsoft Defender for Business* (Recommended)
    * *Bitdefender*
    * *Sophos*
-9. **Email Filtering & Phishing Protection**:
+8. **Email Filtering & Phishing Protection**:
 
    * *Microsoft Defender for Office 365* (Recommended)
    * *Proofpoint*
    * *Mimecast*
-10. **Penetration Testing**:
+9. **Penetration Testing**:
 
     * *Metasploit*
     * *Nmap*
 
-11. **Adversary Simulation**: 
+10. **Adversary Simulation**: 
 
     * *Cobalt Strike*
     * *Havoc Framework*
 
-1. **SIEM (Security Information and Event Management)**: 
+11. **SIEM (Security Information and Event Management)**: 
 
    * *Microsoft Sentinel (Recommended)*
    * *Splunk*
-2. **EDR (Endpoint Detection and Response)**:
+12. **EDR (Endpoint Detection and Response)**:
 
    * *Microsoft Defender for Endpoint* (Recommended)
    * *CrowdStrike Falcon* 
