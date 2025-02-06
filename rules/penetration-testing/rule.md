@@ -2,7 +2,12 @@
 type: rule
 tips: ""
 title: Do you take Penetration Testing seriously?
-seoDescription: When testing the security of company systems, it's important to conduct Penetration Testing to get a holistic view of company systems to ensure that vulnerabilities are identified and patched before bad actors get to them. Read what penetration tests are, why it's important to do them, how you can protect yourself, and what tools can be used to assist with penetration testing during development.
+seoDescription: When testing the security of company systems, it's important to
+  conduct Penetration Testing to get a holistic view of company systems to
+  ensure that vulnerabilities are identified and patched before bad actors get
+  to them. Read what penetration tests are, why it's important to do them, how
+  you can protect yourself, and what tools can be used to assist with
+  penetration testing during development.
 uri: penetration-testing
 authors:
   - title: Lewis Toh
@@ -12,6 +17,8 @@ authors:
 related:
   - multi-factor-authentication-enabled
   - password-manager
+  - sysadmin-cybersecurity-tools
+  - developer-cybersecurity-tools
 redirects: []
 created: 2025-02-05T14:56:00.000Z
 guid: e4b4cf20-6ca6-480c-809e-4db55019ed9e
@@ -50,14 +57,10 @@ Great company security starts with great user security. Here are some of the mos
 4. **[Avoid malware](https://www.ssw.com.au/rules/understand-the-dangers-of-social-engineering/)** by not clicking on suspicious links and making sure the person is who they say they are.
 5. **[Report potential breaches to SysAdmins]((https://www.ssw.com.au/rules/security-compromised-password/))**, whether it's your personal account or a company account.
 
-## Tools
+## What are the Recommended Tools to use?
 
-### For SysAdmins
+We have a few rules that cover the best cybersecurity tools for developers and SysAdmins!
 
-* **[BloodHound](https://bloodhound.readthedocs.io/en/latest/index.html)** and **[Pingcastle](https://www.pingcastle.com/)** can be used to analyse domain security.
-* **[Kali Linux](https://www.kali.org/)** is an Open Source **Linux** distribution that focuses on penetration testing and network security assessments.
+- For Developers: <https://www.ssw.com.au/rules/developer-cybersecurity-tools/>
 
-### For Developers
-
-* **[Burp Suite](https://portswigger.net/burp)** is used for Web-application security testing
-* **[Insomnia](https://insomnia.rest/)** is used for API management and testing
+- For SysAdmins: <https://www.ssw.com.au/rules/sysadmin-cybersecurity-tools/>
