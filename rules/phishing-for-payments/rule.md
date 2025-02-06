@@ -9,6 +9,7 @@ authors:
 related:
   - recognizing-phishing-urls
   - using-mfa
+  - recognizing-scam-emails
 redirects:
   - do-you-know-how-to-prevent-phishing-for-payments
 created: 2025-02-06T01:27:10.000Z
@@ -44,6 +45,13 @@ See SSW Rule - [Do you use MFA and avoid typing passwords?](https://www.ssw.com.
 •	**Use security tools** - Use email security tools (e.g., Microsoft Defender).
 
 •	**Verify changes by phone** - Always call a known contact using a verified number before processing any changes. Never trust phone numbers from emails requesting updates.
+
+::: greybox  
+Paying a supplier - confirm the bank details by calling the creditor's verified number for the first payment (over $1,000) or if there is a change in bank details.
+:::  
+::: good  
+Figure: Good Examples  
+:::
 
 •	**Monitor email forwarding rules** - Hackers may set up auto-forwarding to steal sensitive information. Regularly review and disable unauthorized forwarding.
 
