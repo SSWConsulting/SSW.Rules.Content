@@ -1,8 +1,8 @@
 ---
 type: rule
 tips: ""
-title: Do You Take Penetration Testing Seriously?
-seoDescription: ""
+title: Do you take Penetration Testing seriously?
+seoDescription: "When testing the security of company systems, it's important to conduct Penetration Testing to get a holistic view of company systems to ensure that vulnerabilities are identified and patched before bad actors get to them. Read what penetration tests are, why it's important to do them, how you can protect yourself, and what tools can be used to assist with penetration testing during development"
 uri: penetration-testing
 authors:
   - title: Lewis Toh
