@@ -2,7 +2,7 @@
 seoDescription: Phishing for Payments.
 type: rule
 title: Do you know how to prevent phishing for payments?
-uri: phishing for payments
+uri: phishing-for-payments
 authors:
   - title: Jimmy Chen
     url: https://ssw.com.au/people/jimmy-chen
