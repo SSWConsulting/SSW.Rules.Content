@@ -55,7 +55,7 @@ Figure: Good Examples
 
 • **Monitor email forwarding rules** - Hackers may set up auto-forwarding to steal sensitive information. Regularly review and disable unauthorized forwarding.
 
-3. Adding an Invoice Disclaimer to Prevent Fraud
+3. Adding an Invoice Disclaimer to prevent Fraud
 
 Including a disclaimer on invoices can help prevent phishing attacks that aim to alter billing details.
 
