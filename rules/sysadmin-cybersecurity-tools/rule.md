@@ -7,7 +7,6 @@ seoDescription: Discover the essential cybersecurity tools that every sysadmin
 uri: sysadmin-cybersecurity-tools
 authors:
   - title: Rob Thomlinson
-    url: https://www.ssw.com.au/people/rob-thomlinson
 related:
   - check-ad-security-with-pingcastle
   - penetration-testing
@@ -22,84 +21,65 @@ Cybersecurity threats are constantly evolving, as a sysadmin, it's your job to s
 A well-rounded cybersecurity strategy should include tools for:  
 
 
-#### 1. **Active Directory Security**
-Active Directory Security tools are used for on-demand secrity assessments of the environment these tools can prevent misconfiguration of an AD Environment.
-✅ Recommended tools:
-- **PingCastle**
-- **BloodHound**
+1. **Active Directory Security**:
+    * *PingCastle*
+    * *BloodHound*
 
-#### 2. **Vulnerability Management**
-Provideds Centralised reporting for all potential vulnerabilities in a companies system.
-✅ Recommended tools:
-- **Nessus**
-- **Qualys**
-- **OpenVAS**  
+3. **Vulnerability Management**: 
 
-#### 3. **Patch Management**
-Allows SysAdmins to deploy regular patches to company hardware.
-✅ Recommended tools:
-- **Patch ManageEngine**
-- **WSUS (Windows Server Update Services)**
+   * *Nessus*
+   * *Qualys*
+   * *OpenVAS*  
 
-#### 4. **Multi-Factor Authentication (MFA)**
-Ensures users are protected even if their passwords are breached.
-✅ Recommended tools:
-- **Duende Identity Server**
-- **Microsoft Entra ID (formerly Azure AD)**
-- **Okta**
-- **Duo Security**
+4. **Patch Management**: 
 
-#### 5. **Privileged Access Management (PAM)**
-Protects companies most sensitive systems and ensurses that they only have the necessary level of access to complete tasks.
-✅ Recommended tools:
-- **CyberArk**
-- **BeyondTrust**
-  
-#### 6. **Automated Backup Solutions**:
-Automated backup solutions and backup solutions that promote immutable backups can protect companies from ransomware attacks.
-✅ Recommended tools:
-- **Veeam**
-- **Acronis**
-- **Azure Backup**
+   * *Patch ManageEngine (Recommended)*
+   * *WSUS (Windows Server Update Services)* 
+   * *Automox*
 
-#### 7. **Endpoint Security Suites**
-Endpoint security tools help protect companies from currently infected devices.
-✅ Recommended tools:
-- **Microsoft Defender for Business**
-- **Bitdefender**
-- **Sophos**
+5. **Multi-Factor Authentication (MFA)**: 
 
-#### 8. **Email Filtering & Phishing Protection**
-Email and phising tools prevent organisations from receiveing malicious emails.
-✅ Recommended tools:
-- **Microsoft Defender for Office 365**
-- **Proofpoint**
-- **Mimecast**
+   * *Duende Identity Server* (Recommended)
+   * *Microsoft Entra ID (formerly Azure AD)*
+   * *Okta*
+   * *Duo Security*
+6. **Privileged Access Management (PAM)**
 
-#### 9. **Penetration Testing**
-These are specialised tools used to test a wide variety of scenarios
-✅ Recommended tools:
-- **Metasploit**
-- **Nmap**
-- **Kali OS**
+   * *CyberArk*
+   * *BeyondTrust*
+7. **Automated Backup Solutions**: 
 
-#### 10. **SIEM (Security Information and Event Management)**
-SIEM tools allow us to create a centralised view of all security and event logs in an organisation
-✅ Recommended tools:
-- **Microsoft Sentinel**
-- **Splunk**
+   * *Veeam*
+   * *Acronis*
+   * *Azure Backup*
+8. **Endpoint Security Suites**: 
 
-#### 11. **EDR (Endpoint Detection and Response)**
-EDR Tools allow us to identify systems at risk and run automated fixes for known issues.
-✅ Recommended tools:
-- **Microsoft Defender for Endpoint**
-- **CrowdStrike Falcon**
+   * *Microsoft Defender for Business* (Recommended)
+   * *Bitdefender*
+   * *Sophos*
+9. **Email Filtering & Phishing Protection**:
 
-#### 12. **Adversary Simulation**
-Specialised tools to simulate cybersecurity threats in an organisation
-✅ Recommended tools:
-- **Cobalt Strike**
-- **Havoc Framework**
+   * *Microsoft Defender for Office 365* (Recommended)
+   * *Proofpoint*
+   * *Mimecast*
+10. **Penetration Testing**:
+
+    * *Metasploit*
+    * *Nmap*
+
+11. **Adversary Simulation**: 
+
+    * *Cobalt Strike*
+    * *Havoc Framework*
+
+1. **SIEM (Security Information and Event Management)**: 
+
+   * *Microsoft Sentinel (Recommended)*
+   * *Splunk*
+2. **EDR (Endpoint Detection and Response)**:
+
+   * *Microsoft Defender for Endpoint* (Recommended)
+   * *CrowdStrike Falcon* 
 
 ### Implementing a Strong Cybersecurity Strategy
 
@@ -108,4 +88,4 @@ Simply having these tools isn’t enough, sysadmins should:\
 ✅ Regularly review logs and security alerts.\
 ✅ Train users on security best practices to reduce human error.
 
-By using the right cybersecurity tools and adopting a proactive approach, sysadmins can keep their companies ahead of evolving cyber threats.
+By using the right cybersecurity tools and adopting a proactive approach, sysadmins can keep their companies ahead of evolving cyber threats. 🚀
