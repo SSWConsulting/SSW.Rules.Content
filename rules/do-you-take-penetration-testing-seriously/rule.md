@@ -2,6 +2,7 @@
 type: rule
 tips: ""
 title: Do You Take Penetration Testing Seriously?
+seoDescription: ""
 uri: do-you-take-penetration-testing-seriously
 authors:
   - title: Lewis Toh
