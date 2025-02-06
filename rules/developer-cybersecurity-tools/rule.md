@@ -7,7 +7,8 @@ seoDescription: Developers must use essential cybersecurity tools to secure
   tools to enhance security.
 uri: developer-cybersecurity-tools
 authors:
-  - title: ""
+  - title: Rob Thomlinson
+    url: https://www.ssw.com.au/people/rob-thomlinson
 guid: d6dc22d5-5862-4d46-8ef6-7b661ac65dab
 ---
 Security should never be an afterthought when writing code. Every year, developers introduce vulnerabilities that lead to data breaches, financial losses, and reputational damage. The right cybersecurity tools can help identify security risks early, prevent attacks, and ensure compliance with security best practices.
