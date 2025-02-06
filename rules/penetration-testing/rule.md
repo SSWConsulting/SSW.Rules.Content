@@ -27,7 +27,7 @@ Penetration testing is an important part of maintaining secure networks and syst
 
 Penetration Testing is a **simulated cyberattack performed by security professionals** to evaluate the security of the services, systems, and networks of an individual or company. It helps companies identify vulnerabilities in their security systems, access the potential impact and damages, and steps to fix these vulnerabilities.
 
-![Figure: Penetration Testing is an important part of securing your systems](imagefx.jpg) 
+![Figure: Penetration Testing is an important part of securing your systems](imagefx.jpg)
 
 ## Why do we need penetration testing?
 
