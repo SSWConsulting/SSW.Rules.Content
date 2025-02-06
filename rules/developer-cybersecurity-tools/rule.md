@@ -55,7 +55,14 @@ If your application runs in containers or the cloud, security must extend beyond
 With software supply chain attacks on the rise, developers should ensure that their code and dependencies are verified and secure.  
 ✅ Recommended tools:  
 - **Sigstore Cosign** (secure code signing)  
-- **in-toto** (software supply chain verification)  
+- **in-toto** (software supply chain verification)
+
+#### 7. **API Security Testing Tools**
+APIs are a common attack vector, and testing them for security vulnerabilities is crucial. API security testing tools help developers validate authentication, authorization, and request handling.
+✅ Recommended tools:
+- **Insomnia** (secure API testing with authentication and encryption support)
+- **Postman** (API development and security testing)
+- **OWASP Amass** (API reconnaissance and security analysis)
 
 ### Pro Tip: Automate Security in Your CI/CD Pipeline  
 Set up your cybersecurity tools to run automatically on every pull request. This ensures security checks are continuous and prevent vulnerabilities from slipping into production.
