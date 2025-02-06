@@ -1,7 +1,9 @@
 ---
-seoDescription: Office environment dress code - Follow company guidelines to present a professional image, reinforce branding, and create a good impression for clients.
 type: rule
 title: Office environment - Do you follow the company's dress code?
+seoDescription: Office environment dress code - Follow company guidelines to
+  present a professional image, reinforce branding, and create a good impression
+  for clients.
 uri: do-you-have-a-dress-code
 authors:
   - title: Adam Cogan
@@ -15,7 +17,6 @@ created: 2012-09-25T17:57:39.000Z
 archivedreason: null
 guid: b07a6598-7717-4851-af8d-30bf26cd2486
 ---
-
 The way you and all members of your team present themselves is a crucial part of creating a good impression for your clients, particularly in their first encounters with you.
 
 <!--endintro-->
@@ -37,8 +38,7 @@ It should go without saying, but of course, things such as shaving off your week
 
 ### On a business flight
 
-It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.\
-![Figure: Why dress up in a flight](dresscode-linkedin.png)
+It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.
 
 ### Dressing Down (aka Casual Fridays)
 
@@ -84,13 +84,13 @@ Note:
 
 Sophie
 
--- Powered by SSW.Shorts --
+\-- Powered by SSW.Shorts --
 
 See the code: <https://github.com/SSWConsulting/SSW.Shorts>
 
-\<This email was sent as per [https://ssw.com.au/rules/do-you-have-a-dress-code](/do-you-have-a-dress-code)\>
+<This email was sent as per [https://ssw.com.au/rules/do-you-have-a-dress-code](/do-you-have-a-dress-code)>
 
-:::  
+:::\
 :::
 ::: good
 Figure: Good example - Nice "Shorts Day" email template by SSW.Shorts
