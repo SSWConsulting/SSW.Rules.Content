@@ -7,6 +7,7 @@ seoDescription: Discover the essential cybersecurity tools that every sysadmin
 uri: sysadmin-cybersecurity-tools
 authors:
   - title: Rob Thomlinson
+    url: https://www.ssw.com.au/people/rob-thomlinson
 related:
   - check-ad-security-with-pingcastle
   - penetration-testing
