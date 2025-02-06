@@ -28,12 +28,11 @@ These are the steps you should take when requesting a "Test Please":
 3. Create your "Test Please" following this template:
 
 ::: email-template
-
 |          |     |
 | -------- | --- |
 | To:      | John |
 | Subject: | Product Name v1.11 |
-::: email-content  
+::: email-content
 
 1. <mark>'Test Please'</mark>
 
@@ -42,27 +41,25 @@ These are the steps you should take when requesting a "Test Please":
 I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
-
-* {{ FEATURE TO BE TESTED }}
-* {{ FEATURE TO BE TESTED }}
+- {{ FEATURE TO BE TESTED }}
+- {{ FEATURE TO BE TESTED }}
 
 I have done what I could for my code's health. E.g.
 
-* Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
-* Run SSW LinkAuditor - it has {{ X }} errors (if not 0, give reason)
-* Kept my eye on Application Insights
-* Ensured all packages are as up-to-date as possible
-  * Updated:
-    * Updated {{ PACKAGE }} from {{ VERSION }} to {{ VERSION }}
-    * ...
-  * Out-of-date:
-    * {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
-    * ...
+- Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
+- Kept my eye on Application Insights
+- Ensured all packages are as up-to-date as possible
+    - Updated:
+        - Updated {{ PACKAGE }} from {{ VERSION }} to {{ VERSION }}
+        - ...
+    - Out-of-date:
+        - {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
+        - ...
 
 Specific issues to look out for are:
 
-* {{ ISSUE }}
-* {{ ISSUE }}
+- {{ ISSUE }}
+- {{ ISSUE }}
 
 The latest version (Product Name v1.11) is at {{ URL }}
 
@@ -70,29 +67,36 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
 **Notes:**
 
-* Know the [definition of a bug](/definition-of-a-bug)
-* Understand the importance of [conducting a "Test Please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
-* Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
+**#1** - Know the [definition of a bug](https://www.notion.so/definition-of-a-bug)
 
-  * Please CC the project manager and the client
-* Do not reply to this message until you can say:
-  * "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
-    or
-  * "**❌ Test Please failed** (as per Critical bugs reported)"
+**#2** - Understand the importance of [conducting a "Test Please" internally and then with the client](https://www.notion.so/conduct-a-test-please-internally-and-then-with-the-client)
+
+**#3** - Send suggestions/bugs one email at a time (with unique and [good email subjects](https://www.notion.so/good-email-subject)) making it easier to fix and reply "Done"
+
+**#4** - CC the product owner and relevant stakeholders
+
+**#5** - Do not reply to this message until you can say:
+
+- "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
+or
+- "**❌ Test Please failed** (as per Critical bugs reported)"
+
+**#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
 
 Regards,
 
 :::
-:::
+
+
 
 ::: info
 **Note to developers:**
 If current version is better than the last version you can release (even with a test fail) as long:
 
-* The bugs reported in the test fail existed in the old version
-* 2 people have tested it
-* The changes in this version are fairly important to get out
-* You get to work on the failures ASAP
+- The bugs reported in the test fail existed in the old version
+- 2 people have tested it
+- The changes in this version are fairly important to get out
+- You get to work on the failures ASAP
 :::
 
 ### Don't send a 'Test Please' content via IM
@@ -107,24 +111,24 @@ See subject: **Product Name v1.11**"
 
 ### What if you are doing an email test?
 
-In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
+In most cases, you can [get your email 'Checked by xxx'](https://www.notion.so/checked-by-xxx).
 
 For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
 
-* Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
-* Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
+- Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
+- Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
 
 ### What if you need to get input from a few people?
 
-If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
+If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](https://www.notion.so/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
 
 You have 2 options:
 
 1. **Keep the "test" in the same thread** (recommended)\
-   In this case, just add the people you need to the thread, asking them specifically for a 'Test Please' on what you need
+In this case, just add the people you need to the thread, asking them specifically for a 'Test Please' on what you need
 2. **Create a new thread for the 'Test Please'**
-   This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
-   In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
+This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
+In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
 
 This way everyone will have the entire history of the task and its progress.
 
@@ -132,16 +136,16 @@ This way everyone will have the entire history of the task and its progress.
 
 For Windows Forms test you should include this info to the email:
 
-* The latest version of {{Product Name}} has been uploaded to **\frog\SSW\Download[Application_verX-XX_beta.exe**
-* Test on a fresh VPC image of Windows
-* Install into a non-default directory
-* Check the installation folder for misplaced items
-* Test Unit Tests via "Help - Run Unit Tests"
-* (If Applicable)Test the "Create" and "Reconcile" buttons. Read [Rules to Better .NET Projects](/rules-to-better-net-projects)
-* Test open and closing forms and saving values
-* Test most buttons and menus and links
-* Disable your network connection and test again (check for unhandled errors)
-* If your test fails, please rename the executable to **Application_verX-XX_failed.exe**
+- The latest version of {{Product Name}} has been uploaded to **\frog\SSW\Download[Application_verX-XX_beta.exe**
+- Test on a fresh VPC image of Windows
+- Install into a non-default directory
+- Check the installation folder for misplaced items
+- Test Unit Tests via "Help - Run Unit Tests"
+- (If Applicable)Test the "Create" and "Reconcile" buttons. Read [Rules to Better .NET Projects](https://www.notion.so/rules-to-better-net-projects)
+- Test open and closing forms and saving values
+- Test most buttons and menus and links
+- Disable your network connection and test again (check for unhandled errors)
+- If your test fails, please rename the executable to **Application_verX-XX_failed.exe**
 
 ::: info
 **Note:** For clients on fixed-price contracts, the 'Test Please' reply marks the start of the 30-day warranty period.

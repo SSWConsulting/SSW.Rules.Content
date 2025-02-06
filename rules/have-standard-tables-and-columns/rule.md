@@ -1,4 +1,5 @@
 ---
+seoDescription: Streamline your database schema with standardized tables and columns for efficient auditing, version control, and application defaults.
 type: rule
 archivedreason: 
 title: Schema - Do you have standard tables and columns?
@@ -41,7 +42,7 @@ If the settings are not application-wide, but just for that user then an XML (do
 .NET programs have an Application.Configuration which exports to XML file (app.config) automatically. It works very well, and deployment is very simple. It's integrated right into the Visual Studio.NET designer as well.
 
 3. All databases should have a version table to record structural changes to tables. See [SSW Rules to Better Code](/rules-to-better-code)
- 
+
 4. Lookup tables that have just two columns should be consistent and follow this convention: CategoryId (int) and CategoryName (varchar(100)).
 
 The benefit is that a generic lookup form can be used. You will just need the generic lookup form pass in the TableName and Column1 and Column2.

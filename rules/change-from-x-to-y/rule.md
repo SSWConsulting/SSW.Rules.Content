@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to efficiently request small content changes by using the "Change from X to Y" method for clear and effective communication.
 type: rule
 title: Do you ask for small content changes using from X to Y?
 uri: change-from-x-to-y

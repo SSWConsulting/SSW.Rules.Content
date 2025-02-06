@@ -902,3 +902,120 @@ Issues found in SEO description for ./rules/dont-open-popup-windows-use-a-javasc
 Prevent unwanted pop-up windows and ensure a seamless user experience by using JavaScript modals instead of anchor tags with `target="_new"` or `window.open()` in the `onload` event.
 Issues: Contains odd characters * or _
 
+Issues found in ./rules/gpt-tokens/rule.md:
+
+
+Generate a concise SEO description of 150-160 characters that includes primary keywords and reflects user intent.
+
+
+Issues: Contains the phrase 'SEO description'
+
+Issues found in ./rules/do-not-use-linkbutton/rule.md:
+
+
+Avoid using LinkButton in ASP.NET for client-side postbacks; instead, use `__doPostBack` to ensure proper functionality.
+
+
+Issues: Contains odd characters *, _, or :
+
+Issues found in ./rules/how-to-rename-a-rule-category/rule.md:
+
+
+To update a rule category name in SharePoint, please follow these steps:
+
+1. **Rename "category name" in metadata:** 
+   - Search for "Rules to Better Lync" to locate it in the term store.
+   - Double-click the term and rename it to "Rules to Better Skype for Business (formerly Lync)."
+
+2. **Update the Rule Summary page title:**
+   - Navigate to the "Rule Summary page."
+   - Edit the page title to reflect the new category name.
+
+3. **Modify sub-rule categories:**
+   - Use the left navigation to filter and select all rules under the old category.
+   - Check out each rule, switch to Quick Edit mode, and update the category field.
+   - After updating, check in and publish each rule.
+
+**SEO Description:**  
+"Learn how to rename a rule category in SharePoint for better organization."
+
+
+Issues: Exceeds 300 characters, Contains the phrase 'SEO description', Contains odd characters *, _, or :
+
+Issues found in ./rules/gpt-tokens/rule.md:
+
+
+A professional SEO description generator that creates optimized, keyword-rich summaries for better search engine visibility and user engagement.
+
+
+Issues: Contains the phrase 'SEO description'
+
+Issues found in ./rules/do-not-use-linkbutton/rule.md:
+
+
+Avoid using LinkButton for postbacks; use __doPostBack instead to prevent errors in ASP.NET apps.
+
+
+Issues: Contains odd characters *, _, or :
+
+Issues found in ./rules/how-to-rename-a-rule-category/rule.md:
+
+
+To effectively rename a rule category in SharePoint, follow these organized steps:
+
+1. **Update Metadata:**
+   - Access the term store via the管理中心or "Site settings."
+   - Locate the term set containing your rule category.
+   - Rename the term from "Rules to Better Lync" to "Rules to Better Skype for Business (formerly Lync)."
+
+2. **Modify Rule Summary Page:**
+   - Navigate to the Rule Summary page.
+   - Edit the page title to reflect the new name using the same process as above.
+
+3. **Adjust Sub-Rules:**
+   - Filter and select all rules under the old category, checking each out individually.
+   - Switch to quick edit mode to efficiently update the category field for all selected rules.
+   - After updating, check each rule back in and publish them.
+
+4. **Optional URL Update:**
+   - If needed, edit the page properties to change its URL, enhancing SEO or user experience.
+
+5. **Communication and Testing:**
+   - Inform your team about the changes.
+   - Test the updated rules and pages to ensure functionality remains intact.
+
+This process ensures a smooth transition with minimal disruption, maintaining consistency across all related items.
+
+
+Issues: Exceeds 300 characters, Contains odd characters *, _, or :
+
+Issues found in ./rules/do-not-use-linkbutton/rule.md:
+
+
+Avoid using LinkButton for __doPostBack in ASP.NET; use anchor or button elements instead to prevent errors.
+Issues: Contains odd characters *, _, or :
+
+Issues found in ./rules/use-scope_identity-to-get-the-most-recent-row-identity/rule.md:
+
+
+Discover why using SCOPE_IDENTITY() ensures you get the correct ID of the newly inserted row in your stored procedures, avoiding common pitfalls with triggers.
+Issues: Contains odd characters *, _, or :
+
+Issues found in ./rules/wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again/rule.md:
+
+
+Improve code efficiency and maintainability by following the DRY principle: encapsulate repeated logic in reusable methods for cleaner, more efficient code.
+Issues: Contains odd characters *, _, or :
+
+Issues found in ./rules/avoid-starting-user-stored-procedures-with-system-prefix-sp_-or-dt_/rule.md:
+
+
+Avoid using "sp_" or "dt_" prefixes for user-stored procedures in SQL Server to prevent overriding system procedures and ensure proper execution.
+Issues: Contains odd characters *, _, or :
+
+Issues found in ./rules/do-you-use-startup-tasks-in-the-app_start-folder-instead-of-putting-code-in-global-asax/rule.md:
+
+
+Discover how to properly organize your ASP.NET startup logic using the App_Start folder instead of Global.asax.
+Issues: Contains odd characters *, _, or :
+

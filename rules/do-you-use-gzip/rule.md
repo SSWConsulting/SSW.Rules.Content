@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your website's performance by reducing file sizes and speeding up load times with Gzip compression.
 type: rule
 title: Do you use Gzip?
 uri: do-you-use-gzip

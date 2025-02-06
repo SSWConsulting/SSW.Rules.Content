@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential stretches to relieve tightness in your hips, chest, and back while improving your desk ergonomics and overall posture.
 type: rule
 archivedreason:
 title: Do you know to stretch when working at a desk?

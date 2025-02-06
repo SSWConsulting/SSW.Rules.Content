@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid using width and height attributes in image tags to optimize content delivery and improve SEO performance.
 type: rule
 archivedreason: 
 title: Do you avoid having width and height properties in image tags?
@@ -24,6 +25,7 @@ In other words, you **should not** have the image dimensions specified in HTML u
 ```html
 <img src="MyPic.gif" width="93" height="25">
 ```
+
 ::: bad
 Figure: Bad example - Including the width and height properties for content images
 :::
@@ -31,6 +33,7 @@ Figure: Bad example - Including the width and height properties for content imag
 ```html
 <img src="MyPic.gif">
 ```
+
 ::: good
 Figure: Good example - Exclude width and height properties for content images
 :::

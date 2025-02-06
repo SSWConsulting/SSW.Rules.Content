@@ -1,4 +1,5 @@
 ---
+seoDescription: Architectural Decision Records (ADRs) streamline decision-making by documenting key choices and rationale, helping teams avoid repetition and aid future developers.
 type: rule
 title: Do you use Architectural Decision Records (ADRs)?
 uri: architectural-decision-records

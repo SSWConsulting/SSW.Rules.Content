@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential tips to identify and avoid email scams while enhancing your email security. Learn how to spot phishing attempts and protect yourself from malicious threats.
 type: rule
 title: Do you know how to recognize scam emails?
 uri: recognizing-scam-emails
@@ -60,7 +61,7 @@ There may be some cases where you have a suspicion that the email may be legitim
 
 Malicious emails these days often include a link that the recipient is directed to click on. This can sometimes be to a phishing site, and sometimes it’s a link to some malware (e.g., ransomware which will encrypt all the recipients’ files, plus those on any shares they have access to, demanding a ransom to unencrypt them). Linking to malware avoids them having to worry about the malware being stripped out by malware filters in the email system.
 
-Before clicking on a link in an email, hover over it to see where it goes. 
+Before clicking on a link in an email, hover over it to see where it goes.
 
 ### Tip #6: Legitimate services will never ask for your password
 
@@ -84,4 +85,4 @@ Visit and register [on ACSC website](https://www.cyber.gov.au/acsc/register) to 
 
 ### Tip #9: Test your skills
 
-Visit https://phishingquiz.withgoogle.com/ and test how good you are at recognizing a phishing email.
+Visit <https://phishingquiz.withgoogle.com/> and test how good you are at recognizing a phishing email.

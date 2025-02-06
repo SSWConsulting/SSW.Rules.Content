@@ -1,7 +1,7 @@
 ---
 seoDescription: Discover how many inbound links your website has and where they're coming from with our expert guide on finding backlinks.
 type: rule
-title: SEO - Do you have backlinks pointing to your website?
+title: Basics - Do you have backlinks pointing to your website?
 uri: how-to-find-inbound-links-to-your-pages
 authors:
   - title: Adam Cogan

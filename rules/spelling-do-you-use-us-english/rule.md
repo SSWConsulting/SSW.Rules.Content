@@ -2,7 +2,7 @@
 seoDescription: Use US English to ensure international website visitors can easily find your pages through search engines and assume correct spellings.
 type: rule
 archivedreason:
-title: Spelling - Do you use US English?
+title: On-page - Do you use US English?
 guid: e96690af-9f26-4962-9ff5-c8445f386aef
 uri: spelling-do-you-use-us-english
 created: 2015-11-10T20:26:49.0000000Z
@@ -21,8 +21,8 @@ Did you know that all pilots around the world must speak English? Back then, the
 
 If you are an Australian or British this rule is controversial, but it is worth it for the following reasons:
 
-- Aim for the majority. Most web traffic is from American users and they expect American (most probably will assume anything different is an error)
-- SEO - On the practical side, more web searches are going to be returned for US spelling of words.
+* Aim for the majority. Most web traffic is from American users and they expect American (most probably will assume anything different is an error)
+* SEO - On the practical side, more web searches are going to be returned for US spelling of words.
 
 ::: good  
 ![Figure: Good example - the US English is the selected language](SetLanguageUS.png)  

@@ -1,7 +1,7 @@
 ---
 seoDescription: Top SEO Tools to maximize visibility with Google Search Console, SEMrush & More
 type: rule
-title: Do you know the best SEO tools?
+title: Basics - Do you know the best SEO tools?
 uri: seo-tools
 authors:
   - title: Camilla Rosa Silva

@@ -28,25 +28,27 @@ GitHub Issues offer a great way of raising Issues within projects. However, it c
 
 Let's take a look at how implementing Issue Templates can improve repository backlogs...
 
-`youtube: https://www.youtube.com/watch?v=OccRyzAS4Vc`
-
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=OccRyzAS4Vc`
+
 ::: bad
-![Figure: Bad Example - Issue created without a Template](bad-example-issue.png)
+![Figure: Bad example - Issue created without a Template](bad-example-issue.png)
 :::
 
 ::: good
-![Figure: Good Example - Issue created from a Template](good-example-issue.png)
+![Figure: Good example - Issue created from a Template](good-example-issue.png)
 :::
 
 ::: good
-![Figure: Good Example - All the available Issue Template](list-of-options.png)
+![Figure: Good example - All the available Issue Template](list-of-options.png)
 :::
 
 ::: info
-For instructions on setting this up:
 
-- See [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
-- Check out [SSW Github repo Template.](https://github.com/SSWConsulting/SSW.GitHub.Template)
-  :::
+For instructions on setting this up, check out:
+
+* [Configuring Issue Templates for your repository](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository)
+* [SSW Github repo Template](https://github.com/SSWConsulting/SSW.GitHub.Template)
+
+:::

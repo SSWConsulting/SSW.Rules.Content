@@ -2,7 +2,7 @@
 seoDescription: Use kebab-case (dashes) in your URLs and make them short and friendly for maximum readability and SEO.
 type: rule
 archivedreason:
-title: Do you use dashes in your URLs?
+title: On-page - Do you use dashes in your URLs?
 guid: 9eec1cdc-ff5f-47cf-b4a6-0936ec4c62d4
 uri: use-dashes-in-urls
 created: 2015-11-09T20:51:46.0000000Z

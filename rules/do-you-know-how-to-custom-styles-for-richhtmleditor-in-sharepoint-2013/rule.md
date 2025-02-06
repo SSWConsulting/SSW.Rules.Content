@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to customize styles for SharePoint 2013's RichHtmlEditor using PrefixStyleSheet and CSS files for consistent site branding.
 type: rule
 archivedreason: Outdated and content contains HTML
 title: Do you know how to custom styles for RichHtmlEditor in SharePoint 2013?
@@ -21,14 +22,13 @@ This rule outlines how to use custom styles in the SharePoint  RichHTMLEditor.
 
 In SharePoint, we can use the below way to apply custom styles:
 
-![Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles](CustomStylesInSharePoint.png) 
+![Figure: custom RichHtmlEditor styles give your content editors a visual preview of your custom styles](CustomStylesInSharePoint.png)
 
 <!--endintro-->
 
 To do this:
 
 1. You can use "**PrefixStyleSheet**" property to apply the custom styles to a build-in **RichHtmlField** in page layout or master page. In my case, I applied them to a custom control "**ParsedRichHtmlField**" which inherited from the system build-in one.
-
 
 ``` html
 <SSW:ParsedRichHtmlField **PrefixStyleSheet="ssw15-rte"** CssClass="ssw-inputeditorfield" id="Content" FieldName="PublishingPageContent" InputFieldLabel="Rule Summary Info" runat="server"/>
@@ -105,6 +105,7 @@ p.ssw15-rteElement-CodeArea`
 ```
 
 to
+
 ``` css
 `dd.ssw15-rteElement-FigureGood`
 ```
@@ -122,6 +123,7 @@ to
 ``` html
 <img src="page_element_dd.png" alt="page_element_dd.png" style="margin:5px;width:650px;"><span style="color:#555555;font-size:11px;font-weight:bold;">
 ```
+
 **Figure: "Good Figure style" changed the parent element from `<p>` to `<dd>`**
 
 3) .ssw15-rte **Style -** this style could be applied to **Text Styles**. E.g.
@@ -144,6 +146,7 @@ This  **Highlight** style will come up in "Text Styles" section:
 ``` html
 <img src="HighLight.png" alt="HighLight.png" style="margin:5px;">
 ```
+
 **Figure: Highlight style will come up in "Text Styles" section**
 
 While applying a "Text Styles" style, it will:
@@ -151,9 +154,7 @@ While applying a "Text Styles" style, it will:
 * nest the text in a &lt;span&gt; tag with the style class if the text is not already inside an HTML tag
 * replace the class of the HTML tag if this tag is a &lt;span&gt; tag
 
-
 That means all "Text Styles" will apply to `<span>` tag, and you cannot apply two "Text Styles" to one `<span>` (e.g. apply both Strike and Hightlight), you may have to do that via changing html source code manually, or creating a "combined" "Text Styles".
-
 
 4) .ssw15-rte **Table -** Tell SharePoint the definition of custom table styles. After inserting a table, you can see the styles under "Design" tab. E.g. The below is a " **SSW Table** " style definition:
 

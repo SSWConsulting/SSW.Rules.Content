@@ -36,6 +36,7 @@ To be consistent, have a recurring appointment each month:
 | Optional Attendees: | {{ REST OF THE TEAM }} |
 | Recurrence: | 1st Monday of each month |
 | Subject: | Recording - Monthly {{ PROJECT NAME }} for {{ MONTH }} |
+
 ::: email-content
 
 ### Hi {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }}
@@ -71,7 +72,8 @@ The video should be recorded by the Product Owner (or other head of the team).
 | -------- | --- |
 | To: | Product Owner |
 | CC: | Stakeholders |
-| Subject:  Recording - Monthly Finance Meeting for {{ MONTH YEAR }}
+| Subject: | Recording - Monthly Finance Meeting for {{ MONTH YEAR }} |
+
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
@@ -82,12 +84,14 @@ FYI - I have recorded the Monthly Marketing video for {{ MONTH }} with {{ COLLEA
 
 Here’s the link {{ YOUTUBE LINK }}
 
+1. So I know who has watched this - please like and comment on the video
+
 \< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::
 ::: good
-Figure: Good example - Watching the video with the Product Owner, then sending it in an email
+Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visability from your team.
 :::
 
 ::: good
