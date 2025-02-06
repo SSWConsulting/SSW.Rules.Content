@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do You Take Penetration Testing Seriously?
 seoDescription: ""
-uri: do-you-take-penetration-testing-seriously
+uri: penetration-testing
 authors:
   - title: Lewis Toh
     url: https://www.ssw.com.au/people/lewis-toh/
