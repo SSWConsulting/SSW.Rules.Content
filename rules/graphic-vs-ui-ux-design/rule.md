@@ -63,9 +63,9 @@ Understanding these key differences ensures that each role contributes its exper
 
 |               | **Graphic Design**                                                         | **UI/UX Design**                                                             |
 |---------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| Expertise | Creates **visually compelling** designs and prepares files for print or digital media | Focuses on **user interaction** and **usability**, including tasks like usability tests, wireframes, or front-end code |
-| Focus     | Prioritizes **visual aesthetics** | UI emphasizes **interactive elements**; UX focuses on **functionality** and **user flow** |
-| Tools     | Adobe Illustrator or Photoshop for static visuals | Figma, Sketch, or Adobe XD for interactive design, wireframes, and prototypes |
-| Process   | Follows UI/UX design in product development | Precedes graphic design by mapping user flows and interfaces before adding visual elements |
+| Expertise | Visual storytelling, branding, typography, layout, and composition. Strong skills in print and digital asset creation | User research, wireframing, prototyping, interaction design, usability testing, and accessibility |
+| Focus     | Aesthetics and visual communication to create engaging visuals for print and digital media | Enhancing user experience and functionality to ensure intuitive and accessible interactions |
+| Tools     | Adobe Creative Suite (Photoshop, Illustrator and InDesign) | Figma, Sketch, or Adobe XD for interactive design, wireframes, and prototypes |
+| Process   | Concept development → Design execution → Finalizing assets for print or digital use | User research → Wireframing → Prototyping → User testing → Refinement → Implementation |
 
 While graphic designers aim to create visually appealing designs, UI/UX designers prioritize how users interact with those designs, ensuring functionality and ease of use. Understanding these differences is crucial for creating effective digital products that are both visually engaging and user-friendly.
