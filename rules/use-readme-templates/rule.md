@@ -48,5 +48,5 @@ We've created a README template with placeholders where you can add all of the r
 You can find the template here on GitHub [SSWConsulting/SSW.AwesomeReadme.Template/readme-template.md](https://github.com/SSWConsulting/SSW.AwesomeReadme.Template/blob/main/readme-template.md)
 
 ::: good
-![Figure: Good Example - A standard README template on GitHub](readme-template.png)
+![Figure: Good example - A standard README template on GitHub](readme-template.png)
 :::
