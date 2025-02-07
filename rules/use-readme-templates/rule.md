@@ -41,7 +41,7 @@ It's important to keep your README templates in a convenient place to ensure tha
 
 ## What does an awesome README template look like?
 
-An ideal README should foster contributions for a project organically. It provides all of the relevant infomration a technical user would require to get the project up and
+An ideal README should foster contributions for a project organically. It provides all of the relevant information a technical user would require to get the project up and
 running, contribute it, and deploy changes to production if necessary. Simultaneously it should contain a number of clearly documented social media links so that non technical
 users can keep an ear to the ground. People who follow the project's social media and see regular updates are more likely to feel actively involved, and thus interested in the
 project's succes.
