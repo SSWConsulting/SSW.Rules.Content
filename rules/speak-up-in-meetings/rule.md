@@ -49,7 +49,7 @@ Engage with your colleagues' ideas by building on them. If someone makes a great
 
 ::: info
 Senior team members should also make an effort to engage juniors by providing them an opportunity to voice their thoughts and opinion.
-::: 
+:::
 
 ### Ask questions
 
