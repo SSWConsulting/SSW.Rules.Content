@@ -55,7 +55,7 @@ Senior team members should also make an effort to engage juniors by providing th
 
 You don't always need to have an answer - asking a good question is just as valuable. Thoughtful questions can drive discussion and show that you're engaged. This is an easy way to contribute without feeling the pressure to provide solutions.
 
-### Summarise
+### Summarize
 
 Regularly summarizing key points from a discussion ensures everyone is on the same page and prevents misunderstandings. Paraphrasing what has been said should be a consistent habit, as it enhances clarity and reinforces shared understanding throughout the conversation.
 
