@@ -60,6 +60,7 @@ Figure: Good example – A single, consistently updated spreadsheet for your can
 
    * Include columns for *User*, *Date Onboarded*, *Status*, *Mark /10*, *OS*, *Environment*, and *Notes*.  
    * Store it in a central location (e.g. Microsoft 365, Google Sheets) accessible to all stakeholders, testers and developers.
+   * If relevant, feel free to add as many columns as needed.
 2. **Identify your canary testers**  
 
    * Start with a small, diverse set of users.  
