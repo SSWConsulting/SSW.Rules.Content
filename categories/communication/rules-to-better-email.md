@@ -49,7 +49,7 @@ index:
 - good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
-- do-you-send-tasks-one-email-at-a-time
+- email-unrelated-individually
 - duplicate-email-draft
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
