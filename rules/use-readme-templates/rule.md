@@ -34,7 +34,7 @@ This README is very basic, the setup instructions are limited and there is room 
 - Known Issues
 
 ::: good
-![Figure: Good example - The ReadMe above clearly outlines the goals of the project and provides new developers with enough context to get started](good-readme.png)
+![Figure: Good example - The README above clearly outlines the goals of the project and provides new developers with enough context to get started](good-readme.png)
 :::
 
 It's important to keep your README templates in a convenient place to ensure that you can quickly bootstrap a project when you get started.
