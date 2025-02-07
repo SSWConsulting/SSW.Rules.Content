@@ -23,7 +23,10 @@ Here are seven actionable ways to confidently speak up more in meetings:
 
 <!--endintro-->
 
-## 1. **{{ Before }}** the meeting
+`youtube: https://www.youtube.com/watch?v=GIlFC3yDHDE`
+**Video: 7 Ways to Confidently Speak UP (more) in Meetings at Work! (8 min)**
+
+## 1. **Before** the meeting
 
 ### Prepare beforehand
 
@@ -33,7 +36,7 @@ Before the meeting, take a few minutes to mentally prepare. Remind yourself that
 
 If you’re hesitant, having an ally in the meeting can help. Coordinate with a trusted colleague beforehand to support each other. They can prompt you to share your thoughts or reinforce your points.
 
-## 2. **{{ During }}** the meeting
+## 2. **During** the meeting
 
 ### Speak early
 
@@ -51,7 +54,7 @@ You don't always need to have an answer—asking a good question is just as valu
 
 If you're unsure about adding new insights, summarising key points from the discussion can be a great way to contribute. Paraphrasing what has been said helps clarify ideas and keeps the conversation structured.
 
-## 3. **{{ After }}** the meeting
+## 3. **After** the meeting
 
 ### Practice Speaking Up Regularly
 
