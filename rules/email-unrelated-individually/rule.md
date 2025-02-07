@@ -38,6 +38,7 @@ If you are requesting many smaller tasks under the same topic, you should group 
 If you have a list of things to be done, and find that your requests are **not** directly related (don't depend on each other OR are not to be done in the same environment), it is better to break it up and send separate emails.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Steven |
@@ -59,6 +60,7 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Steven |
@@ -74,6 +76,7 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 :::  
 :::
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Steven |
