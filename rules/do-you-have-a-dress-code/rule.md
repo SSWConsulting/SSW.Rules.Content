@@ -63,6 +63,7 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 On very hot days, shorts are allowed as soon as you've got an email like this:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | SSWAll |
