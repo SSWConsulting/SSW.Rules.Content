@@ -1,10 +1,11 @@
 ---
+seoDescription: Struggling to speak up in meetings? Learn seven practical strategies to boost your confidence, contribute early, and ensure your ideas are heard.
 type: rule
 archivedreason:
 title: Do you know how to speak up in meetings?
 guid: 54a13522-6794-4ebc-91c5-338ae2f9ff05
 uri: speak-up-in-meetings
-created: 2023-12-11T14:38:33.0000000Z
+created: 2025-02-07T14:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
