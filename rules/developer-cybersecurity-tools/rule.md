@@ -26,9 +26,9 @@ SAST tools analyse source code for security vulnerabilities without executing th
 
 ✅ Recommended tools:
 
-- **SonarQube** (for code quality and security)
-- **Semgrep** (lightweight static analysis)
-- **Checkmarx** (enterprise-grade security scanning)
+* **SonarQube** (for code quality and security)
+* **Semgrep** (lightweight static analysis)
+* **Checkmarx** (enterprise-grade security scanning)
 
 #### 2. **Dynamic Application Security Testing (DAST) Tools**
 
@@ -36,8 +36,8 @@ DAST tools test running applications by simulating attacks. They help identify v
 
 ✅ Recommended tools:
 
-- **OWASP ZAP** (open-source web application security scanner)
-- **Burp Suite** (penetration testing toolkit)
+* **OWASP ZAP** (open-source web application security scanner)
+* **Burp Suite** (penetration testing toolkit)
 
 #### 3. **Software Composition Analysis (SCA) Tools**
 
@@ -45,9 +45,9 @@ Most applications rely on open-source dependencies, which may contain security v
 
 ✅ Recommended tools:
 
-- **Dependabot** (GitHub-integrated automated dependency updates)
-- **Snyk** (real-time vulnerability detection and fixes)
-- **OSS Index** (open-source security scanner)
+* **Dependabot** (GitHub-integrated automated dependency updates)
+* **Snyk** (real-time vulnerability detection and fixes)
+* **OSS Index** (open-source security scanner)
 
 #### 4. **Secrets Detection Tools**
 
@@ -55,8 +55,8 @@ Developers sometimes accidentally commit API keys, passwords, or credentials to 
 
 ✅ Recommended tools:
 
-- **GitGuardian** (real-time secret scanning for repositories)
-- **TruffleHog** (deep secrets detection in git history)
+* **GitGuardian** (real-time secret scanning for repositories)
+* **TruffleHog** (deep secrets detection in git history)
 
 #### 5. **Container and Cloud Security Tools**
 
@@ -64,9 +64,9 @@ If your application runs in containers or the cloud, security must extend beyond
 
 ✅ Recommended tools:
 
-- **Docker Scout** (container image vulnerability scanning)
-- **Kube-bench** (Kubernetes security benchmarking)
-- **AWS Inspector** (security assessment for cloud workloads)
+* **Docker Scout** (container image vulnerability scanning)
+* **Kube-bench** (Kubernetes security benchmarking)
+* **AWS Inspector** (security assessment for cloud workloads)
 
 #### 6. **Code Signing and Supply Chain Security**
 
@@ -74,8 +74,8 @@ With software supply chain attacks on the rise, developers should ensure that th
 
 ✅ Recommended tools:
 
-- **Sigstore Cosign** (secure code signing)
-- **in-toto** (software supply chain verification)
+* **Sigstore Cosign** (secure code signing)
+* **in-toto** (software supply chain verification)
 
 #### 7. **API Security Testing Tools**
 
@@ -83,9 +83,9 @@ APIs are a common attack vector, and testing them for security vulnerabilities i
 
 ✅ Recommended tools:
 
-- **Insomnia** (secure API testing with authentication and encryption support)
-- **Postman** (API development and security testing)
-- **OWASP Amass** (API reconnaissance and security analysis)
+* **Insomnia** (secure API testing with authentication and encryption support)
+* **Postman** (API development and security testing)
+* **OWASP Amass** (API reconnaissance and security analysis)
 
 ### Pro Tip: Automate Security in Your CI/CD Pipeline
 
