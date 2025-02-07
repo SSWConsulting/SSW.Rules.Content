@@ -50,6 +50,7 @@ Some UI/UX designers are capable of writing front-end code themselves, further b
 :::
 
 **Examples of UI/UX design tasks:**
+
 * Conducting usability testing to identify user pain points and refine the product’s functionality (UX)
 * Designing a website or app interface, ensuring that interactive elements like buttons and menus are easy to use and visually cohesive (UI)
 * Creating wireframes and interactive prototypes to map out user flows (UX/UI)
