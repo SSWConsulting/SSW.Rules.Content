@@ -41,13 +41,14 @@ It's important to keep your README templates in a convenient place to ensure tha
 
 ## What does an awesome README template look like?
 
-An ideal README should foster contributions for a project organically. It provides all of the relevant information a technical user would require to get the project up and
-running, contribute it, and deploy changes to production if necessary. Simultaneously it should contain a number of clearly documented social media links so that non technical
-users can keep an ear to the ground. People who follow the project's social media and see regular updates are more likely to feel actively involved, and thus interested in the
-project's succes.
+The ideal README should foster contributions for a project organically. It should provide all the relevant information a contributor user would need to get the project up and
+running, make code changes, and deploy to production if necessary. It should also contain a number of clearly located social media links so followers of the project
+users can keep an ear to the ground for updates. Followers who see regular updates via social media are more likely to feel actively involved and will commit to the project's success.
 
-We've created a README template with placeholders where you can add all of the relevant information for your project to ensure that it's a success. Bare in mind that not all of
-the information listed will be relevant to your particular project. For instance, closed source projects more than likely won't contain social media or sponsorship links. Feel free to remove any placeholders that aren't relevant to your project. You can find the template here on GitHub [GitHub](https://github.com/SSWConsulting/SSW.AwesomeReadme.Template/blob/main/readme-template.md)
+We've created a README template with placeholders where you can add all of the relevant information for your project to ensure that it's a success. Bear in mind that not all of
+the information listed will be relevant to your particular project. For instance, closed-source projects more than likely won't contain social media or sponsorship links. Feel free to remove any placeholders that aren't relevant to your project. 
+
+You can find the template here on GitHub [GitHub](https://github.com/SSWConsulting/SSW.AwesomeReadme.Template/blob/main/readme-template.md)
 
 ::: good
 ![Figure: Good Example - A standard README template on GitHub](readme-template.png)
