@@ -26,11 +26,11 @@ Many people confuse graphic design with UI/UX design, thinking they serve the sa
 UI and UX are combined since they work together to create a cohesive experience that is both visually appealing and easy to use, ensuring the design not only attracts users but also guides them through intuitive interactions.
 :::
 
-### Graphic design - focus on visual appeal
+## Graphic design - focus on visual appeal
 
 Graphic design emphasizes the **visual** aspects of a product or communication. It is concerned with creating print-ready or digital assets that are aesthetically pleasing and convey the brand's message effectively. A graphic designer has expertise in areas such as typography, color theory, and layout. They are also skilled in creating print-ready files and ensuring that designs are suitable for various formats, whether for digital screens or physical prints.
 
-**Examples of graphic design Tasks:**
+**Examples of graphic design tasks:**
 
 * Creating a logo and visual identity for a brand
 * Designing a business card or brochure, ensuring print specifications like color profiles and bleed margins are correct
@@ -39,7 +39,7 @@ Graphic design emphasizes the **visual** aspects of a product or communication. 
 
 ![Figure: TinaCMS pull up banner design (graphic)](tina-graphics.png)
 
-### UI/UX design - focus on user interaction and experience
+## UI/UX design - focus on user interaction and experience
 
 UI/UX design focuses on how users interact with a product, balancing form and function. **User Interface (UI)** design ensures that the product’s interface is visually consistent and intuitive, while **User Experience (UX)** design ensures that the product is functional, easy to navigate, and aligned with user needs.
 
@@ -62,7 +62,7 @@ Some UI/UX designers are capable of writing front-end code themselves, further b
 
 Understanding these key differences ensures that each role contributes its expertise at the right stage of the project, resulting in a product that is both visually appealing and highly functional.
 
-|               | **Graphic Design**                                                         | **UI/UX Design**                                                             |
+|               | **Graphic design**                                                         | **UI/UX design**                                                             |
 |---------------|---------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | Expertise | Visual storytelling, branding, typography, layout, and composition. Strong skills in print and digital asset creation | User research, wireframing, prototyping, interaction design, usability testing, and accessibility |
 | Focus     | Aesthetics and visual communication to create engaging visuals for print and digital media | Enhancing user experience and functionality to ensure intuitive and accessible interactions |
