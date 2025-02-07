@@ -33,7 +33,6 @@ Before the meeting, take a few minutes to mentally prepare. Remind yourself that
 
 If you’re hesitant, having an ally in the meeting can help. Coordinate with a trusted colleague beforehand to support each other. They can prompt you to share your thoughts or reinforce your points.
 
-
 ## 2. **{{ During }}** the meeting
 
 ### Speak early
@@ -52,12 +51,10 @@ You don't always need to have an answer—asking a good question is just as valu
 
 If you're unsure about adding new insights, summarising key points from the discussion can be a great way to contribute. Paraphrasing what has been said helps clarify ideas and keeps the conversation structured.
 
-
 ## 3. **{{ After }}** the meeting
 
 ### Practice Speaking Up Regularly
 
 Like any skill, speaking up in meetings gets easier with practice. Start by contributing in smaller meetings or informal discussions. Over time, your confidence will grow, making it second nature to speak up in larger settings.
-
 
 By implementing these simple techniques, you’ll be able to participate more confidently in meetings and ensure your ideas are heard and valued.
