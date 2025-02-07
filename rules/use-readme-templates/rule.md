@@ -47,4 +47,8 @@ users can keep an ear to the ground. People who follow the project's social medi
 project's succes.
 
 We've created a README template with placeholders where you can add all of the relevant information for your project to ensure that it's a success. Bare in mind that not all of
-the information listed will be relevant to your particular project. For instance, closed source projects more than likely won't contain social media or sponsorship links. Feel free to remove any placeholders that aren't relevant to your project.
+the information listed will be relevant to your particular project. For instance, closed source projects more than likely won't contain social media or sponsorship links. Feel free to remove any placeholders that aren't relevant to your project. You can find the template here on GitHub [GitHub](https://github.com/SSWConsulting/SSW.AwesomeReadme.Template/blob/main/readme-template.md)
+
+::: good
+![Figure: Good Example - A standard README template on GitHub](readme-template.png)
+:::
