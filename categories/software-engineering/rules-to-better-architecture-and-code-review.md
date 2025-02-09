@@ -10,6 +10,7 @@ index:
   - do-you-conduct-an-architecture-review-after-every-sprint
   - awesome-documentation
   - awesome-readme
+  - use-readme-templates
   - architecture-diagram
   - do-you-document-the-technologies-design-patterns-and-alm-processes
   - spike-vs-poc

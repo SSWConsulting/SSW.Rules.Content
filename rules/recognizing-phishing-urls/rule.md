@@ -6,6 +6,8 @@ uri: recognizing-phishing-urls
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+related:
+  - recognizing-scam-emails
 created: 2022-03-17T05:47:34.156Z
 guid: 668d37e3-deeb-49db-9ad2-043b8c1dbdbd
 ---
@@ -28,36 +30,36 @@ You should always check that the **domain** matches the service or website you a
 http&#58;//linkedin&#46;com&#46;sggr&#46;ru/someaddress
 :::
 ::: bad
-Bad Example – The address has LinkedIn in it, but it is a sub-domain, not the domain
+Bad example – The address has LinkedIn in it, but it is a sub-domain, not the domain
 :::
 
 ::: greybox
 http&#58;//linked-in-hq&#46;com/linkedin/myprofile
 :::
 ::: bad
-Bad Example – The address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious
+Bad example – The address has LinkedIn in it, but it is in the path, not the FQDN. The FQDN is also suspicious
 :::
 
 ::: greybox
 http&#58;//linkedinalerter&#46;com
 :::
 ::: bad
-Bad Example – the address has LinkedIn in it, but is not a legitimate LinkedIn site
+Bad example – The address has LinkedIn in it, but is not a legitimate LinkedIn site
 :::
 
 ::: greybox
 https&#58;//linkedin&#46;com/someaddress
 :::
 ::: good
-Good Example – LinkedIn is a secure domain
+Good example – LinkedIn is a secure domain
 :::
 
 If you are curious about a URL, and think it might be legitimate, you can [check the Whois record](https://whois.domaintools.com) to see who owns the domain.
 
 ::: bad
-![Bad Example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
+![Bad example – ANZAlerter.com is NOT owned by ANZ](bad-whois.png)
 :::
 
 ::: good
-![Good Example – the domain ANZ.com.au is owned by ANZ](good-whois.png)
+![Good example – The domain ANZ.com.au is owned by ANZ](good-whois.png)
 :::

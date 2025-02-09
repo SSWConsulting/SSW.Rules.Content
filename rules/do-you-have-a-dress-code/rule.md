@@ -27,6 +27,8 @@ One aspect of this is the dress code. Dress code is important for two reasons:
 * Looking professional and keen for business
 * Reinforce the company's [branding](/rules-to-better-branding)
 
+![Figure: Strong branding makes a difference.](tina-london.png)
+
 ### Public Events and Meetings
 
 Of course, when in a public event such as a User Group, conference or seeing clients you should "Dress Up".
@@ -61,6 +63,7 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 On very hot days, shorts are allowed as soon as you've got an email like this:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | SSWAll |
