@@ -19,7 +19,7 @@ Canary deployments let you release new features or updates to a small group of u
 
 <!--endintro-->
 
-![Figure: Example canary deployment spreadsheet – track who is testing, the environment, and their feedback](2025-02-07_11-32-34.png)
+![Figure: Example canary deployment spreadsheet – track who is testing, the environment, and their feedback](../../assets/canary-deployment.png)
 
 Using a structured spreadsheet ensures transparency and consistency, so no one is missed and feedback can be actioned quickly.
 
