@@ -29,7 +29,7 @@ index:
   - do-you-handle-multi-os-dev-teams-in-source-control
   - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
   - use-logging-fakes
-
+  - do-you-canary-deploy-your-new-features-using-spreadseet
 ---
 
 `youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  
