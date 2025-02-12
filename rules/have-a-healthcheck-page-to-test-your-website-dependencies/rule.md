@@ -32,9 +32,6 @@ Enterprise applications typically leverage a large number of cloud services; dat
 `youtube: https://www.youtube.com/watch?v=4abSfjdzqms`
 **Figure: How to add Healthchecks in ASP.NET Core (11 min)**
 
-## Adding a custom healthcheck
-
-Here's a quick code snippet that can be used to add a healthcheck to an external API.
 
 ## Alerts and responses
 
