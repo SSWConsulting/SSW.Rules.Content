@@ -19,7 +19,7 @@ index:
 - isolate-your-logic-and-remove-dependencies-on-instances-of-objects
 - microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 - have-tests-for-performance
-- have-a-healthcheck-page-to-test-your-website-dependencies
+- infrastructure-healthchecks
 - isolate-your-logic-from-your-io-to-increase-the-testability
 - when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-the-issue-id
 - test-your-javascript
