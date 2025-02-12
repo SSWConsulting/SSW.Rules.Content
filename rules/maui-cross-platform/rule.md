@@ -58,12 +58,13 @@ Developers building apps that target multiple platforms are in the ideal positio
 * **What skills do we already have?**
 
   * For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution
-  * Xamarin (old) was the previous de-facto standard for .NET native cross-platform mobile development. Microsoft diverted their focus from Xamarin to .NET MAUI following it's announcement in 2020, with official support for Xamarin ending in on the 1st of May 2024 following an \[announcement from Microsoft](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin).
+  * Xamarin (old) was the previous de-facto standard for .NET native cross-platform mobile development. Microsoft diverted their focus from Xamarin to .NET MAUI following it's announcement in 2020, with official support for Xamarin ending in on the 1st of May 2024 following an \[announcement from Microsoft](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin). npx expo prebuild
 
 `youtube: K9ryHflmQJE`
 **Video: Clean Architecture in .NET MAUI and ASP.NET Core with [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) (1 h 23 m)**
 
 * For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.
+* React developers should also consider using \[Expo](https://docs.expo.dev/). Expo is a free React Native framework with features like official Typescript integration, QR code links for staging environments. It also allows developers to export their code to Android and IOS equivalents in React Native using the \[prebuild command](https://docs.expo.dev/workflow/continuous-native-generation/#usage).
 * For teams with good Angular knowledge, Ionic is worth considering (but as per above, not recommended for more than a quick prototype).
 * **What platforms do we need to target?**
 
