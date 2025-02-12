@@ -32,10 +32,6 @@ Enterprise applications typically leverage a large number of cloud services; dat
 `youtube: https://www.youtube.com/watch?v=4abSfjdzqms`
 **Figure: How to add Healthchecks in ASP.NET Core (11 min)**
 
-## Adding a custom healthcheck
-
-Here's a quick code snippet that can be used to add a healthcheck to an external API.
-
 ## Alerts and responses
 
 Adding comprehensive healthchecks is great, but if no-one is told about it - what's the point? There are awesome tools available to notify Site Reliability Engineers (SREs) or SysAdmins when something is offline, so make sure your app is set up to use them! For instance, Azure's [Azure Monitor Alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) and AWS' [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) provide a suite of configurable options for who, what, when, and how alerts should be fired.
