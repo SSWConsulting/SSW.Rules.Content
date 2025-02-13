@@ -1,5 +1,5 @@
 ---
-seoDescription: Improve user experience and control by choosing a GridView over a ListBox, offering multiple columns, header rows with checkable items, and sub-control customization.
+seoDescription: Improve user experience and control by choosing a GridView over a ListBox, offering multiple columns, header rows with checkable items, and sub-control customization
 type: rule
 title: Do you always use GridView instead of ListBox?
 uri: always-use-gridview-instead-of-listbox

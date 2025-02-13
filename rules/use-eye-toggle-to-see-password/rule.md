@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve user experience by adding an eye toggle to reveal passwords during sign-up for better accuracy and usability.
 type: rule
 archivedreason:
 title: Do you use an eye toggle to allow users to see their password when signing up

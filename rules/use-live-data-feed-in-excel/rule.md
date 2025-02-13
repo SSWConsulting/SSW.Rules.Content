@@ -1,4 +1,5 @@
 ---
+seoDescription: Leverage live data feeds in Excel for dynamic, real-time reporting and streamlined analytics
 type: rule
 archivedreason:
 title: Analysing with Excel - Do you use a live data feed?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover when to use Microsoft Dataverse over SQL for your business needs—whether it’s app integration, scalability, or security.
 type: rule
 title: Do you know when to choose Microsoft Dataverse over traditional databases
   (SQL)?

@@ -1,5 +1,5 @@
 ---
-seoDescription: Implement multilingual support in an Angular project using Internationalization (i18n), ngx-translate, or angular-gettext, each with its pros and cons.
+seoDescription: Implement multilingual support in an Angular project using Internationalization (i18n), ngx-translate, or angular-gettext, each with its pros and cons
 type: rule
 title: Do you add multilingual support (Angular)?
 uri: add-multilingual-support-on-angular

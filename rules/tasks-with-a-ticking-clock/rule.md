@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective strategies for managing tasks with deadlines using tools like Outlook, Zendesk, and Microsoft To Do.
 type: rule
 tips: ""
 title: "  Do you know how to deal with tasks with a ticking clock ⏰?"

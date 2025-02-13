@@ -1,5 +1,5 @@
 ---
-seoDescription: Learn how to set up Application Insights in SharePoint, a different approach from normal web applications.
+seoDescription: Learn how to set up Application Insights in SharePoint, a different approach from normal web applications
 type: rule
 archivedreason:
 title: Do you know how to set up Application Insights (in SharePoint)?

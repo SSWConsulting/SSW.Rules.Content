@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively highlight and distinguish important keywords in your documentation to ensure clarity and prevent misinterpretation.
 type: rule
 archivedreason: 
 title: Do you distinguish keywords from surrounding content?
@@ -54,10 +55,7 @@ Use the following rules to highlight items in your document:
 | Style | Use this style on | Example |
 | --- | --- | --- |
 | **Bold text**  | Menus, commands, dialog box options, file names and paths | To access the application, click  **Start \| Programs \| Accessories \| System Tools \| Disk Defragmenter**  |
-| **Initial Capitals + Bold**  | File paths and file names | 	Now open  **C:\My Documents\Invoice.doc.**  |
+| **Initial Capitals + Bold**  | File paths and file names |  Now open  **C:\My Documents\Invoice.doc.**  |
 | Different colour styling | Web UI - Important words on headings | Want to build an <span style="color:#cc4141">Angular</span> application? |
 | UPPER CASE | Code keywords and database elements | Use the INNER JOIN clause in SQL Server to join one table to another. |
 | Monospace (Courier New font) | Code samples, error messages | You will see the following error: `error opening database: database is currently in use.` |
-
-
-

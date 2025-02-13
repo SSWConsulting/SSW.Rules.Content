@@ -1,5 +1,5 @@
 ---
-seoDescription: Understand the differences between anemic and rich domain models to improve your software architecture.
+seoDescription: Understand the differences between anemic and rich domain models to improve your software architecture
 type: rule
 title: Do you understand the difference between anemic and rich domain models?
 uri: anemic-vs-rich-domain-models

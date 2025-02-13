@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create engaging presentations by limiting text on your slides
 type: rule
 title: Do you limit text on your slides?
 uri: limit-text-on-slides

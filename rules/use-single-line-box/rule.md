@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance report aesthetics by using single line boxes for a cleaner, more elegant appearance.
 type: rule
 archivedreason:
 title: Do you use single line box instead of double line box?

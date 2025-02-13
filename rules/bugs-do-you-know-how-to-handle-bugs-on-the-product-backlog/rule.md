@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to handle bugs in your product backlog with proven Agile and Scrum strategies.
 type: rule
 archivedreason: 
 title: Bugs - Do you know how to handle Bugs on the Product Backlog?

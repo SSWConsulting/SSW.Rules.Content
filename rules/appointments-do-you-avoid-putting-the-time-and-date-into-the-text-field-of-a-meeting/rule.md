@@ -1,5 +1,5 @@
 ---
-seoDescription: Organize meetings effectively by avoiding date and time insertion into meeting subject or body text.
+seoDescription: Organize meetings effectively by avoiding date and time insertion into meeting subject or body text
 type: rule
 archivedreason:
 title: Appointments - Do you avoid putting the time and date into the subject or body of a meeting?

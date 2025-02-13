@@ -1,5 +1,5 @@
 ---
-seoDescription: Learn how to use named anchor links to link to specific places within a page, providing "jump-to" functionality and customizable URLs.
+seoDescription: Learn how to use named anchor links to link to specific places within a page, providing "jump-to" functionality and customizable URLs
 type: rule
 archivedreason:
 title: Do you know how to use anchor links?

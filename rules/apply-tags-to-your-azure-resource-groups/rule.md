@@ -1,5 +1,5 @@
 ---
-seoDescription: Organize your Azure resources with ease by applying tags to resource groups and leveraging a strong naming convention for efficient management.
+seoDescription: Organize your Azure resources with ease by applying tags to resource groups and leveraging a strong naming convention for efficient management
 type: rule
 archivedreason:
 title: Resource Groups- Do you apply Tags to your Azure Resource Groups?

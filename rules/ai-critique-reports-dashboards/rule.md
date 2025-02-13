@@ -1,5 +1,5 @@
 ---
-seoDescription: AI-powered report critique and enhancement tools improve report quality and effectiveness by aligning with International Business Communication Standards.
+seoDescription: AI-powered report critique and enhancement tools improve report quality and effectiveness by aligning with International Business Communication Standards
 type: rule
 title: Do you use AI to critique and improve your Reports and Dashboards?
 uri: ai-critique-reports-dashboards

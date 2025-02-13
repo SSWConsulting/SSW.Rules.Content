@@ -1,5 +1,5 @@
 ---
-seoDescription: Analyzing your marketing results once a month helps you identify successful efforts and areas for improvement, allowing you to refine your strategy and optimize resources.
+seoDescription: Analyzing your marketing results once a month helps you identify successful efforts and areas for improvement, allowing you to refine your strategy and optimize resources
 type: rule
 title: Analytics - Do you analyse your results once a month?
 uri: analyse-your-results-once-a-month

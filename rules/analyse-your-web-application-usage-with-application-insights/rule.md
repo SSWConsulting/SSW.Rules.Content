@@ -1,5 +1,5 @@
 ---
-seoDescription: Analyze web application usage with Application Insights to gain insights into user behavior and optimize performance.
+seoDescription: Analyze web application usage with Application Insights to gain insights into user behavior and optimize performance
 type: rule
 archivedreason:
 title: Do you know how to analyse your web application usage with Application Insights?

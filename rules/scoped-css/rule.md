@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when and how to use scoped CSS in frameworks like Blazor, Angular, and React to avoid class conflicts and ensure consistent component styling.
 type: rule
 title: Do you know when to use scoped CSS?
 uri: scoped-css
@@ -13,7 +14,7 @@ created: 2023-09-29T12:00:00.000Z
 guid: 16300344-d1b7-4dbe-abfa-e8b18d8f0c8d
 ---
 
-On large frontend projects with lots of components it's common to have issues with your CSS classes overwriting each other or conflicting. 
+On large frontend projects with lots of components it's common to have issues with your CSS classes overwriting each other or conflicting.
 There are a few different ways to solve this.
 
 <!--endintro-->
@@ -37,11 +38,13 @@ h1 {
 One solution to this problem is using a CSS framework such as [Tailwind](https://tailwindcss.com).
 
 #### Benefits
+
 * Faster setup
 * Simple to use
 * Faster development speed once devs are familiar with it
 
 #### Disadvantages
+
 * Poor readability as you add more classes
 * Learning curve for class names
 
@@ -55,9 +58,11 @@ This is useful as you don't need to worry about class names or CSS values confli
 It also makes it much easier to change styling on individual components without breaking the styling on other classes.
 
 #### Benefits
+
 * Can reuse class names in each component without conflicts
 
 #### Disadvantages
+
 * Styles have to be manually written
 
 #### Blazor
@@ -105,7 +110,7 @@ Angular also offers the `::ng-deep` pseudo selector, but there are [some conside
 
 #### React
 
-We can achieve local, component-level styles in React by using importing from a file ending in `module.css`: 
+We can achieve local, component-level styles in React by using importing from a file ending in `module.css`:
 
 ```css
 /* component.module.css */

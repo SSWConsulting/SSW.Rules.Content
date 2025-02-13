@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how daily stand-up meetings (scrums) have replaced morning goals for better team interactions and client communication.
 type: rule
 archivedreason: We no longer do this, we now do our daily stand-up meetings (Scrums) because it is more effective with interactions between team members.
 title: Do you send Morning Goals? (This rule is out of date)
@@ -35,7 +36,7 @@ You can use eXtreme Emails to communicate your "Morning Goals" using the followi
 * If we are working on-site we always send our morning goals from our SSW mail account, not an internal account the client may choose to give us. This enables us to keep a record of the email, and also keeps the branding consistent. If this is not possible, we always CC our SSW account (and then move the emails into your "[Saved Items](/do-you-save-important-items-in-a-separate-folder)" when you get back to the office)
 * If something more important arises during the day, we note it down on the next days morning goals.
 * If a task is huge (e.g. clean up my email inbox) and we only aim to do a portion of it, we say so in the morning goals as well.
-    
+
 ::: good
 ![Figure: Morning Goal Item with a mini goal (140 emails)](MorningGoalAims.gif)
 :::

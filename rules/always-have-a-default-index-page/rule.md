@@ -1,5 +1,5 @@
 ---
-seoDescription: A default/index page ensures a seamless user experience by preventing 404 errors when navigating via URL.
+seoDescription: A default/index page ensures a seamless user experience by preventing 404 errors when navigating via URL
 type: rule
 archivedreason:
 title: Do you always have a default/index page?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best way to host your frontend application with ASP.NET 8, balancing scalability, flexibility, and ease of deployment.
 type: rule
 title: Do you know where to host your Frontend application?
 guid: 4481526b-a691-4570-87d3-a9d474ae0dfd

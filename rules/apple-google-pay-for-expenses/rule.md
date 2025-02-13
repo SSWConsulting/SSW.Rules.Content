@@ -1,5 +1,5 @@
 ---
-seoDescription: Simplify expense management and improve financial processes by using Apple/Google Pay for company expenses.
+seoDescription: Simplify expense management and improve financial processes by using Apple/Google Pay for company expenses
 type: rule
 title: Expenses - Do you use Apple/Google Pay for company expenses?
 uri: apple-google-pay-for-expenses
