@@ -32,7 +32,7 @@ Understanding the significance of questions in communication is fundamental. Cur
 
 Timing is key in effective questioning; avoiding interruptions and waffling ensures meaningful dialogue. By choosing the right moment and minimizing disruptions, individuals can engage in more productive and focused conversations.
 
-Moreover, questions should add value and [encourage open-ended responses](../ask-open-ended-questions/rule.md) to foster deeper insights. Documenting answers facilitates knowledge sharing and collaboration, enabling others to benefit from past experiences. Leveraging insightful questions can also lead to [upselling](../upsell/rule.md) opportunities, highlighting the side value of good questioning techniques.
+Moreover, questions should add value and [encourage open-ended responses](/ask-open-ended-questions) to foster deeper insights. Documenting answers facilitates knowledge sharing and collaboration, enabling others to benefit from past experiences. Leveraging insightful questions can also lead to [upselling](/upsell) opportunities, highlighting the side value of good questioning techniques.
 
 ## 2. Enhancing Communication and Continuous Improvement
 
