@@ -51,6 +51,7 @@ Figure: Good Example - 1 line of code for a simple endpoint
 :::
 
 Minimal APIs are great for
+
 * Learning
 * Quick prototypes
 * Vertical Slice Architecture

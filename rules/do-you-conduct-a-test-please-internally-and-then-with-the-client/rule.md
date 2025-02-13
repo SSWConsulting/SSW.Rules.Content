@@ -50,7 +50,7 @@ Always put "test please" in the email body so readers know they are expected to 
 
 :::
 
-### 
+###
 
    Lead Developer responsibilities
 
@@ -68,7 +68,7 @@ Please cc the client in all your "Test Please" emails including internal ones.
 8. Randomly have the manager do a "Test Please" as well. He gives a pass or fail on the job the testers did.
 9. When you receive a "Test Please Succeeded" from both testers (and never before) prepare a "Test Please" for the client. (If you are requested to issue a non-tested release to a client state "Has not passed internal testing" in the email.)
 
-### 
+###
 
    Tester responsibilities
 

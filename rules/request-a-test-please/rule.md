@@ -43,6 +43,7 @@ These are the steps you should take when requesting a "Test Please":
 I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
+
 * {{ FEATURE TO BE TESTED }}
 * {{ FEATURE TO BE TESTED }}
 

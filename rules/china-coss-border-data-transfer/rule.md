@@ -16,6 +16,7 @@ On 7 July 2022, the Cyberspace Administration of China (the **CAC**) released th
 ## When does a business need to submit to a mandatory security assessment by the CAC?
 
 If any of the following criteria are met, a business must submit to a mandatory security assessment by the CAC before it can transfer data out of China:
+
 * The business is transferring <mark>important data</mark> out of China
 * The business is transferring personal information out of China by:
   * <mark>CIIO (Critical Information Infrastructure Operators)</mark>
@@ -33,6 +34,7 @@ In [Measures of Security Assessment for Cross-Border Data Transfer](https://perm
 ## Who is classified as a Critical Information Infrastructure Operators?
 
 In [Regulations on the Security and Protection of Critical Information Infrastructure](https://www.china-briefing.com/news/critical-information-infrastructure-chinas-new-regulations/), **CIIO** is defined as companies engaged in "important industries or fields", including:
+
 * Public communication and information services;
 * Energy;
 * Transport;
