@@ -1,5 +1,5 @@
 ---
-seoDescription: Enhance your ASP.NET site’s user experience with a custom 404 error page that redirects visitors effectively.
+seoDescription: Enhance your ASP.NET site's user experience with a custom 404 error page that redirects visitors effectively.
 type: rule
 archivedreason: 
 title: Do you have a useful 404 error page?
