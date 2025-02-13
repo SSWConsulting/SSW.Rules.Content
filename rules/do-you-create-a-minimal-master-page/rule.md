@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a minimal master page in SharePoint for efficient and easy-to-style web pages.
 type: rule
 title: Do you create a minimal master page?
 uri: do-you-create-a-minimal-master-page

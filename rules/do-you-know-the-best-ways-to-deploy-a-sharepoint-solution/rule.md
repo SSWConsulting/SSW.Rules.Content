@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively deploy your SharePoint solutions with minimal risk and downtime by avoiding server wipes and large backups.
 type: rule
 archivedreason: 
 title: Do you know the best ways to deploy a SharePoint solution?
@@ -12,7 +13,6 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Development for a SharePoint solution is always risky and may involve bringing down the server from time to time.  So we always customize and develop SharePoint solutions on a separate development server.  But when your development is done, do you know how to deploy your changes to the staging and eventually the production server?  

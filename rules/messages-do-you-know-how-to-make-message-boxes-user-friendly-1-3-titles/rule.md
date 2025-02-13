@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create user-friendly message box titles with consistent application names and versions
 type: rule
 archivedreason: 
 title: Messages - Do you know how to make message boxes user friendly? (1/3 Titles)

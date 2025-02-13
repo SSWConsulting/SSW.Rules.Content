@@ -1,5 +1,5 @@
 ---
-seoDescription: Format your addresses consistently using the structure - Number, Street Name, City, State (abbreviation) Postal Code, Country.
+seoDescription: Format your addresses consistently using the structure - Number, Street Name, City, State (abbreviation) Postal Code, Country
 type: rule
 archivedreason:
 title: Do you know how to format addresses?

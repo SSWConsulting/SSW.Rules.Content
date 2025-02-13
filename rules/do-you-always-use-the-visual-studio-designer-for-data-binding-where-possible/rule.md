@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn why using Visual Studio's designer for data binding simplifies complex syntax and enhances code readability
 type: rule
 title: Do you always use the Visual Studio designer for data binding where possible?
 uri: do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
@@ -123,4 +124,3 @@ private void DataBind()
 ::: bad
 Figure: Bad example - Set controls' values in Code
 :::
-

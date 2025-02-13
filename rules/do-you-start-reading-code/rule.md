@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to write clean, readable code that anyone can understand and maintain.
 type: rule
 title: Do you start reading code?
 uri: do-you-start-reading-code

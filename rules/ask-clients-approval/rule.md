@@ -1,4 +1,5 @@
 ---
+seoDescription: Get client approval on specifications to avoid disputes. Use signatures or initials for clear communication and accurate requirements.
 type: rule
 title: Do you ask clients to approve your specifications?
 uri: ask-clients-approval

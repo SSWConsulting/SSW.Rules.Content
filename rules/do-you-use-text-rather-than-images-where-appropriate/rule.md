@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your web pages with text instead of images for faster load times, better search engine visibility, and improved mobile readability
 type: rule
 title: Do you use text rather than images where appropriate?
 uri: do-you-use-text-rather-than-images-where-appropriate

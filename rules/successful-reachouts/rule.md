@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to make your LinkedIn reachouts stand out with personalized and engaging tips.
 type: rule
 title: Do you know to make LinkedIn reachouts stand out?
 uri: successful-reachouts

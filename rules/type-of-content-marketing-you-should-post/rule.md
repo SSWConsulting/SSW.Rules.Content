@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover top content types to post on your social media for effective marketing strategies
 type: rule
 title: Content - Do you know the types of content you should post on your social
   media?

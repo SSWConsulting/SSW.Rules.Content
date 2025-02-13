@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create printable reports in web applications using SQL Server Reporting Services (SSRS) seamlessly in your MVC projects.
 type: rule
 archivedreason: 
 title: Do you know the best way to do printable reports?

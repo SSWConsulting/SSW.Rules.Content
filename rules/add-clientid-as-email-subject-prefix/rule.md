@@ -1,5 +1,5 @@
 ---
-seoDescription: Enhance email clarity by adding ClientID as your subject prefix, ensuring seamless communication regarding specific client work.
+seoDescription: Enhance email clarity by adding ClientID as your subject prefix, ensuring seamless communication regarding specific client work
 type: rule
 archivedreason:
 title: Do you add the ClientID as the subject prefix when sending an email regarding a client?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid using BMP files on your website or in emails due to their large file sizes; opt for PNG for better performance online
 type: rule
 archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you avoid BMPs for web at all times?

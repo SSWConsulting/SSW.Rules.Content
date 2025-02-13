@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to resolve report display issues in Firefox/Chrome for SQL Server Reporting Services 2005/2008
 type: rule
 archivedreason: IE is not a thing anymore - this has been resolved now in current browsers
 title: Do you know how to display reports properly in Firefox / Chrome (Reporting Services 2005/2008)?

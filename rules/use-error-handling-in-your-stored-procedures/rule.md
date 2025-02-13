@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement effective error handling in your SQL stored procedures using THROW for reliable code and easier debugging.
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you use error handling in your Stored Procedures?
@@ -105,7 +106,9 @@ BEGIN CATCH
              ERROR_SEVERITY() AS ErrorSeverity,
              ERROR_PROCEDURE() AS ErrorProcedure,
              ERROR_LINE() AS ErrorLine,
-             ERROR_MESSAGE() AS ErrorMessage;		 		             -- Insert logic for persisting log information (Log to table or log to file)
+             ERROR_MESSAGE() AS ErrorMessage;
+		 
+		             -- Insert logic for persisting log information (Log to table or log to file)
  
              THROW;
 END CATCH;

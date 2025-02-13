@@ -1,4 +1,5 @@
 ---
+seoDescription: How to fix SQL RS report display issues in Firefox, Chrome, and Safari with simple JS changes
 type: rule
 archivedreason: IE is not a thing anymore - this has been resolved now in current browsers
 title: Do you know how to display reports in Firefox, Chrome and Safari (SQL Reporting Services 2008R2/2012)?

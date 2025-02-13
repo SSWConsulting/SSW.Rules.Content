@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover tips for crafting effective call introductions that engage prospects from the start.
 type: rule
 archivedreason: 
 title: Calling - Do you have a good introduction?

@@ -1,5 +1,5 @@
 ---
-seoDescription: Enhance your blog post with a captivating featured image, making it more visually appealing and increasing user engagement.
+seoDescription: Enhance your blog post with a captivating featured image, making it more visually appealing and increasing user engagement
 type: rule
 archivedreason:
 title: Do you add a featured image to your blog post?

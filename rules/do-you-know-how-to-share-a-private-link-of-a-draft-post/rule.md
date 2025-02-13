@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to share private links of draft posts using the Public Post Preview plugin in WordPress.
 type: rule
 archivedreason: 
 title: Do you know how to share a private link of a draft post?

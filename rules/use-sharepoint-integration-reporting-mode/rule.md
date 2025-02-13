@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your reporting experience with SharePoint Integration Mode for easier deployment and improved security compared to Native Reporting Mode.
 type: rule
 archivedreason:
 title: Do you use SharePoint Integration Reporting Mode over Normal(Native) Reporting Mode?

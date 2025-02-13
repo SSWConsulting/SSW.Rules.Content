@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your reports display currency consistently across cultures by setting specific language rules for each currency field.
 type: rule
 archivedreason:
 title: Internationalization - Do you make sure your language rule has an exception for Currency Fields?

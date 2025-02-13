@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow the DRY principle by encapsulating repeated logic into reusable methods for cleaner, more efficient code."
 type: rule
 archivedreason: 
 title: DRY - Do you wrap the same logic in a method instead of writing it repeatedly whenever it's used?

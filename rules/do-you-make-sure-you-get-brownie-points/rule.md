@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to get noticed by effectively communicating your successes and handling client feedback.
 type: rule
 archivedreason:
 title: Do you make sure you get brownie points?

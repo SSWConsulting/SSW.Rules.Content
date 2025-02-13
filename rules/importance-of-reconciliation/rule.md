@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the importance of reconciliation in accounting for accuracy, fraud prevention, and audit preparedness.
 type: rule
 title: Operations - Do you know the importance of reconciliation in accounting?
 uri: importance-of-reconciliation

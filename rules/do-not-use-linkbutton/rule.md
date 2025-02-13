@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn why not to use LinkButton for postback and implement correctly in ASP.NET
 type: rule
 archivedreason: 
 title: Do you know not to use LinkButton?

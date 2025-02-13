@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accurate data collection by letting users opt out of questions they can't answer.
 type: rule
 archivedreason: 
 title: Validation - Do you avoid capturing incorrect data?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to automatically sort emails into folders in Outlook, saving you time and keeping your inbox organized.
 type: rule
 archivedreason:
 title: Do you know how to automatically move emails into specific folders?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively enforce standards by explaining their importance, fostering better teamwork and avoiding repeated mistakes
 type: rule
 title: General - Standards Watchdog - Do you provide the reason behind the rules
   rather than just enforce them?

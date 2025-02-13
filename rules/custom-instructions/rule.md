@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to set up effective custom instructions for ChatGPT to save time and streamline your prompts.
 type: rule
 title: Do you use good custom instructions for ChatGPT?
 uri: custom-instructions

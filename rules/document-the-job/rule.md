@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to ensure tasks are truly complete by documenting or updating processes before finalizing them.
 type: rule
 title: Do you document/update processes before sending "Done"?
 uri: document-the-job

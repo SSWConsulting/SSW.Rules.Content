@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your Google Ads campaigns with proven SEM strategies for better ROI
 type: rule
 archivedreason: 
 title: SEM - Do you know how to optimize Google Ads campaigns?

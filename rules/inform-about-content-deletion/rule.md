@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover best practices for content deletion and fundamental changes while ensuring clear communication and maintaining respect for original work.
 type: rule
 title: Do you inform others when deleting or making fundamental content changes?
 uri: inform-about-content-deletion

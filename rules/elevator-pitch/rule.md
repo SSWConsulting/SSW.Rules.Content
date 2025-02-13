@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to craft a compelling elevator pitch to captivate clients and leave a lasting impression in any scenario.
 type: rule
 title: Do you know the elevator pitch for a company?
 uri: elevator-pitch

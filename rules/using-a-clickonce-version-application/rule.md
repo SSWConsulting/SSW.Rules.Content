@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement a ClickOnce symbol to ensure your application deployment is clear and secure.
 type: rule
 title: Do you make a clear symbol to inform the users that you are using a ClickOnce version application?
 uri: using-a-clickonce-version-application

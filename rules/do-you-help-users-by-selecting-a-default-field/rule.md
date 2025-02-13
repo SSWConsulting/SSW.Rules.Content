@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your MVC website's usability by automatically focusing on the default field when a page loads, reducing user effort
 type: rule
 title: Do You Help Users By Selecting A Default Field
 uri: do-you-help-users-by-selecting-a-default-field

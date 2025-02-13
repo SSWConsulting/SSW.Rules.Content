@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to document SharePoint 2007 web application details for a smooth migration to SharePoint 2010.
 type: rule
 archivedreason: 
 title: Do you document the details of your SharePoint 2007 web application

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create reports with both summary and detailed versions for diverse viewer needs
 type: rule
 archivedreason:
 title: Do you have a summary and a detailed version of your report?

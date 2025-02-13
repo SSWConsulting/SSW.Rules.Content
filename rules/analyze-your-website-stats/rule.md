@@ -1,5 +1,5 @@
 ---
-seoDescription: Analyze your website statistics and unlock valuable insights into user behavior, including geographical origin, referring pages, number of users, time spent on site, early departures, and page popularity.
+seoDescription: Analyze your website statistics and unlock valuable insights into user behavior, including geographical origin, referring pages, number of users, time spent on site, early departures, and page popularity
 type: rule
 archivedreason:
 title: Do you analyze your website statistics (aka Google Analytics)?

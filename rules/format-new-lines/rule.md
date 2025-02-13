@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve readability with proper line breaks and spacing in your content to enhance user engagement and comprehension.
 type: rule
 title: Do you enhance readability with line breaks and spacing?
 uri: format-new-lines

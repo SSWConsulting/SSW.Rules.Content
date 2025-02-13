@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to avoid common SharePoint migration errors with ShareGate
 type: rule
 archivedreason: 
 title: Do you know how to avoid errors (with Sharegate)?

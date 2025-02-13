@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to properly center chart titles for better data visualization and professional reporting.
 type: rule
 archivedreason: This is a matter of preference and context, not a rule.
 title: Data Layout - Do you center the title in your chart?

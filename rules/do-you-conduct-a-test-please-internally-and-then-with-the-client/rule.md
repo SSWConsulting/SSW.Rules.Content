@@ -1,4 +1,5 @@
 ---
+seoDescription: "Comprehensive guide to software development testing processes, emphasizing the importance of internal and client-facing 'test please' procedures for ensuring quality and efficiency."
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/conduct-a-test-please](/rules/conduct-a-test-please)
 title: Do you conduct a "test please" internally and then with the client?

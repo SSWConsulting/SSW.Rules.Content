@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn about the risks of using the Content Editor Web Part and discover safe editing practices to prevent data loss.
 type: rule
 archivedreason: 
 title: Do you use content editor web part with care?

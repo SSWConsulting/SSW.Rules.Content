@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how daily stand-up meetings (scrums) have replaced morning goals for better team interactions and client communication.
 type: rule
 archivedreason: We no longer do this, we now do our daily stand-up meetings (Scrums) because it is more effective with interactions between team members.
 title: Do you send Morning Goals? (This rule is out of date)

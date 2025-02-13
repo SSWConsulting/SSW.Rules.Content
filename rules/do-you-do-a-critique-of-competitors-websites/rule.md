@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover insights into competitor website critiques focusing on user experience, design, and functionality to help improve your digital presence.
 type: rule
 archivedreason: 
 title: Do you do a critique of competitor's websites?

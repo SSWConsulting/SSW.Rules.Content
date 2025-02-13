@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance form usability by showing result counts in ComboBoxes for better user experience.
 type: rule
 title: Controls - Do you include the number of results in ComboBoxes?
 uri: controls-do-you-include-the-number-of-results-in-comboboxes

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement source control for Power Apps using GitHub or Azure DevOps to manage versioning, collaboration, and automated deployment effectively
 type: rule
 title: Do you use source control for your Power Apps?
 uri: use-source-control-for-powerapps

@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your email clarity by placing the main message upfront—avoid burying the headline for clearer communication and faster understanding.
 type: rule
 title: Do you know not to bury your headline?
 uri: do-not-bury-your-headline

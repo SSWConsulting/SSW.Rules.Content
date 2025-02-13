@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance team collaboration with GitHub Discussions—use them for feature ideas, customer support, FAQs, product announcements, and more.
 type: rule
 title: Do you use GitHub Discussions?
 guid: 5ed09331-e71d-433e-90b7-4ae509ea0099

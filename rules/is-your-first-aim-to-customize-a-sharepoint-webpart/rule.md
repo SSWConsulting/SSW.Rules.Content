@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to optimize SharePoint web parts by configuring settings like XSL paths, item limits, view fields, and query overrides before developing custom solutions.
 type: rule
 title: Do you aim to customize a SharePoint webpart first?
 uri: is-your-first-aim-to-customize-a-sharepoint-webpart

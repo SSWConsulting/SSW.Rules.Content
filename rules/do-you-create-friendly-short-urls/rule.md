@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create friendly short URLs for better readability and memorability.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/create-friendly-short-urls](/rules/create-friendly-short-urls)
 title: Do you create friendly short URL's?

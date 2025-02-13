@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to use Premiere Pro markers for automated YouTube chapter links, saving time on video organization
 type: rule
 title: Videos - Do you use Premiere Pro Markers as YouTube Chapter Links?
 uri: premiere-pro-markers-as-youtube-chapter-links

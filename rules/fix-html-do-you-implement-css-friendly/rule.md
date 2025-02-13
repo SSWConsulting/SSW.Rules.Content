@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement CSS-friendly HTML fixes in SharePoint to ensure standards compliance, accessibility, and cross-browser compatibility.
 type: rule
 archivedreason: 
 title: Fix HTML - Do you make SharePoint CSS friendly?

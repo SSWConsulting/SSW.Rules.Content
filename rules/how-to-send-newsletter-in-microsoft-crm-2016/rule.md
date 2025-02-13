@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to send newsletters in Microsoft Dynamics CRM 2016 using mail merge with custom unsubscribe links.
 type: rule
 title: Do you know how to send newsletters in Microsoft Dynamics CRM 2016?
 uri: how-to-send-newsletter-in-microsoft-crm-2016

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to use logical page breaks in your reports to organize content across pages effectively
 type: rule
 archivedreason:
 title: Data Layout - Do you know how to use logical page breaks?

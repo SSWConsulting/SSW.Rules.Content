@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to properly catch and re-throw exceptions to make debugging easier by preserving stack traces.
 type: rule
 title: Do you catch and re-throw exceptions properly?
 uri: do-you-catch-and-re-throw-exceptions-properly

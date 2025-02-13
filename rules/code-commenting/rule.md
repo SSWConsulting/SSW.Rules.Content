@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective alternatives to code comments and learn how to write cleaner, maintainable code with insights from Clean Code and Robert Martin (Uncle Bob).
 type: rule
 archivedreason: 
 title: Comments - Do you follow the code commenting standards?

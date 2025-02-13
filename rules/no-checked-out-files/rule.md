@@ -1,4 +1,5 @@
 ---
+seoDescription: discover how to remind users of their checked-out files in sharepoint using powershell scripts or custom reports
 type: rule
 title: Do you confirm there is no checked out files?
 uri: no-checked-out-files

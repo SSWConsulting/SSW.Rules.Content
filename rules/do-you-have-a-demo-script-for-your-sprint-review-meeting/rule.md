@@ -1,4 +1,5 @@
 ---
+seoDescription: Prepare a demo script for your Sprint Review Meeting to showcase progress and plan ahead effectively.
 type: rule
 archivedreason: This has been superseded by [https://www.ssw.com.au/rules/meeting-do-you-know-what-to-prepare-for-each-meeting](/rules/meeting-do-you-know-what-to-prepare-for-each-meeting)
 title: Do you have a demo script for your Sprint Review Meeting? *IMPORTANT*

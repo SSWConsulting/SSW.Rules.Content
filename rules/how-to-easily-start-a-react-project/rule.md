@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the fastest way to start a React project using modern tools like Vite and Next.js.
 type: rule
 title: Do you know how to easily start a React project?
 uri: how-to-easily-start-a-react-project

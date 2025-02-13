@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create a Customer Portal in SharePoint for seamless client collaboration and project management
 type: rule
 archivedreason: 
 title: Do you know how to create a "Customer Portal" in SharePoint?

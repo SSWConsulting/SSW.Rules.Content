@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when and how to use scoped CSS in frameworks like Blazor, Angular, and React to avoid class conflicts and ensure consistent component styling.
 type: rule
 title: Do you know when to use scoped CSS?
 uri: scoped-css

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn about Thin Controllers, Fat Models, and Dumb Views while discovering how to structure efficient software architecture.
 type: rule
 title: Do you use Thin Controllers, Fat Models, and Dumb Views?
 uri: do-you-use-thin-controllers-fat-models-and-dumb-views

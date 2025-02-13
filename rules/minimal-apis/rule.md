@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how Minimal APIs simplify building fast HTTP endpoints in ASP.NET Core with minimal setup and boilerplate-free code.
 type: rule
 title: Do you use Minimal APIs over Controllers?
 uri: minimal-apis

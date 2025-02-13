@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when to use low-fidelity mockups vs high-fidelity prototypes in software design.
 type: rule
 title: Do you know when to create mockups and prototypes?
 uri: mockups-and-prototypes

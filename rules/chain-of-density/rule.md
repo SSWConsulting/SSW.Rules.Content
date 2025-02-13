@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how Chain of Density prompts enhance text summarization accuracy efficiently.
 type: rule
 title: Do you use chain of density prompts for summarization?
 uri: chain-of-density

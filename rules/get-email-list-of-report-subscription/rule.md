@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to extract email lists from report subscriptions using SQL queries for effective reporting management
 type: rule
 archivedreason:
 title: Do you know how to get email list of report subscription?

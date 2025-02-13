@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve user experience by adding a top "select all" checkbox for easy management of checkboxes in lists.
 type: rule
 archivedreason: 
 title: Controls - Do you include a "select all" checkBox on the top?

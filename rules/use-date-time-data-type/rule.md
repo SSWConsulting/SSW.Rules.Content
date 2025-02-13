@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve date parameter handling in SQL Reporting Services by using DateTime data type to avoid internationalization issues and provide users with regional date picker support.
 type: rule
 archivedreason:
 title: Parameters/Internationalization - Do you use the DateTime data type for date parameters?

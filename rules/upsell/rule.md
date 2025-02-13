@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how consultants and software developers can effectively upsell products and services by identifying opportunities during client interactions
 type: rule
 archivedreason: 
 title: Do you upsell your products or services?

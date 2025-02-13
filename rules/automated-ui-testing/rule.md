@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best practices for implementing automated UI testing with tools like Playwright and learn when to use it effectively in your test strategy.
 type: rule
 title: Do you do automated UI testing?
 uri: automated-ui-testing

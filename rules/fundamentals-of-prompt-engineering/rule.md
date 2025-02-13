@@ -1,4 +1,5 @@
 ---
+seoDescription: Master the fundamentals of prompt engineering to unlock better results with ChatGPT
 type: rule
 title: Do you know the fundamentals of Prompt Engineering?
 uri: fundamentals-of-prompt-engineering

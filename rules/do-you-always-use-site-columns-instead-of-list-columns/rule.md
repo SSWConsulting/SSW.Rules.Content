@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover when to use Site Columns over List Columns for better SharePoint customization and management
 type: rule
 archivedreason: 
 title: Do you always use Site Columns instead of List Columns?

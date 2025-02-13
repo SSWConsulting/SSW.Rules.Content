@@ -1,4 +1,5 @@
 ---
+seoDescription: "Bundling and minifying JavaScript in your MVC app improves performance by reducing server calls."
 type: rule
 archivedreason: 
 title: Do you bundle and minify your JavaScript?

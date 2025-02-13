@@ -1,4 +1,5 @@
 ---
+seoDescription: Check if your web page is indexed by Google using its exact link in search results.
 type: rule
 archivedreason: 
 title: Basics - Do you know if Google has indexed your page?

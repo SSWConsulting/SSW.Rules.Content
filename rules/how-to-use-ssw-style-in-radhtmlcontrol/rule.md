@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to apply SSW styles in RadHtmlControl using Telerik Editor
 type: rule
 archivedreason: depreciated
 title: How to use SSW style in RadHtmlControl?

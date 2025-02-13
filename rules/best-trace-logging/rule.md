@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best trace logging libraries in .NET Core and .NET 5+ to enhance your logging infrastructure with built-in abstractions.
 type: rule
 title: Do you use the best trace logging library?
 uri: best-trace-logging

@@ -1,4 +1,5 @@
 ---
+seoDescription: Migrate your frontend to .NET 8 effectively with hosting options that enhance performance and scalability.
 type: rule
 title: Do you know how to migrate frontend to .NET 8?
 uri: migrating-frontend-to-net8

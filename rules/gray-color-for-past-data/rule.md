@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover if using gray effectively indicates past data in reports
 type: rule
 archivedreason:
 title: Data Layout - Do you use gray color for past data?

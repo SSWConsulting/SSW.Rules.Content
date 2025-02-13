@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your reports with cool 3D cylinder charts for better visual impact.
 type: rule
 archivedreason: Outdated - if you are buildung reports, use PowerBI. See https://www.ssw.com.au/rules/rules-to-better-power-bi/
 title: Data Layout - Do you use 3D cylinder in column chart?

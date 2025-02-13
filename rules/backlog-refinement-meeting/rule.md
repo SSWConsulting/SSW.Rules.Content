@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how Product Backlog Refinement meetings improve Scrum efficiency by ensuring clear, ready-to-go PBIs for streamlined Sprint Planning.
 type: rule
 title: Do you have a Product Backlog refinement meeting?
 uri: backlog-refinement-meeting

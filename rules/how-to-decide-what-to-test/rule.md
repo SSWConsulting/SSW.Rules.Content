@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective ways to generate test ideas and apply heuristics for better exploratory testing outcomes.
 type: rule
 title: Do you know how to decide what to test?
 uri: how-to-decide-what-to-test

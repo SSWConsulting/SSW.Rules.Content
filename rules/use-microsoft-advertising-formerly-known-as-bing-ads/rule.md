@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to expand your online advertising reach by importing Google Ads campaigns into Microsoft Advertising for increased traffic and conversions.
 type: rule
 title: SEM - Do you use Microsoft Advertising? (Formerly known as Bing Ads)
 uri: use-microsoft-advertising-formerly-known-as-bing-ads

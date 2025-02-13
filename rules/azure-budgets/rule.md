@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to monitor and manage Azure costs with budgets, tags, and alerts to avoid bill shock."
 type: rule
 title: Budgets - Do you monitor your costs in Azure?
 uri: azure-budgets

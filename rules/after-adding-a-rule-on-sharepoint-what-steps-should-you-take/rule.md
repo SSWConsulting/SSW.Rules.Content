@@ -1,5 +1,5 @@
 ---
-seoDescription: After adding a rule on SharePoint, ensure accurate text content by checking for spelling and grammatical errors using Office Word's built-in tools, running Link Auditor to detect broken links, and repeatedly fixing errors until all green ticks are achieved.
+seoDescription: After adding a rule on SharePoint, ensure accurate text content by checking for spelling and grammatical errors using Office Word's built-in tools, running Link Auditor to detect broken links, and repeatedly fixing errors until all green ticks are achieved
 type: rule
 archivedreason: Irrelevant since rules are now in GitHub
 title: After adding a rule on SharePoint - what steps should you take?

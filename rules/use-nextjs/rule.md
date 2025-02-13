@@ -1,4 +1,5 @@
 ---
+seoDescription: Next.js boosts React apps with server-side rendering, TypeScript, and performance optimizations for faster, SEO-friendly sites.
 type: rule
 title: Do you know why Next.js is awesome?
 uri: use-nextjs

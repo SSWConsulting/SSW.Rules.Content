@@ -1,4 +1,5 @@
 ---
+seoDescription: Modify SSRS site settings by adding version numbers to easily identify your Reporting Services edition.
 type: rule
 archivedreason: this rule is similar to the rule [Layout - Do you show which version of Reporting Services you are running?](https://www.ssw.com.au/rules/reporting-services-version/)
 title: Do you change the name of site settings?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Every object name should be owned by dbo to prevent ownership chain problems and maintain proper permissions.
 type: rule
 archivedreason: 
 title: General - Do you know every object name should be owned by dbo?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best tools for querying SQL Server data efficiently—compare SSMS, Azure Data Studio, and VS Code MSSQL Extension.
 type: rule
 title: SQL Server - Do you know the different ways to query data?
 uri: query-data-tools

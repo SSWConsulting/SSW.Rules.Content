@@ -1,4 +1,5 @@
 ---
+seoDescription: how-to-request-a-test-please-effectively-for-software-testing-and-quality-assurance
 type: rule
 title: Quality - Do you know how to request a "Test Please"?
 uri: request-a-test-please

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to master Observables in Angular for effective asynchronous data handling, including creation, subscription, and combination techniques.
 type: rule
 archivedreason:
 title: Do you know how to use Observables

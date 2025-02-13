@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to optimize your SharePoint search experience with expert tips on using categories, filters, and advanced operators for better results
 type: rule
 title: Do you know how to use SharePoint search?
 uri: sharepoint-search

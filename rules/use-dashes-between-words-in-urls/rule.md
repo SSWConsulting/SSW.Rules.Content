@@ -1,4 +1,5 @@
 ---
+seoDescription: Using dashes in URLs enhances SEO and readability, helping users and search engines understand content effectively.
 type: rule
 archivedreason: The rule has been replaced by https://ssw.com.au/rules/use-dashes-in-urls/
 title: Do your page URL’s use dashes between words?

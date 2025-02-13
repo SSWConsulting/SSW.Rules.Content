@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to properly document workarounds by adding resource links in your code comments for better maintainability
 type: rule
 title: Do you know what to do with a work around?
 uri: what-to-do-with-a-work-around

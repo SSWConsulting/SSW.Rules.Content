@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to save space in reports with vertical text instead of thin columns, making data more readable and visually appealing.
 type: rule
 archivedreason:
 title: Data Layout - Do you take advantage of vertical text to avoid lots of thin columns?

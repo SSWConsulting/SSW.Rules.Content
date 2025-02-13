@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how AI enhances Specification Reviews with precise insights and expert human touch.
 type: rule
 title: Do you use AI to generate your Specification Reviews?
 uri: use-ai-to-generate-spec-reviews

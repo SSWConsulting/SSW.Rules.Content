@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand China’s strict cross-border data transfer rules and compliance guidelines for businesses transferring personal information or sensitive data.
 type: rule
 title: Chinafy - Do you know the terms of the Cross-border data transfer?
 uri: china-coss-border-data-transfer

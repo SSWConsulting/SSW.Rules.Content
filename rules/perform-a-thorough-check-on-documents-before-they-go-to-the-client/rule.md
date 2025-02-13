@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accurate document delivery by performing thorough checks on spelling, calculations, client details, and formatting before sending to clients.
 type: rule
 archivedreason: 
 title: Do you perform a thorough check on documents before they go to the client?

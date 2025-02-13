@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the power of Event Storming—a collaborative workshop method for gathering domain events and building effective software systems."
 type: rule
 title: Do you know the value of Event Storming?
 uri: event-storming

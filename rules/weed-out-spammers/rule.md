@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn effective ways to identify and remove spammers from your social media profiles and groups.
 type: rule
 archivedreason: 
 title: Comments - Do you know how to weed out spammers?

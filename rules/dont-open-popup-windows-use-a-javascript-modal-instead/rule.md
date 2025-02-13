@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid JavaScript popups—use modals for better user experience and compliance.
 type: rule
 archivedreason: 
 title: Do you know you should not open popup windows and use a javascript modal instead?

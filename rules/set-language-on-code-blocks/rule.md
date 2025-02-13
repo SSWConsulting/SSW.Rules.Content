@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your markdown by adding syntax highlighting to code blocks for improved readability and easier debugging.
 type: rule
 title: Do you set the language on code blocks?
 uri: set-language-on-code-blocks

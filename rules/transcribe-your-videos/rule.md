@@ -1,4 +1,5 @@
 ---
+seoDescription: Transcribe your videos to boost discoverability and enhance SEO for better search results.
 type: rule
 title: Searchability - Do you transcribe your videos?
 uri: transcribe-your-videos

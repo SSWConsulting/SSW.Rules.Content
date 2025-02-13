@@ -1,4 +1,5 @@
 ---
+seoDescription: "Enhance your coding workflow with ChatGPT for debugging, code generation, translation, and more."
 type: rule
 title: Do you use ChatGPT to help you code?
 uri: chatgpt-can-help-code

@@ -1,5 +1,5 @@
 ---
-seoDescription: Add the application name to SQL Server connection strings to improve performance monitoring and troubleshooting.
+seoDescription: Add the application name to SQL Server connection strings to improve performance monitoring and troubleshooting
 type: rule
 archivedreason:
 title: Do you add the Application Name in the SQL Server connection string?

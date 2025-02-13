@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your app uses regional friendly formatting for numbers, dates, and currency to enhance global user experience.
 type: rule
 archivedreason:
 title: Internationalization - Do you use regional friendly formatting?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover practical Scrum and XP strategies for effective large-scale project management
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-the-8-steps-to-scrum](/rules/do-you-know-the-8-steps-to-scrum)
 title: Management - Do you use XP/Scrum wisely?

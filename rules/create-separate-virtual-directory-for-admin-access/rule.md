@@ -1,4 +1,5 @@
 ---
+seoDescription: Create separate virtual directories in Reporting Services to improve security and manage public vs admin access effectively.
 type: rule
 archivedreason:
 title: Admin - Do you create a separate virtual directory for Admin access?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost your business's visibility on Google Maps and gain customer trust with authentic reviews using Google My Business.
 type: rule
 title: Google Business - Do you know why your business should be on Google Business?
 uri: why-your-business-should-be-on-google-my-business

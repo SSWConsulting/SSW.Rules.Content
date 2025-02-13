@@ -1,5 +1,5 @@
 ---
-seoDescription: Discover how to add report owners in your reports using groups or teams for efficient maintenance.
+seoDescription: Discover how to add report owners in your reports using groups or teams for efficient maintenance
 type: rule
 archivedreason:
 title: Do you add report owner in your report?

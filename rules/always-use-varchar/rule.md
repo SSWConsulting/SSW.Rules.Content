@@ -1,5 +1,5 @@
 ---
-seoDescription: Use VARCHAR instead of CHAR for most SQL Server applications to optimize storage space and query performance.
+seoDescription: Use VARCHAR instead of CHAR for most SQL Server applications to optimize storage space and query performance
 type: rule
 archivedreason:
 title: Schema - Do you always use Varchar?

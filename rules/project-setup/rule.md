@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your project setup and enhance developer experience with tips on documentation, PowerShell scripts, Docker containerization, and dev containers for streamlined workflows
 type: rule
 title: Project setup - Do you make project setup as easy as possible?
 uri: project-setup

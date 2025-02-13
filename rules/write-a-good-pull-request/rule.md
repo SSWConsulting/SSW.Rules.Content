@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover tips on writing effective Pull Requests with clear titles and descriptions for improved collaboration and code reviews."
 type: rule
 title: Do you know how to write a great Pull Request (PR)?
 uri: write-a-good-pull-request

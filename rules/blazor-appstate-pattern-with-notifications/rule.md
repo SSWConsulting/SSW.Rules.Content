@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement `INotifyPropertyChanged` for efficient state management in your Blazor applications.
 type: rule
 title: State Management - Do you use the AppState pattern with State Change
   Notification?

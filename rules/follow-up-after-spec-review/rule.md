@@ -1,4 +1,5 @@
 ---
+seoDescription: Scheduling a follow-up meeting after the Spec Review ensures alignment and smooth project kickoff.
 type: rule
 title: Do you schedule a follow-up meeting after the Spec Review?
 uri: follow-up-after-spec-review

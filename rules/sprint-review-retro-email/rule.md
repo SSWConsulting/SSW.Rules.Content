@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a structured Sprint Review/Retro email template with best practices for clear communication and effective team collaboration in Agile processes.
 type: rule
 title: Do you create a Sprint Review/Retro email?
 uri: sprint-review-retro-email

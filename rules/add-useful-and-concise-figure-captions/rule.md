@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your web content by adding useful figure captions to images and videos for better SEO and user engagement.
 type: rule
 title: Figures - Do you add useful text captions to images and videos?
 uri: add-useful-and-concise-figure-captions

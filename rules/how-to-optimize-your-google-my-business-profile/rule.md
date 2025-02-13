@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your Google My Business profile for better customer attraction and online visibility.
 type: rule
 title: Google Business - Do you know how to optimize your business
   profile?

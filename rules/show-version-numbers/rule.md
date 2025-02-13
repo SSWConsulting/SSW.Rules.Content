@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure clarity and easy updates by adding version numbers to your documents and design files.
 type: rule
 archivedreason: 
 title: Do you have version numbers in documents and design files?

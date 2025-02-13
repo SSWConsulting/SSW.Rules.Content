@@ -1,5 +1,5 @@
 ---
-seoDescription: Initializing a MonthCalendar by setting FirstDayOfWeek to Monday ensures consistency and enhances user experience.
+seoDescription: Initializing a MonthCalendar by setting FirstDayOfWeek to Monday ensures consistency and enhances user experience
 type: rule
 title: Do you always set FirstDayOfWeek to Monday on a MonthCalendar?
 uri: always-set-firstdayofweek-to-monday-on-a-monthcalendar

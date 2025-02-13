@@ -1,4 +1,5 @@
 ---
+seoDescription: Automate meeting scheduling effortlessly with AI-powered solutions like Outlook 365's Scheduling Poll and FindTime for faster, stress-free coordination
 type: rule
 title: Appointments - Do you automate scheduling of meetings?
 uri: automate-schedule-meetings

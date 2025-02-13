@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve user experience by using icons on file links to avoid surprising users with unexpected downloads or applications opening in the background.
 type: rule
 title: Do you use icons on files' links to not to surprise users?
 uri: use-icons-to-not-surprise-users
