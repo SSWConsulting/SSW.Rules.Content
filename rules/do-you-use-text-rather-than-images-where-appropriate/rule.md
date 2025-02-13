@@ -23,7 +23,7 @@ Using text rather than images has multiple advantages:
 <img src="Images/Heading_Welcome.gif>
 ```
 
-::: bad 
+::: bad
 Bad Example - Using image for text header
 :::
 

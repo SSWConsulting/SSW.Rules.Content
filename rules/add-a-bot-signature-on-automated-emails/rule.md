@@ -24,6 +24,7 @@ However, the end user should be able to tell that this was sent by a bot, and no
 <!--endintro-->
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |

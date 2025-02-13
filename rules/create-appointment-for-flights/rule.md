@@ -32,6 +32,7 @@ This is how you should create an appointment in the Outlook calendar for flights
 Here is a template to follow:
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ RELEVANT PARTIES }} |

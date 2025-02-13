@@ -22,7 +22,6 @@ It is extremely important to make your site standards compliant:
 * It also means your site is likely to work for all browsers, even if you don’t specifically target/support them.
 * It requires accessibility for big public sites can be met easier.
 
-
 <!--endintro-->
 
 When you first run your SharePoint site – you’ll discover that it looks nice on the surface but needs a significant amount of work to fix all the bad HTML.
@@ -83,6 +82,7 @@ Implement CSS Friendly – these are the control adapters released by Microsoft 
   </ul>
 </div>
 ```
+
 ::: good
 Good example - using CSS Friendly in SharePoint
 :::

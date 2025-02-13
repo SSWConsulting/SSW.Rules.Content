@@ -17,9 +17,9 @@ When communicating important information via email, it's crucial to ensure that 
 
 <!--endintro-->
 
-- **State the main purpose early** - The main purpose of the email should be in the first sentences. This helps ensure that even if the recipient [skims the email](/f-shaped-pattern), they understand the primary message.
+* **State the main purpose early** - The main purpose of the email should be in the first sentences. This helps ensure that even if the recipient [skims the email](/f-shaped-pattern), they understand the primary message.
 
-- **Clarity over complexity** - Readers should be able to read an email once and understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
+* **Clarity over complexity** - Readers should be able to read an email once and understand what it is about. Avoid complex sentences or burying the important information in lengthy paragraphs.
 
 Here's how you can improve email clarity by not burying the headline:
 
@@ -30,7 +30,7 @@ Thanks for your help with the project.
 
 The updates you made were mostly correct. I have reviewed the code and noticed a few things. Some sections of the code need refactoring. I think it's better if we avoid adding those changes until we meet tomorrow.
 
-Thanks,    
+Thanks,
 John
 
 :::

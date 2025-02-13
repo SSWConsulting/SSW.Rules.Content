@@ -39,6 +39,7 @@ In specific cases, like on breadcrumbs and logo, you don't want these URL's, so 
   content: none;
 }
 ```
+
 ::: good  
 ![Figure: Good example - Printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs](print-url.jpg)  
 :::

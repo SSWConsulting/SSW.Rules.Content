@@ -63,10 +63,10 @@ public class ErrorEmail
     }
 }
 ```
-::: bad
-Bad example - Write the same logic repeatedly 
-:::
 
+::: bad
+Bad example - Write the same logic repeatedly
+:::
 
 ```csharp
 public class WarningEmail
@@ -108,5 +108,5 @@ public class EmailHelper
 ```
 
 ::: good
-Good example - Put the same logic in a method and make it reusable 
+Good example - Put the same logic in a method and make it reusable
 :::

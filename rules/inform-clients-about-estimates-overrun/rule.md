@@ -34,6 +34,7 @@ For this reason, blowouts should be reported in the Daily Scrum, as well as any 
 Keep clients informed and avoid conflict by informing them ASAP and documenting estimates overrun in an ['as per our conversation' email](/as-per-our-conversation-emails):  
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Mr Northwind |
@@ -58,6 +59,5 @@ Good example - A sample of an email that informs the client that the estimate wi
 ::: info
 **Note:** For Scrum projects, you should keep an eye on your burndown chart during your daily standups to see if you are on track to finish all the work in a Sprint.
 :::
-
 
 ![Figure: When communicating to clients - talk at 80% not 110%!](AI-image-for-Adam.png)

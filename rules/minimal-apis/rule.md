@@ -37,6 +37,7 @@ public class HelloWorldController : ControllerBase
     }
 }
 ```
+
 ::: bad
 Figure: Bad Example - 9 lines of code for a simple endpoint
 :::
@@ -44,13 +45,14 @@ Figure: Bad Example - 9 lines of code for a simple endpoint
 ```csharp
 app.MapGet("/", () => "Hello World!");
 ```
+
 ::: good
 Figure: Good Example - 1 line of code for a simple endpoint
 :::
 
 Minimal APIs are great for
-- Learning
-- Quick prototypes
-- Vertical Slice Architecture
-- A similar developer experience to NodeJS
-- Performance
+* Learning
+* Quick prototypes
+* Vertical Slice Architecture
+* A similar developer experience to NodeJS
+* Performance

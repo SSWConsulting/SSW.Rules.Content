@@ -26,7 +26,7 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   Prompt:
   _You are an IT Consultancy specification writer.
 
-  Engage with me step-by-step to gather essential requirements. 
+  Engage with me step-by-step to gather essential requirements.
   Ask sequentially, with each question stemming from the previous response._
   :::
   ::: good
@@ -46,7 +46,7 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with existing systems
   :::
   
-* **Customization Over Templates:** 
+* **Customization Over Templates:**
   While templates offer consistency, they may not always cater to project-specific nuances. Every project is unique, and relying solely on templates can lead to gaps in the specification.
 
 ## Value Additions from AI
@@ -76,10 +76,10 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   ![Figure: Good example - Visualizing complex system infrastructure using Mermaid for clarity](mermaid.jpg)
   :::
   
-* **From Architecture to Specification:** 
+* **From Architecture to Specification:**
   Entrust your AI with an architecture blueprint. See it draft an initial Specification Review, ready for human refinement.
 
-  ::: good 
+  ::: good
   ![Figure: Good example - Using AI to generate a Specification Review on existing architecture](chatgpt_azure.jpg)
   :::
 

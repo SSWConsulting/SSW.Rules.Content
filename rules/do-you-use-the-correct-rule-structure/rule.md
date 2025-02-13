@@ -19,5 +19,4 @@ Your rule should be structured as follows:
 * Bad example
 * Good example
 
-
 <!--endintro-->

@@ -23,5 +23,5 @@ Title should be centered in chart.
 :::
 
 ::: good  
-![Figure: Good example - Title centered](RS_TitleCentered_Good.gif) 
+![Figure: Good example - Title centered](RS_TitleCentered_Good.gif)
 :::

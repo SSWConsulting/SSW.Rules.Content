@@ -83,7 +83,7 @@ Figure: Good Example - No messing around and keeps the pace up
 :::
 
 9. Ask the interviewee to include your question in the start of their answer. This reinforces the question for the audience, gives a strong start to the interviewee’s response, and also makes it possible to create incredibly useful smaller video segments.
-      
+
 ::: greybox
 "Why do you like the SSW Rules?"
 "They are very useful"
@@ -97,5 +97,5 @@ Figure: Bad Example - Interviewee’s statement is very general and could be ref
 "I like the SSW Rules because they are very useful"
 :::
 ::: good
-Figure: Good Example - establishes an immediate context for the interviewee’s response, and is a powerful statement when heard without the interviewer’s question 
+Figure: Good Example - establishes an immediate context for the interviewee’s response, and is a powerful statement when heard without the interviewer’s question
 :::

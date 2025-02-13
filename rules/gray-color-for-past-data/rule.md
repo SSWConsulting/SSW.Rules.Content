@@ -23,5 +23,5 @@ It's common that gray color means old, so we use gray for past data in reports.
 :::
 
 ::: good  
-![Figure: Good example - Old data in gray](RS_Color4Prior_Good.gif) 
+![Figure: Good example - Old data in gray](RS_Color4Prior_Good.gif)
 :::

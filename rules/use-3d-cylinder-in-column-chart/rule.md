@@ -24,5 +24,5 @@ redirects: []
 :::
 
 ::: good  
-![Figure: Good example - Cool 3D cylinder](RS_3DCylinder_Good.gif) 
+![Figure: Good example - Cool 3D cylinder](RS_3DCylinder_Good.gif)
 :::

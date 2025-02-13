@@ -20,6 +20,7 @@ People are not mind-readers (unless they are telepathic!), so when you get good 
 ![Figure: Brownie points](brownie-points.png)
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Sophie Belle - SSW Developer |

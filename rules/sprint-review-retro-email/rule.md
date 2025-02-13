@@ -37,6 +37,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -65,7 +66,6 @@ Please see below for a more detailed breakdown of the Sprint:
 | Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
 | Product Owner:     | {{ PRODUCT OWNER NAME }}             |
 | Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
-
 
 ### Sprint Review
 

@@ -35,7 +35,6 @@ Figure: Bad example - Using JavaScrip in OnLoad event
 Figure: Good example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration
 :::
 
-
 ```html
 <a href="#" onclick="window.open('http://www.mydomain.com/document.html');return false;">Document</a>
 ```

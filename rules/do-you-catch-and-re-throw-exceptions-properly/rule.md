@@ -32,6 +32,7 @@ catch { throw; }
 
 catch (SomeException) { throw; } 
 ```
+
 ::: bad
 Bad Example - Never use an empty catch block. Do something in the block or remove it.
 :::
@@ -41,12 +42,12 @@ catch (SomeException ex) { throw ex; }
 
 catch (SomeException ex) { someMethod(); throw ex; } 
 ```
+
 ::: bad
 Bad Example - Never re-throw exceptions by passing the original exception object. Wrap the exception or use throw.
 :::
 
 Using `throw ex` resets the stack trace, obscuring the original the error and may hide highly valuable information to debug this exception.
-
 
 ```cs
 catch (SomeException) 
@@ -68,6 +69,7 @@ catch (SqlException ex) when (ex.Number == 2601)
      throw new IdAlreadyTakenException(ex);
 }
 ```
+
 ::: good
 Good Example - By rethrowing a specific exception, my application code now doesn't need to know that there is a SQL database or the magic numbers that SQL exceptions use
 :::

@@ -29,6 +29,7 @@ These are the steps you should take when requesting a "Test Please":
 3. Create your "Test Please" following this template:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | John |
@@ -42,25 +43,25 @@ These are the steps you should take when requesting a "Test Please":
 I am looking for bugs or approval to release this version.
 
 1. Please test the following modifications:
-- {{ FEATURE TO BE TESTED }}
-- {{ FEATURE TO BE TESTED }}
+* {{ FEATURE TO BE TESTED }}
+* {{ FEATURE TO BE TESTED }}
 
 I have done what I could for my code's health. E.g.
 
-- Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
-- Kept my eye on Application Insights
-- Ensured all packages are as up-to-date as possible
-    - Updated:
-        - Updated {{ PACKAGE }} from {{ VERSION }} to {{ VERSION }}
-        - ...
-    - Out-of-date:
-        - {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
-        - ...
+* Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
+* Kept my eye on Application Insights
+* Ensured all packages are as up-to-date as possible
+  * Updated:
+    * Updated {{ PACKAGE }} from {{ VERSION }} to {{ VERSION }}
+    * ...
+  * Out-of-date:
+    * {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
+    * ...
 
 Specific issues to look out for are:
 
-- {{ ISSUE }}
-- {{ ISSUE }}
+* {{ ISSUE }}
+* {{ ISSUE }}
 
 The latest version (Product Name v1.11) is at {{ URL }}
 
@@ -78,9 +79,9 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
 **#5** - Do not reply to this message until you can say:
 
-- "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
+* "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
 or
-- "**❌ Test Please failed** (as per Critical bugs reported)"
+* "**❌ Test Please failed** (as per Critical bugs reported)"
 
 **#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
 
@@ -88,16 +89,14 @@ Regards,
 
 :::
 
-
-
 ::: info
 **Note to developers:**
 If current version is better than the last version you can release (even with a test fail) as long:
 
-- The bugs reported in the test fail existed in the old version
-- 2 people have tested it
-- The changes in this version are fairly important to get out
-- You get to work on the failures ASAP
+* The bugs reported in the test fail existed in the old version
+* 2 people have tested it
+* The changes in this version are fairly important to get out
+* You get to work on the failures ASAP
 :::
 
 ### Don't send a 'Test Please' content via IM
@@ -116,8 +115,8 @@ In most cases, you can [get your email 'Checked by xxx'](https://www.notion.so/c
 
 For really important stuff you may need to actually send a 'Test Please' email to test your email. In these cases:
 
-- Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
-- Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
+* Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
+* Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
 
 ### What if you need to get input from a few people?
 
@@ -137,16 +136,16 @@ This way everyone will have the entire history of the task and its progress.
 
 For Windows Forms test you should include this info to the email:
 
-- The latest version of {{Product Name}} has been uploaded to **\frog\SSW\Download[Application_verX-XX_beta.exe**
-- Test on a fresh VPC image of Windows
-- Install into a non-default directory
-- Check the installation folder for misplaced items
-- Test Unit Tests via "Help - Run Unit Tests"
-- (If Applicable)Test the "Create" and "Reconcile" buttons. Read [Rules to Better .NET Projects](https://www.notion.so/rules-to-better-net-projects)
-- Test open and closing forms and saving values
-- Test most buttons and menus and links
-- Disable your network connection and test again (check for unhandled errors)
-- If your test fails, please rename the executable to **Application_verX-XX_failed.exe**
+* The latest version of {{Product Name}} has been uploaded to **\frog\SSW\Download[Application_verX-XX_beta.exe**
+* Test on a fresh VPC image of Windows
+* Install into a non-default directory
+* Check the installation folder for misplaced items
+* Test Unit Tests via "Help - Run Unit Tests"
+* (If Applicable)Test the "Create" and "Reconcile" buttons. Read [Rules to Better .NET Projects](https://www.notion.so/rules-to-better-net-projects)
+* Test open and closing forms and saving values
+* Test most buttons and menus and links
+* Disable your network connection and test again (check for unhandled errors)
+* If your test fails, please rename the executable to **Application_verX-XX_failed.exe**
 
 ::: info
 **Note:** For clients on fixed-price contracts, the 'Test Please' reply marks the start of the 30-day warranty period.

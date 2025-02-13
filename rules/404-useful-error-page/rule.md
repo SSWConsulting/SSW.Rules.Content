@@ -27,8 +27,9 @@ A well-designed custom error page encourages surfers to remain in your site and 
 ```xml
 <customErrors mode="Off"></customErrors>
 ```
+
 ::: bad
-Figure: Bad example - The default code on web.config 
+Figure: Bad example - The default code on web.config
 :::
 
 ```xml
@@ -36,6 +37,7 @@ Figure: Bad example - The default code on web.config
 <error statusCode="404" redirect="/ssw/SSWCustomError404.aspx">
 </customErrors>
 ```
+
 ::: good
 Figure: Good example - The custom code in the web.config  
 :::
@@ -47,10 +49,10 @@ This error information is useful for the developer to do debugging. However, it 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm"></customErrors>
 ```
+
 ::: good
 Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker  
 :::
-
 
 ::: bad  
 ![Figure: Bad example - Unhandled error](404-bad.jpg)  

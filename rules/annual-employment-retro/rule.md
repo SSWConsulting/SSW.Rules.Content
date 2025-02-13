@@ -51,6 +51,7 @@ Employee turnover can be costly and disruptive. Conducting an Annual Employment 
 #### Annual Employment Retro Template
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ STATE MANAGERS }} |
