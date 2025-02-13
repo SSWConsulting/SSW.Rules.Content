@@ -1,5 +1,5 @@
 ---
-seoDescription: "Checking third-party libraries before installation is crucial for software development. Discover how to ensure code quality, license compliance, and avoid potential bugs by carefully evaluating your library choices." (159 characters)
+seoDescription: Checking third-party libraries before installation is crucial for software development to ensure code quality, license compliance, and avoid potential bugs
 type: rule
 title: Do you check before installing 3rd party libraries?
 uri: installing-3rd-party-libraries
