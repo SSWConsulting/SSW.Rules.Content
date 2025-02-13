@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to make your title, h1, and h2 tags descriptive for better SEO and user understanding.
 type: rule
 title: On-page - Do you make your "title", "h1", and "h2" tags descriptive?
 uri: make-title-h1-and-h2-tags-descriptive

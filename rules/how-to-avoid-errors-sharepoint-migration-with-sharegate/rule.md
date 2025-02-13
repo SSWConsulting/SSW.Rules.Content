@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to avoid common SharePoint migration errors with ShareGate
 type: rule
 archivedreason: 
 title: Do you know how to avoid errors (with Sharegate)?
@@ -25,7 +26,7 @@ Even if you get rid of unsupported content before migration, your first dry-run 
 
 **Solution:** Active Document ID feature on SharePoint online (target).
 
-**Source:** https://support.share-gate.com/hc/en-us/articles/115000643448
+**Source:** <https://support.share-gate.com/hc/en-us/articles/115000643448>
 
 ### MicroFeed
 
@@ -34,7 +35,7 @@ Copying the content to a MicroFeed list is not supported.
 
 **Solution:** Clean up all “MicroFeed" lists as they are not supported to be migrated to the cloud.
 
-**Source:** https://support.share-gate.com/hc/en-us/articles/115000600227
+**Source:** <https://support.share-gate.com/hc/en-us/articles/115000600227>
 
 ![Figure: errors due to micro feed migration](errors-micro-feed-migration.png)  
 
@@ -50,7 +51,7 @@ Copying the content to a MicroFeed list is not supported.
 
 **Solution:** Remove Calculated columns using “Me" or “Today" markups (unsupported)
 
-**Source:** https://support.share-gate.com/hc/en-us/articles/115000600047-The-formula-of-a-calculated-column-cannot-contain-volatile-functions-like-Today-and-Me.
+**Source:** <https://support.share-gate.com/hc/en-us/articles/115000600047-The-formula-of-a-calculated-column-cannot-contain-volatile-functions-like-Today-and-Me>.
 
 ### External Content Types
 

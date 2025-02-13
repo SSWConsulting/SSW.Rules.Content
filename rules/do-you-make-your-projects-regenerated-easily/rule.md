@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to automate your project regeneration with code generators using a simple bat file for quick and efficient updates.
 type: rule
 title: Do you make your projects regenerated easily?
 uri: do-you-make-your-projects-regenerated-easily

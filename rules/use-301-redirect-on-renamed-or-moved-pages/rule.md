@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost SEO by using 301 redirects to redirect renamed or moved pages effectively
 type: rule
 title: Technical - Do you use "301" code to redirect renamed or moved pages?
 uri: use-301-redirect-on-renamed-or-moved-pages

@@ -1,5 +1,5 @@
 ---
-seoDescription: Adding attributes to image HTML, such as "alt" and "title", helps search engines index the text and improves accessibility.
+seoDescription: Adding attributes to image HTML, such as "alt" and "title", helps search engines index the text and improves accessibility
 type: rule
 title: On-page - Do you add alt text to images?
 uri: add-attributes-to-picture-links

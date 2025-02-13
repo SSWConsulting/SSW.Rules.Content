@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential React tools, libraries, and packages to streamline your development process
 type: rule
 title: Tools - Do you know the best Packages and Libraries to use with React?
 uri: tools-do-you-know-the-best-packages-and-libraries-to-use-with-react
@@ -12,7 +13,7 @@ archivedreason: null
 guid: 00c34a19-49ef-4a04-b3e5-74f107c1761f
 ---
 
-The whole React ecosystem improves every month. Tons of additional tools, libraries and components are released to simplify the developer’s job and minimize the required effort. 
+The whole React ecosystem improves every month. Tons of additional tools, libraries and components are released to simplify the developer’s job and minimize the required effort.
 
 <!--endintro-->
 
@@ -42,11 +43,11 @@ JavaScript ES6 and beyond gives you plenty of built-in functionalities dealing w
 
 ### State Management Helpers
 
-*  **[Reselect](https://github.com/reduxjs/reselect)** - Creates a selector where the first functions passed in compute props for a final function. If none of those props have changed, then that function is not run and the result from the previous invocation is returned. This keeps the state from needlessly causing components to re-render
+* **[Reselect](https://github.com/reduxjs/reselect)** - Creates a selector where the first functions passed in compute props for a final function. If none of those props have changed, then that function is not run and the result from the previous invocation is returned. This keeps the state from needlessly causing components to re-render
 
 ### Global Serverless Deployments
 
-*  **[Vercel](https://vercel.com/home)** - Makes serverless application deployment easy
+* **[Vercel](https://vercel.com/home)** - Makes serverless application deployment easy
 
 ### Testing
 

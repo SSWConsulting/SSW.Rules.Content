@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a structured Sprint Review/Retro email template with best practices for clear communication and effective team collaboration in Agile processes.
 type: rule
 title: Do you create a Sprint Review/Retro email?
 uri: sprint-review-retro-email
@@ -36,6 +37,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -64,7 +66,6 @@ Please see below for a more detailed breakdown of the Sprint:
 | Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
 | Product Owner:     | {{ PRODUCT OWNER NAME }}             |
 | Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
-
 
 ### Sprint Review
 

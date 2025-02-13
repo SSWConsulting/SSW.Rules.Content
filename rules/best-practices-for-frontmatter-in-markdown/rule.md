@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn effective Frontmatter practices in Markdown for better metadata management, seamless integration with static site generators, and improved content organization.
 type: rule
 title: Do you know the best practices for Frontmatter in markdown?
 uri: best-practices-for-frontmatter-in-markdown

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn the 3 essential Scrum commitments (Product Goal, Sprint Goal, Definition of Done) for effective project management
 type: rule
 archivedreason:
 title: Do you know the 3 commitments in Scrum (Product Goal, Sprint Goal, and Definition of Done)?

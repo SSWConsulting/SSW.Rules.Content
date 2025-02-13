@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance team collaboration with GitHub Discussions—use them for feature ideas, customer support, FAQs, product announcements, and more.
 type: rule
 title: Do you use GitHub Discussions?
 guid: 5ed09331-e71d-433e-90b7-4ae509ea0099
@@ -19,7 +20,7 @@ related: []
 redirects: []
 ---
 
-Sometimes when working on a product, you need a way to communicate with the team and users of the software that isn't limited to known issues with the product. GitHub Discussions are a great way to provide an open forum for communication. 
+Sometimes when working on a product, you need a way to communicate with the team and users of the software that isn't limited to known issues with the product. GitHub Discussions are a great way to provide an open forum for communication.
 
 <!--endintro-->
 
@@ -33,13 +34,13 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 GitHub Discussions have many uses, and it can be hard to know where to start. The following topics provide some good guidelines to follow.
 
-- **Potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
-- **Customer support** e.g. Login help - I forgot my password and am not sure how to reset it
-- **FAQ** e.g. Customers - Can I import my customers from a CSV?
-- **Product announcements** e.g. New feature - users can now have a profile picture
-- **Technical discussions** e.g. Trouble running migration - has anyone seen this before?
-- **Polls** - Gauging community sentiment e.g. Poll - Is this product screen a better UX?
-- and much more... 
+* **Potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
+* **Customer support** e.g. Login help - I forgot my password and am not sure how to reset it
+* **FAQ** e.g. Customers - Can I import my customers from a CSV?
+* **Product announcements** e.g. New feature - users can now have a profile picture
+* **Technical discussions** e.g. Trouble running migration - has anyone seen this before?
+* **Polls** - Gauging community sentiment e.g. Poll - Is this product screen a better UX?
+* and much more...
 
 However, try not to constrain yourself to only these topics. The point of GitHub Discussions is to provide an open forum for communication!
 
@@ -63,7 +64,7 @@ GitHub Discussions is the right place to start when **certainty** is low. Raisin
 
 ![Figure: SSW Rules | GitHub | Discussions](https://user-images.githubusercontent.com/66365977/214453285-b074f967-a637-4968-bd0d-ce79198f8bc3.png)
 
-GitHub Discussions can be converted to GitHub Issues with a single click! 
+GitHub Discussions can be converted to GitHub Issues with a single click!
 
 ![Figure: 1 of 2 - SSW Rules | GitHub | Discussions - Convert a Discussion to an issue](https://user-images.githubusercontent.com/66365977/214461325-7bd47032-3b8f-4e1c-96f4-63b7ee02a64d.png)
 
@@ -74,26 +75,33 @@ GitHub Discussions can be converted to GitHub Issues with a single click!
 Once things are clarified on the GitHub Discussion or if you are certain the issue doesn't need a discussion, then you need to evaluate the **difficulty** of implementation. If it is **difficult** to implement or you are unable to do it yourself, then GitHub Issues is the right place to put it since it provides a place to manage work.
 
 #### ✨ Stage 3 - Pull Request
+
 Once the work is complete or if it is an **easy** change you are **certain** you want to make (e.g. a spelling mistake), it can be turned into a Pull Request.
 
 ### Customer support
+
 GitHub Discussions provide a great forum for users to ask questions about how to use the product. Not only is it easy to access, but it will also help future users with the same problem.
 
 ### FAQ
+
 Provide new curious users with a list of the most important things they should know about the product.
 
 ### Product announcements
+
 GitHub Discussions are accessible to the entire user base, so when there is a new feature, let everyone know.
 
 ### Technical discussions
+
 The development team can discuss issues publicly. If they need help with a problem, and Stack Overflow has failed them, then GitHub Discussions offers a way to relay with their team.
 
 ### Poll - Gauging community sentiment
+
 Community engagement is hard to achieve but can provide invaluable insights into contentious parts of the application. A poll in GitHub discussions can be invaluable.
 
---- 
+---
 
 ## Categorization
+
 GitHub Discussions allow you to set up categories. Getting these going is important to help users sift through the different topics. Keep the categories simple and easy to follow so that anyone who jumps in will know where to begin.
 
 ::: good

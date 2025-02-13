@@ -1,5 +1,5 @@
 ---
-seoDescription: Agreements on using 1 or 2-week development iterations depend on project size and visibility needs.
+seoDescription: Agreements on using 1 or 2-week development iterations depend on project size and visibility needs
 type: rule
 title: Agreements - Do you have 1 or 2-week Sprint?
 uri: agreements-do-you-use-1-or-2-week-sprints

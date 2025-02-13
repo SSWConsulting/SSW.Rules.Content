@@ -1,5 +1,5 @@
 ---
-seoDescription: Learn when to use ampersand (&) effectively, balancing readability and accessibility with character-saving space and informal tone.
+seoDescription: Learn when to use ampersand (&) effectively, balancing readability and accessibility with character-saving space and informal tone
 type: rule
 archivedreason:
 title: Do you know when to use the ampersand?

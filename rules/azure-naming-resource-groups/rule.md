@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively organize your Azure resources using logical resource groups named consistently across environments for clarity and efficiency.
 type: rule
 title: Resource Groups - Do you know how to arrange your Azure resources?
 uri: azure-naming-resource-groups

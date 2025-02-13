@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create flight appointments in Outlook with essential tips on organizing details and inviting contacts.
 type: rule
 title: Do you create an appointment for flights?
 uri: create-appointment-for-flights
@@ -31,6 +32,7 @@ This is how you should create an appointment in the Outlook calendar for flights
 Here is a template to follow:
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ RELEVANT PARTIES }} |

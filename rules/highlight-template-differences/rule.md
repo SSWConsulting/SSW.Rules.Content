@@ -1,4 +1,5 @@
 ---
+seoDescription: Highlight deviations from email template standards to ensure important changes are clearly communicated and noticeable to recipients.
 type: rule
 title: Do you highlight text which is different from the template?
 uri: highlight-template-differences

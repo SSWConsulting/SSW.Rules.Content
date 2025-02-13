@@ -1,5 +1,5 @@
 ---
-seoDescription: Discovering and fixing bugs in software development - understanding who pays for errors and when.
+seoDescription: Discovering and fixing bugs in software development - understanding who pays for errors and when
 type: rule
 archivedreason:
 title: Agreements - Do you know who pays for 'bugs'?
