@@ -14,6 +14,7 @@ authors:
 related:
 - the-3-criteria-that-make-a-good-meeting
 - meetings-do-you-listen-more-than-you-talk
+- asking-questions
 redirects: []
 
 ---
@@ -64,6 +65,10 @@ Regularly summarizing key points from a discussion ensures everyone is on the sa
 If you're unsure about a question you want to ask, send it to a colleague via via a messaging platform first e.g. Teams chat. This can help refine your question and boost confidence before speaking up.
 
 ## 3. **After** the meeting
+
+### Do a Retro
+
+Have a quick huddle with your colleagues and ask for feedback. They will be able to tell you the things you did great, and any areas where you might be able to improve. A retro is one of the best ways to learn and grow, so use that awesome tool.
 
 ### Practice speaking up regularly
 
