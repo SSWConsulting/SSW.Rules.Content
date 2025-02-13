@@ -58,7 +58,7 @@ Developers building apps that target multiple platforms are in the ideal positio
 * **What skills do we already have?**
 
   * For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution
-  * Xamarin (old) was the previous de-facto standard for .NET native cross-platform mobile development. Microsoft diverted their focus from Xamarin to .NET MAUI following it's announcement in 2020, with official support for Xamarin ending in on the 1st of May 2024 following an \[announcement from Microsoft](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin). npx expo prebuild
+    * .NET MAUI was previously Xamarin - see [announcement from Microsoft](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin)
 
 `youtube: K9ryHflmQJE`
 **Video: Clean Architecture in .NET MAUI and ASP.NET Core with [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) (1 hr 23 min)**
