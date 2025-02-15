@@ -22,7 +22,7 @@ Consistency is the most important part of branding. It leads to familiarity whic
 
 A job title on social media or other public place should **always** be:
 
-- **{{ COMPANY NAME }} {{ POSITION }}**
+* **{{ COMPANY NAME }} {{ POSITION }}**
   E.g. "SSW Software Engineer"
 
 ::: info
@@ -30,7 +30,6 @@ On LinkedIn you might put your title in 2 places (bio and job experience) **In b
 :::
 
 This is to maintain consistency across the company - the companies with strong branding have [consistency](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
-
 
 ::: bad
 ![Figure: Bad example - Job title missing the company name](job-title-bad.jpg)
