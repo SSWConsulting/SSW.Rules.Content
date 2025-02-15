@@ -29,7 +29,7 @@ A job title on social media or other public place should **always** be:
 On LinkedIn you might put your title in 2 places (bio and job experience) **In both places, you should use the correct format!**
 :::
 
-This is to maintain consistency across the company - the coolest companies have [consistent branding](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
+This is to maintain consistency across the company - the companies with strong branding have [consistency](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
 
 
 ::: bad
