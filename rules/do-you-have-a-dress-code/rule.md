@@ -39,8 +39,9 @@ It should go without saying, but of course, things such as shaving off your week
 
 ### On a business flight
 
-It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.\
-![Figure: Why dress up in a flight](dresscode-linkedin.png)
+It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.
+
+![Figure: Why dress up in a flight](dresscode-linkedin.PNG)
 
 ### Dressing Down (aka Casual Fridays)
 
