@@ -2,9 +2,7 @@
 type: rule
 tips: ""
 title: Do you use the right cybersecurity tools when writing code?
-seoDescription: Developers must use essential cybersecurity tools to secure
-  their code, prevent vulnerabilities, and safeguard user data. Learn the best
-  tools to enhance security.
+seoDescription: Developers must use essential cybersecurity tools to secure their code, prevent vulnerabilities, and safeguard user data. Learn the best tools to enhance security.
 uri: developer-cybersecurity-tools
 authors:
   - title: Rob Thomlinson
