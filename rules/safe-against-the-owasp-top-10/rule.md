@@ -1,18 +1,19 @@
 ---
-seoDescription: Protect your web application from OWASP Top 10 risks with essential security tips and resources.
 type: rule
-archivedreason: 
 title: Do you stay safe against the OWASP Top 10?
-guid: 8e413708-5259-45d0-9352-747d68546bc6
+seoDescription: Protect your web application from OWASP Top 10 risks with
+  essential security tips and resources.
 uri: safe-against-the-owasp-top-10
-created: 2016-05-13T18:31:21.0000000Z
 authors:
-- title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
-related: []
+  - title: Steve Leigh
+    url: https://ssw.com.au/people/steve-leigh
+related:
+  - developer-cybersecurity-tools
 redirects:
-- do-you-stay-safe-against-the-owasp-top-10
-
+  - do-you-stay-safe-against-the-owasp-top-10
+created: 2016-05-13T18:31:21.000Z
+archivedreason: null
+guid: 8e413708-5259-45d0-9352-747d68546bc6
 ---
 
 The Open Web Application Security Project (OWASP) is a non-profit charity organization whose sole purpose is to enable other organizations to develop applications that can be trusted.  Their most prominent piece of literature is the [OWASP Top 10](https://owasp.org/Top10/) – a list of the most critical risks found in software.  It is a “living” list, which means it is updated as vulnerabilities become known and more or less common.
