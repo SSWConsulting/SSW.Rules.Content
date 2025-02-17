@@ -42,9 +42,9 @@ Do the following on your profile page:
 12. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
 13. Add a link to your company's profile in your description
 
-   E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
+    E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
 
-13. **Account Managers** - Include a button to book as per [the best way to let clients book a meeting with you](/meeting-bookings)
+14. **Account Managers** - Include a button to book as per [the best way to let clients book a meeting with you](/meeting-bookings)
 
 ::: good
 ![Figure: Good example - A clean and professional profile give clients the right idea - that you will be great to work with](good-linkedin.jpg)
