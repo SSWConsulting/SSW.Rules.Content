@@ -42,19 +42,14 @@ Printed travel schedules provide several benefits:
 
 ## Step by Step
 
-::: greybox
 
 ![1. When you get an appointment, categorise it as "Travel"](pa-rule-1.png)
 
-::: greybox
 
 ![2. Make a view that shows only your travel appointments](pa-rule-2.png)
 
-::: greybox
 
 ![3. Set the date period to the end of year:  Print Options | Print Range| End Date](pa-rule-3.png)
-
-::: greybox
 
 ![4. Print from that view](pa-rule-4.png)
 
