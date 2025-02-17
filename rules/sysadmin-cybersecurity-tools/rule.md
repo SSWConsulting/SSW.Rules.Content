@@ -33,7 +33,7 @@ Active Directory Security tools are used for on-demand secrity assessments of th
 
 ### 2. Vulnerability management
 
-Provideds Centralised reporting for all potential vulnerabilities in a companies system.
+Provides Centralised reporting for all potential vulnerabilities in a companies system.
 
 ✅ Recommended tools:
 
