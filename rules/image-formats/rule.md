@@ -171,6 +171,7 @@ If you decide to use GIFs on your website, here are some optimization tips to en
 
 * **Reduce the number of frames** - Fewer frames can lead to a smaller file size without drastically affecting the animation quality
 * **Optimize colors** - Use tools to reduce the color palette of your GIF to the minimum needed for acceptable quality
+* **Labeling GIF's when necessary** - When adding a GIF, remember to specify that it is a GIF to differentiate it from a static image
 
 ::: info
 **Note:** For more complex animations, consider using CSS animations or other formats like WebM (see above) or MP4, which offer better compression and quality.
