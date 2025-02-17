@@ -3,10 +3,10 @@ type: rule
 tips: ""
 title: Do you canary deploy your new features using a spreadsheet?
 seoDescription: Use a structured spreadsheet to track canary tests, document user feedback, and ensure a gradual and controlled rollout of new features.
-uri: do-you-canary-deploy-your-new-features-using-a-spreadsheet
+uri: canary-deploy
 authors:
   - title: Gilles Pothieu
-    url: https://www.ssw.com.au/people/gilles-pothieu/
+    url: https://www.ssw.com.au/people/gilles-pothieu
 related:
   - what-testing-really-means
 redirects: []
