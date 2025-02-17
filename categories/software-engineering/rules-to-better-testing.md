@@ -30,6 +30,7 @@ index:
   - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
   - use-logging-fakes
   - canary-deploy
+
 ---
 
 `youtube: https://www.youtube.com/watch?v=W-KToHWJ4zY`  
