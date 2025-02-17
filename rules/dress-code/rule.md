@@ -74,7 +74,7 @@ On very hot days, shorts are allowed as soon as you've got an email like this:
 | Subject: | SSW Sydney - 🩳 Shorts Today! (Over 30) |
 ::: email-content
 
-### Hi All,
+### Hi All
 
 The maximum temperature for today is 30.
 
