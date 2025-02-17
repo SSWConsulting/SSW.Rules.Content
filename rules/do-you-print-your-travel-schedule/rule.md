@@ -42,28 +42,20 @@ Printed travel schedules provide several benefits:
 
 ## Step by Step
 
-::: greybox
-
 ![1. When you get an appointment, categorise it as "Travel"](pa-rule-1.png)
-
-::: greybox
 
 ![2. Make a view that shows only your travel appointments](pa-rule-2.png)
 
-::: greybox
-
 ![3. Set the date period to the end of year:  Print Options | Print Range| End Date](pa-rule-3.png)
-
-::: greybox
 
 ![4. Print from that view](pa-rule-4.png)
 
 ## Notes
 
-* If you want to view your boss's calendar to edit: 
+* If you want to view your boss's calendar to edit:
 
-  * Ask a SysAdmin - This had to be done in PowerShell – as per: https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission
-  *    The command is :> Add-MailboxFolderPermission -Identity AdamCogan@ssw.com.au:\Calendar -User StefStarcevic@ssw.com.au -AccessRights Editor
+  * Ask a SysAdmin - This had to be done in PowerShell – as per: <https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission>
+  * The command is :> Add-MailboxFolderPermission -Identity <AdamCogan@ssw.com.au>:\Calendar -User <StefStarcevic@ssw.com.au> -AccessRights Editor
 * You cannot print your boss's calendar (on the new Outlook)
 
   * Even though you can add categories, you cannot filter based on the boss's categories (as you only see your own filters in the filters list). Therefore you need to print from your boss's Outlook.
