@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when and how to send a v2 of an email effectively while maintaining clean email threads and incorporating feedback.
 type: rule
 title: Do you know when and how to send a v2 of an email?
 uri: email-send-a-v2

@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/farrukh-khan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - how-to-align-your-form-labels
 redirects:
   - do-you-use-adaptive-placeholders-on-your-forms
 ---
@@ -25,9 +26,9 @@ redirects:
 It's also a nice way to save space and achieve a neat visual appearance. Using this method users can easily to tell which field has been filled in and which data has been entered.
 
 ::: bad  
-![Figure: Bad Example - Having both label and placeholders can be repetitive and dull](placeholder-bad.png)  
+![Figure: Bad example - Having both label and placeholders can be repetitive and dull](placeholder-bad.png)  
 :::
 
 ::: good  
-![Figure: Good Example - Using placeholders](placeholder-good.gif)  
+![Figure: Good example - Using adaptive placeholders](placeholder-good.gif)  
 :::

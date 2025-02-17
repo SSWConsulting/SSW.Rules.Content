@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when to use hashtags vs mentions in tweets for better engagement.
 type: rule
 archivedreason: 
 title: X - Do you know when to use hashtags vs mentions?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost your company’s visibility by branding your employees with custom uniforms or social media bios, enhancing your corporate image
 type: rule
 title: Do you brand your employees?
 uri: employees-branding

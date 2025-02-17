@@ -2,7 +2,7 @@
 seoDescription: Content is king and essential for being found on Google! Focus on making great content related to your target audience's keywords and use tools like Google Keyword Planner to help.
 type: rule
 archivedreason:
-title: Do you know that Content is king?
+title: Basics - Do you know that content is king?
 guid: b7f1bafc-a1ce-48a6-9215-ef14c43adbcd
 uri: do-you-know-that-content-is-king
 created: 2019-04-16T05:50:58.0000000Z

@@ -4,6 +4,8 @@ title: Rules to Better Accounting
 guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
+- salary-sacrificing
+- phishing-for-payments
 - do-you-tie-knowledge-to-the-role
 - monthly-financial-meetings
 - compliance-sheet

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn about the risks of using the Content Editor Web Part and discover safe editing practices to prevent data loss.
 type: rule
 archivedreason: 
 title: Do you use content editor web part with care?
@@ -15,11 +16,11 @@ redirects: []
 
 The Content Editor Web Part is very easy to use in any web part zone, and gives your content editors ability to add additional text and flair to a page.
 ![](ContentEditorWebPart_Small.jpg) **Figure: Content Editor Web Part – available in any web part zone
-** 
+**
  However, there is a scary hidden trap!  
 <!--endintro-->
 
-![](ContentEditorWebPart02_Small.jpg) **Figure: Content Editor Web Part looking mostly harmless...** 
+![](ContentEditorWebPart02_Small.jpg) **Figure: Content Editor Web Part looking mostly harmless...**
  So what’s bad with the Content Editor Web Part?
 
 * The content in a content editor web part is not version controlled.
@@ -27,8 +28,7 @@ The Content Editor Web Part is very easy to use in any web part zone, and gives 
 * If an editor accidentally deletes a Content Editor Web Part – the content in it is lost.
 * Data loss is always bad – and Content Editor Web Part gives you many different ways you can easily lose data... you need tread carefully and know the risks!
 
-
- The best practice is: 
+ The best practice is:
 
 1. Do your content editing in the Content Editor Web Part, or in SharePoint Designer.
 2. Click the Source Editor button afterwards to get the raw html view.

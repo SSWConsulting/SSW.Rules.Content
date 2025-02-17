@@ -1,5 +1,5 @@
 ---
-seoDescription: Optimize your social media advertising campaigns with A/B testing strategies that drive results and improve engagement.
+seoDescription: Optimize your social media advertising campaigns with A/B testing strategies that drive results and improve engagement
 type: rule
 title: Do you know how to do A/B testing for social media campaigns?
 uri: ab-testing-social-paid-campaigns

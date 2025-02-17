@@ -1,5 +1,5 @@
 ---
-seoDescription: Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors.
+seoDescription: Handle errors effectively in Angular with built-in error-handling mechanisms like ErrorHandler and HttpInterceptor, learn how to scope error handlers and catch API errors
 type: rule
 title: Do you know how to handle errors in Angular?
 guid: e2db8815-a9ce-4f42-92ab-744e29e2b913

@@ -57,6 +57,7 @@ index:
   - best-online-documentation-site
   - use-web-compiler
   - packages-up-to-date
+  - npm-packages-version-symbols
   - monitor-packages-for-vulnerability
   - do-you-perform-migration-procedures-with-an-approved-plan
   - manage-bundle-size

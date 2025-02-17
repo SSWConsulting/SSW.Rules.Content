@@ -14,6 +14,7 @@ created: 2023-11-30T20:52:37.996Z
 guid: 01cc440f-7eff-49ca-a544-acbfd93e11f1
 related:
   - answer-im-questions-in-order
+  - easy-questions
 ---
 
 When messaging someone, it's often tempting to send a big block of text. This can make your thoughts difficult to respond to, especially if there are unrelated subjects. Instead, you should split your thoughts into several individual messages, separated by subject.

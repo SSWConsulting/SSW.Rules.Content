@@ -1,4 +1,5 @@
 ---
+seoDescription: Embed RS reports in ASP.NET pages effectively using Report Viewer instead of IFrame.
 type: rule
 archivedreason: WebForms is three technologies behind - WebForms, then MVC, then .NET Core with Controllers, then .NET Core with minimal APIs
 title: Do you know to embed an RS report in ASP.NET page the right way (using Report Viewer instead of IFrame)?

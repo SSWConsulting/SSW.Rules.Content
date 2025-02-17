@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to efficiently manage your social media posts with powerful management tools offering features like content scheduling, analytics, and team collaboration across multiple platforms.
 type: rule
 title: Do you post using social media management tools?
 uri: post-using-social-media-management-tools

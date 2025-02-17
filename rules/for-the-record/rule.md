@@ -1,14 +1,17 @@
 ---
-seoDescription: Here's a well-crafted SEO description based on your input - Architectural decision documentation and retrospective analysis for significant projects, ensuring transparency and accountability.
 type: rule
 title: Do you send a 'For the record' email when you disagree?
+seoDescription: Here's a well-crafted SEO description based on your input -
+  Architectural decision documentation and retrospective analysis for
+  significant projects, ensuring transparency and accountability.
 uri: for-the-record
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - standards-watchdog
 redirects:
   - do-you-send-a-for-the-record-email-when-you-disagree
   - send-a-for-the-record-email-when-you-disagree

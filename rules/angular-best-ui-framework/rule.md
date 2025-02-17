@@ -1,5 +1,5 @@
 ---
-seoDescription: Best UI framework for Angular - Choose between Angular Material and Bootstrap based on project requirements, client's design preferences, and developer/designer familiarity.
+seoDescription: Best UI framework for Angular - Choose between Angular Material and Bootstrap based on project requirements, client's design preferences, and developer/designer familiarity
 type: rule
 title: Tools - Do you know the best UI framework for Angular?
 uri: angular-best-ui-framework

@@ -14,6 +14,7 @@ index:
   - write-a-good-pull-request
   - use-and-indicate-draft-pull-requests
   - do-you-know-when-to-branch-in-git
+  - branch-naming
   - useful-information-on-changes
   - rubber-stamp-prs
   - adding-changes-to-pull-requests

@@ -1,5 +1,5 @@
 ---
-seoDescription: Get your prospect's full contact details to ensure accurate follow-ups and streamline your sales process.
+seoDescription: Get your prospect's full contact details to ensure accurate follow-ups and streamline your sales process
 type: rule
 title: Do you always get your prospect's full contact details?
 uri: always-get-your-prospects-full-contact-details

@@ -1,5 +1,5 @@
 ---
-seoDescription: When adding default values to a grid, consider including a "(customized)" column to easily identify changes from the defaults.
+seoDescription: When adding default values to a grid, consider including a "(customized)" column to easily identify changes from the defaults
 type: rule
 title: Do you add a "(customized)" column in grid if there are default values?
 uri: add-a-customized-column-in-grid-if-there-are-default-values

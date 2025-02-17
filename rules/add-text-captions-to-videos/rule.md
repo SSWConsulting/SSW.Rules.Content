@@ -1,5 +1,5 @@
 ---
-seoDescription: Adding captions to your video enhances viewer experience by providing extra information and context not fully explained by speakers.
+seoDescription: Adding captions to your video enhances viewer experience by providing extra information and context not fully explained by speakers
 type: rule
 archivedreason:
 title: Post-Production - Do you add captions to your video?

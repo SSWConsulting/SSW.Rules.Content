@@ -2,28 +2,35 @@
 
 ## Summary
 
-This bash script automates the generation of SEO descriptions for Markdown files using the Ollama CLI. It searches for Markdown files in a specified directory, checks if they contain an existing SEO description, and if not, generates one using the Llama 3 LLM.
+This Python script automates the generation of SEO descriptions for Markdown files using the Ollama Python library. It searches for Markdown files in a specified directory, checks if they contain an existing SEO description, and if not, generates one using a specified model.
 
 ## Requirements
 
-* Bash shell
-* Ollama CLI tool (`ollama`) installed and configured
+* Python 3.8+
+* Ollama installed and running
+* Ollama Python library (`pip install ollama`)
+
+Note: You can use any available model with Ollama. To do so, update the model name in the code where indicated.
 
 ## Usage Instructions
 
-2. Run the script providing the directory path as an argument:
+1. Ensure you've pulled the desired model. The default is set to use deepseek-r1:14b. To change it, update the line in your code:
 
-```bash
-bash ./generate_seo_descriptions.sh </path/to/markdown/files>
-```
+    ```
+    ollama pull deepseek-r1:14b  # Replace 'deepseek-r1:14b' with your desired model name
+    ```
 
-3. The script will process each Markdown file in the directory:
+2. Run the script with the directory path as an argument:
 
-* If the file does not contain an existing SEO description, it will generate one using the Ollama CLI and add it to the YAML front matter of the file.
-* If the file already contains an SEO description, it will skip it.
+    ```
+    python ./generateDescriptions.py {{ PATH/TO/MARKDOWN/FILES }}
+    ```
 
-5. Review the output to see which files had SEO descriptions added.
+3. The script processes each Markdown file:
+    * If the file lacks an SEO description, it generates one and inserts it into the YAML front matter.
+    * If an SEO description already exists, the file is skipped.
+    * Any issues with the generated description are logged in seo_issues.log.
 
 ## Prompting
 
-The prompt.txt file is where the prompt is stored for easy editing. The script will read the prompt from this file.
+The prompt.txt file stores the prompt for easy editing. The script reads this file to combine with the Markdown content when generating the SEO description.

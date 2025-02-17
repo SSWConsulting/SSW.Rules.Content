@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid JavaScript popups—use modals for better user experience and compliance.
 type: rule
 archivedreason: 
 title: Do you know you should not open popup windows and use a javascript modal instead?
@@ -33,7 +34,6 @@ Figure: Bad example - Using JavaScrip in OnLoad event
 ::: good
 Figure: Good example - Using HTML anchor tag. This will open in a new tab or window depending upon browser configuration
 :::
-
 
 ```html
 <a href="#" onclick="window.open('http://www.mydomain.com/document.html');return false;">Document</a>

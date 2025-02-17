@@ -1,5 +1,5 @@
 ---
-seoDescription: AI-powered pair programming revolutionizes coding efficiency and accuracy, providing instant suggestions across various languages, reducing gruntwork and boosting confidence.
+seoDescription: AI-powered pair programming revolutionizes coding efficiency and accuracy, providing instant suggestions across various languages, reducing gruntwork and boosting confidence
 type: rule
 title: Do you use AI pair programming?
 uri: ai-pair-programming

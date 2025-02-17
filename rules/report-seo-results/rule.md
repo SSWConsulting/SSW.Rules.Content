@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know to report on your SEO results?
+title: Reporting - Do you know to report on your SEO results?
 seoDescription: Learn how to effectively report on your SEO results. Perfect for
   marketers, business owners, and SEO professionals looking to optimize their
   reporting process.

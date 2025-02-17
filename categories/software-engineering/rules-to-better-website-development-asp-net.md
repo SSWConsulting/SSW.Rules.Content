@@ -37,7 +37,7 @@ index:
   - use-markup-validation-service-to-check-your-html-code
   - use-server-side-comments
   - use-sso-for-your-websites
-  - do-you-use-the-best-web-ui-libraries
+  - web-ui-libraries
   - use-windows-integrated-authentication
   - do-you-log-usage
   - do-you-know-how-to-render-html-strings

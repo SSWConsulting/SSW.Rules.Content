@@ -1,5 +1,5 @@
 ---
-seoDescription: Audio notifications enhance user engagement by drawing attention to on-screen text, making users look at the video.
+seoDescription: Audio notifications enhance user engagement by drawing attention to on-screen text, making users look at the video
 type: rule
 archivedreason:
 title: Post-Production - Do you add a sweet audio indication when something happens on the screen?

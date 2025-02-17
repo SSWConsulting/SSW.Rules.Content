@@ -16,7 +16,7 @@ guid: a8d119d1-50fa-4296-95db-84eceb65accd
 
 <!--endintro-->
 
-Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
+Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Entra ID to control who has access and what they can access.
 
 With Intune, you can:
 
@@ -28,7 +28,7 @@ With Intune, you can:
 
 ### Managing Devices
 
-When Intune is connected to Azure AD its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory.
+When Intune is connected to Entra ID its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Entra ID.
 
 :::info
 
@@ -36,7 +36,7 @@ If you are using Conditional Access for MFA, you will need to add an exception f
 
 :::
 
-![Figure: Intune connected to AAD](intune_aad.png)
+![Figure: Intune connected to Entra ID](intune_aad.png)
 
 - SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
 

@@ -1,5 +1,5 @@
 ---
-seoDescription: Enhance your GitHub profile by adding a repository description to make it stand out.
+seoDescription: Enhance your GitHub profile by adding a repository description to make it stand out
 type: rule
 archivedreason:
 title: Do you add a description to your GitHub repositories?

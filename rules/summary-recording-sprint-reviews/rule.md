@@ -1,7 +1,9 @@
 ---
-seoDescription: Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement.
 type: rule
 title: Do you record a summary of your Sprint Meeting?
+seoDescription: Enhance transparency and inclusivity by recording summaries of
+  Sprint Reviews, providing stakeholders with clear updates and fostering
+  community engagement.
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
@@ -47,6 +49,8 @@ Here's a suggested runsheet for what to cover in the video:
 If you're looking for useful tips on how to make great videos, please see this rule: [Do you know the key things for making a great 'Done Video'?](https://www.ssw.com.au/rules/making-a-great-done-video)
 
 If you need to make edits on your recording, please see this rule: [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/)
+
+Note: Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points… it gives *some* window into the team, but not everything.
 
 ## Share the Sprint Meeting summary recording
 

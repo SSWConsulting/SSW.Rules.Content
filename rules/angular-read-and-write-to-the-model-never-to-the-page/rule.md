@@ -1,5 +1,5 @@
 ---
-seoDescription: Angular developers read and write to the model, never to the page, forgetting about jQuery.
+seoDescription: Angular developers read and write to the model, never to the page, forgetting about jQuery
 type: rule
 archivedreason:
 title: Do you understand that with Angular you read and write to the model... never to the page? (aka Forget about jQuery)

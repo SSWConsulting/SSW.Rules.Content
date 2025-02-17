@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to write clean, readable code that anyone can understand and maintain.
 type: rule
 title: Do you start reading code?
 uri: do-you-start-reading-code
@@ -21,7 +22,8 @@ Great code isn't just about making computers do stuff; it's about making sure hu
 <!--endintro-->
 
 > “Aim for simplicity. I want to code to read like poetry”*
-> - Terje Sandstrom  
+>
+> * Terje Sandstrom  
 
 ### Good code characteristics
 
@@ -82,6 +84,7 @@ result.Sort(delegate(ProductGroup groupX, ProductGroup groupY) {
         0;
 });
 ```
+
 ::: bad
 Figure: Bad example - Not using LINQ
 :::
@@ -95,13 +98,14 @@ result = products
     .OrderByDescending(group => group.Count())
     .Select(group => new { CategoryName = group.Key, ProductCount = group.Count() });
 ```
+
 ::: good
 Figure: Good example - using LINQ
 :::
 
 **Tip:** For more information on why declarative programming (aka LINQ, SQL, HTML) is great, watch the TechDays 2010 Keynote by Anders Hejlsberg.Anders explains why it's better to have code "tell what, not how".
 
-### Clean HTML 
+### Clean HTML
 
 Anyone who creates their own HTML pages today should aim to make their markup semantically correct. For more information on semantic markup, see [HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp).
 

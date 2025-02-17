@@ -17,7 +17,7 @@ index:
 - change-from-x-to-y
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 - email-send-a-v2
-- do-you-cc-everyone-and-reply-to-all-when-necessary
+- cc-and-reply-to-all
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - follow-up-emails-effectively
@@ -40,7 +40,7 @@ index:
 - screenshots-avoid-walls-of-text
 - avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
-- do-you-avoid-replying-to-all-when-you-are-only-bcced
+- avoid-replying-to-all-when-bcced
 - email-add-or-remove-someone-from-conversation
 - replying-in-the-same-medium
 - follow-up-unanswered-email

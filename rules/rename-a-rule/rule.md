@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to rename SharePoint rule URLs, including physical and friendly URLs, with step-by-step instructions.
 type: rule
 archivedreason: Replaced by GitHub https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Rename-Rules
 title: SharePoint - Do you know how to rename a rule URL? (internal only)

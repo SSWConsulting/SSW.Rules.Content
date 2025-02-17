@@ -16,6 +16,7 @@ index:
 - install-chatgpt-as-an-app
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
+- use-ai-responsibly
 - indicate-ai-helped
 - make-perplexity-your-default-search-engine
 - use-chatgpt-to-generate-charts

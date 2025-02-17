@@ -22,39 +22,43 @@ The popular open plan office will commonly result in poor vocal audio, bad light
 
 <!--endintro-->
 
-### Avoid common pitfalls
+## Avoid common pitfalls
 
 When setting up the video recording space, be aware of these issues that can lead to a poor-quality video:
 
 * **Busy environment** - Recording in a busy office with harsh fluorescent lights with background chatter and unpredictable changes to the ambient workspace volume and background elements
 
   ::: bad
-  ![Figure: Bad example - Shared noisy environment makes it hard to capture clear audio and branded visuals](https://github.com/user-attachments/assets/8da27a37-48e7-49d4-9779-755d11e42467)
+  ![Figure: Bad example - Shared noisy environment makes it hard to capture clear audio and branded visuals](https://github.com/user-attachments/assets/9b7c9969-7082-4a25-87db-1c9c564b19a5)
+
   :::
 
 * **Non-permanent setup** - Setting up and tearing down equipment each time you want to record
 
   ::: bad
-  ![Figure: Bad example - Difficult setups leading to inconsistent quality and wasting time](https://github.com/user-attachments/assets/dfd4efca-8a93-4257-b09c-9689acc4ede7)
+  ![Figure: Bad example - Difficult setups leading to inconsistent quality and wasting time](https://github.com/user-attachments/assets/1686da19-626b-4840-988f-660113c4ac49)
+
   :::
 
-### How to set up an effective recording space
+## How to set up an effective recording space
 
 A good recording space should be optimized for sound, lighting, background, and ease of use. Here are some tips:
 
-1. **Create a soundproof environment**
+1. **Audio - Create a soundproof environment**
    * Use a quiet room, preferably away from noisy areas
    * Consider soundproofing with foam panels, carpets, or curtains to minimize echoes and background noise
 
-2. **Set up proper lighting**
+2. **Lights - Set up proper lighting**
    * Use soft, diffused lighting to avoid harsh shadows. Ring lights, softboxes, or LED panels can help
    * Ensure the lighting setup is consistent and avoids flickering or changes during recording
+   * See these [examples](/have-good-lighting-on-your-home-office) for lighting
 
-3. **Choose a [clean, professional background](/unique-office-backgrounds)**
+3. **Background - Choose a clean, professional [background](/unique-office-backgrounds)**
    * Opt for a neutral or branded background that is visually appealing and not overly busy
    * Consider a dedicated backdrop or a wall with minimal design to keep the focus on the speaker
+   * Here's some tips on [backgrounds](/video-background)
 
-4. **Plug and play equipment setup**
+4. **Easy Setup - Plug and play equipment**
    * Keep your camera, microphone, and lighting equipment permanently set up and ready to go. A "plug and play" system minimizes setup time and ensures consistent quality
    * Use a tripod for your camera and adjustable stands for lighting, so they are always in the correct position
    * Consider an external microphone for better sound quality, and test audio levels regularly
@@ -66,3 +70,7 @@ An office pod or studio with soundproofing, diffused soft lighting, and a mounte
 :::
 
 By setting up a dedicated recording space that addresses these factors, you can streamline your workflow, reduce stress, and consistently produce high-quality videos that engage your audience. Spend time to get your space right once, and you’ll save hours on every future recording session.
+
+::: info
+Try recording your own video today and share it with the world!
+:::

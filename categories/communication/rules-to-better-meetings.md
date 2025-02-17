@@ -19,6 +19,7 @@ index:
 - keep-track-of-a-parking-lot-for-topics
 - getting-a-busy-person-into-the-meeting
 - record-teams-meetings
+- speak-up-in-meetings
 
 ---
 
