@@ -20,7 +20,7 @@ The Open Web Application Security Project (OWASP) is a non-profit charity organi
 
 <!--endintro-->
 
-### OWASP Top 10 2021
+## OWASP Top 10 2021
 
 The current OWASP Top 10 states the following are the top risks for web applications today. Knowing and securing against these will give the biggest bang-for-buck in securing your website.
 
@@ -35,7 +35,7 @@ The current OWASP Top 10 states the following are the top risks for web applicat
 * **Security Logging and Monitoring Failures:** Not logging security events, not monitoring or auditing logs, not raising alerts for suspicious events
 * **Server-Side Request Forgery:**  Arbitrarily fetching data from user supplied URLs
 
-#### Other Resources
+### Other resources
 
 Protecting against these is a large topic in their own right. There are plenty of resources with information on protecting against these, linked below:
 
