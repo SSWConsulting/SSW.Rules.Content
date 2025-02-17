@@ -164,7 +164,7 @@ Figure: Bad example - A vague text with no link to Bob's profile. ALso missing t
 Figure: Good example - A descriptive caption using the video title + profile link + video length at the end
 :::
 
-### Tip #8
+### Tip #8: GIFs - Label accordingly
 
 Using a GIF instead of a static image can be a good idea when illustrating multiple steps, as it can save page real estate. Remember to specify that it is a GIF to differentiate it from a static image
 
