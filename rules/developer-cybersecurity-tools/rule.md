@@ -16,11 +16,11 @@ Security should never be an afterthought when writing code. Every year, develope
 
 <!--endintro-->
 
-### Essential Cybersecurity Tools for Developers
+## Essential cybersecurity tools for developers
 
 To write secure code, developers should use a combination of tools that cover different aspects of application security:
 
-#### 1. **Static Application Security Testing (SAST) Tools**
+### 1. Static Application Security Testing (SAST) Tools
 
 SAST tools analyse source code for security vulnerabilities without executing the program. They help catch common issues such as SQL injection, cross-site scripting (XSS), and insecure dependencies.
 
@@ -30,7 +30,7 @@ SAST tools analyse source code for security vulnerabilities without executing th
 * **Semgrep** (lightweight static analysis)
 * **Checkmarx** (enterprise-grade security scanning)
 
-#### 2. **Dynamic Application Security Testing (DAST) Tools**
+### 2. Dynamic Application Security Testing (DAST) tools
 
 DAST tools test running applications by simulating attacks. They help identify vulnerabilities that might not be visible in the source code, such as misconfiguration and runtime security flaws.
 
@@ -39,7 +39,7 @@ DAST tools test running applications by simulating attacks. They help identify v
 * **OWASP ZAP** (open-source web application security scanner)
 * **Burp Suite** (penetration testing toolkit)
 
-#### 3. **Software Composition Analysis (SCA) Tools**
+### 3. Software Composition Analysis (SCA) tools
 
 Most applications rely on open-source dependencies, which may contain security vulnerabilities. SCA tools scan dependencies for known vulnerabilities and recommend patches.
 
@@ -49,7 +49,7 @@ Most applications rely on open-source dependencies, which may contain security v
 * **Snyk** (real-time vulnerability detection and fixes)
 * **OSS Index** (open-source security scanner)
 
-#### 4. **Secrets Detection Tools**
+### 4. Secrets Detection tools
 
 Developers sometimes accidentally commit API keys, passwords, or credentials to repositories. Secrets detection tools scan code to prevent such leaks.
 
@@ -58,7 +58,7 @@ Developers sometimes accidentally commit API keys, passwords, or credentials to 
 * **GitGuardian** (real-time secret scanning for repositories)
 * **TruffleHog** (deep secrets detection in git history)
 
-#### 5. **Container and Cloud Security Tools**
+### 5. Container and Cloud Security tools
 
 If your application runs in containers or the cloud, security must extend beyond your code.
 
@@ -68,7 +68,7 @@ If your application runs in containers or the cloud, security must extend beyond
 * **Kube-bench** (Kubernetes security benchmarking)
 * **AWS Inspector** (security assessment for cloud workloads)
 
-#### 6. **Code Signing and Supply Chain Security**
+### 6. Code Signing and Supply Chain Security
 
 With software supply chain attacks on the rise, developers should ensure that their code and dependencies are verified and secure.
 
@@ -77,7 +77,7 @@ With software supply chain attacks on the rise, developers should ensure that th
 * **Sigstore Cosign** (secure code signing)
 * **in-toto** (software supply chain verification)
 
-#### 7. **API Security Testing Tools**
+### 7. **API Security Testing tools
 
 APIs are a common attack vector, and testing them for security vulnerabilities is crucial. API security testing tools help developers validate authentication, authorization, and request handling.
 
@@ -87,7 +87,9 @@ APIs are a common attack vector, and testing them for security vulnerabilities i
 * **Postman** (API development and security testing)
 * **OWASP Amass** (API reconnaissance and security analysis)
 
-### Pro Tip: Automate Security in Your CI/CD Pipeline
+---
+
+## Pro tip: Automate security in CI/CD pipelines
 
 Set up your cybersecurity tools to run automatically on every pull request. This ensures security checks are continuous and prevent vulnerabilities from slipping into production.
 
