@@ -15,11 +15,13 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
-related: []
+related:
+  - inform-clients-about-estimates-overrun
 redirects: []
 ---
 
-"Sometimes it's better to ask forgiveness than permission" - Tony Abbott
+_"Sometimes it's better to ask forgiveness than permission"_   
+Tony Abbott
 
 The trouble is that the above is predicated on the notion that you're doing something wrong and are happy spending time putting out fires that needn't have been lit.
 
