@@ -19,7 +19,7 @@ Date formats should always be kept consistent across your application, more impo
 
 <!--endintro-->
 
-![Figure: Operating System's Regional Settings](../../assets/BetterInterface_RegionalSettings.jpg)
+![Figure: Operating System's Regional Settings](https://github.com/user-attachments/assets/71dd7833-71d6-470d-90a1-9258bf0e51a1)
 
 ::: bad  
 ![Figure: Bad example - Screens with inconsistent date formats](../../assets/BadExampleDP.gif)  
@@ -44,6 +44,7 @@ Figure: Bad Example - Using hard coded formatting string
 'Initial CultureInfo settings for the application
 Public initialCulture As CultureInfo
 ...
+
 ...
 txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialCulture.DateTimeFormat)
 ```
@@ -51,3 +52,13 @@ txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialC
 ::: good
 Figure: Good Example - Using culture info to format datetime
 :::
+
+## Browser Language Settings
+
+It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content. For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
+![PowerBI wrong date format](https://github.com/user-attachments/assets/45a1c7a2-ab73-4053-a3c6-3a19f09895fc)
+**Figure: Date format incorrect due to unmodified web page language settings.**
+
+Go to Browser Setting | Language | Select English (Australia) as the top priority language
+![Browser language setting](https://github.com/user-attachments/assets/b160fec5-dc18-4c5b-9210-2e7546fb5993)
+**Figure: Set English (Australia) as the top priority in the browser language settings.**
