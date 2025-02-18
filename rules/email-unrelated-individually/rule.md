@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you split emails by topic?
 guid: 9f321108-9a2e-4a89-b287-aff227d5d5a2
-uri: email-unrelated-individually
+uri: split-emails-by-topic
 created: 2009-03-30T03:26:32.0000000Z
 authors:
   - title: Adam Cogan
@@ -19,6 +19,7 @@ related:
   - separate-messages
 redirects:
   - do-you-send-tasks-one-email-at-a-time
+  - email-unrelated-individually
 
 ---
 
