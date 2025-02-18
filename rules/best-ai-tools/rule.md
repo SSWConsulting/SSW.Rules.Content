@@ -30,7 +30,7 @@ Note: most of the paid ones have a free trial, though you usually don't get full
 * 💲 **[Perplexity](https://www.perplexity.ai)** - Combines generative AI with real-time search to provide highly contextual responses with citations
 * 💲 **[Writesonic](https://www.writesonic.com)** - An enterprise tool - helps create SEO-friendly articles and product descriptions
 * 💲 **[HyperWrite](https://www.hyperwrite.ai)** - Assists with long-form content generation, offering context-aware suggestions
-* 💲 **[Notion AI](https://www.notion.com/help/guides/category/ai)** – Integrates AI into Notion for writing assistance, summaries, and organization
+* 💲 **[Notion AI](https://www.notion.com/help/guides/category/ai)** – Integrates AI into Notion for writing assistance, summaries, and organization.
 
 ## Presentation design
 
