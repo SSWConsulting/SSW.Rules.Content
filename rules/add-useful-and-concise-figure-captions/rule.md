@@ -35,7 +35,7 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: ".
+Prefix your caption with "Figure: ", "Video: ", "Code: ", or "GIF: "
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
@@ -149,7 +149,7 @@ Figure: Good example - Readers understand how you made the image, and they impro
 When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
 
 ::: greybox
-{{ VIDEO }}\
+{{ GIF }}\
 **Video: In this video, Bob talks about Outlook**
 :::
 ::: bad
@@ -157,7 +157,7 @@ Figure: Bad example - A vague text with no link to Bob's profile. ALso missing t
 :::
 
 ::: greybox
-{{ VIDEO }}
+{{ GIF }}\
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
