@@ -1,8 +1,8 @@
 ---
-seoDescription: Learn how to send tasks one email at a time and improve communication by breaking up unrelated tasks, grouping related tasks, and replying to "done"s.
+seoDescription: Learn how to send tasks one email at a time and improve communication by breaking up unrelated tasks, grouping related tasks, and replying "Dones".
 type: rule
 archivedreason:
-title: Do you email unrelated tasks individually?
+title: Do you split emails by topic?
 guid: 9f321108-9a2e-4a89-b287-aff227d5d5a2
 uri: email-unrelated-individually
 created: 2009-03-30T03:26:32.0000000Z
@@ -21,7 +21,6 @@ redirects:
   - do-you-send-tasks-one-email-at-a-time
 
 ---
-
 
 People often overlook or miss items in long, carefully drafted emails. To improve clarity and task completion, it's more effective to send separate emails for unrelated (or independent) tasks.
 
