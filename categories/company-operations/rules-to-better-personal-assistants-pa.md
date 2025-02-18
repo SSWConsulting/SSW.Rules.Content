@@ -18,6 +18,6 @@ index:
 - do-you-keep-the-office-looking-great
 - do-you-know-the-general-tips-for-booking-flights
 - do-you-try-to-be-one-step-ahead-doing-tasks-before-they-come-up
-
+- do-you-print-your-travel-schedule
 ---
 Rules to Better PA (aka Personal Assistant)

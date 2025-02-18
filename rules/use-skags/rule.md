@@ -1,7 +1,7 @@
 ---
 seoDescription: Discover how Single Keyword Ad Groups (SKAGS) enhance your Google Ads strategy, boosting CTR and quality scores for better campaign performance.
 type: rule
-archivedreason: 
+archivedreason: This is no longer relevant in 2024, the SKAGS method hasn't been effective since 2023 due to Google Ads new algorithms
 title: Do you use Single keyword Ad Groups (SKAGS)?
 guid: f603f791-d472-4a3b-b623-3a7929b252e3
 uri: use-skags

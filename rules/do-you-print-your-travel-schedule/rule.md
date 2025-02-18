@@ -31,14 +31,8 @@ Printed travel schedules provide several benefits:
 ## How to Do It Right
 
 1. **Plan in Advance:** Print your schedule at least a week before your trip to allow time for last-minute changes.
-2. **Include Essential Details:** Make sure to include:
-
-   * Flight numbers and departure/arrival times
-   * Hotel names, addresses, and check-in/out times
-   * Meeting schedules, including locations and contact details
-   * Transportation arrangements (e.g., car rentals, train schedules)
-3. **Organize for Easy Access:** Use a travel folder or planner to keep the schedule organized along with other important documents like boarding passes and travel insurance.
-4. **Update as Needed:** If plans change, update the schedule and reprint the necessary pages.
+2. **Organize for Easy Access:** Use a travel folder or planner to keep the schedule organized along with other important documents like boarding passes and travel insurance.
+3. **Update as Needed:** If plans change, update the schedule and reprint the necessary pages.
 
 ## Step by Step
 
@@ -53,9 +47,10 @@ Printed travel schedules provide several benefits:
 ## Notes
 
 * If you want to view your boss's calendar to edit:
-
-  * Ask a SysAdmin - This had to be done in PowerShell – as per: <https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission>
-  * The command is :> Add-MailboxFolderPermission -Identity <AdamCogan@ssw.com.au>:\Calendar -User <StefStarcevic@ssw.com.au> -AccessRights Editor
-* You cannot print your boss's calendar (on the new Outlook)
-
+  * To give somebody else permissions to your calendar - right click on calendar | sharing and permissions. From there you can select someone to give permissions to.  
+  * Alternatively, ask a SysAdmin - This had to be done in PowerShell – as per: https://learn.microsoft.com/en-us/powershell/module/exchange/add-mailboxfolderpermission
+  *    The command is 
+```Add-MailboxFolderPermission -Identity {{ BOSS'S EMAIL }}:\Calendar -User {{ YOUR EMAIL }} -AccessRights Editor```
+* In the new Outlook, you cannot print your boss's calendar
   * Even though you can add categories, you cannot filter based on the boss's categories (as you only see your own filters in the filters list). Therefore you need to print from your boss's Outlook.
+
