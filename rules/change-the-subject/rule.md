@@ -27,15 +27,18 @@ The answer is "cautiously" and early on before there are many replies. The reaso
 
 Remember the [importance of a good email subject](/good-email-subject) in improving communications.
 
-### When do you change the subject?
+## When do you change the subject?
 
 * If the original **subject was too generic**, like "Reminder" or "Invoice".
 
   This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.
 
 ::: greybox
-From: Subject: **📃 Invoice** \
-To: Subject: **📃 Northwind website - Invoice for March \[WAS: Invoice\]**
+From   
+Subject: **📃 Invoice** 
+
+To   
+Subject: **📃 Northwind website - Invoice for March \[WAS: Invoice\]**
 :::
 ::: good
 Figure: Good example - We still retain the origninal subject but now we know it's been changed.
@@ -46,18 +49,21 @@ Figure: Good example - We still retain the origninal subject but now we know it'
   At that point change the email subject to a more relevant description of the content of the thread.
 
 ::: greybox
-From: Subject: **🧑‍🏫 Field of Study** \
-To: Subject: **🏫 Next Years Conference \[WAS: Field of Study\]**
+From   
+Subject: **🧑‍🏫 Field of Study** 
+
+To   
+Subject: **🏫 Next Years Conference \[WAS: Field of Study\]**
 :::
 ::: good  
 Figure: Good example - Email subject has been changed as the original topic is no longer relevant.
 :::
 
-  ::: info
-  **Note:** If you are the one changing the topic, a whole new email thread is a better idea.
-  :::
+::: info
+**Note:** If you are the one changing the topic, a whole new email thread is a better idea.
+:::
 
-### Be clear to show it was intentional
+## Be clear to show it was intentional
 
 When you change the subject of an email or an appointment add to the first line: "(changed subject)"
 
