@@ -51,7 +51,7 @@ Make the changes even easier to see and understand by highlighting:
 
 ### Hi Dave
 
-1. For the CodeAuditor web page, please make the list read:
+1\. For the CodeAuditor web page, please make the list read:
 
 Scan all your projects for coding errors:
 
@@ -77,11 +77,11 @@ Figure: Bad example - The original version of content has not been included in t
 
 On CodeAuditor web page ssw.com.au/ssw/codeauditor
 
-1. Please change:
+1\. Please change:
 
 From:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;> Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Enforce industry best practices.
 
