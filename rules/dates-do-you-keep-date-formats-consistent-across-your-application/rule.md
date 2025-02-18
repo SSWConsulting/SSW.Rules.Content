@@ -53,12 +53,14 @@ txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialC
 Figure: Good Example - Using culture info to format datetime
 :::
 
-## Browser Language Settings
+## Browser language settings
 
-It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content. For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
-![PowerBI wrong date format](https://github.com/user-attachments/assets/45a1c7a2-ab73-4053-a3c6-3a19f09895fc)
-**Figure: Date format incorrect due to unmodified web page language settings.**
+It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content. 
 
-Go to Browser Setting | Language | Select English (Australia) as the top priority language
-![Browser language setting](https://github.com/user-attachments/assets/b160fec5-dc18-4c5b-9210-2e7546fb5993)
-**Figure: Set English (Australia) as the top priority in the browser language settings.**
+For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
+
+![Figure: Date format incorrect due to unmodified web page language settings](https://github.com/user-attachments/assets/45a1c7a2-ab73-4053-a3c6-3a19f09895fc)
+
+Go to Browser Setting | Language | Select English (Australia) as the top priority language:
+
+![Figure: Set English (Australia) as the top priority in the browser language settings](https://github.com/user-attachments/assets/b160fec5-dc18-4c5b-9210-2e7546fb5993)
