@@ -36,7 +36,7 @@ startTimeTextBox.Text = resultResults.StartTime.ToString("dd/MM/yyyy hh:mm:ss");
 ```
 
 ::: bad
-Figure: Bad Example - Using hard coded formatting string
+Figure: Bad example - Using hard coded formatting string
 :::
 
 ```dotnet
@@ -50,7 +50,7 @@ txtDateCreate.Text = CType(txtDateCreate.Tag, System.DateTime).ToString(initialC
 ```
 
 ::: good
-Figure: Good Example - Using culture info to format datetime
+Figure: Good example - Using culture info to format datetime
 :::
 
 ## Browser language settings
