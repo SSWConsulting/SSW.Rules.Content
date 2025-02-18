@@ -33,21 +33,25 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
   This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.
 
-  E.g. From
-  **"Invoice"**
-
-  To
-  **"Northwind website - Invoice for March \[WAS: Invoice\]"**
+::: greybox
+From: Subject: **📃 Invoice** \
+To: Subject: **📃 Northwind website - Invoice for March \[WAS: Invoice\]**
+:::
+::: good
+Figure: Good example - We still retain the origninal subject but now we know it's been changed.
+:::
 
 * When the original **email topic has been superseded** by new replies
 
   At that point change the email subject to a more relevant description of the content of the thread.
 
-  E.g. From
-  **"Field of Study"**
-
-  To
-  **"Next Years Conference \[WAS: Field of Study\]"**
+::: greybox
+From: Subject: **🧑‍🏫 Field of Study** \
+To: Subject: **🏫 Next Years Conference \[WAS: Field of Study\]**
+:::
+::: good  
+Figure: Good example - Email subject has been changed as the original topic is no longer relevant.
+:::
 
   ::: info
   **Note:** If you are the one changing the topic, a whole new email thread is a better idea.
