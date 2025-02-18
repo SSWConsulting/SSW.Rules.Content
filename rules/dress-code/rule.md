@@ -2,7 +2,7 @@
 seoDescription: Office environment dress code - Follow company guidelines to present a professional image, reinforce branding, and create a good impression for clients.
 type: rule
 title: Office environment - Do you follow the company's dress code?
-uri: do-you-have-a-dress-code
+uri: dress-code
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -11,6 +11,7 @@ authors:
 related: []
 redirects:
   - office-environment-do-you-follow-the-companys-dress-code
+  - do-you-have-a-dress-code
 created: 2012-09-25T17:57:39.000Z
 archivedreason: null
 guid: b07a6598-7717-4851-af8d-30bf26cd2486
@@ -20,16 +21,18 @@ The way you and all members of your team present themselves is a crucial part of
 
 <!--endintro-->
 
-### Dressing Up
+## Dressing up
 
 One aspect of this is the dress code. Dress code is important for two reasons:
 
 * Looking professional and keen for business
 * Reinforce the company's [branding](/rules-to-better-branding)
 
-![Figure: Strong branding makes a difference.](tina-london.png)
+::: good
+![Figure: Strong branding makes a difference](tina-london.png)
+:::
 
-### Public Events and Meetings
+## Public events and meetings
 
 Of course, when in a public event such as a User Group, conference or seeing clients you should "Dress Up".
 
@@ -37,12 +40,13 @@ It should go without saying, but of course, things such as shaving off your week
 
 ![Figure: "There is nothing wrong with being the best-dressed man in the room." - Sean Connery](sean-connery-dressed-up.jpg)
 
-### On a business flight
+## On a business flight
 
-It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.\
+It's a good idea to "Dress Up" in flights as you never know who you will be seated next to.
+
 ![Figure: Why dress up in a flight](dresscode-linkedin.png)
 
-### Dressing Down (aka Casual Fridays)
+## Dressing down (aka Casual Fridays)
 
 Many companies find it a good idea to have Casual Fridays. It is free and easy to do and gives the team something to look forward to.
 
@@ -58,7 +62,7 @@ Then they **"dress down"** later in the week... so they have **"Casual Thursday"
 
 ![Figure: SSW Dress Code poster](ssw-dresscode-poster-v2.png)
 
-### Shorts Days - the cool exception
+## Shorts Days - the cool exception
 
 On very hot days, shorts are allowed as soon as you've got an email like this:
 
