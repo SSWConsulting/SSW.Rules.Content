@@ -69,7 +69,7 @@ There are 5 common penetration tests most businesses will engage a 3rd party for
 4. **Application penetration testing** - A consultant looks for vulnerabilities and flaws in the design of an application, this can be done by identifying issues with API's, authentication, data exposure or 
 5. **Physical penetration testing** - A consultant tests the physical security of an office to see how easy it is to gain access to restricted areas
 
-## What are the Recommended Tools to use?
+## What are the recommended tools to use?
 
 We have a few rules that cover the best cybersecurity tools for developers and SysAdmins:
 
