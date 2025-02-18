@@ -25,9 +25,6 @@ If you're a video creator, encourage testers to like and comment on videos to co
 
 These video interactions help build a history, like who are the viewers and their thoughts.
 
-::: greybox
-**Comment on video:** Test Pass - liked video and sent feedback via email subject: "TimePro UI - fix report alignment"
-:::
 ::: good
-Figure: Good example - Video interactions creates a record that it has been watched and tested
+![Figure: Good example - Video interactions creates a record that it has been watched and tested](like-and-comment-on-videos.png)
 :::
