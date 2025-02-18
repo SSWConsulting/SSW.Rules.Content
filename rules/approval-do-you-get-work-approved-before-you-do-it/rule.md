@@ -20,7 +20,7 @@ related:
 redirects: []
 ---
 
-_"Sometimes it's better to ask forgiveness than permission"_   
+_"Sometimes it's better to ask forgiveness than permission"_
 Tony Abbott
 
 The trouble is that the above is predicated on the notion that you're doing something wrong and are happy spending time putting out fires that needn't have been lit.
