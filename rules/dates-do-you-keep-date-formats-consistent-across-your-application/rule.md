@@ -67,3 +67,5 @@ Go to Browser Setting | Language | Select English (Australia) as the top priorit
 
 ![Figure: Set English (Australia) as the top priority in the browser language settings](./browser-%20language-%20setting.png)
 **Figure: Set English (Australia) as the top priority in the browser language settings**
+
+For more, refer to [software langauge setting rules](https://www.ssw.com.au/rules/make-sure-all-software-uses-english/).
