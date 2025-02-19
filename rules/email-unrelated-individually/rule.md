@@ -1,10 +1,10 @@
 ---
-seoDescription: Learn how to send tasks one email at a time and improve communication by breaking up unrelated tasks, grouping related tasks, and replying to "done"s.
+seoDescription: Learn how to send tasks one email at a time and improve communication by breaking up unrelated tasks, grouping related tasks, and replying "Dones".
 type: rule
 archivedreason:
-title: Do you know when to send tasks one email at a time?
+title: Do you split emails by topic?
 guid: 9f321108-9a2e-4a89-b287-aff227d5d5a2
-uri: do-you-send-tasks-one-email-at-a-time
+uri: split-emails-by-topic
 created: 2009-03-30T03:26:32.0000000Z
 authors:
   - title: Adam Cogan
@@ -16,25 +16,29 @@ authors:
 related:
   - send-email-tasks-to-individuals
   - communication-are-you-specific-in-your-requirements
-redirects: []
+  - separate-messages
+redirects:
+  - do-you-send-tasks-one-email-at-a-time
+  - email-unrelated-individually
+
 ---
 
-Do you sometimes find that people don't follow all the items you have listed in a long and carefully drafted email?
+People often overlook or miss items in long, carefully drafted emails. To improve clarity and task completion, it's more effective to send separate emails for unrelated (or independent) tasks.
 
-Make it easier for everyone by sending unrelated (independent) tasks one email at a time. Also, don't forget to make your requests very clear.
-With separate emails, When a person has completed a specific task they just have to reply "Done" to that email, delete it, then move on to the next task.
+Each email should focus on one task or multiple tasks that are directly related or interdependent. This helps recipients complete the tasks, reply with "Done," delete the email, and move on to the next without confusion. Additionally, ensure your requests are clear and concise to minimize misunderstandings.
 
 <!--endintro-->
 
-### Breaking up unrelated tasks
+## Group related tasks
 
-If you have a list of things to be done, have a second look, you may find that your requests are not directly related (don't depend on each other OR are not to be done in the same environment). In this case, it is better to break it up and send separate emails.
+If you are requesting many smaller tasks under the same topic, you should group them in the same email. In this case, [number each task that you wish to be completed](/number-tasks-questions).
 
-### Grouping related tasks
+## Break up unrelated tasks
 
-As per the examples above, if you are requesting many smaller tasks under the same topic, you should group them in the same email. In this case, [number each task that you wish to be completed](/number-tasks-questions).
+If you have a list of things to be done, and find that your requests are **not** directly related (don't depend on each other OR are not to be done in the same environment), it is better to break it up and send separate emails.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Steven |
@@ -56,6 +60,7 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Steven |
@@ -71,6 +76,7 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 :::  
 :::
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Steven |
@@ -88,7 +94,7 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 Figure: Good example - Separate emails for unrelated tasks. A few related tasks in the same email
 :::
 
-### Breaking up monster tasks
+## Break up monster tasks
 
 If you have a very large task that requires days of work, it is also better to break it up and send separate related emails. A big task like "Boil the Ocean" would become several emails with consistent subjects:
 
@@ -102,8 +108,8 @@ The advantages are that you get an email history for specific parts, making it e
 **Tip:** Understand tasks sizes by reading [how to size user stories effectively](/estimating-do-you-know-how-to-size-user-stories-effectively).
 :::
 
-### Replying 'dones'
+## Replying 'Dones'
 
-When replying to emails, always reply to each email individually. Don't consolidate them all into one as it leaves unfinished email threads.
+When replying to emails, always reply to each email individually. Never consolidate separate emails into one as it leaves unfinished email threads.
 
 Learn more about [the best ways to reply "Dones"](/dones-do-you-reply-done-and-delete-the-original-email).
