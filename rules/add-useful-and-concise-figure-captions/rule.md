@@ -166,10 +166,10 @@ Figure: Good example - A descriptive caption using the video title + profile lin
 
 ### Tip #8: GIFs - Label accordingly
 
-Using a GIF instead of a static image can be a good idea when illustrating multiple steps, as it can save page real estate. Remember to specify that it is a GIF to differentiate it from a static image
+Using a GIF instead of a static image can be beneficial for illustrating multiple steps, as it saves page space. Be sure to specify that it is a GIF in the caption to distinguish it from a static image
 
 ::: greybox
-{{ ANIMATED IMAGE }}\
+{{ GIF }}\
 **Figure: Users | Summary | User Information | LinkedIn URL**
 :::
 ::: bad
@@ -177,9 +177,9 @@ Figure: Bad example - Does not specificy that it is a GIF
 :::
 
 ::: greybox
-{{ ANIMATED IMAGE }}
+{{ GIF }}\
 **Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
 :::
 ::: good
-Figure: Good example - Specificies that it is a GIF
+Figure: Animated GIF - Good example - Specificies that it is a GIF
 :::
