@@ -181,5 +181,5 @@ Figure: Bad example - Does not specificy that it is a GIF
 **Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
 :::
 ::: good
-Figure: Animated GIF - Good example - Specificies that it is a GIF
+Figure: Good example - Specificies that it is a GIF
 :::
