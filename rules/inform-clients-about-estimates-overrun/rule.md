@@ -12,7 +12,8 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
-related: []
+related:
+  - approval-do-you-get-work-approved-before-you-do-it
 redirects:
   - do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
 created: 2009-08-19T23:56:41.000Z
