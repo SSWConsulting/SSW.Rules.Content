@@ -149,15 +149,15 @@ Figure: Good example - Readers understand how you made the image, and they impro
 When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
 
 ::: greybox
-{{ GIF }}\
+{{ VIDEO }}\
 **Video: In this video, Bob talks about Outlook**
 :::
 ::: bad
-Figure: Bad example - A vague text with no link to Bob's profile. ALso missing the video length
+Figure: Bad example - A vague text with no link to Bob's profile. Also missing the video length
 :::
 
 ::: greybox
-{{ GIF }}\
+{{ VIDEO }}\
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
