@@ -163,3 +163,23 @@ Figure: Bad example - A vague text with no link to Bob's profile. Also missing t
 ::: good
 Figure: Good example - A descriptive caption using the video title + profile link + video length at the end
 :::
+
+### Tip #8: GIFs - Label accordingly
+
+Using a GIF instead of a static image can be a good idea when illustrating multiple steps, as it can save page real estate. Remember to specify that it is a GIF to differentiate it from a static image
+
+::: greybox
+{{ ANIMATED IMAGE }}\
+**Figure: Users | Summary | User Information | LinkedIn URL**
+:::
+::: bad
+Figure: Bad example - Does not specificy that it is a GIF
+:::
+
+::: greybox
+{{ ANIMATED IMAGE }}
+**Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
+:::
+::: good
+Figure: Good example - Specificies that it is a GIF
+:::
