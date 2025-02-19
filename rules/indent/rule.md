@@ -26,9 +26,8 @@ Written communication can easily cause misunderstandings. Help the reader unders
 * Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to
   **Note:** “&gt;” is not needed when quoting from a web page
 * Your text should be kept to the left
-* [Add numbers to tasks](/number-tasks-questions) if the sender forgot   
+* [Add numbers to tasks](/number-tasks-questions) if the sender forgot
   Mention you changed the history. E.g. “(added numbers to tasks in the history, so I can refer to ones)”
-
 
 <!--endintro-->
 
@@ -37,13 +36,14 @@ This way you won't forget any questions in the original email.
 **Note:** You do not need to use ">" and indentation, when you are replying to the task that is very clear, because in this case extra text reduces clarity.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Adam |
 | Subject: | RE: Change on Northwind app |
 ::: email-content
 
-### Hi Adam,
+### Hi Adam
 
 Please change from X to Y\
 The program flow logic worries me a bit\
@@ -56,13 +56,14 @@ Figure: Bad example - There's too much information with no reasonable order
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Adam |
 | Subject: | RE: Change on Northwind app |
 ::: email-content
 
-### Hi Adam,
+### Hi Adam
 
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y\
 Done - northwind365.com\
@@ -76,13 +77,14 @@ Figure: Bad example - Even with order, without spacing the text becomes cramped 
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Adam |
 | Subject: | RE: Change on Northwind app |
 ::: email-content
 
-### Hi Adam,
+### Hi Adam
 
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y
 
