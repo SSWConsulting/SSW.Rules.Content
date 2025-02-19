@@ -20,14 +20,16 @@ redirects:
 created: 2010-09-01T02:53:29.000Z
 archivedreason: null
 guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
+
 ---
+
 Written communication can easily cause misunderstandings. Help the reader understand your message better by:
 
 * Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to
   **Note:** “&gt;” is not needed when quoting from a web page
 * Your text should be kept to the left
-* [Add numbers to tasks](/number-tasks-questions) if the sender forgot
-  Mention you changed the history. E.g. “(added numbers to tasks in the history, so I can refer to ones)”
+* [Add numbers to tasks](/number-tasks-questions) if the sender forgot.\
+  Mention you changed the history. E.g. “(added numbers to tasks in the history, so we can clearly refer to them)”
 
 <!--endintro-->
 
@@ -114,7 +116,7 @@ Figure: Good example - You can clearly see the context of each part of the reply
 
 :::
 
-### Markdown
+## Markdown
 
 When using Markdown (usually on GitHub), use a "&gt;" symbol to achieve a similar result.
 
