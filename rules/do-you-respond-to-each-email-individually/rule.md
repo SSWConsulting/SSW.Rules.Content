@@ -1,7 +1,7 @@
 ---
 seoDescription: Individual email responses boost efficiency and enable task tracking.
 type: rule
-archivedreason: Content is on https://www.ssw.com.au/rules/reply-done-and-delete-the-email/#tip-5-dont-consolidate-emails
+archivedreason: Content is already part of https://www.ssw.com.au/rules/reply-done-and-delete-the-email/#tip-5-dont-consolidate-emails
 title: Do you respond to each email individually?
 guid: d07dc6ff-6509-436d-a0cb-fc1cae50f627
 uri: do-you-respond-to-each-email-individually
