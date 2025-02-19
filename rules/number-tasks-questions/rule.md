@@ -32,13 +32,14 @@ It is good practice to be clear on what you want. One way you can make things cl
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob |
 | Subject: | Presenting at User Group |  
 ::: email-content
 
-### Hi Bob,
+### Hi Bob
 
 We’ll commence the meeting at our office where we can provide you with an overview of the SSW operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
@@ -51,13 +52,14 @@ Bad example - Tasks/questions may be skipped if the reader does not read very ca
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob |
 | Subject: | Presenting at User Group |  
 ::: email-content
 
-### Hi Bob,
+### Hi Bob
 
 We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
@@ -73,17 +75,17 @@ I have a few more questions about the day to help me and the team prepare:
 Good example - Tasks/questions are clear
 :::
 
-
 ## ⚠️ Warning - Avoid numbered lists that aren't tasks**
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob |
 | Subject: | Presenting at User Group |  
 ::: email-content
 
-### Hi Bob,
+### Hi Bob
 
 We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
@@ -107,13 +109,14 @@ Bad example - Confusing! The second list above is unnecessary and obscures the t
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob |
 | Subject: | Presenting at User Group |  
 ::: email-content
 
-### Hi Bob,
+### Hi Bob
 
 We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
