@@ -10,6 +10,8 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
