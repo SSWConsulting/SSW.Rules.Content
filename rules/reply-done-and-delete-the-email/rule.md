@@ -31,9 +31,9 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 ### Only say "Done" when the work is completed
 
-- [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
-- If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
-- For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
+* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
+* If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
+* For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
 
 ### When it's ok to reply before the task is done
 
@@ -45,24 +45,25 @@ Use this approach to prevent misunderstandings and to make sure the requester is
 
 ### Alternatives to classic "Done" emails
 
-- If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
-- If you don't agree with the task or are unable to complete the task:
+* If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
+* If you don't agree with the task or are unable to complete the task:
 
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
   2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 
-- If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-- If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
+* If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
+* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
   **Note:** If you expect the 'done' to happen soon, wait to send the email instead of using "Partially done"
-- If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
-- If there is a better solution for the requested task:
+* If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
+* If there is a better solution for the requested task:
 
   1. Have a conversation first
   2. Reply <mark>Done differently - {{ SOLUTION AND EXPLANATION }}</mark>.
 
-- If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
+* If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Jason |
@@ -93,6 +94,7 @@ In any reply, [include relevant information](/dones-do-you-include-useful-detail
 It is important that you clearly reply to each of the multiple tasks.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Jason |
@@ -114,6 +116,7 @@ Bob
 **Figure: Original email with the client request**
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -133,6 +136,7 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -166,6 +170,7 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -211,6 +216,7 @@ If you have completed multiple tasks without requiring additional information, i
 Make sure all tasks have been done and others can see the history of the requests. A URL is especially useful in these cases.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -257,6 +263,7 @@ When it fits, choose text over images or screenshots! This way, it's simpler to 
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |

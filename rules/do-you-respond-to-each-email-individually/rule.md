@@ -19,10 +19,10 @@ If you receive separate emails, respond to each email individually. Don't respon
 
 <!--endintro-->
 
-- Each email is a little job (eating the elephant one bit at a time)
+* Each email is a little job (eating the elephant one bit at a time)
 
-- You get a steady flow back as bits are achieved (can get a feel or monitor employees efficiency)
+* You get a steady flow back as bits are achieved (can get a feel or monitor employees efficiency)
 
-- You can move to 'todo' list folders
+* You can move to 'todo' list folders
 
-- You get a email history for that one topic
+* You get a email history for that one topic
