@@ -109,7 +109,7 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 ![Figure: Using change from x to y in Microsoft Teams](change-from-x-to-y-microsoft-teams.jpg)
 
-**Note:** Microsoft Teams doesn't currently allow you to set the font color to white
+**Note:** Microsoft Teams doesn't currently allow you to set the font colour to white
 
 #### Tip #2: Microsoft Outlook - Add a style to make delete highlightings easy
 
