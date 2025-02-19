@@ -1,10 +1,8 @@
 ---
 type: rule
 title: Do you use indentation for readability?
-seoDescription: Learn how to enhance your email communication by using
-  indentation for readability. Discover tips and tricks to effectively reply to
-  emails and improve understanding.
-uri: do-you-use-indentation-for-readability
+seoDescription: Learn how to enhance your email communication by using indentation for readability. Discover tips and tricks to effectively reply to emails and improve understanding.
+uri: indent
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -16,16 +14,20 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - when-you-reply-inline-do-you-use-a-different-color
-redirects: []
+  - change-from-x-to-y
+redirects:
+  - do-you-use-indentation-for-readability
 created: 2010-09-01T02:53:29.000Z
 archivedreason: null
 guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
 ---
 Written communication can easily cause misunderstandings. Help the reader understand your message better by:
 
-* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to, or a web page, etc.
-* Your new text should be kept to the left
-* Add numbers if the sender didn't and it is appropriate
+* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to
+  **Note:** “&gt;” is not needed when quoting from a web page
+* Your text should be kept to the left
+* [Add numbers to tasks](/number-tasks-questions) if the sender forgot
+  Mention you changed the history. E.g. “(added numbers to tasks in the history, so I can refer to ones)”
 
 <!--endintro-->
 
@@ -34,13 +36,14 @@ This way you won't forget any questions in the original email.
 **Note:** You do not need to use ">" and indentation, when you are replying to the task that is very clear, because in this case extra text reduces clarity.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Adam |
 | Subject: | RE: Change on Northwind app |
 ::: email-content
 
-### Hi Adam,
+### Hi Adam
 
 Please change from X to Y\
 The program flow logic worries me a bit\
@@ -53,39 +56,39 @@ Figure: Bad example - There's too much information with no reasonable order
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Adam |
 | Subject: | RE: Change on Northwind app |
 ::: email-content
 
-### Hi Adam,
+### Hi Adam
 
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y\
-Done - {{ LINK }}\
+Done - northwind365.com\
 &nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit\
 Sorry, this wasn't a final decision - I just put it there for testing purposes
 
 :::
 :::
 ::: bad
-Figure: Bad example - Even with order, without spacing the text becomes cramped and hard to read.
+Figure: Bad example - Even with order, without spacing the text becomes cramped and hard to read
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Adam |
 | Subject: | RE: Change on Northwind app |
 ::: email-content
 
-### Hi Adam,
+### Hi Adam
 
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y
 
-Done - {{ LINK }}
-
-&nbsp;
+Done - northwind365.com
 
 &nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit
 
