@@ -31,7 +31,7 @@ This process consists of including the original version of the content ("X") alo
 `youtube: https://www.youtube.com/embed/zP5xdELqlBY`
 **Video: Best way to ask for content changes | Ulysses Maclaren | SSW Rules (5 min)**
 
-### Using email for small edits
+## Using email for small edits
 
 Make the changes even easier to see and understand by highlighting:
 
@@ -51,7 +51,7 @@ Make the changes even easier to see and understand by highlighting:
 
 ### Hi Dave
 
-1. For the CodeAuditor web page, please make the list read:
+1\. For the CodeAuditor web page, please make the list read:
 
 Scan all your projects for coding errors:
 
@@ -77,11 +77,11 @@ Figure: Bad example - The original version of content has not been included in t
 
 On CodeAuditor web page ssw.com.au/ssw/codeauditor
 
-1. Please change:
+1\. Please change:
 
 From:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\> Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Enforce industry best practices.
 
@@ -89,7 +89,7 @@ From:
 
 To:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Scan all your projects for coding errors
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\> Scan all your projects for coding errors
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <mark>Guarantee</mark> industry best practices
 
@@ -105,13 +105,13 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 - - -
 
-#### Tip #1: Microsoft Teams - Use the same X to Y style
+### Tip #1: Microsoft Teams - Use the same X to Y style
 
 ![Figure: Using change from x to y in Microsoft Teams](change-from-x-to-y-microsoft-teams.jpg)
 
 **Note:** Microsoft Teams doesn't currently allow you to set the font color to white
 
-#### Tip #2: Microsoft Outlook - Add a style to make delete highlightings easy
+### Tip #2: Microsoft Outlook - Add a style to make delete highlightings easy
 
 ![Figure: Remember when saving the style to select "New documents based off this template"](change-from-x-to-y-saving-styles.jpg)
 
@@ -129,13 +129,13 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 ![Figure: Good example – Custom styles are numbered and organised](change-from-x-to-y-organising-styles-good-example.png)
 :::
 
-### Alternative - What if there are too many changes?
+## Alternative - What if there are too many changes?
 
 Sometimes you have a lot of content and too many changes, making the process "from X to Y" too arduous. In this case is recommended to use [Word 'Track Changes'](https://support.microsoft.com/en-gb/office/track-changes-in-word-197ba630-0f5f-4a8e-9a77-3712475e806a?ui=en-us&rs=en-gb&ad=gb) functionality.
 
 ![Figure: A Word document with 'Track Changes' ON is recommended if you have too many changes](word-track-changes.jpg)
 
-### Alternative - What if you have a website managed by GitHub?
+## Alternative - What if you have a website managed by GitHub?
 
 Some websites use GitHub to manage their files (e.g. [SSW Rules](https://github.com/SSWConsulting/SSW.Rules.Content)). GitHub makes reviewing changes easy through "Pull Requests".
 
