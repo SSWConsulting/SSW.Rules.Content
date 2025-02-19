@@ -15,6 +15,7 @@ related:
   - dones-do-you-include-useful-details-in-your-done-email
   - when-to-send-a-done-email-in-scrum
   - close-pbis-with-context
+  - split-emails-by-topic
 redirects:
   - dones-do-you-reply-done-and-delete-the-original-email
 created: 2009-03-23T04:03:34.000Z
@@ -236,6 +237,12 @@ Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-day
 ### Tip #5: Don't consolidate emails
 
 If you get multiple emails or tasks, don't consolidate them. **Reply to each email individually** as you go. This way the person requesting the work hasn't [lost the email history](/do-you-keep-the-history-of-an-email) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
+
+1. **Keeps conversations focused** – Each response stays relevant to a single topic, making it easier to track  
+2. **Prevents confusion and improves task management** – Keeping topics in separate email threads makes it easier to follow discussions, track progress, and ensure no details are overlooked  
+3. **Easier to search and reference later** – Emails stay categorized by topic, making it simpler to find needed information  
+4. **Avoids missed details** – When responding to multiple emails in one, some points might get overlooked  
+5. **Respects the sender’s structure** – If they separated topics into different emails, keeping responses separate follows their logic  
 
 ### Tip #6: Delete "Done" emails - Aim for 0 inbox
 
