@@ -55,7 +55,7 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
   To\
   Subject: **🏫 Next Years Conference \[WAS: Field of Study]**
   :::
-  ::: good\
+  ::: good
   Figure: Good example - Email subject has been changed as the original topic is no longer relevant.
   :::
 
