@@ -17,6 +17,8 @@ related:
   - send-email-tasks-to-individuals
   - communication-are-you-specific-in-your-requirements
   - separate-messages
+  - reply-done-and-delete-the-email
+  - split-large-topics-into-multiple-blog-posts
 redirects:
   - do-you-send-tasks-one-email-at-a-time
   - email-unrelated-individually
