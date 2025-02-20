@@ -25,9 +25,9 @@ guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
 
 Written communication can easily cause misunderstandings. Help the reader understand your message better by:
 
-* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to
+* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to.\
   **Note:** “&gt;” is not needed when quoting from a web page
-* Your text should be kept to the left
+* Your text should be always kept to the left
 * [Add numbers to tasks](/number-tasks-questions) if the sender forgot.\
   Mention you changed the history. E.g. “(added numbers to tasks in the history, so we can clearly refer to them)”
 
