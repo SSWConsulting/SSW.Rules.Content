@@ -25,11 +25,12 @@ guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
 
 Written communication can easily cause misunderstandings. Help the reader understand your message better by:
 
-* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to
+* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to.\
   **Note:** “&gt;” is not needed when quoting from a web page
-* Your text should be kept to the left
+* Make the question/task followed by the respective answer in a logical order
 * [Add numbers to tasks](/number-tasks-questions) if the sender forgot.\
   Mention you changed the history. E.g. “(added numbers to tasks in the history, so we can clearly refer to them)”
+* Your text should be always kept to the left
 
 <!--endintro-->
 
@@ -67,6 +68,27 @@ Figure: Bad example - There's too much information with no reasonable order
 
 ### Hi Adam
 
+"Please change from X to Y"\
+Done - northwind365.com\
+"The program flow logic worries me a bit"\
+Sorry, this wasn't a final decision - I just put it there for testing purposes
+
+:::
+:::
+::: bad
+Figure: Bad example - Order is OK, but it's using quotes to reference others' text + no indentation + missing numbers on questions/tasks
+:::
+
+::: email-template
+
+| | |
+| -------- | --- |
+| To: | Adam |
+| Subject: | RE: Change on Northwind app |
+::: email-content
+
+### Hi Adam
+
 &nbsp;&nbsp;&nbsp; > 1. Please change from X to Y\
 Done - northwind365.com\
 &nbsp;&nbsp;&nbsp; > 2. The program flow logic worries me a bit\
@@ -74,8 +96,8 @@ Sorry, this wasn't a final decision - I just put it there for testing purposes
 
 :::
 :::
-::: bad
-Figure: Bad example - Even with order, without spacing the text becomes cramped and hard to read
+::: ok
+Figure: OK example - Even with ">", indentation and numbers, without spacing the text becomes cramped and hard to read
 :::
 
 ::: email-template

@@ -82,7 +82,7 @@ On CodeAuditor web page ssw.com.au/ssw/codeauditor
 
 From:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\> Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scan all your projects for coding <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">bugs and</span> errors:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Enforce industry best practices.
 
@@ -90,7 +90,7 @@ From:
 
 To:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\> Scan all your projects for coding errors
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Scan all your projects for coding errors
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - <mark>Guarantee</mark> industry best practices
 
