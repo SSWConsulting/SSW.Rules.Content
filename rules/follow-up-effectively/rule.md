@@ -69,6 +69,7 @@ Include '(Cc'ing {{ TIME }}@followupthen)' at the top so other email recipients 
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind, Brady Stroud |
@@ -160,7 +161,7 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
 
 Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
-- Right click the send button to schedule all the important messages in advance.
+* Right click the send button to schedule all the important messages in advance.
 
   ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 
