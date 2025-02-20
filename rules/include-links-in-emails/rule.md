@@ -10,6 +10,8 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - add-context-reasoning-to-emails
   - dones-do-you-include-useful-details-in-your-done-email
