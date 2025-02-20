@@ -19,7 +19,7 @@ Date formats should always be kept consistent across your application, more impo
 
 <!--endintro-->
 
-![Figure: Operating System's Regional Settings](./operatingsystem-language-setting.png)
+![Figure: Operating System's Regional Settings](operatingsystem-language-setting.png)
 **Figure: Operating System's Regional Settings**
 
 ::: bad  
@@ -60,12 +60,12 @@ It is required to set web browser language to English (Australia) after modifyin
 
 For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
 
-![Figure: Date format incorrect due to unmodified web page language settings](./PowerBI-wrong-date-format.png)
+![Figure: PowerBI-wrong-date](PowerBI-wrong-date-format.png)
 **Figure: Date format incorrect due to unmodified web page language settings**
 
 Go to Browser Setting | Language | Select English (Australia) as the top priority language:
 
-![Figure: Set English (Australia) as the top priority in the browser language settings](./browser-%20language-%20setting.png)
+![Figure: browser-language-setting](browser-language-setting.png)
 **Figure: Set English (Australia) as the top priority in the browser language settings**
 
-For more, refer to [software langauge setting rules](https://www.ssw.com.au/rules/make-sure-all-software-uses-english/).
+For more, refer to [Make Sure All Software Uses English rule](https://www.ssw.com.au/rules/make-sure-all-software-uses-english/).
