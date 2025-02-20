@@ -47,7 +47,7 @@ Figure: Good example - Easy to check what was done
 :::
 
 ::: greybox
-Done - northwind&#46;com/about-us/ 
+Done - northwind&#46;com/about-us/
 
 As requested on ssw2&#46;visualstudio&#46;com/Northwind/\_workitems/edit/00001
 :::
