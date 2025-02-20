@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/rob-thomlinson
 related:
   - safe-against-the-owasp-top-10
-guid: d6dc22d5-5862-4d46-8ef6-7b661ac65dab
+guid: 6023d10a-96c1-48d2-b6b4-931485396473
 ---
 
 Security should never be an afterthought when writing code. Every year, developers introduce vulnerabilities that lead to data breaches, financial losses, and reputational damage. The right cybersecurity tools can help identify security risks early, prevent attacks, and ensure compliance with security best practices.
@@ -26,9 +26,9 @@ SAST tools analyse source code for security vulnerabilities without executing th
 
 ✅ Recommended tools:
 
-* **SonarQube** (for code quality and security)
-* **Semgrep** (lightweight static analysis)
-* **Checkmarx** (enterprise-grade security scanning)
+- **SonarQube** (for code quality and security)
+- **Semgrep** (lightweight static analysis)
+- **Checkmarx** (enterprise-grade security scanning)
 
 ### 2. Dynamic Application Security Testing (DAST) tools
 
@@ -36,8 +36,8 @@ DAST tools test running applications by simulating attacks. They help identify v
 
 ✅ Recommended tools:
 
-* **OWASP ZAP** (open-source web application security scanner)
-* **Burp Suite** (penetration testing toolkit)
+- **OWASP ZAP** (open-source web application security scanner)
+- **Burp Suite** (penetration testing toolkit)
 
 ### 3. Software Composition Analysis (SCA) tools
 
@@ -45,9 +45,9 @@ Most applications rely on open-source dependencies, which may contain security v
 
 ✅ Recommended tools:
 
-* **Dependabot** (GitHub-integrated automated dependency updates)
-* **Snyk** (real-time vulnerability detection and fixes)
-* **OSS Index** (open-source security scanner)
+- **Dependabot** (GitHub-integrated automated dependency updates)
+- **Snyk** (real-time vulnerability detection and fixes)
+- **OSS Index** (open-source security scanner)
 
 ### 4. Secrets Detection tools
 
@@ -55,8 +55,8 @@ Developers sometimes accidentally commit API keys, passwords, or credentials to 
 
 ✅ Recommended tools:
 
-* **GitGuardian** (real-time secret scanning for repositories)
-* **TruffleHog** (deep secrets detection in git history)
+- **GitGuardian** (real-time secret scanning for repositories)
+- **TruffleHog** (deep secrets detection in git history)
 
 ### 5. Container and Cloud Security tools
 
@@ -64,9 +64,9 @@ If your application runs in containers or the cloud, security must extend beyond
 
 ✅ Recommended tools:
 
-* **Docker Scout** (container image vulnerability scanning)
-* **Kube-bench** (Kubernetes security benchmarking)
-* **AWS Inspector** (security assessment for cloud workloads)
+- **Docker Scout** (container image vulnerability scanning)
+- **Kube-bench** (Kubernetes security benchmarking)
+- **AWS Inspector** (security assessment for cloud workloads)
 
 ### 6. Code Signing and Supply Chain Security
 
@@ -74,18 +74,18 @@ With software supply chain attacks on the rise, developers should ensure that th
 
 ✅ Recommended tools:
 
-* **Sigstore Cosign** (secure code signing)
-* **in-toto** (software supply chain verification)
+- **Sigstore Cosign** (secure code signing)
+- **in-toto** (software supply chain verification)
 
-### 7. **API Security Testing tools
+### 7. \*\*API Security Testing tools
 
 APIs are a common attack vector, and testing them for security vulnerabilities is crucial. API security testing tools help developers validate authentication, authorization, and request handling.
 
 ✅ Recommended tools:
 
-* **Insomnia** (secure API testing with authentication and encryption support)
-* **Postman** (API development and security testing)
-* **OWASP Amass** (API reconnaissance and security analysis)
+- **Insomnia** (secure API testing with authentication and encryption support)
+- **Postman** (API development and security testing)
+- **OWASP Amass** (API reconnaissance and security analysis)
 
 ---
 
