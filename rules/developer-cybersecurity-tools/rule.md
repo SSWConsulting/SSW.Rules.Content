@@ -77,7 +77,7 @@ With software supply chain attacks on the rise, developers should ensure that th
 * **Sigstore Cosign** (secure code signing)
 * **in-toto** (software supply chain verification)
 
-### 7. \*\*API Security Testing tools
+### 7. API Security Testing tools
 
 APIs are a common attack vector, and testing them for security vulnerabilities is crucial. API security testing tools help developers validate authentication, authorization, and request handling.
 
