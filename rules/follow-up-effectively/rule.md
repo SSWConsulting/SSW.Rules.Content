@@ -61,8 +61,8 @@ There are some OK tools like delayed send and follow up flags... but the our Top
 
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
-Simply CC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
-Include '(Cc'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
+Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
+Include '(BCC'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
 
 ::: info
 **Warning:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
@@ -73,8 +73,8 @@ Include '(Cc'ing {{ TIME }}@followupthen)' at the top so other email recipients 
 | | |
 | -------- | --- |
 | To: | Bob Northwind, Brady Stroud |
-| Cc: | William Liebenberg, <1week@followupthen.com> |
-| Bcc: | |
+| Cc: | William Liebenberg |
+| Bcc: | <1week@followupthen.com> |
 | Subject: | Northwind.com - Errors in the logs |  
 ::: email-content  
 
@@ -97,7 +97,7 @@ Figure: Good example - Use <1week@followupthen.com> to be reminded of this email
 :::
 
 ::: info
-**Note:** You should be **BCC** when you are dealing with clients or in a case you do not want to be transparent. If you are work with colleagues, then it's better to use CC.
+**Note:** You should **BCC** when you are dealing with clients so they don't get the reminder. If you are work with colleagues that should also be reminded, then use **CC**. See more on [TO, CC and BCC methods](https://help.followupthen.com/knowledge-base/detailed-explanation-of-to-cc-and-bcc-methods/).
 :::
 
 ### 2. Outlook | Schedule Send
