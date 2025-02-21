@@ -2,8 +2,10 @@
 type: category
 title: Rules to Better AI Use
 guid: 9e0c432c-4925-4075-a824-5230e0e71354
-uri: rules-to-better-gpt
+uri: rules-to-better-ai
 consulting: https://www.ssw.com.au/consulting/gpt
+redirects:
+- rules-to-better-gpt
 index:
 - best-ai-tools
 - what-is-chatgpt
