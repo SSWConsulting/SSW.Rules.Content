@@ -1,14 +1,16 @@
 ---
-seoDescription: Monitor server uptimes daily with WhatsUp Gold and ensure maximum reliability and performance.
 type: rule
 title: Servers - Do you monitor the uptimes of all your servers daily?
+seoDescription: Monitor server uptimes daily with WhatsUp Gold and ensure
+  maximum reliability and performance.
 uri: monitor-the-uptimes-of-all-your-servers-daily
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
-related: []
+related:
+  - monitor-failed-login-attempts
 redirects:
   - do-you-monitor-the-uptimes-of-all-your-servers-daily
 created: 2017-07-10T23:10:04.000Z
