@@ -1,17 +1,19 @@
 ---
-seoDescription: Monitor failed login attempts to detect external attacks or internal mistakes with Passive Whats Up Gold Monitor.
 type: rule
-archivedreason:
 title: Do you monitor failed login attempts?
-guid: 77c5c5ae-a0e6-4efe-8c90-c3818dbf1e4c
+seoDescription: Monitor failed login attempts to detect external attacks or
+  internal mistakes with Passive Whats Up Gold Monitor.
 uri: monitor-failed-login-attempts
-created: 2019-07-24T20:54:14.0000000Z
 authors:
   - title: Steven Andrews
     url: https://ssw.com.au/people/steven-andrews
-related: []
+related:
+  - monitor-the-uptimes-of-all-your-servers-daily
 redirects:
   - do-you-monitor-failed-login-attempts
+created: 2019-07-24T20:54:14.000Z
+archivedreason: null
+guid: 77c5c5ae-a0e6-4efe-8c90-c3818dbf1e4c
 ---
 
 It is important to monitor failed login attempts to determine if you are being attacked from an external source or are having failed attempts from users within your organization. This can be achieved with **Passive Whats Up Gold Monitor**.
