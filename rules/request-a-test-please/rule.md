@@ -70,21 +70,21 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
 **Notes:**
 
-**#1** - Know the [definition of a bug](/definition-of-a-bug)
+**\#1** - Know the [definition of a bug](/definition-of-a-bug)
 
-**#2** - Understand the importance of [conducting a "Test Please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
+**\#2** - Understand the importance of [conducting a "Test Please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
 
-**#3** - Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
+**\#3** - Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
 
-**#4** - CC the product owner and relevant stakeholders
+**\#4** - CC the product owner and relevant stakeholders
 
-**#5** - Do not reply to this message until you can say:
+**\#5** - Do not reply to this message until you can say:
 
 * "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
 or
 * "**❌ Test Please failed** (as per Critical bugs reported)"
 
-**#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
+**\#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
 
 Regards,
 
@@ -101,7 +101,7 @@ If current version is better than the last version you can release (even with a 
 * You get to work on the failures ASAP
 :::
 
-### Don't send a 'Test Please' content via IM
+## Don't send a 'Test Please' content via IM
 
 You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
@@ -111,7 +111,7 @@ I need you to check my 'Test Please' email\
 See subject: **Product Name v1.11**"
 :::
 
-### What if you are doing an email test?
+## What if you are doing an email test?
 
 In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
 
@@ -120,7 +120,7 @@ For really important stuff you may need to actually send a 'Test Please' email t
 * Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
 * Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
 
-### What if you need to get input from a few people?
+## What if you need to get input from a few people?
 
 If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
 
@@ -134,7 +134,7 @@ In this case, make sure you include the original thread subject in your email, s
 
 This way everyone will have the entire history of the task and its progress.
 
-### What if you're doing a Windows Forms test?
+## What if you're doing a Windows Forms test?
 
 For Windows Forms test you should include this info to the email:
 
