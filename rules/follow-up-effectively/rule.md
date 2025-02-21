@@ -42,7 +42,7 @@ Efficient people don't rely on their memory and instead, use some way to make su
 
 To ensure you follow up on tasks, it is important to set up an action point so it can be forgotten until later. That frees up cognitive space so you can focus on something else but still be certain it will be actioned later.
 
-### The Tools
+## The tools
 
 There are some OK tools like delayed send and follow up flags... but the our Top 10 gold standard tools are:
 
@@ -62,9 +62,14 @@ There are some OK tools like delayed send and follow up flags... but the our Top
 [FollowUpThen](https://www.followupthen.com) is the best tool to use when a task arrives in your inbox that you want to make sure gets completed. It does all the administrative work for you.
 
 Simply BCC or email **{{ TIME }}@followupthen.com** and it will send you an email when that time expires, reminding you to follow up with another email.
-If you BCC, you can include '(Bcc'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
+Include '(BCC'ing {{ TIME }}@followupthen)' at the top so other email recipients know you will get the reminder.
+
+::: info
+**Warning:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
+:::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind, Brady Stroud |
@@ -72,7 +77,8 @@ If you BCC, you can include '(Bcc'ing {{ TIME }}@followupthen)' at the top so ot
 | Bcc: | <1week@followupthen.com> |
 | Subject: | Northwind.com - Errors in the logs |  
 ::: email-content  
-(Bcc'ing 1week@followupthen)
+
+(Cc'ing 1week@followupthen)
 
 ### Hi Bob
 
@@ -90,7 +96,9 @@ Thanks,
 Figure: Good example - Use <1week@followupthen.com> to be reminded of this email in one week
 :::
 
-**Note:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
+::: info
+**Note:** You should **BCC** when you are dealing with clients so they don't get the reminder. If you are work with colleagues that should also be reminded, then use **CC**. See more on [TO, CC and BCC methods](https://help.followupthen.com/knowledge-base/detailed-explanation-of-to-cc-and-bcc-methods/).
+:::
 
 ### 2. Outlook | Schedule Send
 
@@ -153,7 +161,7 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
 
 Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
-- Right click the send button to schedule all the important messages in advance.
+* Right click the send button to schedule all the important messages in advance.
 
   ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 
