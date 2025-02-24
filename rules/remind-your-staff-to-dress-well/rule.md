@@ -21,7 +21,7 @@ Sometimes people may need a reminder to follow the dress code. If you notice som
 1. Speak to them in person or send them a gentle reminder with a link to your dress code.
 
 ::: greybox
-"Hey Bob, I noticed you're wearing blue jeans today and it's a Wednesday. Don't forget we dress our best on a Wednesday because we invite clients in. Please avoid wearing those again. Here's the dress code to help you: [SSW dress code](https://www.ssw.com.au/rules/dress-code/)
+"Hey Bob, I noticed you're wearing blue jeans today and it's a Wednesday. Don't forget we dress our best on a Wednesday because we invite clients in. Please avoid wearing those again. Here's the dress code to help you: [SSW dress code](/dress-code)
 :::
 
 **Tip:** If there is someone you need to constantly remind, a great way to get them to remember is to tell them about helping with [reduce admin pain](/reduce-your-admin) and keep them accountable.
