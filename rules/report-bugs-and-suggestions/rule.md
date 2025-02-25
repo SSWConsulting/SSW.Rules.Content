@@ -1,6 +1,11 @@
 ---
 type: rule
 title: Do you know how to report bugs and give suggestions?
+seoDescription: Learn how to report software bugs and suggestions effectively
+  with 8 essential tips from SSW. Discover how to draft detailed bug reports,
+  structure suggestions, determine who to contact, and use proper formatting
+  with emojis to ensure your feedback leads to quick resolutions. Follow
+  industry best practices for bug tracking and product feedback management.
 uri: report-bugs-and-suggestions
 authors:
   - title: Adam Cogan
@@ -237,10 +242,6 @@ This means that anyone looking at the backlog can glean its nature at a glance, 
 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
-
-::: info
-We have a proposal to change the standard for a bug from 🐛 to ⚠️ - [Vote here](https://github.com/carloscuesta/gitmoji/issues/1265).
-:::
 
 Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 
