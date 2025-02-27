@@ -50,10 +50,10 @@ App routing (also known as Single Page Application (SPA) Routing) uses JavaScrip
 * Potential State Management Challenges – Managing global state across dynamically loaded components can be more complex compared to traditional page-based navigation.
 
 
-# Steps to migrate 
+## Steps to migrate 
 
 ## Page Router Component 
-```
+```ts
 / pages/[slug].tsx
 export const getStaticProps = async ({ params }) => {
   const id = params.slug;
@@ -85,7 +85,7 @@ export default function Page(props) {
 
 In the App Router, pages are now inside the `/app` directory instead of /pages. Create a new folder for dynamic routes:
 
-```
+```bash
 /app/post/[slug]/page.tsx
 ```
 ## Step 2 - Update the Component to Use Server Components
@@ -93,7 +93,7 @@ By default, components in the App Router are Server Components, meaning you can 
 
 **Migrated App Router Component** (```/app/post/[slug]/page.tsx```)
 
-```
+```ts
 export default async function Page({ params }: { params: { slug: string } }) {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.slug}`);
   const post = await res.json();
@@ -114,7 +114,7 @@ In the Page Router, ```getStaticPaths``` was used to predefine dynamic routes. I
 
 Add ```generateStaticParams``` for Static Pre-rendering
 
-```
+```ts
 export async function generateStaticParams() {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const posts = await res.json();
@@ -130,7 +130,7 @@ export async function generateStaticParams() {
 
 In the App Router, **fetching is cached by default**. You can configure it with ```revalidate``` to enable **Incremental Static Regeneration (ISR)**:
 
-```
+```ts
 export default async function Page({ params }: { params: { slug: string } }) {
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.slug}`, {
     next: { revalidate: 60 }, // Revalidate every 60 seconds
