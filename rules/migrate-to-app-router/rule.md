@@ -51,8 +51,6 @@ App routing (also known as Single Page Application (SPA) Routing) uses JavaScrip
 * Client-Side Performance Considerations – Handling large-scale applications with extensive client-side rendering may lead to higher memory usage and performance bottlenecks.
 * Potential State Management Challenges – Managing global state across dynamically loaded components can be more complex compared to traditional page-based navigation.
 
-# Steps to migrate
-
 ## Steps to migrate - Page Router Component 
 ```ts
 // pages/[slug].tsx
