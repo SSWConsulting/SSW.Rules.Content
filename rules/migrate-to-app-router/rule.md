@@ -92,7 +92,7 @@ In the App Router of Next.js, routing is managed through a directory-based syste
 |-----------------------------------|----------------------------------------|----------------------------------|
 | `/pages/post/[slug].tsx`          | `/app/post/[slug]/page.tsx`            | `/post/123`, `/post/abc`, `post/*`         |
 
-## Step 1 - Move the Component to the App Router Folder**
+## Step 1 - Move the Component to the App Router Folder
 
 In the App Router, pages are now inside the `/app` directory instead of /pages. Create a new folder for dynamic routes:
 
