@@ -21,7 +21,7 @@ Before pushing back, we need to make sure that we understand why the person decl
 - **Timing issues** – A business isn't ready to implement the suggested solution.
 - **Misalignment with needs** – A client doesn’t see how the solution fits into their business.
 - **Unclear value proposition** – The client doesn’t understand the return on investment.
-- **Prexisting solution** - The client has an existing solution that currently meets their needs.
+- **Preexisting solution** - The client has an existing solution that currently meets their needs.
 
 Instead of immediately trying to resolve their issues with the solution, **ask questions** to understand their real hesitation:
 ::: greybox
