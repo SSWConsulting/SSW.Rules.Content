@@ -120,7 +120,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 }
 ```
 
-✅ No Need for getStaticProps or getStaticPaths – The App Router automatically handles static generation and caching.
+✅ No Need for getStaticProps or getStaticPaths – The App Router automatically handles static generation and caching. (`dynamicParams` can be used as replacement of `fallback`)
 
 ## Step 3 - Handle Dynamic Routes with ```generateStaticParams```
 
