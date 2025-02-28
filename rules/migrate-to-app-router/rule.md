@@ -53,9 +53,10 @@ App routing (also known as Single Page Application (SPA) Routing) uses JavaScrip
 
 # Steps to migrate
 
-## Steps to migrate 
+## Steps to migrate
 
-## Page Router Component 
+## Page Router Component
+
 ```ts
 / pages/[slug].tsx
 export const getStaticProps = async ({ params }) => {
