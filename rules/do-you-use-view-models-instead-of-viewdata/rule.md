@@ -18,8 +18,8 @@ guid: ad2abb14-7013-4ab0-ac89-d362914640d5
 
 ASP.NET CORE MVC provides several ways to pass data to views:
 
-- Weakly typed data: ViewData and ViewBag
-- Strongly typed data: ViewModel
+* Weakly typed data: ViewData and ViewBag
+* Strongly typed data: ViewModel
 
 <!--endintro-->
 
