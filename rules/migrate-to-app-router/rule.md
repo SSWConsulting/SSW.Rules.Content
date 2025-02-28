@@ -57,7 +57,8 @@ App routing (also known as Single Page Application (SPA) Routing) uses JavaScrip
 
 ## Page Router Component 
 ```ts
-/ pages/[slug].tsx
+// pages/[slug].tsx
+
 export const getStaticProps = async ({ params }) => {
   const id = params.slug;
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
