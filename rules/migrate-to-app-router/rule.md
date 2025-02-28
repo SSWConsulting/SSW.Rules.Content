@@ -167,4 +167,4 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
 Once all your components are migrated, delete the old /pages directory to fully transition to the App Router.
 
-For a comprehensive guide on [migrating from the Pages Router to the App Router](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration?utm_source=chatgpt.com) in Next.js, please refer to the official Next.js documentation.
+For a comprehensive guide on [migrating from the Pages Router to the App Router](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration) in Next.js, please refer to the official Next.js documentation.
