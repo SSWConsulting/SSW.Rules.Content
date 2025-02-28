@@ -53,9 +53,7 @@ App routing (also known as Single Page Application (SPA) Routing) uses JavaScrip
 
 # Steps to migrate
 
-## Steps to migrate 
-
-## Page Router Component 
+## Steps to migrate - Page Router Component 
 ```ts
 // pages/[slug].tsx
 
