@@ -62,7 +62,7 @@ Once you understand their objections, adjust your approach. Here’s how:
 
 ## Step 3: Present with Confidence
 
-When you go back, don’t just repeat your pitch **reframe it** based on what you’ve learned. Emphasize the value from their perspective, and make it clear you’re there to solve the problem.
+When you go back, don’t just repeat your pitch **reframe it** based on what you’ve learned. Emphasise the value from their perspective, and make it clear you’re there to solve the problem.
 
 ::: greybox
 “I understand your concern about cost, but let me show you how one of our clients in your industry reduced expenses by 20% within six months by using this approach.”
