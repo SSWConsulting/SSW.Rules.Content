@@ -1,7 +1,7 @@
 ---
-seoDescription: When a client says no, it doesn’t always mean the conversation is over. Learn how to return with different arguments and increase your chances of success.
 type: rule
 title: What to do when a client says no (Go back with different arguments)
+seoDescription: When a client says no, it doesn’t always mean the conversation is over. Learn how to return with different arguments and increase your chances of success.
 uri: what-to-do-when-a-client-says-no
 authors:
   - title: Rob Thomlinson
