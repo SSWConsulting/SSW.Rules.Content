@@ -39,6 +39,7 @@ Each route corresponds to a page and loads a new HTML file from the server (or a
 App routing (also known as Single Page Application (SPA) Routing) uses JavaScript to handle route changes dynamically without reloading the page. Frameworks like React, Angular, Vue, and Next.js use this approach.
 
 **✅ Pros**:
+
 * Persistent Layout & Faster Navigation - It keeps layouts mounted, reducing re-renders and enabling
 * Clear Client-Server Split – App Routing optimizes performance by handling data on the server and interactivity on the client. 🚀
 * Better User Experience – Feels like a native app with smooth navigation.
@@ -46,9 +47,11 @@ App routing (also known as Single Page Application (SPA) Routing) uses JavaScrip
 * Reduced Server Load – Only API calls are made instead of reloading entire pages.
 
 **❌ Cons**:
+
 * Client-Side Performance Considerations – Handling large-scale applications with extensive client-side rendering may lead to higher memory usage and performance bottlenecks.
 * Potential State Management Challenges – Managing global state across dynamically loaded components can be more complex compared to traditional page-based navigation.
 
+# Steps to migrate
 
 ## Steps to migrate 
 
@@ -88,7 +91,9 @@ In the App Router, pages are now inside the `/app` directory instead of /pages. 
 ```bash
 /app/post/[slug]/page.tsx
 ```
+
 ## Step 2 - Update the Component to Use Server Components
+
 By default, components in the App Router are Server Components, meaning you can directly fetch data without getStaticProps or getServerSideProps. Update your component:
 
 **Migrated App Router Component** (```/app/post/[slug]/page.tsx```)
@@ -106,6 +111,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   );
 }
 ```
+
 ✅ No Need for getStaticProps or getStaticPaths – The App Router automatically handles static generation and caching.
 
 ## Step 3 - Handle Dynamic Routes with ```generateStaticParams```
@@ -124,6 +130,7 @@ export async function generateStaticParams() {
   }));
 }
 ```
+
 ✅ Equivalent to ```getStaticPaths```, ensuring pre-rendering for static pages.
 
 ## Step 4 - Enable Caching and Revalidation (Optional)
@@ -145,10 +152,11 @@ export default async function Page({ params }: { params: { slug: string } }) {
   );
 }
 ```
+
 ✅ Improves Performance – Pages are cached and revalidated only when needed.
 
 ## Step 5 - Remove the Old pages Directory
-Once all your components are migrated, delete the old /pages directory to fully transition to the App Router.
 
+Once all your components are migrated, delete the old /pages directory to fully transition to the App Router.
 
 For a comprehensive guide on [migrating from the Pages Router to the App Router](https://nextjs.org/docs/app/building-your-application/upgrading/app-router-migration?utm_source=chatgpt.com) in Next.js, please refer to the official Next.js documentation.
