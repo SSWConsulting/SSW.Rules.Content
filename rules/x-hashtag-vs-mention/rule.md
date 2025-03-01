@@ -2,9 +2,9 @@
 seoDescription: Learn when to use hashtags vs mentions in tweets for better engagement.
 type: rule
 archivedreason: 
-title: X - Do you know when to use hashtags vs mentions?
+title: X (previously Twitter) - Do you know when to use hashtags vs mentions?
 guid: e738f965-78f2-44c7-8f28-805bb07a963b
-uri: do-you-know-when-to-use-a-hashtag-vs-a-mention
+uri: x-hashtag-vs-mention
 created: 2014-07-04T05:49:34.0000000Z
 authors:
 - title: Adam Cogan
@@ -18,6 +18,7 @@ redirects:
 - do-you-know-when-to-use-a-hashtag-vs-a-@mention
 - twitter-do-you-know-when-to-use-a-hashtag-vs-a-mention
 - twitter-do-you-know-when-to-use-a-hashtag-vs-a-@mention
+- do-you-know-when-to-use-a-hashtag-vs-a-mention
 
 ---
 
