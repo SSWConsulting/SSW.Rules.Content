@@ -1,9 +1,9 @@
 ---
 type: rule
-title: Do you use Bootstrap?
+title: Do you use CSS frameworks?
 seoDescription: Do you use Bootstrap to create responsive and user-friendly
   websites that adapt to various devices and browsers?
-uri: do-you-use-bootstrap
+uri: css-frameworks
 authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
@@ -14,6 +14,7 @@ authors:
 related: []
 redirects:
   - do-you-use-twitter-bootstrap
+  - do-you-use-bootstrap
 created: 2012-07-23T16:04:48.000Z
 archivedreason: null
 guid: a77d521f-eab3-4490-9ed2-95cec7026f9f
