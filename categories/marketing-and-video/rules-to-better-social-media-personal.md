@@ -24,7 +24,7 @@ index:
 - x-hashtag-vs-mention
 - thank-others-for-each-reference-to-you
 - x-verify-your-account
-- twitter-tip-content-creators
+- x-tip-creators
 - x-change-name-when-travelling
 - x-business
 - best-tips-for-getting-started-on-tiktok
