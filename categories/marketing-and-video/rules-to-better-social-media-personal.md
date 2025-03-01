@@ -21,7 +21,7 @@ index:
 - linkedin-creator-mode
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
-- do-you-know-when-to-use-a-hashtag-vs-a-mention
+- x-hashtag-vs-mention
 - thank-others-for-each-reference-to-you
 - x-verify-your-account
 - twitter-tip-content-creators
