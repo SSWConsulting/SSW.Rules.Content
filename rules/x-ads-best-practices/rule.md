@@ -2,7 +2,7 @@
 seoDescription: Maximize your Twitter ad campaigns' performance by following best practices and utilizing expert resources on campaign setup, ad creation, and budget optimization.
 type: rule
 archivedreason:
-title: X - Do you follow the best practices for ads?
+title: X (previously Twitter) - Do you follow the best practices for ads?
 guid: d45a1d5c-b871-4f39-bf35-c7082dc77109
 uri: x-ads-best-practices
 created: 2018-08-24T06:28:19.0000000Z
