@@ -26,6 +26,7 @@ index:
 - x-verify-your-account
 - twitter-tip-content-creators
 - x-change-name-when-travelling
+- x-business
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
 - do-you-know-how-to-use-social-media-effectively-in-china
