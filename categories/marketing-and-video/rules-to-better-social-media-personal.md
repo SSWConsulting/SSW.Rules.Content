@@ -25,7 +25,7 @@ index:
 - thank-others-for-each-reference-to-you
 - twitter-how-to-verify-your-account
 - twitter-tip-content-creators
-- change-your-twitter-name-when-travelling
+- x-change-name-when-travelling
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
 - do-you-know-how-to-use-social-media-effectively-in-china
