@@ -40,7 +40,7 @@ index:
 - answer-im-questions-in-order
 - teams-usage
 - use-microsoft-teams-room
-- use-text-formatting-to-mention-email-subjects
+- refer-to-email-subject
 - when-to-use-microsoft-teams-preview
 ---
 
