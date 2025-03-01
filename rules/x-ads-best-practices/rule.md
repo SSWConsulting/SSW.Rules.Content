@@ -25,12 +25,11 @@ There are some best practices you should be aware of when creating ad campaigns 
 
 Below are listed some good resources you can use to get the most out of your ad campaigns:
 
-- [How to Set up a Successful Twitter Advertising Campaign](https://sproutsocial.com/insights/twitter-advertising/)
-- [Twitter Ads: The 101-Point Guide For Stomping On Your Competition](https://klientboost.com/twitter/twitter-ads)
-- [How to Create Stand Out Twitter Ads: Simple Tips and Tricks](https://medium.com/@crello/how-to-create-stand-out-twitter-ads-simple-tips-and-tricks-2f7373760504)
-- [How to Use Twitter Ads Like a Pro and Get the Most Out of Your Budget](https://blog.hootsuite.com/twitter-ads/)
+* [How to Set up a Successful Twitter Advertising Campaign](https://sproutsocial.com/insights/twitter-advertising/)
+* [Twitter Ads: The 101-Point Guide For Stomping On Your Competition](https://klientboost.com/twitter/twitter-ads)
+* [How to Create Stand Out Twitter Ads: Simple Tips and Tricks](https://medium.com/@crello/how-to-create-stand-out-twitter-ads-simple-tips-and-tricks-2f7373760504)
+* [How to Use Twitter Ads Like a Pro and Get the Most Out of Your Budget](https://blog.hootsuite.com/twitter-ads/)
 
 Historical:
 
-- [Twitter Best Practices for Business in 2021](https://www.marketingdigibook.com/blog/twitter-best-practices/)
-
+* [Twitter Best Practices for Business in 2021](https://www.marketingdigibook.com/blog/twitter-best-practices/)
