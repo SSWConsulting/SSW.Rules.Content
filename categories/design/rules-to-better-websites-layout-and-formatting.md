@@ -14,6 +14,7 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
+- css-frameworks
 - css-changes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work

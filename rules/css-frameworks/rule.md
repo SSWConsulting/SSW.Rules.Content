@@ -1,9 +1,9 @@
 ---
 type: rule
-title: Do you use Bootstrap?
+title: Do you use CSS frameworks?
 seoDescription: Do you use Bootstrap to create responsive and user-friendly
   websites that adapt to various devices and browsers?
-uri: do-you-use-bootstrap
+uri: css-frameworks
 authors:
   - title: Adam Stephensen
     url: https://ssw.com.au/people/adam-stephensen
@@ -14,6 +14,7 @@ authors:
 related: []
 redirects:
   - do-you-use-twitter-bootstrap
+  - do-you-use-bootstrap
 created: 2012-07-23T16:04:48.000Z
 archivedreason: null
 guid: a77d521f-eab3-4490-9ed2-95cec7026f9f
@@ -47,9 +48,9 @@ Read our [Rules to Better UI (Bootstrap)](/rules-to-better-ui-bootstrap).
 
 One of the benefits of using Bootstrap over a library such as [Shadcn](https://ui.shadcn.com) is that it's widely supported across a large number of Front end frameworks. Take a look at the following Bootstrap integrations for example:
 
-- [BootstrapVue](https://bootstrap-vue.org)
-- [Angular](https://ng-bootstrap.github.io/#/home)
-- [React Bootstrap](https://react-bootstrap.netlify.app)
+* [BootstrapVue](https://bootstrap-vue.org)
+* [Angular](https://ng-bootstrap.github.io/#/home)
+* [React Bootstrap](https://react-bootstrap.netlify.app)
 
 While you can use Bootstrap without any framework specific integrations, using one of the libraries can save you a lot of time managing your css classes and writing boilerplate code while building your Interface. The front end frameworks listed above are ultimately just wrappers for using Bootstrap, which is little more than a CSS library. This means that you can use Bootstrap with any front end framework of your choosing. You can even use it for static html pages provided that you include links to the required JavaScript and CSS files in your pages. This can be achieved by adding a link to bootstrap's [CDN](https://getbootstrap.com) in your pages.
 
