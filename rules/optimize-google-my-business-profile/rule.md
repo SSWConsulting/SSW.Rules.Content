@@ -1,8 +1,7 @@
 ---
 seoDescription: Optimize your Google My Business profile for better customer attraction and online visibility.
 type: rule
-title: Google Business - Do you know how to optimize your business
-  profile?
+title: Google Business - Do you know how to optimize your Google Business profile?
 uri: optimize-google-my-business-profile
 authors:
   - title: Camilla Rosa Silva
@@ -22,24 +21,24 @@ It’s important to keep all information about your business online up to date. 
 
 Follow this checklist to make sure you have everything covered:
 
-1. Business name – make sure it's consistent with your website and social media ([Do you know the value of consistency?](/the-value-of-consistency))
-2. Address – correct street number and suite number, if needed
-3. Phone – is number the same one you have on your website?
-4. Hours - add the correct ones.
+1. **Business name** – make sure it's consistent with your website and social media ([Do you know the value of consistency?](/the-value-of-consistency))
+2. **Address** – correct street number and suite number, if needed
+3. **Phone** – is number the same one you have on your website?
+4. **Hours** - add the correct ones.
    * Public holidays - update them at the beginning of every year. Can you imagine a client showing up to a closed business?
-5. Business description and category – add this information to help attract potential customers
-6. Customer reviews – whether you get good or bad reviews, make sure you reply to them.
+5. **Business description and category** – add this information to help attract potential customers
+6. **Customer reviews** – whether you get good or bad reviews, make sure you reply to them.
    * If there was a problem, try to understand the situation and help them.
    * If you received a glowing review, say thanks!
-7. Products/services – in this description field, use SEO keywords that people usually use to look for the product/service. This will make your profile more ‘[Googable](https://www.urbandictionary.com/define.php?term=googable)’.
-8. Photos - upload cool and real photos of your business.
+7. **Products/services** – in this description field, use SEO keywords that people usually use to look for the product/service. This will make your profile more ‘[Googable](https://www.urbandictionary.com/define.php?term=googable)’.
+8. **Photos** - upload cool and real photos of your business.
    * Front and inside of your business
    * Your team
    * Events
    * Specific shots e.g. your menu if you own a restaurant.
-9. Posting feature – if you want to share a new service you are offering or hosting an event, you can use this feature to communicate it to your customers.
-10. Mobile app - add your business to your Google Maps mobile app, so you can make edits when needed
+9. **Posting feature** – if you want to share a new service you are offering or hosting an event, you can use this feature to communicate it to your customers.
+10. **Mobile app** - add your business to your Google Maps mobile app, so you can make edits when needed
 
-* Do this by adding your personal Gmail address as a Manager account
-
-![Figure: In Business Profile Settings, you can invite other email accounts to manage the business profile](google-business.jpg)
+  * Do this by adding your personal Gmail address as a Manager account:
+  
+  ![Figure: In Business Profile Settings, you can invite other email accounts to manage the business profile](google-business.jpg)
