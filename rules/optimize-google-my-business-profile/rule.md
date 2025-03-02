@@ -38,3 +38,7 @@ Follow this checklist to make sure you have everything covered:
    * Events
    * Specific shots e.g. your menu if you own a restaurant.
 9. Posting feature – if you want to share a new service you are offering or hosting an event, you can use this feature to communicate it to your customers.
+10. Mobile app - add your business to your Google Maps mobile app, so you can make edits when needed
+   * Do this by adding your personal Gmail address as a Manager account
+
+![Figure: In Business Profile Settings, you can invite other email accounts to manage the business profile](google-business.jpg)
