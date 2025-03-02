@@ -11,6 +11,8 @@ authors:
     url: https://www.ssw.com.au/people/seth-daily
 related:
   - why-your-business-should-be-on-google-my-business
+redirects:
+  - how-to-optimize-your-google-my-business-profile
 created: 2022-05-10T23:23:10.337Z
 guid: 75cb8ea9-146f-487e-b0a4-9a953154e3c0
 ---
