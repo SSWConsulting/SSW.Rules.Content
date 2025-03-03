@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you follow semver when publishing npm packages?
-seoDescription: When publishing npm packages, following Semantic Versioning (SemVer) is important for communicate changes clearly and maintain compatibility for your users. Learn how to manage versions responsibly and build trust with your user.  
+seoDescription: When publishing npm packages, following Semantic Versioning (semver) is important for communicate changes clearly and maintain compatibility for your users. Learn how to manage versions responsibly and build trust with your user.  
 uri: follow-semver-when-publishing-npm-packages
 authors:
   - title: Ben Neoh
@@ -14,13 +14,13 @@ created: 2024-12-5T08:33:21.000Z
 guid: 03d090d3-d813-43d9-998e-209c895050b3
 ---
 
-When publishing an npm package, following **Semantic Versioning (SemVer)** is essential. It communicates changes clearly to your users and ensures smooth updates for their projects.
+When publishing an npm package, following **Semantic Versioning (semver)** is essential. It communicates changes clearly to your users and ensures smooth updates for their projects.
 
 <!--endintro-->
 
-## Why use SEMVER in NPM Publishing
+## Why use semver in NPM Publishing
 
-Semantic Versioning (SemVer) helps your users understand the impact of updates and manage their own dependencies more effectively. By adhering to SemVer, you make it clear whether an update introduces breaking changes, new features, or just bug fixes:
+Semantic Versioning (semver) helps your users understand the impact of updates and manage their own dependencies more effectively. By adhering to semver, you make it clear whether an update introduces breaking changes, new features, or just bug fixes:
 
 * **💥 MAJOR (Breaking Changes):** Signals to users that there are incompatible changes.
 * **🚀 MINOR (New Features):** Informs users about new features that won’t break existing functionality.
@@ -46,7 +46,7 @@ For major updates, clearly communicate the breaking changes in your release note
 
 **✅ Figure: Good Example - Tell public about the major release update and breaking changes**
 
-## Tools to Help You Follow SemVer
+## Tools to Help You Follow semver
 
 * **[📝 changesets](https://www.npmjs.com/package/changeset)**
   A tool designed to manage versioning, changelogs, and release workflows in a more structured way. It helps you track changes in your codebase with "changeset" files that describe the changes made and their version impact, ensuring consistent versioning and changelog generation.
@@ -55,18 +55,18 @@ For major updates, clearly communicate the breaking changes in your release note
   An automated tool that helps you manage versioning and changelogs based on your commit messages. It ensures that versions are incremented correctly according to your changes.
 
 * **[🔄 Standard Version](https://github.com/conventional-changelog/standard-version)**  
-  A tool for automating versioning and changelog generation based on conventional commit messages. It follows the rules of SemVer and can help reduce manual errors in version management.
+  A tool for automating versioning and changelog generation based on conventional commit messages. It follows the rules of semver and can help reduce manual errors in version management.
 
 * **[📚 Keep a Changelog](https://keepachangelog.com/)**  
   A standard for writing clear and consistent changelogs. Keeping a changelog is essential for communicating breaking changes and other updates clearly with users.
 
 * **[🔢 semver](https://www.npmjs.com/package/semver)**  
-  A library that helps parse and compare version numbers. It’s useful for checking if a version change follows the SemVer rules.
+  A library that helps parse and compare version numbers. It’s useful for checking if a version change follows the semver rules.
 
 * **[📖 Semantic Versioning Specification](https://github.com/semver/semver/blob/master/semver.md)**  
-  The official guide for Semantic Versioning. It outlines the full specification and provides more detailed rules that you should follow when working with SemVer.
+  The official guide for Semantic Versioning. It outlines the full specification and provides more detailed rules that you should follow when working with semver.
 
-## Important SemVer Rules to Follow ✅
+## Important Semver Rules to Follow ✅
 
 Here are some key rules from the [Semantic Versioning Specification](https://github.com/semver/semver/blob/master/semver.md) that you should keep in mind:
 
@@ -74,7 +74,7 @@ Here are some key rules from the [Semantic Versioning Specification](https://git
    Version numbers must always increase. If you publish a lower version than the previous one, it will cause issues for users.
 
 2. **Pre-release Versions and Build Metadata**  
-   SemVer allows for the use of pre-release versions (e.g., `1.0.0-alpha.1`) and build metadata (e.g., `1.0.0+20130313144700`). These should be used to indicate versions that are not ready for production or specific builds that don’t affect the versioning rules.
+   Semver allows for the use of pre-release versions (e.g., `1.0.0-alpha.1`) and build metadata (e.g., `1.0.0+20130313144700`). These should be used to indicate versions that are not ready for production or specific builds that don’t affect the versioning rules.
 
 3. **Incrementing Versions**  
    * **Patch**: Only increment for bug fixes and minor changes that do not affect the API.  
