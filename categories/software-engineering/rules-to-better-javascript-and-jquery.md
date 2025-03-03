@@ -31,6 +31,7 @@ index:
 - do-you-use-the-best-javascript-libraries
 - web-ui-libraries
 - the-best-tool-to-debug-javascript
+- link-local-npm-dependency
 
 ---
 
