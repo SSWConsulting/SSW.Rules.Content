@@ -1,7 +1,7 @@
 ---
-seoDescription: Optimize website performance to enhance user experience and improve search engine rankings with efficient page load times, compressed images, and optimized database queries.
+seoDescription: Optimize website performance to enhance user experience and improve search engine rankings with efficient page load times, compressed images, and optimized database queries
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/website-page-speed
 title: Do you analyze your website performance?
 guid: 0198dd17-a1f4-4e58-b23a-d2e87a393f3a
 uri: analyze-website-performance

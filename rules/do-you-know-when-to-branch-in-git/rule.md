@@ -19,6 +19,7 @@ authors:
     url: https://ssw.com.au/people/gabriel-george
 related:
   - do-you-use-the-best-deployment-tool
+  - branch-naming
 redirects: []
 ---
 
@@ -28,7 +29,7 @@ Using this strategy, **master** is always production-ready and deployable.
 
 <!--endintro-->
 
-![](finishing-a-feature-with-world-class-flow.jpg)
+![Finishing a Feature with World Class Flow](finishing-a-feature-with-world-class-flow.jpg)
 
 ::: greybox
 **Note:** This rule applies to git. For branching advice in TFVC, see [when to branch](/do-you-know-when-to-branch).
@@ -70,11 +71,11 @@ Figure: Bad example - Branch name is not descriptive
 :::
 
 ```console
-git branch create-basic-web-application
+git branch feature/1234-create-basic-web-application
 ```
 
 ::: good
-Figure: Good example - Branch name describes the intent of the change
+Figure: Good example - Branch name describes the intent of the change and follows a [branch naming convention](/branch-naming)
 :::
 
 **It is critical that this branch always comes off master, not another feature branch. Master is the only branch that is mandated to be in a deployable state, so any other option is unsafe.**

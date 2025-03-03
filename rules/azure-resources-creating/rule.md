@@ -81,6 +81,7 @@ So if you aren't manually creating your Azure resources, what options do you hav
 * Much simpler syntax than ARM JSON
 * Handles resource dependencies automatically
 * [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell) for publishing versioned and reusable architectures
+* No need for deploy scripts! There's an [bicep-deploy](https://github.com/Azure/bicep-deploy) GitHub Action from Microsoft to make it easy add deployments to your workflows
 
 ::: greybox
 **Tip:** If you are assigning any role assignment using bicep, make sure it doesn't exist before. (Using Azure Portal)

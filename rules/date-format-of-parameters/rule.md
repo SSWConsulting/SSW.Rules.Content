@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure consistent date formatting in your parameters regardless of browser settings for seamless internationalization.
 type: rule
 archivedreason:
 title: Internationalization - Do you pay attention to the date format of your parameters?

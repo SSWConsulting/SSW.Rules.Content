@@ -2,7 +2,7 @@
 seoDescription: Boost your online presence by leveraging brand power and social signals, increasing website visibility and driving organic rankings through strategic social media engagement and linking.
 type: rule
 archivedreason:
-title: Do you know about Brand Power and Social Signals?
+title: Basics - Do you know about Brand Power and Social Signals?
 guid: 5358382b-6203-4784-ab95-699bf9e44357
 uri: do-you-know-anything-about-brand-power-and-social-signals
 created: 2019-04-17T02:13:41.0000000Z

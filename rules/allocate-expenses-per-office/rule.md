@@ -1,5 +1,5 @@
 ---
-seoDescription: Learn how to accurately allocate expenses per office in a multi-location business, improving financial reporting and cost management.
+seoDescription: Learn how to accurately allocate expenses per office in a multi-location business, improving financial reporting and cost management
 type: rule
 title: Expenses - Do you know how to allocate expenses per office?
 uri: allocate-expenses-per-office

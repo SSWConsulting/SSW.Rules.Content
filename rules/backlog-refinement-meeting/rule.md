@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how Product Backlog Refinement meetings improve Scrum efficiency by ensuring clear, ready-to-go PBIs for streamlined Sprint Planning.
 type: rule
 title: Do you have a Product Backlog refinement meeting?
 uri: backlog-refinement-meeting
@@ -44,15 +45,19 @@ The [Scrum Guide](https://scrumguides.org/scrum-guide.html) mentions the process
 
 This process involves refining the PBIs in the backlog and adding a "Ready" tag or status when the PBI has met the [Definition of Ready](/have-a-definition-of-ready).
 
+`youtube: https://www.youtube.com/watch?v=lMpeffmoc0I`
+**Video: Backlog Refinement Meetings| Calum Simpson | Rules (3 min)**
+
 To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting with the following agenda:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ TECH LEAD }}, {{ CHOSEN DEVELOPER }} |
 | Cc:      | {{ REST OF THE SCRUM TEAM }} |
 | Recurrence:      | {{ ONCE PER SPRINT }} |
-| Subject: | Product Backlog Refinement –  {{ PROJECT NAME }} |
+| Subject: | {{ PROJECT NAME }} - Product Backlog Refinement |
 ::: email-content
 
 This meeting is to perform Product Backlog Refinement.

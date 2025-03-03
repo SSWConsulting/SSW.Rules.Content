@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn about Thin Controllers, Fat Models, and Dumb Views while discovering how to structure efficient software architecture.
 type: rule
 title: Do you use Thin Controllers, Fat Models, and Dumb Views?
 uri: do-you-use-thin-controllers-fat-models-and-dumb-views
@@ -17,8 +18,8 @@ See more about **Thin Controllers**, **Fat Models**, and **Dumb Views**.
 
 ### Thin Controllers
 
-You need to think of a controller as more of a coordinator than a controller. 
-It is responsible for calling the business layer and passing from the business layer to the view. 
+You need to think of a controller as more of a coordinator than a controller.
+It is responsible for calling the business layer and passing from the business layer to the view.
 
 It is also responsible for process flow.
 

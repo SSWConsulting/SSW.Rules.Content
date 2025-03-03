@@ -17,7 +17,7 @@ index:
 - change-from-x-to-y
 - when-asked-to-change-content-do-you-reply-with-the-content-before-and-after-the-change
 - email-send-a-v2
-- do-you-cc-everyone-and-reply-to-all-when-necessary
+- cc-and-reply-to-all
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
 - follow-up-emails-effectively
@@ -40,7 +40,7 @@ index:
 - screenshots-avoid-walls-of-text
 - avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
-- do-you-avoid-replying-to-all-when-you-are-only-bcced
+- avoid-replying-to-all-when-bcced
 - email-add-or-remove-someone-from-conversation
 - replying-in-the-same-medium
 - follow-up-unanswered-email
@@ -49,12 +49,12 @@ index:
 - good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
-- do-you-send-tasks-one-email-at-a-time
+- split-emails-by-topic
 - duplicate-email-draft
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
 - do-you-respond-to-each-email-individually
-- do-you-use-indentation-for-readability
+- indent
 - enforce-the-text-meaning-with-icons-and-emojis
 - email-avoid-inline
 - are-you-careful-with-your-spelling-grammar-and-punctuation
@@ -67,7 +67,7 @@ index:
 - do-you-avoid-using-words-that-make-your-email-like-junk-mail
 - how-to-hand-over-tasks-to-others
 - do-you-know-how-to-reduce-spam
-- do-you-know-not-to-send-attachments-in-emails
+- links-or-attachments-in-emails
 - avoid-using-share-functionality
 - do-you-know-when-to-use-plus-one
 - do-you-manage-your-email-accounts

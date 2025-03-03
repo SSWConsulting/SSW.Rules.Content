@@ -15,6 +15,7 @@ When working on multiple related JavaScript projects, you may need to test chang
 
 <!--endintro-->
 
+
 ## How `npm link` works
 
 `npm link` creates a symbolic link between a globally registered local package and a project that depends on it.
@@ -71,8 +72,9 @@ Instead of linking, you can install a local package directly:
 ```sh
 npm install ../my-local-package
 ```
-
-Figure: Good Example (Simpler alternative that avoids symlink-related issues)
+::: good
+Figure: Good example - Simpler alternative that avoids symlink-related issues
+:::
 
 ### 2. Using `npm pack`
 
@@ -83,8 +85,9 @@ cd my-local-package
 npm pack
 npm install ../my-local-package/my-local-package-1.0.0.tgz
 ```
-
-Figure: Good Example (Simulates a real npm package installation)
+::: good
+Figure: Good example - Simulates a real npm package installation
+:::
 
 ## Best practices
 

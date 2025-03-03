@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how using the correct HTML5 input types enhances mobile usability with dedicated keyboards for tasks like email, phone numbers, and URLs.
 type: rule
 archivedreason:
 title: Do you use the correct input type?

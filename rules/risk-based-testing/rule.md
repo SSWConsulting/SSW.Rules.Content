@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to prioritize your tests using risk-based strategies to uncover critical issues early and reduce quality risks in software testing.
 type: rule
 title: Do you take a risk-based approach to test planning?
 uri: risk-based-testing
@@ -26,7 +27,7 @@ Quality risk is the possibility that the software might fail to deliver one or m
 
 ::: greybox
 Risk-based testing uses an analysis of quality risks to prioritize tests and allocate testing effort
-::: 
+:::
 
 ### How does a risk-based approach help with test planning?
 
@@ -52,7 +53,7 @@ The concept of risk-based testing is straightforward and you can put it into pra
 
 #### Identify risks
 
-Identifying quality risks is the first step in making use of a risk-based approach to testing. 
+Identifying quality risks is the first step in making use of a risk-based approach to testing.
 
 Risk analysis workshops are a good way to involve different stakeholders in this process and you can drive these workshops in at least a couple of different ways:
 
@@ -67,7 +68,7 @@ Risk analysis workshops are a good way to involve different stakeholders in this
 
 #### Order the risks
 
-After identifying quality risks, the next job is to order them. 
+After identifying quality risks, the next job is to order them.
 
 Consider the **likelihood** and **impact** of each risk as a simple way to perform this ordering exercise. So a risk that seems quite likely to eventuate and would result in significant impact to all of your users would rank higher than one that is less likely to happen or would only cause problems for a small number of users.
 
@@ -77,9 +78,9 @@ Formulate your test plans to address the highest risks first, to ensure that you
 
 ### Resources
 
-- Rex Black: [Risk-based Testing: What It Is & How You Can Benefit](https://drive.google.com/file/d/108dLBHVbYCvA1_y2cIDKjIXQj3B9AEnj/view?usp=sharing)\
+* Rex Black: [Risk-based Testing: What It Is & How You Can Benefit](https://drive.google.com/file/d/108dLBHVbYCvA1_y2cIDKjIXQj3B9AEnj/view?usp=sharing)\
 See more [resources for “Risk Based”](https://www.rexblack.com/templates-and-examples) (testing articles, examples, templates, etc.)
 
-- James Bach: [Heuristic Risk-based Testing](http://www.satisfice.com/articles/hrbt.pdf)
+* James Bach: [Heuristic Risk-based Testing](http://www.satisfice.com/articles/hrbt.pdf)
 
-- David Greenlees: [Awareness of Risk Identification in Software Testing](http://www.stickyminds.com/article/awareness-risk-identification-software-testing)
+* David Greenlees: [Awareness of Risk Identification in Software Testing](http://www.stickyminds.com/article/awareness-risk-identification-software-testing)

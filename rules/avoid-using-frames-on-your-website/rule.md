@@ -2,7 +2,7 @@
 seoDescription: Avoid using frames on your website to ensure proper search engine crawling and accurate tracking of page views.
 type: rule
 archivedreason:
-title: Do you avoid using frames on your website?
+title: Authority - Do you avoid using frames on your website?
 guid: e2052330-255e-4ed0-9633-5e3f3867d4da
 uri: avoid-using-frames-on-your-website
 created: 2015-11-10T19:08:07.0000000Z

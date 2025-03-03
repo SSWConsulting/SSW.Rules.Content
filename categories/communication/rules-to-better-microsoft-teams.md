@@ -15,6 +15,7 @@ index:
 - start-meetings-with-energy
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
+- use-quiet-hours-in-teams
 - track-project-documents
 - sync-files-from-teams-to-file-explorer
 - rename-teams-channel-folder
@@ -39,7 +40,7 @@ index:
 - answer-im-questions-in-order
 - teams-usage
 - use-microsoft-teams-room
-- use-text-formatting-to-mention-email-subjects
+- refer-to-email-subject
 - when-to-use-microsoft-teams-preview
 ---
 

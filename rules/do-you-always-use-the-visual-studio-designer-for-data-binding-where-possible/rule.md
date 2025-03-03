@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn why using Visual Studio's designer for data binding simplifies complex syntax and enhances code readability
 type: rule
 title: Do you always use the Visual Studio designer for data binding where possible?
 uri: do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
@@ -30,7 +31,7 @@ private void Form1_Load(object sender, System.EventArgs e)
    currencyBinding.Parse +=
       new ConvertEventHandler(currencyBinding_Parse);
 
-   OrderDetailsService.Instance.GetAll(Me.OrderDetailsDataSet1);	
+   OrderDetailsService.Instance.GetAll(Me.OrderDetailsDataSet1); 
 }
 
 private void currencyBinding_Format(object sender, ConvertEventArgs e)
@@ -58,7 +59,7 @@ private void currencyBinding_Parse(object sender, ConvertEventArgs e)
 private void InitializeComponent()
 {
     this.cmbTumorQuad = new System.Windows.Forms.ComboBox();
-		
+  
     //
     // cmbTumorQuad
     //
@@ -69,6 +70,7 @@ private void InitializeComponent()
     this.requiredValidator1.SetDisplayName(this.cmbTumorQuad, "");
 }
 ```
+
 ::: good
 Figure: Good example - DataBinding in Designer
 :::
@@ -76,12 +78,12 @@ Figure: Good example - DataBinding in Designer
 ```cs
 private void DataBind()
 {
-    ChangeBinding(txtRuleName.DataBindings,	"Text", jobRules, "RuleData.RuleName");
+    ChangeBinding(txtRuleName.DataBindings, "Text", jobRules, "RuleData.RuleName");
     ChangeBinding(cmbFileFilter.DataBindings, "Text", jobRules, "RuleData.FileFilter");
     ChangeBinding(txtSearchString.DataBindings, "Text", jobRules, "RuleData.SearchString");
     ChangeBinding(txtCreatedBy.DataBindings, "Text" , jobRules, "RuleData.EmpCreated");
 }
-	
+ 
 protected Binding ChangeBinding(ControlBindingsCollection bindings, string propertyName, 
 object dataSource, string dataMember, ConvertEventHandler eFormat, ConvertEventHandler eParse) 
 {
@@ -93,6 +95,7 @@ object dataSource, string dataMember, ConvertEventHandler eFormat, ConvertEventH
     return b;
 }
 ```
+
 ::: bad
 Figure: Bad example - DataBinding in Code
 :::
@@ -120,7 +123,7 @@ private void DataBind()
     dateLastUpdatedTextBox.Text = rule.DateUpdated.ToString();
 }
 ```
+
 ::: bad
 Figure: Bad example - Set controls' values in Code
 :::
-

@@ -10,11 +10,14 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
   - when-to-send-a-done-email-in-scrum
   - close-pbis-with-context
+  - split-emails-by-topic
 redirects:
   - dones-do-you-reply-done-and-delete-the-original-email
 created: 2009-03-23T04:03:34.000Z
@@ -30,30 +33,39 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 ### Only say "Done" when the work is completed
 
-- [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
-- If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
-- For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
+* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
+* If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
+* For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
+
+### When it's ok to reply before the task is done
+
+If you believe the sender expects the task to be done sooner than you can reasonably complete it, it may be appropriate to reply to an email before the task is fully completed. In these cases, it’s important to set expectations to maintain [professional integrity](https://www.ssw.com.au/rules/professional-integrity).
+
+Reply with an estimated timeline, for example, “I’ve started working on this, and I expect it to be done by {{ DATE }}. This will take a bit longer due to {{ REASON }}.”
+
+Use this approach to prevent misunderstandings and to make sure the requester is informed of the progress and any potential delays.
 
 ### Alternatives to classic "Done" emails
 
-- If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
-- If you don't agree with the task or are unable to complete the task:
+* If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
+* If you don't agree with the task or are unable to complete the task:
 
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
   2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 
-- If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-- If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
+* If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
+* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
   **Note:** If you expect the 'done' to happen soon, wait to send the email instead of using "Partially done"
-- If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
-- If there is a better solution for the requested task:
+* If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
+* If there is a better solution for the requested task:
 
   1. Have a conversation first
   2. Reply <mark>Done differently - {{ SOLUTION AND EXPLANATION }}</mark>.
 
-- If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
+* If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Jason |
@@ -84,6 +96,7 @@ In any reply, [include relevant information](/dones-do-you-include-useful-detail
 It is important that you clearly reply to each of the multiple tasks.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Jason |
@@ -105,6 +118,7 @@ Bob
 **Figure: Original email with the client request**
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -124,6 +138,7 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -157,6 +172,7 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -202,6 +218,7 @@ If you have completed multiple tasks without requiring additional information, i
 Make sure all tasks have been done and others can see the history of the requests. A URL is especially useful in these cases.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |
@@ -229,6 +246,12 @@ Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-day
 
 If you get multiple emails or tasks, don't consolidate them. **Reply to each email individually** as you go. This way the person requesting the work hasn't [lost the email history](/do-you-keep-the-history-of-an-email) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
 
+1. **Keeps conversations focused** – Each response stays relevant to a single topic, making it easier to track  
+2. **Prevents confusion and improves task management** – Keeping topics in separate email threads makes it easier to follow discussions, track progress, and ensure no details are overlooked  
+3. **Easier to search and reference later** – Emails stay categorized by topic, making it simpler to find needed information  
+4. **Avoids missed details** – When responding to multiple emails in one, some points might get overlooked  
+5. **Respects the sender’s structure** – If they separated topics into different emails, keeping responses separate follows their logic  
+
 ### Tip #6: Delete "Done" emails - Aim for 0 inbox
 
 There is no point in keeping emails that just clutter your inbox. You don't need to keep the original email because after you have replied "Done", there is a copy in "Sent Items". If you must keep an email, then move to your "Saved Items" folder.
@@ -242,6 +265,7 @@ When it fits, choose text over images or screenshots! This way, it's simpler to 
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Bob |

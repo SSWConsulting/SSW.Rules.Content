@@ -14,6 +14,8 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
+- css-frameworks
+- css-changes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
 - printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
@@ -50,7 +52,7 @@ index:
 - clean-no-match-found-screen
 - do-you-know-how-to-arrange-forms
 - do-you-use-list-tags-for-lists-only
-- do-you-use-gravatar-for-your-profile-pictures
+- gravatar-for-profile-management
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
 - right-format-to-write-videos-time-length

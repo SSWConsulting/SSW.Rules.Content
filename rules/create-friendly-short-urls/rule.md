@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your website's accessibility and SEO by creating short, readable URLs that clearly convey their purpose.
 type: rule
 archivedreason: 
 title: Do you make URLs short and readable?
@@ -19,7 +20,7 @@ redirects:
 
 ---
 
-Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as **short** as possible - it should be **friendly**. 
+Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as **short** as possible - it should be **friendly**.
 
 <!--endintro-->
 
@@ -29,7 +30,7 @@ If you use a unfriendly and long link people can't see what they are clicking th
 Link: blog2.northwind.com/archive/2022/10/25/now-available-visual-studio-2022-rtm-virtual-machine-with-sample-data-and-hands-on-labs.aspx
 :::
 ::: bad
-Bad example - The long URL makes it hard to clearly see what it will take you. People can’t easily type or remember it 
+Bad example - The long URL makes it hard to clearly see what it will take you. People can’t easily type or remember it
 :::
 
 ::: greybox
@@ -55,16 +56,15 @@ northwind.com/find-word-document-version
 Figure: Good example - The filler words removed and only 'juicy' words remain  
 :::
 
-
 ### Bit.ly
 
 Sometimes you are not in control of the link. In those cases, use [Bitly](https://bitly.com/) to transform any long URL into a shorter, more readable link.
 
 ::: greybox
-Auto-shorten link: bit.ly/3zTHz8b    
+Auto-shorten link: bit.ly/3zTHz8b
 :::
 ::: ok
-OK example - Auto-generated shorten URL - It's short but hard to remember 
+OK example - Auto-generated shorten URL - It's short but hard to remember
 :::
 
 When have a Bitly account, you can customize links to a more readable option.

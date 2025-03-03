@@ -1,5 +1,5 @@
 ---
-seoDescription: Enhance your Microsoft Teams experience by adding apps that integrate with bots, change messages, and provide valuable insights.
+seoDescription: Enhance your Microsoft Teams experience by adding apps that integrate with bots, change messages, and provide valuable insights
 type: rule
 archivedreason:
 title: Apps - Do you add the right apps when creating a new Team?

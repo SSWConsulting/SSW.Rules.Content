@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a structured Sprint Review/Retro email template with best practices for clear communication and effective team collaboration in Agile processes.
 type: rule
 title: Do you create a Sprint Review/Retro email?
 uri: sprint-review-retro-email
@@ -13,6 +14,9 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
+    
 related:
   - roadmap
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
@@ -36,6 +40,7 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -57,14 +62,13 @@ Please see below for a more detailed breakdown of the Sprint:
 |                    |                                      |
 | ------------------ | ------------------------------------ |
 | Sprint in Review:  | {{ SPRINT NUMBER }}                  |
-| Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+| Summary Recording: | {{ YOUTUBE PLAYLIST URL }}           |
 | Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
 | Project:           | {{ PROJECT NAME }}                   |
 | Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
 | Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
 | Product Owner:     | {{ PRODUCT OWNER NAME }}             |
 | Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
-
 
 ### Sprint Review
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure consistent parameter names across all report elements for clarity and functionality.
 type: rule
 archivedreason:
 title: Parameters - Do you have consistent parameter names?

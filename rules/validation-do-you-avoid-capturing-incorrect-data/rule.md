@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure accurate data collection by letting users opt out of questions they can't answer.
 type: rule
 archivedreason: 
 title: Validation - Do you avoid capturing incorrect data?
@@ -18,8 +19,8 @@ When asking for an opinion do you give people the option of having no opinion at
 <!--endintro-->
 
 ::: greybox
-Do you like apples?   
-( ) Yes   
+Do you like apples?
+( ) Yes
 ( ) No
 :::
 
@@ -28,8 +29,8 @@ Maybe they only like cooked apples not raw ones. When asking any question in whi
 Additionally, when the user don't answer the question at all, the response you would get would be determined by the browser the user was using. Give them an answer they can agree with and you'll reduce the chance of bogus responses.
 
 ::: greybox
-Do you like apples?   
-( ) Yes   
-( ) No   
-( ) Cannot say   
+Do you like apples?
+( ) Yes
+( ) No
+( ) Cannot say
 :::

@@ -1,4 +1,5 @@
 ---
+seoDescription: Unlock your video production potential with ChatGPT prompts! Generate scripts, optimize SEO, and streamline workflows effortlessly.
 type: rule
 title: Do you use ChatGPT prompts for video production?
 uri: chatgpt-prompts-for-video-production
@@ -13,21 +14,24 @@ redirects:
   - use-chatgpt-prompts-for-video-production
     
 ---
-Are you a video producer looking to take your content to the next level? Here are some painful things video producer's go through when creating content:
 
-* Writer's block - thinking of new video ideas can difficult
-* Chapter Markers - making chapter markers is particularly time consuming for longer form videos
-* Title and description - it can be overwhelming to try and think of the best title and description for your video
+Are you a video producer looking to take your content to the next level? By utilizing ChatGPT, you can save time and produce high-quality videos that engage your audience and generate traffic.
 
-With the help of ChatGPT, our SSW Rule for video production can help you create compelling video scripts, optimize your SEO, and streamline your workflow. Say goodbye to disorganized content and hello to the power of AI-assisted video production.
+<!--endintro-->
 
-By utilizing ChatGPT, our SSW Rule for video production can help you save time and produce high-quality videos that engage your audience and generate traffic.
+Here are some painful things video producer's go through when creating content:
+
+* **Writer's block** - Thinking of new video ideas can difficult
+* **Chapter markers** - Making chapter markers is particularly time consuming for longer form videos
+* **Title and description** - It can be overwhelming to try and think of the best title and description for your video
+
+With the help of ChatGPT, you can create compelling video scripts, optimize your SEO, and streamline your workflow. Say goodbye to disorganized content and hello to the power of AI-assisted video production.
 
 You can get AI-generated ideas for your video concepts, generate effective titles and descriptions, and even create a script template for future videos.
 
 Don't let the admin side of video production hold you back - spend more time making the actual video with the below prompts:
 
-1. ### **Video concept + outline**
+## 1. Video concept + outline
 
 ::: greybox
    "\
@@ -71,7 +75,7 @@ Don't let the admin side of video production hold you back - spend more time mak
    {{ Answer }}"
 :::
 
-2. ### **Video title and description**
+## 2. Video title and description
 
 ::: greybox
    "Video title + description: As a SSW TV video producer, create:\
@@ -85,7 +89,7 @@ Don't let the admin side of video production hold you back - spend more time mak
    {{ transcript }}"
 :::
 
-3. ### **Chapter Markers**
+## 3. Chapter markers
 
 ::: greybox
 "User
@@ -100,7 +104,7 @@ Sixth, do not give a summary, only give the chapter markers
 {{ transcript }}"
 :::
 
-4. ### **Thumbnail creation**
+## 4. Thumbnail creation
 
 ::: greybox  
    "As a SSW TV video producer, what is a good thumbnail for this video content type. (Goal: Improve click-through rate, Constraint: Use proper design guidelines)\
@@ -108,7 +112,7 @@ Sixth, do not give a summary, only give the chapter markers
    {{ insert title and description }}"
 :::
 
-5. ### **Blog Post**
+## 5. Blog post
 
 ::: greybox  
    "As a SSW TV content creator, write a blog post about a video project. (Goal: Generate traffic, Constraint: Use proper SEO guidelines)\
@@ -116,17 +120,16 @@ Sixth, do not give a summary, only give the chapter markers
    {{ insert video transcript }}"
 :::
 
-6. ### **Planning video content**
+## 6. Planning video content
 
 ::: greybox
    "As a SSW TV content manager, create a yearly content calendar for a video projects. Research and pitch new video ideas.(Goal: Plan ahead, Constraint: Use proper scheduling tools)"
 :::
 
-. ### **Script Templates**:
+## 7. Script templates
 
 ::: greybox
    "As a SSW TV video producer, create a script template for future videos based on the below transcript. (Goal: Streamline workflow, Constraint: Use proper formatting guidelines)
-
    \
    {{ insert video transcript }}"
 :::

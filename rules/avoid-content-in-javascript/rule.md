@@ -2,7 +2,7 @@
 seoDescription: Ensure important website content is accessible to search engines by placing it within normal HTML code for optimal indexing.
 type: rule
 archivedreason:
-title: Do you avoid having important content in JavaScript?
+title: Technical - Do you avoid having important content in JavaScript?
 guid: 858c0408-33bb-4366-b9d7-effa775c9c42
 uri: avoid-content-in-javascript
 created: 2015-11-10T19:28:08.0000000Z

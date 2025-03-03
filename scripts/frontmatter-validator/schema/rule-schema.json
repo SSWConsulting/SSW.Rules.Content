@@ -1,6 +1,9 @@
 {
   "type": "object",
   "properties": {
+    "seoDescription": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
@@ -53,7 +56,7 @@
       }
     }
   },
-  "required": ["type", "title", "guid", "uri", "created", "authors"],
+  "required": ["seoDescription", "type", "title", "guid", "uri", "authors"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
@@ -62,7 +65,6 @@
       "archivedreason": "'archivedreason' must be deleted or left empty.",
       "guid": "'guid' must be a valid GUID.",
       "uri": "'uri' must not be empty.",
-      "created": "'created' must not be empty.",
       "authors": "'authors' must be valid content."
     }
   }

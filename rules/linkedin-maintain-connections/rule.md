@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn effective strategies to maintain your LinkedIn connections and enhance your professional networking.
 type: rule
 title: Do you maintain your connections on LinkedIn?
 uri: linkedin-maintain-connections

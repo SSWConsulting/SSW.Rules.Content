@@ -1,5 +1,5 @@
 ---
-seoDescription: Send appointments on behalf of someone else by sharing calendar permissions and inviting them as attendees, ensuring they receive the invitation and can check for any mistakes.
+seoDescription: Send appointments on behalf of someone else by sharing calendar permissions and inviting them as attendees, ensuring they receive the invitation and can check for any mistakes
 type: rule
 archivedreason:
 title: Calendar Permissions - Do you know how to send an appointment on behalf of someone else?

@@ -1,7 +1,9 @@
 ---
-seoDescription: Do you minimize the use of Out of Office? Minimize unnecessary use of out-of-office notifications and automate responses only for extended periods off the grid to maintain productivity.
 type: rule
 title: Do you minimize the use of Out of Office?
+seoDescription: Do you minimize the use of Out of Office? Minimize unnecessary
+  use of out-of-office notifications and automate responses only for extended
+  periods off the grid to maintain productivity.
 uri: do-you-avoid-using-out-of-office
 authors:
   - title: Adam Cogan
@@ -43,6 +45,8 @@ The use of 'Out of Office - Automated Response' emails should be avoided unless 
 ::: good
 ![Figure: Good example – Step 2 – Enter your reason and an end date. This message will be seen by your colleagues when they email or message you in Teams](step2-good.png)
 :::
+
+Tip: If you only want out of office replies to go to external contacts, but you don't want to spam internal contacts, you can leave the "Inside my organisation" template blank. 
 
 ### Use Teams to let people know you are not around
 

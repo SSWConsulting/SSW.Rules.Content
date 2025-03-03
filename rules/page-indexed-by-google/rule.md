@@ -1,7 +1,8 @@
 ---
+seoDescription: Check if your web page is indexed by Google using its exact link in search results.
 type: rule
 archivedreason: 
-title: Do you know if Google has indexed your page?
+title: Basics - Do you know if Google has indexed your page?
 guid: cfa0fe53-9bc7-4089-9972-046c982c2059
 uri: page-indexed-by-google
 created: 2015-11-09T18:03:57.0000000Z
@@ -26,9 +27,7 @@ If you can't find it, go to [Google's Search Console](https://www.google.com/web
 
 **Note:** Internal pages should be crawled automatically, so you only need to inform the root of the site.
 
-### WordPress 
-   
-
+### WordPress
 
 If your website is built on WordPress, make sure you have unselected the "Discourage search engines from indexing this site" option. This can be found under      **Reading Settings** :
 

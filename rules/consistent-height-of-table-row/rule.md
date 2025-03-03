@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your tables have consistent row heights for a professional appearance in all reports.
 type: rule
 archivedreason:
 title: Data Layout - Do you have consistent height of table row across all your reports?

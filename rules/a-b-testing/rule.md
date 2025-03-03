@@ -1,5 +1,5 @@
 ---
-seoDescription: Discover the best way to conduct A/B testing and deploy features reliably with feature flags, Azure Deployment Slots, or Azure FrontDoor.
+seoDescription: Discover the best way to conduct A/B testing and deploy features reliably with feature flags, Azure Deployment Slots, or Azure FrontDoor
 type: rule
 title: Do you know the best way to do A/B testing?
 uri: a-b-testing

@@ -1,4 +1,5 @@
 ---
+seoDescription: Using dashes in URLs enhances SEO and readability, helping users and search engines understand content effectively.
 type: rule
 archivedreason: The rule has been replaced by https://ssw.com.au/rules/use-dashes-in-urls/
 title: Do your page URL’s use dashes between words?
@@ -21,19 +22,18 @@ There are a few options for how you format the text of a URL. The following sugg
 
 <!--endintro-->
 
-1. Dashes between words: 
+1. Dashes between words:
        **rules-to-better-website-layouts.aspx
-** [RECOMMENDED] This option appears to be most common and 
+** [RECOMMENDED] This option appears to be most common and
       [Craig Bailey](http://www.craigbailey.net/)'s ￼ preferred way
-2. Capitalize each word (Title Case): 
+2. Capitalize each word (Title Case):
        **RulesToBetterWebsiteLayouts.aspx**
-3. Upper case for appropriate words: 
+3. Upper case for appropriate words:
        **RulestoBetterWebsiteLayouts.aspx**
-4. Underscores between words: 
+4. Underscores between words:
        **rules\_to\_better\_website\_layouts.aspx**
-5. Lower case for all words: 
+5. Lower case for all words:
        **rulestobetterwebsitelayouts.aspx**
-
 
 ### More info
 

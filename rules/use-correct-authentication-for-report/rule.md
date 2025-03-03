@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure secure report access by avoiding anonymous authentication and using ReportViewer with proper credentials.
 type: rule
 archivedreason:
 title: Do you use the correct authentication for reports?

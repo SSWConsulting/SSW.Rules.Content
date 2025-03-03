@@ -18,9 +18,11 @@ index:
   - borders-around-white-images
   - distinguish-keywords-from-content
   - placeholder-for-replaceable-text
+  - highlighting-important-contract-terms
   - style-quotations
   - use-digits-instead-of-words
   - make-numbers-more-readable
+  - add-days-to-dates
   - address-formatting
   - descriptive-links
   - keep-your-urls-clean

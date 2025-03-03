@@ -7,7 +7,6 @@ index:
 - make-sure-all-software-uses-english
 - go-beyond-just-using-chat
 - collaborate-across-timezones
-- do-you-know-to-add-the-clientid-as-your-email-subject-prefix-when-sending-an-email-regarding-a-client
 - be-available-for-emergency-communication
 - do-you-share-screens-when-working-remotely
 - build-inter-office-interaction
@@ -15,6 +14,7 @@ index:
 - do-you-make-sure-your-visual-studio-encoding-is-consistent
 - do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
 - are-you-careful-with-your-spelling-grammar-and-punctuation
+- add-clientid-as-email-subject-prefix
 
 ---
 

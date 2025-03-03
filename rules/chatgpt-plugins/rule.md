@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how ChatGPT plugins can enhance its functionality, unlock real-time data, and boost workplace efficiency
 type: rule
 title: Do you know the best ChatGPT plugins to use?
 uri: chatgpt-plugins

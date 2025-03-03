@@ -1,6 +1,7 @@
 ---
+seoDescription: Optimize your Google Ads campaigns with the right bid strategy for conversions, clicks, or impressions.
 type: rule
-archivedreason: 
+archivedreason: Lots of out-of-date content, likely needs a new rule
 title: Do you have a Bid Strategy for your Google Ads?
 guid: 32197d05-5a93-4f06-aa39-10fdaf116e72
 uri: have-a-bid-strategy-for-your-google-ads
@@ -23,7 +24,6 @@ There are different bid strategies available depending on your business advertis
 
 ### 1 – Focusing on conversions with Smart Bidding
 
-
 If you want to call your client to complete an action on your website this is the strategy for you.
 
 But first, you'll have to set up your conversions properly, otherwise you won't be able to analyse your data:
@@ -32,11 +32,9 @@ But first, you'll have to set up your conversions properly, otherwise you won't 
 * **Target ROAS (return on ad spend)**  – Your bid is based on a target return on ad spend you set. Please note that you must have had a minimum of 15 conversions in the past 30 days to use this strategy.
 * **Maximize for Conversions**  – This is an automated bidding strategy that uses historical data from your campaign at auction time to find an optimal CPC (Cost-Per-Click) bid to help maximize conversion.
 
-
 When using this, make sure your Campaign is NOT part of a shared budget. Max conversions will try fully to spend your daily budget and if you're sharing the budget with other campaigns you will quickly deplete them of funds.
 
 * **Enhanced Cost Per Click (eCPC)**  – This is a combination of manual & smart bidding. Essentially Google will raise your manual bid for situations that seem more likely to lead to a conversion.
-
 
 ### 2 – Focusing on clicks with CPC Bidding
 
@@ -44,7 +42,6 @@ Would you like to get more traffic on your website? So here are the two cost-per
 
 * **Manual CPC Bidding**  – Under this strategy, you are setting the actual price on the cost of a click on your ads. You will have 100% of control of your ad spend per keyword if you choose this option.
 * **Maximize for Clicks**  – If you want to increase clicks/traffic to your website, you should really consider using this automated bidding strategy. You'll need to specify a budget to each campaign, so this is good to keep the control of how much you want to spend on your Advertising. This can also help with finding best keywords for SEO strategy.
-
 
 ### 3 – Focusing on impressions with CPC Bidding
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively summarize decisions and loop decision-makers into meetings with an executive summary for quick action.
 type: rule
 title: Summarize Decisions - Do you know how to loop someone in at the end of a meeting?
 uri: loop-someone-in

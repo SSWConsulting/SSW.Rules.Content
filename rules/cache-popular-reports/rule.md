@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve report server performance by caching popular reports to reduce server load and deliver faster results.
 type: rule
 archivedreason:
 title: Performance - Do you cache popular reports for better performance?

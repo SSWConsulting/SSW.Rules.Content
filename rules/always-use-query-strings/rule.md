@@ -1,5 +1,5 @@
 ---
-seoDescription: Use query strings to enable bookmarking and parameter modification for a more engaging user experience.
+seoDescription: Use query strings to enable bookmarking and parameter modification for a more engaging user experience
 type: rule
 archivedreason:
 title: Do you always use query strings?

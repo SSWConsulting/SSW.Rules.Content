@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn why not to use LinkButton for postback and implement correctly in ASP.NET
 type: rule
 archivedreason: 
 title: Do you know not to use LinkButton?
@@ -21,7 +22,6 @@ If we want to refresh and data bind the same page from client side, we can use t
 ![Figure: Right click the link with \_\_doPostBack event](RightClickLink.gif)  
 
 ![Figure: New window with incorrect URL](PostBack.gif)  
-
 
 ``` aspnet
 <asp:Panel runat="server" ID="mUpdatePanel" OnLoad="mUpdatePanel_Load">
@@ -57,11 +57,12 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 }
 ```
 
-**Sample Code** 
+**Sample Code**
 
 ``` html
 <a href="javascript:__doPostBack('mUpdatePanel','');">Refresh</a>
 ```
+
 ::: bad
 Bad code  
 :::
@@ -69,6 +70,7 @@ Bad code
 ``` html
 <input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh" />
 ```
+
 ::: good
 Good code  
 :::

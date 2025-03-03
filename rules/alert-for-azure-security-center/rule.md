@@ -1,5 +1,5 @@
 ---
-seoDescription: Configure alerting on Azure Security Center to receive notifications of changes and potential security threats, ensuring your infrastructure remains secure.
+seoDescription: Configure alerting on Azure Security Center to receive notifications of changes and potential security threats, ensuring your infrastructure remains secure
 type: rule
 title: Do you have alerting for Azure Security Center?
 uri: alert-for-azure-security-center

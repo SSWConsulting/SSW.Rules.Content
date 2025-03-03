@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to properly name your C# events using "ing" or "ed" suffixes for clearer code.
 type: rule
 title: Do you name your events properly?
 uri: name-your-events-properly
