@@ -5,7 +5,7 @@ seoDescription: When publishing npm packages, following Semantic Versioning (sem
 uri: follow-semver-when-publishing-npm-packages
 authors:
   - title: Ben Neoh
-    url: https://www.ssw.com.au/people/ben-neoh/
+    url: https://www.ssw.com.au/people/ben-neoh
 related:
   - different-symbols-mean-for-npm-version
   - packages-up-to-date
@@ -26,7 +26,7 @@ Semantic Versioning (semver) helps your users understand the impact of updates a
 * **🚀 MINOR (New Features):** Informs users about new features that won’t break existing functionality.
 * **🐛 PATCH (Bug Fixes):** Indicates that bug fixes or small improvements have been made without changing behavior.
 
-Learn more about [semantic versioning](https://www.ssw.com.au/rules/semantic-versioning/)
+Learn more about [semantic versioning](/semantic-versioning).
 
 ## Common Mistakes to Avoid ⚠️
 
@@ -42,9 +42,9 @@ To better understand what the `^`, `~`, and other symbols mean in npm versioning
 
 For major updates, clearly communicate the breaking changes in your release notes or changelog. This helps users prepare for or adapt to the changes.
 
-![image](https://github.com/user-attachments/assets/ccb38aa4-f0cf-4886-8f8f-1410d9516e8b)
-
-**✅ Figure: Good Example - Tell public about the major release update and breaking changes**
+::: good
+![Figure: Good example - Tell public about the major release update and breaking changes](https://github.com/user-attachments/assets/ccb38aa4-f0cf-4886-8f8f-1410d9516e8b)
+:::
 
 ## Tools to Help You Follow semver
 
