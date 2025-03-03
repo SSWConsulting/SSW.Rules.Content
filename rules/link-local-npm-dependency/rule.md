@@ -15,11 +15,11 @@ When working on multiple related JavaScript projects, you may need to test chang
 
 <!--endintro-->
 
-### How `npm link` Works
+## How `npm link` works
 
 `npm link` creates a symbolic link between a globally registered local package and a project that depends on it.
 
-#### Steps to Link a Local Dependency
+### Steps to link a local dependency
 
 1. Navigate to the local package directory (the dependency you are developing) and run:
    
@@ -37,7 +37,7 @@ When working on multiple related JavaScript projects, you may need to test chang
    
    This links the globally registered package into your project’s `node_modules`.
 
-#### Example Usage
+### Example usage
 
 If you're developing `my-local-package` and want to use it in another project:
 
@@ -50,7 +50,7 @@ npm link my-local-package
 
 Now, `my-app` will use the local version of `my-local-package` instead of fetching it from npm.
 
-### Common Issues and Fixes
+## Common issues and fixes
 
 - **Module Resolution Issues**: If your project uses a different version of a peer dependency than the linked package, you might get errors. A common fix is running:
   
@@ -62,9 +62,10 @@ Now, `my-app` will use the local version of `my-local-package` instead of fetchi
 
 - **TypeScript Not Detecting Changes**: Sometimes, TypeScript may not immediately recognize changes in a linked package. Restarting the TypeScript server (`tsc --watch`) or adding `"preserveSymlinks": true` in `tsconfig.json` can help.
 
-### Alternatives to `npm link`
+## Alternatives to `npm link`
 
-#### 1. Using `npm install <path>`
+### 1. Using `npm install <path>`
+
 Instead of linking, you can install a local package directly:
 
 ```sh
@@ -73,7 +74,8 @@ npm install ../my-local-package
 
 Figure: Good Example (Simpler alternative that avoids symlink-related issues)
 
-#### 2. Using `npm pack`
+### 2. Using `npm pack`
+
 Another option is to create a tarball of the package and install it manually:
 
 ```sh
@@ -84,10 +86,10 @@ npm install ../my-local-package/my-local-package-1.0.0.tgz
 
 Figure: Good Example (Simulates a real npm package installation)
 
-### Best Practices
+## Best practices
 
-- Use `npm link` mainly for development, not for production environments.
-- Always verify dependencies are correctly installed after linking.
-- Consider `npm install <path>` or `npm pack` if `npm link` causes issues.
+- Use `npm link` mainly for development, not for production environments
+- Always verify dependencies are correctly installed after linking
+- Consider `npm install <path>` or `npm pack` if `npm link` causes issues
 
 By understanding and properly using `npm link`, you can streamline local package development while avoiding common pitfalls.
