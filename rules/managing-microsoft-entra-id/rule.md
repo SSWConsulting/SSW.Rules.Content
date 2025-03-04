@@ -2,7 +2,7 @@
 seoDescription: Learn best practices for managing Microsoft Entra ID to enhance security and efficiency in your organization.
 type: rule
 title: Do you follow best practices for managing Microsoft Entra ID?
-uri: do-you-follow-best-practices-for-managing-microsoft-entra-id
+uri: managing-microsoft-entra-id
 authors:
   - title: Rob Thomlinson
     url: https://www.ssw.com.au/people/RobThomlinson
