@@ -21,8 +21,7 @@ redirects:
 
 It originated with Frequent Flyer programs and has crossed over into the software world with the success of Foursquare.
 
-This concept is being utilized even in
-Visual Studio.
+This concept is being utilized even in Visual Studio.
 
 ::: good  
 ![Figure: Good Example – Microsoft Rewards gives points when you search on Bing.com and buy things from the Microsoft Store online and in Windows 10](microsoft-rewards.jpg)  
