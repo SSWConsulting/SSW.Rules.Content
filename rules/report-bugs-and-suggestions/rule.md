@@ -44,11 +44,12 @@ Here are the 8 tips:
 
 ## Tip #1: Draft your bug with enough details
 
-Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. 
+Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier.
 
 The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are.
 
 Things to include:
+
 * Steps to reproduce the error
 * OS and browser details
 * Screenshots
@@ -61,6 +62,7 @@ Learn more:
 * [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ SUPPORT EMAIL }} |
@@ -82,6 +84,7 @@ Figure: Bad example - This email isn't going to help the developer much - it is 
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ SUPPORT EMAIL }} |
@@ -98,10 +101,10 @@ I'm having a problem with your PerformancePro software. When I run it, this is w
 
    ![](error-software-bur-report.jpg)
 
-    Here is the transcription for searchability: 
+    Here is the transcription for searchability:
   
-    > An embedded page at chrome-extension://laookkfknpbbblfpciffpaejjkokdgca says:   
-    > Could not find resource: longtail performance counter.   
+    > An embedded page at chrome-extension://laookkfknpbbblfpciffpaejjkokdgca says:
+    > Could not find resource: longtail performance counter.
     > Prevent this page from creating additional dialogs.  
 
 I have the latest version of all my software. I am running Windows 10 and Office365.
@@ -125,6 +128,7 @@ When possible, a great template to follow is the [Functional Bug template](https
 * Actual outcome
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Danny |
@@ -144,6 +148,7 @@ Figure: Bad example - Lack of details
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Danny |
