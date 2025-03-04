@@ -1,7 +1,8 @@
 ---
-seoDescription: Learn the best testing strategies for modular monoliths, focusing on effective unit, integration, and workflow testing.
 type: rule
-title: Do you know how effectively test Modular Monoliths?
+title: Do you know how to effectively test Modular Monoliths?
+seoDescription: Learn the best testing strategies for modular monoliths,
+  focusing on effective unit, integration, and workflow testing.
 uri: modular-monolith-testing
 authors:
   - title: Daniel Mackay
