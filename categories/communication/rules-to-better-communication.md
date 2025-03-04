@@ -30,7 +30,6 @@ index:
   - tofu
   - attention-to-detail
   - collaborate-across-timezones
-  - what-to-do-when-a-client-says-no
   
 ---
 
