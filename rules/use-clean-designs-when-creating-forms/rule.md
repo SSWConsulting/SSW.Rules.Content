@@ -35,7 +35,7 @@ A fairly standard Access 97 application that needs some love (Before a makeover)
 :::
 
 ::: bad  
-![](accessui_candidateedit4_before.gif)  
+![Figure: The form is backward, with the employee's details at the top. It's not clear what needs to be changed, and the form is missing the current key information](accessui_candidateedit4_before.gif)  
 :::
 
 ::: bad  
