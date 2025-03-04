@@ -33,13 +33,13 @@ From a SysAdmin point of view, using anti-spam protection is the best way to go 
 
 There are also other non-Microsoft options e.g.
 
-- Mimecast
-- GFI MailEssentials
-- N-able Mail Assure
+* Mimecast
+* GFI MailEssentials
+* N-able Mail Assure
 
 When using Exchange and the Outlook client (or Outlook.com), Microsoft has an addon "Report Message" which helps users to report spam and phishing emails (This can be deployed by an Admin to everyone in your company):
 
-- [Mark email as junk or phishing](https://support.microsoft.com/en-us/office/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+* [Mark email as junk or phishing](https://support.microsoft.com/en-us/office/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
 When on the Outlook desktop client, you should actively mark items as Junk and block their senders. Do the following:
 
@@ -64,3 +64,14 @@ From time to time you may also receive an email telling you about quarantined em
 ::: good
 ![Figure: Good example - Release or delete quarantined emails](quarantine-email2.png)
 :::
+
+If your email is hosted by a **third-party provider other than Outlook, Office 365, or Gmail**, take the following precautions:
+
+1. **Immediately change your password** – If you suspect your email account has been targeted, update your credentials to prevent unauthorized access.
+2. **Enable two-factor authentication (2FA)** – This adds an extra layer of security to your email account.
+3. **Consider migrating to a trusted provider** – Outlook, Office 365, and Gmail offer robust phishing and spam protection. If your current provider lacks strong security measures, switching to one of these services can reduce future phishing risks.
+4. **Monitor your account for unusual activity** – Check your sent folder and recent login activity to ensure no unauthorized access has occurred.
+
+**Warning:** If you receive a phishing attempt through a third-party email provider with poor filtering, your email account is at greater risk of being compromised. Migrating your email to a secure provider like Outlook or Gmail improves security and reduces phishing attempts.
+
+By taking proactive measures, you can significantly reduce the chances of falling victim to phishing and spam emails.
