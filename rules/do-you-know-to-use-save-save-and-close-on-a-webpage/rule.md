@@ -23,9 +23,9 @@ When the user is creating or editing data on a webpage, there are 2 buttons and 
 
 These three options are:
 
-- Save (button) - Saves the data and allows the user to keep editing
-- Save and Close (button) - Saves the data and returns to the previous screen
-- Cancel (link) - returns to the previous screen
+* Save (button) - Saves the data and allows the user to keep editing
+* Save and Close (button) - Saves the data and returns to the previous screen
+* Cancel (link) - returns to the previous screen
 
 ![](2014-11-27_11-45-25-compressor.png)
 
@@ -41,4 +41,4 @@ These three options are:
 
 **Further Reading:**
 
-- **[SSW Rule - Do you make your cancel button less obvious?](/do-you-make-your-cancel-button-less-obvious)**
+* **[SSW Rule - Do you make your cancel button less obvious?](/do-you-make-your-cancel-button-less-obvious)**
