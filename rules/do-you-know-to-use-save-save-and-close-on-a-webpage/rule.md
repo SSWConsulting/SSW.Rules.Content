@@ -3,7 +3,7 @@ seoDescription: Learn to use "Save", "Save and Close", and "Cancel" buttons effe
 type: rule
 archivedreason:
 title: Do you know to use Save, Save and Close on a webpage?
-guid: 1b4ab685-c5ba-4edb-ba20-62f8a7932012
+guid: 1b4ab685-c5ba-4edb-ba20-62ff8a7932012
 uri: do-you-know-to-use-save-save-and-close-on-a-webpage
 created: 2014-11-27T03:54:09.0000000Z
 authors:
@@ -29,15 +29,15 @@ These three options are:
 
 ![](2014-11-27_11-45-25-compressor.png)
 
-**Figure: Bad example - only provided *Save*button and *Cancel*link**
+**❌ Figure: Bad example - only provided _Save_ button and _Cancel_ link**
 
 ![](2014-11-27_13-58-48-compressor.png)
 
-**Figure: Good example - CRM 2013 provides a** **_Save_** **button a** **nd a _Save and Close_ button**
+**✅ Figure: Good example - CRM 2013 provides a _Save_ button and a _Save and Close_ button**
 
 ![](2014-11-27_11-47-40-compressor.png)
 
-**Figure: Better example - SugarLearning provides a *Save*button, a _Save and Close_ button and a *Cancel*link**
+**✅ Figure: Better example - SugarLearning provides a _Save_ button, a _Save and Close_ button, and a _Cancel_ link**
 
 **Further Reading:**
 
