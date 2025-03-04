@@ -1,8 +1,8 @@
 ---
 seoDescription: X account verification helps establish authenticity and credibility by confirming a user's identity through phone number, email address, and profile information.
 type: rule
-title: X - Do you know how to verify your X account?
-uri: twitter-how-to-verify-your-account
+title: X (previously Twitter) - Do you know how to verify your X account?
+uri: x-verify-your-account
 redirects:
   - twitter-do-you-know-how-to-verify-your-account
 authors:
