@@ -56,7 +56,7 @@ At SSW we always show the bad example first, then the good example. You will see
 ### Tip #3: Bold your captions
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 {{ CAPTION }}
 :::
 ::: bad
@@ -64,7 +64,7 @@ Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **{{ CAPTION }}**
 :::
 ::: good
@@ -76,7 +76,7 @@ Figure: Good example - Caption stands out when bolded
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **Figure: This is the screen**
 :::
 ::: bad
@@ -84,7 +84,7 @@ Figure: Bad example - Vague caption description
 :::
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **Figure: On the screen, choose the execution method**
 :::
 ::: good
@@ -106,7 +106,7 @@ Figure: Bad example - Using "Figure:" for a video caption + a vague text
 :::
 
 ::: greybox
-{{ VIDEO }}
+{{ VIDEO }}\
 **Video: Intro to Scrum in Under 10 Minutes (9 min)**
 :::
 ::: good
