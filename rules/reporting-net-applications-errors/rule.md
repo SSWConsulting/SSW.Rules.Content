@@ -13,7 +13,7 @@ redirects:
   - provide-details-when-reporting-net-applications-errors
 created: 2016-02-09T16:59:27.000Z
 archivedreason: Replaced by
-  [https://www.ssw.com.au/rules/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details](/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details)
+  [https://www.ssw.com.au/rules/report-bugs-and-suggestions#tip-1-draft-your-bug-with-enough-details](https://www.ssw.com.au/rules/report-bugs-and-suggestions/#tip-1-draft-your-bug-with-enough-details)
 guid: 85289d17-263f-4045-87cb-fb1f7629c0f8
 ---
 
