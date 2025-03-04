@@ -1,11 +1,7 @@
 ---
 type: rule
 title: Do you know how to report bugs and give suggestions?
-seoDescription: Learn how to report software bugs and suggestions effectively
-  with 8 essential tips from SSW. Discover how to draft detailed bug reports,
-  structure suggestions, determine who to contact, and use proper formatting
-  with emojis to ensure your feedback leads to quick resolutions. Follow
-  industry best practices for bug tracking and product feedback management.
+seoDescription: Learn how to report software bugs and suggestions effectively with 8 essential tips from SSW. Discover how to draft detailed bug reports, structure suggestions, determine who to contact, and use proper formatting with emojis to ensure your feedback leads to quick resolutions.
 uri: report-bugs-and-suggestions
 authors:
   - title: Adam Cogan
@@ -46,12 +42,23 @@ Here are the 8 tips:
 
 ![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
-### Tip #1: Draft your bug with enough details
+## Tip #1: Draft your bug with enough details
 
-Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are.
+Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier. 
 
-See rule: [Do you have a clear definition of a bug?](/definition-of-a-bug)
-External source: [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
+The goal is to include enough details so the developer can focus on the development work more rather than trying to figure out what the feature requirements or bugs are.
+
+Things to include:
+* Steps to reproduce the error
+* OS and browser details
+* Screenshots
+  * **💡 Tip:** Copy and paste the text for searchability
+* Video for more complex bugs (more info below)
+
+Learn more:
+
+* [Do you have a clear definition of a bug?](/definition-of-a-bug)
+* [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
 |          |     |
@@ -91,6 +98,12 @@ I'm having a problem with your PerformancePro software. When I run it, this is w
 
    ![](error-software-bur-report.jpg)
 
+    Here is the transcription for searchability: 
+  
+    > An embedded page at chrome-extension://laookkfknpbbblfpciffpaejjkokdgca says:   
+    > Could not find resource: longtail performance counter.   
+    > Prevent this page from creating additional dialogs.  
+
 I have the latest version of all my software. I am running Windows 10 and Office365.
 
 Can you please investigate and let me know how to proceed?
@@ -103,10 +116,12 @@ Thanks
 Figure: Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
 :::
 
+### Functional Bug template
+
 When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components:
 
-* Steps to reproduce,
-* Expected outcome, and
+* Steps to reproduce
+* Expected outcome
 * Actual outcome
 
 ::: email-template
@@ -170,6 +185,8 @@ Adam
 Figure: Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action
 :::
 
+### Make it extra clear with videos
+
 Better than a good textual description of a bug report is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
 `youtube: https://www.youtube.com/embed/y9vsGY1hYN0`
@@ -186,7 +203,7 @@ See our rules for setting up and using these tools at [Do you use Problem Steps 
 ![Figure: Good example - Using a tool to record steps replicating an issue is a great and simple way to report a problem that's easy for a developer to understand and reproduce](psr3.png)
 :::
 
-### Tip #2: Draft your suggestion with the complaint and what you expect to see
+## Tip #2: Draft your suggestion with the complaint and what you expect to see
 
 Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/acceptance-criteria)
 
