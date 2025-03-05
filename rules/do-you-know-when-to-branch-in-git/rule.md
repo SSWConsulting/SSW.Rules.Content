@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you know when to branch in Git? This guide explains when to create a feature branch and how to merge it back to master, ensuring your project stays organized and deployable at all times.
+seoDescription: Do you know when to branch in Git? This guide explains when to create a feature branch and how to merge it back to main, ensuring your project stays organized and deployable at all times.
 type: rule
 archivedreason:
 title: Do you know when to branch in git?
@@ -23,9 +23,9 @@ related:
 redirects: []
 ---
 
-The best way to handle continuous development and deployment is following [GitHub Flow](https://guides.github.com/introduction/flow/). The basic idea is to always deploy from **master** , and to create a feature branch for every feature. When the feature is complete, it is merged back to master via a pull request, which provides a trigger for other developers to build.
+The best way to handle continuous development and deployment is following [GitHub Flow](https://guides.github.com/introduction/flow/). The basic idea is to always deploy from **main** , and to create a feature branch for every feature. When the feature is complete, it is merged back to main via a pull request, which provides a trigger for other developers to build.
 
-Using this strategy, **master** is always production-ready and deployable.
+Using this strategy, **main** is always production-ready and deployable.
 
 <!--endintro-->
 
@@ -38,7 +38,7 @@ Using this strategy, **master** is always production-ready and deployable.
 `youtube: https://www.youtube.com/embed/9bP4-ly2qtQ?rel=0`
 
 ::: bad  
-![Figure: Bad example - Committing to master](commit-master-bad.jpg)  
+![Figure: Bad example - Committing to main](commit-master-bad.jpg)  
 :::
 
 ::: good  
@@ -51,16 +51,16 @@ Using this strategy, **master** is always production-ready and deployable.
 
 #### Assumption
 
-**Set up build system to deploy from the master branch**
+**Set up build system to deploy from the main branch**
 
-Your build systems should always deploy from master, and should automatically deploy on every commit to master.  
-Since master is always being deployed, it must always be in a deployable state.
+Your build systems should always deploy from main, and should automatically deploy on every commit to main.  
+Since main is always being deployed, it must always be in a deployable state.
 
 ### Step 1 - Create a branch
 
 **a) Create a "feature branch" for every PBI**
 
-When starting a PBI from the task board, create a branch from **master** with a descriptive name for that feature.
+When starting a PBI from the task board, create a branch from **main** with a descriptive name for that feature.
 
 ```console
 git branch start-stuff
@@ -78,7 +78,7 @@ git branch feature/1234-create-basic-web-application
 Figure: Good example - Branch name describes the intent of the change and follows a [branch naming convention](/branch-naming)
 :::
 
-**It is critical that this branch always comes off master, not another feature branch. Master is the only branch that is mandated to be in a deployable state, so any other option is unsafe.**
+**It is critical that this branch always comes off main, not another feature branch. Main is the only branch that is mandated to be in a deployable state, so any other option is unsafe.**
 
 Obviously, we're creating a lot of branches and merging a lot under this strategy - and that's ok. Be sure to keep your PBIs small (as per [breaking large tasks into smaller tasks](/estimating-do-you-break-large-tasks-into-smaller-tasks)), and you will not have much merge pain.
 
@@ -108,9 +108,9 @@ Figure: Good example - Commit message describes exactly what was changed
 
 **d) Push your changes to your remote Feature Branch**
 
-### Step 2 - Open a pull request (to merge from your current branch to the master)
+### Step 2 - Open a pull request (to merge from your current branch to the main)
 
-When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to **master**. The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, or image and to discuss any issues. Resolve these issues with more commits in the branch before continuing.
+When the change is complete, or when you want feedback on anything, open a pull request to merge the branch back to **main**. The pull request is more than just a request to merge, it is a request to have someone review the code and architecture, or image and to discuss any issues. Resolve these issues with more commits in the branch before continuing.
 
 **Tip:** A best practice is to have another developer review your work and then approve.
 
@@ -120,13 +120,13 @@ It is easy to chalk this step up as busy-work, but it is one of the most valuabl
 
 #### Assumption
 
-Deploy the changes to a staging environment. This allows the features to be tested before being merged to **master**.
+Deploy the changes to a staging environment. This allows the features to be tested before being merged to **main**.
 
-Some prefer to move this step to after the merge, especially when using a release management tool like VSTS Release or Octopus Deploy (see [Do you use the best deployment tool](/do-you-use-the-best-deployment-tool)). If you decide to go this route, remember that **master** should remain deployable and production ready at all times and that all branches come from **master**. If skipping this step, ensure that you have CI on your feature branch to ensure that your branch compiles and passes all tests before merging.
+Some prefer to move this step to after the merge, especially when using a release management tool like VSTS Release or Octopus Deploy (see [Do you use the best deployment tool](/do-you-use-the-best-deployment-tool)). If you decide to go this route, remember that **main** should remain deployable and production ready at all times and that all branches come from **main**. If skipping this step, ensure that you have CI on your feature branch to ensure that your branch compiles and passes all tests before merging.
 
-### Step 3 - Merge and Deploy (to master)
+### Step 3 - Merge and Deploy (to main)
 
-Once everyone is happy and everything is tested, complete the pull request, which will merge back to **master**. Ensure you are not using the "Fast Forward" merge option (git), or details about the branch will be lost - it will appear as though all work was done in **master**. Being able to see the feature branches in the git log is very useful.
+Once everyone is happy and everything is tested, complete the pull request, which will merge back to **main**. Ensure you are not using the "Fast Forward" merge option (git), or details about the branch will be lost - it will appear as though all work was done in **main**. Being able to see the feature branches in the git log is very useful.
 
 ::: good  
 ![Figure: Good example - Each change is well described, small and in its own feature branch](GoodGitHistory.png)  
@@ -149,5 +149,5 @@ Otherwise, you can do it before you complete the pull request by ticking delete 
 :::
 
 ::: greybox
-Once merged, **master** should immediately and automatically be deployed (in a perfect world, to production).  
+Once merged, **main** should immediately and automatically be deployed (in a perfect world, to production).  
 :::
