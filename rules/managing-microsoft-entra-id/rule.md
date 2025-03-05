@@ -5,7 +5,7 @@ title: Do you follow best practices for managing Microsoft Entra ID?
 uri: managing-microsoft-entra-id
 authors:
   - title: Rob Thomlinson
-    url: https://www.ssw.com.au/people/RobThomlinson
+    url: https://www.ssw.com.au/people/rob-thomlinson/
 created: 2025-01-03T10:58:08.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
 related: How-to-name-documents
