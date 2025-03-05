@@ -46,8 +46,8 @@ If you ever need to change your phone number or move to a new address, **priorit
 :::
 
 ## Managing the business profile
- 
-You must verify your business before you can edit information about it. After verification of the business and approval of the edits, these changes can be published on Google Search and Maps. 
+
+You must verify your business before you can edit information about it. After verification of the business and approval of the edits, these changes can be published on Google Search and Maps.
 
 You may want to add a marketing member Gmail as a Manager account to avoid signing in with the company account for authentication.
   
