@@ -51,7 +51,7 @@ You must verify your business before you can edit information about it. After ve
 
 You may want to add a marketing member Gmail as a Manager account to avoid signing in with the company account for authentication.
   
-![Figure: In Business Profile settings, you can invite other trustful email accounts to manage the business profile](google-business.jpg)
+![Figure: In Business Profile settings, you can invite other trusted email accounts to manage the business profile](google-business.jpg)
 
 ## Making edits on the go
 
