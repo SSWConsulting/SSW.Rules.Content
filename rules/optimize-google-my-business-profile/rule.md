@@ -24,7 +24,7 @@ It’s important to keep all information about your business online up to date. 
 Follow this checklist to make sure you have everything covered:
 
 1. **Business name** – Make sure it's [consistent](/the-value-of-consistency)) with your website and social media
-2. **Address** – Have the accurate [street and suite number in the right format](/address-formatting)
+2. **Address** – Have the correct [street and suite number in the right format](/address-formatting)
 3. **Phone** – Have the accurate [phone number in the right format](/right-format-to-show-phone-numbers)
 4. **Hours** - Include the accurate business hours
    * Public holidays - Update them at the beginning of every year
