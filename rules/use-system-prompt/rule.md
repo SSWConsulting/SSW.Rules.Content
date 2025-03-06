@@ -34,11 +34,11 @@ When we don't set a system prompt the user can tell the model to act however the
 
 
 ::: bad
-![Figure: GPT's responses without a system prompt](without-system-prompt.png)
+![Figure: Bad example - GPT's responses without a system prompt](without-system-prompt.png)
 :::
 
 ::: good
-![Figure: Responses with a system prompt](with-system-prompt.png)
+![Figure: Good example - Responses with a system prompt](with-system-prompt.png)
 :::
 
 ::: info
