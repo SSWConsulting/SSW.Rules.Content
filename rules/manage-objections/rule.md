@@ -128,6 +128,7 @@ You can also "agree to disagree" - in that case send an ["as per our conversatio
 ---
 
 ::: greybox
+
 ### Final thoughts
 
 **You can turn a "no" into a "yes" when working with clients** – it’s all about perspective and understanding their needs!
