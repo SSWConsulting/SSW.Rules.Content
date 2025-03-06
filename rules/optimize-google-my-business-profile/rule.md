@@ -1,7 +1,7 @@
 ---
 seoDescription: Optimize your Google My Business profile for better customer attraction and online visibility.
 type: rule
-title: Google Business - Do you know optimize your company's Google Business profile?
+title: Google Business - Do you optimize your company's Google Business profile?
 uri: optimize-google-my-business-profile
 authors:
   - title: Camilla Rosa Silva
