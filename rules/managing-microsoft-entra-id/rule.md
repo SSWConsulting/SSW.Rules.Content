@@ -61,7 +61,7 @@ Without clear naming conventions, it becomes difficult to understand the purpose
    - Example: `[Department]-[Resource]-[Level]`
    - `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
 2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group.
-   - `DL-` for Distribution List, `SG-` for Security Group, `O365-` for Office 365 Group.
+   - `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies.
 3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context.
 4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. SSW uses kebab case :)
 
@@ -70,7 +70,7 @@ Without clear naming conventions, it becomes difficult to understand the purpose
 |--------------------------|-------------------------------------------|
 | SEC-IT-VPN-Access           | Provides VPN access for IT personnel.    |
 | SEC-Marketing-WebAnalytics  | Grants access to web analytics tools.    |
-| SG-Finance-ERP-ReadOnly    | Read-only access to the ERP system.       |
+| SEC-Finance-ERP-ReadOnly    | Read-only access to the ERP system.       |
 | O365-SharePoint-Accounts-private-library-ReadWrite    | Read-write access to the Accounts SharePoint library.       |
 | DL-All-Company-Broadcast   | Organization-wide communication group.   |
 | Intune-User-AccountingSoftware | Intune user policy to install accounting software |
