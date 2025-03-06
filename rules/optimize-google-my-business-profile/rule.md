@@ -26,7 +26,7 @@ Follow this checklist to make sure you have everything covered:
 1. **Business name** – Make sure it's [consistent](/the-value-of-consistency)) with your website and social media
 2. **Address** – Have the correct [street and suite number in the right format](/address-formatting)
 3. **Phone** – Have the accurate [phone number in the right format](/right-format-to-show-phone-numbers)
-4. **Hours** - Include the accurate business hours
+4. **Hours** - Include accurate business hours
    * Public holidays - Update them at the beginning of every year
 5. **Description and category** – Add informative information to help attract potential customers
 6. **Customer reviews** – Make sure you [reply to good or bad reviews](/monitor-external-reviews/#respond-to-feedback-appropriately)
