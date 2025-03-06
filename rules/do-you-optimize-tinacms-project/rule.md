@@ -1,12 +1,12 @@
 ---
 type: rule
 title: Do you optimize your TinaCMS project for clarity, performance, and reliable builds?
-seoDescription: Learn effective strategies to structure and optimize your 
-  TinaCMS project for clarity, performance and successful builds.
+seoDescription: Learn effective strategies to structure and optimize your
+    TinaCMS project for clarity, performance, and successful builds.
 uri: do-you-optimize-tinacms-project
 authors:
-   - title: 'Gilles Pothieu'
-     url: https://www.ssw.com.au/people/gilles-pothieu/
+    - title: 'Gilles Pothieu'
+      url: https://www.ssw.com.au/people/gilles-pothieu/
 created: 2024-08-28T16:15:00.000Z
 guid: 3c59f56f-34b0-47a7-902a-718eb340d2e5
 ---
