@@ -28,4 +28,4 @@ If don’t have a Google My Business profile yet, it’s unlikely your business 
 
 Let’s imagine a customer is trying to find your business specifically, or a similar business around their location. The customer may not be able to find you without a Google profile/listing.
 
-Now, let’s think of a scenario where a listing for your business already exists, but you don’t have a profile and therefore, have no control over the information in the existent profile for your business; or worse, the information is wrong, but you can’t fix it. This is why it’s important to have a profile on GMB, or for you to claim your GMB profile and [manage it yourself](/optimize-google-my-business-profile).
+Now, imagine a scenario where a listing for your business already exists, but you don’t have a profile, and therefore have no control over the information in the listing. Or worse, the information is wrong and you can’t fix it. This is why it’s critical to create a profile on GMB, or claim your business listing in your GMB profile so you can [manage it yourself](/optimize-google-my-business-profile).
