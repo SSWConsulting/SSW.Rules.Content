@@ -18,10 +18,10 @@ When recording your screen, whether for a tutorial, a webinar, or a demo, your o
 
 ## Why wear a company t-shirt?
 
-* **Brand recognition** – Every video you record is an opportunity to strengthen brand visibility.
-* **Professionalism** – A branded shirt shows that your company values quality and consistency.
-* **Trust and credibility** – Audiences perceive a well-branded presenter as more authoritative.
-* **Consistency** – Helps maintain a uniform look across all videos, making your brand more recognizable.
+* **Brand recognition** – Every video you record is an opportunity to strengthen brand visibility
+* **Professionalism** – A branded shirt shows that your company values quality and consistency
+* **Trust and credibility** – Audiences perceive a well-branded presenter as more authoritative
+* **Consistency** – Helps maintain a uniform look across all videos, making your brand more recognizable
 
 ## When should you wear it?
 
@@ -35,18 +35,18 @@ You should always wear your company t-shirt when:
 However, if the video is for a formal corporate audience, consider dressing appropriately while still maintaining a polished and professional look.
 
 ::: bad
-![Figure: Bad example - The presenter is wearing a plain, non-branded t-shirt, missing a chance to reinforce the company’s identity](company-t-shirt-bad.jpg)
+![Figure: Bad example - The presenter is wearing a plain, non-branded t-shirt, missing a chance to reinforce the company's identity](company-t-shirt-bad.jpg)
 :::
 
 ::: good
 ![Figure: Good example - The presenter is wearing a company-branded t-shirt, ensuring brand visibility and professionalism](company-t-shirt-good.jpg)
 :::
 
-## Bonus Tip: Make sure your logo is visible
+### Bonus Tip: Make sure your logo is visible
 
 When recording, ensure that:
 
-* Your camera angle clearly displays your company logo
+* The camera angle clearly shows the company logo
 * The t-shirt is clean and in good condition
 * The background and lighting don’t overshadow your appearance
 
