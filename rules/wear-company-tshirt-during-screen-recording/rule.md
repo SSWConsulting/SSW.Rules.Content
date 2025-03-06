@@ -45,8 +45,9 @@ However, if the video is for a formal corporate audience, consider dressing appr
 ## Bonus Tip: Make sure your logo is visible
 
 When recording, ensure that:
-✅ Your camera angle clearly displays your company logo
-✅ The t-shirt is clean and in good condition
-✅ The background and lighting don’t overshadow your appearance
+
+- Your camera angle clearly displays your company logo
+- The t-shirt is clean and in good condition
+- The background and lighting don’t overshadow your appearance
 
 By consistently wearing your company t-shirt during screen recordings, you turn every video into a branding opportunity while ensuring a professional and polished presence.
