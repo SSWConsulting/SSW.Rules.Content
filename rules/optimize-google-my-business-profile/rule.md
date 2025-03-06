@@ -17,7 +17,7 @@ redirects:
 created: 2022-05-10T23:23:10.337Z
 guid: 75cb8ea9-146f-487e-b0a4-9a953154e3c0
 ---
-It’s important to keep all information about your business online up to date. The easiest way is to recurrently review your current Google My Business listing and optimize the data to ensure your clients (or potential clients) can still find you.
+It’s important to keep all information about your business online up to date. The easiest way is to regularly review your current Google My Business listing and optimize the data to ensure your clients (or potential clients) can still find you.
 
 <!--endintro-->
 
