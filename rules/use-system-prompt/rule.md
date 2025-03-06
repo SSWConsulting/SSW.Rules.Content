@@ -32,7 +32,6 @@ The system prompt is sent with every request to the API and instructs the model 
 
 When we don't set a system prompt the user can tell the model to act however they would like it to:
 
-
 ::: bad
 ![Figure: Bad example - GPT's responses without a system prompt](without-system-prompt.png)
 :::
