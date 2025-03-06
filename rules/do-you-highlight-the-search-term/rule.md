@@ -21,8 +21,12 @@ Search is a common feature in websites, and one you will most likely have to imp
 
 ![](2014-08-07_15-48-11-before-compressor.png)
 
-**❌ Figure: Bad example - Search for items with these tags**
+::: bad
+Figure: Bad example - Search for items with these tags
+::: bad
 
 ![](2014-08-07_15-47-15-after-compressor.png)
 
-**✅ Figure: Good example - Search results have their relevant tags highlighted**
+::: good
+Figure: Good example - Search results have their relevant tags highlighted
+:::
