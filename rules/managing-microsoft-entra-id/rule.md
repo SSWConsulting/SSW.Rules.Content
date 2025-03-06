@@ -8,7 +8,8 @@ authors:
     url: https://www.ssw.com.au/people/rob-thomlinson/
 created: 2025-01-03T10:58:08.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
-related: How-to-name-documents
+related:
+ - how-to-name-documents
 ---
 
 Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions. <!--endintro-->
