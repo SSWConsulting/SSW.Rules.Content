@@ -84,4 +84,5 @@ index:
   - rules-to-better-exchange-server
   - rules-to-better-windows-forms-applications-clickonce
   - rules-do-you-use-loggermessage-in-net
+  - do-you-optimize-tinacms-project
 ---
