@@ -97,6 +97,7 @@ Figure: Good example – Addressing concerns with data and real-world examples
 ## Step 4: Accept a final "No" with grace
 
 If the client still says "No", accept it professionally. Leave the door open for future discussions:
+
 ::: greybox
 "I appreciate your time and insights. If anything changes in the future, I'd love to revisit this conversation."
 :::
