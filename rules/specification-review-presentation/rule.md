@@ -41,7 +41,7 @@ Figure: Bad example – A common mistake is to tell the client you will complete
 “Let’s schedule a meeting now for Wed 3 pm. I will send a meeting invite to all the stakeholders”  
 :::
 ::: good
-Figure: Good example – This is an appointment with a specific time for the next schedule 
+Figure: Good example – This is an appointment with a specific time for the next schedule
 :::
 
 The benefits are:  
