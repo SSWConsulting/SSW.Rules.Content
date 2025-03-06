@@ -35,11 +35,11 @@ You should always wear your company t-shirt when:
 However, if the video is for a formal corporate audience, consider dressing appropriately while still maintaining a polished and professional look.
 
 ::: bad
-![Figure: Bad example - The presenter is wearing a plain, non-branded t-shirt, missing a chance to reinforce the company's identity](company-t-shirt-bad.jpg)
+![Figure: Bad example - The presenter is wearing a plain, non-branded t-shirt, missing a chance to reinforce the company’s identity](company-t-shirt-bad.png)
 :::
 
 ::: good
-![Figure: Good example - The presenter is wearing a company-branded t-shirt, ensuring brand visibility and professionalism](company-t-shirt-good.jpg)
+![Figure: Good example - The presenter is wearing a company-branded t-shirt, ensuring brand visibility and professionalism](company-t-shirt-good.png)
 :::
 
 ### Bonus Tip: Make sure your logo is visible
