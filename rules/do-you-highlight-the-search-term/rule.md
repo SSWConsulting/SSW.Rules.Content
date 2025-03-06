@@ -19,14 +19,10 @@ When implementing search on a website, do you know that it is best to highlight 
 
 Search is a common feature in websites, and one you will most likely have to implement at some stage. When search returns a list of items, it is useful to highlight the search terms where they appear in the results.
 
-![](2014-08-07_15-48-11-before-compressor.png)
-
 ::: bad
-Figure: Bad example - Search for items with these tags
-::: bad
-
-![](2014-08-07_15-47-15-after-compressor.png)
+![Figure: Bad example - Search for items with these tags](2014-08-07_15-48-11-before-compressor.png)
+:::
 
 ::: good
-Figure: Good example - Search results have their relevant tags highlighted
+![Figure: Good example - Search results have their relevant tags highlighted](2014-08-07_15-47-15-after-compressor.png)
 :::
