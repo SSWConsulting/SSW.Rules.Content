@@ -1,7 +1,7 @@
 ---
 seoDescription: Wearing your company t-shirt during a screen recording helps reinforce your brand identity and ensures a professional and consistent appearance.
 type: rule
-title: Screen Recording - Do you wear a company t-shirt?
+title: Screen Recordings - Do you wear a company t-shirt?
 uri: wear-company-tshirt-during-screen-recording
 authors:
   - title: Adam Cogan
