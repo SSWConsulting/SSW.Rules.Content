@@ -27,9 +27,8 @@ These three options are:
 * Save and Close (button) - Saves the data and returns to the previous screen
 * Cancel (link) - returns to the previous screen
 
-
 ::: bad
-![Figure: Bad example - only provided _Save_ button and _Cancel_ link](2014-11-27_11-45-25-compressor.png) 
+![Figure: Bad example - only provided _Save_ button and _Cancel_ link](2014-11-27_11-45-25-compressor.png)
 :::
 
 ::: good
