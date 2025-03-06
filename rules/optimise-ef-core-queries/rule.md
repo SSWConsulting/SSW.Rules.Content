@@ -79,7 +79,8 @@ foreach (var entity in entities)
 Figure: Good example – Fetches all required records in one query, reducing database load.
 :::
 
-#### Handling Large Datasets
+### Handling Large Datasets
+
 If the dataset is **too large to fetch at once**, consider batching:
 
 ::: greybox
@@ -203,7 +204,8 @@ catch
 Figure: Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability.
 :::
 
-#### Combining Transactions with Batching
+### Combining Transactions with Batching
+
 For very large datasets, committing everything in one transaction may still be inefficient. Instead, **process data in batches** while keeping transactions:
 
 ::: greybox
@@ -232,7 +234,8 @@ catch
 Figure: Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal.
 :::
 
-#### When to Use Transactions
+### When to Use Transactions
+
 - When performing multiple **related** `Add`, `Update`, or `Delete` operations that should **either all succeed or all fail** (atomicity).
 - When inserting or modifying **large amounts of data**, reducing **multiple individual transactions** into a single one.
 - When using **batch processing** to ensure database efficiency while still maintaining consistency.
