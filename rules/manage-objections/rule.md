@@ -2,7 +2,7 @@
 seoDescription: Mastering objections to secure clients' trust and confidence in your solution
 type: rule
 title: Do you know how to manage objections?
-uri: do-you-know-how-to-manage-objections
+uri: manage-objections
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,7 +10,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Rob Thomlinson
     url: https://www.ssw.com.au/people/RobThomlinson
-related: []
+related: 
+ - for-the-record
 redirects:
 - do-you-know-how-to-manage-objections
 created: 2012-08-30T13:03:32.000Z
@@ -106,6 +107,8 @@ If the client still says "No", accept it professionally. Leave the door open for
 ::: good  
 Figure: Good example – Keeping the relationship positive for future opportunities
 :::
+
+You can also "Agree to disagree" - in that case send an ["as per our conversation"](/do-you-send-as-per-our-conversation-emails) email to state what you disagree with.
 
 ### Final thoughts
 
