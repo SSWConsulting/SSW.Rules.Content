@@ -37,9 +37,9 @@ Before pushing back, we need to make sure that we understand why the person decl
 Instead of immediately trying to resolve their issues with a solution, **ask questions** to understand their real hesitation:
 
 ::: greybox
-"We can use a cheaper LLM to ensure the solution is within you're budget"
+"We can use a cheaper LLM to ensure the solution is within your budget"
 :::
-::: Bad  
+::: bad  
 Figure: Bad example – Trying to resolve the issue by assuming the customers concerns
 :::
 
@@ -47,6 +47,7 @@ Figure: Bad example – Trying to resolve the issue by assuming the customers co
 
 * &nbsp;"Can you help me understand what concerns you have with the current approach?"
 * &nbsp;"If I could resolve this issue for you, could we move forward?"
+* &nbsp;"Would it be helpful if I asked AI for some potential solutions before we discuss this further?"
 * &nbsp;"Is it alright if I speak to one of my developers about it and let you know about that later today?"
 :::
 ::: good  
