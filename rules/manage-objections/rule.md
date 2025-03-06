@@ -28,6 +28,7 @@ Use this objection handling model.
 ## Step 1: Understand the real reason behind the "No"
 
 Before pushing back, we need to make sure that we understand why the person declined. Common reasons include:
+
 * &nbsp;**Cost concerns**
 * &nbsp;**Timing issues**
 * &nbsp;**Pushing something that the client doesn't want**
