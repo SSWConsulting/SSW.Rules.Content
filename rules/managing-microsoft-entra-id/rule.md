@@ -64,7 +64,7 @@ Without clear naming conventions, it becomes difficult to understand the purpose
    * Example: `[Department]-[Resource]-[Level]`
    * `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
 2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group.
-   * `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies.
+   - `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies.
 3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context.
 4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. SSW uses kebab case :)
 
