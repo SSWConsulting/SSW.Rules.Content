@@ -41,9 +41,9 @@ Figure: Bad example – Trying to resolve the issue by assuming the customers co
 :::
 
 ::: greybox
-"Can you help me understand what concerns you have with the current approach?"
-"If I could resolve this issue for you, could we move forward?"
-"Is it alright if I speak to one of my developers about it and let you know about that later today?"
+  - "Can you help me understand what concerns you have with the current approach?"
+  - "If I could resolve this issue for you, could we move forward?"
+  - "Is it alright if I speak to one of my developers about it and let you know about that later today?"
 :::
 ::: good  
 Figure: Good examples – Asking the right questions helps you refine your response
