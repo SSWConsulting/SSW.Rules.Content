@@ -68,10 +68,13 @@ Without clear naming conventions, it becomes difficult to understand the purpose
 #### **Common Naming Conventions Example**
 | **Name**                | **Purpose**                               |
 |--------------------------|-------------------------------------------|
-| IT-VPN-Access           | Provides VPN access for IT personnel.    |
-| Marketing-WebAnalytics  | Grants access to web analytics tools.    |
-| Finance-ERP-ReadOnly    | Read-only access to the ERP system.       |
-| All-Company-Broadcast   | Organization-wide communication group.   |
+| SEC-IT-VPN-Access           | Provides VPN access for IT personnel.    |
+| SEC-Marketing-WebAnalytics  | Grants access to web analytics tools.    |
+| SG-Finance-ERP-ReadOnly    | Read-only access to the ERP system.       |
+| O365-SharePoint-Accounts-private-library-ReadWrite    | Read-write access to the Accounts SharePoint library.       |
+| DL-All-Company-Broadcast   | Organization-wide communication group.   |
+| Intune-User-AccountingSoftware | Intune user policy to install accounting software |
+| Intune-Computer-ScreenTimeout | Intune computer screen timeout policy |
 
 Figure: Good examples of access group naming conventions that improve clarity and reduce errors in assignment.
 
