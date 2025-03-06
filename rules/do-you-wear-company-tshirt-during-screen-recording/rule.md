@@ -24,6 +24,7 @@ When recording your screen, whether for a tutorial, a webinar, or a demo, your o
 ### When should you wear it?
 
 You should always wear your company T-shirt when:
+
 * Recording tutorials or educational content
 * Creating product demos or walkthroughs
 * Hosting webinars or live streams
