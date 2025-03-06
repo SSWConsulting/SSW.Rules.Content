@@ -8,64 +8,68 @@ authors:
     url: https://www.ssw.com.au/people/rob-thomlinson/
 created: 2025-01-03T10:58:08.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
-related: How-to-name-documents
+related:
+ - how-to-name-documents
 ---
 
 Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions. <!--endintro-->
 
 ## 1. Enforce Strong Authentication
 
-- **Implement Multi-Factor Authentication (MFA):** Require MFA for all users, especially administrators, to add an extra layer of security.
+* **Implement Multi-Factor Authentication (MFA):** Require MFA for all users, especially administrators, to add an extra layer of security.
 
-- **Adopt Passwordless Authentication:** Utilise methods like Windows Hello for Business or FIDO2 security keys to enhance security and user experience.
+* **Adopt Passwordless Authentication:** Utilise methods like Windows Hello for Business or FIDO2 security keys to enhance security and user experience.
 
 ## 2. Apply the Principle of Least Privilege
 
-- **Use Role-Based Access Control (RBAC):** Assign users the minimum permissions necessary for their roles to reduce the risk of unauthorised access.
+* **Use Role-Based Access Control (RBAC):** Assign users the minimum permissions necessary for their roles to reduce the risk of unauthorised access.
 
-- **Implement Just-In-Time Access:** Utilise Privileged Identity Management (PIM) to grant temporary access to resources only when needed.
+* **Implement Just-In-Time Access:** Utilise Privileged Identity Management (PIM) to grant temporary access to resources only when needed.
 
 ## 3. Regularly Review and Audit Access
 
-- **Conduct Access Reviews:** Periodically review user access to ensure that only authorised individuals have access to resources.
+* **Conduct Access Reviews:** Periodically review user access to ensure that only authorised individuals have access to resources.
 
-- **Monitor Sign-In Activity:** Keep track of user sign-ins to detect unusual or suspicious activities promptly.
+* **Monitor Sign-In Activity:** Keep track of user sign-ins to detect unusual or suspicious activities promptly.
 
 ## 4. Secure Application Registrations
 
-- **Use Certificates Over Secrets:** Always use certificate credentials for app authentication instead of client secrets, as certificates are more secure.
+* **Use Certificates Over Secrets:** Always use certificate credentials for app authentication instead of client secrets, as certificates are more secure.
 
-- **Limit API Permissions:** Assign the least privileged permissions necessary for applications to function.
+* **Limit API Permissions:** Assign the least privileged permissions necessary for applications to function.
 
 ## 5. Enable Security Features
 
-- **Activate Security Defaults:** Enable security defaults in Microsoft Entra ID to enforce a basic level of security across your organisation.
+* **Activate Security Defaults:** Enable security defaults in Microsoft Entra ID to enforce a basic level of security across your organisation.
 
-- **Implement Conditional Access Policies:** Define policies that grant or block access based on conditions like user location, device state, or risk level.
+* **Implement Conditional Access Policies:** Define policies that grant or block access based on conditions like user location, device state, or risk level.
 
 ## 6. Plan for Emergency Access
 
-- **Create Break Glass Accounts:** Establish at least two emergency access accounts that are not protected by MFA to ensure access during critical situations.
+* **Create Break Glass Accounts:** Establish at least two emergency access accounts that are not protected by MFA to ensure access during critical situations.
 
-- **Monitor and Secure Emergency Accounts:** Regularly audit these accounts to ensure they are not misused and are only accessed during emergencies.
+* **Monitor and Secure Emergency Accounts:** Regularly audit these accounts to ensure they are not misused and are only accessed during emergencies.
 
 ## 7. Use Clear Access Group Naming Conventions
 
 Clear and consistent naming conventions for access groups make management simpler and ensure clarity across the organisation.
 
 ### **why are naming conventions important?**
+
 Without clear naming conventions, it becomes difficult to understand the purpose or scope of access groups, leading to confusion and potential security risks.
 
 #### **best practices**
+
 1. **Follow a Standard Structure:** Include key details in the group name, such as department, function, and access level.
-   - Example: `[Department]-[Resource]-[Level]`
-   - `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
+   * Example: `[Department]-[Resource]-[Level]`
+   * `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
 2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group.
    - `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies.
 3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context.
 4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. SSW uses kebab case :)
 
 #### **Common Naming Conventions Example**
+
 | **Name**                | **Purpose**                               |
 |--------------------------|-------------------------------------------|
 | SEC-IT-VPN-Access           | Provides VPN access for IT personnel.    |
