@@ -29,15 +29,21 @@ These three options are:
 
 ![](2014-11-27_11-45-25-compressor.png)
 
-**❌ Figure: Bad example - only provided _Save_ button and _Cancel_ link**
+::: bad
+Figure: Bad example - only provided _Save_ button and _Cancel_ link
+:::
 
 ![](2014-11-27_13-58-48-compressor.png)
 
-**✅ Figure: Good example - CRM 2013 provides a _Save_ button and a _Save and Close_ button**
+::: good
+Figure: Good example - CRM 2013 provides a _Save_ button and a _Save and Close_ button
+:::
 
 ![](2014-11-27_11-47-40-compressor.png)
 
-**✅ Figure: Better example - SugarLearning provides a _Save_ button, a _Save and Close_ button, and a _Cancel_ link**
+::: good
+Figure: Better example - SugarLearning provides a _Save_ button, a _Save and Close_ button, and a _Cancel_ link
+:::
 
 **Further Reading:**
 
