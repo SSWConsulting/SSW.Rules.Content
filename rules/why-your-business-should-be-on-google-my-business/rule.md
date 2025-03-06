@@ -24,7 +24,7 @@ By adding your business information to Google, you will:
 * Provide important information to searchers (aka potential customers)
 * Receive business reviews and build trust with your clientele
 
-If don’t have a Google My Business profile yet, it’s unlikely your business will show up on Google Maps and be searchable by Google users. A GMB helps ensure that people find your business when looking for products and services like yours in their local area.
+If don’t have a Google My Business profile yet, it’s unlikely your business will show up on Google Maps and be searchable by Google users. A GMB profile helps ensure that people find your business when looking for products and services like yours in their local area.
 
 Let’s imagine a customer is trying to find your business specifically, or a similar business around their location. The customer may not be able to find you without a Google profile/listing.
 
