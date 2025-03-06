@@ -27,22 +27,17 @@ These three options are:
 * Save and Close (button) - Saves the data and returns to the previous screen
 * Cancel (link) - returns to the previous screen
 
-![](2014-11-27_11-45-25-compressor.png)
 
 ::: bad
-Figure: Bad example - only provided _Save_ button and _Cancel_ link
+![Figure: Bad example - only provided _Save_ button and _Cancel_ link](2014-11-27_11-45-25-compressor.png) 
 :::
 
-![](2014-11-27_13-58-48-compressor.png)
-
 ::: good
-Figure: Good example - CRM 2013 provides a _Save_ button and a _Save and Close_ button
+![Figure: Good example - CRM 2013 provides a _Save_ button and a _Save and Close_ button](2014-11-27_13-58-48-compressor.png)
 :::
 
-![](2014-11-27_11-47-40-compressor.png)
-
 ::: good
-Figure: Better example - SugarLearning provides a _Save_ button, a _Save and Close_ button, and a _Cancel_ link
+![Figure: Better example - SugarLearning provides a _Save_ button, a _Save and Close_ button, and a _Cancel_ link](2014-11-27_11-47-40-compressor.png)
 :::
 
 **Further Reading:**
