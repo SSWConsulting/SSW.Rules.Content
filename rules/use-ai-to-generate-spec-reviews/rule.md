@@ -72,7 +72,6 @@ Figure: Bad example - Missing critical elements like security considerations, da
   CI -->|Supports| CAM
   :::
 
-
 ::: good
 ![Figure: Good example - Visualizing complex system infrastructure using Mermaid for clarity](mermaid.jpg)
 :::
