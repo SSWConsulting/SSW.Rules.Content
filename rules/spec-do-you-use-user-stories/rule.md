@@ -29,7 +29,6 @@ So that **\[some reason]**
 :::
 **Figure: User Story - template for description**
 
-
 ![Figure: User Story example in an Azure DevOps PBI](user-story-azuredevops.png)
 
 ![Figure: User Story example in a GitHub Issue](userstory-github.png)
