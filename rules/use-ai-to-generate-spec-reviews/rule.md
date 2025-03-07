@@ -17,7 +17,7 @@ Even the most seasoned analysts might occasionally overlook certain details in a
 
 <!--endintro-->
 
-## The Role of AI in Enhancing Reviews
+## The role of AI in enhancing reviews
 
 * **Tool, Not Replacement:** AI greatly aids in generating Specification Reviews. Yet, the expertise and discernment of a human are irreplaceable. AI provides a foundational understanding, but professionals provide the nuanced depth.
 * **Interactive AI:** Foster a dynamic interaction with AI. Instead of providing it with a predetermined set of requirements, let the AI ask progressive questions. This way, it captures the intricacies of the project scope.
@@ -43,7 +43,7 @@ Prompt:
      ..."
 :::
 ::: bad
-Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with          existing systems
+Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with existing systems
 :::
   
 * **Customization Over Templates:**
