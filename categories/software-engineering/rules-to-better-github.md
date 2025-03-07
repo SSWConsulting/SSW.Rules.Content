@@ -29,6 +29,7 @@ index:
   - override-branch-protection
   - use-github-discussions
   - use-github-topics
+  - react-to-github
   - use-teams
   - github-mobile
   - how-to-view-activity-traffic-and-contributions-of-a-project
