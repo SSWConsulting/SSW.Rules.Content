@@ -14,7 +14,7 @@ EF Core provides a powerful way to interact with databases using .NET, but poor 
 
 <!--endintro-->
 
-## 1. Perform Bulk Insertions Instead of Looping
+## 1. Perform bulk insertions instead of looping
 
 One of the most common mistakes is inserting entities one by one inside a loop. This results in multiple round trips to the database, which is extremely inefficient.
 
@@ -30,7 +30,7 @@ foreach (var item in items)
 
 :::
 ::: bad
-Figure: Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits.
+Figure: Bad example – Calling `SaveChangesAsync()` inside a loop causes multiple database hits
 :::
 
 Instead, use **bulk insertion** techniques like `AddRangeAsync()` and call `SaveChangesAsync()` once:
@@ -44,14 +44,14 @@ context.SaveChangesAsync();
 
 :::
 ::: good
-Figure: Good example – Using `AddRangeAsync()` minimizes database calls and improves performance.
+Figure: Good example – Using `AddRangeAsync()` minimizes database calls and improves performance
 :::
 
 For **even larger datasets**, consider using external libraries like **EF Core Bulk Extensions** for optimized bulk insert performance.
 
 ---
 
-## 2. Batch Queries to Reduce Database Calls
+## 2. Batch queries to reduce database calls
 
 When retrieving data in a loop, developers sometimes execute multiple queries instead of batching them upfront.
 
@@ -67,7 +67,7 @@ foreach (var id in ids)
 
 :::
 ::: bad
-Figure: Bad example – Each iteration performs a separate database query, leading to N queries.
+Figure: Bad example – Each iteration performs a separate database query, leading to N queries
 :::
 
 If you know the approximate size of your dataset, and it is suitable for your database server, retrieve all records in a single query before processing:
@@ -84,10 +84,10 @@ foreach (var entity in entities)
 
 :::
 ::: good
-Figure: Good example – Fetches all required records in one query, reducing database load.
+Figure: Good example – Fetches all required records in one query, reducing database load
 :::
 
-### Handling Large Datasets
+### Handling large datasets
 
 If the dataset is **too large to fetch at once**, consider batching:
 
@@ -105,14 +105,14 @@ for (int i = 0; i < ids.Count; i += batchSize)
 
 :::
 ::: ok
-Figure: OK example – Processes data in batches to balance efficiency and memory usage.
+Figure: OK example – Processes data in batches to balance efficiency and memory usage
 :::
 
 The benefit of loading data into memory at once is that you can process it more efficiently without making multiple database calls. This opens up opportunities for parallel processing and other optimizations on the application side.
 
 ---
 
-## 3. Stop Tracking Entities When Not Needed
+## 3. Stop tracking entities when not needed
 
 By default, EF Core tracks entities, which increases memory usage and slows down performance. If you're just **reading data** without modifying it, disable tracking.
 
@@ -124,7 +124,7 @@ var entities = context.MyEntities.ToListAsync();
 
 :::
 ::: bad
-Figure: Bad example – Unnecessary tracking increases memory usage.
+Figure: Bad example – Unnecessary tracking increases memory usage
 :::
 
 ::: greybox
@@ -135,7 +135,7 @@ var entities = context.MyEntities.AsNoTracking().ToListAsync();
 
 :::
 ::: good
-Figure: Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage.
+Figure: Good example – `AsNoTracking()` prevents EF Core from tracking entities, reducing memory usage
 :::
 
 ::: info
@@ -144,7 +144,7 @@ Figure: Good example – `AsNoTracking()` prevents EF Core from tracking entitie
 
 ---
 
-## 4. Call `SaveChangesAsync()` Less Frequently
+## 4. Call `SaveChangesAsync()` less frequently
 
 Each call to `SaveChangesAsync()` triggers a database transaction and commits changes to the database, which is costly in terms of performance.
 
@@ -160,7 +160,7 @@ foreach (var entity in entities)
 
 :::
 ::: bad
-Figure: Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance.
+Figure: Bad example – Calling `SaveChangesAsync()` in a loop causes multiple transactions, slowing down performance
 :::
 
 ::: greybox
@@ -175,14 +175,14 @@ context.SaveChangesAsync();
 
 :::
 ::: good
-Figure: Good example – Updates all entities in memory first, then commits changes in a single transaction.
+Figure: Good example – Updates all entities in memory first, then commits changes in a single transaction
 :::
 
 Whenever possible, defer calling `SaveChangesAsync()` until after all modifications have been made.
 
 ---
 
-## 5. Use Transactions to Speed Up Performance
+## 5. Use transactions to speed up performance
 
 EF Core automatically wraps `SaveChangesAsync()` calls in a transaction, but **explicit transactions** allow multiple operations to be committed together, improving performance and reducing the risk of partial failures. When working with large data modifications, batch processing, or multiple related database operations, using transactions ensures **data consistency** and **reduces performance overhead**.
 
@@ -198,7 +198,7 @@ foreach (var entity in entities)
 
 :::
 ::: bad
-Figure: Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead.
+Figure: Bad example – Each `SaveChangesAsync()` call inside the loop creates a separate transaction, leading to unnecessary database overhead
 :::
 
 ::: greybox
@@ -223,10 +223,10 @@ catch
 
 :::
 ::: good
-Figure: Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability.
+Figure: Good example – Using an explicit transaction ensures all entities are added in a **single** transaction, reducing overhead and improving reliability
 :::
 
-### Combining Transactions with Batching
+### Combining transactions with batching
 
 For very large datasets, committing everything in one transaction may still be inefficient. Instead, **process data in batches** while keeping transactions:
 
@@ -255,10 +255,10 @@ catch
 
 :::
 ::: good
-Figure: Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal.
+Figure: Good example – Transactions combined with batching allow **efficient processing of large datasets** while keeping database transactions minimal
 :::
 
-### When to Use Transactions
+### When to use transactions
 
 * When performing multiple **related** `Add`, `Update`, or `Delete` operations that should **either all succeed or all fail** (atomicity).
 * When inserting or modifying **large amounts of data**, reducing **multiple individual transactions** into a single one.
@@ -267,13 +267,13 @@ Figure: Good example – Transactions combined with batching allow **efficient p
 
 ---
 
-### Summary: Optimize EF Core Queries for Better Performance
+## Summary: ✅ Optimize EF Core queries for better performance
 
-✅ Use **bulk insertions** (`AddRangeAsync()`) instead of inserting in a loop.  
-✅ Fetch **data in a single query** instead of querying in a loop.  
-✅ **Batch large datasets** to balance efficiency and memory usage.  
-✅ **Use `AsNoTracking()`** when you don’t need entity tracking.  
-✅ **Call `SaveChangesAsync()` less frequently** to reduce database overhead.  
-✅ **Use transactions** for multiple operations to improve efficiency and reliability.  
+* Use **bulk insertions** (`AddRangeAsync()`) instead of inserting in a loop  
+* Fetch **data in a single query** instead of querying in a loop
+* **Batch large datasets** to balance efficiency and memory usage
+* **Use `AsNoTracking()`** when you don’t need entity tracking
+* **Call `SaveChangesAsync()` less frequently** to reduce database overhead
+* **Use transactions** for multiple operations to improve efficiency and reliability
 
 Following these practices ensures your EF Core queries are efficient, reducing database load and improving application performance.
