@@ -34,7 +34,7 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 GitHub Discussions have many uses, and it can be hard to know where to start. The following topics provide some good guidelines to follow.
 
-* **Starting potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
+* **Potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
 * **Customer support** e.g. Login help - I forgot my password and am not sure how to reset it
 * **FAQ** e.g. Customers - Can I import my customers from a CSV?
 * **Product announcements** e.g. New feature - users can now have a profile picture
@@ -44,7 +44,7 @@ GitHub Discussions have many uses, and it can be hard to know where to start. Th
 
 However, try not to constrain yourself to only these topics. The point of GitHub Discussions is to provide an open forum for communication!
 
-### 1. Starting potential project improvements (features, bugs or ideas)
+### 1. Potential project improvements (features, bugs or ideas)
 
 New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through **3 stages**:
 
@@ -75,7 +75,7 @@ GitHub Discussions can be converted to GitHub Issues with a single click!
 
 Votes are available in GitHub Discussions, and they provide a great way to prioritize what the community wants most. By encouraging users to upvote feature requests, bug reports, or important discussions, maintainers can better understand which topics have the highest demand.
 
-This helps streamline decision-making and ensures that development efforts align with the needs of the community. Upvoting is a simple yet effective way for contributors to make their voices heard and for maintainers to focus on the most impactful changes.
+This helps streamline decision-making and ensures that development efforts align with the needs of the community. Upvoting is a simple yet effective way for contributors to make their voices heard and for maintainers to focus on the most impactful changes. Other users' reactions can also be useful, so keep an eye on them.
 :::
 
 #### ✨ Stage 2 - GitHub Issues
