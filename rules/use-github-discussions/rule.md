@@ -86,7 +86,6 @@ Once things are clarified on the GitHub Discussion or if you are certain the iss
 
 Once the work is complete or if it is an **easy** change you are **certain** you want to make (e.g. a spelling mistake), it can be turned into a Pull Request.
 
-
 ### 2. Customer support
 
 GitHub Discussions provide a great forum for users to ask questions about how to use the product. Not only is it easy to access, but it will also help future users with the same problem.
