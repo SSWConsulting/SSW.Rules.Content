@@ -36,15 +36,15 @@ E.g. Mr. Northwind learns that the idea he presented at the initial meeting will
 ![Figure: A ballpark or proposal should start small and not be a big commitment](proposal.jpg)
 
 ::: greybox
-_"From this initial meeting, the ballpark is 6 months and $200k+GST"_
+"From this initial meeting, the ballpark is 6 months and $200k+GST"
 :::
 ::: bad
 Bad example - Big scary figure
 :::
 
 ::: greybox
-_"From this initial meeting, we will first need to conduct a Specification Review.
-This first step is $8k - a 2-day Specification Review"_
+"From this initial meeting, we will first need to conduct a Specification Review.
+This first step is $8k - a 2-day Specification Review"
 :::
 ::: good
 Good example - Work in small chunks of work with details about what you will do
@@ -79,14 +79,14 @@ Remember, no politician challenging for leadership ever calls a vote before he o
 Through the course of the Spec Review, the client will be aware that each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-_"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."_
+"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."
 :::
 ::: bad
 Bad example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
-_"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."_
+"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."
 :::
 ::: good
 Good example - Leaves some wriggle room at these initial phases
