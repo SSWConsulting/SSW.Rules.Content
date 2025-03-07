@@ -1,7 +1,8 @@
 ---
 type: rule
 title: Do you choose the best authentication method for every situation?
-seoDescription: Choose the best method of authentication for your situation by considering factors such as scope, social, volume, and MFA requirements.
+seoDescription: Choose the best method of authentication for your situation by
+  considering factors such as scope, social, volume, and MFA requirements.
 uri: choosing-authentication
 authors:
   - title: Jason Taylor
@@ -347,34 +348,35 @@ Disadvantages:
 
 ## 9. Keycloak (Open-Source IAM Solution)
 
-[Keycloak](https://www.keycloak.org) is an **open-source identity and access management** solution created in 2014 by Bill Burke and Stian Thorgersen. Governed by the **Cloud Native Computing Foundation (CNCF)** as an incubating project since April 2023, it provides **enterprise-grade authentication and authorization** capabilities through **OIDC/OAuth 2.0/SAML SSO**, **identity brokering**, and **social logins**. The platform's **Quarkus distribution** offers improved startup times and reduced memory footprint compared to previous implementations.
+[Keycloak](https://www.keycloak.org) is an open-source identity and access management solution created in 2014. Governed by the Cloud Native Computing Foundation (CNCF) as an incubating project since April 2023, it provides enterprise-grade authentication and authorization capabilities through OIDC/OAuth 2.0/SAML SSO, identity brokering, and social logins.
 
 ::: good
 Advantages:
 :::
 
-* **CNCF ecosystem** integration with native **Kubernetes Operator** support and **Prometheus** monitoring
-* **Persistent user sessions** in v26 ensure seamless authentication during migrations/restarts
-* **Multi-site deployment** optimizations for global enterprise configurations
-* **Red Hat downstream support** with commercial SLAs available through **Red Hat SSO**
-* **Extensible architecture** supporting **LDAP/Active Directory** federation and third-party integrations
+* CNCF ecosystem integration with native Kubernetes Operator support and Prometheus monitoring
+* Persistent user sessions in v26 ensure seamless authentication during migrations/restarts
+* Multi-site deployment optimizations for global enterprise configurations
+* Red Hat downstream support with commercial SLAs available through Red Hat SSO
+* Extensible architecture supporting LDAP/Active Directory federation and third-party integrations
 
 ::: bad
 Disadvantages:
 :::
 
-* Complex clustering requiring **Kubernetes/OpenShift** operational expertise
-* Limited **mobile SDKs** necessitating third-party libraries like **AppAuth**
-* **Community-driven support** without guaranteed 24/7 incident response
-* Experimental status for emerging features like **quantum-resistant cryptography**
+* Complex clustering requiring Kubernetes/OpenShift operational expertise
+* Limited mobile SDKs necessitating third-party libraries like AppAuth
+* Community-driven support without guaranteed 24/7 incident response
+* Experimental status for emerging features like quantum-resistant cryptography
 
 **Use this option if...**
 
-* You require **CNCF-aligned IAM** with **Envoy service mesh** compatibility
-* Your team manages **Kubernetes** environments via **Helm/Operators**
-* Protocol flexibility (**SAML/OIDC hybrid flows**) is critical
-* You need **open-source solutions** with **enterprise upgrade paths**
-* **Data sovereignty** and **multi-cloud deployments** are priorities
+* You require CNCF-aligned IAM with Envoy service mesh compatibility
+* Your team manages Kubernetes environments via Helm/Operators
+* Protocol flexibility (SAML/OIDC hybrid flows) is critical
+* You need open-source solutions with enterprise upgrade paths
+* Data sovereignty and multi-cloud deployments are priorities
+* You don't need enterprise level support
 
 ## 10. Roll your own - a solution looking for a problem :-)
 
