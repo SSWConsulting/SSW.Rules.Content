@@ -27,12 +27,15 @@ A good drip campaign:
 ## How to implement an effective drip campaign
 
 ### 1. Define your goal
+
 Before setting up a campaign, think about what you want to achieve. You might want to:
-   - Educate new subscribers
-   - Convert free users into paying customers
-   - Re-engage inactive users
+
+* Educate new subscribers
+* Convert free users into paying customers
+* Re-engage inactive users
 
 ### 2. Plan your email sequence
+
 Your campaign should have multiple emails spread over a period of time.
 
 Week 1 - Welcome: Thank them for signing up and introduce your brand.
@@ -43,22 +46,28 @@ Week 5 - Limited-Time Offer: Create urgency with a discount or incentive.
 Week 6 - Follow-up & Final Nudge: Remind them of the offer or next steps.
 
 ### 3. Write compelling content
+
 Each email should have:
-   - A clear **subject line** to increase open rates.
-   - **Personalization** (e.g., “Hey [First Name]!”).
-   - A single, focused **call to action (CTA)** (e.g., “Book a Demo” or “Claim Your Discount”).
-   - A **consistent tone and branding**.
+
+* A clear **subject line** to increase open rates.
+* **Personalization** (e.g., “Hey [First Name]!”).
+* A single, focused **call to action (CTA)** (e.g., “Book a Demo” or “Claim Your Discount”).
+* A **consistent tone and branding**.
 
 ### 4. Automate the campaign
+
 You want to to schedule emails, set triggers (e.g., when a user signs up), and track engagement.
 Use an email marketing tool like:
-   - Mailchimp
-   - HubSpot
-   - ActiveCampaign
-   - Klaviyo
+
+* Mailchimp
+* HubSpot
+* ActiveCampaign
+* Klaviyo
 
 ### 5. Analyze & optimize
+
 Monitor metrics such as:
-   - Open rates – Are your subject lines effective?
-   - Click-through rates (CTR) – Are users engaging with your CTAs?
-   - Conversion rates – Are your emails leading to desired actions?
+
+* Open rates – Are your subject lines effective?
+* Click-through rates (CTR) – Are users engaging with your CTAs?
+* Conversion rates – Are your emails leading to desired actions?
