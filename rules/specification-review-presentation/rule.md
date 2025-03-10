@@ -41,8 +41,10 @@ Figure: Bad example – A common mistake is to tell the client you will complete
 “Let’s schedule a meeting now for Wed 3 pm. I will send a meeting invite to all the stakeholders”  
 :::
 ::: good
-Figure: Good example – This is an appointment with a specific time for the next schedule The benefits are:  
+Figure: Good example – This is an appointment with a specific time for the next schedule
 :::
+
+The benefits are:  
 
 * You are striking while the iron is hot
 * All parties benefit while the information is fresh in their minds
@@ -58,9 +60,9 @@ Figure: Good example – This is an appointment with a specific time for the nex
 
 * **Option D (Recommended)** - Video of PowerPoint presentation with narrations **exported to a video** (the best option to gather more feedback, you can even gather public feedback E.g. [PointBank](https://sswconsulting.github.io/PointBank)
 
-  ::: good  
-  ![Figure: Good example - Export your PowerPoint presentation as a video](pptx-to-video.png)  
-  :::
+::: good  
+![Figure: Good example - Export your PowerPoint presentation as a video](pptx-to-video.png)  
+:::
 
 ::: greybox
 **Note:** Make sure to name your video according to [including version numbers in your file](/post-production-do-you-use-a-version-number-on-your-videos). Publish your video to YouTube afterwards so you can easily share it with colleagues and clients.

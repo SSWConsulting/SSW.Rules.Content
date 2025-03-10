@@ -41,6 +41,7 @@ index:
   - use-jquery-instead-of-javascript
   - use-link-auditor
   - using-markdown-to-store-your-content
+  - mdx-vs-markdown
   - best-practices-for-frontmatter-in-markdown
   - page-owner
   - set-language-on-code-blocks

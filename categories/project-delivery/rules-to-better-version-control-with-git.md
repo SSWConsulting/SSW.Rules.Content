@@ -20,7 +20,8 @@ index:
   - fork-vs-branch
   - clean-git-history
   - change-date-of-existing-commit
-  - do-you-handle-multi-os-dev-teams-in-source-control
+  - handle-multi-os-dev-teams-in-source-control
+
 ---
 
 If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/consulting/alm-tooling) and book in a consultant.

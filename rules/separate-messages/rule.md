@@ -15,13 +15,14 @@ guid: 01cc440f-7eff-49ca-a544-acbfd93e11f1
 related:
   - answer-im-questions-in-order
   - easy-questions
+  - split-emails-by-topic
 ---
 
 When messaging someone, it's often tempting to send a big block of text. This can make your thoughts difficult to respond to, especially if there are unrelated subjects. Instead, you should split your thoughts into several individual messages, separated by subject.
 
 <!--endintro-->
 
-### Why separate messages?
+## Why separate messages?
 
 Breaking messages ensures that each segment is clear and distinct, avoiding confusion and promoting a better understanding of individual points. It encourages recipients to respond or interact to specific points or questions, fostering more focused and efficient communication.
 

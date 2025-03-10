@@ -18,7 +18,7 @@ index:
   - useful-information-on-changes
   - rubber-stamp-prs
   - adding-changes-to-pull-requests
-  - do-you-use-indentation-for-readability
+  - indent
   - do-you-know-to-the-requirements-to-create-a-new-repository
   - use-emojis-in-your-commits
   - turn-emails-into-a-github-issue
@@ -29,6 +29,7 @@ index:
   - override-branch-protection
   - use-github-discussions
   - use-github-topics
+  - react-to-github
   - use-teams
   - github-mobile
   - how-to-view-activity-traffic-and-contributions-of-a-project

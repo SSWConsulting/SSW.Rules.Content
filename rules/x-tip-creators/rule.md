@@ -1,8 +1,8 @@
 ---
 seoDescription: Twitter's new "Tips" feature allows users to support great content creators by sending money or Bitcoin tips through third-party payment services.
 type: rule
-title: X - Do you tip great content creators?
-uri: twitter-tip-content-creators
+title: X (previously Twiter)- Do you tip great content creators?
+uri: x-tip-creators
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
@@ -10,6 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - make-money-from-your-content
+  - twitter-tip-content-creators
 created: 2022-04-20T06:54:23.702Z
 guid: 79665692-2765-4c5c-9efd-19b8098f0c84
 ---

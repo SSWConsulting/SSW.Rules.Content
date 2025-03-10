@@ -18,6 +18,7 @@ index:
   - production-do-you-know-how-to-start-recording-with-camtasia
   - enable-presentation-mode-in-visual-studio
   - easy-to-view-screen-recordings
+  - wear-company-tshirt-during-screen-recording
   - what-type-of-microphone-to-use
   - video-editing-terms
   - unique-office-backgrounds

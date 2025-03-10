@@ -44,13 +44,13 @@ GitHub Discussions have many uses, and it can be hard to know where to start. Th
 
 However, try not to constrain yourself to only these topics. The point of GitHub Discussions is to provide an open forum for communication!
 
-### Potential improvements (features, bugs or ideas) - 3 stages
+### 1. Potential project improvements (features, bugs or ideas)
 
-New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through 3 stages:
+New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through **3 stages**:
 
-* Stage 1 - GitHub Discussions
-* Stage 2 - GitHub Issues
-* Stage 3 - Pull Requests
+* Stage 1 - **GitHub Discussions**
+* Stage 2 - **GitHub Issues**
+* Stage 3 - **Pull Requests**
 
 However, sometimes a stage can be skipped depending on the **certainty** and **difficulty** of implementation, so those need to be established first.
 
@@ -70,31 +70,37 @@ GitHub Discussions can be converted to GitHub Issues with a single click!
 
 ![Figure: 2 of 2 - SSW Rules Content Discussion Converted To Issue](https://user-images.githubusercontent.com/66365977/214463615-2b27e427-93a9-4d49-ab2b-bdb06859c816.png)
 
+::: info
+**Using votes to prioritize community needs on GitHub**
+
+Voting up is available in GitHub Discussions, and they provide a great way to prioritize what the community wants most. By encouraging users to upvote feature requests, bug reports, or important discussions, maintainers can better understand which topics have the highest demand. Learn more about [why reacting to GitHub Issues and Discussions matters](react-to-github).
+:::
+
 #### ✨ Stage 2 - GitHub Issues
 
 Once things are clarified on the GitHub Discussion or if you are certain the issue doesn't need a discussion, then you need to evaluate the **difficulty** of implementation. If it is **difficult** to implement or you are unable to do it yourself, then GitHub Issues is the right place to put it since it provides a place to manage work.
 
-#### ✨ Stage 3 - Pull Request
+#### ✨ Stage 3 - Pull Requests
 
 Once the work is complete or if it is an **easy** change you are **certain** you want to make (e.g. a spelling mistake), it can be turned into a Pull Request.
 
-### Customer support
+### 2. Customer support
 
 GitHub Discussions provide a great forum for users to ask questions about how to use the product. Not only is it easy to access, but it will also help future users with the same problem.
 
-### FAQ
+### 3. FAQ
 
 Provide new curious users with a list of the most important things they should know about the product.
 
-### Product announcements
+### 4. Product announcements
 
 GitHub Discussions are accessible to the entire user base, so when there is a new feature, let everyone know.
 
-### Technical discussions
+### 5. Technical discussions
 
 The development team can discuss issues publicly. If they need help with a problem, and Stack Overflow has failed them, then GitHub Discussions offers a way to relay with their team.
 
-### Poll - Gauging community sentiment
+### 6. Poll - Gauging community sentiment
 
 Community engagement is hard to achieve but can provide invaluable insights into contentious parts of the application. A poll in GitHub discussions can be invaluable.
 

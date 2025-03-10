@@ -21,11 +21,12 @@ index:
 - linkedin-creator-mode
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
-- do-you-know-when-to-use-a-hashtag-vs-a-mention
+- x-hashtag-vs-mention
 - thank-others-for-each-reference-to-you
-- twitter-how-to-verify-your-account
-- twitter-tip-content-creators
-- change-your-twitter-name-when-travelling
+- x-verify-your-account
+- x-tip-creators
+- x-change-name-when-travelling
+- x-business
 - best-tips-for-getting-started-on-tiktok
 - edit-your-videos-for-tiktok
 - do-you-know-how-to-use-social-media-effectively-in-china

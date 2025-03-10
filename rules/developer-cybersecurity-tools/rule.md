@@ -9,7 +9,7 @@ authors:
     url: https://www.ssw.com.au/people/rob-thomlinson
 related:
   - safe-against-the-owasp-top-10
-guid: d6dc22d5-5862-4d46-8ef6-7b661ac65dab
+guid: 6023d10a-96c1-48d2-b6b4-931485396473
 ---
 
 Security should never be an afterthought when writing code. Every year, developers introduce vulnerabilities that lead to data breaches, financial losses, and reputational damage. The right cybersecurity tools can help identify security risks early, prevent attacks, and ensure compliance with security best practices.
@@ -77,7 +77,7 @@ With software supply chain attacks on the rise, developers should ensure that th
 * **Sigstore Cosign** (secure code signing)
 * **in-toto** (software supply chain verification)
 
-### 7. **API Security Testing tools
+### 7. API Security Testing tools
 
 APIs are a common attack vector, and testing them for security vulnerabilities is crucial. API security testing tools help developers validate authentication, authorization, and request handling.
 

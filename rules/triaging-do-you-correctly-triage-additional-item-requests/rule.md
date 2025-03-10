@@ -13,6 +13,7 @@ authors:
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
 related:
+  - work-in-order-of-importance-aka-priorities
   - turn-emails-into-pbis
 redirects: []
 created: 2009-08-18T04:45:08.000Z
@@ -36,14 +37,13 @@ The first step is to prioritize the new work item.
 2. Otherwise, it should be added to the backlog:
 
      1. If the item is assessed as important, it should be placed immediately after the current Sprint items
-
      2. Otherwise, you should attempt to prioritize the item based on the existing items in the backlog
 
 ::: info
 **Note:** On a fixed price contract, the rules change. Bugs should be fixed in the current Sprint if time allows, otherwise first thing in the next Sprint as they are stopping you from being paid.  
 :::
 
-### Exception #1 - Critical Bugs go into the current Sprint
+### Exception #1 - Critical bugs go into the current Sprint
 
 If you have a crash-to-code bug, most of the time it will go into the current Sprint. If it prevents one or more users accessing the system, it will also go into the current Sprint. High-priority bugs are fixed "in this Sprint".
 
@@ -62,7 +62,7 @@ For example: *"Hi Bill, this task you specified 'must be in this Sprint' will ta
 
 A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in the current Sprint as long as the task is small (less than 1/2 hour) and the Sprint is not already slipping.  
   
-If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate).
+If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/inform-clients-about-estimates-overrun).
 
 ::: email-template  
 
@@ -74,9 +74,9 @@ If the work is over budget, then you need to obtain approval for any 'additional
 
 ### Hi Dave  
 
-1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization.
-2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc.
-3. Please use the text Ascending instead of "smallest to Largest" and Descending for "Largest to Smallest".
+1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization
+2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc
+3. Please use the text Ascending instead of "smallest to Largest" and Descending for "Largest to Smallest"
 
 :::  
 :::  

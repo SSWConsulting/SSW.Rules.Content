@@ -49,12 +49,12 @@ index:
 - good-email-subject
 - change-the-subject
 - do-you-link-similar-threads-with-similar-subjects
-- do-you-send-tasks-one-email-at-a-time
+- split-emails-by-topic
 - duplicate-email-draft
 - do-you-know-when-and-when-not-to-use-email
 - do-you-prepare-then-confirm-conversations-decisions
 - do-you-respond-to-each-email-individually
-- do-you-use-indentation-for-readability
+- indent
 - enforce-the-text-meaning-with-icons-and-emojis
 - email-avoid-inline
 - are-you-careful-with-your-spelling-grammar-and-punctuation

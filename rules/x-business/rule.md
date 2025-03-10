@@ -1,8 +1,8 @@
 ---
 seoDescription: Unlock the full potential of your X account for business and monetize your presence with X Business (was Twitter for Professionals).
 type: rule
-title: X - Do you use X Business?
-uri: twitter-for-professionals
+title: X (previously Twitter) - Do you use X Business?
+uri: x-business
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily/
