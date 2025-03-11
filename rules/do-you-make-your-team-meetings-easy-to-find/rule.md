@@ -148,7 +148,7 @@ To update a meeting, you must change the details from the Microsoft Outlook grou
 3. Open the appointment and select **The entire series**
 4. Make changes as needed
 
-![Figure: In Microsoft Outlook edit the appointment using](EditSugarLearningDailyScrum.png)
+![Figure: In Microsoft Outlook edit the appointment using the group calendar](EditSugarLearningDailyScrum.png)
 
 ### D. Leave a meeting
 
