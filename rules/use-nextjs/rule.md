@@ -1,7 +1,8 @@
 ---
-seoDescription: Next.js boosts React apps with server-side rendering, TypeScript, and performance optimizations for faster, SEO-friendly sites.
 type: rule
 title: Do you know why Next.js is awesome?
+seoDescription: Next.js boosts React apps with server-side rendering,
+  TypeScript, and performance optimizations for faster, SEO-friendly sites.
 uri: use-nextjs
 authors:
   - title: Piers Sinclair
@@ -54,6 +55,8 @@ Here are some reasons to consider using Next.js instead of React alone:
 11. **Incremental adoption:** Next.js allows developers to add server-side rendering and other advanced features incrementally to an existing React application, making it easy to adopt and integrate into existing projects.
   
 12. **Codemods:** Next.js provides Codemod transformations to help upgrade your Next.js codebase when a feature is deprecated. Codemods are transformations that run on your codebase programmatically. This allows for a large amount of changes to be applied without having to manually go through every file.
+
+13. **Simple hosting:** [Vercel](https://vercel.com/), the company behind Next.js, provides first-class hosting for Next.js applications. It offers seamless deployment, automatic scaling, and built-in optimizations like edge caching and serverless functions.
 
 ### Summary
 
