@@ -127,17 +127,15 @@ You can also "agree to disagree" - in that case send an ["as per our conversatio
 
 - - -
 
-
-
 ### Final thoughts
 
 **You can turn a "no" into a "yes" when working with clients** – it’s all about perspective and understanding their needs!
 
 ::: greybox
 
-One of my favorite examples was when I was a young kid and I learnt that someone can change their mind. It came from the world of cricket 🏏 when the technology was starting to be used. Umpire Steve Bucknor, what was once heavily opposed to the 3rd umpire (aka DRS - Decision Review System), he eventually became one of its biggest advocates.
+"One of my favorite examples was when I was a young kid and I learnt that someone can change their mind. It came from the world of cricket 🏏 when the technology was starting to be used. Umpire Steve Bucknor, what was once heavily opposed to the 3rd umpire (aka DRS - Decision Review System), he eventually became one of its biggest advocates.
 
-It taught me that even if somebody sounds strongly opposed to something if you can get them to change their mind they can become your greatest advocate.
+It taught me that even if somebody sounds strongly opposed to something if you can get them to change their mind they can become your greatest advocate."
 
 \- Adam Cogan
 
