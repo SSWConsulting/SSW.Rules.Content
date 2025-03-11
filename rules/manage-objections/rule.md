@@ -1,7 +1,7 @@
 ---
-seoDescription: Mastering objections to secure clients' trust and confidence in your solution
 type: rule
 title: Do you know how to manage objections?
+seoDescription: Mastering objections to secure clients' trust and confidence in your solution
 uri: manage-objections
 authors:
   - title: Adam Cogan
@@ -10,15 +10,14 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Rob Thomlinson
     url: https://www.ssw.com.au/people/RobThomlinson
-related: 
- - for-the-record
+related:
+  - for-the-record
 redirects:
-- do-you-know-how-to-manage-objections
+  - do-you-know-how-to-manage-objections
 created: 2012-08-30T13:03:32.000Z
 archivedreason: null
 guid: d15ae8df-e369-44f9-a307-b48952431d7d
 ---
-
 Hearing "No" from a customer or manager can feel like a dead end, but it can be an opportunity to refine your approach. A rejection doesn't mean you give up.
 
 <!--endintro-->
@@ -40,7 +39,7 @@ Instead of immediately trying to resolve their issues with a solution, **ask que
 ::: greybox
 "We can use a cheaper LLM to ensure the solution is within your budget"
 :::
-::: bad  
+::: bad\
 Figure: Bad example – Trying to resolve the issue by assuming the customers concerns
 :::
 
@@ -50,10 +49,10 @@ Figure: Bad example – Trying to resolve the issue by assuming the customers co
 * "If I could resolve this issue for you, could we move forward?"
 * "Would it be helpful if I asked AI to better understand your concerns before we discuss this further?"
 * "Is it alright if I speak to one of my developers about it and let you know about that later today?"
-:::
-::: good  
-Figure: Good examples – Asking the right questions helps you refine your response
-:::
+  :::
+  ::: good\
+  Figure: Good examples – Asking the right questions helps you refine your response
+  :::
 
 ::: greybox
 **Scenario:**
@@ -108,7 +107,7 @@ Scenario:
 
 If they are still unsure, you can offer a small discount off the hourly rate, or offer free support - it's all about managing risk.
 :::
-::: good  
+::: good\
 Figure: Good example – Addressing concerns with data and real-world examples
 :::
 
@@ -119,25 +118,27 @@ If the client still says "No", accept it professionally. Leave the door open for
 ::: greybox
 "I appreciate your time and insights. If anything changes in the future, I'd love to revisit this conversation."
 :::
-::: good  
+::: good\
 Figure: Good example – Keeping the relationship positive for future opportunities
 :::
 
 You can also "agree to disagree" - in that case send an ["as per our conversation"](/do-you-send-as-per-our-conversation-emails) email to state what you disagree with.
 
----
+- - -
 
-::: greybox
+
 
 ### Final thoughts
 
 **You can turn a "no" into a "yes" when working with clients** – it’s all about perspective and understanding their needs!
 
+::: greybox
+
 One of my favorite examples was when I was a young kid and I learnt that someone can change their mind. It came from the world of cricket 🏏 when the technology was starting to be used. Umpire Steve Bucknor, what was once heavily opposed to the 3rd umpire (aka DRS - Decision Review System), he eventually became one of its biggest advocates.
 
 It taught me that even if somebody sounds strongly opposed to something if you can get them to change their mind they can become your greatest advocate.
 
-* Adam Cogan
+\- Adam Cogan
 
 `youtube: xLrH9vA1kpY`
 **Video:  Umpire Bucknor's Mistake That Changed Cricket Forever (2 min)**
