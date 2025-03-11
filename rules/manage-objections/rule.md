@@ -12,6 +12,7 @@ authors:
     url: https://www.ssw.com.au/people/RobThomlinson
 related:
   - for-the-record
+  - harnessing-the-power-of-no
 redirects:
   - do-you-know-how-to-manage-objections
 created: 2012-08-30T13:03:32.000Z
