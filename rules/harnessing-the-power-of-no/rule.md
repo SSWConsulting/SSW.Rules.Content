@@ -10,7 +10,7 @@ authors:
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley
 related:
-  - harnessing-the-power-of-no
+  - manage-objections
 redirects:
   - do-you-build-a-yes-ladder-to-your-outbound-script
   - build-a-yes-ladder-to-your-outbound-script
