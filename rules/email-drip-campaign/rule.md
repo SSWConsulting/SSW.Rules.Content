@@ -38,21 +38,21 @@ Before setting up a campaign, think about what you want to achieve. You might wa
 
 Your campaign should have multiple emails spread over a period of time.
 
-Week 1 - Welcome: Thank them for signing up and introduce your brand.
-Week 2 - Value Proposition: Share key benefits of your product or service.
-Week 3 - Educational Content: Send blog posts, case studies, or tutorials.
-Week 4 - Social Proof: Include testimonials or success stories.
-Week 5 - Limited-Time Offer: Create urgency with a discount or incentive.
-Week 6 - Follow-up & Final Nudge: Remind them of the offer or next steps.
+**Week 1** - Welcome: Thank them for signing up and introduce your brand.\
+**Week 2** - Value Proposition: Share key benefits of your product or service.\
+**Week 3** - Educational Content: Send blog posts, case studies, or tutorials.\
+**Week 4** - Social Proof: Include testimonials or success stories.\
+**Week 5** - Limited-Time Offer: Create urgency with a discount or incentive.\
+**Week 6** - Follow-up & Final Nudge: Remind them of the offer or next steps.\
 
 ### 3. Write compelling content
 
 Each email should have:
 
-* A clear **subject line** to increase open rates.
-* **Personalization** (e.g., “Hey [First Name]!”).
-* A single, focused **call to action (CTA)** (e.g., “Book a Demo” or “Claim Your Discount”).
-* A **consistent tone and branding**.
+* A clear **subject line** to increase open rates
+* **Personalization** (e.g., “Hey {{ FIRST NAME }}”)
+* A single, focused **call to action (CTA)** (e.g., “Book a Demo” or “Claim Your Discount”)
+* A **consistent tone and branding**
 
 ### 4. Automate the campaign
 
@@ -68,6 +68,6 @@ Use an email marketing tool like:
 
 Monitor metrics such as:
 
-* Open rates – Are your subject lines effective?
-* Click-through rates (CTR) – Are users engaging with your CTAs?
-* Conversion rates – Are your emails leading to desired actions?
+* **Open rates** – Are your subject lines effective?
+* **Click-through rates (CTR)** – Are users engaging with your CTAs?
+* **Conversion rates** – Are your emails leading to desired actions?
