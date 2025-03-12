@@ -96,7 +96,7 @@ Once you understand their objections, adjust your approach. Here's how:
 When you go back, don't just repeat your pitch **reframe it** based on what you've learned. Emphasise the value from their perspective, and make it clear you're there to solve their problem.
 
 ::: greybox
-Scenario:
+**Scenario:**
 "Why do you put 2 developers on the project? This is going to be more expensive isn't it?"
 
 * Explain the benefits:
