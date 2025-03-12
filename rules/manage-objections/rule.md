@@ -45,6 +45,7 @@ Figure: Bad example – Trying to resolve the issue by assuming the customers co
 :::
 
 ::: greybox
+
 * "Can you help me understand what concerns you have with the current approach?"
 * "If I could resolve this issue for you, could we move forward?"
 * "Would it be helpful if I asked AI to better understand your concerns before we discuss this further?"
