@@ -40,6 +40,7 @@ Instead of immediately trying to resolve their issues with a solution, **ask que
 ::: greybox
 "We can use a cheaper LLM to ensure the solution is within your budget"
 :::
+
 ::: bad
 Figure: Bad example – Trying to resolve the issue by assuming the customers concerns
 :::
@@ -51,6 +52,7 @@ Figure: Bad example – Trying to resolve the issue by assuming the customers co
 * "Would it be helpful if I asked AI to better understand your concerns before we discuss this further?"
 * "Is it alright if I speak to one of my developers about it and let you know about that later today?"
 :::
+
 ::: good
 Figure: Good examples – Asking the right questions helps you refine your response
 :::
@@ -108,6 +110,7 @@ When you go back, don't just repeat your pitch **reframe it** based on what you'
 
 If they are still unsure, you can offer a small discount off the hourly rate, or offer free support - it's all about managing risk.
 :::
+
 ::: good
 Figure: Good example – Addressing concerns with data and real-world examples
 :::
@@ -119,6 +122,7 @@ If the client still says "No", accept it professionally. Leave the door open for
 ::: greybox
 "I appreciate your time and insights. If anything changes in the future, I'd love to revisit this conversation."
 :::
+
 ::: good
 Figure: Good example – Keeping the relationship positive for future opportunities
 :::
