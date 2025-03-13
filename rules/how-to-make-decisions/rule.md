@@ -34,8 +34,8 @@ These are huge bottlenecks for decisions that can, if needed, be quickly and che
 What about a company rebrand? Or expanding into another country? Well, they're not so quick (or cheap!) to revert if it turns out to be the wrong choice.
 
 A common mistake businesses make is to treat every decision like life-or-death, and end up introducing massive inefficiencies for fear of making the wrong choice - even for coffee!
+
 Your first step should always be to define the consequences of making the decision. Think about:
-Your first step should always be do define the consequences of making the decision. Think about:
 
 * How much money will this decision cost?
 * How easy is it to pivot from, or revert, this decision?
@@ -62,8 +62,8 @@ If the decision turns out to be less than ideal, the business has a quick exit s
 "I will not say I failed 1000 times. I will say that I found 1000 ways that won’t work"
 -Thomas Edison, on making the light bulb.
 
-## Converting Type 1 decision to Type 2 decisions
+## Converting Type 1 decisions to Type 2 decisions
 
 One of the great things about software is being able to deliver patches and updates to users far more quickly and efficiently than any other industry.
 
-This provides software developers a unique advantage - the power to **convert many Type 1 decisions into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls and redundancy, developers can take a traditional Type 1 decision, and convert it to Type 2. Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
+This provides software developers a unique advantage - the power to **convert many Type 1 decisions into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision, and convert it to Type 2. Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
