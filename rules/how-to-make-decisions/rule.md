@@ -6,8 +6,6 @@ uri: how-to-make-decisions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
 related:
   - document-discoveries
   - architectural-decision-records
