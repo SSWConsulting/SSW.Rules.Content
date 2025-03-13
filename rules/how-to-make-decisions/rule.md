@@ -24,7 +24,7 @@ Entire industries have been created around helping businesses find the best way 
 
 ## Define the consequences
 
-The weight and care put into a decision should be proportional to its consequences. This may sound like Risk Management 101, but one of the most common pitfalls in business is weighing down every decision with a process - no matter how inconsequential.
+The weight and care put into a decision should be proportional to its consequences. This may sound like Risk Management 101, but one of the most common pitfalls in business is weighing down every decision with a process - no matter how small.
 
 Want to order different coffee for the office? It takes 6 weeks and 4 meetings to get approved. Want a new banner on your company website? 12 weeks and 3 different levels of authorization needed.
 
@@ -58,7 +58,7 @@ Type 2 decisions are easily-reversible decisions. Generally speaking, these shou
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
-*"I will not say I failed 1000 times. I will say that I found 1000 ways that won’t work"*
+*"I will not say I failed 1000 times. I will say that I found 1000 ways that won't work"*
 
 -Thomas Edison, on making the light bulb.
 
