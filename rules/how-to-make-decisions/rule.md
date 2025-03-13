@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know how to make business decisions
+title: Do you know how to make business decisions?
 seoDescription: The best decision making tree for enterprise businesses
 uri: how-to-make-decisions
 authors:
@@ -8,7 +8,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
-related: []
+related:
+  - document-discoveries
+  - architectural-decision-records
 redirects: []
 created: 2025-03-13T18:58:03.000Z
 archivedreason: null
@@ -41,7 +43,7 @@ Your first step should always be to define the consequences of making the decisi
 
 ![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)
 
-## Type 1 decisions - think carefully, then act
+## **Type 1 decisions** - Think carefully, then act
 
 These decision types are where consequences are significant and/or difficult, expensive, or impossible to revert. In software development, some classic Type 1 decisions may include:
 
@@ -51,22 +53,24 @@ These decision types are where consequences are significant and/or difficult, ex
 
 Jeff Bezos described himself as "Chief Slowdown Officer", where he described his role as identifying Type 1 decisions, and ensuring his team deliberate, consult, and analyze the options extremely carefully before committing one way or another.
 
-## Type 2 decisions - move fast and break stuff
+## **Type 2 decisions** - Move fast and break stuff
 
 Type 2 decisions are easily-reversible decisions. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
-*"I will not say I failed 1,000 times. I will say that I found 1,000 ways that won't work"*
-
-\-Thomas Edison, on making the light bulb.
+> "I will not say I failed 1,000 times. I will say that I found 1,000 ways that won't work"
+>
+> \-Thomas Edison, on making the light bulb.
 
 ## Converting Type 1 decisions to Type 2 decisions
 
 One of the great things about software is being able to deliver patches and updates to users far more quickly and efficiently than any other industry.
 
-This provides software developers a unique advantage - the power to **convert many Type 1 decisions into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision, and convert it to Type 2. Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
+This provides software developers a unique advantage - the power to **convert many Type 1 decisions into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision, and convert it to Type 2. 
 
-## Save big conversations for big decisions
+Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
+
+### Save big conversations for big decisions
 
 There is time and place for agonizing over choices - the art is recognizing when it's okay to fail. That's not to say that you *will* fail, but rather acknowledging that the cost incurred by overanalyzing what brand of coffee is best, is greater than the cost of picking the wrong (and then subsequently the *right*) coffee to begin with.
