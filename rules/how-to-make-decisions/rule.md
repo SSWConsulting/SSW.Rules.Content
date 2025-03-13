@@ -58,7 +58,8 @@ Type 2 decisions are easily-reversible decisions. Generally speaking, these shou
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
-"I will not say I failed 1000 times. I will say that I found 1000 ways that won’t work"
+*"I will not say I failed 1000 times. I will say that I found 1000 ways that won’t work"*
+
 -Thomas Edison, on making the light bulb.
 
 ## Converting Type 1 decisions to Type 2 decisions
