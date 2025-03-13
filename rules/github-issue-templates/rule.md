@@ -61,5 +61,3 @@ You can take this a step further by creating Issue Forms - these are awesome for
 Check it out on GitHub's doc on [GitHub Issue Forms](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms)
 
 ![Figure: Issue Forms make reporting bugs easy](https://github.com/user-attachments/assets/c0c198b4-7069-4519-90f7-4f2083ec2efb)
-
-
