@@ -2,7 +2,7 @@
 seoDescription: The best decision making tree for enterprise businesses
 type: rule
 archivedreason:
-title: How to make business decisions
+title: Do you know how to make business decisions
 guid: 599ccc65-7e3a-4097-a4c6-0fbd8c6efc33
 uri: how-to-make-decisions
 created: 2025-03-13T18:58:03.0000000Z
@@ -11,9 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
-
 related: []
-redirects:
+redirects: []
 ---
 
 Entire industries have been created around helping businesses find the best way to make decisions, and oftentimes this leads to massive bottlenecks and bureaucratic overhead. There are certainly decisions that must be made with due care and consideration, but probably not as many as you think.
