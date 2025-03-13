@@ -56,5 +56,5 @@ For instructions on setting this up, check out:
 ::: info
 You can take this a step further by creating Issue Forms - these are awesome for non-technical people who aren't comfortable with Markdown.
 Check it out on GitHub's docs:  
-https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms
+<https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/syntax-for-issue-forms>
 :::
