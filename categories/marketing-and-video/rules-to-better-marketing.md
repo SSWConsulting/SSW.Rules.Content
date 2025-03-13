@@ -7,9 +7,10 @@ index:
 - have-a-marketing-plan
 - identify-your-target-market
 - have-a-consistent-brand-image
-- do-you-plan-in-advance-for-your-marketing-campaigns
-- do-you-use-lead-magnets-as-part-of-your-marketing-strategy
 - do-you-know-how-to-discover-your-perfect-prospects-pain-points
+- do-you-plan-in-advance-for-your-marketing-campaigns
+- email-drip-campaign
+- do-you-use-lead-magnets-as-part-of-your-marketing-strategy
 - do-you-know-why-you-need-to-understand-your-perfect-prospects-pain-points
 - do-you-know-how-to-use-a-perfect-prospects-pain-points-in-your-online-marketing
 - do-you-know-how-to-test-which-pain-points-are-relevant-to-your-prospect
