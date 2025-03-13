@@ -43,7 +43,7 @@ Your first step should always be to define the consequences of making the decisi
 
 ![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)
 
-## **Type 1** decisions (big appoval) 🟥 - Think carefully, then act
+## **Type 1** decisions (big approval) 🟥 - Think carefully, then act
 
 These decision types are where consequences are significant and/or difficult, expensive, or impossible to revert. They need boss/stakeholder/SME (subject matter expert) involved. Every team should try and reduce these ones.
 
