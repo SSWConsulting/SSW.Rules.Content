@@ -34,7 +34,7 @@ These are huge bottlenecks for decisions that can, if needed, be quickly and che
 What about a company rebrand? Or expanding into another country? Well, they're not so quick (or cheap!) to revert if it turns out to be the wrong choice.
 
 A common mistake businesses make is to treat every decision like life-or-death, and end up introducing massive inefficiencies for fear of making the wrong choice - even for coffee!
-
+Your first step should always be to define the consequences of making the decision. Think about:
 Your first step should always be do define the consequences of making the decision. Think about:
 
 * How much money will this decision cost?
