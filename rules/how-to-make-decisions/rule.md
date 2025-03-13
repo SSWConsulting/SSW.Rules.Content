@@ -67,3 +67,6 @@ If the decision turns out to be less than ideal, the business has a quick exit s
 One of the great things about software is being able to deliver patches and updates to users far more quickly and efficiently than any other industry.
 
 This provides software developers a unique advantage - the power to **convert many Type 1 decisions into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision, and convert it to Type 2. Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
+
+## Save big conversations for big decisions
+There is time and place for agonizing over choices - the art is recognizing when it's okay to fail. That's not to say that you *will* fail, but rather acknowledging that the cost incurred by overanalyzing what brand of coffee is best, is greater than the cost of picking the wrong (and then subsequently the *right*) coffee to begin with. 
