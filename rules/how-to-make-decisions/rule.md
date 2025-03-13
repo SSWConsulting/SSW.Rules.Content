@@ -1,11 +1,8 @@
 ---
-seoDescription: The best decision making tree for enterprise businesses
 type: rule
-archivedreason:
 title: Do you know how to make business decisions
-guid: 599ccc65-7e3a-4097-a4c6-0fbd8c6efc33
+seoDescription: The best decision making tree for enterprise businesses
 uri: how-to-make-decisions
-created: 2025-03-13T18:58:03.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -13,8 +10,10 @@ authors:
     url: https://ssw.com.au/people/luke-cook
 related: []
 redirects: []
+created: 2025-03-13T18:58:03.000Z
+archivedreason: null
+guid: 599ccc65-7e3a-4097-a4c6-0fbd8c6efc33
 ---
-
 Entire industries have been created around helping businesses find the best way to make decisions, and oftentimes this leads to massive bottlenecks and bureaucratic overhead. There are certainly decisions that must be made with due care and consideration, but probably not as many as you think.
 
 <!--endintro-->
@@ -36,11 +35,11 @@ A common mistake businesses make is to treat every decision like life-or-death, 
 
 Your first step should always be to define the consequences of making the decision. Think about:
 
-* How much money will this decision cost?
+* How much time or money will this decision cost?
 * How easy is it to pivot from, or revert, this decision?
 * What is the blast radius of this decision?
 
-![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)  
+![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)
 
 ## Type 1 decisions - think carefully, then act
 
@@ -58,9 +57,9 @@ Type 2 decisions are easily-reversible decisions. Generally speaking, these shou
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
-*"I will not say I failed 1000 times. I will say that I found 1000 ways that won't work"*
+*"I will not say I failed 1,000 times. I will say that I found 1,000 ways that won't work"*
 
--Thomas Edison, on making the light bulb.
+\-Thomas Edison, on making the light bulb.
 
 ## Converting Type 1 decisions to Type 2 decisions
 
