@@ -24,6 +24,7 @@ Entire industries have been created around helping businesses find the best way 
 **Figure: Jeff Bezos talks about when to move fast, and when to slow down (9 min)**
 
 ## Define the consequences
+
 The weight and care put into a decision should be proportional to its consequences. This may sound like Risk Management 101, but one of the most common pitfalls in business is weighing down every decision with a process - no matter how inconsequential.
 
 Want to order different coffee for the office? It takes 6 weeks and 4 meetings to get approved. Want a new banner on your company website? 12 weeks and 3 different levels of authorization needed.
@@ -36,30 +37,30 @@ A common mistake businesses make is to treat every decision like life-or-death, 
 
 Your first step should always be do define the consequences of making the decision. Think about:
 
-- How much money will this decision cost?
-- How easy is it to pivot from, or revert, this decision?
-- What is the blast radius of this decision?
-
+* How much money will this decision cost?
+* How easy is it to pivot from, or revert, this decision?
+* What is the blast radius of this decision?
 
 ![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)  
 
 ## Type 1 decisions - think carefully, then act
+
 These decision types are where consequences are significant and/or difficult, expensive, or impossible to revert. In software development, some classic Type 1 decisions may include:
 
-- Buy vs build strategies
-- Proprietary/closed-source vs standard/open source solutions
-- All things cybersecurity
+* Buy vs build strategies
+* Proprietary/closed-source vs standard/open source solutions
+* All things cybersecurity
 
 Jeff Bezos described himself as "Chief Slowdown Officer", where he described his role as identifying Type 1 decisions, and ensuring his team deliberate, consult, and analyze the options extremely carefully before committing one way or another.
 
 ## Type 2 decisions - move fast and break stuff
+
 Type 2 decisions are easily-reversible decisions. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
 "I will not say I failed 1000 times. I will say that I found 1000 ways that won’t work"
 -Thomas Edison, on making the light bulb.
-
 
 ## Converting Type 1 decision to Type 2 decisions
 
