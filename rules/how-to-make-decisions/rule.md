@@ -41,21 +41,21 @@ Your first step should always be to define the consequences of making the decisi
 
 ![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)
 
-## **Type 1** decisions (big approval) 🟥 - Think carefully, then act
+## **Type 1** decisions 🟥 (big approval) - Think carefully, then act
 
 These decision types are where consequences are significant and/or difficult, expensive, or impossible to revert. They need boss/stakeholder/SME (subject matter expert) involved. Every team should try and reduce these ones.
 
-In software development, some classic Type 1 decisions may include:
+In software development, some classic Type 1 decisions 🟥 may include:
 
 * Buy vs build strategies
 * Proprietary/closed-source vs standard/open source solutions
 * All things cybersecurity
 
-Jeff Bezos described himself as "Chief Slowdown Officer", where he described his role as identifying Type 1 decisions, and ensuring his team deliberate, consult, and analyze the options extremely carefully before committing one way or another.
+Jeff Bezos described himself as "Chief Slowdown Officer", where he described his role as identifying Type 1 decisions 🟥, and ensuring his team deliberate, consult, and analyze the options extremely carefully before committing one way or another.
 
-## **Type 2** decisions (normal approval) 🟧 - Move fast and break stuff
+## **Type 2** decisions 🟧 (normal approval) - Move fast and break stuff
 
-Type 2 decisions are easily-reversible decisions. They need Product Owner approval. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
+Type 2 decisions 🟧 are easily-reversible decisions. They need Product Owner approval. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
@@ -63,19 +63,19 @@ If the decision turns out to be less than ideal, the business has a quick exit s
 >
 > \-Thomas Edison, on making the light bulb.
 
-## **Type 3** decisions (team approval) 🟩 - Like a 'checked by'
+## **Type 3** decisions 🟩 (team approval) - Like a 'checked by'
 
-Type 3 decisions are for routine decisions that don’t require major oversight, serving more as a [“checked by”](/checked-by-xxx) confirmation rather than a critical approval step.
+Type 3 decisions 🟩 are for routine decisions that don’t require major oversight, serving more as a [“checked by”](/checked-by-xxx) confirmation rather than a critical approval step.
 
 These approvals ensure that the team has reviewed and agreed on the decision, but they don’t involve high-risk or strategic choices that would need higher-level input. Keeping these lightweight helps maintain efficiency while still ensuring accountability.
 
 ---
 
-## Converting Type 1 decisions to Type 2 decisions
+## Converting Type 1 decisions 🟥 to Type 2 decisions 🟧
 
 One of the great things about software is being able to deliver patches and updates to users far more quickly and efficiently than any other industry.
 
-This provides software developers a unique advantage - the power to **convert many Type 1 decisions into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision, and convert it to Type 2.
+This provides software developers a unique advantage - the power to **convert many Type 1 decisions 🟥 into Type 2 decisions 🟧.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision 🟥, and convert it to Type 2 🟧.
 
 Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
 
