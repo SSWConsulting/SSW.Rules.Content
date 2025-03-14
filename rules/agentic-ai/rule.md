@@ -7,7 +7,7 @@ seoDescription: Follow the industry best practises on building agentic AI from
 uri: agentic-ai
 authors: []
 related:
-  - null
+  - avoid-ai-hallucinations
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 ---
 
