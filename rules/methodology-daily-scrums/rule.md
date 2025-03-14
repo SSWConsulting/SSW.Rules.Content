@@ -101,7 +101,7 @@ Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
 
 ## Tip #4: Keep to the schedule - Same place, same time
 
-If a team member is missing at the beginning of the Daily Scrum, and they are not absent for any other reason, you should attempt to call them in via Microsoft Teams or your preferred communication platform. This should be done at the beginning of the meeting. If they do not respond simply continue the meeting without them. Don't worry. People learn.
+If a team member is missing at the beginning of the Daily Scrum, and they are not absent for any other reason, you should [attempt to call them in](https://www.ssw.com.au/rules/admin/#/collections/rule/entries/methodology-daily-scrums/rule) via Microsoft Teams or your preferred communication platform. This should be done at the beginning of the meeting. If they do not respond simply continue the meeting without them. Don't worry. People learn.
 
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
