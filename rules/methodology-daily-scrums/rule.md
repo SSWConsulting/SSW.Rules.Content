@@ -1,7 +1,8 @@
 ---
-seoDescription: Improve daily scrum efficiency and collaboration with these actionable tips on sending emails, using IM, and making meetings easy to find.
 type: rule
 title: Methodology - Do you do Daily Scrums (aka stand-up meetings)?
+seoDescription: Improve daily scrum efficiency and collaboration with these
+  actionable tips on sending emails, using IM, and making meetings easy to find.
 uri: methodology-daily-scrums
 authors:
   - title: Adam Cogan
@@ -98,9 +99,9 @@ Figure: Schedule a recurring Daily Scrum meeting in Outlook using this template
 
 ![Figure: Or you can use Microsoft Teams](teams-meeting-daily-scrum.jpg)
 
-## Tip #4: Keep to the schedule - Same place, same time (even if people are missing)
+## Tip #4: Keep to the schedule - Same place, same time
 
-Get started on time. Especially in the beginning, people will be late, but the meeting should be held with the remaining people. Don't worry. People learn.
+If a team member is missing at the beginning of the Daily Scrum, and they are not absent for any other reason, you should attempt to call them in via Microsoft Teams or your preferred communication platform. This should be done at the beginning of the meeting. If they do not respond simply continue the meeting without them. Don't worry. People learn.
 
 If the Scrum Master is not a full-time member of the team (often they are), they should attend every now and then to check the Scrum process is being followed and the Daily Scrums are being used synchronize the team and not a general meeting.
 
