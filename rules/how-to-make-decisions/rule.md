@@ -55,7 +55,7 @@ Jeff Bezos described himself as "Chief Slowdown Officer", where he described his
 
 ## **Type 2** decisions (normal approval) 🟧 - Move fast and break stuff
 
-Type 2 decisions are easily-reversible decisions. They need Product Owner approval. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
+Type 2 decisions 🟧 are easily-reversible decisions. They need Product Owner approval. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
@@ -71,11 +71,11 @@ These approvals ensure that the team has reviewed and agreed on the decision, bu
 
 ---
 
-## Converting Type 1 decisions 🟥 to Type 2 decisions
+## Converting Type 1 decisions 🟥 to Type 2 decisions 🟧
 
 One of the great things about software is being able to deliver patches and updates to users far more quickly and efficiently than any other industry.
 
-This provides software developers a unique advantage - the power to **convert many Type 1 decisions 🟥 into Type 2 decisions.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision 🟥, and convert it to Type 2.
+This provides software developers a unique advantage - the power to **convert many Type 1 decisions 🟥 into Type 2 decisions 🟧.** Using tools like feature toggles, A/B testing, version controls, and redundancy, developers can take a traditional Type 1 decision 🟥, and convert it to Type 2 🟧.
 
 Investing time into these tools and strategies can take a lot of pressure off big choices - allowing a "try before you buy" approach to choices that were traditionally an all-in decision.
 
