@@ -65,7 +65,7 @@ If the decision turns out to be less than ideal, the business has a quick exit s
 
 ## **Type 3** decisions (team approval) 🟩 - Like a 'checked by'
 
-Type 3 decisions are for routine decisions that don’t require major oversight, serving more as a [“checked by”](/checked-by-xxx) confirmation rather than a critical approval step.
+Type 3 decisions 🟩 are for routine decisions that don’t require major oversight, serving more as a [“checked by”](/checked-by-xxx) confirmation rather than a critical approval step.
 
 These approvals ensure that the team has reviewed and agreed on the decision, but they don’t involve high-risk or strategic choices that would need higher-level input. Keeping these lightweight helps maintain efficiency while still ensuring accountability.
 
