@@ -26,6 +26,9 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=XJtB6fqJk1o`
+**Video: GitBook vs. TinaCMS: Best Options for End-User Documentation | Seth Daily (4 min)**
+
 ## End-User Documentation
 
 ### Option 1: Word document
