@@ -1,11 +1,14 @@
 ---
-seoDescription: Keep track of expiring app registration secrets and certificates in Azure AD to avoid authentication issues.
 type: rule
 title: Do you keep track of expiring app registration secrets and certificates?
+seoDescription: Keep track of expiring app registration secrets and certificates
+  in Azure AD to avoid authentication issues.
 uri: expiring-app-secrets-certificates
 authors:
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud/
 created: 2023-05-12T00:55:28.532Z
 guid: 429dbbef-ea36-4fc6-b358-924330966b4a
 ---
