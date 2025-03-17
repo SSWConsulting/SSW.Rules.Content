@@ -1,5 +1,5 @@
 ---
-seoDescription: Using makes the right kind of dashes (em dash, en dash, and hyphen) in the right places makes your sentence more coherent, correct, and pretty.
+seoDescription: Using the right kind of dashes (em dash, en dash, and hyphen) in the right places makes your sentence more coherent, correct, and pretty.
 type: rule
 archivedreason:
 title: Do you know the 3 types of dashes?
