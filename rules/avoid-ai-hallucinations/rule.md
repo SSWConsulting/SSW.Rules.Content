@@ -6,6 +6,8 @@ seoDescription: "ai hallucinations how to avoid "
 uri: avoid-ai-hallucinations
 authors:
   - title: ""
+  - title: Eddie Kranz
+    url: https://www.ssw.com.au/people/eddie-kranz/
 related: []
 created: 2025-03-17T14:57:00.000Z
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
