@@ -41,7 +41,7 @@ index:
   - use-correct-symbols-when-documenting-instructions
   - use-emojis
   - format-new-lines
-  - use-quotation-mark-for-controls
+  - formatting-ui-elements
   - use-generic-consistent-names-on-examples
   - create-friendly-short-urls
   - how-to-name-documents
