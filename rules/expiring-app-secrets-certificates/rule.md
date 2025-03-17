@@ -13,7 +13,7 @@ created: 2023-05-12T00:55:28.532Z
 guid: 429dbbef-ea36-4fc6-b358-924330966b4a
 ---
 
-In Azure AD, App Registrations are used to establish a trust relationship between your app and the Microsoft identity platform. This allows you to give your app access to various resources, such as Graph API.
+In Entra ID (formerly Azure AD), App Registrations are used to establish a trust relationship between your app and the Microsoft identity platform. This allows you to give your app access to various resources, such as Graph API.
 
 App Registrations use secrets or certificates for authentication. It is important to keep track of the expiry date of these authentication methods, so you can update them before things break.
 
@@ -21,13 +21,13 @@ App Registrations use secrets or certificates for authentication. It is importan
 
 ### Use a PowerShell script to check expiry dates
 
-An easy way to do this is to run a PowerShell script that checks the expiry date of all app registration secrets or certificates. This requires the AzureAD module; the cmdlets used are:
+An easy way to do this is to run a PowerShell script that checks the expiry date of all app registration secrets or certificates. This requires the Microsoft.Graph module; the cmdlets used are:
 
-`Get-AzureADApplication`
+`Get-MgApplication `
 
-`Get-AzureADApplicationPasswordCredential`
+`Get-MgApplicationPassword`
 
-`Get-AzureADApplicationKeyCredential`
+`et-MgApplicationKeyCredential`
 
 There's an example of a working script here: https://github.com/demiliani/PowershellCloudScripts/blob/master/AzureADCheckSecretsToExpire.ps1
 
