@@ -25,6 +25,7 @@ If you have to address an email to one or multiple people (including [to yoursel
 <!--endintro-->
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Jean, Anthony |
@@ -50,6 +51,7 @@ Figure: Bad example - Names as normal text is not the best for readability
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Jean, Anthony |
@@ -57,11 +59,11 @@ Figure: Bad example - Names as normal text is not the best for readability
 | Subject: | SSW CodeAuditor - Bug |  
 ::: email-content
 
-### Hi Jean,
+### Hi Jean
 
 Can you help with this one?
 
-### Hi Anthony,
+### Hi Anthony
 
 I've tried to replicate the behaviour but was unsuccessful.
 
