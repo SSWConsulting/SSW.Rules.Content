@@ -22,9 +22,9 @@ Using makes the right kind of dashes (em dash, en dash, and hyphen) in the right
 <!--endintro-->
 
 Em dash (—): Length of the letter "M"; used to indicate a break in thought or to emphasize a dramatic pause.
- 
+
 En dash (–): Length of the letter "N"; used as a connector or separator, especially in the format of a range of numbers or heading.
- 
+
 Hyphen (-): Used to link compound words, such as "jack-o'-lantern"
 
 For a the full rules, see: [Grammarly - How to use a dash correctly](https://www.grammarly.com/blog/punctuation-capitalization/dash/)
