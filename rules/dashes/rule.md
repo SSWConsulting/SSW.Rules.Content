@@ -17,7 +17,7 @@ redirects: []
 
 Using the wrong kind of dash in the wrong place makes sentencess less clear to the reader. Even though most people might not know the rules - using dashes incorrectly - can make your writing uncomfortble even to people who don't know the rules – it might just 'feel—off'
 
-Using makes the right kind of dashes (em dash, en dash, and hyphen) in the right places makes your sentence more coherent, correct, and pretty.
+Using the right kind of dashes (em dash, en dash, and hyphen) in the right places makes your sentence more coherent, correct, and pretty.
 
 <!--endintro-->
 
