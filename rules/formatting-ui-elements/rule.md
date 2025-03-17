@@ -26,7 +26,7 @@ When writing technical instructions, it's important to distinguish UI controls, 
 <!--endintro-->
 
 ::: greybox
-Click Save to store your changes. 
+Click Save to store your changes.
 :::
 ::: bad
 Figure: Bad Example - It's not clear that Save is a control  
@@ -56,7 +56,7 @@ Type "Admin" in the **Username** field.
 Figure: Good example - Using quotation marks for exact text users may type
 :::
 
-## Option 3: Code formatting 
+## Option 3: Code formatting
 
 Ideal for commands, or file names.
 
