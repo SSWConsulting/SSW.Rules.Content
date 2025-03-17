@@ -5,7 +5,6 @@ title: Do you handle AI Hallucinations the right way?
 seoDescription: "ai hallucinations how to avoid "
 uri: avoid-ai-hallucinations
 authors:
-  - title: ""
   - title: Eddie Kranz
     url: https://www.ssw.com.au/people/eddie-kranz/
 related: []
