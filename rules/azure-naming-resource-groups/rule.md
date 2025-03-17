@@ -70,7 +70,5 @@ There is no inherent cost-saving benefit to grouping resources of the same type 
 :::
 
 ::: good 
-
+![Figure: Adding underlying infrastructure to the same Resource Group can save $](screenshot-2025-03-18-080729.png)
 :::
-
-![](screenshot-2025-03-18-080729.png "Figure: Adding underlying infrastructure to the same Resource Group can save $")
