@@ -24,6 +24,7 @@ index:
 - use-the-distributed-file-system-for-your-file-shares
 - how-to-manage-certificates
 - do-you-use-free-or-paid-ssl-certificates
+- expiring-app-secrets-certificates
 - secure-your-wireless-connection
 - easy-wifi-access
 - keep-your-file-servers-clean
