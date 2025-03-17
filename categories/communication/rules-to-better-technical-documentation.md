@@ -24,6 +24,7 @@ index:
   - make-numbers-more-readable
   - add-days-to-dates
   - address-formatting
+  - dashes
   - descriptive-links
   - keep-your-urls-clean
   - how-to-capitalize-titles
