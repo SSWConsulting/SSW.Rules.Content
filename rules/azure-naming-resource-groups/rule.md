@@ -1,7 +1,9 @@
 ---
-seoDescription: Learn how to effectively organize your Azure resources using logical resource groups named consistently across environments for clarity and efficiency.
 type: rule
 title: Resource Groups - Do you know how to arrange your Azure resources?
+seoDescription: Learn how to effectively organize your Azure resources using
+  logical resource groups named consistently across environments for clarity and
+  efficiency.
 uri: azure-naming-resource-groups
 authors:
   - title: Adam Cogan
@@ -35,6 +37,8 @@ Name your Resource Groups as **Product.Environment**. For example:
 
 There are no cost benefits in consolidating Resource Groups, so use them! Have a Resource Group per product, per environment. And most importantly: **be consistent in your naming convention**.
 
+**Remember it's difficult to change a resource group name once everything is deployed without downtime** 
+
 <!--endintro-->
 
 ### Keep your resources in logical, consistent locations
@@ -55,7 +59,7 @@ There's nothing worse than opening up a Resource Group and finding several insta
 
 ### Don't categorize Resource Groups based on resource type
 
-There is no cost saving to group resources of the same type together. For example, there is no reason to put all your databases in one place. It is better to provision the database in the same resource group as the application that uses it.
+There is no inherent cost-saving benefit to grouping resources of the same type together unless they share underlying infrastructure. For example, consolidating all databases into a single SQL Server can reduce costs, as can hosting multiple apps under a single App Service Plan. However, arbitrarily placing all resources of the same type in one location—without considering dependencies—does not save money. Instead, it is best to provision resources in the same resource group as the applications that use them for better management and alignment with their lifecycle.
 
 ::: bad
 ![Figure: Bad example - SSW.SQL has all the Databases for different apps in one place](arrange-azure-resources-bad.jpg)
@@ -64,3 +68,9 @@ There is no cost saving to group resources of the same type together. For exampl
 ::: good
 ![Figure: Good example (for all the above) - Resource Group contains all staging resources for this product](rg-good.png)
 :::
+
+::: good 
+
+:::
+
+![](screenshot-2025-03-18-080729.png "Figure: Adding underlying infrastructure to the same Resource Group can save $")
