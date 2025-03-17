@@ -52,8 +52,8 @@ Things to include:
 
 * Steps to reproduce the error
 * OS and browser details
-* Screenshots
-  * **💡 Tip:** Copy and paste the text for searchability
+* Screenshots\
+  **💡 Tip:** Copy and paste the text for searchability
 * Video for more complex bugs (more info below)
 
 Learn more:
@@ -220,7 +220,7 @@ Better than a good textual description of a suggestion request is a screen recor
 Video: Good example - Giving suggestion requests via video (5 min)
 :::
 
-### Tip #3: Should you send this to the Product Owner or the Tech Lead?
+## Tip #3: Should you send this to the Product Owner or the Tech Lead?
 
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion.
 
@@ -236,27 +236,27 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 &emsp;&emsp;**Subject:** Suggestion - {{ SUMMARY OF SUGGESTION }}
 :::
 
-### Tip #4: Should you email or put it in the backlog?
+## Tip #4: Should you email or put it in the backlog?
 
 Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as `all@northwind.com.au`, You would only Cc this email when a greater visibility is required.
 
-### Tip #5: Do you make it easy to find all the backlog in your company?
+## Tip #5: Do you make it easy to find all the backlog in your company?
 
 ![Figure: An intranet page with links to projects’ backlog to make it easy for everyone to find. Note some projects have more than 1 backlog.](do-you-know-how-to-report-bugs-and-give-suggestions.png)
 
-### Tip #6: Make sure when using backlog, the Product Owner will still get an email
+## Tip #6: Make sure when using backlog, the Product Owner will still get an email
 
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
 See rules on [Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)
 
-### Tip #7: Separate PBIs
+## Tip #7: Separate PBIs
 
 If they are all related to one area, then you could consider putting them together. Otherwise don’t bunch them up.
 
 See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-email-at-a-time)
 
-### Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
+## Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
 
 When you create a bug/suggestion to a backlog, it's a good idea to add emoji in the title. Not only does it look nicer, but people can look at the item and take in the necessary information quickly.
 
