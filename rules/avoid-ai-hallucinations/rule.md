@@ -7,7 +7,8 @@ uri: avoid-ai-hallucinations
 authors:
   - title: Eddie Kranz
     url: https://www.ssw.com.au/people/eddie-kranz/
-related: []
+related:
+  - rules-to-better-chatgpt-prompt-engineering
 created: 2025-03-17T14:57:00.000Z
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 ---
