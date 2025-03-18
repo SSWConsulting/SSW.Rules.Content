@@ -64,7 +64,11 @@ If the decision turns out to be less than ideal, the business has a quick exit s
 > "I will not say I failed 1,000 times. I will say that I found 1,000 ways that won't work"
 >
 > \-Thomas Edison, on making the light bulb.
+::: greybox
+### What if you are making a change that doesn't require a decision? 
 
+Routine changes don’t require a decision, so you just need to action it. If you think it's necessary, you can get a [“checked by”](/checked-by-xxx) confirmation. This shows the change has been reviewed.
+:::
 ---
 
 ## Converting Type 1 decisions 🟥 to Type 2 decisions 🟩
