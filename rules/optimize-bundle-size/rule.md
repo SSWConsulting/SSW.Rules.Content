@@ -17,6 +17,81 @@ guid: bb223f3f-172f-4266-86fd-c13cf66e7d7e
 Optimizing bundle size improves website performance, reduces load times, and enhances user experience. Large bundles slow rendering, increase memory usage, and hurt SEO. By minimizing dependencies, using tree shaking, code splitting, and dynamic imports, developers ensure only necessary code loads. This leads to faster interactions, lower bandwidth use, and better mobile performance, making optimization essential for a smooth web experience.
 
 <!--endintro-->
+
+## Checking the Lighthouse Treemap for bundle size
+
+To optimize your website’s bundle size, it's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can optimize your code and improve performance.
+
+::: bad  
+![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times.](unoptimized-bundle-size.png)  
+:::
+
+## Find out the **First Load JS** Sizes for Routes
+
+when creating static pages with dynamic content, the JavaScript size can increase as more scripts are bundled together. Monitoring the initial load JS allows you to identify these increases and optimize accordingly. Tracking this during the build process helps improve performance by reducing load times. 
+
+``` bash
+Route (app)                     Size        First Load JS
+┌ ○ /                           2.11 kB     1.31 MB
+├ ○ /_not-found                 145 B       89.8 kB
+├ ● /[filename]                 7.59 kB     1.32 MB
+├ ├ /advertising
+├ ├ /anti-slavery-policy
+├ ├ /booknow
+├ └ [+10 more paths]
+
+```
+
+::: bad  
+Bash: The initial JavaScript load size is quite huge and it is in the megabytes.
+:::
+
+## Use Bundle Analyzers to identify Bundle sizes by each module
+
+A bundle analyzer helps you visualize your JavaScript bundle, understand which modules are taking up space, and find opportunities for optimization. By using these tools, you can reduce bundle size, improve load times, and enhance your site's performance.
+
+## Bundle Analyzers for JavaScript
+
+### 1. **Webpack Bundle Analyzer** (Recommended)
+
+* **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
+* **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+
+### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Project)
+
+* **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
+* **Setup:**  
+     Install the analyzer:
+
+     ```bash
+     npm install @next/bundle-analyzer
+     ```
+
+     Add this configuration to your `next.config.js`:
+
+     ```js
+     const withBundleAnalyzer = require('@next/bundle-analyzer')({
+       enabled: process.env.ANALYZE === 'true',
+     });
+     
+     module.exports = withBundleAnalyzer({
+       // other Next.js config options
+     });
+     ```
+
+     Then run the analyzer with:
+
+     ```bash
+     ANALYZE=true next build
+     ```
+
+* **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+
+### 3. **Source Map Explorer**
+
+* **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
+* **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
+
 ## Optimizing Imports for Better Tree Shaking
 
 How importing only what you need can reduce bundle size and improve performance.
@@ -80,73 +155,9 @@ function App() {
 }
 ```
 
-## Bundle Analyzers to Optimize Your JavaScript Bundle
+By optimizing imports as outlined above, you can significantly reduce the First Load JavaScript size.
 
-A bundle analyzer helps you visualize your JavaScript bundle, understand which modules are taking up space, and find opportunities for optimization. By using these tools, you can reduce bundle size, improve load times, and enhance your site's performance.
-
-## Bundle Analyzers for JavaScript
-
-### 1. **Webpack Bundle Analyzer** (Recommended)
-
-* **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
-* **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
-
-### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Project)
-
-* **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
-* **Setup:**  
-     Install the analyzer:
-
-     ```bash
-     npm install @next/bundle-analyzer
-     ```
-
-     Add this configuration to your `next.config.js`:
-
-     ```js
-     const withBundleAnalyzer = require('@next/bundle-analyzer')({
-       enabled: process.env.ANALYZE === 'true',
-     });
-     
-     module.exports = withBundleAnalyzer({
-       // other Next.js config options
-     });
-     ```
-
-     Then run the analyzer with:
-
-     ```bash
-     ANALYZE=true next build
-     ```
-
-* **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-
-### 3. **Source Map Explorer**
-
-* **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
-* **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
-
-## Optimize the **First Load JS** Sizes for Routes
-
-When optimizing your website, it is important to track the **First Load JS** for each route. This helps you monitor how much JavaScript is loaded initially and ensures that you can identify and optimize large bundles. Tracking this during the build process helps improve performance by reducing the load times.
-
-``` bash
-Route (app)                     Size        First Load JS
-┌ ○ /                           2.11 kB     1.31 MB
-├ ○ /_not-found                 145 B       89.8 kB
-├ ● /[filename]                 7.59 kB     1.32 MB
-├ ├ /advertising
-├ ├ /anti-slavery-policy
-├ ├ /booknow
-├ └ [+10 more paths]
-
-```
-
-::: bad  
-Bash: The initial JavaScript load size is in the megabytes.
-:::
-
-By optimizing the imports according to the steps mentioned above, you can reduce the First Load JavaScript size.
+## Optimized Initial JavaScript Load 
 
 ``` bash
 Route (app)                     Size        First Load JS
@@ -160,24 +171,21 @@ Route (app)                     Size        First Load JS
 ```
 
 ::: good  
-Bash: Good example - The First Load JavaScript size is in kilobytes.  
+Bash: Good example - The First Load JavaScript size is reduced to kilobytes from Megabytes.  
 :::
 
-## Checking the Lighthouse Treemap for Bundle Optimization
+## Lighthouse Treemap 
 
-To optimize your website’s bundle size, it's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can optimize your code and improve performance.
-
-::: bad  
-![Figure: Bad example - 4.9 Megabytes are unused](unoptimized-bundle-size.png)  
-:::
 
 ::: good  
 ![Figure: Good example - After optimization it is down to 2.5 Mega unused Bytes](optimized-bundle-size.png)  
 :::
 
-## 🚀 Lighthouse Report on PR Links
 
-To track and monitor bundle sizes and performance on each Pull Request (PR), you can run **Lighthouse audits** on your deployed preview links. This helps ensure that bundle size optimizations are made and that performance doesn't degrade during development.
+## Monitor bundle size using Lighthouse on PR links.
+
+During development, it's easy to unintentionally introduce additional bundles with your PR. To track and monitor bundle sizes and performance for each Pull Request (PR), run **Lighthouse audits** on deployed preview links. This ensures bundle optimizations are maintained and prevents performance regressions.
+
 
 The following table shows Lighthouse reports for various PR links, including **Performance**, **Accessibility**, **Best Practices**, **SEO**, **Bundle Size**, and **Unused Bundle Size**.
 
