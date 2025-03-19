@@ -174,7 +174,7 @@ To optimize your website’s bundle size, it's important to analyze the unused J
 
 ## 🚀 Lighthouse Report on PR Links
 
-To track and monitor bundle sizes and performance on each Pull Request (PR), you can run **Lighthouse audits** on your deployed preview links. This helps ensure that bundle size optimizations are made and that performance doesn't degrade during development. 
+To track and monitor bundle sizes and performance on each Pull Request (PR), you can run **Lighthouse audits** on your deployed preview links. This helps ensure that bundle size optimizations are made and that performance doesn't degrade during development.
 
 The following table shows Lighthouse reports for various PR links, including **Performance**, **Accessibility**, **Best Practices**, **SEO**, **Bundle Size**, and **Unused Bundle Size**.
 
