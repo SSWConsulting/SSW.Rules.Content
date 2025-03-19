@@ -186,4 +186,3 @@ To track and monitor bundle sizes and performance on each Pull Request (PR), you
 - **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
 - **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases.
 - **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs.
-
