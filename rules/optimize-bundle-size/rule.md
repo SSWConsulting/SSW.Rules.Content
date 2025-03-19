@@ -192,6 +192,7 @@ The following table shows Lighthouse reports for various PR links, including **P
 | ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 7.57 MB | 4.65 MB |
 
 ### ✅ Benefits of PR Lighthouse Checks
+
 * **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
 * **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases.
 * **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs.
