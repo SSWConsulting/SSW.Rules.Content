@@ -182,14 +182,14 @@ The following table shows Lighthouse reports for various PR links, including **P
 
 | 🌐 URL | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
 | --- | ----------- | ------------- | -------------- | --- | ---------------- | ---------------- |
-| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/) | 68 | 91 | 74 | 69 | 7.59 MB | 4.70 MB |
-| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles) | 82 | 96 | 74 | 57 | 7.39 MB | 4.54 MB |
-| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us) | 65 | 100 | 74 | 69 | 7.30 MB | 4.50 MB |
-| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients) | 64 | 94 | 74 | 69 | 7.68 MB | 4.75 MB |
-| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us) | 65 | 90 | 74 | 61 | 7.61 MB | 4.74 MB |
-| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting) | 78 | 90 | 70 | 69 | 7.59 MB | 4.70 MB |
-| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade) | 62 | 90 | 56 | 54 | 7.59 MB | 4.70 MB |
-| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 7.57 MB | 4.65 MB |
+| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/) | 82 | 91 | 74 | 69 | 4.59 MB | 2.11 MB |
+| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles) | 82 | 96 | 74 | 57 | 4.39 MB | 2.54 MB |
+| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us) | 83 | 100 | 74 | 69 | 4.30 MB | 1.97 MB |
+| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients) | 64 | 94 | 74 | 69 | 4.68 MB | 2.51 MB |
+| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us) | 65 | 90 | 74 | 61 | 4.61 MB | 2.74 MB |
+| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting) | 78 | 90 | 70 | 69 | 4.59 MB | 2.70 MB |
+| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade) | 62 | 90 | 56 | 54 | 4.59 MB | 2.70 MB |
+| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 4.57 MB | 2.65 MB |
 
 ### ✅ Benefits of PR Lighthouse Checks
 
