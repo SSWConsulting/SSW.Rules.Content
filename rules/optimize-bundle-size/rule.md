@@ -16,7 +16,7 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 <!--endintro-->
 ## Optimizing Imports for Better Tree Shaking
 
-How Importing Only What You Need Can Reduce Bundle Size and Improve Performance.
+How importing only what you need can reduce bundle size and improve performance.
 
 ``` js
 // Importing the entire utility module, even if only one function is needed
@@ -81,7 +81,7 @@ function App() {
 
 A bundle analyzer helps you visualize your JavaScript bundle, understand which modules are taking up space, and find opportunities for optimization. By using these tools, you can reduce bundle size, improve load times, and enhance your site's performance.
 
-## Best Bundle Analyzers for JavaScript
+## Bundle Analyzers for JavaScript
 
 ### 1. **Webpack Bundle Analyzer** (Recommended)
 
@@ -140,10 +140,10 @@ Route (app)                     Size        First Load JS
 ```
 
 ::: bad  
-Bash: Bad example - First Load JS is in the MB
+Bash: The initial JavaScript load size is in the megabytes.
 :::
 
-By following the steps mentioned above, you can reduce the First Load JS.
+By optimizing the imports according to the steps mentioned above, you can reduce the First Load JavaScript size.
 
 ``` bash
 Route (app)                     Size        First Load JS
@@ -157,7 +157,7 @@ Route (app)                     Size        First Load JS
 ```
 
 ::: good  
-Bash: Good example - First Load JS is in the KB  
+Bash: Good example - The First Load JavaScript size is in kilobytes.  
 :::
 
 ## Checking the Lighthouse Treemap for Bundle Optimization
@@ -165,29 +165,31 @@ Bash: Good example - First Load JS is in the KB
 To optimize your website’s bundle size, it's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can optimize your code and improve performance.
 
 ::: bad  
-![Figure: Bad example - 4.9 MiB unused Bytes](unoptimized-bundle-size.png)  
+![Figure: Bad example - 4.9 Megabytes are unused](unoptimized-bundle-size.png)  
 :::
 
 ::: good  
-![Figure: Bad example - 4.9 MiB unused Bytes](optimized-bundle-size.png)  
+![Figure: Good example - After optimization it is down to 2.5 Mega unused Bytes](optimized-bundle-size.png)  
 :::
 
 ## 🚀 Lighthouse Report on PR Links
 
-To track and monitor bundle sizes and performance on each Pull Request (PR), you can run **Lighthouse audits** on your deployed preview links. This helps ensure that bundle size optimizations are made and that performance doesn't degrade during development. The following table shows Lighthouse reports for various PR links, including **Performance**, **Accessibility**, **Best Practices**, **SEO**, **Bundle Size**, and **Unused Bundle Size**.
+To track and monitor bundle sizes and performance on each Pull Request (PR), you can run **Lighthouse audits** on your deployed preview links. This helps ensure that bundle size optimizations are made and that performance doesn't degrade during development. 
+
+The following table shows Lighthouse reports for various PR links, including **Performance**, **Accessibility**, **Best Practices**, **SEO**, **Bundle Size**, and **Unused Bundle Size**.
 
 ### Example PR Check Results
 
 | 🌐 URL | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
 | --- | ----------- | ------------- | -------------- | --- | ---------------- | ---------------- |
-| ⭐ [PR Main Page](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/) | 68 | 91 | 74 | 69 | 7.59 MB | 4.70 MB |
-| [Articles](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/articles) | 82 | 96 | 74 | 57 | 7.39 MB | 4.54 MB |
-| [About Us](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/company/about-us) | 65 | 100 | 74 | 69 | 7.30 MB | 4.50 MB |
-| [Clients](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/company/clients) | 64 | 94 | 74 | 69 | 7.68 MB | 4.75 MB |
-| [Contact Us](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/company/contact-us) | 65 | 90 | 74 | 61 | 7.61 MB | 4.74 MB |
-| [Consulting](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/consulting) | 78 | 90 | 70 | 69 | 7.59 MB | 4.70 MB |
-| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/consulting/net-upgrade) | 62 | 90 | 56 | 54 | 7.59 MB | 4.70 MB |
-| ⭐ [Web Applications](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 7.57 MB | 4.65 MB |
+| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/) | 68 | 91 | 74 | 69 | 7.59 MB | 4.70 MB |
+| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles) | 82 | 96 | 74 | 57 | 7.39 MB | 4.54 MB |
+| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us) | 65 | 100 | 74 | 69 | 7.30 MB | 4.50 MB |
+| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients) | 64 | 94 | 74 | 69 | 7.68 MB | 4.75 MB |
+| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us) | 65 | 90 | 74 | 61 | 7.61 MB | 4.74 MB |
+| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting) | 78 | 90 | 70 | 69 | 7.59 MB | 4.70 MB |
+| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade) | 62 | 90 | 56 | 54 | 7.59 MB | 4.70 MB |
+| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 7.57 MB | 4.65 MB |
 
 ### ✅ Benefits of PR Lighthouse Checks
 * **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
