@@ -13,6 +13,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 related:
   - add-days-to-dates
+  - date-and-time-of-change-as-tooltip
   - sharepoint-format-dates-to-include-the-weekday 
 redirects:
   - do-you-display-dates-in-a-human-friendly-format
@@ -33,5 +34,5 @@ Instead of displaying a rigid date like "2025-03-10 14:30", a more human-friendl
 :::
 
 ::: info
-**Note:** As per the good example, it's a good idea to include a tooltip that gives extra information about the date, in case the user needs them.
+**Note:** As per the good example, it's a good idea to [include a tooltip with extra information about the date](/date-and-time-of-change-as-tooltip), in case the user needs them.
 :::
