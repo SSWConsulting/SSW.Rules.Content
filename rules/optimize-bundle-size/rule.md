@@ -28,7 +28,7 @@ To optimize your website’s bundle size, it's important to analyze the unused J
 
 ## Find out the **First Load JS** Sizes for Routes
 
-when creating static pages with dynamic content, the JavaScript size can increase as more scripts are bundled together. Monitoring the initial load JS allows you to identify these increases and optimize accordingly. Tracking this during the build process helps improve performance by reducing load times. 
+when creating static pages with dynamic content, the JavaScript size can increase as more scripts are bundled together. Monitoring the initial load JS allows you to identify these increases and optimize accordingly. Tracking this during the build process helps improve performance by reducing load times.
 
 ``` bash
 Route (app)                     Size        First Load JS
@@ -157,7 +157,7 @@ function App() {
 
 By optimizing imports as outlined above, you can significantly reduce the First Load JavaScript size.
 
-## Optimized Initial JavaScript Load 
+## Optimized Initial JavaScript Load
 
 ``` bash
 Route (app)                     Size        First Load JS
@@ -174,18 +174,15 @@ Route (app)                     Size        First Load JS
 Bash: Good example - The First Load JavaScript size is reduced to kilobytes from Megabytes.  
 :::
 
-## Lighthouse Treemap 
-
+## Lighthouse Treemap
 
 ::: good  
 ![Figure: Good example - After optimization it is down to 2.5 Mega unused Bytes](optimized-bundle-size.png)  
 :::
 
-
-## Monitor bundle size using Lighthouse on PR links.
+## Monitor bundle size using Lighthouse on PR links
 
 During development, it's easy to unintentionally introduce additional bundles with your PR. To track and monitor bundle sizes and performance for each Pull Request (PR), run **Lighthouse audits** on deployed preview links. This ensures bundle optimizations are maintained and prevents performance regressions.
-
 
 The following table shows Lighthouse reports for various PR links, including **Performance**, **Accessibility**, **Best Practices**, **SEO**, **Bundle Size**, and **Unused Bundle Size**.
 
