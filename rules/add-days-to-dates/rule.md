@@ -12,9 +12,9 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 created: 2024-09-11T14:32:00.000Z
 related:
-  - do-you-display-dates-in-a-human-friendly-format
+  - human-friendly-date-and-time
   - right-format-to-write-videos-time-length
-  - do-you-know-how-to-format-dates-to-include-the-weekday
+  - sharepoint-format-dates-to-include-the-weekday
 guid: 41332a7f-b065-48b2-a1df-847594fe7815
 ---
 
