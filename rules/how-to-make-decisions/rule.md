@@ -57,18 +57,18 @@ Jeff Bezos described himself as "Chief Slowdown Officer", where he defined his r
 
 ## **Type 2** decisions 🟩 - Move fast and break stuff
 
-Type 2 decisions 🟩 are easily-reversible decisions. They need Product Owner approval. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
+Type 2 decisions 🟩 are easily-reversible decisions. Generally speaking, these should not require a great deal of consultation or deliberation - empower your leaders in that area to make judgement calls on these, and remove the red tape. As a result, your teams will reach outcomes faster, and be encouraged to show more interest and initiative in their problem space.
 
 If the decision turns out to be less than ideal, the business has a quick exit strategy and at the very least - you'll have gained valuable insight into why that particular choice wasn't the best fit.
 
 > "I will not say I failed 1,000 times. I will say that I found 1,000 ways that won't work"
 >
 > \-Thomas Edison, on making the light bulb.
-::: greybox
-### What if you are making a change that doesn't require a decision? 
+
+### What if you are making a change that doesn't require a decision?
 
 Routine changes don’t require a decision, so you just need to action it. If you think it's necessary, you can get a [“checked by”](/checked-by-xxx) confirmation. This shows the change has been reviewed.
-:::
+
 ---
 
 ## Converting Type 1 decisions 🟥 to Type 2 decisions 🟩
