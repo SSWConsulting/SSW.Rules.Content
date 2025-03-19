@@ -20,7 +20,7 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 
 ## Checking the Lighthouse Treemap for bundle size
 
-To optimize your website’s bundle size, it's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can optimize your code and improve performance.
+It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
 
 ::: bad  
 ![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times.](unoptimized-bundle-size.png)  
@@ -28,7 +28,7 @@ To optimize your website’s bundle size, it's important to analyze the unused J
 
 ## Find out the **First Load JS** Sizes for Routes
 
-when creating static pages with dynamic content, the JavaScript size can increase as more scripts are bundled together. Monitoring the initial load JS allows you to identify these increases and optimize accordingly. Tracking this during the build process helps improve performance by reducing load times. 
+When creating static pages with dynamic content, the JavaScript size can increase as more scripts are bundled together. Monitoring the initial load JS allows you to identify these increases and optimize accordingly. Tracking this during the build process helps to pinpoint potential route causes to address.
 
 ``` bash
 Route (app)                     Size        First Load JS
@@ -48,7 +48,7 @@ Bash: The initial JavaScript load size is quite huge and it is in the megabytes.
 
 ## Use Bundle Analyzers to identify Bundle sizes by each module
 
-A bundle analyzer helps you visualize your JavaScript bundle, understand which modules are taking up space, and find opportunities for optimization. By using these tools, you can reduce bundle size, improve load times, and enhance your site's performance.
+A bundle analyzer can help you visualize your JavaScript bundle, understand which modules are taking up space, and find opportunities for optimization. By using these tools, you can reduce bundle size, improve load times, and enhance your site's performance.
 
 ## Bundle Analyzers for JavaScript
 
