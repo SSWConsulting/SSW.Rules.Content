@@ -24,6 +24,7 @@ import * as utils from "./utils";
 
 const result = utils.expensiveFunction();
 ```
+
 ::: bad  
 Code: Bad example - Importing entire module  
 :::
@@ -34,6 +35,7 @@ import { expensiveFunction } from "./utils";
 
 const result = expensiveFunction();
 ```
+
 ::: good  
 Code: Good example - Importing only the required function  
 :::
@@ -46,7 +48,8 @@ Using dynamic imports and React Suspense helps reduce your JavaScript bundle siz
 
 Dynamic imports allow you to load modules on demand, only when they're required. This avoids loading unnecessary code during the initial load.
 
-### Example:
+### Example
+
 ```javascript
 // Without dynamic import
 import { MyComponent } from './MyComponent';
@@ -56,8 +59,8 @@ const MyComponent = React.lazy(() => import('./MyComponent'));
 ```
 
 ## React Suspense
-React Suspense works with React.lazy() to delay the rendering of components until they are loaded. It helps avoid blocking the UI and improves user experience.
 
+React Suspense works with React.lazy() to delay the rendering of components until they are loaded. It helps avoid blocking the UI and improves user experience.
 
 ``` javascript
 import React, { Suspense } from 'react';
@@ -81,17 +84,22 @@ A bundle analyzer helps you visualize your JavaScript bundle, understand which m
 ## Best Bundle Analyzers for JavaScript
 
 ### 1. **Webpack Bundle Analyzer** (Recommended)
-   - **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
-   - **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
-   
+
+* **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
+* **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+
 ### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Project)
-   - **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
-   - **Setup:**  
+
+* **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
+* **Setup:**  
      Install the analyzer:
+
      ```bash
      npm install @next/bundle-analyzer
      ```
+
      Add this configuration to your `next.config.js`:
+
      ```js
      const withBundleAnalyzer = require('@next/bundle-analyzer')({
        enabled: process.env.ANALYZE === 'true',
@@ -101,23 +109,23 @@ A bundle analyzer helps you visualize your JavaScript bundle, understand which m
        // other Next.js config options
      });
      ```
+
      Then run the analyzer with:
 
      ```bash
      ANALYZE=true next build
      ```
-   - **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+
+* **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
 ### 3. **Source Map Explorer**
-   - **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
-   - **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
 
-
+* **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
+* **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
 
 ## Optimize the **First Load JS** Sizes for Routes
 
 When optimizing your website, it is important to track the **First Load JS** for each route. This helps you monitor how much JavaScript is loaded initially and ensures that you can identify and optimize large bundles. Tracking this during the build process helps improve performance by reducing the load times.
-
 
 ``` bash
 Route (app)                     Size        First Load JS
@@ -130,8 +138,9 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 
 ```
+
 ::: bad  
-Bash: Bad example - First Load JS is in the MB   
+Bash: Bad example - First Load JS is in the MB
 :::
 
 By following the steps mentioned above, you can reduce the First Load JS.
@@ -150,7 +159,6 @@ Route (app)                     Size        First Load JS
 ::: good  
 Bash: Good example - First Load JS is in the KB  
 :::
-
 
 ## Checking the Lighthouse Treemap for Bundle Optimization
 
@@ -181,9 +189,7 @@ To track and monitor bundle sizes and performance on each Pull Request (PR), you
 | ⭐ [Net Upgrade](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/consulting/net-upgrade) | 62 | 90 | 56 | 54 | 7.59 MB | 4.70 MB |
 | ⭐ [Web Applications](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 7.57 MB | 4.65 MB |
 
-
-### ✅ Benefits of PR Lighthouse Checks:
-- **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
-- **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases.
-- **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs.
-
+### ✅ Benefits of PR Lighthouse Checks
+* **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
+* **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases.
+* **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs.
