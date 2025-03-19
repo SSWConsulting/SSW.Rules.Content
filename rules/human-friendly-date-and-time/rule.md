@@ -17,7 +17,7 @@ related:
 redirects: []
 ---
 
-Ever looked at a date on a website and had to stop and think, _"Wait, when was that?"_ 
+Ever looked at a date on a website and had to stop and think, _"Wait, when was that?"_
 
 Instead of displaying a rigid date like "2025-03-10 14:30", a more human-friendly format—like "last Sunday" or "3 weeks ago" makes it much easier to grasp at a glance. This is especially useful for past dates, helping users quickly understand when something happened without doing mental math.
 
