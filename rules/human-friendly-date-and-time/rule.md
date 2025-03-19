@@ -4,18 +4,22 @@ type: rule
 archivedreason:
 title: Do you display date and time in a human friendly format?
 guid: b7362721-7c5a-48de-96d2-15992644d79d
-uri: do-you-display-dates-in-a-human-friendly-format
+uri: human-friendly-date-and-time
 created: 2015-03-17T04:47:35.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - do-you-know-how-to-format-dates-to-include-the-weekday
   - add-days-to-dates
 redirects: []
 ---
 
-Remember to format time and date on your website in a human friendly manner:
+Ever looked at a date on a website and had to stop and think, _"Wait, when was that?"_ 
+
+Instead of displaying a rigid date like "2025-03-10 14:30", a more human-friendly format—like "last Sunday" or "3 weeks ago" makes it much easier to grasp at a glance. This is especially useful for past dates, helping users quickly understand when something happened without doing mental math.
 
 <!--endintro-->
 
