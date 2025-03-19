@@ -14,7 +14,8 @@ authors:
 related:
   - add-days-to-dates
   - sharepoint-format-dates-to-include-the-weekday 
-redirects: []
+redirects:
+  - do-you-display-dates-in-a-human-friendly-format
 ---
 
 Ever looked at a date on a website and had to stop and think, _"Wait, when was that?"_
