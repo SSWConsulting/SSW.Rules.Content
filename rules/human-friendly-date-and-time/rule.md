@@ -12,8 +12,8 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related:
-  - do-you-know-how-to-format-dates-to-include-the-weekday
   - add-days-to-dates
+  - sharepoint-format-dates-to-include-the-weekday 
 redirects: []
 ---
 
