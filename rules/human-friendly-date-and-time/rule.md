@@ -31,3 +31,7 @@ Instead of displaying a rigid date like "2025-03-10 14:30", a more human-friendl
 ::: good
 ![Figure: Good example - Humanized date formatting is easy to read](good-timeformatting.jpg)
 :::
+
+::: info
+**Note:** As per the good example, it's a good idea to include a tooltip that gives extra information about the date, in case the user needs them.
+:::
