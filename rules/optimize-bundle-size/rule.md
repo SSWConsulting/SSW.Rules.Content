@@ -190,6 +190,7 @@ To track and monitor bundle sizes and performance on each Pull Request (PR), you
 | ⭐ [Web Applications](https://app-sswwebsite-9eb3-pr-3753.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 7.57 MB | 4.65 MB |
 
 ### ✅ Benefits of PR Lighthouse Checks
+
 * **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
 * **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases.
 * **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs.
