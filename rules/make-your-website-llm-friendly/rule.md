@@ -110,6 +110,6 @@ Here are a few directories that list the llms.txt files available on the web:
 
 Various tools and plugins are available to help integrate the llms.txt specification into your workflow:
 
-* **llms_txt2ctx** - CLI and Python module for parsing llms.txt files and generating LLM context
-* **JavaScript Implementation** - Sample JavaScript implementation
-* **vite-plugin-llms** - Vite plugin that serves markdown files alongside your routes following the llms.txt specification
+* **[llms_txt2ctx](https://llmstxt.org/intro.html#cli)** - CLI and Python module for parsing llms.txt files and generating LLM context
+* **[JavaScript Implementation](https://llmstxt.org/llmstxt-js.html)** - Sample JavaScript implementation
+* **[vite-plugin-llms](https://github.com/saschaseniuk/vite-plugin-llms)** - Vite plugin that serves markdown files alongside your routes following the llms.txt specification
