@@ -106,9 +106,9 @@ Important notes:
 
 Here are a few directories that list the llms.txt files available on the web:
 
-[llmstxt.site](dotcom)
+[llmstxt.site](llmstxt.site)
 
-[directory.llmstxt.cloud](dotcom)
+[directory.llmstxt.cloud](directory.llmstxt.cloud)
 
 ### Integrations
 
