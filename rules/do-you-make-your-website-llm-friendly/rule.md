@@ -4,7 +4,7 @@
 seoDescription: Learn how implementing an llms.txt file can enhance your website's accessibility and usability for large language models, ensuring accurate content interpretation and improved user interactions.
 type: rule
 title: Do you provide an llms.txt file to make your website LLM-friendly?
-uri: do-you-provide-an-llms.txt-file-to-make-your-website-llm-friendly
+uri: do-you-make-your-website-llm-friendly
 authors:
   - title: Stef Starcevic 
     url: https://www.ssw.com.au/people/stef-starcevic/
