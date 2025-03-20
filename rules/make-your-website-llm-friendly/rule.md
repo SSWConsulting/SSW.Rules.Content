@@ -39,7 +39,7 @@ An effective `llms.txt` file includes:
 
 Here is a mock example of the format:
 
-```
+```markdown
 # Title
 
 
@@ -67,7 +67,7 @@ Note that the "Optional" section has a special meaning - if it's included, the U
 
 Here is what a cut down version of a llm.txt looks like:
 
-```
+```markdown
 # FastHTML
 
 
