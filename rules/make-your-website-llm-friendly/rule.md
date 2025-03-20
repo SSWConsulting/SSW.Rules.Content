@@ -1,7 +1,9 @@
 ---
-seoDescription: Learn how implementing an llms.txt file can enhance your website's accessibility and usability for large language models, ensuring accurate content interpretation and improved user interactions.
 type: rule
 title: Do you provide an llms.txt file to make your website LLM-friendly?
+seoDescription: Learn how implementing an llms.txt file can enhance your
+  website's accessibility and usability for large language models, ensuring
+  accurate content interpretation and improved user interactions.
 uri: make-your-website-llm-friendly
 authors:
   - title: Stef Starcevic
@@ -11,7 +13,6 @@ authors:
 created: 2025-03-20T14:00:00.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
 ---
-
 As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information.
 
 Implementing an `llms.txt` file addresses this challenge by providing a streamlined, LLM-friendly version of your site's content.
@@ -45,7 +46,6 @@ An effective `llms.txt` file includes:
 * **Investing in digital PR** - Building relationships with reputable media outlets and influencers can lead to authoritative mentions, enhancing a brand's credibility in the eyes of AI systems
 * **Enhancing backlink profiles** - Acquiring high-quality backlinks from trusted sources signals authority, increasing the likelihood of content being referenced by LLMs
 * **Incorporating quotable content** - Embedding unique statistics, expert quotes, and proprietary insights makes content more likely to be cited by AI models seeking authoritative information
-*
 
 ### Examples
 
@@ -103,8 +103,8 @@ Important notes:
 
 Here are a few directories that list the llms.txt files available on the web:
 
-* [llmstxt.site](llmstxt.site)
-* [directory.llmstxt.cloud](directory.llmstxt.cloud)
+* [llmstxt.site](https://llmstxt.site/)
+* [directory.llmstxt.cloud](https://directory.llmstxt.cloud/)
 
 ### Integrations
 
