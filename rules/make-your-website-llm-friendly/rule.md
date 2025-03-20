@@ -5,14 +5,16 @@ title: Do you provide an llms.txt file to make your website LLM-friendly?
 uri: make-your-website-llm-friendly
 authors:
   - title: Stef Starcevic
-    url: https://www.ssw.com.au/people/stef-starcevic/
+    url: https://www.ssw.com.au/people/stef-starcevic
   - title: Louis Roa
-    url: https://www.ssw.com.au/people/louis-roa/
+    url: https://www.ssw.com.au/people/louis-roa
 created: 2025-03-20T14:00:00.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
 ---
 
-As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information. Implementing an `llms.txt` file addresses this challenge by providing a streamlined, LLM-friendly version of your site's content.
+As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information. 
+
+Implementing an `llms.txt` file addresses this challenge by providing a streamlined, LLM-friendly version of your site's content.
 
 <!--endintro-->
 
@@ -23,20 +25,20 @@ As large language models (LLMs) become integral in processing and generating con
 
 An `llms.txt` file is a standardized Markdown file placed at the root of your website (`/llms.txt`). It gives LLMs clear and organised information about your site, helping them understand and use your content better.
 
-### Benefits of Implementing `llms.txt`
+### ✅ Benefits of implementing `llms.txt`
 
-* **Easier to Read:** LLMs can directly access pertinent information without sifting through extraneous HTML elements.
-* **More Accurate Results:** By providing clear and concise content, you reduce the risk of misinterpretation by LLMs.
-* **Consistent Format:** The standardized format ensures consistency, making it easier for LLMs to process your site's data.
+* **Easier to read** - LLMs can directly access pertinent information without sifting through extraneous HTML elements
+* **More accurate results** - By providing clear and concise content, you reduce the risk of misinterpretation by LLMs
+* **Consistent format:** The standardized format ensures consistency, making it easier for LLMs to process your site's data
 
-### Formatting your `llms.txt`
+### Formatting `llms.txt`
 
 An effective `llms.txt` file includes:
 
-1. **Project or Site Name:** An H1 header with the name of your project or site.
-2. **Summary:** A blockquote offering a brief overview of your project, highlighting essential aspects.
-3. **Detailed Information:** Additional sections providing in-depth insights, such as usage guidelines or key features.
-4. **Resource Links:** H2 headers followed by lists of URLs to relevant Markdown files or resources.
+1. **Project or site name** - An H1 header with the name of your project or site
+2. **Summary:** A blockquote offering a brief overview of your project, highlighting essential aspects
+3. **Detailed information** - Additional sections providing in-depth insights, such as usage guidelines or key features
+4. **Resource links** - H2 headers followed by lists of URLs to relevant Markdown files or resources
 
 ### Examples
 
@@ -94,9 +96,8 @@ Important notes:
 
 Here are a few directories that list the llms.txt files available on the web:
 
-[llmstxt.site](llmstxt.site)
-
-[directory.llmstxt.cloud](directory.llmstxt.cloud)
+* [llmstxt.site](llmstxt.site)
+* [directory.llmstxt.cloud](directory.llmstxt.cloud)
 
 ### Integrations
 
