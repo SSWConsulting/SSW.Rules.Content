@@ -18,7 +18,7 @@ As large language models (LLMs) become integral in processing and generating con
 
 ## What is an `llms.txt`?
 
-An `llms.txt` file is a standardized Markdown file placed at the root of your website (`/llms.txt`). It gives LLMs clear and orgbanised information about your site, helping them understand and use your content better.
+An `llms.txt` file is a standardized Markdown file placed at the root of your website (`/llms.txt`). It gives LLMs clear and organised information about your site, helping them understand and use your content better.
 
 ### Benefits of Implementing `llms.txt`
 
@@ -42,21 +42,15 @@ Here is a mock example of the format:
 ```markdown
 # Title
 
-
 > Optional description goes here
-
 
 Optional details go here
 
-
 ## Section name
-
 
 - [Link title](https://link_url): Optional link details
 
-
 ## Optional
-
 
 - [Link title](https://link_url)
 ```
@@ -70,32 +64,23 @@ Here is what a cut down version of a llm.txt looks like:
 ```markdown
 # FastHTML
 
-
 > FastHTML is a python library which brings together Starlette, Uvicorn, HTMX, and fastcore's `FT` "FastTags" into a library for creating server-rendered hypermedia applications.
 
-
 Important notes:
-
 
 - Although parts of its API are inspired by FastAPI, it is *not* compatible with FastAPI syntax and is not targeted at creating API services
 - FastHTML is compatible with JS-native web components and any vanilla JS library, but not with React, Vue, or Svelte.
 
-
 ## Docs
-
 
 - [FastHTML quick start](https://answerdotai.github.io/fasthtml/tutorials/quickstart_for_web_devs.html.md): A brief overview of many FastHTML features
 - [HTMX reference](https://raw.githubusercontent.com/path/reference.md): Brief description of all HTMX attributes, CSS classes, headers, events, extensions, js lib methods, and config options
 
-
 ## Examples
-
 
 - [Todo list application](https://raw.githubusercontent.com/path/adv_app.py): Detailed walk-thru of a complete CRUD app in FastHTML showing idiomatic use of FastHTML and HTMX patterns.
 
-
 ## Optional
-
 
 - [Starlette full documentation](https://gist.githubusercontent.com/path/starlette-sml.md): A subset of the Starlette documentation useful for FastHTML development.
 ```
@@ -106,9 +91,9 @@ Important notes:
 
 Here are a few directories that list the llms.txt files available on the web:
 
-[llmstxt.site](dotcom)
+[llmstxt.site](llmstxt.site)
 
-[directory.llmstxt.cloud](dotcom)
+[directory.llmstxt.cloud](directory.llmstxt.cloud)
 
 ### Integrations
 
