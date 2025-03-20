@@ -23,7 +23,7 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
 
 ::: bad  
-![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times.](unoptimized-bundle-size.png)  
+![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)  
 :::
 
 ## Find out the **First Load JS** Sizes for Routes
@@ -43,7 +43,7 @@ Route (app)                     Size        First Load JS
 ```
 
 ::: bad  
-Bash: The initial JavaScript load size is quite huge and it is in the megabytes.
+Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes
 :::
 
 ## Use Bundle Analyzers to identify Bundle sizes by each module
@@ -60,7 +60,8 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 ### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Projects)
 
 * **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
-* **Setup:**  
+* **Setup:**
+  
      Install the analyzer:
 
      ```bash
@@ -126,8 +127,6 @@ Using dynamic imports and React Suspense helps reduce your JavaScript bundle siz
 
 Dynamic imports allow you to load modules on demand, only when they're required. This avoids loading unnecessary code during the initial load.
 
-### Example
-
 ```javascript
 // Without dynamic import
 import { MyComponent } from './MyComponent';
@@ -171,13 +170,13 @@ Route (app)                     Size        First Load JS
 ```
 
 ::: good  
-Bash: Good example - The First Load JavaScript size is reduced to kilobytes from Megabytes.  
+Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.  
 :::
 
 ## Lighthouse Treemap
 
 ::: good  
-![Figure: Good example - After optimization it is down to 2.5 Mega unused Bytes](optimized-bundle-size.png)  
+![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)  
 :::
 
 ## Monitor bundle size using Lighthouse on PR links
@@ -201,6 +200,6 @@ The following table shows Lighthouse reports for various PR links, including **P
 
 ### ✅ Benefits of PR Lighthouse Checks
 
-* **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR.
-* **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases.
-* **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs.
+* **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR
+* **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases
+* **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs

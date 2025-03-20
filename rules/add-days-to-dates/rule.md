@@ -1,7 +1,7 @@
 ---
 type: rule
-title: Do you take steps to be clear when sending dates to others?
-seoDescription: Enhance date clarity by adding weekdays alongside dates. Improve readability and organization for schedules, calendars, and event planning.
+title: Do you include abbreviated weekdays to dates?
+seoDescription: Enhance date clarity by adding abbreviated weekdays alongside dates. Improve readability and organization for schedules, calendars, and event planning.
 uri: add-days-to-dates
 authors:
   - title: Adam Cogan
@@ -12,9 +12,9 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
 created: 2024-09-11T14:32:00.000Z
 related:
-  - do-you-display-dates-in-a-human-friendly-format
+  - human-friendly-date-and-time
   - right-format-to-write-videos-time-length
-  - do-you-know-how-to-format-dates-to-include-the-weekday
+  - sharepoint-format-dates-to-include-the-weekday
 guid: 41332a7f-b065-48b2-a1df-847594fe7815
 ---
 
@@ -35,7 +35,7 @@ To ensure complete clarity, you should always include the **day of the week** al
 
 ### Hi Sydney team
 
-I'll be visiting your office for 3 days (**16th Sep** to **18th Sep**) to run the Angular Workshop.
+I'll be visiting your office for 3 days (**16th** to **18th September**) to run the Angular Workshop.
 
 Looking forward to seeing you all!
 Penny

@@ -10,12 +10,15 @@ authors:
     url: https://www.ssw.com.au/people/tiago-araujo
   - title: Joseph Fernandez
     url: https://www.ssw.com.au/people/joseph-fernandez
-related: []
+related:
+  - human-friendly-date-and-time
 created: 2023-03-15T03:01:02.285Z
 guid: 59ae02c2-961c-4f55-a874-97c56d8f9622
 ---
 
-Displaying the date and time of change as a tooltip when users hover over the time of change can be an effective approach for interfaces with limited space or when providing both pieces of information together could lead to confusion. Tooltips allow users to access additional information about the context of the date and time of change without cluttering the main interface.
+Displaying the date and time of change as a tooltip when users hover over the time of change can be an effective approach for interfaces with limited space or when providing both pieces of information together could lead to confusion.
+
+Tooltips allow users to access additional information about the context of the date and time of change without cluttering the main interface.
 
 <!--endintro-->
 
