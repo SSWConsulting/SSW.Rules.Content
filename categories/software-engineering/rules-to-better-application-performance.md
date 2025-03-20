@@ -5,6 +5,7 @@ guid: 11ecd576-7615-4492-93f8-20ec4d658e36
 uri: rules-to-better-application-performance
 index:
 - the-best-time-to-tackle-performance-testing
+- optimize-bundle-size
 - where-your-goal-posts-are
 - do-you-avoid-reviewing-performance-without-metrics
 - steps-required-to-implement-a-performance-improvement
