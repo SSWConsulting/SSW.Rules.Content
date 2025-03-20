@@ -5,9 +5,9 @@ title: Do you provide an llms.txt file to make your website LLM-friendly?
 uri: make-your-website-llm-friendly
 authors:
   - title: Stef Starcevic
-    url: <https://www.ssw.com.au/people/stef-starcevic/>
+    url: https://www.ssw.com.au/people/stef-starcevic/
   - title: Louis Roa
-    url: <https://www.ssw.com.au/people/louis-roa/>
+    url: https://www.ssw.com.au/people/louis-roa/
 created: 2025-03-20T14:00:00.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
 ---
