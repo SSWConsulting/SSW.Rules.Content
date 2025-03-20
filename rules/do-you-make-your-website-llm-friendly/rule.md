@@ -1,57 +1,46 @@
 
-
 ---
 seoDescription: Learn how implementing an llms.txt file can enhance your website's accessibility and usability for large language models, ensuring accurate content interpretation and improved user interactions.
 type: rule
 title: Do you provide an llms.txt file to make your website LLM-friendly?
 uri: do-you-make-your-website-llm-friendly
 authors:
-  - title: Stef Starcevic 
-    url: https://www.ssw.com.au/people/stef-starcevic/
-  - title: Louis Roa
-    url: https://www.ssw.com.au/people/louis-roa/
+
+* title: Stef Starcevic
+    url: <https://www.ssw.com.au/people/stef-starcevic/>
+* title: Louis Roa
+    url: <https://www.ssw.com.au/people/louis-roa/>
 created: 2025-03-20T14:00:00.000Z
 guid: 123e4567-e89b-12d3-a456-426614174000
+
 ---
 
-
-As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information. Implementing an `llms.txt` file addresses this challenge by providing a streamlined, LLM-friendly version of your site's content. 
-
+As large language models (LLMs) become integral in processing and generating content, ensuring they access and interpret your website accurately is crucial. Traditional HTML structures, laden with navigation menus, advertisements, and scripts, can hinder LLMs from efficiently extracting meaningful information. Implementing an `llms.txt` file addresses this challenge by providing a streamlined, LLM-friendly version of your site's content.
 
 <!--endintro-->
 
-
 ## What is an `llms.txt`?
-
 
 An `llms.txt` file is a standardized Markdown file placed at the root of your website (`/llms.txt`). It gives LLMs clear and orgbanised information about your site, helping them understand and use your content better.
 
+### Benefits of Implementing `llms.txt`
 
-### Benefits of Implementing `llms.txt` 
+* **Easier to Read:** LLMs can directly access pertinent information without sifting through extraneous HTML elements.
+* **More Accurate Results:** By providing clear and concise content, you reduce the risk of misinterpretation by LLMs.
+* **Consistent Format:** The standardized format ensures consistency, making it easier for LLMs to process your site's data.
 
-
-- **Easier to Read:** LLMs can directly access pertinent information without sifting through extraneous HTML elements.
-- **More Accurate Results:** By providing clear and concise content, you reduce the risk of misinterpretation by LLMs.
-- **Consistent Format:** The standardized format ensures consistency, making it easier for LLMs to process your site's data.
-
-
-### Formatting your `llms.txt` 
-
+### Formatting your `llms.txt`
 
 An effective `llms.txt` file includes:
-
 
 1. **Project or Site Name:** An H1 header with the name of your project or site.
 2. **Summary:** A blockquote offering a brief overview of your project, highlighting essential aspects.
 3. **Detailed Information:** Additional sections providing in-depth insights, such as usage guidelines or key features.
 4. **Resource Links:** H2 headers followed by lists of URLs to relevant Markdown files or resources.
 
-
-
-
 ### Examples
-Here is a mock example of the format:
 
+Here is a mock example of the format:
 
 ```
 # Title
@@ -74,13 +63,12 @@ Optional details go here
 
 - [Link title](https://link_url)
 ```
+
 **Figure: Mock example of llms.txt format**
 
 Note that the "Optional" section has a special meaning - if it's included, the URLs provided there can be skipped if a shorter context is needed. Use it for secondary information which can often be skipped.
 
-
 Here is what a cut down version of a llm.txt looks like:
-
 
 ```
 # FastHTML
@@ -113,14 +101,13 @@ Important notes:
 
 
 - [Starlette full documentation](https://gist.githubusercontent.com/path/starlette-sml.md): A subset of the Starlette documentation useful for FastHTML development.
-``` 
+```
+
 **Figure: Excerpt of an in-use llms.txt**
 
-### Directories 
+### Directories
 
-
-Here are a few directories that list the llms.txt files available on the web: 
-
+Here are a few directories that list the llms.txt files available on the web:
 
 [llmstxt.site](dotcom)
 
@@ -128,16 +115,8 @@ Here are a few directories that list the llms.txt files available on the web:
 
 ### Integrations
 
-
 Various tools and plugins are available to help integrate the llms.txt specification into your workflow:
 
-- **llms_txt2ctx** - CLI and Python module for parsing llms.txt files and generating LLM context
-- **JavaScript Implementation** - Sample JavaScript implementation
-- **vite-plugin-llms** - Vite plugin that serves markdown files alongside your routes following the llms.txt specification
-
-
-
-
-
-
-
+* **llms_txt2ctx** - CLI and Python module for parsing llms.txt files and generating LLM context
+* **JavaScript Implementation** - Sample JavaScript implementation
+* **vite-plugin-llms** - Vite plugin that serves markdown files alongside your routes following the llms.txt specification
