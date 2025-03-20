@@ -28,4 +28,6 @@ index:
 
 ---
 
-Want to revolutionize your business with GPT and ChatGPT integration? Check [SSW's GPT and ChatGPT consulting page](https://www.ssw.com.au/consulting/gpt).
+Want to revolutionize your business with AI integration? Check [SSW's AI consulting page](https://www.ssw.com.au/consulting/artificial-intelligence).
+
+These AI rules are frequently presented at international conferences, corporate training sessions, and industry events, helping businesses stay ahead in a rapidly evolving landscape.

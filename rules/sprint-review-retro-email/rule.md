@@ -1,7 +1,9 @@
 ---
-seoDescription: Learn how to create a structured Sprint Review/Retro email template with best practices for clear communication and effective team collaboration in Agile processes.
 type: rule
 title: Do you create a Sprint Review/Retro email?
+seoDescription: Learn how to create a structured Sprint Review/Retro email
+  template with best practices for clear communication and effective team
+  collaboration in Agile processes.
 uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
@@ -16,7 +18,6 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
-    
 related:
   - roadmap
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
@@ -159,6 +160,12 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 💡 **What improvements will be made for the next Sprint?**
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
+
+⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
+
+As per https://www.ssw.com.au/rules/for-the-record/
+
+{{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
 **Definition of Ready** *(Optional)*
 
