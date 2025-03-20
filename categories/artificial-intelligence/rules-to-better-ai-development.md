@@ -19,6 +19,7 @@ index:
 - best-ai-powered-ide
 - ai-for-frontend-development
 - avoid-ai-hallucinations
+- make-your-website-llm-friendly
 
 ---
 
