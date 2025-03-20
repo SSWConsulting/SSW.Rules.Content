@@ -45,7 +45,8 @@ An effective `llms.txt` file includes:
 * **Investing in digital PR** - Building relationships with reputable media outlets and influencers can lead to authoritative mentions, enhancing a brand's credibility in the eyes of AI systems
 * **Enhancing backlink profiles** - Acquiring high-quality backlinks from trusted sources signals authority, increasing the likelihood of content being referenced by LLMs
 * **Incorporating quotable content** - Embedding unique statistics, expert quotes, and proprietary insights makes content more likely to be cited by AI models seeking authoritative information
-* 
+*
+
 ### Examples
 
 Here is a mock example of the format:
