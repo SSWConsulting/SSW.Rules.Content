@@ -16,6 +16,9 @@ As large language models (LLMs) become integral in processing and generating con
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=_Lx1DmMMJbg`
+**Video: Do you provide an llms.txt file to make your website LLM-friendly? | Isaac Lombard | Rules (1 min)**
+
 ## What is an `llms.txt`?
 
 An `llms.txt` file is a standardized Markdown file placed at the root of your website (`/llms.txt`). It gives LLMs clear and organised information about your site, helping them understand and use your content better.
