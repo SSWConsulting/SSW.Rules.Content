@@ -127,8 +127,6 @@ Using dynamic imports and React Suspense helps reduce your JavaScript bundle siz
 
 Dynamic imports allow you to load modules on demand, only when they're required. This avoids loading unnecessary code during the initial load.
 
-### Example
-
 ```javascript
 // Without dynamic import
 import { MyComponent } from './MyComponent';
