@@ -36,10 +36,16 @@ An `llms.txt` file is a standardized Markdown file placed at the root of your we
 An effective `llms.txt` file includes:
 
 1. **Project or site name** - An H1 header with the name of your project or site
-2. **Summary:** A blockquote offering a brief overview of your project, highlighting essential aspects
+2. **Summary** - A blockquote offering a brief overview of your project, highlighting essential aspects
 3. **Detailed information** - Additional sections providing in-depth insights, such as usage guidelines or key features
 4. **Resource links** - H2 headers followed by lists of URLs to relevant Markdown files or resources
 
+### Key strategies for effective LLMO
+
+* **Investing in digital PR** - Building relationships with reputable media outlets and influencers can lead to authoritative mentions, enhancing a brand's credibility in the eyes of AI systems
+* **Enhancing backlink profiles** - Acquiring high-quality backlinks from trusted sources signals authority, increasing the likelihood of content being referenced by LLMs
+* **Incorporating quotable content** - Embedding unique statistics, expert quotes, and proprietary insights makes content more likely to be cited by AI models seeking authoritative information
+* 
 ### Examples
 
 Here is a mock example of the format:
