@@ -19,7 +19,7 @@ archivedreason: null
 guid: 3bcee6c3-13c6-45a7-8379-236a7cf44030
 ---
 
-One of the easiest ways to get the ball rolling with your web pages and being noticed by search engines is to use [HTML `<meta>` tags](https://www.w3schools.com/tags/tag_meta.asp). 
+One of the easiest ways to get the ball rolling with your web pages and being noticed by search engines is to use [HTML `<meta>` tags](https://www.w3schools.com/tags/tag_meta.asp).
 
 Years ago, many webmasters took this as an opportunity to abuse the `<meta>` tags and the search engines found that the quality of search results was suffering. Today, search engines don't give the &lt;meta&gt; tags weight - Google announced in September of 2009 that neither **meta descriptions** nor **meta keywords** affects Google's ranking algorithms for web searches.
 
@@ -53,9 +53,9 @@ To ensure your meta tags are present and well formatted, we have a useful progra
 
 ## Rectifying the missing meta tags issue
 
-This issue is common for users publishing content with a CMS. In this case we generally recommend meta descriptions and title fields a required field. For example, Tina CMS allows you to add [required fields](https://tina.io/docs/reference/fields/#definition). 
+This issue is common for users publishing content with a CMS. In this case we generally recommend meta descriptions and title fields a required field. For example, Tina CMS allows you to add [required fields](https://tina.io/docs/reference/fields/#definition).
 
-You could also get creative and pass the drafted content of your page into a custom GPT with instructions to create a summary of the content suitable for a meta title or meta description. 
+You could also get creative and pass the drafted content of your page into a custom GPT with instructions to create a summary of the content suitable for a meta title or meta description.
 
 `youtube: https://www.youtube.com/embed/PW65iMKp-hY`
 **Video: Improving SEO across thousands of pages in minutes | Caleb Williams (7 min)**
@@ -88,7 +88,7 @@ Figure: Good example - Using the nosnippet attribute to remove irrelevant conten
 
 ## The duplicate content myth
 
-There is a widely held misconception that Google penalizes authors for having duplicate meta tags, particularly meta **description** and meta **title** tags. However, Google primarily targets pages that are exact duplicates of other pages when penalizing for duplicate content. 
+There is a widely held misconception that Google penalizes authors for having duplicate meta tags, particularly meta **description** and meta **title** tags. However, Google primarily targets pages that are exact duplicates of other pages when penalizing for duplicate content.
 
 Read more about this in Google's [original blog post - Demystifying the "duplicate content penalty"](https://developers.google.com/search/blog/2008/09/demystifying-duplicate-content-penalty).
 
