@@ -27,7 +27,7 @@ There are many ways to get to this data, let's go through them:
 
 <!--endintro-->
 
-### Option 1: SharePoint BCS Adapter (provided by the CRM Team) RECOMMENDED
+## Option 1: SharePoint BCS Adapter (provided by the CRM Team) RECOMMENDED
 
 This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work for you by interrogating the CRM metadata service).
 
@@ -36,29 +36,19 @@ This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work 
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[8\]](correct.gif "clip_image002[8]")Read/Write
-
-![clip_image002\[9\]](correct.gif "clip_image002[9]")Minimal coding
-
-![clip_image002\[10\]](correct.gif "clip_image002[10]")Easiest to implement
-
-![clip_image002\[11\]](correct.gif "clip_image002[11]")The likely way forward (Best Practice as Microsoft) | ![clip_image004\[13\]](wrong.gif "clip_image004[13]")Needs to be deployed and published to the web server.
-
-![clip_image004\[14\]](wrong.gif "clip_image004[14]")Less performance than SQL filter views directly
-
-![clip_image004\[15\]](wrong.gif "clip_image004[15]")Only recently released. |
+| Read/Write. <br>Minimal coding. <br>Easiest to implement. <br>The likely way forward (Best Practice as Microsoft) | Needs to be deployed and published to the web server. <br> Less performance than SQL filter views directly. |
 
 ![](figure5.jpg)  
 
 ::: greybox
 **More information:**    
 - Download from Microsoft
-- Read "*Connecting to CRM Online 2011 with SharePoint 2010 Business Connectivity Services*"
+- Find and read "*Connecting to CRM Online 2011 with SharePoint 2010 Business Connectivity Services*"
 - Run tool to generate the XML mapping (.BDCM)
 - This solution uses a BCS Connector – a .NET Assembly responsible for mapping external data into a form usable by SharePoint. This component is loaded and hosted within SharePoint 2010 and communicates with CRM via the CRM Proxy Service.
 :::
 
-### Option 2: SQL Server Filtered Views
+## Option 2: SQL Server Filtered Views
 
 CRM recommends that you \*don't\* read from the Tables, so they provide SQL Views for this purpose.
 
@@ -67,13 +57,7 @@ CRM recommends that you \*don't\* read from the Tables, so they provide SQL View
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[2\]](correct.gif "clip_image002[2]")Best performance
-
-![clip_image002\[2\]](correct.gif "clip_image002[2]")Codeless | ![clip_image004](wrong.gif "clip_image004")Read-only
-
-![clip_image004\[1\]](wrong.gif "clip_image004[1]")Not available for hosted CRM
-
-![clip_image004\[2\]](wrong.gif "clip_image004[2]") Security issues as you are exposing the view. |
+| Best performance. <br>Codeless | Read-only.<br> Not available for hosted CRM. <br>Security issues as you are exposing the view. |
 
 Filtered Views in Microsoft CRM provide access to the data available that supports providing picklist name and id values (lookup tables).
 
@@ -95,13 +79,9 @@ CRM provides web services.
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[3\]](correct.gif "clip_image002[3]")Read/Write | ![clip_image004\[3\]](wrong.gif "clip_image004[3]")Needs lots of code and test work.
+| Read/Write | Needs lots of code and test work. Needs to be deployed and published to the web server.<br> Less performance than SQL filter views directly #1 |
 
-![clip_image004\[4\]](wrong.gif "clip_image004[4]")Needs to be deployed and published to the web server.
-
-![clip_image004\[5\]](wrong.gif "clip_image004[5]")Less performance than SQL filter views directly #1 |
-
-Note: Performance could be improved by making the reads from the views and the writes through the web service
+**Note:** Performance could be improved by making the reads from the views and the writes through the web service
 
 ::: greybox
 **More information:**
@@ -117,13 +97,7 @@ The CRM 2011 OData Query Designer can be used to build queries to expose the dat
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[4\]](correct.gif "clip_image002[4]")Easy configuration | ![clip_image004\[6\]](wrong.gif "clip_image004[6]")50 records limit. Need to page through the results.
-
-![clip_image004\[7\]](wrong.gif "clip_image004[7]")Possible issues with firewalls and proxies because it uses Integrated Security for authentication.
-
-![clip_image004\[8\]](wrong.gif "clip_image004[8]")Read-Only
-
-![clip_image004\[9\]](wrong.gif "clip_image004[9]")No easy way to consume |
+| Easy configuration | 50 records limit.<br> Need to page through the results.<br> Possible issues with firewalls and proxies because it uses Integrated Security for authentication.<br> Read-Only.<br> No easy way to consume |
 
 **Note:** You can really only call the OData endpoint from an application that already has an authentication cookie with the CRM server. 
 i.e. you can't impersonate and call it like you can the standard WCF endpoints 
@@ -152,7 +126,7 @@ The 3 options to consume the OData/RSS data:
   **Summary:** SharePoint BCS &gt; DataSourceType: SQL Server &gt; OData &gt; CRM database
 
 You would need to be crazy to go down this route [Calling a Web Service from T-SQL (Stored Procedure) using MSXML RSS
-](https://forums.asp.net/t/1904724.aspx?Calling+a+Web+Service+from+T+SQL+Stored+Procedure+using+MSXML)
+](https://lejin2000.wordpress.com/2016/11/21/call-a-webservice-from-tsql-stored-procedure-using-msxml-by-vishal)
 
 -  Consume the OData by a BCS adapter + code calling web services (same story as above). 
   **Summary:** SharePoint BCS &gt; code calling OData &gt; CRM database
@@ -171,15 +145,7 @@ Biztalk is built for mapping systems together, unfortunately, this solution is o
 
 | Pros | Cons |
 | --- | --- |
-| ![clip_image002\[5\]](correct.gif "clip_image002[5]")Read/Write
-
-![clip_image002\[6\]](correct.gif "clip_image002[6]")The BizTalk data centre can also provide data for any system.
-
-![clip_image002\[7\]](correct.gif "clip_image002[7]")Requires little code if users already have BizTalk | ![clip_image004\[10\]](wrong.gif "clip_image004[10]")BizTalk :-)
-
-![clip_image004\[11\]](wrong.gif "clip_image004[11]")Deployment - Needs external work to deploy BizTalk server.
-
-![clip_image004\[12\]](wrong.gif "clip_image004[12]") Licence Cost |
+| Read/Write. <br> The BizTalk data centre can also provide data for any system. <br> Requires little code if users already have BizTalk | BizTalk :-) <br> Deployment - Needs external work to deploy BizTalk server. <br> Licence Cost |
 
 
 ### Option 6: OData 3rd Party solutions (doesn't exist)
@@ -187,6 +153,7 @@ Biztalk is built for mapping systems together, unfortunately, this solution is o
 Today SharePoint 2010 exposes lists and document libraries as OData, but does not natively consume OData.
 
 What does this mean?
+
 - CRM 2011 exposes it data as OData, but cannot consume OData
 - SharePoint 2010 exposes it data as OData, but cannot consume OData
- ...and there are no 3rd party solutions to solve this...
+   ...and there are no 3rd party solutions to solve this...
