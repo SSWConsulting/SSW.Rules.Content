@@ -1,7 +1,7 @@
 ---
 type: rule
-title: On-page - Do you use meta description tags?
-seoDescription: Create concise, 150-160 character-long meta descriptions that includes primary keywords and reflects user intent.
+title: On-page - Do you use meta tags?
+seoDescription: Use meta tags, including concise 150-160 character-long meta descriptions that includes primary keywords and reflects user intent.
 uri: html-meta-tags
 authors:
   - title: Adam Cogan
