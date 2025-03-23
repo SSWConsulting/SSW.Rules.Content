@@ -47,7 +47,7 @@ To ensure your meta tags are present and well formatted, we have a useful progra
 ![Figure: Bad example - Website with a missing meta description tag](dorybadmetadescription.jpg)
 :::
 
-:::
+::: good
 ![Figure: Good example - SSW Dory's website has a meta description tag](metadescriptionsswdory.jpg)
 :::
 
