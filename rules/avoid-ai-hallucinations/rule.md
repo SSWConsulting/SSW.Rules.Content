@@ -26,7 +26,7 @@ AI models like GPT-4 are powerful but imperfect. They generate plausible-soundin
 
 ## Use Clean, Tagged Data for RAG
 
-❌ Bad: Untagged data in a RAG system
+❌ Bad: Untagged data in a RAG system 
 
 ```phyton
 documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]  
@@ -50,11 +50,8 @@ documents = [
 ```
 
 ::: greybox  
-
 # Query: "What was the server uptime in Q2?"  
-
 # Output: "No uptime data found. Available data: 5hrs downtime." ✅  
-
 ```
 ::: good
 Figure: Good example - Properly tagged data reduces the risk of incorrect retrieval
