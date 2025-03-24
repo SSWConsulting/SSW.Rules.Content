@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you have a security@ email account?
 seoDescription: Learn why every company should have a security@ email address to
   handle vulnerability reports, prevent public exploits, and build trust with
