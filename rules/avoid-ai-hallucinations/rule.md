@@ -22,7 +22,7 @@ AI hallucinations are inevitable, but with the right techniques, you can minimiz
 
 AI models like GPT-4 are powerful but imperfect. They generate plausible-sounding but incorrect or nonsensical outputs (hallucinations) due to training limitations, ambiguous prompts, or flawed data retrieval. While you can’t eliminate hallucinations entirely, you can **reduce their frequency** and **mitigate risks**.  
 
-- - -
+---
 
 ## Use Clean, Tagged Data for RAG
 
