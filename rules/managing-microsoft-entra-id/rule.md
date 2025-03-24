@@ -7,9 +7,9 @@ authors:
   - title: Rob Thomlinson
     url: https://www.ssw.com.au/people/rob-thomlinson/
 created: 2025-01-03T10:58:08.000Z
-guid: 123e4567-e89b-12d3-a456-426614174000
+guid: 096b7e93-242d-4383-8978-f86c6cf0f2f3
 related:
- - how-to-name-documents
+  - how-to-name-documents
 ---
 
 Effective management of Microsoft Entra ID (formerly Azure Active Directory) is crucial for maintaining the security and efficiency of your organisation's IT infrastructure. Neglecting best practices can lead to unauthorised access, data breaches, and operational disruptions. <!--endintro-->
@@ -64,21 +64,21 @@ Without clear naming conventions, it becomes difficult to understand the purpose
    * Example: `[Department]-[Resource]-[Level]`
    * `HR-Payroll-ReadOnly` or `IT-SharePoint-Admin`
 2. **Use Prefixes for Type Indication:** Add a prefix to indicate the type of group.
-   - `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies.
+   * `DL-` for Distribution List, `SEC-` for Security Group, `O365-` for Office 365 Group 'Intune-' for Intune policies.
 3. **Avoid Ambiguity:** Ensure names are descriptive but concise. Avoid generic terms like "Admin" or "Users" that lack specific context.
 4. **Adopt Case Conventions:** Use consistent casing, such as PascalCase or lowercase, for easy readability. SSW uses kebab case :)
 
 #### **Common Naming Conventions Example**
 
-| **Name**                | **Purpose**                               |
-|--------------------------|-------------------------------------------|
-| SEC-IT-VPN-Access           | Provides VPN access for IT personnel.    |
-| SEC-Marketing-WebAnalytics  | Grants access to web analytics tools.    |
-| SEC-Finance-ERP-ReadOnly    | Read-only access to the ERP system.       |
-| O365-SharePoint-Accounts-private-library-ReadWrite    | Read-write access to the Accounts SharePoint library.       |
-| DL-All-Company-Broadcast   | Organization-wide communication group.   |
-| Intune-User-AccountingSoftware | Intune user policy to install accounting software |
-| Intune-Computer-ScreenTimeout | Intune computer screen timeout policy |
+| **Name**                                           | **Purpose**                                           |
+| -------------------------------------------------- | ----------------------------------------------------- |
+| SEC-IT-VPN-Access                                  | Provides VPN access for IT personnel.                 |
+| SEC-Marketing-WebAnalytics                         | Grants access to web analytics tools.                 |
+| SEC-Finance-ERP-ReadOnly                           | Read-only access to the ERP system.                   |
+| O365-SharePoint-Accounts-private-library-ReadWrite | Read-write access to the Accounts SharePoint library. |
+| DL-All-Company-Broadcast                           | Organization-wide communication group.                |
+| Intune-User-AccountingSoftware                     | Intune user policy to install accounting software     |
+| Intune-Computer-ScreenTimeout                      | Intune computer screen timeout policy                 |
 
 Figure: Good examples of access group naming conventions that improve clarity and reduce errors in assignment.
 
