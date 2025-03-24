@@ -41,6 +41,6 @@ No security@ exists. The researcher tweets the exploit. The company finds out vi
 A security researcher finds a critical bug and emails security @company.com. The team replies in 1 day, verifies the issue, patches it in a week, and thanks the reporter.
 :::
 
-::: warn
+::: info
 Be aware of ["beg bounties"](https://www.troyhunt.com/beg-bounties/) – people who send low-risk reports and demand money. You can politely thank them or ignore if it’s not a real issue.
 :::
