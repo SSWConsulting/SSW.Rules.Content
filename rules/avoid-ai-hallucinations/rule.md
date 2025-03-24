@@ -26,7 +26,6 @@ AI models like GPT-4 are powerful but imperfect. They generate plausible-soundin
 
 ## Use Clean, Tagged Data for RAG
 
-
 ```python
 documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]  
 ```
@@ -60,7 +59,7 @@ Use a **chain-of-thought** approach to split tasks into smaller, validated steps
 
 ::: greybox
 **User:** "Write a blog about quantum computing benefits for SMEs."  
-**AI:** (Hallucinates fictional case studies and stats) 
+**AI:** (Hallucinates fictional case studies and stats)
 :::
 ::: bad
 Figure: Bad example - A single-step prompt invites hallucinations
@@ -73,11 +72,11 @@ Figure: Bad example - A single-step prompt invites hallucinations
 :::
 ::: good
 Figure: Good example - Multi-step validation reduces errors
-::: 
+:::
 
 ## Force the AI to Justify Its Reasoning
 
-Always prompt the AI to **cite sources** and **flag uncertainty**. 
+Always prompt the AI to **cite sources** and **flag uncertainty**.
 
 ::: greybox
 **User:** "Why should SMEs adopt quantum computing?"  
@@ -97,11 +96,12 @@ Figure: Good example - Require citations and self-reflection
 :::
 
 ## Validate Outputs Against the Original Question
+
 Use a **validation layer** to ensure outputs align with the original query.  
 
 ::: greybox
 **User:** "How does Azure Kubernetes Service (AKS) simplify deployment?"  
-**AI:** Explains Kubernetes basics (ignores AKS specifics). 
+**AI:** Explains Kubernetes basics (ignores AKS specifics).
 :::
 ::: bad
 Figure: Bad example - No final check = off-topic answers
