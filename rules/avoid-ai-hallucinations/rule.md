@@ -12,7 +12,7 @@ related:
 created: 2025-03-17T14:57:00.000Z
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 ---
-AI is a powerful tool, however, sometimes it simply makes things up, aka hallucinates. While hallucinating in your spare time is pretty cool, it is very bad for business!
+AI is a powerful tool, however, sometimes it simply makes things up, aka hallucinates. AI hallucinations can sometimes be humorous, but it is very bad for business!
 
 AI hallucinations are inevitable, but with the right techniques, you can minimize their occurrence and impact. Learn how SSW tackles this challenge using proven methods like clean data tagging, multi-step prompting, and validation workflows.  
 
@@ -26,9 +26,8 @@ AI models like GPT-4 are powerful but imperfect. They generate plausible-soundin
 
 ## Use Clean, Tagged Data for RAG
 
-❌ Bad: Untagged data in a RAG system 
 
-```phyton
+```python
 documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]  
 ```
 
@@ -40,9 +39,7 @@ documents = ["Sales grew 10% in 2023", "Server downtime: 5hrs in Q2"]
 Figure: Bad example - Untagged, messy data leads to garbage outputs
 :::
 
-✅ Good: Properly tagged data  
-
-```phyton
+```python
 documents = [  
   {"text": "Sales grew 10% in 2023", "tags": ["finance", "sales"]},  
   {"text": "Server downtime: 5hrs in Q2", "tags": ["IT", "downtime"]}  
@@ -50,9 +47,9 @@ documents = [
 ```
 
 ::: greybox  
-# Query: "What was the server uptime in Q2?"  
-# Output: "No uptime data found. Available data: 5hrs downtime." ✅  
-```
+**Query:** "What was the server uptime in Q2?"  
+**Output:** "No uptime data found. Available data: 5hrs downtime." ✅  
+:::
 ::: good
 Figure: Good example - Properly tagged data reduces the risk of incorrect retrieval
 :::
