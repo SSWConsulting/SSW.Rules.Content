@@ -40,6 +40,21 @@ This feature is particularly useful when you've missed tracking important emails
 
 ![Figure: Look for the "Track" button in the Timeline section of Dynamics 365 web interface to track emails (highlighted in red)](Track-from-web.png)
 
+## Understanding UntrackedEmail in Dynamics 365
+
+In Dynamics 365, you may notice items labeled as "UntrackedEmail" in your timeline or activities. These are emails that:
+
+- Have been detected by the system's auto capture functionality
+- Are potentially relevant to your CRM records 
+- Have not yet been formally tracked in the CRM system
+- Will only remain in the system for a limited time (typically 3 days)
+
+UntrackedEmails appear as suggestions for you to review and decide whether they should be permanently tracked in CRM. This feature helps prevent important communications from falling through the cracks while giving you control over what gets stored in your CRM database.
+
+When you see UntrackedEmails:
+1. Review them to determine if they contain valuable information
+2. Use the "Track" or "Track and Set Regarding" options to convert important ones into permanent CRM records
+3. Ignore irrelevant emails, which will automatically disappear after the retention period
 
 **Track all in a thread or just one?**
 
