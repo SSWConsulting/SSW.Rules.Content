@@ -4,7 +4,7 @@ type: rule
 archivedreason: 
 title: Do you avoid having width and height properties in image tags?
 guid: 3795e298-c889-49e5-b9b1-58dac3d8eaae
-uri: do-you-exclude-width-and-height-properties-from-image-references-in-content
+uri: exclude-width-and-height-properties-from-images
 created: 2015-10-13T00:44:07.0000000Z
 authors: 
   - title: Adam Cogan
@@ -12,7 +12,8 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related: []
-redirects: []
+redirects:
+  - do-you-exclude-width-and-height-properties-from-image-references-in-content
 
 ---
 
@@ -23,7 +24,7 @@ Specifying the width and height properties for images on your web pages can some
 In other words, you **should not** have the image dimensions specified in HTML unless you have a very specific reason to do so. Use CSS if you need to specify images dimensions.
 
 ```html
-<img src="MyPic.gif" width="93" height="25">
+<img src="image.png" width="93" height="25">
 ```
 
 ::: bad
@@ -31,7 +32,7 @@ Figure: Bad example - Including the width and height properties for content imag
 :::
 
 ```html
-<img src="MyPic.gif">
+<img src="image.png">
 ```
 
 ::: good
