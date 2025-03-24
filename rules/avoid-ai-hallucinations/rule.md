@@ -115,7 +115,7 @@ AI: "Revised answer: AKS simplifies deployment by integrating with Azure DevOps 
 Figure: Good example - Add a final validation step
 :::
 
-### **Other techniques to minimize hallucinations
+## Other techniques to minimize hallucinations
 
 * **Lower temperature settings**: Reduce creativity (e.g., `temperature=0.3`) for factual tasks
 * **Human-in-the-loop**: Flag low-confidence responses for manual review
