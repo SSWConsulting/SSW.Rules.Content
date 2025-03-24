@@ -32,6 +32,7 @@ The simplest way is when writing or receiving the email in Outlook, click the Dy
 If you're working directly in the Dynamics 365 web interface, you can also track emails through the auto capture feature. When auto capture is enabled, the system will collect untracked emails for up to 3 days, allowing you to review and track them without returning to Outlook.
 
 To track emails using auto capture:
+
 1. Go to the entity record which the email is related to (e.g. a contact, company or opportunity)
 2. Find the "Timeline" section
 3. Click the "Track" button (see screenshot below)
@@ -44,14 +45,15 @@ This feature is particularly useful when you've missed tracking important emails
 
 In Dynamics 365, you may notice items labeled as "UntrackedEmail" in your timeline or activities. These are emails that:
 
-- Have been detected by the system's auto capture functionality
-- Are potentially relevant to your CRM records 
-- Have not yet been formally tracked in the CRM system
-- Will only remain in the system for a limited time (typically 3 days)
+* Have been detected by the system's auto capture functionality
+* Are potentially relevant to your CRM records
+* Have not yet been formally tracked in the CRM system
+* Will only remain in the system for a limited time (typically 3 days)
 
 UntrackedEmails appear as suggestions for you to review and decide whether they should be permanently tracked in CRM. This feature helps prevent important communications from falling through the cracks while giving you control over what gets stored in your CRM database.
 
 When you see UntrackedEmails:
+
 1. Review them to determine if they contain valuable information
 2. Use the "Track" or "Track and Set Regarding" options to convert important ones into permanent CRM records
 3. Ignore irrelevant emails, which will automatically disappear after the retention period
