@@ -40,7 +40,7 @@ Simply ask for that person to come over and check it on your computer or call th
 Scenarios where having someone review your emails is recommended:
 
 - You are new to a company
-- Sending an email to a large distribution list
+- Sending an email or appointment to a large distribution list
 - You are a little unsure
 - You feel that it is a complicated email
 - Sending a sensitive email (e.g. The content could be perceived as confrontational)
