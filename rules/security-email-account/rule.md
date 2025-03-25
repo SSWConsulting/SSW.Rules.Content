@@ -10,6 +10,9 @@ authors:
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
 guid: 58523891-7aa2-4f5c-ae34-376d002f0a14
+created: 2025-03-25T00:01:20.896Z
+related: []
+redirects: []
 ---
 When hackers or security researchers find a vulnerability in your system, they need a way to tell you. If you don’t have a security@yourcompany.com email, they might give up or go public.
 
