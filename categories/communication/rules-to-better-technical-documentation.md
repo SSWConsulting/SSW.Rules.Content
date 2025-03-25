@@ -24,6 +24,7 @@ index:
   - make-numbers-more-readable
   - add-days-to-dates
   - address-formatting
+  - dashes
   - descriptive-links
   - keep-your-urls-clean
   - how-to-capitalize-titles
@@ -41,7 +42,7 @@ index:
   - use-correct-symbols-when-documenting-instructions
   - use-emojis
   - format-new-lines
-  - use-quotation-mark-for-controls
+  - formatting-ui-elements
   - use-generic-consistent-names-on-examples
   - create-friendly-short-urls
   - how-to-name-documents
