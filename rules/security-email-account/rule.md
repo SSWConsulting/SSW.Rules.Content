@@ -40,7 +40,7 @@ Bad example: No security@ exists. The researcher tweets the exploit. The company
 :::
 
 ::: good  
-Good example: A security researcher finds a critical bug and emails security @company.com. The team replies in 1 day, verifies the issue, patches it in a week, and thanks the reporter.
+Good example: A security researcher finds a critical bug and emails security@. The team replies in 1 day, verifies the issue, patches it in a week, and thanks the reporter.
 :::
 
 ::: info
