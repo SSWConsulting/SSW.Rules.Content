@@ -14,7 +14,7 @@ created: 2025-03-25T00:01:20.896Z
 related: []
 redirects: []
 ---
-When hackers or security researchers find a vulnerability in your system, they need a way to tell you. If you don’t have a security@yourcompany.com email, they might give up or go public.
+When hackers or security researchers find a vulnerability in your system, they need a way to tell you. If you don’t have a <security@yourcompany.com> email, they might give up or go public.
 
 Your `security@` inbox is your first line of defense.
 
@@ -33,7 +33,6 @@ Make sure it’s:
 * Monitored by trusted staff (not just one person)
 * Responded to quickly (aim for <48h)
 * Part of your incident response process
-
 
 ::: bad  
 Bad example: No security@ exists. The researcher tweets the exploit. The company finds out via media. Damage is done.
