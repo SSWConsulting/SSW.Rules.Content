@@ -37,7 +37,7 @@ All members of the team must be well prepared by:
 * Being available **30 minutes** before the meeting
 * Setting up and testing the technology in the room (ie. projector, TV, HDMI cable etc.) with a computer before the meeting starts
 * Making sure remote members are connected via video call before the meeting starts
-* Nominating in advance another member of the team to take notes from the presentation (or using an AI scribe)
+* Nominating in advance another member of the team to take notes from the presentation [(or using an AI scribe)](https://www.ssw.com.au/rules/best-ai-tools/)
 * Deciding, in advance, the order in which PBIs should be presented; priority, Sprint backlog order, logical order and minimizing presenter and presentation medium switching should be taken into account.
 * Controlling the time spent on the PBI presentation
 
