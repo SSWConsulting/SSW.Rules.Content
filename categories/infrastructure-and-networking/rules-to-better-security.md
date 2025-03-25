@@ -17,6 +17,7 @@ index:
 - open-policy-personal-data-breaches
 - do-you-use-built-in-authentication-from-ms
 - use-automatic-key-management-with-duende-identityserver
+- security-email-account
 - do-you-disable-insecure-protocols
 - password-manager
 - secure-password-share
