@@ -13,6 +13,10 @@ authors:
     url: https://ssw.com.au/people/penny-walker
   - title: Greg Harris
     url: https://ssw.com.au/people/greg-harris
+  - title: Eddie Kranz
+    url: https://ssw.com.au/people/eddie-kranz
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
 related: []
 redirects:
   - do-you-know-to-hit-track-when-you-receive-an-important-email
