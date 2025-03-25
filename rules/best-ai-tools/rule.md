@@ -10,16 +10,18 @@ created: 2023-10-03T14:30:00.000Z
 guid: f393a74b-fbce-4d24-a4d8-3d0dad7007f5
 ---
 
-The world of AI tools is a jungle - every company wants you to use their tool, but not every tool is good. With so many options, it’s easy to get overwhelmed or, worse, end up paying for something that doesn’t deliver value. Some tools offer exceptional capabilities, but others frustratingly over-promise and under-deliver. This guide cuts through the noise and provides a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams.
+The world of AI tools is a jungle - every company wants you to use their tool, but not every tool is good. With so many options, it’s easy to get overwhelmed or, worse, end up paying for something that doesn’t deliver value. Some tools offer exceptional capabilities, but others frustratingly over-promise and under-deliver. 
+
+This rule aims to cut through the noise and provide a regularly updated list of the best AI tools, ensuring that you choose the right one without falling for hype or scams (visit their websites to learn more).
 
 <!--endintro-->
 
-Here's a list of the best AI tools for various categories (visit their websites to learn more):
+::: greybox
+⭐ = Recommended\
+💲 = Paid
 
-⭐ = recommended
-💲 = paid
-
-Note: most of the paid ones have a free trial, though you usually don't get full functionality
+**Note:** Most of the paid ones have a free trial, though you usually don't get full functionality.
+:::
 
 ## Writing/coding
 
@@ -53,9 +55,9 @@ Note: most of the paid ones have a free trial, though you usually don't get full
 * ⭐💲 **[Runway](https://www.runwayml.com)** - Offers advanced AI video editing features like object removal and background replacement
 * ⭐ **[Google's Veo](https://aitestkitchen.withgoogle.com/tools/video-fx)** - Google's most capable model for generating high-definition videos (1080p) from text prompts
 * 💲 **[Sora](https://openai.com/sora)** - Creates amazing results from simple text prompts
-* **[Synthesia](https://www.synthesia.io)** - Allows users to create videos with AI-generated avatars and voiceovers
 * 💲 **[Lumen5](https://www.lumen5.com)** - Transforms text content into engaging video summaries
 * 💲 **[Descript](https://www.descript.com/)** -  Allows users to edit video by editing the script
+* **[Synthesia](https://www.synthesia.io)** - Allows users to create videos with AI-generated avatars and voiceovers
 
 ## Audio & Music Generation
 
@@ -65,5 +67,6 @@ Note: most of the paid ones have a free trial, though you usually don't get full
 
 ## Productivity and Automation
 
-* ⭐💲 **[Otter.ai](https://otter.ai/)** -  AI-powered transcription service that integrates with meeting platforms like Zoom, Google Meet and Teams.  Generates real-time notes and summaries
-* 💲 **[Zapier](https://zapier.com/)** - Zapier now uses AI-powered features to automate workflows between different web applications.  Connects thousands of apps
+* ⭐️💲 **[YakShaver](https://yakshaver.ai)** - The YakShaver AI agent analyses recordings, generates tasks, and allocates it to the correct team instantly
+* ⭐💲 **[Otter.ai](https://otter.ai)** -  AI-powered transcription service that integrates with meeting platforms like Zoom, Google Meet and Teams. Generates real-time notes and summaries
+* 💲 **[Zapier](https://zapier.com)** - Zapier uses AI-powered features to automate workflows between different web applications.  Connects thousands of apps
