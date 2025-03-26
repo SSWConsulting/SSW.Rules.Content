@@ -40,6 +40,8 @@ What if the goal is to test an entire **user journey**, to ensure a user can add
 `youtube: https://www.youtube.com/embed/YaXJeUkBe4Y`
 **Video: 5 Types of Testing Software Every Developer Needs to Know! (6 min)**
 
+While a developer may be involved in many types of testing, there are many more ways of testing and each is aimed at mitigating a different type of risk. The below list includes all the testing that normally involves developers directly, as well as some broader types of testing that the team or group of teams delivering a product may want to consider as part of their Software Development Lifecycle. These broader tests are typically looking at something at the Epic level rather than at the individual work item level.
+
 The following list of testing types and their goals is not exhaustive, but covers the more common scenarios you should consider when building a comprehensive test strategy:
 
 | Testing type                                                            | The goal of mitigating risk around...                                            |
