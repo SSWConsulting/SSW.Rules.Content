@@ -46,3 +46,7 @@ Good example: A security researcher finds a critical bug and emails security@. T
 ::: info
 Be aware of ["beg bounties"](https://www.troyhunt.com/beg-bounties/) – people who send low-risk reports and demand money. You can politely thank them or ignore if it’s not a real issue.
 :::
+
+::: info
+Want ethical hackers to help you? Add a [security.txt](https://securitytxt.org) file with your security contact information. Check out how we setup ours - https://github.com/SSWConsulting/securitytxt
+:::
