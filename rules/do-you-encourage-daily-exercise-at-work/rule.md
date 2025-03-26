@@ -68,7 +68,7 @@ To measure yourself, you need a tool to do it. The most common are fitness bands
 
 > Bonus: Use the app’s scan feature to quickly pair the band with a new user.
 
-(insert screenshot of rewards)
+![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
 
 ### Make it simple
 
