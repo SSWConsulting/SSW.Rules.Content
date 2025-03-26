@@ -92,7 +92,7 @@ Encourage short bursts of activity throughout the day:
 
 Even small efforts can improve circulation and mental sharpness before diving into focused work.
 
-### Reward consistency and track it in reviews
+### 🥇 Reward consistency and track it in reviews
 
 Build a long-term culture of health by recognizing ongoing effort:
 
