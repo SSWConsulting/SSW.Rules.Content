@@ -115,4 +115,4 @@ Even if not everyone participates every day, just seeing others move can act as 
 
 ---
 
-A daily 15-minute fitness break isn’t just about health—it’s about building a culture that values energy, happiness, and sustainable productivity.
+A daily 15-minute fitness break isn’t just about health — it’s about building a culture that values energy, happiness, and sustainable productivity 💪
