@@ -21,12 +21,9 @@ guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 
 A healthy team is more energized, happy, and productive, and a culture to encourage this should come from the top.
 
-Sedentary lifestyle is a major health risk (TODO add source), leading to fatigue, poor posture, and reduced productivity.
+Research has increasingly linked sedentary behaviour to negative health outcomes, both physically and cognitively. 
 
-Sedentary lifestyle and health risks
-Summary of abstract for this article <https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832/>
-
-Around one-third of the global population over 15 years old does insufficient physical activity, contributing to health risks, while sedentary lifestyles—averaging 7.7 to 8.3 hours daily—spread due to factors like office work and screen time, leading to metabolic, cardiovascular, and cognitive issues. Reducing sedentary behavior and increasing physical activity are crucial to mitigating these risks, including obesity, diabetes, cancer, and mental health disorders.
+[According to researches](https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832), around one-third of the global population over 15 years old does insufficient physical activity, contributing to health risks, while sedentary lifestyles—averaging 7.7 to 8.3 hours daily—spread due to factors like office work and screen time, leading to metabolic, cardiovascular, and cognitive issues. Reducing sedentary behaviour and increasing physical activity are crucial to mitigating these risks, including obesity, diabetes, cancer, and mental health disorders.
 
 Importance of physical activity for brain health.
 <https://www.tandfonline.com/doi/abs/10.1080/17518420801997007>
