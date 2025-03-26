@@ -24,14 +24,13 @@ A healthy team is more energized, happy, and productive, and a culture to encour
 Sedentary lifestyle is a major health risk (TODO add source), leading to fatigue, poor posture, and reduced productivity.
 
 Sedentary lifestyle and health risks
-Summary of abstract for this article https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832/
- 
+Summary of abstract for this article <https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832/>
+
 Around one-third of the global population over 15 years old does insufficient physical activity, contributing to health risks, while sedentary lifestyles—averaging 7.7 to 8.3 hours daily—spread due to factors like office work and screen time, leading to metabolic, cardiovascular, and cognitive issues. Reducing sedentary behavior and increasing physical activity are crucial to mitigating these risks, including obesity, diabetes, cancer, and mental health disorders.
 
-
 Importance of physical activity for brain health.
-https://www.tandfonline.com/doi/abs/10.1080/17518420801997007
- 
+<https://www.tandfonline.com/doi/abs/10.1080/17518420801997007>
+
 Regular physical activity significantly reduces the risk of subjective cognitive decline (SCD) and related functional limitations, with active adults showing lower prevalence rates (8.8%) compared to inactive individuals (15.7%), emphasizing its protective role in maintaining cognitive health.
 
 It should come as no surprise that an increase in brain health is linked to better performance on complex tasks.
@@ -48,7 +47,6 @@ The best time for this is generally just before lunch, so as not to be too disru
 
 If it really takes off, potentially get some basic equipment in like kettlebells or yoga mats, to give people more options.
 
-
 ### Turn fitness into numbers
 
 What's more of an accomplishment - 'I ran for 30 minutes', or 'I did a 5k in 20 minutes'?
@@ -60,28 +58,27 @@ You can get a similar target with steps/day (e.g. 5,000) that you can measure yo
 To measure yourself, you need a tool to do it. The most common are fitness bands, smartphones, and fitness rings.
 
 * Have a company program to get a **fitness band**
-  - 
+  -
+
 * Use a **mobile app** to:
-  - Track steps and heart rate
-  - Create weekly team challenges
-  - Share leaderboards or step goals in Teams channels
+  * Track steps and heart rate
+  * Create weekly team challenges
+  * Share leaderboards or step goals in Teams channels
 * If budget is limited, start by having a shared office band and rotate it each day.
 
 > Bonus: Use the app’s scan feature to quickly pair the band with a new user.
 
-
 (insert screenshot of rewards)
-
 
 ### Make it simple
 
 All it takes is 15–20 minutes a day. Here are some practical ways to make it happen:
 
 * Quick activities like:
-  - Planking
-  - Push-ups
-  - Light stretching or yoga
-  - Brisk walking outdoors (bonus: natural sunlight = Vitamin D)
+  * Planking
+  * Push-ups
+  * Light stretching or yoga
+  * Brisk walking outdoors (bonus: natural sunlight = Vitamin D)
 * Consider doing this just before lunch for minimal disruption.
 * Assign an **Exercise Master** to initiate the sessions and rally participation.
 
@@ -91,8 +88,6 @@ At SSW, the team stops around 11:45 am for group planks, push-ups, or outdoor wa
 ::: good  
 Figure: Good Example – Encourages team bonding and boosts energy before lunch  
 :::
-
-
 
 ### Integrate movement into meetings
 
