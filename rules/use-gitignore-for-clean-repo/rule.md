@@ -11,6 +11,8 @@ guid: 1e89d2a8-3718-4920-934a-c28f1d4cb497
 related: 
 - do-you-know-the-benefits-of-using-source-control
 - do-you-know-these-important-git-commands
+redirects:
+  - do-you-use-gitignore-for-your-repo
 ---
 
 The .gitignore file tells Git which files to ignore and not track in your repository. Every Git project should have a .gitignore file to keep unnecessary files out of the repo. For example, cache files should not be included in the main repository.
