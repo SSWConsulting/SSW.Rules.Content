@@ -64,7 +64,7 @@ To measure yourself, you need a tool to do it. The most common are fitness bands
 
 ![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
 
-### Make it simple
+### 🏃‍♂️‍➡️ Make it simple
 
 All it takes is 15–20 minutes a day. Here are some practical ways to make it happen:
 
