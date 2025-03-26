@@ -111,7 +111,7 @@ Once the culture is embedded, consider investing in:
 
 Even if not everyone participates every day, just seeing others move can act as a positive nudge.
 
-> Need more evidence? Check out [Harvard Business Review’s breakdown](https://hbr.org/2015/10/exercise-makes-you-smarter-and-more-productive) on how exercise boosts cognitive performance and productivity.
+> Need more evidence? Check out [Harvard Business Review’s breakdown](https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills) on how can boost your memory and thinking skills.
 
 ---
 
