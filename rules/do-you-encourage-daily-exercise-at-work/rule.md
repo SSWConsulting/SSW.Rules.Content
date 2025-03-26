@@ -83,7 +83,7 @@ At SSW, the team stops around 11:45 am for group planks, push-ups, or outdoor wa
 Figure: Good Example – Encourages team bonding and boosts energy before lunch  
 :::
 
-### Integrate movement into meetings
+### 🏋️‍♂️ Integrate movement into meetings
 
 Encourage short bursts of activity throughout the day:
 
