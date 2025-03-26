@@ -87,7 +87,7 @@ Figure: Good Example – Encourages team bonding and boosts energy before lunch
 
 Encourage short bursts of activity throughout the day:
 
-* Start stand-ups or Zoom calls with 10 pushups or squats.
+* Start stand-ups or team calls with 10 pushups or squats.
 * Take walking meetings when discussing non-technical topics.
 
 Even small efforts can improve circulation and mental sharpness before diving into focused work.
