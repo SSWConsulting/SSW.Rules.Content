@@ -101,7 +101,7 @@ Build a long-term culture of health by recognizing ongoing effort:
 
 This adds accountability and reinforces that physical wellbeing is valued just as much as professional output.
 
-### Optional upgrades as the habit grows
+### 🏓 Optional upgrades as the habit grows
 
 Once the culture is embedded, consider investing in:
 
