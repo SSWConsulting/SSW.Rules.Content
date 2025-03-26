@@ -25,10 +25,7 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 
 [According to researches](https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832), around one-third of the global population over 15 years old does insufficient physical activity, contributing to health risks, while sedentary lifestyles—averaging 7.7 to 8.3 hours daily—spread due to factors like office work and screen time, leading to metabolic, cardiovascular, and cognitive issues. Reducing sedentary behaviour and increasing physical activity are crucial to mitigating these risks, including obesity, diabetes, cancer, and mental health disorders.
 
-Importance of physical activity for brain health.
-<https://www.tandfonline.com/doi/abs/10.1080/17518420801997007>
-
-Regular physical activity significantly reduces the risk of subjective cognitive decline (SCD) and related functional limitations, with active adults showing lower prevalence rates (8.8%) compared to inactive individuals (15.7%), emphasizing its protective role in maintaining cognitive health.
+[Another study](https://www.tandfonline.com/doi/abs/10.1080/17518420801997007), among many others, demonstrated that regular physical activity significantly reduces the risk of subjective cognitive decline (SCD) and related functional limitations, with active adults showing lower prevalence rates (8.8%) compared to inactive individuals (15.7%), emphasizing its protective role in maintaining cognitive health.
 
 It should come as no surprise that an increase in brain health is linked to better performance on complex tasks.
 
