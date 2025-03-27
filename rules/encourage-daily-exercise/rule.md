@@ -1,8 +1,8 @@
 ---
 seoDescription: Boost office morale and productivity by incorporating daily exercise at work, with simple activities like planking or walking outdoors.
 type: rule
-title: Do you encourage daily exercise at work?
-uri: do-you-encourage-daily-exercise-at-work
+title: Do you encourage daily exercise?
+uri: encourage-daily-exercise
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
@@ -13,14 +13,15 @@ authors:
 related:
   - do-you-know-the-dangers-of-sitting
   - stretch-at-work
-redirects: []
+redirects:
+  - do-you-encourage-daily-exercise-at-work
 created: 2016-11-07T06:40:46.000Z
 archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
 
 `youtube: https://www.youtube.com/watch?v=wWGulLAa0O0`
-**Video: What happens inside your body when you exercise**
+**Video: What happens inside your body when you exercise (2 min)**
 
 ## The problem
 
