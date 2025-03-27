@@ -30,7 +30,7 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 
 ::: greybox
 'Sitting is the new smoking'
-- A wise person
+* A wise person
 :::
 
 <!--endintro-->
@@ -39,14 +39,13 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 
 Exercise.
 
-
 #### You perform better when healthy
+
 Since physical fitness is linked to brain health, it should come as no surprise that it's also linked to performance on complex tasks.
 
 Specifically your memory and thinking skills: [Harvard Business Review - How exercise can boost your memory and thinking skills](https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills).
 
 So, what's the best approach?
-
 
 #### Turn fitness into numbers (gamify 🎮)
 
@@ -57,9 +56,7 @@ There are entire apps based on this! (like [Strava](https://www.strava.com))
 
 With an appropriate tool - e.g. fitness band, smartphone, fitness ring - you can get a similar target with steps/day (e.g. 10,000) that you can measure yourself and push against.
 
-
 ![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
-
 
 #### 🏃‍♂️‍➡️ Make it simple
 
@@ -70,7 +67,6 @@ According to the [CDC](https://www.cdc.gov/workplacehealthpromotion/initiatives/
 Even though most of us are busy all day, all it takes is 20 minutes. Every company should allocate time to getting their employees up and moving. The most simple is a walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
 
 For some people, planned sessions work well. For others, it works better to have a [small habit that acts as a reminder](https://www.ssw.com.au/rules/lasting-habits/).
-
 
 #### 🧠 Make a system
 
