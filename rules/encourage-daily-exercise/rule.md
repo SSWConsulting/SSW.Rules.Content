@@ -93,6 +93,7 @@ Even small efforts can improve circulation and mental sharpness.
 > "As soon as I wake up in the morning, I do a maximum effort set of push-ups until I fail."
 >
 > \- Seth Daily
+
 ::: good
 Figure: Good example of a small habit for long-term health
 :::
