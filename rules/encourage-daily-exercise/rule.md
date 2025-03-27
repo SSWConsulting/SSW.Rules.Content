@@ -30,7 +30,7 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 [33% of the global population over 15 years old does insufficient physical activity](https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832). Sedentary lifestyles (averaging 7.7 to 8.3 hours daily) lead to metabolic, cardiovascular, and cognitive issues (commonly obesity, diabetes, cancer, and mental health disorders). On top of the physical risks, [sedentary life increases the risk of **subjective cognitive decline**](https://www.tandfonline.com/doi/abs/10.1080/17518420801997007).
 
 > "Sitting is the new smoking"
-> 
+>
 > \- A wise person
 
 <!--endintro-->
