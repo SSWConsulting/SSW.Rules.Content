@@ -29,7 +29,7 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 [33% of the global population over 15 years old does insufficient physical activity](https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832). Sedentary lifestyles (averaging 7.7 to 8.3 hours daily) lead to metabolic, cardiovascular, and cognitive issues (commonly obesity, diabetes, cancer, and mental health disorders). On top of the physical risks, [sedentary life increases the risk of **subjective cognitive decline**](https://www.tandfonline.com/doi/abs/10.1080/17518420801997007).
 
 'Sitting is the new smoking'
-- A wise person
+* A wise person
 
 <!--endintro-->
 
@@ -37,14 +37,14 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 
 Exercise.
 
+#### Fit employees perform better
 
-#### Fit employees perform better 
 It should come as no surprise that an increase in brain health is linked to better performance on complex tasks.
 
 Specifically your memory and thinking skills: [Harvard Business Review - How exercise can boost your memory and thinking skills](https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills).
 
-
 #### Incentivize getting fitness band
+
 There are different ways to get your employees an adequate tracking tool.
 
 * Give them out in exchange for testing a company product
@@ -52,9 +52,7 @@ There are different ways to get your employees an adequate tracking tool.
 
 ![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
 
-
 #### Turn fitness into numbers (gamify 🎮)
-
 
 What's more of an accomplishment - 'I ran for 30 minutes', or 'I did a 5k in 20 minutes'?
 
@@ -63,7 +61,6 @@ For most people, the latter is better because it has a specific definition, and 
 With an appropriate tool - e.g. fitness band, smartphone, fitness ring - you can get a similar target with steps/day (e.g. 10,000) that you can measure yourself and push against.
 
 [Strava](https://www.strava.com/login) is the most popular - you can post your activities and follow friends.
-
 
 #### 🏃‍♂️‍➡️ Make it simple
 
@@ -75,16 +72,12 @@ Most of us are busy all day, and it's difficult to fit in extra time for exercis
 Studies show that while working, taking 5 minute breaks every 30 mins increases productivity (see <https://www.ssw.com.au/rules/pomodoro>)
 Use this break to [stretch or do a couple exercises](https://www.ssw.com.au/rules/stretch-at-work/).
 
-
-
-
 * Quick activities like:
   * Planking
   * Push-ups
   * Light stretching or yoga
   * After lunch walks (bonus: natural sunlight = Vitamin D)
 * Have a leaderboard
-
 
 #### 🏋️‍♂️ Moving in the office
 
@@ -95,7 +88,6 @@ Every company should allocate 15-20 minutes per day to getting their employees u
 The best time for this is generally just before lunch, so as not to be too disruptive.
 
 For some people, planned sessions work well. For others, it works better to have a [small habit that acts as a reminder](https://www.ssw.com.au/rules/lasting-habits/).
-
 
 For instance, every time you:
 
@@ -121,4 +113,3 @@ Build a long-term culture of health by recognizing ongoing effort:
 * At annual reviews, record each person's **average daily steps** as part of their personal goals and KPIs.
 * Reward those who hit their monthly movement targets with small perks.
 * Reward the person who increased the most week to week
-
