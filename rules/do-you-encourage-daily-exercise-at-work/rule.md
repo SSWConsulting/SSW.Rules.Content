@@ -49,16 +49,14 @@ For most people, the latter is better because it has a specific definition, and 
 
 Once you have an appropriate tool - e.g. fitness band, smartphone, fitness ring - you can get a similar target with steps/day (e.g. 5,000) that you can measure yourself and push against.
 
-
 ### Have a company program to get a **fitness band**
 
-* 
+*
 
 * Use a **mobile app** to:
   * Track steps and heart rate
   * Create weekly team challenges
   * Share leaderboards or step goals in Teams channels
-
 
 ![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
 
@@ -84,7 +82,7 @@ Figure: Good Example – Encourages team bonding and boosts energy before lunch
 ### 🏋️‍♂️ Moving in the office
 
 Encourage fun habits around the office:
-Studies show that 5 minute breaks every 30 mins increase productivity (see https://www.ssw.com.au/rules/pomodoro)
+Studies show that 5 minute breaks every 30 mins increase productivity (see <https://www.ssw.com.au/rules/pomodoro>)
 
 * 10 pushups for saying a swear word 🤬
 * Friendly pull-up competitions
@@ -102,7 +100,5 @@ Build a long-term culture of health by recognizing ongoing effort:
 * Reward those who hit their monthly movement targets with small perks.
 
 This adds accountability and reinforces that physical wellbeing is valued just as much as professional output.
-
-
 
 > Need more evidence? Check out [Harvard Business Review’s breakdown](https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills) on how can boost your memory and thinking skills.
