@@ -88,7 +88,6 @@ For instance:
 | Have a 1-on-1 meeting | Do a walking meeting (only if you don't require a computer) |
 | It's a sunny day today | Walk or ride a bike to work |
 
-
 Even small efforts can improve circulation and mental sharpness.
 
 > "As soon as I wake up in the morning, I do a maximum effort set of push-ups until I fail."
