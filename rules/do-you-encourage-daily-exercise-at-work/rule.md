@@ -45,6 +45,8 @@ Since physical fitness is linked to brain health, it should come as no surprise 
 
 Specifically your memory and thinking skills: [Harvard Business Review - How exercise can boost your memory and thinking skills](https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills).
 
+[It affects mental health too - a study done at the University of South Australia](https://bjsm.bmj.com/content/57/18/1203) found that when battling depression, exercise is 1.5x more effective than counselling or medications.
+
 So, what's the best approach?
 
 #### Turn fitness into numbers (gamify 🎮)
@@ -56,7 +58,11 @@ There are entire apps based on this! (like [Strava](https://www.strava.com))
 
 With an appropriate tool - e.g. fitness band, smartphone, fitness ring - you can get a similar target with steps/day (e.g. 10,000) that you can measure yourself and push against.
 
-![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
+:::img-medium
+![Figure: SSW Rewards app - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
+:::
+
+Download the app: [SSW Rewards](https://www.ssw.com.au/products/rewards)
 
 #### 🏃‍♂️‍➡️ Make it simple
 
