@@ -1,8 +1,8 @@
 ---
 seoDescription: Boost office morale and productivity by incorporating daily exercise at work, with simple activities like planking or walking outdoors.
 type: rule
-title: Do you encourage daily exercise at work?
-uri: do-you-encourage-daily-exercise-at-work
+title: Do you encourage daily exercise?
+uri: encourage-daily-exercise
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
@@ -13,14 +13,15 @@ authors:
 related:
   - do-you-know-the-dangers-of-sitting
   - stretch-at-work
-redirects: []
+redirects:
+  - do-you-encourage-daily-exercise-at-work
 created: 2016-11-07T06:40:46.000Z
 archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
 
 `youtube: https://www.youtube.com/watch?v=wWGulLAa0O0`
-**Video: What happens inside your body when you exercise**
+**Video: What happens inside your body when you exercise (2 min)**
 
 ## The problem
 
@@ -28,11 +29,9 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 
 [33% of the global population over 15 years old does insufficient physical activity](https://pmc.ncbi.nlm.nih.gov/articles/PMC7700832). Sedentary lifestyles (averaging 7.7 to 8.3 hours daily) lead to metabolic, cardiovascular, and cognitive issues (commonly obesity, diabetes, cancer, and mental health disorders). On top of the physical risks, [sedentary life increases the risk of **subjective cognitive decline**](https://www.tandfonline.com/doi/abs/10.1080/17518420801997007).
 
-::: greybox
-'Sitting is the new smoking'
-
-* A wise person
-:::
+> "Sitting is the new smoking"
+> 
+> \- A wise person
 
 <!--endintro-->
 
@@ -67,13 +66,11 @@ Download the app: [SSW Rewards](https://www.ssw.com.au/products/rewards)
 
 #### 🏃‍♂️‍➡️ Make it simple
 
-A healthy team is more energized, happy, and productive, and a culture to encourage this should come from the top.
+[A healthy team is more energized, happy, and productive](https://www.cdc.gov/workplacehealthpromotion/initiatives/resource-center/case-studies/index.html), and a culture to encourage this should come from the top. The simplest plan is a walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
 
-According to the [CDC](https://www.cdc.gov/workplacehealthpromotion/initiatives/resource-center/case-studies/index.html), physical activity at work is one of the most cost-effective ways to improve employee health and reduce absenteeism.
+Even though most of us are busy, all it takes is 20 minutes.
 
-Even though most of us are busy all day, all it takes is 20 minutes. Every company should allocate time to getting their employees up and moving. The most simple is a walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
-
-For some people, planned sessions work well. For others, it works better to have a [small habit that acts as a reminder](https://www.ssw.com.au/rules/lasting-habits/).
+For some people, these kinds of planned sessions work well. For others, it works better to have a [small habit that acts as a reminder](https://www.ssw.com.au/rules/lasting-habits/).
 
 #### 🧠 Make a system
 
@@ -84,7 +81,7 @@ Or, you can tie an action that you already do to a quick exercise.
 For instance, every time you:
 
 * Get tired - raise the desk to standing level
-* Visit the bathroom - 3 pull-ups
+* Visit the bathroom - 2 pull-up
 * Say a swear word 🤬 - 10 push-ups (only do this if you want to stop swearing)
 * Have a 1-on-1 meeting - do a walking meeting (only if you don't require a computer)
 * Go to work on a sunny day - ride a bike
@@ -95,5 +92,5 @@ Even small efforts can improve circulation and mental sharpness.
 As soon as I wake up in the morning, I do a maximum effort set of push-ups.
 :::
 ::: good
-Figure: Good example of a small habit
+Figure: Good example of a small habit for long-term health
 :::
