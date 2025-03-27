@@ -78,19 +78,21 @@ Studies show that while working, taking 5 minute breaks every 30 mins increases 
 You could use this break to [stretch or do a couple exercises](https://www.ssw.com.au/rules/stretch-at-work/).
 
 Or, you can tie an action that you already do to a quick exercise.
-For instance, every time you:
 
-* Get tired - raise the desk to standing level
-* Visit the bathroom - 2 pull-up
-* Say a swear word 🤬 - 10 push-ups (only do this if you want to stop swearing)
-* Have a 1-on-1 meeting - do a walking meeting (only if you don't require a computer)
-* Go to work on a sunny day - ride a bike
+For instance:
+
+| Every time you | Exercise |  Points |
+|--------|----------|----------|
+| Get tired | Raise the desk to standing level | 100
+| Say a swear word 🤬 | 10 push-ups (only do this if you want to stop swearing) | 200 |
+| Have a 1-on-1 meeting | Do a walking meeting (only if you don't require a computer) | 500 |
+| It's a sunny day today | Walk or ride a bike to work | 500 |
 
 Even small efforts can improve circulation and mental sharpness.
 
-::: greybox
-As soon as I wake up in the morning, I do a maximum effort set of push-ups.
-:::
+> "As soon as I wake up in the morning, I do a maximum effort set of push-ups until I fail."
+>
+> \- Seth Daily
 ::: good
 Figure: Good example of a small habit for long-term health
 :::
