@@ -30,6 +30,7 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 
 ::: greybox
 'Sitting is the new smoking'
+
 * A wise person
 :::
 
