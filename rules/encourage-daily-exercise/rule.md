@@ -81,12 +81,12 @@ Or, you can tie an action that you already do to a quick exercise.
 
 For instance:
 
-| Every time you | Exercise |
-|--------|----------|
-| Get tired | Raise the desk to standing level |
-| Say a swear word 🤬 | 10 push-ups (only do this if you want to stop swearing) |
-| Have a 1-on-1 meeting | Do a walking meeting (only if you don't require a computer) |
-| It's a sunny day today | Walk or ride a bike to work |
+| Every time you | Exercise |  Points |
+|--------|----------|----------|
+| Get tired | Raise the desk to standing level | 100
+| Say a swear word 🤬 | 10 push-ups (only do this if you want to stop swearing) | 200 |
+| Have a 1-on-1 meeting | Do a walking meeting (only if you don't require a computer) | 500 |
+| It's a sunny day today | Walk or ride a bike to work | 500 |
 
 Even small efforts can improve circulation and mental sharpness.
 
