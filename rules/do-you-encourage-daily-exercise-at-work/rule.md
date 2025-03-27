@@ -45,28 +45,26 @@ If it really takes off, potentially get some basic equipment in like kettlebells
 
 What's more of an accomplishment - 'I ran for 30 minutes', or 'I did a 5k in 20 minutes'?
 
-For most people, the latter is better because it has a specific definition, and gives a goal to work towards.
+For most people, the latter is better because it has a specific definition, and has a metric to improve.
 
-You can get a similar target with steps/day (e.g. 5,000) that you can measure yourself and push against.
+Once you have an appropriate tool - e.g. fitness band, smartphone, fitness ring - you can get a similar target with steps/day (e.g. 5,000) that you can measure yourself and push against.
 
-To measure yourself, you need a tool to do it. The most common are fitness bands, smartphones, and fitness rings.
 
-* Have a company program to get a **fitness band**
-  -
+### Have a company program to get a **fitness band**
+
+* 
 
 * Use a **mobile app** to:
   * Track steps and heart rate
   * Create weekly team challenges
   * Share leaderboards or step goals in Teams channels
-* If budget is limited, start by having a shared office band and rotate it each day.
 
-> Bonus: Use the app’s scan feature to quickly pair the band with a new user.
 
 ![Figure: [SSW Rewards app](https://www.ssw.com.au/products/rewards) - you can earn a Mi Band by scanning a few people](rewards-mi-band.jpg)
 
 ### 🏃‍♂️‍➡️ Make it simple
 
-All it takes is 15–20 minutes a day. Here are some practical ways to make it happen:
+All it takes is 20 minutes a day. Here are some practical ways to make it happen:
 
 * Quick activities like:
   * Planking
@@ -83,36 +81,28 @@ At SSW, the team stops around 11:45 am for group planks, push-ups, or outdoor wa
 Figure: Good Example – Encourages team bonding and boosts energy before lunch  
 :::
 
-### 🏋️‍♂️ Integrate movement into meetings
+### 🏋️‍♂️ Moving in the office
 
-Encourage short bursts of activity throughout the day:
+Encourage fun habits around the office:
+Studies show that 5 minute breaks every 30 mins increase productivity (see https://www.ssw.com.au/rules/pomodoro)
 
-* Start stand-ups or team calls with 10 pushups or squats.
-* Take walking meetings when discussing non-technical topics.
+* 10 pushups for saying a swear word 🤬
+* Friendly pull-up competitions
+* A set of free weights in the office
+* Standing desks so employees can alternate posture
+* Take walking meetings when discussing non-technical topics
 
-Even small efforts can improve circulation and mental sharpness before diving into focused work.
+Even small efforts can improve circulation and mental sharpness before going into focused work.
 
 ### 🥇 Reward consistency and track it in reviews
 
 Build a long-term culture of health by recognizing ongoing effort:
 
 * At annual reviews, record each person's **average daily steps** as part of their personal goals and KPIs.
-* Reward those who hit their monthly movement targets with small perks (e.g. lunch voucher, massage chair time).
+* Reward those who hit their monthly movement targets with small perks.
 
 This adds accountability and reinforces that physical wellbeing is valued just as much as professional output.
 
-### 🏓 Optional upgrades as the habit grows
 
-Once the culture is embedded, consider investing in:
-
-* Yoga mats
-* Kettlebells
-* Standing desks or under-desk treadmills
-
-Even if not everyone participates every day, just seeing others move can act as a positive nudge.
 
 > Need more evidence? Check out [Harvard Business Review’s breakdown](https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills) on how can boost your memory and thinking skills.
-
----
-
-A daily 15-minute fitness break isn’t just about health — it’s about building a culture that values energy, happiness, and sustainable productivity 💪
