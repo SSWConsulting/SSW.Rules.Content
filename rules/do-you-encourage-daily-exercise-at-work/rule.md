@@ -19,6 +19,9 @@ archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
 
+`youtube: https://www.youtube.com/watch?v=wWGulLAa0O0`
+**Video: What happens inside your body when you exercise**
+
 A healthy team is more energized, happy, and productive, and a culture to encourage this should come from the top.
 
 Research has increasingly linked sedentary behaviour to negative health outcomes, both physically and cognitively.
