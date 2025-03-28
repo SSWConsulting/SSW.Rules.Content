@@ -11,6 +11,7 @@ index:
 - merge-debt
 - use-pull-request-templates-to-communicate-expectations
 - dont-push-your-pull-requests
+- compare-pr-performance-with-production
 - adding-changes-to-pull-requests
 - useful-information-on-changes
 - do-you-save-failed-experiments-in-abandoned-pull-requests
@@ -25,7 +26,6 @@ index:
 - clean-git-history
 - pr-suggest-changes
 - mandatory-vs-suggested-pr-changes
-- compare-pr-performance-with-production
 ---
 
 Pull Requests are the backbone of an effective development team. That's why it's crucial to ensure that everyone on the team understands the expectations around Pull Requests.

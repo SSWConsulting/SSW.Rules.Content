@@ -7,6 +7,7 @@ authors:
   - title: Aman Kumar
     url: https://www.ssw.com.au/people/aman-kumar
 related:
+  - compare-pr-performance-with-production
   - prioritize-performance-optimization-for-maximum-business-value
   - where-your-goal-posts-are
   - do-you-avoid-reviewing-performance-without-metrics
@@ -14,6 +15,7 @@ related:
 created: 2025-03-19T16:33:10.337Z
 guid: bb223f3f-172f-4266-86fd-c13cf66e7d7e
 ---
+
 Optimizing bundle size improves website performance, reduces load times, and enhances user experience. Large bundles slow rendering, increase memory usage, and hurt SEO. By minimizing dependencies, using tree shaking, code splitting, and dynamic imports, developers ensure only necessary code loads. This leads to faster interactions, lower bandwidth use, and better mobile performance, making optimization essential for a smooth web experience.
 
 <!--endintro-->
@@ -30,7 +32,7 @@ It's important to analyze the unused JavaScript in the final bundles. **Lighthou
 
 When creating static pages with dynamic content, the JavaScript size can increase as more scripts are bundled together. Monitoring the initial load JS allows you to identify these increases and optimize accordingly. Tracking this during the build process helps to pinpoint potential route causes to address.
 
-``` bash
+```bash
 Route (app)                     Size        First Load JS
 ┌ ○ /                           2.11 kB     1.31 MB
 ├ ○ /_not-found                 145 B       89.8 kB
@@ -61,30 +63,30 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 * **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
 * **Setup:**
-  
-     Install the analyzer:
 
-     ```bash
-     npm install @next/bundle-analyzer
-     ```
+  Install the analyzer:
 
-     Add this configuration to your `next.config.js`:
+  ```bash
+  npm install @next/bundle-analyzer
+  ```
 
-     ```js
-     const withBundleAnalyzer = require('@next/bundle-analyzer')({
-       enabled: process.env.ANALYZE === 'true',
-     });
-     
-     module.exports = withBundleAnalyzer({
-       // other Next.js config options
-     });
-     ```
+  Add this configuration to your `next.config.js`:
 
-     Then run the analyzer with:
+  ```js
+  const withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: process.env.ANALYZE === 'true',
+  });
 
-     ```bash
-     ANALYZE=true next build
-     ```
+  module.exports = withBundleAnalyzer({
+    // other Next.js config options
+  });
+  ```
+
+  Then run the analyzer with:
+
+  ```bash
+  ANALYZE=true next build
+  ```
 
 * **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
@@ -97,7 +99,7 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 How importing only what you need can reduce bundle size and improve performance.
 
-``` js
+```js
 // Importing the entire utility module, even if only one function is needed
 import * as utils from "./utils";
 
@@ -108,7 +110,7 @@ const result = utils.expensiveFunction();
 Code: Bad example - Importing entire module  
 :::
 
-``` js
+```js
 // Importing only the required function
 import { expensiveFunction } from "./utils";
 
@@ -139,7 +141,7 @@ const MyComponent = React.lazy(() => import('./MyComponent'));
 
 React Suspense works with React.lazy() to delay the rendering of components until they are loaded. It helps avoid blocking the UI and improves user experience.
 
-``` javascript
+```javascript
 import React, { Suspense } from 'react';
 
 // Lazy-loaded component
@@ -158,7 +160,7 @@ By optimizing imports as outlined above, you can significantly reduce the First 
 
 ## Optimized Initial JavaScript Load
 
-``` bash
+```bash
 Route (app)                     Size        First Load JS
 ┌ ○ /                           2.11 kB     315 kB
 ├ ○ /_not-found                 145 B       89.8 kB
@@ -187,16 +189,16 @@ The following table shows Lighthouse reports for various PR links, including **P
 
 ### Example PR Check Results
 
-| 🌐 URL | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
-| --- | ----------- | ------------- | -------------- | --- | ---------------- | ---------------- |
-| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/) | 82 | 91 | 74 | 69 | 4.59 MB | 2.11 MB |
-| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles) | 82 | 96 | 74 | 57 | 4.39 MB | 2.54 MB |
-| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us) | 83 | 100 | 74 | 69 | 4.30 MB | 1.97 MB |
-| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients) | 64 | 94 | 74 | 69 | 4.68 MB | 2.51 MB |
-| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us) | 65 | 90 | 74 | 61 | 4.61 MB | 2.74 MB |
-| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting) | 78 | 90 | 70 | 69 | 4.59 MB | 2.70 MB |
-| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade) | 62 | 90 | 56 | 54 | 4.59 MB | 2.70 MB |
-| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75 | 98 | 74 | 61 | 4.57 MB | 2.65 MB |
+| 🌐 URL                                                                                           | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
+| ------------------------------------------------------------------------------------------------ | -------------- | ---------------- | ----------------- | ------ | -------------- | ---------------- |
+| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/)                                | 82             | 91               | 74                | 69     | 4.59 MB        | 2.11 MB          |
+| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles)                               | 82             | 96               | 74                | 57     | 4.39 MB        | 2.54 MB          |
+| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us)                       | 83             | 100              | 74                | 69     | 4.30 MB        | 1.97 MB          |
+| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients)                         | 64             | 94               | 74                | 69     | 4.68 MB        | 2.51 MB          |
+| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us)                   | 65             | 90               | 74                | 61     | 4.61 MB        | 2.74 MB          |
+| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting)                           | 78             | 90               | 70                | 69     | 4.59 MB        | 2.70 MB          |
+| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade)           | 62             | 90               | 56                | 54     | 4.59 MB        | 2.70 MB          |
+| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75             | 98               | 74                | 61     | 4.57 MB        | 2.65 MB          |
 
 ### ✅ Benefits of PR Lighthouse Checks
 

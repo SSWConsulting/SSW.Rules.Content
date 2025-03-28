@@ -8,6 +8,8 @@ created: 2025-03-25T00:00:00.000Z
 authors:
   - title: Baba Kamyljanov
     url: https://www.ssw.com.au/people/baba-kamyljanov
+  - title: Aman Kumar
+    url: https://www.ssw.com.au/people/aman-kumar
 related:
   - optimize-bundle-size
 ---
