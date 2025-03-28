@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Do you optimize the bundle size of your website?
-seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic
-  imports, and minimized dependencies for better performance and faster load
-  times.
+seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic imports, and minimized dependencies for better performance and faster load times.
 uri: optimize-bundle-size
 authors:
   - title: Aman Kumar
@@ -17,6 +15,7 @@ related:
 created: 2025-03-19T16:33:10.337Z
 guid: bb223f3f-172f-4266-86fd-c13cf66e7d7e
 ---
+
 Optimizing bundle size improves website performance, reduces load times, and enhances user experience. Large bundles slow rendering, increase memory usage, and hurt SEO. By minimizing dependencies, using tree shaking, code splitting, and dynamic imports, developers ensure only necessary code loads. This leads to faster interactions, lower bandwidth use, and better mobile performance, making optimization essential for a smooth web experience.
 
 <!--endintro-->
@@ -56,8 +55,8 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 ### 1. **Webpack Bundle Analyzer** (Recommended)
 
-* **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
-* **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+- **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
+- **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 
 ### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Projects)
 
@@ -65,16 +64,17 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 **Setup:**
 
-* Install the analyzer:
+- Install the analyzer:
 
   ```bash
   npm install @next/bundle-analyzer
   ```
-* Add this configuration to your `next.config.js`:
+
+- Add this configuration to your `next.config.js`:
 
   ```js
-  const withBundleAnalyzer = require('@next/bundle-analyzer')({
-    enabled: process.env.ANALYZE === 'true',
+  const withBundleAnalyzer = require("@next/bundle-analyzer")({
+    enabled: process.env.ANALYZE === "true",
   });
 
   module.exports = withBundleAnalyzer({
@@ -82,7 +82,7 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
   });
   ```
 
-* Then run the analyzer with:
+- Then run the analyzer with:
 
   ```bash
   ANALYZE=true next build
@@ -92,8 +92,8 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 ### 3. **Source Map Explorer**
 
-* **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
-* **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
+- **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
+- **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
 
 ## Optimizing Imports for Better Tree Shaking
 
@@ -131,10 +131,10 @@ Dynamic imports allow you to load modules on demand, only when they're required.
 
 ```javascript
 // Without dynamic import
-import { MyComponent } from './MyComponent';
+import { MyComponent } from "./MyComponent";
 
 // With dynamic import
-const MyComponent = React.lazy(() => import('./MyComponent'));
+const MyComponent = React.lazy(() => import("./MyComponent"));
 ```
 
 ## React Suspense
@@ -142,10 +142,10 @@ const MyComponent = React.lazy(() => import('./MyComponent'));
 React Suspense works with React.lazy() to delay the rendering of components until they are loaded. It helps avoid blocking the UI and improves user experience.
 
 ```javascript
-import React, { Suspense } from 'react';
+import React, { Suspense } from "react";
 
 // Lazy-loaded component
-const MyComponent = React.lazy(() => import('./MyComponent'));
+const MyComponent = React.lazy(() => import("./MyComponent"));
 
 function App() {
   return (
@@ -189,19 +189,19 @@ The following table shows Lighthouse reports for various PR links, including **P
 
 ### Example PR Check Results
 
-| 🌐 URL                                                                                          | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
-| ----------------------------------------------------------------------------------------------- | ------------- | --------------- | ---------------- | ------ | -------------- | ----------------- |
-| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/)                                | 82            | 91              | 74               | 69     | 4.59 MB        | 2.11 MB           |
-| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles)                              | 82            | 96              | 74               | 57     | 4.39 MB        | 2.54 MB           |
-| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us)                      | 83            | 100             | 74               | 69     | 4.30 MB        | 1.97 MB           |
-| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients)                        | 64            | 94              | 74               | 69     | 4.68 MB        | 2.51 MB           |
-| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us)                  | 65            | 90              | 74               | 61     | 4.61 MB        | 2.74 MB           |
-| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting)                          | 78            | 90              | 70               | 69     | 4.59 MB        | 2.70 MB           |
-| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade)           | 62            | 90              | 56               | 54     | 4.59 MB        | 2.70 MB           |
-| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75            | 98              | 74               | 61     | 4.57 MB        | 2.65 MB           |
+| 🌐 URL                                                                                           | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
+| ------------------------------------------------------------------------------------------------ | -------------- | ---------------- | ----------------- | ------ | -------------- | ---------------- |
+| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/)                                | 82             | 91               | 74                | 69     | 4.59 MB        | 2.11 MB          |
+| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles)                               | 82             | 96               | 74                | 57     | 4.39 MB        | 2.54 MB          |
+| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us)                       | 83             | 100              | 74                | 69     | 4.30 MB        | 1.97 MB          |
+| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients)                         | 64             | 94               | 74                | 69     | 4.68 MB        | 2.51 MB          |
+| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us)                   | 65             | 90               | 74                | 61     | 4.61 MB        | 2.74 MB          |
+| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting)                           | 78             | 90               | 70                | 69     | 4.59 MB        | 2.70 MB          |
+| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade)           | 62             | 90               | 56                | 54     | 4.59 MB        | 2.70 MB          |
+| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75             | 98               | 74                | 61     | 4.57 MB        | 2.65 MB          |
 
 ### ✅ Benefits of PR Lighthouse Checks
 
-* **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR
-* **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases
-* **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs
+- **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR
+- **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases
+- **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs
