@@ -55,8 +55,8 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 ### 1. **Webpack Bundle Analyzer** (Recommended)
 
-- **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
-- **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
+* **Description:** Visualizes the size of each module in a Webpack bundle, helping identify large or unnecessary files.
+* **Link:** [Webpack Bundle Analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 
 ### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Projects)
 
