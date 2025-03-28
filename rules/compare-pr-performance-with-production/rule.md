@@ -26,11 +26,11 @@ Modern web applications are dynamic, with frequent updates to code, styles, and 
 
 A structured approach to performance comparison helps development teams and PR reviewers make informed decisions before merging. One of the best ways to measure performance is by using **Lighthouse**, a widely used tool for analyzing key web performance metrics such as:
 
-- Performance (e.g., page load speed, rendering time)
-- Accessibility (ensuring usability for all users)
-- Best Practices (security, coding standards)
-- SEO (ensuring search engines can properly index the site)
-- Bundle Size & Unused Code (optimizing assets for faster loading)
+* Performance (e.g., page load speed, rendering time)
+* Accessibility (ensuring usability for all users)
+* Best Practices (security, coding standards)
+* SEO (ensuring search engines can properly index the site)
+* Bundle Size & Unused Code (optimizing assets for faster loading)
 
 ## Automating Lighthouse Comparison in PRs
 
