@@ -64,13 +64,13 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 **Setup:**
 
-- Install the analyzer:
+* Install the analyzer:
 
   ```bash
   npm install @next/bundle-analyzer
   ```
 
-- Add this configuration to your `next.config.js`:
+* Add this configuration to your `next.config.js`:
 
   ```js
   const withBundleAnalyzer = require("@next/bundle-analyzer")({
@@ -82,7 +82,7 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
   });
   ```
 
-- Then run the analyzer with:
+* Then run the analyzer with:
 
   ```bash
   ANALYZE=true next build
@@ -92,8 +92,8 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 ### 3. **Source Map Explorer**
 
-- **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
-- **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
+* **Description:** Analyzes source maps to visualize the size and contribution of individual files in your bundle.
+* **Link:** [Source Map Explorer](https://www.npmjs.com/package/source-map-explorer)
 
 ## Optimizing Imports for Better Tree Shaking
 
@@ -202,6 +202,6 @@ The following table shows Lighthouse reports for various PR links, including **P
 
 ### ✅ Benefits of PR Lighthouse Checks
 
-- **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR
-- **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases
-- **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs
+* **Automated Performance Monitoring**: Automatically monitor performance and bundle size on every PR
+* **Track Bundle Size Trends**: Identify if a new change increases the bundle size or if performance decreases
+* **Enforce Performance Standards**: Set performance goals (e.g., bundle size under a certain limit) and enforce them across all PRs
