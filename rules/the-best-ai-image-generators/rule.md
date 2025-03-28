@@ -7,8 +7,6 @@ uri: the-best-ai-image-generators
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily/
-  - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/ulysses-maclaren/
 related:
   - when-to-use-ai-generated-images
   - how-to-generate-an-ai-image
@@ -31,7 +29,9 @@ Midjourney generates high-quality images via Discord (/imagine command) or its n
 * Offers subscription tiers with GPU hours and commercial usage options
 * Supports detailed prompts for customized images
 
-![Figure: "A red tree in a valley. Hi res" - by Midjourney 6.1](midjourney.png)
+::: img-medium
+![Figure: "A red tree in a valley. Hi res" - by Midjourney 6.1](red-tree-midjourney2.png)
+:::
 
 ## ChatGPT Image Generation (GPT-4o)
 
@@ -40,7 +40,9 @@ Integrated into ChatGPT for detailed, realistic image generation from text promp
 * Direct access via ChatGPT
 * Handles complex prompts seamlessly
 
-![Figure: "A red tree in a valley. Hi res" - by ChatGPT4o](chatgpt4o.png)
+::: img-large
+![Figure: "A red tree in a valley. Hi res" - by ChatGPT 4o](red-tree-dalle.png)
+:::
 
 ## Google Imagen
 
@@ -51,6 +53,8 @@ Offers exceptional photorealism and language comprehension.
 
 ![Figure: "A red tree in a valley. Hi res" - by Imagen 3](imagen3.jpeg)
 
+
+
 ## Adobe Firefly
 
 Known for detailed control over image generation and editing, ideal for customized outputs.
@@ -58,7 +62,9 @@ Known for detailed control over image generation and editing, ideal for customiz
 * Advanced editing and generation features
 * Integrated into Adobe Creative Cloud
 
-![Figure: "A red tree in a valley. Hi res" - by Firefly](firefly.jpg)
+::: img-large
+![Figure: "A red tree in a valley. Hi res" - by FireFly image 3](red-tree-dreamstudio.png)
+:::
 
 ## Stable Diffusion (via DreamStudio)
 
@@ -68,7 +74,9 @@ Highly customizable, open source tool offering fine-tuned image generation.
 * Highly customizable with flexible output adjustments
 * Supports inpainting and outpainting with Stable Diffusion XL (SDXL)
 
-![Figure: "A red tree in a valley. Hi res" - by StableDiffusion via DreamStudio](stablediffusion.png)
+::: img-large
+![Figure: "A red tree in a valley. Hi res" - by Stable Diffusion 3.5](red-tree-dreamstudio.png)
+:::
 
 ## Leonardo AI
 
@@ -77,7 +85,9 @@ Known for imaginative visuals and concept art. Free account available at Leonard
 * User-friendly website
 * Highly customizable with built-in image editing and prompt generation
 
-![Figure: "A red tree in a valley. Hi res" - by Leonardo Phoenix](leonardo.jpg)
+::: img-medium
+![Figure: "A red tree in a valley. Hi res" - by Leonardo.ai Phoenix](red-tree-leonardo.jpg)
+:::
 
 ## Flux
 
@@ -87,4 +97,6 @@ Developed by Black Forest Labs, Flux generates high-quality images from text pro
 * Supports various artistic styles and precise color control
 * Capable of rendering text within images
 
-![Figure: "A red tree in a valley. Hi res" - by Flux](flux.jpeg)
+::: img-large
+![Figure: "A red tree in a valley. Hi res" - by Flux 1.1 Pro](red-tree-dreamstudio.png)
+:::
