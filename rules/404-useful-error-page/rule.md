@@ -35,6 +35,7 @@ A well-designed custom error page encourages surfers to remain in your site and 
 :::
 
 ## .NET Core (Server-Side)
+
 ```csharp
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
@@ -76,11 +77,13 @@ app.MapGet("/", () => "Hello World!");
 
 app.Run();
 ```
+
 ::: good
 Figure: Good example - Wildcard routing of unrecognised paths
 :::
 
 ## Angular (Client-Side)
+
 Inside your Angular project you can update the app-routing module to catch any unrecognised paths
 
 ```typescript
@@ -101,6 +104,7 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 ```
+
 ::: good
 Figure: Good example - Wildcard routing of unrecognised paths
 :::
@@ -113,11 +117,13 @@ Figure: Good example - Wildcard routing of unrecognised paths
   <a routerLink="/">Go back to Home</a>
 </div>
 ```
+
 ::: good
-Figure: Good example - The custom 404 html page 
+Figure: Good example - The custom 404 html page
 :::
 
 ## React.js (Client-Side)
+
 ```jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -141,6 +147,7 @@ function App() {
 
 export default App;
 ```
+
 ::: good
 Figure: Good example - The custom 404 pages
 :::
@@ -176,7 +183,3 @@ This error information is useful for the developer to do debugging. However, it 
 ::: good
 Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker  
 :::
-
-
-
-
