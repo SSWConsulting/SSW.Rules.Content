@@ -7,6 +7,8 @@ uri: the-best-ai-image-generators
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily/
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren/
 related:
   - when-to-use-ai-generated-images
   - how-to-generate-an-ai-image
