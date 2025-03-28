@@ -168,7 +168,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 ⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
 
-As per https://www.ssw.com.au/rules/for-the-record/
+As per <https://www.ssw.com.au/rules/for-the-record/>
 
 {{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
