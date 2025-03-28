@@ -73,8 +73,8 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 * Add this configuration to your `next.config.js`:
 
   ```js
-  const withBundleAnalyzer = require("@next/bundle-analyzer")({
-    enabled: process.env.ANALYZE === "true",
+  const withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: process.env.ANALYZE === 'true',
   });
 
   module.exports = withBundleAnalyzer({
@@ -101,7 +101,7 @@ How importing only what you need can reduce bundle size and improve performance.
 
 ```js
 // Importing the entire utility module, even if only one function is needed
-import * as utils from "./utils";
+import * as utils from './utils';
 
 const result = utils.expensiveFunction();
 ```
@@ -112,7 +112,7 @@ Code: Bad example - Importing entire module
 
 ```js
 // Importing only the required function
-import { expensiveFunction } from "./utils";
+import { expensiveFunction } from './utils';
 
 const result = expensiveFunction();
 ```
@@ -131,10 +131,10 @@ Dynamic imports allow you to load modules on demand, only when they're required.
 
 ```javascript
 // Without dynamic import
-import { MyComponent } from "./MyComponent";
+import { MyComponent } from './MyComponent';
 
 // With dynamic import
-const MyComponent = React.lazy(() => import("./MyComponent"));
+const MyComponent = React.lazy(() => import('./MyComponent'));
 ```
 
 ## React Suspense
@@ -142,10 +142,10 @@ const MyComponent = React.lazy(() => import("./MyComponent"));
 React Suspense works with React.lazy() to delay the rendering of components until they are loaded. It helps avoid blocking the UI and improves user experience.
 
 ```javascript
-import React, { Suspense } from "react";
+import React, { Suspense } from 'react';
 
 // Lazy-loaded component
-const MyComponent = React.lazy(() => import("./MyComponent"));
+const MyComponent = React.lazy(() => import('./MyComponent'));
 
 function App() {
   return (
