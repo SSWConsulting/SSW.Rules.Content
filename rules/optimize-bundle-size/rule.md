@@ -24,8 +24,8 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
 
-::: bad
-![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)
+::: bad  
+![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)  
 :::
 
 ## Find out the **First Load JS** Sizes for Routes
@@ -43,7 +43,7 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-::: bad
+::: bad  
 Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes
 :::
 
@@ -106,8 +106,8 @@ import * as utils from './utils';
 const result = utils.expensiveFunction();
 ```
 
-::: bad
-Code: Bad example - Importing entire module
+::: bad  
+Code: Bad example - Importing entire module  
 :::
 
 ```js
@@ -117,8 +117,8 @@ import { expensiveFunction } from './utils';
 const result = expensiveFunction();
 ```
 
-::: good
-Code: Good example - Importing only the required function
+::: good  
+Code: Good example - Importing only the required function  
 :::
 
 ## Optimize Bundle Size with Dynamic Imports and Suspense
@@ -171,14 +171,14 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-::: good
-Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.
+::: good  
+Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.  
 :::
 
 ## Lighthouse Treemap
 
-::: good
-![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)
+::: good  
+![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)  
 :::
 
 ## Monitor bundle size using Lighthouse on PR links
