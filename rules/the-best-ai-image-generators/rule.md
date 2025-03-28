@@ -40,9 +40,7 @@ Integrated into ChatGPT for detailed, realistic image generation from text promp
 * Direct access via ChatGPT
 * Handles complex prompts seamlessly
 
-::: img-large
-![Figure: "A red tree in a valley. Hi res" - by ChatGPT 4o](red-tree-dalle.png)
-:::
+![Figure: "A red tree in a valley. Hi res" - by ChatGPT4o](chatgpt4o.png)
 
 ## Google Imagen
 
@@ -53,8 +51,6 @@ Offers exceptional photorealism and language comprehension.
 
 ![Figure: "A red tree in a valley. Hi res" - by Imagen 3](imagen3.jpeg)
 
-
-
 ## Adobe Firefly
 
 Known for detailed control over image generation and editing, ideal for customized outputs.
@@ -62,9 +58,7 @@ Known for detailed control over image generation and editing, ideal for customiz
 * Advanced editing and generation features
 * Integrated into Adobe Creative Cloud
 
-::: img-large
-![Figure: "A red tree in a valley. Hi res" - by FireFly image 3](red-tree-dreamstudio.png)
-:::
+![Figure: "A red tree in a valley. Hi res" - by Firefly](firefly.jpg)
 
 ## Stable Diffusion (via DreamStudio)
 
@@ -74,9 +68,7 @@ Highly customizable, open source tool offering fine-tuned image generation.
 * Highly customizable with flexible output adjustments
 * Supports inpainting and outpainting with Stable Diffusion XL (SDXL)
 
-::: img-large
-![Figure: "A red tree in a valley. Hi res" - by Stable Diffusion 3.5](red-tree-dreamstudio.png)
-:::
+![Figure: "A red tree in a valley. Hi res" - by StableDiffusion via DreamStudio](stablediffusion.png)
 
 ## Leonardo AI
 
@@ -85,9 +77,7 @@ Known for imaginative visuals and concept art. Free account available at Leonard
 * User-friendly website
 * Highly customizable with built-in image editing and prompt generation
 
-::: img-medium
-![Figure: "A red tree in a valley. Hi res" - by Leonardo.ai Phoenix](red-tree-leonardo.jpg)
-:::
+![Figure: "A red tree in a valley. Hi res" - by Leonardo Phoenix](leonardo.jpg)
 
 ## Flux
 
@@ -97,6 +87,4 @@ Developed by Black Forest Labs, Flux generates high-quality images from text pro
 * Supports various artistic styles and precise color control
 * Capable of rendering text within images
 
-::: img-large
-![Figure: "A red tree in a valley. Hi res" - by Flux 1.1 Pro](red-tree-dreamstudio.png)
-:::
+![Figure: "A red tree in a valley. Hi res" - by Flux](flux.jpeg)
