@@ -8,7 +8,7 @@ uri: do-you-ignore-idempotency
 created: 2009-10-05T06:03:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

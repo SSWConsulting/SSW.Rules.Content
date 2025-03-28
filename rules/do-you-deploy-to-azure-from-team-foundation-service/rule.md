@@ -8,7 +8,7 @@ uri: do-you-deploy-to-azure-from-team-foundation-service
 created: 2013-02-25T14:29:26.0000000Z
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 ---

@@ -6,9 +6,9 @@ title: Accommodation - Do you know the best online accommodation websites?
 guid: 8d59feea-03b4-4cfc-b26e-77b2655293d9
 uri: do-you-know-the-best-online-accommodation-websites
 created: 2015-04-28T05:06:33.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-create-an-online-itinerary
   - do-you-check-if-your-qantas-flight-is-eligible-for-a-bid-now-upgrade
@@ -25,7 +25,7 @@ Use a price comparison website to choose the hotel you'd like to book, but don't
 
 The best price comparison websites for accommodation are:
 
-* [lastminute.com.au](http://www.lastminute.com.au)
-* [stayz.com.au](http://www.stayz.com.au)
+- [lastminute.com.au](http://www.lastminute.com.au)
+- [stayz.com.au](http://www.stayz.com.au)
 
 As with flights, book the accommodation details as a separate appointment in your calendar. If for the accommodation is for someone else, use the calendar for the person who is travelling.

@@ -7,12 +7,12 @@ uri: tweet-rules-you-follow
 created: 2011-05-18T06:02:00.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - exercise-if-you-use-a-rule-then-tweet-it
   - twitter-do-you-tweet-rules-that-you-follow
-archivedreason: Replaced by https://ssw.com.au/rules/type-of-content-marketing-you-should-post/#9---general-content-writtenfollowed-by-your-team
+archivedreason: Replaced by https://ww.ssw.com.au/rules/type-of-content-marketing-you-should-post/#9---general-content-writtenfollowed-by-your-team
 ---
 
 If you like and follow a rule, then tweet it using the hashtags **#ssw** and **#sswrules**

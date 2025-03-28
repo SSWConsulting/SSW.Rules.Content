@@ -8,7 +8,7 @@ uri: does-your-user-account-have-sql-server-system-administrator-privileges-in-s
 created: 2013-05-23T21:22:08.0000000Z
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 ---

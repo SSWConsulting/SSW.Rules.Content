@@ -5,9 +5,9 @@ title: Do you seek clarification via the Teams/telephone first?
 uri: seek-clarification-via-phone
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Mike Smedley
     url: https://www.ssw.com.au/people/michael-smedley
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Michael-Smedley/Images/Michael-Smedley-Profile.jpg

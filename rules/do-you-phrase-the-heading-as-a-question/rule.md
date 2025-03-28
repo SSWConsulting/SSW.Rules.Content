@@ -8,7 +8,7 @@ uri: do-you-phrase-the-heading-as-a-question
 created: 2010-03-19T00:11:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

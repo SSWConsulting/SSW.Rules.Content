@@ -8,7 +8,7 @@ uri: let-your-clients-know-they-are-valued
 created: 2020-07-10T06:13:28.0000000Z
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-let-your-clients-know-they-are-valued
@@ -24,9 +24,9 @@ For a gift to make an impact it needs to be personal. Don't waste an opportunity
 
 Things to consider:
 
-* If you know the customer well, customize the present (a tea gift package, a book they would like to read, a restaurant experience or even a plant) and they will feel important to you
-* Give it to the main contact of the company, as it’s more personal
-* If you don’t know a customer very well, you can give them something more generic like a foodie hamper, a wine or champagne, but try to make it something they can share around the office
+- If you know the customer well, customize the present (a tea gift package, a book they would like to read, a restaurant experience or even a plant) and they will feel important to you
+- Give it to the main contact of the company, as it’s more personal
+- If you don’t know a customer very well, you can give them something more generic like a foodie hamper, a wine or champagne, but try to make it something they can share around the office
 
 ::: bad
 ![Figure: Bad example - A Bad Client Gift – Alcohol is easy, but very impersonal](champagnes.png)

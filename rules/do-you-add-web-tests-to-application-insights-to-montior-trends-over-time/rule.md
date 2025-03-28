@@ -8,7 +8,7 @@ uri: do-you-add-web-tests-to-application-insights-to-montior-trends-over-time
 created: 2015-09-02T09:09:08.0000000Z
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
 related: []
 redirects:
   - do-you-add-web-tests-to-application-insights-to-monitor-trends-over-time

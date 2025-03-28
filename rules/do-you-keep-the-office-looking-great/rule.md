@@ -8,7 +8,7 @@ uri: do-you-keep-the-office-looking-great
 created: 2013-07-30T21:33:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

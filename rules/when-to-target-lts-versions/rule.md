@@ -8,9 +8,9 @@ uri: when-to-target-lts-versions
 created: 2020-12-22T19:50:21.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects:
   - do-you-know-when-to-target-lts-versions
@@ -34,11 +34,11 @@ To help in these decisions, the .NET Core team has released a roadmap for upcomi
 
 Important questions to consider include:
 
-* What is the planned lifecycle of the project?
-* Will there be ongoing development in the future?
-* How are we planning to distribute and support this project?
-  * Web services that are automatically deployed to the cloud will be easier to continually update than a desktop app installed on customer PCs
-* How does my project’s lifecycle align with the .NET release cycle?
+- What is the planned lifecycle of the project?
+- Will there be ongoing development in the future?
+- How are we planning to distribute and support this project?
+  - Web services that are automatically deployed to the cloud will be easier to continually update than a desktop app installed on customer PCs
+- How does my project’s lifecycle align with the .NET release cycle?
 
 All supported versions of .NET will receive servicing releases and the work to apply these updates should always be factored into the Total Cost of Ownership for any project.
 

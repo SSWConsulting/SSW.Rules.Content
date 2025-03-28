@@ -5,7 +5,7 @@ title: Do you brand your employees?
 uri: employees-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - prefix-job-title
 redirects:
@@ -14,6 +14,7 @@ created: 2015-11-24T18:20:16.000Z
 archivedreason: null
 guid: 57e87820-0066-48a1-a669-c57cd190807a
 ---
+
 Your people are a huge part of what makes your company awesome or unique, so you should use this to your advantage by asking them to be your walking spokespersons and/or billboards. Branding your employees is especially important at events such as conferences, user groups and client meetings. A simple way to do this is to wear branded shirts or t-shirts every day.
 
 If you wear a collard shirt, your corporate uniform should be simple and stylish - don't forget that your branding can be subtle and effective at the same time.

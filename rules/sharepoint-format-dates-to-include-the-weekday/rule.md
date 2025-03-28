@@ -4,12 +4,12 @@ type: rule
 archivedreason:
 title: Do you know how to format dates to include the weekday in SharePoint?
 guid: 11a7a554-2fd9-4dad-a588-a06f7e56c68f
-uri: sharepoint-format-dates-to-include-the-weekday 
+uri: sharepoint-format-dates-to-include-the-weekday
 created: 2009-06-26T10:07:46.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
-related: 
+    url: https://ww.ssw.com.au/people/william-yin
+related:
   - human-friendly-date-and-time
   - add-days-to-dates
 redirects:

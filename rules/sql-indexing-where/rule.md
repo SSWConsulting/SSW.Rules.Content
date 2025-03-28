@@ -8,7 +8,7 @@ uri: sql-indexing-where
 created: 2024-07-22T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sql-indexing-orderby
   - sql-indexing-joins
@@ -26,11 +26,11 @@ So you've identified that a WHERE clause is causing query performance issues. Ho
 So let's say we have the following query:
 
 ```sql
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users
-WHERE 
+WHERE
  DisplayName = 'Frank'
 ```
 
@@ -52,25 +52,25 @@ So test the query as shown.
 
 ```sql
 SET STATISTICS IO ON;
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users WITH (Index = 1) -- use the primary key for a baseline
-WHERE 
+WHERE
  DisplayName = 'Frank'
 
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users WITH (Index = IX_DisplayName)
-WHERE 
+WHERE
  DisplayName = 'Frank'
 
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users WITH (Index = IX_DisplayName_Includes)
-WHERE 
+WHERE
  DisplayName = 'Frank'
 ```
 
@@ -94,11 +94,11 @@ So in this example using no index was more than 20 times worse than the first in
 So if the query becomes a bit more complicated then how would we index that. So for the following:
 
 ```sql
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users
-WHERE 
+WHERE
  DisplayName = 'Frank'
  AND Location = 'United States'
 ```
@@ -106,11 +106,11 @@ WHERE
 Based on the index created in the previous section, it looks like the index might be optimal. But if you were to run the following.
 
 ```sql
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users
-WHERE 
+WHERE
  DisplayName = 'Frank'
 -- AND Location = 'United States'
 ```
@@ -133,27 +133,27 @@ To test this then try the following:
 
 ```sql
 SET STATISTICS IO ON
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users WITH (Index = 1)
-WHERE 
+WHERE
  DisplayName = 'Frank'
  AND Location = 'United States'
 
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
  dbo.Users WITH (Index = IX_DisplayName_Location)
-WHERE 
+WHERE
  DisplayName = 'Frank'
  AND Location = 'United States'
 
-SELECT 
+SELECT
  Id, DisplayName, Location
 FROM
   dbo.Users WITH (Index = IX_Location_DisplayName)
-WHERE 
+WHERE
  DisplayName = 'Frank'
  AND Location = 'United States'
 ```

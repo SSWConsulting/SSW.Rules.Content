@@ -6,9 +6,9 @@ title: |
 uri: use-net-maui
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - do-you-use-xamarin-forms

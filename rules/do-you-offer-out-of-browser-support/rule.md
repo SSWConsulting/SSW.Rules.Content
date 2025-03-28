@@ -8,9 +8,9 @@ uri: do-you-offer-out-of-browser-support
 created: 2010-10-12T00:57:03.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related: []
 redirects: []
 ---

@@ -5,7 +5,7 @@ title: Do you return detailed error messages?
 uri: do-you-return-detailed-error-messages
 authors:
   - title: Jeremy Cade
-    url: https://ssw.com.au/people/jeremy-cade
+    url: https://ww.ssw.com.au/people/jeremy-cade
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement
 related: []

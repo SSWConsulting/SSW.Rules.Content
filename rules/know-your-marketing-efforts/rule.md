@@ -8,7 +8,7 @@ uri: know-your-marketing-efforts
 created: 2020-05-27T22:47:02.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-know-your-marketing-efforts

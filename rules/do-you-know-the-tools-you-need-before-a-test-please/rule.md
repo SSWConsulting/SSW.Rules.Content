@@ -8,7 +8,7 @@ uri: do-you-know-the-tools-you-need-before-a-test-please
 created: 2009-02-26T02:44:26.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-tools-you-need-before-a-＂test-please＂

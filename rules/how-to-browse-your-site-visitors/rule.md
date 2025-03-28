@@ -8,7 +8,7 @@ uri: how-to-browse-your-site-visitors
 created: 2017-06-20T00:03:20.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-browse-your-sites-visitors
@@ -58,8 +58,7 @@ Unlike the standard Visitor List, the High Load Dashboard only shows Incoming an
 **To enable the High Load Dashboard**
 
 1. From the dashboard, go to **Settings** &gt; **Account** &gt; **Visitor List** tab.
-2. Select the **High Load Dashboard** check box.  
-
+2. Select the **High Load Dashboard** check box.
 
 ![](zendesk-visitors-3.png)
 

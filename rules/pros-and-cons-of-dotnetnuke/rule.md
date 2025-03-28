@@ -5,7 +5,7 @@ title: Do you know the pros and cons of DotNetNuke?
 uri: pros-and-cons-of-dotnetnuke
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:04:00.000Z
 archivedreason: outdated
 guid: 2712e707-53d6-4545-bdf9-5eb5a4a4c0b6

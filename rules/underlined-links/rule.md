@@ -1,23 +1,22 @@
 ---
 type: rule
-archivedreason: 
-seoDescription: Hover effects on text links are a great way to enhance user experience and make your website more interactive. 
+archivedreason:
+seoDescription: Hover effects on text links are a great way to enhance user experience and make your website more interactive.
 title: Do you use underlines on links?
 guid: b55df040-7424-48e4-b19b-14d4bcdcfbc7
 uri: underlined-links
 created: 2015-02-16T01:26:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Rebecca Liu
-  url: https://ssw.com.au/people/rebecca-liu
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Rebecca Liu
+    url: https://ww.ssw.com.au/people/rebecca-liu
+  - title: Tiago Araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
-- do-you-use-underlines-on-links
-- do-you-use-underlines-only-on-links
-
+  - do-you-use-underlines-on-links
+  - do-you-use-underlines-only-on-links
 ---
 
 Ensure your links are easily distinguishable from the background and surrounding text by **always making them underlined**. Users expect underlined texts to be a link; and links to be underlined.
@@ -61,9 +60,9 @@ Rollovers are also important as they offer visual feedback to a user that this l
 
 The basic CSS for changing the link color on hover is:
 
-``` css
-a:hover { 
-    color: #cc4141;
+```css
+a:hover {
+  color: #cc4141;
 }
 ```
 
@@ -81,7 +80,7 @@ Effects like bold, scaling, rotation, or background changes can distort text, ma
 
 The default implementation of underlines in CSS is:
 
-``` css
+```css
 text-decoration: underline;
 ```
 

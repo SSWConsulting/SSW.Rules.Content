@@ -5,9 +5,9 @@ title: Do you know what currency to quote?
 uri: what-currency-to-quote
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
 related:

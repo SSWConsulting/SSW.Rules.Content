@@ -7,7 +7,7 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Josh Berman
-    url: https://ssw.com.au/people/josh-berman
+    url: https://ww.ssw.com.au/people/josh-berman
 related:
   - github-sprint-templates
 created: 2021-10-28T01:49:43.558Z
@@ -26,10 +26,10 @@ GitHub is an awesome place to manage your code, but initially it wasn't the easi
 
 Let's take a look at some of the great new things you can do...
 
-* Track Sprints
-* Track estimates
-* Add custom fields to Issues
-* Collate Issues from multiple Repos
+- Track Sprints
+- Track estimates
+- Add custom fields to Issues
+- Collate Issues from multiple Repos
 
 ::: good
 ![Figure: Good example - GitHub Projects gives you much more powerful project management ability](githubscrumworkflowimproved.png)

@@ -8,9 +8,9 @@ uri: a-better-method-for-embedding-youtube-videos-on-your-website
 created: 2017-09-11T01:29:34.0000000Z
 authors:
   - title: Farrukh Khan
-    url: https://ssw.com.au/people/farrukh-khan
+    url: https://ww.ssw.com.au/people/farrukh-khan
   - title: Anthony Nguyen
-    url: https://ssw.com.au/people/anthony-nguyen
+    url: https://ww.ssw.com.au/people/anthony-nguyen
 related: []
 redirects:
   - do-you-know-the-right-way-to-embed-a-youtube-video
@@ -32,8 +32,7 @@ When you embed a YouTube video it will increase your page size from 500kbs to 1.
   height="315"
   src="https://www.youtube.com/embed/eu0qhzevEXQ"
   frameborder="0"
-  allowfullscreen
-></iframe>
+  allowfullscreen></iframe>
 ```
 
 ::: bad
@@ -57,13 +56,13 @@ Figure: Good example – The good HTML code
 <script>
   /* Light YouTube Embeds by @labnol */
   /* Web: http://labnol.org/?p=27941 */
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener('DOMContentLoaded', function () {
     var div,
       n,
-      v = document.getElementsByClassName("youtube-player");
+      v = document.getElementsByClassName('youtube-player');
     for (n = 0; n < v.length; n++) {
-      div = document.createElement("div");
-      div.setAttribute("data-id", v[n].dataset.id);
+      div = document.createElement('div');
+      div.setAttribute('data-id', v[n].dataset.id);
       div.innerHTML = labnolThumb(v[n].dataset.id);
       div.onclick = labnolIframe;
       v[n].appendChild(div);
@@ -72,14 +71,14 @@ Figure: Good example – The good HTML code
   function labnolThumb(id) {
     var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
       play = '<div class="play"></div>';
-    return thumb.replace("ID", id) + play;
+    return thumb.replace('ID', id) + play;
   }
   function labnolIframe() {
-    var iframe = document.createElement("iframe");
-    var embed = "https://www.youtube.com/embed/ID?autoplay=1";
-    iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
-    iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("allowfullscreen", "1");
+    var iframe = document.createElement('iframe');
+    var embed = 'https://www.youtube.com/embed/ID?autoplay=1';
+    iframe.setAttribute('src', embed.replace('ID', this.dataset.id));
+    iframe.setAttribute('frameborder', '0');
+    iframe.setAttribute('allowfullscreen', '1');
     this.parentNode.replaceChild(iframe, this);
   }
 </script>
@@ -136,7 +135,7 @@ Figure: Good example – The good HTML code
     margin-left: -36px;
     margin-top: -36px;
     position: absolute;
-    background: url("//i.imgur.com/TxzC70f.png") no-repeat;
+    background: url('//i.imgur.com/TxzC70f.png') no-repeat;
     cursor: pointer;
   }
 </style>

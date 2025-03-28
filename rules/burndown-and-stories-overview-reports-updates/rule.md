@@ -8,7 +8,7 @@ uri: burndown-and-stories-overview-reports-updates
 created: 2010-05-20T10:48:01.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - watch-do-you-get-regular-updates-on-costs-and-progress-aka-project-progress-burndown-etc
@@ -22,9 +22,9 @@ Insist on receiving these 3 reports in every Review meeting:
 
 <!--endintro-->
 
-* Project Progress ($ spent)
-* Burndown (ETA)
-* Story Overview (testing quality)
+- Project Progress ($ spent)
+- Burndown (ETA)
+- Story Overview (testing quality)
 
 Let's look at those 3 reports:
 

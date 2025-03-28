@@ -8,7 +8,7 @@ uri: how-to-run-nunit-tests-from-within-visual-studio
 created: 2020-03-12T22:45:00.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-run-nunit-tests-from-within-visual-studio

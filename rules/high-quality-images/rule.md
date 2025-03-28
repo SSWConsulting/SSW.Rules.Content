@@ -8,9 +8,9 @@ uri: high-quality-images
 created: 2010-06-08T10:00:14.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - image-formats
 redirects:
@@ -29,11 +29,11 @@ For this reason, we encourage you to choose only high quality photos and to avoi
 
 Every time you add an image to your content, make sure it:
 
-* Is readable if it has any text on it
-* Has been [optimized](optimize-your-images)
-* Looks consistent with others on the same page
-* Has at least 800px width (except for logos, icons, and profile images)
-* (optional) Is not in dark-mode - Light background images look better most of the times
+- Is readable if it has any text on it
+- Has been [optimized](optimize-your-images)
+- Looks consistent with others on the same page
+- Has at least 800px width (except for logos, icons, and profile images)
+- (optional) Is not in dark-mode - Light background images look better most of the times
 
 ::: info
 **Warning:** Never stretch small, low-resolution photos to make it fill up the space. This degrades the resolution and the image will appear very coarse and granular on the projection screen.

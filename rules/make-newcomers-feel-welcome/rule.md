@@ -5,9 +5,9 @@ title: Starting - Do you know how to make newcomers feel welcome?
 uri: make-newcomers-feel-welcome
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - starting-do-you-know-how-to-make-newcomers-feel-welcome

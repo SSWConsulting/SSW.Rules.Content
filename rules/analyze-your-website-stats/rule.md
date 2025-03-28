@@ -8,7 +8,7 @@ uri: analyze-your-website-stats
 created: 2016-11-24T16:35:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-analyze-your-website-statistics-aka-google-analytics
@@ -19,12 +19,12 @@ There is a lot of information tucked away in your web server log files. Valuable
 
 <!--endintro-->
 
-* Geographical origin of users
-* Referring pages (which external pages did the users come from e.g. search engines)
-* Number of users
-* Time spent on the website
-* Reasons for user's early departure
-* Popularity of pages within your website
+- Geographical origin of users
+- Referring pages (which external pages did the users come from e.g. search engines)
+- Number of users
+- Time spent on the website
+- Reasons for user's early departure
+- Popularity of pages within your website
 
 View a [sample template of Google Analytics report](https://www.ssw.com.au/ssw/Standards/templates/sswgooglereporttemplate.aspx).
 

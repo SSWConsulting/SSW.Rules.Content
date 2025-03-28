@@ -6,7 +6,7 @@ title: Do you have an understanding of 'schema changes' and their increasing
 uri: do-you-have-an-understanding-of-schema-changes-and-their-increasing-complexity
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2009-10-06T23:32:50.000Z

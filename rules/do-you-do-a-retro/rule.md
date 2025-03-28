@@ -8,9 +8,9 @@ uri: do-you-do-a-retro
 created: 2018-03-15T04:19:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
 related: []
 redirects: []
 ---

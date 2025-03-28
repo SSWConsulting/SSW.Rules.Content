@@ -8,7 +8,7 @@ uri: clean-up-stale-remote-branches-in-git
 created: 2016-02-24T17:40:39.0000000Z
 authors:
   - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
+    url: https://ww.ssw.com.au/people/jernej-kavka
 related: []
 redirects:
   - do-you-know-how-clean-up-stale-remote-branches-in-git
@@ -19,8 +19,6 @@ Do you know that remote branches on your machines are not automatically removed 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/cEEo7lkZoRE`
-
-
 
 ### Git pro tip
 

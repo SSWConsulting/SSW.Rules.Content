@@ -5,7 +5,7 @@ title: Do you ask clients to approve your specifications?
 uri: ask-clients-approval
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
     url: https://www.ssw.com.au/people/william-liebenberg
 related:
@@ -40,8 +40,8 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
 
-* The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule
-* The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
+- The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule
+- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
 
 ::: info
 **Tip:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. The better option is to create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"
@@ -61,7 +61,7 @@ The best scenario is to give the client plenty of warning, explain the engagemen
 
 Requesting a client's initials is encouraged for all projects, but **required** for fixed-price projects as their initials on the original specifications would show that everyone was aligned and approved the specifications.
 
-If the client pushes back _"Why am I signing it?"_ reply with:  
+If the client pushes back _"Why am I signing it?"_ reply with:
 
 _"This is not a legal document but a good practice to do before we start coding. It is cheaper to change the mockups now. Fixing changes with the UI now can save a lot of money later."_
 
@@ -72,5 +72,5 @@ Training clients to review the work carefully leads to better quality projects.
 ![Figure: Getting the client's signature ensures more accurate requirements](/MJ-rule-UI-mockup.jpg)
 
 ::: img-medium
-![Figure: A signature from Michael Jackson is very valuable but hard to obtain](SuccessfulProjects\_Signature.jpg)  
+![Figure: A signature from Michael Jackson is very valuable but hard to obtain](SuccessfulProjects_Signature.jpg)  
 :::

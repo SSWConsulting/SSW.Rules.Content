@@ -6,16 +6,16 @@ guid: 5ed09331-e71d-433e-90b7-4ae509ea0099
 uri: use-github-discussions
 created: 2023-01-25T06:20:09+0000
 authors:
-- title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
-- title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
-- title: Sam Wagner
-  url: https://ssw.com.au/people/sam-wagner
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Piers Sinclair
-  url: https://ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
+  - title: Brady Stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
+  - title: Sam Wagner
+    url: https://ww.ssw.com.au/people/sam-wagner
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Piers Sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 ---
@@ -34,13 +34,13 @@ Here's a [great video](https://www.youtube.com/watch?v=bErGYN3Ljz8) by the GitHu
 
 GitHub Discussions have many uses, and it can be hard to know where to start. The following topics provide some good guidelines to follow.
 
-* **Potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
-* **Customer support** e.g. Login help - I forgot my password and am not sure how to reset it
-* **FAQ** e.g. Customers - Can I import my customers from a CSV?
-* **Product announcements** e.g. New feature - users can now have a profile picture
-* **Technical discussions** e.g. Trouble running migration - has anyone seen this before?
-* **Polls** - Gauging community sentiment e.g. Poll - Is this product screen a better UX?
-* and much more...
+- **Potential improvements** (features, bugs or ideas) e.g. Feature idea - Should products have a color field
+- **Customer support** e.g. Login help - I forgot my password and am not sure how to reset it
+- **FAQ** e.g. Customers - Can I import my customers from a CSV?
+- **Product announcements** e.g. New feature - users can now have a profile picture
+- **Technical discussions** e.g. Trouble running migration - has anyone seen this before?
+- **Polls** - Gauging community sentiment e.g. Poll - Is this product screen a better UX?
+- and much more...
 
 However, try not to constrain yourself to only these topics. The point of GitHub Discussions is to provide an open forum for communication!
 
@@ -48,9 +48,9 @@ However, try not to constrain yourself to only these topics. The point of GitHub
 
 New improvements can be simple or complex. Before implementing an improvement, think about how to communicate it to the team. Generally, an improvement will go through **3 stages**:
 
-* Stage 1 - **GitHub Discussions**
-* Stage 2 - **GitHub Issues**
-* Stage 3 - **Pull Requests**
+- Stage 1 - **GitHub Discussions**
+- Stage 2 - **GitHub Issues**
+- Stage 3 - **Pull Requests**
 
 However, sometimes a stage can be skipped depending on the **certainty** and **difficulty** of implementation, so those need to be established first.
 

@@ -8,9 +8,9 @@ uri: how-to-reply-all-to-an-appointment
 created: 2009-04-03T05:16:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - appointments-do-you-know-how-to-reply-all-to-an-appointment

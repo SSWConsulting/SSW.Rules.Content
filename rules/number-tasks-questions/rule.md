@@ -5,11 +5,11 @@ title: Do you number tasks/questions?
 uri: number-tasks-questions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: https://ww.ssw.com.au/people/peter-gfader
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
 related:
@@ -31,12 +31,13 @@ It is good practice to be clear on what you want. One way you can make things cl
 **Note:** Receiving an email with just numbered items is cold - An email [starting with a paragraph of context](/add-context-reasoning-to-emails) is much nicer.
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
-| Subject: | Presenting at User Group |  
+|          |                          |
+| -------- | ------------------------ |
+| To:      | Bob                      |
+| Subject: | Presenting at User Group |
+
 ::: email-content
 
 ### Hi Bob
@@ -51,12 +52,13 @@ How many attendees from will be attending on the meeting day? Are you able to 
 Bad example - Tasks/questions may be skipped if the reader does not read very carefully
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
-| Subject: | Presenting at User Group |  
+|          |                          |
+| -------- | ------------------------ |
+| To:      | Bob                      |
+| Subject: | Presenting at User Group |
+
 ::: email-content
 
 ### Hi Bob
@@ -75,14 +77,15 @@ I have a few more questions about the day to help me and the team prepare:
 Good example - Tasks/questions are clear
 :::
 
-## ⚠️ Warning - Avoid numbered lists that aren't tasks**
+## ⚠️ Warning - Avoid numbered lists that aren't tasks\*\*
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
-| Subject: | Presenting at User Group |  
+|          |                          |
+| -------- | ------------------------ |
+| To:      | Bob                      |
+| Subject: | Presenting at User Group |
+
 ::: email-content
 
 ### Hi Bob
@@ -108,12 +111,13 @@ It can be very productive to walk around and take in the sights while discussing
 Bad example - Confusing! The second list above is unnecessary and obscures the tasks/questions
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
-| Subject: | Presenting at User Group |  
+|          |                          |
+| -------- | ------------------------ |
+| To:      | Bob                      |
+| Subject: | Presenting at User Group |
+
 ::: email-content
 
 ### Hi Bob
@@ -128,9 +132,9 @@ I have a few more questions about the day to help me and the team prepare:
 
 It can be very productive to walk around and take in the sights while discussing business matters. Some of the attractions that we could visit include:
 
-* The Template of Yue Fei,
-* The Zhejiang Art Museum, and
-* The Hangzhou Botanical Guardens
+- The Template of Yue Fei,
+- The Zhejiang Art Museum, and
+- The Hangzhou Botanical Guardens
 
 :::
 :::

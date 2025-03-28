@@ -8,7 +8,7 @@ uri: do-you-have-an-usb-adaptor-in-your-car
 created: 2012-09-25T18:12:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

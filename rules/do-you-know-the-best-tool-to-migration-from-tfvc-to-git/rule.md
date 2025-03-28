@@ -8,11 +8,11 @@ uri: do-you-know-the-best-tool-to-migration-from-tfvc-to-git
 created: 2017-04-03T23:23:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: https://ww.ssw.com.au/people/danijel-malik
 related:
   - do-you-use-version-control-with-power-bi
 redirects: []

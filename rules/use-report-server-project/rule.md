@@ -5,9 +5,9 @@ title: Do you use Report Server Project?
 uri: use-report-server-project
 authors:
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Patricia Barros
-    url: https://ssw.com.au/people/patricia-barros
+    url: https://ww.ssw.com.au/people/patricia-barros
 related: []
 redirects:
   - do-you-use-report-server-project

@@ -5,13 +5,13 @@ title: Do you know the Power BI version control features?
 uri: do-you-know-powerbi-version-control-features
 authors:
   - title: Manu Gulati
-    url: https://ssw.com.au/people/manu-gulati
+    url: https://ww.ssw.com.au/people/manu-gulati
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://ww.ssw.com.au/people/calum-simpson
   - title: Kosta Madorsky
-    url: https://ssw.com.au/people/kosta-madorsky
+    url: https://ww.ssw.com.au/people/kosta-madorsky
 related:
   - do-you-use-version-control-with-power-bi
 redirects: []
@@ -22,10 +22,10 @@ guid: 62ad0741-0247-4bce-ae4d-0d136d838ba6
 
 To follow best practices for version control for Power BI reports you must know about the following features:
 
-* [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
-* [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
-  * Requires either Fabric capacity or a Power BI Premium per User license
-  * Currently only integrates with Git repos in Azure DevOps
+- [Power BI Desktop projects (PBIP)](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-overview)
+- [Git integration in Power BI Service via Microsoft Fabric](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/intro-to-git-integration)
+  - Requires either Fabric capacity or a Power BI Premium per User license
+  - Currently only integrates with Git repos in Azure DevOps
 
 The following video provides an overview of these features.
 
@@ -36,17 +36,17 @@ The following video provides an overview of these features.
 
 1. Convert all your Power BI reports to the PBIP format
 
-   * First enable Power BI Projects in Power BI Desktop - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
-   * Second "Save As" all your .pbix files as .pbip
+   - First enable Power BI Projects in Power BI Desktop - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
+   - Second "Save As" all your .pbix files as .pbip
 
      ![Figure: Enable PBIP format in Power BI Desktop](enable-pbip-format.png)
 
      ![Figure: Convert all .pbix files to PBIP format](save-as-pbip.png)
 
-   * Converting reports to the PBIP format decomposes it into the following artifacts.
+   - Converting reports to the PBIP format decomposes it into the following artifacts.
 
-     * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
-     * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
+     - [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
+     - [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
 
      ![Figure: PBIP artifacts](ProjectFolders.png)
 

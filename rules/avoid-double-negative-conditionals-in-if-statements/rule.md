@@ -8,7 +8,7 @@ uri: avoid-double-negative-conditionals-in-if-statements
 created: 2018-04-24T22:03:21.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-double-negative-conditionals-in-if-statements

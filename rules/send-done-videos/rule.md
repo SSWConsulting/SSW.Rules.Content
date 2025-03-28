@@ -5,9 +5,9 @@ title: Communication - Do you send "Done Videos"?
 uri: send-done-videos
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - video-background
 redirects:
@@ -20,9 +20,9 @@ guid: 5ac5799f-0ed1-4a6b-99a1-1dd4dd678bd4
 
 A picture is worth a thousand words; and a video is worth a thousand pictures. The big communication points with clients are:
 
-* [Daily Scrums](/methodology-daily-scrums) (Product Owners often don’t join)
-* Sprint [Review](/what-happens-at-a-sprint-review-meeting), [Retro](/what-happens-at-retro-meetings) and [Planning](/what-happens-at-a-sprint-planning-meeting)
-* Done Videos
+- [Daily Scrums](/methodology-daily-scrums) (Product Owners often don’t join)
+- Sprint [Review](/what-happens-at-a-sprint-review-meeting), [Retro](/what-happens-at-retro-meetings) and [Planning](/what-happens-at-a-sprint-planning-meeting)
+- Done Videos
 
 Most Scrum teams do the first 2 well but Done Videos are less common.
 
@@ -34,11 +34,11 @@ The best way to demonstrate that a new piece of functionality is working is to r
 
 The benefits of Done Videos are:
 
-* **Product Owner** - The PO (often the client) can watch as many times as they like
-* **New Developer** - Shows what the feature does
-* **Developer** - They can be referenced in code for others in the future
-* **UX Designer (and tester)** - Easy to can give feedback
-* **User** - can be included as documentation
+- **Product Owner** - The PO (often the client) can watch as many times as they like
+- **New Developer** - Shows what the feature does
+- **Developer** - They can be referenced in code for others in the future
+- **UX Designer (and tester)** - Easy to can give feedback
+- **User** - can be included as documentation
 
 ![Figure: Video call with the client](images.jpg)
 

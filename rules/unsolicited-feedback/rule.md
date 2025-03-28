@@ -8,7 +8,7 @@ seoDescription: Mastering the Art of Giving Feedback - When to Offer and How to
 uri: unsolicited-feedback
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related:
   - feedback-avoid-chopping-down-every-example
   - do-you-know-the-nice-way-to-correct-someone
@@ -99,7 +99,7 @@ Phrasing things correctly is important too. For example, let's say you watched a
 Bad example - It may seem like they are being reprimanded
 :::
 
-> Hey Bob, I really enjoyed watching your interview with {{ GUEST }} last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of {{ GUEST }} coming back? I'd love to hear more from *them* next time about *their* stories.
+> Hey Bob, I really enjoyed watching your interview with {{ GUEST }} last week. You told some cool stories, and it really whet my appetite for more about the topic. Is there any chance of {{ GUEST }} coming back? I'd love to hear more from _them_ next time about _their_ stories.
 
 :::good
 Good example - A better approach, showing respect while offering feedback in context of the shared goal (assessing the interviewee)

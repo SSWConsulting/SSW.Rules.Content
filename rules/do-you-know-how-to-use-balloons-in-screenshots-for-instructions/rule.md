@@ -1,7 +1,7 @@
 ---
 seoDescription: Enhance screenshot-based instructions by using balloons to highlight specific parts and improve problem-solving comprehension.
 type: rule
-archivedreason: Covered by [https://ssw.com.au/rules/screenshots-avoid-walls-of-text](/rules/screenshots-avoid-walls-of-text)
+archivedreason: Covered by [https://ww.ssw.com.au/rules/screenshots-avoid-walls-of-text](/rules/screenshots-avoid-walls-of-text)
 title: Do you know how to use balloons in screenshots for instructions?
 guid: 53226733-5a7b-4997-bafe-418fd3ff10a0
 uri: do-you-know-how-to-use-balloons-in-screenshots-for-instructions

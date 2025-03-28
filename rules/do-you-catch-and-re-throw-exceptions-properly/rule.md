@@ -5,7 +5,7 @@ title: Do you catch and re-throw exceptions properly?
 uri: do-you-catch-and-re-throw-exceptions-properly
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
@@ -24,13 +24,13 @@ Catch and rethrow where you can usefully add more information that would save a 
 <!--endintro-->
 
 ```cs
-catch {} 
+catch {}
 
-catch (SomeException) {} 
+catch (SomeException) {}
 
-catch { throw; } 
+catch { throw; }
 
-catch (SomeException) { throw; } 
+catch (SomeException) { throw; }
 ```
 
 ::: bad
@@ -38,9 +38,9 @@ Bad Example - Never use an empty catch block. Do something in the block or remov
 :::
 
 ```cs
-catch (SomeException ex) { throw ex; } 
+catch (SomeException ex) { throw ex; }
 
-catch (SomeException ex) { someMethod(); throw ex; } 
+catch (SomeException ex) { someMethod(); throw ex; }
 ```
 
 ::: bad
@@ -50,10 +50,10 @@ Bad Example - Never re-throw exceptions by passing the original exception object
 Using `throw ex` resets the stack trace, obscuring the original the error and may hide highly valuable information to debug this exception.
 
 ```cs
-catch (SomeException) 
-{ 
-     someMethod(); 
-     throw; 
+catch (SomeException)
+{
+     someMethod();
+     throw;
 }
 ```
 

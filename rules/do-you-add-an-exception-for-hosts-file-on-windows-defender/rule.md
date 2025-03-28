@@ -8,7 +8,7 @@ uri: do-you-add-an-exception-for-hosts-file-on-windows-defender
 created: 2012-09-19T18:15:45.0000000Z
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
 ---

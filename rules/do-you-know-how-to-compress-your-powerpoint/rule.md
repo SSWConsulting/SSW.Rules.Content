@@ -5,7 +5,7 @@ title: Do you know how to compress your PowerPoint, e.g. from 26MB to 13MB?
 uri: do-you-know-how-to-compress-your-powerpoint
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-compress-your-powerpoint-e-g-from-26mb-to-13mb

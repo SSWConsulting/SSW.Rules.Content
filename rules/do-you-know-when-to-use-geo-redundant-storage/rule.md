@@ -5,7 +5,7 @@ title: Do you know when to use Geo Redundant Storage?
 uri: do-you-know-when-to-use-geo-redundant-storage
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 created: 2015-02-10T18:34:05.000Z

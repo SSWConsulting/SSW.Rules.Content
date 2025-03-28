@@ -5,9 +5,9 @@ title: Do you measure success using Lean-Agile metrics?
 uri: measure-success-using-lean-agile-metrics
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-measure-success-using-lean-agile-metrics

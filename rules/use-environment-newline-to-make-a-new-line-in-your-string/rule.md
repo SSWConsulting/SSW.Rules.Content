@@ -5,9 +5,9 @@ title: Do you use Environment.NewLine to make a new line in your string?
 uri: use-environment-newline-to-make-a-new-line-in-your-string
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - do-you-use-environment-newline-to-make-a-new-line-in-your-string

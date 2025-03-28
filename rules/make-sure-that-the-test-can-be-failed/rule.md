@@ -8,9 +8,9 @@ uri: make-sure-that-the-test-can-be-failed
 created: 2020-03-12T23:16:37.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://ww.ssw.com.au/people/jason-taylor
 related: []
 redirects:
   - do-you-make-sure-that-the-test-can-be-failed

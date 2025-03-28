@@ -2,15 +2,15 @@
 seoDescription: Automate application deployment to multiple environments and run tests before deploying to production with GitHub actions or Azure DevOps.
 type: rule
 archivedreason:
-title: "DevOps – Stage 2: Do you know what things to automate?"
+title: 'DevOps – Stage 2: Do you know what things to automate?'
 guid: d085d2df-1a2d-4f77-81b9-21a52b419c53
 uri: things-to-automate-stage-2
 created: 2016-03-07T17:56:22.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - devops-stage-2-do-you-know-what-things-to-automate

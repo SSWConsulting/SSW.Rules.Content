@@ -5,9 +5,9 @@ seoDescription: The functionality that will be developed during the Sprint confi
 uri: sprint-forecast
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related:
   - github-sprint-templates
 redirects:
@@ -34,16 +34,17 @@ Each Sprint in a Scrum project can be considered a mini-project that has **time*
 | -------- | -------------------------------------- |
 | To:      | {{ PRODUCT OWNER }}                    |
 | Subject: | {{ CLIENT NAME }}: Sprint XXX Forecast |
+
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
 
 Sprint Goals (in priority order):
 
-* Bugfixes
-* WDM Integration
-* SSO/Roles APIs
-* Download Documents APIs
+- Bugfixes
+- WDM Integration
+- SSO/Roles APIs
+- Download Documents APIs
 
 Please see below for a more detailed breakdown of the upcoming Sprint:
 
@@ -62,12 +63,12 @@ As per our Sprint Planning Meeting, and as the Product Owner, you have agreed to
 
 The Team will do its best to deliver this set of features (Scope), to a defined quality standard (Definition of Done) by the end of the Sprint. Ideally, the team will deliver what they forecast, or even a bit more, but this can't be guaranteed.
 
-|   ID   |   Title                             |   State   |   Effort   |
-| ------ | ----------------------------------- | --------- | ---------- |
-|   ID   |   Title                             |   State   |   Effort   |
-| 24124  | UI Improvements                     | Done      | 4          |
-| 24112  | Integrate Business Logic to MVC app | Done      | 8          |
-| 24097  | Styling                             | Committed | 16         |
+| ID    | Title                               | State     | Effort |
+| ----- | ----------------------------------- | --------- | ------ |
+| ID    | Title                               | State     | Effort |
+| 24124 | UI Improvements                     | Done      | 4      |
+| 24112 | Integrate Business Logic to MVC app | Done      | 8      |
+| 24097 | Styling                             | Committed | 16     |
 
 **Figure: The Sprint Backlog**
 
@@ -86,4 +87,4 @@ Figure: Good example - Copy this as email template and send to Product Owner
    E.g. `https://dev.azure.com/ssw/Northwind/_sprints/backlog/Northwind%20Team/Northwind/Sprint%201`
 2. Remove the unnecessary columns so it looks clean
 3. Select all items, copy, then paste into the Sprint Forecast email
-:::
+   :::

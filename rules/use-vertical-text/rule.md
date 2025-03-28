@@ -6,16 +6,16 @@ title: Data Layout - Do you take advantage of vertical text to avoid lots of thi
 guid: 84531bc9-6ec3-41c8-aab1-20e60958957f
 uri: use-vertical-text
 created: 2024-06-05T19:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - when-to-use-reporting-services
 redirects: []
-
 ---
 
 When a report has many columns and each column contains small amount of data, it is a good idea to use vertical text for the column headers.
+
 <!--endintro-->
 
 By changing the WriteMode of a text box from:

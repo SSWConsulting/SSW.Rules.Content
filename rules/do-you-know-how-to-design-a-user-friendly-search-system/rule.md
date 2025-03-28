@@ -5,7 +5,7 @@ title: Do you know how to design a user friendly search system?
 uri: do-you-know-how-to-design-a-user-friendly-search-system
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T02:45:00.000Z
 guid: 02efe3cd-1c25-43ed-9527-6ceffb3b793b
 ---
@@ -34,4 +34,4 @@ Therefore, I believe search system should:
    **Note:** Preferred over customers needing to learn prefixes like Google (for example, "city:winkleton").
 5. Have an "Advanced" tab only for power users for building up a WHERE clause
 
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/02WinSearch.aspx) that implements this cool Search Control.
+We have a program called [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit/02WinSearch.aspx) that implements this cool Search Control.

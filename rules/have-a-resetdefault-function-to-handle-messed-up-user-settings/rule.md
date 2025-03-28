@@ -5,7 +5,7 @@ title: Do you have a ResetDefault() function to handle messed up user settings?
 uri: have-a-resetdefault-function-to-handle-messed-up-user-settings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 6696b1b2-dcd7-475a-990e-b5d610f0a122
 ---
@@ -29,9 +29,9 @@ Public Sub RuneXtremeEmail(ByVal state As Object)
 End
 ```
 
-We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/) to check for this rule.
+We have a program called [SSW Code Auditor](https://ww.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
 
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements this rule.
+We have a program called [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit/) that implements this rule.
 
 _Note: in Access we do like this_
 

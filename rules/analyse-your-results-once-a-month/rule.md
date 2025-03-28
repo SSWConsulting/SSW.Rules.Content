@@ -5,11 +5,11 @@ title: Analytics - Do you analyse your results once a month?
 uri: analyse-your-results-once-a-month
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: https://ww.ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
@@ -32,9 +32,9 @@ This helps you further streamline your content and provides an insight into tren
 5. Present this to your manager and your marketing team to encourage discussions and improvements. A quarterly marketing meeting would be ideal to look back and see what went well, and what didn’t go as expected. See [our tips for good presentations](/rules-to-better-powerpoint-presentations).\
    During this meeting, you can discuss:
 
-* Marketing activities you worked on
-* Results (highlight key results)
-* Plan for next month, including budget and tactics
+- Marketing activities you worked on
+- Results (highlight key results)
+- Plan for next month, including budget and tactics
 
 6. After the meeting, send an email with what was discussed, what you worked on, and what results you have achieved. Of course, don’t forget to include the approved budget.
 7. Keep this information in a report-style document stored on your Intranet so that you can look back to compare results.

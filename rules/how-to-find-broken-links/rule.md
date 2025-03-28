@@ -8,7 +8,7 @@ uri: how-to-find-broken-links
 created: 2016-11-28T19:04:17.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-find-broken-links

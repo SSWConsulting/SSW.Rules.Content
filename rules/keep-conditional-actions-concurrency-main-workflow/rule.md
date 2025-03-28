@@ -5,7 +5,7 @@ title: Do you keep conditional actions and concurrency to the main workflow?
 uri: keep-conditional-actions-concurrency-main-workflow
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy/
+    url: https://ww.ssw.com.au/people/warwick-leahy/
 created: 2023-10-19T00:39:49.331Z
 guid: c725ced3-e675-40f7-b43d-d5db1501b844
 ---

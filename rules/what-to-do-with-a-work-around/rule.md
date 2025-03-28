@@ -5,7 +5,7 @@ title: Do you know what to do with a work around?
 uri: what-to-do-with-a-work-around
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - use-a-signature-with-a-link-when-commenting-on-a-blog
 redirects:
@@ -14,6 +14,7 @@ created: 2018-04-30T21:37:19.000Z
 archivedreason: null
 guid: 6a868928-3104-4ea6-a849-92be86a6cbf3
 ---
+
 If you have to use a workaround you should always comment your code.
 
 In your code add comments with:

@@ -8,7 +8,7 @@ uri: use-a-hardware-device-to-capture-laptop-video-output
 created: 2017-12-08T21:42:21.0000000Z
 authors:
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects:
   - do-you-use-a-hardware-capture-device-to-capture-laptop-video-output

@@ -5,11 +5,11 @@ title: Do you use an NFC Secure Access System for building access?
 uri: secure-access-system
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-colour-code-your-keys
   - do-you-know-what-to-check-if-your-control4-director-is-running-slowly

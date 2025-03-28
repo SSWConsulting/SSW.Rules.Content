@@ -8,7 +8,7 @@ uri: use-your-company-name-as-part-of-your-display-name
 created: 2015-10-05T06:02:57.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - use-your-personal-message-to-share-good-news-with-your-contacts
 redirects:

@@ -9,11 +9,11 @@ authors:
   - title: Alex Rothwell
     url: https://www.ssw.com.au/people/alex-rothwell
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
 related:
   - write-a-good-pull-request
 created: 2023-09-06T16:24:00.000Z

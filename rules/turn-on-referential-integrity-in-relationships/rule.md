@@ -8,7 +8,7 @@ uri: turn-on-referential-integrity-in-relationships
 created: 2019-11-12T23:56:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - relationships-do-you-avoid-using-cascade-delete
   - relationships-do-you-use-update-cascade-when-creating-a-relationship

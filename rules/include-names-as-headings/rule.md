@@ -5,11 +5,11 @@ title: Do you include addressed names in emails as headings?
 uri: include-names-as-headings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - do-you-know-who-to-put-in-the-to-field
   - send-email-tasks-to-individuals
@@ -24,13 +24,14 @@ If you have to address an email to one or multiple people (including [to yoursel
 
 <!--endintro-->
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Jean, Anthony |
-| Cc: | Adam |
-| Subject: | SSW CodeAuditor - Bug |  
+|          |                       |
+| -------- | --------------------- |
+| To:      | Jean, Anthony         |
+| Cc:      | Adam                  |
+| Subject: | SSW CodeAuditor - Bug |
+
 ::: email-content
 
 Hi Jean,
@@ -50,13 +51,14 @@ I've tried to replicate the behaviour but was unsuccessful.
 Figure: Bad example - Names as normal text is not the best for readability
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Jean, Anthony |
-| Cc: | Adam |
-| Subject: | SSW CodeAuditor - Bug |  
+|          |                       |
+| -------- | --------------------- |
+| To:      | Jean, Anthony         |
+| Cc:      | Adam                  |
+| Subject: | SSW CodeAuditor - Bug |
+
 ::: email-content
 
 ### Hi Jean

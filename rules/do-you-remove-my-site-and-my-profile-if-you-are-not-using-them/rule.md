@@ -8,11 +8,11 @@ uri: do-you-remove-my-site-and-my-profile-if-you-are-not-using-them
 created: 2010-10-15T08:33:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects:
   - do-you-remove-my-site’-and-my-profile’-if-you-are-not-using-them

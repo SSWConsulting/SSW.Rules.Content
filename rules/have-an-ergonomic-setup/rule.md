@@ -8,7 +8,7 @@ uri: have-an-ergonomic-setup
 created: 2020-03-20T01:01:39.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - setup-do-you-have-an-ergonomic-setup

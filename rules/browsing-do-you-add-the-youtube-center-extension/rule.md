@@ -8,7 +8,7 @@ uri: browsing-do-you-add-the-youtube-center-extension
 created: 2014-05-05T22:05:35.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects: []
 ---
@@ -19,8 +19,8 @@ redirects: []
 
 Major features for us:
 
-* Removes Ads
-* Can enable or Disable DASH Playback
-* Specify HTML5 or Flash Player
-* Download Youtube Videos in a number of formats (inc. 1080p)
-* Change default player size and resolution
+- Removes Ads
+- Can enable or Disable DASH Playback
+- Specify HTML5 or Flash Player
+- Download Youtube Videos in a number of formats (inc. 1080p)
+- Change default player size and resolution

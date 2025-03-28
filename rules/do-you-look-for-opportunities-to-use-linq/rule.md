@@ -5,9 +5,9 @@ title: Do you look for opportunities to use Linq?
 uri: do-you-look-for-opportunities-to-use-linq
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 created: 2012-04-01T09:23:06.000Z

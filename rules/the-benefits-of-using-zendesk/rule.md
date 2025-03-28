@@ -8,7 +8,7 @@ uri: the-benefits-of-using-zendesk
 created: 2017-06-19T22:02:45.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-the-benefits-of-using-zendesk
@@ -25,7 +25,5 @@ Much like the art of Zen, the path to customer service excellence is a continuou
 Please see the following [video from Zendesk](https://www.youtube.com/watch?v=EZlaeKYNpf0) for more information:
 
 `youtube: https://www.youtube.com/embed/EZlaeKYNpf0`
-
-
 
 **Figure: Zendesk Support video**

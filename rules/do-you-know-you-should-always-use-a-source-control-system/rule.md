@@ -5,7 +5,7 @@ title: Do you know you should always use a source control system?
 uri: do-you-know-you-should-always-use-a-source-control-system
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - spec-do-you-use-user-stories
 redirects: []

@@ -5,7 +5,7 @@ title: Do you use String.Empty instead of ""?
 uri: use-string-empty-instead-of-quotes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-string-empty-instead-of

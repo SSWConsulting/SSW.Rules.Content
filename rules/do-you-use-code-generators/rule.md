@@ -5,7 +5,7 @@ title: Do you use code generators?
 uri: do-you-use-code-generators
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T01:59:00.000Z
 guid: 208947f4-bd95-464b-b365-90fc71c36d2c
 ---

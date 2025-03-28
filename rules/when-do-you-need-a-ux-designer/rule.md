@@ -5,7 +5,7 @@ title: Do you know when you need a UX Designer?
 uri: when-do-you-need-a-ux-designer
 authors:
   - title: Joseph Fernandez
-    url: https://ssw.com.au/people/joseph-fernandez/
+    url: https://ww.ssw.com.au/people/joseph-fernandez/
 created: 2023-08-01T23:20:15.737Z
 guid: 1d33effb-507e-4188-8254-287319f1fdc4
 ---

@@ -8,7 +8,7 @@ uri: use-a-headset
 created: 2018-06-08T22:54:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-a-headset

@@ -1,11 +1,11 @@
 ---
 seoDescription: AI tools revolutionize voice and translation generation, but oversight is crucial to ensure accuracy
 type: rule
-title: "Do you know how to use AI tools to generate voices and translations? "
+title: 'Do you know how to use AI tools to generate voices and translations? '
 uri: ai-tools-voice-translations
 authors:
   - title: Marcus Irmscher
-    url: https://ssw.com.au/people/marcus-irmscher
+    url: https://ww.ssw.com.au/people/marcus-irmscher
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-11-10T03:23:18.710Z

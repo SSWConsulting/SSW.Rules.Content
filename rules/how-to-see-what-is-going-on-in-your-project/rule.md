@@ -5,11 +5,11 @@ title: Do you know how to see what’s going on in your project?
 uri: how-to-see-what-is-going-on-in-your-project
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related:
   - do-you-have-a-waiting-area-that-reinforces-your-marketing-profile
   - sem-do-you-use-microsoft-advertising-formerly-known-as-bing-ads

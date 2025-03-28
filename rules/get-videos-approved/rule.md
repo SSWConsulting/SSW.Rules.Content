@@ -5,12 +5,12 @@ title: Post-Production - Do you know how to get your videos approved?
 uri: get-videos-approved
 authors:
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: https://ww.ssw.com.au/people/landon-maxwell
 related: []
 redirects:
   - post-production-do-you-know-how-to-get-your-videos-approved
 created: 2012-10-31T04:35:10.000Z
-archivedreason: This is internal standard. For public information, see https://ssw.com.au/rules/test-please-for-video
+archivedreason: This is internal standard. For public information, see https://ww.ssw.com.au/rules/test-please-for-video
 guid: 59b61f15-4dfd-47e6-8775-9f88537cf72e
 ---
 

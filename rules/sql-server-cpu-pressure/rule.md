@@ -8,7 +8,7 @@ uri: sql-server-cpu-pressure
 created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - identify-sql-performance-sql-server
   - identify-sql-performance-azure

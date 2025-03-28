@@ -1,6 +1,6 @@
 ---
 type: rule
-tips: ""
+tips: ''
 title: Does your Scrum Master support the Product Owner?
 seoDescription: Learn how a Scrum Master can effectively support a Product Owner
   in Agile projects by guiding backlog management, stakeholder engagement,
@@ -9,10 +9,11 @@ seoDescription: Learn how a Scrum Master can effectively support a Product Owner
 uri: scrum-master-support-product-owner
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
 created: 2024-10-08T17:22:00.000Z
 guid: 778936df-ed76-4903-9f7d-5e3df9da2327
 ---
+
 When working with a client-side Product Owner (PO), it’s crucial for the Scrum Master to come from the consultancy. Typically, the consultant Scrum Master has more experience in Agile and Scrum methodologies than the client PO. This experience can significantly impact the success of the project by providing essential guidance and support to the PO in their key responsibilities.
 
 Without proper support, the PO might struggle with critical tasks like backlog management, prioritisation, and stakeholder communication, which can lead to misaligned expectations, missed deadlines, and reduced product quality.
@@ -32,18 +33,20 @@ A Product Owner needs to identify key stakeholders and maintain ongoing communic
 #### 3. **Backlog Management**
 
 The Product Backlog is the backbone of any Scrum project. The Scrum Master should guide the PO in:
-* Defining and prioritising backlog items effectively
-* Ensuring that user stories are clear, actionable, and aligned with the product vision
-* Keeping the backlog organised and up-to-date
+
+- Defining and prioritising backlog items effectively
+- Ensuring that user stories are clear, actionable, and aligned with the product vision
+- Keeping the backlog organised and up-to-date
 
 #### 4. **Sprint-by-Sprint Collaboration**
 
 During the sprint, the Scrum Master helps the PO with the following essential activities:
-* **Backlog Refinement**: Ensuring that the backlog is properly groomed and stories are ready for future sprints.
-* **Sprint Planning**: Collaborating with the PO to prioritise the most valuable work for the upcoming sprint.
-* **Daily Stand-Ups**: Supporting the PO in understanding the team’s progress and removing impediments.
-* **Sprint Reviews**: Assisting the PO in reviewing and accepting the work completed during the sprint.
-* **Sprint Retrospectives**: Encouraging the PO’s involvement in retrospectives to identify process improvements.
+
+- **Backlog Refinement**: Ensuring that the backlog is properly groomed and stories are ready for future sprints.
+- **Sprint Planning**: Collaborating with the PO to prioritise the most valuable work for the upcoming sprint.
+- **Daily Stand-Ups**: Supporting the PO in understanding the team’s progress and removing impediments.
+- **Sprint Reviews**: Assisting the PO in reviewing and accepting the work completed during the sprint.
+- **Sprint Retrospectives**: Encouraging the PO’s involvement in retrospectives to identify process improvements.
 
 #### 5. **Metrics and Roadmap Alignment**
 

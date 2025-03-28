@@ -5,7 +5,7 @@ title: Do you know the relevant Azure certifications and associated exams?
 uri: azure-certifications-and-associated-exams
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jason Taylor
     url: https://www.ssw.com.au/people/jason-taylor
   - url: https://www.ssw.com.au/people/bryden-oliver
@@ -22,10 +22,10 @@ Whether you're an expert or just getting started, working towards gaining a new 
 
 Microsoft provides numerous certifications and training options to help you:
 
-* Learn new skills
-* Fill technical knowledge gaps
-* Boost your productivity
-* Prove your competence
+- Learn new skills
+- Fill technical knowledge gaps
+- Boost your productivity
+- Prove your competence
 
 <!--endintro-->
 

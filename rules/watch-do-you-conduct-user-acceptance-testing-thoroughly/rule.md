@@ -5,7 +5,7 @@ title: Watch - Do you conduct user acceptance testing thoroughly?
 uri: watch-do-you-conduct-user-acceptance-testing-thoroughly
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-05-20T10:28:04.000Z

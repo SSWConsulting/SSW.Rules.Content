@@ -6,7 +6,7 @@ seoDescription: Monitor failed login attempts to detect external attacks or
 uri: monitor-failed-login-attempts
 authors:
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
 related:
   - monitor-the-uptimes-of-all-your-servers-daily
 redirects:

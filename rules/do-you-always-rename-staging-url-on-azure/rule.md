@@ -8,13 +8,13 @@ uri: do-you-always-rename-staging-url-on-azure
 created: 2015-03-08T23:23:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Michael Demarco
-    url: https://ssw.com.au/people/michael-demarco
+    url: https://ww.ssw.com.au/people/michael-demarco
   - title: Shigemi Matsumoto
-    url: https://ssw.com.au/people/shigemi-matsumoto
+    url: https://ww.ssw.com.au/people/shigemi-matsumoto
 related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects: []

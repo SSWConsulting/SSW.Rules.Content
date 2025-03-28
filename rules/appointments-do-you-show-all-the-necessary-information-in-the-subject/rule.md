@@ -5,9 +5,9 @@ title: Appointments - Do you make sure your appointment has a good subject?
 uri: appointments-do-you-show-all-the-necessary-information-in-the-subject
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - appointments-do-you-make-sure-your-appointment-has-a-good-subject
@@ -46,5 +46,5 @@ CRM users making bookings should [keep their naming standards consistent.](/sche
 
 Related rules
 
-* [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
-* [Scheduling - Do you have a consistent naming convention for your bookings?](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)
+- [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
+- [Scheduling - Do you have a consistent naming convention for your bookings?](/scheduling-do-you-have-a-consistent-naming-convention-for-your-bookings)

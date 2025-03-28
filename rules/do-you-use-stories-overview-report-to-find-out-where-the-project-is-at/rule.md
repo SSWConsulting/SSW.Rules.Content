@@ -8,11 +8,11 @@ uri: do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
 created: 2009-11-03T09:52:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects:
   - do-you-use-＂stories-overview＂-report-to-find-out-where-the-project-is-at

@@ -9,10 +9,9 @@ redirects:
   - control-who-can-manage-Power-Platform-environments
 created: 2021-06-01T17:30:01.0000000Z
 authors:
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Mehmet Ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related:
-
 ---
 
 Out of the box, any user with the correct licence can create environments. If you are managing Power Platform and would like to restrict environment creation and management only to admin then change the global settings:

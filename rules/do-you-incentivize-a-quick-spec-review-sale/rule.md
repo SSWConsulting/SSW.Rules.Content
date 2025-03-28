@@ -6,7 +6,7 @@ seoDescription: Boost your Spec Review sale by incentivizing a quick review
 uri: do-you-incentivize-a-quick-spec-review-sale
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - the-outcomes-from-your-initial-meeting
 redirects: []

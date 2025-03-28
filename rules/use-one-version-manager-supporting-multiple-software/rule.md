@@ -8,7 +8,7 @@ uri: use-one-version-manager-supporting-multiple-software
 created: 2023-07-21T21:54:27.0000000Z
 authors:
   - title: John Xu
-    url: https://ssw.com.au/people/john-xu
+    url: https://ww.ssw.com.au/people/john-xu
 related: []
 redirects:
   - use-one-version-manager-supporting-multiple-softwares

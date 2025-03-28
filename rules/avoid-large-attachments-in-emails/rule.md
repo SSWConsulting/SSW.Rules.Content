@@ -8,9 +8,9 @@ uri: avoid-large-attachments-in-emails
 created: 2009-03-31T03:15:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - how-to-share-a-file-folder-in-sharepoint
   - dones-do-you-include-useful-details-in-your-done-email
@@ -27,9 +27,9 @@ When your attachment is too big, you should think twice.
 
 Avoid large attachments. If you are sending an email with attachments or images that are **greater than 1MB** you need to consider:
 
-* Files - Could a URL be better than this attachment?
-  * Could I send this as a UNC to an internal share?
-* Images - Could I put this picture on Google Photos or another image server?
+- Files - Could a URL be better than this attachment?
+  - Could I send this as a UNC to an internal share?
+- Images - Could I put this picture on Google Photos or another image server?
 
 ::: email-template  
 | | |

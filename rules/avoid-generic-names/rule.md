@@ -7,11 +7,11 @@ uri: avoid-generic-names
 created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names
@@ -43,13 +43,13 @@ Bad example - While this name suggests that it might have something to do with o
 :::
 
 :::greybox
-Using **`OrderCreator`** for specifically creating orders  
+Using **`OrderCreator`** for specifically creating orders
 
 Using **`ShippingOrderHandler`** or **`OrderShipmentService`** specifically handles only one aspect of the order - sending for shipment
 :::
 :::good
 Good example - This name directly reflects its purpose, making it immediately clear what the class is responsible for
-:::  
+:::
 
 :::greybox
 Using **`UserData`** for tracking the data for each user account.

@@ -8,7 +8,7 @@ uri: do-you-use-optinmonster-for-your-content-downloads
 created: 2018-08-16T04:40:46.0000000Z
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects: []
 ---

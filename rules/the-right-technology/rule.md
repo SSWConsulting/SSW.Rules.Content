@@ -8,9 +8,9 @@ uri: the-right-technology
 created: 2016-07-29T17:56:03.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects:
   - do-you-know-the-right-technology

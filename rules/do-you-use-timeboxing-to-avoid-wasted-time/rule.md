@@ -8,7 +8,7 @@ uri: do-you-use-timeboxing-to-avoid-wasted-time
 created: 2013-11-18T07:28:57.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
 related: []
 redirects: []
 ---

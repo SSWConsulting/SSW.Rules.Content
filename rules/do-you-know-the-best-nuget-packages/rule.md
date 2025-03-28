@@ -8,7 +8,7 @@ uri: do-you-know-the-best-nuget-packages
 created: 2012-10-19T19:00:36.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 ---
@@ -17,8 +17,8 @@ The best NuGet packages are:
 
 <!--endintro-->
 
-* [MiniProfiler](http://nuget.org/packages/miniprofiler)
-* [MVCMailer](http://nuget.org/packages/mvcmailer)
-* [MvcDonutCaching](http://nuget.org/packages/mvcdonutcaching)
-* [MobileViewEngines](http://nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
-* [Glimpse](https://github.com/glimpse/glimpse) (archived)
+- [MiniProfiler](http://nuget.org/packages/miniprofiler)
+- [MVCMailer](http://nuget.org/packages/mvcmailer)
+- [MvcDonutCaching](http://nuget.org/packages/mvcdonutcaching)
+- [MobileViewEngines](http://nuget.org/packages/MobileViewEngines) - for MVC3 (built into MVC4)
+- [Glimpse](https://github.com/glimpse/glimpse) (archived)

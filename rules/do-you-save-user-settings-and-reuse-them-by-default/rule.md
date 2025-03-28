@@ -5,7 +5,7 @@ title: Do you save user settings and reuse them by default?
 uri: do-you-save-user-settings-and-reuse-them-by-default
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 4fbed628-95fc-4d29-9637-12b6df5958b7
 ---

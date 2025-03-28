@@ -8,7 +8,7 @@ uri: encourage-client-love
 created: 2012-08-30T13:04:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - weekly-client-love
   - client-love-after-initial-meeting

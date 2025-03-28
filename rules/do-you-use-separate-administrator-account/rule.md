@@ -8,7 +8,7 @@ uri: do-you-use-separate-administrator-account
 created: 2015-03-30T18:33:20.0000000Z
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
 ---

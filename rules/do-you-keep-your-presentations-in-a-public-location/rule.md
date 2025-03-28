@@ -5,13 +5,13 @@ title: Do you keep your presentations in a public location?
 uri: do-you-keep-your-presentations-in-a-public-location
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://ww.ssw.com.au/people/calum-simpson
 related:
   - track-project-documents
 redirects: []

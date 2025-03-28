@@ -9,7 +9,7 @@ authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny-walker
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 created: 2024-09-11T14:32:00.000Z
 related:
   - human-friendly-date-and-time
@@ -24,13 +24,14 @@ To ensure complete clarity, you should always include the **day of the week** al
 
 <!--endintro-->
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | SSW Sydney |
-| Cc: | Uly |
-| Subject: | Penny - Working from the Sydney office for 3 days |  
+|          |                                                   |
+| -------- | ------------------------------------------------- |
+| To:      | SSW Sydney                                        |
+| Cc:      | Uly                                               |
+| Subject: | Penny - Working from the Sydney office for 3 days |
+
 ::: email-content
 
 ### Hi Sydney team
@@ -46,13 +47,14 @@ Penny
 Figure: Bad example - The team know what dates you're coming, but it's not clear in which days of the week
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | SSW Sydney |
-| Cc: | Uly |
-| Subject: | Penny - Working from the Sydney office for 3 days |  
+|          |                                                   |
+| -------- | ------------------------------------------------- |
+| To:      | SSW Sydney                                        |
+| Cc:      | Uly                                               |
+| Subject: | Penny - Working from the Sydney office for 3 days |
+
 ::: email-content
 
 ### Hi Sydney team
@@ -77,7 +79,7 @@ Using abbreviations is a great idea because they save space by conveying informa
 ### Weekdays Table
 
 | Day       | Abbreviation |
-|-----------|--------------|
+| --------- | ------------ |
 | Monday    | Mon          |
 | Tuesday   | Tue          |
 | Wednesday | Wed          |
@@ -88,17 +90,17 @@ Using abbreviations is a great idea because they save space by conveying informa
 
 ### Months Table
 
-| Month       | Abbreviation |
-|-------------|--------------|
-| January     | Jan          |
-| February    | Feb          |
-| March       | Mar          |
-| April       | Apr          |
-| May         | May          |
-| June        | Jun          |
-| July        | Jul          |
-| August      | Aug          |
-| September   | Sep          |
-| October     | Oct          |
-| November    | Nov          |
-| December    | Dec          |
+| Month     | Abbreviation |
+| --------- | ------------ |
+| January   | Jan          |
+| February  | Feb          |
+| March     | Mar          |
+| April     | Apr          |
+| May       | May          |
+| June      | Jun          |
+| July      | Jul          |
+| August    | Aug          |
+| September | Sep          |
+| October   | Oct          |
+| November  | Nov          |
+| December  | Dec          |

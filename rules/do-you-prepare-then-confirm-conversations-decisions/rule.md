@@ -5,9 +5,9 @@ title: Do you prepare, then confirm conversations/decisions?
 uri: do-you-prepare-then-confirm-conversations-decisions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - as-per-our-conversation-emails
   - call-first-before-emailing

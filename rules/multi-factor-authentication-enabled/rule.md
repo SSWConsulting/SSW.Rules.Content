@@ -6,7 +6,7 @@ seoDescription: Ensure you have robust multi-factor authentication (MFA) enabled
 uri: multi-factor-authentication-enabled
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Andrew Harris

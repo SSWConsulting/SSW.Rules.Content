@@ -5,7 +5,7 @@ title: Do you use the right database for the job?
 uri: use-the-right-database
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
 related:
   - data-lake
   - use-the-right-data-storage

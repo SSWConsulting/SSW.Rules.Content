@@ -8,11 +8,11 @@ uri: product-owner-do-you-know-how-to-update-the-backlog
 created: 2010-09-15T15:18:19.0000000Z
 authors:
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: https://ww.ssw.com.au/people/peter-gfader
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - product-owner-do-you-know-how-to-build-update-the-backlog

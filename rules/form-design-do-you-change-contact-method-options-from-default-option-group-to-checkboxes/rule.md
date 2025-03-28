@@ -8,7 +8,7 @@ uri: form-design-do-you-change-contact-method-options-from-default-option-group-
 created: 2012-12-10T19:31:39.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

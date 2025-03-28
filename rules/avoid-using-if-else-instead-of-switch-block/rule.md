@@ -5,7 +5,7 @@ title: Do you avoid using if-else instead of switch block?
 uri: avoid-using-if-else-instead-of-switch-block
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-if-else-instead-of-switch-block
@@ -88,4 +88,4 @@ In situation where your inputs have a very skewed distribution, if-else-if could
 
 Further Reading:
 
-* [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)
+- [Speed Test: Switch vs If-Else-If](http://www.blackwasp.co.uk/SpeedTestIfElseSwitch.aspx)

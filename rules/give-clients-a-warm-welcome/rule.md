@@ -5,9 +5,9 @@ title: Do you give clients a warm welcome?
 uri: give-clients-a-warm-welcome
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://ww.ssw.com.au/people/gabriel-george
 related:
   - welcoming-office
 redirects:
@@ -24,8 +24,8 @@ When a client arrives, your job is to make them feel comfortable and impress the
 
 ::: greybox
 
-* Leaving the client standing at the reception while finishing what you were doing
-* Offering them tea, coffee or biscuits (not everyone likes tea/coffee)
+- Leaving the client standing at the reception while finishing what you were doing
+- Offering them tea, coffee or biscuits (not everyone likes tea/coffee)
 
 :::
 
@@ -35,17 +35,17 @@ Figure: Bad example - This could start the meeting poorly
 
 ::: greybox
 
-* Be dressed appropriately
-* Greet them warmly
-* Have a firm handshake
-* Make eye contact and smile
-* Direct them to wait in the waiting area (so they can learn about the company through our tv screens)
-* Notify the project manager/developers who are included in the meeting
-* Ask someone to bring a couple of glasses of water into the meeting (as everyone drinks water)
-* Join the meeting in the boardroom:
-  * Show some enthusiasm when meeting with the client
-  * Hand over, and collect, business cards - (organize in front of you, to help you remember their names)
-  * Use their names a few times early on to help you remember their name
+- Be dressed appropriately
+- Greet them warmly
+- Have a firm handshake
+- Make eye contact and smile
+- Direct them to wait in the waiting area (so they can learn about the company through our tv screens)
+- Notify the project manager/developers who are included in the meeting
+- Ask someone to bring a couple of glasses of water into the meeting (as everyone drinks water)
+- Join the meeting in the boardroom:
+  - Show some enthusiasm when meeting with the client
+  - Hand over, and collect, business cards - (organize in front of you, to help you remember their names)
+  - Use their names a few times early on to help you remember their name
 
 :::
 

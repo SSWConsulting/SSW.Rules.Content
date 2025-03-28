@@ -8,7 +8,7 @@ uri: do-you-use-list-tags-for-lists-only
 created: 2012-07-02T15:02:44.0000000Z
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-use-＂list＂-tags-for-lists-only

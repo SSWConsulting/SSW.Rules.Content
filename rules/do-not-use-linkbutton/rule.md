@@ -1,29 +1,28 @@
 ---
 seoDescription: Learn why not to use LinkButton for postback and implement correctly in ASP.NET
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know not to use LinkButton?
 guid: d96e7ee3-d0eb-46a6-8177-8d96cac2ca44
 uri: do-not-use-linkbutton
 created: 2016-09-01T17:57:47.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-not-to-use-linkbutton
-
+  - do-you-know-not-to-use-linkbutton
 ---
 
 If we want to refresh and data bind the same page from client side, we can use the javascript function calls "\_\_doPostBack". We shouldn't fire this post back in LinkButton. Otherwise, there will be an error.
 
 <!--endintro-->
 
-![Figure: Right click the link with \_\_doPostBack event](RightClickLink.gif)  
+![Figure: Right click the link with __doPostBack event](RightClickLink.gif)
 
-![Figure: New window with incorrect URL](PostBack.gif)  
+![Figure: New window with incorrect URL](PostBack.gif)
 
-``` aspnet
+```aspnet
 <asp:Panel runat="server" ID="mUpdatePanel" OnLoad="mUpdatePanel_Load">
  <asp:Label runat="server" ID="lblTime" />
  <br />
@@ -59,7 +58,7 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 
 **Sample Code**
 
-``` html
+```html
 <a href="javascript:__doPostBack('mUpdatePanel','');">Refresh</a>
 ```
 
@@ -67,8 +66,11 @@ protected void mUpdatePanel_Load(object sender, EventArgs e)
 Bad code  
 :::
 
-``` html
-<input type="button" onclick="javascript:__doPostBack('mUpdatePanel','');" value="Refresh" />
+```html
+<input
+  type="button"
+  onclick="javascript:__doPostBack('mUpdatePanel','');"
+  value="Refresh" />
 ```
 
 ::: good

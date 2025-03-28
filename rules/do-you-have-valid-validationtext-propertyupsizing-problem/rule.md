@@ -8,7 +8,7 @@ uri: do-you-have-valid-validationtext-propertyupsizing-problem
 created: 2010-07-23T02:24:30.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-use-the-allowzerolength-property-on-a-field-upsizing-problem
   - do-you-use-the-caption-property-on-a-field-upsizing-problem

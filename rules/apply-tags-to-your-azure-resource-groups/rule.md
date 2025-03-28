@@ -8,9 +8,9 @@ uri: apply-tags-to-your-azure-resource-groups
 created: 2019-12-23T22:00:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
@@ -27,7 +27,7 @@ Azure has the Tag feature, which allows you to apply different Tag Names and val
 
 You can leverage this feature to organize your resources in a logical way, not relying in the names only. E.g.
 
-* **Owner tag:** You can specify who owns that resource
-* **Environment tag:** You can specify which environment that resource is in
+- **Owner tag:** You can specify who owns that resource
+- **Environment tag:** You can specify which environment that resource is in
 
 **Tip:** Do not forget to have a strong naming convention document stating how those tags and resources should be named. You can use this Microsoft guide as a starter point: [Recommended naming and tagging conventions](https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/naming-and-tagging).

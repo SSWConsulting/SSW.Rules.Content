@@ -1,11 +1,11 @@
 ---
 type: rule
 title: Do you know how to link local dependency for npm?
-seoDescription: Master the 3 ways of local npm dependency management with SSW's expert guide. 
+seoDescription: Master the 3 ways of local npm dependency management with SSW's expert guide.
 uri: link-local-npm-dependency
 authors:
   - title: Thom Wang
-    url: https://ssw.com.au/people/thom-wang
+    url: https://ww.ssw.com.au/people/thom-wang
 created: 2025-02-20T10:51:21.000Z
 archivedreason: null
 guid: fef36fc2-3d09-4582-83de-80719a0042e4
@@ -15,7 +15,6 @@ When working on multiple related JavaScript projects, you may need to test chang
 
 <!--endintro-->
 
-
 ## How `npm link` works
 
 `npm link` creates a symbolic link between a globally registered local package and a project that depends on it.
@@ -23,19 +22,19 @@ When working on multiple related JavaScript projects, you may need to test chang
 ### Steps to link a local dependency
 
 1. Navigate to the local package directory (the dependency you are developing) and run:
-   
+
    ```sh
    npm link
    ```
-   
+
    This registers the package globally on your system.
 
 2. Navigate to the project that will use this dependency and run:
-   
+
    ```sh
    npm link <package-name>
    ```
-   
+
    This links the globally registered package into your project’s `node_modules`.
 
 ### Example usage
@@ -54,11 +53,11 @@ Now, `my-app` will use the local version of `my-local-package` instead of fetchi
 ## Common issues and fixes
 
 - **Module Resolution Issues**: If your project uses a different version of a peer dependency than the linked package, you might get errors. A common fix is running:
-  
+
   ```sh
   npm install
   ```
-  
+
   in both the linked package and the main project.
 
 - **TypeScript Not Detecting Changes**: Sometimes, TypeScript may not immediately recognize changes in a linked package. Restarting the TypeScript server (`tsc --watch`) or adding `"preserveSymlinks": true` in `tsconfig.json` can help.
@@ -72,6 +71,7 @@ Instead of linking, you can install a local package directly:
 ```sh
 npm install ../my-local-package
 ```
+
 ::: good
 Figure: Good example - Simpler alternative that avoids symlink-related issues
 :::
@@ -85,6 +85,7 @@ cd my-local-package
 npm pack
 npm install ../my-local-package/my-local-package-1.0.0.tgz
 ```
+
 ::: good
 Figure: Good example - Simulates a real npm package installation
 :::

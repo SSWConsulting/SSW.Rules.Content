@@ -5,9 +5,9 @@ title: Do you know the best boardroom AV solution?
 uri: the-best-boardroom-av-solution
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects:
   - do-you-know-the-best-boardroom-av-solution

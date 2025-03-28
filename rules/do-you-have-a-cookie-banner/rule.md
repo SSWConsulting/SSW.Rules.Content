@@ -7,9 +7,9 @@ uri: do-you-have-a-cookie-banner
 created: 2024-07-22T17:01:26.0000000Z
 authors:
   - title: Josh Berman
-    url: https://ssw.com.au/people/josh-berman
+    url: https://ww.ssw.com.au/people/josh-berman
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related: []
 redirects: []
 ---
@@ -32,9 +32,9 @@ This section is very much customizable and will be different from site to site. 
 
 The 3 button options should be:
 
-* "Accept All" – Users accepts all types of cookies
-* "Reject All" – Users reject all cookies
-* "Customize" – According to GDRP we must allow users to manage their cookie preferences at any time. When users go to customize, all options must **not** be ticked
+- "Accept All" – Users accepts all types of cookies
+- "Reject All" – Users reject all cookies
+- "Customize" – According to GDRP we must allow users to manage their cookie preferences at any time. When users go to customize, all options must **not** be ticked
 
 The Tina.io website let users customize their preferences with a modal.
 
@@ -48,29 +48,29 @@ This section will actually send your cookie based on how users have interacted w
 
 1. Install package and use on your component
 
-  ```bash
-  npm install js-cookie
-  ```
-  
-  ```js
-  import Cookies from 'js-cookie';
-  ```
+```bash
+npm install js-cookie
+```
+
+```js
+import Cookies from 'js-cookie';
+```
 
 2. Create Cookie Variable and Set
    Example with a cookie that has all fields accepted, named 'consentGiven'
 
-  ```js
-      const acceptedConsent = {
-        ad_storage: true,
-        ad_personalization: true,
-        analytics_storage: true,
-        ad_user_data: true,
-      };
-  
-      Cookies.set('consentGiven', JSON.stringify(acceptedConsent), {
-        expires: 365,
-      });
-  ```
+```js
+const acceptedConsent = {
+  ad_storage: true,
+  ad_personalization: true,
+  analytics_storage: true,
+  ad_user_data: true,
+};
+
+Cookies.set('consentGiven', JSON.stringify(acceptedConsent), {
+  expires: 365,
+});
+```
 
 3. Confirm your cookie is being sent correctly
 

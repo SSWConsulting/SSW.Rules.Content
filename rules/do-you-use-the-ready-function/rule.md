@@ -8,7 +8,7 @@ uri: do-you-use-the-ready-function
 created: 2013-04-29T06:39:55.0000000Z
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related:
   - do-you-know-which-version-of-jquery-to-use
 redirects:
@@ -24,7 +24,7 @@ jQuery exposes a [.ready() event](https://api.jquery.com/ready) which fires when
 You can attach a function to this event so you can be sure the page is ready for you to work on.
 
 ```js
-$("#login").addClass("hidden");
+$('#login').addClass('hidden');
 ```
 
 ::: bad
@@ -33,7 +33,7 @@ Figure: Bad example - If this jQuery is in the wrong place, the #login element m
 
 ```js
 $(function () {
-  $("#login").addClass("hidden");
+  $('#login').addClass('hidden');
 });
 ```
 

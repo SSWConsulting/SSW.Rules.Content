@@ -8,9 +8,9 @@ uri: optimize-your-images
 created: 2017-02-10T17:13:26.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - image-formats
 redirects:
@@ -25,9 +25,9 @@ The first thing is to [save your graphics in the right format](/image-formats) a
 
 Some tips and techniques to keep in mind as you work on optimizing your images:
 
-* **Use** **automated tools** to ensure that all of your images are always optimized (E.g. [Optimizilla](https://imagecompressor.com))
-* **Don't be afraid to dial down the "quality" settings** if the results are very good and byte savings are significant
-* **Remove unnecessary image metadata** like geo information, camera information, and so on
+- **Use** **automated tools** to ensure that all of your images are always optimized (E.g. [Optimizilla](https://imagecompressor.com))
+- **Don't be afraid to dial down the "quality" settings** if the results are very good and byte savings are significant
+- **Remove unnecessary image metadata** like geo information, camera information, and so on
 
 ![Figure: Optimizilla reduced the image in 31%](optimizeexample.png)
 

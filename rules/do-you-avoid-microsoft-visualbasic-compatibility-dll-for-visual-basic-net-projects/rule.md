@@ -8,9 +8,9 @@ uri: do-you-avoid-microsoft-visualbasic-compatibility-dll-for-visual-basic-net-p
 created: 2009-04-28T03:01:20.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects: []

@@ -8,7 +8,7 @@ uri: do-you-avoid-using-bcs-when-you-need-workflow
 created: 2010-06-04T06:39:12.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

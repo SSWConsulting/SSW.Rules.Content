@@ -8,7 +8,7 @@ uri: videos-do-you-have-a-video-on-the-homepage-of-products-websites
 created: 2014-12-04T19:27:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -1,5 +1,5 @@
 ---
-seoDescription: PageSpeed Insights can significantly optimize your webpages' performance with actionable suggestions. 
+seoDescription: PageSpeed Insights can significantly optimize your webpages' performance with actionable suggestions.
 type: rule
 archivedreason: Replaced by https://www.ssw.com.au/rules/website-page-speed (using Google's standard page instead of a browser add-on)
 title: Do you use PageSpeed?
@@ -8,11 +8,11 @@ uri: do-you-use-pagespeed
 created: 2019-05-30T04:52:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
   - title: Shane Ye
-    url: https://ssw.com.au/people/shane-ye
+    url: https://ww.ssw.com.au/people/shane-ye
 related: []
 redirects: []
 ---

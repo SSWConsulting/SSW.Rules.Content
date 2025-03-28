@@ -6,13 +6,12 @@ title: Performance - Do you cache popular reports for better performance?
 guid: 7d65ff60-daea-44cd-a5b8-0d715a214246
 uri: cache-popular-reports
 created: 2024-08-02T10:42:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 When you have a large number of users all trying to access the same reports, the performance of your report server can suffer dramatically. Caching reports for a certain period of time can drastically reduce the load placed on the report server, leaving it ready to handle other requests.

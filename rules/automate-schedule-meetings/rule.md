@@ -5,12 +5,12 @@ title: Appointments - Do you automate scheduling of meetings?
 uri: automate-schedule-meetings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
-related: 
+    url: https://ww.ssw.com.au/people/greg-harris
+related:
   - appointments-throw-it-in-their-calendar
   - collaborate-across-timezones
   - automated-webinars-for-multiple-time-zones
@@ -50,7 +50,7 @@ FindTime sends out the meeting invite on your behalf. More on <https://support.m
 
 **Note:** Findtime’s competitor is <https://calendly.com>
 
-![Figure: FindTime gives a nice UI for people working in the same org, as you can see times that might be available for all attendees easily (e.g. 8 am above)](findtime-scheduler.jpg)  
+![Figure: FindTime gives a nice UI for people working in the same org, as you can see times that might be available for all attendees easily (e.g. 8 am above)](findtime-scheduler.jpg)
 
 ::: greybox
 **Mobile – does not work ❌**

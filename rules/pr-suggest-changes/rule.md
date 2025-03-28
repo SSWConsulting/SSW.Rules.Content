@@ -7,9 +7,9 @@ seoDescription: Learn the best practices for suggesting changes in a Pull
 uri: pr-suggest-changes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - github-content-changes
   - change-from-x-to-y
@@ -17,8 +17,9 @@ created: 2024-09-05T04:50:21.000Z
 archivedreason: null
 guid: 8b529efe-d500-42b8-9632-7de23506546a
 ---
+
 Normally, the best way to provide feedback on content changes is to use the [change X to Y format](/change-from-x-to-y).
-When it comes to reviewing Pull Requests (PRs) in GitHub, this is not the case - it's  inefficient for the PR owner. They have to manually interpret each suggested change, implement them in the code, and then commit the changes, which can be time-consuming.
+When it comes to reviewing Pull Requests (PRs) in GitHub, this is not the case - it's inefficient for the PR owner. They have to manually interpret each suggested change, implement them in the code, and then commit the changes, which can be time-consuming.
 
 `youtube: https://youtu.be/xSSz3vPDi4g`
 **Video: Pull Request Suggestions | Brady Stroud | SSW Rules (4 min)**

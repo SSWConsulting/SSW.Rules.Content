@@ -6,13 +6,13 @@ seoDescription: Do you use a Content Delivery Network (CDN) to reduce network
 uri: use-a-cdn
 authors:
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Shane Ye
-    url: https://ssw.com.au/people/shane-ye
+    url: https://ww.ssw.com.au/people/shane-ye
   - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
+    url: https://ww.ssw.com.au/people/aman-kumar
 related: []
 redirects:
   - do-you-use-a-content-delivery-network-cdn
@@ -22,11 +22,13 @@ created: 2019-05-16T06:32:40.000Z
 archivedreason: null
 guid: 8312c849-88a5-4745-82e7-739127d6e9f8
 ---
+
 If your site takes too long to load, there is a high chance your users will not wait for it to finish loading and abandon viewing it. It is therefore important that we use techniques to make pages load as quickly as possible. One of these techniques is to use a Content Delivery Network (CDN) to reduce the network latency for delivering pages, images, javascript and CSS libraries to users. This results in faster page load times and a better experience for your users.
 
 <!--endintro-->
 
 ### What is a CDN?
+
 CDN is short for a Content Delivery Network. It is a system of distributed servers (network) that deliver pages and other Web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server.
 
 ### Why use a CDN?
@@ -46,16 +48,16 @@ Front Door is a good option, but it has some notable downsides regarding redirec
 
 ✅ Pros:
 
-* **Easy Integration**: Seamlessly integrates with other Azure services.
-* **Flexible Origin Handling**: Better handling for origin groups on a route level (e.g., /people can be hosted on a different server).
+- **Easy Integration**: Seamlessly integrates with other Azure services.
+- **Flexible Origin Handling**: Better handling for origin groups on a route level (e.g., /people can be hosted on a different server).
 
 ❌ Cons:
 
-* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits) per resource group.
-* **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
-* **Lack of Flexibility**: It doesn’t offer much flexibility for custom redirects, such as using regular expressions.
-* **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.
-* **High Costs**: It is quite expensive compared to other CDNs.
+- **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits) per resource group.
+- **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
+- **Lack of Flexibility**: It doesn’t offer much flexibility for custom redirects, such as using regular expressions.
+- **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.
+- **High Costs**: It is quite expensive compared to other CDNs.
 
 To overcome these issues, we can use Cloudflare.
 
@@ -65,20 +67,17 @@ Cloudflare is known for its Distributed Denial-of-Service (DDoS) protection and 
 
 ✅ Pros:
 
-* **Easy Deployment**: Simple deployment through Wrangler. (it takes a few seconds to deploy workers)
-* **Flexible Redirects**: More flexible in handling bulk and customizable redirects using [Cloudflare Workers](https://developers.cloudflare.com/workers/).
-* **Enhanced Security**: Provides better WAF protection and secure DDoS mitigation.
-* **Cost-Effective**: Much cheaper than other CDNs.
-* **Efficient Caching**: Better caching options.
-* **Instant Cache Purging**: Offers an instant purging option for caches.
+- **Easy Deployment**: Simple deployment through Wrangler. (it takes a few seconds to deploy workers)
+- **Flexible Redirects**: More flexible in handling bulk and customizable redirects using [Cloudflare Workers](https://developers.cloudflare.com/workers/).
+- **Enhanced Security**: Provides better WAF protection and secure DDoS mitigation.
+- **Cost-Effective**: Much cheaper than other CDNs.
+- **Efficient Caching**: Better caching options.
+- **Instant Cache Purging**: Offers an instant purging option for caches.
 
 ❌ Cons:
 
-* **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
-* **Testing**: Staging environments are only available as part of the [enterprise plan]((https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)), making it expensive to test changes to your CDN configuration
-
-
-
+- **No Azure Service integration** Cloudflare cloudflare doesn't natively allow you to ingest logs into Azure
+- **Testing**: Staging environments are only available as part of the [enterprise plan](<(https://developers.cloudflare.com/ssl/edge-certificates/staging-environment/#limitations)>), making it expensive to test changes to your CDN configuration
 
 #### Which CDNs work well from China?
 

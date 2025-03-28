@@ -6,7 +6,7 @@ title: Do you avoid using document.getElementById(id) and document.all(id) to
 uri: avoid-using-documentgetelementbyid-and-documentall-to-get-a-single-element
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-document-getelementbyidid-and-document-allid-to-get-a-single-element-instead-use-selector-id
@@ -27,7 +27,7 @@ With jQuery, you can write less code but do more work.
 ```html
 <h1 id="Head1">Hello</h1>
 <script type="text/javascript" language="javascript">
-  document.all("Head1").style.color = "red";
+  document.all('Head1').style.color = 'red';
 </script>
 ```
 
@@ -38,7 +38,7 @@ Figure - Bad Code
 ```html
 <h1 id="Head1">Hello</h1>
 <script type="text/javascript" language="javascript">
-  document.getElementById("Head1").style.color = "red";
+  document.getElementById('Head1').style.color = 'red';
 </script>
 ```
 
@@ -49,7 +49,7 @@ Figure: Bad Code
 ```html
 <h1 id="Head1">Hello</h1>
 <script type="text/javascript" language="javascript">
-  $("#Head1").css("color", "red");
+  $('#Head1').css('color', 'red');
 </script>
 ```
 

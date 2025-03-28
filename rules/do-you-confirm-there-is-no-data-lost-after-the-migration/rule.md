@@ -8,7 +8,7 @@ uri: do-you-confirm-there-is-no-data-lost-after-the-migration
 created: 2010-12-23T07:18:06.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
 related: []
 redirects: []
 ---

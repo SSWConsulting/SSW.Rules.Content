@@ -5,11 +5,11 @@ title: Do you answer IM questions in order?
 uri: answer-im-questions-in-order
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Tylah Kapa
-    url: https://ssw.com.au/people/tylah-kapa
+    url: https://ww.ssw.com.au/people/tylah-kapa
 related:
   - separate-messages
 redirects:
@@ -23,11 +23,11 @@ Sometimes people fire a few questions at you and the tendency is to answer in al
 
 Tips when answering IMs:
 
-* Answer each question in order
+- Answer each question in order
 
-* Repeat the keywords of each question
+- Repeat the keywords of each question
 
-* Avoid grouping your messages together [as per the rule](/separate-messages)
+- Avoid grouping your messages together [as per the rule](/separate-messages)
 
 <!--endintro-->
 
@@ -37,7 +37,7 @@ Welcome back from your holiday. How many items in your inbox? Can you give me th
 
 **- Dave:**
 Next Monday
-Will work for Northwind. I have 85 items and the link is <https://ssw.com.au/rules/rules-to-better-im>
+Will work for Northwind. I have 85 items and the link is <https://ww.ssw.com.au/rules/rules-to-better-im>
 :::
 ::: bad
 Figure: Bad example - We must try to find the answers one by one
@@ -50,8 +50,8 @@ Welcome back from your holiday. How many items in your inbox? Can you give me t
 **- Dave:**
 
 1. I have 85 items in my inbox
-2. Here is the link: <https://ssw.com.au/rules/rules-to-better-im>
-3. I start working for Northwind next Monday  
+2. Here is the link: <https://ww.ssw.com.au/rules/rules-to-better-im>
+3. I start working for Northwind next Monday
 
 :::
 ::: ok
@@ -66,7 +66,7 @@ Welcome back from your holiday. How many items in your inbox? Can you give me t
 I have 85 items in my inbox
 
 **- Dave:**  
-Here is the link: <https://ssw.com.au/rules/rules-to-better-im>
+Here is the link: <https://ww.ssw.com.au/rules/rules-to-better-im>
 
 **- Dave:**  
 I start working for Northwind next Monday.  

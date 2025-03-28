@@ -8,11 +8,11 @@ uri: do-you-know-the-layers-of-the-onion-architecture
 created: 2012-10-19T19:23:27.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
 related: []
 redirects: []
 ---
@@ -65,8 +65,8 @@ The Onion Architecture relies heavily on the [Dependency Inversion](http://en.wi
 
 ### References
 
-* [Blog | Peeling Back the Onion Architecture](http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/)
-* [Stack Overflow Questions | What type of architecture is this called?](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
+- [Blog | Peeling Back the Onion Architecture](http://blog.tonysneed.com/2011/10/08/peeling-back-the-onion-architecture/)
+- [Stack Overflow Questions | What type of architecture is this called?](http://stackoverflow.com/questions/9732747/what-type-of-architecture-is-this-called/9933371)
 
 ---
 

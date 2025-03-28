@@ -5,7 +5,7 @@ title: Do you know the scenarios for building large .NET projects?
 uri: scenarios-of-building-the-system
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:02:00.000Z
 guid: 3021ff26-7bfa-47b5-811d-82bf417fe880
 ---

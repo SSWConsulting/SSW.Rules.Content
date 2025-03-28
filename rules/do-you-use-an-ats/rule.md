@@ -8,7 +8,7 @@ uri: do-you-use-an-ats
 created: 2020-06-11T06:53:39.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-track-your-candidates-using-an-applicant-tracking-system-ats

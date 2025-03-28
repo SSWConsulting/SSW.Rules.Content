@@ -8,7 +8,7 @@ uri: maintain-and-update-your-marketing-plan
 created: 2020-05-28T18:37:47.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-maintain-and-update-your-marketing-plan

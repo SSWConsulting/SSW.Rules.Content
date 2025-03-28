@@ -5,15 +5,15 @@ title: Git - Do you know when to create a fork vs a branch?
 uri: fork-vs-branch
 authors:
   - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
+    url: https://ww.ssw.com.au/people/aman-kumar
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - avoid-large-prs
 created: 2023-03-01T04:25:25.111Z
-archivedreason: ""
+archivedreason: ''
 guid: 7ef3fe5d-0114-49b1-98c1-fad32caafb5e
 ---
 

@@ -8,9 +8,9 @@ uri: application-insights-in-sharepoint
 created: 2015-09-01T00:28:34.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
 related:
   - how-to-set-up-application-insights
 redirects:
@@ -34,9 +34,9 @@ The best process to implement Applications Insights in SharePoint can be split 
 
 1. Implement App Insight JavaScript in master page (via Visual Studio)  or web pages individually via embedded code, there are two good articles include the detail steps:
 
-* [Monitor a SharePoint site with Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/sharepoint)
-* [Understand your SharePoint usage with Application Insights/](https://azure.microsoft.com/es-es/blog/understand-your-sharepoint-usage-with-application-insights-2/)
+- [Monitor a SharePoint site with Application Insights](https://docs.microsoft.com/en-us/azure/azure-monitor/app/sharepoint)
+- [Understand your SharePoint usage with Application Insights/](https://azure.microsoft.com/es-es/blog/understand-your-sharepoint-usage-with-application-insights-2/)
 
 2. Use Application Insights Status Monitor configuration tool to add DLLs reference and update web.config (no coding work involved), there are two articles include the detail steps:
-   * [Monitoring your existing Applications](https://devblogs.microsoft.com/devops/monitoring-your-existing-applications/)
-   * [Deploy Azure Monitor Application Insights Agent for on-premises servers](https://learn.microsoft.com/en-us/azure/azure-monitor/app/application-insights-asp-net-agent?tabs=getting-started)
+   - [Monitoring your existing Applications](https://devblogs.microsoft.com/devops/monitoring-your-existing-applications/)
+   - [Deploy Azure Monitor Application Insights Agent for on-premises servers](https://learn.microsoft.com/en-us/azure/azure-monitor/app/application-insights-asp-net-agent?tabs=getting-started)

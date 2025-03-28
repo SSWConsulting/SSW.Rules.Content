@@ -5,7 +5,7 @@ seoDescription: Keep your URLs clean and easy to read by removing extra noise, s
 uri: keep-your-urls-clean
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - create-friendly-short-urls
   - relevant-words-on-links
@@ -35,7 +35,7 @@ When you’re sending emails, or pinging someone in Teams, your URLs should be a
 
 Here is the link to the new hand dryer that you wanted to see:
 
-**Vortex Hand Dryer, Super Quiet motor, 3 Years Warranty** - $184   
+**Vortex Hand Dryer, Super Quiet motor, 3 Years Warranty** - $184  
 (no electrical installation required – plugs in – for the men's bathroom upstairs) https://www.ozwashroom.com.au/hand-dryer-285?campaignid=1683143023&adgroupid=62945164502&keyword=&device=c&gclid=Cj0KCQjw--GFBhDeARIsACH_kdbAtHf_smGug0NCviYbZvW_9uGLXLT1LjheMQ-bpBOOtqcD5ln3Uz0aAjS6EALw_wcB
 
 Best,
@@ -58,8 +58,8 @@ Figure: Bad example - Dirty URL with superfluous information
 
 Here is the link to the new hand dryer that you wanted to see:
 
-**Vortex Hand Dryer, Super Quiet motor, 3 Years Warranty** - $184   
-(no electrical installation required – plugs in – for the men's bathroom upstairs)   
+**Vortex Hand Dryer, Super Quiet motor, 3 Years Warranty** - $184  
+(no electrical installation required – plugs in – for the men's bathroom upstairs)  
 [ozwashroom.com.au/hand-dryer-285](https://www.ozwashroom.com.au/hand-dryer-285)
 
 Best,

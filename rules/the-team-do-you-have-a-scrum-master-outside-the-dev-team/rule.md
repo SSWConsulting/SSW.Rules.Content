@@ -8,7 +8,7 @@ uri: the-team-do-you-have-a-scrum-master-outside-the-dev-team
 created: 2012-05-01T05:48:53.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 ---

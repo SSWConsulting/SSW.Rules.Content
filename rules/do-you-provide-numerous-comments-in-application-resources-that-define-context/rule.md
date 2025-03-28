@@ -8,7 +8,7 @@ uri: do-you-provide-numerous-comments-in-application-resources-that-define-conte
 created: 2015-10-21T09:57:27.0000000Z
 authors:
   - title: Martin Li
-    url: https://ssw.com.au/people/martin-li
+    url: https://ww.ssw.com.au/people/martin-li
 related: []
 redirects: []
 ---

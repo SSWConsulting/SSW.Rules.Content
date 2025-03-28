@@ -7,9 +7,9 @@ seoDescription: Calendar permissions allow you to share your calendar with admin
 uri: calendar-do-you-allow-full-access-to-calendar-admins
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
@@ -20,14 +20,15 @@ created: 2012-09-25T18:08:57.000Z
 archivedreason: null
 guid: c480d105-9c6a-4646-8391-b51eee0028bb
 ---
+
 Within a company, there are occasions that you are not able to access your computer to send sick emails, or you get a call from your client on the way to the office that you have to drive to a client site straight away; when such things happen, you need someone else to update your calendar when you call in, so others are aware of your availabilities.
 
 <!--endintro-->
 
 Always make sure that:
 
-* Admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you.
-* The whole organization can see your full calendar details.
+- Admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you.
+- The whole organization can see your full calendar details.
 
 ### Do this to allow Admins to edit your calendar permissions
 
@@ -46,10 +47,10 @@ Now do this to allow the whole organization to see your full calendar details:
 
 If you cannot see "My Organization" from Outlook Desktop version, use the web version:
 
-* Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
-* Click “Shared calendars” | in “Share a Calendar”, select the calendar\
+- Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
+- Click “Shared calendars” | in “Share a Calendar”, select the calendar\
   ![Figure: Select the calendar to change permissions](selectcalendarweb.jpg)
-* In "People in my organization" | Select "Can view all details"\
+- In "People in my organization" | Select "Can view all details"\
   ![Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"](changepermissionsweb.jpg)
 
 ### Opening other people's calendar

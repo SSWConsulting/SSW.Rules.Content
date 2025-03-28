@@ -8,7 +8,7 @@ uri: do-you-indicate-when-you-are-sending-an-email-on-behalf-of-someone-else
 created: 2013-07-30T21:24:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

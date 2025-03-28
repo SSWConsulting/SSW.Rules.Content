@@ -1,27 +1,26 @@
 ---
 seoDescription: Learn how consultants and software developers can effectively upsell products and services by identifying opportunities during client interactions
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you upsell your products or services?
 guid: 9629d12f-7fe3-44eb-baa1-a479809ee23b
 uri: upsell
 created: 2018-06-08T21:27:55.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- upsell-your-most-valuable-product-service
-- do-you-upsell-your-products-or-services
-
+  - upsell-your-most-valuable-product-service
+  - do-you-upsell-your-products-or-services
 ---
 
-Great consultants see opportunities and know that once they’re in at a client, they become a trusted advisor, and anything they say will have more weight than the same message coming from a Sales Person or an  Account Manager.
+Great consultants see opportunities and know that once they’re in at a client, they become a trusted advisor, and anything they say will have more weight than the same message coming from a Sales Person or an Account Manager.
 
 Not all software developers are comfortable with “upselling,” but it is important to be on the lookout. There are 2 key scenarios:
 
-* when you see an opportunity for upselling
-* or [when you come to the end of a booking period](/do-you-know-the-first-thing-to-do-when-you-come-off-client-work)
+- when you see an opportunity for upselling
+- or [when you come to the end of a booking period](/do-you-know-the-first-thing-to-do-when-you-come-off-client-work)
 
 Once a software developer sees an opportunity, they should have a corridor conversation and see if they get a positive bite from the customer. If they do then they should hand it over to the Account Manager to track in CRM (from there the client should be massaged until the new work is booked in).
 
@@ -37,7 +36,7 @@ Customers normally appreciate this sentiment. You need to remember that prospect
 
 <!--endintro-->
 
-![](fries-mcdonalds-whitebg.gif)  
+![](fries-mcdonalds-whitebg.gif)
 
 ### 2 - Consultants should always be visible when they spot an upsell/cross-sell opportunity
 

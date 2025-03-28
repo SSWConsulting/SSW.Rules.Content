@@ -5,7 +5,7 @@ title: Getting Started - Do you know the Scrum guide?
 uri: scrum-guide
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - getting-started-have-you-read-the-scrum-guide

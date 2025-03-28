@@ -8,7 +8,7 @@ uri: do-you-know-how-to-ensure-your-build-succeeded
 created: 2013-01-21T17:20:24.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

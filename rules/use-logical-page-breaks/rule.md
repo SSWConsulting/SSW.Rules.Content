@@ -6,16 +6,16 @@ title: Data Layout - Do you know how to use logical page breaks?
 guid: 2cdd195b-477e-4a8d-934d-b7605ce5dcd3
 uri: use-logical-page-breaks
 created: 2024-06-05T11:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Sometime you want your report to break at somewhere to separate different part of content into individual pages. A logical page break is what you need.
+
 <!--endintro-->
 
 Logical page breaks are defined in the report definition by using the PageBreakAtStart and PageBreakAtEnd properties in various report elements, including group, rectangle, list, table, matrix, and chart.

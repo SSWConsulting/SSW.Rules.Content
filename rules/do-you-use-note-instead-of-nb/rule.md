@@ -8,9 +8,9 @@ uri: do-you-use-note-instead-of-nb
 created: 2017-09-21T06:32:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
 related:
   - avoid-acronyms
 redirects:

@@ -6,9 +6,9 @@ seoDescription: Identify Development, Test, and Production Web Servers by colors
 uri: identify-crm-web-servers-by-colors
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
 related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:
@@ -18,6 +18,7 @@ created: 2012-12-10T19:42:40.000Z
 archivedreason: null
 guid: 9b723127-5c2d-4e40-a2a5-45ccd4840d2b
 ---
+
 ![]()
 
 As per rule ["Do you have separate development, testing, and production environment?"](/do-you-have-separate-development-testing-and-production-environments), it's better to use different background colors to identify **Development**, **Test** and **Production** servers.
@@ -112,11 +113,11 @@ In SharePoint Online, we use Theme colours to differentiate between Production a
 
 To change the Theme, simply navigate to Site Settings | Change The Look | Theme
 
-![](2024-09-16_18-10-35.jpg "Figure: To change the theme, navigate to Settings | Change the look | Theme")
+![](2024-09-16_18-10-35.jpg 'Figure: To change the theme, navigate to Settings | Change the look | Theme')
 
 ### Development - Default Microsoft Blue Theme
 
-![](2024-09-16_18-03-50.jpg "Figure: Selecting Blue default theme for Development")
+![](2024-09-16_18-03-50.jpg 'Figure: Selecting Blue default theme for Development')
 
 ### Production - SSW Custom Theme
 

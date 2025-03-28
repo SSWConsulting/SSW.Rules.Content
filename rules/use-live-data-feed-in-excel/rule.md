@@ -6,13 +6,12 @@ title: Analysing with Excel - Do you use a live data feed?
 guid: afc27743-a3dd-4de6-8f01-b708e6d1ef6f
 uri: use-live-data-feed-in-excel
 created: 2024-09-16T09:10:00.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Leveraging live data feeds in Excel can transform static reports into dynamic, real-time insights, enhancing the analytical capabilities and streamlining report generation.

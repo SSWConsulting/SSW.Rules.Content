@@ -5,7 +5,7 @@ title: Do you use jQuery instead of JavaScript?
 uri: use-jquery-instead-of-javascript
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-jquery-instead-of-javascript
@@ -27,7 +27,7 @@ jQuery is the MUST HAVE tool for web developers. There are 3 good reasons why yo
 
 ```js
 window.onload = function () {
-  alert("Welcome");
+  alert('Welcome');
 };
 ```
 
@@ -37,7 +37,7 @@ Figure: Bad example - Using JavaScript 'onload' event
 
 ```js
 $(document).ready(function () {
-  alert("Welcome!");
+  alert('Welcome!');
 });
 ```
 

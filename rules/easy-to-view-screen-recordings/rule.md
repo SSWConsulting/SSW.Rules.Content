@@ -6,7 +6,7 @@ seoDescription: Easy screen recordings start with a clean slate - optimize your
 uri: easy-to-view-screen-recordings
 authors:
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: https://ww.ssw.com.au/people/steve-leigh
 related:
   - record-a-quick-and-dirty-done-video
   - enable-presentation-mode-in-visual-studio
@@ -27,8 +27,8 @@ Before recording your screen reduce visual noise by:
 2. ✅**Avoiding small fonts** - Zoom in to 125% by holding Ctrl and scrolling up on the mouse wheel. If you're using a 4K or large monitor, consider zooming further or increasing your display scale to 175% or 200% instead of the recommended 150%.
 3. ✅**Hiding the bookmark bar**
 
-   * Windows shortcut: Ctrl + Shift + b
-   * Mac shortcut: Cmd + Shift + b
+   - Windows shortcut: Ctrl + Shift + b
+   - Mac shortcut: Cmd + Shift + b
 
 ::: bad
 ![Figure: Bad example - This video will be cluttered and unprofessional](screen-recording-bad.png)

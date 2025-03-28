@@ -5,7 +5,7 @@ title: Do you know the best chatbot for your website?
 uri: website-chatbot
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Khaled Albahsh
     url: https://www.ssw.com.au/people/khaled-albahsh/
   - title: Manu Gulati
@@ -33,18 +33,18 @@ Choosing the right chatbot service for your website can be a challenging task. W
 
 Depending on your intended use, some factors will be more or less important to you.
 
-* **Custom built vs 3rd party service** - Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front  
-* **Pre-built/drag-and-drop builders** - Simplifies creation without coding  
-* **Documentation & support** - Bad documentation can make a simple product hard to use - incurring more costs  
-* **Performance** - Smooth and natural responses that answer questions while understanding context  
-* **Visual design** - Aligns with brand aesthetics  
-* **Customization** - Adapts responses to fit brand voice, and is not tricked by misleading questions  
-* **API support** - API integration if you might want to use it in other applications  
-* **Data syncing** - How often does it refresh its data from your website?  
-* **Traffic management** - Handles increasing traffic load  
-* **Scalability** - Manages increasing user data  
-* **Knowledge base** - There is usually a limit in 3rd party chatbots e.g. Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text  
-* **Human agent referral** - Transfers smoothly to a human if needed  
+- **Custom built vs 3rd party service** - Custom built provides more control but incurs high development effort & cost - usually 3rd party solutions are cheaper up front
+- **Pre-built/drag-and-drop builders** - Simplifies creation without coding
+- **Documentation & support** - Bad documentation can make a simple product hard to use - incurring more costs
+- **Performance** - Smooth and natural responses that answer questions while understanding context
+- **Visual design** - Aligns with brand aesthetics
+- **Customization** - Adapts responses to fit brand voice, and is not tricked by misleading questions
+- **API support** - API integration if you might want to use it in other applications
+- **Data syncing** - How often does it refresh its data from your website?
+- **Traffic management** - Handles increasing traffic load
+- **Scalability** - Manages increasing user data
+- **Knowledge base** - There is usually a limit in 3rd party chatbots e.g. Chatbase provides you 11M characters, which roughly equates to ~3500 pages of text
+- **Human agent referral** - Transfers smoothly to a human if needed
 
 ::: img-medium
 ![Figure: A drag and drop interface on the Botpress platform](botpress-interface.png)
@@ -55,12 +55,12 @@ Depending on your intended use, some factors will be more or less important to y
 The first decision is to choose between using a 3rd party chatbot service (e.g. ChatBase or Botpress) vs developing your own from scratch using a large language model API (e.g. OpenAI API).
 
 | Factor                      | Directly from an API (e.g. OpenAI) | 3rd Party              |
-| --------------------------- | ---------- | ---------------------- |
-| Development effort and cost | High  | Low                    |
-| Control                     | High  | Moderate               |
-| Cost to Train               | Low   | Low               |
-| Knowledge Base Limits       | Unlimited  | Limited but sufficient |
-| Cost per Message            | Moderate   | High                   |
+| --------------------------- | ---------------------------------- | ---------------------- |
+| Development effort and cost | High                               | Low                    |
+| Control                     | High                               | Moderate               |
+| Cost to Train               | Low                                | Low                    |
+| Knowledge Base Limits       | Unlimited                          | Limited but sufficient |
+| Cost per Message            | Moderate                           | High                   |
 
 Before delving deeper into the comparison it would help to first understand the steps involved in building chatbots using either technology.
 
@@ -106,8 +106,8 @@ If you go with a 3rd party service, you might be torn between 2 popular platform
 `youtube: https://www.youtube.com/watch?v=a1LSk3krUL0`
 **Video: Do you know the best chatbot for your website? (8 min)**
 
-|          | GPT Integration                                           | Customization                 | Pricing                      |
-| -------- | --------------------------------------------------------- | ----------------------------- | ---------------------------- |
+|              | GPT Integration                                           | Customization                 | Pricing                      |
+| ------------ | --------------------------------------------------------- | ----------------------------- | ---------------------------- |
 | **Botpress** | ❌ Traditional style of workflow and steep learning curve | ✅ Wide range of integrations | ✅ Free to start             |
 | **Chatbase** | ✅ Does everything with prompt engineering                | ✅ Easy customization         | ❌ Limited free plan options |
 
@@ -115,15 +115,15 @@ If you go with a 3rd party service, you might be torn between 2 popular platform
 
 While both platforms offer unique features, **Chatbase** stands out as the superior choice in most instances:
 
-* Easier customization and integration with various tools
-* Chatbase's user-friendly interface makes it accessible to a wide range of users. A prompt engineer can setup, tweak and improve the system. No development required
-* Botpress lacks the intuitive interface of Chatbase, and without extensive workflow development and testing, will fail in conversations
+- Easier customization and integration with various tools
+- Chatbase's user-friendly interface makes it accessible to a wide range of users. A prompt engineer can setup, tweak and improve the system. No development required
+- Botpress lacks the intuitive interface of Chatbase, and without extensive workflow development and testing, will fail in conversations
 
 However, if your company already **runs on Microsoft 365 and Office systems**, then **Microsoft Copilot** is likely the best solution:
 
-* Deeply integrated into Microsoft 365 – Works seamlessly with Teams, SharePoint, Outlook, OneDrive, and Power Apps  
-* Enterprise-grade security – Built within Microsoft’s security framework, using **Azure AD authentication** and **Microsoft Graph API**  
-* Minimal development effort – No need to train a model or build a front-end; Copilot leverages company data automatically  
-* Built-in compliance and data governance – Ensures chat interactions follow corporate security policies  
+- Deeply integrated into Microsoft 365 – Works seamlessly with Teams, SharePoint, Outlook, OneDrive, and Power Apps
+- Enterprise-grade security – Built within Microsoft’s security framework, using **Azure AD authentication** and **Microsoft Graph API**
+- Minimal development effort – No need to train a model or build a front-end; Copilot leverages company data automatically
+- Built-in compliance and data governance – Ensures chat interactions follow corporate security policies
 
 For businesses using Microsoft’s ecosystem, **Copilot provides the most secure and scalable internal chatbot solution** while reducing the need for custom development.

@@ -8,7 +8,7 @@ uri: do-you-send-notification-if-you-cannot-access-essential-services
 created: 2014-09-03T19:36:56.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

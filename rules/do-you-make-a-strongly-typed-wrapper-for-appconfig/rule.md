@@ -5,7 +5,7 @@ title: Do you make a strongly-typed wrapper for app.config?
 uri: do-you-make-a-strongly-typed-wrapper-for-appconfig
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:51:00.000Z
 guid: d4123a64-239a-4251-9a22-1ba31e85b690
 ---

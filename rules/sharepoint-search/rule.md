@@ -5,10 +5,10 @@ title: Do you know how to use SharePoint search?
 uri: sharepoint-search
 authors:
   - title: Daniel Šmon
-    url: https://ssw.com.au/people/daniel-smon
+    url: https://ww.ssw.com.au/people/daniel-smon
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:
@@ -32,11 +32,11 @@ Here are some tips for performing searches:
 
 <!--endintro-->
 
-* Use the categories (top)
-* Use the filters (right navigation / faceted search)
-* Use the scope to go wider
-* Use the specific properties (see below)
-* People - Use Delve indexed properties (i.e. Skills)
+- Use the categories (top)
+- Use the filters (right navigation / faceted search)
+- Use the scope to go wider
+- Use the specific properties (see below)
+- People - Use Delve indexed properties (i.e. Skills)
 
 ### Search a specific property
 
@@ -44,10 +44,10 @@ If you are familiar with the structure of the metadata in the content you're sea
 
 Example of properties you can use (common ones);
 
-* Filetype:
-* CreatedBy:
-* ModifiedBy:
-* Title:
+- Filetype:
+- CreatedBy:
+- ModifiedBy:
+- Title:
 
 **More:** <https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions>
 

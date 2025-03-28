@@ -6,19 +6,19 @@ seoDescription: Cross-approvals - Streamline your company's aspproval process
 uri: cross-approvals
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://ww.ssw.com.au/people/calum-simpson
   - title: Rick Su
-    url: https://ssw.com.au/people/rick-su
+    url: https://ww.ssw.com.au/people/rick-su
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://ww.ssw.com.au/people/uly
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
 related:
   - bench-master
   - management-structures
@@ -30,6 +30,7 @@ created: 2023-08-08T13:00:00.000Z
 archivedreason: null
 guid: 4f425961-3b0e-4b1b-bea4-48bab98f5c05
 ---
+
 In small companies, a single key stakeholder often approves everything, ensuring alignment with the organizational vision and strategy. However, as the company grows, this can lead to bottlenecks - or "approval hell". One approach that addresses this is to have multiple people responsible for a specific approval. This ensures a clearly communicated system for [cross-authorization](/purchase-please/#cross-authorization).
 
 <!--endintro-->
@@ -44,8 +45,8 @@ Generally an approval is anytime you need someone else to check a piece of your 
 
 Approvals can either be:
 
-* **Ad hoc** - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
-* **Recurring** - these cause "approval hell" - you should use **approval scaling**
+- **Ad hoc** - these are best done following the 'checked by' rule: [Do you use 'Checked by xxx'?](https://www.ssw.com.au/rules/checked-by-xxx/)
+- **Recurring** - these cause "approval hell" - you should use **approval scaling**
 
 ::: bad
 ![Figure: Bad example - Approval hell!](approval-hell.png)
@@ -53,9 +54,9 @@ Approvals can either be:
 
 ## ✅ Benefits of scaling approvals
 
-* Time savings for the person causing the bottlenecks (aka the "original approver")
-* Fewer bottlenecks for those seeking approval
-* Consistent and high-quality approvals
+- Time savings for the person causing the bottlenecks (aka the "original approver")
+- Fewer bottlenecks for those seeking approval
+- Consistent and high-quality approvals
 
 ::: good
 ![Figure: Good example - Scaled approvals - The group of people in charge of a cross approval are called a XXX Master](cross-approvals.png)
@@ -132,9 +133,9 @@ Tasks that require 1 approval are usually well-documented, routine processes. In
 
 2 approvals are for tasks that fall into one of the following categories:
 
-* They do not follow a well-documented process
-* They frequently have variations from the process
-* They are of high importance
+- They do not follow a well-documented process
+- They frequently have variations from the process
+- They are of high importance
 
 In these cases, a 2nd approval is valuable because:
 

@@ -8,9 +8,9 @@ uri: the-steps-to-do-after-adding-a-page
 created: 2016-07-29T18:03:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-know-the-steps-to-do-after-adding-an-aspx-page

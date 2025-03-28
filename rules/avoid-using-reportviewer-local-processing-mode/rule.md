@@ -8,7 +8,7 @@ uri: avoid-using-reportviewer-local-processing-mode
 created: 2016-11-11T18:00:54.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-reportviewer-local-processing-mode
@@ -18,10 +18,10 @@ redirects:
 
 <!--endintro-->
 
-* Local Processing Mode
+- Local Processing Mode
   This mode uses [client report definition (.rdlc) files](https://www.ssw.com.au/ssw/redirect/msdn/CreatingClientReportDefinition.htm), all report processing is performed on the computer that hosts the application. All data used by the report must be retrieved from data that the client application provides, so you have to configure the ReportViewer control's Data sources, Report parameters.
   See [Configuring ReportViewer for Local Processing](https://www.ssw.com.au/ssw/redirect/msdn/ConfiguringReportViewer.htm) for more information.
-* Remote Processing Mode
+- Remote Processing Mode
   This mode needs the Microsoft SQL Server 2005 Reporting Services report server, The report server processes the data and renders the report into an output format. The ReportViewer control retrieves the finished report from the report server and displays it on the screen, so you have to configure the ReportViewer control's report server information.
   See [Configuring ReportViewer for Remote Processing](https://www.ssw.com.au/ssw/redirect/msdn/ConfiguringReportViewerforRemotProcessing.htm) for more information.
 

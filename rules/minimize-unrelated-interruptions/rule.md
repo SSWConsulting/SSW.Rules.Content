@@ -8,7 +8,7 @@ uri: minimize-unrelated-interruptions
 created: 2023-09-15T01:08:06.0000000Z
 authors:
   - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
+    url: https://ww.ssw.com.au/people/jonty-gardner
 related:
   - do-you-have-successful-remote-meetings
 ---

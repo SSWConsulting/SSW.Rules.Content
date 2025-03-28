@@ -8,9 +8,9 @@ uri: best-way-to-display-code-on-your-website
 created: 2016-08-05T18:57:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-know-the-best-way-to-display-code-on-your-website
@@ -24,8 +24,8 @@ Displaying code on a website is an important aspect of creating developer-friend
 
 Use HTML `<code>` and `<pre>` tags:
 
-* The `<code>` tag is used for inline or block-level code snippets that are embedded within other text. It applies minimal styling, indicating that the enclosed content is code. However, it does not preserve formatting like indentation or line breaks
-* The `<code>` tag is used to display preformatted text and code blocks where whitespace, line breaks, and indentation are preserved. It’s especially useful for larger code blocks where maintaining the original formatting is essential. This tag ensures that the code appears exactly as written in the source
+- The `<code>` tag is used for inline or block-level code snippets that are embedded within other text. It applies minimal styling, indicating that the enclosed content is code. However, it does not preserve formatting like indentation or line breaks
+- The `<code>` tag is used to display preformatted text and code blocks where whitespace, line breaks, and indentation are preserved. It’s especially useful for larger code blocks where maintaining the original formatting is essential. This tag ensures that the code appears exactly as written in the source
 
 ### Using monospace fonts and syntax highlighting
 

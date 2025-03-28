@@ -5,9 +5,9 @@ title: Do you make complaints a positive experience?
 uri: make-complaints-a-positive-experience
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - how-to-take-feedback-or-criticism
   - do-you-seek-clarification-via-the-telephone-first

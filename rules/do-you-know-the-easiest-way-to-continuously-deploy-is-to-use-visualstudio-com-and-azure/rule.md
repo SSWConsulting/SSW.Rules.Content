@@ -6,7 +6,7 @@ title: Do you know the easiest way to continuously deploy is to use
 uri: do-you-know-the-easiest-way-to-continuously-deploy-is-to-use-visualstudio-com-and-azure
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 created: 2013-02-05T19:26:18.000Z

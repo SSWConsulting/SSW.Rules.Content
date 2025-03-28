@@ -5,7 +5,7 @@ title: Do you use comments not exclusion files when you ignore a Code Analysis r
 uri: do-you-use-comments-not-exclusion-files-when-you-ignore-a-code-analysis-rule
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects: []
 created: 2012-06-12T14:17:49.000Z

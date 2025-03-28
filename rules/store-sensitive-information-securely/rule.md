@@ -5,7 +5,7 @@ title: Do you store your sensitive information securely
 uri: store-sensitive-information-securely
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy/
+    url: https://ww.ssw.com.au/people/warwick-leahy/
 related:
   - password-sharing-practices
   - choose-an-enterprise-password-manager

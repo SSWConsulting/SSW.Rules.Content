@@ -5,7 +5,7 @@ title: GitHub Issues – Do you sync to Azure DevOps?
 uri: sync-your-github-issues-to-azure-devops
 authors:
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
   - do-you-sync-your-github-issues-to-azure-devops

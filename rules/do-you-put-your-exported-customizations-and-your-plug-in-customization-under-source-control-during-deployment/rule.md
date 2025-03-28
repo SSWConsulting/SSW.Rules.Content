@@ -8,7 +8,7 @@ uri: do-you-put-your-exported-customizations-and-your-plug-in-customization-unde
 created: 2012-12-10T20:21:04.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

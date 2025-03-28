@@ -8,7 +8,7 @@ uri: the-9-important-parts-of-azure
 created: 2019-06-28T23:50:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-9-important-parts-of-azure

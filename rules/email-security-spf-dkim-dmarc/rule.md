@@ -5,7 +5,7 @@ title: Do you use SPF, DKIM and DMARC for email security?
 uri: email-security-spf-dkim-dmarc
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
 related:
   - do-you-know-how-to-reduce-spam
 created: 2023-11-02T04:12:53.453Z

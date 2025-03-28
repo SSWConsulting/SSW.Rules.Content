@@ -5,7 +5,7 @@ title: Do you use eSignature solutions?
 uri: use-esignature-solutions
 authors:
   - title: Stephan Fako
-    url: https://ssw.com.au/people/stephan-fako/
+    url: https://ww.ssw.com.au/people/stephan-fako/
 created: 2023-10-23T04:53:46.651Z
 guid: 2a88c2e4-e72d-4b6f-9346-6067c276f6c5
 ---

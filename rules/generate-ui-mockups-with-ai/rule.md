@@ -5,21 +5,21 @@ title: Do you generate UI mockups with AI?
 uri: generate-ui-mockups-with-ai
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Joseph Fernandez
-    url: https://ssw.com.au/people/joseph-fernandez
+    url: https://ww.ssw.com.au/people/joseph-fernandez
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: https://ww.ssw.com.au/people/jack-pettit
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Louis Roa
-    url: https://ssw.com.au/people/louis-roa
+    url: https://ww.ssw.com.au/people/louis-roa
 related:
   - mockups-and-prototypes
   - storyboards
@@ -61,7 +61,7 @@ If you're a dev that likes (or is forced) to moonlight as a designer these tools
 
 Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 
-![Figure: A matrix-style blog site](matrix.gif "matrix blog")
+![Figure: A matrix-style blog site](matrix.gif 'matrix blog')
 
 ::: greybox
 🤖 AI prompts excamples:
@@ -74,10 +74,11 @@ Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 
 ### Tools
 
-* [v0.dev](https://v0.dev)
-* builder.io
+- [v0.dev](https://v0.dev)
+- builder.io
 
-  * [Generate Figma Designs with AI](https://www.builder.io/blog/ai-figma)
-  * [Design to Code](https://www.builder.io/m/design-to-code)
-* [UIMagic](https://www.uimagic.io/) (waitlist)
-* [Pineapple Builder](https://www.pineapplebuilder.com/)
+  - [Generate Figma Designs with AI](https://www.builder.io/blog/ai-figma)
+  - [Design to Code](https://www.builder.io/m/design-to-code)
+
+- [UIMagic](https://www.uimagic.io/) (waitlist)
+- [Pineapple Builder](https://www.pineapplebuilder.com/)

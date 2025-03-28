@@ -8,7 +8,7 @@ uri: do-you-explain-the-cone-of-uncertainty-to-people-on-the-fence-about-agile
 created: 2011-07-14T20:28:05.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

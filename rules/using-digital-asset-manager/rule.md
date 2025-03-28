@@ -5,14 +5,13 @@ title: Video Data - Do you use a Digital Asset Manager (DAM) to manage a stock l
 uri: using-digital-asset-manager-for-stock
 authors:
   - title: Will Greentree
-    url: https://ssw.com.au/people/alumni/will-greentree
+    url: https://ww.ssw.com.au/people/alumni/will-greentree
 related:
   - how-to-name-documents
   - semantic-versioning
   - organize-and-back-up-your-files
 created: 2023-08-09T02:20:28.506Z
 guid: 114547d6-0e8b-47aa-aee6-5e6b12b57212
-
 ---
 
 Trying to manage your large library of digital files can be pretty difficult using just Windows File Explorer or Mac's Finder as you are limited to folder structure and file names, which can lead to lost and abandoned assets due to ridged search functionality. When trying to preview your assets, your operating system may also lack support for previewing proprietary formats (E.g. Fujifilm's .RAF or Nikon's .NEF). A good **Digital Asset Manager (DAM)** like Adobe Bridge solves this.
@@ -23,20 +22,20 @@ While there are several digital asset managers on the market, each with its stre
 
 When video editing, you might need a certain shot that was not captured on production due to oversite or budget constrictions. That is why editors turn to stock footage libraries like the following:
 
-* [filmsupply.com](https://www.filmsupply.com)
-* [storyblocks.com](https://www.storyblocks.com)
-* [artlist.io](https://artlist.io)
-* [stock.adobe.com](https://stock.adobe.com)
-* [motionarray.com](https://motionarray.com)
-* [elements.envato.com](https://elements.envato.com)
-* [pixabay.com](https://pixabay.com)
-* [pexels.com](https://www.pexels.com)
+- [filmsupply.com](https://www.filmsupply.com)
+- [storyblocks.com](https://www.storyblocks.com)
+- [artlist.io](https://artlist.io)
+- [stock.adobe.com](https://stock.adobe.com)
+- [motionarray.com](https://motionarray.com)
+- [elements.envato.com](https://elements.envato.com)
+- [pixabay.com](https://pixabay.com)
+- [pexels.com](https://www.pexels.com)
 
 While stock footage sites are great for getting high-quality footage for your project, they lack the personal touch of your company or brand. That is why it is important to build your own internal stock library. While this does add extra effort to each project you shoot to build your library, the benefits of doing so include:
 
-* Branding awareness - Having footage that includes your logos
-* Culture - Showing off the people that work with you
-* Ownership - Copyright ownership of the footage
+- Branding awareness - Having footage that includes your logos
+- Culture - Showing off the people that work with you
+- Ownership - Copyright ownership of the footage
 
 ## How to get started with creating your stock library
 
@@ -70,9 +69,9 @@ Consider organizing videos based on projects, clients, or types of footage (E.g.
 
 Leverage the power of metadata with tags and or keywords and enhance searchability. In Adobe Bridge you can provide additional information about your media asset. Add relevant details such as project name, shoot location, keywords, and descriptions to your file, doing so will make it significantly easier to search for specific videos and streamline your workflow.
 
-![Figure: Adobe Bridge metadata tab](scr-20230809-odug.png "Figure: Adobe Bridge metadata tab")
+![Figure: Adobe Bridge metadata tab](scr-20230809-odug.png 'Figure: Adobe Bridge metadata tab')
 
-![Figure: Adobe Bridge keyword list tab](scr-20230809-oeed.png "Figure: Adobe Bridge keyword list tab")
+![Figure: Adobe Bridge keyword list tab](scr-20230809-oeed.png 'Figure: Adobe Bridge keyword list tab')
 
 ## Importing and Exporting Keywords for team collaboration
 
@@ -81,13 +80,13 @@ You can do this by importing and exporting keywords .XML file for your team to u
 
 1. First Navigate to the Keywords tab and right-click the tab to open the dropdown menu.
 
-   ![Figure: Adobe Bridge Keywords tab location](scr-20230809-nqcl.png "Figure: Adobe Bridge Keywords tab location")
+   ![Figure: Adobe Bridge Keywords tab location](scr-20230809-nqcl.png 'Figure: Adobe Bridge Keywords tab location')
 
 2. Next, click on export to export your current keyword list.
 
-   ![Figure: Export keywords list](export-scr.png "Figure: Export keywords list")
+   ![Figure: Export keywords list](export-scr.png 'Figure: Export keywords list')
 
 3. Save this file with a version number to a shared folder accessible to everyone in your team.
 4. To import an existing keyword list, navigate and click on import from the same list. Then select the .XML file you want to import.
 
-   ![Figure: Import keywords list](import-scr.png "Figure: Import keywords list")
+   ![Figure: Import keywords list](import-scr.png 'Figure: Import keywords list')

@@ -8,15 +8,15 @@ uri: where-to-keep-your-files
 created: 2011-08-29T19:18:47.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Liam Elliott
-    url: https://ssw.com.au/people/liam-elliott
+    url: https://ww.ssw.com.au/people/liam-elliott
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
   - title: Tanya Leahy
-    url: https://ssw.com.au/people/tanya-leahy
+    url: https://ww.ssw.com.au/people/tanya-leahy
 related:
   - integrate-dynamics-365-and-microsoft-teams
 redirects:
@@ -47,10 +47,10 @@ More at [Sales - Do you track all sales related activities in CRM?](/sales-do-yo
 
 For most projects, you need to quickly store and locate important details and documents such as:
 
-* Server details (Dev, Test, Production)
-* Change-log documents
-* Upcoming features (most often in Word or OneNote)
-* General documents e.g. Requirements/Specifications (Note: it is possible to share documents from Microsoft Teams externally, but not from Teams directly... just open it in Office Online or a specific Office app first)
+- Server details (Dev, Test, Production)
+- Change-log documents
+- Upcoming features (most often in Word or OneNote)
+- General documents e.g. Requirements/Specifications (Note: it is possible to share documents from Microsoft Teams externally, but not from Teams directly... just open it in Office Online or a specific Office app first)
 
 ::: bad  
 ![Figure: Bad example - Files are stored on the desktop. Even though it is backed up by OneDrive, the files are not easily accessed by other team members if needed](Files-saved-on-Desktop.jpg)
@@ -76,12 +76,12 @@ For most projects, you need to quickly store and locate important details and do
 
 1. For developers
 
-* Code - it belongs in GitHub, Azure DevOps, etc.
-* The [7 important documents](/do-you-review-the-documentation) - should be stored in Azure DevOps... or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
+- Code - it belongs in GitHub, Azure DevOps, etc.
+- The [7 important documents](/do-you-review-the-documentation) - should be stored in Azure DevOps... or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
 2. For designers
 
-* Large files - OneDrive is a better choice. See: [Do you know the best Source Control for Designers?](/do-you-know-the-best-source-control-for-designers)
+- Large files - OneDrive is a better choice. See: [Do you know the best Source Control for Designers?](/do-you-know-the-best-source-control-for-designers)
 
 ### What about usernames and passwords?
 

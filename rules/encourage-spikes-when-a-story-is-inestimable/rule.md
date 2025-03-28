@@ -6,11 +6,11 @@ title: Planning Meeting - Do you encourage Spikes (aka investigation tasks) when
 uri: encourage-spikes-when-a-story-is-inestimable
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: https://ww.ssw.com.au/people/paul-neumeyer
 related:
   - spike-vs-poc
 redirects:

@@ -8,7 +8,7 @@ uri: do-you-use-photoshop-artboards-to-create-campaign-images
 created: 2015-11-09T01:44:02.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 ---

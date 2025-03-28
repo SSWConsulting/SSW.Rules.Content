@@ -5,13 +5,13 @@ title: Do you send "As Per Our Conversation" emails?
 uri: as-per-our-conversation-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
 related:
   - do-you-know-when-to-do-use-checked-by-xxx
   - do-you-manage-up
@@ -58,23 +58,23 @@ Figure: Good example - Using "As per our conversation" email
 
 This is not just a 'cover my ass' email. This is for several reasons:
 
-* To make sure that you did not get the message wrong
-* To keep an audit trail of agreed decisions
-* To keep people, who were not a party to the conversation, informed about the progress
+- To make sure that you did not get the message wrong
+- To keep an audit trail of agreed decisions
+- To keep people, who were not a party to the conversation, informed about the progress
 
 Use this approach internally and with clients. As a result, expect to see "as per our conversation" emails that:
 
-* **Require a task to be completed**
-* Explain the logic of the decision
-* Include URLs that were referred to
-* Can be referred back to in the future
+- **Require a task to be completed**
+- Explain the logic of the decision
+- Include URLs that were referred to
+- Can be referred back to in the future
 
 ::: info
 **Notes:**
 
-* This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
-* Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
-* For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
+- This is most likely to happen after a conversation started **by the client**. If **you** are the one making the first contact, also [prepare, then confirm conversations/decisions](/do-you-prepare-then-confirm-conversations-decisions)
+- Add other interested parties into the 'as per our conversation' as required. _'As per our conversation with Bob, I am going to do xxx'_.
+- For a major architectural decision, etc. that could be difficult or expensive to change later, which was made against your recommendation, consider sending a ["For the record" email](/do-you-send-a-for-the-record-email-when-you-disagree).
 
 :::
 
@@ -82,16 +82,16 @@ It's easy to fall into the trap of sounding rather robotic if you start every em
 
 "As per our conversation" alternatives:
 
-* Thanks for the chat
-* Good talking to you
-* As discussed...
+- Thanks for the chat
+- Good talking to you
+- As discussed...
 
 "As per the message I left on your mobile" alternatives:
 
-* I couldn't catch you on the phone today.
-* I just left you a quick voicemail.
-* I called earlier but couldn't get through.
-* Hey I just called earlier to say...
+- I couldn't catch you on the phone today.
+- I just left you a quick voicemail.
+- I called earlier but couldn't get through.
+- Hey I just called earlier to say...
 
 ### What if they don't answer?
 

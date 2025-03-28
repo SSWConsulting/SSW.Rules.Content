@@ -8,7 +8,7 @@ uri: have-the-right-attitude
 created: 2018-04-09T21:53:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-the-right-attitude

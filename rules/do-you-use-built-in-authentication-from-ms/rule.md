@@ -7,19 +7,18 @@ guid: ddcc3cb1-7b5b-402b-ad6d-425efe194a18
 uri: do-you-use-built-in-authentication-from-ms
 created: 2013-05-02T21:19:33.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- deprecated-do-you-use-built-in-authentication-from-ms
-
+  - deprecated-do-you-use-built-in-authentication-from-ms
 ---
 
 Assuming you want:
 
-* Full blown user management
-* Nice Controls eg. Login, Change Password
-* To be able to implement authentication without a Security Consultant to check
+- Full blown user management
+- Nice Controls eg. Login, Change Password
+- To be able to implement authentication without a Security Consultant to check
 
 The options are:
 
@@ -35,7 +34,7 @@ So if it is simple, straightforward, standardized, integrated well with the exis
 
 No OAuth eg. Facebook
 
-### Option 2: [ASP.NET](http&#58;//www.asp.net/) Membership provider (custom)
+### Option 2: [ASP.NET](http://www.asp.net/) Membership provider (custom)
 
 (Inherits from Option 1)
 
@@ -45,7 +44,7 @@ Easy. A typical implementation of a custom membership or role provider is a simp
 
 Potentially a glorified ValidateUser/GetRoles method.
 
-Little messy if you  **don’t** want full blown user management. Then you must leave a number of NotImplementedException methods (because you are not going to administer the store through the provider). In that case implement a base class, leave 28 methods not implemented, implement ValidateUser that takes two strings and returns a bool ;)
+Little messy if you **don’t** want full blown user management. Then you must leave a number of NotImplementedException methods (because you are not going to administer the store through the provider). In that case implement a base class, leave 28 methods not implemented, implement ValidateUser that takes two strings and returns a bool ;)
 
 Most clients have more concerns about them making mistakes in the custom security code, that would compromise the security of the application, then about using a bloated existing platform security mechanism correctly (when there are thousands of samples and documentation out there about how to do so correctly).
 
@@ -75,7 +74,7 @@ The default for VS 2012 MVC 4 templates.
 
 Yes to OAuth eg. Facebook (out of the box)
 
-**Note:** If you need to use for Web Forms see [Adding the SimpleMembership provider to an ASP.NET Web Forms app](http&#58;//blogs.msmvps.com/luisabreu/blog/2012/09/24/adding-the-simplemembership-provider-to-an-asp-net-web-forms-app/).
+**Note:** If you need to use for Web Forms see [Adding the SimpleMembership provider to an ASP.NET Web Forms app](http://blogs.msmvps.com/luisabreu/blog/2012/09/24/adding-the-simplemembership-provider-to-an-asp-net-web-forms-app/).
 
 ### Option 5: Use “Membership Reboot” on GitHub (a Gurus one) (RECOMMENDED)
 
@@ -83,21 +82,21 @@ A solid, more flexible and open source alternative to the ASP.NET membership pro
 
 Typically if you want to use your own database tables (even non SQL)
 
-**Description:** [Think twice about using MembershipProvider (and SimpleMembership)](http&#58;//brockallen.com/2012/09/02/think-twice-about-using-membershipprovider-and-simplemembership/)
+**Description:** [Think twice about using MembershipProvider (and SimpleMembership)](http://brockallen.com/2012/09/02/think-twice-about-using-membershipprovider-and-simplemembership/)
 
-**Source:** [https://github.com/brockallen/BrockAllen.MembershipReboot](https&#58;//github.com/brockallen/BrockAllen.MembershipReboot)
+**Source:** [https://github.com/brockallen/BrockAllen.MembershipReboot](https://github.com/brockallen/BrockAllen.MembershipReboot)
 
 This OSS account management library manages these sorts of things for you:
 
-* PBKDF2 (Proper password storage)
-* Password reset
-* Account lockout for password guessing
-* Account confirmation via email, etc
+- PBKDF2 (Proper password storage)
+- Password reset
+- Account lockout for password guessing
+- Account confirmation via email, etc
 
 Bonus:
 
-* It is multi-tenant
-* It is claims aware (some complicated security thing from Microsoft that will revolutionize security)
+- It is multi-tenant
+- It is claims aware (some complicated security thing from Microsoft that will revolutionize security)
 
 The design is different than ASP.NET Membership in that the security goo is packaged separately from the persistence (the database). You’d not normally need to change the security stuff (though it is extensible).
 
@@ -111,6 +110,6 @@ Of course you should not roll your own security. This option is building your ow
 
 The ASP.NET membership provider is wired in at a deep level in the ASP.NET pipeline. A roll your own solution loses you the benefits of leveraging this integration eg. In Silverlight and the WebAPI
 
-An example of completely removing ASP.NET Membership Providers: [Kicking ASP.NET Providers to the Curb](http&#58;//www.devproconnections.com/article/aspnet2/Kicking-ASP-NET-Providers-to-the-Curb-129584) - And that actually works fine, but with one big, ugly, drawback. The site is able to authenticate and authorize as needed, but you drop in a few .ashx or other things like Elmah, CacheManagement, etc, and then tried to restrict access to them... it obviously is not able to.
+An example of completely removing ASP.NET Membership Providers: [Kicking ASP.NET Providers to the Curb](http://www.devproconnections.com/article/aspnet2/Kicking-ASP-NET-Providers-to-the-Curb-129584) - And that actually works fine, but with one big, ugly, drawback. The site is able to authenticate and authorize as needed, but you drop in a few .ashx or other things like Elmah, CacheManagement, etc, and then tried to restrict access to them... it obviously is not able to.
 
 **Note:** Gurus use Windows Identity Foundation (and IdentityModel).

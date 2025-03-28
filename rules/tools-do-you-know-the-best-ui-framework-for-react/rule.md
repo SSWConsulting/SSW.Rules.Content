@@ -3,11 +3,11 @@ seoDescription: Discover the best UI framework for React - Material-UI, Bootstra
 type: rule
 title: Tools - Do you know the best UI framework for React?
 uri: tools-do-you-know-the-best-ui-framework-for-react
-authors: 
+authors:
   - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
+    url: https://ww.ssw.com.au/people/aman-kumar
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2019-05-16T06:19:43.000Z
@@ -19,10 +19,10 @@ The main contenders for the best UI framework for React are:
 
 <!--endintro-->
 
-* [MATERIAL-UI](https://material-ui.com/)
-* [Bootstrap](https://getbootstrap.com/)
-* [Tailwind](https://tailwindcss.com/)
-* [Ant Design](https://ant.design/)
+- [MATERIAL-UI](https://material-ui.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [Tailwind](https://tailwindcss.com/)
+- [Ant Design](https://ant.design/)
 
 ## MATERIAL-UI
 
@@ -44,7 +44,7 @@ Get started: **[react-bootstrap-ui-official-docs-example](https://stackblitz.com
 
 Tailwind is a popular utility-first CSS framework that simplifies the process of building user interfaces. It provides a comprehensive set of pre-built utility classes that can be easily combined to create responsive and flexible designs. With Tailwind, developers can quickly style their components without writing custom CSS, resulting in faster development and easier maintenance.
 
-Get started: **[tailwind-example**](https://tailwindcss.com/docs/utility-first)**
+Get started: **[tailwind-example**](https://tailwindcss.com/docs/utility-first)\*\*
 
 ## Ant Design
 

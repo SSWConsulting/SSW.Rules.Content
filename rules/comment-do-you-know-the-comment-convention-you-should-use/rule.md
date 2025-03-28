@@ -8,15 +8,15 @@ uri: comment-do-you-know-the-comment-convention-you-should-use
 created: 2011-11-18T03:52:32.0000000Z
 authors:
   - title: David Klein
-    url: https://ssw.com.au/people/david-klein
+    url: https://ww.ssw.com.au/people/david-klein
     noimage: true
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: https://ww.ssw.com.au/people/tristan-kurniawan
 related: []
 redirects: []
 ---

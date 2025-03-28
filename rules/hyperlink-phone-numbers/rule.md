@@ -8,9 +8,9 @@ uri: hyperlink-phone-numbers
 created: 2015-12-03T01:00:44.0000000Z
 authors:
   - title: Farrukh Khan
-    url: https://ssw.com.au/people/farrukh-khan
+    url: https://ww.ssw.com.au/people/farrukh-khan
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-to-hyperlink-your-phone-numbers-2

@@ -6,12 +6,13 @@ seoDescription: Keep track of expiring app registration secrets and certificates
 uri: expiring-app-secrets-certificates
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud/
+    url: https://ww.ssw.com.au/people/brady-stroud/
 created: 2023-05-12T00:55:28.532Z
 guid: 429dbbef-ea36-4fc6-b358-924330966b4a
 ---
+
 In Entra ID (formerly Azure AD), App Registrations are used to establish a trust relationship between your app and the Microsoft identity platform. This allows you to give your app access to various resources, such as Graph API.
 
 App Registrations use secrets or certificates for authentication. It is important to keep track of the expiry date of these authentication methods, so you can update them before things break.

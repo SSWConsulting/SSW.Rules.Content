@@ -5,7 +5,7 @@ title: Do you send some "Client Love" a few days after the Initial Meeting?
 uri: client-love-after-initial-meeting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - weekly-client-love
   - encourage-client-love
@@ -22,9 +22,9 @@ You've recently had an engaging initial meeting with a prospective client. While
 
 ### Why is this important?
 
-* **Builds Relationship** - Sending something educational and relevant to the client's project shows that you're invested in their success
-* **Stands Out** - It differentiates you from competitors who may not take this extra step
-* **Encourages Engagement** - It keeps the conversation going and makes it more likely for the client to think of you when they're ready to proceed
+- **Builds Relationship** - Sending something educational and relevant to the client's project shows that you're invested in their success
+- **Stands Out** - It differentiates you from competitors who may not take this extra step
+- **Encourages Engagement** - It keeps the conversation going and makes it more likely for the client to think of you when they're ready to proceed
 
 ### How to implement
 
@@ -45,11 +45,11 @@ You've recently had an engaging initial meeting with a prospective client. While
    Figure: Good example - Setting a reminder ensures you won't forget this crucial step.
    :::
 
-3. Find relevant material
+2. Find relevant material
 
    Look for rules, articles, whitepapers, or videos that are directly related to what the client is working on or interested in. Make sure the material is educational and offers value.
 
-4. Send the email
+3. Send the email
 
    Compose an email that includes the educational material you've found. Make it personal and relevant to the discussion you had during the initial meeting.
 

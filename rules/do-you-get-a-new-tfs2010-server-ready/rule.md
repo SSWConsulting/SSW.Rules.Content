@@ -8,9 +8,9 @@ uri: do-you-get-a-new-tfs2010-server-ready
 created: 2009-11-02T23:10:40.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects: []
 ---

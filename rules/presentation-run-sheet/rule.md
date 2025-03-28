@@ -5,7 +5,7 @@ title: Do you provide a presentation run sheet?
 uri: presentation-run-sheet
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related: []
 redirects: []
 created: 2023-10-22T02:15:11.000Z

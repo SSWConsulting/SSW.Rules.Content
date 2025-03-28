@@ -5,11 +5,11 @@ title: Do you know how to name documents/files?
 uri: how-to-name-documents
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - do-you-know-how-to-use-sharepoint-search
   - use-dashes-in-urls
@@ -33,7 +33,7 @@ Following good practices when naming files ensures clarity, consistency, and eff
 
 ### ❌ Avoid special characters
 
-Refrain from using special characters like / \ ? % * : | " < >. These can cause errors on certain systems.
+Refrain from using special characters like / \ ? % \* : | " < >. These can cause errors on certain systems.
 
 ### ✅ Use relevant words
 
@@ -110,8 +110,8 @@ You may use Uppercase in the first letter in Kebab-Case, however it's important 
 
 ## Extra
 
-* **Never use capitalized letters in file extensions** - It can lead to compatibility issues and potential confusion across different operating systems and platforms. For example, saving an image as "image.JPG" instead of "image.jpg" might result in it not displaying correctly on certain platforms or being misinterpreted by software that is case-sensitive. Always use lowercase for consistency and reliability.
+- **Never use capitalized letters in file extensions** - It can lead to compatibility issues and potential confusion across different operating systems and platforms. For example, saving an image as "image.JPG" instead of "image.jpg" might result in it not displaying correctly on certain platforms or being misinterpreted by software that is case-sensitive. Always use lowercase for consistency and reliability.
 
-* **Ensure file names are unique** - Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames.
+- **Ensure file names are unique** - Within a team, there may be a mix of operating systems being used by its members. For users on MacOS or other OS's that have case-sensitive filenames, it's crucial to ensure that filenames are unique. For example, don't use 'File.txt' if 'file.txt' already exists. This is especially important if these files are being tracked with Git, as it can cause issues for users on Windows, which has case-insensitive filenames.
 
-* **Add relevant metadata where possible** - If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.
+- **Add relevant metadata where possible** - If a document library is configured with metadata fields, add as much relevant information as you can. Metadata is more highly regarded by search than the contents within documents, so by adding relevant terms to a documents metadata, you will almost certainly have a positive effect on the relevance of search results.

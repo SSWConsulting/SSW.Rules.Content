@@ -8,7 +8,7 @@ uri: return-a-value-indicating-the-status
 created: 2019-11-08T17:28:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - stored-procedures-do-you-return-a-value-indicating-the-status

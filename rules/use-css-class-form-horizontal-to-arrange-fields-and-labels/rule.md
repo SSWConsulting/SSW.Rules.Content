@@ -8,7 +8,7 @@ uri: use-css-class-form-horizontal-to-arrange-fields-and-labels
 created: 2014-09-08T20:59:34.0000000Z
 authors:
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
 related:
   - how-to-align-your-form-labels
   - do-you-know-how-to-arrange-forms
@@ -32,8 +32,7 @@ Bootstrap makes this easy. Use the css class **form-horizontal** on your html fo
         type="email"
         class="form-control"
         id="inputEmail3"
-        placeholder="Email"
-      />
+        placeholder="Email" />
     </div>
   </div>
   <div class="form-group">
@@ -43,8 +42,7 @@ Bootstrap makes this easy. Use the css class **form-horizontal** on your html fo
         type="password"
         class="form-control"
         id="inputPassword3"
-        placeholder="Password"
-      />
+        placeholder="Password" />
     </div>
   </div>
 </form>

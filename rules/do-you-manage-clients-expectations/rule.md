@@ -5,7 +5,7 @@ title: Do you manage clients' expectations?
 uri: do-you-manage-clients-expectations
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - triaging-do-you-correctly-triage-additional-item-requests
   - inform-clients-about-estimates-overrun

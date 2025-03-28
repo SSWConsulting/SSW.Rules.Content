@@ -5,9 +5,9 @@ title: Do you use the right SharePoint development environment?
 uri: use-the-right-sharepoint-development-environment
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related:
   - sharepoint-search
 redirects:

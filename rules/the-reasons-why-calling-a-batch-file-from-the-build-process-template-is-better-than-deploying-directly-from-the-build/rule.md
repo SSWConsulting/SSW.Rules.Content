@@ -8,7 +8,7 @@ uri: the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-bet
 created: 2013-02-05T19:39:39.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects:
   - do-you-know-the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-better-than-deploying-directly-from-the-build

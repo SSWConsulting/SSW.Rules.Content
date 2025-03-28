@@ -8,7 +8,7 @@ uri: do-you-know-how-to-get-the-sharepoint-version
 created: 2013-09-10T06:58:12.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

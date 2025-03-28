@@ -6,13 +6,12 @@ title: Do you know to embed an RS report in ASP.NET page the right way (using Re
 guid: a09c4313-0c5b-4ee9-9095-ed2a01d43e9e
 uri: embed-rs-report-in-asp-net-page
 created: 2024-09-16T09:01:00.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 ::: info
@@ -29,7 +28,7 @@ The bad old way was to use an IFrame and point it to the report's URL (including
 <IFRAME width="100%" height="700" TITLE="Report" src="http://reports.internal.ssw.com.au/ReportServer?
     %2fTimeProOnlineReports%2fClientRegisteredProductsByDate
     &rs:Command=Render&ClientContactID=<%=mintClientContactID%>&ClientExInfo=<%=clientInfo%>&rc:Parameters=false">
-</IFRAME>                      
+</IFRAME>
 ```
 
 ::: bad  

@@ -5,7 +5,7 @@ title: Do you limit the duration of your board meetings?
 uri: limit-duration
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren/
+    url: https://ww.ssw.com.au/people/ulysses-maclaren/
 created: 2024-02-28T22:58:09.052Z
 guid: b33dbb23-15e6-4dfc-b0f0-66d23c095ce4
 archivedreason: null

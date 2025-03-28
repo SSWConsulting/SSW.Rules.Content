@@ -5,9 +5,9 @@ title: Do you use Architectural Decision Records (ADRs)?
 uri: architectural-decision-records
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
 related:
   - checked-by-xxx
   - conduct-a-test-please
@@ -19,6 +19,7 @@ redirects:
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 ---
+
 Architectural Decision Records (ADRs) are lightweight documents used to record important decisions in your project, and the reasons behind them.
 
 These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".
@@ -27,12 +28,12 @@ These records aren't limited to architectural choices but can encompass any cruc
 
 Typically, this is the data it will have:
 
-* Title
-* Deciders
-* Problem / Context
-* Decision
-* Decision Drivers
-* Options and Pros/Cons
+- Title
+- Deciders
+- Problem / Context
+- Decision
+- Decision Drivers
+- Options and Pros/Cons
 
 `youtube: https://youtu.be/9w5yApybZbY`
 **Video: Architecture Decision Records (ADRs) | Daniel Mackay (9 min)**
@@ -67,20 +68,20 @@ They should be stored wherever the technical documentation for your project live
 
 ## What decisions go in an ADR?
 
-* High impact decisions
-* Irreversible or costly to change
-* Decisions with long term implications
-* Anything that needs to be discussed with others
-* Choosing between multiple options with different pros and cons
+- High impact decisions
+- Irreversible or costly to change
+- Decisions with long term implications
+- Anything that needs to be discussed with others
+- Choosing between multiple options with different pros and cons
 
 ## What can I use to create and manage ADRs?
 
 An ADR can be in any format, but it should be easily readable and accessible. Some options are:
 
-* ⭐ Recommended - A dedicated ADR tool like Log4Brains (see details below)
-* Markdown files in your git repo
-* Wiki (e.g. GitHub or Confluence)
-* Loop
+- ⭐ Recommended - A dedicated ADR tool like Log4Brains (see details below)
+- Markdown files in your git repo
+- Wiki (e.g. GitHub or Confluence)
+- Loop
 
 #### Log4Brains
 
@@ -122,4 +123,4 @@ You can see more examples of ADRs with log4brains in action on our [SSW.CleanArc
 
 ## Related articles
 
-* [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)
+- [Dan Does Code - Demystifying Architectural Decision Records Why Every Project Needs Them](https://www.dandoescode.com/blog/demystifying-architectural-decision-records-why-every-project-needs-them)

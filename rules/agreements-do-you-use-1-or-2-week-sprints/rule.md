@@ -5,7 +5,7 @@ title: Agreements - Do you have 1 or 2-week Sprint?
 uri: agreements-do-you-use-1-or-2-week-sprints
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 created: 2012-05-01T02:16:06.000Z
@@ -31,7 +31,7 @@ It is important to note that as more project management overheads are added, the
 
 > "The more you want to see how much you're spending, the more you'll spend".
 >
-> * Ulysses Maclaren
+> - Ulysses Maclaren
 
 It's important to find the right balance for you.
 

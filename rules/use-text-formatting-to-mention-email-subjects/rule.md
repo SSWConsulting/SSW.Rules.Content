@@ -8,7 +8,7 @@ uri: use-text-formatting-to-mention-email-subjects
 created: 2023-12-07T16:06:33.0000000Z
 authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - use-emojis
 redirects:

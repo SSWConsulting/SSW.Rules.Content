@@ -8,7 +8,7 @@ uri: escalate-key-updates
 created: 2023-06-20T23:53:39.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - when-you-use-mentions-in-a-pbi
 redirects:
@@ -35,12 +35,13 @@ Not every PBI will require an email, but if it is a key update or deliverable, i
 
 For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders. If you working on a big system or internal projects, include the feature area or project name in the subject for additional context.
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | {{ PRODUCT OWNER }}; {{ OTHER STAKEHOLDERS }} |
-| Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |  
+|          |                                                        |
+| -------- | ------------------------------------------------------ |
+| To:      | {{ PRODUCT OWNER }}; {{ OTHER STAKEHOLDERS }}          |
+| Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |
+
 ::: email-content
 
 ### Hi Team

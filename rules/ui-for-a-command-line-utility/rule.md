@@ -5,7 +5,7 @@ title: Do you have a UI for a command line utility?
 uri: ui-for-a-command-line-utility
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:40:00.000Z
 guid: ab2f364e-4522-4b0a-9797-3bac00ef25d3
 ---

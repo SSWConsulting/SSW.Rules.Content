@@ -5,11 +5,11 @@ title: Do you start reading code?
 uri: do-you-start-reading-code
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 created: 2012-03-20T03:46:01.000Z
@@ -21,17 +21,17 @@ Great code isn't just about making computers do stuff; it's about making sure hu
 
 <!--endintro-->
 
-> “Aim for simplicity. I want to code to read like poetry”*
+> “Aim for simplicity. I want to code to read like poetry”\*
 >
-> * Terje Sandstrom  
+> - Terje Sandstrom
 
 ### Good code characteristics
 
-* Is clear and easy to read
-* Has consistent and meaningful names for everything
-* Has no repeated or redundant code
-* Has neat formatting
-* Explains "why" when you read down, and "how" when you read left to right
+- Is clear and easy to read
+- Has consistent and meaningful names for everything
+- Has no repeated or redundant code
+- Has neat formatting
+- Explains "why" when you read down, and "how" when you read left to right
 
 ```csharp
 public IEnumerable<Customer> GetSupplierCustomersWithMoreThanZeroOrders(int supplierId) {

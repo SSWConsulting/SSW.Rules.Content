@@ -1,21 +1,20 @@
 ---
 seoDescription: Learn how to handle bugs in your product backlog with proven Agile and Scrum strategies.
 type: rule
-archivedreason: 
+archivedreason:
 title: Bugs - Do you know how to handle Bugs on the Product Backlog?
 guid: 1e02b1e3-70e2-4aac-a716-c20638ad6424
 uri: bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog
 created: 2010-05-06T04:38:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
+  - title: Eric Phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects: []
-
 ---
 
 Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate. All other bugs found independent of the work on the current Sprint are placed on the Product Backlog.
@@ -32,11 +31,11 @@ Bugs found that are independent of the work on the current Sprint are placed on 
 
 This process:
 
-* Works around the problem of Bugs not having Story Points
-* Allows Bugs of the same rank to be sensibly grouped together
-* Prevents arbitrary groupings of Bugs which cannot be properly ranked
-* Follows the estimate just-in-time philosophy of Scrum
-* Prevents small Bugs taking up a whole Story Point
+- Works around the problem of Bugs not having Story Points
+- Allows Bugs of the same rank to be sensibly grouped together
+- Prevents arbitrary groupings of Bugs which cannot be properly ranked
+- Follows the estimate just-in-time philosophy of Scrum
+- Prevents small Bugs taking up a whole Story Point
 
 ### Using the Scrum process template
 
@@ -44,14 +43,14 @@ In the Visual Studio Scrum template, bugs are just another PBI and you can assig
 
 As bugs from previous Sprints are just PBI’s, the PO agrees to a list of bugs that will be fixed in the current Sprint.
 
-The team just fixes any  **new** bugs they introduced in the current Sprint.
+The team just fixes any **new** bugs they introduced in the current Sprint.
 
 If the team finds bugs due to functionality accepted in a previous Sprint they log it as a PBI and will complete the fix in a future Sprint, unless it is a critical bug, in which case they raise it as an impediment to the current Sprint to the PO.
 
 Examples:
 
-* **Small bug** – Text on a label is spelled incorrectly
-* **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
+- **Small bug** – Text on a label is spelled incorrectly
+- **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
 
 ![Figure: Bugs can be added "out of Sprint" directly into the Product Backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
 

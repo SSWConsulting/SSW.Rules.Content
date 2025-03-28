@@ -5,13 +5,13 @@ title: Backlog - Do you keep your PBIs smaller than 2 days' effort?
 uri: create-pbis-under-2-days
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Prem Radhakrishnan
-    url: https://ssw.com.au/people/prem-radhakrishnan
+    url: https://ww.ssw.com.au/people/prem-radhakrishnan
 related:
   - defining-pbis
   - estimating-do-you-know-how-to-size-user-stories-effectively
@@ -55,21 +55,21 @@ Say you are doing the Sprint Planning and you see a PBI that says _“Sync data 
 
 ### Example 1 - Sync Data with Xero - UI First
 
-* Start by having a PBI that shows the sync status of invoices. Then, during the Sprint Review you might not have any backend working, but at least you can show off a nice little UI addition.
-* Next, you might have the logic for syncing the invoice to Xero when you save it. Now in the Sprint Review, you can show that little UI piece changing as it syncs.
-* After that, you might do the reverse, and implement the web hooks to sync from Xero to the app. Then, in the Sprint Review you will be able to show the sync status changing the other way.
-* Finally, the last part might be to implement a manual sync fallback in case the automatic sync fails.
+- Start by having a PBI that shows the sync status of invoices. Then, during the Sprint Review you might not have any backend working, but at least you can show off a nice little UI addition.
+- Next, you might have the logic for syncing the invoice to Xero when you save it. Now in the Sprint Review, you can show that little UI piece changing as it syncs.
+- After that, you might do the reverse, and implement the web hooks to sync from Xero to the app. Then, in the Sprint Review you will be able to show the sync status changing the other way.
+- Finally, the last part might be to implement a manual sync fallback in case the automatic sync fails.
 
 ### Example 2 - Sync Data with Xero - Backend First
 
-* Start by having a PBI that just calls the Xero API with the required data. During the Sprint review, you can then use Postman to demo this API call and Xero getting updated.
-* Similarly, the next PBI could be the web hooks from Xero calling your APIs to send data back which again you can demo via Postman or the Xero developer portal
-* The next PBI can be the API getting triggered via the UI or as required by the app. This part will lend to the demo quite easily.
+- Start by having a PBI that just calls the Xero API with the required data. During the Sprint review, you can then use Postman to demo this API call and Xero getting updated.
+- Similarly, the next PBI could be the web hooks from Xero calling your APIs to send data back which again you can demo via Postman or the Xero developer portal
+- The next PBI can be the API getting triggered via the UI or as required by the app. This part will lend to the demo quite easily.
 
 If for some reason you do end up with incomplete PBIs at the end of the Sprint, check out [Ending a Sprint - Do you know what to do with partially completed PBI?](/ending-a-sprint-do-you-know-what-to-do-with-partially-completed-stories)
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
 | Subject: | Sync data to Xero |
 :::
@@ -78,22 +78,22 @@ Figure: Bad example - This is a monolithic 8-day task
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
 | Subject: | Xero Sync #1 - Update UI to show sync status for invoices and receipts |
 :::
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
 | Subject: | Xero Sync #2 - Update the "Save" option in "Invoice Details" page to push data to Xero |
 :::
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| Subject: | Xero Sync #3 - Create endpoints for Xero web hooks to push data from Xero to client app  |
+| Subject: | Xero Sync #3 - Create endpoints for Xero web hooks to push data from Xero to client app |
 :::
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
 | Subject: | Xero Sync #4 - As a backup, add a manual option to re-sync data with Xero in case either system was down |
 :::

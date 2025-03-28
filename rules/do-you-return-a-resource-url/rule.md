@@ -8,7 +8,7 @@ uri: do-you-return-a-resource-url
 created: 2014-11-05T18:22:22.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 ---

@@ -5,13 +5,13 @@ title: Do you know how to add value to a Specification Review?
 uri: spec-add-value
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: https://ww.ssw.com.au/people/jack-pettit
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - spec-do-you-add-value
@@ -49,8 +49,8 @@ Talk about the most problematic parts. These are the areas that should have the 
 
 Questions are the key in understanding client needs. Asking a few simple questions goes a long way. Some examples:
 
-* What is the goal of the product?
-* Where will the product be hosted?
-* Are there any performance requirements?
-* Are there any reliability requirements?  E.g. Has to respond in x seconds
-* What are the security requirements?
+- What is the goal of the product?
+- Where will the product be hosted?
+- Are there any performance requirements?
+- Are there any reliability requirements? E.g. Has to respond in x seconds
+- What are the security requirements?

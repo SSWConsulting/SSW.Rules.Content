@@ -8,9 +8,9 @@ uri: give-enough-notice-for-annual-leave
 created: 2012-09-25T18:10:42.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-give-enough-notice-for-annual-leave-(aka-flexibility-vs-substantial-notice)

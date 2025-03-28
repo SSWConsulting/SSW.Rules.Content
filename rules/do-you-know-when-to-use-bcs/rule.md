@@ -8,9 +8,9 @@ uri: do-you-know-when-to-use-bcs
 created: 2010-06-04T05:43:44.0000000Z
 authors:
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: https://ww.ssw.com.au/people/paul-neumeyer
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

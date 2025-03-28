@@ -5,9 +5,9 @@ title: Do you make sure your images are hosted internally?
 uri: images-should-be-hosted-internally
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-make-sure-your-images-are-hosted-internally
@@ -25,8 +25,7 @@ The right way to do this is to copy the image locally and upload to your own ser
 ```html
 <img
   src="https://some-external-url.com/images/open-extension.png"
-  alt="Open extension"
-/> 
+  alt="Open extension" /> 
 <dd>Figure: Open extension</dd>
 ```
 
@@ -35,7 +34,9 @@ Figure: Bad example - Using an external URL as image source. The image can be ed
 :::
 
 ```html
-<img src="https://ssw.com.au/images/open-extension.png" alt="Open extension" /> 
+<img
+  src="https://ww.ssw.com.au/images/open-extension.png"
+  alt="Open extension" /> 
 <dd>Figure: Open extension</dd>
 ```
 

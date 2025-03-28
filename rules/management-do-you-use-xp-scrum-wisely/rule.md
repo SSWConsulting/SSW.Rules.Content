@@ -7,16 +7,15 @@ guid: 159c6af7-7619-4f1c-8b15-63a99398b1bc
 uri: management-do-you-use-xp-scrum-wisely
 created: 2009-02-28T09:45:21.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects: []
-
 ---
 
-Scrum is a big concept which we try to use here. I don't adhere to every idea, but there are some very practical rules I follow which improves the way we develop on large projects:  
+Scrum is a big concept which we try to use here. I don't adhere to every idea, but there are some very practical rules I follow which improves the way we develop on large projects:
 
 <!--endintro-->
 
@@ -31,12 +30,12 @@ Scrum is a big concept which we try to use here. I don't adhere to every idea, b
 4. **Validation Tests** - To find out more about Validation Tests see [Rules To Better Website Development](/rules-to-better-website-development-asp-net).
 
 5. **[The 2 key reports](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day)**
-    * Burndown
-    * Stories Overview
+   - Burndown
+   - Stories Overview
 
 Here are the rules we don't agree with:
 
 1. Physical Cards - emails are much better
 2. Pair Programming:
-    * XP says 2 people at one PC - we have two developers on their own PC's sitting next to each other.
-    * We fix production code in pairs. 'Too Expensive' some say. Yes it's pricey, but it's better quality.
+   - XP says 2 people at one PC - we have two developers on their own PC's sitting next to each other.
+   - We fix production code in pairs. 'Too Expensive' some say. Yes it's pricey, but it's better quality.

@@ -5,9 +5,9 @@ title: Cost - Do you manage the cost of your Azure resources?
 uri: manage-costs-azure
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
 related:
   - do-you-have-an-azure-spend-master
 redirects:
@@ -49,15 +49,15 @@ For everyone to be on the same page, the process a developer should follow is:
 
 I would like you to provision a new Azure Resource for xx
 
-* Azure Resource needed: I would like to create a new App Service Plan
-* Azure Calculator link: {{add link}}
-* Environment: {{add Dev/Staging/Prod}}
+- Azure Resource needed: I would like to create a new App Service Plan
+- Azure Calculator link: {{add link}}
+- Environment: {{add Dev/Staging/Prod}}
 
 Project details:
 
-* Project Name: A new project called {{add project name}}
-* Project Description (The SysAdmin will copy this info to the Azure Tag): {{add description}}
-* Project URL (e.g. Azure DevOps / Github): {{add URL}}
+- Project Name: A new project called {{add project name}}
+- Project Description (The SysAdmin will copy this info to the Azure Tag): {{add description}}
+- Project URL (e.g. Azure DevOps / Github): {{add URL}}
 
 Total: {{AUD$}} per month
 

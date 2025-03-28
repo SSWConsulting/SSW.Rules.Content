@@ -8,7 +8,7 @@ uri: do-you-set-retention-policy
 created: 2016-05-30T06:41:05.0000000Z
 authors:
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: https://ww.ssw.com.au/people/danijel-malik
 related: []
 redirects: []
 ---

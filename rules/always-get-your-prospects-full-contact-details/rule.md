@@ -5,9 +5,9 @@ title: Do you always get your prospect's full contact details?
 uri: always-get-your-prospects-full-contact-details
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-always-get-your-prospects-full-contact-details
@@ -24,9 +24,9 @@ Here are some of the important details that need to be recorded:
 
 <!--endintro-->
 
-* Full name
-* Company
-* Position
-* Phone number (work and mobile)
-* Email address
-* Company address
+- Full name
+- Company
+- Position
+- Phone number (work and mobile)
+- Email address
+- Company address

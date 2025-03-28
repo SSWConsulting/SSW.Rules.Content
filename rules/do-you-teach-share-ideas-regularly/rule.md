@@ -8,7 +8,7 @@ uri: do-you-teach-share-ideas-regularly
 created: 2012-09-25T17:51:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - ip-do-you-teach-share-ideas-regularly

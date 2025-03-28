@@ -8,7 +8,7 @@ uri: do-you-swarm-to-fix-the-build
 created: 2015-11-03T08:46:16.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
 related: []
 redirects: []
 ---

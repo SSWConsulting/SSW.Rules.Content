@@ -5,9 +5,9 @@ title: Do you have an induction program?
 uri: have-an-induction-program
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ivan Tyapkin
-    url: https://ssw.com.au/people/ivan-tyapkin
+    url: https://ww.ssw.com.au/people/ivan-tyapkin
 related: []
 redirects:
   - do-you-have-an-induction-program

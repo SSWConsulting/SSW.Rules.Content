@@ -5,9 +5,9 @@ title: Do you utilize a Release Train Engineer (RTE) for synchronization?
 uri: utilize-a-release-train
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-utilize-a-release-train-engineer-(RTE)-for-synchronization

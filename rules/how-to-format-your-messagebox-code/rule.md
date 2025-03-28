@@ -8,7 +8,7 @@ uri: how-to-format-your-messagebox-code
 created: 2018-04-25T23:10:49.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-format-your-messagebox-code

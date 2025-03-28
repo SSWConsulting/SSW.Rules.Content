@@ -5,7 +5,7 @@ title: Do you use Exploratory Testing to create Acceptance Tests?
 uri: do-you-use-exploratory-testing-to-create-acceptance-tests
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related:
   - do-you-do-exploratory-testing
 redirects: []

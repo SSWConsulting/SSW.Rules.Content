@@ -8,7 +8,7 @@ uri: anchor-links
 created: 2012-07-17T20:11:55.0000000Z
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - efficient-anchor-names
 redirects:

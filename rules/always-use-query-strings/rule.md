@@ -8,7 +8,7 @@ uri: always-use-query-strings
 created: 2016-08-26T17:39:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-always-use-query-strings
@@ -16,8 +16,8 @@ redirects:
 
 When you build a web application, any dynamic page you think a user may wish to bookmark directly should be controlled through query string values rather than form values. In other words, search mechanisms should use the HTTP GET Request and Querystring values, rather than a POST with Form values. This allows:
 
-* Bookmarking of the pages
-* Gives the user to the ability to change the query string values in the address bar, rather than having to go back to the input form.
+- Bookmarking of the pages
+- Gives the user to the ability to change the query string values in the address bar, rather than having to go back to the input form.
 
 <!--endintro-->
 

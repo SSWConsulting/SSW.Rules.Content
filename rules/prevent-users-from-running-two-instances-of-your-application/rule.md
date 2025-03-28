@@ -5,7 +5,7 @@ title: Do you prevent users from running two instances of your application?
 uri: prevent-users-from-running-two-instances-of-your-application
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 9fcfbe56-37b2-4f74-9247-12151fd21c8f
 ---

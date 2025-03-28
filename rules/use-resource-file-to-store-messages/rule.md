@@ -5,7 +5,7 @@ title: Do you use resource file to store messages?
 uri: use-resource-file-to-store-messages
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-resource-file-to-store-messages

@@ -5,7 +5,7 @@ title: Do you enhance readability with line breaks and spacing?
 uri: format-new-lines
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Josh Berman
@@ -13,15 +13,14 @@ authors:
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - add-useful-and-concise-figure-captions
   - use-the-right-html-figure-caption
   - html-css-do-you-know-how-to-create-spaces-in-a-web-page
 created: 2021-07-06T01:13:05.707Z
-archivedreason: ""
+archivedreason: ''
 guid: e05522a7-1822-412c-80ee-5619039f7d96
-
 ---
 
 Writing in large blocks of text is a common practice, but it can hinder readability. Incorporating line breaks and spacing significantly enhances content readability. This allows readers to navigate through the text more easily, absorb information more effectively, and stay engaged with the material.
@@ -95,7 +94,7 @@ Figure: Bad example - No line break before the URL
 :::
 
 ::: greybox
-Check out these employment opportunities at SSW:  \
+Check out these employment opportunities at SSW: \
 <https://www.ssw.com.au/employment#available>
 
 :::
@@ -139,13 +138,13 @@ Figure: Bad example - Block of text
 ::: greybox
 I have 2 PBIs in the coming Sprint:
 
-* PBI 88994: Performance | Create a new App Service plan
-* PBI 88823: Azure | Create a new App Service Plan in West US for SL production resource group
+- PBI 88994: Performance | Create a new App Service plan
+- PBI 88823: Azure | Create a new App Service Plan in West US for SL production resource group
 
 I will do the IoC after.
 
 :::
-::: good  
+::: good
 
 Figure: Good example - List is used to separate information and make it easier to digest
 :::

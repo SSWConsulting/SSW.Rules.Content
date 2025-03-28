@@ -5,7 +5,7 @@ title: Do you use record your audience's Questions and Answers?
 uri: do-you-use-a-word-document-to-record-your-audiences-questions-and-answers
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-06-09T00:01:49.000Z

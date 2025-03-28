@@ -8,15 +8,15 @@ uri: do-you-know-how-to-rollback-changes-in-tfs
 created: 2011-11-18T03:52:54.0000000Z
 authors:
   - title: David Klein
-    url: https://ssw.com.au/people/david-klein
+    url: https://ww.ssw.com.au/people/david-klein
     noimage: true
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: https://ww.ssw.com.au/people/tristan-kurniawan
 related: []
 redirects: []
 ---
@@ -29,7 +29,7 @@ There are two ways to do this:
 
 **A.** If you haven’t checked in any files since you started modifying them then the process is simple:
 
-* Right click your solution and **Undo Pending Changes**
+- Right click your solution and **Undo Pending Changes**
 
   ![](rollback1.gif)
 
@@ -37,15 +37,15 @@ There are two ways to do this:
 
 To use this you will need to install Team Foundation Server Power Tools v1.2
 
-* Find the revision before you started checking code in using the **History command**
+- Find the revision before you started checking code in using the **History command**
 
   ![Figure: The last revision before Tristan made changes was 5367](rollback2.gif)
 
-* Open the Command Prompt in your current working directory and type **“c:\Program Files\Microsoft Team Foundation Server Power Tools\tfpt.exe” rollback /changeset:5367**
+- Open the Command Prompt in your current working directory and type **“c:\Program Files\Microsoft Team Foundation Server Power Tools\tfpt.exe” rollback /changeset:5367**
 
   ![](rollback3.gif)
 
-* Click  **Yes** and the rollback will proceed
+- Click **Yes** and the rollback will proceed
 
 ---
 

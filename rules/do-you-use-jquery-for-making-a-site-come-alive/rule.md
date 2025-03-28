@@ -8,7 +8,7 @@ uri: do-you-use-jquery-for-making-a-site-come-alive
 created: 2009-08-25T00:13:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

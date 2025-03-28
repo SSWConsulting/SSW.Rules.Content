@@ -8,7 +8,7 @@ uri: know-the-best-ticketing-systems
 created: 2017-11-06T23:43:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-best-ticketing-systems

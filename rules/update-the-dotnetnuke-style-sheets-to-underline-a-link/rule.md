@@ -5,7 +5,7 @@ title: Do you always update the DotNetNuke style sheets to underline a link?
 uri: update-the-dotnetnuke-style-sheets-to-underline-a-link
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:05:00.000Z
 archivedreason: outdated
 guid: b26cba54-c155-4418-8766-392d38ea958d

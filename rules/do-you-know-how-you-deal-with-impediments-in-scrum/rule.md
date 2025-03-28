@@ -5,9 +5,9 @@ title: Do you know how you deal with impediments in Scrum?
 uri: do-you-know-how-you-deal-with-impediments-in-scrum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: https://ww.ssw.com.au/people/paul-neumeyer
 related: []
 redirects: []
 created: 2011-08-11T17:54:33.000Z

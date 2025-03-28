@@ -1,20 +1,19 @@
 ---
 seoDescription: When writing technical documentation, consistency in referring to the reader and author is crucial for a flowing reading experience. Ensure accurate referencing throughout your document
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you refer to the reader and author consistently throughout your document?
 guid: 20cb9846-c91a-40c2-8135-e62352afbd89
 uri: refer-consistently-throughout-your-document
 created: 2016-03-22T06:05:49.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
-- use-the-right-order-of-instructions
-- tiny-do-you-use-active-phrases-no-zombies-please
+  - use-the-right-order-of-instructions
+  - tiny-do-you-use-active-phrases-no-zombies-please
 redirects:
-- do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
-
+  - do-you-refer-to-the-reader-and-author-consistently-throughout-your-document
 ---
 
 When writing technical documentation, one of your primary objectives is to ensure the document is written consistently to ensure a flowing reading experience. Ensure the reader and author are correctly referenced throughout your document.

@@ -8,9 +8,9 @@ uri: avoid-height-width-in-img-tag
 created: 2014-12-22T12:28:11.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-not-have-height-width-in-an-img-tag
@@ -29,8 +29,7 @@ In other words, you should not have the image dimensions specified in HTML unles
   src="images/codeauditor-logo.png"
   alt="Code Auditor logo"
   width="150"
-  height="100"
-/>
+  height="100" />
 ```
 
 ::: bad  

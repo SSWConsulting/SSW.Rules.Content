@@ -8,7 +8,7 @@ uri: do-you-give-your-network-adapters-meaningful-names
 created: 2012-03-02T18:33:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

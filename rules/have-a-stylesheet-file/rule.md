@@ -8,7 +8,7 @@ uri: have-a-stylesheet-file
 created: 2016-08-05T18:01:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-stylesheet-file-for-all-your-formatting

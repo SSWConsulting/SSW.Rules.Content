@@ -1,5 +1,5 @@
 ---
-seoDescription: 
+seoDescription:
 type: rule
 archivedreason:
 title: Do you have a Priority Alignment meeting?
@@ -10,9 +10,9 @@ authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
 related:
@@ -28,18 +28,19 @@ This alignment can be achieved through a weekly meeting with the Bench Masters a
 
 The following meeting structure should be followed
 
-::: email-template  
+::: email-template
 
-|          |                                                      |
-| -------- | ---------------------------------------------------- |
-| To:      | {{ COMPANY STAKEHOLDERS }}                           |
+|          |                                                 |
+| -------- | ----------------------------------------------- |
+| To:      | {{ COMPANY STAKEHOLDERS }}                      |
 | Subject: | ⚖️ Bench Master Priority Alignment - {{ DATE }} |
-::: email-content  
+
+::: email-content
 
 Hey {{ COMPANY STAKEHOLDERS }},
 
 1. Watch the recording
-    {{ RECORDING URL }}
+   {{ RECORDING URL }}
 
 The goal is to use our internal devs on the best project.
 
@@ -49,28 +50,28 @@ The goal is to use our internal devs on the best project.
 
 ### Summary - Have there been any staffing changes for any of our internal projects in the past week?
 
-* {{ PROJECT 1 }} - {{ STATUS 1 }}
-* {{ PROJECT 2 }} - {{ STATUS 2 }}
-* {{ PROJECT 3 }} - {{ STATUS 3 }}
-* ❓{{ PERSON 1 }} - from {{ PREVIOUS PROJECT }} to {{ NEW PROJECT }} - {{ NOTE }}
-* {{ PERSON 2 }} - Back on {{ PROJECT NAME }} next {{ DATE }}
+- {{ PROJECT 1 }} - {{ STATUS 1 }}
+- {{ PROJECT 2 }} - {{ STATUS 2 }}
+- {{ PROJECT 3 }} - {{ STATUS 3 }}
+- ❓{{ PERSON 1 }} - from {{ PREVIOUS PROJECT }} to {{ NEW PROJECT }} - {{ NOTE }}
+- {{ PERSON 2 }} - Back on {{ PROJECT NAME }} next {{ DATE }}
 
 ### 🛑 Blocked people (times we proxied for {{ COMPANY STAKEHOLDER }})
 
-* {{ BLOCKED PERSON 1 }} - {{ ISSUE DESCRIPTION }}
-* {{ BLOCKED PERSON 2 }} - {{ ISSUE DESCRIPTION }}
+- {{ BLOCKED PERSON 1 }} - {{ ISSUE DESCRIPTION }}
+- {{ BLOCKED PERSON 2 }} - {{ ISSUE DESCRIPTION }}
 
 ### ✅ The highlights
 
-* {{ PERSON }} - {{ DETAILS }}
+- {{ PERSON }} - {{ DETAILS }}
 
 ### ❌ The lowlights – any issues or concerns?
 
-* {{ PERSON }} - {{ DETAILS }}
+- {{ PERSON }} - {{ DETAILS }}
 
 ### Ad hoc topics
 
-* {{ TOPIC }}
+- {{ TOPIC }}
 
 ### Priorities - any new tasks that need to get done and who should do it?
 

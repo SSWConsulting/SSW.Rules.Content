@@ -8,9 +8,9 @@ uri: lockers-for-employees
 created: 2015-09-23T18:00:29.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related:
   - do-you-use-the-5s-desk-space-organization-system-invented-by-the-japanese
 redirects:

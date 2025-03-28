@@ -5,11 +5,11 @@ title: Do you use 'Checked by xxx'?
 uri: checked-by-xxx
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-send-as-per-our-conversation-emails
   - quality-do-you-know-how-to-request-a-test-please
@@ -35,24 +35,24 @@ Simply ask for that person to come over and check it on your computer or call th
 ![Figure: Consider this the "four-eye principle" (also known as the "two-person rule" or "dual control")](checked-by.png)
 
 `youtube: https://www.youtube.com/embed/qz2PcNRA3F4`
-**Video: Talk before emailing - are you gold or silver? | [Adam Cogan](https://ssw.com.au/people/adam-cogan/) & [Andrew Harris](https://ssw.com.au/people/andrew-harris/) | SSW Rules (6 min)**
+**Video: Talk before emailing - are you gold or silver? | [Adam Cogan](https://ww.ssw.com.au/people/adam-cogan/) & [Andrew Harris](https://ww.ssw.com.au/people/andrew-harris/) | SSW Rules (6 min)**
 
 Scenarios where having someone review your emails is recommended:
 
-* You are new to a company
-* Sending an email or appointment to a large distribution list
-* You are a little unsure
-* You feel that it is a complicated email
-* Sending a sensitive email (e.g. The content could be perceived as confrontational)
-* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
+- You are new to a company
+- Sending an email or appointment to a large distribution list
+- You are a little unsure
+- You feel that it is a complicated email
+- Sending a sensitive email (e.g. The content could be perceived as confrontational)
+- You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
 
 Doing this will ensure:
 
-* You avoid grammatical and spelling errors
-* Your message is clear
-* The layout and tone of the email is professional
-* You don’t forget anything important
-* The receiver knows who else agrees with the content
+- You avoid grammatical and spelling errors
+- Your message is clear
+- The layout and tone of the email is professional
+- You don’t forget anything important
+- The receiver knows who else agrees with the content
 
 ::: tip
 Not everyone knows about this rule - make the "checked by" line a hyperlink to this rule to avoid confusion
@@ -60,10 +60,11 @@ Not everyone knows about this rule - make the "checked by" line a hyperlink to t
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
+|     |         |
+| --- | ------- |
+| To: | Bob     |
 | Cc: | Ulysses |
+
 ::: email-content
 
 [(Checked by Uly)](https://www.ssw.com.au/rules/checked-by-xxx/)
@@ -85,8 +86,8 @@ Figure: Good example - Use 'Checked by xxx' when sending emails that require a s
 
 The term "checked by" typically implies a conversation took place. In situations where synchronous communication is not feasible, asynchronous methods like chatting on Teams or sending email are acceptable, provided you explicitly mention this in your "Checked by" email. Examples:
 
-* (Checked **via Teams Chat** by Chris S and Lloyd)
-* (Checked **via Email** by Chris S and Lloyd)
+- (Checked **via Teams Chat** by Chris S and Lloyd)
+- (Checked **via Email** by Chris S and Lloyd)
 
 ### Avoid being blocked
 

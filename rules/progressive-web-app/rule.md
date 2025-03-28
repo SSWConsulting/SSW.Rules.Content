@@ -8,10 +8,10 @@ uri: progressive-web-app
 created: 2019-05-30T18:54:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
-related: 
+    url: https://ww.ssw.com.au/people/matt-wicks
+related:
   - use-dynamic-viewport-units
 redirects:
   - do-you-have-a-pwa-progressive-web-app

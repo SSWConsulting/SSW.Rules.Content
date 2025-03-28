@@ -8,9 +8,9 @@ uri: avoid-the-dom-in-your-components
 created: 2016-04-22T22:18:30.0000000Z
 authors:
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: https://ww.ssw.com.au/people/steve-leigh
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://ww.ssw.com.au/people/gabriel-george
 related: []
 redirects:
   - practices-do-you-avoid-directly-modifying-the-dom-from-your-components
@@ -20,9 +20,9 @@ Using DOM is fine, but manipulating DOM directly in your component is not. With 
 
 <!--endintro-->
 
-* Smaller component code making it easier to maintain
-* Faster running and easier to write unit tests
-* Easier for designers to get involved
+- Smaller component code making it easier to maintain
+- Faster running and easier to write unit tests
+- Easier for designers to get involved
 
 This means that the component's state must expose things that are useful to the template as public properties or fields, and the Angular should read these fields to draw itself.
 

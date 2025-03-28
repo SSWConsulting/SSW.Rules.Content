@@ -8,14 +8,14 @@ uri: sqlperf-verify-indexes-used
 created: 2024-07-23T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sqlperf-reduce-table-size
   - sqlperf-select-required-columns
   - sqlperf-avoid-implicit-type-conversions
   - sqlperf-avoid-looping
   - sqlperf-use-and-instead-of-or
-  - sqlperf-minimise-large-writes  
+  - sqlperf-minimise-large-writes
 ---
 
 So you've created some indexes on your database tables. How can you tell if they are being used by your queries?
@@ -35,7 +35,7 @@ The second option is to use the query below. It retrieves the index usage stats.
 Then you can run this query, then perform the operations in your application that you think should use the index, and then rerun this query. If the index was used you should see the UserSeeks, UserScans or UserLookups increase between the 2 runs.
 
 ```sql
-SELECT 
+SELECT
     object_name(s.[object_id]) AS TableName,
     i.name AS IndexName,
     i.index_id AS IndexID,
@@ -43,17 +43,17 @@ SELECT
     us.user_scans AS UserScans,
     us.user_lookups AS UserLookups,
     us.user_updates AS UserUpdates
-FROM 
+FROM
     sys.dm_db_index_usage_stats us
-INNER JOIN 
+INNER JOIN
     sys.indexes i ON (us.object_id = i.object_id AND us.index_id = i.index_id)
-INNER JOIN 
+INNER JOIN
     sys.objects s ON us.object_id = s.object_id
-WHERE 
+WHERE
     s.type = 'U' -- Filter for user tables only
 --    AND i.type_desc = 'NONCLUSTERED' -- Filter for non-clustered indexes
 --    AND (us.user_seeks = 0 AND us.user_scans = 0) -- Filter for unused indexes
-ORDER BY 
+ORDER BY
     TableName, IndexName;
 ```
 

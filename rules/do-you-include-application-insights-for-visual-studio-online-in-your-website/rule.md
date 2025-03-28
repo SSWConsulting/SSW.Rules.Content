@@ -8,9 +8,9 @@ uri: do-you-include-application-insights-for-visual-studio-online-in-your-websit
 created: 2014-08-20T04:10:49.0000000Z
 authors:
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

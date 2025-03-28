@@ -1,23 +1,22 @@
 ---
 seoDescription: Detect service availability issues and implement fallback strategies using our open-source library for seamless handling of blocked services in China or behind corporate firewalls.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you detect service availability from the client?
 guid: b22a548e-76d1-4090-baae-0c58cca49cdb
 uri: do-you-detect-service-availability-from-the-client
 created: 2018-12-10T04:58:24.0000000Z
 authors:
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
-- title: Shane Ye
-  url: https://ssw.com.au/people/shane-ye
+  - title: Brendan Richards
+    url: https://ww.ssw.com.au/people/brendan-richards
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Barry Sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
+  - title: Shane Ye
+    url: https://ww.ssw.com.au/people/shane-ye
 related: []
 redirects: []
-
 ---
 
 Some countries (especially the People's Republic of China) strictly control access to various international web services. You can use service detection to determine whether particular services are available and fall-back gracefully or use alternative providers.
@@ -26,7 +25,7 @@ Some countries (especially the People's Republic of China) strictly control acce
 
 As well as from inside China, another common place where access to third-party services may be blocked is from behind corporate firewalls.
 
-First, read this rule:     [Do you manage your 3rd party dependencies?](/do-you-manage-3rd-party-dependencies). You should always start by carefully managing the number of 3rd party services and dependencies your application or website depends on.
+First, read this rule: [Do you manage your 3rd party dependencies?](/do-you-manage-3rd-party-dependencies). You should always start by carefully managing the number of 3rd party services and dependencies your application or website depends on.
 
 There are two ways to determine service availability, these are:
 
@@ -34,16 +33,16 @@ There are two ways to determine service availability, these are:
 
 You can use geolocation based on client IP to determine what services are available but this has a number of disadvantages.:
 
-* **Unpredictability** Geolocation based on IP is never perfect
- Geo-location lookup services are not perfect. here's an example: if you use the guest internet in the Microsoft offices, the internet thinks you are outside Australia (Singapore).  
- This approach won't detect services that have been blocked by a company firewall.
-* **Maintenance overhead** You need to maintain lists of locations and what services are available there - which may be subject to change (however not very often)
- The list of services allowed/blocked by the "great firewall of china" is a moving target. things get blocked and unblocked all the time with little warning. we would have to keep coming back to the site to test. So there would be an overhead maintaining lists of countries and the services they allow.
-* **Extra dependency** - using IP address requires taking a dependency on an extra third-party service to perform the geo-location lookups.
+- **Unpredictability** Geolocation based on IP is never perfect
+  Geo-location lookup services are not perfect. here's an example: if you use the guest internet in the Microsoft offices, the internet thinks you are outside Australia (Singapore).  
+  This approach won't detect services that have been blocked by a company firewall.
+- **Maintenance overhead** You need to maintain lists of locations and what services are available there - which may be subject to change (however not very often)
+  The list of services allowed/blocked by the "great firewall of china" is a moving target. things get blocked and unblocked all the time with little warning. we would have to keep coming back to the site to test. So there would be an overhead maintaining lists of countries and the services they allow.
+- **Extra dependency** - using IP address requires taking a dependency on an extra third-party service to perform the geo-location lookups.
 
 For these reasons, dynamic service detection is recommended in preference to solutions based on geo-location.
 
-### Option 2: Check Connectivity  
+### Option 2: Check Connectivity
 
 **Universality** - China is not the only place that blocks stuff. there are other countries to consider. Also many corporate firewalls block stuff. actively detecting access to a service from the client handles all these scenarios at runtime with no prior configuration.
 
@@ -66,7 +65,7 @@ Both these options require service detection to operate properly. Remember that 
 
 **Solution 1: Remove the content**
 
-![](youtuberemove.png)  
+![](youtuberemove.png)
 
 **Solution 2: Provide an alternative to the blocked service**
 

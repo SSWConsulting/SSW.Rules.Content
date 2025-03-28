@@ -1,23 +1,22 @@
 ---
 seoDescription: Learn why you should bid on your own brand keyword even if you rank #1 organically for your brand.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you bid on your own Brand keyword?
 guid: 7309c219-b89e-4117-b2bf-505272cba995
 uri: bid-on-your-own-brand-keyword
 created: 2020-11-09T22:58:03.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
+  - title: Jerwin Parker Roberto
+    url: https://ww.ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
-- do-you-bid-on-your-own-brand-keyword
-
+  - do-you-bid-on-your-own-brand-keyword
 ---
 
 You might ask yourself – Why should I bid on my own brand name when I am already ranking number 1 organically for my brand?

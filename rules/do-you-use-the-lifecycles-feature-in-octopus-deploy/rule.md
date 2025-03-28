@@ -8,7 +8,7 @@ uri: do-you-use-the-lifecycles-feature-in-octopus-deploy
 created: 2015-01-02T02:10:20.0000000Z
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related:
   - do-you-use-the-best-deployment-tool
 redirects: []

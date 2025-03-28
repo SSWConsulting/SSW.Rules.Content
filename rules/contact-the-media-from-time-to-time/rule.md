@@ -7,7 +7,7 @@ authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: https://ww.ssw.com.au/people/marlon-marescia
 related: []
 redirects:
   - do-you-contact-the-media-from-time-to-time

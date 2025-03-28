@@ -7,7 +7,7 @@ seoDescription: Quickly fix small web errors and improve efficiency by
 uri: fix-small-web-errors
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - rubber-stamp-prs
   - do-you-constantly-add-to-the-backlog

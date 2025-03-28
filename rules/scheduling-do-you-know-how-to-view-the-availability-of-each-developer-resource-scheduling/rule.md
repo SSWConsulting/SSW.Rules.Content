@@ -8,7 +8,7 @@ uri: scheduling-do-you-know-how-to-view-the-availability-of-each-developer-resou
 created: 2012-12-07T17:29:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - scheduling-do-you-know-how-to-view-the-availability-of-each-developer-(resource-scheduling)

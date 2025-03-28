@@ -8,9 +8,9 @@ uri: use-creative-commons-images
 created: 2017-02-14T17:01:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects:
   - do-you-know-to-use-creative-commons-images

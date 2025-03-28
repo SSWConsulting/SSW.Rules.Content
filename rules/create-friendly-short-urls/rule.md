@@ -1,23 +1,22 @@
 ---
 seoDescription: Improve your website's accessibility and SEO by creating short, readable URLs that clearly convey their purpose.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you make URLs short and readable?
 guid: c961c747-1060-4301-a483-4f76562b77e1
 uri: create-friendly-short-urls
 created: 2010-09-07T15:14:23.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-related: 
-- use-dashes-in-urls
-- lowercase-urls
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
+related:
+  - use-dashes-in-urls
+  - lowercase-urls
 redirects:
-- do-you-know-to-make-short-urls-readable-where-you-can
-- do-you-know-to-make-short-url’s-readable-where-you-can
-
+  - do-you-know-to-make-short-urls-readable-where-you-can
+  - do-you-know-to-make-short-url’s-readable-where-you-can
 ---
 
 Readability of URLs is important, so you should consider making a short URL. However, it is not just making the length as **short** as possible - it should be **friendly**.

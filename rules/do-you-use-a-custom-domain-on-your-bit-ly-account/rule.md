@@ -8,7 +8,7 @@ uri: do-you-use-a-custom-domain-on-your-bit-ly-account
 created: 2013-03-05T21:07:29.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

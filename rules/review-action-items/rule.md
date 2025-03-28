@@ -5,7 +5,7 @@ title: Do you review action items and assign clear responsibilities?
 uri: review-action-items
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren/
+    url: https://ww.ssw.com.au/people/ulysses-maclaren/
 created: 2024-02-28T23:00:34.388Z
 guid: 35e2b0d2-2abf-453d-82e7-820c70fc96e6
 ---

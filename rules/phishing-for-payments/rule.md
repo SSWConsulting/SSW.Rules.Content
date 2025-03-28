@@ -5,7 +5,7 @@ title: Do you know how to prevent phishing for payments?
 uri: phishing-for-payments
 authors:
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
+    url: https://ww.ssw.com.au/people/jimmy-chen
 related:
   - recognizing-phishing-urls
   - using-mfa

@@ -8,7 +8,7 @@ uri: use-enum-constants-instead-of-magic-numbers
 created: 2018-04-26T16:48:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

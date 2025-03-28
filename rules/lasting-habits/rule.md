@@ -5,7 +5,7 @@ title: Do you know how to build good habits that last?
 uri: lasting-habits
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 created: 2024-08-15T03:50:10.000Z
@@ -33,25 +33,25 @@ This formula helps you anchor the new behavior to something you already do regul
 
 ## Tips for new habits
 
-* **Set a goal** - Think about what you want to improve.
+- **Set a goal** - Think about what you want to improve.
   E.g. I want to drink more water
-* **Anchor it** - Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.
+- **Anchor it** - Attach your new habit to a reliable and specific trigger in your daily routine. This ensures it fits into your day without requiring extra effort to remember.
   E.g. Pour my morning coffee
-* **Start small** - The habit should be tiny, so its easy to complete and hard to skip.
+- **Start small** - The habit should be tiny, so its easy to complete and hard to skip.
   E.g. Drink a glass of water
-* **Celebrate immediately** - Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.  
+- **Celebrate immediately** - Reinforce your habit by celebrating immediately after completing it. This helps create a positive association with the behavior.  
   E.g. Give yourself a high five
-* **Don't forget** - Initially, you might need a reminder.
+- **Don't forget** - Initially, you might need a reminder.
   E.g. Set an alarm, ask your partner to remind you, put a sticky note in your bathroom
 
 ## Examples
 
 ::: greybox
 
-* After I **brush my teeth**, I will **floss one tooth**
-* After I **pour my morning coffee**, I will **drink a glass of water**
-* After I **start the toaster**, I will **do 5 push-ups**
-:::
+- After I **brush my teeth**, I will **floss one tooth**
+- After I **pour my morning coffee**, I will **drink a glass of water**
+- After I **start the toaster**, I will **do 5 push-ups**
+  :::
 
 By starting with something small, you remove the barrier of feeling overwhelmed, making it easier to stay consistent. As these tiny habits become automatic, you can gradually expand on them, leading to significant and sustainable changes over time.
 

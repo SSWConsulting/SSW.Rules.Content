@@ -8,7 +8,7 @@ uri: sql-automatic-index-tuning
 created: 2024-07-26T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sql-indexing-orderby
   - sql-indexing-testing

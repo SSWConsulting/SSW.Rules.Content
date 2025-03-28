@@ -8,7 +8,7 @@ uri: use-separate-lookup-tables-rather-than-one-large-lookup-table
 created: 2019-11-07T20:11:29.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - schema-do-you-use-separate-lookup-tables-rather-than-one-large-lookup-table-for-your-lookup-data
@@ -23,11 +23,11 @@ We prefer multiple lookup tables so they make more sense in ORM tools. If you ha
 
 When you are obtaining the OrderType for an order, you would have either:
 
-* Order.OrderType.OrderTypeID
+- Order.OrderType.OrderTypeID
 
 > Good as it is clear what is being retrieved from the lookup table.
 
-* Order.LookupTable.Value
+- Order.LookupTable.Value
 
 > Not great as it is not clear what the nature of the lookup table is.
 

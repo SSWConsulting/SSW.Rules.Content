@@ -8,7 +8,7 @@ uri: do-you-create-a-private-repository-for-reusable-internal-code
 created: 2014-11-27T18:57:56.0000000Z
 authors:
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects: []
 ---

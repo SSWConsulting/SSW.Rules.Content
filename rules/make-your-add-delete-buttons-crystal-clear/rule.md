@@ -5,7 +5,7 @@ title: Do you make your add/delete buttons crystal clear?
 uri: make-your-add-delete-buttons-crystal-clear
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:02:00.000Z
 guid: 62b1dc07-2e70-4b66-ad29-c100137360ca
 ---

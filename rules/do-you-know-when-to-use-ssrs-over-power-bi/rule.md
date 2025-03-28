@@ -8,11 +8,11 @@ uri: do-you-know-when-to-use-ssrs-over-power-bi
 created: 2017-02-27T03:15:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Moss Gu
     url: https://github.com/mossgreen
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 ---

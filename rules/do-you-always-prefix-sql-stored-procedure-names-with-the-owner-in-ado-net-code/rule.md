@@ -8,9 +8,9 @@ uri: do-you-always-prefix-sql-stored-procedure-names-with-the-owner-in-ado-net-c
 created: 2009-05-13T06:49:36.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects: []

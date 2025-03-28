@@ -5,12 +5,11 @@ title: Do you proactively notify about expected spikes in Azure Resource costs?
 uri: spike-in-azure-resource-costs
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/rules/warwick-leahy
+    url: https://ww.ssw.com.au/rules/warwick-leahy
 related:
   - azure-budgets
 created: 2023-11-14T04:02:45.191Z
 guid: 0f608bf3-d8b6-410f-8c9a-c4498f4eadad
-
 ---
 
 Always inform stakeholders in advance if you anticipate a significant increase in Azure resource costs. This proactive communication is crucial for budget planning and avoiding unexpected expenses.
@@ -25,8 +24,8 @@ Always inform stakeholders in advance if you anticipate a significant increase i
 
 ## How to Implement
 
-* **Communicate Early:** As soon as a potential cost increase is identified, communicate this to relevant stakeholders.
-* **Provide Details:** Include information about the cause of the spike, expected duration, and any steps being taken to mitigate costs.
+- **Communicate Early:** As soon as a potential cost increase is identified, communicate this to relevant stakeholders.
+- **Provide Details:** Include information about the cause of the spike, expected duration, and any steps being taken to mitigate costs.
 
 ### Scenarios
 
@@ -50,23 +49,24 @@ Figure: Informing and emailing stakeholders before a spike makes everyone happy
 
 #### Email template
 
-::: email-template  
+::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ SpendMaster (aka SysAdmins) }} |
-| Subject: | {{ PROJECT NAME }} - Cost spike due to data migration  |  
-::: email-content  
+|          |                                                       |
+| -------- | ----------------------------------------------------- |
+| To:      | {{ SpendMaster (aka SysAdmins) }}                     |
+| Subject: | {{ PROJECT NAME }} - Cost spike due to data migration |
 
-### Hi {{ SpendMaster aka SysAdmins }}  
+::: email-content
+
+### Hi {{ SpendMaster aka SysAdmins }}
 
 I need to perform {{ TASK }} on {{ PROJECT NAME }}. I know that this will cost more than our usual amount for Azure. I expect the process to run for {{ X }} days.
 
 I have calculated this cost to be {{ $$ }}.
 
 1. Please approve
-:::  
-:::
+   :::  
+   :::
 
 ---
 

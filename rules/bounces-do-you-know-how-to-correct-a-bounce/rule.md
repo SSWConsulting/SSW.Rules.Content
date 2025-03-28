@@ -8,9 +8,9 @@ uri: bounces-do-you-know-how-to-correct-a-bounce
 created: 2009-09-11T06:23:29.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
 ---
@@ -33,8 +33,9 @@ Get the correct email address and ‘Reply to all’ with just this text in brac
 ::: greybox
   (Resending with Adam’s correct email)
 
----------------------------------
-  {{ ORIGINAL EMAIL }}  
+---
+
+{{ ORIGINAL EMAIL }}  
 :::
 ::: good
 Figure: Good example - Correct the email address and send again

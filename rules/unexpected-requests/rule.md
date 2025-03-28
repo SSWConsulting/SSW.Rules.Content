@@ -8,19 +8,19 @@ seoDescription: When unexpected requests arise during a Sprint, acknowledge the
 uri: unexpected-requests
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
   - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
+    url: https://ww.ssw.com.au/people/jonty-gardner
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - give-emails-a-business-value
 redirects:
@@ -70,12 +70,12 @@ As per our conversation, you have asked us to prioritise some urgent PBIs this S
 
 **Added:**
 
-* {{ PBI URL }}
-* {{ PBI URL }}
+- {{ PBI URL }}
+- {{ PBI URL }}
 
 **Removed:**
 
-* {{ PBI URL }}
+- {{ PBI URL }}
 
 Normally, these PBIs would be prioritized for the next Sprint, but we understand the time constraints for this work.
 

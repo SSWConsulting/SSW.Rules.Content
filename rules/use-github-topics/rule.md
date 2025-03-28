@@ -8,9 +8,9 @@ uri: use-github-topics
 created: 2020-11-23T19:31:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - do-you-use-github-topics

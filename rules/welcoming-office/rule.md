@@ -5,9 +5,9 @@ title: Do you make your office a welcoming space for employees and customers?
 uri: welcoming-office
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matthew Sampias
-    url: https://ssw.com.au/people/matthew-sampias
+    url: https://ww.ssw.com.au/people/matthew-sampias
 related:
   - give-clients-a-warm-welcome
 redirects:

@@ -5,9 +5,9 @@ title: Post-Production - Do you know how to promote videos?
 uri: post-production-do-you-know-how-to-promote-videos
 authors:
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 created: 2012-11-20T04:45:56.000Z
@@ -21,9 +21,9 @@ To ensure your videos gain maximum exposure, you need to promote them in various
 
 1. **Add to social Media accounts** - Post the new video to all social media accounts including:
 
-   * Twitter
-   * Facebook
-   * LinkedIn
+   - Twitter
+   - Facebook
+   - LinkedIn
 
 2. **Email all staff** - Email all the staff with the links to the posts you have made. You want to make it as easy as possible for them to be able to re-post the original messages. Use a tool like [clicktotweet.com](https://clicktotweet.com/).
 
@@ -45,9 +45,9 @@ Cheers,
 3. **Email the interviewee** (if apply) - The person(s) featured or interviewed in the video should be encouraged to share and promote your video. If they have an audience that follows them on social media you should leverage it to your advantage.
    Ask them to:
 
-   * Email the video to their list
-   * Write a blog post on their blog
-   * Update their social media accounts with a link and description of the video
+   - Email the video to their list
+   - Write a blog post on their blog
+   - Update their social media accounts with a link and description of the video
 
    Email template:
 
@@ -66,16 +66,16 @@ Thanks for taking the time to do this interview and promote it.
 
 4. **Contact strategic partners** - The best way to extend your reach and promote a video is through strategic partners. These are people, companies or websites which don’t compete with you but service the same audience. Examples of these types of partners are:
 
-   * Blogger in your industry
-   * Industry websites
-   * If you are an accountant, partner with a financial planner, business coach, insurance salesman or prestige car dealer
-   * Suppliers
-   * Industry experts
+   - Blogger in your industry
+   - Industry websites
+   - If you are an accountant, partner with a financial planner, business coach, insurance salesman or prestige car dealer
+   - Suppliers
+   - Industry experts
 
    You should ask the partner to:
 
-   * Email the video to their list
-   * Write a blog post on their blog
-   * Update their social media accounts with a link and description of the video
+   - Email the video to their list
+   - Write a blog post on their blog
+   - Update their social media accounts with a link and description of the video
 
    You should have a list of these partners in a database with all their contact details to automate the process of promoting your videos.

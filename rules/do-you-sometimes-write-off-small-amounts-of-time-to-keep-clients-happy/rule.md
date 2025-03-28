@@ -8,7 +8,7 @@ uri: do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
 created: 2010-07-27T07:21:51.0000000Z
 authors:
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
 ---

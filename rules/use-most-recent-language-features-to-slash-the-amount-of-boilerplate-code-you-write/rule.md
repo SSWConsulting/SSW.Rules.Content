@@ -5,7 +5,7 @@ title: Do you use the new C# 7 language features to slash the amount of boilerpl
 uri: use-most-recent-language-features-to-slash-the-amount-of-boilerplate-code-you-write
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-the-new-c-7-language-features-to-slash-the-amount-of-boilerplate-code-you-write

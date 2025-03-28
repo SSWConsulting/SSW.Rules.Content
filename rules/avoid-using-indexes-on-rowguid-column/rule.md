@@ -8,7 +8,7 @@ uri: avoid-using-indexes-on-rowguid-column
 created: 2019-11-06T01:32:42.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - schema-do-you-avoid-using-indexes-on-rowguid-column

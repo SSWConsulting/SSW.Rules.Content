@@ -8,7 +8,7 @@ uri: do-you-avoid-chinese-or-messy-code-on-your-website
 created: 2012-03-23T02:27:32.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

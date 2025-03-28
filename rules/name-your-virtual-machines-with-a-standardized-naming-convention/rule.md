@@ -8,7 +8,7 @@ uri: name-your-virtual-machines-with-a-standardized-naming-convention
 created: 2011-02-14T05:06:05.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
 related: []
 redirects:
   - do-you-name-your-virtual-machines-with-a-standadized-naming-convention

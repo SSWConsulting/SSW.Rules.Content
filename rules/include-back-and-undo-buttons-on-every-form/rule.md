@@ -5,7 +5,7 @@ title: Do you include "Back" and "Undo" buttons on every form?
 uri: include-back-and-undo-buttons-on-every-form
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T00:22:00.000Z
 guid: 3fbae7db-7cec-4daa-8371-47261cd6117b
 ---
@@ -32,4 +32,4 @@ For example:
 | Cut         | Remember: Remember Text and Cursor Position <br>Cut To Clipboard | Return to Remember   | n/a         |
 | Save Record | Remember old values <br>Execute procCustomerSave <br>Close Form  | Return to Old values | Reopen form |
 
-Sample code implementation in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit).
+Sample code implementation in the [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit).

@@ -5,7 +5,7 @@ title: Do you build criteria by using a where clause?
 uri: build-criteria-by-using-a-where-clause
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-build-criteria-by-using-a-where-clause
@@ -56,9 +56,9 @@ ClientSearch.aspx?Where=Client.ClientID%20like%20'%ssw%'
 
 The PROS for do this are:
 
-* Quicker development time.
-* SQL is very powerful - say I want to JOIN another table in the WHERE, I could use an IN statement and do a sub query - no extra code by the developer.
-* Matches HTML syntax (named value pair) and as a developer you can get it easy. E.g.:
+- Quicker development time.
+- SQL is very powerful - say I want to JOIN another table in the WHERE, I could use an IN statement and do a sub query - no extra code by the developer.
+- Matches HTML syntax (named value pair) and as a developer you can get it easy. E.g.:
 
 ```cs
 Request.QueryString("Where")
@@ -66,6 +66,6 @@ Request.QueryString("Where")
 
 The Cons:
 
-* It shows the database schema to the users - users maybe should not see the structure of the database.
-* Security - the where clause could show data we don't want users to see.
-* Got to add a little extra code to avoid [SQL injection](https://www.w3schools.com/sql/sql_injection.asp).
+- It shows the database schema to the users - users maybe should not see the structure of the database.
+- Security - the where clause could show data we don't want users to see.
+- Got to add a little extra code to avoid [SQL injection](https://www.w3schools.com/sql/sql_injection.asp).

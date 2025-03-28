@@ -6,13 +6,12 @@ title: Data Logic - Do you use de-normalized database fields for calculated valu
 guid: 2af79b6f-e2db-4ea0-85ba-5726039ed0dc
 uri: use-de-normalized-database-fields-for-calculated-values
 created: 2024-08-02T14:52:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Most reports contain some sort of calculation - order totals, freight costs and so on. You have 3 options on how to display this in your report:

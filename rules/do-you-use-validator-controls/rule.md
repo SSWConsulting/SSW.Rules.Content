@@ -5,7 +5,7 @@ title: Do you use Validator controls?
 uri: do-you-use-validator-controls
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:45:00.000Z
 guid: 7af2d87a-55a0-4646-a1ad-35ff39da96ad
 ---
@@ -163,4 +163,4 @@ The error provider has the advantage over the extended provider that it can be u
 
 ![Figure: SSW Extended Provider controls and properties on a TextBox](extendedprovider.gif)
 
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit/) that implements this cool Error Provider Control
+We have a program called [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit/) that implements this cool Error Provider Control

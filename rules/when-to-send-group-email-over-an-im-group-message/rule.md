@@ -5,7 +5,7 @@ title: Do you know when to send a group email over an IM group message?
 uri: when-to-send-group-email-over-an-im-group-message
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-when-to-send-an-sswall-email-over-an-im-group-message

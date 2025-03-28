@@ -8,7 +8,7 @@ uri: do-you-use-a-mobile-app-to-check-your-personal-payroll
 created: 2020-10-21T00:25:55.0000000Z
 authors:
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: https://ww.ssw.com.au/people/nick-viet
 related: []
 redirects:
   - do-you-use-a-xero-mobile-app-to-check-your-personal-payroll

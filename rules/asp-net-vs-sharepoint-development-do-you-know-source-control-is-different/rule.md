@@ -8,7 +8,7 @@ uri: asp-net-vs-sharepoint-development-do-you-know-source-control-is-different
 created: 2009-12-04T09:42:07.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects: []
 ---
@@ -23,12 +23,12 @@ redirects: []
 
 We think the following are best tracked on a development SharePoint server:
 
-* Master page
-* Page Layouts
-* XSL
-* CSS
+- Master page
+- Page Layouts
+- XSL
+- CSS
 
 And these should not (or cannot) be version controlled on SharePoint server:
 
-* Low level customizations such as custom web parts should still be developed in VS.NET and stored in TFS
-* Package files to build solution packages should be stored in TFS
+- Low level customizations such as custom web parts should still be developed in VS.NET and stored in TFS
+- Package files to build solution packages should be stored in TFS

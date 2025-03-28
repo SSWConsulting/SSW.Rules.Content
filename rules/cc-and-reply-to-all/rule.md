@@ -5,9 +5,9 @@ title: Do you CC relevant people and reply to all as a standard procedure?
 uri: cc-and-reply-to-all
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - email-add-or-remove-someone-from-conversation
 redirects:
@@ -19,9 +19,9 @@ guid: a681c2ee-2561-42ac-b8b1-5d7056800545
 
 When emailing external parties, it is a good idea to CC the other colleagues within your organization that may have an interest in the email. Some of the benefits of CC'ing others are:
 
-* It can save time
-* Gives the email more credibility if you have CC'd others in your organization
-* Colleagues may correct your mistakes
+- It can save time
+- Gives the email more credibility if you have CC'd others in your organization
+- Colleagues may correct your mistakes
 
 <!--endintro-->
 
@@ -37,10 +37,10 @@ Some people might reply only to the sender of the email ('[little r](https://www
 
 ## Exceptions
 
-* If the sender requests a 'little r' reply
-* If not all recipients need to be informed
-* If the [opinions of some recipients do not matter](/email-add-or-remove-someone-from-conversation) as they are unlikely to disagree
-* If the original email was to an alias with many subscribers, in general you should not Reply All
+- If the sender requests a 'little r' reply
+- If not all recipients need to be informed
+- If the [opinions of some recipients do not matter](/email-add-or-remove-someone-from-conversation) as they are unlikely to disagree
+- If the original email was to an alias with many subscribers, in general you should not Reply All
 
 ## What if the other person drops relevant people?
 

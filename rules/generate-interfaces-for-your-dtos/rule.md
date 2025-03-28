@@ -8,9 +8,9 @@ uri: generate-interfaces-for-your-dtos
 created: 2016-04-22T22:33:50.0000000Z
 authors:
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: https://ww.ssw.com.au/people/steve-leigh
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects:
   - practices-do-you-generate-strongly-typed-interfaces-for-your-dtos

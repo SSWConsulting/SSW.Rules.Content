@@ -8,7 +8,7 @@ uri: do-you-make-sure-your-visual-studio-encoding-is-consistent
 created: 2013-01-16T16:19:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -8,7 +8,7 @@ uri: do-you-place-scripts-at-the-bottom-of-your-page
 created: 2012-07-24T18:10:46.0000000Z
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
 ---

@@ -5,9 +5,9 @@ title: Do you create an online itinerary when traveling?
 uri: do-you-create-an-online-itinerary
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
 related:
   - do-you-know-the-best-online-accommodation-websites
   - do-you-check-if-your-qantas-flight-is-eligible-for-a-bid-now-upgrade

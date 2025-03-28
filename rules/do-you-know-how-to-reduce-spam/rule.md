@@ -6,11 +6,11 @@ seoDescription: Reduce spam and protect your organization's resources by using
 uri: do-you-know-how-to-reduce-spam
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
 related: []
@@ -24,9 +24,9 @@ Spam. It wastes time and resources. In most cases, the amount of spam received b
 
 E.g. Average volume of spam received daily:
 
-| Total Email Received | Spam  | Phishing | Malware | Legitimate | Spam % |
-| -------------------- | ----- | -------- | ------- | ---------- | ------ |
-| 50, 830                | 3257 | 1263       | 10      | 46, 300       | 11     |
+| Total Email Received | Spam | Phishing | Malware | Legitimate | Spam % |
+| -------------------- | ---- | -------- | ------- | ---------- | ------ |
+| 50, 830              | 3257 | 1263     | 10      | 46, 300    | 11     |
 
 <!--endintro-->
 
@@ -34,13 +34,13 @@ From a SysAdmin point of view, using anti-spam protection is the best way to go 
 
 There are also other non-Microsoft options e.g.
 
-* Mimecast
-* GFI MailEssentials
-* N-able Mail Assure
+- Mimecast
+- GFI MailEssentials
+- N-able Mail Assure
 
 When using Exchange and the Outlook client (or Outlook.com), Microsoft has an addon "Report Message" which helps users to report spam and phishing emails (This can be deployed by an Admin to everyone in your company):
 
-* [Mark email as junk or phishing](https://support.microsoft.com/en-us/office/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+- [Mark email as junk or phishing](https://support.microsoft.com/en-us/office/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
 When on the Outlook desktop client, you should actively mark items as Junk and block their senders. Do the following:
 

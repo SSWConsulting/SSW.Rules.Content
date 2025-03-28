@@ -5,9 +5,9 @@ title: Do you know how to work with document versions?
 uri: do-you-know-how-to-work-with-document-versions
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2009-07-23T03:16:53.000Z

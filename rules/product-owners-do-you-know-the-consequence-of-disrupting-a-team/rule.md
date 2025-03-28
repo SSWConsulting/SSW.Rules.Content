@@ -8,7 +8,7 @@ uri: product-owners-do-you-know-the-consequence-of-disrupting-a-team
 created: 2010-04-13T01:56:44.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -8,13 +8,13 @@ uri: post-production-do-you-give-enough-time-to-read-texts-in-your-videos
 created: 2016-07-14T20:12:04.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Andrew Forsyth
-    url: https://ssw.com.au/people/andrew-forsyth
+    url: https://ww.ssw.com.au/people/andrew-forsyth
   - title: Toby Goodman
-    url: https://ssw.com.au/people/toby-goodman
+    url: https://ww.ssw.com.au/people/toby-goodman
 related: []
 redirects: []
 ---

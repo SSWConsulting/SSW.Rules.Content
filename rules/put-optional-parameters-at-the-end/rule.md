@@ -5,7 +5,7 @@ title: Do you put optional parameters at the end?
 uri: put-optional-parameters-at-the-end
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-put-optional-parameters-at-the-end

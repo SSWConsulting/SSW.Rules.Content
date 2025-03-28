@@ -8,9 +8,9 @@ uri: handling-diacritics
 created: 2024-03-13T14:38:37.0000000Z
 authors:
   - title: Chloe Lin
-    url: https://ssw.com.au/people/chloe-lin
+    url: https://ww.ssw.com.au/people/chloe-lin
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related: []
 ---
 
@@ -33,10 +33,10 @@ See [Unicode equivalence](https://en.wikipedia.org/wiki/Unicode_equivalence)
 Let's see how we can use it:
 
 ```js
-const accentedString = "résumé";
+const accentedString = 'résumé';
 const normalizedString = accentedString
-  .normalize("NFD")
-  .replace(/\p{Diacritic}/gu, "");
+  .normalize('NFD')
+  .replace(/\p{Diacritic}/gu, '');
 
 console.log(normalizedString); // Output: resume
 ```

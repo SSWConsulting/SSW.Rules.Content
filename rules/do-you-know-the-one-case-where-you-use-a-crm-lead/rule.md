@@ -8,7 +8,7 @@ uri: do-you-know-the-one-case-where-you-use-a-crm-lead
 created: 2012-12-07T17:10:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

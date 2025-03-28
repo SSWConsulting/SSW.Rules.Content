@@ -1,24 +1,23 @@
 ---
 seoDescription: Optimize your Google Ads campaigns with proven SEM strategies for better ROI
 type: rule
-archivedreason: 
+archivedreason:
 title: SEM - Do you know how to optimize Google Ads campaigns?
 guid: 53b2a824-300b-4a0a-af56-b677ee8b525f
 uri: how-to-optimize-google-ads-campaigns
 created: 2016-02-01T05:09:30.0000000Z
 authors:
-- title: Marlon Marescia
-  url: https://ssw.com.au/people/marlon-marescia
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Marlon Marescia
+    url: https://ww.ssw.com.au/people/marlon-marescia
+  - title: Camilla Rosa Silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
+  - title: Jerwin Parker Roberto
+    url: https://ww.ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
-- do-you-know-how-to-optimize-google-adwords-campaigns
-- sem-do-you-know-how-to-optimize-google-ads-campaigns
-
+  - do-you-know-how-to-optimize-google-adwords-campaigns
+  - sem-do-you-know-how-to-optimize-google-ads-campaigns
 ---
 
 Google Ads can be a useful and successful marketing platform when actively monitored and optimized. The biggest key to a successful Google Ads campaign is optimization. Optimizing your campaign will allow you to reach your target audience effectively and efficiently.
@@ -29,13 +28,13 @@ This should be done daily, where possible, to ensure that ads are not running an
 
 ### Set a Maximum Cost per Click
 
-Ad s can be a costly method of advertising when used incorrectly. To prevent unknown and exorbitant costs you are able to set the  **Maximum Cost per Click (Max. CPC) for each of your ads.**
+Ad s can be a costly method of advertising when used incorrectly. To prevent unknown and exorbitant costs you are able to set the **Maximum Cost per Click (Max. CPC) for each of your ads.**
 
 This means that you won't pay more than the amount you have set for your ad, **although this helps prevent surprise bill shock it does,** however, mean that you may be missing out on clicks and as a result leads due to a low Max CPC.
 
-If your Max CPC is too low compared to competitor ads you may be missing out on reaching the first page of the google search. Ads should be adjusted to ensure that they are able to be seen by the market, this can be accomplished by  **setting your Max CPC at a level that will ensure it is on the first page.**
+If your Max CPC is too low compared to competitor ads you may be missing out on reaching the first page of the google search. Ads should be adjusted to ensure that they are able to be seen by the market, this can be accomplished by **setting your Max CPC at a level that will ensure it is on the first page.**
 
-![Figure: Maximum Cost per Click can be set at the campaign, ad group or ad level](2016-02-25\_8-16-05.jpg)  
+![Figure: Maximum Cost per Click can be set at the campaign, ad group or ad level](2016-02-25_8-16-05.jpg)
 
 **Set Unrelated Search Terms into Negative Keywords**
 
@@ -45,7 +44,7 @@ Google Ads has a solution to prevent this in the form of 'Negative Keywords'.
 
 Negative Keywords are able to be added to your campaign or ad group and tell Google Ads that you don't want your ad to be shown in any search containing these terms. This will help to minimize both cost and bounce rate for your ads.
 
-![Figure: Negative Keywords ensure your ad is not shown in unrelated searches](2016-02-25\_8-18-14.jpg)  
+![Figure: Negative Keywords ensure your ad is not shown in unrelated searches](2016-02-25_8-18-14.jpg)
 
 Learn more on this rule:[Do you have a negative keyword list on your campaigns?](/how-to-create-a-negative-keyword-list)
 

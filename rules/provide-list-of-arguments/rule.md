@@ -5,7 +5,7 @@ title: Do you provide list of arguments?
 uri: provide-list-of-arguments
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:41:00.000Z
 guid: d0bd94cb-018e-4144-a1ad-492a1d499ea1
 ---

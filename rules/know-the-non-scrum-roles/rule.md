@@ -8,11 +8,11 @@ uri: know-the-non-scrum-roles
 created: 2021-04-23T02:54:43.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - do-you-cc-your-account-manager-on-emails-relating-to-new-work
 redirects:
@@ -27,25 +27,25 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 
 ### Account Manager
 
-* Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
-* Managing key relationships
-* Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
-* CRM data entry and maintenance of Company, Contact, Opportunities, and [tracked emails](/track-important-emails)
-* Invoicing
-* Conflict resolution
-* Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
-* Budget discussions
+- Communication from [initial contact](/do-you-manage-your-inbound-leads-effectively), to [Initial Meeting](/meetings-do-you-know-the-agenda-for-the-initial-meeting), through to the [Spec Review](/rules-to-better-specification-reviews) until the main body of work is booked
+- Managing key relationships
+- Getting [T&Cs](https://www.ssw.com.au/ssw/Standards/Forms/ConsultingOrderTermsConditions.aspx) and any other required docs signed
+- CRM data entry and maintenance of Company, Contact, Opportunities, and [tracked emails](/track-important-emails)
+- Invoicing
+- Conflict resolution
+- Ongoing resourcing of the project and [booking of Developers](/scheduling-do-you-know-how-to-book-developers-for-a-project)
+- Budget discussions
 
 ### Tech Lead
 
-* Displays ownership of the project, and keeps the code quality high, and technical debt low
-* Responsible for the delivery of the project into production
-* Spec Review - Primary communicator with the Product Owner
-* Project - Primary communicator with the Product Owner
-* DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
-* Responsible for the architecture and technical direction of the project
-* Helps the Account Manager with technical areas of conflict management
-* Keeps on top of the budget and timelines
+- Displays ownership of the project, and keeps the code quality high, and technical debt low
+- Responsible for the delivery of the project into production
+- Spec Review - Primary communicator with the Product Owner
+- Project - Primary communicator with the Product Owner
+- DevOps - Ensures good practices are followed e.g. release to production as frequenty as possible
+- Responsible for the architecture and technical direction of the project
+- Helps the Account Manager with technical areas of conflict management
+- Keeps on top of the budget and timelines
 
 ::: good
 ![Figure: Don't forget! You can use reports to identify projects that are being worked on without Tech Leads](tech-lead-report.png)
@@ -53,10 +53,11 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | {{ TECH LEAD }} |
+|          |                               |
+| -------- | ----------------------------- |
+| To:      | {{ TECH LEAD }}               |
 | Subject: | Tech Lead - {{ CLIENT NAME }} |
+
 ::: email-content
 
 ### Hi {{ TECH LEAD }}

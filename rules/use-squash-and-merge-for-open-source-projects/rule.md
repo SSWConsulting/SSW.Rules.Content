@@ -8,11 +8,11 @@ uri: use-squash-and-merge-for-open-source-projects
 created: 2023-09-07T04:49:00.0000000Z
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
 related:
   - use-pull-request-templates-to-communicate-expectations
 redirects:

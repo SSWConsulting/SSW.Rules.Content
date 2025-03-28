@@ -8,9 +8,9 @@ uri: research-your-buyer-personas
 created: 2020-05-26T23:04:11.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-know-your-buyer-personas

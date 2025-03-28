@@ -8,7 +8,7 @@ uri: bundle-all-your-customizations-in-a-solution
 created: 2020-10-28T19:00:49.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related:
   - create-a-solution-and-use-the-current-environment-when-creating-flow-for-dynamics
 redirects:
@@ -26,8 +26,8 @@ Solutions can also be used to deploy changes in a managed (testing, production) 
 
 Differences between Managed and Unmanaged solutions:
 
-* When a Managed solution is uninstalled, all artifacts including data are removed
-* Unmanaged solutions will install the changes but deleting the solution will leave the changes intact, so think of it as an additive change
-* To completely remove all customizations in an Unmanaged solution every customized item needs to be manually deleted
+- When a Managed solution is uninstalled, all artifacts including data are removed
+- Unmanaged solutions will install the changes but deleting the solution will leave the changes intact, so think of it as an additive change
+- To completely remove all customizations in an Unmanaged solution every customized item needs to be manually deleted
 
 ![Figure: Solution show all customizations, make it very easy to move changes between environments](solutions-custom.png)

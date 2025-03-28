@@ -5,15 +5,15 @@ title: Do you follow up tasks effectively?
 uri: follow-up-effectively
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - professional-integrity-tools
   - creating-action-items
@@ -68,15 +68,16 @@ Include '(BCC'ing {{ TIME }}@followupthen)' at the top so other email recipients
 **Warning:** This email thread is sent to a 3rd party, so strip out any confidential information before using this tool.
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob Northwind, Brady Stroud |
-| Cc: | William Liebenberg |
-| Bcc: | <1week@followupthen.com> |
-| Subject: | Northwind.com - Errors in the logs |  
-::: email-content  
+|          |                                    |
+| -------- | ---------------------------------- |
+| To:      | Bob Northwind, Brady Stroud        |
+| Cc:      | William Liebenberg                 |
+| Bcc:     | <1week@followupthen.com>           |
+| Subject: | Northwind.com - Errors in the logs |
+
+::: email-content
 
 (Cc'ing 1week@followupthen)
 
@@ -161,7 +162,7 @@ This app works in tandem with Outlook to create todo lists and tasks. You can se
 
 Here is a practical and useful feature in Teams. With Schedule send you can schedule all your important messages in advance.
 
-* Right click the send button to schedule all the important messages in advance.
+- Right click the send button to schedule all the important messages in advance.
 
   ![Figure: Right click | schedule send](https://user-images.githubusercontent.com/97415708/208787147-65563106-eb48-45cf-adcc-df5b1146b99b.png)
 

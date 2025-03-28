@@ -5,7 +5,7 @@ title: Content - Do you know when to use Canva?
 uri: when-to-use-canva
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
   - title: Asher Paris
     url: https://www.ssw.com.au/people/asher-paris/
 related:

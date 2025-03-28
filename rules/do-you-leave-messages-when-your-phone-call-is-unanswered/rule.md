@@ -8,7 +8,7 @@ uri: do-you-leave-messages-when-your-phone-call-is-unanswered
 created: 2010-07-16T06:47:22.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

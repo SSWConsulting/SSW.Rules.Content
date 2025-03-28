@@ -8,9 +8,9 @@ uri: do-you-know-its-important-to-make-your-fonts-different
 created: 2014-12-16T18:08:26.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
 ---

@@ -8,7 +8,7 @@ uri: ios-do-you-know-how-to-optimise-your-test-and-release-deployments
 created: 2019-11-05T00:01:25.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 redirects: []
 ---

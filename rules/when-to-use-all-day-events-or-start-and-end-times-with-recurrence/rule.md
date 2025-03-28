@@ -8,7 +8,7 @@ uri: when-to-use-all-day-events-or-start-and-end-times-with-recurrence
 created: 2012-12-06T14:10:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - appointments-do-you-send-outlook-calendar-appointments-when-appropriate
 redirects:

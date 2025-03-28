@@ -8,7 +8,7 @@ uri: do-you-confirm-your-list-of-installed-sharepoint-2007-solutions
 created: 2010-12-23T02:53:48.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related: []
 redirects: []
 ---

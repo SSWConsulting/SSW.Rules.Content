@@ -8,7 +8,7 @@ uri: recruitment-data
 created: 2020-06-11T07:45:49.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-analyse-your-recruitment-data-to-improve-your-process

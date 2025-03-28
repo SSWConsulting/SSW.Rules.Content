@@ -8,7 +8,7 @@ uri: do-you-use-prefix-sys-in-table-name-best-practice
 created: 2010-07-23T02:47:37.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - schema-do-you-always-have-version-tracking-tables
   - use-a-sql-server-object-naming-standard

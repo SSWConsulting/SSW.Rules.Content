@@ -1,21 +1,21 @@
 ---
 type: rule
 title: Do you know when to use MDX over Markdown?
-seoDescription: " Learn when to use MDX for custom components and advanced
+seoDescription: ' Learn when to use MDX for custom components and advanced
   functionality, regardless of the framework, versus sticking with Markdown for
-  simplicity."
+  simplicity.'
 uri: mdx-vs-markdown
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: https://ww.ssw.com.au/people/jack-pettit
 guid: 9231556d-6d72-43b8-ba7d-ce704e64221c
 related: []
 redirects: []
 ---
+
 Let's face it, not all content is created equal. Sometimes you just need a simple document, and other times you want something more dynamic and interactive.
 
 <!--endintro-->
-
 
 ## When to use Markdown (.md)
 
@@ -39,10 +39,9 @@ MDX steps up when you need something more powerful. It lets you add interactive 
 - Your content requires some programming logic
 - You're creating tutorial content with live examples
 
-
 ::: greybox
 **Example:** A coding tutorial with an interactive chart showing performance metrics, or a documentation page with a live code editor where readers can try out code in real-time.
-::: 
+:::
 
 ## Things to consider
 
@@ -57,4 +56,3 @@ MDX isn't perfect for every situation. Before you jump in, consider:
 Choose Markdown for simple, fast content. Choose MDX when you need more interactive and dynamic features.
 
 The key is to start simple. Use Markdown for most of your content, and only switch to MDX when you truly need those extra capabilities.
-

@@ -5,7 +5,7 @@ title: Do you know how to choose the right group in Microsoft 365?
 uri: groups-in-microsoft-365
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil
   - title: Warwick Leahy

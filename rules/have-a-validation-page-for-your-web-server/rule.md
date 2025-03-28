@@ -8,7 +8,7 @@ uri: have-a-validation-page-for-your-web-server
 created: 2016-11-16T16:43:56.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-validation-page-the-zsvalidate-for-your-web-server

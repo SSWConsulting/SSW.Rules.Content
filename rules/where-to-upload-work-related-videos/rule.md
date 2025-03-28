@@ -8,15 +8,14 @@ uri: where-to-upload-work-related-videos
 created: 2018-02-28T17:44:02.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-know-where-to-upload-work-related-videos
-
 ---
 
 In the course of your employment, you may produce a number of videos for a project, a client, and/or for your profile.

@@ -8,7 +8,7 @@ uri: avoid-validating-xml-documents-unnecessarily
 created: 2018-04-25T19:38:17.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-validating-xml-documents-unnecessarily
@@ -16,10 +16,10 @@ redirects:
 
 Validating an XML document against a schema is expensive, and should not be done where it is not absolutely necessary. Combined with weight the XML document object, validation can cause a significant performance hit:
 
-* Read with XmlValidatingReader: 172203 nodes - 812 ms
-* Read with XmlTextReader: 172203 nodes - 320 ms
-* Parse using XmlDocument no validation - length 1619608 - 1052 ms
-* Parse using XmlDocument with XmlValidatingReader: length 1619608 - 1862 ms
+- Read with XmlValidatingReader: 172203 nodes - 812 ms
+- Read with XmlTextReader: 172203 nodes - 320 ms
+- Parse using XmlDocument no validation - length 1619608 - 1052 ms
+- Parse using XmlDocument with XmlValidatingReader: length 1619608 - 1862 ms
 
 You can disable validation when using the XmlDocument object by passing an XmlTextReader instead of the XmlValidatingTextReader:
 

@@ -8,7 +8,7 @@ uri: do-you-protect-your-mvc-website-from-automated-attack
 created: 2015-04-27T05:14:32.0000000Z
 authors:
   - title: Shigemi Matsumoto
-    url: https://ssw.com.au/people/shigemi-matsumoto
+    url: https://ww.ssw.com.au/people/shigemi-matsumoto
 related: []
 redirects: []
 ---

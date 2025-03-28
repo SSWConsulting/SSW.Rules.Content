@@ -1,12 +1,12 @@
 ---
 type: rule
-tips: ""
+tips: ''
 title: Do your branches have a naming convention?
 seoDescription: Using effective branch naming conventions with PBI numbers, descriptive names, and structured formats to enhance collaboration and traceability.
 uri: branch-naming
 authors:
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related:
   - do-you-know-when-to-branch-in-git
   - clear-meaningful-names
@@ -35,37 +35,40 @@ Always remember to:
 ---
 
 ::: greybox
-* SomeUser-patch-3   
-* fix-styling-issue  
-* redirects   
-* update-package-version   
-* fix-stuff
-:::
-::: bad
-Figure: Bad example - Poorly named branches missing PBI numbers
-:::
+
+- SomeUser-patch-3
+- fix-styling-issue
+- redirects
+- update-package-version
+- fix-stuff
+  :::
+  ::: bad
+  Figure: Bad example - Poorly named branches missing PBI numbers
+  :::
 
 ::: greybox
-* 1463-collection-categories   
-* 1506-fix-storage-variable-yaml   
-* 1299-update-third-party-dependencies
-:::
-::: ok
-Figure: OK example - Branches with PBI numbers and meaningful names
-:::
+
+- 1463-collection-categories
+- 1506-fix-storage-variable-yaml
+- 1299-update-third-party-dependencies
+  :::
+  ::: ok
+  Figure: OK example - Branches with PBI numbers and meaningful names
+  :::
 
 ::: greybox
-* feature/3421-add-search-functionality
-* bugfix/4578-fix-date-formatting-issue
-* hotfix/9845-patch-payment-api-timeout
-* release/2.3.1
-:::
-::: good
-Figure: Good example - Branches with category prefixes
-:::
+
+- feature/3421-add-search-functionality
+- bugfix/4578-fix-date-formatting-issue
+- hotfix/9845-patch-payment-api-timeout
+- release/2.3.1
+  :::
+  ::: good
+  Figure: Good example - Branches with category prefixes
+  :::
 
 ::: greybox
-{{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}   
+{{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}  
 :::
 ::: good
 Figure: Good example - Recommended naming format
@@ -73,6 +76,6 @@ Figure: Good example - Recommended naming format
 
 ## ❌ Avoid using `SomeUser-patch-1`
 
-GitHub's automatically generated branch names like patch-1, patch-2, etc., are convenient for quick edits but lack context, making it difficult to identify the changes introduced. These branches are often used for typo fixes or minor documentation updates that are immediately raised as pull requests. 
+GitHub's automatically generated branch names like patch-1, patch-2, etc., are convenient for quick edits but lack context, making it difficult to identify the changes introduced. These branches are often used for typo fixes or minor documentation updates that are immediately raised as pull requests.
 
 To improve clarity, use a descriptive name instead, such as `fix-readme-typo` instead of `patch-1`.

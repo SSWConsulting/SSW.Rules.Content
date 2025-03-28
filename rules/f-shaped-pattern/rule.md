@@ -8,7 +8,7 @@ uri: f-shaped-pattern
 created: 2023-09-25T09:06:33.000Z
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - web-users-dont-read
   - always-reduce-complexity

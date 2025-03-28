@@ -5,7 +5,7 @@ title: Technical - Do you check your website performance?
 uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related:
   - optimize-your-images
 redirects:
@@ -27,11 +27,11 @@ For a smooth and responsive user experience, your site needs to be checked for p
 
 This includes checking for improvements on:
 
-* The slowest pages
-* The compression of unnecessarily large images
-* Inefficient Ajax JavaScript code
-* Slow database queries
-* Page responsiveness
+- The slowest pages
+- The compression of unnecessarily large images
+- Inefficient Ajax JavaScript code
+- Slow database queries
+- Page responsiveness
 
 ::: greybox
 A website with large, uncompressed images, excessive plugins, and unoptimized code can lead to slow loading times.
@@ -49,9 +49,9 @@ On the contrary, a well-optimized website employs techniques such as image compr
 
 These optimizations contribute to:
 
-* Faster page loading
-* Enhancing user satisfaction
-* Increasing the chances of retaining visitors and conversions
+- Faster page loading
+- Enhancing user satisfaction
+- Increasing the chances of retaining visitors and conversions
 
 :::
 ::: good

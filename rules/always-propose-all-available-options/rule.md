@@ -8,9 +8,9 @@ uri: always-propose-all-available-options
 created: 2017-09-20T22:31:19.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-always-propose-all-available-options
@@ -42,4 +42,4 @@ Figure: Good Example – whatever option they choose, they can still use your co
 
 ### Related Rule
 
-* [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)
+- [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)

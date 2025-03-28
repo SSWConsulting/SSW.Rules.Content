@@ -5,7 +5,7 @@ title: Do you use "Tree of Thought" prompts for complex reasoning?
 uri: tree-of-thought-prompts-for-complex-reasoning
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-tree-of-thought-prompts

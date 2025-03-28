@@ -8,11 +8,11 @@ uri: use-and-indicate-draft-pull-requests
 created: 2024-01-11T04:53:25.0000000Z
 authors:
   - title: Tino Liu
-    url: https://ssw.com.au/people/tino-liu
+    url: https://ww.ssw.com.au/people/tino-liu
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: https://ww.ssw.com.au/people/nick-curran
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - over-the-shoulder
   - adding-changes-to-pull-requests

@@ -6,13 +6,12 @@ title: Internationalization - Do you make sure your language follows the user's 
 guid: ea1e46de-369e-4b4b-bb41-18ee507f56ec
 uri: ensure-language-follows-user-regional-settings
 created: 2024-08-02T11:08:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Developers too often change the 'Language' settings on reports in order to make it look ok for how they want to see it. Without realizing that they are now not supporting multiple cultures.
@@ -49,14 +48,14 @@ When you try to add the 'User' your data-driven subscriptions fail with the foll
 The reason is the report doesn't know which language to choose. The workaround is to add a user function to fallback the error to a default language, like: "en-AU"
 :::
 
-``` js
+```js
 Public Function Language()
     Try
         Return Report.User!Language
     Catch
         Return "en-AU"
     End Try
-End Function   
+End Function
 ```
 
 ::: good  

@@ -8,9 +8,9 @@ uri: join-link-at-the-top
 created: 2020-11-06T23:56:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - appointments-do-you-always-put-your-join-link-for-remote-meetings-at-the-top-of-the-body

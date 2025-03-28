@@ -5,7 +5,7 @@ title: Do you know the best way to share and collaborate on your design work?
 uri: hand-over-mockups-to-developers
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
 related:

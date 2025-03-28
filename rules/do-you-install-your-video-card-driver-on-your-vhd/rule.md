@@ -8,7 +8,7 @@ uri: do-you-install-your-video-card-driver-on-your-vhd
 created: 2011-04-13T06:12:23.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
 related: []
 redirects: []
 ---

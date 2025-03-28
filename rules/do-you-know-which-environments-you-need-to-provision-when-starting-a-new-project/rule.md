@@ -6,7 +6,7 @@ title: Do You Know Which Environments You Need To Provision When Starting A New
 uri: do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay/
+    url: https://ww.ssw.com.au/people/daniel-mackay/
 related:
   - ephemeral-environments
   - do-you-have-separate-development-testing-and-production-environments
@@ -17,7 +17,7 @@ guid: 8d165756-d35e-4d1a-8924-3c4f59523db4
 Before any project can be used by a customer it must first be published to a production environment. However, in order to provide a robust and uninterrupted service to customers, it is important that the production environment is not used for development or testing purposes. To ensure this, we must setup a separate environment for each of these purposes.
 
 ::: bad
-![Bad example - Skipping environments](bad-example-skipping-environments.jpg "Bad Example")
+![Bad example - Skipping environments](bad-example-skipping-environments.jpg 'Bad Example')
 :::
 
 Skipping environments in a feeble attempt to save money will result in untested features breaking production.
@@ -35,7 +35,7 @@ Skipping environments in a feeble attempt to save money will result in untested 
 ### Large or Multi-Team Projects
 
 ::: good
-![Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg "Large or Multi-Team Projects")
+![Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg 'Large or Multi-Team Projects')
 :::
 
 For large projects it's recommended to run 4 hosted environments + 1 local:
@@ -51,7 +51,7 @@ The above is a general recommendation. Depending on your project's needs you may
 ### Internal or Small Projects
 
 ::: good
-![Good example - Internal or Small Projects have fewer environments](simple-environments.jpg "Internal or Small Projects")
+![Good example - Internal or Small Projects have fewer environments](simple-environments.jpg 'Internal or Small Projects')
 :::
 
 For smaller projects we can often get away without having a dedicated development environment. In this scenario we have 2 hosted environments + 1 local:

@@ -8,9 +8,9 @@ uri: do-you-know-the-dynamics-crm-competitors
 created: 2017-06-30T18:02:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-know-the-dynamics-365-crm-competitors

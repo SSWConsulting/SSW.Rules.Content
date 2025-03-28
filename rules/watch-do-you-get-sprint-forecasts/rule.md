@@ -8,7 +8,7 @@ uri: watch-do-you-get-sprint-forecasts
 created: 2012-05-01T05:03:24.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 ---

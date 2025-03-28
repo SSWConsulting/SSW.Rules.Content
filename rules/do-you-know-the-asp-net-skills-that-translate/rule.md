@@ -8,9 +8,9 @@ uri: do-you-know-the-asp-net-skills-that-translate
 created: 2009-05-21T07:13:53.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
   - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
+    url: https://ww.ssw.com.au/people/jay-lin
 related: []
 redirects: []
 ---

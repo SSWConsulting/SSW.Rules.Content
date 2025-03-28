@@ -8,11 +8,11 @@ uri: optimize-android-builds-and-start-up-times
 created: 2020-10-08T23:04:23.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Anton Polkanov
-    url: https://ssw.com.au/people/anton-polkanov
+    url: https://ww.ssw.com.au/people/anton-polkanov
 related: []
 redirects:
   - do-you-optimise-your-android-builds-and-start-up-times

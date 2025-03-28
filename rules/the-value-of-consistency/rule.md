@@ -7,7 +7,7 @@ seoDescription: If you need to do something more than once, then there should be
 uri: the-value-of-consistency
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-understand-the-value-of-consistency
@@ -24,13 +24,13 @@ If you need to do something more than once, then there should be a standard for 
 
 Say we are creating a web application. We can expect to:
 
-* **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
+- **Improved Productivity** - With set standards, decision-making is streamlined. For instance, in .NET Web applications, we bypass lengthy debates on choosing between authentication frameworks for a project; the standard approach is already defined in the rule. This allows developers to focus on building upon existing foundations rather than reinventing the wheel
 
-* **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](/why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
+- **Enhanced quality** - Following best practices ensures that the applications are built to a higher standard. For example, deciding on the [most suitable ORM, like Entity Framework](/why-to-use-entity-framework), is made simpler by adhering to pre-established guidelines
 
-* **Improve communications** - For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug](/definition-of-a-bug)
+- **Improve communications** - For example, when we complete a task we are clear and educate the customer by including a screenshot, the code and the time taken. We are consistent with whether we call it a bug or a feature because we [define what's a bug](/definition-of-a-bug)
 
-* **Direct Focus on Client Issues** - With standards in place, developers don't waste time deliberating over architectural choices like [whether to use RESTful services or gRPC](/choose-the-right-api-tech). They can dive straight into solving the core issues that the client faces
+- **Direct Focus on Client Issues** - With standards in place, developers don't waste time deliberating over architectural choices like [whether to use RESTful services or gRPC](/choose-the-right-api-tech). They can dive straight into solving the core issues that the client faces
 
 You should create and follow standards for all manner of processes, from coding practices to project proposals, and how to lock the office up at night. The best example: **SSW Rules**.
 
@@ -84,8 +84,8 @@ Standards don't need to come at the expense of creativity. Following standards m
 <br/>
 <br/>
 
-*What is an SSW Rule that is memorable to you?*
+_What is an SSW Rule that is memorable to you?_
 
-*Or, in general what makes a rule memorable?*
+_Or, in general what makes a rule memorable?_
 
-*Or, ever had a time that a rule saved you time (or from making a mistake)?*
+_Or, ever had a time that a rule saved you time (or from making a mistake)?_

@@ -8,7 +8,7 @@ uri: production-do-you-set-up-the-speaker-prior-to-recording
 created: 2011-07-01T08:40:26.0000000Z
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
 related: []
 redirects: []
 ---

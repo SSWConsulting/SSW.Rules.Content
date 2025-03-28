@@ -8,7 +8,7 @@ uri: do-you-make-it-easy-to-your-users-to-add-an-event-to-their-calendar
 created: 2014-12-12T19:56:44.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - calendar-does-your-website-make-it-easy-for-your-users-to-add-an-event-to-their-calendar

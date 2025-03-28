@@ -5,9 +5,9 @@ title: Do you hand over your responsibilities?
 uri: hand-over-responsibilities
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - hand-over-projects
   - how-to-hand-over-tasks-to-others

@@ -5,9 +5,9 @@ title: Do you know the best software for user experience design?
 uri: software-for-ux-design
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - hand-over-mockups-to-developers
   - where-to-keep-your-design-files

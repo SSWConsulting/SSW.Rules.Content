@@ -5,7 +5,7 @@ title: Email - Do you use the best backup solution?
 uri: email-do-you-use-the-best-backup-solution
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related:
   - pc-do-you-use-the-best-backup-solution
   - servers-do-you-use-the-best-backup-solution

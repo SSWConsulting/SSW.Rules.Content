@@ -7,12 +7,11 @@ seoDescription: Explore the critical importance of shadowing experienced
 uri: shadow-spec-reviews
 authors:
   - title: Sam Smith
-    url: https://ssw.com.au/people/sam-smith/
+    url: https://ww.ssw.com.au/people/sam-smith/
 related:
   - spec-add-value
 created: 2023-11-27T00:34:16.382Z
 guid: a3e51a8d-66d5-48e1-a109-f89d6a19ee15
-
 ---
 
 Spec Reviews are a vital part of architecting a new solution for a client, they are the plans upon which a new project is modeled. They serve as a key stage in the pre-sales process for software development consultancies as they create an opportunity for the developers to demonstrate expertise and provide immediate value to the client. For these reasons alone, it is evident that those who are assigned to carry out this exercise must be well-trained in the matter.
@@ -29,7 +28,7 @@ Involving developers with no experience in Spec Reviews can lead to significant 
 
 Shadowing two experienced developers during a Spec Review is the most effective training method, providing real-world experience that allows the trainee to get stuck in and learn the process hands-on.
 
-![Figure: Shadowing is the best way to learn](architects.png "A trainee shadowing 2 experienced developers")
+![Figure: Shadowing is the best way to learn](architects.png 'A trainee shadowing 2 experienced developers')
 
 A developer who is shadowing should incur **no cost** to the client, this should allow the trainee to feel less pressured to perform, creating a healthy environment for them to learn. This also means the client to gains value, as they are getting an additional skilled resource at no additional cost.
 

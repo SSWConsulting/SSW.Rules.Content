@@ -5,9 +5,9 @@ title: Do you know how to hand over email tasks or responsibilities to others?
 uri: how-to-hand-over-tasks-to-others
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny-walker
   - title: Tiago Araujo
@@ -37,11 +37,12 @@ Always make sure you clearly reallocate a task with an email to the person who w
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
-| Cc: | David |
+|          |                   |
+| -------- | ----------------- |
+| To:      | Bob               |
+| Cc:      | David             |
 | Subject: | RE: Northwind app |
+
 ::: email-content
 
 ### Hi Bob
@@ -71,11 +72,12 @@ Figure: Bad example - Task not directly reallocated
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | David |
-| Cc: | Bob |
+|          |                   |
+| -------- | ----------------- |
+| To:      | David             |
+| Cc:      | Bob               |
 | Subject: | RE: Northwind app |
+
 ::: email-content
 
 ### Hi David
@@ -91,7 +93,7 @@ Andy
 
 **From:** Bob\
 **To:** Andy\
-**Subject:** Northwind app  
+**Subject:** Northwind app
 
 ### Hi Andy
 
@@ -111,16 +113,17 @@ If you are handing over an employee responsibility using an intranet, you should
 
 **Tips:**
 
-* You should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent
-* Cc the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future
+- You should send each task in a different email so they are easily searchable in the employee's email inbox when they need to review the instructions sent
+- Cc the manager who originally gave you that responsibility so they are clear who they should chase if something is missed in the future
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Mary |
-| Cc: | {{ MANAGER }} |
+|          |                                                  |
+| -------- | ------------------------------------------------ |
+| To:      | Mary                                             |
+| Cc:      | {{ MANAGER }}                                    |
 | Subject: | SSW.Admin - Scheduling .NET User Groups handover |
+
 ::: email-content
 
 ### Hi Mary
@@ -129,8 +132,8 @@ As per our conversation, this responsibility is now yours: {{ LINK TO INTRANET }
 
 As discussed, you'll need to:
 
-* Always have a few months' worth of user groups scheduled ahead of time
-* Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
+- Always have a few months' worth of user groups scheduled ahead of time
+- Check if any of the user group dates fall on a public holiday. If they do, contact venue to reschedule to the next available weekday
 
 Regards,\
 Andy

@@ -8,9 +8,9 @@ uri: do-you-create-a-call-to-action-on-your-facebook-page
 created: 2015-05-08T20:07:50.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - facebook-do-you-create-a-call-to-action-on-your-facebook-page

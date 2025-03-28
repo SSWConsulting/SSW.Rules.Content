@@ -8,11 +8,11 @@ uri: use-ngrx-on-complex-applications
 created: 2016-08-02T14:25:26.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Tom Bui
-    url: https://ssw.com.au/people/tom-bui
+    url: https://ww.ssw.com.au/people/tom-bui
 related: []
 redirects:
   - practices-do-you-know-to-use-ngrx-on-complex-applications
@@ -77,11 +77,11 @@ Actions may also include payload data using the props function.
 For example:
 
 ```typescript
-import { createAction, props } from "@ngrx/store";
+import { createAction, props } from '@ngrx/store';
 
-export const loadProducts = createAction("[Product] Load Products");
+export const loadProducts = createAction('[Product] Load Products');
 export const productsLoaded = createAction(
-  "[Product] Products Loaded",
+  '[Product] Products Loaded',
   props<{ products: Product[] }>()
 );
 
@@ -101,8 +101,8 @@ Use the `createReducer` function from @ngrx/store to create reducer functions.
 For example:
 
 ```typescript
-import { createReducer, on } from "@ngrx/store";
-import { productsLoaded } from "../actions/product.actions";
+import { createReducer, on } from '@ngrx/store';
+import { productsLoaded } from '../actions/product.actions';
 
 export interface ProductState {
   products: Product[];
@@ -130,9 +130,9 @@ Optionally, include StoreDevtoolsModule.instrument() to enable the Redux DevTool
 For example:
 
 ```typescript
-import { StoreModule } from "@ngrx/store";
-import { StoreDevtoolsModule } from "@ngrx/store-devtools";
-import { rootReducer } from "./store/reducers";
+import { StoreModule } from '@ngrx/store';
+import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { rootReducer } from './store/reducers';
 
 @NgModule({
   imports: [

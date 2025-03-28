@@ -5,11 +5,11 @@ title: Expenses - Do you use the best mobile app for expenses?
 uri: do-you-use-the-best-mobile-app-for-expenses
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: https://ww.ssw.com.au/people/nick-viet
 related:
   - how-to-enter-an-expensify-receipt
   - do-you-create-a-new-report-for-related-expenses

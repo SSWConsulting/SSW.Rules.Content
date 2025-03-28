@@ -9,13 +9,13 @@ archivedreason: >-
 
 
   [RE: [SSW] Rules to Better Architecture and Code Review]
-title: "MEF: Do you know not to go overboard with dynamic dependencies?"
+title: 'MEF: Do you know not to go overboard with dynamic dependencies?'
 guid: 0e823f82-0fd5-43e4-8645-95a2da3b8449
 uri: mef-do-you-know-not-to-go-overboard-with-dynamic-dependencies
 created: 2012-03-21T09:45:50.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

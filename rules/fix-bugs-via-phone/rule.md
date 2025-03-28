@@ -5,7 +5,7 @@ title: Do you fix bugs with a phone call?
 uri: fix-bugs-via-phone
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related:
   - fix-bugs-first
   - report-bugs-and-suggestions

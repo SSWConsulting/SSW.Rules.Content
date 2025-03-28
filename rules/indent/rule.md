@@ -5,13 +5,13 @@ seoDescription: Learn how to enhance your email communication by using indentati
 uri: indent
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: https://ww.ssw.com.au/people/paul-neumeyer
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - when-you-reply-inline-do-you-use-a-different-color
   - change-from-x-to-y
@@ -20,17 +20,16 @@ redirects:
 created: 2010-09-01T02:53:29.000Z
 archivedreason: null
 guid: 1899c3db-ac1b-468e-a8e7-f2cdc5e0748a
-
 ---
 
 Written communication can easily cause misunderstandings. Help the reader understand your message better by:
 
-* Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to.\
+- Using “&gt;” and indentation when quoting the text from others, like the original email you are replying to.\
   **Note:** “&gt;” is not needed when quoting from a web page
-* Make the question/task followed by the respective answer in a logical order
-* [Add numbers to tasks](/number-tasks-questions) if the sender forgot.\
+- Make the question/task followed by the respective answer in a logical order
+- [Add numbers to tasks](/number-tasks-questions) if the sender forgot.\
   Mention you changed the history. E.g. “(added numbers to tasks in the history, so we can clearly refer to them)”
-* Your text should be always kept to the left
+- Your text should be always kept to the left
 
 <!--endintro-->
 
@@ -40,10 +39,11 @@ This way you won't forget any questions in the original email.
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Adam |
+|          |                             |
+| -------- | --------------------------- |
+| To:      | Adam                        |
 | Subject: | RE: Change on Northwind app |
+
 ::: email-content
 
 ### Hi Adam
@@ -60,10 +60,11 @@ Figure: Bad example - There's too much information with no reasonable order
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Adam |
+|          |                             |
+| -------- | --------------------------- |
+| To:      | Adam                        |
 | Subject: | RE: Change on Northwind app |
+
 ::: email-content
 
 ### Hi Adam
@@ -81,10 +82,11 @@ Figure: Bad example - Order is OK, but it's using quotes to reference others' te
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Adam |
+|          |                             |
+| -------- | --------------------------- |
+| To:      | Adam                        |
 | Subject: | RE: Change on Northwind app |
+
 ::: email-content
 
 ### Hi Adam
@@ -102,10 +104,11 @@ Figure: OK example - Even with ">", indentation and numbers, without spacing the
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Adam |
+|          |                             |
+| -------- | --------------------------- |
+| To:      | Adam                        |
 | Subject: | RE: Change on Northwind app |
+
 ::: email-content
 
 ### Hi Adam

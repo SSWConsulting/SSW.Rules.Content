@@ -5,19 +5,19 @@ title: Do you make awesome documentation?
 uri: awesome-documentation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - reference-do-you-use-the-correct-symbols-when-documenting-instructions
   - use-correct-symbols-when-documenting-instructions
@@ -52,15 +52,15 @@ The old school way is document first – lots of planning and lots of heavy docu
 
 This is the method most familiar to teams who are comfortable with Waterfall and have possibly never heard of Agile. Documentation can normally be characterized by:
 
-* Heavy, long documents
-* Sequence Diagrams
-* UML
+- Heavy, long documents
+- Sequence Diagrams
+- UML
 
 This is a well-established way to do documentation, but it has several problems:
 
-* Gets out of date quickly
-* High maintenance overhead
-* Needs a business analyst
+- Gets out of date quickly
+- High maintenance overhead
+- Needs a business analyst
 
 ::: bad  
 ![Figure: Bad example - Documentation can take the form of Sequence Diagrams](enterprisearchitect1.jpg)  
@@ -94,20 +94,20 @@ This style of documentation is used by modern teams who are Agile only.
 
 **5. \_docs\Technologies-and-Architecture.md** – Provides a technical overview of the solution.
 
-* A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project.
-* Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
-* A link to [ADRs (Architectural Decision Records)](/do-you-use-architectural-decision-records/)
-* Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
-* 3rd party libraries used
-* 3rd party services used
-* A link to all [package-audit-logs](/package-audit-log)
+- A link to an [architecture diagram](/architecture-diagram) which outlines a high-level overview of the project.
+- Links to any lower level architecture diagrams of the system e.g. [Azure resources diagram (auto generated)](/azure-resources-diagram)
+- A link to [ADRs (Architectural Decision Records)](/do-you-use-architectural-decision-records/)
+- Coding patterns followed (e.g. [Clean Architecture](/rules-to-better-clean-architecture/))
+- 3rd party libraries used
+- 3rd party services used
+- A link to all [package-audit-logs](/package-audit-log)
 
 **6. \_docs\Alternative-Solutions-Considered.md** – explains other options that were discounted. For example
 
-* We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
-* We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
-* We chose to use Azure over on-premises to avoid procurement of costly servers.
-* Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
+- We chose to use a code-centric .NET solution over a low code solution because we did not want to be locked into any specific vendor e.g. Dynamics, Outsystems.
+- We chose to use Angular over React because 5/6 developers on the project were more familiar with Angular.
+- We chose to use Azure over on-premises to avoid procurement of costly servers.
+- Note: If you decide after the fact that the chosen solution is wrong, this should be explained. Include what led to the current circumstances and if there is a planned change.
 
 **7. \_docs\Definition-of-Done.md** - Ensures that your team [maintains a high level of quality with a Definition of Done](/definition-of-done)
 
@@ -123,15 +123,15 @@ Documents to be read or edited by the Product Owner (or other members of the Scr
 
 Azure DevOps wiki options:
 
-* [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
-* [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
-* An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
+- [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
+- [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
+- An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 GitHub wiki options:
 
-* [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
-* The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
-* An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
+- [Markdown files edited via the repo](https://docs.github.com/en/github/managing-files-in-a-repository/editing-files-in-your-repository) (recommended)
+- The [GitHub repo Wiki](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+- An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 **Tip:** You can publish your documentation from the repo using [GitHub Pages](https://pages.github.com)
 
@@ -194,9 +194,9 @@ This should be added to the [Definition of Done](/definition-of-done).
 
 During a project, when you add functionality, you have a choice:
 
-* One way is quick but messy - it will make further changes harder in the future (i.e. quick and dirty).
+- One way is quick but messy - it will make further changes harder in the future (i.e. quick and dirty).
 
-* The other way is cleaner – it will make changes easier to do in the future but will take longer to put in place.
+- The other way is cleaner – it will make changes easier to do in the future but will take longer to put in place.
 
 'Technical Debt' is a metaphor to help us think about this problem. In this metaphor (often mentioned during Scrum software projects), doing things the quick and dirty way gives us a 'technical debt', which will have to be fixed later. Like financial debt, the technical debt incurs interest payments - in the form of the extra effort that we must do in future development.
 

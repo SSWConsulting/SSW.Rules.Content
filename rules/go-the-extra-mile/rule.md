@@ -5,9 +5,9 @@ title: Quality - Do you go 2 miles when you're only asked to go 1?
 uri: go-the-extra-mile
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - quality-do-you-go-two-miles-when-youre-only-asked-to-go-one
@@ -27,10 +27,10 @@ While not everyone chooses to agree with everything said, it's a valid point whe
 
 <!--endintro-->
 
-* People begin to share responsibility for work that traditionally is claimed as _"not my problem"_
-* Others will return the favour when you really need it
-* The sense of workplace isolation disappears
-* Productivity lifts as tasks can be achieved more quickly
+- People begin to share responsibility for work that traditionally is claimed as _"not my problem"_
+- Others will return the favour when you really need it
+- The sense of workplace isolation disappears
+- Productivity lifts as tasks can be achieved more quickly
 
 ![Figure: Going the extra mile](cows-bum.jpg)
 

@@ -14,7 +14,7 @@ related:
   - defining-pbis
 created: 2023-01-25T08:47:53.492Z
 guid: b4b9e315-5c7f-413c-9456-e53a23cbbdac
-archivedreason: duplicate of https://ssw.com.au/rules/meaningful-pbi-titles
+archivedreason: duplicate of https://ww.ssw.com.au/rules/meaningful-pbi-titles
 ---
 
 PBI titles are the fastest way to get information about an issue. Unfortunately, backlogs are often filled with poorly named PBIs, making it hard for the key stakeholders to sift through.
@@ -25,19 +25,19 @@ A well-thought-out PBI title can be the difference between an excellent Sprint P
 
 Many factors go into a good PBI title. Some of the core aspects are:
 
-* Audience interpretation
-* Importance
-* Business area
-* Type of PBI
-* Number of words
+- Audience interpretation
+- Importance
+- Business area
+- Type of PBI
+- Number of words
 
 ### Audience Interpretation
 
 People interpret things in different ways. Those interested in PBIs generally include:
 
-* Developers
-* Product Owners
-* External Stakeholders
+- Developers
+- Product Owners
+- External Stakeholders
 
 Consider the background of all interested and change the title accordingly. For example, a Product Owner might not know what "dependency" means, so it might be better to avoid including that in a PBI title.
 

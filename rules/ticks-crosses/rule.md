@@ -4,11 +4,11 @@ title: Post-Production - Do you use ticks and crosses in video examples?
 uri: ticks-crosses
 authors:
   - title: Jonty Gardner
-    url: https://ssw.com.au/people/jonty-gardner
+    url: https://ww.ssw.com.au/people/jonty-gardner
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Sofie Hong
-    url: https://ssw.com.au/people/sofie-hong
+    url: https://ww.ssw.com.au/people/sofie-hong
 created: 2022-12-20T12:33:58.820Z
 guid: 4ed7f75b-927b-4f70-b1f1-954df10a5842
 archivedreason: null
@@ -22,8 +22,8 @@ Using ticks and crosses in the **will help you emphasize an example and aid comp
 
 A good tick and cross example will have:
 
-* A graphic - Not intrusive on the content and left aligned
-* A subtle sound - Significantly lower than the human voice
+- A graphic - Not intrusive on the content and left aligned
+- A subtle sound - Significantly lower than the human voice
 
 **Note:** Using a blend of tick and cross visuals with sound cues will reinforce for your audience which example is good and which is bad.
 
@@ -43,8 +43,8 @@ The video presents good and bad examples without using other visual elements or 
 
 Ticks and crosses with sound effects are used in the video, but there are still problems:
 
-* Distracting ticks and crosses - the visuals are too large and placed in the middle of the frame so they draw the audience's attention away from the content.
-* Loud sound - When the sound effect is significantly louder than the human voice, it can cause an unpleasant auditory effect.
+- Distracting ticks and crosses - the visuals are too large and placed in the middle of the frame so they draw the audience's attention away from the content.
+- Loud sound - When the sound effect is significantly louder than the human voice, it can cause an unpleasant auditory effect.
 
 Therefore, it is important to use an appropriately sized graphic left-aligned (since we read left to right) with a subtle sound effect.
 
@@ -58,9 +58,9 @@ Therefore, it is important to use an appropriately sized graphic left-aligned (s
 
 This is an OK example using crosses in a video:
 
-* Good size - smaller than the figure in the picture, not visually obtrusive
-* Good location - in the margin below the email signature, not covering the example, but drawing the audience's attention to it
-* Subtle sound effect - the sound effect is lower than the speaker's voice
+- Good size - smaller than the figure in the picture, not visually obtrusive
+- Good location - in the margin below the email signature, not covering the example, but drawing the audience's attention to it
+- Subtle sound effect - the sound effect is lower than the speaker's voice
 
 However...it would be an even better approach to standardise your ticks and crosses so you can use the same graphic across every video.
 
@@ -79,7 +79,7 @@ Standarding your ticks and crosses using a lower third helps the team have a con
 ![Figure: Good example - The red cross and bad example in the lower third + subtle sound - 0:58 - 1:07](rules/ticks-crosses/Do you ask for small content changes using from X to Y.png)
 :::
 
-----
+---
 
 ::: greybox
 
@@ -87,10 +87,10 @@ Standarding your ticks and crosses using a lower third helps the team have a con
 
 In a weekly internal form known as "'Chewing the Fat', the SSW TV Team set three questions for SSW employees to answer:
 
-* **Question #1** - With sound or without sound: Video Ticks and Crosses - Did you like them?
-* **Question #2** - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
-* **Question #3** - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
-* **Question #4** - Which subtle sound is perfect: Video Ticks and Crosses - Did you like them?
+- **Question #1** - With sound or without sound: Video Ticks and Crosses - Did you like them?
+- **Question #2** - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
+- **Question #3** - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
+- **Question #4** - Which subtle sound is perfect: Video Ticks and Crosses - Did you like them?
 
 #### Results - Question #1 - With sound or without sound: Video Ticks and Crosses - Did you like them?
 
@@ -106,9 +106,9 @@ After watching video #1, people preferred having a sound rather than having no s
 
 The final results (including other) were:
 
-* 55% prefer to have sound
-* 31% prefer to have no sound
-* 14% prefer no ticks and crosses at all
+- 55% prefer to have sound
+- 31% prefer to have no sound
+- 14% prefer no ticks and crosses at all
 
 #### Results - Question #2 - Subtle sound or loud sound: Video Ticks and Crosses - Did you like them?
 
@@ -124,10 +124,10 @@ After watching video #2, people preferred having a subtle sound rather than [hav
 
 The final results (including other) were:
 
-* 78% prefer to have subtle sound
-* 11% prefer no ticks and crosses at all
-* 7% prefer to have loud sound
-* 4% prefer to have no sound
+- 78% prefer to have subtle sound
+- 11% prefer no ticks and crosses at all
+- 7% prefer to have loud sound
+- 4% prefer to have no sound
 
 #### Results - Question #3 - Comparison: Video Ticks and Crosses V3 - What are your thoughts on the sound?
 
@@ -143,10 +143,10 @@ After watching video #3, people preferred having a subtle sound or the new tick-
 
 The final results (including other) were:
 
-* 46% prefer to have no sound and use the new tick-cross style
-* 39% prefer to have subtle sound
-* 11% prefer to have no ticks and crosses
-* 4% prefer to have loud sound
+- 46% prefer to have no sound and use the new tick-cross style
+- 39% prefer to have subtle sound
+- 11% prefer to have no ticks and crosses
+- 4% prefer to have loud sound
 
 #### Results - Question #4 - Which subtle sound is perfect: Video Ticks and Crosses - Did you like them?
 
@@ -162,10 +162,10 @@ After watching video #3, people prefer the subtle sound this time to [the subtle
 
 The final results (including Other) were:
 
-* 60% prefer to have subtle sound in video #4
-* 14% prefer to have a more subtle sound
-* 13% prefer to have ticks and crosses without sound
-* 7% prefer no ticks and crosses at all
-* 6% prefer to have subtle sound in video #2
+- 60% prefer to have subtle sound in video #4
+- 14% prefer to have a more subtle sound
+- 13% prefer to have ticks and crosses without sound
+- 7% prefer no ticks and crosses at all
+- 6% prefer to have subtle sound in video #2
 
 :::

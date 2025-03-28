@@ -8,11 +8,11 @@ uri: use-mvvm-pattern
 created: 2020-10-07T22:03:25.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Anton Polkanov
-    url: https://ssw.com.au/people/anton-polkanov
+    url: https://ww.ssw.com.au/people/anton-polkanov
 related: []
 redirects:
   - do-you-use-the-mvvm-pattern

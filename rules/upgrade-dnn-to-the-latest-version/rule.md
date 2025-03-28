@@ -5,7 +5,7 @@ title: Do you know how to upgrade DNN to the latest version?
 uri: upgrade-dnn-to-the-latest-version
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:24:00.000Z
 archivedreason: outdated
 guid: 08e851b5-52a1-4fac-a73a-7f20307c80f5

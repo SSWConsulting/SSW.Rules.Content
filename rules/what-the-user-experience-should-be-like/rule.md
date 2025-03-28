@@ -5,7 +5,7 @@ title: Do you know what the user experience should be like?
 uri: what-the-user-experience-should-be-like
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:39:00.000Z
 archivedreason: outdated
 guid: 24f2a833-2d72-40d7-aeb0-3acea67bfc7f

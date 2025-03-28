@@ -8,7 +8,7 @@ uri: 404-error-avoid-changing-the-url
 created: 2016-08-11T18:08:44.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - 404-useful-error-page
 redirects:

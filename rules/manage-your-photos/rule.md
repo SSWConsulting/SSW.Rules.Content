@@ -8,7 +8,7 @@ uri: manage-your-photos
 created: 2020-07-23T20:56:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-manage-your-photos
@@ -24,4 +24,4 @@ Watch the video to know more:
 
 ### Related suggestion to Google Photos
 
-* [Let me know my account doesn’t have access instead of a 404](https://bettersoftwaresuggestions.com/google/google-photos/let-me-know-my-account-doesnt-have-access-instead-of-a-404/)
+- [Let me know my account doesn’t have access instead of a 404](https://bettersoftwaresuggestions.com/google/google-photos/let-me-know-my-account-doesnt-have-access-instead-of-a-404/)

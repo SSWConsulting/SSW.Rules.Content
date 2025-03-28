@@ -7,11 +7,11 @@ uri: nouns-for-class-names
 created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names
@@ -44,14 +44,14 @@ Using **`ProcessOrder`**
 :::
 :::bad
 Bad example - This name suggests an action which sounds like it could be a method - but it's meant to represent the order itself
-:::  
+:::
 
 :::greybox
 Using **`Order`** better represents its role as an entity that holds order-related data and behavior
 :::
 :::good
 Good example - A class name that clearly represents a thing is much easier to understand - you couldn't misinterpret this as a method
-:::  
+:::
 
 Later, if you need to perform an action on the order, you might create a `ProcessOrder` method within the`OrderService` or `OrderProcessor` class (see our rule [Do you use verbs for method names?](/verbs-for-method-names))
 

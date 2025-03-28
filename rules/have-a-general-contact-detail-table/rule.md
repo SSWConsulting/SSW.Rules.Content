@@ -8,7 +8,7 @@ uri: have-a-general-contact-detail-table
 created: 2019-11-22T21:41:18.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-general-contact-detail-table

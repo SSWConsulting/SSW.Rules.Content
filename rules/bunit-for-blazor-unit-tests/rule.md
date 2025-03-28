@@ -8,7 +8,7 @@ uri: bunit-for-blazor-unit-tests
 created: 2023-11-15T00:00:00.0000000Z
 authors:
   - title: Matt Parker
-    url: https://ssw.com.au/people/matt-parker
+    url: https://ww.ssw.com.au/people/matt-parker
 related: []
 redirects: []
 ---
@@ -78,4 +78,4 @@ Complex components such as complicated searching and filtering are good candidat
 
 ### References
 
-* [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)
+- [Microsoft Learn: Unit Testing Blazor Components with bUnit](https://learn.microsoft.com/en-us/aspnet/core/blazor/test)

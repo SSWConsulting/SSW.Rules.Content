@@ -11,7 +11,7 @@ authors:
     url: https://twitter.com/dbannigan
     noimage: true
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects:
   - have-you-migrated-your-service-application-databases

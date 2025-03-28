@@ -5,11 +5,11 @@ title: Do you know the modern alternatives to using a whiteboard?
 uri: modern-alternatives-to-using-a-whiteboard
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
 related: []
 redirects:
   - do-you-know-the-modern-alternatives-to-using-a-whiteboard

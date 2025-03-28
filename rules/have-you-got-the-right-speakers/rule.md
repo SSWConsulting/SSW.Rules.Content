@@ -5,7 +5,7 @@ title: Have you got the right speakers?
 uri: have-you-got-the-right-speakers
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva/
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva/
 related: []
 redirects: []
 created: 2014-12-30T23:58:27.000Z

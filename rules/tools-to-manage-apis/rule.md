@@ -1,23 +1,22 @@
 ---
 seoDescription: Discover the best tools for managing APIs with Azure API Management, offering centralization, security, and a user-friendly interface for efficient development.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the best tools to manage APIs?
 guid: 66ea1ecd-0fb8-4aa0-a0b4-423d87577fa8
 uri: tools-to-manage-apis
 created: 2021-05-11T22:00:01.0000000Z
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Bryden Oliver
-  url: https://ssw.com.au/people/bryden-oliver
+  - title: William Liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
+  - title: Bryden Oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
-- brand-your-api-portal
-- mockup-your-apis
+  - brand-your-api-portal
+  - mockup-your-apis
 redirects:
-- comments-do-you-know-the-best-tools-to-manage-apis
-- do-you-know-the-best-tools-to-manage-apis
-
+  - comments-do-you-know-the-best-tools-to-manage-apis
+  - do-you-know-the-best-tools-to-manage-apis
 ---
 
 When building APIs one of the challenges is in how to document the API for other developers to consume.
@@ -38,33 +37,33 @@ You can use APIm to secure your APIs, improve API discoverablility, transform ex
 
 **Pros:**
 
-* Very nice UI compared to many alternatives
-* Import API definitions from Swagger, OpenAPI, WSDL, etc
-* Centralized API management
-* API policy management (aka request processing pipeline)
-  * mutate incoming and outgoing requests
-  * XML to JSON and vice verca
-  * Add/Remove/Modify request headers
-  * Redirects
-* Caching
-* Rate limiting
-* API Versioning
-* Response Mocking
-* Security features
-* Developer Portal
-  * API Documentation
-  * Branded APIs
-* Product customization
-  * expose parts of any API as individual products
-* Monetization (sell your API)
-* Custom Identity Provider
-* Free Developer Tier
-* Comprehensive SLAs
+- Very nice UI compared to many alternatives
+- Import API definitions from Swagger, OpenAPI, WSDL, etc
+- Centralized API management
+- API policy management (aka request processing pipeline)
+  - mutate incoming and outgoing requests
+  - XML to JSON and vice verca
+  - Add/Remove/Modify request headers
+  - Redirects
+- Caching
+- Rate limiting
+- API Versioning
+- Response Mocking
+- Security features
+- Developer Portal
+  - API Documentation
+  - Branded APIs
+- Product customization
+  - expose parts of any API as individual products
+- Monetization (sell your API)
+- Custom Identity Provider
+- Free Developer Tier
+- Comprehensive SLAs
 
 **Cons:**
 
-* Pricing is complex - Standard to Premium scales exponentially
-* Lots of advanced features, requires a lot of learning
+- Pricing is complex - Standard to Premium scales exponentially
+- Lots of advanced features, requires a lot of learning
 
 Watch Adam Cogan and William Liebenberg explain more about Azure API Management.
 

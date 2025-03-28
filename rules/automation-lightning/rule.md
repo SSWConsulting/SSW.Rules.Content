@@ -5,7 +5,7 @@ title: Do you know how to do lighting automation?
 uri: automation-lightning
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Chris Hoogwerf
     url: https://www.ssw.com.au/people/chris-hoogwerf
 related: []
@@ -21,7 +21,7 @@ DMX lighting control has been implemented at the [SSW Newcastle office](https://
 
 In summary:
 
-* Get the right DMX lights and hardware
-* Configure them in the DMX Config
-* Set the addresses
-* Use the Gira mobile app to control the lights
+- Get the right DMX lights and hardware
+- Configure them in the DMX Config
+- Set the addresses
+- Use the Gira mobile app to control the lights

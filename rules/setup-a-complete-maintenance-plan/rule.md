@@ -8,7 +8,7 @@ uri: setup-a-complete-maintenance-plan
 created: 2019-11-20T18:33:22.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - backup-do-you-set-up-a-complete-maintenance-plan

@@ -8,7 +8,7 @@ uri: make-sure-you-have-valid-date-data-in-your-database
 created: 2019-11-25T19:27:33.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - data-dates-do-you-make-sure-you-have-valid-date-data-in-your-database

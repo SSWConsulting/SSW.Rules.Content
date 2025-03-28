@@ -5,7 +5,7 @@ title: Do you know how to migrate Global.asax to ASP.NET Core?
 uri: migrate-global-asax-to-asp-net-core
 authors:
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: https://ww.ssw.com.au/people/nick-curran
 created: 2023-07-31T23:29:08.804Z
 guid: 06510ae9-8215-4227-97ae-711c8c35a948
 ---

@@ -5,7 +5,7 @@ title: Do you make 'TODO' items in red?
 uri: do-you-make-todo-items-in-red
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - todo-tasks
 redirects: []

@@ -8,7 +8,7 @@ uri: sqlperf-too-many-joins
 created: 2024-07-25T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sqlperf-reduce-table-size
   - sqlperf-verify-indexes-used

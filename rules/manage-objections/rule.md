@@ -5,9 +5,9 @@ seoDescription: Mastering objections to secure clients' trust and confidence in 
 uri: manage-objections
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Rob Thomlinson
     url: https://www.ssw.com.au/people/RobThomlinson
 related:
@@ -19,6 +19,7 @@ created: 2012-08-30T13:03:32.000Z
 archivedreason: null
 guid: d15ae8df-e369-44f9-a307-b48952431d7d
 ---
+
 Hearing "No" from a customer or manager can feel like a dead end, but it can be an opportunity to refine your approach. A rejection doesn't mean you give up.
 
 <!--endintro-->
@@ -29,11 +30,11 @@ Use this objection handling model.
 
 Before pushing back, we need to make sure that we understand why the person declined. Common reasons include:
 
-* Cost concerns
-* Timing issues
-* Pushing something that the client doesn't want
-* Unclear value from the solution
-* Pre-existing solution
+- Cost concerns
+- Timing issues
+- Pushing something that the client doesn't want
+- Unclear value from the solution
+- Pre-existing solution
 
 Instead of immediately trying to resolve their issues with a solution, **ask questions** to understand their real hesitation:
 
@@ -47,11 +48,11 @@ Figure: Bad example – Trying to resolve the issue by assuming the customers co
 
 ::: greybox
 
-* "Can you help me understand what concerns you have with the current approach?"
-* "If I could resolve this issue for you, could we move forward?"
-* "Would it be helpful if I asked AI to better understand your concerns before we discuss this further?"
-* "Is it alright if I speak to one of my developers about it and let you know about that later today?"
-:::
+- "Can you help me understand what concerns you have with the current approach?"
+- "If I could resolve this issue for you, could we move forward?"
+- "Would it be helpful if I asked AI to better understand your concerns before we discuss this further?"
+- "Is it alright if I speak to one of my developers about it and let you know about that later today?"
+  :::
 
 ::: good
 Figure: Good examples – Asking the right questions helps you refine your response
@@ -71,25 +72,25 @@ Once you understand their objections, adjust your approach. Here's how:
 
 ### 1. If cost is an issue: show the ROI
 
-* Highlight long-term savings or increased revenue
-* Compare the cost of inaction
-* Offer a phased approach or a smaller-scale implementation
+- Highlight long-term savings or increased revenue
+- Compare the cost of inaction
+- Offer a phased approach or a smaller-scale implementation
 
 ### 2. If timing is an issue: keep them engaged
 
-* Ask "when would be a better time to revisit this?"
+- Ask "when would be a better time to revisit this?"
 
 ### 3. If they don't see the fit: provide better examples
 
-* Use case studies relevant to their industry
-* Show how similar clients have benefited
-* Incorporate the clients feedback and offer a more tailored solution
+- Use case studies relevant to their industry
+- Show how similar clients have benefited
+- Incorporate the clients feedback and offer a more tailored solution
 
 ### 4. If they don't see the value: clarify your messaging
 
-* Simplify your explanation
-* Use visuals, data, or examples to reinforce your point
-* Focus on their issues rather than just listing features and benefits
+- Simplify your explanation
+- Use visuals, data, or examples to reinforce your point
+- Focus on their issues rather than just listing features and benefits
 
 ## Step 3: Present with confidence
 
@@ -99,14 +100,14 @@ When you go back, don't just repeat your pitch **reframe it** based on what you'
 **Scenario:**
 "Why do you put 2 developers on the project? This is going to be more expensive isn't it?"
 
-* Explain the benefits:
+- Explain the benefits:
 
-  * "We can complete the project sooner. Is that important to you?"
-  * "You get more expertise - One person is more focussed on UI, the other person is stronger
+  - "We can complete the project sooner. Is that important to you?"
+  - "You get more expertise - One person is more focussed on UI, the other person is stronger
     with databases"
-  * "You get better quality code because the team are able to "put their heads together"
+  - "You get better quality code because the team are able to "put their heads together"
     to solve a problem - this saves maintenance costs down the track"
-  * "We can continue working if 1 person gets sick"
+  - "We can continue working if 1 person gets sick"
 
 If they are still unsure, you can offer a small discount off the hourly rate, or offer free support - it's all about managing risk.
 :::
@@ -129,7 +130,7 @@ Figure: Good example – Keeping the relationship positive for future opportunit
 
 You can also "agree to disagree" - in that case send an ["as per our conversation"](/do-you-send-as-per-our-conversation-emails) email to state what you disagree with.
 
-- - -
+---
 
 ### Final thoughts
 
@@ -144,6 +145,6 @@ It taught me that even if somebody sounds strongly opposed to something if you c
 \- Adam Cogan
 
 `youtube: xLrH9vA1kpY`
-**Video:  Umpire Bucknor's Mistake That Changed Cricket Forever (2 min)**
+**Video: Umpire Bucknor's Mistake That Changed Cricket Forever (2 min)**
 
 :::

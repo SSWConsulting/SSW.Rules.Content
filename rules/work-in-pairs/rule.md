@@ -5,7 +5,7 @@ title: Efficiency - Do you always try to work in pairs?
 uri: work-in-pairs
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - ai-pair-programming
   - hand-over-projects
@@ -33,15 +33,15 @@ Whether it's brainstorming, coding, or tackling complex tasks, working in pairs 
 
 ## For everyone
 
-* **Less time stuck on a problem** - Having someone familiar with the project will help you work through the problem
-* **Mutual motivation and knowledge sharing** - Keep each other motivated and absorb knowledge from each other
-* **Increased productivity** - Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
+- **Less time stuck on a problem** - Having someone familiar with the project will help you work through the problem
+- **Mutual motivation and knowledge sharing** - Keep each other motivated and absorb knowledge from each other
+- **Increased productivity** - Experience shows that two people working on a problem together are often more productive than one person working alone for twice as long
 
 ## For developers
 
-* **Code will have less workarounds** - If something doesn't add up to a developer, they've got someone to ask
-* **Cleaner code** - You know someone else is going to be looking at your code
-* **Support** - When you need changes down the track, you have two people to call on
+- **Code will have less workarounds** - If something doesn't add up to a developer, they've got someone to ask
+- **Cleaner code** - You know someone else is going to be looking at your code
+- **Support** - When you need changes down the track, you have two people to call on
 
 > _"I have found developers work better in pairs. I am not a fan of the classical pair programming - which is 2 developers working on the 1 PC. There are times for that especially during brainstorming activities, however on a day-to-day basis, I advise that developers work in pairs, but they each have their own PC."_
 >
@@ -80,8 +80,8 @@ If you are working with someone remote, you will be using an application like [T
 
 `youtube: https://www.youtube.com/watch?v=A2ceblXTBBc`
 
-* VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
-* Visual Studio 2022! It's built in!
+- VS Code - [Install extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
+- Visual Studio 2022! It's built in!
 
 [Code With me](https://www.jetbrains.com/code-with-me/) - A great tool for JetBrains IDE users who want to pair program. Though it isn't supported in Rider right now.
 

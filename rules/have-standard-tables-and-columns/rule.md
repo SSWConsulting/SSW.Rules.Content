@@ -1,35 +1,34 @@
 ---
 seoDescription: Streamline your database schema with standardized tables and columns for efficient auditing, version control, and application defaults.
 type: rule
-archivedreason: 
+archivedreason:
 title: Schema - Do you have standard tables and columns?
 guid: 0a8b7eec-9b71-478b-b90e-6af7ac64df27
 uri: have-standard-tables-and-columns
 created: 2019-11-05T22:52:15.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- schema-do-you-have-standard-tables-and-columns
-
+  - schema-do-you-have-standard-tables-and-columns
 ---
 
 Follow the below standards for tables and columns.
 
 1. All tables should have the following fields:
 
-| **Field**  |  **SQL Server Field Properties**  |
-| --- | --- |
-| CreatedUtc | datetime2 Allow Nulls=False Default=GETUTCDATE() |
-| CreatedUserId | Foreign Key to Users table, Allow Nulls=False |
-| ModifiedUtc | datetime2 Allow Nulls=False Default=GETUTCDATE() |
-| ModifiedUserId | Foreign Key to Users table, Allow Nulls=False |
-| Concurrency | rowversion Allow Nulls=False|
+| **Field**      | **SQL Server Field Properties**                  |
+| -------------- | ------------------------------------------------ |
+| CreatedUtc     | datetime2 Allow Nulls=False Default=GETUTCDATE() |
+| CreatedUserId  | Foreign Key to Users table, Allow Nulls=False    |
+| ModifiedUtc    | datetime2 Allow Nulls=False Default=GETUTCDATE() |
+| ModifiedUserId | Foreign Key to Users table, Allow Nulls=False    |
+| Concurrency    | rowversion Allow Nulls=False                     |
 
 <!--endintro-->
 
-![Figure: The first three are examples of bad table records. The last one is an example of how this table structure should be entered](imgGoodBadPracticesExampleSQLFields.png)  
+![Figure: The first three are examples of bad table records. The last one is an example of how this table structure should be entered](imgGoodBadPracticesExampleSQLFields.png)
 
 **Note #1:** Never set the CreatedUtc field - instead use a default GETUTCDATE()
 

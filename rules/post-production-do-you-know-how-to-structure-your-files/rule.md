@@ -5,7 +5,7 @@ title: Post-Production - Do you know how to structure video files?
 uri: post-production-do-you-know-how-to-structure-your-files
 authors:
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: https://ww.ssw.com.au/people/landon-maxwell
 related:
   - organize-and-back-up-your-files
 redirects: []

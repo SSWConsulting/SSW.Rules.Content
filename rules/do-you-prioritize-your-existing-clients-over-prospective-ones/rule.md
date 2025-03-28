@@ -2,13 +2,13 @@
 seoDescription: Prioritize existing clients to ensure repeat business and maintain a strong industry reputation.
 type: rule
 archivedreason:
-title: 	Do you always keep the ball in the client’s court?
+title: Do you always keep the ball in the client’s court?
 guid: 0d34f37a-6558-4178-b187-6230d956adab
 uri: do-you-always-keep-the-ball-in-the-clients-court
 created: 2010-07-16T02:18:40.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson/
 
@@ -29,15 +29,15 @@ A good saying pertaining to keeping your existing clients happy is: _"A bird in 
 Keep in mind these statistics (2024):
 
 1. Existing customers are more likely to make repeat purchases:
-Existing customers are 50% more likely to try new products and spend 31% more compared to new customers.
+   Existing customers are 50% more likely to try new products and spend 31% more compared to new customers.
 2. Retention is cheaper than acquisition:
-Acquiring new customers is anywhere from 5 to 25 times more expensive than retaining existing customers .
+   Acquiring new customers is anywhere from 5 to 25 times more expensive than retaining existing customers .
 3. Retention boosts profitability:
-Increasing customer retention rates by just 5% can increase profits by 25% to 95%, depending on the industry .
+   Increasing customer retention rates by just 5% can increase profits by 25% to 95%, depending on the industry .
 4. Revenue from loyal customers:
-65% of a company’s business comes from existing customers . Also, they tend to spend about 67% more on average than new customers .
+   65% of a company’s business comes from existing customers . Also, they tend to spend about 67% more on average than new customers .
 5. Retention impacts growth:
-Businesses with strong customer retention see up to a 50% higher revenue growth rate compared to those focused mainly on acquisition .
+   Businesses with strong customer retention see up to a 50% higher revenue growth rate compared to those focused mainly on acquisition .
 
 ### How to retain customers
 

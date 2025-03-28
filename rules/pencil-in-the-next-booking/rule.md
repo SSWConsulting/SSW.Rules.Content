@@ -3,9 +3,9 @@ seoDescription: Consulting clients with a clear plan for next steps ensures seam
 type: rule
 title: Do you pencil in the next date before finishing a project?
 uri: pencil-in-the-next-booking
-authors: 
+authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - being-a-good-consultant
   - book-developers-for-a-project

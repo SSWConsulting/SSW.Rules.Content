@@ -5,7 +5,7 @@ title: Do you complete major pipeline changes on another repo?
 uri: complete-major-changes-on-another-repo
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
 created: 2023-09-14T04:26:51.981Z
 guid: 1a7f3fb9-63b0-4fa0-83a2-8a2656c43131
 ---

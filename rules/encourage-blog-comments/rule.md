@@ -8,9 +8,9 @@ uri: encourage-blog-comments
 created: 2010-09-07T16:30:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related: []
 redirects:
   - do-you-know-how-to-invite-replies

@@ -8,9 +8,9 @@ uri: add-the-right-apps-when-creating-a-new-team
 created: 2020-12-21T20:00:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - apps-do-you-add-the-right-apps-when-creating-a-new-team

@@ -7,9 +7,9 @@ uri: prioritize-value-streams-over-individual-projects
 created: 2023-10-13T17:08:00.000Z
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-prioritise-value-streams-over-individual-projects

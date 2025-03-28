@@ -8,7 +8,7 @@ uri: multiple-startup-projects
 created: 2023-08-17T12:00:00.0000000Z
 authors:
   - title: Jack Reimers
-    url: https://ssw.com.au/people/jack-reimers
+    url: https://ww.ssw.com.au/people/jack-reimers
 related:
   - developer-experience
   - project-setup

@@ -8,7 +8,7 @@ uri: do-you-try-to-be-one-step-ahead-doing-tasks-before-they-come-up
 created: 2013-07-30T21:34:23.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

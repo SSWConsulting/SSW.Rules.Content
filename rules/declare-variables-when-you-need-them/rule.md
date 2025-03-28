@@ -5,7 +5,7 @@ title: Do you declare variables when you need them?
 uri: declare-variables-when-you-need-them
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-declare-variables-when-you-need-them

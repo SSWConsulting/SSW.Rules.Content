@@ -4,17 +4,17 @@ title: Do you turn an email into a PBI before starting work?
 uri: turn-emails-into-pbis
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
 related:
   - do-you-know-the-3-steps-to-a-pbi
   - when-you-use-mentions-in-a-pbi
@@ -27,7 +27,6 @@ redirects:
 created: 2013-06-27T18:28:23.000Z
 archivedreason: null
 guid: 98d88bcd-85a4-4b7a-8612-2affd49021d5
-
 ---
 
 Emails are a natural way for people to give feedback about a product. Unfortunately, they also serve as a poor mechanism for performing work. As work is done, the thread can become untenable by splitting off into multiple different threads and becoming buried among other emails.
@@ -44,16 +43,16 @@ There are several benefits of turning an email into a PBI including:
 
 ✅ Providing one source of truth  
 ✅ Better prioritization  
-✅ Easily accessible by anyone in the team  
+✅ Easily accessible by anyone in the team
 
 ## When should the email become a PBI?
 
 You should use your judgement to decide if the email needs to become a PBI. For example:
 
-* Does the email contain 1 or more actionable tasks? If not, **do not** turn into an PBI
-* Does the feedback contain confidential information that should not be on the backlog? If so, **do not** turn into an PBI
-* Will the task take less than 15 minutes to complete? If so, **do not** turn into an PBI and follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately
-* Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)?  If so, **do not** turn into an PBI. Urgent emails should be done immediately unless they are clearly not an emergency
+- Does the email contain 1 or more actionable tasks? If not, **do not** turn into an PBI
+- Does the feedback contain confidential information that should not be on the backlog? If so, **do not** turn into an PBI
+- Will the task take less than 15 minutes to complete? If so, **do not** turn into an PBI and follow the ["touch it once" principle](/the-touch-it-once-principle) and do it immediately
+- Is the [emails marked urgent](/work-in-order-of-importance-aka-priorities)? If so, **do not** turn into an PBI. Urgent emails should be done immediately unless they are clearly not an emergency
 
 Use the following flow chart to determine if an urgent email should be turned into a PBI.
 
@@ -68,10 +67,10 @@ It's important that you follow the right steps so that the PBI contains all the 
 3. If possible, replace the users with @mentions, if you'd like to keep those users informed
 4. Fill out the Description
 5. Ensure that the Product Owner is @mentioned in the PBI
-6. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
+6. Add an Acceptance Criteria: _"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"_
 7. Prioritize the PBI. If it is important, then it should be added at the top of the Product Backlog after the current Sprint items. Otherwise, you should make your best guess as to its priority.
-8. Reply back to the original email saying: *"That's awesome feedback, we have a PBI for prioritization: {{ URL }}\
-   For future issues, if you have access, please add your comments to items in that backlog 🙂"*
+8. Reply back to the original email saying: _"That's awesome feedback, we have a PBI for prioritization: {{ URL }}\
+   For future issues, if you have access, please add your comments to items in that backlog 🙂"_
 
 ::: greybox
 Based on email chain:
@@ -100,7 +99,7 @@ Figure: Good example - Has the email header data and @mentions users
 :::
 
 ::: info
-**Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule  [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI
+**Tip:** If the request from the client is too large for one PBI, then it will need to be turned into multiple PBIs as per the rule [Do you keep your PBIs smaller than 2 days' effort?](/spec-do-you-create-tasks-under-4-hours) In this case, you will need to let the client know this and include URLs to each PBI
 :::
 
 ## Existing PBI - Steps to update a PBI according to an email comment
@@ -109,7 +108,7 @@ Sometimes you will receive feedback on an existing PBI within an email. It is im
 
 1. Copy the **email header** into to a comment within the PBI, indent it and add the words "Based on email chain:"
 2. If possible, replace the users with @mentions, if you'd like to keep those users informed
-3. Add an Acceptance Criteria: *"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"*
+3. Add an Acceptance Criteria: _"Reply 'Done' to all emails mentioned in this PBI and @mention the sender with 'Done'"_
 
 ## Keeping the PBI up-to-date
 
@@ -136,9 +135,9 @@ Refer to rule on [escalating key updates and deliverables](/escalate-key-updates
 
 For example:
 
-* After completing a Done Video or resolving a major issue, communicate results via email to ensure visibility
-* Use emails for high-priority updates that require stakeholder attention
-* Keep @mentions in PBIs for less critical updates
+- After completing a Done Video or resolving a major issue, communicate results via email to ensure visibility
+- Use emails for high-priority updates that require stakeholder attention
+- Keep @mentions in PBIs for less critical updates
 
 This ensures a seamless workflow from task creation to stakeholder communication, preventing updates from being missed.
 
@@ -152,12 +151,13 @@ If you use a ticketing system like Zendesk, you should follow a similar process 
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Bob |
+|          |                                                                                |
+| -------- | ------------------------------------------------------------------------------ |
+| To:      | Bob                                                                            |
 | Cc:      | Tim, [SysAdmins@northwind.zendesk.com](mailto:SysAdmins@northwind.zendesk.com) |
-| Subject: | Re: Add me to Azure DevOps |
-::: email-content  
+| Subject: | Re: Add me to Azure DevOps                                                     |
+
+::: email-content
 
 (zendesking)
 

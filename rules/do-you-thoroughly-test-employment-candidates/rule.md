@@ -8,11 +8,11 @@ uri: do-you-thoroughly-test-employment-candidates
 created: 2009-03-10T07:26:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Luke Mao
-    url: https://ssw.com.au/people/luke-mao
+    url: https://ww.ssw.com.au/people/luke-mao
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 ---

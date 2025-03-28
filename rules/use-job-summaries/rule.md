@@ -5,7 +5,7 @@ title: GitHub Actions - Do you know why Job Summaries are awesome?
 uri: use-job-summaries
 authors:
   - title: Steven Qiang
-    url: https://ssw.com.au/people/steven-qiang
+    url: https://ww.ssw.com.au/people/steven-qiang
 related: []
 redirects: []
 created: 2022-07-06T02:07:35.474Z
@@ -18,7 +18,7 @@ Job Summaries solves this problem by allowing you to generate and group custom M
 
 For example, when running a series of tests, it's so good to see all the [green ticks and crosses](/use-icons-webpages) showing which ones succeeded.
 
-![Figure: Job Summaries with Markdown](screen-shot-2022-07-06-at-1.36.21-pm.png "Job Summaries with Markdown")
+![Figure: Job Summaries with Markdown](screen-shot-2022-07-06-at-1.36.21-pm.png 'Job Summaries with Markdown')
 
 Custom Markdown content can be used for a variety of creative purposes, such as:
 

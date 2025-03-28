@@ -8,9 +8,9 @@ uri: azure-devops-events-flowing-through-to-microsoft-teams
 created: 2019-06-21T23:33:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
+    url: https://ww.ssw.com.au/people/jernej-kavka
 related: []
 redirects:
   - tfs-events-flowing-through-to-microsoft-teams
@@ -19,11 +19,11 @@ redirects:
 
 You can see details about your Azure DevOps Server (formerly known as TFS) projects directly in your Microsoft Teams channel. Examples of what you can monitor:
 
-* Work item updates
-* Pull requests
-* Code commits
-* Builds
-* Release deployments and approvals
+- Work item updates
+- Pull requests
+- Code commits
+- Builds
+- Release deployments and approvals
 
 Also bring your Azure DevOps Services Kanban board directly into Microsoft Teams as a tab.
 

@@ -8,7 +8,7 @@ uri: use-smalldatetime-datatype-where-possible
 created: 2019-11-06T00:25:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - schema-do-you-use-smalldatetime-datatype-where-possible-instead-of-datetime-datatype

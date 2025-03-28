@@ -5,9 +5,9 @@ title: Do you have a clear definition of a bug?
 uri: definition-of-a-bug
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related:
   - the-right-way-to-report-bugs-and-give-feedback-suggestions
 redirects:
@@ -30,7 +30,7 @@ A software issue can be classed as a bug where:
 3. The application is **missing functionality specified in the specification**; **or**
 4. The **page design/layout is substantially inconsistent** with the agreed mock-ups.
 
-As you can see, bugs come in different shapes and sizes. Some bugs are minor, like alignment on a webpage. Some bugs are major, like blocking bugs, which prevent you from using the system entirely. It's important to categorize bugs by their severity, so that the worst ones can be fixed first.  
+As you can see, bugs come in different shapes and sizes. Some bugs are minor, like alignment on a webpage. Some bugs are major, like blocking bugs, which prevent you from using the system entirely. It's important to categorize bugs by their severity, so that the worst ones can be fixed first.
 
 ## Examples of what **could** constitute a bug
 
@@ -80,7 +80,7 @@ Any tasks which are bugs found **outside** of the current Sprint should be added
 
 ![Figure: Adding a bug to the Product Backlog in Azure DevOps](adding-pbi-to-backlog.png)
 
-See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs "Do you know when to create bugs?") and [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
+See [Do you know when to create bugs?](/during-a-sprint-do-you-know-when-to-create-bugs 'Do you know when to create bugs?') and [Do you know the 3 steps to a PBI?](/do-you-know-the-3-steps-to-a-pbi)
 
 ::: info
 **Note:** The above is our definition. Others have different definitions that we do **not** subscribe to: [Painless Bug Tracking](https://www.joelonsoftware.com/2000/11/08/painless-bug-tracking/).

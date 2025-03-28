@@ -5,9 +5,9 @@ title: PC - Do you know the right notification for backups?
 uri: know-the-right-notification-for-backups
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related:
   - pc-do-you-use-the-best-backup-solution
   - rules-to-better-backups

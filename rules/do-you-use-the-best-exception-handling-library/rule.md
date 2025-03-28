@@ -5,7 +5,7 @@ title: Do you use the best exception handling library?
 uri: do-you-use-the-best-exception-handling-library
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
@@ -19,15 +19,16 @@ created: 2013-09-11T19:17:07.000Z
 archivedreason: null
 guid: 4758ac66-d4a5-4ccd-93cc-85c1f2d369da
 ---
+
 When developing software, exceptions are a fact-of-life you will need to deal with. Don't reinvent the wheel, use an existing exception handling library or service.
 
 The best exception handling libraries are:
 
 <!--endintro-->
 
-* Application Insights (recommended)
-* Seq
-* RayGun
+- Application Insights (recommended)
+- Seq
+- RayGun
 
 Your users should never see the “yellow screen of death” in ASP.NET, or the “unhandled exception” message in a Windows application. Errors should always be caught and logged – there are plenty of great services that help you fall into the pit of success. They show you great dashboards, integrate with your preferred communication tools, allow you to get great telemetry, and help you drill down to the root cause. As developers you should be alerted when something is going wrong and be able to see details to help you track down and fix bugs before clients notice them and call up asking you to fix it. With exception libraries, you should already be on it.
 

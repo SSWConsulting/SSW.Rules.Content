@@ -5,9 +5,9 @@ title: Do you involve business stakeholders in Program Increment (PI) planning?
 uri: involve-stakeholders-in-pi-planning
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: null
 redirects:
   - do-you-involve-business-stakeholders-in-program-increment-(PI)-planning

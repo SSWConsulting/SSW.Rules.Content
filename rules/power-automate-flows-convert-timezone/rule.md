@@ -5,7 +5,7 @@ title: Do you know how to use correct timezone in your Power Automate flows?
 uri: power-automate-flows-convert-timezone
 authors:
   - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
+    url: https://ww.ssw.com.au/people/aman-kumar
 related: []
 created: 2023-10-12T12:33:21.000Z
 guid: f20c1d67-fbd5-4fa6-99ba-58b4c8f53fd7

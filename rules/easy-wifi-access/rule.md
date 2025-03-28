@@ -5,9 +5,9 @@ title: Wireless - Do you Provide Guests with easy Wifi Access?
 uri: easy-wifi-access
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
 related: null
 created: 2021-03-29T00:01:00.000Z
 archivedreason: null

@@ -5,9 +5,9 @@ title: Scheduling - Do you know how to book developers for a project?
 uri: book-developers-for-a-project
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - scheduling-do-you-know-how-to-book-developers-for-a-project
@@ -25,9 +25,9 @@ It is the responsibility of Account Managers to book developers for known client
 
 Before booking developers, make sure you talk to them and check that they are cool with:
 
-* The Time - how long is the project?
-* The Tech - what skills are required?
-* The Team - who will they be working with?
+- The Time - how long is the project?
+- The Tech - what skills are required?
+- The Team - who will they be working with?
 
 :::
 

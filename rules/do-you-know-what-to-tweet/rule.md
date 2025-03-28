@@ -5,11 +5,11 @@ title: X (previously Twitter) - Do you know to tweet relevant stuff only?
 uri: do-you-know-what-to-tweet
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: https://ww.ssw.com.au/people/peter-gfader
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - twitter-do-you-know-to-tweet-relevant-stuff-only
@@ -28,14 +28,14 @@ Your tweets should be interesting to your target audience. People aren't going t
 
 Some good examples of things to tweet about:
 
-* One week before an event, tweet about the event to raise awareness
-* One day before an event, tweet about the event and what you are talking about
-* On the day of the event, check-in on foursquare when you arrive (gives people a nice map)
-* When something good happens to you. E.g. You beat your boss in an arm wrestle
-* Tweet before and after installing new software or after an upgrade. E.g:
+- One week before an event, tweet about the event to raise awareness
+- One day before an event, tweet about the event and what you are talking about
+- On the day of the event, check-in on foursquare when you arrive (gives people a nice map)
+- When something good happens to you. E.g. You beat your boss in an arm wrestle
+- Tweet before and after installing new software or after an upgrade. E.g:
 
-  * Installing #SharePoint for the first time
-  * \#SharePoint install done - found a great guide to follow here: mysharepointsite.com
+  - Installing #SharePoint for the first time
+  - \#SharePoint install done - found a great guide to follow here: mysharepointsite.com
 
 ::: good
 ![Good example - An informative tweet with hashtags and relevant links for a targeted audience of IT followers](good-twitter.png)

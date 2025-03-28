@@ -8,7 +8,7 @@ uri: finish-the-conversation-with-something-to-action
 created: 2018-06-08T23:53:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-finish-the-conversation-with-something-to-action

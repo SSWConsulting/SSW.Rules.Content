@@ -5,7 +5,7 @@ title: Do you know the best way to manage product feedback?
 uri: manage-product-feedback
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-best-way-to-manage-product-feedback

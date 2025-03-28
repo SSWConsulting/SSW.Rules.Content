@@ -7,7 +7,7 @@ uri: use-qr-codes-for-urls
 created: 2024-11-18T00:43:28.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/goldie
+    url: https://ww.ssw.com.au/people/goldie
 related: []
 ---
 

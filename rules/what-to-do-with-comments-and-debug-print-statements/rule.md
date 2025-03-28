@@ -1,18 +1,17 @@
 ---
 seoDescription: Discover effective strategies for managing comments and Debug.Print statements in your code for enhanced maintainability.
 type: rule
-archivedreason: 
+archivedreason:
 title: Comments - Do you know what to do with comments and Debug.Print statements?
 guid: cebb6d03-5254-4e76-b6ac-5e0f62c8e9f8
 uri: what-to-do-with-comments-and-debug-print-statements
 created: 2018-04-25T18:12:19.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- comments-do-you-know-what-to-do-with-comments-and-debug-print-statements
-
+  - comments-do-you-know-what-to-do-with-comments-and-debug-print-statements
 ---
 
 When you create comments in your code, it is better to document why you've done something a certain way than to document how you did it. The code itself should tell the reader what is happening, there's no need to create "how" comments that merely restate the obvious unless you're using some technique that won't be apparent to most readers.

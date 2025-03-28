@@ -8,7 +8,7 @@ uri: design-to-improve-your-google-ranking
 created: 2016-08-03T18:36:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-design-your-website-to-improve-your-google-ranking

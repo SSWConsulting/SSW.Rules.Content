@@ -1,18 +1,18 @@
 ---
 seoDescription: Do you use the Mediator pattern with CQRS to keep business logic out of your presentation layer and write clean code?
 type: rule
-archivedreason: Updated to [https://ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer](/rules/keep-business-logic-out-of-the-presentation-layer)
+archivedreason: Updated to [https://ww.ssw.com.au/rules/keep-business-logic-out-of-the-presentation-layer](/rules/keep-business-logic-out-of-the-presentation-layer)
 title: Do you use the Mediator pattern with CQRS?
 guid: a71effc0-6b0c-4b1a-82c7-6effb0959ed4
 uri: use-the-mediator-pattern-with-cqrs
 created: 2019-03-05T16:37:03.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://ww.ssw.com.au/people/jason-taylor
 related: []
 redirects:
   - do-you-use-the-mediator-pattern-with-cqrs

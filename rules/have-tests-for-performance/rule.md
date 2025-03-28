@@ -5,7 +5,7 @@ title: Do you have tests for Performance?
 uri: have-tests-for-performance
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Prem Radhakrishnan
     url: https://www.ssw.com.au/people/prem-radhakrishnan
   - title: Yazhi Chen
@@ -17,13 +17,14 @@ created: 2020-03-12T19:58:01.000Z
 archivedreason: null
 guid: a0b93a9e-1367-4a8c-985a-e46df21db9d1
 ---
+
 Typically, there are User Acceptance Tests that need to be written to measure the performance of your application. As a general rule of thumb, forms should load in less than 4 seconds. This can be automated with your load testing framework.
 
 <!--endintro-->
 
 #### Sample Code
 
-``` cs
+```cs
 import http from 'k6/http';
 
 export const options = {
@@ -44,7 +45,7 @@ Sometimes, during performance load testing, it becomes necessary to simulate tra
 
 **Sample Code:**
 
-``` cs
+```cs
 import http from 'k6/http';
 import { check, sleep } from 'k6';
 
@@ -71,7 +72,7 @@ export default function () {
     baseUrl,
     baseUrl + "/api/Leaderboard/GetLeaderboardSummary?companyCode=SSW",
     baseUrl + "/api/v2/admin/modules?companyCode=SSW"
-  ]; 
+  ];
 
   const token = ''; //set the token here
   const params = {
@@ -79,7 +80,7 @@ export default function () {
       'Content-Type' : 'application/json',
       Authorization: "Bearer " + token
     }
-  }; 
+  };
 
   for (const page of httpGetPages){
     const res = http.get(page, params);
@@ -87,7 +88,7 @@ export default function () {
       'status was 200': (r) => r.status === 200
     });
     sleep(1);
-  };   
+  };
 }
 ```
 
@@ -99,8 +100,8 @@ export default function () {
 
 Some popular open source load testing tools are:
 
-* [Apache JMeter](https://jmeter.apache.org) - 100% Java application with built in reporting - 6.7k Stars on GitHub
-* [k6](https://k6.io/open-source) - Write load tests in javascript - 19.2k Stars on GitHub
-* [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1.8k Stars on GitHub
-* [Bombardier](https://github.com/codesenberg/bombardier) - CLI tool for writing load tests - 3.9k stars on GitHub
-* [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) - A powerful benchmarking tool - 8.8k stars on GitHub
+- [Apache JMeter](https://jmeter.apache.org) - 100% Java application with built in reporting - 6.7k Stars on GitHub
+- [k6](https://k6.io/open-source) - Write load tests in javascript - 19.2k Stars on GitHub
+- [NBomber](https://github.com/PragmaticFlow/NBomber) - Write tests in C# - 1.8k Stars on GitHub
+- [Bombardier](https://github.com/codesenberg/bombardier) - CLI tool for writing load tests - 3.9k stars on GitHub
+- [BenchmarkDotNet](https://github.com/dotnet/BenchmarkDotNet) - A powerful benchmarking tool - 8.8k stars on GitHub

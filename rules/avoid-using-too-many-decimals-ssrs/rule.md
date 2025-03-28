@@ -6,16 +6,16 @@ title: Data Layout - Do you avoid using too many decimal places?
 guid: 1f1b3fc1-67ee-48ab-b3f6-9f84ea692d22
 uri: avoid-using-too-many-decimals-ssrs
 created: 2024-06-01T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - avoid-using-too-many-decimals
 redirects: []
-
 ---
 
 Having decimal places is generally not required when the numbers are there to show a general indication.
+
 <!--endintro-->
 
 Only include decimal places on reports for accountants that will be used for reconcilations.

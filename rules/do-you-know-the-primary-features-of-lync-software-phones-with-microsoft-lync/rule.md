@@ -8,7 +8,7 @@ uri: do-you-know-the-primary-features-of-lync-software-phones-with-microsoft-lyn
 created: 2013-02-28T03:38:21.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-primary-features-of-lync-(software-phones-with-microsoft-lync)
@@ -17,8 +17,6 @@ redirects:
 Using Microsoft Teams? We recommend you check out the latest phone here: [Do you know how to use the Yealink T55A Microsoft Teams phone?](/do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone)
 
 `youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
-
-
 
 There are a lot of features of Microsoft Lync. The primary features are:
 

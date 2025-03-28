@@ -8,7 +8,7 @@ uri: do-you-manage-your-papers
 created: 2009-03-10T08:59:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

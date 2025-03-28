@@ -5,12 +5,12 @@ title: Do you Healthcheck your Infrastructure?
 uri: infrastructure-healthchecks
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
+    url: https://ww.ssw.com.au/people/lewis-toh
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
-  
+    url: https://ww.ssw.com.au/people/luke-cook
+
 related: []
 redirects:
   - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies

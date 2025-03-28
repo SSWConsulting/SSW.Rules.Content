@@ -8,7 +8,7 @@ uri: inbox-management-team
 created: 2023-09-05T01:29:34.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related: []
 redirects: []
 ---

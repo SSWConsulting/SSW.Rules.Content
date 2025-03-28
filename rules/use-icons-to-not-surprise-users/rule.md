@@ -5,9 +5,9 @@ title: Do you use icons on files' links to not to surprise users?
 uri: use-icons-to-not-surprise-users
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:
@@ -22,7 +22,6 @@ redirects:
 created: 2015-02-16T02:46:02.000Z
 archivedreason: null
 guid: 283e14e7-fe59-4017-9422-e9efc3eda6da
-
 ---
 
 When a user clicks a hyperlink, they expect a webpage to open. If they click on a link that is actually a **.doc/.docx** file, they might encounter the unexpected experience of having Microsoft Word open in the background.
@@ -33,22 +32,22 @@ Don't surprise users! Use icons next to links to show different types of links/f
 
 ::: no-border
 
-| Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
-| ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
-| **Regular link**                                                   | [This is a normal link](/)                                                 | ...                     |
-| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/)                                     | ...                      |
-| **YouTube**                                                       | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM) | ...                     |
-| **Email (mailto:)**                                               | [This link will send an email](mailto:example@mail.com)                          | ...                     |
-| **PDF**                                                           | [This is a PDF file](Sample-PDF.pdf)                                             | ![](pdf-icon.png)       |
-| **DOC**                                                           | [This is a Word Document file](Sample-DOC.docx)                                  | ![](docx-icon.png)      |
-| **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ![](xls-file.png)       |
-| **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ![](ppt-file.png)       |
-| **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ![](txt-file.png)       |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/images/videos/MVC_background.mp4)  | ![](video-file.png)     |
-| **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)    |
-| **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
-| **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png) |
-| **Google Maps**                                                           | [This is a Google Map link](https://www.google.com/maps/place/SSW+Sydney+-+Enterprise+Software+Development/@-33.8305685,151.2193249,15z/data=!4m6!3m5!1s0x6b12ae97d5dce3c1:0xae8cb5f05af0e28d!8m2!3d-33.8305685!4d151.2193249!16s%2Fg%2F1tdy4mhr?entry=ttu)                                             | ![](map-icon.png) |
+| Link/file type                                         | Option A - Font icons (e.g. FontAwesome)                                                                                                                                                                                                                    | Option B - Image icons (e.g. SharePoint) |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| **Regular link**                                       | [This is a normal link](/)                                                                                                                                                                                                                                  | ...                                      |
+| **[External link](/do-you-make-external-links-clear)** | [This is an external link](https://www.microsoft.com/)                                                                                                                                                                                                      | ...                                      |
+| **YouTube**                                            | [This is a link to a YouTube video](https://www.youtube.com/watch?v=gp_F43lx6iM)                                                                                                                                                                            | ...                                      |
+| **Email (mailto:)**                                    | [This link will send an email](mailto:example@mail.com)                                                                                                                                                                                                     | ...                                      |
+| **PDF**                                                | [This is a PDF file](Sample-PDF.pdf)                                                                                                                                                                                                                        | ![](pdf-icon.png)                        |
+| **DOC**                                                | [This is a Word Document file](Sample-DOC.docx)                                                                                                                                                                                                             | ![](docx-icon.png)                       |
+| **XLS**                                                | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                                                                                                                                                                                                        | ![](xls-file.png)                        |
+| **PPT**                                                | [This is a PowerPoint file](Sample-PPT.pptx)                                                                                                                                                                                                                | ![](ppt-file.png)                        |
+| **TXT**                                                | [This is a text file](Sample-TXT.txt)                                                                                                                                                                                                                       | ![](txt-file.png)                        |
+| **AVI, MOV, MPG, etc.**                                | [This is a video file](https://www.ssw.com.au/images/videos/MVC_background.mp4)                                                                                                                                                                             | ![](video-file.png)                      |
+| **WAV, WMA, MP3, etc.**                                | [This is an audio file](sample-AUDIO.mp3)                                                                                                                                                                                                                   | ![](audio-file.png)                      |
+| **ICS or VCS**                                         | [This is a calendar file](Sample-ICS.ics)                                                                                                                                                                                                                   | ![](calendar-icon-png.png)               |
+| **ZIP**                                                | [This is a zip file](Sample-ZIP.zip)                                                                                                                                                                                                                        | ![](zip-file.png)                        |
+| **Google Maps**                                        | [This is a Google Map link](https://www.google.com/maps/place/SSW+Sydney+-+Enterprise+Software+Development/@-33.8305685,151.2193249,15z/data=!4m6!3m5!1s0x6b12ae97d5dce3c1:0xae8cb5f05af0e28d!8m2!3d-33.8305685!4d151.2193249!16s%2Fg%2F1tdy4mhr?entry=ttu) | ![](map-icon.png)                        |
 
 :::
 
@@ -99,13 +98,12 @@ You will add each icon image to your server, and then add the path as background
 ❌ Slow (injecting images)  
 ❌ Paid $ (icon collection required if you want them to have a nice and consistent UI)  
 ❌ Maintenance of needing to upload to server  
-❌ Requires code (Inject CSS)  
+❌ Requires code (Inject CSS)
 
 ```css
-a[href$='.pdf'] 
-{ 
-background: transparent url(/images/icon_pdf.gif) center left no-repeat; 
-padding-left: 20 px; 
+a[href$='.pdf'] {
+  background: transparent url(/images/icon_pdf.gif) center left no-repeat;
+  padding-left: 20 px;
 }
 ```
 

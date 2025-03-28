@@ -5,13 +5,14 @@ title: Controls - Do you include the number of results in ComboBoxes?
 uri: controls-do-you-include-the-number-of-results-in-comboboxes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T08:40:47.000Z
 archivedreason: null
 guid: da34f7bf-dc4e-412c-97ad-bb7fdacf595b
 ---
+
 When designing your form, you should try to help your user whenever it's possible. So it's a good idea to include the number of results in ComboBoxes.
 
 <!--endintro-->

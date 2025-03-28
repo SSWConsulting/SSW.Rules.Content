@@ -8,7 +8,7 @@ uri: printers-do-you-install-your-printers-with-group-policy
 created: 2012-03-05T15:03:34.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

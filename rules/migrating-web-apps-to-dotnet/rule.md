@@ -7,7 +7,7 @@ redirects:
   - migrating-web-apps
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen
@@ -33,9 +33,9 @@ The differences between a web app built with ASP.NET Framework and one built wit
 
 There exists, somewhere, a line that separates the "big bang" and "stranger fig" approach as being the _recommended_ way to tackle web app migrations. While this decision point is unique to every project, you can examine a couple of metrics to help guide your decision.
 
-* How many Sprints do you estimate the migration work will take?
-* Will feature development continue during the migration process?
-* Do you have plenty of leeway on both of the above?
+- How many Sprints do you estimate the migration work will take?
+- Will feature development continue during the migration process?
+- Do you have plenty of leeway on both of the above?
 
 If your [migration plan](/migration-plans) is solid, you should have a pretty clear idea of the effort involved in migrating your web app. If you're confident that you can get the migration done in a reasonable timeline, _and_ you can implement a feature-freeze during that time, opting for the Big Bang approach may be a reasonable option.
 
@@ -135,6 +135,6 @@ When a web project is heavily reliant on .NET Framework dependencies, the first 
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-* [Do you know how to migrate Global.asax to ASP.NET Core?](/migrate-global-asax-to-asp-net-core)
-* [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core)
-* [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-web-config-to-asp-net-core)
+- [Do you know how to migrate Global.asax to ASP.NET Core?](/migrate-global-asax-to-asp-net-core)
+- [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core)
+- [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-web-config-to-asp-net-core)

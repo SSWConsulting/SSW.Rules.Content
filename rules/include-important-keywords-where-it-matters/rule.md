@@ -5,9 +5,9 @@ title: On-page - Do you include important keywords where it matters?
 uri: include-important-keywords-where-it-matters
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-include-important-keywords-where-it-matters
@@ -22,9 +22,9 @@ As a general rule, you should try to get all the great keywords in the **title**
 
 The [SSW Rules to Better Google Rankings and SEO](/rules-to-better-google-rankings-and-seo) can be taken as an example. We thought about some keywords people would use if looking for some Google tips and tricks on how to increase your rankings. The words used for the URL were also chosen with Search Engine Optimization in mind. Here are some of the **keywords** we expect to be relevant in searches:
 
-* "Increase Google friendliness"
-* "Better/Increase Google ranking"
-* "SEO/Search Engine Optimization"
+- "Increase Google friendliness"
+- "Better/Increase Google ranking"
+- "SEO/Search Engine Optimization"
 
 ::: info
 **Note:** In Australia, we spell optimization with an "s" (optimisation) but most people searching online would [use the American way of spelling](/spelling-do-you-use-us-english) it. So this has to be taken into consideration).

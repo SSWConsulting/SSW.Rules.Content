@@ -1,15 +1,15 @@
 ---
 seoDescription: Discover how to effectively use KPIs in annual employee reviews for growing companies
 type: rule
-title: Do you have KPIs for your Annual Employee Reviews? 
+title: Do you have KPIs for your Annual Employee Reviews?
 uri: employee-kpis
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - being-a-good-consultant
 redirects: []

@@ -5,7 +5,7 @@ title: Do you know the pros and cons of different management structures?
 uri: management-structures
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - cross-approvals
 redirects: []

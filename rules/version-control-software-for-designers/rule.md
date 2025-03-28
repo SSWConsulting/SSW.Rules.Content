@@ -5,7 +5,7 @@ title: Do you know the best version control software for designers?
 uri: version-control-software-for-designers
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - software-for-product-design
   - hand-over-mockups-to-developers

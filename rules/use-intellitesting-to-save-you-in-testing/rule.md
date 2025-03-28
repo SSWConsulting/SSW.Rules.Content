@@ -8,7 +8,7 @@ uri: use-intellitesting-to-save-you-in-testing
 created: 2020-03-12T23:35:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-intellitesting-to-save-you-in-testing

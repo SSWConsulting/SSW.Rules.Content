@@ -5,11 +5,11 @@ title: Screen Recordings - Do you make sure your Windows PC is easy to view?
 uri: enable-presentation-mode-in-visual-studio
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Vlad Kireyev
-    url: https://ssw.com.au/people/vlad-kireyev
+    url: https://ww.ssw.com.au/people/vlad-kireyev
 related:
   - record-a-quick-and-dirty-done-video
   - easy-to-view-screen-recordings

@@ -5,9 +5,9 @@ title: Do you know how to structure a project for GitHub?
 uri: do-you-know-how-to-structure-a-project-for-github
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
 related:
   - awesome-documentation
 redirects: []

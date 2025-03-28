@@ -5,11 +5,11 @@ seoDescription: Maximize UPS efficiency and stay informed about server status wi
 uri: ups-send-email
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-have-your-ups-send-an-email-when-it-kicks-in
@@ -18,7 +18,8 @@ created: 2017-07-01T00:21:30.000Z
 archivedreason: null
 guid: 9510b8a1-2bfa-4976-a910-2100f0eb15b6
 ---
-Of course, all your servers are on UPS - Uninterruptible Power Supply. If not they should be! 
+
+Of course, all your servers are on UPS - Uninterruptible Power Supply. If not they should be!
 
 How do you know that all the money you paid for a UPS was worth it? How many times has it saved our servers? How long do the batteries last for before they go flat? Why was a server off when you came in in the morning?
 

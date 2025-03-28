@@ -5,7 +5,7 @@ title: Do you avoid using ASP/ASP.NET tags in plain HTML?
 uri: avoid-using-asp-asp-net-tags-in-plain-html
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-asp-asp-net-tags-in-plain-html

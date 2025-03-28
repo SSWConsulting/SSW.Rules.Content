@@ -5,7 +5,7 @@ title: Do you use Visual Basic 6.0 Upgrade Assessment Tool?
 uri: use-visual-basic-6-upgrade-assessment-tool
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:11:00.000Z
 guid: 2f6c79d3-b1e8-4211-a4af-d410c053bf23
 ---

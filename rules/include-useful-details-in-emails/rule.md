@@ -7,13 +7,13 @@ seoDescription: Make sure to add relevant information such as URLs, screenshots,
 uri: include-useful-details-in-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
 related:
   - definition-of-done
   - comments-do-you-enforce-comments-with-check-ins
@@ -32,14 +32,14 @@ An email with just the word "Done" can often be enhanced with a screen capture o
 
 In any email you send, **include relevant information**. Improved visibility and transparency will allow others to understand what was done or needs to be done straight away, such as:
 
-* [URLs](/include-links-in-emails)
-  * Links to where the change can be seen
-  * Links to relevant PBIs in GitHub or Azure DevOps
-  * Links to the related Pull Requests
-* Screenshots
-* [Done Videos](https://ssw.com.au/rules/send-done-videos/)
-* Pieces of code/text
-* Any more context or useful info
+- [URLs](/include-links-in-emails)
+  - Links to where the change can be seen
+  - Links to relevant PBIs in GitHub or Azure DevOps
+  - Links to the related Pull Requests
+- Screenshots
+- [Done Videos](https://ww.ssw.com.au/rules/send-done-videos/)
+- Pieces of code/text
+- Any more context or useful info
 
 <!--endintro-->
 
@@ -99,5 +99,5 @@ Figure: Good example - "Done" email has a link, a screenshot (showing the URL), 
 
 ### More useful details to include
 
-* [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
-* Include ["from X to Y"](/change-from-x-to-y) or a [.diff file](https://www.diffchecker.com) for greater code/text changes
+- [Use balloons instead of a 'Wall of Text'](/screenshots-do-you-use-balloons-instead-of-a-wall-of-text)
+- Include ["from X to Y"](/change-from-x-to-y) or a [.diff file](https://www.diffchecker.com) for greater code/text changes

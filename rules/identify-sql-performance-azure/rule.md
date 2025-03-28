@@ -1,21 +1,22 @@
 ---
 seoDescription: Learn how to identify and resolve Azure SQL Database performance issues by diagnosing bottlenecks and optimizing query performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Identifying the cause of Azure SQL Database performance problems
 guid: 0c3cca32-b436-4e65-8d06-0263d35f283e
 uri: identify-sql-performance-azure
 created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
-related: 
+    url: https://ww.ssw.com.au/people/bryden-oliver
+related:
   - identify-sql-performance-sql-server
   - identify-sql-performance-azure
   - sql-server-cpu-pressure
   - sql-server-io-pressure
   - sql-server-memory-pressure
 ---
+
 When looking at Azure SQL Dataabase, you often get performance issues, but how can you figure out what might be the cause?
 
 <!--endintro-->
@@ -24,7 +25,7 @@ The first step when working with Azure SQL is to identify whether the problem is
 
 To identify where the bottleneck lies, try the following SQL query. Note the historical data is only retained for about an hour, so you do need to execute the query shortly after the issue occurs.
 
-``` sql
+```sql
 SELECT * FROM sys.dm_db_resource_stats ORDER BY end_time DESC;
 ```
 
@@ -32,7 +33,7 @@ The results are expressed as percentages of the maximum allowed for the service 
 
 There is a roughly equivalent call available for Azure Managed Instance. Try:
 
-``` sql
+```sql
 SELECT * FROM sys.server_resource_stats ORDER BY end_time DESC;
 ```
 

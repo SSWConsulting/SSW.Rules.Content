@@ -8,13 +8,13 @@ uri: linkedin-connect-with-people
 created: 2024-04-29T15:00:00.000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud/
+    url: https://ww.ssw.com.au/people/brady-stroud/
   - title: Tylah Kapa
-    url: https://ssw.com.au/people/tylah-kapa/
+    url: https://ww.ssw.com.au/people/tylah-kapa/
   - title: Hugo Pernet
-    url: https://ssw.com.au/people/hugo-pernet/
+    url: https://ww.ssw.com.au/people/hugo-pernet/
 related:
   - successful-reachouts
   - weekly-client-love

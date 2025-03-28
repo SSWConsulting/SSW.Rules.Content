@@ -5,9 +5,9 @@ title: Do you use emojis to help give context?
 uri: use-emojis
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
 related:
   - use-emojis-in-your-commits
   - which-emojis-to-use-in-scrum
@@ -57,13 +57,13 @@ An easy and fun way to alleviate this issue and boost user adoption to Microsoft
 
 ::: greybox
 
-* Fast to load (lightweight as no image)
-* UI - Consistent look
-* Maintenance of needing to upload to server
-:::
-::: bad
-Bad example - Regular list items
-:::
+- Fast to load (lightweight as no image)
+- UI - Consistent look
+- Maintenance of needing to upload to server
+  :::
+  ::: bad
+  Bad example - Regular list items
+  :::
 
 ::: greybox
 ✅ Fast to load (lightweight as no image)  

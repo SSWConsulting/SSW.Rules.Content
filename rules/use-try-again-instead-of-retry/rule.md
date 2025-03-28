@@ -8,7 +8,7 @@ uri: use-try-again-instead-of-retry
 created: 2016-04-21T05:34:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - tiny-do-you-use-try-again-instead-of-retry

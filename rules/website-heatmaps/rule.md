@@ -8,7 +8,7 @@ uri: website-heatmaps
 created: 2018-08-16T23:22:33.0000000Z
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - seo-do-you-use-hotjar-to-heatmap-your-site
@@ -32,9 +32,9 @@ Most heatmapping tools are very similar for the main features. It mostly comes d
 
 Hotjar is one of the most popular tools for heatmapping. It offers a comprehensive suite of features, including:
 
-* **Click, scroll, and move heatmaps** to understand user interaction with your pages
-* **Session recordings** to see individual user behavior in real time
-* **Surveys and feedback tools** for direct user input
+- **Click, scroll, and move heatmaps** to understand user interaction with your pages
+- **Session recordings** to see individual user behavior in real time
+- **Surveys and feedback tools** for direct user input
 
 Hotjar is ideal for small to medium-sized businesses due to its user-friendly interface and ability to combine heatmaps with user feedback for actionable insights.
 
@@ -42,7 +42,7 @@ Hotjar is ideal for small to medium-sized businesses due to its user-friendly in
 
 Microsoft Clarity is another excellent option for heatmapping, especially for developers and teams working on larger-scale projects. It offers:
 
-* **Heatmaps** for clicks and scrolls with robust filtering options
-* **Session replays** to analyze detailed user behavior
-* **Advanced filtering and segmentation** to understand specific user groups or sessions
-* **GDPR and CCPA compliance** out of the box - great for businesses with stringent data privacy needs
+- **Heatmaps** for clicks and scrolls with robust filtering options
+- **Session replays** to analyze detailed user behavior
+- **Advanced filtering and segmentation** to understand specific user groups or sessions
+- **GDPR and CCPA compliance** out of the box - great for businesses with stringent data privacy needs

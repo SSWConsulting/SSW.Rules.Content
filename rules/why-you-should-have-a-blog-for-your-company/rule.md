@@ -5,7 +5,7 @@ title: Content - Do you know why you should have a blog for your company?
 uri: why-you-should-have-a-blog-for-your-company
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related:
   - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
 redirects:

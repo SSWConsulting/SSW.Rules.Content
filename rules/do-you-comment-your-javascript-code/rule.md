@@ -8,7 +8,7 @@ uri: do-you-comment-your-javascript-code
 created: 2012-07-24T18:14:28.0000000Z
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
 ---

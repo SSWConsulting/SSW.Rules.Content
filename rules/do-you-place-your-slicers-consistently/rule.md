@@ -8,7 +8,7 @@ uri: do-you-place-your-slicers-consistently
 created: 2021-05-11T00:00:00.000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 ---
 

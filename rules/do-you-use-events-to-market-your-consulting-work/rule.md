@@ -8,7 +8,7 @@ uri: do-you-use-events-to-market-your-consulting-work
 created: 2014-02-04T12:58:20.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 ---

@@ -8,7 +8,7 @@ uri: do-you-know-how-to-deploy-changes-from-staging-to-live
 created: 2016-01-19T06:12:14.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

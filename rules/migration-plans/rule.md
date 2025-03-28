@@ -5,7 +5,7 @@ title: Do you create a migration plan?
 uri: migration-plans
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: Yazhi Chen

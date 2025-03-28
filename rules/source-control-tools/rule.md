@@ -5,7 +5,7 @@ title: Do you use Source Control tools?
 uri: source-control-tools
 authors:
   - title: Gilles Pothieu
-    url: https://ssw.com.au/people/gilles-pothieu/
+    url: https://ww.ssw.com.au/people/gilles-pothieu/
 created: 2024-01-30T13:44:07.470Z
 guid: 87b1677f-72c8-4b6f-9976-d3cfab075272
 ---

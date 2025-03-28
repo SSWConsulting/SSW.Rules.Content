@@ -5,7 +5,7 @@ title: Do you indicate 'demo' slides?
 uri: do-you-know-the-right-way-to-do-a-demo-slide
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
 redirects: []

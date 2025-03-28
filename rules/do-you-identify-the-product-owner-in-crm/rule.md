@@ -8,7 +8,7 @@ uri: do-you-identify-the-product-owner-in-crm
 created: 2012-12-07T19:56:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

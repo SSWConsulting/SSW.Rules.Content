@@ -5,9 +5,9 @@ title: Do you incentivise your employees to do their timesheets on time?
 uri: do-you-reward-your-employees-for-doing-their-timesheets-on-time
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-incentivise-your-employees-to-do-their-timesheets-on-time
@@ -49,7 +49,7 @@ Here’s what we check:
 2. SugarLearning - [sugarlearning.com/SSW/Leaderboard](https://www.sugarlearning.com/SSW/Leaderboard)
 3. Chewing the Fat response - we send out a weekly Microsoft Form with some educational or information gathering content. It must be responded to by the deadline.
 
-\<This email was sent as per the rule: [https://ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)\>
+\<This email was sent as per the rule: [https://ww.ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/](/do-you-reward-your-employees-for-doing-their-timesheets-on-time)\>
 
 :::  
 :::

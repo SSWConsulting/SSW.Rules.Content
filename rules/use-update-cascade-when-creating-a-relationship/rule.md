@@ -8,7 +8,7 @@ uri: use-update-cascade-when-creating-a-relationship
 created: 2019-11-13T00:17:52.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - turn-on-referential-integrity-in-relationships
 redirects:

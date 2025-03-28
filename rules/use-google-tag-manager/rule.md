@@ -5,7 +5,7 @@ title: Do you use Google Tags Manager (GTM) to manage your tags?
 uri: use-google-tag-manager
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
   - title: Camilla Rosa Silva

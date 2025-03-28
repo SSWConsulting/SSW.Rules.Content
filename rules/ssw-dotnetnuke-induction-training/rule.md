@@ -6,7 +6,7 @@ title: Do you have your new developers go through the SSW DotNetNuke Induction
 uri: ssw-dotnetnuke-induction-training
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:05:00.000Z
 archivedreason: outdated
 guid: bd6e4d7c-0957-44f1-8d7c-50b34f7583ff

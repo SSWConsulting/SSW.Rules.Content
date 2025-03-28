@@ -5,9 +5,9 @@ title: Do you regularly inspect and adapt at scale?
 uri: regularly-inspect-and-adapt-at-scale
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-regularly-inspect-and-adapt-at-scale

@@ -8,7 +8,7 @@ uri: do-you-follow-composite-application-guidance-formerly-code-named-prism-in-y
 created: 2011-05-20T07:22:50.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-follow-composite-application-guidance-(formerly-code-named-＂prism＂)-in-your-silverlight-(and-wpf)-projects

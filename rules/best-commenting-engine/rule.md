@@ -8,11 +8,11 @@ uri: best-commenting-engine
 created: 2015-08-04T15:26:20.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-allow-users-to-comment-and-rate-your-pages
@@ -30,35 +30,35 @@ There are a few ways that you can easily add comments and interactivity such as�
 
 **✅ Pros:**
 
-* Uses GitHub discussions to store comments
-* Uses GitHub login - most people already have this
-* Simple and lightweight
-* Always free
-* Open source
-* No tracking scripts
-* No ads
+- Uses GitHub discussions to store comments
+- Uses GitHub login - most people already have this
+- Simple and lightweight
+- Always free
+- Open source
+- No tracking scripts
+- No ads
 
 **❌ Cons:**
 
-* No moderation features
+- No moderation features
 
 #### [Disqus](https://disqus.com/)
 
 **✅ Pros:**
 
-* Moderation features
-* Spam protection features
+- Moderation features
+- Spam protection features
 
 **❌ Cons:**
 
-* Heavy - adds lots of tracking scripts
-* Need a separate login
-* Paid (Unless you want ugly ads 🤮)
+- Heavy - adds lots of tracking scripts
+- Need a separate login
+- Paid (Unless you want ugly ads 🤮)
 
 ### Other options
 
-* [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
-* [Yotpo](https://www.yotpo.com/)
+- [Utterances](https://utteranc.es/) - Very similar to Giscus, but uses GitHub **Issues** instead of **Discussions.** Giscus is recommended over Utterances as using Issues for comments will pollute your backlog.
+- [Yotpo](https://www.yotpo.com/)
 
 The following is a Done Video that explains Giscus integration to SSW Rules.
 

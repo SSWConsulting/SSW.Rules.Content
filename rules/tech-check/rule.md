@@ -5,7 +5,7 @@ title: Presenting - Do you do a tech check before presenting?
 uri: tech-check
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related: []
 created: 2023-08-10T06:24:47.000Z
 archivedreason: null

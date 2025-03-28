@@ -5,7 +5,7 @@ title: Do you know why you shouldn't compare schemas during deployment?
 uri: should-you-compare-schemas
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-not-use-red-gate-sql-compare-(or-microsofts-data-dude)-for-deployment-(because-they-are-a-step-at-the-end-of-your-process)
@@ -21,7 +21,7 @@ However, if you are doing this at the end of your release cycle, you have a prob
 
 <!--endintro-->
 
-What you should be doing is seeing your [Schema Master](/have-a-schema-master "Database Schema Master") each time you have a new .sql file. You do this **during the development process**, not at the end in the package and deployment process.
+What you should be doing is seeing your [Schema Master](/have-a-schema-master 'Database Schema Master') each time you have a new .sql file. You do this **during the development process**, not at the end in the package and deployment process.
 
 ::: greybox
 **Tip:** If you are using modern methods such as Entity Framework code first migrations you will already be doing most of this.

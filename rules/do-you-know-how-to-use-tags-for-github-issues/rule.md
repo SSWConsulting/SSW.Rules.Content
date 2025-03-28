@@ -5,11 +5,11 @@ title: Do you know how to use labels for GitHub Issues?
 uri: do-you-know-how-to-use-tags-for-github-issues
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Andreas Lengkeek
-    url: https://ssw.com.au/people/andreas-lengkeek
+    url: https://ww.ssw.com.au/people/andreas-lengkeek
   - title: Steven Qiang
-    url: https://ssw.com.au/people/steven-qiang
+    url: https://ww.ssw.com.au/people/steven-qiang
 related: []
 redirects:
   - do-you-know-how-to-use-labels-for-github-issues
@@ -50,8 +50,8 @@ When using [YakShaver](https://yakshaver.ai) to create work items, they will be 
 
 ### When to review a label
 
-* **When the label is no longer relevant** - For example, removing a "blocked" label after resolving dependencies or unblocking an issue
-* **If it misrepresents the current state** - For instance, removing "need refinement" after the details has been added
-* **When the issue is closed** - Ensure the labels are consistent before closing the issue to maintain an accurate project history
-* **If the label is unused or duplicated** - Remove labels that are not actively used or merge duplicates (e.g. having both label "bug-fix" and "bug")
-* **When team conventions change** - If the team revises its workflow or labeling strategy, update labels to align with the new conventions
+- **When the label is no longer relevant** - For example, removing a "blocked" label after resolving dependencies or unblocking an issue
+- **If it misrepresents the current state** - For instance, removing "need refinement" after the details has been added
+- **When the issue is closed** - Ensure the labels are consistent before closing the issue to maintain an accurate project history
+- **If the label is unused or duplicated** - Remove labels that are not actively used or merge duplicates (e.g. having both label "bug-fix" and "bug")
+- **When team conventions change** - If the team revises its workflow or labeling strategy, update labels to align with the new conventions

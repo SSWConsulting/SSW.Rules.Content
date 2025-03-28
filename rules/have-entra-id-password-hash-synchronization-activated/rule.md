@@ -8,7 +8,7 @@ uri: have-entra-id-password-hash-synchronization-activated
 created: 2020-11-13T00:12:28.0000000Z
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - have-azure-active-directory-password-hash-synchronization-activated

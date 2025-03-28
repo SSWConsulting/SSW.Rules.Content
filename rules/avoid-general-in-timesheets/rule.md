@@ -8,7 +8,7 @@ uri: avoid-general-in-timesheets
 created: 2020-06-10T22:24:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-not-use-general-in-your-timesheets
@@ -19,8 +19,8 @@ Developers should **avoid** using "General" project in their timesheets.
 
 "General" should only be used in rare cases, when you're doing something that:
 
-* Doesn’t fit in any of the existing projects
-* Isn’t worth creating a new project, as it won’t be a long term project or repeated in the future
+- Doesn’t fit in any of the existing projects
+- Isn’t worth creating a new project, as it won’t be a long term project or repeated in the future
 
 <!--endintro-->
 

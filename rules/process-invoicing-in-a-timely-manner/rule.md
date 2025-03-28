@@ -8,9 +8,9 @@ uri: process-invoicing-in-a-timely-manner
 created: 2019-07-05T21:58:42.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matthew Sampias
-    url: https://ssw.com.au/people/matthew-sampias
+    url: https://ww.ssw.com.au/people/matthew-sampias
 related: []
 redirects:
   - process-billing-in-a-timely-manner

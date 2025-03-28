@@ -8,9 +8,9 @@ uri: do-you-nurture-the-marriage-aka-keeping-customers-with-software-reviews
 created: 2012-08-30T13:02:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-nurture-the-marriage-(aka-keeping-customers-with-＂software-reviews＂)

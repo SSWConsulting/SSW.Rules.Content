@@ -5,11 +5,11 @@ title: Do You Apply the ValidateModel Attribute to All Controllers?
 uri: do-you-apply-the-validatemodel-attribute-to-all-controllers
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 created: 2014-11-05T18:42:04.000Z
-archivedreason: "Requested by Matt G under RE: Update [SSW] Rules to Better WebAPI"
+archivedreason: 'Requested by Matt G under RE: Update [SSW] Rules to Better WebAPI'
 guid: 56d03a4a-d4bb-40ee-b49e-1595a937b41f
 ---
 

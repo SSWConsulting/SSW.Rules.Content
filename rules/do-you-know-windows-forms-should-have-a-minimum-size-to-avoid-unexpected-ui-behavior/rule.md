@@ -8,7 +8,7 @@ uri: do-you-know-windows-forms-should-have-a-minimum-size-to-avoid-unexpected-ui
 created: 2015-06-30T08:31:56.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -5,13 +5,13 @@ title: Do you know how to add a print server?
 uri: print-server
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-add-a-printer
@@ -37,7 +37,7 @@ Steps to add a printer to Active Directory:
 
 4. Add DNS entry for your print server (e.g **\\printer**) to make it friendly for the users to find
 
-**Note:** Another method is using a Universal Printer in Azure  [https://azurescene.com/2020/04/10/how-to-configure-universal-print/](https://azurescene.com/2020/04/10/how-to-configure-universal-print/ "https://azurescene.com/2020/04/10/how-to-configure-universal-print/")
+**Note:** Another method is using a Universal Printer in Azure  [https://azurescene.com/2020/04/10/how-to-configure-universal-print/](https://azurescene.com/2020/04/10/how-to-configure-universal-print/ 'https://azurescene.com/2020/04/10/how-to-configure-universal-print/')
 
 ### Finding the Printers
 

@@ -1,17 +1,16 @@
 ---
 seoDescription: Learn how to conduct effective interviews with expert tips on preparation, questioning, and audience engagement.
 type: rule
-archivedreason: 
+archivedreason:
 title: Production - Do you know how to conduct an interview?
 guid: b47009f5-bd18-4315-a401-f1d31b90f1ca
 uri: production-do-you-know-how-to-conduct-an-interview
 created: 2013-03-04T23:47:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Though each interviewer will have their own style, line of questions etc, there are some basic rules that you should follow when conducting an interview:

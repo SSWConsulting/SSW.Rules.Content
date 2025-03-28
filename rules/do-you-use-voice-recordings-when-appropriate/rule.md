@@ -8,7 +8,7 @@ uri: do-you-use-voice-recordings-when-appropriate
 created: 2014-02-25T15:46:04.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - communication-do-you-use-videos-or-voice-recordings-instead-of-sending-long-emails

@@ -5,7 +5,7 @@ title: Do you have a label tag for the fields associated with your input?
 uri: do-you-have-a-label-tag-for-the-fields-associated-with-your-input
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2014-12-16T18:47:45.000Z
@@ -32,8 +32,7 @@ When adding input boxes to collect data, please always have a \<label\> tag asso
     ID="EmailLabel"
     runat="server"
     Text="Email Address"
-    AssociatedControlID="EmailAddress"
-  />
+    AssociatedControlID="EmailAddress" />
   <asp:TextBox ID="EmailAddress" runat="server" />
 </p>
 ```

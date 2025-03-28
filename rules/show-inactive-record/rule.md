@@ -8,9 +8,9 @@ uri: show-inactive-record
 created: 2017-06-27T17:51:11.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
 related: []
 redirects:
   - do-you-show-that-a-record-is-inactive

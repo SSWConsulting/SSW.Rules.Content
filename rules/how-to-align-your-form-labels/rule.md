@@ -8,12 +8,12 @@ uri: how-to-align-your-form-labels
 created: 2020-09-16T17:06:51.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
-related: 
+    url: https://ww.ssw.com.au/people/rebecca-liu
+related:
   - do-you-know-how-to-arrange-forms
   - data-entry-forms-for-web
   - use-adaptive-placeholders-on-your-forms
@@ -31,15 +31,15 @@ When labels are left-aligned, the spacing between labels and input fields become
 
 **✅ Pros**
 
-* Easy to scan labels, especially if you have a lot of optional labels
-* Takes a little more attention to fill in, so useful for complicated forms that require accuracy
+- Easy to scan labels, especially if you have a lot of optional labels
+- Takes a little more attention to fill in, so useful for complicated forms that require accuracy
 
 **❌ Cons**
 
-* Horizontal space, unlike vertical space, is not limitless, and an unintended horizontal scrollbar is the first sin of web development
-* Slowest completion times
-* Poor multilanguage support
-* Not even very good responsive support
+- Horizontal space, unlike vertical space, is not limitless, and an unintended horizontal scrollbar is the first sin of web development
+- Slowest completion times
+- Poor multilanguage support
+- Not even very good responsive support
 
 ::: bad
 ![Figure: Bad example - Inconsistent spacing between labels and input fields](labels-left-aligned.png)
@@ -53,14 +53,14 @@ However, the inconsistent spacing on the left side of the forms makes it harder 
 
 **✅ Pros**
 
-* Best at linking label and form
-* Good completion rates on small, common forms (i.e. Login, Sign up)
+- Best at linking label and form
+- Good completion rates on small, common forms (i.e. Login, Sign up)
 
 **❌ Cons**
 
-* Hardest to read and scan
-* Poor multilanguage support
-* Poor responsive support
+- Hardest to read and scan
+- Poor multilanguage support
+- Poor responsive support
 
 ::: ok
 ![Figure: OK example - If aligning labels inline is necessary, opt for right-aligned labels](labels-right-aligned.png)
@@ -74,14 +74,14 @@ The downside of this alignment is that it increases the overall height of the fo
 
 **✅ Pros**
 
-* Easiest to process
-* Fastest completion times
-* Good for multiple languages
+- Easiest to process
+- Fastest completion times
+- Good for multiple languages
 
 **❌ Cons**
 
-* Takes up a lot of vertical space
-* Makes a long-form look even longer
+- Takes up a lot of vertical space
+- Makes a long-form look even longer
 
 ::: ok
 ![Figure: OK example - Top-aligned labels are space-efficient, making it adaptable to all resolutions](labels-top-aligned.png)
@@ -93,16 +93,16 @@ The downside of this alignment is that it increases the overall height of the fo
 
 **✅ Pros**
 
-* Best for readability
-* Best for visual connectivity
-* Best for completion rates
-* Decent multilanguage support
-* Decent responsive support
+- Best for readability
+- Best for visual connectivity
+- Best for completion rates
+- Decent multilanguage support
+- Decent responsive support
 
 **❌ Cons**
 
-* Time-consuming to implement. Need to consider the cost/benefit
-* Not always available on 3rd party platforms, like Wufoo or Microsoft Forms
+- Time-consuming to implement. Need to consider the cost/benefit
+- Not always available on 3rd party platforms, like Wufoo or Microsoft Forms
 
 ::: good
 ![Figure: Good example - Using adaptive placeholders](adaptative-labels.gif)

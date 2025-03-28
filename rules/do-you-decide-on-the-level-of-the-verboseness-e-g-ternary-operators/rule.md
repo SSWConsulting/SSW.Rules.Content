@@ -8,9 +8,9 @@ uri: do-you-decide-on-the-level-of-the-verboseness-e-g-ternary-operators
 created: 2012-04-01T09:20:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 ---

@@ -8,9 +8,9 @@ uri: do-you-use-the-best-javascript-libraries
 created: 2015-05-05T18:58:26.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
 ---

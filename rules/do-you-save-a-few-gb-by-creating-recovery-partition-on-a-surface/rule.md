@@ -8,7 +8,7 @@ uri: do-you-save-a-few-gb-by-creating-recovery-partition-on-a-surface
 created: 2014-05-05T21:15:55.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -8,9 +8,9 @@ uri: do-you-have-tooltips-for-icons-on-the-kendo-grid
 created: 2014-05-05T19:09:56.0000000Z
 authors:
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

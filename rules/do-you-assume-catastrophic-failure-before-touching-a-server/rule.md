@@ -8,9 +8,9 @@ uri: do-you-assume-catastrophic-failure-before-touching-a-server
 created: 2014-09-03T19:21:57.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
 ---

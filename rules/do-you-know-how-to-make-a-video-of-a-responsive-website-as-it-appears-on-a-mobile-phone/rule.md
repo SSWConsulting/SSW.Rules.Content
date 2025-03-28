@@ -8,7 +8,7 @@ uri: do-you-know-how-to-make-a-video-of-a-responsive-website-as-it-appears-on-a-
 created: 2015-02-16T00:44:22.0000000Z
 authors:
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
 ---

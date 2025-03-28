@@ -7,9 +7,9 @@ uri: review-prs-when-not-required
 created: 2023-10-06T00:00:00.0000000Z
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related:
   - use-branch-protection
   - checked-by-xxx

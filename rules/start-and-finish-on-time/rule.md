@@ -5,9 +5,9 @@ title: Do you start and finish on time?
 uri: start-and-finish-on-time
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
 related:
   - getting-a-busy-person-into-the-meeting
 created: 2021-07-20T06:35:55.000Z

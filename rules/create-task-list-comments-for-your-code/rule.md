@@ -8,7 +8,7 @@ uri: create-task-list-comments-for-your-code
 created: 2018-04-24T20:53:05.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - comments-do-you-create-task-list-comments-for-your-code
@@ -24,7 +24,7 @@ Task List comments can be used to indicate a variety of work to be done at the l
 
 <!--endintro-->
 
-As with other Task List entries, you can double-click any comment entry to display the file indicated in the Code Editor and jump to the line of code marked. 
+As with other Task List entries, you can double-click any comment entry to display the file indicated in the Code Editor and jump to the line of code marked.
 
 ::: bad
 ![Figure: Bad example - the comment doesn't show in Task List window](pic1.png)

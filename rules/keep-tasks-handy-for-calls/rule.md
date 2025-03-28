@@ -5,17 +5,17 @@ seoDescription: Learn how using Microsoft Loop in a Teams Tab can streamline you
 uri: keep-tasks-handy-for-calls
 authors:
   - title: Tanya Leahy
-    url: https://ssw.com.au/people/tanya-leahy/
+    url: https://ww.ssw.com.au/people/tanya-leahy/
 created: 2024-05-22T13:55:00.000Z
 guid: 8f304a6b-8345-4e3b-ac6f-259e028bb0c2
 related:
   - work-in-order-of-importance-aka-priorities
-
 ---
 
 In today’s busy work environment, it is crucial to stay organized and be ready to update your Manager on your tasks at any moment. Using Microsoft Loop in a Teams Tab can help you manage your tasks effectively.
 
 <!--endintro-->
+
 `youtube: https://www.youtube.com/watch?v=itWQ8d-9giQ`
 **Video: Efficient Task Management with Microsoft Loop Tutorial | Tanya Leahy | SSW Rules (3 mins)**
 
@@ -41,7 +41,7 @@ In today’s busy work environment, it is crucial to stay organized and be ready
 ::: img-medium
 ![Figure: Loop added to Teams](loop-tab-teams.jpg)
 :::
-  
+
 5. **Keep It Updated:** Regularly update the status of your tasks in the Loop component to keep it current
 6. **Instant Access:** Ensure the Teams Tab with the Loop component is easily accessible so you can quickly pull it up when your Manager calls
 

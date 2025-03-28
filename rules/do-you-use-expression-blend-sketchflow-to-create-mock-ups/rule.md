@@ -8,7 +8,7 @@ uri: do-you-use-expression-blend-sketchflow-to-create-mock-ups
 created: 2009-11-25T13:15:02.0000000Z
 authors:
   - title: Lei Xu
-    url: https://ssw.com.au/people/lei-xu
+    url: https://ww.ssw.com.au/people/lei-xu
 related: []
 redirects:
   - do-you-use-expression-blend-+-sketchflow-to-create-mock-ups

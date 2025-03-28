@@ -6,13 +6,12 @@ title: Parameters - Do you avoid showing empty reports?
 guid: 31728c17-c348-458c-b8e3-601d30987706
 uri: avoid-showing-empty-reports
 created: 2024-08-02T10:30:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 When a user opens a report, they expect to see something. It is the developer's job to get the default values for parameters right. Default parameters allow the user to see what they expect... a report, and they also show users the expected format for parameters and make it easier to run validation tests to see if all the reports on your server are working correctly And of course you don't get it right by hard coding defaults.
@@ -35,9 +34,9 @@ The following report shows nothing, because the parameters are using meaningless
 
 In SQL Reporting Services, parameters can be:
 
-* hard coded
-* an expression, or
-* from a query
+- hard coded
+- an expression, or
+- from a query
 
 Hard coded values should never be used. Expressions may be good for some instances, but because it's not linked with your data, it may not be good enough.
 
@@ -68,16 +67,16 @@ In order to give report parameters correct default values, you should always use
 **--Query to generate valid date from existing data**
 SELECT
 CONVERT(
-DATETIME, 
-'1, ' + 
-DATENAME(month, DATEADD(month, 1, MAX(OrderDate)))+ 
+DATETIME,
+'1, ' +
+DATENAME(month, DATEADD(month, 1, MAX(OrderDate)))+
 DATENAME(year, DATEADD(month, 1, MAX(OrderDate)))
 ) AS EndOfMonth,
 CONVERT(
-DATETIME, 
-'1,'+ 
-DATENAME(month, MAX(OrderDate))+ 
-DATENAME(year, MAX(OrderDate)) 
+DATETIME,
+'1,'+
+DATENAME(month, MAX(OrderDate))+
+DATENAME(year, MAX(OrderDate))
 ) AS StartOfMonth
 FROM Orders
 ```

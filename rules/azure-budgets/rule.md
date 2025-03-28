@@ -1,5 +1,5 @@
 ---
-seoDescription: "Learn how to monitor and manage Azure costs with budgets, tags, and alerts to avoid bill shock."
+seoDescription: 'Learn how to monitor and manage Azure costs with budgets, tags, and alerts to avoid bill shock.'
 type: rule
 title: Budgets - Do you monitor your costs in Azure?
 uri: azure-budgets
@@ -9,11 +9,11 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
   - title: Luke Mao
-    url: https://ssw.com.au/people/luke-mao
+    url: https://ww.ssw.com.au/people/luke-mao
 related:
   - cloud-architect
   - reduce-azure-costs
@@ -23,6 +23,7 @@ redirects:
 created: 2022-06-22T02:31:57.025Z
 guid: 9601ef53-a314-4fa7-b6fc-a8cb2b62ce08
 ---
+
 Azure costs can be difficult to figure out and it is important to make sure there are no hidden surprises. To avoid bill shock, it is crucial to be informed. Once you are informed, then you can [make the appropriate actions to reduce costs](/reduce-azure-costs).
 
 Let's have a look at the tools and processes that can be put in place to help manage Azure costs:
@@ -42,7 +43,7 @@ In addition to the overarching budget, specific apps can be targeted to monitor 
 
 ### Subscriptions - Split costing by environment
 
-In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.  
+In addition to budgets, it's also a good idea to split costing between production and non-production scenarios. This can help diagnose why there are unexpected spend fluctuations e.g. performed load testing on the test site. Also, there are sometimes discounts that can be applied to a subscription only used for dev/test scenarios.
 
 ::: bad
 ![Figure: Bad example - No budget has been set up, disaster could be imminent and no one would know 🥶!](viewbudgetbad.png)
@@ -99,26 +100,27 @@ For everyone to be on the same page, the process a developer should follow is:
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Spend Master |
+|          |                                                                    |
+| -------- | ------------------------------------------------------------------ |
+| To:      | Spend Master                                                       |
 | Subject: | Purchase Please - Azure Resource Request for {{ PRODUCT/SERVICE }} |
-::: email-content  
+
+::: email-content
 
 ### Hi Spend Master aka SysAdmins
 
 I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
 This is for {{ BUSINESS REASONS FOR RESOURCE }}
 
-* Azure Resource needed: I would like to create a new App Service Plan
-* Azure Calculator link: {{ LINK }}
-* Environment: {{ DEV/STAGING/PROD }}
+- Azure Resource needed: I would like to create a new App Service Plan
+- Azure Calculator link: {{ LINK }}
+- Environment: {{ DEV/STAGING/PROD }}
 
 Project details:
 
-* Project Name: A new project called {{ PROJECT NAME }}
-* Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
-* Project URL (e.g. Azure DevOps / Github): {{ URL }}
+- Project Name: A new project called {{ PROJECT NAME }}
+- Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
+- Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
 Total:
 
@@ -129,7 +131,7 @@ ${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)
 
 1. Please approve
 
-< As per <https://ssw.com.au/rules/azure-budgets> >
+< As per <https://ww.ssw.com.au/rules/azure-budgets> >
 :::
 :::
 

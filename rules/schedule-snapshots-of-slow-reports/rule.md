@@ -6,20 +6,19 @@ title: Performance - Do you schedule snapshots of slow reports for quicker acces
 guid: 93b37cb3-4066-4b3a-894f-bd58cfa577b6
 uri: schedule-snapshots-of-slow-reports
 created: 2024-08-02T10:48:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 A report should never take more than 30 seconds to run. Slow reports frustrate users, and also take valuable server performance away from the report server.
 
 <!--endintro-->
 
-When dealing with slow reports, it is a good idea to setup scheduled snapshots. As an example,  you would schedule a long running report to create a snapshot at night when the server is idle and not under a lot of stress. We recommend creating new snapshots every night so that the information displayed in the reports is never more than 24 hours old.
+When dealing with slow reports, it is a good idea to setup scheduled snapshots. As an example, you would schedule a long running report to create a snapshot at night when the server is idle and not under a lot of stress. We recommend creating new snapshots every night so that the information displayed in the reports is never more than 24 hours old.
 
 As an example:
 

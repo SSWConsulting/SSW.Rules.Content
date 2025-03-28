@@ -1,20 +1,19 @@
 ---
-seoDescription: "Always use English in communications involving your head office for seamless collaboration and clarity."
+seoDescription: 'Always use English in communications involving your head office for seamless collaboration and clarity.'
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know you should always use the language of your head office? (usually English)
 guid: 0fc40d1a-ca9a-4c2d-be62-831fe962bfd5
 uri: do-you-know-you-should-always-use-the-language-of-your-head-office-usually-english
 created: 2013-04-01T04:14:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: William Yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects:
-- do-you-know-you-should-always-use-the-language-of-your-head-office-(usually-english)
-
+  - do-you-know-you-should-always-use-the-language-of-your-head-office-(usually-english)
 ---
 
 Say your language is Chinese, of course, local Chinese customers would feel more comfortable communicating in English. The disconnect happens when head office needs to get involved. They can't review emails, read the history of email threads etc.

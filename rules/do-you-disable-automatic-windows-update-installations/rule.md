@@ -8,9 +8,9 @@ uri: do-you-disable-automatic-windows-update-installations
 created: 2014-08-29T20:08:15.0000000Z
 authors:
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
+    url: https://ww.ssw.com.au/people/igor-goldobin
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
 related:
   - do-you-turn-off-auto-update-on-your-servers
   - do-you-use-group-policy-to-manage-your-windows-update-policy

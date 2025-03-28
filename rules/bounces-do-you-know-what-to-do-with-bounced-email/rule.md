@@ -8,7 +8,7 @@ uri: bounces-do-you-know-what-to-do-with-bounced-email
 created: 2011-08-25T19:54:59.0000000Z
 authors:
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related: []
 redirects: []
 ---
@@ -35,8 +35,8 @@ Dear xxx,
 
 As per this rule on bounced emails [https://www.ssw.com.au/rules/bounces-do-you-know-what-to-do-with-bounced-email](/bounces-do-you-know-what-to-do-with-bounced-email)
 
-* I have checked Step 1 – it is good
-* I have checked Step 2 – it is good
+- I have checked Step 1 – it is good
+- I have checked Step 2 – it is good
 
 The problem is likely your end
 

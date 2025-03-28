@@ -8,7 +8,7 @@ uri: do-you-get-zero-downtime-when-updating-a-server
 created: 2012-03-02T15:46:51.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - web-servers-do-you-get-zero-downtime-when-updating-a-server

@@ -8,7 +8,7 @@ uri: how-to-use-your-marketing-budget-effectively
 created: 2020-05-27T23:13:21.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-know-how-to-use-your-marketing-budget-effectively

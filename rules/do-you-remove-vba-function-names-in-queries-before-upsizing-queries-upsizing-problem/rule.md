@@ -8,7 +8,7 @@ uri: do-you-remove-vba-function-names-in-queries-before-upsizing-queries-upsizin
 created: 2010-07-23T03:36:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-avoid-parameter-queries-with-exists-keyword-and-comparison-operators-or-upsizing-problem
   - do-you-have-complex-queries-upsizing-problem

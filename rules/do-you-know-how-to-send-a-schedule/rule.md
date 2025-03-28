@@ -8,11 +8,11 @@ uri: do-you-know-how-to-send-a-schedule
 created: 2015-06-05T08:07:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Daniel Šmon
-    url: https://ssw.com.au/people/daniel-smon
+    url: https://ww.ssw.com.au/people/daniel-smon
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
 related: []
 redirects:

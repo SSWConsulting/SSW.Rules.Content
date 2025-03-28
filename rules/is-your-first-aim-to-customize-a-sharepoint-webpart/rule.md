@@ -5,9 +5,9 @@ title: Do you aim to customize a SharePoint webpart first?
 uri: is-your-first-aim-to-customize-a-sharepoint-webpart
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related: []
 redirects: []
 created: 2009-02-28T09:14:44.000Z

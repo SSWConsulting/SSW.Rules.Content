@@ -1,14 +1,14 @@
 ---
 seoDescription: Best bug tracking database allows developers to focus on coding by eliminating data re-entry.
 type: rule
-archivedreason: "Bugs are usually tracked using GitHub Issues (or similar) and Team Companion is dead. Superceded by related Rule"
+archivedreason: 'Bugs are usually tracked using GitHub Issues (or similar) and Team Companion is dead. Superceded by related Rule'
 title: Do you keep the best possible bug database?
 guid: 6159eae3-6e8b-4999-8812-0907c53db7fd
 uri: do-you-keep-the-best-possible-bug-database
 created: 2009-02-28T09:44:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - build-the-backlog
 redirects: []

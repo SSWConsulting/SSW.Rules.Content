@@ -5,7 +5,7 @@ title: Do you conduct Market Research via the Web?
 uri: do-you-conduct-market-research-via-the-web
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2009-02-19T02:47:22.000Z

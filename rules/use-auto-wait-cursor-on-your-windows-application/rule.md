@@ -5,7 +5,7 @@ title: Do you use AutoWaitCursor on Windows applications?
 uri: use-auto-wait-cursor-on-your-windows-application
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:02:00.000Z
 guid: 4aa7ca6d-e9fe-4d11-933a-bf2095c4efe4
 ---

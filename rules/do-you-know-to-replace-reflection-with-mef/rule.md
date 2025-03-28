@@ -15,9 +15,9 @@ uri: do-you-know-to-replace-reflection-with-mef
 created: 2012-03-21T01:47:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 ---
@@ -28,7 +28,7 @@ Reflection code is often used to implement a "plugin" architecture where compone
 
 The Managed Extensibility Framework (MEF) is an Inversion of Control (IoC) framework build on Reflection that simplifies and standardises this plugin methodology.
 
-[You don't need an IoC container or ServiceLocator for everything](http://blogs.clariusconsulting.net/kzu/you-dont-need-an-ioc-or-servicelocator-for-everything/ "You don’t need an IoC container or ServiceLocator for everything"), but an IoC container WILL help if you have complex dependency graphs to instantiate (in your default constructor) or you have truly pluggable components.  For example, if you want to allow a component to be picked up automatically at runtime from some assembly if it’s in a folder.
+[You don't need an IoC container or ServiceLocator for everything](http://blogs.clariusconsulting.net/kzu/you-dont-need-an-ioc-or-servicelocator-for-everything/ 'You don’t need an IoC container or ServiceLocator for everything'), but an IoC container WILL help if you have complex dependency graphs to instantiate (in your default constructor) or you have truly pluggable components.  For example, if you want to allow a component to be picked up automatically at runtime from some assembly if it’s in a folder.
 
 Any existing Reflection code should be examined to see whether:
 

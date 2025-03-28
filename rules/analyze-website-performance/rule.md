@@ -8,7 +8,7 @@ uri: analyze-website-performance
 created: 2016-11-24T17:04:26.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-analyze-your-website-performance
@@ -20,8 +20,8 @@ This includes:
 
 <!--endintro-->
 
-* Check for and improve the slowest pages
-* Check for and improve the compression of unnecessarily large images
-* Check for and improve inefficient Ajax JavaScript code
-* Check for and improve the slowest database queries
-* Check for and improve page responsiveness
+- Check for and improve the slowest pages
+- Check for and improve the compression of unnecessarily large images
+- Check for and improve inefficient Ajax JavaScript code
+- Check for and improve the slowest database queries
+- Check for and improve page responsiveness

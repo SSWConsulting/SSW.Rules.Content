@@ -8,9 +8,9 @@ uri: do-you-hold-regular-company-meetings
 created: 2017-04-12T23:26:43.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - communication-do-you-hold-regular-company-meetings
@@ -49,7 +49,7 @@ If you’re at SSW Sydney on the day, come to the SSW Chapel, otherwise, click t
 
 Let me know if you want any topics raised.
 
-&lt;This is as per the rule [https://ssw.com.au/rules/do-you-hold-regular-company-meetings/](/do-you-hold-regular-company-meetings) &gt;
+&lt;This is as per the rule [https://ww.ssw.com.au/rules/do-you-hold-regular-company-meetings/](/do-you-hold-regular-company-meetings) &gt;
 
 :::  
 :::  

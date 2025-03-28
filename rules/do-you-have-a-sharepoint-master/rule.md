@@ -8,9 +8,9 @@ uri: do-you-have-a-sharepoint-master
 created: 2010-12-23T02:20:55.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
 related: []
 redirects: []
 ---

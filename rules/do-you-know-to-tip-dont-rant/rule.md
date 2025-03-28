@@ -8,9 +8,9 @@ uri: do-you-know-to-tip-dont-rant
 created: 2010-09-07T15:53:44.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related: []
 redirects:
   - do-you-know-to-tip-don’t-rant
@@ -23,9 +23,9 @@ Probably the best reason to blog is when you have made a mistake, especially if 
 Turn a rant into a tip…
 
 ::: bad
-![Figure: Bad example – It is too easy to rant ](RulesBloggingTipBad.jpg "SNAGHTML1b864a4")
+![Figure: Bad example – It is too easy to rant ](RulesBloggingTipBad.jpg 'SNAGHTML1b864a4')
 :::
 
 ::: good
-![Figure: Good example – What started out as a rant about Plaxo became a tip on how to get round it](RulesBloggingTipGood.jpg "SNAGHTML1b94284")
+![Figure: Good example – What started out as a rant about Plaxo became a tip on how to get round it](RulesBloggingTipGood.jpg 'SNAGHTML1b94284')
 :::

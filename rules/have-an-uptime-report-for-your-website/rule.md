@@ -8,7 +8,7 @@ uri: have-an-uptime-report-for-your-website
 created: 2016-11-24T17:45:52.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-uptime-report-for-your-website

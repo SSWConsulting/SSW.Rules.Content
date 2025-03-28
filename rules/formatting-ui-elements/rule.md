@@ -6,11 +6,11 @@ title: Do you know how to format UI elements in technical documentation?
 guid: a7a66734-2449-487c-ba14-def26cff8da9
 uri: formatting-ui-elements
 created: 2016-04-21T02:57:12.0000000Z
-authors: 
+authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - commas-and-full-stops-always-should-have-1-space-after-them
   - do-you-know-how-to-make-quotations-easier-to-identify

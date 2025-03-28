@@ -5,9 +5,9 @@ title: Do you know to never dispose objects from SPContext.Current?
 uri: never-dispose-objects-from-spcontext-current
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects: []
 created: 2013-08-29T00:36:26.000Z

@@ -8,7 +8,7 @@ uri: do-you-know-that-content-is-king
 created: 2019-04-16T05:50:58.0000000Z
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects: []
 ---

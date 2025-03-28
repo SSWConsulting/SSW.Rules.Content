@@ -5,7 +5,7 @@ title: Do you know when functions are too complicated?
 uri: know-when-functions-are-too-complicated
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-when-functions-are-too-complicated
@@ -22,11 +22,11 @@ In Visual Studio, there is built-in support for Cyclomatic Complexity analysis.
 
 1. Go to Analyze | Calculate Code Metrics | For Solution
 
-![Figure: Launching the Code Metrics tool within Visual Studio](calculate_code_metrics.jpg "Screenshot of how to launch the Code Metrics tool within Visual Studio")
+![Figure: Launching the Code Metrics tool within Visual Studio](calculate_code_metrics.jpg 'Screenshot of how to launch the Code Metrics tool within Visual Studio')
 
 2. Look at the function with the largest Cyclomatic Complexity number and consider refactoring to make it simpler.
 
-![Figure: Results from cyclomatic analysis (and other analyses) give an indication of how complicated functions are](code_metrics_report.jpg "Screenshot of the Code Metrics Results in Visual Studio")
+![Figure: Results from cyclomatic analysis (and other analyses) give an indication of how complicated functions are](code_metrics_report.jpg 'Screenshot of the Code Metrics Results in Visual Studio')
 
 :::greybox
 

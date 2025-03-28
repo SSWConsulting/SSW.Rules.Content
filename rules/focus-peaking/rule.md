@@ -5,7 +5,7 @@ title: Do you know how to use Focus peaking?
 uri: focus-peaking
 authors:
   - title: Joseph Fernandez
-    url: https://ssw.com.au/people/joseph-fernandez/
+    url: https://ww.ssw.com.au/people/joseph-fernandez/
 created: 2023-10-03T04:04:41.708Z
 related: []
 redirects: []

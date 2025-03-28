@@ -8,9 +8,9 @@ uri: avoid-spaces-and-empty-lines-at-the-start-of-character-columns
 created: 2019-11-25T19:01:24.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
   - data-do-you-avoid-spaces-and-empty-lines-at-the-start-of-character-columns
@@ -36,8 +36,8 @@ static string Trim(string inputText)
 
 The code above:
 
-* Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
-* Retrieves the index of the character
-* Returns the text from the character onwards, thus removing the whitespace at the start
+- Uses Regular Expressions (Regex) to match the first non-whitespace character (includes tabs, spaces, line feeds and carriage returns).
+- Retrieves the index of the character
+- Returns the text from the character onwards, thus removing the whitespace at the start
 
 This code could be triggered in the middle-tier before inserting into the database.

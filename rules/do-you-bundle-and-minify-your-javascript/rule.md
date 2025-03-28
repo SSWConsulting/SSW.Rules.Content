@@ -1,17 +1,16 @@
 ---
-seoDescription: "Bundling and minifying JavaScript in your MVC app improves performance by reducing server calls."
+seoDescription: 'Bundling and minifying JavaScript in your MVC app improves performance by reducing server calls.'
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you bundle and minify your JavaScript?
 guid: 86ecf1e2-49af-444b-9849-145f87f77ec0
 uri: do-you-bundle-and-minify-your-javascript
 created: 2012-07-18T17:35:19.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Did you know you can improve the speed of your MVC app by using a built in feature called bundling and minification.

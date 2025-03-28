@@ -5,7 +5,7 @@ title: Do you know what Zigbee is and follow its design principles?
 uri: zigbee-design-principles
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 created: 2023-04-03T23:13:07.414Z
 guid: b5d528f5-3880-45d5-a116-747c1501b091
 ---

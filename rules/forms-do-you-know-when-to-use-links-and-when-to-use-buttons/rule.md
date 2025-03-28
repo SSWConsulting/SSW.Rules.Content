@@ -8,7 +8,7 @@ uri: forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 created: 2014-12-04T20:13:43.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -29,8 +29,8 @@ But you say "My Delete links have JavaScript protection e.g. Are you sure you wa
 
 Thus, we must have:
 
-* Password protected areas on the website when we can update the database records via the web
-* All update ability must be via buttons, not hyperlinks (as buttons are known on the web to submit a form).
+- Password protected areas on the website when we can update the database records via the web
+- All update ability must be via buttons, not hyperlinks (as buttons are known on the web to submit a form).
 
 That being said, there are a couple of exceptions to this rule.
 

@@ -1,19 +1,18 @@
 ---
 seoDescription: Discover how to avoid common SharePoint migration errors with ShareGate
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to avoid errors (with Sharegate)?
 guid: 9b82b277-d300-4340-8276-eb496c819e36
 uri: how-to-avoid-errors-sharepoint-migration-with-sharegate
 created: 2018-01-17T23:18:42.0000000Z
 authors:
-- title: Jean Thirion
-  url: https://ssw.com.au/people/jean-thirion
+  - title: Jean Thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
 related: []
 redirects:
-- do-you-know-how-to-avoid-errors-with-sharegate
-- do-you-know-how-to-avoid-errors-(with-sharegate)
-
+  - do-you-know-how-to-avoid-errors-with-sharegate
+  - do-you-know-how-to-avoid-errors-(with-sharegate)
 ---
 
 Even if you get rid of unsupported content before migration, your first dry-run migrations are very likely to include errors. Here are the most common errors and how to fix them.
@@ -37,7 +36,7 @@ Copying the content to a MicroFeed list is not supported.
 
 **Source:** <https://support.share-gate.com/hc/en-us/articles/115000600227>
 
-![Figure: errors due to micro feed migration](errors-micro-feed-migration.png)  
+![Figure: errors due to micro feed migration](errors-micro-feed-migration.png)
 
 ### Lookup fields
 
@@ -63,7 +62,7 @@ Copying the content to a MicroFeed list is not supported.
 
 **Error:** Property 'xxx': The following users and groups were not found: XXXXX The current user has been assigned.
 
-*OR*
+_OR_
 
 Property Target Audiences: The Target Audience 'xxxxxxxxxxxxxx' could not be found.
 
@@ -79,11 +78,11 @@ Property Target Audiences: The Target Audience 'xxxxxxxxxxxxxx' could not be fou
 
 **Error:** Warning for version 1.0: Unable to convert WebPart: The content of the WebPart is not in a WebPart Zone for page 'xxxxxxxxxxxxxxxxxxxx'.
 
-*OR*
+_OR_
 
 **Error:** Unable to recover source WebParts: You are not authorized to perform the requested operation.
 
-*OR*
+_OR_
 
 **Error:** This page contains WebParts for which the correct zone could not be found. They have been assigned to the default zone, and may need to be edited manually.
 

@@ -8,7 +8,7 @@ uri: do-you-add-breadcrumb-to-every-page
 created: 2015-02-16T01:46:30.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - simplify-breadcrumbs
 redirects: []

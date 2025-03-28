@@ -5,11 +5,11 @@ title: Do you know when to create mockups and prototypes?
 uri: mockups-and-prototypes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jayden Alchin
     url: https://www.ssw.com.au/people/jayden-alchin
   - title: Geordie Robinson
-    url: https://ssw.com.au/people/geordie-robinson
+    url: https://ww.ssw.com.au/people/geordie-robinson
 related:
   - storyboards
   - generate-ui-mockups-with-ai
@@ -18,7 +18,8 @@ redirects:
 created: 2023-09-04T07:37:31.732Z
 guid: 2b8c7067-4d59-49b2-a448-4b746b11383a
 ---
-:::  info
+
+::: info
 **Note:** Some people might use the term storyboarding when they are actually talking about mockups or prototypes. For information on storyboarding, check [The Storyboarding Rule](/storyboards)
 :::
 
@@ -34,7 +35,7 @@ There are 3 types of mockup or prototype, use depends on the specific goals and 
 
 1. **Low-fidelity Mockups (aka Wireframes)**
 2. **High-fidelity Mockups**
-3. **Interactive  Prototypes**
+3. **Interactive Prototypes**
 
 Often it's best to start with a low-fidelity mockup to get across a concept or rough storyboard. Then complete a high-fidelity mockup to communicate the look and feel, and if time permits create an interactive prototype.
 
@@ -70,7 +71,7 @@ A high-fidelity mockup is a more detailed version of a design that includes visu
 
 Use a design tool such as Figma to create high-fidelity mockups of a website or app's interface. This should include more consideration of UX and detailed UI elements such as buttons, forms, icons, and typography.
 
-:::  info
+::: info
 **Incorporate branding:** It's important to incorporate the brand's visual identity into the design of a product! This should include the brand's given color scheme, typography, and logo at a minimum.
 :::
 
@@ -82,11 +83,11 @@ To make a mockup more realistic and accurate to the end product, add interactivi
 
 ### What are the best tools?
 
-* [Figma](https://www.figma.com) (Recommended)
-* [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
-* [Moqups](https://moqups.com) (HTML5 based App)
-* [Balsamiq](https://balsamiq.com)
-* [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
+- [Figma](https://www.figma.com) (Recommended)
+- [Sketch](https://www.sketchapp.com) (Mac Only and for UX designers)
+- [Moqups](https://moqups.com) (HTML5 based App)
+- [Balsamiq](https://balsamiq.com)
+- [UXPin](http://uxpin.com) (more sophisticated, helps you create responsive designs)
 
 ### Tips
 
@@ -94,10 +95,10 @@ To make a mockup more realistic and accurate to the end product, add interactivi
 
 Here are some more hot tips on using mockups for specification analysis:
 
-* It is best to have a designer, developer, and customer work together
-* Mock-ups should follow [interface rules](/rules-to-better-interfaces-general-usability-practices)
-* Get the mockups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case
-* If you can't get mockups initialed, then page by page approval over email is the 2nd best option
-* Write the related business rules at the bottom of each screen - to be turned into unit tests
+- It is best to have a designer, developer, and customer work together
+- Mock-ups should follow [interface rules](/rules-to-better-interfaces-general-usability-practices)
+- Get the mockups [physically initialed](/tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks), especially if you are performing a fixed-price contract. Yes, paperless is great - but not in this case
+- If you can't get mockups initialed, then page by page approval over email is the 2nd best option
+- Write the related business rules at the bottom of each screen - to be turned into unit tests
 
 :::

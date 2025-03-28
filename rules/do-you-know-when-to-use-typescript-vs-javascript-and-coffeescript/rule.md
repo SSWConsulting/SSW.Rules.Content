@@ -8,7 +8,7 @@ uri: do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript
 created: 2013-08-27T15:13:31.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects:
   - do-you-know-when-to-use-typescript-(vs-javascript-and-coffeescript)

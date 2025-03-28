@@ -8,9 +8,9 @@ uri: do-you-know-who-to-put-in-the-to-field
 created: 2011-04-25T06:51:05.0000000Z
 authors:
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-include-the-name-of-the-person-you-address-on-the-first-line
 redirects: []

@@ -8,15 +8,15 @@ uri: do-you-record-your-failures
 created: 2019-03-13T04:50:25.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Andreas Lengkeek
-    url: https://ssw.com.au/people/andreas-lengkeek
+    url: https://ww.ssw.com.au/people/andreas-lengkeek
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
   - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
+    url: https://ww.ssw.com.au/people/jernej-kavka
   - title: Patricia Barros
-    url: https://ssw.com.au/people/patricia-barros
+    url: https://ww.ssw.com.au/people/patricia-barros
 related: []
 redirects: []
 ---

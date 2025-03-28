@@ -5,15 +5,15 @@ title: Do you use great email signatures?
 uri: great-email-signatures
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
+    url: https://ww.ssw.com.au/people/rebecca-liu
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma
 related:

@@ -8,7 +8,7 @@ uri: backup-scripts
 created: 2019-11-20T18:42:30.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - backup-do-you-back-up-scripts
@@ -20,9 +20,9 @@ Scripts are an important component in the operation of any database. This is why
 
 You should regularly generate full scripts of all objects changed, keeping the following points in mind:
 
-* Don't encrypt your database objects if you can avoid it - otherwise, they can't be scripted.
+- Don't encrypt your database objects if you can avoid it - otherwise, they can't be scripted.
 
 Use:
 
-* Enterprise Manager Generate Scripts Wizard OR
-* SQL DMO object model to script out the objects
+- Enterprise Manager Generate Scripts Wizard OR
+- SQL DMO object model to script out the objects

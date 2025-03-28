@@ -5,7 +5,7 @@ title: Do you avoid using non strongly typed connection strings?
 uri: avoid-using-non-strongly-typed-connection-strings
 authors:
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/alumni/igor-goldobin/
+    url: https://ww.ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T06:15:30.110Z
 archivedreason: Update connection string management - favor IOptions pattern over Visual Studio's Application Settings. Offers robust, flexible config in .NET Core, aligning with modern development practices. Refer to Microsoft's IOptions pattern in .NET documentation for implementation guidance.
 guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b

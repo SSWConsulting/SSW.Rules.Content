@@ -10,10 +10,11 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 created: 2021-10-11T00:20:18.145Z
 guid: 0668c3fd-3946-42cc-8712-80a46712162d
 ---
+
 At some point every business will experience a catastrophic incident. At these times it is important to have a plan that explains who to contact, the priority of restore and how to restore services.
 
 At the time of a disaster, you should have a few objectives established and measure some results - The objectives are **RPO** (Recovery Point Objective) and **RTO** (Recovery Time Objective); and the measurements to take are **RPA** (Recovery Point Actual) and **RTA** (Recovery Time Actual).
@@ -52,7 +53,7 @@ RTO and RPO are determined via a consultation called BIA (Business Impact Analys
 
 After this a disaster should be simulated to test that the RTA/RPA values match the RTO/RPO required by the organization.
 
-- - -
+---
 
 **Example:** Mr Bob Northwind experienced a catastrophic incident. The failure occurred at 8pm local time on a Friday night. Their website and sales transaction software were affected.
 

@@ -8,7 +8,7 @@ uri: do-you-use-an-internet-intranet-for-sharing-common-information-such-as-comp
 created: 2009-03-10T08:06:37.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -21,8 +21,8 @@ The first step is to use HTML rather than Microsoft Word documents.
 
 The second step is to think about location. Should it go on a website or Intranet? We believe in dividing it up into 2 groups:
 
-* Public - e.g. /Standards
-* Private - e.g. /Standardsinternal
+- Public - e.g. /Standards
+- Private - e.g. /Standardsinternal
 
 The benefit with standards on the web is to get feedback from other developers.
 

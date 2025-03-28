@@ -5,7 +5,7 @@ title: Do you know why it’s important to talk to clients on Teams?
 uri: connect-client-im
 authors:
   - title: Asher Paris
-    url: https://ssw.com.au/people/
+    url: https://ww.ssw.com.au/people/
 related:
   - rules-to-better-microsoft-teams
 created: 2023-10-31T16:50:21.000Z

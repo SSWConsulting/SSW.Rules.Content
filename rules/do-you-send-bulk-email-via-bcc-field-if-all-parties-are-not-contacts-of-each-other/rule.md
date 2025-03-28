@@ -8,9 +8,9 @@ uri: do-you-send-bulk-email-via-bcc-field-if-all-parties-are-not-contacts-of-eac
 created: 2009-03-26T02:58:23.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - do-you-send-bulk-email-via-bcc-field-(if-all-parties-are-not-contacts-of-each-other)

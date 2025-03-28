@@ -5,7 +5,7 @@ title: Do you do your validation with Return?
 uri: do-your-validation-with-exit-sub
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-do-your-validation-with-return

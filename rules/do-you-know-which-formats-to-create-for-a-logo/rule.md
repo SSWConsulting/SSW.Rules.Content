@@ -1,19 +1,18 @@
 ---
 seoDescription: Learn about logo formats (EPS, SVG, PNG) and variations for different uses like web, print, color schemes, and favicons.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know which formats and variations to create for a logo？
 guid: f77cea92-eadb-456d-b05e-f5ef1b23d3b1
 uri: do-you-know-which-formats-to-create-for-a-logo
 created: 2019-11-12T05:32:19.0000000Z
 authors:
-- title: Ken Shi
-  url: https://ssw.com.au/people/ken-shi
+  - title: Ken Shi
+    url: https://ww.ssw.com.au/people/ken-shi
 related: []
 redirects:
-- do-you-know-the-formats-and-variations-to-create-for-a-logo
-- do-you-know-which-formats-and-variations-to-create-for-a-logo
-
+  - do-you-know-the-formats-and-variations-to-create-for-a-logo
+  - do-you-know-which-formats-and-variations-to-create-for-a-logo
 ---
 
 An SSW logo design will be used in different situations. Be in large or small, horizontal and vertical, black or white, for print or for the web. Whatever the situation, we will want to do all we can to ensure it looks good in every scenario.
@@ -40,13 +39,13 @@ Needed when we are creating a logo for a product that has a website, a favicon i
 
 With the iPhone and so many new devices created during the last 10 years, the favicon is no longer a single 16×16 picture. It has many usages, many sizes, and many designs. The most well-known derivative is the Apple Touch Icon for iOS. This icon is used when your visitor adds your site to his home screen. Therefore, we extract the most recognizable icon from the logo and make it as a favicon in different sizes.
 
-* 32×32: Standard for most desktop browsers (replaces 16×16)
-* 128×128: Chrome store and small Windows 8 start screen icon
-* 152×152: iPad touch icon
-* 167×167: iPad Retina touch icon
-* 180×180: iPhone Retina icon
-* 192×192: Google Developer web app recommendation
-* 196×196: Android home screen icon
+- 32×32: Standard for most desktop browsers (replaces 16×16)
+- 128×128: Chrome store and small Windows 8 start screen icon
+- 152×152: iPad touch icon
+- 167×167: iPad Retina touch icon
+- 180×180: iPhone Retina icon
+- 192×192: Google Developer web app recommendation
+- 196×196: Android home screen icon
 
 ### 5. Color Variation
 
@@ -66,4 +65,4 @@ Always keep a copy of the source file in Illustrator/Sketch for designers.
 
 #### Example
 
-* [SSW Logo Index](https://www.ssw.com.au/ssw/logo/)
+- [SSW Logo Index](https://www.ssw.com.au/ssw/logo/)

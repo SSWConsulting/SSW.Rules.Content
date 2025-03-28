@@ -8,9 +8,9 @@ uri: where-bottlenecks-can-happen
 created: 2016-04-28T18:32:53.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - do-you-know-where-bottlenecks-can-happen

@@ -5,9 +5,9 @@ title: Expenses - Do your fields have a good description?
 uri: do-your-cheque-and-memo-fields-have-a-good-description
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
+    url: https://ww.ssw.com.au/people/jimmy-chen
 related: []
 redirects: []
 created: 2013-04-19T18:45:40.000Z
@@ -21,11 +21,11 @@ E.g. The period the invoice relates to.
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - No description](memo-field-bad.png "Figure: Bad Example")
+![Figure: Bad example - No description](memo-field-bad.png 'Figure: Bad Example')
 :::
 
 ::: good
-![Figure: Good example - Added description](memo-field-good.png "Figure: Good Example")
+![Figure: Good example - Added description](memo-field-good.png 'Figure: Good Example')
 :::
 
 Make sure to include the following details as much as possible:

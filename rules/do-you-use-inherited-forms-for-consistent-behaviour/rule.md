@@ -5,7 +5,7 @@ title: Do you use inherited forms for consistent behaviour?
 uri: do-you-use-inherited-forms-for-consistent-behaviour
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:44:00.000Z
 guid: 15657e0f-3e98-42fd-98b0-d9545579c334
 ---
@@ -22,10 +22,10 @@ We try to keep the number of controls on inherited forms, and the levels of inhe
 
 Every form in your application should inherit from a base form which has code common to every form, for example:
 
-* Company Icon
-* Remembering its size and location - Code sample <span style="background-color: red">to come</span> in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit)
-* Adding itself to a global forms collection if SDI (to find forms that are already open, or to close all open forms)
-* Logging usage frequency and performance of forms (load time)
+- Company Icon
+- Remembering its size and location - Code sample <span style="background-color: red">to come</span> in the [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit)
+- Adding itself to a global forms collection if SDI (to find forms that are already open, or to close all open forms)
+- Logging usage frequency and performance of forms (load time)
 
 ![Figure: Base Form for all SSW applications with SSW icon](baseform.gif)
 
@@ -59,4 +59,4 @@ c) Sorting out a base data entry form:
 
 **Note:** The data entry base form has no heading - we simply use the Title Bar.
 
-We have a program called [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit) that implements inherited forms.
+We have a program called [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit) that implements inherited forms.

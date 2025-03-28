@@ -7,13 +7,13 @@ seoDescription: Learn how to effectively organize your Azure resources using
 uri: azure-naming-resource-groups
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Anthony Nguyen
-    url: https://ssw.com.au/people/anthony-nguyen
+    url: https://ww.ssw.com.au/people/anthony-nguyen
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related:
   - azure-naming-resources
 redirects:
@@ -23,6 +23,7 @@ created: 2020-06-02T20:48:06.000Z
 archivedreason: null
 guid: 2c2f55d2-66fd-4c29-a7cb-6598c54b60df
 ---
+
 ![](icon-naming-azure_1710232021931.png)
 
 ## Naming your Resource Groups
@@ -31,13 +32,13 @@ Resource Groups should be logical containers for your products. They should be a
 
 Name your Resource Groups as **Product.Environment**. For example:
 
-* Northwind.Dev
-* Northwind.Staging
-* Northwind.Production
+- Northwind.Dev
+- Northwind.Staging
+- Northwind.Production
 
 There are no cost benefits in consolidating Resource Groups, so use them! Have a Resource Group per product, per environment. And most importantly, **be consistent in your naming convention**.
 
-**Remember it's difficult to change a resource group name once everything is deployed without downtime.** 
+**Remember it's difficult to change a resource group name once everything is deployed without downtime.**
 
 <!--endintro-->
 
@@ -69,6 +70,6 @@ There is no inherent cost-saving benefit to grouping resources of the same type 
 ![Figure: Good example (for all the above) - Resource Group contains all staging resources for this product](rg-good.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Adding underlying infrastructure to the same Resource Group can save $](screenshot-2025-03-18-080729.png)
 :::

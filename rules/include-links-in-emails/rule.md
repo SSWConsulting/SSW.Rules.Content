@@ -5,13 +5,13 @@ title: Do you include URLs in tasks and "Done" emails?
 uri: include-links-in-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - add-context-reasoning-to-emails
   - dones-do-you-include-useful-details-in-your-done-email
@@ -83,7 +83,7 @@ Figure: Bad example - Using the PR link instead of the final page link
 :::
 
 ::: greybox
-(PR waiting for approval - github&#46;com/SSWConsulting/SSW.Rules.Content/pull/0001)  
+(PR waiting for approval - github&#46;com/SSWConsulting/SSW.Rules.Content/pull/0001)
 
 Done - Changes will be on ssw&#46;com&#46;au/rules/dones-is-your-inbox-a-task-list-only
 
@@ -115,7 +115,7 @@ Figure: Bad example - Link is included but recipient won't be able to open it, p
 :::
 
 ::: greybox
-(link for reference - you don't have permissions)  
+(link for reference - you don't have permissions)
 
 Done - onedrive&#46;live.com/file-name.xls
 :::

@@ -5,7 +5,7 @@ title: Do you create an appointment for flights?
 uri: create-appointment-for-flights
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights
@@ -20,28 +20,29 @@ Once you've [booked a flight](/do-you-know-how-to-book-better-flights/), it's im
 
 This is how you should create an appointment in the Outlook calendar for flights:
 
-* Enter all of the flight details into the appointment. Use the ariplane emoji in the subject, and include your name, from/to, and the flight number. E.g. **"✈️ Adam Cogan - SYD -> BNE - QF 500"**
-* If someone is picking you up, include the arrival time and invite any relevant parties
-* When possible, always include the terminal number in the location field. If a non-standard terminal, make it extra clear
+- Enter all of the flight details into the appointment. Use the ariplane emoji in the subject, and include your name, from/to, and the flight number. E.g. **"✈️ Adam Cogan - SYD -> BNE - QF 500"**
+- If someone is picking you up, include the arrival time and invite any relevant parties
+- When possible, always include the terminal number in the location field. If a non-standard terminal, make it extra clear
   E.g. Jetstar flights should have highlighted: "WARNING: Different terminal. Allow more time".
-* Make sure to include any unusual information about the flight
+- Make sure to include any unusual information about the flight
   E.g. "You are not flying with your preferred airline because {{ REASON }}..." OR "As per our conversation, you are flying via Melbourne, because {{ REASON }}..."
-* Always include the price of the ticket in the message
-* Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
+- Always include the price of the ticket in the message
+- Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
 
 Here is a template to follow:
 
-::: email-template  
+::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ RELEVANT PARTIES }} |
+|             |                                                                            |
+| ----------- | -------------------------------------------------------------------------- |
+| To:         | {{ RELEVANT PARTIES }}                                                     |
 | Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} |
-| Location: | {{ TERMINAL NUMBER }}  |
-| Status: | 🔴 Busy  |
-::: email-content  
+| Location:   | {{ TERMINAL NUMBER }}                                                      |
+| Status:     | 🔴 Busy                                                                    |
 
-### Hi {{RELEVANT PARTIES}}  
+::: email-content
+
+### Hi {{RELEVANT PARTIES}}
 
 I am flying to {{ DESTINATION }}
 Booking number: {{ BOOKING NUMBER }}
@@ -50,17 +51,17 @@ This flight cost is {{ COST }}
 
 **Departure**
 
-* {{ AIRPORT }} {{ TERMINAL }}
-* {{ DEPARTURE DATE AND TIME }}
+- {{ AIRPORT }} {{ TERMINAL }}
+- {{ DEPARTURE DATE AND TIME }}
 
 **Arrival**
 
-* {{ DESTINATION AIRPORT }} {{ TERMINAL }}
-* {{ ARRIVAL DATE AND TIME }}
+- {{ DESTINATION AIRPORT }} {{ TERMINAL }}
+- {{ ARRIVAL DATE AND TIME }}
 
 On arrival, I will get a train to my accommodation.
 
 \< This is as per [https://www.ssw.com.au/rules/create-appointment-for-flights](/create-appointment-for-flights) \>
 
 :::  
-:::  
+:::

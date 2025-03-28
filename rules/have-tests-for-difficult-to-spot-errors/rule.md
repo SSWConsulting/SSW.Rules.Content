@@ -6,7 +6,7 @@ title: Do you have tests for difficult to spot errors (e.g. arithmetic,
 uri: have-tests-for-difficult-to-spot-errors
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-tests-for-difficult-to-spot-errors-e-g-arithmetic-rounding-regular-expressions

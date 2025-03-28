@@ -7,9 +7,9 @@ authors:
   - title: Ozair Ashfaque
     url: https://www.ssw.com.au/people/ozair-ashfaque
   - title: Tino Liu
-    url: https://ssw.com.au/people/tino-liu
+    url: https://ww.ssw.com.au/people/tino-liu
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: https://ww.ssw.com.au/people/nick-curran
   - title: Charles Vionnet
     url: https://www.ssw.com.au/people/charles-vionnet
   - title: Matt Wicks
@@ -31,7 +31,7 @@ redirects:
 
 When there's a major error during deployment or a catastrophic fault happens, what is your first instinct? Is it to hit that Roll Back button?
 
-It feels like reverting back to the previous stable version is the safest and quickest way to restore functionality. 
+It feels like reverting back to the previous stable version is the safest and quickest way to restore functionality.
 
 ![Fixing Problems](https://imgs.xkcd.com/comics/fixing_problems.png)
 
@@ -53,8 +53,8 @@ Here are the reasons why you should Roll Forward:
 - **Data Integrity:** Changes that minimally impact user data or schema allow for seamless updates without risking data integrity. Rolling Forward ensures that data remains intact and consistent.
 - **Customer Confidence:** Demonstrating a commitment to Rolling Forward and resolving issues promptly can build customer confidence and trust in your ability to deliver reliable and up-to-date solutions.
 
-By prioritizing rolling forward, you embrace a proactive approach that promotes resilience, agility, and continuous delivery. 
- 
+By prioritizing rolling forward, you embrace a proactive approach that promotes resilience, agility, and continuous delivery.
+
 ### Prevention is Better Than Cure
 
 To keep your deployments stress free, do the following:

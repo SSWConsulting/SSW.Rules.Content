@@ -8,7 +8,7 @@ uri: how-to-set-up-application-insights
 created: 2015-07-24T04:48:34.0000000Z
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
 related:
   - do-you-know-how-to-set-up-application-insights-in-sharepoint
   - do-you-use-an-analytics-framework-to-help-manage-exceptions
@@ -33,7 +33,7 @@ Application Insights requires that you make 2 general modifications to your appl
 
 2. On the server side, [add the Application Insights DLL references and update web.config](https://learn.microsoft.com/en-us/azure/azure-monitor/app/asp-net), these modifications enable the "server response time", "server request" and "failed requests" monitors. This step can either be done within Visual Studio when right-clicking on a project in Solution Explorer, but it can also be done with the server monitoring tool on ASP.NET applications you don't have control over (e.g. SharePoint).
 
-  ![Server side stats have been enabled now that it has been added to the ASP.NET pipeline](server-response-requests-failed-requests.jpg)
+![Server side stats have been enabled now that it has been added to the ASP.NET pipeline](server-response-requests-failed-requests.jpg)
 
 ### Tip #1: Add enhanced Exception tracking to your application
 

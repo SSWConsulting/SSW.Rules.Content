@@ -8,7 +8,7 @@ uri: reasons-to-use-dynamics-365-crm
 created: 2020-12-02T22:53:06.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-the-reasons-to-use-dynamics-365-crm

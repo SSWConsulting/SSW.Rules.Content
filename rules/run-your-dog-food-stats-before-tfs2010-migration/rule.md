@@ -8,9 +8,9 @@ uri: run-your-dog-food-stats-before-tfs2010-migration
 created: 2009-11-05T10:14:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects:
   - do-you-run-your-dog-food-stats-(before)

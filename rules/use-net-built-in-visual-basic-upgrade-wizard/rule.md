@@ -5,7 +5,7 @@ title: Do you use .Net built-in Visual Basic Upgrade Wizard?
 uri: use-net-built-in-visual-basic-upgrade-wizard
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:11:00.000Z
 guid: 862f1b29-b74f-4948-8dda-7eaccf89532d
 ---

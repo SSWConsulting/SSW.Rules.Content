@@ -8,9 +8,9 @@ uri: do-you-know-to-allow-employees-to-post-to-their-personal-blog
 created: 2010-09-08T15:52:47.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
 ---

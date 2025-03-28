@@ -8,7 +8,7 @@ uri: do-you-set-a-clear-end-time-for-breaks
 created: 2012-01-27T14:15:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -5,15 +5,15 @@ title: Do you ask for small content changes using from X to Y?
 uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - github-content-changes
   - indent
@@ -23,6 +23,7 @@ created: 2009-03-25T04:50:21.000Z
 archivedreason: null
 guid: 1ac0fa3c-7726-4a0f-b5b1-a259801da926
 ---
+
 When asking for changes on a web page, Word document, PowerPoint slide, or code, always use "Change from X to Y".
 
 This process consists of including the original version of the content ("X") along with the changes you require ("Y"). It means you easily see the page or file content as it was prior to your changes. This history is convenient for **future reference** and also **makes it very clear** to the person doing the changes exactly what the new file is meant to look like.
@@ -36,19 +37,20 @@ This process consists of including the original version of the content ("X") alo
 
 Make the changes even easier to see and understand by highlighting:
 
-* In <mark>yellow</mark> - Content you want to add/update (only do this on the "To" section)
-* In <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) Content you want to delete, whether it be specific text or an entire sentence (only do this on the "From" section)
+- In <mark>yellow</mark> - Content you want to add/update (only do this on the "To" section)
+- In <span style="background-color:#ff0000;color:#fff;font-weight:bolder;">red</span> (with white and bold text) Content you want to delete, whether it be specific text or an entire sentence (only do this on the "From" section)
   **Note:** Only indicate in red the content that will **not** be replaced/updated with something correlated.
 
 **Note:** All text we do not write ourselves [should be indented](/do-you-use-indentation-for-readability), so this includes paragraphs we are copying and pasting.
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Dave |
+|          |                                  |
+| -------- | -------------------------------- |
+| To:      | Dave                             |
 | Subject: | Update CodeAuditor features list |
-::: email-content  
+
+::: email-content
 
 ### Hi Dave
 
@@ -68,11 +70,12 @@ Figure: Bad example - The original version of content has not been included in t
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Dave |
+|          |                                  |
+| -------- | -------------------------------- |
+| To:      | Dave                             |
 | Subject: | Update CodeAuditor features list |
-::: email-content  
+
+::: email-content
 
 ### Hi Dave
 
@@ -104,7 +107,7 @@ Figure: Good example - 'From' and 'To' changes are highlighted... it is clear wh
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
 
-- - -
+---
 
 ### Tip #1: Microsoft Teams - Use the same X to Y style
 

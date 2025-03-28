@@ -5,7 +5,7 @@ title: Do you know how to format phone numbers?
 uri: right-format-to-show-phone-numbers
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - great-email-signatures
   - the-value-of-consistency

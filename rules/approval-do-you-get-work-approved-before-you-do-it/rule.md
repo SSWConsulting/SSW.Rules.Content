@@ -8,13 +8,13 @@ uri: approval-do-you-get-work-approved-before-you-do-it
 created: 2009-08-20T06:01:54.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
 related:
   - inform-clients-about-estimates-overrun
 redirects: []
@@ -37,21 +37,21 @@ The natural time for this conversation to occur is in the [Daily Scrum](/methodo
 
 Always get permission for:
 
-* Additional Items
-* Investigation time for scoping out additional items
-* Adding additional resources onto a project
-* Exceeding estimates
-* [Data migration](/do-you-perform-migration-procedures-with-an-approved-release-plan)
+- Additional Items
+- Investigation time for scoping out additional items
+- Adding additional resources onto a project
+- Exceeding estimates
+- [Data migration](/do-you-perform-migration-procedures-with-an-approved-release-plan)
 
 Having said that, you need to manage two potential problems with seeking permission on work before acting:
 
-* Increased dead time while waiting for approval
-* Discouraging initiative to
+- Increased dead time while waiting for approval
+- Discouraging initiative to
   [fix problems quickly](/do-you-fix-problems-quickly)
 
 This rule is not generally applicable if:
 
-* You are working on an
+- You are working on an
   [ad hoc](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work) basis on a client managed project
-* The task is an obvious task which you would
+- The task is an obvious task which you would
   [reasonably assume the client would approve](/approval-do-you-assume-necessary-tasks-will-get-approval) and is not likely to take more than half an hour.

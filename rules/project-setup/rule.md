@@ -5,14 +5,14 @@ title: Project setup - Do you make project setup as easy as possible?
 uri: project-setup
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related:
   - awesome-documentation
 redirects:
@@ -21,6 +21,7 @@ created: 2009-05-13T06:12:34.000Z
 archivedreason: null
 guid: 3f837d99-dd94-4f21-8b07-7348151fb89d
 ---
+
 Developers understand the [importance of the F5 experience](/developer-experience). Sadly, lots of projects are missing key details that are needed to make setup easy.
 
 Let's look at the ways to optimize the experience. There are 4 levels of experience that can be delivered to new developers on a project:
@@ -52,9 +53,9 @@ The **README.md** and **Instructions-Compile.md** are the core documents that ar
 
 E.g. Problems to check for:
 
-* Windows 8 not supported
-* Latest backup of the database
-* npm version
+- Windows 8 not supported
+- Latest backup of the database
+- npm version
 
 :::
 

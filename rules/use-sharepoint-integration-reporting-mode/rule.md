@@ -6,13 +6,12 @@ title: Do you use SharePoint Integration Reporting Mode over Normal(Native) Repo
 guid: c5baeed9-b836-40f7-9039-75be9612fbc9
 uri: use-sharepoint-integration-reporting-mode
 created: 2024-09-16T09:12:00.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 With the use of SharePoint 2010 Integration mode of Reporting, users can have the following advantages:

@@ -5,14 +5,14 @@ title: Pre event - Do you know how to allocate Brainstorming teams?
 uri: brainstorming-team-allocation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related: 
+    url: https://ww.ssw.com.au/people/brady-stroud
+related:
   - brainstorming-idea-champion
 redirects: []
 created: 2023-10-23T02:15:11.000Z
@@ -20,7 +20,7 @@ archivedreason: null
 guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 ---
 
-Dividing participants into teams on the day of the brainstorming session can be time-consuming. It is better to form teams in advance.  This approach ensures consistent team sizes and allows for early communication of team assignments to participants.
+Dividing participants into teams on the day of the brainstorming session can be time-consuming. It is better to form teams in advance. This approach ensures consistent team sizes and allows for early communication of team assignments to participants.
 
 <!--endintro-->
 
@@ -28,9 +28,9 @@ Dividing participants into teams on the day of the brainstorming session can be 
 
 Send out a Microsoft Form to the entire company to vote on which ideas they want to work on. It should have the following questions
 
-* Are you attending the Brainstorming day? (2 options - Yes/No)
-* For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes)
-* Indicate that people should pick 3 or more ideas
+- Are you attending the Brainstorming day? (2 options - Yes/No)
+- For each idea (1 question per idea) - Do you want to work on {{IDEA NAME}}? {{LINK TO DISCUSSION}} (1 option - Yes)
+- Indicate that people should pick 3 or more ideas
 
 Having a separate question for each idea is important to get the data in a good format to allocate teams with minimal data transformation.
 
@@ -55,9 +55,9 @@ I need this data in a format to allocate teams, I want each idea as a row and th
 1. To assign teams, start by assigning the most capable people to each team as a [Idea Champion](/brainstorming-idea-champion)
 2. After each team has an Idea Champion, assign the remaining people based on their preferences, skillset, and interests
 
-* Aim for team sizes of 3-5 people
-* Any larger than this is, it is too hard to manage and get everyone involved.
-* Try to encourage inter-office communication by putting people from different offices on the same team.
+- Aim for team sizes of 3-5 people
+- Any larger than this is, it is too hard to manage and get everyone involved.
+- Try to encourage inter-office communication by putting people from different offices on the same team.
 
 1. Each team also needs to be assigned an Idea Product Owner person to test the presentation and give feedback.
 2. Once everyone is allocated a team, share the result with the group.
@@ -77,8 +77,8 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 1. Create a new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team.  
-See [Do you know how to structure a Brainstorming presentation?
-](/rules-to-better-brainstorming/#presentations)
+   See [Do you know how to structure a Brainstorming presentation?
+   ](/rules-to-better-brainstorming/#presentations)
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 

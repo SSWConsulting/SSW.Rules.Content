@@ -5,13 +5,13 @@ seoDescription: When reassigning tasks, reply with "Done" and provide a URL link
 uri: reply-done-and-delete-the-email
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - definition-of-done
   - dones-do-you-include-useful-details-in-your-done-email
@@ -33,9 +33,9 @@ Read the "[Definition of Done](/definition-of-done)" for more information about 
 
 ### Only say "Done" when the work is completed
 
-* [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
-* If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
-* For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
+- [Ensure your changes are live](/dones-do-your-dones-include-a-url/#ensure-your-changes-are-live) when sending a "Done"
+- If you have added the email to your backlog or to-do list, then say "<mark>Added to backlog – URL is XXX</mark>". You should still reply "Done" when you complete the task
+- For tasks that will take time to be completely done (E.g. Producing a long video), you may send a "work in progress" email. This way you avoid giving the perception that no action was in relation to the task. You should still reply "Done" when you complete the task
 
 ### When it's ok to reply before the task is done
 
@@ -47,28 +47,28 @@ Use this approach to prevent misunderstandings and to make sure the requester is
 
 ### Alternatives to classic "Done" emails
 
-* If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
-* If you don't agree with the task or are unable to complete the task:
+- If the task is already done, then reply "<mark>Already done - the reason is XXX</mark>"
+- If you don't agree with the task or are unable to complete the task:
 
   1. [Seek clarification](/do-you-seek-clarification-via-the-telephone-first)
   2. If you still don't agree or the task is still blocked, reply "<mark>Not done - [as per our conversation](/as-per-our-conversation-emails), the reason is XXX</mark>"
 
-* If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
-* If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
+- If there are multiple tasks (some "Done" and some "Not Done"), reply to each item **individually** "<mark>Done</mark>" or "<mark>Not Done</mark>"
+- If the task can't be 100% completed at the time, you may reply "<mark>Partially done - the reason is {{ REASON }}</mark>"
   **Note:** If you expect the 'done' to happen soon, wait to send the email instead of using "Partially done"
-* If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
-* If there is a better solution for the requested task:
+- If the issue has been resolved without any manual intervention, you can reply with <mark>No action required - {{ REASON }}</mark>. e.g. A service was down because of a third-party outage.
+- If there is a better solution for the requested task:
 
   1. Have a conversation first
   2. Reply <mark>Done differently - {{ SOLUTION AND EXPLANATION }}</mark>.
 
-* If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
+- If you have already sent a "Done", then the client asks you to revert the change, reply <mark>"Undone"</mark>
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Jason |
+|          |                                                    |
+| -------- | -------------------------------------------------- |
+| To:      | Jason                                              |
 | Subject: | RE: Northwind - Include one more field to the form |
 
 ::: email-content
@@ -97,9 +97,9 @@ It is important that you clearly reply to each of the multiple tasks.
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Jason |
+|          |                                               |
+| -------- | --------------------------------------------- |
+| To:      | Jason                                         |
 | Subject: | Northwind website - Update logo + add a photo |
 
 ::: email-content
@@ -119,9 +119,9 @@ Bob
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
+|          |                                                   |
+| -------- | ------------------------------------------------- |
+| To:      | Bob                                               |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
 ::: email-content
@@ -139,9 +139,9 @@ Figure: Bad example – It is not clear which tasks have been done and which hav
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
+|          |                                                   |
+| -------- | ------------------------------------------------- |
+| To:      | Bob                                               |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
 ::: email-content
@@ -173,9 +173,9 @@ Figure: Bad example – It is clear which tasks have been done, however, [replyi
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
+|          |                                                   |
+| -------- | ------------------------------------------------- |
+| To:      | Bob                                               |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
 ::: email-content
@@ -219,9 +219,9 @@ Make sure all tasks have been done and others can see the history of the request
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
+|          |                                                   |
+| -------- | ------------------------------------------------- |
+| To:      | Bob                                               |
 | Subject: | RE: Northwind website - Update logo + add a photo |
 
 ::: email-content
@@ -246,11 +246,11 @@ Ideally, [all PBI's should be done in less than 2 days](/create-PBIs-under-2-day
 
 If you get multiple emails or tasks, don't consolidate them. **Reply to each email individually** as you go. This way the person requesting the work hasn't [lost the email history](/do-you-keep-the-history-of-an-email) and can understand what the work is done relates to. It also means that testing and/or feedback can come in as soon as possible after the 1st completed task.
 
-1. **Keeps conversations focused** – Each response stays relevant to a single topic, making it easier to track  
-2. **Prevents confusion and improves task management** – Keeping topics in separate email threads makes it easier to follow discussions, track progress, and ensure no details are overlooked  
-3. **Easier to search and reference later** – Emails stay categorized by topic, making it simpler to find needed information  
-4. **Avoids missed details** – When responding to multiple emails in one, some points might get overlooked  
-5. **Respects the sender’s structure** – If they separated topics into different emails, keeping responses separate follows their logic  
+1. **Keeps conversations focused** – Each response stays relevant to a single topic, making it easier to track
+2. **Prevents confusion and improves task management** – Keeping topics in separate email threads makes it easier to follow discussions, track progress, and ensure no details are overlooked
+3. **Easier to search and reference later** – Emails stay categorized by topic, making it simpler to find needed information
+4. **Avoids missed details** – When responding to multiple emails in one, some points might get overlooked
+5. **Respects the sender’s structure** – If they separated topics into different emails, keeping responses separate follows their logic
 
 ### Tip #6: Delete "Done" emails - Aim for 0 inbox
 
@@ -266,9 +266,9 @@ When it fits, choose text over images or screenshots! This way, it's simpler to 
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
+|          |                                     |
+| -------- | ----------------------------------- |
+| To:      | Bob                                 |
 | Subject: | RE: Northwind website - find orders |
 
 ::: email-content

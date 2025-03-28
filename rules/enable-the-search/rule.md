@@ -5,7 +5,7 @@ title: Do you enable the search in OWA?
 uri: enable-the-search
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:40:00.000Z
 guid: 0e902951-0ab8-41e2-acfa-8230ddea5ac4
 ---

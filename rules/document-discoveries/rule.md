@@ -25,7 +25,7 @@ That's why the discussion section of a work item rocks!
 <!--endintro-->
 
 `youtube: 2Ff6NQrWMsY`
-**Video: Documenting decisions and discoveries with [Piers Sinclair](https://ssw.com.au/people/piers-sinclair) (3 min)**
+**Video: Documenting decisions and discoveries with [Piers Sinclair](https://ww.ssw.com.au/people/piers-sinclair) (3 min)**
 
 ### What should be documented?
 
@@ -35,15 +35,15 @@ Some examples include:
 
 **Discoveries**
 
-* A developer finds a blocking issue hindering the Work Item's progress
-* A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
-* A tester notices a problem with a feature
+- A developer finds a blocking issue hindering the Work Item's progress
+- A developer has investigated Application Insights, they can't see any errors, and they don't think there is a problem with the HTTP calls. So, Application Insights is no longer a priority for investigation
+- A tester notices a problem with a feature
 
 **Decisions**
 
-* The Product Owner has asked for changes to the functionality
-* A developer gets approval to implement a new UI design
-* A tester has tested and approved the feature in staging
+- The Product Owner has asked for changes to the functionality
+- A developer gets approval to implement a new UI design
+- A tester has tested and approved the feature in staging
 
 #### What about project-wide changes?
 
@@ -53,11 +53,11 @@ If you're documenting something that **affects the project at a high level**, ma
 
 Ideally, you want to update an item as soon as a critical decision or discovery has been made. However, updating the Work Item at the following stages is particularly important.
 
-* Before a call
-* Before a Sprint Review
-* After a significant event
-* Before switching focus
-* Before going home
+- Before a call
+- Before a Sprint Review
+- After a significant event
+- Before switching focus
+- Before going home
 
 Keeping Work Items as up-to-date as possible ensures that the information is recorded while fresh in your mind, isn't forgotten about and has a strong audit trail. It also keeps the people invested in the Work Item informed of progress.
 
@@ -94,7 +94,7 @@ Provides proof of approval
 :::
 
 ::: bad
-![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png "Recording in Notepad")
+![Figure: Bad example - Decision is recorded in notepad](./images/RecordingInNotepad.png 'Recording in Notepad')
 :::
 
 ::: email-template
@@ -116,13 +116,13 @@ Figure: Bad example - Sending an email to confirm updates to the work item
 :::
 
 ::: good
-![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png "Azure Work Item")
+![Figure: Good example - Decision is documented in the work item](./images/document-discoveries-good-example.png 'Azure Work Item')
 :::
 
 ::: bad
-![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](./images/Bad-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
+![Figure: Bad example - Moving a PBI to the backlog without documenting the decision](./images/Bad-example-Adding-and-Item-to-the-backlog.jpg 'PBI Backlog')
 :::
 
 ::: good
-![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg "PBI Backlog")
+![Figure: Good example - Moving a PBI to the backlog and documenting the decision](./images/Good-example-Adding-and-Item-to-the-backlog.jpg 'PBI Backlog')
 :::

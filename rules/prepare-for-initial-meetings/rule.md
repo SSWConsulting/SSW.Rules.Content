@@ -5,9 +5,9 @@ seoDescription: Prepare for initial meetings by familiarizing yourself with clie
 uri: prepare-for-initial-meetings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson/
 related: []
@@ -26,15 +26,15 @@ Be prepared for the initial meeting because first impressions are the most impor
 
 Preparing for the meeting includes:
 
-* **Punctuality** - Turning up early!
-* **Familiarity** - Ensuring the sales staff attending the meeting are familiar with the relevant technologies
-* **Client research** - Reviewing the client's website or other available information, taking special note of the nature of the client's business. It's also useful to remember the office locations (e.g., one office, nationwide, or international) and the year of commencement of business
-* **Specifications** - Reviewing any specification documents the client may have provided
-* **Presentation** - Having the Standard Sales Presentation. Remember, clients don’t want to feel like they're your first project, but they also aren't interested in hearing about all your big clients. They prefer the focus to be on their business. Still, reference relevant past projects to demonstrate your competence.
-* **Initial call information** - Having all the information that was recorded during the [initial call](/be-prepared-for-inbound-calls)
-* **T&C** - A copy of the [Consulting Terms and Conditions](https://www.ssw.com.au/terms-and-conditions) may be useful for them to review when the meeting is concluded.
-* **Business cards** - Bring a fresh stack of up to date business cards, ready to share with new contacts. Or, even better, use [digital business cards](https://www.ssw.com.au/rules/business-cards-branding).
-* **Internet access** - In case you're onsite, make sure you can hotspot with your phone. In fact, it is preferred you do not connect to the client's network due to time and security issues
+- **Punctuality** - Turning up early!
+- **Familiarity** - Ensuring the sales staff attending the meeting are familiar with the relevant technologies
+- **Client research** - Reviewing the client's website or other available information, taking special note of the nature of the client's business. It's also useful to remember the office locations (e.g., one office, nationwide, or international) and the year of commencement of business
+- **Specifications** - Reviewing any specification documents the client may have provided
+- **Presentation** - Having the Standard Sales Presentation. Remember, clients don’t want to feel like they're your first project, but they also aren't interested in hearing about all your big clients. They prefer the focus to be on their business. Still, reference relevant past projects to demonstrate your competence.
+- **Initial call information** - Having all the information that was recorded during the [initial call](/be-prepared-for-inbound-calls)
+- **T&C** - A copy of the [Consulting Terms and Conditions](https://www.ssw.com.au/terms-and-conditions) may be useful for them to review when the meeting is concluded.
+- **Business cards** - Bring a fresh stack of up to date business cards, ready to share with new contacts. Or, even better, use [digital business cards](https://www.ssw.com.au/rules/business-cards-branding).
+- **Internet access** - In case you're onsite, make sure you can hotspot with your phone. In fact, it is preferred you do not connect to the client's network due to time and security issues
 
 ## **AI assistance**
 

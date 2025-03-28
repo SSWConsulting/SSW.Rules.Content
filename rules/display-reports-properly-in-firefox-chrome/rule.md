@@ -6,13 +6,12 @@ title: Do you know how to display reports properly in Firefox / Chrome (Reportin
 guid: ceec2c5c-fef2-42dd-ae29-a5ff9885020f
 uri: display-reports-properly-in-firefox-chrome
 created: 2024-09-16T09:14:00.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Sometimes users try to view SQL Server Reports in Firefox or Chrome Browser, it does not display at all or displays in a half screen.

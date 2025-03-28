@@ -5,9 +5,9 @@ title: Management - Do you use Just-In-Time speccing?
 uri: management-do-you-use-just-in-time-speccing
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related: []
 redirects:
   - management-do-you-spec-in-bite-sized-pieces

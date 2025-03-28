@@ -8,7 +8,7 @@ uri: use-lowercase-after-a-dash
 created: 2020-07-28T21:54:27.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-to-use-lowercase-after

@@ -5,7 +5,7 @@ title: Do you call enough people?
 uri: call-enough-people
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-call-enough-people

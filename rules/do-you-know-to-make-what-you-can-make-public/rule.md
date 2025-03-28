@@ -8,9 +8,9 @@ uri: do-you-know-to-make-what-you-can-make-public
 created: 2010-09-08T15:43:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related:
   - do-you-know-how-to-document-what-you-are-doing
 redirects: []

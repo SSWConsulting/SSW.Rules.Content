@@ -5,7 +5,7 @@ title: Outage - Do you have an unplanned outage process?
 uri: unplanned-outage-process
 authors:
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Square.jpg

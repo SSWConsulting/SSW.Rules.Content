@@ -8,7 +8,7 @@ uri: do-you-verify-that-report-server-authentication-settings-allow-a-wide-range
 created: 2017-11-16T22:04:23.0000000Z
 authors:
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: https://ww.ssw.com.au/people/greg-harris
 related: []
 redirects: []
 ---

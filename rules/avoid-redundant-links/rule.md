@@ -8,9 +8,9 @@ uri: avoid-redundant-links
 created: 2015-02-16T02:15:22.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - less-is-more
   - do-you-avoid-linking-a-page-to-itself
@@ -21,9 +21,9 @@ redirects:
 
 Often a page has duplicated links pointing to the same page - all fairly close to each other, like in 1 or 2 paragraphs. It is a good idea to **avoid** having multiple links to the exact same page section, because they:
 
-* Distract users from reading the main text content
-* Confuse users as they have to decide which link to click first (and then end up to the same place anyway)
-* Annoy users when they are repeatedly directed to the same page
+- Distract users from reading the main text content
+- Confuse users as they have to decide which link to click first (and then end up to the same place anyway)
+- Annoy users when they are repeatedly directed to the same page
 
 <!--endintro-->
 

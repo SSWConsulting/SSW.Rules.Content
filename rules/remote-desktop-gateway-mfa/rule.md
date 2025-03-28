@@ -1,6 +1,6 @@
 ---
 type: rule
-tips: ""
+tips: ''
 title: Security - Do you protect your Remote Desktop connections with Multi
   Factor Authentication (MFA)?
 seoDescription: Protecting your Remote Desktop connections is crucial in today's
@@ -12,11 +12,12 @@ seoDescription: Protecting your Remote Desktop connections is crucial in today's
 uri: remote-desktop-gateway-mfa
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 created: 2024-07-28T23:54:43.601Z
 guid: bc8ab9ff-4cae-457b-852e-b61660a79801
 ---
+
 Protecting your Remote Desktop connections is crucial in today's cybersecurity landscape. One effective way to enhance security is by using Azure MFA (Multi-Factor Authentication) in conjunction with the Azure MFA NPS (Network Policy Server) extension. This setup ensures that even if an attacker obtains a user's credentials, they still need a second form of authentication to gain access, significantly reducing the risk of unauthorized access.
 
 `youtube: https://www.youtube.com/embed/qV9wddunpCY?si=RR0P8UBJ0wnYSXqn`
@@ -24,8 +25,8 @@ Protecting your Remote Desktop connections is crucial in today's cybersecurity l
 
 ##### Why Use Azure MFA to Protect Servers?
 
-* Enhanced Security: By adding an additional layer of authentication, you mitigate the risk of credential theft.
-* Compliance: Many regulatory frameworks require multi-factor authentication to protect sensitive data.
+- Enhanced Security: By adding an additional layer of authentication, you mitigate the risk of credential theft.
+- Compliance: Many regulatory frameworks require multi-factor authentication to protect sensitive data.
 
 <!--endintro-->
 

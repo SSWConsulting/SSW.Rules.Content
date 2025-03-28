@@ -1,18 +1,18 @@
 ---
 seoDescription: Use professional email signatures to add branding and professionalism to your external communications.
 type: rule
-archivedreason: Merged to [https://ssw.com.au/rules/great-email-signatures](/rules/great-email-signatures)
+archivedreason: Merged to [https://ww.ssw.com.au/rules/great-email-signatures](/rules/great-email-signatures)
 title: Do you use email signatures for external emails?
 guid: 5a602a9c-e24b-4b15-9782-f45c87c70f80
 uri: do-you-use-email-signatures
 created: 2009-03-26T03:20:39.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-use-email-signatures-for-external-emails

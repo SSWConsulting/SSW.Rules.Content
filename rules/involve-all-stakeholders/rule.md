@@ -5,13 +5,13 @@ title: Do you make sure that all stakeholders are involved in the Specification 
 uri: involve-all-stakeholders
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: https://ww.ssw.com.au/people/jack-pettit
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 redirects:
   - relevant-stakeholders-participate
 created: 2022-04-21T02:36:16.736Z

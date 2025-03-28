@@ -6,13 +6,12 @@ title: Internationalization - Do you pay attention to the date format of your pa
 guid: 398639ca-4003-49d6-9b15-33229a2bf946
 uri: date-format-of-parameters
 created: 2024-08-02T11:22:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 The format in parameter bar is always decided by the Language settings of client browser regardless of the Language property of your report.

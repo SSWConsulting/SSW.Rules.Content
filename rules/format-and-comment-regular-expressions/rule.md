@@ -5,10 +5,9 @@ title: Do you format and comment your regular expressions?
 uri: format-and-comment-regular-expressions
 authors:
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/alumni/igor-goldobin
+    url: https://ww.ssw.com.au/people/alumni/igor-goldobin
 created: 2024-03-09T01:22:57.845Z
 guid: d9f9c7e3-0687-4760-9129-a7178d2f45f6
-
 ---
 
 Regular expressions are a very powerful tool for pattern matching, but a complicated regex can be very difficult for a human to read and to comprehend. That is why, like any good code, a good regular expression must be well formatted and documented.
@@ -17,11 +16,11 @@ Regular expressions are a very powerful tool for pattern matching, but a complic
 
 Here are some guidelines when formatting and documenting your regex:
 
-* Keep each line under 80 characters, horizontal scrolling reduces readability
-* Break long patterns into multiple lines, usually after a space or a line break
-* Indent bracers to help think in the right scope
-* Format complicated OR patterns into multiple blocks like a case statement
-* Comment your regex on what it does, don't just translate it into English
+- Keep each line under 80 characters, horizontal scrolling reduces readability
+- Break long patterns into multiple lines, usually after a space or a line break
+- Indent bracers to help think in the right scope
+- Format complicated OR patterns into multiple blocks like a case statement
+- Comment your regex on what it does, don't just translate it into English
 
 ```regex
 

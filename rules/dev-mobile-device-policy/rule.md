@@ -5,7 +5,7 @@ title: Do you have a device policy for your mobile dev teams?
 uri: dev-mobile-device-policy
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 created: 2023-04-21T04:57:29.000Z
 archivedreason: null

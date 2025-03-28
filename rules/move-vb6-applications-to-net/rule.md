@@ -5,7 +5,7 @@ title: Do you know why you should move VB6 applications to .NET?
 uri: move-vb6-applications-to-net
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:11:00.000Z
 guid: 29a93435-13e1-48cf-a7fe-a4bff028e356
 redirects:

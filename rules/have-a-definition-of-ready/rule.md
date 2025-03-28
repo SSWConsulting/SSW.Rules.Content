@@ -5,13 +5,13 @@ title: Do you have a Definition of Ready?
 uri: have-a-definition-of-ready
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - backlog-refinement-meeting
   - 3-steps-to-a-pbi
@@ -32,10 +32,10 @@ Just like how the team has a **[Definition of Done](/definition-of-done)** as a 
 
 A recommended “Definition of Ready” would have:
 
-* Enough detail for the team to action (usually via good **[Acceptance Criteria](/acceptance-criteria)**)
-* **[Business Value](/do-you-estimate-business-value)** assigned
-* **Effort** assigned
-* **Approved** state
+- Enough detail for the team to action (usually via good **[Acceptance Criteria](/acceptance-criteria)**)
+- **[Business Value](/do-you-estimate-business-value)** assigned
+- **Effort** assigned
+- **Approved** state
 
 ::: good
 ![Figure: PBI that meet the DoR](PBI-with-DOR.png)
@@ -46,7 +46,7 @@ When the PBI is approved, [ask for a signature (or simply an initial) as a prove
 ::: info
 **Warning:** PBIs might be accepted into a Sprint even if they do **not** meet the DoR. When that happens, there will be **more risk** and **uncertainty** around the PBI. It is highly discouraged for not-ready PBIs to be included in a Sprint, as they can hinder progress and disrupt the team's workflow.
 :::
-  
+
 ### INVEST principle
 
 The acronym INVEST serves as a helpful reminder of a widely accepted set of criteria, or checklist, used to evaluate the quality of a PBI. If a story does not meet one of these criteria, the team may need to revise or even rewrite it for better clarity and effectiveness.

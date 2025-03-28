@@ -7,14 +7,12 @@ guid: 27ca638b-9ad5-4056-bae8-206b787a0bd5
 uri: use-right-site-search-for-your-website
 created: 2023-09-14T14:38:37.0000000Z
 authors:
-- title: Chloe Lin
-  url: https://ssw.com.au/people/chloe-lin
+  - title: Chloe Lin
+    url: https://ww.ssw.com.au/people/chloe-lin
 related: []
 redirects:
-- do-you-use-right-site-search-for-your-website
-
+  - do-you-use-right-site-search-for-your-website
 ---
-
 
 When it comes to site search, managing various search requirements can be challenging. Using the appropriate search tools can greatly improve the overall search experience. Here are some options to help you create an effective search feature for your website.
 
@@ -29,7 +27,7 @@ When it comes to site search, managing various search requirements can be challe
 ✅ Excellent performance: Algolia is known for its fast and efficient search performance  
 ✅ Developer-Friendly APIs and Rich Features  
 ✅ Provides a free plan suitable for small projects  
-✅ Hosted Search: Algolia is a fully hosted search solution, eliminating the need for server setup and maintenance  
+✅ Hosted Search: Algolia is a fully hosted search solution, eliminating the need for server setup and maintenance
 
 ❌ Cost can become a concern at scale due to pricing model  
 ❌ Closed-source
@@ -53,14 +51,14 @@ When it comes to site search, managing various search requirements can be challe
 `youtube: https://www.youtube.com/watch?v=0h7u6we_8sg&t=463s`  
 **Video: Next Generation Search Engine with Meilisearch (15 min)**
 
-[Meilisearch](https://www.meilisearch.com/) is a search engine that focuses on providing a simple and easy-to-use search solution with features like prefix searching, typo tolerance, and fast response times out of the box. It's designed to be developer-friendly and can be quick to set up for basic search needs.  
+[Meilisearch](https://www.meilisearch.com/) is a search engine that focuses on providing a simple and easy-to-use search solution with features like prefix searching, typo tolerance, and fast response times out of the box. It's designed to be developer-friendly and can be quick to set up for basic search needs.
 
 ✅ Easy to use and quick to setup for basic search needs  
 ✅ Open source and free version available (self-hosting required)
-✅ Good performance and built-in typo tolerance for user-friendly searching  
+✅ Good performance and built-in typo tolerance for user-friendly searching
 
 ❌ May have limitations in handling very large datasets or extremely complex use cases  
-❌ Less suitable for complex search requirements  
+❌ Less suitable for complex search requirements
 
 ### ElasticSearch
 
@@ -73,7 +71,7 @@ When it comes to site search, managing various search requirements can be challe
 ✅ Open-Source Version Available (self-hosting required)
 
 ❌ Requires more effort and expertise to set up and configure  
-❌ Free version requires self-hosting, may incur additional operational costs  
+❌ Free version requires self-hosting, may incur additional operational costs
 
 ### Conclusion
 

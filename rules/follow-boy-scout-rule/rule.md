@@ -5,7 +5,7 @@ title: Do you follow the boy scout rule?
 uri: follow-boy-scout-rule
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-follow-boy-scout-rule

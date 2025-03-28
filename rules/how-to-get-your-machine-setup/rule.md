@@ -5,9 +5,9 @@ title: Tools - Do you know the best IDE for Angular and React?
 uri: how-to-get-your-machine-setup
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects:
   - the-best-IDE-for-Angular

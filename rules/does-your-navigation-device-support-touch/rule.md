@@ -8,7 +8,7 @@ uri: does-your-navigation-device-support-touch
 created: 2013-03-13T20:17:44.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

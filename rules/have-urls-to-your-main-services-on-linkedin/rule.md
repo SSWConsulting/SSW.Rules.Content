@@ -5,9 +5,9 @@ title: LinkedIn - Do you have links to your main services on your profile?
 uri: have-urls-to-your-main-services-on-linkedin
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - linkedin-do-you-have-links-to-your-main-services-on-your-profile

@@ -8,7 +8,7 @@ uri: when-to-use-reporting-services
 created: 2013-07-02T08:25:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-when-to-use-reporting-services

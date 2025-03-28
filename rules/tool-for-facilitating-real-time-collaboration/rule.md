@@ -5,7 +5,7 @@ title: Do you know the best tool for facilitating real-time collaboration?
 uri: tool-for-facilitating-real-time-collaboration
 authors:
   - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
+    url: https://ww.ssw.com.au/people/aman-kumar
 related:
   - rules-to-better-microsoft-teams
   - do-you-know-you-should-write-notes-when-an-activity-is-going

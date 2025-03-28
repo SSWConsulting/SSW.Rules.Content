@@ -8,7 +8,7 @@ uri: do-you-respond-to-blogs-and-forums-with-the-standard-footer
 created: 2012-09-25T18:03:27.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - great-email-signatures
 redirects:

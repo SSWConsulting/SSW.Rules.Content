@@ -7,13 +7,12 @@ guid: 31dec000-fc6c-4e3b-a224-6e7840dd75ac
 uri: do-you-create-friendly-short-urls
 created: 2010-06-29T21:44:06.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
-
 ---
 
 When you create short URLs, it is worth considering exactly why you are shortening it.

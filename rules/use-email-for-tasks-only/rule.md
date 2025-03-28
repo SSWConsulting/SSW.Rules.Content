@@ -5,9 +5,9 @@ title: Do you send emails for tasks only?
 uri: use-email-for-tasks-only
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - dones-is-your-inbox-a-task-list-only
   - use-quiet-hours-in-teams
@@ -23,23 +23,24 @@ Email is a very powerful business tool. The main problem, however, is that for m
 
 <!--endintro-->
 
-* Send emails that contain clear tasks, not banter
-* Don't send emails for chatting
-* If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “[As per our conversation...](/as-per-our-conversation-emails)” Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
-* If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
-* If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
-* If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
+- Send emails that contain clear tasks, not banter
+- Don't send emails for chatting
+- If an email you receive is not clear, phone the sender and ask for clarification, then document it in a follow-up email “[As per our conversation...](/as-per-our-conversation-emails)” Too many people reply by email asking for more information, which wastes time and does not guarantee a response.
+- If you speak to them, follow this rule: [Do you seek clarification via the telephone first?](/do-you-seek-clarification-via-the-telephone-first)
+- If you can't get through, follow this rule: [Do you chase your Product Owner before he has to chase you?](/chase-the-product-owner-for-clarification)
+- If you are attempting to contact this person out of business hours, consider waiting until the next day, or starting your email by mentioning why you are not following this rule e.g. at the top of your email writing:\
   "I am not calling you right now as it is out of business hours..."
 
 Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| From: | Tim |
-| To: | Mark |
+|          |                    |
+| -------- | ------------------ |
+| From:    | Tim                |
+| To:      | Mark               |
 | Subject: | What do you think? |
+
 ::: email-content
 
 ### Hi Mark
@@ -56,11 +57,12 @@ Figure: Bad example - A bad email is one that gives no clear action items and wi
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| From: | Tim |
-| To: | Mark |
+|          |                        |
+| -------- | ---------------------- |
+| From:    | Tim                    |
+| To:      | Mark                   |
 | Subject: | Improve menu - Options |
+
 ::: email-content
 
 ### Hi Mark

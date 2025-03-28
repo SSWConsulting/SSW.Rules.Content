@@ -7,13 +7,13 @@ seoDescription: Enhance transparency and inclusivity by recording summaries of
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit/
+    url: https://ww.ssw.com.au/people/jack-pettit/
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer/
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer/
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell/
+    url: https://ww.ssw.com.au/people/landon-maxwell/
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 related:
   - tech-check
   - record-a-quick-and-dirty-done-video
@@ -29,10 +29,10 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 ## Why record a summary of the Sprint Meeting?
 
-* **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present.
-* **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity.
-* **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
-* **Community:** Allows the community at large to see what is happening on a product and provide feedback.
+- **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present.
+- **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity.
+- **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
+- **Community:** Allows the community at large to see what is happening on a product and provide feedback.
 
 ## Record the Sprint Meeting summary
 
@@ -50,7 +50,7 @@ If you're looking for useful tips on how to make great videos, please see this r
 
 If you need to make edits on your recording, please see this rule: [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/)
 
-Note: Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points… it gives *some* window into the team, but not everything.
+Note: Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points… it gives _some_ window into the team, but not everything.
 
 ## Share the Sprint Meeting summary recording
 
@@ -80,7 +80,7 @@ Join us for {{ TEAM NAME }}'s Sprint {{ OLD NUMBER }} Review + Retro and Sprint 
 {{ MIN }}:{{ SEC }} Sprint Review  
 {{ MIN }}:{{ SEC }} Sprint Retro  
 {{ MIN }}:{{ SEC }} Sprint Planning  
-{{ MIN }}:{{ SEC }} Outro  
+{{ MIN }}:{{ SEC }} Outro
 
 🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
@@ -98,11 +98,11 @@ Below is a good example of how the title and description should look like on You
 ::: greybox
 Don't let the time you spent creating the perfect video go to waste — make sure people actually watch it! For those required to view the video, send them the following task:
 
-  1. Watch the video: {{ YOUTUBE URL }}
-  2. Leave a like
-  3. Rate it out of 10
-  4. Leave a brief comment on YouTube
-:::
+1. Watch the video: {{ YOUTUBE URL }}
+2. Leave a like
+3. Rate it out of 10
+4. Leave a brief comment on YouTube
+   :::
 
 #### ✅ Good Example of a Sprint Meeting recording
 

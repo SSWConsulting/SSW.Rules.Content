@@ -5,7 +5,7 @@ title: Do you know the best way of managing recurring tasks?
 uri: do-you-know-the-best-way-of-managing-recurring-tasks
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ash Anil
     url: https://www.ssw.com.au/people/ash-anil
 related: []

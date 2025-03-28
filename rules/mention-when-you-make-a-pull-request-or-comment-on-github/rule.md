@@ -1,16 +1,16 @@
 ---
 seoDescription: Mention someone's name using a @mention when making a pull request or commenting on GitHub for effective communication and collaboration.
 type: rule
-archivedreason: Rule has been combined with [https://ssw.com.au/rules/when-you-use-mentions-in-a-pbi](/rules/when-you-use-mentions-in-a-pbi)
+archivedreason: Rule has been combined with [https://ww.ssw.com.au/rules/when-you-use-mentions-in-a-pbi](/rules/when-you-use-mentions-in-a-pbi)
 title: Do you know to mention someone with a @mention when you make a pull request or comment on GitHub?
 guid: 9bba0552-6a78-4bd7-a9fc-b72f0443f083
 uri: mention-when-you-make-a-pull-request-or-comment-on-github
 created: 2016-12-14T18:21:03.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
 related: []
 redirects:
   - do-you-know-to-mention-someone-with-a-mention-when-you-make-a-pull-request-or-comment-on-github

@@ -5,7 +5,7 @@ title: Prior - Is your first slide 'Pre-setup'?
 uri: prior-is-your-first-slide-pre-setup
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-06-08T08:19:23.000Z

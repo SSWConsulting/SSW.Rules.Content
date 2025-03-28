@@ -8,7 +8,7 @@ uri: setup-web-application-for-internal-and-external-access
 created: 2016-05-20T06:15:03.0000000Z
 authors:
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
 related: []
 redirects:
   - do-you-setup-web-application-for-internal-and-external-access

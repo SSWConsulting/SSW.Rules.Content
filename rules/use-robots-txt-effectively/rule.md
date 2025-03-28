@@ -5,7 +5,7 @@ title: Technical - Do you use Robots.txt file effectively?
 uri: use-robots-txt-effectively
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-your-robots-txt-file-effectively

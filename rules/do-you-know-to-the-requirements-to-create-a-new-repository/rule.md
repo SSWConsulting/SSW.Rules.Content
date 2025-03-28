@@ -8,7 +8,7 @@ uri: do-you-know-to-the-requirements-to-create-a-new-repository
 created: 2015-02-05T18:34:17.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 ---

@@ -5,7 +5,7 @@ title: Do you know the benefits of using source control?
 uri: do-you-know-the-benefits-of-using-source-control
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Matt Wicks
@@ -31,8 +31,8 @@ It also helps you to do root cause analysis by finding out who made the change. 
 ::: greybox
 **Using VS Code? There are 2 awesome extensions to see history:**
 
-* [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-* [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
+- [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
+- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
 
 :::
 

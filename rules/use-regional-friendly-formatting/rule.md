@@ -6,13 +6,12 @@ title: Internationalization - Do you use regional friendly formatting?
 guid: 678c9572-805b-470a-ab25-ba4e77fd2ea9
 uri: use-regional-friendly-formatting
 created: 2024-08-02T14:58:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Currency formatting is not universal - therefore, it's crucial to adapt the formatting to match regional conventions.

@@ -8,9 +8,9 @@ uri: use-configuration-files-for-powershell-scripts
 created: 2020-10-22T18:25:28.0000000Z
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
 related: []
 redirects:
   - do-you-use-configuration-files-for-powershell-scripts

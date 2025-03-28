@@ -8,7 +8,7 @@ uri: the-4-cs-of-marketing
 created: 2020-05-26T23:42:19.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-know-the-4-cs-of-marketing

@@ -8,9 +8,9 @@ uri: do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
 created: 2014-09-12T18:31:20.0000000Z
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-dog-(aka-digital-on-screen-graphic)-on-your-videos
