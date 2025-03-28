@@ -1,17 +1,18 @@
 ---
-seoDescription: Discover how to find broken links on your website and improve user experience with these tips and tools.
 type: rule
-archivedreason:
 title: Do you know how to find broken links?
-guid: 744a4e0e-cb34-4af9-bc11-2434a5fabc01
+seoDescription: Discover how to find broken links on your website and improve
+  user experience with these tips and tools.
 uri: how-to-find-broken-links
-created: 2016-11-28T19:04:17.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-find-broken-links
+created: 2016-11-28T19:04:17.000Z
+archivedreason: null
+guid: 744a4e0e-cb34-4af9-bc11-2434a5fabc01
 ---
 
 Often times, web pages are dynamic. Most link scanners are not capable of submitting form information. The trick is to allow a "door" for link scanner go through to scan a dynamic section of a site. A common technique is to hard code hidden link with a query string at the bottom of the page that allows the link scanner to follow into the simulated user input. See the following code for example:
@@ -37,3 +38,12 @@ It will return all the knowledge base articles in a paged format. The link scann
 We have a program called [SSW Link Auditor](https://sswlinkauditor.com/) to check for this rule.
 
 ![Figure: SSW Link Auditor automatically locate broken links](link-auditor-scan.jpg)
+
+
+
+
+
+
+
+
+
