@@ -29,9 +29,7 @@ Midjourney generates high-quality images via Discord (/imagine command) or its n
 * Offers subscription tiers with GPU hours and commercial usage options
 * Supports detailed prompts for customized images
 
-::: img-medium
-![Figure: "A red tree in a valley. Hi res" - by Midjourney 6.1](red-tree-midjourney2.png)
-:::
+![Figure: "A red tree in a valley. Hi res" - by Midjourney 6.1](midjourney.png)
 
 ## ChatGPT Image Generation (GPT-4o)
 
