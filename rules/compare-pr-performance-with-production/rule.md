@@ -32,11 +32,9 @@ A structured approach to performance comparison helps development teams and PR r
 - SEO (ensuring search engines can properly index the site)
 - Bundle Size & Unused Code (optimizing assets for faster loading)
 
-To integrate to your GitHub action you can use this repo
-
 ## Automating Lighthouse Comparison in PRs
 
-To prevent performance degradation, you can integrate Lighthouse into your GitHub Actions workflow. This enables automated comparison of the PR deployment with the current production site. A summary comment can be added to the PR, showing key performance differences, like the example below:
+You can integrate Lighthouse into your GitHub Actions workflow using [Lighthouse CI Action](https://github.com/treosh/lighthouse-ci-action). This enables automated comparison of the PR deployment with the current production site. A summary comment can be added to the PR, showing key performance differences, like the example below:
 
 ::: good  
 ![Figure: Lighthouse comparison summary is added to PR comments](pr-comparison-with-prod.png)
