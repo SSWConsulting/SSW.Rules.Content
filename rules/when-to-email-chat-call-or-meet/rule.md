@@ -15,7 +15,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - important-chats-should-be-in-an-email
   - if-communication-is-not-simple-call-the-person-instead-of-im
@@ -31,11 +31,11 @@ When deciding whether to send a chat message, call, or organize a meeting in Mic
 
 <!--endintro-->
 
-* **Urgency and importance** - If the matter is urgent or time-sensitive, it may be best to [initiate a call](/warn-then-call), allowing faster response times than email. If you can’t get hold of them, send a chat message with the prefix “❌ Blocked” to ensure the other person knows that you can’t proceed without them. On the other hand, if the matter is not urgent, sending an email may be sufficient
-* **Complexity** - If the issue or topic is complex and requires a more in-depth discussion or collaboration, it may be better to call or organize a meeting in Teams rather than relying on chat or email
-* **Number of people involved** - If there are multiple people involved, it may be better to organize a meeting, especially if a group discussion or decision-making process is necessary. Chat and email can be suitable for one-on-one discussions or when the number of people involved is small
-* **Availability and accessibility** - If you need to communicate with someone who is not currently available in Teams, you may need to send an email instead
-* **Task** - If there is a task that you need to be able to track and follow up, always send an email, since the transient nature of chats and calls make tasks easily forgotten
+- **Urgency and importance** - If the matter is urgent or time-sensitive, it may be best to [initiate a call](/warn-then-call), allowing faster response times than email. If you can’t get hold of them, send a chat message with the prefix “❌ Blocked” to ensure the other person knows that you can’t proceed without them. On the other hand, if the matter is not urgent, sending an email may be sufficient
+- **Complexity** - If the issue or topic is complex and requires a more in-depth discussion or collaboration, it may be better to call or organize a meeting in Teams rather than relying on chat or email
+- **Number of people involved** - If there are multiple people involved, it may be better to organize a meeting, especially if a group discussion or decision-making process is necessary. Chat and email can be suitable for one-on-one discussions or when the number of people involved is small
+- **Availability and accessibility** - If you need to communicate with someone who is not currently available in Teams, you may need to send an email instead
+- **Task** - If there is a task that you need to be able to track and follow up, always send an email, since the transient nature of chats and calls make tasks easily forgotten
 
 ::: greybox
 Hi Dave,
@@ -52,10 +52,10 @@ Hi Dave,
 ❌ Blocked - I need your approval to keep working on the Northwind Traders Ltd project.
 
 1. Please call me ASAP
-:::
-::: good
-Figure: Good example – The "❌ Blocked" makes it clear that this is urgent
-:::
+   :::
+   ::: good
+   Figure: Good example – The "❌ Blocked" makes it clear that this is urgent
+   :::
 
 ::: info
 This is similar to saying "❌ Blocked" in a [Daily Scrum](/methodology-daily-scrums).

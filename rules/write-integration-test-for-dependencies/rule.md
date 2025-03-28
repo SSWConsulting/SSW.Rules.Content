@@ -5,7 +5,7 @@ title: Do you write Integration Test for Dependencies - e.g. DLLs?
 uri: write-integration-test-for-dependencies
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-write-integration-test-for-dependencies-e-g-dlls

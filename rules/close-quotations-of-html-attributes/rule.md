@@ -5,7 +5,7 @@ title: Do you close quotations of all HTML attributes?
 uri: close-quotations-of-html-attributes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-remember-to-close-quotations-of-all-your-html-attributes
@@ -27,7 +27,7 @@ Figure: Bad code - Can you spot the missing quote? Code Auditor can
 :::
 
 ```html
-<div class="info">
+<div class="info"></div>
 ```
 
 ::: good

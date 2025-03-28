@@ -8,9 +8,9 @@ uri: do-you-resist-the-urge-to-spam-to-an-email-alias
 created: 2009-04-02T05:57:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
 ---

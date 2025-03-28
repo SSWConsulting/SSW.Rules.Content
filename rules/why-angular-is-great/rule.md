@@ -7,7 +7,7 @@ seoDescription: Angular is a robust web application framework for building
 uri: why-angular-is-great
 authors:
   - title: Matt Parker
-    url: https://ssw.com.au/people/matt-parker
+    url: https://ww.ssw.com.au/people/matt-parker
 related: []
 redirects: null
 created: 2024-07-09T14:13:53.000Z
@@ -61,4 +61,4 @@ Angular offers extensive documentation and a variety of learning resources, incl
 
 ### References
 
-* [Angular - A platform for building mobile and desktop web applications](https://angular.dev)
+- [Angular - A platform for building mobile and desktop web applications](https://angular.dev)

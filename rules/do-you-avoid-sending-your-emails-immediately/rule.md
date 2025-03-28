@@ -8,9 +8,9 @@ uri: do-you-avoid-sending-your-emails-immediately
 created: 2009-04-03T02:51:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
 ---

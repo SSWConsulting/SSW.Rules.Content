@@ -8,7 +8,7 @@ uri: do-not-allow-nulls-in-text-fields
 created: 2019-11-23T00:18:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - data-do-you-not-allow-nulls-in-text-fields
@@ -41,11 +41,11 @@ However, you should always be aware that Nulls and empty strings are totally dif
 
 **Not allowing Nulls will give you the following benefits:**
 
-* Don't have to enforce every text field with a CHECK constraint such as ([ContactName]&lt;&gt;'').
-* Make your query simpler, avoid extra checking in stored procedures. So you don't have to check for NULLs and empty strings in your WHERE clause.
-* SQL Server performs better when nulls are not being used.
-* Don't have to deal with the pain in the middle tier to explicitly check DBNull.Value, you can always use contactRow.ContactName == String.Empty. Database Nulls in the .NET framework are represented as DBNull.Value and it cannot implicitly typecast to ANY other type, so if you are allowing NULLs in ContactName field, the above comparing will raise an exception.
-* Avoid other nasty issues, a lot of controls in the .NET framework have real problems binding to DBNull.Value. So you don't have write custom controls to handle this small thing.
+- Don't have to enforce every text field with a CHECK constraint such as ([ContactName]&lt;&gt;'').
+- Make your query simpler, avoid extra checking in stored procedures. So you don't have to check for NULLs and empty strings in your WHERE clause.
+- SQL Server performs better when nulls are not being used.
+- Don't have to deal with the pain in the middle tier to explicitly check DBNull.Value, you can always use contactRow.ContactName == String.Empty. Database Nulls in the .NET framework are represented as DBNull.Value and it cannot implicitly typecast to ANY other type, so if you are allowing NULLs in ContactName field, the above comparing will raise an exception.
+- Avoid other nasty issues, a lot of controls in the .NET framework have real problems binding to DBNull.Value. So you don't have write custom controls to handle this small thing.
 
 For example, you have Address1 and Address2 in your database, a Null value in Address2 means you don't know what the Address2 is, but an empty string means you know there is no data for Address2. You have to use a checkbox on the UI to explicitly distinguish Null value and empty string:
 
@@ -53,8 +53,8 @@ For example, you have Address1 and Address2 in your database, a Null value in Ad
 
 Some people are not going to like this rule, but this is how it works in Oracle and Access:
 
-* In Oracle, empty strings are turned into Nulls (which is basically what this rule is doing). Empty strings per se are not supported in Oracle (This is not ANSI compliant).
-* And talking of legacy systems :-) be aware that using Access as a data editor is a "No-No". Access turns empty strings into a Null.
+- In Oracle, empty strings are turned into Nulls (which is basically what this rule is doing). Empty strings per se are not supported in Oracle (This is not ANSI compliant).
+- And talking of legacy systems :-) be aware that using Access as a data editor is a "No-No". Access turns empty strings into a Null.
 
 Finally, always listen to the client, Nulls have meaning over an empty string - there are exceptions where you might use them - but they are rare.
 

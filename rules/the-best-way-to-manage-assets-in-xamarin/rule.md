@@ -8,9 +8,9 @@ uri: the-best-way-to-manage-assets-in-xamarin
 created: 2020-07-17T18:26:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - do-you-know-the-best-way-to-manage-assets-in-xamarin

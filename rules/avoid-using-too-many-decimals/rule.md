@@ -5,11 +5,11 @@ title: Do you avoid using too many decimal places?
 uri: avoid-using-too-many-decimals
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 related:
   - less-is-more
   - single-focus-number

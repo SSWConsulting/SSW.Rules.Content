@@ -8,7 +8,7 @@ uri: do-you-have-a-consistent-naming-convention-for-each-machine
 created: 2014-09-03T19:12:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

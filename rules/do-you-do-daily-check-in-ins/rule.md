@@ -8,11 +8,11 @@ uri: do-you-do-daily-check-in-ins
 created: 2017-07-24T05:45:39.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-do-daily-check-ins

@@ -1,13 +1,13 @@
 ---
-seoDescription: "Discover how to document your decisions and processes effectively using rules or blog posts for better clarity and reusability."
+seoDescription: 'Discover how to document your decisions and processes effectively using rules or blog posts for better clarity and reusability.'
 type: rule
 title: Do you document what you are doing in rules/blog posts?
 uri: document-what-you-are-doing
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Camilla Rosa Silva
@@ -15,12 +15,11 @@ authors:
 related:
   - do-you-know-to-make-what-you-can-make-public
   - document-the-job
-redirects: 
+redirects:
   - do-you-know-how-to-document-what-you-are-doing
 created: 2010-09-08T16:16:33.000Z
 archivedreason: null
 guid: 844a5c0f-730f-4a7d-a01b-11bfd26e5358
-
 ---
 
 If you find yourself developing a decision process to make a choice, that process should be [documented as a standard](/document-the-job). If want to explain further how you did something to solve a specific problem, you should record that in a blog post.

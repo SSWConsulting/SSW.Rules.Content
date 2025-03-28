@@ -5,7 +5,7 @@ title: Do you build criteria by using a where clause?
 uri: build-criteria-by-using-a-where-clause
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-build-criteria-by-using-a-where-clause

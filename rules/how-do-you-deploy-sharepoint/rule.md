@@ -8,7 +8,7 @@ uri: how-do-you-deploy-sharepoint
 created: 2009-03-30T00:44:00.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects: []
 ---

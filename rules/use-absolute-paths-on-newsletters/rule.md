@@ -8,7 +8,7 @@ uri: use-absolute-paths-on-newsletters
 created: 2018-06-07T21:48:16.0000000Z
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - html-do-you-use-absolute-paths-for-newsletter-links-and-images
@@ -27,8 +27,8 @@ Figure: Bad example - Using relative paths for both link and image on a newslet
 :::
 
 ```html
-<a href="https://ssw.com.au/ssw/Company/ContactUs.aspx "
-  ><img src="https://ssw.com.au/SSW/images/SSWLogo.png"
+<a href="https://ww.ssw.com.au/ssw/Company/ContactUs.aspx "
+  ><img src="https://ww.ssw.com.au/SSW/images/SSWLogo.png"
 /></a>
 ```
 

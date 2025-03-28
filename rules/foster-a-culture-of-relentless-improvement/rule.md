@@ -5,9 +5,9 @@ title: Do you foster a culture of relentless improvement?
 uri: foster-a-culture-of-relentless-improvement
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-foster-a-culture-of-relentless-improvement

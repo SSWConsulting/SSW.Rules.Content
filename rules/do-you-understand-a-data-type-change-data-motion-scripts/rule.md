@@ -5,19 +5,19 @@ title: Do you understand a data type change = "Data Motion Scripts"?
 uri: do-you-understand-a-data-type-change-data-motion-scripts
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Thiago Passos
-    url: https://ssw.com.au/people/thiago-passos
+    url: https://ww.ssw.com.au/people/thiago-passos
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit
+    url: https://ww.ssw.com.au/people/jack-pettit
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - do-you-understand-a-data-type-change-＂data-motion-scripts＂
@@ -65,16 +65,16 @@ There are few options available to perform data type change correctly:
 
 1. **Use manual scripts.** All data type changes including data migration can be performed by writing scripts manualy. This way you have full control over the change. It is recommended to use:
 
-   * [DbUp](http://dbup.github.io/) to automate script deployment and keep track of all database changes.
+   - [DbUp](http://dbup.github.io/) to automate script deployment and keep track of all database changes.
 
 2. **Use Database Project.** As mentioned above, Visual Studio does not support data type changes out of the box and should not be used to perform this kind of task.
 3. **Use Entity Framework (EF) Code First Migrations.** If your application uses Entity Framework Code First, then it is strongly recommended to use Migrations feature.
 
 Using EF Code First Migrations is comparable to using one of the below combinations:
 
-* DBUp + [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.EF/)
-* [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx) (.dacpac files)
-* SQL Deploy
+- DBUp + [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.EF/)
+- [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx) (.dacpac files)
+- SQL Deploy
 
 ```csharp
 public partial class GenderToString : DbMigration

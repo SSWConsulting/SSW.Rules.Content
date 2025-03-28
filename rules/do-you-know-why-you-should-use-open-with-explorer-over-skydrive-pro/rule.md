@@ -8,9 +8,9 @@ uri: do-you-know-why-you-should-use-open-with-explorer-over-skydrive-pro
 created: 2013-08-12T20:29:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects:
   - do-you-know-why-you-should-use-＂open-with-explorer＂-over-skydrive-pro
@@ -20,8 +20,6 @@ redirects:
 Watch Adam Cogan explaining why you should use "Open with Explorer" over OneDrive (formerly called SkyDrive):
 
 `youtube: https://www.youtube.com/embed/Fa5mHT5zu1k`
-
-
 
 /\*\*\*\*\* Update on Jul 2018 \*\*\*\*\*\*/
 

@@ -5,10 +5,10 @@ title: Appointments - Do you know how to propose a new time?
 uri: use-propose-new-time
 authors:
   - title: Daniel Šmon
-    url: https://ssw.com.au/people/daniel-smon
+    url: https://ww.ssw.com.au/people/daniel-smon
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Daniel-Smon/Images/Daniel-Smon-Profile.jpg
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - appointments-–-do-you-use-propose-new-time

@@ -5,7 +5,7 @@ title: Do you suffix unit test classes with "Tests"?
 uri: suffix-unit-test-classes-with-tests
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-suffix-unit-test-classes-with-tests

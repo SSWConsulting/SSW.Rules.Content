@@ -5,7 +5,7 @@ title: Do you know TextAlign should be TopLeft or MiddleLeft?
 uri: textalign-should-be-topleft-or-middleleft
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:44:00.000Z
 guid: ef0c7b24-336b-4c8a-87ae-7b8ce4b6598f
 ---

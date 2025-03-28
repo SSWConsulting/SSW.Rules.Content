@@ -5,7 +5,7 @@ title: Do you make common controls with consistent widths?
 uri: make-common-controls-with-consistent-widths
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: abfaa422-644f-4b9f-afa0-9c0374e097b2
 ---
@@ -32,7 +32,7 @@ There are a few common controls we always use in our products. For example, Date
 ![Figure: Good example - Standard size for Add & Delete buttons](adddeletegood.gif)
 :::
 
-We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/Rules.aspx#CommonControl) to check for the following two rules:
+We have a program called [SSW Code Auditor](https://ww.ssw.com.au/ssw/CodeAuditor/Rules.aspx#CommonControl) to check for the following two rules:
 
 **Rule - C#/VB.NET UI- Button Height and Width - for Standard Button (75 x 23 pixels)**
 

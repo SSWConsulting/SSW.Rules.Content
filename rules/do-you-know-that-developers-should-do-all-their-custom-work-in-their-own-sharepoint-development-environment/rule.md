@@ -8,9 +8,9 @@ uri: do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sh
 created: 2009-04-20T09:00:40.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

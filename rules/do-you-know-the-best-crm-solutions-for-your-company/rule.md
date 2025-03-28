@@ -8,7 +8,7 @@ uri: do-you-know-the-best-crm-solutions-for-your-company
 created: 2009-08-25T01:45:37.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-know-how-to-keep-crm-opportunities-updated
   - do-you-use-dynamics-365-app-for-outlook
@@ -22,8 +22,8 @@ There are a lot of different CRM solutions on the market. We would never sugges
 
 The main choices for CRM solutions are:
 
-- [Salesforce](http://www.salesforce.com/crm/ "Salesforce")
-- [Microsoft CRM](https://www.ssw.com.au/ssw/Consulting/MicrosoftCRM.aspx "Microsoft CRM ")
+- [Salesforce](http://www.salesforce.com/crm/ 'Salesforce')
+- [Microsoft CRM](https://www.ssw.com.au/ssw/Consulting/MicrosoftCRM.aspx 'Microsoft CRM ')
 
 At SSW we implemented a lot of CRM services based on Microsoft CRM. The experience with this solution showed us high trust in using Microsoft CRM as a base for future business needs.
 

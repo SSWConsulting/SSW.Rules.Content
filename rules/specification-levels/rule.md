@@ -8,9 +8,9 @@ uri: specification-levels
 created: 2011-02-28T08:25:37.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - spec-do-you-know-what-is-the-relative-worth-of-your-customers-specifications-(there-are-5-levels)
@@ -39,11 +39,11 @@ This will read like a wish list with no details and many unanswered questions. H
 
 The details have been fleshed out and allow developers to write Functional and Technical Specifications.
 
-* We need a login page for northwind.com
-* Must match existing site look and feel
-* Username is already in the Users table in the ABC database (SQL Server)
-* Password should be at least 8 characters
-* .NET is already used for the existing site so that is what this should use of course
+- We need a login page for northwind.com
+- Must match existing site look and feel
+- Username is already in the Users table in the ABC database (SQL Server)
+- Password should be at least 8 characters
+- .NET is already used for the existing site so that is what this should use of course
 
 ![Figure: Detailed Requirements have more of the details you want](LoginInterface.jpg)
 
@@ -51,32 +51,32 @@ The details have been fleshed out and allow developers to write Functional and T
 
 This will include detailed mock-ups for the UI, use cases/user stories and might be at a level to allow for fixed price quoting on the project. Functional Specifications go into more detail about the user interface and interactions in the system.
 
-* We need a login page for northwind.com
-* Must match existing site look and feel
-* Users table must be defined and added to the ABC database (SQL Server 2008)
-* **Username consists of user first initial and first 7 characters of the last name**
-  * **For example Joe Jones -&gt; jjones**
-* Password should be at least 8 characters
-* Site uses .NET 4 and this interface must be added to existing project
-* This is the layout for the login interface
-* **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed**
+- We need a login page for northwind.com
+- Must match existing site look and feel
+- Users table must be defined and added to the ABC database (SQL Server 2008)
+- **Username consists of user first initial and first 7 characters of the last name**
+  - **For example Joe Jones -&gt; jjones**
+- Password should be at least 8 characters
+- Site uses .NET 4 and this interface must be added to existing project
+- This is the layout for the login interface
+- **A red asterisk (\*) should be displayed if a value is left blank and Submit is pressed**
 
 ### 5. Technical Specification
 
 This is the blueprint for the application. There should be no unanswered questions and should allow for a fixed-price quote.
 
-* We need a login page for northwind.com
-* Must match existing site look and feel
-* Users table must be defined and added to the ABC database (SQL Server 2008)
-* Username consists of user first initial and first 7 characters of the last name
-  * For example Joe Jones -&gt; jjones
-* Password should be at least 8 characters
-* Site uses .NET 4 and this interface must be added to existing project
-* Define the data model explicitly  
+- We need a login page for northwind.com
+- Must match existing site look and feel
+- Users table must be defined and added to the ABC database (SQL Server 2008)
+- Username consists of user first initial and first 7 characters of the last name
+  - For example Joe Jones -&gt; jjones
+- Password should be at least 8 characters
+- Site uses .NET 4 and this interface must be added to existing project
+- Define the data model explicitly  
   ![](Table.jpg)
-* Must work with IE7, IE8, IE9, and FF3
-* Must display correctly at 1024x768 resolution
-* Must support ANSI characters for Username and Password
-* Will not support mobile browsers
-* Will not be tested with localization (assumes en-us local on US versions of software)
-* SQL Membership provider will be leveraged
+- Must work with IE7, IE8, IE9, and FF3
+- Must display correctly at 1024x768 resolution
+- Must support ANSI characters for Username and Password
+- Will not support mobile browsers
+- Will not be tested with localization (assumes en-us local on US versions of software)
+- SQL Membership provider will be leveraged

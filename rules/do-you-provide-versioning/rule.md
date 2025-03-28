@@ -8,7 +8,7 @@ uri: do-you-provide-versioning
 created: 2014-07-17T21:34:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

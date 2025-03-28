@@ -5,7 +5,7 @@ title: Do you know the ASP.NET skills that do not translate (aka are different) 
 uri: do-you-know-the-asp-net-skills-that-do-not-translate-aka-different
 authors:
   - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
+    url: https://ww.ssw.com.au/people/jay-lin
 related: []
 redirects:
   - do-you-know-the-asp-net-skills-that-do-not-translate-(aka-different)

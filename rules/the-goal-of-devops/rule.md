@@ -8,9 +8,9 @@ uri: the-goal-of-devops
 created: 2016-03-07T17:04:30.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-what-the-goal-of-devops-is

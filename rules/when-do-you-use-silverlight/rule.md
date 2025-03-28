@@ -8,7 +8,7 @@ uri: when-do-you-use-silverlight
 created: 2011-06-22T04:51:27.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

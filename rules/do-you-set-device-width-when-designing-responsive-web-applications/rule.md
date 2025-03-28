@@ -5,9 +5,9 @@ title: Do you set device width when designing responsive web applications?
 uri: do-you-set-device-width-when-designing-responsive-web-applications
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - responsive-design
 redirects: []

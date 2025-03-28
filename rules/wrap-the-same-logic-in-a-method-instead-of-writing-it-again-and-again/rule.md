@@ -1,18 +1,17 @@
 ---
-seoDescription: "Follow the DRY principle by encapsulating repeated logic into reusable methods for cleaner, more efficient code."
+seoDescription: 'Follow the DRY principle by encapsulating repeated logic into reusable methods for cleaner, more efficient code.'
 type: rule
-archivedreason: 
+archivedreason:
 title: DRY - Do you wrap the same logic in a method instead of writing it repeatedly whenever it's used?
 guid: 68299342-ec35-4f73-a340-4fdf7eb2144d
 uri: wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again
 created: 2018-04-26T23:35:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again-whenever-its-used
-
+  - do-you-wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again-whenever-its-used
 ---
 
 Is your code DRY? Any logic that is used more than once, should be encapsulated in a method, and the method called wherever it is needed.
@@ -91,7 +90,7 @@ public class ErrorEmail
 }
 
 public class EmailHelper
-{ 
+{
     public static void SendEmail(string pFrom, string pTo, string pCC, string pSubject, string pBody, string pUser, string pPwd, string pDomain)
     {
         MailMessage sMessage = new MailMessage();
@@ -103,7 +102,7 @@ public class EmailHelper
         SmtpClient sSmtpClient = new SmtpClient();
         sSmtpClient.Credentials = new NetworkCredential(pUser, pPwd, pDomain);
         sSmtpClient.Send(sMessage);
-    } 
+    }
 }
 ```
 

@@ -8,11 +8,11 @@ uri: do-you-use-tweetdeck-to-read-twitter
 created: 2011-01-31T00:44:04.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Peter Gfader
-    url: https://ssw.com.au/people/peter-gfader
+    url: https://ww.ssw.com.au/people/peter-gfader
 related: []
 redirects: []
 ---

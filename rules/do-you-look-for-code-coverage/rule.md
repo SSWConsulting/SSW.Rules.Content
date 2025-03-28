@@ -5,13 +5,13 @@ title: Do you look for Code Coverage?
 uri: do-you-look-for-code-coverage
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - make-sure-that-the-test-can-be-failed
   - before-starting-do-you-follow-a-test-driven-process

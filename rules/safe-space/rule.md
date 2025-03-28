@@ -8,7 +8,7 @@ uri: safe-space
 created: 2018-03-14T19:35:24.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - catering-to-audience
 redirects:

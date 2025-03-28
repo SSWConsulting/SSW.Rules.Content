@@ -5,7 +5,7 @@ title: Do you reference the issue ID when writing a test to confirm a bugfix?
 uri: when-adding-a-unit-test-for-an-edge-case-the-naming-convention-should-be-the-issue-id
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-reference-the-issue-id-when-writing-a-test-to-confirm-a-bugfix

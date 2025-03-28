@@ -5,9 +5,9 @@ title: Do you know how to hand over a project?
 uri: hand-over-projects
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - hand-over-responsibilities
 redirects:

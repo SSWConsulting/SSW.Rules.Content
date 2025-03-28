@@ -8,11 +8,11 @@ uri: where-to-keep-your-design-files
 created: 2014-03-03T04:11:03.0000000Z
 authors:
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
+    url: https://ww.ssw.com.au/people/rebecca-liu
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: https://ww.ssw.com.au/people/ken-shi
 related:
   - software-for-product-design
   - hand-over-mockups-to-developers

@@ -5,9 +5,9 @@ title: Do you make sure the Primary Field is always the first column in a view?
 uri: make-sure-the-primary-field-is-always-the-first-column-in-a-view
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-make-sure-the-primary-field-is-always-the-first-column-in-a-view

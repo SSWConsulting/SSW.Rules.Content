@@ -8,7 +8,7 @@ uri: do-you-use-bold-text-and-indentation-instead-of-dividing-lines
 created: 2014-12-01T04:06:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

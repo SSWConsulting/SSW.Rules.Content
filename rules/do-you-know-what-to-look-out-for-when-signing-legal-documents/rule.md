@@ -8,7 +8,7 @@ uri: do-you-know-what-to-look-out-for-when-signing-legal-documents
 created: 2009-03-17T07:20:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

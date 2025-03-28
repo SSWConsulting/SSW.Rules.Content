@@ -5,7 +5,7 @@ title: Do you know how to get mobile config to your users?
 uri: how-to-get-mobile-config-to-your-users
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - do-you-know-how-to-get-mobile-config-to-your-users

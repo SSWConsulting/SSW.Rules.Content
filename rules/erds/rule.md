@@ -5,7 +5,7 @@ title: Do you visualize your database with an ERD?
 uri: erds
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - relational-database-design
   - database-normalization

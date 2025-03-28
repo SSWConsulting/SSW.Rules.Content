@@ -8,7 +8,7 @@ uri: use-taskbar-instead-of-task-bar
 created: 2016-04-21T05:27:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - tiny-do-you-use-taskbar-instead-of-task-bar

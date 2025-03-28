@@ -8,11 +8,11 @@ uri: the-drawbacks-of-fixed-price-fixed-scope-contracts
 created: 2011-08-11T19:01:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Paul Neumeyer
-    url: https://ssw.com.au/people/paul-neumeyer
+    url: https://ww.ssw.com.au/people/paul-neumeyer
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: https://ww.ssw.com.au/people/marlon-marescia
 related: []
 redirects:
   - do-you-know-some-of-the-drawbacks-of-a-fixed-price-fixed-scope-contract
@@ -24,12 +24,12 @@ Fixed-price, fixed-scope projects sound good but rarely end up with the expected
 
 First, let's define what is meant by "fixed price" and "waterfall" in software development:
 
-* **Fixed price:** A pricing model where the client pays a fixed amount of money for a predetermined scope of work. The scope of work is typically defined in advance, and any changes to that scope can result in additional charges or renegotiation of the contract.
-* **Waterfall:** This is a traditional project management approach where the development process is broken down into distinct phases, such as requirements gathering, design, implementation, testing, and deployment. Each phase is completed before moving on to the next, and changes to requirements or design are typically not allowed after a phase has been completed.
+- **Fixed price:** A pricing model where the client pays a fixed amount of money for a predetermined scope of work. The scope of work is typically defined in advance, and any changes to that scope can result in additional charges or renegotiation of the contract.
+- **Waterfall:** This is a traditional project management approach where the development process is broken down into distinct phases, such as requirements gathering, design, implementation, testing, and deployment. Each phase is completed before moving on to the next, and changes to requirements or design are typically not allowed after a phase has been completed.
 
 Now, let's look at the main reasons why fixed price and waterfall can be dangerous in software development:
 
-**1. Lack of flexibility:** You can’t predict the future. Fixed price and waterfall approaches are typically very rigid, with little room changes. Since it's knwown that requirements frequently change as the project progresses, and new information can come to light that requires a change in direction. The "Cone of Uncertainty" shows the range of cost changing at different stages through a project:  
+**1. Lack of flexibility:** You can’t predict the future. Fixed price and waterfall approaches are typically very rigid, with little room changes. Since it's knwown that requirements frequently change as the project progresses, and new information can come to light that requires a change in direction. The "Cone of Uncertainty" shows the range of cost changing at different stages through a project:
 
 ![Figure: The cone of uncertainty in software cost and size estimation](cone-of-uncertainty-software-price.jpg)
 

@@ -5,7 +5,7 @@ title: Do you use meaningful PBI titles?
 uri: meaningful-pbi-titles
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
 related:
   - defining-pbis
   - explaining-pbis
@@ -25,7 +25,7 @@ So what separates a **good** PBI title from a **bad** one?
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/Wob4UgGmqdU`
-**Video: Do you use meaningful PBI titles? | [Luke Cook](https://ssw.com.au/people/luke-cook/) | SSW Rules (5 min)**
+**Video: Do you use meaningful PBI titles? | [Luke Cook](https://ww.ssw.com.au/people/luke-cook/) | SSW Rules (5 min)**
 
 ::: info
 **Note:** Usually, we use the term PBI to encompass all types of backlog items, including those related to DevOps, Trello, GitHub, or any other platform.
@@ -52,17 +52,17 @@ Figure: Good example - "Important" emoji and text to bring attention to the PBI'
 
 ### ❌ Don't
 
-* Be generic (e.g. "Fix bug in site")
-* Write a novel in the title
-* Ignore the importance of urgent PBIs
+- Be generic (e.g. "Fix bug in site")
+- Write a novel in the title
+- Ignore the importance of urgent PBIs
 
 ### ✅ Do
 
-* Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
-* Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)
-* Prefix - Identify the type (e.g. 🐛 BUG)  
+- Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
+- Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)
+- Prefix - Identify the type (e.g. 🐛 BUG)  
   **Note:** Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)
-* Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
+- Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 ### Good PBI titles examples
 

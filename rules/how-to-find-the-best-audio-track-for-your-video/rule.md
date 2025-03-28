@@ -5,9 +5,9 @@ title: Audio - Do you know how to find the best audio track for your video?
 uri: how-to-find-the-best-audio-track-for-your-video
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
   - title: Andrew Forsyth
     url: https://www.ssw.com.au/people/andrew-forsyth
   - title: Landon Maxwell

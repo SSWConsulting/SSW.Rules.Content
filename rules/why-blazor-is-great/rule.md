@@ -7,11 +7,10 @@ guid: 91d73e58-3b7a-4530-9844-dbbd799c7af6
 uri: why-blazor-is-great
 created: 2024-07-09T14:13:53.0000000Z
 authors:
-    - title: Matt Parker
-      url: https://ssw.com.au/people/matt-parker
+  - title: Matt Parker
+    url: https://ww.ssw.com.au/people/matt-parker
 related: []
 redirects:
-    
 ---
 
 There are numerous frameworks available for front-end web development, with different developers preferring different tools. Some people like Angular, some like React, and some prefer Blazor. Let us take a look at the benefits of Blazor.
@@ -52,5 +51,5 @@ Blazor applications are easy to test thanks to community support with bUnit, a t
 
 ### References
 
-* [Blazor - A .NET web framework for building interactive web applications](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
-* [Do you use bUnit for unit tests in Blazor?](https://www.ssw.com.au/rules/bunit-for-blazor-unit-tests)
+- [Blazor - A .NET web framework for building interactive web applications](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor)
+- [Do you use bUnit for unit tests in Blazor?](https://www.ssw.com.au/rules/bunit-for-blazor-unit-tests)

@@ -5,13 +5,13 @@ title: Do you always use the Visual Studio designer for data binding where possi
 uri: do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:36:00.000Z
 guid: d399f81c-1fd7-4112-9b44-25dcaa2dd85b
 related:
-- do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
-
+  - do-you-always-use-the-visual-studio-designer-for-data-binding-where-possible
 ---
+
 Basic data binding should always be done in the designer because the syntax for data binding is complex, and confusing for other developers reading the code.
 
 <!--endintro-->
@@ -26,12 +26,12 @@ When you need to handle the Format or binding events, you can still use designer
 private void Form1_Load(object sender, System.EventArgs e)
 {
    Binding currencyBinding = this.textBox1.DataBindings("Text");
-   currencyBinding.Format += new 
+   currencyBinding.Format += new
       ConvertEventHandler(currencyBinding_Format);
    currencyBinding.Parse +=
       new ConvertEventHandler(currencyBinding_Parse);
 
-   OrderDetailsService.Instance.GetAll(Me.OrderDetailsDataSet1); 
+   OrderDetailsService.Instance.GetAll(Me.OrderDetailsDataSet1);
 }
 
 private void currencyBinding_Format(object sender, ConvertEventArgs e)
@@ -59,7 +59,7 @@ private void currencyBinding_Parse(object sender, ConvertEventArgs e)
 private void InitializeComponent()
 {
     this.cmbTumorQuad = new System.Windows.Forms.ComboBox();
-  
+
     //
     // cmbTumorQuad
     //
@@ -83,9 +83,9 @@ private void DataBind()
     ChangeBinding(txtSearchString.DataBindings, "Text", jobRules, "RuleData.SearchString");
     ChangeBinding(txtCreatedBy.DataBindings, "Text" , jobRules, "RuleData.EmpCreated");
 }
- 
-protected Binding ChangeBinding(ControlBindingsCollection bindings, string propertyName, 
-object dataSource, string dataMember, ConvertEventHandler eFormat, ConvertEventHandler eParse) 
+
+protected Binding ChangeBinding(ControlBindingsCollection bindings, string propertyName,
+object dataSource, string dataMember, ConvertEventHandler eFormat, ConvertEventHandler eParse)
 {
     Binding b = bindings[propertyName];
     if ( b != null )

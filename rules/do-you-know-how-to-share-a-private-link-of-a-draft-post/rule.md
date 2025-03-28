@@ -1,17 +1,16 @@
 ---
 seoDescription: Discover how to share private links of draft posts using the Public Post Preview plugin in WordPress.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to share a private link of a draft post?
 guid: fc584703-c440-4942-ad94-1487f6d5b93b
 uri: do-you-know-how-to-share-a-private-link-of-a-draft-post
 created: 2012-10-04T17:38:57.0000000Z
 authors:
-- title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
+  - title: Raj Dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects: []
-
 ---
 
 To share a draft of a post with others you need to install [the plugin called 'Public Post Preview'](https://wordpress.org/plugins/public-post-preview/).

@@ -8,7 +8,7 @@ uri: control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-
 created: 2012-11-27T08:50:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - control-choice-do-you-use-listview-over-gridview-(was-datagrid)-for-readonly-(windows-forms-only)

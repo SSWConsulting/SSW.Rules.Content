@@ -8,7 +8,7 @@ uri: use-a-consistent-font-for-the-whole-document
 created: 2019-08-21T22:04:44.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-a-consistent-font-for-the-whole-document

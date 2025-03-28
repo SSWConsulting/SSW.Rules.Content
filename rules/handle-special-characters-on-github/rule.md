@@ -5,7 +5,7 @@ title: Do you know how to handle special characters in GitHub Secrets and Variab
 uri: handle-special-characters-on-github
 authors:
   - title: Zach Keeping
-    url: https://ssw.com.au/people/zach-keeping
+    url: https://ww.ssw.com.au/people/zach-keeping
 created: 2023-08-21T01:00:02.774Z
 guid: 0576bb6b-684d-4896-b494-0c4ee014a490
 ---

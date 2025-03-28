@@ -5,7 +5,7 @@ title: Do you know what a container is?
 uri: what-is-a-container
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2022-11-23T22:10:17.877Z
 guid: e844e839-c6cb-4e03-85ac-798a8394fe8a
 ---

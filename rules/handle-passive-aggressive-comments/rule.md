@@ -5,7 +5,7 @@ title: Communication - Do you handle passive aggressive comments effectively?
 uri: handle-passive-aggressive-comments
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2024-11-25T12:00:00.000Z
 related:
   - understand-the-power-of-empathy
@@ -26,9 +26,9 @@ Passive aggressive comments can hinder effective communication and breed resentm
 
 Begin by reflecting what you sense in their comment. Use phrases like:
 
-* "It sounds like there’s more to that."
-* "It seems like you’re holding something back."
-* "It sounds like there’s more for me to understand about what you just said."
+- "It sounds like there’s more to that."
+- "It seems like you’re holding something back."
+- "It sounds like there’s more for me to understand about what you just said."
 
 These responses show that you recognize a deeper concern without escalating the situation.
 
@@ -36,15 +36,15 @@ These responses show that you recognize a deeper concern without escalating the 
 
 Ask, “Should I read into that?”
 
-* This invites the person to clarify their statement
-* Even if they respond “no,” they’ll be more mindful in future conversations knowing that their comments won’t be ignored
+- This invites the person to clarify their statement
+- Even if they respond “no,” they’ll be more mindful in future conversations knowing that their comments won’t be ignored
 
 #### 3. Address Feelings Directly
 
 Kindly and genuinely ask, “How are you feeling?”
 
-* This can create a safe space for the other person to express what’s really bothering them
-* Often, addressing emotions leads to a more productive discussion and resolution
+- This can create a safe space for the other person to express what’s really bothering them
+- Often, addressing emotions leads to a more productive discussion and resolution
 
 #### What Not to Do
 

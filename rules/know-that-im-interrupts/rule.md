@@ -8,13 +8,13 @@ uri: know-that-im-interrupts
 created: 2015-10-05T01:30:56.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - when-you-use-mentions-in-a-pbi
-  - avoid sending-unnecessary-messages   
+  - avoid sending-unnecessary-messages
   - use-quiet-hours-in-teams
   - work-in-order-of-importance-aka-priorities
-  - 4-quadrants-important-and-urgent 
+  - 4-quadrants-important-and-urgent
   - know-that-im-interrupts
 redirects:
   - interruptions-do-you-know-that-im-interrupts

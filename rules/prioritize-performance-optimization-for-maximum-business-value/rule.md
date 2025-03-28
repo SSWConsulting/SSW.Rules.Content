@@ -8,9 +8,9 @@ uri: prioritize-performance-optimization-for-maximum-business-value
 created: 2019-08-29T17:51:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related:
   - where-your-goal-posts-are
   - do-you-avoid-reviewing-performance-without-metrics
@@ -22,11 +22,11 @@ Like any development, performance optimization requires development time and sho
 
 Include the following considerations:
 
-* What is the preferred performance for this feature?
-* What represents an acceptable performance metric?
-* How many users are expected to use this feature within a timeframe?
-* What is the business impact of poor performance for this feature?
-* Are we planning to significantly change this feature in the near future?
+- What is the preferred performance for this feature?
+- What represents an acceptable performance metric?
+- How many users are expected to use this feature within a timeframe?
+- What is the business impact of poor performance for this feature?
+- Are we planning to significantly change this feature in the near future?
 
 <!--endintro-->
 
@@ -54,9 +54,9 @@ However, this entire feature is scheduled to be migrated from MVC to Angular in 
 
 Recommended actions:
 
-* We won't optimize the existing implementation
-* Raise the priority of the Angular migration PBI
-* Ensure that performance metrics are included in the acceptance criteria of the migration PBI
+- We won't optimize the existing implementation
+- Raise the priority of the Angular migration PBI
+- Ensure that performance metrics are included in the acceptance criteria of the migration PBI
 
 1. Please “reply all” with changes or your acceptance.
 

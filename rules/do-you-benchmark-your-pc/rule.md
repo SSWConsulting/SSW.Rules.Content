@@ -8,7 +8,7 @@ uri: do-you-benchmark-your-pc
 created: 2016-03-03T06:04:40.0000000Z
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
 ---
@@ -22,7 +22,5 @@ There are a lot of great tools that can test the speed of your hardware, but the
 [PassMark](http://www.passmark.com/)however will give you a holistic view of how fast your computer can run specific software
 
 `youtube: https://www.youtube.com/embed/kgBCbwPduMc`
-
-
 
 Figure: Good Example - Done video after updating Windows to latest version

@@ -8,9 +8,9 @@ uri: how-string-should-be-quoted
 created: 2018-04-30T22:20:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - c-code-do-you-use-string-literals

@@ -8,11 +8,11 @@ uri: do-you-know-to-use-save-save-and-close-on-a-webpage
 created: 2014-11-27T03:54:09.0000000Z
 authors:
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-make-your-cancel-button-less-obvious
 redirects: []
@@ -24,9 +24,9 @@ When the user is creating or editing data on a webpage, there are two buttons an
 
 So the options are:
 
-* **Save** (button) - Saves the data and allows the user to keep editing
-* **Save and Close** (button) - Saves the data and returns to the previous screen
-* **Cancel** (link) - returns to the previous screen
+- **Save** (button) - Saves the data and allows the user to keep editing
+- **Save and Close** (button) - Saves the data and returns to the previous screen
+- **Cancel** (link) - returns to the previous screen
 
 ::: bad
 ![Figure: Bad example - only provided "Save" button and "Cancel" link](2014-11-27_11-45-25-compressor.png)

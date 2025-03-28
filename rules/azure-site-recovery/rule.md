@@ -5,9 +5,9 @@ title: Redundancy - Do you use Azure Site Recovery?
 uri: azure-site-recovery
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwickleahy
+    url: https://ww.ssw.com.au/people/warwickleahy
 related:
   - why-use-data-protection-manager
 created: 2021-10-14T04:11:36.379Z

@@ -5,7 +5,7 @@ title: Do you use a SQL Server object naming standard?
 uri: use-a-sql-server-object-naming-standard
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - general-do-you-use-a-sql-server-object-naming-standard

@@ -8,15 +8,15 @@ uri: do-you-know-to-get-visual-studio-to-remind-you-to-check-in
 created: 2011-11-18T03:52:24.0000000Z
 authors:
   - title: David Klein
-    url: https://ssw.com.au/people/david-klein
+    url: https://ww.ssw.com.au/people/david-klein
     noimage: true
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: https://ww.ssw.com.au/people/tristan-kurniawan
 related: []
 redirects: []
 ---
@@ -45,7 +45,7 @@ We also use VSS for Access projects. Access 2000 had problems with MDBs (not ADP
 
 ![Figure: All the basic functions are easily accessible](SourceSafeAccessMenu.gif)
 
-**Note:** Using VSS in Microsoft Access has a few limitations, most significant of which is the inability to reattach to VSS projects.  Once you have detached from a VSS project, you will need to create a new VSS project in order to place the Access application back into VSS.
+**Note:** Using VSS in Microsoft Access has a few limitations, most significant of which is the inability to reattach to VSS projects. Once you have detached from a VSS project, you will need to create a new VSS project in order to place the Access application back into VSS.
 
 ## What about SQL Server Databases?
 

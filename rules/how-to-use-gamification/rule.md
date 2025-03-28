@@ -8,7 +8,7 @@ uri: how-to-use-gamification
 created: 2012-11-27T01:42:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-use-＂gamification＂

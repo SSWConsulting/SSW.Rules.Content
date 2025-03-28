@@ -6,7 +6,7 @@ title: Anchoring and Docking - Do you use Anchoring and Docking (horizontal
 uri: use-anchoring-and-docking-horizontal-only-with-single-line-textboxes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:02:00.000Z
 guid: 422365e9-ddc8-45a7-8428-cfb712c58c12
 ---

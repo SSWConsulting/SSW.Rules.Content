@@ -8,9 +8,9 @@ seoDescription: Understand the fundamentals of software design by learning the
 uri: do-you-know-the-common-design-principles-part-1
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects:
   - do-you-know-the-common-design-principles-(part-1)

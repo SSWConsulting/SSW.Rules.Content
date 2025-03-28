@@ -8,9 +8,9 @@ uri: do-you-know-the-process-to-improve-the-health-of-your-web-application
 created: 2014-08-19T00:51:51.0000000Z
 authors:
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
 related: []
 redirects:
   - errors-do-you-know-the-daily-process-to-improve-the-health-of-your-web-application

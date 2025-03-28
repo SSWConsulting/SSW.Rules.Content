@@ -5,11 +5,11 @@ seoDescription: As a Scrum Master, scheduling 3 crucial meetings - Sprint Review
 uri: scrum-master-do-you-schedule-the-3-meetings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - 8-steps-to-scrum
   - what-happens-at-a-sprint-planning-meeting
@@ -56,10 +56,10 @@ Since Sprint meetings occur regularly, it's best to set them up as recurring cal
 ::: greybox
 Learn more about the meetings in Scrum:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-* [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum "Daily Scrum Meeting")
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+- [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting 'Sprint Review Meeting')
+- [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting 'Sprint Retrospective Meeting')
+- [Daily Scrum (Stand-up) Meeting](/meeting-do-you-update-your-tasks-before-the-daily-scrum 'Daily Scrum Meeting')
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
@@ -70,19 +70,20 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| Required Attendees: | Scrum Team |
-| Optional Attendees: | Interested Stakeholders |
-| Recurrence: | Every **{{ NUMBER OF WEEKS }}** weeks |
-| Subject: | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
+|                     |                                                        |
+| ------------------- | ------------------------------------------------------ |
+| Required Attendees: | Scrum Team                                             |
+| Optional Attendees: | Interested Stakeholders                                |
+| Recurrence:         | Every **{{ NUMBER OF WEEKS }}** weeks                  |
+| Subject:            | {{ PROJECT NAME }} – Sprint Review, Retro and Planning |
+
 ::: email-content
 
 ### Hi Team
 
-* Product Owner: {{ PRODUCT OWNER }}
-* Scrum Master: {{ SCRUM MASTER }}
-* Sprint Length: {{ NUMBER OF WEEKS }} weeks
+- Product Owner: {{ PRODUCT OWNER }}
+- Scrum Master: {{ SCRUM MASTER }}
+- Sprint Length: {{ NUMBER OF WEEKS }} weeks
 
 This is a calendar appointment to hold the following 3 Scrum meetings:
 

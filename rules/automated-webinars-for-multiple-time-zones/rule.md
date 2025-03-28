@@ -8,7 +8,7 @@ uri: automated-webinars-for-multiple-time-zones
 created: 2015-05-07T00:12:14.0000000Z
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: https://ww.ssw.com.au/people/marlon-marescia
 related:
   - automate-schedule-meetings
 redirects:

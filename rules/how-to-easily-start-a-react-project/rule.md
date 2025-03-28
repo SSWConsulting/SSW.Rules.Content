@@ -5,7 +5,7 @@ title: Do you know how to easily start a React project?
 uri: how-to-easily-start-a-react-project
 authors:
   - title: Harry Ross
-    url: https://ssw.com.au/people/harry-ross
+    url: https://ww.ssw.com.au/people/harry-ross
 related: []
 redirects:
   - do-you-know-how-to-easily-start-a-react-project
@@ -13,13 +13,14 @@ created: 2019-04-29T20:17:31.000Z
 archivedreason: null
 guid: 7284ecb9-2844-42ef-9283-0fb14439e182
 ---
+
 The old standard way to start a React project, create-react-app is [no longer actively supported by Facebook](https://github.com/facebook/create-react-app/discussions/11086#discussioncomment-956516), and has been removed from the official developer documentation (<https://react.dev/learn/start-a-new-react-project>). Therefore, it is not the best choice for starting a client-side rendered React app.
 
 <!--endintro-->
 
 ## Vite
 
-Vite is a reliable frontend build tool for building fast and optimised frontend web apps that has easy integration with a wide range of frontend web frameworks, and built-in Typescript support.  
+Vite is a reliable frontend build tool for building fast and optimised frontend web apps that has easy integration with a wide range of frontend web frameworks, and built-in Typescript support.
 
 Vite is much faster than using create-react-app, mainly because Vite does not use Webpack for bundling assets. It instead uses esbuild and Rollup, which are much faster and more modern tools for building great frontend web apps.
 
@@ -35,7 +36,7 @@ Vite is much faster than using create-react-app, mainly because Vite does not us
 1. Run:
 
 ```shell
-npm create vite@latest 
+npm create vite@latest
 ```
 
 2. Enter the name of your project
@@ -51,7 +52,7 @@ npm create vite@latest
 
 ```bash
 cd {{ PROJECT_NAME }}
-npm install 
+npm install
 npm run dev
 ```
 

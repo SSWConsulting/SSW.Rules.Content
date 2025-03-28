@@ -8,9 +8,9 @@ uri: have-a-daily-catch-up
 created: 2020-03-25T22:51:50.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://ww.ssw.com.au/people/jason-taylor
 related: []
 redirects:
   - communication-do-you-have-a-daily-catch-up

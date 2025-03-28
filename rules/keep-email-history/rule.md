@@ -5,9 +5,9 @@ title: Do you keep the history of an email?
 uri: keep-email-history
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
   - add-context-reasoning-to-emails

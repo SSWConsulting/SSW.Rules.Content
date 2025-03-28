@@ -10,7 +10,7 @@ authors:
   - title: Cameron Shaw
     url: https://www.ssw.com.au/people/cameron-shaw/
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - cross-approvals
   - management-structures

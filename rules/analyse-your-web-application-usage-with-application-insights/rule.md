@@ -8,9 +8,9 @@ uri: analyse-your-web-application-usage-with-application-insights
 created: 2015-10-27T15:19:19.0000000Z
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
 related: []
 redirects:
   - do-you-know-how-to-analyse-your-web-application-usage-with-application-insights

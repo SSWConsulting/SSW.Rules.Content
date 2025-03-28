@@ -5,7 +5,7 @@ title: Post-Production - Do you know how to conduct a 'Test Please' for video?
 uri: test-please-for-video
 authors:
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: https://ww.ssw.com.au/people/landon-maxwell
 related: []
 redirects:
   - post-production-do-you-know-how-to-conduct-a-test-please-for-video

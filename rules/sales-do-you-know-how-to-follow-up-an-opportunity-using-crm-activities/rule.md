@@ -8,7 +8,7 @@ uri: sales-do-you-know-how-to-follow-up-an-opportunity-using-crm-activities
 created: 2012-12-07T18:03:32.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

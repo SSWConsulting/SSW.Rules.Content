@@ -5,8 +5,8 @@ title: Technical - Do you know the importance of measuring Core Web Vitals?
 uri: core-web-vitals
 authors:
   - title: Harry Ross
-    url: https://ssw.com.au/people/harry-ross
-related: 
+    url: https://ww.ssw.com.au/people/harry-ross
+related:
   - website-page-speed
 created: 2024-03-19T21:39:38.906Z
 archivedreason: null
@@ -37,12 +37,12 @@ CLS measures how much elements have shifted on the page from the first load. For
 
 ### Framework-Agnostic (web-vitals)
 
-To capture these metrics in most frontend environments, you would use the `web-vitals` npm package.  
+To capture these metrics in most frontend environments, you would use the `web-vitals` npm package.
 
 ```js
 import { onCLS, onFID, onLCP } from 'web-vitals';
 
-function sendToTracker (metric) {
+function sendToTracker(metric) {
   // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc.
 }
 
@@ -66,7 +66,7 @@ function App {
       case "LCP":
       case "Next.js-hydration":
       case "Next.js-render":
-        // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc. 
+        // Send to an aggregate of your choice i.e. Azure App Insights, Google Analytics, Sentry, etc.
         break;
     }
   });
@@ -83,15 +83,15 @@ The primary focus of optimization work should be focused on the 75th percentile 
 
 There are a variety of services that you can use for collecting data Core Web Vitals data:
 
-* Sentry - see [Sentry's marketing page on monitoring Web Vitals](https://sentry.io/for/web-vitals/)
-* Google Analytics - see [Google's how-to page on monitoring Web Vitals with GA4 and BigQuery](https://web.dev/articles/vitals-ga4)
-* Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics)
+- Sentry - see [Sentry's marketing page on monitoring Web Vitals](https://sentry.io/for/web-vitals/)
+- Google Analytics - see [Google's how-to page on monitoring Web Vitals with GA4 and BigQuery](https://web.dev/articles/vitals-ga4)
+- Azure Application Insights - see the [Microsoft documentation on metric tracking with App Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/api-custom-events-metrics)
 
 To track this data on App Insights you can use `trackMetric`:
 
 ```ts
 applicationInsights.trackMetric(
-  { name: "CLS", average: metric.value }, 
+  { name: 'CLS', average: metric.value },
   { page: currentPagePath }
 );
 ```

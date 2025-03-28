@@ -7,11 +7,11 @@ seoDescription: Standardize AD group names to simplify management and reduce
 uri: do-you-standardise-ad-group-names
 authors:
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz/
+    url: https://ww.ssw.com.au/people/chris-schultz/
 related:
   - groups-in-microsoft-365
 redirects:
@@ -60,7 +60,7 @@ Figure: Good Example – By standardizing the names of AD groups it saves confus
 
 - **L-LocalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **L-SYD-SP-SSW-Users**
 - **G-GlobalGroupName-SYD-EntityName-SP-Sharepoint-** becomes **G-SYD-SP-SSW-Users**
-:::
+  :::
 
 ### Types of groups
 

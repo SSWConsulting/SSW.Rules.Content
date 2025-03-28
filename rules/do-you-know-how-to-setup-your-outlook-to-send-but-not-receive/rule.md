@@ -8,9 +8,9 @@ uri: do-you-know-how-to-setup-your-outlook-to-send-but-not-receive
 created: 2011-04-13T06:18:47.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -26,8 +26,7 @@ Here is how you do it:
 ![Figure - Tick manually configure server settings](mail1.png)
 
 2. Enter your server name and username, but un-tick
-   **Use Cached Exchange Mode** :  
-
+   **Use Cached Exchange Mode** :
 
 ![Figure - Un-tick Use Cached Exchange Mode](Mail3.png)
 

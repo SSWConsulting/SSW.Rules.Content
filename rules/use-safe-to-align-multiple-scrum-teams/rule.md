@@ -7,9 +7,9 @@ uri: use-safe-to-align-multiple-scrum-teams
 created: 2023-10-13T17:02:00.000Z
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-use-safe-to-align-multiple-scrum-teams

@@ -8,7 +8,7 @@ uri: use-codelens-to-view-your-application-insights-data
 created: 2017-04-07T15:50:27.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects:
   - do-you-use-codelens-to-view-your-application-insights-data

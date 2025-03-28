@@ -5,9 +5,9 @@ seoDescription: Learn how to report software bugs and suggestions effectively wi
 uri: report-bugs-and-suggestions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - fix-bugs-via-phone
   - fix-bugs-first
@@ -21,6 +21,7 @@ created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
+
 If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
@@ -31,14 +32,14 @@ When reporting bugs and giving product feedback, it is essential that you are as
 
 Here are the 8 tips:
 
-* [Tip #1: Draft your bug with enough details](#tip-1-draft-your-bug-with-enough-details)
-* [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
-* [Tip #3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)  
-* [Tip #4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)  
-* [Tip #5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)  
-* [Tip #6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)  
-* [Tip #7: Separate PBIs](#tip-7-separate-pbis)  
-* [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)  
+- [Tip #1: Draft your bug with enough details](#tip-1-draft-your-bug-with-enough-details)
+- [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
+- [Tip #3: Should you send this to the Product Owner or the Tech Lead?](#tip-3-should-you-send-this-to-the-product-owner-or-the-tech-lead)
+- [Tip #4: Should you email or put it in the backlog?](#tip-4-should-you-email-or-put-it-in-the-backlog)
+- [Tip #5: Do you make it easy to find all the backlog in your company?](#tip-5-do-you-make-it-easy-to-find-all-the-backlog-in-your-company)
+- [Tip #6: Make sure when using backlog, the Product Owner will still get an email](#tip-6-make-sure-when-using-backlog-the-product-owner-will-still-get-an-email)
+- [Tip #7: Separate PBIs](#tip-7-separate-pbis)
+- [Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects](#tip-8-use-emojis-and-prefixes-for-pbiissues-titles-or-email-subjects)
 
 ![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
@@ -50,24 +51,25 @@ The goal is to include enough details so the developer can focus on the developm
 
 Things to include:
 
-* Steps to reproduce the error
-* OS and browser details
-* Screenshots\
+- Steps to reproduce the error
+- OS and browser details
+- Screenshots\
   **💡 Tip:** Copy and paste the text for searchability
-* Video for more complex bugs (more info below)
+- Video for more complex bugs (more info below)
 
 Learn more:
 
-* [Do you have a clear definition of a bug?](/definition-of-a-bug)
-* [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
+- [Do you have a clear definition of a bug?](/definition-of-a-bug)
+- [How to produce a good bug report?](https://www.boxuk.com/insight/what-makes-a-good-bug-report)
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
+|          |                     |
+| -------- | ------------------- |
 | To:      | {{ SUPPORT EMAIL }} |
-| Subject: | Your software |
-::: email-content  
+| Subject: | Your software       |
+
+::: email-content
 
 ### Hi
 
@@ -85,11 +87,12 @@ Figure: Bad example - This email isn't going to help the developer much - it is 
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ SUPPORT EMAIL }} |
+|          |                                            |
+| -------- | ------------------------------------------ |
+| To:      | {{ SUPPORT EMAIL }}                        |
 | Subject: | 🐛 BUG - PerformancePro - Error on startup |
-::: email-content  
+
+::: email-content
 
 ### Hi team
 
@@ -101,11 +104,11 @@ I'm having a problem with your PerformancePro software. When I run it, this is w
 
    ![](error-software-bur-report.jpg)
 
-    Here is the transcription for searchability:
-  
-    > An embedded page at chrome-extension://laookkfknpbbblfpciffpaejjkokdgca says:
-    > Could not find resource: longtail performance counter.
-    > Prevent this page from creating additional dialogs.  
+   Here is the transcription for searchability:
+
+   > An embedded page at chrome-extension://laookkfknpbbblfpciffpaejjkokdgca says:
+   > Could not find resource: longtail performance counter.
+   > Prevent this page from creating additional dialogs.
 
 I have the latest version of all my software. I am running Windows 10 and Office365.
 
@@ -123,17 +126,18 @@ Figure: Good example - This email includes the product name and version, the cat
 
 When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components:
 
-* Steps to reproduce
-* Expected outcome
-* Actual outcome
+- Steps to reproduce
+- Expected outcome
+- Actual outcome
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Danny |
+|          |        |
+| -------- | ------ |
+| To:      | Danny  |
 | Subject: | SSW TV |
-::: email-content  
+
+::: email-content
 
 ### Hi Danny
 
@@ -149,11 +153,12 @@ Figure: Bad example - Lack of details
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Danny |
+|          |                                      |
+| -------- | ------------------------------------ |
+| To:      | Danny                                |
 | Subject: | SSW Website - Can't find SSW TV link |
-::: email-content  
+
+::: email-content
 
 ### Hi Danny
 
@@ -262,8 +267,8 @@ When you create a bug/suggestion to a backlog, it's a good idea to add emoji in 
 
 This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc). Examples:
 
-* **🐛 Bug - Calendar is not showing on iOS devices**
-* **✨ Feature - Add 'Back to menu' item to top navigation**
+- **🐛 Bug - Calendar is not showing on iOS devices**
+- **✨ Feature - Add 'Back to menu' item to top navigation**
 
 Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
 

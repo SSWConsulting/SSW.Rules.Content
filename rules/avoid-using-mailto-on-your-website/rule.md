@@ -1,11 +1,11 @@
 ---
 seoDescription: Avoid displaying valid email addresses on your website to prevent spam and email harvesting.
 type: rule
-title: "Do you avoid using mailto: on your website?"
+title: 'Do you avoid using mailto: on your website?'
 uri: avoid-using-mailto-on-your-website
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-mailto-on-your-website
@@ -57,8 +57,7 @@ Application("SampleEncodedEmailAddress") = BitConverter
 ```html
 <a
   id="linkContact"
-  href="javascript:sendEmail('44617669644073616D706C652E636F6D2E6175')"
->
+  href="javascript:sendEmail('44617669644073616D706C652E636F6D2E6175')">
   CONTACT David
 </a>
 ```

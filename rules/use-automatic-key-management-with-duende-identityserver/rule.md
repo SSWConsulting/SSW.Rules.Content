@@ -9,14 +9,13 @@ redirects:
   - use-automatic-key-management-with-duende-identityServer
 created: 2021-03-17T09:45:07.0000000Z
 authors:
-- title: Anthony Nguyen
-  url: https://ssw.com.au/people/anthony-nguyen/
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg/
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Anthony Nguyen
+    url: https://ww.ssw.com.au/people/anthony-nguyen/
+  - title: William Liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg/
+  - title: Matt Goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related:
-
 ---
 
 When using IdentityServer 5 (aka Duende IdentityServer), you don't need to use `UseDeveloperSigningCredentials()` anymore as it is now enabled by default.
@@ -53,7 +52,7 @@ Figure: Bad example - don't use `IdentityServer4.AccessTokenValidation` package 
 :::
 
 ```cs
-services.AddAuthentication("Bearer") 
+services.AddAuthentication("Bearer")
   .AddJwtBearer("Bearer", options =>
     {
       options.Audience = "api1";

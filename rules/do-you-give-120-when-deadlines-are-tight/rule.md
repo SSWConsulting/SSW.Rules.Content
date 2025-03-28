@@ -8,7 +8,7 @@ uri: do-you-give-120-when-deadlines-are-tight
 created: 2012-09-25T17:58:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - quality-do-you-give-120-when-deadlines-are-tight

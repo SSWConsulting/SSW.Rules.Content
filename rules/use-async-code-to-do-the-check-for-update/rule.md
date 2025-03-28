@@ -5,7 +5,7 @@ title: Do you know to use async code to do the check for update?
 uri: use-async-code-to-do-the-check-for-update
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 6139e272-8fec-4fc4-9e0b-56a7bd3e28fd

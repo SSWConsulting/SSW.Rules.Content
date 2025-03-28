@@ -5,7 +5,7 @@ title: Payroll - Do you use consistent salary terminology? (Aussie only)
 uri: salary-terminology
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Levi Jackson
     url: https://www.ssw.com.au/people/levi-jackson
 related:

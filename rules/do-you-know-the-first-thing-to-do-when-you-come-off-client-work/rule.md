@@ -5,9 +5,9 @@ title: Do you know the first thing to do when you come off client work?
 uri: do-you-know-the-first-thing-to-do-when-you-come-off-client-work
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-07-16T06:28:30.000Z

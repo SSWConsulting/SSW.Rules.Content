@@ -8,7 +8,7 @@ uri: use-identities-in-sql-server
 created: 2019-11-25T19:08:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - data-do-you-use-identities-in-sql-server

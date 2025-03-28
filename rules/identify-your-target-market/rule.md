@@ -5,11 +5,11 @@ title: Strategy - Do you identify your target market?
 uri: identify-your-target-market
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: https://ww.ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:

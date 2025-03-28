@@ -8,7 +8,7 @@ uri: how-do-i-update-and-create-a-new-version-of-the-sysprep-vm
 created: 2009-02-26T02:03:38.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

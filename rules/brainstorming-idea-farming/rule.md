@@ -7,13 +7,13 @@ seoDescription: Discover how to effectively farm brainstorming ideas by
 uri: brainstorming-idea-farming
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - use-the-brains-of-your-company
 redirects: []
@@ -56,7 +56,7 @@ One month before brainstorming, you should review the repo and then remind all a
 ### 4. Have a Backlog Refinement Meeting
 
 * The Goal of this meeting is to make sure the ideas are ready to be allocated to teams.
-* This process only requires a small group, however they are free to call in relevant people as required. 
+* This process only requires a small group, however they are free to call in relevant people as required.
 
 `youtube: https://www.youtube.com/embed/lMpeffmoc0I`
 **Video: Backlog Refinement Meeting (3 min)**

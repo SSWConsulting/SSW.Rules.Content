@@ -5,7 +5,7 @@ title: Do you know the best load testing tools for web applications?
 uri: the-best-load-testing-tools-for-web-applications
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related:
   - run-load-tests-on-your-website
 redirects:
@@ -57,6 +57,6 @@ There are many different load testing tools to choose from. Some of the most pop
 **Note:** [Azure Load Testing](https://docs.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) is a fully managed load-testing service that enables you to generate high-scale load. It uses JMeter to generate the loads. Note that this service is currently only in Preview.
 :::
 
-![Figure: Loader.io load testing results](loader-io.jpg "Screenshot of load testing chart in Loader.io")
+![Figure: Loader.io load testing results](loader-io.jpg 'Screenshot of load testing chart in Loader.io')
 
-![Figure: Azure Load Testing results](azure-load-testing.jpg "Screenshot of load testing charts in Azure Load Testing")
+![Figure: Azure Load Testing results](azure-load-testing.jpg 'Screenshot of load testing charts in Azure Load Testing')

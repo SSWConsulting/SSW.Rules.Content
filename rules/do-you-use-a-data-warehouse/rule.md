@@ -5,13 +5,13 @@ title: Do you use a Data Warehouse?
 uri: do-you-use-a-data-warehouse
 authors:
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
 related:
   - use-the-right-data-storage
   - use-the-right-database

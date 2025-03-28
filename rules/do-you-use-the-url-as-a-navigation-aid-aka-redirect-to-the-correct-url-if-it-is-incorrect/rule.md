@@ -5,9 +5,9 @@ title: Do you use the URL as a navigation aid (aka redirect if URL is incorrect)
 uri: do-you-use-the-url-as-a-navigation-aid-aka-redirect-to-the-correct-url-if-it-is-incorrect
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects:
   - do-you-use-the-url-as-a-navigation-aid-(aka-redirect-to-the-correct-url-if-it-is-incorrect)

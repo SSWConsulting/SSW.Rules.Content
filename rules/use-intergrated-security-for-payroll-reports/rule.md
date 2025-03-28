@@ -6,13 +6,12 @@ title: Admin - Do you take advantage of 'Integrated Security' to do Payroll repo
 guid: 3a7d4544-16e8-46fe-aff4-b2161e216420
 uri: use-intergrated-security-for-payroll-reports
 created: 2024-08-02T14:42:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 <!--endintro-->

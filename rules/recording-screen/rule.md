@@ -7,7 +7,7 @@ uri: recording-screen
 created: 2024-06-18T01:26:35.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - record-a-quick-and-dirty-done-video
 redirects: []
@@ -22,22 +22,22 @@ There are many ways to record your screen. Here are some popular options:
 
 ### Remote recordings
 
-* [Zoom](https://zoom.us)
-* [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams)
-  * Perfect if you are alreay on a call [see](/record-teams-meetings)
-* [StreamYard](https://streamyard.com) (advanced - good for live streaming)
+- [Zoom](https://zoom.us)
+- [Microsoft Teams](https://www.microsoft.com/en-au/microsoft-teams)
+  - Perfect if you are alreay on a call [see](/record-teams-meetings)
+- [StreamYard](https://streamyard.com) (advanced - good for live streaming)
 
 ### Simple recordings
 
-* [Loom](https://www.loom.com) (only 25 videos free)
-* [Snagit](https://www.techsmith.com/screen-capture.html)
-* [Clipchamp](https://clipchamp.com/en/) Recommended - Used at SSW, great start for "Done Videos"
-  * Direct upload to Clipchamp
+- [Loom](https://www.loom.com) (only 25 videos free)
+- [Snagit](https://www.techsmith.com/screen-capture.html)
+- [Clipchamp](https://clipchamp.com/en/) Recommended - Used at SSW, great start for "Done Videos"
+  - Direct upload to Clipchamp
 
 ### Advanced recordings
 
-* [OBS](https://obsproject.com/)
-* [Camtasia](https://www.techsmith.com/store/camtasia) (Windows only)
+- [OBS](https://obsproject.com/)
+- [Camtasia](https://www.techsmith.com/store/camtasia) (Windows only)
 
 ::: greybox
 **Tip #1:** If you are recording the steps to reproduce a bug, it might be better to use [Chrome Recorder](https://developer.chrome.com/docs/devtools/recorder) instead.

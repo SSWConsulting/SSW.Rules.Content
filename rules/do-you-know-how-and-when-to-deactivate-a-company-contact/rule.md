@@ -8,7 +8,7 @@ uri: do-you-know-how-and-when-to-deactivate-a-company-contact
 created: 2012-12-07T17:14:32.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

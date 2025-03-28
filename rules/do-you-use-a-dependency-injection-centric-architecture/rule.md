@@ -8,9 +8,9 @@ uri: do-you-use-a-dependency-injection-centric-architecture
 created: 2012-10-19T19:11:41.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
+    url: https://ww.ssw.com.au/people/igor-goldobin
 related:
   - do-you-know-the-layers-of-the-onion-architecture
   - the-best-dependency-injection-container

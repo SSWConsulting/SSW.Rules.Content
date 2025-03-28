@@ -5,7 +5,7 @@ title: Do you use Ephemeral environments for clean and isolated testing?
 uri: ephemeral-environments
 authors:
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
 related: []
 created: 2023-10-12T17:33:21.000Z
 archivedreason: null

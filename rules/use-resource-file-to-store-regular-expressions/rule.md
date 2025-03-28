@@ -5,7 +5,7 @@ title: Do you use resource file to store your regular expressions?
 uri: use-resource-file-to-store-regular-expressions
 authors:
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/alumni/igor-goldobin/
+    url: https://ww.ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T01:40:15.879Z
 guid: 6be11005-f82a-48ba-8300-460284be1df5
 ---

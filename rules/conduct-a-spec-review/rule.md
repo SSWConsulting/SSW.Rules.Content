@@ -5,15 +5,15 @@ title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
 uri: conduct-a-spec-review
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Edgar Rocha
-    url: https://ssw.com.au/people/edgar-rocha
+    url: https://ww.ssw.com.au/people/edgar-rocha
 related: []
 redirects:
   - spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)
@@ -58,10 +58,10 @@ The purpose is to understand the whole project but, if the project is greater th
 
 ### Talk about business requirements
 
-* **Conduct workshops:** Conduct workshops with different groups of users (e.g. management, back office, customer service) to build the "Product Backlog" which the business wants. This ensures that all users get their say. Some "nice-to-haves" might actually be quite easy to implement. Product Backlog Items can then be prioritized and fleshed out.
-* **Review documentation:** Reviewing any documentation the client may already have. Remember clients are mostly looking to software consultants to assist them in solving business problems.
-* **Keep technology discussions short:** Unless they have a specific business purpose, detailed discussions about technology with the client are unlikely to be useful. For example, most clients won't be interested in a discussion about whether to use .NET or Angular at this stage.
-* **Identify an MVP:** Most client can't afford everything they want, so make sure you're keeping track of the minimum we can do to deliver value.
+- **Conduct workshops:** Conduct workshops with different groups of users (e.g. management, back office, customer service) to build the "Product Backlog" which the business wants. This ensures that all users get their say. Some "nice-to-haves" might actually be quite easy to implement. Product Backlog Items can then be prioritized and fleshed out.
+- **Review documentation:** Reviewing any documentation the client may already have. Remember clients are mostly looking to software consultants to assist them in solving business problems.
+- **Keep technology discussions short:** Unless they have a specific business purpose, detailed discussions about technology with the client are unlikely to be useful. For example, most clients won't be interested in a discussion about whether to use .NET or Angular at this stage.
+- **Identify an MVP:** Most client can't afford everything they want, so make sure you're keeping track of the minimum we can do to deliver value.
 
 ### Do something valuable
 
@@ -108,8 +108,8 @@ The consultant must run a [Test Please](/conduct-a-test-please-internally-and-th
 
 The main things the Account Manager will be looking for will be:
 
-* Have you already had corridor conversations with the client so they're already expecting the ballpark estimate?
-* Are the estimates realistic and still incorporating any relevant buffers? e.g. Project Management, bug fixing, etc.
+- Have you already had corridor conversations with the client so they're already expecting the ballpark estimate?
+- Are the estimates realistic and still incorporating any relevant buffers? e.g. Project Management, bug fixing, etc.
 
 ::: greybox
 **Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover.
@@ -121,11 +121,11 @@ You can record your presentation using [Recording Studio in PowerPoint](https://
 
 You want to have all the required work for a Spec Review done within the allocated time, so it’s important you leave time to implement the required changes after you present and before you email the final version.
 
-* **9 am:** Meet with the client and discuss requirements
-* **11 am:** Start work on the backlog and the PowerPoint (.PPTX) or Word Doc (.DOCX)
-* **3 pm:** Present to the client and gather feedback for changes
-* **5 pm:** Implement changes
-* **6 pm:** Send “As per our conversation” with Word or PowerPoint attachment
+- **9 am:** Meet with the client and discuss requirements
+- **11 am:** Start work on the backlog and the PowerPoint (.PPTX) or Word Doc (.DOCX)
+- **3 pm:** Present to the client and gather feedback for changes
+- **5 pm:** Implement changes
+- **6 pm:** Send “As per our conversation” with Word or PowerPoint attachment
 
 In a 2 or 3-day Spec Review, you should assume you’ll need more time to implement changes, so move the presentation time earlier to 2 pm.
 

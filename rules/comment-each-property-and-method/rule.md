@@ -5,7 +5,7 @@ title: Comments - Do you comment each property and method?
 uri: comment-each-property-and-method
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - comments-do-you-comment-each-property-and-method
@@ -18,7 +18,7 @@ It's important that you have a consistent code comment standard throughout an ap
 
 <!--endintro-->
 
-**UPDATE:** See Robert Martin Chapter 4: Comments  [Clean Code: A Handbook of Agile Software Craftsmanship](https&#58;//www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+**UPDATE:** See Robert Martin Chapter 4: Comments  [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
 E.g. catch (InteropServices.COMException ex) //Catch all COM Exceptions from third-party COM component
 
@@ -34,8 +34,8 @@ A CSS file should be delimited with the block comment marks of
 
 If the file contains any function/sub module/class declaration, comments will be contained to each of them containing at least the following:
 
-* function/sub module/class name
-* role of the function/sub module/class declaration
+- function/sub module/class name
+- role of the function/sub module/class declaration
 
 **Above a method or property declaration:**
 

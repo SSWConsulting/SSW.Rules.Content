@@ -5,11 +5,11 @@ title: Chinafy - Do you manage 3rd party dependencies?
 uri: do-you-manage-3rd-party-dependencies
 authors:
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
 related: []
 redirects:
   - chinafy-do-you-manage-3rd-party-dependencies
@@ -24,12 +24,12 @@ Modern websites can use 3rd party dependencies from many different sources. This
 
 Many of these services are completely blocked inside other countries. China, in particular, currently blocks all the below:
 
-* Facebook
-* Google
-* YouTube
-* Vimeo
-* Twitter
-* LinkedIn
+- Facebook
+- Google
+- YouTube
+- Vimeo
+- Twitter
+- LinkedIn
 
 Although China is the most well-known country for blocking sites, other countries also block services - like Google (e.g. Iran, Syria) and YouTube (e.g. Pakistan, Syria).
 

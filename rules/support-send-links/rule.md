@@ -1,5 +1,5 @@
 ---
-seoDescription: Ensure customer support responses are effective by including relevant documentation links. 
+seoDescription: Ensure customer support responses are effective by including relevant documentation links.
 type: rule
 archivedreason:
 title: Do you send links when offering support?
@@ -8,10 +8,10 @@ uri: support-send-links
 created: 2024-09-02T02:45:54.0000000Z
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-related: 
+    url: https://ww.ssw.com.au/people/adam-cogan
+related:
   - knowledge-base-kb
 redirects: []
 ---
@@ -60,7 +60,7 @@ After a while, you will build a great library of documentation that customers wi
 
 **Exceptions to this rule:**
 
-* **Do not** write a documentation page if fixing the bug and releasing a new version solves the problem. In this case, create a PBI (or find an existing one) and reply with the link to it.
-* **Do not** write a documentation page or PBI if the question/answer is irrelevant to your product, e.g., "Next.js - how do I deploy my app?" (This is not relevant to TinaCMS.)
+- **Do not** write a documentation page if fixing the bug and releasing a new version solves the problem. In this case, create a PBI (or find an existing one) and reply with the link to it.
+- **Do not** write a documentation page or PBI if the question/answer is irrelevant to your product, e.g., "Next.js - how do I deploy my app?" (This is not relevant to TinaCMS.)
 
 **🤖 AI Tip:** Consider training a chatbot on your documentation to help answer common questions automatically. [Learn more about implementing a chatbot](https://www.ssw.com.au/rules/website-chatbot/)

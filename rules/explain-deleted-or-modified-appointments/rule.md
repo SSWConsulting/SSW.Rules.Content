@@ -7,13 +7,13 @@ seoDescription: Appointments changed or deleted require explicit explanations to
 uri: explain-deleted-or-modified-appointments
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
+    url: https://ww.ssw.com.au/people/jimmy-chen
 related:
   - do-you-know-to-update-a-blog
   - do-you-know-how-to-add-or-remove-someone-from-the-conversation
@@ -43,13 +43,14 @@ You should add to altered appointments to track this:
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | SSWBrisbaneAll; Uly |
-| Location: | SSW Brisbane office |
-| Start time: | 21/04/2024 @ 1PM |
-| End time: | 21/04/2024 @ 2PM |
-| Subject: | Marketing - plans for next FY |
+|             |                               |
+| ----------- | ----------------------------- |
+| To:         | SSWBrisbaneAll; Uly           |
+| Location:   | SSW Brisbane office           |
+| Start time: | 21/04/2024 @ 1PM              |
+| End time:   | 21/04/2024 @ 2PM              |
+| Subject:    | Marketing - plans for next FY |
+
 ::: email-content
 
 Deleted: Meeting has been cancelled

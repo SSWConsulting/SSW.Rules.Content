@@ -8,7 +8,7 @@ uri: what-your-audience-sees-is-as-important-as-your-content
 created: 2017-08-14T19:45:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-keep-eye-contact-with-the-audience
 redirects:
@@ -17,8 +17,8 @@ redirects:
 
 The following video explains the importance of:
 
-* Hand gestures
-* An upbeat voice (especially at the beginning of your talk, or during an elevator pitch)
+- Hand gestures
+- An upbeat voice (especially at the beginning of your talk, or during an elevator pitch)
 
 <!--endintro-->
 

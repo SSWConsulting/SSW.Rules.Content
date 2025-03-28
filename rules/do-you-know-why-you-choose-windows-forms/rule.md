@@ -5,7 +5,7 @@ title: Do you know why you choose Windows Forms?
 uri: do-you-know-why-you-choose-windows-forms
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T01:48:00.000Z
 guid: dc5f2302-9b68-4735-8c67-9e787bb675af
 ---

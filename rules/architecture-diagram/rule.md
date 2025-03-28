@@ -4,11 +4,11 @@ title: Do you have an Architecture Diagram?
 uri: architecture-diagram
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - awesome-documentation
   - azure-resources-diagram
@@ -77,7 +77,7 @@ See SSW rule: [Do you generate dependency graphs?](/generate-dependency-graphs)
 Your architecture diagram should show how the components of your solution fit together. It should also show **how** the components of the architecture depend on each other for functionality, as well as upstream and downstream data dependencies.
 
 ::: ok img-medium
-![Figure: OK example - Shows the technologies and data flows (from the data --&gt; Azure Data Factory --&gt; Azure Databricks --&gt; Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
+![Figure: OK example - Shows the technologies and data flows (from the data --> Azure Data Factory --> Azure Databricks --> Power BI). This gives an overview of the whole application in one diagram.](architecture-diagram-good1.png)
 :::
 
 ### Tip #4: Put data at the top
@@ -131,7 +131,7 @@ It is definitely the most popular diagram tool at SSW:
 ![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good img-medium
-![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document](TimePRO-Architecture-Diagram-v2.png)
+![Figure: Better example - TimePro (an Angular + .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document](TimePRO-Architecture-Diagram-v2.png)
 :::
 
 Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
@@ -164,9 +164,9 @@ Maintain standards to keep your diagrams consistent:
 
 ### Tip #9: Where to store Diagrams?
 
-Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder).
+Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\\* folder).
 
-**Note:** If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs**\\* folder.
+**Note:** If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs**\\\* folder.
 
 ### Tip #10: Use Azure Architecture Center
 

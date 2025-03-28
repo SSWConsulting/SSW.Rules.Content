@@ -5,7 +5,7 @@ title: Do you have a single focus number for each report when possible?
 uri: single-focus-number
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: null
 created: 2021-05-14T06:06:33.000Z
 archivedreason: null

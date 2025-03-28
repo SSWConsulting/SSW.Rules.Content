@@ -5,9 +5,9 @@ title: Do you know how to describe the work you have done?
 uri: how-to-describe-the-work-you-have-done
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-describe-the-work-you-have-done

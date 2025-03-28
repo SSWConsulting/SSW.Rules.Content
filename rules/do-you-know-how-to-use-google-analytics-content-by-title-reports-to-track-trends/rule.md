@@ -8,7 +8,7 @@ uri: do-you-know-how-to-use-google-analytics-content-by-title-reports-to-track-t
 created: 2010-09-17T09:38:11.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

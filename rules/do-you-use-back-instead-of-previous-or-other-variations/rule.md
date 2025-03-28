@@ -8,9 +8,9 @@ uri: do-you-use-back-instead-of-previous-or-other-variations
 created: 2009-12-04T09:16:18.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: https://ww.ssw.com.au/people/tristan-kurniawan
 related: []
 redirects:
   - do-you-use-＂-back＂-instead-of-＂-previous＂-or-other-variations

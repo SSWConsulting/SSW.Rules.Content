@@ -5,7 +5,7 @@ title: Do you update your packages regularly?
 uri: do-you-update-your-packages-regularly
 authors:
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Zach Keeping
     url: https://www.ssw.com.au/people/zach-keeping
 related: []

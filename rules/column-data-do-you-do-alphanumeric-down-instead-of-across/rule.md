@@ -5,7 +5,7 @@ title: Column Data - Do you do alphanumeric down instead of across?
 uri: column-data-do-you-do-alphanumeric-down-instead-of-across
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T01:58:25.000Z

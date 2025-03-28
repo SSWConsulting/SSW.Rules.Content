@@ -8,9 +8,9 @@ uri: high-level-migration-plan
 created: 2016-05-20T02:01:48.0000000Z
 authors:
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects:
   - do-you-have-a-migration-plan

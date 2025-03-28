@@ -5,13 +5,14 @@ title: Do you use Thin Controllers, Fat Models, and Dumb Views?
 uri: do-you-use-thin-controllers-fat-models-and-dumb-views
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-07-18T17:54:57.000Z
 archivedreason: null
 guid: 34f6ddc4-1906-4baa-b4ac-5aa37e308e9c
 ---
+
 See more about **Thin Controllers**, **Fat Models**, and **Dumb Views**.
 
 <!--endintro-->
@@ -27,7 +28,7 @@ It is also responsible for process flow.
 public ActionResult Details(decimal todaysWeather)
 {
   var todaysWeatherInFarhenheit = ((9.0 / 5.0) \* todaysWeather) + 32;
-  return View(todaysWeatherInFarhenheit); 
+  return View(todaysWeatherInFarhenheit);
 }
 ```
 
@@ -38,7 +39,7 @@ ActionResult Index()
 {
   var todaysWeather = weatherDB.Today.ToList();
   return View(todaysWeather);
-} 
+}
 ```
 
 **Figure: The controller is coordinating between the business layer and the view**
@@ -50,7 +51,7 @@ public ActionResult Details(int? id)
     return RedirectToAction("Index");
 
   return View();
-} 
+}
 ```
 
 **Figure: The controller is co-ordinating process flow (directing traffic)**
@@ -68,7 +69,7 @@ The view should never go out and get information from somewhere else.
 
 @{
   var outsidetempinfahrenheit = ((9.0 / 5.0) \* model.outsideTemp) + 32;
-  var weatherMessage = "Hello, it is " + outsidetempinfahrenheit + " 
+  var weatherMessage = "Hello, it is " + outsidetempinfahrenheit + "
   degrees.";
 }
 <p>Today's weather: @weatherMessage</p>; Figure: Business logic is mixed in with the view @{ var theMonth = DateTime.Now.Month; }

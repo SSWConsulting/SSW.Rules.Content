@@ -5,9 +5,9 @@ seoDescription: Add context and reasoning to your emails for better clarity and 
 uri: add-context-reasoning-to-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - dones-do-your-dones-include-a-url
   - keep-email-history
@@ -19,7 +19,6 @@ redirects:
 created: 2009-03-27T03:20:53.000Z
 archivedreason: null
 guid: 0b07e78b-2624-46fd-bad1-ad767b7bf725
-
 ---
 
 Sometimes you send an email and get a response saying it's too cryptic. Never assume that others will understand you. When sending an email it's very important to add context and reasoning, and make yourself as clear as possible. This way anyone can understand your content at any time in the future.
@@ -34,10 +33,11 @@ Also make sure to always [keep the history of an email](/keep-email-history), so
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Dave |
+|          |          |
+| -------- | -------- |
+| To:      | Dave     |
 | Subject: | Map link |
+
 ::: email-content
 
 ### Hi Dave
@@ -52,10 +52,11 @@ Figure: Bad example - There is no context or reasoning
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Dave |
+|          |                                                 |
+| -------- | ----------------------------------------------- |
+| To:      | Dave                                            |
 | Subject: | SSW.Website - Office page - Add link to address |
+
 ::: email-content
 
 ### Hi Dave

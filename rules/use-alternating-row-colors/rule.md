@@ -6,13 +6,12 @@ title: Data Layout - Do you use alternating row colors?
 guid: e0403fd3-ddbb-43e8-847b-4cb83e8180e7
 uri: use-alternating-row-colors
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - when-to-use-reporting-services
 redirects: []
-
 ---
 
 For readability, always use alternating row colors.

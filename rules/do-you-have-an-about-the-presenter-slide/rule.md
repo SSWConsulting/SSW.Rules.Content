@@ -5,9 +5,9 @@ title: Do you have an 'About the Presenter' slide?
 uri: do-you-have-an-about-the-presenter-slide
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: https://ww.ssw.com.au/people/ken-shi
 related: []
 redirects: []
 created: 2010-06-08T10:04:10.000Z

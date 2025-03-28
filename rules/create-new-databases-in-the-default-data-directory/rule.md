@@ -1,18 +1,17 @@
 ---
 seoDescription: Learn how to create SQL Server databases without specifying paths using default settings for simpler, version-agnostic scripts.
 type: rule
-archivedreason: 
+archivedreason:
 title: DBAs - Do you create new databases in the default data directory?
 guid: 9bc0d25e-9ea7-4abc-9f9c-b59099a00a78
 uri: create-new-databases-in-the-default-data-directory
 created: 2019-11-22T21:21:30.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- dbas-do-you-create-new-databases-in-the-default-data-directory
-
+  - dbas-do-you-create-new-databases-in-the-default-data-directory
 ---
 
 When trying to create a database in SQL Server 2005 from an existing create script written for SQL Server 2000, we came across a problem. Our create script was trying to determine the path to save the database file (the path to the default data store) by using the sysdevices table in the Master database; however, the schema for the Master database had changed in 2005 and our script could no longer find the column it relied on to determine this path.
@@ -33,18 +32,18 @@ FROM master.dbo.sysdevices
 WHERE (name = N'master')
 EXECUTE (N'
 CREATE DATABASE [DatabaseName]
- ON PRIMARY 
+ ON PRIMARY
  (
- NAME = N''[DatabaseName]'', 
+ NAME = N''[DatabaseName]'',
  FILENAME = N''' + @device_directory + N'[DatabaseName].mdf''
  )
- LOG ON 
+ LOG ON
  (
- NAME = N''[DatabaseName]_log'', 
+ NAME = N''[DatabaseName]_log'',
  FILENAME = N''' + @device_directory + N'[DatabaseName].ldf''
- ) 
+ )
   COLLATE SQL_Latin1_General_CP1_CI_AS
- ' 
+ '
  )
 Go
 ```

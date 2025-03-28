@@ -7,9 +7,9 @@ authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
 redirects:
   - do-you-monitor-your-seo-effectively
   - monitor-your-seo-effectively

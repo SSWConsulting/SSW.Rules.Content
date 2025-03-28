@@ -8,9 +8,9 @@ uri: do-you-run-events
 created: 2018-03-21T06:07:51.0000000Z
 authors:
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: https://ww.ssw.com.au/people/brittany-lawrence
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: https://ww.ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []

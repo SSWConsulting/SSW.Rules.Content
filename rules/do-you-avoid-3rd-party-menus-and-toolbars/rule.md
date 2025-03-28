@@ -5,7 +5,7 @@ title: Do you avoid 3rd party menus & toolbars?
 uri: do-you-avoid-3rd-party-menus-and-toolbars
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:52:00.000Z
 guid: 054ba3cc-b30a-4446-9505-ba2f83a78a92
 ---

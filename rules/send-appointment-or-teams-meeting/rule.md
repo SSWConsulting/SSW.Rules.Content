@@ -8,9 +8,9 @@ uri: send-appointment-or-teams-meeting
 created: 2020-03-27T21:29:28.0000000Z
 authors:
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - appointments-do-you-send-outlook-calendar-appointments-when-appropriate
   - do-you-make-your-team-meetings-easy-to-find

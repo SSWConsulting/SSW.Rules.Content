@@ -2,29 +2,28 @@
 seoDescription: Discover the best dependency injection containers for .NET applications, including Autofac, Unity, and more, with insights on choosing the right one for your needs.
 type: rule
 archivedreason:
-title: Do you know the best dependency injection container? 
+title: Do you know the best dependency injection container?
 guid: d4fc76e9-0802-48bd-83d7-4e068a19d33b
 uri: the-best-dependency-injection-container
 created: 2013-02-01T16:43:44.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
-- title: Yazhi Chen
-  url: https://ssw.com.au/people/yazhi-chen
+  - title: Adam Stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Brendan Richards
+    url: https://ww.ssw.com.au/people/brendan-richards
+  - title: Yazhi Chen
+    url: https://ww.ssw.com.au/people/yazhi-chen
 related:
-- do-you-use-a-dependency-injection-centric-architecture
-- generate-dependency-graphs
-- do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
+  - do-you-use-a-dependency-injection-centric-architecture
+  - generate-dependency-graphs
+  - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
 redirects:
-- do-you-know-the-best-dependency-injection-container-(aka-dont-waste-days-evaluating-ioc-containers)
-- do-you-know-the-best-dependency-injection-container-(aka-don’t-waste-days-evaluating-ioc-containers)
-- do-you-know-the-best-dependency-injection-container-aka-do-not-waste-days-evaluating-ioc-containers
-- do-you-know-the-best-dependency-injection-container-(aka-do-not-waste-days-evaluating-ioc-containers)
-
+  - do-you-know-the-best-dependency-injection-container-(aka-dont-waste-days-evaluating-ioc-containers)
+  - do-you-know-the-best-dependency-injection-container-(aka-don’t-waste-days-evaluating-ioc-containers)
+  - do-you-know-the-best-dependency-injection-container-aka-do-not-waste-days-evaluating-ioc-containers
+  - do-you-know-the-best-dependency-injection-container-(aka-do-not-waste-days-evaluating-ioc-containers)
 ---
 
 ## IoC (Inversion of Control) and Dependency Injection
@@ -43,20 +42,20 @@ However, in larger applications, manually registering dependencies can become cu
 
 ## .NET IoC containers
 
-* [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) (recommended)
-* [Autofac](https://autofac.org/)
-* [Unity](https://github.com/unitycontainer/unity)
-* [Castle Winsdor](https://github.com/castleproject/Windsor)
-* [StructureMap](https://github.com/structuremap/structuremap) (not recommended)
-* [Ninject](https://github.com/ninject/Ninject) (not recommended)
-* (and more)
+- [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) (recommended)
+- [Autofac](https://autofac.org/)
+- [Unity](https://github.com/unitycontainer/unity)
+- [Castle Winsdor](https://github.com/castleproject/Windsor)
+- [StructureMap](https://github.com/structuremap/structuremap) (not recommended)
+- [Ninject](https://github.com/ninject/Ninject) (not recommended)
+- (and more)
 
 When selecting a Dependency Injection container it is worth considering a number of factors such as:
 
-* Ease of use
-* Configurability: Fluent API and/or XML Configuration
-* Performance (Unless you have a very high traffic application the difference should be minimal)
-* NuGet Support
+- Ease of use
+- Configurability: Fluent API and/or XML Configuration
+- Performance (Unless you have a very high traffic application the difference should be minimal)
+- NuGet Support
 
 The top tools all contain comparable functionality. In practice which one you use makes little difference, especially when you consider that your container choice should not leak into your domain model.
 
@@ -72,8 +71,8 @@ The top tools all contain comparable functionality. In practice which one you us
 public class Program
 {
     private static void Main()
-    {        
-        IContainer container = IoC.Initialize(); 
+    {
+        IContainer container = IoC.Initialize();
         new BadgeTaskJob(container).Run();
     }
 }

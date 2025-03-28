@@ -2,13 +2,13 @@
 seoDescription: Correctly using "configuration" and "customization" terms in TFS context refers to changes made to application settings versus adapting TFS to fit a customized process.
 type: rule
 archivedreason:
-title: "Do you know how to correctly use the terms: Configuration and Customization in the TFS context?"
+title: 'Do you know how to correctly use the terms: Configuration and Customization in the TFS context?'
 guid: 6f76bbd9-96da-4e4a-8023-f4bcedc6d51d
 uri: do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
 created: 2013-06-24T06:28:57.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects: []
 ---

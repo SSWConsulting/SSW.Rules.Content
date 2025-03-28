@@ -5,7 +5,7 @@ title: Do you use async/await for all IO-bound operations?
 uri: use-async-await-for-all-io-bound-operations
 authors:
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects:
   - do-you-use-async-await-for-all-io-bound-operations

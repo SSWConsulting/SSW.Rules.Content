@@ -7,9 +7,9 @@ seoDescription: Calendar permissions allow you to share your calendar with admin
 uri: calendar-do-you-allow-full-access-to-calendar-admins
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
@@ -20,6 +20,7 @@ created: 2012-09-25T18:08:57.000Z
 archivedreason: null
 guid: c480d105-9c6a-4646-8391-b51eee0028bb
 ---
+
 Within a company, there are occasions that you are not able to access your computer to send sick emails, or you get a call from your client on the way to the office that you have to drive to a client site straight away; when such things happen, you need someone else to update your calendar when you call in, so others are aware of your availabilities.
 
 <!--endintro-->

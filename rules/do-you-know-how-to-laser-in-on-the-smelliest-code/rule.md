@@ -8,11 +8,11 @@ uri: do-you-know-how-to-laser-in-on-the-smelliest-code
 created: 2012-03-16T08:36:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
 ---

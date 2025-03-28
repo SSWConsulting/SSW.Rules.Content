@@ -5,9 +5,9 @@ seoDescription: Clear communication of fixed price project deployment and warran
 uri: fixed-price-deliver-the-project-and-start-the-warranty-period
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
     url: https://www.ssw.com.au/people/sam-smith
 related:

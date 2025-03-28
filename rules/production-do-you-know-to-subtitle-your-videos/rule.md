@@ -5,9 +5,9 @@ title: Post-Production - Do you subtitle your videos?
 uri: production-do-you-know-to-subtitle-your-videos
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects: []
 created: 2014-02-25T18:44:53.000Z

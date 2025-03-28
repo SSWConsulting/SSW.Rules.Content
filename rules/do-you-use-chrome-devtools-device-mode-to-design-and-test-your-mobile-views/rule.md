@@ -8,7 +8,7 @@ uri: do-you-use-chrome-devtools-device-mode-to-design-and-test-your-mobile-views
 created: 2015-02-16T06:10:29.0000000Z
 authors:
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
 ---

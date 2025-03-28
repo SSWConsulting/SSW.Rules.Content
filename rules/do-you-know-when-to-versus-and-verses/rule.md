@@ -2,15 +2,15 @@
 seoDescription: Learn when to use "versus" and "verses" with examples of poetry, sports, and legal scenarios.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
-title: "Do you know when to use versus and verses?"
+title: 'Do you know when to use versus and verses?'
 guid: d64f97cc-4c8e-48be-8cbf-79c924d8c385
 uri: do-you-know-when-to-versus-and-verses
 created: 2017-08-30T04:06:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
 related: []
 redirects:
   - tiny-do-you-know-when-to-use-versus-and-verses

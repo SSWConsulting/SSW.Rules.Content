@@ -5,7 +5,7 @@ title: Management - Do you fix bugs first?
 uri: fix-bugs-first
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - fix-bugs-via-phone
   - report-bugs-and-suggestions

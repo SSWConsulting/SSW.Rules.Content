@@ -1,13 +1,13 @@
 ---
 seoDescription: Measure DevOps performance and identify areas for improvement with a comprehensive survey.
 type: rule
-title: "DevOps – Stage 1: Do you know what things to measure?"
+title: 'DevOps – Stage 1: Do you know what things to measure?'
 uri: things-to-measure
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - devops-stage-1-do-you-know-what-things-to-measure

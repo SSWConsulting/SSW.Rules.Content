@@ -8,13 +8,13 @@ uri: human-friendly-date-and-time
 created: 2015-03-17T04:47:35.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - add-days-to-dates
   - date-and-time-of-change-as-tooltip
-  - sharepoint-format-dates-to-include-the-weekday 
+  - sharepoint-format-dates-to-include-the-weekday
 redirects:
   - do-you-display-dates-in-a-human-friendly-format
 ---

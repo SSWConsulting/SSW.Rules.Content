@@ -8,7 +8,7 @@ uri: have-a-migration-plan
 created: 2018-01-17T19:21:26.0000000Z
 authors:
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
 related: []
 redirects:
   - do-you-have-a-migration-plan

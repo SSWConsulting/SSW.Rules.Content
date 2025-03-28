@@ -8,7 +8,7 @@ uri: the-best-forms-solution
 created: 2017-09-15T19:46:24.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-best-forms-solution

@@ -5,11 +5,11 @@ title: Do you use right terms for user authentication?
 uri: user-authentication-terms
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - tiny-do-you-know-when-to-use-log-on-log-in-and-sign-in

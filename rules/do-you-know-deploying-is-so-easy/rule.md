@@ -5,7 +5,7 @@ title: Do you make deploying easy?
 uri: do-you-know-deploying-is-so-easy
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Jack Pettit

@@ -6,13 +6,12 @@ title: Do you know how to display reports in Firefox, Chrome and Safari (SQL Rep
 guid: f0e69d45-a0ae-4411-943a-a5ebb986fe2b
 uri: display-reports-in-firefox-chrome-safari
 created: 2024-09-16T09:13:00.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 SQL Reporting Services works great with Internet Explorer but other browsers sometimes don’t work correctly, Here’s the solution.
@@ -32,11 +31,11 @@ C:\Program Files\Microsoft SQL Server\MSRS10_50.MSSQLSERVER\Reporting Services\R
 Add the following java script:
 
 ```sql
-function pageLoad() {    
+function pageLoad() {
 var element = document.getElementById("ctl31_ctl10");
-if (element) 
+if (element)
 {
-       element.style.overflow = "visible"; 
+       element.style.overflow = "visible";
 } }
 ```
 

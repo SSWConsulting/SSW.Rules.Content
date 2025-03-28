@@ -5,7 +5,7 @@ title: Do you use port forwarding to test local builds?
 uri: port-forwarding
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 redirects:
   - do-you-use-dev-tunnels-to-test-local-builds
 created: 2023-02-06T01:31:37.930Z
@@ -21,7 +21,7 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/4Fvq_g8skHE`
-**Video: Simplify Remote Testing with Dev Tunnels | [Daniel Mackay](https://ssw.com.au/people/daniel-mackay/) | SSW Rules (7 min)**
+**Video: Simplify Remote Testing with Dev Tunnels | [Daniel Mackay](https://ww.ssw.com.au/people/daniel-mackay/) | SSW Rules (7 min)**
 
 ## Use Cases
 

@@ -8,11 +8,11 @@ uri: the-best-clean-architecture-learning-resources
 created: 2019-02-25T21:35:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://ww.ssw.com.au/people/jason-taylor
 related: []
 redirects:
   - the-best-resources-for-learning-clean-architecture-with-net-core
@@ -47,6 +47,6 @@ Also, this resource by Steve Smith is available as an online e-book and contains
 
 ## Courses
 
-* [SSW - Clean Architecture Dev Superpowers Tour](https://www.ssw.com.au/events/clean-architecture-superpowers-tour)
-* [SSW - Clean Architecture Hands on 2-day Workshop](https://www.ssw.com.au/events/clean-architecture-workshop)
-* [Pluralsight - Clean Architecture: Patterns, Practices, and Principles](https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles)
+- [SSW - Clean Architecture Dev Superpowers Tour](https://www.ssw.com.au/events/clean-architecture-superpowers-tour)
+- [SSW - Clean Architecture Hands on 2-day Workshop](https://www.ssw.com.au/events/clean-architecture-workshop)
+- [Pluralsight - Clean Architecture: Patterns, Practices, and Principles](https://www.pluralsight.com/courses/clean-architecture-patterns-practices-principles)

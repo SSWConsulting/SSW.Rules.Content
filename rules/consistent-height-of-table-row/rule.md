@@ -6,16 +6,16 @@ title: Data Layout - Do you have consistent height of table row across all your 
 guid: 8ae8f2c2-b0f2-4a55-8233-ee86ab6a3f33
 uri: consistent-height-of-table-row
 created: 2024-06-03T15:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Same height of table row across all reports gives users consistent and professional impression.
+
 <!--endintro-->
 
 We use the default height of table row (0.63492cm) as a standard to make sure all tables in our reports have consistent row height.

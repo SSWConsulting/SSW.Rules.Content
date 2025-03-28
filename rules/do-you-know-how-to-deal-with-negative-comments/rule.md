@@ -8,7 +8,7 @@ uri: do-you-know-how-to-deal-with-negative-comments
 created: 2020-06-01T04:19:02.0000000Z
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-know-how-to-deal-with-negative-and-inappropriate-comments

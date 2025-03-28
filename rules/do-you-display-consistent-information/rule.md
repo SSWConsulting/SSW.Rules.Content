@@ -5,11 +5,11 @@ title: Do you display consistent information?
 uri: do-you-display-consistent-information
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 related:
   - do-you-display-information-consistently
 created: 2014-03-14T02:44:00.000Z
-archivedreason: ""
+archivedreason: ''
 guid: 39deb70d-3853-4456-8838-43d273ffeb43
 ---
 

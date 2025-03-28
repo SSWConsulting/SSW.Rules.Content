@@ -8,7 +8,7 @@ uri: do-you-create-polls-to-engage-with-your-subscribers
 created: 2020-11-10T05:22:50.0000000Z
 authors:
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: https://ww.ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects: []
@@ -22,4 +22,4 @@ To create a Community post, go to the tab called “Community” from your chann
 
 1. You click on the Create button | Create post.
 2. Click Poll Icon
-3. Add your Questions and options in, once done press post
+   3. Add your Questions and options in, once done press post

@@ -8,7 +8,7 @@ uri: do-you-use-dynamic-application-loading-in-silverlight
 created: 2011-05-20T02:36:18.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related: []
 redirects: []
 ---

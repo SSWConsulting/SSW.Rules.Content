@@ -8,9 +8,9 @@ uri: avoid-large-attachments-in-emails
 created: 2009-03-31T03:15:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - how-to-share-a-file-folder-in-sharepoint
   - dones-do-you-include-useful-details-in-your-done-email
@@ -32,6 +32,7 @@ Avoid large attachments. If you are sending an email with attachments or images 
 * Images - Could I put this picture on Google Photos or another image server?
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -53,6 +54,7 @@ Figure: Bad example - Sending a large attachment
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |

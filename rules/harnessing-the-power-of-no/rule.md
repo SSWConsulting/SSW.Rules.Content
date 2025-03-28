@@ -6,7 +6,7 @@ seoDescription: Harnessing the power of 'no' responses to open up honest and
 uri: harnessing-the-power-of-no
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley
 related:

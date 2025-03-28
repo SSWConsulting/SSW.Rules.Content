@@ -8,9 +8,9 @@ uri: ensure-zendesk-is-not-marked-as-spam
 created: 2019-12-06T22:00:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - do-you-ensure-zendesk-is-not-marked-as-spam

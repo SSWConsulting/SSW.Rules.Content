@@ -8,7 +8,7 @@ uri: take-restoration-seriously
 created: 2019-11-21T01:53:43.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - backup-do-you-take-restoration-seriously

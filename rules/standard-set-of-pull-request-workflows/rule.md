@@ -8,9 +8,9 @@ uri: standard-set-of-pull-request-workflows
 created: 2020-08-12T01:21:08.0000000Z
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - merge-debt
 redirects: []

@@ -5,7 +5,7 @@ title: Do you know the open source contribution etiquette? (aka Don't re-order m
 uri: know-the-open-source-contribution-etiquette
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects:
   - do-you-know-open-source-contribution-etiquette-a-k-a-dont-re-order-my-house-when-you-fix-my-tap

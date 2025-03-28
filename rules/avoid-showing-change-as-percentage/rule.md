@@ -8,7 +8,7 @@ uri: avoid-showing-change-as-percentage
 created: 2023-12-11T14:38:33.0000000Z
 authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []

@@ -8,7 +8,7 @@ uri: do-you-avoid-data-junk-data-not-manually-entered-by-yourself
 created: 2014-12-01T00:51:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-＂data-junk＂-(data-not-manually-entered-by-yourself)

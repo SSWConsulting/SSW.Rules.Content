@@ -5,13 +5,13 @@ title: Do you use Group Policy to enable auditing of logon attempts​?
 uri: use-group-policy-to-enable-auditing-of-logon-attempts
 authors:
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
   - title: Chris Schultz
-    img: ""
-    url: https://ssw.com.au/people/chris-schultz
+    img: ''
+    url: https://ww.ssw.com.au/people/chris-schultz
   - title: Warwick Leahy
-    img: ""
-    url: https://ssw.com.au/people/warwick-leahy
+    img: ''
+    url: https://ww.ssw.com.au/people/warwick-leahy
 related: []
 redirects:
   - do-you-use-group-policy-to-enable-auditing-of-logon-attempts

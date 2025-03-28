@@ -5,7 +5,7 @@ title: Do you know how to check your social media statistics?
 uri: do-you-know-how-to-check-social-media-stats
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - do-you-know-how-to-check-your-social-media-stats

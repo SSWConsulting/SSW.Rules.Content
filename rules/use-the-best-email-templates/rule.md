@@ -6,12 +6,13 @@ seoDescription: Learn about the best email template software options to ensure
 uri: use-the-best-email-templates
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
   - title: Tanya Leahy
-    url: https://ssw.com.au/people/tanya-leahy
+    url: https://ww.ssw.com.au/people/tanya-leahy
 created: 2023-08-27T22:08:02.981Z
 guid: bcc7844e-98f7-476d-abdc-47b229b11619
 ---
+
 When sending repetitive emails, consistency across the organization is crucial. This ensures that past emails can easily be searched months after being sent. Email templates can help achieve this by ensuring that all communications are uniform and professional. With many email template options on the market, it is important to choose one that is enterprise ready.
 
 <!--endintro-->
@@ -19,7 +20,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 `youtube: https://youtu.be/WWn05-oFkN4`
 **Video: Email Template Showdown: We Put the Top Tools to the Test! | Tanya Leahy | Rules (16 mins)**
 
-| Options                          | ✅ Pros                                         | ❌ Cons                                                                       |
+| Options                          | ✅ Pros                                        | ❌ Cons                                                                      |
 | -------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------- |
 | **Outlook Templates**            | Simple to create, easily shared via SharePoint | Must create a new email, can't be used for meeting invites in calendars      |
 | **My Templates**                 | Simple to create                               | Can't be shared, 32KB limit, stored on the server                            |
@@ -53,7 +54,7 @@ More information on [Outlook Templates](https://support.microsoft.com/en-au/offi
 
 Simple to create but can't be shared with other users, have a 32KB limit, and are stored on the server in your mailbox.
 
-:::  
+:::
 
 ::: bad
 Figure: Bad example - My Templates are limited in size and sharing capabilities, making them less useful for collaborative environments

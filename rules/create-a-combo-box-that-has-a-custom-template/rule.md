@@ -5,7 +5,7 @@ title: Do you create a combo-box that has a custom template?
 uri: create-a-combo-box-that-has-a-custom-template
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - forms-do-you-include-the-number-of-results-in-comboboxes
 created: 2022-11-02T02:52:38.292Z

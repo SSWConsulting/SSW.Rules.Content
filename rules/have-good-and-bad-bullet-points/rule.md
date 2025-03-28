@@ -5,9 +5,9 @@ title: Do you have good and bad bullet points?
 uri: have-good-and-bad-bullet-points
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-change-bullet-points
@@ -16,7 +16,8 @@ created: 2010-06-08T10:13:26.000Z
 archivedreason: null
 guid: 46e978c9-3808-45da-be49-7851143cc711
 ---
-Make your positive and negative points a tick and cross.  
+
+Make your positive and negative points a tick and cross.
 
 <!--endintro-->
 

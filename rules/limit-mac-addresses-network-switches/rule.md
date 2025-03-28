@@ -1,19 +1,19 @@
 ---
 type: rule
-tips: ""
+tips: ''
 title: Do you limit MAC addresses on your network switches?
 seoDescription: Limiting MAC addresses on your network switches to enhance security, control access, and optimize network performance. Learn how and why to implement MAC address restrictions effectively.
 uri: limit-mac-addresses-network-switches
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related:
   - separate-networks
   - do-you-use-network-intrusion-prevention-systems
 guid: a1a2c8c4-efe5-42e8-8e25-bc52fac8ded5
 ---
 
-Have you ever faced a scenario where an unauthorized device is discreetly connected to an open port on your network switch, potentially intercepting sensitive data or disrupting critical services? This situation isn’t just theoretical - it can lead to serious security breaches, data theft, and system downtime if you do not restrict the MAC addresses allowed to connect.        
+Have you ever faced a scenario where an unauthorized device is discreetly connected to an open port on your network switch, potentially intercepting sensitive data or disrupting critical services? This situation isn’t just theoretical - it can lead to serious security breaches, data theft, and system downtime if you do not restrict the MAC addresses allowed to connect.
 
 <!--endintro-->
 
@@ -29,9 +29,9 @@ An open switch port accepts any device, allowing a malicious actor to connect an
 
 ## Benefits of limiting MAC addresses on network switches
 
-* **Increased security** - Restricts unauthorized hardware from accessing sensitive resources
-* **Stronger perimeter** - Keeps dangerous devices from infiltrating your network, especially at high-risk access points like camera ports
-* **Data protection** - Maintains the integrity and confidentiality of your data by ensuring only trusted devices connect
+- **Increased security** - Restricts unauthorized hardware from accessing sensitive resources
+- **Stronger perimeter** - Keeps dangerous devices from infiltrating your network, especially at high-risk access points like camera ports
+- **Data protection** - Maintains the integrity and confidentiality of your data by ensuring only trusted devices connect
 
 ### Particularly Vulnerable: Camera Ports
 

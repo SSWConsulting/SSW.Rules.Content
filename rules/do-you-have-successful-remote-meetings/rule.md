@@ -8,9 +8,9 @@ uri: do-you-have-successful-remote-meetings
 created: 2017-06-20T07:23:07.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - communication-do-you-know-the-options-for-remote-meetings

@@ -8,7 +8,7 @@ uri: add-text-captions-to-videos
 created: 2011-12-05T05:41:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - add-useful-and-concise-figure-captions
 redirects:
@@ -47,7 +47,7 @@ Here are some key points on why and how to effectively use text in videos:
 
 * **Directing focus:** Text can be used to guide viewers' attention to specific parts of the screen or specific elements within the video
 * **Step-by-step instructions:** In instructional or tutorial videos, on-screen text can guide viewers through each step, making the process easier to follow
-  
+
 ### Branding and Consistency
 
 * **Branding elements:** Incorporating your brand's colors, fonts, and logos in the text can reinforce brand identity and create a cohesive look

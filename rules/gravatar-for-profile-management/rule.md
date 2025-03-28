@@ -5,7 +5,7 @@ title: Do you implement Gravatar (or Cravatar for China) for profile management 
 uri: gravatar-for-profile-management
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Baba Kamyljanov
     url: https://www.ssw.com.au/people/baba-kamyljanov
 related: []

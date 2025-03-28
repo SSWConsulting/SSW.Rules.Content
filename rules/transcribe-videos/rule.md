@@ -8,7 +8,7 @@ uri: transcribe-videos
 created: 2015-12-07T17:41:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-transcribe-your-videos-for-google-juice

@@ -5,13 +5,13 @@ title: Do you capture software requirements by storyboarding?
 uri: storyboards
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jayden Alchin
     url: https://www.ssw.com.au/people/jayden-alchin
   - title: Geordie Robinson
-    url: https://ssw.com.au/people/geordie-robinson
+    url: https://ww.ssw.com.au/people/geordie-robinson
   - title: Ken Shi
-    url: https://ssw.com.au/people/ken-shi
+    url: https://ww.ssw.com.au/people/ken-shi
 related:
   - mockups-and-prototypes
   - generate-ui-mockups-with-ai

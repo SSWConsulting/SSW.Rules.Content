@@ -5,7 +5,7 @@ title: Do you improve web page performance with lazy loading of media assets?
 uri: improve-performance-with-lazy-loading-of-media-assets
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects:
   - do-you-know-how-to-improve-web-page-performance-with-lazy-loading-of-media-assets
@@ -47,10 +47,10 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
 1. Check if the browser supports IntersectionObserver, if the browser supports IntersectionObserver, we will only load images and videos in the areas are visible to users by default. If the browser doesn’t support it, we will have to load all images and embedded videos on the page immediately after the page is loaded.
 
    ```js
-   if (!("IntersectionObserver" in window)) {
-     console.log("No Intersection");
+   if (!('IntersectionObserver' in window)) {
+     console.log('No Intersection');
    } else {
-     console.log("Support intersection");
+     console.log('Support intersection');
    }
    ```
 
@@ -60,13 +60,13 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
    From
 
    ```html
-   <img alt="flight.jpg" src="https://ssw.com.au/images/flight.jpg" />
+   <img alt="flight.jpg" src="https://ww.ssw.com.au/images/flight.jpg" />
    ```
 
    to
 
    ```html
-   <img alt="flight.jpg" data-src="https://ssw.com.au/images/flight.jpg" />
+   <img alt="flight.jpg" data-src="https://ww.ssw.com.au/images/flight.jpg" />
    ```
 
 3. Use the below Javascript to change “data-src” back to “src” for the &lt;img&gt; html objects, which become visible, so that those images will be loaded
@@ -88,16 +88,16 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
 
    function preloadImage(target) {
      console.log(target);
-     if (target.getAttribute("data-src")) {
-       target.setAttribute("src", target.getAttribute("data-src"));
+     if (target.getAttribute('data-src')) {
+       target.setAttribute('src', target.getAttribute('data-src'));
      }
    }
 
    // Get images of class lazy
-   const images = document.querySelectorAll(".sswRuleSummaryUCDiv img");
+   const images = document.querySelectorAll('.sswRuleSummaryUCDiv img');
    const config = {
      // If image gets within 50px go get it
-     rootMargin: "50px 0px",
+     rootMargin: '50px 0px',
      threshold: 0.01,
    };
 
@@ -122,8 +122,7 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
      width="853"
      height="480"
      src="https://www.youtube.com/embed/OhVYTOKCsWI"
-     frameborder="0"
-   ></iframe>
+     frameborder="0"></iframe>
    ```
 
    To
@@ -135,8 +134,7 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
      data-iframeheight="480"
      data-iframecode="OhVYTOKCsWI"
      data-iframesrc="https://www.youtube.com/embed/OhVYTOKCsWI"
-     frameborder="0"
-   >
+     frameborder="0">
      <!-- (2) the "play" button -->
      <div class="play-button"></div>
    </div>
@@ -145,34 +143,34 @@ The page's initial loading size of JS scripts reduced from 2.3MB to 518KB after 
 3. Use the below code to convert “&lt;div&gt;” to “&lt;iframe&gt;” to load the embedded videos when they are visible while scrolling down:
 
    ```js
-   let youtube = document.querySelectorAll("div[data-iframesrc]");
+   let youtube = document.querySelectorAll('div[data-iframesrc]');
 
    for (var i = 0; i < youtube.length; i++) {
      let source =
-       "https://img.youtube.com/vi/" +
+       'https://img.youtube.com/vi/' +
        youtube[i].dataset.iframecode +
-       "/sddefault.jpg";
+       '/sddefault.jpg';
 
      let image = new Image();
      image.src = source;
      image.addEventListener(
-       "load",
+       'load',
        (function () {
          youtube[i].appendChild(image);
        })(i)
      );
 
-     youtube[i].addEventListener("click", function () {
-       let iframe = document.createElement("iframe");
-       iframe.setAttribute("frameborder", "0");
-       iframe.setAttribute("allowfullscreen", "");
-       iframe.setAttribute("width", this.dataset.iframewidth);
-       iframe.setAttribute("height", this.dataset.iframeheight);
+     youtube[i].addEventListener('click', function () {
+       let iframe = document.createElement('iframe');
+       iframe.setAttribute('frameborder', '0');
+       iframe.setAttribute('allowfullscreen', '');
+       iframe.setAttribute('width', this.dataset.iframewidth);
+       iframe.setAttribute('height', this.dataset.iframeheight);
        iframe.setAttribute(
-         "src",
-         this.dataset.iframesrc + "?rel=0&showinfo=0&autoplay=1"
+         'src',
+         this.dataset.iframesrc + '?rel=0&showinfo=0&autoplay=1'
        );
-       this.innerHTML = "";
+       this.innerHTML = '';
        this.appendChild(iframe);
      });
    }

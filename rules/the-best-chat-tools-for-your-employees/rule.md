@@ -5,7 +5,7 @@ title: Communication - Do you know the best chat tools for your employees?
 uri: the-best-chat-tools-for-your-employees
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - communication-do-you-know-the-best-chat-tools-for-your-employees

@@ -8,7 +8,7 @@ uri: do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 created: 2013-07-28T03:04:16.0000000Z
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related:
   - do-you-use-bundling-and-or-amd
   - do-you-treat-javascript-like-a-real-language

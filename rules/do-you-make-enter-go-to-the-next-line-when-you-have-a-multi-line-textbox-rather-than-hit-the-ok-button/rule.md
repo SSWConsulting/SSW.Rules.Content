@@ -6,7 +6,7 @@ title: Do you make "Enter" go to the next line when you have a multi-line
 uri: do-you-make-enter-go-to-the-next-line-when-you-have-a-multi-line-textbox-rather-than-hit-the-ok-button
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:52:00.000Z
 guid: 441436ff-d142-48e8-b057-c225060259c9
 ---

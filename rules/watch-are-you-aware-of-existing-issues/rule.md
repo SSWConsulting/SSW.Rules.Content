@@ -5,7 +5,7 @@ title: Watch - Do you disclose existing issues?
 uri: watch-are-you-aware-of-existing-issues
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 created: 2010-05-20T10:35:32.000Z

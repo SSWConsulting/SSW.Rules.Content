@@ -5,13 +5,14 @@ title: Do you know why to use const assertions instead of TypeScript enums?
 uri: typescript-enums
 authors:
   - title: Harry Ross
-    url: https://ssw.com.au/people/harry-ross
-related: 
+    url: https://ww.ssw.com.au/people/harry-ross
+related:
   - use-enums-instead-of-hard-coded-strings
 created: 2024-03-19T21:39:38.906Z
 archivedreason: null
 guid: ba19be99-354d-44b2-a2da-4131cc660f18
 ---
+
 It's super important to ensure that [magic strings are not used in your codebase](/use-enums-instead-of-hard-coded-strings/). Typically, we would use constant values or enums to solve this problem, but this may not be applicable when using TypeScript. You might expect TypeScript enums to function like strongly typed languages like C# but often this is not the case.
 
 <!--endintro-->
@@ -27,9 +28,9 @@ When you define an enum like this:
 
 ```ts
 enum Fruits {
-    Apple,
-    Banana,
-    Cherry
+  Apple,
+  Banana,
+  Cherry,
 }
 ```
 
@@ -38,16 +39,16 @@ When compiled to JavaScript, it looks like:
 ```js
 var Fruits;
 (function (Fruits) {
-    Fruits[Fruits["Apple"] = 0] = "Apple";
-    Fruits[Fruits["Banana"] = 1] = "Banana";
-    Fruits[Fruits["Cherry"] = 2] = "Cherry";
+  Fruits[(Fruits['Apple'] = 0)] = 'Apple';
+  Fruits[(Fruits['Banana'] = 1)] = 'Banana';
+  Fruits[(Fruits['Cherry'] = 2)] = 'Cherry';
 })(Fruits || (Fruits = {}));
 ```
 
 However, this makes it hard to loop over the keys of the enum, as when you run `Object.keys(Fruits)` you would get the following array returned:
 
 ```ts
-["0", "1", "2", "Apple", "Banana", "Cherry"] 
+['0', '1', '2', 'Apple', 'Banana', 'Cherry'];
 ```
 
 ::: bad
@@ -57,19 +58,19 @@ Bad example - An irritating DX, instead of returning just the values of the enum
 Instead, a much cleaner option is by using [const assertions](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-4.html#const-assertions). With const assertions we can be sure the code is using the string values we want:
 
 ```ts
-const fruits = ["Apple", "Banana", "Cherry"] as const;
+const fruits = ['Apple', 'Banana', 'Cherry'] as const;
 ```
 
 Now, if we look into the content of the shapes array using:
 
 ```ts
-type Fruit = typeof fruits[number];
+type Fruit = (typeof fruits)[number];
 ```
 
 We can construct this type from the above array, which is equivalent to:
 
 ```ts
-type Fruit = "Apple" | "Banana" | "Cherry";
+type Fruit = 'Apple' | 'Banana' | 'Cherry';
 ```
 
 ::: good
@@ -84,13 +85,13 @@ This makes it super easy to loop over keys within a union type. This also allows
 
 ```tsx
 enum Icon {
-  sun = "sun",
-  moon = "moon"
+  sun = 'sun',
+  moon = 'moon',
 }
 
 const icons: Record<Icon, string> = {
-  sun: "sun_12345.jpg",
-  moon: "moon_543212.jpg"
+  sun: 'sun_12345.jpg',
+  moon: 'moon_543212.jpg',
 };
 ```
 
@@ -102,8 +103,8 @@ This is problematic, as it provides us no useful type hints for object values, a
 
 ```tsx
 const icons = {
-  sun: "sun_12345.jpg",
-  moon: "moon_543212.jpg",
+  sun: 'sun_12345.jpg',
+  moon: 'moon_543212.jpg',
 } as const;
 
 type IconKey = keyof typeof icons; // "sun" | "moon" union type

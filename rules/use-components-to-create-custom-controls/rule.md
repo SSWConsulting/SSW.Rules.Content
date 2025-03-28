@@ -8,7 +8,7 @@ uri: use-components-to-create-custom-controls
 created: 2020-10-27T23:03:15.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-use-components-to-create-custom-controls-canvas-app

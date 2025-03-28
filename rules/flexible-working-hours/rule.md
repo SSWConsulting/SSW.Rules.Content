@@ -8,7 +8,7 @@ uri: flexible-working-hours
 created: 2020-03-25T23:53:51.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related:
   - calendar-do-you-set-your-work-hours-in-your-calendars
 redirects:

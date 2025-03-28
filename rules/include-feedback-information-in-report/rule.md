@@ -5,7 +5,7 @@ title: Layout - Do you include feedback information in the report?
 uri: include-feedback-information-in-report
 authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - ai-critique-reports-dashboards
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using

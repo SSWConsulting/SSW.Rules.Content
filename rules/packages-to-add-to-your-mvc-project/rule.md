@@ -5,13 +5,13 @@ title: Do you know which packages to add to new MVC projects?
 uri: packages-to-add-to-your-mvc-project
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Andrew Harris
-    url: https://ssw.com.au/people/andrew-harris
+    url: https://ww.ssw.com.au/people/andrew-harris
 related:
   - clean-architecture-get-started
 redirects:
@@ -29,29 +29,29 @@ Adding old, obsolete or incorrect packages can lead to decreased performance, sc
 
 ❌ Some technologies to **avoid** are:
 
-* MVC Web Forms
-* KnockoutJS
-* AngularJS
-* Gulp
+- MVC Web Forms
+- KnockoutJS
+- AngularJS
+- Gulp
 
 When creating a new MVC project, we recommend you use the [Clean Architecture Template](/clean-architecture-get-started). This template not only gives you a great structure, but it also includes all the required packages.
 
 ✅ Some of the NuGet packages included:
 
-* EntityFramework
-* FluentValidation
-* NSwag
-* AutoMapper
-* MediatR
+- EntityFramework
+- FluentValidation
+- NSwag
+- AutoMapper
+- MediatR
 
 ✅ Some of the NPM packages included:
 
-* Angular
-* FontAwesome
-* RxJs
-* NgRx
-* Bootstrap
-* TypeScript
+- Angular
+- FontAwesome
+- RxJs
+- NgRx
+- Bootstrap
+- TypeScript
 
 ::: info
 **Note:** This is part of [SugarLearning Developer Induction](https://sugarlearning.com/companies/SSW/modules/5099/induction-day-3-developer-induction).

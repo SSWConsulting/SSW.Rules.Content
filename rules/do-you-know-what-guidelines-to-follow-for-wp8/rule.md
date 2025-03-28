@@ -8,7 +8,7 @@ uri: do-you-know-what-guidelines-to-follow-for-wp8
 created: 2013-10-31T05:42:10.0000000Z
 authors:
   - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
+    url: https://ww.ssw.com.au/people/jernej-kavka
 related: []
 redirects: []
 ---

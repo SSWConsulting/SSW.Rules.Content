@@ -8,9 +8,9 @@ uri: project-planning-do-you-download-a-copy-of-the-microsoft-crm-implementation
 created: 2012-12-10T17:25:20.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects: []
 ---

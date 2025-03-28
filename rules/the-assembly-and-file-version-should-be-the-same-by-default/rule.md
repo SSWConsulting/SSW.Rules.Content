@@ -5,7 +5,7 @@ title: Do you keep the assembly and file version the same by default?
 uri: the-assembly-and-file-version-should-be-the-same-by-default
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 85981b84-a493-4e60-aeb7-de735b6c4afb

@@ -5,7 +5,7 @@ title: Do you use a regular expression to validate an URL?
 uri: use-a-regular-expression-to-validate-an-uri
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-a-regular-expression-to-validate-an-url

@@ -5,7 +5,7 @@ title: Do you know whether you should use Click Once or MSI?
 uri: use-click-once-or-msi
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 97d83855-0de7-4200-a1ca-071efe18fd23

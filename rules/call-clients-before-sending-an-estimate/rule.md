@@ -8,11 +8,10 @@ uri: call-clients-before-sending-an-estimate
 created: 2010-07-16T04:23:52.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - for-existing-clients-do-you-always-call-them-before-sending-a-quote
-
 ---
 
 When you're competing for someone's business, what could be worse than losing the work simply because the client either didn't receive your email, or was too busy to read it?
@@ -31,5 +30,5 @@ As per our conversation today, here is a ballpark schedule for the work we talke
 
 :::
 ::: good
-Figure: Good example - Sending the email after a call**
+Figure: Good example - Sending the email after a call\*\*
 :::

@@ -8,7 +8,7 @@ uri: do-you-always-know-what-are-you-working-on
 created: 2010-04-07T01:36:00.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

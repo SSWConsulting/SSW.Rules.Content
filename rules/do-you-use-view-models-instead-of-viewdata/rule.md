@@ -5,9 +5,9 @@ title: Do you use viewModel instead of ViewData?
 uri: do-you-use-view-models-instead-of-viewdata
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
   - title: Baba Kamyljanov
-    url: https://ssw.com.au/people/baba-kamyljanov
+    url: https://ww.ssw.com.au/people/baba-kamyljanov
 related: []
 redirects: []
 created: 2013-03-07T18:23:38.000Z
@@ -17,8 +17,8 @@ guid: ad2abb14-7013-4ab0-ac89-d362914640d5
 
 ASP.NET CORE MVC provides several ways to pass data to views:
 
-* **Weakly typed data:** ViewData and ViewBag
-* **Strongly typed data:** ViewModel
+- **Weakly typed data:** ViewData and ViewBag
+- **Strongly typed data:** ViewModel
 
 <!--endintro-->
 

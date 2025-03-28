@@ -8,9 +8,9 @@ uri: do-you-know-when-and-when-not-to-use-email
 created: 2009-03-24T05:12:14.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - do-a-retrospective
 redirects: []

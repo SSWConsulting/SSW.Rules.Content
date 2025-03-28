@@ -6,9 +6,9 @@ title: General - Standards Watchdog - Do you provide the reason behind the rules
 uri: do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
 related: []
 redirects:
   - general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
@@ -21,11 +21,11 @@ Learning lessons the hard way is a fact of life, but one of the great things abo
 
 <!--endintro-->
 
-> *"The floggings will continue until morale improves"*
+> _"The floggings will continue until morale improves"_
 >
 > \- A bad manager
 
-Everyone makes mistakes. If you run around wielding your authority as a cudgel, telling them they'd better comply *or else*, two things will happen:
+Everyone makes mistakes. If you run around wielding your authority as a cudgel, telling them they'd better comply _or else_, two things will happen:
 
 1. They will resent you
 2. They will only bother following standards when you're around
@@ -34,12 +34,13 @@ For example: if one of your standards is for developers to send "test please" em
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| From:    | Boss |
-| To:      | Mark |
+|          |                      |
+| -------- | -------------------- |
+| From:    | Boss                 |
+| To:      | Mark                 |
 | Subject: | No test please email |
-::: email-content  
+
+::: email-content
 
 ### Hi Mark
 
@@ -55,12 +56,13 @@ Figure: Bad example - This email doesn't tell Mark why this is so important.
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| From:    | Boss |
-| To:      | Mark |
+|          |                             |
+| -------- | --------------------------- |
+| From:    | Boss                        |
+| To:      | Mark                        |
 | Subject: | Test Please emails standard |
-::: email-content  
+
+::: email-content
 
 ### Hi Mark
 

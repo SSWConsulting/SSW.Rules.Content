@@ -6,17 +6,17 @@ title: Data Layout - Do you use 3D cylinder in column chart?
 guid: e8ed7d0d-1950-403d-89b3-4079831cc7e7
 uri: use-3d-cylinder-in-column-chart
 created: 2024-06-11T11:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - when-to-use-reporting-services
   - power-bi-visualizations
 redirects: []
-
 ---
 
 3D cylinder chart will make your report cool.
+
 <!--endintro-->
 
 ::: bad  

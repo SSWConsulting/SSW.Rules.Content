@@ -5,9 +5,9 @@ title: Do you promote online discussions on presentations?
 uri: do-your-presentations-promote-online-discussion
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2013-03-07T14:58:29.000Z

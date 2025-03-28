@@ -5,7 +5,7 @@ title: Do you know the CRM roadmap?
 uri: do-you-know-the-crm-roadmap
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2016-07-26T20:16:01.000Z

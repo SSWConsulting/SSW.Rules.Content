@@ -5,13 +5,13 @@ title: Do you protect your main branch? aka branch protection
 uri: protect-your-main-branch
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming/
   - title: Jernej Kavka
-    url: https://ssw.com.au/people/jernej-kavka
+    url: https://ww.ssw.com.au/people/jernej-kavka
 related: []
 redirects:
   - do-you-protect-your-master-branch
@@ -27,13 +27,13 @@ Branch protection is a feature in version control software that allows teams to 
 
 This can include:
 
-* Number of reviewers
-* Linked work items e.g. PBIs (super useful to track back to why the code was changed)
-* Any feedback has been addressed/resolved
-* Enforcing specific merge types
-* Checking that builds pass
-* Checking other services e.g. code quality like SonarQube
-* Automatically adding specific people to review the code
+- Number of reviewers
+- Linked work items e.g. PBIs (super useful to track back to why the code was changed)
+- Any feedback has been addressed/resolved
+- Enforcing specific merge types
+- Checking that builds pass
+- Checking other services e.g. code quality like SonarQube
+- Automatically adding specific people to review the code
 
 ::: bad  
 ![Figure: Bad example – No protection – anyone can make unreviewed changes](protect-branch-bad-1.jpg)  

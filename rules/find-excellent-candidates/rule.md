@@ -5,11 +5,11 @@ title: Do you know how to find excellent candidates?
 uri: find-excellent-candidates
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-use-linkedin-recruiter-to-help-you-find-more-candidates
   - do-you-use-an-ats

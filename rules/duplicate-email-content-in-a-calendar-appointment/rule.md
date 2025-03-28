@@ -8,9 +8,9 @@ uri: duplicate-email-content-in-a-calendar-appointment
 created: 2018-07-12T00:39:05.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - email-copy-to-raise-pbi-visibility
   - attach-and-copy-emails-to-the-pbi

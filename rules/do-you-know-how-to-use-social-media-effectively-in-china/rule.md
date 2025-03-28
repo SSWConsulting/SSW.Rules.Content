@@ -1,18 +1,17 @@
 ---
 type: rule
-archivedreason: 
+archivedreason:
 title: China - Do you know how to use social media effectively in China?
 guid: 3c17b4cb-791f-4513-a402-549039328459
 uri: do-you-know-how-to-use-social-media-effectively-in-china
 created: 2020-09-24T23:20:13.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
-- title: Yang Shen
-  url: https://ssw.com.au/people/yang-shen
+  - title: Penny Walker
+    url: https://ww.ssw.com.au/people/penny-walker
+  - title: Yang Shen
+    url: https://ww.ssw.com.au/people/yang-shen
 related: []
 redirects: []
-
 ---
 
 The biggest mistake most western companies make when embarking on a business journey in China, is assuming that their current Social Media strategies will work over there.
@@ -39,14 +38,14 @@ WeChat started as an instant messaging app similar to WhatsApp but has morphed i
 
 Why you should consider using it:
 
-* 68M videos are uploaded every day
-* WeChat users send averagely 38 billion messages daily
-* On average, users spend more than 66 minutes on WeChat daily.
-* 60% of WeChat users open the app more than 10 times a day.
-* By the end of 2019, the number of WeChat’s Official Accounts surpassed 20M.
-* Flexible media – you can upload pictures, text, short videos, articles etc.
+- 68M videos are uploaded every day
+- WeChat users send averagely 38 billion messages daily
+- On average, users spend more than 66 minutes on WeChat daily.
+- 60% of WeChat users open the app more than 10 times a day.
+- By the end of 2019, the number of WeChat’s Official Accounts surpassed 20M.
+- Flexible media – you can upload pictures, text, short videos, articles etc.
 
-There are 4 types of Official  WeChat Accounts; “Subscription Accounts”, “Service Accounts", “Enterprise Accounts" and the “Mini Program”. Each of them has unique functions and uses, which are outlined in more detail on [creating a WeChat official account](/how-to-create-wechat-official-account).
+There are 4 types of Official WeChat Accounts; “Subscription Accounts”, “Service Accounts", “Enterprise Accounts" and the “Mini Program”. Each of them has unique functions and uses, which are outlined in more detail on [creating a WeChat official account](/how-to-create-wechat-official-account).
 
 ![Figure: SSW's SugarLearning WeChat Mini Program Log-in page & Mini Program](WeChat-Mini-Program.png)
 
@@ -56,11 +55,11 @@ Weibo is an social media platform where people go not only post, share and inter
 
 Why you should consider using it:
 
-* Number of Weibo active users: 465M (2019)
-* Number of daily users: 203M (2019)
-* 50% increase in livestream sessions
-* Q&A postings increased by 400% in 2018 compared to 2017
-* 82 per cent of Weibo users shop online
+- Number of Weibo active users: 465M (2019)
+- Number of daily users: 203M (2019)
+- 50% increase in livestream sessions
+- Q&A postings increased by 400% in 2018 compared to 2017
+- 82 per cent of Weibo users shop online
 
 ## 3. Youku (The YouTube of China)
 
@@ -68,12 +67,12 @@ Often referred to as the YouTube of China, Youku is a video hosting service that
 
 Why you should consider using it:
 
-* 580M active users, who on average visit it daily 39 times.
-* Over 1 billion video views per day
-* On average people stay for around 4 minutes per video
-* It will help you reach a wider audience and build a reputation as a source of knowledge
-* It’s great for brand awareness via video content
-* It can be used to drive traffic to your website and increase sales
+- 580M active users, who on average visit it daily 39 times.
+- Over 1 billion video views per day
+- On average people stay for around 4 minutes per video
+- It will help you reach a wider audience and build a reputation as a source of knowledge
+- It’s great for brand awareness via video content
+- It can be used to drive traffic to your website and increase sales
 
 ![Figure: Youku would have a very familiar feel for our Western audience as seen from this video feed](Youku.png)
 
@@ -83,11 +82,11 @@ Why you should consider using it:
 
 Why you should use it:
 
-* It’s cheaper than Google! Strangely it is on average 25-50% cheaper for the same keywords on Google\*.
-* It has 665 million active monthly users
-* Reaches 1 billion mobile devises
-* The Baidu app has 200 million daily users
-* Rapidly growing with new users every day
+- It’s cheaper than Google! Strangely it is on average 25-50% cheaper for the same keywords on Google\*.
+- It has 665 million active monthly users
+- Reaches 1 billion mobile devises
+- The Baidu app has 200 million daily users
+- Rapidly growing with new users every day
 
 _\* The Cost per click is lower but be warned - Baidu does have some strict payment terms, requiring an initial deposit of at least RMB 20,000 (USD $2,952) if you are a foreign company. But the overall cost of your campaign should be comparatively lower._
 
@@ -115,10 +114,10 @@ Technology videos are now in the top 5 most watched category on Bilbili, and SSW
 
 Why you should use it:
 
-* Young, active audience with a keen interest in technology
-* Over 130 million active users
-* 101 million monthly users
-* Continuous viewer growth
-* Video streaming & mini programs for e-commerce (E.g. [“Intermediaries design patterns and MediatR” by Victor Yu, SSW China](https://www.bilibili.com/video/BV1tK411P7He?p=2))
+- Young, active audience with a keen interest in technology
+- Over 130 million active users
+- 101 million monthly users
+- Continuous viewer growth
+- Video streaming & mini programs for e-commerce (E.g. [“Intermediaries design patterns and MediatR” by Victor Yu, SSW China](https://www.bilibili.com/video/BV1tK411P7He?p=2))
 
 ![Figure: A recent recording from FireUG, “Intermediaries design patterns and MediatR” by Victor Yu, SSW China](FireUg-Bilbili.png)

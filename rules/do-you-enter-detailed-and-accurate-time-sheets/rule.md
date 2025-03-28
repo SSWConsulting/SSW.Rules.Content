@@ -8,7 +8,7 @@ uri: do-you-enter-detailed-and-accurate-time-sheets
 created: 2010-07-16T06:37:36.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

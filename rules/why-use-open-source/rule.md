@@ -5,7 +5,7 @@ title: Do you use Open Source software?
 uri: why-use-open-source
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - open-source-software
 redirects: []

@@ -5,7 +5,7 @@ title: Content - Do you have a content marketing strategy for your business?
 uri: content-marketing-strategy-for-your-business
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-have-a-content-marketing-strategy-for-your-business

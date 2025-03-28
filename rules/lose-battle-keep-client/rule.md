@@ -5,7 +5,7 @@ title: Do you know that it's bad to win the argument but lose the client?
 uri: lose-battle-keep-client
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw

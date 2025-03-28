@@ -5,7 +5,7 @@ title: Do you use Web Service to send emails?
 uri: use-web-service-to-send-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T01:48:00.000Z
 guid: df81ed0a-c8a1-46bf-82ea-892929c7191f
 ---

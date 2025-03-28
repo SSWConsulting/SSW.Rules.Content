@@ -5,7 +5,7 @@ title: Do you open UI by default when you type [ApplicationName].exe?
 uri: ui-by-default-when-you-type-applicationname-exe
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:41:00.000Z
 guid: dff565d8-fd12-4a5e-9ebe-686a07c4aa3e
 ---

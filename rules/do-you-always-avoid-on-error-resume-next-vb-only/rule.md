@@ -5,7 +5,7 @@ title: Do you always avoid On Error Resume Next? (VB Only)
 uri: do-you-always-avoid-on-error-resume-next-vb-only
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-always-avoid-on-error-resume-next-(vb-only)

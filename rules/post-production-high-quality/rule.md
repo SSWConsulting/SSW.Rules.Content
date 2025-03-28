@@ -5,9 +5,9 @@ title: Post-Production - Do you use 'HD or '4K' quality?
 uri: post-production-high-quality
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects:
   - post-production-do-you-use-sd-or-hd-quality

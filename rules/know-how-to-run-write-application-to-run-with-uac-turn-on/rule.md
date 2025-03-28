@@ -5,7 +5,7 @@ title: Do you know how to run write application to run with UAC turn on?
 uri: know-how-to-run-write-application-to-run-with-uac-turn-on
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:02:00.000Z
 guid: d159fc8d-8b7f-4eb3-b6b8-8c193e69ca05
 ---

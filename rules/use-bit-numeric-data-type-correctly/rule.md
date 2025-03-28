@@ -8,7 +8,7 @@ uri: use-bit-numeric-data-type-correctly
 created: 2019-11-05T23:02:43.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - schema-do-you-use-bit-numeric-data-type-correctly
@@ -44,7 +44,7 @@ Integer (whole number) data from -2^63 (-9223372036854775808) through 2^63-1 (92
 
 **Recommendations:**
 
-* Use smallint datatype instead of bit datatype - so it can be indexed;
-* Use int datatype, where possible, instead of bigint datatype - for saving disk space;
-* Use smallint datatype, where possible, instead of int datatype - for saving disk space;
-* Use tinyint datatype, where possible, instead of smallint datatype - for saving disk space;
+- Use smallint datatype instead of bit datatype - so it can be indexed;
+- Use int datatype, where possible, instead of bigint datatype - for saving disk space;
+- Use smallint datatype, where possible, instead of int datatype - for saving disk space;
+- Use tinyint datatype, where possible, instead of smallint datatype - for saving disk space;

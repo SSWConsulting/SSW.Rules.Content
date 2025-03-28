@@ -8,7 +8,7 @@ uri: have-an-outbound-script
 created: 2018-04-09T22:04:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-have-an-outbound-script

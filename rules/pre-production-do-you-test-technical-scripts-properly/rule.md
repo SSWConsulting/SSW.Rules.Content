@@ -8,9 +8,9 @@ uri: pre-production-do-you-test-technical-scripts-properly
 created: 2012-12-23T22:51:59.0000000Z
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
   - title: Andrew Forsyth
-    url: https://ssw.com.au/people/andrew-forsyth
+    url: https://ww.ssw.com.au/people/andrew-forsyth
 related: []
 redirects: []
 ---

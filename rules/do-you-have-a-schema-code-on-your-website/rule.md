@@ -8,7 +8,7 @@ uri: do-you-have-a-schema-code-on-your-website
 created: 2019-04-17T01:42:41.0000000Z
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects: []
 ---

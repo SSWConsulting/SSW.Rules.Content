@@ -8,7 +8,7 @@ uri: use-both-english-spelling-on-google-ads
 created: 2014-10-13T19:05:05.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-use-both-conventional-and-american-spelling-for-your-google-adwords
@@ -21,10 +21,10 @@ Did you know that all pilots around the world must speak English? Back then the 
 
 If you are an Australian or British this rule is controversial, but it is worth it for the following reasons:
 
-* Cater for the majority. Most web traffic is from American users and they expect American (most probably will assume it is an error)
-* On the practical side, more web searches are going to be returned for US spelling of words.
+- Cater for the majority. Most web traffic is from American users and they expect American (most probably will assume it is an error)
+- On the practical side, more web searches are going to be returned for US spelling of words.
 
-**Tip:** Don't forget [after making edits to check your pages for spelling errors](/are-you-careful-with-your-spelling-grammar-and-punctuation).  
+**Tip:** Don't forget [after making edits to check your pages for spelling errors](/are-you-careful-with-your-spelling-grammar-and-punctuation).
 
 ::: info
 At SSW we have a Google Ads account that allows us to reach a targeted audience based on the keywords they use to search the Internet. While testing the effectiveness of the keywords in our Ads account, we realised that if we use Australian spelling a lot of our US customers won't find us, and vice versa.

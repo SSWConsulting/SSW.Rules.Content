@@ -5,7 +5,7 @@ title: Do you know what happens at a Sprint Retrospective meeting?
 uri: what-happens-at-retro-meetings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
   - roadmap
@@ -33,19 +33,19 @@ The Retro is a time-boxed event that focuses around 3 questions:
 
 The Scrum Master facilitates the meeting and collects issues as they are raised. Once every Scrum Team Member has spoken, he facilitates debate on each issue so that team consensus is achieved. The result should produce an actionable outcome, for example:
 
-* An adjustment is made to the daily processes followed by the Scrum Team
-* An adjustment is made to the [Definition of Done](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
-* An adjustment is made at the organization level
-* An item is added to the Product Backlog
+- An adjustment is made to the daily processes followed by the Scrum Team
+- An adjustment is made to the [Definition of Done](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+- An adjustment is made at the organization level
+- An item is added to the Product Backlog
 
 To help aid discussion, it can be useful for the Scrum Master to prepare items for review by inspecting the Sprint Backlog and statistics such as:
 
-* Velocity
-* Burndown
-* Code Coverage
-* Number of deployments
-* Number of errors in Application Insights
-* The [Product Roadmap](/roadmap) - to see how well the team is doing at achieving the high level strategy.
+- Velocity
+- Burndown
+- Code Coverage
+- Number of deployments
+- Number of errors in Application Insights
+- The [Product Roadmap](/roadmap) - to see how well the team is doing at achieving the high level strategy.
 
 As an example, the Scrum Master can find PBIs (Product Backlog Items) in the Sprint that were successful/not successful and then facilitate the discussion to find the reasons.
 
@@ -67,17 +67,17 @@ The timebox for this meeting is usually as many hours as weeks in the Sprint.
 
 The goal is to make Retro sessions as engaging and insightful as possible. There are 2 main options:
 
-* [Kollabe Sprint Retrospectives](https://kollabe.com/retrospectives) (Preferred)
-* [Retrospected](https://www.retrospected.com)
+- [Kollabe Sprint Retrospectives](https://kollabe.com/retrospectives) (Preferred)
+- [Retrospected](https://www.retrospected.com)
 
 The advantages are:
 
-* Interactive - app participants can access the board (not one person writing an email, while others watch)
-* Participants can upvote and downvote specific items on the Retro
-* Participants can add items to the board
-* Participants feel more engaged with the process
-* You can leave the board open (if some people have missed the Retro, they can add items afterwards)
-* After you close the board, participants still have access to the Retro and can see what happened
+- Interactive - app participants can access the board (not one person writing an email, while others watch)
+- Participants can upvote and downvote specific items on the Retro
+- Participants can add items to the board
+- Participants feel more engaged with the process
+- You can leave the board open (if some people have missed the Retro, they can add items afterwards)
+- After you close the board, participants still have access to the Retro and can see what happened
 
 ::: bad
 ![Figure: Bad example – This is a paste from the tool, but the action points are unclear](retrospected-bad.png)
@@ -92,10 +92,10 @@ The advantages are:
 ::: greybox
 Learn more about the meetings in Scrum:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* Sprint Retrospective Meeting (this rule)
-* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+- [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting 'Sprint Review Meeting')
+- Sprint Retrospective Meeting (this rule)
+- [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums 'Daily Scrum Meeting')
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::

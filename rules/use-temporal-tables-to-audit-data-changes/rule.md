@@ -8,9 +8,9 @@ uri: use-temporal-tables-to-audit-data-changes
 created: 2019-11-25T22:35:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
   - data-do-you-use-temporal-tables-to-audit-data-changes
@@ -28,20 +28,20 @@ Pros:
 
 :::
 
-* You can query values of a specific entity at a particular point in time or time range over its lifetime.
-* Restore accidentally deleted records by retrieving them from the history table.
-* Retention period can be set on the history table, this can be set as frequent as 1 day.
+- You can query values of a specific entity at a particular point in time or time range over its lifetime.
+- Restore accidentally deleted records by retrieving them from the history table.
+- Retention period can be set on the history table, this can be set as frequent as 1 day.
 
 ::: bad
 Cons:
 
 :::
 
-* History tables can grow very quickly in size.
-* Storing blob datatypes (nvarchar(max), varbinary(max), ntext and image) can increase storage costs and decrease performance.
-* You cannot truncate the table.
-* Temporal and history table cannot be FILETABLE.
-* Direct modification of the data in the history is not permitted.
+- History tables can grow very quickly in size.
+- Storing blob datatypes (nvarchar(max), varbinary(max), ntext and image) can increase storage costs and decrease performance.
+- You cannot truncate the table.
+- Temporal and history table cannot be FILETABLE.
+- Direct modification of the data in the history is not permitted.
 
 ### How do I create a Temporal table?
 

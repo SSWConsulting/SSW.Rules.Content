@@ -5,7 +5,7 @@ title: Do you know that you should never throw an exception using System.Excepti
 uri: never-throw-exception-using-system-exception
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair

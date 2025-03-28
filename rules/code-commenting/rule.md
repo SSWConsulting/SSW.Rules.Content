@@ -1,19 +1,18 @@
 ---
 seoDescription: Discover effective alternatives to code comments and learn how to write cleaner, maintainable code with insights from Clean Code and Robert Martin (Uncle Bob).
 type: rule
-archivedreason: 
+archivedreason:
 title: Comments - Do you follow the code commenting standards?
 guid: 84813d6d-f297-4d0b-83a8-e598411ece71
 uri: code-commenting
 created: 2018-04-23T23:28:08.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- comments-do-you-follow-the-general-commenting-rules
-- follow-version-conventions
-
+  - comments-do-you-follow-the-general-commenting-rules
+  - follow-version-conventions
 ---
 
 There is almost always a better alternative to adding comments to your code.
@@ -36,9 +35,9 @@ There is almost always a better alternative to adding comments to your code. [Ch
 2. For ‘cryptic’ code (perhaps to optimize it), rewrite it in simpler terms (leave optimization to the runtimes)
 3. Add targeted unit tests to document a piece of code
 4. Innovative techniques that are well known solutions to common code smells e.g.:
-    * For large methods/classes, break them and have longer names for them
-    * For a method with large number of parameters, wrap them all up in a Parameter Object
-    * Pair up with someone else, think... be creative
+   - For large methods/classes, break them and have longer names for them
+   - For a method with large number of parameters, wrap them all up in a Parameter Object
+   - Pair up with someone else, think... be creative
 
 ### What are some **bad** comments?
 
@@ -60,4 +59,4 @@ Last but not the least, [some parting words](http://butunclebob.com/ArticleS.Tim
 
 > "A comment is an apology for not choosing a more clear name, or a more reasonable set of parameters, or for the failure to use explanatory variables and explanatory functions. Apologies for making the code unmaintainable, apologies for not using well-known algorithms, apologies for writing 'clever' code, apologies for not having a good version control system, apologies for not having finished the job of writing the code, or for leaving vulnerabilities or flaws in the code, apologies for hand-optimizing C code in ugly ways."
 >
-> * Uncle Bob (Robert Martin of 'Clean Code' fame)
+> - Uncle Bob (Robert Martin of 'Clean Code' fame)

@@ -5,9 +5,9 @@ title: Do you know the 8 Steps to Scrum?
 uri: 8-steps-to-scrum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Gerard Beckerleg
-    url: https://ssw.com.au/people/gerard-beckerleg
+    url: https://ww.ssw.com.au/people/gerard-beckerleg
 related:
   - backlog-refinement-meeting
   - 3-steps-to-a-pbi
@@ -31,7 +31,7 @@ Scrum may seem complex at first, but it’s simpler than you think. Follow these
 ![Figure: This Scrum image includes all the important steps from the Initial Meeting to the Sprint Review and Retro](8StepstoScrum.png)
 :::
 
-Print out the [SSW 8 Steps to Scrum PDF](https://ssw.com.au/downloads/8StepstoScrum.pdf) and put it on your "War Room" wall.
+Print out the [SSW 8 Steps to Scrum PDF](https://ww.ssw.com.au/downloads/8StepstoScrum.pdf) and put it on your "War Room" wall.
 
 ## 1. [Initial Meeting](/meetings-are-you-prepared-for-the-initial-meeting)
 

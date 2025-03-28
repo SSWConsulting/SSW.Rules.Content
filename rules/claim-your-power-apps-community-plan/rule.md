@@ -8,7 +8,7 @@ uri: claim-your-power-apps-community-plan
 created: 2020-10-23T23:37:59.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-know-to-claim-your-power-apps-community-plan
@@ -18,12 +18,12 @@ The Power App Community Plan gives developers a dedicated environment with acces
 
 <!--endintro-->
 
-- Power Apps (Canvas and Model-Driven)
-- Premium Connectors
-- Power Automate
-- Common Data Service and more…
+* Power Apps (Canvas and Model-Driven)
+* Premium Connectors
+* Power Automate
+* Common Data Service and more…
 
-Best of all it’s completely free, yes there are some restrictions but they’re quite reasonable. The main ones being the environment is restricted to a single user and no ability to share apps. 
+Best of all it’s completely free, yes there are some restrictions but they’re quite reasonable. The main ones being the environment is restricted to a single user and no ability to share apps.
 Sign up for a Community Plan here: [https://powerapps.microsoft.com/en-us/communityplan](https://powerapps.microsoft.com/en-us/communityplan)
 
 Full documentation here: [https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan](https://docs.microsoft.com/en-us/powerapps/maker/dev-community-plan)

@@ -8,7 +8,7 @@ uri: keep-serverless-application-warm
 created: 2019-07-15T03:44:14.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-keep-your-serverless-application-warm-to-avoid-cold-starts
@@ -22,8 +22,6 @@ To host your business logic, it is common to use serverless applications such as
 <!--endintro-->
 
 Here are some recommended solutions to eliminate Cold Starts:
-
-
 
 #### Microsoft Azure Functions
 

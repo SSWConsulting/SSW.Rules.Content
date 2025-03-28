@@ -7,7 +7,7 @@ seoDescription: All team members must update their tasks with status and
 uri: meeting-do-you-update-your-tasks-before-the-daily-scrum
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - methodology-do-you-do-daily-scrums-aka-stand-up-meetings
   - reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
@@ -16,6 +16,7 @@ created: 2010-04-07T05:21:16.000Z
 archivedreason: null
 guid: 7ba991bc-384e-48ad-919e-09cb5b67472c
 ---
+
 All team members must update their tasks with status, (and remaining hours if you are estimating tasks) prior to the daily Scrum meeting.
 
 <!--endintro-->
@@ -24,20 +25,20 @@ All team members must update their tasks with status, (and remaining hours if yo
 
 **Note:** If you are updating the details of a PBI then follow the rule [Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)
 
-- - -
+---
 
 ::: greybox
 Learn more about the meetings in Scrum:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
-* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-* [Daily Scrum (Stand-up)](/methodology-daily-scrums)
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting 'Sprint Planning Meeting')
+- [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting 'Sprint Review Meeting')
+- [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting 'Sprint Retrospective Meeting')
+- [Daily Scrum (Stand-up)](/methodology-daily-scrums)
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
 
-- - -
+---
 
 ### Scrum at Microsoft Videos
 

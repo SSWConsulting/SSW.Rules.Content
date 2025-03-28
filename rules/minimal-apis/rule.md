@@ -5,9 +5,9 @@ title: Do you use Minimal APIs over Controllers?
 uri: minimal-apis
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 related: []
@@ -52,8 +52,8 @@ Figure: Good Example - 1 line of code for a simple endpoint
 
 Minimal APIs are great for
 
-* Learning
-* Quick prototypes
-* Vertical Slice Architecture
-* A similar developer experience to NodeJS
-* Performance
+- Learning
+- Quick prototypes
+- Vertical Slice Architecture
+- A similar developer experience to NodeJS
+- Performance

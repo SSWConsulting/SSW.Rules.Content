@@ -5,7 +5,7 @@ title: Do you know users skim rather than read?
 uri: web-users-dont-read
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - always-reduce-complexity
   - f-shaped-pattern

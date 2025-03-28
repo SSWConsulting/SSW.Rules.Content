@@ -8,7 +8,7 @@ uri: submit-software-to-download-sites
 created: 2015-11-10T19:41:42.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-submit-all-your-software-to-download-sites

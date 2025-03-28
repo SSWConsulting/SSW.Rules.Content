@@ -8,7 +8,7 @@ uri: do-you-use-msajax-for-live-data-binding-which-saves-round-trips
 created: 2009-08-25T02:47:57.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

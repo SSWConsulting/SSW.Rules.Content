@@ -8,7 +8,7 @@ uri: have-brand-at-the-top-of-each-file
 created: 2018-04-23T23:39:43.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - comments-do-you-have-brand-at-the-top-of-each-file

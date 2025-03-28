@@ -6,9 +6,9 @@ title: Practices - Do you know to separate your Angular components into
 uri: separate-your-angular-components-into-container-and-presentational
 authors:
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://ww.ssw.com.au/people/gabriel-george
   - title: Chris Clement
     url: https://www.ssw.com.au/people/chris-clement/
 related: []
@@ -31,12 +31,11 @@ Smart components are harder to debug since they now have dependencies and state 
 // company-list-table.component.ts
 
 @Component({
-  selector: "fbc-company-list-table",
+  selector: 'fbc-company-list-table',
   template: `
     <table
       id="company-list-table"
-      class="table table-hover table-striped company-list-table-component"
-    >
+      class="table table-hover table-striped company-list-table-component">
       <thead>
         <tr>
           <th>Name</th>
@@ -53,14 +52,12 @@ Smart components are harder to debug since they now have dependencies and state 
           <td class="button-column">
             <button
               routerLink="/company/detail/{{ company.id }}"
-              class="btn btn-default"
-            >
+              class="btn btn-default">
               Details
             </button>
             <button
               routerLink="/company/edit/{{ company.id }}"
-              class="btn btn-default"
-            >
+              class="btn btn-default">
               Edit
             </button>
             <button (click)="confirmDelete(company)" class="btn btn-default">

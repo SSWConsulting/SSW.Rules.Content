@@ -8,9 +8,9 @@ uri: how-to-provide-best-database-schema-document
 created: 2019-11-22T22:47:26.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
   - schema-do-you-know-how-to-provide-best-database-schema-document

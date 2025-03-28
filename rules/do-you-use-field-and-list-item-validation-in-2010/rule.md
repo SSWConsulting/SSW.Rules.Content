@@ -5,7 +5,7 @@ title: Do you use field and list item validation (in 2010)
 uri: do-you-use-field-and-list-item-validation-in-2010
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-field-and-list-item-validation-(in-2010)

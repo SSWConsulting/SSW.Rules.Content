@@ -8,7 +8,7 @@ uri: do-you-use-glimpse
 created: 2012-04-02T15:08:43.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects: []
 ---

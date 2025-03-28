@@ -8,9 +8,9 @@ uri: important-chats-should-be-in-an-email
 created: 2015-10-05T01:40:51.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - know-that-im-interrupts
   - replying-in-the-same-medium
@@ -18,7 +18,6 @@ related:
 redirects:
   - interruptions-do-you-know-important-chats-should-be-in-an-email
 ---
-
 
 Instant messaging (IM) is great for clarifying tasks or addressing questions that are holding you back from marking something as "done." It's also useful for sending reminders and pushing critical priorities—especially for those who tend to overlook emails. However, it should never replace an email.
 

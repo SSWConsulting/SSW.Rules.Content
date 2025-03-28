@@ -5,7 +5,7 @@ title: Do you replace the standard .NET Date Time Picker?
 uri: do-you-replace-the-standard-net-date-time-picker
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:52:00.000Z
 guid: 713c50d1-e3e8-4d5c-b7a3-b2baacc8429e
 ---

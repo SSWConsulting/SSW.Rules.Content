@@ -7,7 +7,7 @@ uri: ubiquitous-language
 created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
 related:
   - encapsulate-domain-models
   - use-specification-pattern
@@ -23,6 +23,7 @@ Ubiquitous language is a core principle in domain-driven design (DDD) that encou
 <!--endintro-->
 
 ## Why Ubiquitous Language Matters
+
 Ubiquitous language helps bridge the gap between technical and non-technical stakeholders, creating a consistent and clear understanding of the domain. When everyone uses the same terms — whether in code, documentation, or discussions — it’s easier to align on requirements, troubleshoot issues, and onboard new team members. Without it, terms can become muddled, causing confusion and misinterpretation.
 
 :::greybox
@@ -40,9 +41,10 @@ Ubiquitous language is used, and developers and stakeholders are on the same pag
 :::
 
 ### Benefits
-* **Improved Communication:** By using the same terms as domain experts, developers and stakeholders communicate more effectively, reducing the risk of misinterpretation.
-* **Increased Readability:** Consistent terminology makes it easier for anyone familiar with the domain to understand the codebase.
-* **Enhanced Maintenance:** When domain terms are used uniformly, developers spend less time deciphering concepts and more time building functionality.
+
+- **Improved Communication:** By using the same terms as domain experts, developers and stakeholders communicate more effectively, reducing the risk of misinterpretation.
+- **Increased Readability:** Consistent terminology makes it easier for anyone familiar with the domain to understand the codebase.
+- **Enhanced Maintenance:** When domain terms are used uniformly, developers spend less time deciphering concepts and more time building functionality.
 
 :::greybox
 💡 **Tip:** You can use the [Contextive](https://github.com/dev-cycles/contextive) extension for IntelliJ and VS Code (other IDEs coming soon) to assist with this. The linked repo also has a discussion between Chris Simon (the author) and [SSW's Gert Marx](https://www.ssw.com.au/people/gert-marx/) about both the extension and ubiquitous language in general

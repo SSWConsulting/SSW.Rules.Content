@@ -5,15 +5,15 @@ seoDescription: Ensure project success with thorough testing. A "Test Please" re
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 related:
@@ -51,8 +51,8 @@ If you are writing code, your Pull Request (PR) review is your "Test Please"
 
 **Tips:**
 
-* You should do an [over the shoulder PR review](/over-the-shoulder)  
-* Embrace proactive testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production
+- You should do an [over the shoulder PR review](/over-the-shoulder)
+- Embrace proactive testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production
 
 ## Emails
 
@@ -66,12 +66,13 @@ If you created a video, [likes and comments](/like-and-comment-on-videos) are yo
 
 If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Gary |
-| Subject: | RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09 |  
+|          |                                                                                                         |
+| -------- | ------------------------------------------------------------------------------------------------------- |
+| To:      | Gary                                                                                                    |
+| Subject: | RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09 |
+
 ::: email-content
 
 ### Hi Gary

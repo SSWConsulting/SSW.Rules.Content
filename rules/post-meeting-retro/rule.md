@@ -5,7 +5,7 @@ title: Do you conduct a post-meeting retro?
 uri: post-meeting-retro
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren/
+    url: https://ww.ssw.com.au/people/ulysses-maclaren/
 created: 2024-02-28T23:39:47.145Z
 guid: 0532039b-2771-44e1-a881-40cdbd75b712
 ---

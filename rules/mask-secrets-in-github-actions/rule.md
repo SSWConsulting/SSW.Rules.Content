@@ -5,9 +5,9 @@ title: Do you know how to mask secrets from GitHub Actions logs?
 uri: mask-secrets-in-github-actions
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Aman Kumar
-    url: https://ssw.com.au/people/aman-kumar
+    url: https://ww.ssw.com.au/people/aman-kumar
 related:
   - enterprise-secrets-in-pipelines
 created: 2023-10-10T10:33:21.000Z

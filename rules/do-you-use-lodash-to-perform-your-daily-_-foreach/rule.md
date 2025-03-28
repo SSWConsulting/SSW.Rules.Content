@@ -8,9 +8,9 @@ uri: do-you-use-lodash-to-perform-your-daily-_-foreach
 created: 2015-05-05T18:45:14.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
 ---
@@ -32,7 +32,7 @@ This new simplified array of account numbers was then used in a dropdown to filt
 
 ```js
 this.accountNumberDropDownData = _.chain(this.sharedDataSource)
-  .pluck("AccountNumber")
+  .pluck('AccountNumber')
   .uniq()
   .sortBy()
   .value();

@@ -8,7 +8,7 @@ uri: do-you-use-identifying-company-logo-motifs
 created: 2015-12-10T00:03:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

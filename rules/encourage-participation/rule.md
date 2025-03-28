@@ -5,7 +5,7 @@ title: Do you encourage active participation from all board members?
 uri: encourage-participation
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren/
+    url: https://ww.ssw.com.au/people/ulysses-maclaren/
 created: 2024-02-28T22:59:17.208Z
 guid: 42dbd13d-4fcf-42d7-8de2-871a311fe2cc
 ---

@@ -8,15 +8,15 @@ uri: do-you-know-when-to-branch-in-git
 created: 2016-01-19T22:38:55.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: https://ww.ssw.com.au/people/danijel-malik
   - title: Edgar Rocha
-    url: https://ssw.com.au/people/edgar-rocha
+    url: https://ww.ssw.com.au/people/edgar-rocha
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://ww.ssw.com.au/people/gabriel-george
 related:
   - do-you-use-the-best-deployment-tool
   - branch-naming

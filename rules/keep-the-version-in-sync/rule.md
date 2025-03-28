@@ -5,7 +5,7 @@ title: Do you keep the version in Sync (in all 3 places)?
 uri: keep-the-version-in-sync
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 9d4fdee8-5897-43d2-be2c-885b51be5eb1

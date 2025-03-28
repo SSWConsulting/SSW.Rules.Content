@@ -8,7 +8,7 @@ uri: do-you-use-the-sharepoint-portal-in-vsts-2012
 created: 2009-11-05T06:23:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

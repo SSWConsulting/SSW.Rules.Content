@@ -8,7 +8,7 @@ uri: do-you-log-each-screen-during-migration
 created: 2013-11-11T07:55:25.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects: []
 ---

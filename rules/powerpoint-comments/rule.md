@@ -7,7 +7,7 @@ authors:
   - title: Isabel Sandstroem
     url: https://www.ssw.com.au/people/isabel-sandstroem
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay/
+    url: https://ww.ssw.com.au/people/daniel-mackay/
 created: 2024-02-22T10:00:00.000Z
 guid: c7a5a8e3-7e5d-4e3f-875f-8e0f2c98b3a9
 ---

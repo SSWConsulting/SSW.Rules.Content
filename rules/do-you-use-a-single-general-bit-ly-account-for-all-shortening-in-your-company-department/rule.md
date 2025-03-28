@@ -8,7 +8,7 @@ uri: do-you-use-a-single-general-bit-ly-account-for-all-shortening-in-your-compa
 created: 2013-03-05T21:05:55.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -5,7 +5,7 @@ title: Do you know how to make .NET wrapper work on both x64 and x86 platforms?
 uri: do-you-know-how-to-make-net-wrapper-work-on-both-x64-and-x86-platforms
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:02:00.000Z
 guid: b82e36db-e95a-4ece-98b4-4a97625c88b3
 ---
@@ -16,8 +16,8 @@ However, all of this implementations only work on x86 platform, and will crash o
 
 <!--endintro-->
 
-* In x86 platform, IntPtr = Int32
-* In x64 platform, IntPtr = Int64
+- In x86 platform, IntPtr = Int32
+- In x64 platform, IntPtr = Int64
 
 So, To fix the crash, we should re-write the code below:
 

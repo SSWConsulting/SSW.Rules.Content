@@ -8,7 +8,7 @@ uri: do-you-know-never-to-concatenate-words-in-an-email
 created: 2010-08-19T14:29:54.0000000Z
 authors:
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
 ---
@@ -17,8 +17,8 @@ You should never use concatenated words in the subject or body of an email, no m
 
 <!--endintro-->
 
-![clip_image001](RuleNeverConcatenateWordsBad.png "clip_image001")
+![clip_image001](RuleNeverConcatenateWordsBad.png 'clip_image001')
 
 Figure: Bad Example, “CatagoryBrand” will not be spell checked and the mistake overlooked
-![clip_image003](RuleNeverConcatenateWordsGood.png "clip_image003")
+![clip_image003](RuleNeverConcatenateWordsGood.png 'clip_image003')
 Figure: Good example, spellchecker can check all words for correctness.

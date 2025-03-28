@@ -8,7 +8,7 @@ uri: less-is-more-do-you-realize-that-when-it-comes-to-interface-design-less-is-
 created: 2012-11-27T01:41:21.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -19,9 +19,9 @@ redirects: []
 
 How to make a user interface great:
 
-* Less is more - keep your design as simple and uncluttered as possible
-* Understand the importance of defaults - Aim for 'Next', 'Next', 'Next'
-* Hide advanced options, but make them easy to find!
+- Less is more - keep your design as simple and uncluttered as possible
+- Understand the importance of defaults - Aim for 'Next', 'Next', 'Next'
+- Hide advanced options, but make them easy to find!
 
 Most developers think about user interface last. They spend their time worrying about class design, threading, and system architecture. All this is important, of course. But the user only experiences software on the surface level.
 

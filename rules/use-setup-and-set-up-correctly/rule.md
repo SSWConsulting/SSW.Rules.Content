@@ -8,7 +8,7 @@ uri: use-setup-and-set-up-correctly
 created: 2016-04-20T06:06:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - tiny-do-you-use-setup-and-set-up-correctly

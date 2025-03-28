@@ -8,13 +8,13 @@ uri: spec-give-customers-a-ballpark
 created: 2009-11-04T08:35:51.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
 related: []
 redirects:
   - spec-do-you-know-how-to-give-the-customer-a-ballpark

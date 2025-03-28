@@ -1,21 +1,20 @@
 ---
 seoDescription: Enhance your ASP.NET site's user experience with a custom 404 error page that redirects visitors effectively.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have a useful 404 error page?
 guid: a006213a-e97b-46a7-a66b-beb52b205533
 uri: 404-useful-error-page
 created: 2016-08-11T17:30:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- 404-error-avoid-changing-the-url
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
+related:
+  - 404-error-avoid-changing-the-url
 redirects:
-- do-you-replace-the-404-error-with-a-useful-error-page
-
+  - do-you-replace-the-404-error-with-a-useful-error-page
 ---
 
 Error page, you say? You worked hard to make sure my site has no errors!! Well, surfers don't always type URLs accurately. No website is immune to such errors.

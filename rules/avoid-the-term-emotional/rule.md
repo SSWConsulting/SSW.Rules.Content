@@ -8,7 +8,7 @@ uri: avoid-the-term-emotional
 created: 2017-07-18T18:09:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-the-term-emotional

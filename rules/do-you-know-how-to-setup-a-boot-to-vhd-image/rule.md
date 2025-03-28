@@ -8,7 +8,7 @@ uri: do-you-know-how-to-setup-a-boot-to-vhd-image
 created: 2011-04-13T05:26:11.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
 related: []
 redirects: []
 ---

@@ -8,7 +8,7 @@ uri: do-you-know-how-to-create-posts-via-email
 created: 2014-09-26T20:43:24.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
 related: []
 redirects: []
 ---

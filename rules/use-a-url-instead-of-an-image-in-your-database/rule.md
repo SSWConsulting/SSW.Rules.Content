@@ -8,7 +8,7 @@ uri: use-a-url-instead-of-an-image-in-your-database
 created: 2019-11-25T22:53:47.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - data-do-you-use-a-url-instead-of-an-image-in-your-database

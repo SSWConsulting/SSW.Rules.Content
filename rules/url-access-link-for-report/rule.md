@@ -5,14 +5,13 @@ title: Do you have URL Access link for your report?
 guid: e89dace2-00af-4f5a-b14d-91d69f9ee636
 uri: url-access-link-for-report
 created: 2024-09-16T09:07:00.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
-- avoid-showing-empty-reports
+  - when-to-use-reporting-services
+  - avoid-showing-empty-reports
 redirects: []
-
 ---
 
 Reporting Service makes building, generating, managing and publishing report very easy, however sometime you want to refer to your report by URL from somewhere else. You will find that you can only link to the report default status, but not when you have changed the parameters. It should be as easy as using QueryString in ASP.NET application, but Microsoft didn't do that. See our Better Software Suggestions for Reporting Service.
@@ -27,7 +26,7 @@ At SSW, we have "URL Access" at the bottom of reports for easy reference.
 ![Figure: Good example - URL Access link for quick reference at the bottom of report](BetterRS_URLAccess.jpg)
 :::
 
-``` html
+```html
 http://localhost/ReportServer/Pages/ReportViewer.aspx?%2fSSWTimePRO_CompanyPerformance%2f01+-+BillableTimeSummary&rs:Command=Render
 ```
 
@@ -35,7 +34,7 @@ http://localhost/ReportServer/Pages/ReportViewer.aspx?%2fSSWTimePRO_CompanyPerfo
 Bad example - Only refer to the default report URL, parameters on the report will be lost
 :::
 
-``` html
+```html
 http://localhost/ReportServer/Pages/ReportViewer.aspx?/SSWTimePRO_CompanyPerformance/01%20-%20BillableTimeSummary&rs:Command=Render&rs:ParameterLanguage=en-AU&pStartDate=1/06/2009&pEndDate=7/06/2009&pEmpID=ALZ
 ```
 
@@ -47,4 +46,4 @@ Note `rs:ParameterLanguage=en-AU` in the query string, this is very important es
 
 Refer to the following MSDN references for more details:
 
-* [URL Access for Reporting Services](https://learn.microsoft.com/en-us/sql/reporting-services/url-access-ssrs?view=sql-server-ver16&redirectedfrom=MSDN)
+- [URL Access for Reporting Services](https://learn.microsoft.com/en-us/sql/reporting-services/url-access-ssrs?view=sql-server-ver16&redirectedfrom=MSDN)

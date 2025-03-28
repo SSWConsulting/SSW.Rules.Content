@@ -5,13 +5,13 @@ title: Do you know when and how to send a v2 of an email?
 uri: email-send-a-v2
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - checked-by-xxx
   - email-add-or-remove-someone-from-conversation
@@ -26,22 +26,22 @@ guid: 11cb9562-d259-489f-a8e7-9dac55d2b7ac
 
 Sometimes you will need to send a new version for an email. This often is due to 2 main reasons:
 
-* You **received substantial feedback** about the email you've sent that requires a new version
-* You realized you've **made a mistake** and want to send an updated version of an email
+- You **received substantial feedback** about the email you've sent that requires a new version
+- You realized you've **made a mistake** and want to send an updated version of an email
 
 <!--endintro-->
 
 Having an entire new version of an email is important as it:
 
-* Ensures that you understood feedback and incorporated it immediately
-* Cleans up the email thread history to only have relevant content
+- Ensures that you understood feedback and incorporated it immediately
+- Cleans up the email thread history to only have relevant content
 
 ::: greybox
 **Note:** Not every feedback will need a v2. Some may be in the form of:
 
-* Hints for what could be better for next time, in which case all that's required is you take the feedback on board
-* Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
-:::
+- Hints for what could be better for next time, in which case all that's required is you take the feedback on board
+- Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
+  :::
 
 ## How to structure and send a v2
 
@@ -50,14 +50,14 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 1. Open your v1 email in Sent Items
 2. Reply to All
 3. Delete the whole v1 from the thread, including:
-   * The previous email headings (From:, To:, Cc:, Bcc, Subject:, etc.)
-   * Your signature
-   * The words "RE:" from the subject only in the cases where first email was **not** a reply
+   - The previous email headings (From:, To:, Cc:, Bcc, Subject:, etc.)
+   - Your signature
+   - The words "RE:" from the subject only in the cases where first email was **not** a reply
 4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
 5. Write the v2
 6. Include (v2 - {{ REASON }}) on the first line of the email body
-   * For further versions of an email, replace the v2 with v3, v4, v5, etc
-   * The reason should include a summary of what was changed
+   - For further versions of an email, replace the v2 with v3, v4, v5, etc
+   - The reason should include a summary of what was changed
 
 ::: info
 **Warning:** Do not add "v2" to the subject as we want to keep the thread.
@@ -72,16 +72,17 @@ Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the 
 
 :::
 
-::: email-template  
+::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-::: email-content  
+|     |     |
+| --- | --- |
+| To: | Bob |
+
+::: email-content
 
 (v2 - {{ REASON }})
 
-### Hi Bob  
+### Hi Bob
 
 {{ EMAIL CONTENT }}
 

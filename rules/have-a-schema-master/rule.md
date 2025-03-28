@@ -5,7 +5,7 @@ title: Do you have a "Schema Master"?
 uri: have-a-schema-master
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-＂schema-master＂

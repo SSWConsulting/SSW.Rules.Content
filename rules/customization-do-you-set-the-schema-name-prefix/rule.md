@@ -8,7 +8,7 @@ uri: customization-do-you-set-the-schema-name-prefix
 created: 2012-12-10T18:43:57.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -8,9 +8,9 @@ uri: when-to-hire-more-people
 created: 2021-02-02T13:32:34.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-when-to-hire-more-people
@@ -58,7 +58,7 @@ For more proof, check out our current bookings:
 
 See the [Power BI report](https://app.powerbi.com/groups/456358f7-5b12-46f5-b952-2a37fa9bb5e8/reports/a4069dc4-86c1-4cba-bf81-161bb108c5c2/ReportSection)
 
-\<This email was sent as per the rule [https://ssw.com.au/rules/when-to-hire-more-people](/when-to-hire-more-people)\>
+\<This email was sent as per the rule [https://ww.ssw.com.au/rules/when-to-hire-more-people](/when-to-hire-more-people)\>
 
 :::
 :::

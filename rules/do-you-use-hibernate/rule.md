@@ -8,7 +8,7 @@ uri: do-you-use-hibernate
 created: 2016-03-22T22:34:39.0000000Z
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
 ---

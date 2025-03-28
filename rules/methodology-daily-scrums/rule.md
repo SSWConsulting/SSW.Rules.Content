@@ -6,9 +6,9 @@ seoDescription: Improve daily scrum efficiency and collaboration with these
 uri: methodology-daily-scrums
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
 related:
   - participate-in-daily-scrum-meetings
   - use-the-status-message-in-teams
@@ -36,11 +36,11 @@ It is best to have it standing up, so it's short and to the point. No-one wants 
 Everybody knows the 3 essential questions:
 
 1. **What did you do yesterday?**
-   * Including having Azure DevOps (or other task tracking system) up-to-date
+   - Including having Azure DevOps (or other task tracking system) up-to-date
 2. **What are you going to do today?**
-   * Make sure the [task board](/task-board) has your current task "In progress"
+   - Make sure the [task board](/task-board) has your current task "In progress"
 3. **Do you have any roadblocks?**
-   * Explaing issues/impediments
+   - Explaing issues/impediments
 
 Asking these questions of every team member means no-one can hide and everyone remains connected. Further, you can notice what was promised and what was performed. This enables the team to discover issues quickly and keep abreast of the progress.
 
@@ -74,20 +74,21 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | {{ TEAM }} |
-| Recurrence: | Everyday |
-| Subject: | Daily Scrum – {{ PROJECT NAME }} |
+|             |                                  |
+| ----------- | -------------------------------- |
+| To:         | {{ TEAM }}                       |
+| Recurrence: | Everyday                         |
+| Subject:    | Daily Scrum – {{ PROJECT NAME }} |
+
 ::: email-content
 
 ### Hi {{ TEAM NAME }}
 
 As per our conversation, the Daily Scrum will be held each day.
 
-* Project: XXX
-* Scrum Master: XXX
-* Task board: XXX
+- Project: XXX
+- Scrum Master: XXX
+- Task board: XXX
 
 &lt;This email was sent as per [Do you do Daily Scrums?](/methodology-daily-scrums)&gt;
 
@@ -108,8 +109,8 @@ If the Scrum Master is not a full-time member of the team (often they are), they
 ::: greybox
 **Notes:**
 
-* The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
-* If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
+- The Product Owner (often the client) is not required at the stand-up meeting. If they wish to turn up, remind them that they have tape stuck over their mouth, so they don't talk
+- If you are not doing an approved Sprint and doing ad-hoc work, then best if the Product Owner (aka client) attends ([see Ad Hoc work](/do-you-know-the-difference-between-ad-hoc-work-and-managed-work))
 
 :::
 
@@ -176,28 +177,29 @@ To prevent misunderstandings or potential disagreements, send your Daily Scrum u
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob Northwind |
-| Cc: | {{ ANYONE YOU'RE WORKING WITH }} |
+|          |                                              |
+| -------- | -------------------------------------------- |
+| To:      | Bob Northwind                                |
+| Cc:      | {{ ANYONE YOU'RE WORKING WITH }}             |
 | Subject: | {{ YOUR NAME / PROJECT NAME }} - Daily Scrum |
+
 ::: email-content
 
 ### Hi Bob
 
 Yesterday I worked on {{ PROJECT NAME }}:
 
-* ✅ Done - XXX
-* ⏳ In Progress - XXX
-* ⬜ PBI - XXX
-* ❌ Blocked - XXX
+- ✅ Done - XXX
+- ⏳ In Progress - XXX
+- ⬜ PBI - XXX
+- ❌ Blocked - XXX
 
 Today I'm working on {{ PROJECT NAME }}:
 
-* ⏳ In Progress - XXX
-* ⬜ PBI - XXX
-* ⬜ Email - XXX
-* ❌ Blocked - XXX
+- ⏳ In Progress - XXX
+- ⬜ PBI - XXX
+- ⬜ Email - XXX
+- ❌ Blocked - XXX
 
 :::
 :::
@@ -229,8 +231,8 @@ Yesterday I was on sick leave.
 
 Today I am working on:
 
-* Timepro PBIs
-* Tidy inbox
+- Timepro PBIs
+- Tidy inbox
 
 :::
 ::: bad
@@ -247,8 +249,8 @@ I have XX emails in my inbox.
 
 Today I am working on:
 
-* TimePro - <mark>Adding new button to the next day</mark>
-* <mark>Getting my emails on "SSW.com" to zero</mark>
+- TimePro - <mark>Adding new button to the next day</mark>
+- <mark>Getting my emails on "SSW.com" to zero</mark>
 
 :::
 ::: good
@@ -271,8 +273,8 @@ When you are blocked, you should ideally take steps to unblock yourself. However
 
 The ideal people to ask for assistance are:
 
-* A fellow Developer that is Senior or knows the tech
-* Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
+- A fellow Developer that is Senior or knows the tech
+- Your Scrum Master who can reach out to the Product Owner when issues reach beyond developing your project
 
 #### What happens when you run out of tasks?
 
@@ -289,10 +291,10 @@ It is important that any major incidents are dealt with first. Start with any ma
 ::: greybox
 Learn more about the meetings in Scrum:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting "Sprint Planning Meeting")
-* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
-* [Sprint Retrospective Meeting](/what-happens-at-retro-meetings "Sprint Retrospective Meeting")
-* Daily Scrum (Stand-up) Meeting (this rule)
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting 'Sprint Planning Meeting')
+- [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting 'Sprint Review Meeting')
+- [Sprint Retrospective Meeting](/what-happens-at-retro-meetings 'Sprint Retrospective Meeting')
+- Daily Scrum (Stand-up) Meeting (this rule)
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::

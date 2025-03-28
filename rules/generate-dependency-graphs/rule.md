@@ -8,11 +8,11 @@ uri: generate-dependency-graphs
 created: 2012-03-16T08:04:49.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/igor-goldobin
+    url: https://ww.ssw.com.au/people/igor-goldobin
   - title: Baba Kamyljanov
     url: https://www.ssw.com.au/people/baba-kamyljanov
   - title: Jernej Kavka
@@ -25,7 +25,6 @@ related:
 redirects:
   - do-you-generate-the-vs-dependency-graph
   - do-you-generate-the-dependency-graph
-
 ---
 
 Dependency graphs are important because they give you an indication of the coupling between the different components within your application.
@@ -45,20 +44,20 @@ Check the [official docs](https://www.jetbrains.com/resharper/) about installing
 
 ### ✅ Pros
 
-* **Default diagram** - Best diagram out of box, everything is nice and clear compared to other options
-* **Visuality** - When you hover on a project, it will highlight all of it's dependencies
-* **Dependency view** - The graph is readable and organized
-* **Dependency cycle** - Enables users to find dependency problems in the project
-* **Interface** - The interaction with the graph feels very smoothly
-* **Customizability** - It has useful menu to select or deselect any project from the graph (when project added or removed it discards all manual adjustments that has been made before)
+- **Default diagram** - Best diagram out of box, everything is nice and clear compared to other options
+- **Visuality** - When you hover on a project, it will highlight all of it's dependencies
+- **Dependency view** - The graph is readable and organized
+- **Dependency cycle** - Enables users to find dependency problems in the project
+- **Interface** - The interaction with the graph feels very smoothly
+- **Customizability** - It has useful menu to select or deselect any project from the graph (when project added or removed it discards all manual adjustments that has been made before)
 
 ### ❌ Cons
 
-* **Requires ReSharper** - Need to install 3rd party ReSharper extension in Visual Studio
-* **Performance impact** - Some slowdown can be noticed when ReSharper is enabled
-* **Additional cost** - After one-month trial, you will need a license to continue using ReSharper
-* **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
-* **Layout** - Only Top to Bottom layout
+- **Requires ReSharper** - Need to install 3rd party ReSharper extension in Visual Studio
+- **Performance impact** - Some slowdown can be noticed when ReSharper is enabled
+- **Additional cost** - After one-month trial, you will need a license to continue using ReSharper
+- **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
+- **Layout** - Only Top to Bottom layout
 
 ::: good  
 ![Figure: Good example - The Visual Studio + ReSharper Dependency Graph](sugarlearning-dependency-graph-by-vs-and-resharper.png)  
@@ -70,18 +69,18 @@ Another option to generate the dependency graph is with the Rider's built-in too
 
 ### ✅ Pros
 
-* **Dependency view** - The graph is readable and organized
-* **Dependency cycle** - Enables users to find dependency problems in the project
-* **Generation time** - The dependency graph generation is very fast
-* **Customizability** - It has useful menu to select or deselect any project from the graph (when project added or removed it discards all manual adjustments that has been made before)
-* **Availability** - You don't require to install any extension into Rider or select any component when you are installing Rider, it is already available in the IDE
+- **Dependency view** - The graph is readable and organized
+- **Dependency cycle** - Enables users to find dependency problems in the project
+- **Generation time** - The dependency graph generation is very fast
+- **Customizability** - It has useful menu to select or deselect any project from the graph (when project added or removed it discards all manual adjustments that has been made before)
+- **Availability** - You don't require to install any extension into Rider or select any component when you are installing Rider, it is already available in the IDE
 
 ### ❌ Cons
 
-* **Dependency arrows** - The direction of relationship between projects is not clear when both projects have arrows go in and out.
-* **Cost** - After one-month trial, you will need a license to continue using Rider
-* **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
-* **Layout** - Only Top to Bottom layout
+- **Dependency arrows** - The direction of relationship between projects is not clear when both projects have arrows go in and out.
+- **Cost** - After one-month trial, you will need a license to continue using Rider
+- **Cluttered view** - Complex projects require manual layout adjustments to make the graph readable (no advanced layout tools like Visual Studio has)
+- **Layout** - Only Top to Bottom layout
 
 ::: ok  
 ![Figure: OK example- The Rider Dependency Graph](sugarlearning-dependency-graph-by-rider.png)  
@@ -97,17 +96,17 @@ Next option to generate the dependency graph is with Visual Studio, first you ne
 
 ### ✅ Pros
 
-* **Dependency view** - Provides high-level view of project dependencies
-* **Dependency cycle** - Enables users to find dependency problems in the project
-* **Layout** - Visual Studio gives different layout options, e.g. Top to Bottom, Quick Clusters, Left to Right, etc.
-* **Availabilty of graph for everyone** - Any Visual Studio edition can read already generated dependency graphs
+- **Dependency view** - Provides high-level view of project dependencies
+- **Dependency cycle** - Enables users to find dependency problems in the project
+- **Layout** - Visual Studio gives different layout options, e.g. Top to Bottom, Quick Clusters, Left to Right, etc.
+- **Availabilty of graph for everyone** - Any Visual Studio edition can read already generated dependency graphs
 
 ### ❌ Cons
 
-* **Dependency arrows** - Arrows are messy and go into the directory rather than into specific project that makes unclear to see which project it is referencing to
-* **Interface** - Interacting with the graph is slow and not fluid
-* **Cluttered view** - Graph becomes unreadable and confusing for complex projects
-* **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
+- **Dependency arrows** - Arrows are messy and go into the directory rather than into specific project that makes unclear to see which project it is referencing to
+- **Interface** - Interacting with the graph is slow and not fluid
+- **Cluttered view** - Graph becomes unreadable and confusing for complex projects
+- **Enterprise edition** - Only Visual Studio Enterprise can generate the dependency graph, see [official docs](https://learn.microsoft.com/en-us/visualstudio/modeling/analyze-and-model-your-architecture?view=vs-2022#VersionSupport) for version support
 
 ::: ok  
 ![Figure: OK example- The Visual Studio Dependency Graph](sugarlearning-dependency-graph-by-visual-studio.png)  

@@ -5,11 +5,11 @@ title: Do you make sure all software uses English as default on language setting
 uri: make-sure-all-software-uses-english
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related: []
 redirects:
   - make-sure-all-software-are-english

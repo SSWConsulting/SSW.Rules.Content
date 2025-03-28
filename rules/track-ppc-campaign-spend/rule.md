@@ -8,9 +8,9 @@ uri: track-ppc-campaign-spend
 created: 2015-10-19T21:32:14.0000000Z
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: https://ww.ssw.com.au/people/marlon-marescia
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related:
   - monthly-stakeholder-video
 redirects:

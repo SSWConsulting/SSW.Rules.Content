@@ -1,20 +1,19 @@
 ---
 seoDescription: Discover how to fix ugly URLs using IIS7 Rewrite for cleaner, SEO-friendly links
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use IIS7 Rewrite to fix ugly URLs?
 guid: df6b61c4-c808-4f80-bca9-7ea7eace8067
 uri: fix-ugly-urls
 created: 2015-11-10T21:02:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-related: 
-- use-dashes-in-urls
-- create-friendly-short-urls
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+related:
+  - use-dashes-in-urls
+  - create-friendly-short-urls
 redirects:
-- do-you-fix-your-ugly-urls
-
+  - do-you-fix-your-ugly-urls
 ---
 
 Ugly URLs don't only make it difficult for users to browse your site, they can also impact Google rankings.
@@ -41,16 +40,16 @@ Figure: Users could even guess this nice URL
 
 1. Add in Global.asax a route
 
-``` aspnet
-protected void Application_Start(object sender, EventArgs e) 
-{ 
-//RouteTable and PageRouteHandler are in System.Web.Routing 
-RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new PageRouteHandler("~/MyInternalDB/UserDatabase/ProductList.aspx.aspx"))); 
+```aspnet
+protected void Application_Start(object sender, EventArgs e)
+{
+//RouteTable and PageRouteHandler are in System.Web.Routing
+RouteTable.Routes.Add("ProductRoute", new Route("products/{productname}", new PageRouteHandler("~/MyInternalDB/UserDatabase/ProductList.aspx.aspx")));
 }
 ```
 
 ::: ok
-Figure: OK example - create a static route if you only have a few rewrites**
+Figure: OK example - create a static route if you only have a few rewrites\*\*
 :::
 
 2. Use the URL Rewriting Module for IIS7

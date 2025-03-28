@@ -8,7 +8,7 @@ uri: crm-proper-tools
 created: 2017-02-09T18:12:12.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-proper-tools-in-your-tool-belt

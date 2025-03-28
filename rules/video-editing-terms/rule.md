@@ -4,7 +4,7 @@ title: Production - Do you know the video editing terms?
 uri: video-editing-terms
 authors:
   - title: Andrew Forsyth
-    url: https://ssw.com.au/people/andrew-forsyth
+    url: https://ww.ssw.com.au/people/andrew-forsyth
   - title: Jonty Gardner
     url: https://www.ssw.com.au/people/jonty-gardner
   - title: Landon Maxwell
@@ -23,6 +23,7 @@ redirects:
 created: 2022-10-31T12:40:29.280Z
 guid: 9a3bc559-98d6-4119-88b5-0b7f4f342f6b
 ---
+
 Understanding basic video editing terminology allows for better communication during the post-production workflow. It's important for anyone involved to know the basic terms to keep feedback clear and concise.
 
 `youtube: https://www.youtube.com/embed/GwWqoN8ajAo`
@@ -32,7 +33,7 @@ Understanding basic video editing terminology allows for better communication du
 
 ### 1. Primary Footage (aka Main Footage)
 
-Primary footage is what tells the story by conveying a message. These are general types of primary footage: 
+Primary footage is what tells the story by conveying a message. These are general types of primary footage:
 
 1. Talking heads in an interview
 2. Screen share during a live demo
@@ -70,7 +71,7 @@ Feedback example: "At 2:22, add in some overlay to show what they are talking ab
 
 ### 3. Lower Third
 
-Lower third is a type of overlay. Lower third gives the audience information about a presenter's name and title or what's displayed on the screen and can be a combination of text and graphical elements. 
+Lower third is a type of overlay. Lower third gives the audience information about a presenter's name and title or what's displayed on the screen and can be a combination of text and graphical elements.
 
 For example, the lower third here is the presenter's name and job title.
 
@@ -103,11 +104,12 @@ For example, the screen share in this presentation uses a PIP effect of the pres
 
 Feedback example: "At 2:22, show the PIP so we can see Jason talking."
 
-::: greybox 
+::: greybox
 **Notes:**
+
 - Consistency - It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
 - Position - It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
-:::
+  :::
 
 ### 6. Cutaway
 
@@ -149,7 +151,7 @@ Feedback example: "At 2:22, change add a shot in the montage of the SSW team wav
 
 ### 9. Intro
 
-An intro can include a title sequence, logo or a hook (short and catchy footage). Often a opening theme song with visuals are used. 
+An intro can include a title sequence, logo or a hook (short and catchy footage). Often a opening theme song with visuals are used.
 
 ![](Intro-Example.png)
 
@@ -207,7 +209,7 @@ Feedback example: "This video export is the wrong size, it's not SSW TV standard
 
 ### 14. Colour - White Balance
 
-A proper white balance is characterized by the whites in an image truly being the colour white. 
+A proper white balance is characterized by the whites in an image truly being the colour white.
 
 For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other colour. White balance’s formal definition is the process of gathering accurate colours for the available light. Your camera may come with a white balance menu and an auto white balance feature.
 
@@ -231,7 +233,7 @@ Feedback example: "At 2:22, I can hear a buzzing sound with my headphones on, bu
 
 ### 17. Audio - Levels
 
-When video editing, it's important to have standard audio levelling. 
+When video editing, it's important to have standard audio levelling.
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
@@ -255,7 +257,7 @@ Feedback example: "At 2:22, the jump cut here is too noticeable. Can we try a di
 
 This is when the same video clip is used from one cut to another, but the scale is increased from one zoom level to the next.
 
-For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
+For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle.
 
 ![](rules-video-terminologies-punch-in-v7.gif)
 
@@ -293,7 +295,7 @@ Video rendering is similar to compiling code for developers.
 
 ### 23. Video Export
 
-When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube. 
+When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube.
 
 **Note:** It is important to check the export settings to ensure that they are set to High-Quality 1080p as a standard.
 

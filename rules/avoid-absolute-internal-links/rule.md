@@ -23,7 +23,7 @@ When using absolute URLs for internal links, the browser needs to make additiona
 On the other hand, when employing relative URLs, the browser can navigate directly to the linked page by adjusting the path relative to the current page. This eliminates the need for additional server requests and results in faster page loads. In the context of static site hosting, where every aspect of the website is pre-rendered and served as static files, optimizing internal links with relative URLs can significantly enhance the overall performance and user experience.
 
 ```html
-<a href="https://ssw.com.au/Company/ContactUs/">Contact us</a>
+<a href="https://ww.ssw.com.au/Company/ContactUs/">Contact us</a>
 ```
 
 ::: bad

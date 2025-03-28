@@ -8,9 +8,9 @@ uri: provide-fresh-content
 created: 2016-11-24T15:04:33.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-provide-fresh-content
@@ -46,6 +46,6 @@ Sitecore's mix of powerful marketing and business features, rich development sup
 
 With over than 200.000 installations, Umbraco is one of the most deployed Web Content Management Systems on the Microsoft stack.
 
-### [WordPress](https://ssw.com.au/consulting/wordpress)
+### [WordPress](https://ww.ssw.com.au/consulting/wordpress)
 
 WordPress the most popular content management system (CMS) on the web, and is trusted by content publishers from both large and small businesses.

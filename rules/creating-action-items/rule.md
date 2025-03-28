@@ -6,7 +6,7 @@ seoDescription: Create actionable next steps after meetings to ensure
 uri: creating-action-items
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
   - follow-up-effectively
@@ -19,6 +19,7 @@ created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: 50f5fd0b-a15f-45ad-bb35-2dd522d9a5db
 ---
+
 The primary objective of most meetings should be to establish clear next steps. These steps should be broken down into action items and assigned to the responsible individuals, with all other attendees CC’d.
 
 It's recommended to designate a scribe who drafts action points during the meeting and **assigns them directly to those responsible for completing the tasks**. The scribe should also document any decision-making process by writing down each person's arguments. After writing down everyone’s comments on the options, the notes can be reviewed as a group to better inform what the best course of action might be. If the scribe hasn't been designated at the start, simply ask: _"Who will be the scribe?"_
@@ -27,10 +28,10 @@ Common action items may include:
 
 <!--endintro-->
 
-* Outcomes from the meeting’s agenda
-* [Items that may be off-topic](https://www.ssw.com.au/rules/keep-track-of-a-parking-lot-for-topics) and require more discussion by subsets of the meeting’s attendees – aka a “parking lot”
-* Ad hoc tasks that come up from brainstorming, usually sent as separate email tasks or created as PBIs in a backlog
-* Scheduling the next meeting
+- Outcomes from the meeting’s agenda
+- [Items that may be off-topic](https://www.ssw.com.au/rules/keep-track-of-a-parking-lot-for-topics) and require more discussion by subsets of the meeting’s attendees – aka a “parking lot”
+- Ad hoc tasks that come up from brainstorming, usually sent as separate email tasks or created as PBIs in a backlog
+- Scheduling the next meeting
 
 There are several effective ways to capture action items and notes during a meeting - **here are the recommended options:**
 

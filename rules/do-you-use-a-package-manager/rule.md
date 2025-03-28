@@ -5,7 +5,7 @@ title: Do you use a package manager?
 uri: do-you-use-a-package-manager
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Daniel Mackay
     url: https://github.com/danielmackay
 related: []
@@ -55,7 +55,7 @@ winget install {{ APP NAME }}
 
 For example:
 
-![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png "Installing powertoys via winget")
+![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png 'Installing powertoys via winget')
 
 For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
 

@@ -1,13 +1,13 @@
 ---
 seoDescription: Find the best hashtags to boost your Twitter presence and engagement with Talkwalker's powerful analytics tools.
 type: rule
-title: " Do you know how to find the best hashtags to use?"
+title: ' Do you know how to find the best hashtags to use?'
 uri: find-the-best-hashtags
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - url: https://www.ssw.com.au/people/jonty-gardner
     title: Jonty Gardner
   - url: https://www.ssw.com.au/people/seth-daily/
@@ -22,7 +22,7 @@ Social media analytics tools like [Talkwalker](https://www.talkwalker.com) revol
 
 <!--endintro-->
 
-![Figure: Talkwalker shows that the hashtags usage in this case, Microsoft announced the MVPs on the 7th of July that is shown by the spike on the graph](talkwalker-example.png "Figure: Talkwalker shows that the hashtags usage in this case, Microsoft announced the MVPs on the 7th of July that is shown by the spike on the graph")
+![Figure: Talkwalker shows that the hashtags usage in this case, Microsoft announced the MVPs on the 7th of July that is shown by the spike on the graph](talkwalker-example.png 'Figure: Talkwalker shows that the hashtags usage in this case, Microsoft announced the MVPs on the 7th of July that is shown by the spike on the graph')
 
 Talkwalker's benefits extend beyond mere hashtag counts. The tool allows users to gain deeper insights into **mentions**, **user engagement**, **geographic distribution**, and **influential users** related to a particular hashtag or event.
 

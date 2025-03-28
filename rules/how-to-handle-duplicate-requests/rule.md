@@ -8,7 +8,7 @@ uri: how-to-handle-duplicate-requests
 created: 2021-03-16T09:10:00.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
 ---
 

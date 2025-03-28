@@ -5,11 +5,11 @@ title: Videos - Do you use personalized thumbnails?
 uri: video-thumbnails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Florent Dezettre
-    url: https://ssw.com.au/people/florent-dezettre
+    url: https://ww.ssw.com.au/people/florent-dezettre
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
   - url: https://www.ssw.com.au/people/landon-maxwell
     title: Landon Maxwell
 related:
@@ -31,10 +31,10 @@ Thumbnails are a great way of telling your (potential) viewers what your video i
 
 A thumbnail can draw attention by:
 
-* Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t blend in
-* Being custom ([90% of the best performing videos on YouTube have custom thumbnails](https://backlinko.com/hub/youtube/thumbnail))
-* Using big bold titles (30 characters maximum, remember a thumbnail is small)
-* Feature your main keyword in the title
+- Using bright colors and avoiding using the YouTube colors (white, black, red) so you don’t blend in
+- Being custom ([90% of the best performing videos on YouTube have custom thumbnails](https://backlinko.com/hub/youtube/thumbnail))
+- Using big bold titles (30 characters maximum, remember a thumbnail is small)
+- Feature your main keyword in the title
 
 `youtube: https://www.youtube.com/embed/lh5WcImQzRY`
 

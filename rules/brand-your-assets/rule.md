@@ -5,11 +5,11 @@ title: Do you brand your assets?
 uri: brand-your-assets
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
 related: []
 redirects:
   - do-you-brand-your-assets

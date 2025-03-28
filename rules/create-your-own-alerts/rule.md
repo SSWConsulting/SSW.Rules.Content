@@ -8,7 +8,7 @@ uri: create-your-own-alerts
 created: 2019-11-19T18:38:18.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - dbas-do-you-create-your-own-alerts

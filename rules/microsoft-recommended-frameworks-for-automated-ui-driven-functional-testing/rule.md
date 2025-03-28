@@ -8,13 +8,13 @@ uri: microsoft-recommended-frameworks-for-automated-ui-driven-functional-testing
 created: 2020-03-16T19:59:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://ww.ssw.com.au/people/jason-taylor
   - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
+    url: https://ww.ssw.com.au/people/luke-parker
 related: []
 redirects:
   - do-you-know-microsofts-recommended-frameworks-for-automated-ui-driven-functional-testing

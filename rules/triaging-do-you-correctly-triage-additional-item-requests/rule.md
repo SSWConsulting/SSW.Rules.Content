@@ -5,13 +5,13 @@ title: Triaging - Do you correctly triage additional item requests?
 uri: triaging-do-you-correctly-triage-additional-item-requests
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
 related:
   - work-in-order-of-importance-aka-priorities
   - turn-emails-into-pbis
@@ -27,7 +27,7 @@ guid: 368379e7-2a52-439c-973f-e58de293d65b
 
 Managing additional work requests can reduce the adverse impact on estimates and deadlines. These work requests can include new feature requests, non-critical bug fixes, modifications and undiscovered work (i.e. work you didn't initially anticipate).
 
-![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects\_Triage.jpg)  
+![Figure: Only if it's life and death does it get added "in this Sprint"](SuccessfulProjects_Triage.jpg)
 
 ## Prioritization
 
@@ -36,8 +36,8 @@ The first step is to prioritize the new work item.
 1. If it is a critical bug, call your Product Owner and add it to the current Sprint
 2. Otherwise, it should be added to the backlog:
 
-     1. If the item is assessed as important, it should be placed immediately after the current Sprint items
-     2. Otherwise, you should attempt to prioritize the item based on the existing items in the backlog
+   1. If the item is assessed as important, it should be placed immediately after the current Sprint items
+   2. Otherwise, you should attempt to prioritize the item based on the existing items in the backlog
 
 ::: info
 **Note:** On a fixed price contract, the rules change. Bugs should be fixed in the current Sprint if time allows, otherwise first thing in the next Sprint as they are stopping you from being paid.  
@@ -52,27 +52,28 @@ Bugs are usually prioritised, so even non-critical bugs will likely end up in th
 ### Exception #2 - A client can override
 
 A request for a new screen with a new look-up table that doesn't prevent users from operating the system, should be allocated to "a later Sprint".
-If the client really *needs* it done now, they must specify "must be in this Sprint". This will become an 'additional item' in the current Sprint.
+If the client really _needs_ it done now, they must specify "must be in this Sprint". This will become an 'additional item' in the current Sprint.
 
 If this request from the client will have a material impact on inflexible time and budget restraints, you need to speak and inform the client.
 
-For example: *"Hi Bill, this task you specified 'must be in this Sprint' will take an extra 4 days. Our critical deadline will be missed. Is that OK?"*
+For example: _"Hi Bill, this task you specified 'must be in this Sprint' will take an extra 4 days. Our critical deadline will be missed. Is that OK?"_
 
 ### Exception #3 - A Developer can override
 
-A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in the current Sprint as long as the task is small (less than 1/2 hour) and the Sprint is not already slipping.  
-  
+A client may request a small feature (e.g. changing the sort order of a combo-box). This work can go in the current Sprint as long as the task is small (less than 1/2 hour) and the Sprint is not already slipping.
+
 If the work is over budget, then you need to obtain approval for any 'additional item', from both the project manager and the client, before adding the request into the Sprint. See more about how to [obtain approval for additional items that exceed estimates](/inform-clients-about-estimates-overrun).
 
-::: email-template  
+::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Dave |
-| Subject: | Northwind - Client List for Administrators  |  
-::: email-content  
+|          |                                            |
+| -------- | ------------------------------------------ |
+| To:      | Dave                                       |
+| Subject: | Northwind - Client List for Administrators |
 
-### Hi Dave  
+::: email-content
+
+### Hi Dave
 
 1. Please add a sort function (like the one in Office) next to the fields: Last Name, First Name, Advisers and Organization
 2. Apply to other relevant pages which have these fields in a list i.e. adviser list for administrators, client list for advisers etc

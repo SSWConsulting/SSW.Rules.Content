@@ -5,9 +5,9 @@ title: Tasks - Do you know that every PBI should have an owner?
 uri: tasks-do-you-know-that-every-user-story-should-have-an-owner
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - tasks-do-you-know-that-every-pbi-should-have-an-owner

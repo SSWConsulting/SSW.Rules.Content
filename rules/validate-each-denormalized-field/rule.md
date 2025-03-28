@@ -5,7 +5,7 @@ title: Do you validate each "Denormalized Field"?
 uri: validate-each-denormalized-field
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-validate-each-denormalized-field-with-procvalidate

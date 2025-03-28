@@ -5,7 +5,7 @@ title: Do you know how to structure a unit test (aka the 3 a's)?
 uri: how-to-structure-a-unit-test
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-structure-a-unit-test-aka-the-3-as

@@ -5,11 +5,11 @@ title: Do you write your Angular 1.x directives in TypeScript?
 uri: write-your-angular-1-x-directives-in-typescript
 authors:
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: https://ww.ssw.com.au/people/danijel-malik
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
 related: []
 redirects:
   - do-you-write-your-angular-1-x-directives-in-typescript

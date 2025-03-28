@@ -5,9 +5,9 @@ title: Retro - Do you evaluate your event feedback?
 uri: evaluate-your-event-feedback
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: https://ww.ssw.com.au/people/brittany-lawrence
 related: []
 redirects:
   - do-you-evaluate-your-event-feedback

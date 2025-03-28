@@ -8,7 +8,7 @@ uri: hemmingway-editor
 created: 2023-10-16T05:06:33.0000000Z
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - concise-writing
   - use-active-voice

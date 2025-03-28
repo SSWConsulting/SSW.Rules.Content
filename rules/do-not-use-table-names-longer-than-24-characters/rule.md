@@ -8,7 +8,7 @@ uri: do-not-use-table-names-longer-than-24-characters
 created: 2019-11-06T17:37:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - schema-do-you-use-less-than-24-characters-for-table-names

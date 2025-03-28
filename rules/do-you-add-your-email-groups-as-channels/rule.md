@@ -8,7 +8,7 @@ uri: do-you-add-your-email-groups-as-channels
 created: 2015-06-03T21:36:43.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
 related: []
 redirects: []
 ---

@@ -5,7 +5,7 @@ title: Layout - Do you include useful information on the footer of reports?
 uri: reports-footer
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - have-a-strong-header-and-footer
 redirects:

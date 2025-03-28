@@ -8,9 +8,9 @@ uri: do-you-add-embedded-timelines-to-your-website-aka-twitter-box
 created: 2015-04-27T21:05:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-add-embedded-timelines-to-your-website-(aka-twitter-box)

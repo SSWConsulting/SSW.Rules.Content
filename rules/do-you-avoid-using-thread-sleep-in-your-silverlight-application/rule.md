@@ -8,7 +8,7 @@ uri: do-you-avoid-using-thread-sleep-in-your-silverlight-application
 created: 2011-05-20T07:34:58.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -32,8 +32,6 @@ this.Dispatcher.BeginInvoke(new Action(() =>
 ::: bad  
 Code: Bad example - Using Thread.Sleep() causes your Silverlight application to freeze 
 :::
-
-
 
 ```cs
 Storyboard sb = new Storyboard() { Duration = TimeSpan.FromSeconds(5) };

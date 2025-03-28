@@ -6,13 +6,14 @@ seoDescription: In Agile development, Spike and Proof of Concept (PoC) help
 uri: spike-vs-poc
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - generate-ui-mockups-with-ai
   - encourage-spikes-when-a-story-is-inestimable
 created: 2024-09-09T11:17:00.000Z
 guid: 85c4e576-1d07-499e-95f6-c69490bd7692
 ---
+
 In Agile development, both the terms "Spike" and "Proof of Concept (PoC)" are used to address uncertainty or gather information, but they are applied in slightly different contexts.
 
 <!--endintro-->
@@ -29,38 +30,38 @@ Used to demonstrate the feasibility or viability of a broader idea or concept. P
 
 #### Purpose
 
-* **Spike** – Research technical challenges or uncertainties within a Sprint  
-* **PoC** – Demonstrate the feasibility of a solution or idea before committing to full development
+- **Spike** – Research technical challenges or uncertainties within a Sprint
+- **PoC** – Demonstrate the feasibility of a solution or idea before committing to full development
 
 #### Focus
 
-* **Spike** – Focuses on investigation and learning (e.g., testing frameworks, understanding APIs)  
-* **PoC** – Focuses on proving whether a concept or approach can work in practice
+- **Spike** – Focuses on investigation and learning (e.g., testing frameworks, understanding APIs)
+- **PoC** – Focuses on proving whether a concept or approach can work in practice
 
 #### Timeframe
 
-* **Spike** – Short, time-boxed within a Sprint (usually a few hours to a few days)  
-* **PoC** – Typically spans a longer period as it's aimed at validating a broader concept
+- **Spike** – Short, time-boxed within a Sprint (usually a few hours to a few days)
+- **PoC** – Typically spans a longer period as it's aimed at validating a broader concept
 
 #### Outcome
 
-* **Spike** – Results in knowledge or information (**not deliverables**) to guide future work  
-* **PoC** – Results in a prototype or partial implementation to demonstrate viability
+- **Spike** – Results in knowledge or information (**not deliverables**) to guide future work
+- **PoC** – Results in a prototype or partial implementation to demonstrate viability
 
 #### Application
 
-* **Spike** – Applied when there’s a technical unknown or a need for research during development  
-* **PoC** – Applied when evaluating whether a new idea, feature, or technology will succeed before fully investing in it
+- **Spike** – Applied when there’s a technical unknown or a need for research during development
+- **PoC** – Applied when evaluating whether a new idea, feature, or technology will succeed before fully investing in it
 
 #### Team Involvement
 
-* **Spike** – Primarily involves the development team to resolve technical uncertainties  
-* **PoC** – May involve multiple stakeholders (developers, designers, business) to validate the concept's viability
+- **Spike** – Primarily involves the development team to resolve technical uncertainties
+- **PoC** – May involve multiple stakeholders (developers, designers, business) to validate the concept's viability
 
 #### Risk Management
 
-* **Spike** – Reduces technical risk by clarifying unknowns  
-* **PoC** – Reduces business risk by testing the feasibility of a solution before major investment
+- **Spike** – Reduces technical risk by clarifying unknowns
+- **PoC** – Reduces business risk by testing the feasibility of a solution before major investment
 
 ### Which one to choose?
 

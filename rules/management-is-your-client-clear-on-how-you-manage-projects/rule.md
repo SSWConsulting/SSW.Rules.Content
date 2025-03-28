@@ -8,7 +8,7 @@ uri: management-is-your-client-clear-on-how-you-manage-projects
 created: 2009-02-28T09:44:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -5,10 +5,9 @@ title: Do you document/update processes before sending "Done"?
 uri: document-the-job
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 created: 2023-03-06T01:14:48.160Z
 guid: 84c02cd1-c38e-425c-8bd4-23647b8cbd56
-
 ---
 
 Often while doing a task, you follow a process. If it's a repeatable task, it's important that the process is documented and up-to-date. Otherwise, the next person to do the task won't know the right thing to do. The job is **not done until it's documented** - documenting/updating a standard is part of the ["Definition of Done"](/definition-of-done) in such tasks.
@@ -27,8 +26,8 @@ If you are really under the crunch and your task is critically urgent (e.g. Prod
 
 Processes are usually stored in different places depending on the context they apply to.
 
-* [Wiki or Repo](/awesome-documentation) - If related to a project
-* [PBIs](/document-discoveries) - If related to a task being worked on
-* [Rules or blogs](/do-you-know-how-to-document-what-you-are-doing) - Public standards and best practices
-* Intranet - Internal standards
-* Induction (e.g. SugarLearning) - Links to standards/rules + test knowledge
+- [Wiki or Repo](/awesome-documentation) - If related to a project
+- [PBIs](/document-discoveries) - If related to a task being worked on
+- [Rules or blogs](/do-you-know-how-to-document-what-you-are-doing) - Public standards and best practices
+- Intranet - Internal standards
+- Induction (e.g. SugarLearning) - Links to standards/rules + test knowledge

@@ -5,7 +5,7 @@ title: Do you use a SQL Server Relationship Naming Standard?
 uri: use-a-sql-server-relationship-naming-standard
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - general-do-you-use-a-sql-server-relationship-naming-standard

@@ -5,7 +5,7 @@ title: Do you explain the event logistics?
 uri: do-you-explain-the-logistics
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2013-01-29T20:03:42.000Z

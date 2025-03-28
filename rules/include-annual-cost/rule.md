@@ -7,7 +7,7 @@ authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - what-currency-to-quote
   - avoid-using-too-many-decimals

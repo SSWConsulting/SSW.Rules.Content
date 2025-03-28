@@ -5,7 +5,7 @@ title: Do you use a secure VPN with MFA?
 uri: do-you-use-a-secure-remote-access-vpn
 authors:
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
 related: []

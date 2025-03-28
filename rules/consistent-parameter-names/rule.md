@@ -6,13 +6,12 @@ title: Parameters - Do you have consistent parameter names?
 guid: b4ee2b12-6686-4638-8b63-549e5c64b62d
 uri: consistent-parameter-names
 created: 2024-08-02T10:40:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 All display names referring to the same parameter should be consistent in everywhere of your reports. In addition, the parameter name and value should be in the same line if possible.

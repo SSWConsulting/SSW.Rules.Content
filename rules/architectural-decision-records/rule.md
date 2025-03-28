@@ -5,9 +5,9 @@ title: Do you use Architectural Decision Records (ADRs)?
 uri: architectural-decision-records
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
 related:
   - checked-by-xxx
   - conduct-a-test-please
@@ -19,6 +19,7 @@ redirects:
 created: 2023-06-26T06:03:20.995Z
 guid: a131455c-96db-4c0d-829c-20a506c1bcc8
 ---
+
 Architectural Decision Records (ADRs) are lightweight documents used to record important decisions in your project, and the reasons behind them.
 
 These records aren't limited to architectural choices but can encompass any crucial decision made by the team, making ADRs versatile as "Architecture/Any Decision Records".

@@ -8,7 +8,7 @@ uri: do-you-have-servers-around-the-world-and-use-geo-based-dns-ips
 created: 2014-09-03T19:17:30.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-servers-around-the-world-and-use-geo-based-dns-ip’s
@@ -23,4 +23,4 @@ The solution is to have an origin server (can be multiple for loadbalancing) an
 
 CDN is provided by many cloud providers such as WPEngine, Azure, CloudFlare but can also be achieved by using opensource software such as JSDelivr, Cdnjs and many others.
 
-It can also be achieved using IIS Outbound Rewrite rules. For example `https://ssw.com.au` could be change to `https://us.ssw.com.au` and be directed to another IIS server.
+It can also be achieved using IIS Outbound Rewrite rules. For example `https://ww.ssw.com.au` could be change to `https://us.ssw.com.au` and be directed to another IIS server.

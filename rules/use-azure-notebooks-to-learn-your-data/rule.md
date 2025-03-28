@@ -8,7 +8,7 @@ uri: use-azure-notebooks-to-learn-your-data
 created: 2017-04-18T01:27:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-azure-notebooks-to-learn-your-data

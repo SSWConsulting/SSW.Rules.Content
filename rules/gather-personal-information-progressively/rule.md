@@ -8,7 +8,7 @@ uri: gather-personal-information-progressively
 created: 2015-02-13T02:50:56.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-gather-more-personal-information-progressively

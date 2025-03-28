@@ -5,7 +5,7 @@ title: Do you know how to make connection strings among different environment?
 uri: how-to-make-connection-strings-in-different-environment
 authors:
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/alumni/igor-goldobin
+    url: https://ww.ssw.com.au/people/alumni/igor-goldobin
 created: 2024-03-09T06:02:23.676Z
 guid: 27abe1ac-b34a-4ea7-94e5-a3cd5ba5e10b
 ---

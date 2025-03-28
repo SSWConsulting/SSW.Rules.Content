@@ -5,11 +5,11 @@ title: Do you know the most popular unit and integration testing frameworks for 
 uri: testing-tools
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://ww.ssw.com.au/people/jason-taylor
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
 related: []
 redirects:
   - the-most-popular-unit-testing-frameworks-for-net-core-applications

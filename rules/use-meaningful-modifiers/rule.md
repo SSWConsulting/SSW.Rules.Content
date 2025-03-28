@@ -7,11 +7,11 @@ uri: use-meaningful-modifiers
 created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - verbs-for-method-names

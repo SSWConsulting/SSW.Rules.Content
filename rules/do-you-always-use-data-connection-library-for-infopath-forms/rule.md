@@ -8,7 +8,7 @@ uri: do-you-always-use-data-connection-library-for-infopath-forms
 created: 2009-05-27T14:19:06.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related:
   - do-you-always-set-infopath-compatibility-mode-to-design-for-both-rich-and-web-client-forms
 redirects: []

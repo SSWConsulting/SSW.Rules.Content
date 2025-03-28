@@ -8,11 +8,11 @@ uri: split-emails-by-topic
 created: 2009-03-30T03:26:32.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - send-email-tasks-to-individuals
   - communication-are-you-specific-in-your-requirements
@@ -22,7 +22,6 @@ related:
 redirects:
   - do-you-send-tasks-one-email-at-a-time
   - email-unrelated-individually
-
 ---
 
 People often overlook or miss items in long, carefully drafted emails. To improve clarity and task completion, it's more effective to send separate emails for unrelated (or independent) tasks.
@@ -39,12 +38,13 @@ If you are requesting many smaller tasks under the same topic, you should group 
 
 If you have a list of things to be done, and find that your requests are **not** directly related (don't depend on each other OR are not to be done in the same environment), it is better to break it up and send separate emails.
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Steven |
-| Subject: | Northwind website domain change and CSS fixes |  
+|          |                                               |
+| -------- | --------------------------------------------- |
+| To:      | Steven                                        |
+| Subject: | Northwind website domain change and CSS fixes |
+
 ::: email-content
 
 ### Hi Steven
@@ -61,12 +61,13 @@ If you have a list of things to be done, and find that your requests are **not**
 Figure: Bad example - One email for multiple unrelated tasks (domains vs styling)
 :::
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Steven |
-| Subject: | Northwind website domain change |  
+|          |                                 |
+| -------- | ------------------------------- |
+| To:      | Steven                          |
+| Subject: | Northwind website domain change |
+
 ::: email-content
 
 ### Hi Steven
@@ -77,12 +78,13 @@ Figure: Bad example - One email for multiple unrelated tasks (domains vs styling
 
 :::  
 :::
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Steven |
-| Subject: | Northwind website CSS fixes |  
+|          |                             |
+| -------- | --------------------------- |
+| To:      | Steven                      |
+| Subject: | Northwind website CSS fixes |
+
 ::: email-content
 
 ### Hi Steven
@@ -100,9 +102,9 @@ Figure: Good example - Separate emails for unrelated tasks. A few related tasks 
 
 If you have a very large task that requires days of work, it is also better to break it up and send separate related emails. A big task like "Boil the Ocean" would become several emails with consistent subjects:
 
-* "Boil the Ocean #1",
-* "Boil the Ocean #2",
-* "Boil the Ocean #3", etc
+- "Boil the Ocean #1",
+- "Boil the Ocean #2",
+- "Boil the Ocean #3", etc
 
 The advantages are that you get an email history for specific parts, making it easier to include someone else and follow up.
 

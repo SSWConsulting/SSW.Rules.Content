@@ -8,9 +8,9 @@ uri: do-you-know-how-to-add-a-version-number-to-setup-package-in-advanced-instal
 created: 2014-09-18T20:02:53.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Danijel Malik
-    url: https://ssw.com.au/people/danijel-malik
+    url: https://ww.ssw.com.au/people/danijel-malik
 related: []
 redirects: []
 ---

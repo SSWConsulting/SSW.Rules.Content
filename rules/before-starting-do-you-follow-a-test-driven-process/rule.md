@@ -8,9 +8,9 @@ uri: before-starting-do-you-follow-a-test-driven-process
 created: 2011-11-18T03:52:57.0000000Z
 authors:
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: https://ww.ssw.com.au/people/tristan-kurniawan
 related: []
 redirects:
   - (before-starting)-do-you-follow-a-test-driven-process

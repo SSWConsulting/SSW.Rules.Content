@@ -8,9 +8,9 @@ uri: how-to-find-a-phone-number
 created: 2017-02-09T20:24:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects:
   - do-you-know-how-to-find-an-employee-or-clients-phone-number

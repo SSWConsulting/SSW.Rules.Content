@@ -5,7 +5,7 @@ title: Do you know when to use User Controls?
 uri: do-you-know-when-to-use-user-controls
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T02:45:00.000Z
 guid: 38779435-f4d8-42eb-89e6-f8c24293a876
 ---

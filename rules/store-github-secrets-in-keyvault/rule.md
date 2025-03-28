@@ -5,10 +5,11 @@ title: Do you store your GitHub secrets in Azure KeyVault?
 uri: store-github-secrets-in-keyvault
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
 created: 2022-10-27T21:38:53.087Z
 guid: 6191828c-2049-46ef-93f8-d5eb90426d56
 ---
+
 When creating pipelines for a company there is often secrets that need to be used by more than 1 repository. This is something that GitHub can't do natively. A developer is also unable to read the secrets in GitHub once they are entered. Although this is for security a simple typo can't be found and instead the entire secret needs to be reentered. There is also no visible history for GitHub secrets and no ability to revert to an earlier version of a secret.
 
 Solution: Store them in Azure KeyVault.
@@ -29,7 +30,7 @@ Solution: Store them in Azure KeyVault.
 
 1. In a GitHub action use the following code:
 
-``` yaml
+```yaml
 - name: Azure CLI script
   uses: azure/CLI@v1
   with:
@@ -41,7 +42,7 @@ Solution: Store them in Azure KeyVault.
 
 2. Bicep - In the file that you wish to use a secret add this code:
 
-``` json
+```json
 resource environmentKeyVault 'Microsoft.KeyVault/vaults@2022-07-01' existing = {
   name: '${environmentName}-kvconfig'
   scope: resourceGroup(envSubscriptionId, envResourceGroup)
@@ -51,13 +52,13 @@ resource environmentKeyVault 'Microsoft.KeyVault/vaults@2022-07-01' existing = {
 
 Then reference the value like this to provide parameters for other bicep modules:
 
-``` json
+```json
 module azuredeployment 'environment-keyvault.bicep' ={
   name: '${projectName}-${lastDeploymentDate}'
   scope: resourceGroup()
   params: {
     location: location
-  
+
     tags: tags
     AppInsightsKey: environmentKeyVault.getSecret('myAppInsightsKey')
 }
@@ -67,7 +68,7 @@ module azuredeployment 'environment-keyvault.bicep' ={
 
 3. PowerShell - Access the same secrets directly from PowerShell:
 
-``` powershell
+```powershell
 Get-AzKeyVaultSecret -VaultName "$environmentName-kvconfig" -Name myAppInsightsKey -AsPlainText
 ```
 

@@ -5,7 +5,7 @@ title: Do you use Entra Access Packages to give access to resources?
 uri: do-you-use-access-packages
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://ww.ssw.com.au/people/warwick-leahy
 created: 2023-08-23T06:08:34.119Z
 guid: 86623c40-7433-4723-82a0-9517b28e9079
 ---

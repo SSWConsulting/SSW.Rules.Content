@@ -8,7 +8,7 @@ uri: make-it-clear-when-a-project-is-no-longer-maintained
 created: 2016-12-13T18:36:53.0000000Z
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related: []
 redirects:
   - do-you-make-it-clear-when-a-project-is-no-longer-maintained

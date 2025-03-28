@@ -1,14 +1,14 @@
 ---
 seoDescription: When writing instructions for a series of operations, it's crucial to maintain the correct order to prevent user confusion.
 type: rule
-archivedreason: Merged to https://ssw.com.au/rules/use-correct-symbols-when-documenting-instructions/
+archivedreason: Merged to https://ww.ssw.com.au/rules/use-correct-symbols-when-documenting-instructions/
 title: Reference - Do you use the right order of instructions?
 guid: 7fcd670e-8df5-43ec-b94d-4b8413a0c0b5
 uri: use-the-right-order-of-instructions
 created: 2016-03-22T04:50:29.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - use-correct-symbols-when-documenting-instructions
   - do-you-highlight-actions-correctly-in-your-document

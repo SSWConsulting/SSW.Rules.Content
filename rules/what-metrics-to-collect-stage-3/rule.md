@@ -2,15 +2,15 @@
 seoDescription: DevOps Stage 3 - Measure application performance and process efficiency by collecting metrics on exceptions, application performance, and code maintainability.
 type: rule
 archivedreason:
-title: "DevOps – Stage 3: Do you know what metrics to collect?"
+title: 'DevOps – Stage 3: Do you know what metrics to collect?'
 guid: 7867c4c4-1830-4cac-b42e-4926645c898b
 uri: what-metrics-to-collect-stage-3
 created: 2016-03-07T18:22:18.0000000Z
 authors:
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://ww.ssw.com.au/people/eric-phan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects:
   - devops-stage-3-do-you-know-what-metrics-to-collect
@@ -27,16 +27,16 @@ Here are a few easy things to gather metrics on:
 
 See how many errors are being produced, aim to reduce this as the produce matures:
 
-* [Do you use the best exception handling library?](/do-you-use-the-best-exception-handling-library)
-* Application Insights
-* RayGun.io
-* [Visual Studio App Center](https://appcenter.ms)(for mobile)
+- [Do you use the best exception handling library?](/do-you-use-the-best-exception-handling-library)
+- Application Insights
+- RayGun.io
+- [Visual Studio App Center](https://appcenter.ms)(for mobile)
 
 But it's not only exceptions you should be looking at but also how your users are using the application, so you can see where you should invest your time:
 
-* [Application Insights](/why-you-want-to-use-application-insights/)
-* Google Analytics
-* RayGun.io (Pulse)
+- [Application Insights](/why-you-want-to-use-application-insights/)
+- Google Analytics
+- RayGun.io (Pulse)
 
 ### Application Metrics
 
@@ -52,16 +52,16 @@ Application/Server performance – track how your code is running in production,
 
 Collecting stats about the application isn't enough, you also need to be able to measure the time spent in the processes used to develop and maintain the application. You should keep an eye on and measure:
 
-* Sprint Velocity
-* Time spent in testing
-* Time spent deploying
-* Time spent getting a new developer up to speed
-* Time spent in Scrum ceremonies
-* Time taken for a bug to be fixed and deployed to production
+- Sprint Velocity
+- Time spent in testing
+- Time spent deploying
+- Time spent getting a new developer up to speed
+- Time spent in Scrum ceremonies
+- Time taken for a bug to be fixed and deployed to production
 
 ### Code Metrics
 
 The last set of metrics you should be looking at revolves around the code and how maintainable it is. You can use tools like:
 
-* Code Analysis
-* [SonarQube](https://www.sonarqube.org)
+- Code Analysis
+- [SonarQube](https://www.sonarqube.org)

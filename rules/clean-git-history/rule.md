@@ -7,7 +7,7 @@ authors:
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming/
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - use-squash-and-merge-for-open-source-projects
   - write-a-good-pull-request
@@ -22,10 +22,10 @@ Things that create a good git history include:
 
 <!--endintro-->
 
-- Granularity of commits
-- Descriptive commit messages
-- Easy to maintain (i.e. easily revert an entire feature)
-- Never lose history
+* Granularity of commits
+* Descriptive commit messages
+* Easy to maintain (i.e. easily revert an entire feature)
+* Never lose history
 
 ## Squashing Pull Requests
 

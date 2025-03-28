@@ -5,13 +5,13 @@ title: Do you promptly inform clients about initial estimate overruns?
 uri: inform-clients-about-estimates-overrun
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
 related:
   - approval-do-you-get-work-approved-before-you-do-it
 redirects:
@@ -19,7 +19,6 @@ redirects:
 created: 2009-08-19T23:56:41.000Z
 archivedreason: null
 guid: d69f0dce-c758-4314-8c9a-cff7fd8c6790
-
 ---
 
 Do **not** wait until you have started to exceed your estimate before you notify the client that the release is running late.
@@ -32,16 +31,17 @@ Never keep the client in the dark when you exceed your estimates, it will only a
 
 For this reason, blowouts should be reported in the Daily Scrum, as well as any major delays being told to the client as soon as possible, so that they don't get a big surprise in the Sprint Review. This will ensure that the client is fully aware of any problems and has a chance to decide an alternative action.
 
-Keep clients informed and avoid conflict by informing them ASAP and documenting estimates overrun in an ['as per our conversation' email](/as-per-our-conversation-emails):  
+Keep clients informed and avoid conflict by informing them ASAP and documenting estimates overrun in an ['as per our conversation' email](/as-per-our-conversation-emails):
 
-::: email-template  
+::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Mr Northwind |
-| Cc:      | David (Project Manager) |
-| Subject: | Northwind - Data migration  |  
-::: email-content  
+|          |                            |
+| -------- | -------------------------- |
+| To:      | Mr Northwind               |
+| Cc:      | David (Project Manager)    |
+| Subject: | Northwind - Data migration |
+
+::: email-content
 
 ### Hi Mr Northwind
 

@@ -5,16 +5,16 @@ title: Do you know when to send links or attachments in emails?
 uri: links-or-attachments-in-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - do-you-avoid-huge-images-or-attachments-in-your-email
   - how-to-share-a-file-folder-in-sharepoint
 redirects:
   - do-you-know-not-to-send-attachments-in-emails
 created: 2009-04-08T09:35:54.000Z
-archivedreason: ""
+archivedreason: ''
 guid: 25648802-8fef-4ddd-94ad-41c2d3d649ab
 ---
 
@@ -46,9 +46,9 @@ If you're sending to a client, either get them to share a publically available l
 
 It's often easier to **attach the file** than share a link due to permission issues. This allows them to easily share the document internally and always have access to the copy.
 
-* Clients often prefer attachments
-* They can forward it to whoever they want
-* There is a paper trail of changes and feedback that they can share internally on their end
+- Clients often prefer attachments
+- They can forward it to whoever they want
+- There is a paper trail of changes and feedback that they can share internally on their end
 
 ::: bad
 ![Figure: Bad example – Added the file as a link for external users. This requires adding them as guests to Teams, or having to make the file an anonymous link](email-bad-example.png)

@@ -8,9 +8,9 @@ uri: check-the-audit-log-for-modification
 created: 2018-05-04T23:38:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
 related: []
 redirects:
   - do-you-check-the-audit-log-for-modification
@@ -35,6 +35,7 @@ So to ensure the migration process did not miss any items, ensure nobody modifie
    * Confirm that the modification is not important and does not require manual migration (less likely)
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |

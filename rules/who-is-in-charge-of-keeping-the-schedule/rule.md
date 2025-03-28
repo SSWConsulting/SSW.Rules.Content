@@ -8,9 +8,9 @@ uri: who-is-in-charge-of-keeping-the-schedule
 created: 2014-12-31T00:41:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
@@ -56,8 +56,8 @@ Draw yourself a rough diagram of the room, start with intros and then go around 
 
 ### 4. (Optional) Coffee Orders
 
-* Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
+- Ask attendees what coffee they would like, or ask them to fill out an electronic form and give this to your admin staff
 
 ### 5. Evaluations
 
-* Share your evaluation forms out around 4 pm to give people time to complete them
+- Share your evaluation forms out around 4 pm to give people time to complete them

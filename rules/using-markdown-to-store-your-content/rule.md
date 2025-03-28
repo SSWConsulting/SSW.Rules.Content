@@ -1,34 +1,33 @@
 ---
-seoDescription: "Discover why storing content in Markdown offers a cleaner, more maintainable alternative to HTML, with insights on integrating rich media and enhancing your editing workflow."
+seoDescription: 'Discover why storing content in Markdown offers a cleaner, more maintainable alternative to HTML, with insights on integrating rich media and enhancing your editing workflow.'
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use Markdown to store your content?
 guid: 0e292c8b-9948-45d6-b6e4-445699b8915b
 uri: using-markdown-to-store-your-content
 created: 2018-11-29T17:36:52.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Thiago Passos
-  url: https://ssw.com.au/people/thiago-passos
-- title: Anthony Ison
-  url: https://ssw.com.au/people/anthony-ison
-- title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
-- title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Thiago Passos
+    url: https://ww.ssw.com.au/people/thiago-passos
+  - title: Anthony Ison
+    url: https://ww.ssw.com.au/people/anthony-ison
+  - title: Patricia Barros
+    url: https://ww.ssw.com.au/people/patricia-barros
+  - title: Gabriel George
+    url: https://ww.ssw.com.au/people/gabriel-george
 related: []
 redirects:
-- using-github-and-markdown-to-store-you-content
-- do-you-use-markdown-to-store-your-content
-
+  - using-github-and-markdown-to-store-you-content
+  - do-you-use-markdown-to-store-your-content
 ---
 
 You want users to easily edit content, so you put an "edit" button on the page. From there, you can choose between the power of HTML or the limitations of Markdown.
 
 <!--endintro-->
 
-![Figure: "Edit" button to encourage users updating the content](edit-button.jpg)  
+![Figure: "Edit" button to encourage users updating the content](edit-button.jpg)
 
 **HTML** is frightening for unfamiliar users, as one wrong tag or an inline styling can break the whole page view.
 
@@ -36,20 +35,20 @@ You want users to easily edit content, so you put an "edit" button on the page. 
 
 The [original spec for Markdown](https://daringfireball.net/projects/markdown/syntax) does not specify the syntax unambiguously – so there are different flavours of the spec available. Some popular ones include:
 
-* [Commonmark Spec](https://spec.commonmark.org/0.29/)
-* [GitHub Simple](https://guides.github.com/features/mastering-markdown/)
-* [GitHub the Spec](https://github.github.com/gfm/)
-* [markdown-it](https://github.com/markdown-it/markdown-it) (really flexible, pluggable library based on CommonMark)
+- [Commonmark Spec](https://spec.commonmark.org/0.29/)
+- [GitHub Simple](https://guides.github.com/features/mastering-markdown/)
+- [GitHub the Spec](https://github.github.com/gfm/)
+- [markdown-it](https://github.com/markdown-it/markdown-it) (really flexible, pluggable library based on CommonMark)
 
 The [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) is a great page to reference when learning Markdown.
 
-Depending on the Markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com) and [SSW.People](https://ssw.com.au/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
+Depending on the Markdown parser you choose, there are many plugins that allow you to extend it. [SugarLearning](https://sugarlearning.com) and [SSW.People](https://ww.ssw.com.au/people) provide more extensive cheatsheets which include a number of custom templates and plugins:
 
-* [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using Markdown-it parser)
-* [SSW.People cheatsheet](https://ssw.com.au/people/sample) (using CommonMark parser)
-* [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
+- [SugarLearning cheatsheet](https://my.sugarlearning.com/SSW/items/13308/markdown-cheatsheet) (using Markdown-it parser)
+- [SSW.People cheatsheet](https://ww.ssw.com.au/people/sample) (using CommonMark parser)
+- [SSW.Rules cheatsheet](https://github.com/SSWConsulting/SSW.Rules.Content/wiki/Using-Markdown) (using CommonMark parser)
 
-![Figure: Markdown Icon](markdown.jpg)  
+![Figure: Markdown Icon](markdown.jpg)
 
 ::: info
 **Tip:** To make it extra easy for editors, use [TinaCMS](https://tina.io/markdown-cms) into your Markdown-based project to provide a WYSIWYG (what you see is what you get) editor experience.
@@ -59,7 +58,7 @@ Depending on the Markdown parser you choose, there are many plugins that allow y
 
 `youtube: https://www.youtube.com/embed/p_SsHtKRj-8`
 
-**Video: "Markdown -  How to use it, What is it and Why Use it | Ask a Dev" (9 min)**
+**Video: "Markdown - How to use it, What is it and Why Use it | Ask a Dev" (9 min)**
 
 ---
 
@@ -73,9 +72,9 @@ Rich HTML Editors make your life easier at the beginning and produce content tha
 
 Some examples of rich HTML editors that you can embed in your web applications:
 
-* [Kendo Editor](https://www.telerik.com/kendo-angular-ui/components/editor/)
-* [TinyMCE](https://www.tiny.cloud/)
-* [CKEditor](https://ckeditor.com/)
+- [Kendo Editor](https://www.telerik.com/kendo-angular-ui/components/editor/)
+- [TinyMCE](https://www.tiny.cloud/)
+- [CKEditor](https://ckeditor.com/)
 
 **Note:** None of these are recommended because of the HTML that is generated.
 
@@ -95,11 +94,11 @@ The Markdown rich editors are not as good as the HTML ones, but at least the con
 
 Some example of rich Markdown editors are:
 
-* [ProseMirror](http://prosemirror.net/)
-* [Editor.Md](https://pandao.github.io/editor.md/)  
+- [ProseMirror](http://prosemirror.net/)
+- [Editor.Md](https://pandao.github.io/editor.md/)  
    **Note:** It is the #1 editor on [Top 7: Best Markdown editors Javascript and jQuery plugins](https://ourcodeworld.com/articles/read/359/top-7-best-markdown-editors-javascript-and-jquery-plugins)
-* [ToastUI Editor](https://ui.toast.com/tui-editor/) (recommended)
-   **Note:** ToastUI provides more customization options (menu and language) than Editor.md
+- [ToastUI Editor](https://ui.toast.com/tui-editor/) (recommended)
+  **Note:** ToastUI provides more customization options (menu and language) than Editor.md
 
 ::: good  
 ![Figure: Good example - Markdown looks clean](markdown-good.jpg)  
@@ -111,7 +110,7 @@ Markdown is simple and limited, but you can make it richer.
 
 One way is to use inline HTML, this allows you to use HTML tags that you are familiar with (only if you need to) and embed things like YouTube videos or JavaScript.
 
-![Figure: OK Example – you can use raw HTML in your Markdown, and mostly it will work pretty well. But you can’t use Markdown’s syntactic sugar in the HTML](use-html-in-markdown.png)  
+![Figure: OK Example – you can use raw HTML in your Markdown, and mostly it will work pretty well. But you can’t use Markdown’s syntactic sugar in the HTML](use-html-in-markdown.png)
 
 The other way is to use templates or containers:
 
@@ -127,7 +126,7 @@ A better way is to use a plugin (if your Markdown engine supports it).
 
 Unfortunately, Markdown does not support YouTube videos embedding out of the box. However, there is a workaround to embed it.
 
-``` markdown
+```markdown
 [![What is SSW TV](http://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](http://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ```
 
@@ -137,7 +136,7 @@ Figure: Good example - Workaround to embed YouTube video using YouTube's generat
 
 If your site is using "[markdown-it](https://www.npmjs.com/package/markdown-it)" parser, you can also install "[markdown-it-video](https://www.npmjs.com/package/markdown-it-video)" to allow YouTube videos directly embedded into the page, rather than providing just an image and a link.
 
-``` markdown
+```markdown
 @[youtube](http://www.youtube.com/embed/dQw4w9WgXcQ)
 ```
 

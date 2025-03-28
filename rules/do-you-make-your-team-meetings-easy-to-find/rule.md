@@ -5,13 +5,13 @@ title: Appointments - Do you make your Teams meetings easy to find?
 uri: do-you-make-your-team-meetings-easy-to-find
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://ww.ssw.com.au/people/jean-thirion
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://ww.ssw.com.au/people/chris-schultz
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Warwick Leahy

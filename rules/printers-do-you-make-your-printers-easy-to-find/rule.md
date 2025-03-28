@@ -8,7 +8,7 @@ uri: printers-do-you-make-your-printers-easy-to-find
 created: 2012-03-05T15:41:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

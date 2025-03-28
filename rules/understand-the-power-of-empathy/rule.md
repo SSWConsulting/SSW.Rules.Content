@@ -7,13 +7,14 @@ seoDescription: Empathy unlocks effective communication and collaboration in the
 uri: understand-the-power-of-empathy
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - handle-passive-aggressive-comments
 created: 2021-04-14T05:10:33.000Z
 archivedreason: null
 guid: a3361737-b7e6-467f-887c-c2c8a7dc5e1e
 ---
+
 Empathy is the ability to put yourself in someone else’s shoes and understand what they’re feeling. In a deeply technical profession like software engineering, it might not sound like a useful tool but nothing is further from the truth.
 
 <!--endintro-->

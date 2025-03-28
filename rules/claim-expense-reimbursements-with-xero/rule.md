@@ -8,9 +8,9 @@ uri: claim-expense-reimbursements-with-xero
 created: 2020-09-14T01:42:42.0000000Z
 authors:
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: https://ww.ssw.com.au/people/nick-viet
   - title: Stephan Fako
-    url: https://ssw.com.au/people/stephan-fako
+    url: https://ww.ssw.com.au/people/stephan-fako
 related:
   - use-expensify-for-expenses
 redirects:
@@ -21,11 +21,11 @@ redirects:
 
 There are several factors to consider when choosing the right expense receipt system, such as:
 
-- Frequency which a reimbursement is made (daily, weekly, monthly etc.)
-- Number of employees approved to request expense reimbursements
-- Value of expenses allowed to be reimbursed (minor, major or any values)
-- Subscription cost of system
-- Integration capabilities with Accounting Software
+* Frequency which a reimbursement is made (daily, weekly, monthly etc.)
+* Number of employees approved to request expense reimbursements
+* Value of expenses allowed to be reimbursed (minor, major or any values)
+* Subscription cost of system
+* Integration capabilities with Accounting Software
 
 It is recommended to use the Xero Expense app in tandem with the Xero Accounting software because this combination makes it simple to perform reimbursements and has a high level of customer satisfaction.
 

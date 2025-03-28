@@ -5,11 +5,11 @@ title: Do you keep your social media updated?
 uri: keep-your-social-media-updated
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: https://ww.ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related:
   - do-you-know-that-posts-with-images-are-more-engaging

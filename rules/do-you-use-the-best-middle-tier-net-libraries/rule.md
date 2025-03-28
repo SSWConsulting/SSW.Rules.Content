@@ -8,9 +8,9 @@ uri: do-you-use-the-best-middle-tier-net-libraries
 created: 2013-12-18T15:47:37.0000000Z
 authors:
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects: []
 ---

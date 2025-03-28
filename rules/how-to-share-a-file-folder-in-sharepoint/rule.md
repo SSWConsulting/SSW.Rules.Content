@@ -8,11 +8,11 @@ uri: how-to-share-a-file-folder-in-sharepoint
 created: 2015-09-23T18:17:11.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Tanya Leahy
-    url: https://ssw.com.au/people/tanya-leahy
+    url: https://ww.ssw.com.au/people/tanya-leahy
 related:
   - avoid-using-share-functionality
   - do-you-know-not-to-send-attachments-in-emails

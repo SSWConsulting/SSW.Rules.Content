@@ -5,7 +5,7 @@ title: Do you know the right version and config for nUnit?
 uri: the-right-version-and-config-for-nunit
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-right-version-and-config-for-nunit

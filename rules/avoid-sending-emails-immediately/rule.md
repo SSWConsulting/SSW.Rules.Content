@@ -5,9 +5,9 @@ title: Do you give yourself a second chance by not sending emails immediately?
 uri: avoid-sending-emails-immediately
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-not-to-use-＂recall-this-message-＂-in-outlook
@@ -32,9 +32,9 @@ Here is how you do it in Outlook:
 1. Click the **File** tab
 2. Click **Manage Rules & Alerts**
 3. Click **New Rule**
-4. In the Step 1: Select a template box, under Start from a Blank Rule, click  **Apply rule on messages I send**, and then click **Next**
+4. In the Step 1: Select a template box, under Start from a Blank Rule, click **Apply rule on messages I send**, and then click **Next**
 5. In the Step 1: Select condition(s) list, select the check boxes for any options that you want, and then click **Next**
-    When you don't select any check boxes, a confirmation dialog box appears to confirm that the rule you are creating will be applied to all messages that you send
+   When you don't select any check boxes, a confirmation dialog box appears to confirm that the rule you are creating will be applied to all messages that you send
 6. In the Step 1: Select action(s) list, select the "defer delivery by a number of minutes" check box
 7. In the Step 2: Edit the rule description (click an underlined value) box by entering the number of minutes you want the messages to be held before it is sent. Delivery can be delayed up to 120 minutes
 8. Click **OK**, and then click **Next**

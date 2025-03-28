@@ -8,11 +8,11 @@ uri: do-you-know-how-to-lay-out-your-solution
 created: 2011-11-18T03:52:49.0000000Z
 authors:
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://ww.ssw.com.au/people/justin-king
   - title: Tristan Kurniawan
-    url: https://ssw.com.au/people/tristan-kurniawan
+    url: https://ww.ssw.com.au/people/tristan-kurniawan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related:
   - do-you-have-a-consistent-net-solution-structure
 redirects: []

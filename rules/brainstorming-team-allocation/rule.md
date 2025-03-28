@@ -5,14 +5,14 @@ title: Pre event - Do you know how to allocate Brainstorming teams?
 uri: brainstorming-team-allocation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related: 
+    url: https://ww.ssw.com.au/people/brady-stroud
+related:
   - brainstorming-idea-champion
 redirects: []
 created: 2023-10-23T02:15:11.000Z
@@ -20,7 +20,7 @@ archivedreason: null
 guid: 1c77e04d-8351-415a-80e8-24983048f7f5
 ---
 
-Dividing participants into teams on the day of the brainstorming session can be time-consuming. It is better to form teams in advance.  This approach ensures consistent team sizes and allows for early communication of team assignments to participants.
+Dividing participants into teams on the day of the brainstorming session can be time-consuming. It is better to form teams in advance. This approach ensures consistent team sizes and allows for early communication of team assignments to participants.
 
 <!--endintro-->
 
@@ -77,8 +77,8 @@ In order to make the Brainstorming day as productive as possible, set up the Pow
 1. Create a new Teams team for the Brainstorming day E.g. Sydney Brainstorming 2023
 2. For each team, create a folder in the Files tab
 3. Use a Brainstorming PowerPoint template to create a PowerPoint for each team.  
-See [Do you know how to structure a Brainstorming presentation?
-](/rules-to-better-brainstorming/#presentations)
+   See [Do you know how to structure a Brainstorming presentation?
+   ](/rules-to-better-brainstorming/#presentations)
 
 Having all the presentations in one location (Teams team) makes it easy to collaborate and ensures they won't be lost. It also means all the presentations can happen on a single device, instead of switching laptops every presentation which can be slow and lead to AV issues.
 

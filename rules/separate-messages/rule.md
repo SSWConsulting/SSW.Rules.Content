@@ -9,7 +9,7 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 created: 2023-11-30T20:52:37.996Z
 guid: 01cc440f-7eff-49ca-a544-acbfd93e11f1
 related:

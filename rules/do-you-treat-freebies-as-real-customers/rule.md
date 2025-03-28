@@ -8,7 +8,7 @@ uri: do-you-treat-freebies-as-real-customers
 created: 2009-03-10T09:07:23.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - meetings-are-you-prepared-for-the-initial-meeting
   - do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work
@@ -27,13 +27,13 @@ In the course of business, you may occasionally provide some services or product
 When you are giving something away at a discount or for free you are expecting a loss compared with a regular client. If you fail to follow regular processes not only will you incur an even greater loss you provide a lesser standard of service and put greater risk on the success of the project.
 A discount or freebie should follow all the standard processes such as:
 
-* [Initial meetings](/meetings-are-you-prepared-for-the-initial-meeting)
-* [Written contracts](/do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work)
-* [Specification reviews](/conduct-a-spec-review)
-* Release plans
-* [Triaging additional items](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
-* [Release debriefs](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)
-* Issue a Discount Code for a free ticket to our regular events
+- [Initial meetings](/meetings-are-you-prepared-for-the-initial-meeting)
+- [Written contracts](/do-you-enter-into-a-binding-written-contract-with-a-client-before-doing-any-billable-work)
+- [Specification reviews](/conduct-a-spec-review)
+- Release plans
+- [Triaging additional items](/estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items)
+- [Release debriefs](/management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis)
+- Issue a Discount Code for a free ticket to our regular events
 
 ::: greybox
 **Consider the follow scenario:**
@@ -49,13 +49,14 @@ Often the people you choose to provide a freebie are the best people to provide 
 
 So if you're offering a freebie (or any discount), you should ensure every normal standard of business is followed (including sending $0 invoices!) and make sure you get valuable feedback to help you run your company better.
 
-::: email-template  
+::: email-template
 
-| | |
-| -------- | --- |
-| To: | Bob |
-| Cc: | Adam |
-| Subject: | Glad to have you + feedback |  
+|          |                             |
+| -------- | --------------------------- |
+| To:      | Bob                         |
+| Cc:      | Adam                        |
+| Subject: | Glad to have you + feedback |
+
 ::: email-content
 
 ### Hi Bob

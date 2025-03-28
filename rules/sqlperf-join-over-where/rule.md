@@ -8,7 +8,7 @@ uri: sqlperf-join-over-where
 created: 2024-07-25T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sqlperf-reduce-table-size
   - sqlperf-select-required-columns
@@ -19,6 +19,7 @@ related:
 ---
 
 It's better to join tables together using a JOIN clause instead of a WHERE clause.
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/ieciJm6wdSk`  

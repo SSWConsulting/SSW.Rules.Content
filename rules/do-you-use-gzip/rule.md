@@ -5,13 +5,14 @@ title: Do you use Gzip?
 uri: do-you-use-gzip
 authors:
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
 related: []
 redirects: []
 created: 2019-05-17T03:05:06.000Z
 archivedreason: null
 guid: 90f6c345-3fee-4f69-bda3-d16b31447142
 ---
+
 Gzip is a file format and a software application used for file compression and decompression.
 Gzip can reduce file size and storage space, and reduce transmission time when transferring files over the network. It runs on both Linux and Windows.
 
@@ -38,7 +39,7 @@ Choose **Internet Information Services | Web Management Tools | World Wide Web S
 
 ![Figure: Enable dynamic content compression for your site](use-gzip-5.png)
 
-### Method 2:  Using “Gzipper” in your Angular website
+### Method 2: Using “Gzipper” in your Angular website
 
 Follow <https://www.npmjs.com/package/gzipper> (but it still need IIS Server enable static content compression). Using `npm i gzipper -g` to install "gzipper" first. Add to scripts in your package.json
 ![](use-gzip-7.png)
@@ -85,11 +86,11 @@ public class CompressAttribute : ActionFilterAttribute
 ```
 
 ```csharp
-[Compress] 
-public ActionResult About() 
-{ 
-   ViewBag.Message = "Your application description"; 
-   return View(); 
+[Compress]
+public ActionResult About()
+{
+   ViewBag.Message = "Your application description";
+   return View();
 }
 ```
 

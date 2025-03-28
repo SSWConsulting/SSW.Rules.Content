@@ -5,13 +5,12 @@ title: Production - Do you know the correct way to frame your subject?
 uri: production-do-you-know-the-correct-way-to-frame-your-subject
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
 related: []
 redirects: []
 created: 2011-10-19T15:23:00.000Z
 archivedreason: null
 guid: 2bbd6c36-1fbd-4b51-bb93-cfc408e54c17
-
 ---
 
 When filming a subject (or subjects) there are numerous ways to frame them.

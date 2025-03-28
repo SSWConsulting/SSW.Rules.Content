@@ -8,9 +8,9 @@ uri: when-to-send-a-done-email-in-scrum
 created: 2010-04-14T17:10:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
 related:
   - definition-of-done
   - do-you-know-how-to-setup-github-notifications

@@ -8,11 +8,11 @@ uri: do-you-know-to-update-a-blog
 created: 2010-09-07T10:23:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
 related:
   - appointments-do-you-explain-why-youve-deleted-or-modified-an-appointment
 redirects: []

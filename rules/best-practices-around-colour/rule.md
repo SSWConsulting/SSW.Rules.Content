@@ -5,7 +5,7 @@ title: Do you know the best practices around colour?
 uri: best-practices-around-colour
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - color-contrast
 redirects:

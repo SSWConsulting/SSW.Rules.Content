@@ -5,7 +5,7 @@ title: Do your applications support XP themes?
 uri: do-your-applications-support-xp-themes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:26:00.000Z
 guid: 0692d670-5e4a-4c97-a414-79344ebd617e
 ---

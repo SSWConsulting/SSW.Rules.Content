@@ -8,7 +8,7 @@ uri: calendar-does-your-calendar-always-accurately-show-where-you-are
 created: 2012-09-25T18:11:12.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

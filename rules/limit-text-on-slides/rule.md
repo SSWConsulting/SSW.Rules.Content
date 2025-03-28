@@ -5,9 +5,9 @@ title: Do you limit text on your slides?
 uri: limit-text-on-slides
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
 related:
   - concise-writing
 redirects:

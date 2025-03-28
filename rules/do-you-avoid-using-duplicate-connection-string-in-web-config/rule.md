@@ -5,9 +5,9 @@ title: Do you avoid using duplicate connection string in web.config?
 uri: do-you-avoid-using-duplicate-connection-string-in-web-config
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects: []

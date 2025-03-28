@@ -5,9 +5,9 @@ title: Interruptions - Do you minimize Microsoft Teams distractions?
 uri: do-you-minimize-team-distractions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Andrew Lean
-    url: https://ssw.com.au/people/andrew-lean
+    url: https://ww.ssw.com.au/people/andrew-lean
 related:
   - minimize-outlook-distractions
   - minimize-skype-distractions
@@ -23,7 +23,7 @@ guid: aee8193e-8ca9-4cba-8fa8-c5c611112a50
 <!--endintro-->
 
 1. Your machine - enable Teams on start-up
-    * Now with the application always on your desktop, there is no reason to want email or phone alerts
+   - Now with the application always on your desktop, there is no reason to want email or phone alerts
 2. Teams - Open notifications settings
-    * Disable email alerts - this reduces bloat in your [task list](/dones-is-your-inbox-a-task-list-only)
-    * Set all settings to "Only show in feed" - this prevents distracting phone and email alerts
+   - Disable email alerts - this reduces bloat in your [task list](/dones-is-your-inbox-a-task-list-only)
+   - Set all settings to "Only show in feed" - this prevents distracting phone and email alerts

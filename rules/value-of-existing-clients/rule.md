@@ -8,9 +8,9 @@ uri: value-of-existing-clients
 created: 2012-08-30T13:03:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - weekly-client-love
   - client-love-after-initial-meeting

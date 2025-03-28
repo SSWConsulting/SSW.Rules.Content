@@ -5,11 +5,11 @@ title: Do you use Typescript?
 uri: use-typescript
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related: []
 redirects:
   - do-you-use-typescript-for-your-angular-2-applications

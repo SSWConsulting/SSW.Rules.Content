@@ -8,7 +8,7 @@ uri: object-name-should-follow-your-company-naming-conventions
 created: 2019-11-14T21:48:00.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - general-do-you-know-object-name-should-follow-your-company-naming-conventions

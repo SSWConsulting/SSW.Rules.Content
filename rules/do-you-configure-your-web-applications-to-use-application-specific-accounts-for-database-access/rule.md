@@ -8,7 +8,7 @@ uri: do-you-configure-your-web-applications-to-use-application-specific-accounts
 created: 2015-02-18T23:55:56.0000000Z
 authors:
   - title: Michael Demarco
-    url: https://ssw.com.au/people/michael-demarco
+    url: https://ww.ssw.com.au/people/michael-demarco
 related: []
 redirects: []
 ---

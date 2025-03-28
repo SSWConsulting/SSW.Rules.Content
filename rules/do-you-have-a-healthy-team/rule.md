@@ -5,7 +5,7 @@ title: Do you have a healthy team?
 uri: do-you-have-a-healthy-team
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2009-03-10T07:31:53.000Z

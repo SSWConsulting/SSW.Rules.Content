@@ -8,7 +8,7 @@ uri: do-you-follow-the-control-size-and-spacing-standards
 created: 2014-12-01T00:31:14.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -5,9 +5,9 @@ title: On-page - Do you design websites and apps to be responsive (aka mobile-fr
 uri: responsive-design
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva/
 related: []

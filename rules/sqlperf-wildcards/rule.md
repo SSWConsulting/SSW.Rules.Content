@@ -1,5 +1,5 @@
 ---
-seoDescription:  Do you avoid avoid using wildcards at the start of a string?
+seoDescription: Do you avoid avoid using wildcards at the start of a string?
 type: rule
 archivedreason:
 title: Do you avoid avoid using wildcards at the start of a string?
@@ -8,7 +8,7 @@ uri: sqlperf-wildcards
 created: 2024-07-25T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sqlperf-reduce-table-size
   - sqlperf-select-required-columns

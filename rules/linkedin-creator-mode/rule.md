@@ -5,13 +5,13 @@ title: LinkedIn – Do you use Creator mode?
 uri: linkedin-creator-mode
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Asher Paris
-    url: https://ssw.com.au/people/asher-paris
+    url: https://ww.ssw.com.au/people/asher-paris
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
 related:
   - keep-your-social-media-updated
 created: 2023-11-27T04:42:22.000Z

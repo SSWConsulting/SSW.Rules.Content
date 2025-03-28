@@ -5,9 +5,9 @@ title: Mentoring - Do you help everyone to learn the rules (be a Standards Watch
 uri: standards-watchdog
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - do-you-know-the-nice-way-to-correct-someone
   - the-value-of-consistency
@@ -18,10 +18,9 @@ redirects:
 created: 2009-03-10T07:08:39.000Z
 archivedreason: null
 guid: e2be574b-e760-46bb-b1f2-9dc2b00ac901
-
 ---
 
-*"An ounce of prevention is worth a pound of cure"* goes the saying. Having a strict coding standard is prevention. To create good code you must have good standards, such as commenting standards, naming standards, versioning standards and [knowing the value of consistency](/the-value-of-consistency).
+_"An ounce of prevention is worth a pound of cure"_ goes the saying. Having a strict coding standard is prevention. To create good code you must have good standards, such as commenting standards, naming standards, versioning standards and [knowing the value of consistency](/the-value-of-consistency).
 
 But this can really only happen if you’re going to [go the extra mile](/go-the-extra-mile) and stick your neck out and correct someone.
 
@@ -35,7 +34,7 @@ But this can really only happen if you’re going to [go the extra mile](/go-the
 ![Figure: Good example - Go super gentle when people make mistakes. Correct them as though they’re a soft cute puppy 🐶](watchdog-watchdog.jpg)
 :::
 
-Every member of a team plays an important role in maintaining standards. Whether it's your  work or someone else's, always  keep an eye out for **things that can be improved**.
+Every member of a team plays an important role in maintaining standards. Whether it's your work or someone else's, always keep an eye out for **things that can be improved**.
 
 This rule applies to all company standards. Standards are important because they ensure your experience at work is consistent and enjoyable. For example, if there was no standard to stack the dishes in the dishwasher when you were finished using them, dishes would build up and create a big mess in the kitchen!
 
@@ -96,17 +95,17 @@ You will be surprised at how many developers write bad PBIs. You need to be a st
 ::: greybox
 **Tips:**
 
-* If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
-* Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
-:::
+- If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
+- Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
+  :::
 
 ### What if it's recurring?
 
 When you notice someone doing the wrong thing:
 
-* **First time** - Just send an email with a pointer to the rule
-* **Second time** - Have a very quick chat with them
-* **Third time** - Call them in and give them a formal talk about it
+- **First time** - Just send an email with a pointer to the rule
+- **Second time** - Have a very quick chat with them
+- **Third time** - Call them in and give them a formal talk about it
 
 ### Timing is everything - Don't bottle it up
 
@@ -126,16 +125,16 @@ If a critique is personal, it can be hard to correct someone – especially if y
 
 ## Extra - Using ChatGPT to correct someone nicely 🤖
 
-Using ChatGPT can be an effective way to correct someone nicely. It allows you to provide feedback in a friendly and creative manner, reducing the risk of making the recipient feel defensive or upset. Use ChatGPT to create a personalized and entertaining message that communicates your feedback.  
+Using ChatGPT can be an effective way to correct someone nicely. It allows you to provide feedback in a friendly and creative manner, reducing the risk of making the recipient feel defensive or upset. Use ChatGPT to create a personalized and entertaining message that communicates your feedback.
 
 ::: greybox
 **Example prompt:**
 
-"Act as a rules watchdog and ask Bob to:  
+"Act as a rules watchdog and ask Bob to:
 
 1. Send a v2 email using the "To Myself" format per SSW Rules
 2. Instruct Sophie to send an invoice after the trip, and
-3. Mention other attendees  
+3. Mention other attendees
 
 Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
 :::
@@ -160,12 +159,13 @@ It's important to ensure others are doing their best to maintain and follow the 
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | Peter |
-| Cc:      | Adam |
+|          |                       |
+| -------- | --------------------- |
+| To:      | Peter                 |
+| Cc:      | Adam                  |
 | Subject: | ApplicationForm error |
-::: email-content  
+
+::: email-content
 
 ### Dear Peter
 

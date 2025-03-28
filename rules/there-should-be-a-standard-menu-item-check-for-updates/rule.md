@@ -5,7 +5,7 @@ title: Do you have a standard menu item "Check for Updates"?
 uri: there-should-be-a-standard-menu-item-check-for-updates
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 315ea8d3-b4b5-491c-938f-784f5a5d4c48
 ---

@@ -8,7 +8,7 @@ uri: use-using-statement-instead-of-use-explicitly-dispose
 created: 2018-04-26T20:56:47.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-using-declaration-instead-of-use-explicitly-dispose

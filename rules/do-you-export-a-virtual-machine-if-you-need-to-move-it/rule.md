@@ -8,7 +8,7 @@ uri: do-you-export-a-virtual-machine-if-you-need-to-move-it
 created: 2011-02-14T06:14:31.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
 related: []
 redirects: []
 ---

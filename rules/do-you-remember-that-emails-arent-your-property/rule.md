@@ -8,9 +8,9 @@ uri: do-you-remember-that-emails-arent-your-property
 created: 2009-04-03T07:07:37.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
 ---

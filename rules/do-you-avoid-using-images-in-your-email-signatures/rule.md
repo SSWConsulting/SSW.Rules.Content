@@ -8,9 +8,9 @@ uri: do-you-avoid-using-images-in-your-email-signatures
 created: 2009-03-26T03:24:55.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects: []
 ---

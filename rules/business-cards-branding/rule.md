@@ -6,9 +6,9 @@ seoDescription: Discover why traditional business cards fall short in the
 uri: business-cards-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Levi Jackson
-    url: https://ssw.com.au/people/levi-jackson
+    url: https://ww.ssw.com.au/people/levi-jackson
 related: []
 redirects:
   - do-you-have-cool-business-cards
@@ -16,7 +16,8 @@ created: 2015-11-24T18:12:26.000Z
 archivedreason: null
 guid: d1e9744f-539a-419a-b9e6-fa565cc23659
 ---
-Business cards are essential tools for networking and making a lasting impression on potential clients or business partners. However, traditional paper business cards can present various issues in today's digital age. 
+
+Business cards are essential tools for networking and making a lasting impression on potential clients or business partners. However, traditional paper business cards can present various issues in today's digital age.
 
 <!--endintro-->
 
@@ -46,7 +47,7 @@ In contrast to paper business cards, digital business cards offer numerous advan
 
 ### Utilizing LinkedIn’s QR code feature
 
-The best way to connect with someone is to use LinkedIn's built-in QR Code feature 
+The best way to connect with someone is to use LinkedIn's built-in QR Code feature
 
 **Note:** This will **not** share contact details.
 
@@ -97,6 +98,7 @@ Here are the instructions for adding a digital business card to your phone walle
      * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app
      * From the sharing options, select "Add to Wallet"
      * Your digital business card will be added to the Apple Wallet on your iPhone
+
    * **For Android users (Google Pay or Samsung Pay):**
 
      * Tap the "Share" button located at the top right corner of your digital business card within the HiHello app
@@ -105,4 +107,5 @@ Here are the instructions for adding a digital business card to your phone walle
      * Tap on the "+" or "Add" button to add a new card
      * Choose the option to add a "Loyalty card" or "Membership card"
      * Follow the prompts to select the saved image of your digital business card from your gallery or files
+
 4. **Access and share your digital business card:** Once your digital business card is saved in your phone wallet, you can easily access it anytime by opening your wallet app. You can then share it with others by tapping on the card and selecting the sharing option provided by your wallet app

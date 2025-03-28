@@ -4,7 +4,7 @@ title: Do you know what happens at a Sprint Review meeting?
 uri: what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - sprint-review-retro-email
   - do-you-make-your-team-meetings-easy-to-find
@@ -17,6 +17,7 @@ created: 2010-05-06T02:07:33.000Z
 archivedreason: null
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
+
 This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint.
 
 <!--endintro-->
@@ -46,10 +47,10 @@ It's important that stakeholders stay in the loop of the projects progress, but 
 ::: greybox
 In Scrum, there are 4 meetings in total that you need to know about:
 
-* [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-* [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective](/what-happens-at-retro-meetings)
+- [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
+- [Daily Scrum (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
+- [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
+- [Sprint Retrospective](/what-happens-at-retro-meetings)
 
 :::
 
@@ -59,24 +60,25 @@ In Scrum, there are 4 meetings in total that you need to know about:
 
 If you can't attend your team's Sprint Review (e.g. you're on leave, working part-time, or in a different timezone), you should give the team a summary of where you're at, so they can inform the stakeholders on your behalf.
 
-* Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
+- Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
 
 ::: greybox
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ YOUR SCRUM MASTER }} |
-| Cc:      | {{ YOUR TEAM }} |
-| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |\
+|          |                                                                    |
+| -------- | ------------------------------------------------------------------ | --- |
+| To:      | {{ YOUR SCRUM MASTER }}                                            |
+| Cc:      | {{ YOUR TEAM }}                                                    |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary | \   |
+
 ::: email-content
 
 ### Hi Team
 
 I won't be able to make the Sprint Review because {{ REASON }}. Here's an update on my PBIs:
 
-* PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
-* PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
+- PBI {{ PBI NUMBER }} - Done - Done Video in the PBI ready to show the client.
+- PBI {{ PBI NUMBER }} - Blocked - Waiting on {{ BLOCKER }}. Details in the PBI.
   ...
 
 :::
@@ -89,10 +91,10 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 ::: greybox
 Learn more about the meetings in Scrum:
 
-* [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* Sprint Review Meeting (this rule)
-* [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting "Sprint Retrospective Meeting")
-* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
+- [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
+- Sprint Review Meeting (this rule)
+- [Sprint Retrospective Meeting](/what-happens-at-a-sprint-retrospective-meeting 'Sprint Retrospective Meeting')
+- [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums 'Daily Scrum Meeting')
 
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
@@ -103,5 +105,5 @@ Learn more about the meetings in Scrum:
 **Not doing Scrum?**
 
 Even if your client does **not** want to do Scrum (they might have had a bad experience in the past) you should still do this step, just under a different name.
-E.g. *"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"*.
+E.g. _"Hey Bob, let’s schedule a catch up on Friday. Then I'll show you what I have done this week"_.
 :::

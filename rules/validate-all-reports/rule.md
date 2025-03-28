@@ -6,13 +6,12 @@ title: Admin - Do you validate all your reports?
 guid: ae5346b7-1917-4abb-badd-4919f1264b41
 uri: validate-all-reports
 created: 2024-08-02T11:39:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Reporting Services does not have a build button, and thus, there is no way to verify that every single report is error free.

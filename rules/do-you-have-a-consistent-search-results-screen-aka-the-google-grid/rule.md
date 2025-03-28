@@ -8,7 +8,7 @@ uri: do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 created: 2014-12-12T19:01:26.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-have-a-consistent-search-results-screen-(aka-the-google-grid)

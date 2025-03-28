@@ -8,7 +8,7 @@ uri: use-photos-of-your-employees-to-make-the-document-more-personal
 created: 2019-08-21T22:54:25.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-photos-of-your-employees-to-make-the-document-more-personal

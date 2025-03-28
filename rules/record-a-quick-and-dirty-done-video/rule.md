@@ -7,11 +7,11 @@ seoDescription: Learn to record a quick and dirty 'Done' video using OBS Studio
 uri: record-a-quick-and-dirty-done-video
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://ww.ssw.com.au/people/ben-cull
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Barry Sanders
-    url: https://ssw.com.au/people/barry-sanders
+    url: https://ww.ssw.com.au/people/barry-sanders
   - title: Landon Maxwell
     url: https://www.ssw.com.au/people/landon-maxwell
   - title: Jonty Gardner
@@ -47,8 +47,8 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 
 **Choosing software to edit your video:**
 
-* Basic editing: Clipchamp, Video Editor (for Windows), iMovie (for Mac)
-* Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
+- Basic editing: Clipchamp, Video Editor (for Windows), iMovie (for Mac)
+- Advanced editing: Adobe Premiere Pro, Final Cut, DaVinci Resolve
 
 :::
 
@@ -57,27 +57,27 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 Your done videos should follow the following format
 
 1. **Intro**
-   * Prepare and practise your talking points and visual elements
-   * Start with a medium close up shot of yourself
-   * Start with a smile the camera for 2 seconds before speaking
-   * Briefly introduce yourself e.g. first name, role, "from SSW"
+   - Prepare and practise your talking points and visual elements
+   - Start with a medium close up shot of yourself
+   - Start with a smile the camera for 2 seconds before speaking
+   - Briefly introduce yourself e.g. first name, role, "from SSW"
 2. **Post-intro**
-    * Transition into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
-    * Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](https://www.ssw.com.au/rules/zooming-in-and-out/))
-    * You should start with the tabs you are planning to use open
-2. **Show the Pain**
-   * Explain the problem you or the stakeholder was having before you finished your work
-   * Show a example of where this issue occurred
-3. **Demo the solution**
-   * Provide a working example of your code
-   * Demo the code with a realistic use case
-   * Direct attention and give people an idea of where to look
-   * Harken back to the pain showing the value of your solution
-4. **Outro**
-   * Transition back into a medium close up shot of yourself
-   * Provide a brief summary of what you discussed in the video
-   * Use a signature to bid farewell to the audience (e.g. you could say "This is Bob Northwind signing off")
-   * Hold eye contact and a smile to the camera for 2 seconds before the video ends
+   - Transition into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
+   - Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](https://www.ssw.com.au/rules/zooming-in-and-out/))
+   - You should start with the tabs you are planning to use open
+3. **Show the Pain**
+   - Explain the problem you or the stakeholder was having before you finished your work
+   - Show a example of where this issue occurred
+4. **Demo the solution**
+   - Provide a working example of your code
+   - Demo the code with a realistic use case
+   - Direct attention and give people an idea of where to look
+   - Harken back to the pain showing the value of your solution
+5. **Outro**
+   - Transition back into a medium close up shot of yourself
+   - Provide a brief summary of what you discussed in the video
+   - Use a signature to bid farewell to the audience (e.g. you could say "This is Bob Northwind signing off")
+   - Hold eye contact and a smile to the camera for 2 seconds before the video ends
 
 Here's a video describing how to record and edit a quick Done video using Clipchamp:
 
@@ -127,16 +127,16 @@ Switching Scenes in OBS - it is quite easy to do with these simple steps using O
 :::
 
 3. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
-4. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*
+4. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. _"Whoops, clicked build accidently. Let me just refresh and go again."_
 
 ::: info
 If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
 :::
 
 6. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
-   * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
-   * If presenting in Microsoft Office, hide the ribbon.
-   * When using Outlook for presentations, clear any irrelevant reminders.
+   - For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
+   - If presenting in Microsoft Office, hide the ribbon.
+   - When using Outlook for presentations, clear any irrelevant reminders.
 7. **Resolution** - Set your screen to 1080p (1920x1080).
 8. **Recording** - Record both your screen and webcam.
 9. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.

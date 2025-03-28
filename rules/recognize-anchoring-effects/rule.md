@@ -5,9 +5,9 @@ title: Do you recognize the effects of anchoring in decision making?
 uri: recognize-anchoring-effects
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Michael Smedley
-    url: https://ssw.com.au/people/michael-smedley
+    url: https://ww.ssw.com.au/people/michael-smedley
 guid: 69b80ab3-e4fa-4624-93a5-3ec6c01141d8
 created: 2024-05-03T18:29:33.0000000Z
 related:

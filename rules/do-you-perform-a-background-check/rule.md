@@ -5,11 +5,11 @@ title: Do you perform a background check?
 uri: do-you-perform-a-background-check
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
-    url: https://ssw.com.au/people/sam-smith
+    url: https://ww.ssw.com.au/people/sam-smith
 related: []
 redirects: []
 created: 2012-08-30T12:56:50.000Z
@@ -23,7 +23,7 @@ If a new client calls up in a rush and you've never heard of them, what steps do
 
 <!--endintro-->
 
-![Figure: LinkedIn is your friend](screenshot-2023-02-08-at-15.31.19.png "LinkedIn search")
+![Figure: LinkedIn is your friend](screenshot-2023-02-08-at-15.31.19.png 'LinkedIn search')
 
 The quickest and simplest way of performing a background check is to use the LinkedIn search feature:
 

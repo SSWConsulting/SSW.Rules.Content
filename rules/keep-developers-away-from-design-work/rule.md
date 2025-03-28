@@ -6,15 +6,15 @@ title: Do you keep developers away from tasks involving design or the overall lo
 guid: 6a276fd5-bff9-4ebf-ae2c-93f03647dd42
 uri: keep-developers-away-from-design-work
 created: 2015-10-07T03:50:51.0000000Z
-authors: 
+authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Jayden Alchin
     url: https://www.ssw.com.au/people/jayden-alchin
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-keep-developers-away-from-anything-related-to-design-or-look-and-feel

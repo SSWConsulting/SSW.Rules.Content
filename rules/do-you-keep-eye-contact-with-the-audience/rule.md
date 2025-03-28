@@ -6,13 +6,12 @@ title: Do you keep eye contact with the audience?
 guid: 86ad6d11-cc23-421d-891a-9c3825e5b8e4
 uri: do-you-keep-eye-contact-with-the-audience
 created: 2011-08-09T17:48:33.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - what-your-audience-sees-is-as-important-as-your-content
 redirects: []
-
 ---
 
 Engaging with your audience when presenting can be a difficult skill and using eye contact is the key to gaining their attention. When presenting PowerPoint slides you may be tempted to look back at the screen behind you, but if you do that you will lose contact with the audience and it will lower their engagement.

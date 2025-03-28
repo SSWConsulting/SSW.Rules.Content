@@ -8,7 +8,7 @@ uri: editor-required-blazor-component-parameters
 created: 2023-08-26T00:00:00.0000000Z
 authors:
   - title: Matt Parker
-    url: https://ssw.com.au/people/matt-parker
+    url: https://ww.ssw.com.au/people/matt-parker
 related: []
 redirects: []
 ---

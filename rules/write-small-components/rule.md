@@ -5,7 +5,7 @@ title: Practices - Do you write small components?
 uri: write-small-components
 authors:
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: https://ww.ssw.com.au/people/steve-leigh
 related: []
 redirects:
   - practices-do-you-write-small-components

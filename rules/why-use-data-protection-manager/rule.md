@@ -5,11 +5,11 @@ title: Do you know why to use Data Protection Manager (DPM)?
 uri: why-use-data-protection-manager
 authors:
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/Warwick-Leahy
+    url: https://ww.ssw.com.au/people/Warwick-Leahy
 related:
   - azure-site-recovery
 redirects:

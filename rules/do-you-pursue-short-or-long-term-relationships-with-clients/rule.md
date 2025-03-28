@@ -7,14 +7,13 @@ guid: 8fd23958-f42d-42de-8c0e-67030c5cee9b
 uri: do-you-pursue-short-or-long-term-relationships-with-clients
 created: 2009-02-19T10:22:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-Treat clients the same way you would treat a prospective partner - that is, with lots of TLC. Think about your first conversation with a nice girl/guy. You have two approaches you could try.  
+Treat clients the same way you would treat a prospective partner - that is, with lots of TLC. Think about your first conversation with a nice girl/guy. You have two approaches you could try.
 
 <!--endintro-->
 
@@ -59,8 +58,8 @@ Figure: Bad Example - asking a client to get married after the first date. This 
 ::: greybox
 Thanks for this initial meeting. There are two options to consider for the next step:
 
-1) We could do detailed Specification Review, which is a commitment of 5 days with 2 developers, or
-2) We could do brief Specification Review, which is a smaller commitment of 2 days with 2 developers
+1. We could do detailed Specification Review, which is a commitment of 5 days with 2 developers, or
+2. We could do brief Specification Review, which is a smaller commitment of 2 days with 2 developers
 
 :::
 

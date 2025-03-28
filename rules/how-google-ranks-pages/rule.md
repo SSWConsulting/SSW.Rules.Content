@@ -5,11 +5,11 @@ title: Basics - Do you know how Google ranks pages in 2024?
 uri: how-google-ranks-pages
 authors:
   - title: Michael Smedley
-    url: https://ssw.com.au/people/michael-smedley
+    url: https://ww.ssw.com.au/people/michael-smedley
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-know-how-google-ranks-pages
@@ -32,13 +32,13 @@ Explanation: PR stands for PageRank, 'A' represents the number of links from pag
 
 ##### Modern SEO Factors
 
-* While PageRank remains a factor, modern SEO includes numerous other elements:
-* On-page factors: Keyword proximity, frequency, and repetition.
-* Inbound anchor text relevance.
-* User engagement metrics: Time spent on page, bounce rate.
-* Mobile compatibility.
-* Page loading speed.
-* Content quality: Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T).
+- While PageRank remains a factor, modern SEO includes numerous other elements:
+- On-page factors: Keyword proximity, frequency, and repetition.
+- Inbound anchor text relevance.
+- User engagement metrics: Time spent on page, bounce rate.
+- Mobile compatibility.
+- Page loading speed.
+- Content quality: Experience, Expertise, Authoritativeness, and Trustworthiness (E-E-A-T).
 
 Recent Algorithm Updates
 
@@ -50,10 +50,10 @@ Recent Algorithm Updates
 
 ##### March 2024 Core Update
 
-* **Timeline:** Rolled out between March 5 and April 26, 2024.
-* **Objective:** To promote or reward high-quality web pages, not to penalize.
-* **Global Impact:** Affected all regions and languages.
-* **Result:** Aimed to reduce low-quality, unoriginal, and unhelpful content by 45%.
+- **Timeline:** Rolled out between March 5 and April 26, 2024.
+- **Objective:** To promote or reward high-quality web pages, not to penalize.
+- **Global Impact:** Affected all regions and languages.
+- **Result:** Aimed to reduce low-quality, unoriginal, and unhelpful content by 45%.
 
 **Observations:** Many websites, especially those mass-generating AI content, saw declines in rankings or were completely deindexed for violating Google's guidelines or employing questionable SEO tactics.
 

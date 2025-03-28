@@ -5,7 +5,7 @@ title: 'Tiny: Do you know "email" does not have a hyphen?'
 uri: email-should-be-email-without-the-hyphen
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - dones-do-you-use-email-for-tasks-only-not-communication
   - go-beyond-just-using-chat

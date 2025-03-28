@@ -8,11 +8,11 @@ uri: track-sales-emails
 created: 2012-12-06T19:05:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: https://ww.ssw.com.au/people/greg-harris
 related:
   - the-best-place-to-store-documents-and-share-them
 redirects:

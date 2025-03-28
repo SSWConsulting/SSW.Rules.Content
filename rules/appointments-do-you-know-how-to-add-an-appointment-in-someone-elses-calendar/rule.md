@@ -8,9 +8,9 @@ uri: appointments-do-you-know-how-to-add-an-appointment-in-someone-elses-calenda
 created: 2009-04-03T03:51:05.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - calendar-permissions-do-you-know-how-to-send-an-appointment-on-behalf-of-someone-else

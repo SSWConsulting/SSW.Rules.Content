@@ -5,7 +5,7 @@ title: The application – Do you make the app do the work?
 uri: the-application-do-you-make-the-app-do-the-work
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - the-application-–-do-you-make-the-app-do-the-work

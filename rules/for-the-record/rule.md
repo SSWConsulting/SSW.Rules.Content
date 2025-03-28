@@ -7,9 +7,9 @@ seoDescription: Here's a well-crafted SEO description based on your input -
 uri: for-the-record
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - standards-watchdog
 redirects:
@@ -62,13 +62,13 @@ SSW Chief Architect
 
 When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because:
 
-* Later down the track it will provide a learning experience for someone (depending on who was right 😉)
+- Later down the track it will provide a learning experience for someone (depending on who was right 😉)
 
 ::: info
 **Tip:** Use [follow up then](/do-you-follow-up-emails-effectively) to remind you to revisit your email (e.g. 6 months in the future), then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
 :::
 
-* After cooling down from the meeting, people might read it later and see it as useful input
+- After cooling down from the meeting, people might read it later and see it as useful input
 
 ::: info
 **Note:** A "For the record" email should be reserved for a significant architectural decision, etc. That will be difficult or costly to change later. You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
@@ -97,7 +97,7 @@ Figure: Good example - Documenting that client has asked you to do a shortcut
 
 "Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas **we have recommended using Angular** for the following reasons:
 
-* {{ LIST OF REASONS }}
+- {{ LIST OF REASONS }}
 
 That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
 
@@ -120,7 +120,7 @@ Figure: Bad example - Being improductive and too late
 ::: greybox
 **(...6 months later - the curious retrospective)**
 
-"I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.  
+"I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.
 
 As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers. We agreed that we could have saved some money with Angular, but we don't regret the decision."
 :::

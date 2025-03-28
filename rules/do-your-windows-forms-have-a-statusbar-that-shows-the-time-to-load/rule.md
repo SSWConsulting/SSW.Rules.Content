@@ -5,7 +5,7 @@ title: Do your Windows Forms have a StatusBar that shows the time to load?
 uri: do-your-windows-forms-have-a-statusbar-that-shows-the-time-to-load
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T05:45:00.000Z
 guid: 200a7e13-186d-4e30-b62c-f71512714382
 ---

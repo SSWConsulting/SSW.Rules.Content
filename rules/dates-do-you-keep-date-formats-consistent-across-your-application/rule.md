@@ -5,9 +5,9 @@ title: Dates - Do you keep date formatting consistent?
 uri: dates-do-you-keep-date-formats-consistent-across-your-application
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - the-value-of-consistency
   - make-sure-all-software-uses-english
@@ -57,7 +57,7 @@ Figure: Good example - Using culture info to format datetime
 
 ## Browser language settings
 
-It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content. 
+It is required to set web browser language to English (Australia) after modifying the computer reginal and language settings. This ensures proper formatting and compatibility, particularly when downloading web pages or accessing specific web content.
 
 For example, Power BI is date format agnostic and will honor the setting in your browser. If your browser language is set to US English, it may cause date formatting issues.
 

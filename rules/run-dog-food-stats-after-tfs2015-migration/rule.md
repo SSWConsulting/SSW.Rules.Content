@@ -8,7 +8,7 @@ uri: run-dog-food-stats-after-tfs2015-migration
 created: 2015-08-13T13:00:01.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-run-dog-food-stats-(after)-(2)

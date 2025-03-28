@@ -5,7 +5,7 @@ title: Do you keep your presentation simple?
 uri: do-you-keep-your-presentation-simple
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-06-08T10:02:40.000Z

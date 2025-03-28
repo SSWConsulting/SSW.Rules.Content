@@ -8,7 +8,7 @@ uri: have-a-dedicated-working-space
 created: 2020-03-20T01:31:43.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - have-a-routine
   - how-to-maintain-productivity

@@ -8,9 +8,9 @@ uri: do-you-know-when-to-use-caml-instead-of-object-model
 created: 2009-04-09T06:10:00.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
   - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
+    url: https://ww.ssw.com.au/people/jay-lin
 related: []
 redirects: []
 ---

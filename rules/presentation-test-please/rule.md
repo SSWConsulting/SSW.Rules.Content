@@ -5,11 +5,11 @@ title: Do you ensure your presentation gets expert-level "Test Pleases"?
 uri: presentation-test-please
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
 related:
   - conduct-a-test-please
 redirects:

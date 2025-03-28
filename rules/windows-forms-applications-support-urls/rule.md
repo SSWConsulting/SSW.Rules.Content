@@ -5,7 +5,7 @@ title: Do you support URLs on Windows Forms applications?
 uri: windows-forms-applications-support-urls
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: c2becc48-279f-4896-a31e-e43c4f7686a7
 ---
@@ -130,4 +130,4 @@ Dim args As String = Microsoft.VisualBasic.Command()
 End Sub
 ```
 
-**Sample code implementation in the [SSW .NET Toolkit](https://ssw.com.au/ssw/NETToolkit)**
+**Sample code implementation in the [SSW .NET Toolkit](https://ww.ssw.com.au/ssw/NETToolkit)**

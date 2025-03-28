@@ -5,7 +5,7 @@ title: Do you use tasklists in your PBIs?
 uri: use-tasklists-in-your-pbis
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
 related:
   - number-tasks-questions
 redirects: []

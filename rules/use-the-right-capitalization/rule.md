@@ -8,7 +8,7 @@ uri: use-the-right-capitalization
 created: 2016-04-21T07:37:05.0000000Z
 authors:
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
 related:
   - how-to-capitalize-titles
   - scrum-should-be-capitalized

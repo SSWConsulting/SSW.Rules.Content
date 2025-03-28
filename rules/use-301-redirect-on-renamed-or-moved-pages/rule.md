@@ -5,9 +5,9 @@ title: Technical - Do you use "301" code to redirect renamed or moved pages?
 uri: use-301-redirect-on-renamed-or-moved-pages
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-use-301-code-to-redirect-renamed-or-moved-pages
@@ -26,11 +26,11 @@ Any time you move a page or just delete a page you should add a "301" redirect t
 
 1. You can add a 301 redirect in code:
 
-    ```xml
-    <% Response.RedirectPermanent("NEW PAGE URL HERE") %>
-    ```
+   ```xml
+   <% Response.RedirectPermanent("NEW PAGE URL HERE") %>
+   ```
 
-    Although this works well it is difficult to manage the list of redirects and you need to keep the page around.
+   Although this works well it is difficult to manage the list of redirects and you need to keep the page around.
 
 2. **You can write an HTTP handler**
    This is better as you can choose where to store the redirect list, but you still need to manage a custom codebase.

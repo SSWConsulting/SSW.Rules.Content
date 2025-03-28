@@ -8,9 +8,9 @@ uri: avoid-sarcasm-misunderstanding
 created: 2009-03-30T02:28:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - do-you-know-that-people-misunderstand-sarcasm-in-email
@@ -25,6 +25,7 @@ According to Sydney Morning Herald's "[Flame emails missing the mark](https://ww
 Because there is no "tone of voice" in an email, sarcasm can easily be misinterpreted by the receiver. You can use a smiley face or emoji to soften it up a bit.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |
@@ -42,6 +43,7 @@ Bad example: This is bad because it may seem like John is being reprimanded, eve
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | John |

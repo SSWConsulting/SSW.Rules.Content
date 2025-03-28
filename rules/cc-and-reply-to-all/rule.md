@@ -5,9 +5,9 @@ title: Do you CC relevant people and reply to all as a standard procedure?
 uri: cc-and-reply-to-all
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - email-add-or-remove-someone-from-conversation
 redirects:

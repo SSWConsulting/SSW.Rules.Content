@@ -5,9 +5,9 @@ title: Content - Do you know why you should use memes as part of your business s
 uri: use-memes-as-part-of-your-business-social-media-content
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related:
   - keep-your-social-media-updated
   - do-you-know-to-use-hash-tags
@@ -32,10 +32,10 @@ Memes are successful because they can tell something about your company culture.
 
 Here are some points that make memes great for brands & businesses:
 
-* They are an easy way to increase brand awareness and your engagement rate – people will like it, tag someone and share
-* They are great for giving your brand its own voice and sharing it on social media as a representation of your values and your company culture
-* [According to research](https://medium.com/%40DashHudson/do-memes-get-better-instagram-engagement-than-other-photos-fcce7c591b9d), they lead to higher engagement from your audience
-* They increase the chance that people will remember your brand when they see the meme elsewhere, and there’s an opportunity to impacting your audience
+- They are an easy way to increase brand awareness and your engagement rate – people will like it, tag someone and share
+- They are great for giving your brand its own voice and sharing it on social media as a representation of your values and your company culture
+- [According to research](https://medium.com/%40DashHudson/do-memes-get-better-instagram-engagement-than-other-photos-fcce7c591b9d), they lead to higher engagement from your audience
+- They increase the chance that people will remember your brand when they see the meme elsewhere, and there’s an opportunity to impacting your audience
 
 While some companies have managed to successfully use memes to express their brands in a different way, not all businesses that have tried to implement the same strategy had positive results.
 
@@ -45,11 +45,11 @@ A New York-based drugstore chain Duane Read [got involved in a legal battle over
 
 Although there’s no 100% right formula on how to use them, here are some tips to avoid problems for your business:
 
-* Check the rights on an image before using it: It’s important to be aware of the risks you’re taking, and how that could affect your brand image. Make sure you have the rights to use it.
-* Never, ever involve your business in problematic topics: don’t make jokes about race, gender or sexual orientation. Basically, don’t be discriminatory. Politics and religion are risky too.
-* Use an appropriate tone: It should be simple enough that most people can understand it without further explanation. Also keep in mind that if the meme is about your brand, it’s not quite a meme, it’s an ad.
-* Consider the alternatives: If you want to use a specific image but are afraid there might be implications, explore alternative options. For example, you can try licensing an image from a stock photo website that you want to feature as a major part of a marketing campaign if they are suitable for it.
-* Test it before posting: If you’re in charge of social media, ask a work colleague to check it before it goes live. Try to think of guidelines that everyone on your team understands and follows.
+- Check the rights on an image before using it: It’s important to be aware of the risks you’re taking, and how that could affect your brand image. Make sure you have the rights to use it.
+- Never, ever involve your business in problematic topics: don’t make jokes about race, gender or sexual orientation. Basically, don’t be discriminatory. Politics and religion are risky too.
+- Use an appropriate tone: It should be simple enough that most people can understand it without further explanation. Also keep in mind that if the meme is about your brand, it’s not quite a meme, it’s an ad.
+- Consider the alternatives: If you want to use a specific image but are afraid there might be implications, explore alternative options. For example, you can try licensing an image from a stock photo website that you want to feature as a major part of a marketing campaign if they are suitable for it.
+- Test it before posting: If you’re in charge of social media, ask a work colleague to check it before it goes live. Try to think of guidelines that everyone on your team understands and follows.
 
 ### Know your audience
 

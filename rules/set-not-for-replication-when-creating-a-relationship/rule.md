@@ -8,7 +8,7 @@ uri: set-not-for-replication-when-creating-a-relationship
 created: 2019-11-13T01:05:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - relationships-do-you-set-not-for-replication-when-creating-a-relationship

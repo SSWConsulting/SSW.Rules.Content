@@ -5,7 +5,7 @@ title: Do you use Bundling to package script and css files?
 uri: do-you-use-bundling-to-package-script-and-css-files
 authors:
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://ww.ssw.com.au/people/damian-brady
 related: []
 redirects: []
 created: 2013-03-08T14:33:01.000Z
@@ -26,8 +26,7 @@ Rather than link to each script or css file individually, use bundling to group 
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.accordion.css" />
 <link
   rel="stylesheet"
-  href="~/Content/themes/base/jquery.ui.autocomplete.css"
-/>
+  href="~/Content/themes/base/jquery.ui.autocomplete.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.button.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.dialog.css" />
 <link rel="stylesheet" href="~/Content/themes/base/jquery.ui.slider.css" />

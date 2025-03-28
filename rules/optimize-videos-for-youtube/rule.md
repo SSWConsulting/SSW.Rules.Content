@@ -8,7 +8,7 @@ uri: optimize-videos-for-youtube
 created: 2018-05-21T00:08:58.0000000Z
 authors:
   - title: Florent Dezettre
-    url: https://ssw.com.au/people/florent-dezettre
+    url: https://ww.ssw.com.au/people/florent-dezettre
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:

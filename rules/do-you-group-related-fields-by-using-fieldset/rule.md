@@ -8,7 +8,7 @@ uri: do-you-group-related-fields-by-using-fieldset
 created: 2014-12-22T11:52:59.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

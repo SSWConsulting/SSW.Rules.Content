@@ -8,7 +8,7 @@ uri: do-you-book-a-venue-a-month-ahead
 created: 2013-05-17T16:56:50.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

@@ -8,7 +8,7 @@ uri: installation-do-you-turn-on-development-errors-and-platform-tracing
 created: 2012-12-10T17:51:37.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-turn-on-development-errors-and-platform-tracing

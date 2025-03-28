@@ -8,7 +8,7 @@ uri: do-you-avoid-doing-small-bug-fixes-on-your-test-server
 created: 2012-12-10T20:24:33.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

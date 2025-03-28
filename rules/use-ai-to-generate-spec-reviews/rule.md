@@ -9,18 +9,19 @@ authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 created: 2023-10-13T00:45:19.179Z
 guid: dcdcda96-80b7-4ed2-882f-f0062f723e76
 ---
+
 Even the most seasoned analysts might occasionally overlook certain details in a Specification Review. Leveraging technology, especially AI, not only augments our capabilities but also acts as a safety net for those unintentional oversights.
 
 <!--endintro-->
 
 ## The role of AI in enhancing reviews
 
-* **Tool, Not Replacement:** AI greatly aids in generating Specification Reviews. Yet, the expertise and discernment of a human are irreplaceable. AI provides a foundational understanding, but professionals provide the nuanced depth.
-* **Interactive AI:** Foster a dynamic interaction with AI. Instead of providing it with a predetermined set of requirements, let the AI ask progressive questions. This way, it captures the intricacies of the project scope.
+- **Tool, Not Replacement:** AI greatly aids in generating Specification Reviews. Yet, the expertise and discernment of a human are irreplaceable. AI provides a foundational understanding, but professionals provide the nuanced depth.
+- **Interactive AI:** Foster a dynamic interaction with AI. Instead of providing it with a predetermined set of requirements, let the AI ask progressive questions. This way, it captures the intricacies of the project scope.
 
 ::: greybox
 Prompt:
@@ -37,22 +38,22 @@ Figure: Good example - AI adapts and evolves its questions based on ongoing answ
 Prompt:
 "Use these requirements to draft a Specification Review:
 
-  1. Web application on Azure
-  2. Capture user feedback
-  3. User sign-up process
-     ..."
-:::
-::: bad
-Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with existing systems
-:::
-  
-* **Customization Over Templates:**
+1. Web application on Azure
+2. Capture user feedback
+3. User sign-up process
+   ..."
+   :::
+   ::: bad
+   Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with existing systems
+   :::
+
+- **Customization Over Templates:**
   While templates offer consistency, they may not always cater to project-specific nuances. Every project is unique, and relying solely on templates can lead to gaps in the specification.
 
 ## Value Additions from AI
 
-* **Generating PBIs:** Harness AI to create Product Backlog Items (PBIs) with both speed and consistency.
-* **Architecture Visualization:** With tools like [Mermaid](https://mermaid.js.org/), AI can manifest complex data into clear, interactive architecture diagrams.
+- **Generating PBIs:** Harness AI to create Product Backlog Items (PBIs) with both speed and consistency.
+- **Architecture Visualization:** With tools like [Mermaid](https://mermaid.js.org/), AI can manifest complex data into clear, interactive architecture diagrams.
 
   ::: greybox
   graph TB\
@@ -75,8 +76,8 @@ Figure: Bad example - Missing critical elements like security considerations, da
 ::: good
 ![Figure: Good example - Visualizing complex system infrastructure using Mermaid for clarity](mermaid.jpg)
 :::
-  
-* **From Architecture to Specification:**
+
+- **From Architecture to Specification:**
   Entrust your AI with an architecture blueprint. See it draft an initial Specification Review, ready for human refinement.
 
 ::: good
@@ -106,9 +107,9 @@ Upon completion, gather the information based on my answers and then:
 2. Develop Product Backlog Items (PBIs) corresponding to the tasks required to fulfil the specifications.
 
 3. Provide the Mermaid syntax to draft both the present and projected architectural flow diagrams."
-:::
-::: good
-Figure: Good example - A good prompt to get the conversation started
-:::
+   :::
+   ::: good
+   Figure: Good example - A good prompt to get the conversation started
+   :::
 
 In harnessing AI, it's pivotal to recognize its value as a tool. Its true strength emerges when combined with our expertise, elevating the final output to unmatched quality.

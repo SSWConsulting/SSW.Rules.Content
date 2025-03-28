@@ -8,14 +8,13 @@ uri: refer-to-email-subject
 created: 2015-10-05T05:44:40.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - write-a-good-pull-request
 redirects:
   - clarity-do-you-make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
   - use-text-formatting-to-mention-email-subjects
   - make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
-
 ---
 
 Use IM to chase up that important email. You can make it easy for everyone by pasting the email subject for context.

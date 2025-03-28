@@ -5,9 +5,9 @@ title: Do you ensure compliance and governance without compromising agility?
 uri: ensure-compliance-and-governance-without-compromising-agility
 authors:
   - title: Gert Marx
-    url: https://ssw.com.au/people/gert-marx
+    url: https://ww.ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
 redirects:
   - do-you-ensure-compliance-and-governance-without-compromising-agility

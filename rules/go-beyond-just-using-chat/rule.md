@@ -5,13 +5,13 @@ title: Communication - Do you go beyond text chat and do professional video call
 uri: go-beyond-just-using-chat
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Martin Li
-    url: https://ssw.com.au/people/martin-li
+    url: https://ww.ssw.com.au/people/martin-li
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
   - making-a-great-done-video
 redirects:

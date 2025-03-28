@@ -5,9 +5,9 @@ title: Do you have a minimum number for live events?
 uri: minimum-number-for-live-events
 authors:
   - title: Marlon Marescia
-    url: https://ssw.com.au/people/marlon-marescia
+    url: https://ww.ssw.com.au/people/marlon-marescia
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: https://ww.ssw.com.au/people/brittany-lawrence
 related: []
 redirects:
   - do-you-have-a-minimum-number-for-live-events

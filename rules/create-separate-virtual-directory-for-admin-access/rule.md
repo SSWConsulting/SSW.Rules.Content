@@ -6,13 +6,12 @@ title: Admin - Do you create a separate virtual directory for Admin access?
 guid: eddcd8d4-7378-4d14-95a6-6055daeb9dd9
 uri: create-separate-virtual-directory-for-admin-access
 created: 2024-08-02T11:41:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 To securely manage and provide public access to Reporting Services, configure separate ports for authenticated internal access and anonymous public access, following specific setup steps for both Windows Explorer and IIS Manager.
@@ -33,7 +32,7 @@ To set this up you need to perform the following:
 
 2. Open up the ReportingServices directory (C:\Program Files\Microsoft SQL Server\MSSQL.3\Reporting Services)
 
-3. Duplicate the ReportServer and the ReportManager folders then rename postfix them with _External e.g. ReportServer_External and ReportManager_External
+3. Duplicate the ReportServer and the ReportManager folders then rename postfix them with \_External e.g. ReportServer_External and ReportManager_External
 
 4. Set the file access security on the new folders so that "Everyone" has full permissions.
 

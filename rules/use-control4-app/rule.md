@@ -8,11 +8,11 @@ uri: use-control4-app
 created: 2017-09-12T23:17:29.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: https://ww.ssw.com.au/people/greg-harris
 related: []
 redirects:
   - do-you-use-the-control4-app

@@ -7,17 +7,17 @@ seoDescription: Learn how to create a structured Sprint Review/Retro email
 uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://ww.ssw.com.au/people/drew-robson
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
 related:
   - roadmap
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
@@ -30,6 +30,7 @@ created: 2012-08-06T05:48:37.000Z
 archivedreason: null
 guid: aac90a70-58a3-4b10-97a1-fef2dc6bda39
 ---
+
 After any Sprint Review and Retrospective, an email should be sent to all the stakeholders to update them on the outcome from the Sprint:
 
 <!--endintro-->
@@ -42,11 +43,12 @@ It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-gro
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ PRODUCT OWNER }} |
+|          |                                                                                               |
+| -------- | --------------------------------------------------------------------------------------------- |
+| To:      | {{ PRODUCT OWNER }}                                                                           |
 | Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review + Retro |
+| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review + Retro                                            |
+
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
@@ -55,21 +57,21 @@ Here are the Sprint Goals and their status at a glance:
 
 Sprint Goals (in priority order):
 
-* {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
-* {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
+- {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
+- {{ ✅/❌/🚧 }} {{ GOAL }} – {{ DONE? }}
 
 Please see below for a more detailed breakdown of the Sprint:
 
-|                    |                                      |
-| ------------------ | ------------------------------------ |
-| Sprint in Review:  | {{ SPRINT NUMBER }}                  |
-| Summary Recording: | {{ YOUTUBE PLAYLIST URL }}           |
-| Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
-| Project:           | {{ PROJECT NAME }}                   |
-| Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
-| Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
-| Product Owner:     | {{ PRODUCT OWNER NAME }}             |
-| Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
+|                    |                                |
+| ------------------ | ------------------------------ |
+| Sprint in Review:  | {{ SPRINT NUMBER }}            |
+| Summary Recording: | {{ YOUTUBE PLAYLIST URL }}     |
+| Sprint Duration:   | {{ NUMBER OF WEEKS }}          |
+| Project:           | {{ PROJECT NAME }}             |
+| Project Portal:    | {{ LINK TO PROJECT PORTAL }}   |
+| Test Environment:  | {{ LINK TO TEST ENVIRONMENT }} |
+| Product Owner:     | {{ PRODUCT OWNER NAME }}       |
+| Attendees:         | {{ NAMES OF THE ATTENDEES }}   |
 
 ### Sprint Review
 
@@ -94,11 +96,11 @@ Please see below for a more detailed breakdown of the Sprint:
 
 {{ CODE COVERAGE }}
 
-5. Velocity *(Optional)*
+5. Velocity _(Optional)_
 
 {{ VELOCITY }}
 
-6. Burnup - How are we tracking for the big picture? *
+6. Burnup - How are we tracking for the big picture? \*
 
 ![Figure: Release Burnup](release-burnup.jpg)
 
@@ -120,30 +122,30 @@ Progress:
 
 **{{ EPIC #1 }}**
 
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
 
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }} Newly created this Sprint
 
 **{{ EPIC #2 }}**
 
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
 
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }} Newly created this Sprint
 
 **{{ EPIC #3 }}**
 
-* Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+- Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
 
-  * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
-  * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
+  - {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
+  - {{ # OF PBIS CREATED THIS SPRINT }} Newly created this Sprint
 
 10. R&D - Did we do any experimental work?
 
-{{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
+{{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ww.ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
 
-{{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
+{{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ww.ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
 ### Sprint Retrospective
 
@@ -161,21 +163,21 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
 
-⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
+⚠️ **Do any 'For the Record' emails need to be sent?** _(Optional)_
 
 As per https://www.ssw.com.au/rules/for-the-record/
 
 {{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
-**Definition of Ready** *(Optional)*
+**Definition of Ready** _(Optional)_
 
 {{ INSERT DEFINITION OF READY (Normally saying that the PBIs are sized with Acceptance Criteria added) }}
 
-**Definition of Done** *(Optional)*
+**Definition of Done** _(Optional)_
 
 {{ INSERT DEFINITION OF DONE (Normally saying that it compiles, meets the acceptance criteria, and a test please has been sent if relevant) }}
 
-&lt; This is as per the rule [https://ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
+&lt; This is as per the rule [https://ww.ssw.com.au/rules/sprint-review-retro-email](/sprint-review-retro-email) /&gt;
 
 :::
 :::

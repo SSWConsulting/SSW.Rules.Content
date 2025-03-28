@@ -8,9 +8,9 @@ uri: do-you-use-word-as-your-editor
 created: 2009-03-31T03:38:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - zz_do-you-use-word-as-your-editor

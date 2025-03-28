@@ -5,7 +5,7 @@ title: Do you know how to view changes made to a CRM entity?
 uri: do-you-know-how-to-view-changes-made-to-a-crm-entity
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - how-to-view-changes-made-to-a-sharepoint-page
 redirects: []

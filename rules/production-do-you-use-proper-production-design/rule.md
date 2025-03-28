@@ -7,13 +7,12 @@ guid: 193513ae-37cb-4633-aa14-17b8e020984f
 uri: production-do-you-use-proper-production-design
 created: 2011-12-06T06:25:55.0000000Z
 authors:
-- title: Titus Maclaren
-  url: https://ssw.com.au/people/titus-maclaren
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Titus Maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 When filming a scene it is always important to remember production design aspects. Production design is basically all of the things (excluding the people) that we see on screen. This includes wardrobe, set design, location, lights and props.
@@ -69,7 +68,7 @@ If you are working with a D.O.P. (Director of Photography) and/or your are light
 
 Props and set dressing are important; props are defined as objects in the script that we know before-hand that the subjects will interact with, set dressing is things that we add to a set to create content. When choosing what props should(n't) be on set it is important to ask yourself, is there a reason for this to be here? A can of coke for example will be ugly and distracting in most circumstances but a pot of flowers might be just the thing to give your scene that extra bit of life, or convey a caring sensitive side of your character.
 
-If your subject needs to drink something while they're on camera, offer them a glass (its more visually pleasing). Look carefully at the frame and ask yourself, is there any camera equipment visible? Does that ugly mess of cables really need to be there? Does this scrap of paper or backpack *need* to be in the frame? If not, ditch it. If it adds value to the picture and doesn't distract, keep it.
+If your subject needs to drink something while they're on camera, offer them a glass (its more visually pleasing). Look carefully at the frame and ask yourself, is there any camera equipment visible? Does that ugly mess of cables really need to be there? Does this scrap of paper or backpack _need_ to be in the frame? If not, ditch it. If it adds value to the picture and doesn't distract, keep it.
 
 ::: bad
 ![Figure: Bad example - Too much clutter on the desk, unnecessary dirty bowl, loose sheets of paper, this would only work if you wanted to illustrate that the character is messy](props-bad-example.jpg)

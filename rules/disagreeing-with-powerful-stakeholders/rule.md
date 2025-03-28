@@ -5,11 +5,11 @@ title: Stakeholder Management - Do you know how to disagree with powerful stakeh
 uri: disagreeing-with-powerful-stakeholders
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair/
+    url: https://ww.ssw.com.au/people/piers-sinclair/
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud/
+    url: https://ww.ssw.com.au/people/brady-stroud/
 related:
   - fix-problems-quickly
   - for-the-record

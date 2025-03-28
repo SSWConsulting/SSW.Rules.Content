@@ -5,7 +5,7 @@ title: Management - Do you maintain verbal contact with your client?
 uri: management-do-you-maintain-verbal-contact-with-your-client
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2009-02-28T09:45:12.000Z

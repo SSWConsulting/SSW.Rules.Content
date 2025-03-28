@@ -8,9 +8,9 @@ uri: have-a-good-intro-and-closing-for-product-demonstrations
 created: 2017-02-20T21:53:57.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Steve Leigh
-    url: https://ssw.com.au/people/steve-leigh
+    url: https://ww.ssw.com.au/people/steve-leigh
 related: []
 redirects:
   - do-you-have-a-good-intro-and-closing-for-your-product-demonstrations

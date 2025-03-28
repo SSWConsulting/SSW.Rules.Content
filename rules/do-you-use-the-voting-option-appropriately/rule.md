@@ -8,9 +8,9 @@ uri: do-you-use-the-voting-option-appropriately
 created: 2009-03-25T05:20:04.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related:
   - easy-questions
 redirects: []

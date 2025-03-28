@@ -8,7 +8,7 @@ uri: snipping-im-chats
 created: 2015-10-05T04:46:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - important-chats-should-be-in-an-email
 redirects:

@@ -8,7 +8,7 @@ uri: make-numbers-more-readable
 created: 2016-03-22T05:56:01.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-use-words-instead-of-digits-for-low-numbers
   - right-format-to-show-phone-numbers/
@@ -22,8 +22,8 @@ Remember to use dividers when referring to large sums or phone numbers.
 
 ::: greybox
 
-* Total: $27216
-* Phone: 14XXXXXXXXX
+- Total: $27216
+- Phone: 14XXXXXXXXX
 
 :::
 ::: bad
@@ -32,8 +32,8 @@ Figure: Bad example - These numbers are unwieldy and difficult to read
 
 ::: greybox
 
-* Total: $2,721.65
-* Phone: +1 XXX XXX XXXX  
+- Total: $2,721.65
+- Phone: +1 XXX XXX XXXX
 
 :::
 ::: good
@@ -41,7 +41,7 @@ Figure: Good example - Symbols or some spaces make these large numbers easier to
 :::
 
 ::: info
-**Note:** For currency references, different countries use periods in place of commas and vice-versa.  
+**Note:** For currency references, different countries use periods in place of commas and vice-versa.
 
 E.g. In the United States and Australia: **$2,367.48** / In France and Brazil: **$2.367,48**.
 :::

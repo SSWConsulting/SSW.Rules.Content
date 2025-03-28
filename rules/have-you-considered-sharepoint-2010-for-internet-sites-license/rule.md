@@ -8,7 +8,7 @@ uri: have-you-considered-sharepoint-2010-for-internet-sites-license
 created: 2009-12-09T05:32:34.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related: []
 redirects: []
 ---

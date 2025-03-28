@@ -5,9 +5,9 @@ title: Do you know rules are made for the guidance of wise men and the obedience
 uri: wise-men-improve-rules
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
   - general-do-you-know-rules-are-made-for-the-guidance-of-wise-men-and-the-obedience-of-fools
@@ -30,15 +30,15 @@ There are pros and cons to having standards:
 
 **✅ The pros:**
 
-* They help speed up the decision making process – getting you to the best decision faster
-* They help maintain [consistency](/do-you-understand-the-value-of-consistency)
+- They help speed up the decision making process – getting you to the best decision faster
+- They help maintain [consistency](/do-you-understand-the-value-of-consistency)
 
 **❌ The cons:**
 
-* They take time to write in a generic fashion
-* Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
-* They have errors as they are written by imperfect people
-* People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
+- They take time to write in a generic fashion
+- Technological rules rust easily. Technologies and techniques change often, so you must be on the lookout for the new and better approaches and continually update these
+- They have errors as they are written by imperfect people
+- People will sometimes follow an inappropriate rule. A set of rules can never predict every path, so cases can and will appear that the standards fail to cater for
 
 ![Figure: As this sign demonstrates, no rule is universal](white-sign.jpg)
 

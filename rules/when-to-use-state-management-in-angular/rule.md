@@ -8,11 +8,11 @@ uri: when-to-use-state-management-in-angular
 created: 2021-05-27T14:09:22.0000000Z
 authors:
   - title: Chris Clement
-    url: https://ssw.com.au/people/chris-clement
+    url: https://ww.ssw.com.au/people/chris-clement
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related:
   - use-ngrx-on-complex-applications
 redirects: []
@@ -32,14 +32,14 @@ In this method, components do not know about the state of other components but r
 
 Pros:
 
-* Simplicity - Out of the box
+- Simplicity - Out of the box
 
 Cons:
 
-* Communication - No shared state across component trees
-* Scalability - When the depth of hierarchies grows, it becomes hard to deal with
-* Separation of concerns - Tight coupling between components in the tree
-* Testability - You cannot properly unit test parent-child components
+- Communication - No shared state across component trees
+- Scalability - When the depth of hierarchies grows, it becomes hard to deal with
+- Separation of concerns - Tight coupling between components in the tree
+- Testability - You cannot properly unit test parent-child components
 
 :::
 
@@ -51,15 +51,15 @@ Using observable services takes state management to the next level. Using this m
 
 Pros:
 
-* Sharing state - You can pass state between different component trees
-* Ease of use - Quick and easy to implement
-* Separation of concerns - Keeps business logic away from the presentation logic
+- Sharing state - You can pass state between different component trees
+- Ease of use - Quick and easy to implement
+- Separation of concerns - Keeps business logic away from the presentation logic
 
 Cons:
 
-* Scalability - Services can become a web of dependencies if not kept in check
-* Predictability - Consistency is not enforced in the way state is managed
-* Testability - It can be hard to test services due to the inherent dependency web
+- Scalability - Services can become a web of dependencies if not kept in check
+- Predictability - Consistency is not enforced in the way state is managed
+- Testability - It can be hard to test services due to the inherent dependency web
 
 :::
 
@@ -71,16 +71,16 @@ Redux is a design pattern which centralizes the state into a single shared store
 
 Pros:
 
-* Centralized state - Makes global state management simpler
-* Separation of concerns - Goes one step further by separating business logic and state management
-* Predictability - Makes state change predictable by enforcing consistecy
-* Testability - Pure functions are much easier to test as they have no external dependencies
+- Centralized state - Makes global state management simpler
+- Separation of concerns - Goes one step further by separating business logic and state management
+- Predictability - Makes state change predictable by enforcing consistecy
+- Testability - Pure functions are much easier to test as they have no external dependencies
 
 Cons:
 
-* Velocity - It can take more code to write
-* Boilerplate - Requires the use of many files and has a lot of repetition
-* Learning curve - Can be easy to get wrong if you are an inexperienced user
-* Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact.
+- Velocity - It can take more code to write
+- Boilerplate - Requires the use of many files and has a lot of repetition
+- Learning curve - Can be easy to get wrong if you are an inexperienced user
+- Third-party library - Not part of the standard Angular library may increase overhead when upgrading Angular. Also introduces additional bundles in the published artifact.
 
 :::

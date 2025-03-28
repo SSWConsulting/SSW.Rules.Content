@@ -5,7 +5,7 @@ title: Do you not cache lookup data in your Windows Forms application?
 uri: do-you-not-cache-lookup-data-in-your-windows-forms-application
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:36:00.000Z
 guid: d6ed5fd4-de1c-4b8e-b3f7-3e86b6ac7a6f
 ---

@@ -5,13 +5,13 @@ title: Tools - Do you know what Angular Tools to install for an Angular project?
 uri: angular-the-stuff-to-install
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://ww.ssw.com.au/people/gabriel-george
 related: []
 redirects:
   - tools-do-you-know-what-angular-tools-to-install-for-an-angular-project
@@ -20,11 +20,11 @@ archivedreason: null
 guid: a3d15c2a-ce91-4368-9bda-aa6ef0378950
 ---
 
-If you want to get started with Angular, go to the [Angular Setup guide](https://angular.io/guide/setup-local).  
+If you want to get started with Angular, go to the [Angular Setup guide](https://angular.io/guide/setup-local).
 
 The prerequisites are:
 
-1. [Node.js](https://nodejs.org/) and  [NPM](https://www.npmjs.com/) (installed with Node.Js by default)
+1. [Node.js](https://nodejs.org/) and [NPM](https://www.npmjs.com/) (installed with Node.Js by default)
 2. [Angular CLI](https://angular.io/cli)
 
 The best practice for creating an Angular project and components is to use the [Angular CLI](https://angular.io/cli) (command-line interface).

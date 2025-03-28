@@ -5,7 +5,7 @@ title: Validation - Do you put focus to the correct control on validation error?
 uri: using-field-validation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - validation-do-you-put-focus-to-the-correct-control-on-validation-error

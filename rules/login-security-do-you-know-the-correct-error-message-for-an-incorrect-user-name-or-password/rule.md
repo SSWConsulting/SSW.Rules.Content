@@ -8,7 +8,7 @@ uri: login-security-do-you-know-the-correct-error-message-for-an-incorrect-user-
 created: 2015-02-16T03:17:47.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

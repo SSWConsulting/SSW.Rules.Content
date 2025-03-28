@@ -8,9 +8,9 @@ uri: do-you-keep-images-folder-image-only
 created: 2009-05-05T05:59:38.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects: []

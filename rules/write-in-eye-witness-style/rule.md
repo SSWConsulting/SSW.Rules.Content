@@ -5,9 +5,9 @@ title: Do you write in the newsreader and eyewitness style?
 uri: write-in-eye-witness-style
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - web-content-like-wikipedia-instructional-style-do-you-write-in-the-newsreader-and-eyewitness-style

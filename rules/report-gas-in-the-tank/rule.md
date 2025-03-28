@@ -5,11 +5,11 @@ title: Cashflow - Do you maintain a "Gas in the Tank" report?
 uri: report-gas-in-the-tank
 authors:
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: https://ww.ssw.com.au/people/nick-viet
   - title: Stephan Fako
-    url: https://ssw.com.au/people/stephan-fako
+    url: https://ww.ssw.com.au/people/stephan-fako
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-maintain-a-gas-in-the-tank-report

@@ -4,13 +4,13 @@ title: Do you know how to use Connection Strings?
 uri: do-you-know-how-to-use-connection-strings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://ww.ssw.com.au/people/william-liebenberg
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://ww.ssw.com.au/people/calum-simpson
 related: []
 redirects:
   - do-you-know-how-to-use-connection-string-in-net-2-0
@@ -19,7 +19,6 @@ redirects:
 created: 2009-05-08T08:53:04.000Z
 archivedreason: null
 guid: 2dec2ea4-3359-4bb0-8f30-c278c8735670
-
 ---
 
 There are 2 type of connection strings. The first contains only address type information without authorization secrets. These can use all of the simpler methods of storing configuration as none of this data is secret.
@@ -43,7 +42,7 @@ Azure Key Vault is great for keeping your secrets secret because you can control
 
 You can integrate Key Vault directly into your [ASP.NET Core application configuration](https://docs.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-5.0). This allows you to access Key Vault secrets via `IConfiguration`.
 
-``` cs
+```cs
 public static IHostBuilder CreateHostBuilder(string[] args) =>
  Host.CreateDefaultBuilder(args)
   .ConfigureWebHostDefaults(webBuilder =>
@@ -86,7 +85,7 @@ Good example - For a complete example, refer to this [sample application](https:
 **Tip:** You can detect if your application is running on your local machine or on an Azure AppService by looking for the `WEBSITE_SITE_NAME` environment variable. If null or empty, then you are NOT running on an Azure AppService.
 :::
 
-``` cs
+```cs
 public static class IWebHostEnvironmentExtensions
 {
  public static bool IsAzureAppService(this IWebHostEnvironment env)
@@ -138,7 +137,7 @@ As a result of storing secrets in Key Vault, your Azure App Service configuratio
 
 In .NET 1.1 we used to store our connection string in a configuration file like this:
 
-``` xml
+```xml
 <configuration>
      <appSettings>
           <add key="ConnectionString" value ="integrated security=true;
@@ -149,8 +148,8 @@ In .NET 1.1 we used to store our connection string in a configuration file like 
 
 ...and access this connection string in code like this:
 
-``` cs
-SqlConnection sqlConn = 
+```cs
+SqlConnection sqlConn =
 new SqlConnection(System.Configuration.ConfigurationSettings.
 AppSettings["ConnectionString"]);
 ```
@@ -163,13 +162,13 @@ In .NET 2.0 we used strongly typed settings classes:
 
 **Step 1:** Setup your settings in your common project. E.g. Northwind.Common
 
-![Figure: Settings in Project Properties](ConnStringNET2\_Settings.jpg)
+![Figure: Settings in Project Properties](ConnStringNET2_Settings.jpg)
 
 **Step 2:** Open up the generated App.config under your common project. E.g. Northwind.Common/App.config
 
 **Step 3:** ~~Copy the content into your entry applications app.config. E.g. Northwind.WindowsUI/App.config~~ The new setting has been updated to app.config automatically in .NET 2.0
 
-``` xml
+```xml
 <configuration>
       <connectionStrings>
          <add name="Common.Properties.Settings.NorthwindConnectionString"
@@ -182,7 +181,7 @@ In .NET 2.0 we used strongly typed settings classes:
 
 ...then you can access the connection string like this in C#:
 
-``` cs
+```cs
 SqlConnection sqlConn =
  new SqlConnection(Common.Properties.Settings.Default.NorthwindConnectionString);
 ```

@@ -8,7 +8,7 @@ uri: youtube-cards
 created: 2018-05-22T22:49:45.0000000Z
 authors:
   - title: Florent Dezettre
-    url: https://ssw.com.au/people/florent-dezettre
+    url: https://ww.ssw.com.au/people/florent-dezettre
 related:
   - personalized-thumbnail
   - sort-videos-into-playlists
@@ -38,11 +38,11 @@ Good example: A card is discreet and adds an easy way for the viewer to get to t
 
 Cards are like dynamic notifications in the top right corner of your video and you can choose the exact moment it should pop up. Cards can include images, outside links (try to avoid those) and even content that is downloaded when viewers click (an eBook for instance). You can add up to five cards per video and each card can:
 
-* Promote another video or playlist of your channel
-* Promote another channel on YouTube
-* Ask for a donation for a nonprofit cause of your choice
-* Ask a poll
-* Link to an approved website
+- Promote another video or playlist of your channel
+- Promote another channel on YouTube
+- Ask for a donation for a nonprofit cause of your choice
+- Ask a poll
+- Link to an approved website
 
 ![](card.png)
 

@@ -5,9 +5,9 @@ title: Management - Do you know who has authority?
 uri: management-do-you-know-who-has-authority
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
 related: []
 redirects: []
 created: 2009-02-19T02:27:53.000Z

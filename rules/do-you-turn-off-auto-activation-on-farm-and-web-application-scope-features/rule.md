@@ -5,7 +5,7 @@ title: Do you turn off auto activation on farm and web application scope feature
 uri: do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
 related: []
 redirects: []
 created: 2010-04-21T12:58:32.000Z

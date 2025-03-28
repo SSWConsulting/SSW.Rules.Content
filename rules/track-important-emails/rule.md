@@ -8,15 +8,15 @@ uri: track-important-emails
 created: 2012-12-07T17:16:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: https://ww.ssw.com.au/people/greg-harris
   - title: Eddie Kranz
-    url: https://ssw.com.au/people/eddie-kranz
+    url: https://ww.ssw.com.au/people/eddie-kranz
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://ww.ssw.com.au/people/calum-simpson
 related: []
 redirects:
   - do-you-know-to-hit-track-when-you-receive-an-important-email
@@ -49,10 +49,10 @@ This feature is particularly useful when you've missed tracking important emails
 
 In Dynamics 365, you may notice items labeled as "UntrackedEmail" in your timeline or activities. These are emails that:
 
-* Have been detected by the system's auto capture functionality
-* Are potentially relevant to your CRM records
-* Have not yet been formally tracked in the CRM system
-* Will only remain in the system for a limited time (typically 3 days)
+- Have been detected by the system's auto capture functionality
+- Are potentially relevant to your CRM records
+- Have not yet been formally tracked in the CRM system
+- Will only remain in the system for a limited time (typically 3 days)
 
 UntrackedEmails appear as suggestions for you to review and decide whether they should be permanently tracked in CRM. This feature helps prevent important communications from falling through the cracks while giving you control over what gets stored in your CRM database.
 

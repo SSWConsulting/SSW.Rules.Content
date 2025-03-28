@@ -6,13 +6,13 @@ seoDescription: Do you have a planned outage process to ensure minimal
 uri: planned-outage-process
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related: []
 redirects:
@@ -22,6 +22,7 @@ created: 2017-06-30T19:21:55.000Z
 archivedreason: null
 guid: eb97dfa8-5bb8-4e19-932a-76d6f2f655fd
 ---
+
 For unplanned outages, see [Outage - Do you have an unplanned outage process?](/unplanned-outage-process)
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.

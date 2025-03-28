@@ -7,9 +7,9 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
   - title: Jonty Gardner

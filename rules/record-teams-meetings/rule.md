@@ -5,9 +5,9 @@ title: Do you record Teams meetings?
 uri: record-teams-meetings
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 redirects: null
 created: 2013-06-28T03:50:10.000Z
 archivedreason: null

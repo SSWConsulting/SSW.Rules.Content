@@ -5,7 +5,7 @@ title: Meetings - Do you know the way meetings should work?
 uri: meetings-do-you-know-the-way-meetings-should-work
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-07-16T06:08:10.000Z

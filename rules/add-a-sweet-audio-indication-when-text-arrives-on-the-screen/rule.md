@@ -8,9 +8,9 @@ uri: add-a-sweet-audio-indication-when-text-arrives-on-the-screen
 created: 2017-05-23T20:08:27.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects:
   - do-you-add-a-sweet-audio-indication-when-text-arrives-on-the-screen

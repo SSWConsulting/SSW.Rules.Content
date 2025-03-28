@@ -8,7 +8,7 @@ uri: monthly-stakeholder-video
 created: 2015-10-19T21:32:14.0000000Z
 authors:
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
 related:
   - making-a-great-done-video
 redirects: []
@@ -22,20 +22,20 @@ So, to keep stakeholders well informed, these teams should record a monthly stak
 
 ## ✅ Benefits
 
-* **Transparency** - Regular updates promote transparency and problems get resolved before they balloon
-* **Engagement** - Videos are more engaging than written reports
-* **Accessibility** -  Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts
+- **Transparency** - Regular updates promote transparency and problems get resolved before they balloon
+- **Engagement** - Videos are more engaging than written reports
+- **Accessibility** - Stakeholders can watch the video at their convenience, making it easier for them to stay informed without scheduling conflicts
 
 To be consistent, have a recurring appointment each month:
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| Required Attendees: | {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }} |
-| Optional Attendees: | {{ REST OF THE TEAM }} |
-| Recurrence: | 1st Monday of each month |
-| Subject: | Recording - Monthly {{ PROJECT NAME }} for {{ MONTH }} |
+|                     |                                                        |
+| ------------------- | ------------------------------------------------------ |
+| Required Attendees: | {{ PERSON WITH THE EMPLOYEE RESPONSIBILITY }}          |
+| Optional Attendees: | {{ REST OF THE TEAM }}                                 |
+| Recurrence:         | 1st Monday of each month                               |
+| Subject:            | Recording - Monthly {{ PROJECT NAME }} for {{ MONTH }} |
 
 ::: email-content
 
@@ -46,7 +46,7 @@ Please record last month’s overview video.
 1. Follow the instructions: {{ URL TO THE LIST OF REPORTS TO REVIEW }}
 2. Try having {{ PRODUCT OWNER }} on the call – if not choose another relevant person
 
-\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
+\< As per <https://ww.ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::
@@ -68,10 +68,10 @@ The video should be recorded by the Product Owner (or other head of the team).
 
 ::: email-template
 
-| | |
-| -------- | --- |
-| To: | Product Owner |
-| CC: | Stakeholders |
+|          |                                                          |
+| -------- | -------------------------------------------------------- |
+| To:      | Product Owner                                            |
+| CC:      | Stakeholders                                             |
 | Subject: | Recording - Monthly Finance Meeting for {{ MONTH YEAR }} |
 
 ::: email-content
@@ -86,7 +86,7 @@ Here’s the link {{ YOUTUBE LINK }}
 
 1. So I know who has watched this - please like and comment on the video
 
-\< As per <https://ssw.com.au/rules/monthly-stakeholder-video> \>
+\< As per <https://ww.ssw.com.au/rules/monthly-stakeholder-video> \>
 
 :::
 :::

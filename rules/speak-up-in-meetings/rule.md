@@ -6,17 +6,16 @@ title: Do you know how to speak up in meetings?
 guid: 54a13522-6794-4ebc-91c5-338ae2f9ff05
 uri: speak-up-in-meetings
 created: 2025-02-07T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
   - title: Rick Su
     url: https://www.ssw.com.au/people/rick-su/
 related:
-- the-3-criteria-that-make-a-good-meeting
-- meetings-do-you-listen-more-than-you-talk
-- asking-questions
+  - the-3-criteria-that-make-a-good-meeting
+  - meetings-do-you-listen-more-than-you-talk
+  - asking-questions
 redirects: []
-
 ---
 
 Have you ever been in a meeting and after 30 minutes, you realize you haven’t said a word? As time passes, the pressure builds, and you become more stressed about speaking up. The longer you wait, the harder it feels to contribute. If this sounds familiar, you’re not alone. Many professionals, especially juniors, struggle with speaking up in meetings, and this hesitation can make their expertise go unnoticed.

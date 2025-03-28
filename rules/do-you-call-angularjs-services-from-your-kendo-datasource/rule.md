@@ -1,17 +1,16 @@
 ---
 seoDescription: Learn how to properly integrate AngularJS services with Kendo DataSource for cleaner code and better maintainability.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you call AngularJS services from your Kendo datasource?
 guid: 1da148fe-4093-419d-b4b0-4cc50f50d36b
 uri: do-you-call-angularjs-services-from-your-kendo-datasource
 created: 2015-05-05T19:23:00.0000000Z
 authors:
-- title: Duncan Hunter
-  url: https://ssw.com.au/people/duncan-hunter
+  - title: Duncan Hunter
+    url: https://ww.ssw.com.au/people/duncan-hunter
 related: []
 redirects: []
-
 ---
 
 To keep a good separation of concerns between your AngularJS controllers and your data service layers you should always call an AngularJS service or factory from your Kendo datasource logic.
@@ -29,9 +28,9 @@ Many demonstrations show a hard coded string in your Angular controllers calling
 The bad way to call your API from a Kendo datasource with AngularJS. Notice the hard coded url directly calling the API endpoint.
 
 ```ts
-read: { 
-    url: "../content/dataviz/js/spain-electricity.json", 
-    dataType: "json" 
+read: {
+    url: "../content/dataviz/js/spain-electricity.json",
+    dataType: "json"
 }
 ```
 
@@ -43,55 +42,56 @@ Bad Example - This hard codes your url endpoint throughout your application
 This is example is in TypeScript and you can see the Kendo data source is calling the getFundAssetPositionChartData function and passing it a promise which when resolved will return the data. This function calls an AngularJS service which then calls the API endpoint. You can also see in the getFundAssetPositionChartData function the ‘this.isLoading = true’ code which is turning the pages spinner feature on and off when the call is resolved, to let the user know it is processing.
 
 ```ts
-module app.widgets {    
-    'use strict';
-    class AssetAllocationByAssetClassChartController {        
-         isLoading: any;        
-         static $inject = ['app.dataServices.InvestmentReportsService']  
-          
-         constructor(private investmentReportsService: dataServices.InvestmentReportsService) { }
-          
-         options = {            
-             series: [{                
-                 field: 'AssetStrategyOverallPercent',                
-                 categoryField: 'AssetClassName'            
-             }],            
-             seriesDefaults: {                
-                 type: 'pie'            
-             },            
-             legend: {                
-                 position: 'bottom',                
-                 labels: {                    
-                     visible: true,                    
-                     background: 'transparent',                    
-                     template: '#=text # #=value#% '               
-                 }            
-             },            
-             dataSource: new kendo.data.DataSource({                
-                 transport: {                    
-                     read: (promise: any) => {                        
-                         this.getFundAssetPositionChartData(promise);                    
-                     }                
-                 }            
-             })        
-         }        
-     
-         getFundAssetPositionChartData = (promise) => {            
-             this.isLoading = true;            
-             return this.investmentReportsService.fundAssetPosition()                
-                 .then((response) => {                    
-                     promise.success(                        
-                         response.Data.PortfolioAssetPositions[0].AssetClassDetailList                    
-                     );                    
-                     this.isLoading = false;                
-                 });        
-         }    
-    }    
-
-    Angular.module('app.widgets')        
-        .controller('app.widgets.assetAllocationByAssetClassChartController',        
-            AssetAllocationByAssetClassChartController        
-        )
+module app.widgets {
+  'use strict';
+  class AssetAllocationByAssetClassChartController {
+    isLoading: any;
+    static $inject = ['app.dataServices.InvestmentReportsService'];
+    constructor(
+      private investmentReportsService: dataServices.InvestmentReportsService
+    ) {}
+    options = {
+      series: [
+        {
+          field: 'AssetStrategyOverallPercent',
+          categoryField: 'AssetClassName',
+        },
+      ],
+      seriesDefaults: {
+        type: 'pie',
+      },
+      legend: {
+        position: 'bottom',
+        labels: {
+          visible: true,
+          background: 'transparent',
+          template: '#=text # #=value#% ',
+        },
+      },
+      dataSource: new kendo.data.DataSource({
+        transport: {
+          read: (promise: any) => {
+            this.getFundAssetPositionChartData(promise);
+          },
+        },
+      }),
+    };
+    getFundAssetPositionChartData = (promise) => {
+      this.isLoading = true;
+      return this.investmentReportsService
+        .fundAssetPosition()
+        .then((response) => {
+          promise.success(
+            response.Data.PortfolioAssetPositions[0].AssetClassDetailList
+          );
+          this.isLoading = false;
+        });
+    };
+  }
+  Angular.module('app.widgets').controller(
+    'app.widgets.assetAllocationByAssetClassChartController',
+    AssetAllocationByAssetClassChartController
+  );
 }
 ```
 

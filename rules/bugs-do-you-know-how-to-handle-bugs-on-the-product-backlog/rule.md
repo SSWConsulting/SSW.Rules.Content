@@ -1,21 +1,20 @@
 ---
 seoDescription: Learn how to handle bugs in your product backlog with proven Agile and Scrum strategies.
 type: rule
-archivedreason: 
+archivedreason:
 title: Bugs - Do you know how to handle Bugs on the Product Backlog?
 guid: 1e02b1e3-70e2-4aac-a716-c20638ad6424
 uri: bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog
 created: 2010-05-06T04:38:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ww.ssw.com.au/people/martin-hinshelwood
+  - title: Eric Phan
+    url: https://ww.ssw.com.au/people/eric-phan
 related: []
 redirects: []
-
 ---
 
 Bugs that are introduced and found because of the current work in the Sprint are included in the Sprint and estimated immediately so the burndown remains accurate. All other bugs found independent of the work on the current Sprint are placed on the Product Backlog.
@@ -44,7 +43,7 @@ In the Visual Studio Scrum template, bugs are just another PBI and you can assig
 
 As bugs from previous Sprints are just PBI’s, the PO agrees to a list of bugs that will be fixed in the current Sprint.
 
-The team just fixes any  **new** bugs they introduced in the current Sprint.
+The team just fixes any **new** bugs they introduced in the current Sprint.
 
 If the team finds bugs due to functionality accepted in a previous Sprint they log it as a PBI and will complete the fix in a future Sprint, unless it is a critical bug, in which case they raise it as an impediment to the current Sprint to the PO.
 

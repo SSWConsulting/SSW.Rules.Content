@@ -5,7 +5,7 @@ title: Do you build interactive prototypes in Figma?
 uri: figma-prototypes
 authors:
   - title: Joseph Fernandez
-    url: https://ssw.com.au/people/joseph-fernandez/
+    url: https://ww.ssw.com.au/people/joseph-fernandez/
 created: 2023-12-15T04:29:01.737Z
 guid: a0836b52-0b01-44e5-a110-8c7496b1a7a9
 ---

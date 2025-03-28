@@ -8,7 +8,7 @@ uri: do-you-use-group-policy-to-apply-settings-to-all-of-your-cluster-nodes
 created: 2012-03-02T18:43:20.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

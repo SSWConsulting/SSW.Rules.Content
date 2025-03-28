@@ -8,7 +8,7 @@ uri: sql-indexing-joins
 created: 2024-07-24T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related:
   - sql-indexing-orderby
   - sql-indexing-testing
@@ -23,7 +23,7 @@ So you've identified that you need to improve the performance of a SQL JOIN. How
 Joins behave just like a where clause. So for this statement:
 
 ```sql
-SELECT 
+SELECT
  u.DisplayName,
  c.CreationDate,
 FROM

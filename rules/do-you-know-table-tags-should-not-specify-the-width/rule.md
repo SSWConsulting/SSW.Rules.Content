@@ -8,7 +8,7 @@ uri: do-you-know-table-tags-should-not-specify-the-width
 created: 2014-12-12T19:14:45.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

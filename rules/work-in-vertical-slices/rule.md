@@ -5,9 +5,9 @@ title: Do you work in vertical slices?
 uri: work-in-vertical-slices
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-petit
+    url: https://ww.ssw.com.au/people/jack-petit
 related:
   - the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
 created: 2023-02-22T04:02:12.393Z

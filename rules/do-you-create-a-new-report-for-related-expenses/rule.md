@@ -8,7 +8,7 @@ uri: do-you-create-a-new-report-for-related-expenses
 created: 2017-10-10T02:52:20.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related:
   - how-to-enter-an-expensify-receipt
 redirects:

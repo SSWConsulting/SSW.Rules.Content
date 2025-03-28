@@ -8,7 +8,7 @@ uri: use-appropriate-and-user-friendly-icons
 created: 2015-12-18T12:46:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-use-appropriate-and-user-friendly-icons

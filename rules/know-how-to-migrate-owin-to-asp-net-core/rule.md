@@ -5,12 +5,13 @@ title: Do you know how to migrate OWIN to ASP.NET Core?
 uri: know-how-to-migrate-owin-to-asp-net-core
 authors:
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: https://ww.ssw.com.au/people/nick-curran
 related:
   - choosing-authentication
 created: 2023-07-31T23:22:58.333Z
 guid: 004c52d9-30a5-4b9c-963a-e93988a31075
 ---
+
 OWIN is the [Open Web Interface for .NET](http://owin.org/), which was intended to provide a standard interface between .NET web servers and web applications for ASP.NET. It provided the ability to chain middleware together to form pipelines and to register modules.
 
 The [Katana libraries](https://github.com/aspnet/AspNetKatana/) provided a flexible set of popular components for OWIN-based web applications. These components were supplied through packages prefixed with `Microsoft.Owin`.
@@ -19,7 +20,7 @@ Middleware and module registering functionality are now core features of ASP.NET
 
 ## CORS functionality
 
-CORS functionality was enabled in OWIN with the [UseCors(...)](https://learn.microsoft.com/en-us/previous-versions/aspnet/mt181143(v=vs.113)) extension method. For ASP.NET Core, it is provided by the [UseCors(...)](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.corsmiddlewareextensions.usecors?view=aspnetcore-7.0#microsoft-aspnetcore-builder-corsmiddlewareextensions-usecors(microsoft-aspnetcore-builder-iapplicationbuilder)) extension method in the [`Microsoft.AspNet.Cors`](https://www.nuget.org/packages/Microsoft.AspNet.Cors) package.
+CORS functionality was enabled in OWIN with the [UseCors(...)](<https://learn.microsoft.com/en-us/previous-versions/aspnet/mt181143(v=vs.113)>) extension method. For ASP.NET Core, it is provided by the [UseCors(...)](<https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.corsmiddlewareextensions.usecors?view=aspnetcore-7.0#microsoft-aspnetcore-builder-corsmiddlewareextensions-usecors(microsoft-aspnetcore-builder-iapplicationbuilder)>) extension method in the [`Microsoft.AspNet.Cors`](https://www.nuget.org/packages/Microsoft.AspNet.Cors) package.
 
 ```cs
 public void Configuration(Owin.IAppBuilder app) {
@@ -36,7 +37,7 @@ private static CorsOptions BuildCorsOptions() {
         SupportsCredentials = true
     };
     corsPolicy.Origins.Add("https://staging.northwind.com");
-    return new CorsOptions 
+    return new CorsOptions
     {
         PolicyProvider = new CorsPolicyProvider
         {

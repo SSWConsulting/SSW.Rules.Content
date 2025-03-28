@@ -8,7 +8,7 @@ uri: use-output-parameters-if-you-need-to-return-the-value-of-variables
 created: 2019-11-08T17:36:49.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - stored-procedures-do-you-use-output-parameters-if-you-need-to-return-the-value-of-variables

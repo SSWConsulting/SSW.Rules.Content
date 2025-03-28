@@ -5,7 +5,7 @@ title: Do you know how to transform images with Photoshop Generative Fill?
 uri: photoshop-generative-fill
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - write-an-image-prompt
 created: 2023-09-18T09:06:33.000Z

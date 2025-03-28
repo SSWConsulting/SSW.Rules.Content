@@ -5,7 +5,7 @@ title: Layout - Do you include a useful footer at the bottom of your reports?
 uri: include-useful-footer
 authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects:

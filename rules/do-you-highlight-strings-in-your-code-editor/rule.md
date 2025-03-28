@@ -8,9 +8,9 @@ uri: do-you-highlight-strings-in-your-code-editor
 created: 2009-05-11T07:45:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects: []

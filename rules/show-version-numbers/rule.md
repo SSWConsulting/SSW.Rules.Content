@@ -1,24 +1,23 @@
 ---
 seoDescription: Ensure clarity and easy updates by adding version numbers to your documents and design files.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have version numbers in documents and design files?
 guid: 121f7d57-3ad5-4291-a7dc-95badbe2711b
 uri: show-version-numbers
 created: 2016-03-22T05:59:17.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related:
-- make-numbers-more-readable
-- awesome-documentation
-- how-to-name-documents
+  - make-numbers-more-readable
+  - awesome-documentation
+  - how-to-name-documents
 redirects:
-- do-you-include-version-numbers-in-your-file
-- include-version-numbers-in-your-file
-
+  - do-you-include-version-numbers-in-your-file
+  - include-version-numbers-in-your-file
 ---
 
 It is very important to have your Word, PowerPoint, PDFs, and design documents up-to-date. You should also make it easy for anyone to identify which version they are looking at. The most effective way to achieve this is by **placing the version number on the right-hand side of the footer**.
@@ -31,9 +30,9 @@ It is very important to have your Word, PowerPoint, PDFs, and design documents u
 
 See [how you increase the version number](/semantic-versioning):
 
-* Major **1.0** - Rarely change - only with major upgrades. E.g. Complete redesign
-* Minor **1.1** - New features / release (customer facing) E.g. Add/remove a heading or a section
-* Revision **1.11** - Emergency maintenance, spelling fixes
+- Major **1.0** - Rarely change - only with major upgrades. E.g. Complete redesign
+- Minor **1.1** - New features / release (customer facing) E.g. Add/remove a heading or a section
+- Revision **1.11** - Emergency maintenance, spelling fixes
 
 ### Add major version numbers in internal file names
 

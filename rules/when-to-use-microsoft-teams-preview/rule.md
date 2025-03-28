@@ -7,7 +7,7 @@ seoDescription: Microsoft Teams Preview allows early access to new features, but
 uri: when-to-use-microsoft-teams-preview
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
 related:
   - teams-add-the-right-tabs
 created: 2023-04-11T09:01:00.000Z

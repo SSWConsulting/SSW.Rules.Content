@@ -5,11 +5,11 @@ title: Do you configure your GitHub Notifications?
 uri: github-notifications
 authors:
   - title: Luke Parker
-    url: https://ssw.com.au/people/luke-parker
+    url: https://ww.ssw.com.au/people/luke-parker
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://ww.ssw.com.au/people/bryden-oliver
 related: []
 created: 2022-03-03T12:25:15.000Z
 archivedreason: null

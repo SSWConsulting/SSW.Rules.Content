@@ -5,7 +5,7 @@ title: Do you avoid using MDI forms?
 uri: do-you-avoid-using-mdi-forms
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:02:00.000Z
 guid: 6489edd3-2c3d-4420-b9a8-bd89b57173d8
 ---

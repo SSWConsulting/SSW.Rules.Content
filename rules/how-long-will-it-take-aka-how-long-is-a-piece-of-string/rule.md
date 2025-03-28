@@ -8,7 +8,7 @@ uri: how-long-will-it-take-aka-how-long-is-a-piece-of-string
 created: 2011-08-30T13:33:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - how-long-will-it-take-(aka-how-long-is-a-piece-of-string)

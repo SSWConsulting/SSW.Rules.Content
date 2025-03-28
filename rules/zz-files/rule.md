@@ -5,9 +5,9 @@ title: Do you 'zz' old files rather than deleting them?
 uri: zz-files
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell
+    url: https://ww.ssw.com.au/people/landon-maxwell
 related:
   - how-to-name-documents
   - remove-spaces-from-your-folders-and-filename

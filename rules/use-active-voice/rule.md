@@ -2,15 +2,15 @@
 seoDescription: Write compelling and engaging content using active voice to get the most out of your writing.
 type: rule
 archivedreason:
-title: "Do you write content using active voice?"
+title: 'Do you write content using active voice?'
 guid: 17579a7b-3d95-47ee-865f-4aadb3d0e753
 uri: use-active-voice
 created: 2016-05-06T04:40:39.0000000Z
 authors:
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related:
   - concise-writing
   - write-in-eye-witness-style

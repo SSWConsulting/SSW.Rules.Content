@@ -8,7 +8,7 @@ uri: follow-up
 created: 2014-12-31T00:46:18.0000000Z
 authors:
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects:
   - do-you-follow-up-with-your-attendees-after-events

@@ -5,7 +5,7 @@ title: Do you write Acceptance Tests to verify Acceptance Criteria?
 uri: does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
 related:
   - acceptance-criteria
 redirects: []

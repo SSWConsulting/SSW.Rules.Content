@@ -5,7 +5,7 @@ title: Do you encapsulate (aka lock) values of forms?
 uri: do-you-encapsulate-aka-lock-values-of-forms
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T02:44:00.000Z
 guid: 295d928f-5ede-4e4c-91b5-26b6fff34eeb
 ---

@@ -5,11 +5,11 @@ title: Logon - Do you have a company-wide Word template?
 uri: have-a-companywide-word-template
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Stanley Sidik
-    url: https://ssw.com.au/people/stanley-sidik
+    url: https://ww.ssw.com.au/people/stanley-sidik
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related:
   - do-you-know-if-you-are-using-the-template
   - great-email-signatures
@@ -23,9 +23,9 @@ guid: a58e2456-e070-4ddb-9ed8-996eab71ef90
 
 A company-wide Word template brings many benefits e.g.:
 
-* **Consistency** - It's [important to maintain consistency](/do-you-understand-the-value-of-consistency) on documents internally and for clients
-* **Automatic footers and headers** - Showing the latest edit time and who the editor was, updating automatically on save
-* **Branding** - More and better branding and correct company colors
+- **Consistency** - It's [important to maintain consistency](/do-you-understand-the-value-of-consistency) on documents internally and for clients
+- **Automatic footers and headers** - Showing the latest edit time and who the editor was, updating automatically on save
+- **Branding** - More and better branding and correct company colors
 
 <!--endintro-->
 
@@ -39,10 +39,10 @@ A company-wide Word template brings many benefits e.g.:
 
 How to have a company-wide Word template:
 
-* Modify your Normal.dotm file to have the headings and format that you want for Word document
-* Create standard employee email footer files e.g. `JamesZhou.htm` or `JamesZhou.txt`
-* Put the files on a network location - this is the place that will have the master copies
-* Have a logon script which is set up through Group policy that will copy the file to the users' computer when they logon
+- Modify your Normal.dotm file to have the headings and format that you want for Word document
+- Create standard employee email footer files e.g. `JamesZhou.htm` or `JamesZhou.txt`
+- Put the files on a network location - this is the place that will have the master copies
+- Have a logon script which is set up through Group policy that will copy the file to the users' computer when they logon
 
 ```powershell
 ECHO Copy Office Templates To Workstation >> %LogonLogFile%

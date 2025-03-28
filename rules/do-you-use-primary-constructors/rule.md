@@ -8,7 +8,7 @@ uri: do-you-use-primary-constructors
 created: 2023-12-06T00:00:00.0000000Z
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related: []
 redirects:
 ---

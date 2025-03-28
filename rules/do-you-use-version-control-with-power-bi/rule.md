@@ -5,15 +5,15 @@ title: Do you use version control with Power BI?
 uri: do-you-use-version-control-with-power-bi
 authors:
   - title: Manu Gulati
-    url: https://ssw.com.au/people/manu-gulati
+    url: https://ww.ssw.com.au/people/manu-gulati
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://ww.ssw.com.au/people/calum-simpson
   - title: Kosta Madorsky
-    url: https://ssw.com.au/people/kosta-madorsky
+    url: https://ww.ssw.com.au/people/kosta-madorsky
 related:
   - do-you-know-powerbi-version-control-features
   - do-you-know-the-best-tool-to-migration-from-tfvc-to-git
@@ -45,12 +45,12 @@ In other words, the history of the changes isn't recorded anywhere.
 ![Figure: Bad example - Option 1: Publish reports directly to Power BI Service; however it does not record the history of changes](bad-example-publish-report-directly.png)
 :::
 
-The correct method is the **PBIP method**, which is: 
+The correct method is the **PBIP method**, which is:
 
 1. Convert your reports to the **Power BI Desktop Projects (PBIP)** format, and check the files into version control
 2. Use Power BI's Git integration to deploy reports
-   * Requires either Fabric capacity or a Power BI Premium per User license
-   * Currently only integrates with Git repos in Azure DevOps
+   - Requires either Fabric capacity or a Power BI Premium per User license
+   - Currently only integrates with Git repos in Azure DevOps
 
 Read the rule on [Power BI version control features](/do-you-know-powerbi-version-control-features) to get a background on this. Note: This does not work for Power BI dashboards. Dashboards do not have a PBIP or PBIX file associated and are only available on Power BI service, and so cannot have any source control or version history.
 
@@ -64,9 +64,10 @@ When a report is saved in the PBIP format, Power BI decomposes it into multiple 
 ![Figure: Good example - PBIP format allows recording history of changes without saving data into version control](good-example-history-recorded.png)
 :::
 
-Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats. 
+Historically report developers have used the .pbix or the .pbit format. These are **no longer recommended** as the new PBIP format overcomes the shortcomings of these 2 formats.
 
 ### Editing and Committing Reports
+
 ### Business Users (Use Power BI Service)
 
 If you're a business user, watch the following video to get a walkthrough of the process you would follow to edit and commit reports.

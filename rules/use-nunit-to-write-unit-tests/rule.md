@@ -5,7 +5,7 @@ title: Do you use NUnit to write Unit Tests?
 uri: use-nunit-to-write-unit-tests
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 63a5f8ba-42ad-4d32-aa65-7b9c1fdab799
 related: []

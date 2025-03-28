@@ -8,9 +8,9 @@ uri: chase-the-product-owner-for-clarification
 created: 2012-09-25T17:49:03.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - dones-do-you-use-email-for-tasks-only-not-communication
   - do-you-seek-clarification-via-the-telephone-first
@@ -37,6 +37,7 @@ Figure: The worst example - not reaching out to your Product Owner or manager at
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Jason |
@@ -57,6 +58,7 @@ Figure: Bad example - you shouldn't have to ask that!
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Jason |

@@ -8,7 +8,7 @@ uri: how-to-add-a-group-for-all-staff-who-answer-live-chats
 created: 2017-06-19T23:06:04.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-know-how-to-add-a-group-aka-departments-for-all-staff-who-answer-live-chats
@@ -17,8 +17,8 @@ redirects:
 
 Specify how incoming chat requests are sent to agents with Chat Routing settings. There are two options for how incoming chats are sent to your agents:
 
-* **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
-* **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
+- **Broadcast** : All agents get notified of all relevant chats, and the agent has to click on Serve Request to start serving the chat. This is the default setting.
+- **Assigned** : Chats are evenly assigned amongst online agents, such that only one agent is notified of each incoming chat at any time.
 
 <!--endintro-->
 

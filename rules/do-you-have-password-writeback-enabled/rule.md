@@ -5,7 +5,7 @@ title: Security - Do you have Password Writeback enabled?
 uri: do-you-have-password-writeback-enabled
 authors:
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
 related: []
 redirects: []
 created: 2018-11-13T04:10:57.000Z

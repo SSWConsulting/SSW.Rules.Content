@@ -7,7 +7,7 @@ redirects:
   - azure-ad-pim
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://ww.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 created: 2022-07-14T05:19:20.642Z
 guid: c302c328-10b4-410c-ba99-0d9ebb19a95f
@@ -21,15 +21,15 @@ PIM enables just-in-time privileged access for users that are eligible for it, r
 
 Things that we can do with PIM (taken from [What is Microsoft Entra Privileged Identity Management?](https://learn.microsoft.com/en-us/entra/id-governance/privileged-identity-management/pim-configure)):
 
-* Provide **just-in-time** privileged access to Entra ID and Azure resources
-* Assign **time-bound** access to resources using start and end dates
-* Require **approval** to activate privileged roles
-* Enforce **multi-factor authentication** to activate any role
-* Use **justification** to understand why users activate
-* Get **notifications** when privileged roles are activated
-* Conduct **access reviews** to ensure users still need roles
-* Download **audit history** for internal or external audit
-* Prevents removal of the **last active Global Administrator** and **Privileged Role Administrator** role assignments
+- Provide **just-in-time** privileged access to Entra ID and Azure resources
+- Assign **time-bound** access to resources using start and end dates
+- Require **approval** to activate privileged roles
+- Enforce **multi-factor authentication** to activate any role
+- Use **justification** to understand why users activate
+- Get **notifications** when privileged roles are activated
+- Conduct **access reviews** to ensure users still need roles
+- Download **audit history** for internal or external audit
+- Prevents removal of the **last active Global Administrator** and **Privileged Role Administrator** role assignments
 
 ### Adding assignments in PIM
 

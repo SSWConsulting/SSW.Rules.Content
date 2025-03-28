@@ -8,7 +8,7 @@ uri: do-you-ensure-the-speaker-is-aware-of-their-social-media-responsibilities
 created: 2013-05-17T16:40:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

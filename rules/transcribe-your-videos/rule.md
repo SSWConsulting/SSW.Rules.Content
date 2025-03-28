@@ -5,9 +5,9 @@ title: Searchability - Do you transcribe your videos?
 uri: transcribe-your-videos
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://ww.ssw.com.au/people/chris-briggs
 related: []
 redirects:
   - do-you-know-why-you-should-transcribe-your-videos
@@ -15,6 +15,7 @@ created: 2016-06-03T14:53:27.000Z
 archivedreason: null
 guid: 762aa1d7-eb94-4fbf-90c9-39c38db5e03b
 ---
+
 When you upload a video, the most important step is setting a good title and description. However there is a further step to take in order to help others find your video content.
 
 One of the few disadvantages of videos over written content is that Google can't tell much about your video apart from the title and tags you may provide when you upload it. By **having your video transcribed** and adding the transcription text to wherever the video is shown, you're giving Google specific information about the content of your video.
@@ -27,20 +28,20 @@ It also helps people to copy and paste important parts of what's said on the vid
 
 The keywords for the video above are:
 
-* Windows 10
-* IoT
-* Microsoft
-* .NET
-* Micro Framework
+- Windows 10
+- IoT
+- Microsoft
+- .NET
+- Micro Framework
 
 However, it is missing important keywords such as:
 
-* Open-source
-* C#
-* GitHub
-* Universal Windows Platform
-* Raspberry Pi
-* I2C
+- Open-source
+- C#
+- GitHub
+- Universal Windows Platform
+- Raspberry Pi
+- I2C
 
 How to capture all of these missing keywords? You can't just overload your content with keywords, as your content may become flagged as spam.
 
@@ -52,8 +53,8 @@ Check the whole transcription on Chris Briggs' blog post: [VIDEO – The Interne
 
 A quick Google search will show a range of services which will make the task effortless. However, professional transcriptions are expensive. If you’re willing to spend a little time cleaning up technical jargon then it is worth checking out:
 
-* [speechpad.com](https://www.speechpad.com/) - for a better transcription quality
-* [fiverr.com](https://www.fiverr.com/) - for a quicker reply and cheaper pricing
+- [speechpad.com](https://www.speechpad.com/) - for a better transcription quality
+- [fiverr.com](https://www.fiverr.com/) - for a quicker reply and cheaper pricing
 
 ::: info
 As an example, we have had success with this method as one of our devs, Chris Briggs transcribed all 3 hours of his **SSW TV** video content for under $90 USD and an hour and a half of his time to fix up jargon.

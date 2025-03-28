@@ -8,9 +8,9 @@ uri: do-you-inform-the-speaker-of-venue-specific-details-before-the-presentation
 created: 2013-05-17T16:42:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
 related: []
 redirects: []
 ---

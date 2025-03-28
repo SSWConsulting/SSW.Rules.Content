@@ -8,9 +8,9 @@ uri: when-to-go-for-a-tender
 created: 2020-09-04T04:41:38.0000000Z
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
-    url: https://ssw.com.au/people/sam-smith
+    url: https://ww.ssw.com.au/people/sam-smith
 related: []
 redirects:
   - do-you-know-when-to-go-for-a-tender
@@ -47,6 +47,7 @@ Tenders can be a waste of time, with low-skilled assessment by purchasing people
 ### Review opportunities and processes frequently
 
 At least every 2 weeks the following should be reviewed.
+
 1. Review current opportunities
 2. The team should vote on potential opportunities to be pursued
 3. Report to the team on the various platforms - any compliance documents needed

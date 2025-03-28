@@ -5,11 +5,11 @@ title: Do you inform the client of any resource or rate changes?
 uri: do-you-inform-the-client-of-any-resource-or-rate-changes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
-    url: https://ssw.com.au/people/sam-smith
+    url: https://ww.ssw.com.au/people/sam-smith
 related: []
 redirects: []
 created: 2012-08-30T13:05:19.000Z
@@ -40,7 +40,7 @@ Please find his new standard rate attached below.
 
 **Scott Smith**
 
-- Profile: https://ssw.com.au/people/sample
+- Profile: https://ww.ssw.com.au/people/sample
 - Standard Hourly Rate: ${{ STANDARD RATE }}+GST
 - Prepaid Hourly Rate: ${{ PREPAID RATE }}+GST (minimum 40 hours per resource, subject to prepaid terms)
 

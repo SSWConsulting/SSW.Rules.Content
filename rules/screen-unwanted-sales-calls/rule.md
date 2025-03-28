@@ -8,7 +8,7 @@ uri: screen-unwanted-sales-calls
 created: 2018-06-08T23:47:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-screen-unwanted-sales-calls

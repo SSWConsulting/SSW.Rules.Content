@@ -8,9 +8,9 @@ uri: do-you-use-content-query-web-part
 created: 2012-05-17T07:15:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
 related: []
 redirects: []
 ---

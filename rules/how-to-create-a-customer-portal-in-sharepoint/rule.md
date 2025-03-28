@@ -1,27 +1,26 @@
 ---
 seoDescription: Discover how to create a Customer Portal in SharePoint for seamless client collaboration and project management
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to create a "Customer Portal" in SharePoint?
 guid: 94677865-ee14-4aae-82ce-3a853c173e40
 uri: how-to-create-a-customer-portal-in-sharepoint
 created: 2009-05-28T06:51:18.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Sumesh Ghimire
-  url: https://ssw.com.au/people/sumesh-ghimire
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: William Yin
+    url: https://ww.ssw.com.au/people/william-yin
+  - title: Sumesh Ghimire
+    url: https://ww.ssw.com.au/people/sumesh-ghimire
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-how-to-create-a-＂customer-portal＂-(in-sharepoint)
-- do-you-know-how-to-create-a-customer-portal-in-sharepoint
-- do-you-know-how-to-create-a-customer-portal-(in-sharepoint)
-
+  - do-you-know-how-to-create-a-＂customer-portal＂-(in-sharepoint)
+  - do-you-know-how-to-create-a-customer-portal-in-sharepoint
+  - do-you-know-how-to-create-a-customer-portal-(in-sharepoint)
 ---
 
-You should do anything that helps a project succeed. The best thing is to enable great collaboration, by giving your customer an awesome 'Customer Portal'.  Then they can see new mockups, comment on features, get new releases and participate in team discussions on their particular project.
+You should do anything that helps a project succeed. The best thing is to enable great collaboration, by giving your customer an awesome 'Customer Portal'. Then they can see new mockups, comment on features, get new releases and participate in team discussions on their particular project.
 
 So the first thing you should do is to create a 'Customer Portal' in your SharePoint extranet. Then give your customer a login, send them an email and they are now going to really get involved!
 
@@ -53,10 +52,10 @@ Now follow these steps when the new window opens fill in the fields below.
 More Information:
 
 1. Fill in the fields for the new client site
-eg. Title, Description, and URL
+   eg. Title, Description, and URL
 2. Select the template  
-e.g “**ClientCollaboration\_V1**” in the Custom tab.  
-**Note:** Your selection is confirmed in the picture. In this example, the template’s description looks like “**Site for Collaboration with SSW Clients**”.
+   e.g “**ClientCollaboration_V1**” in the Custom tab.  
+   **Note:** Your selection is confirmed in the picture. In this example, the template’s description looks like “**Site for Collaboration with SSW Clients**”.
 3. Select “**Use Unique permissions**” as you need to give the client an account to visit.
 4. In the “**Navigation Inheritance**” choose “**No**” as you don’t need to let client visit the other client sites via the navigation.
 5. Click “**Create**”
@@ -71,17 +70,17 @@ More Information:
 
 Permissions: After you created the website for the client project, you need to configure the permission to make sure the developers and the clients can visit the site with the current authority. By default:
 
-1. **Visitors to the site - Read:**  
-    * Visitors need to read most of the site.
-    * They can't read team discussions (not used)
-    * They can download from 'release files' document library.
-    * They can synchronize their calendar to the team calendar in SharePoint (not used - one day it should read from CRM)
-2. **Members of this Site - Contribute:**  
-    * Can view, add, update and delete.
-3. **Owners of this Site - Full Control:**  
-    * Has a full control.
+1. **Visitors to the site - Read:**
+   - Visitors need to read most of the site.
+   - They can't read team discussions (not used)
+   - They can download from 'release files' document library.
+   - They can synchronize their calendar to the team calendar in SharePoint (not used - one day it should read from CRM)
+2. **Members of this Site - Contribute:**
+   - Can view, add, update and delete.
+3. **Owners of this Site - Full Control:**
+   - Has a full control.
 
-In this case, we are using 'create a new group' option because we want this group to be able to access only for this particular site  - It is a good practice to create a new group for every site you create, because it will be easier to add or delete users in the group for that specific site.
+In this case, we are using 'create a new group' option because we want this group to be able to access only for this particular site - It is a good practice to create a new group for every site you create, because it will be easier to add or delete users in the group for that specific site.
 
 **Note:** you can also access this through the "People and Group" option on "Site Action" link on right-hand top of the page if you need to manage permission in future.
 

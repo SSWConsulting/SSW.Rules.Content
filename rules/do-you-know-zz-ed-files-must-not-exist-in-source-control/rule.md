@@ -8,7 +8,7 @@ uri: do-you-know-zz-ed-files-must-not-exist-in-source-control
 created: 2013-01-21T12:39:24.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related:
   - do-you-zz-old-files-rather-than-deleting-them
 redirects: []

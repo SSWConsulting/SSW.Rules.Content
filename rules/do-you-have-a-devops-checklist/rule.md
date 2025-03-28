@@ -5,7 +5,7 @@ title: Do you have a DevOps Checklist?
 uri: do-you-have-a-devops-checklist
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects: []
 created: 2015-10-07T01:12:53.000Z

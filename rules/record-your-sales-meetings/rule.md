@@ -5,10 +5,11 @@ seoDescription: Sales, AI
 uri: record-your-sales-meetings
 authors:
   - title: Levi Jackson
-    url: https://ssw.com.au/people/levi-jackson/
+    url: https://ww.ssw.com.au/people/levi-jackson/
 created: 2024-05-06T04:46:35.222Z
 guid: 1b083b2a-46e9-4ed4-9f7e-2e438e81c62b
 ---
+
 ![](professional-sales-call-between-two-individuals.webp)
 
 **Figure: Using recordings to refine sales tactics**

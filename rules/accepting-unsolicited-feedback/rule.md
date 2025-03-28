@@ -8,15 +8,15 @@ uri: accepting-unsolicited-feedback
 created: 2023-03-02T20:28:20.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://ww.ssw.com.au/people/ulysses-maclaren
 related:
   - unsolicited-feedback
   - feedback-avoid-chopping-down-every-example
   - do-you-know-the-nice-way-to-correct-someone
   - feedback-avoid-chopping-down-every-example
-  - handle-passive-aggressive-comments      
+  - handle-passive-aggressive-comments
 redirects:
   - how-to-accept-unsolicited-feedback
 ---

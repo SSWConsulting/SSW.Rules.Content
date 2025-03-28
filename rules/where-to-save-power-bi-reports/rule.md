@@ -8,7 +8,7 @@ uri: where-to-save-power-bi-reports
 created: 2016-04-26T14:42:38.0000000Z
 authors:
   - title: Mark Liu
-    url: https://ssw.com.au/people/mark-liu
+    url: https://ww.ssw.com.au/people/mark-liu
 related: []
 redirects:
   - do-you-know-where-to-save-reports

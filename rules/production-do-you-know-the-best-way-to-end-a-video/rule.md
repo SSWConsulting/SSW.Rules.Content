@@ -5,7 +5,7 @@ title: Production - Do you know the best way to end a video?
 uri: production-do-you-know-the-best-way-to-end-a-video
 authors:
   - title: Titus Maclaren
-    url: https://ssw.com.au/people/titus-maclaren
+    url: https://ww.ssw.com.au/people/titus-maclaren
 related: []
 redirects: []
 created: 2011-10-19T15:48:28.000Z

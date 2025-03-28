@@ -7,11 +7,11 @@ seoDescription: Do you minimize the use of Out of Office? Minimize unnecessary
 uri: do-you-avoid-using-out-of-office
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://ww.ssw.com.au/people/cameron-shaw
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://ww.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
   - do-you-minimise-the-use-of-out-of-office
@@ -46,7 +46,7 @@ The use of 'Out of Office - Automated Response' emails should be avoided unless 
 ![Figure: Good example – Step 2 – Enter your reason and an end date. This message will be seen by your colleagues when they email or message you in Teams](step2-good.png)
 :::
 
-Tip: If you only want out of office replies to go to external contacts, but you don't want to spam internal contacts, you can leave the "Inside my organisation" template blank. 
+Tip: If you only want out of office replies to go to external contacts, but you don't want to spam internal contacts, you can leave the "Inside my organisation" template blank.
 
 ### Use Teams to let people know you are not around
 

@@ -5,7 +5,7 @@ title: Do you use an image button for opening a web page taking action?
 uri: do-you-use-an-image-button-for-opening-a-web-page-taking-action
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:52:00.000Z
 guid: c5bdadb2-075e-48da-bba7-229bc034ce4f
 ---

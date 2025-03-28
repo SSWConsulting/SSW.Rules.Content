@@ -6,9 +6,9 @@ title: Content - Do you know the types of content you should post on your social
 uri: type-of-content-marketing-you-should-post
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://ww.ssw.com.au/people/camilla-rosa-silva
   - title: Jerwin Parker Roberto
-    url: https://ssw.com.au/people/jerwin-parker
+    url: https://ww.ssw.com.au/people/jerwin-parker
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
   - title: Josh Bandsma
     url: https://www.ssw.com.au/people/josh-bandsma

@@ -6,13 +6,12 @@ title: Data Layout - Do you have nodes count like Outlook?
 guid: 8254b1a7-9a7c-4eee-85f0-6dddca76f804
 uri: nodes-count-like-outlook
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
   - when-to-use-reporting-services
 redirects: []
-
 ---
 
 A report with drill through like this should have the number in nodes like Outlook.

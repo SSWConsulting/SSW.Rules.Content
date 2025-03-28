@@ -8,9 +8,9 @@ uri: quality-do-you-make-your-templates-accessible-to-everyone-in-your-organisat
 created: 2012-09-25T18:01:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects:
   - ip-do-you-make-your-templates-accessible-to-everyone-in-your-organisation

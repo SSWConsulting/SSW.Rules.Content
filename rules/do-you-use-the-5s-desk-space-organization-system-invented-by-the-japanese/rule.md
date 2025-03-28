@@ -8,9 +8,9 @@ uri: do-you-use-the-5s-desk-space-organization-system-invented-by-the-japanese
 created: 2018-04-04T04:55:25.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Florent Dezettre
-    url: https://ssw.com.au/people/florent-dezettre
+    url: https://ww.ssw.com.au/people/florent-dezettre
 related: []
 redirects:
   - office-environment-do-you-use-the-5s-desk-space-organization-system-invented-by-the-japanese

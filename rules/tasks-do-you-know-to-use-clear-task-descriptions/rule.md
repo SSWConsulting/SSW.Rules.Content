@@ -5,7 +5,7 @@ title: Tasks - Do you know to use clear task descriptions?
 uri: tasks-do-you-know-to-use-clear-task-descriptions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2010-04-28T17:56:54.000Z

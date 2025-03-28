@@ -7,7 +7,7 @@ uri: bicep-user-defined-data-types
 created: 2024-03-19T19:19:19.1919191Z
 authors:
   - title: Rick Su
-    url: https://ssw.com.au/people/rick-su
+    url: https://ww.ssw.com.au/people/rick-su
 related: []
 redirects: []
 archivedreason: null

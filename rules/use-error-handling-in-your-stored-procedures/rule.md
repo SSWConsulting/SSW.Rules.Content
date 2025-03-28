@@ -1,22 +1,21 @@
 ---
 seoDescription: Learn how to implement effective error handling in your SQL stored procedures using THROW for reliable code and easier debugging.
 type: rule
-archivedreason: 
+archivedreason:
 title: Stored Procedures - Do you use error handling in your Stored Procedures?
 guid: fe0b081d-019e-4810-beca-1d8b71957403
 uri: use-error-handling-in-your-stored-procedures
 created: 2020-03-17T03:41:49.0000000Z
 authors:
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  - title: Christian Morford-Waite
+    url: https://ww.ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
-- stored-procedures-do-you-use-error-handling-in-your-stored-procedures
-
+  - stored-procedures-do-you-use-error-handling-in-your-stored-procedures
 ---
 
 You should always include error handling in your stored procedures, it allows you to catch errors and either log them or attempt to correct them.
-[THROW (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/throw-transact-sql?view=sql-server-ver15) lets you generate your own custom error messages, which can be more detailed in describing the problem and assist in debugging.
+[THROW (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/throw-transact-sql?view=sql-server-ver15) lets you generate your own custom error messages, which can be more detailed in describing the problem and assist in debugging.
 
 <!--endintro-->
 
@@ -31,11 +30,11 @@ THROW error_number, message, state;
 
 There are 3 main arguments:
 
-* **error\_number (int)** - Must be greater than or equal to 50000 and less than or equal to 2147483647.
-* **message (nvarchar)** - Maximum of 2048 characters.
-* **state (tinyint)** - Must be between 0 and 255
+- **error_number (int)** - Must be greater than or equal to 50000 and less than or equal to 2147483647.
+- **message (nvarchar)** - Maximum of 2048 characters.
+- **state (tinyint)** - Must be between 0 and 255
 
-The  **state** argument can be used to help pinpoint where the error occurred by using a different value without changing the  **error\_number** or  **message** . This is useful if you have multiple steps in a process that may throw identical error descriptions.
+The **state** argument can be used to help pinpoint where the error occurred by using a different value without changing the **error_number** or **message** . This is useful if you have multiple steps in a process that may throw identical error descriptions.
 
 ```sql
 -- Example
@@ -60,9 +59,9 @@ Figure: Bad Example - No error handling.
 
 :::
 
-Below we have wrapped our stored procedure logic in a TRY block and added a CATCH block to handle the error. More information can be found here [TRY...CATCH (Transact-SQL)](https&#58;//docs.microsoft.com/en-us/sql/t-sql/language-elements/try-catch-transact-sql?view=sql-server-ver15).
+Below we have wrapped our stored procedure logic in a TRY block and added a CATCH block to handle the error. More information can be found here [TRY...CATCH (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/language-elements/try-catch-transact-sql?view=sql-server-ver15).
 
-We know this divide-by-zero is going to cause an exception and the error number for this specific SQL exception is 8134. See [(MSSQL Errors)](https&#58;//docs.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-ver15) for more error numbers.
+We know this divide-by-zero is going to cause an exception and the error number for this specific SQL exception is 8134. See [(MSSQL Errors)](https://docs.microsoft.com/en-us/sql/relational-databases/errors-events/database-engine-events-and-errors?view=sql-server-ver15) for more error numbers.
 
 In our CATCH block, we check the error to ensure it’s the one that we want to handle otherwise, we re-throw the original exception.
 Finally, when we catch the error we are looking for we can log some information about it and attempt to run our stored procedure logic again with different parameters.

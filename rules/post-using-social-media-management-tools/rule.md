@@ -7,11 +7,11 @@ authors:
   - title: Camilla Rosa Silva
     url: https://www.ssw.com.au/people/camilla-rosa-silva
   - title: Penny Walker
-    url: https://ssw.com.au/people/penny-walker
+    url: https://ww.ssw.com.au/people/penny-walker
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://ww.ssw.com.au/people/joanna-feely
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: https://ww.ssw.com.au/people/brittany-lawrence
 related: []
 redirects:
   - do-you-use-buffer-to-post-on-social-media
@@ -19,7 +19,6 @@ redirects:
 created: 2014-04-03T05:50:56.000Z
 archivedreason: null
 guid: fa97b239-8177-4073-ab81-fdace6b68eb7
-
 ---
 
 Social media management tools are a must-have marketing tool these days. They are software, web applications and apps that help a company to successfully manage content and engagement across different social networks. These tools offer many helpful features, like content scheduling, social analytics, teams collaboration, content creation, and many more.

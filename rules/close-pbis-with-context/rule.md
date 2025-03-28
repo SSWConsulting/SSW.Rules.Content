@@ -5,11 +5,11 @@ title: Do you close PBIs and tasks with context?
 uri: close-pbis-with-context
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://ww.ssw.com.au/people/gordon-beeming
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://ww.ssw.com.au/people/brady-stroud
 related:
   - write-a-good-pull-request
   - reply-done-and-delete-the-email
@@ -34,18 +34,18 @@ When you look at a PBI, you can navigate through the commits or pull requests th
 
 These are sentences you should add to include context when closing a PBI / Issue:
 
-* "For more details, see **{{ DONE VIDEO }}** / **{{ SCREENSHOT(S) }}**"
-* "The document/page was updated: **{{ LINK }}**"
-* "Done - see email: **{{ EMAIL SUBJECT }}**"
-* "[As per conversation with](/as-per-our-conversation-emails/) **{{ @NAME(S) }}**"
+- "For more details, see **{{ DONE VIDEO }}** / **{{ SCREENSHOT(S) }}**"
+- "The document/page was updated: **{{ LINK }}**"
+- "Done - see email: **{{ EMAIL SUBJECT }}**"
+- "[As per conversation with](/as-per-our-conversation-emails/) **{{ @NAME(S) }}**"
 
 If you are closing a PBI as duplicate:
 
-* "Duplicate of **{{ LINK TO THE OTHER PBI }}**"
+- "Duplicate of **{{ LINK TO THE OTHER PBI }}**"
 
 If you are closing a PBI as "Won't Fix", mention the reason why it is not being fixed:
 
-* "Not done - **{{ REASON }}**"
+- "Not done - **{{ REASON }}**"
 
 ::: bad  
 ![Figure: Bad example - This PBI is closed with no context around changes made](closing-pbis-without-context.jpg)

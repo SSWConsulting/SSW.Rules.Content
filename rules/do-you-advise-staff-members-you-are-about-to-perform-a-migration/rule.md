@@ -8,7 +8,7 @@ uri: do-you-advise-staff-members-you-are-about-to-perform-a-migration
 created: 2010-12-23T06:48:31.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
 related: []
 redirects: []
 ---

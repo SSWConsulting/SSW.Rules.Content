@@ -8,9 +8,9 @@ uri: quality-do-you-only-deploy-after-a-test-please
 created: 2012-09-25T18:02:47.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://ww.ssw.com.au/people/brendan-richards
 related: []
 redirects: []
 ---

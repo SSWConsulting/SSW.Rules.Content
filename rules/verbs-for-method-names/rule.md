@@ -7,11 +7,11 @@ uri: verbs-for-method-names
 created: 2024-11-05T00:00:00.0000000Z
 authors:
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://ww.ssw.com.au/people/matt-goldman
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://ww.ssw.com.au/people/daniel-mackay
 related:
   - clear-meaningful-names
   - nouns-for-class-names
@@ -49,14 +49,14 @@ Using **`SendCustomerOrder`**
 :::
 :::good
 Good example - A method that is named as a verb clearly tells you that it does something (sends), and what that thing is (a customer order)
-:::  
+:::
 
 :::greybox
 Using **`Administration`** as a method name for nurses to document medications that have been administered to patients.
 :::
 :::bad
 Bad example - It’s a noun, and it’s ambiguous. 'Administration' has multiple meanings, and the method name doesn’t make it clear what this action involves
-:::  
+:::
 
 :::greybox
 Using **`AdministerMedication`** makes the action clear

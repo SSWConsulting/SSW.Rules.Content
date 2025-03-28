@@ -8,7 +8,7 @@ uri: do-you-avoid-linking-users-to-the-sign-in-page-directly
 created: 2015-02-16T02:57:35.0000000Z
 authors:
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
+    url: https://ww.ssw.com.au/people/rebecca-liu
 related: []
 redirects: []
 ---

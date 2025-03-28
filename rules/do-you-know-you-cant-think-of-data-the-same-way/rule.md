@@ -8,7 +8,7 @@ uri: do-you-know-you-cant-think-of-data-the-same-way
 created: 2009-05-21T23:35:36.0000000Z
 authors:
   - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
+    url: https://ww.ssw.com.au/people/jay-lin
 related: []
 redirects: []
 ---
@@ -16,8 +16,6 @@ redirects: []
 In SQL Server you have tables to store data.  Then you have Views, Relations and Stored Procedures.
 
 SharePoint gives us Lists where we can store rows and columns of data, but it is not the same as a full database.
-
-
 
 - There are no joints out of SharePoint – you can do limited operations with lookup fields but they are not the same as joints in SQL Server
 - Views in SharePoint are filters, grouping and sort on a single list only.

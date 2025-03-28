@@ -8,11 +8,11 @@ uri: the-best-way-to-install-dpm
 created: 2011-06-15T02:32:32.0000000Z
 authors:
   - title: Matthew Hodgkins
-    url: https://ssw.com.au/people/matthew-hodgkins
+    url: https://ww.ssw.com.au/people/matthew-hodgkins
   - title: Steven Andrews
-    url: https://ssw.com.au/people/steven-andrews
+    url: https://ww.ssw.com.au/people/steven-andrews
   - title: Sumesh Ghimire
-    url: https://ssw.com.au/people/sumesh-ghimire
+    url: https://ww.ssw.com.au/people/sumesh-ghimire
 related: []
 redirects:
   - do-you-know-the-limitations-when-installing-dpm-as-a-virtual-machine

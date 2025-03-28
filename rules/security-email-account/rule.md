@@ -8,12 +8,13 @@ seoDescription: Learn why every company should have a security@ email address to
 uri: security-email-account
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://ww.ssw.com.au/people/matt-wicks
 related: []
 redirects: []
 created: 2025-03-25T00:01:20.896Z
 guid: 58523891-7aa2-4f5c-ae34-376d002f0a14
 ---
+
 When hackers or security researchers find a vulnerability in your system, they need a way to tell you. If you don’t have a security@yourcompany.com email, they might give up or go public.
 
 Your `security@` inbox is your first line of defense.
@@ -22,18 +23,17 @@ Your `security@` inbox is your first line of defense.
 
 It helps with:
 
-* Responsible disclosure from ethical hackers
-* Bug bounty submissions
-* Early warnings before public leaks
+- Responsible disclosure from ethical hackers
+- Bug bounty submissions
+- Early warnings before public leaks
 
 You don’t need a full bug bounty program to start. Just set up the email, publish it (e.g. in your [security.txt](https://securitytxt.org)), and monitor it.
 
 Make sure it’s:
 
-* Monitored by trusted staff (not just one person)
-* Responded to quickly (aim for <48h)
-* Part of your incident response process
-
+- Monitored by trusted staff (not just one person)
+- Responded to quickly (aim for <48h)
+- Part of your incident response process
 
 ::: bad  
 Bad example: No security@ exists. The researcher tweets the exploit. The company finds out via media. Damage is done.

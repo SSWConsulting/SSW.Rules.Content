@@ -5,12 +5,11 @@ title: Do you know the correct way to develop Data Entry Forms?
 guid: 98e8f4b2-a989-46a1-bbe7-f453baa414ae
 uri: do-you-know-the-correct-way-to-develop-data-entry-forms
 created: 2014-12-01T00:36:14.0000000Z
-authors: 
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+authors:
+  - title: Adam Cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Data Entrees should be able to use your data entry form with ease. It should follow the flow that they are familiar with.
@@ -61,9 +60,9 @@ The "form manager" will keep track of every instance opened. So in our example, 
 
 The form is to be aware of the data state. If the data is dirty:
 
-* The Apply button would be enabled until the record is saved
-* The OK button would simply save the record and close the Form
-* The Cancel button would pop up a dialog (shown in the figure below) asking to save changes;
+- The Apply button would be enabled until the record is saved
+- The OK button would simply save the record and close the Form
+- The Cancel button would pop up a dialog (shown in the figure below) asking to save changes;
 
 If the user decides to save, it should save the record and close the form.
 If No, then close the form without saving.
@@ -97,9 +96,9 @@ When including a sub form in your main form (as shown in figure below), the only
 
 Most fields required validation. There are three types of validations:
 
-* Required Field - the field should be filled in
-* Formatting - the field must be in a correct format. e.g. currency or date
-* Logical - the field needs to pass some validation tests in the business layer
+- Required Field - the field should be filled in
+- Formatting - the field must be in a correct format. e.g. currency or date
+- Logical - the field needs to pass some validation tests in the business layer
 
 To show an error, display an error provider icon next to the field on the right. An example of this is shown in the figure below.
 
@@ -113,9 +112,9 @@ Validation for Logic should be done in Validated, since it must be entered if re
 
 The reason for the above validation placement is that these events run in the following order:
 
-* Validating
-* Parse/Format
-* Validated
+- Validating
+- Parse/Format
+- Validated
 
 ::: good  
 ![Figure: Good example - Error Provider Icon next to a required field](../../assets/ErrorProviderIconExample.jpg)  
@@ -145,7 +144,7 @@ To accompany formatting, you must also create a parse function for putting the c
 
 **Note:** This can be difficult for data bound fields, and in that case you will have to handle the parse and format event of the Field's Binding object. An example of handling these events is shown below.
 
-``` vb
+```vb
     Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
     Dim controlBinding As Binding = New System.Windows.Forms.Binding(propertyName,dataSource, dataMember)
     AddHandler controlBinding.Format, AddressOf DecimalToCurrencyString
@@ -154,7 +153,7 @@ To accompany formatting, you must also create a parse function for putting the c
 
     Private Sub DecimalToCurrencyString(sender As Object, cevent As ConvertEventArgs)
     ' The method converts only to string type. Test this using the DesiredType.
-    If Not cevent.DesiredType Is GetType(String) 
+    If Not cevent.DesiredType Is GetType(String)
     Then
         Exit Sub
     End If
@@ -164,7 +163,7 @@ To accompany formatting, you must also create a parse function for putting the c
 
     Private Sub CurrencyStringToDecimal(sender As Object, cevent As ConvertEventArgs)
     ' The method converts back to decimal type only.
-    If Not cevent.DesiredType Is GetType(Decimal) 
+    If Not cevent.DesiredType Is GetType(Decimal)
     Then
         Exit Sub
     End If
@@ -193,7 +192,7 @@ A common UI to use for these fields can be seen in the example below. What we do
 
 An example of how to set the values for this user control is shown below.
 
-``` vb
+```vb
     updatedBy.CreatedDate = .DateCreated
     updatedBy.CreatedBy = .EmpCreated
     updatedBy.UpdatedDate = .DateUpdated
@@ -204,7 +203,7 @@ An example of how to set the values for this user control is shown below.
 
 Databinding is also available to be used with this user control.
 
-![Figure: Data Binding using the Designer](../../assets/CommonFieldsDB.gif)  
+![Figure: Data Binding using the Designer](../../assets/CommonFieldsDB.gif)
 
 ### 9. Minimum Defaults
 

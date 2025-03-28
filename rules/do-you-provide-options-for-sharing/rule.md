@@ -8,7 +8,7 @@ uri: do-you-provide-options-for-sharing
 created: 2012-11-27T02:16:07.0000000Z
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://ww.ssw.com.au/people/jayden-alchin
 related: []
 redirects: []
 ---

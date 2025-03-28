@@ -6,9 +6,9 @@ title: Do you know how to upgrade CRM 2015 to 2016
 guid: 8623800a-0a9a-49a3-9edc-2d01c78c4dfe
 uri: do-you-know-how-to-upgrade-crm-2015-to-2016
 created: 2016-01-22T04:02:32.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -40,7 +40,7 @@ The procedure for upgrading CRM 2015 to 2016 is:
    ![Figure: Upgrade business organization](upgrade_businessOrg.png)
    ![Figure: Successfully upgrade organization](upgrade_org_successfully.png)
 
-7. Go to CRM setup directory | SrsDataConnector | Install 'Microsoft Dynamics CRM Reporting Extensions"
+6. Go to CRM setup directory | SrsDataConnector | Install 'Microsoft Dynamics CRM Reporting Extensions"
    ![Figure: Install CRM Reporting Extensions](install_reporting_extensions.png)
    ![Figure: Successfully upgraded to CRM2016](upgrade_to_crm2016.png)
 

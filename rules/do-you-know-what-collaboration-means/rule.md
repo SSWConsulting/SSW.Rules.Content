@@ -8,7 +8,7 @@ uri: do-you-know-what-collaboration-means
 created: 2010-10-12T06:25:02.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://ww.ssw.com.au/people/william-yin
 related: []
 redirects: []
 ---

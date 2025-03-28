@@ -5,7 +5,7 @@ title: Do you encourage experimentation?
 uri: do-you-encourage-experimentation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2013-10-31T02:57:11.000Z

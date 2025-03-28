@@ -8,9 +8,9 @@ uri: do-you-use-windows-integrated-authentication-connection-string-in-web-confi
 created: 2009-05-11T07:09:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects: []

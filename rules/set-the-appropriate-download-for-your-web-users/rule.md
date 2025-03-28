@@ -5,7 +5,7 @@ title: Do you set the appropriate download (.exe or .application) for your web u
 uri: set-the-appropriate-download-for-your-web-users
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ww.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:17:00.000Z
 archivedreason: outdated
 guid: 4596ed75-d396-487e-a189-eb5b3f80b315

@@ -5,9 +5,9 @@ seoDescription: Learn about the best package manager for Node.js and Web Develop
 uri: best-package-manager-for-node
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://ww.ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit/
 related:
@@ -19,7 +19,8 @@ created: 2017-08-15T23:12:15.000Z
 archivedreason: null
 guid: b6564f50-7525-40d8-9a98-cc7619bcc854
 ---
-When working with Node.js, choosing the right package manager can significantly impact your project's performance, consistency, and ease of use. While npm is the default, developers often seek alternatives like Yarn, Bun, or pnpm for various advantages. But which one should you use? 
+
+When working with Node.js, choosing the right package manager can significantly impact your project's performance, consistency, and ease of use. While npm is the default, developers often seek alternatives like Yarn, Bun, or pnpm for various advantages. But which one should you use?
 
 <!--endintro-->
 

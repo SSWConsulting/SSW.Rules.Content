@@ -5,7 +5,7 @@ seoDescription: Do you know what unit tests to write and how many? Learn that 10
 uri: what-unit-tests-to-write-and-how-many
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-what-unit-tests-to-write-and-how-many
@@ -34,12 +34,12 @@ Remember that unit tests are designed to be small in scope and help mitigate the
 - **When errors can be difficult to spot** - E.g. in rounding, arithmetic and other calculations
 
 :::greybox
-**Examples:** 
+**Examples:**
 
-* In a calculation, you would not only test correct input (such as 12/3 = 4) and bad output (such as 12/4 &lt;&gt; 4), but also that 12/0 does not crash the application (instead a DivideByZero exception is expected and should be handled gracefully).
+- In a calculation, you would not only test correct input (such as 12/3 = 4) and bad output (such as 12/4 &lt;&gt; 4), but also that 12/0 does not crash the application (instead a DivideByZero exception is expected and should be handled gracefully).
 
-* Methods returning a Boolean value need to have test cases to cover both true and false.
-:::
+- Methods returning a Boolean value need to have test cases to cover both true and false.
+  :::
 
 ❌ Unit tests should **not** be written for:
 

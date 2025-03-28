@@ -8,9 +8,9 @@ uri: dashes
 created: 2025-03-18T19:00:21.0000000Z
 authors:
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://ww.ssw.com.au/people/seth-daily
   - title: Suzanne Gibson
-    url: https://ssw.com.au/people/suzanne-gibson
+    url: https://ww.ssw.com.au/people/suzanne-gibson
 related: []
 redirects: []
 ---

@@ -5,7 +5,7 @@ title: Do you have a Product Backlog refinement meeting?
 uri: backlog-refinement-meeting
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://ww.ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Brady Stroud
@@ -21,7 +21,6 @@ related:
   - create-pbis-under-2-days
 created: 2023-08-01T05:00:34.793Z
 guid: e7fc1823-dc9b-4fc1-b5bd-b7ac6424c336
-
 ---
 
 When a Scrum Team meets for Sprint Planning, they want to plan out the next week's work so they can get cracking on improving the product.
@@ -52,12 +51,13 @@ To ensure the Product Backlog Refinement meeting runs. Setup a recurring meeting
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ TECH LEAD }}, {{ CHOSEN DEVELOPER }} |
-| Cc:      | {{ REST OF THE SCRUM TEAM }} |
-| Recurrence:      | {{ ONCE PER SPRINT }} |
-| Subject: | {{ PROJECT NAME }} - Product Backlog Refinement |
+|             |                                                 |
+| ----------- | ----------------------------------------------- |
+| To:         | {{ TECH LEAD }}, {{ CHOSEN DEVELOPER }}         |
+| Cc:         | {{ REST OF THE SCRUM TEAM }}                    |
+| Recurrence: | {{ ONCE PER SPRINT }}                           |
+| Subject:    | {{ PROJECT NAME }} - Product Backlog Refinement |
+
 ::: email-content
 
 This meeting is to perform Product Backlog Refinement.
@@ -68,14 +68,14 @@ Product Backlog: {{ LINK TO PRODUCT BACKLOG }}
 
 1. Skip all PBIs that are already marked as "Ready"
 2. Refine and estimate the top PBIs that are not marked as "Ready" or in the "Not Ready" state
-    * You should aim to have enough ready PBIs to cover work for the next 2-3 Sprints
-    * Call in the Product Owner if any feature requires requirements clarification
+   * You should aim to have enough ready PBIs to cover work for the next 2-3 Sprints
+   * Call in the Product Owner if any feature requires requirements clarification
 3. Check if any PBIs need to be added
-    * Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint)
-    * Consider if [PBIs need to be broken down](/create-pbis-under-2-days)
-    * Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
+   * Consider any [Tech Debt](/technical-debt) identified in the [architecture review](/do-you-conduct-an-architecture-review-after-every-sprint)
+   * Consider if [PBIs need to be broken down](/create-pbis-under-2-days)
+   * Consider if a [Spike](/encourage-spikes-when-a-story-is-inestimable) is required
 4. Check if any PBIs need to be deleted
-    * Call in the Product Owner to double check
+   * Call in the Product Owner to double check
 
 :::
 :::

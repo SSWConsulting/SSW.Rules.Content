@@ -5,7 +5,7 @@ title: Do you integrate SCIM for Identity Management?
 uri: use-scim-for-identity-management
 authors:
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy/
+    url: https://ww.ssw.com.au/people/warwick-leahy/
 created: 2023-12-08T06:07:07.533Z
 guid: 214b9c9f-5a9e-4b47-9389-b02bdeb660c6
 ---

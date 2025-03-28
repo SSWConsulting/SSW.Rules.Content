@@ -8,7 +8,7 @@ uri: do-you-do-monthly-peer-evaluations
 created: 2010-03-22T00:31:05.0000000Z
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://ww.ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
 ---

@@ -5,9 +5,9 @@ seoDescription: The best decision making tree for enterprise businesses
 uri: how-to-make-decisions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://ww.ssw.com.au/people/luke-cook
 related:
   - document-discoveries
   - architectural-decision-records
@@ -16,6 +16,7 @@ created: 2025-03-13T18:58:03.000Z
 archivedreason: null
 guid: 599ccc65-7e3a-4097-a4c6-0fbd8c6efc33
 ---
+
 Entire industries have been created around helping businesses find the best way to make decisions, and oftentimes this leads to massive bottlenecks and bureaucratic overhead. There are certainly decisions that must be made with due care and consideration, but probably not as many as you think.
 
 <!--endintro-->
@@ -37,9 +38,9 @@ A common mistake businesses make is to treat every decision like life-or-death, 
 
 Your first step should always be to define the consequences of making the decision. Think about:
 
-* How much time or money will this decision cost?
-* How easy is it to pivot from, or revert, this decision?
-* What is the blast radius of this decision?
+- How much time or money will this decision cost?
+- How easy is it to pivot from, or revert, this decision?
+- What is the blast radius of this decision?
 
 ![Figure: Jeff Bezos decision tree](bezos-decision-tree.webp)
 
@@ -49,9 +50,9 @@ These decision types are where consequences are significant and/or difficult, ex
 
 In software development, some classic Type 1 decisions 🟥 may include:
 
-* Buy vs build strategies
-* Proprietary/closed-source vs standard/open source solutions
-* All things cybersecurity
+- Buy vs build strategies
+- Proprietary/closed-source vs standard/open source solutions
+- All things cybersecurity
 
 Jeff Bezos described himself as "Chief Slowdown Officer", where he defined his role as identifying Type 1 decisions 🟥, and ensuring his team deliberate, consult, and analyze the options extremely carefully before committing one way or another.
 
@@ -81,4 +82,4 @@ Investing time into these tools and strategies can take a lot of pressure off bi
 
 ### Save big conversations for big decisions
 
-There is time and place for agonizing over choices - the art is recognizing when it's okay to fail. That's not to say that you *will* fail, but rather acknowledging that the cost incurred by overanalyzing what brand of coffee is best, is greater than the cost of picking the wrong (and then subsequently the *right*) coffee to begin with.
+There is time and place for agonizing over choices - the art is recognizing when it's okay to fail. That's not to say that you _will_ fail, but rather acknowledging that the cost incurred by overanalyzing what brand of coffee is best, is greater than the cost of picking the wrong (and then subsequently the _right_) coffee to begin with.

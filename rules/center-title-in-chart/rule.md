@@ -6,16 +6,16 @@ title: Data Layout - Do you center the title in your chart?
 guid: 955d0518-14e9-4d84-8469-9b53b5c98841
 uri: center-title-in-chart
 created: 2024-10-11T18:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://ww.ssw.com.au/people/jeoffrey-fischer
 related:
-- when-to-use-reporting-services
+  - when-to-use-reporting-services
 redirects: []
-
 ---
 
 Title should be centered in chart.
+
 <!--endintro-->
 
 ::: bad  

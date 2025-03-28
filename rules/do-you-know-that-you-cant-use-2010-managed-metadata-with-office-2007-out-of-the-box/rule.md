@@ -8,9 +8,9 @@ uri: do-you-know-that-you-cant-use-2010-managed-metadata-with-office-2007-out-of
 created: 2010-12-23T07:51:54.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://ww.ssw.com.au/people/john-liu
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

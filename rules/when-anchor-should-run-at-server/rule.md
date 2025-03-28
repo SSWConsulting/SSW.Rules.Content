@@ -8,7 +8,7 @@ uri: when-anchor-should-run-at-server
 created: 2016-08-24T22:33:39.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-when-anchor-should-run-at-server

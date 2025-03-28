@@ -5,12 +5,12 @@ title: Do your List Views support multiple selection and copying?
 uri: do-your-list-views-support-multiple-selection-and-copying
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 created: 2014-03-14T06:52:00.000Z
 guid: 0ba5f20b-0fba-474f-a7cc-e9936a6f391b
 ---
 
-List Views such as in [SSW Diagnostics](https://ssw.com.au/ssw/Diagnostics/) can present a wealth of information to the user. But too often, users are unable to copy this information to paste into a support email because the list view doesn't support copying. Instead, the user has to frustratingly retype the information with the risk of introducing errors.
+List Views such as in [SSW Diagnostics](https://ww.ssw.com.au/ssw/Diagnostics/) can present a wealth of information to the user. But too often, users are unable to copy this information to paste into a support email because the list view doesn't support copying. Instead, the user has to frustratingly retype the information with the risk of introducing errors.
 
 <!--endintro-->
 

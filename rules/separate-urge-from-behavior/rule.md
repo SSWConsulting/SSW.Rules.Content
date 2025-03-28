@@ -8,10 +8,10 @@ uri: separate-urge-from-behavior
 created: 2024-08-08T18:48:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related: 
+    url: https://ww.ssw.com.au/people/brady-stroud
+related:
   - accepting-unsolicited-feedback
   - how-to-respond-to-criticism
 redirects: []
@@ -30,10 +30,10 @@ After this time, you can decide if you still want to proceed once your head is c
 
 This technique can help you:
 
-* Avoid saying things you don't mean
-* Make more logical decisions
-* Overcome bad habits
-* Manage your emotions
+- Avoid saying things you don't mean
+- Make more logical decisions
+- Overcome bad habits
+- Manage your emotions
 
 This concept applies at work and at home.
 
@@ -50,7 +50,7 @@ Hi John,
 The nav menu is on the wrong side of the page. It should be on the left, not the right.
 
 1. Please fix this
-:::
+   :::
 
 ### Option 1 - React immediately
 

@@ -8,9 +8,9 @@ uri: define-the-level-of-quality-up-front
 created: 2019-12-28T14:07:04.0000000Z
 authors:
   - title: Andrew Forsyth
-    url: https://ssw.com.au/people/andrew-forsyth
+    url: https://ww.ssw.com.au/people/andrew-forsyth
   - title: Raj Dhatt
-    url: https://ssw.com.au/people/raj-dhatt
+    url: https://ww.ssw.com.au/people/raj-dhatt
 related: []
 redirects:
   - pre-production-do-you-define-the-level-of-quality-up-front-gold-vs-silver

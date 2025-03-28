@@ -8,9 +8,9 @@ uri: do-you-name-your-assemblies-consistently-companyname-componentname
 created: 2009-04-28T02:16:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
   - title: Ryan Tee
-    url: https://ssw.com.au/people/ryan-tee
+    url: https://ww.ssw.com.au/people/ryan-tee
     noimage: true
 related: []
 redirects:

@@ -8,7 +8,7 @@ uri: do-you-provide-red-errors-next-to-the-field
 created: 2014-12-22T11:47:19.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://ww.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
