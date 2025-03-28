@@ -56,7 +56,7 @@ SSW CodeAuditor is a cheap, convenient tool for hunting down broken links, and y
 * Broken links are categorized by page making them easy to fix
 * Each broken link listing includes a status code to tell you what went wrong
 * Broken Links in the dashboard are displayed with their corresponding anchor text to give you some context about the page
-* It can be implemented with you website's Continuous Integration pipeline to automate link auditing
+* It can be implemented with you website's Continuous Integration pipeline using GitHub Actions
 
 ::: good
 ![Figure: Using SSW Code Auditor's broken link dashboard](broken-link-summary.png)
