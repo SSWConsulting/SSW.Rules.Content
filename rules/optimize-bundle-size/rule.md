@@ -1,7 +1,9 @@
 ---
-seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic imports, and minimized dependencies for better performance and faster load times.
 type: rule
-title: Do you optimize the bundle size of your website??
+title: Do you optimize the bundle size of your website?
+seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic
+  imports, and minimized dependencies for better performance and faster load
+  times.
 uri: optimize-bundle-size
 authors:
   - title: Aman Kumar
@@ -15,7 +17,6 @@ related:
 created: 2025-03-19T16:33:10.337Z
 guid: bb223f3f-172f-4266-86fd-c13cf66e7d7e
 ---
-
 Optimizing bundle size improves website performance, reduces load times, and enhances user experience. Large bundles slow rendering, increase memory usage, and hurt SEO. By minimizing dependencies, using tree shaking, code splitting, and dynamic imports, developers ensure only necessary code loads. This leads to faster interactions, lower bandwidth use, and better mobile performance, making optimization essential for a smooth web experience.
 
 <!--endintro-->
@@ -24,8 +25,8 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
 
-::: bad  
-![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)  
+::: bad\
+![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)\
 :::
 
 ## Find out the **First Load JS** Sizes for Routes
@@ -41,10 +42,9 @@ Route (app)                     Size        First Load JS
 ├ ├ /anti-slavery-policy
 ├ ├ /booknow
 ├ └ [+10 more paths]
-
 ```
 
-::: bad  
+::: bad\
 Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes
 :::
 
@@ -64,12 +64,14 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 * **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
 * **Setup:**
 
+  \
   Install the analyzer:
 
   ```bash
   npm install @next/bundle-analyzer
   ```
 
+  \
   Add this configuration to your `next.config.js`:
 
   ```js
@@ -82,12 +84,12 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
   });
   ```
 
+  \
   Then run the analyzer with:
 
   ```bash
   ANALYZE=true next build
   ```
-
 * **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
 ### 3. **Source Map Explorer**
@@ -106,8 +108,8 @@ import * as utils from "./utils";
 const result = utils.expensiveFunction();
 ```
 
-::: bad  
-Code: Bad example - Importing entire module  
+::: bad\
+Code: Bad example - Importing entire module\
 :::
 
 ```js
@@ -117,8 +119,8 @@ import { expensiveFunction } from "./utils";
 const result = expensiveFunction();
 ```
 
-::: good  
-Code: Good example - Importing only the required function  
+::: good\
+Code: Good example - Importing only the required function\
 :::
 
 ## Optimize Bundle Size with Dynamic Imports and Suspense
@@ -171,14 +173,14 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-::: good  
-Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.  
+::: good\
+Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.\
 :::
 
 ## Lighthouse Treemap
 
-::: good  
-![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)  
+::: good\
+![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)\
 :::
 
 ## Monitor bundle size using Lighthouse on PR links
@@ -189,16 +191,16 @@ The following table shows Lighthouse reports for various PR links, including **P
 
 ### Example PR Check Results
 
-| 🌐 URL                                                                                           | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
-| ------------------------------------------------------------------------------------------------ | -------------- | ---------------- | ----------------- | ------ | -------------- | ---------------- |
-| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/)                                | 82             | 91               | 74                | 69     | 4.59 MB        | 2.11 MB          |
-| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles)                               | 82             | 96               | 74                | 57     | 4.39 MB        | 2.54 MB          |
-| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us)                       | 83             | 100              | 74                | 69     | 4.30 MB        | 1.97 MB          |
-| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients)                         | 64             | 94               | 74                | 69     | 4.68 MB        | 2.51 MB          |
-| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us)                   | 65             | 90               | 74                | 61     | 4.61 MB        | 2.74 MB          |
-| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting)                           | 78             | 90               | 70                | 69     | 4.59 MB        | 2.70 MB          |
-| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade)           | 62             | 90               | 56                | 54     | 4.59 MB        | 2.70 MB          |
-| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75             | 98               | 74                | 61     | 4.57 MB        | 2.65 MB          |
+| 🌐 URL                                                                                          | ⚡ Performance | ♿ Accessibility | ✅ Best Practices | 🔍 SEO | 📦 Bundle Size | 🗑️ Unused Bundle |
+| ----------------------------------------------------------------------------------------------- | ------------- | --------------- | ---------------- | ------ | -------------- | ----------------- |
+| ⭐ [PR Main Page](https://app-sswwebsite-9eb3.azurewebsites.net/)                                | 82            | 91              | 74               | 69     | 4.59 MB        | 2.11 MB           |
+| [Articles](https://app-sswwebsite-9eb3.azurewebsites.net/articles)                              | 82            | 96              | 74               | 57     | 4.39 MB        | 2.54 MB           |
+| [About Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/about-us)                      | 83            | 100             | 74               | 69     | 4.30 MB        | 1.97 MB           |
+| [Clients](https://app-sswwebsite-9eb3.azurewebsites.net/company/clients)                        | 64            | 94              | 74               | 69     | 4.68 MB        | 2.51 MB           |
+| [Contact Us](https://app-sswwebsite-9eb3.azurewebsites.net/company/contact-us)                  | 65            | 90              | 74               | 61     | 4.61 MB        | 2.74 MB           |
+| [Consulting](https://app-sswwebsite-9eb3.azurewebsites.net/consulting)                          | 78            | 90              | 70               | 69     | 4.59 MB        | 2.70 MB           |
+| ⭐ [Net Upgrade](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/net-upgrade)           | 62            | 90              | 56               | 54     | 4.59 MB        | 2.70 MB           |
+| ⭐ [Web Applications](https://app-sswwebsite-9eb3.azurewebsites.net/consulting/web-applications) | 75            | 98              | 74               | 61     | 4.57 MB        | 2.65 MB           |
 
 ### ✅ Benefits of PR Lighthouse Checks
 
