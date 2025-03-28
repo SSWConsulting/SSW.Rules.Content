@@ -25,8 +25,8 @@ Optimizing bundle size improves website performance, reduces load times, and enh
 
 It's important to analyze the unused JavaScript in the final bundles. **Lighthouse Treemap** is a powerful tool to visually inspect your bundles and identify unused or unnecessary code that might be bloating your project. By checking the **Lighthouse Treemap**, you can identify potential issues with your code.
 
-::: bad\
-![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)\
+::: bad
+![Figure: Bad example - 4.9 megabytes of unused bytes can contribute to slower loading times](unoptimized-bundle-size.png)
 :::
 
 ## Find out the **First Load JS** Sizes for Routes
@@ -44,7 +44,7 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-::: bad\
+::: bad
 Bash: Bad example - The initial JavaScript load size is quite huge and it is in the megabytes
 :::
 
@@ -61,18 +61,16 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 ### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Projects)
 
-* **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
-* **Setup:**
+**Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
 
-  \
-  Install the analyzer:
+**Setup:**
+
+* Install the analyzer:
 
   ```bash
   npm install @next/bundle-analyzer
   ```
-
-  \
-  Add this configuration to your `next.config.js`:
+* Add this configuration to your `next.config.js`:
 
   ```js
   const withBundleAnalyzer = require('@next/bundle-analyzer')({
@@ -84,13 +82,13 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
   });
   ```
 
-  \
-  Then run the analyzer with:
+* Then run the analyzer with:
 
   ```bash
   ANALYZE=true next build
   ```
-* **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+
+**Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
 ### 3. **Source Map Explorer**
 
@@ -108,8 +106,8 @@ import * as utils from "./utils";
 const result = utils.expensiveFunction();
 ```
 
-::: bad\
-Code: Bad example - Importing entire module\
+::: bad
+Code: Bad example - Importing entire module
 :::
 
 ```js
@@ -119,8 +117,8 @@ import { expensiveFunction } from "./utils";
 const result = expensiveFunction();
 ```
 
-::: good\
-Code: Good example - Importing only the required function\
+::: good
+Code: Good example - Importing only the required function
 :::
 
 ## Optimize Bundle Size with Dynamic Imports and Suspense
@@ -173,14 +171,14 @@ Route (app)                     Size        First Load JS
 ├ └ [+10 more paths]
 ```
 
-::: good\
-Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.\
+::: good
+Bash: Good example - The First Load JavaScript size is reduced to kilobytes from megabytes.
 :::
 
 ## Lighthouse Treemap
 
-::: good\
-![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)\
+::: good
+![Figure: Good example - After optimization it is down to 2.5 unused megabytes](optimized-bundle-size.png)
 :::
 
 ## Monitor bundle size using Lighthouse on PR links
