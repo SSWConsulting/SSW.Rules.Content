@@ -16,6 +16,6 @@ redirects:
 
 Most patches are for security. SQL Slammer showed that it's no good waiting a month before you decide to install a service pack. I would say wait one week and then install the service pack (maximum delay should be 2 weeks)
 
-- Manually check your server using  **@@version**
+* Manually check your server using  **@@version**
 
 <!--endintro-->

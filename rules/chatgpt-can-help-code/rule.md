@@ -20,14 +20,14 @@ ChatGPT is an extremely useful tool for software developers as it has been train
 
 ChatGPT can be used for:
 
-- Detecting bugs in your code
-- Solving compile time or runtime errors
-- Generating code based on a text description
-- Explaining how a piece of code works
-- Translating code to a different language (e.g. Python code to C#)
-- Minimising generation of boilerplate (e.g. JSON to C# classes)
-- Helping automate the code refactoring process
-- Helping perform code reviews
+* Detecting bugs in your code
+* Solving compile time or runtime errors
+* Generating code based on a text description
+* Explaining how a piece of code works
+* Translating code to a different language (e.g. Python code to C#)
+* Minimising generation of boilerplate (e.g. JSON to C# classes)
+* Helping automate the code refactoring process
+* Helping perform code reviews
 
 ::: info
 **Warning:** Ensure you double check code integrity before deploying to production!

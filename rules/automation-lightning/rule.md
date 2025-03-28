@@ -21,7 +21,7 @@ DMX lighting control has been implemented at the [SSW Newcastle office](https://
 
 In summary:
 
-- Get the right DMX lights and hardware
-- Configure them in the DMX Config
-- Set the addresses
-- Use the Gira mobile app to control the lights
+* Get the right DMX lights and hardware
+* Configure them in the DMX Config
+* Set the addresses
+* Use the Gira mobile app to control the lights

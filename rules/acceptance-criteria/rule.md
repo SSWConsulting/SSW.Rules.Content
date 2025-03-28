@@ -33,8 +33,8 @@ Acceptance Criteria are useful to every person who deals with a PBI. Developers 
 
 Product Owners should make an effort to specify all of their requirements for a PBI in the Acceptance Criteria. For example, Product Owners should not assume things like:
 
-- They will get a message that says ‘no records found’ or
-- The grid will support features such as pagination or sorting
+* They will get a message that says ‘no records found’ or
+* The grid will support features such as pagination or sorting
 
 They must be specified in the Acceptance Criteria if required for the PBI to be considered complete.
 
@@ -49,8 +49,8 @@ Figure: Bad example of Acceptance Criteria - Incomplete
 
 ::: greybox
 
-- When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
-- When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
+* When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
 
 :::
 ::: ok
@@ -59,12 +59,12 @@ Figure: OK example of Acceptance Criteria - However the Product Owner probably h
 
 ::: greybox
 
-- When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
-- When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
-- If no results are returned, show a message box ‘No results found’
-- If no search text is entered, the ‘Search’ button should be disabled
-- Right-clicking on a column header should provide ‘Sort’ functionality
-- If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
+* When I enter ‘Adam’ in the Search box and click ‘Search’ I will see all entries starting with Adam in the Grid
+* When I enter ‘zzz’ in the Search box and click ‘Search’ I will see **no** entries in the Grid
+* If no results are returned, show a message box ‘No results found’
+* If no search text is entered, the ‘Search’ button should be disabled
+* Right-clicking on a column header should provide ‘Sort’ functionality
+* If a large set of results is returned, display pagination with page numbers and ‘Prev’, ‘Next’ links
 
 :::
 ::: good
@@ -88,11 +88,11 @@ Any requirements that the Product Owner considers "nice to have" - as opposed to
 
 Sometimes, the team may discuss including technical requirements in Acceptance Criteria. Typically, technical Acceptance Criteria should be avoided. However, there are some situations where it makes sense, such as when:
 
-- The team is trying out something new
-- The team has been misaligned in the past, and the future direction needs to be clear
-- The approach to take is complex or confusing
-- An abnormal approach is being taken to avoid a specific issue (e.g. reducing readability to improve performance for a particularly critical query)
-- When the PBI is an Enabler (backlog items that extend the architectural runway of the solution under development or improve the performance of the development value stream)
+* The team is trying out something new
+* The team has been misaligned in the past, and the future direction needs to be clear
+* The approach to take is complex or confusing
+* An abnormal approach is being taken to avoid a specific issue (e.g. reducing readability to improve performance for a particularly critical query)
+* When the PBI is an Enabler (backlog items that extend the architectural runway of the solution under development or improve the performance of the development value stream)
 
 If technical requirements are added, it should be a discussion between all of the developers in the team. If the Product Owner is technical, they are welcome to join the conversation, but they should not be the primary decision maker in this case.
 
@@ -116,9 +116,9 @@ The [Definition of Done](/definition-of-done) is a structured list of items, eac
 
 Examples of items in a Definition of Done that would **not** be part of Acceptance Criteria include:
 
-- Code review completed
-- Unit tests passed
-- Code deployed to production
+* Code review completed
+* Unit tests passed
+* Code deployed to production
 
 ::: info
 The term "Definition of Done" is defined in the Scrum Guide, while "Acceptance Criteria" is not.

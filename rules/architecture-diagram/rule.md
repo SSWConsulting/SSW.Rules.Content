@@ -28,11 +28,11 @@ An architecture diagram is useful when:
 
 <!--endintro-->
 
-- In the initial discussion with a client (see Brendan Richards' quote below)
-- You are onboarding a new developer
-- You have been deep into one aspect of the system and need a refresher on another area
-- You have been off the project for a while
-- Whenever you are discussing requirements that may require structural changes
+* In the initial discussion with a client (see Brendan Richards' quote below)
+* You are onboarding a new developer
+* You have been deep into one aspect of the system and need a refresher on another area
+* You have been off the project for a while
+* Whenever you are discussing requirements that may require structural changes
 
 The architecture diagram is a technical diagram that demonstrates the technology in use. The purpose of the architecture diagram is to show how a solution has been built and what the technical dependencies are. It is not used for user journeys or business logic.
 
@@ -48,7 +48,7 @@ Depending on the complexity of your solution and your comfort/familiarity with t
 
 > Usually, the longer an architecture diagram takes you to make, the more important it is for your project.
 >
-> - Matt Goldman, Software Architect
+> * Matt Goldman, Software Architect
 
 An architecture diagram is part of the 7 crucial documents you need for your project, see our rule: [Do you make awesome documentation?](/do-you-review-the-documentation)
 
@@ -56,9 +56,9 @@ An architecture diagram is part of the 7 crucial documents you need for your pro
 
 At a minimum, your architecture diagram should include:
 
-- Your data repository
-- Your business logic component
-- Your UI
+* Your data repository
+* Your business logic component
+* Your UI
 
 Your diagram needs to include the relationships between these components, and how they share and process data.
 
@@ -110,7 +110,7 @@ Putting something on a whiteboard is "low risk" for the participants as its real
 
 > A key milestone in the early engagement is the first time a client takes the pen and starts using the whiteboard to explain something to me. Early use of the whiteboard is all about immediate communication. Later, the solution design starts to solidify and we can then use the last state of the whiteboard to make out first architecture diagram.
 >
-> - Brendan Richards, SSW Solution Architect
+> * Brendan Richards, SSW Solution Architect
 
 ::: ok img-medium
 ![Figure: SSW Rewards - start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram](rewards-hand-drawn-sketch.jpg)
@@ -150,13 +150,13 @@ There are multiple extensions available that let you do this, the best one is [V
 
 Maintain standards to keep your diagrams consistent:
 
-- Title - Naming Convention. E.g. Architecture Diagram - {{product name}}
-- Title - Standard font size. E.g. 43pts
-- Standard font. E.g. Helvetica bold
-- Standard arrowhead sizes. E.g. 14pts
-- Doc details - at the bottom left, add file location. E.g. DevOps | Wiki or GitHub | Repo | Docs, in font size 22pts
-- Doc details - at the bottom right, add branding and URL E.g. {{logo image}} - url.com, in font size 22pts
-- Add color and icons to make your diagrams engaging and easier to distinguish
+* Title - Naming Convention. E.g. Architecture Diagram - {{product name}}
+* Title - Standard font size. E.g. 43pts
+* Standard font. E.g. Helvetica bold
+* Standard arrowhead sizes. E.g. 14pts
+* Doc details - at the bottom left, add file location. E.g. DevOps | Wiki or GitHub | Repo | Docs, in font size 22pts
+* Doc details - at the bottom right, add branding and URL E.g. {{logo image}} - url.com, in font size 22pts
+* Add color and icons to make your diagrams engaging and easier to distinguish
 
 ::: good img-medium
 ![Figure: Good example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders](SSW.People-Architecture-Diagram.png)

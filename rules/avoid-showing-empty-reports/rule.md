@@ -34,9 +34,9 @@ The following report shows nothing, because the parameters are using meaningless
 
 In SQL Reporting Services, parameters can be:
 
-- hard coded
-- an expression, or
-- from a query
+* hard coded
+* an expression, or
+* from a query
 
 Hard coded values should never be used. Expressions may be good for some instances, but because it's not linked with your data, it may not be good enough.
 

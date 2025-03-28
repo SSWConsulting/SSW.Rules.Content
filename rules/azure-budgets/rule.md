@@ -112,15 +112,15 @@ For everyone to be on the same page, the process a developer should follow is:
 I would like you to provision a new Azure Resource for {{ PRODUCT/SERVICE }}.
 This is for {{ BUSINESS REASONS FOR RESOURCE }}
 
-- Azure Resource needed: I would like to create a new App Service Plan
-- Azure Calculator link: {{ LINK }}
-- Environment: {{ DEV/STAGING/PROD }}
+* Azure Resource needed: I would like to create a new App Service Plan
+* Azure Calculator link: {{ LINK }}
+* Environment: {{ DEV/STAGING/PROD }}
 
 Project details:
 
-- Project Name: A new project called {{ PROJECT NAME }}
-- Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
-- Project URL (e.g. Azure DevOps / Github): {{ URL }}
+* Project Name: A new project called {{ PROJECT NAME }}
+* Project Description (The SysAdmin will copy this info to the Azure Tag): {{ DESCRIPTION }}
+* Project URL (e.g. Azure DevOps / Github): {{ URL }}
 
 Total:
 

@@ -27,11 +27,12 @@ When your attachment is too big, you should think twice.
 
 Avoid large attachments. If you are sending an email with attachments or images that are **greater than 1MB** you need to consider:
 
-- Files - Could a URL be better than this attachment?
-  - Could I send this as a UNC to an internal share?
-- Images - Could I put this picture on Google Photos or another image server?
+* Files - Could a URL be better than this attachment?
+  * Could I send this as a UNC to an internal share?
+* Images - Could I put this picture on Google Photos or another image server?
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -53,6 +54,7 @@ Figure: Bad example - Sending a large attachment
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |

@@ -20,8 +20,8 @@ This includes:
 
 <!--endintro-->
 
-- Check for and improve the slowest pages
-- Check for and improve the compression of unnecessarily large images
-- Check for and improve inefficient Ajax JavaScript code
-- Check for and improve the slowest database queries
-- Check for and improve page responsiveness
+* Check for and improve the slowest pages
+* Check for and improve the compression of unnecessarily large images
+* Check for and improve inefficient Ajax JavaScript code
+* Check for and improve the slowest database queries
+* Check for and improve page responsiveness

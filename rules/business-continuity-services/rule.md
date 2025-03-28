@@ -31,9 +31,9 @@ Let's imagine a scenario with the company Northwind, this is part of their infra
 1. Power Redundancy - Two (or more) UPS on different electrical circuits powering the same servers
 2. Backup Redundancy - Two (or more) backup servers on multiple physical locations:
 
-   - **on-premises** - e.g. a Data Protection Manager (DPM) server on Northwind HQ
-   - **off-premises** - e.g. a DPM server in Northwind Brisbane branch
-   - **cloud** - e.g. in Azure using Azure Site recovery and Azure Backups
+   * **on-premises** - e.g. a Data Protection Manager (DPM) server on Northwind HQ
+   * **off-premises** - e.g. a DPM server in Northwind Brisbane branch
+   * **cloud** - e.g. in Azure using Azure Site recovery and Azure Backups
 
 3. Hyper-V Redundancy - Two (or more) physical server blades as Hyper-V hosts
 4. Storage Redundancy - Two (or more) hard drives for the same data to be stored on

@@ -22,11 +22,11 @@ Consistent naming conventions in source control systems help improve collaborati
 
 Always remember to:
 
-- **Include a PBI number** - This makes it easy to track the purpose of the branch, reduces confusion, and provides context
-- **Use lowercase kebab style naming** - Keeps the name easy to read and compatible with a wide range of systems
-- **Be descriptive** - Clearly indicate the purpose or content of the branch
-- **Keep it short** - Use concise yet meaningful names
-- **Extra: Use categories for improved organization** - If your repository has many branches or you want to keep them organized, adding a prefix such as "feature", "bugfix", or "hotfix" is beneficial
+* **Include a PBI number** - This makes it easy to track the purpose of the branch, reduces confusion, and provides context
+* **Use lowercase kebab style naming** - Keeps the name easy to read and compatible with a wide range of systems
+* **Be descriptive** - Clearly indicate the purpose or content of the branch
+* **Keep it short** - Use concise yet meaningful names
+* **Extra: Use categories for improved organization** - If your repository has many branches or you want to keep them organized, adding a prefix such as "feature", "bugfix", or "hotfix" is beneficial
 
 ::: info
 **Note:** Release branches should always include a prefix (e.g., release/) to distinguish them from other branch types and keep them organized.
@@ -36,11 +36,11 @@ Always remember to:
 
 ::: greybox
 
-- SomeUser-patch-3
-- fix-styling-issue
-- redirects
-- update-package-version
-- fix-stuff
+* SomeUser-patch-3
+* fix-styling-issue
+* redirects
+* update-package-version
+* fix-stuff
   :::
   ::: bad
   Figure: Bad example - Poorly named branches missing PBI numbers
@@ -48,9 +48,9 @@ Always remember to:
 
 ::: greybox
 
-- 1463-collection-categories
-- 1506-fix-storage-variable-yaml
-- 1299-update-third-party-dependencies
+* 1463-collection-categories
+* 1506-fix-storage-variable-yaml
+* 1299-update-third-party-dependencies
   :::
   ::: ok
   Figure: OK example - Branches with PBI numbers and meaningful names
@@ -58,10 +58,10 @@ Always remember to:
 
 ::: greybox
 
-- feature/3421-add-search-functionality
-- bugfix/4578-fix-date-formatting-issue
-- hotfix/9845-patch-payment-api-timeout
-- release/2.3.1
+* feature/3421-add-search-functionality
+* bugfix/4578-fix-date-formatting-issue
+* hotfix/9845-patch-payment-api-timeout
+* release/2.3.1
   :::
   ::: good
   Figure: Good example - Branches with category prefixes

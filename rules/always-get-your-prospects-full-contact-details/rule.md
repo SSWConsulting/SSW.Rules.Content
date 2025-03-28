@@ -24,9 +24,9 @@ Here are some of the important details that need to be recorded:
 
 <!--endintro-->
 
-- Full name
-- Company
-- Position
-- Phone number (work and mobile)
-- Email address
-- Company address
+* Full name
+* Company
+* Position
+* Phone number (work and mobile)
+* Email address
+* Company address

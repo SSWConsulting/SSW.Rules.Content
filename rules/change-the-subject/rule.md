@@ -31,7 +31,7 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
 ## When do you change the subject?
 
-- If the original **subject was too generic**, like "Reminder" or "Invoice".
+* If the original **subject was too generic**, like "Reminder" or "Invoice".
 
   This is especially common on automatically generated emails, change the subject by adding the client or project name to the email subject.
 
@@ -46,7 +46,7 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
   Figure: Good example - We still retain the origninal subject but now we know it's been changed.
   :::
 
-- When the original **email topic has been superseded** by new replies
+* When the original **email topic has been superseded** by new replies
 
   At that point change the email subject to a more relevant description of the content of the thread.
 

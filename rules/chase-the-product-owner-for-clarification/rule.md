@@ -37,6 +37,7 @@ Figure: The worst example - not reaching out to your Product Owner or manager at
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Jason |
@@ -57,6 +58,7 @@ Figure: Bad example - you shouldn't have to ask that!
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Jason |

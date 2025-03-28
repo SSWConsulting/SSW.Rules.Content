@@ -27,8 +27,8 @@ Within a company, there are occasions that you are not able to access your compu
 
 Always make sure that:
 
-- Admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you.
-- The whole organization can see your full calendar details.
+* Admin people are able to access your calendar with full permission in order to add/edit/delete appointments for you.
+* The whole organization can see your full calendar details.
 
 ### Do this to allow Admins to edit your calendar permissions
 
@@ -47,10 +47,10 @@ Now do this to allow the whole organization to see your full calendar details:
 
 If you cannot see "My Organization" from Outlook Desktop version, use the web version:
 
-- Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
-- Click “Shared calendars” | in “Share a Calendar”, select the calendar\
+* Open [Outlook Web](https://outlook.office.com/) | Click Calendar | Click “View” | Click “Calendar settings”
+* Click “Shared calendars” | in “Share a Calendar”, select the calendar\
   ![Figure: Select the calendar to change permissions](selectcalendarweb.jpg)
-- In "People in my organization" | Select "Can view all details"\
+* In "People in my organization" | Select "Can view all details"\
   ![Figure: Give the whole organization access to your calendar in Outlook with "Can view all details"](changepermissionsweb.jpg)
 
 ### Opening other people's calendar

@@ -25,9 +25,9 @@ It is the responsibility of Account Managers to book developers for known client
 
 Before booking developers, make sure you talk to them and check that they are cool with:
 
-- The Time - how long is the project?
-- The Tech - what skills are required?
-- The Team - who will they be working with?
+* The Time - how long is the project?
+* The Tech - what skills are required?
+* The Team - who will they be working with?
 
 :::
 

@@ -23,12 +23,12 @@ redirects: []
 
 We think the following are best tracked on a development SharePoint server:
 
-- Master page
-- Page Layouts
-- XSL
-- CSS
+* Master page
+* Page Layouts
+* XSL
+* CSS
 
 And these should not (or cannot) be version controlled on SharePoint server:
 
-- Low level customizations such as custom web parts should still be developed in VS.NET and stored in TFS
-- Package files to build solution packages should be stored in TFS
+* Low level customizations such as custom web parts should still be developed in VS.NET and stored in TFS
+* Package files to build solution packages should be stored in TFS

@@ -41,8 +41,8 @@ Asking for help should follow 4 phases:
 
 As everyone's struggles are different and everyone's way of handling pressure differs, it's hard to provide a useful metric for when to ask for help. However, here are some useful guidelines:
 
-- Don't spend more than 1 hour blocked on a PBI before asking your team
-- Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
+* Don't spend more than 1 hour blocked on a PBI before asking your team
+* Don't spend more than 1/2 the allocated time of a PBI blocked before asking for outside help
 
 If you've spent more time than that blocked and haven't spoken to anyone **That is a problem!**
 
@@ -54,15 +54,15 @@ Before asking for help, ensure you've done your due diligence and exhausted your
 
 Here are some things developers should do before asking for help:
 
-- Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
-- Check [Stack Overflow](https://stackoverflow.com/)
-- Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
-- Explore the code
-  - Look at pages that do similar things
-  - Put breakpoints and check the values to see if you can figure out little bits
-  - Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
-- Try to resolve it yourself a few times
-- Explain the problem to yourself
+* Try [Googling it](/investigate-your-question-for-two-minutes-before-asking-someone-on-im)
+* Check [Stack Overflow](https://stackoverflow.com/)
+* Read the documentation e.g. [Microsoft Docs](https://docs.microsoft.com/en-au/)
+* Explore the code
+  * Look at pages that do similar things
+  * Put breakpoints and check the values to see if you can figure out little bits
+  * Debug systematically by checking a tiny part, confirming your understanding, then moving to the next part
+* Try to resolve it yourself a few times
+* Explain the problem to yourself
 
 ## 3 - Figure out who to ask
 
@@ -99,5 +99,5 @@ That way, the senior doesn't need to interrogate you to figure out what you have
 
 ## Other tips
 
-- A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue
-- Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock
+* A [Done Video](/record-a-quick-and-dirty-done-video) can help you organize your thoughts and prepare to explain the issue
+* Bring your issue up in your [Daily Scrum](/methodology-daily-scrums) as a roadblock

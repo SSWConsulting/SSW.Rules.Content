@@ -116,10 +116,10 @@ Figure: Good example - Video caption following the standard "Video: {{ VIDEO TIT
 
 This helps:
 
-- Giving a brief text summary of the video
-- Getting some extra Google Juice
-- Letting users know what to expect in terms of time required to watch
-- Serving as a reminder in case that video ever gets removed by its owner
+* Giving a brief text summary of the video
+* Getting some extra Google Juice
+* Letting users know what to expect in terms of time required to watch
+* Serving as a reminder in case that video ever gets removed by its owner
 
 ::: info
 **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.

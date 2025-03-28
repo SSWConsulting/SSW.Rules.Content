@@ -20,9 +20,9 @@ Using DOM is fine, but manipulating DOM directly in your component is not. With 
 
 <!--endintro-->
 
-- Smaller component code making it easier to maintain
-- Faster running and easier to write unit tests
-- Easier for designers to get involved
+* Smaller component code making it easier to maintain
+* Faster running and easier to write unit tests
+* Easier for designers to get involved
 
 This means that the component's state must expose things that are useful to the template as public properties or fields, and the Angular should read these fields to draw itself.
 

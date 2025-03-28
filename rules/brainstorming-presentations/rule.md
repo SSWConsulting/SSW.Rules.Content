@@ -37,10 +37,10 @@ In order to get through all the presentations in 1 day, allocate a strict schedu
 
 E.g.:
 
-- Presentation Delivery: **7 Minutes**
-- Audience Q&A: **3 Minutes**
-- Adam’s Feedback: **3 Minutes**
-- Changeover: The next group must be ready to start immediately!
+* Presentation Delivery: **7 Minutes**
+* Audience Q&A: **3 Minutes**
+* Adam’s Feedback: **3 Minutes**
+* Changeover: The next group must be ready to start immediately!
 
 If the team has a demo to share, get them to pre-record it and embed it into the PowerPoint. This will save time and ensure the demo goes smoothly.
 

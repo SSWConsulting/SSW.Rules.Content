@@ -32,9 +32,9 @@ Resource Groups should be logical containers for your products. They should be a
 
 Name your Resource Groups as **Product.Environment**. For example:
 
-- Northwind.Dev
-- Northwind.Staging
-- Northwind.Production
+* Northwind.Dev
+* Northwind.Staging
+* Northwind.Production
 
 There are no cost benefits in consolidating Resource Groups, so use them! Have a Resource Group per product, per environment. And most importantly, **be consistent in your naming convention**.
 

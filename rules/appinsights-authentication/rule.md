@@ -162,8 +162,8 @@ We accomplish this by using one of the following [credential types](https://gith
 
 1. `DefaultAzureCredential` for local development
 2. `ManagedIdentityCredential` for apps running in Azure with system-assigned or user-assigned managed identities
-   - For system-assigned, use the default constructor without parameters.
-   - For user-assigned, provide the `client ID` to the constructor.
+   * For system-assigned, use the default constructor without parameters.
+   * For user-assigned, provide the `client ID` to the constructor.
 
 Once the credential has been created, pass it to the Application Insights `TelemetryConfiguration`:
 

@@ -28,6 +28,7 @@ Ensure this is sent out to all staff months before the event to encourage ideas.
 <!--endintro-->
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | {{ ALL STAFF }} |
@@ -50,19 +51,19 @@ See video on: [https://ww.ssw.com.au/rules/use-the-brains-of-your-company](/use-
 
 **Agenda** (copied from [https://ww.ssw.com.au/rules/brainstorming-agenda](/brainstorming-agenda))
 
-- **8:00 am** - 🤝 Meet at the Brainstorming venue - we will have breakfast ready and order coffee
-- **8:05 am** – 🙋 Introduction - a run-through of the day and a summary of the retro
-- **9:00 am** - 🧑‍💻 Start working on your project
-- **12:30 pm** - ✨ Finish polishing presentation - have done a run-through, have decided who presents
-- **1:00 pm** – 🍴 Lunch
-- **2:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on-site with a client)
-- **3:30 pm** - 🎤 Start presentations (Tip: Start presentations earlier/later depending on how many people are attending). You should have someone doing the timekeeping and ring a bell to help keep them on track. For example:
+* **8:00 am** - 🤝 Meet at the Brainstorming venue - we will have breakfast ready and order coffee
+* **8:05 am** – 🙋 Introduction - a run-through of the day and a summary of the retro
+* **9:00 am** - 🧑‍💻 Start working on your project
+* **12:30 pm** - ✨ Finish polishing presentation - have done a run-through, have decided who presents
+* **1:00 pm** – 🍴 Lunch
+* **2:00 pm** - 🧪 Do Test Please then a [tech check](/tech-check) with the TV team (The recording is more important than the live audience, working with mics is also great practice for when you are on-site with a client)
+* **3:30 pm** - 🎤 Start presentations (Tip: Start presentations earlier/later depending on how many people are attending). You should have someone doing the timekeeping and ring a bell to help keep them on track. For example:
 
-  - 7 mins - one soft bell 🛎️
-  - 8 mins - two soft bell 🛎️🛎️
-  - 9 mins - 3 soft bells 🛎️🛎️🛎️
-  - 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
+  * 7 mins - one soft bell 🛎️
+  * 8 mins - two soft bell 🛎️🛎️
+  * 9 mins - 3 soft bells 🛎️🛎️🛎️
+  * 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
 
-- **6:00 pm** – 🍻 The pub!
+* **6:00 pm** – 🍻 The pub!
   :::
   :::

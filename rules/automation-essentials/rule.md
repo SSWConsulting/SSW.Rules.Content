@@ -30,46 +30,46 @@ Whether it's your home or office, security should always be your highest priorit
 
 ### A true story
 
-- Bob and Tim are working late.
-- Bob is getting ready to leave, so does the "office sweep" and checks that the back doors are locked - all good!
-- Tim packs up, sees that Bob is still around, and thinks "Bob's still here - he'll lock up" and unlocks the back door to leave.
-- Bob, having already done the office sweep, packs up his things and leaves through the front door, locking it as he goes.
-- Everyone comes in the next day, and all the laptops have been stolen!
+* Bob and Tim are working late.
+* Bob is getting ready to leave, so does the "office sweep" and checks that the back doors are locked - all good!
+* Tim packs up, sees that Bob is still around, and thinks "Bob's still here - he'll lock up" and unlocks the back door to leave.
+* Bob, having already done the office sweep, packs up his things and leaves through the front door, locking it as he goes.
+* Everyone comes in the next day, and all the laptops have been stolen!
 
 ### Fewer steps means fewer mistakes
 
 Imagine this common scenario: Bob Northwind has worked late, and is getting ready to leave the office for the evening. He...
 
-- Switches all the lights off
-- Closes all the blinds
-- Locks the side and back doors
-- Arms the security system
-- Locks the front door and walks out
+* Switches all the lights off
+* Closes all the blinds
+* Locks the side and back doors
+* Arms the security system
+* Locks the front door and walks out
 
 Bob then realises he left tonight's dinner in the fridge - oh no! Back into the office he goes...
 
-- Unlock the front door
-- Disarm the security system
-- Switch the lights on
-- Get dinner from the fridge
-- Switch the lights off
-- Arm the security system
-- Walks out the front door
+* Unlock the front door
+* Disarm the security system
+* Switch the lights on
+* Get dinner from the fridge
+* Switch the lights off
+* Arm the security system
+* Walks out the front door
 
 A small disruption to his standard routine, and Bob accidentally forgets to lock the front door. This kind of thing happens _all the time_.
 
 Now let's look at how this would work with an automated office.
 
-- Bob walks to the front door
-- He opens his automation app, and taps the "lock office" button
-- Walks out the front door
+* Bob walks to the front door
+* He opens his automation app, and taps the "lock office" button
+* Walks out the front door
 
 Bob then realises he left tonight's dinner in the fridge - oh no! Back into the office he goes...
 
-- Bob scans his fingerprint on the door security system
-- Gets dinner from the fridge
-- Opens the automation app, and taps the "lock office" button
-- Walks out the front door
+* Bob scans his fingerprint on the door security system
+* Gets dinner from the fridge
+* Opens the automation app, and taps the "lock office" button
+* Walks out the front door
 
 By automating the **lock** and **unlock** processes using an app and a smart front door, both now only require a single step. This vastly reduces the likelihood of human error in the most vital (and common) office processes.
 

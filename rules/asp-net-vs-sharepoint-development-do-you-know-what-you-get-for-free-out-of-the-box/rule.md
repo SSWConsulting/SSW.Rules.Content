@@ -19,13 +19,13 @@ SharePoint as a platform on top of ASP.NET gives you many components that you do
 
 <!--endintro-->
 
-- WYSIWYG editing (IE only, no FireFox)
+* WYSIWYG editing (IE only, no FireFox)
 
   SharePoint’s rich text editor works really well with IE out of the box, works with SharePoint image libraries, and supports many features and even allows site style configurations to define and restrict styles that can be applied in the site. Unfortunately, it is not a cross browser compliant WYSIWYG editor.
 
   In ASP.NET there are many 3rd party options here – but you won’t get the integrated support that SharePoint’s editor has, without doing further customization.
 
-- Content Version Control (with Publish and Approval workflow)
+* Content Version Control (with Publish and Approval workflow)
 
   SharePoint gives your end users content version control – they can update their pages and check-in to share it with the team, or publish it for everyone to see. Workflows can be attached to notify the necessary internal reviews.
 
@@ -33,25 +33,25 @@ SharePoint as a platform on top of ASP.NET gives you many components that you do
 
   In ASP.NET this is not available – you will need to do significant work to achieve this behaviour, or build on top of another ASP.NET platform.
 
-- Permission Control (just assign to Groups)
+* Permission Control (just assign to Groups)
 
   SharePoint allows items to be assigned to permission groups and works very well with Active Directory (or other membership providers) directly.
 
   In ASP.NET site permissions can be specified via web.config but the UI to configure parts of the site is limited.
 
-- Creating a subsite (simple and then appear in menus, breadcrumbs…)
+* Creating a subsite (simple and then appear in menus, breadcrumbs…)
 
   End users can create subsites in SharePoint that automatically appears in menu navigation and has all the correct breadcrumbs wired up. Subsites forms the necessary site navigation within SharePoint.
 
   In ASP.NET end users cannot create subsites – developers has to do this.
 
-- Spell check
+* Spell check
 
   SharePoint editor web parts come with spell check abilities.
 
   ASP.NET does not have equivalent – though many browsers now support a client-side spellchecking facility, and some 3rd party rich text editors also have spell check.
 
-- Search (filtered by your permissions) – google only works for anonymous
+* Search (filtered by your permissions) – google only works for anonymous
 
   SharePoint comes with a highly configurable enterprise search facility. The search result is filtered based on the current user so SharePoint will never show results that you aren’t supposed to see.
 

@@ -34,7 +34,7 @@ When feedback comes your way, it's crucial to separate the message from the mess
 > The envelope a letter comes in doesn't define its content.
 > Badly delivered feedback should not be disregarded
 
-- _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
+* _[Brady Stroud, SSW](https://www.ssw.com.au/people/brady-stroud/)_
 
 ## Feedback as a Tool, Not a Weapon
 

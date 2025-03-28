@@ -40,9 +40,9 @@ Instructions for upgrading the Angular CLI of an existing project can be found o
 
 If you get errors, follow instructions in the links:
 
-- [Node gyp errors](https://github.com/nodejs/node-gyp)
+* [Node gyp errors](https://github.com/nodejs/node-gyp)
 
-- [Permission errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+* [Permission errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
 ### Which IDE should I use for developing Angular applications?
 

@@ -35,9 +35,9 @@ Frequently developers work on long or difficult features/bugs and leave code che
 
 That's why source code should be checked in regularly. We recommend a check-in:
 
-- Immediately after completing a piece of functionality, where the
+* Immediately after completing a piece of functionality, where the
   [code compiles and passes the unit tests](/after-work-do-you-only-check-in-code-when-it-has-compiled-and-passed-the-unit-tests)Before lunch or dinner
-- Before leaving your workstation for an extended period of time
+* Before leaving your workstation for an extended period of time
 
 If the changes would break the build or are in a state that cannot be put into the main trunk, then this code should be put into a [shelveset](http://msdn.microsoft.com/en-us/library/ms181403.aspx) (sometimes referred to as 'sandbox') in source control.
 Another good reason to check-in regularly is that it makes it easier to merge your changes with other developers. If all developers check-in lots of changes in one go, you will spend a lot of your time resolving conflicts instead of doing work.

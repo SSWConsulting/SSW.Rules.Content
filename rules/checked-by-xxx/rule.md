@@ -39,20 +39,20 @@ Simply ask for that person to come over and check it on your computer or call th
 
 Scenarios where having someone review your emails is recommended:
 
-- You are new to a company
-- Sending an email or appointment to a large distribution list
-- You are a little unsure
-- You feel that it is a complicated email
-- Sending a sensitive email (e.g. The content could be perceived as confrontational)
-- You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
+* You are new to a company
+* Sending an email or appointment to a large distribution list
+* You are a little unsure
+* You feel that it is a complicated email
+* Sending a sensitive email (e.g. The content could be perceived as confrontational)
+* You need a quick '[test please](/conduct-a-test-please)', and the person is immediately available. This provides you a chance to check and collaborate on the finished change before the '[done email](/dones-do-you-reply-done-and-delete-the-original-email)' is sent. It also shows the email was double-checked
 
 Doing this will ensure:
 
-- You avoid grammatical and spelling errors
-- Your message is clear
-- The layout and tone of the email is professional
-- You don’t forget anything important
-- The receiver knows who else agrees with the content
+* You avoid grammatical and spelling errors
+* Your message is clear
+* The layout and tone of the email is professional
+* You don’t forget anything important
+* The receiver knows who else agrees with the content
 
 ::: tip
 Not everyone knows about this rule - make the "checked by" line a hyperlink to this rule to avoid confusion
@@ -86,8 +86,8 @@ Figure: Good example - Use 'Checked by xxx' when sending emails that require a s
 
 The term "checked by" typically implies a conversation took place. In situations where synchronous communication is not feasible, asynchronous methods like chatting on Teams or sending email are acceptable, provided you explicitly mention this in your "Checked by" email. Examples:
 
-- (Checked **via Teams Chat** by Chris S and Lloyd)
-- (Checked **via Email** by Chris S and Lloyd)
+* (Checked **via Teams Chat** by Chris S and Lloyd)
+* (Checked **via Email** by Chris S and Lloyd)
 
 ### Avoid being blocked
 

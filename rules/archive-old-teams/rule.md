@@ -32,10 +32,10 @@ Hiding teams works well enough for end users but doesn't help administrators fig
 
 To archive a Team, follow these steps:
 
-- Click on "Manage Teams"
-- Choose the team you want to archive (you must be owner of that Team)
-- Click the "..." (ellipsis)
-- Click "Archive team"
+* Click on "Manage Teams"
+* Choose the team you want to archive (you must be owner of that Team)
+* Click the "..." (ellipsis)
+* Click "Archive team"
 
 ![Figure: Clicking "Manage Teams"](old-teams-how1.jpg)
 

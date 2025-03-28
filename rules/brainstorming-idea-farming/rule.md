@@ -42,21 +42,21 @@ One month before brainstorming, you should review the repo and then remind all a
 
 ### 1. Look at all existing ideas in the Brainstorming GitHub Discussions repo
 
-- Great minds think alike and if you had an idea it's possible somebody else has had it as well. You may even find an idea you like and decide to reach out to the author to collaborate.
-- If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
+* Great minds think alike and if you had an idea it's possible somebody else has had it as well. You may even find an idea you like and decide to reach out to the author to collaborate.
+* If necessary, call the person who came up with the idea and ask for further explanation or for them to record a Done Video to sell their idea.
 
 ### 2. Pre-cooking - Come up with a few ideas for the day
 
-- These ideas should come from high-level people in the company.
+* These ideas should come from high-level people in the company.
 
 ### 3. Send out an email asking people to submit any new ideas they have
 
-- The email should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions.
+* The email should have a short explanation of the day, some previous success stories, and a link to all the GitHub discussions.
 
 ### 4. Have a Backlog Refinement Meeting
 
-- The Goal of this meeting is to make sure the ideas are ready to be allocated to teams.
-- This process only requires a small group, however they are free to call in relevant people as required.
+* The Goal of this meeting is to make sure the ideas are ready to be allocated to teams.
+* This process only requires a small group, however they are free to call in relevant people as required.
 
 `youtube: https://www.youtube.com/embed/lMpeffmoc0I`
 **Video: Backlog Refinement Meeting (3 min)**

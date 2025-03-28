@@ -40,8 +40,8 @@ A person's signature is extremely valuable. Getting a signature is hard work. Sa
 
 Getting paper signed is the “Dinosaur Method”. These days there are 2 main scenarios:
 
-- The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule
-- The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
+* The "Checked by {{ NAME }}" system for when you are with the person or sharing screens with the person as per the ['Checked by'](/checked-by-xxx) rule
+* The "Test Please" system for when it's a big job or it needs to be done asynchronously as per the ["Test Please"](/conduct-a-test-please) rule
 
 ::: info
 **Tip:** You shouldn't rely on links to a mockup because the design can change... same problem as linking to Terms and Conditions. The better option is to create an email with screenshots/content and add "Checked by {{ PRODUCT OWNER NAME }}"

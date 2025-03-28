@@ -31,11 +31,11 @@ Bugs found that are independent of the work on the current Sprint are placed on 
 
 This process:
 
-- Works around the problem of Bugs not having Story Points
-- Allows Bugs of the same rank to be sensibly grouped together
-- Prevents arbitrary groupings of Bugs which cannot be properly ranked
-- Follows the estimate just-in-time philosophy of Scrum
-- Prevents small Bugs taking up a whole Story Point
+* Works around the problem of Bugs not having Story Points
+* Allows Bugs of the same rank to be sensibly grouped together
+* Prevents arbitrary groupings of Bugs which cannot be properly ranked
+* Follows the estimate just-in-time philosophy of Scrum
+* Prevents small Bugs taking up a whole Story Point
 
 ### Using the Scrum process template
 
@@ -49,8 +49,8 @@ If the team finds bugs due to functionality accepted in a previous Sprint they l
 
 Examples:
 
-- **Small bug** – Text on a label is spelled incorrectly
-- **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
+* **Small bug** – Text on a label is spelled incorrectly
+* **Big bug** - There is an error thrown when transitioning from page 1 to page 2 when you hold down the Ctrl key
 
 ![Figure: Bugs can be added "out of Sprint" directly into the Product Backlog in Azure DevOps (was TFS)](2016-02-08_12-02-29.png)
 

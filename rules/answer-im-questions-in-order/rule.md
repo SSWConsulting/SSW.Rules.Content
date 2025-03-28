@@ -23,11 +23,11 @@ Sometimes people fire a few questions at you and the tendency is to answer in al
 
 Tips when answering IMs:
 
-- Answer each question in order
+* Answer each question in order
 
-- Repeat the keywords of each question
+* Repeat the keywords of each question
 
-- Avoid grouping your messages together [as per the rule](/separate-messages)
+* Avoid grouping your messages together [as per the rule](/separate-messages)
 
 <!--endintro-->
 

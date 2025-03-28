@@ -25,9 +25,9 @@ Pure HTML pages are the fastest website around. However, server-side scripting l
 
 <!--endintro-->
 
-- Cheap
-- Easy to use
-- Fast
+* Cheap
+* Easy to use
+* Fast
 
 On the other hand, complex functionality can be a bit more limited and time consuming to implement.
 

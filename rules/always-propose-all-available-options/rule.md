@@ -42,4 +42,4 @@ Figure: Good Example – whatever option they choose, they can still use your co
 
 ### Related Rule
 
-- [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)
+* [Teamwork - Do you manage up? (Give a recommendation)](/do-you-manage-up)
