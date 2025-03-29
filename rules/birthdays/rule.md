@@ -26,14 +26,12 @@ A birthday cake sounds like a nice idea, but it’s often a one-size-fits-all so
 
 This often happens when someone's birthday is forgotten until the day 😮.
 
-
 #### ✅ Let them get something personal
 
 Better than a generic celebration, giving someone a cool priviledge that week is a better way to celebrate.
 
 Some companies do free lunch on Fridays - a good example would be to let the birthday employee pick the free lunch food for that week.
-See the rule: https://www.ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/
-
+See the rule: <https://www.ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/>
 
 ### General tips
 
