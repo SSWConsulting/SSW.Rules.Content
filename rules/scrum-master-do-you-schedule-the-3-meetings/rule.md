@@ -81,7 +81,7 @@ Schedule the meeting and invite the Scrum Team and any interested stakeholders.
 ### Hi Team
 
 * Product Owner: {{ PRODUCT OWNER }}
-* Stakeholders: {{ LINK TO: SSW INTRANET | PROJECT | 🏃‍♂️SPRINT SUMMARY - STAKEHOLDERS }}
+* Stakeholders: {{ LINK TO LIST OF STAKEHOLDERS }}
 * Scrum Master: {{ SCRUM MASTER }}
 * Sprint Length: {{ NUMBER OF WEEKS }} weeks
 
