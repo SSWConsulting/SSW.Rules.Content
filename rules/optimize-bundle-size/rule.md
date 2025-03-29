@@ -1,7 +1,7 @@
 ---
-seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic imports, and minimized dependencies for better performance and faster load times.
 type: rule
-title: Do you optimize the bundle size of your website??
+title: Do you optimize the bundle size of your website?
+seoDescription: Optimize JavaScript bundle size with tree shaking, dynamic imports, and minimized dependencies for better performance and faster load times.
 uri: optimize-bundle-size
 authors:
   - title: Aman Kumar
@@ -41,7 +41,6 @@ Route (app)                     Size        First Load JS
 ├ ├ /anti-slavery-policy
 ├ ├ /booknow
 ├ └ [+10 more paths]
-
 ```
 
 ::: bad  
@@ -61,16 +60,17 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
 
 ### 2. **Next.js Bundle Analyzer** (Recommended for Next.js Projects)
 
-* **Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
-* **Setup:**
+**Description:** A specific analyzer for Next.js that shows how different parts of your app contribute to the bundle size.
 
-  Install the analyzer:
+**Setup:**
+
+* Install the analyzer:
 
   ```bash
   npm install @next/bundle-analyzer
   ```
 
-  Add this configuration to your `next.config.js`:
+* Add this configuration to your `next.config.js`:
 
   ```js
   const withBundleAnalyzer = require('@next/bundle-analyzer')({
@@ -82,13 +82,13 @@ A bundle analyzer can help you visualize your JavaScript bundle, understand whic
   });
   ```
 
-  Then run the analyzer with:
+* Then run the analyzer with:
 
   ```bash
   ANALYZE=true next build
   ```
 
-* **Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+**Link:** [Next.js Bundle Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
 ### 3. **Source Map Explorer**
 
@@ -101,7 +101,7 @@ How importing only what you need can reduce bundle size and improve performance.
 
 ```js
 // Importing the entire utility module, even if only one function is needed
-import * as utils from "./utils";
+import * as utils from './utils';
 
 const result = utils.expensiveFunction();
 ```
@@ -112,7 +112,7 @@ Code: Bad example - Importing entire module
 
 ```js
 // Importing only the required function
-import { expensiveFunction } from "./utils";
+import { expensiveFunction } from './utils';
 
 const result = expensiveFunction();
 ```
