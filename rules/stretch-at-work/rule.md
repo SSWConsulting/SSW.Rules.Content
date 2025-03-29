@@ -10,8 +10,10 @@ authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- do-you-encourage-daily-exercise-at-work
-- do-you-know-the-dangers-of-sitting
+  - do-you-know-the-dangers-of-sitting
+  - stretch-at-work
+  - lasting-habits
+  - encourage-daily-exercise
 redirects: []
 
 ---
