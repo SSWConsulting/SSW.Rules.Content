@@ -20,7 +20,7 @@ archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
 
-`youtube: https://www.youtube.com/watch?v=wWGulLAa0O0`
+`youtube: https://www.youtube.com/watch?v=2exBjXND9sg`
 **Video: What happens inside your body when you exercise (2 min)**
 
 ## The problem
