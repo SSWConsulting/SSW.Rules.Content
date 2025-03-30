@@ -147,6 +147,11 @@ Progress:
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ww.ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
+11. AI Use - what tools did you use?
+
+* {{ PERSON }} - {{ TOOL }}
+* {{ ETC }}
+
 ### Sprint Retrospective
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
@@ -165,7 +170,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 ⚠️ **Do any 'For the Record' emails need to be sent?** _(Optional)_
 
-As per https://www.ssw.com.au/rules/for-the-record/
+As per <https://www.ssw.com.au/rules/for-the-record/>
 
 {{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 

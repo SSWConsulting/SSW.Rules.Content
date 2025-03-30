@@ -13,6 +13,7 @@ authors:
 related:
   - do-you-know-the-dangers-of-sitting
   - stretch-at-work
+  - lasting-habits
 redirects:
   - do-you-encourage-daily-exercise-at-work
 created: 2016-11-07T06:40:46.000Z

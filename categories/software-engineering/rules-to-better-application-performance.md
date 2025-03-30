@@ -6,6 +6,7 @@ uri: rules-to-better-application-performance
 index:
 - the-best-time-to-tackle-performance-testing
 - optimize-bundle-size
+- compare-pr-performance-with-production
 - where-your-goal-posts-are
 - do-you-avoid-reviewing-performance-without-metrics
 - steps-required-to-implement-a-performance-improvement
@@ -23,7 +24,6 @@ index:
 - establish-a-baseline
 - safe-against-the-owasp-top-10
 - seal-your-classes-by-default
-
 ---
 
 Optimize your application’s efficiency with these essential performance guidelines. This collection covers performance testing, metrics analysis, and strategies for identifying and resolving bottlenecks to ensure your application runs smoothly and effectively.
