@@ -36,7 +36,7 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
   ::: greybox
   From\
-  Subject: **📃 Invoice** 
+  Subject: **📃 Invoice**
 
   To\
   Subject: **📃 Northwind website - Invoice for March \[WAS: Invoice]**
@@ -50,7 +50,7 @@ Remember the [importance of a good email subject](/good-email-subject) in improv
 
   ::: greybox
   From\
-  Subject: **🧑‍🏫 Field of Study** 
+  Subject: **🧑‍🏫 Field of Study**
 
   To\
   Subject: **🏫 Next Years Conference \[WAS: Field of Study]**

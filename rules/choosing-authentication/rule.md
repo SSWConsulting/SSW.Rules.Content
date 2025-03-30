@@ -445,10 +445,10 @@ For internal applications (referred to as "intranet applications" by Microsoft),
 ::: greybox
 **Scenario:**
 
-- **Scope** - You have an internal enterprise application, which will support approximately 1,000 users.\
-- You already have Active Directory in place and are syncing with an Entra tenant.\
-- Your users will need to access this application from anywhere.\
-- **MFA** - As per your company security policy, you must enforce MFA.\
+* **Scope** - You have an internal enterprise application, which will support approximately 1,000 users.\
+* You already have Active Directory in place and are syncing with an Entra tenant.\
+* Your users will need to access this application from anywhere.\
+* **MFA** - As per your company security policy, you must enforce MFA.\
 
 **Your choices:**
 
@@ -463,5 +463,6 @@ Good example - The chosen solution meets the requirements without adding unneces
 :::
 
 **Notes:**
+
 * All of the following options assume you are building an ASP.NET Core application, although the commercial options listed here provide libraries for most development languages, frameworks, and platforms.
 * The information here is relevant as provided, but consider other factors that may impact your decision too. For example, cost may be a factor and saving money may be more important than the added benefits of higher-cost options. Additionally, your situation may not fit neatly into one of the scenarios we have listed and may span multiple scenarios, in which case you may need to pick the option which caters to the broadest set of requirements (avoid 'mix and match').

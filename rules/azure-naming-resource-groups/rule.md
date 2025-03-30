@@ -37,7 +37,7 @@ Name your Resource Groups as **Product.Environment**. For example:
 
 There are no cost benefits in consolidating Resource Groups, so use them! Have a Resource Group per product, per environment. And most importantly, **be consistent in your naming convention**.
 
-**Remember it's difficult to change a resource group name once everything is deployed without downtime.** 
+**Remember it's difficult to change a resource group name once everything is deployed without downtime.**
 
 <!--endintro-->
 
@@ -69,6 +69,6 @@ There is no inherent cost-saving benefit to grouping resources of the same type 
 ![Figure: Good example (for all the above) - Resource Group contains all staging resources for this product](rg-good.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Adding underlying infrastructure to the same Resource Group can save $](screenshot-2025-03-18-080729.png)
 :::

@@ -28,6 +28,7 @@ Ensure this is sent out to all staff months before the event to encourage ideas.
 <!--endintro-->
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | {{ ALL STAFF }} |

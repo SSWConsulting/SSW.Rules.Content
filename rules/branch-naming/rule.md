@@ -22,11 +22,11 @@ Consistent naming conventions in source control systems help improve collaborati
 
 Always remember to:
 
-- **Include a PBI number** - This makes it easy to track the purpose of the branch, reduces confusion, and provides context
-- **Use lowercase kebab style naming** - Keeps the name easy to read and compatible with a wide range of systems
-- **Be descriptive** - Clearly indicate the purpose or content of the branch
-- **Keep it short** - Use concise yet meaningful names
-- **Extra: Use categories for improved organization** - If your repository has many branches or you want to keep them organized, adding a prefix such as "feature", "bugfix", or "hotfix" is beneficial
+* **Include a PBI number** - This makes it easy to track the purpose of the branch, reduces confusion, and provides context
+* **Use lowercase kebab style naming** - Keeps the name easy to read and compatible with a wide range of systems
+* **Be descriptive** - Clearly indicate the purpose or content of the branch
+* **Keep it short** - Use concise yet meaningful names
+* **Extra: Use categories for improved organization** - If your repository has many branches or you want to keep them organized, adding a prefix such as "feature", "bugfix", or "hotfix" is beneficial
 
 ::: info
 **Note:** Release branches should always include a prefix (e.g., release/) to distinguish them from other branch types and keep them organized.
@@ -35,10 +35,11 @@ Always remember to:
 ---
 
 ::: greybox
-* SomeUser-patch-3   
+
+* SomeUser-patch-3
 * fix-styling-issue  
-* redirects   
-* update-package-version   
+* redirects
+* update-package-version
 * fix-stuff
 :::
 ::: bad
@@ -46,8 +47,9 @@ Figure: Bad example - Poorly named branches missing PBI numbers
 :::
 
 ::: greybox
-* 1463-collection-categories   
-* 1506-fix-storage-variable-yaml   
+
+* 1463-collection-categories
+* 1506-fix-storage-variable-yaml
 * 1299-update-third-party-dependencies
 :::
 ::: ok
@@ -55,6 +57,7 @@ Figure: OK example - Branches with PBI numbers and meaningful names
 :::
 
 ::: greybox
+
 * feature/3421-add-search-functionality
 * bugfix/4578-fix-date-formatting-issue
 * hotfix/9845-patch-payment-api-timeout
@@ -65,7 +68,7 @@ Figure: Good example - Branches with category prefixes
 :::
 
 ::: greybox
-{{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}   
+{{ CATEGORY }}/{{ PBI NUMBER }}-{{ DESCRIPTION }}
 :::
 ::: good
 Figure: Good example - Recommended naming format
@@ -73,6 +76,6 @@ Figure: Good example - Recommended naming format
 
 ## ❌ Avoid using `SomeUser-patch-1`
 
-GitHub's automatically generated branch names like patch-1, patch-2, etc., are convenient for quick edits but lack context, making it difficult to identify the changes introduced. These branches are often used for typo fixes or minor documentation updates that are immediately raised as pull requests. 
+GitHub's automatically generated branch names like patch-1, patch-2, etc., are convenient for quick edits but lack context, making it difficult to identify the changes introduced. These branches are often used for typo fixes or minor documentation updates that are immediately raised as pull requests.
 
 To improve clarity, use a descriptive name instead, such as `fix-readme-typo` instead of `patch-1`.

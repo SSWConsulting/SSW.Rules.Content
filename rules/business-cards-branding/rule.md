@@ -16,7 +16,7 @@ created: 2015-11-24T18:12:26.000Z
 archivedreason: null
 guid: d1e9744f-539a-419a-b9e6-fa565cc23659
 ---
-Business cards are essential tools for networking and making a lasting impression on potential clients or business partners. However, traditional paper business cards can present various issues in today's digital age. 
+Business cards are essential tools for networking and making a lasting impression on potential clients or business partners. However, traditional paper business cards can present various issues in today's digital age.
 
 <!--endintro-->
 
@@ -46,7 +46,7 @@ In contrast to paper business cards, digital business cards offer numerous advan
 
 ### Utilizing LinkedIn’s QR code feature
 
-The best way to connect with someone is to use LinkedIn's built-in QR Code feature 
+The best way to connect with someone is to use LinkedIn's built-in QR Code feature
 
 **Note:** This will **not** share contact details.
 

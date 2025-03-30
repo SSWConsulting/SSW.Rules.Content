@@ -40,6 +40,7 @@ Watch the video below and see how a single email can make your job easier.
 **Video: Do you send "As Per Our Conversation" emails? (2 min)**
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | John |
@@ -100,6 +101,7 @@ In most cases, you don't want to be blocked by not being able to have a conversa
 In this case, it's still important to record everything in an email, starting with "I tried calling you but didn't get through".
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | John |
@@ -127,6 +129,7 @@ You should also send a quick message on Microsoft Teams with a brief summary of 
 When you have an image or other information, remember to keep the main reason text as the first thing in the email body to give it better visibility.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | John |
@@ -148,6 +151,7 @@ Figure: Bad example - Reason at the bottom
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | John |

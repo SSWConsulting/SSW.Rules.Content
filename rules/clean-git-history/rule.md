@@ -22,10 +22,10 @@ Things that create a good git history include:
 
 <!--endintro-->
 
-- Granularity of commits
-- Descriptive commit messages
-- Easy to maintain (i.e. easily revert an entire feature)
-- Never lose history
+* Granularity of commits
+* Descriptive commit messages
+* Easy to maintain (i.e. easily revert an entire feature)
+* Never lose history
 
 ## Squashing Pull Requests
 

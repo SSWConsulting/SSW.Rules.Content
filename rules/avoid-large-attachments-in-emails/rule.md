@@ -32,6 +32,7 @@ Avoid large attachments. If you are sending an email with attachments or images 
 * Images - Could I put this picture on Google Photos or another image server?
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -53,6 +54,7 @@ Figure: Bad example - Sending a large attachment
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |

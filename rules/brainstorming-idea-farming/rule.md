@@ -56,7 +56,7 @@ One month before brainstorming, you should review the repo and then remind all a
 ### 4. Have a Backlog Refinement Meeting
 
 * The Goal of this meeting is to make sure the ideas are ready to be allocated to teams.
-* This process only requires a small group, however they are free to call in relevant people as required. 
+* This process only requires a small group, however they are free to call in relevant people as required.
 
 `youtube: https://www.youtube.com/embed/lMpeffmoc0I`
 **Video: Backlog Refinement Meeting (3 min)**
