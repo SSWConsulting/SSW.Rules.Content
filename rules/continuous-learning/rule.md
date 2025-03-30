@@ -5,9 +5,9 @@ title: Do you continuously learn?
 uri: continuous-learning
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-the-brains-of-your-company
 redirects: []

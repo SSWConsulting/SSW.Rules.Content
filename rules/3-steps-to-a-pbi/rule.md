@@ -8,13 +8,13 @@ seoDescription: Master the 3 essential steps of PBI management with SSW's expert
 uri: 3-steps-to-a-pbi
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related:
   - turn-emails-into-pbis
   - have-a-definition-of-ready

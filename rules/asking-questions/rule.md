@@ -7,7 +7,7 @@ seoDescription: Discover the importance of asking questions and transform your
 uri: asking-questions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - use-backchannels-effectively
   - speak-up-in-meetings

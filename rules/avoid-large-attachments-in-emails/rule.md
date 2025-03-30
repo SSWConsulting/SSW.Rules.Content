@@ -8,9 +8,9 @@ uri: avoid-large-attachments-in-emails
 created: 2009-03-31T03:15:46.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
 related:
   - how-to-share-a-file-folder-in-sharepoint
   - dones-do-you-include-useful-details-in-your-done-email

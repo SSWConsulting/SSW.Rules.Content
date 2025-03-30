@@ -8,11 +8,11 @@ uri: developer-experience
 created: 2012-03-16T07:44:28.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://www.ssw.com.au/people/damian-brady
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://www.ssw.com.au/people/eric-phan
 related:
   - project-setup
   - dev-containers

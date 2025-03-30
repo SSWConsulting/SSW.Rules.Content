@@ -8,9 +8,9 @@ uri: authentication-do-you-have-a-forgot-my-password-link
 created: 2014-12-11T20:10:16.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Duncan Hunter
-    url: https://ssw.com.au/people/duncan-hunter
+    url: https://www.ssw.com.au/people/duncan-hunter
 related: [forgot-password-do-you-read-their-mind]
 redirects: []
 ---

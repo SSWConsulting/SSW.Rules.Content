@@ -8,7 +8,7 @@ uri: change-name-of-site-settings
 created: 2024-09-16T09:05:00.0000000Z
 authors: 
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
 - when-to-use-reporting-services
 redirects: []

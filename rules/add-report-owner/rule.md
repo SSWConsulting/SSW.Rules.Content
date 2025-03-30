@@ -8,7 +8,7 @@ uri: add-report-owner
 created: 2024-09-16T09:03:00.0000000Z
 authors: 
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
 - when-to-use-reporting-services
 redirects: []

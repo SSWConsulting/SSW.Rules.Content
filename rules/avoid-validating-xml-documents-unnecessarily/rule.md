@@ -8,7 +8,7 @@ uri: avoid-validating-xml-documents-unnecessarily
 created: 2018-04-25T19:38:17.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-validating-xml-documents-unnecessarily

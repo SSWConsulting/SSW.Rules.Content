@@ -7,9 +7,9 @@ seoDescription: Discover the best static site tech stack and create
 uri: best-static-site-tech-stack
 authors:
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - use-nextjs
 redirects:

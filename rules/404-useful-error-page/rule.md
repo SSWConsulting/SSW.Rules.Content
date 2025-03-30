@@ -8,11 +8,11 @@ uri: 404-useful-error-page
 created: 2016-08-11T17:30:01.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
 - title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  url: https://www.ssw.com.au/people/christian-morford-waite
 related: 
 - 404-error-avoid-changing-the-url
 redirects:

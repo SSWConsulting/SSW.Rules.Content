@@ -8,11 +8,11 @@ uri: contract-before-work
 created: 2012-08-30T13:01:02.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Tylah Kapa
-    url: https://ssw.com.au/people/tylah-kapa
+    url: https://www.ssw.com.au/people/tylah-kapa
 related:
   - conduct-a-spec-review
   - do-you-prepare-then-confirm-conversations-decisions

@@ -5,7 +5,7 @@ title: Management - Do you know to seek approval for your social media content?
 uri: approval-for-your-social-media-content
 authors:
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
   - do-you-know-to-seek-approval-for-your-social-media-content

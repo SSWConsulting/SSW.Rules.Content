@@ -5,7 +5,7 @@ title: Comments - Do you comment each property and method?
 uri: comment-each-property-and-method
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - comments-do-you-comment-each-property-and-method

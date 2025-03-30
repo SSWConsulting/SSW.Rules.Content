@@ -7,7 +7,7 @@ authors:
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming/
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - use-squash-and-merge-for-open-source-projects
   - write-a-good-pull-request

@@ -8,9 +8,9 @@ uri: asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 created: 2009-06-16T00:59:28.0000000Z
 authors:
   - title: John Liu
-    url: https://ssw.com.au/people/john-liu
+    url: https://www.ssw.com.au/people/john-liu
   - title: Jay Lin
-    url: https://ssw.com.au/people/jay-lin
+    url: https://www.ssw.com.au/people/jay-lin
 related: []
 redirects: []
 ---

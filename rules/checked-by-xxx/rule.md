@@ -5,11 +5,11 @@ title: Do you use 'Checked by xxx'?
 uri: checked-by-xxx
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-send-as-per-our-conversation-emails
   - quality-do-you-know-how-to-request-a-test-please
@@ -35,7 +35,7 @@ Simply ask for that person to come over and check it on your computer or call th
 ![Figure: Consider this the "four-eye principle" (also known as the "two-person rule" or "dual control")](checked-by.png)
 
 `youtube: https://www.youtube.com/embed/qz2PcNRA3F4`
-**Video: Talk before emailing - are you gold or silver? | [Adam Cogan](https://ssw.com.au/people/adam-cogan/) & [Andrew Harris](https://ssw.com.au/people/andrew-harris/) | SSW Rules (6 min)**
+**Video: Talk before emailing - are you gold or silver? | [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) & [Andrew Harris](https://www.ssw.com.au/people/andrew-harris/) | SSW Rules (6 min)**
 
 Scenarios where having someone review your emails is recommended:
 

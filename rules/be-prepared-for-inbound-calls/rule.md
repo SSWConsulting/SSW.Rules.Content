@@ -8,11 +8,11 @@ uri: be-prepared-for-inbound-calls
 created: 2018-06-08T20:44:01.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Brittany Lawrence
-    url: https://ssw.com.au/people/brittany-lawrence
+    url: https://www.ssw.com.au/people/brittany-lawrence
 related: []
 redirects:
   - do-you-know-how-to-be-prepared-for-inbound-calls

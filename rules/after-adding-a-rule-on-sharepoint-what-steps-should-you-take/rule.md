@@ -8,7 +8,7 @@ uri: after-adding-a-rule-on-sharepoint-what-steps-should-you-take
 created: 2009-10-10T06:22:22.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

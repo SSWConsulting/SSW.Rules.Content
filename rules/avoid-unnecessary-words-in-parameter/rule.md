@@ -8,7 +8,7 @@ uri: avoid-unnecessary-words-in-parameter
 created: 2024-08-11T13:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
 - when-to-use-reporting-services
 redirects: []

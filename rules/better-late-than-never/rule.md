@@ -5,9 +5,9 @@ title: Do you know replying is better late than never?
 uri: better-late-than-never
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
 related:
   - replying-in-the-same-medium
 redirects:

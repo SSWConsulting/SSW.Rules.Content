@@ -5,7 +5,7 @@ title: Do you customise Outlook Web Access (OWA)?
 uri: customise-outlook-web-access-owa
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://www.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T03:40:00.000Z
 guid: d14e0ab3-63d1-4957-ad87-0accad262640
 ---

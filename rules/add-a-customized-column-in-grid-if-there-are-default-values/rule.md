@@ -5,7 +5,7 @@ title: Do you add a "(customized)" column in grid if there are default values?
 uri: add-a-customized-column-in-grid-if-there-are-default-values
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://www.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T00:22:00.000Z
 guid: 4ed43f37-6443-43ad-b201-308c17e3d7c0
 ---

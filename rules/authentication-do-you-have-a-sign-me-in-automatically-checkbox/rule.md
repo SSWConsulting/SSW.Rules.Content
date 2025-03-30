@@ -8,7 +8,7 @@ uri: authentication-do-you-have-a-sign-me-in-automatically-checkbox
 created: 2014-12-11T20:17:49.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

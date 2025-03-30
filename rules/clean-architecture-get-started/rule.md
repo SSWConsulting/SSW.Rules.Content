@@ -8,9 +8,9 @@ uri: clean-architecture-get-started
 created: 2020-06-01T22:27:33.0000000Z
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-the-best-way-to-get-started

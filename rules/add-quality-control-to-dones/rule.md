@@ -1,16 +1,16 @@
 ---
 seoDescription: Ensure your Dones are of high quality by implementing a check process with "Checked by xxx"
 type: rule
-archivedreason: Merged to [https://ssw.com.au/rules/checked-by-xxx](/rules/checked-by-xxx)
+archivedreason: Merged to [https://www.ssw.com.au/rules/checked-by-xxx](/rules/checked-by-xxx)
 title: Dones - Do you show quality control with "Checked by xxx"?
 guid: 9e0e6476-651a-4271-95b0-e7169eba1607
 uri: add-quality-control-to-dones
 created: 2009-04-08T09:31:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 - title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  url: https://www.ssw.com.au/people/cameron-shaw
 related: []
 redirects:
 - dones-do-you-add-(or-show)-your-quality-control

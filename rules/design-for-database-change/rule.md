@@ -8,7 +8,7 @@ uri: design-for-database-change
 created: 2019-11-18T19:10:50.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - dbas-do-you-design-for-database-change

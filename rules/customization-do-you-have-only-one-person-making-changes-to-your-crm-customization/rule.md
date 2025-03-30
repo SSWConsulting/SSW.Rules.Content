@@ -8,9 +8,9 @@ uri: customization-do-you-have-only-one-person-making-changes-to-your-crm-custom
 created: 2012-12-10T18:11:23.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://www.ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects: []
 ---

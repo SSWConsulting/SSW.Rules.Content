@@ -7,13 +7,13 @@ seoDescription: Discover how to effectively farm brainstorming ideas by
 uri: brainstorming-idea-farming
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related:
   - use-the-brains-of-your-company
 redirects: []

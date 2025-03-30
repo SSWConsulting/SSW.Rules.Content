@@ -8,13 +8,13 @@ uri: best-libraries-for-icons
 created: 2014-06-18T05:00:53.0000000Z
 authors:
   - title: Ben Cull
-    url: https://ssw.com.au/people/ben-cull
+    url: https://www.ssw.com.au/people/ben-cull
   - title: Drew Robson
-    url: https://ssw.com.au/people/drew-robson
+    url: https://www.ssw.com.au/people/drew-robson
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
 related:
   - enforce-the-text-meaning-with-icons-and-emojis
   - use-icons-to-not-surprise-users

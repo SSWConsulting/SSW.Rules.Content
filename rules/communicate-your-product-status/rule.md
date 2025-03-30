@@ -7,11 +7,11 @@ guid: b396caf5-9bfb-4607-bc69-7dc13700b3cc
 created: 2024-03-25T10:39:38.0000000Z
 authors:
   - title: Nick Curran
-    url: https://ssw.com.au/people/nick-curran
+    url: https://www.ssw.com.au/people/nick-curran
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair  
+    url: https://www.ssw.com.au/people/piers-sinclair  
 related:
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
   - summary-recording-sprint-reviews

@@ -9,9 +9,9 @@ authors:
   - title: Chris Schultz
     url: https://www.ssw.com.au/people/chris-schultz
   - title: Joanna Feely
-    url: https://ssw.com.au/people/joanna-feely
+    url: https://www.ssw.com.au/people/joanna-feely
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
 related: []
 created: 2023-06-01T00:22:32.616Z
 guid: 87950bac-d6fa-4c6b-8010-2bbca85ae5c9

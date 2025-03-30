@@ -8,9 +8,9 @@ uri: be-available-for-emergency-communication
 created: 2010-05-24T03:33:07.0000000Z
 authors:
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://www.ssw.com.au/people/mehmet-ozdemir
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - go-beyond-just-using-chat
 redirects:

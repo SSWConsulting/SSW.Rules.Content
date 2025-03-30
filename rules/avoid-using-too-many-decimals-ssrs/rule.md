@@ -8,7 +8,7 @@ uri: avoid-using-too-many-decimals-ssrs
 created: 2024-06-01T14:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
   - avoid-using-too-many-decimals
 redirects: []

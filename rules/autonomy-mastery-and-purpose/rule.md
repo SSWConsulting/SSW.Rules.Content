@@ -5,9 +5,9 @@ seoDescription: Do you aim for Autonomy, Mastery and Purpose?
 uri: autonomy-mastery-and-purpose
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - have-a-clear-mission-statement
 created: 2021-05-03T05:33:05+10:00

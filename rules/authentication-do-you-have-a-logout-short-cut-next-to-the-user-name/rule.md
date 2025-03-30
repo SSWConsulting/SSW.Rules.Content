@@ -8,7 +8,7 @@ uri: authentication-do-you-have-a-logout-short-cut-next-to-the-user-name
 created: 2014-12-11T20:20:21.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

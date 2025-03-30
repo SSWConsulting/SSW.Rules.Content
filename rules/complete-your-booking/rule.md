@@ -5,7 +5,7 @@ title: Do you know to work all the hours you're booked for?
 uri: complete-your-booking
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-that-when-youre-booked-in-youre-working

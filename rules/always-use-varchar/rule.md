@@ -8,7 +8,7 @@ uri: always-use-varchar
 created: 2019-11-05T22:48:11.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - schema-do-you-always-use-varchar

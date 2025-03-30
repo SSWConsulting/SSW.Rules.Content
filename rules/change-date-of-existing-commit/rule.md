@@ -8,7 +8,7 @@ uri: change-date-of-existing-commit
 created: 2024-07-29T11:06:33.0000000Z
 authors:
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
 - clean-git-history
 redirects: []

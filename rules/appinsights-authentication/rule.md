@@ -8,7 +8,7 @@ uri: appinsights-authentication
 created: 2023-10-16T15:11:34.0000000Z
 authors:
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
   - title: Alex Rothwell
     url: https://www.ssw.com.au/people/alex-rothwell/
 related: []
@@ -54,7 +54,7 @@ In short, to secure the telemetry sent from your application to Application Insi
 
 ### Sample Application
 
-Check out the sample ASP.NET Core application and Bicep code from [William Liebenberg](https://ssw.com.au/people/william-liebenberg) on [GitHub](https://github.com/william-liebenberg/AppService-AppInsights-Monitoring)
+Check out the sample ASP.NET Core application and Bicep code from [William Liebenberg](https://www.ssw.com.au/people/william-liebenberg) on [GitHub](https://github.com/william-liebenberg/AppService-AppInsights-Monitoring)
 
 ### Add Managed Identity to AppService
 

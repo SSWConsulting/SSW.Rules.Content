@@ -6,7 +6,7 @@ seoDescription: Create actionable next steps after meetings to ensure
 uri: creating-action-items
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-know-what-happens-at-a-sprint-review-meeting
   - follow-up-effectively

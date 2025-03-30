@@ -6,7 +6,7 @@ seoDescription: Using effective branch naming conventions with PBI numbers, desc
 uri: branch-naming
 authors:
   - title: Christian Morford-Waite
-    url: https://ssw.com.au/people/christian-morford-waite
+    url: https://www.ssw.com.au/people/christian-morford-waite
 related:
   - do-you-know-when-to-branch-in-git
   - clear-meaningful-names

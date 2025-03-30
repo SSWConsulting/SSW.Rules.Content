@@ -5,13 +5,13 @@ title: Backlog - Does your Product Owner know how to maintain the backlog?
 uri: build-the-backlog
 authors:
   - title: Martin Hinshelwood
-    url: https://ssw.com.au/people/martin-hinshelwood
+    url: https://www.ssw.com.au/people/martin-hinshelwood
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: https://www.ssw.com.au/people/greg-harris
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 related:
   - github-issue-templates
   - do-you-have-templates-for-your-pbis-and-bugs

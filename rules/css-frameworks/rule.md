@@ -6,11 +6,11 @@ seoDescription: Do you use Bootstrap to create responsive and user-friendly
 uri: css-frameworks
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://www.ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Rebecca Liu
-    url: https://ssw.com.au/people/rebecca-liu
+    url: https://www.ssw.com.au/people/rebecca-liu
 related: []
 redirects:
   - do-you-use-twitter-bootstrap

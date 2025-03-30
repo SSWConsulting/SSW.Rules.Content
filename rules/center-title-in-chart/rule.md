@@ -8,7 +8,7 @@ uri: center-title-in-chart
 created: 2024-10-11T18:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
 - when-to-use-reporting-services
 redirects: []

@@ -5,9 +5,9 @@ title: Do you give yourself a second chance by not sending emails immediately?
 uri: avoid-sending-emails-immediately
 authors:
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-not-to-use-＂recall-this-message-＂-in-outlook

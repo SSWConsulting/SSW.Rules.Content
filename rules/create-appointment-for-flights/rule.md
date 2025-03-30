@@ -5,7 +5,7 @@ title: Do you create an appointment for flights?
 uri: create-appointment-for-flights
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-how-to-create-an-appointment-in-the-outlook-calendar-for-flights

@@ -5,9 +5,9 @@ title: Do your PBIs include Acceptance Criteria?
 uri: acceptance-criteria
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://www.ssw.com.au/people/adam-stephensen
   - title: Lee Hawkins
     url: https://www.ssw.com.au/people/lee-hawkins
 related:

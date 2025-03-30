@@ -9,11 +9,11 @@ authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Warwick Leahy
-    url: https://ssw.com.au/people/warwick-leahy
+    url: https://www.ssw.com.au/people/warwick-leahy
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
   - title: Luke Mao
-    url: https://ssw.com.au/people/luke-mao
+    url: https://www.ssw.com.au/people/luke-mao
 related:
   - cloud-architect
   - reduce-azure-costs
@@ -129,7 +129,7 @@ ${{ AMOUNT }} AUD + GST/month (${{ AMOUNT }} AUD + GST/year)
 
 1. Please approve
 
-< As per <https://ssw.com.au/rules/azure-budgets> >
+< As per <https://www.ssw.com.au/rules/azure-budgets> >
 :::
 :::
 

@@ -5,7 +5,7 @@ title: "Do you add a description to the group? "
 uri: description-to-the-group
 authors:
   - title: Ash Anil
-    url: https://ssw.com.au/people/ash-anil-anil/
+    url: https://www.ssw.com.au/people/ash-anil-anil/
 created: 2023-10-31T00:12:10.982Z
 guid: f5018832-3b25-4d29-8e33-a23972318949
 ---

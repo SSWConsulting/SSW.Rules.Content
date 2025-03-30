@@ -5,7 +5,7 @@ title: Are your Data Access Layers compatible with Web Services?
 uri: are-your-data-access-layers-compatible-with-web-services
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 created: 2014-03-14T05:37:00.000Z
 guid: 6de2de45-9c13-4890-a6c2-3efafaf0ab26
 ---

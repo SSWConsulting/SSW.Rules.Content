@@ -5,9 +5,9 @@ title: Do you use Architectural Decision Records (ADRs)?
 uri: architectural-decision-records
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
 related:
   - checked-by-xxx
   - conduct-a-test-please

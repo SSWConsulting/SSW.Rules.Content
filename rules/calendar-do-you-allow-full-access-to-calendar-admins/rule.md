@@ -7,9 +7,9 @@ seoDescription: Calendar permissions allow you to share your calendar with admin
 uri: calendar-do-you-allow-full-access-to-calendar-admins
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Kiki Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg

@@ -8,9 +8,9 @@ uri: avoid-redundant-links
 created: 2015-02-16T02:15:22.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - less-is-more
   - do-you-avoid-linking-a-page-to-itself

@@ -8,7 +8,7 @@ uri: avoid-using-web-site-projects
 created: 2016-11-16T18:41:17.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-avoid-using-web-site-projects

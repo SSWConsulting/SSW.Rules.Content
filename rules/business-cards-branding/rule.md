@@ -6,9 +6,9 @@ seoDescription: Discover why traditional business cards fall short in the
 uri: business-cards-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Levi Jackson
-    url: https://ssw.com.au/people/levi-jackson
+    url: https://www.ssw.com.au/people/levi-jackson
 related: []
 redirects:
   - do-you-have-cool-business-cards

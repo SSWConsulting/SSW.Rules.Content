@@ -8,7 +8,7 @@ uri: are-your-developers-managing-your-projects-with-tfs-with-proven-agile-scrum
 created: 2012-05-23T16:31:05.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - are-your-developers-managing-your-projects-with-tfs-(with-proven-agile-scrum-and-alm-strategies)

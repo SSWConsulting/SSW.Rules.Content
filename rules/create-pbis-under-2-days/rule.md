@@ -5,13 +5,13 @@ title: Backlog - Do you keep your PBIs smaller than 2 days' effort?
 uri: create-pbis-under-2-days
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
   - title: Prem Radhakrishnan
-    url: https://ssw.com.au/people/prem-radhakrishnan
+    url: https://www.ssw.com.au/people/prem-radhakrishnan
 related:
   - defining-pbis
   - estimating-do-you-know-how-to-size-user-stories-effectively

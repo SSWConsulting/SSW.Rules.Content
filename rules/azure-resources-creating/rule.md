@@ -5,11 +5,11 @@ title: Do you know how to create Azure resources?
 uri: azure-resources-creating
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
   - title: William Liebenberg

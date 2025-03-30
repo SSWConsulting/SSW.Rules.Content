@@ -6,7 +6,7 @@ title: Data - Do you avoid deleting records by flagging them as IsDeleted (aka
 uri: avoid-deleting-records-by-flagging-them-as-isdeleted
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - data-do-you-avoid-deleting-records-by-flagging-them-as-isdeleted-aka-soft-delete

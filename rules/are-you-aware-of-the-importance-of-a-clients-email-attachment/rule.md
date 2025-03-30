@@ -5,9 +5,9 @@ title: Do you include clients' email attachments in your replies?
 uri: are-you-aware-of-the-importance-of-a-clients-email-attachment
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
 related:
   - do-you-know-not-to-send-attachments-in-emails
 redirects: []

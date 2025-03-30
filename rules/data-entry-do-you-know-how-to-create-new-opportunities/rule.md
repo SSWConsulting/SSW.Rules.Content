@@ -8,9 +8,9 @@ uri: data-entry-do-you-know-how-to-create-new-opportunities
 created: 2012-12-06T18:37:17.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
 ---

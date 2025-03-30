@@ -8,11 +8,11 @@ uri: bid-on-your-own-brand-keyword
 created: 2020-11-09T22:58:03.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 - title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  url: https://www.ssw.com.au/people/tiago-araujo
 - title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
+  url: https://www.ssw.com.au/people/jerwin-parker
   img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:

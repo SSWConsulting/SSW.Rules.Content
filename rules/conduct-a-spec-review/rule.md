@@ -5,15 +5,15 @@ title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
 uri: conduct-a-spec-review
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://www.ssw.com.au/people/eric-phan
   - title: Edgar Rocha
-    url: https://ssw.com.au/people/edgar-rocha
+    url: https://www.ssw.com.au/people/edgar-rocha
 related: []
 redirects:
   - spec-do-you-conduct-a-specification-review-(ask-for-a-coffee-not-a-marriage)

@@ -78,4 +78,4 @@ index:
 
 ---
 
-Want to get your organization using SharePoint to collaborate? Check [SSW's SharePoint consulting page](https://ssw.com.au/consulting/sharepoint).
+Want to get your organization using SharePoint to collaborate? Check [SSW's SharePoint consulting page](https://www.ssw.com.au/consulting/sharepoint).

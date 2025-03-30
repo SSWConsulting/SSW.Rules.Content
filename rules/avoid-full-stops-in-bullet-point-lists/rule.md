@@ -5,9 +5,9 @@ title: Do you avoid full stops in lists and captions?
 uri: avoid-full-stops-in-bullet-point-lists
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 related:
   - avoid-repetition
   - commas-and-full-stops-always-should-have-1-space-after-them

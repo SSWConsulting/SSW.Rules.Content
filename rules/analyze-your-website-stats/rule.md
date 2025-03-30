@@ -8,7 +8,7 @@ uri: analyze-your-website-stats
 created: 2016-11-24T16:35:41.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-analyze-your-website-statistics-aka-google-analytics

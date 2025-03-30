@@ -5,7 +5,7 @@ title: Do you use Co-Creation Patterns?
 uri: co-creation-patterns
 authors:
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - over-the-shoulder
   - write-a-good-pull-request

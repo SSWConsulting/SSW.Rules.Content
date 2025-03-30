@@ -5,9 +5,9 @@ title: Dates - Do you keep date formatting consistent?
 uri: dates-do-you-keep-date-formats-consistent-across-your-application
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - the-value-of-consistency
   - make-sure-all-software-uses-english

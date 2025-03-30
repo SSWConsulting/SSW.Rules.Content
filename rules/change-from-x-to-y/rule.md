@@ -5,15 +5,15 @@ title: Do you ask for small content changes using from X to Y?
 uri: change-from-x-to-y
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - github-content-changes
   - indent

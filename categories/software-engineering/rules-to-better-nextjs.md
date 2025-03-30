@@ -17,4 +17,4 @@ index:
 - core-web-vitals
 ---
 
-Want to build a web app with Next.js? Check [SSW's Next.js consulting page](https://ssw.com.au/consulting/nextjs).
+Want to build a web app with Next.js? Check [SSW's Next.js consulting page](https://www.ssw.com.au/consulting/nextjs).

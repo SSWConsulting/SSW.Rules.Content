@@ -8,9 +8,9 @@ uri: claim-expense-reimbursements-with-xero
 created: 2020-09-14T01:42:42.0000000Z
 authors:
   - title: Nick Viet
-    url: https://ssw.com.au/people/nick-viet
+    url: https://www.ssw.com.au/people/nick-viet
   - title: Stephan Fako
-    url: https://ssw.com.au/people/stephan-fako
+    url: https://www.ssw.com.au/people/stephan-fako
 related:
   - use-expensify-for-expenses
 redirects:

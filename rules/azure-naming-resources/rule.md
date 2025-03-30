@@ -5,15 +5,15 @@ title: Do you name your Azure resources correctly?
 uri: azure-naming-resources
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Bryden Oliver
-    url: https://ssw.com.au/people/bryden-oliver
+    url: https://www.ssw.com.au/people/bryden-oliver
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://www.ssw.com.au/people/luke-cook
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - azure-naming-resource-groups
 redirects:

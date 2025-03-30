@@ -5,7 +5,7 @@ title: Do you brand cars nicely?
 uri: cars-branding
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - set-design-guidelines
 redirects:

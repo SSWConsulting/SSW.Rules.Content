@@ -5,9 +5,9 @@ seoDescription: Learn about the best package manager for Node.js and Web Develop
 uri: best-package-manager-for-node
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://www.ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Jack Pettit
     url: https://www.ssw.com.au/people/jack-pettit/
 related:

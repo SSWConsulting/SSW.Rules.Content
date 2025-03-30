@@ -7,13 +7,13 @@ seoDescription: Learn how to effectively organize your Azure resources using
 uri: azure-naming-resource-groups
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Anthony Nguyen
-    url: https://ssw.com.au/people/anthony-nguyen
+    url: https://www.ssw.com.au/people/anthony-nguyen
   - title: Mehmet Ozdemir
-    url: https://ssw.com.au/people/mehmet-ozdemir
+    url: https://www.ssw.com.au/people/mehmet-ozdemir
 related:
   - azure-naming-resources
 redirects:

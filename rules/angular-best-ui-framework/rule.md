@@ -5,13 +5,13 @@ title: Tools - Do you know the best UI framework for Angular?
 uri: angular-best-ui-framework
 authors:
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://www.ssw.com.au/people/adam-stephensen
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://www.ssw.com.au/people/brendan-richards
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://www.ssw.com.au/people/gabriel-george
 related: []
 redirects:
   - tools-do-you-know-the-best-ui-framework-for-angular

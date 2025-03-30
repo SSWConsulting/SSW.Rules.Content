@@ -5,9 +5,9 @@ title: On-page - Do you add alt text to images?
 uri: add-attributes-to-picture-links
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-add-attributes-to-your-image-html

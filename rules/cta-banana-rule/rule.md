@@ -8,7 +8,7 @@ uri: cta-banana-rule
 created: 2014-12-04T20:16:58.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - production-do-you-add-a-call-to-action
 redirects:

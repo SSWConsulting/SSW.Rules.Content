@@ -8,7 +8,7 @@ uri: call-clients-before-sending-an-estimate
 created: 2010-07-16T04:23:52.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - for-existing-clients-do-you-always-call-them-before-sending-a-quote

@@ -5,7 +5,7 @@ title: Do you craft and deliver engaging presentations?
 uri: craft-and-deliver-engaging-presentations
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Andrew Forsyth
     url: https://www.ssw.com.au/people/andrew-forsyth
 related: []

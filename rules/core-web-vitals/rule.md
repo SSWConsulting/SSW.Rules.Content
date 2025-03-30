@@ -5,7 +5,7 @@ title: Technical - Do you know the importance of measuring Core Web Vitals?
 uri: core-web-vitals
 authors:
   - title: Harry Ross
-    url: https://ssw.com.au/people/harry-ross
+    url: https://www.ssw.com.au/people/harry-ross
 related: 
   - website-page-speed
 created: 2024-03-19T21:39:38.906Z

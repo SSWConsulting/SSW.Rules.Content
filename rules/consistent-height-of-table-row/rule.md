@@ -8,7 +8,7 @@ uri: consistent-height-of-table-row
 created: 2024-06-03T15:38:33.0000000Z
 authors: 
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+    url: https://www.ssw.com.au/people/jeoffrey-fischer
 related:
   - when-to-use-reporting-services
 redirects: []

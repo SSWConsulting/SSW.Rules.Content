@@ -42,7 +42,7 @@ Handing the baton back to you. Here is the progress I made today.
 
 {{ REPLY DONE (or not done) TO PREVIOUS EMAIL'S TASKS }}
 
-<This email was sent as per the rule: [https://ssw.com.au/rules/collaborate-across-timezones](/collaborate-across-timezones)>
+<This email was sent as per the rule: [https://www.ssw.com.au/rules/collaborate-across-timezones](/collaborate-across-timezones)>
 
 :::  
 :::  

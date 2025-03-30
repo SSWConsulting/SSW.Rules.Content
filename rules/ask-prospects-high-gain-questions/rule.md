@@ -8,7 +8,7 @@ uri: ask-prospects-high-gain-questions
 created: 2018-06-08T21:17:07.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-ask-prospects-high-gain-questions

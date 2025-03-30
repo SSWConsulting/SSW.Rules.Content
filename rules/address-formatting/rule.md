@@ -8,7 +8,7 @@ uri: address-formatting
 created: 2021-07-14T06:08:10.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - right-format-to-show-phone-numbers
   - the-value-of-consistency

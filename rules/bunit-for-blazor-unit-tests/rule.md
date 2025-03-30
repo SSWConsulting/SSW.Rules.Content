@@ -8,7 +8,7 @@ uri: bunit-for-blazor-unit-tests
 created: 2023-11-15T00:00:00.0000000Z
 authors:
   - title: Matt Parker
-    url: https://ssw.com.au/people/matt-parker
+    url: https://www.ssw.com.au/people/matt-parker
 related: []
 redirects: []
 ---

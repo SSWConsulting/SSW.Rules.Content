@@ -6,11 +6,11 @@ seoDescription: Choose the best method of authentication for your situation by
 uri: choosing-authentication
 authors:
   - title: Jason Taylor
-    url: https://ssw.com.au/people/jason-taylor
+    url: https://www.ssw.com.au/people/jason-taylor
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - modern-stateless-authentication
 redirects:

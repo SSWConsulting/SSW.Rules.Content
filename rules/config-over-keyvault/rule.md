@@ -6,7 +6,7 @@ seoDescription: Configure securely without Key Vault complexity by using Azure
 uri: config-over-keyvault
 authors:
   - title: Andrew Harris
-    url: https://ssw.com.au/people/andrew-harris
+    url: https://www.ssw.com.au/people/andrew-harris
 created: 2023-08-08T23:45:18.798Z
 guid: d104022e-2cce-4771-a54a-42e6dfbdaf09
 ---

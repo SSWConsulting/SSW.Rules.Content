@@ -5,13 +5,13 @@ title: Do you send "As Per Our Conversation" emails?
 uri: as-per-our-conversation-emails
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Cameron Shaw
-    url: https://ssw.com.au/people/cameron-shaw
+    url: https://www.ssw.com.au/people/cameron-shaw
   - title: Justin King
-    url: https://ssw.com.au/people/justin-king
+    url: https://www.ssw.com.au/people/justin-king
 related:
   - do-you-know-when-to-do-use-checked-by-xxx
   - do-you-manage-up

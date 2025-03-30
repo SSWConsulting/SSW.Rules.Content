@@ -5,9 +5,9 @@ title: Visualizing - Do you have an Azure resources diagram?
 uri: azure-resources-diagram
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - azure-resources-visualizing

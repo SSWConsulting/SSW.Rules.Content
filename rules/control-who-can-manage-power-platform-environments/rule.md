@@ -10,7 +10,7 @@ redirects:
 created: 2021-06-01T17:30:01.0000000Z
 authors:
 - title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  url: https://www.ssw.com.au/people/mehmet-ozdemir
 related:
 
 ---

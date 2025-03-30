@@ -5,7 +5,7 @@ title: Do you send some "Client Love" a few days after the Initial Meeting?
 uri: client-love-after-initial-meeting
 authors:
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - weekly-client-love
   - encourage-client-love

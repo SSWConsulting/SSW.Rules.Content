@@ -9,7 +9,7 @@ seoDescription: Ensure accuracy and thoroughness in your work by following
 uri: attention-to-detail
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - checked-by-xxx
 created: 2024-02-06T13:42:55.753Z

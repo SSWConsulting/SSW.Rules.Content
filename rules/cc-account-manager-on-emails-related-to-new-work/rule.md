@@ -8,9 +8,9 @@ uri: cc-account-manager-on-emails-related-to-new-work
 created: 2012-09-25T17:49:58.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - know-the-non-scrum-roles
 redirects:

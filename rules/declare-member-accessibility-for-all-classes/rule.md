@@ -5,7 +5,7 @@ title: Do you declare member accessibility for all classes?
 uri: declare-member-accessibility-for-all-classes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-declare-member-accessibility-for-all-classes

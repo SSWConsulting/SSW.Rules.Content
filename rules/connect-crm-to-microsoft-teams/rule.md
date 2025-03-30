@@ -7,9 +7,9 @@ seoDescription: Linking Dynamics and Teams - Seamlessly connecting customers to
 uri: connect-crm-to-microsoft-teams
 authors:
   - title: Jean Thirion
-    url: https://ssw.com.au/people/jean-thirion
+    url: https://www.ssw.com.au/people/jean-thirion
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Calum Simpson

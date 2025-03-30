@@ -5,7 +5,7 @@ title: Do you always set FirstDayOfWeek to Monday on a MonthCalendar?
 uri: always-set-firstdayofweek-to-monday-on-a-monthcalendar
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://www.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T02:02:00.000Z
 guid: 4207265d-5968-4baf-a294-df489fa32517
 ---

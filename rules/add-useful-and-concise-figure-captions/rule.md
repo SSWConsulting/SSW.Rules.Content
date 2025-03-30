@@ -5,9 +5,9 @@ title: Figures - Do you add useful text captions to images and videos?
 uri: add-useful-and-concise-figure-captions
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - screenshots-avoid-walls-of-text
   - figures-do-you-use-bad-example-and-good-example-with-ticks-and-crosses-in-captions
@@ -146,7 +146,7 @@ Figure: Good example - Readers understand how you made the image, and they impro
 
 ### Tip #7: Link people's names to their profiles
 
-When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
+When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://www.ssw.com.au/people)).
 
 ::: greybox
 {{ VIDEO }}\
@@ -158,7 +158,7 @@ Figure: Bad example - A vague text with no link to Bob's profile. Also missing t
 
 ::: greybox
 {{ VIDEO }}\
-**Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
+**Video: How to search on Outlook by [Bob](https://www.ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
 Figure: Good example - A descriptive caption using the video title + profile link + video length at the end

@@ -8,7 +8,7 @@ uri: are-you-still-ui-aware
 created: 2011-06-13T09:43:56.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---

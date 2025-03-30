@@ -5,7 +5,7 @@ title: Redundancy - Do you ensure the business continuity of your services?
 uri: business-continuity-services
 authors:
   - title: Kiki Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://www.ssw.com.au/people/kaique-biancatti
     img: https://raw.githubusercontent.com/SSWConsulting/SSW.People.Profiles/main/Kaique-Biancatti/Images/Kaique-Biancatti-Profile.jpg
 related:
   - azure-site-recovery

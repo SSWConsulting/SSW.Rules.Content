@@ -8,9 +8,9 @@ uri: communication-are-you-specific-in-your-requirements
 created: 2010-05-20T10:14:31.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - do-you-send-tasks-one-email-at-a-time
 redirects:

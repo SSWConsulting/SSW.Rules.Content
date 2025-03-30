@@ -8,7 +8,7 @@ uri: customization-do-you-export-only-the-customizations-of-entities-that-you-di
 created: 2012-12-10T19:11:13.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - customization-do-you-export-only-the-customizations-of-entities-that-you-did-customize-crm-4-only

@@ -8,7 +8,7 @@ uri: ampersand
 created: 2023-10-16T05:06:33.0000000Z
 authors:
   - title: Jayden Alchin
-    url: https://ssw.com.au/people/jayden-alchin
+    url: https://www.ssw.com.au/people/jayden-alchin
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc
 related:

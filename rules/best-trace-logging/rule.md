@@ -5,11 +5,11 @@ title: Do you use the best trace logging library?
 uri: best-trace-logging
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Brendan Richards
-    url: https://ssw.com.au/people/brendan-richards
+    url: https://www.ssw.com.au/people/brendan-richards
 related: []
 redirects:
   - do-you-use-the-best-trace-logging-library

@@ -5,13 +5,13 @@ title: Pre event - Do you know how to allocate Brainstorming teams?
 uri: brainstorming-team-allocation
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related: 
   - brainstorming-idea-champion
 redirects: []

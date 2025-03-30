@@ -8,9 +8,9 @@ uri: apply-tags-to-your-azure-resource-groups
 created: 2019-12-23T22:00:09.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
-    url: https://ssw.com.au/people/kaique-biancatti
+    url: https://www.ssw.com.au/people/kaique-biancatti
 related:
   - do-you-have-separate-development-testing-and-production-environments
 redirects:

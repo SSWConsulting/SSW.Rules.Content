@@ -9,9 +9,9 @@ seoDescription: Learn how to enhance customer experience on your website by
 uri: add-callable-link
 authors:
   - title: Betty Bondoc
-    url: https://ssw.com.au/people/betty-bondoc/
+    url: https://www.ssw.com.au/people/betty-bondoc/
   - title: Camilla Rosa Silva
-    url: https://ssw.com.au/people/camilla-rosa-silva/
+    url: https://www.ssw.com.au/people/camilla-rosa-silva/
 related:
   - right-format-to-show-phone-numbers
 created: 2024-06-06T02:33:57.195Z

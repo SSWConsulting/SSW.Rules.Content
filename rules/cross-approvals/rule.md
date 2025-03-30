@@ -6,19 +6,19 @@ seoDescription: Cross-approvals - Streamline your company's aspproval process
 uri: cross-approvals
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
   - title: Calum Simpson
-    url: https://ssw.com.au/people/calum-simpson
+    url: https://www.ssw.com.au/people/calum-simpson
   - title: Rick Su
-    url: https://ssw.com.au/people/rick-su
+    url: https://www.ssw.com.au/people/rick-su
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/uly
+    url: https://www.ssw.com.au/people/uly
   - title: Matt Wicks
-    url: https://ssw.com.au/people/matt-wicks
+    url: https://www.ssw.com.au/people/matt-wicks
   - title: Seth Daily
-    url: https://ssw.com.au/people/seth-daily
+    url: https://www.ssw.com.au/people/seth-daily
 related:
   - bench-master
   - management-structures

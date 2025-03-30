@@ -5,7 +5,7 @@ title: Do you know the desired features of structuring large Builds in VS.NET?
 uri: desired-features-of-structuring-large-builds-in-vsnet
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://www.ssw.com.au/people/adam-cogan/
 created: 2014-03-14T05:53:00.000Z
 guid: e576f1eb-076a-4371-a505-12cf0d4c38fb
 ---

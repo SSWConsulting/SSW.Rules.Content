@@ -8,9 +8,9 @@ uri: consistently-style-your-app
 created: 2020-10-08T22:50:48.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
+    url: https://www.ssw.com.au/people/matt-goldman
 related: []
 redirects:
   - do-you-use-know-how-to-consistently-style-your-app

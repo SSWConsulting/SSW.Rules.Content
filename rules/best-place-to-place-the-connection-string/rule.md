@@ -5,7 +5,7 @@ title: Do you know the best place to place the connection string?
 uri: best-place-to-place-the-connection-string
 authors:
   - title: Igor Goldobin
-    url: https://ssw.com.au/people/alumni/igor-goldobin/
+    url: https://www.ssw.com.au/people/alumni/igor-goldobin/
 created: 2024-03-09T06:48:10.371Z
 archivedreason: |
   Update connection string management: prefer IOptions pattern over Web.Config. Enables flexible, robust config in .NET, emphasizing dependency injection.

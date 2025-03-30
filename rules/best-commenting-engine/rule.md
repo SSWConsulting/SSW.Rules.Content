@@ -8,11 +8,11 @@ uri: best-commenting-engine
 created: 2015-08-04T15:26:20.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
   - title: Daniel Mackay
-    url: https://ssw.com.au/people/daniel-mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-allow-users-to-comment-and-rate-your-pages

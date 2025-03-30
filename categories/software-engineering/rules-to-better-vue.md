@@ -11,4 +11,4 @@ index:
 
 ---
 
-Want to build a better user interface with Vue.js? Check [SSW's Vue.js consulting page](https://ssw.com.au/consulting/vue).
+Want to build a better user interface with Vue.js? Check [SSW's Vue.js consulting page](https://www.ssw.com.au/consulting/vue).

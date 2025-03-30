@@ -8,15 +8,15 @@ uri: code-against-interfaces
 created: 2024-04-18T02:29:38.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://www.ssw.com.au/people/damian-brady
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://www.ssw.com.au/people/adam-stephensen
   - title: Eric Phan
-    url: https://ssw.com.au/people/eric-phan
+    url: https://www.ssw.com.au/people/eric-phan
   - title: Dhruv Mathur
-    url: https://ssw.com.au/people/dhruv-mathur
+    url: https://www.ssw.com.au/people/dhruv-mathur
 related:
   - do-you-name-your-dependencies-to-avoid-problems-with-minification
   - common-design-patterns

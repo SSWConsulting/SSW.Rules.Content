@@ -8,13 +8,13 @@ uri: common-design-patterns
 created: 2012-04-02T04:44:06.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+    url: https://www.ssw.com.au/people/adam-stephensen
   - title: Damian Brady
-    url: https://ssw.com.au/people/damian-brady
+    url: https://www.ssw.com.au/people/damian-brady
   - title: Dhruv Mathur
-    url: https://ssw.com.au/people/dhruv-mathur
+    url: https://www.ssw.com.au/people/dhruv-mathur
 related:
   - dependency-injection
   - code-against-interfaces

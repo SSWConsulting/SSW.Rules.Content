@@ -8,9 +8,9 @@ uri: best-way-to-display-code-on-your-website
 created: 2016-08-05T18:57:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related: []
 redirects:
   - do-you-know-the-best-way-to-display-code-on-your-website

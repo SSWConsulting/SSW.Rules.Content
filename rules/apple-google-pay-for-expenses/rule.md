@@ -5,7 +5,7 @@ title: Expenses - Do you use Apple/Google Pay for company expenses?
 uri: apple-google-pay-for-expenses
 authors:
   - title: Jimmy Chen
-    url: https://ssw.com.au/people/jimmy-chen
+    url: https://www.ssw.com.au/people/jimmy-chen
 related: null
 redirects: null
 created: 2023-05-26T15:08:44.000Z

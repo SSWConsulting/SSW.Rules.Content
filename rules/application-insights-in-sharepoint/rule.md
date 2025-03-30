@@ -8,9 +8,9 @@ uri: application-insights-in-sharepoint
 created: 2015-09-01T00:28:34.0000000Z
 authors:
   - title: William Yin
-    url: https://ssw.com.au/people/william-yin
+    url: https://www.ssw.com.au/people/william-yin
   - title: Chris Briggs
-    url: https://ssw.com.au/people/chris-briggs
+    url: https://www.ssw.com.au/people/chris-briggs
 related:
   - how-to-set-up-application-insights
 redirects:

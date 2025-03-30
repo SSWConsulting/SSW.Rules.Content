@@ -5,11 +5,11 @@ title: Do you close PBIs and tasks with context?
 uri: close-pbis-with-context
 authors:
   - title: Gordon Beeming
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/gordon-beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
 related:
   - write-a-good-pull-request
   - reply-done-and-delete-the-email

@@ -9,7 +9,7 @@ authors:
   - title: Penny Walker
     url: https://www.ssw.com.au/people/penny-walker
   - title: Tiago Araujo
-    url: https://ssw.com.au/people/tiago-araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 created: 2024-09-11T14:32:00.000Z
 related:
   - human-friendly-date-and-time

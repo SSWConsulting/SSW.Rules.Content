@@ -8,9 +8,9 @@ uri: calendar-do-you-check-someones-calendar-before-booking-an-appointment
 created: 2012-09-25T18:06:36.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - calendar-permissions-do-you-check-someones-calendar-before-booking-an-appointment

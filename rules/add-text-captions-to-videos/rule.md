@@ -8,7 +8,7 @@ uri: add-text-captions-to-videos
 created: 2011-12-05T05:41:15.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related:
   - add-useful-and-concise-figure-captions
 redirects:

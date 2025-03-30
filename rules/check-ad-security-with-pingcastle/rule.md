@@ -5,7 +5,7 @@ title: Do you check your AD security with PingCastle?
 uri: check-ad-security-with-pingcastle
 authors:
   - title: Chris Schultz
-    url: https://ssw.com.au/people/chris-schultz
+    url: https://www.ssw.com.au/people/chris-schultz
   - title: Kaique Biancatti
     url: https://www.ssw.com.au/people/kaique-biancatti
 created: 2022-05-04T01:17:40.642Z

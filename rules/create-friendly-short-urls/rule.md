@@ -8,9 +8,9 @@ uri: create-friendly-short-urls
 created: 2010-09-07T15:14:23.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 - title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  url: https://www.ssw.com.au/people/martin-hinshelwood
 related: 
 - use-dashes-in-urls
 - lowercase-urls

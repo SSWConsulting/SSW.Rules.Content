@@ -5,13 +5,13 @@ title: Do you add multilingual support (Angular)?
 uri: add-multilingual-support-on-angular
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Shane Ye
-    url: https://ssw.com.au/people/shane-ye
+    url: https://www.ssw.com.au/people/shane-ye
   - title: Gabriel George
-    url: https://ssw.com.au/people/gabriel-george
+    url: https://www.ssw.com.au/people/gabriel-george
   - title: Sebastien Boissiere
-    url: https://ssw.com.au/people/sebastien-boissiere
+    url: https://www.ssw.com.au/people/sebastien-boissiere
 related: []
 redirects:
   - do-you-add-multilingual-support-angular

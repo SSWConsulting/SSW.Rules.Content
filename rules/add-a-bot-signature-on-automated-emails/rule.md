@@ -8,9 +8,9 @@ uri: add-a-bot-signature-on-automated-emails
 created: 2019-04-09T22:40:33.0000000Z
 authors:
 - title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  url: https://www.ssw.com.au/people/adam-cogan
 - title: Matt Wicks
-  url: https://ssw.com.au/people/matt-wicks
+  url: https://www.ssw.com.au/people/matt-wicks
 related: []
 redirects:
 - do-you-add-a-bot-signature-to-make-it-clear-when-an-email-is-automated
@@ -45,7 +45,7 @@ Patchy fog early this morning, mostly in the south, then sunny. Light winds beco
 Uly
 **--Powered by SSW.Shorts**
 
-<This email was sent as per the rule: [https://ssw.com.au/rules/do-you-have-a-dress-code](/do-you-have-a-dress-code)>
+<This email was sent as per the rule: [https://www.ssw.com.au/rules/do-you-have-a-dress-code](/do-you-have-a-dress-code)>
 
 :::  
 :::  

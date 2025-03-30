@@ -5,7 +5,7 @@ title: Do you have a Product Backlog refinement meeting?
 uri: backlog-refinement-meeting
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Brady Stroud

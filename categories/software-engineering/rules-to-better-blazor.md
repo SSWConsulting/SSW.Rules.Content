@@ -4,7 +4,7 @@ title: Rules to Better Blazor
 guid: 45d72b40-f429-44b1-b37f-ecfd5858e46a
 uri: rules-to-better-blazor
 experts: https://www.ssw.com.au/people/?skill=Blazor
-consulting: https://ssw.com.au/consulting/blazor
+consulting: https://www.ssw.com.au/consulting/blazor
 index:
   - why-blazor-is-great
   - blazor-learning-resources
@@ -28,4 +28,4 @@ Blazor lets you build interactive web UIs using C# instead of JavaScript. Blazor
 
 [Get started with Blazor](https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor)
 
-Want to build interactive web apps with C#? Check [SSW's Blazor Consulting page](https://ssw.com.au/consulting/blazor).
+Want to build interactive web apps with C#? Check [SSW's Blazor Consulting page](https://www.ssw.com.au/consulting/blazor).

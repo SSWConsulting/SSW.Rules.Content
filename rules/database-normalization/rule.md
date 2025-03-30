@@ -5,7 +5,7 @@ title: Do you normalize your database?
 uri: database-normalization
 authors:
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - relational-database-design
   - erds

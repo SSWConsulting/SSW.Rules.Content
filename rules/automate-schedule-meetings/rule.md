@@ -5,11 +5,11 @@ title: Appointments - Do you automate scheduling of meetings?
 uri: automate-schedule-meetings
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
   - title: Greg Harris
-    url: https://ssw.com.au/people/greg-harris
+    url: https://www.ssw.com.au/people/greg-harris
 related: 
   - appointments-throw-it-in-their-calendar
   - collaborate-across-timezones

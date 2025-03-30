@@ -5,15 +5,15 @@ seoDescription: Ensure project success with thorough testing. A "Test Please" re
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: William Liebenberg
-    url: https://ssw.com.au/people/william-liebenberg
+    url: https://www.ssw.com.au/people/william-liebenberg
   - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+    url: https://www.ssw.com.au/people/luke-cook
   - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+    url: https://www.ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 related:

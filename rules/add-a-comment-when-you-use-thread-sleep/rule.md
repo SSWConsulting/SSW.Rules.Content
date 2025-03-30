@@ -8,7 +8,7 @@ uri: add-a-comment-when-you-use-thread-sleep
 created: 2018-04-26T22:00:01.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - comments-do-you-add-a-comment-when-you-use-thread-sleep

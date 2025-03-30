@@ -5,7 +5,7 @@ title: Do you make your fields consistent with the data?
 uri: consistent-fields-and-data
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - do-you-know-that-the-width-of-a-control-indicates-what-to-enter

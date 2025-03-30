@@ -8,7 +8,7 @@ uri: avoid-invalid-characters-in-object-identifiers
 created: 2019-11-25T22:41:25.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects:
   - data-do-you-avoid-invalid-characters-in-object-identifiers

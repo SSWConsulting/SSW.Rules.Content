@@ -5,9 +5,9 @@ title: Do you always get your prospect's full contact details?
 uri: always-get-your-prospects-full-contact-details
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
   - do-you-always-get-your-prospects-full-contact-details

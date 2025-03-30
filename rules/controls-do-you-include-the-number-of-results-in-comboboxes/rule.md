@@ -5,7 +5,7 @@ title: Controls - Do you include the number of results in ComboBoxes?
 uri: controls-do-you-include-the-number-of-results-in-comboboxes
 authors:
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
+    url: https://www.ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 created: 2012-11-27T08:40:47.000Z
