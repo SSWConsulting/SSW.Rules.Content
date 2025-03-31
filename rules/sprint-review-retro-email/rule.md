@@ -32,7 +32,9 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: info
-It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)
+* It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
+* Move all the dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner
+
 :::
 
 ::: email-template
@@ -64,7 +66,6 @@ Please see below for a more detailed breakdown of the Sprint:
 | Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
 | Product Owner:     | {{ PRODUCT OWNER NAME }}             |
 | Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
-
 
 ### Sprint Review
 
