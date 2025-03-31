@@ -36,7 +36,7 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 | ------------------ | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------- |
 | **Developed By**   | Microsoft                                              | OpenAI                                                       | LangChain                                                  | n8n                                                   |
 | **Best For**       | Multi-agent conversations, flexible agent topologies    | Production-ready pipelines with OpenAI models                | Complex stateful workflows, cyclical execution patterns    | No-code AI workflow automation                        |
-| **Learning Curve** | Medium                                                  | Low                                                          | High                                                      | Low (visual interface)                                |
+| **Learning Curve** | Medium                                                  | Low                                                          | High                                                       | Low (visual interface)                                |
 | **Key Features**   | - Conversational agents<br>- Event-driven<br>- Group chat | - Agent SDK<br>- Native handoffs<br>- Built-in tracing<br>- Guardrails | - Graph-based workflows<br>- State management<br>- Human-in-loop<br>- Time-travel debugging | - Visual workflow editor<br>- 400+ integrations<br>- AI nodes |
 | **Integration**    | Python, various LLMs                                   | Python/JS, OpenAI ecosystem                                  | Python/JS, LangChain ecosystem                            | No-code interface, LangChain under the hood          |
 | **Production Ready** | Research-focused                                      | Yes, built for production                                    | Yes, enterprise-grade                                      | Yes, for workflow automation                          |
@@ -47,21 +47,19 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 
 ## When to Choose Each Framework
 
-When choosing a framework for building agents, you need to be aware of the tradeoff between customisability, and ease of use.
+When choosing a framework for building agents, you need to be aware of the tradeoff between customisability and ease of use.
 
-For example, n8n is a no-code solution, that is only really useful for automating simple workflows.
+For example, n8n is a no-code solution that is only really useful for automating simple workflows, while frameworks like LangGraph offer deeper control but with a steeper learning curve.
 
 Evidently, the closer you get to the LLM, the more customisable you can make it – however this may come at the cost of needing to reinvent the wheel sometimes.
-
-
 
 ### OpenAI Agents SDK
 
 The OpenAI Agents SDK is ideal when:
 * You require a straightforward, production-grade framework that's easy to learn
 * Your existing stack already includes OpenAI models and you want seamless integration
-
-
+* You need strong tracing and debugging capabilities built into the framework
+* You're building for production environments
 
 ### LangGraph
 
@@ -69,7 +67,16 @@ Consider LangGraph when:
 * Your project involves intricate, recurring workflows requiring sophisticated state handling
 * You're developing systems with multiple interconnected agents
 * You have prior experience with the LangChain ecosystem
-* You possess knowledge of graph-based structures or are willing to climb the learning curve
+* You benefit from visualizing your agent workflows graphically
+* You need enterprise-grade reliability
+
+### AutoGen ⭐️
+
+AutoGen shines when:
+* Your application requires dynamic conversation flows between multiple agents
+* You're creating systems with diverse conversational agents working together
+* You value the backing of Microsoft's research division
+* You're working on research projects needing flexible agent interactions
 
 ### n8n
 
@@ -79,19 +86,37 @@ Choose n8n if:
 * You have team members without coding experience who need to participate
 * You're creating marketing, sales, or design team prototypes
 
-### AutoGen ⭐️
+## Language Limitations and Considerations
 
-AutoGen shines when:
+Most of the leading agent frameworks today, including AutoGen, LangGraph, and OpenAI Agents SDK, primarily use Python as their development language. This presents a challenge for organizations like SSW that predominantly use .NET and C#.
 
-* Your application requires dynamic conversation flows between multiple agents
-* You're creating systems with diverse conversational agents working together
-* You value the backing of Microsoft's research division
+For C# developers, the most promising path forward is through **Semantic Kernel**. Microsoft is currently working on integrating AutoGen's capabilities into Semantic Kernel, which will allow .NET developers to leverage cutting-edge agent technology using C#. This integration is expected to bring the powerful multi-agent capabilities of AutoGen to the familiar and enterprise-ready .NET ecosystem.
 
+**Our recommendation:** While waiting for the full Semantic Kernel integration, we recommend C# developers start experimenting with AutoGen in Python. The knowledge and patterns you learn will transfer directly to Semantic Kernel's implementation once it's complete, as Microsoft is directly incorporating AutoGen's architecture.
 
+```python
+# Example AutoGen code that will be portable to Semantic Kernel in future
+import autogen
 
-[Microsoft DevBlogs: AutoGen and Semantic Kernel](https://devblogs.microsoft.com/semantic-kernel/semantic-kernel-and-autogen-part-2/) – This article explains how Microsoft's Semantic Kernel and Autogen teams are committed to adding AutoGen into the Semantic Kernel framework. 
+# Define agents
+assistant = autogen.AssistantAgent(
+    name="Assistant",
+    llm_config={"model": "gpt-4o"}
+)
 
+user_proxy = autogen.UserProxyAgent(
+    name="User_Proxy",
+    human_input_mode="NEVER"
+)
 
+# Start conversation
+user_proxy.initiate_chat(
+    assistant,
+    message="How can I build a simple C# web app with an LLM backend?"
+)
+```
+
+For a glimpse of how Semantic Kernel is already beginning to integrate with AutoGen, see this example:
 
 ```python
 import asyncio
@@ -144,12 +169,9 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
-
 ```
 
-**Figure: How AutoGen agents can be used in Semantic Kernel **
-
-
+**Figure: How AutoGen agents can be used in Semantic Kernel**
 
 - - -
 
@@ -159,9 +181,9 @@ if __name__ == "__main__":
 | --------------------------------------- | ----------------------------- |
 | Production systems with simple workflows | **OpenAI Agents SDK**        |
 | Complex, stateful agent interactions    | **LangGraph**                 |
-| Role-based collaborating agents         | **CrewAI**                    |
 | Conversational agent research           | **AutoGen**                   |
-| No-code, proof of concept/prototyping | **n8n**                       |
+| No-code, proof of concept/prototyping   | **n8n**                       |
+| .NET/C# development (future)            | **Semantic Kernel + AutoGen** |
 
 
 
