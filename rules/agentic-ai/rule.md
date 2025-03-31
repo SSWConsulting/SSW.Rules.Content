@@ -12,9 +12,8 @@ related:
   - avoid-ai-hallucinations
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 ---
-# AI Agents: The Next Frontier in AI Development
 
-AI agents are autonomous entities powered by AI that can perform tasks, make decisions, and collaborate with other agents. Unlike traditional single-prompt LLM interactions, agents act as specialized workers with distinct roles, tools, and objectives. 
+AI agents are autonomous entities powered by AI that can perform tasks, make decisions, and collaborate with other agents. Unlike traditional single-prompt LLM interactions, agents act as specialized workers with distinct roles, tools, and objectives.
 
 `youtube: https://youtu.be/BlqJ7bnivLE`
 **Video: The Year of the AI Agent: Automation to Intelligence | Ulysses Maclaren | SSW User Group (1:30 hr)**
@@ -32,7 +31,7 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 
 ## Leading Agent Frameworks Comparison
 
-| Feature            | [Autogen](https://microsoft.github.io/autogen/stable/) | [OpenAI Agents](https://openai.github.io/openai-agents-python/) | [LangGraph](https://www.langchain.com/langgraph)           | [n8n](https://n8n.io/)                                |
+| Feature            | [Autogen](https://microsoft.github.io/autogen/stable/) ⭐️ | [OpenAI Agents](https://openai.github.io/openai-agents-python/) | [LangGraph](https://www.langchain.com/langgraph)           | [n8n](https://n8n.io/)                                |
 | ------------------ | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------- |
 | **Developed By**   | Microsoft                                              | OpenAI                                                       | LangChain                                                  | n8n                                                   |
 | **Best For**       | Multi-agent conversations, flexible agent topologies    | Production-ready pipelines with OpenAI models                | Complex stateful workflows, cyclical execution patterns    | No-code AI workflow automation                        |
@@ -56,6 +55,7 @@ The closer you get to the raw LLM API requests, the more customisable you can ma
 ### OpenAI Agents SDK
 
 The OpenAI Agents SDK is ideal when:
+
 * You require a straightforward, production-grade framework that's easy to learn
 * Your existing stack already includes OpenAI models and you want seamless integration
 * You need strong tracing and debugging capabilities built into the framework
@@ -64,6 +64,7 @@ The OpenAI Agents SDK is ideal when:
 ### LangGraph
 
 Consider LangGraph when:
+
 * Your project involves intricate, recurring workflows requiring sophisticated state handling
 * You're developing systems with multiple interconnected agents
 * You have prior experience with the LangChain ecosystem
@@ -73,6 +74,7 @@ Consider LangGraph when:
 ### AutoGen ⭐️
 
 AutoGen shines when:
+
 * Your application requires dynamic conversation flows between multiple agents
 * You're creating systems with diverse conversational agents working together
 * You value the backing of Microsoft's research division
@@ -81,6 +83,7 @@ AutoGen shines when:
 ### n8n
 
 Choose n8n if:
+
 * You need a no-code solution for building simple agent workflows
 * You want a visual, drag-and-drop interface
 * You have team members without coding experience who need to participate
@@ -172,18 +175,3 @@ if __name__ == "__main__":
 ```
 
 **Figure: How AutoGen agents can be used in Semantic Kernel**
-
-- - -
-
-## Framework Recommendations by Use Case
-
-| Use Case                                | Recommended Tool              |
-| --------------------------------------- | ----------------------------- |
-| Production systems with simple workflows | **OpenAI Agents SDK**        |
-| Complex, stateful agent interactions    | **LangGraph**                 |
-| Conversational agent research           | **AutoGen**                   |
-| No-code, proof of concept/prototyping   | **n8n**                       |
-| .NET/C# development (future)            | **Semantic Kernel + AutoGen** |
-
-
-
