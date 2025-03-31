@@ -12,31 +12,86 @@ created: 2025-03-29T14:20:00.000Z
 guid: e54fc2a1-edee-479b-8b76-b605e3a9f9d5
 ---
 
-Imagine walking into the kitchen and seeing a plain supermarket sponge cake with a “Happy Birthday” scrawled in icing... but no one knows whose birthday it is, and no one really cares.
+Imagine being the person who has to scramble for a last-minute cake or hunt for obscure Serbian food because someone’s birthday popped up without warning. Now multiply that by two or three birthdays a week.
 
-By putting just a little thought into how you celebrate birthdays, you can turn a routine gesture into something that genuinely boosts morale and brings people together.
+That might seem manageable in a small team, but it quickly becomes unscalable as your company grows. Celebrating every birthday on the exact day sounds nice in theory—but it drains time, attention, and money.
 
 <!--endintro-->
 
-### Make birthdays meaningful
+### Make birthdays scalable
 
-The best birthday celebrations are low-cost but high-impact, and they give the birthday person a little control.
+Celebrating birthdays is important—it shows appreciation and builds team morale. But like any good process, it should scale as your team grows.
 
-#### ❌ Don't just buy a cake
+Here are some common approaches:
 
-A birthday cake sounds like a nice idea, but it’s often a one-size-fits-all solution that doesn’t actually fit anyone. People have different tastes, dietary needs, or simply don’t want a big deal made. Worse, it can feel impersonal if it’s just a habit.
+---
 
-This often happens when someone's birthday is forgotten until the day 😮.
+### 🎂 Option A – Same-day celebration
 
-#### ✅ Let them get something personal
+This is the classic approach: celebrate someone’s birthday on the actual day with cake or a special lunch.
 
-Better than a generic celebration, giving someone a cool priviledge that week is a better way to celebrate.
+#### Why it’s not scalable:
 
-Some companies do free lunch on Fridays - a good example would be to let the birthday employee pick the free lunch food for that week.
-See the rule: <https://www.ssw.com.au/rules/do-you-reward-your-employees-for-doing-their-timesheets-on-time/>
+* Hard to maintain once you have 1+ birthday per week
+* Easy to forget or miss someone
+* Last-minute planning stresses whoever is responsible
 
-### General tips
+**Use this only if:**  
+You have a very small team (fewer than 10 people) and someone *loves* managing birthday logistics.
 
-* Ask how each person prefers to celebrate (the might not want to celebrate)
-* Include a short “Happy Birthday” shout-out sometime that week
-* Don’t make a big deal if they’re uncomfortable with attention
+---
+
+### 🎁 Option B – Let individuals choose how they celebrate
+
+Some teams give the birthday person a choice—e.g. pick the Friday lunch venue, get a small gift, or have a shout-out.
+
+#### Why it may/may not work:
+
+* Adds admin complexity—requires someone to follow up and remember preferences
+* Not all team members enjoy making these decisions
+* Still requires manual coordination
+
+**Use this if:**  
+Your culture is very personalized and you can handle the overhead.
+
+---
+
+### ✅ Option A – Monthly grouped celebrations (Recommended)
+
+Group all birthdays into a single celebration at the **end of each month**, ideally during something already on the calendar (e.g. Friday Free Lunch).
+
+
+#### Why this works best:
+
+* Scales well as your team grows
+* No one gets forgotten
+* Easy to delegate and automate
+
+The best way to do this is with a **monthly summary email** to the organizers using an **automated Power Automate flow**, scheduled for the **last Monday of each month**.
+
+::: email-template  
+| To:      | SSWFreeLunchMasters@ |
+| Subject: | Monthly Birthday Summary |
+::: email-content  
+
+### Hi Free Lunch Masters,
+
+The following birthdays happened this month:  
+1. Organize a celebration with/after Free Lunch this Friday  
+Tip: check any dietary needs in CRM | Users | {{ PERSON }}
+
+| Name           | Site       | Birthday   | Dietary Note  |
+|----------------|------------|------------|---------------|
+| {{ NAME }}     | {{ CITY }} | {{ DATE }} | N/A           |
+
+Note #1: This data is driven from {{ URL TO THE REPORT }}  
+
+Note #2: The people responsible are: {{ LINK TO THE CRM RESPONSIBIILITY }}
+
+<This email is sent as per https://www.ssw.com.au/rules/celebrate-birthdays>    
+
+:::
+:::
+::: good
+Figure: Good example – Automatically generated monthly birthday email that makes celebrations easy and scalable
+:::
