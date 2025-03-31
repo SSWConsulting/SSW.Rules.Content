@@ -42,6 +42,10 @@ Integrated into ChatGPT for detailed, realistic image generation from text promp
 
 ![Figure: "A red tree in a valley. Hi res" - by ChatGPT4o](chatgpt4o.png)
 
+## Ideogram
+
+![Figure: " A red tree in a valley. Hi res" - by Ideogram 3](idiogram3.webp)
+
 ## Google Imagen
 
 Offers exceptional photorealism and language comprehension.
@@ -50,6 +54,10 @@ Offers exceptional photorealism and language comprehension.
 * Produces highly detailed, realistic images
 
 ![Figure: "A red tree in a valley. Hi res" - by Imagen 3](imagen3.jpeg)
+
+## Reve
+
+![Figure: "A red tree in a valley. Hi res" - by Reve](reve.webp)
 
 ## Adobe Firefly
 
