@@ -10,6 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/eddie-kranz
 related:
   - avoid-ai-hallucinations
+  - use-semantic-kernel
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 ---
 
