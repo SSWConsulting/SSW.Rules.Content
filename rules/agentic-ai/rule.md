@@ -5,7 +5,9 @@ title: Do you build Agentic AI?
 seoDescription: Follow the industry best practises on building agentic AI from
   Australia's leading software consultancy.
 uri: agentic-ai
-authors: []
+authors:
+  - title: Eddie Kranz
+    url: https://www.ssw.com.au/people/eddie-kranz
 related:
   - avoid-ai-hallucinations
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
