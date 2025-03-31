@@ -13,7 +13,7 @@ related:
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 ---
 
-AI agents are autonomous entities powered by AI that can perform tasks, make decisions, and collaborate with other agents. Unlike traditional single-prompt LLM interactions, agents act as specialized workers with distinct roles, tools, and objectives. 
+AI agents are autonomous entities powered by AI that can perform tasks, make decisions, and collaborate with other agents. Unlike traditional single-prompt LLM interactions, agents act as specialized workers with distinct roles, tools, and objectives.
 
 `youtube: https://youtu.be/BlqJ7bnivLE`
 **Video: The Year of the AI Agent: Automation to Intelligence | Ulysses Maclaren | SSW User Group (1:30 hr)**
@@ -55,6 +55,7 @@ The closer you get to the raw LLM API requests, the more customisable you can ma
 ### OpenAI Agents SDK
 
 The OpenAI Agents SDK is ideal when:
+
 * You require a straightforward, production-grade framework that's easy to learn
 * Your existing stack already includes OpenAI models and you want seamless integration
 * You need strong tracing and debugging capabilities built into the framework
@@ -63,6 +64,7 @@ The OpenAI Agents SDK is ideal when:
 ### LangGraph
 
 Consider LangGraph when:
+
 * Your project involves intricate, recurring workflows requiring sophisticated state handling
 * You're developing systems with multiple interconnected agents
 * You have prior experience with the LangChain ecosystem
@@ -72,6 +74,7 @@ Consider LangGraph when:
 ### AutoGen ⭐️
 
 AutoGen shines when:
+
 * Your application requires dynamic conversation flows between multiple agents
 * You're creating systems with diverse conversational agents working together
 * You value the backing of Microsoft's research division
@@ -80,6 +83,7 @@ AutoGen shines when:
 ### n8n
 
 Choose n8n if:
+
 * You need a no-code solution for building simple agent workflows
 * You want a visual, drag-and-drop interface
 * You have team members without coding experience who need to participate
