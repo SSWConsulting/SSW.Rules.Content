@@ -51,7 +51,7 @@ When choosing a framework for building agents, you need to be aware of the trade
 
 For example, n8n is a no-code solution that is only really useful for automating simple workflows, while frameworks like LangGraph offer deeper control but with a steeper learning curve.
 
-Evidently, the closer you get to the LLM, the more customisable you can make it – however this may come at the cost of needing to reinvent the wheel sometimes.
+The closer you get to the raw LLM API requests, the more customisable you can make it – however, this will often come at the cost of additional development effort.
 
 ### OpenAI Agents SDK
 
