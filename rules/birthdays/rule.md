@@ -30,7 +30,7 @@ Here are some common approaches:
 
 This is the classic approach: celebrate someone’s birthday on the actual day with cake or a special lunch.
 
-#### Why it’s not scalable:
+#### Why it’s not scalable
 
 * Hard to maintain once you have 1+ birthday per week
 * Easy to forget or miss someone
@@ -45,7 +45,7 @@ You have a very small team (fewer than 10 people) and someone *loves* managing b
 
 Some teams give the birthday person a choice—e.g. pick the Friday lunch venue, get a small gift, or have a shout-out.
 
-#### Why it may/may not work:
+#### Why it may/may not work
 
 * Adds admin complexity—requires someone to follow up and remember preferences
 * Not all team members enjoy making these decisions
@@ -60,8 +60,7 @@ Your culture is very personalized and you can handle the overhead.
 
 Group all birthdays into a single celebration at the **end of each month**, ideally during something already on the calendar (e.g. Friday Free Lunch).
 
-
-#### Why this works best:
+#### Why this works best
 
 * Scales well as your team grows
 * No one gets forgotten
@@ -74,9 +73,10 @@ The best way to do this is with a **monthly summary email** to the organizers us
 | Subject: | Monthly Birthday Summary |
 ::: email-content  
 
-### Hi Free Lunch Masters,
+### Hi Free Lunch Masters
 
 The following birthdays happened this month:  
+
 1. Organize a celebration with/after Free Lunch this Friday  
 Tip: check any dietary needs in CRM | Users | {{ PERSON }}
 
@@ -88,7 +88,7 @@ Note #1: This data is driven from {{ URL TO THE REPORT }}
 
 Note #2: The people responsible are: {{ LINK TO THE CRM RESPONSIBIILITY }}
 
-<This email is sent as per https://www.ssw.com.au/rules/celebrate-birthdays>    
+<This email is sent as per <https://www.ssw.com.au/rules/celebrate-birthdays>>
 
 :::
 :::
