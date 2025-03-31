@@ -35,7 +35,6 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 >
 > \- A wise person
 
-
 ## The solution
 
 Exercise.
