@@ -21,8 +21,9 @@ archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
 
-`youtube: https://www.youtube.com/watch?v=wWGulLAa0O0`
-**Video: What happens inside your body when you exercise (2 min)**
+Daily exercise is essential for maintaining peak mental and physical performance. For developers and knowledge workers, staying active helps improve focus, reduce stress, and boost overall productivity. Whether it's a 20-minute walk, a quick gym session, or even stretching between meetings, regular movement keeps your energy levels up and your mind sharp. Just like writing clean code, consistency is key — a little each day makes a big difference over time.
+
+<!--endintro-->
 
 ## The problem
 
@@ -34,13 +35,15 @@ Research has increasingly linked sedentary behaviour to negative health outcomes
 >
 > \- A wise person
 
-<!--endintro-->
 
 ## The solution
 
 Exercise.
 
-#### You perform better when healthy
+`youtube: https://www.youtube.com/watch?v=wWGulLAa0O0`
+**Video: What happens inside your body when you exercise (2 min)**
+
+### You perform better when healthy
 
 Since physical fitness is linked to brain health, it should come as no surprise that it's also linked to performance on complex tasks.
 
@@ -50,7 +53,7 @@ Specifically your memory and thinking skills: [Harvard Business Review - How exe
 
 So, what's the best approach?
 
-#### Turn fitness into numbers (gamify 🎮)
+### Turn fitness into numbers (gamify 🎮)
 
 What's more of an accomplishment - 'I ran for 30 minutes', or 'I did a 5k in 20 minutes'?
 
@@ -65,15 +68,15 @@ With an appropriate tool - e.g. fitness band, smartphone, fitness ring - you can
 
 Download the app: [SSW Rewards](https://www.ssw.com.au/products/rewards)
 
-#### 🏃‍♂️‍➡️ Make it simple
+### 🏃‍♂️‍➡️ Make it simple
 
 [A healthy team is more energized, happy, and productive](https://www.cdc.gov/workplacehealthpromotion/initiatives/resource-center/case-studies/index.html), and a culture to encourage this should come from the top. The simplest plan is a walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
 
 Even though most of us are busy, all it takes is 20 minutes.
 
-For some people, these kinds of planned sessions work well. For others, it works better to have a [small habit that acts as a reminder](https://www.ssw.com.au/rules/lasting-habits/).
+For some people, these kinds of planned sessions work well. For others, it works better to have a [small habit that acts as a reminder](/lasting-habits).
 
-#### 🧠 Make a system
+### 🧠 Make a system
 
 Studies show that while working, taking 5 minute breaks every 30 mins increases productivity (see <https://www.ssw.com.au/rules/pomodoro>)
 You could use this break to [stretch or do a couple exercises](https://www.ssw.com.au/rules/stretch-at-work/).
