@@ -15,6 +15,8 @@ related:
 
 AI-powered IDEs like [Cursor](https://cursor.com) have revolutionized how developers write and understand code. However, their utility extends far beyond programming tasks. The same AI capabilities that make these tools excellent for coding can be leveraged for a wide range of non-coding tasks, from document editing to data manipulation.
 
+`youtube: https://www.youtube.com/watch?v=DCWJIDmHEgc`
+**Video: Digesting the Fat with AI | Eddie Kranz | SSW Rules**
 <!--endintro-->
 
 ## Why use Cursor for non-coding tasks?
@@ -69,6 +71,7 @@ Bob Wilson, 42,bob@example.com,  technical lead
 Sarah Chen,31,sarah@example.com,UX designer
 Mike Johnson, 29,mike@example.com,software engineer
 ```
+
 | Name | Age | Email | Job Title |
 |------|-----|-------|-----------|
 | John Smith | 34 | john@example.com | Senior Developer |
@@ -76,7 +79,7 @@ Mike Johnson, 29,mike@example.com,software engineer
 | Bob Wilson | 42 | bob@example.com | Technical Lead |
 | Sarah Chen | 31 | sarah@example.com | UX Designer |
 | Mike Johnson | 29 | mike@example.com | Software Engineer |
-
+**Figure: Cursor IDE turns CSV into Markdown tables with ease!**
 
 ### Agent mode for complex tasks
 
@@ -105,8 +108,6 @@ One of our most powerful use cases has been processing and analyzing survey resu
 - Create summary statistics and insights
 - Format results into presentation-ready tables
 
-`youtube: https://youtube.com/placeholder` 
-**Figure: Processing Chewing the Fat survey results with Cursor [placeholder - will add later]**
 
 ### Other non-coding applications
 
