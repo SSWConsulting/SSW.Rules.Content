@@ -147,7 +147,7 @@ async def main():
         llm_config={
             "config_list": [
                 {
-                    "model": "gpt-4", 
+                    "model": "gpt-4o", 
                     "temperature": 0.7, 
                     "api_key": os.environ.get("OPENAI_API_KEY")
                 }
