@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you build Agentic AI?
 seoDescription: Follow the industry best practises on building agentic AI from
-  Australia's leading software consultancy.
+  Australia's leading software consultancy. Best practises for Autogen, Semantic Kernel, LangChain, LangGraph, OpenAI, and n8n.
 uri: agentic-ai
 authors:
   - title: Eddie Kranz
