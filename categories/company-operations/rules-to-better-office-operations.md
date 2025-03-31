@@ -14,6 +14,7 @@ index:
   - know-where-your-staff-are
   - remind-your-staff-to-dress-well
   - reduce-your-admin
+  - celebrate-birthdays
   - continuous-learning
 ---
 
