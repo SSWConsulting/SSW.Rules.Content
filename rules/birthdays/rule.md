@@ -56,7 +56,7 @@ Your culture is very personalized and you can handle the overhead.
 
 ---
 
-### ✅ Option A – Monthly grouped celebrations (Recommended)
+### ✅ Option C – Monthly grouped celebrations (Recommended)
 
 Group all birthdays into a single celebration at the **end of each month**, ideally during something already on the calendar (e.g. Friday Free Lunch).
 
@@ -89,6 +89,7 @@ Note #1: This data is driven from {{ URL TO THE REPORT }}
 Note #2: The people responsible are: {{ LINK TO THE CRM RESPONSIBIILITY }}
 
 <This email is sent as per <https://www.ssw.com.au/rules/celebrate-birthdays>>
+::::::
 
 :::
 :::
