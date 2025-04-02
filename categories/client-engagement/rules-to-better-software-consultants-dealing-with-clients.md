@@ -21,7 +21,7 @@ index:
 - do-you-always-quote-price-plus-gst-tax
 - do-you-know-how-to-turn-requests-for-free-work-into-billable-work
 - do-you-avoid-invoicing-issues-where-possible-and-resolve-them-quickly-when-they-come-up
-- meetings-do-you-know-the-way-meetings-should-work
+- great-meetings
 - give-clients-a-warm-welcome
 - meetings-are-you-clear-about-billable-time-in-meetings
 - meetings-do-you-go-to-meetings-prepared
