@@ -24,16 +24,16 @@ Meetings don't have to be a drag. When they're done right, they actually help te
 
 Why meetings often don't work well:
 
-- There is a lot of discussion, but no resulting "action items"
-- Time is wasted digressing to unrelated topics
-- People do not attend because they forgot/missunderstood the date and time
-- People turn up late with no notice
+* There is a lot of discussion, but no resulting "action items"
+* Time is wasted digressing to unrelated topics
+* People do not attend because they forgot/missunderstood the date and time
+* People turn up late with no notice
 
 To ensure productive and successful meetings, you should:
 
-- Create and share the [meeting agenda](/share-the-agenda) prior to the meeting. If the discussion strays from the topic, the agenda will help you [keep it on track](/keep-track-of-a-parking-lot-for-topics)
-- Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
-- Make sure [the presentation setup is working](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)
+* Create and share the [meeting agenda](/share-the-agenda) prior to the meeting. If the discussion strays from the topic, the agenda will help you [keep it on track](/keep-track-of-a-parking-lot-for-topics)
+* Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
+* Make sure [the presentation setup is working](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)
 
 Meeting appointments should have:
 
@@ -46,14 +46,15 @@ Meeting appointments should have:
 
 For attendees:
 
-- Remember to accept the meeting invitation
-- If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving
+* Remember to accept the meeting invitation
+* If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving
 
 ::: info
 **Tip:** To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc.
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -73,6 +74,7 @@ Figure: Bad example - Meeting with bad subject, no agenda, and lack of informati
 :::
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob Northwind |
@@ -83,7 +85,7 @@ Figure: Bad example - Meeting with bad subject, no agenda, and lack of informati
 | End time: | 10:00AM |
 ::: email-content
 
-### Hi Mr. Northwind,
+### Hi Mr. Northwind
 
 Looking forward to our meeting at 8AM.
 
@@ -97,8 +99,8 @@ Looking forward to our meeting at 8AM.
 
 **Notes:**
 
-- See [directions and map to SSW Sydney](https://www.ssw.com.au/offices/sydney)
-- The account manager is not billable, the developers are billable
+* See [directions and map to SSW Sydney](https://www.ssw.com.au/offices/sydney)
+* The account manager is not billable, the developers are billable
 
 Regards,  
 **David**  
