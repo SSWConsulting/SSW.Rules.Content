@@ -182,6 +182,11 @@ Standardizing where your organisation stores architecture diagrams ensures a con
 
 ### Alternatives to draw.io
 
+
+**Eraser**
+
+Another popular tool is [Eraser](app.eraser.io) which provide many industry standard icons, features, and tools that are used for architecture diagrams and software design blueprints.
+
 **Miro (by Adobe)**
 
 [Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose. As a diagramming tool, it is lacking in features compared to draw.io, but it can be used to create simple diagrams.
