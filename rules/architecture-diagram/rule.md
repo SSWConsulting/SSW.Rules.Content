@@ -168,6 +168,8 @@ Make sure to tick *Include a copy of my diagram* is selected. This will let you 
 
 To make it easy to tell that you can open the file in draw.io, ensure that the file extension is `.drawio.png`. 
 
+Read more in the docs - https://www.drawio.com/doc/faq/export-to-png
+
 ### Tip #11: Where to store Diagrams?
 
 Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder).
