@@ -22,20 +22,20 @@ Meetings don't have to be a drag. When they're done right, they actually help te
 
 <!--endintro-->
 
-Why meetings often don't work well:
+## Why meetings often don't work well
 
 * There is a lot of discussion, but no resulting "action items"
 * Time is wasted digressing to unrelated topics
 * People do not attend because they forgot/missunderstood the date and time
 * People turn up late with no notice
 
-To ensure productive and successful meetings, you should:
+## Ensure productive and successful meetings
 
 * Create and share the [meeting agenda](/share-the-agenda) prior to the meeting. If the discussion strays from the topic, the agenda will help you [keep it on track](/keep-track-of-a-parking-lot-for-topics)
 * Send an appointment to all meeting attendees to ensure the meeting appears on their calendar
 * Make sure [the presentation setup is working](https://my.sugarlearning.com/SSW/items/13053/av-setup-for-microsoft-teams-meetings-sydney-chapel)
 
-Meeting appointments should have:
+### Meeting appointments should have
 
 1. [A good subject](/good-email-subject), to let attendees know the purpose of the meeting
 2. Details of the location, including full address and a link for directions/maps
@@ -44,14 +44,10 @@ Meeting appointments should have:
 5. A note mentioning if the meeting is billable or not
 6. [Standard signature](/great-email-signatures) (as in email messages)
 
-For attendees:
+## For attendees
 
 * Remember to accept the meeting invitation
 * If you are going to be late, contact the organizer or the person in charge of the meeting to let them know that you are running late and what time you will be arriving
-
-::: info
-**Tip:** To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc.
-:::
 
 ::: email-template  
 
@@ -111,3 +107,8 @@ SSW Software Developer | Sydney, Australia | Phone: +61 X XXX XXXX
 ::: good
 Figure: Good example - Meeting appointment with a good subject, the agenda, and more useful information  
 :::
+
+## After the meeting
+
+* The primary objective of most meetings should be to establish clear next steps. Make them [action items and assign them to the right people](/creating-action-items)
+* To improve future meetings, at the end of the meeting, do a quick debrief to see how long the meeting took, if anything was covered that didn't need to be, etc
