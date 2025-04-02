@@ -120,7 +120,7 @@ Putting something on a whiteboard is "low risk" for the participants as its real
 ![Figure: Better example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!](reward-hand-drawn-sketch-office-lens.jpg)
 :::
 
-### Tip #7: ...and Finish up with Draw.io
+### Tip #7: ...and finish up with draw.io
 
 The best tool for creating these diagrams is [draw.io](https://draw.io/). All the examples on this page were created with this tool.
 
@@ -144,7 +144,7 @@ There are multiple extensions available that let you do this, the best one is [V
 ![Figure: Good example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
 :::
 
-### Tip #8: Polish up Draw.io
+### Tip #8: Polish up draw.io
 
 Maintain standards to keep your diagrams consistent:
 
@@ -170,7 +170,7 @@ To make it easy to tell that you can open the file in draw.io, ensure that the f
 
 Read more in the docs - https://www.drawio.com/doc/faq/export-to-png
 
-### Tip #11: Where to store Diagrams?
+### Tip #11: Where to store diagrams?
 
 Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder).
 
