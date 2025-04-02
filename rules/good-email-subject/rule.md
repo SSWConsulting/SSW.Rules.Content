@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you realize the importance of a good email subject?
+title: Do you realize the importance of a good email/appointment subject?
 seoDescription: Learn the art of crafting impactful email subject lines to boost open rates, prioritize messages, and capture attention. This guide provides practical examples for writing clear, concise, and searchable subjects
 uri: good-email-subject
 authors:
@@ -28,7 +28,7 @@ If there's anything to be learned from spammers, they know how to get your atten
 
 <!--endintro-->
 
-![**Figure: Make your email stand out!**](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
+![Figure: Make your email stand out!](https://github.com/user-attachments/assets/9b67be39-50ee-4563-ab4f-0e273613788c)
 
 Just as we are told, 'Don't judge a book by its cover', we sometimes judge an email by its subject.
 We send and receive so many emails each day, therefore it's important to use the email subject to grab your recipient's attention.
