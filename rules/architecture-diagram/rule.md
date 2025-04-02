@@ -189,7 +189,7 @@ Another popular tool is [Eraser](app.eraser.io) which provide many industry stan
 
 **Miro (by Adobe)**
 
-[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose. As a diagramming tool, it is lacking in features compared to draw.io, but it can be used to create simple diagrams.
+[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose.
 
 **Note:** The paid version of Miro gives you Azure Architecture Diagram templates - see [miro.com/templates/azure-architecture-diagram/](https://miro.com/templates/azure-architecture-diagram/)
 
