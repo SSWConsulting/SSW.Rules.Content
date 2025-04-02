@@ -8,7 +8,7 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related: null
 created: 2021-07-20T06:35:55.000Z
-archivedreason: null
+archivedreason: Replaced by https://www.ssw.com.au/rules/great-meetings
 guid: 7eb5ed64-e599-4575-9a5f-e5c963e82ba2
 ---
 
@@ -20,5 +20,6 @@ A meeting can be useful if it meets these three criteria:
 
 * [You know what you're going to do in it](/share-the-agenda)
 * [You do the thing](/stick-to-the-agenda-and-complete-the-meetings-goal)
-* At the end, somebody [emails the summary and action items out](/share-the-action-items-that-came-up):\
-  _‘OK, we’re all going to do these things going forward.’_
+* At the end, somebody [emails the summary and action items out](/share-the-action-items-that-came-up):
+  
+  > _‘OK, we’re all going to do these things going forward.’_
