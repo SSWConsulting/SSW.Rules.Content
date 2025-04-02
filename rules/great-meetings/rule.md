@@ -6,6 +6,10 @@ uri: great-meetings
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related:
   - share-the-agenda
   - stick-to-the-agenda-and-complete-the-meetings-goal
@@ -13,7 +17,7 @@ related:
 redirects:
   - meetings-do-you-know-the-way-meetings-should-work
 created: 2010-07-16T06:08:10.000Z
-archivedreason: superceded by [https://www.ssw.com.au/rules/rules-to-better-meetings](/rules/rules-to-better-meetings)
+archivedreason: 
 guid: a3e99985-98f5-40b5-95e9-c39a8e596886
 
 ---
