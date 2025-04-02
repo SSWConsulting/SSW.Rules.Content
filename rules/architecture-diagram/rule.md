@@ -5,10 +5,8 @@ uri: architecture-diagram
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related:
   - awesome-documentation
   - azure-resources-diagram
