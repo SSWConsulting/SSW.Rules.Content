@@ -8,6 +8,7 @@ index:
 - make-sure-the-meeting-needs-to-exist
 - only-invite-the-minimum-number-of-people-possible
 - the-3-criteria-that-make-a-good-meeting
+- great-meetings
 - share-the-agenda
 - start-meetings-with-energy
 - recognize-anchoring-effects
