@@ -25,6 +25,7 @@ index:
 - manage-security-risks-when-adopting-ai-solutions
 - manage-legal-implications-of-ai
 - mitigate-brand-risks-ai
+- mcp-server
 
 ---
 
