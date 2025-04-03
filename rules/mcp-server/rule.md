@@ -1,6 +1,5 @@
 ---
 type: rule
-tips: ""
 title: Do you have an MCP server to let AI agents plug into your app?
 seoDescription: Boost your app's AI capabilities with an MCP server. This SSW
   Rule explains how to simplify integration, improve scalability, and stay ahead
