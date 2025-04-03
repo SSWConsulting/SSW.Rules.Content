@@ -11,7 +11,7 @@ authors:
 guid: ddaf9969-7cb9-408c-8f2a-18ce128decc4
 ---
 Anthropic launched the Model Context Protocol (MCP) in November 2024 to streamline AI integration, quickly earning adoption from major players like OpenAI and Microsoft. It’s now the leading standard for seamless, context-aware AI connections, revolutionizing how developers create and scale AI-powered apps.
-
+<!--endintro-->
 ## Why You Should Have an MCP Server
 Having an MCP server simplifies the process of integrating AI agents with your application. It acts as a universal hub, much like a standardized power outlet, allowing AI agents to plug in without the need for bespoke wiring for every tool or service.
 
