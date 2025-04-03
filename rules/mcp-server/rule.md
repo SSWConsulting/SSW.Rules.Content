@@ -5,6 +5,9 @@ seoDescription: Boost your app's AI capabilities with an MCP server. This SSW
   Rule explains how to simplify integration, improve scalability, and stay ahead
   in the AI landscape.
 uri: mcp-server
+related: []
+redirects: []
+created: 2025-04-03T01:13:03.961Z
 authors:
   - title: Calum Simpson
     url: https://www.ssw.com.au/people/calum-simpson
