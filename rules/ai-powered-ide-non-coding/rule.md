@@ -15,9 +15,10 @@ related:
 
 AI-powered IDEs like [Cursor](https://cursor.com) have revolutionized how developers write and understand code. However, their utility extends far beyond programming tasks. The same AI capabilities that make these tools excellent for coding can be leveraged for a wide range of non-coding tasks, from document editing to data manipulation.
 
+<!--endintro-->
+
 `youtube: https://www.youtube.com/watch?v=DCWJIDmHEgc`
 **Video: Digesting the Fat with AI | Eddie Kranz | SSW Rules**
-<!--endintro-->
 
 ## Why use Cursor for non-coding tasks?
 
@@ -28,7 +29,7 @@ Cursor integrates powerful AI models from OpenAI, Anthropic, Google, DeepSeek, a
 - **Familiar interface** - Leveraging the same environment you use for coding
 - **Agent mode** - Breaking complex tasks into manageable steps automatically
 - **File manipulation** - Easily transform, reformat, and analyze content across various file formats
-- **MCP support** - Integration with MCP servers (e.g. GitHub) for enhanced workflows with other tools. <!-- TODO: Write rule on this -->
+- **MCP support** - Integration with MCP servers (e.g. GitHub) for enhanced workflows with other tools <!-- TODO: Write rule on this -->
 
 ## Common non-coding use cases
 
