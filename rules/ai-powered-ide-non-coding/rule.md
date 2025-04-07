@@ -18,7 +18,7 @@ AI-powered IDEs like [Cursor](https://cursor.com) have revolutionized how develo
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=DCWJIDmHEgc`
-**Video: Digesting the Fat with AI | Eddie Kranz | SSW Rules**
+**Video: Digesting the Fat with AI | Eddie Kranz | SSW Rules (6 min)**
 
 ## Why use Cursor for non-coding tasks?
 
