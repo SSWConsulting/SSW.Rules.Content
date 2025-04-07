@@ -15,7 +15,7 @@ authors:
 related:
   - keep-your-social-media-updated
 created: 2023-11-27T04:42:22.000Z
-archivedreason: null
+archivedreason: obsolete because LinkedIn removed this mode
 guid: a966bc7d-7e28-4496-aba1-d2b6b6eb6067
 ---
 
