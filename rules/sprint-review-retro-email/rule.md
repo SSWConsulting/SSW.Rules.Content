@@ -1,6 +1,9 @@
 ---
 type: rule
 title: Do you create a Sprint Review/Retro email?
+seoDescription: Learn how to create a structured Sprint Review/Retro email
+  template with best practices for clear communication and effective team
+  collaboration in Agile processes.
 uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
@@ -13,6 +16,8 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
 related:
   - roadmap
   - do-you-know-what-happens-at-a-sprint-retrospective-meeting
@@ -32,12 +37,13 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: info
+
 * It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
 * Move all the dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner
-
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
@@ -59,7 +65,7 @@ Please see below for a more detailed breakdown of the Sprint:
 |                    |                                      |
 | ------------------ | ------------------------------------ |
 | Sprint in Review:  | {{ SPRINT NUMBER }}                  |
-| Summary Recording: | {{ VIDEO URL }} ({{ VIDEO LENGTH }}) |
+| Summary Recording: | {{ YOUTUBE PLAYLIST URL }}           |
 | Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
 | Project:           | {{ PROJECT NAME }}                   |
 | Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
@@ -141,6 +147,11 @@ Progress:
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
+11. AI Use - what tools did you use?
+
+* {{ PERSON }} - {{ TOOL }}
+* {{ ETC }}
+
 ### Sprint Retrospective
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
@@ -156,6 +167,12 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 💡 **What improvements will be made for the next Sprint?**
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
+
+⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
+
+As per <https://www.ssw.com.au/rules/for-the-record/>
+
+{{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
 **Definition of Ready** *(Optional)*
 
