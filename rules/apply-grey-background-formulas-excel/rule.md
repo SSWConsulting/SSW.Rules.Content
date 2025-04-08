@@ -2,7 +2,7 @@
 seoDescription: Apply a grey (or gray) background to formula cells in Excel to reduce errors and make your spreadsheet easier to read and maintain.
 type: rule
 title: Do you apply a grey background to cells containing formulas in Excel?
-uri: do-you-apply-grey-background-to-formula-cells
+uri: excel-distinguish-calculated-cells
 authors:
   - title: Suzanne Gibson
 created: 2025-04-08T11:38:00.000Z
@@ -29,9 +29,6 @@ To make Excel spreadsheets clearer and more robust, it's best practice to apply 
 
 ## Example
 
-::: greybox
-A budget spreadsheet with input cells in white and calculation cells with a light grey background.
-:::
 ::: good
 Figure: Good Example – Clearly separates input from calculated cells, reducing user error
 :::
