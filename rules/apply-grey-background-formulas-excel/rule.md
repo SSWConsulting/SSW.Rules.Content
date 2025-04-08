@@ -17,9 +17,9 @@ Applying a grey background to formula cells makes it easy to spot them at a glan
 
 To make Excel spreadsheets clearer and more robust, it's best practice to apply a **light grey background** to all formula cells. This helps:
 
-- Prevent accidental overwriting of formulas
-- Make the structure of the spreadsheet easier to understand
-- Save time for others (and your future self) when maintaining the file
+* Prevent accidental overwriting of formulas
+* Make the structure of the spreadsheet easier to understand
+* Save time for others (and your future self) when maintaining the file
 
 ## How to apply the formatting
 
