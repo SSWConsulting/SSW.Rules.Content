@@ -5,6 +5,7 @@ guid: 471816bf-f0df-4835-bf4d-66a90f6f1adc
 uri: rules-to-better-communication
 index:
   - follow-up-effectively
+  - excel-distinguish-calculated-cells
   - keep-tasks-handy-for-calls
   - tool-for-facilitating-real-time-collaboration
   - catering-to-audience
