@@ -6,6 +6,8 @@ uri: excel-distinguish-calculated-cells
 authors:
   - title: Suzanne Gibson
     url: https://www.ssw.com.au/people/suzanne-gibson
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 created: 2025-04-08T11:38:00.000Z
 guid: d9f52cf4-b7c6-49e0-b7b5-dc5b9c5e5b56
 ---
@@ -34,6 +36,6 @@ To make Excel spreadsheets clearer and more robust, it's best practice to apply 
 
 ## Bonus tip
 
-Also consider using **cell styles** to standardize this across your organization. Create a custom style for "Formula Cell" with the grey fill, and train your team to use it.
+Also consider using **cell styles** to standardize this across your organization. Create a custom style for "Formula Cell" with the grey fill.
 
 This visual convention goes a long way in creating clean, maintainable, and user-friendly Excel sheets.
