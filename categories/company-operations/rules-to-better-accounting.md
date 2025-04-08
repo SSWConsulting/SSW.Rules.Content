@@ -19,6 +19,7 @@ index:
 - maximize-superannuation-benefits
 - salary-terminology
 - do-you-calculate-payroll-tax-correctly
+- excel-distinguish-calculated-cells
 - show-certification-award
 - report-gas-in-the-tank
 - do-you-check-your-customers-organisation-age-for-prepaid
