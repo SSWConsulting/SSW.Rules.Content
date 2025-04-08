@@ -5,7 +5,7 @@ title: Do you apply a grey background to cells containing formulas in Excel?
 uri: excel-distinguish-calculated-cells
 authors:
   - title: Suzanne Gibson
-  - url: https://www.ssw.com.au/people/suzanne-gibson
+    url: https://www.ssw.com.au/people/suzanne-gibson
 created: 2025-04-08T11:38:00.000Z
 guid: d9f52cf4-b7c6-49e0-b7b5-dc5b9c5e5b56
 ---
