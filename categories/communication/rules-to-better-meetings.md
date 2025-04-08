@@ -7,6 +7,7 @@ index:
 
 - make-sure-the-meeting-needs-to-exist
 - only-invite-the-minimum-number-of-people-possible
+- teams-meetings-vs-group-chats
 - the-3-criteria-that-make-a-good-meeting
 - great-meetings
 - share-the-agenda
