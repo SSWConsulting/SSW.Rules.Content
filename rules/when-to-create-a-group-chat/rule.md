@@ -8,6 +8,7 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
 related:
   - cc-and-reply-to-all
+  - teams-meetings-vs-group-chats
 created: 2022-06-30T02:04:24.883Z
 guid: 1036c4df-cca2-499b-bce9-705ed66abe0a
 ---
@@ -15,6 +16,8 @@ guid: 1036c4df-cca2-499b-bce9-705ed66abe0a
 If you intend to talk about someone in your chat, it's best to add that person to a group chat.
 
 This approach is useful before starting a Teams call and you can simply say _"I'll call you in 5 mins"_ in your group chat to let everyone in the group know that you need to chat with them.
+
+Group chats should also be used to [replace meeting chats if they need non-attendees to join](/teams-meetings-vs-group-chats).
 
 <!--endintro-->
 
