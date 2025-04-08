@@ -5,7 +5,6 @@ guid: 471816bf-f0df-4835-bf4d-66a90f6f1adc
 uri: rules-to-better-communication
 index:
   - follow-up-effectively
-  - excel-distinguish-calculated-cells
   - keep-tasks-handy-for-calls
   - tool-for-facilitating-real-time-collaboration
   - catering-to-audience
@@ -15,6 +14,7 @@ index:
   - defining-pbis
   - explaining-pbis
   - meaningful-pbi-titles
+  - excel-distinguish-calculated-cells
   - useful-information-on-changes
   - the-best-chat-tools-for-your-employees
   - do-you-have-successful-remote-meetings
