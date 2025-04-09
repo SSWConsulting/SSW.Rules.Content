@@ -40,7 +40,7 @@ Here's how you can join Discord:
 
 4. (optional) Install Discord on your phone via the [App Store](https://apps.apple.com/us/app/discord-talk-play-hang-out/id985746746) or [Google Play](https://play.google.com/store/apps/details?id=com.discord&hl=en_US)
 
-5. Find your community and join a few servers. Look for Discord invite links on websites, GitHub repos, newsletters, or social media. You will need an invite link to join a server. Some servers will allow a friend to send you an invite, and others you will need an invite directly from the server owner
+5. Find your community and [join a few servers](https://dev.to/mishmanners/best-community-tech-discord-servers-to-join-4gie). Look for Discord invite links on websites, GitHub repos, newsletters, or social media. You will need an invite link to join a server. Some servers will allow a friend to send you an invite, and others you will need an invite directly from the server owner
 
 ::: good example :::
 
