@@ -1,8 +1,8 @@
 ---
 type: rule
 tips: ""
-title: Do you know Teams Meeting chats aren’t visible to non-attendees?
-seoDescription: Learn why Teams Meeting chats are limited to attendees and how
+title: Do you know Teams meeting chats aren’t visible to non-attendees?
+seoDescription: Learn why Teams meeting chats are limited to attendees and how
   using group chats ensures message history and wider participation, especially
   for polls and follow-ups.
 uri: teams-meetings-vs-group-chats
@@ -22,12 +22,12 @@ If others need to be part of the discussion or you want to continue the conversa
 
 <!--endintro-->
 
-Group chats should be used when you want to:
+Use **group chats** instead of **meeting chats** when you want to:
 
-* Include anyone you choose to the chat, regardless of meeting attendance
+* Allow anyone you choose to see the chat (including the full message history), regardless of meeting attendance
+* Make [reaction polls](/easy-questions/#ask-for-reactions-for-multiple-options), where you may want to gather extra opinions or continue the discussion later
+* Stay accessible in the chats list on the left side of Teams app
 
-  * This is especially needed for [reaction polls](/easy-questions/#ask-for-reactions-for-multiple-options), where you may want to gather extra opinions or continue the discussion later.
-* Show the full message history to everyone in the group
-* Stay accessible in the Chats list on the left side of Teams
-
-**Tip:** Start a group chat before the meeting and paste the meeting link inside. That way, everyone stays on the same page and the conversation continues seamlessly.
+::: info
+**Tip:** Start a group chat **before** the meeting and paste the meeting link inside. That way, everyone stays on the same page and the conversation continues seamlessly.
+:::
