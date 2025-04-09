@@ -19,7 +19,7 @@ The tech community thrives on collaboration, communication, and shared learning.
 
 Discord is home to thousands of global tech communities. By joining public servers and engaging in open conversations—especially in public channels or GitHub Discussions—you help foster a collaborative environment where everyone can learn and contribute.
 
-Benefits of engaging in public forums like Discord and GitHub Discussions:
+### Benefits
 
 * Shared knowledge and transparency
 * Centralized communication for features, bugs, and issues
@@ -28,19 +28,13 @@ Benefits of engaging in public forums like Discord and GitHub Discussions:
 
 Many projects now link GitHub Discussions directly to their Discord channels, making both platforms equally valuable for community interaction.
 
-By opening conversation in public channels, such as Discord and/or public GitHub Issues, rather than internally opening issues/PBIs, means everyone in the community can benefit and learn together. This also creates a central location for issues/features/bugs, and encourages members of the community to be involved. This is super important for open source projects.
-
-Alternatively, many projects and services link their GitHub Discussions to a channel in their Discords server, and thus posting on GitHub Discussions is equally valued.
-
-If you're working on a project, particularly in support, engineering, or marketing, check to see if your project has a Discord server and join it to help answer questions from the community and engage. If you're using a product or service that you enjoy, check to see if that community has a Discord server and join it.
-
 Here's how you can join Discord:
 
 1. Head to the [Discord website](https://discord.com/), and either download Discord for PC or open in Browser
 
 2. Either sign in or register for a Discord account. If you already have a personal account, and want another account for work, sign up for a new account
 
-3. If you're setting up an account for the first time, set your display name, profile picture, pronouns, avatar, and any other personal preferences. You can do this via Discord | User settings | My Account | Edit User Profile: 
+3. If you're setting up an account for the first time, set your display name, profile picture, pronouns, avatar, and any other personal preferences. You can do this via Discord | User settings | My Account | Edit User Profile:
 
 ![Figure: Profile page where you can change your user preferences](profile.png)
 
@@ -61,6 +55,12 @@ As an example, we have Discord servers for [Tina](https://discord.com/invite/zum
 7. Head to a welcome channel, such as #general, #discussions, or #introductions to say hi and share a bit about yourself
 
 ## Tips for Engaging on Discord in Tech Communities
+
+By opening conversation in public channels, such as Discord and/or public GitHub Issues, rather than internally opening issues/PBIs, means everyone in the community can benefit and learn together. This also creates a central location for issues/features/bugs, and encourages members of the community to be involved. This is super important for open source projects.
+
+Alternatively, many projects and services link their GitHub Discussions to a channel in their Discords server, and thus posting on GitHub Discussions is equally valued.
+
+If you're working on a project, particularly in support, engineering, or marketing, check to see if your project has a Discord server and join it to help answer questions from the community and engage. If you're using a product or service that you enjoy, check to see if that community has a Discord server and join it.
 
 * Use public threads and channels instead of private messages for transparency
 * Stay respectful and always follow the community’s code of conduct
