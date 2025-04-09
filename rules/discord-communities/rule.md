@@ -13,7 +13,7 @@ authors:
     url: https://www.ssw.com.au/people/matt-wicks/
 guid: 5bd712ca-2495-44cf-87c6-fe0b33e44063
 ---
-The tech community thrives on collaboration, communication, and shared learning. Discord has become one of the top platforms for developers, engineers, and open source contributors to connect. Whether you're working in support, marketing, or engineering, joining a tech-focused Discord server can help you stay informed and involved.
+The tech community thrives on collaboration, communication, and shared learning. Discord has become one of the top platforms for developers, engineers, and open source contributors to connect. Whether you're working in support, marketing, or engineering, joining a tech-focused Discord server can help you stay informed and involved. Check out the [blog post on ten of the top community Discord servers to join](https://dev.to/mishmanners/best-community-tech-discord-servers-to-join-4gie) and find your next favorite server.
 
 ## Why Use Discord for Tech Community Engagement?
 
@@ -65,7 +65,3 @@ If you're working on a project, particularly in support, engineering, or marketi
 * Use public threads and channels instead of private messages for transparency
 * Stay respectful and always follow the community’s code of conduct
 * Offer help when you can. By sharing your knowledge, you'll boosts your own learning and helps others
-
-## Bonus: Find Top Tech Discord Servers
-
-Want to explore new communities? Check out the [blog post on ten of the top community Discord servers to join](https://dev.to/mishmanners/best-community-tech-discord-servers-to-join-4gie) and find your next favorite server.
