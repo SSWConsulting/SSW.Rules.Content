@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know how you join and engage in communities on Discord?
+title: Do you join and engage in communities on Discord?
 seoDescription: Discover how to join Discord servers, engage in public tech
   forums, and contribute to open source projects. Learn how to find and
   participate in vibrant online tech communities.
