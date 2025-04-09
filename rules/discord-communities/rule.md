@@ -46,7 +46,7 @@ Here's how you can join Discord:
 
 As an example, we have Discord servers for [Tina](https://discord.com/invite/zumN63Ybpf) and [YakShaver](https://discord.gg/Jp9dyxKFjR). If you were to join these servers you'll see them  listed under your servers:
 
-![Figure: Discord with the Tina and YakShaver servers added](screenshot-2025-04-02-190625-2-.png)
+![Good Figure: Discord with the Tina and YakShaver servers added](screenshot-2025-04-02-190625-2-.png)
 
 :::
 
