@@ -43,7 +43,7 @@ When you have a complex business case, you need something more customizable. Tha
 * [DotNetNuke](https://www.dnnsoftware.com/answers/dnn-pricing) - (open source / pricing non-transparent)
 * [Sitefinity](https://www.progress.com/sitefinity-cms/how-to-buy) - ($$ approx $40k per year)
 * [SiteCore](https://www.sitecore.com/products) - ($$ approx $50k per year)
-* [Umbraco](https://umbraco.com/umbraco-cms-pricing) - (open source / pricing non-transparent)
+* [Umbraco](https://umbraco.com/products/umbraco-cms) - (open source / pricing non-transparent)
 * [Kentico Xperience](https://xperience.io/pricing) - (formerly Kentico EMS / $$ approx $20k per year)
 
 **Source:** [Top 5 .NET Based CMS Platforms For Your Business](https://theonetechnologies.com/blog/post/top-5-dot-net-based-cms-platforms) (Updated 2023)
