@@ -27,9 +27,9 @@ They have variations of sizes according to the placement, for example, banner, p
 
 As all of them will have different specifications, so it’s best to check their support if you have any questions regarding this. Hootsuite is a reliable source, for example, check this guide: [Social Media Image Sizes 2022: Cheat Sheet for Every Network](https://blog.hootsuite.com/social-media-image-sizes-guide/#). It is important to know this, as posting on social media with the correct dimensions impacts how engaging your posts will be.
 
-### Twitter
+### X (was Twitter)
 
-On [Twitter](https://www.twitter.com), we have the following variations for images:
+On [X](https://x.com), we have the following variations for images:
 
 - Image post
 - Cover photo
