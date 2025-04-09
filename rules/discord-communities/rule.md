@@ -34,7 +34,7 @@ Here's how you can join Discord:
 
 2. Either sign in or register for a Discord account. If you already have a personal account, and want another account for work, sign up for a new account
 
-3. If you're setting up an account for the first time, set your display name, profile picture, pronouns, avatar, and any other personal preferences. You can do this via Discord | User settings | My Account | Edit User Profile: 
+3. If you're setting up an account for the first time, set your display name, profile picture, pronouns, avatar, and any other personal preferences. You can do this via Discord | User settings | My Account | Edit User Profile:
 
 ![Figure: Profile page where you can change your user preferences](profile.png)
 
