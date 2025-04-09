@@ -14,7 +14,6 @@ index:
   - defining-pbis
   - explaining-pbis
   - meaningful-pbi-titles
-  - excel-distinguish-calculated-cells
   - useful-information-on-changes
   - the-best-chat-tools-for-your-employees
   - do-you-have-successful-remote-meetings
