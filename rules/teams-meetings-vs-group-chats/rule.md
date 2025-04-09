@@ -18,7 +18,7 @@ guid: c02271bd-ea8e-4806-9d21-9082b1fa51d5
 ---
 Teams Meeting chats are **only** visible to people who were invited to the meeting. If someone joins late or isn’t invited, they won’t see the previous conversation.
 
-If others need to be part of the discussion or you want to continue the conversation after the meeting ends, **create a group chat instead**. 
+If others need to be part of the discussion or you want to continue the conversation after the meeting ends, **create a group chat instead**.
 
 <!--endintro-->
 
