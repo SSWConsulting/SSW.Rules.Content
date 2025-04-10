@@ -19,8 +19,8 @@ redirects:
 ---
 
 To ensure clarity and consistency in our calendar invites, please follow the naming conventions below when scheduling meetings:
-	•	For an Initial Meeting, include **“Initial Meeting”** in the subject line.
-	•	For a Specification Review, include **“Spec Review”** in the subject line.
+ • For an Initial Meeting, include **“Initial Meeting”** in the subject line.
+ • For a Specification Review, include **“Spec Review”** in the subject line.
 
 This helps everyone quickly identify the purpose of the meeting, improves calendar visibility, and supports accurate reporting.
 
