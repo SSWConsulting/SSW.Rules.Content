@@ -50,7 +50,7 @@ If you're looking for useful tips on how to make great videos, please see this r
 
 If you need to make edits on your recording, please see this rule: [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/)
 
-Note: Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points… it gives *some* window into the team, but not everything.
+**Note:** Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points... it gives *some* window into the team, but not everything.
 
 ## Share the Sprint Meeting summary recording
 
