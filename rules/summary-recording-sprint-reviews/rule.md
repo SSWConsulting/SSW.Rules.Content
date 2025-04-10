@@ -58,7 +58,11 @@ If you've never uploaded a video to YouTube, you can follow [this tutorial](http
 
 **Note:** Don't forget to check that you're uploading to the right channel. Ideally have a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
 
-You will need to provide some information such as a title, description and thumbnail.
+You will fill the title, description, and thumbnail fields with clear, helpful content to improve visibility and engagement.
+
+::: info
+**Tip:** Sometimes you may want to trim some parts of the video (i.e. Long silence at start or end). [Videos can be trimmed straight on YouTube Editor](https://support.google.com/youtube/answer/9057455?hl=en).
+:::
 
 ### Video title
 
@@ -95,10 +99,6 @@ Below is a good example of how a Sprint Summary video should look like on YouTub
 
 ::: good
 ![Figure: Good example – The video contains a great title, description and thumbnail](good-example-video-title-description.png)
-:::
-
-::: info
-**Tip:** Sometimes you may want to trim some parts of the video (i.e. Long silence at start or end). [Videos can be trimmed straight on YouTube Editor](https://support.google.com/youtube/answer/9057455?hl=en).
 :::
 
 ::: greybox
