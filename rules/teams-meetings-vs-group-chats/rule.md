@@ -22,7 +22,7 @@ If others need to be part of the discussion or you want to continue the conversa
 
 <!--endintro-->
 
-Use **group chats** instead of **meeting chats** when you want to:
+Use **group chats** - instead of meeting chats - when you want to:
 
 * Allow anyone you choose to see the chat (including the full message history), regardless of meeting attendance
 * Make [reaction polls](/easy-questions/#ask-for-reactions-for-multiple-options), where you may want to gather extra opinions or continue the discussion later
