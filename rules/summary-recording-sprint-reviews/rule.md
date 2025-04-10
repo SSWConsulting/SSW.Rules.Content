@@ -58,7 +58,7 @@ If you've never uploaded a video to YouTube, you can follow [this tutorial](http
 
 **Note:** Don't forget to check that you're uploading to the right channel. Ideally have a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
 
-You will need to provide some information such as a title, description and thumbnail. 
+You will need to provide some information such as a title, description and thumbnail.
 
 ### Video title
 
