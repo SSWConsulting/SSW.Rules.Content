@@ -10,6 +10,7 @@ index:
 - do-you-realize-that-a-good-interface-should-not-require-instructions
 - do-you-make-users-intuitively-know-how-to-use-something
 - always-reduce-complexity
+- avoid-labels
 - date-and-time-of-change-as-tooltip
 - enforce-the-text-meaning-with-icons-and-emojis
 - add-a-spot-of-color-for-emphasis
