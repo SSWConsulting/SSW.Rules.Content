@@ -23,11 +23,22 @@ archivedreason: null
 guid: b97d15dd-1c05-4cd6-9869-4f4a05e6d523
 ---
 
-It's usually easier for users to remember where given information is when it is associated with an image/icon. This is especially true for non-technical people or the ones that are not very familiar with digital workspaces.
+It's usually easier for users to remember where given information is when it is associated with an image/icon. This is especially true for non-technical people or those who are not very familiar with digital workspaces.
 
 <!--endintro-->
 
 **Tip:** Always remember to add a space between the emoji and text, for better readability.
+
+## Easily Understood Actions
+
+An easy way to respond to a message on Teams is to use an emoji to say you have seen the message and "understood" its purpose, or to show that you have taken action. You can also update those emojis afterwards to show your progression from "understood", "in action", or "done". That way, when the sender checks back, they won't chase you thinking you haven't seen it.
+
+You can use:
+✅ for "Done, this task is complete"
+👍🏻 for "I agree"
+👎🏻 for "I disagree"
+❌ for "no don't do that"
+👀 for "I've seen it, in progress"
 
 ## Microsoft Teams channel names
 
