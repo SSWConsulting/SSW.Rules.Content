@@ -13,7 +13,7 @@ index:
 - what-is-gpt
 - chatgpt-vs-gpt
 - weekly-ai-meetings
-- ai-powered-ide-non-coding
+- ai-ide-non-coding
 - company-ai-tools
 - connect-chatgpt-with-virtual-assistant
 - install-chatgpt-as-an-app
