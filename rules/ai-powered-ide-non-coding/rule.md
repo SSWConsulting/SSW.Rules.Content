@@ -1,8 +1,8 @@
 ---
 type: rule
 archivedreason:
-title: Do you use an AI Powered IDE for non-coding tasks?
-seoDescription: Do you use an AI Powered IDE for non-coding tasks?
+title: Do you use an AI-powered IDE for non-coding tasks?
+seoDescription: Discover how AI-powered IDEs like Cursor are transforming more than just coding. Learn how developers are using these intelligent tools for tasks like document editing, data manipulation, and beyond.
 guid: e3bbb909-51c3-4e9e-b970-201da241ca4a
 uri: ai-ide-non-coding
 created: 2025-03-31T16:42:19.624Z
@@ -32,7 +32,7 @@ Cursor integrates powerful AI models from OpenAI, Anthropic, Google, DeepSeek, a
 - **MCP support** - Integration with MCP servers (e.g. GitHub) for enhanced workflows with other tools <!-- TODO: Write rule on this -->
 
 ## Common non-coding use cases
-
+Beyond software development, AI-powered IDEs offer valuable support for a range of non-coding tasks. Below are some of the most common use cases:
 ### Markdown editing and transformation
 
 Cursor excels at formatting and transforming Markdown documents. You can:
