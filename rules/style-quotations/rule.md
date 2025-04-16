@@ -21,7 +21,7 @@ redirects:
   - how-to-add-quotations
 ---
 
-Quotations should never blend into the rest of your message. Whether you're responding to an email or writing content for the web, formatting quotations clearly helps readers understand what’s being quoted and what's your original content. 
+Quotations should never blend into the rest of your message. Whether you're responding to an email or writing content for the web, formatting quotations clearly helps readers understand what’s being quoted and what's your original content.
 
 <!--endintro-->
 
@@ -35,7 +35,7 @@ Figure: Bad example - The quotation is mixed up with main text
 :::
 
 ::: greybox
-Software development can be painful and costly. Hang on, that should say: 
+Software development can be painful and costly. Hang on, that should say:
 
 &nbsp;&nbsp;&nbsp;"Software development **is** painful and costly"  
 :::
@@ -44,7 +44,7 @@ Figure: Good example - The quotation has quote marks, on a new line and indented
 :::
 
 ::: greybox
-Software development can be painful and costly. Hang on, that should say: 
+Software development can be painful and costly. Hang on, that should say:
 
 &nbsp;&nbsp;&nbsp;> Software development **is** painful and costly  
 :::
@@ -56,13 +56,14 @@ Figure: Good example - The quotation has greater-than sign, on a new line and in
 
 In web design, it’s important to make quotations stand out from surrounding text. You should:
 
-- Place the quote on a new line
-- Use quotation marks for clarity
-- Style it visually with a different font style, spacing, italics, or borders
+* Place the quote on a new line
+* Use quotation marks for clarity
+* Style it visually with a different font style, spacing, italics, or borders
 
 Use the semantic `<blockquote>` HTML tag to indicate a quotation, and apply CSS to enhance visibility.
 
 **HTML example:**
+
 ```html
 <blockquote>
   “Design is not just what it looks like and feels like. Design is how it works.” – Steve Jobs
@@ -98,13 +99,15 @@ In email replies, quoting previous messages is essential for context. The standa
 **Email reply example:**
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Bob |
 | Subject: | Northwind - April report |  
 ::: email-content
 
-### Hi Bob,
+### Hi Bob
+
 &nbsp;&nbsp;&nbsp; > Can you send the report by Friday?
 Sure! I’ll send it over by end of day.
 
@@ -112,5 +115,3 @@ Sure! I’ll send it over by end of day.
 :::  
 
 This simple formatting makes conversations easier to follow, especially in long email threads.
-
-
