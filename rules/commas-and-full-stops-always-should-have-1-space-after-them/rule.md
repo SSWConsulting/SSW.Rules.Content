@@ -18,12 +18,12 @@ redirects:
   - tiny-do-you-know-commas-and-full-stops-always-should-have-1-space-after-them
 ---
 
-When writing any documentation it is important to put **only one space** after commas or other punctuation. This makes the document easy to read and looks more professional. 
+When writing any documentation it is important to put **only one space** after commas or other punctuation. This makes the document easy to read and looks more professional.
 
 <!--endintro-->
 
 ::: greybox
-Write clean code,and test it often.Together,they make better software. 
+Write clean code,and test it often.Together,they make better software.
 :::
 
 ::: bad
