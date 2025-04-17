@@ -52,6 +52,30 @@ Software development can be painful and costly. Hang on, that should say:
 Figure: Good example - The quotation has greater-than sign, on a new line and indented  
 :::
 
+## 📧 For emails / IM
+
+In email or IM replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>`, which makes the quoted text clearly identifiable — even in plain-text emails.
+
+**Email reply example:**
+
+::: email-template  
+
+| | |
+| -------- | --- |
+| To: | Bob |
+| Subject: | Northwind - April report |  
+::: email-content
+
+### Hi Bob
+
+&nbsp;&nbsp;&nbsp; > Can you send the report by Friday?
+Sure! I’ll send it over by end of day.
+
+:::  
+:::  
+
+This simple formatting makes conversations easier to follow, especially in long email threads.
+
 ## 🖥️ For Web UI
 
 In web design, it’s important to make quotations stand out from surrounding text. You should:
@@ -91,27 +115,3 @@ If you're using Markdown, simply prefix the quoted text with a `>` symbol, and i
 This is how it renders:
 
 > "Design is not just what it looks like and feels like. Design is how it works."
-
-## 📧 For emails / IM
-
-In email or IM replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>`, which makes the quoted text clearly identifiable — even in plain-text emails.
-
-**Email reply example:**
-
-::: email-template  
-
-| | |
-| -------- | --- |
-| To: | Bob |
-| Subject: | Northwind - April report |  
-::: email-content
-
-### Hi Bob
-
-&nbsp;&nbsp;&nbsp; > Can you send the report by Friday?
-Sure! I’ll send it over by end of day.
-
-:::  
-:::  
-
-This simple formatting makes conversations easier to follow, especially in long email threads.
