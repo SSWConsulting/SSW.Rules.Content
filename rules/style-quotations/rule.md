@@ -92,9 +92,9 @@ This is how it renders:
 
 > "Design is not just what it looks like and feels like. Design is how it works."
 
-## 📧 For emails
+## 📧 For emails / IM 
 
-In email replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>`, which makes the quoted text clearly identifiable — even in plain-text emails.
+In email or IM replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>`, which makes the quoted text clearly identifiable — even in plain-text emails.
 
 **Email reply example:**
 
