@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you know what happens at a Sprint Review meeting?
+seoDescription: Understand what happens in a Sprint Review meeting, including how PBIs are presented, accepted, or rejected, and how to keep stakeholders informed and engaged.
 uri: what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
