@@ -15,7 +15,6 @@ related:
 redirects:
   - do-you-know-what-happens-at-a-sprint-review-meeting
 created: 2010-05-06T02:07:33.000Z
-archivedreason: null
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
 This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint.
