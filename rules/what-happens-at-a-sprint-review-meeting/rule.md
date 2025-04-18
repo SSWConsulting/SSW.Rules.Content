@@ -39,7 +39,7 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing di
 
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
-#### Additional stakeholders
+### Additional stakeholders
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
@@ -47,20 +47,10 @@ If there are additional stakeholders, make sure they get called in for the summa
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: good
-![Figure: Good example - Ping the stakeholders with a photo of the meeting starting - then again just before the summary](sprint-review-stakeholders.png)
+![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
 :::
 
-::: greybox
-In Scrum, there are 4 meetings in total that you need to know about:
-
-* [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-* [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective](/what-happens-at-retro-meetings)
-
-:::
-
-#### What if you can't attend the Sprint Review
+### What if you can't attend the Sprint Review
 
 ![Figure: Playing golf](Golf-holiday.png)
 
