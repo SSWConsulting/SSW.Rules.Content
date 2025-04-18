@@ -2,7 +2,7 @@
 seoDescription: Metrics track initial meetings to boost visibility and inform business decisions.
 type: rule
 archivedreason:
-  title: Metrics - Do you track your initial meetings?
+title: Metrics - Do you track your initial meetings?
 guid: 13a10a3d-7b18-4cd5-93c2-0bb8d8847b9f
 uri: track-your-initial-meetings
 created: 2018-04-05T17:41:02.0000000Z
@@ -19,8 +19,8 @@ redirects:
 ---
 
 To ensure clarity and consistency in our calendar invites, please follow the naming conventions below when scheduling meetings:
- • For an Initial Meeting, include **“Initial Meeting”** in the subject line.
- • For a Specification Review, include **“Spec Review”** in the subject line.
+• For an Initial Meeting, include **“Initial Meeting”** in the subject line.
+• For a Specification Review, include **“Spec Review”** in the subject line.
 
 This helps everyone quickly identify the purpose of the meeting, improves calendar visibility, and supports accurate reporting.
 
