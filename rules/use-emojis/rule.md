@@ -29,7 +29,7 @@ It's usually easier for users to remember where given information is when it is 
 
 **Tip:** Always remember to add a space between the emoji and text, for better readability.
 
-## Easily Understood Actions
+## Easily understood actions
 
 An easy way to respond to a message on Teams is to use an emoji to say you have seen the message and "understood" its purpose, or to show that you have taken action. You can also update those emojis afterwards to show your progression from "understood", "in action", or "done". That way, when the sender checks back, they won't chase you thinking you haven't seen it.
 
