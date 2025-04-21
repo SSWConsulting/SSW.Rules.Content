@@ -25,11 +25,7 @@ Quotations should not blend into the rest of your message. Whether you're respon
 
 <!--endintro-->
 
-Generally, the best practice is to **start a quote on a new line and indent it**, making it visually distinct and easy to follow.
-
-::: info
-**Note:** For
-:::
+Generally, the best practice is to **start a quote on a new line and indent it**, then use either quotes or the greater-than sign to make the text visually distinct and easy to follow.
 
 ::: greybox
 Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly"  
