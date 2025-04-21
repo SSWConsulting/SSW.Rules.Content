@@ -28,7 +28,7 @@ Quotations should not blend into the rest of your message. Whether you're respon
 Generally, the best practice is to **start a quote on a new line and indent it**, making it visually distinct and easy to follow.
 
 ::: info
-**Note:** For 
+**Note:** For
 :::
 
 ::: greybox
