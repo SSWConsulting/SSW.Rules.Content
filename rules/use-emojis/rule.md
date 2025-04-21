@@ -40,6 +40,7 @@ You can use:
 👎🏻 for **"I disagree"**\
 ❌ for **"No, don't do that"**\
 👀 for **"I've seen it, in progress"**
+
 ## Microsoft Teams channel names
 
 An easy and fun way to alleviate this issue and boost user adoption to Microsoft Teams is to use emojis in your channel names.
