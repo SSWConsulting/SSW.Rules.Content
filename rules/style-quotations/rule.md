@@ -21,11 +21,15 @@ redirects:
   - how-to-add-quotations
 ---
 
-Quotations should never blend into the rest of your message. Whether you're responding to an email or writing content for the web, formatting quotations clearly helps readers understand what’s being quoted and what's your original content.
+Quotations should not blend into the rest of your message. Whether you're responding to an emailm, IM message, or writing content for the web, formatting quotations clearly helps readers understand what’s being quoted and what's your original content.
 
 <!--endintro-->
 
-Generally, the best practice is to always **start a quote on a new line and indent it**, making it visually distinct and easy to follow.
+Generally, the best practice is to **start a quote on a new line and indent it**, making it visually distinct and easy to follow.
+
+::: info
+**Note:** For 
+:::
 
 ::: greybox
 Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly"  
@@ -52,9 +56,23 @@ Software development can be painful and costly. Hang on, that should say:
 Figure: Good example - The quotation has greater-than sign, on a new line and indented  
 :::
 
-## 📧 For emails / IM
+## For IMs
 
-In email or IM replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>`, which makes the quoted text clearly identifiable — even in plain-text emails.
+IMs are fast and casual, but things can get messy without context. Quoting properly helps maintain clarity in ongoing conversations, especially in busy channels or group chats.
+
+The best way is to **use the platform’s native reply feature**. This keeps context visible and linked to the original message.
+
+For short references inside a long message, you may want to copy the important part and paste using the inline quotes `>`.
+
+When quoting older messages or in group chats, mention @username to clarify who said what.
+
+::: ingo
+**Tip:** [Use reactions (e.g. ✅, 👍, 👀) when you don't need a quote](/easy-questions/#ask-for-reactions-for-multiple-options) — they're quicker and reduce message volume.
+:::
+
+## 📧 For emails
+
+In email replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>` and indent the text, which makes the quoted text clearly identifiable — even in plain-text emails.
 
 **Email reply example:**
 
