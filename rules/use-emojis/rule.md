@@ -34,11 +34,11 @@ It's usually easier for users to remember where given information is when it is 
 An easy way to respond to a message on Teams is to use an emoji to say you have seen the message and "understood" its purpose, or to show that you have taken action. You can also update those emojis afterwards to show your progression from "understood", "in action", or "done". That way, when the sender checks back, they won't chase you thinking you haven't seen it.
 
 You can use:
-- ✅ for "Done, this task is complete"
-- 👍🏻 for "I agree"
-- 👎🏻 for "I disagree"
-- ❌ for "no don't do that"
-- 👀 for "I've seen it, in progress"
+* ✅ for "Done, this task is complete"
+* 👍🏻 for "I agree"
+* 👎🏻 for "I disagree"
+* ❌ for "no don't do that"
+* 👀 for "I've seen it, in progress"
 
 ## Microsoft Teams channel names
 
