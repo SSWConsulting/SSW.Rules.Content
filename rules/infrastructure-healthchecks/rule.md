@@ -11,7 +11,9 @@ authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
   
-related: []
+related: 
+  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+
 redirects:
   - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
   - do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
@@ -43,6 +45,13 @@ Depending on your needs, you may want to bake in a healthcheck UI directly into 
 ![Figure: AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
 
 ## Handle offline infrastructure gracefully
+
+| Category       | Example Services                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| **Critical**    | Database, Redis cache, authentication service (e.g., Auth0, Azure AD)       |
+| **Non-Critical**| OpenAI API, email/SMS providers, analytics tools     |
+
+**Table: Example of Critical and Non Critical Services in an application**
 
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
 
