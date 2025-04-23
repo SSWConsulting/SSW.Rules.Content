@@ -50,6 +50,31 @@ Depending on your needs, you may want to bake in a healthcheck UI directly into 
 
 ![Figure: AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
 
+## Tips for Securing Your Health Check Endpoints
+Health check endpoints are a powerful way to monitor the availability of your application and its infrastructure. However, if exposed improperly, they can become an information leak or even a security risk. Below are guidelines depending on whether your endpoint is public or private:
+
+### If You Keep Your Health Check Endpoint Public
+In some scenarios—such as when using external monitoring tools (e.g., UptimeRobot, Better Uptime, or a public status page)—you may need to expose a health check endpoint publicly. If so, follow these practices to keep it secure:
+
+✅ Keep the response minimal: A simple 200 OK or { "status": "Healthy" } is enough.
+
+✅ Avoid sensitive data: Don’t expose database status, exception messages, or internal service details.
+
+✅ Use a dedicated public endpoint: (e.g., /health) separate from internal diagnostics like /internal-health.
+
+✅ Apply rate limiting or IP whitelisting if possible to reduce abuse.
+
+✅ Monitor usage of the public endpoint for unusual traffic patterns or abuse.
+
+### When to Keep Health Check Endpoints Private
+Private or internal health check endpoints are appropriate when your application needs to perform deeper diagnostics, including infrastructure or service dependencies. These should be kept secure and not exposed to the public internet:
+
+✅ Require authentication (e.g., API key, bearer token, or gateway-level auth)
+
+✅ (Optional)Restrict access by IP/network, such as internal subnets, VPN, or Azure VNETs
+
+✅ Integrate with internal observability tools like Azure Monitor, Prometheus, or private dashboards
+
 ## Handle offline infrastructure gracefully
 
 | Category       | Example Services                                                                 |
