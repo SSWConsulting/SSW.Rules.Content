@@ -11,6 +11,9 @@ authors:
   - title: Hajir Lesani
     url: https://www.ssw.com.au/people/hajir-lesani/
     img: https://www.ssw.com.au/people/static/Hajir-Lesani-Profile-ec51b567a8fa713a30f7b55a89bed440.jpg
+  - title: Louis Roa
+    url: https://www.ssw.com.au/people/louis-roa/
+    img: https://www.ssw.com.au/people/static/Louis-Roa-Profile-ed19143ab4c27c8c7a4f5ef049ee0c3b.jpg
 created: 2025-04-23T12:04:00.000Z
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 ---
