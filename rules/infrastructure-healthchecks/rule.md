@@ -46,6 +46,13 @@ Depending on your needs, you may want to bake in a healthcheck UI directly into 
 
 ## Handle offline infrastructure gracefully
 
+| Category       | Example Services                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| **Critical**    | Database, Redis cache, authentication service (e.g., Auth0, Azure AD)       |
+| **Non-Critical**| OpenAI API, email/SMS providers, analytics tools     |
+
+**Table: Example of Critical and Non Critical Services in an application**
+
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
 
 ::: bad
