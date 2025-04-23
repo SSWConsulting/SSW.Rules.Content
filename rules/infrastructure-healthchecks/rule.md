@@ -72,7 +72,6 @@ Keep health check endpoints internal by default to avoid exposing sensitive syst
 
 ✅ Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/).
 
-
 ## Handle offline infrastructure gracefully
 
 | Category       | Example Services                                                                 |
