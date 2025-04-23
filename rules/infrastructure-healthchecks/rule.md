@@ -4,23 +4,27 @@ type: rule
 title: Do you Healthcheck your Infrastructure?
 uri: infrastructure-healthchecks
 authors:
-  - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan
-  - title: Lewis Toh
-    url: https://ssw.com.au/people/lewis-toh
-  - title: Luke Cook
-    url: https://ssw.com.au/people/luke-cook
+
+* title: Adam Cogan
+    url: <https://ssw.com.au/people/adam-cogan>
+* title: Lewis Toh
+    url: <https://ssw.com.au/people/lewis-toh>
+* title: Luke Cook
+    url: <https://ssw.com.au/people/luke-cook>
   
-related: 
-  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+related:
+
+* have-a-healthcheck-page-to-make-sure-your-website-is-healthy
 
 redirects:
-  - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
-  - do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
-  - have-a-healthcheck-page-to-test-your-website-dependencies
+
+* do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
+* do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
+* have-a-healthcheck-page-to-test-your-website-dependencies
 created: 2020-03-12T20:57:37.000Z
 archivedreason: null
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
+
 ---
 
 Most developers include [healthchecks for their own applications](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
@@ -51,9 +55,10 @@ Depending on your needs, you may want to bake in a healthcheck UI directly into 
 ![Figure: AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
 
 ## Tips for Securing Your Health Check Endpoints
+
 Keep health check endpoints internal by default to avoid exposing sensitive system data.
 
-### Private Health Check – Best Practices:
+### Private Health Check – Best Practices
 
 ✅ Require authentication (API key, bearer token, etc.)
 
