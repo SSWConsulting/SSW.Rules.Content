@@ -34,6 +34,12 @@ Enterprise applications typically leverage a large number of cloud services; dat
 `youtube: https://www.youtube.com/watch?v=4abSfjdzqms`
 **Figure: How to add Healthchecks in ASP.NET Core (11 min)**
 
+## Setting Up Health Checks for App & Infrastructure in .NET
+
+To set up health checks in a .NET application, start by configuring the built-in HealthChecks middleware in your Program.cs (or Startup.cs for older versions). Use AddHealthChecks() to monitor core application behavior, and extend it with specific checks for infrastructure services such as databases, Redis, or external APIs using packages like AspNetCore.HealthChecks.SqlServer or AspNetCore.HealthChecks.Redis. This approach ensures your health endpoint reflects the status of both your app and its critical dependencies.
+
+👉 See detailed implementation steps in the **video above**, and refer to the official [Microsoft documentation](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-9.0) for further configuration examples and advanced usage
+
 ## Alerts and responses
 
 Adding comprehensive healthchecks is great, but if no-one is told about it - what's the point? There are awesome tools available to notify Site Reliability Engineers (SREs) or SysAdmins when something is offline, so make sure your app is set up to use them! For instance, Azure's [Azure Monitor Alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) and AWS' [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) provide a suite of configurable options for who, what, when, and how alerts should be fired.
