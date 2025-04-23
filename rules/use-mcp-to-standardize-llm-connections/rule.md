@@ -8,7 +8,9 @@ seoDescription: Learn why using the Model Context Protocol (MCP) is a
   standardized, scalable way
 uri: use-mcp-to-standardize-llm-connections
 authors:
-  - title: ""
+  - title: Hajir Lesani
+    url: https://www.ssw.com.au/people/hajir-lesani/
+    img: https://www.ssw.com.au/people/static/Hajir-Lesani-Profile-ec51b567a8fa713a30f7b55a89bed440.jpg
 created: 2025-04-23T12:04:00.000Z
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 ---
