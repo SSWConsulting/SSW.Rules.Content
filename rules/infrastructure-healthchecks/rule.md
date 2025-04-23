@@ -11,7 +11,9 @@ authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
   
-related: []
+related: 
+  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+
 redirects:
   - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
   - do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
