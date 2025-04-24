@@ -26,6 +26,7 @@ index:
 - manage-legal-implications-of-ai
 - mitigate-brand-risks-ai
 - mcp-server
+- use-mcp-to-standardize-llm-connections
 
 ---
 
