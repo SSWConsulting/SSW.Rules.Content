@@ -49,9 +49,7 @@ Think of MCP as a "USB port" for AI applications. A universal connection that le
 * Easier addition of new AI features
 * Reduced implementation costs and faster deployment
 
-![](with-mcp.png "Streamlined connections through an MCP server")
-
-**Figure: Streamlined connections through MCP**
+![Streamlined connections through an MCP server](with-mcp.png "Streamlined connections through an MCP server")
 
 ### Popular MCP Servers and Real-World Examples
 

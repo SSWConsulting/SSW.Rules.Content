@@ -19,7 +19,8 @@ created: 2025-04-23T12:04:00.000Z
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 ---
 ![](mcp.png "MCP Architecture")
-**Figure: MCP Architecture (Image Credit: Norah Sakal)**
+**Figure: MCP Architecture (Image Credit: [Norah Sakal](https://www.linkedin.com/in/norah-klintberg-sakal/))**
+
 
 Connecting an LLM-driven agent to multiple external services might look simple in a diagram, but it's often a nightmare in practice. Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
 
@@ -56,7 +57,7 @@ Flow: Agent ⇨ MCP Server ⇨ External API
 ✅ **Chaining tools:** Create powerful workflows by chaining steps (e.g. summarize a spreadsheet, post result to Slack) as a single tool.
 
 ::: greybox
-Your LLM needs to talk to Slack, GitHub, and your internal support ticketing system. Without MCP, you’d build 3 custom plugins. With MCP, you build 3 connectors into the MCP server, and **every agent instantly gets access**.
+Your LLM needs to talk to Slack, GitHub, and your internal support ticketing system. Without MCP, you'd build 3 custom plugins. With MCP, you build 3 connectors into the MCP server, and **every agent instantly gets access**.
 :::
 
 ### Tools, Prompts, Resources – All in One Protocol
@@ -64,7 +65,7 @@ Your LLM needs to talk to Slack, GitHub, and your internal support ticketing sys
 **The server can expose:**
 
 * **Tools:** Callables like `sendSlackMessage`, `createGitHubIssue`
-* **Prompts:** Custom behavior templates, like a “friendly escalation email”
+* **Prompts:** Custom behavior templates, like a "friendly escalation email"
 * **Resources:** Contextual data models, documents, or knowledge graphs
 
 **The agent can offer:**
@@ -74,7 +75,7 @@ Your LLM needs to talk to Slack, GitHub, and your internal support ticketing sys
 
 All communication is standardized, secure, and discoverable.
 
-### Who’s already using MCP?
+### Who's already using MCP?
 
 * Anthropic invented it.
 * **Google, Microsoft, and OpenAI** are backing it.
@@ -95,7 +96,7 @@ Betting against MCP is like betting against standards that make life easier.
 Whether you're building the agent side or the server:
 
 * 🛠️ **[Server Quick Start](https://modelcontextprotocol.info/docs/quickstart/quickstart/)**: Perfect for devs making reusable tools.
-* 🧠 **[Client Quick Start](https://modelcontextprotocol.info/docs/quickstart/client/)**: If you’re building apps that want to call those tools.
+* 🧠 **[Client Quick Start](https://modelcontextprotocol.info/docs/quickstart/client/)**: If you're building apps that want to call those tools.
 * 📚 Browse [example servers](https://modelcontext.org/servers) and [client list](https://modelcontext.org/clients) to see the growing ecosystem.
 
 #### Try it yourself
@@ -114,7 +115,7 @@ While using AI code editors like Cursor or VSCode, **include the phrase "use con
 
 ✨ Note: Make sure you're in **Agent Mode**
 
-Cursor/VSCode will auto‑discover two tools exposed by Context7: resolve-library-id ➜ get-library-docs. It resolves “tailwind” to the latest compatible ID and injects concise, version‑accurate code snippets into the conversation
+Cursor/VSCode will auto‑discover two tools exposed by Context7: resolve-library-id ➜ get-library-docs. It resolves "tailwind" to the latest compatible ID and injects concise, version‑accurate code snippets into the conversation
 
 * Step 3 - Verify that tailwind (version 4) is added
 
@@ -128,6 +129,6 @@ More servers can be found here: <https://www.pulsemcp.com/servers>
 :::
 
 Need help connecting your proprietary services?  
-📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we’ll help you build a robust, scalable MCP server.
+📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we'll help you build a robust, scalable MCP server.
 
 ---
