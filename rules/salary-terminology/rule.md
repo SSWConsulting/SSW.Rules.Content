@@ -20,21 +20,21 @@ When discussing pay, ambiguity is a foe. Terms like 'salary' or 'pay' are too va
 
 🇦🇺 In Australia, there is a mix of terms used:
 
-- Remuneration
-- Total Remuneration Package (TRP)
-- Remuneration Package
-- Remuneration paid to an employee as a reward for their services
-- Pay
-- Pay Terms
-- Payment Package
-- Salary
-- Salary Package
-- Earnings
-- Compensation
-- Compensation Package
-- Wage structure
+* Remuneration
+* Total Remuneration Package (TRP)
+* Remuneration Package
+* Remuneration paid to an employee as a reward for their services
+* Pay
+* Pay Terms
+* Payment Package
+* Salary
+* Salary Package
+* Earnings
+* Compensation
+* Compensation Package
+* Wage structure
 
-- **Salary Package Including Super** (Recommended ✅)
+* **Salary Package Including Super** (Recommended ✅)
 
 The last option is the best because it prevents misunderstandings. The term makes it clear that the figure **includes** superannuation contribution, which is essential to avoid the unpleasant surprise of salary shock where employees may not realize that super is part of their total pay.
 
