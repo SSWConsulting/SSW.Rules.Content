@@ -7,6 +7,8 @@ uri: custom-instructions
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
+  - title: Eli Kent
+    url: https://www.ssw.com.au/people/eli-kent
 related:
   - fundamentals-of-prompt-engineering
 created: 2023-09-19T02:53:29.000Z
@@ -30,7 +32,7 @@ Once you save, the instructions will be applied as context for all new chats. Yo
 
 ::: bad
 
-![Bad example - No custom instructions](eli-custom-bad.png "Bad example - No custom instructions")
+![Figure: Bad example - No custom instructions](eli-custom-instructions-bad.png "Bad example - No custom instructions")
 
 :::
 
@@ -91,8 +93,6 @@ Figure: Good example - Start with these custom instructions. Add and remove to y
 
 ::: good
 
-
-![Good example - Specific and detailed custom instructions](eli-custom-good.png "Good example - Specific and detailed custom instructions")
-
+![Figure: Good example - Specific and detailed custom instructions](eli-custom-instructions-good.png "Good example - Specific and detailed custom instructions")
 
 :::
