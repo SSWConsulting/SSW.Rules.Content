@@ -79,9 +79,17 @@ GitHub also have a number of certifications to help you master aspects of the pl
 
 ![Figure: Current GitHub certifications](github-certs.png)
 
-If you're just starting out in GitHub, go for the \[GitHub Foundations exam](https://examregistration.github.com/certification/GHF). 
+### Foundations
 
+If you're just starting out in GitHub, go for the [GitHub Foundations exam](https://examregistration.github.com/certification/GHF). This exam measures entry level skills with GitHub basics like repositories, commits, branching, markdowns, and project management.
 
+### All Other Exams
+
+All other exams are useful, depending on your focus/interest in GitHub. 
+
+For a DevOps focus, try the [GitHub Actions exam](https://examregistration.github.com/certification/ACTIONS). This exam measures your ability to accomplish the following technical tasks: author and maintain workflows; consume workflows; author and maintain actions; manage GitHub Actions for the enterprise.
+
+If AI is your thing, check out the [GitHub Copilot exam](https://examregistration.github.com/certification/COPILOT). This exam has a heavy emphasis on understanding GitHub Copilot plans and features, how the AI tool uses data, developer use cases, and privacy fundamentals and context exclusions.
 
 - - -
 
