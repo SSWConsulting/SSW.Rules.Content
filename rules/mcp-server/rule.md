@@ -90,7 +90,5 @@ For non-technical business leaders, implementing an MCP server is less about the
 
 As AI continues to transform business operations, having an MCP server will increasingly become a competitive necessity rather than just a nice-to-have technology.
 
-For app providers, MCP cuts integration time and taps into a robust, standardized AI ecosystem, boosting efficiency and scalability. It’s a smart, future-ready investment to stay competitive in an AI-driven landscape.
-
 Need help connecting your proprietary services?\
 📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we’ll help you build a robust, scalable MCP server.
