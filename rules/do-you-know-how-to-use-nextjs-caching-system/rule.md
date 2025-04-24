@@ -22,6 +22,9 @@ But it's not automatic—caching only activates when you *opt in* using three me
 
 Without this opt-in model, stale content can easily sneak into your UI. Now, you’re in full control. You decide what gets cached, for how long, and what tags are used for easy invalidation.
 
+`https://www.youtube.com/watch?v=xWkozeculPo`
+**Video: Is Next.js 15 any good? "use cache" API first look (8 min)**
+
 ## How to enable caching introduced by Next.js 15
 
 To start using the new cache layer, you need to activate two experimental flags in `next.config.js`, and then opt in at the file or function level using the `"use cache"` directive:
