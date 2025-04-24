@@ -9,6 +9,7 @@ authors:
 related:
   - create-friendly-short-urls
   - relevant-words-on-links
+  - format-new-lines
 redirects:
   - do-you-know-to-keep-your-urls-clean
 created: 2020-09-10T20:00:30.000Z
