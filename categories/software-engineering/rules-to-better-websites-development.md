@@ -53,7 +53,7 @@ index:
   - use-server-side-comments
   - best-static-site-tech-stack
   - use-nextjs
-  - do-you-know-how-to-use-nextjs-caching-system
+  - use-nextjs-caching-system
   - cms-solutions
   - git-based-cms-solutions
   - best-online-documentation-site

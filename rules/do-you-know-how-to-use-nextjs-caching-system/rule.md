@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know how to use NextJS caching system?
 seoDescription: How to use NextJS caching system
-uri: do-you-know-how-to-use-nextjs-caching-system
+uri: use-nextjs-caching-system
 authors:
   - title: Gilles Pothieu
     url: https://ssw.com.au/people/gilles-pothieu
@@ -22,7 +22,7 @@ But it's not automatic—caching only activates when you *opt in* using three me
 
 Without this opt-in model, stale content can easily sneak into your UI. Now, you’re in full control. You decide what gets cached, for how long, and what tags are used for easy invalidation.
 
-`https://www.youtube.com/watch?v=xWkozeculPo`
+`youtube: https://www.youtube.com/watch?v=xWkozeculPo`  
 **Video: Is Next.js 15 any good? "use cache" API first look (8 min)**
 
 ## How to enable caching introduced by Next.js 15
