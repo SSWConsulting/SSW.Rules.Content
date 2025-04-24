@@ -32,7 +32,7 @@ Once you save, the instructions will be applied as context for all new chats. Yo
 
 ::: bad
 
-![Figure: Bad example - No custom instructions](eli-custom-instructions-bad.png "Figure: Bad example - No custom instructions")
+![Figure: Bad example - No custom instructions](eli-custom-instructions-bad.png "Bad example - No custom instructions")
 
 :::
 
@@ -93,6 +93,6 @@ Figure: Good example - Start with these custom instructions. Add and remove to y
 
 ::: good
 
-![Figure: Good example - Specific and detailed custom instructions](eli-custom-instructions-good.png "Figure: Good example - Specific and detailed custom instructions")
+![Figure: Good example - Specific and detailed custom instructions](eli-custom-instructions-good.png "Good example - Specific and detailed custom instructions")
 
 :::
