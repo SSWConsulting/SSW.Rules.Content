@@ -29,7 +29,7 @@ Microsoft and GitHub certifications verify your skills and knowledge in a variet
 
 Microsoft provides numerous certifications and training options to help you learn new skills, fill technical knowledge gaps, and prove your competence.
 
-Certifications are broken up into Fundamentals, Role-based (Intermediate & Expert), and Specialty. Check the [Become Microsoft Certified poster](https://aka.ms/traincertposter) for details of exams required for each of the certifications.
+Certifications are broken up into Fundamentals, Role-based (Intermediate & Expert), and Specialty. Check the [Become Microsoft Certified poster](https://aka.ms/traincertposter) for details of exams required for each of the certifications, or [browse all certifications here](https://learn.microsoft.com/en-us/credentials/browse/).
 
 ![Figure: Get the poster to see Microsoft's certifications](cert-poster.png)
 
@@ -65,17 +65,23 @@ Eventually, all rock star developers and solution architects should set their si
 
 [Microsoft Certified: Azure Solutions Architect Expert](https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/)
 
-Earn this certification to prove your subject matter expertise in designing and implementing solutions that run on Microsoft Azure, including aspects like compute, network, storage, and security. Candidates should have intermediate-level skills for administering Azure. You will need to pass the exam [AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/), with a pre-requisite of [AZ-104](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) (see above).
+Earn this certification to prove your subject matter expertise in designing and implementing solutions that run on Microsoft Azure, including aspects like compute, network, storage, and security. Candidates should have intermediate-level skills for administering Azure. You will need to pass the exam [AZ-305: Designing Microsoft Azure Infrastructure Solutions](https://learn.microsoft.com/en-us/credentials/certifications/exams/az-305/), with a prerequisite of [AZ-104](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) (see above).
+
+[Microsoft Certified: DevOps Engineer Expert](https://docs.microsoft.com/en-us/learn/certifications/devops-engineer/)
+
+Earn this certification to prove your subject matter expertise working with people, processes, and technologies to continuously deliver business value. You will need to pass the exam [AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400), with a prerequisite of either [AZ-104](https://docs.microsoft.com/en-us/learn/certifications/exams/az-104) or [AZ-204](https://docs.microsoft.com/en-us/learn/certifications/exams/az-204) (see above).
 
 - - -
 
-Now that you can build awesome cloud applications, you might want to Deploy your applications to Microsoft Azure:
+## GitHub Certifications
 
-#### [Microsoft Certified: DevOps Engineer Expert](https://docs.microsoft.com/en-us/learn/certifications/devops-engineer/)
+GitHub also have a number of certifications to help you master aspects of the platform - [see the certifications here](https://examregistration.github.com/).
 
-Earn this certification to prove your subject matter expertise working with people, processes, and technologies to continuously deliver business value.
+![Figure: Current GitHub certifications](github-certs.png)
 
-You will need to pass: [Exam AZ-400: Designing and Implementing Microsoft DevOps Solutions](https://docs.microsoft.com/en-us/learn/certifications/exams/az-400).
+If you're just starting out in GitHub, go for the \[GitHub Foundations exam](https://examregistration.github.com/certification/GHF). 
+
+
 
 - - -
 
