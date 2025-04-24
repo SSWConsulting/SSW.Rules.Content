@@ -29,9 +29,9 @@ Connecting an LLM-driven agent to multiple external services might look simple i
 
 MCP (Model Context Protocol) is a standardized way for LLMs and agents to interact with external APIs and tools—think of it as **USB-C for AI**. Instead of manually wiring integrations into each agent or app, MCP centralizes them on a server. Agents speak a single protocol, and the server handles:
 
-- Authentication and authorization (OAuth 2.1 supported)
-- Data formatting and transformation
-- Service-specific quirks and rate limits
+* Authentication and authorization (OAuth 2.1 supported)
+* Data formatting and transformation
+* Service-specific quirks and rate limits
 
 This architecture separates logic and plumbing from your agent, making development faster, integrations cleaner, and reusability a breeze.
 
@@ -63,24 +63,24 @@ Your LLM needs to talk to Slack, GitHub, and your internal support ticketing sys
 
 **The server can expose:**
 
-- **Tools:** Callables like `sendSlackMessage`, `createGitHubIssue`
-- **Prompts:** Custom behavior templates, like a “friendly escalation email”
-- **Resources:** Contextual data models, documents, or knowledge graphs
+* **Tools:** Callables like `sendSlackMessage`, `createGitHubIssue`
+* **Prompts:** Custom behavior templates, like a “friendly escalation email”
+* **Resources:** Contextual data models, documents, or knowledge graphs
 
 **The agent can offer:**
 
-- **Roots:** File access when needed
-- **Sampling:** Let the server trigger generation tasks
+* **Roots:** File access when needed
+* **Sampling:** Let the server trigger generation tasks
 
 All communication is standardized, secure, and discoverable.
 
 ### Who’s already using MCP?
 
-- Anthropic invented it.
-- **Google, Microsoft, and OpenAI** are backing it.
-- **Zapier** wrapped 7,000+ SaaS integrations as an MCP gateway.
-- IDEs like **VS Code, Cursor, and JetBrains** are MCP-native.
-- **Docker, Postman, GitHub** are building servers.
+* Anthropic invented it.
+* **Google, Microsoft, and OpenAI** are backing it.
+* **Zapier** wrapped 7,000+ SaaS integrations as an MCP gateway.
+* IDEs like **VS Code, Cursor, and JetBrains** are MCP-native.
+* **Docker, Postman, GitHub** are building servers.
 
 ### USB-C for AI: Not Just a Buzzword
 
@@ -94,38 +94,38 @@ Betting against MCP is like betting against standards that make life easier.
 
 Whether you're building the agent side or the server:
 
-- 🛠️ **[Server Quick Start](https://modelcontextprotocol.info/docs/quickstart/quickstart/)**: Perfect for devs making reusable tools.
-- 🧠 **[Client Quick Start](https://modelcontextprotocol.info/docs/quickstart/client/)**: If you’re building apps that want to call those tools.
-- 📚 Browse [example servers](https://modelcontext.org/servers) and [client list](https://modelcontext.org/clients) to see the growing ecosystem.
+* 🛠️ **[Server Quick Start](https://modelcontextprotocol.info/docs/quickstart/quickstart/)**: Perfect for devs making reusable tools.
+* 🧠 **[Client Quick Start](https://modelcontextprotocol.info/docs/quickstart/client/)**: If you’re building apps that want to call those tools.
+* 📚 Browse [example servers](https://modelcontext.org/servers) and [client list](https://modelcontext.org/clients) to see the growing ecosystem.
 
 #### Try it yourself
+
 ::: greybox
 Want to get hands-on with MCP? Here's how to get started with one of the useful MCPs called **Context7**:
 
 LLMs rely on outdated or generic information about the libraries you use. Context7 pulls **up-to-date, version-specific documentation and code examples** directly from the source.
 While using AI code editors like Cursor or VSCode, **include the phrase "use context7"** in your prompt, and it'll automatically retrieve relevant information from official sources. This helps AI assistant generate accurate and current code snippets.
 
-- Step 1 - Go to context7 repo and read the setup guide (Cursor, VSCode, Claude Desktop, etc)
- https://github.com/upstash/context7
+* Step 1 - Go to context7 repo and read the setup guide (Cursor, VSCode, Claude Desktop, etc)
+ <https://github.com/upstash/context7>
 
-- Step 2 - Once installed, try asking a question using context7
+* Step 2 - Once installed, try asking a question using context7
   Example: In your Chat panel, type: "Add tailwind to my project. use context7"
 
 ✨ Note: Make sure you're in **Agent Mode**
 
 Cursor/VSCode will auto‑discover two tools exposed by Context7: resolve-library-id ➜ get-library-docs. It resolves “tailwind” to the latest compatible ID and injects concise, version‑accurate code snippets into the conversation
 
-- Step 3 - Verify that tailwind (version 4) is added
+* Step 3 - Verify that tailwind (version 4) is added
 
-- Step 4 - Try these steps without using context7 and compare your results.
+* Step 4 - Try these steps without using context7 and compare your results.
 
 **What you just proved**
 
 By using context7, you are referring to the **latest docs**, and it will **reduce bugs and errors** in your code.
 Context7 is just one of many MCP servers you can use to improve your experience with LLMs. There are other great tools such as **GitHub MCP**, **Browser Use MCP** (Page navigation, form filling, reading console messages), **Sequential Thinking**, and **Playwright MCP** (helps with automate testing and browser interactions).
-More servers can be found here: https://www.pulsemcp.com/servers
+More servers can be found here: <https://www.pulsemcp.com/servers>
 :::
-
 
 Need help connecting your proprietary services?  
 📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we’ll help you build a robust, scalable MCP server.

@@ -37,7 +37,7 @@ Think of MCP as a "USB port" for AI applications. A universal connection that le
 
 #### **Without MCP (The Pain)**
 
-*  Custom development for each connection
+* Custom development for each connection
 * Ongoing maintenance of multiple integration points
 * Limited flexibility when adding new AI capabilities
 * Higher costs and longer implementation times
