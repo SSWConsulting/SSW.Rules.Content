@@ -99,3 +99,5 @@ export const getStaticPaths = async () => {
 * `false (default)` - Any request for a page that has not been generated will return a 404
 * `true` - The page will be generated on demand if not found and stored for subsequent requests
 * `blocking` - Similar to true, except NextJS will not respond to the request until the page has finished generating
+
+You can learn more about how to use dynamic routing in the [official Next.js documentation](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes).
