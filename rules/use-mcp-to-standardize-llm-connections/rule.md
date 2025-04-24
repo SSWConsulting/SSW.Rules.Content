@@ -21,7 +21,6 @@ guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 ![](mcp.png "MCP Architecture")
 **Figure: MCP Architecture (Image Credit: [Norah Sakal](https://www.linkedin.com/in/norah-klintberg-sakal/))**
 
-
 Connecting an LLM-driven agent to multiple external services might look simple in a diagram, but it's often a nightmare in practice. Each service requires a custom integration, from decoding API docs, handling auth, setting permissions, to mapping strange data formats. And when you build it all directly into your agent or app, it becomes a brittle, tangled mess that's impossible to reuse.
 
 <!--endintro-->
