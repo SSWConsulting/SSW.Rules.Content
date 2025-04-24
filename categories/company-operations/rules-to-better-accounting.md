@@ -5,6 +5,7 @@ guid: 31ac668b-6826-461f-ba34-964e46984c6d
 uri: rules-to-better-accounting
 index:
 - salary-sacrificing
+- phishing-for-payments
 - do-you-tie-knowledge-to-the-role
 - monthly-financial-meetings
 - compliance-sheet
@@ -18,6 +19,7 @@ index:
 - maximize-superannuation-benefits
 - salary-terminology
 - do-you-calculate-payroll-tax-correctly
+- excel-distinguish-calculated-cells
 - show-certification-award
 - report-gas-in-the-tank
 - do-you-check-your-customers-organisation-age-for-prepaid

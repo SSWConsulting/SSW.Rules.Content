@@ -18,11 +18,17 @@ redirects:
   - metrics-do-you-track-your-initial-meetings
 ---
 
-When creating an appointment email for an initial meeting, make sure you include the words " **initial** " and " **meeting** " on the subject.
+To ensure clarity and consistency in our calendar invites, please follow the naming conventions below when scheduling meetings:
+
+* For an Initial meetings, include **“Initial Meeting”** in the subject line
+* For a Specification Review, include **“Spec Review”** in the subject line
+
+This helps everyone quickly identify the purpose of the meeting, improves calendar visibility, and supports accurate reporting.
+
+<!--endintro-->
 
 ::: greybox
 **Subject:** Northwind project with SSW and Bob
-
 :::
 
 ::: bad
@@ -31,17 +37,15 @@ Figure: Bad subject - not clear it is an initial meeting
 :::
 
 ::: greybox
-**Subject:** <mark>Initial meeting</mark> with SSW and Bob from Northwind
+**Subject:** <mark>Initial Meeting</mark> with SSW and Bob from Northwind
+
 **Subject:** <mark>Initial</mark> phone
 <mark>meeting</mark> with SSW and Bob from Northwind  
 :::
 
 ::: good
 Figure: Good subjects - Make clear it is an initial meeting by having both words
-
 :::
-
-<!--endintro-->
 
 The Appointment should also be tracked (without regarding) in Dynamics 365 so that this information is readily available and reportable.
 

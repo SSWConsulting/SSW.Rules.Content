@@ -6,9 +6,8 @@ uri: rules-to-better-interfaces-forms
 redirects:
 - rules-to-better-interfaces-(forms)
 index:
-- avoid-labels
-- avoid-ending-labels-text-with-a-colon
 - how-to-align-your-form-labels
+- avoid-clutter-in-form-labels
 - do-you-align-your-add-edit-delete-buttons-horizontal-and-bottom-right
 - do-you-avoid-data-junk-data-not-manually-entered-by-yourself
 - do-you-avoid-combining-different-entities

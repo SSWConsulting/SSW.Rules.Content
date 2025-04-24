@@ -72,7 +72,7 @@ Instead of manually sending emails, users can request access through `myaccess.m
 
 ## Steps to Create an Access Package
 
-1. **Open Azure Portal**: Navigate to Azure Active Directory | Identity Governance | Access packages.
+1. **Open Azure Portal**: Navigate to Entra ID | Identity Governance | Access packages.
 
    ![Figure: Navigate to Azure portal | Access packages | New Access package](screenshot-2023-08-23-220334.png)
 

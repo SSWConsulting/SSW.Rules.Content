@@ -1,17 +1,19 @@
 ---
-seoDescription: Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement.
 type: rule
 title: Do you record a summary of your Sprint Meeting?
+seoDescription: Enhance transparency and inclusivity by recording summaries of
+  Sprint Reviews, providing stakeholders with clear updates and fostering
+  community engagement.
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
-    url: https://ssw.com.au/people/jack-pettit/
+    url: https://ssw.com.au/people/jack-pettit
   - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer/
+    url: https://ssw.com.au/people/jeoffrey-fischer
   - title: Landon Maxwell
-    url: https://ssw.com.au/people/landon-maxwell/
+    url: https://ssw.com.au/people/landon-maxwell
   - title: Adam Cogan
-    url: https://ssw.com.au/people/adam-cogan/
+    url: https://ssw.com.au/people/adam-cogan
 related:
   - tech-check
   - record-a-quick-and-dirty-done-video
@@ -27,10 +29,10 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 ## Why record a summary of the Sprint Meeting?
 
-* **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present.
-* **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity.
-* **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment.
-* **Community:** Allows the community at large to see what is happening on a product and provide feedback.
+* **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present
+* **Documentation:** Serves as a historical record of decisions and discussions, valuable for future Sprints and project continuity
+* **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment
+* **Community:** Allows the community at large to see what is happening on a product and provide feedback
 
 ## Record the Sprint Meeting summary
 
@@ -48,15 +50,21 @@ If you're looking for useful tips on how to make great videos, please see this r
 
 If you need to make edits on your recording, please see this rule: [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/)
 
+**Note:** Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points... it gives *some* window into the team, but not everything.
+
 ## Share the Sprint Meeting summary recording
 
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
 
-Note: Don't forget to check that you're uploading to the right channel. We recommend having a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
+**Note:** Don't forget to check that you're uploading to the right channel. Ideally have a channel for each product. E.g. [SSW Website](https://www.youtube.com/channel/UCi7s9fJp6RlvHCMK2hATK7g), [SSW TimePro](https://www.youtube.com/channel/UCKf-M2C0b3_ca4kwzmvmERg), etc.
 
-During the process, you will need to provide some information such as a title, description and thumbnail.
+You will fill the title, description, and thumbnail fields with clear, helpful content to improve visibility and engagement.
 
-#### Video Title
+::: info
+**Tip:** Sometimes you may want to trim some parts of the video (i.e. Long silence at start or end). [Videos can be trimmed straight on YouTube Editor](https://support.google.com/youtube/answer/9057455?hl=en).
+:::
+
+### Video title
 
 It is important to have an accurate title that makes it clear what Scrum Sprint you are making a video for. The best way is to follow a consistent format across each video.
 At SSW, we follow this format:
@@ -65,7 +73,7 @@ At SSW, we follow this format:
 {{ TEAM NAME }} - Sprint {{ OLD NUMBER }} Review + Retro and Sprint {{ NEW NUMBER }} Planning - {{ DATE }}  
 :::
 
-#### Video Description
+### Video description
 
 You should also include a description about the contents for ease of navigation. E.g. YouTube allows you to add timecode chapter markers by adding it in the description.
 
@@ -81,11 +89,13 @@ Join us for {{ TEAM NAME }}'s Sprint {{ OLD NUMBER }} Review + Retro and Sprint 
 🔗 Link: {{ PRODUCT WEBSITE URL }}
 :::
 
-#### Video Thumbnail
+### Video thumbnail
 
-The thumbnail should show the Sprint iteration, the Team's name and the date when the meeting occured. Thus, it needs to be easily editable. For instance, the Website Team uses a PowerPoint slide that they update every week: [SSW Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9)
+The thumbnail should show the Sprint iteration, the Team's name and the date when the meeting occured. This often comes from the start screen of a Teams recording.
 
-Below is a good example of how the title and description should look like on YouTube.
+For a more visual appealing thumbnail, you can use a PowerPoint slide that are updated every Sprint. E.g.: [SSW.Website Thumbnail](https://sswcom.sharepoint.com/:p:/s/SSWWebsitev3/EXK91BgLmO9DnT9np2HabPoBm5vQiKfggtG3DqtDw-aQHA?e=Im08L9).
+
+Below is a good example of how a Sprint Summary video should look like on YouTube.
 
 ::: good
 ![Figure: Good example – The video contains a great title, description and thumbnail](good-example-video-title-description.png)
@@ -100,7 +110,7 @@ Don't let the time you spent creating the perfect video go to waste — make sur
   4. Leave a brief comment on YouTube
 :::
 
-#### ✅ Good Example of a Sprint Meeting recording
+### ✅ Good Example of a Sprint Meeting recording
 
 Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
 

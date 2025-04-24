@@ -1,4 +1,5 @@
 ---
+seoDescription: Promptly inform clients about estimate overruns to build trust and prevent conflicts, ensuring transparency in project timelines and costs.
 type: rule
 title: Do you promptly inform clients about initial estimate overruns?
 uri: inform-clients-about-estimates-overrun
@@ -11,7 +12,8 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
   - title: Justin King
     url: https://ssw.com.au/people/justin-king
-related: []
+related:
+  - approval-do-you-get-work-approved-before-you-do-it
 redirects:
   - do-you-email-clients-as-soon-as-you-realise-you-will-overrun-your-original-estimate
 created: 2009-08-19T23:56:41.000Z
@@ -33,6 +35,7 @@ For this reason, blowouts should be reported in the Daily Scrum, as well as any 
 Keep clients informed and avoid conflict by informing them ASAP and documenting estimates overrun in an ['as per our conversation' email](/as-per-our-conversation-emails):  
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Mr Northwind |
@@ -58,6 +61,4 @@ Good example - A sample of an email that informs the client that the estimate wi
 **Note:** For Scrum projects, you should keep an eye on your burndown chart during your daily standups to see if you are on track to finish all the work in a Sprint.
 :::
 
-
 ![Figure: When communicating to clients - talk at 80% not 110%!](AI-image-for-Adam.png)
-

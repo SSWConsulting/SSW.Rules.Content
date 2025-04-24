@@ -1,4 +1,5 @@
 ---
+seoDescription: Prevent charts from growing with rows using rectangle cells for consistent data layout
 type: rule
 archivedreason:
 title: Data Layout - Do you know how to prevent charts growing with rows?

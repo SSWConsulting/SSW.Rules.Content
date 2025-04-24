@@ -1,11 +1,13 @@
 ---
-seoDescription: Build a stronger human connection and make a lasting first impression by holding initial meetings in person whenever possible, ideally at your office.
 type: rule
 title: Do you hold initial meetings face-to-face whenever possible?
+seoDescription: Build a stronger human connection and make a lasting first
+  impression by holding initial meetings in person whenever possible, ideally at
+  your office.
 uri: initial-meetings-face-to-face
 authors:
   - title: Michael Smedley
-    url: [https://www.ssw.com.au/people/uly](https://www.ssw.com.au/people/michael-smedley/)
+    url: (https://www.ssw.com.au/people/michael-smedley/)
 created: 2024-12-11T14:00:00.000Z
 guid: 9a8c6e5b-3f2d-452d-b85a-5a5b14e54df2
 ---
@@ -28,9 +30,21 @@ Meeting in person gives you the opportunity to:
 
 ### Best Practices for a Strong First Impression
 
-1. **Schedule the Meeting at Your Office**
-   - Invite the client to your space if possible. Your office environment—clean, organized, and welcoming—reflects your company’s brand and values.
-   - Use the boardroom for the meeting to set a professional tone.
+1. **Prioritise Meeting Locations**
+
+    * First Choice: At Your Office
+
+        - Invite the client to your space if possible. Your office environment—clean, organized, and welcoming—reflects your company’s brand and values.
+
+        - Use the boardroom for the meeting to set a professional tone.
+
+    * Second Choice: At Their Office
+
+        - If the client cannot visit your office, offer to meet at their office. This demonstrates flexibility and respect for their time.
+
+    * Third Choice: Online
+
+        - If neither option is feasible, schedule a video call. While it lacks the physical presence, ensure your virtual setup is professional, with a clean background and good lighting.
 
 2. **Be Welcoming**
    - Offer hospitality, such as a coffee or tea, to make the prospect feel comfortable and at ease.

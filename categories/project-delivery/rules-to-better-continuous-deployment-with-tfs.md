@@ -19,7 +19,6 @@ index:
 - the-reasons-why-calling-a-batch-file-from-the-build-process-template-is-better-than-deploying-directly-from-the-build
 - use-web-compiler
 - do-you-only-roll-forward
-
 ---
 
 If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM-TFS.aspx) and book in a consultant.

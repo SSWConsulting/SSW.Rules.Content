@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your Google Ads campaigns with proven SEM strategies for better ROI
 type: rule
 archivedreason: 
 title: SEM - Do you know how to optimize Google Ads campaigns?
@@ -26,7 +27,7 @@ This should be done daily, where possible, to ensure that ads are not running an
 
 <!--endintro-->
 
-### Set a Maximum Cost per Click 
+### Set a Maximum Cost per Click
 
 Ad s can be a costly method of advertising when used incorrectly. To prevent unknown and exorbitant costs you are able to set the  **Maximum Cost per Click (Max. CPC) for each of your ads.**
 
@@ -48,7 +49,7 @@ Negative Keywords are able to be added to your campaign or ad group and tell Goo
 
 Learn more on this rule:[Do you have a negative keyword list on your campaigns?](/how-to-create-a-negative-keyword-list)
 
-### Split Testing Ads 
+### Split Testing Ads
 
 As with any advertisement, it is important to test multiple ads to determine which performs best. Once ads have been running for a period of time they should be assessed and those which are underperforming should be switched off, whilst the highest performers should be copied and then tweaked and continued to run. This can be continued over the lifetime of an ad, as each ad has a certain period of effectiveness.
 

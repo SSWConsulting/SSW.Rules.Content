@@ -1,6 +1,7 @@
 ---
+seoDescription: Discover how Single Keyword Ad Groups (SKAGS) enhance your Google Ads strategy, boosting CTR and quality scores for better campaign performance.
 type: rule
-archivedreason: 
+archivedreason: This is no longer relevant in 2024, the SKAGS method hasn't been effective since 2023 due to Google Ads new algorithms
 title: Do you use Single keyword Ad Groups (SKAGS)?
 guid: f603f791-d472-4a3b-b623-3a7929b252e3
 uri: use-skags
@@ -24,11 +25,11 @@ How you structure your Google Ads account is vital to your PPC success. Keeping 
 
 **Here’s why it works**
 
-When you pair keywords into their own unique ad group, you can ensure that the keywords you are bidding on matching the search terms that you PAY for. 
+When you pair keywords into their own unique ad group, you can ensure that the keywords you are bidding on matching the search terms that you PAY for.
 
  **How to set-it up?**
 
-Even though SKAGS are just one keyword per ad group, you can & should include multiple match types of that keyword into the specific keyword ad-group, for example: 
+Even though SKAGS are just one keyword per ad group, you can & should include multiple match types of that keyword into the specific keyword ad-group, for example:
 
 At SSW we offer website development in Sydney, here’s what one some of the keywords look like following the SKAGS approach:
 
@@ -36,11 +37,11 @@ At SSW we offer website development in Sydney, here’s what one some of the key
 * “Website Development Sydney”
 * [Website Development Sydney]
 
-You should call this SKAGs ad group “Website Development” – with the same name as the keywords in the ad-group and it will act as a great basis for the ad-group targetting those specific search terms. 
+You should call this SKAGs ad group “Website Development” – with the same name as the keywords in the ad-group and it will act as a great basis for the ad-group targetting those specific search terms.
 
- **What if your search terms have a longer tail than the keywords in that SKAG group? ** 
-You would simply take those search terms and create a new SKAG ad-group under the same campaign using the same formula – this is keyword refinement. 
+ **What if your search terms have a longer tail than the keywords in that SKAG group?**
+You would simply take those search terms and create a new SKAG ad-group under the same campaign using the same formula – this is keyword refinement.
 
-E.g: Say the new SKAG (“App development in Sydney”) is found in the search term report from the original SKAGS group, you want to create a new SKAGS group for that term then on the original “Website development” SKAG, you will want to ensure that ‘app’ is an ad group level negative keyword to your original “Website development” SKAG. 
+E.g: Say the new SKAG (“App development in Sydney”) is found in the search term report from the original SKAGS group, you want to create a new SKAGS group for that term then on the original “Website development” SKAG, you will want to ensure that ‘app’ is an ad group level negative keyword to your original “Website development” SKAG.
 
 The benefit of this is that your shorter tail keywords don’t steal much-needed impressions from your more specific and tailored long-tail keywords.

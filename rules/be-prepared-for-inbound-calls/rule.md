@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively prepare for inbound calls using our proven script and question strategy.
 type: rule
 archivedreason:
 title: Do you know how to be prepared for inbound calls?

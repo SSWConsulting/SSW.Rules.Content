@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how AI enhances Specification Reviews with precise insights and expert human touch.
 type: rule
 title: Do you use AI to generate your Specification Reviews?
 uri: use-ai-to-generate-spec-reviews
@@ -16,36 +17,36 @@ Even the most seasoned analysts might occasionally overlook certain details in a
 
 <!--endintro-->
 
-## The Role of AI in Enhancing Reviews
+## The role of AI in enhancing reviews
 
 * **Tool, Not Replacement:** AI greatly aids in generating Specification Reviews. Yet, the expertise and discernment of a human are irreplaceable. AI provides a foundational understanding, but professionals provide the nuanced depth.
 * **Interactive AI:** Foster a dynamic interaction with AI. Instead of providing it with a predetermined set of requirements, let the AI ask progressive questions. This way, it captures the intricacies of the project scope.
 
-  ::: greybox
-  Prompt:
-  _You are an IT Consultancy specification writer.
+::: greybox
+Prompt:
+"You are an IT Consultancy specification writer.
 
-  Engage with me step-by-step to gather essential requirements. 
-  Ask sequentially, with each question stemming from the previous response._
-  :::
-  ::: good
-  Figure: Good example - AI adapts and evolves its questions based on ongoing answers, offering more tailored results
-  :::
+Engage with me step-by-step to gather essential requirements.
+Ask sequentially, with each question stemming from the previous response."
+:::
+::: good
+Figure: Good example - AI adapts and evolves its questions based on ongoing answers, offering more tailored results
+:::
 
-  ::: greybox
-  Prompt:
-  _Use these requirements to draft a Specification Review:
+::: greybox
+Prompt:
+"Use these requirements to draft a Specification Review:
 
   1. Web application on Azure
   2. Capture user feedback
   3. User sign-up process
-     ..._
-  :::
-  ::: bad
-  Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with existing systems
-  :::
+     ..."
+:::
+::: bad
+Figure: Bad example - Missing critical elements like security considerations, data migration paths, or integration with existing systems
+:::
   
-* **Customization Over Templates:** 
+* **Customization Over Templates:**
   While templates offer consistency, they may not always cater to project-specific nuances. Every project is unique, and relying solely on templates can lead to gaps in the specification.
 
 ## Value Additions from AI
@@ -71,22 +72,22 @@ Even the most seasoned analysts might occasionally overlook certain details in a
   CI -->|Supports| CAM
   :::
 
-  ::: good
-  ![Figure: Good example - Visualizing complex system infrastructure using Mermaid for clarity](mermaid.jpg)
-  :::
+::: good
+![Figure: Good example - Visualizing complex system infrastructure using Mermaid for clarity](mermaid.jpg)
+:::
   
-* **From Architecture to Specification:** 
+* **From Architecture to Specification:**
   Entrust your AI with an architecture blueprint. See it draft an initial Specification Review, ready for human refinement.
 
-  ::: good 
-  ![Figure: Good example - Using AI to generate a Specification Review on existing architecture](chatgpt_azure.jpg)
-  :::
+::: good
+![Figure: Good example - Using AI to generate a Specification Review on existing architecture](chatgpt_azure.jpg)
+:::
 
 ## Example
 
 ::: greybox
 Prompt:
-_You are an IT consultant specification writer.
+"You are an IT consultant specification writer.
 
 Engage with me step-by-step to collect essential requirements.
 
@@ -104,7 +105,7 @@ Upon completion, gather the information based on my answers and then:
 
 2. Develop Product Backlog Items (PBIs) corresponding to the tasks required to fulfil the specifications.
 
-3. Provide the Mermaid syntax to draft both the present and projected architectural flow diagrams._
+3. Provide the Mermaid syntax to draft both the present and projected architectural flow diagrams."
 :::
 ::: good
 Figure: Good example - A good prompt to get the conversation started

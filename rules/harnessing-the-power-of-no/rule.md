@@ -1,14 +1,16 @@
 ---
-seoDescription: Harnessing the power of 'no' responses to open up honest and productive dialogues in sales and negotiations.
 type: rule
 title: Do you strive a 'no' response?
+seoDescription: Harnessing the power of 'no' responses to open up honest and
+  productive dialogues in sales and negotiations.
 uri: harnessing-the-power-of-no
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley
-related: []
+related:
+  - manage-objections
 redirects:
   - do-you-build-a-yes-ladder-to-your-outbound-script
   - build-a-yes-ladder-to-your-outbound-script

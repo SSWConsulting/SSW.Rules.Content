@@ -16,7 +16,7 @@ When sending repetitive emails, consistency across the organization is crucial. 
 
 <!--endintro-->
 
-`youtube: https://youtu.be/5MVPD187Wcc`
+`youtube: https://youtu.be/WWn05-oFkN4`
 **Video: Email Template Showdown: We Put the Top Tools to the Test! | Tanya Leahy | Rules (16 mins)**
 
 | Options                          | ✅ Pros                                         | ❌ Cons                                                                       |

@@ -1,5 +1,5 @@
 ---
-seoDescription: Learning to accept unsolicited feedback and turn it into a growth opportunity requires distinguishing between the message and messenger, viewing feedback as a tool, not a weapon, and embracing resilience.
+seoDescription: Learning to accept unsolicited feedback and turn it into a growth opportunity requires distinguishing between the message and messenger, viewing feedback as a tool, not a weapon, and embracing resilience
 type: rule
 archivedreason:
 title: Communication - Do you know how to accept unsolicited feedback?

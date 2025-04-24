@@ -1,5 +1,5 @@
 ---
-seoDescription: Do you secure your AppInsights location and enable Enhanced Security with Bicep rules.
+seoDescription: Do you secure your AppInsights location and enable Enhanced Security with Bicep rules
 type: rule
 archivedreason:
 title: Do you secure your AppInsights Telemetry?

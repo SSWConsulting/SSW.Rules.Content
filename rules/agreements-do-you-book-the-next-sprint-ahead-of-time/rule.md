@@ -1,5 +1,5 @@
 ---
-seoDescription: Booking your next Sprint ahead of time ensures availability and prevents developers from being assigned to other projects.
+seoDescription: Booking your next Sprint ahead of time ensures availability and prevents developers from being assigned to other projects
 type: rule
 archivedreason:
 title: Agreements - Do you book the next Sprint ahead of time?

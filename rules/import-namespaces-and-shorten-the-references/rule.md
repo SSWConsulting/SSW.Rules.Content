@@ -1,4 +1,5 @@
 ---
+seoDescription: Import namespaces and shorten references in C# for cleaner, more readable code.
 type: rule
 archivedreason: 
 title: Do you import namespaces and shorten the references?
@@ -21,10 +22,10 @@ You should import namespaces and shorten the references.
 ``` cs
 System.Text.StringBuilder myStringBuilder = new System.Text.StringBuilder();
 ```
+
 ::: bad
 Figure: Bad code - Long reference to object name
 :::
-
 
 ``` cs
 using System.Text;
@@ -32,6 +33,7 @@ using System.Text;
 ...
 StringBuilder myStringBuilder = new StringBuilder();
 ```
+
 ::: good
 Figure: Good code - Import the namespace and remove the repeated System.Text reference
 :::

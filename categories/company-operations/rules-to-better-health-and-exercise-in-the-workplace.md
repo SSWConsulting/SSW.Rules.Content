@@ -9,7 +9,7 @@ index:
 - healthy-office-food
 - lasting-habits
 - stretch-at-work
-
+- encourage-daily-exercise
 ---
 Are you at your best when you sit down for +8 hours straight every day? No? Neither are we.
 

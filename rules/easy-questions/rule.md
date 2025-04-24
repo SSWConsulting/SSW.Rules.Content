@@ -15,6 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/piers-sinclair
 related:
   - no-hello
+  - separate-messages
   - as-per-our-conversation-emails
   - important-chats-should-be-in-an-email
   - do-you-use-the-voting-option-appropriately
@@ -93,7 +94,7 @@ A good technique is to say "_Can you answer the above... if not, I will give you
 
 ---
 
-## When you can't make it simple and need a paper trail
+## When you can't make it simple and/or need a paper trail
 
 If it is important to have a record of a discussion, the best thing to do is call or have an in-person discussion. Once you have the answer, send an [as per our conversation email](/as-per-our-conversation-emails/) to make sure both parties are clear on the result.
 

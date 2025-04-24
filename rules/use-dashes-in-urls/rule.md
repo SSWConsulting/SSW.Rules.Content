@@ -2,7 +2,7 @@
 seoDescription: Use kebab-case (dashes) in your URLs and make them short and friendly for maximum readability and SEO.
 type: rule
 archivedreason:
-title: Do you use dashes in your URLs?
+title: On-page - Do you use dashes in your URLs?
 guid: 9eec1cdc-ff5f-47cf-b4a6-0936ec4c62d4
 uri: use-dashes-in-urls
 created: 2015-11-09T20:51:46.0000000Z
@@ -71,14 +71,12 @@ Read more on [SEO 101: Hyphens vs. Underscores in URLs](https://www.seomechanic.
 
 ---
 
-#### More info
-
-You can install the IIS [URL Rewrite Module](http://learn.iis.net/page.aspx/460/using-the-url-rewrite-module/) for IIS7 you can make ugly URL's much more friendly.
+::: greybox
+**More info:** You can install the IIS [URL Rewrite Module](https://learn.microsoft.com/en-us/iis/extensions/url-rewrite-module/using-the-url-rewrite-module) for IIS7 you can make ugly URLs much more friendly.
 
 ![Figure: Rewrite both the HTML in the page and the incoming URL's to be friendly](friendly-url-rule.jpg)
 
 The caveat here is that it will only work if the URL is in the clear on the page.
 
-::: greybox
 **Note:** This could only be done with certain links as others are postbacks as well.
 :::

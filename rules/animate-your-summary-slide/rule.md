@@ -1,5 +1,5 @@
 ---
-seoDescription: Animate key points on your Summary slide to keep audience engaged and focused on your talk, rather than reading ahead.
+seoDescription: Animate key points on your Summary slide to keep audience engaged and focused on your talk, rather than reading ahead
 type: rule
 archivedreason:
 title: Do you know to animate your summary slide?

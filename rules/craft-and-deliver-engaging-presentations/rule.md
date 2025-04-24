@@ -1,4 +1,5 @@
 ---
+seoDescription: Master the art of crafting and delivering engaging presentations with proven tips and strategies for confident and effective communication
 type: rule
 title: Do you craft and deliver engaging presentations?
 uri: craft-and-deliver-engaging-presentations

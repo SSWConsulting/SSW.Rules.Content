@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to ensure tasks are truly complete by documenting or updating processes before finalizing them.
 type: rule
 title: Do you document/update processes before sending "Done"?
 uri: document-the-job
@@ -16,7 +17,7 @@ Often while doing a task, you follow a process. If it's a repeatable task, it's 
 
 ### When should you do it?
 
-Document or update a process as soon as a change happens. Don't wait until the task is complete because it will likely be forgotten. 
+Document or update a process as soon as a change happens. Don't wait until the task is complete because it will likely be forgotten.
 
 Say a meeting where multiple options were discussed and a decision was made. You must communicate the client and the team, but before sending a 'Done', make sure the decision and its reasons are documented and accessible by others who didn't attend the meeting (e.g. Create or update a rule). This way others may not need a meeting next time.
 
@@ -26,8 +27,8 @@ If you are really under the crunch and your task is critically urgent (e.g. Prod
 
 Processes are usually stored in different places depending on the context they apply to.
 
-- [Wiki or Repo](/awesome-documentation) - If related to a project
-- [PBIs](/document-discoveries) - If related to a task being worked on
-- [Rules or blogs](/do-you-know-how-to-document-what-you-are-doing) - Public standards and best practices
-- Intranet - Internal standards
-- Induction (e.g. SugarLearning) - Links to standards/rules + test knowledge
+* [Wiki or Repo](/awesome-documentation) - If related to a project
+* [PBIs](/document-discoveries) - If related to a task being worked on
+* [Rules or blogs](/do-you-know-how-to-document-what-you-are-doing) - Public standards and best practices
+* Intranet - Internal standards
+* Induction (e.g. SugarLearning) - Links to standards/rules + test knowledge

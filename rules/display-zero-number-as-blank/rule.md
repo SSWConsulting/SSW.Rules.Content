@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how displaying zero numbers as blank in reports enhances readability using formats like '#,#' for cleaner data presentation.
 type: rule
 archivedreason:
 title: Data Layout - Do you display zero number as blank in reports?

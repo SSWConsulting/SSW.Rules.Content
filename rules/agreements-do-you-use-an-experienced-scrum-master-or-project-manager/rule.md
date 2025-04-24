@@ -1,5 +1,5 @@
 ---
-seoDescription: Use an experienced Scrum Master or Project Manager to streamline your software development project and ensure timely delivery.
+seoDescription: Use an experienced Scrum Master or Project Manager to streamline your software development project and ensure timely delivery
 type: rule
 archivedreason:
 title: Agreements - Do you use an experienced Scrum Master (or Project Manager)?

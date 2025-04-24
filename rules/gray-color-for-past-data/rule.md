@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover if using gray effectively indicates past data in reports
 type: rule
 archivedreason:
 title: Data Layout - Do you use gray color for past data?
@@ -22,5 +23,5 @@ It's common that gray color means old, so we use gray for past data in reports.
 :::
 
 ::: good  
-![Figure: Good example - Old data in gray](RS_Color4Prior_Good.gif) 
+![Figure: Good example - Old data in gray](RS_Color4Prior_Good.gif)
 :::

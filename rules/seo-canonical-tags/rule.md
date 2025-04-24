@@ -1,7 +1,7 @@
 ---
 seoDescription: Using canonical tags helps prevent duplicate content issues and ensures search engines index the preferred version of a web page.
 type: rule
-title: Do you use canonical tags to prevent duplicate content?
+title: Technical - Do you use canonical tags to prevent duplicate content?
 uri: seo-canonical-tags
 authors:
   - title: Gordon Beeming

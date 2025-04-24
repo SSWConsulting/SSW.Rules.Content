@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to fix ugly URLs using IIS7 Rewrite for cleaner, SEO-friendly links
 type: rule
 archivedreason: 
 title: Do you use IIS7 Rewrite to fix ugly URLs?

@@ -8,7 +8,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - celebrate-birthdays
 redirects:
   - do-you-incentivise-your-employees-to-do-their-timesheets-on-time
 created: 2013-04-19T20:22:27.000Z
@@ -22,11 +23,12 @@ Get your employees to enter [their timesheets daily](/do-you-know-when-to-enter-
 
 <!--endintro-->
 
-- A Friday email to update their timesheets, SugarLearning, and [service calendar](/scheduling-do-you-know-how-to-view-the-availability-of-each-developer-resource-scheduling)
+* A Friday email to update their timesheets, SugarLearning, and [service calendar](/scheduling-do-you-know-how-to-view-the-availability-of-each-developer-resource-scheduling)
 
 A deadline for submitting timesheets (Friday 12pm). The entire company is rewarded with a free lunch, and only people who missed the deadline will miss out on it.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | All |
@@ -37,9 +39,9 @@ Hi All,
 
 Everyone gets a free lunch today except for the following people:
 
-- Person 1’s name
-- Person 2’s name
-- etc.
+* Person 1’s name
+* Person 2’s name
+* etc.
 
 Can you please complete your timesheets ASAP and little ‘r’ me when you are done
 
@@ -56,8 +58,8 @@ Here’s what we check:
 
 **Notes:**
 
-- The Free Lunch should not accumulate. It's an 'on the day' reward, so take it or leave it... If they're not in the office, give them 30 days to get the $15.00 Tax Invoice back to Accounts for reimbursement
+* The Free Lunch should not accumulate. It's an 'on the day' reward, so take it or leave it... If they're not in the office, give them 30 days to get the $15.00 Tax Invoice back to Accounts for reimbursement
 
-- Ideally, buy the free lunch in 1 go, to reduce the admin involved for the accounts department
+* Ideally, buy the free lunch in 1 go, to reduce the admin involved for the accounts department
 
-- Since it's damaging to have senior people belittled by getting called out for relatively trivial things, you should always make sure you do your absolute best to help them comply
+* Since it's damaging to have senior people belittled by getting called out for relatively trivial things, you should always make sure you do your absolute best to help them comply

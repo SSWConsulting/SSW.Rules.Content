@@ -1,5 +1,5 @@
 ---
-seoDescription: Always put JavaScript in a separate file to maintain consistent line numbers during debugging and improve performance through browser caching.
+seoDescription: Always put JavaScript in a separate file to maintain consistent line numbers during debugging and improve performance through browser caching
 type: rule
 archivedreason:
 title: Do you always put JavaScript in a separate file?

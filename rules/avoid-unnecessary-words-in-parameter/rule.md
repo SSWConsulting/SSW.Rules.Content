@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your parameter names by avoiding unnecessary words like "Select" or "Enter" for clearer and more efficient data processing.
 type: rule
 archivedreason:
 title: Parameters - Do you avoid unnecessary words in the parameter?

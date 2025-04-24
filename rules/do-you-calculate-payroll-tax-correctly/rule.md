@@ -21,7 +21,7 @@ The rules around when you begin paying for payroll tax and the amount you have t
 
 The Australian Government has general information about payroll tax, including affected businesses and possible exemptions. However, because the State Government laws take precedence, your business should take information from the State Government's website. For a general understanding of payroll tax, see the Australian Government's main website as follows:
 
-* [Australian Business Government - Payroll Tax](https://business.gov.au/finance/taxation/payroll-tax)
+* [Australian Business Government - Payroll Tax](https://business.gov.au/finance/tax/payroll-tax)
 
 It is important to stay up to date with the State Government's rules as they may change from time to time. The relevant State Government websites for NSW, QLD and VIC are as follows:
 

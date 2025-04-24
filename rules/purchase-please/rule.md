@@ -31,6 +31,7 @@ Let's have a look at the best way to get authorization:
 
    - Your manager's approval (in the history)
    - Attach the tax invoice
+   - The total cost
    - State how the payment was made (whether you paid it yourself and need reimbursing or if it was on a company credit card, and if so, which one)
    - If this is for a client, include the Client ID/name
    - If it is for a client, include if it is to be on-charged (E.g. please invoice - add 20%)

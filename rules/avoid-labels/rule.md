@@ -11,7 +11,8 @@ authors:
 related:
   - less-is-more
   - how-to-align-your-form-labels
-  - avoid-ending-labels-text-with-a-colon
+  - avoid-clutter-in-form-labels
+  - always-reduce-complexity
 created: 2021-07-09T12:00:01.000Z
 archivedreason: null
 guid: b3b50fc7-72f1-42d7-9e63-80280c57b608

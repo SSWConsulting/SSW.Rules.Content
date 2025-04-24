@@ -15,6 +15,7 @@ authors:
     url: https://ssw.com.au/people/joanna-feely
 related:
   - what-happens-at-retro-meetings
+  - sprint-review-retro-email
   - do-you-know-when-and-when-not-to-use-email
 redirects:
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-(a-k-a-feedback)
@@ -43,6 +44,8 @@ Then move onto **“What didn’t go so well?”** This part can be painful but 
 
 Finally, we ask **“What could we do differently next time?”**
 
+**Tip:** [Use emojis to give context](use-emojis) when documenting each of your questions.
+
 ::: greybox
 **Adam:** How was the presentation?  
 **Eddie:** Yeah, it was alright.  
@@ -52,18 +55,18 @@ Bad example - This line of questioning doesn’t provide useful feedback
 :::
 
 ::: greybox
-**Adam:** What went well with your presentation?  
+**Adam:** ✅ What went well with your presentation?  
 **Eddie:** People seemed to really relate to the case studies I presented.  
-**Adam:** What didn’t go so well?  
+**Adam:** ❌ What didn’t go so well?  
 **Eddie:** My demo didn’t work. That was really embarrassing.  
-**Adam:** What would you do differently next time?  
+**Adam:** 💡 What would you do differently next time?  
 **Eddie:** I’d definitely get there a bit earlier so I’d have time to troubleshoot that pesky demo on their wifi! That would also give me extra time to talk to the audience so I could find out what problems they’re hoping to solve with my session - it’s a good way to get more case studies!
 :::
 ::: good
 Good example - Constructive feedback leads to stronger outcomes in the future
 :::
 
-## Make it actionable
+## Make the retro actionable
 
 After you've done the retro, it's important to agree on a path forward so that change is put into effect.
 
@@ -74,10 +77,10 @@ This process ensures that each person has a single task to action, and makes acc
 ::: greybox
 **Action Points** (email subjects):
 
-1. Melbourne Brainstorming 2023 Retro - Brady Action Points
-2. Melbourne Brainstorming 2023 Retro - William L Action Points
-3. Melbourne Brainstorming 2023 Retro - Piers Action Points
-4. Melbourne Brainstorming 2023 Retro - Adam Action Points
+1. Melbourne Brainstorming 2024 Retro - Brady Action Points
+2. Melbourne Brainstorming 2024 Retro - William L Action Points
+3. Melbourne Brainstorming 2024 Retro - Piers Action Points
+4. Melbourne Brainstorming 2024 Retro - Adam Action Points
 
 :::
 ::: good

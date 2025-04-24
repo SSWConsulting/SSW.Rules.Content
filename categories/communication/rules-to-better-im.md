@@ -22,6 +22,7 @@ index:
 - when-to-email-chat-call-or-meet
 - important-chats-should-be-in-an-email
 - when-to-create-a-group-chat
+- teams-meetings-vs-group-chats
 - replying-in-the-same-medium
 - close-off-thread
 - better-late-than-never
@@ -31,7 +32,7 @@ index:
 - use-your-company-name-as-part-of-your-display-name
 - use-your-personal-message-to-share-good-news-with-your-contacts
 - keep-a-history-of-your-im-conversations
-- you-make-the-email-readable-by-snipping-and-formatting-the-im-chat
+- snipping-im-chats
 - do-you-minimize-team-distractions
 - minimize-unrelated-interruptions
 - minimize-skype-distractions

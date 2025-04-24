@@ -1,13 +1,15 @@
 ---
 seoDescription: Show phone numbers correctly by including country codes and formats that allow international calls or texts.
 type: rule
-title: Do you know the right format to show phone numbers?
+title: Do you know how to format phone numbers?
 uri: right-format-to-show-phone-numbers
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
   - great-email-signatures
+  - the-value-of-consistency
+  - address-formatting
 redirects:
   - do-you-know-the-right-format-to-show-phone-numbers
   - do-you-know-the-right-format-to-show-your-phone-number

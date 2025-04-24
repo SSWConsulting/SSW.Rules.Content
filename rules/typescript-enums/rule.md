@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how const assertions in TypeScript provide cleaner type safety and developer experience compared to traditional enums.
 type: rule
 title: Do you know why to use const assertions instead of TypeScript enums?
 uri: typescript-enums

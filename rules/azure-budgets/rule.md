@@ -1,4 +1,5 @@
 ---
+seoDescription: "Learn how to monitor and manage Azure costs with budgets, tags, and alerts to avoid bill shock."
 type: rule
 title: Budgets - Do you monitor your costs in Azure?
 uri: azure-budgets
@@ -97,6 +98,7 @@ For everyone to be on the same page, the process a developer should follow is:
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Spend Master |

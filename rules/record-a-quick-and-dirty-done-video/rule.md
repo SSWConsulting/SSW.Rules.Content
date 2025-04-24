@@ -109,7 +109,7 @@ Here's a quick video describing how to record your webcam and screen separately 
 
 **Video: How to Record Webcam and Game Separately in OBS Studio | Tutorial (10 min)**
 
-**Note:** You will be able to alter the PIP, remove it, go full screen on your face.
+**Note:** You will be able to alter the PIP, remove it, go full screen on your face. Also note that you'll need to **set the output to 30 FPS** in your OBS settings - not 60 FPS as outlined in the video. Setting the output to 30 FPS will ensure you don't experience syncing issues or lag between the video and audio.
 
 Switching Scenes in OBS - it is quite easy to do with these simple steps using OBS Hotkeys!
 

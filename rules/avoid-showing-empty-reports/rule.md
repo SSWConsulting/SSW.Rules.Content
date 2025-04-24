@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid empty reports by using database queries to set valid default parameter values in SQL Reporting Services, ensuring meaningful results for users.
 type: rule
 archivedreason:
 title: Parameters - Do you avoid showing empty reports?

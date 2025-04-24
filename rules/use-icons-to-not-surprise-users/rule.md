@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve user experience by using icons on file links to avoid surprising users with unexpected downloads or applications opening in the background.
 type: rule
 title: Do you use icons on files' links to not to surprise users?
 uri: use-icons-to-not-surprise-users
@@ -31,6 +32,7 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 Don't surprise users! Use icons next to links to show different types of links/files.
 
 ::: no-border
+
 | Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
 | **Regular link**                                                   | [This is a normal link](/)                                                 | ...                     |

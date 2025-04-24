@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential Angular tools like Angular CLI and DevTools for your project setup and streamlined development.
 type: rule
 title: Tools - Do you know what Angular Tools to install for an Angular project?
 uri: angular-the-stuff-to-install

@@ -1,5 +1,5 @@
 ---
-seoDescription: When to add changes to an existing pull request - Ensure correct, necessary, and beneficial updates to the project while considering expertise and project standards.
+seoDescription: When to add changes to an existing pull request - Ensure correct, necessary, and beneficial updates to the project while considering expertise and project standards
 type: rule
 title: Do you know when to add your changes to an existing PR?
 uri: adding-changes-to-pull-requests

@@ -39,10 +39,9 @@ Do the following on your profile page:
 9. Add your top skills in the 'About' section (Aim for 5)
 10. [Add your job experience](/linkedin-job-experience)
 11. Under your company, add [relevant links](https://www.youtube.com/watch?v=3rPpCchYUfc) to showcase your experience in a specific job
-12. [Use hashtags](/linkedin-creator-mode) to make yourself searchable
-13. Add a link to your company's profile in your description
+12. Add a link to your company's profile in your description
 
-   E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
+    E.g. `https://www.ssw.com.au/people/{{ YOUR-NAME }}`
 
 13. **Account Managers** - Include a button to book as per [the best way to let clients book a meeting with you](/meeting-bookings)
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to take effective notes with metadata like date and name for better organization and easy retrieval.
 type: rule
 title: Do you know how to take effective notes?
 uri: take-effective-notes

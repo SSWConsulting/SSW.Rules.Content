@@ -10,6 +10,7 @@ index:
   - do-you-conduct-an-architecture-review-after-every-sprint
   - awesome-documentation
   - awesome-readme
+  - use-readme-templates
   - architecture-diagram
   - do-you-document-the-technologies-design-patterns-and-alm-processes
   - spike-vs-poc
@@ -40,7 +41,7 @@ index:
   - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
   - do-you-use-subdomains-instead-of-virtual-directories
   - do-you-use-the-best-middle-tier-net-libraries
-  - do-you-use-the-best-web-ui-libraries
+  - web-ui-libraries
   - do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container
   - technical-debt
   - just-enough-refactoring

@@ -14,6 +14,7 @@ index:
 - add-useful-and-concise-figure-captions
 - use-bad-and-good-examples
 - avoid-unnecessary-css-classes
+- css-frameworks
 - css-changes
 - use-the-right-html-figure-caption
 - do-you-always-acknowledge-your-work
@@ -42,7 +43,7 @@ index:
 - search-results-do-you-always-give-more-information-when-searching-doesnt-find-anything
 - do-you-know-not-to-use-bold-tags-inside-headings
 - do-you-avoid-having-a-horizontal-scroll-bar
-- do-you-display-dates-in-a-human-friendly-format
+- human-friendly-date-and-time
 - address-formatting
 - do-you-help-the-user-to-enter-a-url-field
 - do-you-make-sure-that-all-your-tags-are-well-formed
@@ -51,7 +52,7 @@ index:
 - clean-no-match-found-screen
 - do-you-know-how-to-arrange-forms
 - do-you-use-list-tags-for-lists-only
-- do-you-use-gravatar-for-your-profile-pictures
+- gravatar-for-profile-management
 - do-you-use-hyperlinks-instead-of-javascript-to-open-pages
 - videos-do-you-have-a-video-on-the-homepage-of-products-websites
 - right-format-to-write-videos-time-length
