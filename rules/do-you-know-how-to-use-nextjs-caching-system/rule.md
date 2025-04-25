@@ -14,7 +14,7 @@ related:
 ---
 
 Next.js 15 introduced a more explicit and developer-friendly caching system. 
-But it's not automatic—caching only activates when you *opt in* using three mechanisms: enabling two flags (`dynamicIO`, `useCache`) in your config and adding the `"use cache"` directive inside the file or function. This triple-lock prevents accidental caching and gives you fine-grained control over revalidation and tagging.
+But it's not automatic—caching only activates when you *opt in* using three mechanisms: enabling two flags (`dynamicIO`, `useCache`) in your config and adding the `"use cache"` directive inside a file, a component or a function. This triple-lock prevents accidental caching and gives you fine-grained control over revalidation and tagging.
 
 <!--endintro-->
 
