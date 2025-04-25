@@ -53,6 +53,7 @@ index:
   - use-server-side-comments
   - best-static-site-tech-stack
   - use-nextjs
+  - use-nextjs-caching-system
   - cms-solutions
   - git-based-cms-solutions
   - best-online-documentation-site
