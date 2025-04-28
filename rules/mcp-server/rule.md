@@ -15,7 +15,7 @@ authors:
     url: https://www.ssw.com.au/people/hajir-lesani
 guid: ddaf9969-7cb9-408c-8f2a-18ce128decc4
 ---
-Anthropic launched the Model Context Protocol (MCP) in November 2024 to streamline AI integration, quickly earning adoption from major players like OpenAI and Microsoft. This standard has revolutionized how businesses connect AI assistants to their applications, creating seamless, context-aware experiences without complex technical implementations. 
+Anthropic launched the Model Context Protocol (MCP) in November 2024 to streamline AI integration, quickly earning adoption from major players like OpenAI and Microsoft. This standard has revolutionized how businesses connect AI assistants to their applications, creating seamless, context-aware experiences without complex technical implementations.
 
 For non-technical business owners and decision-makers, MCP offers a straightforward way to future-proof applications and tap into the growing AI ecosystem.
 
