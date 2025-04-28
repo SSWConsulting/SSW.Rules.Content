@@ -92,6 +92,8 @@ For non-technical business leaders, implementing an MCP server is less about the
 
 As AI continues to transform business operations, having an MCP server will increasingly become a competitive necessity rather than just a nice-to-have technology.
 
+---
+
 #### Need help connecting your proprietary services?
 
-📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we’ll help you build a robust, scalable MCP server.
+📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we'll help you build a robust, scalable MCP server.
