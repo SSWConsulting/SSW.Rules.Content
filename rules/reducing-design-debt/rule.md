@@ -12,36 +12,100 @@ created: 2025-04-23T11:45:00.000Z
 archivedreason: ""
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
-It’s tempting to fix small UI issues on the fly, change a button size, adjust spacing, swap a color. But those “quick wins” often lead to **design debt**: a messy, inconsistent UI that slows development and confuses users.
+
+It’s tempting to fix small UI issues on the fly — change a button size, adjust some spacing, or tweak a color. But those “quick wins” often turn into long-term losses, leading to a messy, inconsistent UI that confuses users and slows development.
 
 <!--endintro-->
 
-Design debt is like tech debt - shortcuts that feel efficient now but cause long-term pain. Without a system, visual inconsistencies multiply, user experience suffers, and devs waste time second-guessing design intent.
+Design debt is like technical debt: shortcuts that seem efficient in the moment create chaos down the line. Without a shared system, visual inconsistencies multiply, developers second-guess design intent, and user experience suffers.
 
-   ![Video: Three Steps to Resolve UX Debt (4 mins)](https://www.youtube.com/watch?v=AGBGpR21bJg)
+## What causes design debt?
 
+It usually starts with innocent intentions:
 
-### What to do instead
+- "Just added a quick icon"
+- "Tightened the padding a bit"
+- "Didn't want to bother design — it's small"
 
-* **Follow a design system** – Use shared components and patterns
-* **Loop in a designer** – Ask via a "Test Please" or include them on the PBI
-* **Track changes properly** – Create a PBI so the team can prioritize and review
+We’ve all done it. But enough of these add up fast. Suddenly, the product feels inconsistent, design is out of sync, and developers redo work they thought was already done.
 
-### Examples
+## How to prevent design debt
+
+### 1. Before you code
+
+Ask yourself:
+
+- Is this already in the design system?
+- Will users see this change?
+- Does it affect layout, spacing, interaction, or visuals?
+
+If the answer is “yes” or you’re not sure — involve design.
+
+*Use a “Test Please” or tag a designer on the PBI before making changes.*
+
+### 2. Track it properly
+
+Even small tweaks need visibility:
+
+- Create a PBI for every UI change
+- Tag it `needs-design` or `minor-UI` depending on the impact
+- Let the PO and designer review and prioritize
+
+### 3. Use the design system
+
+Design systems are like component libraries — but for UI.
+
+- If the component exists, use it.
+- If it doesn’t, don’t freestyle. Ask if a new pattern is needed.
+
+Always check with design. No matter what.
+
+## Examples – The SSW Mega Menu
 
 ::: greybox
-You tweak a button’s padding in the code without talking to design or logging the change.
+The Mega Menu has had small tweaks added over time: new icons, padding changes, label tweaks — all without a design review.
 :::
 ::: bad
-Figure: Bad Example – A solo change that adds inconsistency and confusion
+![Figure: Bad Example – The current Mega Menu has accumulated inconsistencies that break from the original design system](https://example.com/images/ssw-mega-menu-current.jpg)
 :::
+
 ::: greybox
-You notice the button looks off, raise a UI PBI, and get design feedback before making the change.
+This is the original Mega Menu design — consistent, aligned with the design system, and reviewed by design before implementation.
 :::
 ::: good
-Figure: Good Example – A team-reviewed change that aligns with the design system
+![Figure: Good Example – The Mega Menu as originally designed, clean and consistent with the design system](https://example.com/images/ssw-mega-menu-original.jpg)
 :::
 
-### Treat design like code
+## More ways to prevent design debt
 
-Every visual tweak affects the product. Involve the right people, follow process, and respect the system—just like you would with technical architecture. 🤖
+- Screenshot your change and post it in Slack before merging
+- Ask for a quick designer 👀 on spacing, alignment, and component use
+- Loop in design early on bigger stuff (e.g. layout or feature changes)
+- After merge, let design know if you created something reusable
+
+## Why design debt matters
+
+### 🚨 Why it happens
+
+- Rushed timelines or MVP mindset (“we’ll fix it later”)
+- No shared design system
+- Designers and developers working in silos
+- Unclear product direction or pivots
+
+### 📉 Why it’s a problem
+
+- Hurts user trust and usability
+- Makes the product feel messy or inconsistent
+- Slows future development and design
+- Causes rework and team friction
+
+### 🧹 How to manage it
+
+- Run regular UX audits and design reviews
+- Maintain a living design system or component library
+- Include UI refactoring in your roadmap
+- Document design decisions with clear rationale
+
+## Treat design like code
+
+Every visual tweak changes the product — just like changing a line of code. So follow process, get the right people involved, and respect the system. 🤖
