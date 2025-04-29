@@ -25,7 +25,7 @@ However, it’s easy to use it as a crutch, and as a result, miss out on handy i
 
 If you're trying to write more type-safe code, it's generally recommended to use "unknown" instead of "any" wherever possible, as it forces you to perform type checks and can help catch errors earlier in the development process.
 
-There are two main problems with using "any" in typescript
+There are two main problems with using "any" in Typescript:
 
 **Runtime Errors**: Using "any" effectively tells the compiler to treat the code you're writing as if it were written in JavaScript rather than Typescript. This is dangerous because it allows you to push code with potential runtime errors into production. These errors would ordinarily cause the Typescript compilation to fail, catching bugs before they ever reach a staging environment
 
