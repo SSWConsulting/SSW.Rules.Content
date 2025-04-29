@@ -66,14 +66,14 @@ Always check with design. No matter what.
 This Menu has had small tweaks added over time: new icons, padding changes, label tweaks — all without a design review.
 :::
 ::: bad
-![Figure: Bad Example – The current Mega Menu has accumulated inconsistencies that break from the original design system](https://example.com/images/ssw-mega-menu-current.jpg)
+![Figure: Bad Example – The current Mega Menu has accumulated inconsistencies that break from the original design system](design-debt-bad-ex.png)
 :::
 
 ::: greybox
 This is the original Menu design — consistent, aligned with the design system, and reviewed by design before implementation.
 :::
 ::: good
-![Figure: Good Example – The Mega Menu as originally designed, clean and consistent with the design system](https://example.com/images/ssw-mega-menu-original.jpg)
+![Figure: Good Example – The Mega Menu as originally designed, clean and consistent with the design system](design-debt-good-ex.png)
 :::
 
 ## More ways to prevent design debt
