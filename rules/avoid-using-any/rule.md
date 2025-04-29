@@ -51,7 +51,7 @@ console.log(person.name.first)
 
 ```
 
-**Code Maintainability**: Maintaining a large Typescript code base where "any" is used frequently can be an absolute nightmare! Lets say I had a recurring object in my code base called for a person with the props "fName" and "lName". Lets also say I used "any" as the input argument for any methods that use this object. What if I want to rename "fName" to "firstName"? I'd need to do a find and replace throughout my code base praying that none of my other objects have props of the same name.
+**Code maintainability** - Maintaining a large Typescript code base where "any" is used frequently can be an absolute nightmare! Let's say I had a recurring object in my code base called for a person with the props "fName" and "lName". Let's also say I used "any" as the input argument for any methods that use this object. What if I want to rename "fName" to "firstName"? I'd need to do a find and replace throughout my code base praying that none of my other objects have props of the same name.
 
 ::: bad
 ![Figure: Bad example – I can pass anything into this method, so I get bad output at run time (“undefined undefined”)](any-bad.png)
