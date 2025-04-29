@@ -27,7 +27,7 @@ If you're trying to write more type-safe code, it's generally recommended to use
 
 There are two main problems with using "any" in Typescript:
 
-**Runtime Errors**: Using "any" effectively tells the compiler to treat the code you're writing as if it were written in JavaScript rather than Typescript. This is dangerous because it allows you to push code with potential runtime errors into production. These errors would ordinarily cause the Typescript compilation to fail, catching bugs before they ever reach a staging environment
+**Runtime errors** - Using "any" effectively tells the compiler to treat the code you're writing as if it were written in JavaScript rather than Typescript. This is dangerous because it allows you to push code with potential runtime errors into production. These errors would ordinarily cause the Typescript compilation to fail, catching bugs before they ever reach a staging environment.
 
 ```
 // The type of "person" would ordilarily match the initial assignment assignment
