@@ -39,7 +39,7 @@ Ask yourself:
 * Will users see this change?
 * Does it affect layout, spacing, interaction, or visuals?
 
-If the answer is “yes” or you’re not sure — involve design.
+If the answer is “yes” or you’re not sure; it involves design. So ask for a “Test Please” and tag a designer on the PBI before making changes.
 
 *Use a “Test Please” or tag a designer on the PBI before making changes.*
 
