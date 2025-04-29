@@ -41,7 +41,6 @@ Ask yourself:
 
 If the answer is “yes” or you’re not sure; it involves design. So ask for a “Test Please” and tag a designer on the PBI before making changes.
 
-*Use a “Test Please” or tag a designer on the PBI before making changes.*
 
 ### 2. Track it properly
 
