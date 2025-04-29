@@ -31,7 +31,7 @@ It usually starts with innocent intentions:
 * "Tightened the padding a bit"
 * "Didn't want to bother design — it's small"
 
-We’ve all done it. But enough of these add up fast. Suddenly, the product feels inconsistent, design is out of sync, and developers redo work they thought was already done.
+We’ve all done it. But enough of these add up fast. Before you know it, the product starts to feel inconsistent, design is out of sync, and developers redo work they thought was already done.
 
 ## Why design debt matters
 
