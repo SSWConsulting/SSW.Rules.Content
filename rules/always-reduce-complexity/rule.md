@@ -1,5 +1,5 @@
 ---
-seoDescription: Reducing complexity helps users make faster and more accurate decisions by presenting them with smaller sets of options.
+seoDescription: Reducing complexity helps users make faster and more accurate decisions by presenting them with smaller sets of options
 type: rule
 title: Do you always try to reduce complexity?
 uri: always-reduce-complexity

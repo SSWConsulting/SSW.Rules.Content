@@ -1,7 +1,7 @@
 ---
 seoDescription: Increase website search engine rankings by submitting software products to reputable download sites and leveraging inbound links.
 type: rule
-archivedreason:
+archivedreason: Deprecated
 title: Do you submit all your software to download sites?
 guid: 6fb8500c-e02f-4faa-bdb0-0922d0c0ab90
 uri: submit-software-to-download-sites

@@ -11,6 +11,7 @@ index:
 - merge-debt
 - use-pull-request-templates-to-communicate-expectations
 - dont-push-your-pull-requests
+- compare-pr-performance-with-production
 - adding-changes-to-pull-requests
 - useful-information-on-changes
 - do-you-save-failed-experiments-in-abandoned-pull-requests

@@ -1,7 +1,7 @@
 ---
 seoDescription: Gratitude amplifies online engagement and boosts search visibility when others mention or re-tweet you.
 type: rule
-title: X - Do you know to thank others for each reference to you?
+title: X (previously Twitter) - Do you know to thank others for each reference to you?
 uri: thank-others-for-each-reference-to-you
 authors:
   - title: Adam Cogan

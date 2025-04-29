@@ -1,4 +1,5 @@
 ---
+seoDescription: how-to-request-a-test-please-effectively-for-software-testing-and-quality-assurance
 type: rule
 title: Quality - Do you know how to request a "Test Please"?
 uri: request-a-test-please
@@ -27,13 +28,13 @@ These are the steps you should take when requesting a "Test Please":
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "Test Please" following this template:
 
-::: email-template
+::: email-template  
 
-|          |     |
+| | |
 | -------- | --- |
-| To:      | John |
+| To:| John |
 | Subject: | Product Name v1.11 |
-::: email-content  
+::: email-content
 
 1. <mark>'Test Please'</mark>
 
@@ -49,7 +50,6 @@ I am looking for bugs or approval to release this version.
 I have done what I could for my code's health. E.g.
 
 * Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
-* Run SSW LinkAuditor - it has {{ X }} errors (if not 0, give reason)
 * Kept my eye on Application Insights
 * Ensured all packages are as up-to-date as possible
   * Updated:
@@ -70,15 +70,21 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
 **Notes:**
 
-* Know the [definition of a bug](/definition-of-a-bug)
-* Understand the importance of [conducting a "Test Please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
-* Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
+**\#1** - Know the [definition of a bug](/definition-of-a-bug)
 
-  * Please CC the project manager and the client
-* Do not reply to this message until you can say:
-  * "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
-    or
-  * "**❌ Test Please failed** (as per Critical bugs reported)"
+**\#2** - Understand the importance of [conducting a "Test Please" internally and then with the client](/conduct-a-test-please-internally-and-then-with-the-client)
+
+**\#3** - Send suggestions/bugs one email at a time (with unique and [good email subjects](/good-email-subject)) making it easier to fix and reply "Done"
+
+**\#4** - CC the product owner and relevant stakeholders
+
+**\#5** - Do not reply to this message until you can say:
+
+* "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
+or
+* "**❌ Test Please failed** (as per Critical bugs reported)"
+
+**\#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
 
 Regards,
 
@@ -95,7 +101,7 @@ If current version is better than the last version you can release (even with a 
 * You get to work on the failures ASAP
 :::
 
-### Don't send a 'Test Please' content via IM
+## Don't send a 'Test Please' content via IM
 
 You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
@@ -105,7 +111,7 @@ I need you to check my 'Test Please' email\
 See subject: **Product Name v1.11**"
 :::
 
-### What if you are doing an email test?
+## What if you are doing an email test?
 
 In most cases, you can [get your email 'Checked by xxx'](/checked-by-xxx).
 
@@ -114,21 +120,21 @@ For really important stuff you may need to actually send a 'Test Please' email t
 * Add <mark>'Test Please'</mark> highlighted in yellow to the top of the email body
 * Do **not** add 'Test Please' to the subject (it is too easy to forget removing it later!)
 
-### What if you need to get input from a few people?
+## What if you need to get input from a few people?
 
 If you have received a task that requires input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
 
 You have 2 options:
 
 1. **Keep the "test" in the same thread** (recommended)\
-   In this case, just add the people you need to the thread, asking them specifically for a 'Test Please' on what you need
+In this case, just add the people you need to the thread, asking them specifically for a 'Test Please' on what you need
 2. **Create a new thread for the 'Test Please'**
-   This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
-   In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
+This is for when you have a good reason not to (e.g. avoiding too long email threads; too many people cc'ed, etc).
+In this case, make sure you include the original thread subject in your email, so people know the main task is happening there
 
 This way everyone will have the entire history of the task and its progress.
 
-### What if you're doing a Windows Forms test?
+## What if you're doing a Windows Forms test?
 
 For Windows Forms test you should include this info to the email:
 

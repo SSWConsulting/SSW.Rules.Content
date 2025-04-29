@@ -1,5 +1,5 @@
 ---
-seoDescription: Joining the team as a "tester" can be a cost-effective way to ensure the desired functionality of your system.
+seoDescription: Joining the team as a "tester" can be a cost-effective way to ensure the desired functionality of your system
 type: rule
 archivedreason:
 title: Agreements - Do you join the team as a "tester"?

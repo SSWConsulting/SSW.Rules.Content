@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective ways to modernize legacy systems with minimal risk using Big Bang, Evolutionary, or Strangler Fig patterns.
 type: rule
 title: Do you know the different ways to modernize your application?
 uri: modernize-your-app

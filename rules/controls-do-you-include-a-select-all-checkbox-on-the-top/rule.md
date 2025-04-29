@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve user experience by adding a top "select all" checkbox for easy management of checkboxes in lists.
 type: rule
 archivedreason: 
 title: Controls - Do you include a "select all" checkBox on the top?
@@ -18,18 +19,15 @@ Do you have checkbox (on the top) that let users select or unselect all checkbox
 
 <!--endintro-->
 
-
 ::: good  
 ![Figure: Good Example - Hotmail does this](../../assets/HotmailSelectAll.gif)  
 :::
 
 ![Figure: Google have done it a different way to provide multiple methods (All, All Read, All Unread, All Starred, and All Unstarred)](../../assets/GmailSelectAll.gif)  
 
-
 ::: bad  
 ![Figure: Bad Example - SQL Auditor - No CheckBox for users to perform a "select all"](../../assets/SQLAuditorSelectAll\_Bad.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - SQL Auditor - CheckBox at the top of the column](../../assets/SQLAuditorSelectAll\_good.jpg)  
@@ -53,15 +51,15 @@ Code: Code for selecting all checkboxes in a windows form
 
 &lt;script type="text/javascript"&gt;
 function SeleteCheckBox()
-{ 
-for (var n=0; n &lt; document.form1.elements.length; n++) 
+{
+for (var n=0; n &lt; document.form1.elements.length; n++)
 {
 if (document.form1.elements[n].type == "checkbox" && document.form1.elements[n].name == "gridview")
 {
-document.form1.elements[n].checked = document.getElementById("CheckBoxAll").checked; 
+document.form1.elements[n].checked = document.getElementById("CheckBoxAll").checked;
 }
 }
-} 
+}
 &lt;/script&gt;
  Code: Code for selecting all checkboxes in a web form
 We have suggestions for Visual Studio .NET about this at [A top CheckBox to "select all" in windows forms](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSForm.aspx#SelectAllCheckWindows) and [A top CheckBox to "select all" in web forms.](http://www.ssw.com.au/ssw/Standards/BetterSoftwareSuggestions/MSAjax.aspx#SelectAllCheckWeb)

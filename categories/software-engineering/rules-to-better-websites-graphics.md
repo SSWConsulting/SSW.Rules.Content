@@ -25,7 +25,7 @@ index:
 - do-you-use-image-sprites-to-reduce-http-requests
 - do-you-add-width-and-height-properties-to-images-in-user-controls
 - avoid-height-width-in-img-tag
-- do-you-exclude-width-and-height-properties-from-image-references-in-content
+- exclude-width-and-height-properties-from-images
 
 ---
 

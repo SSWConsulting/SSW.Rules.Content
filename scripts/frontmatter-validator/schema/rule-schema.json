@@ -1,6 +1,9 @@
 {
   "type": "object",
   "properties": {
+    "seoDescription": {
+      "type": "string"
+    },
     "title": {
       "type": "string"
     },
@@ -53,7 +56,7 @@
       }
     }
   },
-  "required": ["type", "title", "guid", "uri", "authors"],
+  "required": ["seoDescription", "type", "title", "guid", "uri", "authors"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {

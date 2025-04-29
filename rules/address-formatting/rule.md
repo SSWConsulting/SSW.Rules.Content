@@ -1,5 +1,5 @@
 ---
-seoDescription: Format your addresses consistently using the structure - Number, Street Name, City, State (abbreviation) Postal Code, Country.
+seoDescription: Format your addresses consistently using the structure - Number, Street Name, City, State (abbreviation) Postal Code, Country
 type: rule
 archivedreason:
 title: Do you know how to format addresses?
@@ -7,9 +7,11 @@ guid: db3afa6c-23e6-4b25-ac47-80e3945fb555
 uri: address-formatting
 created: 2021-07-14T06:08:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
+  - right-format-to-show-phone-numbers
+  - the-value-of-consistency
 
 ---
 
@@ -26,7 +28,7 @@ The structure should follow: **Number, Street Name, City, State (abbreviation) P
 <!--endintro-->
 
 ::: greybox
-**Level 1, 81-91 Military Rd | Neutral Bay - NSW, 2089 Australia**
+**Level 1, 81 - 91 Military Road | Neutral Bay - NSW, 2089 AUS**
 :::
 :::bad
 Figure: Bad example - SSW main office address not following the standard address formatting

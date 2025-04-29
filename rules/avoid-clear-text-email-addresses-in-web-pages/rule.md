@@ -1,4 +1,5 @@
 ---
+seoDescription: Prevent spam and protect your email addresses from being scraped by avoiding clear text emails on your website.
 type: rule
 archivedreason: 
 title: Do you avoid clear text email addresses in web pages?

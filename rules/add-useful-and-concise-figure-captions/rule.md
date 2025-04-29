@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your web content by adding useful figure captions to images and videos for better SEO and user engagement.
 type: rule
 title: Figures - Do you add useful text captions to images and videos?
 uri: add-useful-and-concise-figure-captions
@@ -34,7 +35,7 @@ It is especially important that images and captions serve a purpose, as opposed 
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: ".
+Prefix your caption with "Figure: ", "Video: ", "Code: ", or "GIF: "
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
@@ -55,7 +56,7 @@ At SSW we always show the bad example first, then the good example. You will see
 ### Tip #3: Bold your captions
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 {{ CAPTION }}
 :::
 ::: bad
@@ -63,7 +64,7 @@ Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **{{ CAPTION }}**
 :::
 ::: good
@@ -75,7 +76,7 @@ Figure: Good example - Caption stands out when bolded
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **Figure: This is the screen**
 :::
 ::: bad
@@ -83,7 +84,7 @@ Figure: Bad example - Vague caption description
 :::
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **Figure: On the screen, choose the execution method**
 :::
 ::: good
@@ -105,7 +106,7 @@ Figure: Bad example - Using "Figure:" for a video caption + a vague text
 :::
 
 ::: greybox
-{{ VIDEO }}
+{{ VIDEO }}\
 **Video: Intro to Scrum in Under 10 Minutes (9 min)**
 :::
 ::: good
@@ -152,13 +153,33 @@ When you have someone's name in your caption, link the name to their profiles (e
 **Video: In this video, Bob talks about Outlook**
 :::
 ::: bad
-Figure: Bad example - A vague text with no link to Bob's profile. ALso missing the video length
+Figure: Bad example - A vague text with no link to Bob's profile. Also missing the video length
 :::
 
 ::: greybox
-{{ VIDEO }}
+{{ VIDEO }}\
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
 Figure: Good example - A descriptive caption using the video title + profile link + video length at the end
+:::
+
+### Tip #8: GIFs - Label accordingly
+
+Using a GIF instead of a static image can be beneficial for illustrating multiple steps, as it saves page space. Be sure to specify that it is a GIF in the caption to distinguish it from a static image
+
+::: greybox
+{{ GIF }}\
+**Figure: Users | Summary | User Information | LinkedIn URL**
+:::
+::: bad
+Figure: Bad example - Does not specificy that it is a GIF
+:::
+
+::: greybox
+{{ GIF }}\
+**Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
+:::
+::: good
+Figure: Good example - Specificies that it is a GIF
 :::

@@ -1,4 +1,5 @@
 ---
+seoDescription: Remove @ExecutionTime from subscription email subjects to improve sorting and conversation threading in Outlook.
 type: rule
 archivedreason:
 title: Admin - Do you remove @ExecutionTime in subject of subscription email?

@@ -1,5 +1,5 @@
 ---
-seoDescription: Separate concerns in Angular components to maintainable and debuggable code, reducing complexity by grouping front-end logic into data fetching, processing, and display.
+seoDescription: Separate concerns in Angular components to maintainable and debuggable code, reducing complexity by grouping front-end logic into data fetching, processing, and display
 type: rule
 title: Do you properly separate concerns in components?
 guid: 77e033a8-1c84-431e-9ab8-53360a3968b0

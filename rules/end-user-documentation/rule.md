@@ -20,13 +20,14 @@ redirects:
   - do-you-produce-the-best-end-user-documentation
 ---
 
-`youtube: https://www.youtube.com/embed/yfbKXqRAgOA`
+## Developer Documentation
+
+Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki. What about end user documentation?
 
 <!--endintro-->
 
-## Developer Documentation
-
-Developer documentation is stored close to the code. Examples are GitHub wiki and Azure DevOps wiki.
+`youtube: https://www.youtube.com/watch?v=XJtB6fqJk1o`
+**Video: GitBook vs. TinaCMS: Best Options for End-User Documentation | Seth Daily (4 min)**
 
 ## End-User Documentation
 
@@ -98,7 +99,7 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 * Solo maintainer
 * Clunky menu system
 
-### Option 5: Docusaurus (recommended)
+### Option 5: Docusaurus
 
 [docusaurus.io](https://docusaurus.io/)
 
@@ -119,3 +120,21 @@ Developer documentation is stored close to the code. Examples are GitHub wiki an
 ❌ **Cons:**
 
 * Need to self-host
+
+### Option 6: TinaCMS (recommended)
+
+✅ **Pros:**
+
+* Content - Supports Markdown
+* Editing - user-friendly WYSIWYG editor
+* Copying Code - Supports easy copying and pasting of code elements
+* Customization - Freedom to build custom React components
+* Seamless with GitHub - Allows for pull requrests and suggestions
+* Internationalization (i18n) support
+* Pricing - Free for small projects and flexible pricing for larger ones
+* Hosting - free to choose - no lock in
+* Works with Docusaurus
+
+❌ **Cons:**
+
+Developer investment - You get the best experience by taking the time to develop custom components

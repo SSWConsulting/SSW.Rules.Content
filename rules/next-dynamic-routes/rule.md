@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how dynamic routing in Next.js enhances your application by enabling flexible, data-driven content delivery through dynamic paths and page generation.
 type: rule
 title: Do you use dynamic routing in Next.js?
 uri: next-dynamic-routes
@@ -21,8 +22,8 @@ Dynamic routes allow developers to accommodate unpredictable URLs. Instead of de
 
 ## Why Use Dynamic Routes?
 
-- **Flexibility**: Easily cater to a wide variety of content without setting up individual routes.
-- **Optimization**: Efficiently serve content based on real-time data or user-specific requirements.
+* **Flexibility**: Easily cater to a wide variety of content without setting up individual routes.
+* **Optimization**: Efficiently serve content based on real-time data or user-specific requirements.
 
 ## Folder Structure
 
@@ -39,12 +40,12 @@ pages/
 |-- [id]/
 |   |-- settings.tsx
 ```
+
 **Figure: Here, both _slug_ and _id_ are dynamic route segments**
 
 For scenarios where routes need to capture multiple path variations, Next.js introduces the "catch-all" feature. This can be employed by prefixing an ellipsis "..." to the dynamic segments.
 
 To delve deeper into the intricacies of Dynamic Routes, consider exploring the [official Next.js documentation](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes).
-
 
 ### getStaticProps
 
@@ -95,6 +96,8 @@ export const getStaticPaths = async () => {
 `paths` is the list of pages you want to generate.  
 `fallback` is a boolean value that determines how NextJS handles routes that are not generated at build time, and can be set to:
 
-- `false (default)` - Any request for a page that has not been generated will return a 404
-- `true` - The page will be generated on demand if not found and stored for subsequent requests
-- `blocking` - Similar to true, except NextJS will not respond to the request until the page has finished generating
+* `false (default)` - Any request for a page that has not been generated will return a 404
+* `true` - The page will be generated on demand if not found and stored for subsequent requests
+* `blocking` - Similar to true, except NextJS will not respond to the request until the page has finished generating
+
+You can learn more about how to use dynamic routing in the [official Next.js documentation](https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes).

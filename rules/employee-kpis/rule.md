@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively use KPIs in annual employee reviews for growing companies
 type: rule
 title: Do you have KPIs for your Annual Employee Reviews? 
 uri: employee-kpis

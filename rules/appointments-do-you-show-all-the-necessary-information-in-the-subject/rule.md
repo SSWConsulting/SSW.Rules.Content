@@ -1,5 +1,5 @@
 ---
-seoDescription: Make sure your appointment has a good subject by including essential information such as meeting attendees, hotel names and addresses, flight details, and booking numbers to help users quickly understand the purpose of the appointment.
+seoDescription: Make sure your appointment has a good subject by including essential information such as meeting attendees, hotel names and addresses, flight details, and booking numbers to help users quickly understand the purpose of the appointment
 type: rule
 title: Appointments - Do you make sure your appointment has a good subject?
 uri: appointments-do-you-show-all-the-necessary-information-in-the-subject

@@ -76,6 +76,7 @@ index:
 - containerize-sql-server
 - minimal-apis
 - directory-build-props
+- use-loggermessage-in-net
 
 ---
 

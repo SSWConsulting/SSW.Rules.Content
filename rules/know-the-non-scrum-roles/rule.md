@@ -14,6 +14,7 @@ authors:
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
 related:
+  - do-you-cc-your-account-manager-on-emails-relating-to-new-work
 redirects:
   - know-the-roles-Account-Manager-Scrum-Master-Tech-Lead
 ---
@@ -51,6 +52,7 @@ Scrum already covers the roles of the **[Developers](https://www.youtube.com/wat
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | {{ TECH LEAD }} |

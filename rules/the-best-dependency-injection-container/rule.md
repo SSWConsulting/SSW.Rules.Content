@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best dependency injection containers for .NET applications, including Autofac, Unity, and more, with insights on choosing the right one for your needs.
 type: rule
 archivedreason:
 title: Do you know the best dependency injection container? 

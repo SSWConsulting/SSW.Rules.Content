@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to efficiently organize and manage your video assets using a Digital Asset Manager like Adobe Bridge for better searchability and streamlined workflows.
 type: rule
 title: Video Data - Do you use a Digital Asset Manager (DAM) to manage a stock library?
 uri: using-digital-asset-manager-for-stock

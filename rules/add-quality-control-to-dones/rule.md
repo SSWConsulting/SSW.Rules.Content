@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your Dones are of high quality by implementing a check process with "Checked by xxx"
 type: rule
 archivedreason: Merged to [https://ssw.com.au/rules/checked-by-xxx](/rules/checked-by-xxx)
 title: Dones - Do you show quality control with "Checked by xxx"?

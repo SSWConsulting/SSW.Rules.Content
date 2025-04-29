@@ -2,7 +2,7 @@
 seoDescription: Avoid link farms and focus on creating high-quality content that attracts natural links to improve your website's ranking.
 type: rule
 archivedreason:
-title: Do you avoid the temptation of link farms?
+title: Authority - Do you avoid the temptation of link farms?
 guid: 7b183f9d-e598-4aa2-a3ee-8839a4830715
 uri: avoid-link-farms
 created: 2015-11-10T18:43:00.0000000Z

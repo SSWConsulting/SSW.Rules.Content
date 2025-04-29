@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your report's professionalism by displaying time in a clear and consistent format.
 type: rule
 archivedreason:
 title: Data Layout - Do you show time format clearly?

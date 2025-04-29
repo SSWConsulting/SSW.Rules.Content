@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Explaining - Do you add context/reasoning to emails?
-seoDescription: Add context and reasoning to your emails for better clarity and understanding, and don't forget that including a screenshot or URL can make your message even more effective.
+seoDescription: Add context and reasoning to your emails for better clarity and understanding, and don't forget that including a screenshot or URL can make your message even more effective
 uri: add-context-reasoning-to-emails
 authors:
   - title: Adam Cogan
@@ -33,6 +33,7 @@ Nearly every email can be enhanced by including a screenshot and a URL. Provide 
 Also make sure to always [keep the history of an email](/keep-email-history), so there are enough details in the thread for anyone else to acknowledge what is going on.
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Dave |
@@ -50,6 +51,7 @@ Figure: Bad example - There is no context or reasoning
 :::
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Dave |

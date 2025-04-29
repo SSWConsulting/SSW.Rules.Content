@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve slow report performance with scheduled snapshots; create nightly backups for fast, fresh data access.
 type: rule
 archivedreason:
 title: Performance - Do you schedule snapshots of slow reports for quicker access?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve readability with proper line breaks and spacing in your content to enhance user engagement and comprehension.
 type: rule
 title: Do you enhance readability with line breaks and spacing?
 uri: format-new-lines
@@ -100,6 +101,10 @@ Check out these employment opportunities at SSW:  \
 :::
 ::: good  
 Figure: Good example - The URL being on a fresh line makes it much easier to read
+:::
+
+::: info
+**Tip:** URLs can get cluttered quickly - [keeping them short and clean](/create-friendly-short-urls) makes them easier to read, share, and manage.
 :::
 
 ## Headings

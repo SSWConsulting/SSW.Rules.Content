@@ -6,7 +6,11 @@ uri: do-you-know-the-dangers-of-sitting
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - do-you-know-the-dangers-of-sitting
+  - stretch-at-work
+  - lasting-habits
+  - encourage-daily-exercise
 redirects: []
 created: 2016-11-07T06:25:25.000Z
 archivedreason: null

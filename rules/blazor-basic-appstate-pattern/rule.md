@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to implement the AppState pattern in Blazor for simple yet effective state management across components.
 type: rule
 title: State Management - Do you use the AppState pattern?
 uri: blazor-basic-appstate-pattern
@@ -57,7 +58,6 @@ public class Timesheet
 ```
 
 Typically, these state objects would be hydrated from user input or a request to the backend API. In order for us to use this state object, we first need to register it as an injectable service (in `Program.cs`):
-
 
 ```cs
 builder.Services.AddScoped<Counter>();
@@ -121,18 +121,13 @@ public partial class Counter : ComponentBase
 }
 ```
 
+## ❌ Drawbacks of basic AppState pattern
 
-### Drawbacks of basic AppState pattern
+* We are unable to react to state changes made to the state object by other components
+* We can modify the state but the page will not refresh to reflect the change
+* We need to call `StateHasChanged()` manually when we modify the state
 
-❌ We are unable to react to state changes made to the state object by other components
+## ✅ Benefits of basic AppState pattern
 
-❌ We can modify the state but the page will not refresh to reflect the change
-
-❌ We need to call `StateHasChanged()` manually when we modify the state
-
-
-### Benefits of basic AppState pattern
-
-✅ Implementation is trivial - register, inject, consume
-
-✅ Works for very basic scenarios - especially if there are basic user interactions and basic state mutations directly on the `@code` (aka `ViewModel`) section  
+* Implementation is trivial - register, inject, consume
+* Works for very basic scenarios - especially if there are basic user interactions and basic state mutations directly on the `@code` (aka `ViewModel`) section  

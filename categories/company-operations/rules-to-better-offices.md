@@ -10,6 +10,7 @@ index:
 - employee-yolo-day
 - reduce-office-noise
 - build-inter-office-interaction
+- dress-code
 - bring-water-to-guests
 - cultural-exchange
 - desk-setups

@@ -26,7 +26,7 @@ Let us look at some examples:
 
 <!--endintro-->
 
-### Google Chrome
+## Google Chrome
 
 ::: bad
 ![Figure: Bad example - Chrome using Chinese as its language setting](2016-3-22 10-43-12.png)
@@ -72,11 +72,11 @@ In Chrome, you can follow these steps directly:
 
 3. Reboot the system and verify that English is now the primary language for all desktop applications
 
-### How to fix your Google account?
+## Google account
 
 You should also change your Google language to English as well. If it is not already, take a look at these steps:
 
-1. Go to <www.google.com>
+1. Go to google.com
 
 2. Click on `Sign-In` or `My Account` if you are already signed in
 
@@ -98,7 +98,7 @@ You should also change your Google language to English as well. If it is not alr
 
 6. Done! You changed your language to English
 
-### How to fix your Gmail account?
+## Gmail account
 
 1. Click on the cog then Settings
 
@@ -110,7 +110,7 @@ You should also change your Google language to English as well. If it is not alr
 
 3. Scroll down and click on 'Save Changes'. Done!
 
-### How to fix Mozilla Firefox?
+## Mozilla Firefox
 
 1. Go to Options
 
@@ -128,11 +128,11 @@ You should also change your Google language to English as well. If it is not alr
 
 4. Done!
 
-### How to fix on MS Azure?
+## Microsoft Azure
 
-![Figure: In Azure https://portal.azure.com it is as simple as clicking on the Cog icon](Azure.png)
+![Figure: In Azure, it is as simple as clicking on the Cog icon](Azure.png)
 
-### How to fix on MS Office 365 (rich client)
+## Office 365 (rich client)
 
 Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to uninstall and install the English version. It requires you to download a language pack which is a bit more of a hassle...
 
@@ -144,9 +144,9 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 ![Figure: If you do not have the English version. In Microsoft Office open the rich client application such as Outlook or Word, then install and configure as per the image above](install-language-pack.png)
 :::
 
-### How to fix on Office 365 (<https://outlook.office365.com>)
+### Office 365 (outlook.office365.com)
 
-1. Go to <https://outlook.office.com>
+1. Go to outlook.office.com
 
 ![Figure: If you have the Inbox, Sent Items etc in Chinese then you will need to follow these steps](screenshot.png)
 
@@ -178,7 +178,7 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 
 ![Figure: After completing the fix](screenshot-finished.png)
 
-### Microsoft Teams
+## Microsoft Teams
 
 1. Navigate to **Microsoft Teams | Manage account**
 
@@ -190,7 +190,7 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 
 3. Done!
 
-### How to fix on iOS SharePoint App
+## iOS SharePoint App
 
 1. Change the language in System Preferences. Navigate to **Settings | General | Language & Region**
 

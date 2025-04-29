@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to identify and resolve Azure SQL Database performance issues by diagnosing bottlenecks and optimizing query performance.
 type: rule
 archivedreason: 
 title: Identifying the cause of Azure SQL Database performance problems

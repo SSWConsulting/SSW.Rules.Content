@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential framing techniques to enhance your video production by positioning subjects effectively and using engaging backgrounds for professional results.
 type: rule
 title: Production - Do you know the correct way to frame your subject?
 uri: production-do-you-know-the-correct-way-to-frame-your-subject
@@ -13,7 +14,7 @@ guid: 2bbd6c36-1fbd-4b51-bb93-cfc408e54c17
 
 ---
 
-When filming a subject (or subjects) there are numerous ways to frame them. 
+When filming a subject (or subjects) there are numerous ways to frame them.
 
 <!--endintro-->
 

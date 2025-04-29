@@ -29,8 +29,9 @@ index:
 - do-you-use-lodash-to-perform-your-daily-_-foreach
 - do-you-use-the-ready-function
 - do-you-use-the-best-javascript-libraries
-- do-you-use-the-best-web-ui-libraries
+- web-ui-libraries
 - the-best-tool-to-debug-javascript
+- link-local-npm-dependency
 
 ---
 
