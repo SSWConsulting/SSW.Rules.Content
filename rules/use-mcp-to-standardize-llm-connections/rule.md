@@ -94,9 +94,9 @@ Betting against MCP is like betting against standards that make life easier.
 
 Whether you're building the agent side or the server:
 
-* 🛠️ **[Server Quick Start](https://modelcontextprotocol.info/docs/quickstart/quickstart/)**: Perfect for devs making reusable tools.
-* 🧠 **[Client Quick Start](https://modelcontextprotocol.info/docs/quickstart/client/)**: If you're building apps that want to call those tools.
-* 📚 Browse [example servers](https://modelcontext.org/servers) and [client list](https://modelcontext.org/clients) to see the growing ecosystem.
+* 🛠️ **[Server Quick Start](https://modelcontextprotocol.io/quickstart/server)**: Perfect for devs making reusable tools.
+* 🧠 **[Client Quick Start](https://modelcontextprotocol.io/quickstart/client)**: If you're building apps that want to call those tools.
+* 📚 Browse [example servers](https://modelcontextprotocol.io/examples) and [client list](https://modelcontextprotocol.io/clients) to see the growing ecosystem.
 
 #### Try it yourself
 
