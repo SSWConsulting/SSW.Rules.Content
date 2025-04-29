@@ -9,6 +9,10 @@ uri: avoid-design-debt
 authors:
   - title: ""
 created: 2025-04-23T11:45:00.000Z
+related:
+  - less-is-more
+  - request-a-test-please
+  - technical-debt
 archivedreason: ""
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
@@ -28,6 +32,30 @@ It usually starts with innocent intentions:
 * "Didn't want to bother design — it's small"
 
 We’ve all done it. But enough of these add up fast. Suddenly, the product feels inconsistent, design is out of sync, and developers redo work they thought was already done.
+
+## Why design debt matters
+
+### 🚨 Why it happens
+
+* Rushed timelines or MVP mindset (“we’ll fix it later”)
+* No shared design system
+* Designers and developers working in silos
+* Unclear product direction or pivots
+
+### 📉 Why it’s a problem
+
+* Hurts user trust and usability
+* Makes the product feel messy or inconsistent
+* Slows future development and design
+* Causes rework and team friction
+
+### 🧹 How to manage it
+
+* Run regular UX audits and design reviews
+* Maintain a living design system or component library
+* Include UI refactoring in your roadmap
+* Document design decisions with clear rationale
+
 
 ## How to prevent design debt
 
@@ -54,57 +82,35 @@ Even small tweaks need visibility:
 
 Design systems are like component libraries — but for UI.
 
-* If the component exists, use it.
-* If it doesn’t, don’t freestyle. Ask if a new pattern is needed.
+* If the component exists, use it
+* If it doesn’t, ask if a new pattern is needed
 
 Always check with design. No matter what.
 
-## Examples – The SSW Mega Menu
+## Example – The SSW Mega Menu
 
 ::: greybox
 This Menu has had small tweaks added over time: new icons, padding changes, label tweaks — all without a design review.
 :::
 ::: bad
-![Figure: Bad Example – The current Mega Menu has accumulated inconsistencies that break from the original design system](design-debt-bad-ex.png)
+![Figure: Bad example – The Mega Menu has evolved and accumulated inconsistencies that breaks the original design](design-debt-bad-ex.png)
 :::
 
 ::: greybox
 This is the original Menu design — consistent, aligned with the design system, and reviewed by design before implementation.
 :::
 ::: good
-![Figure: Good Example – The Mega Menu as originally designed, clean and consistent with the design system](design-debt-good-ex.png)
+![Figure: Good example – The Mega Menu is clean and consistent as originally designed](design-debt-good-ex.png)
 :::
 
 ## More ways to prevent design debt
 
-* Screenshot your change and post it in Slack before merging
-* Ask for a quick designer 👀 on spacing, alignment, and component use
+* Screenshot your change and post it in the PBI before merging
+* Ask for a quick "test please" from a designer 👀 on spacing, alignment, and component use
 * Loop in design early on bigger stuff (e.g. layout or feature changes)
 * After merge, let design know if you created something reusable
-
-## Why design debt matters
-
-### 🚨 Why it happens
-
-* Rushed timelines or MVP mindset (“we’ll fix it later”)
-* No shared design system
-* Designers and developers working in silos
-* Unclear product direction or pivots
-
-### 📉 Why it’s a problem
-
-* Hurts user trust and usability
-* Makes the product feel messy or inconsistent
-* Slows future development and design
-* Causes rework and team friction
-
-### 🧹 How to manage it
-
-* Run regular UX audits and design reviews
-* Maintain a living design system or component library
-* Include UI refactoring in your roadmap
-* Document design decisions with clear rationale
 
 ## Treat design like code
 
 Every visual tweak changes the product — just like changing a line of code. So follow process, get the right people involved, and respect the system. 🤖
+
