@@ -29,7 +29,7 @@ There are two main problems with using "any" in Typescript:
 
 **Runtime errors** - Using "any" effectively tells the compiler to treat the code you're writing as if it were written in JavaScript rather than Typescript. This is dangerous because it allows you to push code with potential runtime errors into production. These errors would ordinarily cause the Typescript compilation to fail, catching bugs before they ever reach a staging environment.
 
-```
+``` typescript
 // The type of "person" would ordilarily match the initial assignment assignment
 // because we're using "any" the implicit type is not used
 
