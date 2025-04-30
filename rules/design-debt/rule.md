@@ -1,19 +1,23 @@
 ---
 type: rule
-tips: ""
-title: "Do you know how to avoid design debt? "
+title: Do you know how to avoid design debt?
 seoDescription: Making ad-hoc UI changes without a designer leads to design
   debt. Learn how to prevent inconsistencies and poor UX by following a better
   workflow.
-uri: avoid-design-debt
+uri: design-debt
 authors:
-  - title: ""
+  - title: Micaela Blank
+    url: https://www.ssw.com.au/people/micaela-blank
+  - title: Betty Bondoc
+    url: https://www.ssw.com.au/people/betty-bondoc
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 created: 2025-04-23T11:45:00.000Z
 related:
   - less-is-more
   - request-a-test-please
   - technical-debt
-archivedreason: ""
+archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
 
@@ -75,7 +79,7 @@ Even small tweaks need visibility:
 
 * Create a PBI for every UI change
 * Tag it `needs-design` or `minor-UI` depending on the impact
-* Let the PO and designer review and prioritise
+* Let the PO and designer review and prioritize
 
 ### 3. Use the design system
 
@@ -84,7 +88,7 @@ Design systems are like component libraries — but for UI.
 * If the component exists, use it
 * If it doesn’t, ask if a new pattern is needed
 
-Always check with design. No matter what.
+Always check with design — no exceptions.
 
 ## Example – The SSW Mega Menu
 
