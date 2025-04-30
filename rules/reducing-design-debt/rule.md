@@ -61,9 +61,8 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 ### 1. Before you code
 
-Ask yourself:
+First check if what you want to change is already in the design system. If yes, you just need to follow it. If not, then ask yourself:
 
-* Is this already in the design system?
 * Will users see this change?
 * Does it affect layout, spacing, interaction, or visuals?
 
