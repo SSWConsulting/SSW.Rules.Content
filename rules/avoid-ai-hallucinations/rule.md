@@ -2,11 +2,14 @@
 type: rule
 tips: ""
 title: Do you handle AI Hallucinations the right way?
-seoDescription: AI hallucinations are inevitable, but with the right techniques, you can minimize their occurrence and impact.
+seoDescription: AI hallucinations are inevitable, but with the right techniques,
+  you can minimize their occurrence and impact.
 uri: avoid-ai-hallucinations
 authors:
   - title: Eddie Kranz
     url: https://www.ssw.com.au/people/eddie-kranz/
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson/
 related:
   - rules-to-better-chatgpt-prompt-engineering
 created: 2025-03-17T14:57:00.000Z
@@ -20,7 +23,7 @@ AI hallucinations are inevitable, but with the right techniques, you can minimiz
 
 **Let's face it. AI will always hallucinate.**
 
-AI models like GPT-4 are powerful but imperfect. They generate plausible-sounding but incorrect or nonsensical outputs (hallucinations) due to training limitations, ambiguous prompts, or flawed data retrieval. While you can’t eliminate hallucinations entirely, you can **reduce their frequency** and **mitigate risks**.  
+AI models like GPT-4o are powerful but imperfect. They generate plausible-sounding but incorrect or nonsensical outputs (hallucinations) due to training limitations, ambiguous prompts, or flawed data retrieval. While you can’t eliminate hallucinations entirely, you can **reduce their frequency** and **mitigate risks**.  
 
 ---
 
