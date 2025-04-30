@@ -28,6 +28,8 @@ index:
   - fixed-price-deliver-the-project-and-start-the-warranty-period
   - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
   - review-and-update-crm
+  - inform-clients-when-developer-leaves
+
 
 ---
 
