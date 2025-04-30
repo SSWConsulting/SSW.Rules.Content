@@ -39,6 +39,7 @@ Before a PBI is worked on it should be added to the current Sprint Backlog durin
 <!--endintro-->
 
 ::: greybox
+
 ### Use YakShaver and make it even easier
 
 You can save time by not writing PBIs manually.
