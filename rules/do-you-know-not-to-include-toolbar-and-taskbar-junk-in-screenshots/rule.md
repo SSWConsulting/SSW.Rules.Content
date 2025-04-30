@@ -28,9 +28,9 @@ Screenshots are a very important part of websites these days. Ensure they are cl
 
 Tips:
 
-- Use a region screen shot if appropriate (however the URL is generally helpful in most browser screenshots)
-- Go full screen
-- Always have the 'Auto-hide the taskbar' option checked
+* Use a region screen shot if appropriate (however the URL is generally helpful in most browser screenshots)
+* Go full screen
+* Always have the 'Auto-hide the taskbar' option checked
 
 ::: good
 ![Figure: Always have the 'Auto-hide the taskbar' option checked so you do better screenshots](good-auto-hide-taskbar.gif)  
