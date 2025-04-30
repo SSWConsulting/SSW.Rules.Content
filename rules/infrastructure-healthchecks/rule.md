@@ -1,30 +1,25 @@
- ---
+---
 seoDescription: Website dependency and infrastructure healthchecks
 type: rule
 title: Do you Healthcheck your Infrastructure?
 uri: infrastructure-healthchecks
 authors:
-
-* title: Adam Cogan
+  - title: Adam Cogan
     url: <https://ssw.com.au/people/adam-cogan>
-* title: Lewis Toh
+  - title: Lewis Toh
     url: <https://ssw.com.au/people/lewis-toh>
-* title: Luke Cook
+  - title: Luke Cook
     url: <https://ssw.com.au/people/luke-cook>
-  
 related:
-
-* have-a-healthcheck-page-to-make-sure-your-website-is-healthy
-
+  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
 redirects:
-
-* do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
-* do-you-have-a-healthcheck-(was-zsvalidate)-page-to-test-your-website-dependencies
-* have-a-healthcheck-page-to-test-your-website-dependencies
+  - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
+  - do-you-have-a-healthcheck-(was-zsvalidate)
+  - page-to-test-your-website-dependencies
+  - have-a-healthcheck-page-to-test-your-website-dependencies
 created: 2020-03-12T20:57:37.000Z
 archivedreason: null
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
-
 ---
 
 Most developers include [healthchecks for their own applications](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
@@ -74,10 +69,10 @@ Keep health check endpoints internal by default to avoid exposing sensitive syst
 
 ## Handle offline infrastructure gracefully
 
-| Category       | Example Services                                                                 |
-|----------------|----------------------------------------------------------------------------------|
-| **Critical**    | Database, Redis cache, authentication service (e.g., Auth0, Azure AD)       |
-| **Non-Critical**| OpenAI API, email/SMS providers, analytics tools     |
+| Category         | Example Services                                                      |
+| ---------------- | --------------------------------------------------------------------- |
+| **Critical**     | Database, Redis cache, authentication service (e.g., Auth0, Azure AD) |
+| **Non-Critical** | OpenAI API, email/SMS providers, analytics tools                      |
 
 **Table: Example of Critical and Non Critical Services in an application**
 
