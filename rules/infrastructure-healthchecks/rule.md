@@ -1,7 +1,7 @@
 ---
-seoDescription: Website dependency and infrastructure healthchecks
 type: rule
 title: Do you Healthcheck your Infrastructure?
+seoDescription: Website dependency and infrastructure healthchecks
 uri: infrastructure-healthchecks
 authors:
   - title: Adam Cogan
@@ -21,7 +21,6 @@ created: 2020-03-12T20:57:37.000Z
 archivedreason: null
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
 ---
-
 Most developers include [healthchecks for their own applications](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
 
 <!--endintro-->
@@ -52,6 +51,15 @@ Depending on your needs, you may want to bake in a healthcheck UI directly into 
 ## Tips for Securing Your Health Check Endpoints
 
 Keep health check endpoints internal by default to avoid exposing sensitive system data.
+
+## Health checks in Azure
+
+When deploying apps in Azure it's good practice to enable Health checks within the Azure portal. The Azure portal allows you to perform health checks on specific paths for your app service. Azure pings these paths at 1 minute intervals ensuring the response code is between **200** and **299**. If 10 consecutive responses with error codes accumulate the app service will be deemed unhealthy and will be replaced with a new instance.
+
+
+::: good
+![Figure: Good example - Performing a health check on an azure app service](image-3-.png)
+:::
 
 ### Private Health Check – Best Practices
 
