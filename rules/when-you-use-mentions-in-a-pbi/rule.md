@@ -77,21 +77,19 @@ Good example - Change documented in the backlog and @mention included
 
 Try formatting your mentions like an email to clarify both accountability and responsiblity and identify the current status of the project. This is especially useful when [requesting a "test please"](/request-a-test-please).
 
+**Note:** You can and should use @mention on **pull requests** as well.
+
 ::: good
 ![Figure: Good example – Using "Cc" and greetings as you would in an email. Emojis are helpful too! 😊](pbi-formatting-mentions.png)
 :::
 
-::: info
-**Tip:** You can and should use @mention on **pull requests** as well.
-:::
-
+::: greybox
 ### Use YakShaver and make it even easier
 
 You can save time by not writing change requests manually.
 
 With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning the right people and assigning it to the correct team.
-
----
+:::
 
 ### How @mentions work
 
