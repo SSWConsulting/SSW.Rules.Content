@@ -28,22 +28,24 @@ A better approach is to **update the PBI** to document the change, making the co
 
 ## ✅ The benefits of using comments with @mentions on PBIs
 
-- Quick and easy, no need to compose an email
-- History is visible to anyone looking at the PBI (with email, if you don't CC them, they wouldn't have a clue)
-- Easy to see all important information in one place, instead of digging through email
+* Quick and easy, no need to compose an email
+* History is visible to anyone looking at the PBI (with email, if you don't CC them, they wouldn't have a clue)
+* Easy to see all important information in one place, instead of digging through email
 
 ### How it works
 
 Say the Product Owner asks you to prioritize and update PBI 1234.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | {{ TO MYSELF }} |
 | Cc: | {{ PRODUCT OWNER }}, {{ RELEVANT PEOPLE }} |
 | Subject: | SugarLearning - Use third party for quiz engine |  
 ::: email-content
-### To myself,
+
+### To myself
 
 As per my conversation with the PO, we want to use a third party quiz engine instead of building our own. This is a priority.
 
@@ -89,7 +91,7 @@ You can save time by not writing change requests manually.
 
 With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning the right people and assigning it to the correct team.
 
---- 
+---
 
 ### How @mentions work
 
@@ -115,4 +117,4 @@ Below are examples of how mentions work in different platforms.
 
 ## Related suggestion
 
-- [Suggestion to Microsoft Azure DevOps - Help me know there is an image in the Work Item](https://bettersoftwaresuggestions.com/microsoft/azure-devops/help-me-know-there-is-an-image-in-the-work-item/)
+* [Suggestion to Microsoft Azure DevOps - Help me know there is an image in the Work Item](https://bettersoftwaresuggestions.com/microsoft/azure-devops/help-me-know-there-is-an-image-in-the-work-item/)
