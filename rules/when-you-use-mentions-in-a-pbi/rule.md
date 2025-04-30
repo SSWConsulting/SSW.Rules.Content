@@ -84,6 +84,7 @@ Try formatting your mentions like an email to clarify both accountability and re
 :::
 
 ::: greybox
+
 ### Use YakShaver and make it even easier
 
 You can save time by not writing change requests manually.
