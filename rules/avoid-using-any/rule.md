@@ -51,14 +51,14 @@ console.log(person.name.first)
 
 ```
 
-**Code maintainability** - Maintaining a large Typescript code base where "any" is used frequently can be an absolute nightmare! Let's say I had a recurring object in my code base called for a person with the props "fName" and "lName". Let's also say I used "any" as the input argument for any methods that use this object. What if I want to rename "fName" to "firstName"? I'd need to do a find and replace throughout my code base praying that none of my other objects have props of the same name.
+**Code maintainability** - Maintaining a large TypeScript code base where "any" is used frequently can be an absolute nightmare. Imagine you have a recurring object in your code base representing a person, with properties like "fName" and "lName". Now suppose you're using "any" as the input argument for all methods that work with this object. What happens when you want to rename "fName" to "firstName"? You’d have to do a find and replace across the entire code base, hoping that no other objects have properties with the same name.
 
 ::: bad
-![Figure: Bad example – I can pass anything into this method, so I get bad output at run time (“undefined undefined”)](any-bad.png)
+![Figure: Bad example – You can pass anything into this method, so you get a bad output at run time (“undefined undefined”)](any-bad.png)
 :::
 
 ::: good
-![Figure: Good example – using types means I get errors and intellisense support](any-good.png)
+![Figure: Good example – Using types means you get errors and intellisense support](any-good.png)
 :::
 
 If you have ESLint enabled in your project, you can enable the [`no-explicit-any`](https://typescript-eslint.io/rules/no-explicit-any/) rule to provide useful lint warnings or errors to ensure the `any` type is not used in the project.
