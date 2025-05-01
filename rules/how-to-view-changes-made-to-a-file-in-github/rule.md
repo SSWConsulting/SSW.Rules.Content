@@ -14,7 +14,7 @@ guid: 9655ea24-d4bc-413e-984d-ea51192bf8b2
 ---
 If you find a mistake in a file hosted on GitHub, don’t just fix it blindly - check who made the change and why. This helps you understand the context and gives you the chance to inform the contributor if a correction is needed.
 
-GitHub makes it easy to view a file’s version history, compare changes, and even see discussions around each commit.
+GitHub makes it easy to view a file's version history, compare changes, and even see discussions around each commit.
 
 <!--endintro-->
 
