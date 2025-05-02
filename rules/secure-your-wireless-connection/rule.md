@@ -36,7 +36,7 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
 - 802.1X-capable 802.11 wireless access points (APs)
 - Active Directory with Group Policy
 - Network Policy Server (NPS)
-- Active Directory Certificate Services, or a third-part certificate
+- Active Directory Certificate Services, or a third-party certificate
 
 #### Assumptions:
 
