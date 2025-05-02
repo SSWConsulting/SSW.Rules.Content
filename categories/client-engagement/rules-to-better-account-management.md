@@ -5,6 +5,7 @@ guid: 99c48dc0-aefb-4ba7-b4a4-dc1783173a4a
 uri: rules-to-better-account-management
 index:
   - do-you-inform-the-client-of-any-resource-or-rate-changes
+  - inform-clients-when-developer-leaves
   - do-you-regularly-check-up-on-your-clients-to-make-sure-theyre-happy
   - do-you-provide-a-high-level-project-progress-report-for-clients
   - do-you-utilize-your-solution-architects
@@ -28,6 +29,8 @@ index:
   - fixed-price-deliver-the-project-and-start-the-warranty-period
   - fixed-price-transition-back-to-time-and-materials-at-the-end-of-the-warranty-period
   - review-and-update-crm
+
+
 
 ---
 
