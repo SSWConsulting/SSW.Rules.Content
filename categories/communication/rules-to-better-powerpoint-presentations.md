@@ -17,7 +17,7 @@ index:
 - do-you-have-an-about-the-presenter-slide
 - do-you-use-the-same-agenda-and-summary-slide
 - do-you-have-a-section-break-slide
-- do-you-know-the-right-way-to-do-a-demo-slide
+- demo-slides
 - do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
 - do-you-use-slido
 - do-you-use-high-quality-images
