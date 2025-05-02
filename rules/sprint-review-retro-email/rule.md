@@ -148,10 +148,9 @@ Progress:
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
-11. AI Use - what tools did you use?
+### 🤖 AI use - what tools did you use?
 
-* {{ PERSON }} - {{ TOOL }}
-* {{ ETC }}
+* {{ PERSON }} - {{ TOOLS }}
 
 ### Sprint Retrospective
 
