@@ -96,4 +96,4 @@ As AI continues to transform business operations, having an MCP server will incr
 
 #### Need help connecting your proprietary services?
 
-📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we'll help you build a robust, scalable MCP server.
+📩 [Reach out to SSW](https://www.ssw.com.au/consulting/artificial-intelligence) – we'll help you build a robust, scalable MCP server.
