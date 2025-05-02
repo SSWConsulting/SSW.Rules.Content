@@ -8,7 +8,10 @@ uri: secure-your-wireless-connection
 authors:
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
-related: []
+  - url: https://ssw.com.au/people/chris-schultz
+    title: Chris Schultz
+related:
+  - easy-wifi-access
 redirects:
   - do-you-secure-your-wireless-connection
 created: 2017-07-10T21:37:12.000Z
