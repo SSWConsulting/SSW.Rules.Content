@@ -1,7 +1,9 @@
 ---
-seoDescription: Secure your wireless connection and prevent unauthorized access to your office network with WPA2-Enterprise authentication using Radius servers and Active Directory.
 type: rule
 title: Wireless - Do you secure your wireless connection?
+seoDescription: Secure your wireless connection and prevent unauthorized access
+  to your office network with WPA3-Enterprise authentication using Radius
+  servers and Active Directory.
 uri: secure-your-wireless-connection
 authors:
   - title: Stanley Sidik
@@ -14,40 +16,27 @@ archivedreason: null
 guid: be6d9987-405c-44a3-b204-913dd7ce3f56
 ---
 
-Wireless networks are everywhere now. You can't drive down the street without finding a network which is insecure. However, in an office environment, there is a lot more to lose than a bit of bandwidth. It is vital that wireless is kept secure.
+Wi-Fi is everywhere now. You can't drive down the street without finding a network which is insecure. However, in an office environment, there is a lot more to lose than a bit of bandwidth. It is vital that wireless is kept secure.
+
+Office Wi-Fi should use WPA3-Enterprise, using RADIUS to securely authenticate users.
 
 <!--endintro-->
 
-::: greybox
-WEP, No SSID broadcast, allowed MAC addresses are all OK but these are more home security.
-:::
+Some things to note:
+- WPA3 has been around for a while, but some devices still have compatibility issues. testing should be done before moving from WPA2 to WPA3.
+- You should have a separate, isolated Guest network, as per: [Wireless - Do you Provide Guests with easy Wifi Access?](https://www.ssw.com.au/rules/easy-wifi-access/)
+- You may need other SSIDs as well, for example an IoT network. IoT devices may only be compatible with WPA2 Personal; these networks should be isolated and locked down as appropriate.
 
-::: bad
-Figure: Bad example - the above settings are not suitable for a company's wireless access point
+### Setting up enterprise Wi-Fi
 
-:::
-
-For the office, you need something a bit more robust and not requiring much management overhead.
-
-::: greybox
-It is recommended to use Radius authentication to integrate with your Active Directory.
-
-:::
-
-::: good
-Figure: Good example - configure your wireless access point to authenticate against AD
-:::
-
-This article explains how to setup your wireless AP to use WPA2-enterprise. WPA2-Enterprise verifies network users (AD a/c's) through a server (Domain Controller).
-
-The recommended method of authentication is PEAP (Protected Extensible Authentication Protocol), which authenticates wireless LAN clients using only server-side digital certificates (In our case we used an AD CA) by creating an encrypted SSL/TLS tunnel between the client and the authentication server. The tunnel then protects the subsequent user authentication exchange.
+Here's an example of how office Wi-Fi can be set up. Note that various authentication methods can be used, such as certificates, smart cards, or certificates.
 
 #### Requirements:
 
 - 802.1X-capable 802.11 wireless access points (APs)
-- Active Directory with group policy
-- Network Policy Server (NPS) servers
-- Active Directory Certificate Services based PKI for Server certificates for NPS computer/s and your wireless PC's
+- Active Directory with Group Policy
+- Network Policy Server (NPS)
+- Active Directory Certificate Services, or a third-part certificate
 
 #### Assumptions:
 
