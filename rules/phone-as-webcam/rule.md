@@ -28,3 +28,7 @@ When travelling, a simple setup can look and sound great:
 Using gear you already have, and making small improvements to framing and audio, can help you look and sound professional—whether you're presenting at a conference or joining a daily stand-up.
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7289665677651558400?collapsed=1" height="646" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+::: info
+Learn more on [Continuity Camera: Use iPhone as a webcam for Mac](https://support.apple.com/en-us/102546).
+:::
