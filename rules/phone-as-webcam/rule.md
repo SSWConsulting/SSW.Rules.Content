@@ -23,7 +23,7 @@ When travelling, a simple setup can look and sound great:
 * A tablet can double as a second monitor
 * A small tripod helps position the camera at head height
 * For casual video calls, the built-in laptop mic is fine
-* For recordings or interviews, a compact wireless mic can dramatically improve sound quality
+* For recordings or interviews, a compact wireless mic (e.g. DJI Mic Mini) can dramatically improve sound quality
 
 Using gear you already have, and making small improvements to framing and audio, can help you look and sound professional—whether you're presenting at a conference or joining a daily stand-up.
 
