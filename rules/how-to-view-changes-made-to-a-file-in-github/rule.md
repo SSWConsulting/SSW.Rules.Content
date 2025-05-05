@@ -4,7 +4,7 @@ tips: ""
 title: Do you know how to view changes made to a file in GitHub?
 seoDescription: Learn how to view the history of changes made to a file in
   GitHub with our step-by-step guide.
-uri: how-to-view-changes-made-to-a-file-in-github
+uri: view-file-changes-in-github
 authors:
   - title: Brook Jeynes
     url: ssw.com.au/people/brook-jeynes
