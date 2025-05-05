@@ -18,7 +18,7 @@ GitHub makes it easy to view a file's version history, compare changes, and even
 
 <!--endintro-->
 
-### Viewing changes to a file in GitHub
+## Viewing changes to a file in GitHub
 
 1. Navigate to the file in the repository on GitHub
 
