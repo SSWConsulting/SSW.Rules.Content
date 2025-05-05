@@ -26,7 +26,7 @@ GitHub makes it easy to view a file's version history, compare changes, and even
 2. Click on the "History" button (clock icon) at the top right of the file view. You’ll see a list of commits that modified this file
 
    ![Figure: GitHub history button](github-history-button.png)
-3. Click on a commit to view the diff (what changed)
+3. Click on a commit to view the **diff** - the [changes between two file versions](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/viewing-and-comparing-commits/differences-between-commit-views), showing what was added, deleted, or changed
 
    ![Figure: Select a commit from the list](github-commit-viewer.png)
    ![Figure: View the changes made](github-diff-view.png)
