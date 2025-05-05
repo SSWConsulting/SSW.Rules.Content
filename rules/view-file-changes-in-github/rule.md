@@ -7,7 +7,7 @@ seoDescription: Learn how to view the history of changes made to a file in
 uri: view-file-changes-in-github
 authors:
   - title: Brook Jeynes
-    url: ssw.com.au/people/brook-jeynes
+    url: https://ssw.com.au/people/brook-jeynes
 related:
   - how-to-view-changes-made-to-a-sharepoint-page
 guid: 9655ea24-d4bc-413e-984d-ea51192bf8b2
