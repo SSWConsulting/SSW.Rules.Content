@@ -10,6 +10,8 @@ authors:
   - title: ""
 guid: 664492d1-464a-496d-a444-21da629e583b
 ---
+![](bad_note.png "Do you still take manual meeting notes?")
+
 Manually typing out meeting notes is slow, error-prone, and distracting. While you’re typing, you’re likely missing parts of the discussion and contributing less. Worse, you might spend time afterward cleaning up notes instead of acting on them. 
 
 In fact, employees estimate that [37% of their biggest cost is wasted time in meetings](https://joingenius.com/statistics/meeting-statistics/), and context-switching after interruptions takes an average of [9 minutes to recover from](https://www.atlassian.com/blog/productivity/context-switching).
@@ -28,16 +30,7 @@ In fact, employees estimate that [37% of their biggest cost is wasted time in me
 
 **❌ You still have to format, organize, and send the notes afterward.**
 
-::: greybox
-Typed notes  
 
-* "John: Let's move this to next week"  
-* "…uhm, missed something…"  
-* "Sally: add to backlog"
-  :::
-  ::: bad\
-  Figure: Bad Example – Hand-typed minutes full of gaps and no speaker attribution\
-  :::
 
 ### Why AI note-takers are better
 
@@ -59,12 +52,7 @@ AI transcription tools like **Read AI**, **Otter.ai**, and **Fireflies.ai** hand
 | **Key Integrations**          | Zoom, Teams, Meet, Calendar           | Zoom, Teams, Meet, Calendar         | Zoom, Teams, Meet, Calendar, **CRMs** |
 | **Primary Strength**          | **Meeting Insights & Coaching**       | **Core Transcription & Simplicity** | **Integrations & Customization**      |
 
-::: good
-
-![](67621ffc-meeting-notes_1000000000000000000028.png "Otter.ai Meeting Summary")
-
-![Figure: Good Example – Read AI email with transcript, action items, and talk-time chart](https://user-images.githubusercontent.com/37217958/263514713-2c33e6e0-70c9-4425-9122-e1ebcdf54f0e.png)
-:::
+![Figure: Otter.ai summary card with transcript, action items, and outline](67621ffc-meeting-notes_1000000000000000000028.png "Otter.ai Meeting Summary")
 
 ### 5-minute setup to modernize your meetings
 
