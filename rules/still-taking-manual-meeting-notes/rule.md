@@ -64,6 +64,6 @@ AI transcription tools like **Read AI**, **Otter.ai**, and **Fireflies.ai** hand
 **Important:** Always inform attendees if the call is being recorded or transcribed. Consent is required in most regions.
 :::
 
-### Conclusion
 
-Free yourself (and your team) from the burden of manual note-taking. Let AI do the heavy lifting so you can stay present, contribute more, and act faster after the meeting.
+
+**Let AI do the heavy lifting so you can stay present, contribute more, and act faster after the meeting.**
