@@ -20,16 +20,11 @@ In fact, employees estimate that [37% of their biggest cost is wasted time in me
 
 ### Why manual notes fall short
 
-
-
 **❌ You fall behind:** Fast conversations are hard to track while you type.
-
 
 **❌ You lose focus:** Note-takers often miss critical context or fail to contribute.
 
-
 **❌ You waste recovery time:** Switching between listening and typing is cognitively expensive.
-
 
 **❌ You still have to format, organize, and send the notes afterward.**
 
@@ -48,24 +43,26 @@ Typed notes
 
 AI transcription tools like **Read AI**, **Otter.ai**, and **Fireflies.ai** handle notetaking for you, with:
 
-*  **Speed** – Get transcripts and summaries within seconds of the meeting ending.
-*  **Accuracy** – Capture every word, no typos or forgotten context.
-*  **Talk-time metrics** – See how much each participant contributed.
-*  **Automated follow-up** – Receive email summaries with action items and highlights.
+* **Speed** – Get transcripts and summaries within seconds of the meeting ending.
+* **Accuracy** – Capture every word, no typos or forgotten context.
+* **Talk-time metrics** – See how much each participant contributed.
+* **Automated follow-up** – Receive email summaries with action items and highlights.
 
-| Feature                      | Read AI                              | Otter.ai                            | Fireflies.ai                         |
-| :--------------------------- | :----------------------------------- | :---------------------------------- | :----------------------------------- |
-| **Real-time Transcription**  | ✅ Yes                               | ✅ Yes                              | ✅ Yes                               |
-| **AI Meeting Summary**       | ✅ Yes (Detailed, Topic-based)       | ✅ Yes (Concise)                    | ✅ Yes (Customizable)                |
-| **Action Item Detection**    | ✅ Yes (AI-powered)                  | ✅ Yes (Keyword-based)              | ✅ Yes (AI-powered)                  |
-| **Talk Time % Analysis**     | ✅ Yes (With engagement metrics)     | ✅ Yes                              | ✅ Yes (Talk/Listen Ratio)           |
-| **Speaker Coaching/Feedback**| ✅ Yes                               | 🟠 Limited                          | 🟠 Limited                           |
-| **Automated Email Summary**  | ✅ Yes (Integrated with GMail/Outlook)| ✅ Yes                              | ✅ Yes                               |
-| **Key Integrations**         | Zoom, Teams, Meet, Calendar        | Zoom, Teams, Meet, Calendar       | Zoom, Teams, Meet, Calendar, **CRMs** |
-| **Primary Strength**         | **Meeting Insights & Coaching**      | **Core Transcription & Simplicity** | **Integrations & Customization**     |
-
+| Feature                       | Read AI                               | Otter.ai                            | Fireflies.ai                          |
+| ----------------------------- | ------------------------------------- | ----------------------------------- | ------------------------------------- |
+| **Real-time Transcription**   | ✅ Yes                                 | ✅ Yes                               | ✅ Yes                                 |
+| **AI Meeting Summary**        | ✅ Yes (Detailed, Topic-based)         | ✅ Yes (Concise)                     | ✅ Yes (Customizable)                  |
+| **Action Item Detection**     | ✅ Yes (AI-powered)                    | ✅ Yes (Keyword-based)               | ✅ Yes (AI-powered)                    |
+| **Talk Time % Analysis**      | ✅ Yes (With engagement metrics)       | ✅ Yes                               | ✅ Yes (Talk/Listen Ratio)             |
+| **Speaker Coaching/Feedback** | ✅ Yes                                 | 🟠 Limited                          | 🟠 Limited                            |
+| **Automated Email Summary**   | ✅ Yes (Integrated with GMail/Outlook) | ✅ Yes                               | ✅ Yes                                 |
+| **Key Integrations**          | Zoom, Teams, Meet, Calendar           | Zoom, Teams, Meet, Calendar         | Zoom, Teams, Meet, Calendar, **CRMs** |
+| **Primary Strength**          | **Meeting Insights & Coaching**       | **Core Transcription & Simplicity** | **Integrations & Customization**      |
 
 ::: good
+
+![](67621ffc-meeting-notes_1000000000000000000028.png "Otter.ai Meeting Summary")
+
 ![Figure: Good Example – Read AI email with transcript, action items, and talk-time chart](https://user-images.githubusercontent.com/37217958/263514713-2c33e6e0-70c9-4425-9122-e1ebcdf54f0e.png)
 :::
 
