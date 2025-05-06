@@ -1,13 +1,17 @@
 ---
 type: rule
 title: Wireless - Do you secure wireless connections?
-seoDescription: Secure your wireless connection and prevent unauthorized access to your office network with WPA3-Enterprise authentication using Radius servers and Active Directory.
+seoDescription: Secure your wireless connection and prevent unauthorized access
+  to your office network with WPA3-Enterprise authentication using Radius
+  servers and Active Directory.
 uri: secure-your-wireless-connection
 authors:
   - title: Stanley Sidik
     url: https://ssw.com.au/people/stanley-sidik
   - title: Chris Schultz
     url: https://ssw.com.au/people/chris-schultz
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 related:
   - easy-wifi-access
 redirects:
@@ -15,9 +19,7 @@ redirects:
 created: 2017-07-10T21:37:12.000Z
 archivedreason: null
 guid: be6d9987-405c-44a3-b204-913dd7ce3f56
-
 ---
-
 Wi-Fi is everywhere now. You can't drive down the street without finding a network which is insecure. However, in an office environment, there is a lot more to lose than a bit of bandwidth. It is vital that wireless is kept secure.
 
 Office Wi-Fi should use WPA3-Enterprise, using RADIUS to securely authenticate users.
@@ -51,14 +53,14 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
 
 1. **Configure Wireless APs**
 
-  * These steps will vary between vendors
-  * You'll need to enter:
-  
-    * NPS server IP address
-    * Port (default is 1812)
-    * A shared secret - create a secure password
+* These steps will vary between vendors
+* You'll need to enter:
 
-  ![Figure: UniFi RADIUS settings](unifi-radius.png)
+  * NPS server IP address
+  * Port (default is 1812)
+  * A shared secret - create a secure password
+
+  ![Figure: UniFi RADIUS settings](unifisettings1.png)
 
 2. **Install NPS on your server**
 
@@ -66,14 +68,13 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
 
    * Network Policy Server
    * Routing and Remote Access Services
-
 3. **Configure Radius Clients on NPS**
 
    * Open up the NPS Console
    * Right click on **Radius Clients | New**
    * Fill out the fields for Friendly name (e.g. the AP name), IP address, and add the shared secret you configured on your access points
 
-  ![Figure: Radius client settings](NPS2.png)
+![Figure: Radius client settings](radiusclient.png)
 
 4. **Configure 802.1x on the NPS server**
 
@@ -87,13 +88,11 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
    7. Select the groups (e.g. Domain\WirelessAccess) you would like to give wireless access to. You can do this by user, computer, or both
    8. Configure VLANs if needed, or use the defaults
    9. Register the server with Active Directory - right-click on NPS (Local) and select Register Server in Active Directory
-
-  ![Figure: How to register NPS server with AD](NPS.png)
+      ![Figure: How to register NPS server with AD](NPS.png)
 
   You should now have a Connection Request Policy and a Network Policy.
 
 5. **Remove the MS-CHAP v1 authentication method** from the **Network Policy | Constraints** tab
-
 6. **Configure Certificate Auto enrolment**
 
    1. Open Group Policy Management
@@ -101,39 +100,47 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
    3. Link it to the root of the domain, or a specific OU depending on your needs and OU structure
    4. Under the security filtering scope, remove **Authenticated Users** and add the Wi-Fi users group
    5. Click **Edit settings** and go to:
-        1. Computer Configuration\Policies\Windows Settings\Security Settings\Public Key Policies  
-           - In the Details pane, right-click the **Certificate Services Client – Auto-enrolment** and then select properties
-           - Select enabled from the drop-down menu and check all tick boxes
-        2. Computer Configuration\Policies\Windows Settings\Security Settings\Public Key Policies\Automatic Certificate Request Settings
-           - Right-click in the details pane and select **New | Automatic Certificate Request**
-           - This will open up a wizard and you can select a Computer Certificate
 
-      ![Figure: Group policy settings](Cert4.png)
-      
+      1. Computer Configuration\Policies\Windows Settings\Security Settings\Public Key Policies  
+
+         * In the Details pane, right-click the **Certificate Services Client – Auto-enrolment** and then select properties
+         * Select enabled from the drop-down menu and check all tick boxes
+      2. Computer Configuration\Policies\Windows Settings\Security Settings\Public Key Policies\Automatic Certificate Request Settings
+
+         * Right-click in the details pane and select **New | Automatic Certificate Request**
+         * This will open up a wizard and you can select a Computer Certificate
+
+      ![Figure: Group policy settings](gpo3.png)
 7. **Creating a Windows Wireless 802.1x GPO Policy**
 
    1. Now go to Computer Configuration\Policies\Windows Settings\Security Settings\Wireless Network (IEEE 802.11) Policies
-     * Right-click | **Create a new policy**
+
+   * Right-click | **Create a new policy**
 
    2. Enter a Policy Name (e.g. WiFi_Settings) and description and link to the root of the domain
-      ![Figure: GP link and scope settings](Cert3.png)
 
+      ![Figure: GP link and scope settings](cert5.png)
    3. Click **Add**, enter a Profile Name and add the SSID from the Wireless APs
-     * Make sure the tick box **Connect Automatically when this network is in range** is ticked
+
+   * Make sure the tick box **Connect Automatically when this network is in range** is ticked
 
    4. Click on the Security Tab
-     * Make sure Authentication is **WPA3-Enterprise** and Encryption is **AES**
-     * Under "Select a network authentication method, choose **Microsoft: Protected EAP (PEAP)**
-     * Under Authentication Mode, you need to choose whether you want to authenticate computers and/or users with digital certificates
-     * Select **Computer Authentication**
+
+   * Make sure Authentication is **WPA3-Enterprise** and Encryption is **AES**
+   * Under "Select a network authentication method, choose **Microsoft: Protected EAP (PEAP)**
+   * Under Authentication Mode, you need to choose whether you want to authenticate computers and/or users with digital certificates
+   * Select **Computer Authentication**
 
    5. Click on **Properties**
-     * Tick **Validate server certificate**, tick **Connect to these servers**, and enter the FQDN of the NPS server
-     * Under **Trusted Root Certification Authority**, tick your Root CA certificate
-     * Click OK
-       ![Figure: Connection security settings](Cert2.png)
-     
-       **Optional:** Under Network Permission tab you can use the tick boxes to restrict clients to infrastructure networks or only GPO profiled allowed networks if you desire.
+
+   * Tick **Validate server certificate**, tick **Connect to these servers**, and enter the FQDN of the NPS server
+   * Under **Trusted Root Certification Authority**, tick your Root CA certificate
+   * Click OK
+
+     ![Figure: Connection security settings with WPA3](setting3.jpg)
+
+     **Optional:** Under Network Permission tab you can use the tick boxes to restrict clients to infrastructure networks or only GPO profiled allowed networks if you desire.
 
    6. You have completed your Enterprise Wireless Policy
-      ![Figure: Wi-Fi_Settings settings](GPU.png)
+
+      ![Figure: ✅ OK example - Windows 11 | Group Policy Management | Wifi Settings | Security Settings | Authentication shows WPA2 - aim is WPA3, but some devices are still not ready for it](settings2.jpg)
