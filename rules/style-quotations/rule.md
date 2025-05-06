@@ -14,8 +14,9 @@ authors:
 related:
   - format-new-lines
   - commas-and-full-stops-always-should-have-1-space-after-them
-  - use-quotation-mark-for-controls
+  - formatting-ui-elements
   - indent
+  - distinguish-keywords-from-content
 redirects:
   - do-you-know-how-to-make-quotations-easier-to-identify
   - how-to-add-quotations
