@@ -14,9 +14,7 @@ guid: 664492d1-464a-496d-a444-21da629e583b
 
 Manually typing out meeting notes is slow, error-prone, and distracting. While you’re typing, you’re likely missing parts of the discussion and contributing less. Worse, you might spend time afterward cleaning up notes instead of acting on them. 
 
-In fact, employees estimate that [37% of their biggest cost is wasted time in meetings](https://joingenius.com/statistics/meeting-statistics/), and context-switching after interruptions takes an average of [9 minutes to recover from](https://www.atlassian.com/blog/productivity/context-switching).
-
-**Manual notetaking multiplies both problems.**
+In fact, employees estimate that [37% of their biggest cost is wasted time in meetings](https://joingenius.com/statistics/meeting-statistics/), and context-switching after interruptions takes an average of [9 minutes to recover from](https://www.atlassian.com/blog/productivity/context-switching). **Manual notetaking multiplies both problems.**
 
 <!--endintro-->
 
