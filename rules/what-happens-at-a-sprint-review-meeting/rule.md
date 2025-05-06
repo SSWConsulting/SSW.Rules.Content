@@ -46,6 +46,18 @@ If there are additional stakeholders, make sure they get called in for the summa
 * Ping them in a Teams chat when the meeeting starts
 * [Warn again just before adding them for the summary](/warn-then-call)
 
+::: greybox
+"Here is a screenshot of the meeting in progress (so you can see who is in the meeting currently) 📅
+
+For the summary I will be attempting to add:
+
+* {{ LIST OF ITEMS }}"
+:::
+
+::: good
+Good example - Pinging the stakeholders in a Teams chat at the beginning of the Sprint Review
+:::
+
 ::: good
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
 :::
