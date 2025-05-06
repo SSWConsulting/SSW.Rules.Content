@@ -8,6 +8,13 @@ uri: agentic-ai
 authors:
   - title: Eddie Kranz
     url: https://www.ssw.com.au/people/eddie-kranz
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+
 related:
   - avoid-ai-hallucinations
   - use-semantic-kernel
