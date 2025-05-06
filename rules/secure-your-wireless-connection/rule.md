@@ -60,7 +60,7 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
   * Port (default is 1812)
   * A shared secret - create a secure password
 
-  ![Figure: UniFi RADIUS settings](unifi-radius.png)
+  ![Figure: UniFi RADIUS settings](unifisettings1.png)
 
 2. **Install NPS on your server**
 
@@ -74,7 +74,7 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
    * Right click on **Radius Clients | New**
    * Fill out the fields for Friendly name (e.g. the AP name), IP address, and add the shared secret you configured on your access points
 
-  ![Figure: Radius client settings](NPS2.png)
+![Figure: Radius client settings](radiusclient.png)
 
 4. **Configure 802.1x on the NPS server**
 
@@ -88,8 +88,7 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
    7. Select the groups (e.g. Domain\WirelessAccess) you would like to give wireless access to. You can do this by user, computer, or both
    8. Configure VLANs if needed, or use the defaults
    9. Register the server with Active Directory - right-click on NPS (Local) and select Register Server in Active Directory
-
-  ![Figure: How to register NPS server with AD](NPS.png)
+      ![Figure: How to register NPS server with AD](NPS.png)
 
   You should now have a Connection Request Policy and a Network Policy.
 
@@ -111,7 +110,7 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
          * Right-click in the details pane and select **New | Automatic Certificate Request**
          * This will open up a wizard and you can select a Computer Certificate
 
-      ![Figure: Group policy settings](Cert4.png)
+      ![Figure: Group policy settings](gpo3.png)
 7. **Creating a Windows Wireless 802.1x GPO Policy**
 
    1. Now go to Computer Configuration\Policies\Windows Settings\Security Settings\Wireless Network (IEEE 802.11) Policies
@@ -119,7 +118,8 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
    * Right-click | **Create a new policy**
 
    2. Enter a Policy Name (e.g. WiFi_Settings) and description and link to the root of the domain
-      ![Figure: GP link and scope settings](Cert3.png)
+
+      ![Figure: GP link and scope settings](cert5.png)
    3. Click **Add**, enter a Profile Name and add the SSID from the Wireless APs
 
    * Make sure the tick box **Connect Automatically when this network is in range** is ticked
@@ -137,10 +137,10 @@ Here's an example of how office Wi-Fi can be set up. Note that various authentic
    * Under **Trusted Root Certification Authority**, tick your Root CA certificate
    * Click OK
 
-     ![Figure: Connection security settings](setting3.jpg)
+     ![Figure: Connection security settings with WPA3](setting3.jpg)
 
      **Optional:** Under Network Permission tab you can use the tick boxes to restrict clients to infrastructure networks or only GPO profiled allowed networks if you desire.
 
    6. You have completed your Enterprise Wireless Policy
 
-      ![Figure: ❌ Bad example - Windows 11 | Group Policy Management | Wifi Settings | Security Settings | Authentication shows WPA2 - it should be WPA3](settings2.jpg)
+      ![Figure: ✅ OK example - Windows 11 | Group Policy Management | Wifi Settings | Security Settings | Authentication shows WPA2 - aim is WPA3, but some devices are still not ready for it](settings2.jpg)
