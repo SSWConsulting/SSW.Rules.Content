@@ -1,13 +1,15 @@
 ---
 seoDescription: Best practices for sharing and collaborating on design work involve using Figma's shared project space to enable open and inclusive feedback.
 type: rule
-title: Do you know the best way to share and collaborate on your design work?
+title: Do you know the best way to share and collaborate on design work?
 uri: hand-over-mockups-to-developers
 authors:
   - title: Jayden Alchin
     url: https://ssw.com.au/people/jayden-alchin
   - title: Ken Shi
     url: https://www.ssw.com.au/people/ken-shi
+  - title: Tiago Araujo
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - software-for-product-design
   - where-to-keep-your-design-files
@@ -24,6 +26,12 @@ One of the many reasons Figma is the most recommended software for user experien
 **Sharing a Figma file is as easy as sharing a link.**
 
 Figma is a multifaceted tool that provides designers with a shared project space where they can publish their work and allow the entire team to collaborate on a project. Editors can manage permissions and should invite viewers or collaborators to a project as needed. Interactive prototypes are treated as a separate file and can be shared using their own specific links too.
+
+## Validate with the design team first
+
+Before involving developers, clients, or other collaborators, ensure the design has been reviewed and tested by a designer. This internal check helps catch UX issues, inconsistencies, and unnecessary complexity early - while it’s still fast and easy to adjust.
+
+A quick round of feedback within the design team ensures alignment, saves time, and avoids sending incomplete or confusing work to others.
 
 ## Share design work with collaborators
 
