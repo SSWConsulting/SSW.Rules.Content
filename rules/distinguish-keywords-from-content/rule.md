@@ -18,6 +18,7 @@ related:
 - do-you-make-numbers-more-readable
 - awesome-documentation
 - style-quotations
+- formatting-ui-elements
 - indent
 redirects:
 - do-you-highlight-actions-correctly-in-your-document
