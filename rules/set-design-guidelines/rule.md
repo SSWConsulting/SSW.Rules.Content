@@ -23,8 +23,8 @@ These are things to keep in mind for good branding:
 <!--endintro-->
 
 - **Logo** - E.g. [SSW Logo](https://www.ssw.com.au/ssw/logo/ssw/)
-- **Web fonts** - E.g. At SSW we use Open Sans
-- **Print fonts** - E.g. At SSW we use Segoe UI
+- **Web fonts** - E.g. At SSW we use Inter
+- **Print fonts** - E.g. At SSW we use Helvetica Neue
 - **[Websites](/rules-to-better-websites-branding-and-marketing)** - E.g. [SSW Web Reference](https://www.ssw.com.au/ssw/company/Web-Reference.aspx) page is an example of good branding instructions for websites
 - **Newsletters**
 - **[Email signatures](/great-email-signatures)**
