@@ -112,6 +112,8 @@ Please see below for a more detailed breakdown of the Sprint:
 | Completed PBIs | {{ PBIS COMPLETED }} |
 | Net Change in PBIs | {{ +/- OVERALL PBI COUNT CHANGE }} |
 
+**Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
+
 7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
 
 ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
