@@ -105,6 +105,13 @@ Please see below for a more detailed breakdown of the Sprint:
 
 ![Figure: Release Burnup](release-burnup.jpg)
 
+| Metrics – last 30 days | Count |
+| --- | --- |
+| New PBIs | {{ NEW PBIS }} |
+| AI PBIS | {{ PBIS CREATED WITH AI }} ( {{ PERCENT OF NEW PBIS CREATED WITH AI }} %) |
+| Completed PBIs | {{ PBIS COMPLETED }} |
+| Net Change in PBIs | {{ +/- OVERALL PBI COUNT CHANGE }} |
+
 7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
 
 ![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
