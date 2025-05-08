@@ -46,20 +46,21 @@ When a developer resigns, you must immediately inform the client. We believe in 
 Here's a good template for your follow-up email:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ CLIENT NAME }} |
 | Subject: | {{ EMPLOYEE }} has resigned - Project Transition Plan |
 ::: email-content
 
-### Hi {{ CLIENT NAME }},
+### Hi {{ CLIENT NAME }}
 
 As per our conversation, I’m sorry to let you know that {{ EMPLOYEE }} has resigned from SSW.
 
 He is a strong developer and has assured me he will continue to give 100% on your project until his last day, which will be {{ DATE }}.
 
 We discussed the following plan:
-- {{ SUMMARY OF AGREED REPLACEMENT OR TRANSITION }}
+* {{ SUMMARY OF AGREED REPLACEMENT OR TRANSITION }}
 
 If you have any further questions or concerns, feel free to reach out.
 
