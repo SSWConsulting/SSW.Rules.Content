@@ -8,6 +8,10 @@ seoDescription: Stop wasting time and mental energy on manual meeting notes, use
 uri: still-taking-manual-meeting-notes
 authors:
   - title: ""
+  - title: Louis Roa
+    url: https://www.ssw.com.au/people/louis-roa/
+    img: https://www.ssw.com.au/people/static/Louis-Roa-Sketch-43386bcbae2db3e94bdb99b5bdae4f96.jpg
+created: 2025-05-09T14:25:00.000Z
 guid: 664492d1-464a-496d-a444-21da629e583b
 ---
 ![](bad_note.png "Do you still take manual meeting notes?")
@@ -28,18 +32,16 @@ In fact, employees estimate that [37% of their biggest cost is wasted time in me
 
 **❌ You still have to format, organize, and send the notes afterward.**
 
-
-
 ### Why AI note-takers are better
 
-AI transcription tools like **Read AI**, **Otter.ai**, and **Fireflies.ai** handle notetaking for you, with:
+AI transcription tools like **[Read AI](https://www.read.ai/)**, **Otter.ai**, and **Fireflies.ai** handle notetaking for you, with:
 
 * **Speed** – Get transcripts and summaries within seconds of the meeting ending.
 * **Accuracy** – Capture every word, no typos or forgotten context.
 * **Talk-time metrics** – See how much each participant contributed.
 * **Automated follow-up** – Receive email summaries with action items and highlights.
 
-| Feature                       | Read AI                               | Otter.ai                            | Fireflies.ai                          |
+| Feature                       | [Read AI](https://www.read.ai/)       | Otter.ai                            | Fireflies.ai                          |
 | ----------------------------- | ------------------------------------- | ----------------------------------- | ------------------------------------- |
 | **Real-time Transcription**   | ✅ Yes                                 | ✅ Yes                               | ✅ Yes                                 |
 | **AI Meeting Summary**        | ✅ Yes (Detailed, Topic-based)         | ✅ Yes (Concise)                     | ✅ Yes (Customizable)                  |
@@ -54,7 +56,7 @@ AI transcription tools like **Read AI**, **Otter.ai**, and **Fireflies.ai** hand
 
 ### 5-minute setup to modernize your meetings
 
-1. Create a Read AI (or similar) account.
+1. Create an [Otter.ai (or similar) account.](https://otter.ai/start-for-free)
 2. Connect your calendar and meeting platform.
 3. Invite your AI notetaker to the call.
 4. After the call, check your inbox for a full summary.
@@ -63,7 +65,5 @@ AI transcription tools like **Read AI**, **Otter.ai**, and **Fireflies.ai** hand
 ::: info\
 **Important:** Always inform attendees if the call is being recorded or transcribed. Consent is required in most regions.
 :::
-
-
 
 **Let AI do the heavy lifting so you can stay present, contribute more, and act faster after the meeting.**
