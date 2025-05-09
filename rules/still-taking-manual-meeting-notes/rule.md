@@ -7,7 +7,6 @@ seoDescription: Stop wasting time and mental energy on manual meeting notes, use
   and follow-ups.
 uri: still-taking-manual-meeting-notes
 authors:
-  - title: ""
   - title: Louis Roa
     url: https://www.ssw.com.au/people/louis-roa/
     img: https://www.ssw.com.au/people/static/Louis-Roa-Sketch-43386bcbae2db3e94bdb99b5bdae4f96.jpg
