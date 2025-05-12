@@ -78,12 +78,11 @@ Figure: Bad example - Too much punctuation
 Figure: Good example - Clean with no full stops
 :::
 
-
 ### What about multiple sentences in one element?
 
 If your bullet point or caption has more than one sentence, consider rephrasing it, or using a different separator - like a dash; you could also consider a semicolon instead.
 
-However, if it **is necessary** to have more than one sentence in these items (should be rare) a full stop is needed. In this case, you should end with a full stop for consistency and completeness. 
+However, if it **is necessary** to have more than one sentence in these items (should be rare) a full stop is needed. In this case, you should end with a full stop for consistency and completeness.
 
 ::: info
 **Reminder:** The rest of figure captions and the bullet points on content **should not have full stops**.
@@ -124,16 +123,15 @@ Figure: Good example - Multi-sentence items should end with a full stop for cons
 [Descriptive links](/descriptive-links) are recommended whenever possible, but if you must display the raw URL, remember to avoid adding a full stop at the end, as it can break the link when copied or clicked.
 
 ::: greybox
-For more information, visit https://ssw.com.au/employment.
+For more information, visit <https://ssw.com.au/employment>.
 :::
 ::: bad
 Figure: Bad example - Full stop at the end can break the link
 :::
 
 ::: greybox
-For more information, visit https://ssw.com.au/employment
+For more information, visit <https://ssw.com.au/employment>
 :::
 ::: good
 Figure: Good example - No full stop after the URL
 :::
-
