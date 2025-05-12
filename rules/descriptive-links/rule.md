@@ -82,7 +82,7 @@ Figure: Good example - Give users context with a link at the end to get more inf
 ::: info
 **Note:** If for some reason you need to include the URL instead of a nice descriptive text, it is recommended to:
 
-- [Make URLs short and clean](/create-friendly-short-urls)
-- [Break a line before URLs](/format-new-lines/#urls)
-- [Avoid a full stop after immediately URLs](/avoid-full-stops)
+* [Make URLs short and clean](/create-friendly-short-urls)
+* [Break a line before URLs](/format-new-lines/#urls)
+* [Avoid a full stop after immediately URLs](/avoid-full-stops)
 :::
