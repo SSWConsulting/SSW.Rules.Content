@@ -279,7 +279,7 @@ See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-ema
 
 When you create a bug/suggestion to a backlog, it's a good idea to add emoji in the title. Not only does it look nicer, but people can look at the item and take in the necessary information quickly.
 
-This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc). 
+This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc).
 
 Examples:
 
