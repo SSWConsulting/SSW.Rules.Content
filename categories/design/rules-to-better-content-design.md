@@ -20,7 +20,7 @@ index:
 - oxford-comma
 - distinguish-keywords-from-content
 - avoid-repetition
-- avoid-full-stops-in-bullet-point-lists
+- avoid-full-stops
 - format-new-lines
 - make-data-fields-obvious
 ---
