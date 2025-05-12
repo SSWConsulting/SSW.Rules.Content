@@ -78,3 +78,11 @@ You can also use links to give people a chance to investigate further on a topic
 ::: good
 Figure: Good example - Give users context with a link at the end to get more information on the topic
 :::
+
+::: info
+**Note:** If for some reason you need to include the URL instead of a nice descriptive text, it is recommended to:
+
+- [Make URLs short and clean](/create-friendly-short-urls)
+- [Break a line before URLs](/format-new-lines/#urls)
+- [Avoid a full stop after immediately URLs](/avoid-full-stops)
+:::
