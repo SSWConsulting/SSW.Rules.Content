@@ -41,7 +41,7 @@ Using AI, YakShaver analyzes what you've said and automatically routes the issue
 
 ---
 
-## ❌ Manually
+## ❌ Doing it manually
 
 If you can’t use YakShaver for some reason, follow these 8 tips to do it right manually:
 
