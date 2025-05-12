@@ -36,6 +36,9 @@ YakShaver is a smart tool that simplifies how you report issues and give feedbac
 
 Using AI, YakShaver analyzes what you've said and automatically routes the issue to the right person. This means you don’t have to worry about choosing the right backlog, tagging the right team member, or following up to make sure it landed in the right place. It speeds up communication, reduces misunderstandings, and allows everyone to focus on solving the real issue instead of getting bogged down by process.
 
+`youtube: https://www.youtube.com/shorts/0TPo98R1tnI`
+**Video: What is YakShaver? | Ulysses Maclaren (1 min)**
+
 ---
 
 ## ❌ Manually
