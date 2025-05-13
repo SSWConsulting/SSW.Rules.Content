@@ -2,7 +2,7 @@
 type: rule
 archivedreason:
 title: Do you use XML tags to structure your AI prompts?
-seoDescription: The industry standard method used for digesting and analysing form results, Microsoft Forms, Google Forms, SurveyMonkey
+seoDescription: XML is the best way to structure large prompts for large language models LLMs AI
 guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
 uri: ai-prompt-xml
 created: 2025-05-13T16:42:19.624Z
