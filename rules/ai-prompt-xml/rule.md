@@ -29,7 +29,7 @@ You can even ask the LLM to give outputs in XML, which makes things easier to re
 
 ::: bad
 ```
-You're a sales manager at Northwind. Analyze our Q2 sales performance across all regions. Include sections on Top Products, Regional Performance, and Customer Satisfaction, referencing last quarter's report: {{Q1_SALES_REPORT}}. Use the latest sales metrics from: {{SALES_DASHBOARD}}. The analysis should be data-driven, actionable, and highlight key wins and opportunities. Focus on identifying emerging market trends and providing strategic recommendations for Q3.
+You're a software architect at Northwind. Review our codebase architecture and suggest improvements to our microservices. Include sections on API Design, Service Communication, and Database Optimization, referencing our current architecture document: {{ARCHITECTURE_DOC}}. Use the latest performance metrics from: {{PERFORMANCE_DASHBOARD}}. The review should be technical, actionable, and highlight key issues and opportunities. Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
 ```
 :::
 **Bad example: If it's hard for humans to read 'at-a-glance', the AI will struggle too.**
@@ -37,24 +37,29 @@ You're a sales manager at Northwind. Analyze our Q2 sales performance across all
 ::: good
 ```xml
 <context>
-    You are a sales manager at Northwind
-    Northwind is a B2B offshore wind infrastructure management SaaS company.
-    Our investors value transparency and actionable insights
+    You are a software architect at Northwind
+    Northwind is a B2B supply chain management SaaS company
+    Our development team values clean architecture and maintainable code
 </context>
 
-Use this data for the report
+Use this data for the review
 <data>
-    {{REPORT_DATA_CSV}}
+    {{CODEBASE_ANALYSIS_JSON}}
 </data>
 
 <instructions>
-1. Include sections: Revenue Growth, Profit Margins, Cash Flow.
-2. Highlight stregnths and areas for improvement.
+1. Include sections: API Design, Service Communication, Database Optimization
+2. Highlight strengths and areas for improvement
 </instructions>
 
 <tone>
-Make sure your tone is concise and professional.
+Make sure your tone is technical and solution-oriented
 </tone>
+
+Follow this structure:
+<formatting-example>
+    {{PREVIOUS_ARCH_REVIEW_MD}}
+</formatting-example>
 ```
 :::
 **Good Example: XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs.**
