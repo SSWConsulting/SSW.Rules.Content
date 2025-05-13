@@ -59,10 +59,11 @@ Better yet, Cursor Agent lets you interact with your data through conversation. 
 #### How to digest unstructured survey results with Cursor IDE 
 
 We'll show you how to get the most out of your Microsoft Forms results with AI
+
+
 ::: good
 ![Figure: The output of our AI survey results digest, much cleaner with a helpful 'sentiment' column!](good-unstructured.png)
 :::
-
 
 
 ::: info
