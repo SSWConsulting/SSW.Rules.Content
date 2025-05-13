@@ -10,8 +10,7 @@ authors:
   - title: Eddie Kranz
     url: https://www.ssw.com.au/people/eddie-kranz
 related:
-  - best-ai-powered-ide
-  - ai-powered-ide-non-coding
+  - best-ai-powered-ide 
 ---
 
 At SSW, we use Microsoft Forms extensively. When forms receive numerous responses, digesting the results becomes challenging.
