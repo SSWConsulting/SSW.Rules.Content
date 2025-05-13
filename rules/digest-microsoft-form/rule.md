@@ -3,7 +3,7 @@ type: rule
 archivedreason:
 title: Do you know how to digest a Microsoft Form?
 seoDescription: The industry standard method used for digesting and analysing form results, Microsoft Forms, Google Forms, SurveyMonkey
-guid: e3bbb909-51c3-4e9e-b970-201da241ca4a
+guid: 4d8e03c3-e842-4b1d-a049-8eff21b1208a
 uri: digest-microsoft-form
 created: 2025-05-13T16:42:19.624Z
 authors:
