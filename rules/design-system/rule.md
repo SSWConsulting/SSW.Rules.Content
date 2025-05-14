@@ -50,7 +50,7 @@ A solid design system should include:
 
 - Spacing, fonts, or colors shift between screens for no reason.
 - Handoffs and review meetings are dominated by nitpicking visual issues.
-- Figma doesn’t match production.
+- Design doesn’t match production.
 - Style guides are outdated, scattered, or missing entirely.
 
 ## Real-World Examples
