@@ -31,12 +31,10 @@ A design system can fix all of that—it aligns everyone around a shared languag
 
 A solid design system should include:
 
-- **Design tokens** – Variables for color, spacing, typography, etc., ensuring consistency and scalability.
-- **Style guide** – Covers branding, grids, iconography, motion, and accessibility guidelines.
-- **Component library** – Reusable elements like buttons, forms, and modals built in your design tool with variants and usage guidance.
-- **Tooling integration** – Sync tokens to code using tools like Figma Tokens, Style Dictionary, or CI/CD pipelines.
-- **Documentation portal** – Live demos, usage do’s and don’ts, changelogs, and versioning.
-- **Governance** – Clear ownership, a contribution process, and semantic versioning to manage updates.
+- **Style guide and design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance.
+- **Component library** – Reusable UI elements like buttons or inputs, built in your design tool with variants and usage guidance. May include page templates and broader patterns. 
+- **Documentation** – Guidelines for component usage, do’s and don’ts, examples and demos.
+- **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates.
 
 ## Why It Works
 
