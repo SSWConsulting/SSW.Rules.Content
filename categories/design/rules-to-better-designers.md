@@ -9,6 +9,7 @@ index:
 - when-do-you-need-a-ux-designer
 - double-diamond
 - software-for-ux-design
+- design-system
 - design-debt
 - user-journey-mapping
 - figma-uses
