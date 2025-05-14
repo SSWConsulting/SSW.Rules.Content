@@ -67,12 +67,12 @@ A solid design system should include:
 
 1. **Audit your UI** – Look for visual and structural inconsistencies
 2. **Define tokens** – Start with color, spacing, and typography
-3. **Build your first 3 components** – Focus on core UI elements
+3. **Build your first components** – Focus on core UI elements (i.e. header, footer, buttons, input fields)
 4. **Integrate tokens** – Use Figma Tokens or Style Dictionary
 5. **Document as you go** – Add usage rules, visual examples, and versioning
 6. **Share internally** – Use demos and changelogs to get buy-in
 7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
 
 ::: greybox
-**Quick-start tip:** Kick off with a shared Figma library and just 5 key components to prove value, then expand.
+**Quick-start tip:** Kick off with a shared Figma library and key components to provide value, then expand.
 :::
