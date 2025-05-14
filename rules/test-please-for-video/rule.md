@@ -22,22 +22,26 @@ You can also identify errors and inconsistencies that can be addressed for a sec
 <!--endintro-->
 
 1. Complete the video editing (Version 1)
-   Produce your first edit of your video. If necessary follow the Post Production rules i.e. ['Do you use cutaways?'](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head), ['Do you add a Call to Action?'](/production-do-you-add-a-call-to-action).
+   Produce your first edit of your video. Follow videos' post-production rules i.e. ['Do you use cutaways?'](/production-post-production-do-you-use-cutaways-aka-removing-the-talking-head), ['Do you add a Call to Action?'](/production-do-you-add-a-call-to-action)
 2. Upload your first edit to YouTube
-   1. Send test please to your manager(s)
-   2. Feedback must be done within 48 hours
-   3. Need two out of the three to move ahead
-   4. If response isn’t submitted within designated time, the process moves to the next step
+3. Send test please to your **manager(s)**
+   * Feedback must be done within 48 hours
+   * If response isn’t submitted within designated time, the process moves to the next step
+
+   **Note:** To move ahead, you need two out of the three "test pass"
+
 3. Make changes to video from feedback
 4. Re-upload to YouTube
-5. Respond to each email with dones and not dones
-6. Send test please to your managers, any people on the video and one of the test groups
-   1. 48 hours to test
-   2. 6 people on the test
-   3. Need 3 responses to move ahead
-   4. If response isn’t submitted within designated time, the process moves to the next step
-7. Make changes to video from feedback
-8. Respond to each email with Done’s and reasons for Not Done’s
-9. Optional - Create a post for your video on your website (e.g. tv.ssw.com) – embed the YouTube upload
+5. Respond to each feedback with "Dones" and reasons for "Not Dones"
+  
+6. Send test please to your **managers**, any **people on the video** and **one of the test groups**
+   * 48 hours to test
+   * 6 people on the test
+   * Need 3 responses to move ahead
+   * If response isn’t submitted within designated time, the process moves to the next step
+8. Make changes to video from feedback
+9. Respond to each feedback with "Dones" and reasons for "Not Dones"
 10. Send final test please – not for major changes (spelling mistakes, glaring faults etc.)
-    1. If there is no response within 48 hours, we go live
+    * If there is no response within 48 hours, we go live
+
+**Tip:** Optional - Create a post for the new video on your website (e.g. tv.ssw.com), embedding the YouTube upload.
