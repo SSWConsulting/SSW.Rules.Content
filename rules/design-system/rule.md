@@ -7,7 +7,6 @@ seoDescription: Tame visual inconsistencies and streamline team collaboration by
   teams.
 uri: design-system
 authors:
-  - title: ""
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
   - title: Jayden Alchin
