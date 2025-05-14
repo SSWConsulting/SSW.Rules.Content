@@ -33,24 +33,24 @@ A design system can fix all of that—it aligns everyone around a shared languag
 
 A solid design system should include:
 
-- **Style guide and design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
-- **Component library** – Reusable UI elements like buttons or inputs, built in your design tool with variants and usage guidance. May include page templates and broader patterns
-- **Documentation** – Guidelines for component usage, do’s and don’ts, examples and demos
-- **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
+* **Style guide and design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
+* **Component library** – Reusable UI elements like buttons or inputs, built in your design tool with variants and usage guidance. May include page templates and broader patterns
+* **Documentation** – Guidelines for component usage, do’s and don’ts, examples and demos
+* **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
 
 ## Why it works
 
-- **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. Changes are made in one place which scales across projects
-- **Faster build time** – Shared components and patterns boost delivery speed
-- **Accessibility baked-in** – Standards like contrast, keyboard nav, and screen-reader support come by default
-- **No more debates** – Defined design standards cut through subjective opinion
+* **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. Changes are made in one place which scales across projects
+* **Faster build time** – Shared components and patterns boost delivery speed
+* **Accessibility baked-in** – Standards like contrast, keyboard nav, and screen-reader support come by default
+* **No more debates** – Defined design standards cut through subjective opinion
 
 ## Signs you’re due for a Design System
 
-- Spacing, fonts, or colors shift between screens for no reason
-- Handoffs and review meetings are dominated by nitpicking visual issues
-- Design doesn’t match production
-- Style guides are outdated, scattered, or missing entirely
+* Spacing, fonts, or colors shift between screens for no reason
+* Handoffs and review meetings are dominated by nitpicking visual issues
+* Design doesn’t match production
+* Style guides are outdated, scattered, or missing entirely
 
 ## Real-world examples
 
@@ -67,12 +67,12 @@ A solid design system should include:
 
 1. **Audit your UI** – Look for visual and structural inconsistencies
 2. **Define tokens** – Start with color, spacing, and typography
-3. **Build your first 3 components** – Focus on core UI elements
+3. **Build your first components** – Focus on core UI elements (i.e. header, footer, buttons, input fields)
 4. **Integrate tokens** – Use Figma Tokens or Style Dictionary
 5. **Document as you go** – Add usage rules, visual examples, and versioning
 6. **Share internally** – Use demos and changelogs to get buy-in
 7. **Govern wisely** – Assign owners, plan updates, and gradually layer in code
 
 ::: greybox
-**Quick-start tip:** Kick off with a shared Figma library and just 5 key components to prove value, then expand.
+**Quick-start tip:** Kick off with a shared Figma library and key components to provide value, then expand.
 :::
