@@ -38,11 +38,10 @@ A solid design system should include:
 
 ## Why It Works
 
-- **One source of truth** – Everyone (designers, developers, PMs, QA) works from the same playbook.
-- **Change once, update everywhere** – Avoids manual rework and reduces inconsistencies.
-- **Faster builds** – Shared components and patterns boost delivery speed.
+- **One source of truth** – Everyone (designers, developers, POs, QA) works from the same playbook, avoiding continuous rework and reducing inconsistency. Changes are made in one place which scales across projects.
+- **Faster build time** – Shared components and patterns boost delivery speed.
 - **Accessibility baked-in** – Standards like contrast, keyboard nav, and screen-reader support come by default.
-- **No more style debates** – Predefined standards cut through subjective design opinions.
+- **No more debates** – Defined design standards cut through subjective opinion.
 
 ## Signs You’re Due for a Design System
 
