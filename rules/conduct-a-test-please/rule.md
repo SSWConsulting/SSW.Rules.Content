@@ -17,11 +17,12 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 related:
-  - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
   - request-a-test-please
   - ask-clients-approval
   - presentation-test-please
+  - ui-ux-test-please
+  - test-please-for-video
 redirects:
   - conduct-a-test-please-internally-and-then-with-the-client
   - do-you-conduct-a-test-please
@@ -87,4 +88,4 @@ If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoi
 Figure: Good example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email
 :::
 
-**Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.
+**Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/checked-by-xxx)" style instead to save some time.
