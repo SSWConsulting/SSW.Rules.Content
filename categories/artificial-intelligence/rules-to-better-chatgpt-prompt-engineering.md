@@ -5,6 +5,7 @@ guid: 91b60efc-2b8e-4ff1-a373-ac4cab576483
 uri: rules-to-better-chatgpt-prompt-engineering
 index:
   - fundamentals-of-prompt-engineering
+  - ai-prompt-xml
   - chatgpt-cheat-sheet
   - chatgpt-security-risks
   - custom-instructions
