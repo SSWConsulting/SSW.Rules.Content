@@ -61,11 +61,11 @@ If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Pleas
 
 ## Videos
 
-If you created a video, [likes and comments](/like-and-comment-on-videos) are your "Test Please".
+If you created a video, ["Test Please" for videos](test-please-for-video) "Test Please". After launch you may want to keep an eye on [likes and comments](/like-and-comment-on-videos) for further feedback.
 
 ## Anything else
 
-If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
+If you are doing anything else (e.g. creating a new blog post, updating a Word document, or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere. You can do that via a PBI or email.
 
 ::: email-template  
 
