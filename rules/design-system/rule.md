@@ -16,7 +16,7 @@ related:
   - design-debt
   - software-for-ux-design
   - hand-over-mockups-to-developers
-created: 2025-05-14T15:09:00.000Z
+created: 2025-05-14T15:18:00.000Z
 guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
 ---
 When every button looks a little different, spacing feels off, and handoffs between design and dev are painful, you know something’s wrong. These issues lead to inconsistent UIs, longer review cycles, and time wasted on debating visual tweaks instead of building real value.  
