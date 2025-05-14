@@ -25,12 +25,12 @@ Any time you're building or changing something that users interact with, you sho
 - A second set of eyes avoids awkward interactions or confusing layouts  
 
 ## Common examples that need a UI/UX Test Please
-- New buttons, inputs, or dropdowns  
-- Layout changes or [spacing tweaks](/format-new-lines)  
-- Modals, tooltips, tabs, or sliders  
-- Mobile responsiveness and alignment fixes  
-- Empty states, error messages, or loading indicators  
-- Changes to icons, font sizes, or colors  
+- Buttons, inputs, tooltips, and menus
+- Layout changes, like [spacing tweaks](/format-new-lines) and and alignment fixes
+- Mobile [responsiveness](/responsive-design) 
+- Error messages, or loading indicators  
+- Icons, font sizes, or colors  
+- Images or graphics
 
 ## How to do it
 
@@ -41,7 +41,9 @@ Any time you're building or changing something that users interact with, you sho
      - Get early feedback before building anything. This helps avoid wasted effort on ideas that may not work well for users  
 
 2. Send a quick “UI/UX Test Please” with a video, screenshot or link  
-3. Wait for feedback and apply any suggestions before going live  
+3. Chase up designer for feedback 
+4. Apply any suggestions and get a "✅ Test Pass"
+5. Go live  
 
 > Great UX is a team effort. Always get a design review before it reaches users.
 
