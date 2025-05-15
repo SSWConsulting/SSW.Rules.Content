@@ -13,17 +13,14 @@ related:
   - best-ai-powered-ide 
 ---
 
-At SSW, we use Microsoft Forms extensively. When forms receive numerous responses, digesting the results becomes challenging.
+Microsoft Forms is a popular survey tool used by many organizations. When forms receive numerous responses, digesting the results becomes challenging.
             
 <!--endintro-->
-
-
-## Categories of survey answers
 
 Microsoft Forms offers several ways to analyze your survey responses:
 
 
-### Structured Answers
+## Structured Answers
 Structured (quantitative) answers include multiple choice, range, or numerical responses. Microsoft Forms excels at automatically generating graphs for these types of answers.
 
 ::: good
@@ -31,7 +28,7 @@ Structured (quantitative) answers include multiple choice, range, or numerical r
 :::
 
 
-### Unstructured Answers
+## Unstructured Answers
 Unstructured (qualitative) answers are text-based responses that allow respondents to express themselves fully, yielding more insightful survey results.
 
 
@@ -43,7 +40,7 @@ The challenge is that Microsoft Forms handles unstructured answers poorly. Your 
 
 This is where AI becomes invaluable for digesting unstructured data.
 
-#### Which AI solution works best?
+### Which AI solution works best?
 Pasting responses into ChatGPT works for small surveys (up to 20 answers), but with larger datasets, it often misses important insights due to context window limitations.
 
 
@@ -55,7 +52,7 @@ Cursor Agent processes CSV data line-by-line without requiring code. This approa
 
 Better yet, Cursor Agent lets you interact with your data through conversation. You can ask questions like "which responses favored x?" or "are there any highly critical responses?" You can even add a sentiment column to your output, making data analysis significantly more efficient.
 
-#### How to digest unstructured survey results with Cursor IDE 
+### How to digest unstructured survey results with Cursor IDE 
 
 We'll show you how to get the most out of your Microsoft Forms results with AI
 
