@@ -76,7 +76,7 @@ We'll show you how to get the most out of your Microsoft Forms results with AI
 For example, the below prompt will read through your `.csv` line by line, highlight interesting parts of each answer, and generate a sentiment for the answer, allowing you much better 'at-a-glance' survey results. We use it to create a visual stimulus for when we record our [Digesting the Fat videos](https://www.youtube.com/watch?v=4DKH5IDp7Wk)
 
 ::: info
-We like using XML tags in our prompts. They allow LLMs to parse information more accurately, leading to higher-quality outputs. See the rule: [Do you use XML to structure your AI prompts?](https://ssw.com.au/rules/ai-prompt-xml)
+We like using XML tags in our prompts. They allow LLMs to parse information more accurately, leading to higher-quality outputs. See the rule: [Do you use XML to structure your AI prompts?](/ai-prompt-xml)
 :::
 
 
