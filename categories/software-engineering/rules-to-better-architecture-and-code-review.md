@@ -5,6 +5,7 @@ guid: a09ec7f5-4035-48ad-afb2-08ac9c620dc6
 uri: rules-to-better-architecture-and-code-review
 index:
   - do-you-evaluate-the-processes
+  - software-architecture-decision-tree
   - developer-experience
   - do-you-review-the-solution-and-project-names
   - do-you-conduct-an-architecture-review-after-every-sprint
