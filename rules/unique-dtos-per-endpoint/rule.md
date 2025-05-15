@@ -6,7 +6,9 @@ guid: 19a53ef8-5b5c-4e44-baef-1433d4a77e48
 uri: unique-dtos-per-endpoint
 authors:
   - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - serialize-view-models-not-domain-entities
   - the-difference-between-data-transfer-objects-and-view-models
