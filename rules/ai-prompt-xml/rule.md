@@ -29,9 +29,12 @@ The best part is that it doesn't need to follow any specific syntax. It just hel
 You can even ask the LLM to give outputs in XML, which makes things easier to read for humans too!
 
 ``` html
-You're a software architect at Northwind. Review our codebase architecture and suggest improvements to our microservices. Include sections on API Design, Service Communication, and Database Optimization, referencing our current architecture document: {{ARCHITECTURE_DOC}}. Use the latest performance metrics from: {{PERFORMANCE_DASHBOARD}}. The review should be technical, actionable, and highlight key issues and opportunities. Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
+You're a software architect at Northwind. Review our codebase architecture and suggest improvements to our microservices. 
+Include sections on API Design, Service Communication, and Database Optimization, referencing our current architecture document: {{ARCHITECTURE_DOC}}.
+Use the latest performance metrics from: {{PERFORMANCE_DASHBOARD}}.
+The review should be technical, actionable, and highlight key issues and opportunities. 
+Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
 ```
-:::
 ::: bad
 Code: Bad example - If it's hard for humans to read 'at-a-glance', the AI will struggle too
 :::
