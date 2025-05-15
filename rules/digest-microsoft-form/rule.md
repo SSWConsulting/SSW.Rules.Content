@@ -147,6 +147,8 @@ We like using XML tags in our prompts. They allow LLMs to parse information more
     Ensure no responses have been missed, ensure you have followed each step before moving on to the next step.
 </finally>
 ```
-**Figure: Cursor Prompt for generating Microsoft Forms digests from `.csv`**
+::: good
+Code: Cursor Prompt for generating Microsoft Forms digests from `.csv`
+:::
 
 Let us know in the comments how you've used the Cursor IDE for tasks like this. We think it's a game changer.
