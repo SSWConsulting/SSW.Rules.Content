@@ -20,4 +20,3 @@ While working, you'll get loads of questions. Most software projects demands clo
 <!--endintro-->
 
 A good way to fix this problem is to insist your software consultants contact you via IM.
-
