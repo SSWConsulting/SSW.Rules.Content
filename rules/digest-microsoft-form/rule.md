@@ -24,7 +24,7 @@ Microsoft Forms offers several ways to analyze your survey responses:
 Structured (quantitative) answers include multiple choice, range, or numerical responses. Microsoft Forms excels at automatically generating graphs for these types of answers.
 
 ::: good
-![Figure: Microsoft Forms is great at displaying structured results like this.](good-structured.png)
+![Figure: Microsoft Forms is great at displaying structured results like this](good-structured.png)
 :::
 
 
@@ -44,7 +44,7 @@ This is where AI becomes invaluable for digesting unstructured data.
 Pasting responses into ChatGPT works for small surveys (up to 20 answers), but with larger datasets, it often misses important insights due to context window limitations.
 
 
-We solve this using Agentic AI with chain-of-thought reasoning. The Cursor IDE provides an accessible way to apply AI to unstructured data (or Windsurf! -- [see our comparison table here](https://www.ssw.com.au/rules/best-ai-powered-ide/)).
+We solve this using Agentic AI with chain-of-thought reasoning. The Cursor IDE provides an accessible way to apply AI to unstructured data (or Windsurf! [See our comparison table](/best-ai-powered-ide)).
 
 
 Cursor Agent processes CSV data line-by-line without requiring code. This approach solves the context window problem by ensuring all answers are read and annotated, producing an enhanced version of your data with key insights highlighted.
