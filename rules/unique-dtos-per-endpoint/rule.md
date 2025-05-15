@@ -18,17 +18,17 @@ In Clean Architecture, it is normally better to have a unique Data Transfer Obje
 
 While sharing DTOs across multiple endpoints might seem like a way to save some code, it often leads to several problems:
 
-*   **Unnecessary Data Transfer:** Endpoints sending more data than what is actually needed, this can lead to performance issues.
-*   **Increased Coupling:** When multiple endpoints share the same DTO, a change required by one endpoint can inadvertently affect others.
-*   **Developer Confusion:** Developers will find it hard to understand which properties are relevant for a specific endpoint, leading to potential misuse or misunderstanding of the data structure.
+* **Unnecessary Data Transfer:** Endpoints sending more data than what is actually needed, this can lead to performance issues.
+* **Increased Coupling:** When multiple endpoints share the same DTO, a change required by one endpoint can inadvertently affect others.
+* **Developer Confusion:** Developers will find it hard to understand which properties are relevant for a specific endpoint, leading to potential misuse or misunderstanding of the data structure.
 
 <!--endintro-->
 
 By creating unique DTOs tailored to each endpoint's specific requirements, you ensure that:
 
-*   Endpoints only deal with the data they need.
-*   Performance is optimized by avoiding the transfer of superfluous data.
-*   Endpoints are decoupled, making them easier to develop, test, and maintain independently.
+* Endpoints only deal with the data they need.
+* Performance is optimized by avoiding the transfer of superfluous data.
+* Endpoints are decoupled, making them easier to develop, test, and maintain independently.
 
 ```csharp
 namespace Northwind.Trading.Application.Contracts.Models;
@@ -58,10 +58,10 @@ public class OrderItemModel
     public List<OrderItemViewModel> OrderItems { get; set; } = [];
 }
 ```
+
 ::: bad
 Figure: Bad example - `OrderViewModel` is used for multiple purposes (e.g., `GetOrderList`, `GetOrderDetails`, `CreateOrder`) and has accumulated many properties, making it hard to read and maintain.
 :::
-
 
 ```csharp
 namespace Northwind.Trading.Application.Contracts.OrderQueries.Models;
@@ -75,6 +75,7 @@ public class GetOrderListItemDto
     public OrderStatus Status { get; set; }
 }
 ```
+
 ::: good
 Figure: Good example - A simple `OrderSummaryDto` designed specifically for an endpoint that lists orders.
 :::
