@@ -17,6 +17,7 @@ related:
   - what-happens-at-retro-meetings
   - sprint-review-retro-email
   - do-you-know-when-and-when-not-to-use-email
+  - brainstorming-day-retro
 redirects:
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-(a-k-a-feedback)
   - do-you-know-you-should-do-a-retrospective-after-an-activity-ends-a-k-a-feedback
