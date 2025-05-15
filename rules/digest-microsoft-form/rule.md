@@ -1,8 +1,8 @@
 ---
 type: rule
 archivedreason:
-title: Do you know how to digest a Microsoft Form?
-seoDescription: The industry standard method used for digesting and analysing form results, Microsoft Forms, Google Forms, SurveyMonkey
+title: Do you know how to digest Microsoft Forms results?
+seoDescription: The industry standard method used for digesting and analyzing form results, Microsoft Forms, Google Forms, SurveyMonkey
 guid: 4d8e03c3-e842-4b1d-a049-8eff21b1208a
 uri: digest-microsoft-form
 created: 2025-05-13T16:42:19.624Z
@@ -19,23 +19,22 @@ Microsoft Forms is a popular survey tool used by many organizations. When forms 
 
 Microsoft Forms offers several ways to analyze your survey responses:
 
+## Structured answers
 
-## Structured Answers
 Structured (quantitative) answers include multiple choice, range, or numerical responses. Microsoft Forms excels at automatically generating graphs for these types of answers.
 
 ::: good
-![Figure: Microsoft Forms is great at displaying structured results like this](good-structured.png)
+![Figure: Good example - Microsoft Forms is great at displaying structured results like this](good-structured.png)
 :::
 
+## Unstructured answers
 
-## Unstructured Answers
 Unstructured (qualitative) answers are text-based responses that allow respondents to express themselves fully, yielding more insightful survey results.
-
 
 The challenge is that Microsoft Forms handles unstructured answers poorly. Your viewing options are limited to a 'word cloud' (more gimmick than analysis tool) or a basic table that contains all feedback but makes finding meaningful insights difficult.
 
 ::: bad
-![Figure: This tells us nothing about people's answers!](bad-unstructured.png)
+![Figure: Bad example - This tells us nothing about people's answers!](bad-unstructured.png)
 :::
 
 This is where AI becomes invaluable for digesting unstructured data.
@@ -54,22 +53,20 @@ Better yet, Cursor Agent lets you interact with your data through conversation. 
 
 ### How to digest unstructured survey results with Cursor IDE 
 
-We'll show you how to get the most out of your Microsoft Forms results with AI
-
+See how to get the most out of your Microsoft Forms results with AI.
 
 ::: good
-![Figure: The output of our AI survey results digest, much cleaner with a helpful 'sentiment' column!](good-unstructured.png)
+![Figure: Good example - The output of our AI survey results digest, much cleaner with a helpful 'sentiment' column!](good-unstructured.png)
 :::
-
 
 ::: info
 [Cursor Pro](https://www.cursor.com/pricing) is required for this.
 :::
 
-1. Export your Microsoft Forms results in `.csv` format.
-2. Create a new folder containing the `.csv` file you would like to digest.
+1. Export your Microsoft Forms results in `.csv` format
+2. Create a new folder containing the `.csv` file you would like to digest
 3. Open this new folder in Cursor IDE
-4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel.
+4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel
 5. Set your model, we like `claude-3.7-sonnet` with **Thinking enabled**
 5. Start prompting your .csv file! 
 
@@ -78,7 +75,6 @@ For example, the below prompt will read through your `.csv` line by line, highli
 ::: info
 We like using XML tags in our prompts. They allow LLMs to parse information more accurately, leading to higher-quality outputs. See the rule: [Do you use XML to structure your AI prompts?](/ai-prompt-xml)
 :::
-
 
 ```xml
 <context>
@@ -148,7 +144,7 @@ We like using XML tags in our prompts. They allow LLMs to parse information more
 </finally>
 ```
 ::: good
-Code: Cursor Prompt for generating Microsoft Forms digests from `.csv`
+Code: Good example - Cursor Prompt for generating Microsoft Forms digests from `.csv`
 :::
 
 Let us know in the comments how you've used the Cursor IDE for tasks like this. We think it's a game changer.
