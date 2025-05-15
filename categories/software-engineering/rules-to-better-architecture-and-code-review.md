@@ -19,6 +19,7 @@ index:
   - do-you-know-how-to-laser-in-on-the-smelliest-code
   - do-you-know-the-common-design-principles-part-1
   - do-you-know-the-common-design-principles-part-2-example
+  - unique-dtos-per-endpoint
   - common-design-patterns
   - dependency-injection
   - code-against-interfaces
@@ -59,7 +60,6 @@ index:
   - architectural-decision-records
   - use-prefixes-to-improve-code-review-communication
   - use-mass-transit
-  - software-architecture-decision-tree
   - multi-tenancy-models
 ---
 
