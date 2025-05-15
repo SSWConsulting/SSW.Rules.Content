@@ -7,6 +7,8 @@ uri: unique-dtos-per-endpoint
 authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - serialize-view-models-not-domain-entities
   - the-difference-between-data-transfer-objects-and-view-models
