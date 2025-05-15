@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn why creating unique DTOs for each API endpoint improves performance, reduces coupling, and leads to better maintainability in Clean Architecture.
 type: rule
 title: Do you use unique DTOs per use case?
 guid: 19a53ef8-5b5c-4e44-baef-1433d4a77e48
