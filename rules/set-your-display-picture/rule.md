@@ -19,11 +19,11 @@ While personal conversations are often better than chat, instant messaging is a 
 
 <!--endintro-->
 
-- Avoid using a built-in image
-- Have a photo that shows head and top of shoulders close up. Not too far away
-- Face must not be obstructed with other objects or excessive head cover (e.g. ski mask)
-- Not blurred, pixelated, washed out or over-exposed image. You should be recognizable in your high-quality picture
-- An actual photo of yourself. No cartoons, objects or family members
+* Avoid using a built-in image
+* Have a photo that shows head and top of shoulders close up. Not too far away
+* Face must not be obstructed with other objects or excessive head cover (e.g. ski mask)
+* Not blurred, pixelated, washed out or over-exposed image. You should be recognizable in your high-quality picture
+* An actual photo of yourself. No cartoons, objects or family members
 
 ::: bad
 ![Figure: Bad example - Using default display image](Bad-Skype-profile-image-default.jpg)
