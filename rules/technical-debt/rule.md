@@ -45,7 +45,7 @@ Systems need to have features added to them to continually remain useful (or com
 ::: greybox
 **IMPORTANT:** When you become aware of Technical Debt in a product, you **must** add it to the backlog. Whether you have discovered the Technical Debt or added it intentionally, either way the discussion and decision must be recorded in a PBI. This allows the team to factor paying it back into their Sprint planning.
 
-It's also help to add a TODO comment in the relevant code with a link to the PBI. This will help other developers understand that it is a known issue. 
+It's also help to add a TODO comment in the relevant code with a link to the PBI. This will help other developers understand that it is a known issue.
 See [Do you document "TODO" tasks?](/todo-tasks)
 :::
 

@@ -45,6 +45,7 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
+
 ::: bad
 Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere
 :::
@@ -72,6 +73,7 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
+
 ::: good
 Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly
 :::
