@@ -26,8 +26,9 @@ The results of the Brainstorming day can have a great impact on the company. It'
 
 If the presentations were recorded, the videos should be editied and attached to the questions in the form.
 
-Send out a Microsoft form with the following questions
+Send out a Microsoft form with the following questions:
 
+::: greybox
 1. Did you watch the Brainstorming presentation (in person or live stream)?
 2. ✅ What went well?
 3. ❌ What didn't go so well?
@@ -38,6 +39,7 @@ Send out a Microsoft form with the following questions
 6. {{ IDEA NAME }} - Which option/s should we do?
    * This should be a multiple-choice question with all the options pitched in the presentation
    * Depending on the options pitched, this question might need to allow multiple answers
+:::
 
 Repeat questions 5 and 6 for each idea.
 
