@@ -27,7 +27,7 @@ Microsoft Forms offers several ways to analyze your survey responses:
 Structured (quantitative) answers include multiple choice, range, or numerical responses. Microsoft Forms excels at automatically generating graphs for these types of answers.
 
 ::: good
-![Figure: Microsoft Forms is great at displaying structured results like this.](good-structured.png)
+![Figure: Microsoft Forms is great at displaying structured results like this](good-structured.png)
 :::
 
 
