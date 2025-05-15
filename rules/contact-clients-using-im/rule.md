@@ -24,7 +24,7 @@ Of course any important chats should be [confirmed via email](/as-per-our-conver
 ::: greybox
 Hey Simon,
 
-I find having my clients available on Microsoft Teams is extremely useful. 
+I find having my clients available on Microsoft Teams is extremely useful.
 
 Can I add you as a contact? I'll add the above email address, let me know if you use a different one.
 
