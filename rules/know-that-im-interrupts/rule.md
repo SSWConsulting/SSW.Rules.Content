@@ -29,7 +29,7 @@ IM is only to be used if they would like you to do something NOW.
 <!--endintro-->
 
 ::: info
-**Tip:** If someone pings you on IM (Teams / Skype) for non-urgent tasks, call the person out gently and let them know: "Since I don’t need to do this today, maybe an email would be better".
+**Tip:** If someone pings you on IM for non-urgent tasks, call the person out gently and let them know: "Since I don’t need to do this today, maybe an email would be better".
 :::
 
 ![Figure: Everybody wants to stay in the zone!](focused-developer.jpg)
