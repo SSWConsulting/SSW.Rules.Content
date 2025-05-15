@@ -36,17 +36,17 @@ Try to always answer the call with video (if weak bandwidth, use it for the firs
 
 ### Sound
 
-- Be ready with the headset already on (it looks disorganized setting it up after you are on the call)
-- Check the sound quality of the microphone - you need a good mic and it should be close to your mouth - if you are using the laptop mic, sit in close
+* Be ready with the headset already on (it looks disorganized setting it up after you are on the call)
+* Check the sound quality of the microphone - you need a good mic and it should be close to your mouth - if you are using the laptop mic, sit in close
 
 ### Video
 
-- Check the image quality of the camera
-- Beware of the angle of the camera - laptops with thin bezels now put the camera at the base, looking up your nose. Avoid them. Frame your head and shoulders in the shot, and keep the camera lens at or above **eye level** - [use a stand if necessary](https://www.dicksmith.com.au/da/buy/kogan-height-adjustable-laptop-monitor-stand-kogan)
+* Check the image quality of the camera
+* Beware of the angle of the camera - laptops with thin bezels now put the camera at the base, looking up your nose. Avoid them. Frame your head and shoulders in the shot, and keep the camera lens at or above **eye level** - [use a stand if necessary](https://www.dicksmith.com.au/da/buy/kogan-height-adjustable-laptop-monitor-stand-kogan)
 
   ![Figure: Height-adjustable monitor and laptop stand](screen-stands.png)
 
-- Get your [video background right](/video-background)
+* Get your [video background right](/video-background)
 
   ::: bad
   ![Figure: Bad example - Ugly background showing an air conditioner](Bad-Video-Background-orgn.png)
@@ -56,12 +56,12 @@ Try to always answer the call with video (if weak bandwidth, use it for the firs
   ![Figure: Good example - Nice background](Good-Video-Background-orgn.png)
   :::
 
-- Keep a light source on your face, and try to avoid sitting with a window behind you
-- Have a microfiber cloth and wipe off the lens from time to time
+* Keep a light source on your face, and try to avoid sitting with a window behind you
+* Have a microfiber cloth and wipe off the lens from time to time
 
 ### Text
 
-- It's always helpful to confirm things you're talking about with typed text during the call (especially helpful for people with English as a second language)
+* It's always helpful to confirm things you're talking about with typed text during the call (especially helpful for people with English as a second language)
 
 ---
 
