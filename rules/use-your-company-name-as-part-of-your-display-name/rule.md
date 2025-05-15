@@ -1,5 +1,5 @@
 ---
-seoDescription: Display your company name and location to brand your IM account and indicate work purposes, while also avoiding confusion with others who may have the same name. [Your Company Name] [Location].
+seoDescription: Display your company name and location to brand your IM account and indicate work purposes, while also avoiding confusion with others who may have the same name. 
 type: rule
 archivedreason:
 title: Display - Do you use add the company name and location as part of your display name?
