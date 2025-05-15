@@ -6,13 +6,14 @@ uri: brainstorming-day-retro
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
   - title: Piers Sinclair
     url: https://ssw.com.au/people/piers-sinclair
-  - title: Brady Stroud
-    url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+ - do-a-retrospective
 redirects: []
 created: 2023-10-22T02:15:11.000Z
 archivedreason: null
@@ -31,10 +32,10 @@ Send out a Microsoft form with the following questions
 2. ✅ What went well?
 3. ❌ What didn't go so well?
 4. 💡 Any ideas to improve it?
-5. {{IDEA NAME}} - How good was the outcome of the Brainstorming session?
+5. {{ IDEA NAME }} - How good was the outcome of the Brainstorming session?
    * Rating /10
    * In the question, Include a link to the GitHub Discussion and YouTube video of the presentation
-6. {{IDEA NAME}} - Which option/s should we do?
+6. {{ IDEA NAME }} - Which option/s should we do?
    * This should be a multiple-choice question with all the options pitched in the presentation
    * Depending on the options pitched, this question might need to allow multiple answers
 
