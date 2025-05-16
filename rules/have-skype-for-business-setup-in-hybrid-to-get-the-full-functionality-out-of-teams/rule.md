@@ -24,5 +24,5 @@ Microsoft Teams is going to replace Skype and Skype for Business in the near fut
 
 2. After setting up a Hybrid environment, you will need to migrate all your users from S4B to Teams. This involves 2 steps (if you have an on-premises S4B):
 
-  1. Moving from S4B on-premises to S4B online ([instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud));
-  2. Moving from S4B online to Teams ([see instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams))
+1. Moving from S4B on-premises to S4B online ([instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-between-on-premises-and-cloud));
+2. Moving from S4B online to Teams ([see instructions](https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/move-users-from-on-premises-to-teams))
