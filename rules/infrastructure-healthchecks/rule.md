@@ -48,7 +48,7 @@ Depending on your needs, you may want to bake in a healthcheck UI directly into 
 
 ![Figure: AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
 
-## Tips for Securing Your Healthcheck Endpoints
+## Tips for Securing Your Health check Endpoints
 
 Keep healthcheck endpoints internal by default to avoid exposing sensitive system data.
 
