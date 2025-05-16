@@ -20,9 +20,9 @@ Logging is a critical component in modern applications, but it can easily introd
 
 ## Key performance benefits of LoggerMessageAttribute
 
-- **Source Generation:** Automatically generates the implementation of partial methods with compile-time diagnostics.
-- **Improved Performance:** Reduces runtime overhead by leveraging compile-time optimizations.
-- **Flexible Usage:** Supports static and instance-based methods with configurable log levels and message templates.
+* **Source Generation:** Automatically generates the implementation of partial methods with compile-time diagnostics.
+* **Improved Performance:** Reduces runtime overhead by leveraging compile-time optimizations.
+* **Flexible Usage:** Supports static and instance-based methods with configurable log levels and message templates.
 
 ## How to use LoggerMessageAttribute
 
@@ -69,12 +69,12 @@ public static partial void PropertyValueInAustralia(ILogger logger, string city 
 
 When using `LoggerMessageAttribute`, ensure:
 
-- Logging methods must be `partial` and return `void`.
-- Logging method names must not start with an underscore.
-- Parameter names of logging methods must not start with an underscore.
-- Logging methods may not be defined in a nested type.
-- Logging methods cannot be generic.
-- If a logging method is `static`, the `ILogger` instance is required as a parameter.
+* Logging methods must be `partial` and return `void`.
+* Logging method names must not start with an underscore.
+* Parameter names of logging methods must not start with an underscore.
+* Logging methods may not be defined in a nested type.
+* Logging methods cannot be generic.
+* If a logging method is `static`, the `ILogger` instance is required as a parameter.
 
 ## More information
 
