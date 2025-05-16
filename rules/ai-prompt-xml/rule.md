@@ -58,7 +58,6 @@ Make sure your tone is technical and solution-oriented
 
 # Follow this structure:
 {{PREVIOUS_ARCH_REVIEW_MD}}
-
 ```
 
 ::: good
