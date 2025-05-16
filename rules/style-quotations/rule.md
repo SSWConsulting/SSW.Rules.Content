@@ -79,13 +79,14 @@ In email replies, quoting previous messages is essential for context. The standa
 ### Email reply example
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To:      | Bob                      |
 | Subject: | Northwind - April report |
 ::: email-content
 
-### Hi Bob,
+### Hi Bob
 
 &nbsp;&nbsp;&nbsp; > Can you send the report by Friday?
 
