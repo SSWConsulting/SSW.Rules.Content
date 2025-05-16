@@ -4,89 +4,88 @@ title: Rules to Better Software Consultants - Working in a Team
 guid: 99fb319c-14d5-482f-bf74-b851a56cebb0
 uri: rules-to-better-software-consultants-working-in-a-team
 index:
-- wise-men-improve-rules
-- professional-integrity
-- professional-integrity-tools
-- strong-suits
-- do-you-manage-up
-- follow-up-effectively
-- do-you-know-the-5-dysfunctions-of-a-team
-- teamwork-pillars
-- chase-the-product-owner-for-clarification
-- work-in-order-of-importance-aka-priorities
-- 4-quadrants-important-and-urgent
-- do-you-know-how-important-timesheets-are
-- calendar-does-your-calendar-always-accurately-show-where-you-are
-- are-you-candid-in-your-communication
-- inform-about-content-deletion
-- do-you-repeat-back-the-specifics-of-a-request
-- send-done-videos
-- how-to-take-feedback-or-criticism
-- understand-the-power-of-empathy
-- handle-passive-aggressive-comments
-- go-the-extra-mile
-- browser-remove-clutter
-- standards-watchdog
-- keep-developers-away-from-design-work
-- what-is-mentoring
-- mentoring-programs
-- do-you-ask-questions-where-youre-stuck
-- how-to-avoid-being-blocked
-- cc-account-manager-on-emails-related-to-new-work
-- do-you-enjoy-your-job
-- do-you-create-a-report-whenever-you-need-a-number-from-a-system
-- do-you-give-120-when-deadlines-are-tight
-- do-you-give-people-a-second-chance
-- do-you-offer-positive-feedback-to-your-team
-- do-you-offer-specific-criticism
-- do-you-only-do-what-you-think-is-right
-- dress-code
-- do-you-have-your-mobile-phone-on-vibrate
-- give-enough-notice-for-annual-leave
-- purchase-please
-- do-you-know-the-best-books-to-read-on-software-development
-- do-you-know-the-best-place-to-find-good-software-videos
-- do-you-know-the-nice-way-to-correct-someone
-- do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
-- do-you-know-the-recurring-tasks-you-have-to-do
-- label-broken-equipment
-- do-you-notify-others-about-what-is-happening-in-the-company
-- do-you-respond-to-blogs-and-forums-with-the-standard-footer
-- share-preferences-but-accept-less-interesting-tasks
-- do-you-use-source-control-and-backups
-- do-you-use-voice-recordings-when-appropriate
-- efficiency-do-you-use-two-monitors
-- hand-over-responsibilities
-- collaborate-across-timezones
-- work-in-pairs
-- quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
-- quality-do-you-implement-an-error-logger-that-has-notifications
-- request-a-test-please
-- quality-do-you-only-deploy-after-a-test-please
-- quality-do-you-make-your-templates-accessible-to-everyone-in-your-organisation
-- do-you-teach-share-ideas-regularly
-- speaking-do-you-avoid-swearing-at-work
-- speaking-do-you-use-correct-english-at-work
-- lockers-for-employees
-- do-you-use-the-5s-desk-space-organization-system-invented-by-the-japanese
-- do-you-avoid-listening-to-music-while-at-work
-- the-best-chat-tools-for-your-employees
-- how-to-fix-small-web-errors
-- do-you-hold-regular-company-meetings
-- do-you-timebox-approval-requests
-- do-you-use-timeboxing-to-avoid-wasted-time
-- go-beyond-just-using-chat
-- modern-alternatives-to-using-a-whiteboard
-- do-you-carry-your-usb-flash-drive-on-your-key-ring
-- speak-up
-- the-happiness-equation
-- build-inter-office-interaction
-- efficiency-do-you-always-try-to-work-in-pairs
-- gather-team-opinions
-- call-your-system-administrators-before-raising-a-ticket
-- do-you-use-suspend-on-your-notebook
-- microsoft-planner-for-tasks
-
+  - wise-men-improve-rules
+  - professional-integrity
+  - professional-integrity-tools
+  - strong-suits
+  - do-you-manage-up
+  - follow-up-effectively
+  - do-you-know-the-5-dysfunctions-of-a-team
+  - teamwork-pillars
+  - chase-the-product-owner-for-clarification
+  - work-in-order-of-importance-aka-priorities
+  - 4-quadrants-important-and-urgent
+  - do-you-know-how-important-timesheets-are
+  - calendar-does-your-calendar-always-accurately-show-where-you-are
+  - are-you-candid-in-your-communication
+  - inform-about-content-deletion
+  - do-you-repeat-back-the-specifics-of-a-request
+  - send-done-videos
+  - how-to-take-feedback-or-criticism
+  - understand-the-power-of-empathy
+  - handle-passive-aggressive-comments
+  - go-the-extra-mile
+  - browser-remove-clutter
+  - standards-watchdog
+  - keep-developers-away-from-design-work
+  - what-is-mentoring
+  - mentoring-programs
+  - do-you-ask-questions-where-youre-stuck
+  - how-to-avoid-being-blocked
+  - cc-account-manager-on-emails-related-to-new-work
+  - do-you-enjoy-your-job
+  - do-you-create-a-report-whenever-you-need-a-number-from-a-system
+  - do-you-give-120-when-deadlines-are-tight
+  - do-you-give-people-a-second-chance
+  - do-you-offer-positive-feedback-to-your-team
+  - do-you-offer-specific-criticism
+  - do-you-only-do-what-you-think-is-right
+  - dress-code
+  - do-you-have-your-mobile-phone-on-vibrate
+  - give-enough-notice-for-annual-leave
+  - purchase-please
+  - do-you-know-the-best-books-to-read-on-software-development
+  - do-you-know-the-best-place-to-find-good-software-videos
+  - do-you-know-the-nice-way-to-correct-someone
+  - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+  - do-you-know-the-recurring-tasks-you-have-to-do
+  - label-broken-equipment
+  - do-you-notify-others-about-what-is-happening-in-the-company
+  - do-you-respond-to-blogs-and-forums-with-the-standard-footer
+  - share-preferences-but-accept-less-interesting-tasks
+  - do-you-use-source-control-and-backups
+  - do-you-use-voice-recordings-when-appropriate
+  - efficiency-do-you-use-two-monitors
+  - hand-over-responsibilities
+  - collaborate-across-timezones
+  - work-in-pairs
+  - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
+  - quality-do-you-implement-an-error-logger-that-has-notifications
+  - request-a-test-please
+  - quality-do-you-only-deploy-after-a-test-please
+  - quality-do-you-make-your-templates-accessible-to-everyone-in-your-organisation
+  - do-you-teach-share-ideas-regularly
+  - speaking-do-you-avoid-swearing-at-work
+  - speaking-do-you-use-correct-english-at-work
+  - lockers-for-employees
+  - do-you-use-the-5s-desk-space-organization-system-invented-by-the-japanese
+  - do-you-avoid-listening-to-music-while-at-work
+  - the-best-chat-tools-for-your-employees
+  - fix-small-web-errors
+  - do-you-hold-regular-company-meetings
+  - do-you-timebox-approval-requests
+  - do-you-use-timeboxing-to-avoid-wasted-time
+  - go-beyond-just-using-chat
+  - modern-alternatives-to-using-a-whiteboard
+  - do-you-carry-your-usb-flash-drive-on-your-key-ring
+  - speak-up
+  - the-happiness-equation
+  - build-inter-office-interaction
+  - build-inter-office-interaction
+  - gather-team-opinions
+  - call-your-system-administrators-before-raising-a-ticket
+  - do-you-use-suspend-on-your-notebook
+  - microsoft-planner-for-tasks
 ---
 
 Enhance software consulting practices by exploring essential principles that focus on teamwork, communication, and professionalism. Discover key rules designed to foster collaboration and integrity among consultants.

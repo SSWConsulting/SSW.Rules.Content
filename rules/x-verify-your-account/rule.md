@@ -32,19 +32,19 @@ We recommend accounts maintained by users in **music, acting, fashion, governmen
 
 To have a verified accound, your account must have the following:
 
-* A verified phone number
-* A confirmed email address
-* A bio
-* A profile photo
-* A header photo
-* A birthday (for accounts that are not a company, brand, or organization accounts)
-* A website
-* Tweets set as public in Tweet privacy settings
-* Profile and account recommendations
+- A verified phone number
+- A confirmed email address
+- A bio
+- A profile photo
+- A header photo
+- A birthday (for accounts that are not a company, brand, or organization accounts)
+- A website
+- Tweets set as public in Tweet privacy settings
+- Profile and account recommendations
 
 Some common characteristics of verified accounts include:
 
-* If the account belongs to a person, the name reflects the real or stage name of the person.
-* If the account is a corporation or company account, the name reflects the real name of the corporation or company.
-* The profile and/or header photo reflects the person, the corporation’s branding, or the company’s branding.
-* If the account is a corporate or company account, the email address associated with the account is a corporate or company email address.
+- If the account belongs to a person, the name reflects the real or stage name of the person.
+- If the account is a corporation or company account, the name reflects the real name of the corporation or company.
+- The profile and/or header photo reflects the person, the corporation’s branding, or the company’s branding.
+- If the account is a corporate or company account, the email address associated with the account is a corporate or company email address.

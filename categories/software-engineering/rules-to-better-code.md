@@ -40,7 +40,7 @@ index:
   - import-namespaces-and-shorten-the-references
   - initialize-variables-outside-of-the-try-block
   - enum-types-should-not-be-suffixed-with-the-word-enum
-  - know-the-right-way-to-define-a-connection-string
+  - do-you-know-how-to-use-connection-strings
   - what-to-do-with-a-work-around
   - when-to-use-named-parameters
   - where-to-store-your-applications-files
