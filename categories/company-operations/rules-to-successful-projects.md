@@ -4,88 +4,88 @@ title: Rules to Successful Projects
 guid: 1ee334eb-2539-4df2-bdae-51c3b6ed3d43
 uri: rules-to-successful-projects
 index:
-  - the-value-of-consistency
-  - wise-men-improve-rules
-  - autonomy-mastery-and-purpose
-  - do-you-manage-clients-expectations
-  - deadlines-and-sprints
-  - definition-of-a-bug
-  - do-you-provide-ongoing-support
-  - management-do-you-use-just-in-time-speccing
-  - storyboards
-  - do-you-conduct-market-research-via-the-web
-  - do-you-know-the-best-crm-solutions-for-your-company
-  - searching-do-you-know-how-to-be-a-great-googler
-  - searching-can-you-instantly-find-any-file-on-your-computer-or-network
-  - management-do-you-always-inform-your-client-how-long-a-task-took
-  - 8-steps-to-scrum
-  - methodology-daily-scrums
-  - do-you-allow-users-to-check-for-a-new-version-easily
-  - do-you-keep-the-best-possible-bug-database
-  - do-you-log-every-error
-  - definition-of-done
-  - acceptance-criteria
-  - ui-ux-test-please
-  - fix-bugs-first
-  - write-end-to-end-tests-for-critical-happy-paths
-  - track-project-documents
-  - where-to-keep-your-files
-  - zz-files
-  - do-you-know-the-best-way-of-managing-recurring-tasks
-  - do-you-constantly-add-to-the-backlog
-  - fix-small-web-errors
-  - knowledge-base-kb
-  - do-you-know-the-best-way-to-give-the-best-customer-support
-  - do-you-stop-dealing-with-data-and-schema
-  - do-you-have-separate-development-testing-and-production-environments
-  - standards-watchdog
-  - when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
-  - do-you-thoroughly-test-employment-candidates
-  - do-you-have-a-healthy-team
-  - bus-test
-  - do-you-deal-with-distractions
-  - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
-  - cms-solutions
-  - do-you-manage-your-papers
-  - do-you-avoid-reviewing-performance-without-metrics
-  - do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
-  - do-you-know-you-should-always-use-a-source-control-system
-  - do-you-know-what-to-look-out-for-when-signing-legal-documents
-  - ask-clients-approval
-  - work-in-pairs
-  - do-you-perform-migration-procedures-with-an-approved-plan
-  - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
-  - reward-your-developers
-  - hand-over-projects
-  - hand-over-responsibilities
-  - do-you-have-a-deployment-plan
-  - risks-of-deploying-on-fridays
-  - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
-  - do-you-draft-all-important-agreements-yourself
-  - do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
-  - conduct-a-test-please
-  - do-you-have-an-engagement-lifecycle
-  - request-a-test-please
-  - do-you-know-the-tools-you-need-before-a-test-please
-  - maintain-a-strict-project-schedule
-  - management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
-  - management-do-you-know-who-has-authority
-  - have-an-induction-program
-  - identify-crm-web-servers-by-colors
-  - record-a-quick-and-dirty-done-video
-  - the-best-way-to-learn
-  - use-the-brains-of-your-company
-  - do-you-give-each-project-a-project-page-that-you-refer-customers-to
-  - do-you-always-carry-your-tool-box
-  - do-you-carry-more-than-just-the-microsoft-tool-box
-  - do-you-do-monthly-peer-evaluations
-  - do-you-manage-your-email
-  - how-to-handle-duplicate-requests
-  - open-source-software
-  - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
-  - hard-tasks-first
-  - poc-vs-mvp
-  - support-send-links
+- the-value-of-consistency
+- wise-men-improve-rules
+- autonomy-mastery-and-purpose
+- do-you-manage-clients-expectations
+- deadlines-and-sprints
+- definition-of-a-bug
+- do-you-provide-ongoing-support
+- management-do-you-use-just-in-time-speccing
+- storyboards
+- do-you-conduct-market-research-via-the-web
+- do-you-know-the-best-crm-solutions-for-your-company
+- searching-do-you-know-how-to-be-a-great-googler
+- searching-can-you-instantly-find-any-file-on-your-computer-or-network
+- management-do-you-always-inform-your-client-how-long-a-task-took
+- 8-steps-to-scrum
+- methodology-daily-scrums
+- do-you-allow-users-to-check-for-a-new-version-easily
+- do-you-keep-the-best-possible-bug-database
+- do-you-log-every-error
+- definition-of-done
+- acceptance-criteria
+- ui-ux-test-please
+- fix-bugs-first
+- write-end-to-end-tests-for-critical-happy-paths
+- track-project-documents
+- where-to-keep-your-files
+- zz-files
+- do-you-know-the-best-way-of-managing-recurring-tasks
+- do-you-constantly-add-to-the-backlog
+- fix-small-web-errors
+- knowledge-base-kb
+- do-you-know-the-best-way-to-give-the-best-customer-support
+- do-you-stop-dealing-with-data-and-schema
+- do-you-have-separate-development-testing-and-production-environments
+- standards-watchdog
+- when-you-follow-a-rule-do-you-know-to-refer-to-it-including-the-icon
+- do-you-thoroughly-test-employment-candidates
+- do-you-have-a-healthy-team
+- bus-test
+- do-you-deal-with-distractions
+- do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
+- cms-solutions
+- do-you-manage-your-papers
+- do-you-avoid-reviewing-performance-without-metrics
+- do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
+- do-you-know-you-should-always-use-a-source-control-system
+- do-you-know-what-to-look-out-for-when-signing-legal-documents
+- ask-clients-approval
+- work-in-pairs
+- do-you-perform-migration-procedures-with-an-approved-plan
+- do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
+- reward-your-developers
+- hand-over-projects
+- hand-over-responsibilities
+- do-you-have-a-deployment-plan
+- risks-of-deploying-on-fridays
+- do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
+- do-you-draft-all-important-agreements-yourself
+- do-you-know-the-best-way-to-find-a-phone-number-of-a-staff-member
+- conduct-a-test-please
+- do-you-have-an-engagement-lifecycle
+- request-a-test-please
+- do-you-know-the-tools-you-need-before-a-test-please
+- maintain-a-strict-project-schedule
+- management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
+- management-do-you-know-who-has-authority
+- have-an-induction-program
+- identify-crm-web-servers-by-colors
+- record-a-quick-and-dirty-done-video
+- the-best-way-to-learn
+- use-the-brains-of-your-company
+- do-you-give-each-project-a-project-page-that-you-refer-customers-to
+- do-you-always-carry-your-tool-box
+- do-you-carry-more-than-just-the-microsoft-tool-box
+- do-you-do-monthly-peer-evaluations
+- do-you-manage-your-email
+- how-to-handle-duplicate-requests
+- open-source-software
+- do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
+- hard-tasks-first
+- poc-vs-mvp
+- support-send-links
 ---
 
 ### What is a successful project?

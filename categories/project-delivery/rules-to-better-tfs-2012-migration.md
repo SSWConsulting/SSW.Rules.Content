@@ -4,12 +4,12 @@ title: Rules to Better TFS 2012 Migration
 guid: bd79fd7b-5edf-43f7-bd38-07e2315b899a
 uri: rules-to-better-tfs-2012-migration
 index:
-  - do-you-get-a-new-tfs-2012-server-ready
-  - do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one
-  - backup-your-databases-tfs2012-migration
-  - plan-your-additional-steps-tfs2012-migration
-  - turn-off-database-mirroring-before-upgrading-your-tfs-databases
-  - does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server
+- do-you-get-a-new-tfs-2012-server-ready
+- do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one
+- backup-your-databases-tfs2012-migration
+- plan-your-additional-steps-tfs2012-migration
+- turn-off-database-mirroring-before-upgrading-your-tfs-databases
+- does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server
 ---
 
 **Update: TFS 2012 has been replaced by TFS 2015 - if you're moving to TFS 2015, see our [Rules to Better TFS 2015 Migration](/rules-to-better-tfs-2015-migration).**
