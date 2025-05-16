@@ -16,6 +16,7 @@ index:
 - do-you-offer-specific-criticism
 - do-you-follow-the-sandwich-rule
 - positive-tone
+- avoid-but
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
