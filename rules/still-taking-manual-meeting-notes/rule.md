@@ -50,7 +50,7 @@ AI transcription tools like **[Read AI](https://www.read.ai/)**, **Otter.ai**, a
 
 ## 5-minute setup to modernize your meetings
 
-1. Create an [Otter.ai (or similar) account.](https://otter.ai/start-for-free)
+1. Create an [Otter.ai (or similar) account](https://otter.ai/start-for-free)
 2. Connect your calendar and meeting platform
 3. Invite your AI notetaker to the call
 4. After the call, check your inbox for a full summary
