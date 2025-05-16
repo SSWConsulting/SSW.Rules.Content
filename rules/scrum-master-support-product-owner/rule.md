@@ -32,6 +32,7 @@ A Product Owner needs to identify key stakeholders and maintain ongoing communic
 #### 3. **Backlog Management**
 
 The Product Backlog is the backbone of any Scrum project. The Scrum Master should guide the PO in:
+
 * Defining and prioritising backlog items effectively
 * Ensuring that user stories are clear, actionable, and aligned with the product vision
 * Keeping the backlog organised and up-to-date
@@ -39,6 +40,7 @@ The Product Backlog is the backbone of any Scrum project. The Scrum Master shoul
 #### 4. **Sprint-by-Sprint Collaboration**
 
 During the sprint, the Scrum Master helps the PO with the following essential activities:
+
 * **Backlog Refinement**: Ensuring that the backlog is properly groomed and stories are ready for future sprints.
 * **Sprint Planning**: Collaborating with the PO to prioritise the most valuable work for the upcoming sprint.
 * **Daily Stand-Ups**: Supporting the PO in understanding the team’s progress and removing impediments.
