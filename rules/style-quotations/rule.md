@@ -1,8 +1,7 @@
 ---
 type: rule
 title: Do you format quotations to stand out from the main text?
-seoDescription: Add quotation marks to make them easily identifiable and improve
-  readability by starting a new line with indentation.
+seoDescription: Add quotation marks to make them easily identifiable and improve readability by starting a new line with indentation.
 uri: style-quotations
 authors:
   - title: Tiago Araujo
@@ -21,7 +20,9 @@ redirects:
 created: 2016-04-21T04:15:15.000Z
 archivedreason: null
 guid: 0212ab54-f936-4d72-a690-c9276ded3cc6
+
 ---
+
 Quotations should not blend into the rest of your message. Whether you're responding to an emailm, IM message, or writing content for the web, formatting quotations clearly helps readers understand what’s being quoted and what's your original content.
 
 <!--endintro-->
@@ -29,28 +30,28 @@ Quotations should not blend into the rest of your message. Whether you're respon
 Generally, the best practice is to **start a quote on a new line and indent it**, then use either quotes or the greater-than sign to make the text visually distinct and easy to follow.
 
 ::: greybox
-Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly"\
+Software development can be painful and costly. Hang on, that should say "Software development **is** painful and costly"
 :::
 ::: bad
-Figure: Bad example - The quotation is mixed up with main text\
+Figure: Bad example - The quotation is mixed up with main text
 :::
 
 ::: greybox
 Software development can be painful and costly. Hang on, that should say:
 
-&nbsp;&nbsp;&nbsp;"Software development **is** painful and costly"\
+&nbsp;&nbsp;&nbsp;"Software development **is** painful and costly"
 :::
 ::: good
-Figure: Good example - The quotation has quote marks, on a new line and indented\
+Figure: OK example - The quotation has quote marks, on a new line and indented
 :::
 
 ::: greybox
 Software development can be painful and costly. Hang on, that should say:
 
-&nbsp;&nbsp;&nbsp;> Software development **is** painful and costly\
+&nbsp;&nbsp;&nbsp;> Software development **is** painful and costly
 :::
 ::: good
-Figure: Good example - The quotation has greater-than sign, on a new line and indented\
+Figure: Good example - The quotation has greater-than sign, on a new line and indented
 :::
 
 ## 💬 For IMs
@@ -75,30 +76,31 @@ The best way is to **use the platform’s native reply feature**. This keeps con
 
 In email replies, quoting previous messages is essential for context. The standard convention is to prefix quoted lines with a greater-than symbol `>` and indent the text, which makes the quoted text clearly identifiable — even in plain-text emails.
 
-**Email reply example:**
+### Email reply example
 
 ::: email-template  
 
-|          |                          |
-| -------- | ------------------------ |
+| | |
+| -------- | --- |
 | To:      | Bob                      |
 | Subject: | Northwind - April report |
-
 ::: email-content
 
 ### Hi Bob
 
 &nbsp;&nbsp;&nbsp; > Can you send the report by Friday?
+
 Sure! I’ll send it over by end of day.
 
-:::\
+:::
 :::  
-
-This simple formatting makes conversations easier to follow, especially in long email threads.
+::: good
+Figure: Good example - This simple formatting makes conversations easier to follow, especially in long email threads
+:::
 
 ## 🖥️ For Web UI
 
-In web design, it’s important to make quotations stand out from surrounding text. You should:
+In web design, it's important to make quotations stand out from surrounding text. You should:
 
 * Place the quote on a new line
 * Use quotation marks for clarity
@@ -106,15 +108,15 @@ In web design, it’s important to make quotations stand out from surrounding te
 
 Use the semantic `<blockquote>` HTML tag to indicate a quotation, and apply CSS to enhance visibility.
 
-**HTML example:**
+### HTML example
 
 ```html
 <blockquote>
-  “Design is not just what it looks like and feels like. Design is how it works.” – Steve Jobs
+  "Design is not just what it looks like and feels like. Design is how it works."
 </blockquote>
 ```
 
-**CSS example:**
+### CSS example
 
 ```css
 blockquote {
@@ -124,7 +126,7 @@ blockquote {
 }
 ```
 
-**Markdown example:**
+### Markdown example
 
 If you're using Markdown, simply prefix the quoted text with a `>` symbol, and it will automatically render as a blockquote:
 
@@ -132,6 +134,8 @@ If you're using Markdown, simply prefix the quoted text with a `>` symbol, and i
 > "Design is not just what it looks like and feels like. Design is how it works."
 ```
 
-This is how it renders:
+---
+
+This is how it renders in the browser:
 
 > "Design is not just what it looks like and feels like. Design is how it works."
