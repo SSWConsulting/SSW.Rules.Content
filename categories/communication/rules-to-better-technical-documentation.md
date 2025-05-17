@@ -8,6 +8,7 @@ index:
   - safety-step-when-deleting-content
   - do-you-avoid-duplicating-content
   - avoid-using-unnecessary-words
+  - avoid-but
   - use-bad-and-good-examples
   - avoid-repetition
   - screenshots-tools
