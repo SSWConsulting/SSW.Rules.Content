@@ -14,7 +14,7 @@ index:
 - do-you-treat-freebies-as-real-customers
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - show-long-service-leave-on-your-payslip
-- salary-sacrifice-electronic-devices
+- salary-sacrificing
 - salary-sacrifice-novated-lease
 - maximize-superannuation-benefits
 - salary-terminology

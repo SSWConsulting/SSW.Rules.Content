@@ -20,13 +20,12 @@ index:
 - cc-and-reply-to-all
 - how-to-handle-duplicate-requests
 - do-you-know-how-to-reduce-noise-on-a-thread-by-using-a-survey
-- follow-up-emails-effectively
+- follow-up-effectively
 - checked-by-xxx
 - link-emails-to-the-rule-or-template-they-follow
 - do-you-know-who-to-put-in-the-to-field
 - better-late-than-never
 - give-emails-a-business-value
-- do-you-include-the-name-of-the-person-you-address-on-the-first-line
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
@@ -81,11 +80,10 @@ index:
 - avoid-sarcasm-misunderstanding
 - autocorrect-in-outlook
 - dictate-emails
-- screenshots-do-you-use-balloons-instead-of-a-wall-of-text
-- add-branding-to-screenshots
+- screenshots-add-branding
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
-- how-to-fix-small-web-errors
+- fix-small-web-errors
 - use-the-best-email-templates
 - add-a-bot-signature-on-automated-emails
 - do-you-use-email-signatures
@@ -99,7 +97,6 @@ index:
 - highlight-template-differences
 - format-new-lines
 - move-emails-into-folders
-
 ---
 
 Often emails are rambling and unorganized, forcing the reader to wade through blocks of text with low business value. When it comes to written communication, less is more.

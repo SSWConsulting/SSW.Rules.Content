@@ -9,7 +9,7 @@ index:
 - autonomy-mastery-and-purpose
 - do-you-manage-clients-expectations
 - deadlines-and-sprints
-- management-is-your-client-clear-on-the-definition-of-a-bug
+- definition-of-a-bug
 - do-you-provide-ongoing-support
 - management-do-you-use-just-in-time-speccing
 - storyboards
@@ -45,7 +45,7 @@ index:
 - bus-test
 - do-you-deal-with-distractions
 - do-you-use-an-internet-intranet-for-sharing-common-information-such-as-company-standards
-- do-you-know-the-best-cms-solutions-for-your-internet-intranet
+- cms-solutions
 - do-you-manage-your-papers
 - do-you-avoid-reviewing-performance-without-metrics
 - do-you-ring-a-bell-or-similar-when-you-secure-a-big-deal-make-a-sale-or-get-some-great-feedback
@@ -53,9 +53,9 @@ index:
 - do-you-know-what-to-look-out-for-when-signing-legal-documents
 - ask-clients-approval
 - work-in-pairs
-- do-you-perform-migration-procedures-with-an-approved-release-plan
+- do-you-perform-migration-procedures-with-an-approved-plan
 - do-you-know-you-should-always-refer-to-rules-instead-of-explaining-it
-- do-you-reward-your-developers-for-completing-a-release-on-time-and-budget
+- reward-your-developers
 - hand-over-projects
 - hand-over-responsibilities
 - do-you-have-a-deployment-plan
@@ -67,7 +67,7 @@ index:
 - do-you-have-an-engagement-lifecycle
 - request-a-test-please
 - do-you-know-the-tools-you-need-before-a-test-please
-- does-your-scrum-master-aka-project-manager-maintain-a-strict-project-schedule
+- maintain-a-strict-project-schedule
 - management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 - management-do-you-know-who-has-authority
 - have-an-induction-program
@@ -86,15 +86,15 @@ index:
 - hard-tasks-first
 - poc-vs-mvp
 - support-send-links
-
 ---
+
 ### What is a successful project?
 
 A successful project for a developer might mean something different compared to a project-manager and again quite different for the client.
 
-Since our focus is on the client, a successful project for SSW means  **every** **client receives what they are expecting, on time, and for the estimated amount of money**.
+Since our focus is on the client, a successful project for SSW means **every** **client receives what they are expecting, on time, and for the estimated amount of money**.
 
-Project managers define this as  **On Time, On Scope, and On Budget**.
+Project managers define this as **On Time, On Scope, and On Budget**.
 
 > "A successful project is where everyone involved is happy with the final outcome."
 

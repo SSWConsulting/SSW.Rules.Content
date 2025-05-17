@@ -24,7 +24,7 @@ index:
   - do-you-use-pagespeed
   - social-media-international-campaigns
   - do-you-know-how-to-use-social-media-effectively-in-china
-  - do-you-post-multilingual-posts-on-social-media
+  - multilingual-posts-on-social-media
   - china-icp-filing
   - china-icp-license
   - china-coss-border-data-transfer

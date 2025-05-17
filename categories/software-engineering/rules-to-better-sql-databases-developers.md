@@ -31,7 +31,7 @@ index:
 - do-you-always-have-version-tracking-tables
 - use-computed-columns-rather-than-denormalized-fields
 - use-triggers-for-denormalized-fields
-- validate-each-denormalized-field-with-procvalidate
+- validate-each-denormalized-field
 - avoid-using-user-schema-separation
 - create-a-consistent-primary-key-column-on-your-tables
 - use-separate-lookup-tables-rather-than-one-large-lookup-table
@@ -72,7 +72,6 @@ index:
 - do-not-use-table-names-longer-than-24-characters
 - submit-all-dates-to-sql-server-in-iso-format
 - query-data-tools
-
 ---
 
 Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of:

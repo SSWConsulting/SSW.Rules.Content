@@ -27,7 +27,6 @@ index:
 - do-you-know-when-to-use-caml-instead-of-object-model
 - do-you-know-when-to-use-smartpart-or-webpart
 - does-your-sharepoint-site-have-a-favicon
-- do-you-know-where-to-add-design-files-for-deployment
 - do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
 - do-you-know-you-cant-think-of-data-the-same-way
 - do-you-let-your-designers-loose-on-sharepoint
@@ -49,7 +48,7 @@ index:
 - do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features
 - do-you-know-when-to-use-bcs
 - do-you-avoid-using-bcs-when-you-need-workflow
-- sharepoint-format-dates-to-include-the-weekday 
+- sharepoint-format-dates-to-include-the-weekday
 - do-you-know-what-collaboration-means
 - sharepoint-rules-categories-do-you-know-how-to-make-the-title-consistent
 - do-you-know-that-you-cant-use-2010-managed-metadata-with-office-2007-out-of-the-box
@@ -75,7 +74,6 @@ index:
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
 - consistent-sharepoint-sites
 - best-sharepoint-navigation
-
 ---
 
 Want to get your organization using SharePoint to collaborate? Check [SSW's SharePoint consulting page](https://ssw.com.au/consulting/sharepoint).

@@ -56,14 +56,14 @@ Using **`Nrg`** (variable short for "energy") is easy to write, but confusing to
 :::
 :::bad
 Bad example - Being clever for you can cause confusion to others. They might misinterpret "energy" as something else, like power or ammo. Then if you add enemies, would you name their energy variable `nmeNrg`?
-:::  
+:::
 
 :::greybox
 Using **`PlayerHealth`** clearly describes the specific kind of "energy" (health) and who it belongs to (the player)
 :::
 :::good
 Good example - Instantly understandable to anyone reading the code
-:::  
+:::
 
 Now let’s say you’re working on an invitation and activation feature. You need a variable to store the validity period for an invitation - the live time...
 
@@ -72,14 +72,14 @@ Using **`itrDays`** (shorthand for "invitation-time-remaining in days")
 :::
 :::bad
 Bad example - Others will have fun deciphering this one
-:::  
+:::
 
 :::greybox
 Using **`InvitationTimeRemainingInDays`** requires no explanation!
 :::
 :::good
 Good example - Leaves no room for misinterpretation and makes the purpose obvious
-:::  
+:::
 
 What if you need to create some classes for validation...
 
@@ -88,7 +88,7 @@ Using **`UserValidator`** as a class responsible for validating a user
 :::
 :::bad
 Bad example - Validating what exactly? Login credentials? Profile information? Something else?
-:::  
+:::
 
 :::greybox
 Using **`UserValidationHandler`** indicates it’s an engine responsible for executing multiple rules to handle user-related validation.
@@ -99,4 +99,4 @@ Using **`UserEmailFormatValidator`** to ensure email contains "@" and a domain.
 :::
 :::good
 Good example - The definition of the classes is in their names
-:::  
+:::

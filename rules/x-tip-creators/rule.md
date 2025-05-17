@@ -10,6 +10,7 @@ authors:
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - make-money-from-your-content
+redirects:
   - twitter-tip-content-creators
 created: 2022-04-20T06:54:23.702Z
 guid: 79665692-2765-4c5c-9efd-19b8098f0c84

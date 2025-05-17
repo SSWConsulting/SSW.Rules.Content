@@ -42,7 +42,7 @@ index:
   - tfs-master-do-you-have-a-report-to-see-who-has-not-checked-in
   - check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one
   - source-control-tools
-  - do-you-handle-multi-os-dev-teams-in-source-control
+  - handle-multi-os-dev-teams-in-source-control
 ---
 
 If you still need help, visit [Application Lifecycle Management](https://www.ssw.com.au/ssw/Consulting/ALM.aspx) and book in a consultant.

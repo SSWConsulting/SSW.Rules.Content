@@ -26,19 +26,19 @@ One of the most common issues faced by teams working with Git across different p
 
 Git provides a way to manage line endings across different operating systems by using the `core.autocrlf` setting. This configuration ensures that line endings are normalized when files are checked in and out of the repository.
 
-- **Windows users**: Set Git to automatically convert line endings to **CRLF** when checking out files, and convert them back to **LF** when committing.
+* **Windows users**: Set Git to automatically convert line endings to **CRLF** when checking out files, and convert them back to **LF** when committing.
 
   ```bash
   git config --global core.autocrlf true
   ```
 
-- **macOS/Linux users**: Set Git to automatically convert **CRLF** line endings to **LF** when checking out files and leave them as **LF** when committing.
+* **macOS/Linux users**: Set Git to automatically convert **CRLF** line endings to **LF** when checking out files and leave them as **LF** when committing.
 
   ```bash
   git config --global core.autocrlf input
   ```
 
-- **Repository-Wide configuration**: It's a good practice to enforce this configuration across the team via a `.gitattributes` file, which allows you to define how specific file types should be handled. For example:
+* **Repository-Wide configuration**: It's a good practice to enforce this configuration across the team via a `.gitattributes` file, which allows you to define how specific file types should be handled. For example:
 
   ```text
   * text=auto
@@ -56,9 +56,9 @@ Onboarding new developers is a critical step in ensuring that everyone is up and
 
 To streamline onboarding and ensure compatibility across different platforms, it’s crucial to write setup scripts that work on all major operating systems. PowerShell is an ideal choice because it is natively available on Windows and can also be installed on macOS and Linux, making it a truly cross-platform solution. Here's how you can approach writing cross-platform setup scripts with PowerShell:
 
-- **PowerShell for Windows, macOS, and Linux**: Instead of using separate scripts for each platform, write a PowerShell script (`setup.ps1`) that works on all platforms. PowerShell Core (now simply known as PowerShell) is cross-platform and can be run on Windows, macOS, and Linux, allowing you to write one script for all environments. You can use package managers like `Chocolatey` on Windows, `Homebrew` on macOS, or `apt`/`yum` on Linux within the same PowerShell script.
+* **PowerShell for Windows, macOS, and Linux**: Instead of using separate scripts for each platform, write a PowerShell script (`setup.ps1`) that works on all platforms. PowerShell Core (now simply known as PowerShell) is cross-platform and can be run on Windows, macOS, and Linux, allowing you to write one script for all environments. You can use package managers like `Chocolatey` on Windows, `Homebrew` on macOS, or `apt`/`yum` on Linux within the same PowerShell script.
 
-- **Handling OS-Specific Logic in PowerShell**: PowerShell makes it easy to detect the operating system and execute different setup commands depending on the platform. For example, you can check whether the script is running on Windows, macOS, or Linux and then call the appropriate package manager or command for each environment.
+* **Handling OS-Specific Logic in PowerShell**: PowerShell makes it easy to detect the operating system and execute different setup commands depending on the platform. For example, you can check whether the script is running on Windows, macOS, or Linux and then call the appropriate package manager or command for each environment.
 
 Here’s an example of a cross-platform setup script in PowerShell:
 
@@ -95,9 +95,9 @@ This script does the following:
 
 1. It checks the environment variable `$env:OS` to detect the operating system.
 2. Depending on the platform, it uses the appropriate package manager:
-   - **Windows**: Uses `choco` (Chocolatey) to install software.
-   - **macOS**: Uses `brew` (Homebrew) for package installation.
-   - **Linux**: Uses `apt-get` or similar package managers.
+   * **Windows**: Uses `choco` (Chocolatey) to install software.
+   * **macOS**: Uses `brew` (Homebrew) for package installation.
+   * **Linux**: Uses `apt-get` or similar package managers.
 
 By using PowerShell, you can create a single script that works across all major platforms, reducing the need for platform-specific scripts and simplifying the setup process for your users.
 
@@ -105,16 +105,16 @@ By using PowerShell, you can create a single script that works across all major 
 
 To further ensure smooth collaboration among multi-OS teams, it’s important to standardize Git configurations. Beyond line endings, Git offers other configurations that help maintain consistency.
 
-### Key Git configurations for Multi-OS Teams:
+### Key Git configurations for Multi-OS Teams
 
-- **User Name and Email**: Ensure each developer has set up their user name and email, as this is crucial for committing with correct author information:
+* **User Name and Email**: Ensure each developer has set up their user name and email, as this is crucial for committing with correct author information:
 
   ```bash
   git config --global user.name "Your Name"
   git config --global user.email "youremail@example.com"
   ```
 
-- **Global `.gitignore`**: A global `.gitignore` file can help ensure that certain system files (e.g., `Thumbs.db` on Windows or `.DS_Store` on macOS) are ignored across all repositories. You can create and set a global `.gitignore` file using the following command:
+* **Global `.gitignore`**: A global `.gitignore` file can help ensure that certain system files (e.g., `Thumbs.db` on Windows or `.DS_Store` on macOS) are ignored across all repositories. You can create and set a global `.gitignore` file using the following command:
 
   ```bash
   git config --global core.excludesfile ~/.gitignore_global
@@ -127,4 +127,4 @@ To further ensure smooth collaboration among multi-OS teams, it’s important to
   Thumbs.db
   ```
 
-- **Hooks and Templates**: Some repositories might require hooks or commit templates to enforce conventions like conventional commit messages or certain commit checks. Using a `.githooks` or `.gitmessage` file in the repository can help maintain consistency across platforms.
+* **Hooks and Templates**: Some repositories might require hooks or commit templates to enforce conventions like conventional commit messages or certain commit checks. Using a `.githooks` or `.gitmessage` file in the repository can help maintain consistency across platforms.

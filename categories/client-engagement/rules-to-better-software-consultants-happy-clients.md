@@ -11,8 +11,7 @@ index:
 - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
 - send-a-thank-you-email-to-your-client
 - poc-vs-mvp
-- manage-urges
-
+- separate-urge-from-behavior
 ---
 
 Aiming for 'happy clients' can be an elusive game. Ultimately what makes one client happy is different from what makes another happy.

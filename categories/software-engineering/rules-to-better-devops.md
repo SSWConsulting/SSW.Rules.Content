@@ -17,7 +17,7 @@ index:
 - do-you-know-the-best-free-resources-for-learning-devops
 - why-you-want-to-use-application-insights
 - clean-failed-requests
-- do-you-know-how-to-analyse-your-web-application-usage-with-application-insights
+- analyse-your-web-application-usage-with-application-insights
 - do-you-know-how-to-find-performance-problems-with-application-insights
 - do-you-know-the-process-to-improve-the-health-of-your-web-application
 - devops-board-styles
@@ -39,7 +39,6 @@ index:
 - enterprise-secrets-in-pipelines
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
 - follow-semver-when-publishing-npm-packages
-
 ---
 
 > DevOps is the union of people, process, and products to enable continuous delivery of value to our end users.

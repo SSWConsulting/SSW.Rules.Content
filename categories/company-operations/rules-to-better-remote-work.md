@@ -14,7 +14,7 @@ index:
 - send-done-videos
 - do-you-have-successful-remote-meetings
 - do-you-give-remote-attendees-the-url-to-shared-videos
-- share-the-action-items-that-came-up
+- creating-action-items
 - have-a-dedicated-working-space
 - have-an-ergonomic-setup
 - good-audio-conferencing
@@ -32,7 +32,6 @@ index:
 - do-you-provide-at-least-two-days-notice-for-people-in-other-time-zones
 - pomodoro
 - collaborate-across-timezones
-
 ---
 
 Working Remotely is something that is going to become more common. It is important that we have the tools to continue to **work from home** (aka **WFH**) effectively and efficiently whilst also maintaining good mental health.

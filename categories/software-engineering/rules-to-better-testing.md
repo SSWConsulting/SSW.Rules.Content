@@ -26,7 +26,7 @@ index:
   - port-forwarding
   - efcore-in-memory-provider
   - ephemeral-environments
-  - do-you-handle-multi-os-dev-teams-in-source-control
+  - handle-multi-os-dev-teams-in-source-control
   - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
   - use-logging-fakes
   - canary-deploy

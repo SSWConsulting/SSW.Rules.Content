@@ -34,7 +34,6 @@ index:
 - product-owner-do-you-know-how-to-update-the-backlog
 - triaging-do-you-correctly-triage-additional-item-requests
 - disagreeing-with-powerful-stakeholders
-
 ---
 
 Enhance your effectiveness as a Product Owner by mastering key responsibilities and communication strategies. Ensure timely Sprint bookings, manage requirements clearly, and maintain regular updates on progress and costs while effectively triaging feedback and requests.

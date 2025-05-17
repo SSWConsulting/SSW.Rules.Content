@@ -5,7 +5,7 @@ guid: e9246d26-b808-44ac-9747-7bcf9b0f1675
 uri: rules-to-better-giving-and-taking-feedback
 index:
 - how-to-take-feedback-or-criticism
-- do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
+- lose-battle-keep-client
 - do-a-retrospective
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
