@@ -43,7 +43,7 @@ index:
 - booking-cancellations
 - do-you-make-sure-you-get-brownie-points
 - positive-tone
-- do-you-contact-your-clients-using-lync-skype
+- contact-clients-using-im
 - do-you-double-check-the-importance-of-a-task-when-you-realise-its-going-to-take-more-than-2-hours
 - do-you-leave-messages-when-your-phone-call-is-unanswered
 - fix-problems-quickly
