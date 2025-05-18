@@ -1,11 +1,11 @@
 ---
 type: rule
 tips: ""
-title: Are you still taking meeting notes manually?
+title: Do you use AI for meeting notes?
 seoDescription: Stop wasting time and mental energy on manual meeting notes, use
   AI-powered assistants like Read AI to automate your transcripts, summaries,
   and follow-ups.
-uri: still-taking-meeting-notes-manually
+uri: do-you-use-ai-for-meeting-notes
 authors:
   - title: Louis Roa
     url: https://www.ssw.com.au/people/louis-roa/
