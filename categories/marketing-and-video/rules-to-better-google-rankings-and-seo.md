@@ -18,8 +18,9 @@ index:
 - have-a-google-places-entry
 - best-ways-to-generate-traffic-to-your-website
 - monitor-seo-effectively
-- report-seo-results
 - website-heatmaps
+- report-seo-results
+- measure-website-changes-impact
 - does-your-domain-have-power
 - avoid-link-farms
 - avoid-using-frames-on-your-website
@@ -51,7 +52,7 @@ index:
 ---
 
 ::: img-small  
-![Figure: Google, the most popular search engine in the world](googlelogo_color_272x92dp.png "Google, the most popular search engine in the world")
+![](googlelogo_color_272x92dp.png "Google, the most popular search engine in the world")
 :::
 
 Google is, by a country mile, the most popular search engine in the world. It's popular because it seems to rank pages so accurately and quickly, time and time again. The secret to its success is its top secret Page Rank Algorithm. Google developed its page ranking system in an effort to increase the quality of search results and has left all of its competitors for dead. As a result, search engine optimization (SEO) gurus are always looking to find new ways to increase their Google rankings.
