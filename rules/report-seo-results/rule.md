@@ -31,7 +31,7 @@ The metrics included in this report are vital for several reasons:
 * **Technical SEO:** A healthy, fast-loading, and error-free site is favoured by search engines. Regular technical audits prevent issues that could negatively impact rankings
 * **Action plan for next month:** Setting clear goals and outlining actionable steps ensures continuous improvement and strategic focus
 
-## Core Monthly SEO Report Template
+## Core monthly SEO report template
 
 Here’s a template you can follow to report on your SEO:
 
@@ -40,18 +40,18 @@ Here’s a template you can follow to report on your SEO:
 * **Objective:** Brief overview of the goals for the month
 * **Key Achievements:** Highlight major wins, such as ranking improvements and traffic increases
 
-### Website Performance Overview
+### Website performance overview
 
 * **Total Organic Traffic:** Compare current month vs. previous month
 * **Bounce Rate:** Evaluate user engagement
 * **Average Session Duration:** Assess how long visitors stay on the site
 
-### Keyword Performance
+### Keyword performance
 
 * **Top Performing Keywords:** List keywords with the most traffic and highest rankings
 * **Keywords Gained/Lost:** Highlight significant changes in keyword rankings
 
-### Backlink Analysis
+### Backlink analysis
 
 * **Total Backlinks:** Compare current month vs. previous month
 * **New Backlinks Acquired:** Highlight significant new backlinks
@@ -61,7 +61,7 @@ Here’s a template you can follow to report on your SEO:
 * **Site Health Score:** Overview of technical issues affecting SEO
 * **Page Speed Insights:** Average page load time and recommendations for improvement
 
-### Action Plan for Next Month
+### Action plan for next month
 
 * **Key Focus Areas:** Define primary goals for the upcoming month
 * **SEO Improvements:** List specific actions to take, such as technical fixes and link-building strategies
