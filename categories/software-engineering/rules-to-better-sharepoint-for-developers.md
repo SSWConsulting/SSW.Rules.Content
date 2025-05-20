@@ -22,7 +22,6 @@ index:
 - do-you-know-to-try-to-use-the-content-query-web-part-cqwp-over-the-data-view-web-part-dvwp
 - do-you-know-what-is-broken-in-workflow
 - do-you-use-sharepoint-designer-well
-- style-files-for-deployment-in-sharepoint
 - do-you-always-use-site-columns-instead-of-list-columns
 - do-you-know-when-to-use-caml-instead-of-object-model
 - do-you-know-when-to-use-smartpart-or-webpart
