@@ -1,42 +1,43 @@
 ---
+_template: top_category
 type: top-category
 title: Infrastructure and Networking
 uri: infrastructure-and-networking
 index:
-- rules-to-better-active-directory
-- rules-to-better-crm-migration-from-3-to-4
-- rules-to-better-crm-migration-from-2011-to-2013
-- rules-to-better-crm-migration-from-2015-to-2016
-- rules-to-better-data-protection-manager-dpm
-- rules-to-better-hyper-v
-- rules-to-better-hyper-v-clustering
-- rules-to-better-internet-and-networks
-- rules-to-better-skype-for-business-formerly-lync
-- rules-to-better-presentation-pcs
-- rules-to-better-security
-- rules-to-better-security-end-users
-- rules-to-better-cloud-security
-- rules-to-better-sharepoint
-- rules-to-better-sharepoint-for-end-users
-- rules-to-better-sharepoint-migration-from-2007-to-2010
-- rules-to-better-sharepoint-migration-from-2010-to-2013
-- rules-to-better-sharepoint-migration-from-2013-to-2016
-- rules-to-better-sharepoint-migration-from-2016-to-online
-- rules-to-better-sharepoint-virtualisation
-- rules-to-better-sql-server-administration
-- rules-to-better-windows-defender
-- rules-to-better-windows-servers
-- rules-to-better-exchange-server
-- rules-to-better-pcs
-- rules-to-better-microsoft-surface
-- rules-to-better-zendesk
-- rules-to-better-control4
-- rules-to-better-system-administrators
-- rules-to-better-backups
-- rules-to-better-whatsup-gold
-- rules-to-better-office-365
-- rules-to-better-automation
-- rules-to-better-access-databases
+- category: categories/infrastructure-and-networking/rules-to-better-active-directory.md
+- category: categories/infrastructure-and-networking/rules-to-better-crm-migration-from-3-to-4.md
+- category: categories/infrastructure-and-networking/rules-to-better-crm-migration-from-2011-to-2013.md
+- category: categories/infrastructure-and-networking/rules-to-better-crm-migration-from-2015-to-2016.md
+- category: categories/infrastructure-and-networking/rules-to-better-data-protection-manager-dpm.md
+- category: categories/infrastructure-and-networking/rules-to-better-hyper-v.md
+- category: categories/infrastructure-and-networking/rules-to-better-hyper-v-clustering.md
+- category: categories/infrastructure-and-networking/rules-to-better-internet-and-networks.md
+- category: categories/infrastructure-and-networking/rules-to-better-skype-for-business-formerly-lync.md
+- category: categories/infrastructure-and-networking/rules-to-better-presentation-pcs.md
+- category: categories/infrastructure-and-networking/rules-to-better-security.md
+- category: categories/infrastructure-and-networking/rules-to-better-security-end-users.md
+- category: categories/infrastructure-and-networking/rules-to-better-cloud-security.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-for-end-users.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2007-to-2010.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2010-to-2013.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2013-to-2016.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-migration-from-2016-to-online.md
+- category: categories/infrastructure-and-networking/rules-to-better-sharepoint-virtualisation.md
+- category: categories/infrastructure-and-networking/rules-to-better-sql-server-administration.md
+- category: categories/infrastructure-and-networking/rules-to-better-windows-defender.md
+- category: categories/infrastructure-and-networking/rules-to-better-windows-servers.md
+- category: categories/infrastructure-and-networking/rules-to-better-exchange-server.md
+- category: categories/infrastructure-and-networking/rules-to-better-pcs.md
+- category: categories/infrastructure-and-networking/rules-to-better-microsoft-surface.md
+- category: categories/infrastructure-and-networking/rules-to-better-zendesk.md
+- category: categories/infrastructure-and-networking/rules-to-better-control4.md
+- category: categories/infrastructure-and-networking/rules-to-better-system-administrators.md
+- category: categories/infrastructure-and-networking/rules-to-better-backups.md
+- category: categories/infrastructure-and-networking/rules-to-better-whatsup-gold.md
+- category: categories/infrastructure-and-networking/rules-to-better-office-365.md
+- category: categories/infrastructure-and-networking/rules-to-better-automation.md
+- category: categories/infrastructure-and-networking/rules-to-better-access-databases.md
 
 ---
 

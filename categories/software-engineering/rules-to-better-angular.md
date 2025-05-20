@@ -1,36 +1,37 @@
 ---
+_template: category
 type: category
 title: Rules to Better Angular
 guid: a9ab57be-1999-412c-89a5-f76aa92d369b
 uri: rules-to-better-angular
 index:
-- why-angular-is-great
-- the-best-learning-resources-for-angular
-- angular-the-stuff-to-install
-- how-to-get-your-machine-setup
-- dont-base-your-projects-on-the-angular-io-tutorials
-- asp-net-core-spa-template-for-angular-uses-the-angular-cli
-- use-typescript
-- the-best-sample-applications
-- the-best-build-tool
-- angular-best-ui-framework
-- the-best-packages-and-modules-to-use-with-angular
-- how-to-check-the-version-of-angular
-- use-a-service-to-share-reusable-logic
-- write-small-components
-- use-client-side-routing
-- generate-interfaces-for-your-dtos
-- avoid-the-dom-in-your-components
-- when-to-use-state-management-in-angular
-- use-ngrx-on-complex-applications
-- the-best-tool-to-debug-javascript
-- separate-your-angular-components-into-container-and-presentational
-- manage-javascript-projects-with-nx
-- standalone-components
-- angular-error-handling
-- angular-separate-component-concerns
-- angular-reactive-forms-vs-template-driver-forms
-- use-observables
+- rule: rules/why-angular-is-great/rule.md
+- rule: rules/the-best-learning-resources-for-angular/rule.md
+- rule: rules/angular-the-stuff-to-install/rule.md
+- rule: rules/how-to-get-your-machine-setup/rule.md
+- rule: rules/dont-base-your-projects-on-the-angular-io-tutorials/rule.md
+- rule: rules/asp-net-core-spa-template-for-angular-uses-the-angular-cli/rule.md
+- rule: rules/use-typescript/rule.md
+- rule: rules/the-best-sample-applications/rule.md
+- rule: rules/the-best-build-tool/rule.md
+- rule: rules/angular-best-ui-framework/rule.md
+- rule: rules/the-best-packages-and-modules-to-use-with-angular/rule.md
+- rule: rules/how-to-check-the-version-of-angular/rule.md
+- rule: rules/use-a-service-to-share-reusable-logic/rule.md
+- rule: rules/write-small-components/rule.md
+- rule: rules/use-client-side-routing/rule.md
+- rule: rules/generate-interfaces-for-your-dtos/rule.md
+- rule: rules/avoid-the-dom-in-your-components/rule.md
+- rule: rules/when-to-use-state-management-in-angular/rule.md
+- rule: rules/use-ngrx-on-complex-applications/rule.md
+- rule: rules/the-best-tool-to-debug-javascript/rule.md
+- rule: rules/separate-your-angular-components-into-container-and-presentational/rule.md
+- rule: rules/manage-javascript-projects-with-nx/rule.md
+- rule: rules/standalone-components/rule.md
+- rule: rules/angular-error-handling/rule.md
+- rule: rules/angular-separate-component-concerns/rule.md
+- rule: rules/angular-reactive-forms-vs-template-driver-forms/rule.md
+- rule: rules/use-observables/rule.md
 
 ---
 

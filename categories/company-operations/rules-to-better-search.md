@@ -1,13 +1,14 @@
 ---
+_template: category
 type: category
 title: Rules to Better Search
 guid: f985c89e-34ae-47ad-97a8-12fb429ebffc
 uri: rules-to-better-search
 index:
-- sharepoint-search
-- how-to-use-teams-search
-- searching-outlook-effectively
-- the-best-way-to-find-recent-files
+- rule: rules/sharepoint-search/rule.md
+- rule: rules/how-to-use-teams-search/rule.md
+- rule: rules/searching-outlook-effectively/rule.md
+- rule: rules/the-best-way-to-find-recent-files/rule.md
 
 ---
 

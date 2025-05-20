@@ -1,86 +1,87 @@
 ---
+_template: top_category
 type: top-category
 title: Software Engineering
 uri: software-engineering
 index:
-  - rules-to-better-net-projects
-  - rules-to-better-net8-migrations
-  - rules-to-better-architecture-and-code-review
-  - rules-to-better-azure
-  - rules-to-better-blazor
-  - rules-to-better-mvc
-  - rules-to-better-bots
-  - rules-to-better-clean-architecture
-  - rules-to-better-domain-driven-design
-  - rules-to-better-version-management
-  - rules-to-better-bug-management-and-product-feedback
-  - rules-to-better-user-acceptance-tests-uat-for-bug-management
-  - rules-to-better-crm-for-developers
-  - rules-to-better-power-platform
-  - rules-to-better-sharepoint-for-developers
-  - rules-to-better-code-commenting
-  - rules-for-error-handling
-  - rules-to-better-kendo-ui
-  - rules-to-better-nuget
-  - rules-to-better-sql-server-schema-deployment
-  - rules-to-better-web-api
-  - rules-to-better-web-api-rest
-  - rules-to-better-web-api-graphql
-  - rules-to-better-web-api-grpc
-  - rules-to-better-open-source-software
-  - rules-to-better-typescript
-  - rules-to-better-application-performance
-  - rules-to-better-apps-mobile
-  - rules-to-better-maui
-  - rules-to-better-code
-  - rules-to-better-code-quality
-  - rules-to-better-code-legacy
-  - rules-to-better-data-analytics
-  - rules-to-better-raygun
-  - rules-to-better-microsoft-project-server
-  - rules-to-better-application-insights
-  - rules-to-better-iis
-  - rules-to-better-internationalization
-  - rules-to-better-windows-forms
-  - rules-to-better-installers
-  - rules-to-better-wpf-and-silverlight
-  - rules-to-better-access-ui
-  - rules-to-better-openapi-specification
-  - rules-to-better-power-apps
-  - rules-to-better-powershell
-  - rules-to-better-sql-databases-admin
-  - rules-to-better-sql-databases-developers
-  - rules-to-better-sql-databases-performance
-  - rules-to-better-sql-databases-indexing
-  - rules-to-better-unit-tests
-  - rules-to-better-naming-conventions
-  - rules-to-better-entity-framework
-  - rules-to-better-linq
-  - rules-to-better-microservices
-  - rules-to-better-modular-monoliths
-  - rules-to-better-testing
-  - rules-to-better-sitefinity
-  - rules-to-better-wordpress
-  - rules-to-better-websites-development
-  - rules-to-better-angular
-  - rules-to-better-angularjs
-  - rules-to-better-react
-  - rules-to-better-nextjs
-  - rules-to-better-vue
-  - rules-to-better-website-development-asp-net
-  - rules-to-better-websites-tuning-and-maintenance
-  - rules-to-better-net-core
-  - rules-to-better-websites-deployment
-  - rules-to-better-ui-bootstrap
-  - rules-to-better-websites-graphics
-  - rules-to-better-javascript-and-jquery
-  - rules-to-better-connection-strings
-  - rules-to-better-regular-expressions
-  - rules-to-better-windows-forms-applications
-  - rules-to-better-large-builds-in-visual-studionet
-  - rules-to-better-vb6-migration-to-net
-  - rules-to-better-command-lines
-  - rules-to-better-dotnetnuke
-  - rules-to-better-exchange-server
-  - rules-to-better-windows-forms-applications-clickonce
+  - category: categories/software-engineering/rules-to-better-net-projects.md
+  - category: categories/software-engineering/rules-to-better-net8-migrations.md
+  - category: categories/software-engineering/rules-to-better-architecture-and-code-review.md
+  - category: categories/software-engineering/rules-to-better-azure.md
+  - category: categories/software-engineering/rules-to-better-blazor.md
+  - category: categories/software-engineering/rules-to-better-mvc.md
+  - category: categories/software-engineering/rules-to-better-bots.md
+  - category: categories/software-engineering/rules-to-better-clean-architecture.md
+  - category: categories/software-engineering/rules-to-better-domain-driven-design.md
+  - category: categories/software-engineering/rules-to-better-version-management.md
+  - category: categories/software-engineering/rules-to-better-bug-management-and-product-feedback.md
+  - category: categories/software-engineering/rules-to-better-user-acceptance-tests-uat-for-bug-management.md
+  - category: categories/software-engineering/rules-to-better-crm-for-developers.md
+  - category: categories/software-engineering/rules-to-better-power-platform.md
+  - category: categories/software-engineering/rules-to-better-sharepoint-for-developers.md
+  - category: categories/software-engineering/rules-to-better-code-commenting.md
+  - category: categories/software-engineering/rules-for-error-handling.md
+  - category: categories/software-engineering/rules-to-better-kendo-ui.md
+  - category: categories/software-engineering/rules-to-better-nuget.md
+  - category: categories/software-engineering/rules-to-better-sql-server-schema-deployment.md
+  - category: categories/software-engineering/rules-to-better-web-api.md
+  - category: categories/software-engineering/rules-to-better-web-api-rest.md
+  - category: categories/software-engineering/rules-to-better-web-api-graphql.md
+  - category: categories/software-engineering/rules-to-better-web-api-grpc.md
+  - category: categories/software-engineering/rules-to-better-open-source-software.md
+  - category: categories/software-engineering/rules-to-better-typescript.md
+  - category: categories/software-engineering/rules-to-better-application-performance.md
+  - category: categories/software-engineering/rules-to-better-apps-mobile.md
+  - category: categories/software-engineering/rules-to-better-maui.md
+  - category: categories/software-engineering/rules-to-better-code.md
+  - category: categories/software-engineering/rules-to-better-code-quality.md
+  - category: categories/software-engineering/rules-to-better-code-legacy.md
+  - category: categories/software-engineering/rules-to-better-data-analytics.md
+  - category: categories/software-engineering/rules-to-better-raygun.md
+  - category: categories/software-engineering/rules-to-better-microsoft-project-server.md
+  - category: categories/software-engineering/rules-to-better-application-insights.md
+  - category: categories/software-engineering/rules-to-better-iis.md
+  - category: categories/software-engineering/rules-to-better-internationalization.md
+  - category: categories/software-engineering/rules-to-better-windows-forms.md
+  - category: categories/software-engineering/rules-to-better-installers.md
+  - category: categories/software-engineering/rules-to-better-wpf-and-silverlight.md
+  - category: categories/software-engineering/rules-to-better-access-ui.md
+  - category: categories/software-engineering/rules-to-better-openapi-specification.md
+  - category: categories/software-engineering/rules-to-better-power-apps.md
+  - category: categories/software-engineering/rules-to-better-powershell.md
+  - category: categories/software-engineering/rules-to-better-sql-databases-admin.md
+  - category: categories/software-engineering/rules-to-better-sql-databases-developers.md
+  - category: categories/software-engineering/rules-to-better-sql-databases-performance.md
+  - category: categories/software-engineering/rules-to-better-sql-databases-indexing.md
+  - category: categories/software-engineering/rules-to-better-unit-tests.md
+  - category: categories/software-engineering/rules-to-better-naming-conventions.md
+  - category: categories/software-engineering/rules-to-better-entity-framework.md
+  - category: categories/software-engineering/rules-to-better-linq.md
+  - category: categories/software-engineering/rules-to-better-microservices.md
+  - category: categories/software-engineering/rules-to-better-modular-monoliths.md
+  - category: categories/software-engineering/rules-to-better-testing.md
+  - category: categories/software-engineering/rules-to-better-sitefinity.md
+  - category: categories/software-engineering/rules-to-better-wordpress.md
+  - category: categories/software-engineering/rules-to-better-websites-development.md
+  - category: categories/software-engineering/rules-to-better-angular.md
+  - category: categories/software-engineering/rules-to-better-angularjs.md
+  - category: categories/software-engineering/rules-to-better-react.md
+  - category: categories/software-engineering/rules-to-better-nextjs.md
+  - category: categories/software-engineering/rules-to-better-vue.md
+  - category: categories/software-engineering/rules-to-better-website-development-asp-net.md
+  - category: categories/software-engineering/rules-to-better-websites-tuning-and-maintenance.md
+  - category: categories/software-engineering/rules-to-better-net-core.md
+  - category: categories/software-engineering/rules-to-better-websites-deployment.md
+  - category: categories/software-engineering/rules-to-better-ui-bootstrap.md
+  - category: categories/software-engineering/rules-to-better-websites-graphics.md
+  - category: categories/software-engineering/rules-to-better-javascript-and-jquery.md
+  - category: categories/software-engineering/rules-to-better-connection-strings.md
+  - category: categories/software-engineering/rules-to-better-regular-expressions.md
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications.md
+  - category: categories/software-engineering/rules-to-better-large-builds-in-visual-studionet.md
+  - category: categories/software-engineering/rules-to-better-vb6-migration-to-net.md
+  - category: categories/software-engineering/rules-to-better-command-lines.md
+  - category: categories/software-engineering/rules-to-better-dotnetnuke.md
+  - category: categories/software-engineering/rules-to-better-exchange-server.md
+  - category: categories/software-engineering/rules-to-better-windows-forms-applications-clickonce.md
 ---

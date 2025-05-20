@@ -1,17 +1,18 @@
 ---
+_template: category
 type: category
 title: Rules to Better Research and Development
 guid: 57154eb1-e4b4-4c24-bc5a-07645cbfdbf2
 uri: rules-to-better-research-and-development
 index:
-- do-you-know-how-painful-rd-is
-- attach-and-copy-emails-to-the-pbi
-- do-you-link-your-commits-to-a-pbi
-- do-you-record-your-failures
-- do-you-record-your-research-under-the-pbi
-- do-you-save-failed-experiments-in-abandoned-pull-requests
-- avoid-general-in-timesheets
-- poc-vs-mvp
+- rule: rules/do-you-know-how-painful-rd-is/rule.md
+- rule: rules/attach-and-copy-emails-to-the-pbi/rule.md
+- rule: rules/do-you-link-your-commits-to-a-pbi/rule.md
+- rule: rules/do-you-record-your-failures/rule.md
+- rule: rules/do-you-record-your-research-under-the-pbi/rule.md
+- rule: rules/do-you-save-failed-experiments-in-abandoned-pull-requests/rule.md
+- rule: rules/avoid-general-in-timesheets/rule.md
+- rule: rules/poc-vs-mvp/rule.md
 
 ---
 

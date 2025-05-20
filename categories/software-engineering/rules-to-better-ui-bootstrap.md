@@ -1,4 +1,5 @@
 ---
+_template: category
 type: category
 title: Rules to Better UI (Bootstrap)
 guid: add2d97c-ee8c-4ee7-b11f-7d7a30e13628
@@ -6,15 +7,15 @@ uri: rules-to-better-ui-bootstrap
 redirects:
 - rules-to-better-ui-(bootstrap)
 index:
-- do-you-always-use-less-instead-of-plain-old-css
-- css-frameworks
-- do-you-provide-alternate-sizings-for-bootstrap-columns
-- do-you-set-device-width-when-designing-responsive-web-applications
-- do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content
-- do-you-use-respond-js-to-target-ie8-with-bootstrap
-- best-libraries-for-icons
-- use-css-class-form-horizontal-to-arrange-fields-and-labels
-- do-you-use-web-essentials
+- rule: rules/do-you-always-use-less-instead-of-plain-old-css/rule.md
+- rule: rules/css-frameworks/rule.md
+- rule: rules/do-you-provide-alternate-sizings-for-bootstrap-columns/rule.md
+- rule: rules/do-you-set-device-width-when-designing-responsive-web-applications/rule.md
+- rule: rules/do-you-use-hidden-visible-classes-when-resizing-to-hide-show-content/rule.md
+- rule: rules/do-you-use-respond-js-to-target-ie8-with-bootstrap/rule.md
+- rule: rules/best-libraries-for-icons/rule.md
+- rule: rules/use-css-class-form-horizontal-to-arrange-fields-and-labels/rule.md
+- rule: rules/do-you-use-web-essentials/rule.md
 
 ---
 

@@ -1,25 +1,26 @@
 ---
+_template: category
 type: category
 title: Rules to Better Inbound Calls
 guid: e80a2756-1f57-427b-8a20-4a886b125e59
 uri: rules-to-better-inbound-calls
 index:
-- reasons-why-people-call
-- be-prepared-for-inbound-calls
-- always-get-your-prospects-full-contact-details
-- introduce-yourself-correctly
-- communicate-effectively
-- match-tone-with-intent
-- ask-prospects-high-gain-questions
-- give-informative-messages
-- transfer-a-call-quickly
-- upsell
-- finish-the-conversation-with-something-to-action
-- make-complaints-a-positive-experience
-- use-a-headset
-- avoid-putting-phone-calls-on-hold
-- use-on-hold-music-or-message
-- screen-unwanted-sales-calls
+- rule: rules/reasons-why-people-call/rule.md
+- rule: rules/be-prepared-for-inbound-calls/rule.md
+- rule: rules/always-get-your-prospects-full-contact-details/rule.md
+- rule: rules/introduce-yourself-correctly/rule.md
+- rule: rules/communicate-effectively/rule.md
+- rule: rules/match-tone-with-intent/rule.md
+- rule: rules/ask-prospects-high-gain-questions/rule.md
+- rule: rules/give-informative-messages/rule.md
+- rule: rules/transfer-a-call-quickly/rule.md
+- rule: rules/upsell/rule.md
+- rule: rules/finish-the-conversation-with-something-to-action/rule.md
+- rule: rules/make-complaints-a-positive-experience/rule.md
+- rule: rules/use-a-headset/rule.md
+- rule: rules/avoid-putting-phone-calls-on-hold/rule.md
+- rule: rules/use-on-hold-music-or-message/rule.md
+- rule: rules/screen-unwanted-sales-calls/rule.md
 
 ---
 

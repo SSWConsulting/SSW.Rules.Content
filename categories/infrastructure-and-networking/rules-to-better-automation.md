@@ -1,12 +1,13 @@
 ---
+_template: category
 type: category
 title: Rules to Better Automation
 guid: a9afe4ee-29e1-458b-bde1-27f59c31d972
 uri: rules-to-better-automation
 index:
-- best-practices-office-automation
-- automation-essentials
-- automation-lightning
+- rule: rules/best-practices-office-automation/rule.md
+- rule: rules/automation-essentials/rule.md
+- rule: rules/automation-lightning/rule.md
 
 ---
 

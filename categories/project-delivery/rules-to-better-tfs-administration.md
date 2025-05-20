@@ -1,11 +1,12 @@
 ---
+_template: category
 type: category
 title: Rules to Better TFS Administration
 guid: fd2b6ace-b962-4a70-9c81-4ab1b6feef80
 uri: rules-to-better-tfs-administration
 index:
-- do-you-know-how-to-delete-a-team-project-collection
-- do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context
+- rule: rules/do-you-know-how-to-delete-a-team-project-collection/rule.md
+- rule: rules/do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context/rule.md
 
 ---
 

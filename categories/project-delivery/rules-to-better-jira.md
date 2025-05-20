@@ -1,19 +1,20 @@
 ---
+_template: category
 type: category
 title: Rules to Better Jira
 guid: 9a2ca8b1-e1d6-4258-9752-9d0cc48464bc
 uri: rules-to-better-jira
 index:
-- do-you-know-why-ssw-is-using-jira
-- do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira
-- do-you-know-how-to-create-issues-in-jira
-- do-you-know-how-to-track-requests-in-jira
-- do-you-know-how-to-answer-a-question-in-jira
-- do-you-really-know-what-a-jira-workflow-is
-- do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities
-- do-you-know-how-to-ask-a-question-about-jira-or-make-a-request-for-a-jira-improvement
-- do-you-know-how-to-login-to-jira
-- do-you-use-jira-to-keep-others-informed-and-not-hold-them-up
+- rule: rules/do-you-know-why-ssw-is-using-jira/rule.md
+- rule: rules/do-you-know-how-your-system-dashboard-can-help-you-this-is-the-most-important-feature-in-jira/rule.md
+- rule: rules/do-you-know-how-to-create-issues-in-jira/rule.md
+- rule: rules/do-you-know-how-to-track-requests-in-jira/rule.md
+- rule: rules/do-you-know-how-to-answer-a-question-in-jira/rule.md
+- rule: rules/do-you-really-know-what-a-jira-workflow-is/rule.md
+- rule: rules/do-you-undertand-the-roles-of-reporters-and-assignees-and-their-responsibilities/rule.md
+- rule: rules/do-you-know-how-to-ask-a-question-about-jira-or-make-a-request-for-a-jira-improvement/rule.md
+- rule: rules/do-you-know-how-to-login-to-jira/rule.md
+- rule: rules/do-you-use-jira-to-keep-others-informed-and-not-hold-them-up/rule.md
 
 ---
 Rules Need Revision!

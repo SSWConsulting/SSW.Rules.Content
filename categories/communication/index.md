@@ -1,23 +1,24 @@
 ---
+_template: top_category
 type: top-category
 title: Communication
 uri: communication
 index:
-- rules-to-better-communication
-- rules-to-better-giving-and-taking-feedback
-- rules-to-better-email
-- rules-to-better-meetings
-- rules-to-better-board-meetings
-- rules-to-better-calendars
-- rules-to-better-inbox-management
-- rules-to-better-outlook
-- rules-to-better-im
-- rules-to-better-microsoft-teams
-- rules-to-better-slack
-- rules-to-better-technical-documentation
-- rules-to-better-presentations
-- rules-to-better-powerpoint-presentations
-- rules-to-better-outsourcing
+- category: categories/communication/rules-to-better-communication.md
+- category: categories/communication/rules-to-better-giving-and-taking-feedback.md
+- category: categories/communication/rules-to-better-email.md
+- category: categories/communication/rules-to-better-meetings.md
+- category: categories/communication/rules-to-better-board-meetings.md
+- category: categories/communication/rules-to-better-calendars.md
+- category: categories/communication/rules-to-better-inbox-management.md
+- category: categories/communication/rules-to-better-outlook.md
+- category: categories/communication/rules-to-better-im.md
+- category: categories/communication/rules-to-better-microsoft-teams.md
+- category: categories/communication/rules-to-better-slack.md
+- category: categories/communication/rules-to-better-technical-documentation.md
+- category: categories/communication/rules-to-better-presentations.md
+- category: categories/communication/rules-to-better-powerpoint-presentations.md
+- category: categories/communication/rules-to-better-outsourcing.md
 
 ---
 

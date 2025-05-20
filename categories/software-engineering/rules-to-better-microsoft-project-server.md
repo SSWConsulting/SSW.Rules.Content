@@ -1,13 +1,14 @@
 ---
+_template: category
 type: category
 title: Rules to Better Microsoft Project Server
 guid: 2ecdd584-893f-4c48-90b4-1cd0cd20be12
 uri: rules-to-better-microsoft-project-server
 index:
-- do-you-use-ms-project-to-track-project-budget-usage
-- how-long-will-it-take-aka-how-long-is-a-piece-of-string
-- do-you-know-the-easiest-way-to-enter-timesheets-with-tfs
-- the-impact-of-adding-an-urgent-new-feature-to-the-sprint
+- rule: rules/do-you-use-ms-project-to-track-project-budget-usage/rule.md
+- rule: rules/how-long-will-it-take-aka-how-long-is-a-piece-of-string/rule.md
+- rule: rules/do-you-know-the-easiest-way-to-enter-timesheets-with-tfs/rule.md
+- rule: rules/the-impact-of-adding-an-urgent-new-feature-to-the-sprint/rule.md
 
 ---
 Since 1990, SSW has supported the developer community by publishing all our best practices and rules for everyone to see.

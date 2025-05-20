@@ -1,4 +1,5 @@
 ---
+_template: category
 type: category
 title: Rules to Better Interfaces (WinForms Controls)
 guid: dc923fbf-a24d-443b-af8a-f166383580c2
@@ -7,23 +8,23 @@ redirects:
 - rules-to-better-interfaces-(controls)
 - rules-to-better-interfaces-controls
 index:
-- controls-do-you-include-all-option-in-your-comboboxes
-- controls-do-you-include-the-number-of-results-in-comboboxes
-- control-choice-do-you-use-gridview-over-the-checkedlistbox
-- control-choice-do-you-use-a-gridview-over-the-listbox
-- control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only
-- control-choice-do-you-avoid-using-group-box-and-use-a-line-to-organize-your-form
-- control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox
-- controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
-- controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid
-- controls-do-you-extend-the-size-of-your-comboboxes-to-show-as-many-results-as-possible-windows-forms-only
-- controls-do-you-use-text-boxes-for-displaying-data
-- connection-stream-do-you-use-a-udl-when-getting-database-settings
-- being-pedantic-do-your-buttons-have-a-mnemonic
-- controls-do-you-indicate-when-fields-are-read-only-or-calculated
-- controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only
-- being-pedantic-do-you-use-balloon-tooltip
-- do-your-controls-autopostback
+- rule: rules/controls-do-you-include-all-option-in-your-comboboxes/rule.md
+- rule: rules/controls-do-you-include-the-number-of-results-in-comboboxes/rule.md
+- rule: rules/control-choice-do-you-use-gridview-over-the-checkedlistbox/rule.md
+- rule: rules/control-choice-do-you-use-a-gridview-over-the-listbox/rule.md
+- rule: rules/control-choice-do-you-use-listview-over-gridview-was-datagrid-for-readonly-windows-forms-only/rule.md
+- rule: rules/control-choice-do-you-avoid-using-group-box-and-use-a-line-to-organize-your-form/rule.md
+- rule: rules/control-choice-do-you-know-when-to-use-options-group-radio-buttons-instead-of-combobox/rule.md
+- rule: rules/controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data/rule.md
+- rule: rules/controls-do-you-make-the-selected-enabled-rows-stand-out-in-a-datagrid/rule.md
+- rule: rules/controls-do-you-extend-the-size-of-your-comboboxes-to-show-as-many-results-as-possible-windows-forms-only/rule.md
+- rule: rules/controls-do-you-use-text-boxes-for-displaying-data/rule.md
+- rule: rules/connection-stream-do-you-use-a-udl-when-getting-database-settings/rule.md
+- rule: rules/being-pedantic-do-your-buttons-have-a-mnemonic/rule.md
+- rule: rules/controls-do-you-indicate-when-fields-are-read-only-or-calculated/rule.md
+- rule: rules/controls-do-you-set-row-select-mode-as-fullrowselect-for-datagridview-if-it-is-read-only-windows-forms-only/rule.md
+- rule: rules/being-pedantic-do-you-use-balloon-tooltip/rule.md
+- rule: rules/do-your-controls-autopostback/rule.md
 
 ---
 

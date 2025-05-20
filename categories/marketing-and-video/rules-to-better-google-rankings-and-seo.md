@@ -1,4 +1,5 @@
 ---
+_template: category
 type: category
 title: Rules to Better Google Rankings and SEO
 guid: 4bc0fe8e-2aad-4d21-8a42-192177c93279
@@ -6,47 +7,47 @@ uri: rules-to-better-google-rankings-and-seo
 redirects:
   - rules-to-better-google-rankings
 index:
-- how-google-ranks-pages
-- page-indexed-by-google
-- do-you-have-a-consistent-search-results-screen-aka-the-google-grid
-- do-you-know-that-content-is-king
-- seo-tools
-- seo-checklist
-- do-you-know-anything-about-brand-power-and-social-signals
-- do-you-provide-a-good-user-experience
-- how-to-find-inbound-links-to-your-pages
-- have-a-google-places-entry
-- best-ways-to-generate-traffic-to-your-website
-- monitor-seo-effectively
-- report-seo-results
-- website-heatmaps
-- does-your-domain-have-power
-- avoid-link-farms
-- avoid-using-frames-on-your-website
-- register-your-domain-for-a-long-time
-- use-subdirectories-not-domains
-- responsive-design
-- add-attributes-to-picture-links
-- include-important-keywords-where-it-matters
-- make-title-h1-and-h2-tags-descriptive
-- descriptive-links
-- use-dashes-in-urls
-- give-the-written-text-in-an-image
-- spelling-do-you-use-us-english
-- html-meta-tags
-- lowercase-urls
-- do-you-have-a-schema-code-on-your-website
-- do-you-provide-security-to-your-website-visitors
-- website-page-speed
-- core-web-vitals
-- use-301-redirect-on-renamed-or-moved-pages
-- structured-data
-- avoid-content-in-javascript
-- keep-webpages-under-101kb
-- use-robots-txt-effectively
-- keep-files-under-the-google-file-size-limit
-- seo-nofollow
-- seo-canonical-tags
+- rule: rules/how-google-ranks-pages/rule.md
+- rule: rules/page-indexed-by-google/rule.md
+- rule: rules/do-you-have-a-consistent-search-results-screen-aka-the-google-grid/rule.md
+- rule: rules/do-you-know-that-content-is-king/rule.md
+- rule: rules/seo-tools/rule.md
+- rule: rules/seo-checklist/rule.md
+- rule: rules/do-you-know-anything-about-brand-power-and-social-signals/rule.md
+- rule: rules/do-you-provide-a-good-user-experience/rule.md
+- rule: rules/how-to-find-inbound-links-to-your-pages/rule.md
+- rule: rules/have-a-google-places-entry/rule.md
+- rule: rules/best-ways-to-generate-traffic-to-your-website/rule.md
+- rule: rules/monitor-seo-effectively/rule.md
+- rule: rules/report-seo-results/rule.md
+- rule: rules/website-heatmaps/rule.md
+- rule: rules/does-your-domain-have-power/rule.md
+- rule: rules/avoid-link-farms/rule.md
+- rule: rules/avoid-using-frames-on-your-website/rule.md
+- rule: rules/register-your-domain-for-a-long-time/rule.md
+- rule: rules/use-subdirectories-not-domains/rule.md
+- rule: rules/responsive-design/rule.md
+- rule: rules/add-attributes-to-picture-links/rule.md
+- rule: rules/include-important-keywords-where-it-matters/rule.md
+- rule: rules/make-title-h1-and-h2-tags-descriptive/rule.md
+- rule: rules/descriptive-links/rule.md
+- rule: rules/use-dashes-in-urls/rule.md
+- rule: rules/give-the-written-text-in-an-image/rule.md
+- rule: rules/spelling-do-you-use-us-english/rule.md
+- rule: rules/html-meta-tags/rule.md
+- rule: rules/lowercase-urls/rule.md
+- rule: rules/do-you-have-a-schema-code-on-your-website/rule.md
+- rule: rules/do-you-provide-security-to-your-website-visitors/rule.md
+- rule: rules/website-page-speed/rule.md
+- rule: rules/core-web-vitals/rule.md
+- rule: rules/use-301-redirect-on-renamed-or-moved-pages/rule.md
+- rule: rules/structured-data/rule.md
+- rule: rules/avoid-content-in-javascript/rule.md
+- rule: rules/keep-webpages-under-101kb/rule.md
+- rule: rules/use-robots-txt-effectively/rule.md
+- rule: rules/keep-files-under-the-google-file-size-limit/rule.md
+- rule: rules/seo-nofollow/rule.md
+- rule: rules/seo-canonical-tags/rule.md
 
 ---
 

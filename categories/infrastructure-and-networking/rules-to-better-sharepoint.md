@@ -1,35 +1,36 @@
 ---
+_template: category
 type: category
 title: Rules to Better SharePoint
 guid: 341c64f3-0d65-4a56-b0bf-b461fabb90a8
 uri: rules-to-better-sharepoint
 index:
-- do-you-know-what-are-the-sharepoint-features-our-customers-love
-- consistent-sharepoint-sites
-- sharepoint-flat-hierarchy
-- sharepoint-removing-orphaned-users
-- sharepoint-online-do-you-get-rid-of-classic-features
-- do-you-know-how-to-get-the-sharepoint-version
-- review-your-intranet-for-classic-pages
-- fix-search-with-office-app-preview
-- do-you-know-how-to-create-a-link-to-a-url-in-sharepoint
-- do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming
-- do-you-use-access-request-on-your-sharepoint-site
-- do-you-clean-useless-calendars-in-sharepoint
-- no-checked-out-files
-- do-you-know-how-to-delete-orphaned-users-from-the-people-picker
-- do-you-use-content-query-web-part
-- how-to-share-a-file-folder-in-sharepoint
-- how-to-use-sharepoint-recycle-bin
-- ideal-place-to-store-employee-skills
-- setup-web-application-for-internal-and-external-access
-- extend-web-application-for-https
-- use-default-zone-url-in-search-content-source
-- search-employee-skills
-- use-icons-sharepoint
-- do-you-use-sharepoints-news-feature
-- sharepoint-usage
-- keep-sharepoint-databases-in-a-separate-sql-instance
+- rule: rules/do-you-know-what-are-the-sharepoint-features-our-customers-love/rule.md
+- rule: rules/consistent-sharepoint-sites/rule.md
+- rule: rules/sharepoint-flat-hierarchy/rule.md
+- rule: rules/sharepoint-removing-orphaned-users/rule.md
+- rule: rules/sharepoint-online-do-you-get-rid-of-classic-features/rule.md
+- rule: rules/do-you-know-how-to-get-the-sharepoint-version/rule.md
+- rule: rules/review-your-intranet-for-classic-pages/rule.md
+- rule: rules/fix-search-with-office-app-preview/rule.md
+- rule: rules/do-you-know-how-to-create-a-link-to-a-url-in-sharepoint/rule.md
+- rule: rules/do-you-know-how-to-resolve-the-broken-links-caused-by-page-renaming/rule.md
+- rule: rules/do-you-use-access-request-on-your-sharepoint-site/rule.md
+- rule: rules/do-you-clean-useless-calendars-in-sharepoint/rule.md
+- rule: rules/no-checked-out-files/rule.md
+- rule: rules/do-you-know-how-to-delete-orphaned-users-from-the-people-picker/rule.md
+- rule: rules/do-you-use-content-query-web-part/rule.md
+- rule: rules/how-to-share-a-file-folder-in-sharepoint/rule.md
+- rule: rules/how-to-use-sharepoint-recycle-bin/rule.md
+- rule: rules/ideal-place-to-store-employee-skills/rule.md
+- rule: rules/setup-web-application-for-internal-and-external-access/rule.md
+- rule: rules/extend-web-application-for-https/rule.md
+- rule: rules/use-default-zone-url-in-search-content-source/rule.md
+- rule: rules/search-employee-skills/rule.md
+- rule: rules/use-icons-sharepoint/rule.md
+- rule: rules/do-you-use-sharepoints-news-feature/rule.md
+- rule: rules/sharepoint-usage/rule.md
+- rule: rules/keep-sharepoint-databases-in-a-separate-sql-instance/rule.md
 
 ---
 

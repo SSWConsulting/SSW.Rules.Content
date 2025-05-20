@@ -1,23 +1,24 @@
 ---
+_template: category
 type: category
 title: Rules to Better Inbox Management
 guid: 11a99a6a-bfd5-49e0-bd02-c109a32e784d
 uri: rules-to-better-inbox-management
 index:
-- clean-your-inbox-per-topics
-- handle-noise-email
-- do-you-save-important-items-in-a-separate-folder
-- reply-done-and-delete-the-email
-- how-to-hand-over-tasks-to-others
-- do-you-sort-your-emails-by-received-and-important
-- use-conditional-formatting-to-visually-deprioritize-emails
-- do-you-always-keep-your-sent-items
-- do-you-group-your-emails-by-conversation-and-date
-- how-to-handle-duplicate-requests
-- the-touch-it-once-principle
-- do-you-unsubscribe-from-newsletters
-- inbox-management-team
-- tasks-with-a-ticking-clock
+- rule: rules/clean-your-inbox-per-topics/rule.md
+- rule: rules/handle-noise-email/rule.md
+- rule: rules/do-you-save-important-items-in-a-separate-folder/rule.md
+- rule: rules/reply-done-and-delete-the-email/rule.md
+- rule: rules/how-to-hand-over-tasks-to-others/rule.md
+- rule: rules/do-you-sort-your-emails-by-received-and-important/rule.md
+- rule: rules/use-conditional-formatting-to-visually-deprioritize-emails/rule.md
+- rule: rules/do-you-always-keep-your-sent-items/rule.md
+- rule: rules/do-you-group-your-emails-by-conversation-and-date/rule.md
+- rule: rules/how-to-handle-duplicate-requests/rule.md
+- rule: rules/the-touch-it-once-principle/rule.md
+- rule: rules/do-you-unsubscribe-from-newsletters/rule.md
+- rule: rules/inbox-management-team/rule.md
+- rule: rules/tasks-with-a-ticking-clock/rule.md
 
 ---
 

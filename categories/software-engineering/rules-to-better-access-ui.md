@@ -1,15 +1,16 @@
 ---
+_template: category
 type: category
 title: Rules to Better Access UI
 guid: 1798e8e0-0f80-4128-9fcc-35ee6b7f6385
 uri: rules-to-better-access-ui
 index:
-- group-forms-into-tabs-where-appropriate
-- target-the-correct-resolution-when-designing-forms
-- use-appropriate-and-user-friendly-icons
-- use-clean-designs-when-creating-forms
-- use-ok-cancel-buttons
-- make-response-screens
+- rule: rules/group-forms-into-tabs-where-appropriate/rule.md
+- rule: rules/target-the-correct-resolution-when-designing-forms/rule.md
+- rule: rules/use-appropriate-and-user-friendly-icons/rule.md
+- rule: rules/use-clean-designs-when-creating-forms/rule.md
+- rule: rules/use-ok-cancel-buttons/rule.md
+- rule: rules/make-response-screens/rule.md
 
 ---
 

@@ -1,15 +1,16 @@
 ---
+_template: category
 type: category
 title: Rules to Better SharePoint Virtualisation
 guid: 17781785-2c7f-4e46-be7e-4fb07f9b4553
 uri: rules-to-better-sharepoint-virtualisation
 index:
-- what-does-a-sharepoint-image-need
-- how-does-the-sysprep-process-work-what-does-the-scripts-do-why-is-this-process-so-complicated
-- how-do-i-create-my-own-sharepoint-vm-to-play-with
-- how-do-i-update-and-create-a-new-version-of-the-sysprep-vm
-- what-are-the-different-images-available
-- use-the-right-sharepoint-development-environment
+- rule: rules/what-does-a-sharepoint-image-need/rule.md
+- rule: rules/how-does-the-sysprep-process-work-what-does-the-scripts-do-why-is-this-process-so-complicated/rule.md
+- rule: rules/how-do-i-create-my-own-sharepoint-vm-to-play-with/rule.md
+- rule: rules/how-do-i-update-and-create-a-new-version-of-the-sysprep-vm/rule.md
+- rule: rules/what-are-the-different-images-available/rule.md
+- rule: rules/use-the-right-sharepoint-development-environment/rule.md
 
 ---
 

@@ -1,77 +1,78 @@
 ---
+_template: category
 type: category
 title: Rules to Better SQL Databases - Developers
 guid: c66da635-3483-4287-9d19-013152b12d0f
 uri: rules-to-better-sql-databases-developers
 index:
-- relational-database-design
-- database-normalization
-- erds
-- do-not-allow-nulls-in-text-fields
-- do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero
-- avoid-spaces-and-empty-lines-at-the-start-of-character-columns
-- use-identities-in-sql-server
-- avoid-deleting-records-by-flagging-them-as-isdeleted
-- make-sure-you-have-valid-date-data-in-your-database
-- datetime-fields-must-be-converted-to-universal-time
-- use-temporal-tables-to-audit-data-changes
-- avoid-invalid-characters-in-object-identifiers
-- have-a-general-contact-detail-table
-- use-a-url-instead-of-an-image-in-your-database
-- only-use-unicode-datatypes-in-special-circumstances
-- always-use-varchar
-- have-standard-tables-and-columns
-- use-bit-numeric-data-type-correctly
-- use-natural-or-surrogate-primary-keys
-- create-primary-key-on-your-tables
-- create-clustered-index-on-your-tables
-- avoid-using-indexes-on-rowguid-column
-- have-a-rowversion-column
-- use-fillfactor-of-90-percent-for-indexes-and-constraints
-- do-you-always-have-version-tracking-tables
-- use-computed-columns-rather-than-denormalized-fields
-- use-triggers-for-denormalized-fields
-- validate-each-denormalized-field
-- avoid-using-user-schema-separation
-- create-a-consistent-primary-key-column-on-your-tables
-- use-separate-lookup-tables-rather-than-one-large-lookup-table
-- how-to-provide-best-database-schema-document
-- schema-do-you-add-zs-prefix-to-system-tables
-- do-not-have-views-as-redundant-objects
-- every-object-name-should-be-owned-by-dbo
-- keep-your-stored-procedures-simple
-- return-a-value-indicating-the-status
-- standardize-the-return-values-of-stored-procedures-for-success-and-failures
-- use-output-parameters-if-you-need-to-return-the-value-of-variables
-- check-the-global-variable-error-after-executing-a-data-manipulation-statement
-- use-scope_identity-to-get-the-most-recent-row-identity
-- set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
-- avoid-starting-user-stored-procedures-with-system-prefix-sp_-or-dt_
-- avoid-using-select-when-inserting-data
-- use-transactions-for-complicated-stored-procedures
-- use-error-handling-in-your-stored-procedures
-- sql-stored-procedure-names-should-be-prefixed-with-the-owner
-- turn-on-referential-integrity-in-relationships
-- use-update-cascade-when-creating-a-relationship
-- avoid-using-cascade-delete
-- set-not-for-replication-when-creating-a-relationship
-- have-foreign-key-constraints-on-columns-ending-with-id
-- object-name-should-not-be-a-reserved-word
-- object-name-should-not-contain-spaces
-- do-not-use-sp_rename-to-rename-objects
-- object-name-should-follow-your-company-naming-conventions
-- use-a-sql-server-object-naming-standard
-- use-a-sql-server-stored-procedure-naming-standard
-- use-a-sql-server-indexes-naming-standard
-- use-a-sql-server-relationship-naming-standard
-- naming-convention-for-use-on-database-server-test-and-production
-- implement-business-logic-in-middle-tier
-- parameterize-all-input-to-your-database
-- use-sql-views
-- avoid-empty-lines-at-the-start-of-character-columns
-- do-not-use-table-names-longer-than-24-characters
-- submit-all-dates-to-sql-server-in-iso-format
-- query-data-tools
+- rule: rules/relational-database-design/rule.md
+- rule: rules/database-normalization/rule.md
+- rule: rules/erds/rule.md
+- rule: rules/do-not-allow-nulls-in-text-fields/rule.md
+- rule: rules/do-not-allow-nulls-in-number-fields-if-it-has-the-same-meaning-as-zero/rule.md
+- rule: rules/avoid-spaces-and-empty-lines-at-the-start-of-character-columns/rule.md
+- rule: rules/use-identities-in-sql-server/rule.md
+- rule: rules/avoid-deleting-records-by-flagging-them-as-isdeleted/rule.md
+- rule: rules/make-sure-you-have-valid-date-data-in-your-database/rule.md
+- rule: rules/datetime-fields-must-be-converted-to-universal-time/rule.md
+- rule: rules/use-temporal-tables-to-audit-data-changes/rule.md
+- rule: rules/avoid-invalid-characters-in-object-identifiers/rule.md
+- rule: rules/have-a-general-contact-detail-table/rule.md
+- rule: rules/use-a-url-instead-of-an-image-in-your-database/rule.md
+- rule: rules/only-use-unicode-datatypes-in-special-circumstances/rule.md
+- rule: rules/always-use-varchar/rule.md
+- rule: rules/have-standard-tables-and-columns/rule.md
+- rule: rules/use-bit-numeric-data-type-correctly/rule.md
+- rule: rules/use-natural-or-surrogate-primary-keys/rule.md
+- rule: rules/create-primary-key-on-your-tables/rule.md
+- rule: rules/create-clustered-index-on-your-tables/rule.md
+- rule: rules/avoid-using-indexes-on-rowguid-column/rule.md
+- rule: rules/have-a-rowversion-column/rule.md
+- rule: rules/use-fillfactor-of-90-percent-for-indexes-and-constraints/rule.md
+- rule: rules/do-you-always-have-version-tracking-tables/rule.md
+- rule: rules/use-computed-columns-rather-than-denormalized-fields/rule.md
+- rule: rules/use-triggers-for-denormalized-fields/rule.md
+- rule: rules/validate-each-denormalized-field/rule.md
+- rule: rules/avoid-using-user-schema-separation/rule.md
+- rule: rules/create-a-consistent-primary-key-column-on-your-tables/rule.md
+- rule: rules/use-separate-lookup-tables-rather-than-one-large-lookup-table/rule.md
+- rule: rules/how-to-provide-best-database-schema-document/rule.md
+- rule: rules/schema-do-you-add-zs-prefix-to-system-tables/rule.md
+- rule: rules/do-not-have-views-as-redundant-objects/rule.md
+- rule: rules/every-object-name-should-be-owned-by-dbo/rule.md
+- rule: rules/keep-your-stored-procedures-simple/rule.md
+- rule: rules/return-a-value-indicating-the-status/rule.md
+- rule: rules/standardize-the-return-values-of-stored-procedures-for-success-and-failures/rule.md
+- rule: rules/use-output-parameters-if-you-need-to-return-the-value-of-variables/rule.md
+- rule: rules/check-the-global-variable-error-after-executing-a-data-manipulation-statement/rule.md
+- rule: rules/use-scope_identity-to-get-the-most-recent-row-identity/rule.md
+- rule: rules/set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes/rule.md
+- rule: rules/avoid-starting-user-stored-procedures-with-system-prefix-sp_-or-dt_/rule.md
+- rule: rules/avoid-using-select-when-inserting-data/rule.md
+- rule: rules/use-transactions-for-complicated-stored-procedures/rule.md
+- rule: rules/use-error-handling-in-your-stored-procedures/rule.md
+- rule: rules/sql-stored-procedure-names-should-be-prefixed-with-the-owner/rule.md
+- rule: rules/turn-on-referential-integrity-in-relationships/rule.md
+- rule: rules/use-update-cascade-when-creating-a-relationship/rule.md
+- rule: rules/avoid-using-cascade-delete/rule.md
+- rule: rules/set-not-for-replication-when-creating-a-relationship/rule.md
+- rule: rules/have-foreign-key-constraints-on-columns-ending-with-id/rule.md
+- rule: rules/object-name-should-not-be-a-reserved-word/rule.md
+- rule: rules/object-name-should-not-contain-spaces/rule.md
+- rule: rules/do-not-use-sp_rename-to-rename-objects/rule.md
+- rule: rules/object-name-should-follow-your-company-naming-conventions/rule.md
+- rule: rules/use-a-sql-server-object-naming-standard/rule.md
+- rule: rules/use-a-sql-server-stored-procedure-naming-standard/rule.md
+- rule: rules/use-a-sql-server-indexes-naming-standard/rule.md
+- rule: rules/use-a-sql-server-relationship-naming-standard/rule.md
+- rule: rules/naming-convention-for-use-on-database-server-test-and-production/rule.md
+- rule: rules/implement-business-logic-in-middle-tier/rule.md
+- rule: rules/parameterize-all-input-to-your-database/rule.md
+- rule: rules/use-sql-views/rule.md
+- rule: rules/avoid-empty-lines-at-the-start-of-character-columns/rule.md
+- rule: rules/do-not-use-table-names-longer-than-24-characters/rule.md
+- rule: rules/submit-all-dates-to-sql-server-in-iso-format/rule.md
+- rule: rules/query-data-tools/rule.md
 ---
 
 Here are some of the typical things that all SQL Server DBAs and Database developers should know. These rules are above and beyond the most basic textbook recommendations of:

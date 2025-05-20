@@ -1,37 +1,38 @@
 ---
+_template: category
 type: category
 title: Rules to Better Social Media for Personal Accounts
 guid: 778349da-aa02-4e04-afa4-f4eafd3091c6
 uri: rules-to-better-social-media-personal
 index:
-- check-facts
-- profile-photos
-- keep-your-social-media-updated
-- know-how-to-take-great-photos-for-your-socials
-- best-way-to-share-a-social-media-post
-- share-every-blog-post
-- linkedin-profile
-- linkedin-job-experience
-- have-urls-to-your-main-services-on-linkedin
-- linkedin-contact-info
-- new-job-certification-linkedin
-- linkedin-connect-your-microsoft-account
-- linkedin-connect-with-people
-- linkedin-maintain-connections
-- discord-communities
-- do-you-know-what-to-tweet
-- do-you-know-that-every-comment-gets-a-tweet
-- x-hashtag-vs-mention
-- thank-others-for-each-reference-to-you
-- x-verify-your-account
-- x-tip-creators
-- x-change-name-when-travelling
-- x-business
-- best-tips-for-getting-started-on-tiktok
-- edit-your-videos-for-tiktok
-- do-you-know-how-to-use-social-media-effectively-in-china
-- purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
-- do-you-know-how-to-check-social-media-stats
+- rule: rules/check-facts/rule.md
+- rule: rules/profile-photos/rule.md
+- rule: rules/keep-your-social-media-updated/rule.md
+- rule: rules/know-how-to-take-great-photos-for-your-socials/rule.md
+- rule: rules/best-way-to-share-a-social-media-post/rule.md
+- rule: rules/share-every-blog-post/rule.md
+- rule: rules/linkedin-profile/rule.md
+- rule: rules/linkedin-job-experience/rule.md
+- rule: rules/have-urls-to-your-main-services-on-linkedin/rule.md
+- rule: rules/linkedin-contact-info/rule.md
+- rule: rules/new-job-certification-linkedin/rule.md
+- rule: rules/linkedin-connect-your-microsoft-account/rule.md
+- rule: rules/linkedin-connect-with-people/rule.md
+- rule: rules/linkedin-maintain-connections/rule.md
+- rule: rules/discord-communities/rule.md
+- rule: rules/do-you-know-what-to-tweet/rule.md
+- rule: rules/do-you-know-that-every-comment-gets-a-tweet/rule.md
+- rule: rules/x-hashtag-vs-mention/rule.md
+- rule: rules/thank-others-for-each-reference-to-you/rule.md
+- rule: rules/x-verify-your-account/rule.md
+- rule: rules/x-tip-creators/rule.md
+- rule: rules/x-change-name-when-travelling/rule.md
+- rule: rules/x-business/rule.md
+- rule: rules/best-tips-for-getting-started-on-tiktok/rule.md
+- rule: rules/edit-your-videos-for-tiktok/rule.md
+- rule: rules/do-you-know-how-to-use-social-media-effectively-in-china/rule.md
+- rule: rules/purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice/rule.md
+- rule: rules/do-you-know-how-to-check-social-media-stats/rule.md
 
 ---
 

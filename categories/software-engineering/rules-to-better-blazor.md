@@ -1,4 +1,5 @@
 ---
+_template: category
 type: category
 title: Rules to Better Blazor
 guid: 45d72b40-f429-44b1-b37f-ecfd5858e46a
@@ -6,9 +7,9 @@ uri: rules-to-better-blazor
 experts: https://www.ssw.com.au/people/?skill=Blazor
 consulting: https://ssw.com.au/consulting/blazor
 index:
-  - why-blazor-is-great
-  - blazor-learning-resources
-  - share-common-types-and-logic
+  - rule: rules/why-blazor-is-great/rule.md
+  - rule: rules/blazor-learning-resources/rule.md
+  - rule: rules/share-common-types-and-logic/rule.md
   # - the-best-ui-frameworks-for-blazor
   # - the-best-approach-to-state-management
   # - use-code-behind

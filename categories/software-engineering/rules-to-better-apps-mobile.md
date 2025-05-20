@@ -1,18 +1,19 @@
 ---
+_template: category
 type: category
 title: Rules to Better Apps (mobile)
 guid: 54c2abe3-1a3b-4090-bf81-f33e74b297c0
 uri: rules-to-better-apps-mobile
 index:
-- maui-cross-platform
-- build-cross-platform-apps
-- progressive-web-app
-- use-dynamic-viewport-units
-- how-to-get-mobile-config-to-your-users
-- how-to-monetize-apps
-- ios-do-you-know-how-to-optimise-your-test-and-release-deployments
-- dev-mobile-device-policy
-- dev-test-maui-apps
+- rule: rules/maui-cross-platform/rule.md
+- rule: rules/build-cross-platform-apps/rule.md
+- rule: rules/progressive-web-app/rule.md
+- rule: rules/use-dynamic-viewport-units/rule.md
+- rule: rules/how-to-get-mobile-config-to-your-users/rule.md
+- rule: rules/how-to-monetize-apps/rule.md
+- rule: rules/ios-do-you-know-how-to-optimise-your-test-and-release-deployments/rule.md
+- rule: rules/dev-mobile-device-policy/rule.md
+- rule: rules/dev-test-maui-apps/rule.md
 
 ---
 

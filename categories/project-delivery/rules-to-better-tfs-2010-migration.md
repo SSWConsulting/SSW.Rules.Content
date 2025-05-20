@@ -1,22 +1,23 @@
 ---
+_template: category
 type: category
 title: Rules to Better TFS 2010 Migration
 guid: ea83a7ed-ad59-4d13-8bf4-63b6ef78d712
 uri: rules-to-better-tfs-2010-migration
 index:
-- tfs2010-migration-choices
-- rollback-plan-tfs2010-migration
-- do-you-get-a-new-tfs2010-server-ready
-- disable-connections-tfs2010-migration
-- run-your-dog-food-stats-before-tfs2010-migration
-- backup-your-databases-tfs2010-migration
-- do-you-know-how-to-upgrade-your-tfs2008-databases
-- do-a-quick-test-after-the-upgrade-finishes-tfs2010-migration
-- run-dog-food-stats-after-tfs2010-migration
-- get-a-developer-to-test-the-migration-tfs2010-migration
-- if-you-already-have-an-installation
-- do-you-know-how-to-integrate-with-sharepoint-2010
-- do-you-know-what-will-break-and-how-to-be-ready-for-them
+- rule: rules/tfs2010-migration-choices/rule.md
+- rule: rules/rollback-plan-tfs2010-migration/rule.md
+- rule: rules/do-you-get-a-new-tfs2010-server-ready/rule.md
+- rule: rules/disable-connections-tfs2010-migration/rule.md
+- rule: rules/run-your-dog-food-stats-before-tfs2010-migration/rule.md
+- rule: rules/backup-your-databases-tfs2010-migration/rule.md
+- rule: rules/do-you-know-how-to-upgrade-your-tfs2008-databases/rule.md
+- rule: rules/do-a-quick-test-after-the-upgrade-finishes-tfs2010-migration/rule.md
+- rule: rules/run-dog-food-stats-after-tfs2010-migration/rule.md
+- rule: rules/get-a-developer-to-test-the-migration-tfs2010-migration/rule.md
+- rule: rules/if-you-already-have-an-installation/rule.md
+- rule: rules/do-you-know-how-to-integrate-with-sharepoint-2010/rule.md
+- rule: rules/do-you-know-what-will-break-and-how-to-be-ready-for-them/rule.md
 
 ---
 

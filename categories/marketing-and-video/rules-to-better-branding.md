@@ -1,30 +1,31 @@
 ---
+_template: category
 type: category
 title: Rules to Better Branding
 guid: 101302ea-9cc1-4fec-986b-a2ca54a535cb
 uri: rules-to-better-branding
 index:
-- have-a-great-company-logo
-- branding-is-more-than-logo
-- set-design-guidelines
-- logo-redesign
-- do-you-use-identifying-company-logo-motifs
-- business-cards-branding
-- great-email-signatures
-- browser-add-branding
-- products-branding
-- events-branding
-- cars-branding
-- employees-branding
-- prefix-job-title
-- consistent-phone-message
-- coffee-mugs-branding
-- brand-your-assets
-- make-your-presents-branded
-- do-you-brand-your-takeaway-coffee-cups
-- have-urls-to-your-main-services-on-linkedin
-- screenshots-add-branding
-- plastic-bags-branding
+- rule: rules/have-a-great-company-logo/rule.md
+- rule: rules/branding-is-more-than-logo/rule.md
+- rule: rules/set-design-guidelines/rule.md
+- rule: rules/logo-redesign/rule.md
+- rule: rules/do-you-use-identifying-company-logo-motifs/rule.md
+- rule: rules/business-cards-branding/rule.md
+- rule: rules/great-email-signatures/rule.md
+- rule: rules/browser-add-branding/rule.md
+- rule: rules/products-branding/rule.md
+- rule: rules/events-branding/rule.md
+- rule: rules/cars-branding/rule.md
+- rule: rules/employees-branding/rule.md
+- rule: rules/prefix-job-title/rule.md
+- rule: rules/consistent-phone-message/rule.md
+- rule: rules/coffee-mugs-branding/rule.md
+- rule: rules/brand-your-assets/rule.md
+- rule: rules/make-your-presents-branded/rule.md
+- rule: rules/do-you-brand-your-takeaway-coffee-cups/rule.md
+- rule: rules/have-urls-to-your-main-services-on-linkedin/rule.md
+- rule: rules/screenshots-add-branding/rule.md
+- rule: rules/plastic-bags-branding/rule.md
 
 ---
 

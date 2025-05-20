@@ -1,13 +1,14 @@
 ---
+_template: category
 type: category
 title: Rules to Better Social Media - Paid Advertising
 guid: 95845767-3186-4c8f-833d-02d46afacb26
 uri: rules-to-better-social-media-paid-advertising
 index:
-- use-a-conversion-pixel
-- facebook-ads-metrics
-- x-ads-best-practices
-- ab-testing-social-paid-campaigns
+- rule: rules/use-a-conversion-pixel/rule.md
+- rule: rules/facebook-ads-metrics/rule.md
+- rule: rules/x-ads-best-practices/rule.md
+- rule: rules/ab-testing-social-paid-campaigns/rule.md
 
 
 ---

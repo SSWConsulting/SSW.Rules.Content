@@ -1,48 +1,49 @@
 ---
+_template: category
 type: category
 title: Rules to Better Microsoft Teams
 guid: 8d4f1557-16a2-4e77-aee7-95c8d3c5123d
 uri: rules-to-better-microsoft-teams
 index:
-- create-a-team
-- connect-client-im
-- teams-naming-conventions
-- use-emojis
-- teams-group-chat
-- when-to-use-meet-now
-- send-appointment-or-teams-meeting
-- do-you-make-your-team-meetings-easy-to-find
-- start-meetings-with-energy
-- create-recurring-teams-meetings-for-a-channel
-- use-the-status-message-in-teams
-- use-quiet-hours-in-teams
-- track-project-documents
-- sync-files-from-teams-to-file-explorer
-- rename-teams-channel-folder
-- teams-add-the-right-tabs
-- make-frequently-accessed-sharepoint-pages-easier-to-find
-- using-the-conversation-tab-to-task-out-work
-- the-best-wiki
-- how-to-use-teams-search
-- how-to-see-what-is-going-on-in-your-project
-- have-a-notifications-channel
-- integrate-dynamics-365-and-microsoft-teams
-- connect-crm-to-microsoft-teams
-- archive-old-teams
-- add-the-right-apps-when-creating-a-new-team
-- create-microsoft-forms-via-microsoft-teams
-- do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone
-- use-emojis-in-you-channel-names
-- workstations-use-gpu
-- meeting-join-info-at-the-top
-- video-background
-- phone-as-webcam
-- how-to-send-message-to-yourself-on-teams
-- answer-im-questions-in-order
-- teams-usage
-- use-microsoft-teams-room
-- refer-to-email-subject
-- when-to-use-microsoft-teams-preview
+- rule: rules/create-a-team/rule.md
+- rule: rules/connect-client-im/rule.md
+- rule: rules/teams-naming-conventions/rule.md
+- rule: rules/use-emojis/rule.md
+- rule: rules/teams-group-chat/rule.md
+- rule: rules/when-to-use-meet-now/rule.md
+- rule: rules/send-appointment-or-teams-meeting/rule.md
+- rule: rules/do-you-make-your-team-meetings-easy-to-find/rule.md
+- rule: rules/start-meetings-with-energy/rule.md
+- rule: rules/create-recurring-teams-meetings-for-a-channel/rule.md
+- rule: rules/use-the-status-message-in-teams/rule.md
+- rule: rules/use-quiet-hours-in-teams/rule.md
+- rule: rules/track-project-documents/rule.md
+- rule: rules/sync-files-from-teams-to-file-explorer/rule.md
+- rule: rules/rename-teams-channel-folder/rule.md
+- rule: rules/teams-add-the-right-tabs/rule.md
+- rule: rules/make-frequently-accessed-sharepoint-pages-easier-to-find/rule.md
+- rule: rules/using-the-conversation-tab-to-task-out-work/rule.md
+- rule: rules/the-best-wiki/rule.md
+- rule: rules/how-to-use-teams-search/rule.md
+- rule: rules/how-to-see-what-is-going-on-in-your-project/rule.md
+- rule: rules/have-a-notifications-channel/rule.md
+- rule: rules/integrate-dynamics-365-and-microsoft-teams/rule.md
+- rule: rules/connect-crm-to-microsoft-teams/rule.md
+- rule: rules/archive-old-teams/rule.md
+- rule: rules/add-the-right-apps-when-creating-a-new-team/rule.md
+- rule: rules/create-microsoft-forms-via-microsoft-teams/rule.md
+- rule: rules/do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone/rule.md
+- rule: rules/use-emojis-in-you-channel-names/rule.md
+- rule: rules/workstations-use-gpu/rule.md
+- rule: rules/meeting-join-info-at-the-top/rule.md
+- rule: rules/video-background/rule.md
+- rule: rules/phone-as-webcam/rule.md
+- rule: rules/how-to-send-message-to-yourself-on-teams/rule.md
+- rule: rules/answer-im-questions-in-order/rule.md
+- rule: rules/teams-usage/rule.md
+- rule: rules/use-microsoft-teams-room/rule.md
+- rule: rules/refer-to-email-subject/rule.md
+- rule: rules/when-to-use-microsoft-teams-preview/rule.md
 ---
 
 Microsoft Teams offers a great solution to collaboration using the Office 365 platform. Get ready for a productivity boost, better focus on your work, and increased transparency.

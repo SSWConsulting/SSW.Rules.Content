@@ -1,36 +1,37 @@
 ---
+_template: category
 type: category
 title: Rules to Better Communication
 guid: 471816bf-f0df-4835-bf4d-66a90f6f1adc
 uri: rules-to-better-communication
 index:
-  - follow-up-effectively
-  - keep-tasks-handy-for-calls
-  - tool-for-facilitating-real-time-collaboration
-  - catering-to-audience
-  - zooming-in-and-out
-  - ask-for-help
-  - document-discoveries
-  - defining-pbis
-  - explaining-pbis
-  - meaningful-pbi-titles
-  - useful-information-on-changes
-  - the-best-chat-tools-for-your-employees
-  - do-you-have-successful-remote-meetings
-  - call-first-before-emailing
-  - asking-questions
-  - do-you-know-you-should-write-notes-when-an-activity-is-going
-  - loop-someone-in
-  - speak-up
-  - match-tone-with-intent
-  - avoid-but
-  - the-happiness-equation
-  - take-effective-notes
-  - escalate-key-updates
-  - corridor-conversations
-  - tofu
-  - attention-to-detail
-  - collaborate-across-timezones
+  - rule: rules/follow-up-effectively/rule.md
+  - rule: rules/keep-tasks-handy-for-calls/rule.md
+  - rule: rules/tool-for-facilitating-real-time-collaboration/rule.md
+  - rule: rules/catering-to-audience/rule.md
+  - rule: rules/zooming-in-and-out/rule.md
+  - rule: rules/ask-for-help/rule.md
+  - rule: rules/document-discoveries/rule.md
+  - rule: rules/defining-pbis/rule.md
+  - rule: rules/explaining-pbis/rule.md
+  - rule: rules/meaningful-pbi-titles/rule.md
+  - rule: rules/useful-information-on-changes/rule.md
+  - rule: rules/the-best-chat-tools-for-your-employees/rule.md
+  - rule: rules/do-you-have-successful-remote-meetings/rule.md
+  - rule: rules/call-first-before-emailing/rule.md
+  - rule: rules/asking-questions/rule.md
+  - rule: rules/do-you-know-you-should-write-notes-when-an-activity-is-going/rule.md
+  - rule: rules/loop-someone-in/rule.md
+  - rule: rules/speak-up/rule.md
+  - rule: rules/match-tone-with-intent/rule.md
+  - rule: rules/avoid-but/rule.md
+  - rule: rules/the-happiness-equation/rule.md
+  - rule: rules/take-effective-notes/rule.md
+  - rule: rules/escalate-key-updates/rule.md
+  - rule: rules/corridor-conversations/rule.md
+  - rule: rules/tofu/rule.md
+  - rule: rules/attention-to-detail/rule.md
+  - rule: rules/collaborate-across-timezones/rule.md
   
 ---
 

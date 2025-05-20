@@ -1,20 +1,21 @@
 ---
+_template: category
 type: category
 title: Rules to Better Offices
 guid: 44d608eb-cbd6-4391-b8ef-f91160e751c4
 uri: rules-to-better-offices
 index:
-- do-you-colour-code-your-keys
-- do-you-identify-your-online-purchases
-- manage-office-signs
-- employee-yolo-day
-- reduce-office-noise
-- build-inter-office-interaction
-- dress-code
-- bring-water-to-guests
-- cultural-exchange
-- desk-setups
-- google-maps-profile
+- rule: rules/do-you-colour-code-your-keys/rule.md
+- rule: rules/do-you-identify-your-online-purchases/rule.md
+- rule: rules/manage-office-signs/rule.md
+- rule: rules/employee-yolo-day/rule.md
+- rule: rules/reduce-office-noise/rule.md
+- rule: rules/build-inter-office-interaction/rule.md
+- rule: rules/dress-code/rule.md
+- rule: rules/bring-water-to-guests/rule.md
+- rule: rules/cultural-exchange/rule.md
+- rule: rules/desk-setups/rule.md
+- rule: rules/google-maps-profile/rule.md
 
 ---
 

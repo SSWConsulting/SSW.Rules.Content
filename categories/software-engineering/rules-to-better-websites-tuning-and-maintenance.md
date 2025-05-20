@@ -1,19 +1,20 @@
 ---
+_template: category
 type: category
 title: Rules to Better Websites - Tuning and Maintenance
 guid: b25822f3-2793-4f14-85fb-35f099c2d095
 uri: rules-to-better-websites-tuning-and-maintenance
 index:
-- provide-fresh-content
-- monitor-google-keywords
-- analyze-website-performance
-- analyze-your-website-stats
-- do-you-check-your-website-is-multi-browser-compatible
-- have-a-healthcheck-page-to-make-sure-your-website-is-healthy
-- have-auto-generated-maintenance-pages
-- have-an-uptime-report-for-your-website
-- how-to-find-broken-links
-- perform-security-and-system-checks
+- rule: rules/provide-fresh-content/rule.md
+- rule: rules/monitor-google-keywords/rule.md
+- rule: rules/analyze-website-performance/rule.md
+- rule: rules/analyze-your-website-stats/rule.md
+- rule: rules/do-you-check-your-website-is-multi-browser-compatible/rule.md
+- rule: rules/have-a-healthcheck-page-to-make-sure-your-website-is-healthy/rule.md
+- rule: rules/have-auto-generated-maintenance-pages/rule.md
+- rule: rules/have-an-uptime-report-for-your-website/rule.md
+- rule: rules/how-to-find-broken-links/rule.md
+- rule: rules/perform-security-and-system-checks/rule.md
 
 ---
 

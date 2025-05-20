@@ -1,14 +1,15 @@
 ---
+_template: category
 type: category
 title: Rules to Better LINQ
 guid: 0af65388-eb38-4881-ba9a-ef46039bf54a
 uri: rules-to-better-linq
 index:
-  - avoid-materializing-an-ienumerable
-  - avoid-iterating-multiple-times
-  - use-filtering-in-linq-methods
-  - how-linq-has-evolved
-  - linq-performance
+  - rule: rules/avoid-materializing-an-ienumerable/rule.md
+  - rule: rules/avoid-iterating-multiple-times/rule.md
+  - rule: rules/use-filtering-in-linq-methods/rule.md
+  - rule: rules/how-linq-has-evolved/rule.md
+  - rule: rules/linq-performance/rule.md
 ---
 
 Language Integrated Query or LINQ for short, is described by Microsoft as "a set of technologies based on the integration of query capabilities directly into the C# language".

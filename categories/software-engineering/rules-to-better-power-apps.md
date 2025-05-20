@@ -1,23 +1,24 @@
 ---
+_template: category
 type: category
 title: Rules to Better Power Apps
 guid: c408e208-8108-47cf-9e03-277f21343bee
 uri: rules-to-better-power-apps
 index:
-- bundle-all-your-customizations-in-a-solution
-- the-difference-between-canvas-apps-and-model-driven-apps
-- hundreds-of-connectors-for-power-apps
-- training-templates-to-help-you-learn-power-apps
-- claim-your-power-apps-community-plan
-- use-source-control-for-powerapps
-- when-to-use-power-automate-vs-internal-workflow-engine
-- place-you-components-in-a-component-library
-- use-components-to-create-custom-controls
-- use-environment-variables-for-environment-specific-configurations
-- use-power-platform-build-tools-to-automate-your-power-apps-deployments
-- when-to-use-dataverse
-- when-to-use-low-code
-- build-cost-effective-power-apps
+- rule: rules/bundle-all-your-customizations-in-a-solution/rule.md
+- rule: rules/the-difference-between-canvas-apps-and-model-driven-apps/rule.md
+- rule: rules/hundreds-of-connectors-for-power-apps/rule.md
+- rule: rules/training-templates-to-help-you-learn-power-apps/rule.md
+- rule: rules/claim-your-power-apps-community-plan/rule.md
+- rule: rules/use-source-control-for-powerapps/rule.md
+- rule: rules/when-to-use-power-automate-vs-internal-workflow-engine/rule.md
+- rule: rules/place-you-components-in-a-component-library/rule.md
+- rule: rules/use-components-to-create-custom-controls/rule.md
+- rule: rules/use-environment-variables-for-environment-specific-configurations/rule.md
+- rule: rules/use-power-platform-build-tools-to-automate-your-power-apps-deployments/rule.md
+- rule: rules/when-to-use-dataverse/rule.md
+- rule: rules/when-to-use-low-code/rule.md
+- rule: rules/build-cost-effective-power-apps/rule.md
 
 ---
 

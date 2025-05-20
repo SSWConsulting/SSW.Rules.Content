@@ -1,25 +1,26 @@
 ---
+_template: category
 type: category
 title: Rules to Better Active Directory
 guid: a21d03ec-d230-46de-8fa8-beecf84059ca
 uri: rules-to-better-active-directory
 index:
-- do-you-add-staff-profile-pictures-into-ad
-- disable-users-rather-than-deleting-for-better-crm-reporting
-- do-you-have-a-postmaster-account-in-your-microsoft-exchange
-- do-you-standardise-ad-group-names
-- do-you-use-group-policy-to-apply-settings-to-all-of-your-pcs
-- use-group-policy-to-enable-auditing-of-logon-attempts
-- do-you-use-group-policy-to-enable-hibernate-option
-- do-you-use-separate-administrator-account
-- run-services-on-their-own-ad-accounts
-- check-ad-security-with-pingcastle
-- leaving-employee-standard
-- delete-computer-accounts-from-ad
-- audit-ad
-- domain-controller-auditing
-- laps-local-admin-passwords
-- run-rsat-from-non-domain-computer
+- rule: rules/do-you-add-staff-profile-pictures-into-ad/rule.md
+- rule: rules/disable-users-rather-than-deleting-for-better-crm-reporting/rule.md
+- rule: rules/do-you-have-a-postmaster-account-in-your-microsoft-exchange/rule.md
+- rule: rules/do-you-standardise-ad-group-names/rule.md
+- rule: rules/do-you-use-group-policy-to-apply-settings-to-all-of-your-pcs/rule.md
+- rule: rules/use-group-policy-to-enable-auditing-of-logon-attempts/rule.md
+- rule: rules/do-you-use-group-policy-to-enable-hibernate-option/rule.md
+- rule: rules/do-you-use-separate-administrator-account/rule.md
+- rule: rules/run-services-on-their-own-ad-accounts/rule.md
+- rule: rules/check-ad-security-with-pingcastle/rule.md
+- rule: rules/leaving-employee-standard/rule.md
+- rule: rules/delete-computer-accounts-from-ad/rule.md
+- rule: rules/audit-ad/rule.md
+- rule: rules/domain-controller-auditing/rule.md
+- rule: rules/laps-local-admin-passwords/rule.md
+- rule: rules/run-rsat-from-non-domain-computer/rule.md
 
 ---
 

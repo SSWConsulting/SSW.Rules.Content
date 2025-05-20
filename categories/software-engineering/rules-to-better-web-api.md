@@ -1,16 +1,17 @@
 ---
+_template: category
 type: category
 title: Rules to Better Web API
 guid: 1be95aba-742b-4ab9-bca6-ed78f1821ede
 uri: rules-to-better-web-api
 index:
-- choose-the-right-api-tech
-- graphql-when-to-use
-- do-you-return-detailed-error-messages
-- do-you-return-the-correct-response-code
-- use-fluent-validation
-- do-you-add-timestamps
-- do-you-apply-the-validatemodel-attribute-to-all-controllers
+- rule: rules/choose-the-right-api-tech/rule.md
+- rule: rules/graphql-when-to-use/rule.md
+- rule: rules/do-you-return-detailed-error-messages/rule.md
+- rule: rules/do-you-return-the-correct-response-code/rule.md
+- rule: rules/use-fluent-validation/rule.md
+- rule: rules/do-you-add-timestamps/rule.md
+- rule: rules/do-you-apply-the-validatemodel-attribute-to-all-controllers/rule.md
 
 ---
 

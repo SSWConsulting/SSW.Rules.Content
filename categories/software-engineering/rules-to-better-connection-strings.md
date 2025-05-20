@@ -1,16 +1,17 @@
 ---
+_template: category
 type: category
 title: Rules to Better Connection Strings
 guid: dd3a1ae7-f155-434a-8d56-e32ea1a5cc82
 uri: rules-to-better-connection-strings
 index:
-- how-to-make-connection-strings-in-different-environment
-- do-you-use-windows-integrated-authentication-connection-string-in-web-config
-- do-you-avoid-using-duplicate-connection-string-in-web-config
-- avoid-putting-connection-strings-in-business-module
-- avoid-using-non-strongly-typed-connection-strings
-- add-the-application-name-in-the-sql-server-connection-string
-- best-place-to-place-the-connection-string
+- rule: rules/how-to-make-connection-strings-in-different-environment/rule.md
+- rule: rules/do-you-use-windows-integrated-authentication-connection-string-in-web-config/rule.md
+- rule: rules/do-you-avoid-using-duplicate-connection-string-in-web-config/rule.md
+- rule: rules/avoid-putting-connection-strings-in-business-module/rule.md
+- rule: rules/avoid-using-non-strongly-typed-connection-strings/rule.md
+- rule: rules/add-the-application-name-in-the-sql-server-connection-string/rule.md
+- rule: rules/best-place-to-place-the-connection-string/rule.md
 ---
 
 Managing connection strings effectively in software development is vital for several key reasons. Firstly, it significantly enhances security; connection strings often contain sensitive data, such as usernames and passwords, which need to be protected from unauthorized access. By properly managing these strings, developers can ensure that this critical information is secured and not inadvertently exposed, especially in source code repositories.

@@ -1,14 +1,15 @@
 ---
+_template: category
 type: category
 title: Rules to Better Web API - GraphQL
 guid: ca8ae117-78b1-4e42-8619-4d54db1ab586
 uri: rules-to-better-web-api-graphql
 index:
-- do-you-know-what-graphql-is
-- graphql-when-to-use
-- the-best-learning-resources-for-graphql
-- do-you-return-detailed-error-messages
-- use-fluent-validation
+- rule: rules/do-you-know-what-graphql-is/rule.md
+- rule: rules/graphql-when-to-use/rule.md
+- rule: rules/the-best-learning-resources-for-graphql/rule.md
+- rule: rules/do-you-return-detailed-error-messages/rule.md
+- rule: rules/use-fluent-validation/rule.md
 
 ---
 

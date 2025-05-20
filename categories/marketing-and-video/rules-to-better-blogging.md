@@ -1,35 +1,36 @@
 ---
+_template: category
 type: category
 title: Rules to Better Blogging
 guid: 8a9f4f20-dccf-493a-bea3-d1c441c42a22
 uri: rules-to-better-blogging
 index:
-- split-large-topics-into-multiple-blog-posts
-- are-you-still-ui-aware
-- do-you-have-a-subscribe-button-on-your-blog-aka-rss
-- document-what-you-are-doing
-- blog-every-time-you-publish-a-video
-- encourage-blog-comments
-- do-you-know-that-factual-content-is-king
-- check-facts
-- acknowledge-who-give-feedback
-- do-you-know-to-allow-employees-to-post-to-their-personal-blog
-- polish-blog-post-after-hours
-- do-you-know-to-make-what-you-can-make-public
-- do-you-know-to-tip-dont-rant
-- do-you-know-to-update-a-blog
-- do-you-post-all-useful-internal-emails-to-the-company-blog
-- prefix-on-blog-posts-titles
-- do-you-clearly-highlight-video-posts
-- avoid-the-term-emotional
-- do-you-know-how-to-share-a-touch-of-code
-- transcribe-your-videos
-- add-a-featured-image-to-your-blog-post
-- where-to-find-images
-- share-every-blog-post
-- give-thanks
-- promote-your-colleagues
-- seo-nofollow
+- rule: rules/split-large-topics-into-multiple-blog-posts/rule.md
+- rule: rules/are-you-still-ui-aware/rule.md
+- rule: rules/do-you-have-a-subscribe-button-on-your-blog-aka-rss/rule.md
+- rule: rules/document-what-you-are-doing/rule.md
+- rule: rules/blog-every-time-you-publish-a-video/rule.md
+- rule: rules/encourage-blog-comments/rule.md
+- rule: rules/do-you-know-that-factual-content-is-king/rule.md
+- rule: rules/check-facts/rule.md
+- rule: rules/acknowledge-who-give-feedback/rule.md
+- rule: rules/do-you-know-to-allow-employees-to-post-to-their-personal-blog/rule.md
+- rule: rules/polish-blog-post-after-hours/rule.md
+- rule: rules/do-you-know-to-make-what-you-can-make-public/rule.md
+- rule: rules/do-you-know-to-tip-dont-rant/rule.md
+- rule: rules/do-you-know-to-update-a-blog/rule.md
+- rule: rules/do-you-post-all-useful-internal-emails-to-the-company-blog/rule.md
+- rule: rules/prefix-on-blog-posts-titles/rule.md
+- rule: rules/do-you-clearly-highlight-video-posts/rule.md
+- rule: rules/avoid-the-term-emotional/rule.md
+- rule: rules/do-you-know-how-to-share-a-touch-of-code/rule.md
+- rule: rules/transcribe-your-videos/rule.md
+- rule: rules/add-a-featured-image-to-your-blog-post/rule.md
+- rule: rules/where-to-find-images/rule.md
+- rule: rules/share-every-blog-post/rule.md
+- rule: rules/give-thanks/rule.md
+- rule: rules/promote-your-colleagues/rule.md
+- rule: rules/seo-nofollow/rule.md
 
 ---
 
