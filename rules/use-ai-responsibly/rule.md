@@ -6,9 +6,8 @@ seoDescription: Learn how to use AI responsibly by balancing transparency,
   critical thinking, data privacy, and getting the best value.
 uri: use-ai-responsibly
 authors:
-  - title: ""
   - title: Ulysses Maclaren
-    url: https://www.ssw.com.au/people/ulysses-maclaren/
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 related:
   - manage-security-risks-when-adopting-ai-solutions
   - manage-legal-implications-of-ai
