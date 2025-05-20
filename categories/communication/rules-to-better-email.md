@@ -11,7 +11,6 @@ index:
 - as-per-our-conversation-emails
 - number-tasks-questions
 - add-days-to-dates
-- include-names-as-headings
 - do-not-bury-your-headline
 - standard-email-types
 - change-from-x-to-y
@@ -26,9 +25,6 @@ index:
 - do-you-know-who-to-put-in-the-to-field
 - better-late-than-never
 - give-emails-a-business-value
-- include-names-as-headings
-- include-names-as-headings
-- include-names-as-headings
 - include-names-as-headings
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
