@@ -30,7 +30,7 @@ index:
   - use-github-discussions
   - use-github-topics
   - react-to-github
-  - use-teams
+  - use-github-teams-for-collaborator-permissions
   - github-mobile
   - how-to-view-activity-traffic-and-contributions-of-a-project
   - limit-admin-access

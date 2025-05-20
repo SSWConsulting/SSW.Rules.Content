@@ -20,7 +20,7 @@ index:
 - demo-slides
 - do-you-use-standard-question-mark-when-you-are-going-to-ask-the-audience-something
 - do-you-use-slido
-- do-you-use-high-quality-images
+- high-quality-images
 - do-you-keep-your-presentation-simple
 - do-you-make-todo-items-in-red
 - do-you-use-the-full-slide-for-screenshots
@@ -35,7 +35,6 @@ index:
 - use-qr-codes-for-urls
 - use-creative-commons-images
 - powerpoint-comments
-
 ---
 
 Create impactful PowerPoint presentations with these essential rules. From using templates effectively to engaging your audience with interactive tools, these tips will help you deliver clear, professional, and visually appealing presentations.

@@ -43,7 +43,7 @@ index:
   - when-to-go-for-a-tender
   - do-you-treat-freebies-as-real-customers
   - the-outcomes-from-your-initial-meeting
-  - scheduling-do-you-know-how-to-book-developers-for-a-project
+  - book-developers-for-a-project
   - use-esignature-solutions
   - what-currency-to-quote
   - avoid-using-too-many-decimals

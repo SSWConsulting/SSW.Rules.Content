@@ -19,7 +19,6 @@ index:
 - do-you-place-scripts-at-the-bottom-of-your-page
 - do-you-remove-language-from-your-script-tag
 - do-you-separate-javascript-functionality-aka-unobtrusive-javascript
-- do-you-streamline-your-development-process-with-npm-and-task-runners
 - do-you-treat-javascript-like-a-real-language
 - angular-read-and-write-to-the-model-never-to-the-page
 - best-package-manager-for-node
@@ -32,7 +31,6 @@ index:
 - web-ui-libraries
 - the-best-tool-to-debug-javascript
 - link-local-npm-dependency
-
 ---
 
 Optimize your JavaScript and jQuery practices with essential guidelines that enhance code quality and maintainability. This collection covers best practices for coding standards, library usage, and effective debugging, ensuring that your scripts run efficiently and reliably across different environments.

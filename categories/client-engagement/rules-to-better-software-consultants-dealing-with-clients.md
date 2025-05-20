@@ -49,7 +49,7 @@ index:
 - fix-problems-quickly
 - do-you-try-a-second-time-straight-away-when-you-are-calling-a-client
 - do-you-know-how-to-get-started-with-your-training
-- do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
+- lose-battle-keep-client
 - do-you-know-the-numbers-you-give-clients
 - do-you-know-the-client-is-not-always-right
 - for-the-record
@@ -62,7 +62,6 @@ index:
 - return-on-investment
 - lose-battle-keep-client
 - poc-vs-mvp
-
 ---
 
 Being a software consultant involves more than just coding. How you manage and communicate with your clients is vital to your success.
