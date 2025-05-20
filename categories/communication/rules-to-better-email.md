@@ -27,6 +27,7 @@ index:
 - better-late-than-never
 - give-emails-a-business-value
 - include-names-as-headings
+- include-names-as-headings
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
