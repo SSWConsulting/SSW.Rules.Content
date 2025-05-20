@@ -29,6 +29,7 @@ index:
 - include-names-as-headings
 - include-names-as-headings
 - include-names-as-headings
+- include-names-as-headings
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
