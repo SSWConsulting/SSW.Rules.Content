@@ -26,6 +26,10 @@ index:
 - do-you-know-who-to-put-in-the-to-field
 - better-late-than-never
 - give-emails-a-business-value
+- include-names-as-headings
+- include-names-as-headings
+- include-names-as-headings
+- include-names-as-headings
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
@@ -80,6 +84,7 @@ index:
 - avoid-sarcasm-misunderstanding
 - autocorrect-in-outlook
 - dictate-emails
+- screenshots-avoid-walls-of-text
 - screenshots-add-branding
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
