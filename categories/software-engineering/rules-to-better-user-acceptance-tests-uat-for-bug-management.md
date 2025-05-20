@@ -14,7 +14,7 @@ index:
 - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 - do-you-do-exploratory-testing
 - add-test-case-to-test-plan-azure-test-plans
-- problem-steps-recorder
+- recording-screen
 - bdd
 - automated-ui-testing
 ---

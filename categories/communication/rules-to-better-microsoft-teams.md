@@ -15,7 +15,7 @@ index:
 - start-meetings-with-energy
 - create-recurring-teams-meetings-for-a-channel
 - use-the-status-message-in-teams
-- work-in-order-of-importance-aka-priorities
+- use-quiet-hours-in-teams
 - track-project-documents
 - sync-files-from-teams-to-file-explorer
 - rename-teams-channel-folder
