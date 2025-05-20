@@ -21,6 +21,7 @@ index:
 - keep-track-of-a-parking-lot-for-topics
 - getting-a-busy-person-into-the-meeting
 - record-teams-meetings
+- use-ai-for-meeting-notes
 - speak-up-in-meetings
 
 ---
