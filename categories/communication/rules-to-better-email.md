@@ -40,7 +40,6 @@ index:
 - do-you-avoid-attaching-emails-to-emails
 - dones-do-you-include-relevant-info-from-attachments-in-the-body-of-the-email
 - are-you-aware-of-the-importance-of-a-clients-email-attachment
-- screenshots-avoid-walls-of-text
 - avoid-large-attachments-in-emails
 - how-to-do-a-perfect-done
 - avoid-replying-to-all-when-bcced
