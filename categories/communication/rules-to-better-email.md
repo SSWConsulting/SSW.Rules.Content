@@ -80,6 +80,7 @@ index:
 - avoid-sarcasm-misunderstanding
 - autocorrect-in-outlook
 - dictate-emails
+- screenshots-avoid-walls-of-text
 - screenshots-add-branding
 - bounces-do-you-know-what-to-do-with-bounced-email
 - bounces-do-you-know-how-to-correct-a-bounce
