@@ -26,6 +26,7 @@ index:
 - do-you-know-who-to-put-in-the-to-field
 - better-late-than-never
 - give-emails-a-business-value
+- include-names-as-headings
 - send-email-tasks-to-individuals
 - add-context-reasoning-to-emails
 - seek-clarification-via-phone
