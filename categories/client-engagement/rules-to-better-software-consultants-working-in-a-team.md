@@ -81,7 +81,7 @@ index:
 - speak-up
 - the-happiness-equation
 - build-inter-office-interaction
-- build-inter-office-interaction
+- work-in-pairs
 - gather-team-opinions
 - call-your-system-administrators-before-raising-a-ticket
 - do-you-use-suspend-on-your-notebook
