@@ -28,6 +28,7 @@ index:
 - do-you-know-when-to-use-smartpart-or-webpart
 - does-your-sharepoint-site-have-a-favicon
 - style-files-for-deployment-in-sharepoint
+- style-files-for-deployment-in-sharepoint
 - do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
 - do-you-know-you-cant-think-of-data-the-same-way
 - do-you-let-your-designers-loose-on-sharepoint
