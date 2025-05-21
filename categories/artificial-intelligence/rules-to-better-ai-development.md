@@ -9,6 +9,7 @@ index:
 - train-gpt
 - use-system-prompt
 - agentic-ai
+- low-code-and-ai
 - use-semantic-kernel
 - evaluate-slms-vs-azure-cloud-llms
 - choosing-large-language-models
