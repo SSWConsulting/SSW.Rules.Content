@@ -37,13 +37,13 @@ def modify_markdown_files(categories_root='categories'):
         # Initialize update flag
         needs_update = False
         
-        # 1. ADD _template FIELD (GUARANTEED)
+        # 1. ADD _template FIELD
         if '_template:' not in fm_content:
             # Insert after the opening ---
             fm_content = '_template: top_category\n' + fm_content
             needs_update = True
         
-        # 2. PROCESS INDEX ITEMS (RELIABLY)
+        # 2. PROCESS INDEX ITEMS
         if 'index:' in fm_content:
             # Split into lines for precise processing
             lines = fm_content.split('\n')

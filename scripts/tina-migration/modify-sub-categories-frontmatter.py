@@ -7,8 +7,6 @@ def modify_category_files(categories_root='categories'):
     # Find all *.md files in subfolders of categories except index.md
     pattern = os.path.join(categories_root, '**', '*.md')
     md_files = glob.glob(pattern, recursive=True)
-    
-    # Filter out index.md files
     md_files = [f for f in md_files if not f.endswith('index.md')]
     
     for file_path in md_files:
