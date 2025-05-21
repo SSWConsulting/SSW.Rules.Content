@@ -23,11 +23,11 @@ Low-code platforms with built-in or easy AI integration make automation more acc
 
 Modern businesses run on digital processes. But without automation, these processes can become a drain on resources. By adopting low-code automation platforms, you can:
 
-- Eliminate repetitive manual tasks
-- Increase accuracy and consistency
-- Free up developer time for higher-value work
-- Create scalable, reusable automations
-- Easily integrate with AI tools for content generation, decision-making, and more
+* Eliminate repetitive manual tasks
+* Increase accuracy and consistency
+* Free up developer time for higher-value work
+* Create scalable, reusable automations
+* Easily integrate with AI tools for content generation, decision-making, and more
 
 ## How to Start
 
