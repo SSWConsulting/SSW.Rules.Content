@@ -57,6 +57,6 @@ Best of all they have a [Release Gate available on the DevOps market place](http
 
 ![Figure: MailChimp status - status.mailchimp.com](mailchimp-status.jpg)
 
-See [Do you have a Health Check page to test your website dependencies?](/have-a-healthcheck-page-to-test-your-website-dependencies)
+See [Do you have a Health Check page to test your website dependencies?](/have-a-health-check-page-to-test-your-website-dependencies)
 
 ![Figure: Check everything with care](check-everything.jpg)
