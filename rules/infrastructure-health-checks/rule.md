@@ -102,9 +102,9 @@ When deploying apps in Azure it's good practice to enable health checks within t
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
 
 ::: bad
-![Figure: Bad example – The user is given the chance to interact with a feature that is currently unavailable.](infra-bad-example.png)
+![Figure: Bad example – The user is given the chance to interact with a feature that is currently unavailable](infra-bad-example.png)
 :::
 
 ::: good
-![Figure: Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable.](infra-good-example.png)
+![Figure: Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable](infra-good-example.png)
 :::
