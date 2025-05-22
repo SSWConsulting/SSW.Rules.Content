@@ -1,8 +1,8 @@
 ---
 type: rule
 title: Do you Health Check your Infrastructure?
-seoDescription: Website dependency and infrastructure healthchecks
-uri: infrastructure-healthchecks
+seoDescription: Website dependency and infrastructure health checks
+uri: infrastructure-health-checks
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -42,20 +42,19 @@ To set up health checks in a .NET application, start by configuring the built-in
 
 Adding comprehensive health checks is great, but if no-one is told about it - what's the point? There are awesome tools available to notify Site Reliability Engineers (SREs) or SysAdmins when something is offline, so make sure your app is set up to use them! For instance, Azure's [Azure Monitor Alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) and AWS' [CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/WhatIsCloudWatch.html) provide a suite of configurable options for who, what, when, and how alerts should be fired.
 
-## Healthcheck UIs
+## Health check UIs
 
-Depending on your needs, you may want to bake in a healthcheck UI directly into your app. Packages like [AspNetCore.HealthChecks.UI](https://www.nuget.org/packages/AspNetCore.HealthChecks.UI/) make this a breeze, and can often act as your canary in the coalmine. Cloud providers' native status/health pages can take a while to update, so having your own can be a huge timesaver.
+Depending on your needs, you may want to bake in a health check UI directly into your app. Packages like [AspNetCore.HealthChecks.UI](https://www.nuget.org/packages/AspNetCore.HealthChecks.UI/) make this a breeze, and can often act as your canary in the coalmine. Cloud providers' native status/health pages can take a while to update, so having your own can be a huge timesaver.
 
 ![Figure: AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
 
 ## Tips for Securing Your Health check Endpoints
 
-Keep healthcheck endpoints internal by default to avoid exposing sensitive system data.
+Keep health check endpoints internal by default to avoid exposing sensitive system data.
 
 ## Health Checks in Azure
 
 When deploying apps in Azure it's good practice to enable health checks within the Azure portal. The Azure portal allows you to perform health checks on specific paths for your app service. Azure pings these paths at 1 minute intervals ensuring the response code is between **200** and **299**. If 10 consecutive responses with error codes accumulate the app service will be deemed unhealthy and will be replaced with a new instance.
-
 
 ::: good
 ![Figure: Good example - Performing a health check on an azure app service](image-3-.png)

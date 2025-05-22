@@ -1,8 +1,8 @@
 ---
-seoDescription: Ensure your website's health by having a HealthCheck page with /zsValidate to prevent deployment errors and identify coding mistakes.
+seoDescription: Ensure your website's health by having a Health Check page with /zsValidate to prevent deployment errors and identify coding mistakes.
 type: rule
-title: Do you have a HealthCheck page (from /zsValidate) to make sure your website is healthy?
-uri: have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+title: Do you have a Health Check page (from /zsValidate) to make sure your website is healthy?
+uri: have-a-health-check-page-to-make-sure-your-website-is-healthy
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -12,6 +12,7 @@ authors:
     url: https://ssw.com.au/people/jason-taylor
 related: []
 redirects:
+  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
   - do-you-have-a-healthcheck-page-from-zsvalidate-to-make-sure-your-website-is-healthy
   - do-you-have-a-healthcheck-page-(from-zsvalidate)-to-make-sure-your-website-is-healthy
 created: 2016-11-28T18:46:01.000Z
@@ -19,9 +20,9 @@ archivedreason: null
 guid: d1d9fb82-25d3-43e8-98d7-2a4d5bee24e8
 ---
 
-Websites can be complicated, and a very small mistake can take the whole site down. But there are two different kinds of errors, coding errors and deployment errors; coding errors should be picked up by compiling and debugging, while deployment errors should be picked up by the HealthCheck page.
+Websites can be complicated, and a very small mistake can take the whole site down. But there are two different kinds of errors, coding errors and deployment errors; coding errors should be picked up by compiling and debugging, while deployment errors should be picked up by the Health Check page.
 
-Whenever there is a deployment problem, instead of fixing it straight away, we find out what the cause of the problem is and create a HealthCheck test to prevent it from happening again. So next time, when the site is down or re-deployed to a new server, we can simply run the HealthCheck page and fix all red crosses then the site should be back online.
+Whenever there is a deployment problem, instead of fixing it straight away, we find out what the cause of the problem is and create a Health Check test to prevent it from happening again. So next time, when the site is down or re-deployed to a new server, we can simply run the Health Check page and fix all red crosses then the site should be back online.
 
 <!--endintro-->
 
@@ -56,6 +57,6 @@ Best of all they have a [Release Gate available on the DevOps market place](http
 
 ![Figure: MailChimp status - status.mailchimp.com](mailchimp-status.jpg)
 
-See [Do you have a HealthCheck page to test your website dependencies?](/have-a-healthcheck-page-to-test-your-website-dependencies)
+See [Do you have a Health Check page to test your website dependencies?](/have-a-health-check-page-to-test-your-website-dependencies)
 
 ![Figure: Check everything with care](check-everything.jpg)
