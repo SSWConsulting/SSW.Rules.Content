@@ -47,7 +47,18 @@ Adding comprehensive health checks is great, but if no-one is told about it - wh
 
 Depending on your needs, you may want to bake in a health check UI directly into your app. Packages like [AspNetCore.HealthChecks.UI](https://www.nuget.org/packages/AspNetCore.HealthChecks.UI/) make this a breeze, and can often act as your canary in the coalmine. Cloud providers' native status/health pages can take a while to update, so having your own can be a huge timesaver.
 
-![Figure: AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
+::: good
+![Figure: Good example - AspNetCore.HealthChecks.UI gives you a healthcheck dashboard OOTB](https://raw.githubusercontent.com/Xabaril/AspNetCore.Diagnostics.HealthChecks/refs/heads/master/doc/images/ui-home.png)
+:::
+
+::: good
+![Figure: Good example - SSWTimePro has a Health Check page](timepro-health-check.png)
+::: 
+
+::: good
+![Figure: Good example - Tina.io has a Health Check page](tina-health-check.png)
+:::
+
 
 ## Tips for Securing Your Health check Endpoints
 
