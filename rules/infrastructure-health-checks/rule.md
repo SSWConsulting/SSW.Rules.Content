@@ -14,8 +14,6 @@ authors:
     url: https://ssw.com.au/people/ben-neoh
   - title: Toby Churches
     url: https://www.ssw.com.au/people/toby-churches/
-  - title: Ben Neoh
-    url: https://www.ssw.com.au/people/ben-neoh/
 related:
   - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
 redirects:
