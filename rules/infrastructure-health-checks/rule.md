@@ -92,7 +92,7 @@ When deploying apps in Azure it's good practice to enable health checks within t
 
 ## Handle offline infrastructure gracefully
 
-| Category         | Example Services                                                      |
+| Category         | Example services                                                      |
 | ---------------- | --------------------------------------------------------------------- |
 | **Critical**     | Database, Redis cache, authentication service (e.g., Auth0, Azure AD) |
 | **Non-Critical** | OpenAI API, email/SMS providers, analytics tools                      |
