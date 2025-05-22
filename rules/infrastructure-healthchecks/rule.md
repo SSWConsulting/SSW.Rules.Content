@@ -56,7 +56,6 @@ Keep health check endpoints internal by default to avoid exposing sensitive syst
 
 When deploying apps in Azure it's good practice to enable health checks within the Azure portal. The Azure portal allows you to perform health checks on specific paths for your app service. Azure pings these paths at 1 minute intervals ensuring the response code is between **200** and **299**. If 10 consecutive responses with error codes accumulate the app service will be deemed unhealthy and will be replaced with a new instance.
 
-
 ::: good
 ![Figure: Good example - Performing a health check on an azure app service](image-3-.png)
 :::
