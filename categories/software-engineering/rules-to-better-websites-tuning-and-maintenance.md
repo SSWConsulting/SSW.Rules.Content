@@ -9,7 +9,7 @@ index:
 - analyze-website-performance
 - analyze-your-website-stats
 - do-you-check-your-website-is-multi-browser-compatible
-- have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+- have-a-health-check-page-to-make-sure-your-website-is-healthy
 - have-auto-generated-maintenance-pages
 - have-an-uptime-report-for-your-website
 - how-to-find-broken-links

@@ -11,7 +11,7 @@ authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
 related:
-  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+  - have-a-health-check-page-to-make-sure-your-website-is-healthy
 redirects:
   - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
   - do-you-have-a-healthcheck-(was-zsvalidate)
@@ -21,7 +21,7 @@ created: 2020-03-12T20:57:37.000Z
 archivedreason: null
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
 ---
-Most developers include [health checks for their own applications](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
+Most developers include [health checks for their own applications](/have-a-health-check-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
 
 <!--endintro-->
 
