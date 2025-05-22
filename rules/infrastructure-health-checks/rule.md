@@ -10,6 +10,12 @@ authors:
     url: https://ssw.com.au/people/lewis-toh
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
+  - title: Ben Neoh
+    url: https://ssw.com.au/people/ben-neoh
+  - title: Toby Churches
+    url: https://www.ssw.com.au/people/toby-churches/
+  - title: Ben Neoh
+    url: https://www.ssw.com.au/people/ben-neoh/
 related:
   - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
 redirects:
@@ -25,6 +31,10 @@ guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
 Most developers include [health checks for their own applications](/have-a-healthcheck-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
 
 <!--endintro-->
+
+
+
+![Figure: Infrastructure Health Checks](health-check-image.png)
 
 ## Your app is only as healthy as its infrastructure
 
@@ -58,7 +68,6 @@ Depending on your needs, you may want to bake in a health check UI directly into
 ::: good
 ![Figure: Good example - Tina.io has a Health Check page](tina-health-check.png)
 :::
-
 
 ## Tips for Securing Your Health check Endpoints
 
