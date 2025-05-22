@@ -36,7 +36,9 @@ Most developers include [health checks for their own applications](/have-a-healt
 
 ## Your app is only as healthy as its infrastructure
 
-Enterprise applications typically leverage a large number of cloud services; databases, caches, message queues, and more recently LLMs and other cloud-only AI services. These pieces of infrastructure are crucial to the health of your own application, and as such should be given the same care and attention to monitoring as your own code. If any component of your infrastructure fails, your app may not function as expected, potentially leading to outages, performance issues, or degraded user experience. Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
+Enterprise applications typically leverage a large number of cloud services; databases, caches, message queues, and more recently LLMs and other cloud-only AI services. These pieces of infrastructure are crucial to the health of your own application, and as such should be given the same care and attention to monitoring as your own code. If any component of your infrastructure fails, your app may not function as expected, potentially leading to outages, performance issues, or degraded user experience. 
+
+Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
 `youtube: https://www.youtube.com/watch?v=ldj9YKz6FiA`
 **Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)**
@@ -81,17 +83,12 @@ When deploying apps in Azure it's good practice to enable health checks within t
 
 ### Private Health Check – Best Practices
 
-✅ Require authentication (API key, bearer token, etc.)
-
-✅ (Optional) Restrict access by IP range, VNET, or internal DNS
-
-✅ Include detailed diagnostics (e.g., database, Redis, third-party services)
-
-✅ Integrate with internal observability tools like Azure Monitor
-
-✅ Keep health checks lightweight and fast. Avoid overly complex checks that could increase response times or strain system resources.
-
-✅ Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/).
+* Require authentication (API key, bearer token, etc.)
+* (Optional) Restrict access by IP range, VNET, or internal DNS
+* Include detailed diagnostics (e.g., database, Redis, third-party services)
+* Integrate with internal observability tools like Azure Monitor
+* Keep health checks lightweight and fast. Avoid overly complex checks that could increase response times or strain system resources
+* Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/)
 
 ## Handle offline infrastructure gracefully
 
