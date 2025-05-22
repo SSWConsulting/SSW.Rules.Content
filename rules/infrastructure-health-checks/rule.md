@@ -81,7 +81,7 @@ When deploying apps in Azure it's good practice to enable health checks within t
 ![Figure: Good example - Performing a health check on an azure app service](image-3-.png)
 :::
 
-### Private Health Check – Best Practices
+### Private Health Check – ✅ Best Practices
 
 * Require authentication (API key, bearer token, etc.)
 * (Optional) Restrict access by IP range, VNET, or internal DNS
