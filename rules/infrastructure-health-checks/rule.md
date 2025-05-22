@@ -15,7 +15,7 @@ authors:
   - title: Toby Churches
     url: https://www.ssw.com.au/people/toby-churches/
 related:
-  - have-a-healthcheck-page-to-make-sure-your-website-is-healthy
+  - have-a-health-check-page-to-make-sure-your-website-is-healthy
 redirects:
   - do-you-have-a-healthcheck-was-zsvalidate-page-to-test-your-website-dependencies
   - do-you-have-a-healthcheck-(was-zsvalidate)
