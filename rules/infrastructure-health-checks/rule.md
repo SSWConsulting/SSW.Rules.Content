@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you Health Check your Infrastructure?
+title: Do you Health Check your infrastructure?
 seoDescription: Website dependency and infrastructure health checks
 uri: infrastructure-health-checks
 authors:
@@ -22,13 +22,15 @@ created: 2020-03-12T20:57:37.000Z
 archivedreason: null
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
 ---
-Most developers include [health checks for their own applications](/have-a-health-check-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. Ensuring your infrastructure is healthy is just as important as your app.
+Most developers include [health checks for their own applications](/have-a-health-check-page-to-make-sure-your-website-is-healthy/), but modern solutions are often highly dependent on external cloud infrastructure. When critical services go down, your app could become unresponsive or fail entirely. **Ensuring your infrastructure is healthy is just as important as your app.**
 
 <!--endintro-->
 
 ## Your app is only as healthy as its infrastructure
 
-Enterprise applications typically leverage a large number of cloud services; databases, caches, message queues, and more recently LLMs and other cloud-only AI services. These pieces of infrastructure are crucial to the health of your own application, and as such should be given the same care and attention to monitoring as your own code. If any component of your infrastructure fails, your app may not function as expected, potentially leading to outages, performance issues, or degraded user experience. Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
+Enterprise applications typically leverage a large number of cloud services; databases, caches, message queues, and more recently LLMs and other cloud-only AI services. These pieces of infrastructure are crucial to the health of your own application, and as such should be given the same care and attention to monitoring as your own code. If any component of your infrastructure fails, your app may not function as expected, potentially leading to outages, performance issues, or degraded user experience.
+
+Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
 `youtube: https://www.youtube.com/watch?v=GdA5_8Chk2g`
 **Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)**
@@ -61,35 +63,28 @@ When deploying apps in Azure it's good practice to enable health checks within t
 ![Figure: Good example - Performing a health check on an azure app service](image-3-.png)
 :::
 
-### Private Health Check – Best Practices
+### Private Health Check – ✅ Best Practices
 
-✅ Require authentication (API key, bearer token, etc.)
-
-✅ (Optional) Restrict access by IP range, VNET, or internal DNS
-
-✅ Include detailed diagnostics (e.g., database, Redis, third-party services)
-
-✅ Integrate with internal observability tools like Azure Monitor
-
-✅ Keep health checks lightweight and fast. Avoid overly complex checks that could increase response times or strain system resources.
-
-✅ Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/).
+* Require authentication (API key, bearer token, etc.)
+* (Optional) Restrict access by IP range, VNET, or internal DNS
+* Include detailed diagnostics (e.g., database, Redis, third-party services)
+* Integrate with internal observability tools like Azure Monitor
+* Keep health checks lightweight and fast. Avoid overly complex checks that could increase response times or strain system resources
+* Use caching and timeout strategies. To avoid excessive load, health checks can timeout gracefully and cache results to prevent redundant checks under high traffic. See more details on official [Microsoft's documentation](https://learn.microsoft.com/en-us/samples/dotnet/aspire-samples/aspire-health-checks-ui/)
 
 ## Handle offline infrastructure gracefully
 
-| Category         | Example Services                                                      |
+| Category         | Example services                                                      |
 | ---------------- | --------------------------------------------------------------------- |
 | **Critical**     | Database, Redis cache, authentication service (e.g., Auth0, Azure AD) |
 | **Non-Critical** | OpenAI API, email/SMS providers, analytics tools                      |
 
-**Table: Example of Critical and Non Critical Services in an application**
-
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
 
 ::: bad
-![Figure: Bad example – The user is given the chance to interact with a feature that is currently unavailable.](infra-bad-example.png)
+![Figure: Bad example – The user is given the chance to interact with a feature that is currently unavailable](infra-bad-example.png)
 :::
 
 ::: good
-![Figure: Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable.](infra-good-example.png)
+![Figure: Good example – The user is pre-emptively shown a message that shows this feature is currently unavailable](infra-good-example.png)
 :::
