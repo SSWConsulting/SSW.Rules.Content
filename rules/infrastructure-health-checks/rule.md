@@ -17,6 +17,7 @@ redirects:
   - do-you-have-a-healthcheck-(was-zsvalidate)
   - page-to-test-your-website-dependencies
   - have-a-healthcheck-page-to-test-your-website-dependencies
+  - infrastructure-healthchecks
 created: 2020-03-12T20:57:37.000Z
 archivedreason: null
 guid: 015fcac3-c2c2-4d25-a6cd-1317eed69fc6
