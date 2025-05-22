@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you Health Check your Infrastructure?
+title: Do you Health Check your infrastructure?
 seoDescription: Website dependency and infrastructure health checks
 uri: infrastructure-health-checks
 authors:
