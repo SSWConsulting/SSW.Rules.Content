@@ -98,7 +98,6 @@ When deploying apps in Azure it's good practice to enable health checks within t
 | **Non-Critical** | OpenAI API, email/SMS providers, analytics tools                      |
 
 **Table: Example of Critical and Non Critical Services in an application**
-
 When using non-critical infrastructure like an LLM-powered chatbot, make sure to implement graceful degradation strategies. Instead of failing completely, this allows your app to respond intelligently to infrastructure outages, whether through fallback logic, informative user messages, or retry mechanisms when the service is back online.
 
 ::: bad
