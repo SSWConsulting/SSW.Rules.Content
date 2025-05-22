@@ -40,7 +40,7 @@ Enterprise applications typically leverage a large number of cloud services; dat
 
 Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
-`youtube: https://www.youtube.com/watch?v=ldj9YKz6FiA`
+`youtube: https://www.youtube.com/watch?v=GdA5_8Chk2g`
 **Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)**
 
 ## Setting Up Health Checks for App & Infrastructure in .NET
