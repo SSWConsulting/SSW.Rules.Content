@@ -30,7 +30,7 @@ Most developers include [health checks for their own applications](/have-a-healt
 
 Enterprise applications typically leverage a large number of cloud services; databases, caches, message queues, and more recently LLMs and other cloud-only AI services. These pieces of infrastructure are crucial to the health of your own application, and as such should be given the same care and attention to monitoring as your own code. If any component of your infrastructure fails, your app may not function as expected, potentially leading to outages, performance issues, or degraded user experience. Monitoring the health of infrastructure services is not just a technical task; it ensures the continuity of business operations and user satisfaction.
 
-`youtube: https://www.youtube.com/watch?v=ldj9YKz6FiA`
+`youtube: https://www.youtube.com/watch?v=GdA5_8Chk2g`
 **Figure: Health Check Infrastructure | Toby Churches | Rules (3 min)**
 
 ## Setting Up Health Checks for App & Infrastructure in .NET
