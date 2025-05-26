@@ -80,7 +80,7 @@ Figure: Bad example – No passenger name, flight number, or route — unclear a
 :::
 
 ::: greybox
-**Subject:** ✈️ Flight for Adam – QF409 SYD > MEL – 10 May, 9:30 AM – Ref: 8XZ7L\
+**Subject:** ✈️ Adam – SYD > MEL – QF409 - 10 May, 9:30 AM – Ref: 8XZ7L\ 
 **Location:** Terminal 3, Sydney Airport
 :::
 ::: good
