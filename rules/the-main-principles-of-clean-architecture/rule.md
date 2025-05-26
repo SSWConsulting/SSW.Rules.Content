@@ -1,11 +1,10 @@
 ---
-seoDescription: Clean Architecture - Separating concerns and building a lasting system. Discover how CA enables teams to build systems that can be easily extended and maintained. learn about its principles, layers, and benefits.
 type: rule
-archivedreason:
 title: Clean Architecture - Do you know the main principles?
-guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
+seoDescription: Clean Architecture - Separating concerns and building a lasting
+  system. Discover how CA enables teams to build systems that can be easily
+  extended and maintained. learn about its principles, layers, and benefits.
 uri: the-main-principles-of-clean-architecture
-created: 2019-04-14T21:34:38.0000000Z
 authors:
   - title: Daniel Mackay
     url: https://ssw.com.au/people/daniel-mackay
@@ -17,6 +16,9 @@ related: []
 redirects:
   - do-you-know-the-main-principles-of-clean-architecture
   - software-architecture-decision-tree
+created: 2019-04-14T21:34:38.000Z
+archivedreason: null
+guid: c7410b8e-679a-4bf0-836a-f5f88b6a9e4f
 ---
 
 Clean Architecture is, at its core, about creating a Separation of Concerns, and building it in such a way that it becomes hard to violate this core principle. The outcome of this is to guide teams over time towards the [pit of success](https://ricomariani.medium.com/the-pit-of-success-cfefc6cb64c8).
@@ -71,7 +73,7 @@ Examples:
 
 #### Infrastructure
 
-The Infrastructure layer is where the external systems are interacted with. For example, you might setup a library to wrap a third party Web API, database, or identity provider. This layer is dependent on the Application Core. This layer defines the implementation of the abstractions defined in the Application layer.
+The Infrastructure layer is where the external systems are interacted with. For example, you might setup a library to wrap a third party Web API, database, or identity provider. This layer is dependent on the Application Core. This layer implementats the abstractions (Interfaces), related to Infrastructure, that are defined in the Application layer.
 
 This layer is important for keeping our application clean and testable. For general unit testing this layer is the one that is mocked out the most - therefore interfaces should make sense and be easy to mock.
 
