@@ -47,4 +47,3 @@ ACME Corp (SharePoint) - Dan
 ::: good
 Figure: Good example - Consistent details
 :::
-
