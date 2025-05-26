@@ -67,7 +67,7 @@ Figure: Good example – Provides clear hotel name, duration, and address
 
 ## Flight bookings
 
-For flight bookings, include at least the **passenger name** and **flight number**. To improve clarity, add the **origin**, **destination**, **booking number**, and **departure date and time** in the subject. The location should have the airport name. If relevant, include the terminal number in the location as well.
+For flight bookings, include at least the **passenger name** and **flight number**. To improve clarity, add the **origin**, **destination**, and **departure date and time** in the subject. The location should have the airport name. If relevant, include the terminal number in the location as well.
 
 **Tip:** Use the emoji ✈️ for extra clarity.
 
@@ -80,7 +80,7 @@ Figure: Bad example – No passenger name, flight number, or route — unclear a
 :::
 
 ::: greybox
-**Subject:** ✈️ Adam – SYD > MEL – QF409 - 10 May, 9:30 AM – Ref: 8XZ7L\
+**Subject:** ✈️ Adam – SYD > MEL – QF409 - 10 May, 9:30 AM\
 **Location:** Terminal 3, Sydney Airport
 :::
 ::: good
@@ -91,7 +91,7 @@ Figure: Good example – Includes all essential details for quick reference
 **Note:** Attaching the airline booking confirmation PDF to the appointment is a great failsafe.
 :::
 
-When booking flights, to ensure nothing is missed, read through [Do you create an appointment for flights?](/create-appointment-for-flights)
+To avoid missing details when booking flights, carefully read through [Do you create an appointment for flights?](/create-appointment-for-flights)
 
 ---
 
