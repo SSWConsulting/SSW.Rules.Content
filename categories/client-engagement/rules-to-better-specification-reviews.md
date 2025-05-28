@@ -6,29 +6,7 @@ guid: 3f9cd99c-8699-4a67-8563-f9c34f810033
 uri: rules-to-better-specification-reviews
 index:
 - rule: rules/what-is-a-spec-review/rule.md
-- rule: rules/conduct-a-spec-review/rule.md
 - rule: rules/corridor-conversations/rule.md
-- rule: rules/spec-add-value/rule.md
-- rule: rules/use-ai-to-generate-spec-reviews/rule.md
-- rule: rules/spec-do-you-create-an-initial-release-plan-and-ballpark/rule.md
-- rule: rules/spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs/rule.md
-- rule: rules/spec-give-customers-a-ballpark/rule.md
-- rule: rules/specification-review-presentation/rule.md
-- rule: rules/specification-levels/rule.md
-- rule: rules/spec-do-you-use-user-stories/rule.md
-- rule: rules/involve-all-stakeholders/rule.md
-- rule: rules/get-accurate-information/rule.md
-- rule: rules/limit-project-scope/rule.md
-- rule: rules/follow-up-after-spec-review/rule.md
-- rule: rules/spec-do-you-start-the-work-soon-after-the-specification-review/rule.md
-- rule: rules/shadow-spec-reviews/rule.md
-- rule: rules/user-journey-mapping/rule.md
-- rule: rules/event-storming/rule.md
-- rule: rules/event-storming-workshop/rule.md
-- rule: rules/connect-crm-to-microsoft-teams/rule.md
-- rule: rules/create-pbis-under-2-days/rule.md
-- rule: rules/software-architecture-decision-tree/rule.md
-
 ---
 
 Specification Reviews are the first step to engaging properly with a client and need to be executed well. The following rules will ensure you know how, and how much, to spec out upfront.
