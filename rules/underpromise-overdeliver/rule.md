@@ -10,7 +10,7 @@ created: 2025-05-26T10:30:00.000Z
 guid: b07a2a47-7887-4b27-9626-48f4175a251d
 ---
 
-We’ve all experienced that awkward silence in a sprint review when the boss joins the call, expecting features to be done... and they’re not. Maybe the requirements weren’t clear, maybe a “quick fix” exploded into days of debugging. Whatever the cause, the result is the same: another commitment missed, and another dent in trust. 
+We’ve all experienced that awkward silence in a sprint review when the boss joins the call, expecting features to be done... and they’re not. Maybe the requirements weren’t clear, maybe a “quick fix” exploded into days of debugging. Whatever the cause, the result is the same: another commitment missed, and another dent in trust.
 
 <!--endintro-->
 
@@ -47,12 +47,15 @@ Figure: Good example – A realistic buffer results in a pleasant overdelivery a
 ### Tips to Apply This Rule
 
 #### 1. Estimate Realistically  
+
 Avoid “sunshine estimates”. Add buffer time for the unknowns—because they *will* happen. Don’t just plan for the best-case; include the *expected* and *worst-case* as well.
 
 #### 2. Communicate Clearly  
+
 If you’re ahead of schedule, tell the client. If you're falling behind, say so early. Clients are forgiving when you’re transparent—radio silence is what causes frustration.
 
 #### 3. Prioritize Consistency Over Perfection  
+
 You don’t have to wow every sprint. What clients value more is **predictability**. Be the team they can count on.
 
 > “It’s not about hitting every target perfectly. It’s about reliably delivering over time.” – Michael Smedley, SSW
@@ -61,5 +64,5 @@ You don’t have to wow every sprint. What clients value more is **predictabilit
 
 Software development is about more than code—it’s about **building trust**. And nothing builds trust faster than consistently delivering *more* than what you promised.
 
-youtube: https://www.youtube.com/embed/4yqI2wb-D54  
+`youtube: https://www.youtube.com/embed/4yqI2wb-D54`  
 **Video: The Secret to Client Trust | Michael Smedley | SSW Rules**
