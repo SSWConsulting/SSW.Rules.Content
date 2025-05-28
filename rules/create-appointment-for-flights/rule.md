@@ -20,7 +20,7 @@ Once you've [booked a flight](/do-you-know-how-to-book-better-flights/), it's im
 
 This is how you should create an appointment in the Outlook calendar for flights:
 
-* Enter all of the flight details into the appointment. Use the ariplane emoji in the subject, and include your name, from/to, and the flight number. E.g. **"✈️ Adam Cogan - SYD -> BNE - QF 500"**
+* Enter all of the flight details into the appointment. Use the ariplane emoji in the subject, and include your name, from/to, and the flight number. E.g. **"✈️ Adam Cogan - SYD -> BNE - QF 500 - 08 May 10:20 AM"**
 * If someone is picking you up, include the arrival time and invite any relevant parties
 * When possible, always include the terminal number in the location field. If a non-standard terminal, make it extra clear
   E.g. Jetstar flights should have highlighted: "WARNING: Different terminal. Allow more time".
@@ -36,12 +36,12 @@ Here is a template to follow:
 |          |     |
 | -------- | --- |
 | To:      | {{ RELEVANT PARTIES }} |
-| Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} |
+| Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} - {{ DATE AND TIME }} |
 | Location: | {{ TERMINAL NUMBER }}  |
 | Status: | 🔴 Busy  |
 ::: email-content  
 
-### Hi {{RELEVANT PARTIES}}  
+### Hi {{ RELEVANT PARTIES }}  
 
 I am flying to {{ DESTINATION }}
 Booking number: {{ BOOKING NUMBER }}
