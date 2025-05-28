@@ -45,3 +45,25 @@ Figure: Good example - Keeps the tone neutral and supportive. Both thoughts stan
 :::
 
 This small change keeps the tone neutral and professional while delivering the same message more effectively.
+
+### 💼 Sales Tip
+
+When a client questions the price, don’t say:
+
+::: greybox
+“Yes, but it’s expensive because we put a lot of effort into it.”
+:::
+::: bad
+Figure: Bad example – Sounds apologetic and defensive.
+:::
+
+Instead, use confidence and the “yes, and” approach:
+
+::: greybox
+“Yes, and that’s because we put a lot of effort into it.”
+:::
+::: good
+Figure: Good example – Acknowledges the concern and reinforces the value.
+:::
+
+Stand behind your value. The language you use shapes how your price is perceived.
