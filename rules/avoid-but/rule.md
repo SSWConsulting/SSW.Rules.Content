@@ -28,7 +28,7 @@ Instead, try using *"Yes, and..."* to acknowledge the previous point and build u
 **Tip:** Remember to choose the **right words** and maintain a constructive **tone**.
 :::
 
-In **written communication**, you can often replace "but" with a full stop and start a new sentence. 
+In **written communication**, you can often replace "but" with a full stop and start a new sentence.
 
 ::: greybox
 “I agree with your idea, but it needs refinement.”
