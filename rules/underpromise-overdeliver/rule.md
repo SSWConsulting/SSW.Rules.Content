@@ -61,5 +61,5 @@ You don’t have to wow every sprint. What clients value more is **predictabilit
 
 Software development is about more than code—it’s about **building trust**. And nothing builds trust faster than consistently delivering *more* than what you promised.
 
-youtube: https://www.youtube.com/embed/4yqI2wb-D54  
+`youtube: https://www.youtube.com/embed/4yqI2wb-D54`  
 **Video: The Secret to Client Trust | Michael Smedley | SSW Rules**
