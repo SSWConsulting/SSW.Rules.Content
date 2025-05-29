@@ -58,7 +58,7 @@ Avoid “sunshine estimates”. Add buffer time for the unknowns—because they 
 
 ### 2. Communicate clearly  
 
-If you’re ahead of schedule, tell the client. If you're falling behind, say so early. Clients are forgiving when you’re transparent—radio silence is what causes frustration. This will help minimize surprises at the Sprint Review. See our rule on having [Coridoor Conversations](https://www.ssw.com.au/rules/corridor-conversations/)
+If you’re ahead of schedule, tell the client. If you're falling behind, say so early. Clients are forgiving when you’re transparent—radio silence is what causes frustration. This will help minimize surprises at the Sprint Review. See our rule on having [Corridor Conversations](/corridor-conversations)
 
 ### 3. Prioritize consistency over perfection  
 
