@@ -1,18 +1,19 @@
 ---
-seoDescription: Learn how underpromising and overdelivering builds trust with clients and improves your team's credibility. Avoid the planning fallacy by estimating realistically and communicating clearly.
 type: rule
 title: Do you underpromise and overdeliver?
+seoDescription: Learn how underpromising and overdelivering builds trust with
+  clients and improves your team's credibility. Avoid the planning fallacy by
+  estimating realistically and communicating clearly.
 uri: underpromise-overdeliver
 authors:
   - title: Michael Smedley
     url: https://www.ssw.com.au/people/michael-smedley
-created: 2025-05-26T10:30:00.000Z
-guid: b07a2a47-7887-4b27-9626-48f4175a251d
 related:
   - inform-clients-about-estimates-overrun
   - include-general-project-costs-to-estimates
   - size-pbis-effectively
-    
+created: 2025-05-26T10:30:00.000Z
+guid: b07a2a47-7887-4b27-9626-48f4175a251d
 ---
 
 We’ve all experienced that awkward silence in a sprint review when the boss joins the call, expecting features to be done... and they’re not. Maybe the requirements weren’t clear, maybe a "quick fix" exploded into days of debugging. Whatever the cause, the result is the same: another commitment missed, and another dent in trust.
@@ -57,7 +58,7 @@ Avoid “sunshine estimates”. Add buffer time for the unknowns—because they 
 
 ### 2. Communicate clearly  
 
-If you’re ahead of schedule, tell the client. If you're falling behind, say so early. Clients are forgiving when you’re transparent—radio silence is what causes frustration.
+If you’re ahead of schedule, tell the client. If you're falling behind, say so early. Clients are forgiving when you’re transparent—radio silence is what causes frustration. This will help minimize surprises at the Sprint Review. See our rule on having [Corridor Conversations](/corridor-conversations)
 
 ### 3. Prioritize consistency over perfection  
 
