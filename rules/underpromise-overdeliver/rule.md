@@ -58,9 +58,8 @@ If you’re ahead of schedule, tell the client. If you're falling behind, say so
 
 You don't have to wow every sprint. What clients value more is **predictability**. Be the team they can count on.
 
-
 > “It’s not about hitting every target perfectly. It’s about reliably delivering over time.”
-> 
+>
 > – Michael Smedley, SSW
 
 ### Final Thought
