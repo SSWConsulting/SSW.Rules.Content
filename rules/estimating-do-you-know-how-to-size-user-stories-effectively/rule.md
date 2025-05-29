@@ -27,11 +27,11 @@ guid: 033f1b77-a51d-4f52-894a-70d78efaecae
 
 A team knows how many PBIs they can commit to by measuring their velocity. The Team estimates the highest priority PBIs in the Product Backlog in Story Points. It is very important for teams to estimate tasks effectively. There are several methods for estimating:
 
-- Shirt Sizes
-- Fibonacci Extended (1-100)
-- Fibonacci Original (1-21)
-- Doubling
-- Thrown
+* Shirt Sizes
+* Fibonacci Extended (1-100)
+* Fibonacci Original (1-21)
+* Doubling
+* Thrown
 
 <!--endintro-->
 
@@ -140,7 +140,7 @@ If you are working on a project with a remote team, use Microsoft Teams chat to 
 
 ### 4. Large PBIs are a red flag 🚩
 
-PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider [splitting them into smaller pieces](/break-tasks) to keep them under 2-4 days. 
+PBIs of greater than 2 days are a smell and PBIs greater than 4 days are a stench. If PBIs are estimated at more than 4 days of work, consider [splitting them into smaller pieces](/break-tasks) to keep them under 2-4 days.
 
 ### 5. Use spikes
 
