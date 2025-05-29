@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how underpromising and overdelivering builds trust with clients and improves your team's credibility. Avoid the planning fallacy by estimating realistically and communicating clearly.
 type: rule
-title: Do You Underpromise and Overdeliver?
+title: Do you Underpromise and Overdeliver?
 uri: underpromise-overdeliver
 authors:
   - title: Michael Smedley
@@ -10,7 +10,7 @@ created: 2025-05-26T10:30:00.000Z
 guid: b07a2a47-7887-4b27-9626-48f4175a251d
 ---
 
-We’ve all experienced that awkward silence in a sprint review when the boss joins the call, expecting features to be done... and they’re not. Maybe the requirements weren’t clear, maybe a “quick fix” exploded into days of debugging. Whatever the cause, the result is the same: another commitment missed, and another dent in trust.
+We’ve all experienced that awkward silence in a Sprint Review when the boss joins the call, expecting features to be done... and they’re not. Maybe the requirements weren’t clear, maybe a “quick fix” exploded into days of debugging. Whatever the cause, the result is the same: another commitment missed, and another dent in trust.
 
 <!--endintro-->
 
@@ -56,7 +56,7 @@ If you’re ahead of schedule, tell the client. If you're falling behind, say so
 
 #### 3. Prioritize Consistency Over Perfection  
 
-You don’t have to wow every sprint. What clients value more is **predictability**. Be the team they can count on.
+You don’t have to wow every Sprint. What clients value more is **predictability**. Be the team they can count on.
 
 > “It’s not about hitting every target perfectly. It’s about reliably delivering over time.” – Michael Smedley, SSW
 
