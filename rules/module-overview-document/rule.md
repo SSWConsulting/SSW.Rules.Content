@@ -7,7 +7,7 @@ authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
 created: 2025-05-30T00:00:00.000Z
-guid: 7e2b1c2a-4e3b-4b7a-9e2c-sswmodoverview001
+guid: b9ad75d5-0cc7-48fb-9a18-2e0d35c74e78
 related:
   - modular-monoliths
   - modular-monolith-testing
