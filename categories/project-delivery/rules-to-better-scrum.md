@@ -20,7 +20,7 @@ index:
   - definition-of-done
   - have-a-definition-of-ready
   - break-tasks
-  - estimating-do-you-know-how-to-size-user-stories-effectively
+  - size-pbis-effectively
   - do-you-estimate-business-value
   - technical-overview
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client
