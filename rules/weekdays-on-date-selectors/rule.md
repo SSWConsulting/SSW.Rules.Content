@@ -36,7 +36,7 @@ To keep things clean and consistent, [use the **abbreviated** weekday format](/a
 
 You can format dates to include weekdays using calculated columns and formulas in SharePoint.
 
-By default, the date type column only have two format options in SharePoint. 
+By default, the date type column only have two format options in SharePoint.
 
 ![Figure: SharePoint date format option 1](DateFormateDateOnly.gif)
 
