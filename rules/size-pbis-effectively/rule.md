@@ -2,7 +2,7 @@
 seoDescription: Improve your team's velocity tracking by adopting effective PBI estimation techniques. Learn about various methods to size user stories appropriately.
 type: rule
 title: Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?
-uri: estimating-do-you-know-how-to-size-user-stories-effectively
+uri: size-pbis-effectively
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -20,6 +20,7 @@ related:
 redirects:
   - estimating-do-you-know-how-to-size-product-backlog-items-pbis-effectively
   - estimating-do-you-know-how-to-size-product-backlog-items-(pbis)-effectively
+  - estimating-do-you-know-how-to-size-user-stories-effectively
 created: 2010-09-01T01:15:18.000Z
 archivedreason: null
 guid: 033f1b77-a51d-4f52-894a-70d78efaecae
