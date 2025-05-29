@@ -25,7 +25,7 @@ To keep things clean and consistent, [use the **abbreviated** weekday format](/a
 <!--endintro-->
 
 ::: bad
-![Figure: Bad example - Missing weekday](date-weekday-bad-1.png)
+![Figure: Bad example - Missing weekday](date-weekday-bad.png)
 :::
 
 ::: good
