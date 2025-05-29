@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how underpromising and overdelivering builds trust with clients and improves your team's credibility. Avoid the planning fallacy by estimating realistically and communicating clearly.
 type: rule
-title: Do You Underpromise and Overdeliver?
+title: Do you Underpromise and Overdeliver?
 uri: underpromise-overdeliver
 authors:
   - title: Michael Smedley
