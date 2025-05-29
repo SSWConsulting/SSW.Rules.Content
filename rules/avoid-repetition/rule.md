@@ -9,6 +9,7 @@ authors:
 related:
   - use-emojis
   - avoid-full-stops-in-bullet-point-lists
+  - wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again
 created: 2023-02-28T00:28:10.330Z
 guid: 1acd6766-d31f-493f-b6f1-3b0b2ff2dc4e
 ---

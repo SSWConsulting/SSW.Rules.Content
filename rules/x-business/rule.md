@@ -10,6 +10,8 @@ related:
   - keep-your-social-media-updated
   - twitter-how-to-verify-your-account
   - do-you-know-what-to-tweet
+redirects:
+  - twitter-for-professionals
 created: 2023-07-20T00:00:00.000Z
 guid: a4af175d-77a1-4622-b767-885212f0f436
 ---

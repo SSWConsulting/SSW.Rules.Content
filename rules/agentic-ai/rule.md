@@ -1,13 +1,19 @@
 ---
 type: rule
 tips: ""
-title: Do you build Agentic AI?
-seoDescription: Follow the industry best practises on building agentic AI from
-  Australia's leading software consultancy. Best practises for Autogen, Semantic Kernel, LangChain, LangGraph, OpenAI, and n8n.
+title: Do you build agentic AI?
+seoDescription: Follow the industry best practises on building agentic AI from Australia's leading software consultancy. Best practises for Autogen, Semantic Kernel, LangChain, LangGraph, OpenAI, and n8n.
 uri: agentic-ai
 authors:
   - title: Eddie Kranz
     url: https://www.ssw.com.au/people/eddie-kranz
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/uly
+  - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
+
 related:
   - avoid-ai-hallucinations
   - use-semantic-kernel
@@ -17,20 +23,20 @@ guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
 AI agents are autonomous entities powered by AI that can perform tasks, make decisions, and collaborate with other agents. Unlike traditional single-prompt LLM interactions, agents act as specialized workers with distinct roles, tools, and objectives.
 
 `youtube: https://youtu.be/BlqJ7bnivLE`
-**Video: The Year of the AI Agent: Automation to Intelligence | Ulysses Maclaren | SSW User Group (1:30 hr)**
+**Video: The Year of the AI Agent: Automation to Intelligence | Ulysses Maclaren | SSW User Group (1 hr 30 min)**
 
 <!--endintro-->
 
-## Why Build Agentic Systems?
+## Why build agentic systems?
 
-* **Automation**: Handle complex, multi-step workflows autonomously.
-* **Specialization**: Assign agents to tasks they're optimized for (e.g., research, coding, analysis).
-* **Scalability**: Deploy an "army" of agents to tackle large projects.
-* **Collaboration**: Enable agents to communicate and share insights.
+* **Automation** - Handle complex, multi-step workflows autonomously
+* **Specialization** - Assign agents to tasks they're optimized for (e.g., research, coding, analysis)
+* **Scalability** - Deploy an "army" of agents to tackle large projects
+* **Collaboration** - Enable agents to communicate and share insights
 
 - - -
 
-## Leading Agent Frameworks Comparison
+## Leading agent frameworks comparison
 
 | Feature            | [Autogen](https://microsoft.github.io/autogen/stable/) ⭐️ | [OpenAI Agents](https://openai.github.io/openai-agents-python/) | [LangGraph](https://www.langchain.com/langgraph)           | [n8n](https://n8n.io/)                                |
 | ------------------ | ------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------------------------------------- | ----------------------------------------------------- |
@@ -45,13 +51,22 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 
 - - -
 
-## When to Choose Each Framework
+## When to choose each framework
 
 When choosing a framework for building agents, you need to be aware of the tradeoff between customisability and ease of use.
 
 For example, n8n is a no-code solution that is only really useful for automating simple workflows, while frameworks like LangGraph offer deeper control but with a steeper learning curve.
 
 The closer you get to the raw LLM API requests, the more customisable you can make it – however, this will often come at the cost of additional development effort.
+
+### AutoGen ⭐️
+
+AutoGen shines when:
+
+* Your application requires dynamic conversation flows between multiple agents
+* You're creating systems with diverse conversational agents working together
+* You value the backing of Microsoft's research division
+* You're working on research projects needing flexible agent interactions
 
 ### OpenAI Agents SDK
 
@@ -72,15 +87,6 @@ Consider LangGraph when:
 * You benefit from visualizing your agent workflows graphically
 * You need enterprise-grade reliability
 
-### AutoGen ⭐️
-
-AutoGen shines when:
-
-* Your application requires dynamic conversation flows between multiple agents
-* You're creating systems with diverse conversational agents working together
-* You value the backing of Microsoft's research division
-* You're working on research projects needing flexible agent interactions
-
 ### n8n
 
 Choose n8n if:
@@ -90,13 +96,15 @@ Choose n8n if:
 * You have team members without coding experience who need to participate
 * You're creating marketing, sales, or design team prototypes
 
-## Language Limitations and Considerations
+## Language limitations and considerations
 
 Most of the leading agent frameworks today, including AutoGen, LangGraph, and OpenAI Agents SDK, primarily use Python as their development language. This presents a challenge for organizations like SSW that predominantly use .NET and C#.
 
 For C# developers, the most promising path forward is through **Semantic Kernel**. Microsoft is currently working on integrating AutoGen's capabilities into Semantic Kernel, which will allow .NET developers to leverage cutting-edge agent technology using C#. This integration is expected to bring the powerful multi-agent capabilities of AutoGen to the familiar and enterprise-ready .NET ecosystem.
 
-**Our recommendation:** While waiting for the full Semantic Kernel integration, we recommend C# developers start experimenting with AutoGen in Python. The knowledge and patterns you learn will transfer directly to Semantic Kernel's implementation once it's complete, as Microsoft is directly incorporating AutoGen's architecture.
+### Our recommendation
+
+While waiting for the full Semantic Kernel integration, we recommend C# developers start experimenting with AutoGen in Python. The knowledge and patterns you learn will transfer directly to Semantic Kernel's implementation once it's complete, as Microsoft is directly incorporating AutoGen's architecture.
 
 ```python
 # Example AutoGen code that will be portable to Semantic Kernel in future

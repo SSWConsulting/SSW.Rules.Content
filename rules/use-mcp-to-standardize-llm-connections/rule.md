@@ -15,6 +15,8 @@ authors:
   - title: Louis Roa
     url: https://www.ssw.com.au/people/louis-roa/
     img: https://www.ssw.com.au/people/static/Louis-Roa-Profile-ed19143ab4c27c8c7a4f5ef049ee0c3b.jpg
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov/
 created: 2025-04-23T12:04:00.000Z
 guid: 4426ed73-3e70-44c3-befd-0b4170d93205
 ---
@@ -40,14 +42,16 @@ This architecture separates logic and plumbing from your agent, making developme
 
 Three main components:
 
-**1. Agent (Client)** - The tool that wants to use backend services. E.g. an IDE, app, or LLM
+**1. Host** - An application that wants to use backend services. E.g. an GitHub Copilot or Claude Desktop
 
-**2. MCP Server** - The smart middleman that connects to APIs, handles logic, and enforces security
+**2. MCP Client** - A thin layer on the host. It implements MCP protocol and maintans 1-to-1 connection with the corresponding MCP Server
 
-**3. Backend API** - The actual external service like Slack, GitHub, or your internal CRM
+**3. MCP Server** - The smart middleman that connects to APIs and handles logic
+
+**4. Backend API** - The actual external service like Slack, GitHub, or your internal CRM
 
 ::: greybox
-**Flow:** Agent ⇨ MCP Server ⇨ External API
+**Flow:** Host ⇨ MCP Client ⇨ MCP Server ⇨ External API
 :::
 
 ### ✅ Benefits of using MCP
@@ -75,7 +79,7 @@ The **agent** can offer:
 * **Roots** - File access when needed
 * **Sampling** - Let the server trigger generation tasks
 
-All communication is standardized, secure, and discoverable.
+All communication is standardized and discoverable.
 
 ### Who's already using MCP?
 
@@ -97,11 +101,9 @@ Betting against MCP is like betting against standards that make life easier.
 
 Whether you're building the agent side or the server:
 
-
 * 🛠️ **[Server Quick Start](https://modelcontextprotocol.io/quickstart/server)** - Perfect for devs making reusable tools
 * 🧠 **[Client Quick Start](https://modelcontextprotocol.io/quickstart/client)** - If you're building apps that want to call those tools
 * 📚 Browse [example servers](https://modelcontextprotocol.io/examples) and [client list](https://modelcontextprotocol.io/clients) to see the growing ecosystem
-
 
 ### Try it yourself
 
@@ -135,4 +137,4 @@ More servers can be found on [MCP Server Directory](https://www.pulsemcp.com/ser
 
 #### Need help connecting your proprietary services?  
 
-📩 [Reach out to SSW](https://www.ssw.com.au/contact-us) – we'll help you build a robust, scalable MCP server.
+📩 [Reach out to SSW](https://www.ssw.com.au/consulting/artificial-intelligence) – we'll help you build a robust, scalable MCP server.

@@ -38,13 +38,13 @@ If someone often sends email tasks rather than creating PBIs, kindly suggest the
 
 <!--endintro-->
 
-## Benefits of turning emails into PBIs
+## ✅ Benefits of turning emails into PBIs
 
 There are several benefits of turning an email into a PBI including:
 
-✅ Providing one source of truth  
-✅ Better prioritization  
-✅ Easily accessible by anyone in the team  
+* Providing one source of truth  
+* Better prioritization  
+* Easily accessible by anyone in the team  
 
 ## When should the email become a PBI?
 

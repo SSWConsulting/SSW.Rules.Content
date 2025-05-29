@@ -11,6 +11,7 @@ index:
 - keep-business-logic-out-of-the-presentation-layer
 - how-to-improve-the-discoverability-of-your-mediatr-requests
 - the-difference-between-data-transfer-objects-and-view-models
+- unique-dtos-per-endpoint
 - the-best-approach-to-validate-your-client-requests
 - when-to-use-value-objects
 - do-you-use-strongly-typed-ids

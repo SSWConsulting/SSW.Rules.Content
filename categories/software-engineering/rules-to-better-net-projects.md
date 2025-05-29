@@ -20,7 +20,7 @@ index:
 - do-you-keep-your-assembly-version-consistent
 - do-you-use-configuration-management-application-block
 - do-you-have-a-resetdefault-function-in-your-configuration-management-application-block
-- do-you-hard-code-your-connectionstring
+- do-you-know-how-to-use-connection-strings
 - do-you-version-your-xml-files
 - do-you-use-treeview-control-instead-of-xml-control
 - are-your-customizable-and-non-customizable-settings-in-different-files
@@ -77,7 +77,6 @@ index:
 - minimal-apis
 - directory-build-props
 - use-loggermessage-in-net
-
 ---
 
 Want to build a .NET Application? Check [SSW's Web Application / API consulting page](https://ssw.com.au/consulting/web-applications).

@@ -1,7 +1,7 @@
 ---
 type: rule
 title: Do you know the importance of paying back Technical Debt?
-seoDescription: Repaying technical debt is crucial to maintain software velocity
+seoDescription: Repaying technical debt (tech debt) is crucial to maintain software velocity
   and avoid feature stagnation.
 uri: technical-debt
 authors:
@@ -19,6 +19,7 @@ related:
   - well-architected-framework
   - just-enough-refactoring
   - do-you-show-current-versions-app-and-database
+  - todo-tasks
 redirects:
   - do-you-know-the-importance-of-paying-back-technical-debt
 created: 2020-12-16T23:19:05.000Z
@@ -28,7 +29,7 @@ guid: de86d886-3341-43d0-a487-5e8b3cee3938
 
 ### What is Technical Debt?
 
-Technical Debt is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
+Technical Debt (or tech debt) is when you defer work that needs doing in your code. And, just like when you defer a payment and accrue financial debt, Technical Debt **must** be repaid, and it accumulates interest (in the form of reduced velocity) while it remains unpaid.
 
 <!--endintro-->
 
@@ -43,6 +44,9 @@ Systems need to have features added to them to continually remain useful (or com
 
 ::: greybox
 **IMPORTANT:** When you become aware of Technical Debt in a product, you **must** add it to the backlog. Whether you have discovered the Technical Debt or added it intentionally, either way the discussion and decision must be recorded in a PBI. This allows the team to factor paying it back into their Sprint planning.
+
+It also helps to add a TODO comment in the relevant code with a link to the PBI. This will help other developers understand that it is a known issue.
+See [Do you document "TODO" tasks?](/todo-tasks)
 :::
 
 **Example:** A developer takes a shortcut to get some early feedback on a new feature

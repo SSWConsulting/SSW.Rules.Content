@@ -15,6 +15,7 @@ authors:
 related:
   - when-you-reply-inline-do-you-use-a-different-color
   - change-from-x-to-y
+  - style-quotations
 redirects:
   - do-you-use-indentation-for-readability
 created: 2010-09-01T02:53:29.000Z
