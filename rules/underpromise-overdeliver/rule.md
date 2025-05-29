@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn how underpromising and overdelivering builds trust with clients and improves your team's credibility. Avoid the planning fallacy by estimating realistically and communicating clearly.
 type: rule
-title: Do you underpromise and overdeliver?
+title: Do You Underpromise and Overdeliver?
 uri: underpromise-overdeliver
 authors:
   - title: Michael Smedley
@@ -65,4 +65,4 @@ You don’t have to wow every sprint. What clients value more is **predictabilit
 Software development is about more than code—it’s about **building trust**. And nothing builds trust faster than consistently delivering *more* than what you promised.
 
 `youtube: https://www.youtube.com/embed/4yqI2wb-D54`  
-**Video: The Secret to Client Trust | Michael Smedley | SSW Rules**
+**Video: The Secret to Client Trust (2 min)**
