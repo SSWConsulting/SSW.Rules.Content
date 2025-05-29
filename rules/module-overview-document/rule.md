@@ -36,6 +36,7 @@ A good overview document (e.g., `MODULES.md` or `docs/modules-overview.md`) shou
 * Use a table to clearly show module names, types, and links to their documentation
 
 Some modular monolith solutions have two types of modules:
+
 * **Web API** modules (external, exposed to the internet via rest APIs)
 * **Service** modules (internal, available via CQRS Mediatr queries and commands)
 
