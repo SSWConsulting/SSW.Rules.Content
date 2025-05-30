@@ -24,13 +24,13 @@ index:
 - do-you-have-consistent-way-to-store-a-same-field
 - label-buttons-consistently
 - data-entry-forms-for-web
+- weekdays-on-date-selectors
 - do-you-make-text-boxes-show-the-whole-query
 - do-you-provide-hints-for-filling-non-common-fields
 - do-you-provide-red-errors-next-to-the-field
 - do-you-provide-the-user-drill-downs-and-drill-arounds
 - do-you-save-the-last-users-selections
 - do-you-use-the-concept-of-drafts
-- do-your-windows-forms-have-border-protection
 
 ---
 

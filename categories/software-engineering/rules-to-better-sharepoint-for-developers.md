@@ -48,7 +48,7 @@ index:
 - do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features
 - do-you-know-when-to-use-bcs
 - do-you-avoid-using-bcs-when-you-need-workflow
-- sharepoint-format-dates-to-include-the-weekday
+- weekdays-on-date-selectors
 - do-you-know-what-collaboration-means
 - sharepoint-rules-categories-do-you-know-how-to-make-the-title-consistent
 - do-you-know-that-you-cant-use-2010-managed-metadata-with-office-2007-out-of-the-box
