@@ -85,7 +85,7 @@ Use **Acknowledge → Validate → Reframe (AVR)** to stay calm, correct the rec
 
 **Price objection (sales call)**  
 *Prospect*: “That’s double our budget!”  
-*You*: “I get why that feels steep, and others felt the same. They found bundling discovery and build cut re-work. Shall we unpack the value together?”
+*You*: “I get why that feels steep, and others felt the same. They found bundling discovery and the build cut re-work. Shall we unpack the value together?”
 
 **Personal dig (internal)**  
 *Colleague*: “You always set impossible deadlines.”  
