@@ -49,6 +49,6 @@ To add the weekday (E.g. Wed) you need to:
 
   ![Figure: Calculated column with Formula code](CalculatedColumnWithFormulaCode.gif)
 
-3. Change the views of the list to use the new Calculated column (WeekDate) instead of the original date column (Date):
+3. Change the views of the list to use the new Calculated column `WeekDate` instead of the original date column `Date`:
 
-![Figure: Replace the old Date column (Date) with new Calculated column (WeekDate It should not be this hard)](ReplaceOldDate.gif)
+![Figure: Replace the old Date column (Date) with new Calculated column (WeekDate)](ReplaceOldDate.gif)
