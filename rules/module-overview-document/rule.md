@@ -21,10 +21,10 @@ A common pain in large modular monoliths (MoMo's) is new devs trying to work out
 
 ## Why you need a module overview document
 
-* **Faster onboarding:** New developers can quickly understand the system's structure and purpose of each module.
-* **Reduced duplication:** Teams avoid building the same functionality twice by knowing what's already there.
+* **Faster onboarding:** New developers can quickly understand the system's structure and purpose of each module
+* **Reduced duplication:** Teams avoid building the same functionality twice by knowing what's already there
 * **Reduced Tech Debt** Avoid things going in the wrong module and creating [tech debt](/technical-debt)
-* **Better communication:** A shared reference for discussions about architecture and future changes.
+* **Better communication:** A shared reference for discussions about architecture and future changes
 
 ## What does a good module overview look like?
 
@@ -73,5 +73,5 @@ Read more about [Modules](https://github.com/northwind365/Northwind365/blob/main
 :::
 
 ::: info
-**TIP -** Keep the overview up to date as your application evolves. Assign responsibility for maintaining it.
+**Tip:** Keep the overview up to date as your application evolves. Assign responsibility for maintaining it.
 :::
