@@ -56,8 +56,8 @@ This is **very** likely to happen on code bases that require tidying when you ha
 
 ## When it's OK to branch
 
-- For a disposable, investigatory spike
-- To perform hotfixes to production environment
+* For a disposable, investigatory spike
+* To perform hotfixes to production environment
 
 ::: bad  
 ![Figure: Bad example – Creating a branch per feature leads to lots of merging (Image from paulhammant.com blog)](branch-bad.jpg)  
@@ -73,7 +73,7 @@ This is **very** likely to happen on code bases that require tidying when you ha
 
 ### Further reading
 
-- [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
-- [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
-- [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)
-- [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)
+* [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
+* [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
+* [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)
+* [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)
