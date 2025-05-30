@@ -30,4 +30,4 @@ Email is great. But in an emergency, you need to pick up the phone. Often the mo
 ![Figure: Good example - Able to call phone numbers](skype-phonenumber-good.jpg)  
 :::
 
-**Remote offices tip:** Don’t make being overseas a barrier. Of course, it is always best to provide a local number as that gives clients peace of mind and keep their costs down. Not many clients will call an international number and there are lots of options - [skype.com/en/features](https://www.skype.com/en/features). The next best alternative is to at least show your overseas phone number.
+**Remote offices tip:** Don’t make being overseas a barrier. Of course, it is always best to provide a local number as that gives clients peace of mind and keep their costs down. Not many clients will call an international number and there are lots of options. The next best alternative is to at least show your overseas phone number.
