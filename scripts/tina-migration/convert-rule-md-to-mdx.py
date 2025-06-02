@@ -45,6 +45,9 @@ def clean_email_body(body_text):
     cleaned = mdx_safe_template_vars(body_text)
     return re.sub(r'^###', '##', cleaned, flags=re.MULTILINE)
 
+def clean_image_src(src):
+    return re.sub(r'(\.(?:png|jpg|jpeg|gif))\s.*$', r'\1', src, flags=re.IGNORECASE)
+
 # ----------------------------- #
 # Replacements
 # ----------------------------- #
@@ -61,7 +64,9 @@ def replace_image_block(m):
     if not alt_match:
         return m.group(0)
     figure = alt_match.group(1).strip()
-    src = alt_match.group(2).strip()
+    raw_src = alt_match.group(2).strip()
+    src = clean_image_src(raw_src)
+
     return f'''<imageEmbed
   alt="Image"
   size="large"
@@ -77,7 +82,8 @@ def replace_image_block(m):
 def replace_custom_size_image_block(m):
     variant = m.group(1).strip()
     figure = escape_single_quotes(m.group(2).strip())
-    src = m.group(3).strip()
+    raw_src = m.group(3).strip()
+    src = clean_image_src(raw_src)
 
     size = {
         "img-small": "small",
@@ -102,7 +108,9 @@ def replace_custom_size_image_block(m):
 
 def replace_standalone_image(m):
     figure = m.group(1).strip()
-    src = m.group(2).strip()
+    raw_src = m.group(2).strip()
+    src = clean_image_src(raw_src)
+
     return f'''<imageEmbed
   alt="Image"
   size="large"
@@ -211,7 +219,7 @@ def process_custom_aside_blocks(content):
   </>}}
   figureEmbed={{{{
     preset: "{preset}",
-    figure: "{figure}",
+    figure: '{escape_single_quotes(figure)}',
     shouldDisplay: {"true" if show else "false"}
   }}}}
 />'''
