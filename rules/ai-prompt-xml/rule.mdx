@@ -12,14 +12,11 @@ created: 2025-05-13T16:42:19.624Z
 archivedreason: null
 guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
 ---
-The bigger your prompts get, the more challenging they become for the AI to understand. 
+The bigger your prompts get, the more challenging they become for the AI to understand.
 
 Using  Markdown or XML tags will help an LLM parse your prompts more accurately, leading to higher-quality outputs.
 
 The best part is that it doesn't need to follow any specific syntax. It just helps both humans and AI to have structured prompts.
-
-<!--endintro-->
-
 ## Why use Markdown or XML tags?
 
 * **Clarity** - Ensure your prompt is well structured by having clear separation of different parts
@@ -29,19 +26,22 @@ The best part is that it doesn't need to follow any specific syntax. It just hel
 You can even ask the LLM to give outputs in XML, which makes things easier to read for humans too!
 
 ```html
-You're a software architect at Northwind. Review our codebase architecture and suggest improvements to our microservices. 
+You're a software architect at Northwind. Review our codebase architecture and suggest improvements to our microservices.
 Include sections on API Design, Service Communication, and Database Optimization, referencing our current architecture document: {{ARCHITECTURE_DOC}}.
 Use the latest performance metrics from: {{PERFORMANCE_DASHBOARD}}.
-The review should be technical, actionable, and highlight key issues and opportunities. 
+The review should be technical, actionable, and highlight key issues and opportunities.
 Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
 ```
 
-::: bad
-Code: Bad example - If it's hard for humans to read 'at-a-glance', the AI will struggle too
-:::
+<figureEmbed figureEmbed={{
+  preset: "badExample",
+  figure: 'Code: Bad example - If it\'s hard for humans to read \'at-a-glance\', the AI will struggle too',
+  shouldDisplay: true
+} } />
+
 
 ```xml
-## Context  
+## Context
 You are a software architect at Northwind
 Northwind is a B2B supply chain management SaaS company
 Our development team values clean architecture and maintainable code
@@ -60,9 +60,12 @@ Make sure your tone is technical and solution-oriented
 {{PREVIOUS_ARCH_REVIEW_MD}}
 ```
 
-::: good
-Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for
-:::
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for',
+  shouldDisplay: true
+} } />
+
 
 ```xml
 <context>
@@ -91,6 +94,8 @@ Follow this structure:
 </formatting-example>
 ```
 
-::: good
-Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs
-:::
+<figureEmbed figureEmbed={{
+  preset: "goodExample",
+  figure: 'Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs',
+  shouldDisplay: true
+} } />
