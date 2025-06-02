@@ -7,6 +7,8 @@ guid: 11a7a554-2fd9-4dad-a588-a06f7e56c68f
 uri: weekdays-on-date-selectors
 created: 2009-06-26T10:07:46.0000000Z
 authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
   - title: William Yin
     url: https://ssw.com.au/people/william-yin
 related: 
