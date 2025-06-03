@@ -31,11 +31,11 @@ You can also identify errors and inconsistencies that can be addressed for a sec
 
    **Note:** To move ahead, you need two out of the three "test pass"
 
-3. Make changes to video from feedback
-4. Re-upload to YouTube
-5. Respond to each feedback with "Dones" and reasons for "Not Dones"
+4. Make changes to video from feedback
+5. Re-upload to YouTube
+6. Respond to each feedback with "Dones" and reasons for "Not Dones"
   
-6. Send test please to your **managers**, any **people on the video** and **one of the test groups**
+7. Send test please to your **managers**, any **people on the video** and **one of the test groups**
    * 48 hours to test
    * 6 people on the test
    * Need 3 responses to move ahead
