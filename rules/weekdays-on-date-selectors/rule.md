@@ -42,7 +42,7 @@ By default, the date type column only have two format options in SharePoint.
 
 ![Figure: SharePoint date format option 1](DateFormateDateOnly.gif)
 
-![Figure: SharePoint date Format option 2](DateFormateDateAndTime.gif)
+![Figure: SharePoint date format option 2](DateFormateDateAndTime.gif)
 
 To add the weekday (E.g. Wed) you need to:
 
