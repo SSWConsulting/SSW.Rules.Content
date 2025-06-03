@@ -34,6 +34,15 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 * **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment
 * **Community:** Allows the community at large to see what is happening on a product and provide feedback
 
+## Prepare for the Sprint Meeting recording
+
+Before you start recording, ensure you have the right people ready for key roles:
+
+* **Have someone ready to scribe:** Designate someone to take detailed notes during the meeting. This person will capture key decisions, action items, and important discussion points that may not be fully covered in the video summary.
+* **Have someone ready to Yak Shave:** Designate someone to handle secondary recordings during the meeting. While the main presenter is recording the Sprint summary, this person can start separate recordings (Yak Shaves) to create tasks or work items as needed.
+
+Having these roles clearly defined beforehand ensures a smoother recording process and better documentation of your Sprint Meeting.
+
 ## Record the Sprint Meeting summary
 
 The Sprint Meeting summary should be what it is: a summary. So keep it concise by focusing on the main goals and decisions that were discussed during the Sprint Meeting.
