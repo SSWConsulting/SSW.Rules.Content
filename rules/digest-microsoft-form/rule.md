@@ -99,6 +99,9 @@ We like using XML tags in our prompts. They allow LLMs to parse information more
 </REMEMBER>
 
 <steps>
+    <step-1>
+        Create a new markdown file which does not overwrite any existing files. 
+    </step-1>
     <step-2>
         Collate ALL of the text-based responses into a table for each question that has a text response. All responses should be in this markdown file. 
     </step-2>
