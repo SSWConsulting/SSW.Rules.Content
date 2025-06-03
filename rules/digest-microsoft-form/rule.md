@@ -67,7 +67,7 @@ See how to get the most out of your Microsoft Forms results with AI.
 2. Create a new folder containing the `.csv` file you would like to digest
 3. Open this new folder in Cursor IDE
 4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel
-5. Set your model, we like `gemini-2.5-pro` with **Thinking enabled**, as it has a massive context window, and is highly ranked for text, use them! (see the 'Text' leaderboard on [LLMArena](https://lmarena.ai/leaderboard))
+5. Set your model, we like `gemini-2.5-pro` with **Thinking enabled**, as it has a massive context window, and is highly ranked for text. If there are better models at the time of reading this, use them! (see the 'Text' leaderboard on [LLMArena](https://lmarena.ai/leaderboard))
 5. Start prompting your .csv file! 
 
 For example, the below prompt will read through your `.csv` line by line, highlight interesting parts of each answer, and generate a sentiment for the answer, allowing you much better 'at-a-glance' survey results. We use it to create a visual stimulus for when we record our [Digesting the Fat videos](https://www.youtube.com/watch?v=4DKH5IDp7Wk)
