@@ -28,6 +28,7 @@ This is how you should create an appointment in the Outlook calendar for flights
   E.g. "You are not flying with your preferred airline because {{ REASON }}..." OR "As per our conversation, you are flying via Melbourne, because {{ REASON }}..."
 * Always include the price of the ticket in the message
 * Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
+* Always create more than 1 appointment for flights that have more than one leg (connecting flights)
 
 Here is a template to follow:
 
