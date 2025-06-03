@@ -14,7 +14,7 @@ related:
 ---
 
 Microsoft Forms is a popular survey tool used by many organizations. When forms receive numerous responses, digesting the results becomes challenging.
-            
+
 <!--endintro-->
 
 Microsoft Forms offers several ways to analyze your survey responses:
@@ -40,18 +40,16 @@ The challenge is that Microsoft Forms handles unstructured answers poorly. Your 
 This is where AI becomes invaluable for digesting unstructured data.
 
 ### Which AI solution works best?
-Pasting responses into ChatGPT works for small surveys (up to 20 answers), but with larger datasets, it often misses important insights due to context window limitations.
 
+Pasting responses into ChatGPT works for small surveys (up to 20 answers), but with larger datasets, it often misses important insights due to context window limitations.
 
 We solve this using Agentic AI with chain-of-thought reasoning. The Cursor IDE provides an accessible way to apply AI to unstructured data (or Windsurf! [See our comparison table](/best-ai-powered-ide)).
 
-
 Cursor Agent processes CSV data line-by-line without requiring code. This approach solves the context window problem by ensuring all answers are read and annotated, producing an enhanced version of your data with key insights highlighted.
-
 
 Better yet, Cursor Agent lets you interact with your data through conversation. You can ask questions like "which responses favored x?" or "are there any highly critical responses?" You can even add a sentiment column to your output, making data analysis significantly more efficient.
 
-### How to digest unstructured survey results with Cursor IDE 
+### How to digest unstructured survey results with Cursor IDE
 
 See how to get the most out of your Microsoft Forms results with AI.
 
@@ -68,7 +66,7 @@ See how to get the most out of your Microsoft Forms results with AI.
 3. Open this new folder in Cursor IDE
 4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel
 5. Set your model, we like `gemini-2.5-pro` with **Thinking enabled**, as it has a massive context window, and is highly ranked for text. If there are better models at the time of reading this, use them! (see the 'Text' leaderboard on [LLMArena](https://lmarena.ai/leaderboard))
-5. Start prompting your .csv file! 
+5. Start prompting your .csv file!
 
 For example, the below prompt will read through your `.csv` line by line, highlight interesting parts of each answer, and generate a sentiment for the answer, allowing you much better 'at-a-glance' survey results. We use it to create a visual stimulus for when we record our [Digesting the Fat videos](https://www.youtube.com/watch?v=4DKH5IDp7Wk)
 
@@ -118,6 +116,7 @@ We like using XML tags in our prompts. They allow LLMs to parse information more
     Ensure no responses have been missed, ensure you have followed each step before moving on to the next step.
 </finally>
 ```
+
 ::: good
 Code: Good example - Cursor Prompt for generating Microsoft Forms digests from `.csv`
 :::
