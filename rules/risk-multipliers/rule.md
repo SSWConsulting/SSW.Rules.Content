@@ -72,7 +72,7 @@ Use this approach when:
 
 ### Option 3: Narrow the scope
 
-Sometimes, a piece of work is simply too large to adequately identify and manage its risk. In these cases, the best thing to do is break the work down into smaller chuncks, and repeat the process outlined above for each subsequent chunk. This may need to be an iterative process (maybe the resultant chunks *still* have too many unknowns), but breaking down herculean tasks into smaller, more manageable pieces, is a tried and true way of making the impossible possible.
+Sometimes, a piece of work is simply too large to adequately identify and manage its risk. In these cases, the best thing to do is break the work down into smaller chunks, and repeat the process outlined above for each subsequent chunk. This may need to be an iterative process (maybe the resultant chunks *still* have too many unknowns), but breaking down herculean tasks into smaller, more manageable pieces, is a tried and true way of making the impossible possible.
 
 Use this approach when:
 
