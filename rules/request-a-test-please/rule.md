@@ -58,7 +58,7 @@ These are the steps you should take when requesting a "Test Please" via email:
 
 1. <mark>'Test Please'</mark>
 
-### Hi John,
+### Hi John
 
 I am looking for bugs or approval to release this version.
 
