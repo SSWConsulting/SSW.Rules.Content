@@ -5,8 +5,8 @@ title: Rules to Better ChatGPT Prompt Engineering
 guid: 91b60efc-2b8e-4ff1-a373-ac4cab576483
 uri: rules-to-better-chatgpt-prompt-engineering
 index:
-  - rule: rules/fundamentals-of-prompt-engineering/rule.mdx
-  - rule: rules/ai-prompt-xml/rule.mdx
+  - rule: rules/fundamentals-of-prompt-engineering/rule.md
+  - rule: rules/ai-prompt-xml/rule.md
 ---
 
 ChatGPT Prompt Engineering is an essential aspect of maximizing the effectiveness and user experience of AI-driven language models like OpenAI's Generative Pre-trained Transformers (GPT).

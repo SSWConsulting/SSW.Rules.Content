@@ -15,17 +15,19 @@ redirects:
 Hey there! Are you tired of the back-and-forth emails trying to find a suitable time for a meeting with external or internal parties? Well, fret no more!
 
 That's what scheduling automation is for, there are tonnes of tools that solve the problem.
+
+<!--endintro-->
+
 ### The tools
 
 * [Microsoft Bookings](https://www.microsoft.com/en-au/microsoft-365/business/scheduling-and-booking-app) and [Bookings with me](https://outlook.office.com/bookwithme/me) (recommended)
 * [Calendly](https://calendly.com/)
 
-<youtubeEmbed url="https://www.youtube.com/embed/LsFofCLoUJE" description="Video: Microsoft Bookings - How to get started (2 min)" />
+`youtube: https://www.youtube.com/embed/LsFofCLoUJE`
+**Video: Microsoft Bookings - How to get started (2 min)**
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    
+::: greybox
+
 **Scenario:** You've got the client interested, but then booking in a time can be hard work. Account Managers often have to bounce between the clients availability and their own calendars with the classic tale of...
 
 ---
@@ -40,32 +42,15 @@ That's what scheduling automation is for, there are tonnes of tools that solve t
 
 etc...
 
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: 'XXX',
-    shouldDisplay: false
-  }}
-/>
+:::
 
-<figureEmbed figureEmbed={{
-  preset: "badExample",
-  figure: '**Figure: Bad example - It\'s hard to find a common time to book a meeting if you don\'t have scheduling automation**',
-  shouldDisplay: true
-} } />
+::: bad
+**Figure: Bad example - It's hard to find a common time to book a meeting if you don't have scheduling automation**
+:::
 
-
-<imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "goodExample",
-    figure: 'Good example - A nice link in your LinkedIn profile for easy bookings',
-    shouldDisplay: true
-  }}
-  src="linkedinlink.png"
-/>
+::: good
+![Figure: Good example - A nice link in your LinkedIn profile for easy bookings](linkedinlink.png)
+:::
 
 You can create an individual booking page ("Bookings with me") or a shared booking page, for a team ("Microsoft Bookings").
 
@@ -80,17 +65,7 @@ You can create an individual booking page ("Bookings with me") or a shared booki
 7. Choose who can book appointments - anyone with the link, people in your organization only, or no self service
 8. Save your changes and share the booking page link with external parties
 9. Now, they can easily book a meeting with you by selecting a suitable time slot from the available options 📅
-   <imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: 'Setup - Setting up a new Service in Microsoft Bookings',
-    shouldDisplay: true
-  }}
-  src="microsoftbookings.jpg"
-/>
+   ![Figure: Setup - Setting up a new Service in Microsoft Bookings](microsoftbookings.jpg)
 
 ### Create a Bookings with me page for individual bookings
 
@@ -111,17 +86,7 @@ Now that you created your booking calendar, one of the best places to use it is 
 
 1. Turn on "Creator Mode" first - you can't have a link in your profile without it turned on
 
-   <imageEmbed
-  alt="Image"
-  size="large"
-  showBorder={false}
-  figureEmbed={{
-    preset: "default",
-    figure: 'Setup - Turn on Creator Mode in LinkedIn',
-    shouldDisplay: true
-  }}
-  src="creatormode.png"
-/>
+   ![Figure: Setup - Turn on Creator Mode in LinkedIn](creatormode.png)
 
 2. Now login to LinkedIn | Click on “Me” | “View Profile”
 3. Click on the Edit profile button

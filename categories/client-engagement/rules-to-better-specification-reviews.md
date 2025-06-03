@@ -5,8 +5,8 @@ title: Rules to Better Specification Reviews
 guid: 3f9cd99c-8699-4a67-8563-f9c34f810033
 uri: rules-to-better-specification-reviews
 index:
-- rule: rules/what-is-a-spec-review/rule.mdx
-- rule: rules/corridor-conversations/rule.mdx
+- rule: rules/what-is-a-spec-review/rule.md
+- rule: rules/corridor-conversations/rule.md
 ---
 
 Specification Reviews are the first step to engaging properly with a client and need to be executed well. The following rules will ensure you know how, and how much, to spec out upfront.
