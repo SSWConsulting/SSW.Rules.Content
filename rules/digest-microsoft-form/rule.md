@@ -67,7 +67,7 @@ See how to get the most out of your Microsoft Forms results with AI.
 2. Create a new folder containing the `.csv` file you would like to digest
 3. Open this new folder in Cursor IDE
 4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel
-5. Set your model, we like `claude-3.7-sonnet` with **Thinking enabled**
+5. Set your model, we like `gemini-2.5-pro` with **Thinking enabled**, as it has a massive context window, and is highly ranked for text, use them! (see the 'Text' leaderboard on [LLMArena](https://lmarena.ai/leaderboard))
 5. Start prompting your .csv file! 
 
 For example, the below prompt will read through your `.csv` line by line, highlight interesting parts of each answer, and generate a sentiment for the answer, allowing you much better 'at-a-glance' survey results. We use it to create a visual stimulus for when we record our [Digesting the Fat videos](https://www.youtube.com/watch?v=4DKH5IDp7Wk)
@@ -96,43 +96,18 @@ We like using XML tags in our prompts. They allow LLMs to parse information more
 </REMEMBER>
 
 <steps>
-
-    <step-1>
-        Create a new markdown file which does not overwrite any existing files. 
-    </step-1>
-
     <step-2>
         Collate ALL of the text-based responses into a table for each question that has a text response. All responses should be in this markdown file. 
     </step-2>
-
-    <progress-check>
-        ENSURE THIS STEP IS COMPLETE BEFORE MOVING ON TO THE NEXT STEP
-    </progress-check>
-
     <step-3>
         Ensure that all of the text responses have been collected into a newly created markdown file. 
     </step-3>
-
-    <progress-check>
-        ENSURE THIS STEP IS COMPLETE BEFORE MOVING ON TO THE NEXT STEP
-    </progress-check>
-
     <step-4>
         Once all the responses have been collected, add a new column named "Sentiment" to each of the tables in the markdown file.  
     </step-4>
-
-    <progress-check>
-        ENSURE THIS STEP IS COMPLETE BEFORE MOVING ON TO THE NEXT STEP
-    </progress-check>
-
     <step-5>
         For each response in the markdown file, read it, and determine the sentiment as either (✅ Positive, ❌ Negative, 🧐 Insightful, ⚠️ Critical, 😂 Funny)  
     </step-5>
-
-    <progress-check>
-        ENSURE THIS STEP IS COMPLETE BEFORE MOVING ON TO THE NEXT STEP
-    </progress-check>
-
     <step-6>
         Now, carefully read through each response in the markdown file. We are making a video with the results from this, and want to read any interesting parts of responses -- highlight in BOLD any interesting key words and phrases. Prioritise statements that seem original, critical, funny. Ignore generic phrases. 
     </step-6>
