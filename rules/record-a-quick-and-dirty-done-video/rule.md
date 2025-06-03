@@ -122,7 +122,6 @@ Switching Scenes in OBS - it is quite easy to do with these simple steps using O
 1. **Apparel** - If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
 2. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
 
-
 ::: bad
 ![Figure: Bad example - Camera is below eye level](bad-seth-example.jpg)
 :::
