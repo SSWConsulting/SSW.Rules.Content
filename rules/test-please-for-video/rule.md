@@ -7,6 +7,7 @@ authors:
   - title: Landon Maxwell
     url: https://ssw.com.au/people/landon-maxwell
 related:
+  - conduct-a-test-please
   - ui-ux-test-please
 redirects:
   - post-production-do-you-know-how-to-conduct-a-test-please-for-video
