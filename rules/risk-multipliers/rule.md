@@ -42,7 +42,7 @@ While this is probably the most obvious area of risk, it is still risk and there
 * We need a new payment gateway!
 * ...etc.
 
-One of the best ways to identify these complexities is to **[run an Event Storming session.](/event-storming)** SSW highly recommends this for all medium to large projects, and we've found it incredibly effective at both identifying complexity, as well as *demonstrating that complexity* to non-technical stakeholders.
+One of the best ways to identify these complexities is to **[run an Event Storming session](/event-storming)**. This approach is highly recommended for all medium to large projects, as it’s proven effective in identifying complexity and clearly demonstrating it to non-technical stakeholders.
 
 ## Managing risk
 
