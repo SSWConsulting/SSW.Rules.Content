@@ -66,7 +66,7 @@ See how to get the most out of your Microsoft Forms results with AI.
 3. Open this new folder in Cursor IDE
 4. With the `.csv` open, hit `ctrl+L` (`⌘+L` for Mac users). This opens the AI panel
 5. Set your model, we like `gemini-2.5-pro` with **Thinking enabled**.
-6. Start prompting your .csv file! 
+6. Start prompting your .csv file!
 
 ::: info
 We recommend **Gemini 2.5 Pro** as it has a massive 1 million token context window, and is highly ranked for text.
