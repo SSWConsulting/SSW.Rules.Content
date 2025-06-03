@@ -111,7 +111,7 @@ def replace_standalone_image(m):
     raw_src = m.group(2).strip()
     src = clean_image_src(raw_src)
 
-    return f'''<imageEmbed
+    return '\n' + f'''<imageEmbed
   alt="Image"
   size="large"
   showBorder={{false}}
