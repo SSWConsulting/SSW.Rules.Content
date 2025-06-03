@@ -57,32 +57,25 @@ If you are writing code, your Pull Request (PR) review is your "Test Please"
 
 ## Emails
 
-If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
+If you are writing an email, a "[checked by](/checked-by-xxx)" is your "Test Please".
 
 ## Videos
 
-If you created a video, ["Test Please" for videos](test-please-for-video) "Test Please". After launch you may want to keep an eye on [likes and comments](/like-and-comment-on-videos) for further feedback.
+If you created a video, ["Test Please" for videos](/test-please-for-video) "Test Please". After launch you may want to keep an eye on [likes and comments](/like-and-comment-on-videos) for further feedback.
 
 ## Anything else
 
-If you are doing anything else (e.g. creating a new blog post, updating a Word document, or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere. You can do that via a PBI or email.
+If you are doing anything else (e.g. creating a new blog post, updating a Word document, or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere. You can do that via a PBI (ideally) or email (if there is no backlog).
 
-::: email-template  
-
-| | |
-| -------- | --- |
-| To: | Gary |
-| Subject: | RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09 |  
-::: email-content
+::: greybox
 
 ### Hi Gary
 
-**Test failed**
-(as per critical bugs reported in other emails)
-`youtube: https://www.youtube.com/embed/whxbTtkH5GU`
+**❌ Test failed**
+(as per critical bugs reported)
 
+`youtube: https://www.youtube.com/embed/whxbTtkH5GU`
 **Video: Test Failed! (10 sec)**
-:::
 :::
 ::: good  
 Figure: Good example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email
