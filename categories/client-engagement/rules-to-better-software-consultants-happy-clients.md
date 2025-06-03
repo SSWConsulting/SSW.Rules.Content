@@ -6,6 +6,7 @@ uri: rules-to-better-software-consultants-happy-clients
 index:
 - estimating-do-you-know-what-tasks-are-involved-in-addition-to-just-development-work-items
 - underpromise-overdeliver
+- risk-multipliers
 - inform-clients-about-estimates-overrun
 - approval-do-you-get-work-approved-before-you-do-it
 - approval-do-you-assume-necessary-tasks-will-get-approval
