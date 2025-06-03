@@ -2,6 +2,7 @@ import os
 import re
 from pathlib import Path
 import time
+import sys
 
 # ----------------------------- #
 # Regex patterns
@@ -241,7 +242,7 @@ def process_custom_aside_blocks(content):
 # Main Transform Function
 # ----------------------------- #
 
-def transform_rule_md_to_mdx(file_path='../../rules/rule/rule.md'):
+def transform_rule_md_to_mdx(file_path):
     path = Path(file_path)
     if not path.exists():
         print(f"File not found: {file_path}")
@@ -314,4 +315,7 @@ def transform_all_rules(base_dir='../../rules'):
 # ----------------------------- #
 
 if __name__ == '__main__':
-    transform_all_rules()
+    if len(sys.argv) > 1:
+        transform_rule_md_to_mdx(sys.argv[1])
+    else:
+        transform_all_rules()
