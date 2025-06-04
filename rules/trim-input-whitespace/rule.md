@@ -68,4 +68,4 @@ Most platforms and frameworks make this easy:
 * SQL: `TRIM(column)`
 * HTML Input Events: Consider trimming on `onBlur` or `onChange` before submitting the form.
 
-This small usability improvement makes a big difference—users don’t notice when it works, but they definitely notice when it doesn’t.
+This small usability improvement makes a big difference - users don’t notice when it works, but they definitely notice when it doesn’t work.
