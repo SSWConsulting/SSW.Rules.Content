@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you trim starting & trailing whitespaces in input fields?
+title: Do you trim starting and trailing whitespaces in input fields?
 seoDescription: Avoid user frustration by trimming leading and trailing
   whitespace from input fields. This prevents validation errors caused by
   invisible characters.
