@@ -7,7 +7,8 @@ seoDescription: Avoid user frustration by trimming leading and trailing
   invisible characters.
 uri: trim-input-whitespace
 authors:
-  - title: ""
+  - title: Harkirat Singh
+    url: https://github.com/0xharkirat
 related:
   - avoid-spaces-and-empty-lines-at-the-start-of-character-columns
 created: 2025-06-04T10:34:00.000Z
@@ -23,19 +24,19 @@ When input validation fails because of a whitespace character the user can’t s
 
 For nearly all form fields—email addresses, URLs, usernames, etc.—it is best practice to automatically remove any leading and trailing whitespace *before* performing validation or submitting data.
 
-::: greybox
 
-User enters: `github.com/0xharkirat␣` (with a trailing space due to keyboard autocomplete)
 
-Input validation fails: “Enter a valid URL”
 
-:::
 
 ::: bad
 
-Figure: Bad example – Validation fails because the field includes an invisible trailing space
+![Figure: Bad Example - Keyboard autocomplete added a trailing space, causing the GitHub URL validation to fail with an error message.](whatsapp-image-2025-06-04-at-10.42.41.jpeg)
 
 :::
+
+
+
+
 
 ::: greybox
 
