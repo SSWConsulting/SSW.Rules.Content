@@ -30,7 +30,7 @@ For nearly all form fields—email addresses, URLs, usernames, etc.—it is best
 
 ::: bad
 
-![Figure: Bad Example - Keyboard autocomplete added a trailing space, causing the GitHub URL validation to fail with an error message.](bad-example-trailing-white-space-validation-failed.jpeg)
+![Figure: Bad example - Keyboard autocomplete added a trailing space, causing the GitHub URL validation to fail with an error message](bad-example-trailing-white-space-validation-failed.jpeg)
 
 :::
 
