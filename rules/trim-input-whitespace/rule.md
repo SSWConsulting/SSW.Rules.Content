@@ -24,19 +24,9 @@ When input validation fails because of a whitespace character the user can’t s
 
 For nearly all form fields (email addresses, URLs, usernames, etc.) it is best practice to automatically remove any leading and trailing whitespace **before** performing validation or submitting data.
 
-
-
-
-
 ::: bad
-
 ![Figure: Bad example - Keyboard autocomplete added a trailing space, causing the GitHub URL validation to fail with an error message](bad-example-trailing-white-space-validation-failed.jpeg)
-
 :::
-
-
-
-
 
 ::: greybox
 
