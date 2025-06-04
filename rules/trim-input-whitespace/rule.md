@@ -52,7 +52,7 @@ Input validation passes: “github.com/0xharkirat” is accepted
 Figure: Good example – Automatically trimming input before validation makes the form behave as expected
 :::
 
-## Exceptions and Notes
+## Exceptions and notes
 
 There are rare cases (e.g. password fields or intentionally space-padded inputs) where trimming might be inappropriate. In such cases, make this behavior explicit in the UI, or better yet, avoid such patterns altogether.
 
