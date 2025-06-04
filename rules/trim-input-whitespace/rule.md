@@ -22,7 +22,7 @@ When input validation fails because of a whitespace character the user can’t s
 
 ## Always trim inputs before validating
 
-For nearly all form fields—email addresses, URLs, usernames, etc.—it is best practice to automatically remove any leading and trailing whitespace *before* performing validation or submitting data.
+For nearly all form fields (email addresses, URLs, usernames, etc.) it is best practice to automatically remove any leading and trailing whitespace **before** performing validation or submitting data.
 
 
 
