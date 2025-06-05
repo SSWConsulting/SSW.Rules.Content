@@ -4,7 +4,7 @@ title: Rules to Better Clean Architecture
 guid: bc3e235c-9e79-4405-b998-5725b46b91dd
 uri: rules-to-better-clean-architecture
 index:
-- the-main-principles-of-clean-architecture
+- clean-architecture
 - the-best-clean-architecture-learning-resources
 - clean-architecture-get-started
 - keep-your-domain-layer-independent-of-the-data-access-concerns
