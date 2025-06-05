@@ -22,6 +22,7 @@ related:
   - roadmap
   - what-happens-at-retro-meetings
   - what-happens-at-a-sprint-planning-meeting
+  - sprint-forecast
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
