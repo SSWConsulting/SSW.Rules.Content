@@ -108,7 +108,7 @@ Bad example - The application directly relies on the infrastructure. This makes 
 :::
 
 ::: greybox
-Let the application depend on an interface, and have the infrastructure layer provide the implementation. 
+Let the application depend on an interface, and have the infrastructure layer provide the implementation.
 :::
 ::: good
 Good example - Use the Repository Pattern. This keeps things decoupled and easier to maintain
