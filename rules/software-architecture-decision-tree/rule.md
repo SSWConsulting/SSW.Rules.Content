@@ -1,7 +1,9 @@
 ---
-seoDescription: Choosing between Clean Architecture, Vertical Slice Architecture, Modular Monolith, and Microservices can be challenging. Use this decision tree to select the best software architecture for your system.
 type: rule
 title: Do you know how to choose the best software architecture for your system?
+seoDescription: Choosing between Clean Architecture, Vertical Slice
+  Architecture, Modular Monolith, and Microservices can be challenging. Use this
+  decision tree to select the best software architecture for your system.
 uri: software-architecture-decision-tree
 authors:
   - title: Daniel Mackay
@@ -20,7 +22,7 @@ created: 2024-06-13T17:00:00.000Z
 guid: 1CD0006D-24A7-4FBD-B59E-92C25D0D10BC
 ---
 
-Choosing the right software architecture for your system is crucial for its success and maintainability. Making the wrong choice can lead to increased complexity, difficulty in scaling, and higher costs.
+When writing a large scale enterprise application you want to make sure you only have to write it once. Choosing the right software architecture for your system is crucial for its long term success and maintainability. The right software architecture will allow your software application will scale too meet new requirements. Choosing the wrong software architecture can turn adding new features and maintaining your code into an increasingly frustrating exercise in futility.
 
 <!--endintro-->
 
