@@ -24,7 +24,7 @@ Choosing the right software architecture for your system is crucial for its succ
 
 <!--endintro-->
 
-## Popular Architectures
+## Popular architectures
 
 Here are some of the popular architectures and factors to consider when deciding the best fit for your project:
 
@@ -59,9 +59,9 @@ Microservices architecture involves splitting the application into small, indepe
 
 See more on [Rules to Better Microservices](/rules-to-better-microservices).
 
-## Architecture Decision Tree
+## Architecture decision tree
 
-![Architecture Decision Tree](architecture-decision-tree-v3.jpg)
+![Figure: Architecture Decision Tree](architecture-decision-tree-v3.jpg)
 
 It's important to keep in mind that these architectures are not mutually exclusive.
 
@@ -69,7 +69,7 @@ Within a Modular Monolith Architecture, each module could be implemented using C
 
 Also, from a pragmatic point of view a combination of Modular Monolith and Microservices might provide the best of both worlds. The majority of the system could be implemented as a Modular Monolith, with a few key services implemented as Microservices to provide scalability and flexibility where needed.
 
-## Factors to Consider
+## Factors to consider
 
 * **Are your requirements certain?**  
   If requirements are likely to change, Clean Architecture or Vertical Slice Architecture can offer more flexibility.
@@ -92,29 +92,29 @@ Also, from a pragmatic point of view a combination of Modular Monolith and Micro
 * **Is the team experienced?**
   The complexity of Microservices can be challenging for less experienced teams. Vertical Slice Architecture although simple, has fewer guardrails when compared to Clean Architecture and can lead to a mess if not managed correctly.  This leads to recommending Clean Architecture for less experienced teams that need more structure.
 
-### Examples
+## Examples
 
 Here are some practical scenarios to illustrate the decision-making process:
 
-#### Scenario 1: Startup with uncertain requirements
-
 ::: greybox
+### Scenario 1: Startup with uncertain requirements
+
 You are building an MVP with a small team and expect the requirements to evolve rapidly.
 
 ✅ **Choice: Clean Architecture or Vertical Slice Architecture** - These architectures offer flexibility and are easier to refactor as requirements change.
 :::
 
-#### Scenario 2: Medium-sized business with limited DevOps maturity
-
 ::: greybox
+### Scenario 2: Medium-sized business with limited DevOps maturity
+
 You have a mid-sized team, and your organization is still developing its DevOps practices.
 
 ✅ **Choice: Modular Monolith** - A Modular Monolith provides some modularity benefits without the full complexity of Microservices, making it easier to manage with limited DevOps capabilities.
 :::
 
-#### Scenario 3: Large enterprise with multiple domains and teams
-
 ::: greybox
+### Scenario 3: Large enterprise with multiple domains and teams
+
 You are developing a large-scale application with multiple business domains and have several teams working in parallel.
 
 ✅ **Choice: Microservices** - Microservices allow independent development, deployment, and scaling, which suits large and complex applications.
