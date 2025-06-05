@@ -10,6 +10,9 @@ authors:
     url: https://ssw.com.au/people/christian-morford-waite
 related:
   - github-sprint-templates
+  - what-happens-at-a-sprint-planning-meeting
+  - what-happens-at-retro-meetings
+  - sprint-review-retro-email
 redirects:
   - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
 created: 2010-12-02T03:53:59.000Z
