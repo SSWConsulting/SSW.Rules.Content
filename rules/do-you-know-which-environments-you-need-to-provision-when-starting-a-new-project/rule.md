@@ -20,7 +20,7 @@ Before any project can be used by a customer it must first be published to a pro
 Skipping environments in a feeble attempt to save money will result in untested features breaking production.
 
 ::: bad
-![Bad example - Skipping environments](bad-example-skipping-environments.jpg "Bad Example")
+![Figure: Bad example - Skipping environments](bad-example-skipping-environments.jpg "Bad Example")
 :::
 
 ## What is each environment for?
@@ -42,7 +42,7 @@ For smaller projects we can often get away without having a dedicated developmen
 * Local
 
 ::: good
-![Good example - Internal or Small Projects have fewer environments](simple-environments.jpg "Internal or Small Projects")
+![Figure: Good example - Internal or Small Projects have fewer environments](simple-environments.jpg "Internal or Small Projects")
 :::
 
 ### Large or multi-team projects
@@ -56,7 +56,7 @@ For large projects it's recommended to run 4 hosted environments + 1 local:
 * Local
 
 ::: good
-![Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg "Large or Multi-Team Projects")
+![Figure: Good example - Large or Multi-Team Projects tend to have more environments](complex-environments.jpg "Large or Multi-Team Projects")
 :::
 
 The above is a general recommendation. Depending on your project's needs you may need to add additional environments e.g. support, training, etc.
