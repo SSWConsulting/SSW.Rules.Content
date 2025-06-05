@@ -11,6 +11,7 @@ authors:
     url: https://ssw.com.au/people/seth-daily
 related:
   - making-a-great-done-video
+  - summary-recording-sprint-reviews
 redirects: []
 ---
 
