@@ -9,6 +9,7 @@ authors:
 related:
   - sprint-forecast
   - sprint-review-retro-email
+  - scrum-master-do-you-schedule-the-3-meetings
   - do-you-conduct-an-architecture-review-after-every-sprint
   - technical-debt
   - just-enough-refactoring
