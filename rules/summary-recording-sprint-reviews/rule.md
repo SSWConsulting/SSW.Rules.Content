@@ -1,9 +1,7 @@
 ---
 type: rule
-title: Do you record a summary of your Sprint Meeting?
-seoDescription: Enhance transparency and inclusivity by recording summaries of
-  Sprint Reviews, providing stakeholders with clear updates and fostering
-  community engagement.
+title: Do you record a summary of Sprint Meetings?
+seoDescription: Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement.
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
@@ -20,6 +18,7 @@ related:
   - rules-to-better-video-recording
   - making-a-great-done-video
   - creating-action-items
+  - monthly-stakeholder-video
 created: 2024-04-15T00:46:35.508Z
 guid: 99674806-7353-4d39-ac9a-219620d4e107
 ---
@@ -118,7 +117,7 @@ Don't let the time you spent creating the perfect video go to waste — make sur
   4. Leave a brief comment on YouTube
 :::
 
-### ✅ Good Example of a Sprint Meeting recording
+### ✅ Good example of a Sprint Meeting recording
 
 Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
 
