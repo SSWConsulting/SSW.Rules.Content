@@ -3,15 +3,17 @@ seoDescription: Developers can avoid Primitive Obsession by using Strongly Typed
 type: rule
 title: Do you use Strongly Typed IDs to avoid Primitive Obsession
 guid: 7955fe7c-fdef-41e1-a4e6-6ccf8ae1c0eb
-uri: do-you-use-strongly-typed-ids
+uri: strongly-typed-ids
 created: 2023-08-10T12:15:00.0000000Z
 authors:
   - title: William Liebenberg
     url: https://ssw.com.au/people/william-liebenberg
 archivedreason:
 related:
-  - when-to-use-value-objects
+- when-to-use-value-objects
 redirects:
+- do-you-use-strongly-typed-ids
+
 ---
 
 Developers often fall into the trap of using primitive types (`int`, `string`, `Guid`) for entity identifiers when using Entity Framework (EF) because it is straight forward to simply add a `string` or `int` or `Guid` as the `ID` field for an entity. The misuse of the primitive types lead to **Primitive Obsession**.
