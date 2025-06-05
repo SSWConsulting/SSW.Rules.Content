@@ -61,6 +61,7 @@ index:
   - rules-to-better-testing
   - rules-to-better-sitefinity
   - rules-to-better-wordpress
+  - rules-to-better-tinacms
   - rules-to-better-websites-development
   - rules-to-better-angular
   - rules-to-better-angularjs
