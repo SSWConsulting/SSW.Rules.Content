@@ -44,6 +44,9 @@ This modular approach to software development can introduce inexperienced teams 
 
 You can find our VSA template on [GitHub](https://github.com/SSWConsulting/SSW.VerticalSliceArchitecture)
 
+`youtube: https://www.youtube.com/watch?v=t-97OCqA1bA`
+**Video: Why We Love Vertical Slice Architecture | [Sam Maher](https://www.ssw.com.au/people/sam-maher/) | SSW Rules (7 min)**
+
 ### Modular Monolith
 
 A Modular Monolith organizes the system into modules that encapsulate specific functionalities. While it runs as a single application, it retains some benefits of microservices, such as independent module development and testing. It’s a good middle-ground between a monolith and microservices.
