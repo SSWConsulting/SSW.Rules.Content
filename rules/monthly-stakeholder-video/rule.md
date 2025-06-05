@@ -92,7 +92,7 @@ Here’s the link {{ YOUTUBE LINK }}
 :::
 :::
 ::: good
-Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visability from your team.
+Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visibility from your team.
 :::
 
 ::: good
