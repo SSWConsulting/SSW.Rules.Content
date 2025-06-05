@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/luke-parker
   - title: Jason Taylor
     url: https://ssw.com.au/people/jason-taylor
-related: []
+related:
+  - software-architecture-decision-tree
 redirects:
   - do-you-know-the-main-principles-of-clean-architecture
   - software-architecture-decision-tree
