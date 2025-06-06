@@ -44,7 +44,7 @@ Vertical Slice Architecture structures your system around features rather than t
 
 This modular approach to software development can introduce inexperienced teams to the idea of shipping features as functional units with no shared knowledge of the domain entities, infrastructure layer, or application layer within another subsystem, further preparing them for future development environments that may use Modular Monolith or Microservices Architecture.
 
-See more on [Rules to Better Vertical Slice Architecture](/rules-to-better-clean-architecture)
+See more on [Rules to Better Vertical Slice Architecture](/rules-to-better-vertical-slice-architecture)
 
 You can find our VSA template on [GitHub](https://github.com/SSWConsulting/SSW.VerticalSliceArchitecture)
 
