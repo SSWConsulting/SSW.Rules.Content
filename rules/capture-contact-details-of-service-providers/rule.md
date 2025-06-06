@@ -52,8 +52,6 @@ Figure: Good example – contact details are stored clearly and include job hist
 
 :::
 
-
-
 ### Bonus tip – Keep your list current
 
 Every 6–12 months, do a quick check that:
