@@ -19,11 +19,14 @@ If you lost a sales opportunity, add them to LinkedIn and send a message (if you
 
 For example:
 
-::: good
+::: greybox
 Hey Bob - As per my email I'd love to do your xxx project when you are ready.
 
 We are doing some really cool AI projects these days.
 <https://www.ssw.com.au/consulting?tag=AI-Development>
 
 Let's keep in touch in the meantime.
+:::
+::: good
+Good example - Low pressure, no sales pitch, just a reminder.
 :::
