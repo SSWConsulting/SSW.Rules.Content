@@ -30,7 +30,7 @@ At a minimum, store the following:
 
 ### Where should you store it?
 
-Store in a shared location such as:
+Store in a **shared location** such as:
 
 * A dedicated Teams OneNote or SharePoint list
 * A shared CRM or internal wiki
@@ -48,13 +48,13 @@ Avoid storing them in personal devices, unshared email threads, or private notes
 
 ::: good
 
-Figure: Good example – contact details are stored clearly and include job history and availability
+Figure: Good example – Contact details are stored clearly and include job history and availability
 
 :::
 
-### Bonus tip – Keep your list current
+### Keep your list current
 
-Every 6–12 months, do a quick check that:
+Every time you need assistance, do a quick check that:
 
 * The provider is still in business
 * Their contact details are up to date
