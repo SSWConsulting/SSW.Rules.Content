@@ -9,8 +9,10 @@ created: 2025-06-06T10:00:00.0000000Z
 authors:
   - title: Hugo Pernet
     url: https://ssw.com.au/people/hugo-pernet
-  - title: Jeoffrey Fischer
-    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
+  - title: Sam Maher
+    url: https://ssw.com.au/people/sam-maher
 related:
   - software-architecture-decision-tree
 redirects:
