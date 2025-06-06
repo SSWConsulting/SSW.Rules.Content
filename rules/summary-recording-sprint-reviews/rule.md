@@ -1,9 +1,7 @@
 ---
 type: rule
-title: Do you record a summary of your Sprint Meeting?
-seoDescription: Enhance transparency and inclusivity by recording summaries of
-  Sprint Reviews, providing stakeholders with clear updates and fostering
-  community engagement.
+title: Do you record a summary of Sprint Meetings?
+seoDescription: Enhance transparency and inclusivity by recording summaries of Sprint Reviews, providing stakeholders with clear updates and fostering community engagement.
 uri: summary-recording-sprint-reviews
 authors:
   - title: Jack Pettit
@@ -19,6 +17,8 @@ related:
   - record-a-quick-and-dirty-done-video
   - rules-to-better-video-recording
   - making-a-great-done-video
+  - creating-action-items
+  - monthly-stakeholder-video
 created: 2024-04-15T00:46:35.508Z
 guid: 99674806-7353-4d39-ac9a-219620d4e107
 ---
@@ -34,6 +34,15 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 * **Engagement:** Ensures that all stakeholders, regardless of their availability to attend, have access to the same information, promoting inclusiveness and alignment
 * **Community:** Allows the community at large to see what is happening on a product and provide feedback
 
+## Prepare for the Sprint Meeting recording
+
+Before you start recording, ensure you have the right people ready for key roles:
+
+* **Have someone ready to scribe:** Designate someone to take detailed notes during the meeting. This person will capture **key decisions**, **[action items](/creating-action-items)**, and **important discussion points** that may not be fully covered in the video summary
+* **Have someone ready to [YakShave](https://yakshaver.ai):** Designate someone to handle secondary recordings during the meeting. While the main presenter is recording the Sprint summary, this person can start separate recordings (YakShaves) to create tasks or work items as needed
+
+Having these roles clearly defined beforehand ensures a smoother recording process and better documentation of your Sprint Meeting.
+
 ## Record the Sprint Meeting summary
 
 The Sprint Meeting summary should be what it is: a summary. So keep it concise by focusing on the main goals and decisions that were discussed during the Sprint Meeting.
@@ -46,9 +55,7 @@ Here's a suggested runsheet for what to cover in the video:
 4. Run through Sprint Planning Email
 5. Finish the recording on the Product YouTube Channel, and mention that the current recording will be uploaded there
 
-If you're looking for useful tips on how to make great videos, please see this rule: [Do you know the key things for making a great 'Done Video'?](https://www.ssw.com.au/rules/making-a-great-done-video)
-
-If you need to make edits on your recording, please see this rule: [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/record-a-quick-and-dirty-done-video/)
+See [useful tips on how to make great videos](/making-a-great-done-video).
 
 **Note:** Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points... it gives *some* window into the team, but not everything.
 
@@ -110,7 +117,7 @@ Don't let the time you spent creating the perfect video go to waste — make sur
   4. Leave a brief comment on YouTube
 :::
 
-### ✅ Good Example of a Sprint Meeting recording
+### ✅ Good example of a Sprint Meeting recording
 
 Here is an example of a Sprint Meeting recording from the [Tina CMS](https://tina.io/) Team.
 

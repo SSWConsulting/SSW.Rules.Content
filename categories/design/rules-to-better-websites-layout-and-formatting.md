@@ -6,6 +6,7 @@ uri: rules-to-better-websites-layout-and-formatting
 index:
 - cta-banana-rule
 - keep-developers-away-from-design-work
+- trim-input-whitespace
 - forms-do-you-indicate-which-fields-are-required-and-validate-them
 - forms-do-you-know-when-to-use-links-and-when-to-use-buttons
 - forms-do-you-include-the-number-of-results-in-comboboxes

@@ -4,7 +4,7 @@ title: Rules to Better Clean Architecture
 guid: bc3e235c-9e79-4405-b998-5725b46b91dd
 uri: rules-to-better-clean-architecture
 index:
-- the-main-principles-of-clean-architecture
+- clean-architecture
 - the-best-clean-architecture-learning-resources
 - clean-architecture-get-started
 - keep-your-domain-layer-independent-of-the-data-access-concerns
@@ -14,7 +14,7 @@ index:
 - unique-dtos-per-endpoint
 - the-best-approach-to-validate-your-client-requests
 - when-to-use-value-objects
-- do-you-use-strongly-typed-ids
+- strongly-typed-ids
 - when-to-use-domain-and-integration-events
 - cloud-architect
 - use-the-mediator-pattern-with-cqrs

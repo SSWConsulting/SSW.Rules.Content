@@ -20,7 +20,9 @@ authors:
     url: https://ssw.com.au/people/seth-daily
 related:
   - roadmap
-  - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+  - what-happens-at-retro-meetings
+  - what-happens-at-a-sprint-planning-meeting
+  - sprint-forecast
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
@@ -201,5 +203,5 @@ Figure: Good example - Template for Sprint Review/Retro email
 :::
 
 ::: good
-![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
+![Figure: Good example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::
