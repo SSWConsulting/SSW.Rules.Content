@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Vertical Slice Architecture
+title: Rules to Better Vertical Slice Architecture
 guid: 20552ae5-e3fd-4ad9-ad14-bde2698b8579
 uri: rules-to-better-vertical-slice-architecture
 index:
