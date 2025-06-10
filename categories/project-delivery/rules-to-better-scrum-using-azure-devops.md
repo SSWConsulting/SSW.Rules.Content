@@ -12,7 +12,7 @@ index:
 - turn-emails-into-pbis
 - do-you-estimate-all-tasks-at-the-start-of-the-sprint
 - 3-steps-to-a-pbi
-- review-pbis-and-react
+- react-to-reviewed-pbis
 - do-you-have-templates-for-your-pbis-and-bugs
 - bugs-do-you-know-how-to-handle-bugs-on-the-product-backlog
 - roadmap
