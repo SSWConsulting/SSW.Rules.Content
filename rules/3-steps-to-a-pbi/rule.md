@@ -19,7 +19,7 @@ related:
   - turn-emails-into-pbis
   - have-a-definition-of-ready
   - acceptance-criteria
-  - review-pbis-and-react
+  - react-to-reviewed-pbis
   - write-a-good-pull-request
   - record-a-quick-and-dirty-done-video
   - definition-of-done
