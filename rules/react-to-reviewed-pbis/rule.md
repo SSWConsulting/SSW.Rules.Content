@@ -4,7 +4,7 @@ tips: ""
 title: Do you review PBIs and react with 👍 or 👎?
 seoDescription: Review Issues and PBIs by reacting with 👍 or 👎 to show you’ve
   read them. Especially important for YakShaver-created items.
-uri: review-pbis-and-react
+uri: react-to-reviewed-pbis
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
