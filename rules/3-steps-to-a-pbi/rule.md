@@ -19,6 +19,7 @@ related:
   - turn-emails-into-pbis
   - have-a-definition-of-ready
   - acceptance-criteria
+  - react-to-reviewed-pbis
   - write-a-good-pull-request
   - record-a-quick-and-dirty-done-video
   - definition-of-done
@@ -38,6 +39,10 @@ Before a PBI is worked on it should be added to the current Sprint Backlog durin
 
 <!--endintro-->
 
+::: info
+**Tip:** After reviewing a PBI, don’t forget to [react with 👍 or 👎 to show it’s been validated](/react-to-reviewed-pbis).
+:::
+
 ::: greybox
 
 ### Use YakShaver and make it even easier
@@ -51,7 +56,7 @@ Once a PBI is in the Sprint Backlog, it's lifecycle can be broken down into 3 st
 
 ## 1. Ready
 
-You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already prioritized and approved by the [Product Owner](/rules-to-better-product-owners)
+You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already prioritized and approved by the [Product Owner](/rules-to-better-product-owners).
 
 1. Choose a PBI and assign yourself to it
 2. Double check the [Definition of Ready](/have-a-definition-of-ready)

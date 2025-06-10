@@ -26,12 +26,12 @@ To keep things clean and consistent, [use the **abbreviated** weekday format](/a
 
 <!--endintro-->
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - Missing weekday](date-weekday-bad.png)
 :::
 
-::: good
-![Figure: Good example - Abbreviated weeekday](date-weekday-good.png)
+::: good img-medium
+![Figure: Good example - Abbreviated weekday](date-weekday-good.png)
 :::
 
 ## How to do this in SharePoint
@@ -51,6 +51,6 @@ To add the weekday (E.g. Wed) you need to:
 
   ![Figure: Calculated column with Formula code](CalculatedColumnWithFormulaCode.gif)
 
-3. Change the views of the list to use the new Calculated column `WeekDate` instead of the original date column `Date`:
+3. Change the views of the list to use the new calculated column `WeekDate` instead of the original date column `Date`:
 
-![Figure: Replace the old Date column (Date) with new Calculated column (WeekDate)](ReplaceOldDate.gif)
+![Figure: Replace the old Date column (Date) with new calculated column (WeekDate)](ReplaceOldDate.gif)
