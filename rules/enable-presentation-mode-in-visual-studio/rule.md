@@ -34,8 +34,8 @@ Here are some of the applications where it is especially important:
 
 1. Make your font bigger. This is probably rule number one. There's nothing worse than not being able to see the excellent code you're trying to demo.
 
-   - Increase the font of the Text Editor from 10 to 14 or more.
-   - Increase the font of your Environment from 9 to 12 or more.
+   * Increase the font of the Text Editor from 10 to 14 or more.
+   * Increase the font of your Environment from 9 to 12 or more.
 
 2. Remove any distracting panes or other windows. These usually just get in the way. If you really need them, make sure they're set to pin mode, so they hide when not in use.
 3. Most importantly, you can have all these things done for you at the click of a button by using the [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/).
