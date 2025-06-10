@@ -59,6 +59,10 @@ See [useful tips on how to make great videos](/making-a-great-done-video).
 
 **Note:** Everyone should be free to speak candidly in a Sprint Retrospective, and you don’t want the fact that there will be a recorded summary to make people not speak up. The recorded retro should only include the main good and bad points... it gives *some* window into the team, but not everything.
 
+::: info
+**Tip:** To make the video more entertaining, get more than one person to talk e.g. ask someone to talk about a PBI that they worked on. Also, always try to include a [YakShave](https://yakshaver.ai) during the recording.
+:::
+
 ## Share the Sprint Meeting summary recording
 
 If you've never uploaded a video to YouTube, you can follow [this tutorial](https://support.google.com/youtube/answer/57407?sjid=14705773004983041204-AP)
