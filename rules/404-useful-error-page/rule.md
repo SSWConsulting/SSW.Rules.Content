@@ -27,16 +27,16 @@ A branded 404 (error) page also reinforces your identity and keeps the user expe
 
 <!--endintro-->
 
-::: bad\
-![Figure: Bad example - Unhandled error](404-bad.png)\
+::: bad
+![Figure: Bad example - Unhandled error](404-bad.png)
 :::
 
-::: good\
-![Figure: Good example - Custom error page](404-good.png)\
+::: good
+![Figure: Good example - Custom error page](404-good.png)
 :::
 
-::: good\
-![Figure: Good example - Playful branding turns an error case into a less negative experience](screenshot-2025-06-10-at-2.38.13 pm.png)\
+::: good
+![Figure: Good example - Playful branding turns an error case into a less negative experience](screenshot-2025-06-10-at-2.38.13 pm.png)
 :::
 
 ## .NET Core (Server-Side)
@@ -174,7 +174,7 @@ Figure: Bad example - The default code on web.config
 ```
 
 ::: good
-Figure: Good example - The custom code in the web.config\
+Figure: Good example - The custom code in the web.config
 :::
 
 For ASP.NET website, the detailed information would be presented to the remote machines when an unhandled error occurs if the customErrors mode is off.
@@ -186,5 +186,5 @@ This error information is useful for the developer to do debugging. However, it 
 ```
 
 ::: good
-Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker\
+Figure: Good example - Turning on "customErrors" protects sensitive information against Hacker
 :::
