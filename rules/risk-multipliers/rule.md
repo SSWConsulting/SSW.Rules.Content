@@ -90,3 +90,24 @@ If you're in the enterprise space, or working on projects that have many moving 
 4. Perform a [Specification Review](/what-is-a-spec-review) for each epic
 5. Decomposing the epics into PBIs
 6. Use the strategies above to identify high risk areas
+
+::: greybox
+
+**Bonus:** Try estimating your work on complexity, rather than time. For example:
+
+- Project estimate is ~200 effort points
+- Predicted Sprint velocity of 40 (~5 Sprints)
+- Actual velocity at the end of Sprint 1 is ~30
+- Adjust Sprint 2 estimated velocity to 30
+- Repeat
+:::
+
+::: good
+
+Figure: Good example - Adjusting the Sprint velocity, rather than re-estimating PBIs, assists in preventing [anchoring](/recognize-anchoring-effects). Instead of someone thinking a particular PBI would day ~1 day, and then finding out later it'll take 2-4 days, the overall Sprint is measured as a unit and helps the team refine their velocity as project complexity surfaces.
+
+:::
+
+> "I love deadlines. I like the whooshing sound they make as they fly by."
+>
+> - Douglas Adams
