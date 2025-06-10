@@ -57,4 +57,8 @@ If you have some unit tests, it probably makes sense to run them every time you 
 
 Once the review step is complete and you are happy with the code, you can commit it to your feature branch, update the step-by-step plan to say which steps are done (manually or via the agent), then optionally return to the Plan phase if things have changed, or to the Implement phase if you are ready to proceed straight to the next step.
 
-Tip: Use [Cursor Rules](https://docs.cursor.com/context/rules) to define this and other behavior without having to repeat it every time.
+---
+
+::: info
+**Tip:** Use [Cursor Rules](https://docs.cursor.com/context/rules) to define this and other behavior without having to repeat it every time.
+:::
