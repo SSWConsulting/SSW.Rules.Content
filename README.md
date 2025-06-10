@@ -14,6 +14,8 @@ Builds are done in AzureDevOps, after a rule is edited a Pull Request is created
 * Pipelines - Once they have been merged, you can see them being built here: https://ssw.visualstudio.com/SSW.Rules/_build
 * Releases - Once they have been built, you can see them being deployed here https://ssw.visualstudio.com/SSW.Rules/_release
 
+📘 GitHub Actions documentation for the projects is available in the [Wiki](https://github.com/SSWConsulting/SSW.Rules.Content/wiki).
+
 ## Structure
 - Rules live in the rules folder
 - Categories live in the categories folder
