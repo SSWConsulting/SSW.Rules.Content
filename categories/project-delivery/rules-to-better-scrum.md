@@ -19,6 +19,7 @@ index:
   - create-pbis-under-2-days
   - definition-of-done
   - have-a-definition-of-ready
+  - react-to-reviewed-pbis
   - break-tasks
   - size-pbis-effectively
   - do-you-estimate-business-value
