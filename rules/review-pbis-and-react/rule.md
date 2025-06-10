@@ -10,6 +10,8 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://www.ssw.com.au/people/tiago-araujo
+related:
+  - 3-steps-to-a-pbi
 guid: 8b99aae2-c351-4eca-a46d-0e29eb91733c
 ---
 When an Issue or Product Backlog Item (PBI) is created, it's important that team members review [the title](/meaningful-pbi-titles) and content to ensure it is clear and correct. Once you've done that, react with a 👍 (like) or 👎 (dislike) to show you've read it. 
