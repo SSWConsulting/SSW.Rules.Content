@@ -15,9 +15,7 @@ It's frustrating when you're in the middle of a project and need a reliable plum
 
 <!--endintro-->
 
-![](dont-panic_call-a-preferred-provider.png "Error 404: Plumber Not Found (Unless You Saved It!)")
-
-**Figure: Error 404: Plumber Not Found (Unless You Saved It!)**
+![Figure: Error 404: Plumber Not Found (Unless You Saved It!)](dont-panic_call-a-preferred-provider.png "Error 404: Plumber Not Found (Unless You Saved It!)")
 
 When you find a great service provider, especially in trades, make sure you record their details in a central location and share them with your team. These professionals are often busy and booked weeks in advance, so having quick access to trusted contacts can make or break a deadline.
 
