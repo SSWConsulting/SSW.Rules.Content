@@ -1,10 +1,11 @@
 ---
 type: rule
 tips: ""
-title: Do you know the best way to do AI assisted development
-uri: ai-assisted-development
+title: Do you know the best workflow for AI assisted development
+uri: ai-assisted-development-workflow
 authors:
   - title: ""
+  - title: Calum Simpson
 guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
 ---
 "Vibe coding" is a trend that has taken the software development world by storm recently.
