@@ -37,7 +37,7 @@ Unlike Clean Architecture, which separates concerns across horizontal layers, VS
 
 ## Principles
 
-Vertical Slice Architecture groups code by user action, not by shared controller, service, or repository layers. Each feature owns its full flow—from request to persistence—inside a single folder. 
+Vertical Slice Architecture groups code by user action, not by shared controller, service, or repository layers. Each feature owns its full flow—from request to persistence—inside a single folder.
 
 Routes or UI components trigger a request or command object, which is handled by a dedicated handler responsible for orchestrating domain logic, validation, and infrastructure access.
 
