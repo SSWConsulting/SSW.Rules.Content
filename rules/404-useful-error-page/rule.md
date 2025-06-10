@@ -19,7 +19,7 @@ created: 2016-08-11T17:30:01.000Z
 archivedreason: null
 guid: a006213a-e97b-46a7-a66b-beb52b205533
 ---
-Error page, you say? You worked hard to make sure my site has no errors!! Well, surfers don't always type URLs accurately. No website is immune to such errors.
+Error page, you say? But you worked so hard to make sure everything runs perfectly! The thing is, even the best sites aren’t immune to the occasional misstep. Sometimes users just type a URL wrong. It happens.
 
 A well-designed custom error page encourages surfers to remain in your site and help them to the right page. Although it's possible to redirect error codes straight to your homepage, that doesn't tell visitors what's going on. 
 
