@@ -35,11 +35,9 @@ A branded 404 (error) page also reinforces your identity and keeps the user expe
 ![Figure: Good example - Custom error page](404-good.png)\
 :::
 
-::: good
-
-![](screenshot-2025-06-10-at-2.38.13 pm.png)
-
-
+::: good\
+!\[Figure: Good example - Playful branding turns an error case into a less negative experience](screenshot-2025-06-10-at-2.38.13 pm.png)\
+:::
 
 ## .NET Core (Server-Side)
 
