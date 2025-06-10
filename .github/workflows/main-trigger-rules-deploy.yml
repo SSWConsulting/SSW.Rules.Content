@@ -31,7 +31,7 @@ jobs:
       - name: Build and deploy Rules
         uses: benc-uk/workflow-dispatch@v1
         with:
-          workflow: build-deploy-production.yml
+          workflow: build-and-deploy.yml
           repo: SSWConsulting/SSW.Rules
           ref: ${{ steps.find_branch.outputs.branch_name }}
           token: "${{ steps.generate-token.outputs.token }}"
