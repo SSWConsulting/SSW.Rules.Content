@@ -2,7 +2,9 @@
 seoDescription: Discover a balanced approach to software architecture with Modular Monoliths, combining simplicity and modularity for scalable and maintainable applications.
 type: rule
 title: Do you know the Modular Monolithic architecture?
-uri: modular-monoliths
+uri: modular-monolith-architecture
+redirects:
+  - modular-monoliths
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
