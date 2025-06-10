@@ -40,7 +40,7 @@ Before a PBI is worked on it should be added to the current Sprint Backlog durin
 <!--endintro-->
 
 ::: info
-**Tip:** After reviewing a PBI, don’t forget to [react with 👍 or 👎 to show it’s been validated](/review-pbis-and-react).
+**Tip:** After reviewing a PBI, don’t forget to [react with 👍 or 👎 to show it’s been validated](/react-to-reviewed-pbis).
 :::
 
 ::: greybox
