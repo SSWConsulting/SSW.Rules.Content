@@ -15,11 +15,11 @@ It's frustrating when you're in the middle of a project and need a reliable plum
 
 <!--endintro-->
 
-![Figure: Error 404: Plumber Not Found (Unless You Saved It!)](dont-panic_call-a-preferred-provider.png "Error 404: Plumber Not Found (Unless You Saved It!)")
+![Figure: Error 404 - Plumber "Not found" (unless you saved it)](dont-panic_call-a-preferred-provider.png "Error 404: Plumber Not Found (Unless You Saved It!)")
 
 When you find a great service provider, especially in trades, make sure you record their details in a central location and share them with your team. These professionals are often busy and booked weeks in advance, so having quick access to trusted contacts can make or break a deadline.
 
-### What details should you capture?
+## What details should you capture?
 
 At a minimum, store the following:
 
@@ -30,7 +30,7 @@ At a minimum, store the following:
 * General availability (e.g. "only available weekdays after 3pm")
 * Notes (e.g. "Always arrives early. Takes card payments.")
 
-### Where should you store it?
+## Where should you store it?
 
 Store in a **shared location** such as:
 
@@ -49,12 +49,10 @@ Avoid storing them in personal devices, unshared email threads, or private notes
 :::
 
 ::: good
-
 Figure: Good example – Contact details are stored clearly and include job history and availability
-
 :::
 
-### Keep your list current
+## Keep your list current
 
 Every time you need assistance, do a quick check that:
 
