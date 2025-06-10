@@ -11,7 +11,7 @@ related:
   - explaining-pbis
   - good-email-subject
   - work-in-order-of-importance-aka-priorities
-  - review-pbis-and-react
+  - react-to-reviewed-pbis
 redirects:
   - do-you-use-meaningful-pbi-titles
 created: 2022-12-08T07:23:54.000Z
