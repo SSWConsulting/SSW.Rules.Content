@@ -38,10 +38,7 @@ Consider adding a button to your homepage here, or your site's search functional
 :::
 
 ::: good
-
 ![Figure: Good example - Playful branding turns an error case into a less negative experience](mailchimp-404.png)
-
-
 :::
 
 ## .NET Core (Server-Side)
