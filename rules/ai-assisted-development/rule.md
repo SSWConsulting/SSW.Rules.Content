@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you know the best workflow for AI assisted development
+title: Do you know the best workflow for AI assisted development?
 uri: ai-assisted-development-workflow
 authors:
   - title: ""
