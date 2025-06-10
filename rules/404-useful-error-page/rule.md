@@ -25,6 +25,8 @@ A well-designed custom error page encourages surfers to remain in your site and 
 
 A branded 404 (error) page also reinforces your identity and keeps the user experience consistent, even when things go wrong. It shows professionalism and helps maintain trust.
 
+Consider adding a button to your homepage here, or your site's search functionality if applicable.
+
 <!--endintro-->
 
 ::: bad
