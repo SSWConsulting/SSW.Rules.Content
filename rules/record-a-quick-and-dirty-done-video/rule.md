@@ -137,10 +137,11 @@ If your video is short (1-2 mins), then starting again may be optimal. However, 
 :::
 
 5. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
-* For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
-* If presenting in Microsoft Office, hide the ribbon.
-* When using Outlook for presentations, clear any irrelevant reminders.
-* When using Outlook or Teams, clear messages and notifications to avoid sharing sensitive information.
+
+   * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
+   * If presenting in Microsoft Office, hide the ribbon.
+   * When using Outlook for presentations, clear any irrelevant reminders.
+   * When using Outlook or Teams, clear messages and notifications to avoid sharing sensitive information.
 
 ::: bad
 
