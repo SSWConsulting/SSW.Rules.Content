@@ -147,11 +147,18 @@ If your video is short (1-2 mins), then starting again may be optimal. However, 
    * If presenting in Microsoft Office, hide the ribbon.
    * When using Outlook for presentations, clear any irrelevant reminders.
    * When using Outlook or Teams, clear messages and notifications to avoid sharing sensitive information.
-7. **Resolution** - Set your screen to 1080p (1920x1080).
-8. **Recording** - Record both your screen and webcam.
-9. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
-10. **Be Friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro.
-11. **Do a Test Recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions.
+
+::: bad
+
+![Bad Example - Inbox messages are showing, and reminder has not been cleared](bad_example_email.png)
+
+:::
+
+6. **Resolution** - Set your screen to 1080p (1920x1080).
+7. **Recording** - Record both your screen and webcam.
+8. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
+9. **Be Friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro.
+10. **Do a Test Recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions.
 
 Remember to watch some "Done" videos to get an idea of what a good "Done Video" looks like!
 
