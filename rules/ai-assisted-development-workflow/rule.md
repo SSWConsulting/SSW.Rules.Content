@@ -5,7 +5,7 @@ seoDescription: Learn the best workflow for professional AI-assisted development
 uri: ai-assisted-development-workflow
 authors:
   - title: Calum Simpson
-    uri: https://ssw.com.au/people/calum-simpson
+    url: https://ssw.com.au/people/calum-simpson
 guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
 ---
 "Vibe coding" is a trend that has taken the software development world by storm recently.
@@ -17,7 +17,6 @@ When writing code as a professional developer, "vibe coding" may make it easy to
 Hence it can be tempting to just "vibe" your way through a few features, but if you do not understand what it does and why, you are going to get into trouble if bugs start popping up.
 
 There are some best practices to follow when doing AI assisted development to avoid problems down the track without missing out on the efficiency gains of AI tools.
-        
 
 <!--endintro-->
 
@@ -66,4 +65,3 @@ Once the review step is complete and you are happy with the code, you can commit
 ::: info
 **Tip:** Use [GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) to help review the code before you merge it in. Note this does not remove the need for you to understand it, but it may offer an additional perspective.
 :::
-
