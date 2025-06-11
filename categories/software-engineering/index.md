@@ -84,4 +84,5 @@ index:
   - rules-to-better-dotnetnuke
   - rules-to-better-exchange-server
   - rules-to-better-windows-forms-applications-clickonce
+  - rules-to-better-vertical-slice-architecture
 ---
