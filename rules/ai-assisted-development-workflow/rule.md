@@ -62,3 +62,8 @@ Once the review step is complete and you are happy with the code, you can commit
 ::: info
 **Tip:** Use [Cursor Rules](https://docs.cursor.com/context/rules) to define this and other behavior without having to repeat it every time.
 :::
+
+::: info
+**Tip:** Use [GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) to help review the code before you merge it in. Note this does not remove the need for you to understand it, but it may offer an additional perspective.
+:::
+
