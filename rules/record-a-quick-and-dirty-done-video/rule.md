@@ -28,7 +28,6 @@ created: 2016-05-10T09:09:50.000Z
 archivedreason: null
 guid: 8849b89b-5c77-4993-b313-75291fd58aa4
 ---
-
 When you've finished a PBI you should record a video to send to your Product Owner and anyone else that is interested. A 'Done' video is much better than a screenshot because you are proving the PBI workflow actually works. Even better, this video can double as documentation or release notes for your users.
 
 <!--endintro-->
@@ -57,23 +56,28 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 Your done videos should follow the following format
 
 1. **Intro**
+
    * Prepare and practise your talking points and visual elements
    * Start with a medium close up shot of yourself
    * Start with a smile the camera for 2 seconds before speaking
    * Briefly introduce yourself e.g. first name, role, "from SSW"
 2. **Post-intro**
-    * Transition into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
-    * Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](https://www.ssw.com.au/rules/zooming-in-and-out/))
-    * You should start with the tabs you are planning to use open
-2. **Show the Pain**
+
+   * Transition into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
+   * Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](https://www.ssw.com.au/rules/zooming-in-and-out/))
+   * You should start with the tabs you are planning to use open
+3. **Show the Pain**
+
    * Explain the problem you or the stakeholder was having before you finished your work
    * Show a example of where this issue occurred
-3. **Demo the solution**
+4. **Demo the solution**
+
    * Provide a working example of your code
    * Demo the code with a realistic use case
    * Direct attention and give people an idea of where to look
    * Harken back to the pain showing the value of your solution
-4. **Outro**
+5. **Outro**
+
    * Transition back into a medium close up shot of yourself
    * Provide a brief summary of what you discussed in the video
    * Use a signature to bid farewell to the audience (e.g. you could say "This is Bob Northwind signing off")
@@ -138,9 +142,11 @@ If your video is short (1-2 mins), then starting again may be optimal. However, 
 :::
 
 6. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
+
    * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
    * If presenting in Microsoft Office, hide the ribbon.
    * When using Outlook for presentations, clear any irrelevant reminders.
+   * When using Outlook or Teams, clear messages and notifications to avoid sharing sensitive information.
 7. **Resolution** - Set your screen to 1080p (1920x1080).
 8. **Recording** - Record both your screen and webcam.
 9. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
