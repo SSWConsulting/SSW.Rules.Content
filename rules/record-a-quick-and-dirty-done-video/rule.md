@@ -56,28 +56,23 @@ Check out SSW Rule [Do you know how to record your screen?](/recording-screen) f
 Your done videos should follow the following format
 
 1. **Intro**
-
    * Prepare and practise your talking points and visual elements
    * Start with a medium close up shot of yourself
    * Start with a smile the camera for 2 seconds before speaking
    * Briefly introduce yourself e.g. first name, role, "from SSW"
 2. **Post-intro**
-
    * Transition into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
    * Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](https://www.ssw.com.au/rules/zooming-in-and-out/))
    * You should start with the tabs you are planning to use open
-3. **Show the Pain**
-
+3. **Show the pain**
    * Explain the problem you or the stakeholder was having before you finished your work
    * Show a example of where this issue occurred
 4. **Demo the solution**
-
    * Provide a working example of your code
    * Demo the code with a realistic use case
    * Direct attention and give people an idea of where to look
    * Harken back to the pain showing the value of your solution
 5. **Outro**
-
    * Transition back into a medium close up shot of yourself
    * Provide a brief summary of what you discussed in the video
    * Use a signature to bid farewell to the audience (e.g. you could say "This is Bob Northwind signing off")
@@ -124,18 +119,18 @@ Switching Scenes in OBS - it is quite easy to do with these simple steps using O
 ## Presentation
 
 1. **Apparel** - If your company has branded clothing, make sure it's ironed, tidy and visible. Wear it proudly! Alternatively, wear clean, neutral color clothing. E.g. White, grey, or black shirt
-2. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background.
+2. **Framing** - Have your webcam height at eye level for engagement. Make sure there is sufficient headroom: not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background
+    
+    ::: bad
+    ![Figure: Bad example - Camera is below eye level](bad-seth-camera.jpg)
+    :::
+    
+    ::: good
+    ![Figure: Good example - Good framing, lights and background](https://github.com/user-attachments/assets/204f8986-5146-4e0c-9c5f-34985728d03d)
+    :::
 
-::: bad
-![Figure: Bad example - Camera is below eye level](bad-seth-camera.jpg)
-:::
-
-::: good
-![Figure: Good Example - Good framing, lights and background](https://github.com/user-attachments/assets/204f8986-5146-4e0c-9c5f-34985728d03d)
-:::
-
-3. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting.
-4. **One-Take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again."*
+3. **Lighting** - Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting
+4. **One-take** - Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. *"Whoops, clicked build accidently. Let me just refresh and go again"*
 
 ::: info
 If your video is short (1-2 mins), then starting again may be optimal. However, if your video is long. E.g. 15-20 minutes, then try to incorporate any accidental errors and keep going.
@@ -144,27 +139,25 @@ If your video is short (1-2 mins), then starting again may be optimal. However, 
 5. **Clean UI** - When using a browser, IDE, or any relevant application, ensure a clean interface:
 
    * For your browser, hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
-   * If presenting in Microsoft Office, hide the ribbon.
-   * When using Outlook for presentations, clear any irrelevant reminders.
-   * When using Outlook or Teams, clear messages and notifications to avoid sharing sensitive information.
+   * If presenting in Microsoft Office, hide the ribbon
+   * When using Outlook for presentations, clear any irrelevant reminders
+   * When using Outlook or Teams, clear messages and notifications to avoid sharing sensitive information
 
-::: bad
+    ::: bad
+    ![Figure: Bad example - Inbox messages are showing, and reminder has not been cleared](bad_example_email.png)
+    :::
+    
+    ::: good
+    ![Figure: Good example - Email is popped out to hide messages, and reminder has been cleared](good_example_email.png)
+    :::
 
-![Bad Example - Inbox messages are showing, and reminder has not been cleared](bad_example_email.png)
+6. **Resolution** - Set your screen to 1080p (1920x1080)
+7. **Recording** - Record both your screen and webcam
+8. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth
+9. **Be friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro
+10. **Do a test recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions
 
-:::
-
-::: good
-
-![Good Example - Email is popped out to hide messages, and reminder has been cleared](good_example_email.png)
-
-:::
-
-6. **Resolution** - Set your screen to 1080p (1920x1080).
-7. **Recording** - Record both your screen and webcam.
-8. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
-9. **Be Friendly** - Interact with your webcam like it's a person, and smile at the Intro and Outro.
-10. **Do a Test Recording** - After all this effort to capture a great video this can catch any last-minute changes and cut down on potential re-recordings. E.g. Test your Intro hook and screen transitions.
+---
 
 Remember to watch some "Done" videos to get an idea of what a good "Done Video" looks like!
 
