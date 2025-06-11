@@ -154,6 +154,12 @@ If your video is short (1-2 mins), then starting again may be optimal. However, 
 
 :::
 
+::: good
+
+![Good Example - Email is popped out to hide messages, and reminder has been cleared](good_example_email.png)
+
+:::
+
 6. **Resolution** - Set your screen to 1080p (1920x1080).
 7. **Recording** - Record both your screen and webcam.
 8. **Audio** - Check your audio devices for the best quality and make sure your audio is clear and not distracting. E.g. Position the microphone close to your mouth.
