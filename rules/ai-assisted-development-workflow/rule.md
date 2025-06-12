@@ -9,8 +9,12 @@ authors:
     url: https://ssw.com.au/people/calum-simpson
   - title: Lewis Toh
     url: https://ssw.com.au/people/lewis-toh
+related:
+  - agentic-ai
 guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
+
 ---
+
 "Vibe coding" is a trend that has taken the software development world by storm recently.
 
 It means developing via a coding agent, and never even looking at - let alone editing - the code. It has also become synonymous with low-quality code.
@@ -35,7 +39,7 @@ There will probably be a handful of good solutions to pick from. Picking the rig
 Even an AI that writes perfect code is going to do a bad job if the code it is trying to write does something that makes no sense in the context of the project. And most AI agents (at least for now) have no way of accessing a lot of that contextual information - especially if it is outside the current repository.
 
 ::: bad
-![Figure: Bad Example - Vibe coding overcooked the solution](goofy-ai-car.jpg)
+![Figure: Bad example - Vibe coding overcooked the solution](goofy-ai-car.jpg)
 :::
 
 Therefore the professional AI Assisted Developer should follow a proper workflow with every feature implemented. Instead of just typing: "Implement my feature XXX", hitting enter, and walking off to brew a coffee, here's the recommended workflow:
@@ -73,5 +77,5 @@ Once the review step is complete and you are happy with the code, you can commit
 :::
 
 ::: info
-**Tip:** Use [GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) to help review the code before you merge it in. Note this does not remove the need for you to understand it, but it may offer an additional perspective.
+**Tip:** Use [GitHub Copilot](https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review) to help review the code before you merge it in. This does **not** remove the need for you to understand it, but it may offer an additional perspective.
 :::
