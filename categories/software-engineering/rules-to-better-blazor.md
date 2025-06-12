@@ -19,6 +19,7 @@ index:
   # - blazor-project-architechture
   - blazor-basic-appstate-pattern
   - blazor-appstate-pattern-with-notifications
+  - blazor-use-bind-value-after-instead-of-valuechanged
   - decouple-api-from-blazor-components
   - editor-required-blazor-component-parameters
   - bunit-for-blazor-unit-tests
