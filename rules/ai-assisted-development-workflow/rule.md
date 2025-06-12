@@ -59,7 +59,7 @@ Importantly, the scope of what the agent is working on will be limited by each s
 
 ### 4. Review
 
-This is the most important step in AI assisted development. Once you accept a piece of code that the AI suggests to you, it is no longer the AI's responsibility - it is yours. Ensure you completely understand everything it has done, as if you were reviewing the intern's pull request. If you have any questions, just ask - you may learn something new! Or fix a bug.
+This is the most important step in AI assisted development. Once you accept a piece of code that the AI suggests to you, it is no longer the AI's responsibility - it is yours. Ensure you completely understand everything it has done, as if you were reviewing someone else's pull request. If you have any questions, just ask the agent - you may learn something new or help uncover a bug.
 
 If you have some unit tests, it probably makes sense to run them every time you are reviewing an agent-implemented step. The sooner you catch a bug, the better.
 
