@@ -21,8 +21,9 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: SSWConsulting
-          repository: SSW.Rules.Tina.Nextjs.POC
-
+          repositories: SSW.Rules.Tina.Nextjs.POC
+          permission-contents: read
+          permission-actions: write
 
       - uses: actions/checkout@v4
         with:
