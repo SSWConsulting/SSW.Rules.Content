@@ -1,7 +1,8 @@
 ---
 type: rule
 title: Do you know the best workflow for AI assisted development?
-seoDescription: Learn the best workflow for professional AI-assisted development and avoid the pitfalls of "vibe coding".
+seoDescription: Learn the best workflow for professional AI-assisted development
+  and avoid the pitfalls of "vibe coding".
 uri: ai-assisted-development-workflow
 authors:
   - title: Calum Simpson
@@ -22,7 +23,7 @@ There are some best practices to follow when doing AI assisted development to av
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=wpL8cRA26KI`
+`youtube: https://www.youtube.com/watch?v=-ke-TkGu9Ng`
 **Video - AI Assisted Development for Enterprise | Calum Simpson | SSW Rules (13 min)**
 
 ## Workflow: Plan → Discuss → Implement → Review
