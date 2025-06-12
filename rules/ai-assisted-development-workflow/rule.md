@@ -22,8 +22,8 @@ There are some best practices to follow when doing AI assisted development to av
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=scEy_ipIChU`
-**Video - AI Coding Vibes: What to Do and What to Avoid | Calum Simpson | SSW Rules (13 min)**
+`youtube: https://www.youtube.com/watch?v=wpL8cRA26KI`
+**Video - AI Assisted Development for Enterprise | Calum Simpson | SSW Rules (13 min)**
 
 ## Workflow: Plan → Discuss → Implement → Review
 
