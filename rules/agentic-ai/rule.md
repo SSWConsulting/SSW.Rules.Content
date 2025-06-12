@@ -13,8 +13,8 @@ authors:
     url: https://www.ssw.com.au/people/calum-simpson
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
-
 related:
+  - ai-assisted-development-workflow
   - avoid-ai-hallucinations
   - use-semantic-kernel
 guid: e4e963e4-1568-4e47-b184-d2e96bc0f124
