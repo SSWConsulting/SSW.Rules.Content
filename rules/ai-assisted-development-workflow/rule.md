@@ -34,7 +34,7 @@ There will probably be a handful of good solutions to pick from. Picking the rig
 Even an AI that writes perfect code is going to do a bad job if the code it is trying to write does something that makes no sense in the context of the project. And most AI agents (at least for now) have no way of accessing a lot of that contextual information - especially if it is outside the current repository.
 
 ::: bad
-![Figure: Bad Example - Vibe coding overcooked the solution](gs-htchxwaawojy.jpg)
+![Figure: Bad Example - Vibe coding overcooked the solution](goofy-ai-car.jpg)
 :::
 
 Therefore the professional AI Assisted Developer should follow a proper workflow with every feature implemented. Instead of just typing: "Implement my feature XXX", hitting enter, and walking off to brew a coffee, here's the recommended workflow:
