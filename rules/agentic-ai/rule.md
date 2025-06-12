@@ -45,7 +45,6 @@ AI agents are autonomous entities powered by AI that can perform tasks, make dec
 | [**LangGraph**](https://www.langchain.com/langgraph) | LangChain | Complex stateful workflows, cyclical execution patterns | High | - Graph-based workflows<br>- State management<br>- Human-in-loop<br>- Time-travel debugging | Python/JS, LangChain ecosystem | Yes, enterprise-grade |
 | [**n8n**](https://n8n.io/) | n8n | No-code AI workflow automation | Low (visual interface) | - Visual workflow editor<br>- 400+ integrations<br>- AI nodes | No-code interface, LangChain under the hood | Yes, for workflow automation |
 
-
 **Note:** Microsoft is planning to merge [Semantic Kernel](https://www.ssw.com.au/rules/use-semantic-kernel/) and AutoGen into a unified framework, combining enterprise Azure workflows with advanced agent capabilities.
 
 - - -
