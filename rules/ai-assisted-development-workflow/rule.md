@@ -1,8 +1,7 @@
 ---
 type: rule
 title: Do you know the best workflow for AI assisted development?
-seoDescription: Learn the best workflow for professional AI-assisted development
-  and avoid the pitfalls of "vibe coding".
+seoDescription: Learn the best workflow for professional AI-assisted development and avoid the pitfalls of "vibe coding".
 uri: ai-assisted-development-workflow
 authors:
   - title: Calum Simpson
