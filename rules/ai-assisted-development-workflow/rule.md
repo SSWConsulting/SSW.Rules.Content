@@ -23,7 +23,7 @@ There are some best practices to follow when doing AI assisted development to av
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=SGCYnwiqVXs`
-**Video - AI Assisted Development for Enterprise (13 min)**
+**Video - AI Coding Vibes: What to Do and What to Avoid | Calum Simpson | SSW Rules (13 min)**
 
 ## Workflow: Plan → Discuss → Implement → Review
 
@@ -59,7 +59,7 @@ Importantly, the scope of what the agent is working on will be limited by each s
 
 ### 4. Review
 
-This is the most important step in AI assisted development. Once you accept a piece of code that the AI suggests to you, it is no longer the AI's responsibility - it is yours. Ensure you completely understand everything it has done, as if you were reviewing someone else's pull request. If you have any questions, just ask the agent - you may learn something new or help uncover a bug.
+This is the most important step in AI assisted development. Once you accept a piece of code that the AI suggests to you, it is no longer the AI's responsibility. Your name will be on the commit, so it's **your responsibility**. Ensure you completely understand everything it has done, as if you were reviewing someone else's pull request. If you have any questions, just ask the agent - you may learn something new or help uncover a bug.
 
 If you have some unit tests, it probably makes sense to run them every time you are reviewing an agent-implemented step. The sooner you catch a bug, the better.
 
