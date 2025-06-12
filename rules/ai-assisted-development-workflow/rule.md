@@ -6,6 +6,8 @@ uri: ai-assisted-development-workflow
 authors:
   - title: Calum Simpson
     url: https://ssw.com.au/people/calum-simpson
+  - title: Lewis Toh
+    url: https://ssw.com.au/people/lewis-toh
 guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
 ---
 "Vibe coding" is a trend that has taken the software development world by storm recently.
@@ -20,6 +22,9 @@ There are some best practices to follow when doing AI assisted development to av
 
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=SGCYnwiqVXs`
+**Video - AI Assisted Development for Enterprise (13 min)**
+
 ## Workflow: Plan → Discuss → Implement → Review
 
 There are likely millions of ways to implement any given feature in a software project. Most of them are going to be bad and should be discarded out of hand... even though they may "work".
@@ -27,6 +32,10 @@ There are likely millions of ways to implement any given feature in a software p
 There will probably be a handful of good solutions to pick from. Picking the right way to solve the problem given the whole context of the surrounding codebase, project architecture, Product Owner requirements, current or upcoming tech changes, etc. is usually what separates the best developers from the rest.
 
 Even an AI that writes perfect code is going to do a bad job if the code it is trying to write does something that makes no sense in the context of the project. And most AI agents (at least for now) have no way of accessing a lot of that contextual information - especially if it is outside the current repository.
+
+::: bad
+![Figure: Bad Example - Vibe coding overcooked the solution](gs-htchxwaawojy.jpg)
+:::
 
 Therefore the professional AI Assisted Developer should follow a proper workflow with every feature implemented. Instead of just typing: "Implement my feature XXX", hitting enter, and walking off to brew a coffee, here's the recommended workflow:
 
@@ -56,7 +65,7 @@ If you have some unit tests, it probably makes sense to run them every time you 
 
 Once the review step is complete and you are happy with the code, you can commit it to your feature branch, update the step-by-step plan to say which steps are done (manually or via the agent), then optionally return to the Plan phase if things have changed, or to the Implement phase if you are ready to proceed straight to the next step.
 
----
+- - -
 
 ::: info
 **Tip:** Use [Cursor Rules](https://docs.cursor.com/context/rules) to define this and other behavior without having to repeat it every time.
