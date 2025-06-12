@@ -49,10 +49,10 @@ Figure: Good example - Using @bind-Value:after gives you two-way binding and con
 
 The `@bind-Value:after` directive:
 
-- Executes **after** the bound value is assigned synchronously
-- Supports both synchronous and asynchronous delegates
-- Works with any component that supports two-way binding
-- Can be used with different binding events (e.g., `@bind-Value:event="oninput"`)
+* Executes **after** the bound value is assigned synchronously
+* Supports both synchronous and asynchronous delegates
+* Works with any component that supports two-way binding
+* Can be used with different binding events (e.g., `@bind-Value:event="oninput"`)
 
 ## Advanced Example
 
@@ -76,4 +76,4 @@ Figure: Good example - Using @bind:after with input elements for real-time searc
 
 ### References
 
-- [ASP.NET Core Blazor data binding - Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/data-binding)
+* [ASP.NET Core Blazor data binding - Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/data-binding)
