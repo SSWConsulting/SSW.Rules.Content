@@ -1,0 +1,41 @@
+name: Trigger-Rules-POC-Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - content_deployment
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'SSWConsulting'
+
+    steps:
+      - name: Checkout Rules POC repo
+        uses: actions/checkout@v4
+        with:
+          repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
+          token: ${{ secrets.POC_PAT }}
+          fetch-depth: 0
+
+      - name: Find latest release branch or fallback to main
+        id: find_branch
+        run: |
+          BRANCH=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)
+          if [ -z "$BRANCH" ]; then
+            BRANCH="main"
+          fi
+          echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
+
+      - name: Debug print release branch
+        run: |
+          echo "Branch to deploy: ${{ steps.find_branch.outputs.branch_name }}"
+
+      - name: Trigger Tina POC deploy
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: build-and-deploy.yml
+          repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
+          ref: ${{ steps.find_branch.outputs.branch_name }}
+          token: ${{ secrets.POC_PAT }}
