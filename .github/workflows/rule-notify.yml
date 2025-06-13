@@ -2,7 +2,7 @@ name: Notify n8n of new rules
 
 on:
   push:
-    branches: [sethdaily-patch-7]
+    branches: [main]
     paths:
       - 'rules/**/rule.md'
 
