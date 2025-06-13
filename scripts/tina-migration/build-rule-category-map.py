@@ -37,19 +37,19 @@ def parse_frontmatter(fm_text):
     return data
 
 def extract_rule_key(rule_line):
-    match = re.search(r'rule: rules/(.*?)/rule\.md', rule_line)
+    match = re.search(r'rule: rules/(.*?)/rule\.mdx', rule_line)
     if match:
         return match.group(1)
     return None
 
 def build_rule_category_map(categories_root='../../categories', output_file='rule-category-mapping.json'):
-    pattern = os.path.join(categories_root, '**', '*.md')
-    md_files = glob.glob(pattern, recursive=True)
-    md_files = [f for f in md_files if not f.endswith('index.md')]
+    pattern = os.path.join(categories_root, '**', '*.mdx')
+    mdx_files = glob.glob(pattern, recursive=True)
+    mdx_files = [f for f in mdx_files if not f.endswith('index.mdx')]
 
     rule_map = {}
 
-    for file_path in md_files:
+    for file_path in mdx_files:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
