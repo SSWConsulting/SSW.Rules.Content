@@ -19,10 +19,14 @@ jobs:
           token: ${{ secrets.POC_PAT }}
           fetch-depth: 0
 
-      - name: Find latest release branch
+      - name: Find latest release branch or fallback to main
         id: find_branch
         run: |
-          echo "branch_name=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)" >> $GITHUB_OUTPUT
+          BRANCH=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)
+          if [ -z "$BRANCH" ]; then
+            BRANCH="main"
+          fi
+          echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
 
       - name: Debug print release branch
         run: |
