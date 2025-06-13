@@ -2,7 +2,7 @@ name: Notify n8n of new rules
 
 on:
   push:
-    branches: [ruly-notify-test-branch]
+    branches: [main]
     paths:
       - 'rules/**/rule.md'   # only runs when any rule file is touched
 
