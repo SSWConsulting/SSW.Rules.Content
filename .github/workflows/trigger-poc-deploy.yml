@@ -23,7 +23,8 @@ jobs:
           echo "branch_name=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)" >> $GITHUB_OUTPUT
 
       - name: Debug print release branch
-        run: echo "Branch to deploy: ${{ steps.find_branch.outputs.branch_name }}"
+        run: |
+          echo "Branch to deploy: ${{ steps.find_branch.outputs.branch_name }}"
 
       - name: Trigger Tina POC deploy
         uses: benc-uk/workflow-dispatch@v1
