@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
-          token: "${{ steps.generate-token.outputs.token }}"
+          token: ${{ secrets.POC_PAT }}
           fetch-depth: 0
 
       - name: Find latest release branch
@@ -43,4 +43,4 @@ jobs:
           workflow: build-and-deploy.yml
           repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           ref: ${{ steps.find_branch.outputs.branch_name }}
-          token: "${{ steps.generate-token.outputs.token }}"
+          token: ${{ secrets.POC_PAT }}
