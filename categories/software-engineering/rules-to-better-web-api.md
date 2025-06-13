@@ -5,6 +5,7 @@ guid: 1be95aba-742b-4ab9-bca6-ed78f1821ede
 uri: rules-to-better-web-api
 index:
 - choose-the-right-api-tech
+- generate-api-clients
 - graphql-when-to-use
 - do-you-return-detailed-error-messages
 - do-you-return-the-correct-response-code
