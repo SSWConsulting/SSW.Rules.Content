@@ -1,5 +1,4 @@
 name: Trigger-Rules-POC-Build
-
 on:
   workflow_dispatch:
   push:
@@ -12,15 +11,6 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
-      - name: Generate a token
-        id: generate-token
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ vars.POC_APP_ID }}
-          private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
-          owner: SSWConsulting
-          repositories: SSW.Rules.Tina.Nextjs.POC
-
       - name: Checkout Rules POC repo
         uses: actions/checkout@v4
         with:
@@ -33,12 +23,16 @@ jobs:
         run: |
           echo "branch_name=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)" >> $GITHUB_OUTPUT
 
-      - name: Debug print release branch
-        run: |
-          echo "Branch to deploy: ${{ steps.find_branch.outputs.branch_name }}"
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.POC_APP_ID }}
+          private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
+          owner: SSWConsulting
+          repositories: SSW.Rules.Tina.Nextjs.POC
 
-
-      - name: Trigger Tina POC deploy
+      - name: Trigger Rules POC deploy
         uses: benc-uk/workflow-dispatch@v1
         with:
           workflow: build-and-deploy.yml
