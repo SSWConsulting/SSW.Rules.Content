@@ -1,5 +1,4 @@
 name: Trigger-Rules-POC-Build
-
 on:
   workflow_dispatch:
   push:
