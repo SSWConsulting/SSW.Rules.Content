@@ -40,7 +40,7 @@ jobs:
 
       - name: Build rule-category mapping
         run: |
-          cd scripts/tina-migration
+          cd ../../scripts/tina-migration
           python build-rule-category-map.py
           cd -
 
