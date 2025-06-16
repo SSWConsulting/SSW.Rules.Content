@@ -18,7 +18,7 @@ Developers love writing PRs but often don't like reviewing them. When the sprint
 - A GitHub repo (private or public will do)
 
 ## Scopes
-GitHub Copilot reviews can automatically be triggered on your varous  code repos.
+GitHub Copilot reviews can automatically be triggered on your various code repos.
 
 ### Organization level
 If you have your own GitHub organization code reviews
