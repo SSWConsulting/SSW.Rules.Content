@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - content_deployment
+      - tina/Content_Azure_Deployment-Categories
 
 jobs:
   trigger-deploy:
@@ -12,7 +12,6 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
-
       - name: Generate a token
         id: generate-token
         uses: actions/create-github-app-token@v2
@@ -22,61 +21,41 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
-      - name: Checkout current repository
-        uses: actions/checkout@v4
-        with:
-          path: current-repo
-
       - uses: actions/checkout@v4
         with:
           repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           token: ${{ steps.generate-token.outputs.token }}
-          path: poc-repo
-
-      - name: Setup Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.x'
-
-      - name: Run rule category mapping script
-        run: |
-          cd current-repo/scripts/tina-migration
-          python build-rule-category-map.py
-
-      - name: Copy generated JSON to POC repo
-        run: |
-          cp current-repo/scripts/tina-migration/rule-category-mapping.json poc-repo/scripts/tina-migration/
 
       - name: Find latest release branch or fallback to main
         id: find_branch
         run: |
-          cd poc-repo
           BRANCH=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)
           if [ -z "$BRANCH" ]; then
             BRANCH="main"
           fi
           echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
 
-      - name: Commit and push rule category mapping
+      - name: Checkout target branch
+        run: git checkout ${{ steps.find_branch.outputs.branch_name }}
+
+      - name: Build rule-category mapping
         run: |
-          cd poc-repo
-          git config user.name "GitHub Actions Bot"
-          git config user.email "actions@github.com"
-          git checkout ${{ steps.find_branch.outputs.branch_name }}
-          
-          # Créer le dossier s'il n'existe pas
-          mkdir -p scripts/tina-migration
-          
-          # Copier le fichier JSON
-          cp ../current-repo/scripts/tina-migration/rule-category-mapping.json scripts/tina-migration/
-          
-          # Ajouter et commiter si il y a des changements
+          cd scripts/tina-migration
+          python build-rule-category-map.py
+          cd -
+
+      - name: Commit rule-category mapping
+        env:
+          BRANCH_NAME: ${{ steps.find_branch.outputs.branch_name }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add scripts/tina-migration/rule-category-mapping.json
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update rule-category-mapping.json"
+            git push origin $BRANCH_NAME
           else
-            git commit -m "Update rule category mapping [automated]"
-            git push origin ${{ steps.find_branch.outputs.branch_name }}
+            echo "No changes to commit."
           fi
 
       - name: Trigger Tina POC deploy
