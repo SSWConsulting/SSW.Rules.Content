@@ -21,13 +21,32 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
-      - uses: actions/checkout@v4
+      - name: Checkout content repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build rule-category mapping
+        working-directory: scripts/tina-migration
+        run: python build-rule-category-map.py
+
+      - name: Checkout POC repo
+        uses: actions/checkout@v4
         with:
           repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           token: ${{ steps.generate-token.outputs.token }}
+          path: poc
+          fetch-depth: 0
+
+      - name: Copy mapping into POC repo
+        run: |
+          mkdir -p poc/scripts/tina-migration
+          cp scripts/tina-migration/rule-category-mapping.json \
+             poc/scripts/tina-migration/rule-category-mapping.json
 
       - name: Find latest release branch or fallback to main
         id: find_branch
+        working-directory: poc
         run: |
           BRANCH=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)
           if [ -z "$BRANCH" ]; then
@@ -36,13 +55,11 @@ jobs:
           echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
 
       - name: Checkout target branch
+        working-directory: poc
         run: git checkout ${{ steps.find_branch.outputs.branch_name }}
 
-      - name: Build rule-category mapping
-        working-directory: scripts/tina-migration
-        run: python build-rule-category-map.py
-
       - name: Commit rule-category mapping
+        working-directory: poc
         env:
           BRANCH_NAME: ${{ steps.find_branch.outputs.branch_name }}
         run: |
@@ -51,7 +68,7 @@ jobs:
           git add scripts/tina-migration/rule-category-mapping.json
           if ! git diff --cached --quiet; then
             git commit -m "chore: update rule-category-mapping.json"
-            git push origin $BRANCH_NAME
+            git push origin "$BRANCH_NAME"
           else
             echo "No changes to commit."
           fi
@@ -62,4 +79,4 @@ jobs:
           workflow: build-and-deploy.yml
           repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           ref: ${{ steps.find_branch.outputs.branch_name }}
-          token: "${{ steps.generate-token.outputs.token }}"
+          token: ${{ steps.generate-token.outputs.token }}
