@@ -41,6 +41,7 @@ index:
 - x-hashtag-vs-mention
 - x-business
 - x-tip-creators
+- instagram-stories
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments
