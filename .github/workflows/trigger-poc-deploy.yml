@@ -22,19 +22,67 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
+      # Checkout du repo courant pour accéder au script Python
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+        with:
+          path: current-repo
+
+      # Checkout du repo POC pour le déploiement
       - uses: actions/checkout@v4
         with:
           repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           token: ${{ steps.generate-token.outputs.token }}
+          path: poc-repo
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run rule category mapping script
+        run: |
+          cd current-repo/scripts/tina-migration
+          # Modifier le chemin des catégories pour pointer vers le repo POC
+          python build-rule-category-map.py
+        env:
+          # Si nécessaire, vous pouvez passer des variables d'environnement
+
+      - name: Copy generated JSON to POC repo
+        run: |
+          cp current-repo/scripts/tina-migration/rule-category-mapping.json poc-repo/scripts/tina-migration/
 
       - name: Find latest release branch or fallback to main
         id: find_branch
         run: |
+          cd poc-repo
           BRANCH=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)
           if [ -z "$BRANCH" ]; then
             BRANCH="main"
           fi
           echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
+
+      - name: Commit and push rule category mapping
+        run: |
+          cd poc-repo
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git checkout ${{ steps.find_branch.outputs.branch_name }}
+          
+          # Créer le dossier s'il n'existe pas
+          mkdir -p scripts/tina-migration
+          
+          # Copier le fichier JSON
+          cp ../current-repo/scripts/tina-migration/rule-category-mapping.json scripts/tina-migration/
+          
+          # Ajouter et commiter si il y a des changements
+          git add scripts/tina-migration/rule-category-mapping.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update rule category mapping [automated]"
+            git push origin ${{ steps.find_branch.outputs.branch_name }}
+          fi
 
       - name: Trigger Tina POC deploy
         uses: benc-uk/workflow-dispatch@v1
