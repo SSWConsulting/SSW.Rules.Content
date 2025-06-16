@@ -22,13 +22,11 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
-      # Checkout du repo courant pour accéder au script Python
       - name: Checkout current repository
         uses: actions/checkout@v4
         with:
           path: current-repo
 
-      # Checkout du repo POC pour le déploiement
       - uses: actions/checkout@v4
         with:
           repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
@@ -43,10 +41,7 @@ jobs:
       - name: Run rule category mapping script
         run: |
           cd current-repo/scripts/tina-migration
-          # Modifier le chemin des catégories pour pointer vers le repo POC
           python build-rule-category-map.py
-        env:
-          # Si nécessaire, vous pouvez passer des variables d'environnement
 
       - name: Copy generated JSON to POC repo
         run: |
