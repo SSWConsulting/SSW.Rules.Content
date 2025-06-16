@@ -38,12 +38,6 @@ jobs:
           path: poc
           fetch-depth: 0
 
-      - name: Copy mapping into POC repo
-        run: |
-          mkdir -p poc/scripts/tina-migration
-          cp scripts/tina-migration/rule-category-mapping.json \
-             poc/rule-category-mapping.json
-
       - name: Find latest release branch or fallback to main
         id: find_branch
         working-directory: poc
@@ -58,6 +52,12 @@ jobs:
       - name: Checkout target branch
         working-directory: poc
         run: git checkout ${{ steps.find_branch.outputs.branch_name }}
+
+      - name: Copy mapping into POC repo
+        run: |
+          mkdir -p poc/scripts/tina-migration
+          cp scripts/tina-migration/rule-category-mapping.json \
+             poc/rule-category-mapping.json
 
       - name: Commit rule-category mapping
         working-directory: poc
