@@ -13,6 +13,9 @@ Developers love writing PRs but often don't like reviewing them. When the sprint
 
 <!--endintro-->
             
+### Limitations
+- Can only be configured on a per repo level
+
 ### Requirements
 - GitHub copilot Pro or better
 - A GitHub repo (private or public will do)
@@ -22,3 +25,6 @@ GitHub Copilot reviews can automatically be triggered on your various code repos
 
 ### Organization level
 If you have your own GitHub organization code reviews
+
+### Account
+GitHub copilot pro users have the option of enabling GitHub copilot time
