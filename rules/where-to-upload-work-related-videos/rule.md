@@ -26,9 +26,9 @@ In the course of your employment, you may produce a number of videos for a proje
 
 ## Public company/product YouTube channel
 
-Use the company/product YouTube channel for best practices content. 
+Use the company/product YouTube channel for best practices content.
 
-For cool videos that would help your company's YouTube presence, it's best to upload them **publicly onto the company YouTube channel** (e.g. [SSW TV channel](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)). 
+For cool videos that would help your company's YouTube presence, it's best to upload them **publicly onto the company YouTube channel** (e.g. [SSW TV channel](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)).
 
 For videos related to a product, they should go under **their own product channel** (e.g. [YakShaver](https://www.youtube.com/@SSWYakShaver), [TinaCMS](https://www.youtube.com/c/tinacms) or [SugarLearning](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)).
 
@@ -38,7 +38,7 @@ For videos related to a product, they should go under **their own product channe
 
 For [“Done” videos](/record-a-quick-and-dirty-done-video) or content not intended for general audiences, upload them to the product or company YouTube channel as **unlisted**.
 
-## Client YouTube channel 
+## Client YouTube channel
 
 For important clients, upload the videos under an extra channel for that client external project.
 
