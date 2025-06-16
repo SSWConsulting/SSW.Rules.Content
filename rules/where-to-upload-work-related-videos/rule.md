@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - record-a-quick-and-dirty-done-video
 redirects:
   - do-you-know-where-to-upload-work-related-videos
 
@@ -23,14 +24,24 @@ In the course of your employment, you may produce a number of videos for a proje
 
 <!--endintro-->
 
-**For great videos that would help your company's YouTube presence**, it's best to upload them directly onto the **company YouTube channel** (e.g. [SSW TV channel](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)). There, you can have a playlist with your name in it, making it easier to find your videos over the years. These videos will help promote your profile, as well as the company's.
+## Public company/product YouTube channel
 
-Every other video should go under **their own product channel** (e.g. [YakShaver](https://www.youtube.com/@SSWYakShaver) or [SugarLearning](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)).
+Use the company/product YouTube channel for best practices content.
 
-For important clients, upload the videos under an extra channel for that client/project.
+For cool videos that would help your company's YouTube presence, it's best to upload them **publicly onto the company YouTube channel** (e.g. [SSW TV channel](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)).
 
-In rare cases, you may [put them on **your own YouTube channel** under a playlist](https://support.google.com/youtube/answer/57792?hl=en&co=GENIE.Platform%3DDesktop) called "Work - {{ COMPANY NAME }}". You can then look back to them a decade later fondly and see how much you have improved.
+For videos related to a product, they should go under **their own product channel** (e.g. [YakShaver](https://www.youtube.com/@SSWYakShaver), [TinaCMS](https://www.youtube.com/c/tinacms) or [SugarLearning](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)).
 
-::: bad
-![Figure: Bad example - Using your own channel for work videos should be a last resort](youtube-ownchannel.jpg)
-:::
+**Tip:** Create a playlist with your name in it, making it easier to find your videos over the years. These videos will help promote your profile, as well as the company's.
+
+## Unlisted company/product YouTube channel
+
+For [“Done” videos](/record-a-quick-and-dirty-done-video) or content not intended for general audiences, upload them to the product or company YouTube channel as **unlisted**.
+
+## Client YouTube channel
+
+For important clients, upload the videos under an extra channel for that client external project.
+
+## Personal YouTube channel
+
+In rare cases, for trivial content, you may [put them on **your own YouTube channel** under a dedicated playlist](https://support.google.com/youtube/answer/57792?hl=en&co=GENIE.Platform%3DDesktop) called "Work - {{ COMPANY NAME }}". You can then look back to them a decade later fondly and see how much you have improved.
