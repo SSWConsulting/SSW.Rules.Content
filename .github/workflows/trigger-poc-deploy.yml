@@ -54,8 +54,8 @@ jobs:
         run: git checkout ${{ steps.find_branch.outputs.branch_name }}
 
       - name: Copy mapping into POC repo
-        run: cp scripts/tina-migration/rule-category-mapping.json \
-             poc/rule-category-mapping.json
+        run: cp scripts/tina-migration/rule-category-mapping.json poc/rule-category-mapping.json
+
 
       - name: Commit rule-category mapping
         working-directory: poc
