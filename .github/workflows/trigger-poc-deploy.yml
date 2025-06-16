@@ -39,10 +39,8 @@ jobs:
         run: git checkout ${{ steps.find_branch.outputs.branch_name }}
 
       - name: Build rule-category mapping
-        run: |
-          cd ./scripts/tina-migration
-          python build-rule-category-map.py
-          cd -
+        working-directory: scripts/tina-migration
+        run: python build-rule-category-map.py
 
       - name: Commit rule-category mapping
         env:
