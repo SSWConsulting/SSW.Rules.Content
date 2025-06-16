@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - content_deployment
+      - tina/migration-dev-content
 
 jobs:
   trigger-deploy:
@@ -12,12 +12,20 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
-      - name: Checkout Rules POC repo
-        uses: actions/checkout@v4
+
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ vars.POC_APP_ID }}
+          private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
+          owner: SSWConsulting
+          repositories: SSW.Rules.Tina.Nextjs.POC
+
+      - uses: actions/checkout@v4
         with:
           repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
-          token: ${{ secrets.POC_PAT }}
-          fetch-depth: 0
+          token: ${{ steps.generate-token.outputs.token }}
 
       - name: Find latest release branch or fallback to main
         id: find_branch
@@ -28,9 +36,11 @@ jobs:
           fi
           echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
 
-      - name: Debug print release branch
+      - name: Test token can list workflows
         run: |
-          echo "Branch to deploy: ${{ steps.find_branch.outputs.branch_name }}"
+          curl -s -H "Authorization: Bearer ${{ steps.generate-token.outputs.token }}" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/SSWConsulting/SSW.Rules.Tina.Nextjs.POC/actions/workflows
 
       - name: Trigger Tina POC deploy
         uses: benc-uk/workflow-dispatch@v1
@@ -38,4 +48,4 @@ jobs:
           workflow: build-and-deploy.yml
           repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           ref: ${{ steps.find_branch.outputs.branch_name }}
-          token: ${{ secrets.POC_PAT }}
+          token: "${{ steps.generate-token.outputs.token }}"
