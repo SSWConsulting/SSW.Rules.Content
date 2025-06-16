@@ -14,6 +14,11 @@ Developers love writing PRs but often don't like reviewing them. When the sprint
 <!--endintro-->
             
 ### Requirements
-GitHub copilot Pro or better
+- GitHub copilot Pro or better
+- A GitHub repo
 
-### Why to use  this
+## Scopes
+GitHub Copilot reviews can automatically be triggered on your varous  code repos.
+
+### Organization level
+If you have your own GitHub organization code reviews
