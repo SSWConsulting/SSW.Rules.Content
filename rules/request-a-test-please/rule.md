@@ -29,7 +29,7 @@ Testing is a fundamental aspect of software development, serving as the quality 
 
 ## ✅ The ideal 'Test Please' workflow
 
-When requesting a review or approval (commonly called a "Test Please") for a piece of work such as a video edit, blog post, or design preview, it's important to follow a consistent and transparent workflow:
+When requesting a review or approval (commonly called a "Test Please") for a piece of work such as a [video edit](/test-please-for-video), blog post, or design preview, it's important to follow a consistent and transparent workflow:
 
 1. **Post the preview link in the PBI** – Add the link to the version or preview at the top of the relevant PBI (Product Backlog Item)
 2. **Use the PBI discussion to tag reviewers** – In the comments section, use `@` to mention the team members you want to review the work, and write a clear message (e.g., “Test please 🙏”)
