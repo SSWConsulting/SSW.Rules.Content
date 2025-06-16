@@ -64,13 +64,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add scripts/rule-category-mapping.json
+          git add scripts/tina-migration/rule-category-mapping.json
           if ! git diff --cached --quiet; then
-          git commit -m "chore: update rule-category-mapping.json [skip ci]"
+            git commit -m "chore: update rule-category-mapping.json [skip ci]"
             git push origin "$BRANCH_NAME"
           else
             echo "No changes to commit."
           fi
+
 
       - name: Trigger Tina POC deploy
         uses: benc-uk/workflow-dispatch@v1
