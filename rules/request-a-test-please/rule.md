@@ -34,7 +34,7 @@ When requesting a review or approval (commonly called a "Test Please") for a pie
 1. **Post the preview link in the PBI** – Add the link to the version or preview at the top of the relevant PBI (Product Backlog Item)
 2. **Use the PBI discussion to tag reviewers** – In the comments section, use `@` to mention the team members you want to review the work, and write a clear message (e.g., “Test please 🙏”)
 3. **Keep all feedback and iterations in the same thread** – Reviewers should reply in the same PBI discussion with comments or with a confirmation like “Test passed ✅.” Any required changes or back-and-forth should also stay within that thread to keep the full history in one place
-4. **Follow up professionally via Teams** – If there's no response after a reasonable time, you can follow up via Microsoft Teams with a short message (e.g., “Hi Adam, calling in 1 min about the preview link”), and reference the same PBI so the full context is easy to access
+4. **Follow up professionally via Teams** – If there's no response after a reasonable time, follow up with a [“warn then call”](/warn-then-call) (e.g., “Hi Adam, calling in 1 min about the preview link”), and reference the PBI so the full context is easy to access
 
 This process ensures feedback is traceable, transparent, and tied to the work item.  
 
