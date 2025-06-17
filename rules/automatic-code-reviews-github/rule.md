@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you request automatic reviews on GitHub?
+title: Do you automate code reviews on GitHub?
 seoDescription: " Automate code reviews with AI tools like GitHub Copilot,
   BugBot, and CodeRabbit to save time and reduce dev fatigue."
 uri: automatic-code-reviews-github
@@ -18,7 +18,11 @@ Developers love writing PRs but often don't like reviewing them. In particular, 
 
 In a perfect world,  reviewing a PR would be nothing more than a last minute glance at a few commits to ensure there's nothing fishy going on. You've got [automated testing](https://www.ssw.com.au/rules/automated-ui-testing/) in your CI/CD pipeline are there to flag any regressions in existing functionality and you've got a Staging environment to preview how things are going to look. However in a world where a Stakeholders often ask for features yesterday that they wanted finished last week, automated testing often gets left by the wayside and Senior developers can find themselves in a crunch to get things across the line even without any distractions. 
 
-Enter AI agents. AI Agents such as GitHub Copilot are now not only capable of structuring an MVP while you grab a cup of coffee, but they can also leverage their mountains of expertise to review PRs. This isn't a substitute for having a tech lead or a senior around to review your PRs, but it's an extra circle of hell rubbish code needs to crawl through before worming it's way into prod.
+Enter AI agents. AI Agents such as GitHub Copilot are now not only capable of structuring an MVP while you grab a cup of coffee, but they can also leverage their mountains of expertise to review PRs. 
+
+::: info
+AI agent's aren't a substitute for having a tech lead or a senior around to review your PRs (yet), but it's an extra circle of hell rubbish code needs to crawl through before worming it's way into prod.
+::: 
 
 There's a few agents developers can choose for their PR reviewing needs.
 
