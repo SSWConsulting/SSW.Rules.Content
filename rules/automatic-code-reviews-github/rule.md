@@ -20,7 +20,7 @@ Developers love writing PRs but often don't like reviewing them. When the sprint
 
 
 ::: good
-![Figure: Automatic code review on Tina.io](auto-code-review-tina.png)
+![Figure: Automatic code review on Tina.io using GitHub Copilot](auto-code-review-tina.png)
 ::: 
 
 ### Requirements
