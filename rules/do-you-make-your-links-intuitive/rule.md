@@ -1,12 +1,14 @@
 ---
 seoDescription: Make your links intuitive by providing clear navigation and explaining the destination of each hyperlink.
 type: rule
-archivedreason:
+archivedreason: Replaced by https://www.ssw.com.au/rules/descriptive-links
 title: Do you make your links intuitive?
 guid: 0da6f121-cbe1-41f8-95ca-34fb5263d3db
 uri: do-you-make-your-links-intuitive
 created: 2015-02-16T01:55:22.0000000Z
-authors: []
+authors: 
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
