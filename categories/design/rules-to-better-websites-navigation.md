@@ -7,7 +7,7 @@ index:
 - underlined-links
 - descriptive-links
 - do-you-distinguish-visited-links
-- do-you-visually-indicate-the-page-you-are-at-on-the-menu-aka-active-state
+- active-menu-item
 - do-you-use-mega-menu-navigation-to-improve-usability
 - do-you-add-breadcrumb-to-every-page
 - simplify-breadcrumbs
