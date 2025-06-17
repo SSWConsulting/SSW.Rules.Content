@@ -33,9 +33,11 @@ When using Bootstrap it's best to opt for the framework specific integration of 
 
 ## shadcn/ui – customized with V0 (Recommended)
 
-This is the best choice for React ecosystems. Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a seperate library by utilising path aliases.
+Shadcn/ui is more recent, but changed the game. It puts the components totally under your control since the code lives in your repository, and still acts like a separate library by utilising path aliases.
 
-It builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com) (the industry standard CSS framework).
+The trade-off of this approach is that any updates made to the Shadcn code base won't automatically be reflected in your code base. You should consider this when electing to use Shadcn. If having a distinct look and feel for your UI is unimportant, and you don't want to maintain your UI, a conventional library such as [Material UI](https://mui.com/) may be better for your project.
+
+Shadcn builds off [radix-ui](https://www.radix-ui.com) and [TailwindCSS](https://tailwindcss.com), an industry standard framework that offers an opinionated approach to managing your css classes. This makes it even easier to manage customizations made to your components.
 
 ::: info
 While Shadcn/ui is largely copying their component code into your project, they have a [CLI](https://ui.shadcn.com/docs/cli) which is recommended over manual installation.
