@@ -7,6 +7,8 @@ authors:
   - title: ""
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
+
+
 Developers love writing PRs but often don't like reviewing them. When the sprint review starts to rear it's head on the horizon developers can become extremely reluctant to manually review any PRs.
 
 `youtube: https://www.youtube.com/embed/cyPaAkRfEBQ`
@@ -14,14 +16,25 @@ Developers love writing PRs but often don't like reviewing them. When the sprint
 
 <!--endintro-->
 
+::: img-medium
+![Figure: Cursor's BugBot](cursor-bugbot-example.png)
+:::
+
+
+
+## Cursor's BugBot
+
 ### Limitations
 
 * Can only be configured on a per repo level
 
-
-::: good
+::: img-medium
 ![Figure: Automatic code review on Tina.io using GitHub Copilot](auto-code-review-tina.png)
-::: 
+:::
+
+::: img-medium
+![Figure: Automatic code review for YakShaver using GitHub Copilot](yakshaver-code-review.png)
+:::
 
 ### Requirements
 
