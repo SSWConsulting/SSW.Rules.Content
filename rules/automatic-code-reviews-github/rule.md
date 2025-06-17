@@ -6,7 +6,9 @@ seoDescription: " Automate code reviews with AI tools like GitHub Copilot,
   BugBot, and CodeRabbit to save time and reduce dev fatigue."
 uri: automatic-code-reviews-github
 authors:
-  - title: ""
+  - title: Caleb Williams
+    url: /people/caleb-williams
+created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
 Developers love writing PRs but often don't like reviewing them. In particular, when the sprint review starts to rear it's head on the horizon developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, code reviews go from being lengthy, tedious, annoying distractions for senior developers, to a quick glance at the commits followed by an **"LGTM ✅"**.
