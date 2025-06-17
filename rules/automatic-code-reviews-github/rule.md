@@ -34,12 +34,15 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
 
 When configuring GitHub copilot to review at the repo level, any pull requests made to a target branch (ususally master) will trigger a review from GitHub copilot.
 
-Code review rules can bne fine tunedto trigger on specific branch patterns and avoid orthes. 
+Code review rules can be fine tuned totrigger on specific branch patterns. 
 
 #### Account
 
 GitHub copilot pro users have the option of enabling GitHub copilot time.
 
+#### Organization Level
+
+GitHub Copilot may be configured to automatically review PRs and provide suggestions at the GitHub organization level. This is however only available for public repos, unless your organization is on the Team plan.
 
 
 #### Limitations
