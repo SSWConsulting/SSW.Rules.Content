@@ -11,19 +11,19 @@ authors:
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
-Developers love writing PRs but often don't like reviewing them. In particular, when the sprint review starts to rear it's head on the horizon developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, code reviews go from being lengthy, tedious, annoying distractions for senior developers, to a quick glance at the commits followed by an **"LGTM ✅"**.
+Developers love writing PRs but often don't like reviewing them. In particular, when the sprint review starts to rear its head on the horizon developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, code reviews go from being lengthy, tedious, annoying distractions for senior developers, to a quick glance at the commits followed by an **"LGTM ✅"**.
 
 `youtube: https://www.youtube.com/embed/cyPaAkRfEBQ`
 **Video: GitHub Copilot code review**
 
 <!--endintro-->
 
-In a perfect world,  reviewing a PR would be nothing more than a last minute glance at a few commits to ensure there's nothing fishy going on. You've got [automated testing](https://www.ssw.com.au/rules/automated-ui-testing/) in your CI/CD pipeline are there to flag any regressions in existing functionality and you've got a Staging environment to preview how things are going to look. However in a world where a Stakeholders often ask for features yesterday that they wanted finished last week, automated testing often gets left by the wayside and Senior developers can find themselves in a crunch to get things across the line even without any distractions. 
+In a perfect world,  reviewing a PR would be nothing more than a last minute glance at a few commits to ensure there's nothing fishy going on. You've got [automated testing](https://www.ssw.com.au/rules/automated-ui-testing/) in your CI/CD pipeline to flag any regressions in existing functionality and you've got a [Staging](/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/) environment to preview how things are going to look. However in a world where Stakeholders often ask for features yesterday that they wanted finished last week, automated testing often gets left by the wayside and Senior developers can find themselves in a crunch to get things across the line even without any distractions. 
 
 Enter AI agents. AI Agents such as GitHub Copilot are now not only capable of structuring an MVP while you grab a cup of coffee, but they can also leverage their mountains of expertise to review PRs. 
 
 ::: info
-AI agent's aren't a substitute for having a tech lead or a senior around to review your PRs (yet), but it's an extra circle of hell rubbish code needs to crawl through before worming it's way into prod.
+AI agents aren't a substitute for having a tech lead or a senior around to review your PRs (yet), but it's an extra circle of hell rubbish code needs to crawl through before worming it's way into prod.
 ::: 
 
 There's a few agents developers can choose for their PR reviewing needs.
@@ -40,7 +40,7 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
 ![Figure: Automatic code review for YakShaver using GitHub Copilot](yakshaver-code-review.png)
 :::
 
-GitHub copilot can also be given specific instructions to follow when making automatic review. To set this up you can place any custom instructions inside of a **.github/copilot-instructions.md** file.
+GitHub copilot can also be given specific instructions to follow when automatically reviewing PRs. To set this up you can place custom instructions inside of a **.github/copilot-instructions.md** file.
 
 ```markdown
 // .github/copilot-instructions.md 
@@ -52,7 +52,7 @@ When performing a code review, please finalize your review by saying "I sure hop
 
 There are 3 scopes that GitHub Copilot reviews can be configured within.
 
-#### Organization Level (⭐Recommended)
+#### Organization Level
 
 GitHub Copilot may be configured to automatically review PRs and provide suggestions at the GitHub organization level. You have the option to configure which repos within your organization will be reviewed automatically and which branch names or pattern these reviews will apply to. 
 
@@ -73,7 +73,7 @@ For more information refer to [GitHub's documentation](https://docs.github.com/e
 
 #### Account
 
-GitHub copilot pro users have the option of enabling GitHub Copilot reviews for every PR they create. This means that all GitHub copilot users have the option of enabling automatic reviews for any repo they contribute to, even if the owner of the repo doesn't have a GitHub Copilot Pro subscription themselves. 
+GitHub copilot pro users have the option of enabling GitHub Copilot reviews for every PR they create. This means that all GitHub Copilot users have the option of enabling automatic reviews for any repo they contribute to, even if the owner of the repo doesn't have a GitHub Copilot Pro subscription themselves. 
 
 For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#about-automatic-code-review) for enabling automatic code reviews.
 
