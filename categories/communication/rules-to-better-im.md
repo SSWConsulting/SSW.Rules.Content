@@ -16,6 +16,7 @@ index:
 - refer-to-email-subject
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
+- meaningful-chat-reactions
 - update-or-delete-mistakes
 - avoid-sarcasm-misunderstanding
 - inform-others-about-chat-message-updates
