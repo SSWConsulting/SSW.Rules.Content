@@ -32,9 +32,9 @@ test commit
 
 #### Repo level (⭐Recommended)
 
-When configuring GitHub copilot to review at the repo level, any pull requests made to a target branch (ususally master) will trigger a review from GitHub copilot.
+When configuring GitHub copilot to review at the repo level, any pull requests made to a target branch (ususally master) will trigger a review from GitHub Copilot.
 
-Code review rules can be fine tuned totrigger on specific branch patterns. 
+Code review rules can be fine tuned to trigger on specific branch patterns. 
 
 #### Account
 
