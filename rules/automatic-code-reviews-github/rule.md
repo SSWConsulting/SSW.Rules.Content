@@ -7,7 +7,7 @@ seoDescription: " Automate code reviews with AI tools like GitHub Copilot,
 uri: automatic-code-reviews-github
 authors:
   - title: Caleb Williams
-    url: /people/caleb-williams
+    url: https://www.ssw.com.au/people/caleb-williams
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
