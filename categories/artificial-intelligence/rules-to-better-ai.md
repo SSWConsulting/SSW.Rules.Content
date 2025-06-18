@@ -12,6 +12,7 @@ index:
 - chatgpt-skills-weaknesses
 - what-is-gpt
 - chatgpt-vs-gpt
+- automatic-code-reviews-github
 - weekly-ai-meetings
 - company-ai-tools
 - connect-chatgpt-with-virtual-assistant
