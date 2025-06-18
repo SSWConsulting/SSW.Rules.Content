@@ -80,7 +80,7 @@ For more information refer to [GitHub's documentation](https://docs.github.com/e
 
 ### Cursor's BugBot
 
-Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. BugBot requires a subscription, but is available as part of a 7 day free trial. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot)
+Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot)
 
 ::: img-medium
 ![Figure: Cursor's BugBot leaving a comment on a PR](cursor-bugbot-example.png)
