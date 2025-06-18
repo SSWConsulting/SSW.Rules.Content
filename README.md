@@ -13,11 +13,12 @@ Welcome to SSW.Rules.Content (The Data in markdown). Thank you for contributing 
 Builds are done in GitHub Actions. After a rule is edited, a Pull Request is needed to be merged into the `main` branch and deployed to Production.  
 
 PRs can be approved by [anyone at SSW](https://www.ssw.com.au/people/). Try these people first:
-1.	Tiago Araujo
-2.	Brady Stroud 
-3.	Adam Cogan
-4.	Luke Cook
-5.	Brook Jeynes
+
+1. Tiago Araujo
+2. Brady Stroud
+3. Adam Cogan
+4. Luke Cook
+5. Brook Jeynes
 
 [See the outstanding Pull Requests](https://github.com/SSWConsulting/SSW.Rules.Content/pulls).  
 Once they have been merged, you can [see them being built and deployed](https://github.com/SSWConsulting/SSW.Rules/actions/workflows/build-deploy-production.yml).
@@ -25,6 +26,7 @@ Once they have been merged, you can [see them being built and deployed](https://
 📘 GitHub Actions documentation for the projects is available in the [Wiki](https://github.com/SSWConsulting/SSW.Rules.Content/wiki).
 
 ## Structure
+
 * Rules live in the rules folder
 * Categories live in the categories folder
 * Each rule has a folder containing rule.md and images/assets
