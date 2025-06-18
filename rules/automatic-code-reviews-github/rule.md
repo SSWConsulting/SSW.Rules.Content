@@ -7,11 +7,11 @@ seoDescription: " Automate code reviews with AI tools like GitHub Copilot,
 uri: automatic-code-reviews-github
 authors:
   - title: Caleb Williams
-    url: /people/caleb-williams
+    url: https://www.ssw.com.au/people/caleb-williams
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
-Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing them. In particular, when the Sprint Review starts to rear its head on the horizon developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, you can catch many problems and gotchas in your PR early, buying your senior devs more time (and sanity!) to review higher quality code.
+Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing them. In particular, when Sprint Review approaches, developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, you can catch many problems and gotchas in your PRs early, buying your senior devs more time (and sanity!) to review higher quality code.
 
 `youtube: https://www.youtube.com/embed/cyPaAkRfEBQ`
 **Video: GitHub Copilot code review (1 min)**
@@ -80,7 +80,7 @@ For more information refer to [GitHub's documentation](https://docs.github.com/e
 
 ### Cursor's BugBot
 
-Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. BugBot requires a subscription, but is available as part of a 7 day free trial. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot)
+Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot)
 
 ::: img-medium
 ![Figure: Cursor's BugBot leaving a comment on a PR](cursor-bugbot-example.png)
