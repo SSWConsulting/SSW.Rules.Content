@@ -101,7 +101,7 @@ Your Done Videos should follow the following format:
    * Prepare and practice your talking points and visual elements
    * Start with a medium close up shot of yourself
    * Start with a smile the camera for 2 seconds before speaking
-   * Briefly introduce yourself. E.g. "I'm {{ FIRST NAME }}, {{ ROLE }} at {{ COMPANY }}"
+   * Briefly introduce yourself. E.g. "I'm David, Solution Architect at SSW"
 2. **Post-intro**
    * Transition into a screen share with the solution you've created on screen, moving your portrait shot to the bottom right corner of the screen
    * Provide an overview of the PBI you are going to discuss, remembering to zoom out before showing code samples or demos (see rule - [Do you zoom out then in](/zooming-in-and-out/))
@@ -117,7 +117,7 @@ Your Done Videos should follow the following format:
 5. **Outro**
    * Transition back into a medium close up shot of yourself
    * Provide a brief summary of what you discussed in the video
-   * Use a signature to bid farewell to the audience. E.g. "This is {{ NAME }} signing off"
+   * Use a signature to bid farewell to the audience. E.g. "This is David signing off"
    * Hold eye contact and a smile to the camera for 2 seconds before the video ends
 
 ## Tip #3: Look sharp when presenting
