@@ -36,7 +36,7 @@ Teams that value a straight-forward interface and a low monthly cost often choos
 
 * Calendar UI - drag-and-drop posts across connected profiles  
 * AI tools - suggest hashtags and draft captions in-line  
-* Automate-able - REST API access for custom workflows  
+* Automate-able - REST API access for custom workflows. Useful for connecting code/low-code tools like n8n. See [Do you automate tasks with low-code tools and AI?](https://www.ssw.com.au/rules/low-code-and-ai)
 * Budget-friendly – suitable for freelancers small teams, or anybody that needs a simple tool
 
 ::: good  
@@ -45,7 +45,9 @@ Teams that value a straight-forward interface and a low monthly cost often choos
 
 ### When Ocoya is **not** ideal
 
-If you need deep social listening, advanced customer-service inboxes or paid-ads management, full-suite platforms like **Sprout Social** or **Hootsuite** deliver those features and more at a higher price.
+* If you need deep social listening, advanced customer-service inboxes or paid-ads management, full-suite platforms like **Sprout Social** or **Hootsuite** deliver those features and more at a higher price.
+* Analytics - Ocoya does not currently show analytics for social media platforms.  
+Workarounds include pulling analytics directly from the social media sites, or building custom reports in a tool like Data Looker Studio.
 
 ## Buffer
 

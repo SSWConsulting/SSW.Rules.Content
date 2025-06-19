@@ -16,6 +16,7 @@ index:
 - do-you-know-how-to-test-which-pain-points-are-relevant-to-your-prospect
 - measure-the-effectiveness-of-your-marketing-efforts
 - do-you-follow-the-campaign-checklist-for-every-marketing-campaign
+- quarterly-marketing-meetings-to-generate-content
 - do-you-run-events
 - do-you-tell-the-world-about-your-event-sponsorship
 - do-you-use-door-prizes-and-giveaways-at-your-events
@@ -49,6 +50,7 @@ index:
 - optimize-google-my-business-profile
 - how-to-respond-to-both-positive-and-negative-reviews-on-google-my-business
 - do-you-use-events-to-market-your-consulting-work
+  
 
 ---
 
