@@ -2,7 +2,8 @@
 type: rule
 tips: ""
 title: Do you automate code reviews on GitHub?
-seoDescription: " Automate code reviews with AI tools like GitHub Copilot, BugBot, and CodeRabbit to save time and reduce dev fatigue."
+seoDescription: " Automate code reviews with AI tools like GitHub Copilot,
+  BugBot, and CodeRabbit to save time and reduce dev fatigue."
 uri: automatic-code-reviews-github
 authors:
   - title: Caleb Williams
@@ -29,6 +30,10 @@ Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing the
 
 `youtube: https://www.youtube.com/embed/LsQGilvXAfE?si=F4A2mdp2bjqnzlUQ`
 **Video: Code review & refactoring with GitHub Copilot: A beginner's guide (8 min)**
+
+::: info
+To learn how to configure GitHub Copilot code reviews refer to [GitHub's setup documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot) 
+:::
 
 In a perfect world,  reviewing a PR would simply be rubber-stamping perfect code. In reality, reviewers spend a lot of time flagging comments, typos, linting problems and, eventually bugs. This takes time away from focusing on more valuable concerns like scalability, maintainability, extensibility, and, ultimately the longevity of the code.
 
