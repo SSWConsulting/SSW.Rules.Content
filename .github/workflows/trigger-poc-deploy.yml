@@ -54,7 +54,7 @@ jobs:
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
             --ref POC_Azure_Deployment-Categories \
-            --field run_id=$(uuidgen) \
+            --field run_id="$GITHUB_RUN_ID" \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
