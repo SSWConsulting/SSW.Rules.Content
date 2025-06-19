@@ -2,6 +2,9 @@ name: Trigger-Rules-POC-Build
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - '**'
 
 jobs:
   trigger-deploy:
