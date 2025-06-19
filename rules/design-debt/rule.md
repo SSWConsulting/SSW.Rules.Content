@@ -61,7 +61,6 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 * Include UI refactoring in your roadmap
 * Document design decisions with clear rationale
 
-
 ## How to prevent design debt
 
 ### 1. Before you code
@@ -72,7 +71,6 @@ First check if what you want to change is already in the design system. If yes, 
 * Does it affect layout, spacing, interaction, or visuals?
 
 If the answer is “yes” or you’re not sure; it involves design. So ask for a “Test Please” and tag a designer on the PBI before making changes.
-
 
 ### 2. Track it properly
 
@@ -117,4 +115,3 @@ This is the original Menu design — consistent, aligned with the design system,
 ## Treat design like code
 
 Every visual tweak changes the product — just like changing a line of code. So follow process, get the right people involved, and respect the system. 🤖
-
