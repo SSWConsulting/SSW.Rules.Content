@@ -35,7 +35,7 @@ This is how you should create an appointment in the Outlook calendar for flights
 :::
 
 ::: bad
-![Figure: Bad Example - only one appointment for connecting flights.](only-one-appointment-for-connecting-flights.png)
+![Figure: Bad Example - only one appointment for non-stop flights.](only-one-appointment-for-connecting-flights.png)
 :::
 
 Here is a template to follow:
