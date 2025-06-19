@@ -35,8 +35,8 @@ Get ReSharper to green on each file you touch. You want the files you work on to
 
 You can run through a file and tidy it very quickly if you know 2 great keyboard shortcuts:
 
-- Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
-- Alt + Enter: Smart refactoring suggestions
+* Alt + [Page Down/Page Up] : Next/Previous Resharper Error / Warning
+* Alt + Enter: Smart refactoring suggestions
 
 ![Figure: ReSharper will show Orange when it detects that there is code that could be improved](48bc81_image001.png)
 
