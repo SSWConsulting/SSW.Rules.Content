@@ -35,6 +35,7 @@ jobs:
         with:
           name: rule-category-mapping
           path: scripts/tina-migration/rule-category-mapping.json
+          root-directory: scripts/tina-migration
           retention-days: 1
 
       # - name: Commit mapping in Content repo
