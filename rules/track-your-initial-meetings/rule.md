@@ -52,6 +52,6 @@ Important: In Dynamics 365 (Outlook add-in), set the “Regarding” field to an
 
 The idea behind it is that Power BI can then show the time elapsed between each sales milestone.
 
-![Figure: Time to win report](time-to-win-graph.png)
+![Figure: Time to win report](time-to-win-gragh.png)
 
 ![Figure: Initial meetings report](initial-meeting-gragh.png)
