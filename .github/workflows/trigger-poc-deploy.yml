@@ -2,9 +2,6 @@ name: Trigger-Rules-POC-Build
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - tina/Content_Azure_Deployment-Categories
 
 jobs:
   trigger-deploy:
@@ -24,7 +21,7 @@ jobs:
       - name: Checkout content repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          ref: ${{ github.ref_name }}
 
       - name: Build rule-category mapping
         working-directory: scripts/tina-migration
@@ -42,7 +39,7 @@ jobs:
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref POC_Azure_Deployment-Categories \
+            --ref main \
             --field run_id="$GITHUB_RUN_ID" \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
