@@ -22,7 +22,7 @@ archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
 
-It’s tempting to fix small UI issues on the fly — change a button size, adjust some spacing, or tweak a color. But those “quick wins” often turn into long-term losses, leading to a messy, inconsistent UI that confuses users and slows development.
+It’s tempting to fix small UI issues on the fly - change a button size, adjust some spacing, or tweak a color. But those “quick wins” often turn into long-term losses, leading to a messy, inconsistent UI that confuses users and slows development.
 
 <!--endintro-->
 
@@ -34,7 +34,7 @@ It usually starts with innocent intentions:
 
 * "Just added a quick icon"
 * "Tightened the padding a bit"
-* "Didn't want to bother design — it's small"
+* "Didn't want to bother design - it's small"
 
 We’ve all done it. But enough of these add up fast. Before you know it, the product starts to feel inconsistent, design is out of sync, and developers redo work they thought was already done.
 
@@ -42,7 +42,7 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 ### 🚨 Why it happens
 
-* Rushed timelines or MVP mindset (“we’ll fix it later”)
+* Rushed timelines or MVP mindset ("we'll fix it later")
 * No shared design system
 * Designers and developers working in silos
 * Unclear product direction or pivots
@@ -70,14 +70,14 @@ First check if what you want to change is already in the design system. If yes, 
 * Will users see this change?
 * Does it affect layout, spacing, interaction, or visuals?
 
-If the answer is “yes” or you’re not sure; it involves design. So ask for a “Test Please” and tag a designer on the PBI before making changes.
+If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI before making changes.
 
 ### 2. Track it properly
 
 Even small tweaks need visibility:
 
 * Create a PBI for every UI change
-* Tag it `needs-design` or `minor-UI` depending on the impact
+* Tag it "needs-design" or "minor-UI" depending on the impact
 * Let the PO and designer review and prioritize
 
 ### 3. Use the design system
@@ -114,4 +114,4 @@ This is the original Menu design — consistent, aligned with the design system,
 
 ## Treat design like code
 
-Every visual tweak changes the product — just like changing a line of code. So follow process, get the right people involved, and respect the system. 🤖
+Every visual tweak changes the product - just like changing a line of code. So follow process, get the right people involved, and respect the system. 🤖
