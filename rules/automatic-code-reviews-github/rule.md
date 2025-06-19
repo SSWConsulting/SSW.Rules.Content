@@ -8,7 +8,7 @@ uri: automatic-code-reviews-github
 authors:
   - title: Caleb Williams
     url: https://www.ssw.com.au/people/caleb-williams
-  - title: Tom Iwainski
+  - title: Thomas Iwainski
     url: https://www.ssw.com.au/people/thomas-iwainski/
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook
