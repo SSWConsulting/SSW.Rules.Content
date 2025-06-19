@@ -49,10 +49,12 @@ jobs:
       #       echo "No changes to commit in Content repo."
       #     fi
 
-      - name: Trigger Tina POC deploy
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: build-and-deploy.yml
-          repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
-          ref: POC_Azure_Deployment-Categories
-          token: ${{ steps.generate-token.outputs.token }}
+      - name: Trigger Tina POC deploy with payload
+        run: |
+          gh workflow run build-and-deploy.yml \
+            --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
+            --ref POC_Azure_Deployment-Categories \
+            --field run_id=$(uuidgen) \
+            --field branch_name="${GITHUB_REF#refs/heads/}"
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
