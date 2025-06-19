@@ -64,7 +64,7 @@ When performing a code review, please finalize your review by saying "But what d
 
 GitHub Copilot may be configured to automatically review PRs and provide suggestions at the GitHub organization level. You have the option to configure which repos within your organization will be reviewed automatically and which branch names or patterns these reviews will apply to.
 
-For more information about how how to configure GitHub Copilot code reviews at the organization level, refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization).
+For more information about how to configure GitHub Copilot code reviews at the organization level, refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization).
 
 ::: info
 You'd typically only want to configure code reviews to be triggered against pull requests to your **master** branch.
