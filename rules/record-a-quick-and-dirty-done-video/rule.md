@@ -86,7 +86,7 @@ Here's a quick video describing how to record your webcam and screen separately 
 **Note:** You will be able to alter the PIP, remove it, go full screen on your face. Also note that you'll need to **set the output to 30 FPS** in your OBS settings - not 60 FPS as outlined in the video. Setting the output to 30 FPS will ensure you don't experience syncing issues or lag between the video and audio.
 :::
 
-##### Switching Scenes in OBS 
+##### Switching Scenes in OBS
 
 It is quite easy to do with these simple steps using OBS Hotkeys!
 
@@ -126,10 +126,10 @@ If your company has branded clothing, make sure it's ironed, tidy and visible. W
 
 ## Tip #4: Frame yourself properly
 
-Have your webcam height at eye level for engagement. Make sure there is sufficient headroom - not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame). 
+Have your webcam height at eye level for engagement. Make sure there is sufficient headroom - not too little (don't cut off the top of your head in the frame) and no too much (the subject needs to fill the frame).
 
 Ensure your branded clothing is visible and the background is clean and tidy, also consider tilting the camera for a more dynamic background with depth instead of a flat background
-    
+
 ::: bad
 ![Figure: Bad example - Camera is below eye level](bad-seth-camera.jpg)
 :::
@@ -138,11 +138,11 @@ Ensure your branded clothing is visible and the background is clean and tidy, al
 ![Figure: Good example - Good framing, lights and background](https://github.com/user-attachments/assets/204f8986-5146-4e0c-9c5f-34985728d03d)
 :::
 
-## Tip #5: Get your lighting right 
+## Tip #5: Get your lighting right
 
 Ensure there is optimal room lighting and facial brightness. Consider a ceiling-pointing lamp for additional light. Avoid intense backlights to prevent silhouetting
 
-## Tip #6: Record in one take 
+## Tip #6: Record in one take
 
 Record it in one take, but start again if it's super bad. If something out-of-your control happens, try to be natural! If you mistype a word or click the wrong button, don't freak out and start again, incorporate it. E.g. "Whoops, clicked build accidently. Let me just refresh and go again"
 
@@ -150,7 +150,7 @@ Record it in one take, but start again if it's super bad. If something out-of-yo
 If your video is short (1-2 mins), then starting again may be optimal. However, if your video is longer ( more than 5 minutes), then try to incorporate any accidental errors and keep going.
 :::
 
-## Tip #7: Keep the UI clean 
+## Tip #7: Keep the UI clean
 
 When using a browser, IDE, or any relevant app, make sure the interface is readable, clean and free of distractions.
 
@@ -163,7 +163,7 @@ When using a browser, IDE, or any relevant app, make sure the interface is reada
 ::: bad
 ![Figure: Bad example - Inbox messages are showing, and reminder has not been cleared](bad_example_email.png)
 :::
-    
+
 ::: good
 ![Figure: Good example - Email is popped out to hide messages, and reminder has been cleared](good_example_email.png)
 :::
