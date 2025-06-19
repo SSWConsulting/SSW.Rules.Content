@@ -15,6 +15,8 @@ guid: 91d98862-1677-4cbd-b43e-28cbd45552e4
 
 It means developing via a coding agent, and never even looking at - let alone editing - the code. It has also become synonymous with low-quality code.
 
+Of course there is a time and a place for it e.g. building a rapid prototype, or working with a tight budget. See how SSW empowers non-developers with the tools to start vibe coding [here](https://www.ssw.com.au/consulting/vibe-coding).
+
 When writing code as a professional developer, "vibe coding" may make it easy to get a solution up and running without worrying about the details, but as soon as you commit it to the repository under your name, it becomes your responsibility, as if you had written it yourself.
 
 Hence it can be tempting to just "vibe" your way through a few features, but if you do not understand what it does and why, you are going to get into trouble if bugs start popping up.
