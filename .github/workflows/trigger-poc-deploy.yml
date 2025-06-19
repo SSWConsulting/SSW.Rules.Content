@@ -54,5 +54,5 @@ jobs:
         with:
           workflow: build-and-deploy.yml
           repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
-          ref: ${{ steps.find_branch.outputs.branch_name }}
+          ref: POC_Azure_Deployment-Categories
           token: ${{ steps.generate-token.outputs.token }}
