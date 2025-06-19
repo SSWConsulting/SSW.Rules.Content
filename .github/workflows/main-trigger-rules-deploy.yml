@@ -14,7 +14,16 @@ jobs:
     runs-on: ubuntu-latest
     if: github.repository_owner == 'SSWConsulting'
     steps:
-      - name: Generate token
+
+      - uses: actions/checkout@v4
+        with:
+          repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
+
+      - name: Find latest branch
+        id: find_branch
+        run: echo "branch_name=$(git ls-remote --heads origin | grep -oe 'refs/heads/release/.*' | sort -V | tail -n 1 | sed 's|refs/heads/||')" >> $GITHUB_OUTPUT          
+
+      - name: Generate a token
         id: generate-token
         uses: actions/create-github-app-token@v2
         with:
