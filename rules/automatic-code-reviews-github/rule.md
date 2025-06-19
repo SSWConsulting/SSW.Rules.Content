@@ -8,20 +8,31 @@ uri: automatic-code-reviews-github
 authors:
   - title: Caleb Williams
     url: https://www.ssw.com.au/people/caleb-williams
+  - title: Thomas Iwainski
+    url: https://www.ssw.com.au/people/thomas-iwainski/
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov/
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming/
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
 Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing them. In particular, when Sprint Review approaches, developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, you can catch many problems and gotchas in your PRs early, buying your senior devs more time (and sanity!) to review higher quality code.
 
-`youtube: https://www.youtube.com/embed/cyPaAkRfEBQ`
-**Video: GitHub Copilot code review (1 min)**
+`youtube: https://www.youtube.com/embed/LsQGilvXAfE?si=F4A2mdp2bjqnzlUQ`
+**Video: Code review & refactoring with GitHub Copilot: A beginner's guide (8 min)**
 
 <!--endintro-->
 
 In a perfect world,  reviewing a PR would simply be rubber-stamping perfect code. In reality, reviewers spend a lot of time flagging comments, typos, linting problems and, eventually bugs. This takes time away from focusing on more valuable concerns like scalability, maintainability, extensibility, and, ultimately the longevity of the code. 
 
 Enter AI agents. AI Agents such as GitHub Copilot are great at improving code quality before putting the PR in front of a senior. By making your code more enjoyable to review, you'll find people won't disappear under a rock whenever you ping them with a PR.
-
 
 There's a few agents developers can choose for their PR reviewing needs.
 
@@ -36,7 +47,6 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
 ::: img-medium
 ![Figure: Automatic code review for YakShaver using GitHub Copilot](yakshaver-code-review.png)
 :::
-
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a **.github/copilot-instructions.md** file.
 
@@ -60,12 +70,9 @@ For more information about how how to configure GitHub Copilot code reviews at t
 You'd typically only want to configure code reviews to be triggered against pull requests to your **master** branch.
 ::: 
 
-
-
 ##### Repo level
 
 Allows the same rule sets and pattern matching as above but specific to one repository.
-
 
 For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-a-single-repository) for configuring automatic code reviews at the repo level.
 
@@ -74,9 +81,6 @@ For more information refer to [GitHub's documentation](https://docs.github.com/e
 GitHub Copilot Pro users have the option of enabling GitHub Copilot reviews for every PR they create. This means that **all GitHub Copilot users have the option of enabling automatic reviews for any repo they contribute to, even if the owner of the repo doesn't have a GitHub Copilot Pro subscription themselves.** 
 
 For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#about-automatic-code-review) for enabling automatic code reviews.
-
-
-
 
 ### Cursor's BugBot
 
