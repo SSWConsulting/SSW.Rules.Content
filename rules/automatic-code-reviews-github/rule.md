@@ -82,7 +82,9 @@ GitHub Copilot Pro users have the option of enabling GitHub Copilot reviews for 
 
 For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#about-automatic-code-review) for enabling automatic code reviews.
 
-### Cursor's BugBot
+### Popular Alternatives
+
+#### Cursor's BugBot
 
 Cursor's BugBot allows you to configure automatic code reviews for a specific repo within Cursor. If you're happy with the suggestions that Cursor has made you can click the **"Fix in Cursor"** button at the bottom of its comments to apply the fix in your Cursor IDE. In most cases BugBot requires a paid subscription. For more information, refer to [Cursor's documentation](https://docs.cursor.com/bugbot)
 
@@ -90,7 +92,7 @@ Cursor's BugBot allows you to configure automatic code reviews for a specific re
 ![Figure: Cursor's BugBot leaving a comment on a PR](cursor-bugbot-example.png)
 :::
 
-### CodeRabbit
+#### CodeRabbit
 
 CodeRabbit works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial. For more information visit [CodeRabbit's website](https://www.coderabbit.a)
 
