@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  actions: write
+
 jobs:
   trigger-event:
     runs-on: ubuntu-latest
@@ -26,7 +30,20 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: SSWConsulting
-          repositories: SSW.Rules
+          repositories: SSW.Rules.Tina.Nextjs.POC
+          permission-contents: read
+          permission-actions: write
+
+      - uses: actions/checkout@v4
+        with:
+          repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
+          token: ${{ steps.generate-token.outputs.token }}
+          fetch-depth: 0
+
+      - name: Find latest release branch
+        id: find_branch
+        run: |
+          echo "branch_name=$(git for-each-ref --format='%(refname:short)' refs/remotes/origin/release | sort -V | tail -n 1 | sed 's|^origin/||')" >> "$GITHUB_OUTPUT"
 
       - name: Build and deploy Rules
         uses: benc-uk/workflow-dispatch@v1
@@ -34,4 +51,4 @@ jobs:
           workflow: build-and-deploy.yml
           repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
           ref: ${{ steps.find_branch.outputs.branch_name }}
-          token: "${{ steps.generate-token.outputs.token }}"
+          token: ${{ steps.generate-token.outputs.token }}

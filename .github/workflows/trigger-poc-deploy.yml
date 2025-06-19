@@ -2,9 +2,6 @@ name: Trigger-Rules-POC-Build
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - content_deployment
 
 jobs:
   trigger-deploy:
@@ -12,7 +9,6 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
-
       - name: Generate a token
         id: generate-token
         uses: actions/create-github-app-token@v2
@@ -22,24 +18,29 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
-      - uses: actions/checkout@v4
+      - name: Checkout content repo
+        uses: actions/checkout@v4
         with:
-          repository: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
-          token: ${{ steps.generate-token.outputs.token }}
+          ref: ${{ github.ref_name }}
 
-      - name: Find latest release branch or fallback to main
-        id: find_branch
+      - name: Build rule-category mapping
+        working-directory: scripts/tina-migration
+        run: python build-rule-category-map.py
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: rule-category-mapping
+          path: scripts/tina-migration/rule-category-mapping.json
+          root-directory: scripts/tina-migration
+          retention-days: 1
+
+      - name: Trigger Tina POC deploy with payload
         run: |
-          BRANCH=$(git branch -r | grep 'origin/release/' | sed 's|origin/||' | sort -V | tail -n1)
-          if [ -z "$BRANCH" ]; then
-            BRANCH="main"
-          fi
-          echo "branch_name=$BRANCH" >> $GITHUB_OUTPUT
-
-      - name: Trigger Tina POC deploy
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: build-and-deploy.yml
-          repo: SSWConsulting/SSW.Rules.Tina.Nextjs.POC
-          ref: ${{ steps.find_branch.outputs.branch_name }}
-          token: "${{ steps.generate-token.outputs.token }}"
+          gh workflow run build-and-deploy.yml \
+            --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
+            --ref main \
+            --field run_id="$GITHUB_RUN_ID" \
+            --field branch_name="${GITHUB_REF#refs/heads/}"
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
