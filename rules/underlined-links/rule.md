@@ -69,7 +69,7 @@ a:hover {
 
 ### Avoid other effects on hover for text
 
-Effects like bold, scaling, rotation, or background changes can distort text, making it harder for users to read and interact with links.
+Effects like **bold**, **scaling**, **rotation**, or **background changes** can distort text, making it harder for users to read and interact with links.
 
 ::: bad
 ![Figure: Bad example - Using bold on hovering may cause a text shift](bad-example-bold-hover.gif)
@@ -77,15 +77,11 @@ Effects like bold, scaling, rotation, or background changes can distort text, ma
 
 **Note:** These effects may be used for buttons or other non-text content elements.
 
-## Avoid replacing underlines with borders
+## Do not use borders to replace underlines
 
-The default implementation of underlines in CSS is:
+The default implementation of underlines in CSS is `text-decoration: underline;`.
 
-``` css
-text-decoration: underline;
-```
-
-Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for example. In this case, you can even have a dotted underline. However, it's **not recommended** you use this method unless you are a designer and know what you are doing. It may create extra pixels in the interface, which can potentially cause other problems in your UI:
+Another way to add look-alike underlines is by adding `border-bottom: 1px;`, for example. In this case, you could even have a **dotted** line under the text. It's **not recommended** you use this method - It may create extra pixels in the interface, which can potentially cause other problems in your UI:
 
 ::: bad  
 ![Figure: Bad example - The different border size pushes the content down](border-problem-1.gif)  
