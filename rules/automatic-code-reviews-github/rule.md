@@ -8,6 +8,16 @@ uri: automatic-code-reviews-github
 authors:
   - title: Caleb Williams
     url: https://www.ssw.com.au/people/caleb-williams
+  - title: Luke Cook
+    url: https://www.ssw.com.au/people/luke-cook
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Anton Polkanov
+    url: https://www.ssw.com.au/people/anton-polkanov/
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming/
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
