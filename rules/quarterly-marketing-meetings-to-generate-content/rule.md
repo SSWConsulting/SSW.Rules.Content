@@ -11,8 +11,6 @@ authors:
     url: https://www.ssw.com.au/people/stef-starcevic/
 created: 2025-06-19T10:42:00.000Z
 guid: 466a7efa-d3a2-456e-86b0-f4174d343ec0
-index:
-- rules-to-better-marketing
 ---
 
 Most companies do great work for clients — but fail to share it. Meanwhile, marketing teams struggle to produce content that feels real, useful, or relevant. The problem? They're not close enough to the work.
