@@ -63,9 +63,15 @@ A solid design system should include:
 * **[Atlassian Design System](https://atlassian.design/)**  \
   Includes tokens, patterns, tone of voice, and code
 
-## Design System Maturity: From Library to Ecosystem
+## Design System maturity: From Library to Ecosystem
 
-Design systems don’t need to be fully built from day one. Most teams start small with just a few shared components and evolve over time. Since “design system” is often used loosely, this model helps clarify where your team sits and what to aim for next.
+Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product. 
+
+::: info
+Most teams don't start with a full design system — they start small with just a few shared components and evolve over time. 
+:::
+
+Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next:
 
 | Stage | Description |
 |-------|-------------|
@@ -74,10 +80,6 @@ Design systems don’t need to be fully built from day one. Most teams start sma
 | **3. Design–Dev Alignment** | Design tokens are mapped to code, creating a shared language between design and development for color, spacing, and other foundational styles. |
 | **4. Coded Components** | Components exist in code (e.g. Storybook) and match the Design Library. |
 | **5. Scalable Ecosystem** | Includes formal governance processes, versioning, contribution model, changelogs, multi-product usage. Often has its own site or portal. |
-
-::: greybox
-Most teams don’t start with a full system — they grow into one.
-:::
 
 ## Start small in 7 steps
 
