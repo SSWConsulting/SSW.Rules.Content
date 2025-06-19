@@ -45,8 +45,8 @@ Teams that value a straight-forward interface and a low monthly cost often choos
 
 ### When Ocoya is **not** ideal
 
-- If you need deep social listening, advanced customer-service inboxes or paid-ads management, full-suite platforms like **Sprout Social** or **Hootsuite** deliver those features and more at a higher price.
-- Analytics - Ocoya does not currently show analytics for social media platforms.  
+* If you need deep social listening, advanced customer-service inboxes or paid-ads management, full-suite platforms like **Sprout Social** or **Hootsuite** deliver those features and more at a higher price.
+* Analytics - Ocoya does not currently show analytics for social media platforms.  
 Workarounds include pulling analytics directly from the social media sites, or building custom reports in a tool like Data Looker Studio.
 
 ## Buffer
