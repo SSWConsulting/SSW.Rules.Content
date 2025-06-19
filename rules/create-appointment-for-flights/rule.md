@@ -31,11 +31,11 @@ This is how you should create an appointment in the Outlook calendar for flights
 * Always create more than 1 appointment for flights that have more than one leg (connecting flights)
 
 ::: good
-![Figure: Good Example - create two appointments for connecting flights.](creating-two-appointments-for-connecting-flights.png)
+![Figure: Good Example - create two appointments for connecting flights.](v2-creating-two-appointments-for-connecting-flights.png)
 :::
 
 ::: bad
-![Figure: Bad Example - only one appointment for non-stop flights.](only-one-appointment-for-connecting-flights.png)
+![Figure: Bad Example - only one appointment for connecting flights that has two legs.](only-one-appointment-for-connecting-flights.png)
 :::
 
 Here is a template to follow:
