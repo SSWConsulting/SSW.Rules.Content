@@ -46,7 +46,7 @@ Figure: Good example - Includes the words "initial meeting" and the names of att
 
 The Appointment should also be tracked (without regarding) in Dynamics 365 so that this information is readily available and reportable.
 
-Important: In Dynamics 365 (Outlook add-in), set the “Regarding” field to an opportunity, not an account.
+**Important: In Dynamics 365 (Outlook add-in), set the “Regarding” field to an opportunity, not an account.**
 
 ![Figure: Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding](set-regarding-to-opporunity.png)
 
