@@ -29,6 +29,14 @@ This is how you should create an appointment in the Outlook calendar for flights
 * Always include the price of the ticket in the message
 * Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
 * Always create more than 1 appointment for flights that have more than one leg (connecting flights)
+![image](https://github.com/user-attachments/assets/5b855cd5-66b1-4376-a5c6-a0e96661ac97)
+
+Figure: Good Example (creating two appointments for connecting flights)
+
+![image](https://github.com/user-attachments/assets/0f244b33-1d41-438a-9bd2-f15e3d878fbc)
+
+Figure: Bad Example (only one appointment for conneting flights)
+
 
 Here is a template to follow:
 
