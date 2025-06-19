@@ -5,9 +5,12 @@ guid: f4727885-bcb3-4117-8df6-23c7809d6bce
 uri: rules-to-better-ai-development
 consulting: https://www.ssw.com.au/consulting/artificial-intelligence
 index:
+- ai-assisted-development-workflow
 - create-gpts
 - train-gpt
 - use-system-prompt
+- agentic-ai
+- low-code-and-ai
 - use-semantic-kernel
 - evaluate-slms-vs-azure-cloud-llms
 - choosing-large-language-models

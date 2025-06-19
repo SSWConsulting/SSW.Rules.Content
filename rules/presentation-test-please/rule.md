@@ -12,6 +12,7 @@ authors:
     url: https://ssw.com.au/people/gordon-beeming
 related:
   - conduct-a-test-please
+  - ui-ux-test-please
 redirects:
   - do-you-get-your-＂ppt-tester＂-to-do-a-test-please-(preferably-a-designer)
   - do-you-get-your-ppt-tester-to-do-a-test-please-(preferably-a-designer)

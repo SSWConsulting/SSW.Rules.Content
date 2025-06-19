@@ -11,9 +11,12 @@ index:
   - rules-to-better-mvc
   - rules-to-better-bots
   - rules-to-better-clean-architecture
+  - rules-to-better-vertical-slice-architecture
+  - rules-to-better-modular-monoliths
+  - rules-to-better-microservices
   - rules-to-better-domain-driven-design
   - rules-to-better-version-management
-  - rules-to-better-bug-management-and-feedback
+  - rules-to-better-bug-management-and-product-feedback
   - rules-to-better-user-acceptance-tests-uat-for-bug-management
   - rules-to-better-crm-for-developers
   - rules-to-better-power-platform
@@ -31,7 +34,7 @@ index:
   - rules-to-better-typescript
   - rules-to-better-application-performance
   - rules-to-better-apps-mobile
-  - rules-to-better-xamarin-mobile
+  - rules-to-better-maui
   - rules-to-better-code
   - rules-to-better-code-quality
   - rules-to-better-code-legacy
@@ -56,11 +59,10 @@ index:
   - rules-to-better-naming-conventions
   - rules-to-better-entity-framework
   - rules-to-better-linq
-  - rules-to-better-microservices
-  - rules-to-better-modular-monoliths
   - rules-to-better-testing
   - rules-to-better-sitefinity
   - rules-to-better-wordpress
+  - rules-to-better-tinacms
   - rules-to-better-websites-development
   - rules-to-better-angular
   - rules-to-better-angularjs
@@ -83,6 +85,4 @@ index:
   - rules-to-better-dotnetnuke
   - rules-to-better-exchange-server
   - rules-to-better-windows-forms-applications-clickonce
-  - rules-do-you-use-loggermessage-in-net
-  - do-you-optimize-tinacms-project
 ---

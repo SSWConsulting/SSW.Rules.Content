@@ -20,7 +20,9 @@ authors:
     url: https://ssw.com.au/people/seth-daily
 related:
   - roadmap
-  - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+  - what-happens-at-retro-meetings
+  - what-happens-at-a-sprint-planning-meeting
+  - sprint-forecast
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
@@ -37,7 +39,9 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: info
-It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)
+
+* It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
+* Move all the dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner
 :::
 
 ::: email-template
@@ -70,6 +74,7 @@ Please see below for a more detailed breakdown of the Sprint:
 | Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
 | Product Owner:     | {{ PRODUCT OWNER NAME }}             |
 | Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
+✅ I have added the relevant stakeholders as per [Do you know what happens at a Sprint Review meeting?](/what-happens-at-a-sprint-review-meeting)
 
 ### Sprint Review
 
@@ -101,6 +106,15 @@ Please see below for a more detailed breakdown of the Sprint:
 6. Burnup - How are we tracking for the big picture? *
 
 ![Figure: Release Burnup](release-burnup.jpg)
+
+| Metrics – last 30 days | Count |
+| --- | --- |
+| New PBIs | {{ NEW PBIS }} |
+| AI PBIS | {{ PBIS CREATED WITH AI }} ( {{ PERCENT OF NEW PBIS CREATED WITH AI }} %) |
+| Completed PBIs | {{ PBIS COMPLETED }} |
+| Net Change in PBIs | {{ +/- OVERALL PBI COUNT CHANGE }} |
+
+**Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
 
 7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
 
@@ -145,6 +159,10 @@ Progress:
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
 
+### 🤖 AI use - what tools did you use?
+
+* {{ PERSON }} - {{ TOOLS }}
+
 ### Sprint Retrospective
 
 As part of our commitment to inspect and adapt as a team we conduct a Sprint Retrospective at the end of every Sprint. Here are the results of our Sprint Retrospective:
@@ -163,7 +181,7 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 
 ⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
 
-As per https://www.ssw.com.au/rules/for-the-record/
+As per <https://www.ssw.com.au/rules/for-the-record/>
 
 {{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
@@ -185,5 +203,5 @@ Figure: Good example - Template for Sprint Review/Retro email
 :::
 
 ::: good
-![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
+![Figure: Good example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::

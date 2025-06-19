@@ -8,11 +8,12 @@ index:
   - safety-step-when-deleting-content
   - do-you-avoid-duplicating-content
   - avoid-using-unnecessary-words
+  - avoid-but
   - use-bad-and-good-examples
   - avoid-repetition
   - screenshots-tools
-  - screenshots-do-you-use-balloons-instead-of-a-wall-of-text
-  - add-branding-to-screenshots
+  - screenshots-avoid-walls-of-text
+  - screenshots-add-branding
   - have-a-strong-header-and-footer
   - hide-sensitive-information
   - borders-around-white-images
@@ -56,5 +57,4 @@ index:
   - copy-text-from-image
   - support-send-links
 ---
-
 Improve the clarity, consistency, and effectiveness of your technical documentation with these comprehensive rules. From formatting and SEO to ensuring readability and accuracy, these guidelines will help you create top-quality documentation.

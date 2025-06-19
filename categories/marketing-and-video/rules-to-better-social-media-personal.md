@@ -18,7 +18,7 @@ index:
 - linkedin-connect-your-microsoft-account
 - linkedin-connect-with-people
 - linkedin-maintain-connections
-- linkedin-creator-mode
+- discord-communities
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
 - x-hashtag-vs-mention

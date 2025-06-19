@@ -14,11 +14,12 @@ index:
 - do-you-treat-freebies-as-real-customers
 - do-you-use-a-mobile-app-to-check-your-personal-payroll
 - show-long-service-leave-on-your-payslip
-- salary-sacrifice-electronic-devices
+- salary-sacrificing
 - salary-sacrifice-novated-lease
 - maximize-superannuation-benefits
 - salary-terminology
 - do-you-calculate-payroll-tax-correctly
+- excel-distinguish-calculated-cells
 - show-certification-award
 - report-gas-in-the-tank
 - do-you-check-your-customers-organisation-age-for-prepaid

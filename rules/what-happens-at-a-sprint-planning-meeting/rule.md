@@ -7,7 +7,9 @@ authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
 related:
-  - do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint
+  - sprint-forecast
+  - sprint-review-retro-email
+  - scrum-master-do-you-schedule-the-3-meetings
   - do-you-conduct-an-architecture-review-after-every-sprint
   - technical-debt
   - just-enough-refactoring

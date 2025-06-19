@@ -26,6 +26,7 @@ index:
 - do-you-use-access-packages
 - do-you-know-how-to-be-frugal-with-azure-storage-transactions
 - do-you-know-how-to-backup-data-on-sql-azure
+- azure-database-models-choosing
 - do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
 - give-users-least-privileges
 - do-you-know-how-to-find-the-closest-azure-data-centre-for-your-next-project

@@ -12,7 +12,8 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
-related: []
+related:
+  - do-you-know-how-to-use-tags-for-github-issues
 redirects: []
 created: 2023-10-22T02:15:11.000Z
 archivedreason: null
@@ -27,4 +28,6 @@ Create a PBI or send a task for every item that the Brainstorming team decides i
 
 Send a summary of what was implemented to the company with links to the PBIs.
 
-**Tip:** Tag all issues with a 'brainstorming' label to make it easy to track them across projects.
+::: info
+**Tip:** [Tag all issues with a 'brainstorming' label](/do-you-know-how-to-use-tags-for-github-issues) to make it easy to track them across projects.
+:::

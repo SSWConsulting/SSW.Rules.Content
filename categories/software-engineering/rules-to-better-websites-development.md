@@ -53,13 +53,14 @@ index:
   - use-server-side-comments
   - best-static-site-tech-stack
   - use-nextjs
+  - use-nextjs-caching-system
   - cms-solutions
   - git-based-cms-solutions
   - best-online-documentation-site
   - use-web-compiler
   - packages-up-to-date
   - npm-packages-version-symbols
-  - monitor-packages-for-vulnerability
+  - monitor-packages-for-vulnerabilities
   - do-you-perform-migration-procedures-with-an-approved-plan
   - manage-bundle-size
   - best-commenting-engine

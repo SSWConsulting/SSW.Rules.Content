@@ -19,8 +19,9 @@ index:
   - create-pbis-under-2-days
   - definition-of-done
   - have-a-definition-of-ready
+  - react-to-reviewed-pbis
   - break-tasks
-  - estimating-do-you-know-how-to-size-user-stories-effectively
+  - size-pbis-effectively
   - do-you-estimate-business-value
   - technical-overview
   - send-sprint-forecast-and-sprint-review-retro-emails-to-the-client

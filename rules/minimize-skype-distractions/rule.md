@@ -1,7 +1,7 @@
 ---
 seoDescription: Minimize distractions and stay focused with these simple Skype settings - set your status to Busy, disable online/offline alerts, and customize IM sounds.
 type: rule
-archivedreason:
+archivedreason: As of May 5th, 2025, Skype is retired.
 title: Interruptions - Do you minimize Skype distractions?
 guid: 7641dde4-8755-4640-a080-e59ec7aeb059
 uri: minimize-skype-distractions
@@ -22,6 +22,6 @@ redirects:
 
 1. Set your status to Busy - people will think twice before messaging you
 2. Don't display an alert when a contact comes online or goes offline
-3. Don't play a sound when you receive an email. Remember - you do need a sound when you receive an IM in case you're not looking at your PC when it arrives.
+3. Don't play a sound when you receive an email. Remember - you do need a sound when you receive an IM in case you're not looking at your PC when it arrives
 
 ![Figure: Minimize Skype alerts you receive](minimize-skype-distractions.jpg)

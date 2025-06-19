@@ -13,15 +13,17 @@ index:
 - separate-messages
 - avoid-sending-unnecessary-messages
 - use-quiet-hours-in-teams
-- make-the-communication-more-efficient-by-referring-back-to-a-subject-of-an-email
+- refer-to-email-subject
 - start-your-answer-with-yes-or-no-then-say-your-opinion
 - answer-im-questions-in-order
+- meaningful-chat-reactions
 - update-or-delete-mistakes
 - avoid-sarcasm-misunderstanding
 - inform-others-about-chat-message-updates
 - when-to-email-chat-call-or-meet
 - important-chats-should-be-in-an-email
 - when-to-create-a-group-chat
+- teams-meetings-vs-group-chats
 - replying-in-the-same-medium
 - close-off-thread
 - better-late-than-never
@@ -35,7 +37,6 @@ index:
 - do-you-minimize-team-distractions
 - minimize-unrelated-interruptions
 - minimize-skype-distractions
-
 ---
 
 Whether you are chatting to a client on Teams or a friend on WeChat... These are the most common things that can improve your communication.

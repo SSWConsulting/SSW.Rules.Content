@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand what happens in a Sprint Review meeting, including how PBIs are presented, accepted, or rejected, and how to keep stakeholders informed and engaged.
 type: rule
 title: Do you know what happens at a Sprint Review meeting?
 uri: what-happens-at-a-sprint-review-meeting
@@ -7,6 +8,7 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 related:
   - sprint-review-retro-email
+  - scrum-master-do-you-schedule-the-3-meetings
   - do-you-make-your-team-meetings-easy-to-find
   - tick-and-flick
   - explaining-pbis
@@ -14,7 +16,6 @@ related:
 redirects:
   - do-you-know-what-happens-at-a-sprint-review-meeting
 created: 2010-05-06T02:07:33.000Z
-archivedreason: null
 guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
 This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint.
@@ -31,8 +32,6 @@ Each done PBI is then presented by the Team for acceptance. They aim to get the 
 
 **Video: Explaining a PBI to a Product Owner with Jake Bayliss (5 min)**
 
-**Note:** If there are additional stakeholders, make sure they are also in the loop and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
-
 If a PBI is accepted, but more work needs to be done, a new PBI to cover this work is added to the Product Backlog. Similarly, if a bug is found during the review, it is added to the Product Backlog.
 
 If a PBI is rejected and returned to the Product Backlog but the Sprint itself is accepted, then a careful decision needs to be made. If changes have been checked-in to the Sprint's branch then it must be established that these changes have no adverse effect or they must be carefully undone before the branch is merged with the trunk. For this reason, it is always safer to accept PBIs with conditions rather than reject them.
@@ -41,19 +40,30 @@ The Scrum Master keeps the meeting on track and to the Timebox by disallowing di
 
 This meeting is normally timeboxed to as many hours as there are weeks in the Sprint.
 
-It's important that stakeholders stay in the loop of the projects progress, but they are often too busy to join the Sprint Reviews. Before the summary, you should try [loop them in](/loop-someone-in) and if they cannot join, record the summary and send a link.
+### Additional stakeholders
+
+If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
+
+* Ping them in a Teams chat when the meeeting starts
+* [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
-In Scrum, there are 4 meetings in total that you need to know about:
+"Here is a screenshot of the meeting in progress (so you can see who is in the meeting currently) 📅
 
-* [Sprint Planning](/what-happens-at-a-sprint-planning-meeting)
-* [Daily Scrum (aka Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-* [Sprint Review](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective](/what-happens-at-retro-meetings)
+For the summary I will be attempting to add:
 
+* {{ LIST OF ITEMS }}"
 :::
 
-#### What if you can't attend the Sprint Review
+::: good
+Good example - Pinging the stakeholders in a Teams chat at the beginning of the Sprint Review
+:::
+
+::: good
+![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
+:::
+
+### What if you can't attend the Sprint Review
 
 ![Figure: Playing golf](Golf-holiday.png)
 
@@ -61,7 +71,6 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 * Send a brief "Sprint Review" email to the team to provide them with an update on the status of your tasks. This will enable the team to pass on the information to the client.
 
-::: greybox
 ::: email-template
 
 |          |     |
@@ -80,8 +89,6 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
   ...
 
 :::
-:::
-
 :::
 
 ---

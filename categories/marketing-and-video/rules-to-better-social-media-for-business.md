@@ -4,7 +4,7 @@ title: Rules to Better Social Media for Business
 guid: cfafc0a2-0bcd-4df6-83ca-c6fde43e7f55
 uri: rules-to-better-social-media-for-business
 redirects:
-- rules-to-better-social-media
+  - rules-to-better-social-media
 index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
@@ -34,13 +34,14 @@ index:
 - managing-linkedin-for-international-companies
 - monitor-external-reviews
 - do-you-create-a-call-to-action-on-your-facebook-page
-- twitter-how-to-verify-your-account
+- x-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
 - thank-others-for-each-reference-to-you
-- do-you-know-when-to-use-a-hashtag-vs-a-mention
-- twitter-for-professionals
-- twitter-tip-content-creators
+- x-hashtag-vs-mention
+- x-business
+- x-tip-creators
+- instagram-stories
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments

@@ -11,14 +11,15 @@ authors:
     url: https://ssw.com.au/people/seth-daily
 related:
   - making-a-great-done-video
+  - summary-recording-sprint-reviews
 redirects: []
 ---
 
-Keping stakeholders up to date is crucial for the success of any project. Developer teams use [Scrum meetings](/scrum-master-do-you-schedule-the-3-meetings) which work very well. For internal admin teams - Scrum might not work as well (e.g. Sales, Accounting). Often admin teams get sidetracked, and so Scrum isn't a perfect tracker of tasks or performance.
+Keeping stakeholders up to date is crucial for the success of any project. Developer teams use [Scrum meetings](/scrum-master-do-you-schedule-the-3-meetings) which work very well. For internal admin teams - Scrum might not work as well (e.g. Sales, Accounting). Often admin teams get sidetracked or have tasks that are not definitively measurable, therefore Scrum isn't a perfect tracker of tasks or performance.
 
 <!--endintro-->
 
-So, to keep stakeholders well informed, these teams should record a monthly stakeholder video. This ensures that stakeholders are aware of the project’s progress, any challenges faced, and the plans for the upcoming month. It also provides a personal touch - stakeholders get to hear from the team directly.
+To keep stakeholders well informed, these teams should record a monthly stakeholder video. This ensures that stakeholders are aware of the project’s progress, any challenges faced, and the plans for the upcoming month. It also provides a personal touch - stakeholders get to hear from the team directly.
 
 ## ✅ Benefits
 
@@ -91,7 +92,7 @@ Here’s the link {{ YOUTUBE LINK }}
 :::
 :::
 ::: good
-Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visability from your team.
+Figure: Good example - Watching the video with the Product Owner, then sending it in an email with a task so you can confirm visibility from your team.
 :::
 
 ::: good

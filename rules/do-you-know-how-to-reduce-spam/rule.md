@@ -1,7 +1,8 @@
 ---
-seoDescription: Reduce spam and protect your organization's resources by using anti-spam protection and Microsoft Defender.
 type: rule
 title: Do you know how to reduce spam?
+seoDescription: Reduce spam and protect your organization's resources by using
+  anti-spam protection and Microsoft Defender.
 uri: do-you-know-how-to-reduce-spam
 authors:
   - title: Adam Cogan
@@ -25,7 +26,7 @@ E.g. Average volume of spam received daily:
 
 | Total Email Received | Spam  | Phishing | Malware | Legitimate | Spam % |
 | -------------------- | ----- | -------- | ------- | ---------- | ------ |
-| 14539                | 12579 | 40       | 14      | 1906       | 86     |
+| 50, 830                | 3257 | 1263       | 10      | 46, 300       | 11     |
 
 <!--endintro-->
 

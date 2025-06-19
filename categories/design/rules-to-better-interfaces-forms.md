@@ -6,9 +6,8 @@ uri: rules-to-better-interfaces-forms
 redirects:
 - rules-to-better-interfaces-(forms)
 index:
-- avoid-labels
-- avoid-ending-labels-text-with-a-colon
 - how-to-align-your-form-labels
+- avoid-clutter-in-form-labels
 - do-you-align-your-add-edit-delete-buttons-horizontal-and-bottom-right
 - do-you-avoid-data-junk-data-not-manually-entered-by-yourself
 - do-you-avoid-combining-different-entities
@@ -25,13 +24,14 @@ index:
 - do-you-have-consistent-way-to-store-a-same-field
 - label-buttons-consistently
 - data-entry-forms-for-web
+- weekdays-on-date-selectors
 - do-you-make-text-boxes-show-the-whole-query
 - do-you-provide-hints-for-filling-non-common-fields
 - do-you-provide-red-errors-next-to-the-field
+- trim-input-whitespace
 - do-you-provide-the-user-drill-downs-and-drill-arounds
 - do-you-save-the-last-users-selections
 - do-you-use-the-concept-of-drafts
-- do-your-windows-forms-have-border-protection
 
 ---
 

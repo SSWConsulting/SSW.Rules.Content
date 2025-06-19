@@ -103,6 +103,10 @@ Check out these employment opportunities at SSW:  \
 Figure: Good example - The URL being on a fresh line makes it much easier to read
 :::
 
+::: info
+**Tips:** URLs can get cluttered quickly - [keeping them short and clean](/create-friendly-short-urls) makes them easier to read, share, and manage. Whenever possible, it's even better to [use descriptive links](/descriptive-links) instead of full URLs.
+:::
+
 ## Headings
 
 It's a good idea to have some space after headings.

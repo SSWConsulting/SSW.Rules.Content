@@ -84,3 +84,13 @@ Figure: Good example - A good email has a clear task to be done (decision was ma
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+
+::: greybox
+
+### Use YakShaver and make it even easier
+
+You can save time by not writing emails manually.
+
+With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete email (or PBIs/GitHub Issues for projects with a backlog) assigning tasks and notifying the right people through CC or @mentions.
+
+:::

@@ -1,7 +1,8 @@
 ---
-seoDescription: Master ChatGPT with our cheat sheet, exploring roles, dos, don’ts, and effective prompting techniques for better AI interactions.
 type: rule
 title: Do you have a ChatGPT cheat sheet?
+seoDescription: Master ChatGPT with our cheat sheet, exploring roles, dos,
+  don’ts, and effective prompting techniques for better AI interactions.
 uri: chatgpt-cheat-sheet
 authors:
   - title: Adam Cogan
@@ -122,8 +123,8 @@ For more on this prompt structure, see: [Do you know the fundamentals of Prompt 
 
 ![Figure: Results from the 5 in 1 example prompt](5in1-prompt.png)
 
-## Chain your prompts
+## Prompt Chaining
 
-Chain prompting is the technique of guiding GTP's responses by asking a series of related questions or prompts, building upon the previous answers to obtain more coherent and relevant information.
+Prompt chaining is the technique of guiding GTP's responses by asking a series of related questions or prompts, building upon the previous answers to obtain more coherent and relevant information.
 
-For an example on this, see: [Do you use chained prompting?](/chained-prompting)
+For an example on this, see: [Do you use prompt chaining?](/chained-prompting)

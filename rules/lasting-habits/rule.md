@@ -10,7 +10,10 @@ authors:
     url: https://www.ssw.com.au/people/brady-stroud
 created: 2024-08-15T03:50:10.000Z
 redirect: []
-related: []
+related:
+  - do-you-know-the-dangers-of-sitting
+  - stretch-at-work
+  - encourage-daily-exercise
 guid: 5c342a13-af15-44e0-8764-483e020f2272
 ---
 

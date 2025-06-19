@@ -9,7 +9,8 @@ created: 2018-08-16T23:22:33.0000000Z
 authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
-related: []
+related:
+  - measure-website-changes-impact
 redirects:
   - seo-do-you-use-hotjar-to-heatmap-your-site
 ---
@@ -24,11 +25,11 @@ This information allows you to determine areas of our site are performing effici
 
 ![Figure: Heatmap from the SSW Consulting page](ssw-heatmap.png)
 
-### Tools
+## Tools
 
 Most heatmapping tools are very similar for the main features. It mostly comes down to how much you want to pay and which user interface you prefer.
 
-#### [Hotjar - $$$ Paid](https://www.hotjar.com/)
+### [Hotjar](https://www.hotjar.com/) - $$$ Paid
 
 Hotjar is one of the most popular tools for heatmapping. It offers a comprehensive suite of features, including:
 
@@ -38,7 +39,7 @@ Hotjar is one of the most popular tools for heatmapping. It offers a comprehensi
 
 Hotjar is ideal for small to medium-sized businesses due to its user-friendly interface and ability to combine heatmaps with user feedback for actionable insights.
 
-#### [Microsoft Clarity (Recommended) - Free](https://clarity.microsoft.com/)
+### [Microsoft Clarity](https://clarity.microsoft.com) (Recommended) - Free
 
 Microsoft Clarity is another excellent option for heatmapping, especially for developers and teams working on larger-scale projects. It offers:
 

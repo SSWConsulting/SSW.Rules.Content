@@ -19,6 +19,7 @@ related:
   - turn-emails-into-pbis
   - have-a-definition-of-ready
   - acceptance-criteria
+  - react-to-reviewed-pbis
   - write-a-good-pull-request
   - record-a-quick-and-dirty-done-video
   - definition-of-done
@@ -36,13 +37,26 @@ A PBI (Product Backlog Item) is a term commonly used in Agile project management
 
 Before a PBI is worked on it should be added to the current Sprint Backlog during [Sprint Planning](/what-happens-at-a-sprint-planning-meeting). If your PBI doesn't exist, or is in an email then you need to [turn it into a PBI](/turn-emails-into-pbis) to be prioritized in Sprint Planning.
 
-Once a PBI is in the Sprint Backlog, it's lifecycle can be broken down into 3 steps:
-
 <!--endintro-->
+
+::: info
+**Tip:** After reviewing a PBI, don’t forget to [react with 👍 or 👎 to show it’s been validated](/react-to-reviewed-pbis).
+:::
+
+::: greybox
+
+### Use YakShaver and make it even easier
+
+You can save time by not writing PBIs manually.
+
+With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete PBI, GitHub Issue, or even an email (for projects without a backlog), mentioning the right people and assigning it to the correct team.
+:::
+
+Once a PBI is in the Sprint Backlog, it's lifecycle can be broken down into 3 steps:
 
 ## 1. Ready
 
-You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already prioritized and approved by the [Product Owner](/rules-to-better-product-owners)
+You have a Sprint Backlog of PBIs (tasks, features, and fixes) which are already prioritized and approved by the [Product Owner](/rules-to-better-product-owners).
 
 1. Choose a PBI and assign yourself to it
 2. Double check the [Definition of Ready](/have-a-definition-of-ready)

@@ -1,13 +1,15 @@
 ---
 type: rule
 title: Do you know how to report bugs and give suggestions?
-seoDescription: Learn how to report software bugs and suggestions effectively with 8 essential tips from SSW. Discover how to draft detailed bug reports, structure suggestions, determine who to contact, and use proper formatting with emojis to ensure your feedback leads to quick resolutions.
+seoDescription: The best way to report bugs is with YakShaver. If not available, follow these 8 expert tips from SSW to write clear, effective feedback that gets results.
 uri: report-bugs-and-suggestions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Cameron Shaw
     url: https://ssw.com.au/people/cameron-shaw
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/uly
 related:
   - fix-bugs-via-phone
   - fix-bugs-first
@@ -21,15 +23,27 @@ created: 2009-03-25T04:53:21.000Z
 archivedreason: null
 guid: 22b7ce50-2586-4fa0-999f-a76a3d60a44a
 ---
-If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
-It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
-
-When reporting bugs and giving product feedback, it is essential that you are as descriptive as possible. This will save both you and the developer time and frustration in the long run.
+When reporting bugs or providing product feedback, it’s important to include as much relevant detail as possible. Make sure it reaches the right people through the right channel - ideally the product backlog, or email if needed. A well-written report saves time and avoids frustration for both you and the developers.
 
 <!--endintro-->
 
-Here are the 8 tips:
+## ✅ Use YakShaver
+
+The best way to report bugs or share feedback is by using [YakShaver](https://yakshaver.ai/).
+
+YakShaver is a smart tool that simplifies how you report issues and give feedback. Instead of spending time writing a detailed report or figuring out who to send it to, you just record a quick video and YakShaver handles the rest.
+
+Using AI, YakShaver analyzes what you've said and automatically routes the issue to the right person. This means you don’t have to worry about choosing the right backlog, tagging the right team member, or following up to make sure it landed in the right place. It speeds up communication, reduces misunderstandings, and allows everyone to focus on solving the real issue instead of getting bogged down by process.
+
+`youtube: https://www.youtube.com/shorts/0TPo98R1tnI`
+**Video: What is YakShaver? | Ulysses Maclaren (1 min)**
+
+---
+
+## ❌ Do it manually
+
+If you can’t use YakShaver for some reason, follow these 8 tips to do it right manually:
 
 * [Tip #1: Draft your bug with enough details](#tip-1-draft-your-bug-with-enough-details)
 * [Tip #2: Draft your suggestion with the complaint and what you expect to see](#tip-2-draft-your-suggestion-with-the-complaint-and-what-you-expect-to-see)
@@ -42,7 +56,7 @@ Here are the 8 tips:
 
 ![Figure: Making the Product Backlog the main source of tasks](report-bugs-and-suggestions.png)
 
-## Tip #1: Draft your bug with enough details
+### Tip #1: Draft your bug with enough details
 
 Make sure you always explain and give as many details as you can of how you got an error or a bad experience. Detailed and useful descriptions can make finding the solution quicker and easier.
 
@@ -119,7 +133,7 @@ Thanks
 Figure: Good example - This email includes the product name and version, the category of the issue (BUG), a screen capture, and informs the user's system
 :::
 
-### Functional Bug template
+#### Functional Bug template
 
 When possible, a great template to follow is the [Functional Bug template](https://github.com/aspnet/Home/wiki/Functional-bug-template) from the ASP.NET open-source project. Spending time to provide as much detail as possible, by ensuring you have the 3 critical components:
 
@@ -172,11 +186,11 @@ I've searched the SSW website and can't find a link to SSW TV.
 11. Me, thinking... "Is there a site map?" Scrolls to bottom of page. Clicks sitemap link. Nope.
 12. Me, thinking... "Ctrl+F for TV? Nope."
 
-### Expected result
+#### Expected result
 
 When I navigate to ssw.com.au, I should see at the top of the page clear link to click on "CHECK OUT SSW TV!"
 
-### Actual result
+#### Actual result
 
 Couldn't find a link on the page.
 
@@ -190,7 +204,7 @@ Adam
 Figure: Good example - We can easily identify more the one way to improve the UX and there's a clear suggestion to action
 :::
 
-### Make it extra clear with videos
+#### Make it extra clear with videos
 
 Better than a good textual description of a bug report is a screen recording. This should be followed for a more detailed report. Use [Snagit](http://www.techsmith.com/snagit.html) or [Camtasia](/production-do-you-know-how-to-start-recording-with-camtasia) to record your screen.
 
@@ -208,7 +222,7 @@ See our rules for setting up and using these tools at [Do you use Problem Steps 
 ![Figure: Good example - Using a tool to record steps replicating an issue is a great and simple way to report a problem that's easy for a developer to understand and reproduce](psr3.png)
 :::
 
-## Tip #2: Draft your suggestion with the complaint and what you expect to see
+### Tip #2: Draft your suggestion with the complaint and what you expect to see
 
 Define all the requirements as per [Do your User Stories include Acceptance Criteria?](/acceptance-criteria)
 
@@ -220,9 +234,11 @@ Better than a good textual description of a suggestion request is a screen recor
 Video: Good example - Giving suggestion requests via video (5 min)
 :::
 
-## Tip #3: Should you send this to the Product Owner or the Tech Lead?
+### Tip #3: Should you send this to the Product Owner or the Tech Lead?
 
 It depends on the team, but often the Product Owner is busy. If you know the Tech Lead and your suggestion is obviously a good one, then you should email the Tech Leader and Cc the Product Owner. The Product Owner can always reply if they don’t like the suggestion.
+
+If you are unclear use IM to ask, but remember [the golden rule to not send tasks on Teams](/important-chats-should-be-in-an-email).
 
 ::: greybox
 **For a bug email:**\
@@ -236,35 +252,45 @@ It depends on the team, but often the Product Owner is busy. If you know the Tec
 &emsp;&emsp;**Subject:** Suggestion - {{ SUMMARY OF SUGGESTION }}
 :::
 
-## Tip #4: Should you email or put it in the backlog?
+### Tip #4: Should you email or put it in the backlog?
 
-Always go for backlog if you have access to a backlog management system otherwise email relevant people. You may have a group email such as `all@northwind.com.au`, You would only Cc this email when a greater visibility is required.
+Always go for backlog if you have access to a backlog management system, otherwise email relevant people.
 
-## Tip #5: Do you make it easy to find all the backlog in your company?
+::: info
+You would only Cc group emails - such as `all@northwind.com.au` - when a **greater visibility** is required.
+:::
+
+### Tip #5: Make it easy to find backlogs within your company
+
+It is recommended to keep track of active project backlogs on the company intranet, while also including the Product Owner and Tech Lead contact information, coupled with a link to the Teams channel of that project.
 
 ![Figure: An intranet page with links to projects’ backlog to make it easy for everyone to find. Note some projects have more than 1 backlog.](do-you-know-how-to-report-bugs-and-give-suggestions.png)
 
-## Tip #6: Make sure when using backlog, the Product Owner will still get an email
+### Tip #6: Make sure when using backlog, the Product Owner will still get an email
 
 Create an Issue/PBI and @mention relevant people (GitHub and Azure DevOps will generate a nicely formatted email)
 
 See rules on [Do you know when you use @ mentions in a PBI?](/when-you-use-mentions-in-a-pbi)
 
-## Tip #7: Separate PBIs
+### Tip #7: Separate PBIs
 
 If they are all related to one area, then you could consider putting them together. Otherwise don’t bunch them up.
 
 See rules on [Do you send tasks one email at a time?](/do-you-send-tasks-one-email-at-a-time)
 
-## Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
+### Tip #8: Use emojis and prefixes for PBI/Issues titles, or email subjects
 
 When you create a bug/suggestion to a backlog, it's a good idea to add emoji in the title. Not only does it look nicer, but people can look at the item and take in the necessary information quickly.
 
-This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc). Examples:
+This means that anyone looking at the backlog can glean its nature at a glance, rather than having to read each item to know what category it is (5 bugs, 2 features, etc).
+
+Examples:
 
 * **🐛 Bug - Calendar is not showing on iOS devices**
 * **✨ Feature - Add 'Back to menu' item to top navigation**
 
-Check out the rule on [Do you know which emojis to use in Scrum?](/which-emojis-to-use-in-scrum)
+Check out the rule on [which emojis to use in Scrum](/which-emojis-to-use-in-scrum).
 
-**Tip:** [GitHub Issue Templates](/github-issue-templates) can help you with that.
+::: info
+**Note:** [GitHub Issue Templates](/github-issue-templates) can help you with this.
+:::

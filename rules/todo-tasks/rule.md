@@ -14,6 +14,7 @@ authors:
     url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - do-you-make-todo-items-in-red
+  - technical-debt
 created: 2021-08-09T23:00:41.371Z
 guid: 1f5d6f06-e69f-4306-9601-df6640bd5caa
 ---
@@ -44,6 +45,7 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
+
 ::: bad
 Bad example - There is problematic code here, and while the comment is useful as it immediately alerts developers to the problem, but it is not tracked anywhere
 :::
@@ -59,7 +61,8 @@ public class UserService(ApplicationDbContext context) : IUserService
           .AsNoTracking()
           .FirstOrDefaultAsync(u => u.Email == emailAddress, cancellationToken);
 
-        // TODO: handle null user if not found. See: https://github.com/SSWConsulting/SSWSockDarner/issues/324
+        // TODO: handle null user if not found. 
+        // https://github.com/Northwind/Northwind.UserManagement/issues/324
         return new UserDto
         {
             Id          = dbUser.Id,
@@ -70,6 +73,7 @@ public class UserService(ApplicationDbContext context) : IUserService
     }
 }
 ```
+
 ::: good
 Good example - The `TODO` is tracked on the backlog, so the developers and the Product Owner have visibility of the problem and can plan and prioritise accordingly
 :::

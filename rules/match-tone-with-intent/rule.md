@@ -8,6 +8,9 @@ authors:
     url: https://www.ssw.com.au/people/adam-cogan
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+related:
+  - positive-tone
+  - avoid-but
 created: 2024-09-11T05:56:17.498Z
 guid: 774b7ef3-8e7e-49bc-927f-379503a8ce91
 ---
@@ -24,7 +27,7 @@ This is extra important for consultants - we need to make sure our clients trust
 `youtube: https://youtu.be/aFw5cdgrsyQ`
 **Video: Do you match tone with intent | Brady Stroud & Adam Cogan | SSW Rules (3 min)**
 
-## Tips - Match tone with intent
+## Match tone with intent
 
 * **Show confidence** - Avoid a raised inflection at the end of your statements. This habit can make your statements sound like questions, reducing your perceived confidence and authority.  
 Instead, aim to finish your sentences with a neutral or downward inflection to project confidence.
@@ -32,7 +35,7 @@ Instead, aim to finish your sentences with a neutral or downward inflection to p
 * **Avoid sounding defensive** - It can come across as agressive
 * **Pause effectively** - Use pauses to emphasise key points and show you are thinking about something
 
-## Tips - Improve your vocal tone
+## Improve your vocal tone
 
 ### By yourself
 

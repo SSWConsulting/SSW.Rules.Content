@@ -12,10 +12,8 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-  - commas-and-full-stops-always-should-have-1-space-after-them
+  - distinguish-keywords-from-content
   - do-you-know-how-to-make-quotations-easier-to-identify
-  - tiny-do-you-use-cannot-and-website-instead-of-separated-words
-  - tiny-do-you-avoid-full-stops-at-the-end-of-bullet-point-lists
 redirects:
   - reference-do-you-use-quotation-mark-for-controls
   - use-quotation-mark-for-controls
@@ -29,7 +27,7 @@ When writing technical instructions, it's important to distinguish UI controls, 
 Click Save to store your changes.
 :::
 ::: bad
-Figure: Bad Example - It's not clear that Save is a control  
+Figure: Bad Example - It's not clear that "Save" is a control  
 :::
 
 ## Option 1: Bold
@@ -45,15 +43,15 @@ Click **Save** to store your changes.
 Figure: Good example - Using bold for buttons and menu options
 :::
 
-## Option 2: Quotation marks
+## Option 2: Quotation marks (quotes)
 
-Useful for texts users must enter.
+Best for exact texts users must enter/type; but can also used for UI elements like buttons, labels, or menu options.
 
 ::: greybox
 Type "Admin" in the **Username** field.
 :::
 ::: good
-Figure: Good example - Using quotation marks for exact text users may type
+Figure: Good example - Using quotes for exact text users should type
 :::
 
 ## Option 3: Code formatting
