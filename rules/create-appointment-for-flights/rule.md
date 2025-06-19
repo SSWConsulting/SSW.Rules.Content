@@ -37,7 +37,6 @@ Figure: Good Example (creating two appointments for connecting flights)
 
 Figure: Bad Example (only one appointment for conneting flights)
 
-
 Here is a template to follow:
 
 ::: email-template  
