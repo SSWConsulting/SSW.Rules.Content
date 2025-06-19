@@ -77,7 +77,7 @@ If the answer is “yes” or you’re not sure; it involves design. So ask for 
 Even small tweaks need visibility:
 
 * Create a PBI for every UI change
-* Tag it `needs-design` or `minor-UI` depending on the impact
+* Tag it "needs-design" or "minor-UI" depending on the impact
 * Let the PO and designer review and prioritize
 
 ### 3. Use the design system
