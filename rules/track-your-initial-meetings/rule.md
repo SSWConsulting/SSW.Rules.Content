@@ -48,7 +48,7 @@ The Appointment should also be tracked (without regarding) in Dynamics 365 so th
 
 **Important: In Dynamics 365 (Outlook add-in), set the “Regarding” field to an opportunity, not an account.**
 
-![Figure: Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding](set-regarding-to-opporunity.png)
+![Figure: Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding](set-regarding-to-opportunity.png)
 
 The idea behind it is that Power BI can then show the time elapsed between each sales milestone.
 
