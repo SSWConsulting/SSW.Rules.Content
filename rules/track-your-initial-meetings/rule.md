@@ -52,6 +52,6 @@ The Appointment should also be tracked (without regarding) in Dynamics 365 so th
 
 The idea behind it is that Power BI can then show the time elapsed between each sales milestone.
 
-![Figure: Time to win report](time-to-win-gragh.png)
+![Figure: Time to win report](time-to-win-graph.png)
 
 ![Figure: Initial meetings report](initial-meeting-gragh.png)
