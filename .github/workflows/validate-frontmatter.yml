@@ -34,7 +34,7 @@ jobs:
         id: get_changed
         if: ${{ github.event_name == 'pull_request' }}
         run: |
-          echo "changed=$(git diff --name-only $(git merge-base origin/main HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
+          echo "changed=$(git diff --name-only $(git merge-base origin/tina/migration-dev-content HEAD) HEAD)" | paste -sd "," - >> $GITHUB_ENV
           echo "pr_owner=${{ github.event.pull_request.user.login }}" >> $GITHUB_ENV
 
       # Step 4: Check MDX files for valid frontmatter
