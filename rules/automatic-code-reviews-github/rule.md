@@ -44,6 +44,11 @@ There's a few agents developers can choose for their PR reviewing needs.
 
 GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request. Copilot will also suppress any reviews it generated with low confidence intervals, filtering out any code suggestions that are likely incorrect.
 
+
+
+
+
+
 ::: img-medium
 
 ![Figure: GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits](tina-starter-reveiew-code-review.png)
@@ -54,6 +59,13 @@ GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, 
 
 ![Figure: GitHub Copilot suggestions being suppressed due to potential inaccuracy](github-copilot-review-low-confidence.png)
 
+:::
+
+
+In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description. 
+ 
+::: img-medium
+![Figure: PR description suggested by GitHub copilot](github-suggested-pr-description.png)
 :::
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a `.github/copilot-instructions.md` file.
