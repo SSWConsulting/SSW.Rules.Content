@@ -28,9 +28,9 @@ const files = await fg('**/*.mdx', { cwd: ROOT_DIR, absolute: true });
 
 const currentObjects = files.map(fp => {
   const { data: frontmatter, content } = matter(fs.readFileSync(fp, 'utf-8'));
-  const rawSlug = path.relative(ROOT_DIR, fp).replace(/\\/g, '/').replace(/\.mdx$/, '');
+  const rawSlug = path.relative(ROOT_DIR, path.dirname(fp)).replace(/\\/g, '/');
   const slug = rawSlug.replace(/-+/g, '-');
-  
+
   return {
     objectID: slug,
     slug,
@@ -38,7 +38,6 @@ const currentObjects = files.map(fp => {
     content
   };
 });
-
 const currentObjectIDs = new Set(currentObjects.map(obj => obj.objectID));
 
 // Get existing objects from Algolia
