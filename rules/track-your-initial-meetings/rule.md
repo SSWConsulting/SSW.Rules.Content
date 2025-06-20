@@ -54,4 +54,4 @@ The idea behind it is that Power BI can then show the time elapsed between each 
 
 ![Figure: Time to win report](time-to-win-graph.png)
 
-![Figure: Initial meetings report](initial-meeting-gragh.png)
+![Figure: Initial meetings report](initial-meeting-graph.png)
