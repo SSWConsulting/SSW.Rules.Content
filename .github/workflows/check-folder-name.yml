@@ -3,7 +3,7 @@ name: Check-Folder-Name
 on:
   pull_request:
     paths:
-      - '**/rule.md'
+      - '**/rule.mdx'
     types: [opened, synchronize]
 
 jobs:
@@ -45,7 +45,11 @@ jobs:
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
         git add .
-        git commit -m "Rename folder to match URI"
-        git push || true
-        echo "Auto-fix applied"
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Rename folder to match URI"
+          git push || true
+          echo "Auto-fix applied"
+        fi
 
