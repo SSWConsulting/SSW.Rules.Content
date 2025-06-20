@@ -21,10 +21,10 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
 
-      - name: Find all Markdown files in rules
+      - name: Find all Mdx files in rules
         run: |
-          find rules -type f -name '*.md' > all_rules_files.txt
-          echo "Found Markdown files:"
+          find rules -type f -name '*.mdx' > all_rules_files.txt
+          echo "Found MDX files:"
           cat all_rules_files.txt
 
       - name: Install dependencies

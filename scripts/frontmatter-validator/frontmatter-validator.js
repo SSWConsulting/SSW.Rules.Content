@@ -39,11 +39,11 @@ function loadSchema(schemaPath) {
 }
 
 function determineCategory(filePath) {
-  const isRule = filePath.endsWith('rule.md');
+  const isRule = filePath.endsWith('rule.mdx');
   const isInCategories =
     filePath.includes('/categories') &&
-    !filePath.endsWith('/categories/index.md');
-  const isIndexFile = filePath.endsWith('index.md');
+    !filePath.endsWith('/categories/index.mdx');
+  const isIndexFile = filePath.endsWith('index.mdx');
   if (isRule) {
     return 'rule';
   }
@@ -71,7 +71,7 @@ function getMissingSpaceErrors(frontmatterContents, schema) {
 }
 
 function validateFrontmatter(filePath) {
-  if (filePath && filePath.endsWith('/categories/index.md')) return;
+  if (filePath && filePath.endsWith('/categories/index.mdx')) return;
   if (!fs.existsSync(filePath) || filePath.indexOf('.github') !== -1) {
     return; // Skip if file does not exist or is in .github directory
   }
@@ -136,7 +136,7 @@ function validateFiles(fileListPath) {
   const filePaths = fileContents.trim().split('\n');
 
   filePaths.forEach((file) => {
-    if (file.endsWith('.md')) {
+    if (file.endsWith('.mdx')) {
       validateFrontmatter(file);
     }
   });
@@ -154,7 +154,7 @@ function main() {
     if (filesChanged) {
       const filePaths = filesChanged
         .split(',')
-        .filter((file) => file.endsWith('.md'))
+        .filter((file) => file.endsWith('.mdx'))
         .map((file) => `../../${file}`);
       filePaths.forEach(validateFrontmatter);
     }
