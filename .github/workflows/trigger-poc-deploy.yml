@@ -30,19 +30,28 @@ jobs:
         working-directory: scripts/tina-migration
         run: python build-rule-category-map.py
 
-      - name: Upload artifact
+      - name: Upload rule-to-categories json file artifact
         uses: actions/upload-artifact@v4
         with:
-          name: rule-category-mapping
-          path: scripts/tina-migration/rule-category-mapping.json
+          name: rule-to-categories
+          path: scripts/tina-migration/rule-to-categories.json
           root-directory: scripts/tina-migration
           retention-days: 1
 
+      - name: Upload category-uri-title-map json file artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: category-uri-title-map
+          path: scripts/tina-migration/category-uri-title-map.json
+          root-directory: scripts/tina-migration
+          retention-days: 1
+
+      # TODO - Change the targeted branch to "main" before merging PR
       - name: Trigger Tina POC deploy with payload
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref main \
+            --ref main_Categories-management-update \
             --field run_id="$GITHUB_RUN_ID" \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
