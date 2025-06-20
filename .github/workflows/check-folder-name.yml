@@ -27,7 +27,7 @@ jobs:
     - name: Check for modified rule.md
       id: check_modified
       run: |
-        if git diff --name-only $(git merge-base origin/main HEAD) | grep -q 'rule.md'; then
+        if git diff --name-only $(git merge-base origin/tina/migration-dev-content HEAD) | grep -q 'rule.md'; then
           echo "modified=true" >> "$GITHUB_OUTPUT"
         else
           echo "modified=false" >> "$GITHUB_OUTPUT"
