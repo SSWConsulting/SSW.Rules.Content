@@ -23,7 +23,6 @@ authors:
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
-
 Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing them. In particular, when Sprint Review approaches, developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, you can catch many problems and gotchas in your PRs early, buying your senior devs more time (and sanity!) to review higher quality code.
 
 <!--endintro-->
@@ -43,14 +42,18 @@ There's a few agents developers can choose for their PR reviewing needs.
 
 ## GitHub Copilot Code Reviews ⭐ (recommended)
 
-GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request.
+GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request. Copilot will also suppress any reviews it generated with low confidence intervals, filtering out any code suggestions that are likely incorrect.
 
 ::: img-medium
-![Figure: Automatic code review on Tina.io using GitHub Copilot](auto-code-review-tina.png)
+
+![Figure: GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits](tina-starter-reveiew-code-review.png)
+
 :::
 
 ::: img-medium
-![Figure: Automatic code review for YakShaver using GitHub Copilot](yakshaver-code-review.png)
+
+![Figure: GitHub Copilot suggestions being suppressed due to potential inaccuracy](github-copilot-review-low-confidence.png)
+
 :::
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a `.github/copilot-instructions.md` file.
@@ -87,7 +90,7 @@ GitHub Copilot Pro users have the option of enabling GitHub Copilot reviews for 
 
 For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#about-automatic-code-review) for enabling automatic code reviews.
 
----
+- - -
 
 ## Popular alternatives
 
