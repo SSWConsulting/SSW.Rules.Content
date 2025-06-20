@@ -2,7 +2,9 @@ name: Validate-Frontmatter-in-All-Rules
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - tina/migration-dev-content
   workflow_dispatch:
 
 jobs:

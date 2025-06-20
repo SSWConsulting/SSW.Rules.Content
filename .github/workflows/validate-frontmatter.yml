@@ -2,7 +2,9 @@ name: Validate-Frontmatter
 
 on:
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
+      - tina/migration-dev-content
 
   workflow_dispatch:
 

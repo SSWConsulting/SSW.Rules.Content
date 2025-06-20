@@ -3,7 +3,7 @@ name: Check-Folder-Name
 on:
   pull_request:
     paths:
-      - '**/rule.md'
+      - '**/rule.mdx'
     types: [opened, synchronize]
 
 jobs:

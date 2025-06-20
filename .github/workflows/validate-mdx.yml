@@ -2,7 +2,9 @@ name: Validate-MDX
 
 on:
   pull_request:
-    branches: [ main ]
+    branches:
+      - main
+      - tina/migration-dev-content
     paths:
       - '**.mdx'
 
