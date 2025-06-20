@@ -46,12 +46,11 @@ jobs:
           root-directory: scripts/tina-migration
           retention-days: 1
 
-      # TODO - Change the targeted branch to "main" before merging PR
       - name: Trigger Tina POC deploy with payload
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref main_Categories-management-update \
+            --ref main \
             --field run_id="$GITHUB_RUN_ID" \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
