@@ -1,15 +1,15 @@
-name: Validate-Markdown
+name: Validate-MDX
 
 on:
   pull_request:
     branches: [ main ]
     paths:
-      - '**.md'
+      - '**.mdx'
 
   workflow_dispatch:
 
 jobs:
-  validate-markdown:
+  validate-mdx:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,31 +31,31 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Filter and format Markdown files
+      - name: Filter and format MDX files
         run: |
-          MARKDOWN_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".md"))' | tr '\n' ' ')
-          echo "MARKDOWN_FILES=$MARKDOWN_FILES" >> $GITHUB_ENV
+          MDX_FILES=$(echo '${{ steps.files.outputs.all }}' | jq -r '.[] | select(endswith(".mdx"))' | tr '\n' ' ')
+          echo "MDX_FILES=$MDX_FILES" >> $GITHUB_ENV
 
-      - name: Install markdownlint-cli
-        run: npm install -g markdownlint-cli
+      - name: Install eslint with MDX plugin
+        run: npm install -g eslint eslint-plugin-mdx
 
-      - name: Auto-fix Markdown files
+      - name: Auto-fix MDX files
         run: |
-          markdownlint --fix $MARKDOWN_FILES --config .markdownlint/config.json || true
+          eslint --fix $MDX_FILES || true
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add .
-          git commit -m "Auto-fix Markdown files" || true # Commit only if there are changes
+          git commit -m "Auto-fix MDX files" || true # Commit only if there are changes
           git push || true # Push only if there was a commit
           echo "Auto-fix applied"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
+
       # TODO: Make this work on forked branches  
-      - name: Lint Markdown files
+      - name: Lint MDX files
         if: github.event.pull_request.head.repo.fork == false
         run: |
-          markdownlint $MARKDOWN_FILES --config .markdownlint/config.json > lint-results.txt 2>&1 || true
+          eslint $MDX_FILES > lint-results.txt 2>&1 || true
           if [[ -s lint-results.txt ]]; then
             echo "Linting errors found"
             cat lint-results.txt
@@ -66,22 +66,20 @@ jobs:
       - name: Comment on PR with linting errors
         if: failure() && github.event.pull_request.head.repo.fork == false
         run: |
-          RULES_DOCS_URL="https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md"
           PR_NUMBER="${{ github.event.pull_request.number }}"
           REPO_FULL_NAME="${{ github.repository }}"
-          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nWe found some markdown suggestions for your Pull Request:\n\n"
-          PR_COMMENT+="| File | Error | Rule |\n"
-          PR_COMMENT+="| ---- | ----- | ---- |\n"
+          PR_COMMENT="Hi @${{ github.event.pull_request.user.login }},\n\nWe found some MDX suggestions for your Pull Request:\n\n"
+          PR_COMMENT+="| File | Error |\n"
+          PR_COMMENT+="| ---- | ----- |\n"
           while IFS= read -r line; do
             FILE_PATH=$(echo "$line" | awk -F: '{print $1}')
             LINE_NUM=$(echo "$line" | awk -F: '{print $2}')
-            ERROR_DESC=$(echo "$line" | cut -d' ' -f 4- | sed 's/\[.*\]//') # Remove the markdown link from the description
-            RULE_ID=$(echo "$line" | grep -o 'MD[0-9]\+')
+            ERROR_DESC=$(echo "$line" | cut -d' ' -f 4-)
             FILE_NAME=$(basename "$FILE_PATH")
             FILE_ANCHOR=$(echo "$FILE_NAME" | sed 's/\./-/g')
-            PR_COMMENT+="| [$FILE_PATH](https://github.com/$REPO_FULL_NAME/pull/$PR_NUMBER/files#$FILE_ANCHOR) | Line $LINE_NUM: $ERROR_DESC | [Rule $RULE_ID]($RULES_DOCS_URL#$RULE_ID) |\n"
+            PR_COMMENT+="| [$FILE_PATH](https://github.com/$REPO_FULL_NAME/pull/$PR_NUMBER/files#$FILE_ANCHOR) | Line $LINE_NUM: $ERROR_DESC |\n"
           done < lint-results.txt
-          PR_COMMENT+="\nPlease review and update your Markdown files accordingly.\n"
+          PR_COMMENT+="\nPlease review and update your MDX files accordingly.\n"
           echo -e "$PR_COMMENT" > pr_comment.md
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
