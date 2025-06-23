@@ -2,7 +2,6 @@ import os
 import glob
 import re
 import json
-from pathlib import Path
 
 def extract_frontmatter(content):
     match = re.match(r'^---\n(.*?)\n---\n', content, re.DOTALL)
@@ -37,19 +36,22 @@ def parse_frontmatter(fm_text):
     return data
 
 def extract_rule_key(rule_line):
-    match = re.search(r'rule: rules/(.*?)/rule\.md', rule_line)
+    match = re.search(r'rule: rules/(.*?)/rule\.mdx', rule_line)
     if match:
         return match.group(1)
     return None
 
-def build_rule_category_map(categories_root='../../categories', output_file='rule-category-mapping.json'):
-    pattern = os.path.join(categories_root, '**', '*.md')
-    md_files = glob.glob(pattern, recursive=True)
-    md_files = [f for f in md_files if not f.endswith('index.md')]
+def build_rule_category_maps(categories_root='../../categories',
+                             rule_to_cats_file='rule-to-categories.json',
+                             cat_title_map_file='category-uri-title-map.json'):
+    pattern = os.path.join(categories_root, '**', '*.mdx')
+    mdx_files = glob.glob(pattern, recursive=True)
+    mdx_files = [f for f in mdx_files if not f.endswith('index.mdx')]
 
-    rule_map = {}
+    rule_to_categories = {}
+    category_title_map = {}
 
-    for file_path in md_files:
+    for file_path in mdx_files:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
@@ -64,25 +66,26 @@ def build_rule_category_map(categories_root='../../categories', output_file='rul
         category_uri = fm_data.get('uri', '')
         category_title = fm_data.get('title', '')
 
+        if category_uri and category_title:
+            category_title_map[category_uri] = category_title
+
         for line in fm_data['index']:
             if 'rule:' in line:
                 rule_key = extract_rule_key(line)
                 if rule_key:
-                    rule_entry = {
-                        'categoryUri': category_uri,
-                        'categoryTitle': category_title
-                    }
-                    if rule_key not in rule_map:
-                        rule_map[rule_key] = [rule_entry]
-                    else:
-                        if rule_entry not in rule_map[rule_key]:
-                            rule_map[rule_key].append(rule_entry)
+                    if rule_key not in rule_to_categories:
+                        rule_to_categories[rule_key] = []
+                    if category_uri not in rule_to_categories[rule_key]:
+                        rule_to_categories[rule_key].append(category_uri)
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(rule_map, f, indent=4, ensure_ascii=False)
+    with open(rule_to_cats_file, 'w', encoding='utf-8') as f:
+        json.dump(rule_to_categories, f, indent=4, ensure_ascii=False)
 
-    print(f"Successfully generated {output_file}")
-    print(f"Total unique rule keys: {len(rule_map)}")
+    with open(cat_title_map_file, 'w', encoding='utf-8') as f:
+        json.dump({"categories": category_title_map}, f, indent=4, ensure_ascii=False)
+
+    print(f"✅ Generated {rule_to_cats_file} with {len(rule_to_categories)} rules.")
+    print(f"✅ Generated {cat_title_map_file} with {len(category_title_map)} categories.")
 
 if __name__ == '__main__':
-    build_rule_category_map()
+    build_rule_category_maps()
