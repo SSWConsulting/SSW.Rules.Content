@@ -79,7 +79,7 @@ Figure: Bad Example - No timecodes so it's hard to go back and fix without re-wa
 ::: greybox
 ❌ **0:10 to 1:00** - Shaky camera\
 ❌ **1:04** - You mentioned "we did a POC" - I would stay generic and say "Here's a demo of what we did"\
-❌ **4:12" to 6:01** - Slight sound desync
+❌ **4:12 to 6:01** - Slight sound desync
 :::
 
 ::: good
