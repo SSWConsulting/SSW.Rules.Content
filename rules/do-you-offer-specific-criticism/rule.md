@@ -7,7 +7,10 @@ uri: do-you-offer-specific-criticism
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+  - url: https://ssw.com.au/people/jean-thirion
+    title: Jean Thirion
+related:
+  - null
 redirects:
   - communication-do-you-offer-specific-feedback
 created: 2012-09-25T17:54:21.000Z
