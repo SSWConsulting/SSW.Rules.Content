@@ -65,7 +65,7 @@ function recTraverseDirectory(directory, images) {
             if (intersection.length > 0) {
                 images[filePath.replaceAll("../", "").replaceAll("rules/", "")] = intersection;
             }
-        } else if (file.toLowerCase() === 'rule.md') {
+        } else if (file.toLowerCase() === 'rule.mdx') {
             const images = findImagesInMarkdown(filePath);
             markdownImages.push(...images);
         } else if (stats.isFile() && /\.(png|jpg|jpeg|gif|svg|pdf)$/i.test(file)) {
