@@ -7,7 +7,12 @@ on:
       - '**'
 
 jobs:
+  update-algolia:
+      uses: ./.github/workflows/update-algolia-index.yml
+      secrets: inherit
+
   trigger-deploy:
+    needs: update-algolia
     runs-on: ubuntu-latest
     if: github.repository_owner == 'SSWConsulting'
 
