@@ -37,14 +37,16 @@ jobs:
           echo "MDX_FILES=$MDX_FILES" >> $GITHUB_ENV
 
       - name: Install eslint with MDX plugin
-        run: npm install -g eslint eslint-plugin-mdx
+        run: |
+          npm init -y
+          npm install eslint@8 eslint-plugin-mdx eslint-plugin-react
 
       - name: Auto-fix MDX files
         run: |
-          eslint --fix $MDX_FILES || true
+          npx eslint --fix $MDX_FILES || true
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add .
+          git add $MDX_FILES || true
           git commit -m "Auto-fix MDX files" || true # Commit only if there are changes
           git push || true # Push only if there was a commit
           echo "Auto-fix applied"
