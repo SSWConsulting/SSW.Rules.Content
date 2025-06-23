@@ -46,8 +46,12 @@ Figure: Good example - Includes the words "initial meeting" and the names of att
 
 The Appointment should also be tracked (without regarding) in Dynamics 365 so that this information is readily available and reportable.
 
-![Figure: Initial Meeting created in Outlook and tracked to Dynamics 365](initial-meeting-dynamics.png)
+**Important: In Dynamics 365 (Outlook add-in), set the “Regarding” field to an opportunity, not an account.**
 
-The idea behind it is that Power BI can then track and show this.
+![Figure: Initial Meeting created in Outlook and tracked to Dynamics 365 with correct regarding](set-regarding-to-opportunity.png)
 
-![Figure: It's clear to see that there is no yellow in the past couple of months, which may indicate work drying up for Stephen's area](initial-meeting-graph.jpg)
+The idea behind it is that Power BI can then show the time elapsed between each sales milestone.
+
+![Figure: Time to win report](time-to-win-graph.png)
+
+![Figure: Initial meetings report](initial-meeting-graph.png)
