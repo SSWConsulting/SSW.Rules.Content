@@ -78,8 +78,6 @@ When performing a code review, please finalize your review by saying "But what d
 
 **Figure: A set of custom instructions for GitHub Copilot to use when reviewing Pull Requests**
 
-### Configuring GitHub Copilot Code Reviews
-
 For information about setting up automated code reviews using GitHub copilot refer to [GitHub's Documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization)
 
 
