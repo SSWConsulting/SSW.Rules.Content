@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "_template": {
+      "type": "string",
+      "const": "top-category"
+    },
     "type": {
       "type": "string",
       "const": "top-category"
@@ -23,6 +27,7 @@
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
+      "_template": "'_template' must be set to 'top-category'.",
       "title": "'title' cannot be empty.",
       "type": "'type' must be set to 'top-category'.",
       "index": "'index' must be a markdown list of categories URIs composing the top-category.",

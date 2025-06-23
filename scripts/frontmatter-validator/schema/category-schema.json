@@ -1,6 +1,10 @@
 {
   "type": "object",
   "properties": {
+    "_template": {
+      "type": "string",
+      "const": "category"
+    },
     "type": {
       "type": "string",
       "const": "category"
@@ -31,10 +35,11 @@
       "format": "uri-reference"
     }
   },
-  "required": ["type", "title", "index", "uri", "guid"],
+  "required": ["type", "title", "index", "uri", "guid", "_template"],
   "additionalProperties": true,
   "errorMessage": {
     "properties": {
+      "_template": "'_template' must be set to 'category'.",
       "title": "'title' cannot be empty.",
       "type": "'type' must be set to 'category'.",
       "index": "'index' must be a markdown list of URIs of the rules composing the category.",
