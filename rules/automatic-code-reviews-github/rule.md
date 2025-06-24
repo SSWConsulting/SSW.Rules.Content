@@ -23,7 +23,6 @@ authors:
 created: 2025-06-17T16:03:00.000Z
 guid: 95db3dbd-d5c2-4675-b64a-9e9238066770
 ---
-
 Developers love submitting Pull Requests (PRs) but far fewer enjoy reviewing them. In particular, when Sprint Review approaches, developers get tunnel vision and only focus on tasks they've been assigned. By leveraging AI agents, you can catch many problems and gotchas in your PRs early, buying your senior devs more time (and sanity!) to review higher quality code.
 
 <!--endintro-->
@@ -43,14 +42,30 @@ There's a few agents developers can choose for their PR reviewing needs.
 
 ## GitHub Copilot Code Reviews ⭐ (recommended)
 
-GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request.
+GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request. Copilot will also suppress any reviews it generated with low confidence intervals, filtering out any code suggestions that are likely incorrect.
+
+
+
+
+
 
 ::: img-medium
-![Figure: Automatic code review on Tina.io using GitHub Copilot](auto-code-review-tina.png)
+
+![Figure: GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits](tina-starter-reveiew-code-review.png)
+
 :::
 
 ::: img-medium
-![Figure: Automatic code review for YakShaver using GitHub Copilot](yakshaver-code-review.png)
+
+![Figure: GitHub Copilot suggestions being suppressed due to potential inaccuracy](github-copilot-review-low-confidence.png)
+
+:::
+
+
+In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description. 
+ 
+::: img-medium
+![Figure: PR description suggested by GitHub copilot](github-suggested-pr-description.png)
 :::
 
 GitHub Copilot can also be given specific instructions to follow when reviewing PRs. To set this up you can place custom instructions inside of a `.github/copilot-instructions.md` file.
@@ -63,31 +78,12 @@ When performing a code review, please finalize your review by saying "But what d
 
 **Figure: A set of custom instructions for GitHub Copilot to use when reviewing Pull Requests**
 
-### Configuring GitHub Copilot Code Reviews
+For information about setting up automated code reviews using GitHub copilot refer to [GitHub's Documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization)
 
-#### Organization Level
 
-GitHub Copilot may be configured to automatically review PRs and provide suggestions at the GitHub organization level. You have the option to configure which repos within your organization will be reviewed automatically and which branch names or patterns these reviews will apply to.
 
-For more information about how to configure GitHub Copilot code reviews at the organization level, refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization).
 
-::: info
-You'd typically only want to configure code reviews to be triggered against pull requests to your **master** branch.
-:::
 
-#### Repo level
-
-Allows the same rule sets and pattern matching as above but specific to one repository.
-
-For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-a-single-repository) for configuring automatic code reviews at the repo level.
-
-#### Account
-
-GitHub Copilot Pro users have the option of enabling GitHub Copilot reviews for every PR they create. This means that **all GitHub Copilot users have the option of enabling automatic reviews for any repo they contribute to**, even if the owner of the repo doesn't have a GitHub Copilot Pro subscription themselves.
-
-For more information refer to [GitHub's documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#about-automatic-code-review) for enabling automatic code reviews.
-
----
 
 ## Popular alternatives
 
