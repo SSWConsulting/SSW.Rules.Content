@@ -11,6 +11,7 @@ index:
   - what-happens-at-retro-meetings
   - what-happens-at-a-sprint-planning-meeting
   - methodology-daily-scrums
+  - bread-daily-scrums
   - the-3-commitments-in-scrum
   - do-you-know-the-how-to-be-a-good-product-owner
   - work-in-priority-order
