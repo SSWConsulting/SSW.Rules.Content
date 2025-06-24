@@ -25,22 +25,22 @@ To solve these pain points, use the **BREAD format** – a structured but flexib
 ### BREAD Meeting Format
 
 * **B - Blockers**
-   - The facilitator addresses blockers one by one with input from the team.
-   - The goal is to resolve blockers early so people can move forward.
+  * The facilitator addresses blockers one by one with input from the team.
+  * The goal is to resolve blockers early so people can move forward.
 
 * **R - Reviews**
-   - The facilitator asks who needs code reviews or wants feedback on work.
-   - This encourages team collaboration and helps distribute review work.
+  * The facilitator asks who needs code reviews or wants feedback on work.
+  * This encourages team collaboration and helps distribute review work.
 
 * **E - Elaborate**
-   - Give everyone the opportunity to expand on the bullet points they wrote before the meeting.
-   - This enables better understanding or clarification.
+  * Give everyone the opportunity to expand on the bullet points they wrote before the meeting.
+  * This enables better understanding or clarification.
 
 * **A - Announcements**
-   - Use this phase for communicating upcoming leave, production releases, or meeting changes.
+  * Use this phase for communicating upcoming leave, production releases, or meeting changes.
 
 * **D - Discussion**
-   - Any other topics or open discussion for the team.
+  * Any other topics or open discussion for the team.
 
 ### Why BREAD is better
 
@@ -63,7 +63,7 @@ To solve these pain points, use the **BREAD format** – a structured but flexib
 
 ### Meeting Preparation
 
-#### Before the meeting:
+#### Before the meeting
 
 Each team member writes dot points for their update prior to the Daily Scrum.
 
@@ -78,12 +78,13 @@ Each team member writes dot points for their update prior to the Daily Scrum.
 Figure: Good example – concise bullet points shared before the meeting allow the team to be informed without time-wasting status updates.
 :::
 
-#### During the meeting:
+#### During the meeting
 
-* The facilitator progresses through each BREAD phase and asks, "Raise your hand if you have anything for [Blockers/Reviews/Elaborate/Announcements]?" 
+* The facilitator progresses through each BREAD phase and asks, "Raise your hand if you have anything for [Blockers/Reviews/Elaborate/Announcements]?"
 * Participants raise their hands to indicate they want to contribute.
 
 ### When BREAD isn't needed
+
 * Smaller teams where the standard three question Daily Scrum can be more efficient.
 * In-person Daily Scrums.
 
