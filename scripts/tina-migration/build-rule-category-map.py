@@ -36,7 +36,7 @@ def parse_frontmatter(fm_text):
     return data
 
 def extract_rule_key(rule_line):
-    match = re.search(r'rule: rules/(.*?)/rule\.mdx', rule_line)
+    match = re.search(r'rule: public/uploads/rules/(.*?)/rule\.mdx', rule_line)
     if match:
         return match.group(1)
     return None
