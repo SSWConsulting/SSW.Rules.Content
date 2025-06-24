@@ -38,10 +38,17 @@ When uploading to some video hosting sites, like Vimeo, you can update a video b
 
 In YouTube an uploaded video can't be replaced, so to create a new version of a video it will be uploaded as a new video with a new URL.
 
-So that there are no broken or missing links, the video status is set to "unlisted", and we use the 'zz' process:
+So that there are no broken or missing links, the video status is set to "unlisted", and we use the 'zz' process.
 
-- Add 'zz' to the beginning of the title.
-- Add a link to the latest version at the top of the description
+Once a new version of the video is ready to be uploaded, do the following:
+
+#### New version
+1. Upload the new version and set its visibility to "public"
+
+#### Old version
+2. **Title** - go to the old version and add "zz" at the beginning of the title
+3. **Description** - add a link to the latest version at the top of the description
+4. **Visibility** - set its visibility to "unlisted"
 
 ::: good
 ![Figure: Good example of the 'zz' process for YouTube videos](https://tv.ssw.com/wp-content/uploads/2021/09/zz-process-youtube.png)
