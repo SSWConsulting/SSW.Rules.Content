@@ -6,7 +6,9 @@ seoDescription: Learn how to layer retrieval, guardrails, and
   prompt-sanitization so your AI assistant never “makes it up” in finance,
   healthcare, legal, or other high-stakes domains.
 uri: build-hallucination-proof-ai-assistants
-authors: []
+authors:
+  - title: Calum Simpson
+created: 2025-06-24T15:34:00.000Z
 guid: da2bf3fa-4ef4-4361-8513-2ed48f63c189
 ---
 “Your loan is approved under Section 42 of the Banking Act 2025.”  
