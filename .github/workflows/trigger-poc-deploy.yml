@@ -26,11 +26,12 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
+      # TODO - Change the ref for the main branch after PR validated
       - name: Trigger Tina POC deploy with payload
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref main \
+            --ref 1765-Categories_Management_During_Build \  
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
