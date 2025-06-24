@@ -26,37 +26,11 @@ jobs:
           owner: SSWConsulting
           repositories: SSW.Rules.Tina.Nextjs.POC
 
-      - name: Checkout content repo
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref_name }}
-
-      - name: Build rule-category mapping
-        working-directory: scripts/tina-migration
-        run: python build-rule-category-map.py
-
-      - name: Upload rule-to-categories json file artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: rule-to-categories
-          path: scripts/tina-migration/rule-to-categories.json
-          root-directory: scripts/tina-migration
-          retention-days: 1
-
-      - name: Upload category-uri-title-map json file artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: category-uri-title-map
-          path: scripts/tina-migration/category-uri-title-map.json
-          root-directory: scripts/tina-migration
-          retention-days: 1
-
       - name: Trigger Tina POC deploy with payload
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
             --ref main \
-            --field run_id="$GITHUB_RUN_ID" \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
