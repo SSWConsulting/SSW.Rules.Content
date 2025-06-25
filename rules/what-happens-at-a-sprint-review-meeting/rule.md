@@ -48,15 +48,11 @@ If there are additional stakeholders, make sure they get called in for the summa
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
-"Here is a screenshot of the meeting in progress (so you can see who is in the meeting currently) 📅
-
-For the summary I will be attempting to add:
-
-* {{ LIST OF ITEMS }}"
+**Tip**:Stakeholders often have a lot on their plate... Make their life easier: Rename the group chat so it's clear which project's review is about to start
 :::
 
 ::: good
-Good example - Pinging the stakeholders in a Teams chat at the beginning of the Sprint Review
+Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginning of the Sprint Review
 :::
 
 ::: good
