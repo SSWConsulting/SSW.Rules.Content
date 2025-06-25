@@ -44,7 +44,7 @@ This meeting is normally timeboxed to as many hours as there are weeks in the Sp
 
 If there are additional stakeholders, make sure they get called in for the summary so they [stay in the loop](/loop-someone-in) and [up to speed on the current increment](https://www.linkedin.com/posts/scrum-trainer_scrum-agile-activity-6815396232366837760-Mhnb/).
 
-* Ping them in a Teams chat when the meeeting starts
+* Ping them in a Teams chat when the meeting starts
 * [Warn again just before adding them for the summary](/warn-then-call)
 
 ::: greybox
