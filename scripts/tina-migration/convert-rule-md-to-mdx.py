@@ -31,7 +31,7 @@ def mdx_safe_template_vars(text):
     return text.replace("{{", "&#123;&#123;").replace("}}", "&#125;&#125;")
 
 def parse_email_table(table_text):
-    result = {'to': '', 'cc': '', 'bcc': '', 'subject': ''}
+    result = {'from': '', 'to': '', 'cc': '', 'bcc': '', 'subject': ''}
     for line in table_text.splitlines():
         parts = line.split('|')
         if len(parts) < 3:
@@ -44,12 +44,15 @@ def parse_email_table(table_text):
 
 def clean_email_body(body_text):
     cleaned = mdx_safe_template_vars(body_text)
+    cleaned = cleaned.replace(r'\>', '&gt;')
     return re.sub(r'^###', '##', cleaned, flags=re.MULTILINE)
 
 def clean_image_src(src):
     return re.sub(r'(\.(?:png|jpg|jpeg|gif))\s.*$', r'\1', src, flags=re.IGNORECASE)
 
-# === REPLACEMENT FUNCTIONS (now with src_prefix) ===
+# ----------------------------- #
+# Replacements
+# ----------------------------- #
 
 def replace_youtube_block(m):
     url = m.group(1).strip()
@@ -137,6 +140,7 @@ def replace_email_block(m):
     should_display = 'Figure:' in figure_block
 
     return f'''<emailEmbed
+  from="{email_data['from']}"
   to="{email_data['to']}"
   cc="{email_data['cc']}"
   bcc="{email_data['bcc']}"
