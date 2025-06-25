@@ -43,6 +43,11 @@ Before you start recording, ensure you have the right people ready for key roles
 
 Having these roles clearly defined beforehand ensures a smoother recording process and better documentation of your Sprint Meeting.
 
+**Tip: For speed, avoid long pauses**
+During the meeting, don’t pause ask, “Does anyone have any questions?” — this often leads to awkward silence and slows down the meeting.
+Instead, remind the team before to use the “Raise Hand” feature in Microsoft Teams if they have something to say. 
+This keeps the meeting moving and ensures everyone gets a chance to contribute without unnecessary delays.
+
 ## Record the Sprint Meeting summary
 
 The Sprint Meeting summary should be what it is: a summary. So keep it concise by focusing on the main goals and decisions that were discussed during the Sprint Meeting.
