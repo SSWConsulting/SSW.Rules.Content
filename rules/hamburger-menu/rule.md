@@ -30,7 +30,7 @@ A desktop web app with ample space hides primary navigation behind a hamburger m
 ::: greybox
 A mobile app uses a hamburger menu to preserve space while offering a clean, focused UI.
 :::
-::: good
+::: good img-medium
 ![Figure: Good example – On mobile, screen space is limited, so hiding the nav behind a hamburger is appropriate](hamburger-menu-good-example.png)
 :::
 
