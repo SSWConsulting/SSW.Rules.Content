@@ -24,14 +24,14 @@ Use it **only when screen space is tight**—typically on mobile. Otherwise, alw
 A desktop web app with ample space hides primary navigation behind a hamburger menu.
 :::
 ::: bad
-![Figure: Bad example – On desktop, navigation should be visible when screen space allows. Hiding it behind a hamburger reduces usability](https://github.com/user-attachments/assets/9304f9fa-fc5a-44c9-aaac-d00d7cc80b5a)
+![Figure: Bad example – On desktop, navigation should be visible when screen space allows. Hiding it behind a hamburger reduces usability](hamburger-menu-bad-example.png)
 :::
 
 ::: greybox
 A mobile app uses a hamburger menu to preserve space while offering a clean, focused UI.
 :::
 ::: good
-![Figure: Good example – On mobile, screen space is limited, so hiding the nav behind a hamburger is appropriate](https://github.com/user-attachments/assets/41a20f40-5011-4311-9e88-4f8a6bfed410)
+![Figure: Good example – On mobile, screen space is limited, so hiding the nav behind a hamburger is appropriate](hamburger-menu-good-example.png)
 :::
 
 ## Where should you place it?
