@@ -28,14 +28,15 @@ Learn the Git commands every developer should know to keep your history clean, y
 
 ## [Git Command Line](https://git-scm.com/about/branching-and-merging)
 
-The bread and butter of git. This is the traditional and most powerful way to use Git. 
+The bread and butter of git. This is the traditional and most powerful way to use Git.
 
-- ✅ Emphasizes power, control, and completeness
-- ✅ Provides deep understanding of Git internals
-- ❌ Steep learning curve for beginners
-- ❌ Easy to make mistakes with destructive commands
+* ✅ Emphasizes power, control, and completeness
+* ✅ Provides deep understanding of Git internals
+* ❌ Steep learning curve for beginners
+* ❌ Easy to make mistakes with destructive commands
 
 ### 1. git init
+
 Creates a new Git repository in the current folder.
 
 ```
@@ -45,6 +46,7 @@ git init
 This sets up Git tracking for your project. It creates a .git directory containing metadata about your repo, including commit history, branches, and remote settings.
 
 ### 2. git clone
+
 Creates a local copy of a remote repository.
 
 ``` git
@@ -60,6 +62,7 @@ git clone https://github.com/test/hello-world.git
 This copies all the files, history, and branches from the remote repo.
 
 ### 3. git status
+
 Shows the current state of your working directory and staging area.
 
 ``` git
@@ -68,9 +71,9 @@ git status
 
 You’ll see:
 
-- Files that have been modified
-- Files that are staged
-- Untracked files
+* Files that have been modified
+* Files that are staged
+* Untracked files
 
 Here are some most frequesntly used `git status` commands:
 
@@ -82,6 +85,7 @@ Here are some most frequesntly used `git status` commands:
 | `git status --porcelain` | Machine-readable output format |
 
 ### 4. git add
+
 Adds files to the staging area so they’re ready to be committed.
 
 ``` git
@@ -96,6 +100,7 @@ git add .
 **Tip:** Use git status before running this to see which files you’re staging.
 
 ### 5. git commit
+
 Saves a snapshot of your staged changes with a message.
 
 ``` git
@@ -107,6 +112,7 @@ Each commit should describe why the changes were made—not just what was change
 Use clear, concise messages that help teammates (and your future self) understand the history.
 
 ### 6. git diff
+
 Shows differences between your working directory and the staging area or between commits.
 
 | Command | Description | Use Case |
@@ -120,6 +126,7 @@ Shows differences between your working directory and the staging area or between
 This helps you preview what’s going to be committed or what changed between commits.
 
 ### 7. git log
+
 Displays the commit history.
 
 ``` git
@@ -128,10 +135,10 @@ git log
 
 You’ll see:
 
-- Commit hashes (SHA)
-- Author names
-- Dates
-- Commit messages
+* Commit hashes (SHA)
+* Author names
+* Dates
+* Commit messages
 
 You can customize the output of git log with many options. Here are some of the most useful ones:
 
@@ -148,6 +155,7 @@ You can customize the output of git log with many options. Here are some of the 
 | `git log --abbrev-commit`       | Shows only a short SHA-1 for each commit                                     |
 
 ### 8. git reset
+
 Resets your staging area or moves HEAD to a different commit.
 
 | Command / Option                | What it does                                                                 |
@@ -160,6 +168,7 @@ Resets your staging area or moves HEAD to a different commit.
 | `git reset HEAD <file>`         | Unstages a specific file (keeps changes in working directory)                |
 
 ### 9. git checkout
+
 Switches branches or restores files.
 
 Switch to a branch:
@@ -169,6 +178,7 @@ git checkout main
 ```
 
 ### 10. git branch
+
 Lists, creates, or deletes branches.
 
 List branches:
@@ -190,6 +200,7 @@ git branch -d old-feature
 ```
 
 ### 11. git merge
+
 Combines changes from one branch into another.
 
 ``` git
@@ -202,6 +213,7 @@ This merges the main branch into the feature branch.
 If there are conflicting changes in the same files, Git will prompt you to resolve them manually.
 
 ### 12. git pull
+
 Downloads changes from a remote repository and merges them into your local branch.
 
 ``` git
@@ -218,6 +230,7 @@ git merge
 Use `git pull --rebase` to avoid unnecessary merge commits.
 
 ### 13. git push
+
 Uploads your local commits to a remote repository.
 
 | Command / Option                      | What it does                                                        |
@@ -233,6 +246,7 @@ Uploads your local commits to a remote repository.
 Use this to share your work with others.
 
 ### 14. git stash
+
 Temporarily saves changes that you don’t want to commit yet.
 
 ``` git
@@ -254,6 +268,7 @@ git stash list
 ```
 
 ### 15. git remote
+
 Manages remote repositories.
 
 | Command / Option                  | What it does                                              |
@@ -269,27 +284,30 @@ Manages remote repositories.
 For more information, check out [Git Documentation](https://git-scm.com/doc) or [Essential Git Command Reference](https://jsdev.space/15-git-commands/).
 
 ## Git Clients
+
 Alternatively, developers could choose a user-friendly visual interface that makes version control more accessible. It's perfect for developers who prefer visual interfaces and handles most day-to-day Git tasks without needing to memorize commands.
 
 ### 1. [GitHub Desktop](https://github.com/apps/desktop)
+
 GitHub Desktop is a free, streamlined Git client that great integration with GitHub repositories.
 
-- ✅ Completely free and open source
-- ✅ Dead simple interface perfect for Git beginners
-- ✅ Excellent GitHub integration with pull requests and issues
-- ❌ Limited advanced Git features
-- ❌ No built-in merge conflict resolution tools
-- ❌ Primarily designed for GitHub (limited with other Git hosts)
+* ✅ Completely free and open source
+* ✅ Dead simple interface perfect for Git beginners
+* ✅ Excellent GitHub integration with pull requests and issues
+* ❌ Limited advanced Git features
+* ❌ No built-in merge conflict resolution tools
+* ❌ Primarily designed for GitHub (limited with other Git hosts)
 
 `youtube: https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8`
 **Video: GitHub Desktop is for everyone - Universe 2022 (12 mins)**
 
 ### 2. [GitKraken](https://www.gitkraken.com/)
+
 GitKraken is a premium Git GUI that offers a comprehensive visual interface with advanced features and beautiful design.
 
-- ✅ Stunning visual repository graph and history
-- ✅ Excellent merge conflict resolution tools
-- ✅ Supports multiple Git hosting services (GitHub, GitLab, Bitbucket, etc.)
-- ❌ Requires paid subscription for private repositories and teams
-- ❌ Can be overwhelming for beginners
-- ❌ Resource-heavy application (uses more memory)
+* ✅ Stunning visual repository graph and history
+* ✅ Excellent merge conflict resolution tools
+* ✅ Supports multiple Git hosting services (GitHub, GitLab, Bitbucket, etc.)
+* ❌ Requires paid subscription for private repositories and teams
+* ❌ Can be overwhelming for beginners
+* ❌ Resource-heavy application (uses more memory)
