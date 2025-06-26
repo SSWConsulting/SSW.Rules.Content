@@ -159,6 +159,8 @@ You can customize the output of git log with many options. Here are some of the 
 | `git log --pretty=oneline`      | Shows each commit on one line (more detailed than `--oneline`)               |
 | `git log --abbrev-commit`       | Shows only a short SHA-1 for each commit                                     |
 
+> To exit the `git log`, press `q`
+
 ### 8. git reset
 
 Resets your staging area or moves HEAD to a different commit.
