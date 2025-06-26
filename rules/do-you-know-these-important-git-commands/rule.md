@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you know these important git commands?
 guid: 15698c3c-cf80-4c5c-9030-022aa47933d1
-uri: do-you-know-these-important-git-commands
+uri: important-git-commands
 created: 2014-05-22T20:02:08.0000000Z
 authors:
   - title: Adam Stephensen
