@@ -5,7 +5,7 @@ guid: 55d679d7-adbe-4f37-bac5-22d0c28632c2
 uri: rules-to-better-version-control-with-git
 index:
   - do-you-know-the-benefits-of-using-source-control
-  - do-you-know-these-important-git-commands
+  - important-git-commands
   - use-gitignore-for-clean-repo
   - do-you-know-how-to-manage-nuget-packages-with-git
   - do-you-know-how-to-programmatically-get-git-commits
