@@ -16,9 +16,10 @@ redirects: []
 ## Git Command Line
 The bread and butter of git. This is the traditional and most powerful way to use Git. 
 
-- Emphasizes power, control, and completeness
-- Mentions the learning curve but highlights the benefits
-- Perfect for developers who want full functionality
+- ✅ Emphasizes power, control, and completeness
+- ✅ Provides deep understanding of Git internals
+- ❌ Steep learning curve for beginners
+- ❌ Easy to make mistakes with destructive commands
 
 ### 1. git init
 Creates a new Git repository in the current folder.
