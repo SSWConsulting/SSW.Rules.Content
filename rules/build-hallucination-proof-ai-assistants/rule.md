@@ -8,12 +8,13 @@ seoDescription: Learn how to layer retrieval, guardrails, and
 uri: build-hallucination-proof-ai-assistants
 authors:
   - title: Calum Simpson
+    url: https://www.ssw.com.au/people/calum-simpson/
 created: 2025-06-24T15:34:00.000Z
 guid: da2bf3fa-4ef4-4361-8513-2ed48f63c189
 ---
 “Your loan is approved under Section 42 of the Banking Act 2025.”  
-One problem: **there is no Section 42**. 
- 
+One problem: **there is no Section 42**.
+
 That single hallucination triggered a regulator investigation and a six-figure penalty. In high-stakes domains like finance, healthcare, legal and compliance **zero-error tolerance** is the rule. Your assistant must _always_ ground its answers in real, verifiable evidence.
 
 <!--endintro-->

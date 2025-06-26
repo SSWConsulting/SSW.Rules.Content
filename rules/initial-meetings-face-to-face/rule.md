@@ -7,13 +7,12 @@ seoDescription: Build a stronger human connection and make a lasting first
 uri: initial-meetings-face-to-face
 authors:
   - title: Michael Smedley
-    url: (https://www.ssw.com.au/people/michael-smedley/)
+    url: https://www.ssw.com.au/people/michael-smedley/
 created: 2024-12-11T14:00:00.000Z
 guid: 9a8c6e5b-3f2d-452d-b85a-5a5b14e54df2
 ---
 
 The initial meeting with a prospect often starts as an impersonal interaction—a web inquiry or a phone call. These methods lack the tangible connection of a physical presence. Inviting the prospect to your office for a face-to-face meeting changes everything. Sitting in the boardroom, sharing a coffee, and looking across the table humanizes the interaction and brings your company to life. This is the foundation for building trust and a lasting relationship.
-
 
 ![Figure: It is important to greet people with a warm smile in a professional setting at your office](Office-meeting.webp)
 <!--endintro-->
@@ -24,9 +23,9 @@ First impressions are everything. In the first 30 to 60 seconds, people form emo
 
 Meeting in person gives you the opportunity to:
 
-- Showcase your professionalism and expertise through body language and environment.
-- Build a human connection that can’t be replicated through screens or emails.
-- Establish your brand by immersing prospects in your company culture and values.
+* Showcase your professionalism and expertise through body language and environment.
+* Build a human connection that can’t be replicated through screens or emails.
+* Establish your brand by immersing prospects in your company culture and values.
 
 ### Best Practices for a Strong First Impression
 
@@ -34,25 +33,25 @@ Meeting in person gives you the opportunity to:
 
     * First Choice: At Your Office
 
-        - Invite the client to your space if possible. Your office environment—clean, organized, and welcoming—reflects your company’s brand and values.
+        * Invite the client to your space if possible. Your office environment—clean, organized, and welcoming—reflects your company’s brand and values.
 
-        - Use the boardroom for the meeting to set a professional tone.
+        * Use the boardroom for the meeting to set a professional tone.
 
     * Second Choice: At Their Office
 
-        - If the client cannot visit your office, offer to meet at their office. This demonstrates flexibility and respect for their time.
+        * If the client cannot visit your office, offer to meet at their office. This demonstrates flexibility and respect for their time.
 
     * Third Choice: Online
 
-        - If neither option is feasible, schedule a video call. While it lacks the physical presence, ensure your virtual setup is professional, with a clean background and good lighting.
+        * If neither option is feasible, schedule a video call. While it lacks the physical presence, ensure your virtual setup is professional, with a clean background and good lighting.
 
 2. **Be Welcoming**
-   - Offer hospitality, such as a coffee or tea, to make the prospect feel comfortable and at ease.
-   - Provide a warm greeting and engage in light conversation to build rapport before diving into business.
+   * Offer hospitality, such as a coffee or tea, to make the prospect feel comfortable and at ease.
+   * Provide a warm greeting and engage in light conversation to build rapport before diving into business.
 
 3. **Focus on Connection**
-   - Maintain eye contact and smile genuinely. These subtle gestures build trust and demonstrate your confidence.
-   - Listen actively and ask thoughtful questions to show you value their time and perspective.
+   * Maintain eye contact and smile genuinely. These subtle gestures build trust and demonstrate your confidence.
+   * Listen actively and ask thoughtful questions to show you value their time and perspective.
 
 ### The Ripple Effect of a Good First Meeting
 
@@ -66,4 +65,3 @@ Figure: Good example - A face-to-face meeting builds trust and sets a positive t
 :::
 
 By prioritizing in-person initial meetings, you not only foster stronger connections but also set the foundation for successful long-term relationships with your clients.
-
