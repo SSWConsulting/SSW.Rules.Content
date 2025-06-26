@@ -30,10 +30,10 @@ Learn the Git commands every developer should know to keep your history clean, y
 
 The bread and butter of git. This is the traditional and most powerful way to use Git.
 
-* ✅ Emphasizes power, control, and completeness
-* ✅ Provides deep understanding of Git internals
-* ❌ Steep learning curve for beginners
-* ❌ Easy to make mistakes with destructive commands
+✅ Emphasizes power, control, and completeness\
+✅ Provides deep understanding of Git internals\
+❌ Steep learning curve for beginners\
+❌ Easy to make mistakes with destructive commands
 
 ### 1. git init
 
