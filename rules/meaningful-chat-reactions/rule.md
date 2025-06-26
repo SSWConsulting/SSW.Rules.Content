@@ -17,7 +17,7 @@ related:
 guid: 285240aa-9ef2-4654-b10d-42de294c662b
 ---
 
-Clear, **written text** is by far the best way to communicate, so always try to write down your thoughts instead of relying on emojis reactions, which can easily be misinterpreted. 
+Clear, **written text** is by far the best way to communicate, so always try to write down your thoughts instead of relying on emojis reactions, which can easily be misinterpreted.
 
 For example, in Teams chats, a 👍 (thumbs up) is often used to either **acknowledge a message** or to **indicate that a task is done**. This can lead to ambiguity for the sender, especially when the task isn’t completed immediately.
 
