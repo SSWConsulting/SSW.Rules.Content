@@ -13,6 +13,10 @@ related: []
 redirects: []
 ---
 
+::: img-medium
+![Figure: Git Workflow](git-branches-merge.png)
+:::
+
 ## Git Command Line
 The bread and butter of git. This is the traditional and most powerful way to use Git. 
 
