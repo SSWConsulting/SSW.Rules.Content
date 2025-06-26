@@ -7,6 +7,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
+  - monthly-stakeholder-video
   - sprint-review-retro-email
   - scrum-master-do-you-schedule-the-3-meetings
   - do-you-make-your-team-meetings-easy-to-find
