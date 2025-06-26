@@ -2,7 +2,7 @@
 seoDescription: Learn when and where to use the hamburger menu icon. Understand platform conventions, user expectations, and when it's best to avoid hiding navigation.
 type: rule
 title: Do you use the hamburger menu icon wisely?
-uri: use-hamburger-menu-wisely
+uri: hamburger-menu
 authors:
   - title: Micaela Blank
     url: https://www.ssw.com.au/people/micaela-blank
