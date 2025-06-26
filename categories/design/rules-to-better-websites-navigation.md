@@ -9,7 +9,7 @@ index:
 - do-you-distinguish-visited-links
 - active-menu-item
 - do-you-use-mega-menu-navigation-to-improve-usability
-- use-hamburger-menu-wisely
+- hamburger-menu
 - do-you-add-breadcrumb-to-every-page
 - simplify-breadcrumbs
 - do-your-wizards-include-a-wizard-breadcrumb
