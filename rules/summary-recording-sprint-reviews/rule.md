@@ -45,7 +45,9 @@ Having these roles clearly defined beforehand ensures a smoother recording proce
 
 ### Avoid long pauses
 
-During the meeting, don’t pause ask, “Does anyone have any questions?” — this often leads to awkward silence and slows down the meeting. Instead, remind the team before to **use the “Raise Hand” feature** in Microsoft Teams if they have something to say. This keeps the meeting moving and ensures everyone gets a chance to contribute without unnecessary delays.
+During the meeting, don’t pause ask, “Does anyone have any questions?” — this often leads to awkward silence and slows down the meeting. 
+
+Instead, remind the team before to **use the “Raise Hand” feature** in Microsoft Teams if they have something to say. This keeps the meeting moving and ensures everyone gets a chance to contribute without unnecessary delays.
 
 ## Record the Sprint Meeting summary
 
