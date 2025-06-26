@@ -8,14 +8,18 @@ uri: important-git-commands
 created: 2014-05-22T20:02:08.0000000Z
 authors:
   - title: Adam Cogan
-    url: https://www.ssw.com.au/people/adam-cogan/
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Tino Liu
-    url: https://www.ssw.com.au/people/tino-liu/
+    url: https://www.ssw.com.au/people/tino-liu
   - title: Jerry Luo
-    url: https://www.ssw.com.au/people/jerry-luo/
+    url: https://www.ssw.com.au/people/jerry-luo
 related: []
 redirects: []
 ---
+
+
+Learn the Git commands every developer should know to keep your history clean, your team in sync and your pull requests stress free.
+
 <!--endintro-->
 
 ::: img-medium
@@ -23,6 +27,7 @@ redirects: []
 :::
 
 ## [Git Command Line](https://git-scm.com/about/branching-and-merging)
+
 The bread and butter of git. This is the traditional and most powerful way to use Git. 
 
 - ✅ Emphasizes power, control, and completeness
@@ -42,13 +47,13 @@ This sets up Git tracking for your project. It creates a .git directory containi
 ### 2. git clone
 Creates a local copy of a remote repository.
 
-```
+``` git
 git clone #repository-url
 ```
 
 Example:
 
-```
+``` git
 git clone https://github.com/test/hello-world.git
 ```
 
@@ -57,7 +62,7 @@ This copies all the files, history, and branches from the remote repo.
 ### 3. git status
 Shows the current state of your working directory and staging area.
 
-```
+``` git
 git status
 ```
 
@@ -79,20 +84,21 @@ Here are some most frequesntly used `git status` commands:
 ### 4. git add
 Adds files to the staging area so they’re ready to be committed.
 
-```
+``` git
 git add {{file}}
 git add .
 ```
+
 `git add {{file}}` adds a specific file.
 
 `git add .` adds all changes in the current directory and subdirectories.
 
-Tip: Use git status before running this to see which files you’re staging.
+**Tip:** Use git status before running this to see which files you’re staging.
 
 ### 5. git commit
 Saves a snapshot of your staged changes with a message.
 
-```
+``` git
 git commit -m “@feature auth added”
 ```
 
@@ -116,7 +122,7 @@ This helps you preview what’s going to be committed or what changed between co
 ### 7. git log
 Displays the commit history.
 
-```
+``` git
 git log
 ```
 
@@ -158,7 +164,7 @@ Switches branches or restores files.
 
 Switch to a branch:
 
-```
+``` git
 git checkout main
 ```
 
@@ -167,26 +173,26 @@ Lists, creates, or deletes branches.
 
 List branches:
 
-```
+``` git
 git branch
 ```
 
 Create a new branch:
 
-```
+``` git
 git branch @feature/login-form
 ```
 
 Delete a branch:
 
-```
+``` git
 git branch -d old-feature
 ```
 
 ### 11. git merge
 Combines changes from one branch into another.
 
-```
+``` git
 git checkout @feature/login-form
 git merge main
 ```
@@ -198,13 +204,13 @@ If there are conflicting changes in the same files, Git will prompt you to resol
 ### 12. git pull
 Downloads changes from a remote repository and merges them into your local branch.
 
-```
+``` git
 git pull origin main
 ```
 
 This is equivalent to:
 
-```
+``` git
 git fetch
 git merge
 ```
@@ -229,7 +235,7 @@ Use this to share your work with others.
 ### 14. git stash
 Temporarily saves changes that you don’t want to commit yet.
 
-```
+``` git
 git stash
 ```
 
@@ -237,13 +243,13 @@ This clears your working directory so you can switch branches cleanly.
 
 Restore stashed changes:
 
-```
+``` git
 git stash pop
 ```
 
 View all stashes:
 
-```
+``` git
 git stash list
 ```
 
@@ -260,7 +266,7 @@ Manages remote repositories.
 | `git remote show <name>`          | Shows detailed info about a specific remote               |
 | `git remote set-url <name> <url>` | Changes the URL of a remote repository                    |
 
-For more information, check out [Git Documentation](https://git-scm.com/doc) or [Essential Git Command Reference](https://jsdev.space/15-git-commands/)
+For more information, check out [Git Documentation](https://git-scm.com/doc) or [Essential Git Command Reference](https://jsdev.space/15-git-commands/).
 
 ## Git Clients
 Alternatively, developers could choose a user-friendly visual interface that makes version control more accessible. It's perfect for developers who prefer visual interfaces and handles most day-to-day Git tasks without needing to memorize commands.
