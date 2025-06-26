@@ -7,7 +7,7 @@ seoDescription: Build a stronger human connection and make a lasting first
 uri: initial-meetings-face-to-face
 authors:
   - title: Michael Smedley
-    url: (https://www.ssw.com.au/people/michael-smedley/)
+    url: https://www.ssw.com.au/people/michael-smedley/
 created: 2024-12-11T14:00:00.000Z
 guid: 9a8c6e5b-3f2d-452d-b85a-5a5b14e54df2
 ---

@@ -8,6 +8,7 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Clara Fang
+    url: https://www.ssw.com.au/people/clara-fang/
 related: []
 redirects:
   - do-you-pick-a-chinese-name
