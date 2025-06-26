@@ -22,13 +22,17 @@ guid: 863b6968-c082-4413-b90d-d68e0211adc5
 ---
 This is the meeting where the Product Owner accepts or rejects the Product Backlog Items (PBIs) done in the Sprint.
 
-<!--endintro-->
-
 The Team, having [prepared](/meeting-do-you-know-what-to-prepare-for-each-meeting) for the meeting, presents the PBIs to the Product Owner.
 
 One person, often the Scrum Master, presents a summary to the Product Owner of the PBIs committed at the Sprint Planning meeting and the done PBIs being presented for acceptance. The Team seeks to have more PBIs accepted than originally committed. It is important that the Product Owner knows at the beginning whether The Team believes that they have over or underachieved the Sprint Goal.
 
+<!--endintro-->
+
 Each done PBI is then presented by the Team for acceptance. They aim to get the PBI accepted as quickly as possible ([aka tick and flick](/tick-and-flick)) while being totally transparent, which includes declaring whether there are any known outstanding bugs (which should already be on the Product Backlog) and adherence to the Team's Definition of Done.
+
+::: info
+To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
+:::
 
 `youtube: https://youtu.be/L94TEsTuLz4`
 
