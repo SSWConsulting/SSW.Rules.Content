@@ -43,7 +43,7 @@ A mobile app uses a hamburger menu to preserve space while offering a clean, foc
 | **Mobile websites**  | Top left            | Consistent with web standards; easier for navigation + back button  |
 | **Desktop websites** | Top left (if used)  | Only use if screen space is constrained (e.g. dashboards)           |
 
-### Common ❌ mistakes to avoid
+### ❌ Common mistakes to avoid
 
 * **Using a top-right hamburger on desktop** – This breaks user expectations. On desktop, primary navigation belongs on the left or fully visible
 * **Combining a hamburger menu with bottom navigation** – Choose one. Using both creates confusion and redundancy
