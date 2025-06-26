@@ -26,9 +26,9 @@ Learn the Git commands every developer should know to keep your history clean, y
 ![Figure: Git Workflow](git-branches-merge.png)
 :::
 
-## [Git Command Line](https://git-scm.com/about/branching-and-merging)
+## Git Command Line
 
-The bread and butter of git. This is the traditional and most powerful way to use Git.
+The bread and butter of git. [Git Command Line](https://git-scm.com/about/branching-and-merging) is the traditional and most powerful way to use Git.
 
 **✅ Pros**
 
@@ -292,9 +292,9 @@ For more information, check out [Git Documentation](https://git-scm.com/doc) or 
 
 Alternatively, developers could choose a user-friendly visual interface that makes version control more accessible. It's perfect for developers who prefer visual interfaces and handles most day-to-day Git tasks without needing to memorize commands.
 
-### 1. [GitHub Desktop](https://github.com/apps/desktop)
+### 1. GitHub Desktop
 
-GitHub Desktop is a free, streamlined Git client that great integration with GitHub repositories.
+[GitHub Desktop](https://github.com/apps/desktop) is a free, streamlined Git client that great integration with GitHub repositories.
 
 **✅ Pros**
 
@@ -311,9 +311,9 @@ GitHub Desktop is a free, streamlined Git client that great integration with Git
 `youtube: https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8`
 **Video: GitHub Desktop is for everyone - Universe 2022 (12 min)**
 
-### 2. [GitKraken](https://www.gitkraken.com/)
+### 2. GitKraken
 
-GitKraken is a premium Git GUI that offers a comprehensive visual interface with advanced features and beautiful design.
+[GitKraken](https://www.gitkraken.com/) is a premium Git GUI that offers a comprehensive visual interface with advanced features and beautiful design.
 
 **✅ Pros**
 
