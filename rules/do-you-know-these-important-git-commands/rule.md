@@ -21,7 +21,7 @@ redirects: []
 ![Figure: Git Workflow](git-branches-merge.png)
 :::
 
-## Git Command Line
+## [Git Command Line](https://git-scm.com/about/branching-and-merging)
 The bread and butter of git. This is the traditional and most powerful way to use Git. 
 
 - ✅ Emphasizes power, control, and completeness
@@ -258,6 +258,8 @@ Manages remote repositories.
 | `git remote rename <old> <new>`   | Renames a remote repository                               |
 | `git remote show <name>`          | Shows detailed info about a specific remote               |
 | `git remote set-url <name> <url>` | Changes the URL of a remote repository                    |
+
+For more information, check out [Git Documentation](https://git-scm.com/doc) or [Essential Git Command Reference](https://jsdev.space/15-git-commands/)
 
 ## Git Clients
 Alternatively, developers could choose a user-friendly visual interface that makes version control more accessible. It's perfect for developers who prefer visual interfaces and handles most day-to-day Git tasks without needing to memorize commands.
