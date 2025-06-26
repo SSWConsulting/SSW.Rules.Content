@@ -22,7 +22,6 @@ created: 2013-12-18T15:32:43.000Z
 archivedreason: null
 guid: ed0b5cce-5f87-4fe4-907d-d2100a77ef06
 ---
-
 Don't waste time evaluating which Web UI (Component) libraries to use. If you're already using React, we recommend going with [shadcn/ui](https://ui.shadcn.com) – as it's the most extensible and strikes a balance between flexibility and simplicity. For other environments, or for the easiest experience, go with [Bootstrap](https://getbootstrap.com).
 
 <!--endintro-->
@@ -54,12 +53,34 @@ For more info, see the related rule on [generating mockups with V0](https://www.
 
 In effect, these technologies together let you quickly build your own custom component library for any React application.
 
+Schadcn uses a special **cn** utility under the hood in it's component definition. This utility will override any of it's default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
+
+```jsx
+const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
+  {/*classes in the second argrument side of "cn" 
+    will take precedence over classes in the first argument*/}
+  return <h1 className=cn("font-semibold text-xl", className)>{children}</h1>
+}
+
+
+const Layout = ({children}: {children: React.ReactNode})=>{
+  
+  return <main>
+          {/*text-2xl will be applied here*/}
+          <Heading1 className="text-2xl">
+            Hello world!
+          </Heading1>
+          {children}
+        </main>
+}
+```
+
 `youtube: https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u`
 **Video – Why Everyone Loves Shadcn UI Right Now (1 min)**
 
 For a more in depth look, see the video later on.
 
----
+- - -
 
 ## Bootstrap
 
@@ -75,7 +96,7 @@ While Bootstrap is a safe and reliable choice, it does have drawbacks, such as l
 You can see the popularity of various frameworks at [star-history.com](https://star-history.com/#shadcn-ui/ui&mui/material-ui&ant-design/ant-design&mantinedev/mantine&nextui-org/nextui&twbs/bootstrap&react-bootstrap/react-bootstrap&Date).
 :::
 
----
+- - -
 
 ## If you want to find a better fit
 
@@ -110,3 +131,7 @@ When evaluating a component library, also keep in mind:
 * **[KendoUI](https://www.telerik.com/kendo-ui)** - Offers advanced HTML and jQuery controls for data grids, charts, and more
 
 What's your favourite UI library?
+
+```
+
+```
