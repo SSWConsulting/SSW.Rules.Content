@@ -51,10 +51,10 @@ A mobile app uses a hamburger menu to preserve space while offering a clean, foc
 
 ### ✅ Best practices
 
-- Use the **standard 3-line icon** – don't reinvent it
-- Include **clear animation or toggle state**
-- Make sure it's **easy to reach** on mobile—don’t place in hard-to-tap corners
-- If you only have a logo + menu, favor **left placement** for balance and ergonomics
-- Test with users to confirm comprehension and usability
+* Use the **standard 3-line icon** – don't reinvent it
+* Include **clear animation or toggle state**
+* Make sure it's **easy to reach** on mobile—don’t place in hard-to-tap corners
+* If you only have a logo + menu, favor **left placement** for balance and ergonomics
+* Test with users to confirm comprehension and usability
 
 Use the hamburger menu only when needed, place it where users expect it, and never use it as an excuse to hide important navigation. Always test your decisions—navigation is too important to guess.
