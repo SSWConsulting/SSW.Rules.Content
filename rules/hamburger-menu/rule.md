@@ -2,7 +2,7 @@
 seoDescription: Learn when and where to use the hamburger menu icon. Understand platform conventions, user expectations, and when it's best to avoid hiding navigation.
 type: rule
 title: Do you use the hamburger menu icon wisely?
-uri: use-hamburger-menu-wisely
+uri: hamburger-menu
 authors:
   - title: Micaela Blank
     url: https://www.ssw.com.au/people/micaela-blank
@@ -43,7 +43,7 @@ A mobile app uses a hamburger menu to preserve space while offering a clean, foc
 | **Mobile websites**  | Top left            | Consistent with web standards; easier for navigation + back button  |
 | **Desktop websites** | Top left (if used)  | Only use if screen space is constrained (e.g. dashboards)           |
 
-### Common ❌ mistakes to avoid
+### ❌ Common mistakes to avoid
 
 * **Using a top-right hamburger on desktop** – This breaks user expectations. On desktop, primary navigation belongs on the left or fully visible
 * **Combining a hamburger menu with bottom navigation** – Choose one. Using both creates confusion and redundancy
@@ -51,10 +51,10 @@ A mobile app uses a hamburger menu to preserve space while offering a clean, foc
 
 ### ✅ Best practices
 
-- Use the **standard 3-line icon** – don't reinvent it
-- Include **clear animation or toggle state**
-- Make sure it's **easy to reach** on mobile—don’t place in hard-to-tap corners
-- If you only have a logo + menu, favor **left placement** for balance and ergonomics
-- Test with users to confirm comprehension and usability
+* Use the **standard 3-line icon** – don't reinvent it
+* Include **clear animation or toggle state**
+* Make sure it's **easy to reach** on mobile—don’t place in hard-to-tap corners
+* If you only have a logo + menu, favor **left placement** for balance and ergonomics
+* Test with users to confirm comprehension and usability
 
 Use the hamburger menu only when needed, place it where users expect it, and never use it as an excuse to hide important navigation. Always test your decisions—navigation is too important to guess.
