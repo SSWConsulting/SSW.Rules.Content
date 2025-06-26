@@ -16,6 +16,7 @@ authors:
 related: []
 redirects: []
 ---
+<!--endintro-->
 
 ::: img-medium
 ![Figure: Git Workflow](git-branches-merge.png)
