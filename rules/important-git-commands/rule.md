@@ -30,10 +30,13 @@ Learn the Git commands every developer should know to keep your history clean, y
 
 The bread and butter of git. This is the traditional and most powerful way to use Git.
 
-✅ Emphasizes power, control, and completeness\
-✅ Provides deep understanding of Git internals\
-❌ Steep learning curve for beginners\
-❌ Easy to make mistakes with destructive commands
+**✅ Pros**
+* Emphasizes power, control, and completeness
+* Provides deep understanding of Git internals
+  
+**❌ Cons**
+* Steep learning curve for beginners
+* Easy to make mistakes with destructive commands
 
 ### 1. git init
 
@@ -291,12 +294,15 @@ Alternatively, developers could choose a user-friendly visual interface that mak
 
 GitHub Desktop is a free, streamlined Git client that great integration with GitHub repositories.
 
-* ✅ Completely free and open source
-* ✅ Dead simple interface perfect for Git beginners
-* ✅ Excellent GitHub integration with pull requests and issues
-* ❌ Limited advanced Git features
-* ❌ No built-in merge conflict resolution tools
-* ❌ Primarily designed for GitHub (limited with other Git hosts)
+**✅ Pros**
+* Completely free and open source
+* Dead simple interface perfect for Git beginners
+* Excellent GitHub integration with pull requests and issues
+
+**❌ Cons**
+* Limited advanced Git features
+* No built-in merge conflict resolution tools
+* Primarily designed for GitHub (limited with other Git hosts)
 
 `youtube: https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8`
 **Video: GitHub Desktop is for everyone - Universe 2022 (12 mins)**
@@ -305,9 +311,12 @@ GitHub Desktop is a free, streamlined Git client that great integration with Git
 
 GitKraken is a premium Git GUI that offers a comprehensive visual interface with advanced features and beautiful design.
 
-* ✅ Stunning visual repository graph and history
-* ✅ Excellent merge conflict resolution tools
-* ✅ Supports multiple Git hosting services (GitHub, GitLab, Bitbucket, etc.)
-* ❌ Requires paid subscription for private repositories and teams
-* ❌ Can be overwhelming for beginners
-* ❌ Resource-heavy application (uses more memory)
+**✅ Pros**
+* Stunning visual repository graph and history
+* Excellent merge conflict resolution tools
+* Supports multiple Git hosting services (GitHub, GitLab, Bitbucket, etc.)
+
+**❌ Cons**
+* Requires paid subscription for private repositories and teams
+* Can be overwhelming for beginners
+* Resource-heavy application (uses more memory)
