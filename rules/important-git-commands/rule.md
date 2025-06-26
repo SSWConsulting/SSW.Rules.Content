@@ -305,7 +305,7 @@ GitHub Desktop is a free, streamlined Git client that great integration with Git
 * Primarily designed for GitHub (limited with other Git hosts)
 
 `youtube: https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8`
-**Video: GitHub Desktop is for everyone - Universe 2022 (12 mins)**
+**Video: GitHub Desktop is for everyone - Universe 2022 (12 min)**
 
 ### 2. [GitKraken](https://www.gitkraken.com/)
 
