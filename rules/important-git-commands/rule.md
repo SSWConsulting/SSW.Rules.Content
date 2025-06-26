@@ -80,7 +80,7 @@ You’ll see:
 * Files that are staged
 * Untracked files
 
-Here are some most frequesntly used `git status` commands:
+Here are some most frequently used `git status` commands:
 
 | Command | Description |
 |---------|-------------|
