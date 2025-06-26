@@ -7,8 +7,12 @@ guid: 15698c3c-cf80-4c5c-9030-022aa47933d1
 uri: important-git-commands
 created: 2014-05-22T20:02:08.0000000Z
 authors:
-  - title: Adam Stephensen
-    url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan/
+  - title: Tino Liu
+    url: https://www.ssw.com.au/people/tino-liu/
+  - title: Jerry Luo
+    url: https://www.ssw.com.au/people/jerry-luo/
 related: []
 redirects: []
 ---
