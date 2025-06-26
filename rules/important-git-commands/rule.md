@@ -44,7 +44,7 @@ The bread and butter of git. [Git Command Line](https://git-scm.com/about/branch
 
 Creates a new Git repository in the current folder.
 
-```
+``` git
 git init
 ```
 
