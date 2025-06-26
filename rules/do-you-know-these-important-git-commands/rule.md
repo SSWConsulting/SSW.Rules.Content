@@ -1,5 +1,5 @@
 ---
-seoDescription: Reset your local Git changes and revert to the last commit with "git reset --hard HEAD".
+seoDescription: Compare Git command line, GitHub Desktop, and GitKraken with pros/cons. Comprehensive Git commands reference with examples. Perfect guide for beginners to advanced developers choosing the best Git workflow in 2025.
 type: rule
 archivedreason:
 title: Do you know these important git commands?
@@ -16,6 +16,7 @@ authors:
 related: []
 redirects: []
 ---
+<!--endintro-->
 
 ::: img-medium
 ![Figure: Git Workflow](git-branches-merge.png)
