@@ -261,7 +261,10 @@ GitHub Desktop is a free, streamlined Git client that great integration with Git
 - ✅ Excellent GitHub integration with pull requests and issues
 - ❌ Limited advanced Git features
 - ❌ No built-in merge conflict resolution tools
-- ❌ Can't handle complex Git operations
+- ❌ Primarily designed for GitHub (limited with other Git hosts)
+
+`youtube: https://www.youtube.com/embed/qUYkRWGWntE?si=rtdB4GXHMsH9CaG8`
+**Video: GitHub Desktop is for everyone - Universe 2022 (12 mins)**
 
 ### 2. [GitKraken](https://www.gitkraken.com/)
 GitKraken is a premium Git GUI that offers a comprehensive visual interface with advanced features and beautiful design.
