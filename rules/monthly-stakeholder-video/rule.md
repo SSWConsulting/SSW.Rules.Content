@@ -10,8 +10,9 @@ authors:
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
 related:
-  - making-a-great-done-video
+  - what-happens-at-a-sprint-review-meeting
   - summary-recording-sprint-reviews
+  - making-a-great-done-video
 redirects: []
 ---
 
