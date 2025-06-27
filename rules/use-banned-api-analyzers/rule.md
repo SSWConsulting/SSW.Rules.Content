@@ -31,6 +31,7 @@ But in a big codebase (or with a rotating team) someone can unknowingly add the 
 :::
 
 # Step 1: Install the NuGet package
+
 `dotnet add package Microsoft.CodeAnalysis.BannedApiAnalyzers`
 
 ```xml
@@ -56,6 +57,7 @@ M:Newtonsoft.Json.JsonConvert.SerializeObject(System.Object, Newtonsoft.Json.Jso
 ```
 
 # Step 3: Add the `BannedSymbols.txt` to the `.csproj`
+
 ```xml
 <ItemGroup>
   <AdditionalFiles Include="BannedSymbols.txt" />
@@ -63,12 +65,15 @@ M:Newtonsoft.Json.JsonConvert.SerializeObject(System.Object, Newtonsoft.Json.Jso
 ```
 
 # Step 4: Make it fail on build to give instant feedback to the developer
+
 ```xml
 <WarningsAsErrors>RS0030</WarningsAsErrors>
 ```
+
 The analyzer emits diagnostic RS0030 (Banned Symbol), so you can elevate it to an error.
 
 Putting it all together, your `.csproj` should look like this:
+
 ```xml
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
