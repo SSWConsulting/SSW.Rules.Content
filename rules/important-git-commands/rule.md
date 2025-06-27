@@ -1,11 +1,10 @@
 ---
-seoDescription: Compare Git command line, GitHub Desktop, and GitKraken with pros/cons. Comprehensive Git commands reference with examples. Perfect guide for beginners to advanced developers choosing the best Git workflow in 2025.
 type: rule
-archivedreason:
 title: Do you know these important git commands?
-guid: 15698c3c-cf80-4c5c-9030-022aa47933d1
+seoDescription: Compare Git command line, GitHub Desktop, and GitKraken with
+  pros/cons. Comprehensive Git commands reference with examples. Perfect guide
+  for beginners to advanced developers choosing the best Git workflow in 2025.
 uri: important-git-commands
-created: 2014-05-22T20:02:08.0000000Z
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
@@ -15,6 +14,9 @@ authors:
     url: https://www.ssw.com.au/people/jerry-luo
 related: []
 redirects: []
+created: 2014-05-22T20:02:08.000Z
+archivedreason: null
+guid: 15698c3c-cf80-4c5c-9030-022aa47933d1
 ---
 
 
@@ -55,7 +57,7 @@ This sets up Git tracking for your project. It creates a .git directory containi
 Creates a local copy of a remote repository.
 
 ``` git
-git clone #repository-url
+git clone {{repository-url}}
 ```
 
 Example:
@@ -65,6 +67,13 @@ git clone https://github.com/test/hello-world.git
 ```
 
 This copies all the files, history, and branches from the remote repo.
+
+::: info
+If configured, you can clone via SSH:
+```git
+git clone git@github.com:test/hello-world
+```
+:::
 
 ### 3. git status
 
@@ -106,15 +115,25 @@ git add .
 
 ### 5. git commit
 
-Saves a snapshot of your staged changes with a message.
+Saves a snapshot of your staged changes with a message. This will open your configured editor.
 
 ``` git
+git commit
+```
+
+Alternatively, you can provide a message via the `-m` flag.
+
+```git
 git commit -m “@feature auth added”
 ```
 
 Each commit should describe why the changes were made—not just what was changed.
 
 Use clear, concise messages that help teammates (and your future self) understand the history.
+
+::: info
+A commonly followed spec [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/), serves as a way to keep commit messages consistent and easy to read. This involves prefixing commits with a `type` and optional `scope`, e.g. `feat(api): send an email to the customer when a product is shipped`
+:::
 
 ### 6. git diff
 
@@ -183,6 +202,16 @@ Switch to a branch:
 ``` git
 git checkout main
 ```
+
+Passing the `-b` flag allows you to create and checkout a new branch at the same time.
+
+```git
+git checkout -b new-branch
+```
+
+::: info
+Due to the `checkout` command having multiple uses, the Git team decided to split its usage into two additional commands, `switch` and `restore`. It's recommended to use `git switch (-c | -C) <new-branch>` to switch/create branches now days.
+:::
 
 ### 10. git branch
 
