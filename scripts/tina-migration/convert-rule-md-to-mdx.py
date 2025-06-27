@@ -31,7 +31,7 @@ def mdx_safe_template_vars(text):
     return text.replace("{{", "&#123;&#123;").replace("}}", "&#125;&#125;")
 
 def parse_email_table(table_text):
-    result = {'to': '', 'cc': '', 'bcc': '', 'subject': ''}
+    result = {'from': '', 'to': '', 'cc': '', 'bcc': '', 'subject': ''}
     for line in table_text.splitlines():
         parts = line.split('|')
         if len(parts) < 3:
@@ -44,6 +44,7 @@ def parse_email_table(table_text):
 
 def clean_email_body(body_text):
     cleaned = mdx_safe_template_vars(body_text)
+    cleaned = cleaned.replace(r'\>', '&gt;')
     return re.sub(r'^###', '##', cleaned, flags=re.MULTILINE)
 
 def clean_image_src(src):
@@ -58,7 +59,7 @@ def replace_youtube_block(m):
     desc = m.group(2).strip()
     return f'<youtubeEmbed url="{url}" description="{desc}" />'
 
-def replace_image_block(m):
+def replace_image_block(m, src_prefix):
     preset = m.group(1).strip()
     image_line = m.group(2).strip()
     alt_match = re.match(r'!\[Figure:\s*(.*?)\]\((.*?)\)', image_line)
@@ -66,7 +67,7 @@ def replace_image_block(m):
         return m.group(0)
     figure = alt_match.group(1).strip()
     raw_src = alt_match.group(2).strip()
-    src = clean_image_src(raw_src)
+    src = f"{src_prefix}/{clean_image_src(raw_src)}"
 
     return f'''<imageEmbed
   alt="Image"
@@ -80,11 +81,11 @@ def replace_image_block(m):
   src="{src}"
 />'''
 
-def replace_custom_size_image_block(m):
+def replace_custom_size_image_block(m, src_prefix):
     variant = m.group(1).strip()
     figure = escape_single_quotes(m.group(2).strip())
     raw_src = m.group(3).strip()
-    src = clean_image_src(raw_src)
+    src = f"{src_prefix}/{clean_image_src(raw_src)}"
 
     size = {
         "img-small": "small",
@@ -107,10 +108,10 @@ def replace_custom_size_image_block(m):
   src="{src}"
 />'''
 
-def replace_standalone_image(m):
+def replace_standalone_image(m, src_prefix):
     figure = m.group(1).strip()
     raw_src = m.group(2).strip()
-    src = clean_image_src(raw_src)
+    src = f"{src_prefix}/{clean_image_src(raw_src)}"
 
     return '\n' + f'''<imageEmbed
   alt="Image"
@@ -139,6 +140,7 @@ def replace_email_block(m):
     should_display = 'Figure:' in figure_block
 
     return f'''<emailEmbed
+  from="{email_data['from']}"
   to="{email_data['to']}"
   cc="{email_data['cc']}"
   bcc="{email_data['bcc']}"
@@ -248,19 +250,18 @@ def transform_rule_md_to_mdx(file_path):
         print(f"File not found: {file_path}")
         return
 
+    folder_name = path.parent.name
+    src_prefix = f"/uploads/rules/{folder_name}"
+
     content = path.read_text(encoding='utf-8')
-
     content = process_custom_aside_blocks(content)
-
     content = re.sub(r'^\s*<!--endintro-->\s*\n?', '', content, flags=re.MULTILINE)
-
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
-    content = re.sub(IMAGE_BLOCK_REGEX, replace_image_block, content, flags=re.DOTALL)
-    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, replace_custom_size_image_block, content, flags=re.DOTALL)
-    content = re.sub(STANDALONE_IMAGE_REGEX, replace_standalone_image, content)
+    content = re.sub(IMAGE_BLOCK_REGEX, lambda m: replace_image_block(m, src_prefix), content, flags=re.DOTALL)
+    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
+    content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
     content = re.sub(EMAIL_BLOCK_REGEX, replace_email_block, content, flags=re.DOTALL)
     content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
-
 
     output_path = path.with_suffix('.mdx')
     output_path.write_text(content, encoding='utf-8')
@@ -269,40 +270,37 @@ def transform_rule_md_to_mdx(file_path):
 
 def transform_all_rules(base_dir='../../rules'):
     start_time = time.time()
-
     base_path = Path(base_dir)
     if not base_path.exists():
         print(f"Base path not found: {base_dir}")
         return
 
     count = 0
-
     for rule_dir in base_path.iterdir():
         if rule_dir.is_dir():
             rule_md = rule_dir / 'rule.md'
             if rule_md.exists():
                 print(f"[INFO] Processing: {rule_md}")
                 try:
+                    folder_name = rule_md.parent.name
+                    src_prefix = f"/uploads/rules/{folder_name}"
                     content = rule_md.read_text(encoding='utf-8')
 
-                    # === TRANSFORM PIPELINE ===
                     content = process_custom_aside_blocks(content)
                     content = re.sub(r'^\s*<!--endintro-->\s*\n?', '', content, flags=re.MULTILINE)
                     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
-                    content = re.sub(IMAGE_BLOCK_REGEX, replace_image_block, content, flags=re.DOTALL)
-                    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, replace_custom_size_image_block, content, flags=re.DOTALL)
-                    content = re.sub(STANDALONE_IMAGE_REGEX, replace_standalone_image, content)
+                    content = re.sub(IMAGE_BLOCK_REGEX, lambda m: replace_image_block(m, src_prefix), content, flags=re.DOTALL)
+                    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
+                    content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
                     content = re.sub(EMAIL_BLOCK_REGEX, replace_email_block, content, flags=re.DOTALL)
                     content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
 
-                    # === SAVE AS rule.mdx ===
                     output_path = rule_md.with_suffix('.mdx')
                     output_path.write_text(content, encoding='utf-8')
-                    rule_md.unlink()  # delete original .md file
+                    # rule_md.unlink()  # delete original .md file
 
                     print(f"[SUCCESS] Converted and replaced: {output_path}")
                     count += 1
-
                 except Exception as e:
                     print(f"[ERROR] Failed to process {rule_md}: {e}")
 
