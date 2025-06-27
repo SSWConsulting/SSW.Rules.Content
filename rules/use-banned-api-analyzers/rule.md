@@ -1,6 +1,6 @@
 ---
 type: rule
-seoDescription: Use **BannedApiAnalyzers** with a repo-wide `bannedsymbols.txt` to block deprecated or disallowed APIs (and steer devs toward preferred libraries) before they hit `main`.  
+seoDescription: Use BannedApiAnalyzers with a repo-wide bannedsymbols.txt to block deprecated or disallowed APIs (and steer devs toward preferred libraries) before they hit main.  
 title: Do you use BannedApiAnalyzers to prevent unwanted APIs creeping back in?
 uri: use-banned-api-analyzers
 authors:
@@ -14,23 +14,24 @@ guid: 3f7ec0d1-86f5-43c3-8b83-7a871bfcfe63
 ---
 
 You finally dumped `BinaryFormatter`, replaced `WebClient` with `HttpClient`, and standardised on **System.Text.Json**!  
+
 But in a big codebase (or with a rotating team) someone can unknowingly add the old API back in a new feature branch, **undoing days of migration work**. The same risk appears with *library preferences*: you want everybody using `FluentValidation`, yet the next pull request pulls in `DataAnnotations` again.
 
 <!--endintro-->
 
-### Ban unwanted APIs at the compiler gate
+## Ban unwanted APIs at the compiler gate
 
 **[BannedApiAnalyzers](https://www.nuget.org/packages/Microsoft.CodeAnalysis.BannedApiAnalyzers/)** (the Microsoft-maintained NuGet package *Microsoft.CodeAnalysis.BannedApiAnalyzers*) lets you fail the build the instant a forbidden symbol is referenced. It’s compatible with SDK-style projects (e.g., `<Project Sdk="Microsoft.NET.Sdk">`), including those targeting .NET Framework.
 
 ::: bad
-![Figure: Bad example – Project builds without errors or warnings, but it uses unwanted or obsolete APIs.](banned-api-project-building.png)
+![Figure: Bad example – Project builds without errors or warnings, but it uses unwanted or obsolete APIs](banned-api-project-building.png)
 :::
 
 ::: good
-![Figure: Good example – The analyzer blocks the build and guides the developer towards the approved approach.](banned-api-lists-errors.png)
+![Figure: Good example – The analyzer blocks the build and guides the developer towards the approved approach](banned-api-lists-errors.png)
 :::
 
-# Step 1: Install the NuGet package
+### Step 1: Install the NuGet package
 
 `dotnet add package Microsoft.CodeAnalysis.BannedApiAnalyzers`
 
@@ -38,7 +39,7 @@ But in a big codebase (or with a rotating team) someone can unknowingly add the 
 <PackageReference Include="Microsoft.CodeAnalysis.BannedApiAnalyzers" Version="3.3.4" PrivateAssets="all" />
 ```
 
-# Step 2: Create `BannedSymbols.txt` file in the project directory
+### Step 2: Create `BannedSymbols.txt` file in the project directory
 
 If you can name the symbol, you can ban it.
 
@@ -56,7 +57,7 @@ M:Newtonsoft.Json.JsonConvert.SerializeObject(System.Object, Newtonsoft.Json.Jso
 M:Newtonsoft.Json.JsonConvert.SerializeObject(System.Object, Newtonsoft.Json.JsonSerializerSettings); Use System.Text.Json instead
 ```
 
-# Step 3: Add the `BannedSymbols.txt` to the `.csproj`
+### Step 3: Add the `BannedSymbols.txt` to the `.csproj`
 
 ```xml
 <ItemGroup>
@@ -64,7 +65,7 @@ M:Newtonsoft.Json.JsonConvert.SerializeObject(System.Object, Newtonsoft.Json.Jso
 </ItemGroup>
 ```
 
-# Step 4: Make it fail on build to give instant feedback to the developer
+### Step 4: Make it fail on build to give instant feedback to the developer
 
 ```xml
 <WarningsAsErrors>RS0030</WarningsAsErrors>
@@ -91,7 +92,7 @@ Putting it all together, your `.csproj` should look like this:
 </Project>
 ```
 
-# Tips for a high-impact `BannedSymbols.txt`
+## Tips for a high-impact `BannedSymbols.txt`
 
 | What to do | Why it matters |
 | ------------- | ----------- |
