@@ -55,6 +55,10 @@ In effect, these technologies together let you quickly build your own custom com
 
 Schadcn uses a special **cn** utility under the hood in it's component definition. This utility will override any of it's default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
 
+::: info
+Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) to merge sets of tailwind classes together and [clsx](https://www.npmjs.com/package/clsx) to append class names provided as arguments for a component provided the value is truthy.
+:::
+
 ```jsx
 const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
   {/* 
