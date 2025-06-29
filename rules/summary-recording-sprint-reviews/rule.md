@@ -27,6 +27,10 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 <!--endintro-->
 
+::: info
+To keep stakeholders informed beyond the Sprint Review, you should record a [Monthly Stakeholder Video](/monthly-stakeholder-video) to share key progress, blockers, and upcoming priorities.
+:::
+
 ## Why record a summary of the Sprint Meeting?
 
 * **Clarity:** Provides a clear, accessible update for all stakeholders, including those not present
