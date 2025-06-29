@@ -137,7 +137,3 @@ When evaluating a component library, also keep in mind:
 * **[KendoUI](https://www.telerik.com/kendo-ui)** - Offers advanced HTML and jQuery controls for data grids, charts, and more
 
 What's your favourite UI library?
-
-```
-
-```
