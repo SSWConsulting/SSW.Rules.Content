@@ -68,7 +68,7 @@ const Heading1 = ({className, children}: {className: string, children: React.Rea
 const Layout = ({children}: {children: React.ReactNode})=>{
   
   return <main>
-          {/*text-2xl will be applied here*/}
+          {/* text-2xl will be applied here */}
           <Heading1 className="text-2xl">
             Hello world!
           </Heading1>
