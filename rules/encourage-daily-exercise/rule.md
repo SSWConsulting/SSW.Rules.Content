@@ -69,7 +69,7 @@ Download the app: [SSW Rewards](https://www.ssw.com.au/products/rewards)
 
 ### 🏃‍♂️‍➡️ Make it simple
 
-[A healthy team is more energized, happy, and productive](https://www.cdc.gov/workplacehealthpromotion/initiatives/resource-center/case-studies/index.html), and a culture to encourage this should come from the top. The simplest plan is a walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
+[A healthy team is more energized, happy, and productive](https://www.cdc.gov/workplace-health-promotion/media/pdfs/2024/06/workplace-physical-activity-break-guide-508.pdf), and a culture to encourage this should come from the top. The simplest plan is a walk, preferably outdoors to soak in some natural sunlight for a [healthy dose of Vitamin D](https://www.betterhealth.vic.gov.au/health/healthyliving/vitamin-d), while being mindful of sun safety practices.
 
 Even though most of us are busy, all it takes is 20 minutes.
 
