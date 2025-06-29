@@ -53,7 +53,7 @@ For more info, see the related rule on [generating mockups with V0](https://www.
 
 In effect, these technologies together let you quickly build your own custom component library for any React application.
 
-Schadcn uses a special **cn** utility under the hood in it's component definition. This utility will override any of it's default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
+Schadcn uses a special **cn** utility under the hood in its component definition. This utility will override any of its default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
 
 ::: info
 Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) to merge sets of tailwind classes together and [clsx](https://www.npmjs.com/package/clsx) to append class names provided as arguments for a component provided the value is truthy.
