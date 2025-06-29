@@ -86,7 +86,7 @@ const Layout = ({children}: {children: React.ReactNode})=>{
 
 For a more in depth look, see the video later on.
 
-- - -
+---
 
 ## Bootstrap
 
@@ -102,7 +102,7 @@ While Bootstrap is a safe and reliable choice, it does have drawbacks, such as l
 You can see the popularity of various frameworks at [star-history.com](https://star-history.com/#shadcn-ui/ui&mui/material-ui&ant-design/ant-design&mantinedev/mantine&nextui-org/nextui&twbs/bootstrap&react-bootstrap/react-bootstrap&Date).
 :::
 
-- - -
+---
 
 ## If you want to find a better fit
 
