@@ -70,7 +70,7 @@ First check if what you want to change is already in the design system. If yes, 
 * Will users see this change?
 * Does it affect layout, spacing, interaction, or visuals?
 
-If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI before making changes.
+If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI.
 
 ### 2. Track it properly
 
@@ -95,14 +95,14 @@ Always check with design — no exceptions.
 This Menu has had small tweaks added over time: new icons, padding changes, label tweaks — all without a design review.
 :::
 ::: bad
-![Figure: Bad example – The Mega Menu has evolved and accumulated inconsistencies that breaks the original design](design-debt-bad-ex.png)
+![Figure: Bad example – The Mega Menu has evolved and accumulated inconsistencies that breaks the original design](design-debt-bad.png)
 :::
 
 ::: greybox
 This is the original Menu design — consistent, aligned with the design system, and reviewed by design before implementation.
 :::
 ::: good
-![Figure: Good example – The Mega Menu is clean and consistent as originally designed](design-debt-good-ex.png)
+![Figure: Good example – The Mega Menu is clean and consistent as originally designed](design-debt-good.png)
 :::
 
 ## More ways to prevent design debt
