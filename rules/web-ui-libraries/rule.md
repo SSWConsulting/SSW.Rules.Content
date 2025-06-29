@@ -61,10 +61,8 @@ Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tail
 
 ```jsx
 const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
-  {/* 
-      classes in the second argrument side of "cn" 
-      will take precedence over classes in the first argument 
-   */}
+  {/* Classes in the second argument of "cn" 
+    will override classes in the first argument */}
   return <h1 className=cn("font-semibold text-xl", className)>{children}</h1>
 }
 
