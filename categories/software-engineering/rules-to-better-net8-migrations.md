@@ -19,6 +19,7 @@ index:
   - dotnet-upgrade-for-complex-projects
   - do-you-check-your-api-serialisation-format
   - migrating-frontend-to-net8
+  - use-banned-api-analyzers
 ---
 
 Ready to migrate to .NET 8? Check [SSW's .NET 8 Migration consulting page](https://ssw.com.au/consulting/net-8).
