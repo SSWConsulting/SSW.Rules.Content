@@ -19,7 +19,7 @@ When writing code as a professional developer, "vibe coding" may make it easy to
 
 <!--endintro-->
 
-Hence it can be tempting to just "vibe" your way through a few features, if you do **not** understand what it does and why, you are going to get into trouble if bugs start popping up.
+Hence it can be tempting to just "vibe" your way through a few features, but if you do not understand **what it does and why**, you are going to get into trouble if bugs start popping up.
 
 ::: info
 There is a time and a place for it (e.g. building a rapid prototype, or working with a tight budget). See how [SSW empowers non-developers with the tools to start vibe coding](https://www.ssw.com.au/consulting/vibe-coding).
