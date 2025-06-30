@@ -63,7 +63,7 @@ def modify_category_files(categories_root='categories'):
                         # Convert to new format
                         indent = re.match(r'^\s*', line).group()
                         clean_item = item.replace('.md', '').strip("'\"")
-                        new_line = f"{indent}- rule: rules/{clean_item}/rule.md"
+                        new_line = f"{indent}- rule: rules/{clean_item}/rule.mdx"
                         new_index_lines.append(new_line)
                         needs_update = True
                     else:
@@ -82,6 +82,8 @@ def modify_category_files(categories_root='categories'):
             new_content = f"---\n{new_fm_content}\n---\n{body}"
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
+            new_file_path = Path(file_path).with_suffix('.mdx')
+            os.rename(file_path, new_file_path)
             print(f"Successfully updated: {file_path}\n")
         else:
             print(f"No changes needed for: {file_path}\n")

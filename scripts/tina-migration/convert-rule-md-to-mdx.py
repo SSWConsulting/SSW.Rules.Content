@@ -268,7 +268,7 @@ def transform_rule_md_to_mdx(file_path):
 
     print(f"Transformed content saved to: {output_path}")
 
-def transform_all_rules(base_dir='../../rules'):
+def transform_all_rules(base_dir='rules'):
     start_time = time.time()
     base_path = Path(base_dir)
     if not base_path.exists():
