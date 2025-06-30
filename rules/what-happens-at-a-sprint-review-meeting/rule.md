@@ -1,7 +1,9 @@
 ---
-seoDescription: Understand what happens in a Sprint Review meeting, including how PBIs are presented, accepted, or rejected, and how to keep stakeholders informed and engaged.
 type: rule
 title: Do you know what happens at a Sprint Review meeting?
+seoDescription: Understand what happens in a Sprint Review meeting, including
+  how PBIs are presented, accepted, or rejected, and how to keep stakeholders
+  informed and engaged.
 uri: what-happens-at-a-sprint-review-meeting
 authors:
   - title: Adam Cogan
@@ -62,7 +64,11 @@ Good example - Pinging the stakeholders in a (renamed) Teams chat at the beginni
 :::
 
 ::: good
+
+
+
 ![Figure: Good example - Ping the stakeholders with a photo of the meeting starting, then again just before the summary](sprint-review-stakeholders.png)
+
 :::
 
 ### What if you can't attend the Sprint Review
@@ -75,11 +81,12 @@ If you can't attend your team's Sprint Review (e.g. you're on leave, working par
 
 ::: email-template
 
-|          |     |
-| -------- | --- |
-| To:      | {{ YOUR SCRUM MASTER }} |
-| Cc:      | {{ YOUR TEAM }} |
-| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary |\
+|          |                                                                    |     |
+| -------- | ------------------------------------------------------------------ | --- |
+| To:      | {{ YOUR SCRUM MASTER }}                                            |     |
+| Cc:      | {{ YOUR TEAM }}                                                    |     |
+| Subject: | {{ YOUR NAME }} - Sprint Review {{ SPRINT REVIEW NUMBER }} Summary | \   |
+
 ::: email-content
 
 ### Hi Team
@@ -93,7 +100,7 @@ I won't be able to make the Sprint Review because {{ REASON }}. Here's an update
 :::
 :::
 
----
+- - -
 
 ::: greybox
 Learn more about the meetings in Scrum:
@@ -106,7 +113,7 @@ Learn more about the meetings in Scrum:
 **Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::
 
----
+- - -
 
 ::: info
 **Not doing Scrum?**
