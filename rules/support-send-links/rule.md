@@ -19,7 +19,7 @@ redirects: []
 When offering support to customers using your product, think about whether this problem has occurred before or could happen again. If it has, there should be documentation available. This not only helps customers resolve their issues faster but also reduces the repetitive workload for the support team.
 
 You should never have to answer the same question twice.
-When you get a new question e.g. "Can I do validation in TinaCMS?" these are the steps you should follow
+When you get a new question e.g. "Can I have co-authoring in TinaCMS?" these are the steps you should follow:
 
 1. Check for existing documentation.
 2. If it doesn't exist, create the documentation.
@@ -30,20 +30,21 @@ Every support message should include a link to the relevant documentation or, if
 <!--endintro-->
 
 ::: greybox
-Yes - you can do validation in TinaCMS.
-You can do it by adding the ui.validation function to your field definition.
+Yes - you can do co-authoring in TinaCMS.\
+You can do it by going to your TinaCloud account settings, filling out the Git co-author name and email, and then enabling it.
 
 Let me know if you have any issues with this!
 :::
 ::: bad
-Figure: Bad Example - explaining how to solve the problem when there are already docs
+Figure: Bad Example - explaining how to solve the problem when there are already documentation
 :::
 
 ::: greybox
-Yes - you can do validation in TinaCMS. Here is the link to the docs [https://tina.io/docs/extending-tina/validation](https://tina.io/docs/extending-tina/validation).
+Yes - you can do co-authoring in TinaCMS.\
+Here is the link to the documentation: [How to enable co-author on Git commits?](https://tina.io/docs/introduction/faq#7-how-to-enable-co-author-on-git-commits).
 :::
 ::: good
-Figure: Good Example - Replying with a link to the docs
+Figure: Good Example - Replying with a link
 :::
 
 Sometimes, you might get questions about bugs, upcoming features, or other things that are not documented. In this case,
@@ -63,4 +64,4 @@ After a while, you will build a great library of documentation that customers wi
 * **Do not** write a documentation page if fixing the bug and releasing a new version solves the problem. In this case, create a PBI (or find an existing one) and reply with the link to it.
 * **Do not** write a documentation page or PBI if the question/answer is irrelevant to your product, e.g., "Next.js - how do I deploy my app?" (This is not relevant to TinaCMS.)
 
-**🤖 AI Tip:** Consider training a chatbot on your documentation to help answer common questions automatically. [Learn more about implementing a chatbot](https://www.ssw.com.au/rules/website-chatbot/)
+**🤖 AI Tip:** Consider training a chatbot on your documentation to help answer common questions automatically. [Learn more about implementing a chatbot](/website-chatbot)
