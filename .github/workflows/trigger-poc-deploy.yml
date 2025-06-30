@@ -17,21 +17,33 @@ jobs:
     if: github.repository_owner == 'SSWConsulting'
 
     steps:
-      - name: Generate a token
-        id: generate-token
-        uses: actions/create-github-app-token@v2
-        with:
-          app-id: ${{ vars.POC_APP_ID }}
-          private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
-          owner: SSWConsulting
-          repositories: SSW.Rules.Tina.Nextjs.POC
+      # - name: Generate a token
+      #   id: generate-token
+      #   uses: actions/create-github-app-token@v2
+      #   with:
+      #     app-id: ${{ vars.POC_APP_ID }}
+      #     private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
+      #     owner: SSWConsulting
+      #     repositories: SSW.Rules.Tina.Nextjs.POC
 
-      # TODO - Change the ref for the main branch after PR validated
-      - name: Trigger Tina POC deploy with payload
+      # # TODO - Change the ref for the main branch after PR validated
+      # - name: Trigger Tina POC deploy with payload
+      #   run: |
+      #     gh workflow run build-and-deploy.yml \
+      #       --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
+      #       --ref main \
+      #       --field branch_name="${GITHUB_REF#refs/heads/}"
+      #   env:
+      #     GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+      - name: Get branch name
+        id: branch
         run: |
-          gh workflow run build-and-deploy.yml \
-            --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref main \
-            --field branch_name="${GITHUB_REF#refs/heads/}"
-        env:
-          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "branch=${{ github.head_ref }}" >> $GITHUB_OUTPUT
+          else
+            echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Trigger Vercel Deploy
+        run: |
+          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}?NEXT_PUBLIC_TINA_BRANCH=${{ steps.branch.outputs.branch }}"'
