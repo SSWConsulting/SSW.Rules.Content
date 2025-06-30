@@ -69,7 +69,7 @@ def modify_markdown_files(categories_root='categories'):
                             # Only modify if not already in category format
                             if not (item_content.startswith('category:') or ':' in item_content):
                                 clean_item = item_content.replace('.md', '').strip("'\"")
-                                new_line = f"{indent}- category: categories/{subfolder}/{clean_item}.md"
+                                new_line = f"{indent}- category: categories/{subfolder}/{clean_item}.mdx"
                                 new_lines.append(new_line)
                                 needs_update = True
                                 i += 1
@@ -89,6 +89,8 @@ def modify_markdown_files(categories_root='categories'):
             new_content = f"---\n{fm_content}\n---\n{body}"
             with open(file_path, 'w', encoding='utf-8') as f:
                 f.write(new_content)
+            new_file_path = Path(file_path).with_suffix('.mdx')
+            os.rename(file_path, new_file_path)
             print(f"Successfully updated: {file_path}")
             print("Changes made:")
             print(f"1. Added _template: top_category")
