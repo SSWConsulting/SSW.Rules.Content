@@ -92,17 +92,17 @@ Always check with design — no exceptions.
 ## Example – The SSW Mega Menu
 
 ::: greybox
-This Menu has had small tweaks added over time: new icons, padding changes, label tweaks — all without a design review.
+A desktop web app with ample space hides primary navigation behind a hamburger menu.
 :::
 ::: bad
-![Figure: Bad example – The Mega Menu has evolved and accumulated inconsistencies that breaks the original design](design-debt-bad.png)
+![Figure: Bad Example – On desktop, navigation should be visible when screen space allows. Hiding it behind a hamburger reduces usability.](design-debt-bad.png)
 :::
 
 ::: greybox
-This is the original Menu design — consistent, aligned with the design system, and reviewed by design before implementation.
+A mobile app uses a hamburger menu to preserve space while offering a clean, focused UI.
 :::
 ::: good
-![Figure: Good example – The Mega Menu is clean and consistent as originally designed](design-debt-good.png)
+![Figure: Good Example – On mobile, screen space is limited, so hiding the nav behind a hamburger is appropriate.](design-debt-good.png)
 :::
 
 ## More ways to prevent design debt
