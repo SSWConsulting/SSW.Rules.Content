@@ -32,51 +32,54 @@ jobs:
           echo "TINA_BRANCH=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
 
       # 2 Trigger Vercel deployment
-      - name: Deploy to Vercel (+ branch alias)
+      - name: Deploy to Vercel
         run: |
-          TARGET="${{ steps.vars.outputs.VERCEL_TARGET }}"
-          BRANCH="${{ steps.vars.outputs.TINA_BRANCH }}"
-
-          # --- 1 trigger deployment (same logic you had) ----------------
-          if [ "$TARGET" = "production" ]; then
+          if [[ "${{ steps.vars.outputs.VERCEL_TARGET }}" == "production" ]]; then
+            # Production deployment
             response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
               -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
               -H "Content-Type: application/json" \
               -d '{
-                "name": "'"${{ secrets.VERCEL_PROJECT }}"'",
-                "gitSource": { "type":"github", "repoId":'${{ secrets.WEBSITE_REPO_ID }}', "ref":"main" },
-                "build": { "env": { "NEXT_PUBLIC_TINA_BRANCH":"'"$BRANCH"'" } },
-                "target":"production"
+                "name": "${{ secrets.VERCEL_PROJECT }}",
+                "gitSource": {
+                  "type": "github",
+                  "repoId": "${{ secrets.WEBSITE_REPO_ID }}",
+                  "ref": "main"
+                },
+                "build": {
+                  "env": {
+                    "NEXT_PUBLIC_TINA_BRANCH": "${{ steps.vars.outputs.TINA_BRANCH }}"
+                  }
+                },
+                "target": "production"
               }')
           else
+            # Preview deployment (no target field)
             response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
               -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
               -H "Content-Type: application/json" \
               -d '{
-                "name": "'"${{ secrets.VERCEL_PROJECT }}"'",
-                "gitSource": { "type":"github", "repoId":'${{ secrets.WEBSITE_REPO_ID }}', "ref":"main" },
-                "build": { "env": { "NEXT_PUBLIC_TINA_BRANCH":"'"$BRANCH"'" } }
+                "name": "${{ secrets.VERCEL_PROJECT }}",
+                "gitSource": {
+                  "type": "github",
+                  "repoId": "${{ secrets.WEBSITE_REPO_ID }}",
+                  "ref": "main"
+                },
+                "build": {
+                  "env": {
+                    "NEXT_PUBLIC_TINA_BRANCH": "${{ steps.vars.outputs.TINA_BRANCH }}"
+                  }
+                }
               }')
           fi
-
-          echo "$response" | jq .
-
-          # --- 2 fail fast on API error --------------------------------
+          
+          echo "Vercel API Response:"
+          echo "$response"
+          
+          # Check if response contains error
           if echo "$response" | grep -q '"error"'; then
-            echo "Deployment failed" && exit 1
-          fi
-
-          # --- 3 preview-only: create clean alias ----------------------
-          if [ "$TARGET" != "production" ]; then
-            DEPLOY_ID=$(echo "$response" | jq -r '.id')
-            slug=$(echo "$BRANCH" | tr '[:upper:]' '[:lower:]' | sed -E 's#[^a-z0-9]+#-#g')
-            alias="${{ secrets.VERCEL_PROJECT }}-${slug}.vercel.app"
-
-            curl -s -X POST \
-              "https://api.vercel.com/v2/deployments/${DEPLOY_ID}/aliases?teamId=${{ secrets.VERCEL_TEAM }}" \
-              -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
-              -H "Content-Type: application/json" \
-              -d "{\"alias\":\"${alias}\"}"
-
-            echo "Alias created → ${alias}"
+            echo "Deployment failed"
+            exit 1
+          else
+            echo "Deployment triggered successfully"
           fi
