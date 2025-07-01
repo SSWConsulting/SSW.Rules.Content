@@ -34,6 +34,9 @@ jobs:
       # 2 Trigger Vercel deployment
       - name: Deploy to Vercel
         run: |
+          # Clean branch name for URL (replace special chars with hyphens)
+          CLEAN_BRANCH=$(echo "${{ steps.vars.outputs.TINA_BRANCH }}" | sed 's/[^a-zA-Z0-9]/-/g' | tr '[:upper:]' '[:lower:]')
+          
           if [[ "${{ steps.vars.outputs.VERCEL_TARGET }}" == "production" ]]; then
             # Production deployment
             response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
@@ -54,7 +57,7 @@ jobs:
                 "target": "production"
               }')
           else
-            # Preview deployment (no target field)
+            # Preview deployment with custom alias
             response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
               -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
               -H "Content-Type: application/json" \
@@ -69,7 +72,8 @@ jobs:
                   "env": {
                     "NEXT_PUBLIC_TINA_BRANCH": "${{ steps.vars.outputs.TINA_BRANCH }}"
                   }
-                }
+                },
+                "alias": ["'${CLEAN_BRANCH}'-${{ secrets.VERCEL_PROJECT }}.vercel.app"]
               }')
           fi
           
