@@ -27,30 +27,51 @@ jobs:
           if [[ "$GITHUB_REF_NAME" == "main" ]]; then
             echo "VERCEL_TARGET=production" >> $GITHUB_OUTPUT
           else
-            echo "VERCEL_TARGET=preview"    >> $GITHUB_OUTPUT
+            echo "VERCEL_TARGET=staging" >> $GITHUB_OUTPUT
           fi
           echo "TINA_BRANCH=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
 
       # 2 Trigger Vercel deployment
       - name: Deploy to Vercel
         run: |
-          response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
-            -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
-            -H "Content-Type: application/json" \
-            -d '{
-              "name": "${{ secrets.VERCEL_PROJECT }}",
-              "gitSource": {
-                "type": "github",
-                "repoId": "${{ secrets.WEBSITE_REPO_ID }}",
-                "ref": "main"
-              },
-              "build": {
-                "env": {
-                  "NEXT_PUBLIC_TINA_BRANCH": "${{ steps.vars.outputs.TINA_BRANCH }}"
+          if [[ "${{ steps.vars.outputs.VERCEL_TARGET }}" == "production" ]]; then
+            # Production deployment
+            response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
+              -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "name": "${{ secrets.VERCEL_PROJECT }}",
+                "gitSource": {
+                  "type": "github",
+                  "repoId": "${{ secrets.WEBSITE_REPO_ID }}",
+                  "ref": "main"
+                },
+                "build": {
+                  "env": {
+                    "NEXT_PUBLIC_TINA_BRANCH": "${{ steps.vars.outputs.TINA_BRANCH }}"
+                  }
+                },
+                "target": "production"
+              }')
+          else
+            # Preview deployment (no target field)
+            response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
+              -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+              -H "Content-Type: application/json" \
+              -d '{
+                "name": "${{ secrets.VERCEL_PROJECT }}",
+                "gitSource": {
+                  "type": "github",
+                  "repoId": "${{ secrets.WEBSITE_REPO_ID }}",
+                  "ref": "main"
+                },
+                "build": {
+                  "env": {
+                    "NEXT_PUBLIC_TINA_BRANCH": "${{ steps.vars.outputs.TINA_BRANCH }}"
+                  }
                 }
-              },
-              "target": "${{ steps.vars.outputs.VERCEL_TARGET }}"
-            }')
+              }')
+          fi
           
           echo "Vercel API Response:"
           echo "$response"
