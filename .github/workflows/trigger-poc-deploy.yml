@@ -14,36 +14,39 @@ jobs:
   trigger-deploy:
     needs: update-algolia
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'SSWConsulting'
+    env:
+      VERCEL_TOKEN:   ${{ secrets.VERCEL_TOKEN }}
+      VERCEL_PROJECT: ${{ secrets.VERCEL_PROJECT }}
+      VERCEL_TEAM:    ${{ secrets.VERCEL_TEAM }}
+      REPO_ID:        ${{ secrets.WEBSITE_REPO_ID }}
 
     steps:
-      # - name: Generate a token
-      #   id: generate-token
-      #   uses: actions/create-github-app-token@v2
-      #   with:
-      #     app-id: ${{ vars.POC_APP_ID }}
-      #     private-key: ${{ secrets.POC_APP_PRIVATE_KEY }}
-      #     owner: SSWConsulting
-      #     repositories: SSW.Rules.Tina.Nextjs.POC
+    # 3-1 Determine build target (prod vs preview)
+    - id: vars
+      run: |
+        if [[ "$GITHUB_REF_NAME" == "main" ]]; then
+          echo "VERCEL_TARGET=production" >> $GITHUB_OUTPUT
+        else
+          echo "VERCEL_TARGET=preview"    >> $GITHUB_OUTPUT
+        fi
+        echo "TINA_BRANCH=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
 
-      # # TODO - Change the ref for the main branch after PR validated
-      # - name: Trigger Tina POC deploy with payload
-      #   run: |
-      #     gh workflow run build-and-deploy.yml \
-      #       --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-      #       --ref main \
-      #       --field branch_name="${GITHUB_REF#refs/heads/}"
-      #   env:
-      #     GH_TOKEN: ${{ steps.generate-token.outputs.token }}
-      - name: Get branch name
-        id: branch
-        run: |
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            echo "branch=${{ github.head_ref }}" >> $GITHUB_OUTPUT
-          else
-            echo "branch=${GITHUB_REF#refs/heads/}" >> $GITHUB_OUTPUT
-          fi
-      
-      - name: Trigger Vercel Deploy
-        run: |
-          curl -X POST "${{ secrets.VERCEL_DEPLOY_HOOK }}?NEXT_PUBLIC_TINA_BRANCH=${{ steps.branch.outputs.branch }}"'
+    # 3-2 Trigger Vercel build (always compiling website branch `main`)
+    - run: |
+        curl -fsSL -X POST "https://api.vercel.com/v13/deployments" \
+          -H "Authorization: Bearer $VERCEL_TOKEN" \
+          -H "Content-Type: application/json" \
+          -d '{
+                "name":      "'"$VERCEL_PROJECT"'",
+                "project":   "'"$VERCEL_PROJECT"'",
+                "teamId":    "'"$VERCEL_TEAM"'",
+                "gitSource": {
+                  "type": "github",
+                  "repoId": "'"$REPO_ID"'",
+                  "ref":  "main"                            # ← always build main
+                },
+                "build": {
+                  "env": { "NEXT_PUBLIC_TINA_BRANCH": "'"${{ steps.vars.outputs.TINA_BRANCH }}"'" }
+                },
+                "target": "'"${{ steps.vars.outputs.VERCEL_TARGET }}"'"
+              }'
