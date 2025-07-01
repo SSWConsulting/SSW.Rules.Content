@@ -63,7 +63,7 @@ def modify_category_files(categories_root='categories'):
                         # Convert to new format
                         indent = re.match(r'^\s*', line).group()
                         clean_item = item.replace('.md', '').strip("'\"")
-                        new_line = f"{indent}- rule: rules/{clean_item}/rule.mdx"
+                        new_line = f"{indent}- rule: public/uploads/rules/{clean_item}/rule.mdx"
                         new_index_lines.append(new_line)
                         needs_update = True
                     else:
