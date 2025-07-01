@@ -41,12 +41,18 @@ def extract_rule_key(rule_line):
         return match.group(1)
     return None
 
-def build_rule_category_maps(categories_root='categories', output_dir='scripts/tina-migration'):
+def build_rule_category_maps(categories_root='categories'):
+    output_dir = os.getcwd()
     rule_to_cats_file = os.path.join(output_dir, 'rule-to-categories.json')
     cat_title_map_file = os.path.join(output_dir, 'category-uri-title-map.json')
 
-    pattern = os.path.join(categories_root, '**', '*.mdx')
+    os.makedirs(output_dir, exist_ok=True)
+
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    categories_path = os.path.join(script_dir, '..', '..', categories_root)
+    pattern = os.path.join(categories_path, '**', '*.mdx')
     mdx_files = glob.glob(pattern, recursive=True)
+
     mdx_files = [f for f in mdx_files if not f.endswith('index.mdx')]
 
     rule_to_categories = {}
