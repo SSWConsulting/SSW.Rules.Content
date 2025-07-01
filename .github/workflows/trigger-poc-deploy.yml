@@ -20,45 +20,45 @@ jobs:
       VERCEL_TEAM:    ${{ secrets.VERCEL_TEAM }}
       REPO_ID:        ${{ secrets.WEBSITE_REPO_ID }}
 
-steps:
-  # 1 Decide deployment target + pass content branch
-  - id: vars
-    run: |
-      if [[ "$GITHUB_REF_NAME" == "main" ]]; then
-        echo "VERCEL_TARGET=production" >> $GITHUB_OUTPUT
-      else
-        echo "VERCEL_TARGET=preview"    >> $GITHUB_OUTPUT
-      fi
-      echo "TINA_BRANCH=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
+    steps:
+      # 1 Decide deployment target + pass content branch
+      - id: vars
+        run: |
+          if [[ "$GITHUB_REF_NAME" == "main" ]]; then
+            echo "VERCEL_TARGET=production" >> $GITHUB_OUTPUT
+          else
+            echo "VERCEL_TARGET=preview"    >> $GITHUB_OUTPUT
+          fi
+          echo "TINA_BRANCH=$GITHUB_REF_NAME" >> $GITHUB_OUTPUT
 
-  # 2 Trigger Vercel (website always builds main)
-  - name: Call Vercel API
-    env:
-      VERCEL_TOKEN:   ${{ secrets.VERCEL_TOKEN }}
-      VERCEL_PROJECT: ${{ secrets.VERCEL_PROJECT }}
-      VERCEL_TEAM:    ${{ secrets.VERCEL_TEAM }}
-      REPO_ID:        ${{ secrets.WEBSITE_REPO_ID }}   # number, no quotes
-      VERCEL_TARGET:  ${{ steps.vars.outputs.VERCEL_TARGET }}
-      TINA_BRANCH:    ${{ steps.vars.outputs.TINA_BRANCH }}
-    run: |
-      cat >payload.json <<JSON
-      {
-        "name":    "${VERCEL_PROJECT}",
-        "project": "${VERCEL_PROJECT}",
-        "teamId":  "${VERCEL_TEAM}",
-        "gitSource": {
-          "type": "github",
-          "repoId": ${REPO_ID},
-          "ref":  "main"
-        },
-        "build": {
-          "env": { "NEXT_PUBLIC_TINA_BRANCH": "${TINA_BRANCH}" }
-        },
-        "target": "${VERCEL_TARGET}"
-      }
-      JSON
+      # 2 Trigger Vercel (website always builds main)
+      - name: Call Vercel API
+        env:
+          VERCEL_TOKEN:   ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_PROJECT: ${{ secrets.VERCEL_PROJECT }}
+          VERCEL_TEAM:    ${{ secrets.VERCEL_TEAM }}
+          REPO_ID:        ${{ secrets.WEBSITE_REPO_ID }}   # number, no quotes
+          VERCEL_TARGET:  ${{ steps.vars.outputs.VERCEL_TARGET }}
+          TINA_BRANCH:    ${{ steps.vars.outputs.TINA_BRANCH }}
+        run: |
+          cat >payload.json <<JSON
+          {
+            "name":    "${VERCEL_PROJECT}",
+            "project": "${VERCEL_PROJECT}",
+            "teamId":  "${VERCEL_TEAM}",
+            "gitSource": {
+              "type": "github",
+              "repoId": ${REPO_ID},
+              "ref":  "main"
+            },
+            "build": {
+              "env": { "NEXT_PUBLIC_TINA_BRANCH": "${TINA_BRANCH}" }
+            },
+            "target": "${VERCEL_TARGET}"
+          }
+          JSON
 
-      curl -fsS -X POST https://api.vercel.com/v13/deployments \
-        -H "Authorization: Bearer ${VERCEL_TOKEN}" \
-        -H "Content-Type: application/json" \
-        --data-binary @payload.json
+          curl -fsS -X POST https://api.vercel.com/v13/deployments \
+            -H "Authorization: Bearer ${VERCEL_TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data-binary @payload.json
