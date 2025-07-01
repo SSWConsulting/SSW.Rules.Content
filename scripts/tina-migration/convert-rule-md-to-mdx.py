@@ -297,7 +297,7 @@ def transform_all_rules(base_dir='rules'):
 
                     output_path = rule_md.with_suffix('.mdx')
                     output_path.write_text(content, encoding='utf-8')
-                    # rule_md.unlink()  # delete original .md file
+                    rule_md.unlink()  # delete original .md file
 
                     print(f"[SUCCESS] Converted and replaced: {output_path}")
                     count += 1
