@@ -34,13 +34,11 @@ jobs:
       # 2 Trigger Vercel deployment
       - name: Deploy to Vercel
         run: |
-          curl -fsS -X POST "https://api.vercel.com/v13/deployments" \
+          response=$(curl -s -X POST "https://api.vercel.com/v13/deployments" \
             -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
             -H "Content-Type: application/json" \
             -d '{
               "name": "${{ secrets.VERCEL_PROJECT }}",
-              "project": "${{ secrets.VERCEL_PROJECT }}",
-              "teamId": "${{ secrets.VERCEL_TEAM }}",
               "gitSource": {
                 "type": "github",
                 "repoId": "${{ secrets.WEBSITE_REPO_ID }}",
@@ -52,4 +50,15 @@ jobs:
                 }
               },
               "target": "${{ steps.vars.outputs.VERCEL_TARGET }}"
-            }'
+            }')
+          
+          echo "Vercel API Response:"
+          echo "$response"
+          
+          # Check if response contains error
+          if echo "$response" | grep -q '"error"'; then
+            echo "Deployment failed"
+            exit 1
+          else
+            echo "Deployment triggered successfully"
+          fi
