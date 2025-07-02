@@ -7,6 +7,8 @@ seoDescription: ""
 uri: self-contained-images-and-content
 authors:
   - title: ""
+related:
+  - using-markdown-to-store-your-content
 guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
 ---
 When building a website using **TinaCMS and Next.js**, it’s important to keep your content (Markdown/MDX files) and related images together in the same folder. This makes your project easier to maintain, improves GitHub editing, and supports better portability.
