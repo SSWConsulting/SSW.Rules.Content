@@ -9,8 +9,10 @@ authors:
 created: 2025-01-03T00:00:00.000Z
 guid: 8a2f4e3d-1b5c-4e6f-8a9b-2c3d4e5f6a7b
 related:
-  - provide-list-of-arguments
-  - do-you-use-a-dependency-injection-centric-architecture
+    - provide-list-of-arguments
+    - do-you-use-a-dependency-injection-centric-architecture
+    - dependency-injection
+    - use-fluent-validation
 ---
 
 When building command line applications in .NET, you need a framework that makes argument parsing, validation, and help generation simple and intuitive. [Cocona](https://github.com/mayuki/Cocona) is a lightweight and powerful framework that turns your C# methods into fully-featured CLI commands with minimal boilerplate code.
