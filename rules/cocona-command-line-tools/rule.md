@@ -148,6 +148,7 @@ app.Run();
 ```
 
 This creates a CLI with commands like:
+
 * `myapp migrate --connection-string "..." --dry-run`
 * `myapp seed --connection-string "..." --data-file "custom.json"`
 
