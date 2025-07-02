@@ -48,7 +48,8 @@ You have 3 options:
 ✅ No custom middleware needed  
 ❌ MDX files live in `public`, which is unconventional—but works
 
-
+This option is clean, simple, and works with Tina’s Media Manager out of the box—no special setup required. See more on [Tina.io - The 3 options for storing markdown in GitHub for TinaCMS
+](https://www.youtube.com/watch?v=i3A6KqxcLYE).
 
 
 
