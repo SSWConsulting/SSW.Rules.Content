@@ -76,7 +76,7 @@ The idea is to take the existing application and incrementally update it to a mo
 
 The idea is to create a "new" application (with a modern architecture) that acts as a facade to the existing application - then port features bit by bit to the new/modern architecture. Once slices of functionality have been ported and are ready - re-point the facade to execute the new code. You can trigger this through feature flags and this also allows you to rollback to the old code if something goes wrong.
 
-::: tip
+::: info
 Looking to incrementally update an ASP.NET application? Read about using [YARP](https://microsoft.github.io/reverse-proxy/) and [Incremental ASP.NET to ASP.NET Core Migration](https://devblogs.microsoft.com/dotnet/incremental-asp-net-to-asp-net-core-migration/)
 :::
 
