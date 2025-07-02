@@ -1,5 +1,4 @@
 ---
-seoDescription: Build powerful .NET command line tools with Cocona - a lightweight framework that transforms C# methods into CLI commands with automatic help generation, validation, and dependency injection support.
 type: rule
 title: Do you use Cocona for building great command line tools in .NET?
 uri: cocona-command-line-tools
@@ -21,13 +20,13 @@ Cocona has many built-in features that make it feel familiar to .NET developers
 
 Cocona offers several advantages over manual argument parsing or other CLI frameworks:
 
-* **Simple and intuitive**: Transform regular C# methods into CLI commands
-* **Automatic help generation**: Built-in help text and usage information
-* **Type safety**: Strong typing for command parameters and options
-* **Dependency injection**: Built-in DI container support
-* **Validation support**: Integration with data annotations for parameter validation
-* **Async support**: First-class support for async/await patterns
-* **Multiple commands**: Easy support for sub-commands and complex CLI structures
+- **Simple and intuitive**: Transform regular C# methods into CLI commands
+- **Automatic help generation**: Built-in help text and usage information
+- **Type safety**: Strong typing for command parameters and options
+- **Dependency injection**: Built-in DI container support
+- **Validation support**: Integration with data annotations for parameter validation
+- **Async support**: First-class support for async/await patterns
+- **Multiple commands**: Easy support for sub-commands and complex CLI structures
 
 <!--endintro-->
 
@@ -63,7 +62,6 @@ class Program
     }
 }
 ```
-
 ::: bad
 Figure: Bad example - Manual argument parsing is error-prone and verbose.
 :::
@@ -78,14 +76,13 @@ app.AddCommand("greet", (string name, string greeting = "Hello") =>
 });
 app.Run();
 ```
-
 ::: good
 Figure: Good example - Cocona simplifies command line argument parsing and usage. 😌
 :::
 
 ## Validation
 
-Cocona integrates seamlessly with data annotations for parameter validation.
+Cocona integrates seamlessly with data annotations for parameter validation:
 
 ```csharp
 using Cocona;
@@ -94,9 +91,7 @@ using System.ComponentModel.DataAnnotations;
 public class FileProcessor
 {
     public void ProcessFiles(
-        [Argument] string inputPath,
-        [Argument, StringLength(50)] string fileName,
-        [Argument] string? optionalMetadata,
+        [Argument, Required] string inputPath,
         [Option('o', Description = "Output directory")] string outputPath = "./output",
         [Option, Range(1, 10)] int threads = 1,
         [Option] bool verbose = false)
@@ -113,6 +108,8 @@ var app = CoconaApp.Create();
 app.AddCommands<FileProcessor>();
 app.Run();
 ```
+
+This automatically generates help text like:
 
 ## Multiple Commands Example
 
@@ -148,8 +145,8 @@ app.Run();
 ```
 
 This creates a CLI with commands like:
-* `myapp migrate --connection-string "..." --dry-run`
-* `myapp seed --connection-string "..." --data-file "custom.json"`
+- `myapp migrate --connection-string "..." --dry-run`
+- `myapp seed --connection-string "..." --data-file "custom.json"`
 
 ## Integration with Dependency Injection
 
@@ -183,6 +180,7 @@ app.Run();
 
 For more information, visit the [Cocona GitHub repository](https://github.com/mayuki/Cocona).
 
-::: info
-**Tip:** Improve your CLI tool's UI with tools like [Colorful.Console](https://github.com/khalidabuhakmeh/Colorful.Console) for colored output, or [Spectre.Console](https://spectreconsole.net/) for rich terminal applications.
-:::
+## Related Rules
+
+* [Do you use the Dependency Injection design pattern?](/dependency-injection) - Cocona integrates seamlessly with .NET's built-in DI container
+* [Do you use Fluent Validation?](/use-fluent-validation) - For more advanced validation scenarios beyond data annotations

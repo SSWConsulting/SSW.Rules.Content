@@ -7,7 +7,7 @@ index:
 - ui-for-a-command-line-utility
 - ui-by-default-when-you-type-applicationname-exe
 - provide-list-of-arguments
-- use-cocona-for-command-line-tools
+- cocona-command-line-tools
 - organize-terminal-sessions-with-panes
 ---
 
