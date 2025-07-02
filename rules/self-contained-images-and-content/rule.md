@@ -3,10 +3,15 @@ type: rule
 tips: ""
 title: Do you keep your images and content self-contained in your TinaCMS +
   Next.js project?
-seoDescription: ""
+seoDescription: Best practices for keeping your content and images self-contained in TinaCMS + Next.js, with three options and a recommended setup.
 uri: self-contained-images-and-content
 authors:
-  - title: ""
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Gilles Pothieu
+    url: https://www.ssw.com.au/people/gilles-pothieu
+  - title: Hugo Pernet
+    url: https://www.ssw.com.au/people/hugo-pernet
 related:
   - using-markdown-to-store-your-content
 guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
