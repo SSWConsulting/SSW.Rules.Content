@@ -54,7 +54,7 @@ Doing this will ensure:
 * You don’t forget anything important
 * The receiver knows who else agrees with the content
 
-::: tip
+::: info
 Not everyone knows about this rule - make the "checked by" line a hyperlink to this rule to avoid confusion
 :::
 
