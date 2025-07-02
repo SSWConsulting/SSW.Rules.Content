@@ -27,8 +27,6 @@ To protect your company and users, you must **check and delete the specific revi
 
 Finally, it's important to leave a **transparent comment in the issue** confirming that sensitive content was removed, and where it appeared (e.g. in a video, image, or text block).
 
-- - -
-
 ## Steps to properly remove confidential data
 
 1. **Edit the Issue or comment**\
