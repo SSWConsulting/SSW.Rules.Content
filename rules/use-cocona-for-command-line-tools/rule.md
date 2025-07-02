@@ -20,13 +20,13 @@ Cocona has many built-in features that make it feel familiar to .NET developers
 
 Cocona offers several advantages over manual argument parsing or other CLI frameworks:
 
-- **Simple and intuitive**: Transform regular C# methods into CLI commands
-- **Automatic help generation**: Built-in help text and usage information
-- **Type safety**: Strong typing for command parameters and options
-- **Dependency injection**: Built-in DI container support
-- **Validation support**: Integration with data annotations for parameter validation
-- **Async support**: First-class support for async/await patterns
-- **Multiple commands**: Easy support for sub-commands and complex CLI structures
+* **Simple and intuitive**: Transform regular C# methods into CLI commands
+* **Automatic help generation**: Built-in help text and usage information
+* **Type safety**: Strong typing for command parameters and options
+* **Dependency injection**: Built-in DI container support
+* **Validation support**: Integration with data annotations for parameter validation
+* **Async support**: First-class support for async/await patterns
+* **Multiple commands**: Easy support for sub-commands and complex CLI structures
 
 <!--endintro-->
 
@@ -62,6 +62,7 @@ class Program
     }
 }
 ```
+
 ::: bad
 Figure: Bad example - Manual argument parsing is error-prone and verbose.
 :::
@@ -76,6 +77,7 @@ app.AddCommand("greet", (string name, string greeting = "Hello") =>
 });
 app.Run();
 ```
+
 ::: good
 Figure: Good example - Cocona simplifies command line argument parsing and usage. 😌
 :::
@@ -145,8 +147,8 @@ app.Run();
 ```
 
 This creates a CLI with commands like:
-- `myapp migrate --connection-string "..." --dry-run`
-- `myapp seed --connection-string "..." --data-file "custom.json"`
+* `myapp migrate --connection-string "..." --dry-run`
+* `myapp seed --connection-string "..." --data-file "custom.json"`
 
 ## Integration with Dependency Injection
 
