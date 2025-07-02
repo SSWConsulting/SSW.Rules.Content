@@ -15,7 +15,7 @@ related:
 
 When building command line applications in .NET, you need a framework that makes argument parsing, validation, and help generation simple and intuitive. [Cocona](https://github.com/mayuki/Cocona) is a lightweight and powerful framework that turns your C# methods into fully-featured CLI commands with minimal boilerplate code.
 
-Cocona has many built-in features that make it feel familiar to .NET developers
+Cocona has many built-in features that make it feel familiar to .NET developers.
 
 ## Why use Cocona?
 
