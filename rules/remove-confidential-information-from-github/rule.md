@@ -20,7 +20,7 @@ If you accidentally include confidential information in a GitHub Issue - whether
 
 But that’s **not enough**.
 
-GitHub retains a full revision history for issues and comments. This means others can still view older versions and recover the compromised data. 
+GitHub retains a full revision history for issues and comments. This means others can still view older versions and recover the compromised data.
 
 <!--endintro-->
 
