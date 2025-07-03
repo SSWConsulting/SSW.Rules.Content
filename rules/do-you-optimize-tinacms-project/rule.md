@@ -25,15 +25,14 @@ When working with large datasets or generating multiple subcomponents, following
 
 -   **Use deeply nested schemas with nested references**
 
-    -   Complex and deeply nested schemas increase the complexity of the project, making it harder to manage and more prone to build failures
-    -   They can also lead to inefficient data fetching, further slowing down both runtime and build processes
+    -   This increases the complexity of the project, making it harder to manage and more prone to build failures
+    -   It also leads to inefficient data fetching, further slowing down both runtime and build processes
 
 ### ✅ Good practices
 
--   **Make a single request at a top-level server component and use React Context or a state management library**
+-   **Make a single request in a top-level server component and share data via React Context or a state library**
 
-    -   Data fetched at the top level can be stored in a React Context or a global state management solution (e.g., [Redux](https://redux.js.org/)). This allows all components to access the data without the need to pass props manually
-    -   This approach ensures better scalability, as subcomponents can access the necessary data directly from the context or store, eliminating redundant API calls and avoiding prop drilling
+    - Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
 
 ::: good
 
@@ -101,4 +100,4 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 
 -   **Write custom GraphQL queries**
 
-    -   Auto-generated GraphQL queries are not optimized and may include nested objects with redundant data. For example, recipes that include an ingredients object, which in turn includes the same recipes again. Creating custom queries can reduce the size of objects and improve performance
+    -   Auto-generated GraphQL queries are often unoptimized and may contain nested objects with redundant data. For example, a recipe might include an ingredients object, which in turn references the same recipe again. Creating custom queries can reduce the size of objects and improve performance
