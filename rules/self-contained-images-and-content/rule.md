@@ -1,8 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you keep your images and content self-contained in your TinaCMS +
-  Next.js project?
+title: Do you keep your images and content self-contained in your TinaCMS +  Next.js project?
 seoDescription: Best practices for keeping your content and images self-contained in TinaCMS + Next.js, with three options and a recommended setup.
 uri: self-contained-images-and-content
 authors:
@@ -20,7 +19,7 @@ When building a website using **TinaCMS and Next.js**, it’s important to keep 
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=JX90jbgAvRw`  
+`youtube: https://www.youtube.com/watch?v=JX90jbgAvRw`
 **Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)**
 
 By default, Tina stores content in a `/content` folder and images in `/public`, which breaks self-containment and can cause confusion.
@@ -78,5 +77,7 @@ You have 3 options:
 This option is clean, simple, and works with Tina’s Media Manager out of the box — no special setup required.
 
 ![Figure: Option 3 - Folder structure](option-3-structure.png)
+
+---
 
 See more on [Tina.io - Storing Media With Content](https://tina.io/docs/guides/storing-media-with-content).
