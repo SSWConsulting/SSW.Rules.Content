@@ -17,7 +17,7 @@ related:
 guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
 ---
 When building a website using **TinaCMS and Next.js**, it’s important to keep your content (Markdown/MDX files) and related images together in the same folder. This makes your project easier to maintain, improves GitHub editing, and supports better portability.
-            
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=G5ax5HIVYTU`  
@@ -31,9 +31,9 @@ You have 3 options:
 
 ## 1. Default structure
 
-- Content in `/content`
-- Images in `/public`
-- You must manually manage matching folder names and use frontmatter to point to images.
+* Content in `/content`
+* Images in `/public`
+* You must manually manage matching folder names and use frontmatter to point to images.
 
 **✅ Pros**
 
@@ -46,8 +46,8 @@ You have 3 options:
 
 ## 2. Everything inside content folder
 
-- Each rule gets a folder in `/content`
-- Images are stored alongside the MDX file
+* Each rule gets a folder in `/content`
+* Images are stored alongside the MDX file
 
 **✅ Pros**
 
@@ -62,14 +62,14 @@ You have 3 options:
 
 ## 3. Everything inside public folder (✅ Recommended)
 
-- Each rule has a folder in `/public/rules`
-- Images and MDX file live together
+* Each rule has a folder in `/public/rules`
+* Images and MDX file live together
 
 **✅ Pros**
 
 * Fully self-contained  
 * Tina Media Manager works  
-* No custom middleware needed 
+* No custom middleware needed
   
 **❌ Cons**
 
