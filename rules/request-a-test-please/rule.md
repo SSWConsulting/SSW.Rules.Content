@@ -53,12 +53,12 @@ These are the steps you should take when requesting a "Test Please" via email:
 | | |
 | -------- | --- |
 | To:| John |
-| Subject: | Product Name v1.11 |
+| Subject: | Test Please - Product Name v1.11 |
 ::: email-content
 
-1. <mark>'Test Please'</mark>
+<mark>Test Please</mark>
 
-### Hi John
+### Hi John,
 
 I am looking for bugs or approval to release this version.
 
