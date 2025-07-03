@@ -6,6 +6,8 @@ uri: keep-your-urls-clean
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
   - create-friendly-short-urls
   - relevant-words-on-links
