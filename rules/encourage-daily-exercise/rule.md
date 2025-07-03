@@ -21,7 +21,7 @@ archivedreason: null
 guid: 7255f54e-219b-46cd-b1d4-210997e5c99c
 ---
 
-Daily exercise is essential for maintaining peak mental and physical performance. For developers and knowledge workers, staying active helps improve focus, reduce stress, and boost overall productivity. Whether it's a 20-minute walk, a quick gym session, or even stretching between meetings, regular movement keeps your energy levels up and your mind sharp. 
+Daily exercise is essential for maintaining peak mental and physical performance. For developers and knowledge workers, staying active helps improve focus, reduce stress, and boost overall productivity. Whether it's a 20-minute walk, a quick gym session, or even stretching between meetings, regular movement keeps your energy levels up and your mind sharp.
 
 Just like writing clean code, **consistency is key** - a little each day makes a big difference over time.
 
