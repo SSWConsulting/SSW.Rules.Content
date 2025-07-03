@@ -29,35 +29,54 @@ By default, Tina stores content in a `/content` folder and images in `/public`, 
 
 You have 3 options:
 
-## 1. **Default structure**
+## 1. Default structure
 
 - Content in `/content`
 - Images in `/public`
 - You must manually manage matching folder names and use frontmatter to point to images.
 
-✅ Works out of the box  
-❌ Not self-contained  
-❌ Prone to errors when renaming/moving files
+**✅ Pros**
 
-## 2. **Everything inside content folder**
+* Works out of the box  
+  
+**❌ Cons**
+
+* Not self-contained  
+* Prone to errors when renaming/moving files
+
+## 2. Everything inside content folder
 
 - Each rule gets a folder in `/content`
 - Images are stored alongside the MDX file
 
-✅ Fully self-contained  
-✅ Tina Media Manager works  
-❌ Requires extra setup: update config, collections, and add a middleware
+**✅ Pros**
 
-## 3. **Everything inside public folder** (✅ Recommended)
+* Fully self-contained  
+* Tina Media Manager works  
+  
+**❌ Cons**
+
+* Requires extra setup: update config, collections, and add a middleware
+
+![Figure: Option 2 - Folder structure](option-2-structure.png)
+
+## 3. Everything inside public folder (✅ Recommended)
 
 - Each rule has a folder in `/public/rules`
 - Images and MDX file live together
 
-✅ Fully self-contained  
-✅ Tina Media Manager works  
-✅ No custom middleware needed  
-❌ MDX files live in `public`, which is unconventional—but works
+**✅ Pros**
+
+* Fully self-contained  
+* Tina Media Manager works  
+* No custom middleware needed 
+  
+**❌ Cons**
+
+* MDX files live in `public`, which is unconventional—but works
 
 This option is clean, simple, and works with Tina’s Media Manager out of the box — no special setup required.
+
+![Figure: Option 3 - Folder structure](option-3-structure.png)
 
 See more on [Tina.io - Storing Media With Content](https://tina.io/docs/guides/storing-media-with-content).
