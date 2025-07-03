@@ -17,7 +17,7 @@ related:
 guid: fbe98e99-b57f-4605-a498-459bbbfc5ea7
 ---
 When building a website using **TinaCMS and Next.js**, it’s important to keep your content (Markdown/MDX files) and related images together in the same folder. This makes your project easier to maintain, improves GitHub editing, and supports better portability.
-            
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=G5ax5HIVYTU`  
@@ -29,35 +29,54 @@ By default, Tina stores content in a `/content` folder and images in `/public`, 
 
 You have 3 options:
 
-## 1. **Default structure**
+## 1. Default structure
 
-- Content in `/content`
-- Images in `/public`
-- You must manually manage matching folder names and use frontmatter to point to images.
+* Content in `/content`
+* Images in `/public`
+* You must manually manage matching folder names and use frontmatter to point to images.
 
-✅ Works out of the box  
-❌ Not self-contained  
-❌ Prone to errors when renaming/moving files
+**✅ Pros**
 
-## 2. **Everything inside content folder**
+* Works out of the box  
+  
+**❌ Cons**
 
-- Each rule gets a folder in `/content`
-- Images are stored alongside the MDX file
+* Not self-contained  
+* Prone to errors when renaming/moving files
 
-✅ Fully self-contained  
-✅ Tina Media Manager works  
-❌ Requires extra setup: update config, collections, and add a middleware
+## 2. Everything inside content folder
 
-## 3. **Everything inside public folder** (✅ Recommended)
+* Each rule gets a folder in `/content`
+* Images are stored alongside the MDX file
 
-- Each rule has a folder in `/public/rules`
-- Images and MDX file live together
+**✅ Pros**
 
-✅ Fully self-contained  
-✅ Tina Media Manager works  
-✅ No custom middleware needed  
-❌ MDX files live in `public`, which is unconventional—but works
+* Fully self-contained  
+* Tina Media Manager works  
+  
+**❌ Cons**
+
+* Requires extra setup: update config, collections, and add a middleware
+
+![Figure: Option 2 - Folder structure](option-2-structure.png)
+
+## 3. Everything inside public folder (✅ Recommended)
+
+* Each rule has a folder in `/public/rules`
+* Images and MDX file live together
+
+**✅ Pros**
+
+* Fully self-contained  
+* Tina Media Manager works  
+* No custom middleware needed
+  
+**❌ Cons**
+
+* MDX files live in `public`, which is unconventional—but works
 
 This option is clean, simple, and works with Tina’s Media Manager out of the box — no special setup required.
+
+![Figure: Option 3 - Folder structure](option-3-structure.png)
 
 See more on [Tina.io - Storing Media With Content](https://tina.io/docs/guides/storing-media-with-content).
