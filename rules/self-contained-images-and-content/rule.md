@@ -20,7 +20,7 @@ When building a website using **TinaCMS and Next.js**, it’s important to keep 
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=G5ax5HIVYTU`  
+`youtube: https://www.youtube.com/watch?v=JX90jbgAvRw`  
 **Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)**
 
 By default, Tina stores content in a `/content` folder and images in `/public`, which breaks self-containment and can cause confusion.
