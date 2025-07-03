@@ -32,7 +32,7 @@ Understanding basic video editing terminology allows for better communication du
 
 ## 1. Primary Footage (aka Main Footage)
 
-Primary footage is what tells the story by conveying a message. These are general types of primary footage: 
+Primary footage is what tells the story by conveying a message. These are general types of primary footage:
 
 1. Talking heads in an interview
 2. Screen share during a live demo
@@ -70,7 +70,7 @@ For example, when talking about what's needed to start a coding project in Visua
 
 ## 3. Lower Third
 
-Lower third is a type of overlay. Lower third gives the audience information about a presenter's name and title or what's displayed on the screen and can be a combination of text and graphical elements. 
+Lower third is a type of overlay. Lower third gives the audience information about a presenter's name and title or what's displayed on the screen and can be a combination of text and graphical elements.
 
 For example, the lower third here is the presenter's name and job title.
 
@@ -107,10 +107,10 @@ For example, the screen share in this presentation uses a PIP effect of the pres
 
 **Feedback example:** "At 2:22, show the PIP so we can see Jason talking."
 
-::: greybox 
+::: greybox
 **Notes:**
-- Consistency - It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
-- Position - It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
+* Consistency - It looks better to keep the PIP position consistent, e.g. If you start a video with a PIP on the right, any time it appears in that video should be on the right.
+* Position - It generally looks better to have the PIP on the bottom right of the screen, however some programs put the PIP on the left (e.g. StreamYard & Loom)
 :::
 
 ## 6. Cutaway
@@ -153,7 +153,7 @@ For example, a montage can help reveal the connections between things and show t
 
 ## 9. Intro
 
-An intro can include a title sequence, logo or a hook (short and catchy footage). Often a opening theme song with visuals are used. 
+An intro can include a title sequence, logo or a hook (short and catchy footage). Often a opening theme song with visuals are used.
 
 ![](Intro-Example.png)
 
@@ -211,7 +211,7 @@ See the image below for more aspect ratios.
 
 ## 14. Colour - White Balance
 
-A proper white balance is characterized by the whites in an image truly being the colour white. 
+A proper white balance is characterized by the whites in an image truly being the colour white.
 
 For instance, in an improper white balance, the whites may have tints of yellow, green, red, or some other colour. White balance’s formal definition is the process of gathering accurate colours for the available light. Your camera may come with a white balance menu and an auto white balance feature.
 
@@ -235,7 +235,7 @@ Audio denoising is the process of reducing unwanted audio anomalies like backgro
 
 ## 17. Audio - Levels
 
-When video editing, it's important to have standard audio levelling. 
+When video editing, it's important to have standard audio levelling.
 
 For example, if the presenter's voice is too quiet, it can be improved by increasing the gain of the audio clip. Vice versa if the dialogue/music is too loud, the audio levels would need to be lowered to reduce peaking.
 
@@ -259,7 +259,7 @@ Some YouTube channels don't use jump cuts, the SSW TV channel is one of them.
 
 This is when the same video clip is used from one cut to another, but the scale is increased from one zoom level to the next.
 
-For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle. 
+For example, you can punch in from a wide shot to a medium shot using the same clip to get a closer angle.
 
 ![](rules-video-terminologies-punch-in-v7.gif)
 
@@ -297,7 +297,7 @@ Video rendering is similar to compiling code for developers.
 
 ### 23. Video Export
 
-When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube. 
+When a video edit is complete, it's time to export a video file from your video editing software. The exported file is usually uploaded to an online platform e.g. Youtube.
 
 **Note:** It is important to check the export settings to ensure that they are set to High-Quality 1080p as a standard.
 
