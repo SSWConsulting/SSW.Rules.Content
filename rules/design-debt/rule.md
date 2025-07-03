@@ -89,20 +89,14 @@ Design systems are like component libraries — but for UI.
 
 Always check with design — no exceptions.
 
-## Example – The SSW Mega Menu
+## Example – [EagleEye](https://ssweagleeye.com) Tag underlines
 
-::: greybox
-A desktop web app with ample space hides primary navigation behind a hamburger menu.
-:::
 ::: bad
-![Figure: Bad Example – On desktop, navigation should be visible when screen space allows. Hiding it behind a hamburger reduces usability.](design-debt-bad.png)
+![Figure: Bad Example – Styling was added ad-hoc, but it didn't fit the design system or current UI conventions](design-debt-bad.png)
 :::
 
-::: greybox
-A mobile app uses a hamburger menu to preserve space while offering a clean, focused UI.
-:::
 ::: good
-![Figure: Good Example – On mobile, screen space is limited, so hiding the nav behind a hamburger is appropriate.](design-debt-good.png)
+![Figure: Good Example – Through a test please from a designer, the underlines were removed and the design aligned with the design system](design-debt-good.png)
 :::
 
 ## More ways to prevent design debt
