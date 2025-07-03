@@ -20,6 +20,9 @@ When building a website using **TinaCMS and Next.js**, it’s important to keep 
             
 <!--endintro-->
 
+`youtube: https://www.youtube.com/watch?v=G5ax5HIVYTU`  
+**Video: Tina.io - The 3 options for storing markdown in GitHub for TinaCMS (5 min)**
+
 By default, Tina stores content in a `/content` folder and images in `/public`, which breaks self-containment and can cause confusion.
 
 ---
@@ -55,5 +58,6 @@ You have 3 options:
 ✅ No custom middleware needed  
 ❌ MDX files live in `public`, which is unconventional—but works
 
-This option is clean, simple, and works with Tina’s Media Manager out of the box—no special setup required. See more on [Tina.io - The 3 options for storing markdown in GitHub for TinaCMS
-](https://www.youtube.com/watch?v=i3A6KqxcLYE).
+This option is clean, simple, and works with Tina’s Media Manager out of the box — no special setup required.
+
+See more on [Tina.io - Storing Media With Content](https://tina.io/docs/guides/storing-media-with-content).
