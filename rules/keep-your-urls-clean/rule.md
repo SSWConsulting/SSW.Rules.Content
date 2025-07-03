@@ -84,7 +84,7 @@ Figure: Good example – Clean URL on a new line is easy to read and looks much 
 
 ## Tip #2 - Remove "https://www."
 
-For **presentations** and **videos**, it's especially important to keep URLs cleaner. Remember to always remove `https://www.` from links. It keeps the slides cleaner and more readable.
+For **presentations** and **videos** (i.e. (lower thirds](/video-editing-terms/#3-lower-third)), it's especially important to keep URLs cleaner. Remember to always remove `https://www.` from links. It keeps the slides cleaner and more readable.
 
 ::: bad
 ![Figure: Bad example - Showing unnecessary extra noise "https://www."](ppt-urls-bad.png)
