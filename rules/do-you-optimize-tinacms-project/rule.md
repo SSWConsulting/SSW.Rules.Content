@@ -23,16 +23,16 @@ When working with large datasets or generating multiple subcomponents, following
 
 ### ❌ Bad practices
 
--   **Use deeply nested schemas with nested references**
+* **Use deeply nested schemas with nested references**
 
-    -   This increases the complexity of the project, making it harder to manage and more prone to build failures
-    -   It also leads to inefficient data fetching, further slowing down both runtime and build processes
+  * This increases the complexity of the project, making it harder to manage and more prone to build failures
+  * It also leads to inefficient data fetching, further slowing down both runtime and build processes
 
 ### ✅ Good practices
 
--   **Make a single request in a top-level server component and share data via React Context or a state library**
+* **Make a single request in a top-level server component and share data via React Context or a state library**
 
-    - Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
+  * Fetch the data once at the top level and store it in a React Context or global state (e.g., [Redux](https://redux.js.org/)). This lets all components access the data without prop drilling, improves scalability, and eliminates redundant API calls.
 
 ::: good
 
@@ -68,10 +68,10 @@ export async function generateStaticParams() {
 **Code: `conferencesData` and `footerData` are provided through context, while `speakers` are passed directly to `HomeComponent` as props.**
 :::
 
--   **Cache data at a top-level and access it when necessary**
+* **Cache data at a top-level and access it when necessary**
 
-    -   If passing props is not feasible (e.g., components relying on Next.js router data), fetch the data at a higher level, cache it, and access it directly within the component
-    -   This approach ensures efficient data retrieval and reduces the server load at build time
+  * If passing props is not feasible (e.g., components relying on Next.js router data), fetch the data at a higher level, cache it, and access it directly within the component
+  * This approach ensures efficient data retrieval and reduces the server load at build time
 
 ## 2. Improving Runtime Performance
 
@@ -79,18 +79,18 @@ Optimizing runtime performance is key to delivering a fast and responsive user e
 
 ### ❌ Bad practices
 
--   **Use client-side requests instead of relying on cached data from build process**
+* **Use client-side requests instead of relying on cached data from build process**
 
-    -   This approach can negate the benefit of static site generation, where data is fetched and cached during the process
-    -   Making too many client-side requests increases server load and slows down the application
+  * This approach can negate the benefit of static site generation, where data is fetched and cached during the process
+  * Making too many client-side requests increases server load and slows down the application
 
 ### ✅ Good practices
 
--   **Use static site generation (SSG) with TinaCMS to fetch and cache data during builds**
+* **Use static site generation (SSG) with TinaCMS to fetch and cache data during builds**
 
-    - Minimizes dynamic fetching and enhances performance
-    - Faster load time
-    - Less strain on the server
+  * Minimizes dynamic fetching and enhances performance
+  * Faster load time
+  * Less strain on the server
 
 ## 3. Improving Build Performance
 
@@ -98,6 +98,6 @@ To ensure smooth and reliable builds, it’s important to follow best practices 
 
 ### ✅ Best practices
 
--   **Write custom GraphQL queries**
+* **Write custom GraphQL queries**
 
-    -   Auto-generated GraphQL queries are often unoptimized and may contain nested objects with redundant data. For example, a recipe might include an ingredients object, which in turn references the same recipe again. Creating custom queries can reduce the size of objects and improve performance
+  * Auto-generated GraphQL queries are often unoptimized and may contain nested objects with redundant data. For example, a recipe might include an ingredients object, which in turn references the same recipe again. Creating custom queries can reduce the size of objects and improve performance
