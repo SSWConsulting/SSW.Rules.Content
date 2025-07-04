@@ -16,7 +16,7 @@ Hamburger menus are everywhere—those three stacked lines that hide site or app
 
 <!--endintro-->
 
-youtube: https://www.youtube.com/embed/1au4Gff9cSo Video: Hamburger Menu Icon Update (2 min)
+youtube: <https://www.youtube.com/embed/1au4Gff9cSo> Video: Hamburger Menu Icon Update (2 min)
 
 ## When should you use a hamburger menu?
 
