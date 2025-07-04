@@ -19,7 +19,7 @@ UX professionals often struggle to keep up with research, design, prototyping, a
 
 AI tools are becoming essential across the entire UX lifecycle. Here are some common (and powerful) ways to use them:
 
-#### 🔍 UX Research
+#### UX Research
 
 AI can analyze data faster and surface patterns that might take hours (or days) to uncover manually.
 
@@ -27,7 +27,7 @@ AI can analyze data faster and surface patterns that might take hours (or days) 
 * **[UserTesting](https://www.usertesting.com/)** – Uses AI to analyse user video sessions, surfacing key patterns, pain points, and actionable insights with minimal manual effort
 * **[Maze](https://maze.co/)** – AI-enhanced usability testing tool that provides instant reports and auto-summarised insights from user interactions and feedback
 
-#### ✏️ Design Ideation & Prototyping
+#### Design Ideation & Prototyping
 
 Quickly move from idea to UI with tools that generate design assets or entire screens from simple inputs.
 
@@ -36,14 +36,14 @@ Quickly move from idea to UI with tools that generate design assets or entire sc
 * **[Stitch](https://stitch.withgoogle.com/) (formerly Galileo)** – Converts natural language prompts into clean, production-quality UI mockups
 * **[v0](https://v0.dev/)** – Translates natural language prompts into fully functional React + Tailwind components, allowing designers and developers to instantly generate editable, production-ready UIs
 
-#### 📝 UX Writing
+#### UX Writing
 
 AI helps create consistent and clear copyfaster.
 
 * **[Writer](https://writer.com/)** – An enterprise-grade AI writing assistant that ensures consistent UX copy across products by enforcing style guides, improving readability, and adapting to your brand voice
 * **[ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/)** – Great for writing microcopy, generating ideas, summarising research findings, and drafting early content – all from simple prompts
 
-#### ♿ Accessibility & QA
+#### Accessibility & QA
 
 Catch compliance issues early with AI-powered checkers.
 
