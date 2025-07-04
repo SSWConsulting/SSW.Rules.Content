@@ -19,7 +19,7 @@ Leveraging AI tools across different stages of the UX process can speed up decis
 
 AI tools are becoming essential across the entire UX lifecycle. Here are some common (and powerful) ways to use them:
 
-#### UX Research
+## UX Research
 
 AI can analyze data faster and surface patterns that might take hours (or days) to uncover manually.
 
