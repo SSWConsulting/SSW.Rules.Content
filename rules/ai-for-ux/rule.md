@@ -54,6 +54,5 @@ Catch compliance issues early with AI-powered checkers.
 * **Prompt wisely** – The better your input, the better the output. Be specific and provide context.
 * **Respect privacy** – Avoid feeding sensitive data into AI tools that don't guarantee security.
 
-### AI in UX: Superpower, not Shortcut
 
 AI won't replace good UX. But used properly, it can dramatically increase your output and quality. Think of it as an intelligent assistant that’s always ready to help – just don’t hand it the steering wheel.
