@@ -8,7 +8,7 @@ into MDX files with special components for images, videos,
 email templates, and aside blocks.
 
 Usage:
-    python transform.py [path] [file_name]
+    python convert-rule-md-to-mdx.py [path] [file_name]
 
 Parameters:
     path        - Optional. Can be a Markdown file path or a directory path.
