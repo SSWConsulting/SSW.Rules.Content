@@ -41,7 +41,7 @@ AI helps create consistent and clear copyfaster.
 * **[Writer](https://writer.com/)** – An enterprise-grade AI writing assistant that ensures consistent UX copy across products by enforcing style guides, improving readability, and adapting to your brand voice
 * **[ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/)** – Great for writing microcopy, generating ideas, summarising research findings, and drafting early content – all from simple prompts
 
-#### Accessibility & QA
+## Accessibility & QA
 
 Catch compliance issues early with AI-powered checkers.
 
