@@ -5,6 +5,15 @@ import time
 import sys
 
 # ----------------------------- #
+# Configuration
+# ----------------------------- #
+
+DEFAULT_BASE_DIR = 'rules'
+DEFAULT_FILE_NAME = 'rule.md'
+SRC_PREFIX_BASE = '/uploads/rules/'
+IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g., ['ignore_this.md', 'example.md'])
+
+# ----------------------------- #
 # Regex patterns
 # ----------------------------- #
 
@@ -244,16 +253,16 @@ def process_custom_aside_blocks(content):
 # Main Transform Function
 # ----------------------------- #
 
-def transform_rule_md_to_mdx(file_path):
+def transform_md_to_mdx(file_path):
     path = Path(file_path)
     if not path.exists():
         print(f"File not found: {file_path}")
         return
 
     folder_name = path.parent.name
-    src_prefix = f"/uploads/rules/{folder_name}"
-
+    src_prefix = f"{SRC_PREFIX_BASE}{folder_name}"
     content = path.read_text(encoding='utf-8')
+
     content = process_custom_aside_blocks(content)
     content = re.sub(r'^\s*<!--endintro-->\s*\n?', '', content, flags=re.MULTILINE)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
@@ -268,7 +277,15 @@ def transform_rule_md_to_mdx(file_path):
 
     print(f"Transformed content saved to: {output_path}")
 
-def transform_all_rules(base_dir='rules'):
+def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, ignore_files=None):
+    """
+    Transform all Markdown (.md) files in each subdirectory of the given base directory.
+
+    :param base_dir: The base directory containing rule folders.
+    :param file_name: The specific file name to look for in each folder. If None, process any .md file.
+    :param ignore_files: A list of file names to ignore.
+    """
+    ignore_files = ignore_files or []
     start_time = time.time()
     base_path = Path(base_dir)
     if not base_path.exists():
@@ -278,35 +295,30 @@ def transform_all_rules(base_dir='rules'):
     count = 0
     for rule_dir in base_path.iterdir():
         if rule_dir.is_dir():
-            rule_md = rule_dir / 'rule.md'
-            if rule_md.exists():
-                print(f"[INFO] Processing: {rule_md}")
-                try:
-                    folder_name = rule_md.parent.name
-                    src_prefix = f"/uploads/rules/{folder_name}"
-                    content = rule_md.read_text(encoding='utf-8')
+            # If a specific file name is provided, look for it; otherwise, find any .md file
+            if file_name:
+                rule_md = rule_dir / file_name
+                if not rule_md.exists() or rule_md.name in IGNORE_FILES:
+                    print(f"[WARNING] File not found or ignored: {rule_md}")
+                    continue
+            else:
+                md_files = [f for f in rule_dir.glob('*.md') if f.name not in IGNORE_FILES]
+                if not md_files:
+                    print(f"[WARNING] No .md files found in: {rule_dir}")
+                    continue
+                rule_md = md_files[0]  # Process the first .md file found
 
-                    content = process_custom_aside_blocks(content)
-                    content = re.sub(r'^\s*<!--endintro-->\s*\n?', '', content, flags=re.MULTILINE)
-                    content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
-                    content = re.sub(IMAGE_BLOCK_REGEX, lambda m: replace_image_block(m, src_prefix), content, flags=re.DOTALL)
-                    content = re.sub(CUSTOM_SIZE_IMAGE_BLOCK_REGEX, lambda m: replace_custom_size_image_block(m, src_prefix), content, flags=re.DOTALL)
-                    content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
-                    content = re.sub(EMAIL_BLOCK_REGEX, replace_email_block, content, flags=re.DOTALL)
-                    content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
-
-                    output_path = rule_md.with_suffix('.mdx')
-                    output_path.write_text(content, encoding='utf-8')
-                    rule_md.unlink()  # delete original .md file
-
-                    print(f"[SUCCESS] Converted and replaced: {output_path}")
-                    count += 1
-                except Exception as e:
-                    print(f"[ERROR] Failed to process {rule_md}: {e}")
+            print(f"[INFO] Processing: {rule_md}")
+            try:
+                transform_md_to_mdx(rule_md)
+                rule_md.unlink()  # delete original .md file
+                count += 1
+            except Exception as e:
+                print(f"[ERROR] Failed to process {rule_md}: {e}")
 
     end_time = time.time()
     elapsed = end_time - start_time
-    print(f"\n✅ Finished processing {count} rule.md files in {elapsed:.2f} seconds.")
+    print(f"\n✅ Finished processing {count} rule files in {elapsed:.2f} seconds.")
 
 # ----------------------------- #
 # Entry Point
@@ -314,6 +326,18 @@ def transform_all_rules(base_dir='rules'):
 
 if __name__ == '__main__':
     if len(sys.argv) > 1:
-        transform_rule_md_to_mdx(sys.argv[1])
+        arg = sys.argv[1]
+        path = Path(arg)
+        ignore_files = sys.argv[3].split(',') if len(sys.argv) > 3 else IGNORE_FILES
+        if path.is_file():
+            if path.name not in ignore_files:
+                transform_md_to_mdx(arg)
+            else:
+                print(f"[INFO] File ignored: {arg}")
+        elif path.is_dir():
+            file_name = sys.argv[2] if len(sys.argv) > 2 else None
+            transform_all_mds(arg, file_name, ignore_files)
+        else:
+            print(f"Error: The provided path '{arg}' is neither a file nor a directory.")
     else:
-        transform_all_rules()
+        transform_all_mds(ignore_files=IGNORE_FILES)
