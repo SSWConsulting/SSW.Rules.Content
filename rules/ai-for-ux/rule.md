@@ -36,7 +36,7 @@ Quickly move from idea to UI with tools that generate design assets or entire sc
 * **[Stitch](https://stitch.withgoogle.com/) (formerly Galileo)** – Converts natural language prompts into clean, production-quality UI mockups
 * **[v0](https://v0.dev/)** – Translates natural language prompts into fully functional React + Tailwind components, allowing designers and developers to instantly generate editable, production-ready UIs
 
-#### UX Writing
+## Content design
 
 AI helps create consistent and clear copyfaster.
 
