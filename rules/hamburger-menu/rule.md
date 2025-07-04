@@ -15,7 +15,8 @@ guid: 22b8eb69-c8d6-4dbf-9ac8-41959ef1f273
 Hamburger menus are everywhere—those three stacked lines that hide site or app navigation. They became popular for decluttering mobile UIs, but they come at a cost: reduced discoverability, slower navigation, and lower engagement.
 
 <!--endintro-->
-`youtube: [https://www.youtube.com/embed/0ugMkda9IBw](https://www.youtube.com/watch?v=1au4Gff9cSo)`
+
+`youtube: [https://www.youtube.com/embed/1au4Gff9cSo`
 **Video: Hamburger Menu Icon Update (3 min)**
 
 ## When should you use a hamburger menu?
