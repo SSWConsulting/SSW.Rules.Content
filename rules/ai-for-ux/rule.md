@@ -15,9 +15,7 @@ Leveraging AI tools across different stages of the UX process can speed up decis
 
 <!--endintro-->
 
-### Where AI fits in the UX workflow
-
-AI tools are becoming essential across the entire UX lifecycle. Here are some common (and powerful) ways to use them:
+Here are some common (and powerful) ways to use AI across the entire UX lifecycle:
 
 ## UX Research
 
