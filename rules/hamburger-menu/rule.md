@@ -16,6 +16,8 @@ Hamburger menus are everywhere—those three stacked lines that hide site or app
 
 <!--endintro-->
 
+youtube: https://www.youtube.com/embed/1au4Gff9cSo Video: Hamburger Menu Icon Update (2 min)
+
 ## When should you use a hamburger menu?
 
 Use it **only when screen space is tight**—typically on mobile. Otherwise, always prefer showing navigation visibly.
