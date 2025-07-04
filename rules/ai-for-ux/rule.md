@@ -27,7 +27,7 @@ AI can analyze data faster and surface patterns that might take hours (or days) 
 * **[UserTesting](https://www.usertesting.com/)** – Uses AI to analyse user video sessions, surfacing key patterns, pain points, and actionable insights with minimal manual effort
 * **[Maze](https://maze.co/)** – AI-enhanced usability testing tool that provides instant reports and auto-summarised insights from user interactions and feedback
 
-#### Design Ideation & Prototyping
+## Ideation & Prototyping
 
 Quickly move from idea to UI with tools that generate design assets or entire screens from simple inputs.
 
