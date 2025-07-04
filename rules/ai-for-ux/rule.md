@@ -11,7 +11,7 @@ authors:
     url: https://www.ssw.com.au/people/betty-bondoc/
 guid: 390dccd0-cfd1-486c-ae0f-fbbd1c5ee4af
 ---
-UX professionals often struggle to keep up with research, design, prototyping, and writing – all while being expected to move fast. That’s where AI tools can help. Leveraging AI across different stages of the UX process can speed up decision-making and free up time for critical thinking and creative problem solving.
+Leveraging AI tools across different stages of the UX process can speed up decision-making and free up time for critical thinking and creative problem solving.
 
 <!--endintro-->
 
