@@ -29,6 +29,7 @@ index:
 - mcp-server
 - use-mcp-to-standardize-llm-connections
 - digest-microsoft-form
+- do-you-know-the-right-copilot-lingo
 
 ---
 
