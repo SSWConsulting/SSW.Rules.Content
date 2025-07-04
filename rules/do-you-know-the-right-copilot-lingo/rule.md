@@ -2,13 +2,11 @@
 type: rule
 tips: ""
 title: Do you know the right Copilot Lingo?
-seoDescription: " Learn the correct terminology for Microsoft Copilot and its
-  agents so your team chooses the right AI for every task and communicates
-  without confusion. "
+seoDescription: Learn the correct terminology for Microsoft Copilot and its agents so your team chooses the right AI for every task and communicates without confusion.
 uri: do-you-know-the-right-copilot-lingo
 authors:
   - title: Jean Thirion
-    url: https://www.ssw.com.au/people/jean-thirion/
+    url: https://www.ssw.com.au/people/jean-thirion
 related:
   - best-ai-tools
 created: 2025-07-04T16:20:00.000Z
@@ -23,11 +21,11 @@ Sounds familiar? Chances you were using the **personal** Copilot, while the deck
 
 ## Know your Copilots
 
-| Flavor | Where to find it | What it can reach | Typical ask |
-|---|---|---|---|
-| **Personal Copilot** | Windows taskbar <br> copilot.microsoft.com <br> bing.com | ✅ Public web <br>  ✅ Your Microsoft (consumer) account | "What's the best way to do XYZ" |
-| **Microsoft 365 Copilot** | O365 Waffle Menu <br> m365.cloud.microsoft <br> Google "M365 Copilot" | ✅ Public web <br> ✅ Your entire tenant - i.e. Teams, Outlook, SharePoint, etc. <br> ✅ Microsoft Agents | "What happened on Project XYZ while I was on leave?" |
-| **Product Copilots** | Next to the search bar in each app (e.g., Azure, Power Apps, Excel) | ✅ Only that product’s docs <br> ✅ Current context (e.g. current spreadsheet) | "How do I snapshot a VM?" |
+| **Type**               | **Where to find it** | **What it can reach** | **Typical ask** |
+|------------------------|----------------------|------------------------|------------------|
+| **Personal Copilot**   | - Windows taskbar  <br> - [copilot.microsoft.com](https://copilot.microsoft.com)  <br> - [bing.com](https://bing.com) | - Public web  <br> - Your Microsoft (consumer) account | "What's the best way to do XYZ" |
+| **Microsoft 365 Copilot** | - O365 Waffle Menu  <br> - [m365.cloud.microsoft](https://m365.cloud.microsoft)  <br> - Google “M365 Copilot” | - Public web  <br> - Your entire tenant (Teams, Outlook, SharePoint, etc.)  <br> - Microsoft Agents | "What happened on Project XYZ while I was on leave?" |
+| **Product Copilots**   | - Next to the search bar in each app (e.g., Azure, Power Apps, Excel) | - Only that product’s docs  <br> - Current context (e.g., current spreadsheet) | "How do I snapshot a VM?" |
 
 ### Agents ≠ Copilots
 
@@ -50,13 +48,12 @@ Copilot Connectors (aka Graph Connectors) are gateways to access data from custo
 “Just get **Copilot** to pull the latest bug list.”
 :::
 ::: bad  
-Figure: Bad Example – unclear which Copilot and where the bugs live  
+Figure: Bad example – Unclear which Copilot and where the bugs live  
 :::
 
 ::: greybox
 “Ask **Microsoft 365 Copilot** to summarise the *Bugs* list in **SharePoint→Northwind→Dev**.”  
 :::
 ::: good  
-Figure: Good Example – specifies the flavor and the data source  
+Figure: Good example – Specifies the flavor and the data source  
 :::
-
