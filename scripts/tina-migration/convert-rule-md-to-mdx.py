@@ -1,3 +1,36 @@
+"""
+------------------------------------------------------------
+Script: Markdown to MDX Transformer
+------------------------------------------------------------
+
+This script transforms Markdown (.md) files (used in SSW Rules)
+into MDX files with special components for images, videos,
+email templates, and aside blocks.
+
+Usage:
+    python transform.py [path] [file_name]
+
+Parameters:
+    path        - Optional. Can be a Markdown file path or a directory path.
+                  - If it's a Markdown file: transforms just that file.
+                  - If it's a directory: processes subdirectories inside it.
+                    Looks for Markdown files to transform (default: rule.md).
+
+    file_name   - Optional. Only used when 'path' is a directory.
+                  Specifies which .md file to process in each subfolder.
+                  If omitted, the first .md file in each subfolder is used.
+
+Examples:
+    python convert-rule-md-to-mdx.py                              # Transforms all rule.md files in ./rules/
+    python convert-rule-md-to-mdx.py rules custom_rule.md         # Transforms custom_rule.md in each subfolder under ./rules/
+    python convert-rule-md-to-mdx.py rules/someRule/rule.md       # Transforms only the specified file
+
+Notes:
+    - The original .md file will be deleted after successful transformation.
+    - The resulting .mdx file will be saved in the same directory.
+    - Files listed in IGNORE_FILES will be skipped.
+"""
+
 import os
 import re
 from pathlib import Path
@@ -276,8 +309,9 @@ def transform_md_to_mdx(file_path):
     output_path.write_text(content, encoding='utf-8')
 
     print(f"Transformed content saved to: {output_path}")
+    path.unlink()  # delete original .md file
 
-def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, ignore_files=None):
+def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME):
     """
     Transform all Markdown (.md) files in each subdirectory of the given base directory.
 
@@ -285,7 +319,6 @@ def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, ig
     :param file_name: The specific file name to look for in each folder. If None, process any .md file.
     :param ignore_files: A list of file names to ignore.
     """
-    ignore_files = ignore_files or []
     start_time = time.time()
     base_path = Path(base_dir)
     if not base_path.exists():
@@ -311,7 +344,6 @@ def transform_all_mds(base_dir=DEFAULT_BASE_DIR, file_name=DEFAULT_FILE_NAME, ig
             print(f"[INFO] Processing: {rule_md}")
             try:
                 transform_md_to_mdx(rule_md)
-                rule_md.unlink()  # delete original .md file
                 count += 1
             except Exception as e:
                 print(f"[ERROR] Failed to process {rule_md}: {e}")
@@ -328,16 +360,12 @@ if __name__ == '__main__':
     if len(sys.argv) > 1:
         arg = sys.argv[1]
         path = Path(arg)
-        ignore_files = sys.argv[3].split(',') if len(sys.argv) > 3 else IGNORE_FILES
         if path.is_file():
-            if path.name not in ignore_files:
-                transform_md_to_mdx(arg)
-            else:
-                print(f"[INFO] File ignored: {arg}")
+            transform_md_to_mdx(arg)
         elif path.is_dir():
             file_name = sys.argv[2] if len(sys.argv) > 2 else None
-            transform_all_mds(arg, file_name, ignore_files)
+            transform_all_mds(arg, file_name)
         else:
             print(f"Error: The provided path '{arg}' is neither a file nor a directory.")
     else:
-        transform_all_mds(ignore_files=IGNORE_FILES)
+        transform_all_mds()
