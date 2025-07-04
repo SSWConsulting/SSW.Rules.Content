@@ -49,7 +49,7 @@ Catch compliance issues early with AI-powered checkers.
 
 * **[Stark](https://www.getstark.co/) (Figma plugin)** – An accessibility checker for Figma, Sketch, and web that uses AI to detect colour contrast issues, missing alt text, and WCAG compliance gaps
 
-### Best practices when using AI for UX
+## Best practices when using AI for UX
 
 * **Validate output** – AI can hallucinate. Always review and test anything before going live.
 * **Use as a collaborator, not a crutch** – AI should support your creativity, not replace your judgment.
