@@ -42,7 +42,7 @@ This process ensures feedback is traceable, transparent, and tied to the work it
 
 When there is **no project backlog** in place, you should send the 'Test Please' request via email.
 
-1. Find 2 free testers to send the email 
+1. Find 2 free testers to send the email
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "Test Please" following this template:
 
@@ -56,7 +56,7 @@ When there is **no project backlog** in place, you should send the 'Test Please'
 
 <mark>Test Please</mark>
 
-### Hi John,
+### Hi John
 
 I am looking for bugs or approval to release this version.
 
@@ -96,9 +96,9 @@ Keep in mind that a "Test Please" is an urgent task and that it should start ASA
 
 **\#5** - Do not reply to this message until you can say:
 
-   * "**✅ Test Please succeeded** (no critical bugs) - You are ready to deploy"\
+* "**✅ Test Please succeeded** (no critical bugs) - You are ready to deploy"\
    or
-   * "**❌ Test Please failed** (critical bugs reported via email)"
+* "**❌ Test Please failed** (critical bugs reported via email)"
 
 Regards,
 
@@ -147,7 +147,7 @@ This way everyone will have the entire history of the task and its progress.
 
 ---
 
-## Other types of 'Test Please' requests   
+## Other types of 'Test Please' requests
 
 ### Email draft 'Test Please'
 
