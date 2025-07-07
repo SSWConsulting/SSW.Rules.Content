@@ -29,7 +29,7 @@ Testing is a fundamental aspect of software development, serving as the quality 
 
 ## ✅ The ideal 'Test Please' workflow
 
-When requesting a review or approval (commonly called a "Test Please") for a piece of work such as a [video edit](/test-please-for-video), blog post, or design preview, it's important to follow a consistent and transparent workflow:
+When requesting a review or approval (commonly called a "Test Please") for a piece of work such as a **[video edit](/test-please-for-video)**, **blog post**, or **design** preview, it's important to follow a consistent and transparent workflow:
 
 1. **Post the preview link in the PBI** – Add the link to the version or preview at the top of the relevant PBI (Product Backlog Item)
 2. **Use the PBI discussion to tag reviewers** – In the comments section, use `@` to mention the team members you want to review the work, and write a clear message (e.g., “Test please 🙏”)
@@ -40,11 +40,9 @@ This process ensures feedback is traceable, transparent, and tied to the work it
 
 ## 'Test Please' via email
 
-When there’s **no project backlog** in place, it’s acceptable to send a 'Test Please' request via email.
+When there is **no project backlog** in place, you should send the 'Test Please' request via email.
 
-These are the steps you should take when requesting a "Test Please" via email:
-
-1. Find 2 free testers to send the email below
+1. Find 2 free testers to send the email
 2. Stop working on the project until you receive either a "pass" or "fail" email
 3. Create your "Test Please" following this template:
 
@@ -53,21 +51,26 @@ These are the steps you should take when requesting a "Test Please" via email:
 | | |
 | -------- | --- |
 | To:| John |
-| Subject: | Product Name v1.11 |
+| Subject: | Test Please - {{ PRODUCT/DESIGN }} {{ VERSION NUMBER (e.g. V1.11) }} |
 ::: email-content
 
-1. <mark>'Test Please'</mark>
+<mark>Test Please</mark>
 
 ### Hi John
 
 I am looking for bugs or approval to release this version.
 
-1. Please test the following modifications:
+1. Please test:
 
 * {{ FEATURE TO BE TESTED }}
-* {{ FEATURE TO BE TESTED }}
 
-I have done what I could for my code's health. E.g.
+Specific issues to look out for are:
+
+* {{ ISSUE }}
+
+The latest version is at {{ URL }}
+
+**Note:** I have done what I could for my code's health.
 
 * Run SSW CodeAuditor - it has {{ X }} errors (if not 0, give reason)
 * Kept my eye on Application Insights
@@ -79,14 +82,7 @@ I have done what I could for my code's health. E.g.
     * {{ PACKAGE }} is on {{ VERSION }}. Latest is {{ VERSION }}.
     * ...
 
-Specific issues to look out for are:
-
-* {{ ISSUE }}
-* {{ ISSUE }}
-
-The latest version (Product Name v1.11) is at {{ URL }}
-
-Keep in mind that a "Test Please" is an urgent task and that it should start within the hour.
+Keep in mind that a "Test Please" is an urgent task and that it should start ASAP.
 
 **Notes:**
 
@@ -100,11 +96,9 @@ Keep in mind that a "Test Please" is an urgent task and that it should start wit
 
 **\#5** - Do not reply to this message until you can say:
 
-* "**✅ Test Please succeeded** (as no Critical bugs). You are ready to deploy."\
-or
-* "**❌ Test Please failed** (as per Critical bugs reported)"
-
-**\#6** - To keep things moving along, remember that after **5 business days**, the code will be automatically considered approved and pushed to Production.
+* "**✅ Test Please succeeded** (no critical bugs) - You are ready to deploy"\
+   or
+* "**❌ Test Please failed** (critical bugs reported via email)"
 
 Regards,
 
@@ -121,17 +115,19 @@ If current version is better than the last version you can release (even with a 
 * You get to work on the failures ASAP
 :::
 
-## ❌ Don't send a 'Test Please' content via IM
+## ❌ Never send a 'Test Please' content via IM
 
 You may use IM (e.g. Microsoft Teams) to point the tester to the 'Test Please' email.
 
 ::: greybox
 "Ping!
 I need you to check my 'Test Please' email\
-See subject: **Product Name v1.11**"
+See subject: Test Please - {{ PRODUCT/DESIGN }} {{ VERSION NUMBER }}"
 :::
 
-### Getting input from a extra people
+---
+
+## Getting input from extra people
 
 If you require input from a few people that were not originally cc'd on the email or on the ['To Myself'](/send-to-myself-emails), like getting feedback on a design, it's nice to give everyone the entire task context.
 
@@ -151,7 +147,7 @@ This way everyone will have the entire history of the task and its progress.
 
 ---
 
-## 'Test Please' specifics  
+## Other types of 'Test Please' requests
 
 ### Email draft 'Test Please'
 
