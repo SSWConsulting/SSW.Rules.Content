@@ -1,22 +1,30 @@
 ---
 type: rule
 title: Do you use Markdown or XML tags to structure your AI prompts?
-seoDescription: Markdown or XML can both be used to structure large prompts for
-  large language models (LLMs)
 uri: ai-prompt-xml
 authors:
   - title: Eddie Kranz
-    url: https://www.ssw.com.au/people/eddie-kranz
+    url: 'https://www.ssw.com.au/people/eddie-kranz'
 related: null
 created: 2025-05-13T16:42:19.624Z
+lastUpdated: 2025-07-07T13:34:40.265Z
+lastUpdatedBy: ''
+lastUpdatedByEmail: hugopernet@ssw.fr
 archivedreason: null
 guid: 4d8e03c3-e842-4b1d-a049-8eff21b1209f
+seoDescription: >-
+  Markdown or XML can both be used to structure large prompts for large language
+  models (LLMs)
 ---
+
+TEST
+
 The bigger your prompts get, the more challenging they become for the AI to understand.
 
 Using  Markdown or XML tags will help an LLM parse your prompts more accurately, leading to higher-quality outputs.
 
 The best part is that it doesn't need to follow any specific syntax. It just helps both humans and AI to have structured prompts.
+
 ## Why use Markdown or XML tags?
 
 * **Clarity** - Ensure your prompt is well structured by having clear separation of different parts
@@ -33,12 +41,14 @@ The review should be technical, actionable, and highlight key issues and opportu
 Focus on identifying scalability bottlenecks and providing strategic recommendations for the next sprint.
 ```
 
-<figureEmbed figureEmbed={{
-  preset: "badExample",
-  figure: 'Code: Bad example - If it\'s hard for humans to read \'at-a-glance\', the AI will struggle too',
-  shouldDisplay: true
-} } />
-
+<figureEmbed
+  figureEmbed={{
+    preset: "badExample",
+    figure:
+      "Code: Bad example - If it's hard for humans to read 'at-a-glance', the AI will struggle too",
+    shouldDisplay: true
+  }}
+/>
 
 ```xml
 ## Context
@@ -60,12 +70,14 @@ Make sure your tone is technical and solution-oriented
 {{PREVIOUS_ARCH_REVIEW_MD}}
 ```
 
-<figureEmbed figureEmbed={{
-  preset: "goodExample",
-  figure: 'Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for',
-  shouldDisplay: true
-} } />
-
+<figureEmbed
+  figureEmbed={{
+    preset: "goodExample",
+    figure:
+      "Code: Good example - Markdown in your prompts clearly delineate what each part of the prompt is for",
+    shouldDisplay: true
+  }}
+/>
 
 ```xml
 <context>
@@ -94,8 +106,11 @@ Follow this structure:
 </formatting-example>
 ```
 
-<figureEmbed figureEmbed={{
-  preset: "goodExample",
-  figure: 'Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs',
-  shouldDisplay: true
-} } />
+<figureEmbed
+  figureEmbed={{
+    preset: "goodExample",
+    figure:
+      "Code: Good example - XML in your prompts makes it easier for humans and LLMs to both read, leading to higher quality and more desirable outputs",
+    shouldDisplay: true
+  }}
+/>
