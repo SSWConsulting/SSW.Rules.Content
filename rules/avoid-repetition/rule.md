@@ -18,7 +18,7 @@ created: 2023-02-28T00:28:10.330Z
 guid: 1acd6766-d31f-493f-b6f1-3b0b2ff2dc4e
 ---
 
-Clear communication is essential for success, and especially helpful in professional or technical contexts. You should make your content more visually interesting and easier to scan quickly. 
+Clear communication is essential for success, and especially helpful in professional or technical contexts. You should make your content more visually interesting and easier to scan quickly.
 
 <!--endintro-->
 
