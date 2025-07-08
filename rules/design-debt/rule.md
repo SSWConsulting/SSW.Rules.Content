@@ -18,7 +18,7 @@ related:
   - less-is-more
   - request-a-test-please
   - technical-debt
-  - underlined-links/#do-not-use-borders-to-replace-underlines
+  - underlined-links
 archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
@@ -93,11 +93,11 @@ Always check with design — no exceptions.
 ## Example –  Borders vs underlines on links
 
 ::: bad
-![Figure:Figure: Bad example – Dotted border added to the links. The styling didn't follow the design system or current UI conventions](design-debt-bad.png)
+![Figure: Bad example – Dotted border added to links. The styling don't follow the design system or current UI conventions](design-debt-bad.png)
 :::
 
 ::: good
-![Figure: Good example – Links are using regular CSS underlines aligned with the design system and  UI conventions](design-debt-good.png)
+![Figure: Good example – Links are using regular CSS underlines aligned with the design system and UI conventions](design-debt-good.png)
 :::
 
 ## More ways to prevent design debt
