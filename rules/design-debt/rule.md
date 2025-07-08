@@ -18,6 +18,7 @@ related:
   - less-is-more
   - request-a-test-please
   - technical-debt
+  - underlined-links
 archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
@@ -89,14 +90,14 @@ Design systems are like component libraries — but for UI.
 
 Always check with design — no exceptions.
 
-## Example – [EagleEye](https://ssweagleeye.com) Tag underlines
+## Example –  Borders vs underlines on links
 
 ::: bad
-![Figure: Bad Example – Styling was added ad-hoc, but it didn't fit the design system or current UI conventions](design-debt-bad.png)
+![Figure: Bad example – Dotted border added to links. The styling don't follow the design system or current UI conventions](design-debt-bad.png)
 :::
 
 ::: good
-![Figure: Good Example – Through a test please from a designer, the underlines were removed and the design aligned with the design system](design-debt-good.png)
+![Figure: Good example – Links are using regular CSS underlines aligned with the design system and UI conventions](design-debt-good.png)
 :::
 
 ## More ways to prevent design debt
