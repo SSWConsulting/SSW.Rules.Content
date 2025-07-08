@@ -1,7 +1,9 @@
 ---
-seoDescription: Ensure all software uses English as default language settings to avoid cultural and linguistic barriers when interacting with Western audiences.
 type: rule
 title: Do you make sure all software uses English as default on language settings?
+seoDescription: Ensure all software uses English as default language settings to
+  avoid cultural and linguistic barriers when interacting with Western
+  audiences.
 uri: make-sure-all-software-uses-english
 authors:
   - title: William Yin
@@ -19,7 +21,6 @@ created: 2016-03-22T06:16:19.000Z
 archivedreason: null
 guid: f6fcedaf-f4c4-4196-8996-b6e93b14f8c2
 ---
-
 When dealing with western people, you want to avoid having screen captures showing foreign characters.
 
 Let us look at some examples:
@@ -29,11 +30,11 @@ Let us look at some examples:
 ## Google Chrome
 
 ::: bad
-![Figure: Bad example - Chrome using Chinese as its language setting](2016-3-22 10-43-12.png)
+!\[Figure: Bad example - Chrome using Chinese as its language setting](2016-3-22 10-43-12.png)
 :::
 
 ::: good
-![Figure: Good example - Chrome using English as its language setting](2016-3-22 14-59-07.png)
+!\[Figure: Good example - Chrome using English as its language setting](2016-3-22 14-59-07.png)
 :::
 
 ### How to fix on a PC?
@@ -69,7 +70,6 @@ In Chrome, you can follow these steps directly:
 ![Figure: In macOS it’s simple to change to English](WX20180906-111514@2x.png)
 
 2. In Preferred languages, add English and select it as primary language
-
 3. Reboot the system and verify that English is now the primary language for all desktop applications
 
 ## Google account
@@ -77,7 +77,6 @@ In Chrome, you can follow these steps directly:
 You should also change your Google language to English as well. If it is not already, take a look at these steps:
 
 1. Go to google.com
-
 2. Click on `Sign-In` or `My Account` if you are already signed in
 
 ![Figure: Google page without an account](ssw1.png)
@@ -205,3 +204,10 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 :::
 
 3. Done!
+
+## Netease Mail Box
+
+1. Navigate to Mail.163.com | Setting and then select English from the dropdown
+2. Click on the name field next to the head portrait 
+
+![]()
