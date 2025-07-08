@@ -158,7 +158,17 @@ When using a browser, IDE, or any relevant app, make sure the interface is reada
 * **Browser** - Hide the bookmarks bar and set the zoom to 125%. (You can easily get a clean browser by using a guest or incognito profile)
 * **Microsoft Office** - Hide ribbons
 * **Outlook and others** - Clear any irrelevant reminders, clear messages and notifications
-* **Everywhere** - Don't share sensitive information
+* **Everywhere** - [Don't share sensitive information](/hide-sensitive-information)
+
+::: info
+**Extra tip:** Make your **mouse cursor larger and more visible** by increasing its size and adding a bright color.
+
+This helps viewers follow your actions easily — especially on high-resolution screens or busy UIs.
+
+* **On Mac:** [Make the pointer easier to see on Mac](https://support.apple.com/en-jo/guide/mac-help/mchlp2920/mac)
+* **On Windows:** [Make Windows easier to see | Know where you're pointing](https://support.microsoft.com/en-us/windows/make-windows-easier-to-see-c97c2b0d-cadb-93f0-5fd1-59ccfe19345d#id0ebf)
+
+:::
 
 ::: bad
 ![Figure: Bad example - Inbox messages are showing, and reminder has not been cleared](bad_example_email.png)
