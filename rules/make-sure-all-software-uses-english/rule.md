@@ -209,7 +209,7 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 
 
 
-## Netease Mail Box (Mail.163.com)
+## Fix Your Personal Email - Netease Mail Box (Mail.163.com)
 
 1. Navigate to Mail.163.com | Setting and then select English from the dropdown
 
@@ -225,7 +225,7 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 
 
 
-## Tencent Mail Box (Mail.qq.com)
+## Fix Your Personal Email - Tencent Mail Box (Mail.qq.com)
 
 1. Navigate to Mail.qq.com | General | Profile | My Profile, click edit to add your English Name.
 
