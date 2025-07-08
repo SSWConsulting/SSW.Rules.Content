@@ -207,7 +207,9 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 
 3. Done!
 
-## Netease Mail Box
+
+
+## Netease Mail Box (Mail.163.com)
 
 1. Navigate to Mail.163.com | Setting and then select English from the dropdown
 
@@ -218,3 +220,9 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 ![Figure: Use English Name so your Western colleagues can read](163rename.png)
 
 3. Done!
+
+
+
+## Tencent Mail Box (Mail.qq.com)
+
+1. Navigate to Mail.qq.com | General | Profile click edit next to the and then select English from the dropdown
