@@ -30,7 +30,7 @@ Clear communication is essential for success, and especially helpful in professi
 DRY, which stands for "don’t repeat yourself", is a principle of software development that aims at reducing the repetition of patterns and code duplication in favor of abstractions and avoiding redundancy.
 :::
 
-**Lists** are great to make texts easier to digest. Emojis makes it even easier to consume when a lot of information is present. By using them you can enhance the communication experience. But when repeated excessively, they can become a hindrance rather than a help.
+**Lists** are great to make text easier to digest. Emojis make it even easier to consume when a lot of information is present. By using them you can enhance the communication experience. But when repeated excessively, they can become a hindrance rather than a help.
 
 ## Words
 
@@ -66,7 +66,7 @@ Good example – No repeated words by using the DRY principle
 
 When there are multiple items listed, it can be challenging to distinguish between them quickly, leading to confusion and miscommunication. If the same emoji is repeated multiple times within a list, it can create visual clutter and make the list more difficult to read.
 
-When creating a list that includes emojis, **avoid repeating the same emoji** 3 or more times within a list. Instead, add the emoji to a "introductory sentence" or "lead-in sentence". This helps to keep the content concise, readable, and consistent. Thus making it easy to scan the list and understand the benefits and drawbacks of a particular situation.
+When creating a list that includes emojis, **avoid repeating the same emoji** 3 or more times within a list. Instead, add the emoji to an "introductory sentence" or "lead-in sentence". This helps keep the content concise, readable, and consistent, thus making it easier to scan the list and understand the benefits and drawbacks.
 
 ::: greybox
 
