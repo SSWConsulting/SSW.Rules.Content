@@ -21,6 +21,8 @@ created: 2016-03-22T06:16:19.000Z
 archivedreason: null
 guid: f6fcedaf-f4c4-4196-8996-b6e93b14f8c2
 ---
+
+
 When dealing with western people, you want to avoid having screen captures showing foreign characters.
 
 Let us look at some examples:
@@ -208,6 +210,5 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 ## Netease Mail Box
 
 1. Navigate to Mail.163.com | Setting and then select English from the dropdown
-2. Click on the name field next to the head portrait 
 
-![]()
+![Figure: Select English in setting dropdown](163setting.png)
