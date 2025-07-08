@@ -161,7 +161,7 @@ When using a browser, IDE, or any relevant app, make sure the interface is reada
 * **Everywhere** - [Don't share sensitive information](/hide-sensitive-information)
 
 ::: info
-**Tip:** Make your **mouse cursor larger and more visible** by increasing its size and adding a bright color.
+**Extra tip:** Make your **mouse cursor larger and more visible** by increasing its size and adding a bright color.
 
 This helps viewers follow your actions easily — especially on high-resolution screens or busy UIs.
 
