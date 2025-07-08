@@ -212,3 +212,9 @@ Some cheap versions of Microsoft Office 365 only allow Chinese, so you need to u
 1. Navigate to Mail.163.com | Setting and then select English from the dropdown
 
 ![Figure: Select English in setting dropdown](163setting.png)
+
+2. Click on the name field next to the head portrait | Enter your English Name
+
+![Figure: Use English Name so your Western colleagues can read](163rename.png)
+
+3. Done!
