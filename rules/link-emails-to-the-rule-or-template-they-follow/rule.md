@@ -13,12 +13,13 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - use-the-best-email-templates
 redirects:
   - do-you-link-internal-emails-to-the-rule-they-follow
 ---
 
-Having standards and email templates is great. It helps keep consistency, and the recipients know the format of the information they’re receiving and so can process it quickly.
+Having standards and [email templates](/use-the-best-email-templates) is great. It helps keep consistency, and the recipients know the format of the information they’re receiving and so can process it quickly.
 
 <!--endintro-->
 
@@ -35,7 +36,7 @@ Even when the rule or standard doesn't include an actual email template, but you
 | Subject: | Northwind App - Google Ads |  
 ::: email-content
 
-### Hi Jason
+### Hi Jason,
 
 (PING)
 
@@ -48,7 +49,7 @@ Need an answer on this ASAP, please
 :::  
 :::  
 ::: good
-Figure: Good Example – the email links to the standard it follows
+Figure: Good example – The email follows a template and include a link to it
 :::
 
 ::: info
