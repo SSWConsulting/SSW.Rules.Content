@@ -25,6 +25,10 @@ Having standards and [email templates](/use-the-best-email-templates) is great. 
 
 It also saves time if another employee needs to send one of these out later, as they may not know the processes that go into its construction.
 
+::: info
+**Warning:** Reusing a sent email to create a new one is risky — you might **forget to update key details** like dates, names, subject, or attachments. This can lead to sending outdated or incorrect information, which looks unprofessional and can cause confusion.
+:::
+
 In order for other people to recognize emails following **rules** and **standards**, it's a good idea to include something like "**\<This email was sent as per XXX\>**" at the end of your email.
 
 Even when the rule or standard doesn't include an actual email template, but you want to empathize you are following it, it is still valid to include that link at the bottom, so the other person can get easily get more information.
