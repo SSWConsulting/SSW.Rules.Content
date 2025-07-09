@@ -30,13 +30,14 @@ In order for other people to recognize emails following **rules** and **standard
 Even when the rule or standard doesn't include an actual email template, but you want to empathize you are following it, it is still valid to include that link at the bottom, so the other person can get easily get more information.
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | To: | Jason |
 | Subject: | Northwind App - Google Ads |  
 ::: email-content
 
-### Hi Jason,
+### Hi Jason
 
 (PING)
 
