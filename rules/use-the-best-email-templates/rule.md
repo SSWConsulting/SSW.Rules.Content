@@ -33,7 +33,6 @@ When sending repetitive emails, consistency across the organization is crucial. 
 | **Dynamics 365 Email Templates** | Rich text, shared, access to contact data      | Complex setup, font issues, doesn't work with meetings, template duplication |
 | **⭐️ officeatwork Content Chooser** | Rich text, easily shared, simple setup         | Templates must be manually updated                                           |
 
-
 With a variety of options available, each offering unique features for customization, automation, and integration, below is a summary for each of the top contenders.
 
 ## Option 1 - Outlook Templates
@@ -143,9 +142,9 @@ More information on [officeatwork Content Chooser](https://help.officeatwork.com
 
 Reusing an email from your **Sent Items** can lead to mistakes and miscommunication. It's easy to forget to update key details, such as:
 
-- **Outdated content** (e.g. old dates, names, or figures)
-- **Attachments** that are no longer relevant or missing entirely
-- **Subject line** (often still prefixed with "RE:")
-- **Duplicated email signature**
+* **Outdated content** (e.g. old dates, names, or figures)
+* **Attachments** that are no longer relevant or missing entirely
+* **Subject line** (often still prefixed with "RE:")
+* **Duplicated email signature**
 
 These small oversights can make your message look unprofessional or cause confusion for the recipient. It’s better to start with a fresh draft from the proper template.
