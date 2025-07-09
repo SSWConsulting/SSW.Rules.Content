@@ -14,6 +14,7 @@ authors:
 related:
   - react-to-github
   - prevent-secrets-leaking-from-repo
+  - hide-sensitive-information
 guid: c8fdf5dd-4e3d-42bc-95d2-7b940db3fbd0
 ---
 If you accidentally include confidential information in a GitHub Issue - whether it’s a password, API key, or private business details - the obvious thing to do is **edit the issue and delete the sensitive content**.

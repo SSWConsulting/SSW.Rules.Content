@@ -14,6 +14,7 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related:
+  - remove-confidential-information-from-github
 ---
 
 You should always use discretion in your public documentation. Hide any sensitive information, like your clients’ names, from screenshots and general documentation.
