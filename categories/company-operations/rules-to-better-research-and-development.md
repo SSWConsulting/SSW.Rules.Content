@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Research and Development
+title: Rules to Better Research & Development
 guid: 57154eb1-e4b4-4c24-bc5a-07645cbfdbf2
 uri: rules-to-better-research-and-development
 index:
