@@ -19,6 +19,7 @@ authors:
     url: https://ssw.com.au/people/patricia-barros
 related:
   - do-you-know-how-painful-rd-is
+  - do-you-record-your-research-under-the-pbi
 redirects: []
 ---
 
