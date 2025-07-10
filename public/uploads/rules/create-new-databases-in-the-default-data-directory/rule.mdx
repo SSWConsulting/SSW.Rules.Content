@@ -5,7 +5,7 @@ archivedreason:
 title: DBAs - Do you create new databases in the default data directory?
 guid: 9bc0d25e-9ea7-4abc-9f9c-b59099a00a78
 uri: create-new-databases-in-the-default-data-directory
-created: 2019-11-22T21:21:30.0000000Z
+created: 2019-11-22T21:21:31.000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
@@ -13,6 +13,11 @@ related: []
 redirects:
 - dbas-do-you-create-new-databases-in-the-default-data-directory
 
+lastUpdated: 2025-02-04T12:34:58.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
 When trying to create a database in SQL Server 2005 from an existing create script written for SQL Server 2000, we came across a problem. Our create script was trying to determine the path to save the database file (the path to the default data store) by using the sysdevices table in the Master database; however, the schema for the Master database had changed in 2005 and our script could no longer find the column it relied on to determine this path.

@@ -5,7 +5,7 @@ archivedreason:
 title: General - Do you know every object name should be owned by dbo?
 guid: 5b2a72df-2ed7-42d4-95be-eb996e12d845
 uri: every-object-name-should-be-owned-by-dbo
-created: 2019-11-14T21:51:26.0000000Z
+created: 2019-11-14T21:51:26.000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
@@ -14,6 +14,11 @@ related:
 redirects:
 - general-do-you-know-every-object-name-should-be-owned-by-dbo
 
+lastUpdated: 2023-08-21T22:38:18.000Z
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
 The reason is that you avoid ownership chain problems. Where Mary owns an object, Fred can read the object and then he creates a proc and he gives permission to Tom to execute. But Tom cannot because there is a product chain of ownership.

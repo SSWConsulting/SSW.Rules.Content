@@ -6,8 +6,13 @@ uri: take-care-when-casting-iqueryable-to-ienumerable
 authors:
   - title: Bryden Oliver
     url: https://www.ssw.com.au/people/bryden-oliver
-created: 2021-12-13T17:00:03.219Z
+created: 2021-12-13T23:24:44.000Z
 guid: ee5bfbb5-7743-462b-bc8a-f32b3fb015b0
+lastUpdated: 2021-12-21T06:30:45.000Z
+lastUpdatedBy: Bryden Oliver
+lastUpdatedByEmail: 77371877+brydeno@users.noreply.github.com
+createdBy: Tiago Araújo [SSW]
+createdByEmail: tiagov8@gmail.com
 ---
 
 When you cast IQueryable to IEnumerable and then query the data from there, Entity Framework must collect the data at the point you do the cast. This can result in very significant extra database load, and extra processing on the client side.
