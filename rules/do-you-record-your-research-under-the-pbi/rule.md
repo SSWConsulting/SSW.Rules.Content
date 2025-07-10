@@ -17,7 +17,8 @@ authors:
     url: https://ssw.com.au/people/jernej-kavka
   - title: Patricia Barros
     url: https://ssw.com.au/people/patricia-barros
-related: []
+related:
+  - do-you-record-your-failures
 redirects: []
 ---
 
@@ -25,27 +26,18 @@ If you have done significant research on a topic, this should be documented.
 
 Create a new task under the PBI and place these resources in the description with a short summary of what you got from this link.
 
-![](research-task-under-pbi.png)
-
-::: good
-Good Example: Task for research created under the PBI
-
-:::
-
 <!--endintro-->
 
-Each source you have used should be referenced here with the publish date and a short description of what you got from the content. If you take screen shots of the relevant sections then that is even better.
-
-![](sample-email-research.png)
-
 ::: good
-Good Example: Example research task on using caching to improve load times with SugarLearning
-
+![Figure: Good example - Task for research created under the PBI](research-task-under-pbi.png)
 :::
 
-![](show-no-research-found-2.png)
+Each source you have used should be referenced here with the publish date and a short description of what you got from the content. If you take screenshots of the relevant sections then that is even better.
 
 ::: good
-Good Example: If you don't find any suitable answers to your query, remember to make a short note of what you were looking for
+![Figure: Good example - Example research task on using caching to improve load times with SugarLearning](sample-email-research.png)
+:::
 
+::: good
+![Figure: Good example - If you don't find any suitable answers to your query, remember to make a short note of what you were looking for](show-no-research-found-2.png)
 :::

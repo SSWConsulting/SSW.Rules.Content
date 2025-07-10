@@ -1,6 +1,6 @@
 ---
 type: category
-title: Rules to Better Research and Development
+title: Rules to Better Research & Development
 guid: 57154eb1-e4b4-4c24-bc5a-07645cbfdbf2
 uri: rules-to-better-research-and-development
 index:
@@ -10,8 +10,8 @@ index:
 - do-you-record-your-failures
 - do-you-record-your-research-under-the-pbi
 - do-you-save-failed-experiments-in-abandoned-pull-requests
-- avoid-general-in-timesheets
 - poc-vs-mvp
+- avoid-general-in-timesheets
 
 ---
 
@@ -27,3 +27,5 @@ Each of the following rules are designed to ensure that the following items can 
 * What supporting activities were done to support the core research
 
 Read more on the [ATO R&D Tax Incentive page](https://www.ato.gov.au/Business/Research-and-development-tax-incentive/).
+
+Follow the below rules and you will be solving these issues, ensuring you're in accordance with the Australian R&D regulations.
