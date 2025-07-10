@@ -27,3 +27,5 @@ Each of the following rules are designed to ensure that the following items can 
 * What supporting activities were done to support the core research
 
 Read more on the [ATO R&D Tax Incentive page](https://www.ato.gov.au/Business/Research-and-development-tax-incentive/).
+
+Follow the below rules and you will be solving these issues, ensuring you're in accordance with the Australian R&D regulations.
