@@ -12,6 +12,11 @@ redirects:
 created: 2016-09-01T18:07:57.000Z
 archivedreason: null
 guid: 5fe6a6bd-2ff2-4db7-8a4f-cfcfa5dcd2d3
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
 Remember ASP code, you had lots of inline processing. Using DataBinder.Eval encourages the same tendencies. DataBinder.Eval is OK, so is formatting a number to a currency. But not formatting based on business rules. The general rule is, any code between **&lt;%#** and **DataBinder.Eval** is bad and should be moved into protected method on the form.

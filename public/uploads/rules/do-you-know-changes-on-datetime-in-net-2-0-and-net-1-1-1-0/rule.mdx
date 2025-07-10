@@ -5,7 +5,7 @@ archivedreason:
 title: Do you know changes on Datetime in .NET 2.0 and .NET 1.1/1.0?
 guid: aae59cde-200b-4d55-90b1-ed0db45d32af
 uri: do-you-know-changes-on-datetime-in-net-2-0-and-net-1-1-1-0
-created: 2009-05-08T08:37:20.0000000Z
+created: 2009-12-04T08:40:28.000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -14,6 +14,11 @@ authors:
     noimage: true
 related: []
 redirects: []
+lastUpdated: 2024-06-08T03:27:17.000Z
+lastUpdatedBy: Brady Stroud [SSW]
+lastUpdatedByEmail: bradystroud@ssw.com.au
+createdBy: CindyWang
+createdByEmail: CindyWang@ssw.com.au
 ---
 
 In v1.0 and v1.1 of .NET framework when serializing DateTime values with the XmlSerializer, the local time zone of machine would always been appended. And when deserializing on the receiving machine, DateTime values would be automatically adjusted based on time zone offset relative to the sender time zone.

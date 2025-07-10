@@ -12,6 +12,11 @@ redirects:
 created: 2020-03-11T21:59:13.000Z
 archivedreason: We now use NuGet to manage dependencies
 guid: 62615da5-6ce6-4f6d-b236-88cc2c918f93
+lastUpdated: 2023-11-07T00:19:29.000Z
+lastUpdatedBy: Brook Jeynes [SSW]
+lastUpdatedByEmail: jeynesbrook@gmail.com
+createdBy: TiagoAraujo
+createdByEmail: TiagoAraujo@ssw.com.au
 ---
 
 Dependant code is code that relies on other factors like methods and classes inside a separate DLL. Because of the way the .NET works assemblies are loaded as required by the program (this is what we call the JIT compiler). Thus, when a DLL goes astray, you will only find out at run time when you run a form/function that uses that DLL. These run time errors can occur when you have not packaged DLLs in your release or if the versions are incompatible. Such errors cause the following exceptions:
