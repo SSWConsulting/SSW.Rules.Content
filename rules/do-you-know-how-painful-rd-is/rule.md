@@ -1,11 +1,9 @@
 ---
-seoDescription: Painful R&D processes require meticulous record-keeping of failed experiments and evidence of innovative breakthroughs.
 type: rule
-archivedreason:
 title: Do you know how painful R&D is?
-guid: 2aac7b4f-f893-437c-b903-0c8d7232b684
+seoDescription: Painful R&D processes require meticulous record-keeping of
+  failed experiments and evidence of innovative breakthroughs.
 uri: do-you-know-how-painful-rd-is
-created: 2019-03-28T22:20:52.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -19,13 +17,21 @@ authors:
     url: https://ssw.com.au/people/barry-sanders
 related: []
 redirects: []
+created: 2019-03-28T22:20:52.000Z
+archivedreason: null
+guid: 2aac7b4f-f893-437c-b903-0c8d7232b684
 ---
-
 ![](female researcher inspecting tube.jpg)
+
 When a visit comes from an R&D auditor, they will want to check on what work you have ‘experimented’ with.
 
 An experiment, in R&D terms, translates to an iterative series of changes over the same piece of code.
 That means you will need to be able to show code you wrote that didn’t work. If you didn’t check that in at some stage, you are in trouble.
+
+`youtube: https://www.youtube.com/embed/u4_tevsVgg8`
+**Video: R&D in Software Development (9 min)**
+
+<!--endintro-->
 
 ### Forgetting to record failed experiments
 
@@ -43,4 +49,4 @@ The last thing you want to do is read through old employee inboxes and conversat
 
 Follow the below rules and you will be solving these issues, ensuring you're in accordance with the Australian R&D regulations.
 
-<!--endintro-->
+
