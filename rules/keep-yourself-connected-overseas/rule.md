@@ -23,11 +23,11 @@ The question arises: _How can one stay connected without the risk of huge bills?
 Roaming packages (e.g. Telstra) are a big $ money waste.
 
 ::: bad
-![Bad example - Keep your Data Roaming on](keep-yourself-connected-bad-example-2.png)
+![Figure: Bad example - Keep your Data Roaming on](keep-yourself-connected-bad-example-2.png)
 :::
 
 ::: bad
-![Bad example - Exorbitant Telstra bills upon returning home due to roaming data usage of 120 GB](keep-yourself-connected-1.png)
+![Figure: Bad example - Exorbitant Telstra bills upon returning home due to roaming data usage of 120 GB](keep-yourself-connected-1.png)
 :::
 
 There are a few options:
@@ -47,6 +47,12 @@ Take the popular iPhone as an example, which offers multiple eSIMs and a physica
 * Disposal of a used e-SIM can be done easily with a few clicks
 
 **Note:** Sometimes it is better to use a eSIM travel app, e.g. [mobimatter.com](https://mobimatter.com)> or [roamless.com](https://roamless.com). You can buy an eSIM and add it to your mobile directly, which is available in most countries.
+
+::: greybox
+**Tip:** To make it work, you need to switch your SIM from “Primary” (Home number) to “Travel SIM”
+
+Go to Settings | Mobile| Sims | Select “Travel SIM".
+:::
 
 ## Option B. Portable 4G Router
 
@@ -79,7 +85,7 @@ Each option has its pros and cons, allowing you to tailor your connectivity stra
 Travel SIMs are a prepaid, disposable option that's **usually cheaper** than roaming for high data use, offering a good user experience and a great complement to your main number, though they can sometimes be data-only and non-rechargeable.
 
 ::: good
-![Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
+![Figure: Good example - Paying $129 AUD for 200 GB of data on a travel SIM to Europe](keep-yourself-connected-2.png)
 :::
 
 ::: info
