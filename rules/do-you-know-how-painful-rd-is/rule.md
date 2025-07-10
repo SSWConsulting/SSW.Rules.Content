@@ -21,12 +21,9 @@ archivedreason: null
 guid: 2aac7b4f-f893-437c-b903-0c8d7232b684
 ---
 
-When a visit comes from an R&D auditor, they will want to check on what work you have ‘experimented’ with.
+When a visit comes from an R&D auditor, they will want to check on what work you have ‘experimented’ with. An experiment, in R&D terms, translates to an iterative series of changes over the same piece of code.
 
-An experiment, in R&D terms, translates to an iterative series of changes over the same piece of code.
 That means you will need to be able to show code you wrote that didn’t work. If you didn’t check that in at some stage, you are in trouble.
-
-![](female researcher inspecting tube.jpg)
 
 <!--endintro-->
 
