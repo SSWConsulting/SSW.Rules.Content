@@ -21,9 +21,9 @@ It is really important to understand the difference between a **Proof of Concept
 
 A POC is developed to demonstrate the feasibility of a concept or idea, often focusing on a single aspect of a project. It's about answering the question, _"Can we do this?"_ rather than _"How will we do this in production?"_ POCs are typically:
 
-- **Quick and focused:** Developed rapidly to test a specific hypothesis
-- **Experimental:** Used to validate technical feasibility, explore new technologies, or demonstrate a concept
-- **Disposable:** Not intended for production use; often discarded after proving the concept
+* **Quick and focused:** Developed rapidly to test a specific hypothesis
+* **Experimental:** Used to validate technical feasibility, explore new technologies, or demonstrate a concept
+* **Disposable:** Not intended for production use; often discarded after proving the concept
 
 POCs should be built, tested, and thrown away. They are **not intended to be used in a production environment**.
 
@@ -31,9 +31,9 @@ POCs should be built, tested, and thrown away. They are **not intended to be use
 
 Conversely, an MVP is a version of the product that includes just enough features to be usable so stakeholders/users can provide feedback for future product development.
 
-- **End-to-end functionality:** Covers a single feature or user flow in its entirety
-- **Production ready:** Developed with more attention to detail, as it will be used in a live environment
-- **Foundation for iteration:** Serves as a base to gather user feedback, validate assumptions, and guide future development
+* **End-to-end functionality:** Covers a single feature or user flow in its entirety
+* **Production ready:** Developed with more attention to detail, as it will be used in a live environment
+* **Foundation for iteration:** Serves as a base to gather user feedback, validate assumptions, and guide future development
 
 ### Examples
 
@@ -43,8 +43,8 @@ Building on the POC's success, the startup develops an **MVP** that integrates t
 
 ### Best practices
 
-- **For POCs**: Clearly define the concept you're testing. Limit the scope to essential elements to prove the hypothesis. Remember, POCs are not mini-products
-- **For MVPs**: Focus on core functionality that delivers user value. Engage with early users for feedback and be prepared to iterate based on what you learn
+* **For POCs**: Clearly define the concept you're testing. Limit the scope to essential elements to prove the hypothesis. Remember, POCs are not mini-products
+* **For MVPs**: Focus on core functionality that delivers user value. Engage with early users for feedback and be prepared to iterate based on what you learn
 
 ::: info  
 **Tip:** Ensure your client has a clear understanding of the difference before starting development. This will help manage expectations and avoid surprises.  
