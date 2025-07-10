@@ -48,6 +48,12 @@ Take the popular iPhone as an example, which offers multiple eSIMs and a physica
 
 **Note:** Sometimes it is better to use a eSIM travel app, e.g. [mobimatter.com](https://mobimatter.com)> or [roamless.com](https://roamless.com). You can buy an eSIM and add it to your mobile directly, which is available in most countries.
 
+::: greybox
+**Tip:** To make it work, you need to switch your sim from “Primary” (Home number) to “Travel Sim”
+
+Go to Settings | Mobile| Sims | Select “Travel Sim.
+:::
+
 ## Option B. Portable 4G Router
 
 Invest in a device, insert the local travel SIM, and share the Wi-Fi with multiple users and devices.
