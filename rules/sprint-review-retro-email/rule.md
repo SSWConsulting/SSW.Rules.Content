@@ -212,4 +212,3 @@ Creating a comprehensive summary and recording of your Sprint Meeting is a great
 
 `youtube: https://www.youtube.com/watch?v=t3SlxTKiT6U`
 **Video: TinaCMS - Sprint 23 Review and Sprint 24 Forecast (10 min)**
-
