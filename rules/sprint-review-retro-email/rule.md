@@ -205,3 +205,10 @@ Figure: Good example - Template for Sprint Review/Retro email
 ::: good
 ![Figure: Good example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::
+
+## Recording Review and Retrospective Meetings
+
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend. See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
+
+`youtube: https://www.youtube.com/watch?v=t3SlxTKiT6U`
+**Video: TinaCMS - Sprint 23 Review and Sprint 24 Forecast (10 min)**
