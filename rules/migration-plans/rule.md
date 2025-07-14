@@ -136,6 +136,7 @@ Many of these APIs are **removed completely in .NET 8+**, so treating these as b
 [See the full list of SYSLIB warnings](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview)
 
 **Recommended:**
+
 * Fix them immediately or raise PBIs if he fix is non-trivial
 * Add `<WarningsAsErrors>SYSLIB*</WarningsAsErrors>` to your `.csproj` files to stop deprecated APIs creeping back in
 * For sticter enforcement, consider using [BannedApiAnalyzers](/use-banned-api-analyzers/)
