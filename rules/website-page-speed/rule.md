@@ -77,3 +77,7 @@ One of the best ways to identify and fix performance issues is by using the Perf
 2. Right-click anywhere on the page and choose Inspect (or press F12)
 3. Navigate to the Performance tab
 4. Click Record, then reload the page to capture performance data
+
+::: good img-medium
+![Figure: Good example - Use DevTools to analyze and identify performance issues](performance-tab.png)
+:::
