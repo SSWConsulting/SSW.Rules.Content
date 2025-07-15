@@ -66,6 +66,7 @@ Good example - Good performance will improve the website's UX
 One of the best ways to identify and fix performance issues is by using the Performance tab in Chrome DevTools.
 
 #### This powerful tool helps you
+
 * Record and analyze the page load process
 * Identify long-running tasks that block the main thread
 * Spot inefficient JavaScript execution
