@@ -6,6 +6,10 @@ uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
     url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Gilles Pothieu
+    url: https://www.ssw.com.au/people/gilles-pothieu
+  - title: Chloe Lin
+    url: https://www.ssw.com.au/people/chloe-lin
 related:
   - optimize-your-images
 redirects:
@@ -29,7 +33,6 @@ This includes checking for improvements on:
 
 * The slowest pages
 * The compression of unnecessarily large images
-* Inefficient Ajax JavaScript code
 * Slow database queries
 * Page responsiveness
 
@@ -57,3 +60,21 @@ These optimizations contribute to:
 ::: good
 Good example - Good performance will improve the website's UX
 :::
+
+
+### Use the Performance Tab in Chrome DevTools
+
+One of the best ways to identify and fix performance issues is by using the Performance tab in Chrome DevTools.
+
+#### This powerful tool helps you:
+- Record and analyze the page load process
+- Identify long-running tasks that block the main thread
+- Spot inefficient JavaScript execution
+- Visualize layout shifts and rendering bottlenecks
+
+#### How to use it:
+1. Open your website in Google Chrome
+2. Right-click anywhere on the page and choose Inspect (or press F12)
+3. Navigate to the Performance tab
+4. Click Record, then reload the page to capture performance data
+
