@@ -1,7 +1,7 @@
 ---
 seoDescription: Easily manage SNOM VOIP phones and Microsoft Lync with expert guidance on transferring calls, creating conferences, and making internal connections.
 type: rule
-archivedreason:
+archivedreason: Outdated - SNOM phones and Microsoft Lync are no longer widely used or supported.
 title: Do you know how to use SNOM VOIP phones? (Physical Phones + Microsoft Lync)
 guid: 0b57f4b6-6798-45bb-995c-cd09ebcc4652
 uri: do-you-know-how-to-use-snom-voip-phones-physical-phones-microsoft-lync
