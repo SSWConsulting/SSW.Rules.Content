@@ -18,7 +18,7 @@ redirects: []
 ---
 
 TFS 2012 includes 3 built-in process templates:
-![](BuiltInTemplates.png)
+![built-in process templates](BuiltInTemplates.png)
 Figure: built-in process templates in TFS 2012Instead of starting from scratch, you should always choose one of these built-in templates to do your own customization. It will depend on the target process for you to choose which one, for small and simple process, Scrum and Agile templates are recommended; for formal and complex process, choose the CMMI template.
 
 <!--endintro-->
