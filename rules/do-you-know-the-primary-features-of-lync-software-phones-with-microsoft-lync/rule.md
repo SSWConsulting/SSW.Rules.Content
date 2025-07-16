@@ -1,7 +1,7 @@
 ---
 seoDescription: Microsoft Lync features include internal calls, call transfer, conference calling and more, with presence icons, IM functionality, federation abilities, meetings, remote desktop and whiteboard capabilities.
 type: rule
-archivedreason:
+archivedreason: Microsoft Lync has been deprecated and replaced by Microsoft Teams, which offers enhanced features and functionality.
 title: Do you know the primary features of Lync? (Software Phones with Microsoft Lync)
 guid: 07a37029-b9f4-4969-a98d-f2671d2ca3fd
 uri: do-you-know-the-primary-features-of-lync-software-phones-with-microsoft-lync
