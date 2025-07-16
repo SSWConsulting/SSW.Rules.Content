@@ -27,4 +27,4 @@ Click the URL near it, navigate to the Rule Summary page, and edit the Rule Summ
 <!--endintro-->
 
 Like this (thanks for Adam's snapshot) :
-![](SPTitle.jpg)
+![SharePoint Rules](SPTitle.jpg)
