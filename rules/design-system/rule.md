@@ -19,7 +19,7 @@ created: 2025-05-14T15:18:00.000Z
 guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
 ---
 
-When every button looks a little different, spacing feels off, and handoffs between design and dev are painful, you know something's wrong. 
+When every button looks a little different, spacing feels off, and handoffs between design and dev are painful, you know something's wrong.
 
 **A design system can fix all of that**, aligning everyone around a shared language and providing the tools to build faster and better. It avoids inconsistent UI, longer review cycles, and time spent debating minor visual tweaks.  
 
@@ -68,10 +68,10 @@ A solid design system should include:
 
 ## Design System maturity: From Library to Ecosystem
 
-Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product. 
+Design systems don’t need to be fully built from day one. There are different levels of implementation depending on the maturity of the team/product.
 
 ::: info
-Most teams don't start with a full design system — they start small with just a few shared components and evolve over time. 
+Most teams don't start with a full design system — they start small with just a few shared components and evolve over time.
 :::
 
 Since “design system” is often used loosely, this table helps clarify where your team sits and what to aim for next:
