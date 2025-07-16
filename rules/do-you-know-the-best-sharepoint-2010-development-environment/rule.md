@@ -20,7 +20,7 @@ redirects: []
 Developing in ASP.NET is easy, you just press F5, Visual Studio spins up instance of the Cassini web server, and you can see your work execute. Developing in SharePoint is much harder as you need access to a local SharePoint server to see your work run.
 
 In SharePoint 2007 there are three options, in SharePoint 2010 they have added one more.
-![](SetupSPEnviroment.jpg)**Figure: Setting up the development environment in SharePoint can give you a headache**
+![Setup SharePoint Environment](SetupSPEnviroment.jpg)**Figure: Setting up the development environment in SharePoint can give you a headache**
 
 <!--endintro-->
 
@@ -83,7 +83,7 @@ Are there any shortcuts for Silverlight developers (for SharePoint consumption)?
 
   Tip: You could minimise your exposure to the object model by using a Repository pattern, which would allow you to debug and test your application without SharePoint, but ultimately you will need to debug and test in SharePoint.
 
-![](UltimateSolution.jpg)**Figure: The Ultimate solution for SharePoint development environments is to have another machine under your desk.** The Ultimate Solution
+![Ultimate Solution](UltimateSolution.jpg)**Figure: The Ultimate solution for SharePoint development environments is to have another machine under your desk.** The Ultimate Solution
 
 * Get yourself a second machine (same as remote)
 * But don’t share it with anyone else!
