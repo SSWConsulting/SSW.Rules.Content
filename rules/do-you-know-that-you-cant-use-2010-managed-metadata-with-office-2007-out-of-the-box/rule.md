@@ -31,5 +31,5 @@ Best Solution:
 
 Use a 3rd party solution - the best one being OnePlaceMail which provides a UI for managed metadata via the "Save to SharePoint". Works with all three versions of Office so users get a consistent UI.
 
-![](OnePlaceMail.jpg)
+![OnePlaceMail](OnePlaceMail.jpg)
 **Figure: The optional save dialog that pops up when saving document to SharePoint - allowing use of Managed Metadata from Office 2003, 2007 and File Explorer**
