@@ -1,7 +1,7 @@
 ---
 seoDescription: SharePoint rules categories require consistent title updates through Rule Summary page editing to synchronize with Site Title and Item Title.
 type: rule
-archivedreason:
+archivedreason: Obsolete - SSW.Rules are now on GitHub
 title: SharePoint Rules Categories - Do You Know How to Make the Title Consistent?
 guid: e3d6149d-b648-4229-bf9c-8b7a051266e5
 uri: sharepoint-rules-categories-do-you-know-how-to-make-the-title-consistent
