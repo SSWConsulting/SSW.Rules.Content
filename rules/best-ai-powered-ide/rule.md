@@ -94,7 +94,7 @@ You wouldn't send an email written by ChatGPT without first checking it for corr
 You are solely responsible for the code you commit!
 
 ::: info
-**Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.\
+**Warning:** Whilst Cursor can run VSCode extensions, not all will work e.g. Microsoft licensing restricts the use of the .NET debugger to Microsoft builds of VSCode.
 See <https://github.com/dotnet/vscode-csharp/wiki/Microsoft-.NET-Core-Debugger-licensing-and-Microsoft-Visual-Studio-Code>
 :::
 
