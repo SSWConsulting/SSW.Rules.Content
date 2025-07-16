@@ -6,11 +6,11 @@ seoDescription: Tame visual inconsistencies and streamline team collaboration by
 uri: design-system
 authors:
   - title: Betty Bondoc
-    url: https://www.ssw.com.au/people/betty-bondoc/
+    url: https://www.ssw.com.au/people/betty-bondoc
   - title: Jayden Alchin
-    url: https://www.ssw.com.au/people/jayden-alchin/
+    url: https://www.ssw.com.au/people/jayden-alchin
   - title: Tiago Araujo
-    url: https://www.ssw.com.au/people/tiago-araujo/
+    url: https://www.ssw.com.au/people/tiago-araujo
 related:
   - design-debt
   - software-for-ux-design
@@ -19,24 +19,27 @@ created: 2025-05-14T15:18:00.000Z
 guid: cf1f0a03-8702-43ae-80d5-f44ac491edee
 ---
 
-When every button looks a little different, spacing feels off, and handoffs between design and dev are painful, you know something's wrong. These issues lead to inconsistent UI, longer review cycles, and time wasted debating visual tweaks instead of building real value.  
+When every button looks a little different, spacing feels off, and handoffs between design and dev are painful, you know something's wrong. 
 
-A design system can fix all of that—it aligns everyone around a shared language and provides the tools to build faster and better.
+**A design system can fix all of that**, aligning everyone around a shared language and providing the tools to build faster and better. It avoids inconsistent UI, longer review cycles, and time spent debating minor visual tweaks.  
 
 <!--endintro-->
 
 `youtube: https://www.youtube.com/embed/YLo6g58vUm0`
-
 **Video: Welcome to Design Systems – Lesson 1: Introduction to Design Systems (15 min)**
 
 ## Key components
 
 A solid design system should include:
 
-* **Style guide and design tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
+* **Style guide and design values/tokens** – Brand guidelines, color variables, typography, iconography, spacing grids, and accessibility guidance
 * **Component library** – Reusable UI elements like buttons or inputs, built in your design tool with variants and usage guidance. May include page templates and broader patterns
 * **Documentation** – Guidelines for component usage, do’s and don’ts, examples and demos
 * **Design system governance** – Clear ownership of the design system, a contribution process, tools for dev handover, and semantic versioning to manage updates
+
+::: info
+**Design tokens** are reusable values that define your system’s design language in a format that both designers and developers can use—ensuring consistency and simplifying updates across your product ecosystem.
+:::
 
 ## Why it works
 
