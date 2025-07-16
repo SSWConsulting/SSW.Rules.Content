@@ -18,8 +18,6 @@ The Lync meeting experience is designed to allow people to collaborate productiv
 
 <!--endintro-->
 
-Lync presenter's best practices can be found [here](https://support.microsoft.com/en-us/office/best-practices-for-a-lync-meeting-d48ee355-e366-4de6-a0f5-bdbd75b35640).
-
 ### Features
 
 A Lync whiteboard is a blank page that allows presenters to draw, add text, and highlight information by using the annotation tools.
