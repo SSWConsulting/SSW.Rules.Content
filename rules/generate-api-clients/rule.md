@@ -47,7 +47,7 @@ Kiota is Microsoft's next-generation API client generator designed for modern cl
 
 ✅ **Pros**
 * Modern async/await patterns
-* Supports complex API scenarios
+* Supports complex API scenarios - you can filter to the endpoints you care about
 * Growing ecosystem and active development
 * Extendable - easy to add handlers to the client
 
