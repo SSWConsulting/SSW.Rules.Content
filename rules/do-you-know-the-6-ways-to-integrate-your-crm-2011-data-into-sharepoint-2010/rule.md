@@ -40,6 +40,7 @@ This BCS Adapter for CRM 2011 is from the CRM team (It does all of the BCS work 
 
 ::: greybox
 **More information:**
+
 * Download from Microsoft
 * Find and read "*Connecting to CRM Online 2011 with SharePoint 2010 Business Connectivity Services*"
 * Run tool to generate the XML mapping (.BDCM)
