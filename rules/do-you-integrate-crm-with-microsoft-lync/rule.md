@@ -23,13 +23,13 @@ Even though it works great for direct calls on Skype for Business, transferred c
 
 ### SkypePOP Features and Benefits
 
-- With support Office 365, Microsoft Skype for Business 2015 (as well as older versions)
-- Works with Skype for Business (doesn't work with Skype or Skype Preview)
-- Fast - pop's CRM records in milliseconds
-- Multiple records – handles multiple CRM records of different types with the same number
-- Pops information from CRM Contacts, Leads, Accounts and System Users
-- Presence Aware – control over what the application does based on Lync/OCS presence
-- Phone Activity – provides multiple options to record the call against a CRM record
+* With support Office 365, Microsoft Skype for Business 2015 (as well as older versions)
+* Works with Skype for Business (doesn't work with Skype or Skype Preview)
+* Fast - pop's CRM records in milliseconds
+* Multiple records – handles multiple CRM records of different types with the same number
+* Pops information from CRM Contacts, Leads, Accounts and System Users
+* Presence Aware – control over what the application does based on Lync/OCS presence
+* Phone Activity – provides multiple options to record the call against a CRM record
 
 ![Figure: SkypePOP advanced options](lyncPOP-options.png)
 

@@ -25,5 +25,5 @@ Figure: built-in process templates in TFS 2012Instead of starting from scratch, 
 
 Using an existing process template will save you a lot of time because
 
-- It has the structure setup already, all you need to do is to make modifications and upload the template back to the server again.
-- All the built-in reports could be used as a template for your customization, this will save you a lot of time from creating a new report.
+* It has the structure setup already, all you need to do is to make modifications and upload the template back to the server again.
+* All the built-in reports could be used as a template for your customization, this will save you a lot of time from creating a new report.

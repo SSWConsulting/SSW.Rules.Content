@@ -22,9 +22,9 @@ Before you rush out to purchase IP phones for the new Lync solution you have wan
 
 As per [IP Desk Phones page](http://technet.microsoft.com/en-us/lync/gg278172) we can see there are three vendors which supply IP phones which are supported by Lync. These three vendors are:
 
-- SNOM
-- HP
-- ASTRA
+* SNOM
+* HP
+* ASTRA
 
 SNOM have been supporting OCS and Lync for many years. There phones are mainstream and offer good quality and features. This was our choice when purchasing IP desk phones.
 
@@ -49,7 +49,7 @@ Read more about [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulti
 
 ![Log on to SNOM Phone](step-1.png)
 
-2. Enter in your SIP-URI, that is emailaddress@ssw.com.au and press the green tick
+2. Enter in your SIP-URI, that is <emailaddress@ssw.com.au> and press the green tick
 
 ![Enter in your SIP-URI](step-2.jpg)
 

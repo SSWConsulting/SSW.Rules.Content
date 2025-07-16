@@ -18,24 +18,22 @@ Using Microsoft Teams? We recommend you check out the latest phone here: [Do y
 
 `youtube: https://www.youtube.com/embed/z45_IMwslYw?rel=0`
 
-
-
 There are a lot of features of Microsoft Lync. The primary features are:
 
 <!--endintro-->
 
-- Internal calls
-- Transfer a call
-- Conference a call
+* Internal calls
+* Transfer a call
+* Conference a call
 
 Plus even more:
 
-- Receiving your voice mails into your email
-- Presence Icon
-- IM functionality
-- Federation Abilities (so you have more people on your IM)
-- Meetings
-- Remote Desktop
-- Whiteboard
+* Receiving your voice mails into your email
+* Presence Icon
+* IM functionality
+* Federation Abilities (so you have more people on your IM)
+* Meetings
+* Remote Desktop
+* Whiteboard
 
 Read more about [implementing Microsoft Lync](https://www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx).

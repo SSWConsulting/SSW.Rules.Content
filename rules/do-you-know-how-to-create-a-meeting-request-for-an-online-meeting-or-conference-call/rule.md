@@ -23,8 +23,8 @@ Schedule an online meeting or conference call by using the Online Meeting Add-in
 To create an online meeting or conference call meeting request, follow these steps:
 
 1. Do one of the following:
-   - In the Microsoft Outlook Calendar, New Lync Meeting in Microsoft Outlook
-   - In the Lync main window, in your Contacts list, hold down the "Ctrl" key and click the contacts you want to invite, right click one of the selected contacts, and then click "Schedule a Meeting". In the meeting request, click "Lync Meeting".
+   * In the Microsoft Outlook Calendar, New Lync Meeting in Microsoft Outlook
+   * In the Lync main window, in your Contacts list, hold down the "Ctrl" key and click the contacts you want to invite, right click one of the selected contacts, and then click "Schedule a Meeting". In the meeting request, click "Lync Meeting".
 2. In the meeting request, in the “To” field, type the email address of each person you want to invite, separated by semicolons.
 3. In the "Subject"field, type a subject for the meeting.
 4. (Optional) In the body of the meeting request, above the "Join Lync Meeting" link, type additional meeting details.
