@@ -47,18 +47,18 @@ Read more about [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulti
 
 1. Log on to SNOM Phone, press a key to continue
 
-![Log on to SNOM Phone](step-1.png)
+   ![Log on to SNOM Phone](step-1.png)
 
 2. Enter in your SIP-URI, that is <emailaddress@ssw.com.au> and press the green tick
 
-![Enter in your SIP-URI](step-2.jpg)
+   ![Enter in your SIP-URI](step-2.jpg)
 
 3. Enter in your Domain\Username, that is ssw2000\username and press the green tick
 
-![Enter in your Domain\Username](step-3.jpg)
+   ![Enter in your Domain\Username](step-3.jpg)
 
 4. Enter in your AD password and press the green tick
 
-![Enter in your AD password](step-4.jpg)
+   ![Enter in your AD password](step-4.jpg)
 
 Congratulations, you are now able to make and receive phone calls.
