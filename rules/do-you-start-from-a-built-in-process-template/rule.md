@@ -1,7 +1,7 @@
 ---
 seoDescription: Start your TFS process from a built-in template to save time and effort, with pre-set structures and reports available for customization.
 type: rule
-archivedreason:
+archivedreason: Outdated - TFS is no longer relevant, and Azure DevOps has replaced it with modern process templates.
 title: Do you start from a built-in process template?
 guid: 8fd2c107-541d-4fca-a804-5a1e74c79d33
 uri: do-you-start-from-a-built-in-process-template
