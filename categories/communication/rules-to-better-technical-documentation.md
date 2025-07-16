@@ -56,5 +56,6 @@ index:
   - do-you-know-all-the-symbols-on-the-keyboard
   - copy-text-from-image
   - support-send-links
+  - ai-assisted-artifacts
 ---
 Improve the clarity, consistency, and effectiveness of your technical documentation with these comprehensive rules. From formatting and SEO to ensuring readability and accuracy, these guidelines will help you create top-quality documentation.
