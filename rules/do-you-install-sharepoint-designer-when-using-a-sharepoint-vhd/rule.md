@@ -1,7 +1,7 @@
 ---
 seoDescription: SharePoint designers matching the SharePoint version ensure seamless presentation and collaboration.
 type: rule
-archivedreason:
+archivedreason: Obsolete - SharePoint Designer 2013 is deprecated and will no longer be supported after July 14, 2026.
 title: Do you install SharePoint Designer when using a SharePoint VHD?
 guid: 07309a8c-6258-45d9-802a-af3568e10bb2
 uri: do-you-install-sharepoint-designer-when-using-a-sharepoint-vhd
