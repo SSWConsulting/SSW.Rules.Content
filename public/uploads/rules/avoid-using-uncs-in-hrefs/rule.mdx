@@ -16,7 +16,7 @@ archivedreason: null
 created: 2016-08-26T17:56:17.000Z
 createdBy: TiagoAraujo
 createdByEmail: TiagoAraujo@ssw.com.au
-lastUpdated: 2025-07-16T15:19:13.868Z
+lastUpdated: 2025-07-16T15:20:58.654Z
 lastUpdatedBy: Chloe
 lastUpdatedByEmail: chloelin@ssw.com.au
 ---
@@ -26,7 +26,7 @@ Initially, errors of this nature would be picked up in the link checking utility
 The reason it won't see the problems is because the link checking utility does not check hard coded links to local servers (e.g. localserver/ssw/Default.aspx). Therefore, it is testing a page that will exist internally, but the page will not exist when uploaded to the web (e.g. ssw\.com.au/ssw/Default.aspx).
 
 ```javascript
-<a href="//ant/ssw/LookOut.htm"></a>
+console.log("test")
 ```
 
 <figureEmbed
@@ -38,7 +38,6 @@ The reason it won't see the problems is because the link checking utility does 
 />
 
 ```html
-<a href="/ssw/LookOut.htm"></a>
 ```
 
 <figureEmbed
