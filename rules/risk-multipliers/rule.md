@@ -88,7 +88,7 @@ If you're in the enterprise space, or working on projects that have many moving 
 2. Run one or more [Event Storming workshops](/event-storming-workshop) to map out the business flow
 3. Create epics for each Key Event
 4. Perform a [Specification Review](/what-is-a-spec-review) for each epic
-5. Decomposing the epics into PBIs
+5. Decompose the epics into PBIs
 6. Use the strategies above to identify high risk areas
 
 ::: greybox
