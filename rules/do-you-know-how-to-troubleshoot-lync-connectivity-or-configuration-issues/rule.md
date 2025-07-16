@@ -1,7 +1,7 @@
 ---
 seoDescription: Troubleshoot Lync connectivity issues using Remote UC Troubleshooting Tool, Monitoring Reports and Internet Network connectivity tests.
 type: rule
-archivedreason:
+archivedreason: Outdated - Lync has been replaced by Microsoft Teams
 title: Do you know how to troubleshoot Lync connectivity or configuration issues?
 guid: 3e50c914-d83f-41fa-b70d-f0d6fd34935d
 uri: do-you-know-how-to-troubleshoot-lync-connectivity-or-configuration-issues
