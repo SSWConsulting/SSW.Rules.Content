@@ -6,6 +6,9 @@ uri: azure-migrate-before-migration
 authors:
   - title: Ben Neoh
     url: https://www.ssw.com.au/people/ben-neoh
+  - title: Rick Su
+    url: https://www.ssw.com.au/people/rick-su
+    
 related:
   - azure-do-you-use-the-right-azure-service
   - azure-do-you-use-azure-landing-zones
