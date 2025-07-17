@@ -62,10 +62,8 @@ These optimizations contribute to:
 Good example - Good performance will improve the website's UX
 :::
 
-
 `youtube: https://www.youtube.com/watch?v=wM7pc8lJxvE`
 **Video: Performance - Speeding Up Websites e.g. TinaCMS⚡️ (4 min)**
-
 
 ### Use the Performance Tab in Chrome DevTools
 
