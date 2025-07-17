@@ -84,9 +84,10 @@ One of the best ways to identify and fix performance issues is by using the Perf
 2. Right-click anywhere on the page and choose Inspect (or press F12)
 3. Navigate to the Performance tab
 4. Click Record, then reload the page to capture performance data
+5. After recording, you'll see metrics like Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and other key performance indicators
 
 ::: bad img-large
-![Figure: Bad example - Slow Largest Contentful Paint (LCP), leading to a poor user experience](bad-performance.png)
+![Figure: Bad example - Slow LCP, leading to a poor user experience](bad-performance.png)
 :::
 
 ::: good img-large
