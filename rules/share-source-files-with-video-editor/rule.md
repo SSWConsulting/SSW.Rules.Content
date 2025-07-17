@@ -22,12 +22,12 @@ When you ask for changes to a video, it's tempting to just send the exported vid
 
 <!-- endintro -->
 
-All editing tools have their own way of saving source files. Some editing tools save multiple video files separately. For example, Clipchamp exports two distinct .mp4 files - one for the screen recording and another one for the webcam footage. Other tools, like Camtasia, use a single project file (e.g., .tscproj) that references all the media assets and edits within it.
+All editing tools have their own way of saving source files. Some editing tools save multiple video files separately. For example, Clipchamp exports two distinct .mp4 files - one for the screen recording and another one for the webcam footage. Other tools, like Camtasia, use specific source files: The .trec file contains the recorded media assets (like screen recording, webcam, mic audio, and system audio), and the .tscproj file (optional) contains the project edits, timeline layout, and references to media files (including .trec files) that references all the media assets.
 
 Sharing these complete project files or all related media ensures your editor can work efficiently and maintain professional quality.
 
 ::: bad
-![Figure: Bad Example - Only the exported video file (.mp4) was shared](bad-example-one-video-file.png)
+![Figure: Bad Example - Only the exported video file (.mp4) is shared](bad-example-one-video-file.png)
 :::
 
 ::: good
@@ -35,5 +35,5 @@ Sharing these complete project files or all related media ensures your editor ca
 :::
 
 ::: good
-![Figure: Good Example - Camtasia - The .tscproj file is shared, which contains all the media assets](good-example-project-file.png)
+![Figure: Good Example - Camtasia - The source file and project file are shared](good-example-source-file.png)
 :::
