@@ -33,12 +33,12 @@ We don't jump in and look at the code and clean it up and reply with something l
 
 A better way is:
 
-- Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
-- Add some code to record the time the function takes to run
-- Reproduce the steps and record the time
-- Change the code
-- Reproduce the steps and record the time again
-- Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
+* Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
+* Add some code to record the time the function takes to run
+* Reproduce the steps and record the time
+* Change the code
+* Reproduce the steps and record the time again
+* Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
 
 ::: good  
 ![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](Code-Auditor-performance.jpg)  
