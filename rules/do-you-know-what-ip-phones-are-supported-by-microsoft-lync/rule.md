@@ -1,7 +1,7 @@
 ---
 seoDescription: Microsoft Lync compatible IP phones from SNOM, HP, and ASTRA vendors are supported for seamless communication.
 type: rule
-archivedreason: Outdated - Microsoft Lync has been replaced by Microsoft Teams
+archivedreason: Outdated - Microsoft Lync has been replaced by Microsoft Teams. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you know what IP phones are supported by Microsoft Lync?
 guid: 3269cde0-bac0-4430-bf52-54e0821addb0
 uri: do-you-know-what-ip-phones-are-supported-by-microsoft-lync

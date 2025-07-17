@@ -1,7 +1,7 @@
 ---
 seoDescription: Integrate Microsoft Dynamics CRM with Skype for Business to enhance sales and customer service interactions.
 type: rule
-archivedreason: Outdated - Skype for Business has been retired, and Microsoft Teams is the recommended replacement for CRM integration.
+archivedreason: Outdated - Skype for Business has been retired, and Microsoft Teams is the recommended replacement for CRM integration. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you integrate CRM with Microsoft Skype for Business?
 guid: 1b64ec75-ff9a-419b-abb9-d3a17872d994
 uri: do-you-integrate-crm-with-microsoft-lync

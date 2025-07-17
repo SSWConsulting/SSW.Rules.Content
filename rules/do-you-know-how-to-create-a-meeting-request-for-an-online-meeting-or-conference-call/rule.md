@@ -1,7 +1,7 @@
 ---
 seoDescription: Schedule online meetings and conference calls using Microsoft Lync or Outlook with ease.
 type: rule
-archivedreason: Outdated - Microsoft Lync has been replaced by Microsoft Teams
+archivedreason: Outdated - Microsoft Lync has been replaced by Microsoft Teams. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you know how to create a meeting request for an online meeting or conference call?
 guid: 13e00504-66c4-4871-b6c7-7fc695ba5197
 uri: do-you-know-how-to-create-a-meeting-request-for-an-online-meeting-or-conference-call
