@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know the right Copilot Lingo?
 seoDescription: Learn the correct terminology for Microsoft Copilot and its agents so your team chooses the right AI for every task and communicates without confusion.
-uri: do-you-know-the-right-copilot-lingo
+uri: copilot-lingo
 authors:
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
