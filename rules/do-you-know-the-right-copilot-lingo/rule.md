@@ -41,7 +41,6 @@ There are 3 main types of Agents within the Microsoft world:
 
 Copilot Connectors (aka Graph Connectors) are gateways to access data from custom Agents. By default your tenant is configured for SharePoint Copilot Connectors (that's how SharePoint Agents access your data) but you can also roll your own connectors to access external Enterprise Data (SQL, Jira, Zendesk, etc...)
 
-
 ## Use precise language
 
 ::: greybox
