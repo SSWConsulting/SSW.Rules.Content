@@ -20,6 +20,7 @@ Estimating time and complexity in software is hard. By its nature, almost all so
 When you're scoping out a piece of work, it's important to help the business understand and manage those risks, and help shine a light on areas where risk can quickly snowball.
 
 ## The initial estimate
+
 When estimating a piece of work, the first thing to do is come up with a baseline estimate *before* applying any risk multipliers. This is the initial estimate.
 
 ### How big/complex is the change?
@@ -35,7 +36,6 @@ While this is probably the most obvious area of risk, it is still risk and there
 
 One of the best ways to identify these complexities is to **[run an Event Storming session](/event-storming)**. This approach is highly recommended for all medium to large projects, as it’s proven effective in identifying complexity and clearly demonstrating it to non-technical stakeholders.
 
-
 ## The risk multipliers
 
 Once you have your initial estimate, it's time to examine which (if any) risk multipliers apply to the piece of work.
@@ -47,8 +47,6 @@ If you've been working on a project for a suitable length of time, you should kn
 ### How often have you done this work?
 
 If you're a back-end web developer, and the feature you're estimating is some simple CRUD endpoints, you've probably done this type of work hundreds of times before. You know what's required, and you know can confidently gauge how long it will take. Alternatively, if you're being asked to build something exotic, or even just outside your wheelhouse, confidence can drop quickly. Maybe what's being asked is simply not possible, or requires significant infrastructure or iteration before meeting requirements. Know your strengths, and more importantly, know your blindspots.
-
-
 
 ## Managing risk
 
