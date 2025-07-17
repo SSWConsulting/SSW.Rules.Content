@@ -13,9 +13,10 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
 related:
   - website-page-speed
-  - do-you-keep-your-website-loading-time-acceptable
+  - keep-your-website-loading-time-acceptable
   - steps-required-to-implement-a-performance-improvement
-redirects: []
+redirects:
+  - do-you-avoid-reviewing-performance-without-metrics
 ---
 
 When a client complains about performance, it’s important not to jump straight into the code and make blind fixes. Instead of guessing what might help, we need to approach it methodically—starting with clear benchmarks, profiling, and data-driven decisions.
@@ -32,12 +33,12 @@ We don't jump in and look at the code and clean it up and reply with something l
 
 A better way is:
 
-* Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
-* Add some code to record the time the function takes to run
-* Reproduce the steps and record the time
-* Change the code
-* Reproduce the steps and record the time again
-* Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
+- Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
+- Add some code to record the time the function takes to run
+- Reproduce the steps and record the time
+- Change the code
+- Reproduce the steps and record the time again
+- Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
 
 ::: good  
 ![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](Code-Auditor-performance.jpg)  
@@ -70,4 +71,3 @@ Depending on your tech stack, there are various tools available to measure perfo
 ### Samples
 
 For sample code on how to measure performance, please refer to [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
-
