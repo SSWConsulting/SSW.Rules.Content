@@ -1,7 +1,7 @@
 ---
 seoDescription: Do you use Global List in TFS? Learn best practices and examples of referencing global lists in work item type definitions.
 type: rule
-archivedreason:
+archivedreason: Outdated - Global Lists in TFS are no longer relevant as TFS has been replaced by Azure DevOps. See https://www.ssw.com.au/rules/rules-to-better-devops/
 title: Do you use Global List in TFS?
 guid: 07e5066e-4c30-46e4-b5b4-010eaf570cd2
 uri: do-you-use-global-list
