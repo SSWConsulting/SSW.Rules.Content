@@ -32,12 +32,12 @@ _"I've looked at the code and cleaned it up - not sure if this is suitable - ple
 
 A better way is:
 
-- Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
-- Add some code to record the time the function takes to run
-- Reproduce the steps and record the time
-- Change the code
-- Reproduce the steps and record the time again
-- Reply to the customer:
+* Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
+* Add some code to record the time the function takes to run
+* Reproduce the steps and record the time
+* Change the code
+* Reproduce the steps and record the time again
+* Reply to the customer:
   "It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."
 
 ::: good  
@@ -68,5 +68,5 @@ For sample code on how to measure performance, please refer to rule [Do you have
 
 ### Related Rule
 
-- [Do you keep your website loading time acceptable?](/do-you-keep-your-website-loading-time-acceptable)
-- [Do you know the steps required to implement a performance improvement?](/steps-required-to-implement-a-performance-improvement)
+* [Do you keep your website loading time acceptable?](/do-you-keep-your-website-loading-time-acceptable)
+* [Do you know the steps required to implement a performance improvement?](/steps-required-to-implement-a-performance-improvement)
