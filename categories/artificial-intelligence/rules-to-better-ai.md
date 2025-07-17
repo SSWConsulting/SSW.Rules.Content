@@ -26,6 +26,7 @@ index:
 - manage-security-risks-when-adopting-ai-solutions
 - manage-legal-implications-of-ai
 - mitigate-brand-risks-ai
+- run-llms-locally
 - mcp-server
 - use-mcp-to-standardize-llm-connections
 - digest-microsoft-form
