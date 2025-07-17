@@ -70,3 +70,4 @@ Depending on your tech stack, there are various tools available to measure perfo
 ### Samples
 
 For sample code on how to measure performance, please refer to [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
+

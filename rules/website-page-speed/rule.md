@@ -12,6 +12,7 @@ authors:
     url: https://www.ssw.com.au/people/chloe-lin
 related:
   - optimize-your-images
+  - do-you-avoid-reviewing-performance-without-metrics
 redirects:
   - do-you-have-a-good-page-speed
 created: 2019-04-16T22:59:21.000Z
@@ -61,6 +62,9 @@ These optimizations contribute to:
 Good example - Good performance will improve the website's UX
 :::
 
+`youtube: https://www.youtube.com/watch?v=wM7pc8lJxvE`
+**Video: Performance - Speeding Up Websites e.g. TinaCMS⚡️ (4 min)**
+
 ### Use the Performance Tab in Chrome DevTools
 
 One of the best ways to identify and fix performance issues is by using the Performance tab in Chrome DevTools.
@@ -78,7 +82,30 @@ One of the best ways to identify and fix performance issues is by using the Perf
 2. Right-click anywhere on the page and choose Inspect (or press F12)
 3. Navigate to the Performance tab
 4. Click Record, then reload the page to capture performance data
+5. After recording, you'll see metrics like Largest Contentful Paint (LCP), Cumulative Layout Shift (CLS), and other key performance indicators
 
-::: good img-medium
-![Figure: Good example - Use DevTools to analyze and identify performance issues](performance-tab.png)
+::: bad img-large
+![Figure: Bad example - Slow LCP, leading to a poor user experience](bad-performance.png)
+:::
+
+::: good img-large
+![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](performance-tab.png)
+:::
+
+### Use Lighthouse for a Comprehensive Audit
+
+Lighthouse is another powerful tool built into Chrome DevTools that provides a full performance audit of your website. It measures performance, accessibility, best practices, SEO, and more.
+
+#### To run a Lighthouse report
+
+1. Open your site in Google Chrome
+2. Right-click anywhere on the page and choose Inspect (or press F12)
+3. Navigate to the Lighthouse tab
+4. Choose the report type (e.g., Mobile or Desktop)
+5. Click Analyze page load
+
+This tool gives you a performance score and actionable recommendations to improve your site's speed and user experience.
+
+::: good img-large
+![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](lighthouse.png)
 :::

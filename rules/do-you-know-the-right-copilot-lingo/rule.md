@@ -3,7 +3,7 @@ type: rule
 tips: ""
 title: Do you know the right Copilot Lingo?
 seoDescription: Learn the correct terminology for Microsoft Copilot and its agents so your team chooses the right AI for every task and communicates without confusion.
-uri: do-you-know-the-right-copilot-lingo
+uri: copilot-lingo
 authors:
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
@@ -40,7 +40,6 @@ There are 3 main types of Agents within the Microsoft world:
 ### Copilot Connectors
 
 Copilot Connectors (aka Graph Connectors) are gateways to access data from custom Agents. By default your tenant is configured for SharePoint Copilot Connectors (that's how SharePoint Agents access your data) but you can also roll your own connectors to access external Enterprise Data (SQL, Jira, Zendesk, etc...)
-
 
 ## Use precise language
 

@@ -53,6 +53,7 @@ index:
   - post-production-do-you-use-a-version-number-on-your-videos
   - post-production-high-quality
   - post-production-do-you-know-how-to-structure-your-files
+  - share-source-files-with-video-editor
   - review-videos-collaboratively
   - summary-recording-sprint-reviews
   - golden-moment
