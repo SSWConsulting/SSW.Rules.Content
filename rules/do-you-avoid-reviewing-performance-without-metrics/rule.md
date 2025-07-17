@@ -33,12 +33,12 @@ _"I've looked at the code and cleaned it up - not sure if this is suitable - ple
 
 A better way is:
 
-- Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
-- Add some code to record the time the function takes to run
-- Reproduce the steps and record the time
-- Change the code
-- Reproduce the steps and record the time again
-- Reply to the customer:
+* Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
+* Add some code to record the time the function takes to run
+* Reproduce the steps and record the time
+* Change the code
+* Reproduce the steps and record the time again
+* Reply to the customer:
   "It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."
 
 ::: good  
@@ -62,7 +62,6 @@ Do it incrementally, adding 1 processor each time, measuring the results, and th
 This gives you the most complete set of data to work from.
 
 This is because performance is an emotional thing, sometimes it just \*feels\* slower. Without numbers, a person cannot really know for sure whether something has become quicker. By making the changes incrementally, you can be assured that there aren’t bad changes canceling out the effect of good changes.
-
 
 ## Measuring Performance
 
