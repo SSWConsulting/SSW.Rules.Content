@@ -22,7 +22,7 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 
 ## Why run LLMs locally?
 
-### ✅ Benefits of local LLMs:
+### ✅ Benefits of local LLMs
 
 * **Enhanced privacy** - Your code and data never leave your machine
 * **Offline capabilities** - Work without internet connectivity
@@ -31,7 +31,7 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 * **Consistent performance** - No API rate limits or service outages
 * **Compliance** - Easier to meet regulatory requirements for data handling
 
-### ❌ Limitations to consider:
+### ❌ Limitations to consider
 
 * **Hardware requirements** - Need sufficient RAM and GPU for good performance
 * **Model size constraints** - Smaller models may have reduced capabilities
@@ -47,6 +47,7 @@ There are two primary platforms for running LLMs locally, each with distinct adv
 **[Ollama](https://ollama.com/)** is an open-source platform that makes running LLMs locally incredibly simple:
 
 **Pros:**
+
 * **Easy installation** - Single command installation via package managers
 * **Extensive model library** - Supports 100+ models including [Llama 3.3](https://ollama.com/library/llama3.3), [Gemma 2](https://ollama.com/library/gemma2), [Mistral](https://ollama.com/library/mistral), and [CodeLlama](https://ollama.com/library/codellama)
 * **Simple CLI interface** - Run models with just `ollama run modelname`
@@ -56,6 +57,7 @@ There are two primary platforms for running LLMs locally, each with distinct adv
 * **Resource efficient** - Optimized for consumer hardware
 
 **Cons:**
+
 * **Limited enterprise features** - Basic management and monitoring tools
 * **No official support** - Community-driven support only
 * **Performance optimization** - May require manual tuning for optimal performance
@@ -79,6 +81,7 @@ ollama pull codellama:7b
 **[Microsoft Foundry Local](https://azure.microsoft.com/en-us/products/ai-foundry/)** is a local version of Azure AI Foundry, designed for enterprise scenarios:
 
 **Pros:**
+
 * **Enterprise-grade** - Built for business environments with proper management tools
 * **Microsoft ecosystem** - Seamless integration with Microsoft development tools
 * **OpenAI-compatible API** - Drop-in replacement for OpenAI API calls
@@ -87,6 +90,7 @@ ollama pull codellama:7b
 * **Compliance ready** - Designed to meet various regulatory requirements
 
 **Cons:**
+
 * **Windows-focused** - Primarily designed for Windows environments
 * **Limited model selection** - Fewer models compared to Ollama
 * **Complexity** - More complex setup and configuration
@@ -97,26 +101,29 @@ ollama pull codellama:7b
 
 Local LLMs excel at providing code completion and assistance. Here are popular options:
 
-### IDE Extensions using local models:
+### IDE Extensions using local models
 
 **[Continue](https://continue.dev/)** - Open-source VS Code and JetBrains extension:
+
 * Supports both Ollama and custom local models
 * Provides autocomplete, chat, and edit features
 * Configurable to use local models like CodeLlama or StarCoder
 
 **[Tabby](https://tabby.tabbyml.com/)** - Self-hosted AI coding assistant:
+
 * Runs as a local server with web interface
 * Supports multiple code completion models
 * Can be integrated with VS Code extensions
 * Excellent for teams wanting shared local AI
 
-### Recommended models for code completion:
+### Recommended models for code completion
 
 For the most up-to-date list of available models, check the [Ollama library](https://ollama.com/library) which contains hundreds of models optimized for local execution.
 
 Here are some popular coding models to get you started:
 
 **CodeLlama (7B/13B)** - Meta's specialized coding model:
+
 ```bash
 ollama pull codellama:7b
 # or for larger contexts
@@ -124,11 +131,13 @@ ollama pull codellama:13b
 ```
 
 **StarCoder** - Open-source code generation model:
+
 ```bash
 ollama pull starcoder:7b
 ```
 
 **Deepseek-Coder** - Excellent for code understanding:
+
 ```bash
 ollama pull deepseek-coder:6.7b
 ```
@@ -138,6 +147,7 @@ ollama pull deepseek-coder:6.7b
 ### Option 1: Quick start with Ollama
 
 1. **Install Ollama:**
+
    ```bash
    # macOS
    brew install ollama
@@ -150,14 +160,15 @@ ollama pull deepseek-coder:6.7b
    ```
 
 2. **Run your first model:**
+
    ```bash
    ollama run llama3.3:8b
    ```
 
 3. **Set up code completion:**
-   - Install [Continue extension](https://marketplace.visualstudio.com/items?itemName=Continue.continue) in VS Code
-   - Configure it to use Ollama in settings
-   - Start coding with local AI assistance
+   * Install [Continue extension](https://marketplace.visualstudio.com/items?itemName=Continue.continue) in VS Code
+   * Configure it to use Ollama in settings
+   * Start coding with local AI assistance
 
 ### Option 2: Enterprise setup with Foundry Local
 
