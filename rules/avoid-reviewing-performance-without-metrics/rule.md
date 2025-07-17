@@ -13,9 +13,10 @@ authors:
     url: https://ssw.com.au/people/matt-wicks
 related:
   - website-page-speed
-  - do-you-keep-your-website-loading-time-acceptable
+  - keep-your-website-loading-time-acceptable
   - steps-required-to-implement-a-performance-improvement
-redirects: []
+redirects:
+  - do-you-avoid-reviewing-performance-without-metrics
 ---
 
 When a client complains about performance, it’s important not to jump straight into the code and make blind fixes. Instead of guessing what might help, we need to approach it methodically—starting with clear benchmarks, profiling, and data-driven decisions.
@@ -70,4 +71,3 @@ Depending on your tech stack, there are various tools available to measure perfo
 ### Samples
 
 For sample code on how to measure performance, please refer to [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
-
