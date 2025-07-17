@@ -80,17 +80,13 @@ One of the best ways to identify and fix performance issues is by using the Perf
 3. Navigate to the Performance tab
 4. Click Record, then reload the page to capture performance data
 
-
 ::: bad img-large
 ![Figure: Bad example - Slow Largest Contentful Paint (LCP), leading to a poor user experience](bad-performance.png)
 :::
 
-
 ::: good img-large
 ![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](performance-tab.png)
 :::
-
-
 
 ### Use Lighthouse for a Comprehensive Audit
 
