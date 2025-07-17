@@ -1,7 +1,7 @@
 ---
-seoDescription: Optimize your website's speed to ensure a seamless user experience and boost conversions.
+seoDescription: Fast-loading pages are essential for user experience and conversions—slow websites lead to frustration, higher bounce rates, and lost opportunities.
 type: rule
-title: Technical - Do you check your website performance?
+title: Do you check your website’s performance regularly?
 uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
@@ -20,13 +20,15 @@ archivedreason: null
 guid: fdd7cf8b-d165-4010-9e96-481d3bd406b9
 ---
 
-Page speed remains a critical element for the online user experience.
+Page speed remains a critical element for the online user experience. The demand for instant information has made faster loading times more crucial than ever. 
 
-The demand for instant information has made faster loading times more crucial than ever. Users today are less patient, and if a webpage takes too long to load, they are likely to abandon it in frustration. This not only results in a lost visitor but also poses a risk to potential conversions. 👎
+Users are less patient, and if a webpage takes too long to load, they are likely to abandon it in frustration. This not only results in a lost visitor but also poses a risk to potential conversions. 
 
 <!--endintro-->
 
-**💡 Tip:** Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
+::: info
+**Tip:** Use this free Google tool named [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to test your URL.
+:::
 
 For a smooth and responsive user experience, your site needs to be checked for performance bottlenecks. These usually become noticeable sometime after deployment, as your user base and quantity of content grows.
 
@@ -65,18 +67,18 @@ Good example - Good performance will improve the website's UX
 `youtube: https://www.youtube.com/watch?v=wM7pc8lJxvE`
 **Video: Performance - Speeding Up Websites e.g. TinaCMS⚡️ (4 min)**
 
-### Use the Performance Tab in Chrome DevTools
+## Use the Performance Tab in Chrome DevTools
 
 One of the best ways to identify and fix performance issues is by using the Performance tab in Chrome DevTools.
 
-#### This powerful tool helps you
+### This powerful tool helps you
 
 * Record and analyze the page load process
 * Identify long-running tasks that block the main thread
 * Spot inefficient JavaScript execution
 * Visualize layout shifts and rendering bottlenecks
 
-#### How to use it
+### How to use it
 
 1. Open your website in Google Chrome
 2. Right-click anywhere on the page and choose Inspect (or press F12)
@@ -92,11 +94,11 @@ One of the best ways to identify and fix performance issues is by using the Perf
 ![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](performance-tab.png)
 :::
 
-### Use Lighthouse for a Comprehensive Audit
+## Use Lighthouse for a Comprehensive Audit
 
 Lighthouse is another powerful tool built into Chrome DevTools that provides a full performance audit of your website. It measures performance, accessibility, best practices, SEO, and more.
 
-#### To run a Lighthouse report
+### To run a Lighthouse report
 
 1. Open your site in Google Chrome
 2. Right-click anywhere on the page and choose Inspect (or press F12)
