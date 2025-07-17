@@ -111,7 +111,7 @@ Local LLMs excel at providing code completion and assistance. Here are popular o
 
 **[Tabby](https://tabby.tabbyml.com/)** - Self-hosted AI coding assistant:
 
-* Runs as a local server with web interface
+* Runs as a local server with a web interface
 * Supports multiple code completion models
 * Can be integrated with VS Code extensions
 * Excellent for teams wanting shared local AI
