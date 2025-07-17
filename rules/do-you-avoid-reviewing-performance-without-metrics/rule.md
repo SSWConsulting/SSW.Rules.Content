@@ -12,24 +12,23 @@ authors:
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
 related:
+  - website-page-speed
   - do-you-keep-your-website-loading-time-acceptable
   - steps-required-to-implement-a-performance-improvement
 redirects: []
 ---
 
-If a client says:
+When a client complains about performance, it’s important not to jump straight into the code and make blind fixes. Instead of guessing what might help, we need to approach it methodically—starting with clear benchmarks, profiling, and data-driven decisions.
 
-::: greybox
-_"This application is too slow, I don't really want to put up with such poor performance. Please fix."_
-:::
+<!--endintro-->
+
+For example, if a client says:
+
+> _"This application is too slow, I don't really want to put up with such poor performance. Please fix."_
 
 We don't jump in and look at the code and clean it up and reply with something like:
 
-::: greybox
-_"I've looked at the code and cleaned it up - not sure if this is suitable - please tell me if you are OK with the performance now."_
-:::
-
-<!--endintro-->
+> _"I've looked at the code and cleaned it up. Please tell me if you are OK with the performance now."_
 
 A better way is:
 
@@ -38,8 +37,7 @@ A better way is:
 * Reproduce the steps and record the time
 * Change the code
 * Reproduce the steps and record the time again
-* Reply to the customer:
-  "It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."
+* Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
 
 ::: good  
 ![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](Code-Auditor-performance.jpg)  
@@ -56,7 +54,7 @@ For example, if you are trying to measure the optimal number of processors for a
 Do it incrementally, adding 1 processor each time, measuring the results, and then adding more:
 
 ::: good  
-![Figure: Good Example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...](1234.png)  
+![Figure: Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...](1234.png)  
 :::
 
 This gives you the most complete set of data to work from.
