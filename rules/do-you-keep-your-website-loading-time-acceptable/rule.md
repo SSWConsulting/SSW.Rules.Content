@@ -12,7 +12,8 @@ authors:
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
 related: []
-redirects: []
+redirects:
+  - do-you-keep-your-website-loading-time-acceptable
 ---
 
 Nobody Likes a Slow Website. You should optimize the performance of your websites so it loads as quick as possible.
