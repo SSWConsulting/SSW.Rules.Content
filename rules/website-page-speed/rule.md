@@ -12,6 +12,7 @@ authors:
     url: https://www.ssw.com.au/people/chloe-lin
 related:
   - optimize-your-images
+  - do-you-avoid-reviewing-performance-without-metrics
 redirects:
   - do-you-have-a-good-page-speed
 created: 2019-04-16T22:59:21.000Z
@@ -47,10 +48,6 @@ This negatively impacts user experience and potential conversions.
 Bad example - Things that will negatively impact the website UX
 :::
 
-::: bad img-medium
-![Figure: Good example - Slow loading can annoy users and make them leave the website](bad-performance.png)
-:::
-
 ::: greybox
 On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
 
@@ -83,9 +80,17 @@ One of the best ways to identify and fix performance issues is by using the Perf
 3. Navigate to the Performance tab
 4. Click Record, then reload the page to capture performance data
 
-::: good img-medium
-![Figure: Good example - Use DevTools to analyze and identify performance issues](performance-tab.png)
+
+::: bad img-large
+![Figure: Bad example - Slow Largest Contentful Paint (LCP), leading to a poor user experience](bad-performance.png)
 :::
+
+
+::: good img-large
+![Figure: Good example - Fast LCP shown in Chrome DevTools Performance tab](performance-tab.png)
+:::
+
+
 
 ### Use Lighthouse for a Comprehensive Audit
 
@@ -101,6 +106,6 @@ Lighthouse is another powerful tool built into Chrome DevTools that provides a f
 
 This tool gives you a performance score and actionable recommendations to improve your site's speed and user experience.
 
-::: good img-medium
+::: good img-large
 ![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](lighthouse.png)
 :::

@@ -11,7 +11,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+  - website-page-speed
 redirects: []
 ---
 
