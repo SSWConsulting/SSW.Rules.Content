@@ -11,7 +11,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
-related: []
+related:
+  - do-you-keep-your-website-loading-time-acceptable
+  - steps-required-to-implement-a-performance-improvement
 redirects: []
 ---
 
@@ -61,11 +63,13 @@ This gives you the most complete set of data to work from.
 
 This is because performance is an emotional thing, sometimes it just \*feels\* slower. Without numbers, a person cannot really know for sure whether something has become quicker. By making the changes incrementally, you can be assured that there aren’t bad changes canceling out the effect of good changes.
 
+
+## Measuring Performance
+
+Depending on your tech stack, there are various tools available to measure performance. For frontends, Google Chrome's DevTools provides a performance measurement tool.
+
+![Figure: Google Chrome has a handy performance tab in the devtools](chrome-perf-tools.png)
+
 ### Samples
 
 For sample code on how to measure performance, please refer to rule [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
-
-### Related Rule
-
-- [Do you keep your website loading time acceptable?](/do-you-keep-your-website-loading-time-acceptable)
-- [Do you know the steps required to implement a performance improvement?](/steps-required-to-implement-a-performance-improvement)
