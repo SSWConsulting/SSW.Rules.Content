@@ -47,6 +47,10 @@ This negatively impacts user experience and potential conversions.
 Bad example - Things that will negatively impact the website UX
 :::
 
+::: bad img-medium
+![Figure: Good example - Slow loading can annoy users and make them leave the website](bad-performance.png)
+:::
+
 ::: greybox
 On the contrary, a well-optimized website employs techniques such as image compression, efficient coding, and minimal use of plugins.
 
@@ -81,4 +85,24 @@ One of the best ways to identify and fix performance issues is by using the Perf
 
 ::: good img-medium
 ![Figure: Good example - Use DevTools to analyze and identify performance issues](performance-tab.png)
+:::
+
+
+
+### Use Lighthouse for a Comprehensive Audit
+Lighthouse is another powerful tool built into Chrome DevTools that provides a full performance audit of your website. It measures performance, accessibility, best practices, SEO, and more.
+
+#### To run a Lighthouse report:
+
+1. Open your site in Google Chrome
+2. Right-click anywhere on the page and choose Inspect (or press F12)
+3. Navigate to the Lighthouse tab
+4. Choose the report type (e.g., Mobile or Desktop)
+5. Click Analyze page load
+
+This tool gives you a performance score and actionable recommendations to improve your site's speed and user experience.
+
+
+::: good img-medium
+![Figure: Good example - Lighthouse audit with high performance and SEO scores, plus actionable insights](lighthouse.png)
 :::
