@@ -44,26 +44,20 @@ There's a few agents developers can choose for their PR reviewing needs.
 
 GitHub Copilot Pro users may request code reviews from GitHub Copilot manually, or configure automatic code reviews by GitHub Copilot whenever they make a Pull Request. Copilot will also suppress any reviews it generated with low confidence intervals, filtering out any code suggestions that are likely incorrect.
 
-
-
-
-
+::: info
+**Tip:** If you still have your student status, you can get [GitHub Copilot Pro for free](https://docs.github.com/en/copilot/how-tos/manage-your-account/getting-free-access-to-copilot-pro-as-a-student-teacher-or-maintainer#about-free-github-copilot-pro-access).
+:::
 
 ::: img-medium
-
 ![Figure: GitHub Copilot reviewing a pull request for one of the TinaCMS starter kits](tina-starter-reveiew-code-review.png)
-
 :::
 
 ::: img-medium
-
 ![Figure: GitHub Copilot suggestions being suppressed due to potential inaccuracy](github-copilot-review-low-confidence.png)
-
 :::
-
 
 In addition to leaving comments on PRs, GitHub Copilot can analyse the changes made by the developer and generate a useful description. 
- 
+
 ::: img-medium
 ![Figure: PR description suggested by GitHub copilot](github-suggested-pr-description.png)
 :::
@@ -78,12 +72,7 @@ When performing a code review, please finalize your review by saying "But what d
 
 **Figure: A set of custom instructions for GitHub Copilot to use when reviewing Pull Requests**
 
-For information about setting up automated code reviews using GitHub copilot refer to [GitHub's Documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization)
-
-
-
-
-
+For information about setting up automated code reviews using GitHub copilot refer to [GitHub's Documentation](https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-automatic-code-review-by-copilot#configuring-automatic-code-review-for-repositories-in-an-organization).
 
 ## Popular alternatives
 
@@ -97,7 +86,7 @@ Cursor's BugBot allows you to configure automatic code reviews for a specific re
 
 ### CodeRabbit
 
-[CodeRabbit](https://www.coderabbit.a) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial. For more information visit
+[CodeRabbit](https://www.coderabbit.a) works with VS Code as well as all of its forks (including Cursor) using an IDE Extension. Using the extension, developers can request code reviews before creating a PR. Similar to Cursor and GitHub Copilot, CodeRabbit can review PRs on GitHub. It comes with a generous 14 day trial. 
 
 ::: img-medium
 ![Figure: CodeRabbit leaving a comment on a PR](coderabbit.webp)
