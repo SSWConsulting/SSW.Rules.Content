@@ -22,7 +22,7 @@ When you ask for changes to a video, it's tempting to just send the exported vid
 
 <!-- endintro -->
 
-All editing tools have their own way of saving source files. Some editing tools save multiple video files separately. For example, Clipchamp exports two distinct .mp4 files - one for the screen recording and another one for the webcam footage. Other tools, like Camtasia, use a single project file (e.g., .tscproj) that references all the media assets and edits within it. 
+All editing tools have their own way of saving source files. Some editing tools save multiple video files separately. For example, Clipchamp exports two distinct .mp4 files - one for the screen recording and another one for the webcam footage. Other tools, like Camtasia, use a single project file (e.g., .tscproj) that references all the media assets and edits within it.
 
 Sharing these complete project files or all related media ensures your editor can work efficiently and maintain professional quality.
 
