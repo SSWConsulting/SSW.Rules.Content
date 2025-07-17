@@ -1,7 +1,7 @@
 ---
 seoDescription: Fast-loading pages are essential for user experience and conversions—slow websites lead to frustration, higher bounce rates, and lost opportunities.
 type: rule
-title: Do you check your website’s performance regularly?
+title: Technical - Do you check your website’s performance regularly?
 uri: website-page-speed
 authors:
   - title: Camilla Rosa Silva
