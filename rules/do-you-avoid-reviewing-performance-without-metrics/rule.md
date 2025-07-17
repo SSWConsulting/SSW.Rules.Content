@@ -42,7 +42,7 @@ A better way is:
   "It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."
 
 ::: good  
-![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW Code Auditor)](Code-Auditor-performance.jpg)  
+![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](Code-Auditor-performance.jpg)  
 :::
 
 Also, never forget to do incremental changes in your tests!
@@ -50,7 +50,7 @@ Also, never forget to do incremental changes in your tests!
 For example, if you are trying to measure the optimal number of processors for a server, do not go from 1 processor to 4 processors at once:
 
 ::: bad  
-![Figure: Bad Example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.png)  
+![Figure: Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.png)  
 :::
 
 Do it incrementally, adding 1 processor each time, measuring the results, and then adding more:
@@ -67,8 +67,8 @@ This is because performance is an emotional thing, sometimes it just \*feels\* s
 
 Depending on your tech stack, there are various tools available to measure performance. For frontends, Google Chrome's DevTools provides a performance measurement tool.
 
-![Figure: Google Chrome has a handy performance tab in the devtools](chrome-perf-tools.png)
+![Figure: Google Chrome has a handy Performance tab in the DevTools](chrome-perf-tools.png)
 
 ### Samples
 
-For sample code on how to measure performance, please refer to rule [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
+For sample code on how to measure performance, please refer to [Do you have tests for Performance?](/have-tests-for-performance/) on [Rules To Better Unit Tests](/rules-to-better-unit-tests/).
