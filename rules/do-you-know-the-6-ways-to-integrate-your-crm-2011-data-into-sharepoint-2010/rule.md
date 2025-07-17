@@ -1,7 +1,7 @@
 ---
 seoDescription: This rule discusses outdated methods for integrating CRM 2011 data into SharePoint 2010, which are no longer relevant due to deprecated technologies and modern alternatives.
 type: rule
-archivedreason: Obsolete - CRM 2011 and SharePoint 2010 are deprecated technologies.
+archivedreason: Obsolete - CRM 2011 and SharePoint 2010 are deprecated technologies. See https://www.ssw.com.au/rules/rules-to-better-sharepoint/
 title: Do you know the 6 ways to integrate your CRM 2011 data into SharePoint 2010?
 guid: c41308f6-7e9f-444a-85f4-20747adc0884
 uri: do-you-know-the-6-ways-to-integrate-your-crm-2011-data-into-sharepoint-2010

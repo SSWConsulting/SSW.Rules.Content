@@ -1,7 +1,7 @@
 ---
 seoDescription: Do you know the best SharePoint 2010 development environment?
 type: rule
-archivedreason: Obsolete - SharePoint 2010 is outdated and no longer supported.
+archivedreason: Obsolete - SharePoint 2010 is outdated and no longer supported. See https://www.ssw.com.au/rules/rules-to-better-sharepoint/
 title: Do you know the best SharePoint 2010 development environment?
 guid: 14e60294-7eb5-436b-b8c6-aff34f0a3d70
 uri: do-you-know-the-best-sharepoint-2010-development-environment

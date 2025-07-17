@@ -1,7 +1,7 @@
 ---
 seoDescription: Learn about the risks of using the Content Editor Web Part and discover safe editing practices to prevent data loss.
 type: rule
-archivedreason: Obsolete - Content Editor Web Part is outdated and has been replaced by modern web parts such as Embed, Markdown, and Text web parts in SharePoint.
+archivedreason: Obsolete - Content Editor Web Part is outdated and has been replaced by modern web parts such as Embed, Markdown, and Text web parts in SharePoint. See https://www.ssw.com.au/rules/sharepoint-rich-text-markdown/
 title: Do you use content editor web part with care?
 guid: f08b5719-4eeb-444d-ab2b-45bec52509df
 uri: do-you-use-content-editor-web-part-with-care
