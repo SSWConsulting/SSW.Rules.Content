@@ -30,12 +30,11 @@ The following steps will help to guide efforts to implement a performance improv
 6. If the change results in a measurable performance improvement, then keep it
 7. Repeat steps 4 to 6 until the performance target has been met
 
-
 ::: info
 
 **Tip:** For websites use [PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/) to mearsure performance.
 
-::: 
+:::
 
 For **bonus points** when you're ready to deploy to production:
 
