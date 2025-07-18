@@ -12,7 +12,7 @@ updates:
     schedule:
       interval: "weekly"
     labels:
-      - 'Type: Dependencies'
+      - 'dependencies'
     commit-message:
       prefix: "⬆️ Actions"
     rebase-strategy: auto
