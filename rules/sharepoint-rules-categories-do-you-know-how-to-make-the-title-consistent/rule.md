@@ -1,7 +1,7 @@
 ---
 seoDescription: SharePoint rules categories require consistent title updates through Rule Summary page editing to synchronize with Site Title and Item Title.
 type: rule
-archivedreason:
+archivedreason: Obsolete - SSW.Rules are now on GitHub. See https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Edit-Rules
 title: SharePoint Rules Categories - Do You Know How to Make the Title Consistent?
 guid: e3d6149d-b648-4229-bf9c-8b7a051266e5
 uri: sharepoint-rules-categories-do-you-know-how-to-make-the-title-consistent
@@ -20,11 +20,11 @@ redirects: []
 When you want to update the Rule Title, please DO NOT update them in the list directly.
 Click the URL near it, navigate to the Rule Summary page, and edit the Rule Summary Page Title, it will automatically update:
 
-- Rule Summary Page Title
-- Site Title
-- Item Title in RuleCategoryLookupData List
+* Rule Summary Page Title
+* Site Title
+* Item Title in RuleCategoryLookupData List
 
 <!--endintro-->
 
 Like this (thanks for Adam's snapshot) :
-![](SPTitle.jpg)
+![SharePoint Rules](SPTitle.jpg)

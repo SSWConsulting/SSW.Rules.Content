@@ -1,7 +1,7 @@
 ---
 seoDescription: Use managed metadata effectively across all Office versions with OnePlaceMail's UI, compatible with Office 2003, 2007 and File Explorer.
 type: rule
-archivedreason:
+archivedreason: Outdated - (Office 2003, Office 2007, SharePoint 2010) are outdated and no longer relevant. See https://www.ssw.com.au/rules/rules-to-better-sharepoint/
 title: Do you know that you can't use 2010 Managed Metadata with Office 2007 out of the box?
 guid: 6e47f490-e7cf-45ee-8dd2-f11077c947fd
 uri: do-you-know-that-you-cant-use-2010-managed-metadata-with-office-2007-out-of-the-box
@@ -31,5 +31,5 @@ Best Solution:
 
 Use a 3rd party solution - the best one being OnePlaceMail which provides a UI for managed metadata via the "Save to SharePoint". Works with all three versions of Office so users get a consistent UI.
 
-![](OnePlaceMail.jpg)
+![OnePlaceMail](OnePlaceMail.jpg)
 **Figure: The optional save dialog that pops up when saving document to SharePoint - allowing use of Managed Metadata from Office 2003, 2007 and File Explorer**

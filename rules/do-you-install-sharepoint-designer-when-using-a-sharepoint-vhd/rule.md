@@ -1,7 +1,7 @@
 ---
 seoDescription: SharePoint designers matching the SharePoint version ensure seamless presentation and collaboration.
 type: rule
-archivedreason:
+archivedreason: Obsolete - SharePoint Designer 2013 is deprecated. Check out our Rules on Power Automate and Power Apps instead. See https://www.ssw.com.au/rules/rules-to-better-power-apps/
 title: Do you install SharePoint Designer when using a SharePoint VHD?
 guid: 07309a8c-6258-45d9-802a-af3568e10bb2
 uri: do-you-install-sharepoint-designer-when-using-a-sharepoint-vhd

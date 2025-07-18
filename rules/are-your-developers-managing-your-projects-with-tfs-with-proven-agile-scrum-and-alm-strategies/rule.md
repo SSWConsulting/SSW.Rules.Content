@@ -1,7 +1,7 @@
 ---
 seoDescription: Are your developers effectively managing projects using TFS with proven Agile/Scrum and ALM strategies?
 type: rule
-archivedreason:
+archivedreason: Outdated - Team Foundation Server (TFS) has been replaced by Azure DevOps. See https://www.ssw.com.au/rules/rules-to-better-devops/
 title: Do you manage SharePoint projects with TFS (with proven Agile/Scrum and ALM Strategies)?
 guid: 42ea1bba-82b0-484c-991e-1e3ee2c71e44
 uri: are-your-developers-managing-your-projects-with-tfs-with-proven-agile-scrum-and-alm-strategies
