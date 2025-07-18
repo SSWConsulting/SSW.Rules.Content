@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you keep your website loading time acceptable?
 guid: ab692d0b-27df-43af-a7f5-ce592fd393dc
-uri: do-you-keep-your-website-loading-time-acceptable
+uri: keep-your-website-loading-time-acceptable
 created: 2014-09-03T19:52:02.0000000Z
 authors:
   - title: Adam Cogan

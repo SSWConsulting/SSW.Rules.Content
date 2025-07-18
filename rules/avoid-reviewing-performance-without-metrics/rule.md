@@ -4,7 +4,7 @@ type: rule
 archivedreason:
 title: Do you avoid reviewing performance without metrics?
 guid: 6bdcdd2d-695a-46fa-93cc-cd761276586a
-uri: do-you-avoid-reviewing-performance-without-metrics
+uri: avoid-reviewing-performance-without-metrics
 created: 2009-03-17T05:48:04.0000000Z
 authors:
   - title: Adam Cogan
