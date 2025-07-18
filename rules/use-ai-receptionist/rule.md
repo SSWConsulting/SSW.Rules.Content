@@ -22,7 +22,7 @@ If the phone rings after hours (or while everyone’s in the Daily Scrum) and no
 * A real customer hangs up and calls a competitor
 * A spammer leaves a voicemail you still have to listen to
 
-Modern voice-AI platforms such as phonely.ai or bland.ai answer every call in 400 ms, block obvious SPAM, and hand genuine callers a friction-free, human-sounding experience. 
+Modern voice-AI platforms such as phonely.ai or bland.ai answer every call in 400 ms, block obvious SPAM, and hand genuine callers a friction-free, human-sounding experience.
 
 They're awake 24/7, never take bathroom breaks, and can switch language on the fly, all while routing hot leads straight to the right person or department when a human really is needed.
 
