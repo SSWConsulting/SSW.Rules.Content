@@ -33,9 +33,9 @@ We don't jump in and look at the code and clean it up and reply with something l
 
 A better way is:
 
-* Ask the client which scenarios are running slowly
+* Ask the client to tell us how slow it is (in seconds) and how fast they ideally would like it (in seconds)
 * Add some code to record the time the function takes to run
-* Reproduce the client's scenario and record the time it takes to run
+* Reproduce the steps and record the time
 * Change the code
 * Reproduce the steps and record the time again
 * Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
