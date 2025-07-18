@@ -15,6 +15,9 @@ authors:
 created: 2025-07-18T16:37:00.000Z
 guid: 4eb39545-23a5-4aa2-a27a-f823cb4a6222
 ---
+`youtube: https://www.youtube.com/watch?v=ykLP7cSOrs0`
+**Video: Phonely.ai - SSW Demo (22 min)**
+
 If the phone rings after hours (or while everyone’s in the Daily Scrum) and nobody picks up, two bad things happen:
 
 * A real customer hangs up and calls a competitor. 
