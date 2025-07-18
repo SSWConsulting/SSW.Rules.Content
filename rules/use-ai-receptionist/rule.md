@@ -8,6 +8,10 @@ uri: use-ai-receptionist
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/uly
+  - title: Levi Jackson
+    url: https://www.ssw.com.au/people/levi-jackson
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
 created: 2025-07-18T16:37:00.000Z
 guid: 4eb39545-23a5-4aa2-a27a-f823cb4a6222
 ---
