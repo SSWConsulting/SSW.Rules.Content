@@ -13,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Brittany Lawrence
     url: https://ssw.com.au/people/brittany-lawrence
-related: []
+related:
+  - use-ai-receptionist
 redirects:
   - do-you-know-how-to-be-prepared-for-inbound-calls
 ---
