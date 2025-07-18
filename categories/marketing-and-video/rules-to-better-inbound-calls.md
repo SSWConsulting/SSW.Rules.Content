@@ -6,6 +6,7 @@ uri: rules-to-better-inbound-calls
 index:
 - reasons-why-people-call
 - be-prepared-for-inbound-calls
+- use-ai-receptionist
 - always-get-your-prospects-full-contact-details
 - introduce-yourself-correctly
 - communicate-effectively
