@@ -21,7 +21,6 @@ authors:
 created: 2024-06-13T17:00:00.000Z
 guid: 1CD0006D-24A7-4FBD-B59E-92C25D0D10BC
 ---
-
 When writing a large scale enterprise application you want to make sure you only have to write it once. Choosing the right software architecture for your system is crucial for its long term success and maintainability. The right software architecture will allow your software application will scale too meet new requirements. Choosing the wrong software architecture can turn adding new features and maintaining your code into an increasingly frustrating exercise in futility.
 
 <!--endintro-->
@@ -72,24 +71,18 @@ Also, from a pragmatic point of view a combination of Modular Monolith and Micro
 
 ## Factors to consider
 
-* **Are your requirements certain?**  
+* **Are your requirements certain?**\
   If requirements are likely to change, Clean Architecture or Vertical Slice Architecture can offer more flexibility.
-
-* **Do you have multiple domains?**  
+* **Do you have multiple domains?**\
   For applications with multiple domains, Modular Monoliths or Microservices can provide better separation and modularity.
-
 * **Do you have many teams?**
   If you have many teams, Microservices or Modular Monolith can help in reducing inter-team dependencies and allow parallel development.
-
 * **Do you need independent deployments?**
   If independent deployments are necessary, Microservices is the best choice due to its isolated nature.
-
 * **Do you need independent scalability?**
   Microservices allow each service to be scaled independently based on its specific needs, which can be more efficient and cost-effective.
-
 * **Do you have DevOps maturity?**
   Microservices require a mature DevOps culture to manage deployments, monitoring, and scaling effectively. Without this, the overhead can be overwhelming.
-
 * **Is the team experienced?**
   The complexity of Microservices can be challenging for less experienced teams. Vertical Slice Architecture although simple, has fewer guardrails when compared to Clean Architecture and can lead to a mess if not managed correctly.  This leads to recommending Clean Architecture for less experienced teams that need more structure.
 
@@ -98,6 +91,7 @@ Also, from a pragmatic point of view a combination of Modular Monolith and Micro
 Here are some practical scenarios to illustrate the decision-making process:
 
 ::: greybox
+
 ### Scenario 1: Startup with uncertain requirements
 
 You are building an MVP with a small team and expect the requirements to evolve rapidly.
@@ -106,6 +100,7 @@ You are building an MVP with a small team and expect the requirements to evolve 
 :::
 
 ::: greybox
+
 ### Scenario 2: Medium-sized business with limited DevOps maturity
 
 You have a mid-sized team, and your organization is still developing its DevOps practices.
@@ -114,6 +109,7 @@ You have a mid-sized team, and your organization is still developing its DevOps 
 :::
 
 ::: greybox
+
 ### Scenario 3: Large enterprise with multiple domains and teams
 
 You are developing a large-scale application with multiple business domains and have several teams working in parallel.
@@ -122,3 +118,5 @@ You are developing a large-scale application with multiple business domains and 
 :::
 
 By carefully considering these factors and understanding the strengths and limitations of each architectural style, you can choose the best architecture for your system, ensuring a balance between flexibility, scalability, and maintainability.
+
+If you would like to learn more, check out SSW Chief Architect Adam Cogan's Blog: [How to Choose the Right Software Architecture](https://adamcogan.com/2025/07/08/how-to-choose-the-right-software-architecture/)
