@@ -114,7 +114,6 @@ Here are some popular coding models to get you started:
 
 * [https://ollama.com/library/codestral](https://ollama.com/library/codestral) - designed by Mistral for code generation tasks
 
-
 ## Best practices
 
 * **Choose the right model size** - Balance capability with hardware constraints
