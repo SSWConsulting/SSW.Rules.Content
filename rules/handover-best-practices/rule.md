@@ -2,9 +2,7 @@
 type: rule
 tips: ""
 title: Do you leave a project ready for the next person?
-seoDescription: Make your handovers smooth and useful by planning with your
-  successor in mind, whether you're going on leave or leaving the project
-  permanently.
+seoDescription: Make your handovers smooth and useful by planning with your successor in mind, whether you're going on leave or leaving the project permanently.
 uri: handover-best-practices
 authors:
   - title: Betty Bondoc
@@ -19,7 +17,7 @@ A poorly planned handover can result in wasted time, repeated work, and confusio
 
 <!--endintro-->
 
-There’s no one-size-fits-all template for a handover. It should be tailored to your project, your role, and whether the handover is temporary (e.g. vacation) or permanent (e.g. project transition). But you should always plan from the perspective of the person receiving the handover. Here's how:
+There’s no one-size-fits-all template for a handover. It should be tailored to your project, your role, and whether the handover is temporary (e.g. vacation) or permanent (e.g. project transition). But you should always **plan from the perspective of the person receiving the handover**.
 
 ## Ensure access is sorted early
 
@@ -30,7 +28,7 @@ The first blocker for any new person is access. Remove that hurdle by organizing
 
 Coordinate with sysadmins or clients in advance to avoid blockers.
 
-## Organise files into a single source of truth
+## Organize files into a single source of truth
 
 Don’t leave your successor scavenging for files. If your team doesn’t already have a designated location for handover assets, create a central folder (e.g. SharePoint or a shared drive) and include:
 
@@ -61,9 +59,7 @@ At the root level, add a `_instructions.md` or `README` to explain the folde
 :::
 
 ::: good
-
-Figure: Good Example – A structured handover folder with an index file for guidance
-
+Figure: Good example – A structured handover folder with an index file for guidance
 :::
 
 If your team already has a defined location (like a client-managed drive or internal system), follow that instead and just make sure your files are up to date and easy to navigate.
@@ -137,9 +133,7 @@ Regards,
 :::
 
 ::: good
-
-Figure: Good Example – A clear onboarding email helps reduce first-day confusion
-
+Figure: Good example – A clear onboarding email helps reduce first-day confusion
 :::
 
 ## Run a handover walkthrough
@@ -160,6 +154,10 @@ Introduce your successor to:
 * Sysadmins
 * Key team members
 
-Bonus: Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
+::: info
+**Bonus:** Share cultural context like who’s approachable, communication norms, or anything helpful to avoid social blind spots (no bias or gossip!).
+:::
+
+---
 
 By thinking of your handover as a **user experience** for your successor, you help ensure the transition is clear, respectful, and productive for everyone.
