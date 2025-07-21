@@ -23,7 +23,7 @@ Transitioning a project smoothly is crucial, whether due to changing project ass
 
 **The handover is the responsibility of the person transitioning away from the project.**
 
-It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over, then schedule a handover meeting with high priority. 
+It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over, then schedule a handover meeting with high priority.
 
 It's important to plan from the perspective of the person receiving the handover.
 
@@ -38,6 +38,7 @@ It's important to plan from the perspective of the person receiving the handover
 Send this checklist in an email before the handover meeting to guide the discussion:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | {{ YOUR NAME }} |
