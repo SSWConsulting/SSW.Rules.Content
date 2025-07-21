@@ -36,10 +36,10 @@ The deliverables for the Specification Review depend upon how large the applicat
 * An integration plan
 * A deployment strategy
 * An MVP (minimum viable product) will be identified, as well as a wish list - requiring the client to set the priorities for the project through defining what is in and out of scope for the MVP
-* A detailed list of 'issues' associated with the existing system which impact future development and maintenance
+* A detailed list of 'issues' (e.g. an XLS) associated with the existing system which impact future development and maintenance  
+  Tip: Create a backlog in GitHub. This helps the Account Manager close the sale, and smoothens the transition into Sprint 1
 * Hardware and licensed software recommendations
 * Mock-ups (if required)
-* An XLS they can play around with (optional)
 
 ### Summary Product Backlog
 
