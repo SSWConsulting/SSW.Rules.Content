@@ -63,14 +63,14 @@ Usability testing doesn’t require a lab or a research degree. Anyone on the te
 You’ve redesigned the onboarding flow for your app. Before launch, you run usability tests with 5 new users. On screen 2, all participants misinterpret the CTA and hesitate. You tweak the language and spacing before release.
 :::
 ::: good
-Figure: ✅ Good example – You fixed a usability blocker before it impacted users
+Figure: Good example – You fixed a usability blocker before it impacted users
 :::
 
 ::: greybox
 You launch a major dashboard redesign without testing. Support tickets flood in. Users are confused by ambiguous icon labels and can’t find the filters.
 :::
 ::: bad
-Figure: ❌ Bad example – Avoidable UX issues caused friction and hurt trust
+Figure: Bad example – Avoidable UX issues caused friction and hurt trust
 :::
 
 ## Bonus tip: Test before the code
