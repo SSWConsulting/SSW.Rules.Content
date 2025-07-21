@@ -8,6 +8,8 @@ uri: mix-user-research-methods
 authors:
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
+related:
+  - test-high-risk-features
 guid: e3427c47-5871-476d-8aaf-e0968edd3cb5
 ---
 Relying on the same user research method like only running 1-on-1 interviews leads to blind spots. Interviews are great for depth, but they don’t reveal group dynamics, cross-team dependencies, or patterns that emerge at scale.
