@@ -6,7 +6,9 @@ title: Reports - Do you keep Reporting criteria simple?
 guid: baba3dd0-7c2e-4e78-b522-0cee1543a1aa
 uri: reports-do-you-keep-reporting-criteria-simple
 created: 2014-12-01T05:47:39.0000000Z
-authors: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
 ---
@@ -21,5 +23,3 @@ redirects: []
 <!--endintro-->
 
 ![Figure: Graph Interface](../../assets/GraphInterface.gif)
-
-More [Options for Reporting](http://www.ssw.com.au/ssw/Standards/DeveloperDotNet/GuidelinesForReporting.aspx)
