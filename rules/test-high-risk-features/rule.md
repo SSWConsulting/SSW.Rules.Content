@@ -21,7 +21,7 @@ Even experienced designers and developers miss things. The only way to validate 
 
 ## Why test usability?
 
-According to Nielsen Norman Group, usability testing helps you:
+According to [NN/g](https://www.nngroup.com/articles/usability-testing-101/), usability testing helps you:
 
 * Catch usability issues before they reach production
 * Improve clarity in copy, layout, and task flow
