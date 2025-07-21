@@ -109,7 +109,7 @@ New joiners can feel overwhelmed. Help them ramp up with a structured welcome me
 ::: email-template
 
 | | |
-|---------------|--------------------------------------|
+| -------- | ---------------------------------- |
 | To: | John |
 | Subject: | Project Handover – Getting Started |
 
