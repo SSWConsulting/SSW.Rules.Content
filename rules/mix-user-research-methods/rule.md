@@ -57,14 +57,14 @@ You don’t need to use every method on every project, but most projects benefit
 A UX designer begins by interviewing three Admins to understand how they use the system. Based on those findings, she runs a 60-minute group workshop with Admins and Technicians to map shared issues and uncover workflow gaps between teams.
 :::
 ::: good
-Figure: ✅ Good example – Combines depth from interviews with breadth from group insight
+Figure: Good example – Combines depth from interviews with breadth from group insight
 :::
 
 ::: greybox
 Only interviewing one user and assuming their experience applies to everyone. Skipping group validation and relying on stakeholder assumptions.
 :::
 ::: bad
-Figure: ❌ Bad example – Designs based on limited or biased input
+Figure: Bad example – Designs based on limited or biased input
 :::
 
 ## Bonus tip: Mix user roles, not just methods
