@@ -7,6 +7,7 @@ redirects:
 - rules-to-better-interfaces-(general-usability-practices)
 index:
 - do-you-know-the-importance-of-testing-your-interface
+- test-high-risk-features
 - do-you-realize-that-a-good-interface-should-not-require-instructions
 - do-you-make-users-intuitively-know-how-to-use-something
 - always-reduce-complexity
