@@ -9,6 +9,7 @@ index:
 - when-do-you-need-a-ux-designer
 - double-diamond
 - software-for-ux-design
+- mix-user-research-methods
 - ai-for-ux
 - design-system
 - design-debt
