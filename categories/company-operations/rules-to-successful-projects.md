@@ -58,6 +58,7 @@ index:
 - reward-your-developers
 - hand-over-projects
 - hand-over-responsibilities
+- handover-best-practices
 - do-you-have-a-deployment-plan
 - risks-of-deploying-on-fridays
 - do-you-sometimes-write-off-small-amounts-of-time-to-keep-clients-happy
