@@ -22,23 +22,23 @@ To design experiences that scale, you need insights that are qualitative and qua
 
 As Christian Rohrer from Nielsen Norman Group explains, UX research spans multiple dimensions:
 
-- **Attitudinal vs Behavioral** – what users *say* vs what they *do*
-- **Qualitative vs Quantitative** – *why* something happens vs *how often* it happens
-- **Context of Use** – natural use, scripted tasks, or abstracted activities
+* **Attitudinal vs Behavioral** – what users *say* vs what they *do*
+* **Qualitative vs Quantitative** – *why* something happens vs *how often* it happens
+* **Context of Use** – natural use, scripted tasks, or abstracted activities
 
 According to NN/g, no single method will uncover everything. Mixing methods leads to stronger insights and fewer blind spots.
 
 Read the full article: [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)
 
 `youtube: https://www.youtube.com/watch?v=OtUWbsvCujM`
-**Video: When to Use Which UX Research Method (5 min)** 
+**Video: When to Use Which UX Research Method (5 min)**
 
-### Mixing research methods helps you:
+### Mixing research methods helps you
 
-- Understand both individual workflows and systemic issues
-- Avoid designing for edge cases or only the loudest voices
-- Uncover hidden workarounds and friction between teams
-- Generate more reliable, well-rounded insights
+* Understand both individual workflows and systemic issues
+* Avoid designing for edge cases or only the loudest voices
+* Uncover hidden workarounds and friction between teams
+* Generate more reliable, well-rounded insights
 
 ## What methods should I combine?
 
@@ -71,8 +71,8 @@ Figure: Bad example – Designs based on limited or biased input
 
 Group sessions are a great way to bring in users from different teams, departments, or levels of experience. Doing so can help you uncover:
 
-- Gaps in communication
-- Conflicting priorities
-- “Unofficial” workarounds users rely on
+* Gaps in communication
+* Conflicting priorities
+* “Unofficial” workarounds users rely on
 
 These types of issues rarely come up in 1-on-1 interviews alone.
