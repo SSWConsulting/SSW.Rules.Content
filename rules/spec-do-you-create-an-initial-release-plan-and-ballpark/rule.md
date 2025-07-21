@@ -39,6 +39,7 @@ The deliverables for the Specification Review depend upon how large the applicat
 * A detailed list of 'issues' associated with the existing system which impact future development and maintenance
 * Hardware and licensed software recommendations
 * Mock-ups (if required)
+* An XLS they can play around with (optional)
 
 ### Summary Product Backlog
 
