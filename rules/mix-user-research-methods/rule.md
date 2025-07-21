@@ -26,7 +26,10 @@ As Christian Rohrer from Nielsen Norman Group explains, UX research spans multip
 
 According to NN/g, no single method will uncover everything. Mixing methods leads to stronger insights and fewer blind spots.
 
-Read the full article: [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)  
+Read the full article: [When to Use Which User-Experience Research Methods](https://www.nngroup.com/articles/which-ux-research-methods/)
+
+`youtube: https://www.youtube.com/watch?v=OtUWbsvCujM`
+**Video: When to Use Which UX Research Method (5 min)** 
 
 ### Mixing research methods helps you:
 
@@ -71,6 +74,3 @@ Group sessions are a great way to bring in users from different teams, departmen
 - “Unofficial” workarounds users rely on
 
 These types of issues rarely come up in 1-on-1 interviews alone.
-
-youtube: https://www.youtube.com/watch?v=OtUWbsvCujM  
-**Video: When to Use Which UX Research Method (5 min)**
