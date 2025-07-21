@@ -52,7 +52,7 @@ At the root level, add a `_instructions.md` or `README` to explain the folde
 
 ├── Docs
 
-│ └── 01_Architecture.md
+  └── 01_Architecture.md
 
 ├── Code (links to repos)
 
@@ -121,24 +121,24 @@ Welcome to the project! 🎉
 
 Here’s a quick guide to help you get set up and familiar with everything:
 
-* Project Summary → {{ LINK }}
-* Architecture Overview → {{ LINK }}
-* Active Backlog / Tasks → {{ LINK }}
-* Design Files (Figma, etc.) → {{ LINK }}
-* Project Folder → {{ LINK }}
-* Key Documentation → {{ LINK }} (includes index or must-read docs)
-* Team Directory → {{ LINK }}
+* **Project Summary** → {{ LINK }}
+* **Architecture Overview** → {{ LINK }}
+* **Active Backlog / Tasks** → {{ LINK }}
+* **Design Files** (Figma, etc.) → {{ LINK }}
+* **Project Folder** → {{ LINK }}
+* **Key Documentation** → {{ LINK }} (includes index or must-read docs)
+* **Team Directory** → {{ LINK }}
 
 Let me know if anything’s unclear or if you need help with access.
 
-Regards,
+Regards,  
 
-
+:::
 :::
 
 ::: good
 
-Figure: ✅ Good Example – A clear onboarding email helps reduce first-day confusion
+Figure: Good Example – A clear onboarding email helps reduce first-day confusion
 
 :::
 
