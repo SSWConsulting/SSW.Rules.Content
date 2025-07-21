@@ -7,7 +7,6 @@ seoDescription: Make your handovers smooth and useful by planning with your
   permanently.
 uri: handover-best-practices
 authors:
-  - title: ""
   - title: Betty Bondoc
     url: https://www.ssw.com.au/people/betty-bondoc/
 related:
