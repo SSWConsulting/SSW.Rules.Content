@@ -133,7 +133,6 @@ Here’s a quick guide to help you get set up and familiar with everything:
 Let me know if anything’s unclear or if you need help with access.
 
 Regards,  
-{{ YOUR NAME }}
 
 :::
 :::
