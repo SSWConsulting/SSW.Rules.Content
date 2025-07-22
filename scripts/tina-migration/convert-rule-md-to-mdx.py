@@ -50,7 +50,7 @@ IGNORE_FILES = ['pull_request_template.md']  # List of file names to ignore (e.g
 # Regex patterns
 # ----------------------------- #
 
-YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`\s*\n\*\*(.*?)\*\*'
+YOUTUBE_BLOCK_REGEX = r'`youtube:\s*(https?://[^\s]+)`(?:\s*\n\*\*(.*?)\*\*)?'
 IMAGE_BLOCK_REGEX = r'::: (bad|ok|good)\s+(!\[Figure:.*?\]\(.*?\))\s+:::'
 STANDALONE_IMAGE_REGEX = r'!\[Figure:\s*(.*?)\]\((.*?)\)'
 EMAIL_BLOCK_REGEX = (
@@ -61,6 +61,7 @@ EMAIL_BLOCK_REGEX = (
 )
 SIMPLE_FIGURE_BLOCK_REGEX = r':::\s*(good|bad|ok)\s*\n(.*?)\n:::' 
 CUSTOM_SIZE_IMAGE_BLOCK_REGEX = r':::\s*(img-small|img-medium|img-large|no-border)\s*\n\s*!\[Figure:\s*(.*?)\]\((.*?)\)\s*:::'
+RAW_IMAGE_REGEX = r'!\[(?!Figure:)(.*?)\]\((.*?)\)'
 
 # ----------------------------- #
 # Utilities
@@ -92,13 +93,24 @@ def clean_email_body(body_text):
 def clean_image_src(src):
     return re.sub(r'(\.(?:png|jpg|jpeg|gif))\s.*$', r'\1', src, flags=re.IGNORECASE)
 
+def prefix_raw_image_src(m, src_prefix):
+    alt_text = m.group(1).strip()
+    raw_src = m.group(2).strip()
+    clean_src = clean_image_src(raw_src)
+
+    if clean_src.startswith('/') or clean_src.startswith('http'):
+        return m.group(0)
+
+    prefixed_src = f"{src_prefix}/{clean_src}"
+    return f'![{alt_text}]({prefixed_src})'
+
 # ----------------------------- #
 # Replacements
 # ----------------------------- #
 
 def replace_youtube_block(m):
     url = m.group(1).strip()
-    desc = m.group(2).strip()
+    desc = m.group(2).strip() if m.group(2) else ""
     return f'<youtubeEmbed url="{url}" description="{desc}" />'
 
 def replace_image_block(m, src_prefix):
@@ -296,6 +308,7 @@ def transform_md_to_mdx(file_path):
     src_prefix = f"{SRC_PREFIX_BASE}{folder_name}"
     content = path.read_text(encoding='utf-8')
 
+    content = mdx_safe_template_vars(content)
     content = process_custom_aside_blocks(content)
     content = re.sub(r'^\s*<!--endintro-->\s*\n?', '', content, flags=re.MULTILINE)
     content = re.sub(YOUTUBE_BLOCK_REGEX, replace_youtube_block, content, flags=re.MULTILINE)
@@ -304,6 +317,7 @@ def transform_md_to_mdx(file_path):
     content = re.sub(STANDALONE_IMAGE_REGEX, lambda m: replace_standalone_image(m, src_prefix), content)
     content = re.sub(EMAIL_BLOCK_REGEX, replace_email_block, content, flags=re.DOTALL)
     content = re.sub(SIMPLE_FIGURE_BLOCK_REGEX, replace_simple_figure_block, content, flags=re.DOTALL)
+    content = re.sub(RAW_IMAGE_REGEX, lambda m: prefix_raw_image_src(m, src_prefix), content)
 
     output_path = path.with_suffix('.mdx')
     output_path.write_text(content, encoding='utf-8')
