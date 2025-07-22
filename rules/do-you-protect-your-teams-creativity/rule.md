@@ -23,7 +23,7 @@ A classic example comes from outside our industry: during the Apollo 13 crisis, 
 
 The key? Clear focus, shared urgency, and protection from distractions. These same principles apply to software teams when we want creativity to thrive.
 
-So what determines whether pressure helps or hurts creativity? It depends on how teams work under that pressure. Researchers identified four common modes—and understanding them can help you manage your team’s creative output more effectively.
+So what determines whether pressure helps or hurts creativity? It depends on how teams work under that pressure. A study published in Harvard Business Review identified four common modes—and understanding them can help you manage your team’s creative output more effectively.
 
 ### Team modes
 
