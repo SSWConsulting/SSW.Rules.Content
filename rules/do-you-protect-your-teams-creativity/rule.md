@@ -13,7 +13,7 @@ guid: 4d38cdeb-5e1d-429d-86e1-ffa08f10f63c
 Creativity doesn’t just happen—it needs the right conditions to grow. When time pressure kicks in, managing it well can make the difference between a brilliant idea and a burned-out team. This rule explores how to support creativity even when deadlines are tight.
 
 ===> TODO: add video here
-**Video: Do you protect your team's creativity? (X min)**
+**Video 1: Do you protect your team's creativity? (X min)**
 
 ### Why creativity matters in software development?
 
@@ -35,9 +35,7 @@ Think of these like team mindsets under pressure. Each has different outcomes fo
 - **Treadmill** – High pressure, constant distractions → burnout, no creativity
 - **Autopilot** – Low pressure, low engagement → routine work, no innovation
 
-
-
-===> TODO: add picture here
+![matrix](image.png)
 **Figure 1: Time-Pressure / Creativity matrix**
 
 ### Common Pitfalls That Kill Creativity
