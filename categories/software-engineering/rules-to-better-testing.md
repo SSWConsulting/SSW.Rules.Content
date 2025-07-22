@@ -16,6 +16,7 @@ index:
   - dangers-of-tolerating-test-failures
   - different-types-of-testing
   - mix-user-research-methods
+  - test-high-risk-features
   - automated-test-code-first-class-citizen
   - automated-ui-testing-sparingly
   - good-candidate-for-test-automation
