@@ -57,6 +57,16 @@ Usability testing doesn’t require a lab or a research degree. Anyone on the te
 
 **Tip from NN/g:** [5 users is enough](https://www.nngroup.com/articles/5-test-users-qual-quant/) for a qualitative test. This reveals around 80–85% of the most common usability issues.
 
+### Remote or in-person?
+
+Either works. Choose what suits your access to users:
+
+* **In-person** – Office, lab, or meeting room  
+* **Remote (moderated)** – Over Zoom or Teams with screensharing  
+* **Remote (unmoderated)** – Use tools like Maze or UserTesting to capture session recordings  
+
+You don’t need fancy tools. Sometimes, all you need is a few users and a fresh perspective.
+
 ## Example
 
 ::: greybox
@@ -79,16 +89,8 @@ You don’t have to wait for development. Early testing with wireframes or click
 
 Try a 3-day usability sprint:
 
-1. **Day 1** – Write tasks and prep the prototype  
-2. **Day 2** – Test with 5 users  
-3. **Day 3** – Analyze findings and make improvements  
+**Day 1** – Write tasks and prep the prototype.
 
-## Remote or in-person?
+**Day 2** – Test with 5 users.
 
-Either works. Choose what suits your access to users:
-
-* **In-person** – Office, lab, or meeting room  
-* **Remote (moderated)** – Over Zoom or Teams with screensharing  
-* **Remote (unmoderated)** – Use tools like Maze or UserTesting to capture session recordings  
-
-You don’t need fancy tools. Sometimes, all you need is a few users and a fresh perspective.
+**Day 3** – Analyze findings and make improvements.
