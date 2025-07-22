@@ -24,6 +24,7 @@ related:
   - recording-screen
 redirects:
   - do-you-know-how-to-record-a-quick-and-dirty-done-video
+  - record-a-quick-and-dirty-done-video
 created: 2016-05-10T09:09:50.000Z
 archivedreason: null
 guid: 8849b89b-5c77-4993-b313-75291fd58aa4
