@@ -16,7 +16,7 @@ authors:
     url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
   - do-you-know-how-to-handover-a-project
-  - how-to-hand-over-tasks-to-others
+  - handover-best-practices
 redirects:
   - do-you-know-how-to-hand-over-tasks-aka-emails-to-others
   - do-you-know-how-to-hand-over-tasks-(aka-emails)-to-others
@@ -41,7 +41,7 @@ Always make sure you clearly reallocate a task with an email to the person who w
 | -------- | --- |
 | To: | Bob |
 | Cc: | David |
-| Subject: | RE: Northwind app |
+| Subject: | RE: Northwind app update |
 ::: email-content
 
 ### Hi Bob
@@ -55,7 +55,7 @@ Andy
 
 **From:** Bob\
 **To:** Andy\
-**Subject:** Northwind app
+**Subject:** Northwind app update
 
 ### Hi Andy
 
@@ -75,7 +75,7 @@ Figure: Bad example - Task not directly reallocated
 | -------- | --- |
 | To: | David |
 | Cc: | Bob |
-| Subject: | RE: Northwind app |
+| Subject: | RE: Northwind app update |
 ::: email-content
 
 ### Hi David
@@ -91,7 +91,7 @@ Andy
 
 **From:** Bob\
 **To:** Andy\
-**Subject:** Northwind app  
+**Subject:** Northwind app update
 
 ### Hi Andy
 

@@ -9,6 +9,7 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related:
+  - handover-best-practices
   - hand-over-responsibilities
 redirects:
   - do-you-know-how-to-handover-a-project
@@ -18,11 +19,13 @@ archivedreason: null
 guid: 15b06388-5103-45e4-a5ea-96c13554df77
 ---
 
-Transitioning a project smoothly is crucial, whether due to changing project assignments or planned absences. A thorough handover process ensures continuity and minimizes disruption.
+Transitioning a project smoothly is crucial, whether due to changing project assignments or planned absences. A [thorough handover process](/handover-best-practices) ensures continuity and minimizes disruption.
 
 **The handover is the responsibility of the person transitioning away from the project.**
 
 It's essential to initiate the handover planning as soon as a transition is known. Review the project with the selected team member who will take over, then schedule a handover meeting with high priority.
+
+It's important to plan from the perspective of the person receiving the handover.
 
 <!--endintro-->
 
@@ -35,6 +38,7 @@ It's essential to initiate the handover planning as soon as a transition is know
 Send this checklist in an email before the handover meeting to guide the discussion:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | From: | {{ YOUR NAME }} |
