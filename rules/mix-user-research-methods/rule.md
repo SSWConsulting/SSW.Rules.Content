@@ -61,10 +61,10 @@ Read the full article: [When to Use Which User-Experience Research Methods](http
 
 | Method                         | Use it to                                               |
 |-------------------------------|-------------------------------------------------------------|
-| 1-on-1 interviews             | Explore personal workflows and uncover pain points         |
-| Group workshops / focus groups | Reveal shared behaviors and team-level challenges          |
-| Observation / shadowing       | Catch things users don’t say (but still do)                |
-| Surveys                       | Quantify trends or confirm emerging patterns across users  |
+| **1-on-1 interviews**             | Explore personal workflows and uncover pain points         |
+| **Group workshops / focus groups** | Reveal shared behaviors and team-level challenges          |
+| **Observation / shadowing**       | Catch things users don’t say (but still do)                |
+| **Surveys**                       | Quantify trends or confirm emerging patterns across users  |
 
 You don’t need to use every method on every project, but most projects benefit from using at least two.
 
