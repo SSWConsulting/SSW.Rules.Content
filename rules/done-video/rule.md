@@ -2,7 +2,7 @@
 type: rule
 title: Do you know how to record a quick and dirty 'Done Video'?
 seoDescription: Record a 'Done Video' to showcase key PBIs, validate functionality, and create useful documentation or release notes.
-uri: record-a-quick-and-dirty-done-video
+uri: done-video
 authors:
   - title: Ben Cull
     url: https://ssw.com.au/people/ben-cull
