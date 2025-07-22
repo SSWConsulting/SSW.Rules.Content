@@ -19,4 +19,3 @@ index:
 
 ---
 If you still need help, [visit our Skype for Business consulting page](https&#58;//www.ssw.com.au/ssw/Consulting/Skype-for-Business.aspx) and book in a consultant.
-
