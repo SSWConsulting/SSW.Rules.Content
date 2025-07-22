@@ -49,18 +49,18 @@ Smart components are harder to debug since they now have dependencies and state 
       </thead>
       <tbody>
         <tr class="item" *ngFor="let company of companies">
-          <td>{{ company.name }}</td>
-          <td>{{ company.phone }}</td>
-          <td>{{ company.email }}</td>
+          <td>&#123;&#123; company.name &#125;&#125;</td>
+          <td>&#123;&#123; company.phone &#125;&#125;</td>
+          <td>&#123;&#123; company.email &#125;&#125;</td>
           <td class="button-column">
             <button
-              routerLink="/company/detail/{{ company.id }}"
+              routerLink="/company/detail/&#123;&#123; company.id &#125;&#125;"
               class="btn btn-default"
             >
               Details
             </button>
             <button
-              routerLink="/company/edit/{{ company.id }}"
+              routerLink="/company/edit/&#123;&#123; company.id &#125;&#125;"
               class="btn btn-default"
             >
               Edit

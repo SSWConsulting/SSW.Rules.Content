@@ -73,9 +73,9 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
 * Consider this to be a case where the Single Responsibility Principle (SRP) generally outweighs Don’t Repeat Yourself (DRY)
 * Read operations can be optimised by selecting from DBSets directly into view models
 
-![](good-webapi-1.png)
+![](/uploads/rules/serialize-view-models-not-domain-entities/good-webapi-1.png)
 
-![](good-webapi-2.png)
+![](/uploads/rules/serialize-view-models-not-domain-entities/good-webapi-2.png)
 
 <imageEmbed
   alt="Image"
@@ -92,9 +92,9 @@ For all these reasons, the use of DTOs or View Models is highly recommended:
 This approach requires a bit more boiler-plate code as the fields to be updated are applied manually, but there is far less risk of unintended side effects.
 As the complexity of the code increases, it will be much easier for developers to keep a clear distinction between ViewModel objects that were received from web requests, and persistent entities that came from Entity Framework.
 
-![](good-webapi-operation-1.png)
+![](/uploads/rules/serialize-view-models-not-domain-entities/good-webapi-operation-1.png)
 
-![](good-webapi-operation-2.png)
+![](/uploads/rules/serialize-view-models-not-domain-entities/good-webapi-operation-2.png)
 
 <imageEmbed
   alt="Image"

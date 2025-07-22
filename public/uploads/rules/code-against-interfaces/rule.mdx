@@ -38,12 +38,12 @@ By creating an interface for each service and programming against the interface,
 
 It is important to also control the scope of the injection. For example, in ASP.NET 8 application you have the option to register the concrete implementation in the DI container either as a singleton, scoped, or transient service. Each of them will have a different lifetime in the application and should be set as per the requirement.
 
-![](Code against interfaces - bad.png)
+![](/uploads/rules/code-against-interfaces/Code against interfaces - bad.png)
 **❌ Figure: Bad Example - Referencing the concrete EF context**
 
 This is bad code because now the controller is directly dependent on the implementation of the EF context. This also increase the effort for unit testing.
 
-![](Code against interfaces - good.png)
+![](/uploads/rules/code-against-interfaces/Code against interfaces - good.png)
 **✅ Figure: Good Example - Programming against the interface**
 
 This is good because now you can test the controller and the services independently. Also the controller only talks to the service through the functionality exposed by the interface, enforcing encapsulation.

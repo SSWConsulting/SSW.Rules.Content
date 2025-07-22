@@ -125,19 +125,19 @@ For more granular options, you can use PowerShell to view and edit settings for 
 Connect-ExchangeOnline
 
 # View the group follow settings
-Get-UnifiedGroup -Identity {{ group }} | fl Identity, DisplayName, AutoSubscribeNewMembers
+Get-UnifiedGroup -Identity &#123;&#123; group &#125;&#125; | fl Identity, DisplayName, AutoSubscribeNewMembers
 
 # Enable or disable the above
-Set-UnifiedGroup -Identity {{ group }} -AutoSubscribeNewMembers
-Set-UnifiedGroup -Identity {{ group }} -AutoSubscribeNewMembers:$false
+Set-UnifiedGroup -Identity &#123;&#123; group &#125;&#125; -AutoSubscribeNewMembers
+Set-UnifiedGroup -Identity &#123;&#123; group &#125;&#125; -AutoSubscribeNewMembers:$false
 
 # Get a list or group members
-Get-UnifiedGroupLinks -Identity {{ group }} -LinkType Members
+Get-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Members
 
 # Check who is following the group
-Get-UnifiedGroupLinks -Identity {{ group }} -LinkType Subscribers
+Get-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Subscribers
 
 # Add or remove people from following the group
-Add-UnifiedGroupLinks -Identity {{ group }} -LinkType Subscribers -Links {{ User }}
-Remove-UnifiedGroupLinks -Identity {{ group }} -LinkType Subscribers -Links {{ User }}
+Add-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Subscribers -Links &#123;&#123; User &#125;&#125;
+Remove-UnifiedGroupLinks -Identity &#123;&#123; group &#125;&#125; -LinkType Subscribers -Links &#123;&#123; User &#125;&#125;
 ```

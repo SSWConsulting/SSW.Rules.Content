@@ -100,7 +100,7 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v1
         with:
-          creds: ${{ secrets.AZURE_CREDENTIALS }} # Note you need this credential in GitHub
+          creds: $&#123;&#123; secrets.AZURE_CREDENTIALS &#125;&#125; # Note you need this credential in GitHub
 
       # Fetch the API key from Azure Key Vault
       - name: Get API key from Azure Key Vault

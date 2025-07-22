@@ -18,11 +18,12 @@ related:
   - less-is-more
   - request-a-test-please
   - technical-debt
+  - underlined-links
 archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
-lastUpdated: 2025-07-03T23:48:37.000Z
-lastUpdatedBy: Brady Stroud [SSW]
-lastUpdatedByEmail: bradystroud@ssw.com.au
+lastUpdated: 2025-07-08T00:05:10.000Z
+lastUpdatedBy: Micaela Blank [SSW]
+lastUpdatedByEmail: 81748614+micsblank@users.noreply.github.com
 createdBy: Micaela Blank
 createdByEmail: 81748614+micsblank@users.noreply.github.com
 ---
@@ -72,7 +73,7 @@ First check if what you want to change is already in the design system. If yes, 
 * Will users see this change?
 * Does it affect layout, spacing, interaction, or visuals?
 
-If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI before making changes.
+If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI.
 
 ### 2. Track it properly
 
@@ -91,52 +92,30 @@ Design systems are like component libraries — but for UI.
 
 Always check with design — no exceptions.
 
-## Example – The SSW Mega Menu
+## Example –  Borders vs underlines on links
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    This Menu has had small tweaks added over time: new icons, padding changes, label tweaks — all without a design review.
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: 'XXX',
-    shouldDisplay: false
-  }}
-/>
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
   figureEmbed={{
     preset: "badExample",
-    figure: 'Bad example – The Mega Menu has evolved and accumulated inconsistencies that breaks the original design',
+    figure: 'Bad example – Dotted border added to links. The styling don\'t follow the design system or current UI conventions',
     shouldDisplay: true
   }}
-  src="/uploads/rules/design-debt/design-debt-bad-ex.png"
+  src="/uploads/rules/design-debt/design-debt-bad.png"
 />
 
-<asideEmbed
-  variant="greybox"
-  body={<>
-    This is the original Menu design — consistent, aligned with the design system, and reviewed by design before implementation.
-  </>}
-  figureEmbed={{
-    preset: "default",
-    figure: 'XXX',
-    shouldDisplay: false
-  }}
-/>
 <imageEmbed
   alt="Image"
   size="large"
   showBorder={false}
   figureEmbed={{
     preset: "goodExample",
-    figure: 'Good example – The Mega Menu is clean and consistent as originally designed',
+    figure: 'Good example – Links are using regular CSS underlines aligned with the design system and UI conventions',
     shouldDisplay: true
   }}
-  src="/uploads/rules/design-debt/design-debt-good-ex.png"
+  src="/uploads/rules/design-debt/design-debt-good.png"
 />
 
 ## More ways to prevent design debt

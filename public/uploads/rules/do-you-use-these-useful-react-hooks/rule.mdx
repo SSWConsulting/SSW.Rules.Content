@@ -148,7 +148,7 @@ const ThemeContext = createContext({
 function ThemedButton() {
   const theme = useContext(ThemeContext);
   return (
-    <button style={{ background: theme.background, color: theme.foreground }}>
+    <button style=&#123;&#123; background: theme.background, color: theme.foreground &#125;&#125;>
       I am styled by theme context!
     </button>
   );
@@ -156,7 +156,7 @@ function ThemedButton() {
 
 export default function App() {
   return (
-    <ThemeContext.Provider value={{ background: "black", foreground: "white" }}>
+    <ThemeContext.Provider value=&#123;&#123; background: "black", foreground: "white" &#125;&#125;>
       <ThemedButton />
     </ThemeContext.Provider>
   );

@@ -27,7 +27,7 @@ createdByEmail: 130118701+sethdailyssw@users.noreply.github.com
 AI image generation is a rapidly evolving field that offers a novel way to produce images. This rule discusses different AI image generators and what we can use AI images for.
 ## Prompting basics
 
-Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format “A {{ TYPE OF PICTURE }} of a {{ MAIN SUBJECT }}, {{ STYLE CUES }}”.
+Prompts are the instructions that you input. They can be as simple or as complex as you like. A general prompt might look like "generate an image of a sunset over the ocean," which tells the AI exactly what you're looking for. A well-structured prompt often has the format “A &#123;&#123; TYPE OF PICTURE &#125;&#125; of a &#123;&#123; MAIN SUBJECT &#125;&#125;, &#123;&#123; STYLE CUES &#125;&#125;”.
 
 <asideEmbed
   variant="greybox"
@@ -46,7 +46,7 @@ You can add more detail to make a more effective prompt by following this templa
 <asideEmbed
   variant="greybox"
   body={<>
-    **{{ ADJECTIVE }}, {{ EMOTION }}, {{ SUBJECT }}, {{ STYLE }}, {{ COLOR }}**
+    **&#123;&#123; ADJECTIVE &#125;&#125;, &#123;&#123; EMOTION &#125;&#125;, &#123;&#123; SUBJECT &#125;&#125;, &#123;&#123; STYLE &#125;&#125;, &#123;&#123; COLOR &#125;&#125;**
   </>}
   figureEmbed={{
     preset: "default",
@@ -190,17 +190,17 @@ As of now, the top contenders are DALL-E 2, Midjourney, and DreamStudio. Each of
 
   - Basic - /imagine cat
 
-  - Specify an artistic medium – /imagine {{{ ANY ART STYLE }} style cat
+  - Specify an artistic medium – /imagine &#123;&#123;{ ANY ART STYLE &#125;&#125; style cat
 
-  - Get specific – /imagine {{ STYLE }} sketch of a cat
+  - Get specific – /imagine &#123;&#123; STYLE &#125;&#125; sketch of a cat
 
-  - Time travel – /imagine {{ DECADE }} cat illustration
+  - Time travel – /imagine &#123;&#123; DECADE &#125;&#125; cat illustration
 
-  - Emote – /imagine {{ EMOTION }} cat
+  - Emote – /imagine &#123;&#123; EMOTION &#125;&#125; cat
 
-  - Be colorful – /imagine {{ COLOR WORD }} colored cat
+  - Be colorful – /imagine &#123;&#123; COLOR WORD &#125;&#125; colored cat
 
-  - Explore environments – /imagine {{ LOCATION }} cat
+  - Explore environments – /imagine &#123;&#123; LOCATION &#125;&#125; cat
 
 <imageEmbed
   alt="Image"

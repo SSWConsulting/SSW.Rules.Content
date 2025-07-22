@@ -58,10 +58,10 @@ jobs:
     steps:
       - uses: danhellem/github-actions-issue-to-work-item@master
         env:
-          ado_token: "${{ secrets.ADO_PERSONAL_ACCESS_TOKEN }}"
-          github_token: "${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}"
-          ado_organization: "${{ secrets.ADO_ORGANIZATION }}"
-          ado_project: "${{ secrets.ADO_PROJECT }}"
+          ado_token: "$&#123;&#123; secrets.ADO_PERSONAL_ACCESS_TOKEN &#125;&#125;"
+          github_token: "$&#123;&#123; secrets.GH_PERSONAL_ACCESS_TOKEN &#125;&#125;"
+          ado_organization: "$&#123;&#123; secrets.ADO_ORGANIZATION &#125;&#125;"
+          ado_project: "$&#123;&#123; secrets.ADO_PROJECT &#125;&#125;"
           ado_wit: "Product Backlog Item"
           ado_new_state: "New"
           ado_close_state: "Done"

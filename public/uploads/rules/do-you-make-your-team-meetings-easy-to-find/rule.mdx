@@ -133,7 +133,7 @@ By default, group calendars do not show up in Microsoft Outlook, so they need to
   body={<>
     
 ```bash
-Set-UnifiedGroup -identity {{ GROUP NAME }} -HiddenFromExchangeClientsEnabled:$False
+Set-UnifiedGroup -identity &#123;&#123; GROUP NAME &#125;&#125; -HiddenFromExchangeClientsEnabled:$False
 ```
 
 **Note:** [This command](https://learn.microsoft.com/en-us/powershell/module/exchange/set-unifiedgroup?view=exchange-ps#-hiddenfromexchangeclientsenabled) will also make the teams' group email address show in the global address list (GAL).
@@ -202,7 +202,7 @@ Creating a meeting should always be done from Microsoft Teams because Microsoft 
 <asideEmbed
   variant="greybox"
   body={<>
-    \< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: {{ TEAM NAME }} /\>
+    \< Need to edit this meeting? See [how to create recurring team meetings for a channel](/do-you-make-your-team-meetings-easy-to-find/#c-edit-a-meeting) Team: &#123;&#123; TEAM NAME &#125;&#125; /\>
   </>}
   figureEmbed={{
     preset: "default",

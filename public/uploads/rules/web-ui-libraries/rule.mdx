@@ -72,6 +72,42 @@ For more info, see the related rule on [generating mockups with V0](https://www.
 
 In effect, these technologies together let you quickly build your own custom component library for any React application.
 
+Schadcn uses a special **cn** utility under the hood in its component definition. This utility will override any of its default tailwind classes with the classes provided as an argument. This means that effectively you can apply tailwind classes to Schadcn components as you would an ordinary html element.
+
+<asideEmbed
+  variant="info"
+  body={<>
+    Shadcn's **cn** utility uses [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) to merge sets of tailwind classes together and [clsx](https://www.npmjs.com/package/clsx) to append class names provided as arguments for a component provided the value is truthy.
+  </>}
+  figureEmbed={{
+    preset: "default",
+    figure: 'XXX',
+    shouldDisplay: false
+  }}
+/>
+
+```jsx
+const Heading1 = ({className, children}: {className: string, children: React.ReactNode})=> {
+  {/*
+    Classes in the second argument of "cn"
+    will override classes in the first argument
+  */}
+  return <h1 className=cn("font-semibold text-xl", className)>{children}</h1>
+}
+
+
+const Layout = ({children}: {children: React.ReactNode})=>{
+
+  return <main>
+          {/* text-2xl will be applied here */}
+          <Heading1 className="text-2xl">
+            Hello world!
+          </Heading1>
+          {children}
+        </main>
+}
+```
+
 <youtubeEmbed url="https://youtube.com/embed/ZmtyFc_7p1A?si=EMP-yNIbrq7pDH2u" description="Video – Why Everyone Loves Shadcn UI Right Now (1 min)" />
 
 For a more in depth look, see the video later on.

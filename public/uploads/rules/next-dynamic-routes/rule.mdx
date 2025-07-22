@@ -60,11 +60,11 @@ To delve deeper into the intricacies of Dynamic Routes, consider exploring the [
 ### getStaticProps
 
 When you export getStaticProps, your page will be pre-rendered at build time. You can use `getStaticProps` to retrieve data that will be used to render the page.
-For example, you might receive a file name from the requested URL, i.e. `/page/{{ FILENAME }}`, which you can then use in an API call to get the props for that page:
+For example, you might receive a file name from the requested URL, i.e. `/page/&#123;&#123; FILENAME &#125;&#125;`, which you can then use in an API call to get the props for that page:
 
 ```js
 export const getStaticProps = async ({ params }) => {
-  const apiUrl = {{ API URL }} + params.filename;
+  const apiUrl = &#123;&#123; API URL &#125;&#125; + params.filename;
   const response = await fetch(apiUrl);
 
   return {
@@ -93,7 +93,7 @@ The `getStaticPaths` function is used alongside `getStaticProps` and returns a l
 
 ```js
 export const getStaticPaths = async () => {
-  const apiUrl = {{ API URL }};
+  const apiUrl = &#123;&#123; API URL &#125;&#125;;
   const response = await fetch(apiUrl);
 
   return {

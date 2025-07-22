@@ -66,7 +66,7 @@ ChatGPT can adjust the length of an email response according to your requirement
   body={<>
     “Shorten this email for me”
 
-“Expand these points into an email {{ PASTE IDEAS }}
+“Expand these points into an email &#123;&#123; PASTE IDEAS &#125;&#125;
   </>}
   figureEmbed={{
     preset: "default",
@@ -82,7 +82,7 @@ Sometimes the important points in an email are buried inside walls of text.
 <asideEmbed
   variant="greybox"
   body={<>
-    “I received this email. Can you read it and give me the gist of it? {{ PASTE EMAIL }}”
+    “I received this email. Can you read it and give me the gist of it? &#123;&#123; PASTE EMAIL &#125;&#125;”
   </>}
   figureEmbed={{
     preset: "default",
@@ -98,11 +98,11 @@ If you've written an email but aren't satisfied with the wording, you can ask Ch
 <asideEmbed
   variant="greybox"
   body={<>
-    “Rephrase this to sound more polite/professional/direct: {{ PASTE EMAIL }}”
+    “Rephrase this to sound more polite/professional/direct: &#123;&#123; PASTE EMAIL &#125;&#125;”
 
-“Proofread this email and give suggestions: {{ PASTE EMAIL }}”
+“Proofread this email and give suggestions: &#123;&#123; PASTE EMAIL &#125;&#125;”
 
-“Check my spelling: {{ PASTE EMAIL }}”
+“Check my spelling: &#123;&#123; PASTE EMAIL &#125;&#125;”
   </>}
   figureEmbed={{
     preset: "default",
@@ -158,8 +158,8 @@ Sometimes you don't know where to start when replying to a thread of messages. Y
 <asideEmbed
   variant="greybox"
   body={<>
-    “You are me, and my name is {{ NAME }}. Draft a reply to the email thread below. Be semi-formal, direct, and concise. If I include requests to the recipient, use a numbered list.
-Here is the thread: {{ PASTE THREAD }}”
+    “You are me, and my name is &#123;&#123; NAME &#125;&#125;. Draft a reply to the email thread below. Be semi-formal, direct, and concise. If I include requests to the recipient, use a numbered list.
+Here is the thread: &#123;&#123; PASTE THREAD &#125;&#125;”
   </>}
   figureEmbed={{
     preset: "default",
@@ -182,7 +182,7 @@ Your personal prompt might look like this:
 <asideEmbed
   variant="greybox"
   body={<>
-    “Help me craft a semi-formal, direct, friendly, and concise email. The subject is {{ SUBJECT }}. Start with 'Hi {{ NAME }},' and in the email, include the following action items in a numbered list: {{ ACTION ITEMS }}. Refer to our previous conversation about {{ TOPIC }} in this email thread, and ask me any questions you need for context: {{ PASTE THREAD }}”
+    “Help me craft a semi-formal, direct, friendly, and concise email. The subject is &#123;&#123; SUBJECT &#125;&#125;. Start with 'Hi &#123;&#123; NAME &#125;&#125;,' and in the email, include the following action items in a numbered list: &#123;&#123; ACTION ITEMS &#125;&#125;. Refer to our previous conversation about &#123;&#123; TOPIC &#125;&#125; in this email thread, and ask me any questions you need for context: &#123;&#123; PASTE THREAD &#125;&#125;”
   </>}
   figureEmbed={{
     preset: "default",
@@ -196,7 +196,7 @@ You can do this for specific scenarios too:
 <asideEmbed
   variant="greybox"
   body={<>
-    “Write a follow-up email to a client named {{ NAME }} who inquired about our services. I'm the account manager handling this client, my name is {{ NAME }}, and I can be reached at {{ NUMBER }}. Please also include a link to our scheduling tool, {{ LINK }}, to book a call at a convenient time. Make the email semi-formal, courteous, friendly, and concise.”
+    “Write a follow-up email to a client named &#123;&#123; NAME &#125;&#125; who inquired about our services. I'm the account manager handling this client, my name is &#123;&#123; NAME &#125;&#125;, and I can be reached at &#123;&#123; NUMBER &#125;&#125;. Please also include a link to our scheduling tool, &#123;&#123; LINK &#125;&#125;, to book a call at a convenient time. Make the email semi-formal, courteous, friendly, and concise.”
   </>}
   figureEmbed={{
     preset: "default",

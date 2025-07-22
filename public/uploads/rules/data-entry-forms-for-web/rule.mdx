@@ -124,10 +124,10 @@ Field formatting is essential for a good UX. Ensure that the data is displayed i
 ```html
 <div>
   <!-- When amount = 10 , output = '$ 10.00' -->
-  <p>Currency: {{ amount | currency}}</p>
+  <p>Currency: &#123;&#123; amount | currency&#125;&#125;</p>
 
   <!-- When percentage = 0.1 , output = '10.00 %' -->
-  <p>Percentage: {{ percentage | percent: '1.2-5'}}</p>
+  <p>Percentage: &#123;&#123; percentage | percent: '1.2-5'&#125;&#125;</p>
 </div>
 ```
 

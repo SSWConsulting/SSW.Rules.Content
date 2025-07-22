@@ -27,7 +27,7 @@ This is how you should create an appointment in the Outlook calendar for flights
 * When possible, always include the terminal number in the location field. If a non-standard terminal, make it extra clear
   E.g. Jetstar flights should have highlighted: "WARNING: Different terminal. Allow more time".
 * Make sure to include any unusual information about the flight
-  E.g. "You are not flying with your preferred airline because {{ REASON }}..." OR "As per our conversation, you are flying via Melbourne, because {{ REASON }}..."
+  E.g. "You are not flying with your preferred airline because &#123;&#123; REASON &#125;&#125;..." OR "As per our conversation, you are flying via Melbourne, because &#123;&#123; REASON &#125;&#125;..."
 * Always include the price of the ticket in the message
 * Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
 * Always create more than 1 appointment for flights that have more than one leg (connecting flights)
@@ -62,28 +62,28 @@ Here is a template to follow:
 
 |          |     |
 | -------- | --- |
-| To:      | {{ RELEVANT PARTIES }} |
-| Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} - {{ DATE AND TIME }} |
-| Location: | {{ TERMINAL NUMBER }}  |
+| To:      | &#123;&#123; RELEVANT PARTIES &#125;&#125; |
+| Event Name: | ✈️ &#123;&#123; PERSON &#125;&#125; - &#123;&#123; FROM -> TO (e.g. SYD -> BNE) &#125;&#125; - &#123;&#123; FLIGHT NUMBER &#125;&#125; - &#123;&#123; DATE AND TIME &#125;&#125; |
+| Location: | &#123;&#123; TERMINAL NUMBER &#125;&#125;  |
 | Status: | 🔴 Busy  |
 ::: email-content
 
-### Hi {{ RELEVANT PARTIES }}
+### Hi &#123;&#123; RELEVANT PARTIES &#125;&#125;
 
-I am flying to {{ DESTINATION }}
-Booking number: {{ BOOKING NUMBER }}
+I am flying to &#123;&#123; DESTINATION &#125;&#125;
+Booking number: &#123;&#123; BOOKING NUMBER &#125;&#125;
 
-This flight cost is {{ COST }}
+This flight cost is &#123;&#123; COST &#125;&#125;
 
 **Departure**
 
-* {{ AIRPORT }} {{ TERMINAL }}
-* {{ DEPARTURE DATE AND TIME }}
+* &#123;&#123; AIRPORT &#125;&#125; &#123;&#123; TERMINAL &#125;&#125;
+* &#123;&#123; DEPARTURE DATE AND TIME &#125;&#125;
 
 **Arrival**
 
-* {{ DESTINATION AIRPORT }} {{ TERMINAL }}
-* {{ ARRIVAL DATE AND TIME }}
+* &#123;&#123; DESTINATION AIRPORT &#125;&#125; &#123;&#123; TERMINAL &#125;&#125;
+* &#123;&#123; ARRIVAL DATE AND TIME &#125;&#125;
 
 On arrival, I will get a train to my accommodation.
 

@@ -93,7 +93,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
   body={<>
     Calling in 1 minute. See the PBI/Issue:
 
-**{{ URL }}**
+**&#123;&#123; URL &#125;&#125;**
   </>}
   figureEmbed={{
     preset: "default",
@@ -115,7 +115,7 @@ If the conversation has history, like a PBI/Issue or email, then it's important 
   body={<>
     Calling in 1 minute about this email thread:
 
-**{{ EMAIL SUBJECT }}**
+**&#123;&#123; EMAIL SUBJECT &#125;&#125;**
   </>}
   figureEmbed={{
     preset: "default",
@@ -210,8 +210,8 @@ If you couldn't get hold of the person, and a decision needs to be made (aka blo
 <asideEmbed
   variant="greybox"
   body={<>
-    "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with {{ THE RECOMMENDATION }} tomorrow.
-(checked by {{ APPROVER }}).
+    "Tried to call with no luck. Since I'm ❌ blocked, I will move ahead with &#123;&#123; THE RECOMMENDATION &#125;&#125; tomorrow.
+(checked by &#123;&#123; APPROVER &#125;&#125;).
 Please get back to me if you prefer another way."
   </>}
   figureEmbed={{
