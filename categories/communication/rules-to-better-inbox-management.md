@@ -7,7 +7,7 @@ index:
 - clean-your-inbox-per-topics
 - handle-noise-email
 - do-you-save-important-items-in-a-separate-folder
-- reply-done-and-delete-the-email
+- reply-done
 - how-to-hand-over-tasks-to-others
 - do-you-sort-your-emails-by-received-and-important
 - use-conditional-formatting-to-visually-deprioritize-emails
