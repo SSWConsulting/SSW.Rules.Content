@@ -22,7 +22,17 @@ While full-width is fine on mobile (where horizontal space is limited), desktop 
 
 <!--endintro-->
 
-Set your UI boxes with the following width CSS constraints:
+::: bad
+![Figure: Bad example - Box doesn't look right](bad-full-width-box.png)
+:::
+
+::: good
+![Figure: Good example - Box looks intentional](good-limited-width-box.png)
+:::
+
+## Defining responsive box widths
+
+Apply the following CSS width properties to keep your UI boxes clean and responsive:
 
 ```css
 width: fit-content;
