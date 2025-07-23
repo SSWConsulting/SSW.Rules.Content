@@ -1,7 +1,7 @@
 ---
 seoDescription: Add SSW Code Auditor, NUnit and Microsoft FxCop project files to your solution for effortless code auditing.
 type: rule
-archivedreason:
+archivedreason: Outdated - See https://www.ssw.com.au/rules/rules-to-better-unit-tests/
 title: Do you Add SSW Code Auditor, NUnit and Microsoft FxCop project files to your Solution
 guid: 6873d5ee-ff3f-48e8-9349-df4f1a378750
 uri: do-you-add-ssw-code-auditor-nunit-and-microsoft-fxcop-project-files-to-your-solution
