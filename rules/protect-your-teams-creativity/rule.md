@@ -36,7 +36,7 @@ Think of these like team mindsets under pressure. Each has different outcomes fo
 * **Autopilot** – Low pressure, low engagement → routine work, no innovation
 
 ![matrix](image.png)
-**Figure 1: Time-Pressure / Creativity matrix**
+**Figure: Time-Pressure / Creativity matrix**
 
 ### Common Pitfalls That Kill Creativity
 
