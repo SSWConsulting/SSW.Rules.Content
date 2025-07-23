@@ -35,3 +35,8 @@ Tips:
 ::: good
 ![Figure: Always have the 'Auto-hide the taskbar' option checked so you do better screenshots](good-auto-hide-taskbar.gif)  
 :::
+
+
+::: greybox
+Done Videos are an exception – it’s fine to include the full screen. See [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/done-video/)
+:::
