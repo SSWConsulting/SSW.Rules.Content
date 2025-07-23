@@ -13,9 +13,9 @@ guid: 4d38cdeb-5e1d-429d-86e1-ffa08f10f63c
 Creativity doesn’t just happen—it needs the right conditions to grow. When time pressure kicks in, managing it well can make the difference between a brilliant idea and a burned-out team. This rule explores how to support creativity even when deadlines are tight.
 
 ===> TODO: add video here
-**Video 1: Do you protect your team's creativity? (X min)**
+**Video: Do you protect your team's creativity? (X min)**
 
-### Why creativity matters in software development?
+## Why creativity matters in software development?
 
 Creativity is essential in software development because it helps us move beyond routine solutions and solve problems in smarter, more effective ways. From building intuitive features to fixing elusive bugs, creative thinking drives innovation and keeps our systems adaptable and competitive.
 
@@ -25,20 +25,18 @@ The key? Clear focus, shared urgency, and protection from distractions. These sa
 
 So what determines whether pressure helps or hurts creativity? It depends on how teams work under that pressure. A study published in Harvard Business Review identified four common modes—and understanding them can help you manage your team’s creative output more effectively.
 
-### Team modes
+## Team modes
 
-When it comes to time pressure and creativity, teams can work in different modes.
-Think of these like team mindsets under pressure. Each has different outcomes for creativity, and knowing which one you're in can help you respond appropriately.
+When it comes to time pressure and creativity, teams can work in different modes. Think of these like team mindsets under pressure. Each has different outcomes for creativity, and knowing which one you're in can help you respond appropriately.
 
 * **Mission** – High pressure, high focus, clear purpose → creativity thrives
 * **Expedition** – Low pressure, space to explore → creative discovery
 * **Treadmill** – High pressure, constant distractions → burnout, no creativity
 * **Autopilot** – Low pressure, low engagement → routine work, no innovation
 
-![matrix](image.png)
-**Figure: Time-Pressure / Creativity matrix**
+![Figure: Time-Pressure / Creativity matrix](image.png)
 
-### Common Pitfalls That Kill Creativity
+## Common pitfalls that kill creativity
 
 ❌ Avoid these mistakes:
 
@@ -56,7 +54,7 @@ These mistakes:
 
 These issues often lead to what researchers call a **"pressure hangover"**—where creativity stays low even after the deadline has passed.
 
-### Best Practices That Nurture Creativity
+## Best practices that nurture creativity
 
 ✅ Good ways to manage:
 
@@ -71,4 +69,4 @@ Creativity is too important to leave to chance. If you want your team to do thei
 
 ### Resources
 
-["Creativity under the gun", Harvard Business Review](https://hbr.org/2002/08/creativity-under-the-gun)
+* ["Creativity under the gun", Harvard Business Review](https://hbr.org/2002/08/creativity-under-the-gun)
