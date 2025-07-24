@@ -37,7 +37,7 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
    ::: greybox
    **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
    :::
-   
+
 4. Follow the prompts to sign in to LinkedIn, and allow access to your account
 5. Hover over your name again, click the LinkedIn logo and see your profile appear
 
