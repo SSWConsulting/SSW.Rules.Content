@@ -49,7 +49,7 @@ More info: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/retiremen
 
 SPFX gives you access to a modern toolchain: TypeScript, React, Fluent UI, and Microsoft Graph. Use it to your advantage!
 
-Don't neglect CI/CD for your SharePoint developments. The components (webparts, extensions...) might be smaller than you typical .NET project, but clean and repeatable deployment and provisioning is key to successful custom developments.
+Don't neglect CI/CD for your SharePoint developments. The components (webparts, extensions...) might be smaller than your typical .NET project, but clean and repeatable deployment and provisioning is key to successful custom developments.
 
 Use GitHub Actions or Azure DevOps pipelines to bundle, package, and deploy SPFx solutions. For custom assets deployment:
 
