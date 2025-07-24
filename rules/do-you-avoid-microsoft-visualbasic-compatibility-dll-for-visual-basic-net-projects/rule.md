@@ -22,8 +22,8 @@ This is where you should focus your efforts on eliminating whatever VB6 baggage 
 
 Avoid:
 
-- InputBox
-- ControlArray
-- ADO support in Microsoft.VisualBasic.Compatibility.Data
-- Environment functions
-- Font conversions
+* InputBox
+* ControlArray
+* ADO support in Microsoft.VisualBasic.Compatibility.Data
+* Environment functions
+* Font conversions
