@@ -4,7 +4,7 @@ title: Rules to Better SharePoint for Developers
 guid: 3cb0a860-e693-4960-9c8e-4815ce842481
 uri: rules-to-better-sharepoint-for-developers
 index:
-
+- sharepoint-development
 - do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer
 - do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sharepoint-development-environment
 - consistent-sharepoint-sites
