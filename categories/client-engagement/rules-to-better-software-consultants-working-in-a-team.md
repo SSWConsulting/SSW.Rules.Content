@@ -58,6 +58,7 @@ index:
 - efficiency-do-you-use-two-monitors
 - hand-over-responsibilities
 - collaborate-across-timezones
+- protect-your-teams-creativity
 - work-in-pairs
 - quality-do-you-get-your-most-experienced-colleagues-to-check-your-work
 - quality-do-you-implement-an-error-logger-that-has-notifications
