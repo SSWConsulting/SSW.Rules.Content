@@ -88,7 +88,6 @@ Design systems are like component libraries — but for UI.
 * If the component exists, use it
 * If it doesn’t, ask if a new pattern is needed
 
-Always check with design — no exceptions.
 
 ## Example –  Borders vs underlines on links
 
