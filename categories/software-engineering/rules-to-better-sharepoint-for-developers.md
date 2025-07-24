@@ -4,6 +4,7 @@ title: Rules to Better SharePoint for Developers
 guid: 3cb0a860-e693-4960-9c8e-4815ce842481
 uri: rules-to-better-sharepoint-for-developers
 index:
+- sharepoint-development
 - are-your-developers-managing-your-projects-with-tfs-with-proven-agile-scrum-and-alm-strategies
 - asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 - asp-net-vs-sharepoint-development-do-you-know-source-control-is-different
