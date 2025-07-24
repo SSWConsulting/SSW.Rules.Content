@@ -20,7 +20,7 @@ archivedreason: null
 guid: 3af8b6aa-2559-45aa-a7ab-6a30bebd0866
 ---
 
-Development for SharePoint is very different depending upon whether you are online or using old On-Premises SharePoint.
+Development for SharePoint is very different depending upon whether you are online or using On-Premises SharePoint.
 
 <!--endintro-->
 
@@ -28,10 +28,13 @@ Development for SharePoint is very different depending upon whether you are onli
 
 All you need is VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
 
+💡 Best practice is to isolate your code as much as possible during development/staging. Unfortunately it's not easy to come up with a full-blown dedicated Test Tenant. 
+As a minimum, make sure you test all your custom code in a dedicated Site Collection to avoid as much side effects as possible.
+
 See our Rule to modern [SharePoint Development](https://www.ssw.com.au/rules/sharepoint-development)
 
 
-### For SharePoint 2019, 2016, 2013, 2010
+### For SharePoint 2016, 2019 or SE
 
 1. It's very important to correctly setup a SharePoint environment for development. Correctly configured, this will save you a lot of trouble later on.
 2. From time to time, you can seriously damage a SharePoint installation during development and it is best not to install SharePoint on your everyday working machine. Additionally, when you start a new SharePoint project you don't want to carry all the luggage from a previous customization that could potentially affect your new project.
