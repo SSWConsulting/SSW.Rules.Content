@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you follow SharePoint Devevelopment best practices?
+title: Do you follow SharePoint Development best practices?
 seoDescription: "Keep your SharePoint solutions maintainable, performant, and
   secure by following modern development best practices for both SharePoint
   Online and SharePoint Server (on-premises).  "
