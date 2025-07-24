@@ -48,27 +48,23 @@ When it comes to time pressure and creativity, teams can work in different modes
 
 ![Figure: Time-Pressure / Creativity matrix](time-pressure-creativity-matrix.png)
 
-## Common pitfalls that kill creativity
-
-❌ Avoid these mistakes:
+## ❌ Common pitfalls that kill creativity
 
 * Setting unrealistic deadlines
 * Expecting your team to multitask excessively
 * Allowing constant interruptions and fragmented tasks
 * Organizing group calls with large number of participants
 
-These mistakes:
+These mistakes can lead to:
 
-* Cause fragmented days and mental overload
-* Decrease creativity and produce weak solutions
-* Cause frustration and burnout
-* Lower productivity even after deadlines pass
+* Fragmented days and mental overload
+* Decreased creativity and weak solutions
+* Frustration and burnout
+* Lower productivity (even after deadlines)
 
 These issues often lead to what researchers call a **"pressure hangover"**, where creativity stays low even after the deadline has passed.
 
-## Best practices that nurture creativity
-
-✅ Good ways to manage:
+## ✅ Best practices that nurture creativity
 
 * Prefer collaborating one-on-one rather than in groups
 * Reserve some time for learning, experimentation, and exploring new ideas. Use strategies like "innovation time" (e.g. [3Ms 15% rule](https://www.3m.co.uk/3M/en_GB/careers/culture/15-percent-culture/))
