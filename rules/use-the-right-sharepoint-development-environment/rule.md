@@ -1,8 +1,9 @@
 ---
-seoDescription: Set up a suitable SharePoint development environment using virtual machines or Visual Studio Code for efficient and flexible testing.
 type: rule
 title: Do you use the right SharePoint development environment?
-uri: use-the-right-sharepoint-development-environment
+seoDescription: Set up a suitable SharePoint development environment using
+  virtual machines or Visual Studio Code for efficient and flexible testing.
+uri: sharepoint-development-environment
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -10,6 +11,7 @@ authors:
     url: https://ssw.com.au/people/john-liu
 related:
   - sharepoint-search
+  - sharepoint-development
 redirects:
   - why-do-we-use-vm-for-sharepoint-development
   - do-you-use-the-right-sharepoint-development-environment
@@ -22,6 +24,13 @@ Development for SharePoint is very different depending upon whether you are onli
 
 <!--endintro-->
 
+### For SharePoint Online
+
+All you need is VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
+
+See our Rule to modern [SharePoint Development](https://www.ssw.com.au/rules/sharepoint-development)
+
+
 ### For SharePoint 2019, 2016, 2013, 2010
 
 1. It's very important to correctly setup a SharePoint environment for development. Correctly configured, this will save you a lot of trouble later on.
@@ -32,6 +41,3 @@ Development for SharePoint is very different depending upon whether you are onli
 6. Very easy for someone to quickly create a new SharePoint server to quickly test or experiment with SharePoint.
 7. Bad - There might be more work required to activate additional servers. SharePoint Farms are a lot of work. E.g. Search Server VMs.
 
-### For SharePoint Online
-
-Use VSCode – all modern customizations are doing using the [SharePoint Framework (SPFx)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
