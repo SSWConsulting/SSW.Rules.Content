@@ -9,6 +9,8 @@ authors:
     url: https://www.ssw.com.au/people/josh-bandsma
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+related:
+  - protect-your-teams-creativity
 created: 2021-09-15T01:15:35.480Z
 guid: 78d3e725-0146-4759-a11b-8d9048c4f36a
 ---
@@ -18,7 +20,6 @@ Getting difficult work done requires focus and there are many techniques to do t
 <!--endintro-->
 
 `youtube: https://youtu.be/1l4w7uHdNaQ`
-
 **Video: The Pomodoro Technique - Study And Productivity Technique (animated) (5 min)**
 
 The Pomodoro Technique is a time management method that was developed in the late 1980s by Francesco Cirillo. It is used to break up your work into intervals. By using a timer, you separate work intervals with short breaks. Each interval is known as a **pomodoro.**
