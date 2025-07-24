@@ -91,7 +91,7 @@ Design systems are like component libraries — but for UI.
 ## Example –  Let's just pick a pretty colour
 
 ::: bad
-![Figure: Bad example – A light green background is used for the "open" badge. This color doesn’t appear elsewhere in the design and causes low contrast, which affects accessibility. See [Do you use enough color contrast?](https://www.ssw.com.au/rules/color-contrast/)](design-debt-bad.png)
+![Figure: Bad example – A light green background is used for the "open" badge. This color doesn’t appear elsewhere in the design and causes low contrast, which affects accessibility. See [Do you use enough color contrast?](/color-contrast)](design-debt-bad.png)
 :::
 
 ::: good
