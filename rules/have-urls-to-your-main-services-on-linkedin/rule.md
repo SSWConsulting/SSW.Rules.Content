@@ -8,7 +8,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Tiago Araujo
     url: https://ssw.com.au/people/tiago-araujo
-related: []
+related:
+  - linkedin-profile
+  - linkedin-job-experience
 redirects:
   - linkedin-do-you-have-links-to-your-main-services-on-your-profile
 created: 2017-08-17T22:02:45.000Z
@@ -20,7 +22,7 @@ LinkedIn is the main business and employment-oriented social networking service 
 
 <!--endintro-->
 
-A featured section will allow you to highlight services in your profile. To achieve that, follow the instructions from LinkedIn: [Add Sections to Your Profile | LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a540837/add-sections-to-your-profile)
+A featured section will allow you to highlight services in your profile. To achieve that, follow the instructions from LinkedIn: [Add Sections to Your Profile | LinkedIn Help](https://www.linkedin.com/help/linkedin/answer/a540837/add-sections-to-your-profile).
 
 ![Figure: In the Featured section, use the "+" and then "Links" buttons to include the URLs for the main services your provide](linkedin-services-bad-example.png)
 
