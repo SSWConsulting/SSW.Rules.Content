@@ -21,9 +21,7 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
 :::
 
 ::: good
-
 ![Figure: Good example - LinkedIn profile is connected to a Microsoft account](linkedin-good.png)
-
 :::
 
 ## Connecting your Microsoft account to LinkedIn
@@ -36,10 +34,12 @@ Outlook (and other Microsoft 365 apps) has a great feature that shows users' Lin
 
    ![Figure: Sign in to LinkedIn](linkedin-signin.png)
 
-  **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
-
-3. Follow the prompts to sign in to LinkedIn, and allow access to your account
-4. Hover over your name again, click the LinkedIn logo and see your profile appear
+   ::: greybox
+   **Note:** If your Microsoft account is already connected, you'll see your LinkedIn profile here instead.
+   :::
+   
+4. Follow the prompts to sign in to LinkedIn, and allow access to your account
+5. Hover over your name again, click the LinkedIn logo and see your profile appear
 
 You can also check this within LinkedIn. Go to **LinkedIn | Settings | Account Preferences | Account Management | [Microsoft](https://www.linkedin.com/psettings/microsoft-accounts)**, and view your account connection.
 
