@@ -4,6 +4,12 @@ title: Rules to Better SharePoint for Developers
 guid: 3cb0a860-e693-4960-9c8e-4815ce842481
 uri: rules-to-better-sharepoint-for-developers
 index:
+- sharepoint-development
+- do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer
+- do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sharepoint-development-environment
+- consistent-sharepoint-sites
+- do-you-get-rid-of-legacy-items-in-sharepoint-online
+- best-sharepoint-navigation
 - are-your-developers-managing-your-projects-with-tfs-with-proven-agile-scrum-and-alm-strategies
 - asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 - asp-net-vs-sharepoint-development-do-you-know-source-control-is-different
@@ -12,8 +18,6 @@ index:
 - do-you-create-a-minimal-master-page
 - do-you-know-common-web-configuration-stuff-you-will-need
 - do-you-know-the-asp-net-skills-that-do-not-translate-aka-different
-- do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer
-- do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sharepoint-development-environment
 - do-you-know-the-asp-net-skills-that-translate
 - do-you-know-the-best-ways-to-deploy-a-sharepoint-solution
 - do-you-make-small-incremental-changes-to-your-vsewss-projects
@@ -68,12 +72,10 @@ index:
 - the-best-forms-solution
 - reduce-diagnostic-logging-level-after-configure-hybrid-search
 - do-you-turn-off-auto-update-on-your-servers
-- do-you-get-rid-of-legacy-items-in-sharepoint-online
 - do-you-use-the-right-service-in-sharepoint-2013
 - never-dispose-objects-from-spcontext-current
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
-- consistent-sharepoint-sites
-- best-sharepoint-navigation
+
 ---
 
 Want to get your organization using SharePoint to collaborate? Check [SSW's SharePoint consulting page](https://ssw.com.au/consulting/sharepoint).
