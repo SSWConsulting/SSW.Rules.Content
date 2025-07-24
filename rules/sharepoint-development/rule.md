@@ -6,8 +6,10 @@ seoDescription: "Keep your SharePoint solutions maintainable, performant, and
   secure by following modern development best practices for both SharePoint
   Online and SharePoint Server (on-premises).  "
 uri: sharepoint-development
-authors:
-  - title: ""
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
+related:
+  - sharepoint-development-environment
 guid: a798aabe-e307-4c9b-9ded-74683b827cc7
 ---
 Rolling out SharePoint solutions without a disciplined approach quickly creates brittle customisations, blocked release pipelines, and unhappy users. 
@@ -45,7 +47,7 @@ Provider-hosted add-ins (formerly "Apps") run outside SharePoint, usually in Azu
 More info: https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/retirement-announcement-for-add-ins
 
 
-## 3. Use modern toolchain
+## 4. Use modern toolchain
 
 SPFX gives you access to a modern toolchain: TypeScript, React, Fluent UI, and Microsoft Graph. Use it to your advantage!
 
@@ -57,7 +59,7 @@ Use GitHub Actions or Azure DevOps pipelines to bundle, package, and deploy SPFx
 
 ✅ Deploy solutions through the App Catalog and ALM APIs 
 
-## 4. Keep customisations upgrade-friendly
+## 5. Keep customisations upgrade-friendly
 
 SharePoint Online ships changes weekly, and SharePoint Server receives regular updates. If you want to customize SharePoint look and feel:
 
@@ -65,7 +67,7 @@ SharePoint Online ships changes weekly, and SharePoint Server receives regular u
 
 ✅ Use theme JSON, header/footer extensions, or the SharePoint Look Book.  
 
-## 5. Respect the service boundary
+## 6. Respect the service boundary
 
 Call Graph or SharePoint REST, not internal APIs:
 
@@ -73,7 +75,7 @@ Call Graph or SharePoint REST, not internal APIs:
 * As a last resort, you can use \`_api/\` REST endpoints (although most of them will have a PNP wrapper)
 * Subscribe to change notifications with webhooks, Graph API or Azure Event Grid
 
-## 6. Apply the principle of least customisation
+## 7. Apply the principle of least customisation
 
 Configure first, extend only when necessary. Out-of-the-box lists, libraries, and Power Automate flows or even [list formatting](https://pnp.github.io/List-Formatting/) often cover 80% of business needs.
 
@@ -81,7 +83,7 @@ Check out existing solutions on GitHub before developing your own customizations
 
 Keep branding light; theme JSON and App Customisers beat CSS overrides.
 
-## 7. Adopt the PnP community tools
+## 8. Adopt the PnP community tools
 
 The [PNP](https://pnp.github.io/) (formerly "Pattern N Practices") SharePoint community is awesome. They've got a heap of great tools available for o365 development:
 
