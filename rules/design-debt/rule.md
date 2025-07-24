@@ -89,14 +89,14 @@ Design systems are like component libraries — but for UI.
 * If it doesn’t, ask if a new pattern is needed
 
 
-## Example –  Borders vs underlines on links
+## Example –  Let's just pick a pretty colour! 
 
 ::: bad
-![Figure: Bad example – Dotted border added to links. The styling don't follow the design system or current UI conventions](design-debt-bad.png)
+![Figure: Bad example – A light green background is used for the "open" badge. This color doesn’t appear elsewhere in the design and causes low contrast, which affects accessibility. See [Do you use enough color contrast?](https://www.ssw.com.au/rules/color-contrast/)](design-debt-bad.png)
 :::
 
 ::: good
-![Figure: Good example – Links are using regular CSS underlines aligned with the design system and UI conventions](design-debt-good.png)
+![Figure: Good example – This issue was flagged with a designer. They used an accessible color and updated the design system to include the missing design component.](design-debt-good.png)
 :::
 
 ## More ways to prevent design debt
