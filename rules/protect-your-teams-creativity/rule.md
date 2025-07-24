@@ -15,6 +15,7 @@ authors:
 related:
   - 4-quadrants-important-and-urgent
   - work-in-order-of-importance-aka-priorities
+  - pomodoro
 created: 2025-07-20T20:33:00.000Z
 guid: 4d38cdeb-5e1d-429d-86e1-ffa08f10f63c
 ---
