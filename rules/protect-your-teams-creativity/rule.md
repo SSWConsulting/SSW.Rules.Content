@@ -1,17 +1,27 @@
 ---
 type: rule
 title: Do you protect your team's creativity?
-seoDescription: Discover the key conditions that boost creativity. Learn how
-  urgency, collaboration, and focus can affect your innovative thinking
+seoDescription: Discover the key conditions that boost creativity. Learn how urgency, collaboration, and focus can affect your innovative thinking.
 uri: protect-your-teams-creativity
 authors:
+  - title: Adam Cogan
+    url: https://www.ssw.com.au/people/adam-cogan
   - title: Anton Polkanov
-    url: https://www.ssw.com.au/people/anton-polkanov/
+    url: https://www.ssw.com.au/people/anton-polkanov
+  - title: Brady Stroud
+    url: https://www.ssw.com.au/people/brady-stroud
+  - title: Caleb Williams
+    url: https://www.ssw.com.au/people/caleb-williams
+related:
+  - 4-quadrants-important-and-urgent
+  - work-in-order-of-importance-aka-priorities
 created: 2025-07-20T20:33:00.000Z
 guid: 4d38cdeb-5e1d-429d-86e1-ffa08f10f63c
 ---
 
 Creativity doesn't just happen, it needs the right conditions to grow. When time pressure kicks in, managing it well can make the difference between a brilliant idea and a burned out team. This rule explores how to support creativity even when deadlines are tight.
+
+<!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=qRUW3zes4Gk`
 **Video: Do you protect your team's creativity? (4min)**
