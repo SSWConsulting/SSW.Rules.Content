@@ -53,7 +53,7 @@ Don't neglect CI/CD for your SharePoint developments. The components (webparts, 
 
 Use GitHub Actions or Azure DevOps pipelines to bundle, package, and deploy SPFx solutions. For custom assets deployment:
 
-❌ Don't manually upload files to \*\*Site Assets\** or similar
+❌ Don't manually upload files to **Site Assets** or similar
 
 ✅ Deploy solutions through the App Catalog and ALM APIs 
 
