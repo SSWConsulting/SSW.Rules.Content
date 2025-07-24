@@ -45,7 +45,7 @@ When it comes to time pressure and creativity, teams can work in different modes
 * **Treadmill** – High pressure, constant distractions => burnout, no creativity
 * **Autopilot** – Low pressure, low engagement => routine work, no innovation
 
-![Figure: Time-Pressure / Creativity matrix](image.png)
+![Figure: Time-Pressure / Creativity matrix](time-pressure-creativity-matrix.png)
 
 ## Common pitfalls that kill creativity
 
