@@ -1,7 +1,7 @@
 ---
 seoDescription: Microsoft Visual Basic .NET projects should avoid using Microsoft.VisualBasic.Compatibility namespace to ensure compatibility with future versions.
 type: rule
-archivedreason:
+archivedreason: Obsolete - The Microsoft.VisualBasic.Compatibility namespace is deprecated and no longer recommended for use in modern .NET development. Developers should use equivalent functions from standard .NET namespaces.
 title: Do you avoid Microsoft.VisualBasic.Compatibility.dll for Visual Basic.NET projects?
 guid: 66108924-ffa0-4179-a125-a158fba970bc
 uri: do-you-avoid-microsoft-visualbasic-compatibility-dll-for-visual-basic-net-projects
@@ -22,8 +22,8 @@ This is where you should focus your efforts on eliminating whatever VB6 baggage 
 
 Avoid:
 
-- InputBox
-- ControlArray
-- ADO support in Microsoft.VisualBasic.Compatibility.Data
-- Environment functions
-- Font conversions
+* InputBox
+* ControlArray
+* ADO support in Microsoft.VisualBasic.Compatibility.Data
+* Environment functions
+* Font conversions

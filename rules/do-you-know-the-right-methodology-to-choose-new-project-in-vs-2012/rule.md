@@ -1,7 +1,7 @@
 ---
 seoDescription: Choose the right methodology and process template in Visual Studio 2012 with TFS, using built-in templates or customizing to fit your development environment.
 type: rule
-archivedreason:
+archivedreason: Obsolete - TFS 2012 is outdated and has been replaced by Azure DevOps. For modern practices, see https://www.ssw.com.au/rules/rules-to-better-devops/
 title: Do you know the right methodology to choose (new project in VS 2012)?
 guid: 23940681-dd10-49a3-baa3-bdccd3b0cd42
 uri: do-you-know-the-right-methodology-to-choose-new-project-in-vs-2012
