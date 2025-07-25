@@ -26,9 +26,9 @@ For unplanned outages, see [Outage - Do you have an unplanned outage process?](/
 
 If your servers are down or have to go down during business hours you should notify the users at least 15 minutes beforehand so you will not get 101 people all asking you if the computer is down.
 
-For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method. If you use Microsoft Teams or Skype, a quick message will do.
+For short outages (under 15 minutes) that only affect only a few people (under 5 people), or are outside of business hours, then IM is the best method. If you use Microsoft Teams, a quick message will do.
 
-**Note:** If they are not online on Teams or Skype, then they can't complain that they were not warned.
+**Note:** If they are not online on Teams, then they can't complain that they were not warned.
 
 For extended or planned outages, or if you have a larger number of users (50+), **email** is the suggested method.
 
