@@ -4,6 +4,7 @@ tips: ""
 title: Do you follow SharePoint development best practices?
 seoDescription: Keep your SharePoint solutions maintainable, performant, and secure by following modern development best practices for both SharePoint Online and SharePoint Server (on-premises).
 uri: sharepoint-development
+authors:
   - title: Jean Thirion
     url: https://www.ssw.com.au/people/jean-thirion
 related:
