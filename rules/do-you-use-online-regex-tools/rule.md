@@ -17,6 +17,7 @@ Regular expressions (regex) are powerful tools for pattern matching and text pro
 <!--endintro-->
 
 ### Why Use Online Regex Tools?
+
 * **Instant Feedback**: Test your regex patterns in real-time and see immediate results.
 * **Learning Resources**: Many tools include tutorials, examples, and explanations to help you understand regex syntax.
 * **Debugging Features**: Identify issues in your regex with visual aids and detailed error messages.
@@ -67,6 +68,7 @@ Figure: Using RegExr to debug and validate your pattern before implementation.
 :::
 
 ### Best Online Regex Tools
+
 * **[RegExr](https://regexr.com/)** (Recommended)
   * User-friendly interface and community-driven examples.
   * Open source and can be hosted privately. See [https://github.com/gskinner/regexr/](https://github.com/gskinner/regexr/)
