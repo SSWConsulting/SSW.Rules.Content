@@ -18,9 +18,9 @@ Whilst working remotely it is good practice to ensure you have a decent setup to
 
 <!--endintro-->
 
-- Good Microphone
-- Camera
-- Conferencing software like Teams or Zoom
+* Good Microphone
+* Camera
+* Conferencing software like Teams or Zoom
 
 It is always better to have complicated discussions over a call rather than just using instant messaging.
 

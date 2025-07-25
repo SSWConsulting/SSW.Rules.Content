@@ -19,7 +19,7 @@ If you interrupt someone when they are in the zone, it can take them 15 minutes 
 
 Instead of interrupting someone directly, you can:
 
-- Send them an email to contact you when free (preferred option)
-- Ping them on Microsoft Teams or Skype with the message “See me when you are free”
+* Send them an email to contact you when free (preferred option)
+* Ping them on Microsoft Teams or Skype with the message “See me when you are free”
 
 Check the rule [Do you deal with distractions?](/do-you-deal-with-distractions)
