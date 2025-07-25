@@ -35,4 +35,4 @@ For useful information on the topic reference the document ‘[Avoiding Social E
 
 With the above in mind, it is important to review regularly the information availed via search engines and standard operating procedures. Furthermore, it can be useful to test the readiness and alertness of staff by performing mock social engineering attacks.
 
-Take the following situation as an example: the CEO is out of town and decides to use an employee’s laptop left in the office on the weekend, the employee in question is messaged via Skype for their domain password. If the employee is aware of the risks, this poses the company then they would not send the requested credentials and follow proper procedure around reporting a suspected incident.
+Take the following situation as an example: the CEO is out of town and decides to use an employee’s laptop left in the office on the weekend, the employee in question is messaged via Teams for their domain password. If the employee is aware of the risks, this poses the company then they would not send the requested credentials and follow proper procedure around reporting a suspected incident.

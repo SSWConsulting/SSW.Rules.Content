@@ -58,7 +58,7 @@ The basic rule is: don't send back the answer in your email - instead send back 
 
 Thank you for taking the time to report the issue to SSW CodeAuditor.
 
-I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Skype
+I am sorry to let you know that I cannot reproduce this. Could you please provide me with more details or, even better, would I be able to connect to your PC? It is simple and you can see everything I do. To do so, you can send me an appointment for an appropriate time or add me to Teams
 
 Kind Regards,  
 Bob

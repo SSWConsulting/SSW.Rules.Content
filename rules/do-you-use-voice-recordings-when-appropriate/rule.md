@@ -24,11 +24,10 @@ Sending and listening to voice recordings feels more personal than reading an e
 
 Voice recordings and videos shouldn't replace email entirely, but can be valuable tool when used at the right time. There are a number of technological tools available to facilitate this. Here is a list of some of the services you can use:
 
-- [WhatsApp](http://www.whatsapp.com/)
-- [WeChat](http://www.wechat.com/)
-- [TalkBox](http://talkboxapp.com/)
-- [iMessage](http://www.imore.com/how-send-voice-note-your-iphone-imessage-or-sms)
-- Skype
-- Snagit
+* [WhatsApp](http://www.whatsapp.com/)
+* [WeChat](http://www.wechat.com/)
+* [TalkBox](http://talkboxapp.com/)
+* [iMessage](http://www.imore.com/how-send-voice-note-your-iphone-imessage-or-sms)
+* Snagit
 
 For videos, you should put them on youtube as unlisted videos and send the link

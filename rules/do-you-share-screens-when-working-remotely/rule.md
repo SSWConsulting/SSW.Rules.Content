@@ -23,4 +23,4 @@ When you first share your screen, make sure the other person can see your screen
 
 For a list of our recommended screen sharing tools, please check the [SSW rules for remote support](/do-you-know-the-best-way-to-give-the-best-customer-support).
 
-Another good practice that follows on from this, is to leave a Teams/Zoom/Skype session open if you are working with the same person for the whole day. This eliminates the need to call your programming partner every time you have a query or question to ask.
+Another good practice that follows on from this, is to leave a Teams/Zoom session open if you are working with the same person for the whole day. This eliminates the need to call your programming partner every time you have a query or question to ask.
