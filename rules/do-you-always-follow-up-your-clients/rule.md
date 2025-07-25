@@ -1,5 +1,5 @@
 ---
-seoDescription: Ensure timely communication with clients by following up on outstanding matters via email, IM/Skype, or phone calls.
+seoDescription: Ensure timely communication with clients by following up on outstanding matters via email, IM/Teams, or phone calls.
 type: rule
 archivedreason:
 title: Do you always follow up your clients?
@@ -27,7 +27,7 @@ The best ways to follow up a client are:
   - [Do you know how to hurry someone up?](/do-you-know-how-to-follow-up-an-unanswered-email)
   - [Do you always follow up your clients?](/do-you-follow-up-emails-effectively)
   - [Do you realize the importance of a good email Subject?](/do-you-realize-the-importance-of-a-good-email-subject)
-- Use IM or Skype  
+- Use IM or Teams
   See our [Rules To Better Instant Messenger](/rules-to-better-im)
 - Use the phone  
   Call them

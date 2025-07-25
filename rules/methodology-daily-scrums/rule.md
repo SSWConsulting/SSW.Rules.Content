@@ -210,7 +210,7 @@ Figure: Good example - Always include what you previously worked on and what you
 After you have sent your email, you can also make it front and center by sending them a ping on IM.
 _“Check your email for my Daily Scrum”_ or paste in the below (a lightweight version with only what to do).
 
-Use Teams or Skype to bridge gaps in geography.
+Use Teams to bridge gaps in geography.
 
 ### Focus on the Flow
 

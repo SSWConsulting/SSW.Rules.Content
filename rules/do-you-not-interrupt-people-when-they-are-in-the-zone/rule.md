@@ -1,7 +1,7 @@
 ---
 seoDescription: Mastering your focus requires respecting others' flow states when they're in the zone, as interrupting can disrupt their creative momentum and take up to 15 minutes to recover.
 type: rule
-archivedreason:
+archivedreason: Duplicate of https://www.ssw.com.au/rules/know-that-im-interrupts/
 title: Do you not interrupt people when they are in the zone?
 guid: a387b52d-27f1-49d2-8e13-bd6d8b171134
 uri: do-you-not-interrupt-people-when-they-are-in-the-zone

@@ -24,7 +24,7 @@ When users jump onto a website, they may want to find out the answer to some que
 
 <!--endintro-->
 
-All of the bot frameworks have advantages but generally the main point of differentiation is the integration with different suites of products. For example, Microsoft Bot Framework has smooth integration with Microsoft Teams and Skype. On the other hand, Google Dialog Flow works great with Google Assistant and Slack.
+All of the bot frameworks have advantages but generally the main point of differentiation is the integration with different suites of products. For example, Microsoft Bot Framework has smooth integration with Microsoft Teams. On the other hand, Google Dialog Flow works great with Google Assistant and Slack.
 
 If you are focused mostly on Microsoft products then it is a safe bet that Microsoft Bot Framework is a good choice for your organisation.
 

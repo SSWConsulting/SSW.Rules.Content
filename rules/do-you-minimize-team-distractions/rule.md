@@ -10,7 +10,6 @@ authors:
     url: https://ssw.com.au/people/andrew-lean
 related:
   - minimize-outlook-distractions
-  - minimize-skype-distractions
 redirects:
   - interruptions-do-you-minimize-microsoft-teams-distractions
 created: 2017-10-13T01:52:21.000Z

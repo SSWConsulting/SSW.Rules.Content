@@ -28,7 +28,6 @@ Voice recordings and videos shouldn't replace email entirely, but can be valuab
 - [WeChat](http://www.wechat.com/)
 - [TalkBox](http://talkboxapp.com/)
 - [iMessage](http://www.imore.com/how-send-voice-note-your-iphone-imessage-or-sms)
-- Skype
 - Snagit
 
 For videos, you should put them on youtube as unlisted videos and send the link
