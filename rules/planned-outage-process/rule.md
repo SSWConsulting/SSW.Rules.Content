@@ -42,6 +42,7 @@ Include a "[To myself](/dones-do-you-send-yourself-emails)". It gives visibility
 it easier to remember to send the 'done' email. E.g. "done - CRM is alive again".
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | SSWAll |
