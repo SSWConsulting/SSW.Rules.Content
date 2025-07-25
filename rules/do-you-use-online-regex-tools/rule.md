@@ -16,12 +16,12 @@ Regular expressions (regex) are powerful tools for pattern matching and text pro
 
 <!--endintro-->
 
-### Why Use Online Regex Tools?
+## Why use online regex tools?
 
-* **Instant Feedback**: Test your regex patterns in real-time and see immediate results.
-* **Learning Resources**: Many tools include tutorials, examples, and explanations to help you understand regex syntax.
-* **Debugging Features**: Identify issues in your regex with visual aids and detailed error messages.
-* **Cross-Platform**: These tools are accessible from any browser, making them convenient for developers on the go.
+* **Instant Feedback**: Test your regex patterns in real-time and see immediate results
+* **Learning Resources**: Many tools include tutorials, examples, and explanations to help you understand regex syntax
+* **Debugging Features**: Identify issues in your regex with visual aids and detailed error messages
+* **Cross-Platform**: These tools are accessible from any browser, making them convenient for developers on the go
 
 ```python
 import re
@@ -57,14 +57,11 @@ Valid: A1b2C3d4!
 ```
 
 ::: bad
-Figure: Writing and testing regex directly in your code without live validation.  
-
+Figure: Writing and testing regex directly in your code without live validation
 :::
 
-![RegExr](regexr-password-validation.png)
 ::: good
-Figure: Using RegExr to debug and validate your pattern before implementation.  
-
+![Figure: Using RegExr to debug and validate your pattern before implementation](regexr-password-validation.png)
 :::
 
 ### Best Online Regex Tools
@@ -79,5 +76,4 @@ Figure: Using RegExr to debug and validate your pattern before implementation.
 
 ::: info
 Avoid overcomplicating your regex patterns; use the tools to simplify and optimize them.
-
 :::
