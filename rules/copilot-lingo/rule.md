@@ -11,6 +11,8 @@ related:
   - best-ai-tools
 created: 2025-07-04T16:20:00.000Z
 guid: 37247f15-6904-450d-b784-f9e4d7856720
+redirects:
+  - do-you-know-the-right-copilot-lingo
 ---
 
 > *“I asked Copilot to pull the sales deck, but nothing happened.”*  
