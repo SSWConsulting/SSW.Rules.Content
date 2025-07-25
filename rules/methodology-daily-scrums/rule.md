@@ -79,6 +79,7 @@ At the end of the Scrum, the Scrum Master should [review the current burn down](
 | To: | {{ TEAM }} |
 | Recurrence: | Everyday |
 | Subject: | Daily Scrum – {{ PROJECT NAME }} |
+
 ::: email-content
 
 ### Hi {{ TEAM NAME }}
@@ -159,7 +160,7 @@ Sometimes, the Product Owner will want to see the Daily Scrum for many teams. Ad
 
 ::: info
 
-#### What to do when you're working for a PO directly
+### What to do when you're working for a PO directly
 
 If you don't have a team, and you're doing ad hoc work for a PO directly, it's best to contact him for the Daily Scrum every day if possible, and follow up with an email. This will keep the 2 of you synchronized.
 :::
@@ -181,6 +182,7 @@ To prevent misunderstandings or potential disagreements, send your Daily Scrum u
 | To: | Bob Northwind |
 | Cc: | {{ ANYONE YOU'RE WORKING WITH }} |
 | Subject: | {{ YOUR NAME / PROJECT NAME }} - Daily Scrum |
+
 ::: email-content
 
 ### Hi Bob

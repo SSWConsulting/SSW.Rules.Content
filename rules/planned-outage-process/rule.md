@@ -46,7 +46,8 @@ it easier to remember to send the 'done' email. E.g. "done - CRM is alive again"
 | | |
 | -------- | --- |
 | To: | SSWAll |
-| Subject: | Planned Outage | Date and time |
+| Subject: | Planned Outage \| Date and time |
+
 ::: email-content
 
 ### Hi All
@@ -70,11 +71,11 @@ Here is the summary of the outage plan:
 
 **Note:** The following servers will be affected:
 
-![](rule-outage-1.jpg)
+![VMs Affected](rule-outage-1.jpg)
 
 and
 
-![](rule-outage-2.jpg)
+![WhatsUp Gold](rule-outage-2.jpg)
 
 ### To myself
 
