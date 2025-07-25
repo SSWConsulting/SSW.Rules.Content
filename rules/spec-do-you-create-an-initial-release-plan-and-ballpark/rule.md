@@ -15,7 +15,7 @@ related: []
 redirects:
   - spec-what-are-the-specification-review-deliverables
 created: 2009-02-26T02:02:12.000Z
-archivedreason: null
+archivedreason: Moved to https://www.ssw.com.au/rules/what-is-a-spec-review/
 guid: 5a3df5f8-2b87-400c-8eeb-6a72bfcc4416
 ---
 Usually, a specification process is done with the client before beginning work on a project, just like you would never build a house without getting an architect to create a plan.
