@@ -12,25 +12,33 @@ guid: 2a88c2e4-e72d-4b6f-9346-6067c276f6c5
 
 The age of printing, signing, scanning, and sending documents manually is far behind us. You've just been emailed an important contract and are expected to sign it within the hour. The issue? You're nowhere near a printer or scanner. This is where eSignature solutions come into play. They help expedite such processes with increased efficiency and security.
 
-Let's talk about pros and cons of the main solutions.
+Let's talk about pros and cons of eSignature solutions.
 
 <!--endintro-->
+
+## When to use eSignatures
+
+* Employee contracts
+* Consultant or contractor agreements
+* Client contracts
+* Terms and conditions
+* Legal documents
+* Vendor onboarding forms
 
 ## Compare DocuSign vs Adobe Sign vs DocSend
 
 DocuSign, Adobe Sign and DocSend are leading eSignature platforms, but they have distinct features and benefits:
 
-| Features             | DocuSign                                                                 | Adobe Sign                                                                     | DocSend                                                         |
+| Features             | DocuSign (**Recommended**)                                               | Adobe Sign                                                                     | DocSend                                                         |
 | -------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | --------------------------------------------------------------- |
 | User Interface       | ✅ Great user-friendly interface                                         | ✅ Great user-friendly interface                                               | ✅ Great user-friendly interface                                |
 | Templates            | ✅ Offers customizable templates                                         | ✅ Offers customizable templates                                               | ✅ Offers customizable templates                                |
 | Integrations         | ✅ Most integrations with business software E.g. Dynamics 365            | ✅ Many integrations with business software E.g. Dynamics 365                  | ✅ Many integrations with business software E.g. Dynamics 365   |
-| Cost                 | ✅ 49 AUD per standard user per month (or 348 AUD annually when prepaid) | ✅ 32.99 AUD per standard user per month (or 224.27 AUD annually when prepaid) | ❌ 65 USD per month per user (or 540 USD annually when prepaid) |
+| Cost (AUD)           | ✅ $59 per standard user per month <br> $708 annually when prepaid       | ✅ $33 per standard user per month <br> 224.27 AUD annually when prepaid       | ❌ $65 per month per user <br> 540 USD annually when prepaid    |
 | Branding             | ✅ Included in the standard license                                      | ❌ Not included in the standard license                                        | ✅ Included in the standard license                             |
 | Analytics            | ✅ Powerful reporting and analytics                                      | ✅ Powerful reporting and analytics                                            | ✅ Powerful reporting and analytics                             |
 | Document Editing     | ✅ Allows users to make minor edits to the document before signing       | ✅ Allows users to make minor edits to the document before signing             | ❌ Users cannot make minor edits to the document before signing |
 | Cloud Storage        | ✅ Integrations with Google Drive, Dropbox and more                      | ✅ Integrations with Google Drive, Dropbox and Adobe Cloud                     | ✅ Integrations with Google Drive, Dropbox and more             |
-| Authentication       | ✅ Two-step verification enabled                                         | ✅ Two-step verification enabled                                               | ✅ Two-step verification enabled                                |
 | Granular permissions | ✅ Per user visibility of documents                                      | ✅ Per user visibility of documents                                            | ❌ Not included in the standard licence                         |
 
 ::: greybox
@@ -39,6 +47,9 @@ _Northwind Pty Ltd wanted to integrate an eSignature solution into their workflo
 ::: good
 Figure: Good example – It’s essential to choose an eSignature solution that aligns with your business needs.
 :::
+
+If you don’t have access to a paid eSignature tool, a more cost-effective workaround is to print the document to PDF, sign it digitally, and return it via email.
+While this approach doesn’t offer tracking or automation like DocuSign, it's still far more efficient than printing, signing by hand, and scanning.
 
 ## Benefits of eSignature Solutions
 
@@ -58,7 +69,7 @@ When implementing an eSignature solution:
 1. **Choose the right platform** - Based on your business needs, select between solutions like DocuSign or Adobe Sign
 2. **Identify Use Cases** - Determine all the instances and departments within your organization where eSignature solutions can be used. This can range from HR and legal to sales and external communications
 3. **Determine User Needs** - Estimate how many users will need access to the eSignature platform (E.g. in a company of 100 people, you might only need 2 users)
-4. **Cost Estimation** - Once you've determined the number of users, assess the cost implications (E.g. 2 users are around AUD 700 per annum)
+4. **Cost Estimation** - Once you've determined the number of users, assess the cost implications (E.g. 2 users are around $700 per annum)
 5. **Setup** - Follow the step-by-step guidelines provided by the chosen platform. Consider registering the license on a shared email account (E.g. `Projects@Northwind.com` or `Accounts@Northwind.com`)\
    **Note:** Do not share sensitive documents on a shared email account without ensuring data confidentiality
 6. **Integration** - Integrate the solution with your existing software and tools for seamless operation (E.g. Microsoft Teams and Dynamics 365)
