@@ -11,6 +11,7 @@ authors:
       url: https://ssw.com.au/people/matt-parker
 related: []
 redirects:
+    - use-blazor
     
 ---
 
