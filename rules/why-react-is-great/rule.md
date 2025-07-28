@@ -15,7 +15,7 @@ redirects:
   - use-react
 ---
 
-There are so many open-source platforms for making the front-end web application development easier, some people like Angular, some people like React. 
+There are so many open-source platforms for making the front-end web application development easier, some people like Angular, some people like React.
 
 <!--endintro-->
 
@@ -51,5 +51,5 @@ Developer toolset is another important factor when you are choosing a developmen
 
 ### References
 
-- [React - A JavaScript library for building user interfaces](https://reactjs.org/)
-- [What Is ReactJS and Why Should We Use It?](https://www.c-sharpcorner.com/article/what-and-why-reactjs/)
+* [React - A JavaScript library for building user interfaces](https://reactjs.org/)
+* [What Is ReactJS and Why Should We Use It?](https://www.c-sharpcorner.com/article/what-and-why-reactjs/)

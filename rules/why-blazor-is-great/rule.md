@@ -15,7 +15,7 @@ redirects:
     
 ---
 
-There are numerous frameworks available for front-end web development, with different developers preferring different tools. Some people like Angular, some like React, and some prefer Blazor. 
+There are numerous frameworks available for front-end web development, with different developers preferring different tools. Some people like Angular, some like React, and some prefer Blazor.
 
 <!--endintro-->
 
