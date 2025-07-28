@@ -58,6 +58,7 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
 
 ::: good
 ![Figure: Good example - Split Chart - the fixable 500 responses can be seen in purple](good-example-split-chart.png)
+:::
 
 ::: bad
 ![Figure: Bad example - Default Table - 5 out of top 8 failed requests are irrelevant or spam](bad-example-table.png)
