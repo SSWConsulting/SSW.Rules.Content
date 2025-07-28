@@ -22,11 +22,11 @@ Without a structured process to capture what happened, identify the root causes,
 
 As soon as possible, assign someone to record the key details:
 
-- When was the issue first noticed?
-- What symptoms were observed? (e.g. errors, downtime)
-- Who responded, and when?
-- What actions were taken?
-- When and how was the incident resolved?
+* When was the issue first noticed?
+* What symptoms were observed? (e.g. errors, downtime)
+* Who responded, and when?
+* What actions were taken?
+* When and how was the incident resolved?
 
 Capture these in a central place - if your monitoring system creates PBIs automatically, use comments in the ticket to log the incident timeline and key facts.
 
@@ -34,8 +34,8 @@ Capture these in a central place - if your monitoring system creates PBIs automa
 
 Hold a **blameless** post-incident review with everyone involved. Use structured techniques like:
 
-- [5 Whys](https://en.wikipedia.org/wiki/Five_whys)
-- [Fishbone diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram)
+* [5 Whys](https://en.wikipedia.org/wiki/Five_whys)
+* [Fishbone diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram)
 
 ::: info
 **Tip:** Don't stop at technical causes - also consider process gaps, unclear responsibilities, or communication failures.
@@ -45,8 +45,8 @@ Hold a **blameless** post-incident review with everyone involved. Use structured
 
 For each contributing factor, define clear and actionable recommendations:
 
-- Describe the fix or change needed
-- Link to related PRs, logs, or tasks
+* Describe the fix or change needed
+* Link to related PRs, logs, or tasks
 
 Each recommendation must have a dedicated PBI. The Product Owner is responsible for ensuring these PBIs are estimated, prioritised, and scheduled. Teams should review them during Sprint Planning or Backlog Refinement.
 
