@@ -67,7 +67,7 @@ Blazor allows you to build interactive web UIs using C# instead of JavaScript. I
 
 For more information, see our rule:
 
-- [Do you know why Blazor is great?](/why-react-is-great)
+- [Do you know why Blazor is great?](/why-blazor-is-great)
 
 ### Angular
 
