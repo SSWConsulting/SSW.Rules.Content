@@ -33,7 +33,6 @@ Although most of these don't do anything on desktop, on mobile devices they brin
 ![Figure: Bad example – This field is using a "text" type and shows a standard keyboard on mobile](field-type-text.png)
 :::
 
-
 ```html
 <label for="phone">Phone</label>:
 <input type="tel" name="phone" />
