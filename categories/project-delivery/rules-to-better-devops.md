@@ -10,6 +10,7 @@ index:
 - what-metrics-to-collect-stage-3
 - continually-improve-processes
 - do-you-evaluate-the-processes
+- record-incidents-and-perform-root-cause-analysis-with-clear-actions
 - override-branch-protection
 - do-you-know-how-devops-fits-in-with-scrum
 - do-you-have-a-devops-checklist
