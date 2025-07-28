@@ -51,15 +51,15 @@ Application Insights makes it easy to check the health of your app and its infra
 
 A custom [Application Insights dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#create-custom-kpi-dashboards-using-application-insights) makes monitoring your application much easier. The KPIs that you would typically monitor for each component of your application are:
 
-- How many requests each component is receiving.
-- How long requests are taking.
-- How many exceptions and dependency failures are being experienced by the app.
-- [How many requests are failing.](/clean-failed-requests)
+* How many requests each component is receiving.
+* How long requests are taking.
+* How many exceptions and dependency failures are being experienced by the app.
+* [How many requests are failing.](/clean-failed-requests)
 
 When designing your custom dashboard:
 
-- Size charts based on their importance.
-- Lay charts out so that it is easy to compare points in time between charts.
-- Ensure that metrics with different scales are not on the same chart. For instance, the average server response time may vary between 250 and 500 milliseconds, but that variance may not be easily visible if the maximum server response time is plotted as taking 40 seconds on the same chart.
+* Size charts based on their importance.
+* Lay charts out so that it is easy to compare points in time between charts.
+* Ensure that metrics with different scales are not on the same chart. For instance, the average server response time may vary between 250 and 500 milliseconds, but that variance may not be easily visible if the maximum server response time is plotted as taking 40 seconds on the same chart.
 
 ![Good example - Custom dashboard demonstrating the above points](good-example-custom-dashboard.png)
