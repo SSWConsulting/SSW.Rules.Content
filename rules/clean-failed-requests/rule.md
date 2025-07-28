@@ -44,12 +44,20 @@ When cleaning up Failed Requests, it is important to identify the patterns betwe
 If that is the case, continue to other requests. As the logs become cleaner, it will get easier to understand the problems with the left-over requests.
 :::
 
+::: info
+**Tip:** Splitting the chart based on response codes may make patterns clearer. For instance, 500 responses will almost always be fixable bugs worth investigating.
+:::
+
 ::: bad
 ![Figure: Bad example - Default Chart - at least half of requests are irrelevant or spam](bad-example-chart.png)
 :::
 
 ::: good
 ![Figure: Good example - Custom Chart - most of these are real issues](good-example-chart.png)
+:::
+
+::: good
+![Figure: Good example - Split Chart - the fixable 500 responses can be seen in purple](good-example-split-chart.png)
 :::
 
 ::: bad
