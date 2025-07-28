@@ -45,9 +45,9 @@ The dashboard should contain:
 4. The current Sprint backlog
 5. Show the current build status
 6. Show links to:
-   - Staging environment
-   - Production environment
-   - Any other external service used by the project e.g. Octopus Deploy, Application Insights, RayGun, Elmah, Slack
+   * Staging environment
+   * Production environment
+   * Any other external service used by the project e.g. Octopus Deploy, Application Insights, RayGun, Elmah, Slack
 
 Your solution should also contain the standard [\_Instructions.docx](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) file for additional details on getting the project up and running in Visual Studio.
 
