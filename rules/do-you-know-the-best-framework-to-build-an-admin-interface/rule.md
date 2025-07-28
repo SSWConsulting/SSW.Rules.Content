@@ -57,7 +57,7 @@ For more information, see our rules:
 
 ::: greybox
 **💡 Tip:**
-Next.js is particularly popular these days as it offers the best experience for prototyping (feature-rich, flexible, zero-config deployment with Vercel), while being perfectly capable of covering most production-grade apps with great performances. 
+Next.js is particularly popular these days as it offers the best experience for prototyping (feature-rich, flexible, zero-config deployment with Vercel), while being perfectly capable of covering most production-grade apps with great performance. 
 :::
 
 ### Blazor
