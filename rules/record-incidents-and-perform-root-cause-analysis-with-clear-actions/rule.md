@@ -8,7 +8,7 @@ created: 2025-07-28T01:51:00.0000000Z
 authors:
   - title: Nick Curran
     url: https://ssw.com.au/people/nick-curran
-relatedRules:
+related:
   - continually-improve-processes
 ---
 
