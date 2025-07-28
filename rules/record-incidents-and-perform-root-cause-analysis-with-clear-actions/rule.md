@@ -1,3 +1,17 @@
+---
+type: rule
+title: Do you record incidents and perform root cause analysis with clear actions?
+seoDescription: Ensure every high-impact incident is recorded, analysed for root cause, and followed by clear, actionable recommendations to prevent recurrence.
+guid: 1f396318-534d-4a65-9559-7511edee75c1
+uri: record-incidents-and-perform-root-cause-analysis-with-clear-actions
+created: 2025-07-28T01:51:00.0000000Z
+authors:
+  - title: Nick Curran
+    url: https://ssw.com.au/people/nick-curran
+relatedRules:
+  - continually-improve-processes
+---
+
 # Do you record incidents and perform root cause analysis with clear actions?
 
 When high-impact incidents occur - such as website outages, data loss, or critical bugs in production - fixing the immediate issue isn't enough.
