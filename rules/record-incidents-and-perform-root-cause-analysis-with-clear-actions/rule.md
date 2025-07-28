@@ -12,8 +12,6 @@ relatedRules:
   - continually-improve-processes
 ---
 
-# Do you record incidents and perform root cause analysis with clear actions?
-
 When high-impact incidents occur - such as website outages, data loss, or critical bugs in production - fixing the immediate issue isn't enough.
 
 Without a structured process to capture what happened, identify the root causes, and implement improvements, the same problems can happen again. This rule defines a simple post-incident process to help teams learn from failure, prevent repeat issues, and improve software and business processes.
