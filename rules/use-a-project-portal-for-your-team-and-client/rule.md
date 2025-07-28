@@ -24,7 +24,7 @@ When a new developer joins a project, there is often a sea of information that t
 Make it easy for the new developer by putting all this information in a central location like the Visual Studio dashboard.
 
 ::: info
-**Note:** As of October 2021, this feature is missing in GitHub Projects.
+**Note:** As of July 2025, this feature is missing in GitHub Projects.
 :::
 
 ![](plaindashboard.png)
