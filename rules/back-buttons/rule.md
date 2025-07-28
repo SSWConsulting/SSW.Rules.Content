@@ -26,11 +26,11 @@ A "Back" button gives users confidence that they can safely navigate through the
 
 <!--endintro-->
 
-::: good
+::: good img-medium
 ![Figure: Good example Back button is clearly visible](back-button-bad.png)
 :::
 
-::: bad
+::: bad img-medium
 ![Figure: Bad example - User hits "Next" and can't go back to change their answer](back-button-good.png)
 :::
 
