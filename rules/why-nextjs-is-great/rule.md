@@ -16,7 +16,7 @@ redirects:
 created: 2023-03-03T06:35:51.965Z
 guid: bb878e77-248d-428e-9681-cdb722a0e4c1
 ---
-React is a powerful JavaScript library for building user interfaces. However, it doesn't provide built-in support for server-side rendering (SSR). This lack of SSR can lead to slow website load times and poor search engine optimization (SEO). 
+React is a powerful JavaScript library for building user interfaces. However, it doesn't provide built-in support for server-side rendering (SSR). This lack of SSR can lead to slow website load times and poor search engine optimization (SEO).
 
 That's where [Next.js](https://nextjs.org) comes in. Next.js is a framework built on top of React that provides several features and benefits for building high-performance websites.
 
