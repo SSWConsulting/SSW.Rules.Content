@@ -53,10 +53,10 @@ While this approach doesn’t offer tracking or automation like DocuSign, it's s
 
 ## Benefits of eSignature Solutions
 
-- **Speed** - Eliminates the delay caused by printing, signing manually, and scanning
-- **Efficiency** - Streamlines processes and reduces the need for physical paperwork
-- **Security** - Ensures encrypted digital signatures, making it more secure than physical signatures
-- **Accessibility** - Sign documents from anywhere at any time using any device
+* **Speed** - Eliminates the delay caused by printing, signing manually, and scanning
+* **Efficiency** - Streamlines processes and reduces the need for physical paperwork
+* **Security** - Ensures encrypted digital signatures, making it more secure than physical signatures
+* **Accessibility** - Sign documents from anywhere at any time using any device
 
 ![❌ Figure: Bad example - Handwritten signatures cause delays and inefficiencies](how-to-digitize-your-signature-so-youre-ready-for-online-document-signing.jpg)
 
