@@ -58,9 +58,13 @@ While this approach doesn’t offer tracking or automation like DocuSign, it's s
 * **Security** - Ensures encrypted digital signatures, making it more secure than physical signatures
 * **Accessibility** - Sign documents from anywhere at any time using any device
 
-![❌ Figure: Bad example - Handwritten signatures cause delays and inefficiencies](how-to-digitize-your-signature-so-youre-ready-for-online-document-signing.jpg)
+::: bad
+![Figure: Bad example - Handwritten signatures cause delays and inefficiencies](how-to-digitize-your-signature-so-youre-ready-for-online-document-signing.jpg)
+:::
 
-![✅ Figure: Good example - eSignatures are efficient and easy](signature_gump.png.img.png)
+::: good
+![Figure: Good example - eSignatures are efficient and easy](signature_gump.png.img.png)
+:::
 
 ## Implementation Process
 
