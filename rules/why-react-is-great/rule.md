@@ -12,6 +12,7 @@ authors:
 related: []
 redirects:
   - do-you-know-why-react-is-great
+  - use-react
 ---
 
 There are so many open-source platforms for making the front-end web application development easier, some people like Angular, some people like React. 
