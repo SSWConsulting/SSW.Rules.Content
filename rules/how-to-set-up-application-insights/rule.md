@@ -45,7 +45,7 @@ Now that you've added Application Insights, what can you do with it?
 
 ### Add Health Checks
 
-Application Insights makes it easy to check the health of your app and its infrastructure - see [Do you Health Check your infrastructure?](/infrastructure-health-checks).
+Application Insights makes it easy to check the health of your app and its infrastructure - see [Do you Health Check your infrastructure?](/infrastructure-health-checks)
 
 ### Create a custom dashboard
 
