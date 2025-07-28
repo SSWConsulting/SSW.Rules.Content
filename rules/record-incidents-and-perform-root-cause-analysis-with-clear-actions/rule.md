@@ -14,9 +14,7 @@ As soon as possible, assign someone to record the key details:
 - What actions were taken?
 - When and how was the incident resolved?
 
-Capture these in a central place, such as a Confluence page, GitHub issue, or incident tool like PagerDuty. Use a clear and timestamped title (e.g. '2025-07-28 Website Outage - HTTP 500 Errors').
-
-If your monitoring system creates PBIs automatically, use comments in the ticket to log the incident timeline and key facts.
+Capture these in a central place - if your monitoring system creates PBIs automatically, use comments in the ticket to log the incident timeline and key facts.
 
 ## Analyse the root cause
 
@@ -25,7 +23,7 @@ Hold a **blameless** post-incident review with everyone involved. Use structured
 - [5 Whys](https://en.wikipedia.org/wiki/Five_whys)
 - [Fishbone diagram](https://en.wikipedia.org/wiki/Ishikawa_diagram)
 
-:::info
+::: info
 **Tip:** Don't stop at technical causes - also consider process gaps, unclear responsibilities, or communication failures.
 :::
 
