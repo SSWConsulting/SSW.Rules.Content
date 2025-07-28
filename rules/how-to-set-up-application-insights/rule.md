@@ -59,6 +59,7 @@ A custom [Application Insights dashboard](https://learn.microsoft.com/en-us/azur
 When designing your custom dashboard:
 
 - Size charts based on their importance.
+- Lay charts out so that it is easy to compare points in time between charts.
 - Ensure that metrics with different scales are not on the same chart. For instance, the average server response time may vary between 250 and 500 milliseconds, but that variance may not be easily visible if the maximum server response time is plotted as taking 40 seconds on the same chart.
 
-![Good example - Custom dashboard](good-example-custom-dashboard.png)
+![Good example - Custom dashboard demonstrating the above points](good-example-custom-dashboard.png)
