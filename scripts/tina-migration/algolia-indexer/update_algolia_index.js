@@ -10,7 +10,7 @@ config();
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const ROOT_DIR = path.resolve(__dirname, '../../../rules');
+const ROOT_DIR = path.resolve(__dirname, '../../../public/uploads/rules');
 
 const APP_ID = process.env.NEXT_PUBLIC_ALGOLIA_APP_ID;
 const ADMIN_KEY = process.env.NEXT_PUBLIC_ALGOLIA_ADMIN_KEY;
@@ -35,7 +35,6 @@ const currentObjects = files.map(fp => {
     objectID: slug,
     slug,
     ...frontmatter,
-    content
   };
 });
 const currentObjectIDs = new Set(currentObjects.map(obj => obj.objectID));
