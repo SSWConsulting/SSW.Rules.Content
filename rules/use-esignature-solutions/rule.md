@@ -30,24 +30,24 @@ Let's talk about pros and cons of eSignature solutions.
 DocuSign, Adobe Sign and DocSend are leading eSignature platforms, but they have distinct features and benefits:
 
 | Features             | DocuSign (**Recommended**)                                               | Adobe Sign                                                                     | DocSend                                                         |
-| -------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ | --------------------------------------------------------------- |
+| -------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------- |
 | User Interface       | ✅ Great user-friendly interface                                         | ✅ Great user-friendly interface                                               | ✅ Great user-friendly interface                                |
-| Templates            | ✅ Offers customizable templates                                         | ✅ Offers customizable templates                                               | ✅ Offers customizable templates                                |
-| Integrations         | ✅ Most integrations with business software E.g. Dynamics 365            | ✅ Many integrations with business software E.g. Dynamics 365                  | ✅ Many integrations with business software E.g. Dynamics 365   |
-| Cost (AUD)           | ✅ $59 per standard user per month <br> $708 annually when prepaid       | ✅ $33 per standard user per month <br> 224.27 AUD annually when prepaid       | ❌ $65 per month per user <br> 540 USD annually when prepaid    |
+| Template Support     | ✅ Custom templates for repeat docs                                      | ✅ Can save editable templates                                                 | ❌ No reusable templates                                        |
+| Integrations         | ✅ Most integrations with business software E.g. Dynamics 365            | ✅ Many integrations with business software E.g. Dynamics 365                  | ✅ Many integrations with business software E.g. Dynamics 365 |
+| Cost (AUD)           | ❌ $63 per standard user per month <br> $444 annually when prepaid       | ✅ $24 per standard user per month <br> $288 annually when prepaid             | ❌ $100 per standard user per month <br> $828 annually when prepaid |
 | Branding             | ✅ Included in the standard license                                      | ❌ Not included in the standard license                                        | ✅ Included in the standard license                             |
-| Analytics            | ✅ Powerful reporting and analytics                                      | ✅ Powerful reporting and analytics                                            | ✅ Powerful reporting and analytics                             |
-| Document Editing     | ✅ Allows users to make minor edits to the document before signing       | ✅ Allows users to make minor edits to the document before signing             | ❌ Users cannot make minor edits to the document before signing |
-| Cloud Storage        | ✅ Integrations with Google Drive, Dropbox and more                      | ✅ Integrations with Google Drive, Dropbox and Adobe Cloud                     | ✅ Integrations with Google Drive, Dropbox and more             |
+| PDF Editing          | ❌ Cannot edit uploaded PDFs but supports template fields                | ✅ Full PDF editing included                                                   | ❌ No PDF editing on platform                                   |
+| Real-Time Collaboration | ❌ Not included in Standard                                           | ❌ Not included in Standard                                                    | ✅ Commenting and markup tools                                  |
+| Automated Signing Workflows | ✅ Yes – supports basic workflows (e.g. sequential signing and reminders) | ❌ No – no automated workflows, only manual processes                  | ❌ No – manual sharing and tracking only                        |
 | Granular permissions | ✅ Per user visibility of documents                                      | ✅ Per user visibility of documents                                            | ❌ Not included in the standard licence                         |
 
 ::: greybox
-_Northwind Pty Ltd wanted to integrate an eSignature solution into their workflow. After comparing features, they opted for DocuSign because of its broader integrations with their existing business software._
+_Northwind Pty Ltd wanted to integrate an eSignature solution into their workflow. After comparing features, they chose DocuSign for its broader integrations with their existing business software and robust workflow support._
 :::
 ::: good
 Figure: Good example – It’s essential to choose an eSignature solution that aligns with your business needs.
 :::
-
+  
 If you don’t have access to a paid eSignature tool, a more cost-effective workaround is to print the document to PDF, sign it digitally, and return it via email.
 While this approach doesn’t offer tracking or automation like DocuSign, it's still far more efficient than printing, signing by hand, and scanning.
 
