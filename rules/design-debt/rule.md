@@ -64,29 +64,25 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 ## How to prevent design debt
 
-### 1. Before you code
+1. **Before you code**, ask yourself:  
+   **Will users see this change?**
 
-First check if what you want to change is already in the design system. If yes, you just need to follow it. If not, then ask yourself:
+   - If **no** → You can proceed without design input.
+   - If **yes** → Go to Step 2.
 
-* Will users see this change?
-* Does it affect layout, spacing, interaction, or visuals?
+2. **Is this UI component or pattern already in the [design system](https://www.ssw.com.au/rules/design-system/)?**  
+   
+   - If **yes** → Great! Use the existing pattern. You’re done — go ahead and code.
+   - If **no** → This is a new or modified UI — proceed to Step 3.
 
-If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI.
+3. **How large is the visual or UX impact?**
 
-### 2. Track it properly
+   - If **large change** (e.g. new modal, major layout, navigation shift) →  
+     **Create a PBI for a designer to action in the future.**  
+     <mark>Tip: Tag the PBI as `needs-design` or `minor-UI` depending on impact.</mark>
 
-Even small tweaks need visibility:
-
-* Create a PBI for every UI change
-* Tag it "needs-design" or "minor-UI" depending on the impact
-* Let the PO and designer review and prioritize
-
-### 3. Use the design system
-
-Design systems are like component libraries — but for UI.
-
-* If the component exists, use it
-* If it doesn’t, ask if a new pattern is needed
+   - If **small change** (e.g. padding, color tweak, icon alignment) →  
+     **You can get a test pass from someone on the Design Masters list.**
 
 ## Example –  Let's just pick a pretty colour
 
