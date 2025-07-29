@@ -1,7 +1,7 @@
 ---
 seoDescription: Microsoft Visual Basic library simplifies VB.NET programming by mapping common syntax to .NET framework equivalents.
 type: rule
-archivedreason:
+archivedreason: Obsolete - Microsoft.VisualBasic.dll is largely deprecated in modern .NET versions (e.g., .NET 5 and later). Developers are encouraged to use standard .NET libraries for better compatibility and maintainability.
 title: Do you use Microsoft.VisualBasic.dll for Visual Basic.NET projects?
 guid: b4257bbf-0e0b-471c-b0ba-6497fe1f25af
 uri: do-you-use-microsoft-visualbasic-dll-for-visual-basic-net-projects
