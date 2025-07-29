@@ -16,7 +16,6 @@ related:
   - less-is-more
   - request-a-test-please
   - technical-debt
-  - underlined-links
 archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
@@ -62,7 +61,7 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 ## How to prevent design debt
 
-**Before you code**, ask yourself: 
+**Before you code**, ask yourself:
 
 1. **Will users see this change?**
 
@@ -76,8 +75,8 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 3. **How large is the visual or UX impact?**
 
-   * **Large changes** (e.g. new modal, major layout, navigation shift) → **Create a PBI for a designer to action in the future**    
-     
+   * **Large changes** (e.g. new modal, major layout, navigation shift) → **Create a PBI for a designer to action in the future**
+
      **Tip:** Tag the PBI as `needs-design` or `minor-UI` depending on impact.
 
    * **Small changes** (e.g. padding, color tweak, icon alignment) → **You can get a test pass from someone on the Design Masters list**
@@ -89,15 +88,19 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 * Loop in design early on bigger stuff (e.g. layout or feature changes)
 * After merge, let design know if you created something reusable
   
-## Example –  Picking a pretty colour
+### Example –  Picking a pretty colour
 
-::: bad
-![Figure: Bad example – A light green background is used for the "open" badge. This color doesn’t appear elsewhere in the design and causes low contrast, which affects accessibility. See [Do you use enough color contrast?](/color-contrast)](design-debt-bad.png)
+::: bad img-medium
+![Figure: Bad example – The "Open" badge uses a light green background that is not part of the design system. This results in low contrast, negatively impacting accessibility](design-debt-bad.png)
 :::
 
-::: good
-![Figure: Good example – This issue was flagged with a designer. They used an accessible color and updated the design system to include the missing design component](design-debt-good.png)
+More info on [Do you use enough color contrast?](/color-contrast)
+
+::: good img-medium
+![Figure: Good example – The issue was flagged with a designer, who resolved it by using an accessible color and updating the design system to include the missing component](design-debt-good.png)
 :::
+
+More info on [Do you have a Design System?](/design-system)
 
 ## Treat design like code
 
