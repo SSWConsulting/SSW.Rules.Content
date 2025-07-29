@@ -6,7 +6,8 @@ seoDescription: Prevent missing emails from Outlook Groups by ensuring you're
   following the group in your inbox.
 uri: follow-outlook-group-in-inbox
 authors:
-  - title: ""
+  - title: Matt Wicks
+    url: https://www.ssw.com.au/people/matt-wicks
 guid: 3c658529-fcd3-4f0d-b1cd-802f7a3dfcfc
 ---
 If you’ve ever missed important emails from an Outlook Group, despite being a member, it’s likely you weren’t following the group in your inbox. This can be especially confusing when those messages don’t show up in search results or your inbox, even though you technically "have access."
