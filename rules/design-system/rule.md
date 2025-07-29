@@ -1,7 +1,7 @@
 ---
 type: rule
 tips: ""
-title: Do you have a Design System?
+title: Do you have a design system?
 seoDescription: Tame visual inconsistencies and streamline team collaboration by building a design system that aligns your product, design, and engineering teams.
 uri: design-system
 authors:
