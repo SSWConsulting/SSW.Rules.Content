@@ -18,7 +18,7 @@ When there are key words that you want people to notice, you can add a spot of c
 
 <!--endintro-->
 
-You should make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message. 
+You should make parts of the text different colors just like you’d highlight or boldface parts of a sentence. The duo colored text will help emphasize your message.
 
 ::: info
 Use colors from your branding/[design system](/design-system) when you do this.
