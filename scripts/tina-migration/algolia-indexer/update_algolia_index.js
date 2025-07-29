@@ -35,7 +35,6 @@ const currentObjects = files.map(fp => {
     objectID: slug,
     slug,
     ...frontmatter,
-    content
   };
 });
 const currentObjectIDs = new Set(currentObjects.map(obj => obj.objectID));
