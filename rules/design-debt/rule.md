@@ -67,21 +67,21 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 1. **Before you code**, ask yourself:  
    **Will users see this change?**
 
-   - If **no** → You can proceed without design input.
-   - If **yes** → Go to Step 2.
+   * If **no** → You can proceed without design input.
+   * If **yes** → Go to Step 2.
 
 2. **Is this UI component or pattern already in the [design system](https://www.ssw.com.au/rules/design-system/)?**  
-   
-   - If **yes** → Great! Use the existing pattern. You’re done — go ahead and code.
-   - If **no** → This is a new or modified UI — proceed to Step 3.
+
+   * If **yes** → Great! Use the existing pattern. You’re done — go ahead and code.
+   * If **no** → This is a new or modified UI — proceed to Step 3.
 
 3. **How large is the visual or UX impact?**
 
-   - If **large change** (e.g. new modal, major layout, navigation shift) →  
+   * If **large change** (e.g. new modal, major layout, navigation shift) →  
      **Create a PBI for a designer to action in the future.**  
      <mark>Tip: Tag the PBI as `needs-design` or `minor-UI` depending on impact.</mark>
 
-   - If **small change** (e.g. padding, color tweak, icon alignment) →  
+   * If **small change** (e.g. padding, color tweak, icon alignment) →  
      **You can get a test pass from someone on the Design Masters list.**
 
 ## Example –  Let's just pick a pretty colour
