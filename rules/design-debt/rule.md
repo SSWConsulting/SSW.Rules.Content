@@ -62,7 +62,7 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 ## How to prevent design debt
 
-**Before you code**, ask yourself: 
+**Before you code**, ask yourself:
 
 1. **Will users see this change?**
 
@@ -76,8 +76,8 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 3. **How large is the visual or UX impact?**
 
-   * **Large changes** (e.g. new modal, major layout, navigation shift) → **Create a PBI for a designer to action in the future**    
-     
+   * **Large changes** (e.g. new modal, major layout, navigation shift) → **Create a PBI for a designer to action in the future**
+
      **Tip:** Tag the PBI as `needs-design` or `minor-UI` depending on impact.
 
    * **Small changes** (e.g. padding, color tweak, icon alignment) → **You can get a test pass from someone on the Design Masters list**
