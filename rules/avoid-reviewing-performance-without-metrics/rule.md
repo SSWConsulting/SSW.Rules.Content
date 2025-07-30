@@ -20,6 +20,7 @@ redirects:
 ---
 
 In every successful team or project, it is crucial to track meaningful progress rather than relying solely on gut feelings. Clear metrics transform vague opinions into data-driven insights. This approach leads to better decisions, more objective performance reviews, and continuous improvement over time.
+
 When a client raises concerns about performance, it is important not to immediately dive into the code to make blind fixes. Instead of guessing what might help, we should approach the issue methodically by starting with clear benchmarks, profiling, and data-driven decisions.
 
 <!--endintro-->
@@ -50,13 +51,13 @@ Also, never forget to do incremental changes in your tests!
 For example, if you are trying to measure the optimal number of processors for a server, do not go from 1 processor to 4 processors at once:
 
 ::: bad  
-![Figure: Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.png)  
+![Figure: Bad example - Going from 1 to 4 all at once gives you incomplete measurements and data](1to4.jpg)  
 :::
 
 Do it incrementally, adding 1 processor each time, measuring the results, and then adding more:
 
 ::: good  
-![Figure: Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...](1234.png)  
+![Figure: Good example - Going from 1 to 2, then measuring, then incrementally adding one more, measuring...](1234.jpg)  
 :::
 
 This gives you the most complete set of data to work from.
