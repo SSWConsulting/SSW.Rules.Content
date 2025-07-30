@@ -71,7 +71,7 @@ URL_REGEX = re.compile(
 def categorize_content(file_path: str, url: str, context: str) -> str:
     """Choose best category by scoring context and URL."""
     text_lower = f"{url} {file_path} {context[:2000]}".lower()
-    scores = {cat: sum(rx.findall(text_lower).__len__() for rx in rx_list)
+    scores = {cat: sum(len(rx.findall(text_lower)) for rx in rx_list)
               for cat, rx_list in COMPILED_CATEGORIES.items()}
     best = max(scores, key=scores.get)
     if scores[best] > 0:
