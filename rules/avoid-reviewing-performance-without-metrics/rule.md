@@ -19,7 +19,8 @@ redirects:
   - do-you-avoid-reviewing-performance-without-metrics
 ---
 
-When a client complains about performance, it’s important not to jump straight into the code and make blind fixes. Instead of guessing what might help, we need to approach it methodically—starting with clear benchmarks, profiling, and data-driven decisions.
+In every successful team or project, it is crucial to track meaningful progress rather than relying solely on gut feelings. Clear metrics transform vague opinions into data-driven insights. This approach leads to better decisions, more objective performance reviews, and continuous improvement over time.
+When a client raises concerns about performance, it is important not to immediately dive into the code to make blind fixes. Instead of guessing what might help, we should approach the issue methodically by starting with clear benchmarks, profiling, and data-driven decisions.
 
 <!--endintro-->
 
@@ -41,7 +42,7 @@ A better way is:
 * Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
 
 ::: good  
-![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](Code-Auditor-performance.jpg)  
+![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](code-auditor-performance-score.png)  
 :::
 
 Also, never forget to do incremental changes in your tests!
