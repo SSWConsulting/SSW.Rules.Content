@@ -43,7 +43,7 @@ A better way is:
 * Reply with metrics. E.g. _"It was 22 seconds, you asked for around 10 seconds. It is now 8 seconds."_
 
 ::: good  
-![Figure: Good example – Add some code to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](code-auditor-performance-score.png)  
+![Figure: Good example – Use metrics to check the timing, before fixing any performance issues (An example from SSW CodeAuditor)](code-auditor-performance-score.png)  
 :::
 
 Also, never forget to do incremental changes in your tests!
