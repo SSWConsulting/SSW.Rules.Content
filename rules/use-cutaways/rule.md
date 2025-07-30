@@ -1,4 +1,5 @@
 ---
+seoDescription: Cutaways improve video engagement by breaking up monotony and enhancing understanding of complex topics.
 type: rule
 title: Post-Production - Do you use Cutaways?
 uri: use-cutaways

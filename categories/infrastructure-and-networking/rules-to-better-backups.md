@@ -12,9 +12,8 @@ index:
 - email-do-you-use-the-best-backup-solution
 - pc-do-you-organize-your-hard-disk
 - know-the-right-notification-for-backups
-- structure-and-back-up-your-files
+- organize-and-back-up-your-files
 - have-your-files-available-offline
-
 ---
 
 Need help with Backup and Disaster Recovery Plan? Check [SSW's Backups consulting page](https://www.ssw.com.au/consulting/backup-recovery).

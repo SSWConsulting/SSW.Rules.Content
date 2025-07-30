@@ -1,22 +1,22 @@
 ---
+seoDescription: Avoid directly modifying the DOM from your components to maintain clean code, faster performance, and easier testing.
 type: rule
-archivedreason: 
+archivedreason:
 title: Practices - Do you avoid directly modifying the DOM from your components?
 guid: 5537a14f-cc51-48fe-828c-b8abc240070f
 uri: avoid-the-dom-in-your-components
 created: 2016-04-22T22:18:30.0000000Z
 authors:
-- title: Steve Leigh
-  url: https://ssw.com.au/people/steve-leigh
-- title: Gabriel George
-  url: https://ssw.com.au/people/gabriel-george
+  - title: Steve Leigh
+    url: https://ssw.com.au/people/steve-leigh
+  - title: Gabriel George
+    url: https://ssw.com.au/people/gabriel-george
 related: []
 redirects:
-- practices-do-you-avoid-directly-modifying-the-dom-from-your-components
-
+  - practices-do-you-avoid-directly-modifying-the-dom-from-your-components
 ---
 
-Using DOM is fine, but manipulating DOM directly in your component is not. With the introduction of Angular, there has been a big push in ensuring the DOM stays out of your JavaScript code.  It is designed in such a way that an existing Angular application can be ported to another target by simply replacing the template and template loader.  Projects such as [Angular React Native Renderer](https://angular.github.io/react-native-renderer/) leverages this to allow native mobile app development in Angular.
+Using DOM is fine, but manipulating DOM directly in your component is not. With the introduction of Angular, there has been a big push in ensuring the DOM stays out of your JavaScript code. It is designed in such a way that an existing Angular application can be ported to another target by simply replacing the template and template loader. Projects such as [Angular React Native Renderer](https://angular.github.io/react-native-renderer/) leverages this to allow native mobile app development in Angular.
 
 <!--endintro-->
 

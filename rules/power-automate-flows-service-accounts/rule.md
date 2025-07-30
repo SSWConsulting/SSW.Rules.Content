@@ -1,4 +1,5 @@
 ---
+seoDescription: Power Automate flows management best practices - Share flows with groups and use service accounts to ensure continuity and security.
 type: rule
 title: Power Automate Flows - Do you use groups and service accounts?
 uri: power-automate-flows-service-accounts
@@ -14,6 +15,7 @@ related:
 created: 2022-05-26T17:50:48.698Z
 guid: 3203bffa-26ab-4325-a866-ec2abcaec377
 ---
+
 Using groups and service accounts is a common best practice in the Power Platform world.
 
 <!--endintro-->

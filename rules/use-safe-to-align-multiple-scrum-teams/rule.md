@@ -1,4 +1,5 @@
 ---
+seoDescription: Use SAFe to align multiple Scrum teams and drive unified strategic objectives while ensuring consistent value delivery at scale.
 type: rule
 title: Do you use SAFe to align multiple Scrum teams?
 guid: 7604ea46-58d7-4d57-abad-8ee34d013cbe
@@ -8,11 +9,10 @@ authors:
   - title: Gert Marx
     url: https://ssw.com.au/people/gert-marx
   - title: Ulysses Maclaren
-    url: https://ssw.com.au/people/ulysses-maclaren 
-related: 
+    url: https://ssw.com.au/people/ulysses-maclaren
+related:
 redirects:
   - do-you-use-safe-to-align-multiple-scrum-teams
-
 ---
 
 While many of us appreciate the benefits of Scrum in project management, the challenge amplifies when coordinating multiple Scrum teams towards a singular vision. In such scenarios, maintaining alignment and ensuring consistent value delivery at scale can become overwhelming. This is precisely where the Scaled Agile Framework (SAFe) steps in.

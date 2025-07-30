@@ -1,16 +1,17 @@
 ---
+seoDescription: A link on a page that takes you to the very same page is a weird experience. Don't include a link to the page you are on
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid linking a page to itself?
 guid: 6e2a2597-c30a-4259-9ca5-ae453f8b0186
 uri: do-you-avoid-linking-a-page-to-itself
 created: 2015-02-16T02:19:41.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - avoid-redundant-links
 redirects: []
-
 ---
 
 A link on a page that takes you to the very same page is a weird experience. Don't include a link to the page you are on.

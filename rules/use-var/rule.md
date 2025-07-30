@@ -1,4 +1,5 @@
 ---
+seoDescription: C# developers can simplify variable declarations by using the "var" keyword to infer the type from the initial assignment.
 type: rule
 title: Do you use "var"?
 uri: use-var
@@ -9,11 +10,12 @@ created: 2021-12-13T17:44:06.489Z
 related:
   - consistent-code-style
 guid: edd8d397-3651-47c0-8737-fa38152558d1
-
 ---
 
 In C# the "var" keyword can be used instead of providing an explicit type when declaring a variable. The type is then inferred from the initial assignment of the variable.
+
 <!--endintro-->
+
 It is just a short hand to save developers from typing out the type of a variable.
 
 ```

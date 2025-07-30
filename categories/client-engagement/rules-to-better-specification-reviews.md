@@ -10,7 +10,7 @@ index:
 - spec-add-value
 - use-ai-to-generate-spec-reviews
 - spec-do-you-create-an-initial-release-plan-and-ballpark
-- spec-do-you-know-how-to-estimate-a-project-that-include-the-general-project-costs
+- include-general-project-costs-to-estimates
 - spec-give-customers-a-ballpark
 - specification-review-presentation
 - specification-levels
@@ -26,10 +26,11 @@ index:
 - event-storming-workshop
 - connect-crm-to-microsoft-teams
 - create-pbis-under-2-days
+- software-architecture-decision-tree
 
 ---
 
-Specification Reviews are the first step to engaging properly with a client and need to be executed well. The following rules will ensure you know how, and how much, to spec out upfront.
+Spec Reviews are the first step to engaging properly with a client and need to be executed well. The following rules will ensure you know how, and how much, to spec out upfront.
 
 Many teams start their implementation before dedicating time to understanding the primary purpose and functionality of the software. In some agile-leaning environments, the often simplistic user story is considered essential, contrasting with the detailing of all software functionality, which is viewed as "too waterfall." Garnering multiple perspectives from different stakeholders (both business and technical) during Spec Reviews is crucial for accurately capturing the intended function and behavior of the software.
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a custom library provider in Sitefinity for efficient asset management.
 type: rule
 archivedreason: 
 title: Do you know to create a Custom Library Provider?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Effective recurring task management requires a system that can automate reminders and notifications, ensuring seamless transition of responsibilities.
 type: rule
 title: Do you know the best way of managing recurring tasks?
 uri: do-you-know-the-best-way-of-managing-recurring-tasks
@@ -13,6 +14,7 @@ created: 2009-02-28T09:42:21.000Z
 archivedreason: null
 guid: 83f0d754-2c42-424a-bad3-2c2f6e50b5b2
 ---
+
 Recurring tasks are tasks that happen on a regular basis, but not necessarily every day (and therefore potentially easy to forget!). They might be personal tasks, such as changing the oil in your prized Datsun 120Y every six months, or booking a holiday for you and your partner a month before your anniversary. They could be work related tasks, such as updating your profile on the Microsoft Gold Partner website (every three months), running financial reports on a monthly basis, or even watering the office plants every week.
 
 <!--endintro-->

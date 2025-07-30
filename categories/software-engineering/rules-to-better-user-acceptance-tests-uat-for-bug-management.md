@@ -14,10 +14,9 @@ index:
 - does-your-team-write-acceptance-tests-to-verify-acceptance-criteria
 - do-you-do-exploratory-testing
 - add-test-case-to-test-plan-azure-test-plans
-- do-you-use-problem-steps-recorder
+- recording-screen
 - bdd
 - automated-ui-testing
-
 ---
 
 Ensuring a robust testing process is crucial for successful development. Key practices like incorporating Acceptance Criteria in User Stories and leveraging Acceptance Tests for validation are essential. These practices contribute to efficient testing workflows. They not only enhance the QA (Quality Assurance) process but also ensure the delivery of high-quality software with Agile teams.

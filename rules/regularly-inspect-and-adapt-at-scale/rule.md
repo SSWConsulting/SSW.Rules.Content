@@ -1,4 +1,5 @@
 ---
+seoDescription: Regularly inspect and adapt at scale to drive organizational agility, efficiency, and sustainable growth.
 type: rule
 title: Do you regularly inspect and adapt at scale?
 uri: regularly-inspect-and-adapt-at-scale
@@ -14,6 +15,7 @@ created: 2023-10-13T17:50:00.000Z
 archivedreason: null
 guid: a7057079-1e65-42a2-a273-a9d3bbc2d543
 ---
+
 Having Agile practices up and running in individual teams is a great start, but what happens when the larger organizational machine doesn't mirror that agility? You might start to see delays in addressing issues, with inefficiencies becoming a systemic problem.
 
 This is where the true power of Agile comes into play – not just in pockets, but across the entire organization. By regularly inspecting and adapting at scale, you can transform these challenges into opportunities for growth, ensuring that agility isn't confined to teams but is a hallmark of your entire organization.

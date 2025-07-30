@@ -1,16 +1,16 @@
 ---
+seoDescription: Stay informed with timely notifications when an alarm is triggered in Control4, keeping everyone on the same page for enhanced security and swift response.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you send Control4 notifications when to let people know when an Alarm is triggered?
 guid: 17a9168a-7f9c-4405-93e1-db5bfb7d44d4
 uri: do-you-send-control4-notifications-when-to-let-people-know-when-an-alarm-is-triggered
 created: 2017-11-03T05:19:27.0000000Z
 authors:
-- title: Greg Harris
-  url: https://ssw.com.au/people/greg-harris
+  - title: Greg Harris
+    url: https://ssw.com.au/people/greg-harris
 related: []
 redirects: []
-
 ---
 
 Don't let important alarm events go unnoticed! With Control4, you can set up notifications to keep everyone informed when an alarm is triggered. 📣🚨

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn effective deployment strategies for database changes in application upgrades, comparing manual and automated solutions.
 type: rule
 title: The application – Do you make the app do the work?
 uri: the-application-do-you-make-the-app-do-the-work
@@ -13,27 +14,27 @@ archivedreason: null
 guid: 8e1e35ac-e3a7-462b-b341-8465a8b842a4
 ---
 
-An Application upgrade might not only include the .exe and .dll but the database changes. How to deploy these changes, manually or using tools to deploy? 
+An Application upgrade might not only include the .exe and .dll but the database changes. How to deploy these changes, manually or using tools to deploy?
 
-Let's see the bad and good examples:   
+Let's see the bad and good examples:
 
 <!--endintro-->
 
 ::: greybox
-Dear Mr Northwind, 
+Dear Mr Northwind,
 
-Before installing your application, you need to 
-run this script by 
-first opening up SQL Management Studio. 
-Open the attached script, point it to Northwind and 
-execute the script. 
+Before installing your application, you need to
+run this script by
+first opening up SQL Management Studio.
+Open the attached script, point it to Northwind and
+execute the script.
 
-Let me know if you have any issues... 
-We worked very hard on this release. 
+Let me know if you have any issues...
+We worked very hard on this release.
 
-I hope you’re happy with it. 
+I hope you’re happy with it.
 
-Regards,   
+Regards,
 Dave
 :::
 
@@ -42,38 +43,38 @@ Dave
 :::
 
 ::: greybox
-Hi Mr. Northwind, 
+Hi Mr. Northwind,
 
-Please run the attached Northwind_v5.exe. 
+Please run the attached Northwind_v5.exe.
 
-Click Run when the prompt appears. 
+Click Run when the prompt appears.
 
 Regards,  
 Dave
 :::
 ::: ok
-**Figure: Better example - run SQL scripts using another package**   
-::: 
+**Figure: Better example - run SQL scripts using another package**
+:::
 
 ::: greybox
-Dear Mr Northwind, 
+Dear Mr Northwind,
 
-When you run the Northwind v1.0 (Rich Client) it will 
-automatically upgrade the database for you. 
+When you run the Northwind v1.0 (Rich Client) it will
+automatically upgrade the database for you.
 
 Just make sure you have dbo permissions ⚠️
- 
+
 Let me know if you run into any issues.
 
 Regards,  
 Dave
 :::
-::: ok 
+::: ok
 **Figure: Better example - run SQL scripts in the application. There is a tool called [SQL Deploy | Reconcile](https://sqldeploy.com/)**
 :::
 
 ::: greybox
-Dear Mr Northwind, 
+Dear Mr Northwind,
 
 We have just deployed a new release and updated the database for you. Please view it live here.
 
@@ -82,6 +83,6 @@ If you have any questions please let me know.
 Regards,  
 Dave
 :::
-::: good 
+::: good
 **Figure: Good example - All done as part of the release pipeline**
 :::

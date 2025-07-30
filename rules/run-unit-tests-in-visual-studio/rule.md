@@ -1,4 +1,5 @@
 ---
+seoDescription: Run unit tests in Visual Studio by building your test project and exploring results in Test Explorer.
 type: rule
 title: Do you run Unit Tests in Visual Studio?
 uri: run-unit-tests-in-visual-studio
@@ -12,6 +13,7 @@ created: 2020-03-12T20:14:02.000Z
 archivedreason: null
 guid: b606067f-d978-4b03-8139-03bf1b5b9921
 ---
+
 When you build the test project in Visual Studio, the tests appear in Test Explorer. If Test Explorer is not visible, choose Test | Windows | Test Explorer.
 
 <!--endintro-->
@@ -26,9 +28,9 @@ You can perform much of the work of finding, organizing and running tests from t
 
 You can run all the tests in the solution, all the tests in a group, or a set of tests that you select:
 
-* To run all the tests in a solution, choose Run All
-* To run all the tests in a default group, choose Run and then choose the group on the menu
-* Select the individual tests that you want to run, open the context menu for a selected test and then choose Run Selected Tests.
+- To run all the tests in a solution, choose Run All
+- To run all the tests in a default group, choose Run and then choose the group on the menu
+- Select the individual tests that you want to run, open the context menu for a selected test and then choose Run Selected Tests.
 
 :::greybox
 **Tip:** If individual tests have no dependencies that prevent them from being run in any order, turn on parallel test execution in the settings menu of the toolbar. This can noticeably reduce the time taken to run all the tests.
@@ -38,5 +40,5 @@ As you run, write and rerun your tests, Test Explorer displays the results in gr
 
 :::greybox
 
-**Tip:** If you are using dotnet Core/5+, you can run tests from the command line by running *dotnet test*
+**Tip:** If you are using dotnet Core/5+, you can run tests from the command line by running _dotnet test_
 :::

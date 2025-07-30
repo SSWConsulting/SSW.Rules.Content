@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to take feedback and criticism effectively by avoiding defensiveness and shutting down conversations.
 type: rule
 title: Communication - Do you avoid shutting down every feedback example?
 uri: feedback-avoid-chopping-down-every-example
@@ -66,7 +67,7 @@ Bob: Really? Can you give an example?
 
 Jane: The one about XXX
 
-Bob: I didn't reply because I saw Tiago reply... however,  **I do take your point in general.** I will try to do better for the next week. Let me know if I've improved.
+Bob: I didn't reply because I saw Tiago reply... however, **I do take your point in general.** I will try to do better for the next week. Let me know if I've improved.
 
 :::
 
@@ -77,10 +78,10 @@ Figure: Good example - Jane feels heard
 
 This will make the person who's giving you the feedback feel heard and that you have taken the criticism constructively. If you are also able to proactively suggest alternative behaviour for the future that would work for everyone, then you will build trust.
 
-![Figure: It's important that the other person knows that they've been heard](SSW Team(2).png)  
+![Figure: It's important that the other person knows that they've been heard](SSW Team(2).png)
 
 Alternatively, to demonstrate the feedback was understood correctly and to reaffirm your own understanding, it can be useful to offer a brief summary of the feedback provided and any necessary changes in an email or IM to the person. This will in-turn ensure you don’t overlook any feedback when attending to it and the person providing the feedback knows if there may have been any confusion, before the task is completed again.
 
 ### Related Rule
 
-* [Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?](/do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault)
+- [Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?](/do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault)

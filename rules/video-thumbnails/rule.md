@@ -1,6 +1,7 @@
 ---
+seoDescription: Personalized video thumbnails help viewers quickly identify and understand your content, boosting engagement and click-throughs.
 type: rule
-title: Do you use personalized video thumbnails?
+title: Videos - Do you use personalized thumbnails?
 uri: video-thumbnails
 authors:
   - title: Adam Cogan

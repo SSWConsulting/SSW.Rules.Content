@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you publish a video every time you blog? By recording a video and publishing it on YouTube, you're helping spread the word about your content. Consider linking your video in a simple blog post with a good description, popular keywords, and an explanation of your thoughts to expand your audience.
 type: rule
 title: "Do you blog every time you publish a video? "
 uri: blog-every-time-you-publish-a-video
@@ -12,6 +13,7 @@ authors:
 created: 2022-03-28T05:26:11.233Z
 guid: 92f7ac52-6cd1-4285-850d-db64c56b4932
 ---
+
 Every time someone does a talk/records a video, it helps spread the word about your content if your video keeps getting shared. \
 \
 If you have a blog, a good idea is to add a simple post to tag your new video. It gets double Google juice if you:

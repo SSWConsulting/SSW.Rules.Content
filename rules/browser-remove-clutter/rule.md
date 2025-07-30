@@ -1,4 +1,5 @@
 ---
+seoDescription: Remove browser clutter and boost productivity by turning off unnecessary new tab features.
 type: rule
 title: Do you remove clutter from your browser's new tabs?
 uri: browser-remove-clutter
@@ -15,7 +16,7 @@ guid: e0ae7ce1-cb42-4270-bec9-4766e536b36b
 
 When browsing you often need to open a new tab. By default most browsers will show will a bunch of things to click. That can lead to diversion.
 
-Changing your browser's new tabs settings can enhance your experience and add avoid distractions. By removing all the clutter, you can have a clean and visually appealing environment that aligns with productivity. 
+Changing your browser's new tabs settings can enhance your experience and add avoid distractions. By removing all the clutter, you can have a clean and visually appealing environment that aligns with productivity.
 
 <!--endintro-->
 

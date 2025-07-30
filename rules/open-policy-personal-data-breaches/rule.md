@@ -1,4 +1,5 @@
 ---
+seoDescription: Implementing an open policy for personal data breaches fosters trust and proactive security measures.
 type: rule
 title: Do you have an open policy for assisting with personal data breaches?
 uri: open-policy-personal-data-breaches

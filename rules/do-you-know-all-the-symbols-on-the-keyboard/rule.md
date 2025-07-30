@@ -1,137 +1,134 @@
 ---
+seoDescription: Mastering your keyboard's symbols can take you to new levels of typing efficiency and creativity.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know all the symbols on the keyboard?
 guid: 578c55c7-6a02-441a-ba89-9d151be72250
 uri: do-you-know-all-the-symbols-on-the-keyboard
 created: 2019-03-13T01:38:31.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
-A standard computer keyboard can produce dozens of different symbols. Some of these are commonly used, whereas others are used only rarely. It is important to know what each symbol is called and how to spell it in English. That way, if you are uncertain of how or when to use a particular symbol, you can look it up and get your answer. Below is a table of common keyboard symbols and their spellings. 
+A standard computer keyboard can produce dozens of different symbols. Some of these are commonly used, whereas others are used only rarely. It is important to know what each symbol is called and how to spell it in English. That way, if you are uncertain of how or when to use a particular symbol, you can look it up and get your answer. Below is a table of common keyboard symbols and their spellings.
 
 <!--endintro-->
 
-
-
-
 | Symbol
- |  **Explanation** 
- |
+| **Explanation**
+|
 | --- | --- |
 | `
- | Accent grave |
+| Accent grave |
 | --- | --- |
 | ~
- | Tilde
- |
+| Tilde
+|
 | --- | --- |
 | ! (Shift + 1)
- | Exclamation mark
- |
+| Exclamation mark
+|
 | --- | --- |
 | @ (Shift + 2)
- | At symbol
- |
+| At symbol
+|
 | --- | --- |
 | # (Shift + 3) | Hash
- |
+|
 | --- | --- |
 | $ (Shift + 4)
- | Dollar sign |
+| Dollar sign |
 | --- | --- |
-| % (Shift + 5) 
- | Percent |
+| % (Shift + 5)
+| Percent |
 | --- | --- |
 | ^ (Shift + 6)
- | Caret |
+| Caret |
 | --- | --- |
 | & (Shift + 7)
- | Ampersand |
+| Ampersand |
 | --- | --- |
 | \* (Shift + 8)
- | Multiplication |
+| Multiplication |
 | --- | --- |
 | ( (Shift + 9)
- | Left parenthesis
- |
+| Left parenthesis
+|
 | --- | --- |
 | ) (Shift + 0)
- | Right parenthesis
- |
+| Right parenthesis
+|
 | --- | --- |
 | -
- | Dash
- |
+| Dash
+|
 | --- | --- |
 | \_ (Shift + -)
- | Underscore |
+| Underscore |
 | --- | --- |
 | =
- | Equal |
+| Equal |
 | --- | --- |
 | + (Shift + =)
- | Plus |
+| Plus |
 | --- | --- |
 | [
- | Left bracket
- |
+| Left bracket
+|
 | --- | --- |
 | ] | Right bracket 
- |
+|
 | --- | --- |
 | { (Shift + [)
- | Left brace |
+| Left brace |
 | --- | --- |
 | } (Shift + ])
- | Right brace |
+| Right brace |
 | --- | --- |
 | \
  | Backslash
- |
+|
 | --- | --- |
-| | (Shift + \) 
- | Vertical bar 
- |
+| | (Shift + \)
+| Vertical bar
+|
 | --- | --- |
 | ;
- | Semicolon |
+| Semicolon |
 | --- | --- |
 | : (Shift + ;)
- | Colon 
- |
+| Colon
+|
 | --- | --- |
 | '
- | Single quote |
+| Single quote |
 | --- | --- |
 | " (Shift + ')
- | Quote |
+| Quote |
 | --- | --- |
 | ,
- | Comma |
+| Comma |
 | --- | --- |
 | .
- | Dot 
- |
+| Dot
+|
 | --- | --- |
 | &lt; (Shift + ,)
- | Less than
- |
+| Less than
+|
 | --- | --- |
 | &gt; (Shift + .)
- | Greater than
- |
+| Greater than
+|
 | --- | --- |
 | /
- | Forward slash |
+| Forward slash |
 | --- | --- |
 | ? (Shift + /)
- | Question mark |
+| Question mark |
 | --- | --- |

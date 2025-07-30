@@ -1,6 +1,8 @@
 ---
 type: rule
-title: Do you choose the best method of authentication for your situation?
+title: Do you choose the best authentication method for every situation?
+seoDescription: Choose the best method of authentication for your situation by
+  considering factors such as scope, social, volume, and MFA requirements.
 uri: choosing-authentication
 authors:
   - title: Jason Taylor
@@ -9,7 +11,7 @@ authors:
     url: https://ssw.com.au/people/matt-goldman
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
+related:
   - modern-stateless-authentication
 redirects:
   - do-you-choose-the-best-method-of-authentication-for-your-situation
@@ -21,15 +23,15 @@ guid: 985df34b-7af9-4f03-a48a-cf7391411656
 
 Authentication and authorization are complicated, and it is risky to try and implement them yourself. Use this rule as a guide on choosing the right service or framework for your situation.
 
-::: img-small  
-![](security-icon-ssw.jpg)  
-:::  
-
 <!--endintro-->
+
+::: img-small
+![](security-icon-ssw.jpg)
+:::
 
 Choosing the right [authentication and authorization](https://www.youtube.com/watch?v=i0d9iTmWIOw) approach for your situation can be tricky. It is a multi-faceted problem with many variables, and what seems like the right choice in one situation may not be in the other.
 
-### Start with the Questions
+## Start with the questions
 
 * **Scope** - Is it an enterprise application for internal users or a consumer application for external use?
 * **Scope** - Do you need to share the identity across multiple applications?
@@ -38,7 +40,7 @@ Choosing the right [authentication and authorization](https://www.youtube.com/wa
 
 Without the answers to these questions, it will be difficult to choose the right option. With the answers to these questions, you can use the tips and flow chart below as a guide to help you choose the right solution.
 
-#### 'Complexity' in authentication
+## 'Complexity' in authentication
 
 Most applications require some form of authentication, and it's often as simple as providing a secure way for users to log in and ensure that unauthenticated users don't get access to protected resources. However, it's not uncommon to require some logic to be executed as part of the authentication process. Some examples might include:
 
@@ -50,7 +52,7 @@ Most applications require some form of authentication, and it's often as simple 
 
 Note that some of the options listed below support or include the features listed above, and these may be configurable directly rather than needing additional code or logic to support. These usually come with additional costs. When you need one of these that is not provided "out-of-the box", you need to build this yourself. Most of the options listed here provide a way to inject custom arbitrary logic into the authentication process, but they have different ways of achieving this and varying limitations.
 
-### Narrow your options
+## Narrow your options
 
 Each project is different, and you will need to consider your individual needs and circumstances when choosing how to implement identity and authentication in your solution. There are countless options available for authentication, but the chart below can provide a guide for some of the major decisions, and help you narrow down to some of the relevant options. Use this to get started and be sure to consider all the other information in this rule before making a decision.
 
@@ -58,63 +60,56 @@ Each project is different, and you will need to consider your individual needs a
 flowchart
 
  Start(["Start"]) --> CustomLogic{"Need Custom/\nComplex Logic?"}
- 
+
  CustomLogic -->|"Yes"| IdentityServer(["IdentityServer"])
  CustomLogic -->|"No"| AppType{"Application Type?"}
- 
+
  AppType -->|"Internal (Intranet)"| Kerberos{"Need Kerberos/\nAD Integration?"}
  AppType -->|"External (B2B/B2C)"| Hosting{"Hosting?"}
- 
+
  KerberosHosting{"Hosting?"} -->|"On-Permises"| SingleApp{"SSO?"}
  KerberosHosting -->|"Cloud"| Ecosystem{"Existing Ecosystem/\nPreference?"}
- 
+
  Kerberos -->|"No"| KerberosHosting
  Kerberos -->|"Yes"| OnPremAD(["On-Premises Active Directory"])
- 
+
  Hosting -->|"On-Premises"| Kerberos
  Hosting -->|"Cloud"| Ecosystem
 
- Ecosystem --> Azure(["Azure AD"])
+ Ecosystem --> Entra(["Entra ID"])
  Ecosystem --> Auth0(["Auth0"])
- Ecosystem --> OtherIDP(["Other Cloud IDP"]) 
- 
+ Ecosystem --> OtherIDP(["Other Cloud IDP"])
+
  SingleApp -->|"Yes"| IdentityServer
  SingleApp -->|"No"| NETCORE(["ASP.NET Core Identity"])
-```  
+```
 
 **Figure: Authentication Selection**
 
 Your situation is unique, and every application's requirements are different. These tips can help you identify options to consider for your solution.
 
-#### Additional considerations
+### Additional considerations
 
 In addition to the main points discussed above, the following considerations could also be relevant to your decision.
 
-❗ **Always important:**
+#### ❗ Always important
 
-* **Scalability:** Depending on the expected user base and request volume, scalability can be a concern. Some solutions might offer better scalability options than others.
+* **Scalability:** Depending on the expected user base and request volume, scalability can be a concern. Some solutions might offer better scalability options than others
+* **Cost:** The costs associated with different solutions can vary. It's essential to consider both initial setup costs and ongoing operational costs
+* **Maintenance & Support:** How easy is it to maintain the solution? Is there good community or official support available? This can be crucial for troubleshooting and ensuring the system remains operational
 
-* **Cost:** The costs associated with different solutions can vary. It's essential to consider both initial setup costs and ongoing operational costs.
+#### ⚠️ Important - but depends more on your needs
 
-* **Maintenance & Support:** How easy is it to maintain the solution? Is there good community or official support available? This can be crucial for troubleshooting and ensuring the system remains operational.
-
-<br>
-
-⚠️ **Important - but depends more on your needs:**
-
-* **Regulatory & Compliance Needs:** Depending on the industry, there might be specific regulatory or compliance requirements related to authentication. For example, financial or healthcare industries might have stricter requirements.
-
-* **User Experience:** The ease of use for end-users can be a factor. Some solutions might offer a smoother user experience, fewer login prompts, or better integration with other services.
-
-* **Flexibility & Extensibility:** How easy is it to extend or modify the authentication process in the future? This can be crucial if there's a need to add new features or integrations later on.
-
-* **Security Features:** Beyond MFA, what other security features do the solutions offer? This can include things like anomaly detection, risk-based authentication, or integration with threat intelligence services.
-
-<br>
+* **Regulatory & Compliance Needs:** Depending on the industry, there might be specific regulatory or compliance requirements related to authentication. For example, financial or healthcare industries might have stricter requirements
+* **User Experience:** The ease of use for end-users can be a factor. Some solutions might offer a smoother user experience, fewer login prompts, or better integration with other services
+* **Flexibility & Extensibility:** How easy is it to extend or modify the authentication process in the future? This can be crucial if there's a need to add new features or integrations later on
+* **Security Features:** Beyond MFA, what other security features do the solutions offer? This can include things like anomaly detection, risk-based authentication, or integration with threat intelligence services
 
 While there are too many options to cover them all, this chart will help you narrow your choice to a few key options. Some detail about these options is provided below.
 
-### ASP.NET Core Identity (simple and free)
+---
+
+## 1. ASP.NET Core Identity (simple and free)
 
 ASP.NET Core has some built-in identity functionality that allows you to create users and roles, and manage the security of your web applications. It is extremely capable and can be used to support a broad number of scenarios. However, it is intended for use in simple web applications, and while it can be extended to support other clients, you will need to build and wire up a lot of the UI for these scenarios yourself.
 
@@ -139,13 +134,14 @@ Disadvantages:
 * It is recommended by Microsoft that for advanced requirements you don't use this on its own - so need to add one of the below
 * Does not scale across multiple applications - so need to add one of the below
 * For anything other than an ASP.NET Core Web app (e.g. Angular, React, or mobile), you have to build all UI yourself, such as: sign up, log, password reset, etc.
-  * Note: You will need to build this UI yourself anyway if using Identity Endpoints.
+
+  * **Note:** You will need to build this UI yourself anyway if using Identity Endpoints.
 
 **Use this option if...**
 
 * You need to add identity to a simple ASP.NET application
 
-### IdentityServer (full control)
+## 2. IdentityServer (full control)
 
 [Identity Server](https://duendesoftware.com/products/identityserver) is an open-source, OIDC compliant solution that is built on top of ASP.NET Core. It has extensive support for a number of authentication and authorization scenarios and supports multiple external identity providers out of the box (meaning it can easily integrate with Microsoft, Google, etc. accounts). IdentityServer extends ASP.NET Core Identity to natively support multiple client types (e.g. web, mobile, machine-to-machine, etc.) and can be used as a single identity across multiple applications.
 
@@ -180,7 +176,7 @@ Disadvantages:
 
 `youtube: https://www.youtube.com/embed/5OUQZAvxZuA?ecver=1`
 
-### OpenIddict (extend to build your own auth)
+## 3. OpenIddict (extend to build your own auth)
 
 [OpenIddict](https://github.com/openiddict/openiddict-core) is an open-source framework designed for ASP.NET Core that facilitates the implementation of OpenID Connect (OIDC) servers. Whereas IdentityServer provides a full solution, OpenIddict provides a foundation upon which you can build your own IdentityServer-like product.
 
@@ -210,7 +206,7 @@ Disadvantages:
 * You can commit substantial well-skilled (in security and development) human resources to building and maintaining it, and/or:
 * You are intending to build your own authentication product
 
-### Active Directory (for Internal Enterprise Applications)
+## 4. Active Directory (for Internal Enterprise Applications)
 
 [Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview) has been the de facto enterprise identity store for most of the world for decades. While most organizations are moving to the cloud these days, many still use AD as it provides a lot of additional capability and is integrated with most of their existing enterprise applications. AD supports multiple authentication protocols, including:
 
@@ -241,7 +237,7 @@ Disadvantages:
 * You already have AD in place and have a security policy that states that all your users must authenticate against your centralized corporate identity, and/or:
 * You want to enable pass-through/silent authentication for your users
 
-### Microsoft Entra ID (previously Azure AD) (for Internal Enterprise Applications)
+## 5. Microsoft Entra ID (previously Azure AD) (for Internal Enterprise Applications)
 
 [Microsoft Entra](https://www.microsoft.com/security/business/microsoft-entra) is Microsoft's cloud-based identity and network/access management platform and provides strong identity features such as MFA and self-service password recovery, as well as access policies and anomoly detection. Being cloud-based, it can authenticate users anywhere in the world (rather than just on-premises on corporate computers).
 
@@ -268,7 +264,7 @@ Disadvantages:
 * Your users require access from off-site, and/or:
 * You **need** to enforce MFA
 
-### Microsoft Entra External Id (previously Azure AD B2C) (simple Auth as a Service)
+## 6. Microsoft Entra External Id (previously Azure AD B2C) (simple Auth as a Service)
 
 [Microsoft Entra External ID](https://www.microsoft.com/security/business/identity-access/microsoft-entra-external-id) has replaced AAD B2C. It's part of the Microsoft Entra family and includes all the benefits it provides, as well as enabling consumer-friendly features. These include integration with external identity providers and more flexible/customizable login flows. It is well-tailored to support authentication, and while it can be extended to support additional capabilities, this requires custom development.
 
@@ -296,7 +292,7 @@ Disadvantages:
 * You anticipate a high volume of users, and/or:
 * You only require simple authentication and limited or no authorization
 
-### Auth0 (sophisticated Auth as a Service)
+## 7. Auth0 (sophisticated Auth as a Service)
 
 [Auth0](https://auth0.com) is a commercial identity product aimed at developers. It is cloud-hosted and offers out-of-the-box functionality for user signup and login, self-service password recovery, OIDC compliance, external auth integration, and other consumer and user-friendly features. MFA is supported out of the box, and significant sophisticated functionality is available on the paid tiers.
 
@@ -324,7 +320,7 @@ Disadvantages:
 * Your users are external/consumers, and/or:
 * You require authorization or complex authentication
 
-### Okta (for Commercial Enterprise Applications $)
+## 8. Okta (for Commercial Enterprise Applications $)
 
 [Okta](https://www.okta.com) is a commercial identity product aimed at enterprises. Many enterprise-centric software products, for example, Salesforce, have Okta connectors. Okta is intended to bridge the gap between enterprise authentication (such as AD) and modern software and SaaS products.
 
@@ -350,7 +346,39 @@ Disadvantages:
 * You already have Okta in place, and/or:
 * Your application is a product that you intend to commercialize (Okta is prevalent in the enterprise and having an Okta connector is a good selling point)
 
-### Roll your own - a solution looking for a problem :-)
+## 9. Keycloak (Open-Source IAM Solution)
+
+[Keycloak](https://www.keycloak.org) is an open-source identity and access management solution created in 2014. Governed by the Cloud Native Computing Foundation (CNCF) as an incubating project since April 2023, it provides enterprise-grade authentication and authorization capabilities through OIDC/OAuth 2.0/SAML SSO, identity brokering, and social logins.
+
+::: good
+Advantages:
+:::
+
+* CNCF ecosystem integration with native Kubernetes Operator support and Prometheus monitoring
+* Persistent user sessions in v26 ensure seamless authentication during migrations/restarts
+* Multi-site deployment optimizations for global enterprise configurations
+* Red Hat downstream support with commercial SLAs available through Red Hat SSO
+* Extensible architecture supporting LDAP/Active Directory federation and third-party integrations
+
+::: bad
+Disadvantages:
+:::
+
+* Complex clustering requiring Kubernetes/OpenShift operational expertise
+* Limited mobile SDKs necessitating third-party libraries like AppAuth
+* Community-driven support without guaranteed 24/7 incident response
+* Experimental status for emerging features like quantum-resistant cryptography
+
+**Use this option if...**
+
+* You require CNCF-aligned IAM with Envoy service mesh compatibility
+* Your team manages Kubernetes environments via Helm/Operators
+* Protocol flexibility (SAML/OIDC hybrid flows) is critical
+* You need open-source solutions with enterprise upgrade paths
+* Data sovereignty and multi-cloud deployments are priorities
+* You don't need enterprise level support
+
+## 10. Roll your own - a solution looking for a problem :-)
 
 It is entirely possible to create a users table and a roles table in your database and create and manage users yourself.
 
@@ -366,6 +394,7 @@ Disadvantages:
 :::
 
 * **You have to "reinvent the wheel"**
+
   * Identity
   * Roles
   * Email verification
@@ -379,45 +408,47 @@ Disadvantages:
 
 * You want a side project to learn more about how you might roll your own, but of course, you never intend to put it into production :-)
 
-### Sample decision - External Applications
+---
+
+## Sample decision - External Applications
 
 External applications are B2B or B2C applications that are intended for consumption outside of your organization.
 
-#### Example Template to Customer
+### Example template to customer
 
 ::: greybox
- **Scenario:**
+**Scenario:**
 
-Scope - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.
-Social - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social login or don't want to use it.
-All users will have the same level of access once logged in.
-Volume - You anticipate 20,000 active users.
-MFA - You would like to allow users to enable MFA.
+* **Scope** - You are building a consumer facing service that will have multiple clients, including a [SPA](https://docs.microsoft.com/en-us/archive/msdn-magazine/2013/november/asp-net-single-page-applications-build-modern-responsive-web-apps-with-asp-net) and a mobile app.
+* **Social** - You want to allow your users to sign up with their social identities (Google, Facebook, Twitter, etc.) but want to allow them to create an account with you if they don't have a social login or don't want to use it.
+* All users will have the same level of access once logged in.
+* **Volume** - You anticipate 20,000 active users.
+* **MFA** - You would like to allow users to enable MFA.
 
 **Your choices:**
 
-* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) provides all of the functionality you need and provides all required functionality in the free tier.  
+* **Option A** <mark>(Recommended)</mark> - [Microsoft Entra ID](https://www.microsoft.com/security/business/microsoft-entra) provides all of the functionality you need and provides all required functionality in the free tier.
 * **Option B** - [Auth0](https://auth0.com/) - Auth0 will meet most of these requirements, however, your volume of users will exceed the free tier and you don't need the additional functionality of the paid tier.
 * **Option C** - [IdentityServer](https://duendesoftware.com/products/identityserver) - This would work but adds additional management overhead and complexity. You would also need to manage scaling to cope with your volume of users.
 
 :::
 ::: good
-Good example: The chosen solution meets the requirements and is highlighted as per [Do you manage up?](/do-you-manage-up)
+Good example - The chosen solution meets the requirements and is highlighted as per [Do you manage up?](/do-you-manage-up)
 :::
 
-### Sample decision - Internal Applications
+## Sample decision - Internal Applications
 
 For internal applications (referred to as "intranet applications" by Microsoft), the requirements might be different to externally facing applications. For example, they are more likely to be hosted on-premises (rare these days), or may need to use Windows Integrated Authentication (also rare these days, but provides a wonderful UX).
 
-#### Example Template to Customer
+### Example template to customer
 
 ::: greybox
 **Scenario:**
 
-Scope - You have an internal enterprise application, which will support approximately 1,000 users.
-You already have Active Directory in place and are syncing with an Azure AD tenant.
-Your users will need to access this application from anywhere.
-MFA - As per your company security policy, you must enforce MFA.
+- **Scope** - You have an internal enterprise application, which will support approximately 1,000 users.\
+- You already have Active Directory in place and are syncing with an Entra tenant.\
+- Your users will need to access this application from anywhere.\
+- **MFA** - As per your company security policy, you must enforce MFA.\
 
 **Your choices:**
 
@@ -428,9 +459,9 @@ MFA - As per your company security policy, you must enforce MFA.
 :::
 
 ::: good
-Good example: The chosen solution meets the requirements without adding unnecessary additional costs  
+Good example - The chosen solution meets the requirements without adding unnecessary additional costs
 :::
 
-**Note #1**: All of the following options assume you are building an ASP.NET Core application, although the commercial options listed here provide libraries for most development languages, frameworks, and platforms.
-
-**Note #2**: The information here is relevant as provided, but consider other factors that may impact your decision too. For example, cost may be a factor and saving money may be more important than the added benefits of higher-cost options. Additionally, your situation may not fit neatly into one of the scenarios we have listed and may span multiple scenarios, in which case you may need to pick the option which caters to the broadest set of requirements (avoid 'mix and match').
+**Notes:**
+* All of the following options assume you are building an ASP.NET Core application, although the commercial options listed here provide libraries for most development languages, frameworks, and platforms.
+* The information here is relevant as provided, but consider other factors that may impact your decision too. For example, cost may be a factor and saving money may be more important than the added benefits of higher-cost options. Additionally, your situation may not fit neatly into one of the scenarios we have listed and may span multiple scenarios, in which case you may need to pick the option which caters to the broadest set of requirements (avoid 'mix and match').

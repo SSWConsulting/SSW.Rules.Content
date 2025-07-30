@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover when to use Site Columns over List Columns for better SharePoint customization and management
 type: rule
 archivedreason: 
 title: Do you always use Site Columns instead of List Columns?
@@ -27,25 +28,17 @@ You should always try to use Site Columns instead of List Columns
 * More visibility of the customization we are applying to the SharePoint website
 * Make sure the site column is added to our own group description such as "SSW Columns" - this is important for filtering and exporting site column customizations for deployment.  Also great because they are now grouped in the UI.
 
-
-
 ::: bad  
 ![Figure: Create column - Bad Example](ListColumn.png)  
 :::
-
 
 ::: good  
 ![Figure: Add from existing site columns - Good Example](SiteColumn.png)  
 :::
 
-
 ::: good  
 ![Figure: Site Columns - Good Example](SSWColumns\_small.jpg)  
 :::
-
-
-
-
 
 Sometimes you still may want to use a List Column.
 

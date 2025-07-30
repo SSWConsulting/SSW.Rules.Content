@@ -1,4 +1,5 @@
 ---
+seoDescription: Give thanks to valuable digital content by leaving thoughtful comments and acknowledging GitHub contributions, boosting online presence, reputation, and connections.
 type: rule
 title: Do you give thanks for valuable content?
 uri: give-thanks
@@ -18,23 +19,24 @@ created: 2019-11-26T00:55:31.000Z
 archivedreason: null
 guid: fa4e61d8-9cef-4f78-99a5-8f49a6a353c7
 ---
+
 Engaging with the digital community is vital for establishing a robust online presence. Not only does it elevate your company's website visibility via backlinks, but Google's algorithm also heavily favors such interactions. Beyond SEO advantages, it's a heartfelt way to commend the dedication of bloggers and developers. Commenting on blogs and acknowledging GitHub contributions are foundational practices in this endeavor.
 
 <!--endintro-->
 
 ## The Benefits
 
-* **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
-* **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
-* **For the Company:** The backlink to your website is the main way that Google and other search engines (including LLMs such as ChatGPT) work out how highly they should rank your website in their results.
+- **For the Blogger:** They receive direct appreciation, boosting the visibility of their content. For instance, a renowned blogger could secure sponsorships or speaking gigs.
+- **For the Individual:** Establishes a solid reputation and broadens your connections. For example, Bob Northwind emerges as a trusted expert in his field.
+- **For the Company:** The backlink to your website is the main way that Google and other search engines (including LLMs such as ChatGPT) work out how highly they should rank your website in their results.
 
 ## Blogs - Giving thanks
 
-When leaving a blog comment, always incorporate your signature with your name and URL. This not only establishes your professional identity but also contributes to your company's online footprint. The signature is used to track your comments. 
+When leaving a blog comment, always incorporate your signature with your name and URL. This not only establishes your professional identity but also contributes to your company's online footprint. The signature is used to track your comments.
 
 ::: greybox
 Thanks for this valuable contribution! 👏\
-Bob Northwind www.ssw.com.au 
+Bob Northwind www.ssw.com.au
 :::
 
 ::: good

@@ -1,4 +1,5 @@
 ---
+seoDescription: Interfaces and abstract classes provide a clear overview of code structure and behavior without delving into implementation details.
 type: rule
 title: Reading Source Code - Do you understand the importance of interfaces and
   abstract classes?
@@ -15,6 +16,7 @@ related:
 created: 2023-07-01T00:00:00.000Z
 guid: dc2f25d6-46b4-4917-8328-70459c7f8165
 ---
+
 When embarking on understanding a new codebase, it's crucial to identify the components that offer the most insight with the least effort. Interfaces and Abstract Classes stand out as the pillars that uphold the structure and behavior of the code, providing a clear overview without delving into the intricate details of implementation.
 
 <!--endintro-->
@@ -27,8 +29,8 @@ When embarking on understanding a new codebase, it's crucial to identify the com
 
 Interfaces and abstract classes provide 2 main insights by helping you know:
 
-* Data structures and their relationships​
-* What functionality a class can provide
+- Data structures and their relationships​
+- What functionality a class can provide
 
 ### What is an interface?
 
@@ -54,12 +56,10 @@ class Circle implements Shape {
   color: string;
   radius: number;
 
-
   constructor(color: string, radius: number) {
     this.color = color;
     this.radius = radius;
   }
-
 
   area(): number {
     return Math.PI * this.radius * this.radius;
@@ -75,13 +75,11 @@ class Rectangle implements Shape {
   width: number;
   height: number;
 
-
   constructor(color: string, width: number, height: number) {
     this.color = color;
     this.width = width;
     this.height = height;
   }
-
 
   area(): number {
     return this.width * this.height;
@@ -92,12 +90,11 @@ class Rectangle implements Shape {
 These implementations can then be instantiated separately depending on the kind of shape that is needed.
 
 ```typescript
-const circle = new Circle('red', 10);
+const circle = new Circle("red", 10);
 console.log(circle.color); // outputs "red"
 console.log(circle.area()); // outputs "314.1592653589793"
 
-
-const rectangle = new Rectangle('blue', 5, 10);
+const rectangle = new Rectangle("blue", 5, 10);
 console.log(rectangle.color); // outputs "blue"
 console.log(rectangle.area()); // outputs "50"
 ```
@@ -109,24 +106,21 @@ interface Animal {
   eat(): void;
 }
 
-
 interface Mammal extends Animal {
   breathe(): void;
 }
 
-
 interface Dog extends Mammal {
   bark(): void;
 }
-
 
 interface Bulldog extends Dog {
   snore(): void;
 }
 ```
 
-::: bad 
-Figure: Bad Example - When you over abstract, it becomes harder to find the right place to add new methods 
+::: bad
+Figure: Bad Example - When you over abstract, it becomes harder to find the right place to add new methods
 :::
 
 The role of the interface is to reduce coupling. For example, if you need to change how the area is calculated for a rectangle but not for a circle, you can do so without affecting how the circle behaves. It also improves scalability. Every time a new shape is added, there is already a set of well-defined methods, making it easier to add the new class.​
@@ -145,14 +139,11 @@ We can define an abstract class called Payment:
 abstract class Payment {
   amount: number;
 
-
   constructor(amount: number) {
     this.amount = amount;
   }
 
-
   abstract processPayment(): void;
-
 
   receipt(): void {
     console.log(`Payment of $${this.amount} has been processed.`);
@@ -191,7 +182,6 @@ const bankTransfer = new BankTransfer(512);
 bankTransfer.processPayment(); // Processing a bank transfer of $512
 bankTransfer.receipt(); // Payment of $512 has been processed.
 
-
 const creditCardPayment = new CreditCardPayment(1024);
 creditCardPayment.processPayment(); // Processing a credit card payment of $1024
 creditCardPayment.receipt(); // Payment of $1024 has been processed.
@@ -203,8 +193,8 @@ The primary purpose of abstract classes is to solve code reuse problems. If we d
 
 The best time to read interfaces and abstract classes is:
 
-* After understanding the business problem
-* Before diving into implementation details
+- After understanding the business problem
+- Before diving into implementation details
 
 ### Other Benefits
 

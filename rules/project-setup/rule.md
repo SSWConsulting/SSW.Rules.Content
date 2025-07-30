@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your project setup and enhance developer experience with tips on documentation, PowerShell scripts, Docker containerization, and dev containers for streamlined workflows
 type: rule
 title: Project setup - Do you make project setup as easy as possible?
 uri: project-setup
@@ -54,7 +55,8 @@ E.g. Problems to check for:
 * Windows 8 not supported
 * Latest backup of the database
 * npm version
-  :::
+
+:::
 
 ::: greybox
 **Tip:** Don't forget about the database, your developers need to know how to work with the database
@@ -71,7 +73,7 @@ A perfect solution would need no static documentation. Perfect code would be so 
 
 All manual workstation setup steps should be scripted with PowerShell, as per the below example:
 
-::: greybox 
+::: greybox
 
 ```powershell
 PS C:\Code\Northwind&gt; **.\Setup-Environment.ps1**
@@ -88,7 +90,7 @@ To try and automatically resolve the problems found, re-run the script with a `-
 :::
 
 ::: good
-**Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed**
+Figure: Good example - A PowerShell script removes human error and identifies problems in the devs environment so they can be fixed
 :::
 
 ### Level 3: Less maintenance using Docker containerization
@@ -103,7 +105,7 @@ Learn more: [Project setup - Do you use Docker to containerize your SQL Server e
 
 ### Level 4: More standardization using dev containers
 
-Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience. 
+Dev containers take the whole idea of docker containerization to another level. By setting up a repo to have the right configuration, the dev team can be certain that every developer is going to get the exact same experience.
 
 Learn more: [Project setup - Do you containerize your dev environment?](/dev-containers)
 

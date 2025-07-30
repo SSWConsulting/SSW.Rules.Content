@@ -1,105 +1,150 @@
 ---
 type: rule
-title: Do you know the best email template software?
+title: Do you know the best software for email templates?
+seoDescription: Learn about the best email template software options to ensure
+  consistency in your organization's communications.
 uri: use-the-best-email-templates
 authors:
   - title: Warwick Leahy
     url: https://ssw.com.au/people/warwick-leahy
+  - title: Tanya Leahy
+    url: https://ssw.com.au/people/tanya-leahy
+related:
+  - link-emails-to-the-rule-or-template-they-follow
 created: 2023-08-27T22:08:02.981Z
 guid: bcc7844e-98f7-476d-abdc-47b229b11619
+
 ---
 
-
-
-When sending repetitive emails, consistency across the organization is crucial. Email templates can help achieve this. Let's explore some popular options and their pros and cons.
+When sending repetitive emails, consistency across the organization is crucial. This ensures that past emails can easily be searched months after being sent. Email templates can help achieve this by ensuring that all communications are uniform and professional. With many email template options on the market, it is important to choose one that is enterprise ready.
 
 <!--endintro-->
 
-## 1. Outlook email templates
+`youtube: https://youtu.be/WWn05-oFkN4`
+**Video: Email Template Showdown: We Put the Top Tools to the Test! | Tanya Leahy | Rules (16 mins)**
 
-**Pros:**
+| Options                          | ✅ Pros                                         | ❌ Cons                                                                       |
+| -------------------------------- | ---------------------------------------------- | ---------------------------------------------------------------------------- |
+| **Outlook Templates**            | Simple to create, easily shared via SharePoint | Must create a new email, can't be used for meeting invites in calendars      |
+| **My Templates**                 | Simple to create                               | Can't be shared, 32KB limit, stored on the server                            |
+| **Signatures**                   | Rich text, simple to create                    | Stored locally, can't be shared, size restricted                             |
+| **Quick Parts**                  | Rich text                                      | Stored locally, can't be shared                                              |
+| **Word Documents on SharePoint** | Rich text, easily shared                       | Need to switch between windows to use                                        |
+| **Dynamics 365 Email Templates** | Rich text, shared, access to contact data      | Complex setup, font issues, doesn't work with meetings, template duplication |
+| **⭐️ officeatwork Content Chooser** | Rich text, easily shared, simple setup         | Templates must be manually updated                                           |
 
-* Simple to create
-* Can be shared easily (e.g., via SharePoint)
+With a variety of options available, each offering unique features for customization, automation, and integration, below is a summary for each of the top contenders.
 
-**Cons:**
+## Option 1 - Outlook Templates
 
-* Always need to create a new email
-* Can't be used for Calendars
+::: greybox
 
-## 2. My Templates
+Simple to create and can be shared easily (e.g., via SharePoint). However, a new email is always generated from these templates, so they cannot be used for email replies or for calendars without manual copying and pasting.
 
-**Pros:**
+:::
 
-* Simple to create
+::: bad
+Figure: Bad example - Outlook Templates are easy to share but have limitations with creation and calendar integration
+:::
 
-**Cons:**
+More information on [Outlook Templates](https://support.microsoft.com/en-au/office/create-an-email-message-template-43ec7142-4dd0-4351-8727-bd0977b6b2d1).
 
-* Can't be shared with other users
-* 32Kb limit
-* Stored on the Server in your mailbox
+## Option 2 - My Templates
 
-## 3. Signatures
+::: greybox
 
-**Pros:**
+Simple to create but can't be shared with other users, have a 32KB limit, and are stored on the server in your mailbox.
 
-* Simple to create
+:::  
 
-**Cons:**
+::: bad
+Figure: Bad example - My Templates are limited in size and sharing capabilities, making them less useful for collaborative environments
 
-* Stored locally, so can't be shared with other devices or users
-* 32Kb limit
-* Stored on the Server in your mailbox
+:::
 
-## 4. Quick Parts
+More information on [My Templates](https://www.howtogeek.com/697468/how-to-use-outlooks-my-templates-add-in-for-quick-text-entry/).
 
-**Pros:**
+## Option 3 - Signatures
 
-* Rich text
+::: greybox
 
-**Cons:**
+Simple to create but are stored locally, so they can't be shared with other devices or users. Signatures have a 5000 character limit.
 
-* Stored locally
-* Can't be shared
+:::
 
-## 5. Word documents on SharePoint
+::: bad
+Figure: Bad example - Signatures are easy to create but lack sharing capabilities and are limited by storage constraints
+:::
 
-**Pros:**
+More information on [Signatures](https://support.microsoft.com/en-au/office/create-and-add-an-email-signature-in-outlook-8ee5d4f4-68fd-464a-a1c1-0e1c80bb27f2).
 
-* Rich text
-* Can be shared with anyone
+## Option 4 - Quick Parts
 
-**Cons:**
+::: greybox
 
-* Need to switch to another window
+Supports rich text but is stored locally and can't be shared.
 
-## 6. Dynamics 365 Email Templates
+:::
 
-**Pros:**
+::: bad
 
-* Rich text
-* Shared with anyone
-* Access to contact data
-* Duplication of templates
+Figure: Bad example - Quick Parts are useful for rich text but not suitable for sharing among users
 
-**Cons:**
+:::
 
-* More complex to set up
-* Fonts can be tricky to set
-* Doesn't work with meetings
-* Duplication of templates
-* Many clicks to access the template
+More information on [Quick Parts](https://support.microsoft.com/en-au/office/quick-parts-4ffef7c5-7596-4e95-9faf-41c771847a7b).
 
-## 7. OfficeAtWork Content Chooser
+## Option 5 - Word Documents on SharePoint
 
-**Pros:**
+::: greybox
 
-* Rich text
-* Shared with anyone using SharePoint
-* Simple setup – Just upload a Word document
+Allows for rich text and can be shared with anyone, but requires switching to another window to use.
 
-**Cons:**
+:::
 
-* Templates have to be manually updated
+::: ok
+
+Figure: OK example - Word documents on SharePoint support rich text and easy sharing, although the process lacks efficiency
+
+:::
+
+## Option 6 - Dynamics 365 Email Templates
+
+::: greybox
+
+Offer rich text, can be shared with anyone, and provide access to contact data. However, they are complex to set up, fonts can be tricky, they don't work with meetings, and may involve many clicks to access.
+
+:::
+
+::: ok
+Figure: OK example - Dynamics 365 Email Templates have robust features but are complex to manage and access
+:::
+
+More information on [Dynamics 365 Email Templates](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/04/10/create-beautiful-email-templates-with-enhanced-email-editor/).
+
+## Option 7 - officeatwork Content Chooser (⭐️ recommended)
+
+::: greybox
+
+Supports rich text and allows for easy sharing via SharePoint. Setup is straightforward—simply upload a Word document. However, templates must be updated manually.
+
+:::
+
+::: good
+Figure: Good example - officeatwork Content Chooser offers ease of use and sharing, though it requires manual updates
+:::
+
+More information on [officeatwork Content Chooser](https://help.officeatwork.com/en/articles/1075-welcome-to-content-chooser).
 
 ---
+
+## ⚠️ Avoid reusing sent emails to generate new ones
+
+Reusing an email from your **Sent Items** can lead to mistakes and miscommunication. It's easy to forget to update key details, such as:
+
+* **Outdated content** (e.g. old dates, names, or figures)
+* **Attachments** that are no longer relevant or missing entirely
+* **Subject line** (often still prefixed with "RE:")
+* **Duplicated email signature**
+
+These small oversights can make your message look unprofessional or cause confusion for the recipient. It’s better to start with a fresh draft from the proper template.

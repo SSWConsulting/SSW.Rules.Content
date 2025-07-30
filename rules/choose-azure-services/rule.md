@@ -1,4 +1,5 @@
 ---
+seoDescription: Choose the Right Azure Services - Mastering Application Architecture Discover how to select the perfect Azure services for your application with a simple 2-question framework. Learn about the different control models, data storage options, and more to ensure a successful project outcome.
 type: rule
 title: Do you know how to choose Azure services?
 uri: choose-azure-services
@@ -10,11 +11,12 @@ authors:
 created: 2022-06-16T07:33:51.366Z
 guid: 00777476-6f6f-4bb8-b583-ca2a4a4ffbd6
 ---
+
 Getting application architecture right is super hard and often choosing the wrong architecture at the start of a project causes immense pain further down the line when the limitations start to become apparent.
 
 [Azure has 100s of offerings](https://azure.microsoft.com/services) and it can be hard to know what the right services are to choose for any given application.
 
-However, there are a few questions that [Azure MVP Barry Luijbregts has come up with](https://github.com/bmaluijb/HowIChooseMyAzureServices/blob/master/How%20I%20choose%20which%20services%20to%20use%20in%20Azure.pdf) to help narrow down the right services for each business case. 
+However, there are a few questions that [Azure MVP Barry Luijbregts has come up with](https://github.com/bmaluijb/HowIChooseMyAzureServices/blob/master/How%20I%20choose%20which%20services%20to%20use%20in%20Azure.pdf) to help narrow down the right services for each business case.
 
 <!--endintro-->
 
@@ -38,16 +40,19 @@ Keep in mind, that the more control you have, the more maintenance will be requi
   * Consumer responsible for everything beyond the hardware
 
     e.g. Azure VM, AKS
+
 * Platform as a Service (PaaS)
 
   * Consumer responsible for App configuration, building the app and server configuration
 
     e.g. Azure App Service
-* Functions as a Service (FaaS) -- the Logic 
+
+* Functions as a Service (FaaS) -- the Logic
 
   * Consumer responsible for App configuration and building the app
 
     e.g. Azure Functions, Azure Logic Apps
+
 * Software as a Service (SaaS)
 
   * Consumer responsible for only App configuration
@@ -56,9 +61,9 @@ Keep in mind, that the more control you have, the more maintenance will be requi
 
 ### 1.2 Location - Where do I need the app to run?
 
-Choosing where to run your app 
+Choosing where to run your app
 
-* Azure 
+* Azure
 * On-Premises
 * Other Platforms e.g. AWS, Netlify, GitHub Pages
 * Hybrid
@@ -72,6 +77,7 @@ There are 2 models:
 * Runs all the time
 
   * Classic (Pay per month) e.g. Azure App Service, Azure VM, AKS
+
 * Runs Occasionally
 
   * Serverless (Pay per execution) e.g. Azure Functions, Azure Logic Apps
@@ -89,6 +95,7 @@ So data can be put into 2 categories:
 * Online Transaction Processing (OLTP)
 
   * For general application usage e.g. storing customer data, invoice data, user data etc
+
 * Online Analytical Processing (OLAP)
 
   * For data analytics e.g. reporting
@@ -125,7 +132,7 @@ It also has a scheduled job that runs daily, picks up all the user data and puts
 
 ### Q2: Data - How to store it?
 
-**Purpose** - The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics. 
+**Purpose** - The data coming in for everyday usage is largely transactional while the reporting data is more for data analytics.
 
 **Structure** - The data is mostly structured except for the variable learning items.
 

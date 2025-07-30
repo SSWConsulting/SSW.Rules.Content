@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve PBI visibility by duplicating content into an email with unique subject and sender.
 type: rule
 title: Do you send a PBI via email to raise visibility?
 uri: email-copy-to-raise-pbi-visibility
@@ -12,7 +13,6 @@ related:
   - turn-emails-into-pbis
 created: 2022-03-05T01:31:10.429Z
 guid: 15dedc41-6733-49e8-b40a-c5d123d340bd
-
 ---
 
 With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk of people deleting them without reading the content – it doesn't happen with manual emails that have unique subjects and a real person as the sender.
@@ -22,11 +22,11 @@ With automatically sent backlog emails (Azure DevOps or GitHub), there is a risk
 If you have an important PBI and want to improve its visibility, then duplicate the content of the PBI into an email.
 
 ::: email-template
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Gary Green|
+| To: | Gary Green|
 | Subject: | SugarLearning Leaderboard - Create leaderboard for approvals count |
-::: email-content  
+::: email-content
 
 (copy of the PBI - {{ PBI LINK }} as per rule <https://ssw.com.au/rules/email-copy-to-raise-pbi-visibility>)
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Maintaining consistent SharePoint sites helps users navigate through new pages with ease, thanks to familiar navigation and headings.
 type: rule
 title: Do you have consistent SharePoint Sites?
 uri: consistent-sharepoint-sites
@@ -15,13 +16,14 @@ related:
 created: 2022-05-05T04:49:43.291Z
 guid: 55742b01-36da-491a-84d8-5855fee4f2bd
 ---
+
 It's important for all your SharePoint Sites to be as consistent as possible. This helps users' navigation through new pages as they know exactly where to look.
 
 `youtube:https://www.youtube.com/embed/Wf9o6jGhXJI`
 
 <!--endintro-->
 
-Following these simple rules makes this really easy:  
+Following these simple rules makes this really easy:
 
 1. Put your preferred navigation in the same place (usually on the left-hand side)
 2. Keep the headings consistent

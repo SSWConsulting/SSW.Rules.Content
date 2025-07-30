@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how consultants and software developers can effectively upsell products and services by identifying opportunities during client interactions
 type: rule
 archivedreason: 
 title: Do you upsell your products or services?
@@ -15,7 +16,7 @@ redirects:
 
 ---
 
-Great consultants see opportunities and know that once they’re in at a client, they become a trusted advisor, and anything they say will have more weight than the same message coming from a Sales Person or an  Account Manager. 
+Great consultants see opportunities and know that once they’re in at a client, they become a trusted advisor, and anything they say will have more weight than the same message coming from a Sales Person or an  Account Manager.
 
 Not all software developers are comfortable with “upselling,” but it is important to be on the lookout. There are 2 key scenarios:
 
@@ -25,7 +26,6 @@ Not all software developers are comfortable with “upselling,” but it is impo
 Once a software developer sees an opportunity, they should have a corridor conversation and see if they get a positive bite from the customer. If they do then they should hand it over to the Account Manager to track in CRM (from there the client should be massaged until the new work is booked in).
 
 `youtube: https://www.youtube.com/embed/GvKVCMz1qVs`
- 
 
 ### 1 - When selling a product, upsell your most valuable service
 
@@ -63,7 +63,7 @@ Some developers see lots of opportunities for upselling, and once they get a pos
 **Scenario:** You overhear the client talking about implementing Azure AD. You do nothing and continue with your work.  
 :::
 ::: bad
-Figure: Bad example - of upselling 
+Figure: Bad example - of upselling
 :::
 
 ::: greybox
@@ -73,8 +73,12 @@ Figure: Bad example - of upselling
 Figure: Good example - of upselling
 :::
 
-### 3 - Advice from trenches 
+### 3 - Advice from trenches
 
 From the above video, you can see that the software consultants at SSW completed a Microsoft Form with the question: Your advice: Pretend you are talking to a junior dev about this concept of upselling. What do you say to them? Here were some stand out answers:
 
 ![Figure: Good ways to upsell](Screen Shot 2020-09-10 at 10.16.58 AM.png)
+
+::: greybox
+**Tip:** [Show your "Client Love" regularly](/weekly-client-love) so that your client are more willing to buy your upsellings.
+:::

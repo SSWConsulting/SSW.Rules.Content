@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep clients informed of project progress to avoid costly surprises and ensure a smoother experience.
 type: rule
 archivedreason: Merged with [inform-clients-about-estimates-overrun](https://www.ssw.com.au/rules/inform-clients-about-estimates-overrun)
 title: Do you keep your client informed of progress?
@@ -6,13 +7,12 @@ guid: 00ca730e-b867-47af-aca1-08ada83e94d1
 uri: do-you-keep-your-client-informed-of-progress
 created: 2012-09-25T17:50:48.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 A client will always prefer to be told ahead of time if a piece of functionality is going to take longer than anticipated. It gives them more control of what is going on. The other opinion is landing them with an oversized invoice with no warning.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Do include the company name when referring to your job title at SSW Software Engineer.
 type: rule
 title: Do you include the company name when referring to your job title?
 uri: prefix-job-title
@@ -19,12 +20,16 @@ Consistency is the most important part of branding. It leads to familiarity whic
 
 <!--endintro-->
 
-A job title on social media or other public place should be:
+A job title on social media or other public place should **always** be:
 
 * **{{ COMPANY NAME }} {{ POSITION }}**
   E.g. "SSW Software Engineer"
 
-**Note:** The coolest companies have [consistent branding](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
+::: info
+On LinkedIn you might put your title in 2 places (bio and job experience) **In both places, you should use the correct format!**
+:::
+
+This is to maintain consistency across the company - the companies with strong branding have [consistency](https://blog.hubspot.com/blog/tabid/6307/bid/34231/8-businesses-that-nail-social-media-brand-consistency.aspx)!
 
 ::: bad
 ![Figure: Bad example - Job title missing the company name](job-title-bad.jpg)

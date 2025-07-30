@@ -7,3 +7,5 @@ index:
 - confirm-quotes
 - do-you-put-a-cap-on-the-maximum-spend-for-contractors-paid-by-the-hour
 ---
+
+Ensure that quotes from contractors accurately reflect your requests and set a maximum spend limit for hourly payments.

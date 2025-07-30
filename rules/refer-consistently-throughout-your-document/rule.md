@@ -1,4 +1,5 @@
 ---
+seoDescription: When writing technical documentation, consistency in referring to the reader and author is crucial for a flowing reading experience. Ensure accurate referencing throughout your document
 type: rule
 archivedreason: 
 title: Do you refer to the reader and author consistently throughout your document?
@@ -36,8 +37,8 @@ Figure: Good example - There is no noticeable break in the reading flow
 
 The first example is bad because it confuses the reader as to whom the author is referring.
 
-It is occasionally acceptable to use the first person, "we", "I", "us", "our" etc.   
-An example of an acceptable use of first person is: "We recommend that you backup your database first." **However, you must never use the first person to refer to the reader.** 
+It is occasionally acceptable to use the first person, "we", "I", "us", "our" etc.  
+An example of an acceptable use of first person is: "We recommend that you backup your database first." **However, you must never use the first person to refer to the reader.**
 
 ::: greybox
 We will now open a web browser and go to the home page.  

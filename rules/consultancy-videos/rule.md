@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost brand awareness and engage potential clients by creating educational, client success story, industry news, Q&A, product demonstration, collaboration, and behind-the-scenes videos for YouTube and TikTok.
 type: rule
 title: Do you know the kinds of videos you should make to promote your consultancy?
 uri: consultancy-videos
@@ -8,6 +9,7 @@ authors:
 created: 2023-03-20T18:39:19.549Z
 guid: c3880f24-514e-472e-bfd9-ac411651e399
 ---
+
 Producing video content for YouTube and TikTok can help you increase brand awareness, engage with potential clients, and showcase your expertise in the software industry. Here are some types of video that you might create:
 
 <!--endintro-->

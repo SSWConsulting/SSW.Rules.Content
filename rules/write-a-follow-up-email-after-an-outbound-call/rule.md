@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to craft a personalized follow-up email after an outbound call with actionable tips to keep clients engaged and avoid cold starts in future communication.
 type: rule
 archivedreason: 
 title: Do you know how to write a follow-up email after an outbound call?
@@ -20,7 +21,6 @@ If you don't then the client will ignore your email.
 
 These are the 5 things that you should include in your follow-up email:
 
-
 <!--endintro-->
 
 1. Record what was said in the conversation including:
@@ -35,13 +35,14 @@ These are the 5 things that you should include in your follow-up email:
 All this information is important as it gives the next salesperson who speaks to this person a good background on your interaction with them.
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Marlon |
 | Subject: | Talk soon |  
-::: email-content 
+::: email-content
 
-### Hi Marlon,  
+### Hi Marlon  
 
 As per our conversation, I look forward to seeing you at the SharePoint 101 workshop next month.
 
@@ -54,17 +55,19 @@ Figure: Bad Example - The next time you call you will NOT 'remember' any details
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Marlon |
 | Subject: | TFS upgrade |  
-::: email-content 
+::: email-content
 
-### Hi Marlon,  
+### Hi Marlon  
 
 As per our conversation, you are currently using Team Foundation Server 2008 to manage small development projects and source control.
 
 If you are looking to upgrade to TFS 2010, we have a special offer. We will:
+
 1. Migrate your old version to the new version
 2. Give you a Scrum master for the first 2-week print FREE of charge
 
@@ -78,5 +81,5 @@ Feel free to contact me for more information.
 :::  
 :::  
 ::: good
-Good Example: the next time you call you will be able to 'remember' plenty of details 
+Good Example: the next time you call you will be able to 'remember' plenty of details
 :::

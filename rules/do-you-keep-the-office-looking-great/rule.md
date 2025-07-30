@@ -1,16 +1,16 @@
 ---
+seoDescription: Maintain a professional office environment by keeping spaces clean and organized to ensure a positive impression for clients and colleagues.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you keep the office looking great?
 guid: 15d340df-3b10-4b38-8d5e-166b916b335d
 uri: do-you-keep-the-office-looking-great
 created: 2013-07-30T21:33:15.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 The PA is often the face of the business. It is important to encourage everyone to keep the space looking as good as possible.

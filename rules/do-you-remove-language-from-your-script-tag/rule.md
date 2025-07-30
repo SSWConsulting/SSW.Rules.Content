@@ -1,17 +1,17 @@
 ---
+seoDescription: Remove outdated "language" attribute and specify scripting language as a content type instead.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you remove "Language" from your script tag?
 guid: a5f42e3c-b24e-43de-8021-a85e9fed0656
 uri: do-you-remove-language-from-your-script-tag
 created: 2012-07-24T18:10:04.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
-- do-you-remove-＂language＂-from-your-script-tag
-
+  - do-you-remove-＂language＂-from-your-script-tag
 ---
 
 Years ago, it was common to have the "language" attribute within the script tags. This attribute was used to specify the scripting language of the contents of this element.
@@ -23,6 +23,7 @@ Since these identifiers are not standard, this attribute has been deprecated in 
 ```html
 <script href="script.js" language="javascript"></script>
 ```
+
 ::: bad
 Figure: Bad example - Language attribute has been deprecated
 :::
@@ -30,6 +31,7 @@ Figure: Bad example - Language attribute has been deprecated
 ```html
 <script href="script.js" type="text/javascript"></script>
 ```
+
 ::: good
 Figure: Good example - The scripting language is specified as a content type
 :::

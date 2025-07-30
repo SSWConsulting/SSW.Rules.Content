@@ -1,12 +1,13 @@
 ---
+seoDescription: Domain and Integration Events improve decoupling and communication between application layers, enabling loose coupling and better maintainability.
 type: rule
 title: Do you know when to use Domain and Integration Events?
 guid: e91f22d2-d385-49b6-a27b-1195b4bb13f9
 uri: when-to-use-domain-and-integration-events
 created: 2023-07-25T11:01:35.0000000Z
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 archivedreason:
 related: []
 redirects:

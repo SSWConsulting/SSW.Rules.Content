@@ -1,4 +1,5 @@
 ---
+seoDescription: New developers to SSW's DotNetNuke environment can get started with a comprehensive induction training program, providing access to various resources and tools.
 type: rule
 title: Do you have your new developers go through the SSW DotNetNuke Induction
   training?
@@ -10,9 +11,11 @@ created: 2014-03-14T03:05:00.000Z
 archivedreason: outdated
 guid: bd6e4d7c-0957-44f1-8d7c-50b34f7583ff
 ---
+
 There are lots of DNN resources at dotnetnuke.com
-            
+
 <!--endintro-->
+
 There you can:
 
 1. Get latest download

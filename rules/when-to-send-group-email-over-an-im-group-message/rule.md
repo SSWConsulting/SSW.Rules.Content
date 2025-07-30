@@ -1,4 +1,5 @@
 ---
+seoDescription: Send group emails over IM groups when sharing critical information or seeking feedback from all staff, while using IM groups for general comments and random posts.
 type: rule
 title: Do you know when to send a group email over an IM group message?
 uri: when-to-send-group-email-over-an-im-group-message

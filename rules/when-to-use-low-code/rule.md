@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover when to choose Low-Code over Full-Stack Development with Microsoft Power Platform, exploring its benefits and decision criteria for your business needs.
 type: rule
 title: Do you know when to choose Low-Code over Full-Stack Development
 uri: when-to-use-low-code

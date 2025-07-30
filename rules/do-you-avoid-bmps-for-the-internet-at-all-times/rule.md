@@ -1,6 +1,7 @@
 ---
+seoDescription: Avoid using BMP files on your website or in emails due to their large file sizes; opt for PNG for better performance online
 type: rule
-archivedreason: 
+archivedreason: Merged to https://www.ssw.com.au/rules/image-formats
 title: Do you avoid BMPs for web at all times?
 guid: 6b4e156f-8da4-465b-9cdf-9366fb3ab28b
 uri: do-you-avoid-bmps-for-the-internet-at-all-times
@@ -20,5 +21,3 @@ Never use bitmap images (.BMP format) on your website or in emails. BMP is an un
 <!--endintro-->
 
 As an alternative, the most ideal format for Internet-ready lossless images is PNG.
-
-We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

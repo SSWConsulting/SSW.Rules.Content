@@ -1,4 +1,5 @@
 ---
+seoDescription: Use threading to improve user interface responsiveness during long-running processes.
 type: rule
 title: Do you use Threading to make your user interfaces more responsive?
 uri: use-threading-to-make-your-user-interfaces-more-responsive
@@ -8,7 +9,8 @@ authors:
 created: 2014-03-14T00:22:00.000Z
 guid: e32158bf-07a5-4039-bf77-13ff9983545b
 ---
-Threading is not only used to allow a server to process multiple client requests - it could make your user interfaces responsive when your application is performing a long-running process, allowing the user to keep interactive. 
+
+Threading is not only used to allow a server to process multiple client requests - it could make your user interfaces responsive when your application is performing a long-running process, allowing the user to keep interactive.
 
 <!--endintro-->
 
@@ -17,13 +19,13 @@ Threading is not only used to allow a server to process multiple client requests
 :::
 
 ```cs
-private void Form1_Load(object sender, EventArgs e) 
-{ 
+private void Form1_Load(object sender, EventArgs e)
+{
     this.ValidateSQLAndCheckVersion();// a long task
-} 
+}
 ```
 
- **Code: No threading code for long task**  
+**Code: No threading code for long task**
 
 ::: good
 ![Figure: Good example - Responsive UI in progress](threadingstart.gif)
@@ -59,7 +61,7 @@ public void CheckDatabase()
     {
         OnValidationFinished(false, false);
     }
-    
+
     Thread thread = new Thread(new ThreadStart(this.ValidateSQLAndCheckVersion) ) ;
 
     thread.Name = "DBCheckingThread";
@@ -67,4 +69,5 @@ public void CheckDatabase()
     thread.Start();
 }
 ```
- **Code: Threading code for long task**
+
+**Code: Threading code for long task**

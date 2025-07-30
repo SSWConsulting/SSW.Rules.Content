@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft's Group Managed Service Accounts (gMSAs) provide a secure and practical identity solution for services, automating password management and eliminating expired passwords.
 type: rule
 title: Do you use gMSAs (Group Managed Service Accounts)?
 uri: group-managed-service-account-gmsa
@@ -9,6 +10,7 @@ authors:
 created: 2022-07-14T02:32:14.150Z
 guid: 3a0225ad-a27f-4f72-b978-ab2580a82342
 ---
+
 gMSA (Group Managed Service Accounts) are a secure and practical identity solution from Microsoft where services can be configured to use the gMSA principal and password management is handled by Windows - you don't need to worry about expired passwords anymore.
 
 <!--endintro-->
@@ -24,12 +26,12 @@ gMSAs are the superior option when it comes to security and flexibility. It shou
 
 ### There are some requirements and difficulties for using these kinds of accounts
 
-* **Support** - The application/service must support gMSAs
-* **AD domain and forest functional level** - Windows Server 2012 or newer
-* **KDC** - Domain controller with Microsoft Key Distribution Service (KdsSvc) enabled
-* **PowerShell** - To create and manage service AD accounts, you need to install the Active Directory module for Windows PowerShell
-* **Supported Windows versions** - Windows Server 2012/Windows 8 or newer
-* **Services set up without gMSAs** - Rebuilding or changing the service account in applications that already set up and running (e.g. Data Protection Manager, Azure AD Sync) might break these applications, so a full re-install might be necessary to use gMSAs instead of a simple user change
+- **Support** - The application/service must support gMSAs
+- **AD domain and forest functional level** - Windows Server 2012 or newer
+- **KDC** - Domain controller with Microsoft Key Distribution Service (KdsSvc) enabled
+- **PowerShell** - To create and manage service AD accounts, you need to install the Active Directory module for Windows PowerShell
+- **Supported Windows versions** - Windows Server 2012/Windows 8 or newer
+- **Services set up without gMSAs** - Rebuilding or changing the service account in applications that already set up and running (e.g. Data Protection Manager, Azure AD Sync) might break these applications, so a full re-install might be necessary to use gMSAs instead of a simple user change
 
 ## Set up gMSAs
 
@@ -46,7 +48,7 @@ A one-time operation must be performed to create a KDS root key. Do the followin
 
 1. Login to your DC | run the PowerShell command:
 
-   1. *`New-ADServiceAccount [-Name] <string> -DNSHostName <string> [-KerberosEncryptionType <ADKerberosEncryptionType>] [-ManagedPasswordIntervalInDays <Nullable[Int32]>] [-PrincipalsAllowedToRetrieveManagedPassword <ADPrincipal[]>] [-SamAccountName <string>] [-ServicePrincipalNames <string[]>]`*
+   1. _`New-ADServiceAccount [-Name] <string> -DNSHostName <string> [-KerberosEncryptionType <ADKerberosEncryptionType>] [-ManagedPasswordIntervalInDays <Nullable[Int32]>] [-PrincipalsAllowedToRetrieveManagedPassword <ADPrincipal[]>] [-SamAccountName <string>] [-ServicePrincipalNames <string[]>]`_
 
 Here's how you should fill out each of the bracketed parameters:
 
@@ -56,6 +58,7 @@ Here's how you should fill out each of the bracketed parameters:
 4. **Managed Password Internal In Days:** How often you want the password to be changed (by default this is 30 days -- remember, the change is handled by Windows)
 
    \* note: This cannot be changed after the gMSA is created. To change the interval, you'll need to create a new gMSA and set a new interval.
+
 5. **Principals Allowed To Retrieve Managed Password:** These can be the accounts of member hosts, or if there is a security group that member hosts are a part of, you would enter them here.
 6. **Sam Account Name:** This is the NetBIOS name for the service if it's different from the account name.
 7. **Service Principal Names:** This is a list of the Service Principal Names (SPNs) for the service)

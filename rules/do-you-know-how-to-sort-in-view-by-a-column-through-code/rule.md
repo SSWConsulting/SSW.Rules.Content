@@ -1,18 +1,18 @@
 ---
+seoDescription: Learn how to sort a SharePoint view by a column using code.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to sort in view by a column through code
 guid: 19d582ea-4667-4b80-a4a3-3dc5a9e515c3
 uri: do-you-know-how-to-sort-in-view-by-a-column-through-code
 created: 2013-07-08T05:40:10.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
-- title: Brendan Richards
-  url: https://ssw.com.au/people/brendan-richards
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
+  - title: Brendan Richards
+    url: https://ssw.com.au/people/brendan-richards
 related: []
 redirects: []
-
 ---
 
 You may know that it is quite easy to sort view by a column through the UI.
@@ -25,15 +25,15 @@ But when you are trying to do that via code, you may find a pretty tricky issue.
 
 You can use some code like:
 
-``` sql
+```sql
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" FALSE \" /></OrderBy>";
 ```
 
-**Figure: Use code to change view sort** 
+**Figure: Use code to change view sort**
 
 But the below code won't work:
 
-``` sql
+```sql
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" False \" /></OrderBy>";
 ```
 
@@ -43,7 +43,7 @@ Bad example - The Ascending attribute is case-sensitive
 
 The full code should be some code like:
 
-``` sql
+```sql
 SPView view = list.DefaultView;
 view.Query = "<OrderBy><FieldRef Name=\"Modified\" Ascending=\" FALSE \" /></OrderBy>";
 view.Update();

@@ -1,18 +1,18 @@
 ---
+seoDescription: Generate a print.css file to optimize your website's printing experience, ensuring a nicely printable version of your web pages.
 type: rule
-archivedreason: 
+archivedreason:
 title: Printing - Do you have a print.css file so your web pages are nicely printable?
 guid: 80e333f6-7200-4b01-b2d4-79d6ced9f4bb
 uri: printing-do-you-have-a-print-css-file-so-your-web-pages-are-nicely-printable
 created: 2014-12-09T19:14:24.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects: []
-
 ---
 
 As we know portable devices like tablets and mobile phones are being more and more used as reading devices, however printing web pages is still often necessary. In general web designers don't think about printing when putting a website up, meaning we're left with web pages that frustratingly don't properly print on to paper.

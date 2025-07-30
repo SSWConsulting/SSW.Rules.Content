@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to streamline code reviews and boost development efficiency by using Co-Creation Patterns, a game-changing approach that combines pair programming and mob programming techniques.
 type: rule
 title: Do you use Co-Creation Patterns?
 uri: co-creation-patterns
@@ -13,10 +14,9 @@ redirects:
   - do-you-use-co-creation-patterns
 created: 2022-11-21T00:28:43.256Z
 guid: 4ff555fd-3f4c-416b-9fc3-1bf9409cc0ab
-
 ---
 
-These days Pull Requests are the de facto standard for getting code reviewed. Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task.  This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
+These days Pull Requests are the de facto standard for getting code reviewed. Once a developer has finished their change, they will typically submit a Pull Request and move on to their next task. This allows for an asynchronous process to take place which may seem like a good idea, but often is not and can also lead to inefficiencies.
 
 <!--endintro-->
 
@@ -27,12 +27,12 @@ These days Pull Requests are the de facto standard for getting code reviewed. On
 
 Inefficient code reviews can be caused by:
 
-* Requesting feedback too late
-* Receiving feedback too slow
-* Creating large Pull Requests
-* Excessive context switching
-* Too much work in progress
-* Unclear feedback
+- Requesting feedback too late
+- Receiving feedback too slow
+- Creating large Pull Requests
+- Excessive context switching
+- Too much work in progress
+- Unclear feedback
 
 ::: bad
 ![Figure: Bad example - Vicious cycle of being blocked and picking up yet another task](co-creation-1.png)
@@ -46,20 +46,20 @@ Inefficient code reviews can be caused by:
 
 ## ✅ How to Make Code Reviews More Efficient
 
-* Author - [Do over the shoulder reviews](/over-the-shoulder)
-* Author - Ask for feedback early before the PR, if you are uncertain that you're on the correct path
-* Limit work in progress
-  * Author - Make sure your Pull Requests are merged, before starting a new task
-  * Reviewer - Prioritize Pull Requests before starting a new task
-* Author - Create small Pull Requests
-  * This requires a smaller block of time to review which makes it easier for the reviewer to find the time
-  * Less risk - reduces the chance of an incorrect approach being taken
-  * Get quality feedback - small blocks of code are easier to digest
-  * Create a [great Pull Request](/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
-* Reviewer - When reviewing asynchronously
-  * Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see [Incorporating feedback in your Pull Request
-](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
-  * Call the developer for more complicated changes
+- Author - [Do over the shoulder reviews](/over-the-shoulder)
+- Author - Ask for feedback early before the PR, if you are uncertain that you're on the correct path
+- Limit work in progress
+  - Author - Make sure your Pull Requests are merged, before starting a new task
+  - Reviewer - Prioritize Pull Requests before starting a new task
+- Author - Create small Pull Requests
+  - This requires a smaller block of time to review which makes it easier for the reviewer to find the time
+  - Less risk - reduces the chance of an incorrect approach being taken
+  - Get quality feedback - small blocks of code are easier to digest
+  - Create a [great Pull Request](/write-a-good-pull-request/) to make it easier for the reviewer to understand your changes.
+- Reviewer - When reviewing asynchronously
+  - Be explicit and suggest the exact code changes where possible (GitHub has a feature for this, see [Incorporating feedback in your Pull Request
+    ](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/incorporating-feedback-in-your-pull-request)
+  - Call the developer for more complicated changes
 
 ## The Ultimate Solution - Co-Creation Patterns
 
@@ -83,7 +83,7 @@ Co-creation patterns can take some different forms:
 For the patterns above, the similarities are that there is a driver and a navigator.
 
 **Driver** - Implements the solution/solves the problem at a granular level. They're the ones on the PC writting the code.
-**Navigator(s)**  - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
+**Navigator(s)** - Observes and understands the what the driver is implementing at a high-level and inquires where needed to help/direct the driver.
 
 ::: info
 **Note:** It is not the role of the navigator to micromanage the driver.
@@ -115,7 +115,7 @@ Here's a quick guide to getting started. Just note that these are just guideline
 4. **Maintain Open Communication:** Keep an ongoing dialogue to discuss ideas and approaches.
 5. **Regularly Swap Roles:** Switch between the driver and navigator roles periodically to maintain engagement and balance in the partnership.
 
-<!-- 
+<!--
 TODO: Add a PR screenshot of pair programming, show the PR Dan M with Jack R for the big PR for Rules GPT
 TODO: Add a PR screenshot of mob programming, we need to demonstrate what the PR would look like for this
  -->

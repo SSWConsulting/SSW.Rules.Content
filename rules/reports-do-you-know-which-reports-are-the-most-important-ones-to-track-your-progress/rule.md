@@ -1,20 +1,20 @@
 ---
+seoDescription: Track Scrum progress and stay on target with crucial reports that provide a clear picture of your team's performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Reports - Do you know which reports are the most important ones to track your progress?
 guid: 2d6ddda3-e3df-4c8f-8ad8-ed903c9919aa
 uri: reports-do-you-know-which-reports-are-the-most-important-ones-to-track-your-progress
 created: 2010-09-07T14:48:34.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
-
 ---
 
 In Scrum there is only one report that the team needs to track their progress.

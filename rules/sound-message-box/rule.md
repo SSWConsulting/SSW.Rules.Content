@@ -1,12 +1,13 @@
 ---
+seoDescription: Did you know that a message box automatically plays a beep?
 type: rule
 title: Sound - Did you know that a message box automatically plays a beep?
 uri: sound-message-box
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
-redirects: 
+redirects:
   - sound-did-you-know-that-a-message-box-automatically-plays-a-beep
 created: 2012-11-27T02:57:30.000Z
 archivedreason: null

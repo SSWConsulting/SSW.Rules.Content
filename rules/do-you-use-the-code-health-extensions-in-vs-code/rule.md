@@ -1,6 +1,8 @@
 ---
 type: rule
 title: Do you use the Code Health Extensions in VS Code?
+seoDescription: Boost code quality and consistency for lightweight web projects
+  using CSSLint and ESLint extensions in VS Code.
 uri: do-you-use-the-code-health-extensions-in-vs-code
 authors:
   - title: Adam Cogan
@@ -24,12 +26,12 @@ For lightweight web projects such as Angular, often VS Code is more appropriate 
 
 ### Which Extensions to Use in VS Code
 
-For web projects, we advocate the use of CSSLint for css files and ESLint for typescript files. ([Why you should be using TypeScript instead of JavaScript](/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript))
+For web projects, we advocate the use of CSSLint for css files and Biome for typescript files. ([Why you should be using TypeScript instead of JavaScript](/do-you-know-when-to-use-typescript-vs-javascript-and-coffeescript))
 Linters for these can be easily added to VS Code via extensions.
-Simply select the "Extensions" tab, search for "CSSLint" and "ESLint" and click "Install" on each respectively.
+Simply select the "Extensions" tab, search for "CSSLint" and "Biome" and click "Install" on each respectively.
 
-![Figure: Addition of CSSLint and ESLint to VS Code Project](vs-code-extensions.png)
+![Figure: Addition of CSSLint and ESLint to VS Code Project](biome-csslint.png)
 
-If you prefer not to use the Extensions, you can install them using npm as normal. 
+If you prefer not to use the Extensions, you can install them using npm as normal.
 CSSLint ([CSSLint npm guide](https://www.npmjs.com/package/csslint))
-ESLint ([ESLint npm guide](https://www.npmjs.com/package/eslint))
+Biome ([Biome npm guide](https://biomejs.dev/guides/getting-started/))

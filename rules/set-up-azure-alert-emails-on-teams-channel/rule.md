@@ -1,4 +1,5 @@
 ---
+seoDescription: Streamline Azure alert notifications by setting them up to go directly to a Teams channel, eliminating the need for manual forwarding and ensuring important emails are easily accessible.
 type: rule
 title: Do you set up Azure alert emails to go to a Teams channel?
 uri: set-up-azure-alert-emails-on-teams-channel
@@ -8,6 +9,7 @@ authors:
 created: 2021-08-04T23:18:37.704Z
 guid: e53a0209-d3f0-44b7-bdce-ea3bd599a1f6
 ---
+
 Most sysadmins set up Azure alerts to go to a few people and then they have given themselves a job to forward the email to the right people every time there is a problem. What happens when they are away and why do they need to keep adding and removing emails when people join and leave the team.
 
 <!--endintro-->

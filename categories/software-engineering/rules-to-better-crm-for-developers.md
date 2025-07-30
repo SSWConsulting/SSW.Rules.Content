@@ -5,7 +5,7 @@ guid: 0f529183-db33-47b0-8f53-1c03347edf91
 uri: rules-to-better-crm-for-developers
 index:
 - do-you-know-the-best-way-to-demo-microsoft-crm-to-clients
-- do-you-identify-development-test-and-production-crm-web-servers-by-colors
+- identify-crm-web-servers-by-colors
 - do-you-know-how-to-correctly-use-the-terms-configuration-customization-and-extending-in-the-crm-context
 - installation-do-you-turn-on-development-errors-and-platform-tracing
 - crm2013-2015-do-you-use-crm-business-rules-to-automate-forms

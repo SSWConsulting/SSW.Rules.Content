@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create effective email signatures that boost your brand's consistency and marketing efforts with CodeTwo or manual setup.
 type: rule
 title: Do you use great email signatures?
 uri: great-email-signatures
@@ -24,6 +25,7 @@ created: 2015-11-02T20:01:33.000Z
 archivedreason: null
 guid: 9ba16834-8789-41b1-b64c-7c10e8ffb837
 ---
+
 Email signatures are a great way of adding some advertising and branding. You should **always use a nice email signature for external emails**. Internally, you may use a short one (just your name or initials).
 
 `youtube: https://www.youtube.com/embed/qwG8RA-cWy0`
@@ -32,14 +34,14 @@ Email signatures are a great way of adding some advertising and branding. You sh
 
 Full email signatures (for external recipients) are great when they have:
 
-* A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
-  * You can **promote services or awards** at the bottom (e.g. "⭐️ [2023 Microsoft Partner of the Year Finalist](https://www.ssw.com.au/SSW/Consulting/Case-Study/Shepherd-Centre.aspx)")
-* Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [the right format to show phone numbers](/do-you-know-the-right-format-to-show-your-phone-number))
-* Your company **website** link
-* Your **social media** and **blog** link
-* Your **IM** link (e.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
-* Your **position**
-* Your **location** (city/country) where you are based
+- A little **branding** and advertising (can be a tagline or company news), so people know instantly who it is from
+  - You can **promote services or awards** at the bottom (e.g. "⭐️ [2023 Microsoft Partner of the Year Finalist](https://www.ssw.com.au/SSW/Consulting/Case-Study/Shepherd-Centre.aspx)")
+- Your **phone number** (in international format - it's important to add the country code so people from all around the world can easily add you to their contacts - as per [the right format to show phone numbers](/do-you-know-the-right-format-to-show-your-phone-number))
+- Your company **website** link
+- Your **social media** and **blog** link
+- Your **IM** link (e.g. [Teams](https://www.msoutlook.info/question/teams-chat-link-in-email-signature) or [Facebook Messenger](https://medium.com/@michael_at_message/getting-a-facebook-messenger-link-and-messenger-code-dc27ee70a172))
+- Your **position**
+- Your **location** (city/country) where you are based
 
 ::: info
 **Note:** You [can't add hyperlinks to signatures if you are using the Outlook App](https://answers.microsoft.com/en-us/outlook_com/forum/all/add-hyperlink-to-outlook-signature-on-iphone-and/56edcf68-a1ba-43c1-80cc-49b3248b25e8) – what a shame.
@@ -76,7 +78,7 @@ However, you shouldn't use your long signature on **every** sent email. It's rec
 
 ### PC Short Signature
 
-Use a really **short signature** (your first name or initials) or no signature at all in internal emails  as people already know who you are. You may want to add a quick link to IM.
+Use a really **short signature** (your first name or initials) or no signature at all in internal emails as people already know who you are. You may want to add a quick link to IM.
 
 ![Figure: PC Short Signature Example](adam-short-signature.jpg)
 
@@ -100,7 +102,7 @@ CodeTwo (and Exclaimer) give:
 4. Marketing can run campaigns and schedule changes to all signatures
 5. Hassle-free setup – users do not need to touch any signatures on any devices.
 
-  ![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
+![Figure: With CodeTwo the correct signature is auto selected](codetwo-adam.png)
 
 ::: info
 Note the plugin currently does not work for Appointments due to a limitation in Outlook. Rules must be manually changed in Exchange Online to include appointments in the server-side version of CodeTwo. Once this has been configured do not manually copy your signature into an appointment or you will get 2 signatures.
@@ -114,9 +116,9 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click on Signature
 3. Type your desired signature for mobile
 
-  ![Figure: Outlook mobile application settings](outlook-app-settings-1.jpg)
+![Figure: Outlook mobile application settings](outlook-app-settings-1.jpg)
 
-  ![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
+![Figure: Editable mobile signature on Outlook mobile application](outlook-app-settings-2.png)
 
 ### PC - How to set it up in Outlook
 
@@ -124,7 +126,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click the "Mail" tab as seen below
 3. Click on "Signatures..." and add in your signatures
 
-  ![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
+![Figure: How to add a signature in Outlook](screen-shot-2021-10-01-at-11.20.33-am.png)
 
 ### Browser - How to set it up in OWA
 
@@ -132,7 +134,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click "Options" on the top right side.
 3. Go Settings | Mail and make following changes:
 
-  ![Figure: Add your 'Email Signature' and save](owa-signatures.png)
+![Figure: Add your 'Email Signature' and save](owa-signatures.png)
 
 ### How to set it up in Office 365
 
@@ -140,7 +142,7 @@ Note the plugin currently does not work for Appointments due to a limitation in 
 2. Click the "Settings" cog on the top right corner of the Window
 3. Click on “View all Outlook settings” at the bottom of the Settings panel
 
-  ![Figure: Where to find "View all Outlook settings"](outlook-settings-signature.png)
+![Figure: Where to find "View all Outlook settings"](outlook-settings-signature.png)
 
 4. In the "Settings" window that pops up, go to: Mail | Compose and reply.
 5. Add your email signature and click "Save"

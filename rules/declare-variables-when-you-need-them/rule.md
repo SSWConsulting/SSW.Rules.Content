@@ -1,4 +1,5 @@
 ---
+seoDescription: Variables should be declared as needed to avoid orphaned declarations and improve code readability.
 type: rule
 title: Do you declare variables when you need them?
 uri: declare-variables-when-you-need-them
@@ -12,6 +13,7 @@ created: 2018-04-24T21:55:53.000Z
 archivedreason: Rule is outdated. Prefer shorter methods that eliminate the need for this rule
 guid: 24d23856-bd1a-42c5-b883-793e6c84366a
 ---
+
 Should you declare variables at the top of the function, or declare them when you need to use them? If you come back to your code after a few weeks and you no longer need a variable, you are quite likely to forget to delete the declaration at the top, leaving orphaned variables. Here at SSW, we believe that variables should be declared as they are needed.
 
 <!--endintro-->
@@ -31,7 +33,7 @@ End Sub
 ```
 
 ::: bad
-Figure: Bad example 
+Figure: Bad example
 
 :::
 

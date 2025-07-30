@@ -1,4 +1,5 @@
 ---
+seoDescription: Large topic? No problem! Break it down into a series of shorter blog posts for easier reading and writing.
 type: rule
 archivedreason:
 title: Do you split large topics into multiple blog posts?
@@ -6,12 +7,11 @@ guid: d7b3e96e-a981-415b-b6de-40b1480275ce
 uri: split-large-topics-into-multiple-blog-posts
 created: 2021-07-13T06:08:10.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Jason Taylor
-  url: https://www.ssw.com.au/people/jason-taylor
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Jason Taylor
+    url: https://www.ssw.com.au/people/jason-taylor
 related:
-
 ---
 
 When blogging on a large topic, you have 2 options:
@@ -25,23 +25,23 @@ To help understand why option 2 is recommended, let's break it down into pros an
 
 ### Option 1: Write a very long blog post
 
-| Pros | Cons | 
-| -------- | --------- | 
-| All content is available in one post (only one place to look) | You will get less views for longer posts | 
-|          | It takes longer to write, you might lose motivation  | 
+| Pros                                                          | Cons                                                |
+| ------------------------------------------------------------- | --------------------------------------------------- |
+| All content is available in one post (only one place to look) | You will get less views for longer posts            |
+|                                                               | It takes longer to write, you might lose motivation |
 
 **Figure: Option 1 Pros/Cons - One Long Blog Post**
 
 ### Option 2: Write a series of shorter blog posts
 
-| Pros | Cons | 
-| -------- | --------- | 
-| You will get more views for longer posts | The content is spread across multiple posts | 
-| Readers tend to prefer short posts |   | 
-| Easy for readers to find the specifics details they are looking for |   | 
-| Comments are more targeted on the topic |   | 
-| It takes much less time to write a short post, so less likely to lose motivation |   | 
-| Motivation to blog frequently, after all, people are waiting on you to finish the series |   | 
+| Pros                                                                                     | Cons                                        |
+| ---------------------------------------------------------------------------------------- | ------------------------------------------- |
+| You will get more views for longer posts                                                 | The content is spread across multiple posts |
+| Readers tend to prefer short posts                                                       |                                             |
+| Easy for readers to find the specifics details they are looking for                      |                                             |
+| Comments are more targeted on the topic                                                  |                                             |
+| It takes much less time to write a short post, so less likely to lose motivation         |                                             |
+| Motivation to blog frequently, after all, people are waiting on you to finish the series |                                             |
 
 **Figure: Option 2 Pros/Cons - Series of Short Blog Posts**
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how language shapes your application's tone and user experience with essential tips for clear and effective communication in your UI.
 type: rule
 archivedreason: 
 title: Do you understand the importance of language in your UI?
@@ -16,7 +17,7 @@ redirects: []
 
 ---
 
-The tone of your application speaks volumes about how users view it. Read this [Google documentation on the voice of Android](https://m2.material.io/design). 
+The tone of your application speaks volumes about how users view it. Read this [Google documentation on the voice of Android](https://m2.material.io/design).
 
 <!--endintro-->
 
@@ -41,4 +42,3 @@ The tone of your application speaks volumes about how users view it. Read this [
 | fail, failed, negative language | In general, use positive phrasing (for example, “do” rather than “don’t,” except in cases such as “Don’t show again,” “Can’t connect,” and so on.)  |
 | me, I, my, mine | you, your, yours |
 | Are you sure? Warning! | Tell user the consequence instead, for example, "You’ll lose all photos and media" |
-

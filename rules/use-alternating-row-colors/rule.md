@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance report readability with alternating row colors using White and Gainsboro.
 type: rule
 archivedreason:
 title: Data Layout - Do you use alternating row colors?

@@ -1,17 +1,17 @@
 ---
+seoDescription: Stored Procedures - Set NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes.
 type: rule
-archivedreason: 
+archivedreason:
 title: Stored Procedures - Do you SET NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes?
 guid: e54a2194-4ce5-4aa5-84c5-148559178215
 uri: set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
 created: 2019-11-12T22:25:59.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- stored-procedures-do-you-set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
-
+  - stored-procedures-do-you-set-nocount-on-for-production-and-nocount-off-off-for-development-debugging-purposes
 ---
 
 You should use SET NOCOUNT ON for production and NOCOUNT OFF off for development/debugging purposes (i.e. when you want the rowcounts to display as the messages from your T-SQL).
@@ -26,43 +26,43 @@ According to SQL Server Books Online:
 ```sql
 CREATE PROCEDURE procClientInsert
 /*
-'---------------------------------------------- 
-' Copyright 2001 SSW 
+'----------------------------------------------
+' Copyright 2001 SSW
 ' www.ssw.com.au All Rights Reserved.
-' VERSION AUTHOR DATE COMMENT 
-' 1.0 DDK 17/12/2001 
+' VERSION AUTHOR DATE COMMENT
+' 1.0 DDK 17/12/2001
 '
 'Calling example
 'DECLARE @pintClientID int
 'DECLARE @intReturnValue int
-'exec @intReturnValue = procClientInsert 'TEST Entry', 
+'exec @intReturnValue = procClientInsert 'TEST Entry',
 @pintClientID OUTPUT
 'PRINT @pintClientID
 'PRINT @intReturnValue
-'---------------------------------------------- 
+'----------------------------------------------
 */
 @pstrCoName varchar (254),
 @pintClientID int OUTPUT
 AS
 --IF ONE THING FAILS, ROLLBACK
 SET XACT_ABORT ON
---THE COUNT WILL NOT NORMALLY DISPLAY IN AN APPLICATION IN PRODUCTION. 
---GET RID OF IT BECAUSE IT IS EXTRA TRAFFIC, AND CAN CAUSE 
+--THE COUNT WILL NOT NORMALLY DISPLAY IN AN APPLICATION IN PRODUCTION.
+--GET RID OF IT BECAUSE IT IS EXTRA TRAFFIC, AND CAN CAUSE
 PROBLEMS WITH SOME CLIENTS
 SET NOCOUNT ON
 --Generate a random number
 SET @pintClientID = (SELECT CAST(RAND() * 100000000 AS int))
-INSERT INTO Client (ClientID, CoName) VALUES (@pintClientID , 
+INSERT INTO Client (ClientID, CoName) VALUES (@pintClientID ,
 @pstrCoName)
 SET XACT_ABORT OFF
-IF @@ROWCOUNT = 1 
+IF @@ROWCOUNT = 1
  RETURN 0 -- SUCCESS
 ELSE
  BEGIN
- IF @@ERROR=0 
- RETURN 1 -- FAILURE 
+ IF @@ERROR=0
+ RETURN 1 -- FAILURE
  ELSE
- RETURN @@ERROR -- FAILURE 
+ RETURN @@ERROR -- FAILURE
  END
 SET NOCOUNT OFF
 ```

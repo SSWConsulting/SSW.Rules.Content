@@ -1,25 +1,25 @@
 ---
+seoDescription: Angular developers read and write to the model, never to the page, forgetting about jQuery
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you understand that with Angular you read and write to the model... never to the page? (aka Forget about jQuery)
 guid: 3cd40e9e-38c3-4558-9a73-65bfb8dc5b6c
 uri: angular-read-and-write-to-the-model-never-to-the-page
 created: 2016-04-06T20:18:33.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects:
-- do-you-understand-that-with-angular-you-read-and-write-to-the-model-never-to-the-page-a-k-a-forget-about-jquery
-- do-you-understand-that-with-angular-you-read-and-write-to-the-model-never-to-the-page-(a-k-a-forget-about-jquery)
-
+  - do-you-understand-that-with-angular-you-read-and-write-to-the-model-never-to-the-page-a-k-a-forget-about-jquery
+  - do-you-understand-that-with-angular-you-read-and-write-to-the-model-never-to-the-page-(a-k-a-forget-about-jquery)
 ---
 
 The most common mistake that developers make when moving from jQuery to Angular is that they continue to think about updating the page.
 
 <!--endintro-->
 
-![Figure: In jQuery, you design a page and then use jQuery to perform interactions with the page e.g. reading and setting the values of input boxes, updating the content of divs or handling button events](understand-jquery.png)  
+![Figure: In jQuery, you design a page and then use jQuery to perform interactions with the page e.g. reading and setting the values of input boxes, updating the content of divs or handling button events](understand-jquery.png)
 
 ::: bad  
 ![Figure: Bad Example - using jQuery on Angular views will lead to worlds of pain](understand-badcode.png)  

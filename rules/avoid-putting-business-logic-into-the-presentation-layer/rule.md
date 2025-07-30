@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid mixing business logic into presentation layer code by separating concerns and placing business logic in a separate layer for reuse and maintainability.
 type: rule
 archivedreason:
 title: Do you avoid putting business logic into the presentation layer?

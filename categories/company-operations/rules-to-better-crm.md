@@ -9,7 +9,7 @@ index:
 - reasons-to-use-dynamics-365-crm
 - dynamics-crm-install-the-dynamics-365-app-for-outlook
 - install-dynamics-iphone-android-app
-- keep-dynamics-365-online-synced-with-azure-ad
+- keep-dynamics-365-online-synced-with-entra-id
 - how-to-automate-event-signup-processes
 - do-you-know-the-crm-roadmap
 - do-you-know-the-dynamics-crm-competitors

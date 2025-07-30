@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you conduct a "Test Please"?
+seoDescription: Ensure project success with thorough testing. A "Test Please" review guarantees quality, boosts client confidence, and delivers a flawless application that performs as expected.
 uri: conduct-a-test-please
 authors:
   - title: Adam Cogan
@@ -16,10 +17,12 @@ authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
 related:
-  - do-you-send-as-per-our-conversation-emails
   - do-you-know-when-to-do-use-checked-by-xxx
   - request-a-test-please
   - ask-clients-approval
+  - presentation-test-please
+  - ui-ux-test-please
+  - test-please-for-video
 redirects:
   - conduct-a-test-please-internally-and-then-with-the-client
   - do-you-conduct-a-test-please
@@ -40,35 +43,42 @@ guid: 537f2847-7144-4d0d-a86d-5dcd224e8f75
 ::: greybox  
 **Does the "Test Please" principle apply to more than code?**
 
-Yes! You almost always want a "Test Please". We usually want a second pair of eyes to catch unseen errors! This isn't necessary for small changes e.g. spelling mistakes.  
+👍 Yes! You almost always want a "Test Please". We usually want a second pair of eyes to catch unseen errors! This isn't necessary for small changes, such as spelling mistakes.  
 :::
 
-If you are writing code, your Pull Request (PR) is your "Test Please".  
-Tip #1: You should do an [over the shoulder PR review](/over-the-shoulder)
-Tip #2: Embrace Proactive Testing – If you anticipate potential feedback or issues with your code, ensure it is tested by a team member in the development environment after merging.
+## Coding
 
-If you are writing an email, a [Checked By](/checked-by-xxx) is your "Test Please".
+If you are writing code, your Pull Request (PR) review is your "Test Please"
 
-If you are doing anything else (e.g. updating a Word doc or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere.
+**Tips:**
 
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Gary |
-| Subject: | RE: Test Please - \\Public Folders\All Public Folders\SSWeXtremeEmailsDatabase\SSWCodeAuditor\Release09 |  
-::: email-content  
+* You should do an [over the shoulder PR review](/over-the-shoulder)  
+* Embrace proactive testing – If you anticipate potential feedback on the User eXperience (UX) after your code is merged and deployed, ensure it is tested by a team member in the development environment. This will save tears when it reaches production
+
+## Emails
+
+If you are writing an email, a "[checked by](/checked-by-xxx)" is your "Test Please".
+
+## Videos
+
+If you created a video, ["Test Please" for videos](/test-please-for-video) "Test Please". After launch you may want to keep an eye on [likes and comments](/like-and-comment-on-videos) for further feedback.
+
+## Anything else
+
+If you are doing anything else (e.g. creating a new blog post, updating a Word document, or preparing a PowerPoint presentation), you should still get a 2nd set of eyes to check the work and document it somewhere. You can do that via a PBI (ideally) or email (if there is no backlog).
+
+::: greybox
 
 ### Hi Gary
 
-**Test failed**
-(as per critical bugs reported in other emails)
-`youtube: https://www.youtube.com/embed/whxbTtkH5GU`
+**❌ Test failed**
+(as per critical bugs reported)
 
+`youtube: https://www.youtube.com/embed/whxbTtkH5GU`
 **Video: Test Failed! (10 sec)**
 :::
-:::
 ::: good  
-Figure: Good Example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email
+Figure: Good example - Sometimes it's good to soften the blow with some humour when you have to fail a "test please" email
 :::
 
-**Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/do-you-know-when-to-do-use-checked-by-xxx)" style instead to save some time.
+**Note:** If the test to be performed is quick and the tester is available on the spot, consider using a "[checked by](/checked-by-xxx)" style instead to save some time.

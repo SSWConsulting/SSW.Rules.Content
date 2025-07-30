@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand the differences between databases, data warehouses, and data lakes to make informed decisions about data storage and analysis.
 type: rule
 title: Do you use the right data storage?
 uri: use-the-right-data-storage
@@ -13,6 +14,7 @@ created: 2017-06-28T22:16:46.000Z
 archivedreason: null
 guid: 4f7c2e78-43f9-4638-a85c-2ca22a040f43
 ---
+
 Databases, data warehouses, and data lakes are all essential components of Business Intelligence (BI) systems, but they serve different purposes and have distinct characteristics. Understanding their differences can help organizations make informed decisions about data storage and analysis.
 
 <!--endintro-->
@@ -42,6 +44,6 @@ Data lakes are vast repositories that store data in its raw and unprocessed form
 
 ## Things to consider
 
-* When building reporting solutions that read from the original data store, take care when deciding on the refresh schedule. You'll need to balance timeliness vs cost on the system being read from. If the refresh is very expensive, try and run it out of hours to avoid affecting the application's users.
+- When building reporting solutions that read from the original data store, take care when deciding on the refresh schedule. You'll need to balance timeliness vs cost on the system being read from. If the refresh is very expensive, try and run it out of hours to avoid affecting the application's users.
 
-* For small applications adding a read only replica of the main database is a much simpler and more cost effective alternative to a data warehouse. It avoids the reporting queries affecting the live database. It is typically cheaper than a data warehouse, a data-lake is often the cheapest solution infrastructure wise.
+- For small applications adding a read only replica of the main database is a much simpler and more cost effective alternative to a data warehouse. It avoids the reporting queries affecting the live database. It is typically cheaper than a data warehouse, a data-lake is often the cheapest solution infrastructure wise.

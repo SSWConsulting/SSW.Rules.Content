@@ -1,4 +1,5 @@
 ---
+seoDescription: Controls expertly extend the size of your ComboBoxes to show as many results as possible, optimizing user experience while maintaining a balance between display and form space.
 type: rule
 title: Controls - Do you extend the size of your ComboBoxes to show as many
   results as possible? (Windows Forms Only)
@@ -30,7 +31,7 @@ However, you should not extend your ComboBox without limit, normally the maximum
 
 Changing the maximum items is easy, just include the following code in your form:
 
-``` cs
+```cs
 cbxOUList.MaxDropDownItems = cbxOUList.Items.Count;
 
 // Changing the drop down size is a bit of tricky

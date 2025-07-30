@@ -4,7 +4,7 @@ title: Rules to Better Social Media for Business
 guid: cfafc0a2-0bcd-4df6-83ca-c6fde43e7f55
 uri: rules-to-better-social-media-for-business
 redirects:
-- rules-to-better-social-media
+  - rules-to-better-social-media
 index:
 - keep-your-social-media-updated
 - approval-for-your-social-media-content
@@ -23,6 +23,8 @@ index:
 - text-limit-for-images
 - create-friendly-short-urls
 - share-every-blog-post
+- promotion-do-people-know-about-your-event
+- avoid-dates-text-in-graphics-for-events
 - post-using-social-media-management-tools
 - do-your-presentations-promote-online-discussion
 - do-you-share-when-you-upgrade-an-application
@@ -30,16 +32,16 @@ index:
 - branding-do-you-know-you-should-use-overlay-on-photos-shared-on-your-social-media
 - reply-linkedin-messages
 - managing-linkedin-for-international-companies
+- monitor-external-reviews
 - do-you-create-a-call-to-action-on-your-facebook-page
-- promotion-do-people-know-about-your-event
-- twitter-how-to-verify-your-account
+- x-verify-your-account
 - do-you-know-what-to-tweet
 - do-you-know-that-every-comment-gets-a-tweet
-- do-you-know-when-to-use-a-hashtag-vs-a-mention
-- twitter-for-professionals
 - thank-others-for-each-reference-to-you
-- twitter-tip-content-creators
-- avoid-dates-text-in-graphics-for-events
+- x-hashtag-vs-mention
+- x-business
+- x-tip-creators
+- instagram-stories
 - manage-your-photos
 - purchase-online-as-your-1st-option-think-of-your-experience-and-have-a-voice
 - do-you-know-how-to-deal-with-negative-comments

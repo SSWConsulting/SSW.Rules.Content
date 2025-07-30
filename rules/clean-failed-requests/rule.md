@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep Failed Requests clean to troubleshoot application issues efficiently.
 type: rule
 archivedreason:
 title: Do you keep Failed Requests clean?
@@ -12,6 +13,7 @@ related:
   - why-you-want-to-use-application-insights
   - what-metrics-to-collect-stage-3
 ---
+
 [Application Insights](/why-you-want-to-use-application-insights) provide crucial insights into the health and performance of the application. **Failed Requests** allow the DevOps specialists to identify the specific errors and exceptions occurring in the application. However, keeping Failed Requests clean is crucial to troubleshoot and pinpoint the root causes of the problems efficiently. A cluttered failed requests list filled with irrelevant entries can make it difficult to identify the critical issues that require immediate attention.
 
 <!--endintro-->
@@ -24,17 +26,17 @@ related:
 
 When cleaning up Failed Requests, it is important to identify the patterns between frequent offenders and categorize them into the following three categories:
 
-1.	Irrelevant – Failed Requests that you expect but cannot do anything about.  
-Examples: 404 responses to “/autodiscover.xml”, “/robots933456.txt”.
+1. Irrelevant – Failed Requests that you expect but cannot do anything about.  
+   Examples: 404 responses to “/autodiscover.xml”, “/robots933456.txt”.
 
-2.	Probing Attempts – Inbound requests targeting non-existent URLs in your application.
-These requests often originate from bots seeking common vulnerabilities. A properly configured Web Application Firewall (WAF) should identify and mitigate such traffic i.e. this should be empty.
-Examples: 404 responses to requests for '.php' or 'Wordpress' endpoints not present in your .NET application.
+2. Probing Attempts – Inbound requests targeting non-existent URLs in your application.
+   These requests often originate from bots seeking common vulnerabilities. A properly configured Web Application Firewall (WAF) should identify and mitigate such traffic i.e. this should be empty.
+   Examples: 404 responses to requests for '.php' or 'Wordpress' endpoints not present in your .NET application.
 
-3.	Fixable – Failed Requests that you identify as bugs in your application.  
-You can identify these requests by their URL belonging to the real endpoints or files in your application.  
-Create PBIs for these bugs, and if you cannot fix any of them yourself, pass them on to the people who can.  
-Examples: 404 responses from missing images, 400 responses from API.
+3. Fixable – Failed Requests that you identify as bugs in your application.  
+   You can identify these requests by their URL belonging to the real endpoints or files in your application.  
+   Create PBIs for these bugs, and if you cannot fix any of them yourself, pass them on to the people who can.  
+   Examples: 404 responses from missing images, 400 responses from API.
 
 ::: info
 **Note:** Not everything you encounter can be matched to a pattern or fixed straight away.
@@ -42,19 +44,27 @@ Examples: 404 responses from missing images, 400 responses from API.
 If that is the case, continue to other requests. As the logs become cleaner, it will get easier to understand the problems with the left-over requests.
 :::
 
-::: bad 
+::: info
+**Tip:** Splitting the chart based on response codes may make patterns clearer. For instance, 500 responses will almost always be fixable bugs worth investigating.
+:::
+
+::: bad
 ![Figure: Bad example - Default Chart - at least half of requests are irrelevant or spam](bad-example-chart.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Custom Chart - most of these are real issues](good-example-chart.png)
 :::
 
-::: bad 
+::: good
+![Figure: Good example - Split Chart - the fixable 500 responses can be seen in purple](good-example-split-chart.png)
+:::
+
+::: bad
 ![Figure: Bad example - Default Table - 5 out of top 8 failed requests are irrelevant or spam](bad-example-table.png)
 :::
 
-::: good 
+::: good
 ![Figure: Good example - Custom Table - all the top failed requests are real issues](good-example-table.png)
 :::
 
@@ -69,11 +79,11 @@ You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azur
 **Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
 
 ::: info
-**Tip:** You do not need to write your query from scratch! 
+**Tip:** You do not need to write your query from scratch!
 
-Go to Application Insights | Failures | View in Logs | Failed request count. 
+Go to Application Insights | Failures | View in Logs | Failed request count.
 
-![Figure: Access default Failed Requests query - Application Insights | Failures | View in Logs | Failed request count](failed-requests-logs.png)  
+![Figure: Access default Failed Requests query - Application Insights | Failures | View in Logs | Failed request count](failed-requests-logs.png)
 
 This will provide you with the default query, that you can customize and test in [Azure Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs), before saving it in Workbooks.
 

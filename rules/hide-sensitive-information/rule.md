@@ -1,4 +1,5 @@
 ---
+seoDescription: Professional documentation requires discretion. Hide sensitive information like client names from public view to maintain confidentiality and trust.
 type: rule
 archivedreason:
 title: Do you hide sensitive information?
@@ -6,14 +7,14 @@ guid: 293e828e-4d75-46b8-aa95-54d97717c6f2
 uri: hide-sensitive-information
 created: 2021-05-21T19:30:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-
+  - remove-confidential-information-from-github
 ---
 
 You should always use discretion in your public documentation. Hide any sensitive information, like your clients’ names, from screenshots and general documentation.

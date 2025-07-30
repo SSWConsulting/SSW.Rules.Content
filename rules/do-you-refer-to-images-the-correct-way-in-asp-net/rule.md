@@ -1,4 +1,5 @@
 ---
+seoDescription: Images should be referenced using root-relative paths or application-relative paths to simplify URLs and avoid issues with staging servers.
 type: rule
 title: Do you refer to images the correct way in ASP .NET?
 uri: do-you-refer-to-images-the-correct-way-in-asp-net
@@ -15,31 +16,33 @@ archivedreason: null
 guid: a304e5ec-11c0-442b-9d8f-74a3f87b3593
 ---
 
-There are many ways to reference images in ASP.NET. There are 2 different situations commonly encountered by developers when working with images:   
+There are many ways to reference images in ASP.NET. There are 2 different situations commonly encountered by developers when working with images:
 
 <!--endintro-->
 
-* **Scenario #1:** Images that are part of the content of a specific page. E.g. A picture used only on 1 page
-* **Scenario #2:** Images that are shared across on user controls which are shared across different pages in a site. E.g. A shared logo used across the site (commonly in user controls, or master pages)
+- **Scenario #1:** Images that are part of the content of a specific page. E.g. A picture used only on 1 page
+- **Scenario #2:** Images that are shared across on user controls which are shared across different pages in a site. E.g. A shared logo used across the site (commonly in user controls, or master pages)
 
 Each of these situations requires a different referencing method.
 
 ### Option #1: Root-Relative Paths
+
 Often developers reference all images by using an root-relative path (prefixing the path with a slash, which refers to the root of the site), as shown below.
 
 ```html
 <img src="/Images/spacer.jpg" />
 ```
+
 ::: bad
 Bad example - Referencing images with absolute paths
 :::
 
 This has the advantage that &lt;img&gt; tags can easily be copied between pages, however it should not be used in either situation, because it requires that the website have its own site IIS and be placed in the root (not just an application), or that the entire site be in a subfolder on the production web server. For example, the following combinations of URLs are possible with this approach:
 
-| Staging Server URL  | Production Server URL  |
-| --- | --- |
-| bee:81/   | www.northwind&#46;com.au  |
-| bee/northwind/  | www.northwind&#46;com.au/northwind  |
+| Staging Server URL | Production Server URL              |
+| ------------------ | ---------------------------------- |
+| bee:81/            | www.northwind&#46;com.au           |
+| bee/northwind/     | www.northwind&#46;com.au/northwind |
 
 As shown above, this approach makes the URLs on the staging server hard to remember, or increases the length of URLs on the production web server.
 
@@ -50,6 +53,7 @@ Images that are part of the content of a page should be referenced using relativ
 ```html
 <img src="../Images/spacer.jpg" />
 ```
+
 ::: good
 Good example - Referencing images with relative paths
 :::
@@ -64,8 +68,10 @@ To use this feature, you need either use ASP.NET Server controls or HTML Server 
 
 ```html
 <asp:Image ID="spacerImage" ImageUrl="~/Images/spacer.gif" Runat="server" />
-<img id="spacerImage" src="~/Images/spacer.gif" originalAttribute="src" originalPath=""~/Images/spacer.gif"" runat="server">
+<img id="spacerImage" src="~/Images/spacer.gif" originalAttribute="src"
+originalPath=""~/Images/spacer.gif"" runat="server">
 ```
+
 ::: good
 Good example - Application-relative paths with an ASP.NET Server control
 :::
@@ -75,8 +81,10 @@ Using an HTML Server control creates less overhead than an ASP.NET Server contro
 **Note:** A variation on this approach involves calling the Page.ResolveUrl method with inline code to place the correct path in a non-server tag.
 
 ```html
-<img src='<%# originalAttribute="src" originalPath="'<%#" Page.ResolveUrl("~/Images/spacer.gif") %>'>
+<img src='<%# originalAttribute="src" originalPath="'<%#"
+Page.ResolveUrl("~/Images/spacer.gif") %>'>
 ```
+
 ::: bad
 Bad example - Page.ResolveUrl method with a non-server tag
 :::

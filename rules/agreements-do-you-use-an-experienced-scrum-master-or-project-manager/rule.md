@@ -1,23 +1,23 @@
 ---
+seoDescription: Use an experienced Scrum Master or Project Manager to streamline your software development project and ensure timely delivery
 type: rule
-archivedreason: 
+archivedreason:
 title: Agreements - Do you use an experienced Scrum Master (or Project Manager)?
 guid: c73f2949-72ed-4562-8e3c-3cf03e0403ba
 uri: agreements-do-you-use-an-experienced-scrum-master-or-project-manager
 created: 2010-05-20T10:43:28.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- agreements-do-you-use-an-experienced-scrum-master-(or-project-manager)
-
+  - agreements-do-you-use-an-experienced-scrum-master-(or-project-manager)
 ---
 
 Some clients think that a Project Manager is just a resource that increases the cost of a project. But a house does not get built if you leave the architect, carpenters, electricians, and plumbers to just work it out between themselves. The house does get built if the foreman is keeping everyone on their toes, making sure they are doing their job.
 
 `youtube: https://www.youtube.com/embed/QbPkcfzi2HI`
- 
+
 Software teams often come with a Project Manager. You can do better than that by getting a Scrum Master.
 
 <!--endintro-->

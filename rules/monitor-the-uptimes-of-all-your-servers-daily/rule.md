@@ -1,25 +1,29 @@
 ---
 type: rule
 title: Servers - Do you monitor the uptimes of all your servers daily?
+seoDescription: Monitor server uptimes daily with WhatsUp Gold and ensure
+  maximum reliability and performance.
 uri: monitor-the-uptimes-of-all-your-servers-daily
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
-related: []
+related:
+  - monitor-failed-login-attempts
 redirects:
   - do-you-monitor-the-uptimes-of-all-your-servers-daily
 created: 2017-07-10T23:10:04.000Z
 archivedreason: null
 guid: b031777e-12e8-4a0d-8930-d3920ab5cfcd
 ---
+
 It is important that the system administrator can easily find out how reliable his servers are. This can be achieved using tools like What's Up Gold (WUG) <https://www.whatsupgold.com> to monitor many statistics e.g.:
 
-* Uptime - Ping, Interface monitor
-* Performance - RAM usage, CPU usage
-* Network - Bandwidth, Interface throughput
-* Storage - Disk usage, health
+- Uptime - Ping, Interface monitor
+- Performance - RAM usage, CPU usage
+- Network - Bandwidth, Interface throughput
+- Storage - Disk usage, health
 
 For example, here is a report in WhatsUp Gold you can use to monitor servers on a daily basis.
 

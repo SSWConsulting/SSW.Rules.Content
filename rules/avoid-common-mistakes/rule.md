@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid common spelling and syntax mistakes to ensure effective communication by using correct grammar, punctuation, and language conventions.
 type: rule
 title: Do you avoid common spelling and syntax mistakes?
 uri: avoid-common-mistakes
@@ -16,7 +17,6 @@ related:
   - are-you-careful-with-your-spelling-grammar-and-punctuation
 redirects:
   - spell-aka-correctly
-
 ---
 
 Attention to detail plays a vital role to effective communication. **Grammar**, **spelling**, and/or **syntax** mistakes, though seemingly minor, can significantly affect the clarity and professionalism of your writing.
@@ -34,7 +34,7 @@ Embracing the modern standard not only keeps your writing current but also ensur
 * Use **"taskbar"** not _"task bar"_
 * Use **"OK"** not _"Ok"_ or _"okay/Okay"_
 * Use **"aka"** not _"AKA"_ or _"a.k.a"_
-  
+
 ::: info
 **Note:** Although Wikipedia considers multiple ways to spell the acronym for "also known as", the convention is simply "aka" - with all letters in lowercase and not separated by dots/spaces.
 :::
@@ -43,7 +43,7 @@ Embracing the modern standard not only keeps your writing current but also ensur
 
 Often when writing technical documents, you will instruct the reader to 'set up' his PC or run a 'setup' file.
 
-* **"Setup"** is a noun, basically meaning an 'arrangement'(e.g. _"The software setup"_)  
+* **"Setup"** is a noun, basically meaning an 'arrangement'(e.g. _"The software setup"_)
 * **"Set up"** is a phrasal verb, most commonly meaning 'to establish something.' (e.g. _"To set up a computer"_)
 
 How can you remember this? Mentally replace "setup" or "set up" with "setting up". If the sentence still basically makes sense, use two words. If it doesn't, use the single word. For example, the sentence _"...he is setting up the shop"_ makes sense. _"The setting up was all wrong"_ does not.

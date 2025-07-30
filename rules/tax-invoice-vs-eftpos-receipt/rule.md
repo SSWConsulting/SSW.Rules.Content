@@ -1,6 +1,9 @@
 ---
 type: rule
-title: "Do you understand the difference: Tax Invoice vs. Eftpos Receipt?"
+title: Expenses - Do you understand the difference between Tax Invoice and
+  Eftpos Receipt?
+seoDescription: Understand the difference between Tax Invoice and Eftpos Receipt
+  - A comprehensive guide to tax compliance and expense management.
 uri: tax-invoice-vs-eftpos-receipt
 authors:
   - title: Jimmy Chen
@@ -33,8 +36,8 @@ A tax invoice would normally have the following:
 
 **Business Information**
 
-* Seller's info - Name, address, and contact details
-* Buyer's info - Name and address
+* Seller's info – Name, address, and contact details
+* Buyer's info – Name and address
 
 **Invoice Details**
 
@@ -43,12 +46,12 @@ A tax invoice would normally have the following:
 
 **Product/Service Information**
 
-* Description - The products or services
-* How much - Quantity, unit price, and total amount
+* Description – The products or services
+* How much – Quantity, unit price, and total amount
 
 **Tax Information**
 
-* Tax - Goods and Services Tax (GST) details
+* Tax – Goods and Services Tax (GST) details
 * Total amount (including GST)
 
 ![Figure:Example of Tax Invoices](tax-invoice-example-au.1678919047955.jpg)
@@ -62,26 +65,26 @@ It usually shows information:
 
 **Transaction Details**
 
-* When - Date and time of the transaction
-* How - Payment method and card type
+* When – Date and time of the transaction
+* How – Payment method and card type
 
 **Business Information**
 
-* Who - Merchant's name and contact information
+* Who – Merchant's name and contact information
 
 **Amount Information**
 
-* How much - Total amount paid
-* Approved or declined - Confirmation of payment
+* How much – Total amount paid
+* Approved or declined – Confirmation of payment
 
 ![Figure: Example of Eftpos Payment Receipt](Picture2.png)
 
 ### Spot the difference
 
-|                 | **Purpose**                                            | **Content**                                                                      | **Legal Requirement**                                                   |
-|-----------------|--------------------------------------------------------|----------------------------------------------------------------------------------|------------------------------------------------------------------------|
-| **Tax Invoice** | Primarily for tax and accounting purposes               | Detailed information on products/services, taxes, and payment terms             | Often required by tax authorities for proper documentation            |
-| **Eftpos Payment Receipt** | Confirmation of payment                        | Focuses on transaction details, amount, and payment method                       | Serves as a customer receipt, not always legally mandated              |
+|                            | **Purpose**                               | **Content**                                                         | **Legal Requirement**                                      |
+| -------------------------- | ----------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Tax Invoice**            | Primarily for tax and accounting purposes | Detailed information on products/services, taxes, and payment terms | Often required by tax authorities for proper documentation |
+| **Eftpos Payment Receipt** | Confirmation of payment                   | Focuses on transaction details, amount, and payment method          | Serves as a customer receipt, not always legally mandated  |
 
 For businesses, maintaining tax invoices is a must for keeping solid accounting records and claiming tax or GST.  
 Eftpos payment receipt is helpful and supplementary, especially when you've paid more than the invoiced amount (such as credit card surcharges).  

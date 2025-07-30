@@ -1,17 +1,17 @@
 ---
+seoDescription: Separate JavaScript functionality by placing code in external .js files and linking them to HTML pages with script tags, rather than embedding code within HTML.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you separate JavaScript functionality (aka Unobtrusive JavaScript)?
 guid: f1b16439-54da-4f6f-85a8-c86aff65484e
 uri: do-you-separate-javascript-functionality-aka-unobtrusive-javascript
 created: 2012-07-24T18:09:29.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related: []
 redirects:
-- do-you-separate-javascript-functionality-(aka-unobtrusive-javascript)
-
+  - do-you-separate-javascript-functionality-(aka-unobtrusive-javascript)
 ---
 
 A website can be broken down into three main development parts: content, design and functionality. To optimize a website for search engines, it's important to separate the content  (crucial for search engines) from design and functionality (not important for SEO).
@@ -25,7 +25,7 @@ All JavaScript code should go into an external .js file (linked to the document 
 ```
 
 ::: bad
-Figure: Bad example -  Never include JavaScript as inline attributes
+Figure: Bad example - Never include JavaScript as inline attributes
 :::
 
 ```html

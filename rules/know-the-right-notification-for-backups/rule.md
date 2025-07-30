@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure successful backups by logging records on completion and reviewing backup status regularly to prevent data loss.
 type: rule
 title: PC - Do you know the right notification for backups?
 uri: know-the-right-notification-for-backups
@@ -16,6 +17,7 @@ created: 2017-07-10T23:20:11.000Z
 archivedreason: null
 guid: df70361d-0a85-43cd-bd24-f6b08455330f
 ---
+
 For any kind of backups, it is important to log a record on success so you can check for backups that have failed.
 
 <!--endintro-->

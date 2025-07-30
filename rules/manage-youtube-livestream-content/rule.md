@@ -1,6 +1,7 @@
 ---
+seoDescription: Manage your YouTube live-stream content effectively with our recommended approach, featuring a balance between consistency and engagement.
 type: rule
-title: Do you manage your YouTube live-stream content?
+title: Streaming - Do you manage your YouTube live-stream content?
 uri: manage-youtube-livestream-content
 authors:
   - title: Jonty Gardner
@@ -10,6 +11,7 @@ created: 2023-04-04T00:48:02.841Z
 guid: d06aec44-046e-4119-9769-d8101cf4da38
 archivedreason: null
 ---
+
 When it comes to live streaming to YouTube and editing the livestream for re-publication post-event, there are a few common pain points that can arise:
 
 Firstly, live streaming can be challenging and stressful for the host or presenter, as there is no room for error and everything must go smoothly in real-time. Technical issues, such as poor internet connectivity or hardware malfunctions, can quickly derail a live stream and lead to frustrated viewers.
@@ -18,9 +20,9 @@ Secondly, editing a livestream after the fact can be time-consuming and tedious.
 
 Thirdly, as of 27 Oct 2022, Shorts and live streams no longer appear in the videos tab. It’s now split into 3 categories:
 
-1. SHORTS
-2. LIVE
-3. VIDEOS
+* **Shorts**
+* **Live**
+* **Videos**
 
 ![Figure: Videos, Shorts, and Live tabs on your YouTube channel](rules/manage-youtube-livestream-content/Videos-shorts-live.jpg)
 

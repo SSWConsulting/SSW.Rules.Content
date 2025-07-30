@@ -1,4 +1,5 @@
 ---
+seoDescription: Assign developers to projects by considering their comfort level and availability to ensure a seamless workflow.
 type: rule
 archivedreason:
 title: Do you make sure Devs are comfortable with their assignments?
@@ -6,12 +7,11 @@ guid: ac47da84-7492-47c7-9e20-ae17bb120de0
 uri: make-sure-devs-are-comfortable-with-their-assignments
 created: 2021-05-25T19:30:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-
 ---
 
 It’s easy when looking at availability reports and skill matrices to dehumanise the developers you’re assigning to work. Make sure to always keep the human touch by doing the following:

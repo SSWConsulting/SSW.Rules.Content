@@ -1,4 +1,5 @@
 ---
+seoDescription: Get seamless mobile app config to your users with automagic solutions for per-user and instance configurations.
 type: rule
 title: Do you know how to get mobile config to your users?
 uri: how-to-get-mobile-config-to-your-users

@@ -1,4 +1,5 @@
 ---
+seoDescription: Compare and synchronize files efficiently with FreeFileSync, a reliable folder comparison and synchronization software that creates and manages backup copies of your important files.
 type: rule
 title: Do you compare and synchronize your files with FreeFileSync?
 uri: compare-and-synchronize-your-files
@@ -11,9 +12,11 @@ related:
 created: 2021-08-06T00:22:08.352Z
 guid: 54f69083-2f2a-434c-ab0e-d394cb87a3d5
 ---
+
 Keeping all your files and work backed up is important, but can be a very complex task to do manually, especially if multiple people are working on the project simultaneously.
 
 <!--endintro-->
+
 ### FreeFileSync:
 
 FreeFileSync is folder comparison and synchronization software that creates and manages backup copies of all your important files.
@@ -27,7 +30,8 @@ See how FreeFileSync works here:
 
 <br>
 
-Notes on Synchronisation modes: 
-* **Update**: Syncs in one direction - new and more recently updated files on the left-side will be added to the right side but not the other way. It won't delete any files. **This is best to use in most cases.**
-* **Two Way**: Syncs in two directions - new and more recently updated files on both sides will be added to both sides, and it won't delete any files.
-* **Mirror**: Syncs in one direction - new and more recently updated files on the left-side will be added to the right side but not the other way. **WARNING:** It will delete any files from the right-side that are not on the left-side. Do not use this unless you know what you are doing!!
+Notes on Synchronisation modes:
+
+- **Update**: Syncs in one direction - new and more recently updated files on the left-side will be added to the right side but not the other way. It won't delete any files. **This is best to use in most cases.**
+- **Two Way**: Syncs in two directions - new and more recently updated files on both sides will be added to both sides, and it won't delete any files.
+- **Mirror**: Syncs in one direction - new and more recently updated files on the left-side will be added to the right side but not the other way. **WARNING:** It will delete any files from the right-side that are not on the left-side. Do not use this unless you know what you are doing!!

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective strategies for managing comments and Debug.Print statements in your code for enhanced maintainability.
 type: rule
 archivedreason: 
 title: Comments - Do you know what to do with comments and Debug.Print statements?

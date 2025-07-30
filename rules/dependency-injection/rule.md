@@ -1,26 +1,26 @@
 ---
+seoDescription: Implementing Dependency Injection effectively separates object creation from usage, increasing flexibility and testability while reducing coupling.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use the Dependency Injection design pattern?
 guid: 076632c1-c3b3-4a59-8fa6-55d6fb9ceeae
 uri: dependency-injection
 created: 2012-03-20T02:29:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
-- title: Dhruv Mathur
-  url: https://ssw.com.au/people/dhruv-mathur
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
+  - title: Dhruv Mathur
+    url: https://ssw.com.au/people/dhruv-mathur
 related:
-- do-you-name-your-dependencies-to-avoid-problems-with-minification
-- common-design-patterns
+  - do-you-name-your-dependencies-to-avoid-problems-with-minification
+  - common-design-patterns
 redirects: []
-
 ---
 
 Appropriate use of design patterns can ensure your code is maintainable and easy to read.

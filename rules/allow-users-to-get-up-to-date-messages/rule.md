@@ -1,17 +1,17 @@
 ---
+seoDescription: Stay informed about important updates and valuable information without needing to check for software updates with our intuitive notifications
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you allow users to get up-to-date messages?
 guid: 759aba4a-b0f7-4697-bc80-d0b848def9c8
 uri: allow-users-to-get-up-to-date-messages
 created: 2017-05-31T18:10:59.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-allow-users-to-get-up-to-date-messages
-
+  - do-you-allow-users-to-get-up-to-date-messages
 ---
 
 A new version of your software is deployed. How do you tell users important information on older versions?

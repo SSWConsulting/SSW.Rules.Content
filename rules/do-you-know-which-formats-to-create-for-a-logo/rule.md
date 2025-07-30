@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn about logo formats (EPS, SVG, PNG) and variations for different uses like web, print, color schemes, and favicons.
 type: rule
 archivedreason: 
 title: Do you know which formats and variations to create for a logo？

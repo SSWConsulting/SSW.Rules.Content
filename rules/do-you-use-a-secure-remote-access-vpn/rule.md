@@ -1,4 +1,5 @@
 ---
+seoDescription: Secure your Remote Access VPN by using Multi-Factor Authentication (MFA) and a secure protocol such as SSL or IPSec.
 type: rule
 title: Do you use a secure VPN with MFA?
 uri: do-you-use-a-secure-remote-access-vpn
@@ -14,6 +15,7 @@ created: 2017-02-17T03:48:32.000Z
 archivedreason: null
 guid: 787d54f9-0c88-4a97-99ba-75e9239cd1e2
 ---
+
 If you have a Remote Access VPN, it is important to ensure that the VPN is secure. VPNs are a common point of attack in cyber security incidents - if a bad actor can get into your VPN, they're in your network.
 
 <!--endintro-->
@@ -42,7 +44,7 @@ It is also important to make sure that your VPN uses a secure protocol. Previous
 
 ### More information on Cisco AnyConnect
 
-If you're using Cisco AnyConnect and Azure AD, it is easy to set up authentication through SAML - so your Azure AD MFA will be applied to any VPN logins. 
+If you're using Cisco AnyConnect and Azure AD, it is easy to set up authentication through SAML - so your Azure AD MFA will be applied to any VPN logins.
 
 The basic steps are:
 

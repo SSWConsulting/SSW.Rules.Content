@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how automating essentials such as security, temperature, and lighting can revolutionize your home or office space, ensuring comfort, accessibility, and reduced energy consumption.
 type: rule
 title: Do you automate your essentials?
 uri: automation-essentials
@@ -10,7 +11,6 @@ authors:
 related: []
 created: 2023-05-04T05:06:33.000Z
 guid: e2d55514-1ead-49c3-ae2f-a160f4decd9c
-
 ---
 
 Home and office automation can drastically improve the security, comfort, and accessibility of a space. And if we're being honest - it's just plain cool!
@@ -56,7 +56,7 @@ Bob then realises he left tonight's dinner in the fridge - oh no! Back into the 
 * Arm the security system
 * Walks out the front door
 
-A small disruption to his standard routine, and Bob accidentally forgets to lock the front door. This kind of thing happens *all the time*.
+A small disruption to his standard routine, and Bob accidentally forgets to lock the front door. This kind of thing happens _all the time_.
 
 Now let's look at how this would work with an automated office.
 

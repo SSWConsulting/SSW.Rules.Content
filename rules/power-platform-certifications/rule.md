@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Power Platform certifications offer a range of training options to help professionals learn new skills, fill knowledge gaps and boost productivity.
 type: rule
 title: Do you know the relevant Power Platform certifications and associated exams?
 uri: power-platform-certifications
@@ -8,23 +9,25 @@ authors:
 created: 2022-01-07T05:02:20.942Z
 guid: fa25d879-7de6-43ce-9b2b-485fde08fb51
 ---
+
 Whether you're an expert or just getting started, working towards gaining a new certification is a worthwhile investment.
 
 Microsoft provides numerous certifications and training options to help you:
 
-* Learn new skills
-* Fill technical knowledge gaps
-* Boost your productivity
-* Prove your competence
+- Learn new skills
+- Fill technical knowledge gaps
+- Boost your productivity
+- Prove your competence
 
 <!--endintro-->
 
 ![Figure: Microsoft Certification RoadMap](certification-map.png)
-- - -
+
+---
 
 ## Fundamentals
 
-If you're just getting started,  take a look at:
+If you're just getting started, take a look at:
 
 #### [Microsoft Certified: Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/power-platform-fundamentals/)
 
@@ -32,7 +35,7 @@ Earn this certification to prove you have a foundational knowledge of the Power 
 
 You will need to pass Exam [PL-900: Microsoft Power Platform Fundamentals](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-900).
 
-- - -
+---
 
 ## Associate
 
@@ -68,7 +71,7 @@ Earn this certification to prove you have a solid knowledge of Dynamics 365 Busi
 
 You will need to pass Exam [MB-800: Microsoft Dynamics 365 Business Central Functional Consultant](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-800).
 
-- - -
+---
 
 ## Specialty
 
@@ -78,7 +81,7 @@ Earn this certification to prove you understand using the Power Platform to mana
 
 You will need to pass Exam [MB-260: Microsoft Customer Data Platform Specialist](https://docs.microsoft.com/en-au/learn/certifications/exams/mb-260).
 
-- - -
+---
 
 ## Expert
 
@@ -88,15 +91,15 @@ Earn this certification to prove you have a foundational knowledge of the Power 
 
 You will need to pass Exam [PL-600: Microsoft Power Platform Solution Architect](https://docs.microsoft.com/en-au/learn/certifications/exams/pl-600)
 
- and complete one of
+and complete one of
 
 [Microsoft Certified: Power Platform Functional Consultant Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-functional-consultant-associate/)
 
-OR  
+OR
 
 [Microsoft Certified: Power Platform Developer Associate](https://docs.microsoft.com/en-au/learn/certifications/power-platform-developer-associate/).
 
-- - -
+---
 
 ![Figure: Get the poster to see Microsoft's certifications](screen-shot-2022-01-06-at-10.17.14-pm.png)
 

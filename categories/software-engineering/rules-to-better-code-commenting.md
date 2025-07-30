@@ -7,11 +7,10 @@ index:
 - code-commenting
 - what-to-do-with-comments-and-debug-print-statements
 - comment-when-your-code-is-updated
-- create-task-list-comments-for-your-code
+- todo-tasks
 - add-a-comment-when-you-use-thread-sleep
 - what-to-do-with-a-work-around
 - comment-each-property-and-method
-- todo-tasks
 ---
 
-
+Learn effective strategies for code commenting to enhance readability and maintainability. This guide covers best practices for commenting on code updates, handling debug statements, and documenting methods and properties.

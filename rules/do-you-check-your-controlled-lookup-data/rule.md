@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure Controlled Lookup Data remains intact and functional by implementing stored procedures or unit tests to validate data presence.
 type: rule
 title: Do you check your "Controlled Lookup Data" (aka Reference Data) is still there?
 uri: do-you-check-your-controlled-lookup-data
@@ -16,27 +17,26 @@ redirects:
 created: 2009-10-05T22:35:51.000Z
 archivedreason: null
 guid: b19ff173-49dc-4504-a549-5f26d3c82b83
-
 ---
 
 [Controlled Lookup Data](/do-you-deploy-controlled-lookup-data) is when data is tightly coupled to the application. If the data is not there, you have problems. So how do we check to see if data is still there?
 
-Let's look at an example, of a combo that is populated with Controlled Lookup data (just 4 records)    
+Let's look at an example, of a combo that is populated with Controlled Lookup data (just 4 records)
 
 <!--endintro-->
 
-### Modern Frameworks (EF) 
+### Modern Frameworks (EF)
 
-With Frameworks like Entity Framework you can write unit tests to catch data issues before it becomes an problem. 
+With Frameworks like Entity Framework you can write unit tests to catch data issues before it becomes an problem.
 
 ### Legacy Applications
 
-With legacy applications, creating a stored procedure will have the same effect with a bit more effort. 
+With legacy applications, creating a stored procedure will have the same effect with a bit more effort.
 
-![Figure: How do I make sure these 4 records never go missing?](TimeProDropDown_1710232021933.png)  
+![Figure: How do I make sure these 4 records never go missing?](TimeProDropDown_1710232021933.png)
 
-``` sql
-CREATE PROCEDURE procValidate_Region 
+```sql
+CREATE PROCEDURE procValidate_Region
 AS
 
     IF EXISTS(SELECT TOP 1 * FROM dbo.[Region]
@@ -60,6 +60,7 @@ AS
     ELSE
         RAISERROR(N'Lack of Southern', 10, 1)
 ```
+
 **Figure: Implement a stored procedure to check the 'Controlled Lookup Data' does not go missing**
 
 ::: greybox

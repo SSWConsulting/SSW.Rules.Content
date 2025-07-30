@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid iterating multiple times to prevent unnecessary expense and potential enumeration errors in LINQ expressions.
 type: rule
 title: Do you avoid iterating multiple times?
 uri: avoid-iterating-multiple-times
@@ -9,13 +10,14 @@ created: 2021-12-22T05:14:11.473Z
 guid: 977d44f6-fc2a-4ead-ab01-910cbbfdefef
 ---
 
-
 Due to LINQ expressions being lazy executed, it is a important to avoid re-evaluating the expression. For LINQ extension methods, this is critically important.
+
 <!--endintro-->
 
 There are 2 problems with multiple evaluations:
-- It is needlessly expensive
-- It may not be possible
+
+* It is needlessly expensive
+* It may not be possible
 
 Some IEnumerables may be tied to something like a Stream that doesn't support seeking. In this case, the enumeration can only occur once. This is true of the web request Content stream. That would mean that you simply can't enumerate it again as to start the enumeration again would require seeking back to the start.
 
@@ -33,6 +35,7 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
     }
 }
 ```
+
 ::: bad
 Figure: Bad example - Calls any which enumerates the first item and then foreach which forces a second evaluation
 :::
@@ -40,7 +43,7 @@ Figure: Bad example - Calls any which enumerates the first item and then foreach
 ```cs
 public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
 {
-    var first = true;    
+    var first = true;
     foreach (var product in products)
     {
         if (first)
@@ -52,6 +55,7 @@ public IEnumerable<Product> UpdateStockLevels(IEnumerable<Product> products)
     }
 }
 ```
+
 ::: good
 Figure: Good example - Only enumerates once
 :::

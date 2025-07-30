@@ -1,21 +1,21 @@
 ---
+seoDescription: Use heading tags (H1, H2, H3) where appropriate to structure your content and improve search engine ranking. This helps search engines understand the hierarchy of your page's content and gives extra weighting to text in H1 and H2 tags.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use heading tags where appropriate (H1, H2, H3...)?
 guid: a8ecbdff-44f9-4b73-b7fe-4285629e3f1f
 uri: use-heading-tags-h1-h2-h3
 created: 2016-08-05T17:30:06.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- make-title-h1-and-h2-tags-descriptive
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - make-title-h1-and-h2-tags-descriptive
 redirects:
-- do-you-use-heading-tags-where-appropriate-h1-h2-h3
-- do-you-use-heading-tags-where-appropriate-(h1-h2-h3-)
-
+  - do-you-use-heading-tags-where-appropriate-h1-h2-h3
+  - do-you-use-heading-tags-where-appropriate-(h1-h2-h3-)
 ---
 
 You should understand the hierarchy and try to use the heading tags (&lt;H1&gt;, &lt;H2&gt; or &lt;H3&gt;...) for titles and subtitles.
@@ -26,24 +26,27 @@ The following are benefits of using heading tags:
 
 <!--endintro-->
 
-* Improves the ranking with the search engines (extra weighting is given to text in H1 and H2)
-* Makes cleaner and leaner HTML
+- Improves the ranking with the search engines (extra weighting is given to text in H1 and H2)
+- Makes cleaner and leaner HTML
 
 Note: It's also important to customize these headings via CSS, making the font bigger, bold or in a different color. This way page looks nice and organized.
 
+```html
+<p>
+  <span class="Heading">Introduction</span>
 
-``` html
-<p><span class="Heading">Introduction</span> 
-      
-Lets chatter about...</p>
+  Lets chatter about...
+</p>
 ```
+
 ::: bad
-Figure: Bad example -  Using span tags and CSS classes to insert headings to content
+Figure: Bad example - Using span tags and CSS classes to insert headings to content
 :::
 
-``` html
+```html
 <h2>Introduction</h2>
 ```
+
 ::: good
 Figure: Good example - Using heading tags
 :::

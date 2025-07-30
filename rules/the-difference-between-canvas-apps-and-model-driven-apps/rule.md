@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the key differences between Canvas Apps and Model-Driven Apps in Power Apps to choose the right solution for your needs.
 type: rule
 title: Do you know the difference between Canvas Apps and Model-Driven Apps?
 uri: the-difference-between-canvas-apps-and-model-driven-apps
@@ -12,7 +13,7 @@ created: 2020-10-27T21:11:46.000Z
 archivedreason: null
 guid: c745e799-2c32-46f3-8817-bfe1e099ced5
 ---
-Power Apps provide makers a highly productive low code environment, but before you jump into building your first Power App it's important to know the difference between Canvas and Model-Driven Apps and to make the right choice upfront. 
+Power Apps provide makers a highly productive low code environment, but before you jump into building your first Power App it's important to know the difference between Canvas and Model-Driven Apps and to make the right choice upfront.
 
 <!--endintro-->
 

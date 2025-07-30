@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a minimal master page in SharePoint for efficient and easy-to-style web pages.
 type: rule
 title: Do you create a minimal master page?
 uri: do-you-create-a-minimal-master-page
@@ -34,8 +35,9 @@ Another problem of Default.master is that it contains many tables that are di
 </BODY>
 </HTML>
 ```
+
 ::: bad
-Bad example - using default master page   
+Bad example - using default master page
 :::
 
 So we recommend using the minimal master page which includes the necessary placeholders.
@@ -80,6 +82,7 @@ To create a minimal master page
 </body>
 </html>
 ```
+
 ::: good
 Good example - using minimal master page
 :::

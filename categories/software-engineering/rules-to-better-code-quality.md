@@ -10,7 +10,8 @@ index:
 - consistent-code-style
 - do-you-know-which-check-in-policies-to-enable
 - safe-against-the-owasp-top-10
+- get-code-line-metrics
 
 ---
 
-
+Enhance your code's integrity with these vital guidelines focused on maintaining high standards of quality. This collection emphasizes best practices for code health checks, consistent styling, and ensuring security against common vulnerabilities.

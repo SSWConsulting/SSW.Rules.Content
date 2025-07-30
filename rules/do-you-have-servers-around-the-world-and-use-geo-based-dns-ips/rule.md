@@ -1,18 +1,18 @@
 ---
+seoDescription: Host your website globally with servers around the world and use a Content Delivery Network (CDN) to ensure fast page loads for users worldwide.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have servers around the world and use CDN?
 guid: de201548-f9b2-4f54-95f2-300e8bb3b62e
 uri: do-you-have-servers-around-the-world-and-use-geo-based-dns-ips
 created: 2014-09-03T19:17:30.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-have-servers-around-the-world-and-use-geo-based-dns-ip’s
-- do-you-have-servers-around-the-world-and-use-cdn
-
+  - do-you-have-servers-around-the-world-and-use-geo-based-dns-ip’s
+  - do-you-have-servers-around-the-world-and-use-cdn
 ---
 
 Having a very popular website is great. The only problem is where to host it. If you host it in your local country then it is very fast for your local market but what about the market on the other side of the world? The solution to this is to use a Content Delivery Network (CDN).

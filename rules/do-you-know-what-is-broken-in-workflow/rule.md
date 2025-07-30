@@ -1,21 +1,21 @@
 ---
+seoDescription: SharePoint's out-of-the-box workflows lack customization options, requiring businesses to adapt their processes to fit SharePoint's generic workflow.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know what is broken in workflow?
 guid: 59776708-baa8-4211-a32a-6d7d5a0d152d
 uri: do-you-know-what-is-broken-in-workflow
 created: 2009-06-16T01:59:00.0000000Z
 authors:
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
+  - title: Jay Lin
+    url: https://ssw.com.au/people/jay-lin
 related: []
 redirects: []
-
 ---
 
-SharePoint comes with some very basic workflows out of the box.  A particular example is the content approval workflow.
+SharePoint comes with some very basic workflows out of the box. A particular example is the content approval workflow.
 
 When a content approval workflow is used, it modifies the process of publishing content to be:
 
@@ -28,16 +28,11 @@ When a content approval workflow is used, it modifies the process of publishing 
 7. The approval workflow completes and publishes the page.
 8. It then sends an email telling the user that an approval workflow has been completed (email 3).
 
-
 What is the problem?
 
-The out of the box workflow is extremely generic.  It has no customizations or shortcuts.  Even if you are an approver, you cannot skip any of the steps.  The end result is that you will have to click 4 times and receive 3 emails, for approving your own finalized content.
+The out of the box workflow is extremely generic. It has no customizations or shortcuts. Even if you are an approver, you cannot skip any of the steps. The end result is that you will have to click 4 times and receive 3 emails, for approving your own finalized content.
 
-These kind of workflows are designed generic to fit any business’ needs – and in fact, businesses using these out of the box workflows have to adjust their staff’s workflow to match SharePoint’s ones.  Which can be counter intuitive.
-
-
-
-
+These kind of workflows are designed generic to fit any business’ needs – and in fact, businesses using these out of the box workflows have to adjust their staff’s workflow to match SharePoint’s ones. Which can be counter intuitive.
 
 <!--endintro-->
 

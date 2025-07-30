@@ -1,4 +1,5 @@
 ---
+seoDescription: Unlock employee creativity and innovation through brainstorming days, fostering team bonding and empowering your workforce to drive business growth.
 type: rule
 title: Do you use the brains of your company?
 uri: use-the-brains-of-your-company
@@ -21,7 +22,6 @@ redirects:
 created: 2019-12-07T02:15:11.000Z
 archivedreason: null
 guid: e774f9e0-d13b-45f0-bd9d-ac1146f51ee3
-
 ---
 
 Your employees are your greatest asset, yet their valuable knowledge and insights often go unnoticed. Why not harness their creativity and problem-solving abilities by hosting a fun and collaborative Brainstorming day? It's a simple but effective way to unlock innovative ideas, foster team bonding, and empower your workforce. 🧠💪
@@ -44,3 +44,7 @@ Different companies have different approaches to this. For example:
 `youtube: https://www.youtube.com/embed/ov8OGcApBjc`
 
 **Video: Empowering Employees Through Brainstorming (3 min)**
+
+---
+
+See more videos on [SSW Employment page](https://www.ssw.com.au/employment).

@@ -1,4 +1,5 @@
 ---
+seoDescription: Organize and back up your files to prevent data loss and ensure easy accessibility.
 type: rule
 title: Video data - Do you back up your files in an organized way?
 uri: organize-and-back-up-your-files
@@ -17,7 +18,6 @@ redirects:
 created: 2021-01-12T19:27:12.000Z
 archivedreason: null
 guid: 8e2366c5-f7d8-45ec-8f4a-3cff323e8c49
-
 ---
 
 It is important to back up your work regularly to a separate location to prevent any loss of data. Ideally, back-ups are saved to a server or cloud-based file storage for ease of access.
@@ -49,7 +49,7 @@ File names are also very important - they are the principal identifier of a file
 Always use version numbers when saving – **don’t use the word ‘final’**. It is much easier to follow the progression of a project with numbers, both to find the latest version or to revert back to a previous one if needed.
 
 ::: bad  
-![Figure: Bad example - Items are not named clearly and it is difficult to know what file is the correct export](structure-back-up-files-bad-example-3.jpg) 
+![Figure: Bad example - Items are not named clearly and it is difficult to know what file is the correct export](structure-back-up-files-bad-example-3.jpg)
 :::
 
 ::: good  

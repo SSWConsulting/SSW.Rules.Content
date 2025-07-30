@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve user experience by using icons on file links to avoid surprising users with unexpected downloads or applications opening in the background.
 type: rule
 title: Do you use icons on files' links to not to surprise users?
 uri: use-icons-to-not-surprise-users
@@ -31,6 +32,7 @@ When a user clicks a hyperlink, they expect a webpage to open. If they click on 
 Don't surprise users! Use icons next to links to show different types of links/files.
 
 ::: no-border
+
 | Link/file type                                                    | Option A - Font icons (e.g. FontAwesome)                                                         | Option B - Image icons (e.g. SharePoint) |
 | ----------------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------- |
 | **Regular link**                                                   | [This is a normal link](/)                                                 | ...                     |
@@ -42,7 +44,7 @@ Don't surprise users! Use icons next to links to show different types of links/f
 | **XLS**                                                           | [This is an Excel Spreadsheet file](Sample-XLS.xlsx)                             | ![](xls-file.png)       |
 | **PPT**                                                           | [This is a PowerPoint file](Sample-PPT.pptx)                                     | ![](ppt-file.png)       |
 | **TXT**                                                           | [This is a text file](Sample-TXT.txt)                                            | ![](txt-file.png)       |
-| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/ssw/include/consulting/img/CRM_background.mp4)               | ![](video-file.png)                      |
+| **AVI, MOV, MPG, etc.**                                           | [This is a video file](https://www.ssw.com.au/images/videos/MVC_background.mp4)  | ![](video-file.png)     |
 | **WAV, WMA, MP3, etc.**                                           | [This is an audio file](sample-AUDIO.mp3)                                         | ![](audio-file.png)    |
 | **ICS or VCS**                                                    | [This is a calendar file](Sample-ICS.ics)                                        | ![](calendar-icon-png.png)                     |
 | **ZIP**                                                           | [This is a zip file](Sample-ZIP.zip)                                             | ![](zip-file.png) |
@@ -72,7 +74,7 @@ They will also look good on any screen resolution or display.
 ✅ Free $  
 ✅ Can be used in any size  
 ✅ Large choice of icons (even more than UI Fabric!)  
-❌ Requires code (Inject CSS)   
+❌ Requires code (Inject CSS)
 
 To implement [use one of the different ways to set up Font Awesome](https://fontawesome.com/docs/web/#web-setup). Then find the icon unicode at [FontAwesome icons page](https://fontawesome.com/icons) and replace on the CSS "content" value.
 
@@ -89,7 +91,7 @@ a[href$='.pdf']:before
 
 ### Option B: Using images
 
-Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle. 
+Create or buy a collection of icons that match your website style. The benefit is the ability to have custom and multi-colored icons, that can look exactly like a software logo for example. But it's usually not worth the hassle.
 
 You will add each icon image to your server, and then add the path as background URL in the CSS file.
 

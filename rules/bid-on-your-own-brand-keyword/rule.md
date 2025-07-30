@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn why you should bid on your own brand keyword even if you rank #1 organically for your brand.
 type: rule
 archivedreason: 
 title: Do you bid on your own Brand keyword?
@@ -21,7 +22,6 @@ redirects:
 
 You might ask yourself – Why should I bid on my own brand name when I am already ranking number 1 organically for my brand?
 It might make sense to say "no" naturally (because you’re already ranking on the first page!) but the real answer might surprise you....
-
 
 <!--endintro-->
 

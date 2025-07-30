@@ -1,17 +1,17 @@
 ---
+seoDescription: Learn how to introduce yourself correctly, making a positive first impression with authority and courtesy.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to introduce yourself correctly?
 guid: c3ead01d-88ff-4982-9459-4afa89e4ab48
 uri: introduce-yourself-correctly
 created: 2018-06-08T21:00:57.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-how-to-introduce-yourself-correctly
-
+  - do-you-know-how-to-introduce-yourself-correctly
 ---
 
 Ever wondered why 007 always introduced himself as "Bond, James Bond"? Well, If he introduced himself as just James everywhere he went you wouldn't think very much of this international man of espionage and danger would you? By using your full name it instantly gives you authority. It's also useful in situations where your name is common like Peter, John or Jane.
@@ -24,7 +24,7 @@ Just remember that first impression last so you need to make sure you're kind 
 **Stephen:** SSW, Stephen Bennett speaking  
 :::
 
-Notice the use of the company name and your full name. 
+Notice the use of the company name and your full name.
 
 When you pick up the phone from someone who was on hold, you don't need to repeat the company name:
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you have a product roadmap? A clear and defined product roadmap helps teams stay focused on long-term goals and priorities, while also preventing side-tracking on non-essential issues.
 type: rule
 title: Do you have a product roadmap?
 uri: roadmap
@@ -24,7 +25,7 @@ To get a better **zoomed out** view, you should have a product roadmap.
 
 `youtube: https://www.youtube.com/embed/FXMMZvE1lig`
 
-**Video: Do you have a product roadmap?**
+**Video: Do you have a product roadmap? (3 min)**
 
 You can think of it as a list of milestones to reach a goal.
 
@@ -77,17 +78,17 @@ Ideally, you want to make some progress on product roadmap items in every Sprint
 ![Figure: Good example - A small team might have something like the SophieBot product roadmap](sophiebotroadmap.png)
 :::
 
-See: [SophieBot product roadmap](https://github.com/SSWConsulting/SSW.SophieBot/wiki#roadmap)
+See [SophieBot product roadmap](https://github.com/SSWConsulting/SSW.SophieBot/wiki#roadmap).
 
 ::: good
 ![Figure: Good example - A large team might have something like the Microsoft365 product roadmap](microsoft365roadmap.png)
 :::
 
-See: [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap)
+See [Microsoft365 product roadmap](https://www.microsoft.com/en-us/microsoft-365/roadmap).
 
 ::: good
 
 ![Figure: Good example - GitHub maintains their product roadmap using GitHub Projects and GitHub Issues](githubroadmap.png)
 :::
 
-See: [GitHub product roadmap](https://github.com/orgs/github/projects/4247/views/1)
+See [GitHub product roadmap](https://github.com/orgs/github/projects/4247/views/1).

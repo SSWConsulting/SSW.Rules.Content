@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid unnecessary CSS classes and reuse existing ones to keep your code clean and maintainable.
 type: rule
 title: Do you avoid adding unnecessary CSS classes?
 uri: avoid-unnecessary-css-classes
@@ -9,7 +10,6 @@ authors:
     url: https://www.ssw.com.au/people/tiago-araujo
 created: 2022-07-28T06:06:37.551Z
 guid: ca1b7770-298b-4035-b45d-a570fa0ee77b
-
 ---
 
 When making or editing CSS or HTML content it is important to avoid adding classes and ID's unnecessarily.
@@ -23,13 +23,17 @@ You should use a front-end framework, like [Bootstrap](https://getbootstrap.com/
 HTML:
 
 ```html
-<a class="view-all-link" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
+<a
+  class="view-all-link"
+  href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV"
+  >View All</a
+>
 ```
 
 CSS:
 
 ```css
-.view-all-link{
+.view-all-link {
   margin-top: 0;
 }
 ```
@@ -41,7 +45,11 @@ Figure: Bad example - The "view-all-link" class was added unnecessarily
 HTML:
 
 ```html
-<a class="mt-0" href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV">View All</a>
+<a
+  class="mt-0"
+  href="https://www.youtube.com/playlist?list=PLIzW_0dAIKv3mjBeK8eyJbe1bOGWJX_UV"
+  >View All</a
+>
 ```
 
 ::: good

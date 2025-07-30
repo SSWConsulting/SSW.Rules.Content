@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively use hashtags on social media platforms like Twitter, Facebook, and more. Learn best practices for leveraging hashtags, including tips for companies and individuals, to increase visibility and engagement.
 type: rule
 title: Do you use and encourage others to use hashtags?
 uri: use-hashtags
@@ -28,7 +29,8 @@ created: 2010-09-07T12:59:28.000Z
 archivedreason: null
 guid: a528498b-c6f0-4367-9017-2c8652115856
 ---
-Hashtags identify the keyword or topic of interest that the post is about. They allow searching for similar posts on the topic. They were popularized on Twitter and now work on Facebook, Pinterest, etc. On Twitter, it is possible to "track" (aka Subscribe to) a tag.  
+
+Hashtags identify the keyword or topic of interest that the post is about. They allow searching for similar posts on the topic. They were popularized on Twitter and now work on Facebook, Pinterest, etc. On Twitter, it is possible to "track" (aka Subscribe to) a tag.
 
 <!--endintro-->
 
@@ -52,9 +54,9 @@ The best tweets will use a combination of @mentions and #hashtags where appropri
 
 ### Examples of hashtags
 
-* **\#SSW** - For our company-related posts
-* **\#SSWRules** - For our public standards
-* **\#SSWTV** - For our video channel
-* **\#SSWTraining** - For our training programs
-* **\#NETUG** - For our .NET User Groups
-* **\#AngularHackDay** or **\#AIHackDay** - For one of our "Hack Day" training events
+- **\#SSW** - For our company-related posts
+- **\#SSWRules** - For our public standards
+- **\#SSWTV** - For our video channel
+- **\#SSWTraining** - For our training programs
+- **\#NETUG** - For our .NET User Groups
+- **\#AngularHackDay** or **\#AIHackDay** - For one of our "Hack Day" training events

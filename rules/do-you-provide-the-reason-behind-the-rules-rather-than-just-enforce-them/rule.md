@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively enforce standards by explaining their importance, fostering better teamwork and avoiding repeated mistakes
 type: rule
 title: General - Standards Watchdog - Do you provide the reason behind the rules
   rather than just enforce them?
@@ -21,7 +22,7 @@ Learning lessons the hard way is a fact of life, but one of the great things abo
 <!--endintro-->
 
 > *"The floggings will continue until morale improves"*
-> 
+>
 > \- A bad manager
 
 Everyone makes mistakes. If you run around wielding your authority as a cudgel, telling them they'd better comply *or else*, two things will happen:
@@ -32,6 +33,7 @@ Everyone makes mistakes. If you run around wielding your authority as a cudgel, 
 For example: if one of your standards is for developers to send "test please" emails, there's a hard-learned lesson behind that standard (or else it wouldn't exist!). You can beat your developers over the head with the rule, or you can take 5 minutes to explain the reasons why it exists and why it's important.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | From:    | Boss |
@@ -39,7 +41,7 @@ For example: if one of your standards is for developers to send "test please" em
 | Subject: | No test please email |
 ::: email-content  
 
-### Hi Mark,
+### Hi Mark
 
 You didn't send a "test please" email. Please do that next time.
 
@@ -48,11 +50,11 @@ Boss
 :::
 :::
 ::: bad
-Figure: Bad example - This email doesn't tell Mark why this is so important. 
+Figure: Bad example - This email doesn't tell Mark why this is so important.
 :::
 
-
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | From:    | Boss |
@@ -60,7 +62,7 @@ Figure: Bad example - This email doesn't tell Mark why this is so important.
 | Subject: | Test Please emails standard |
 ::: email-content  
 
-### Hi Mark,
+### Hi Mark
 
 Regarding that PBI you worked on yesterday.
 

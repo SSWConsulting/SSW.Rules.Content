@@ -1,17 +1,17 @@
 ---
+seoDescription: Ensure comfortable viewing by targeting resolutions that cater to your customers' devices, rather than demanding they upgrade their screens.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you target the correct resolution when designing forms?
 guid: d5ff1167-3ed8-4983-bd5c-51450a0a0061
 uri: target-the-correct-resolution-when-designing-forms
 created: 2015-12-18T13:40:21.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-target-the-correct-resolution-when-designing-forms
-
+  - do-you-target-the-correct-resolution-when-designing-forms
 ---
 
 You will target your application towards resolutions that your customers can use comfortably. It is no good to just tell the customer to increase their resolution on their 15-inch LCD  because your application and others can become unreadable on smaller screens.

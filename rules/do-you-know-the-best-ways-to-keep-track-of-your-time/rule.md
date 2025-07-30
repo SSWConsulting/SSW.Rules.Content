@@ -1,18 +1,18 @@
 ---
+seoDescription: Do you know the best ways to keep track of your working time? Here are four efficient methods for developers - electronic timesheets, OneNote/Notepad++, physical diaries, and GitHub/Azure DevOps commits.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the best ways to keep track of your working time?
 guid: a65bafe5-2853-415a-96df-f2ddcaf21c93
 uri: do-you-know-the-best-ways-to-keep-track-of-your-time
 created: 2013-04-19T19:33:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 The goal is simple, accurate hours and good comments.

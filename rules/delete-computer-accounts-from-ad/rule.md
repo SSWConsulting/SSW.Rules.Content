@@ -1,4 +1,5 @@
 ---
+seoDescription: Delete computer accounts from Active Directory to maintain a secure and tidy environment by removing decommissioned devices and improving domain access control.
 type: rule
 title: Do you delete computer accounts from Active Directory?
 uri: delete-computer-accounts-from-ad
@@ -10,6 +11,7 @@ related:
 created: 2022-06-02T22:58:49.208Z
 guid: 3c078816-1abb-456e-96be-28fd9fba2006
 ---
+
 Keeping your Active Directory environment tidy is helpful to keep things running smoothly, but it is also important to improve your security posture.
 
 <!--endintro-->

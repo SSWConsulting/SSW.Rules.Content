@@ -1,4 +1,5 @@
 ---
+seoDescription: To prevent cross-site request forgery (XSRF), use Html.AntiForgeryToken. On the action which takes the post request, place the [ValidateAntiForgeryToken] attribute to enable the request validation. This ensures that only verified posts are processed by the server.
 type: rule
 title: Do you use Anti Forgery Tokens on any page that takes a POST?
 uri: do-you-use-anti-forgery-tokens-on-any-page-that-takes-a-post
@@ -12,7 +13,7 @@ archivedreason: null
 guid: 4d370343-7442-4305-b1ee-1d175f4184f4
 ---
 
-To prevent cross-site request forgery (XSRF), you should use Html.AntiForgeryToken. On the action which takes the post request, place the ValidateAntiForgeryToken attribute to enable the request to validate.  Doing this ensures that the post is a direct response to the page that was given to this user so only verified posts will be processed.
+To prevent cross-site request forgery (XSRF), you should use Html.AntiForgeryToken. On the action which takes the post request, place the ValidateAntiForgeryToken attribute to enable the request to validate. Doing this ensures that the post is a direct response to the page that was given to this user so only verified posts will be processed.
 
 <!--endintro-->
 
@@ -33,6 +34,7 @@ To prevent cross-site request forgery (XSRF), you should use Html.AntiForgeryTok
     </p>
  }
 ```
+
 ::: bad
 Figure: Bad example – The page is potentially vulnerable to XSRF attacks. Any post will be accepted by the server
 :::
@@ -53,7 +55,7 @@ View:
     </div>
 
     <p>
-        
+
             <input type="submit" value="Create"/>
     </p>
 }
@@ -66,6 +68,7 @@ public ActionResult Create(CreateModel model)
     // save data
 }
 ```
+
 ::: good
 Figure: Good example – The page is no longer vulnerable to XSRF attacks
 :::

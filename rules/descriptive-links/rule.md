@@ -1,6 +1,7 @@
 ---
+seoDescription: Descriptive links improve website SEO and provide a friendly experience to users.
 type: rule
-title: SEO - Do you use descriptive links?
+title: On-page - Do you use descriptive links?
 uri: descriptive-links
 authors:
   - title: Adam Cogan
@@ -21,13 +22,14 @@ created: 2015-11-10T17:38:35.000Z
 archivedreason: null
 guid: 507ec7a5-a681-4617-abf1-b87ddc96f157
 ---
+
 The way your inbound links are worded makes a big difference. They play an important factor for search engine results and for the users.
 
 Having descriptive links with relevant words **improves your website SEO** and gives a **more friendly experience to users**.
 
 <!--endintro-->
 
-For example, if a website had millions of inbound links that described it as "Movies for Free", when someone searches for "free movies" on Google, it would point to this website.  
+For example, if a website had millions of inbound links that described it as "Movies for Free", when someone searches for "free movies" on Google, it would point to this website.
 
 So what does this mean? All those links that are pointing to pages on your website displayed as 'More', 'Link', 'This' or 'Click Here' aren't doing you any favors when it comes to increasing your Google rankings.
 
@@ -75,4 +77,12 @@ You can also use links to give people a chance to investigate further on a topic
 :::
 ::: good
 Figure: Good example - Give users context with a link at the end to get more information on the topic
+:::
+
+::: info
+**Note:** If for some reason you need to include the URL instead of a nice descriptive text, it is recommended to:
+
+* [Make URLs short and clean](/create-friendly-short-urls)
+* [Break a line before URLs](/format-new-lines/#urls)
+* [Avoid a full stop after immediately URLs](/avoid-full-stops)
 :::

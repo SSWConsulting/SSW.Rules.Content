@@ -1,4 +1,5 @@
 ---
+seoDescription: Control4 Agents enable smart home automation and customization, streamlining daily routines with advanced lighting, scheduling, communication, and more.
 type: rule
 title: Do you know what Agents are in Control4?
 uri: control4-agents
@@ -8,6 +9,7 @@ authors:
 created: 2023-04-04T01:12:50.136Z
 guid: 14364861-85df-4ef0-8cd4-76386f401a2a
 ---
+
 Control4 Agents are essential components of a smart home system that automate various tasks and functions.
 
 <!--endintro-->

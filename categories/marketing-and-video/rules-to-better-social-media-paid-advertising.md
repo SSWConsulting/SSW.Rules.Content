@@ -6,7 +6,7 @@ uri: rules-to-better-social-media-paid-advertising
 index:
 - use-a-conversion-pixel
 - facebook-ads-metrics
-- do-you-know-the-best-practices-for-your-twitter-ads
+- x-ads-best-practices
 - ab-testing-social-paid-campaigns
 
 

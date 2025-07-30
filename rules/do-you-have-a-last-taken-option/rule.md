@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how apps predict your needs with a "last taken" feature to enhance user experience.
 type: rule
 archivedreason: 
 title: Do you have a "last taken" option?

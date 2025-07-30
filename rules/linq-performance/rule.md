@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve LINQ performance by profiling and benchmarking, optimizing queries and data access for efficient business logic implementation.
 type: rule
 archivedreason:
 title: Do you know how to get the best performance out of LINQ?
@@ -15,10 +16,11 @@ related: []
 
 LINQ is a super powerful toolkit, letting you get your business logic implemented in .NET using a standard set of operations.
 While it may be tempting to use it in every scenario, it's important to remember to profile and benchmark any code that is time sensitive for your application.
-            
+
 <!--endintro-->
 
 ## Getting started with profiling
+
 Once you've identified that you've got a performance issue in your application, rather than assuming what the problem is, it's time to profile.
 [Profiling your application](/do-you-profile-your-code-when-optimising-performance) will allow for method level insights into what's being called, how often, and how long each call takes.
 
@@ -26,6 +28,7 @@ Armed with your profiling results, you can now identify any hot spots in the app
 Effectively eliminating these is made far easier by benchmarking alternatives for fixing efficiency issues.
 
 ## Benchmarking your options
+
 Once the cause of the slowness has been identified, it should be isolated so that multiple fixes can be tried and compared through benchmarking.
 Much like profiling helps identify the exact cause of the slowness, rather than relying on intuition; benchmarking helps identify which fix is actually going to help the most.
 
@@ -40,4 +43,3 @@ The above video very clearly shows one of the cases where LINQ may not be the op
 Here, LINQ provides very easy-to-use Order and OrderBy methods but there may be better implementations available, depending on the collection that needs sorting.
 
 LINQ may often be the easy solution to implement, but if you find the application needing better performance, you may need to inspect your LINQ usage and investigate if there's better and more appropriate alternatives available.
-

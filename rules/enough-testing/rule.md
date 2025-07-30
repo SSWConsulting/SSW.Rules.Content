@@ -1,4 +1,5 @@
 ---
+seoDescription: When determining if enough testing has been done, consider stopping heuristics like time constraints, significant bug discovery, ethical concerns, or project objectives, while focusing on high-risk areas through risk-based testing to ensure critical issues are addressed.
 type: rule
 title: Do you know when you've done "enough" testing?
 uri: enough-testing
@@ -31,7 +32,7 @@ There are other ways to decide when to stop testing.
 
 ::: greybox
 Heuristics are quick, inexpensive ways of solving a problem or making a decision. \
-Heuristics are fallible: they might work and they might not work. 
+Heuristics are fallible: they might work and they might not work.
 :::
 
 Michael Bolton has provided a dozen [stopping heuristics](https://www.developsense.com/blog/2009/09/when-do-we-stop-test/):
@@ -48,13 +49,13 @@ Michael Bolton has provided a dozen [stopping heuristics](https://www.developsen
 
 6. The **I Feel Stuck!** Heuristic. For whatever reason, we stop because we perceive there’s something blocking us. Maybe we don’t have the information we need or there's a blocking bug, such that we can’t get to the area of the product that we want to test, for example.
 
-7. The **Pause That Refreshes** Heuristic. Instead of stopping testing, we suspend it for a while, e.g. because we're tired or distracted, or need to do more research. 
+7. The **Pause That Refreshes** Heuristic. Instead of stopping testing, we suspend it for a while, e.g. because we're tired or distracted, or need to do more research.
 8. The **Flatline** Heuristic. No matter what we do, we’re getting the same result, e.g. the software has crashed or has become unresponsive in some way.
 
-9. The **Customary Conclusion** Heuristic. We stop testing when we usually stop testing. There’s a protocol in place for a certain number of test ideas, or test cases, or test cycles or variation, such that there’s a certain amount of testing work that we do and we stop when that’s done. 
+9. The **Customary Conclusion** Heuristic. We stop testing when we usually stop testing. There’s a protocol in place for a certain number of test ideas, or test cases, or test cycles or variation, such that there’s a certain amount of testing work that we do and we stop when that’s done.
 
-10. The **No More Interesting Questions** Heuristic. At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done. 
+10. The **No More Interesting Questions** Heuristic. At this point, we’ve decided that no questions have answers sufficiently valuable to justify the cost of continuing to test, so we’re done.
 
 11. The **Avoidance/Indifference** Heuristic. Sometimes people don’t care about more information or the business reasons for releasing are so compelling that no problem that we can imagine would stop shipment, so no new test result would matter.
 
-12. The **Mission Rejected** Heuristic. We stop testing when we perceive a problem for some person - in particular, an ethical issue - that prevents us from continuing work, e.g. would you continue a test if it involved providing fake test results or lying? 
+12. The **Mission Rejected** Heuristic. We stop testing when we perceive a problem for some person - in particular, an ethical issue - that prevents us from continuing work, e.g. would you continue a test if it involved providing fake test results or lying?

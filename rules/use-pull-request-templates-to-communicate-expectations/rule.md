@@ -1,4 +1,5 @@
 ---
+seoDescription: Use Pull Request templates to specify the expectations and requirements for each PR, streamlining the submission process and ensuring developers understand what is expected of them.
 type: rule
 title: Do you use Pull Request templates to specify the expectations and requirements for each PR?
 uri: use-pull-request-templates-to-communicate-expectations

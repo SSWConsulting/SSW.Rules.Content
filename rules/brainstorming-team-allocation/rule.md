@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn efficient ways to pre-allocate brainstorming teams using voting forms and AI data transformation for optimal team dynamics.
 type: rule
 title: Pre event - Do you know how to allocate Brainstorming teams?
 uri: brainstorming-team-allocation

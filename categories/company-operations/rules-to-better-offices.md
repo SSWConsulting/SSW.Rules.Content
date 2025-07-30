@@ -10,6 +10,7 @@ index:
 - employee-yolo-day
 - reduce-office-noise
 - build-inter-office-interaction
+- dress-code
 - bring-water-to-guests
 - cultural-exchange
 - desk-setups
@@ -17,4 +18,4 @@ index:
 
 ---
 
-
+Optimize office environments by exploring ten essential rules that promote organization, communication, and employee interaction. Discover practical strategies to enhance the workplace experience for everyone.

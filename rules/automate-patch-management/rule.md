@@ -1,4 +1,5 @@
 ---
+seoDescription: Automate your patch management and ensure seamless updates on Microsoft operating systems and third-party apps with recommended solutions.
 type: rule
 title: Do you automate update and patch management?
 uri: automate-patch-management
@@ -10,6 +11,7 @@ authors:
 created: 2022-06-24T01:21:43.151Z
 guid: 515b1310-19a0-432e-9a13-82e167167696
 ---
+
 To keep your systems secure, it is important to make sure everything is kept up to date - the OS, and any installed apps.
 
 <!--endintro-->
@@ -36,9 +38,11 @@ This is where other Patch Management solutions come in. There are many options o
 
   * Good, transparent [pricing $$](https://www.manageengine.com/patch-management/pricing.html)
   * Long list of [supported applications](https://www.manageengine.com/patch-management/supported-applications.html)
+
 * [Automox](https://www.automox.com/)
 
   * More expensive $$
+
 * [Action1](https://www.action1.com/)
 
   * Good pricing $$

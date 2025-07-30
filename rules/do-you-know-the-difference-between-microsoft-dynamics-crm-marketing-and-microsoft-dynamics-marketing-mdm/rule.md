@@ -1,17 +1,17 @@
 ---
+seoDescription: Microsoft Dynamics Marketing (MDM) takes lead generation to the next level by providing marketing planning, budgeting, management, and ROI tracking for businesses.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the difference between Microsoft Dynamics CRM marketing and Microsoft Dynamics Marketing (MDM)?
 guid: a23fb5fd-0bf2-4d34-b13f-3fced8f21319
 uri: do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-microsoft-dynamics-marketing-mdm
 created: 2014-10-16T20:45:31.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-microsoft-dynamics-marketing-(mdm)
-
+  - do-you-know-the-difference-between-microsoft-dynamics-crm-marketing-and-microsoft-dynamics-marketing-(mdm)
 ---
 
 CRM is primarily a sales tool and customer database, but also has a simple marketing section with the ability to run campaigns and quick campaigns. However the team has no plans to expand upon this in the future. MDM perfectly fills this gap.

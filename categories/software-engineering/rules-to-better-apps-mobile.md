@@ -7,6 +7,7 @@ index:
 - maui-cross-platform
 - build-cross-platform-apps
 - progressive-web-app
+- use-dynamic-viewport-units
 - how-to-get-mobile-config-to-your-users
 - how-to-monetize-apps
 - ios-do-you-know-how-to-optimise-your-test-and-release-deployments

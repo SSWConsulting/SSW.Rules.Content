@@ -1,4 +1,5 @@
 ---
+seoDescription: Add borders around white images to enhance visibility and professionalism on your website.
 type: rule
 title: Do you put borders around white images?
 uri: borders-around-white-images

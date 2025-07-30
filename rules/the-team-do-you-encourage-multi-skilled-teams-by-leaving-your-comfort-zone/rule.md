@@ -1,6 +1,7 @@
 ---
+seoDescription: Encourage multi-skilled teams by leaving your comfort zone and embracing learning and collaboration to reduce dependencies on individuals.
 type: rule
-archivedreason: 
+archivedreason:
 title: The Team - Do you encourage multi-skilled teams by leaving your comfort zone?
 guid: 828c469f-72c8-4038-aec4-9f018858265e
 uri: the-team-do-you-encourage-multi-skilled-teams-by-leaving-your-comfort-zone
@@ -8,7 +9,6 @@ created: 2010-04-08T04:28:36.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 When selecting their tasks, team members should be looking to extend their skills. Scrum encourages multi-skilled workers, rather than having testers, back-end developers, designers etc. In other words, all team members should be able to help completing any task.

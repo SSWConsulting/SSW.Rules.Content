@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid third-party menus and toolbars in Visual Studio .NET 2003 due to bugs and limitations.
 type: rule
 title: Do you avoid 3rd party menus & toolbars?
 uri: do-you-avoid-3rd-party-menus-and-toolbars
@@ -8,15 +9,16 @@ authors:
 created: 2014-03-14T06:52:00.000Z
 guid: 054ba3cc-b30a-4446-9505-ba2f83a78a92
 ---
+
 The menu & toolbar controls in Visual Studio .NET 2003 do not allow you to have icons in your menus or have alpha-blended toolbar icons. They also do not provide an Office 2003 like look. However, we have tried several third party menu and toolbar controls and all of them had serious bugs. E.g.:
 
 <!--endintro-->
 
-* DotNetMagic 
+- DotNetMagic
   - Docking panels didn't implement enough events and it is unclear what the events are doing
   - Menu control is OK
-* DotNetBar
-* Janus Systems
+- DotNetBar
+- Janus Systems
 
 We love 3rd party controls, a lot of developers spend a lot of time implementing these tools to make their applications sweeter, but we found that there is not enough benefit in implementing these controls.
 

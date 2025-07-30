@@ -1,4 +1,5 @@
 ---
+seoDescription: Windows Forms applications can support URLs by adding registry keys and handling extra parameters in the main method. This allows users to jump directly to a specific record or "page" using a URL.
 type: rule
 title: Do you support URLs on Windows Forms applications?
 uri: windows-forms-applications-support-urls
@@ -8,11 +9,12 @@ authors:
 created: 2014-03-14T00:22:00.000Z
 guid: c2becc48-279f-4896-a31e-e43c4f7686a7
 ---
-Aside from ease of installation, what is the one thing a web browsers has over a Windows Forms application? - a URL!  
+
+Aside from ease of installation, what is the one thing a web browsers has over a Windows Forms application? - a URL!
 
 With a Windows Forms application, you typically have to wade through layers of menus and options to find a particular record or "page". However, Outlook has a unique feature which allows you to jump to a folder or item directly from the command line.
 
-<!--endintro--> 
+<!--endintro-->
 
 ![Figure: Outlook can automatically jump to a specified folder or item from a command line](runshortcut.gif)
 
@@ -20,16 +22,16 @@ With a Windows Forms application, you typically have to wade through layers of m
 
 We believe that all applications should have this capability. You can add it to a Windows Application using the following procedure:
 
-1. Add the necessary registry keys for the application  
+1. Add the necessary registry keys for the application
 
-* HKEY_CLASSES_ROOT\\**AppName**\URL Protocol = ""
-* HKEY_CLASSES_ROOT\\**AppName**\Default Value = "URL:Outlook Folders"
-* HKEY_CLASSES_ROOT\\**AppName**\shell\Default Value = "open"
-* HKEY_CLASSES_ROOT\\**AppName**\shell\open\command\Default Value = "**Path\AssemblyName.exe** /select %1"
+- HKEY_CLASSES_ROOT\\**AppName**\URL Protocol = ""
+- HKEY_CLASSES_ROOT\\**AppName**\Default Value = "URL:Outlook Folders"
+- HKEY_CLASSES_ROOT\\**AppName**\shell\Default Value = "open"
+- HKEY_CLASSES_ROOT\\**AppName**\shell\open\command\Default Value = "**Path\AssemblyName.exe** /select %1"
 
 2. Add code into your main method to handle the extra parameters
 
-**C#:** 
+**C#:**
 
 ```cs
 public static void Main(string[] args)

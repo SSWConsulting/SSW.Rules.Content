@@ -1,4 +1,5 @@
 ---
+seoDescription: Submit all dates to SQL Server in ISO format to ensure consistency and avoid language or database setting interference.
 type: rule
 title: Middle Tier - Do you submit all dates to SQL Server in ISO format?
 uri: submit-all-dates-to-sql-server-in-iso-format

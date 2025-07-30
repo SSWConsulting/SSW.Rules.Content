@@ -1,4 +1,5 @@
 ---
+seoDescription: Reduce office noise and boost productivity by using headphones, soft voice levels, typing important points, and politely asking loud colleagues to adjust their volume.
 type: rule
 title: Do you take others into consideration while making calls in the office?
 uri: reduce-office-noise
@@ -8,6 +9,7 @@ authors:
 created: 2022-06-01T02:10:55.612Z
 guid: 8b63af73-5542-4648-a81f-31f9eeb3e52c
 ---
+
 When the noise in an open plan office goes beyond appropriate levels, it can be annoying and stressful and thereby affects productivity. Here are a few tips to help reduce noise in your workplace.
 
 1. Use headphones🎧
@@ -18,7 +20,7 @@ When the noise in an open plan office goes beyond appropriate levels, it can be 
 6. Close your booth/pod door (if you have one) while you’re in calls.
 
 ::: greybox
-**Tip:** If you are in a Teams meeting and someone enters the room, it's important to notify the meeting participants of their arrival. 
+**Tip:** If you are in a Teams meeting and someone enters the room, it's important to notify the meeting participants of their arrival.
 
 For example: "By the way Team, Jack has now entered the boardroom".
 

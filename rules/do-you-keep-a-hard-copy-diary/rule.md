@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep track of your daily thoughts and reflections by maintaining a hard copy diary that offers a tactile and creative way to express yourself.
 type: rule
 title: Do you keep a hard copy diary?
 uri: do-you-keep-a-hard-copy-diary

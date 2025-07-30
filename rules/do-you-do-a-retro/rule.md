@@ -1,4 +1,5 @@
 ---
+seoDescription: Do a retrospective on your events and tasks to optimize future success with fresh feedback and improved processes.
 type: rule
 archivedreason: Merged with [https://www.ssw.com.au/rules/do-a-retrospective](/rules/do-a-retrospective)
 title: Do you do a retro?
@@ -6,13 +7,12 @@ guid: d31faec6-0d03-43bd-9361-2483541611dd
 uri: do-you-do-a-retro
 created: 2018-03-15T04:19:31.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Joanna Feely
+    url: https://ssw.com.au/people/joanna-feely
 related: []
 redirects: []
-
 ---
 
 Scrum processes are useful for more than just software development - it’s a great tool for organizing and optimizing all kinds of work, from presentations to meetings to events, sales, and more. The guys at SSW jokingly say, "you can't eat dinner with Adam Cogan without a retro about the meal".
@@ -33,20 +33,20 @@ Then move onto, “What didn’t go so well?” This part can be painful but it�
 Finally, we ask, “What could we do differently next time?”
 
 ::: greybox
- **Adam:** How was the presentation?
- **Eddie:** Yeah, it was alright.  
+**Adam:** How was the presentation?
+**Eddie:** Yeah, it was alright.  
 :::
 ::: bad
 Bad example: This line of questioning doesn’t provide useful feedback
 :::
 
 ::: greybox
- **Adam:** What went well with your presentation?
- **Eddie:** People seemed to really relate to the case studies I presented.
- **Adam:** What didn’t go so well?
- **Eddie:** My demo didn’t work. That was really embarrassing.
- **Adam:** What would you do differently next time?
- **Eddie:** I’d definitely get there a bit earlier so I’d have time to troubleshoot that pesky demo on their wifi! That would also give me extra time to talk to the audience so I could find out what problems they’re hoping to solve with my session - it’s a good way to get more case studies!  
+**Adam:** What went well with your presentation?
+**Eddie:** People seemed to really relate to the case studies I presented.
+**Adam:** What didn’t go so well?
+**Eddie:** My demo didn’t work. That was really embarrassing.
+**Adam:** What would you do differently next time?
+**Eddie:** I’d definitely get there a bit earlier so I’d have time to troubleshoot that pesky demo on their wifi! That would also give me extra time to talk to the audience so I could find out what problems they’re hoping to solve with my session - it’s a good way to get more case studies!  
 :::
 ::: good
 Good example: The 3 magic questions got a lot more detail and the beginnings of a plan for next time

@@ -1,4 +1,5 @@
 ---
+seoDescription: Validate URLs effectively using a well-crafted regular expression.
 type: rule
 title: Do you use a regular expression to validate an URL?
 uri: use-a-regular-expression-to-validate-an-uri
@@ -12,6 +13,7 @@ created: 2018-04-26T17:31:11.000Z
 archivedreason: null
 guid: 45e21c54-baae-4c39-a245-8ce58c49978a
 ---
+
 A regex is the best way to verify an URI.
 
 <!--endintro-->
@@ -45,7 +47,7 @@ return System.Text.RegularExpressions.Regex.IsMatch( uri,@"^(http|ftp|https)://(
 ```
 
 ::: good
-Figure: Good example of verifying URI 
+Figure: Good example of verifying URI
 
 :::
 

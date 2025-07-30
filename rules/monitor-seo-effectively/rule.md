@@ -1,6 +1,7 @@
 ---
+seoDescription: Do you monitor your SEO effectively?
 type: rule
-title: Do you monitor your SEO effectively?
+title: Reporting - Do you monitor your SEO effectively?
 uri: monitor-seo-effectively
 authors:
   - title: Camilla Rosa Silva
@@ -10,12 +11,11 @@ authors:
   - title: Seth Daily
     url: https://ssw.com.au/people/seth-daily
 redirects:
-- do-you-monitor-your-seo-effectively
-- monitor-your-seo-effectively
+  - do-you-monitor-your-seo-effectively
+  - monitor-your-seo-effectively
 created: 2020-11-09T23:03:56.000Z
 archivedreason: null
 guid: e0b7d249-3d88-4e77-a037-2b0c9e171b59
-
 ---
 
 SEO means working with a large amount of data. A single website can have even up to thousands of subpages, keywords, and internal links. If it’s operating in a competitive industry, it needs external links from thousands of domains. What if you’re optimizing several websites? The result? The era of Big Data in SEO.

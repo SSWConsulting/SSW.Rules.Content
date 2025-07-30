@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover effective strategies for managing a LinkedIn page for international companies, including how to create targeted multilingual posts and expand your global reach.
 type: rule
 title: "LinkedIn - Do you know how to manage a LinkedIn page for international
   companies?  "
@@ -11,10 +12,7 @@ authors:
 related:
   - multilingual-posts-on-social-media
 created: 2023-02-02T02:06:41.537Z
-redirects:
-  - do-you-post-multilingual-posts-on-social-media
 guid: daac3eab-b45c-40a4-b88b-afc0966dd7f8
-
 ---
 
 A common marketing challenge for international companies is managing social media content in different languages for a diverse audience.

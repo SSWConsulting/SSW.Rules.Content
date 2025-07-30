@@ -1,11 +1,12 @@
 ---
+seoDescription: Write an image prompt that guides AI-generated images
 type: rule
 archivedreason:
 title: Do you know how to write an image prompt?
 guid: 76149172-6173-4a4c-bcf2-52c59d813454
 uri: write-an-image-prompt
 created: 2023-06-30T00:00:00.000Z
-authors: 
+authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
   - title: Jayden Alchin
@@ -30,6 +31,10 @@ Prompts are the instructions that you input. They can be as simple or as complex
 ## Prompting basics
 
 A general prompt might be "an image of a sunset over the ocean," which tells the AI exactly what you're looking for.
+
+::: info
+Tip: When sharing an AI image, [add the prompt to the image caption](/add-useful-and-concise-figure-captions) so others can see how you made it.
+:::
 
 ::: greybox
 “A brown dog on a skateboard”

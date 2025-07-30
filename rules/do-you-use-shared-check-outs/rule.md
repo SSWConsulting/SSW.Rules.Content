@@ -1,24 +1,24 @@
 ---
+seoDescription: Use shared check-outs to prevent files from being locked and ensure multiple team members can collaborate on projects simultaneously.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use shared check-outs?
 guid: 478af762-d746-48c0-a56b-967d52086e90
 uri: do-you-use-shared-check-outs
 created: 2011-11-18T03:52:56.0000000Z
 authors:
-- title: David Klein
-  url: https://ssw.com.au/people/david-klein
-  noimage: true
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
-- title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  - title: David Klein
+    url: https://ssw.com.au/people/david-klein
+    noimage: true
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
+  - title: Tristan Kurniawan
+    url: https://ssw.com.au/people/tristan-kurniawan
 related: []
 redirects: []
-
 ---
 
 In conjunction with [regular check-ins](/check-in-before-lunch-and-dinner-do-you-work-in-small-chunks-check-in-after-completing-each-one), files in source control should never be locked unless absolutely necessary. Use either 'Unchanged - Keep any existing lock' - or 'None - Allow shared checkout'.

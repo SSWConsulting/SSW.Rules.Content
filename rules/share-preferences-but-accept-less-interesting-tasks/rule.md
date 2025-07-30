@@ -1,18 +1,18 @@
 ---
+seoDescription: Developers sharing work preferences with managers and accepting less interesting tasks when needed.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you share your work preferences with your manager but accept less interesting tasks when needed?
 guid: 3a4fd707-ec65-4339-8e15-08623af803b0
 uri: share-preferences-but-accept-less-interesting-tasks
 created: 2012-09-25T18:11:36.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- communication-do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
-- do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
-
+  - communication-do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
+  - do-you-tell-your-manager-what-work-you-prefer-but-understand-when-you-have-to-do-less-interesting-stuff
 ---
 
 Developers often have a very clear idea of what kind of work they want to do. They might want to develop expertise in SharePoint, CRM or SQL Server. They should always keep their manager informed of what kind of work interests them and on which they want to focus. Managers often have many staff to keep in mind and unless you remind them they may well forget and give a hot opportunity to another staff member.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to properly integrate AngularJS services with Kendo DataSource for cleaner code and better maintainability.
 type: rule
 archivedreason: 
 title: Do you call AngularJS services from your Kendo datasource?
@@ -23,11 +24,9 @@ Many demonstrations show a hard coded string in your Angular controllers calling
 4. If you keep all your data calls in one place your code will be easier to read and you can share business logic for making the API calls within your Angular service or factory, like a common error handling message for failed API calls
 5. Finally you can perform actions while the promise is being resolved, like show a spinner animation or log out a message to the user
 
-
 <!--endintro-->
 
 The bad way to call your API from a Kendo datasource with AngularJS. Notice the hard coded url directly calling the API endpoint.
-
 
 ```ts
 read: { 
@@ -36,15 +35,12 @@ read: {
 }
 ```
 
-
-
 ::: bad
-Bad Example - This hard codes your url endpoint throughout your application 
+Bad Example - This hard codes your url endpoint throughout your application
 
 :::
 
 This is example is in TypeScript and you can see the Kendo data source is calling the getFundAssetPositionChartData function and passing it a promise which when resolved will return the data. This function calls an AngularJS service which then calls the API endpoint. You can also see in the getFundAssetPositionChartData function the ‘this.isLoading = true’ code which is turning the pages spinner feature on and off when the call is resolved, to let the user know it is processing.
-
 
 ```ts
 module app.widgets {    

@@ -1,19 +1,19 @@
 ---
+seoDescription: Schedule a follow-up meeting after a Spec Review to ensure timely decision-making and address client questions, budget concerns, and approval processes.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you schedule a follow-up meeting after a Spec Review?
 guid: 53bd000d-4e45-46de-9ae1-752cb9f2bdd2
 uri: schedule-followup-meeting-after-spec-review
 created: 2017-08-03T04:48:38.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
-redirects: 
-- do-you-schedule-a-followup-meeting-after-a-spec-review1
-- do-you-schedule-a-follow-up-meeting-after-a-spec-review
-- do-you-schedule-a-followup-meeting-after-a-spec-review
-
+redirects:
+  - do-you-schedule-a-followup-meeting-after-a-spec-review1
+  - do-you-schedule-a-follow-up-meeting-after-a-spec-review
+  - do-you-schedule-a-followup-meeting-after-a-spec-review
 ---
 
 It is quite common for a company to do a Specification Review, and then take the resulting estimates back to the business, and spend a long time getting other quotes or weighing up their options.
@@ -27,14 +27,14 @@ For this reason, it's a good idea, at the end of the Spec Review, to schedule a 
 1. Go through Spec Review document and answer any questions
 2. Talk about approval process at the company
 
-* Who else needs to get on board?
-* What do they need to see?
+- Who else needs to get on board?
+- What do they need to see?
 
 4. Talk about budget
 
-* Is the estimate acceptable?
-* Do we just do the MVP?
-* Do we need to find a cheaper way to give some of the value if they can’t afford the MVP?
+- Is the estimate acceptable?
+- Do we just do the MVP?
+- Do we need to find a cheaper way to give some of the value if they can’t afford the MVP?
 
 5. Talk about prepaid, resourcing and scheduling
 

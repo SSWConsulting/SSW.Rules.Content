@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure compliance and governance without compromising agility to achieve operational efficiency, risk mitigation, and business alignment while maintaining regulatory peace of mind.
 type: rule
 title: Do you ensure compliance and governance without compromising agility?
 uri: ensure-compliance-and-governance-without-compromising-agility
@@ -14,6 +15,7 @@ created: 2023-10-13T17:56:00.000Z
 archivedreason: null
 guid: 684c1885-d097-4e9c-8e68-0998a81ff940
 ---
+
 As your organization scales up its Agile practices, you're navigating a complex landscape. On one side, there's the rigorous terrain of regulatory requirements and governance structures – necessary for maintaining standards and accountability. On the other, there's the open field of agility, the very force that's propelling your organization's success.
 
 This presents a critical balancing act. How do you adhere to essential regulations and governance without putting the brakes on the agility that gives your organization its edge?

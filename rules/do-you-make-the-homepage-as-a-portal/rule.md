@@ -1,4 +1,5 @@
 ---
+seoDescription: Turn your homepage into a portal by showcasing top billing customers and key metrics, making it easy to find core functions.
 type: rule
 title: Do you make the homepage as a portal?
 uri: do-you-make-the-homepage-as-a-portal
@@ -10,7 +11,6 @@ redirects: []
 created: 2012-11-27T02:00:58.000Z
 archivedreason: null
 guid: beaad45b-457e-48c2-bb26-f632993c10fd
-
 ---
 
 You should put all the useful and current information on the homepage and also make it easy to find your core functions there.

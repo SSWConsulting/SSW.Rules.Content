@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create custom bullets with symbols or pictures in Office to clearly distinguish your good and bad bullet points.
 type: rule
 title: Do you have good and bad bullet points?
 uri: have-good-and-bad-bullet-points
@@ -22,8 +23,6 @@ Make your positive and negative points a tick and cross.
 ::: bad
 ![Figure: Bad example - it's not clear which are good and bad points](ticks-bad.jpg)
 :::
-
-
 
 ::: good
 ![Figure: Good example - It's far more obvious which ones are the good points and which are the bad](ticks-good.jpg)

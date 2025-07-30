@@ -1,6 +1,7 @@
 ---
+seoDescription: Identify and optimize memory-intensive queries, release system cache, or add more RAM to alleviate SQL Server memory pressure.
 type: rule
-archivedreason: 
+archivedreason:
 title: What to do about SQL Server Memory Pressure?
 guid: f7e8a48d-375e-4c23-9998-9cd9b8c7980c
 uri: sql-server-memory-pressure
@@ -8,13 +9,14 @@ created: 2023-12-27T07:26:54.0000000Z
 authors:
   - title: Bryden Oliver
     url: https://ssw.com.au/people/bryden-oliver
-related: 
+related:
   - identify-sql-performance-sql-server
   - identify-sql-performance-azure
   - sql-server-memory-pressure
   - sql-server-io-pressure
   - sql-server-cpu-pressure
 ---
+
 So you've identified that your SQL Server is under memory pressure. What can you do about it?
 
 <!--endintro-->
@@ -30,7 +32,7 @@ select * from sys.dm_os_memory_clerks where type='MEMORYCLERK_HOST'
 ```
 
 This isolates a few of the SQL processes that aren't part of the SQL Server engine.
-Look for high memory usage for OLE DB providers (MSOLEDBSQL), SQL Native Client (SQLNCLI*) and so on.
+Look for high memory usage for OLE DB providers (MSOLEDBSQL), SQL Native Client (SQLNCLI\*) and so on.
 This may indicate using some non core features and you should evaluate whether these are necessary. Non core features are things like running .Net CLR code, translating queries to things like OLE DB and other things that aren't strictly database operations.
 
 ## Identify SQL engine related usage
@@ -50,8 +52,8 @@ This should allow you to identify what is consuming the most memory.
 If the memory clerk MEMORYCLERK_SQLQERESERVATIONS is consuming memory, identify queries that are using huge memory grants and optimize them via indexes, rewrite them (remove ORDER by, for example).
 For more information
 
-* [Brent Ozar on Memory Grants](https://www.brentozar.com/blitz/memory-grants/)
-* [Microsoft Learn on Troubleshooting Memory Grant Issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-memory-grant-issues)
+- [Brent Ozar on Memory Grants](https://www.brentozar.com/blitz/memory-grants/)
+- [Microsoft Learn on Troubleshooting Memory Grant Issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-memory-grant-issues)
 
 ### OBJECTSTORE_LOCK_MANAGER
 
@@ -74,15 +76,15 @@ If the object plan cache store CACHESTORE_OBJCP is consuming too much memory, id
 
 You can run one or more of the following DBCC commands to free several SQL Server memory caches:
 
-``` sql
+```sql
 DBCC FREESYSTEMCACHE
 ```
 
-``` sql
+```sql
 DBCC FREESESSIONCACHE
 ```
 
-``` sql
+```sql
 DBCC FREEPROCCACHE
 ```
 

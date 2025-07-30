@@ -1,4 +1,5 @@
 ---
+seoDescription: Disposing SharePoint objects efficiently by not using `SPContext.Current` objects that SharePoint manages itself.
 type: rule
 title: Do you know to never dispose objects from SPContext.Current?
 uri: never-dispose-objects-from-spcontext-current

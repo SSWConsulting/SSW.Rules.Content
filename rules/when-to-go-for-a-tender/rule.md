@@ -1,20 +1,20 @@
 ---
+seoDescription: When to go for a tender? Determine whether you have a pre-existing relationship with key stakeholders, know the competition, and if the tender fits Agile methodologies.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to go for a Tender?
 guid: 01b1fdea-ab64-486d-b62b-4d6130790a79
 uri: when-to-go-for-a-tender
 created: 2020-09-04T04:41:38.0000000Z
-authors: 
+authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Sam Smith
     url: https://ssw.com.au/people/sam-smith
 related: []
 redirects:
-- do-you-know-when-to-go-for-a-tender
-- rules-to-better-tenders
-
+  - do-you-know-when-to-go-for-a-tender
+  - rules-to-better-tenders
 ---
 
 Tenders, RFP (Request for Proposals), RFQ (Request for Quote) plus other various names, are all a way for an organisation to conduct a buying process with an extensive list of requirements, with the aim to level the playing field. For the most part, certain elements of Tenders can be counter-intuitive to building great software. In many cases, they need the buyer to know exactly what the end product will be. Furthermore, the buying process can require the company submitting the tender to spend large amounts of time with a very low chance of success unless you follow a few principles.
@@ -43,3 +43,12 @@ Tenders are time-consuming for a sales team and generally need a process like a
 4. Does the tender fit Agile methodologies? - Look carefully at the process to make changes and how detailed the scope is. Also, see if the client is open to a Spec Review to fine-tune the estimates and scope. If Agile development is not possible, the Tender is not a good fit.
 
 Tenders can be a waste of time, with low-skilled assessment by purchasing people who can overly focus on cost and a narrow set of requirements. Only go for them if you have a good chance of winning.
+
+### Review opportunities and processes frequently
+
+At least every 2 weeks the following should be reviewed.
+1. Review current opportunities
+2. The team should vote on potential opportunities to be pursued
+3. Report to the team on the various platforms - any compliance documents needed
+4. Report on any wins and deal progress
+5. Review the process and if it can be improved

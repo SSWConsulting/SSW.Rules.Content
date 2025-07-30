@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft 365 Groups allow you to choose which groups you follow and set up shared resources for collaboration, with options to reduce inbox noise by unfollowing or changing default behavior as an administrator.
 type: rule
 title: Do you choose which Microsoft 365 Groups you follow?
 uri: following-microsoft-365-groups
@@ -7,7 +8,6 @@ authors:
     url: https://www.ssw.com.au/people/chris-schultz
 created: 2023-06-18T23:52:23.432Z
 guid: 60be42f8-bece-450e-89a2-14114b8e0cb1
-
 ---
 
 Groups in Microsoft 365 let you choose a set of people that you wish to collaborate with and easily set up a collection of resources for those people to share. Resources such as a shared Outlook **inbox**, shared **calendar**, a **team** for conversations, or a **document library** for collaborating on files, etc.
@@ -16,7 +16,7 @@ One really useful setting in Microsoft 365 Groups is the option to follow/unfoll
 
 When you **follow** a Group in Outlook, all group conversations and calendar events will be sent to both the group mailbox and your personal inbox. This is particularly helpful when you belong to multiple groups and want to stay on top of the conversations from one location.
 
-However, emails can be noisy, and you may want to reduce the number of emails received by **unfollowing** it. 
+However, emails can be noisy, and you may want to reduce the number of emails received by **unfollowing** it.
 
 Below are some use cases:
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Reducing complexity helps users make faster and more accurate decisions by presenting them with smaller sets of options
 type: rule
 title: Do you always try to reduce complexity?
 uri: always-reduce-complexity
@@ -13,6 +14,7 @@ created: 2012-11-27T01:45:45.000Z
 archivedreason: null
 guid: fd8067c5-e29a-4061-abbf-8e4fa6cb25d8
 ---
+
 The human brain:
 
 1. Never searches for OR compares all options

@@ -1,17 +1,17 @@
 ---
+seoDescription: Discover the benefits of creating clustered indexes on your tables and learn how to choose the right field for optimal performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Schema - Do you create clustered index on your tables?
 guid: d541f2f6-a191-4b97-919d-55041b6b7a95
 uri: create-clustered-index-on-your-tables
 created: 2019-11-06T00:30:09.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- schema-do-you-create-clustered-index-on-your-tables
-
+  - schema-do-you-create-clustered-index-on-your-tables
 ---
 
 You're allowed one clustered index per table, so unless you are never going to query a table, you may as well choose a field to be part of a clustered index. Basically,

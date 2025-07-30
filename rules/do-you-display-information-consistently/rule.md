@@ -1,4 +1,5 @@
 ---
+seoDescription: When linking pages together, display consistent information to provide a seamless user experience and enhance site navigation.
 type: rule
 title: Do you display information consistently between linked pages?
 uri: do-you-display-information-consistently
@@ -13,12 +14,12 @@ redirects: []
 created: 2015-02-16T01:50:14.000Z
 archivedreason: null
 guid: 5b878864-7ced-4b4c-a979-adadf38c7363
-
 ---
 
 When redirecting users to another page, make sure that the text is consistent between the two pages.
 
 <!--endintro-->
+
 ::: good
 ![Figure: Good example - The text is taken from where the "More on SSW Chinafy" link at the end goes](homepage-with-link-to-chinafy.png)
 :::

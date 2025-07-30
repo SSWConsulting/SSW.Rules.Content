@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the top exception handling libraries for software development and learn how to choose the best tools like Application Insights, Seq, or RayGun to manage errors effectively.
 type: rule
 title: Do you use the best exception handling library?
 uri: do-you-use-the-best-exception-handling-library

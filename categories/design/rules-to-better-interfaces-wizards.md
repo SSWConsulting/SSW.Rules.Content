@@ -8,6 +8,7 @@ redirects:
 index:
 - do-you-add-an-useful-introduction-screen-with-an-image-of-where-it-is-going-prior-to-settings
 - do-you-know-the-difference-between-close-and-cancel
+- back-buttons
 - do-you-remember-the-users-last-settings
 - do-you-use-a-wizard-to-help-a-user-through-a-complicated-set-of-steps
 - do-you-use-bold-text-and-indentation-instead-of-dividing-lines

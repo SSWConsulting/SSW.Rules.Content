@@ -1,19 +1,19 @@
 ---
+seoDescription: Ensure important website content is accessible to search engines by placing it within normal HTML code for optimal indexing.
 type: rule
-archivedreason: 
-title: Do you avoid having important content in JavaScript?
+archivedreason:
+title: Technical - Do you avoid having important content in JavaScript?
 guid: 858c0408-33bb-4366-b9d7-effa775c9c42
 uri: avoid-content-in-javascript
 created: 2015-11-10T19:28:08.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Andreas Lengkeek
-  url: https://ssw.com.au/people/andreas-lengkeek
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Andreas Lengkeek
+    url: https://ssw.com.au/people/andreas-lengkeek
 related: []
 redirects:
-- do-you-avoid-having-important-content-in-javascript
-
+  - do-you-avoid-having-important-content-in-javascript
 ---
 
 JavaScript is becoming more and more in common the sites we build everyday. We use them for fancy menus, dropdowns or scroll overs, even the whole website can be written in JavaScript.

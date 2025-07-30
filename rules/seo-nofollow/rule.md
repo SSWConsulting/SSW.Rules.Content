@@ -1,6 +1,7 @@
 ---
+seoDescription: Learn how to properly tag external URLs with rel="nofollow" and understand its impact on SEO, ensuring compliant and effective backlink strategies.
 type: rule
-title: SEO - Do you tag external URLs with rel=”nofollow”?
+title: Technical - Do you tag external URLs with rel=”nofollow”?
 uri: seo-nofollow
 authors:
   - title: Camilla Rosa Silva

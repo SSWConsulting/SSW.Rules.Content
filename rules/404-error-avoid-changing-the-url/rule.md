@@ -1,6 +1,7 @@
 ---
+seoDescription: Do not change the URL on a 404 error, keep the original URL intact to enable easy corrections for users
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid changing the URL on a 404 error?
 guid: 0d3576ad-6b39-4682-b425-3d68751a100b
 uri: 404-error-avoid-changing-the-url
@@ -8,11 +9,10 @@ created: 2016-08-11T18:08:44.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
+related:
   - 404-useful-error-page
 redirects:
   - do-you-avoid-changing-the-url-on-a-404-error
-
 ---
 
 When you request a URL of a file that doesn't exist, you will get an error message. You should make sure that the URL in the browser doesn't change. This way, it's easy for the user to correct.
@@ -32,7 +32,7 @@ The advantage of this solution is, that the page looks nice and you can customiz
 The disadvantage is, that ASP.NET changes the URL. So if the user wants to correct the URL they entered, for example, because they just mixed up a letter, then this means quite a lot of work for them. They have to retype the whole URL or at least copy and paste the parameter out of the new URL. This is very uncomfortable for the user.
 
 ::: bad  
-![Figure: Bad example - URL changes](url\_asp.gif)  
+![Figure: Bad example - URL changes](url_asp.gif)  
 :::
 
 Our solution is to show the customized error page while not change the original URL. So if the user wants to do any corrections, e.g. a mixed up letter, they can do that by just editing the URL in the address bar.
@@ -46,7 +46,7 @@ You can try any page name that doesn't exist like xxx.asp on the URL and it will
 
 To show the customized error page while not change the original URL, you can use Server.Transfer() to keep the original URL.
 
-``` cs
+```cs
 Server.Transfer("/ssw/ErrorPage.aspx")
 ```
 

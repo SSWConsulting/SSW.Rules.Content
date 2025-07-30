@@ -1,16 +1,20 @@
 ---
 type: rule
 title: Cross-platform Apps - Do you choose the right mobile framework?
+seoDescription: When choosing a cross-platform framework for your app
+  development needs, it's essential to consider factors such as existing skills,
+  target platforms, and first-party support. With numerous frameworks available,
+  developers have the luxury of selecting the best fit for their projects.
 uri: maui-cross-platform
 authors:
   - title: Matt Goldman
     url: https://www.ssw.com.au/people/matt-goldman
+related:
+  - build-cross-platform-apps
 redirects:
   - net-maui-for-xplat-ui
 created: 2022-10-28T03:40:19.007Z
 guid: c49bf2c4-9371-4a61-981f-379df627b4a1
-related:
-  - build-cross-platform-apps
 ---
 If you need to build a binary app (rather than a web app) that will run on multiple platforms (e.g. iOS, Android, macOS, Windows), you can either build and maintain multiple versions of the app - one for each platform - or you can use a cross-platform (cross compiler) framework to build one app that runs on all of them.
 
@@ -54,17 +58,19 @@ Developers building apps that target multiple platforms are in the ideal positio
 * **What skills do we already have?**
 
   * For .NET teams, .NET MAUI is the best choice. It targets all the major platforms, it's performant, highly customisable, and leverages your existing skills. It also integrates well with your existing solution
+    * .NET MAUI was previously Xamarin - see [announcement from Microsoft](https://dotnet.microsoft.com/en-us/platform/support/policy/xamarin)
+
+  * React developers should explore [Expo](https://docs.expo.dev/), a free React Native framework that offers features like official TypeScript integration and QR code links for staging environments.  
+    With Expo, you can export your code to Android and iOS equivalents in React Native using the [prebuild command](https://docs.expo.dev/workflow/continuous-native-generation/#usage).
+  * For teams with good Angular knowledge, Ionic is worth considering (but as per above, not recommended for more than a quick prototype).
 
 `youtube: K9ryHflmQJE`
-**Video: Clean Architecture in .NET MAUI and ASP.NET Core with [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) (1 h 23 m)**
-
-* For a React team, React Native may be a smoother transition. There's still a learning curve from React to React Native, but that curve may not be as steep for teams with existing React skills as for other teams.
-* For teams with good Angular knowledge, Ionic is worth considering (but as per above, not recommended for more than a quick prototype).
+**Video: Clean Architecture in .NET MAUI and ASP.NET Core with [Matt Goldman](https://www.ssw.com.au/people/matt-goldman) (1 hr 23 min)**
 
 * **What platforms do we need to target?**
-
   * Not all cross-platform framework targets every platform. Most will work on the 'core 4' (macOS, iOS, Android and Windows). .NET MAUI will also work on watchOS, wearOS and Tizen. If you need to target Linux and/or the web, you should consider Uno platform.
-
+ 
+  
 * **What level of 1st party support do we need?**
 
   * Some of these frameworks are maintained by big tech companies. .NET MAUI for example is maintained by Microsoft, Flutter is maintained by Google, and React Native is maintained by Meta. However, they are not equal in terms of first party support. .NET MAUI, for example, has an Essentials API that provides access to many cross-platform hardware features, whereas many of these need to be loaded via 3rd party plugins in other frameworks.

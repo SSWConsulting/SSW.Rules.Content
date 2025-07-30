@@ -1,4 +1,5 @@
 ---
+seoDescription: Use async/await patterns to boost .NET application performance by releasing threads and improving scalability.
 type: rule
 title: Do you use async/await for all IO-bound operations?
 uri: use-async-await-for-all-io-bound-operations
@@ -12,13 +13,15 @@ created: 2019-08-30T17:27:54.000Z
 archivedreason: null
 guid: eccb6764-2f5f-48b2-9e65-728f583f325d
 ---
+
 IO-Bound operations are operations where the execution time is not determined by CPU speed but by the time taken for an input/output operation to complete.
 
 Examples include:
-* Reading from a hard disk
-* Working with a database
-* Sending an email
-* HTTP REST API calls
+
+- Reading from a hard disk
+- Working with a database
+- Sending an email
+- HTTP REST API calls
 
 It's important to note that all these IO operations are usually several orders of magnitude slower than performing operations against data in RAM.
 
@@ -39,6 +42,7 @@ public ActionResult Gizmos()
     return View("Gizmos", gizmoService.GetGizmos());
 }
 ```
+
 ::: bad
 Figure: Bad example – This MVC Controller Action endpoint is not async so the thread assigned to process it will be blocked for the whole lifetime of the request
 :::
@@ -50,6 +54,7 @@ public async Task<ActionResult> GizmosAsync()
     return View("Gizmos", await gizmoService.GetGizmosAsync());
 }
 ```
+
 ::: good
 Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
 :::
@@ -64,6 +69,6 @@ For more information on understanding and diagnosing thread pool starvation, rea
 
 ### Further Information
 
-* [Why would one use Task&lt;T&gt; over ValueTask&lt;T&gt; in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
-* [Diagnosing issues in ASP.NET Core Applications - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=RYI0DHoIVaA)
-* [Why your ASP.NET Core application won't scale - Damian Edwards, David Fowler](https://www.youtube.com/watch?v=J-xqz_ZM9Wg)
+- [Why would one use Task&lt;T&gt; over ValueTask&lt;T&gt; in C#?](https://stackoverflow.com/questions/43000520/why-would-one-use-taskt-over-valuetaskt-in-c)
+- [Diagnosing issues in ASP.NET Core Applications - David Fowler & Damian Edwards](https://www.youtube.com/watch?v=RYI0DHoIVaA)
+- [Why your ASP.NET Core application won't scale - Damian Edwards, David Fowler](https://www.youtube.com/watch?v=J-xqz_ZM9Wg)

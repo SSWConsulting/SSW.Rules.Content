@@ -1,6 +1,7 @@
 ---
+seoDescription: Ensure transparent Long Service Leave (LSL) accruals and compliance across various state legislations with automated payslip updates.
 type: rule
-title: Do your payslips show Long Service Leave?
+title: Payroll - Do your payslips show Long Service Leave? (Aussie only)
 uri: show-long-service-leave-on-your-payslip
 authors:
   - title: Stephan Fako
@@ -20,8 +21,8 @@ Long Service Leave (LSL) is an essential benefit for employees, recognizing thei
 
 **Solution:** To navigate this complexity, businesses must:
 
-* **Stay informed:** Keep abreast of the LSL legislation in each state or territory where the company operates
-* **Tailor payslip information:** Customize the payslip information to reflect the specific LSL provisions applicable to each employee, based on their work location
+- **Stay informed:** Keep abreast of the LSL legislation in each state or territory where the company operates
+- **Tailor payslip information:** Customize the payslip information to reflect the specific LSL provisions applicable to each employee, based on their work location
 
 ### Visibility of Long Service Leave
 
@@ -29,8 +30,8 @@ Long Service Leave (LSL) is an essential benefit for employees, recognizing thei
 
 **Solution:** Even if your accounting solution doesn't automatically calculate LSL, businesses must find a workaround to ensure this information is transparent and accessible to all employees. This might involve:
 
-* **Manual calculations:** Regularly update LSL accruals and ensure they are clearly stated on employee payslips
-* **Use of supplementary tools:** Consider leveraging third-party solutions to manage LSL calculations and display them on payslips
+- **Manual calculations:** Regularly update LSL accruals and ensure they are clearly stated on employee payslips
+- **Use of supplementary tools:** Consider leveraging third-party solutions to manage LSL calculations and display them on payslips
 
 ::: bad
 ![Figure: Bad example - Employees have to ask HR for their LSL balance, leading to a backlog of inquiries](bad-example-lsl.jpg "Bad Example")

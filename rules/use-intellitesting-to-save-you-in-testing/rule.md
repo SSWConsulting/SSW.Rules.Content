@@ -1,17 +1,17 @@
 ---
+seoDescription: IntelliTesting saves developers time and reduces code errors by intelligently generating unit tests for each scenario found.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use IntelliTesting to save you in testing?
 guid: 05992432-d61d-437a-8cdb-0d49752f6a4c
 uri: use-intellitesting-to-save-you-in-testing
 created: 2020-03-12T23:35:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-use-intellitesting-to-save-you-in-testing
-
+  - do-you-use-intellitesting-to-save-you-in-testing
 ---
 
 It is difficult to measure test quality as there are a number of different available metrics - for example, code coverage and number of assertions. Furthermore, when we write code to test, there are a number of questions that we must answer, such as, "is the code easily testable?" and "are we only testing the happy path or have we included the edge cases?"
@@ -22,11 +22,9 @@ This is where IntelliTesting comes into play. The feature, formerly known as Sma
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad example - What’s wrong with this code?](IntelliTest-bad.png)  
 :::
-
 
 ::: good  
 ![Figure: Good example - IntelliTest in action](IntelliTest-Good.png)  

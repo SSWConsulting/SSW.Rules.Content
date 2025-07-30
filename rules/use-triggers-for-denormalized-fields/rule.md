@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your database by managing denormalized fields with triggers to enhance query performance.
 type: rule
 archivedreason: 
 title: Schema - Do you use triggers for denormalized fields?

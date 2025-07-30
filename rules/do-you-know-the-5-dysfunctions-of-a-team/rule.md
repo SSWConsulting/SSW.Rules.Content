@@ -1,18 +1,18 @@
 ---
+seoDescription: Boost team performance by recognizing and addressing the five interrelated issues that undermine teamwork - absence of trust, fear of conflict, lack of commitment, avoidance of accountability, and inattention to results.
 type: rule
-archivedreason: 
+archivedreason:
 title: Teamwork - Do you know the 5 dysfunctions of a team?
 guid: 664efa94-7306-4630-ba2c-93e6e469424b
 uri: do-you-know-the-5-dysfunctions-of-a-team
 created: 2015-04-15T17:26:27.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-- teamwork-do-you-know-the-5-pillars-of-teamwork
+  - teamwork-do-you-know-the-5-pillars-of-teamwork
 redirects:
-- teamwork-do-you-know-the-5-dysfunctions-of-a-team
-
+  - teamwork-do-you-know-the-5-dysfunctions-of-a-team
 ---
 
 There are five interrelated issues that undermine the performance of a team:

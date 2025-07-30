@@ -4,70 +4,75 @@ title: Rules to Better Video Recording
 guid: 60485409-d17d-4be3-b2a0-1ab5cdd4d82d
 uri: rules-to-better-video-recording
 index:
-- record-a-quick-and-dirty-done-video
-- making-a-great-done-video
-- consultancy-videos
-- pre-production-do-you-test-technical-scripts-properly
-- define-the-level-of-quality-up-front
-- developer-console-screenshots
-- focus-peaking
-- production-do-you-add-a-call-to-action
-- production-do-you-know-how-to-conduct-an-interview
-- production-do-you-know-how-to-record-live-video-interviews-on-location
-- production-do-you-know-how-to-start-recording-with-camtasia
-- do-you-know-how-to-record-the-screen-on-a-mac
-- enable-presentation-mode-in-visual-studio
-- easy-to-view-screen-recordings
-- what-type-of-microphone-to-use
-- video-editing-terms
-- unique-office-backgrounds
-- production-do-you-know-the-correct-way-to-frame-your-subject
-- production-do-you-manage-audience-interactivity
-- production-do-you-perform-an-equipment-checklist
-- production-do-you-set-up-the-speaker-prior-to-recording
-- production-do-you-use-a-recording-in-progress-sign
-- production-do-you-use-a-shotlist
-- have-a-good-intro-and-closing-for-product-demonstrations
-- production-do-you-use-multiple-cameras
-- production-do-you-use-proper-production-design
-- the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
-- software-for-video-content-creation
-- use-cutaways
-- post-production-do-you-know-which-video-hosting-service-to-choose
-- branded-video-intro-and-outro
-- post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
-- ticks-crosses
-- post-production-do-you-add-captions-to-your-video
-- post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
-- review-videos-collaboratively
-- post-production-do-you-know-how-to-create-the-swing-in-text-effect
-- production-do-you-know-to-subtitle-your-videos
-- avoid-dates-text-in-graphics-for-events
-- post-production-do-you-give-enough-time-to-read-texts-in-your-videos
-- video-cuts
-- test-please-for-video
-- post-production-do-you-know-how-to-promote-videos
-- post-production-do-you-know-how-to-transfer-avchd-footage-to-your-computer
-- post-production-do-you-use-a-version-number-on-your-videos
-- post-production-high-quality
-- post-production-do-you-know-how-to-structure-your-files
-- review-videos-collaboratively
-- summary-recording-sprint-reviews
-- golden-moment
-- add-sections-time-and-links-on-video-description
-- do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
-- add-a-sweet-audio-indication-when-text-arrives-on-the-screen
-- record-better-audio
-- how-to-find-the-best-audio-track-for-your-video
-- use-a-hardware-device-to-capture-laptop-video-output
-- organize-the-audience-when-numbers-are-low
-- organize-and-back-up-your-files
-- using-digital-asset-manager-for-stock
-- copy-views-and-comments-before-deleting-a-video-version
-- chatgpt-prompts-for-video-production
-- video-reduce-noise
-- tech-check
-- establish-the-world
+  - easy-recording-space
+  - done-video
+  - making-a-great-done-video
+  - consultancy-videos
+  - pre-production-do-you-test-technical-scripts-properly
+  - define-the-level-of-quality-up-front
+  - developer-console-screenshots
+  - focus-peaking
+  - production-do-you-add-a-call-to-action
+  - production-do-you-know-how-to-conduct-an-interview
+  - production-do-you-know-how-to-record-live-video-interviews-on-location
+  - production-do-you-know-how-to-start-recording-with-camtasia
+  - enable-presentation-mode-in-visual-studio
+  - easy-to-view-screen-recordings
+  - wear-company-tshirt-during-screen-recording
+  - what-type-of-microphone-to-use
+  - video-editing-terms
+  - unique-office-backgrounds
+  - production-do-you-know-the-correct-way-to-frame-your-subject
+  - production-do-you-manage-audience-interactivity
+  - match-tone-with-intent
+  - production-do-you-perform-an-equipment-checklist
+  - production-do-you-set-up-the-speaker-prior-to-recording
+  - production-do-you-use-a-recording-in-progress-sign
+  - production-do-you-use-a-shotlist
+  - have-a-good-intro-and-closing-for-product-demonstrations
+  - production-do-you-use-multiple-cameras
+  - production-do-you-use-proper-production-design
+  - the-editors-aim-is-to-be-a-coach-not-just-a-video-editor
+  - software-for-video-content-creation
+  - use-cutaways
+  - post-production-do-you-know-which-video-hosting-service-to-choose
+  - branded-video-intro-and-outro
+  - post-production-do-make-sure-your-video-thumbnail-encourages-people-to-watch-the-video
+  - ticks-crosses
+  - add-text-captions-to-videos
+  - post-production-do-you-add-content-to-youtube-to-feed-traffic-to-your-other-sites
+  - review-videos-collaboratively
+  - post-production-do-you-know-how-to-create-the-swing-in-text-effect
+  - production-do-you-know-to-subtitle-your-videos
+  - avoid-dates-text-in-graphics-for-events
+  - post-production-do-you-give-enough-time-to-read-texts-in-your-videos
+  - video-cuts
+  - test-please-for-video
+  - post-production-do-you-know-how-to-promote-videos
+  - post-production-do-you-know-how-to-transfer-avchd-footage-to-your-computer
+  - post-production-do-you-use-a-version-number-on-your-videos
+  - post-production-high-quality
+  - post-production-do-you-know-how-to-structure-your-files
+  - share-source-files-with-video-editor
+  - review-videos-collaboratively
+  - summary-recording-sprint-reviews
+  - golden-moment
+  - add-sections-time-and-links-on-video-description
+  - do-you-have-a-dog-aka-digital-on-screen-graphic-on-your-videos
+  - add-a-sweet-audio-indication-when-text-arrives-on-the-screen
+  - record-better-audio
+  - how-to-find-the-best-audio-track-for-your-video
+  - use-a-hardware-device-to-capture-laptop-video-output
+  - organize-the-audience-when-numbers-are-low
+  - organize-and-back-up-your-files
+  - using-digital-asset-manager-for-stock
+  - copy-views-and-comments-before-deleting-a-video-version
+  - chatgpt-prompts-for-video-production
+  - video-reduce-noise
+  - tech-check
+  - establish-the-world
+  - recording-screen
+  - use-autopod-for-editing-multi-camera-interviews
 ---
 
 Need a video for your business? Check [SSW's Video Production consulting page](https://ssw.com.au/consulting/video-production).

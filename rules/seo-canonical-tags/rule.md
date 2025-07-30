@@ -1,6 +1,7 @@
 ---
+seoDescription: Using canonical tags helps prevent duplicate content issues and ensures search engines index the preferred version of a web page.
 type: rule
-title: Do you use canonical tags to prevent duplicate content?
+title: Technical - Do you use canonical tags to prevent duplicate content?
 uri: seo-canonical-tags
 authors:
   - title: Gordon Beeming
@@ -10,7 +11,7 @@ authors:
 created: 2024-03-08T13:42:55.753Z
 redirects: []
 related:
-  -  lowercase-urls
+  - lowercase-urls
 guid: 1b5d8749-6291-45ee-9fa3-fda75c17f8d4
 ---
 
@@ -30,9 +31,9 @@ When multiple URLs on your website (or external sites) lead to the same or very 
 
 3. **Add the Canonical Tag:** On each version of the duplicate pages, add a canonical tag in the `<head>` section pointing to the preferred URL. For example:
 
-    ```html
-    <link rel="canonical" href="https://www.example.com/preferred-url" />
-    ```
+   ```html
+   <link rel="canonical" href="https://www.example.com/preferred-url" />
+   ```
 
 4. **Apply Across Your Site:** Ensure every page has a canonical tag, even if there are no current duplicates. This future-proofs your site against potential duplicate content issues.
 

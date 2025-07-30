@@ -1,26 +1,26 @@
 ---
+seoDescription: Add time links to YouTube videos' descriptions to enhance user engagement and provide easy access to specific sections or chapters
 type: rule
-archivedreason: 
+archivedreason:
 title: Post-Production - Do you add time links to YouTube videos' descriptions?
 guid: 1ff3527e-1fd0-44d4-b4a7-5e0427b2c0b7
 uri: add-sections-time-and-links-on-video-description
 created: 2019-07-02T19:33:41.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
-- untapped-keywords
-- videos-youtube-friendly
-- optimize-videos-for-youtube
-- keep-audience-happy
+  - untapped-keywords
+  - videos-youtube-friendly
+  - optimize-videos-for-youtube
+  - keep-audience-happy
 redirects:
-- do-you-add-time-links-on-your-youtube-videos
-
+  - do-you-add-time-links-on-your-youtube-videos
 ---
 
-**Timestamps** are simple captions added to the description of a video. You can add the timestamps  for each section (or chapter) in a video. This is especially useful in training sessions, presentations, or any long length video. The user can even use the YouTube slider at the bottom to easily navigate through these video sections.
+**Timestamps** are simple captions added to the description of a video. You can add the timestamps for each section (or chapter) in a video. This is especially useful in training sessions, presentations, or any long length video. The user can even use the YouTube slider at the bottom to easily navigate through these video sections.
 
 **Note:** You can go extra and add **Chapter Markers** (table of contents) on the video screen. This is done in video editing tools.
 

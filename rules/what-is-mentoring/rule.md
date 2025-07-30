@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover what makes a great mentor and how they can help you achieve success in your career.
 type: rule
 title: Mentoring - Do you know what makes a good mentor?
 uri: what-is-mentoring
@@ -13,6 +14,7 @@ created: 2021-09-22T06:33:25.431Z
 guid: 1c0eb0db-03da-464a-98ba-286cc6f66fbe
 archivedreason: null
 ---
+
 Trying to do great things is hard. Trying to do them alone is, more often than not, impossible. That’s why all great leaders have mentors, and they also mentor others. No matter how competitive you may feel - especially early in your career - success is, in reality, a team sport.
 
 Steve Jobs had Bill Campbell as a mentor; Mark Zuckerberg had Steve Jobs; Bill Gates had Warren Buffett... the great Robert De Niro had Stella Adler; even Nelson Mandela had Gandhi to guide him! These are all very successful people, who benefited from having someone more experienced to lean on.
@@ -27,25 +29,25 @@ Mentors don't have to be teaching you something technical. A mentor doesn't even
 
 Mentors don't need to necessarily help you learn something specific, they can also:
 
-* Boost your confidence
-* Help direct your career moves
-* Unstick you when you aren't sure which way to go
-* Save you time by showing you where to look, or how to approach something
-* Offer support when times get tough or you have to make difficult decisions
+- Boost your confidence
+- Help direct your career moves
+- Unstick you when you aren't sure which way to go
+- Save you time by showing you where to look, or how to approach something
+- Offer support when times get tough or you have to make difficult decisions
 
 <br>
 
 ⭐ Great mentors should:
 
-* Push you out of your comfort zone
-* Help you past sticking points
-* Give you great feedback and encouragement
-* Be a supporter when times are tough
-* Care about your success
-* Be a positive role model
-* Dedicate some time just for you
-* Be a lifelong learner
-* Be open and honest
+- Push you out of your comfort zone
+- Help you past sticking points
+- Give you great feedback and encouragement
+- Be a supporter when times are tough
+- Care about your success
+- Be a positive role model
+- Dedicate some time just for you
+- Be a lifelong learner
+- Be open and honest
 
 <!--endintro-->
 

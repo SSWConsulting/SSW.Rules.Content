@@ -1,16 +1,16 @@
 ---
+seoDescription: Shutting down Azure VMs when no longer needed prevents compute charges and minimizes costs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you shutdown VM's when you no longer need them?
 guid: 5ec42693-3dd0-4b21-ad0d-0c51814d0643
 uri: do-you-shutdown-vms-when-you-no-longer-need-them
 created: 2013-07-22T04:39:27.0000000Z
 authors:
-- title: Stanley Sidik
-  url: https://ssw.com.au/people/stanley-sidik
+  - title: Stanley Sidik
+    url: https://ssw.com.au/people/stanley-sidik
 related: []
 redirects: []
-
 ---
 
 Often we use Azure VM's for presentations, training and development. As there is a cost involved to store and use the VM it is important to ensure that the VM is shutdown when it is no longer required.

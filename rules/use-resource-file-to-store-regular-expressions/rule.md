@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how using a resource file for regular expressions simplifies management and improves maintainability.
 type: rule
 title: Do you use resource file to store your regular expressions?
 uri: use-resource-file-to-store-regular-expressions
@@ -16,21 +17,21 @@ Using resource files to store regular expressions simplifies management and prom
 ```cs
 public static Queue getFilesInProject(string projectFile)
 {
-	Queue tempQueue = new Queue();
+ Queue tempQueue = new Queue();
 
-	TextReader tr = File.OpenText(projectFile);
+ TextReader tr = File.OpenText(projectFile);
 
-	// RT (10/10/2005): New regex to support VS 2005 project files (.csproj & .vbproj)
-	//(?ixm-sn:
-	//# VS 2003
-	//(?:RelPath\s=\s\"(?<filename>.*?)\")
-	//|
-	//# VS 2005
-	//(?:(?<=Compile|EmbeddedResource|Content|None)\sInclude=\"(?<FileName>.*?)\")
-	//)
-	Regex regex = new Regex
-	    (@"(?ixm-sn:(?:RelPath\s=\s\""(?<FileName>.*?)\"")|(?:(?<=Compile|EmbeddedResource|Content|None)\sInclude=\""(?<FileName>.*?)\""))");
-	MatchCollection matches = regex.Matches(tr.ReadToEnd());
+ // RT (10/10/2005): New regex to support VS 2005 project files (.csproj & .vbproj)
+ //(?ixm-sn:
+ //# VS 2003
+ //(?:RelPath\s=\s\"(?<filename>.*?)\")
+ //|
+ //# VS 2005
+ //(?:(?<=Compile|EmbeddedResource|Content|None)\sInclude=\"(?<FileName>.*?)\")
+ //)
+ Regex regex = new Regex
+     (@"(?ixm-sn:(?:RelPath\s=\s\""(?<FileName>.*?)\"")|(?:(?<=Compile|EmbeddedResource|Content|None)\sInclude=\""(?<FileName>.*?)\""))");
+ MatchCollection matches = regex.Matches(tr.ReadToEnd());
 
 }
 ```
@@ -48,12 +49,12 @@ The way we deal with this is to put the regular expression in a resource file. U
 ```cs
 public static Queue getFilesInProject(string projectFile)
 {
-	Queue tempQueue = new Queue();
+ Queue tempQueue = new Queue();
 
-	TextReader tr = File.OpenText(projectFile);
+ TextReader tr = File.OpenText(projectFile);
 
-	Regex regex = new Regex(RegularExpression.GetFilesInProject);
-	MatchCollection matches = regex.Matches(tr.ReadToEnd());
+ Regex regex = new Regex(RegularExpression.GetFilesInProject);
+ MatchCollection matches = regex.Matches(tr.ReadToEnd());
 
 }
 ```

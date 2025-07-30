@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the benefits of using Open Source software, including transparency, customization, and quality, while also considering potential downsides such as lifespan and support limitations.
 type: rule
 title: Do you use Open Source software?
 uri: why-use-open-source
@@ -21,13 +22,14 @@ Open Source software is the key to making all your dreams come true 🤩.
 
 <!--endintro-->
 
-Open Source software is a great option, but it's not always the best. Make sure to consider these points before deciding to use open source software. 
+Open Source software is a great option, but it's not always the best. Make sure to consider these points before deciding to use open source software.
 
 `youtube: https://www.youtube.com/embed/k7bQ320vOj0`
 
 **Video: Utilizing Open Source Software with Brady Stroud (3 min)**
 
 ### ✅ Benefits
+
 - Transparency - when a bug occurs you can look at the source code and easily find the area where the bug occurs
 - Usually free - there are some paid open source software options
 - Customizable - you can fork and adapt it to your own needs
@@ -35,9 +37,10 @@ Open Source software is a great option, but it's not always the best. Make sure 
 - Security - Any vulnerabilities are public so they are more likely to be noticed and fixed (This also means hackers could fix and exploit vulnerabilities)
 
 ### ❌ Downsides
+
 - Lifespan - Open source projects are more likely to be abandoned
 - Support - Paid software will typically have a support team you can get in touch with if you have issues. For open source software you can create GitHub issues, but there is a chance the repository owners wont respond
 
 ### Gotchas
-- Different licenses have different requirements. See [what to check before installing 3rd party libraries](/installing-3rd-party-libraries#5-is-it-an-appropriate-license) for more info.
 
+- Different licenses have different requirements. See [what to check before installing 3rd party libraries](/installing-3rd-party-libraries#5-is-it-an-appropriate-license) for more info.

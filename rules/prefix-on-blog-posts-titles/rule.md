@@ -1,18 +1,18 @@
 ---
+seoDescription: Adding a prefix to blog post titles helps give context and clarity to users about what they can expect from the content.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you add a prefix on blog posts titles?
 guid: 523c60ac-19a5-4fe6-b8aa-9334135de8d7
 uri: prefix-on-blog-posts-titles
 created: 2018-02-22T17:29:57.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
-- prefixes
+  - prefixes
 redirects:
-- do-you-add-a-prefix-on-blog-posts-titles
-
+  - do-you-add-a-prefix-on-blog-posts-titles
 ---
 
 The prefix is used to give context to your blog posts (or other type of content), so users know what to expect.
@@ -29,7 +29,6 @@ Northwind Traders with Entity Framework Core
 Figure: Bad example - Post title with no prefix
 :::
 
-
 ::: greybox
 CODE: Northwind Traders with Entity Framework Core
 :::
@@ -40,17 +39,19 @@ Figure: Good example - Using a prefix in the post title
 You should also use prefixes (based on the content, like lists) for grouping and a better scanning:
 
 ::: greybox
+
 * Configure your work email on your mobile
-* Mobile Phone Answering Message 
-* Install the Control4 App on your phone  
-* Configure Teams 
-* Link your Azure & Azure DevOps benefits to your Organizational Account 
-* Request Access to VSTS Projects 
-* Do you know how to find stuff? 
-* Setup and Create a timesheet in TimePRO 
-* Setup your HR Records (Not for Work Experience) 
-* Your details on payroll system CRM - Add your details to CRM 
+* Mobile Phone Answering Message
+* Install the Control4 App on your phone
+* Configure Teams
+* Link your Azure & Azure DevOps benefits to your Organizational Account
+* Request Access to VSTS Projects
+* Do you know how to find stuff?
+* Setup and Create a timesheet in TimePRO
+* Setup your HR Records (Not for Work Experience)
+* Your details on payroll system CRM - Add your details to CRM
 * Make a small code change on SugarLearning.com (Developers only)  
+
 :::
 
 ::: bad
@@ -58,17 +59,19 @@ Figure: Bad example - Data list with no prefixes
 :::
 
 ::: greybox
+
 * Phone - Configure your work email on your mobile
-* Phone - Mobile Phone Answering Message 
-* Phone - Install the Control4 App on your phone  
-* PC - Configure Teams 
-* DevOps - Link your Azure & Azure DevOps benefits to your Organizational Account 
-* DevOps - Request Access to VSTS Projects 
-* Intranet - Do you know how to find stuff? 
-* TimePro - Setup and Create a timesheet in TimePRO 
-* CRM - Setup your HR Records (Not for Work Experience) 
-* CRM - Your details on payroll system CRM - Add your details to CRM 
+* Phone - Mobile Phone Answering Message
+* Phone - Install the Control4 App on your phone
+* PC - Configure Teams
+* DevOps - Link your Azure & Azure DevOps benefits to your Organizational Account
+* DevOps - Request Access to VSTS Projects
+* Intranet - Do you know how to find stuff?
+* TimePro - Setup and Create a timesheet in TimePRO
+* CRM - Setup your HR Records (Not for Work Experience)
+* CRM - Your details on payroll system CRM - Add your details to CRM
 * Exercise - Make a small code change on SugarLearning.com (Developers only)
+
 :::
 ::: good
 Figure: Good example - Using a prefix in data

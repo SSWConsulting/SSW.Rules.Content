@@ -1,16 +1,16 @@
 ---
+seoDescription: Ensure successful test migrations by running at least two test migrations before a live migration to avoid CRM downtime.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you run two or more test migrations before a live migration
 guid: 78945e5a-256e-4316-b035-1aa26585359b
 uri: do-you-run-two-or-more-test-migrations-before-a-live-migration
 created: 2013-11-11T07:47:10.0000000Z
 authors:
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects: []
-
 ---
 
 It is recommended that you should run at least 2 or more successful test migrations before running a live migration. The following steps describe the process of setting up a test environment for migration:

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create a Customer Portal in SharePoint for seamless client collaboration and project management
 type: rule
 archivedreason: 
 title: Do you know how to create a "Customer Portal" in SharePoint?
@@ -38,8 +39,8 @@ Once you have the template, follow these steps to create a customer portal with 
 2. Click "Site Actions" on right-hand top, select "Manage Content and Structure
 
 ![Figure: The first step to creating a 'Customer Portal' is to select 'Manage Content and Structure' to view site collection](ManageContentAndStructure.jpg)
- 
-Once the new window opens, on the left-hand side, click on the 'Clients' dropdown select New -&gt; Site. 
+
+Once the new window opens, on the left-hand side, click on the 'Clients' dropdown select New -&gt; Site.
 
 **Note:** If you don’t see this option, that means you don’t have permission to create the site.
 
@@ -48,10 +49,10 @@ Once the new window opens, on the left-hand side, click on the 'Clients' dropdow
 Now follow these steps when the new window opens fill in the fields below.
 
 ![Figure: Fill in the appropriate info then click "Create"](CreateNewSiteStep2.jpg)
- 
+
 More Information:
 
-1. Fill in the fields for the new client site   
+1. Fill in the fields for the new client site
 eg. Title, Description, and URL
 2. Select the template  
 e.g “**ClientCollaboration\_V1**” in the Custom tab.  
@@ -63,7 +64,7 @@ e.g “**ClientCollaboration\_V1**” in the Custom tab.
 Next step is to setup the groups and permissions.
 
 ::: good
-![Figure: Create a 'new group' or select an 'existing group' for the newly created site](SetUpGroupForSite.jpg) 
+![Figure: Create a 'new group' or select an 'existing group' for the newly created site](SetUpGroupForSite.jpg)
 :::
 
 More Information:

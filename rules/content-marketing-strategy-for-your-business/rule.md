@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you have a content marketing strategy for your business? Create and distribute valuable content to attract and retain a clearly-defined audience and drive profitable customer action.
 type: rule
 title: Content - Do you have a content marketing strategy for your business?
 uri: content-marketing-strategy-for-your-business
@@ -21,15 +22,15 @@ We are in a new era of content. Not just any content, but a well-crafted and rel
 
 When you follow a documented and organized content marketing strategy, you will:
 
-* Feel more effective in the use of all content marketing tactics and social media channels
-* Easily justify a higher budget to be spent on your content marketing (e.g. for recording a video or doing a partnership with an influencer )
-* Will be able to track results as soon as they have a clear goal and metric to follow, according to your strategy
+- Feel more effective in the use of all content marketing tactics and social media channels
+- Easily justify a higher budget to be spent on your content marketing (e.g. for recording a video or doing a partnership with an influencer )
+- Will be able to track results as soon as they have a clear goal and metric to follow, according to your strategy
 
 It should definitely include:
 
-* Your audience personas
-* A content planner that matches these personas, channels, deadline and budget
-* Goals
-* Metrics that will be followed
+- Your audience personas
+- A content planner that matches these personas, channels, deadline and budget
+- Goals
+- Metrics that will be followed
 
 ![Figure: Marketing Content is valuable with the right approach! - Image source:        Joe Lesina](contentmkt.png)

@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your contribution in Specification Reviews with essential tips on adding value, asking questions, and refining requirements for better outcomes.
 type: rule
 title: Do you know how to add value to a Specification Review?
 uri: spec-add-value
@@ -18,9 +19,9 @@ created: 2022-04-21T02:42:50.085Z
 guid: 3c060faf-9f90-478f-8b29-a1f4249dd6b6
 ---
 
-The most important part of being in a Spec Review is adding value to the conversations. Your insights and feedback should contribute to improving the specifications, identifying potential issues, and suggesting enhancements. By actively engaging and sharing your expertise, you help ensure that the final product meets high standards of quality and functionality. 
+The most important part of being in a Spec Review is adding value to the conversations. Your insights and feedback should contribute to improving the specifications, identifying potential issues, and suggesting enhancements. By actively engaging and sharing your expertise, you help ensure that the final product meets high standards of quality and functionality.
 
-How do you make sure that your presence is adding value to the discussion and the product? 
+How do you make sure that your presence is adding value to the discussion and the product?
 
 <!--endintro-->
 
@@ -34,22 +35,22 @@ Sometimes you might not have all the expertise to architect a clients' solution.
 
 ### Tip #3: Don't be afraid to double check a requirement
 
-Make sure you understand what they want, do not be afraid to repeat and double check a requirement. It's better for you to understand it now then to go back and ask them again later. 
+Make sure you understand what they want, do not be afraid to repeat and double check a requirement. It's better for you to understand it now then to go back and ask them again later.
 
 ### Tip #4: Recommend ready-made solutions
 
-Talk about already made solutions. There are often already made solutions to these very same problems. Be sure to Google beforehand. Present the Pros and Cons of these against a bespoke solution. Sometimes the ready-made solution solves their problem without any further work required.    
+Talk about already made solutions. There are often already made solutions to these very same problems. Be sure to Google beforehand. Present the Pros and Cons of these against a bespoke solution. Sometimes the ready-made solution solves their problem without any further work required.
 
 ### Tip #5: Refine the problematic requirements
 
 Talk about the most problematic parts. These are the areas that should have the most details, so make sure everybody is fully aligned about what is required.
 
-### Tip #6: Ask great questions 
+### Tip #6: Ask great questions
 
-Questions are the key in understanding client needs. Asking a few simple questions goes a long way. Some examples: 
+Questions are the key in understanding client needs. Asking a few simple questions goes a long way. Some examples:
 
-- What is the goal of the product?
-- Where will the product be hosted? 
-- Are there any performance requirements?
-- Are there any reliability requirements?  E.g. Has to respond in x seconds
-- What are the security requirements?
+* What is the goal of the product?
+* Where will the product be hosted?
+* Are there any performance requirements?
+* Are there any reliability requirements?  E.g. Has to respond in x seconds
+* What are the security requirements?

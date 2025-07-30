@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance readability and maintainability of your regular expressions by formatting them neatly and adding clear comments.
 type: rule
 title: Do you format and comment your regular expressions?
 uri: format-and-comment-regular-expressions
@@ -16,11 +17,11 @@ Regular expressions are a very powerful tool for pattern matching, but a complic
 
 Here are some guidelines when formatting and documenting your regex:
 
-- Keep each line under 80 characters, horizontal scrolling reduces readability
-- Break long patterns into multiple lines, usually after a space or a line break
-- Indent bracers to help think in the right scope
-- Format complicated OR patterns into multiple blocks like a case statement
-- Comment your regex on what it does, don't just translate it into English
+* Keep each line under 80 characters, horizontal scrolling reduces readability
+* Break long patterns into multiple lines, usually after a space or a line break
+* Indent bracers to help think in the right scope
+* Format complicated OR patterns into multiple blocks like a case statement
+* Comment your regex on what it does, don't just translate it into English
 
 ```regex
 
@@ -57,7 +58,6 @@ Good example: Comment that explains the purpose of the pattern
 ::: bad
 Bad example: Pray you never have to modify this regex
 :::
-
 
 ```regex
 (?six-mn:

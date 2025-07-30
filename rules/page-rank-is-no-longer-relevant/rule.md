@@ -1,19 +1,19 @@
 ---
+seoDescription: PageRank's relevance has been disputed as Google removed it from Webmaster Tools and only updates it infrequently.
 type: rule
-archivedreason: 
+archivedreason: Page Rank became outdated in 2010-2012
 title: Do you know PageRank is no longer relevant?
 guid: d0683f77-9bd1-4cf4-99c4-17278c4e13c7
 uri: page-rank-is-no-longer-relevant
 created: 2015-11-09T18:08:10.0000000Z
 authors:
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-pagerank-is-no-longer-relevant
-
+  - do-you-know-pagerank-is-no-longer-relevant
 ---
 
 A few years ago, PageRank was the best way to track the relevance of a website. However, in 2009, Google had removed PageRank from its Webmaster Tools, saying:
@@ -22,7 +22,7 @@ A few years ago, PageRank was the best way to track the relevance of a website.
 
 Another fact confirming this is that PageRank indicator was never available in Google's own Chrome browser - launched in 2008.
 
-The visible page rank is now updated very infrequently. The last known update was in November 2013. In October 2014, [Matt Cutts](https&#58;//www.mattcutts.com/blog/) announced that another visible PageRank update would not be coming.
+The visible page rank is now updated very infrequently. The last known update was in November 2013. In October 2014, [Matt Cutts](https://www.mattcutts.com/blog/) announced that another visible PageRank update would not be coming.
 
 <!--endintro-->
 

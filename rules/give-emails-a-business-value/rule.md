@@ -1,6 +1,7 @@
 ---
 type: rule
 title: Do you give your emails a Business Value?
+seoDescription: Learn how to prioritize your tasks effectively with our expert guide.
 uri: give-emails-a-business-value
 authors:
   - title: Adam Cogan
@@ -13,6 +14,7 @@ related:
   - estimating-do-you-know-how-to-size-user-stories-effectively
   - do-you-estimate-business-value
   - unexpected-requests
+  - tasks-with-a-ticking-clock
 redirects:
   - do-you-give-your-emails-a-business-value
 created: 2017-05-02T04:05:56.000Z
@@ -26,7 +28,7 @@ The problem with emailing a task, is that no one knows how important that email 
 
 People can send tasks in different ways:
 
-1. Send a simple email with no priority indication  
+1. Send a simple email with no priority indication
 
 ::: bad
 ![Figure: Bad example - An email with requirements does not indicate the priority](Email sign.jpg)
@@ -44,7 +46,7 @@ People can send tasks in different ways:
 ![Figure: Good example - Email tasks with a Business Value, allow the developer to review before putting it in the backlog](Developer entered.jpg)
 :::
 
-### The perfect email workflow
+## The perfect email workflow
 
 Before you email a task to someone, think about how important it is to you. Then draft your email, add the Business Value using the same scale that you would use to estimate your PBIs.
 
@@ -52,7 +54,7 @@ Before you email a task to someone, think about how important it is to you. Then
 ![Figure: Good example - The best workflow for sending an email](Email Diagram.jpg)
 :::
 
-### What if you need to write an email to multiple recipients?  
+## What if you need to write an email to multiple recipients?
 
 Assign each person a Business Value. In the case of "To Myself" emails, you can also add the amount of 'Effort' required too.
 

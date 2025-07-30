@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how adding a bot signature enhances transparency in automated emails for better user understanding.
 type: rule
 archivedreason: 
 title: Do you add a Bot signature to make it clear when an email is automated?
@@ -23,6 +24,7 @@ However, the end user should be able to tell that this was sent by a bot, and no
 <!--endintro-->
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | SSWAll |

@@ -1,4 +1,5 @@
 ---
+seoDescription: Facilitate a productive Brainstorming day by following a structured schedule that includes idea farming, team allocation, introductory presentation, and post-event retro to ensure effective idea generation and implementation.
 type: rule
 title: Pre event - Do you know how to facilitate a Brainstorming day?
 uri: how-brainstorming-works

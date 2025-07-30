@@ -1,4 +1,5 @@
 ---
+seoDescription: Maintaining a package audit log helps developers track why packages are added, who added them, and who approved them. By keeping track of package details, you can reduce technical debt and ensure transparency within your team.
 type: rule
 title: Do you keep a package audit log?
 uri: package-audit-log
@@ -22,6 +23,7 @@ related:
 created: 2022-10-27T05:23:16.827Z
 guid: 0a63d71e-66f0-4583-8a9c-6252df92ea34
 ---
+
 Packages are the lifeblood of any software project. However, if the team is not careful, that lifeblood can turn into a heavy weight dragging the application down. It's too easy for 10 packages to turn into 1,000.
 
 That's why it's crucial to maintain a package audit log.
@@ -73,41 +75,47 @@ Alternatively, you could keep track of this information in a different file for 
 Pros and Cons:  
 ✅ More descriptive notes about the package  
 ❌ Hard to keep up-to-date  
-❌ Tech Debt  
+❌ Tech Debt
 
 It's imperative that the package audit log is updated every time a package is added or removed. So, add it to the Sprint Review as an item to action every week. That way, the team is aware of all changes, and any missed changes are caught.
 
 This process could be taken even further by having automated checks in PRs to add package details and then generating release notes based on those PRs.
 
 ::: greybox
+
 ## Project Northwind Frontend (React)
 
 These are all the packages that have been added to the project (ordered by most recent).  
 **Note:** Statistics like load time and bundle size can easily be found at [Bundlephobia](https://bundlephobia.com/)
 
 ### [font-awesome](https://www.npmjs.com/package/font-awesome)
+
 * Action: ✅ Added
 * Actioned by: William Liebenberg
 * Approved by: No one available 😥
 * Why: Get pre-made icons in our app!
 
 ### [date-fns](https://www.npmjs.com/package/date-fns)
+
 * Action: ✅ Added
 * Actioned by: Piers Sinclair
 * Approved by: Adam Cogan
 * Why: It's faster than moment
 
 ### [moment](https://www.npmjs.com/package/moment)
+
 * Action: ❌ Removed
 * Actioned by: Piers Sinclair
 * Approved by: William Liebenberg
 * Why: It's slower than date-fns
 
 ### [bootstrap](https://www.npmjs.com/package/bootstrap)
+
 * Action: ✅ Added
 * Actioned by: Brady Stroud
 * Approved by: Piers Sinclair
 * Why: For pretty styling on the application
+
 :::
 
 :::bad
@@ -123,7 +131,7 @@ So putting your package audit information into your commit messages is another o
 Pros and Cons:  
 ✅ Easy for the dev  
 ❌ Message could be overwritten by a more recent commit  
-❌ Not as easy to read (have to hover over it to read)  
+❌ Not as easy to read (have to hover over it to read)
 
 :::ok
 ![Figure: OK example - Using the VS Code extension GitLens, can see commits on hover within the code](screen-shot-2022-12-15-at-09.33.31.png)
@@ -136,7 +144,7 @@ Having comments in package.json is an efficient way of getting important package
 Pros and Cons:  
 ✅ More descriptive notes about the package  
 ✅ Notes are documented together with the package  
-❌ Can cause noise and clutter within package.json  
+❌ Can cause noise and clutter within package.json
 
 :::ok
 ![Figure: OK example - Packages documented within package.json ](screen-shot-2022-12-16-at-09.19.32.png)
@@ -152,7 +160,7 @@ Pros and Cons:
 ✅ Low Tech Debt  
 ✅ Easy for the dev  
 ✅ Descriptive for the packages that require it  
-❌ Not as easy to read (sometimes required to read into the commits)  
+❌ Not as easy to read (sometimes required to read into the commits)
 
 :::good
 ![Figure: Both Git commits with GitLens and package.json comments](screen-shot-2022-12-16-at-09.21.30.png)

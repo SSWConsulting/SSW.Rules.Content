@@ -1,37 +1,42 @@
 ---
+seoDescription: Screenshots without unnecessary toolbars and taskbars improve image quality and user experience.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know not to include toolbar and taskbar junk in screenshots?
 guid: be4049ae-0027-46e9-8663-e3326d094c48
 uri: do-you-know-not-to-include-toolbar-and-taskbar-junk-in-screenshots
 created: 2015-10-13T00:53:52.0000000Z
-authors: []
-related: []
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+related:
+  - screenshots-avoid-walls-of-text
 redirects: []
-
 ---
 
-Screenshots are a very important part of websites these days. Be careful to avoid unnecessary toolbars and taskbars in screen shots.
+Screenshots are a very important part of websites these days. Ensure they are clean and free of distractions like browser tabs, toolbars, debug windows, and taskbars.
 
 <!--endintro-->
 
-
-::: bad  
-![Figure: Bad Example - This screenshot includes personal browsers](Bad\_Screenshot-with-personal-data.JPG)  
+::: bad
+![Figure: Bad example - Screenshot includes personal tabs, toolbar, debug window, and taskbar](bad-screenshot-with-personal-data.png)  
 :::
 
-
-::: good  
-![Figure: Good Example - This screenshot has been cropped to hide personal browsers](Good\_No-Personal-Info.jpg)  
+::: good
+![Figure: Good example - Screenshot has been cropped to hide junks](good-no-personal-info.png)  
 :::
 
 Tips:
 
-1. Use a region screen shot if appropriate (however the URL is generally helpful in most browser screen shots)
-2. Go full screen e.g. F11 in Internet Explorer, then &lt;Alt&gt;+&lt;Print&gt;
-3. Always have the 'Auto-hide the taskbar' option checked
+* Use a region screen shot if appropriate (however the URL is generally helpful in most browser screenshots)
+* Go full screen
+* Always have the 'Auto-hide the taskbar' option checked
+
+::: good
+![Figure: Always have the 'Auto-hide the taskbar' option checked so you do better screenshots](good-auto-hide-taskbar.gif)  
+:::
 
 
-::: good  
-![Figure: Always have the 'Auto-hide the taskbar' option checked so you do be screen shots](Good_Auto-Hide-Taskbar.gif)  
+::: greybox
+Done Videos are an exception – it’s fine to include the full screen. See [Do you know how to record a quick and dirty 'Done Video'?](https://www.ssw.com.au/rules/done-video/)
 :::

@@ -1,6 +1,7 @@
 ---
+seoDescription: Use robots.txt effectively to prevent incorrect hits and maintain accurate statistics by specifying crawlable areas for search engines.
 type: rule
-title: SEO - Do you use Robots.txt file effectively?
+title: Technical - Do you use Robots.txt file effectively?
 uri: use-robots-txt-effectively
 authors:
   - title: Adam Cogan

@@ -1,4 +1,5 @@
 ---
+seoDescription: Timebox approval requests to prevent delays and wasted effort, ensuring efficient workflow management.
 type: rule
 title: Efficiency - Do you timebox approval requests?
 uri: do-you-timebox-approval-requests
@@ -26,6 +27,7 @@ To avoid the approver feeling hard done by, make sure you do the following:
 * If the approver needs more time, it is ok for them to ask for an extension. It is not, however, ok for them to just say "Don't go live until I've approved it", as this just puts us back in the same position we were in before we had this rule
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Adam |
@@ -43,6 +45,7 @@ Figure: Bad example - Chasing an approver with no set timeframe is frustrating a
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Adam |

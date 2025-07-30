@@ -1,19 +1,19 @@
 ---
+seoDescription: Streamline your .NET development process with NPM and task runners, eliminating tedious tasks and improving collaboration.
 type: rule
-archivedreason: 
+archivedreason: "Moved to [Do you know the best package manager for React?](/rules/best-package-manager-for-node/)"
 title: Do you streamline your development process with NPM and Task Runners?
 guid: 321b6beb-86c9-4df0-b200-f8a6a3aaf10a
 uri: streamline-development-with-npm-and-task-runners
 created: 2015-08-11T04:20:48.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Chris Briggs
-  url: https://ssw.com.au/people/chris-briggs
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Chris Briggs
+    url: https://ssw.com.au/people/chris-briggs
 related: []
-redirects: 
+redirects:
   - do-you-streamline-your-development-process-with-npm-and-task-runners
-
 ---
 
 The current trend in web development is to use a large range of front-end libraries to give a great user experience.
@@ -44,18 +44,21 @@ For example, we could previously use web essentials to do a lot of the necessary
 
 This key feature was removed, but with the addition of tasks runners to Visual studio 2015 we can reimplement the functionality, by using ether Gulp or Grunt. For a number of reasons, Gulp is the better choice over Grunt: seen below is an example of a task for Gulp that will compile `.less` to `.css`.
 
-``` js
-var gulp = require('gulp');
-var less = require('gulp-less');
-var path = require('path');
-var plumber = require('gulp-plumber');
-gulp.task('less', function () {
-    return gulp.src('./Content/**/*.less')
+```js
+var gulp = require("gulp");
+var less = require("gulp-less");
+var path = require("path");
+var plumber = require("gulp-plumber");
+gulp.task("less", function () {
+  return gulp
+    .src("./Content/**/*.less")
     .pipe(plumber())
-      .pipe(less({
-          paths: [path.join(__dirname, 'less', 'includes')]
-      }))
-      .pipe(gulp.dest('./content/'));
+    .pipe(
+      less({
+        paths: [path.join(__dirname, "less", "includes")],
+      })
+    )
+    .pipe(gulp.dest("./content/"));
 });
 ```
 

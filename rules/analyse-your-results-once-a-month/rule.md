@@ -1,4 +1,5 @@
 ---
+seoDescription: Analyzing your marketing results once a month helps you identify successful efforts and areas for improvement, allowing you to refine your strategy and optimize resources
 type: rule
 title: Analytics - Do you analyse your results once a month?
 uri: analyse-your-results-once-a-month
@@ -17,7 +18,8 @@ created: 2014-07-04T06:00:07.000Z
 archivedreason: null
 guid: 1e1a5fec-53e5-4e56-9255-d12ffb814a41
 ---
-**Analyzing your results (click-throughs, engagement, and new followers, for example) lets you see what was successful and what people have engaged with the most.** 
+
+**Analyzing your results (click-throughs, engagement, and new followers, for example) lets you see what was successful and what people have engaged with the most.**
 
 This helps you further streamline your content and provides an insight into trends and areas of growth. Remember, Marketing is an iterative process - the more you reflect, the better you can tailor your content and allocate your time and resources to a campaign that is delivering results.
 
@@ -28,7 +30,7 @@ This helps you further streamline your content and provides an insight into tren
 3. The next step is to make sure your pixels, conversion codes, etc. are working properly.
 4. After this, create a spreadsheet that you can update every month to keep track of your marketing activities.
 5. Present this to your manager and your marketing team to encourage discussions and improvements. A quarterly marketing meeting would be ideal to look back and see what went well, and what didn’t go as expected. See [our tips for good presentations](/rules-to-better-powerpoint-presentations).\
-   During this meeting, you can discuss:  
+   During this meeting, you can discuss:
 
 * Marketing activities you worked on
 * Results (highlight key results)

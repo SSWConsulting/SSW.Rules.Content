@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve options clarity by using bold text to highlight main choices
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/highlight-items-in-your-document](/rules/highlight-items-in-your-document)
 title: Control Choice - Do you use bold on the main options to make them clearer?

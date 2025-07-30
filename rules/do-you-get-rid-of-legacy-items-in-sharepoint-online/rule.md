@@ -1,12 +1,13 @@
 ---
+seoDescription: Do you get rid of legacy items in SharePoint Online?
 type: rule
 title: Do you get rid of legacy items in SharePoint Online?
 guid: 2156a33a-2b52-4ba7-89f0-96aa6a78f1a5
 uri: do-you-get-rid-of-legacy-items-in-sharepoint-online
 created: 2021-07-07T12:00:00.0000000Z
-authors: 
-- title: Jean Thirion
-  url: https://www.ssw.com.au/people/jean-thirion
+authors:
+  - title: Jean Thirion
+    url: https://www.ssw.com.au/people/jean-thirion
 related: []
 ---
 
@@ -21,23 +22,26 @@ Before removing seemingly useless or old stuff, you should always make sure that
 ## Process
 
 The process to remove legacy items is always the same regardless of the library/list you're trying to remove:
+
 1. Find the product or feature that replaces it in SharePoint Online
 2. Deactivate the site feature associated with the list or library:
 
 Either manually via:
+
 > Site Settings | Site Features | Feature XYZ | Deactivate
 
 Or programmatically using:
-``` Powershell
+
+```Powershell
 # Connect and get context
 Connect-PnPOnline -Url https://contoso.sharepoint.com
 
 # Get Feature Object
 $Feature = Get-PnPFeature -Scope Web -Identity $FeatureId #Feature IDs below
- 
+
 # Get the Feature status
 If($Feature.DefinitionId -ne $null)
-{    
+{
     # De-activate the Feature
     Disable-PnPFeature -Scope Web -Identity $FeatureId -Force
 }
@@ -49,7 +53,7 @@ Else
 
 3. If feature is already disabled or if SharePoint throws an error on deactivation (can happen for very old features), perform a forced delete of the library using powershell.
 
-``` Powershell
+```Powershell
 # Connect and get context
 Connect-PnPOnline -Url https://contoso.sharepoint.com
 $ctx = Get-PnPContext
@@ -61,7 +65,7 @@ $list = $ctx.Web.Lists.GetByTitle("Library_To_delete")
 $list.AllowDeletion = $True
 $list.Update()
 $ctx.ExecuteQuery()
-$list.Recycle() | Out-Null 
+$list.Recycle() | Out-Null
 $ctx.ExecuteQuery()
 ```
 

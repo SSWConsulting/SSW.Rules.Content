@@ -1,6 +1,7 @@
 ---
+seoDescription: When communication requires nuance and multiple exchanges, consider switching to voice calls instead of IMs for faster and clearer conversations.
 type: rule
-archivedreason: 
+archivedreason:
 title: Calling -  Do you call instead of IM when communication is not simple?
 guid: d10edd47-5107-446f-acda-0e243286d5d7
 uri: if-communication-is-not-simple-call-the-person-instead-of-im
@@ -8,11 +9,11 @@ created: 2018-12-11T19:26:54.0000000Z
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
+related:
   - when-to-email-chat-call-or-meet
+  - warn-then-call
 redirects:
-- do-you-call-instead-of-im-when-communication-is-not-simple
-
+  - do-you-call-instead-of-im-when-communication-is-not-simple
 ---
 
 When you realize the communication is not simple and there it is going to take much back and forth IMs, say "Can I call?" and continue the conversation through voice.
@@ -24,9 +25,9 @@ Communication using voice is much faster than typing a message and it can clear 
 Example:
 
 ::: greybox
-**Scott:**  Did you say to me, you would contact Tiago on Skype to do it collaboratively... rather than email?
+**Scott:**  Did you say to me, you would contact Mike on Teams to do it collaboratively... rather than email?
 
-**Dave:**  I agreed I'll contact them over Skype as suggested by Drew
+**Dave:**  I agreed I'll contact them over Teams as suggested by Sophie
 
 **Scott:**  Isn't that what I just said? (and you said you were sending emails)
 

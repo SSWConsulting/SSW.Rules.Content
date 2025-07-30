@@ -1,4 +1,5 @@
 ---
+seoDescription: Hand over responsibilities effectively to ensure a seamless transition and minimize disruptions during your absence.
 type: rule
 title: Do you hand over your responsibilities?
 uri: hand-over-responsibilities
@@ -24,7 +25,8 @@ It's essential your responsibilities are handed over for a few reasons so your a
 :::
 
 <!--endintro-->
-![Figure: This is what happens if you don't hand over correctly](angry-dev-beach.png)
+
+![Figure: This is what happens if you don't hand over correctly](angry-dev-at-beach-red.png)
 
 There are a number of things to remember to handover
 

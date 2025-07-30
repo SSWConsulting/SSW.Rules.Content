@@ -1,27 +1,26 @@
 ---
+seoDescription: Version control ensures compatibility and reduces errors when updating XML files.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you version your .xml files?
 guid: fe869a35-0ca6-4558-89ac-3e79ef775018
 uri: do-you-version-your-xml-files
 created: 2009-04-29T06:07:29.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
 related: []
 redirects: []
-
 ---
 
 It is good to store program settings in an .xml file. But developers rarely worry about future schema changes and how they will inform the user it is an old schema.
 
- What is wrong with this?
+What is wrong with this?
 
 <!--endintro-->
-
 
 ```xml
 <?xml version="1.0" standalone="yes"?>
@@ -54,7 +53,7 @@ It is good to store program settings in an .xml file. But developers rarely worr
      </xs:complexType>
      </xs:element>
     </xs:schema>
- 
+
     <Table1>
       <DateUpdated>2004-05-17T10:04:06.9438192+10:00</DateUpdated>
       <NewDatabase>true</NewDatabase>
@@ -74,8 +73,9 @@ It is good to store program settings in an .xml file. But developers rarely worr
     </Table1>
 </NewDataSet>
 ```
+
 ::: bad
-Bad example - XML file without version control       
+Bad example - XML file without version control  
 :::
 
 ```xml
@@ -110,9 +110,9 @@ Bad example - XML file without version control
      </xs:complexType>
      </xs:element>
     </xs:schema>
- 
+
    <Table1>
-      <Version>1.2</Version> 
+      <Version>1.2</Version>
       <DateUpdated>2004-05-17T10:04:06.9438192+10:00</DateUpdated>
       <NewDatabase>true</NewDatabase>
       <ConnectionString>Provider=SQLOLEDB.1;Integrated Security=SSPI;
@@ -131,8 +131,9 @@ Bad example - XML file without version control
     </Table1>
 </NewDataSet>
 ```
+
 ::: good
-Good example - XML file with version control   
+Good example - XML file with version control  
 :::
 
 The version tags identifies what version the file is. This version should be hard coded into the application. Every time you change the format of the file, you would increment this number.
@@ -144,7 +145,7 @@ Public Function IsXMLFileValid() As Boolean
 
   Dim fileVersion As String = "not specified"
   Dim dsSettings As New DataSet
-  Dim IsMalformed As Boolean = False 
+  Dim IsMalformed As Boolean = False
   ' Is the file malformed all together with possibly version
 
   Try
@@ -154,7 +155,7 @@ Public Function IsXMLFileValid() As Boolean
   End Try
 
   If (Not IsMalformed) Then
-    Dim strm As Stream = Asm.GetManifestResourceStream(Asm.GetName().Name _ 
+    Dim strm As Stream = Asm.GetManifestResourceStream(Asm.GetName().Name _
      + "." + "XMLFileSchema.xsd")
     Dim sReader As New StreamReader(strm)
     Dim dsXMLSchema As New DataSet
@@ -168,7 +169,7 @@ Public Function IsXMLFileValid() As Boolean
       fileVersion = "not specified"
     End If
 
-    If fileVersion = Global.XMLFileVersion AndAlso 
+    If fileVersion = Global.XMLFileVersion AndAlso
         Not dsSettings.GetXmlSchema() = dsXMLSchema.GetXmlSchema() Then
       Return False
     End If
@@ -190,7 +191,8 @@ Public Function IsXMLFileValid() As Boolean
 
 End Function
 ```
-**Figure: Code to illustrate how to check if the xml file is valid** 
+
+**Figure: Code to illustrate how to check if the xml file is valid**
 
 ::: info
 **Note:** to allow backward compatibility, you should give the user an option to convert old xml files into the new version structure.

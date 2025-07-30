@@ -1,4 +1,5 @@
 ---
+seoDescription: Automate issue tracking between GitHub and Azure DevOps to streamline your workflow.
 type: rule
 title: GitHub Issues – Do you sync to Azure DevOps?
 uri: sync-your-github-issues-to-azure-devops
@@ -15,7 +16,7 @@ guid: ef4ae2ef-b45d-4403-820e-e3374019bb1c
 
 If you store all your code in GitHub, why not create all your issues there too?
 
-You might be reluctant to move your backlog to GitHub from Azure DevOps as you don’t want to lose the metrics functionality. 
+You might be reluctant to move your backlog to GitHub from Azure DevOps as you don’t want to lose the metrics functionality.
 
 But you can easily sync all your GitHub Issues to Azure DevOps automatically to have the best of both worlds.
 
@@ -26,24 +27,23 @@ Here's a quick guide in setting it up for your GitHub Repository and Azure DevOp
 1. Install the [Azure Boards App](https://github.com/marketplace/azure-boards) from the GitHub Marketplace
 2. Create the GitHub Action secrets
 
-* **ADO\_PERSONAL\_ACCESS\_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)  
-The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
+- **ADO_PERSONAL_ACCESS_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)  
+  The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
 
-* **GH\_PERSONAL\_ACCESS\_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)  
-The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.
+- **GH_PERSONAL_ACCESS_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)  
+  The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.
 
-* **ADO\_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)  
-The Organization name is in your Azure DevOps URL.
+- **ADO_ORGANIZATION** (https:// **ssw** .visualstudio.com/SSW.Rules)  
+  The Organization name is in your Azure DevOps URL.
 
-* **ADO\_PROJECT** (https://ssw.visualstudio.com/ **SSW.Rules**)  
-The Project name can also be found in your Azure DevOps URL.
-
+- **ADO_PROJECT** (https://ssw.visualstudio.com/ **SSW.Rules**)  
+  The Project name can also be found in your Azure DevOps URL.
 
 3. Create the following GitHub Action
 
 E.g. SSW uses this template for their projects, you may need to change the new and closed states depending on your environment.
 
-``` git
+```git
 name: Sync issue to Azure DevOps work item
 on:
   issues:
@@ -76,14 +76,14 @@ Figure: Good Example - GitHub Action to Sync Issues to Azure DevOps
 
 ### Pros
 
-* Easily manage Sprints and calculate burndown and cycle time
-* See all your GitHub Issues and Azure DevOps PBIs in one Backlog
-* Automated tagging and hyperlinking between Issues and PBIs
+- Easily manage Sprints and calculate burndown and cycle time
+- See all your GitHub Issues and Azure DevOps PBIs in one Backlog
+- Automated tagging and hyperlinking between Issues and PBIs
 
 ### Cons
 
-* The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
-* It won’t sync existing GitHub Issues unless they are updated
+- The sync is only one-way GitHub Issues -&gt; Azure DevOps Backlog
+- It won’t sync existing GitHub Issues unless they are updated
 
 More information about this GitHub Action can be found here https://github.com/danhellem/github-actions-issue-to-work-item
 

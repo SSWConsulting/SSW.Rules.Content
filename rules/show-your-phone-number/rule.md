@@ -1,4 +1,5 @@
 ---
+seoDescription: Show your phone number in IM profiles to enable easy communication and resolve urgent issues efficiently.
 type: rule
 title: Do you have your phone number in your IM profile?
 uri: show-your-phone-number
@@ -12,6 +13,7 @@ created: 2015-10-05T06:47:30.000Z
 archivedreason: Irrelevant
 guid: 8bc978b4-51f8-48c9-93c7-2f3142084151
 ---
+
 Using instant messages applications is all about communication. If something is urgent and you are not answering IMs, it is likely the next thing the person will do is to start looking for your phone number.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Use figures and images to enhance visual communication and reduce unnecessary text.
 type: rule
 archivedreason: 
 title: Figures - Do you use images to reduce the words?

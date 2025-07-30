@@ -1,6 +1,7 @@
 ---
+seoDescription: Do you sort your videos into playlists on YouTube to increase session time and boost your channel's performance? Organize your content with personalized thumbnails and optimize your videos for a better user experience.
 type: rule
-title: Do you sort your videos into playlists?
+title: Channel - Do you sort your videos into playlists?
 uri: sort-videos-into-playlists
 authors:
   - title: Florent Dezettre
@@ -23,7 +24,8 @@ created: 2018-05-20T22:58:44.000Z
 archivedreason: null
 guid: 1852838a-199e-440d-8301-905732d3d858
 ---
-When uploading your videos to YouTube, your channel can look like a laundry basket of content if you don't keep it organised. A better way to manage your channel is to treat all of your videos like products, each with their own identifiable branding.  
+
+When uploading your videos to YouTube, your channel can look like a laundry basket of content if you don't keep it organised. A better way to manage your channel is to treat all of your videos like products, each with their own identifiable branding.
 
 The first step is to define your content, and then create a visual identifier by using [personalised video thumbnails](/video-thumbnails).
 
@@ -57,4 +59,4 @@ YouTube wants people to spend more time on their website (to increase their reve
 ![Figure: Good example - People watching a video from your playlist are more likely to keep watching more of your videos, giving you a big boost!](playlist_good.png)
 :::
 
- **Images:** Courtesy of Brian Dean ([source](https://backlinko.com/grow-youtube-channel)).
+**Images:** Courtesy of Brian Dean ([source](https://backlinko.com/grow-youtube-channel)).

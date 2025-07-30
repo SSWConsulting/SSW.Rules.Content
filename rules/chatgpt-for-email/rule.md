@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your email writing with ChatGPT by drafting, personalizing, and refining messages for better communication.
 type: rule
 archivedreason:
 title: Do you use ChatGPT for better emails?
@@ -20,7 +21,7 @@ Writing the perfect email can be a time-consuming and challenging task. From dra
 
 <!--endintro-->
 
-# Drafting emails
+## Drafting emails
 
 ChatGPT can help you draft entire emails or parts of them. For example, if you are unsure how to begin an email to a potential employer, you can ask ChatGPT for suggestions.
 
@@ -30,7 +31,7 @@ ChatGPT can help you draft entire emails or parts of them. For example, if you a
 "I need to write an email to our software development team commending them for their hard work and commitment during a recent product launch. Could you help me draft this appreciation email?"
 :::
 
-# Ask for options
+## Ask for options
 
 You can ask for [multiple options](/generating-multiple-responses-from-chatgpt/), from which you can choose the best one.
 
@@ -38,7 +39,7 @@ You can ask for [multiple options](/generating-multiple-responses-from-chatgpt/)
 “Give me 3 different options to use”
 :::
 
-# Length Adjustment
+## Length adjustment
 
 ChatGPT can adjust the length of an email response according to your requirements.
 
@@ -48,7 +49,7 @@ ChatGPT can adjust the length of an email response according to your requirement
 “Expand these points into an email {{ PASTE IDEAS }}
 :::
 
-# Summarize long emails
+## Summarize long emails
 
 Sometimes the important points in an email are buried inside walls of text.
 
@@ -56,7 +57,7 @@ Sometimes the important points in an email are buried inside walls of text.
 “I received this email. Can you read it and give me the gist of it? {{ PASTE EMAIL }}”
 :::
 
-# Polishing
+## Polishing
 
 If you've written an email but aren't satisfied with the wording, you can ask ChatGPT to help improve it. It can help make your language more professional, courteous, concise, or whatever else you need.
 
@@ -68,7 +69,7 @@ If you've written an email but aren't satisfied with the wording, you can ask Ch
 “Check my spelling: {{ PASTE EMAIL }}”
 :::
 
-# Tone Analysis
+## Tone analysis
 
 You can use ChatGPT to analyze the tone of the emails you receive or send. For example, you can ask it to identify if an email sounds angry, respectful, sarcastic, etc. This can help you craft appropriate responses. Tip: ask for an informal style
 
@@ -80,7 +81,7 @@ You can use ChatGPT to analyze the tone of the emails you receive or send. For e
 “This email is confusing. What are they telling me?”
 :::
 
-# Customizing for context
+## Customizing for context
 
 You can instruct ChatGPT to [adjust the content and tone](/use-different-tones/) of the generated email response based on your needs. For example, if you want to decline a proposal, you can ask ChatGPT to write a polite declination.
 
@@ -92,7 +93,7 @@ You can instruct ChatGPT to [adjust the content and tone](/use-different-tones/)
 “Make this announcement more engaging for my employees."
 :::
 
-# Replying to a thread
+## Replying to a thread
 
 Sometimes you don't know where to start when replying to a thread of messages. You can use ChatGPT to get a quick start.
 
@@ -101,13 +102,14 @@ Sometimes you don't know where to start when replying to a thread of messages. Y
 Here is the thread: {{ PASTE THREAD }}”
 :::
 
-# Personal email template
+## Personal email template
 
 When using ChatGPT to draft emails for you, it can be useful to have your own repeatable prompt (link) to use each time.
 
-**Tip \#1:** Give [multiple shot prompts](/shot-prompts/) so it learns your email style.
+**Tips:**
 
-**Tip \#2:** Create a [prompt template](/chatgpt-prompt-templates/) so it writes in your style.
+* Give [multiple shot prompts](/shot-prompts/) so it learns your email style
+* Create a [prompt template](/chatgpt-prompt-templates/) so it writes in your style
 
 Your personal prompt might look like this:
 
@@ -121,7 +123,7 @@ You can do this for specific scenarios too:
 “Write a follow-up email to a client named {{ NAME }} who inquired about our services. I'm the account manager handling this client, my name is {{ NAME }}, and I can be reached at {{ NUMBER }}. Please also include a link to our scheduling tool, {{ LINK }}, to book a call at a convenient time. Make the email semi-formal, courteous, friendly, and concise.”
 :::
 
-# General tips
+### General tips
 
-* Avoid ChatGPT for emails that you want to have a personal feel.
-* Be aware that ChatGPT emails can sound robotic and insincere. Don’t be afraid to make edits – remove parts and add parts to make it sound more like you.
+* Avoid ChatGPT for emails that must have a personal feel
+* Be aware that ChatGPT emails can sound robotic and insincere. Don’t be afraid to make edits – remove parts and add parts to make it sound more like you

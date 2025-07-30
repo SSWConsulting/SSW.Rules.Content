@@ -1,4 +1,5 @@
 ---
+seoDescription: Allow donations to support your content creation
 type: rule
 title: Do you allow donations for your content?
 uri: make-money-from-your-content
@@ -12,6 +13,7 @@ related:
 created: 2022-04-14T01:48:29.783Z
 guid: 686b277a-6fe8-4cb8-958b-dcf8d764909a
 ---
+
 Digital marketing is becoming more popular every day and many people are making a living from creating content online on social media. Called content creators or digital influencers, they use platforms like YouTube, Instagram, and Twitter to expand their online presence. Some of these platforms are enabling features that allows them to make direct income from their content.
 
 <!--endintro-->

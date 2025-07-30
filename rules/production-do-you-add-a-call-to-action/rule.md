@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost video engagement and conversions by including a clear call-to-action (CTA) that prompts viewers to take a specific action.
 type: rule
 title: Production - Do you have a call to action (aka CTA)?
 uri: production-do-you-add-a-call-to-action
@@ -13,13 +14,14 @@ created: 2011-10-05T18:10:55.000Z
 archivedreason: null
 guid: a849f419-4cdb-44d2-a6b2-11f9c264f18a
 ---
+
 Without a 'call to action' (viewers to do something at the end of a video) the purpose of the video is lost. So you don't waste all your hard work editing, you should include a CTA at the end.
 
 Common objectives are to:
 
-* Obtain the viewer's email address
-* Get the viewer to provide info and request a service from the company
-* Get them to subscribe to the company's social media pages
+- Obtain the viewer's email address
+- Get the viewer to provide info and request a service from the company
+- Get them to subscribe to the company's social media pages
 
 <!--endintro-->
 

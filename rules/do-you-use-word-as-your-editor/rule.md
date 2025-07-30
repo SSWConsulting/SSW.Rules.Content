@@ -1,4 +1,5 @@
 ---
+seoDescription: Use Word as your email editor in Microsoft Outlook to compress images, access advanced formatting and spell checking features.
 type: rule
 archivedreason: Deprecated.
 title: Do you use Word as your editor?
@@ -6,17 +7,16 @@ guid: 4e7ce9ac-e017-4089-8d23-f0b62a63f607
 uri: do-you-use-word-as-your-editor
 created: 2009-03-31T03:38:31.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
 related: []
 redirects:
-- zz_do-you-use-word-as-your-editor
-
+  - zz_do-you-use-word-as-your-editor
 ---
 
-In Microsoft Outlook you have the option to use Word as your Email editor. 
+In Microsoft Outlook you have the option to use Word as your Email editor.
 
 <!--endintro-->
 

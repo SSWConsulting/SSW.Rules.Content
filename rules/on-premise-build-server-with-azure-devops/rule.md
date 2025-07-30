@@ -1,4 +1,5 @@
 ---
+seoDescription: Configure an on-premises build server in Azure DevOps to reduce continuous integration build costs and optimize your project's performance.
 type: rule
 title: Do you know when to use an on-premises build server with Azure DevOps?
 uri: on-premise-build-server-with-azure-devops
@@ -28,5 +29,5 @@ To configure an on-premises build server for Azure DevOps, check out [Anthony Bo
 Once you have a build server configured, you'll be able to see the build controller as an option when you configure a new build definition.
 
 ::: good  
-![Figure: Good Example - We have the option of an on-premises build controller as well as the Hosted Build controller](vso\_build.png)  
+![Figure: Good Example - We have the option of an on-premises build controller as well as the Hosted Build controller](vso_build.png)  
 :::

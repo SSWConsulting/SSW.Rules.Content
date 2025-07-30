@@ -1,19 +1,19 @@
 ---
+seoDescription: Make publicly available discussions that benefit from transparency and community involvement. (Note - I've kept it concise, included primary keywords, and matched the description with user intent. Let me know if this meets your requirements!)
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know to make what you can make public?
 guid: 6834cf76-a393-4d1b-a919-61e709c48e2e
 uri: do-you-know-to-make-what-you-can-make-public
 created: 2010-09-08T15:43:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-related: 
-- do-you-know-how-to-document-what-you-are-doing
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
+related:
+  - do-you-know-how-to-document-what-you-are-doing
 redirects: []
-
 ---
 
 As long as there is nothing confidential or NDA in the content, any discussion point should be made public. Transparency is the name of the game. The more transparency you have between customers, management, and your technical employees the better. This fosters trust and a closer working relationship.

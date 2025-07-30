@@ -1,19 +1,19 @@
 ---
+seoDescription: Consulting company regular meetings keep employees connected and informed about key changes and updates.
 type: rule
-archivedreason: 
+archivedreason:
 title: Communication - Do you hold regular company meetings?
 guid: 0ce6ce58-3ec3-43b6-9971-c92cc56ee3d3
 uri: do-you-hold-regular-company-meetings
 created: 2017-04-12T23:26:43.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- communication-do-you-hold-regular-company-meetings
-
+  - communication-do-you-hold-regular-company-meetings
 ---
 
 One risk of running a consulting company is your employees can start to feel disconnected from the main organization, especially if they spend all of their time working onsite. One solution is to get them to work from the office at least once or twice per week, and another is to hold regular company meetings.
@@ -33,13 +33,13 @@ After each meeting, the organizer should set the date for the next one and send 
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | SSWAll |
+| To: | SSWAll |
 | Subject: | Join us for the company meeting |  
-::: email-content  
+::: email-content
 
-### Hi All  
+### Hi All
 
 (Emailed SSWChapel@ to book it in its calendar)
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve readability with proper line breaks and spacing in your content to enhance user engagement and comprehension.
 type: rule
 title: Do you enhance readability with line breaks and spacing?
 uri: format-new-lines
@@ -16,6 +17,7 @@ authors:
 related:
   - add-useful-and-concise-figure-captions
   - use-the-right-html-figure-caption
+  - html-css-do-you-know-how-to-create-spaces-in-a-web-page
 created: 2021-07-06T01:13:05.707Z
 archivedreason: ""
 guid: e05522a7-1822-412c-80ee-5619039f7d96
@@ -28,7 +30,7 @@ Writing in large blocks of text is a common practice, but it can hinder readabil
 
 ::: info
 **Warning:** For web (HTML/Markdown), line breaks **should not be used to to create layout spacing**!
-You should use CSS margin and/or padding instead.
+You should [use CSS margin and/or padding](/html-css-do-you-know-how-to-create-spaces-in-a-web-page) instead.
 
 Learn more on [HTML `<br>` Tag: The Dos and Don'ts of Adding an HTML Line Break](https://blog.hubspot.com/website/html-line-break).
 
@@ -37,7 +39,7 @@ See the [more information on line breaks in Markdown](https://www.markdownguide.
 On the other hand, in regards to **emails** and/or **informal documents**, line breaks can be used for spacing. In these cases, correct syntax is not crucial, and breaking a line is more convinient than dealing with margins/line spacing.
 :::
 
-### Long paragraphs
+## Long paragraphs
 
 Consider breaking lines/paragraphs when you have a long block of text. You should aim to separate the information by context.
 
@@ -61,7 +63,7 @@ Want to meet them? Have a look at SSW People.
 Figure: Good example - The text is separated by paragraphs
 :::
 
-### Notes, Tips, PS
+## Callouts
 
 Content elements like **Note**, **Tip**, **PS** (and similar) should be on a new line to enable better readability. It is beneficial to bold those words.
 
@@ -74,14 +76,14 @@ Figure: Bad example - No line break before the note
 
 ::: greybox
 
-Test the login functionality thoroughly.
+Test the login functionality thoroughly.\
 **Note:** Try both valid and invalid credentials.
 :::
 ::: good  
 Figure: Good example - The "Note" being on a fresh line and in bold makes it much easier to read
 :::
 
-### URLs
+## URLs
 
 Breaking a line is also recommended before URLs.
 
@@ -93,7 +95,7 @@ Figure: Bad example - No line break before the URL
 :::
 
 ::: greybox
-Check out these employment opportunities at SSW:  
+Check out these employment opportunities at SSW:  \
 <https://www.ssw.com.au/employment#available>
 
 :::
@@ -101,7 +103,11 @@ Check out these employment opportunities at SSW:
 Figure: Good example - The URL being on a fresh line makes it much easier to read
 :::
 
-### Headings
+::: info
+**Tips:** URLs can get cluttered quickly - [keeping them short and clean](/create-friendly-short-urls) makes them easier to read, share, and manage. Whenever possible, it's even better to [use descriptive links](/descriptive-links) instead of full URLs.
+:::
+
+## Headings
 
 It's a good idea to have some space after headings.
 
@@ -123,7 +129,7 @@ Check out this awesome new video about the SSW Cultural Exchange Program!
 Figure: Good example - Spacing after heading
 :::
 
-### Multiple items as lists
+## Multiple items as lists
 
 If you text has information that can be turned into multiple items, you should do so, by creating a list. For example, when sending PBIs for a Sprint.
 
@@ -151,6 +157,6 @@ Figure: Good example - List is used to separate information and make it easier t
 **Note:** On the example above, see how changing from "Product Backlog Item" to "PBI" also helps with readability.
 However, you should [only use acronyms when the recipient is familiar with the term](/avoid-acronyms).
 
-### Images and captions
+## Images and captions
 
 It is also recommended to include spaces after an image or a figure description. These elements need breathing space to help users focus on them.

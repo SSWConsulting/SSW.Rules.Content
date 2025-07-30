@@ -1,4 +1,5 @@
 ---
+seoDescription: Scheduling a follow-up meeting after the Spec Review ensures alignment and smooth project kickoff.
 type: rule
 title: Do you schedule a follow-up meeting after the Spec Review?
 uri: follow-up-after-spec-review
@@ -59,6 +60,7 @@ Delve into any T&Cs, NDAs, or other administrative details requiring attention b
 To facilitate the scheduling of the follow-up meeting, here's a template that Account Managers can use:
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | Title:| {{ YOUR COMPANY NAME }} and {{ CLIENT NAME }} - Post Spec Review catch-up |

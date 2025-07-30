@@ -1,20 +1,20 @@
 ---
+seoDescription: Monitor YouTube analytics and metrics effectively to inform content creators about audience engagement, top traffic sources, and overall performance.
 type: rule
-archivedreason: 
-title: Do you monitor YouTube Analytics and metrics effectively?
+archivedreason:
+title: Channel - Do you monitor YouTube Analytics and metrics effectively?
 guid: 13d7b5be-519f-4608-8003-85079d427e59
 uri: monitor-youtube-analytics-and-metrics
 created: 2020-10-13T04:31:06.0000000Z
 authors:
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Jerwin Parker Roberto
+    url: https://ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
 related: []
 redirects:
-- do-you-keep-your-content-creators-informed
-- do-you-keep-your-content-creators-informed-2
-- do-you-monitor-youtube-analytics-and-metrics-effectively
-
+  - do-you-keep-your-content-creators-informed
+  - do-you-keep-your-content-creators-informed-2
+  - do-you-monitor-youtube-analytics-and-metrics-effectively
 ---
 
 At SSW, our Superstar developers love making content.

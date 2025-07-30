@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you know the common Design Principles? (Part 2 - Example) Learn how to identify and refactor code that violates Single Responsibility Principle (SRP), reducing Cyclomatic Complexity, High Coupling, and Number of Lines.
 type: rule
 title: Do you know the common Design Principles? (Part 2 - Example)
 uri: do-you-know-the-common-design-principles-part-2-example
@@ -15,6 +16,7 @@ created: 2012-04-02T01:45:17.000Z
 archivedreason: null
 guid: d5373992-0400-491f-b1aa-62dbf8499a28
 ---
+
 The hot spots identified in your solution often indicate violations of common design principles.
 
 <!--endintro-->
@@ -32,23 +34,23 @@ Let's just look at one example.
 This code does more than one thing, and therefore breaks the Single Responsibility Principle.
 
 ```csharp
-public class PrintServer 
+public class PrintServer
 {
     public string CreateJob(PrintJob data) { //...
     }
-  
+
     public int GetStatus(string jobId) { //...
     }
-  
+
     public void Print(string jobId, int startPage, int endPage) { //...
     }
-  
+
     public List GetPrinterList() { //...
     }
-  
+
     public bool AddPrinter(Printer printer) { //...
     }
-  
+
     public event EventHandler PrintPreviewPageComputed;
     public event EventHandler PrintPreviewReady;
     // ...
@@ -63,10 +65,10 @@ Figure: Bad example - This class does two distinct jobs. It creates print jobs a
 public class Printers {
     public string CreateJob(PrintJob data) { //...
     }
-  
+
     public int GetStatus(string jobId) { //...
     }
-  
+
     public void Print(string jobId, int startPage, int endPage) { //...
     }
 }
@@ -74,7 +76,7 @@ public class Printers {
 public class PrinterManager {
     public List GetPrinterList() { //...
     }
-  
+
     public bool AddPrinter(Printer printer) { //...
     }
 }

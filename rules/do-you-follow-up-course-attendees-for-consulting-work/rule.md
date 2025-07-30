@@ -1,4 +1,5 @@
 ---
+seoDescription: Follow up with course attendees to generate consulting work opportunities by meeting them for a coffee and chat, discussing their experience and needs.
 type: rule
 title: Do you follow up course attendees for consulting work?
 uri: do-you-follow-up-course-attendees-for-consulting-work
@@ -13,6 +14,7 @@ created: 2012-08-30T13:07:15.000Z
 archivedreason: null
 guid: c0c151bf-d67c-4ffa-a781-92923495c8b9
 ---
+
 Running training courses can be a great way to make sure your site always has new content and show that your company is active publicly. As well as being good for branding, it can also be a great source of lead generation for consulting work.
 
 <!--endintro-->
@@ -21,11 +23,11 @@ In order to capitalise on this, you should have a developer in any training cour
 
 Keep these meetings fairly informal, with the agenda basically consisting of:
 
-* How did you find the course?
-* Is there any way we could improve it?
-* What are you doing with what you learned?
-* Is there anything else you’d like to know?
-* Does your company have a need for any consulting work?
+- How did you find the course?
+- Is there any way we could improve it?
+- What are you doing with what you learned?
+- Is there anything else you’d like to know?
+- Does your company have a need for any consulting work?
 
 The last question is key as it could lead to substantially more work, but you should make sure the person you’re meeting with gets some good value out of the meeting itself, so this does not just seem like a sales exercise.
 
@@ -37,7 +39,7 @@ Thanks for attending today. You can email either of us after this.
 
 Also in the next few weeks 5 of you will be picked at random for a 'Retro Coffee'
 
-It is about 20 mins. Bring your problems. We will chat about the course and what you still need to know."*
+It is about 20 mins. Bring your problems. We will chat about the course and what you still need to know."\*
 
 :::
 

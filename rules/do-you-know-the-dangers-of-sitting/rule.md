@@ -1,16 +1,22 @@
 ---
+seoDescription: Prevent long-term damage by standing up every half hour and stretching your hip flexors to counteract the negative effects of sitting.
 type: rule
 title: Do you know the dangers of sitting?
 uri: do-you-know-the-dangers-of-sitting
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - do-you-know-the-dangers-of-sitting
+  - stretch-at-work
+  - lasting-habits
+  - encourage-daily-exercise
 redirects: []
 created: 2016-11-07T06:25:25.000Z
 archivedreason: null
 guid: f16d1c95-1453-4a00-bd95-56696f60ed5b
 ---
+
 Your body in an amazing machine. It constantly improves itself to get better at whatever you do most. Unfortunately for most of us, the thing we do most with our bodies is sit.
 
 <!--endintro-->

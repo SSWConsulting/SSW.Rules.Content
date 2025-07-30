@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover why Vue.js is a great choice for web development, with its easy learning curve, lightweight framework, high performance, and excellent tooling.
 type: rule
 title: Do you know what makes Vue.js great?
 uri: why-vue-is-great
@@ -8,7 +9,9 @@ authors:
 created: 2023-07-12T00:20:54.249Z
 guid: 0198bbf5-8c26-4ac2-b76d-7da4ccaa4917
 ---
+
 [Vue.js](https://www.ssw.com.au/consulting/vue) is an open-source JavaScript framework, similar to [React](https://www.ssw.com.au/consulting/react) and [Angular](https://www.ssw.com.au/consulting/angular). It was originally released by ex-Googler Evan You in 2014 who wanted to take what he liked about AngularJS to build a newer and more lightweight framework. Today, Vue.js is a fairly popular and mature framework with an ever-increasing market share behind React and Angular. Here are some of the reasons why Vue.js is great:
+
 <!--endintro-->
 
 `youtube: https://www.youtube.com/watch?v=nhBVL41-_Cw`

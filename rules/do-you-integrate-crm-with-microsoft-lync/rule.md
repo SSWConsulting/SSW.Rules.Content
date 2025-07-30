@@ -1,18 +1,18 @@
 ---
+seoDescription: Integrate Microsoft Dynamics CRM with Skype for Business to enhance sales and customer service interactions.
 type: rule
-archivedreason: 
+archivedreason: Outdated - Skype for Business has been retired, and Microsoft Teams is the recommended replacement for CRM integration. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you integrate CRM with Microsoft Skype for Business?
 guid: 1b64ec75-ff9a-419b-abb9-d3a17872d994
 uri: do-you-integrate-crm-with-microsoft-lync
 created: 2012-04-17T21:35:32.0000000Z
 authors:
-- title: Daragh Bannigan
-  url: https://twitter.com/dbannigan
-  noimage: true 
+  - title: Daragh Bannigan
+    url: https://twitter.com/dbannigan
+    noimage: true
 related: []
 redirects:
-- do-you-integrate-crm-with-microsoft-skype-for-business
-
+  - do-you-integrate-crm-with-microsoft-skype-for-business
 ---
 
 [SkypePOP](https://www.skypepop.com/product/skypepop) is an easy to use screen pop application that supports Office 365, Microsoft Skype for Business and Microsoft Dynamics CRM and CRM Online, maximizing your investment in these two leading applications.
@@ -41,5 +41,5 @@ Read more about [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulti
 ### SkypePOP Setup
 
 ::: good
-![Figure: Good example - Use the discovery service of your CRM (connect using &lt;yourname&gt;@&lt;yourdomain&gt; as a username)](2016-12-02_15-14-23_1710232021935.jpg)
+![Figure: Good example - Use the discovery service of your CRM (connect using <yourname>@<yourdomain> as a username)](2016-12-02_15-14-23_1710232021935.jpg)
 :::

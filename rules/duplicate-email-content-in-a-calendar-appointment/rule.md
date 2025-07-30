@@ -1,26 +1,26 @@
 ---
+seoDescription: Do you know to copy email content into a calendar appointment? Copying email text into the body of a calendar appointment helps preserve conversation history and context for attendees.
 type: rule
-archivedreason: 
+archivedreason:
 title: Appointments - Do you know to copy the email content into the calendar appointment?
 guid: 0000a906-fba7-4d60-8ba1-bb3cd6263831
 uri: duplicate-email-content-in-a-calendar-appointment
 created: 2018-07-12T00:39:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: 
-- email-copy-to-raise-pbi-visibility
-- attach-and-copy-emails-to-the-pbi
-- appointments-throw-it-in-their-calendar
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - email-copy-to-raise-pbi-visibility
+  - attach-and-copy-emails-to-the-pbi
+  - appointments-throw-it-in-their-calendar
 redirects:
-- appointments-do-you-know-to-copy-the-email-content-into-the-calendar-appointment
-- do-you-know-to-duplicate-email-content-in-a-calendar-appointment
-
+  - appointments-do-you-know-to-copy-the-email-content-into-the-calendar-appointment
+  - do-you-know-to-duplicate-email-content-in-a-calendar-appointment
 ---
 
-One of the great things about email is that as a conversation progresses, you always have the thread history that you can refer to for context. 
+One of the great things about email is that as a conversation progresses, you always have the thread history that you can refer to for context.
 
 Calendar appointments, on the other hand, don’t have this. Therefore, if you make plans via email, and that email conversation includes details like times, agendas, locations, etc. It’s usually a good idea to **copy the email text into the body of the calendar appointment**. That way you’ve got the history and context right there, so the attendees don’t have to go searching for it in their inbox.
 
@@ -31,13 +31,13 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Adam, Dave, Denise |
+| To: | Adam, Dave, Denise |
 | Subject: | Meet with the SSW software architects and talk about CodeAuditor |  
-| When:    | Friday, 30 July 2022 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney |
-| Where:   | SSW Sydney Boardroom |
-::: email-content  
+| When: | Friday, 30 July 2022 9:30 AM-10:30 AM (UTC+10:00) Canberra, Melbourne, Sydney |
+| Where: | SSW Sydney Boardroom |
+::: email-content
 
 (copy of email)
 
@@ -45,8 +45,8 @@ Calendar appointments, on the other hand, don’t have this. Therefore, if you m
 
 I am the Scrum Master of the upcoming Northwind project and I’d like to understand the specific performance and code quality requirements
 
-1.	Can you meet with me and review the current SSW CodeAuditor rules we need to enforce per Sprint for the upcoming Northwind project?
-2.	Once I understand, can you communicate those rules to the developers on the project?
+1. Can you meet with me and review the current SSW CodeAuditor rules we need to enforce per Sprint for the upcoming Northwind project?
+2. Once I understand, can you communicate those rules to the developers on the project?
 
 Sophie
 

@@ -21,5 +21,8 @@ index:
 - do-you-use-the-security-options-in-outlook
 - do-you-use-the-voting-option-appropriately
 - do-you-avoid-using-out-of-office
+- archive-mailboxes
 
 ---
+
+Boost your productivity and email management skills with these Outlook rules. From mastering search to minimizing distractions and leveraging advanced features, these tips will help you optimize your Outlook experience.

@@ -1,18 +1,18 @@
 ---
+seoDescription: Analyze your website statistics and unlock valuable insights into user behavior, including geographical origin, referring pages, number of users, time spent on site, early departures, and page popularity
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you analyze your website statistics (aka Google Analytics)?
 guid: 8af2c0e4-9189-4d0f-8e34-50b39bfb4b65
 uri: analyze-your-website-stats
 created: 2016-11-24T16:35:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-analyze-your-website-statistics-aka-google-analytics
-- do-you-analyze-your-website-statistics-(aka-google-analytics)
-
+  - do-you-analyze-your-website-statistics-aka-google-analytics
+  - do-you-analyze-your-website-statistics-(aka-google-analytics)
 ---
 
 There is a lot of information tucked away in your web server log files. Valuable, but often unused, information that can be retrieved from your web server log files include:

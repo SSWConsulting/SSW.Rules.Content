@@ -1,6 +1,8 @@
 ---
 type: rule
-title: Do you use MFA instead of typing a password?
+title: Do you use MFA and avoid typing passwords?
+seoDescription: Stay ahead of cyber threats by using multi-factor authentication
+  (MFA), and setup passwordless sign-in to avoid typing passwords.
 uri: using-mfa
 authors:
   - title: Matt Goldman
@@ -13,9 +15,10 @@ authors:
     url: https://www.ssw.com.au/people/warwick-leahy
 related:
   - password-manager
+  - multi-factor-authentication-enabled
+  - windows-hello
 created: 2022-03-17T05:06:21.573Z
 guid: 1e46b6c6-b5de-425d-a801-cad2c6c33905
-
 ---
 
 The best protection you can provide for your password is to not solely rely on it. Multi-factor authentication (MFA) lets you use a mix of techniques when logging into an account. Typically this is made up of something you know (your password) and something you have (your phone - older people will remember RSA tokens).
@@ -34,9 +37,9 @@ Nearly any service you use now will support MFA, either through an authenticator
 
 ![Figure: Microsoft's Authenticator app in action](microsoft-authenticator-steps.gif)
 
-### P﻿asswordless sign-in
+### Passwordless sign-in
 
-I﻿f you use the Microsoft Authenticator app, you can go one step further and get rid of the need to type a password. To enable passwordless sign-in:
+If you use the Microsoft Authenticator app, you can go one step further and get rid of the need to type a password. To enable passwordless sign-in:
 
 1. Open the Authenticator app, and tap on the account you want to enable it for
 2. Tap Enable phone sign-in and tap Continue
@@ -52,7 +55,7 @@ Now that it is enabled, you will need to change your default - next time you nee
 **Note:** The above option "Use an app instead" takes some time to reflect on your login prompt after you have made changes in your Authenticator App.
 :::
 
-S﻿ee [detailed instructions from Microsoft](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).
+See [detailed instructions from Microsoft](https://support.microsoft.com/en-us/account-billing/sign-in-to-your-accounts-using-the-microsoft-authenticator-app-582bdc07-4566-4c97-a7aa-56058122714c).
 
 ::: good
 ![Figure: Good example - Microsoft Authenticator app with Passwordless sign-in (recommended)](authenticator-app.gif)

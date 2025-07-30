@@ -1,16 +1,16 @@
 ---
+seoDescription: GitHub environments enable gated deployments by adding manual approval steps to your workflow, ensuring that large operations are reviewed and approved before deployment.
 type: rule
 title: GitHub Environments - Do you use gated deployments?
 guid: f24e8551-80cb-47db-bdf0-bef479959593
 uri: use-gated-deployments
 created: 2023-07-02T11:10:35.0000000Z
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
 archivedreason:
 related: []
 redirects:
-
 ---
 
 In a blazing-fast CI/CD pipeline, we've got everything automated for maximum efficiency! From building, testing and finally deploying our code. But sometimes we need to pause prior to large operations such as deployments and make sure that they are manually approved by someone with insight and oversight.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a separate test plan per sprint to track testing progress and gain historical data on test pass rates for previous milestones.
 type: rule
 title: Do you create one test plan per Sprint?
 uri: do-you-create-one-test-plan-per-sprint
@@ -12,7 +13,7 @@ archivedreason: null
 guid: e1300a89-ecb8-4612-a0aa-4e77ed12dc43
 ---
 
-When you use Microsoft Azure Test Plans to create test plans and test suites for your project, there are several approaches that you can take.  
+When you use Microsoft Azure Test Plans to create test plans and test suites for your project, there are several approaches that you can take.
 
 <!--endintro-->
 

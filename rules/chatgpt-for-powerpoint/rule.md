@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create professional PowerPoint presentations using ChatGPT with VBA automation.
 type: rule
 title: Do you know how to make a PowerPoint presentation using ChatGPT?
 uri: chatgpt-for-powerpoint

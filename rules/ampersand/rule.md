@@ -1,17 +1,18 @@
 ---
+seoDescription: Learn when to use ampersand (&) effectively, balancing readability and accessibility with character-saving space and informal tone
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to use the ampersand?
 guid: 3ce5a33c-c52b-46c2-be14-df8991187af6
 uri: ampersand
 created: 2023-10-16T05:06:33.0000000Z
 authors:
-- title: Jayden Alchin
-  url: https://ssw.com.au/people/jayden-alchin
-- title: Betty Bondoc
-  url: https://www.ssw.com.au/people/betty-bondoc
+  - title: Jayden Alchin
+    url: https://ssw.com.au/people/jayden-alchin
+  - title: Betty Bondoc
+    url: https://www.ssw.com.au/people/betty-bondoc
 related:
-- web-users-dont-read
+  - web-users-dont-read
 redirects: []
 ---
 

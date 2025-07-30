@@ -1,16 +1,16 @@
 ---
+seoDescription: Troubleshoot Lync connectivity issues using Remote UC Troubleshooting Tool, Monitoring Reports and Internet Network connectivity tests.
 type: rule
-archivedreason: 
+archivedreason: Outdated - Lync has been replaced by Microsoft Teams. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you know how to troubleshoot Lync connectivity or configuration issues?
 guid: 3e50c914-d83f-41fa-b70d-f0d6fd34935d
 uri: do-you-know-how-to-troubleshoot-lync-connectivity-or-configuration-issues
 created: 2012-04-17T21:06:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 At times especially during the initial implementation, you may encounter some issues with Lync. The following are some of the useful tools which will assist you in identifying where the problem lies.
@@ -25,7 +25,7 @@ Specifically, you now have the option of querying the locally configured DNS ser
 * Lyncdiscoverinternal. (both CNAME or A record)
 * From the same screen, you can ping the resulting hostname or test the port availability on any of the Lync DNS record matches
 
-![Figure: Lync Auto-Discovery Mobility DNS record](lync-auto-discovery.jpg)  
+![Figure: Lync Auto-Discovery Mobility DNS record](lync-auto-discovery.jpg)
 
 ### Lync Monitoring Reports
 
@@ -35,6 +35,6 @@ The Monitoring Server collects data from the call detail recording (CDR) and Qua
 
 Tools such as VisualRoute 2010 will assist in highlight problems related latency and packet loss.
 
-![Figure: VisualRoute 2010 tool showing a test to a Google DNS server](visualroute-tool.jpg)  
+![Figure: VisualRoute 2010 tool showing a test to a Google DNS server](visualroute-tool.jpg)
 
 Read more about implementing [Microsoft Lync](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).

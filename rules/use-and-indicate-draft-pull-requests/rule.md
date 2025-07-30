@@ -1,23 +1,24 @@
 ---
+seoDescription: Draft Pull Requests enhance collaboration and feedback by indicating work-in-progress, reducing duplication, and maintaining a transparent development pipeline.
 type: rule
-archivedreason: 
+archivedreason:
 title: Pull Requests - Do you use and indicate Draft Pull Requests?
 guid: e2b8bcf4-916b-499b-b8f1-ca2a4c80cee9
 uri: use-and-indicate-draft-pull-requests
 created: 2024-01-11T04:53:25.0000000Z
 authors:
-- title: Tino Liu
-  url: https://ssw.com.au/people/tino-liu
-- title: Nick Curran
-  url: https://ssw.com.au/people/nick-curran
-- title: Daniel Mackay
-  url: https://ssw.com.au/people/daniel-mackay
+  - title: Tino Liu
+    url: https://ssw.com.au/people/tino-liu
+  - title: Nick Curran
+    url: https://ssw.com.au/people/nick-curran
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related:
-- over-the-shoulder
-- adding-changes-to-pull-requests
-- do-you-use-co-creation-patterns
-- write-a-good-pull-request
-- co-authored-commits
+  - over-the-shoulder
+  - adding-changes-to-pull-requests
+  - do-you-use-co-creation-patterns
+  - write-a-good-pull-request
+  - co-authored-commits
 redirects:
   - create-draft-pull-requests
 ---

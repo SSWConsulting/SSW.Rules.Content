@@ -5,18 +5,22 @@ guid: a09ec7f5-4035-48ad-afb2-08ac9c620dc6
 uri: rules-to-better-architecture-and-code-review
 index:
   - do-you-evaluate-the-processes
+  - software-architecture-decision-tree
   - developer-experience
   - do-you-review-the-solution-and-project-names
   - do-you-conduct-an-architecture-review-after-every-sprint
   - awesome-documentation
+  - awesome-readme
+  - use-readme-templates
   - architecture-diagram
   - do-you-document-the-technologies-design-patterns-and-alm-processes
+  - spike-vs-poc
   - look-at-the-architecture-of-javascript-projects
-  - do-you-look-at-the-architecture
-  - do-you-generate-the-vs-dependency-graph
+  - generate-dependency-graphs
   - do-you-know-how-to-laser-in-on-the-smelliest-code
   - do-you-know-the-common-design-principles-part-1
   - do-you-know-the-common-design-principles-part-2-example
+  - unique-dtos-per-endpoint
   - common-design-patterns
   - dependency-injection
   - code-against-interfaces
@@ -39,7 +43,7 @@ index:
   - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
   - do-you-use-subdomains-instead-of-virtual-directories
   - do-you-use-the-best-middle-tier-net-libraries
-  - do-you-use-the-best-web-ui-libraries
+  - web-ui-libraries
   - do-you-use-your-ioc-container-to-inject-dependencies-and-not-as-a-singleton-container
   - technical-debt
   - just-enough-refactoring
@@ -54,9 +58,10 @@ index:
   - dev-containers
   - avoid-large-prs
   - over-the-shoulder
-  - do-you-use-architectural-decision-records
+  - architectural-decision-records
   - use-prefixes-to-improve-code-review-communication
   - use-mass-transit
+  - multi-tenancy-models
 ---
 
 For any project that is critical to the business, it’s important to do ‘Modern Architecture Reviews’. Being an architect is fun, you get to design the system, do ongoing code reviews, and play the bad ass. It is even more fun when using modern cool tools.

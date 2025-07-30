@@ -1,24 +1,24 @@
 ---
+seoDescription: When you leave messages after an unanswered phone call, provide your name, reason for calling, and contact number to ensure a timely response.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you leave messages when your phone call is unanswered?
 guid: ee2055d1-82ce-43ad-be4b-b8affdee2138
 uri: do-you-leave-messages-when-your-phone-call-is-unanswered
 created: 2010-07-16T06:47:22.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-If you call a client or team member, and for some reason they do not attend your call, then leave a message to ensure a response.  
+If you call a client or team member, and for some reason they do not attend your call, then leave a message to ensure a response.
 
 The advantages of leaving messages when your call is unanswered:
 
-* They will know who called and be able to return your call
-* If your message is urgent, they may return your call straight away (even though they're busy)
+- They will know who called and be able to return your call
+- If your message is urgent, they may return your call straight away (even though they're busy)
 
 <!--endintro-->
 

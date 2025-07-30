@@ -1,4 +1,5 @@
 ---
+seoDescription: Analyze event feedback to refine future events, track progress and identify areas for improvement.
 type: rule
 title: Retro - Do you evaluate your event feedback?
 uri: evaluate-your-event-feedback
@@ -25,9 +26,9 @@ You should then send a retrospective email to relevant team members, and let the
 
 Remember to include important feedback like:
 
-* Any great comments from the evaluation forms
-* Any not so great feedback from the evaluation forms
-* Points for improvement
-* Stats on the free demand generation (how 'Googleable' is your event)
-* Stats on the paid demand generation (if applicable)
-* The demand generation of the speaker (for example did they Tweet your event & what engagement did it get)
+- Any great comments from the evaluation forms
+- Any not so great feedback from the evaluation forms
+- Points for improvement
+- Stats on the free demand generation (how 'Googleable' is your event)
+- Stats on the paid demand generation (if applicable)
+- The demand generation of the speaker (for example did they Tweet your event & what engagement did it get)

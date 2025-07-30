@@ -1,19 +1,19 @@
 ---
+seoDescription: Use PowerShell scripts that separate configuration from code for improved security and maintainability.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use configuration files for PowerShell scripts?
 guid: 91fcf87e-5709-47fb-9ff1-997bd716cdda
 uri: use-configuration-files-for-powershell-scripts
 created: 2020-10-22T18:25:28.0000000Z
 authors:
-- title: Kaique Biancatti
-  url: https://ssw.com.au/people/kaique-biancatti
-- title: Steven Andrews
-  url: https://ssw.com.au/people/steven-andrews
+  - title: Kaique Biancatti
+    url: https://ssw.com.au/people/kaique-biancatti
+  - title: Steven Andrews
+    url: https://ssw.com.au/people/steven-andrews
 related: []
 redirects:
-- do-you-use-configuration-files-for-powershell-scripts
-
+  - do-you-use-configuration-files-for-powershell-scripts
 ---
 
 In PowerShell, you can easily create variables without explicitly typing them and that leads to some hardcoded "magic" strings.
@@ -24,7 +24,7 @@ PSD1 us the filename extension for PowerShell module descriptions, and this file
 
 <!--endintro-->
 
-``` ps1
+```ps1
 Import-PowerShellDataFile.
 ```
 

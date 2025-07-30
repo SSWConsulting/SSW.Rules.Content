@@ -1,6 +1,7 @@
 ---
+seoDescription: Unlock the power of Photoshop's Generative Fill and transform images with AI-driven prompts.
 type: rule
-title: Do you know how to transform images with Photoshop Generative Fill? 
+title: Do you know how to transform images with Photoshop Generative Fill?
 uri: photoshop-generative-fill
 authors:
   - title: Jayden Alchin
@@ -21,15 +22,15 @@ Adobe Photoshop’s AI-powered and prompt-based generative tool can turn a simpl
 
 ### Generative Fill is easy to use
 
-1.	Select an object or area with any selection tool (lasso, marquee, magic wand, etc)
-2.	Enter a prompt into the contextual taskbar that appears after your selection
-3.	Click generate!
-4.	Use the arrows in the taskbar to see some alternate variations, or press generate again until you see a result you like.
+1. Select an object or area with any selection tool (lasso, marquee, magic wand, etc)
+2. Enter a prompt into the contextual taskbar that appears after your selection
+3. Click generate!
+4. Use the arrows in the taskbar to see some alternate variations, or press generate again until you see a result you like.
 
 ### Tips and tricks
 
-* Leave the prompt blank and Generative Fill will use the area surrounding your selection to mask it away. Removing unwanted objects is that easy. 
-* Be intentional with the size and shape of the selections you make. The tool will use this as extra information to interpret your prompts.
-* Generative Fill will create a new generative layer with the same name as your prompt. You can come back and alter the generated content at any time by selecting that layer.
+- Leave the prompt blank and Generative Fill will use the area surrounding your selection to mask it away. Removing unwanted objects is that easy.
+- Be intentional with the size and shape of the selections you make. The tool will use this as extra information to interpret your prompts.
+- Generative Fill will create a new generative layer with the same name as your prompt. You can come back and alter the generated content at any time by selecting that layer.
 
 Although there are still [discussions around AI images and copyright](https://copyrightalliance.org/protecting-creators-generative-ai/), Generative Fill is powered by Adobe Firefly and designed for commercial use.

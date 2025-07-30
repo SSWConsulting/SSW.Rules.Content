@@ -1,12 +1,13 @@
 ---
+seoDescription: Schedule meetings only when necessary topics require in-person discussion or collaboration to achieve collective understanding and alignment.
 type: rule
 title: Do you make sure the meeting needs to exist?
 uri: make-sure-the-meeting-needs-to-exist
 authors:
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: 
-  -  when-to-email-chat-call-or-meet
+related:
+  - when-to-email-chat-call-or-meet
 created: 2021-07-20T06:35:55.000Z
 archivedreason: null
 guid: b6d46e24-af0e-4143-9ce9-39038bd55e97

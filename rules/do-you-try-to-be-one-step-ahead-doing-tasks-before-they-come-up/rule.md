@@ -1,16 +1,16 @@
 ---
+seoDescription: Stay ahead of tasks and anticipate your boss's needs by performing minor details or distractions before they arise.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you try to be one step ahead... doing tasks before they come up?
 guid: 02b72c50-693a-45ab-8962-62cd4da0ed0a
 uri: do-you-try-to-be-one-step-ahead-doing-tasks-before-they-come-up
 created: 2013-07-30T21:34:23.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 It is never easy to be a mind reader.

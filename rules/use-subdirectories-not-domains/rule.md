@@ -1,26 +1,26 @@
 ---
+seoDescription: Use subdirectories instead of subdomains to improve your website's search engine optimization (SEO) and user experience. This approach integrates better with your main site, making it easier to track with Google Analytics and generating more backlinks for improved Google juice.
 type: rule
-archivedreason: 
-title: Do you know that you should use subdirectories, not domains?
+archivedreason:
+title: Authority - Do you know that you should use subdirectories, not domains?
 guid: 9ea44d65-bb25-422a-8389-c0c82bb67f3b
 uri: use-subdirectories-not-domains
 created: 2020-01-24T02:02:06.0000000Z
 authors:
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
-- title: Jerwin Parker Roberto
-  url: https://ssw.com.au/people/jerwin-parker
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Jerwin Parker Roberto
+    url: https://ssw.com.au/people/jerwin-parker
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jerwin-Parker/Images/Jerwin-Parker-Profile.jpg
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-- add-tracking-codes-in-urls
+  - add-tracking-codes-in-urls
 redirects:
-- do-you-know-that-you-should-use-subdirectories-not-domains
-
+  - do-you-know-that-you-should-use-subdirectories-not-domains
 ---
 
-If you're building a website today, and your business needs to create addresses for different online directories, it can be hard to figure out the best way to go about it. 
+If you're building a website today, and your business needs to create addresses for different online directories, it can be hard to figure out the best way to go about it.
 
 There’s a lot of debate about this topic on the internet, so the question to ask yourself is: _“Should I use subdirectories or subdomains?”_
 
@@ -56,6 +56,6 @@ Here's a quick snap shot of the pros and cons:
 ✅ Track performance per sub-domain  
 ❌ Will not rank highly or as quickly as a sub-folder  
 ❌ Needs to establish its own rep/credibility through backlinks from other sites  
-❌ Visits to sub-domain are not included in your original sites website visits (not included in Google Analytics)  
+❌ Visits to sub-domain are not included in your original sites website visits (not included in Google Analytics)
 
 In short, you may use the set-up that works for you and think about the long term plan. For SEO purposes, sub-folders are the recommended way to go.

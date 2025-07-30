@@ -1,4 +1,5 @@
 ---
+seoDescription: Establish a unified Lean-Agile mindset across all teams to boost efficiency, flexibility, and value delivery.
 type: rule
 title: Do you establish a Lean-Agile mindset across all teams?
 guid: fe96d5c6-3817-466c-8882-52d62c5831bd
@@ -14,6 +15,7 @@ redirects:
   - do-you-establish-a-Lean-Agile-mindset-across-all-teams
 archivedreason: null
 ---
+
 In any bustling organization, it's common to see multiple teams working at their own pace, each with its distinct flavor of 'agility'. But what happens when some of those flavors are a tad outdated? The result: a mix of inefficiencies, delays, and missed beats.
 
 It's like trying to play in harmony with instruments out of tune. The remedy? Striking the right chord with a consistent Lean-Agile mindset across the board.

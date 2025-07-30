@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid leading questions when asking ChatGPT to ensure objective and informative responses that are more trustworthy.
 type: rule
 title: Do you avoid leading questions?
 uri: avoid-leading-prompt-questions
@@ -8,6 +9,7 @@ authors:
 created: 2023-04-12T14:22:59.506Z
 guid: e1ca443c-1fd4-4f07-b99e-88e68e94df63
 ---
+
 Leading questions can result in biased or unhelpful answers from ChatGPT. To obtain objective and useful responses, it's important to ask open-ended, unbiased questions that allow the model to explore a topic without being influenced by the phrasing of the prompt.
 
 <!--endintro-->

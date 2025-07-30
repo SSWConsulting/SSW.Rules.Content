@@ -14,6 +14,7 @@ index:
 - enable-presentation-mode-in-visual-studio
 - easy-to-view-screen-recordings
 - what-your-audience-sees-is-as-important-as-your-content
+- do-you-keep-eye-contact-with-the-audience
 - are-you-careful-with-your-spelling-grammar-and-punctuation
 - organize-the-audience-when-numbers-are-low
 - do-you-tell-the-hashtag-of-your-you-topic-to-your-audience

@@ -1,4 +1,5 @@
 ---
+seoDescription: Establish clear expectations by asking clients about meeting goals and duration at the outset, ensuring a productive and time-efficient discussion.
 type: rule
 title: Meetings - Do you ask clients the 2 important questions at the beginning of each meeting?
 uri: meetings-do-you-ask-clients-the-two-important-questions-at-the-beginning-of-each-meeting

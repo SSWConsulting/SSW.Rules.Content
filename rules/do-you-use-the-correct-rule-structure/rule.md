@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to structure your rule effectively with clear headings, descriptions, and examples for better content creation
 type: rule
 archivedreason: Replaced by https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
 title: Do you use the correct Rule structure?
@@ -17,6 +18,5 @@ Your rule should be structured as follows:
 * Why this rule exists and description
 * Bad example
 * Good example
-
 
 <!--endintro-->

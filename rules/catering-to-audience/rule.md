@@ -1,4 +1,5 @@
 ---
+seoDescription: Tailor your communication for Product Owners, Developers, and Designers to ensure clarity and alignment across roles.
 type: rule
 title: Do you cater to your audience?
 uri: catering-to-audience

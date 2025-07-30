@@ -1,4 +1,5 @@
 ---
+seoDescription: Staying up-to-date with NuGet package updates ensures improved stability and reduced risk of breaking changes or regressions.
 type: rule
 title: Do you update your packages regularly?
 uri: do-you-update-your-packages-regularly
@@ -13,6 +14,7 @@ created: 2014-11-27T18:18:39.000Z
 archivedreason: null
 guid: eed63bcd-bdd8-47ed-baf2-8200f9f99547
 ---
+
 NuGet makes it easy to find and apply package updates – but this still must be performed manually.
 
 <!--endintro-->
@@ -67,7 +69,7 @@ To check for updates, you can use the following command:
 
 ```shell
 Get-Package -Updates
-``` 
+```
 
 Specific packages can be updated by specifying the package name:
 

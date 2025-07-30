@@ -1,18 +1,18 @@
 ---
+seoDescription: Know when to give away and when not to, with guidelines on charging clients for products.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when, and when not, to give away products?
 guid: 0c50b847-8024-44ce-a9c8-e233b6b5f5e1
 uri: do-you-know-when-and-when-not-to-give-away-products
 created: 2012-08-30T13:04:40.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 You shouldn't charge a client for using your own product as part of the toolkit you take (e.g. we use Upsizing PRO when doing an upsizing job). This is because it's just like a plumber [using his wrench](/do-you-always-carry-your-tool-box). You take it away with you when you leave.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Migrate legacy .NET Framework projects to modern ASP.NET Core with Yarp proxy and .NET Upgrade Assistant.
 type: rule
 archivedreason: merged with a duplicate rule [https://www.ssw.com.au/rules/migration-plans/](/rules/migration-plans)
 title: Do you know how to handle complex .NET migrations?
@@ -23,10 +24,10 @@ guid: 9de5ca88-a6aa-4fe5-af47-d6d2169cde86
 
 There's not 1 single thing that makes a .NET project complex to migrate to the latest .NET Framework. Generally though it's a combination of the following:
 
-* High complexity
-* Lots of .NET Framework dependencies
-* Outdated NuGet packages with no modern alternatives
-* etc.
+- High complexity
+- Lots of .NET Framework dependencies
+- Outdated NuGet packages with no modern alternatives
+- etc.
 
 If your project doesn't meet any of the above criteria, you should consider using the [.NET Upgrade Assistant](https://dotnet.microsoft.com/en-us/platform/upgrade-assistant). You can read more about the tool at [Do you know how to modernize your .NET applications?](/dotnet-upgrade-assistant/) If the .NET Upgrade Assistant works for your project, you could save a significant amount of time. However, the level of success may vary across different projects.
 
@@ -92,8 +93,8 @@ At this point, ensure your project can target both the .NET Framework and the ne
 
 Outlined below are rules designed to assist in the project upgrade process during migration. Please note that the applicability of certain rules may vary based on individual project requirements.
 
-* [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
-* [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
+- [Do you know how to migrate from System.Web to modern alternatives?](/migrate-from-system-web-to-modern-alternatives/)
+- [Do you know how to migrate from EDMX to EF Core?](/migrate-from-edmx-to-ef-core/)
 
 # Web application
 
@@ -108,14 +109,14 @@ Right-click on the project in the Solution Explorer window, and select Upgrade.
 
 A tab is opened which provides, based on your project type, different styles of upgrade:
 
-* In-place project upgrade <br/>
-This option upgrades your project without making a copy.
+- In-place project upgrade <br/>
+  This option upgrades your project without making a copy.
 
-* Side-by-side project upgrade <br/>
-Copies your project and upgrades the copy, leaving your original project alone.
+- Side-by-side project upgrade <br/>
+  Copies your project and upgrades the copy, leaving your original project alone.
 
-* Side-by-side incremental <br/>
-A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project. If an endpoint is implemented in the .NET 8 project, any requests to that endpoint will be handled there and all other requests will be forwarded and handled by the .NET Framework project.
+- Side-by-side incremental <br/>
+  A good choice for complicated web apps. Upgrading from ASP.NET to ASP.NET Core requires quite a bit of work and at times manual refactoring. This mode puts a .NET project next to your existing .NET Framework project. If an endpoint is implemented in the .NET 8 project, any requests to that endpoint will be handled there and all other requests will be forwarded and handled by the .NET Framework project.
 
   This option lets you upgrade your ASP.NET app or class library project piece by piece.
 
@@ -123,21 +124,21 @@ On more complex projects you might find that Upgrade Assistant only provides you
 
 Once your app has been upgraded, a status screen is displayed which shows all of the artifacts related to your project that were associated with the upgrade. Each upgrade artifact can be expanded to read more information about the status. The following list describes the status icons:
 
-* **Filled green checkmark**: The artifact was upgraded and completed successfully.
-* **Unfilled green checkmark**: The tool didn't find anything about the artifact to upgrade.
-* **Yellow warning sign**: The artifact was upgraded, but there's important information you should consider.
-* **Red X**: The artifact was to be upgraded, but the upgrade failed.
+- **Filled green checkmark**: The artifact was upgraded and completed successfully.
+- **Unfilled green checkmark**: The tool didn't find anything about the artifact to upgrade.
+- **Yellow warning sign**: The artifact was upgraded, but there's important information you should consider.
+- **Red X**: The artifact was to be upgraded, but the upgrade failed.
   ![Figure: Example results from an Upgrade Assistant upgrade.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/8dc7aaac-90cd-425b-bea6-5c74bea1ad57)
 
 After the Upgrade Assistant completes the upgrade you will find a new project in the solution running .NET 8. Upgrade Assistant pre-configured the project and installed any necessary packages it required to run side-by-side using the Yarp proxy.
 
 ### Configure Yarp
 
- ![Figure: The new project architecture and request flow.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432)
+![Figure: The new project architecture and request flow.](https://github.com/SSWConsulting/SSW.Rules.Content/assets/3699937/648be8b8-4c6a-47ae-99f0-9aa8c8d90432)
 
-  As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
+As you can see in the above diagram, we want our UI to go through the .NET 8 project where the Yarp Proxy will either serve and fulfill the request or pass it through to the legacy project.
 
-  When you look at the `Program.cs` in the newly created .NET 8 project, you will see that there is a configuration for the catch-all forwarder. You will need to update the configuration here with the address of your legacy project.
+When you look at the `Program.cs` in the newly created .NET 8 project, you will see that there is a configuration for the catch-all forwarder. You will need to update the configuration here with the address of your legacy project.
 
 ```csharp
 
@@ -197,9 +198,9 @@ When a web project is heavily reliant on .NET Framework dependencies, the first 
 
 Listed below are rules crafted to aid in the project migration process. Please ensure to incorporate only those rules that are applicable to your specific project.
 
-* [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
-* [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
-* [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Global.asax to ASP.NET Core?](/know-how-to-migrate-global-asax-to-asp-net-core/)
+- [Do you know how to migrate OWIN to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
+- [Do you know how to migrate Web.config to ASP.NET Core?](/know-how-to-migrate-owin-to-asp-net-core/)
 
 # .NET Upgrade Assistant
 

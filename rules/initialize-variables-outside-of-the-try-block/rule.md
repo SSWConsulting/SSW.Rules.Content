@@ -1,4 +1,5 @@
 ---
+seoDescription: Initializing variables outside of a try block ensures that their values are set regardless of exceptions thrown within the try block.
 type: rule
 title: Do you initialize variables outside of the try block?
 uri: initialize-variables-outside-of-the-try-block
@@ -12,6 +13,7 @@ created: 2018-04-26T21:41:56.000Z
 archivedreason: null
 guid: ef08f3ac-8434-4e07-bfea-c33b7e03ae38
 ---
+
 You should initialize variables outside of the try block.
 
 <!--endintro-->
@@ -41,7 +43,7 @@ try {
   // ...
   Cursor.Current = Cursors.WaitCursor;
   // ...
-} finally { 
+} finally {
   Cursor.Current = cur;
 }
 ```

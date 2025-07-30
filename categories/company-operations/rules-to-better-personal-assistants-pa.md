@@ -16,8 +16,9 @@ index:
 - heads-up-when-logging-in-to-others-accounts
 - do-you-indicate-when-you-are-sending-an-email-on-behalf-of-someone-else
 - do-you-keep-the-office-looking-great
-- do-you-know-the-general-tips-for-booking-flights
+- general-tips-for-booking-flights
 - do-you-try-to-be-one-step-ahead-doing-tasks-before-they-come-up
-
+- do-you-print-your-travel-schedule
 ---
+
 Rules to Better PA (aka Personal Assistant)

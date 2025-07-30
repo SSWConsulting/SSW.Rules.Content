@@ -1,4 +1,5 @@
 ---
+seoDescription: Measure success using Lean-Agile metrics to drive data-driven decisions, ensure alignment with business goals, and foster a culture of accountability within Agile teams.
 type: rule
 title: Do you measure success using Lean-Agile metrics?
 uri: measure-success-using-lean-agile-metrics
@@ -14,6 +15,7 @@ created: 2023-10-13T17:47:00.000Z
 archivedreason: null
 guid: 57c8f070-bab4-43d6-8d35-baca9681564c
 ---
+
 Your Agile Release Train (ART) is in full motion, with teams actively delivering features left and right. But here's the catch: are these activities truly driving the desired outcomes, or are they just a flurry of task completions?
 
 This is where Lean-Agile metrics come into play. By adopting these metrics, you get more than just a tally of completed tasks – you gain a nuanced, data-driven view of your progress towards key objectives, ensuring that your efforts align with broader organizational goals.

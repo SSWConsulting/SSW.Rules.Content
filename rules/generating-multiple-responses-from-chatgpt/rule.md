@@ -1,4 +1,5 @@
 ---
+seoDescription: Generating multiple responses from ChatGPT and selecting the most suitable one(s) can lead to better overall results. By comparing different outputs, you can choose the response that best aligns with your needs and objectives.
 type: rule
 title: Do you use prompts to generate multiple outputs and select the best
   one(s) for your use case?
@@ -9,16 +10,17 @@ authors:
 created: 2023-04-12T14:25:06.410Z
 guid: 5d456575-77bd-4bd3-bd3e-d18c863d58b0
 ---
+
 Generating multiple responses from ChatGPT and selecting the most suitable one(s) can lead to better overall results. By comparing different outputs, you can choose the response that best aligns with your needs and objectives.
 
 <!--endintro-->
 
 Here are some tips for using prompts to generate multiple outputs:
 
-* Experiment with different prompt variations to elicit a range of responses
-* Use settings like temperature and max tokens to control the randomness and length of the generated responses
-* Evaluate the generated responses based on relevance, accuracy, and usefulness for your specific use case
-* If none of the responses are satisfactory, consider refining your prompt and trying again
+- Experiment with different prompt variations to elicit a range of responses
+- Use settings like temperature and max tokens to control the randomness and length of the generated responses
+- Evaluate the generated responses based on relevance, accuracy, and usefulness for your specific use case
+- If none of the responses are satisfactory, consider refining your prompt and trying again
 
 ::: greybox
 "Generate 3 tweets about the benefits of adopting a healthy lifestyle."

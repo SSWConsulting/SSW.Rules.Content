@@ -1,4 +1,5 @@
 ---
+seoDescription: Fetch data in Next.js - Leverage server-side rendering to optimize performance and SEO by using getServerSideProps, getStaticProps, or incremental static regeneration (ISR).
 type: rule
 title: Do you know how to fetch data in Next.js?
 uri: fetch-data-nextjs
@@ -11,7 +12,8 @@ created: 2023-07-28T06:34:51.000Z
 archivedreason: null
 guid: df355ce6-47ab-461d-9ddc-d3216dc433b5
 ---
-Next.js is great, as it gives you the ability to run code on the server-side. This means there are now new ways to fetch data via the server to be passed to Next.js app. Next.js also handles the automatic splitting of code that runs on the server and the client, meaning you don't have to worry about bloating your JavaScript bundle when you add code that only runs on the server.  
+
+Next.js is great, as it gives you the ability to run code on the server-side. This means there are now new ways to fetch data via the server to be passed to Next.js app. Next.js also handles the automatic splitting of code that runs on the server and the client, meaning you don't have to worry about bloating your JavaScript bundle when you add code that only runs on the server.
 
 <!--endintro-->
 
@@ -27,7 +29,7 @@ There are three primary ways with the Next.js Pages Router to fetch data on the 
 
 `getServerSideProps` allows for server-side fetching of data on each request from the client, which makes it great for fetching of dynamic data. It can also be used for secured data, as the code within the function only runs on the server.
 
-The below example shows an example of how we can use `getServerSideProps` to fetch data. Upon each user's request, the server will fetch the list of posts and pass it as props to the page.  
+The below example shows an example of how we can use `getServerSideProps` to fetch data. Upon each user's request, the server will fetch the list of posts and pass it as props to the page.
 
 ```tsx
 // pages/index.tsx
@@ -37,19 +39,19 @@ export const getServerSideProps = async (context) => {
   const posts = await res.json();
 
   return { props: { posts } };
-}
+};
 
 export default function Page(props) {
   return (
     <div>
-      {props.posts.map(post => (
+      {props.posts.map((post) => (
         <div>
           <h2>{post.title}</h2>
-          <p>{post.body}</p> 
+          <p>{post.body}</p>
         </div>
       ))}
     </div>
-  )
+  );
 }
 ```
 
@@ -74,9 +76,9 @@ export const getStaticProps = async ({ params }) => {
   const post = await res.json();
 
   return {
-    props: { post }
+    props: { post },
   };
-}
+};
 
 export const getStaticPaths = async () => {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
@@ -84,17 +86,17 @@ export const getStaticPaths = async () => {
   const paths = posts.map((post) => ({
     params: { slug: post.id },
   }));
-  
+
   return { paths, fallback: false };
-}
+};
 
 export default function Page(props) {
   return (
     <div>
       <h2>{props.post.title}</h2>
-      <p>{props.post.body}</p> 
+      <p>{props.post.body}</p>
     </div>
-  )
+  );
 }
 ```
 
@@ -109,12 +111,12 @@ export const getStaticProps = async () => {
 
   return {
     props: { comments },
-    revalidate: 60
+    revalidate: 60,
   };
-}
+};
 ```
 
-This means that if 60 seconds or more has passed after the last time `getStaticProps` was run and the user makes a request to the page, it will rerun the code inside getStaticProps, and render the newly fetched data for the next page visitor.  
+This means that if 60 seconds or more has passed after the last time `getStaticProps` was run and the user makes a request to the page, it will rerun the code inside getStaticProps, and render the newly fetched data for the next page visitor.
 
 ## Client Side Fetching
 
@@ -124,20 +126,18 @@ This would be written in the component like so:
 
 ```tsx
 const Component = () => {
-  const [data, setData] = useState(null)
+  const [data, setData] = useState(null);
 
   useEffect(() => {
     fetch("/api/your-api-route")
-      .then(res => res.json())
-      .then(data => {
-        setData(data)
-      })
-  }, [])
+      .then((res) => res.json())
+      .then((data) => {
+        setData(data);
+      });
+  }, []);
 
-  return (
-    <> ... </>
-  )
-}
+  return <> ... </>;
+};
 ```
 
 Then place a file in the /pages/api directory named with the required API route path (i.e. `pages/api/{{ API_ROUTE_HERE }}.ts`):
@@ -165,3 +165,5 @@ export default async function handler(
 This is a great workaround for the limitation of only being able to use the above server-side fetching functions at a page-level - as it allows for server-side fetching from components. However, keep in mind that this may result in performance impacts from blocking calls to API routes.
 
 This is also a great way to reduce the occurrence of CORS errors, as you can proxy API data through a simple Next.js API route.
+
+You can learn more about how to fetch with NextJS in the [official Next.js documentation]([https://nextjs.org/docs/pages/building-your-application/routing/dynamic-routes](https://nextjs.org/docs/app/guides#data-fetching)).

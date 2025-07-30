@@ -1,13 +1,17 @@
 ---
 type: rule
 title: Do you send a 'For the record' email when you disagree?
+seoDescription: Here's a well-crafted SEO description based on your input -
+  Architectural decision documentation and retrospective analysis for
+  significant projects, ensuring transparency and accountability.
 uri: for-the-record
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - standards-watchdog
 redirects:
   - do-you-send-a-for-the-record-email-when-you-disagree
   - send-a-for-the-record-email-when-you-disagree
@@ -20,25 +24,27 @@ Over the course of work on a project, there will likely be many little disagreem
 
 <!--endintro-->
 
-Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’. Too often developers say they disagree but months later, the client may say:
-
-::: greybox
-“No I don’t recall you disagreed, I thought I gave counter arguments and then I assumed you had agreed with me.”
-:::
-
-![Figure: It's common for people to say "I don't remember you disagreeing with that decision", sending a "for the record" email makes it clear](past-decision-1500x500.jpg)
-
-`youtube: https://youtu.be/VFwCGECvq4I`  
+`youtube: https://youtu.be/VFwCGECvq4I`
 **Video: Jeff Bezos on how to make decisions | Lex Fridman Podcast Clips (9 min)**
 
-::: bad
-**Don't win by attrition:** Disagreements should never be resolved merely by who gets tired of arguing first.
-![Bad Example - Never resolve an argument by who gets exhausted first](winning-by-attrition.png)
+Too often developers say they disagree but months later, the client may say: _"No I don’t recall you disagreed, I thought I gave counter arguments and then I assumed you had agreed with me."_
+
+Regardless it is important to document disagreements so the client is crystal clear and a stronger version of ‘as per our conversation’ is to include the words ‘for the record’.
+
+## Don't win by attrition
+
+Disagreements should never be resolved merely by who gets tired of arguing first.
+
+::: bad img-medium
+![Figure: Bad example - Never resolve an argument by who gets exhausted first](winning-by-attrition.png)
 :::
 
-::: good
-**Disagree and Commit:** - Enhance productivity by disagreeing and getting on with the job anyway. Note this is similar to 'for the record' except verbal rather than written.
-![Good Example - Even though you disagree it's best to still commit and proceed](disagree-and-commit.png)
+## Disagree and commit
+
+Enhance productivity by disagreeing and getting on with the job anyway. This is similar to 'for the record' except verbal rather than written.
+
+::: good img-medium
+![Figure: Good example - Even though you disagree it's best to still commit and proceed](disagree-and-commit.png)
 :::
 
 ::: greybox
@@ -50,47 +56,48 @@ I spoke to the developer about it, and he knew 100% that he had agreed with the 
 
 **Note:** Even better the developer could have included a URL in the email with a link to a PBI to remove this technical debt later."
 
-Adam Cogan
+[Adam Cogan](https://www.ssw.com.au/people/adam-cogan)
 SSW Chief Architect
-
 :::
 
 When you have a disagreement with someone who has decision making power, and you are unable to convince them that your recommendation is correct (and they were unable to convince you that their decision is correct), you should send an email to the people involved including your thoughts, because:
 
-1. Later down the track it will provide a learning experience for someone (depending on who was right 😉)
+* Later down the track it will provide a learning experience for someone (depending on who was right 😉)
 
+::: info
 **Tip:** Use [follow up then](/do-you-follow-up-emails-effectively) to remind you to revisit your email (e.g. 6 months in the future), then take the opportunity to follow up on it with a retrospective analysing the decision that was made and what the outcome was (no matter who was right, it shows you were invested enough in the issue to keep track of it)
-  
-2. After cooling down from the meeting, people might read it later and see it as useful input
+:::
 
+* After cooling down from the meeting, people might read it later and see it as useful input
+
+::: info
 **Note:** A "For the record" email should be reserved for a significant architectural decision, etc. That will be difficult or costly to change later. You should consider it a level above an ["As per our conversation" email](/do-you-send-as-per-our-conversation-emails), which is better suited for more minor decisions.
-
-(...6 months later)
+:::
 
 ::: greybox
-"I knew it, we should never have used React for the Northwind project."
+**(...on the day)**
+
+"OK, I will just go with the the Product Owner decision."
 :::
 ::: bad
-Figure: Bad example - Being improductive and too late
+Figure: Bad example - Just go with the client decision reluctantly
 :::
 
-(...on the day)
-
 ::: greybox
+**(...on the day)**
+
 "Thanks for the chat today. As per our conversation, you'd like us to build this feature using a quick workaround. Just for the record, the best practice would have been to XXX, but since you are the Product Owner, and I understand we're under time pressure, I of course will go with your decision."
 :::
 ::: good
 Figure: Good example - Documenting that client has asked you to do a shortcut
 :::
 
-(...on the day)
-
 ::: greybox
+**(...on the day)**
+
 "Thanks for the chat today. For the record, you have requested that we proceed with developing the Northwind Project in React, whereas **we have recommended using Angular** for the following reasons:
 
-* {{ LINK 1 }}
-* {{ LINK 2 }}
-* {{ LINK 3 }}
+* {{ LIST OF REASONS }}
 
 That said, you are the Product Owner and have final say in the matter, so we will proceed with React as per your decision."
 
@@ -101,10 +108,20 @@ Figure: Good example - You have politely pointed out they are making a poor tech
 
 **Note:** It's also a good email to have in your back pocket in case the client complains about slow progress in a few months time.
 
-(...6 months later - the curious retrospective)
+::: greybox
+**(...6 months later)**
+
+"I knew it, we should never have used React for the Northwind project."
+:::
+::: bad
+Figure: Bad example - Being improductive and too late
+:::
 
 ::: greybox
+**(...6 months later - the curious retrospective)**
+
 "I just got reminded about this email from 6 months ago, in the spirit of doing retrospectives to learn, thanks for taking my call about it.  
+
 As per our conversation, we are both happy that the React solution has panned out and there has been some benefits that we didn't think of at the time such as hiring a couple of cool React developers. We agreed that we could have saved some money with Angular, but we don't regret the decision."
 :::
 ::: good

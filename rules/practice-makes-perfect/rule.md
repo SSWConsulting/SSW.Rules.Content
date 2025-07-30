@@ -1,4 +1,5 @@
 ---
+seoDescription: Practice makes perfect! Master your presentation skills by rehearsing and refining your speech through five steps. Record yourself, conduct an audio and visual audit, generate a transcript, identify filler words, and refine your delivery to deliver a flawless presentation.
 type: rule
 title: Do you know practice makes perfect?
 uri: practice-makes-perfect
@@ -10,7 +11,7 @@ authors:
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
 related:
-   - conduct-a-test-please
+  - conduct-a-test-please
 redirects:
   - practise-makes-perfect
 created: 2022-06-29T21:46:41.000Z
@@ -34,9 +35,9 @@ These 5 steps can improve the delivery of a speech immensely (inspired by [Vinh 
 
 1. Record the "Test Please"
 2. Do an audio audit – play the recording, only listen to the audio (don’t look at the video)
-   - Are you speaking too fast/too slow? 
-   - Are you pausing appropriately? 
-   - Voice stressing/pausing on important points? 
+   - Are you speaking too fast/too slow?
+   - Are you pausing appropriately?
+   - Voice stressing/pausing on important points?
    - Are you too loud/too soft?
 
 ::: info
@@ -44,9 +45,10 @@ Tip: PowerPoint’s "Rehearse with Coach" will give you immediate feedback when 
 :::
 
 3. Do a visual audit – play the recording, this time looking at the video only (turn down the volume to zero, so that you can’t hear the audio)
-   - How is your body language? 
-   - Moving your hands less/more? (more hand movement means more distraction) Eye contact? 
-   - Posture? 
+
+   - How is your body language?
+   - Moving your hands less/more? (more hand movement means more distraction) Eye contact?
+   - Posture?
    - Are you smiling or do you look stunned?
 
 4. Use a transcript generator and get your speech printed on paper. (Include all the words)
@@ -64,7 +66,7 @@ Tip: PowerPoint’s "Rehearse with Coach" will track these types of unwanted wor
 You can use PowerPoint's built-in AI "Rehearse with Coach" to get help with some of the above. It gives you instant feedback on how fast you are talking and what language you are using, so you can avoid unwanted words. In the video below Mike Tholfsen shows you how to use the feature and what feedback you get.
 
 `youtube: https://youtu.be/tGkANWhoo0Y`
-**Video: How to use Presenter Coach in PowerPoint for the web (2 min)** 
+**Video: How to use Presenter Coach in PowerPoint for the web (2 min)**
 
 To get started you'll need a Microsoft PowerPoint presentation. Click the Slide Show tab | Rehearse with Coach | Start Rehearsing.
 

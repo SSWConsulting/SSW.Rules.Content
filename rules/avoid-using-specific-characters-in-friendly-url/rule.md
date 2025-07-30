@@ -1,17 +1,17 @@
 ---
+seoDescription: Avoid using specific characters like +,  -, #, &, ,), (!, }, {, @, /, =, $ and others in friendly URLs to ensure they are readable, memorable and safe.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid using specific characters in friendly URL?
 guid: c03c757d-86dc-4f31-9aa3-f1c6670c7d63
 uri: avoid-using-specific-characters-in-friendly-url
 created: 2017-04-26T20:15:26.0000000Z
 authors:
-- title: William Yin
-  url: https://ssw.com.au/people/william-yin
+  - title: William Yin
+    url: https://ssw.com.au/people/william-yin
 related: []
 redirects:
-- do-you-avoid-using-specific-characters-in-friendly-url
-
+  - do-you-avoid-using-specific-characters-in-friendly-url
 ---
 
 When adding a friendly URL, please avoid using specific characters like `+ : # & , ) ( ! \ } {  @ / = $` (and so on) due to these reasons:
@@ -30,7 +30,7 @@ Some characters are reserved characters, which may not be supported by some feat
 `http://ssw.com.au/rules/when-to-use-+1`
 :::
 ::: bad
-Figure: Bad example -  This URL will throw a 404 error rather than redirecting to https://
+Figure: Bad example - This URL will throw a 404 error rather than redirecting to https://
 :::
 
 ::: greybox

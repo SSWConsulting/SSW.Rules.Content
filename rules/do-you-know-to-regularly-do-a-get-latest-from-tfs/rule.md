@@ -1,19 +1,19 @@
 ---
+seoDescription: Regularly doing a "Get Latest" in TFS ensures you're working with the most recent code version, preventing inconsistencies and merging issues.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know to regularly do a Get Latest from TFS?
 guid: 59306ecd-ec0d-43ae-8f0c-431dd7fe2891
 uri: do-you-know-to-regularly-do-a-get-latest-from-tfs
 created: 2012-03-05T23:43:02.0000000Z
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects: []
-
 ---
 
-It is important to regularly do a "Get Latest" to make sure you are using the most recent version of the code. In a team, if you go too long without doing a Get, you are more likely to encounter inconsistencies and will have to spend time merging your code. 
+It is important to regularly do a "Get Latest" to make sure you are using the most recent version of the code. In a team, if you go too long without doing a Get, you are more likely to encounter inconsistencies and will have to spend time merging your code.
 
 <!--endintro-->
 

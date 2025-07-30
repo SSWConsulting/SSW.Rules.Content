@@ -1,16 +1,16 @@
 ---
+seoDescription: Add new records to a large Microsoft Access table efficiently by using ADO's AddNew method or SQL INSERT statement for improved performance and data conflict protection.
 type: rule
-archivedreason: 
+archivedreason:
 title: Microsoft Access - Do you know the fastest way to add a new record in a large table?
 guid: 8f5ec0dc-6a1e-4317-aa59-140f98f45f56
 uri: fastest-way-to-add-a-new-record-in-a-large-table
 created: 2021-06-14T19:18:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 When adding a new record should we use **ADO rst.AddNew** or a **SQL INSERT** statement?

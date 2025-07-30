@@ -1,24 +1,24 @@
 ---
+seoDescription: Do you use a SQL Server Stored Procedure Naming Standard? A standard outlining naming conventions for stored procedures within SQL Server, including prefixing with 'proc', specifying table names and actions, and using consistent suffixes.
 type: rule
-archivedreason: 
+archivedreason:
 title: General - Do you use a SQL Server Stored Procedure Naming Standard?
 guid: f158faaf-d3ac-4323-bde3-1a8d37b7fffb
 uri: use-a-sql-server-stored-procedure-naming-standard
 created: 2019-12-31T04:37:51.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- general-do-you-use-a-sql-server-stored-procedure-naming-standard
-
+  - general-do-you-use-a-sql-server-stored-procedure-naming-standard
 ---
 
 This standard outlines the standard on naming Stored Procedures within SQL Server. Use these standards when creating new Stored Procedures or if you find an older Stored Procedure that doesn't follow these standards within SSW.
 
 <!--endintro-->
 
-**Note:** Stored Procedures will run fractionally slower if they start with a prefix of sp\_   This is because SQL Server will look for a system stored proc first. Therefore we never recommend starting stored procs with a prefix of sp\_
+**Note:** Stored Procedures will run fractionally slower if they start with a prefix of sp_   This is because SQL Server will look for a system stored proc first. Therefore we never recommend starting stored procs with a prefix of sp\_
 Do you agree with them all? Are we missing some? Let us know what you think.
 
 ### Syntax
@@ -85,7 +85,7 @@ Figure: Good Example - stored proc that returns only an output parameter
 :::
 
 ::: greybox
-Select 'procGetRate' or 'sp\_GetRate'
+Select 'procGetRate' or 'sp_GetRate'
 Insert 'procEmailMergeAdd'  
 :::
 

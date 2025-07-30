@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement CSS-friendly HTML fixes in SharePoint to ensure standards compliance, accessibility, and cross-browser compatibility.
 type: rule
 archivedreason: 
 title: Fix HTML - Do you make SharePoint CSS friendly?
@@ -20,7 +21,6 @@ It is extremely important to make your site standards compliant:
 * It makes styling a lot easier.
 * It also means your site is likely to work for all browsers, even if you don’t specifically target/support them.
 * It requires accessibility for big public sites can be met easier.
-
 
 <!--endintro-->
 
@@ -82,6 +82,7 @@ Implement CSS Friendly – these are the control adapters released by Microsoft 
   </ul>
 </div>
 ```
+
 ::: good
 Good example - using CSS Friendly in SharePoint
 :::

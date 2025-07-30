@@ -9,11 +9,13 @@ redirects:
 index:
   - welcoming-office
   - manage-building-related-issues
+  - capture-contact-details-of-service-providers
   - remind-your-team-to-turn-in-timesheets
   - ensure-your-team-get-relevant-communications
   - know-where-your-staff-are
   - remind-your-staff-to-dress-well
   - reduce-your-admin
+  - celebrate-birthdays
   - continuous-learning
 ---
 

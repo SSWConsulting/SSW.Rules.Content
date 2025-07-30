@@ -1,4 +1,5 @@
 ---
+seoDescription: Checking third-party libraries before installation is crucial for software development to ensure code quality, license compliance, and avoid potential bugs
 type: rule
 title: Do you check before installing 3rd party libraries?
 uri: installing-3rd-party-libraries
@@ -36,7 +37,7 @@ Only install libraries that bring big value to the project.
 ✅ One library for one use-case
 e.g. one for component, one for authentication
 
-✅ Libraries providing complex or standard use cases that have been tested thoroughly 
+✅ Libraries providing complex or standard use cases that have been tested thoroughly
 e.g. validating credit card numbers, validating email format
 
 ### 2. Is it actively maintained?
@@ -71,7 +72,7 @@ Most libraries are only built for a specific version of a runtime / framework.
 
 e.g. The npm library `@angular/material@14.2.3` is only targeted for Angular 14 and NuGet library `Microsoft.EntityFrameworkCore` `v6.0.7` only supports .NET 6.
 
-It is important to check the compatibility to make sure that the library will work as intended. 
+It is important to check the compatibility to make sure that the library will work as intended.
 
 Although some libraries can work with older framework versions, it’s a good idea to avoid being in this situation as this could introduce unintended bugs which increase the overhead in debugging your code.
 
@@ -111,13 +112,13 @@ Always check the license associated with the package before deciding to use it i
 
 ### 6. What are the bundle characteristics?
 
-Client-side applications (Angular, React, or Blazor WASM) benefit hugely from reducing the size of the code that a user needs to download (also known as bundles) to run our application. 
+Client-side applications (Angular, React, or Blazor WASM) benefit hugely from reducing the size of the code that a user needs to download (also known as bundles) to run our application.
 
 Installing and using many libraries can increase the size of our application's bundle and slow down these client-side applications. Staying aware of the bundle characteristics and optimising the size where possible can ensure that we keep our application start-up quick.
 
 #### JavaScript projects
 
-There are tools out there to help us figure out the impact of installing a library on our end bundle size 
+There are tools out there to help us figure out the impact of installing a library on our end bundle size
 e.g. [BundlePhobia](https://bundlephobia.com) or [BundleJs](https://bundlejs.com)
 
 On top of this, we can also check for a library’s tree-shaking capability. Tree-shaking is a process to remove unused code from a library in the final bundle.

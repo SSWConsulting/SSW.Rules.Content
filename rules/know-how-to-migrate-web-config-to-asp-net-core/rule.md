@@ -1,4 +1,5 @@
 ---
+seoDescription: "Migrate Web.config settings to ASP.NET Core with ease. Learn how to transition appSettings, connection strings, and custom configurations to modern JSON files like appsettings.json while leveraging IConfiguration for seamless integration."
 type: rule
 title: Do you know how to migrate Web.config to ASP.NET Core?
 uri: know-how-to-migrate-web-config-to-asp-net-core

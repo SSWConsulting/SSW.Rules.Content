@@ -1,6 +1,7 @@
 ---
+seoDescription: Learn how to make your title, h1, and h2 tags descriptive for better SEO and user understanding.
 type: rule
-title: SEO - Do you make your "title", "h1", and "h2" tags descriptive?
+title: On-page - Do you make your "title", "h1", and "h2" tags descriptive?
 uri: make-title-h1-and-h2-tags-descriptive
 authors:
   - title: Adam Cogan
@@ -21,7 +22,7 @@ The **&lt;title&gt;**,  **&lt;h1&gt;**, and **&lt;h2&gt;** tags need to be descr
 
 Have a look at the following 2 images. The first image is a bad example as the title bar and page heading are not very descriptive. The second image is a better example as title bar and page heading are more informative.
 
-::: bad 
+::: bad
 ![Figure: Bad example - Non-descriptive title/headings](bad-title-headings.png)  
 :::
 

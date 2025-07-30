@@ -1,4 +1,5 @@
 ---
+seoDescription: Replace the standard .NET Date Time Picker with Infragistics' UltraDatePicker to handle null date values and simplify DataBinding.
 type: rule
 title: Do you replace the standard .NET Date Time Picker?
 uri: do-you-replace-the-standard-net-date-time-picker
@@ -7,12 +8,11 @@ authors:
     url: https://ssw.com.au/people/adam-cogan/
 created: 2014-03-14T06:52:00.000Z
 guid: 713c50d1-e3e8-4d5c-b7a3-b2baacc8429e
-
 ---
 
 A good replacement for the standard Date Time picker is the UltraDatePicker by Infragistics.
 
-The main reason for the use of the UltraDatePicker over the standard .NET one is because the .NET one does not take null for a date value.  
+The main reason for the use of the UltraDatePicker over the standard .NET one is because the .NET one does not take null for a date value.
 
 <!--endintro-->
 
@@ -22,7 +22,7 @@ This is a lot of hassle for DataBinding. The Windows Form DataBinding will try t
 
 2. The current row is removed (i.e., there is no more data in the DataTable)
 
-If you set the property "Nullable" to false in UltraDatePicker, the same issues appears again.  
+If you set the property "Nullable" to false in UltraDatePicker, the same issues appears again.
 
 ![Figure: Set "Nullable" to true to allow DBNull values from bound DataRows](datetimepickerproperties.gif)
 

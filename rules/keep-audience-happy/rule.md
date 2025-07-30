@@ -1,21 +1,21 @@
 ---
+seoDescription: Keep your audience engaged by responding to comments, sharing videos on other platforms, and promoting them with attention-grabbing titles and emotional keywords.
 type: rule
-archivedreason: 
-title: Do you keep your audience happy?
+archivedreason:
+title: Channel - Do you keep your audience happy?
 guid: 1c6b93fa-3ed4-40e6-aa15-642c909788d4
 uri: keep-audience-happy
 created: 2018-05-21T00:49:56.0000000Z
 authors:
-- title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
+  - title: Florent Dezettre
+    url: https://ssw.com.au/people/florent-dezettre
 related:
-- sort-videos-into-playlists
-- do-you-add-cards-to-your-youtube-videos
-- do-you-add-end-screen-to-your-youtube-videos
-- do-you-add-time-links-on-your-youtube-videos
+  - sort-videos-into-playlists
+  - do-you-add-cards-to-your-youtube-videos
+  - do-you-add-end-screen-to-your-youtube-videos
+  - do-you-add-time-links-on-your-youtube-videos
 redirects:
-- do-you-keep-your-audience-happy
-
+  - do-you-keep-your-audience-happy
 ---
 
 Engaging and interacting with your audience is great a way to get more "activities" around your videos and channel as well as building a faithful audience.

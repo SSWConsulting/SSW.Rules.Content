@@ -1,18 +1,18 @@
 ---
+seoDescription: SharePoint developers can leverage CAML or object model to manage lists and site collections, with CAML ideal for querying and filtering elements across multiple lists.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to use CAML instead of object model?
 guid: dee537be-ad13-47b4-b9e4-52fe91ba7af2
 uri: do-you-know-when-to-use-caml-instead-of-object-model
 created: 2009-04-09T06:10:00.0000000Z
 authors:
-- title: John Liu
-  url: https://ssw.com.au/people/john-liu
-- title: Jay Lin
-  url: https://ssw.com.au/people/jay-lin
+  - title: John Liu
+    url: https://ssw.com.au/people/john-liu
+  - title: Jay Lin
+    url: https://ssw.com.au/people/jay-lin
 related: []
 redirects: []
-
 ---
 
 SharePoint utilizes CAML to do a lot of things - one of these is using CAML to define a query language to select elements from lists within SharePoint.
@@ -31,11 +31,10 @@ This is the underlying class that the Content Query Web Part relies on.
 
 So, you need to use object model when you want to:
 
-* Iterate all elements in a list
-* Modify elements in a list
-
+- Iterate all elements in a list
+- Modify elements in a list
 
 And you use CAML, whether in CQWP or in code with SPSiteDataQuery to:
 
-* Select, filter elements from SharePoint lists
-* Select elements from multiple lists
+- Select, filter elements from SharePoint lists
+- Select elements from multiple lists

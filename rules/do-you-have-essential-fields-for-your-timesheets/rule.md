@@ -1,19 +1,19 @@
 ---
+seoDescription: Maximize your productivity and accuracy by ensuring you have essential fields on your timesheets, including client ID or name, work location, project and iteration, category, time spent, breaks, and notes.
 type: rule
-archivedreason: 
-title: Do you have essential fields for your timesheets?
+archivedreason:
+title: Do you have essential fields for timesheets?
 guid: 7d5e0bc4-f018-4057-8092-6bfa4c662179
 uri: do-you-have-essential-fields-for-your-timesheets
 created: 2013-04-19T19:36:46.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
-- do-you-follow-policies-for-recording-time
+  - do-you-follow-policies-for-recording-time
 redirects: []
-
 ---
 
 These are the essential fields for your timesheets:
@@ -26,7 +26,7 @@ These are the essential fields for your timesheets:
 4. Category (what kind of work it is)
 5. Amount of time
 6. Break - Minimum 1/2 hour break if you work more than 5.5 hours
-7. Notes - Things you've worked on, including people who you were working with - both internal or external
+7. Notes - [Describe the things you've worked on](/how-to-describe-the-work-you-have-done), including people who you were working with - both internal or external
 
 ::: good
 ![Figure: Good example - A good timesheet with all the required fields taken from SSW TimePro](Good Timesheet.jpg)

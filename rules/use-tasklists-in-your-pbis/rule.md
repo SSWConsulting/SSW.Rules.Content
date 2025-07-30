@@ -1,18 +1,19 @@
 ---
+seoDescription: Use tasklists to organize and track progress of PBIs effectively, avoiding unintentional tasks and promoting a clear visual representation of completed tasks.
 type: rule
 title: Do you use tasklists in your PBIs?
 uri: use-tasklists-in-your-pbis
 authors:
   - title: Gordon Beeming
     url: https://ssw.com.au/people/gordon-beeming
-related: 
+related:
   - number-tasks-questions
 redirects: []
 created: 2023-07-06T23:11:00.000Z
 archivedreason: null
 guid: 2dbeeeb3-537f-4cbd-962d-df68ce153f93
 ---
-  
+
 There are many ways to write tasks in PBIs, but the best way is to use tasklists. This allows you to see the progress of the PBI at a glance as well as avoid any unintentional tasks being tracked. Below is the different ways you could write tasks in PBIs.
 
 <!--endintro-->
@@ -22,7 +23,7 @@ There are many ways to write tasks in PBIs, but the best way is to use tasklists
 
 ### Numbering tasks
 
-When sending tasks in email, you might [number your tasks](/number-tasks-questions/) to make it clear what you want. 
+When sending tasks in email, you might [number your tasks](/number-tasks-questions/) to make it clear what you want.
 
 ![Figure: Numbering tasks in PBIs works but isn't fully utilizing the platform](numbering-tasks.jpg)
 
@@ -32,9 +33,9 @@ Although this would work in PBIs, it's not the best way to do it in GitHub.
 
 You can use checkboxes in PBIs to create a checklist for tasks
 
-![Figure: You can click the tasks toolbar button or simple type in a task which is recognized as "- \[ \]"](task-checklist.jpg)
+![Figure: You can click the tasks toolbar button or simple type in a task which is recognized as "- [ ]"](task-checklist.jpg)
 
-This will show a visual que as to how many tasks you've completed for the PBI. 
+This will show a visual que as to how many tasks you've completed for the PBI.
 
 ::: ok
 ![Figure: OK example - Using tasks we can easily see which are completed](task-checklist-view.jpg)
@@ -52,7 +53,7 @@ One of the downsides to using checklists is that any checkbox in the issue descr
 
 ### Using tasklists (recommended)
 
-Lastly you should use the tasklist for your tasks, this gives the same advantages as standard checklists without interference from other checkboxes. 
+Lastly you should use the tasklist for your tasks, this gives the same advantages as standard checklists without interference from other checkboxes.
 
 ![Figure: Using tasklist requires a little extra markdown around your checkboxes](tasklists-markdown.jpg)
 

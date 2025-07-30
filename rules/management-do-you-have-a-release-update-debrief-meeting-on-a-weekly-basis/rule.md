@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you have a "Release Update/Debrief Meeting" on a weekly basis to discuss project status and client feedback?
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting](/rules/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
 title: Management - Do you have a "Release Update/Debrief Meeting" on a weekly basis?
@@ -6,12 +7,11 @@ guid: e2a1f588-cce2-4ddc-a101-7ee1c004aeb2
 uri: management-do-you-have-a-release-update-debrief-meeting-on-a-weekly-basis
 created: 2009-02-28T09:44:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- management-do-you-have-a-＂release-update-debrief-meeting＂-on-a-weekly-basis
-
+  - management-do-you-have-a-＂release-update-debrief-meeting＂-on-a-weekly-basis
 ---
 
 Every week the project manager should meet with the client to conduct an external "Test Please" as well as to discuss the status of the release.
@@ -27,7 +27,7 @@ This is the agenda:
 2. External [Test Please](/conduct-a-test-please-internally-and-then-with-the-client) - go through the application and get the clients thoughts. Many issues they see, will already be reported by the internal "Test Please". Send emails to the new ones.
 3. Triage these additional work items - try to move all to the next release
 4. Approval for additional work items/budget overruns - talk $$
-e.g. look at the "Actual" and "Estimate" figures on the top of the report
+   e.g. look at the "Actual" and "Estimate" figures on the top of the report
 5. Release sign-off - "Yes" or "No"?
 
 If "Yes"
@@ -38,14 +38,12 @@ If "Yes"
 
 There are tools to help you do this:
 
-* [SSW TFS Add-in - Release Update/Debrief Report](https://www.ssw.com.au/ssw/AgileTemplate/UserGuide.aspx#ReleaseUpdate)
+* [SSW TFS Add-in - Release Update/Debrief Report](https://www.ssw.com.au/archive/agile-template/user-guide.html#ReleaseUpdate)
 
-![Figure: The actual output of the Release Update Report](ProgressReport\_small.jpg)  
-
-Here is a PDF format [SSW Release Update Report.](https://www.ssw.com.au/ssw/AgileTemplate/Sample/Reports.zip)
+![Figure: The actual output of the Release Update Report](ProgressReport_small.jpg)
 
 **If you are at the end of a main section of work, promote your success**
 
 * [Ask for a testimonial for the work you have done](/rules-to-better-software-consultants-dealing-with-clients)
-* Create a case study and get it approved - This should be a win-win for the client. E.g. [WorleyParsons](https://www.ssw.com.au/ssw/Consulting/Case-Study/WorleyParsons.aspx)
-* Add a link to the work you have done on your website or marketing material. E.g. [Our Clients](https://www.ssw.com.au/ssw/Company/Clients) page
+* Create a case study and get it approved - This should be a win-win for the client. E.g. [WorleyParsons](https://www.ssw.com.au/company/clients/worley-parsons)
+* Add a link to the work you have done on your website or marketing material. E.g. [Our Clients](https://www.ssw.com.au/company/clients) page

@@ -1,4 +1,5 @@
 ---
+seoDescription: Targeting IE8 with Bootstrap using Respond JS
 type: rule
 title: Do you use Respond JS to target IE8 with Bootstrap?
 uri: do-you-use-respond-js-to-target-ie8-with-bootstrap
@@ -22,7 +23,7 @@ By default, we do not accommodate IE8 or lower, but should it arise as a specifi
 
 <!--endintro-->
 
-![Figure: Include respond.js in your bootstrap bundle](18-06-2014 2-04-12 PM.png)  
+![Figure: Include respond.js in your bootstrap bundle](18-06-2014 2-04-12 PM.png)
 
 **Note:** Respond JS will be included in a new MVC5 Web Application. If you are working on an existing application, you can get it from NuGet or https://github.com/scottjehl/Respond.
 

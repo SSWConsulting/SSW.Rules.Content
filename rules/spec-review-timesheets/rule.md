@@ -1,4 +1,5 @@
 ---
+seoDescription: Track time against Spec Reviews separately to accurately reflect project costs and provide clear estimates for clients.
 type: rule
 title: Do you track time against Spec Reviews separately?
 uri: spec-review-timesheets
@@ -7,7 +8,6 @@ authors:
     url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2021-10-07T04:04:28.124Z
 guid: 3b941cd0-2540-4e70-bd36-2b9b2cccfa0d
-
 ---
 
 When entering timesheets against a client for a Spec Review, you should always create a separate project so that this time does not pollute the data for the total project costs.

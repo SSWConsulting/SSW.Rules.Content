@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to document SharePoint 2007 web application details for a smooth migration to SharePoint 2010.
 type: rule
 archivedreason: 
 title: Do you document the details of your SharePoint 2007 web application
@@ -28,6 +29,7 @@ Fill in the following table. You will use this later when creating the new web a
 ** Note: this is a new feature in SharePoint 2010. |  |
 | New IIS website Name | Application Management | Web application list |  **Name Field** |  |
 | Port | Application Management | Web application list |  **URL Field** .
+
                      Port number will be listed on end of URL (if nothing its port 80) |  |
 | Host Header | Application Management | Web application list |  **URL Field**  if a DNS name is used (not just the NetBIOS name).
                      If a DNS name is  **NOT**  used, leave this blank. |  |

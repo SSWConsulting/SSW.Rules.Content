@@ -1,20 +1,19 @@
 ---
+seoDescription: Migrate from System.Web to modern alternatives and upgrade .NET Framework applications to .NET or .NET Standard.
 type: rule
 title: Do you know how to migrate from System.Web to modern alternatives
 guid: 71755477-0a38-4402-a5c8-1347883df481
 uri: migrate-from-system-web-to-modern-alternatives
-authors: 
-- title: Jernej Kavka (JK)
-  url: https://ssw.com.au/people/jernej-kavka
-  img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
-- title: Gordon Beeming
-  url: https://www.ssw.com.au/people/gordon-beeming
+authors:
+  - title: Jernej Kavka (JK)
+    url: https://ssw.com.au/people/jernej-kavka
+    img: https://github.com/SSWConsulting/SSW.People.Profiles/raw/main/Jernej-Kavka/Images/Jernej-Kavka-Profile.jpg
+  - title: Gordon Beeming
+    url: https://www.ssw.com.au/people/gordon-beeming
 created: 2023-06-06T22:07:00.000Z
 related:
-- dotnet-upgrade-for-complex-projects
-
+  - dotnet-upgrade-for-complex-projects
 ---
-
 
 When upgrading a web application from .NET Framework to .NET Standard or .NET, you will likely have to address System.Web. On upgrade, the reference to System.Web is either removed or will cause compile-time errors.
 

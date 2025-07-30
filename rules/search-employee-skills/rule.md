@@ -1,4 +1,5 @@
 ---
+seoDescription: Search employee skills across systems, including AD, SharePoint, and Dynamics 365 CRM, to enhance collaboration and talent discovery.
 type: rule
 title: Do you know how to search employee skills? (Extending AD vs SharePoint vs Dynamics 365 CRM)
 uri: search-employee-skills
@@ -16,12 +17,11 @@ redirects:
 created: 2021-07-30T05:06:33.000Z
 archivedreason: null
 guid: d641a712-b67f-40dc-8251-4b933afb487a
-
 ---
 
-AD has all your users e.g. Bob, Mary, Jane...  
+AD has all your users e.g. Bob, Mary, Jane...
 
-SharePoint also has all your users, plus you can extend this information using the [UserProfile Service](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles). 
+SharePoint also has all your users, plus you can extend this information using the [UserProfile Service](https://docs.microsoft.com/en-us/sharepoint/manage-user-profiles).
 
 The beauty of this is that if everyone has updated their skills, it is wonderfully searchable.
 

@@ -1,13 +1,17 @@
 ---
+seoDescription: Craft concise and clear prompts to get accurate responses from ChatGPT.
 type: rule
 title: Do you keep your prompts concise and clear?
 uri: keep-prompts-concise-and-clear
 authors:
   - title: Ulysses Maclaren
     url: https://www.ssw.com.au/people/ulysses-maclaren
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
 created: 2023-04-12T13:28:33.799Z
 guid: f2b159a6-68a4-4e9b-ae7e-6378a9eedb36
 ---
+
 When crafting prompts for ChatGPT, it's essential to make them concise and clear. A well-written prompt enables the model to understand your request more accurately and deliver a helpful response. Keeping your prompts brief and focused can help prevent confusion and ensure that you receive the information or assistance you're seeking.
 
 <!--endintro-->

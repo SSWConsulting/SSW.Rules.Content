@@ -1,16 +1,16 @@
 ---
+seoDescription: Ensure successful builds by triggering a build and monitoring its status within Visual Studio or using TFS Build Notification tool.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to ensure your build succeeded?
 guid: 0bc29011-9fd4-46e2-bb2c-77c1d1df725b
 uri: do-you-know-how-to-ensure-your-build-succeeded
 created: 2013-01-21T17:20:24.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 When checking code into TFS, a build should be triggered as per the rule [Do you know the minimum builds to create on any branch?](/do-you-know-the-minimum-builds-to-create-for-your-project)

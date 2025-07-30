@@ -1,4 +1,5 @@
 ---
+seoDescription: Limit access to repository administrators and avoid granting excessive permissions to prevent accidental damage or misuse.
 type: rule
 title: Do you limit who gets admin access to repositories?
 uri: limit-admin-access
@@ -14,7 +15,8 @@ created: 2021-03-08T15:13:00.000Z
 archivedreason: null
 guid: 4e1f6b92-6549-49f6-bddb-0228707bc316
 ---
-Increasing a member's permissions also increases the amount of damage they can do. As a good rule of thumb, only give members the access that they need to complete their work. 
+
+Increasing a member's permissions also increases the amount of damage they can do. As a good rule of thumb, only give members the access that they need to complete their work.
 e.g. You do not want developers to have force-push permissions on the main branch, as they might accidentally delete branches and code by mistake!
 
 ::: greybox

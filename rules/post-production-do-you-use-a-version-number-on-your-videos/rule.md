@@ -1,16 +1,16 @@
 ---
+seoDescription: Post-production video updates - subtly indicate version numbers to keep your team informed without affecting views.
 type: rule
-archivedreason: 
+archivedreason:
 title: Post-Production - Do you have a version number on your videos?
 guid: 38555f14-30cc-4057-bf28-5aa4607f9ee4
 uri: post-production-do-you-use-a-version-number-on-your-videos
 created: 2012-02-14T06:32:51.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 When updating a version of a video (especially in a corporate environment), it's wise to let the rest of your team know where you're up to. It can detract from your amount of hits if you include the version details in the title, so it's best to find a subtle way to incorporate it into the video itself.

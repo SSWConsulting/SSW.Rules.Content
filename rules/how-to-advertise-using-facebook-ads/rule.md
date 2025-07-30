@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover comprehensive guides on how to use Facebook advertising effectively and grow your business with LeadPages.
 type: rule
 archivedreason: Information is already out there. The rule is basically an external link
 title: Facebook Ads - Do you know how to advertise?
@@ -6,14 +7,13 @@ guid: f4c28b04-fc86-4b2c-809c-b893a1aa27af
 uri: how-to-advertise-using-facebook-ads
 created: 2015-09-24T17:53:43.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Brittany Lawrence
-  url: https://ssw.com.au/people/brittany-lawrence
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Brittany Lawrence
+    url: https://ssw.com.au/people/brittany-lawrence
 related: []
 redirects:
-- facebook-ads-do-you-know-how-to-advertise
-
+  - facebook-ads-do-you-know-how-to-advertise
 ---
 
 There are a number of resources available which explain how to use and utilise Facebook advertising and make it work for your business.

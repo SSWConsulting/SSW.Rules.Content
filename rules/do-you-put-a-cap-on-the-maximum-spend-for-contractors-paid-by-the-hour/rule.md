@@ -1,4 +1,5 @@
 ---
+seoDescription: Set a cap on hourly contractor spend to avoid surprise bills and ensure budget control.
 type: rule
 title: Do you put a cap on the maximum spend for contractors paid by the hour?
 uri: do-you-put-a-cap-on-the-maximum-spend-for-contractors-paid-by-the-hour
@@ -8,6 +9,7 @@ authors:
 created: 2024-01-02T02:22:12.768Z
 guid: 2abd40ab-473b-46ef-ab2e-ff27075aa180
 ---
+
 <!--StartFragment-->
 
 Sometimes a business will need to hire a contractor to do repairs or maintenance work on site. These contractors often get paid by the hour. Hourly work can creep up to a large unexpected bill!

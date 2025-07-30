@@ -1,4 +1,5 @@
 ---
+seoDescription: What happens at a Sprint Retrospective meeting?
 type: rule
 title: Do you know what happens at a Sprint Retrospective meeting?
 uri: what-happens-at-retro-meetings
@@ -10,12 +11,12 @@ related:
   - roadmap
   - sprint-review-retro-email
 redirects:
-- do-you-know-what-happens-at-a-sprint-retrospective-meeting
-- what-happens-at-sprint-retrospective-meetings
+  - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+  - what-happens-at-sprint-retrospective-meetings
+  - what-happens-at-a-sprint-retrospective-meeting
 created: 2010-05-06T03:18:17.000Z
 archivedreason: null
 guid: d8ab71ab-506f-49b6-9756-f5e811aa9ab5
-
 ---
 
 At the end of every **Sprint**, the Development Team performs a **Sprint Retrospective**, also known as the **Retro**. The Retro provides an opportunity for the Scrum Team to reflect on what has gone well, what has gone poorly, and what the team wants to change.
@@ -58,11 +59,11 @@ As an example, the Scrum Master can find PBIs (Product Backlog Items) in the Spr
 
 Once all issues have been discussed to the satisfaction of The Scrum Team, the meeting concludes.
 
-If the timebox limit is reached, the remaining issues should be recorded and dealt with by the Scrum Master.  Any outstanding issues must be raised at the next Retrospective if they are still relevant.
+If the timebox limit is reached, the remaining issues should be recorded and dealt with by the Scrum Master. Any outstanding issues must be raised at the next Retrospective if they are still relevant.
 
 The timebox for this meeting is usually as many hours as weeks in the Sprint.
 
-### Using interactive tools (Apps)
+## Using interactive tools (Apps)
 
 The goal is to make Retro sessions as engaging and insightful as possible. There are 2 main options:
 
@@ -89,11 +90,12 @@ The advantages are:
 ---
 
 ::: greybox
-In Scrum, there are 4 meetings in total that you need to know about:
+Learn more about the meetings in Scrum:
 
 * [Sprint Planning Meeting](/what-happens-at-a-sprint-planning-meeting)
-* [Scrum Meeting (Daily standup)](/meeting-do-you-update-your-tasks-before-the-daily-scrum) - Update tasks before Daily Scrum Meeting
-* [Sprint Review Meeting](/do-you-know-what-happens-at-a-sprint-review-meeting)
-* [Sprint Retrospective Meeting](/do-you-know-what-happens-at-a-sprint-retrospective-meeting)
+* [Sprint Review Meeting](/what-happens-at-a-sprint-review-meeting "Sprint Review Meeting")
+* Sprint Retrospective Meeting (this rule)
+* [Daily Scrum (Stand-up) Meeting](/methodology-daily-scrums "Daily Scrum Meeting")
 
+**Tip:** It can be helpful to finish the **Sprint Planning meeting** with the first **Daily Scrum** of that Sprint.
 :::

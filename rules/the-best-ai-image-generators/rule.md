@@ -1,94 +1,112 @@
 ---
 type: rule
-archivedreason:
 title: Do you know the best AI image generators?
-guid: b44e1e89-754b-4583-b2ea-310b4126340b
+seoDescription: Discover the best AI image generators and unlock a world of
+  creative possibilities!
 uri: the-best-ai-image-generators
-created: 2023-06-30T00:00:00Z
 authors:
-- title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily/
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily/
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren/
 related:
-- when-to-use-ai-generated-images
-- how-to-generate-an-ai-image
-- write-an-image-generation-prompt
-- use-negative-prompting
-- use-parameters-in-your-image-prompts
-
-
+  - when-to-use-ai-generated-images
+  - how-to-generate-an-ai-image
+  - write-an-image-generation-prompt
+  - use-negative-prompting
+  - use-parameters-in-your-image-prompts
+created: 2023-06-30T00:00:00.000Z
+archivedreason: null
+guid: b44e1e89-754b-4583-b2ea-310b4126340b
 ---
-
-There is general consensus that [Midjourney](https://www.midjourney.com/home/) is the best tool. Behind Midjourney are [DALLE-2](https://openai.com/dall-e-2) and [StableDiffusion](https://beta.dreamstudio.ai/generate). Beware, if you are using any tool besides Midjourney, your images are likely to be noticeably less natural.
+Current rankings suggest Midjourney as the top tool, followed by ChatGPT Image Generation (GPT-4o), Google's Imagen, Adobe Firefly, Stable Diffusion, Leonardo AI, and Flux. Beware, other tools may produce noticeably less natural images.
 
 <!--endintro-->
 
 ## Midjourney
 
-Midjourney is used on Discord, where users interact with the bot by typing /imagine.
+Midjourney generates high-quality images via Discord (/imagine command) or its new web interface.
 
-**Note:** A [Discord](https://discord.com/) account is required first.
+* Cost: Starts at $10 USD/month ($8/month annually)
+* Offers subscription tiers with GPU hours and commercial usage options
+* Supports detailed prompts for customized images
 
-* Cost: $8USD/month
+![Figure: "A red tree in a valley. Hi res" - by Midjourney 6.1](midjourney.png)
 
-* Images can be reiterated on
+## ChatGPT Image Generation (GPT-4o)
 
-* Many parameters: [Midjourney Parameter List](https://docs.midjourney.com/docs/parameter-list) e.g. “--aspect”
+Integrated into ChatGPT for detailed, realistic image generation from text prompts.
 
-* Prompting in Midjourney:
+* Direct access via ChatGPT
+* Handles complex prompts seamlessly
 
-  * Even short prompts can produce beautiful images
+![Figure: "A red tree in a valley. Hi res" - by ChatGPT4o](chatgpt4o.png)
 
-  * Basic - /imagine cat
+## Ideogram
 
-  * Specify an artistic medium – /imagine {{{ ANY ART STYLE }} style cat
+Ideogram is a freemium image generation tool known for its excellent handling of text within images, a common weakness in other models.
 
-  * Get specific – /imagine {{ STYLE }} sketch of a cat
 
-  * Time travel – /imagine {{ DECADE }} cat illustration
+* Supports various artistic and design styles, including 3D, anime, and realistic
+* Ideal for creating posters, logos, and text-rich compositions
 
-  * Emote – /imagine {{ EMOTION }} cat
 
-  * Be colorful – /imagine {{ COLOR WORD }} colored cat
+Available via web and mobile apps
 
-  * Explore environments – /imagine {{ LOCATION }} cat
+![Figure: " A red tree in a valley. Hi res" - by Ideogram 3](idiogram3.webp)
 
-::: img-medium
-![Figure: "A red tree in a valley. Hi res" - by Midjourney](red-tree-midjourney2.png)
-:::
+## Google Imagen
 
-## DALL-E 2
+Offers exceptional photorealism and language comprehension.
 
-DALL-E is an AI system capable of creating realistic images from a natural language description.
+* Accessible via Vertex AI or ImageFX
+* Produces highly detailed, realistic images
 
-* Uses a credit system where users purchase credits to use the model
-* Some OpenAI users get free credits each month
+![Figure: "A red tree in a valley. Hi res" - by Imagen 3](imagen3.jpeg)
 
-::: img-large  
-![Figure: "A red tree in a valley. Hi res" - by DALL-E2](red-tree-dalle.png)
-:::
+## Reve
+Reve is an emerging image generator designed to offer creativity and control, with a focus on aesthetic quality and prompt flexibility.
+
+* Aimed at creators seeking artistic and dream-like visuals
+* Supports stylised compositions and illustrative looks
+* Gaining attention as a new player in the image generation space
+
+![Figure: "A red tree in a valley. Hi res" - by Reve](reve.webp)
+
+## Adobe Firefly
+
+Known for detailed control over image generation and editing, ideal for customized outputs.
+
+* Advanced editing and generation features
+* Integrated into Adobe Creative Cloud
+
+![Figure: "A red tree in a valley. Hi res" - by Firefly](firefly.jpg)
+
+## Stable Diffusion (via DreamStudio)
+
+Highly customizable, open source tool offering fine-tuned image generation.
+
+* Free and available for local use
+* Highly customizable with flexible output adjustments
+* Supports inpainting and outpainting with Stable Diffusion XL (SDXL)
+
+![Figure: "A red tree in a valley. Hi res" - by StableDiffusion via DreamStudio](stablediffusion.png)
 
 ## Leonardo AI
 
-Leonardo AI gets compared to Midjourney for its focus on concept art and imagination. You can use it by creating a free account at [Leonardo.ai](https://leonardo.ai/). Some of Leonardo's unique features are:
+Known for imaginative visuals and concept art. Free account available at Leonardo.ai.
 
-* Great website UI
-* Incredibly customiseable, with many different models and parameters avaliable
-* Built-in image editor
-* Built-in prompt generator to help you make the best prompt
+* User-friendly website
+* Highly customizable with built-in image editing and prompt generation
 
-::: img-medium
-![Figure: "A red tree in a valley. Hi res" - by Leonardo.ai ](red-tree-leonardo.jpg)
-:::
+![Figure: "A red tree in a valley. Hi res" - by Leonardo Phoenix](leonardo.jpg)
 
-## DreamStudio
+## Flux
 
-DreamStudio is made by StabilityAI and is used, like DALLE2, on a web interface. It is based on the Stable Diffusion model of image generation.
+Developed by Black Forest Labs, Flux generates high-quality images from text prompts.
 
-You can use the demo here for free [Stable Diffusion Web](https://stablediffusionweb.com/#demo), or you can use it through the [DreamStudio](https://beta.dreamstudio.ai/dream) interface (starting with a free trial).
+* Multiple model variants (Schnell, Dev, Pro)
+* Supports various artistic styles and precise color control
+* Capable of rendering text within images
 
-* You can use the web demo without signing up
-* Easy customization of parameters on the interface (e.g., style, aspect ratio)
-
-::: img-large
-![Figure: "A red tree in a valley. Hi res" - by DreamStudio ](red-tree-dreamstudio.png)
-:::
+![Figure: "A red tree in a valley. Hi res" - by Flux](flux.jpeg)

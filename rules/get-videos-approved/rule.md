@@ -1,4 +1,5 @@
 ---
+seoDescription: Get SSW videos approved by following a simple test-please process with Adam or Uly, and stakeholders for final approval.
 type: rule
 title: Post-Production - Do you know how to get your videos approved?
 uri: get-videos-approved
@@ -35,7 +36,7 @@ In order to publish, you need to get a Test Pass from the Product Owner (Adam) a
 
 **Notes:**
 
-* If you are getting feedback via email, call the speakers after implementing their feedback to discuss it
-* When you are ready for an external test please (e.g. Stakeholders and Clients), first send a test please to Adam. If he does not reply within 24 hours, call him
+- If you are getting feedback via email, call the speakers after implementing their feedback to discuss it
+- When you are ready for an external test please (e.g. Stakeholders and Clients), first send a test please to Adam. If he does not reply within 24 hours, call him
 
 See [Post-Production - Do you know how to conduct a 'test please' for video?](/test-please-for-video) for more info.

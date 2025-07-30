@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your workplace relationships by mastering the art of managing up with clear communication and thoughtful recommendations.
 type: rule
 title: Teamwork - Do you manage up? (Give a recommendation)
 uri: do-you-manage-up

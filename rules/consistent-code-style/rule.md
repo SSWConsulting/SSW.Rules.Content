@@ -1,4 +1,5 @@
 ---
+seoDescription: Consistent coding style and effortless code formatting with .editorconfig.
 type: rule
 title: Do you keep your code consistent using .editorconfig?
 uri: consistent-code-style
@@ -13,15 +14,15 @@ archivedreason: null
 guid: 292e4a99-4aa0-45f4-a9de-18ba352f9a68
 ---
 
-It's important that the code in a project is kept consistent. This is hard to do when you have developers working in different environments. 
+It's important that the code in a project is kept consistent. This is hard to do when you have developers working in different environments.
 
-Using a *.editorconfig* file is the best way to manage this.
+Using a _.editorconfig_ file is the best way to manage this.
 
 <!--endintro-->
 
 See the [EditorConfig file specification](https://spec.editorconfig.org)
 
-Most IDEs will automatically find and use a *.editorconfig* file to format code.
+Most IDEs will automatically find and use a _.editorconfig_ file to format code.
 
 See [Keep your code clean, automatically!](https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-now-available/#keep-your-code-clean-automatically).
 
@@ -36,6 +37,7 @@ See [Keep your code clean, automatically!](https://devblogs.microsoft.com/visual
 ## Creating **.editorconfig** files
 
 **In VS 2022**
+
 1. Open the Add New Item dialog (Ctrl+Shift+A)
 2. Search for "EditorConfig"
 3. Select a config file depending on your project
@@ -43,13 +45,16 @@ See [Keep your code clean, automatically!](https://devblogs.microsoft.com/visual
 ![Figure: Creating .editorconfig in VS 2022](vs2022-add-editorconfig.png)
 
 **Manually**
-1. Create a new file called *.editorconfig* at the root of your project
+
+1. Create a new file called _.editorconfig_ at the root of your project
 2. Add styling rules based on your needs
 
 ## Ensuring compliance
+
 To ensure your team is following this standard, you can add it to your [Definition of Done](/definition-of-done).
 
-Additionally, you can have a PR check that enforces *.editorconfig* rules, but its always better to do this locally.
+Additionally, you can have a PR check that enforces _.editorconfig_ rules, but its always better to do this locally.
 
 Learn more on:
+
 - [EditorConfig website](https://editorconfig.org)

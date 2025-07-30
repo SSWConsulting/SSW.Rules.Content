@@ -1,6 +1,7 @@
 ---
+seoDescription: Craft a compelling event agenda that showcases top speakers and boosts attendance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Have you got an appropriate agenda?
 guid: 11fbee00-c9c5-4c27-816c-555b5d1f7ee0
 uri: have-you-got-an-appropriate-agenda
@@ -8,7 +9,6 @@ created: 2014-12-31T00:20:06.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 Once you know which speakers you want and have established sponsorship and budget, you can start thinking about putting together an agenda.

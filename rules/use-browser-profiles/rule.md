@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid logging out and logging back in to different client accounts by using Microsoft Edge or Google Chrome profiles.
 type: rule
 title: Do you avoid logging out and logging in?
 uri: use-browser-profiles
@@ -19,6 +20,7 @@ created: 2019-02-07T16:00:43.000Z
 archivedreason: null
 guid: c01f6245-c40d-4e0d-952a-f26876c4ebdd
 ---
+
 Imagine this... a client calls you in a panic when you are working at another client. You need to login to their DevOps portal to see the problem and so you sign out of your current clients DevOps portal ...wait... wait... get a 2-factor SMS... wait... and then finally get in! But then you notice it also knocked you out of the Azure Portal and your Office 365 email that you were previously signed into. Annoying!
 
 <!--endintro-->
@@ -27,11 +29,11 @@ Imagine this... a client calls you in a panic when you are working at another cl
 
 Tips:
 
-* Never log out
-* Never use Incognito (where you need to login)
-* Install your cool extensions in each of your Edge or Chrome profiles
-* [Remove clutter from the new tab experience](/browser-remove-clutter) to increase focus
-* [Set a different image for your new tab page](/browser-add-branding) for each of your browser profiles
+- Never log out
+- Never use Incognito (where you need to login)
+- Install your cool extensions in each of your Edge or Chrome profiles
+- [Remove clutter from the new tab experience](/browser-remove-clutter) to increase focus
+- [Set a different image for your new tab page](/browser-add-branding) for each of your browser profiles
 
 Consultants usually work on different client projects and use different client credentials eg. Azure DevOps, Azure Portal and sometimes an email account with the client’s branding. Password managers are great, but going from client to client you have to continually switch between accounts by logging out and logging in with different credentials.
 
@@ -82,8 +84,8 @@ Firefox Multi-Account Containers is an innovative feature that lets you separate
 
 Tips:
 
-* Separate Sessions: Keep your personal, work, shopping, and other activities separate without logging out.
-* Enhanced Privacy: Each container functions independently, restricting tracking across containers.
+- Separate Sessions: Keep your personal, work, shopping, and other activities separate without logging out.
+- Enhanced Privacy: Each container functions independently, restricting tracking across containers.
 
 ### Setting Up Containers
 

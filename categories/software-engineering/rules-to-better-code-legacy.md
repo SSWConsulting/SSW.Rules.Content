@@ -10,4 +10,4 @@ index:
 
 ---
 
-
+Ensure the reliability of your legacy code with these essential rules that focus on proper event handling and interoperability. This set of guidelines will help you maintain and improve the functionality of older codebases effectively.

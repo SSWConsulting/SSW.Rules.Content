@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft 365 groups do not automatically send a copy of your own email to your inbox.
 type: rule
 title: Microsoft 365 groups – Do you receive a copy of your own email into your inbox?
 uri: do-you-receive-copy-of-your-email-into-your-inbox
@@ -12,6 +13,7 @@ guid: 28c7cfda-f78b-45fe-a60f-bd0e523e89bd
 redirects:
   - copy-of-your-email-into-your-inbox
 ---
+
 Microsoft 365 groups - When anyone sends an email to a Microsoft 365 group (Office365 groups) e.g: <SysAdmins@Northwind.com> they don’t receive a copy of their own email, which is different from normal distribution groups.
 
 <https://support.microsoft.com/en-us/office/learn-about-microsoft-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2>

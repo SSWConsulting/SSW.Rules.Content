@@ -1,20 +1,20 @@
 ---
+seoDescription: Data Transfer Objects (DTOs) and View Models (VMs) are often confused with one another. A DTO simply moves data between parts of an application, while a ViewModel provides functionality and state for a view, acting as glue between UI and service layers.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the difference between data transfer objects and view models?
 guid: 3b46e163-56d5-43e5-a035-8dbbcaa40e48
 uri: the-difference-between-data-transfer-objects-and-view-models
 created: 2019-04-15T21:58:44.0000000Z
 authors:
-- title: Jason Taylor
-  url: https://ssw.com.au/people/jason-taylor
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Jason Taylor
+    url: https://ssw.com.au/people/jason-taylor
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related:
   - use-mvvm-pattern
 redirects:
-- do-you-know-the-difference-between-data-transfer-objects-and-view-models
-
+  - do-you-know-the-difference-between-data-transfer-objects-and-view-models
 ---
 
 Data Transfer Objects (DTOs) and View Models (VMs) are similar concepts, but the terms are not interchangeable. To make matters more confusing the term `ViewModel` has a special meaning inside the [MVVM pattern](/use-mvvm-pattern).
@@ -36,7 +36,7 @@ public class CarDto
 
   public int MakeId { get; set; }
   public string Make { get; set; }
-  
+
   public int ModelId { get; set; }
   public string Model { get; set; }
 
@@ -44,14 +44,14 @@ public class CarDto
 
   public bool IsInsurable()
   {
-    return this.Year > DateTime.Now.AddYears(-25).Year; 
+    return this.Year > DateTime.Now.AddYears(-25).Year;
   }
 }
 ```
+
 ::: bad
 Bad example - A DTO that encapsulates data but also includes behaviour (or logic in this case)
 :::
-
 
 ```csharp
 public class CarDto
@@ -60,13 +60,14 @@ public class CarDto
 
   public int MakeId { get; set; }
   public string Make { get; set; }
-  
+
   public int ModelId { get; set; }
   public string Model { get; set; }
 
   public int Year { get; set; }
 }
 ```
+
 ::: good
 Good example - A DTO that encapsulates some data
 :::
@@ -83,6 +84,6 @@ In the MVVM pattern, the term ViewModel (VM) (in PascalCase) has a special meani
 
 Learn more about the above concepts in the following Weekly Dev Tips podcasts:
 
-·  [Data Transfer Objects (part 1)](https&#58;//www.weeklydevtips.com/008)
+·  [Data Transfer Objects (part 1)](https://www.weeklydevtips.com/008)
 
-·  [Data Transfer Objects (part 2)](https&#58;//www.weeklydevtips.com/009)
+·  [Data Transfer Objects (part 2)](https://www.weeklydevtips.com/009)

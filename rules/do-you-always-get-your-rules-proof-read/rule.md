@@ -1,4 +1,5 @@
 ---
+seoDescription: Always have your rules proofread and edited to ensure high-quality text that effectively communicates its message and adheres to company standards.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/rules-to-better-technical-documentation](/rules/rules-to-better-technical-documentation)
 title: Do you always get your rules proof read?
@@ -8,7 +9,6 @@ created: 2010-03-19T01:00:47.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 It is important to have high quality text to communicate your message. If your grammar, spelling and expression are poor, the reader may be left confused and have the sense that you really aren’t writing thoughtfully and with authority on the subject.

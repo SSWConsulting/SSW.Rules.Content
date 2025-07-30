@@ -1,4 +1,5 @@
 ---
+seoDescription: Implementing business logic in middle tier languages such as VB.NET and C# increases adaptability, extensibility and maintainability of applications.
 type: rule
 archivedreason: null
 title: Middle Tier - Do you implement business logic in middle tier?
@@ -11,7 +12,6 @@ authors:
 related: []
 redirects:
   - middle-tier-do-you-implement-business-logic-in-middle-tier
-
 ---
 
 Business logic/rules should be implemented in an object oriented language such as VB.NET and C#.  This dramatically increases the adaptability, extensibility and maintainability of the application.

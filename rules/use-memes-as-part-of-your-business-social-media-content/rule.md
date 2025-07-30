@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how memes can boost your business's social media engagement and brand awareness with expert tips on effective use.
 type: rule
 title: Content - Do you know why you should use memes as part of your business social media content?
 uri: use-memes-as-part-of-your-business-social-media-content

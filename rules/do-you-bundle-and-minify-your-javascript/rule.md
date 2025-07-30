@@ -1,6 +1,7 @@
 ---
+seoDescription: "Bundling and minifying JavaScript in your MVC app improves performance by reducing server calls."
 type: rule
-archivedreason: 
+archivedreason: Outdated - See our rule on managing bundle sizes https://www.ssw.com.au/rules/manage-bundle-size
 title: Do you bundle and minify your JavaScript?
 guid: 86ecf1e2-49af-444b-9849-145f87f77ec0
 uri: do-you-bundle-and-minify-your-javascript
@@ -22,7 +23,6 @@ Bundling allows you to:
 1. Specify the JavaScript files you want to include in your app and the order in which they are loaded
 2. Put them into one JavaScript file reducing calls to the server.
 
-
 The next part of the process is minification. This means that all the whitespace is removed from the JavaScript files and long variables names are shortened where possible to decrease the size of the package.
 All this adds up to a faster MVC app and a better user experience.
 
@@ -34,13 +34,13 @@ Layout.cshtml
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
 &lt;script type="text/javascript" src="/SoftwareDevelopment/RulesToBetterMVC/Pages/@Url.Content("&gt;&lt;/script&gt;
-Figure: Scripts are specified in the view 
+Figure: Scripts are specified in the view
 BundleConfig.cs
 
 public static void RegisterBundles(BundleCollection bundles)
 {
 bundles.Add(new ScriptBundle("~/bundles/SSW").Include(
-"~/Scripts/2011.3.1115/jquery-1.6.4.min.js", 
+"~/Scripts/2011.3.1115/jquery-1.6.4.min.js",
 "~/Scripts/jquery-ui-1.8.16.min.js",
 "~/Scripts/jquery.formatCurrency-1.4.0.min.js",
 "~/Scripts/date.js",

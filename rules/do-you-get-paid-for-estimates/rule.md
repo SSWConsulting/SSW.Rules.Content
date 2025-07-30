@@ -1,6 +1,7 @@
 ---
+seoDescription: Get accurate and detailed estimates by investing time upfront, or collaborate with clients to create a ballpark figure that builds trust.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you get paid for estimates?
 guid: 5898cd38-7e92-4248-aefa-3e954ddb1ecc
 uri: do-you-get-paid-for-estimates
@@ -8,7 +9,6 @@ created: 2010-07-16T04:21:49.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 A lot of time in a consultancy can be taken up by producing estimates for clients so they can see a ballpark of what they will be spending. Because this time is not billed, it is easy to end up with rushed and inaccurate estimates, leading to problems later in the project.

@@ -12,10 +12,9 @@ index:
 - do-you-promote-your-user-groups-using-social-media
 - youtube-banner-show-upcoming-events
 - organize-the-audience-when-numbers-are-low
-- how-are-you-collecting-feedback
-- do-you-bring-evaluation-forms-to-every-event-you-speak-at
-- do-you-evaluate-your-event-feedback
-
+- event-feedback
+- bring-evaluation-forms-to-every-event-you-speak-at
+- evaluate-your-event-feedback
 ---
 
-
+Maximize the effectiveness of your user groups with these key rules, focusing on venue management, speaker coordination, and effective promotion to ensure a successful event.

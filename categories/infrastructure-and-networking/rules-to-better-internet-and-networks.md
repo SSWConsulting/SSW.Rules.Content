@@ -8,6 +8,7 @@ index:
 - do-you-assume-catastrophic-failure-before-touching-a-server
 - do-you-check-your-dns-settings
 - separate-networks
+- limit-mac-addresses-network-switches
 - check-your-teams-backup-status
 - do-you-disable-automatic-windows-update-installations
 - do-you-have-a-consistent-naming-convention-for-each-machine

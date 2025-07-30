@@ -14,7 +14,8 @@ index:
 - do-you-return-detailed-error-messages
 - do-you-return-the-correct-response-code
 - use-fluent-validation
+- rest-api-design
 
 ---
 
-
+Explore best practices for developing and managing your Web API using REST principles. This guide covers essential topics such as serialization of view models, documentation, versioning, and returning appropriate response codes.

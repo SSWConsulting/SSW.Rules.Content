@@ -1,4 +1,5 @@
 ---
+seoDescription: Use the EditorRequired attribute to mark required parameters in Blazor components and ensure developers are notified if they forget to pass in necessary variables.
 type: rule
 archivedreason:
 title: Do you use the EditorRequired attribute for required parameters in Blazor?
@@ -30,6 +31,7 @@ You should use the `[EditorRequired]` attribute to mark parameters that are requ
     public string? Name { get; set; }
 }
 ```
+
 <br>
 
 **Index.razor**

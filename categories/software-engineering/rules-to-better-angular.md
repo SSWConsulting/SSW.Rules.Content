@@ -4,6 +4,7 @@ title: Rules to Better Angular
 guid: a9ab57be-1999-412c-89a5-f76aa92d369b
 uri: rules-to-better-angular
 index:
+- why-angular-is-great
 - the-best-learning-resources-for-angular
 - angular-the-stuff-to-install
 - how-to-get-your-machine-setup
@@ -28,6 +29,8 @@ index:
 - standalone-components
 - angular-error-handling
 - angular-separate-component-concerns
+- angular-reactive-forms-vs-template-driver-forms
+- use-observables
 
 ---
 

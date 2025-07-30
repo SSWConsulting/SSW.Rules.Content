@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Teams usage reports help identify popular and unused teams, track adoption, and monitor meeting and chat activity.
 type: rule
 title: Do you review Microsoft Teams usage reports?
 uri: teams-usage
@@ -10,7 +11,6 @@ related:
   - sharepoint-usage
 created: 2021-11-17T06:17:05.753Z
 guid: afceb7ff-03e5-4260-87b8-71d581c73ffd
-
 ---
 
 Usage analytics is quite important - it allows you to identify popular and unused teams, and helps figuring out Microsoft Teams adoption across your business (i.e. How many meetings? How many chats? etc...)

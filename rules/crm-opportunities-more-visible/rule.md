@@ -1,4 +1,5 @@
 ---
+seoDescription: Leverage lost opportunities to boost business performance by setting up a CRM system with customizable loss reasons and reporting capabilities.
 type: rule
 title: Do you know how to make lost opportunities more visible?
 uri: crm-opportunities-more-visible
@@ -13,6 +14,7 @@ related:
 created: 2022-04-05T05:54:47.921Z
 guid: 1b8182f5-e77a-44ca-a003-edc58083a39d
 ---
+
 Losing opportunities is very common for a business. Keeping track of the win/lost ratio is a good start if you want to track how you're doing, but making sure you keep a close look on what you've lost more important why, is critical.
 
 <!--endintro-->

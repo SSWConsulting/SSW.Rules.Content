@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to foster long-term client relationships by building trust and offering tailored engagement options.
 type: rule
 archivedreason: It is already covered by [https://www.ssw.com.au/rules/conduct-a-spec-review](/rules/conduct-a-spec-review)
 title: Do you pursue short or long-term relationships with clients?

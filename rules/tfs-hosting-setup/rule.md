@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to set up a TFS hosting environment and connect with ease. Learn the steps for connecting to your Visual Studio server, accessing project portals, reports, and downloading builds from your build server.
 type: rule
 title: Do you know how to do a TFS hosting setup?
 uri: tfs-hosting-setup
@@ -9,12 +10,13 @@ created: 2021-08-05T18:25:34.531Z
 archivedreason: Outdated
 guid: 1b806cc8-71d3-43af-83fc-647cea0acbc1
 ---
+
 ### How to Connect to your TFS Server
 
 1. Connect to your TFS 2010 server you will need either:
 
-   * **Visual Studio 2008 Team System SP1 with the [TFS2010 Forward Compatibility update](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=cf13ea45-d17b-4edc-8e6c-6c5b208ec54d&displaylang=en)** OR
-   * **Visual Studio 2010**
+   - **Visual Studio 2008 Team System SP1 with the [TFS2010 Forward Compatibility update](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=cf13ea45-d17b-4edc-8e6c-6c5b208ec54d&displaylang=en)** OR
+   - **Visual Studio 2010**
 
 <!--endintro-->
 
@@ -58,10 +60,8 @@ After you have downloaded and installed FileZilla, follow these steps to connect
 
 1. Choose **File | Site Manager**
 2. Click **New Site**, and enter the name for the new site (eg. Build Server)
-3. Enter the following details: 
-
+3. Enter the following details:
 
 ![Figure 7 - Fill in Host, Port, Server Type, Login Type, User and Password](setupsftpsite.jpeg)
-
 
 4. Press the **Connect** button and you will be connected to your Build Server

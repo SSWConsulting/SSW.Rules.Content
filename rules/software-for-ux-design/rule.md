@@ -1,4 +1,5 @@
 ---
+seoDescription: Best software for user experience design includes Figma, V0.dev, Adobe XD, and Sketch, offering collaborative, cloud-based tools for creating wireframes, prototypes, and responsive designs.
 type: rule
 title: Do you know the best software for user experience design?
 uri: software-for-ux-design
@@ -22,10 +23,10 @@ guid: ebd84a41-b8a7-41a1-b55e-9300a8719372
 
 There are a few options when it comes to the best software for UI/UX design (the creation of mockups and prototypes in particular). The most popular are:
 
-* [**V0.dev**](https://v0.dev/) **(recommended)**
-* **Figma (recommended)**
-* Adobe XD
-* Sketch (MacOS only)
+- [**V0.dev**](https://v0.dev/) **(recommended)**
+- **Figma (recommended)**
+- Adobe XD
+- Sketch (MacOS only)
 
 <!--endintro-->
 
@@ -37,15 +38,15 @@ The goal of any designer is to develop the best UI and develop the best user exp
 
 ### Why Figma?
 
-* No need for installation or updates (browser-based)
-* Unlimited view-only collaborators on every project
-* Unlimited version history with version control (30-day history for free users)
-* Unlimited files and cloud storage
-* *Auto-save*
-* Collaboration and handover is streamlined with a shared workspace and exportable assets
-* Libraries of reusable components, text, colour and layer styles
-* FigJam is a built-in whiteboard tool for mapping and discovery
-* A huge and highly engaged community  
+- No need for installation or updates (browser-based)
+- Unlimited view-only collaborators on every project
+- Unlimited version history with version control (30-day history for free users)
+- Unlimited files and cloud storage
+- _Auto-save_
+- Collaboration and handover is streamlined with a shared workspace and exportable assets
+- Libraries of reusable components, text, colour and layer styles
+- FigJam is a built-in whiteboard tool for mapping and discovery
+- A huge and highly engaged community
 
 ::: info  
 **Note:** One tool doesn't always replace the others! **Figma** does not include the print design and photo editing features of **Adobe Photoshop** and other software also used by designers. Photoshop is the industry standard in raster (pixel-based) graphics editing, photography and digital art. **Adobe Illustrator**, on the other hand, is the standard vector-based design tool used for print design, logos, icons and more. All of these tools have a place on a designer's belt!

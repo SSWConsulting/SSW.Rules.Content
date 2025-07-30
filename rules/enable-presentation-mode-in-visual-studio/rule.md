@@ -1,4 +1,5 @@
 ---
+seoDescription: Make your Windows PC easy to view by increasing font sizes and removing distracting panes for a seamless presentation experience.
 type: rule
 title: Screen Recordings - Do you make sure your Windows PC is easy to view?
 uri: enable-presentation-mode-in-visual-studio
@@ -18,6 +19,7 @@ created: 2016-02-18T15:49:20.000Z
 archivedreason: null
 guid: ec754795-4211-4aa8-8259-eb14dacbcbb8
 ---
+
 <!--endintro-->
 
 When presenting the screen of your Windows PC to an audience it is important to alter a few things for the best possible experience for the audience. The most import thing is to increase your font to make the content more visible.
@@ -33,13 +35,14 @@ Here are some of the applications where it is especially important:
 1. Make your font bigger. This is probably rule number one. There's nothing worse than not being able to see the excellent code you're trying to demo.
 
    * Increase the font of the Text Editor from 10 to 14 or more.
-   * Increate the font of your Environment from 9 to 12 or more.
+   * Increase the font of your Environment from 9 to 12 or more.
+
 2. Remove any distracting panes or other windows. These usually just get in the way. If you really need them, make sure they're set to pin mode, so they hide when not in use.
 3. Most importantly, you can have all these things done for you at the click of a button by using the [presentation mode extension by Mads](https://devblogs.microsoft.com/visualstudio/use-visual-studio-in-presentation-mode/).
 
 `youtube: https://www.youtube.com/embed/7wMJIYz9lvU`
 
-**Video: Use Presentation Mode in Visual Studio (5 min)** 
+**Video: Use Presentation Mode in Visual Studio (5 min)**
 
 ::: bad
 ![Figure: Bad Example - Most of the Visual Studio UI is too small to read and the Output window takes up a lot of space](present_off.png)

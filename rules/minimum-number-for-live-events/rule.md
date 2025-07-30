@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure minimum attendance at live events to avoid cancellations and maintain credibility.
 type: rule
 title: Do you have a minimum number for live events?
 uri: minimum-number-for-live-events

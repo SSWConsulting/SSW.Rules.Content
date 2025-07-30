@@ -1,20 +1,20 @@
 ---
+seoDescription: Migrate TFS 2012 successfully by planning additional steps to integrate SharePoint sites and set up Build servers.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you plan your additional steps for TFS 2012 migration?
 guid: 4409b758-c749-4129-8d24-6e7ac06e6217
 uri: plan-your-additional-steps-tfs2012-migration
 created: 2012-06-02T01:36:29.0000000Z
 authors:
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects:
-- do-you-plan-your-additional-steps
-
+  - do-you-plan-your-additional-steps
 ---
 
-More steps will be required to integrate your SharePoint site and set up your Build servers. 
+More steps will be required to integrate your SharePoint site and set up your Build servers.
 
 <!--endintro-->
 

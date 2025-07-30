@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your forms have both Accept and Cancel buttons to provide users with control using "Enter" and "Esc".
 type: rule
 title: Do your forms have Accept and Cancel buttons?
 uri: do-your-forms-have-accept-and-cancel-buttons
@@ -8,7 +9,8 @@ authors:
 created: 2014-03-14T06:52:00.000Z
 guid: 71e8c6f0-fcb0-42cb-b536-e25a202d224b
 ---
-If you have a button in a form you must have an accept or a cancel button. As a result user can use "Enter" and "Esc" to control the form.   
+
+If you have a button in a form you must have an accept or a cancel button. As a result user can use "Enter" and "Esc" to control the form.
 
 <!--endintro-->
 

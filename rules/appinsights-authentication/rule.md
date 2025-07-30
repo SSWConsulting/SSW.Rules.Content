@@ -1,18 +1,18 @@
 ---
+seoDescription: Do you secure your AppInsights location and enable Enhanced Security with Bicep rules
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you secure your AppInsights Telemetry?
 guid: f2155eb7-6ade-4757-b962-a1dc680cdbbf
 uri: appinsights-authentication
 created: 2023-10-16T15:11:34.0000000Z
 authors:
-- title: William Liebenberg
-  url: https://ssw.com.au/people/william-liebenberg
-- title: Alex Rothwell
-  url: https://www.ssw.com.au/people/alex-rothwell/
+  - title: William Liebenberg
+    url: https://ssw.com.au/people/william-liebenberg
+  - title: Alex Rothwell
+    url: https://www.ssw.com.au/people/alex-rothwell/
 related: []
 redirects: []
-
 ---
 
 Azure Application Insights is your app's friendly doctor, keeping an eye on it to stay healthy and running smoothly. It uses an `Instrumentation Key` (IK) to allow your app to send telemetry data to its resource.
@@ -35,13 +35,13 @@ In summary, disabling local authentication and relying on Entra ID RBAC for tele
 
 ![Increase Security - Disable Local Authentication](appinsights-disable-local-auth.png)
 
-## Pros and Cons 
+## Pros and Cons
 
-| Pros        | Cons           |
-|:-------------|:-------------|
-| ✅ No spam telemetry      | ❌ Does not work for Client-Side applications |
-| ✅ Perfect for Server-side applications      | ❌ Two Application Insights instances to collect Client and Server-side telemetry     |
-| ✅ Accurate telemetry - Exact applications, servers, services are listed       | ❌ Custom Queries and Dashboards to combine Client and Server-side telemetry     |
+| Pros                                                                     | Cons                                                                              |
+| :----------------------------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| ✅ No spam telemetry                                                     | ❌ Does not work for Client-Side applications                                     |
+| ✅ Perfect for Server-side applications                                  | ❌ Two Application Insights instances to collect Client and Server-side telemetry |
+| ✅ Accurate telemetry - Exact applications, servers, services are listed | ❌ Custom Queries and Dashboards to combine Client and Server-side telemetry      |
 
 ## Securing Application Insights
 
@@ -65,11 +65,12 @@ resource appService 'Microsoft.Web/sites@2022-09-01' = {
   name: appServiceName
   location: location
   identity: {
-    // ⬇️ add the code below for Azure to automatically assign a managed identity to the AppService 
+    // ⬇️ add the code below for Azure to automatically assign a managed identity to the AppService
     type: 'SystemAssigned'
   }
   // ... the rest of your app service configuration
 ```
+
 ::: good
 Figure: Enable System Assigned managed identity
 :::
@@ -161,8 +162,8 @@ We accomplish this by using one of the following [credential types](https://gith
 
 1. `DefaultAzureCredential` for local development
 2. `ManagedIdentityCredential` for apps running in Azure with system-assigned or user-assigned managed identities
-     - For system-assigned, use the default constructor without parameters.
-     - For user-assigned, provide the `client ID` to the constructor.
+   * For system-assigned, use the default constructor without parameters.
+   * For user-assigned, provide the `client ID` to the constructor.
 
 Once the credential has been created, pass it to the Application Insights `TelemetryConfiguration`:
 
@@ -183,8 +184,8 @@ builder.Services.Configure<TelemetryConfiguration>(config =>
 });
 
 // When using AppInsights and User Secrets for local development:
-// - Strange behavior:  
-//    When using the parameterless version of `.AddApplicationInsightsTelemetry()`, 
+// - Strange behavior:
+//    When using the parameterless version of `.AddApplicationInsightsTelemetry()`,
 //    the various Initializers and TelemetryClient do not receive the
 //    `ApplicationInsights:ConnectionString` specified in `secrets.json`
 //

@@ -1,4 +1,5 @@
 ---
+seoDescription: Power BI reports benefit from including feedback information, enabling designers to receive direct suggestions and improve their work.
 type: rule
 title: Layout - Do you include feedback information in the report?
 uri: include-feedback-information-in-report

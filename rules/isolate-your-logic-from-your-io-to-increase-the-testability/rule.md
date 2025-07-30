@@ -1,4 +1,5 @@
 ---
+seoDescription: Isolate your logic from your IO to increase testability. By separating concerns and minimizing dependencies, you can write more robust and maintainable code that's easier to test and debug.
 type: rule
 title: Do you isolate your logic from your IO to increase the testability?
 uri: isolate-your-logic-from-your-io-to-increase-the-testability
@@ -16,10 +17,7 @@ guid: 71aa799a-2b10-4e38-9798-789e24a4ba6a
 If your method is consists of logic and IO, we recommend you isolate them to increase the testability of the logic.
 Take this for example (and see how we refactor it):
 
-
 <!--endintro-->
-
-
 
 ```cs
 public static List<string> GetFilesInProject(string projectFile)
@@ -42,9 +40,6 @@ public static List<string> GetFilesInProject(string projectFile)
 }
 ```
 
-
-
-
 ::: bad
 Bad - The logic and the IO are coded in a same method
 
@@ -53,8 +48,6 @@ Bad - The logic and the IO are coded in a same method
 While this is a small concise and fairly robust piece of code, it still isn't that easy to unit test. Writing a unit test for this would require us to create temporary files on the hard drive, and probably end up requiring more code than the method itself.
 
 If we start by refactoring it with an overload, we can remove the IO dependency and extract the logic further making it easier to test:
-
-
 
 ```cs
 public static List<string> GetFilesInProject(string projectFile)
@@ -86,17 +79,12 @@ public static List<string> GetFilesInProjectByContents(string projectFileContent
 }
 ```
 
-
-
-
 ::: good
 Good - The logic is now isolated from the IO
 
 :::
 
 The first method (GetFilesInProject) is simple enough that it can remain untested. We do however want to test the second method (GetFilesInProjectByContents). Testing the second method is now too easy:
-
-
 
 ```cs
 [Test]
@@ -121,9 +109,6 @@ public void TestVS2005CSProj()
   Assert.AreEqual(true, result.Contains(Path.Combine(baseFolder, "VSAddInMain.cs")));
 }
 ```
-
-
-
 
 ::: good
 Good - Different test cases and assertions are created to test the logic

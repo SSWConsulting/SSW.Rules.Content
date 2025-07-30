@@ -1,4 +1,5 @@
 ---
+seoDescription: Easily keep your system up to date by checking for updates within the Help menu.
 type: rule
 title: Do you have a standard menu item "Check for Updates"?
 uri: there-should-be-a-standard-menu-item-check-for-updates
@@ -17,6 +18,6 @@ A standard menu item "Check for Updates" should be available in the Help menu. I
 
 Here's the code to run Diagnostics:
 
-```cs  
+```cs
 System.Diagnostics.Process.Start("http://us.ssw.com.au/ssw/diagnostics/download/SSWDiagnostics.application#SSWDiagnostics.application");
 ```

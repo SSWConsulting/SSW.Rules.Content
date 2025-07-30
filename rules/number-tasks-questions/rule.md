@@ -1,4 +1,5 @@
 ---
+seoDescription: Number tasks or questions in emails to make your communication clear and concise.
 type: rule
 title: Do you number tasks/questions?
 uri: number-tasks-questions
@@ -12,7 +13,8 @@ authors:
   - title: Luke Mao
     url: https://www.ssw.com.au/people/luke-mao/
 related:
-  - do-you-send-tasks-one-email-at-a-time
+  - split-emails-by-topic
+  - indent
 redirects:
   - do-you-number-tasks-or-questions-you-would-like-a-reply-to
   - do-you-number-tasks-questions
@@ -26,17 +28,19 @@ It is good practice to be clear on what you want. One way you can make things cl
 <!--endintro-->
 
 ::: info
-**Note:** Receiving an email with just numbered items is cold - An email starting with a paragraph of context is much nicer
+**Note:** Receiving an email with just numbered items is cold - An email [starting with a paragraph of context](/add-context-reasoning-to-emails) is much nicer.
 :::
 
 ::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-| Subject: | Presenting at User Group |  
-::: email-content  
 
-### Hi Bob,
+| | |
+| -------- | --- |
+| To: | Bob |
+| Subject: | Presenting at User Group |  
+::: email-content
+
+### Hi Bob
+
 We’ll commence the meeting at our office where we can provide you with an overview of the SSW operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
 How many attendees from will be attending on the meeting day? Are you able to stay for dinner or lunch with our team? Would you like to see some sights while you’re in town?
@@ -47,24 +51,23 @@ How many attendees from will be attending on the meeting day? Are you able to 
 Bad example - Tasks/questions may be skipped if the reader does not read very carefully
 :::
 
-
 ::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-| Subject: | Presenting at User Group |  
-::: email-content  
 
-### Hi Bob,
+| | |
+| -------- | --- |
+| To: | Bob |
+| Subject: | Presenting at User Group |  
+::: email-content
+
+### Hi Bob
+
 We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
 I have a few more questions about the day to help me and the team prepare:
 
-1.	How many attendees from will be attending on the meeting day?
-
-2.	Are you able to stay for dinner or lunch with our team?  
-
-3.	Would you like to see some sights while you’re in town?   
+1. How many attendees from will be attending on the meeting day?
+2. Are you able to stay for dinner or lunch with our team?
+3. Would you like to see some sights while you’re in town?
 
 :::  
 :::  
@@ -72,37 +75,32 @@ I have a few more questions about the day to help me and the team prepare:
 Good example - Tasks/questions are clear
 :::
 
-::: greybox
-**⚠️ Warning - Avoid numbered lists that aren't tasks**
+## ⚠️ Warning - Avoid numbered lists that aren't tasks**
 
 ::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Bob |
-| Subject: | Presenting at User Group |  
-::: email-content  
 
-### Hi Bob,
+| | |
+| -------- | --- |
+| To: | Bob |
+| Subject: | Presenting at User Group |  
+::: email-content
+
+### Hi Bob
 
 We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
 
 I have a few more questions about the day to help me and the team prepare:
 
 1. How many attendees from will be attending on the meeting day?
-
-2. Are you able to stay for dinner or lunch with our team?  
-
-3. Would you like to see some sights while you’re in town?   
+2. Are you able to stay for dinner or lunch with our team?
+3. Would you like to see some sights while you’re in town?
 
 It can be very productive to walk around and take in the sights while discussing business matters. Some of the attractions that we could visit include:
 
 1. The Template of Yue Fei,
-
 2. The Zhejiang Art Museum, and
-
 3. The Hangzhou Botanical Guardens.
 
-:::
 :::
 :::
 
@@ -110,6 +108,35 @@ It can be very productive to walk around and take in the sights while discussing
 Bad example - Confusing! The second list above is unnecessary and obscures the tasks/questions
 :::
 
+::: email-template  
+
+| | |
+| -------- | --- |
+| To: | Bob |
+| Subject: | Presenting at User Group |  
+::: email-content
+
+### Hi Bob
+
+We’ll commence the meeting at our office where we can provide you with an overview of the operation, and then discuss in more detail the Northwind solution and how we can partner to make it a success.
+
+I have a few more questions about the day to help me and the team prepare:
+
+1. How many attendees from will be attending on the meeting day?
+2. Are you able to stay for dinner or lunch with our team?
+3. Would you like to see some sights while you’re in town?
+
+It can be very productive to walk around and take in the sights while discussing business matters. Some of the attractions that we could visit include:
+
+* The Template of Yue Fei,
+* The Zhejiang Art Museum, and
+* The Hangzhou Botanical Guardens
+
+:::
+:::
+
+::: good
+Good example - The second list isn't numbered since it's not for tasks/questions
+:::
+
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
-
-

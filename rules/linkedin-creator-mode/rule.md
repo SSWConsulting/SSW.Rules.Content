@@ -1,4 +1,5 @@
 ---
+seoDescription: LinkedIn creator mode helps you grow your reach, influence, and audience by providing additional tools and features to create engaging content.
 type: rule
 title: LinkedIn – Do you use Creator mode?
 uri: linkedin-creator-mode
@@ -14,9 +15,8 @@ authors:
 related:
   - keep-your-social-media-updated
 created: 2023-11-27T04:42:22.000Z
-archivedreason: null
+archivedreason: obsolete because LinkedIn removed this mode
 guid: a966bc7d-7e28-4496-aba1-d2b6b6eb6067
-
 ---
 
 [Creator mode](https://www.linkedin.com/help/linkedin/answer/a522537) is a profile setting that can help you grow your reach, influence and audience on LinkedIn.

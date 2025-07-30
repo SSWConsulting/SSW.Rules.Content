@@ -1,4 +1,5 @@
 ---
+seoDescription: Prevent secrets from leaking from your code repository by utilizing GitHub's Secret Scanning feature for public repositories or GitHub Enterprise with Advanced Security.
 type: rule
 title: Do you know the best way to prevent secrets leaking from your code repository?
 uri: prevent-secrets-leaking-from-repo
@@ -8,6 +9,7 @@ authors:
 created: 2022-07-08T03:17:54.935Z
 guid: 015572ca-3a3c-4e94-8d96-05a2c4a81e7b
 ---
+
 Despite tooling coming a long way to prevent it, accidentally committing a config file with some secrets in it is far too easy to do.
 
 `youtube: https://www.youtube.com/embed/CY1_trMEJuM`
@@ -16,10 +18,10 @@ Despite tooling coming a long way to prevent it, accidentally committing a confi
 
 Once this occurs, amongst other things, you need to:
 
-* assume breach
-* rotate secrets
-* update affected applications
-* notify affected parties
+- assume breach
+- rotate secrets
+- update affected applications
+- notify affected parties
 
 This is a lot of stressful work!
 
@@ -31,7 +33,7 @@ GitHub Secret Scanning is a freemium feature for public repositories (not config
 
 ### How does GitHub know it has found a secret?
 
-Partners can automatically register their secret patterns and get notified automatically when GitHub detect secret with that pattern in a repo. Once notified, the partner can  invalidate the secret. For example, if GitHub found a Octopus Deploy API Key in a repo; it would call a webhook to tell Octopus to invalidate it. There is a long list of supported partners at [GitHub - Secret Scanning Partners](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/secret-scanning-patterns)
+Partners can automatically register their secret patterns and get notified automatically when GitHub detect secret with that pattern in a repo. Once notified, the partner can invalidate the secret. For example, if GitHub found a Octopus Deploy API Key in a repo; it would call a webhook to tell Octopus to invalidate it. There is a long list of supported partners at [GitHub - Secret Scanning Partners](https://docs.github.com/en/enterprise-cloud@latest/code-security/secret-scanning/secret-scanning-patterns)
 
 ### Setting up on a public repo (free)
 

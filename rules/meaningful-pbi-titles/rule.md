@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you use meaningful Product Backlog Item (PBI) titles? Learn how to create efficient and descriptive PBI titles that make it easy for developers or Product Owners to quickly understand the context and importance of each item.
 type: rule
 title: Do you use meaningful PBI titles?
 uri: meaningful-pbi-titles
@@ -6,8 +7,11 @@ authors:
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
 related:
+  - defining-pbis
+  - explaining-pbis
   - good-email-subject
   - work-in-order-of-importance-aka-priorities
+  - react-to-reviewed-pbis
 redirects:
   - do-you-use-meaningful-pbi-titles
 created: 2022-12-08T07:23:54.000Z
@@ -49,16 +53,16 @@ Figure: Good example - "Important" emoji and text to bring attention to the PBI'
 
 ### ❌ Don't
 
-* Be generic (e.g. "Fix bug in site")  
-* Write a novel in the title  
+* Be generic (e.g. "Fix bug in site")
+* Write a novel in the title
 * Ignore the importance of urgent PBIs
 
 ### ✅ Do
 
-* Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)  
-* Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)  
+* Be specific (e.g. "{{ AREA }} | {{ BEHAVIOUR }}"). See our rule to [order of instructions](/use-the-right-order-of-instructions)
+* Prefix - Identify its urgency (e.g. ❗️ IMPORTANT)
 * Prefix - Identify the type (e.g. 🐛 BUG)  
-  **Note:** Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)  
+  **Note:** Bugs are special case - they should have [greater visibiliy](/management-do-you-fix-bugs-first)
 * Use emojis. See our rule on [emojis in Scrum](/which-emojis-to-use-in-scrum)
 
 ### Good PBI titles examples
@@ -94,12 +98,12 @@ Urgent tasks:
 ::: greybox
 ❗️ IMPORTANT 🐛👷‍♂️ SysAdmin | Northwind app inaccessible through company VPN
 :::
-  
+
 Other examples:
 
 ::: greybox
-🐛 Invoices | Invoice totals are rounded incorrectly  
-  
+🐛 Invoices | Invoice totals are rounded incorrectly
+
 ⚒️ Infrastructure | Implement staging deployment pipeline
 
 ✨ Clients page | Add create/edit client fields

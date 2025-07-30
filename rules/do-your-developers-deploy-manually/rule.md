@@ -1,4 +1,5 @@
 ---
+seoDescription: Automated deployment process eliminates manual errors and ensures quick updates to internal webserver, Australian staging server, and US production sites.
 type: rule
 archivedreason: "Requested by Brendan on \n\nRE: TFS Deployment Rule - Does anyone follow this rule"
 title: Do your developers deploy manually?
@@ -6,13 +7,12 @@ guid: ae32d7b5-32e1-402d-97a3-29a57546fcdb
 uri: do-your-developers-deploy-manually
 created: 2012-01-30T18:42:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
 related: []
 redirects: []
-
 ---
 
 We strongly believe that this process should all be automated and painless. Even the receptionist should be able to make a grammatical change on the website and be able to deploy it.

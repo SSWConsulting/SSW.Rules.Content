@@ -1,4 +1,5 @@
 ---
+seoDescription: Controls - Show full text of hidden ListView data using ToolTip.
 type: rule
 title: Controls - Do you use a ToolTip to show the full text of hidden ListView data?
 uri: controls-do-you-use-a-tooltip-to-show-the-full-text-of-hidden-listview-data
@@ -26,7 +27,7 @@ When you can't see all the text for an item in a ListView you need to expose the
 
 The code to do this is:
 
-``` cs
+```cs
 private ListViewItem hoveredItem;
 
 private void listView1_MouseMove(object sender, MouseEventArgs e) {
@@ -38,7 +39,7 @@ private void listView1_MouseMove(object sender, MouseEventArgs e) {
     if (item == null) {
       toolTip1.SetToolTip(lv, "");
     } else {
-      // Make sure the mouse hovered row has the subitem 
+      // Make sure the mouse hovered row has the subitem
       if (item.SubItems.Count > columnIndex) {
         toolTip1.SetToolTip(lv, item.SubItems[columnIndex].Text);
       } else {

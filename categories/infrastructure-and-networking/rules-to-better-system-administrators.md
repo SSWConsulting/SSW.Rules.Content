@@ -13,7 +13,7 @@ index:
 - have-a-strict-password-security-policy
 - multi-factor-authentication-enabled
 - do-you-have-password-writeback-enabled
-- azure-ad-pim
+- microsoft-entra-pim
 - group-managed-service-account-gmsa
 - remote-desktop-manager
 - windows-admin-center
@@ -24,6 +24,7 @@ index:
 - use-the-distributed-file-system-for-your-file-shares
 - how-to-manage-certificates
 - do-you-use-free-or-paid-ssl-certificates
+- expiring-app-secrets-certificates
 - secure-your-wireless-connection
 - easy-wifi-access
 - keep-your-file-servers-clean
@@ -31,12 +32,12 @@ index:
 - label-your-assets
 - print-server
 - automate-patch-management
-- call-your-system-administrators-before-raising-a-ticket
 - educate-your-developer
 - ups-send-email
 - entra-group-access-reviews
 - run-rsat-from-non-domain-computer
 - what-is-dns
+- tasks-with-a-ticking-clock
 ---
 
 System Administrators (SysAdmins) are the lifeblood of any business. They mantain the infrastructure, networks and systems and cloud of businesses. This is why we have developed these standards for better System Administrators.

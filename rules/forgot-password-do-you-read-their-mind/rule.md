@@ -1,4 +1,5 @@
 ---
+seoDescription: Forgot password process streamlined to save time and effort by auto-filling email address after incorrect login attempts.
 type: rule
 archivedreason: Re-entering the email after an incorrect login attempt and when proceeding to the "Forgot Password" screen is a good security practice in the password reset process. It helps ensure the customer's information remains secure.
 title: Forgot Password - Do you read their mind?
@@ -8,18 +9,17 @@ created: 2015-02-16T03:06:23.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
-Unfortunately here is the normal routine to get an email       with your password.
+Unfortunately here is the normal routine to get an email with your password.
 
 1. You go to a Login form, enter your email and password,
-     and click the 'Login' button.
+   and click the 'Login' button.
 2. You get a validation message like 'Incorrect Password'.
 3. Then you have to click a 'Forgot Password' link to go to
-     another 'Get Password' form, and then they almost always ask
-     you to enter your email again and then click 'Get Password'
-     button.
+   another 'Get Password' form, and then they almost always ask
+   you to enter your email again and then click 'Get Password'
+   button.
 
 <!--endintro-->
 

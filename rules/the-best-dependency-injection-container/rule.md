@@ -1,6 +1,7 @@
 ---
+seoDescription: Discover the best dependency injection containers for .NET applications, including Autofac, Unity, and more, with insights on choosing the right one for your needs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the best dependency injection container? 
 guid: d4fc76e9-0802-48bd-83d7-4e068a19d33b
 uri: the-best-dependency-injection-container
@@ -16,7 +17,7 @@ authors:
   url: https://ssw.com.au/people/yazhi-chen
 related:
 - do-you-use-a-dependency-injection-centric-architecture
-- do-you-generate-the-vs-dependency-graph
+- generate-dependency-graphs
 - do-you-know-what-to-do-about-asp-net-core-aka-asp-net-5-default-dependency-injection
 redirects:
 - do-you-know-the-best-dependency-injection-container-(aka-dont-waste-days-evaluating-ioc-containers)
@@ -27,6 +28,7 @@ redirects:
 ---
 
 ## IoC (Inversion of Control) and Dependency Injection
+
 IoC is a design pattern that shifts the responsibility of managing object dependencies from the individual classes to a centralized container or framework. This decoupling enhances flexibility and scalability by allowing the framework to handle object creation and wiring.
 
 Dependency injection is a method for managing Inversion of Control (IoC). This involves creating an interface and passing it as a parameter, allowing us to determine which implementation of the interface we intend to use.
@@ -39,7 +41,8 @@ However, in larger applications, manually registering dependencies can become cu
 
 <!--endintro-->
 
-## .NET IoC containers:
+## .NET IoC containers
+
 * [.NET built-in Dependency Injection](https://learn.microsoft.com/en-us/dotnet/core/extensions/dependency-injection) (recommended)
 * [Autofac](https://autofac.org/)
 * [Unity](https://github.com/unitycontainer/unity)
@@ -75,6 +78,7 @@ public class Program
     }
 }
 ```
+
 ::: bad
 Bad example - Use the StructureMap IoC container but did not do the proper dependency injection
 :::
@@ -86,6 +90,7 @@ using IHost host = builder.Build();
 using var scope = host.Services.CreateScope();
 scope.ServiceProvider.GetRequiredService<BadgeTaskJob>().Run();
 ```
+
 ::: good
 Good example - Use .NET built-in Dependency Injection for console app
 :::
@@ -97,11 +102,7 @@ builder.Services.AddSingleton<AssetDomain>();
 var app = builder.Build();
 app.Run();
 ```
+
 ::: good
 Good example - Use ASP.Net Core built-in Dependency Injection for web app
 :::
-
-
-
-
-

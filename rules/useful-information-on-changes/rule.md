@@ -1,4 +1,5 @@
 ---
+seoDescription: Include a clear and concise summary of your changes to help reviewers quickly understand what was done.
 type: rule
 archivedreason: Duplicate of [https://www.ssw.com.au/rules/write-a-good-pull-request/](/rules/write-a-good-pull-request/)
 title: Do you include a useful description of your changes?
@@ -14,7 +15,6 @@ related:
   - meaningful-pbi-titles
 created: 2023-02-08T19:59:31.616Z
 guid: e126fb1b-8b28-4712-b928-6ba400274015
-
 ---
 
 When creating a Pull Request with your changes, it is important to have a good description that will help the reviewer to understand what was done.
@@ -38,11 +38,11 @@ Figure: Bad example - Cannot tell what was done here
 **PR description:** Changes made:
 
 1. Added missing video figure to embedded YouTube video
-2. Fixed typo:  
-From:  
-Use emojis. See our rule on emojis in Scrum).  
-To:  
-Use emojis. See our rule on emojis in Scrum
+2. Removed the unecessary closing brackets from:  
+   Use emojis. See our rule on emojis in Scrum).  
+   To:  
+   Use emojis. See our rule on emojis in Scrum
+
 :::
 ::: ok
 Figure: OK example - What was done is clear, but both editor and reviewer may spend too much time on the description of such simple changes

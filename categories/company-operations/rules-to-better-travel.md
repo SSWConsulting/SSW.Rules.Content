@@ -23,7 +23,9 @@ index:
   - use-qantas-bid-now-upgrades
   - do-you-know-the-best-online-accommodation-websites
   - do-you-make-business-travel-easier
+  - monitor-uber-expenses
   - keep-yourself-connected-overseas
+  - phone-as-webcam
 
 ---
 

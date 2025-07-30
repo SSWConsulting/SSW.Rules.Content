@@ -1,19 +1,19 @@
 ---
+seoDescription: Triaging new feedback during a Sprint ensures prioritization and potential inclusion in the next iteration.
 type: rule
-archivedreason: 
+archivedreason:
 title: Triaging - Do you understand that all feedback will be worked on in the next Sprint?
 guid: f5bb9eaa-3e05-4a8e-985c-dbc3e46ce6fe
 uri: triaging-do-you-understand-that-all-feedback-will-be-worked-on-in-the-next-sprint
 created: 2012-05-01T05:15:55.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
-At the beginning of a Sprint, the team will commit to getting a certain subset of the Backlog completed. This is only possible if they focus only on work that is in the Sprint. 
+At the beginning of a Sprint, the team will commit to getting a certain subset of the Backlog completed. This is only possible if they focus only on work that is in the Sprint.
 
 <!--endintro-->
 

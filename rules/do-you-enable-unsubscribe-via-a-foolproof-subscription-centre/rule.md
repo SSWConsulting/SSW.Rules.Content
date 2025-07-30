@@ -1,16 +1,16 @@
 ---
+seoDescription: Enable seamless unsubscribe via Microsoft Dynamics Marketing's foolproof subscription centre, ensuring accurate email address removal and configurable bounce management for effective mail-outs.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you enable unsubscribe via a foolproof subscription centre?
 guid: 43203ca5-095f-48e1-8346-2a9cd46fdbfe
 uri: do-you-enable-unsubscribe-via-a-foolproof-subscription-centre
 created: 2014-10-16T21:47:17.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
-
 ---
 
 Microsoft Dynamics Marketing has inbuilt subscription centres to help people manage their preferences (i.e. unsubscribe) from unwanted marketing lists.

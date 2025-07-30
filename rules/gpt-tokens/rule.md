@@ -1,4 +1,5 @@
 ---
+seoDescription: Generate an SEO-friendly meta description for your content using these guidelines.
 type: rule
 archivedreason:
 title: Do you know how ChatGPT tokens work?

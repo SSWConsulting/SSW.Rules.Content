@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your company's profile with high-quality and consistent employee photos that provide a human connection element.
 type: rule
 title: Do you take great profile photos?
 uri: profile-photos
@@ -8,11 +9,12 @@ authors:
 created: 2021-10-05T23:35:58.245Z
 guid: 67b520f0-86e0-4889-9311-8873c8fdb59d
 ---
-Your employees are the face of the company, so having profile photos that are consistent and high quality will improve your company's profile. 
+
+Your employees are the face of the company, so having profile photos that are consistent and high quality will improve your company's profile.
 
 ### Camera Settings
 
-Profile photos are used to provide a human connection element, so it is best to have a photo that is as close to real life as possible. 
+Profile photos are used to provide a human connection element, so it is best to have a photo that is as close to real life as possible.
 
 1. Focal Length: **35mm – 50mm lens** (full frame equivalent)
    As per [The Camera Versus the Human Eye](https://petapixel.com/2012/11/17/the-camera-versus-the-human-eye/), the closest focal length to a human eye is 43mm, so profile photos in the above range will look the most realistic.
@@ -27,7 +29,7 @@ More on [Do you know the maximum acceptable ISO value for your camera?
 
 ### Background
 
-1. Use a plain background (e.g. white or a light neutral colour). 
+1. Use a plain background (e.g. white or a light neutral colour).
    This will provide a nice clean aesthetic, and will make it easier to edit out the background for transparent assets (e.g. for creating graphics, presentations, and video thumbnails).
 2. Keep the subject a few steps in front of the background to avoid shadows (see lighting plan below)
 3. Ensure the subject is surrounded by the background to reduce the load for editing.
@@ -40,9 +42,9 @@ More on [Do you know the maximum acceptable ISO value for your camera?
 
 1. Use three-point lighting to ensure the subject is dynamic and well-lit:
 
-   * Key light: Primary light source in front of subject that highlights one side.
-   * Fill light: Diffused even light source in front of subject to illuminate all dark areas.
-   * Back light/ Hair light: Accent light source behind the subject to separate them from the background.
+   - Key light: Primary light source in front of subject that highlights one side.
+   - Fill light: Diffused even light source in front of subject to illuminate all dark areas.
+   - Back light/ Hair light: Accent light source behind the subject to separate them from the background.
 
 ::: good
 ![Figure: Good example - 3-point lighting plan](ssw-profile-photos-lighting-plan.png)
@@ -52,8 +54,8 @@ More on [Do you know the maximum acceptable ISO value for your camera?
 
 There are 2 poses suitable for the profile photos:
 
-* Direct to camera
-* ¾ angle to camera
+- Direct to camera
+- ¾ angle to camera
 
 Below are instructions to give to your subject to get them in the correct position:
 

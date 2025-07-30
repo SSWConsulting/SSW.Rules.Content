@@ -1,18 +1,18 @@
 ---
+seoDescription: Use multiple cameras to enhance your video production and create visually appealing videos with cutaways, interviews, and event coverage.
 type: rule
-archivedreason: 
+archivedreason:
 title: Production - Do you use multiple cameras?
 guid: f7b45579-2d68-4514-a8e6-587480fa795a
 uri: production-do-you-use-multiple-cameras
 created: 2012-02-22T01:23:11.0000000Z
 authors:
-- title: Raj Dhatt
-  url: https://ssw.com.au/people/raj-dhatt
-- title: Andrew Forsyth
-  url: https://ssw.com.au/people/andrew-forsyth
+  - title: Raj Dhatt
+    url: https://ssw.com.au/people/raj-dhatt
+  - title: Andrew Forsyth
+    url: https://ssw.com.au/people/andrew-forsyth
 related: []
 redirects: []
-
 ---
 
 To create more visually pleasing videos consider using a multi camera setup.
@@ -23,7 +23,7 @@ The benefit is that you can use the second camera to 'cut away' to (see rule on 
 
 If you are recording a long interview use two (identical) cameras, covering both the presenter and the interviewee.
 
-![Figure: Multi cam setup for single guest speaker interview](3cam\_basic\_setup.gif)  
+![Figure: Multi cam setup for single guest speaker interview](3cam_basic_setup.gif)
 
 If you are recording an event with multiple people and want to maximize the coverage (and obtain cutaway shots) use a second/third camera, either placed on a tripod somewhere of interest or give to someone else to move around with and obtain interesting shots.
 

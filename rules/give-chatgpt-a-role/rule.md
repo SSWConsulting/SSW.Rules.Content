@@ -1,4 +1,5 @@
 ---
+seoDescription: As a business coach, help entrepreneurs identify their unique value proposition and craft a compelling elevator pitch to stand out in their industry.
 type: rule
 title: Do you give ChatGPT a role (e.g. a business coach, an expert
   nutritionist, etc.)?
@@ -9,15 +10,16 @@ authors:
 created: 2023-04-12T13:42:55.753Z
 guid: 7d89adfa-7090-4f9e-a3cc-7af7ac7f3a57
 ---
+
 Assigning a specific role to ChatGPT can help guide the model's responses and ensure they align with the desired expertise or perspective. By providing a clear role, you can focus the generated output on the specific knowledge area or viewpoint you require.
 
 <!--endintro-->
 
 Here are some tips for assigning roles to ChatGPT:
 
-* Be explicit about the role you want ChatGPT to assume in your prompt
-* Ensure the role is relevant to your question or request
-* Consider the level of expertise or perspective needed for your desired response
+- Be explicit about the role you want ChatGPT to assume in your prompt
+- Ensure the role is relevant to your question or request
+- Consider the level of expertise or perspective needed for your desired response
 
 ::: greybox
 

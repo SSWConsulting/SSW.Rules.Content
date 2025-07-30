@@ -1,4 +1,5 @@
 ---
+seoDescription: Measure the effectiveness of your marketing efforts by tracking key metrics and analyzing campaign performance to optimize future strategies.
 type: rule
 title: Analytics - Do you measure the effectiveness of your marketing efforts?
 uri: measure-the-effectiveness-of-your-marketing-efforts

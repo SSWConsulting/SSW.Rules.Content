@@ -1,4 +1,5 @@
 ---
+seoDescription: Organize your workspace efficiently and boost productivity with desk docks that keep desks tidy and cables managed.
 type: rule
 title: Do you use docks to keep desks organized?
 uri: desk-setups

@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure correct casing and wording for "OK" in buttons and content to improve user experience and consistency.
 archivedreason: Moved to https://www.ssw.com.au/rules/avoid-common-mistakes
 type: rule
 title: Do you use "OK" instead of "Ok"?
@@ -8,7 +9,6 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 created: 2014-03-14T06:52:00.000Z
 guid: d214adc2-5c05-4345-9ad5-c37b787ede07
-
 ---
 
 Make sure you use correct casing and wording for "OK" in buttons and content.

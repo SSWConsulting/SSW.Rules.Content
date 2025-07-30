@@ -1,4 +1,5 @@
 ---
+seoDescription: Configure GitHub notifications to reduce email spam and receive valuable updates, allowing you to prioritize important requests and reviews.
 type: rule
 title: Do you configure your GitHub Notifications?
 uri: github-notifications
@@ -14,12 +15,12 @@ created: 2022-03-03T12:25:15.000Z
 archivedreason: null
 guid: 10489ca4-5e42-49af-b502-d3572d573e7f
 ---
+
 Notifications from GitHub can be quite a pain, as they send a lot of emails. This leads to many developers ignoring the important emails they receive.
 
 `youtube: https://www.youtube.com/embed/Lb1slP9jSGk`
 
 <!--endintro-->
-
 
 ### Github
 
@@ -27,7 +28,7 @@ Notifications from GitHub can be quite a pain, as they send a lot of emails. Thi
 ![Figure: Bad example - lots of notifications](./notifications.png)
 :::
 
-To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications). 
+To reduce this spam and to make the notifications have value, make sure to configure your [GitHub Notifications](https://github.com/settings/notifications).
 
 ::: good
 ![Figure: Good example - Turn off Watching settings](watching-notification.png)
@@ -44,7 +45,7 @@ The important one here is to make sure the item marked **Send notifications for 
 ### Outlook
 
 You often want to receive emails when you’re @mentioned or someone requests your review on a pull request, but you probably don’t want to then subscribe to every future thing that happens about it.
- 
+
 You can add a rule in Outlook to automatically delete these:
 
 ![Figure: How to configure the rule in Outlook](outlook-configuration.png)

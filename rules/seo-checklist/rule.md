@@ -1,19 +1,19 @@
 ---
+seoDescription: When designing webpages for SEO, it's crucial to start with a solid checklist that includes essential elements such as title tags, meta descriptions, header tags, and more.
 type: rule
 archivedreason:
-title: Do you design your webpages for SEO with an SEO checklist?
+title: Basics - Do you design your webpages for SEO with an SEO checklist?
 guid: d4e70213-7272-4470-8b93-8a2c54a7b60c
 uri: seo-checklist
 created: 2023-06-14T00:00:00.000Z
 authors:
-- title: Seth Daily
-  url: https://www.ssw.com.au/people/seth-daily
+  - title: Seth Daily
+    url: https://www.ssw.com.au/people/seth-daily
 related:
-- how-google-ranks-pages
-- make-title-h1-and-h2-tags-descriptive
-- use-dashes-in-urls
-- html-meta-tags
-
+  - how-google-ranks-pages
+  - make-title-h1-and-h2-tags-descriptive
+  - use-dashes-in-urls
+  - html-meta-tags
 ---
 
 Do you find yourself reworking pages on your website that weren't created with SEO in mind?

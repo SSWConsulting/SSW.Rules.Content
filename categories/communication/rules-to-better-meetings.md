@@ -7,9 +7,13 @@ index:
 
 - make-sure-the-meeting-needs-to-exist
 - only-invite-the-minimum-number-of-people-possible
+- teams-meetings-vs-group-chats
 - the-3-criteria-that-make-a-good-meeting
+- great-meetings
 - share-the-agenda
+- start-meetings-with-energy
 - recognize-anchoring-effects
+- uncover-hidden-anchor-client
 - stick-to-the-agenda-and-complete-the-meetings-goal
 - creating-action-items
 - loop-someone-in
@@ -17,6 +21,8 @@ index:
 - keep-track-of-a-parking-lot-for-topics
 - getting-a-busy-person-into-the-meeting
 - record-teams-meetings
+- use-ai-for-meeting-notes
+- speak-up-in-meetings
 
 ---
 

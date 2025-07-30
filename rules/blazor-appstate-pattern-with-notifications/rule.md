@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement `INotifyPropertyChanged` for efficient state management in your Blazor applications.
 type: rule
 title: State Management - Do you use the AppState pattern with State Change
   Notification?
@@ -93,7 +94,6 @@ builder.Services.AddScoped<CounterState>();
 
 The ideal time to add a state change handler is when the page/component is being initialized via `OnInitializedAsync()`.
 
-
 ```cs
 protected override async Task OnInitializedAsync()
 {
@@ -105,7 +105,7 @@ protected override async Task OnInitializedAsync()
 
 Once a property is changed, the `PropertyChanged` event will be invoked (by `BaseState<>`) and our custom handler code will be executed.
 
-The Counter page example below calls `StateHasChanged()` when the `PropertyChanged` event is invoked to refresh the view to display the latest state. 
+The Counter page example below calls `StateHasChanged()` when the `PropertyChanged` event is invoked to refresh the view to display the latest state.
 
 ``` cs
 @page "/counterWithPropertyChangeNotification"
@@ -152,9 +152,10 @@ The Counter page example below calls `StateHasChanged()` when the `PropertyChang
 
 **Figure: Full example showing how to inject state, subscribe to state changes and how to unsubscribe from state changes**
 
-
 **Note:** Remember to unsubscribe from the `PropertyChanged` event to avoid any memory leaks. See rule about [when to implement IDisposable](/when-to-implement-idisposable).
 
 Whenever the `IncrementCount()` or `Reset()` methods are invoked, any listeners on the page will invoke the handling code attached to the `PropertyChanged` event - and be able to invoke `StateHasChanged` in order to update their respective views.
 
-T﻿he real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components. 
+The real value of implementing `INotifyPropertyChanged` (or by using an abstraction like `BaseClass<T>` above) is when the same shared state object is used multiple times on the same page and having the `PropertyChanged` event handlers invoked from a single interaction and automatically keeping the view up to date for all components.
+
+Although this mitigates an issue with the [AppState pattern](blazor-basic-appstate-pattern), it is still not a complete solution for all scenarios. For more complex scenarios, consider using a Redux state management pattern. [Fluxor](https://github.com/mrpmorris/Fluxor) is a NuGet package implementing the Redux pattern for Blazor.

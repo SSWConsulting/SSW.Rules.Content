@@ -1,4 +1,5 @@
 ---
+seoDescription: Isolate complex logic evaluations and remove dependencies on instances of objects to improve testability and maintainability.
 type: rule
 title: Do you isolate your logic and remove dependencies on instances of objects?
 uri: isolate-your-logic-and-remove-dependencies-on-instances-of-objects
@@ -25,7 +26,8 @@ Take this for example:
 while ((ActiveThreads > 0 || AssociationsQueued > 0) && (IsRegistered || report.TotalTargets <= 1000 )
  && (maxNumPagesToScan == -1 || report.TotalTargets < maxNumPagesToScan) && (!CancelScan))
 ```
-**Figure: This complex logic evaluation can't be unit tested** 
+
+**Figure: This complex logic evaluation can't be unit tested**
 
 Writing a unit test for this piece of logic is virtually impossible - the only time it is executed is during a scan and there are lots of other things happening at the same time, meaning the unit test will often fail and you won't be able to identify the cause anyway.
 
@@ -34,23 +36,25 @@ We can update this code to make it testable though.
 Update the line to this:
 
 ```cs
-while (!HasFinishedInitializing (ActiveThreads, AssociationsQueued, IsRegistered, 
+while (!HasFinishedInitializing (ActiveThreads, AssociationsQueued, IsRegistered,
  report.TotalTargets, maxNumPagesToScan, CancelScan))
 ```
-**Figure: Isolate the complex logic evaluation** 
+
+**Figure: Isolate the complex logic evaluation**
 
 We are using all the same parameters - however, now we are moving the actual logic to a separate method.
 
 Now create the method:
 
 ```cs
-private static bool HasFinishedInitializing(int ActiveThreads, int AssociationsQueued, bool IsRegistered, 
+private static bool HasFinishedInitializing(int ActiveThreads, int AssociationsQueued, bool IsRegistered,
  int TotalAssociations, int MaxNumPagesToScan, bool CancelScan)
 {
  return (ActiveThreads > 0 || AssociationsQueued > 0) && (IsRegistered || TotalAssociations <= 1000 )
- && (maxNumPagesToScan == -1 || TotalAssociations < maxNumPagesToScan) && (!CancelScan);		
+ && (maxNumPagesToScan == -1 || TotalAssociations < maxNumPagesToScan) && (!CancelScan);
 }
 ```
+
 **Figure: Function of the complex logic evaluation**
 
 The critical thing is that everything the method needs to know is passed in, it mustn't go out and get any information for itself and mustn't rely on any other objects being instantiated. In Functional Programming this is called a "Pure Function". A good way to enforce this is to make each of your logic methods static. They have to be completely self-contained.
@@ -61,11 +65,11 @@ The other thing we can do now is actually go and simplify / expand out the logic
 public class Initializer
 {
     public static bool HasFinishedInitializing(
-        int ActiveThreads, 
-        int AssociationsQueued, 
+        int ActiveThreads,
+        int AssociationsQueued,
         bool IsRegistered,
-        int TotalAssociations, 
-        int MaxNumPagesToScan, 
+        int TotalAssociations,
+        int MaxNumPagesToScan,
         bool CancelScan)
     {
         // Cancel
@@ -92,7 +96,8 @@ public class Initializer
     }
 }
 ```
-**Figure: Simplify the complex logic evaluation** 
+
+**Figure: Simplify the complex logic evaluation**
 
 The big advantage now is that we can unit test this code easily in a whole range of different scenarios!
 
@@ -103,12 +108,12 @@ public class InitializerTests
     [InlineData(2, 20, false, 1200, -1, false, true)]
     [InlineData(2, 20, true, 1200, -1, false, false)]
     public void Initialization_Logic_Should_Be_Correctly_Calculated(
-        int activeThreads, 
-        int associationsQueued, 
-        bool isRegistered, 
-        int totalAssociations, 
-        int maxNumPagesToScan, 
-        bool cancelScan, 
+        int activeThreads,
+        int associationsQueued,
+        bool isRegistered,
+        int totalAssociations,
+        int maxNumPagesToScan,
+        bool cancelScan,
         bool expected)
     {
         // Act
@@ -119,4 +124,5 @@ public class InitializerTests
     }
 }
 ```
+
 **Figure: Write a unit test for complex logic evaluation**

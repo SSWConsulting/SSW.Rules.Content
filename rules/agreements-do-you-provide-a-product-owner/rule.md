@@ -1,6 +1,7 @@
 ---
+seoDescription: Ensure effective software development by designating a Product Owner to make scope decisions and authorize work
 type: rule
-archivedreason: 
+archivedreason:
 title: Agreements - Do you provide a Product Owner?
 guid: 56e3302b-c600-4531-a1da-0f6942c05531
 uri: agreements-do-you-provide-a-product-owner
@@ -8,10 +9,10 @@ created: 2010-05-20T10:10:03.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
-There are lots of stakeholders in a software project. Users, Marketing, Managers, they all have requirements for the new system but if the spec becomes a free-for-all, it is more likely the project will be steered off-course.  
+There are lots of stakeholders in a software project. Users, Marketing, Managers, they all have requirements for the new system but if the spec becomes a free-for-all, it is more likely the project will be steered off-course.
+
 <!--endintro-->
 
 Select a "[Product Owner](/management-do-you-know-who-has-authority)" - who is the sole person able to make scope decisions and authorize work.

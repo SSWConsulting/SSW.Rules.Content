@@ -1,14 +1,19 @@
 ---
+seoDescription: Learn how to effectively summarize decisions and loop decision-makers into meetings with an executive summary for quick action.
 type: rule
-title: Do you know how to loop someone in at the end of a meeting?
+title: Summarize Decisions - Do you know how to loop someone in at the end of a meeting?
 uri: loop-someone-in
 authors:
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
   - share-the-agenda
   - do-you-manage-up
   - share-the-action-items-that-came-up
+  - record-teams-meetings
+  - summary-recording-sprint-reviews
 created: 2021-11-15T22:46:54.884Z
 guid: bae0ea47-1cc1-4a49-ba6e-4797351ab0cf
 ---
@@ -39,15 +44,13 @@ Here are some tips to doing this effectively:
 
 With this strategy, the decision maker can get to the important points quickly. They can be told:
 
-* What's important
-* Why they should care
+* What's important - Why should they care?
 * What action needs to be taken
-* What are the choices
+* What are the choices - don't leave out the recommendation
 * What decisions have to be made and when
-* What is your position - don't leave out the recommendation
 
 ::: greybox
-**Tip:** If you can't add them to the summary, record a summary and send them a link to watch when they have time.
+**Tip:** If you can't add them to the summary, [record a summary](/record-teams-meetings) and send them a link to watch when they have time.
 :::
 
 They know that there is a lot more detail behind what appears to be a one-line summary. If they want more detail, they can drill down or ask for more information.

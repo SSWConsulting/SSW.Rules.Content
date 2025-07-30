@@ -1,19 +1,19 @@
 ---
+seoDescription: Use Hot Reload to speed up your mobile app development by instantly updating your UI without rebuilding the entire app.
 type: rule
-archivedreason: 
+archivedreason:
 title: Debugging - Do you use Hot Reload?
 guid: e8523286-b3e3-49a1-8a9c-c01b43bc7390
 uri: use-hot-reload
 created: 2020-10-07T23:15:56.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related: []
 redirects:
-- do-you-use-hot-reload
-
+  - do-you-use-hot-reload
 ---
 
 Developing mobile apps presents unique challenges compared to web or desktop development. One of the problems is that when using MVVM or using dynamic data on a page, you need to run your app to populate the data and see what your UI will actually look like.

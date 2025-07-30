@@ -1,4 +1,5 @@
 ---
+seoDescription: When deciding whether to fork or branch a repository, consider the purpose, relationship to the original codebase, ownership, scope of changes, and collaboration aspects.
 type: rule
 title: Git - Do you know when to create a fork vs a branch?
 uri: fork-vs-branch
@@ -15,6 +16,7 @@ created: 2023-03-01T04:25:25.111Z
 archivedreason: ""
 guid: 7ef3fe5d-0114-49b1-98c1-fad32caafb5e
 ---
+
 When starting to work on a project, it's common to wonder whether to fork an existing repository or create a new branch for it. Before making this decision, it's important to consider the key differences between the two options.
 
 <!--endintro-->
@@ -32,11 +34,10 @@ If your answer is 'no' to any of the following questions, then you should go for
 
 ### Summary - Forking vs Branching
 
-
-|                                           | Fork                                                                                   | Branch                                                                    |
-| ----------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **Purpose**                               | Create a separate copy of a repository for significant changes or different directions | Develop new features or fix bugs without disrupting the main codebase     |
-| **Relationship to the original codebase** | Completely independent repository                                                                | Linked to the original repository                               |
-| **Ownership**                             | Owned by the user who created them                                                     | Owned by the repository owner                                             |
-| **Scope of changes**                      | Typically involve significant changes                                        | Typically involve smaller changes                                         |
-| **Collaboration**                         | Used to develop ideas in isolation from the main team        | Used to develop ideas that the main team is working on |
+|                                           | Fork                                                                                   | Branch                                                                |
+| ----------------------------------------- | -------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| **Purpose**                               | Create a separate copy of a repository for significant changes or different directions | Develop new features or fix bugs without disrupting the main codebase |
+| **Relationship to the original codebase** | Completely independent repository                                                      | Linked to the original repository                                     |
+| **Ownership**                             | Owned by the user who created them                                                     | Owned by the repository owner                                         |
+| **Scope of changes**                      | Typically involve significant changes                                                  | Typically involve smaller changes                                     |
+| **Collaboration**                         | Used to develop ideas in isolation from the main team                                  | Used to develop ideas that the main team is working on                |

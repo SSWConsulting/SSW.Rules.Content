@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement effective error handling in your SQL stored procedures using THROW for reliable code and easier debugging.
 type: rule
 archivedreason: 
 title: Stored Procedures - Do you use error handling in your Stored Procedures?
@@ -25,9 +26,11 @@ Here’s an example of the syntax used when implementing THROW.
 -- Syntax
 THROW error_number, message, state;
 ```
-**Figure: Example of the THROW syntax** 
+
+**Figure: Example of the THROW syntax**
 
 There are 3 main arguments:
+
 * **error\_number (int)** - Must be greater than or equal to 50000 and less than or equal to 2147483647.
 * **message (nvarchar)** - Maximum of 2048 characters.
 * **state (tinyint)** - Must be between 0 and 255
@@ -39,9 +42,10 @@ The  **state** argument can be used to help pinpoint where the error occurred by
 THROW 51000, 'The record does not exist.', 1;
 ```
 
-**Figure: Example of using THROW** 
+**Figure: Example of using THROW**
 
 ### Implementing Error Handling using THROW
+
 Here we are generating a divide-by-zero error to easily raise a SQL exception and is used as a place holder for logic that we would have in our stored procedure.
 
 ```sql
@@ -105,7 +109,9 @@ BEGIN CATCH
              ERROR_SEVERITY() AS ErrorSeverity,
              ERROR_PROCEDURE() AS ErrorProcedure,
              ERROR_LINE() AS ErrorLine,
-             ERROR_MESSAGE() AS ErrorMessage;		 		             -- Insert logic for persisting log information (Log to table or log to file)
+             ERROR_MESSAGE() AS ErrorMessage;
+   
+               -- Insert logic for persisting log information (Log to table or log to file)
  
              THROW;
 END CATCH;

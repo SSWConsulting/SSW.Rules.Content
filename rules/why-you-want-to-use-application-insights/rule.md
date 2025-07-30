@@ -1,4 +1,5 @@
 ---
+seoDescription: Get holistic insights into your application's performance, errors, and usage with Application Insights.
 type: rule
 title: Do you know why to use Application Insights?
 uri: why-you-want-to-use-application-insights
@@ -24,21 +25,20 @@ Application Insights will tell you if your application goes down or runs slowly 
 
 <!--endintro-->
 
-![Figure:  When developing a public website, you wouldn't deploy without Google Analytics to track metrics about user activity.](Google-analytics.png)  
+![Figure:  When developing a public website, you wouldn't deploy without Google Analytics to track metrics about user activity.](Google-analytics.png)
 
-![Figure: For similar reasons, you shouldn't deploy a web application without metric tracking on performance and exceptions](2020-03-24\_15-27-26.jpg)  
+![Figure: For similar reasons, you shouldn't deploy a web application without metric tracking on performance and exceptions](2020-03-24_15-27-26.jpg)
 
 1. You need a portal for your app
 2. You need to know spikes are dangerous
 3. You need to monitor:
-    1. Errors
-    2. Performance
-    3. Usage
+   1. Errors
+   2. Performance
+   3. Usage
 
+![Figure: Spikes on an Echidna are dangerous](../../assets/r437355_2104314.jpg)
 
-![Figure: Spikes on an Echidna are dangerous](../../assets/r437355\_2104314.jpg)  
-
-![Figure: Spikes on a graph are dangerous](../../assets/sockeye-daily-count.jpg)  
+![Figure: Spikes on a graph are dangerous](../../assets/sockeye-daily-count.jpg)
 
 To add Application Insights to your application, make sure you follow the rule [Do you know how to set up Application Insights?](/how-to-set-up-application-insights)
 

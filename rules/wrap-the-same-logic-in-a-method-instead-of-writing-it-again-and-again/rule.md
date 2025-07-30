@@ -1,4 +1,5 @@
 ---
+seoDescription: "Follow the DRY principle by encapsulating repeated logic into reusable methods for cleaner, more efficient code."
 type: rule
 archivedreason: 
 title: DRY - Do you wrap the same logic in a method instead of writing it repeatedly whenever it's used?
@@ -8,7 +9,8 @@ created: 2018-04-26T23:35:54.0000000Z
 authors:
 - title: Adam Cogan
   url: https://ssw.com.au/people/adam-cogan
-related: []
+related:
+  - avoid-repetition
 redirects:
 - do-you-wrap-the-same-logic-in-a-method-instead-of-writing-it-again-and-again-whenever-its-used
 
@@ -62,10 +64,10 @@ public class ErrorEmail
     }
 }
 ```
-::: bad
-Bad example - Write the same logic repeatedly 
-:::
 
+::: bad
+Bad example - Write the same logic repeatedly
+:::
 
 ```csharp
 public class WarningEmail
@@ -107,5 +109,5 @@ public class EmailHelper
 ```
 
 ::: good
-Good example - Put the same logic in a method and make it reusable 
+Good example - Put the same logic in a method and make it reusable
 :::

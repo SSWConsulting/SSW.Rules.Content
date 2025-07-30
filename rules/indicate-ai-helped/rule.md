@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to indicate AI assistance transparently using emojis and boost trust & adoption internally
 type: rule
 title: Do you indicate when AI helped? 🤖
 uri: indicate-ai-helped

@@ -1,6 +1,7 @@
 ---
+seoDescription: Create a comprehensive deployment plan to ensure smooth updates and rollbacks, including step-by-step instructions for deploying from scratch, updating versions, rolling back, and updating schema or data.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you have a deployment plan?
 guid: f730bb7f-e390-4f50-90e6-5d460779aedc
 uri: do-you-have-a-deployment-plan
@@ -8,12 +9,11 @@ created: 2011-08-26T19:34:05.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
-Instructions are very important when maintaining a project. When someone new joins the project, you want to make sure that they can easily find the documentation to do tasks like setting up the project and deploying it. 
+Instructions are very important when maintaining a project. When someone new joins the project, you want to make sure that they can easily find the documentation to do tasks like setting up the project and deploying it.
 
-See the rule "[Do you make instructions at the beginning and improve it gradually for web projects?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually)" 
+See the rule "[Do you make instructions at the beginning and improve it gradually for web projects?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually)"
 
 <!--endintro-->
 

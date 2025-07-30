@@ -7,6 +7,7 @@ redirects:
   - rules-to-better-internal-work
 index:
   - bench-master
+  - internal-priority-alignment
   - know-what-your-staff-are-working-on
   - participate-in-daily-scrum-meetings
 ---

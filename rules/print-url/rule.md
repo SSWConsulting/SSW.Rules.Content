@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to improve SEO by printing URLs next to links with CSS, avoiding them on elements like breadcrumbs and logos
 type: rule
 archivedreason: 
 title: Do you keep the URL next to each link on printing?
@@ -38,6 +39,7 @@ In specific cases, like on breadcrumbs and logo, you don't want these URL's, so 
   content: none;
 }
 ```
+
 ::: good  
 ![Figure: Good example - Printing links on the content but avoiding it on obvious places, like the logo and bradcrumbs](print-url.jpg)  
 :::

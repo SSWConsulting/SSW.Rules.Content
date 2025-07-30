@@ -1,4 +1,5 @@
 ---
+seoDescription: Figma prototyping features help designers create interactive components and responsive layouts for exceptional user experiences across devices.
 type: rule
 title: Do you build interactive prototypes in Figma?
 uri: figma-prototypes
@@ -8,6 +9,7 @@ authors:
 created: 2023-12-15T04:29:01.737Z
 guid: a0836b52-0b01-44e5-a110-8c7496b1a7a9
 ---
+
 Figma is a powerful design tool that offers several prototyping features that are valuable for UI designers. Here are a few of the top Figma prototyping features:
 
 `youtube: https://youtu.be/-d6zNGeF59M?si=dYJCN_Hf3zKXiHTX`
@@ -33,10 +35,10 @@ Responsive design is the backbone of creating exceptional user experiences acros
 
 ## Bonus tips
 
-* Start with low-fidelity prototypes
-* Focus on key interactions
-* Consider user flow and navigation
-* Use realistic content
-* Test on real devices
-* Accessibility considerations
-* Maintain consistency
+- Start with low-fidelity prototypes
+- Focus on key interactions
+- Consider user flow and navigation
+- Use realistic content
+- Test on real devices
+- Accessibility considerations
+- Maintain consistency

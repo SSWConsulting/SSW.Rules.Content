@@ -1,7 +1,7 @@
 ---
 type: rule
 archivedreason: 
-title: Do you know how to use Social Media effectively in China?
+title: China - Do you know how to use social media effectively in China?
 guid: 3c17b4cb-791f-4513-a402-549039328459
 uri: do-you-know-how-to-use-social-media-effectively-in-china
 created: 2020-09-24T23:20:13.0000000Z
@@ -31,7 +31,7 @@ However while we often try to draw comparisons with these platforms with their w
 
 Do you know the best platforms to use in China? Here is a list of our top 5:
 
-### 1. WeChat (The Chinese Super App)
+## 1. WeChat (The Chinese Super App)
 
 WeChat started as an instant messaging app similar to WhatsApp but has morphed into a ‘super app’ that now allows you to do just about anything! Users can perform a wide variety of activities such as making transactions, ordering food, booking movie tickets, calling a taxi, even playing games. It now has more than 1 billion active users.
 
@@ -50,7 +50,7 @@ There are 4 types of Official  WeChat Accounts; “Subscription Accounts”, “
 
 ![Figure: SSW's SugarLearning WeChat Mini Program Log-in page & Mini Program](WeChat-Mini-Program.png)
 
-### 2. Weibo (The Facebook of China)
+## 2. Weibo (The Facebook of China)
 
 Weibo is an social media platform where people go not only post, share and interact with each other, but also follow trends and see the news. This is the place for content to go viral and for Chinese Influences, known as KOLs, to build their online communities. Like Facebook Live, It has its own live stream platform which is often used for product promotion. Conveniently it also has E-commerce integration which mean that people can link their accounts to Alipay and purchase products with one click.
 
@@ -62,7 +62,7 @@ Why you should consider using it:
 * Q&A postings increased by 400% in 2018 compared to 2017
 * 82 per cent of Weibo users shop online
 
-### 3. Youku (The YouTube of China)
+## 3. Youku (The YouTube of China)
 
 Often referred to as the YouTube of China, Youku is a video hosting service that is great for long-form videos. While there are popular short-form video platforms, like Tik Tok, Youku has remained the popular source of videos for people who want to gain greater knowledge in a subject, or to watch the news.
 
@@ -77,7 +77,7 @@ Why you should consider using it:
 
 ![Figure: Youku would have a very familiar feel for our Western audience as seen from this video feed](Youku.png)
 
-### 4. Baidu (The Google Search of China)
+## 4. Baidu (The Google Search of China)
 
 93% of online experiences in the Western world begin with a Google Search. In China it is search engine Baidu that dominates with 90% of online search starting there. That’s \*billions\* of searches per month!
 
@@ -93,7 +93,7 @@ _\* The Cost per click is lower but be warned - Baidu does have some strict paym
 
 ![Figure: A search for 'SSW' using Baidu, we are organically No 1 on this page](Baidu.png)
 
-### 5. Bilibili (Up & coming alternate to Youku)
+## 5. Bilibili (Up & coming alternate to Youku)
 
 We all know that the best marketers are using video to sell their products and directly engage their audience online. Brands should not overlook the usefulness of branded online video for their audience. Similar to how YouTube experiences huge popularity in the West, China’s video platforms such as Youku and iQiyi are successful with the local Chinese audience. But one live streaming platform that is often overlooked is the video-sharing platform Bilibili.
 

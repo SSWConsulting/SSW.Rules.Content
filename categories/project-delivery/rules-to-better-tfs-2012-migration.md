@@ -8,9 +8,8 @@ index:
 - do-you-know-how-to-upgrade-your-tfs2010-databases-the-big-one
 - backup-your-databases-tfs2012-migration
 - plan-your-additional-steps-tfs2012-migration
-- do-you-turn-off-database-mirroring-before-upgrading-your-tfs-databases
+- turn-off-database-mirroring-before-upgrading-your-tfs-databases
 - does-your-user-account-have-sql-server-system-administrator-privileges-in-sql-server
-
 ---
 
 **Update: TFS 2012 has been replaced by TFS 2015 - if you're moving to TFS 2015, see our [Rules to Better TFS 2015 Migration](/rules-to-better-tfs-2015-migration).**

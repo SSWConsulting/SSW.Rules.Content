@@ -8,7 +8,7 @@ index:
 - the-best-learning-resources-for-react
 - how-to-easily-start-a-react-project
 - best-react-build-tool
-- the-best-package-manager-for-react
+- best-package-manager-for-node
 - best-practice-for-managing-state
 - do-you-know-the-best-sample-applications
 - fetch-data-react

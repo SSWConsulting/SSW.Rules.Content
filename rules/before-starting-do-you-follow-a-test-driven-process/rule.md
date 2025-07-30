@@ -1,22 +1,22 @@
 ---
+seoDescription: Developers ensure code quality by following a test-driven process, involving continuous integration and gated check-in.
 type: rule
-archivedreason: 
+archivedreason:
 title: Before starting - Do you follow a Test Driven Process?
 guid: 786cd996-54da-4864-9362-26893d5acb4d
 uri: before-starting-do-you-follow-a-test-driven-process
 created: 2011-11-18T03:52:57.0000000Z
 authors:
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
-- title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
+  - title: Tristan Kurniawan
+    url: https://ssw.com.au/people/tristan-kurniawan
 related: []
 redirects:
-- (before-starting)-do-you-follow-a-test-driven-process
-
+  - (before-starting)-do-you-follow-a-test-driven-process
 ---
 
-Never allow a situation where a developer can check outcode and the code does not compile – or the unit tests are not all green. This is called “breaking the build” and the punishment in our office is 20 push-ups and fixing broken links for an hour!  
+Never allow a situation where a developer can check outcode and the code does not compile – or the unit tests are not all green. This is called “breaking the build” and the punishment in our office is 20 push-ups and fixing broken links for an hour!
 
 <!--endintro-->
 
@@ -27,7 +27,7 @@ Never allow a situation where a developer can check outcode and the code does no
 5. Check-In
 
 Figure: Bad example - wrong process
-![Figure: Before you start cooking prepare all your ingredients. Before you start coding, "Get Latest" the right way](BeforeCoding.jpg)  
+![Figure: Before you start cooking prepare all your ingredients. Before you start coding, "Get Latest" the right way](BeforeCoding.jpg)
 
 1. Get latest
 2. Compile
@@ -46,7 +46,7 @@ Figure: Bad example - wrong process
 15. Check that Continuous Integration (CI) build was successful(If GC was skipped)
 
 Figure: Good example - right process
-**
-**
+\*\*
+\*\*
 
 **Note:** You should have both a Gated-Check-in (GC) and a Continuous Integration (CI) build on every branch.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Tackle challenging tasks first to prioritize valuable contributions and set a precedent for sequential productivity.
 type: rule
 title: Do you tackle the hard things first?
 uri: hard-tasks-first
@@ -8,7 +9,6 @@ authors:
 created: 2024-02-06T13:42:55.753Z
 guid: 61f2d0f5-d4f2-491b-87b9-ea3a34c4c934
 ---
-
 
 In the realm of productivity and task management, there's a common tendency to avoid the most challenging tasks, often due to the discomfort or fear associated with them. However, it's these challenging tasks that are frequently the most valuable. Tackling the hard things first not only ensures that these valuable tasks get the attention they deserve but also sets a precedence for working sequentially and methodically through your to-do list.
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Migrating an existing user store to an ExternalAuthProvider, such as IdentityServer or Azure AD, requires mapping users and handling pre-existing company users and new registrants.
 type: rule
 title: Do you know how to migrate an existing user store to an ExternalAuthProvider?
 uri: migrate-an-existing-user-store-to-an-externalauthprovider
@@ -10,9 +11,8 @@ authors:
 created: 2023-10-31T04:31:12.396Z
 guid: 38a5988b-1740-4120-840d-116ad6e91566
 redirects:
-- integrate-identityserver-with-an-existing-user-store
-- migrate-an-existing-user-store-to-an-externalauthprovider
-
+  - integrate-identityserver-with-an-existing-user-store
+  - migrate-an-existing-user-store-to-an-externalauthprovider
 ---
 
 When integrating an external authentication provider (IdentityServer, Azure AD or Microsoft Entra ID etc.) with an existing ASP.NET Core application which uses ASP.NET Core Identity, challenges arise due to different user identification systems.
@@ -54,7 +54,7 @@ Figure: Retrieving existing user by using the Email claim from the JWT token uti
 
 #### Users known to the application but not authenticated via ExternalAuthProvider
 
-Retrieve the SubId from the JWT provided by the ExternalAuthProvider. Use ASP.NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0)  method to associate this SubId as an external login with the user's record.
+Retrieve the SubId from the JWT provided by the ExternalAuthProvider. Use ASP.NET Core Identity's [`AddLoginAsync()`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) method to associate this SubId as an external login with the user's record.
 
 ```csharp
 var subId = token.Claims.FirstOrDefault(c => c.Type == "sub");
@@ -62,17 +62,17 @@ await _userManager.AddLoginAsync(newUser, new UserLoginInfo(EXTERNAL_AUTH_PROVID
 ```
 
 ::: greybox
-**Note**: In the example above the "EXTERNAL\_AUTH\_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY\_SERVER\_EXTERNAL\_LOGIN = "IdentityServer"
+**Note**: In the example above the "EXTERNAL_AUTH_PROVIDER" is a constant which contains the identifier for your external authentication provider. e.g. IDENTITY_SERVER_EXTERNAL_LOGIN = "IdentityServer"
 :::
 
 #### Future Authentications
 
-For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)) method.
+For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)>) method.
 
 ### ✅ Benefits
 
-* Seamless authentication experience for existing users
-* Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) and [`FindAsync`](https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108))
+- Seamless authentication experience for existing users
+- Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0) and [`FindAsync`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108)>)
 
 ## 2. New ExternalAuthProvider registrants
 
@@ -125,6 +125,6 @@ var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, s
 
 ### ✅ Benefits
 
-* Facilitates the seamless integration of new users to the ecosystem.
-* Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
-* Streamlined process, avoiding manual or ad-hoc registration steps.
+- Facilitates the seamless integration of new users to the ecosystem.
+- Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
+- Streamlined process, avoiding manual or ad-hoc registration steps.

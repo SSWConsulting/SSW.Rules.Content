@@ -1,17 +1,17 @@
 ---
+seoDescription: Update and refine your marketing plan regularly to ensure alignment with core goals and optimal campaign performance.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you maintain and update your marketing plan?
 guid: 7a51470b-beb1-4c38-ad00-2163ad8f310c
 uri: maintain-and-update-your-marketing-plan
 created: 2020-05-28T18:37:47.0000000Z
 authors:
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
 related: []
 redirects:
-- do-you-maintain-and-update-your-marketing-plan
-
+  - do-you-maintain-and-update-your-marketing-plan
 ---
 
 We suggest you follow up and update your metrics and results on a monthly basis to help you understand if your strategy and your marketing efforts are working.

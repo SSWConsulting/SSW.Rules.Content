@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure code safety and quality with branch protection rules in Git.
 type: rule
 title: Do you protect your main branch? aka branch protection
 uri: protect-your-main-branch
@@ -26,13 +27,13 @@ Branch protection is a feature in version control software that allows teams to 
 
 This can include:
 
-- Number of reviewers
-- Linked work items e.g. PBIs (super useful to track back to why the code was changed)
-- Any feedback has been addressed/resolved
-- Enforcing specific merge types
-- Checking that builds pass
-- Checking other services e.g. code quality like SonarQube
-- Automatically adding specific people to review the code
+* Number of reviewers
+* Linked work items e.g. PBIs (super useful to track back to why the code was changed)
+* Any feedback has been addressed/resolved
+* Enforcing specific merge types
+* Checking that builds pass
+* Checking other services e.g. code quality like SonarQube
+* Automatically adding specific people to review the code
 
 ::: bad  
 ![Figure: Bad example – No protection – anyone can make unreviewed changes](protect-branch-bad-1.jpg)  

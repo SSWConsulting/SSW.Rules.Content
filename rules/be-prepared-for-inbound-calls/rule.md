@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively prepare for inbound calls using our proven script and question strategy.
 type: rule
 archivedreason:
 title: Do you know how to be prepared for inbound calls?
@@ -12,7 +13,8 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
   - title: Brittany Lawrence
     url: https://ssw.com.au/people/brittany-lawrence
-related: []
+related:
+  - use-ai-receptionist
 redirects:
   - do-you-know-how-to-be-prepared-for-inbound-calls
 ---

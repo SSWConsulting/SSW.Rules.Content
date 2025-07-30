@@ -1,4 +1,5 @@
 ---
+seoDescription: Code Auditor helps you identify and resolve broken links, HTML errors, and Google Lighthouse issues in your codebase.
 type: rule
 title: Do you know how to manage errors with Code Auditor
 uri: managing-errors-with-code-auditor
@@ -8,13 +9,14 @@ authors:
 created: 2023-06-05T05:51:53.697Z
 guid: df5dca2b-077b-4f09-bb1a-46c3ae0cd2da
 ---
+
 Code auditing is an essential practice that empowers developers, quality assurance teams, and organizations to identify and rectify potential flaws, weaknesses, and security risks within their codebase.
 
 [SSW Code Auditor](https://codeauditor.com/) is the perfect tool to audit your code helping you find:
 
-* Broken links
-* HTML errors
-* Google Lighthouse issues
+- Broken links
+- HTML errors
+- Google Lighthouse issues
 
 <!--endintro-->
 

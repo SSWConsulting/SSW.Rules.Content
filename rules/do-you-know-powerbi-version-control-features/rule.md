@@ -1,10 +1,17 @@
 ---
+seoDescription: Discover how to effectively use version control for Power BI reports with PBIP format and Git integration via Microsoft Fabric. Learn to manage your reports using Azure DevOps seamlessly.
 type: rule
 title: Do you know the Power BI version control features?
 uri: do-you-know-powerbi-version-control-features
 authors:
   - title: Manu Gulati
     url: https://ssw.com.au/people/manu-gulati
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Calum Simpson
+    url: https://ssw.com.au/people/calum-simpson
+  - title: Kosta Madorsky
+    url: https://ssw.com.au/people/kosta-madorsky
 related:
   - do-you-use-version-control-with-power-bi
 redirects: []
@@ -20,28 +27,30 @@ To follow best practices for version control for Power BI reports you must know 
   * Requires either Fabric capacity or a Power BI Premium per User license
   * Currently only integrates with Git repos in Azure DevOps
 
-The following video provides an overview of these features. 
+The following video provides an overview of these features.
 
 `youtube: https://www.youtube.com/watch?v=OdkS7DF7ElY`
 **Video: Empower every BI professional to do more with Microsoft Fabric | OD06 (Watch from min 5:00 to 13:00)**
 
-At a high-level you can set up version control as follows. Click on the links to get more detailed instructions on Microsoft Learn. 
+![Figure: Once version control has been setup you can see more clearly what changed in the report.](good-example-compare-changes-2_1719542104669.png)
 
 1. Convert all your Power BI reports to the PBIP format
+
    * First enable Power BI Projects in Power BI Desktop - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option
    * Second "Save As" all your .pbix files as .pbip
 
      ![Figure: Enable PBIP format in Power BI Desktop](enable-pbip-format.png)
 
      ![Figure: Convert all .pbix files to PBIP format](save-as-pbip.png)
-     
+
    * Converting reports to the PBIP format decomposes it into the following artifacts.
+
      * [A Dataset folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset), which contains files and folders representing a Power BI dataset
      * [A Reports folder](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report), which contains the report settings, metadata for custom visuals, etc.
-     
+
      ![Figure: PBIP artifacts](ProjectFolders.png)
-     
-3. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note, as of this writing Power BI's Git integration only works with Azure DevOps. 
+
+2. Commit the PBIP artifacts into a Git repository in an Azure DevOps project. Note, as of this writing Power BI's Git integration only works with Azure DevOps.
 
    **Note:** Once you convert the report Power BI Desktop will save a copy of the data into a file called [cache.abf](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-dataset#pbicacheabf) which gets stored in a ".pbi" folder inside the Dataset folder. This file should not be saved in version control. You can create a .gitignore file to prevent Git from committing it to the repository.
 
@@ -53,5 +62,4 @@ At a high-level you can set up version control as follows. Click on the links to
    ![Figure: The .gitignore file](Gitignore.png)
    :::
 
-4.  [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)
-
+3. [Connect a workspace in Power BI Service with a branch in the Git repo in Azure DevOps](https://learn.microsoft.com/en-us/fabric/cicd/git-integration/git-get-started?tabs=commit-to-git#connect-a-workspace-to-an-azure-repo)

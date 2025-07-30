@@ -1,17 +1,17 @@
 ---
+seoDescription: Asking prospects high-gain questions helps prioritize potential leads and projects, avoiding wasted time on clients with unrealistic timelines or budgets.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you ask prospects high-gain questions?
 guid: bf04416e-8d29-4624-8afb-4288915e25cd
 uri: ask-prospects-high-gain-questions
 created: 2018-06-08T21:17:07.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-ask-prospects-high-gain-questions
-
+  - do-you-ask-prospects-high-gain-questions
 ---
 
 Getting the right information from prospects helps you prioritize potential leads and projects and won't have you running around unnecessarily after hot air.

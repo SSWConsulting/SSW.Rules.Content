@@ -1,6 +1,10 @@
 ---
 type: rule
-title: What is ChatGPT?
+title: Do you know what ChatGPT is?
+seoDescription: ChatGPT is a conversational AI language model that understands
+  natural language and responds with human-like accuracy, making it suitable for
+  various applications including customer service, chatbots, and text
+  generation.
 uri: what-is-chatgpt
 authors:
   - title: Calum Simpson
@@ -22,9 +26,9 @@ ChatGPT is a user friendly way to interact with OpenAI's [GPT](/what-is-gpt) mod
 
 ![Figure: ChatGPT is built by OpenAI, which has Microsoft as an investor!](https://user-images.githubusercontent.com/79821522/217777805-6062870f-a7c0-4d46-b701-dd0141f6bddc.png)
 
-ChatGPT is a conversational language model from OpenAI, accessible both on web and mobile that makes it easy to have conversations with OpenAI's GPT models, and adds lots of cool features on top, allowing your conversations to be much more natural.
+ChatGPT is a conversational language model developed by OpenAI. It is available on both web and mobile platforms, making it easy to interact with Open AI’s GPT models. It also includes smart features that enhance the experience, making conversations feel more natural and intuitive. 
 
-It also saves your message history so that you can go back and look at your conversations later!  
+It also saves your message history so that you can go back and look at your conversations later!
 
 ![Figure: ChatGPT provides human like responses!](chatgptfindnorthwind.png)
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you use email for tasks only, not for chatting? Learn how to minimize mailbox clutter and improve communication with these simple tips.
 type: rule
 title: Do you send emails for tasks only?
 uri: use-email-for-tasks-only
@@ -9,6 +10,7 @@ authors:
     url: https://ssw.com.au/people/cameron-shaw
 related:
   - dones-is-your-inbox-a-task-list-only
+  - use-quiet-hours-in-teams
 redirects:
   - do-you-use-email-for-tasks-only-not-chatting
   - dones-do-you-use-email-for-tasks-only-not-communication
@@ -16,6 +18,7 @@ created: 2009-03-23T03:30:08.000Z
 archivedreason: null
 guid: bf435d82-e523-4e77-bc31-a9f35cd35df1
 ---
+
 Email is a very powerful business tool. The main problem, however, is that for most people it is out of control - emails build up until they are impossible to manage. To help minimize mailbox clutter, try these tips:
 
 <!--endintro-->
@@ -31,12 +34,13 @@ Email is a very powerful business tool. The main problem, however, is that for m
 Using your mailbox as a task list also saves you from having to use inefficient paper-based cards to track your tasks.
 
 ::: email-template
-|          |     |
+
+| | |
 | -------- | --- |
-| From:    | Tim |
-| To:      | Mark |
+| From: | Tim |
+| To: | Mark |
 | Subject: | What do you think? |
-::: email-content  
+::: email-content
 
 ### Hi Mark
 
@@ -51,12 +55,13 @@ Figure: Bad example - A bad email is one that gives no clear action items and wi
 :::
 
 ::: email-template
-|          |     |
+
+| | |
 | -------- | --- |
-| From:    | Tim |
-| To:      | Mark |
+| From: | Tim |
+| To: | Mark |
 | Subject: | Improve menu - Options |
-::: email-content  
+::: email-content
 
 ### Hi Mark
 
@@ -73,10 +78,19 @@ Figure: Good example - A good email has a clear task to be done (decision was ma
 :::
 
 ::: greybox
-**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule
-E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
+**Tip #1:** It is better when email is not used as your first choice for communication. Of course, if the person is unavailable, you may have to. In this case, also follow the "as per our conversation" rule. E.g. "As per the message I left on your phone... I want to make a decision on... My suggestions is..." and detail the questions you would like answered.
 
-**Tip #2:** Make sure to number your tasks, if there is more than one, as per "[Do you number small tasks related to 1 topic](/number-tasks-questions)?"
+**Tip #2:** Make sure to [number your tasks/questions](/number-tasks-questions).
 :::
 
 **Video:** [Top 10+ Rules to Better Email Communication with Ulysses Maclaren](https://www.youtube.com/watch?v=LAqRokqq4jI)
+
+::: greybox
+
+### Use YakShaver and make it even easier
+
+You can save time by not writing emails manually.
+
+With [YakShaver](https://yakshaver.ai), simply record your message and let the AI do the rest. YakShaver writes a clear and complete email (or PBIs/GitHub Issues for projects with a backlog) assigning tasks and notifying the right people through CC or @mentions.
+
+:::

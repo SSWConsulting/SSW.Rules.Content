@@ -1,4 +1,5 @@
 ---
+seoDescription: Continuous learning is key to staying ahead of the curve in a rapidly evolving industry.
 type: rule
 title: Do you continuously learn?
 uri: continuous-learning
@@ -7,8 +8,8 @@ authors:
     url: https://ssw.com.au/people/brady-stroud
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: 
- - use-the-brains-of-your-company
+related:
+  - use-the-brains-of-your-company
 redirects: []
 created: 2024-04-25T08:44:37.000Z
 archivedreason: null

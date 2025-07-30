@@ -1,4 +1,5 @@
 ---
+seoDescription: "Optimize your LinkedIn profile by adding essential links to enhance credibility and online visibility."
 type: rule
 title: LinkedIn - Do you connect your online platforms?
 uri: linkedin-contact-info

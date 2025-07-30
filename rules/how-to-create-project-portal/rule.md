@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a project portal for your Azure DevOps team project by temporarily enabling a SharePoint site and then configuring it.
 type: rule
 title: Do you know how to create your Project Portal (for existing Azure DevOps
   Team Projects)?
@@ -9,6 +10,7 @@ authors:
 created: 2021-08-31T18:17:43.194Z
 guid: e5adaaeb-1a44-4022-bdfe-5fc5b186ff81
 ---
+
 Unfortunately the Azure DevOps team did not have time to build the feature to create a SharePoint site, after the project is created. Next version, we hope.
 
 <!--endintro-->

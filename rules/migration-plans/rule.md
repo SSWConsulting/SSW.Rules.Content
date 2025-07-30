@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a migration plan by targeting multiple target frameworks (TFMs) to avoid introducing breaking changes while migrating from .NET Framework to .NET.
 type: rule
 title: Do you create a migration plan?
 uri: migration-plans
@@ -13,16 +14,19 @@ authors:
     url: https://www.ssw.com.au/people/thomas-iwainski/
   - title: Jernej Kavka
     url: https://www.ssw.com.au/people/jernej-kavka
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
 related:
   - dotnet-upgrade-assistant
   - migrate-from-system-web-to-modern-alternatives
+  - use-banned-api-analyzers
 created: 2023-09-06T23:08:53.979Z
 guid: d47bb1e4-261f-436e-84fc-fdb1b21e0d36
 redirects:
   - do-you-create-a-migration-plan
 ---
 
-Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app *before* you start breaking things! So how do you ensure your migration is being done the right way?
+Migrating from .NET Framework (4.x) to the latest .NET (5+) brings huge advantages to your app's performance, hosting fees, and maintainability. But it's important that you understand what the road to .NET 5+ looks like for your app _before_ you start breaking things! So how do you ensure your migration is being done the right way?
 
 <!--endintro-->
 
@@ -46,8 +50,19 @@ If you host your app on premise, it's also worth checking your infrastructure to
 
 Once you've addressed any technical debt or architectural concerns, you can start gauging the amount of work involved in the migration itself.
 
+### Identify Unavailable Technologies and Obsolete APIs
+
+Several technologies available in .NET Framework are no longer supported in modern .NET (6+). These include APIs like AppDomains, .NET Remoting, and Code Access Security (CAS). Identifying these early helps you avoid unexpected blockers later in your migration.  
+See Microsoft's documentation: [.NET Framework technologies unavailable on .NET](https://learn.microsoft.com/en-us/dotnet/core/porting/net-framework-tech-unavailable)
+
+For a complete list of obsolete APIs, broken down by .NET version, check out:
+[Obsolete features in .NET 5+](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview)
+
+Finding usages of these legacy or obsolete APIs gives you a strong sense of the blast radius of your migration and highlights areas where modern replacements will be needed. This is also the perfect time to begin banning deprecated APIs to avoid regression.
+Check out our rule on using the [BannedApiAnalyzers](/use-banned-api-analyzers/)
+
 ::: greybox
-**Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes *upstream*. If you migrate top-down (or outside-in), you will find yourself having to rewrite *downstream* code multiple times.
+**Tip:** You want to work from the bottom up in N-tiered applications (or inside-out with Onion architecture). This will allow you to work through the migration incrementally, and address any breaking changes _upstream_. If you migrate top-down (or outside-in), you will find yourself having to rewrite _downstream_ code multiple times.
 :::
 
 ### Upgrade the csproj files
@@ -78,7 +93,7 @@ try-convert --keep-current-tfms
 
 Now you have shiny new SDK-style `csproj` files, it's time to see what breaks!
 
-Targeting both your current .NET Framework version *and* your future .NET version will give you the following information:
+Targeting both your current .NET Framework version _and_ your future .NET version will give you the following information:
 
 * Expose any build errors you receive when trying to build for .NET
 * Expose any build errors you receive when trying to build for .NET Framework
@@ -86,7 +101,7 @@ Targeting both your current .NET Framework version *and* your future .NET versio
 ::: greybox
 Why is this important?
 
-Imagine you *don't* do this, and instead, you simply target the newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
+Imagine you _don't_ do this, and instead, you simply target the newer version of .NET. You get a list of 100 build errors due to breaking changes - too many for 1 Sprint (or 2 Sprints, or 3).
 
 You start fixing these build errors. You go from 100 errors to 50 - progress!
 Then you're told there's an urgent bug/feature/whatever that needs fixing ASAP. But you've still got 50 build errors when you're targeting .NET.
@@ -97,7 +112,7 @@ You switch to .NET Framework, build the project, and...25 build errors?!
 
 While you were fixing those build errors, you wrote code that isn't compatible with .NET Framework. Now you have an urgent bug/feature/whatever, as well as 25 new build errors you have to solve ☠️.
 
-Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET, *without* introducing breaking changes in .NET Framework.
+Using multiple TFMs from day 1 ensures you are fixing the breaking changes for .NET, _without_ introducing breaking changes in .NET Framework.
 
 This allows you up to work on your migration PBIs **incrementally**, while still allowing you to deploy your app on the current .NET version - win/win!
 :::
@@ -109,6 +124,24 @@ In all your project files, change the `TargetFramework` tag to `TargetFrameworks
 ```
 
 ![Figure: Bad and good examples when targeting multiple target frameworks](good-example-vs-bad-example-tfms.png)
+
+### Watch for SYSLIB diagnostic warnings
+
+As soon as you add .NET 5+ to your `targetFrameworks`, you'll likely encounter build warnings like:
+`SYSLIB0011: BinaryFormatter serialization is obsolete and should not be used.`
+
+These warnings are part of Microsoft's structured obsolescence plan. Each `SYSLIBxxxx` code identifies an API that has beeen marked obsoltet due to security, performance or support issues.
+Many of these APIs are **removed completely in .NET 8+**, so treating these as blockers early will save you from future runtime issues.
+
+[See the full list of SYSLIB warnings](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/obsoletions-overview)
+
+**Recommended:**
+
+* Fix them immediately or raise PBIs if he fix is non-trivial
+* Add `<WarningsAsErrors>SYSLIB*</WarningsAsErrors>` to your `.csproj` files to stop deprecated APIs creeping back in
+* For sticter enforcement, consider using [BannedApiAnalyzers](/use-banned-api-analyzers/)
+
+This makes sure progress isn't undone later by new usages of deprecated APIs.
 
 ### Creating the migration backlog
 

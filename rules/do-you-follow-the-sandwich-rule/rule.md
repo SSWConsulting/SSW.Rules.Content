@@ -1,18 +1,18 @@
 ---
+seoDescription: Start your communications with positive feedback to set a constructive tone and maintain healthy relationships.
 type: rule
-archivedreason: 
+archivedreason:
 title: Communication - Do you start and end with positive feedback? (aka The 'Sandwich' rule)
 guid: ceed511c-d54d-4818-912f-6f8eb314440a
 uri: do-you-follow-the-sandwich-rule
 created: 2012-09-25T17:57:25.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- communication-do-you-follow-the-sandwich-rule-avoid-curt-emails-when-correcting-people
-- communication-do-you-follow-the-sandwich-rule-(avoid-curt-emails-when-correcting-people)
-
+  - communication-do-you-follow-the-sandwich-rule-avoid-curt-emails-when-correcting-people
+  - communication-do-you-follow-the-sandwich-rule-(avoid-curt-emails-when-correcting-people)
 ---
 
 Avoid curt emails when correcting people. The sandwich rule approach is an effective way to provide feedback to other team members and clients.

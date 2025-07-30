@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to get noticed by effectively communicating your successes and handling client feedback.
 type: rule
 archivedreason:
 title: Do you make sure you get brownie points?
@@ -19,6 +20,7 @@ People are not mind-readers (unless they are telepathic!), so when you get good 
 ![Figure: Brownie points](brownie-points.png)
 
 ::: email-template  
+
 | | |
 | -------- | --- |
 | From: | Sophie Belle - SSW Developer |

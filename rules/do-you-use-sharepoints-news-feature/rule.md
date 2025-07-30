@@ -1,4 +1,5 @@
 ---
+seoDescription: SharePoint's News feature streamlines information dissemination and encourages team collaboration with email integration, providing a central platform for news updates.
 type: rule
 title: Do you use SharePoint's News feature?
 uri: do-you-use-sharepoints-news-feature
@@ -8,6 +9,7 @@ authors:
 created: 2023-06-05T03:04:46.947Z
 guid: cbb99544-2e40-4df3-b044-6cfaafcbf282
 ---
+
 Sharing the news is an effective way to update the team about important developments, announcements, and articles. SharePoint's News feature provides a streamlined platform for disseminating information and engaging your team members, now enhanced with the capability to send news directly to email.
 
 ![Figure: Sharepoint News - Streamlined and easily accessable](https://github.com/SSWConsulting/SSW.Rules.Content/assets/115961605/03071b29-8a61-44f1-83a7-8a7956f97712)
@@ -17,8 +19,8 @@ Sharing the news is an effective way to update the team about important developm
 1. Navigate to SharePoint and locate the "My News" section on the left side of the page.
 2. If you're using the News feature for the first time:
 
-* Select "Create news post" to create a new post from scratch or select from a template.
-* Alternatively, you can select a news post from the previous month and click the "+ New" button, followed by "Copy of this News Post" to duplicate the content.
+- Select "Create news post" to create a new post from scratch or select from a template.
+- Alternatively, you can select a news post from the previous month and click the "+ New" button, followed by "Copy of this News Post" to duplicate the content.
 
 ### Creating the News
 
@@ -41,15 +43,15 @@ Sharing the news is an effective way to update the team about important developm
 
 ## Benefits of using SharePoint's News feature, now with email integration
 
-* Enhanced visibility and discoverability: Provides a central platform for news, now accessible both on SharePoint and directly via email.
+- Enhanced visibility and discoverability: Provides a central platform for news, now accessible both on SharePoint and directly via email.
 
-* Structured and organized content: News posts are well-formatted, with the added benefit of being optimized for email viewing.
+- Structured and organized content: News posts are well-formatted, with the added benefit of being optimized for email viewing.
 
-* Engagement and collaboration: SharePoint's News feature encourages interaction and collaboration among team members. Readers can leave comments, ask questions, or provide feedback directly on the news post, fostering a sense of community and promoting active engagement.
+- Engagement and collaboration: SharePoint's News feature encourages interaction and collaboration among team members. Readers can leave comments, ask questions, or provide feedback directly on the news post, fostering a sense of community and promoting active engagement.
 
-* Version control and archiving: With SharePoint, you can easily maintain a version history of your news posts. This allows you to track changes, revert to previous versions if needed, and keep a comprehensive record of past announcements or updates.
+- Version control and archiving: With SharePoint, you can easily maintain a version history of your news posts. This allows you to track changes, revert to previous versions if needed, and keep a comprehensive record of past announcements or updates.
 
-* Analytics and insights: SharePoint provides analytics and usage data, allowing you to track the reach and engagement of your news posts. You can Gain insights from both SharePoint and email interactions, understanding the full scope of your news post's impact.
+- Analytics and insights: SharePoint provides analytics and usage data, allowing you to track the reach and engagement of your news posts. You can Gain insights from both SharePoint and email interactions, understanding the full scope of your news post's impact.
 
 ![](2023-06-05_13-40-03.png)
 

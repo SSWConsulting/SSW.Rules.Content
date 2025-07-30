@@ -1,4 +1,5 @@
 ---
+seoDescription: Test and automate database logic with Visual Studio's unit tests for SQL Server, ensuring stored procedures, triggers, functions, and views are thoroughly tested.
 type: rule
 title: Do you unit test your database?
 uri: unit-test-your-database
@@ -12,14 +13,15 @@ created: 2020-03-12T23:28:06.000Z
 archivedreason: null
 guid: 75f0c6b8-84cb-472d-a27c-9debc9b147ee
 ---
+
 We've all heard of writing unit tests for code and business logic, but what happens when that logic is inside SQL server?
 
 With Visual Studio, you can write database unit tests. These are useful for testing out:
 
-* Stored Procedures
-* Triggers
-* User-defined functions
-* Views
+- Stored Procedures
+- Triggers
+- User-defined functions
+- Views
 
 These tests can also be added to the same library as your unit, web and load tests.
 

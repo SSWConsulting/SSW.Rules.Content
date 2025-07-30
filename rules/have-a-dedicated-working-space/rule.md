@@ -1,21 +1,21 @@
 ---
+seoDescription: Setup a dedicated working space at home to boost productivity and maintain mental well-being while working remotely.
 type: rule
-archivedreason: 
+archivedreason:
 title: Setup - Do you have a dedicated working space?
 guid: 14828c0f-2966-4d74-a8ad-096630e31936
 uri: have-a-dedicated-working-space
 created: 2020-03-20T01:31:43.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related:
   - have-a-routine
   - how-to-maintain-productivity
   - have-an-exercise-routine
   - make-yourself-available-on-different-communication-channels
 redirects:
-- setup-do-you-have-a-dedicated-working-space
-
+  - setup-do-you-have-a-dedicated-working-space
 ---
 
 At home, just like at work, it is good to have a space that is completely dedicated to your job. This will allow you to get into a work mindset when in this space, but also at the end of the day or during breaks allow you to remove yourself from the work environment.

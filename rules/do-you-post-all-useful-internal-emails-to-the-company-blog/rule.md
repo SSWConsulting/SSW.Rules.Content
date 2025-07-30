@@ -1,21 +1,21 @@
 ---
+seoDescription: Boosting company reputation and search engine visibility by publishing useful internal emails on the company blog, highlighting intelligent staff insights.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you post all useful internal emails to the company blog?
 guid: 0a8bdf69-a52f-43dd-a3d2-7590b0f49ea4
 uri: do-you-post-all-useful-internal-emails-to-the-company-blog
 created: 2011-06-13T09:55:41.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects: []
-
 ---
 
-Most companies have intelligent people who make some relevant and useful points for the greater community or industry, while writing internal emails. Those emails should be published to the company blog for the following reasons:  
+Most companies have intelligent people who make some relevant and useful points for the greater community or industry, while writing internal emails. Those emails should be published to the company blog for the following reasons:
 
 <!--endintro-->
 

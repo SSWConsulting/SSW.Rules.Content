@@ -1,17 +1,17 @@
 ---
+seoDescription: Learn how to easily enter and email a Hubdoc receipt, streamline your accounting processes, and save time with automated invoicing rules.
 type: rule
-archivedreason: 
+archivedreason:
 title: Expenses - Do you know how to enter and email a Hubdoc receipt?
 guid: 49a15b05-63f5-495c-8640-d65e9645d043
 uri: do-you-know-how-to-enter-a-hubdoc-receipt
 created: 2020-06-12T02:17:59.0000000Z
-authors: 
+authors:
   - title: Stephan Fako
     url: https://ssw.com.au/people/stephan-fako
 related: []
 redirects:
-- do-you-know-how-to-enter-and-file-a-hubdoc-receipt
-
+  - do-you-know-how-to-enter-and-file-a-hubdoc-receipt
 ---
 
 Hubdoc is great for tracking and accounting for receipts, but if you don't use it in the right way the reports can be made more difficult to reconcile.

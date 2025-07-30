@@ -1,4 +1,5 @@
 ---
+seoDescription: Save each script as you go, ensuring a stable database system through change control and versioning.
 type: rule
 title: Do you save each script as you go?
 uri: do-you-save-each-script-as-you-go
@@ -13,26 +14,27 @@ created: 2009-10-06T23:42:21.000Z
 archivedreason: null
 guid: 6d3155dc-6a2c-4215-8fa5-27e69a763987
 ---
-Every time a change is made to your product's SQL Server Database, script out the change. 
-Nowadays if you are using frameworks such as EF Core, this will most likely be handled for you with migrations. For older applications, you can use SQL Management Studio or Visual Studios, but every time you make changes you must save the change as a .sql script file so any alterations are scripted. 
 
-Everything you do on your database will be done at least three times ([once on development, once for testing and once on production](/do-you-have-separate-development-testing-and-production-environments)). Change control is one of the most important processes to ensuring a stable database system. 
+Every time a change is made to your product's SQL Server Database, script out the change.
+Nowadays if you are using frameworks such as EF Core, this will most likely be handled for you with migrations. For older applications, you can use SQL Management Studio or Visual Studios, but every time you make changes you must save the change as a .sql script file so any alterations are scripted.
 
-Let's see how its done. 
+Everything you do on your database will be done at least three times ([once on development, once for testing and once on production](/do-you-have-separate-development-testing-and-production-environments)). Change control is one of the most important processes to ensuring a stable database system.
+
+Let's see how its done.
 
 <!--endintro-->
 
 ### Modern Frameworks (EF)
 
-Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy. 
+Every change you do to the schema must be either saved in code or scripted out. We recommend using Migrations feature of Entity Framework. It allows you to keep track of all the changes in the similar fashion as SQL Deploy.
 
 ![Figure: Example - SSW Rewards  EF Migrations table](ef-migrations.png)
 
-Watch video: [How to Use Code First with Entity Framework - Brendan Richards](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more. 
+Watch video: [How to Use Code First with Entity Framework - Brendan Richards](http://tv.ssw.com/4902/use-code-first-entity-framework-brendan-richards) to learn more.
 
 ### Legacy
 
-Keep the scripts in a separate directory, this is often named `SQLScripts`. This folder should only contain .sql files. 
+Keep the scripts in a separate directory, this is often named `SQLScripts`. This folder should only contain .sql files.
 
 1. When you have an error you can see exactly which script introduced it
 2. You don't have to use a compare tool like Red-Gate SQL Compare at the end of your development cycle
@@ -44,7 +46,7 @@ Keep the scripts in a separate directory, this is often named `SQLScripts`. This
 
 **File naming convention:**
 
-The script file naming convention should be as follows: 
+The script file naming convention should be as follows:
 
 `XXXXX_ObjectType_ObjectName_ColumnName_Description_SchemaMasterInitials.sql`
 

@@ -1,4 +1,5 @@
 ---
+seoDescription: Prepare for a day of innovative ideas and collaboration at our Brainstorming Day, where teams will work together to develop and present their projects.
 type: rule
 title: Pre event - Do you have a Brainstorming Day agenda?
 uri: brainstorming-agenda
@@ -17,6 +18,7 @@ created: 2023-10-22T02:15:11.000Z
 archivedreason: null
 guid: 92892225-e09d-49a2-b05b-7e41949329f7
 ---
+
 It's go time - teams have been allocated and the day has arrived.
 
 **Tip:** This agenda can change depending on how many people are attending. E.g. If you have fewer people attending, you could start presentations earlier.
@@ -57,9 +59,10 @@ See video on: [https://ssw.com.au/rules/use-the-brains-of-your-company](/use-the
 * **3:30 pm** - 🎤 Start presentations (Tip: Start presentations earlier/later depending on how many people are attending). You should have someone doing the timekeeping and ring a bell to help keep them on track. For example:
 
   * 7 mins - one soft bell 🛎️
-  * 8 mins - two soft bell  🛎️🛎️
-  * 9 mins - 3 soft bells   🛎️🛎️🛎️
+  * 8 mins - two soft bell 🛎️🛎️
+  * 9 mins - 3 soft bells 🛎️🛎️🛎️
   * 10 mins - 4 soft bells and then another one each 30 sec 🛎️🛎️🛎️🛎️
+
 * **6:00 pm** – 🍻 The pub!
 :::
 :::

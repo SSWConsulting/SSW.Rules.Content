@@ -1,26 +1,26 @@
 ---
+seoDescription: Enforce comments with check-ins using Team Foundation Server to improve code transparency and collaboration.
 type: rule
-archivedreason: 
+archivedreason:
 title: Comments - Do you enforce comments with check-ins?
 guid: 38313df6-15aa-448a-b978-edc43b582694
 uri: comments-do-you-enforce-comments-with-check-ins
 created: 2011-11-18T03:52:40.0000000Z
 authors:
-- title: David Klein
-  url: https://ssw.com.au/people/david-klein
-  noimage: true
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
-- title: Tristan Kurniawan
-  url: https://ssw.com.au/people/tristan-kurniawan
-- title: Drew Robson
-  url: https://ssw.com.au/people/drew-robson
+  - title: David Klein
+    url: https://ssw.com.au/people/david-klein
+    noimage: true
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
+  - title: Tristan Kurniawan
+    url: https://ssw.com.au/people/tristan-kurniawan
+  - title: Drew Robson
+    url: https://ssw.com.au/people/drew-robson
 related: []
 redirects: []
-
 ---
 
-Team Foundation Server is great, and one of its neat features is enforcing comments when checking in code. Without comments, some of the other built in features like History become redundant without comments.  
+Team Foundation Server is great, and one of its neat features is enforcing comments when checking in code. Without comments, some of the other built in features like History become redundant without comments.
 
 <!--endintro-->
 
@@ -29,7 +29,7 @@ You should have good comments... if you are struggling use [Excuses For Lazy Cod
 :::
 
 ::: bad
-![Figure: Bad Example: No Comments against the check-ins we don’t know what changes were made in each revision](15-07-2014 10-21-04 AM.png) 
+![Figure: Bad Example: No Comments against the check-ins we don’t know what changes were made in each revision](15-07-2014 10-21-04 AM.png)
 :::
 
 ::: good

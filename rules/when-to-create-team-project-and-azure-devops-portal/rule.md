@@ -1,4 +1,5 @@
 ---
+seoDescription: When to create a team project and Azure DevOps Portal for a prospect/client? Create a TFS project and SharePoint site once a prospect/ client is ready to move forward after a Specification Review.
 type: rule
 title: Do you know when to create the team project and Azure DevOps Portal for a prospect/client?
 uri: when-to-create-team-project-and-azure-devops-portal
@@ -34,9 +35,9 @@ When a prospect/client is ready to move forward (typically after a Specification
 
 A few other things to do frequently do right away:
 
-* If required, create an external user account for the Product Owner. This enables the client access to your SharePoint Extranet to see the documents, sites and reports.
-* If required, let the client know they can upload additional files, or download a copy of the project for testing and deployment.
-* Check permissions and access rights
-* Consider synchronizing the project documents offline via Outlook or SharePoint Workspaces
-* Edit the SharePoint site landing wiki-page and upload some pictures of the team
+- If required, create an external user account for the Product Owner. This enables the client access to your SharePoint Extranet to see the documents, sites and reports.
+- If required, let the client know they can upload additional files, or download a copy of the project for testing and deployment.
+- Check permissions and access rights
+- Consider synchronizing the project documents offline via Outlook or SharePoint Workspaces
+- Edit the SharePoint site landing wiki-page and upload some pictures of the team
   ![Figure: Once your 'TFS Portal' is ready, add a picture of the team site, prior to letting them know about the new site](addimgtoteamsite.jpeg)

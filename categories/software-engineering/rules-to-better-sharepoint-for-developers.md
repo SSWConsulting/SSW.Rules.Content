@@ -4,6 +4,12 @@ title: Rules to Better SharePoint for Developers
 guid: 3cb0a860-e693-4960-9c8e-4815ce842481
 uri: rules-to-better-sharepoint-for-developers
 index:
+- sharepoint-development
+- do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer
+- do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sharepoint-development-environment
+- consistent-sharepoint-sites
+- do-you-get-rid-of-legacy-items-in-sharepoint-online
+- best-sharepoint-navigation
 - are-your-developers-managing-your-projects-with-tfs-with-proven-agile-scrum-and-alm-strategies
 - asp-net-vs-sharepoint-development-do-you-know-deployment-is-different
 - asp-net-vs-sharepoint-development-do-you-know-source-control-is-different
@@ -12,8 +18,6 @@ index:
 - do-you-create-a-minimal-master-page
 - do-you-know-common-web-configuration-stuff-you-will-need
 - do-you-know-the-asp-net-skills-that-do-not-translate-aka-different
-- do-you-know-to-never-touch-a-production-environment-with-sharepoint-designer
-- do-you-know-that-developers-should-do-all-their-custom-work-in-their-own-sharepoint-development-environment
 - do-you-know-the-asp-net-skills-that-translate
 - do-you-know-the-best-ways-to-deploy-a-sharepoint-solution
 - do-you-make-small-incremental-changes-to-your-vsewss-projects
@@ -22,12 +26,11 @@ index:
 - do-you-know-to-try-to-use-the-content-query-web-part-cqwp-over-the-data-view-web-part-dvwp
 - do-you-know-what-is-broken-in-workflow
 - do-you-use-sharepoint-designer-well
-- style-files-for-deployment-in-sharepoint
 - do-you-always-use-site-columns-instead-of-list-columns
 - do-you-know-when-to-use-caml-instead-of-object-model
 - do-you-know-when-to-use-smartpart-or-webpart
 - does-your-sharepoint-site-have-a-favicon
-- do-you-know-where-to-add-design-files-for-deployment
+- style-files-for-deployment-in-sharepoint
 - do-you-know-why-you-need-to-use-solution-package-instead-of-deployment-manually
 - do-you-know-you-cant-think-of-data-the-same-way
 - do-you-let-your-designers-loose-on-sharepoint
@@ -49,7 +52,7 @@ index:
 - do-you-turn-off-auto-activation-on-farm-and-web-application-scope-features
 - do-you-know-when-to-use-bcs
 - do-you-avoid-using-bcs-when-you-need-workflow
-- do-you-know-how-to-format-dates-to-include-the-weekday
+- weekdays-on-date-selectors
 - do-you-know-what-collaboration-means
 - sharepoint-rules-categories-do-you-know-how-to-make-the-title-consistent
 - do-you-know-that-you-cant-use-2010-managed-metadata-with-office-2007-out-of-the-box
@@ -69,12 +72,9 @@ index:
 - the-best-forms-solution
 - reduce-diagnostic-logging-level-after-configure-hybrid-search
 - do-you-turn-off-auto-update-on-your-servers
-- do-you-get-rid-of-legacy-items-in-sharepoint-online
 - do-you-use-the-right-service-in-sharepoint-2013
 - never-dispose-objects-from-spcontext-current
 - do-you-turn-off-auto-update-on-your-sharepoint-servers
-- consistent-sharepoint-sites
-- best-sharepoint-navigation
 
 ---
 

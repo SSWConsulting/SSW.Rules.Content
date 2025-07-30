@@ -1,6 +1,7 @@
 ---
+seoDescription: Develop cross-platform apps using C# and XAML with .NET MAUI, offering 96% code reuse across iOS, Android, and UWP platforms.
 type: rule
-title: | 
+title: |
   Do you use .NET MAUI (was Xamarin)?
 uri: use-net-maui
 authors:
@@ -14,9 +15,10 @@ redirects:
   - use-xamarin-forms
 created: 2020-10-05T22:18:32.000Z
 guid: 954d9b68-7185-472b-917c-407aa1a7df26
-archivedreason: | 
+archivedreason: |
   Replaced by [https://www.ssw.com.au/rules/build-cross-platform-apps](/rules/build-cross-platform-apps)
 ---
+
 Xamarin has evolved beyond simply being an abstraction of the platform native APIs for iOS, Android, and UWP. It is now the .NET Multi-platform App UI (.NET MAUI).
 
 Where previously you could write shared business logic in C# but needed to write your UI in either Xamarin.Android or Xamarin.iOS, now you can write cross-platform UI code in a single .NET MAUI project.

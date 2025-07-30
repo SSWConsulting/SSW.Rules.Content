@@ -1,10 +1,13 @@
 ---
+seoDescription: Make your Google Maps profile stand out with compelling images and up-to-date business information. Ensure a strong online presence by showcasing high-quality photos of your products, services, team, or premises, and confirm legitimacy with exterior building shots.
 type: rule
 title: Google Business - Do you make your Google Maps profile look awesome?
 uri: google-maps-profile
 authors:
   - title: Seth Daily
     url: https://www.ssw.com.au/people/seth-daily
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 created: 2023-07-30T00:00:00.000Z
 archivedreason: null
 guid: d60a52fb-9b90-4abf-812e-0696ec4697c3
@@ -38,3 +41,7 @@ Make sure your business information is up to date. The important fields are:
 ### Respond to Reviews
 
 It shows a commitment to customer satisfaction if you respond to reviews (especially negative ones). It's important to periodically respond to reviews so that anybody scanning your profile sees that activity.
+
+### Encourage New Reviews
+
+Encourage your clients to leave reviews and make it easy for them to leave feedback. A good and easy way is to have a QR code printed and hung up on the wall so they can easily find you on Google My Business to leave a review. Provide them with an excellent customer experience so they have great things to talk about regarding your company.

@@ -1,19 +1,19 @@
 ---
+seoDescription: Manage audience interactivity during presentations by setting clear guidelines and redirecting off-topic questions to maintain a productive Q&A session.
 type: rule
-archivedreason: 
+archivedreason:
 title: Production - Do you manage audience interactivity?
 guid: cb5a3f63-85d9-4a08-8fc3-6cfb8fb4ab4a
 uri: production-do-you-manage-audience-interactivity
 created: 2013-05-24T01:08:56.0000000Z
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-One of the hardest things to deal with when presenting to an audience is the correct way to deal with questions. 
+One of the hardest things to deal with when presenting to an audience is the correct way to deal with questions.
 
 Try and give firm guidelines when you start as to the correct way to ask a question.
 

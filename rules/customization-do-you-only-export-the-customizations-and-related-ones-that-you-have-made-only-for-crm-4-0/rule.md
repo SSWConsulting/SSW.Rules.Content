@@ -1,20 +1,20 @@
 ---
+seoDescription: Customize CRM schema wisely, only exporting and importing changes to specific entities or relationships to avoid unexpected overriding of existing customizations.
 type: rule
-archivedreason: 
+archivedreason:
 title: Customization - Do you only export the customizations and related ones that you have made?
 guid: e1de3a90-811b-457d-91fd-ac3e780b9833
 uri: customization-do-you-only-export-the-customizations-and-related-ones-that-you-have-made-only-for-crm-4-0
 created: 2012-12-10T18:20:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Mehmet Ozdemir
-  url: https://ssw.com.au/people/mehmet-ozdemir
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Mehmet Ozdemir
+    url: https://ssw.com.au/people/mehmet-ozdemir
 related: []
 redirects:
-- customization-do-you-only-export-the-customizations-and-related-ones-that-you-have-made-(only-for-crm-4-0)
-- customization-do-you-only-export-the-customizations-and-related-ones-that-you-have-made
-
+  - customization-do-you-only-export-the-customizations-and-related-ones-that-you-have-made-(only-for-crm-4-0)
+  - customization-do-you-only-export-the-customizations-and-related-ones-that-you-have-made
 ---
 
 Sometimes less is better, CRM customizations are cumulative, this means that a customization that you import will override your existing schema. So if you're only working on for example Account entity, you should only export the Account entity's customization and any related entities in any new relationship that you have added to the schema. This avoids unexpected overriding existing entity's customization that potentially can break your CRM system.

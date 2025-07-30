@@ -1,4 +1,5 @@
 ---
+seoDescription: Preparedness is key to successful Scrum meetings, with daily scrums focused on progress updates and sprint planning, review, and retrospective meetings requiring specific preparation for optimal collaboration.
 type: rule
 title: Scrum Meetings - Do you know what to prepare for each meeting?
 uri: meeting-do-you-know-what-to-prepare-for-each-meeting
@@ -11,7 +12,8 @@ created: 2010-04-30T05:31:56.000Z
 archivedreason: null
 guid: b5d3893f-34f7-4b77-9a7f-96cdebb7aab9
 ---
-In Scrum, meetings are time boxed. Team members should be well prepared in order to accomplish the meeting goals in time. 
+
+In Scrum, meetings are time boxed. Team members should be well prepared in order to accomplish the meeting goals in time.
 
 <!--endintro-->
 
@@ -20,15 +22,12 @@ In Scrum, meetings are time boxed. Team members should be well prepared in order
 This is time boxed to 15 mins. All members of the team should be well prepared by:
 
 * Being ready on time
-* (If your team is estimating tasks) Having their "Remaining hours" up-to-date – read 
-      [Do you update your tasks before the daily Scrum meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
-* Be ready to answer the 3 main questions:
-      - What did you do yesterday? e.g. "Yesterday I did xxx"
-      - What are you doing today? e.g. "Today I will do yyy"
-      - Do you foresee any impediments or roadblocks? e.g. "I might hit a roadblock today because of xxx"
+* (If your team is estimating tasks) Having their "Remaining hours" up-to-date – read
+  [Do you update your tasks before the daily Scrum meeting?](/meeting-do-you-update-your-tasks-before-the-daily-scrum)
+* Be ready to answer the 3 main questions: - What did you do yesterday? e.g. "Yesterday I did xxx" - What are you doing today? e.g. "Today I will do yyy" - Do you foresee any impediments or roadblocks? e.g. "I might hit a roadblock today because of xxx"
 
 * Remember to say "Let's park that conversation for after the Daily Scrum". Major discussions are not to be conducted during the time boxed Scrum meeting.
-* Being online on Skype (especially for team members in different locations).
+* Being on the video call (especially for team members in different locations).
 
 ### Sprint Review Meetings
 
@@ -36,9 +35,9 @@ All members of the team must be well prepared by:
 
 * Deploying the latest iteration of the product
 * Being available **30 minutes** before the meeting
-* Setting up and testing the projector with a computer before the meeting starts
-* Making sure remote members are connected via Skype and/or TeamViewer before the meeting starts
-* Nominating in advance another member of the team to take notes from the presentation
+* Setting up and testing the technology in the room (ie. projector, TV, HDMI cable etc.) with a computer before the meeting starts
+* Making sure remote members are connected via video call before the meeting starts
+* Nominating in advance another member of the team to take notes from the presentation [(or using an AI scribe)](https://www.ssw.com.au/rules/best-ai-tools/)
 * Deciding, in advance, the order in which PBIs should be presented; priority, Sprint backlog order, logical order and minimizing presenter and presentation medium switching should be taken into account.
 * Controlling the time spent on the PBI presentation
 

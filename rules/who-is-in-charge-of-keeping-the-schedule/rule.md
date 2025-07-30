@@ -1,21 +1,21 @@
 ---
+seoDescription: Empower Your Speakers - A Checklist for a Successful Event
 type: rule
-archivedreason: 
+archivedreason:
 title: Do your speakers know what they need to do at an event?
 guid: 818e17dc-7f35-4339-8d17-15b3e3b58255
 uri: who-is-in-charge-of-keeping-the-schedule
 created: 2014-12-31T00:41:13.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Penny Walker
-  url: https://ssw.com.au/people/penny-walker
-- title: Camilla Rosa Silva
-  url: https://www.ssw.com.au/people/camilla-rosa-silva
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Penny Walker
+    url: https://ssw.com.au/people/penny-walker
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
-- do-your-speakers-know-what-they-need-to-do-at-an-event
-
+  - do-your-speakers-know-what-they-need-to-do-at-an-event
 ---
 
 It is really important that your speakers feel empowered, so make sure you give them the tools they need to run their event well.
@@ -30,13 +30,13 @@ Share the agenda with the audience, so they know the break times.
 
 We recommend the following breaks:
 
-| Schedule | Time |
-| :------------- | :----------- |
-| Registration | 9 am |
-| Morning tea | 10:30 am (15 min) |
-| Lunch |1 pm - 2 pm|
-| Afternoon tea | 3:30 pm (15 min) |
-| Finish | 5 pm |
+| Schedule      | Time              |
+| :------------ | :---------------- |
+| Registration  | 9 am              |
+| Morning tea   | 10:30 am (15 min) |
+| Lunch         | 1 pm - 2 pm       |
+| Afternoon tea | 3:30 pm (15 min)  |
+| Finish        | 5 pm              |
 
 ### 2. Breaks
 

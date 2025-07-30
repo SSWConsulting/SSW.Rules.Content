@@ -1,4 +1,5 @@
 ---
+seoDescription: Behavior-Driven Development (BDD) simplifies test case understanding by enabling organizations to define use cases in plain language, integrating with testing frameworks.
 type: rule
 title: Do you follow BDD?
 uri: bdd
@@ -14,6 +15,7 @@ related:
 created: 2021-10-06T04:39:11.925Z
 guid: c336ab74-ca08-4d86-864a-7b6a9b27359b
 ---
+
 In the old days, reading and understanding test cases was something only developers could do. Behavior-Driven Development (BDD) starts to solve this problem by enabling organizations to define their use cases in plain language and integrate these aspects with testing frameworks.
 
 <!--endintro-->
@@ -24,12 +26,12 @@ First think about the different scenarios that you want to test, then write them
 
 ::: greybox
 **Feature**: Greeting Message
-    Participant sees a greeting message
+Participant sees a greeting message
 
 **Scenario**: Participant sees a greeting message
-	Given I visit the website
-	When I navigate to the greeting screen
-	Then I see the greeting message
+Given I visit the website
+When I navigate to the greeting screen
+Then I see the greeting message
 :::
 ::: good
 Figure: Good example - Gherkin syntax scenarios (Given, When, Then)
@@ -58,6 +60,7 @@ public async Task ThenISeeTheGreetingMessage()
     Assert.IsTrue(message == GreetingMessage);
 }
 ```
+
 ::: good
 Figure: Good example - Test steps to run, matching the Gherkin Syntax
 :::

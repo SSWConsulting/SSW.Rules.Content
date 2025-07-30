@@ -1,4 +1,5 @@
 ---
+seoDescription: How LINQ has evolved - A brief history of language integrated query in .NET from ArrayLists to IQueryable<T>.
 type: rule
 title: Do you know how LINQ has evolved?
 uri: how-linq-has-evolved
@@ -10,6 +11,7 @@ authors:
 created: 2021-12-13T16:14:34.287Z
 guid: 77170593-5069-45ee-baf1-318356e37efa
 ---
+
 How LINQ has evolved:
 
 <!--endintro-->
@@ -27,7 +29,7 @@ ArrayList greeks = new ArrayList();
     greeks.Add("Alexopoulos");
     greeks.Add("Gianopoulos");
     greeks.Add("Michaelides");
- 
+
     //and
     ArrayList names = new ArrayList();
     foreach(string g in greeks)
@@ -52,7 +54,7 @@ List<string> greeks = new List<string>();
 greeks.Add("Alexopoulos");
 greeks.Add("Gianopoulos");
 greeks.Add("Michaelides");
- 
+
 //and
 List<string> names = new List<string>();
 foreach(string g in greeks)
@@ -61,7 +63,7 @@ foreach(string g in greeks)
     {
         names.Add(g);
     }
-}  
+}
 ```
 
 ### In .NET 3.5 - nicer to query
@@ -69,7 +71,7 @@ foreach(string g in greeks)
 **(System.Linq)**
 
 ```cs
-IQueryable<out T> : IEnumerable<T>, 
+IQueryable<out T> : IEnumerable<T>,
          IQueryable, IEnumerable
 ```
 
@@ -80,7 +82,7 @@ List<string> greeks = new List<string>();
 greeks.Add("Alexopoulos");
 greeks.Add("Gianopoulos");
 greeks.Add("Michaelides");
- 
+
 //and
 IEnumerable<string> opoulos = greeks.Where(x => x.Contains(“opoulos”));
 ```
@@ -92,16 +94,16 @@ IEnumerable<string> opoulos = greeks.Where(x => x.Contains(“opoulos”));
 (The System.Collections.Concurrent namespace provides several thread-safe collection classes that should be used in place of the corresponding types in the System.Collections and System.Collections.Generic namespaces whenever multiple threads are accessing the collection concurrently.)
 
 ```cs
-public class ConcurrentBag<T> : IProducerConsumerCollection<T>, 
+public class ConcurrentBag<T> : IProducerConsumerCollection<T>,
          IEnumerable<T>, ICollection, IEnumerable
- 
+
 Represents a thread-safe, unordered collection of objects.
- 
-    // Demonstrates: 
-    //      ConcurrentBag<T>.Add() 
-    //      ConcurrentBag<T>.IsEmpty 
-    //      ConcurrentBag<T>.TryTake() 
-    //      ConcurrentBag<T>.TryPeek() 
+
+    // Demonstrates:
+    //      ConcurrentBag<T>.Add()
+    //      ConcurrentBag<T>.IsEmpty
+    //      ConcurrentBag<T>.TryTake()
+    //      ConcurrentBag<T>.TryPeek()
     static void Main()
     {
         // Construct and populate the ConcurrentBag
@@ -109,8 +111,8 @@ Represents a thread-safe, unordered collection of objects.
         cb.Add("Alexopoulos");
         cb.Add("Gianopoulos");
         cb.Add("Michaelides");
- 
-        // Consume the items in the bag 
+
+        // Consume the items in the bag
         int item;
         while (!cb.IsEmpty)
         {
@@ -119,8 +121,8 @@ Represents a thread-safe, unordered collection of objects.
             else
                 Console.WriteLine("TryTake failed for non-empty bag");
         }
- 
-        // Bag should be empty at this point 
+
+        // Bag should be empty at this point
         if (cb.TryPeek(out item))
             Console.WriteLine("TryPeek succeeded for empty bag!");
     }
@@ -131,8 +133,8 @@ Represents a thread-safe, unordered collection of objects.
 **(System.Collections.Generic)**
 
 ```cs
-public class List : IList, ICollection, 
-         IList, ICollection, IReadOnlyList, IReadOnlyCollection, IEnumerable, 
+public class List : IList, ICollection,
+         IList, ICollection, IReadOnlyList, IReadOnlyCollection, IEnumerable,
          IEnumerable
 ```
 
@@ -143,7 +145,7 @@ public class Greek : Person
 {
 ..
 }
- 
+
 List greeks = new List()
 {
     new Greek() { LastName  = "Alexopoulos" },

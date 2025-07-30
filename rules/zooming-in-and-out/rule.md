@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to explain problems clearly by starting broad (zoomed out) and then narrowing in
 type: rule
 title: Explaining - Do you zoom out then in?
 uri: zooming-in-and-out

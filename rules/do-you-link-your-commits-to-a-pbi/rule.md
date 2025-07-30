@@ -1,54 +1,52 @@
 ---
+seoDescription: Do you link your commits to a Product Backlog Item (PBI) in Azure DevOps for better clarity on what work is done?
 type: rule
-archivedreason: 
-title: Do you link your commits to a PBI?
+archivedreason:
+title: Do you link commits, branches, and PRs to a PBI?
 guid: 0e206ce8-deed-4b09-902d-ecec0499586b
 uri: do-you-link-your-commits-to-a-pbi
 created: 2019-03-13T01:00:33.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Andreas Lengkeek
-  url: https://ssw.com.au/people/andreas-lengkeek
-- title: Barry Sanders
-  url: https://ssw.com.au/people/barry-sanders
-- title: Jernej Kavka
-  url: https://ssw.com.au/people/jernej-kavka
-- title: Patricia Barros
-  url: https://ssw.com.au/people/patricia-barros
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Andreas Lengkeek
+    url: https://ssw.com.au/people/andreas-lengkeek
+  - title: Barry Sanders
+    url: https://ssw.com.au/people/barry-sanders
+  - title: Jernej Kavka
+    url: https://ssw.com.au/people/jernej-kavka
+  - title: Patricia Barros
+    url: https://ssw.com.au/people/patricia-barros
 related: []
 redirects: []
-
 ---
 
-In order to get better clarity on what work is done, it's a good idea to connect your PBI's and tasks to the commits, branches and pull requests that relate to the item. All commits, branches and pull requests should be linked to a PBI.
-
-
-::: bad  
-![Bad Example: No linked commit's, branches or pull requests](no-linked-commit.png)  
-:::
-
-
-::: good  
-![Good Example: Git branch linked to PBI in TFS](link-branch-to-pbi.png)  
-:::
+To improve visibility into what work has been done, link your PBIs and tasks to the related commits, branches, and pull requests. **Every commit, branch, and PR should be associated with a PBI.**
 
 <!--endintro-->
 
-Note: If you create your branches through Azure DevOps then you can link them during creation.
-
-
-::: good  
-![Good Example: Using Azure DevOps to link PBI during creation](link-pbi-during-creation.png)  
+::: bad  
+![Figure: Bad example - No linked commits, branches or pull requests](no-linked-commit.png)  
 :::
 
-Here is a handy resource for linking work items:
+::: good  
+![Figure: Good example - Git branch linked to PBI in Azure DevOps](link-branch-to-pbi.png)  
+:::
 
-https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests/
+## Using Azure DevOps
 
-Note: You can setup Branch Policies on your main branches to enforce this behaviour.
-
+If you create branches through Azure DevOps, you can link them to a work item during the creation process.
 
 ::: good  
-![Good Example: Branch Policy on the master branch to enforce linked work items on pull requests](add-branch-policy-for-linked-items.png)  
+![Figure: Good example - Using Azure DevOps to link PBI during creation](link-pbi-during-creation.png)  
+:::
+
+Learn more on this article: [Linking Work Items to Git Branches, Commits, and Pull Requests](https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests).
+
+## Automating rule enforcement
+
+You can [setup Branch Policies](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies) on your main branches to enforce this behaviour.
+
+::: good  
+![Figure: Good example - Branch Policy on the master branch to enforce linked work items on pull requests](add-branch-policy-for-linked-items.png)  
 :::

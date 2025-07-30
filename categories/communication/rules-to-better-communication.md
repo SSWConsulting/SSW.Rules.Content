@@ -22,6 +22,8 @@ index:
   - do-you-know-you-should-write-notes-when-an-activity-is-going
   - loop-someone-in
   - speak-up
+  - match-tone-with-intent
+  - avoid-but
   - the-happiness-equation
   - take-effective-notes
   - escalate-key-updates

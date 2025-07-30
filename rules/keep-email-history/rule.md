@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep email history to avoid confusion and ensure seamless communication by preserving context and relevant information.
 type: rule
 title: Do you keep the history of an email?
 uri: keep-email-history

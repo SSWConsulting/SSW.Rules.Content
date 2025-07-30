@@ -1,4 +1,5 @@
 ---
+seoDescription: Validate each denormalized field to ensure reliable data integrity and prevent incorrect updates.
 type: rule
 title: Do you validate each "Denormalized Field"?
 uri: validate-each-denormalized-field
@@ -30,39 +31,41 @@ Reducing development complexity
 A denormalized field can mean that all SELECT queries in the database are simpler. Power users find it easier to use for reporting purposes - without the need for a cube. In our example, we would not need a large view to retrieve the data (as below).
 
 ```sql
-SELECT 
-    Customer.CustomerID, 
-    SUM (SalesOrderDetail.OrderQty * 
-             (SalesOrderDetail.UnitPrice - 
+SELECT
+    Customer.CustomerID,
+    SUM (SalesOrderDetail.OrderQty *
+             (SalesOrderDetail.UnitPrice -
               SalesOrderDetail.UnitPriceDiscount)
-    ) AS DetailTotal, 
+    ) AS DetailTotal,
     Customer.SalesPersonID, Customer.TerritoryID,
-    Customer.AccountNumber, 
-    Customer.CustomerType, 
+    Customer.AccountNumber,
+    Customer.CustomerType,
     Customer.ModifiedDate, Customer.rowguid
-FROM Customer 
-INNER JOIN SalesOrderHeader 
+FROM Customer
+INNER JOIN SalesOrderHeader
     ON Customer.CustomerID = SalesOrderHeader.CustomerID
-INNER JOIN SalesOrderDetail 
-    ON SalesOrderHeader.SalesOrderID = 
+INNER JOIN SalesOrderDetail
+    ON SalesOrderHeader.SalesOrderID =
        SalesOrderDetail.SalesOrderID
-GROUP BY Customer.CustomerID, Customer.SalesPersonID, 
+GROUP BY Customer.CustomerID, Customer.SalesPersonID,
     Customer.TerritoryID, Customer.AccountNumber,
-    Customer.CustomerType, 
-    Customer.ModifiedDate,Customer.rowguid 
+    Customer.CustomerType,
+    Customer.ModifiedDate,Customer.rowguid
 ORDER BY Customer.CustomerID
 ```
+
 **Figure: A view to get customer totals when no denormalized fields are used**
 
-If we had a denormalized field, the user or developer would simply have run the following query: 
+If we had a denormalized field, the user or developer would simply have run the following query:
 
 ```sql
-SELECT 
-    Customer.CustomerID, 
-    Customer.OrderTotal AS DetailTotal 
-FROM Customer 
+SELECT
+    Customer.CustomerID,
+    Customer.OrderTotal AS DetailTotal
+FROM Customer
 ORDER BY Customer.CustomerID
 ```
+
 **Figure: Queries are much simpler with denormalized fields**
 
 ::: greybox
@@ -104,44 +107,46 @@ All in all, we choose to still use denormalized fields because they can save dev
 Here is how we ensure that this data is validated:
 
 1. Change the description on any denormalized fields to include "Denormalized" in the description - "Denormalized: Sum(OrderTotal) FROM Orders" in description in SQL Server Management Studio.
-2. Create a view that lists all the denormalized fields in the database - based on the description field. 
+2. Create a view that lists all the denormalized fields in the database - based on the description field.
 
-  ```sql
-  CREATE VIEW dbo.vwValidateDenormalizedFields
-  AS
-      SELECT OBJECT_NAME(id) AS TableName, 
-          COL_NAME(id, smallid) AS ColumnName,
-          CAST([value] AS VARCHAR(8000)) AS Description,
-          'procValidate_' + OBJECT_NAME(id) + 
-          '_' + COL_NAME(id, smallid) as
-          ValidationProcedureName
-      FROM dbo.sysproperties
-      WHERE (name = 'MS_Description') AND 
-                   (CAST([value] AS VARCHAR(8000))
-                    LIKE '%Denormalized&#58;%')
-  ```
-  **Figure: Standard view for validation of a denormalized field**
+```sql
+CREATE VIEW dbo.vwValidateDenormalizedFields
+AS
+    SELECT OBJECT_NAME(id) AS TableName,
+        COL_NAME(id, smallid) AS ColumnName,
+        CAST([value] AS VARCHAR(8000)) AS Description,
+        'procValidate_' + OBJECT_NAME(id) +
+        '_' + COL_NAME(id, smallid) as
+        ValidationProcedureName
+    FROM dbo.sysproperties
+    WHERE (name = 'MS_Description') AND
+                 (CAST([value] AS VARCHAR(8000))
+                  LIKE '%Denormalized&#58;%')
+```
 
-3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them 
+**Figure: Standard view for validation of a denormalized field**
 
-  ```sql
-  CREATE PROCEDURE procValidateDenormalizedFieldValidators
-  AS
-      SELECT 
-          ValidationProcedureName AS
-          MissingValidationProcedureName 
-      FROM vwValidateDenormalizedFields
-      WHERE ValidationProcedureName NOT IN
-      (
-          SELECT ValidationProcedureName
-          FROM vwValidateDenormalizedFields AS vw
-          LEFT JOIN sysobjects 
-          ON 
-              vw.ValidationProcedureName = 
-              OBJECT_NAME(sysobjects.id)
-          WHERE id IS NOT NULL
-      )
-  ```
-  **Figure: Standard stored procedure for validation of a denormalized field**
+3. Create a stored procedure (based on the above view) that validates whether all denormalized fields have a stored procedure that validates the data within them
+
+```sql
+CREATE PROCEDURE procValidateDenormalizedFieldValidators
+AS
+    SELECT
+        ValidationProcedureName AS
+        MissingValidationProcedureName
+    FROM vwValidateDenormalizedFields
+    WHERE ValidationProcedureName NOT IN
+    (
+        SELECT ValidationProcedureName
+        FROM vwValidateDenormalizedFields AS vw
+        LEFT JOIN sysobjects
+        ON
+            vw.ValidationProcedureName =
+            OBJECT_NAME(sysobjects.id)
+        WHERE id IS NOT NULL
+    )
+```
+
+**Figure: Standard stored procedure for validation of a denormalized field**
 
 If you want to know how to implement denormalized fields, see our rule [Do you use triggers for denormalized fields?](/use-triggers-for-denormalized-fields)

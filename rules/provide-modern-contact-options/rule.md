@@ -1,4 +1,5 @@
 ---
+seoDescription: Upgrade your site's CX with modern contact options like chat, VoIP, and more for happier customers.
 type: rule
 title: Do you provide modern contact options?
 uri: provide-modern-contact-options
@@ -14,7 +15,7 @@ created: 2017-10-10T23:58:21.000Z
 archivedreason: null
 guid: 4d1d341c-a759-4660-ab6d-f237314d3cbc
 ---
-The evolution of website development can be summarized by: 
+The evolution of website development can be summarized by:
 
 * 1990 - Cool website – content focus (static HTML content)
 * 1995 - Cool graphics – interface focus (dynamic HTML content)
@@ -35,7 +36,7 @@ It's important that your website is focused on CX (Customer Experience) which me
 :::
 
 `youtube: https://www.youtube.com/embed/K1HlAsW1RiA`
- 
+
 ::: good
 Zendesk explain how you can use mulitple channels of support to give your customers a better CX
 :::

@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure a smooth transition between client projects by designating a Bench Master to manage internal resources and streamline workflow.
 type: rule
 archivedreason:
 title: Do you have a Bench Master?
@@ -17,6 +18,7 @@ authors:
 related:
   - know-where-your-staff-are
   - streamline-approvals
+  - internal-priority-alignment
 redirects: []
 ---
 
@@ -42,7 +44,7 @@ A Bench Master's primary responsibility is to ensure that all developers know wh
 8. Process - Knowing the priority of internal projects
 9. Process - Knowing what skills are required for each project
 10. Process - Bench Backup - Keep someone in the loop for when Bench Master is unavailable
-11. Process - Weekly meeting with important stakeholders to talk about priorities
+11. Process - Weekly [Priority Alignment](/internal-priority-alignment/) meeting with stakeholders
 12. Process - Morning meeting for anyone not on client work
     * This is for people not already assigned to an internal project or have finished work on an internal project
     * You should make sure this happens across all timezones

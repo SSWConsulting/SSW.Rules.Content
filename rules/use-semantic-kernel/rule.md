@@ -1,10 +1,11 @@
 ---
+seoDescription: Microsoft's open-source Semantic Kernel SDK simplifies AI integration by orchestrating services like OpenAI and Azure OpenAI.
 type: rule
 title: Do you use Semantic Kernel?
 uri: use-semantic-kernel
 authors:
   - title: Jack Reimers
-    url: https://www.ssw.com.au/people/jack-reimers 
+    url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-09-27T12:00:00.000Z
 guid: 468db2b2-f5a8-40dc-8979-bb86a382d93b
 ---
@@ -15,6 +16,7 @@ Semantic Kernel can solve this problem by orchestrating all our AI services for 
 <!--endintro-->
 
 ### What is Semantic Kernel?
+
 Semantic Kernel is an open source SDK developed by Microsoft for their Copilot range of AI tools.  
 It acts as an orchestration layer between an application and any AI services it may consume, such as the OpenAI API or Azure OpenAI, removing the need to write boilerplate code to use AI.
 
@@ -22,13 +24,14 @@ It acts as an orchestration layer between an application and any AI services it 
 [Semantic Kernel - GitHub Repo](https://github.com/microsoft/semantic-kernel)
 
 ### Why use Semantic Kernel?
+
 Semantic Kernel offers many benefits over manually setting up your AI services.
 
-* Common AI abstractions
-  * Resistant to API changes
-  * Services can be easily swapped (i.e. from Azure OpenAI to OpenAI API or vice versa) 
-* Faster development time
-* Easier maintenance
+- Common AI abstractions
+  - Resistant to API changes
+  - Services can be easily swapped (i.e. from Azure OpenAI to OpenAI API or vice versa)
+- Faster development time
+- Easier maintenance
 
 Using Semantic Kernel, it's easy to set up a basic console chat bot in under 15 lines of code!
 

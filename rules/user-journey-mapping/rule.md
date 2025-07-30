@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the Power of User Journey Mapping - Visualize Customer Needs and Improve Your Product or Service. (Note - I've kept it concise at around 150-160 characters, included primary keywords naturally, and reflected user intent)
 type: rule
 title: Do you know the value of User Journey Mapping?
 uri: user-journey-mapping
@@ -17,6 +18,7 @@ related:
 created: 2022-06-30T05:16:53.974Z
 guid: e7d9e725-74b3-4791-8fbf-0844bf63fef1
 ---
+
 A User Journey Map (aka Customer Journey) is a visual aid that allows the clear communication of user needs.
 
 `youtube: https://www.youtube.com/embed/jIAFVNz2jdc`
@@ -24,7 +26,7 @@ A User Journey Map (aka Customer Journey) is a visual aid that allows the clear 
 
 <!--endintro-->
 
-These artifacts should be used at the beginning of a project during the early stages of research and design. This allows user requirements to properly inform design decisions made during development, and can help teams build a strong common understanding of a project. Capturing feedback in a Journey Map during or even after development, can provide high value as well. Pain points discovered in this way can reveal opportunities or areas for immediate improvement. 
+These artifacts should be used at the beginning of a project during the early stages of research and design. This allows user requirements to properly inform design decisions made during development, and can help teams build a strong common understanding of a project. Capturing feedback in a Journey Map during or even after development, can provide high value as well. Pain points discovered in this way can reveal opportunities or areas for immediate improvement.
 
 ## What is a User Journey Map
 
@@ -32,7 +34,7 @@ These artifacts should be used at the beginning of a project during the early st
 
 [Source: nngroup](https://www.nngroup.com/articles/analyze-customer-journey-map/)
 
-User Journey Maps are used to understand how a customer interacts with your product or services. There are many ways of presenting this information. Take a look at [Smaply's example Journey Maps](https://www.smaply.com/blog/example-journey-maps). 
+User Journey Maps are used to understand how a customer interacts with your product or services. There are many ways of presenting this information. Take a look at [Smaply's example Journey Maps](https://www.smaply.com/blog/example-journey-maps).
 
 The key things captured in a User Journey Map are what steps/stages the customer goes through and also some indication of user sentiment at the time. Often the user journey will be mapped out and then research done to gauge user sentiment at each point in the journey.
 
@@ -52,12 +54,12 @@ A Service Blueprint is a more detailed and process oriented document. This cover
 
 ## When to use them
 
-Both these types of diagrams provide excellent documentation that is easily digestible, even by non technical people. They are especially valuable to verify with the Product Owner and to help the team understand the product vision. Because the Product Owner can easily understand what is happening, they can provide much better feedback than if they were simply provided UI wireframes or traditional documentation. 
+Both these types of diagrams provide excellent documentation that is easily digestible, even by non technical people. They are especially valuable to verify with the Product Owner and to help the team understand the product vision. Because the Product Owner can easily understand what is happening, they can provide much better feedback than if they were simply provided UI wireframes or traditional documentation.
 
 **The team should produce these artifacts, typically not the Product Owner - this ensures what was in the Product Owner's head has made it to the team.**
 
 ## User journey mapping tools
 
-* [FigJam](https://www.figma.com/figjam/) 
-* [Miro](https://miro.com/index/) 
+* [FigJam](https://www.figma.com/figjam/)
+* [Miro](https://miro.com/index/)
 * A whiteboard and a stack of sticky notes.

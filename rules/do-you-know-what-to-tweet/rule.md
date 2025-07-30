@@ -1,6 +1,7 @@
 ---
+seoDescription: What to tweet about? Make it relevant and interesting to your target audience! Don't waste followers' time with off-topic or low-value tweets. Focus on sharing valuable insights, updates, or engaging stories that resonate with them.
 type: rule
-title: Twitter - Do you know to tweet relevant stuff only?
+title: X (previously Twitter) - Do you know to tweet relevant stuff only?
 uri: do-you-know-what-to-tweet
 authors:
   - title: Matthew Hodgkins
@@ -16,25 +17,26 @@ created: 2011-01-31T04:22:19.000Z
 archivedreason: null
 guid: b80dcf50-57dd-4447-9a4e-5b02077d8016
 ---
+
 Your tweets should be interesting to your target audience. People aren't going to follow you for long if you make off topic and low value tweets.
 
 <!--endintro-->
 
 ::: bad
-![Bad Example - "Having lunch" is not an interesting tweet](bad-twitter.png)
+![Bad example - "Having lunch" is not an interesting tweet](bad-twitter.png)
 :::
 
 Some good examples of things to tweet about:
 
-* One week before an event, tweet about the event to raise awareness 
+* One week before an event, tweet about the event to raise awareness
 * One day before an event, tweet about the event and what you are talking about
 * On the day of the event, check-in on foursquare when you arrive (gives people a nice map)
 * When something good happens to you. E.g. You beat your boss in an arm wrestle
-* Tweet before and after installing new software or after an upgrade eg:
+* Tweet before and after installing new software or after an upgrade. E.g:
 
   * Installing #SharePoint for the first time
   * \#SharePoint install done - found a great guide to follow here: mysharepointsite.com
 
 ::: good
-![Good Example - An informative tweet with hashtags and relevant links for a targeted audience of IT followers](good-twitter.png)
+![Good example - An informative tweet with hashtags and relevant links for a targeted audience of IT followers](good-twitter.png)
 :::

@@ -5,7 +5,7 @@ guid: e9246d26-b808-44ac-9747-7bcf9b0f1675
 uri: rules-to-better-giving-and-taking-feedback
 index:
 - how-to-take-feedback-or-criticism
-- do-you-know-that-its-bad-to-win-the-fight-but-lose-the-customer
+- lose-battle-keep-client
 - do-a-retrospective
 - do-not-assume-the-worst-of-peoples-intentions
 - do-you-know-the-nice-way-to-correct-someone
@@ -16,6 +16,7 @@ index:
 - do-you-offer-specific-criticism
 - do-you-follow-the-sandwich-rule
 - positive-tone
+- avoid-but
 - speaking-do-you-avoid-swearing-at-work
 - avoid-sarcasm-misunderstanding
 - use-off-the-record-conversations
@@ -25,6 +26,9 @@ index:
 - unsolicited-feedback
 - accepting-unsolicited-feedback
 - disagreeing-with-powerful-stakeholders
+- separate-urge-from-behavior
+- handle-passive-aggressive-comments
+- speaking-to-people-you-dislike
 ---
 
 Before giving feedback to someone, always ask yourself:

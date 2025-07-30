@@ -1,20 +1,18 @@
 ---
+seoDescription: Use VARCHAR instead of CHAR for most SQL Server applications to optimize storage space and query performance
 type: rule
-archivedreason: 
+archivedreason:
 title: Schema - Do you always use Varchar?
 guid: aedc3260-9b29-4115-9536-43c57d1e13b1
 uri: always-use-varchar
 created: 2019-11-05T22:48:11.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- schema-do-you-always-use-varchar
-
+  - schema-do-you-always-use-varchar
 ---
-
-
 
 Use `VARCHAR` instead of `CHAR`, unless your data is almost always of a fixed length, or is very short. For example, a Social Security/Tax File number which is always 9 characters. These situations are rare.
 

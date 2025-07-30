@@ -9,8 +9,8 @@ index:
   - how-to-create-a-sprint-backlog
   - github-sprint-templates
   - labels-in-github
-  - use-emojis-in-your-commits
   - turn-emails-into-a-github-issue
+  - react-to-reviewed-pbis
   - do-you-know-how-to-handle-undone-work
   - build-the-backlog
   - sync-your-github-issues-to-azure-devops
@@ -18,6 +18,7 @@ index:
   - escalate-key-updates
   - use-tasklists-in-your-pbis
   - close-pbis-with-context
+  - use-emojis-in-your-commits
   - avoid-auto-closing-issues
   - use-github-teams-for-collaborator-permissions
 

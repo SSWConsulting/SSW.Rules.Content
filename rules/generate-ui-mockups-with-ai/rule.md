@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to generate UI mockups with AI tools to streamline your design process.
 type: rule
 title: Do you generate UI mockups with AI?
 uri: generate-ui-mockups-with-ai
@@ -17,24 +18,28 @@ authors:
     url: https://ssw.com.au/people/william-liebenberg
   - title: Matt Wicks
     url: https://ssw.com.au/people/matt-wicks
+  - title: Louis Roa
+    url: https://ssw.com.au/people/louis-roa
 related:
   - mockups-and-prototypes
   - storyboards
   - ask-clients-approval
   - specification-review-presentation
   - software-for-product-design
+  - spike-vs-poc
 redirects:
   - ai-in-ui-design
 created: 2024-01-09T19:11:41.000Z
 archivedreason: null
 guid: b6849044-e11e-4a25-95a1-457493ee9eab
 ---
-Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, Balsamiq, or pen and paper. Generative AI tools now streamline the process. We can use Prompt Engineering to create a proof of concept or translate a design to code with the click of a button!
+
+Traditionally, UI wireframes have been made with tools like Figma, Excalidraw, Balsamiq, or pen and paper. Generative AI tools now streamline the process. We can use Prompt Engineering to create a Proof of Concept (PoC) or translate a design to code with the click of a button!
 
 <!--endintro-->
 
-`youtube: https://www.youtube.com/watch?v=r8z0a3bPeuM`
-**Video: v0 by Vercel: Create UI Components from Text & Images! (6 min)**
+`youtube: https://www.youtube.com/watch?v=cyFVtaLy-bA`
+**Video: Build a fullstack app in 7 minutes with v0 (Figma to code)! (7 min)**
 
 Here is a longer example of someone using v0.dev to generate a calculator UI and then trying to replicate the same UI by hand: [V0 coded a calculator 30x faster than me (17 min)](https://youtu.be/WFZ-g0w3OW4?si=A-18DvJRd2KXfbNy)
 
@@ -56,13 +61,16 @@ If you're a dev that likes (or is forced) to moonlight as a designer these tools
 
 Here is what you can achieve using [v0.dev](https://v0.dev) and a few prompts:
 
-![Figure: A cool user form](v0_user_form.png)
+![Figure: A matrix-style blog site](matrix.gif "matrix blog")
 
-🤖 AI prompts:
+::: greybox
+🤖 AI prompts excamples:
 
 1. Create a form to input customer data like: first name, last name, DoB, email, phone, etc..
 2. Do it using material style component. With a primary color red
-3. Use this red instead : #CC4141, and add icons next to labels, like a phone icon next to the phone number etc
+3. Use this red instead : #CC4141, and add icons next to labels, like a phone icon next to the phone number, etc
+
+:::
 
 ### Tools
 

@@ -1,19 +1,20 @@
 ---
+seoDescription: Update and create a new version of the Sysprep VM by installing service packs, creating a copy of the master image, modifying scripts, and generalizing computer settings.
 type: rule
-archivedreason: 
+archivedreason:
 title: How do I update and create a new version of the Sysprep VM ?
 guid: 77fa8f08-6e60-416b-a334-0e7ff792dd51
 uri: how-do-i-update-and-create-a-new-version-of-the-sysprep-vm
 created: 2009-02-26T02:03:38.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-When MS releases a new service pack, or new Windows update, we install these to the master image and create a new version of the Sysprep image for future VMs.  
+When MS releases a new service pack, or new Windows update, we install these to the master image and create a new version of the Sysprep image for future VMs.
+
 <!--endintro-->
 
 1. Update SQL Server service packs
@@ -22,7 +23,6 @@ When MS releases a new service pack, or new Windows update, we install these to 
 4. Update VS.NET service packs
 5. Update SharePoint service packs
 6. Update MS Office SharePoint Designer service packs
-
 
 To create a new VM:
 

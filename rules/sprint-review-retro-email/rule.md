@@ -1,6 +1,9 @@
 ---
 type: rule
 title: Do you create a Sprint Review/Retro email?
+seoDescription: Learn how to create a structured Sprint Review/Retro email
+  template with best practices for clear communication and effective team
+  collaboration in Agile processes.
 uri: sprint-review-retro-email
 authors:
   - title: Ulysses Maclaren
@@ -13,13 +16,16 @@ authors:
     url: https://ssw.com.au/people/piers-sinclair
   - title: Christian Morford-Waite
     url: https://ssw.com.au/people/christian-morford-waite
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
 related:
   - roadmap
-  - do-you-know-what-happens-at-a-sprint-retrospective-meeting
+  - what-happens-at-retro-meetings
+  - what-happens-at-a-sprint-planning-meeting
+  - sprint-forecast
   - groups-in-microsoft-365
   - following-microsoft-365-groups
   - rules-to-better-research-and-development
-
 redirects:
   - do-you-create-a-sprint-review-retro-email
 created: 2012-08-06T05:48:37.000Z
@@ -33,15 +39,18 @@ After any Sprint Review and Retrospective, an email should be sent to all the st
 Firstly, create a new email copying the information from the previous Sprint Review/Retro. As per [Do you know what happens at a Sprint Retrospective meeting?](/do-you-know-what-happens-at-a-sprint-retrospective-meeting), it should include the following:
 
 ::: info
-It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)
+
+* It's important that an [Email Group](/groups-in-microsoft-365/#microsoft-365-groups) is setup for the project, and the Sprint Review is sent to that group, so that anyone who joins the project in future can access these reports from shared inbox as per [Do you choose which Microsoft 365 Groups you follow?](/following-microsoft-365-groups)[](/following-microsoft-365-groups)
+* Move all the dones to the top of your Sprint backlog to make it easier to digest the progress for the Product Owner
 :::
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | {{ PRODUCT OWNER }} |
 | Cc:      | {{ SPRINT REVIEW ATTENDEES }}, {{ PROJECT GROUP EMAIL }}, {{ SPRINT REVIEW REPORTING EMAIL }} |
-| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review/Retro |
+| Subject: | {{ PRODUCT NAME }} - Sprint {{ X }} Review + Retro |
 ::: email-content
 
 ### Hi {{ PRODUCT OWNER }}
@@ -50,96 +59,109 @@ Here are the Sprint Goals and their status at a glance:
 
 Sprint Goals (in priority order):
 
-* Bugfixes – Done ✅
-* WDM Integration – Done ✅
-* SSO/Roles APIs – In Progress 🕑
-* Download Documents APIs  – Not Done ❌
+* {{ ✅/❌/🚧 }} {{ DONE? }} - {{ GOAL }}
+* {{ ✅/❌/🚧 }} {{ DONE? }} - {{ GOAL }}
 
 Please see below for a more detailed breakdown of the Sprint:
 
-| Sprint in Review: | {{ SPRINT NUMBER }}            |
-| ----------------- | ------------------------------ |
-| Sprint Duration:  | {{ NUMBER OF WEEKS }}          |
-| Project:          | {{ PROJECT NAME }}             |
-| Project Portal:   | {{ LINK TO PROJECT PORTAL }}   |
-| Test Environment: | {{ LINK TO TEST ENVIRONMENT }} |
-| Product Owner:    | {{ PRODUCT OWNER NAME }}       |
-
-Attendees: *(Optional as they may be in the to and CC)*
+|                    |                                      |
+| ------------------ | ------------------------------------ |
+| Sprint in Review:  | {{ SPRINT NUMBER }}                  |
+| Summary Recording: | {{ YOUTUBE PLAYLIST URL }}           |
+| Sprint Duration:   | {{ NUMBER OF WEEKS }}                |
+| Project:           | {{ PROJECT NAME }}                   |
+| Project Portal:    | {{ LINK TO PROJECT PORTAL }}         |
+| Test Environment:  | {{ LINK TO TEST ENVIRONMENT }}       |
+| Product Owner:     | {{ PRODUCT OWNER NAME }}             |
+| Attendees:         | {{ NAMES OF THE ATTENDEES }}         |
+✅ I have added the relevant stakeholders as per [Do you know what happens at a Sprint Review meeting?](/what-happens-at-a-sprint-review-meeting)
 
 ### Sprint Review
 
-| **ID** | **Title**                           | **State** | **Effort** |
-| ------ | ----------------------------------- | --------- | ---------- |
-| 24124  | UI Improvements                     | Done      | 4          |
-| 24112  | Integrate Business Logic to MVC app | Done      | 8          |
-| 24097  | Styling                             | Committed | 16         |
+1. Timesheet data - Who worked in the Sprint?
+
+![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
+
+2. What got done?
+
+| **ID**   | **Title**       | **Assignee**   | **State**   | **Effort**   |
+| -------- | --------------- | -------------- | ----------- | ------------ |
+| {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
+| {{ ID }} | {{ PBI TITLE }} | {{ ASSIGNEE }} | {{ STATE }} | {{ EFFORT }} |
 
 **Figure: Sprint Backlog from {{ LINK TO SPRINT BACKLOG }}**
 
-1. Sprint Burndown (a quick overview of the Sprint)
+3. Sprint Burndown - A quick overview of the Sprint
 
-   ![Figure: Sprint Burndown](burndown.JPG)
+![Figure: Sprint Burndown](burndown.jpg)
 
-1. Timesheet data - Who worked in a Sprint?
+4. Code Coverage - Hopefully tests are increasing each Sprint
 
-:::img-medium
-![Figure: Timesheet data for a Sprint](sprint-timesheet-data.png)
-:::
+{{ CODE COVERAGE }}
 
-1. Code Coverage (hopefully tests are increasing each Sprint)
+5. Velocity *(Optional)*
 
-   {{ CODE COVERAGE }}
+{{ VELOCITY }}
 
-1. Velocity *(Optional)*
+6. Burnup - How are we tracking for the big picture? *
 
-   {{ VELOCITY }}
+![Figure: Release Burnup](release-burnup.jpg)
 
-1. Burnup (for the release - the whole project, how are we tracking for the big picture?)
+| Metrics – last 30 days | Count |
+| --- | --- |
+| New PBIs | {{ NEW PBIS }} |
+| AI PBIS | {{ PBIS CREATED WITH AI }} ( {{ PERCENT OF NEW PBIS CREATED WITH AI }} %) |
+| Completed PBIs | {{ PBIS COMPLETED }} |
+| Net Change in PBIs | {{ +/- OVERALL PBI COUNT CHANGE }} |
 
-   ![Figure: Release Burnup](ReleaseBurnup.jpg)
+**Figure: Backlog stats from [the stats generator](https://backlog-sprint-tool.vercel.app/) (GitHub only)**
 
-1. Build Pipeline Health & Production Deployments (How many times did we deploy to Production?)
+7. Build Pipeline Health & Production Deployments - How many times did we deploy to Production?
 
-   ![Figure: Build Pipeline Health from DevOps](thumbnail_image.png)
+![Figure: Build Pipeline Health from DevOps](thumbnail-image.png)
 
-   ![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
+![Figure: Deployments from {{ DEPLOYMENT SERVICE }}](production-deploy.png)
 
-1. Application Health Overview Timeline (For the entire Sprint)
+8. Application Health Overview Timeline - For the entire Sprint
 
-   ![Figure: Application Health Overview Timeline](ApplicationInsights.jpg)
+![Figure: Application Health Overview Timeline](application-insights.jpg)
 
-1. Product Roadmap
+9. Product Roadmap
 
-   {{ ROADMAP LINK }}
+{{ ROADMAP LINK }}
 
 Progress:
 
 **{{ EPIC #1 }}**
 
 * Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
 **{{ EPIC #2 }}**
 
 * Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
 **{{ EPIC #3 }}**
 
 * Currently {{ TOTAL # OF PBIS COMPLETED }}/{{ TOTAL # OF PBIS CREATED }} PBIs completed (there will be more)
+
   * {{ # OF PBIS COMPLETED THIS SPRINT }} Completed this Sprint
   * {{ # OF PBIS CREATED THIS SPRINT }}  Newly created this Sprint
 
-### R&D
-
-**Did we do any experimental work?**
+10. R&D - Did we do any experimental work?
 
 {{ INSERT DETAILS of any trial/error processes, and ensure all detail is captured as per [https://ssw.com.au/rules/do-you-record-your-failures](/do-you-record-your-failures) }}
 
 {{ INSERT DETAILS of any problems for which no solutions existed, and ensure detail is captured as per [https://ssw.com.au/rules/do-you-record-your-research-under-the-pbi](/do-you-record-your-research-under-the-pbi) }}
+
+### 🤖 AI use - what tools did you use?
+
+* {{ PERSON }} - {{ TOOLS }}
 
 ### Sprint Retrospective
 
@@ -156,6 +178,12 @@ As part of our commitment to inspect and adapt as a team we conduct a Sprint Ret
 💡 **What improvements will be made for the next Sprint?**
 
 {{ INSERT LIST OF IMPROVEMENTS to be made for the next Sprint }}
+
+⚠️ **Do any 'For the Record' emails need to be sent?** *(Optional)*
+
+As per <https://www.ssw.com.au/rules/for-the-record/>
+
+{{ INSERT LIST OF 'FOR THE RECORD' EMAILS TO BE SENT }}
 
 **Definition of Ready** *(Optional)*
 
@@ -175,5 +203,12 @@ Figure: Good example - Template for Sprint Review/Retro email
 :::
 
 ::: good
-![Figure: Good Example - TinaCloud team Sprint Review email](tina-sprint-email.png)
+![Figure: Good example - TinaCloud team Sprint Review email](tina-sprint-email.png)
 :::
+
+## Recording Review and Retrospective Meetings
+
+Creating a comprehensive summary and recording of your Sprint Meeting is a great way to communicate changes in a product to the community and stakeholders — especially for those unable to attend. See [Do you record a summary of Sprint Meetings?](/summary-recording-sprint-reviews) for details.
+
+`youtube: https://www.youtube.com/watch?v=t3SlxTKiT6U`
+**Video: TinaCMS - Sprint 23 Review and Sprint 24 Forecast (10 min)**

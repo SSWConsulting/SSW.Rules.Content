@@ -1,6 +1,7 @@
 ---
+seoDescription: Learn how to use Premiere Pro markers for automated YouTube chapter links, saving time on video organization
 type: rule
-title: Do you use Premiere Pro Markers as YouTube Chapter Links?
+title: Videos - Do you use Premiere Pro Markers as YouTube Chapter Links?
 uri: premiere-pro-markers-as-youtube-chapter-links
 authors:
   - title: Jonty Gardner
@@ -18,7 +19,7 @@ The fastest method is the Auto Chapter Links method (see below)
 
 ![Figure: Good example - Chapter Links created for a Tech News](chapter-links.png)
 
-### How to use the Auto Chapter Links method 
+### How to use the Auto Chapter Links method
 
 This method is basically exporting Adobe Premiere Pro Markers as YouTube Chapter Links.
 
@@ -30,7 +31,7 @@ Make sure you know which hotkey in Premiere Pro hotkey is for markers. The defau
    ![Figure: Markers appear above the timeline](markers.png)
 3. Select your sequence | File | Export | Markers
    ![Figure: File | Export | Markers](export-markers.png)
-4. File type – CSV | Destination – Export Folder 
+4. File type – CSV | Destination – Export Folder
    ![Figure: It is good practice to save it to an export folder](export-folder.png)
 5. Click on this [spreadsheet](https://docs.google.com/spreadsheets/d/1JumI4F9eIvolz31MB7wsIaqlwVdaa2ipNNcSO6Cv_OM/edit#gid=1066692544) to find the Premiere Markers to Youtube Annotation (Sample)
 

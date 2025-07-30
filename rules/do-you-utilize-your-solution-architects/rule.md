@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to optimize your Solution Architects' roles by managing their workload effectively across multiple projects.
 type: rule
 title: Do you know how to best utilize your Solution Architects?
 uri: do-you-utilize-your-solution-architects

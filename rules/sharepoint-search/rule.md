@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to optimize your SharePoint search experience with expert tips on using categories, filters, and advanced operators for better results
 type: rule
 title: Do you know how to use SharePoint search?
 uri: sharepoint-search
@@ -27,9 +28,7 @@ Here are some tips for performing searches:
 
 ### Know how to navigate SharePoint search – watch this video
 
-
 `youtube: https://www.youtube.com/embed/Vh64ZEC0wcw`
- 
 
 <!--endintro-->
 
@@ -39,8 +38,7 @@ Here are some tips for performing searches:
 * Use the specific properties (see below)
 * People - Use Delve indexed properties (i.e. Skills)
 
-
-### Search a specific property 
+### Search a specific property
 
 If you are familiar with the structure of the metadata in the content you're searching, you can restrict your searches to a property with the syntax &lt;property&gt;:&lt;search term&gt;. E.g. to search the filename field for the term "report", you would use "filename:report".
 
@@ -51,12 +49,11 @@ Example of properties you can use (common ones);
 * ModifiedBy:
 * Title:
 
-**More:** https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions
+**More:** <https://docs.microsoft.com/en-us/office365/securitycompliance/keyword-queries-and-search-conditions>
 
 ![Figure: Example of using Filetype: filter](filter-sharepoint-example.png)  
 Use Boolean OR and AND operators
 Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "sharepoint AND search".
-
 
 ::: greybox
 **Note:** OR and AND must be capitalized, however, the case is irrelevant for actual search terms.
@@ -66,9 +63,8 @@ Similar to Google and Bing, you can use OR and AND Boolean operators. E.g. "shar
 
 This can be useful if you know that certain words are used together, e.g. Fire\* will return results for FireBootCamp.
 
-
 ::: greybox
-**Note:** Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*". 
+**Note:** Because of word stemming which is enabled by default in SharePoint 2019, 2016, and 2013, you do not need to use wildcards to find variations on words. For example, searching for "computer" will return results that contain "computers", so you do not need to search for "computer\*".
 :::
 
 ### Use double quotes to find specific phrases

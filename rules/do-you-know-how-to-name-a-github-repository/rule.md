@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to name your GitHub repository consistently for easier discovery and a professional touch
 type: rule
 archivedreason: 
 title: Do you know how to name a GitHub Repository?

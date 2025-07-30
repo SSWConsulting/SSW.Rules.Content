@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft-based backup solution offering simple and powerful cloud backups for free with pre-installed OneDrive on Windows 10 and 11.
 type: rule
 title: PC - Do you use the best backup solution?
 uri: pc-do-you-use-the-best-backup-solution
@@ -11,6 +12,7 @@ created: 2018-06-04T01:23:10.000Z
 archivedreason: null
 guid: e9e20f4f-d5bf-43f6-8adc-6ffa9270fe6e
 ---
+
 There are many options for personal and business backup solutions on the market.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to efficiently manage your social media posts with powerful management tools offering features like content scheduling, analytics, and team collaboration across multiple platforms.
 type: rule
 title: Do you post using social media management tools?
 uri: post-using-social-media-management-tools
@@ -11,6 +12,8 @@ authors:
     url: https://ssw.com.au/people/joanna-feely
   - title: Brittany Lawrence
     url: https://ssw.com.au/people/brittany-lawrence
+  - title: Seth Daily
+    url: https://ssw.com.au/people/seth-daily
 related: []
 redirects:
   - do-you-use-buffer-to-post-on-social-media
@@ -26,6 +29,25 @@ Social media management tools are a must-have marketing tool these days. They ar
 We will go through a few options you can choose - each has different plans/prices and features that suit different businesses needs.
 
 <!--endintro-->
+
+## Ocoya
+
+Teams that value a straight-forward interface and a low monthly cost often choose **Ocoya**. It covers the essentials with a visual post designer, AI-assisted captions, multi-platform calendar, and a public REST API.
+
+* Calendar UI - drag-and-drop posts across connected profiles  
+* AI tools - suggest hashtags and draft captions in-line  
+* Automate-able - REST API access for custom workflows. Useful for connecting code/low-code tools like n8n. See [Do you automate tasks with low-code tools and AI?](https://www.ssw.com.au/rules/low-code-and-ai)
+* Budget-friendly – suitable for freelancers small teams, or anybody that needs a simple tool
+
+::: good  
+![Figure: Good example – Ocoya’s calendar view](ocoya-calendar.jpg)
+:::
+
+### When Ocoya is **not** ideal
+
+* If you need deep social listening, advanced customer-service inboxes or paid-ads management, full-suite platforms like **Sprout Social** or **Hootsuite** deliver those features and more at a higher price.
+* Analytics - Ocoya does not currently show analytics for social media platforms.  
+Workarounds include pulling analytics directly from the social media sites, or building custom reports in a tool like Data Looker Studio.
 
 ## Buffer
 

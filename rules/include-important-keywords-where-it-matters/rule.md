@@ -1,6 +1,7 @@
 ---
+seoDescription: Include important keywords naturally in the title, headings, and first few paragraphs of your content.
 type: rule
-title: SEO - Do you include important keywords where it matters?
+title: On-page - Do you include important keywords where it matters?
 uri: include-important-keywords-where-it-matters
 authors:
   - title: Adam Cogan
@@ -29,4 +30,4 @@ The [SSW Rules to Better Google Rankings and SEO](/rules-to-better-google-rankin
 **Note:** In Australia, we spell optimization with an "s" (optimisation) but most people searching online would [use the American way of spelling](/spelling-do-you-use-us-english) it. So this has to be taken into consideration).
 :::
 
-In fact, SSW Rules pages are testimonies to the fact that keywords and content are the keys to better Google rankings. They are usually in Google's first results if you search for "rules to better *something*". They naturally also rank very well in other search engines.
+In fact, SSW Rules pages are testimonies to the fact that keywords and content are the keys to better Google rankings. They are usually in Google's first results if you search for "rules to better _something_". They naturally also rank very well in other search engines.

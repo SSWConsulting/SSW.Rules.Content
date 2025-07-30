@@ -1,4 +1,5 @@
 ---
+seoDescription: Stay secure online by keeping your operating system up to date with regular Windows and MacOS updates.
 type: rule
 title: PC - Do you always keep your OS up to date?
 uri: update-operating-system
@@ -13,7 +14,6 @@ redirects:
   - update-windows
 created: 2022-03-16T22:45:17.072Z
 guid: b27d2804-0942-4cc7-b917-e95106d392a3
-
 ---
 
 Microsoft is constantly releasing updates for Windows and one of the most important things they do is patch viruses. Without these updates, users would be vulnerable to attacks from hackers. This is the same for MacOS.
@@ -21,7 +21,6 @@ Microsoft is constantly releasing updates for Windows and one of the most import
 So it is critical to always keep your operating system up to date.
 
 <!--endintro-->
-
 
 ::: good
 ![Figure: Make sure your Windows is always up to date!](windowsupdate.png)

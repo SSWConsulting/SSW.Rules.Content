@@ -1,6 +1,7 @@
 ---
+seoDescription: Long processes displayed on Windows Forms titles enhance user experience by providing clear progress updates and taskbar visibility even when minimized.
 type: rule
-archivedreason: 
+archivedreason:
 title: Long Process - Do you show the status of progress bar on winform's title?
 guid: c2741651-fcb9-402e-81ae-f38991c48037
 uri: long-process-do-you-show-the-status-of-progress-bar-on-winforms-title
@@ -8,14 +9,12 @@ created: 2012-11-27T02:59:56.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 The importance of having the status of progress bar on winform's title:
 
-* Users can clearly see the progress status
-* If the winform is minimized to taskbar, users still can see the progress status
-
+- Users can clearly see the progress status
+- If the winform is minimized to taskbar, users still can see the progress status
 
 <!--endintro-->
 

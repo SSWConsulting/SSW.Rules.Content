@@ -1,16 +1,16 @@
 ---
+seoDescription: Mastering Blazor development requires a solid foundation in these essential resources, from tutorials to books and courses.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know the best Blazor learning resources?
 guid: 0aa14e3c-52d5-45e9-97a1-7975beed9db7
 uri: blazor-learning-resources
 created: 2022-03-28T07:48:45.0000000Z
 authors:
-- title: Brady Stroud
-  url: https://ssw.com.au/people/brady-stroud
+  - title: Brady Stroud
+    url: https://ssw.com.au/people/brady-stroud
 related: []
 redirects:
-
 ---
 
 Prepare for the future of web development by checking out these Blazor learning resources.

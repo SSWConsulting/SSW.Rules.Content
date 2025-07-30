@@ -1,21 +1,21 @@
 ---
+seoDescription: The role of a Product Owner involves prioritizing and managing the product backlog, ensuring alignment with business goals.
 type: rule
-archivedreason: 
+archivedreason:
 title: Product Owner - Do you know how to build/update the backlog?
 guid: a59ba8f7-101d-4ebc-a4c4-a26c846bdc22
 uri: product-owner-do-you-know-how-to-update-the-backlog
 created: 2010-09-15T15:18:19.0000000Z
 authors:
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
-- title: Peter Gfader
-  url: https://ssw.com.au/people/peter-gfader
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Peter Gfader
+    url: https://ssw.com.au/people/peter-gfader
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- product-owner-do-you-know-how-to-build-update-the-backlog
-
+  - product-owner-do-you-know-how-to-build-update-the-backlog
 ---
 
 The Product Owner is responsible for owning the Product backlog. See the video on ["Do you know how to be a good Product Owner?"](/do-you-know-the-how-to-be-a-good-product-owner)

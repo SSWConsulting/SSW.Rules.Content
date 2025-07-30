@@ -1,4 +1,5 @@
 ---
+seoDescription: Inserting data rows using DataAdapter in .NET applications with SQL Server, Access, or other databases.
 type: rule
 archivedreason: Ugly rule, why aren't we advocating for EF? Refer to [https://www.ssw.com.au/rules/why-to-use-entity-framework](/rules/why-to-use-entity-framework)
 title: Do you use a DataAdapter to insert rows into your database?
@@ -6,42 +7,42 @@ guid: 75a90696-0dce-4dae-a37c-6dedcd62d08a
 uri: do-you-use-a-dataadapter-to-insert-rows-into-your-database
 created: 2009-05-05T05:30:52.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ryan Tee
-  url: https://ssw.com.au/people/ryan-tee
-  noimage: true
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ryan Tee
+    url: https://ssw.com.au/people/ryan-tee
+    noimage: true
 related: []
 redirects: []
-
 ---
 
-There are 5 common methods of inserting rows into your database:  
+There are 5 common methods of inserting rows into your database:
+
 <!--endintro-->
 
 1. Use SqlCommand with an `SQL INSERT` statement and parameters:
 
-``` cs
+```cs
 public void SQLInsert(string customerID, string companyName, string contactName)
 {
     SqlConnection sqlcon = new SqlConnection();
-    sqlcon.ConnectionString = &quot;Persist Security Info=False; 
+    sqlcon.ConnectionString = &quot;Persist Security Info=False;
                Integrated Security=SSPI;database=northwindJV;
                server=(local);Connect Timeout=5&quot;;
     SqlCommand sqlcmd = new SqlCommand();
-    sqlcmd.CommandText = &quot;INSERT Customers(CustomerID, CompanyName, 
+    sqlcmd.CommandText = &quot;INSERT Customers(CustomerID, CompanyName,
                 ContactName) VALUES(@CustomerID, @CompanyName, @ContactName)&quot;;
     sqlcmd.Connection = sqlcon;
     sqlcmd.Parameters.Add(&quot;@CustomerID&quot;, customerID);
     sqlcmd.Parameters.Add(&quot;@CompanyName&quot;, companyName);
     sqlcmd.Parameters.Add(&quot;@ContactName&quot;, contactName);
-    
+
     ... // for all columns
-    
+
     try
     {
         sqlcon.Open();
-        MessageBox.Show(&quot;The number of records updated was&#58; &quot; 
+        MessageBox.Show(&quot;The number of records updated was&#58; &quot;
         + sqlcmd.ExecuteNonQuery().ToString());
     }
     finally
@@ -93,12 +94,12 @@ public void DASQLInsert(string firstName, string surname)
      SqlConnection sqlcon = new SqlConnection();
      sqlcon.ConnectionString = "Persist Security Info=False; Integrated Security=SSPI; database=northwind; server=mySQLServer;Connect Timeout=30";
      SqlCommand sqlcmd = new SqlCommand();
-     sqlcmd.CommandText = "INSERT Customers(firstName, surname) 
+     sqlcmd.CommandText = "INSERT Customers(firstName, surname)
                   VALUES(@firstName, @surname)";
      sqlcmd.Connection = sqlcon;
      SqlDataAdapter sqladp = new SqlDataAdapter();
      sqladp.InsertCommand = sqlcmd;
-    
+
      NorthWindCustomer dst = new NorthWindCustomer();
      NorthWindCustomer.CustomerRow row = dst.Customer.NewCustomerRow();
      row.FirstName = firstName;
@@ -140,7 +141,7 @@ public void DASPInsert(string firstName, string surname)
      row.FirstName = firstName;
      row.Surname = surname;
      dst.Customer.AddCustomerRow(row);
-    
+
      try
     {
          sqlcon.Open();
@@ -178,13 +179,13 @@ public void DACmdb(string firstName, string surname)
      ;SqlDataAdapter sqladp = new SqlDataAdapter();
      sqladp.SelectCommand = sqlcmd;
      SqlCommandBuilder cmdb = new SqlCommandBuilder(adp);
-    
+
      NorthWindCustomer dst = new NorthWindCustomer();
      NorthWindCustomer.CustomerRow row = dst.Customer.NewCustomerRow();
      row.FirstName = firstName;
      row.Surname = surname;
      dst.Customer.AddCustomerRow(row);
-    
+
      try
     {
          sqlcon.Open();

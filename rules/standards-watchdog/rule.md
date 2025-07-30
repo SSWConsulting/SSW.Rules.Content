@@ -1,11 +1,17 @@
 ---
+seoDescription: Learn how to correct colleagues nicely with tips on giving constructive feedback for professional development.
 type: rule
-title: Mentoring - Standards Watchdog - Do you help everyone to learn the rules?
+title: Mentoring - Do you help everyone to learn the rules (be a Standards Watchdog)?
 uri: standards-watchdog
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-related: []
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - do-you-know-the-nice-way-to-correct-someone
+  - the-value-of-consistency
+  - understand-the-power-of-empathy
 redirects:
   - general-standards-watchdog-do-you-help-everyone-to-learn-the-rules
   - is-everyone-in-your-team-a-standards-watchdog
@@ -35,14 +41,16 @@ This rule applies to all company standards. Standards are important because they
 
 ## Be nice, not harsh
 
-Read [Do you know the nice way to correct someone?](/do-you-know-the-nice-way-to-correct-someone)
+When you receive a great 'Done' email or document, make sure you mention how great it is **before** correcting any potential error.
+
+Learn more about [correcting someone in a nice way](/do-you-know-the-nice-way-to-correct-someone).
 
 ### Small things = Tiny Tip
 
 When the 'mistake' the person made is not an actual mistake, but something that the company has decided to do in one way for consistency, without a strong argument.
 
 ::: greybox
-**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial as per [https://ssw.com.au/rules/right-format-to-show-phone-numbers](/right-format-to-show-phone-numbers)
+**Tiny Tip:** I’d use international format on your phone number so people outside Australia can just click to dial as per [ssw.com.au/rules/right-format-to-show-phone-numbers](/right-format-to-show-phone-numbers)
 :::
 
 ::: good
@@ -66,7 +74,7 @@ Figure: Good example - Nicely informing of a better way to do something
 When the error the person committed can lead to a misunderstanding or a security breach. You should include a task with action when necessary.
 
 ::: greybox
-**Critical:** When sending a proposal never use the word "quote", but use "estimates" instead. As per Rules to Better Project Management we don't work with a fixed price, which is opposite to what the word "quote" implies. This might create different expectation and consequently frustration and legal problems with the client.
+**Critical:** When sending a proposal never use the word "quote", but use "estimate" instead. As per Rules to Better Project Management we don't work with a fixed price, which is opposite to what the word "quote" implies. This might create different expectation and consequently frustration and legal problems with the client.
 
 1. Please fix asap
 
@@ -81,26 +89,30 @@ When you come across a code error, it's always better if you just [fix it straig
 
 In cases where you aren't able to fix yourself, send an email to [report the error/bug](/report-bugs-and-suggestions), which should be [become a PBI](/turn-emails-into-pbis) and then fixed.
 
-#### Tips
+### What about checking PBIs?
+
+You will be surprised at how many developers write bad PBIs. You need to be a standards watchdog and correct them until they understand the importance. Be patient, it takes many times, they do eventually write [good quality PBIs](/defining-pbis).
+
+::: greybox
+**Tips:**
 
 * If you don't know who made the mistake, [use the annotate tool](/do-you-know-the-benefits-of-using-source-control) to find out
 * Cc relevant parties to help others to improve, to [collect brownie points](/do-you-make-sure-you-get-brownie-points), or to set a good example
+:::
 
 ### What if it's recurring?
 
 When you notice someone doing the wrong thing:
 
-* First time just send an email with a pointer to the rule
-* The second time, have a very quick chat with them
-* Third time call them in and give them a formal talk about it
-
-### Focus on the meat first
-
-When you receive a great 'done' email or document, make sure you mention how great it is **before** correcting any potential error.
+* **First time** - Just send an email with a pointer to the rule
+* **Second time** - Have a very quick chat with them
+* **Third time** - Call them in and give them a formal talk about it
 
 ### Timing is everything - Don't bottle it up
 
-It can be tempting to offer your feedback as soon as you think of it, but it's better to hold off until the recipient is in a place where they can hear it. If a person is busy, distracted, or in a poor emotional state, chances are your feedback won’t hit the mark. Wait until the person is calm and relaxed before asking them if now is a good time to offer your feedback.
+It can be tempting to offer your feedback as soon as you think of it, but it's better to hold off until the recipient is in a place where they can hear it. If a person is busy, distracted, or in a poor emotional state, chances are your feedback won’t hit the mark.
+
+Wait until the person is calm and relaxed before asking them if now is a good time to offer your feedback.
 
 For more, check out [Do you know to create a safe space instead of jumping into feedback?](/create-a-safe-space-instead-of-jumping-into-feedback)
 
@@ -108,21 +120,46 @@ For more, check out [Do you know to create a safe space instead of jumping into 
 ![Figure: Bad example - Seeing a mistake and not pointing it out doesn't improve a person. Allow them to benefit from your experience!](watchdog-ghost.jpg)
 :::
 
-### Going Anonymous
+### Going anonymous
 
 If a critique is personal, it can be hard to correct someone – especially if you don’t have a close relationship with that person. In a case like this, you should discretely ask your manager how to proceed.
 
-### Taking Feedback
+## Extra - Using ChatGPT to correct someone nicely 🤖
 
-::: good
-![Figure: Good example - Say 'thank you' to a person's corrections to show you don't have thin skin and encourage further positive and negative feedback. It all helps you to improve](watchdog-thankyou.jpg)
+Using ChatGPT can be an effective way to correct someone nicely. It allows you to provide feedback in a friendly and creative manner, reducing the risk of making the recipient feel defensive or upset. Use ChatGPT to create a personalized and entertaining message that communicates your feedback.  
+
+::: greybox
+**Example prompt:**
+
+"Act as a rules watchdog and ask Bob to:  
+
+1. Send a v2 email using the "To Myself" format per SSW Rules
+2. Instruct Sophie to send an invoice after the trip, and
+3. Mention other attendees  
+
+Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
 :::
 
-### In Summary
+::: good
+![Figure: The example prompt generates a fun email](Correct-someone-nicely.png)
+:::
+
+Providing feedback in a light-hearted and friendly manner can encourage colleagues to be more receptive to suggestions. Click “Regenerate response” if you don't like the output!
+
+## Taking feedback
+
+Say 'thank you' to a person's corrections to show you don't have thin skin and encourage further positive and negative feedback
+
+::: good
+![Figure: Good example - Be thankful... it all helps you to improve](watchdog-thankyou.jpg)
+:::
+
+## Summary
 
 It's important to ensure others are doing their best to maintain and follow the standards. Remember, it can be just as important for someone's professional development to give feedback as it is to receive it. Being able to communicate feedback in an effective and professional manner can benefit you in any career.
 
 ::: email-template
+
 |          |     |
 | -------- | --- |
 | To:      | Peter |
@@ -149,25 +186,3 @@ John
 ::: good
 Figure: Good example - Nicely informing of a standards violation
 :::
-
-### Using ChatGPT to correct someone nicely
-
-Using ChatGPT can be an effective way to correct someone nicely. It allows you to provide feedback in a friendly and creative manner, reducing the risk of making the recipient feel defensive or upset. Use ChatGPT to create a personalized and entertaining message that communicates your feedback.  
-
-::: greybox
-**Example prompt:**
-
-"Act as a rules watchdog and ask Bob to:  
-
-1. Send a v2 email using the "To Myself" format per SSW Rules
-2. Instruct Sophie to send an invoice after the trip, and
-3. Mention other attendees  
-
-Number each point. Make it friendly and funny by acting as a dog character. Be concise.”
-:::
-
-::: good
-![Figure: The example prompt generates a fun email](Correct-someone-nicely.png)
-:::
-
-Providing feedback in a light-hearted and friendly manner can encourage colleagues to be more receptive to suggestions. Click “Regenerate response” if you don't like the output!

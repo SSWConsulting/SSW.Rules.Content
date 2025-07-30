@@ -5,10 +5,8 @@ uri: architecture-diagram
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
-  - title: Matt Goldman
-    url: https://ssw.com.au/people/matt-goldman
-  - title: Piers Sinclair
-    url: https://ssw.com.au/people/piers-sinclair
+  - title: Matt Wicks
+    url: https://ssw.com.au/people/matt-wicks
 related:
   - awesome-documentation
   - azure-resources-diagram
@@ -66,7 +64,7 @@ Your diagram needs to include the relationships between these components, and ho
 
 The .NET dependency diagram is a useful tool, but it drills down into a specific component of the solution (the code) while ignoring the rest of it (the infrastructure). If it adds value to your documentation (i.e., there is a specific reason to include it) you can include the .NET dependency diagram, but don't use it here in place of the architecture diagram.
 
-See SSW rule: [Do you generate the VS Dependency Graph?](/do-you-generate-the-vs-dependency-graph)
+See SSW rule: [Do you generate dependency graphs?](/generate-dependency-graphs)
 
 ::: bad img-medium
 ![Figure: Bad example - The .NET dependency diagram shows code dependencies, but not the application's architecture](dependency-validation-01.png)
@@ -97,7 +95,7 @@ Group components logically by enclosing them in a box. Components that operate i
 **Note:** For clarity, out of scope items whether one or many, should be in a box.
 
 ::: good img-medium
-![Figure: Good example - SSW Rewards (Xamarin with Azure Active Directory B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
+![Figure: Good example - SSW Rewards (Xamarin with Entra ID B2C) - consistent styling is used. E.g. as well as all the icons and typography being consistent, you can see that data is a solid line and auth traffic is a dotted line](rewards-architecture-diagram.png)
 :::
 
 ### Tip #6: Start with paper
@@ -113,31 +111,31 @@ Putting something on a whiteboard is "low risk" for the participants as its real
 > * Brendan Richards, SSW Solution Architect
 
 ::: ok img-medium
-![Figure: SSW Rewards - start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram](IMG_9906.JPG)
+![Figure: SSW Rewards - start out with a hand-drawn sketch if that's easier for you, but don't consider this your final architecture diagram](rewards-hand-drawn-sketch.jpg)
 :::
 
 **Tip:** [Microsoft Office Lens](https://www.google.com.au/url?sa=t&rct=j&q=&esrc=s&source=video&cd=&cad=rja&uact=8&ved=2ahUKEwi6-NTb1MvrAhWXA3IKHevqC-MQtwIwAHoECAEQAQ&url=https://www.youtube.com/watch?v%3DjzZ3WVhgi5w&usg=AOvVaw25XKH6ZRcPfM5jaVajFOlH) is a free mobile app that uses your smartphone camera to capture scan-like images of documents, photographs, business cards, and whiteboards (including searchable handwritten text).
 
 ::: good img-medium
-![Figure: Better example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!](IMG_9908.JPG)
+![Figure: Better example - SSW Rewards - the same sketch but captured with Office Lens. How much clearer and more vibrant is this!](reward-hand-drawn-sketch-office-lens.jpg)
 :::
 
-### Tip #7: ...and Finish up with Diagrams.net
+### Tip #7: ...and finish up with draw.io
 
-The best tool for creating these diagrams is [diagrams.net](https://diagrams.net/) (previously draw.io). All the examples on this page were created with this tool.
+The best tool for creating these diagrams is [draw.io](https://draw.io/). All the examples on this page were created with this tool.
 
 It is definitely the most popular diagram tool at SSW:
 
-![Figure: When SSW developers were surveyed, diagrams.net was the clear winner (see green) for building architecture diagrams](FaveTool.png)
+![Figure: When SSW developers were surveyed, draw.io was the clear winner (see green) for building architecture diagrams](FaveTool.png)
 
 ::: good img-medium
-![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with diagrams.net that still look very professional. This one is in the style of a technical document](TimePRO-Architecture-Diagram-v2.png)
+![Figure: Better example - TimePro (an Angular &plus; .NET project with Hangfire) - you can create diagrams quickly and easily with draw.io that still look very professional. This one is in the style of a technical document](TimePRO-Architecture-Diagram-v2.png)
 :::
 
-Diagrams.net is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use diagrams.net is to integrate it directly into VS Code.
+Draw.io is free, can be used in the browser, or can be downloaded as a desktop app. But the best way to use draw.io is to integrate it directly into VS Code.
 
 ::: good img-medium
-![Figure: Great example - Auctions (a Blazor + .NET + Cosmos DB project) - diagrams.net integrated directly into VS Code](thumbnail_image003.jpg)
+![Figure: Great example - Auctions (a Blazor + .NET + Cosmos DB project) - draw.io integrated directly into VS Code](thumbnail_image003.jpg)
 :::
 
 There are multiple extensions available that let you do this, the best one is [VS Code | Extensions | Draw.io Integration](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio). This makes it easy to create and edit the architecture diagram right alongside the code, and check-in with the relevant commits.
@@ -146,7 +144,7 @@ There are multiple extensions available that let you do this, the best one is [V
 ![Figure: Good example - Auctions (a Blazor + .NET + Cosmos DB project) - architecture diagram created within VS Code and checked into the repo in the same commit as the relevant code changes. Blazor UI layer encapsulated in thematic color](architecture-2.png)
 :::
 
-### Tip #8: Polish up Diagrams.net
+### Tip #8: Polish up draw.io
 
 Maintain standards to keep your diagrams consistent:
 
@@ -162,21 +160,36 @@ Maintain standards to keep your diagrams consistent:
 ![Figure: Good example - SSW People (a Static Site - Gatsby and React with Dynamics 365 and SharePoint Online) - you can just as easily create colorful, engaging diagrams suitable for all of your project stakeholders](SSW.People-Architecture-Diagram.png)
 :::
 
-### Tip #9: Where to store Diagrams?
+### Tip #10: Exporting diagrams
+
+To export your diagram, go to *File* | *Export as* | *PNG*
+
+Make sure to tick *Include a copy of my diagram* is selected. This will let you open your diagram and edit it again when you import the PNG file into draw.io.
+
+To make it easy to tell that you can open the file in draw.io, ensure that the file extension is `.drawio.png`. 
+
+Read more in the docs - https://www.drawio.com/doc/faq/export-to-png
+
+### Tip #11: Where to store diagrams?
 
 Standardizing where your organisation stores architecture diagrams ensures a consistent experience among developers. Therefore store your architecture diagrams in the repo **docs**\ folder. Additionally, the \README.md (in the root) should have a link and an embedded image of the high-level architecture diagram (from the **docs**\\* folder).
 
 **Note:** If you have a Wiki, for visibility add an architecture diagram page and embed the images from the **docs**\\* folder.
 
-### Tip #10: Use Azure Architecture Center
+### Tip #12: Use Azure Architecture Center
 
 [Azure Architecture Center](https://docs.microsoft.com/en-us/azure/architecture/) is the best tool to help you figure out the pieces you need for an architecure diagram - see [SSW.Rules | Do you use Azure Architecture Center](/azure-architecture-center)
 
-### Alternatives to Diagrams.net
+### Alternatives to draw.io
+
+
+**Eraser**
+
+Another popular tool is [Eraser](app.eraser.io) which provide many industry standard icons, features, and tools that are used for architecture diagrams and software design blueprints.
 
 **Miro (by Adobe)**
 
-[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose. As a diagramming tool, it is lacking in features compared to Diagrams.net, but it can be used to create simple diagrams.
+[Miro](https://miro.com/) is an online tool designed primarily for whiteboard-style collaboration. It is very easy to use and optimised for this purpose.
 
 **Note:** The paid version of Miro gives you Azure Architecture Diagram templates - see [miro.com/templates/azure-architecture-diagram/](https://miro.com/templates/azure-architecture-diagram/)
 

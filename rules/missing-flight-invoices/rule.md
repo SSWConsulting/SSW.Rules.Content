@@ -1,4 +1,5 @@
 ---
+seoDescription: Retrieve missing invoices for flights quickly and easily through Qantas Business Rewards portal, manage your company trips, and resend tax invoices with just a few clicks.
 type: rule
 title: Do you know how to retrieve missing invoices for flights?
 uri: missing-flight-invoices
@@ -13,6 +14,7 @@ redirects:
 created: 2023-02-15T00:10:16.831Z
 guid: 80e83ad5-2474-4e61-9ef0-1ab716d7fc12
 ---
+
 When booking a flight for a business trip, it is common for accountants to claim that as an expense. In that case, they will need the invoice for the trip.
 
 In most cases, the tax invoices of the flights that booked by company were sent to the person.
@@ -27,8 +29,8 @@ Luckily, most airlines offers a convenient portal for managing bookings where yo
 
 Qantas offers a robust loyalty program, [take advantage of it](/do-you-take-advantage-of-business-rewards-programs).
 
-* All flights booked by the company can be managed through Qantas Business Rewards website
-* There is a **monthly report** which can be downloaded
+- All flights booked by the company can be managed through Qantas Business Rewards website
+- There is a **monthly report** which can be downloaded
 
 If an invoice is missing, you can access the document by:
 

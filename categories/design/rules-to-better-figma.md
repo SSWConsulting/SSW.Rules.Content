@@ -7,5 +7,8 @@ index:
 - software-for-ux-design
 - figma-prototypes
 - figma-uses
-
+- figma-dev-mode
+  
 ---
+
+Enhance your design process with these essential rules for using Figma, covering crucial software choices for UX design, effective prototyping techniques, and diverse applications of Figma in your workflow.

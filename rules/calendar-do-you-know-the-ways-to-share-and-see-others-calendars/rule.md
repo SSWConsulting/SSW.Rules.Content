@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover three ways to view team calendars, including sharing personal Outlook calendars and tracking appointments in Dynamics 365.
 type: rule
 title: Calendar - Do you know the ways to see others' calendars?
 uri: calendar-do-you-know-the-ways-to-share-and-see-others-calendars
@@ -20,6 +21,7 @@ created: 2012-09-25T18:07:48.000Z
 archivedreason: null
 guid: f7997808-c915-414d-bc1d-e2661a8ec705
 ---
+
 While working in a team, there are three ways of seeing others' or team calendars.
 
 <!--endintro-->
@@ -34,7 +36,7 @@ See [Calendar Permissions - Do you share your calendars?](/calendar-do-you-allow
 
 ### Option 2: Using Dynamics 365 CRM Appointments - See everyone's tracked appointments
 
-If you do not have access to someone’s calendar, you can see their tracked appointments in Dynamics 365 | Appointments.  
+If you do not have access to someone’s calendar, you can see their tracked appointments in Dynamics 365 | Appointments.
 
 This can keep track of important things like client work and leave. See [Scheduling - Do you know how to book developers for a project?](/scheduling-do-you-know-how-to-book-developers-for-a-project) on how to add a booking to CRM Service Calendar.
 

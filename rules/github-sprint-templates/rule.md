@@ -1,4 +1,5 @@
 ---
+seoDescription: Standardize your Scrum processes with GitHub issue templates for Sprint Reviews/Retros and Forecasts, streamlining data entry and preserving visibility.
 type: rule
 archivedreason: Moving to Email ([Do you create a Sprint Review/Retro email?](/rules/sprint-review-retro-email/)) due to GitHub Issues' shortcomings, cluttered backlogs, necessity for private repos in public projects, and limitations in scope management.
 title: GitHub Issues - Do you create templates for Sprint Reviews/Retros/Forecasts?
@@ -25,11 +26,11 @@ Let's take a look at how...
 
 Creating an issue template for both your Sprint Review/Retro email and your Sprint Forecast email gives you several advantages.
 
-* Users don't need to copy and paste the template, they simply press "new" and are prompted for information.
-* Visibility of all past Sprints is shown in the GitHub issue history
-* Let's you edit with Markdown
-* Standardizes the Sprint Forecast and Retro/Review process and information included
-* You still get an automated email from GitHub, so you don't lose anything by making the switch!
+- Users don't need to copy and paste the template, they simply press "new" and are prompted for information.
+- Visibility of all past Sprints is shown in the GitHub issue history
+- Let's you edit with Markdown
+- Standardizes the Sprint Forecast and Retro/Review process and information included
+- You still get an automated email from GitHub, so you don't lose anything by making the switch!
 
 Make your GitHub issue templates follow the format of the rules on [Sprint Forecasts](/do-you-create-a-sprint-forecast-aka-the-functionality-that-will-be-developed-during-the-sprint) and [Sprint Reviews](/sprint-review-retro-email) then you are good to go.
 

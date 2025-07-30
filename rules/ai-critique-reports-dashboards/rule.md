@@ -1,4 +1,5 @@
 ---
+seoDescription: AI-powered report critique and enhancement tools improve report quality and effectiveness by aligning with International Business Communication Standards
 type: rule
 title: Do you use AI to critique and improve your Reports and Dashboards?
 uri: ai-critique-reports-dashboards
@@ -8,7 +9,6 @@ authors:
 created: 2023-11-27T22:35:45.653Z
 guid: 598ee803-4a6a-4e33-a003-ba37431ed68a
 ---
-
 
 Leveraging AI tools for critiquing and enhancing reports and dashboards can significantly improve their quality and effectiveness. Free AI tools such as the [Report Enhancer](https://chat.openai.com/g/g-nl3yYvd1D-report-enhancer) GPT, can be used for this purpose, which checks your report against the International Business Communication Standards (IBCS).
 

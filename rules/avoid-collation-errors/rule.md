@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid collation errors by specifying database default collation when joining tables or creating temporary tables.
 type: rule
 archivedreason:
 title: DBAs - Do you avoid collation errors?

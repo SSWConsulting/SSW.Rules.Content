@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to effectively run acceptance tests and automate your testing process with tools like Microsoft Test Manager.
 type: rule
 title: Do You Run Acceptance Tests?
 uri: do-you-run-acceptance-tests

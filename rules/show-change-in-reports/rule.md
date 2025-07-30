@@ -1,17 +1,17 @@
 ---
+seoDescription: Showcasing changes between previous and current data enhances reports by providing valuable insights into trends and progress.
 type: rule
 archivedreason:
 title: Data Layout - Do you show change in your reports?
 guid: 7a272cbc-bdb5-44f7-9877-7e8d38690d1c
 uri: show-change-in-reports
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 It is important to show previous and current data, as well as the changes between the two.

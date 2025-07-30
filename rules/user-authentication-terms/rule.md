@@ -1,4 +1,5 @@
 ---
+seoDescription: Use intuitive user authentication terms to enhance your application's user experience with sign-in and registration options.
 type: rule
 title: Do you use right terms for user authentication?
 uri: user-authentication-terms
@@ -16,7 +17,6 @@ redirects:
 created: 2016-04-21T04:36:06.000Z
 archivedreason: null
 guid: 4f9793f4-6634-491c-a823-654c408da42e
-
 ---
 
 The words we choose can significantly impact user experience. One such area of careful consideration is the language surrounding user authentication.

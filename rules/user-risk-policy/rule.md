@@ -1,4 +1,5 @@
 ---
+seoDescription: Protect your users from risky behavior with Entra ID's user risk policy, automatically blocking or requiring password resets based on sign-in risk levels.
 type: rule
 title: Do you have a User Risk Policy?
 uri: user-risk-policy
@@ -9,14 +10,13 @@ related:
   - sign-in-risk-policy
 created: 2022-04-29T02:13:58.669Z
 guid: 0aef7548-1e06-4723-9f51-a6da5f564813
-
 ---
 
-Azure Active Directory (AD) Identity Protection's user risk policy helps automatically protect your users from risky behaviour on their accounts.
+Entra ID Protection's user risk policy helps automatically protect your users from risky behaviour on their accounts.
 
 <!--endintro-->
 
-Azure AD has many built-in solutions to protect legitimate users from malicious actors trying to sign in to their accounts via Azure AD, one of them being user risk policy.
+Entra ID has many built-in solutions to protect legitimate users from malicious actors trying to sign in to their accounts via Entra ID, one of them being user risk policy.
 
 This policy can either fully block access or require a password reset for the user to be able to login, depending on the the sign-in risk level (High, Medium and above or Low and above).
 
@@ -30,4 +30,4 @@ When setting this up, you can also choose to apply this to all your users, selec
 
 ![Good example - All users with a risk of High will be blocked from signing in](userrisk.jpg)
 
-You can read more on how to enable these policies on [configure and enable risk policies documentation](https://docs.microsoft.com/en-us/azure/active-directory/identity-protection/howto-identity-protection-configure-risk-policies).
+You can read more on how to enable these policies on [configure and enable risk policies documentation](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies).

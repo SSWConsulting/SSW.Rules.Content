@@ -1,4 +1,5 @@
 ---
+seoDescription: Upgrade to the improved .NET DataGridView control in Visual Studio 2005 or explore top-rated third-party alternatives for advanced data grid features.
 type: rule
 title: Do you keep the standard .NET DataGrid?
 uri: do-you-keep-the-standard-net-datagrid
@@ -9,13 +10,13 @@ created: 2014-03-14T06:52:00.000Z
 guid: 328439b4-295e-475d-aa4c-7635f6efa614
 ---
 
-In Visual Studio 2003 the standard **DataGrid** has some limitations. It was ugly compared to a **ListView** and did not support combo box or button columns, making it useless for many applications.  
+In Visual Studio 2003 the standard **DataGrid** has some limitations. It was ugly compared to a **ListView** and did not support combo box or button columns, making it useless for many applications.
 
-In Visual Studio 2005 we have this great new **DataGridView** control which solves these problems.  
+In Visual Studio 2005 we have this great new **DataGridView** control which solves these problems.
 
 <!--endintro-->
 
-If you still want more then you need a 3rd party control. We recommend these (in this order):  
+If you still want more then you need a 3rd party control. We recommend these (in this order):
 
 1. Janus GridEx
 2. Developer Express XtraGrid

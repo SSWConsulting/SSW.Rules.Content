@@ -1,4 +1,5 @@
 ---
+seoDescription: Simplify repetitive UI sections by encapsulating them in HTML Helpers or Partial Views to reduce code duplication and improve maintainability.
 type: rule
 title: Do you use Html Helpers and Partial Views to simplify Views?
 uri: do-you-use-html-helpers-and-partial-views-to-simplify-views
@@ -25,6 +26,7 @@ Repeated sections of User Interface should be encapsulated in either Html Helper
     }
 </div>
 ```
+
 ::: bad
 Figure: Bad example – The above code could be encapsulated into a Partial View for reuse
 :::
@@ -39,6 +41,7 @@ public static class DateExtensions
 }
 @Html.GetTodayDate()
 ```
+
 ::: good
 Figure: Good example – Using an HTML Helper extension method for reusable code
 :::
@@ -46,6 +49,7 @@ Figure: Good example – Using an HTML Helper extension method for reusable code
 ```cs
 @Html.Partial("_FeaturedProduct")
 ```
+
 ::: good
 Figure: Good example – Using a Partial View for reusable sections of UI
 :::

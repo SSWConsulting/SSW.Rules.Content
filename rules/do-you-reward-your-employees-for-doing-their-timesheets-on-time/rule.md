@@ -1,4 +1,5 @@
 ---
+seoDescription: Incentivize employees to submit timesheets on time with a reward system that includes a free lunch for the entire company.
 type: rule
 title: Do you incentivise your employees to do their timesheets on time?
 uri: do-you-reward-your-employees-for-doing-their-timesheets-on-time
@@ -7,7 +8,8 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
   - title: Ulysses Maclaren
     url: https://ssw.com.au/people/ulysses-maclaren
-related: []
+related:
+  - celebrate-birthdays
 redirects:
   - do-you-incentivise-your-employees-to-do-their-timesheets-on-time
 created: 2013-04-19T20:22:27.000Z
@@ -26,10 +28,11 @@ Get your employees to enter [their timesheets daily](/do-you-know-when-to-enter-
 A deadline for submitting timesheets (Friday 12pm). The entire company is rewarded with a free lunch, and only people who missed the deadline will miss out on it.
 
 ::: email-template  
-|          |     |
+
+| | |
 | -------- | --- |
-| To:      | All |
-| Subject: | Free Lunch  |  
+| To: | All |
+| Subject: | Free Lunch |  
 ::: email-content
 
 Hi All,
@@ -44,7 +47,7 @@ Can you please complete your timesheets ASAP and little ‘r’ me when you are 
 
 Here’s what we check:
 
-1. Timesheets - [reports.ssw.com.au/Reports/report/SSWTimePRO/SSWTimePRONETReports/11\_ValidateMissingTimesheets](http://reports.ssw.com.au/Reports/report/SSWTimePRO/SSWTimePRONETReports/11_ValidateMissingTimesheets%22)
+1. Timesheets - [reports.ssw.com.au/Reports/report/SSWTimePRO/SSWTimePRONETReports/11_ValidateMissingTimesheets](http://reports.ssw.com.au/Reports/report/SSWTimePRO/SSWTimePRONETReports/11_ValidateMissingTimesheets%22)
 2. SugarLearning - [sugarlearning.com/SSW/Leaderboard](https://www.sugarlearning.com/SSW/Leaderboard)
 3. Chewing the Fat response - we send out a weekly Microsoft Form with some educational or information gathering content. It must be responded to by the deadline.
 

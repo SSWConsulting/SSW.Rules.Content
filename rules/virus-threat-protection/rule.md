@@ -1,4 +1,5 @@
 ---
+seoDescription: PC protection requires running virus and threat scans to identify and remove potential threats on your machine.
 type: rule
 title: PC - Do you run virus and threat protection?
 uri: virus-threat-protection
@@ -10,6 +11,7 @@ authors:
 created: 2022-03-16T23:51:30.817Z
 guid: 2e49024a-57e8-4432-8877-ff9fc90b5532
 ---
+
 Users are often exposed to viruses on their machines. Virus scans help identify and remove potential threats on your machine. Windows comes with built-in protection called **virus and threat protection** that is suitable for most situations.
 
 <!--endintro-->

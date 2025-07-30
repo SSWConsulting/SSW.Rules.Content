@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create a rule in SharePoint using a step-by-step guide
 type: rule
 archivedreason: Moved to GitHub - https://github.com/SSWConsulting/SSW.Rules.Content/wiki/How-to-Create-Rules
 title: SharePoint - Do you know how to create a rule? (internal only)

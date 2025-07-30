@@ -1,4 +1,5 @@
 ---
+seoDescription: Add Test Cases to Azure Test Plans by organizing them into Test Plans or Suites, creating a plan for each sprint
 type: rule
 title: Do you know how to add a Test Case to a Test Plan in Azure Test Plans?
 uri: add-test-case-to-test-plan-azure-test-plans
@@ -8,7 +9,8 @@ authors:
 created: 2022-08-26T03:55:09.844Z
 guid: 448c0c33-5bb6-4703-aff2-9ac670d553c4
 ---
-Organize your Test Cases by adding them to a Test Plan or Test Suite. 
+
+Organize your Test Cases by adding them to a Test Plan or Test Suite.
 One Test Plan per Sprint is recommended.
 
 A Test Plan consists of a number of Test Suites and/or Test Cases.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Improve your report's clarity by avoiding unnecessary decimal places in data layouts—learn how to format currency values effectively.
 type: rule
 archivedreason:
 title: Data Layout - Do you avoid using too many decimal places?

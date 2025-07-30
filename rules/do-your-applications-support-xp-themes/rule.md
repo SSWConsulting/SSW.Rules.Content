@@ -1,4 +1,5 @@
 ---
+seoDescription: .NET applications should support Windows XP themes to ensure a professional and consistent user interface.
 type: rule
 title: Do your applications support XP themes?
 uri: do-your-applications-support-xp-themes
@@ -29,7 +30,7 @@ We recommend using manifest file to support XP Themes in .NET. Follow this to us
 
    ![Figure: How to set the Button's FlatStyle Property](setbuttonflatstyle.jpg)
 
-2. Copy XPThemes.manifest file to your bin folder   
+2. Copy XPThemes.manifest file to your bin folder  
    By default, you can get it from `C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\XPThemes.manifest`
 
 3. Rename "XpThemes.manifest" to "ApplicationName.exe.manifest"

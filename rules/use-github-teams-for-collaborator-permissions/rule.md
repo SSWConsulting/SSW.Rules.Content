@@ -1,4 +1,5 @@
 ---
+seoDescription: Manage collaborator permissions effectively on GitHub by using teams to assign roles and control access levels.
 type: rule
 archivedreason:
 title: GitHub - Do you use GitHub teams for collaborator permissions?
@@ -11,10 +12,10 @@ authors:
   - title: Gordon Beeming
     url: https://www.ssw.com.au/people/gordon-beeming
 related:
- - when-you-use-mentions-in-a-pbi
- - limit-admin-access
-redirects: 
- - use-teams
+  - when-you-use-mentions-in-a-pbi
+  - limit-admin-access
+redirects:
+  - use-teams
 ---
 
 You can use teams within a repository to manage a whole group's permissions instead of setting permissions for each new member of the organisation.
@@ -42,7 +43,6 @@ When you add a team to a repository, you can give the team a role that determine
 ::: bad
 ![Figure: Bad example - Individuals should not have Admin access to a repository](individuals-added-as-admins.png)
 :::
-
 
 ::: good
 ![Figure: Good example - Teams should have Maintainer access to a repository](teams-added-as-maintainers.png)

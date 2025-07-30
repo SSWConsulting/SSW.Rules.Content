@@ -1,10 +1,15 @@
 ---
+seoDescription: Boolean Property naming convention follows a specific pattern to clearly indicate its state.
 type: rule
 title: Do you follow naming conventions for your Boolean Property?
 uri: follow-naming-conventions-for-your-boolean-property
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+  - title: Jeoffrey Fischer
+    url: https://ssw.com.au/people/jeoffrey-fischer
+  - title: Daniel Mackay
+    url: https://ssw.com.au/people/daniel-mackay
 related: []
 redirects:
   - do-you-follow-naming-conventions-for-your-boolean-property

@@ -1,16 +1,16 @@
 ---
+seoDescription: Log every error to provide proactive and polite support to users, transforming unhandled errors into opportunities for good service.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you log every error?
 guid: 832001d6-d9d1-4e5f-aaf5-0d439e8d0f66
 uri: do-you-log-every-error
 created: 2009-02-28T09:43:21.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 When you walk into a clothes store to exchange a pair of jeans, you expect to be treated with respect. The sales person should talk to you at your level, deal with your issues, and in a polite and fair way handle your problem. Developers should not expect software users to be treated any differently.

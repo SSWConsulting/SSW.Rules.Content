@@ -1,4 +1,5 @@
 ---
+seoDescription: Maintain network security by separating VLANs and implementing access control lists and firewalls to prevent unauthorized access.
 type: rule
 title: Do you keep your networks separated?
 uri: separate-networks
@@ -8,6 +9,7 @@ authors:
 created: 2023-05-05T06:10:19.136Z
 guid: 97f4f1b1-b161-40c4-ab97-6fbd765e8327
 ---
+
 Keeping networks and VLANs separated is an essential aspect of a robust security strategy. This is particularly true for less secure networks such as automation and HVAC systems, which are often targeted by cybercriminals looking to gain unauthorized access to the network.
 
 <!--endintro-->

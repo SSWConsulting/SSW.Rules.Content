@@ -13,5 +13,5 @@ index:
 - do-you-know-how-to-do-a-hard-delete-of-large-files-in-mdm-microsoft-dynamics-marketing
 
 ---
- 
 
+Enhance your understanding of Microsoft Dynamics Marketing (MDM) with these key rules, covering everything from user types to marketing automation options, ensuring a more effective and compliant marketing strategy.

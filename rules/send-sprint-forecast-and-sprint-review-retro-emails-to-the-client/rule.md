@@ -1,4 +1,5 @@
 ---
+seoDescription: Send "Sprint Forecast" and "Sprint Review/Retro" emails to clients to streamline project management and enhance transparency.
 type: rule
 title: Do you send "Sprint Forecast" and "Sprint Review/Retro" emails to the client?
 uri: send-sprint-forecast-and-sprint-review-retro-emails-to-the-client

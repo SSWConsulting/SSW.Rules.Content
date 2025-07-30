@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you manage clients' expectations by being upfront about estimates and costs?
 type: rule
 title: Do you manage clients' expectations?
 uri: do-you-manage-clients-expectations
@@ -6,9 +7,9 @@ authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
-- triaging-do-you-correctly-triage-additional-item-requests
-- inform-clients-about-estimates-overrun
-- professional-integrity
+  - triaging-do-you-correctly-triage-additional-item-requests
+  - inform-clients-about-estimates-overrun
+  - professional-integrity
 redirects: []
 created: 2009-02-26T03:03:57.000Z
 archivedreason: null

@@ -1,36 +1,41 @@
 ---
 type: rule
 title: Do you know the importance of asking questions?
+seoDescription: Discover the importance of asking questions and transform your
+  communication skills with expert tips on choosing the right time, avoiding
+  interrupting, and crafting valuable inquiries.
 uri: asking-questions
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related:
   - use-backchannels-effectively
+  - speak-up-in-meetings
 redirects:
   - do-you-know-the-importance-of-asking-questions
 created: 2020-10-01T20:35:49.000Z
 archivedreason: null
 guid: b8082efe-e98e-419b-8b71-b0188640aef4
 ---
+
 A disproportionate amount of time is spent thinking about whether you got the **right answers** from the client (or in the software world "Did we get the right specs?"). However, asking the **right questions** is a very important part of this process.
 
 <!--endintro-->
 
-Topics:
-
-* The importance of questions
-* Curiosity based questions
-* Confirmation based questions
-* Asking questions is natural (by kids)
-* Tip #1: Choose the right time/avoid interrupting
-* Tip #2: Avoid waffling by asking v2 questions (avoid v1 questions + setup a backchannel)
-* Tip #3: Ask questions with added value
-* Tip #4: [Ask open-ended questions](/ask-open-ended-questions) (avoid yes/no questions)
-* Tip #5: Document the answers in the PBI/email as it can help others in the future
-* [Upselling](/upsell-your-most-valuable-product-service) - the side value of good questions
-* [The Retro](/do-you-do-a-retro)
-
 `youtube: https://www.youtube.com/embed/RlADH0sLOmc`
 
-**Tip:** This video has timestamps and won't show here. The timestamps are only visible if you play this on the YouTube App or YouTube website.
+**Video: The importance of asking good questions (10 min)**
+
+## 1. The Art of **Asking Effective Questions**
+
+Understanding the significance of questions in communication is fundamental. Curiosity-driven inquiries and confirmation-based queries enhance engagement and clarity. Asking questions is not only natural but also essential for fostering curiosity and understanding.
+
+Timing is key in effective questioning; avoiding interruptions and waffling ensures meaningful dialogue. By choosing the right moment and minimizing disruptions, individuals can engage in more productive and focused conversations.
+
+Moreover, questions should add value and [encourage open-ended responses](/ask-open-ended-questions) to foster deeper insights. Documenting answers facilitates knowledge sharing and collaboration, enabling others to benefit from past experiences. Leveraging insightful questions can also lead to [upselling](/upsell) opportunities, highlighting the side value of good questioning techniques.
+
+## 2. Enhancing Communication and Continuous Improvement
+
+Employing v2 questions and [creating a backchannel](/use-backchannels-effectively) further streamline communication, allowing for smoother exchanges and better comprehension.
+
+Lastly, incorporating feedback loops like [retrospectives](/do-you-do-a-retro) ensures continuous improvement and learning, cementing the importance of questions in driving progress and innovation.

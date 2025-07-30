@@ -1,4 +1,5 @@
 ---
+seoDescription: Proactively notify stakeholders about potential Azure resource cost spikes to manage budgets effectively.
 type: rule
 title: Do you proactively notify about expected spikes in Azure Resource costs?
 uri: spike-in-azure-resource-costs
@@ -50,6 +51,7 @@ Figure: Informing and emailing stakeholders before a spike makes everyone happy
 #### Email template
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ SpendMaster (aka SysAdmins) }} |

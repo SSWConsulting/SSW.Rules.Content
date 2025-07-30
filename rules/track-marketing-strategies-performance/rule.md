@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you track your marketing strategies' performance? Identify and measure key metrics to gauge success.
 type: rule
 title: Do you track your marketing strategies’ performance?
 uri: track-marketing-strategies-performance
@@ -15,6 +16,7 @@ created: 2020-05-26T22:32:07.000Z
 archivedreason: null
 guid: 880741e7-140f-4fe7-8392-131a91bf495a
 ---
+
 Given most companies sink a lot of money into marketing, it’s important to know if your strategy as outlined in your Marketing Plan is working for you.
 
 <!--endintro-->
@@ -25,11 +27,11 @@ We recommend setting SMART goals, this is an effective tool that provides the cl
 
 To make sure your goals are clear and reachable, each one should be:
 
-* Specific (simple, sensible, significant).
-* Measurable (meaningful, motivating).
-* Achievable (agreed, attainable).
-* Relevant (reasonable, realistic and resourced, results-based).
-* Time bound (time-based, time limited, time/cost limited, timely, time-sensitive).
+- Specific (simple, sensible, significant).
+- Measurable (meaningful, motivating).
+- Achievable (agreed, attainable).
+- Relevant (reasonable, realistic and resourced, results-based).
+- Time bound (time-based, time limited, time/cost limited, timely, time-sensitive).
 
 **Source:** MindTools (2016). SMART goals – How to make your goals achievable.
 
@@ -43,9 +45,9 @@ Here is a diagram outlining some of the ways you can track your performance:
 
 A simple way of tracking this, is to have a spreadsheet that holds all of your data. Measurement can be as simple or as complicated as you make it. Don’t measure simply for the sake of having some numbers to present to your upper management. If you aren’t certain what you should be measuring, ask yourself these two questions:
 
-* Do these metrics support my key goals?
-* Can I take action on these metrics (e.g. Will they provide me insight into how I can improve my program)?
+- Do these metrics support my key goals?
+- Can I take action on these metrics (e.g. Will they provide me insight into how I can improve my program)?
 
-Unless you can answer “yes” to the questions above, you likely don’t need to be collecting the data — at least at first.   
+Unless you can answer “yes” to the questions above, you likely don’t need to be collecting the data — at least at first.
 
 ![Figure: An example of a results tracking system for marketing data, it tracks the growth and what it cost to get it!](results-tracking-system.png)

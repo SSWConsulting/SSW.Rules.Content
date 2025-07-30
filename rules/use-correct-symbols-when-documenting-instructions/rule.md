@@ -1,4 +1,5 @@
 ---
+seoDescription: Use correct symbols when documenting instructions to avoid user confusion and improve understanding by clearly listing steps in the correct order.
 type: rule
 title: Reference - Do you use the correct symbols when documenting instructions?
 uri: use-correct-symbols-when-documenting-instructions
@@ -23,7 +24,6 @@ We often see documentation like: _'...then you click on Select All Programs from
 Be sure you keep the operations clearly in the right order:
 
 <!--endintro-->
-
 
 ::: greybox
 ...then you click on All Apps from the Start menu

@@ -1,4 +1,5 @@
 ---
+seoDescription: Get step-by-step answers from ChatGPT and improve response logic with zero-shot chain of thought prompting.
 type: rule
 title: Do you get ChatGPT to "think step by step"?
 uri: get-chatgpt-to-answer-step-by-step
@@ -8,6 +9,7 @@ authors:
 created: 2023-04-12T14:06:25.338Z
 guid: 6ca8f268-322f-47a0-813d-7e8a0d54c08b
 ---
+
 By getting ChatGPT to think through its answers step by step, you can receive more logical and coherent responses that break down complex topics or tasks into easily understandable components. This is especially useful for mathematical questions.
 
 <!--endintro-->
@@ -22,3 +24,7 @@ Request that ChatGPT thinks through its answer with you. It's similar to telling
 ![Figure: Bad Example - It got the answer wrong](don-t-think.png)
 
 ![Figure: Good Example - By getting it to think step by step, it got the answer right](think.png)
+
+::: greybox
+**Note:** When you’re using any of the new “reasoning” or “thinking” models—such as OpenAI’s o-series (o1, o3, o4, etc), Google’s Gemini “thinking” variants, and similar - you generally don’t need to add “Let’s think step by step”. These models already run an internal chain-of-thought before replying. Use that phrase only when you actually want the reasoning printed, otherwise it just adds tokens and makes the answer wordier.
+:::

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to backup data on SQL Azure using its built-in automatic backup system and avoid T-SQL restores.
 type: rule
 title: Do you know how to backup data on SQL Azure?
 uri: do-you-know-how-to-backup-data-on-sql-azure
@@ -19,7 +20,7 @@ Microsoft Azure SQL Database has **built-in backups** to support self-service Po
 You should use the built-in automatic backup in Azure SQL Database versus using T-SQL.
 
 ::: greybox
-T-SQL: CREATE DATABASE destination\_database\_nameAS COPY OF[source\_server\_name].source\_database\_name  
+T-SQL: CREATE DATABASE destination_database_nameAS COPY OF[source\_server\_name].source_database_name  
 :::
 
 ::: bad
@@ -36,15 +37,15 @@ Azure SQL Database automatically creates backups of every active database using 
 
 Backup storage is the storage associated with your automated database backups that are used for Point in Time Restore and Geo-Restore. Azure SQL Database provides up to 200% of your maximum provisioned database storage of backup storage at no additional cost.
 
-| Service Tier | Geo-Restore | Self-Service Point in Time Restore | Backup Retention Period | Restore a Deleted Database |
-| --- | --- | --- | --- | --- |
-| Web | Not supported | Not supported | n/a | n/a |
-| Business | Not supported | Not supported | n/a | n/a |
-| Basic | Supported | Supported | 7 days | √ |
-| Standard | Supported | Supported | 14 days | √ |
-| Premium | Supported | Supported | 35 days | √ |
+| Service Tier | Geo-Restore   | Self-Service Point in Time Restore | Backup Retention Period | Restore a Deleted Database |
+| ------------ | ------------- | ---------------------------------- | ----------------------- | -------------------------- |
+| Web          | Not supported | Not supported                      | n/a                     | n/a                        |
+| Business     | Not supported | Not supported                      | n/a                     | n/a                        |
+| Basic        | Supported     | Supported                          | 7 days                  | √                          |
+| Standard     | Supported     | Supported                          | 14 days                 | √                          |
+| Premium      | Supported     | Supported                          | 35 days                 | √                          |
 
-**Figure: All the modern SQL Azure Service Tiers support back up. Web and Business tiers are being retired and do not support backup. Check [Web and Business Edition Sunset FAQ](https://msdn.microsoft.com/en-us/library/azure/dn741330.aspx) for up-to-date retention periods** 
+**Figure: All the modern SQL Azure Service Tiers support back up. Web and Business tiers are being retired and do not support backup. Check [Web and Business Edition Sunset FAQ](https://msdn.microsoft.com/en-us/library/azure/dn741330.aspx) for up-to-date retention periods**
 
 **Learn more on Microsoft documentation:**
 
@@ -53,4 +54,4 @@ Backup storage is the storage associated with your automated database backups th
 
 **Other ways to back up Azure SQL Database:**
 
-* Microsoft Blog - [Different ways to Backup your Windows Azure SQL Database](https://daoudisamir.com/different-ways-backup-windows-azure-sql-database/)
+- Microsoft Blog - [Different ways to Backup your Windows Azure SQL Database](https://daoudisamir.com/different-ways-backup-windows-azure-sql-database/)

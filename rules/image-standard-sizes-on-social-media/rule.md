@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you follow image standard sizes on social media? Learn how to optimize your visuals across all platforms with our comprehensive guide. From Facebook and Instagram to Twitter, LinkedIn, YouTube, and TikTok, we've got you covered!
 type: rule
 title: Do you follow image standard sizes on social media?
 uri: image-standard-sizes-on-social-media
@@ -18,7 +19,7 @@ archivedreason: null
 guid: 05a6c93d-e85c-43d0-a33a-857afad845ba
 ---
 
-For a better visual **across all your social media accounts,**, you should follow the standards that each platform requests. 
+For a better visual **across all your social media accounts,**, you should follow the standards that each platform requests.
 
 They have variations of sizes according to the placement, for example, banner, profile icon or a post. If you are creating an image for an advertising campaign on Facebook, they will offer you a hand full of placement options, like news feed, Facebook marketplace, video feeds, right column and many others.
 
@@ -26,9 +27,9 @@ They have variations of sizes according to the placement, for example, banner, p
 
 As all of them will have different specifications, so it’s best to check their support if you have any questions regarding this. Hootsuite is a reliable source, for example, check this guide: [Social Media Image Sizes 2022: Cheat Sheet for Every Network](https://blog.hootsuite.com/social-media-image-sizes-guide/#). It is important to know this, as posting on social media with the correct dimensions impacts how engaging your posts will be.
 
-### Twitter
+### X (was Twitter)
 
-On [Twitter](https://www.twitter.com), we have the following variations for images:
+On [X](https://x.com), we have the following variations for images:
 
 * Image post
 * Cover photo

@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Word spell checker may be lenient about "email" versus "e-mail", but it's essential to use "email" correctly.
 type: rule
 title: 'Tiny: Do you know "email" does not have a hyphen?'
 uri: email-should-be-email-without-the-hyphen
@@ -21,6 +22,6 @@ Microsoft Word spell checker is lenient about 'email' versus 'e-mail', but you s
 
 What if you wanted to say "Re-email this report please"... surely you would not say "Re-e-mail this report."
 
-We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Email) to check for this rule.
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/Rules.aspx#Email) to check for this rule.
 
 <!--endintro-->

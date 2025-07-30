@@ -1,4 +1,5 @@
 ---
+seoDescription: Conduct a post-meeting evaluation to enhance board meeting quality through continuous improvement and constructive feedback.
 type: rule
 title: Do you conduct a post-meeting retro?
 uri: post-meeting-retro
@@ -8,6 +9,7 @@ authors:
 created: 2024-02-28T23:39:47.145Z
 guid: 0532039b-2771-44e1-a881-40cdbd75b712
 ---
+
 Conducting a post-meeting evaluation (aka Retro) allows the board to reflect on the meeting's effectiveness, identify areas for improvement, and enhance future meetings.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Check Sprint status and statistics using Azure Test Plans' Progress Report and customizable Test Status charts.
 type: rule
 title: Do you know how to check the status and statistics of the current Sprint?
 uri: do-you-know-how-to-check-the-status-and-statistics-of-the-current-sprint
@@ -14,6 +15,7 @@ created: 2012-08-01T18:29:05.000Z
 archivedreason: null
 guid: c09e24e8-2a9e-449c-b0f5-180a1836d51c
 ---
+
 Developers sometimes think they're done when they finish coding and check in.
 
 It's easy to forget about testing, but this will often result in rework or bug fixes for the developers - in other words, more work!

@@ -10,50 +10,49 @@ index:
 - page-indexed-by-google
 - do-you-have-a-consistent-search-results-screen-aka-the-google-grid
 - do-you-know-that-content-is-king
-- monitor-seo-effectively
+- seo-tools
 - seo-checklist
 - do-you-know-anything-about-brand-power-and-social-signals
-- responsive-design
-- do-you-have-a-schema-code-on-your-website
-- does-your-domain-have-power
-- page-rank-is-no-longer-relevant
-- do-you-provide-security-to-your-website-visitors
 - do-you-provide-a-good-user-experience
-- website-page-speed
-- core-web-vitals
 - how-to-find-inbound-links-to-your-pages
 - have-a-google-places-entry
 - best-ways-to-generate-traffic-to-your-website
+- monitor-seo-effectively
+- website-heatmaps
+- report-seo-results
+- measure-website-changes-impact
+- does-your-domain-have-power
+- avoid-link-farms
+- avoid-using-frames-on-your-website
+- register-your-domain-for-a-long-time
+- use-subdirectories-not-domains
+- responsive-design
 - add-attributes-to-picture-links
 - include-important-keywords-where-it-matters
 - make-title-h1-and-h2-tags-descriptive
-- use-301-redirect-on-renamed-or-moved-pages
 - descriptive-links
 - use-dashes-in-urls
-- make-your-data-driven-pages-easier-to-find
 - give-the-written-text-in-an-image
-- avoid-link-farms
-- avoid-using-frames-on-your-website
+- spelling-do-you-use-us-english
+- html-meta-tags
+- lowercase-urls
+- do-you-have-a-schema-code-on-your-website
+- do-you-provide-security-to-your-website-visitors
+- website-page-speed
+- core-web-vitals
+- use-301-redirect-on-renamed-or-moved-pages
+- structured-data
 - avoid-content-in-javascript
-- submit-software-to-download-sites
 - keep-webpages-under-101kb
 - use-robots-txt-effectively
 - keep-files-under-the-google-file-size-limit
-- register-your-domain-for-a-long-time
-- spelling-do-you-use-us-english
-- know-the-iis-things-to-do
-- fix-ugly-urls
-- html-meta-tags
-- use-subdirectories-not-domains
-- website-heatmaps
 - seo-nofollow
-- lowercase-urls
 - seo-canonical-tags
 
 ---
 
 ::: img-small  
-![Figure: Google, the most popular search engine in the world](googlelogo_color_272x92dp.png "Google, the most popular search engine in the world")
+![](googlelogo_color_272x92dp.png "Google, the most popular search engine in the world")
 :::
 
 Google is, by a country mile, the most popular search engine in the world. It's popular because it seems to rank pages so accurately and quickly, time and time again. The secret to its success is its top secret Page Rank Algorithm. Google developed its page ranking system in an effort to increase the quality of search results and has left all of its competitors for dead. As a result, search engine optimization (SEO) gurus are always looking to find new ways to increase their Google rankings.

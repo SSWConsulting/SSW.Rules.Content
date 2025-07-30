@@ -1,4 +1,5 @@
 ---
+seoDescription: Provide at least two days' notice to individuals in different time zones for smoother scheduling and client communication.
 type: rule
 archivedreason: Irrelevant - as per Adam and Jason T
 title: Do you provide at least two days’ notice for people in other time zones?
@@ -8,8 +9,7 @@ created: 2014-11-05T23:38:57.0000000Z
 authors: []
 related: []
 redirects:
-- do-you-provide-at-least-two-days’-notice-for-people-in-other-time-zones
-
+  - do-you-provide-at-least-two-days’-notice-for-people-in-other-time-zones
 ---
 
 Ideally, giving people more than 1 weeks’ notice gives people enough time to adjust their schedule, and keep their clients informed about their availability.

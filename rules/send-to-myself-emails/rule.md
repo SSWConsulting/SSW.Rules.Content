@@ -1,4 +1,5 @@
 ---
+seoDescription: When a client or coworker asks you to do a task verbally, how can you ensure you remember it? Send yourself an email with a clear subject line and include the task details.
 type: rule
 title: Dones - Do you send yourself emails?
 uri: send-to-myself-emails
@@ -18,6 +19,7 @@ created: 2009-03-26T02:29:14.000Z
 archivedreason: null
 guid: 603ce646-dca9-443f-91a4-ba09d3cbec3b
 ---
+
 When a client or coworker **verbally** asks you to do a task... How do you make sure you will remember it?
 
 <!--endintro-->
@@ -31,7 +33,7 @@ Another scenario is when you've found something you should work on, but don't ha
 :::
 
 ::: bad
-![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.jpg)
+![Figure: Bad example - Writing yourself a "Post-It Note" is not the best method](postit-screen.png)
 :::
 
 ::: greybox
@@ -46,19 +48,20 @@ Another scenario is when you've found something you should work on, but don't ha
 :::
 
 ::: email-template
-|          |     |
-| -------- | --- |
-| From:    | John |
-| To:      | John |
-| Cc:      | Adam, Uly, Dave |
-| Subject: | Add a bad example to Rules to Better UI - Progress bar |
-::: email-content  
 
-### To myself,
+| | |
+| -------- | --- |
+| From: | John |
+| To: | John |
+| Cc: | Adam, Uly, Dave |
+| Subject: | Add a bad example to Rules to Better UI - Progress bar |
+::: email-content
+
+### To myself
 
 As per my conversation with Lei, the rule on progress bars {{link}} is missing a bad example
 
-1. Include a bad example to Rules to Better UI - progress bar  
+1. Include a bad example to Rules to Better UI - progress bar
 
 It's estimated to take **2 hours** and I'll make it my #1 priority on the next Sprint, starting tomorrow
 
@@ -69,15 +72,16 @@ Figure: Good example - Send yourself an email with estimate and prioritization
 :::
 
 ::: email-template
-|          |     |
-| -------- | --- |
-| From:    | John |
-| To:      | Dave |
-| Cc:      | Adam, Uly |
-| Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |
-::: email-content  
 
-### Hi Lei,
+| | |
+| -------- | --- |
+| From: | John |
+| To: | Dave |
+| Cc: | Adam, Uly |
+| Subject: | RE: Add a bad example to Rules to Better UI - Progress bar |
+::: email-content
+
+### Hi Lei
 
 \> 1. Include a bad example to Rules to Better UI - progress bar
 

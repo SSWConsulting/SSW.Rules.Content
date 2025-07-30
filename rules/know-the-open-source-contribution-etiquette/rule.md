@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn open source contribution etiquette and respect the work of others by following guidelines and maintaining coding styles.
 type: rule
 title: Do you know the open source contribution etiquette? (aka Don't re-order my house when fixing my tap)
 uri: know-the-open-source-contribution-etiquette

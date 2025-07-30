@@ -12,8 +12,10 @@ index:
 - azure-architecture-center
 - well-architected-framework
 - azure-resources-diagram
+- aspire
 - do-you-always-rename-staging-url-on-azure
 - do-you-consider-azuresearch-for-your-website
+- azure-migrate-before-migration
 - azure-resources-creating
 - bicep-user-defined-data-types
 - azure-naming-resources
@@ -25,6 +27,7 @@ index:
 - do-you-use-access-packages
 - do-you-know-how-to-be-frugal-with-azure-storage-transactions
 - do-you-know-how-to-backup-data-on-sql-azure
+- azure-database-models-choosing
 - do-you-configure-your-web-applications-to-use-application-specific-accounts-for-database-access
 - give-users-least-privileges
 - do-you-know-how-to-find-the-closest-azure-data-centre-for-your-next-project
@@ -43,7 +46,7 @@ index:
 - config-over-keyvault
 - entra-group-access-reviews
 - do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project
-
+- host-classic-asp-on-azure
 ---
 
 The Azure cloud platform is more than 200 products and cloud services designed to help you bring new solutions to life—to solve today's challenges and create the future. Build, run, and manage applications across multiple clouds, on-premises, and at the edge, with the tools and frameworks of your choice.

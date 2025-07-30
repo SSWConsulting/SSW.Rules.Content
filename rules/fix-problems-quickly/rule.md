@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you fix problems quickly? Conflict can arise when issues aren't addressed promptly, leading to dissatisfaction and loss of trust. To avoid bad blood, prioritize resolving conflicts and offer an olive branch after a resolution is found.
 type: rule
 title: Conflict - Do you fix problems quickly?
 uri: fix-problems-quickly
@@ -23,6 +24,7 @@ created: 2010-07-16T06:48:10.000Z
 archivedreason: null
 guid: 7e3ea5d3-d286-4765-a24e-16d7a260bd8d
 ---
+
 Most people do not like conflict, and so some people may shy away from dealing with a potentially uncomfortable situation, rather than addressing the problem.
 
 When someone brings to your attention that they are not happy with something, it's important to address it so that it doesn't happen again in the future. Keep in mind, this problem is particularly important for time sensitive tasks.
@@ -61,9 +63,9 @@ Read through [Communication - Do you have professional integrity? (Be a person o
 
 Unresolved conflict is bad enough with colleagues, and you can be sure if it's happening with colleagues, it's happening with clients too. Some consequences of unresolved problems with clients are:
 
-* Dissatisfaction and loss of trust
-* Cancelled bookings
-* Unpaid invoices
+- Dissatisfaction and loss of trust
+- Cancelled bookings
+- Unpaid invoices
 
 If you are getting warning signs such as the above, you need to escalate to your manager ASAP!
 
@@ -94,8 +96,8 @@ Bugs or things not working are things people expect actioned quickly. Therefore 
 
 You can work to resolve any conflict afterwards.
 
-* One-off tasks - Most of the time, even if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done
+- One-off tasks - Most of the time, even if you're unhappy with some work you've been given, but it's a one-off task, don't stress the small stuff, and just get it done
 
-* Recurring tasks - However, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task right away, but make sure you clearly communicate your concerns later on, when the pressure's off
+- Recurring tasks - However, if it's something you're being asked to do repeatedly, and you're unhappy with it, still do that task right away, but make sure you clearly communicate your concerns later on, when the pressure's off
 
 **Note:** If after raising the problem, you are still not happy, consider sending a "[For the record email](/for-the-record)"

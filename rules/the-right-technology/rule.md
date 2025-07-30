@@ -1,4 +1,5 @@
 ---
+seoDescription: .NET MVC provides a better alternative to ASP.NET Web Forms with its testability, instant pages, better HTML markup control, simpler debugging, and mobile support.
 type: rule
 archivedreason: Old. Was replaced by Angular, React, and Blazor.
 title: Do you use .NET MVC over ASP.NET Web Forms?
@@ -6,17 +7,16 @@ guid: 0be6a53a-ca81-4cb6-885f-f5b38274a654
 uri: the-right-technology
 created: 2016-07-29T17:56:03.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
 related: []
 redirects:
-- do-you-know-the-right-technology
-
+  - do-you-know-the-right-technology
 ---
 
-Use  **.NET MVC** over **ASP.NET Web Forms** .
+Use **.NET MVC** over **ASP.NET Web Forms** .
 
 Read the Top 5 reasons why you should **never** use Web Forms again:
 
@@ -34,20 +34,22 @@ Or watch the video:
 
 **Top 5 Reasons Why .NET MVC is Great (3 min)**
 
-``` asp
+```asp
 <asp:HyperLink
     ID="HyperLink1"
     runat="Server"
     NavigateUrl="http://www.example.com" CssClass="example"
     Text="Hello World"/>
 ```
+
 ::: bad
 Figure: Bad example - Using Web Forms
 :::
 
-``` dotnet
+```dotnet
 <a href="http://www.example.com" class="example" id="Example1_HyperLink1">Hello World</a>
 ```
+
 ::: good
 Figure: Good example - Using MVC 5
 :::

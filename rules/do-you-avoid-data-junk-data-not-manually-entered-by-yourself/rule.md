@@ -1,18 +1,18 @@
 ---
+seoDescription: Do you avoid capturing data that was not manually entered by yourself?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you avoid "Data Junk" (data not manually entered by yourself)?
 guid: a69fe0f0-0164-4a19-9c10-29f89069f43e
 uri: do-you-avoid-data-junk-data-not-manually-entered-by-yourself
 created: 2014-12-01T00:51:13.0000000Z
-authors: 
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-avoid-＂data-junk＂-(data-not-manually-entered-by-yourself)
-- do-you-avoid-data-junk-(data-not-manually-entered-by-yourself)
-
+  - do-you-avoid-＂data-junk＂-(data-not-manually-entered-by-yourself)
+  - do-you-avoid-data-junk-(data-not-manually-entered-by-yourself)
 ---
 
 When there are too many choices always Default to the most common ones. Then add a checkbox to allow the advanced users to turn off the common choices.

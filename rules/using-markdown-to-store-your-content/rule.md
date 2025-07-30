@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover why storing content in Markdown offers a cleaner, more maintainable alternative to HTML, with insights on integrating rich media and enhancing your editing workflow."
 type: rule
 archivedreason: 
 title: Do you use Markdown to store your content?

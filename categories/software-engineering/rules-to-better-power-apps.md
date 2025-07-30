@@ -17,7 +17,8 @@ index:
 - use-power-platform-build-tools-to-automate-your-power-apps-deployments
 - when-to-use-dataverse
 - when-to-use-low-code
+- build-cost-effective-power-apps
 
 ---
 
-
+Unlock the full potential of Power Apps with these essential rules designed to guide you in customization, deployment, and effective use of components. From leveraging environment variables to utilizing connectors, these guidelines will enhance your Power Apps development experience.

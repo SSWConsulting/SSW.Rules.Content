@@ -1,4 +1,5 @@
 ---
+seoDescription: SSW Status Control streamlines status checking results with intuitive graphics.
 archivedreason: Replaced [https://www.ssw.com.au/rules/enforce-the-text-meaning-with-icons-and-emojis](/enforce-the-text-meaning-with-icons-and-emojis)
 type: rule
 title: Do you use Status Control?

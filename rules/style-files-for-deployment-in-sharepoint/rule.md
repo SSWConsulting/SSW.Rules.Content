@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to properly deploy style files in SharePoint without modifying OOB files.
 type: rule
 archivedreason: 
 title: Do you know where to add style files for SharePoint deployment?

@@ -1,6 +1,7 @@
 ---
+seoDescription: Effective event planning requires clear job assignments for each volunteer to minimize downtime and maximize enjoyment.
 type: rule
-archivedreason: 
+archivedreason:
 title: Does each volunteer have a job?
 guid: f5525dae-32f2-4c8a-b577-4fa1b2ba371f
 uri: does-each-volunteer-have-a-job
@@ -8,7 +9,6 @@ created: 2014-12-31T00:32:52.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 A successful event happens when all the actors know what their role is.

@@ -1,4 +1,5 @@
 ---
+seoDescription: When casting IQueryable to IEnumerable and querying data afterwards, Entity Framework must collect the data at that point, resulting in significant extra database load and processing on the client side. Use AsEnumerable() instead for more efficient queries.
 type: rule
 title: Do you take care when casting IQueryable to IEnumerable?
 uri: take-care-when-casting-iqueryable-to-ienumerable
@@ -8,6 +9,7 @@ authors:
 created: 2021-12-13T17:00:03.219Z
 guid: ee5bfbb5-7743-462b-bc8a-f32b3fb015b0
 ---
+
 When you cast IQueryable to IEnumerable and then query the data from there, Entity Framework must collect the data at the point you do the cast. This can result in very significant extra database load, and extra processing on the client side.
 
 **NOTE:** Using `.AsEnumerable()` achieves the same effect.
@@ -27,13 +29,13 @@ int count1 = context.Sales
 
 // This implicitly treats the sales as an enumerable and enumerates all the items to count them.
 IEnumerable<Sale> sales = context.Sales;
-int count2 = sales.Count;	
+int count2 = sales.Count;
 
 // EF Core will evaluate everything before `.AsEnumerable()` and after that line, everything is in-memory.
 int count3 = context.Sales
     .AsEnumerable()
     .Count();
-    
+
 // This is the most common source of `IEnumerable` casting which can cause significant performance issues.
 public IEnumerable<Sale> GetSales() => context.Sales;
 

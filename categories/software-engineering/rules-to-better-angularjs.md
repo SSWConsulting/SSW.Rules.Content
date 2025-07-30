@@ -12,6 +12,7 @@ index:
 - do-you-call-angularjs-services-from-your-kendo-datasource
 - best-free-resources-for-angularjs
 - angular-the-stuff-to-install
+- best-package-manager-for-node
 
 ---
 

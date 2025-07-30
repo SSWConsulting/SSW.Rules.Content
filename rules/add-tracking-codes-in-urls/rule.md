@@ -1,30 +1,30 @@
 ---
+seoDescription: Learn how to add tracking codes in URLs and boost your online marketing efforts with UTM codes!
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you add tracking codes in URLs?
 guid: 3f11d37b-7e8d-4831-a552-dcd5cb45c9d3
 uri: add-tracking-codes-in-urls
 created: 2016-04-27T03:15:46.0000000Z
 authors:
-- title: Joanna Feely
-  url: https://ssw.com.au/people/joanna-feely
+  - title: Joanna Feely
+    url: https://ssw.com.au/people/joanna-feely
 related:
-- do-you-keep-your-content-consistent-across-your-different-social-media-platforms
-- do-you-know-how-to-weed-out-spammers
+  - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+  - do-you-know-how-to-weed-out-spammers
 redirects:
-- do-you-add-tracking-codes-in-urls
-
+  - do-you-add-tracking-codes-in-urls
 ---
 
-Understanding  and taking  advantage of tracking codes on URLs is very important to working out where to spend your SEO efforts and $$$. 
+Understanding and taking advantage of tracking codes on URLs is very important to working out where to spend your SEO efforts and $$$.
 
 What is the difference in these 2 URLs?
 
-- **thetrackr&#46;com** 
+* **thetrackr&#46;com**
 
 ...versus
 
-- **thetrackr&#46;com/bravo?utm\_expid=98763450-11.FrU2vkRZTECb\_wLuT78JGA.1&utm\_source=facebookads&utm\_medium=conversions&utm\_campaign=AU\_English\_BravoOrderSuccess4LAL\_AgeTargets&utm\_referrer=http%3A%2F%2Fm.facebook.com#ab\_test=b**
+* **thetrackr&#46;com/bravo?utm_expid=98763450-11.FrU2vkRZTECb_wLuT78JGA.1&utm_source=facebookads&utm_medium=conversions&utm_campaign=AU_English_BravoOrderSuccess4LAL_AgeTargets&utm_referrer=http%3A%2F%2Fm.facebook.com#ab_test=b**
 
 <!--endintro-->
 
@@ -36,14 +36,14 @@ This enables the page owner to find out how visitors are finding the page. For e
 
 With the long URL, there's a lot of additional information that can be taken from the link:
 
-- **utm** - An Urchin Traffic Module (UTM) code is the way that businesses track sales from their origination point (like a tweet, email or a brochure) down the funnel to their conversion page.
+* **utm** - An Urchin Traffic Module (UTM) code is the way that businesses track sales from their origination point (like a tweet, email or a brochure) down the funnel to their conversion page.
 
-- **expid** – short for 'experiment id' , it relates to using Google Experiments, which is a way of testing different versions of pages to see which one converts the best
+* **expid** – short for 'experiment id' , it relates to using Google Experiments, which is a way of testing different versions of pages to see which one converts the best
 
-- **source** - The source is where your link is hosted, like search, affiliate website or email campaign name or anywhere else.
+* **source** - The source is where your link is hosted, like search, affiliate website or email campaign name or anywhere else.
 
-- **medium** – used to identify the medium the link was used upon such as: email, CPC, or other method of sharing.
+* **medium** – used to identify the medium the link was used upon such as: email, CPC, or other method of sharing.
 
-- **campaign** - The medium is how it's delivered, like a postcard, PPC, email or social media. The campaign is typically what you're promoting, or the special way you're promoting it (like a holiday sale).
+* **campaign** - The medium is how it's delivered, like a postcard, PPC, email or social media. The campaign is typically what you're promoting, or the special way you're promoting it (like a holiday sale).
 
-- **referrer** – this relates to the "expid" code earlier in the URL – it shows which variant of the a/b testing you were referred from (in this case, it is the "b" version of the experiment)
+* **referrer** – this relates to the "expid" code earlier in the URL – it shows which variant of the a/b testing you were referred from (in this case, it is the "b" version of the experiment)

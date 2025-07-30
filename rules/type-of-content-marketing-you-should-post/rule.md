@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover top content types to post on your social media for effective marketing strategies
 type: rule
 title: Content - Do you know the types of content you should post on your social
   media?
@@ -16,12 +17,14 @@ related:
   - do-you-know-why-you-should-use-memes-as-part-of-your-business-social-media-content
   - image-standard-sizes-on-social-media
   - do-you-keep-your-content-consistent-across-your-different-social-media-platforms
+  - share-product-improvements
 redirects:
   - do-you-know-what-type-of-content-marketing-you-should-post-on-your-socials
 created: 2020-02-12T00:04:31.000Z
 archivedreason: null
 guid: 7790aae1-31fc-48e1-a882-9c72c7cda45e
 ---
+
 Sometimes it can be hard to keep **generating content daily for your social media** and even more when there’s not much going on. Here are a few types of content you could use for your next social media posts:
 
 <!--endintro-->
@@ -74,7 +77,7 @@ If your company follows an SSW rule, then share it on your social media too. Use
 
 ![Figure: Hiring post following branding guidelines](hiring-v2.png)
 
-### 11 - Teamwork, parties, etc.
+### 11 - Teamwork, parties, etc
 
 ![Figure: A team shot just before NDC with part of the SSW China office](teamwork2.jpeg)
 
@@ -92,10 +95,5 @@ To see best practices for sharing memes on your socials, check out [Do you know 
 
 ### 14 - Application upgrades/updates
 
-When you do a major (or minor) upgrade to an application, you should let people know and identify the reason for the upgrade.
-
-Whether your upgrade is to take advantage of a new feature, fix a bug, or even just to keep yourself on the latest and greatest version, your followers might want to know why you upgraded. You should put a short announcement on Twitter, Facebook, and/or LinkedIn. Your followers may not know about the changes and the ones who are grateful are likely to retweet or like your post.
-
-::: good
-![Figure: Good example - Announcing the upgrade with a short note of the new feature](octopus_upgrade.png)
-:::
+When you make an improvement to a product, share it on social media. This can be a new feature, big bug fix, or upgrade. This benefits both the business and the employee.
+Read more about this in [Do you share your improvements to products?](/share-product-improvements)

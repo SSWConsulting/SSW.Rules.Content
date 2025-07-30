@@ -1,6 +1,7 @@
 ---
+seoDescription: Answering IM questions one by one can greatly improve signal to noise ratio and make communication more efficient. To do this, simply respond to each question separately, repeating its keywords as necessary.
 type: rule
-title: Clarity - Do you answer IM questions in order?
+title: Do you answer IM questions in order?
 uri: answer-im-questions-in-order
 authors:
   - title: Adam Cogan
@@ -9,7 +10,7 @@ authors:
     url: https://ssw.com.au/people/tiago-araujo
   - title: Tylah Kapa
     url: https://ssw.com.au/people/tylah-kapa
-related: 
+related:
   - separate-messages
 redirects:
   - clarity-do-you-answer-im-questions-in-order
@@ -46,11 +47,12 @@ Figure: Bad example - We must try to find the answers one by one
 **- Gary:**  
 Welcome back from your holiday. How many items in your inbox? Can you give me the link for better IM rules? When is your next client work?
 
-**- Dave:**  
+**- Dave:**
 
 1. I have 85 items in my inbox
 2. Here is the link: <https://ssw.com.au/rules/rules-to-better-im>
 3. I start working for Northwind next Monday  
+
 :::
 ::: ok
 Figure: OK example - Each question answered in order

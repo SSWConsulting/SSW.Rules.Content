@@ -1,4 +1,5 @@
 ---
+seoDescription: Keep your social media updated to maintain a strong online presence and consistent branding for your business.
 type: rule
 title: Do you keep your social media updated?
 uri: keep-your-social-media-updated
@@ -22,7 +23,6 @@ redirects:
 created: 2014-07-04T05:58:05.000Z
 archivedreason: null
 guid: 50cea887-dfaf-44c8-b9b7-4a07dc5377c9
-
 ---
 
 If you are wondering how many times you should post on your social media, the answer is: **as often as you can post great and relevant content.** You don't have to post every hour to be relevant, and in fact, you can be seen as a spammer on socials.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your SharePoint experience by styling links with icons, ensuring a consistent look and feel.
 type: rule
 title: Do you style your SharePoint link with icons?
 uri: use-icons-sharepoint

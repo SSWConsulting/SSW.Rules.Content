@@ -1,4 +1,5 @@
 ---
+seoDescription: Raw SQL updates large numbers of rows efficiently and effectively, minimizing risks with proper precautions.
 type: rule
 title: Do you know when to use raw sql?
 uri: when-to-use-raw-sql
@@ -10,6 +11,7 @@ related:
 created: 2021-12-13T17:27:02.725Z
 guid: b3f3734b-ef73-4f84-972a-efe7a5a0bc24
 ---
+
 Raw SQL comes with risks but sometimes it is the best solution.
 
 <!--endintro-->
@@ -21,6 +23,7 @@ The most obvious is a SQL UPDATE statement which updates a large number of rows.
 ```cs
 await context.Database.ExecuteSqlInterpolatedAsync($"UPDATE Employees SET Active = {activeState}", ct);
 ```
+
 ::: good
 Good example - Updating a large number of rows quickly with SQL
 :::

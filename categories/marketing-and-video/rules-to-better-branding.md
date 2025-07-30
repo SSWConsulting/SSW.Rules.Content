@@ -5,6 +5,7 @@ guid: 101302ea-9cc1-4fec-986b-a2ca54a535cb
 uri: rules-to-better-branding
 index:
 - have-a-great-company-logo
+- branding-is-more-than-logo
 - set-design-guidelines
 - logo-redesign
 - do-you-use-identifying-company-logo-motifs

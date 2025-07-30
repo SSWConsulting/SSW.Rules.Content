@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover when building a Windows Phone app over an iPhone app saves time, reduces costs, and leverages existing .NET skills for faster deployment and code reuse.
 type: rule
 title: Do you know when to build a WP app over an iPhone app?
 uri: do-you-know-when-to-build-a-wp-app-over-an-iphone-app
@@ -12,7 +13,7 @@ guid: b1c20a73-4a7e-41d1-a983-a7dc322369e1
 
 1. ~~If your app is built on Silverlight today.~~ Stop building things on Silverlight today.
 
-<!--endintro--> 
+<!--endintro-->
 
 2. Reasons are:
     * Time to market

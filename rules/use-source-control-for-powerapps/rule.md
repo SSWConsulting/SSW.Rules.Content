@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to implement source control for Power Apps using GitHub or Azure DevOps to manage versioning, collaboration, and automated deployment effectively
 type: rule
 title: Do you use source control for your Power Apps?
 uri: use-source-control-for-powerapps
@@ -11,12 +12,12 @@ guid: 436f0f99-26f1-4e2e-8f0b-58c00fc3f823
 
 Source control is essential for any software development project, and Microsoft Power Apps solutions are no exception. Here are some reasons why you would want to use source control like GitHub or Azure DevOps for your Power Apps projects:
 
-- **Versioning** - Keep track of changes made to your Power Apps solutions over time.
-- **Collaboration** - Enable multiple developers to work on the same Power Apps project simultaneously.
-- **Audit Trail** - Maintain a history of who made what changes and when.
-- **Rollback** - Easily revert to a previous version if something goes wrong.
-- **Branching and Merging** - Work on new features or bug fixes in isolation before integrating them into the main project.
-- **Automated Deployment** - Integrate with CI/CD pipelines for automated testing and deployment.
+* **Versioning** - Keep track of changes made to your Power Apps solutions over time.
+* **Collaboration** - Enable multiple developers to work on the same Power Apps project simultaneously.
+* **Audit Trail** - Maintain a history of who made what changes and when.
+* **Rollback** - Easily revert to a previous version if something goes wrong.
+* **Branching and Merging** - Work on new features or bug fixes in isolation before integrating them into the main project.
+* **Automated Deployment** - Integrate with CI/CD pipelines for automated testing and deployment.
 
 <!--endintro-->
 

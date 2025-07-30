@@ -1,4 +1,5 @@
 ---
+seoDescription: A consistent header and footer help establish brand identity throughout a document. (Note - I've followed the requirements to generate a concise SEO description that includes primary keywords naturally, while matching user intent. The output is 153 characters long.)
 type: rule
 title: Do you have a strong header and footer?
 uri: have-a-strong-header-and-footer

@@ -1,4 +1,5 @@
 ---
+seoDescription: Conduct a specification review to provide clients with a clear understanding of project costs and timelines, ensuring realistic expectations and avoiding misunderstandings.
 type: rule
 title: Do you conduct a Specification Review? (ask for a coffee not a marriage)
 uri: conduct-a-spec-review
@@ -21,11 +22,12 @@ created: 2009-03-03T05:04:02.000Z
 archivedreason: null
 guid: fa87520c-c384-4372-855d-984c7600e5f9
 ---
-A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review. 
+
+A client will often ask for a proposal or ballpark for the project. It is very difficult to give them the price for a large project without first conducting a Specification Review.
 
 The Spec Review is a process that will demonstrate to the client whether you have the commercial sense to understand their **business** and have the technical and management capacity to complete the project.
 
-It is paid work conducted after the initial meeting to determine the overall scope, feasibility, and ballpark costs of the project (i.e. $50k or $500k).  
+It is paid work conducted after the initial meeting to determine the overall scope, feasibility, and ballpark costs of the project (i.e. $50k or $500k).
 
 E.g. Mr. Northwind learns that the idea he presented at the initial meeting will cost approximately $80K and he has to determine if that is feasible to his business or if he will trim the functionality to better manage the cost.
 
@@ -34,15 +36,15 @@ E.g. Mr. Northwind learns that the idea he presented at the initial meeting will
 ![Figure: A ballpark or proposal should start small and not be a big commitment](proposal.jpg)
 
 ::: greybox
-*"From this initial meeting, the ballpark is 6 months and $200k+GST"*
+"From this initial meeting, the ballpark is 6 months and $200k+GST"
 :::
 ::: bad
 Bad example - Big scary figure
 :::
 
 ::: greybox
-*"From this initial meeting, we will first need to conduct a Specification Review.
-This first step is $8k - a 2-day Specification Review"*
+"From this initial meeting, we will first need to conduct a Specification Review.
+This first step is $8k - a 2-day Specification Review"
 :::
 ::: good
 Good example - Work in small chunks of work with details about what you will do
@@ -67,24 +69,24 @@ Most software consulting experts will be able to provide a small improvement to 
 
 ### Use 'Corridor Conversations'
 
-Corridor Conversations are a great way to set the clients expectations so you don't suprise them with a big number at the end of the Spec Review. 
+Corridor Conversations are a great way to set the clients expectations so you don't suprise them with a big number at the end of the Spec Review.
 See [Do you have Corridor Conversations?](/corridor-conversations)
 
 ### Estimates expressed in round numbers (or exact numbers for fixed price)
 
-Remember, no politician challenging for leadership ever calls a vote before he or she knows the numbers; you too will avoid presenting a solution at a meeting if you aren't convinced the client is already agreeable. 
+Remember, no politician challenging for leadership ever calls a vote before he or she knows the numbers; you too will avoid presenting a solution at a meeting if you aren't convinced the client is already agreeable.
 
 Through the course of the Spec Review, the client will be aware that each month for senior software consultants is generally tens of thousands of dollars. Squabbling over $500 here or there in the ballpark phase is a level of detail neither side can be confident of. Clients need to be realistic about what they get for their money.
 
 ::: greybox
-*"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."*
+"Now that we've spent a few days speccing this out, we believe the solution will take approximately 6 months which is $204,000+GST."
 :::
 ::: bad
 Bad example - Far too firm a price when you don't know any of the detail
 :::
 
 ::: greybox
-*"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."*
+"Now that we've spent a few days speccing this out, our projection is the project will take a minimum of 6 months (around $200,000+GST) to complete but this may change depending on what is finally agreed in the Specification. The price will vary depending on resources used and the time that elapses over testing."
 :::
 ::: good
 Good example - Leaves some wriggle room at these initial phases
@@ -110,7 +112,7 @@ The main things the Account Manager will be looking for will be:
 * Are the estimates realistic and still incorporating any relevant buffers? e.g. Project Management, bug fixing, etc.
 
 ::: greybox
-**Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover. 
+**Tip:** Record a video of your PowerPoint presentation. Ideally a 5-minute summary is very handy for people that did not attend the meeting to decide if they should go ahead. Also if new developers join the project later on, this video is a nice handover.
 
 You can record your presentation using [Recording Studio in PowerPoint](https://aka.ms/recordingstudio) or [Camtasia's PowerPoint Add-In Toolbar](https://www.techsmith.com/learn/tutorials/camtasia/ppt-addin-toolbar/).
 :::
@@ -129,7 +131,7 @@ In a 2 or 3-day Spec Review, you should assume you’ll need more time to implem
 
 ### Timesheets
 
-Always track timesheets against a separate Spec Review project. 
+Always track timesheets against a separate Spec Review project.
 
 It makes project cost reporting difficult later if you don't, since the cost we're looking for is always the "post-Spec Review cost" that clients can compare to the estimate you gave in your Spec Review.
 

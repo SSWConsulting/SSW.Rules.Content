@@ -1,4 +1,5 @@
 ---
+seoDescription: Qantas Business Rewards program helps companies earn points and credits by booking flights for employees with a frequent flyer number.
 type: rule
 title: Do you take advantage of Business Rewards programs?
 uri: do-you-take-advantage-of-business-rewards-programs

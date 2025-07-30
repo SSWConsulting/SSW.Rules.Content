@@ -1,4 +1,5 @@
 ---
+seoDescription: Include addressed names as headings to help recipients quickly locate specific parts of the email.
 type: rule
 title: Do you include addressed names in emails as headings?
 uri: include-names-as-headings
@@ -24,18 +25,48 @@ If you have to address an email to one or multiple people (including [to yoursel
 <!--endintro-->
 
 ::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Jean, Anthony |
-| Cc:      | Adam |
-| Subject: | SSW CodeAuditor - Bug |  
-::: email-content  
 
-### Hi Jean,  
+| | |
+| -------- | --- |
+| To: | Jean, Anthony |
+| Cc: | Adam |
+| Subject: | SSW CodeAuditor - Bug |  
+::: email-content
+
+Hi Jean,
+
 Can you help with this one?
 
-### Hi Anthony,  
+Hi Anthony,
+
 I've tried to replicate the behaviour but was unsuccessful.
+
+1. Can you make sure Northwind is using the latest version?
+2. When finished, please repackage with the new registration
+
+:::  
+:::  
+::: bad  
+Figure: Bad example - Names as normal text is not the best for readability
+:::
+
+::: email-template  
+
+| | |
+| -------- | --- |
+| To: | Jean, Anthony |
+| Cc: | Adam |
+| Subject: | SSW CodeAuditor - Bug |  
+::: email-content
+
+### Hi Jean
+
+Can you help with this one?
+
+### Hi Anthony
+
+I've tried to replicate the behaviour but was unsuccessful.
+
 1. Can you make sure Northwind is using the latest version?
 2. When finished, please repackage with the new registration
 
@@ -46,7 +77,7 @@ Figure: Good example - When addressing multiple people, include each addressee's
 :::
 
 ::: greybox
-**Tip 1:** You can add a heading in Outlook by typing Control+Alt+3.
+**Tip 1:** You can add a heading 3 in Outlook by typing Control+Alt+3.
 
 **Tip 2:** When sending from apps/devices that don't allow headings, at least make the names **bold**.
 :::

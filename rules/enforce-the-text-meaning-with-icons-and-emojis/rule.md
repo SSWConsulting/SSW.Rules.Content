@@ -1,26 +1,26 @@
 ---
+seoDescription: Using icons and emojis to enforce text meaning can be a simple yet effective way to draw attention to important information, clarify unclear requirements, and enhance user understanding.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use icons/emojis to enforce the text meaning?
 guid: 5f5645eb-dda4-421b-84e7-c51b76887205
 uri: enforce-the-text-meaning-with-icons-and-emojis
 created: 2014-12-16T18:16:16.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
 related:
-- best-libraries-for-icons
+  - best-libraries-for-icons
 redirects:
-- do-you-use-icons-to-enforce-the-text-meaning
-- do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
-- use-icons-webpages
-- use-icons-to-enforce-the-text-meaning
-
+  - do-you-use-icons-to-enforce-the-text-meaning
+  - do-you-use-icons-in-web-pages-to-enforce-the-text-meaning
+  - use-icons-webpages
+  - use-icons-to-enforce-the-text-meaning
 ---
 
-People may not pay attention to some important words in your interface. Adding a simple and clear icon beside the words will make the difference. 
+People may not pay attention to some important words in your interface. Adding a simple and clear icon beside the words will make the difference.
 
 For emails and web content, using an simple emoji is an easy and friendly way to achieve the same result 🙂.
 
@@ -39,7 +39,7 @@ For emails and web content, using an simple emoji is an easy and friendly way to
 #### Using emojis
 
 ::: greybox  
-I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information. Usually, this is due to unclear requirements... 
+I join a lot of Sprint Reviews, and there is a consistent problem I see among Scrum teams. The PBIs have limited or missing information. Usually, this is due to unclear requirements...
 :::  
 ::: bad  
 Figure: Bad example - No emojis to enforce the meaning

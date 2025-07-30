@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you escalate key updates and deliverables on software development projects to ensure all stakeholders are informed?
 type: rule
 archivedreason: null
 title: Do you escalate key updates and deliverables?
@@ -9,9 +10,9 @@ authors:
   - title: Brady Stroud
     url: https://ssw.com.au/people/brady-stroud
 related:
- - when-you-use-mentions-in-a-pbi
+  - when-you-use-mentions-in-a-pbi
 redirects:
- - escalate-done-videos
+  - escalate-done-videos
 ---
 
 Key updates on projects may include Done Videos, critical text additions, or specification documents. Typically, links to these deliverables would be added to the PBI that they relate to and the relevant people would be mentioned.
@@ -35,9 +36,10 @@ Not every PBI will require an email, but if it is a key update or deliverable, i
 For example, you can send an email similar to this to share a new Done Video to the relevant stakeholders. If you working on a big system or internal projects, include the feature area or project name in the subject for additional context.
 
 ::: email-template  
-|          |     |
+
+| | |
 | -------- | --- |
-| To:      | {{ PRODUCT OWNER }}; {{ OTHER STAKEHOLDERS }} |
+| To: | {{ PRODUCT OWNER }}; {{ OTHER STAKEHOLDERS }} |
 | Subject: | 🎥 {{ PROJECT NAME }} - Done Video for {{ PBI TITLE }} |  
 ::: email-content
 
@@ -54,13 +56,13 @@ If you have any feedback, please post it on the PBI.
 :::  
 :::
 
-This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi/).
+This email is especially important for stakeholders that don't use, want to use, or have access to the project management tools. If they do have access, remember to also [@mention them in the PBI update](/when-you-use-mentions-in-a-pbi).
 
-Sometimes the PBI work originated from an email, in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
+Sometimes the [PBI work originated from an email](/turn-emails-into-pbis), in which case you should reply to the email instead of starting a new email. This will allow stakeholders to have additional context.
+
+Additionally, giving the the Product Owner and/or Stakeholder(s) a call to show them the video is great - this ensures they watch it and you can get instant feedback.
 
 ::: info
-**Notes:**
-
-* Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
-* You should be able to easily tell if a PBI was created from email. As per [turn an email into a PBI before starting work](/turn-emails-into-pbis/)
+**Note:**
+Major bugs found on the product should also be communicated to the PO as soon as they are found, e.g. unable to create an invoice
 :::

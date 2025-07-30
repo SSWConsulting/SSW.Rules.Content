@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimize your social media advertising campaigns with A/B testing strategies that drive results and improve engagement
 type: rule
 title: Do you know how to do A/B testing for social media campaigns?
 uri: ab-testing-social-paid-campaigns
@@ -10,6 +11,7 @@ related:
 created: 2023-12-04T17:19:33.671Z
 guid: 159d74da-da4d-4de9-a4fc-f543d9e4c5bf
 ---
+
 A simple way to test and improve your social media advertising campaigns is by smartly testing different approaches, no matter where you're based or what you're selling.
 
 <!--endintro-->

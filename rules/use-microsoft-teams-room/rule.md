@@ -1,6 +1,8 @@
 ---
 type: rule
 title: Do you use Microsoft Teams Rooms?
+seoDescription: Microsoft Teams Rooms simplifies meeting setup and
+  collaboration, eliminating wasted time, complexity, and user discomfort.
 uri: use-microsoft-teams-room
 authors:
   - title: Jonty Gardner
@@ -9,14 +11,13 @@ authors:
     url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-09-05T08:15:32.788Z
 guid: e6f53005-699e-4594-b2f3-e0254115de07
-
 ---
 
 In today's fast-paced work environment, efficient communication and collaboration are paramount. However, we often encounter a common and frustrating pain point when entering a meeting room: the time-consuming and error-prone process of setting up and configuring the technology.
 
 <!--endintro-->
 
-`youtube: https://youtu.be/bKb-5VbU_4g`
+`youtube: https://youtu.be/3JxH3Hq2s1M`
 **Video: Microsoft Teams Room - How to Use The Boardroom (6 min)**
 
 ## The Pain
@@ -40,17 +41,17 @@ Now, imagine a solution that eliminates these pain points, making every meeting 
 
 Before you think about Microsoft Teams Rooms, you need different pieces of hardware to be able to use it. This generally consists of:
 
-* An intelligent camera
-* Good microphones
-* Speakers
-* A touchscreen to control your call
-* A small computer to run Microsoft Teams Rooms on, or a built-in system, where all the above is connected to.
+- An intelligent camera
+- Good microphones
+- Speakers
+- A touchscreen to control your call
+- A small computer to run Microsoft Teams Rooms on, or a built-in system, where all the above is connected to.
 
 These are generally sold by Microsoft Teams Rooms partners like [Logitech](https://www.logitech.com/en-au/video-collaboration/partners/microsoft.html), Yealink, Poly, Dell, Cisco, and they are generally sold in bundles by room size:
 
-* Huddle/Small rooms
-* Medium rooms
-* Large/Boardrooms
+- Huddle/Small rooms
+- Medium rooms
+- Large/Boardrooms
 
 You can check out certified Teams Rooms devices at [Microsoft Teams Rooms Packages and Systems](https://www.microsoft.com/en-au/microsoft-teams/across-devices/devices/category/teams-rooms/20)
 
@@ -72,7 +73,7 @@ After you've acquired the gear, then it's time to see how to use your Microsoft 
 3. Mute yourself on other devices to avoid audio issues
 4. Continue the call
 
-## Option 3 - CC (Carbon Copy) the  Microsoft Teams Room in your Outlook appointments
+## Option 3 - CC (Carbon Copy) the Microsoft Teams Room in your Outlook appointments
 
 1. Include `TeamsRoom@northwind.com` in your Outlook appointments
 2. Scheduled appointments will appear on the room's screen

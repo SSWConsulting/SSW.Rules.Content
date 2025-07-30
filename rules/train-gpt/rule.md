@@ -1,6 +1,7 @@
 ---
+seoDescription: Train your GPT model to unlock its full potential and generate accurate responses for complex or highly specific use cases.
 type: rule
-title: When should you train GPT?
+title: Do you know how to train GPT?
 uri: train-gpt
 authors:
   - title: Calum Simpson
@@ -8,40 +9,41 @@ authors:
   - title: Piers Sinclair
     url: https://www.ssw.com.au/people/piers-sinclair
   - title: Jack Reimers
-    url: https://www.ssw.com.au/people/jack-reimers 
+    url: https://www.ssw.com.au/people/jack-reimers
 created: 2023-02-08T04:53:29.524Z
 guid: c655297f-eeea-41ca-beda-b1f9c27c7cdd
 redirects:
   - train-gpt-3
 ---
-GPT is an awesome product that can do a lot out-of-the-box.  
-However, sometimes that out-of-the-box model doesn't do what you need it to do.
 
-In that case, you need to provide the model with more training data, which can be done in one of two ways.
+GPT is an awesome product that can do a lot out-of-the-box. However, sometimes that out-of-the-box model doesn't do what you need it to do.
+
+In that case, you need to provide the model with more training data, which can be done in a couple of ways.
 
 <!--endintro-->
 
 Usually, for common scenarios GPT will already be adequate, but for more complex or highly specific use cases it will not have the required training to output what you need.
 
-### System Prompt
+### 1. System Prompt
 
-The system prompt is a prompt that is sent along with every request to the API, and is used to tell the model how it should behave.
+The [system prompt](/use-system-prompt) is a prompt that is sent along with every request to the API, and is used to tell the model how it should behave.
+
 Using the system prompt is the easiest way to provide additional data to GPT, but there are also some downsides to this approach.
 
-**✅ Benefits**
+#### ✅ Benefits
 
 * Easy to implement
 * No extra setup cost
 * Data can be easily changed or removed
 
-**❌ Disadvantages**
+#### ❌ Disadvantages
 
 * The system prompt counts towards total token count - not suitable for large amounts of data
 * Large system prompts can limit the amount of tokens available for questions and responses
 * Adds extra cost to each request
 * Potential for inconsistency depending on what data is sent
 
-### Fine Tuning
+### 2. Fine Tuning
 
 OpenAI provides a way for you to [train new data into the model so that it is always available](https://labelbox.com/guides/how-to-train-a-chatbot/), without having to provide it with each request.
 
@@ -55,13 +57,13 @@ For example, if you want to build an app that outputs SSW rules based on a title
 ![Figure: Good example - The trained GPT model knows how to format the rule, and the style rules are written in](trainedgpt3goodexample.png)
 :::
 
-**✅ Benefits**
+#### ✅ Benefits
 
 * Suitable for larger amounts of data
 * No extra cost per request as trained data lives on the server
 * Consistent as trained data is available to all requests
 
-**❌ Disadvantages**
+#### ❌ Disadvantages
 
 * Harder to implement
 * Extra setup cost to fine tune the model

@@ -1,4 +1,5 @@
 ---
+seoDescription: Write integration tests to validate web links stored in application settings and ensure they return HTTP status OK.
 type: rule
 title: Do you write integration tests to validate your web links?
 uri: write-integration-tests-to-validate-your-web-links
@@ -12,6 +13,7 @@ created: 2020-03-11T22:50:56.000Z
 archivedreason: null
 guid: dfa6be65-2251-442d-8a9e-ead15d505dce
 ---
+
 If you store your URL references in the application settings, you can create integration tests to validate them.
 
 <!--endintro-->
@@ -68,7 +70,7 @@ public class WebAccessTester
                 resp.Close();
             }
         }
-        
+
         return resp.StatusCode;
     }
 }

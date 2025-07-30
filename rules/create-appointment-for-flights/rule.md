@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to create flight appointments in Outlook with essential tips on organizing details and inviting contacts.
 type: rule
 title: Do you create an appointment for flights?
 uri: create-appointment-for-flights
@@ -19,7 +20,7 @@ Once you've [booked a flight](/do-you-know-how-to-book-better-flights/), it's im
 
 This is how you should create an appointment in the Outlook calendar for flights:
 
-* Enter all of the flight details into the appointment. Use the ariplane emoji in the subject, and include your name, from/to, and the flight number. E.g. **"✈️ Adam Cogan - SYD -> BNE - QF 500"**
+* Enter all of the flight details into the appointment. Use the ariplane emoji in the subject, and include your name, from/to, and the flight number. E.g. **"✈️ Adam Cogan - SYD -> BNE - QF 500 - 08 May 10:20 AM"**
 * If someone is picking you up, include the arrival time and invite any relevant parties
 * When possible, always include the terminal number in the location field. If a non-standard terminal, make it extra clear
   E.g. Jetstar flights should have highlighted: "WARNING: Different terminal. Allow more time".
@@ -27,19 +28,29 @@ This is how you should create an appointment in the Outlook calendar for flights
   E.g. "You are not flying with your preferred airline because {{ REASON }}..." OR "As per our conversation, you are flying via Melbourne, because {{ REASON }}..."
 * Always include the price of the ticket in the message
 * Do not forget to categorize the appointment as CONFIRMED RED so it cannot be overbooked
+* Always create more than 1 appointment for flights that have more than one leg (connecting flights)
+
+::: good
+![Figure: Good Example - create two appointments for connecting flights.](v2-creating-two-appointments-for-connecting-flights.png)
+:::
+
+::: bad
+![Figure: Bad Example - only one appointment for connecting flights that has two legs.](only-one-appointment-for-connecting-flights.png)
+:::
 
 Here is a template to follow:
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | {{ RELEVANT PARTIES }} |
-| Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} |
+| Event Name: | ✈️ {{ PERSON }} - {{ FROM -> TO (e.g. SYD -> BNE) }} - {{ FLIGHT NUMBER }} - {{ DATE AND TIME }} |
 | Location: | {{ TERMINAL NUMBER }}  |
 | Status: | 🔴 Busy  |
 ::: email-content  
 
-### Hi {{RELEVANT PARTIES}}  
+### Hi {{ RELEVANT PARTIES }}  
 
 I am flying to {{ DESTINATION }}
 Booking number: {{ BOOKING NUMBER }}

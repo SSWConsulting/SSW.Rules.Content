@@ -1,4 +1,5 @@
 ---
+seoDescription: PowerBI data visualization tips - Avoid alphabetical sorting, which is limited and lacks insight into ranks, trends, or proportions.
 type: rule
 title: Do you know not to use Alphabetical Sorting?
 uri: do-you-know-not-to-use-alphabetical-sorting
@@ -16,8 +17,6 @@ The default sort order for most visualizations is alphabetical, but you should a
 
 <!--endintro-->
 
-
-
 ::: bad
 Alphabetical sorting is really only good if you're specifically looking for one item on the X axis, but it's terrible for seeing ranks, trends, or proportions.
 ![Figure: Bad Example: Alphabetical gives very little information](PowerBI-alphabetical.png)
@@ -26,4 +25,3 @@ Alphabetical sorting is really only good if you're specifically looking for one 
 ::: good
 ![Figure - Good Example: Sorting by value shows rank and trends easily](PowerBI-non-aphabetical.png)
 :::
-

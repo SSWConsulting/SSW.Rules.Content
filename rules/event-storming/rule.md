@@ -1,4 +1,5 @@
 ---
+seoDescription: "Discover the power of Event Storming—a collaborative workshop method for gathering domain events and building effective software systems."
 type: rule
 title: Do you know the value of Event Storming?
 uri: event-storming
@@ -53,7 +54,6 @@ There are multiple levels that Event Storming workshops can be run at. Each leve
 
 🟧 ReportUpdated
 
-
 #### Process Modeling (aka 10,000 foot view)
 
 * Model a single business process from beginning to end and ensure no ambiguity or contention exists by clarifying all the business rules
@@ -73,10 +73,10 @@ Notice as you traverse the levels from top to bottom that new concepts are intro
 
 ### How to start an Event Storming workshop
 
-To start an Event Storming workshop, get all the stakeholders, domain experts and developers into a room or virtual call. 
+To start an Event Storming workshop, get all the stakeholders, domain experts and developers into a room or virtual call.
 
-From here everyone starts to write out all the events they think are necessary on the sticky notes and put the sticky notes on the *real* or *virtual* wall. 
- 
+From here everyone starts to write out all the events they think are necessary on the sticky notes and put the sticky notes on the *real* or *virtual* wall.
+
 Check out [how to run an Event Storming workshop](/event-storming-workshop) for detailed steps and more information on how to prepare and run an Event Storming workshop.
 
 ### Key concepts in Event Storming
@@ -93,7 +93,7 @@ Different colored sticky notes should be used to denote different concepts:
 
 <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(255,204,0);"/></svg> **Aggregate** - Yellow  
 
-<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg> **External System** - Purple 
+<svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(102,0,153);"/></svg> **External System** - Purple
 
 <svg width="1.4em" height="1em" style="display: inline-block;"><rect width="1em" height="1em" rx="0.15em" ry="0.15em" x="0.2rem" y="0em" style="fill:rgb(0,153,0);"/></svg> **Read Model** - Green
 

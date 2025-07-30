@@ -1,22 +1,22 @@
 ---
+seoDescription: When to use a round figure or an exact figure in project quotes.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know when to use a round figure or an exact figure?
 guid: fa453102-80ff-4516-89d2-2c8171025af6
 uri: do-you-know-when-to-use-a-round-figure-or-an-exact-figure
 created: 2009-11-03T01:02:23.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Cameron Shaw
-  url: https://ssw.com.au/people/cameron-shaw
-- title: Justin King
-  url: https://ssw.com.au/people/justin-king
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Cameron Shaw
+    url: https://ssw.com.au/people/cameron-shaw
+  - title: Justin King
+    url: https://ssw.com.au/people/justin-king
 related: []
 redirects: []
-
 ---
 
 The number you give to a client says a lot about how much room there is to move. Knowing the difference and when to use them can be a valuable tool in securing projects.
@@ -61,7 +61,7 @@ The project will take 6 months to complete and cost $204,080+GST
 Bad Example - This makes it very hard to vary the project as the client will always have this figure in mind
 :::
 
- A round figure gives the impression that this is a ball park estimate and that the price will likely change. 
+A round figure gives the impression that this is a ball park estimate and that the price will likely change.
 
 ::: greybox
 The project will take about 6 months to complete and cost approximately $200K+GST  

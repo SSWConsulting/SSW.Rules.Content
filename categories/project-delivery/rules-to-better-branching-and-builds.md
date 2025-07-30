@@ -9,10 +9,10 @@ index:
 - do-you-know-that-branches-are-better-than-labels
 - do-you-know-the-minimum-builds-to-create-for-your-project
 - do-you-know-when-to-branch-in-git
+- branch-naming
 - do-you-know-when-to-branch
-- do-you-know-when-to-use-an-on-premises-build-server-with-visual-studio-online
+- on-premise-build-server-with-azure-devops
 - do-you-swarm-to-fix-the-build
-
 ---
- 
 
+Optimize your branching and build strategies by checking your workspaces when defining new builds and adopting effective naming conventions. Understand the advantages of using branches over labels, know the right moments to branch in Git, and foster a collaborative environment to swiftly address build issues.

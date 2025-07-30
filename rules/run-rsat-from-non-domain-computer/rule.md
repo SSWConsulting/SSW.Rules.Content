@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to securely run Remote Server Administration Tools (RSAT) from a non-domain joined computer and manage your Active Directory environment with ease.
 type: rule
 title: Do you know how to run RSAT from a non-domain computer?
 uri: run-rsat-from-non-domain-computer
@@ -58,14 +59,17 @@ To get RSAT connected on a non-domain joined computer, there are some extra step
 3. Run this command to open an empty MMC window (replace **admin@domain**):
 
    `runas.exe /netonly /noprofile /user:"admin@domain" mmc.exe`
+
 4. Go to **File | Add/Remove Snap-in...** to add the tools you need, e.g. ADUC, DHCP, DNS, GPO Management
    ![Figure: MMC | Add or Remove Snap-ins](mmc-add-snapin.png)
 5. For ADUC (and possibly other tools), you will need to specify the domain to connect to. Make sure you tick the box **Save this domain setting for the current console**.
 
    ![Figure: ADUC | Change domain](aduc-domain.png)
+
 6. Go to **File | Save As...** and save the console somewhere appropriate, e.g. C:\work\rsat.msc
 7. Create a batch file with this command - similar to the command above, but we specify the .msc file to use:
 
    `runas.exe /netonly /noprofile /user:"admin@domain" "mmc.exe "C:\work\rsat.msc""`
+
 8. Save the batch file and run it as administrator.
 9. Your MMC window will open with your snap-ins ready to go!

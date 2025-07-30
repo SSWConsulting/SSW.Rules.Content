@@ -1,4 +1,5 @@
 ---
+seoDescription: When you give clients a warm welcome, make a lasting impression and set the tone for a successful meeting.
 type: rule
 title: Do you give clients a warm welcome?
 uri: give-clients-a-warm-welcome
@@ -25,6 +26,7 @@ When a client arrives, your job is to make them feel comfortable and impress the
 
 * Leaving the client standing at the reception while finishing what you were doing
 * Offering them tea, coffee or biscuits (not everyone likes tea/coffee)
+
 :::
 
 ::: bad

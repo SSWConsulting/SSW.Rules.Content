@@ -1,19 +1,20 @@
 ---
+seoDescription: Integrate Microsoft TFS 2010 seamlessly with SharePoint 2010 using custom configuration wizards and discover a more efficient collaboration experience.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to integrate with SharePoint 2010?
 guid: 7e99fec6-a420-42c0-beeb-742b94eb5cf3
 uri: do-you-know-how-to-integrate-with-sharepoint-2010
 created: 2010-05-17T09:08:46.0000000Z
 authors:
-- title: Martin Hinshelwood
-  url: https://ssw.com.au/people/martin-hinshelwood
+  - title: Martin Hinshelwood
+    url: https://ssw.com.au/people/martin-hinshelwood
 related: []
 redirects: []
-
 ---
 
-If you are going to be integrating TFS 2010 with SharePoint 2010 then there are a few things you need to do.   
+If you are going to be integrating TFS 2010 with SharePoint 2010 then there are a few things you need to do.
+
 <!--endintro-->
 
 ### Single Server Deployment

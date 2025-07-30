@@ -1,17 +1,17 @@
 ---
+seoDescription: Mastering Git requires understanding of basic principles, team collaboration, and advanced techniques like rebasing.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know The Levels to Git Mastery?
 guid: c15e35de-6e6c-4034-bc7d-d81ba02469e7
 uri: the-levels-to-git-mastery
 created: 2016-02-15T19:15:15.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects:
-- do-you-know-the-levels-to-git-mastery
-
+  - do-you-know-the-levels-to-git-mastery
 ---
 
 Like most skills, it can take a little while to get your head around Git.
@@ -27,12 +27,11 @@ At this level, you need to have an understanding of the basic operations (incl
 
 Your workflow looks like this:
 
-* init local repository / clone
-* pull
-* &lt;code&gt;
-* commit
-* push
-
+- init local repository / clone
+- pull
+- &lt;code&gt;
+- commit
+- push
 
 ### \*\* Level 2 -  Working with Git on a team
 
@@ -42,10 +41,9 @@ You should be using local feature branches for your work.
 
 Your workflow involves:
 
-* pull
-* merge
-* push
-
+- pull
+- merge
+- push
 
 ### \*\* Level 3 - Learning to use pull requests 
 
@@ -60,6 +58,6 @@ True Git masters master [rebasing](/rebase-not-merge). It lets you keep a much c
 
 Git process for Git masters:
 
-* pull master
-* rebase feature branch on top of remote master
-* push feature branch to remote or create pull request
+- pull master
+- rebase feature branch on top of remote master
+- push feature branch to remote or create pull request

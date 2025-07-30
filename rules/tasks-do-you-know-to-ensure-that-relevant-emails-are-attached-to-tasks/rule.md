@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure relevant emails are attached to tasks by designating a scribe who takes notes and screenshots, turns them into multiple emails, and adds them to Azure DevOps. This preserves task history and keeps stakeholders informed of status updates.
 type: rule
 title: Tasks - Do you know to ensure that relevant emails are attached to tasks?
 uri: tasks-do-you-know-to-ensure-that-relevant-emails-are-attached-to-tasks
@@ -16,7 +17,7 @@ Often you will receive rich information from your Product Owner (customer) about
 
 <!--endintro-->
 
-### The scribe will:
+### The scribe will
 
 1. Take screenshots and notes
 2. Turn them into multiple emails
@@ -28,12 +29,6 @@ Keep the original email so that you can [reply "Done" and delete the email](/don
 
 **More information**
 
-You should follow the existing [Rules to Successful Projects](/rules-to-successful-projects) and attach the email to your task so you can refer to and reply to it later when you close the task:
-
-* [Do you know what Outlook add-ins you need?](https://www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#OutlookAddin)
-* [Describe the work item request in an email](https://www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#WorkItemEmail)
-* [Use Outlook Add-in to move the email to a Work Item](https://www.ssw.com.au/ssw/standards/rules/RulesToBetterProjectManagementWithTFS.aspx#TeamCompanionWorkItem)
-
-Following these simple rules will help your Product Owner understand you better, and allow your team to more effectively collaborate with each other.
+You should follow the existing [Rules to Successful Projects](/rules-to-successful-projects) and attach the email to your task so you can refer to and reply to it later when you close the task.
 
 An added bonus is that as we are keeping the email history in sync with Azure DevOps. When you “reply all” to the email all of the interested parties to the Task are also included. This notifies those that may have been blocked by your task to keep up to date with its status.

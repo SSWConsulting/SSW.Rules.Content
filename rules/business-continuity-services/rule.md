@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure business continuity by implementing redundancy strategies to minimize downtime and ensure services remain available during outages.
 type: rule
 title: Redundancy - Do you ensure the business continuity of your services?
 uri: business-continuity-services
@@ -12,6 +13,7 @@ related:
 created: 2021-10-14T05:29:39.921Z
 guid: a93c7265-c1d1-43c0-9dc3-21ccd7532f4e
 ---
+
 Business continuity is present in any good disaster recovery plan and means that when your services (e.g. websites, hardware, software) fail or suffer an outage, you have measures in place to ensure downtime is minimal.
 
 <!--endintro-->
@@ -32,6 +34,7 @@ Let's imagine a scenario with the company Northwind, this is part of their infra
    * **on-premises** - e.g. a Data Protection Manager (DPM) server on Northwind HQ
    * **off-premises** - e.g. a DPM server in Northwind Brisbane branch
    * **cloud** - e.g. in Azure using Azure Site recovery and Azure Backups
+
 3. Hyper-V Redundancy - Two (or more) physical server blades as Hyper-V hosts
 4. Storage Redundancy - Two (or more) hard drives for the same data to be stored on
 5. Networking Redundancy - Two (or more) firewalls for traffic to go through

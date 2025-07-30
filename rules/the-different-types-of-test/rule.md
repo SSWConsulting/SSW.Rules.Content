@@ -1,4 +1,5 @@
 ---
+seoDescription: Different types of software tests include smoke testing, unit tests, integration tests, functional tests, subcutaneous tests, load tests, and stress tests, each serving a unique purpose in ensuring application quality.
 type: rule
 title: What are the different types of test you can have?
 uri: the-different-types-of-test
@@ -26,48 +27,48 @@ Here are some of the common techniques used for testing software.
 
 ### Smoke test
 
-* You fire up your application and click around prior to giving it to a tester. Most developers do this.
+- You fire up your application and click around prior to giving it to a tester. Most developers do this.
 
 ### Unit Tests
 
-* They are coded by a developer
-* Quick
-* Independent
-* Test just 1 behaviour in isolation
-* Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. [NSubstitute](https://nsubstitute.github.io/) is one of the most popular mocking libraries.
+- They are coded by a developer
+- Quick
+- Independent
+- Test just 1 behaviour in isolation
+- Tip: Use mock objects to make it faster and not to be bothered by external dependencies eg. the web service going down. [NSubstitute](https://nsubstitute.github.io/) is one of the most popular mocking libraries.
 
 ### Integrations Tests
 
-* They are coded by a developer
-* Slower
-* Test the interaction of components eg. Databases, Web Services
+- They are coded by a developer
+- Slower
+- Test the interaction of components eg. Databases, Web Services
 
 ### Functional Tests
 
-* Verifies the functionality of a system, typically from an end-user perspective
-* Can be performed manually or executed using an [automated framework](/automated-ui-testing)
+- Verifies the functionality of a system, typically from an end-user perspective
+- Can be performed manually or executed using an [automated framework](/automated-ui-testing)
 
 ### Subcutaneous Tests
 
-Subcutaneous (as in just benath the skin) are a type of integration/functional test that operate just below the UI -  and are good for automated functional testing that would otherwise be difficult to achieve by manipulating the UI itself.
+Subcutaneous (as in just benath the skin) are a type of integration/functional test that operate just below the UI - and are good for automated functional testing that would otherwise be difficult to achieve by manipulating the UI itself.
 
-* Written by developers
-* Test the full underlying behaviour of your app but bypasses the UI
-* Requires business logic to be implemented in the API / middle layer and not in the UI.
-* Tests can be much easier to write than using technologies that drive a UI (such as Selenium)
+- Written by developers
+- Test the full underlying behaviour of your app but bypasses the UI
+- Requires business logic to be implemented in the API / middle layer and not in the UI.
+- Tests can be much easier to write than using technologies that drive a UI (such as Selenium)
 
 ### Load Tests
 
-* Setup by developers
-* Simulate expected load on your application
-* Use the performance stats as a baseline for regression. You don't want to decrease performance in your application.
+- Setup by developers
+- Simulate expected load on your application
+- Use the performance stats as a baseline for regression. You don't want to decrease performance in your application.
 
 **Tip:** Try to execute these from the cloud.
 
 ### Stress Tests
 
-* Setup by developers
-* Hit your application very hard, and try to see where your limits are (CPU, Network, Memory)
+- Setup by developers
+- Hit your application very hard, and try to see where your limits are (CPU, Network, Memory)
 
 ### The Testing Pyramid
 

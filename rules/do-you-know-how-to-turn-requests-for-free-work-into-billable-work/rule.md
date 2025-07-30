@@ -1,4 +1,5 @@
 ---
+seoDescription: Transforming requests for free work into billable projects requires setting clear expectations with clients and communicating the value of your expertise.
 type: rule
 title: Do you know how to turn requests for free work into billable work?
 uri: do-you-know-how-to-turn-requests-for-free-work-into-billable-work
@@ -10,7 +11,7 @@ archivedreason: null
 guid: 3d87d29a-4774-4c9f-856b-79899db2dee1
 ---
 
-Often clients will call up asking for a short task to be performed. You need to know how to let them know that the time will be charged.   
+Often clients will call up asking for a short task to be performed. You need to know how to let them know that the time will be charged.
 
 <!--endintro-->
 

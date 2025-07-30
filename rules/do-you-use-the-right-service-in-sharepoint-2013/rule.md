@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the updated REST API endpoints for SharePoint 2013 and learn how to access list data with the new service.
 type: rule
 archivedreason: 
 title: Do you use the right service in SharePoint 2013
@@ -16,6 +17,6 @@ redirects: []
 In SharePoint 2010, you can use SharePoint service  **/\_vti\_bin/listdata.svc** to access data in SharePoint list, but in SharePoint 2013,  **/\_vti\_bin/listdata.svc** has been officially deprecated.
 
 <!--endintro-->
-The new service in SharePoint 2013 is  **/server/site/\_api/web/lists/getbytitle('listname')** 
+The new service in SharePoint 2013 is  **/server/site/\_api/web/lists/getbytitle('listname')**
 
 Read more about it on [Determine SharePoint REST service endpoint URIs](http://msdn.microsoft.com/en-us/library/office/dn292556.aspx)

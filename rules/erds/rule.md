@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the power of Entity Relationship Diagrams (ERDs) in visualizing your database architecture. Learn how to define cardinality, optionality, and many-to-many relationships for a deeper understanding of your data's structure.
 type: rule
 title: Do you visualize your database with an ERD?
 uri: erds
@@ -11,7 +12,8 @@ related:
 created: 2023-07-06T11:50:13.555Z
 guid: 1c41b0f4-2cdf-4fad-8354-769ab02385ff
 ---
-Relational databases are complicated, and understanding the entire architecture of a database can be difficult when expressed solely in words. That's where Entity Relationship Diagrams (ERDs) come in. ERDs are a way of visualizing the relationships between different entities and their cardinality. 
+
+Relational databases are complicated, and understanding the entire architecture of a database can be difficult when expressed solely in words. That's where Entity Relationship Diagrams (ERDs) come in. ERDs are a way of visualizing the relationships between different entities and their cardinality.
 
 <!--endintro-->
 
@@ -25,21 +27,24 @@ Cardinality is a crucial concept within entity relationship modeling which refer
 
 The cardinality of relationships can be one-to-one, one-to-many, or many-to-many.
 
-* **One-to-One**: Each instance of entity A can be associated with one instance of entity B, and vice versa.
-  * e.g. each employee in a company has one employee ID, and each employee ID is associated with one employee.
-* **One-to-Many**: Each instance of entity A can be associated with multiple instances of entity B, but each instance of entity B is associated with only one instance of entity A.
-  * e.g. one author can write many books, but each book is written by one author.
-* **Many-to-Many**: Each instance of entity A can be associated with multiple instances of entity B, and vice versa.
-  * e.g. a student can enrol in multiple courses, and multiple students can take a course.
+- **One-to-One**: Each instance of entity A can be associated with one instance of entity B, and vice versa.
+  - e.g. each employee in a company has one employee ID, and each employee ID is associated with one employee.
+- **One-to-Many**: Each instance of entity A can be associated with multiple instances of entity B, but each instance of entity B is associated with only one instance of entity A.
+  - e.g. one author can write many books, but each book is written by one author.
+- **Many-to-Many**: Each instance of entity A can be associated with multiple instances of entity B, and vice versa.
+  - e.g. a student can enrol in multiple courses, and multiple students can take a course.
 
 ## Optionality
+
 In addition to the above relationship types, each side of the relationship may be optional. Let's examine the case of an airline company which tracks Pilots and Completed Flights.
+
 - 1 Flight must always have at least one Pilot
 - 1 Pilot can have 0, 1 or many Flights (they may have 0 if they have been recently hired)
 
 So in this case, the Pilot having Flights is optional.
 
 ## Handling Many-to-Many - Practical Example - Student Courses
+
 Many-to-many relationships require special handling to ensure that the relationships and their data can be stored accurately in the database. An associative entity (also known as a joining table) handles this by converting the many-to-many relationship into two one-to-many relationships.
 
 Let's imagine a university that wants to track students and courses. In this example, 1 student has many courses, and 1 course has many students, meaning it has a many-to-many relationship.
@@ -89,12 +94,14 @@ Contains the data about which students are taking which courses
 | 2         | 1        |
 
 **Relationship 1 - Students and StudentCourses**
+
 - 1 Student has many StudentCourses
 - 1 StudentCourse has 1 Student
 
 **Relationship 1 - Courses and StudentCourses**
+
 - 1 Course has many StudentCourses
-- 1 StudentCourse has 1 Course 
+- 1 StudentCourse has 1 Course
 
 # Visualization
 
@@ -104,10 +111,12 @@ An ERD helps quickly display all the relationships in a database at a glance. Le
 
 ![Figure: Student Courses ERD](studentcourseserd.png)
 
-In this example, Students, Courses and StudentCourses are represented via the rectangles. Meanwhile, their relationships are shown via the lines between the rectangles. You can see the cardinality indicated by what is called [Crow's foot notation](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation). 
+In this example, Students, Courses and StudentCourses are represented via the rectangles. Meanwhile, their relationships are shown via the lines between the rectangles. You can see the cardinality indicated by what is called [Crow's foot notation](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Crow's_foot_notation).
 
 # Summary
+
 ERDs are a fantastic tool for visualizing a database at a glance. Through using this tool, developers can ensure they have a solid understanding of how data in the database is related and identify any problems quickly and easily.
 
 # Further Study
-* Lucidchart's ER Diagrams page: https://www.lucidchart.com/pages/er-diagrams
+
+- Lucidchart's ER Diagrams page: https://www.lucidchart.com/pages/er-diagrams

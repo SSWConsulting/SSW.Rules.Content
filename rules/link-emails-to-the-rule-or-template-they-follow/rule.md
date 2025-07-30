@@ -1,41 +1,47 @@
 ---
+seoDescription: Do you link emails to the rule or template they follow?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you link emails to the rule/template they follow?
 guid: 99a6745c-3376-46f7-b7b9-f8a627d77b36
 uri: link-emails-to-the-rule-or-template-they-follow
 created: 2012-03-20T15:13:20.0000000Z
-authors: 
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
-- title: Tiago Araujo
-  url: https://ssw.com.au/people/tiago-araujo
-related: []
-redirects: 
-- do-you-link-internal-emails-to-the-rule-they-follow
-
+authors:
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Tiago Araujo
+    url: https://ssw.com.au/people/tiago-araujo
+related:
+  - use-the-best-email-templates
+redirects:
+  - do-you-link-internal-emails-to-the-rule-they-follow
 ---
 
-Having standards and email templates is great. It helps keep consistency, and the recipients know the format of the information they’re receiving and so can process it quickly.
+Having standards and [email templates](/use-the-best-email-templates) is great. It helps keep consistency, and the recipients know the format of the information they’re receiving and so can process it quickly.
 
 <!--endintro-->
 
 It also saves time if another employee needs to send one of these out later, as they may not know the processes that go into its construction.
+
+::: info
+**Warning:** Reusing a sent email to create a new one is risky — you might **forget to update key details** like dates, names, subject, or attachments. This can lead to sending outdated or incorrect information, which looks unprofessional and can cause confusion.
+:::
 
 In order for other people to recognize emails following **rules** and **standards**, it's a good idea to include something like "**\<This email was sent as per XXX\>**" at the end of your email.
 
 Even when the rule or standard doesn't include an actual email template, but you want to empathize you are following it, it is still valid to include that link at the bottom, so the other person can get easily get more information.
 
 ::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Jason |
-| Subject: | Northwind App - Google Ads |  
-::: email-content  
 
-### Hi Jason  
+| | |
+| -------- | --- |
+| To: | Jason |
+| Subject: | Northwind App - Google Ads |  
+::: email-content
+
+### Hi Jason
 
 (PING)
 
@@ -48,7 +54,7 @@ Need an answer on this ASAP, please
 :::  
 :::  
 ::: good
-Figure: Good Example – the email links to the standard it follows
+Figure: Good example – The email follows a template and include a link to it
 :::
 
 ::: info

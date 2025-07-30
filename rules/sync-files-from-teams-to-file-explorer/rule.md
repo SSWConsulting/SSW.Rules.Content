@@ -1,4 +1,5 @@
 ---
+seoDescription: Sync your Microsoft Teams files to File Explorer and manage them like a local document on your machine.
 type: rule
 title: Files - Do you sync your files from Teams to File Explorer?
 uri: sync-files-from-teams-to-file-explorer
@@ -8,6 +9,7 @@ authors:
 created: 2021-09-30T18:33:31.015Z
 guid: 6d17e106-d2c1-4288-ad55-55c71160a148
 ---
+
 Microsoft Teams gives you the ability to sync your files to File Explorer. A lot of people don't realize this feature exits. Let's see how to do this.
 
 <!--endintro-->
@@ -15,6 +17,7 @@ Microsoft Teams gives you the ability to sync your files to File Explorer. A lot
 `youtube: https://www.youtube.com/embed/JGo3wRJP46E`
 
 Instead of going to **Teams | Files** to upload or find a file, you can:
+
 1. Find you Team folder in Teams
 2. Open the folder in SharePoint
 3. Click Sync (signed on OneDrive)

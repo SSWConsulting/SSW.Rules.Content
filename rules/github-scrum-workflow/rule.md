@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to set up a GitHub Scrum workflow and streamline your agile development process with ease.
 type: rule
 archivedreason:
 title: Do you know to set up GitHub Scrum workflow?
@@ -43,16 +44,15 @@ Add the following labels to your repository:
 
 **estimate** labels allow you to set estimates in your backlog. E.g.:
 
-
-| Label        | Time Estimate |
-| -------------|:-------------:|
-| `estimate: 1` | 2 hour |
-| `estimate: 2` | 4 hours |
-| `estimate: 4` | 1 day |
-| `estimate: 8` | 2 days |
-| `estimate: 16` | 4 days |
-| `estimate: 32` | 2 weeks |
-| `estimate: 64` | 1 month |
+| Label          | Time Estimate |
+| -------------- | :-----------: |
+| `estimate: 1`  |    2 hour     |
+| `estimate: 2`  |    4 hours    |
+| `estimate: 4`  |     1 day     |
+| `estimate: 8`  |    2 days     |
+| `estimate: 16` |    4 days     |
+| `estimate: 32` |    2 weeks    |
+| `estimate: 64` |    1 month    |
 
 Your actual estimates should align with the rule [Estimating - Do you know how to size Product Backlog Items (PBIs) effectively?](/estimating-do-you-know-how-to-size-user-stories-effectively)
 
@@ -60,15 +60,15 @@ Your actual estimates should align with the rule [Estimating - Do you know how t
 
 **type** labels allow you to easily filter PBIs in the dashboard. E.g.:
 
-| Label | Type |
-| ------| :----|
-| `type:bug`| bug |
-| `type:chore`| chore, maintenance work |
-| `type:feature`| new feature |
-| `type:infrastructure` | infrastructure related |
-| `type:performance` | performance related |
-| `type:refactor` | refactor |
-| `type:test` | test related |
+| Label                 | Type                    |
+| --------------------- | :---------------------- |
+| `type:bug`            | bug                     |
+| `type:chore`          | chore, maintenance work |
+| `type:feature`        | new feature             |
+| `type:infrastructure` | infrastructure related  |
+| `type:performance`    | performance related     |
+| `type:refactor`       | refactor                |
+| `type:test`           | test related            |
 
 #### Others
 

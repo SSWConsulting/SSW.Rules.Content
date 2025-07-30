@@ -1,6 +1,7 @@
 ---
+seoDescription: Track recurring expenses and avoid surprises with accurate cash flow management, ensuring better financial decisions.
 type: rule
-archivedreason: 
+archivedreason:
 title: Expenses - Do you track your recurring expenses?
 guid: 972e5ca8-0dd1-413c-b784-82818dfdab9f
 uri: do-you-track-your-recurring-expenses
@@ -10,28 +11,27 @@ authors:
     url: https://www.ssw.com.au/people/nick-viet
 related: []
 redirects:
-- rules-to-better-expense-tracking
-- track-recurring-expenses
-
+  - rules-to-better-expense-tracking
+  - track-recurring-expenses
 ---
 
-Subscriptions are part of the very fabric of everyday business, these include but are not limited to phone bills, rent, software subscriptions and many more. Businesses can commonly become unaware of the real costs of subscriptions, especially to those businesses that enter in a direct debit system with their suppliers. Have you ever been prompted to look at the cost of a subscription and asked yourself, "since when has this subscription cost gone up two times?" 
+Subscriptions are part of the very fabric of everyday business, these include but are not limited to phone bills, rent, software subscriptions and many more. Businesses can commonly become unaware of the real costs of subscriptions, especially to those businesses that enter in a direct debit system with their suppliers. Have you ever been prompted to look at the cost of a subscription and asked yourself, "since when has this subscription cost gone up two times?"
 
 <!--endintro-->
 
 ::: info
-We strongly believe in the benefits of accurately tracking recurring subscriptions both for cash flow purposes and for avoiding surprises down the track. 
+We strongly believe in the benefits of accurately tracking recurring subscriptions both for cash flow purposes and for avoiding surprises down the track.
 :::
 
 It may be the subscription was entered many years ago and you have yet to revisit it since and likely missed the emails of automatic increases somewhere in your many thousands of emails in your inbox.
 
 With technological changes, comes a greater need to focus on tracking your subscriptions before it becomes a problem for the business or an unpleasant surprise.
 
-A common solution many business owners used to solve the issues of tracking is by delegating the responsibilities to their finance team or accountant. This is a big assumption that they follow accurate and proper due process when completing the regular tracking procedures. 
+A common solution many business owners used to solve the issues of tracking is by delegating the responsibilities to their finance team or accountant. This is a big assumption that they follow accurate and proper due process when completing the regular tracking procedures.
 
 1. Do they follow a proper process in tracking by using a tool or software? Excel is a great simple tool which all businesses can use successfully.
 
-2. Is there an agreed time each month, to review and update the dataset from the tool? 
+2. Is there an agreed time each month, to review and update the dataset from the tool?
 
 3. Does the dataset make it simple to pinpoint when significant or unusual changes have occurred? Example includes increases in subscription costs or non-payment of a subscription. With excel, we recommend the use of formulas and conditional formatting to ensure these occurrences can be pinpointed.
 

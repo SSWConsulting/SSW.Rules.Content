@@ -1,17 +1,17 @@
 ---
+seoDescription: Avoid redundant language in reports and boost readability by refraining from using the word "report".
 type: rule
 archivedreason:
 title: Layout - Do you avoid using word 'Report' in your reports?
 guid: 6364ce06-609b-424e-8121-6660b0ec0f68
 uri: avoid-using-word-report
 created: 2023-12-12T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
   - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 We believe the word 'Report' is redundant in a report, so we avoid using this word in our reports.

@@ -1,16 +1,16 @@
 ---
+seoDescription: Immerse your multinational teams in cultural exchange programs to improve communication and collaboration across global offices.
 type: rule
 title: Do you have a Cultural Exchange program?
 uri: cultural-exchange
 authors:
   - title: Adam Cogan
     url: https://www.ssw.com.au/people/adam-cogan
-related: 
+related:
   - build-inter-office-interaction
 created: 2023-03-30T06:35:55.000Z
 archivedreason: null
 guid: f0fa3f67-710c-4341-a9aa-c785a4718507
-
 ---
 
 Software can't be built by a single developer anymore, there is always a team involved. Often, those teams consist of people in different geographies. Therefore, it's a social enterprise, and it's essential that teams made of people in different geographical locations can bond and work well together. These multinational teams must communicate and empathize with stakeholders from different cultural backgrounds.
@@ -42,7 +42,7 @@ It's important to diversify your cultural experiences - don't pick the same coun
 
 ## Costs
 
-This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation (and their family, if they want to bring them).
+This can take a lot of planning so encourage your employees to think about it as early as possible. If possible, cover 50% of the cost of your employees' flights and accommodation.
 
 ::: info
 **Tip:** Put your house on [Airbnb](https://www.airbnb.com) while you're away

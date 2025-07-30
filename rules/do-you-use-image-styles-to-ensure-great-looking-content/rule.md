@@ -1,8 +1,9 @@
 ---
+seoDescription: Use consistent CSS styles to ensure great-looking images and enhance user experience on your website.
 type: rule
 title: Do you use image styles to ensure great looking content?
 uri: do-you-use-image-styles-to-ensure-great-looking-content
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []

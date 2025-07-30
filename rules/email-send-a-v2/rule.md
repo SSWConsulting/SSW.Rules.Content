@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn when and how to send a v2 of an email effectively while maintaining clean email threads and incorporating feedback.
 type: rule
 title: Do you know when and how to send a v2 of an email?
 uri: email-send-a-v2
@@ -35,9 +36,6 @@ Having an entire new version of an email is important as it:
 * Ensures that you understood feedback and incorporated it immediately
 * Cleans up the email thread history to only have relevant content
 
-`youtube: https://www.youtube.com/embed/SUo_hOCubeo`
-**Video: Fixing An Email Mistake with [Adam Cogan](https://www.ssw.com.au/people/adam-cogan/) (3 min)**
-
 ::: greybox
 **Note:** Not every feedback will need a v2. Some may be in the form of:
 
@@ -45,28 +43,37 @@ Having an entire new version of an email is important as it:
 * Changes or clarifications to the content, that can act as the latest version of the thread, without needing a re-send
 :::
 
-### How to structure a v2
+## How to structure and send a v2
 
-1. Include (v2 - {{ REASON }}) on the first line of the email body
-   - For further versions of an email, replace the v2 with v3, v4, v5, etc
-2. The reason should include a summary of what was changed
-3. Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the previous version is not part of the email history
-4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
-
-::: info
-**Warning:** Do not add "v2" or make any changes to the subject as we want to keep the thread.
-:::
-
-#### How to send a v2 in Outlook
+Send the v2 email as if v1 never happened (same for v3, v4, etc). Make sure the first (or previous) version is **not** part of the email history.
 
 1. Open your v1 email in Sent Items
-2. Click Actions | Resend this message
+2. Reply to All
+3. Delete the whole v1 from the thread, including:
+   * The previous email headings (From:, To:, Cc:, Bcc, Subject:, etc.)
+   * Your signature
+   * The words "RE:" from the subject only in the cases where first email was **not** a reply
+4. If the email is a reply, then [keep the email history](/do-you-keep-the-history-of-an-email) leading up to your original email
+5. Write the v2
+6. Include (v2 - {{ REASON }}) on the first line of the email body
+   * For further versions of an email, replace the v2 with v3, v4, v5, etc
+   * The reason should include a summary of what was changed
+
+::: info
+**Warning:** Do not add "v2" to the subject as we want to keep the thread.
+:::
 
 ::: greybox
-**Note:** For appointments the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments).
+**Note:** In Outlook, there is an option to use the 'Resend This Message' button from the toolbar. This [used to be the standard practice](https://www.youtube.com/embed/SUo_hOCubeo), however currently it should be avoided as it breaks the thread.
+
+::: bad
+![Figure: Bad example - Outlook's 'Resend This Message' feature is no longer recommended](microsoftteams-image.png)
+:::
+
 :::
 
 ::: email-template  
+
 |          |     |
 | -------- | --- |
 | To:      | Bob |
@@ -81,20 +88,23 @@ Having an entire new version of an email is important as it:
 Regards,  
 Dave
 
+{{ HISTORY OF THE THREAD, EXCEPT THE PREVIOUS VERSION WITH MISTAKE(S) }}
+
 :::  
 :::  
 ::: good  
 Figure: Good example - Sending a 'v2' when you need to make an update
 :::
 
-::: greybox
+::: info
 **Note:** If all the feedback you received is incorporated into the new version, there is no need for an additional done email. However, if you've got other tasks in the feedback, it may be necessary to reply 'done' to those separated from the content of your v2.
 :::
 
-::: greybox
-**Tip:** If you are doing a lot of these, you can add the 'Resend This Message' button to 'Quick Access' toolbar in Outlook.
-![Figure: 'Resend This Message' on the 'Quick Access' toolbar](microsoftteams-image.png)
-:::
+## What about appointments?
+
+For appointments, the procedure is different, see [do you explain why you've updated or deleted an appointment?](/explain-deleted-or-modified-appointments)
+
+---
 
 `youtube: https://www.youtube.com/embed/2WoDQBhJCVQ`
 **Video: Some jobs give no chance for a v2**

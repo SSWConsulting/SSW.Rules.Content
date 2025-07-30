@@ -1,4 +1,5 @@
 ---
+seoDescription: Choose the best ASP.NET authentication method for your needs—whether using built-in providers or alternatives, ensuring security and efficiency in your implementation.
 type: rule
 archivedreason: This rule has been replaced by [Do you choose the best method of authentication for your situation?](/rules/choose-the-best-method-of-authentication-for-your-situation)
 title: '[DEPRECATED] Do you use built in authentication from MS?'

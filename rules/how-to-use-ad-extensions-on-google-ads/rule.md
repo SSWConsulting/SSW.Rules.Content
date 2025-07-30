@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how ad extensions can boost your Google Ads visibility and ROI with proven strategies.
 type: rule
 archivedreason: 
 title: Do you know how to use Ad Extensions on Google Ads?
@@ -31,12 +32,9 @@ redirects:
 * **Call out** – Additional detail/an invitation to a call-to-action.
 * **Sitelinks** – Promoting links from your website you want to advertise!
 
-
-
 ::: bad  
 ![Figure: Bad Example – Ad doesn't have a clear message about either product or service, there’s no call extension even though it mentions "Call Now"](google-ad-no-ad-extension.jpg)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Sitelinks and Call extensions on one of our mobile ads](google-ad-extension.jpg)  

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how data lakes help businesses manage diverse datasets and extract actionable insights efficiently.
 type: rule
 title: Do you understand Data Lakes?
 uri: understanding-data-lakes

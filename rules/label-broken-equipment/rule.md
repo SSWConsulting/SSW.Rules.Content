@@ -1,4 +1,5 @@
 ---
+seoDescription: Labeling broken equipment helps maintain a smooth office environment by keeping track of issues and ensuring prompt fixes.
 type: rule
 title: Office environment - Do you label broken equipment?
 uri: label-broken-equipment
@@ -22,17 +23,19 @@ guid: e3a33fc1-ad97-4377-abaf-46f8f52b2edd
 
 Imagine you see one port of a hub not working, what do you do?
 
-When you see something not working like a phone or a power point, don't ignore it, stick a note to it and tell the appropriate person.
+When you see something not working like a phone or a power point, don't ignore it. Instead attach a short note to it that indicates it is out of order and notify the appropriate person.
 
 <!--endintro-->
 
-Create a form that reminds you what is broken, who you have to call to fix it and any notes that may need to ensure that the item in question is fixed properly or replaced.
+This shouldnt be a large task - prepare a quick note form that reminds you what is broken, who you have to call to fix it and any additional details that may required to ensure the item is fixed properly or replaced.
+
+**Tip:** Sticky notes work great! ✏️
 
 ::: good
-![Figure: Good Example - Label broken things](LeaningTowerOfPisa.jpg)
+![Figure: Good Example - Label broken things with a sticky note](LeaningTowerOfPisa.jpg)
 :::
 
-If you want to have a more formal version of the sticky note, the SSW Design Team has created [this PDF](https://github.com/SSWConsulting/SSW.Rules.Content/raw/main/rules/label-broken-equipment/SSW-label-broken-things.pdf) which can be printed and attached to stuff that needs fixing (however, normally just a yellow sticky note and an email does the job just fine) 
+If you want to have a more formal version of the sticky note, the SSW Design Team has created [this PDF](SSW-label-broken-things.pdf) which can be printed and attached to stuff that needs fixing (however, normally just a yellow sticky note and an email does the job just fine)
 
 ::: good
 ![Figure: OK Example - Print PDF, fill the form and attach to broken things in the office](broken-things.jpg)

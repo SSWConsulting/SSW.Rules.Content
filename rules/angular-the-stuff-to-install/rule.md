@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover essential Angular tools like Angular CLI and DevTools for your project setup and streamlined development.
 type: rule
 title: Tools - Do you know what Angular Tools to install for an Angular project?
 uri: angular-the-stuff-to-install
@@ -23,12 +24,12 @@ If you want to get started with Angular, go to the [Angular Setup guide](https:/
 
 The prerequisites are:
 
-1. [Node.js](https://nodejs.org/) and  [NPM](https://www.npmjs.com/) (installed with Node.Js by default) 
+1. [Node.js](https://nodejs.org/) and  [NPM](https://www.npmjs.com/) (installed with Node.Js by default)
 2. [Angular CLI](https://angular.io/cli)
 
 The best practice for creating an Angular project and components is to use the [Angular CLI](https://angular.io/cli) (command-line interface).
 
-The Angular CLI is also used in the latest .NET Angular SPA template. 
+The Angular CLI is also used in the latest .NET Angular SPA template.
 Read [Do you know that the ASP.NET Core SPA Template for Angular uses the Angular CLI?](/asp-net-core-spa-template-for-angular-uses-the-angular-cli)
 
 <!--endintro-->
@@ -37,15 +38,15 @@ Instructions for upgrading the Angular CLI of an existing project can be found o
 
 ### Getting errors?
 
-If you get errors, follow instructions in the links: 
+If you get errors, follow instructions in the links:
 
-- [Node gyp errors](https://github.com/nodejs/node-gyp)
+* [Node gyp errors](https://github.com/nodejs/node-gyp)
 
-- [Permission errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+* [Permission errors](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
 
 ### Which IDE should I use for developing Angular applications?
 
-We recommend[VSCode](http://code.visualstudio.com). Read more on [Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
+We recommend [VSCode](http://code.visualstudio.com). Read more on [Do you know the best IDE for Angular?](/how-to-get-your-machine-setup)
 
 ### Other tools to consider
 

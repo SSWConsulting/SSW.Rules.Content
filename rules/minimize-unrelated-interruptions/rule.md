@@ -1,4 +1,5 @@
 ---
+seoDescription: Minimize distractions and keep group calls focused by messaging "BRB" or "I have to go" and muting your mic when interrupted.
 type: rule
 archivedreason: null
 title: Group calls - Do you minimize unrelated interruptions?
@@ -10,7 +11,6 @@ authors:
     url: https://ssw.com.au/people/jonty-gardner
 related:
   - do-you-have-successful-remote-meetings
-
 ---
 
 Group calls are made for important discussions to be had, and distractions can derail them. Ever been in a group call where someone just vanishes? It's confusing and can mess up the flow of conversation.

@@ -1,4 +1,5 @@
 ---
+seoDescription: User experience should be seamless and intuitive with a standard "Check for Updates" menu option offering clear results.
 type: rule
 title: Do you know what the user experience should be like?
 uri: what-the-user-experience-should-be-like
@@ -12,7 +13,7 @@ guid: 24f2a833-2d72-40d7-aeb0-3acea67bfc7f
 
 You should have a standard menu item "Check for Updates" in the Help menu.
 
-<!--endintro--> 
+<!--endintro-->
 
 Here are a couple of examples of Check for Updates results:
 

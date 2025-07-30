@@ -1,4 +1,5 @@
 ---
+seoDescription: Automate meeting scheduling effortlessly with AI-powered solutions like Outlook 365's Scheduling Poll and FindTime for faster, stress-free coordination
 type: rule
 title: Appointments - Do you automate scheduling of meetings?
 uri: automate-schedule-meetings
@@ -11,6 +12,8 @@ authors:
     url: https://ssw.com.au/people/greg-harris
 related: 
   - appointments-throw-it-in-their-calendar
+  - collaborate-across-timezones
+  - automated-webinars-for-multiple-time-zones
 redirects:
   - appointments-do-you-automate-scheduling-of-meetings
 created: 2020-11-10T18:24:51.000Z
@@ -34,65 +37,6 @@ You can do complex scheduling tasks and calendar polls with this built-in Outloo
 **Video: How to use Scheduling Poll in Microsoft Outlook 365 📆 (3 min)**
 
 ![Figure: Voting options on Scheduling Poll](schedule-poll-screenshot.png)
-
-## Microsoft Cortana Scheduler (formerly known as Calendar.help)
-
-![Figure: Microsoft Cortana Scheduler](Sexy-face.jpg)
-
-This option is best if you're ok to meet any time that your calendar says is free.
-
-**Note:** The helpful tool Scheduler has a portal too at [https://calendar.help/user/dashboard](https://calendar.help/user/dashboard)
-
-### Instructions to use Cortana
-
-#### Step 1 - Register
-
-Register yourself at [Meet Scheduler](https://calendar.help/) before you can use this feature.
-
-#### Step 2 - Send an email
-
-Open an email... not an appointment!
-
-::: email-template  
-|          |     |
-| -------- | --- |
-| To:      | Adam |
-| Cc:      | Cortana |
-| Subject: | Talk about Northwind project |  
-::: email-content  
-
-### Hi Adam  
-
-We need to talk about Northwind project.
-
---
-
-<mark>Cortana, schedule a meeting.</mark>
-
-:::  
-:::  
-**Figure: after your message, add some request to Cortana as you would a PA**
-
-Cortana then handles all the back-and-forth emails to find a time when everyone can meet and then she sends out an invite on your behalf.
-
-![Figure: Cortana will find a time that suits everyone and send the appointment](confirmation.jpg)  
-
-::: greybox
-**More help for Cortana:**
-
-1. [FAQ on calendar.help](https://calendar.help/faq)
-2. Watch the video here [https://www.microsoft.com/en-us/scheduler](https://www.microsoft.com/en-us/scheduler)
-:::
-
-#### Step 3 - Add Cortana as a contact
-
-To make it easier to add Cortana to your emails, create a Contact.
-
-![Figure: Cortana added as a contact](CortanaContact.jpg)  
-
-✅ Works great on mobile:
-
-![Figure: Microsoft Scheduler – Fully works on mobile phone](cortana-scheduler-mobile.jpg)  
 
 ## FindTime
 

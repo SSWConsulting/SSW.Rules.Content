@@ -1,28 +1,28 @@
 ---
+seoDescription: Optimize your videos for YouTube by writing attention-grabbing titles that include your main keyword and value proposition.
 type: rule
-archivedreason: 
-title: Do you optimize your videos for YouTube?
+archivedreason:
+title: Searchability - Do you optimize your videos for YouTube?
 guid: aecea52a-e173-4d2f-935c-72ced2402830
 uri: optimize-videos-for-youtube
 created: 2018-05-21T00:08:58.0000000Z
 authors:
-- title: Florent Dezettre
-  url: https://ssw.com.au/people/florent-dezettre
-- title: Camilla Rosa Silva
-  url: https://www.ssw.com.au/people/camilla-rosa-silva
+  - title: Florent Dezettre
+    url: https://ssw.com.au/people/florent-dezettre
+  - title: Camilla Rosa Silva
+    url: https://www.ssw.com.au/people/camilla-rosa-silva
 related:
-- personalized-thumbnail
-- sort-videos-into-playlists
-- untapped-keywords
-- videos-youtube-friendly
-- do-you-keep-your-audience-happy
-- do-you-add-cards-to-your-youtube-videos
-- do-you-add-end-screen-to-your-youtube-videos
-- do-you-add-time-links-on-your-youtube-videos
-- do-you-follow-image-standard-sizes-on-social-media
+  - personalized-thumbnail
+  - sort-videos-into-playlists
+  - untapped-keywords
+  - videos-youtube-friendly
+  - do-you-keep-your-audience-happy
+  - do-you-add-cards-to-your-youtube-videos
+  - do-you-add-end-screen-to-your-youtube-videos
+  - do-you-add-time-links-on-your-youtube-videos
+  - do-you-follow-image-standard-sizes-on-social-media
 redirects:
-- do-you-optimize-your-videos-for-youtube
-
+  - do-you-optimize-your-videos-for-youtube
 ---
 
 Having great content is important, but it’s not all. You must also consider writing a good title, description, and add relevant tags (not too many).

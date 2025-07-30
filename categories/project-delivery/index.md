@@ -25,5 +25,4 @@ index:
 - rules-to-better-devops
 - rules-to-better-devops-using-github
 - rules-to-better-devops-using-azure-devops
-
 ---

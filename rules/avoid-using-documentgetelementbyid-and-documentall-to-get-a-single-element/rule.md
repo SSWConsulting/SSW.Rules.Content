@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid using document.getElementById(id) and document.all(id) to get a single element; instead use jQuery selector $(#id).
 type: rule
 title: Do you avoid using document.getElementById(id) and document.all(id) to
   get a single element, instead use selector $(#id)?
@@ -24,31 +25,34 @@ guid: 9ddcb98a-a721-4191-af87-3109043184f8
 With jQuery, you can write less code but do more work.
 
 ```html
-<h1 id="Head1">Hello</h1> 
+<h1 id="Head1">Hello</h1>
 <script type="text/javascript" language="javascript">
-    document.all("Head1").style.color="red"; 
+  document.all("Head1").style.color = "red";
 </script>
 ```
+
 ::: bad
 Figure - Bad Code  
 :::
 
 ```html
-<h1 id="Head1">Hello</h1> 
+<h1 id="Head1">Hello</h1>
 <script type="text/javascript" language="javascript">
-    document.getElementById("Head1").style.color="red"; 
+  document.getElementById("Head1").style.color = "red";
 </script>
 ```
+
 ::: bad
 Figure: Bad Code  
 :::
 
 ```html
-<h1 id="Head1">Hello</h1> 
+<h1 id="Head1">Hello</h1>
 <script type="text/javascript" language="javascript">
-    $("#Head1").css("color","red"); 
+  $("#Head1").css("color", "red");
 </script>
 ```
+
 ::: good
 Figure: Good Code - Using $("#Head1")
 :::

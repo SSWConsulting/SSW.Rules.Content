@@ -1,4 +1,5 @@
 ---
+seoDescription: Run services on their own AD accounts to ensure secure and organized management of your network's identity.
 type: rule
 title: Do you run services on their own AD accounts?
 uri: run-services-on-their-own-ad-accounts
@@ -8,6 +9,7 @@ authors:
 created: 2021-09-01T00:01:28.761Z
 guid: 84d15d33-025c-45a8-97b4-7c4d35907722
 ---
+
 When [using service accounts](/do-you-use-service-accounts), you should have a specific AD account for each major service.
 
 <!--endintro-->

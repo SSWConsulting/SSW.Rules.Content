@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create efficient ChatGPT prompt templates for repetitive tasks
 type: rule
 title: Do you create ChatGPT prompt templates for repeatable tasks?
 uri: chatgpt-prompt-templates

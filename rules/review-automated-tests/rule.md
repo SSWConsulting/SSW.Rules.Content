@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your automated tests remain effective by regularly reviewing them to remove outdated or unnecessary checks
 type: rule
 title: Do you regularly review your automated tests?
 uri: review-automated-tests

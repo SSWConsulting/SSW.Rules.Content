@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover tips for crafting effective call introductions that engage prospects from the start.
 type: rule
 archivedreason: 
 title: Calling - Do you have a good introduction?
@@ -24,24 +25,20 @@ By nature, most people are often on the defensive when they know it's a sales 
 
 Introductions should include a quick personal introduction of yourself, your company and the reason for your call, all done with one breath without pause. It is equally important you don't give your prospect a chance to speak until you're ready to ask an open-ended question.
 
-
 ::: greybox
  **Scott:** Hi, this is Scott from SSW how are you today? <mark>(pause)</mark> I'm calling you to introduce SSW Upsizing PRO!  
 :::
-
 
 ::: bad
 Bad Example - An introduction with a pause
 
 :::
 
-
 ::: greybox
  **Scott:** Hi Mr. Smith, this is Scott from SSW calling about some hands-on developer training, is this a convenient time?  
 :::
 
-
 ::: good
-Good Example - An introduction without pause 
+Good Example - An introduction without pause
 
 :::

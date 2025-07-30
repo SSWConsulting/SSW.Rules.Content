@@ -1,4 +1,5 @@
 ---
+seoDescription: Understanding the testing pyramid models, such as Mike Cohn's automated testing pyramid, is crucial for developing effective test strategies and mitigating risks in software development.
 type: rule
 title: Do you understand the "testing pyramid" models?
 uri: testing-pyramid
@@ -11,6 +12,7 @@ related:
 created: 2022-11-25T02:53:59.794Z
 guid: ee5b40cf-cf8e-4b0c-a421-ab34f28d8b76
 ---
+
 Having an awareness of the different types and levels of testing is critical to developing appropriate test strategies for your applications.
 
 ::: greybox
@@ -25,7 +27,7 @@ There are various models to help with this, most stemming from Mike Cohn's simpl
 
 > "All models are wrong, but some are useful"
 >
-> * George Box
+> - George Box
 
 The test pyramid is a model and, like all models, it is wrong, though it is perhaps useful.
 
@@ -41,7 +43,7 @@ Let's look at the 3 levels of automation in a little more detail.
 
 The pyramid is supported at the bottom by unit tests as unit testing is the foundation of a solid automation strategy and represents the largest part of the pyramid. Unit tests are typically written using the same language as the system itself, so programmers are generally comfortable with writing them (though you shouldn't assume they're **good** at writing them). Cohn says:
 
-> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say *"There's a bug in how you're retrieving member records from the database, which might represent 1,000 or more lines of code."* These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
+> "Automated unit tests are wonderful because they give specific data to a programmer—there is a bug and it’s on line 47. Programmers have learned that the bug may really be on line 51 or 42, but it’s much nicer to have an automated unit test narrow it down than it is to have a tester say _"There's a bug in how you're retrieving member records from the database, which might represent 1,000 or more lines of code."_ These smaller (scope) tests put positive pressure on the design of the code, since it is easier for bigger (scope) tests with poor code to pass than smaller (scope) tests with poor code." - Mike Cohn
 
 Although writing unit tests is typically a developer task within the agile team, there is also an excellent opportunity for testers to be involved by pairing with developers to help them write better unit tests. It's a mistake to assume that developers know how to write good unit tests, since it is unlikely that they have been trained in test design techniques. The tester does not need to know the programming language, the idea is that the developer can talk through the intent of their unit tests and the tester can ask questions that may identify missing coverage or indicate logical flaws. This is an excellent use of a tester's time, since getting a good set of unit tests in place is foundational to the rest of the automation strategy.
 
@@ -75,9 +77,9 @@ Katrina Clokie (in her book [A Practical Guide to Testing in DevOps](https://lea
 
 > I imagine the bugs that drop through this filter as being butterflies in all stages of their lifecycle. Unit tests are going to capture the eggs — bugs before they develop into anything of consequence. Integration tests are going to capture the caterpillars. These may have arisen from a unit test egg that has hatched in the integrated environment, or may have crawled into our platform via a third-party system. End-to-end tests capture the butterflies."
 >
-> * Katrina Clokie
+> - Katrina Clokie
 
 ### Further reading
 
-* [A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
-* [Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen
+- [A Test Pyramid Heresy](https://www.linkedin.com/pulse/test-pyramid-heresy-john-ferguson-smart) by John Ferguson-Smart
+- [Why I Still Like Pyramids](http://thatsthebuffettable.blogspot.com/2016/03/why-i-still-like-pyramids.html) by Marcel Gehlen

@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you understand a data type change = "Data Motion Scripts"? Learn how to correctly update your schema and migrate existing data when changing a column's data type from Boolean to char(2) in this informative tutorial.
 type: rule
 title: Do you understand a data type change = "Data Motion Scripts"?
 uri: do-you-understand-a-data-type-change-data-motion-scripts
@@ -24,9 +25,10 @@ created: 2009-10-07T00:12:39.000Z
 archivedreason: null
 guid: 72e85813-bbc1-4426-8108-4a5d7f559b7a
 ---
-Scripting out a schema change is easy, worrying about data is not. "'Data motion" refers to a change in the meaning of data, which will require scripts which touch data and schema. 
 
-Let's look at an example:   
+Scripting out a schema change is easy, worrying about data is not. "'Data motion" refers to a change in the meaning of data, which will require scripts which touch data and schema.
+
+Let's look at an example:
 
 <!--endintro-->
 
@@ -34,18 +36,18 @@ We have a 'Gender' column (that is a Boolean) storing 0's and 1's. All works wel
 
 ![Figure: Anything wrong this Gender column?](TableBit.jpg)
 
-Later you learn you need to change the data type to char(2) to support 'MA', 'FE', 'NB' and 'NA' 
+Later you learn you need to change the data type to char(2) to support 'MA', 'FE', 'NB' and 'NA'
 
 ![Figure: Caster Semenya was the first to teach us a thing or two about the right data type for Gender](CasterSemenya.jpg)
 
 The data then must be migrated to the new data type this way:
 
-Rename 'Gender' to 'ztGender' 
-*Add a new column 'Gender' with type char(2)
+Rename 'Gender' to 'ztGender'
+_Add a new column 'Gender' with type char(2)
 Insert the existing data from 'ztGender' to 'Gender' (map 0 to 'F' and 1 to 'M')
-Delete the column ztGender*
+Delete the column ztGender_
 
-![Figure: Changing the data type and data required a "Data Motion Script"](TableChar.jpg)  
+![Figure: Changing the data type and data required a "Data Motion Script"](TableChar.jpg)
 
 ::: greybox
 **Note:** zt stands for Temporary.
@@ -55,7 +57,7 @@ Visual Studio does not automatically support this scenario, as data type changes
 
 ![Figure: Don't use Visual Studio Schema Compare Tool (aka Data Dude)](microsoft-schema-compare_1710232021939.png)
 
-::: greybox 
+::: greybox
 **Note:** In order to achieve this you **must** use the built in Refactor tools as it create a log of all the refactors in order. This helps Visual Studio generate the schema compare and make sure no data is lost.
 :::
 
@@ -81,8 +83,8 @@ public partial class GenderToString : DbMigration
    {
       AlterColumn("dbo.Customers", "Gender", c => c.String(maxLength: 2));
    }
-        
-   
+
+
    public override void Down()
    {
        AlterColumn("dbo.Customers", "Gender", c => c.Boolean(nullable: false));

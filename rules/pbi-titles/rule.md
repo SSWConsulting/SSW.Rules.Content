@@ -1,4 +1,5 @@
 ---
+seoDescription: Use meaningful PBI titles to effectively communicate requirements and facilitate prioritization. (Note - The original text is quite long, so I've condensed it into a shorter summary that still captures the main points.)
 type: rule
 title: Do you use meaningful PBI titles?
 uri: pbi-titles
@@ -15,10 +16,11 @@ created: 2023-01-25T08:47:53.492Z
 guid: b4b9e315-5c7f-413c-9456-e53a23cbbdac
 archivedreason: duplicate of https://ssw.com.au/rules/meaningful-pbi-titles
 ---
+
 PBI titles are the fastest way to get information about an issue. Unfortunately, backlogs are often filled with poorly named PBIs, making it hard for the key stakeholders to sift through.
 
 A well-thought-out PBI title can be the difference between an excellent Sprint Planning and a poor one.
-            
+
 <!--endintro-->
 
 Many factors go into a good PBI title. Some of the core aspects are:
@@ -30,7 +32,9 @@ Many factors go into a good PBI title. Some of the core aspects are:
 * Number of words
 
 ### Audience Interpretation
+
 People interpret things in different ways. Those interested in PBIs generally include:
+
 * Developers
 * Product Owners
 * External Stakeholders
@@ -47,16 +51,17 @@ Fix broken dependency
 :::
 
 ::: grey
-IDateTimeProvider - New 3rd party code breaks app 
+IDateTimeProvider - New 3rd party code breaks app
 :::
 ::: good
 **Figure: Good Example - The Product Owner can see that there is new code that has broken the app**
 :::
 
 ### Importance
-Indicating the relative priority of a PBI helps stakeholders prioritise it at a glance. 
 
-Adding a fire emoji  to critical PBIs helps communicate that it should be actioned ASAP.
+Indicating the relative priority of a PBI helps stakeholders prioritise it at a glance.
+
+Adding a fire emoji to critical PBIs helps communicate that it should be actioned ASAP.
 
 ::: grey
 CI/CD - Deployment pipeline broken
@@ -66,13 +71,14 @@ CI/CD - Deployment pipeline broken
 :::
 
 ::: grey
-CI/CD - Deployment pipeline broken 🔥 
+CI/CD - Deployment pipeline broken 🔥
 :::
 ::: good
 **Figure: Good Example - The Product Owner won't miss this PBI with the help of an emoji**
 :::
 
 ### Prefixes
+
 Prefixes help the team understand the area a PBI is touching. For example, prefixing with the business area helps give a zoomed-out view of which part of the app is being touched. Then it becomes easier to understand the zoomed-in details.
 
 ::: grey
@@ -90,6 +96,7 @@ Company Contacts - Add new profile picture
 :::
 
 ### Type of PBI
+
 Knowing what kind of PBI it is can help with prioritisation. If the Product Owner knows it's a bug, they will likely want it actioned ASAP!
 
 Adding an emoji at the start of the PBI communicates the type at a glance.
@@ -109,6 +116,7 @@ Company Contacts - Add new profile picture
 :::
 
 ### Number of words
+
 Sometimes less is more. Try to limit the number of words included and make those words as high-impact as possible.
 
 ::: grey

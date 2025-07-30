@@ -1,4 +1,5 @@
 ---
+seoDescription: Use Autocorrect to streamline your workflow and save time by inserting URLs with simple shortcuts.
 type: rule
 title: Do you use Autocorrect in Outlook to insert links?
 uri: autocorrect-in-outlook
@@ -23,10 +24,10 @@ This is where the Autocorrect feature in Outlook can become a huge time-saver.
 
 * **Efficiency**: It saves time by eliminating the need to find and copy-paste URLs
 * **Consistency**: It ensures that everyone is using the same URL and reduces the risk of errors
-  
+
 ## How to Set It Up
 
-1. Open Outlook and go to **File | Options | Mail | Spelling and Autocorrect**  
+1. Open Outlook and go to **File | Options | Mail | Spelling and Autocorrect**
 2. Click `Autocorrect Options` and add your shorthand and URL link.
 
 ![Figure: Make sure you use short key combinations that are unlikely to be used normally, but still easy to remember](Outlook-image-uly.png)

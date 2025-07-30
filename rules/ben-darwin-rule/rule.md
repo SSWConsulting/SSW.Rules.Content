@@ -1,25 +1,25 @@
 ---
+seoDescription: Working together as a team can lead to increased productivity and job satisfaction, with the right mindset and support.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know that working in a team is better than on your own? (aka The Ben Darwin rule)
 guid: 03da1cb6-c7a1-445f-ace5-7164a5b459b7
 uri: ben-darwin-rule
 created: 2010-05-11T07:16:01.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- do-you-know-that-working-in-a-team-is-better-than-on-your-own-(aka-the-ben-darwin-rule)
-- do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
-
+  - do-you-know-that-working-in-a-team-is-better-than-on-your-own-(aka-the-ben-darwin-rule)
+  - do-you-know-that-working-in-a-team-is-better-than-on-your-own-aka-the-ben-darwin-rule
 ---
 
 Is working as a team all it is cracked up to be?
 
 It's a well known fact that a good team of 3 people will output more than 3 people working on their own. As well as that, the team members will find it more rewarding as well.
 
-The best sum up of this was by famous Wallaby player, Ben Darwin, who after breaking his neck in a Scrum. He was forced to quit being a Wallaby and rejoin normal society. He said:   
+The best sum up of this was by famous Wallaby player, Ben Darwin, who after breaking his neck in a Scrum. He was forced to quit being a Wallaby and rejoin normal society. He said:
 
 <!--endintro-->
 
@@ -29,7 +29,7 @@ We can see examples of this in nature as well. For the Antarctic Emperor Penguin
 
 It is essential that in order to be a contributing member of a successful team, you are willing to put the good of the team over your own interests so that everyone can benefit in the long term.
 
-`youtube: https://www.youtube.com/embed/cgGL6SbMfKc` 
+`youtube: https://www.youtube.com/embed/cgGL6SbMfKc`
 
 **Video: Emperor penguins unite for survival in Antarctica - David Attenborough - BBC wildlife (2 min)**
 

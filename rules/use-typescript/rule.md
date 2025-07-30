@@ -1,4 +1,5 @@
 ---
+seoDescription: Typescript enhances Angular and React applications by providing type safety, improved tooling, and wider browser support.
 type: rule
 title: Do you use Typescript?
 uri: use-typescript
@@ -19,7 +20,7 @@ archivedreason: null
 guid: e715241b-008a-4e99-9f98-613c802bcd09
 ---
 
-Typescript is the best choice when writing Angular and React applications. Angular is even written in Typescript itself! 
+Typescript is the best choice when writing Angular and React applications. Angular is even written in Typescript itself!
 
 <!--endintro-->
 
@@ -29,16 +30,19 @@ Typescript is the best choice when writing Angular and React applications. Angu
 ### ✅Advantages of Using TypeScript
 
 1. **Type Safety**
+
    - **Error detection:** - Identify and correct errors during the build phase, preventing runtime surprises.
    - **Top-notch tooling** - Utilize enhanced features like autocomplete, Intellisense, efficient code navigation, and linting.
    - **Streamlined refactoring** - Superior tooling simplifies refactoring compared to plain JavaScript.
    - **Embrace the latest** - Leverage the latest language innovations for cleaner, more concise code.
 
 2. **Enhanced Code Expressivity**
+
    - **Syntax sugar** - Improves code readability and intuitiveness.
    - **Automatic imports** - Streamline module integrations.
 
 3. **Wider Browser Support**
+
    - **Multi-version targeting** - Use a single TypeScript codebase across various JavaScript versions (e.g., ES5, ES6).
 
 4. **Boosted Code Confidence and Maintainability**

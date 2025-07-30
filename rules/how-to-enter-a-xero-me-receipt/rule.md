@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to enter a receipt through Xero Me by following these simple steps and tips for efficient expense claims management.
 type: rule
 title: Do you know how to enter a receipt through Xero Me?
 uri: how-to-enter-a-xero-me-receipt
@@ -15,7 +16,6 @@ redirects:
 created: 2017-08-02T21:06:14.000Z
 archivedreason: Replaced by https://my.sugarlearning.com/SSW/items/12961/expenses-and-reimbursements#entering-an-expense-claim-on-xero-me
 guid: 0464d211-db2a-4da8-8190-9d312e0d778d
-
 ---
 
 Xero Me is a comprehensive tool that combines expense claims with Xero payslips and leave entitlements.

@@ -1,17 +1,17 @@
 ---
+seoDescription: Office environment - Should you avoid listening to music while at work?
 type: rule
-archivedreason: 
+archivedreason:
 title: Office environment - Do you avoid listening to music while at work?
 guid: 094a4233-7c70-4aad-aa41-45a8c46f0cbd
 uri: do-you-avoid-listening-to-music-while-at-work
 created: 2012-09-25T17:58:05.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects:
-- office-environment-do-you-avoid-listening-to-music-while-at-work
-
+  - office-environment-do-you-avoid-listening-to-music-while-at-work
 ---
 
 Should we be listening to music at work? I've had the debate with numerous people and decided that, generally, you should avoid it.
@@ -28,10 +28,11 @@ Regardless of whether it is AC/DC or DotNetRocks, music/podcasts should not be u
 Others have said we are wrong with reasons like:
 
 - _"It helps me give you 100% - since the office is noisy I can concentrate and I need to block out a noisy environment"_  
-Isn't the music just creating an additional noise source?
-- _"It helps me relax"_   
-Yes, we love hearing a good song, for example, when Adam hears Robbie Williams' "Better man" it gets him pumped a bit and it has a positive effect on his state of mind. We are unconvinced it helps us program better.
+  Isn't the music just creating an additional noise source?
+- _"It helps me relax"_  
+  Yes, we love hearing a good song, for example, when Adam hears Robbie Williams' "Better man" it gets him pumped a bit and it has a positive effect on his state of mind. We are unconvinced it helps us program better.
+
 * _"In an open office, headphones are not merely transmitters of sound, they are like ‘Do Not Disturb’ signs on a hotel room door."_
-In several open offices using a headphone seems to be encouraged as the most effective for productivity.
+  In several open offices using a headphone seems to be encouraged as the most effective for productivity.
 
 There is, however, a use for it being "background" music in some scenarios; like when you are doing time-consuming mindless stuff like fixing data, building VPCs/VMWare or waiting for long builds.

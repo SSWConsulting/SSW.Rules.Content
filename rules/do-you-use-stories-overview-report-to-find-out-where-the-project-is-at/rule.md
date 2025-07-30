@@ -1,21 +1,21 @@
 ---
+seoDescription: Use the "Stories Overview" report in TFS to track project progress and identify areas that require testing.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use "Stories Overview" report to find out where the project is at?
 guid: f43e250e-2942-4290-a191-06f5337df264
 uri: do-you-use-stories-overview-report-to-find-out-where-the-project-is-at
 created: 2009-11-03T09:52:31.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matthew Hodgkins
-  url: https://ssw.com.au/people/matthew-hodgkins
-- title: Damian Brady
-  url: https://ssw.com.au/people/damian-brady
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matthew Hodgkins
+    url: https://ssw.com.au/people/matthew-hodgkins
+  - title: Damian Brady
+    url: https://ssw.com.au/people/damian-brady
 related: []
 redirects:
-- do-you-use-＂stories-overview＂-report-to-find-out-where-the-project-is-at
-
+  - do-you-use-＂stories-overview＂-report-to-find-out-where-the-project-is-at
 ---
 
 A common question for every project manager is "where is my project at?" This question isn't just asked to find out how many tasks are done, but also to understand if all these tasks are done to meet users' requirements.
@@ -24,7 +24,7 @@ Both the Visual Studio Scrum and MSF for Agile project templates in TFS 2010 and
 
 <!--endintro-->
 
-![Figure: The developer says he is 90% done... the report shows 25% tested, but 0% passed!](84d04e_StoriesOverviewReport.jpg) 
+![Figure: The developer says he is 90% done... the report shows 25% tested, but 0% passed!](84d04e_StoriesOverviewReport.jpg)
 
 **Tip:** Set this up on a [daily schedule so the Scrum Team get this in their inbox each day](/reports-do-you-schedule-the-burndown-and-stories-overview-reports-to-be-emailed-to-the-team-every-day).
 

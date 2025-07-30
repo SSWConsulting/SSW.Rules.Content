@@ -1,17 +1,17 @@
 ---
+seoDescription: Create appointments instantly to avoid mistakes and double bookings.
 type: rule
-archivedreason: 
+archivedreason:
 title: Appointments - Do you create appointments as soon as possible?
 guid: d36055b2-734c-4629-ba73-a5f28b8ddc92
 uri: create-appointments-as-soon-as-possible
 created: 2020-11-10T18:09:34.0000000Z
 authors:
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects:
-- appointments-do-you-create-appointments-as-soon-as-possible
-
+  - appointments-do-you-create-appointments-as-soon-as-possible
 ---
 
 A lot of people talk about appointments and plan to do it later. E.g. you’re at the dentist and they give you a card with your next visit’s time written on it. People take the card and plan to enter it into their calendar later.

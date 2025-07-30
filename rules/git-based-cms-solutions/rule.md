@@ -1,6 +1,7 @@
 ---
+seoDescription: Unlock powerful workflows and scalability with Git-based CMS solutions like TinaCMS, CrafterCMS, Publii, Contentrain, or StaticCMS - perfect for developers seeking flexible content management.
 type: rule
-title: Do you use Git-based Content Management Systems (CMS)? 
+title: Do you use Git-based Content Management Systems (CMS)?
 uri: git-based-cms-solutions
 authors:
   - title: William Liebenberg
@@ -10,7 +11,7 @@ authors:
   - title: Luke Cook
     url: https://www.ssw.com.au/people/luke-cook/
 related:
-    - do-you-know-the-best-cms-solutions-for-websites
+  - do-you-know-the-best-cms-solutions-for-websites
 redirects: []
 created: 2024-01-25T23:49:23.696Z
 guid: abfa31ba-9bb4-43a5-af73-21d1a928e3bb
@@ -107,7 +108,9 @@ There is also an enterprise version of CrafterCMS that has more features, like I
 
 ### StaticCMS
 
-[StaticCMS](https://www.staticcms.org/) is a newer entry in the field and offers a Git-based, open-source CMS. It's designed to work well with static site generators and is a lesser-known brand. StaticCMS is a fork of [Decap CMS](https://decapcms.org/) (previously Netlify CMS).
+[StaticCMS](https://staticjscms.netlify.app) was designed to work well with static site generators and is a lesser-known brand. StaticCMS is a fork of [Decap CMS](https://decapcms.org/) (previously Netlify CMS).
+
+**Update:** [Static CMS has been archived](https://github.com/StaticJsCMS/static-cms).
 
 ✅ **Pros**
 

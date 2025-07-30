@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you nurture the marriage? Keeping customers with "Software Reviews" ensures maintainable software and better architecture using industry standards.
 type: rule
 archivedreason:
 title: Do you nurture the marriage? (aka Keeping customers with "Software Reviews")

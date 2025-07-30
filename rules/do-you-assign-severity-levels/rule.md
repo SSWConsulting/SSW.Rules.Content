@@ -1,16 +1,16 @@
 ---
+seoDescription: Assigning severity levels to product backlog items (PBIs) helps prioritize tasks based on business impact, with options ranging from defaulting to highest or lowest severity.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you assign severity levels to PBIs?
 uri: do-you-assign-severity-levels
 created: 2024-04-19T17:58:29.0000000Z
 authors:
-- title: Anton Polkanov
-  url: https://ssw.com.au/people/anton-polkanov
+  - title: Anton Polkanov
+    url: https://ssw.com.au/people/anton-polkanov
 related: []
 redirects:
 guid: f8b0373d-551d-4491-b5b9-8192de32e4e9
-
 ---
 
 As the backlog grows, it becomes increasingly challenging to determine the relative importance of each PBI (Product Backlog Item). Assigning severity levels to each ticket can help address this issue by clearly indicating which tickets have a higher business impact. Severity levels **range from 1 (Highest) to 5 (Lowest)**.
@@ -45,7 +45,7 @@ Cons:
 Pros:
 
 * Provides a balanced starting point for PBIs, allowing the team to focus on a mix of priorities
-* Aligns with a normal distribution, making it easier for the Scrum team to decide which PBIs to tackle in the next sprint
+* Aligns with a normal distribution, making it easier for the Scrum team to decide which PBIs to tackle in the next Sprint
 
 Cons:
 
@@ -61,4 +61,4 @@ For an effective distribution of severity levels, consider the following distrib
 * Severity 2 and 4: 13% each
 * Severity 3: 68%
 
-This distribution resembles a normal distribution and provides a clear guideline for the team to decide which PBIs to prioritize in the upcoming sprints.
+This distribution resembles a normal distribution and provides a clear guideline for the team to decide which PBIs to prioritize in the upcoming Sprints.

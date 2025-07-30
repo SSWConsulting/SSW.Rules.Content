@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to effectively deploy your SharePoint solutions with minimal risk and downtime by avoiding server wipes and large backups.
 type: rule
 archivedreason: 
 title: Do you know the best ways to deploy a SharePoint solution?
@@ -12,20 +13,19 @@ authors:
   url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 Development for a SharePoint solution is always risky and may involve bringing down the server from time to time.  So we always customize and develop SharePoint solutions on a separate development server.  But when your development is done, do you know how to deploy your changes to the staging and eventually the production server?  
 
 <!--endintro-->
 
-### The Bad method 
+### The Bad method
 
 The naïve and bad method would be to just back up the entire content database, then copy the database backup to the destination server, and restore it there.
 
-1. Backup command: 
+1. Backup command:
     ```stsadm –o backup –url http://servername:port -filename c:\myfile.bak```
-2. Restore command: 
+2. Restore command:
     ```stsadm –o restore –url http://servername:port –filename c:\myfile.bak -overwrite```
 
 There are quite a few issues with this approach:
@@ -35,7 +35,7 @@ There are quite a few issues with this approach:
 3. Backup file can be extremely large as it includes version history and a lot of extra fat, the file can easily be over a few hundred megabytes!
 4. Deployment via backup and restore is not a Microsoft supported operation
 
-### The Good method 
+### The Good method
 
 The better method is to build a feature or solution deployment package
 
@@ -44,5 +44,5 @@ The better method is to build a feature or solution deployment package
 
 A few considerations for this approach:
 
-- Site definitions, list definitions, layouts and masterpages, static content and webparts can all be deployed this way
-- User content cannot be deployed this way. Any content will need to be exported and re-imported to move between development, staging and/or production servers.
+* Site definitions, list definitions, layouts and masterpages, static content and webparts can all be deployed this way
+* User content cannot be deployed this way. Any content will need to be exported and re-imported to move between development, staging and/or production servers.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Enhance your web content by adding useful figure captions to images and videos for better SEO and user engagement.
 type: rule
 title: Figures - Do you add useful text captions to images and videos?
 uri: add-useful-and-concise-figure-captions
@@ -22,7 +23,6 @@ created: 2014-12-04T20:24:03.000Z
 archivedreason: null
 guid: cb664ecb-4910-4d82-bcbc-47e35cbe89ee
 ---
-
 When you add images/videos to websites/applications, it is helpful to add a caption underneath them, describing and including extra information to users.
 
 It's a convenient way of catching users' attention to your content. When people are scanning a newspaper, they often check out the pictures first, then read the accompanying description, and if it sounds interesting, they'll go back and read the article. Users read websites in a similar fashion.
@@ -31,15 +31,11 @@ It's a convenient way of catching users' attention to your content. When people 
 
 To catch readers' attention, include a useful description - don't just describe what the image is... say what it's used for in the context of the document.
 
-::: good  
-![Figure: Good example - Some nice useful and concise text describing the image](good-caption.jpg)  
-:::
-
 It is especially important that images and captions serve a purpose, as opposed to graphics which are there solely for design.
 
 ### Tip #1: Use prefixes
 
-Prefix your caption with "Figure: ", "Video: ", or "Code: ".
+Prefix your caption with "Figure: ", "Video: ", "Code: ", or "GIF: "
 
 If it is a good/ok/bad example (see the next tip), then the prefix should be something like: "Figure: Good/Bad/OK example - ", "Video: Good/Bad/OK example - ", or "Code: Good/Bad/OK example - ".
 
@@ -60,7 +56,7 @@ At SSW we always show the bad example first, then the good example. You will see
 ### Tip #3: Bold your captions
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 {{ CAPTION }}
 :::
 ::: bad
@@ -68,7 +64,7 @@ Figure: Bad example - Caption not bolded can be mixed up with regular content
 :::
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **{{ CAPTION }}**
 :::
 ::: good
@@ -80,7 +76,7 @@ Figure: Good example - Caption stands out when bolded
 Especially for screenshots, it is a good idea to have your figure describe the action the user would take:
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **Figure: This is the screen**
 :::
 ::: bad
@@ -88,20 +84,37 @@ Figure: Bad example - Vague caption description
 :::
 
 ::: greybox
-{{ IMAGE }}
+{{ IMAGE }}\
 **Figure: On the screen, choose the execution method**
 :::
 ::: good
 Figure: Good example - Clear caption description
 :::
 
-### Tip #5: Add the titles + length on video captions
+### Tip #5: Video captions should be the title + length
 
-When embedding videos, include a caption with **the video title** + **video length** in brackets. As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
+When embedding videos, include a caption with **the video title** + **video length** in brackets.
 
-E.g. "**Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})**"
+**Note:** As per Tip #1, you should also prefix with "Video: " instead of "Figure: ".
+
+::: greybox
+{{ VIDEO }}\
+**Figure: Scrum video**
+:::
+::: bad
+Figure: Bad example - Using "Figure:" for a video caption + a vague text
+:::
+
+::: greybox
+{{ VIDEO }}\
+**Video: Intro to Scrum in Under 10 Minutes (9 min)**
+:::
+::: good
+Figure: Good example - Video caption following the standard "Video: {{ VIDEO TITLE }} ({{ VIDEO LENGTH}})"
+:::
 
 This helps:
+
 * Giving a brief text summary of the video
 * Getting some extra Google Juice
 * Letting users know what to expect in terms of time required to watch
@@ -111,22 +124,62 @@ This helps:
 **Note:** The exception is for promotional videos where the caption may undesirably impact the look and feel of your page. If you don't include the video title in the caption, consider adding it above the video as regular content, so it's searchable.
 :::
 
-### Tip #6: Link people's names to their profiles
+### Tip #6: AI images - include your prompt
 
-When you have someone's name in your caption, link their name to their profiles (e.g. [SSW People](https://ssw.com.au/people)).
+If you're sharing an AI generated image, show others how you made it.
 
 ::: greybox
-{{ VIDEO }}  
-**Figure: In this video, Bob talks about Outlook**
+{{ IMAGE }}\
+**Figure: An AI image of baseball player sliding**
 :::
 ::: bad
-Figure: Bad example - Using "Figure:" for a video caption + a vague text + no link
+Figure: Bad example - Doesn't educate others about AI images
 :::
 
 ::: greybox
-{{ VIDEO }}
+{{ IMAGE }}\
+**Figure: An AI image of baseball player sliding. Prompt: A realistic image of a baseball player sliding. The uniform is white and the crowd is cheering.**
+:::
+::: good
+Figure: Good example - Readers understand how you made the image, and they improve their own AI image skills by learning from your caption
+:::
+
+### Tip #7: Link people's names to their profiles
+
+When you have someone's name in your caption, link the name to their profiles (e.g. [SSW People profile](https://ssw.com.au/people)).
+
+::: greybox
+{{ VIDEO }}\
+**Video: In this video, Bob talks about Outlook**
+:::
+::: bad
+Figure: Bad example - A vague text with no link to Bob's profile. Also missing the video length
+:::
+
+::: greybox
+{{ VIDEO }}\
 **Video: How to search on Outlook by [Bob](https://ssw.com.au/people/sample) (2 min)**
 :::
 ::: good
-Figure: Good example - A descriptive caption including "Video: " prefix + profile link + video length at the end
+Figure: Good example - A descriptive caption using the video title + profile link + video length at the end
+:::
+
+### Tip #8: GIFs - Label accordingly
+
+Using a GIF instead of a static image can be beneficial for illustrating multiple steps, as it saves page space. Be sure to specify that it is a GIF in the caption to distinguish it from a static image
+
+::: greybox
+{{ GIF }}\
+**Figure: Users | Summary | User Information | LinkedIn URL**
+:::
+::: bad
+Figure: Bad example - Does not specificy that it is a GIF
+:::
+
+::: greybox
+{{ GIF }}\
+**Figure: Animated GIF - Users | Summary | User Information | LinkedIn URL**
+:::
+::: good
+Figure: Good example - Specificies that it is a GIF
 :::

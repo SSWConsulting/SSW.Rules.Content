@@ -1,4 +1,5 @@
 ---
+seoDescription: Leverage the ChatGPT API to revolutionize your applications with AI-driven language capabilities.
 type: rule
 title: Do you know how you can leverage the ChatGPT API?
 uri: leverage-chatgpt
@@ -32,4 +33,4 @@ There are [many different model types](https://labelbox.com/foundation-models/li
 9. **Financial Management Tools:** Integrate the API into your finance app for budget planning assistance, explaining complex financial terms, or even generating financial forecasts.
 10. **Mental Health Apps:** Use the API to guide mindfulness exercises, provide motivational messages, or suggest stress relief activities.
 11. **Travel Planning Applications:** Have the API generate itineraries, suggest interesting places, or provide information on local customs and etiquette.
-These examples only begin to explore the potential of the ChatGPT API. The key is to think creatively about how this powerful language model can be leveraged to meet your specific application needs.
+    These examples only begin to explore the potential of the ChatGPT API. The key is to think creatively about how this powerful language model can be leveraged to meet your specific application needs.

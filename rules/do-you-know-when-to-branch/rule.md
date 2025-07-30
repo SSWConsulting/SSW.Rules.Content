@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you know when to branch in TFS (aka TFVC)? Learn how to simplify your workflow and avoid merging hell by understanding when to create branches.
 type: rule
 title: Do you know when to branch in TFS (aka TFVC)?
 uri: do-you-know-when-to-branch
@@ -28,7 +29,7 @@ Keep things simple:
 **Note:** This rule only applies to TFVC. For git, see [Do you know when to branch in git?](/do-you-know-when-to-branch-in-git)
 :::
 
-Beware of smart bloggers giving the wrong advice 🙃 as many smart people like creating branches... E.g. [Guidance: A Branching strategy for Scrum Teams](https://nkdagility.com/blog/guidance-a-branching-strategy-for-scrum-teams/). Even Martin Fowler says there are a number of issues related to merging that lead us to try and minimise the number of branches that we work with in his article on [Feature Branches](https://martinfowler.com/bliki/FeatureBranch.html).
+Beware of smart bloggers giving the wrong advice 🙃 as many smart people like creating branches... E.g. [Guidance: A Branching strategy for Scrum Teams](https://nkdagility.com/resources/blog/guidance-a-branching-strategy-for-scrum-teams/). Even Martin Fowler says there are a number of issues related to merging that lead us to try and minimise the number of branches that we work with in his article on [Feature Branches](https://martinfowler.com/bliki/FeatureBranch.html).
 
 The quintessential scenario you need to support is that emergency _"Hey we have a security hole on the site and Hanselman has just tweeted it!"_
 
@@ -37,15 +38,15 @@ In that case you need to potentially update all of your branches and perform dep
 The better way is to use OctopusDeploy which relieves developers from having multiple branches because you only have to worry about building on one branch and deployment can be done automatically to multiple environments. Octopus provides more secure, feature-rich environment which makes it very easy to deploy and promote builds between environments.
 
 ::: good  
-![Figure: Good example - Manage deployments to multiple environments, view deployed versions.](2014-10-11\_18-54-00.png)  
+![Figure: Good example - Manage deployments to multiple environments, view deployed versions](2014-10-11_18-54-00.png)  
 :::
 
-### Why you should avoid branching
+## Why you should avoid branching
 
 1. Merging is painful, complex and is a time consuming task that does not add value
 2. Often regressions are introduced as merges are missed and not merged back to trunk
 3. The longer branches are, the more people that have worked on them... the more unpleasant the merge is going to be
-  Amount of pain = size of the change \* the amount of work on the trunk in that period
+   Amount of pain = size of the change \* the amount of work on the trunk in that period
 4. The more you need to create a branch, the harder it is going to be to merge it back into the trunk!
 5. Branching impedes refactoring
 
@@ -53,7 +54,7 @@ If a am working on a branch and perform sweeping renaming, and a developer worki
 
 This is **very** likely to happen on code bases that require tidying when you have developers who believe in improving code as they go (see the [Boy Scout rule](/follow-boy-scout-rule))
 
-### When it's OK to branch
+## When it's OK to branch
 
 * For a disposable, investigatory spike
 * To perform hotfixes to production environment
@@ -70,9 +71,9 @@ This is **very** likely to happen on code bases that require tidying when you ha
 ![Figure: Good example - Release Branching - always develop on the trunk, but create a new branch each time you release. This means that all developers are continually integrating all their code, branching is rare, but you always have access to your released version in case bug fixes or small mods are required. (Image from paulhammant.com)](branch-good.jpg)  
 :::
 
-#### Further reading
+### Further reading
 
 * [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
 * [Introducing Branch By Abstraction](https://paulhammant.com/blog/branch_by_abstraction.html)
-* [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)  
+* [FeatureBranch by Martin Fowler](https://martinfowler.com/bliki/FeatureBranch.html)
 * [SemanticConflict by Martin Fowler](https://martinfowler.com/bliki/SemanticConflict.html)

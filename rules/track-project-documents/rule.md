@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Teams is an ideal platform to store project documents due to its integration with SharePoint, real-time collaboration features, and seamless sharing capabilities.
 type: rule
 title: Files - Do you store project documents in Teams?
 uri: track-project-documents
@@ -23,6 +24,7 @@ created: 2018-07-30T01:05:40.000Z
 archivedreason: null
 guid: 0ae0371f-7ff3-47af-ac51-ea78ef41a459
 ---
+
 There is a myriad of options to choose from when storing and sharing documents: SharePoint, or OneDrive/Dropbox/Google Drive, or Microsoft Teams. The best choice is **Microsoft Teams** because it brings together the best of SharePoint, cloud file storage, real time collaboration and more into a single location.
 
 <!--endintro-->
@@ -45,7 +47,7 @@ Don't start searching from your start menu either for a program whether that be 
 ![Figure: Bad example - You shouldn't create files locally first and then copy them](teams - Not from start menu.png)
 :::
 
-Instead create your file in the Team for a start.  It is immediately backed up and shared to the entire Team.
+Instead create your file in the Team for a start. It is immediately backed up and shared to the entire Team.
 
 ::: good
 ![Figure: Good example - You can use the files tab in Teams (without leaving the app)](teams - file tab.png)
@@ -76,12 +78,12 @@ If you realise later that you have created a client document and uploaded it to 
 
 #### For developers
 
-* Code obviously belongs in GitHub, Azure DevOps, etc
-* The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
+- Code obviously belongs in GitHub, Azure DevOps, etc
+- The [8 important documents](/do-you-review-the-documentation) should be stored in Azure DevOps (was TFS/VSTS), or instead [use Markdown with the Wiki](/do-you-make-getting-started-on-a-project-easy-for-new-developers)
 
 #### For designers
 
-* For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
+- For large files, OneDrive is a better choice. See [the best Source Control for Designers](/do-you-know-the-best-source-control-for-designers)
 
 ### What about usernames and passwords?
 
@@ -94,10 +96,10 @@ Documents with usernames and passwords should not be stored in Microsoft Teams. 
 ::: info
 **Warning:** By using Teams instead of SharePoint, you are losing a number of key features:
 
-* No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
-* No support for private channels. E.g. You will need a team per subset of users with different permissions
-* No direct access to version history from Teams UI (still exists on SharePoint UI)
-* No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
-* No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
-* No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
-:::
+- No full fidelity support for Metadata in Document Libraries. E.g. Can’t add extra columns into the “Files” tab
+- No support for private channels. E.g. You will need a team per subset of users with different permissions
+- No direct access to version history from Teams UI (still exists on SharePoint UI)
+- No access to the cross-office365 Search feature. E.g. [SharePoint search is better](https://youtu.be/TiWzzdASVWE)
+- No access to external content in the search feature. E.g. Can’t search ssw.com.au/rules
+- No access to SharePoint designer workflows (although the new way to do it is Microsoft Flow)
+  :::

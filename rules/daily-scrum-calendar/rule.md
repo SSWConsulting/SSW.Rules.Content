@@ -1,4 +1,5 @@
 ---
+seoDescription: Centralized calendar simplifies finding Daily Scrum meetings across your company.
 type: rule
 title: Calendar - Do you use a centralized Daily Scrum calendar?
 uri: daily-scrum-calendar
@@ -14,6 +15,7 @@ related:
 created: 2023-02-17T05:45:00.501Z
 guid: 72f84b8a-c585-4436-8caa-6cb54dfb1320
 ---
+
 <!--StartFragment-->
 
 You should have a centralized calendar to easily find all your company's Daily Scrum meetings.

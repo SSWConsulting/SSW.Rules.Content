@@ -1,4 +1,5 @@
 ---
+seoDescription: Watch what's going on and take a hands-on approach to ensure your software development project stays on track.
 type: rule
 title: Watch - Do you know what is going on?
 uri: watch-do-you-know-what-is-going-on
@@ -11,7 +12,8 @@ created: 2010-05-20T09:58:31.000Z
 archivedreason: null
 guid: e9bcbcb7-3dd0-47c0-a7d2-879662c702fb
 ---
-We've all heard horror stories of tradesmen causing chaos: "I asked them to fix a tap, but after the sink broke we had to move out for 6 weeks while the carpet was dry-cleaned and new floor-boards were laid." This problem generally occurs after you have let the supplier have a free-for-all in your house while you're at work: "Just let yourself in, the keys under the mat, and get the job done".  
+
+We've all heard horror stories of tradesmen causing chaos: "I asked them to fix a tap, but after the sink broke we had to move out for 6 weeks while the carpet was dry-cleaned and new floor-boards were laid." This problem generally occurs after you have let the supplier have a free-for-all in your house while you're at work: "Just let yourself in, the keys under the mat, and get the job done".
 
 <!--endintro-->
 

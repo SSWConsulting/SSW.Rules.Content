@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to customize your Azure DevOps board styles using conditional formatting for enhanced visualization.
 type: rule
 title: Do you customize your DevOps board styles?
 uri: devops-board-styles

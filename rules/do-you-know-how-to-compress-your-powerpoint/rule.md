@@ -1,4 +1,5 @@
 ---
+seoDescription: Compress PowerPoint files from 26MB to 13MB by removing video from master slide, compressing images and font, and saving as a new file.
 type: rule
 title: Do you know how to compress your PowerPoint, e.g. from 26MB to 13MB?
 uri: do-you-know-how-to-compress-your-powerpoint
@@ -12,6 +13,7 @@ created: 2016-10-14T06:40:05.000Z
 archivedreason: null
 guid: 01d0f296-bd6a-4637-895e-62c3b9613a29
 ---
+
 Unfortunately, when you “Send As Email” it doesn’t compress the file; this is how to compress a PowerPoint for emailing.
 
 <!--endintro-->
@@ -44,9 +46,9 @@ This has been done in the 3.8 release of the template, but for old templates you
 
 ### Save as "YourFileName_compressed.pptx."
 
- Do not override your original. You should always keep a high-res master of any media document.
+Do not override your original. You should always keep a high-res master of any media document.
 
-If you find your files are still rather big after compression, you can export the PowerPoint to determine which particular slide is taking up all that space.        http://www.addictivetips.com/windows-tips/find-which-slide-in-your-powerpoint-presentation-is-the-largest-in-size/
+If you find your files are still rather big after compression, you can export the PowerPoint to determine which particular slide is taking up all that space. http://www.addictivetips.com/windows-tips/find-which-slide-in-your-powerpoint-presentation-is-the-largest-in-size/
 
 ### The result
 

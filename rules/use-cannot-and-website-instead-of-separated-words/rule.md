@@ -1,4 +1,5 @@
 ---
+seoDescription: Cannot and website should be written as one word instead of separated words.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/avoid-common-mistakes](/rules/avoid-common-mistakes)
 title: 'Do you use "cannot" and "website" instead of separated words?'
@@ -7,15 +8,14 @@ uri: use-cannot-and-website-instead-of-separated-words
 created: 2016-04-21T04:47:12.0000000Z
 authors: []
 related:
-- commas-and-full-stops-always-should-have-1-space-after-them
-- use-quotation-mark-for-controls
-- how-to-add-quotations
+  - commas-and-full-stops-always-should-have-1-space-after-them
+  - use-quotation-mark-for-controls
+  - how-to-add-quotations
 redirects:
-- tiny-do-you-use-cannot-and-website-instead-of-separated-words
-
+  - tiny-do-you-use-cannot-and-website-instead-of-separated-words
 ---
 
-Grammatically, all of them are acceptable spellings, but in these specific cases, one word is more usual. Refer to [AskOxford](http&#58;//www.oxforddictionaries.com/definition/english/cannot)for reference.
+Grammatically, all of them are acceptable spellings, but in these specific cases, one word is more usual. Refer to [AskOxford](http://www.oxforddictionaries.com/definition/english/cannot)for reference.
 
 Note: When there are two ways of doing something, we make a rule on it one way with the goal of having complete consistency.
 
@@ -37,4 +37,4 @@ You cannot change the world.
 Figure: Good example - using these terms in one word  
 :::
 
-We have a program called [SSW Code Auditor](https&#58;//www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.
+We have a program called [SSW Code Auditor](https://www.ssw.com.au/ssw/CodeAuditor/) to check for this rule.

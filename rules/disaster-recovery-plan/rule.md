@@ -1,6 +1,8 @@
 ---
 type: rule
 title: Do you have a disaster recovery plan?
+seoDescription: Develop a comprehensive disaster recovery plan to ensure
+  business continuity and minimize data loss during catastrophic incidents.
 uri: disaster-recovery-plan
 authors:
   - title: Warwick Leahy
@@ -9,7 +11,6 @@ authors:
     url: https://www.ssw.com.au/people/matt-goldman
   - title: Kaique Biancatti
     url: https://ssw.com.au/people/kaique-biancatti
-
 created: 2021-10-11T00:20:18.145Z
 guid: 0668c3fd-3946-42cc-8712-80a46712162d
 ---
@@ -31,7 +32,7 @@ RPO or Recovery Point Objective, is a measure of the maximum tolerable amount of
 
 #### RTO
 
-RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use.  This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required.
+RTO or Recovery Time Objective, is a measure of the amount of time after a disaster in which business operation is retaken, or resources are again available for use. This measurement determines the amount of resources that are required for the recovery to happen within the timeframe required.
 
 #### RPA
 
@@ -45,9 +46,9 @@ RTA or Recovery Time Actual, is the actual measurement of downtime during a disa
 **Note:** these may all be different for different services. For example at a bank you may have a transaction database, this may need to be only ever able to experience a RPA\RTA of a few minutes as even in that few minutes, thousands of transactions could be lost. However the same bank may have a website that they are happy to have an RTA\RPA of several hours as this is much less critical to the banks overall operation.
 :::
 
-### How to calculate these values?\*\*
+### How to calculate these values?
 
-RTO and RPO are determined via a consultation called BIA (Business Impact Analysis). The organization needs to work out what the maximum amount of data that they are prepared to lose and also the maximum amount of time that they are prepared to be without services. These are both measured in time, and could be seconds, minutes, hours or days depending on the organization's requirements. This is a balancing act as generally the shorter the timeframe required, the more resources the organisation will need in order to achieve the target.  
+RTO and RPO are determined via a consultation called BIA (Business Impact Analysis). The organization needs to work out what the maximum amount of data that they are prepared to lose and also the maximum amount of time that they are prepared to be without services. These are both measured in time, and could be seconds, minutes, hours or days depending on the organization's requirements. This is a balancing act as generally the shorter the timeframe required, the more resources the organisation will need in order to achieve the target.
 
 After this a disaster should be simulated to test that the RTA/RPA values match the RTO/RPO required by the organization.
 
@@ -78,7 +79,6 @@ After the recovery was complete they then analyzed the downtime which showed the
 After analyzing the data, they discovered a few issues with their Disaster Recovery Plan:
 
 1. They didn't have any spare hardware on premises which meant that to get the website backed up and running they needed to find a shop on a weekend to buy a server and then start the recovery process. This delayed them by an entire day.
-
 2. Mr Northwind's IT Manager had mistakenly set the backups to 12-hour backups (at midnight and midday each day). This meant that the most recent backup for both services had occurred at 12pm on Friday and they had 8 hours of missing transactions. The greatest allowable data loss should have only been 4 hours.
 
 **This explains why it is important to practice your disaster recovery plan.** A real incident is not the ideal time to realize that your backup/procedures are inadequate.

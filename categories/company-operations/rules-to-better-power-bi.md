@@ -6,6 +6,7 @@ uri: rules-to-better-power-bi
 index:
 - power-bi-visualizations
 - power-bi-choosing-the-right-visual
+- do-you-know-powerbi-version-control-features
 - do-you-use-version-control-with-power-bi
 - where-to-save-power-bi-reports
 - best-practices-around-colour

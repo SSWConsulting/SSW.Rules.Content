@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to create printable reports in web applications using SQL Server Reporting Services (SSRS) seamlessly in your MVC projects.
 type: rule
 archivedreason: 
 title: Do you know the best way to do printable reports?
@@ -21,13 +22,11 @@ Making reports on websites printable can be difficult. While there are CSS media
 
 <!--endintro-->
 
-
 ::: bad  
 ![Figure: Bad Example – The printed layout looks nothing like the HTML](print-reports-bad-2.png)  
 :::
 
 ![Figure: Beautiful PowerBI HTML report](print-reports-bad-3.png)  
-
 
 ::: bad  
 ![Figure: Bad example – PowerBI print preview scales everything down to fit on a page, you have no real control over how things flow onto multiple pages](print-reports-bad-4.png)  
@@ -61,7 +60,7 @@ Now you have your SSRS report in your MVC application.
 
 ![Figure: Export your report with the in-build SSRS functionality](16-06-2014 10-38-51 AM.png)  
 
-### When using Web-API the method above is difficult and time-consuming!
+### When using Web-API the method above is difficult and time-consuming
 
 ![](2015-04-29\_10-09-56-compressor.png)  
 

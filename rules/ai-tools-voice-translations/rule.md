@@ -1,13 +1,17 @@
 ---
+seoDescription: AI tools revolutionize voice and translation generation, but oversight is crucial to ensure accuracy
 type: rule
 title: "Do you know how to use AI tools to generate voices and translations? "
 uri: ai-tools-voice-translations
 authors:
   - title: Marcus Irmscher
     url: https://ssw.com.au/people/marcus-irmscher
+  - title: Ulysses Maclaren
+    url: https://www.ssw.com.au/people/ulysses-maclaren
 created: 2023-11-10T03:23:18.710Z
 guid: 11393539-d0b4-4c61-bf69-7aa98ecb5e36
 ---
+
 AI tools like [Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home), and [ElevenLabs](https://elevenlabs.io) are revolutionizing how we generate voices and translations. They can even create transcripts, making our lives a lot easier. But remember, with great power comes great responsibility!
 
 <!--endintro-->
@@ -24,9 +28,9 @@ AI tools like [Rask](https://app.rask.ai/auth), [Voice.ai](https://voice.ai/home
 
 **Video: Fix Your Website Chatbot! - English version (1min)**
 
-**Video: [Fix Your Website Chatbot! - French translation (1min)](https://youtube.com/shorts/NxhP6YyBEk8)**
+`youtube: https://www.youtube.com/embed/NxhP6YyBEk8`
 
-:::
+**Video: Fix Your Website Chatbot! - French translation (1min)**
 
 ## The Need for Oversight 👀
 

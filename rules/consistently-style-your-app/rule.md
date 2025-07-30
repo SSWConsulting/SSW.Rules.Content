@@ -1,38 +1,32 @@
 ---
+seoDescription: Learn how to consistently style your Xamarin app using Resource Dictionaries, CSS, or Visual for a cohesive branding experience.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use know how to consistently style your app?
 guid: 15901500-e40b-41c1-991d-59c70c892b4c
 uri: consistently-style-your-app
 created: 2020-10-08T22:50:48.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matt Goldman
-  url: https://ssw.com.au/people/matt-goldman
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matt Goldman
+    url: https://ssw.com.au/people/matt-goldman
 related: []
 redirects:
-- do-you-use-know-how-to-consistently-style-your-app
-
+  - do-you-use-know-how-to-consistently-style-your-app
 ---
 
 Branding is important in any product, and especially a mobile app. Xamarin offers several ways to define and ensure consistent styling throughout your app:
 
-
 <!--endintro-->
 
-
-
-* Resource Dictionaries
-* CSS
-* Visual
-
-
+- Resource Dictionaries
+- CSS
+- Visual
 
 ::: bad  
 ![Figure: Bad Example - same styling defined and repeated multiple times](xamarin-style-bad.png)  
 :::
-
 
 ::: good  
 ![Figure: Good Example - Styles defined once in resource dictionary and applied to controls](xamarin-style-good.png)  

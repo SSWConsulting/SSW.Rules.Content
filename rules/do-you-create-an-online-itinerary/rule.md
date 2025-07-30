@@ -1,4 +1,5 @@
 ---
+seoDescription: Create a seamless travel experience by consolidating flight, hotel, and car rental bookings into a single online itinerary with TripIt.
 type: rule
 title: Do you create an online itinerary when traveling?
 uri: do-you-create-an-online-itinerary
@@ -18,18 +19,20 @@ created: 2015-04-28T05:11:40.000Z
 archivedreason: null
 guid: 66c1fa86-8bea-4638-a4dc-15c3361292e8
 ---
+
 As well as sending details of bookings to the traveler's Outlook calendar, you should also use [tripit.com](https://www.tripit.com) to consolidate the details of bookings for flights, hotels, car rentals, etc.
 
 TripIt can make a single, easy-to-read online itinerary that can be viewed by anyone you choose to share the link with, making it easy to keep co-travelers, spouses, co-workers, and others in the loop.
 
 ::: greybox
 
- Adam Cogan loves TripIt and uses it every time he travels. He says:
+Adam Cogan loves TripIt and uses it every time he travels. He says:
 
 "TripIt tells you when there’s a delay, a gate change, your baggage info, or any other problems that might happen ...
 
 Plus, I share the flight with a bunch of people including those who are picking me up … so they get notified too"
 :::
+
 <!--endintro-->
 
 After joining tripit.com, forward a copy of each booking confirmation to [plans@tripit.com](mailto:plans@tripit.com) to store the details of upcoming journeys.

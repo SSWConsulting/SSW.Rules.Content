@@ -1,4 +1,5 @@
 ---
+seoDescription: After adding a rule on SharePoint, ensure accurate text content by checking for spelling and grammatical errors using Office Word's built-in tools, running Link Auditor to detect broken links, and repeatedly fixing errors until all green ticks are achieved
 type: rule
 archivedreason: Irrelevant since rules are now in GitHub
 title: After adding a rule on SharePoint - what steps should you take?
@@ -6,11 +7,10 @@ guid: a455bf0e-bd5c-41e2-9218-e42325860d6a
 uri: after-adding-a-rule-on-sharepoint-what-steps-should-you-take
 created: 2009-10-10T06:22:22.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
 To prevent spelling or grammatical errors in the text content of a rule, you should complete the following steps:
@@ -20,5 +20,6 @@ To prevent spelling or grammatical errors in the text content of a rule, you sho
 3. Check the report and fix the errors
 4. Check in the page and repeat steps 2-3 until Link Auditor has all green ticks (alternatively, you can use "Check my links" app of Google Chrome to find the broken links)
 
-We also have a rule: [Adding a rule in as px](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#StepsAfterAddRuleOnAspxPage)![](SPedit.jpg)**Figure: SharePoint as a content management system** 
+We also have a rule: [Adding a rule in as px](http://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterWebsitesDevelopment.aspx#StepsAfterAddRuleOnAspxPage)![](SPedit.jpg)**Figure: SharePoint as a content management system**
+
 <!--endintro-->

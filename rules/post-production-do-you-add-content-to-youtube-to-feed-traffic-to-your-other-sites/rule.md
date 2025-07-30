@@ -1,4 +1,5 @@
 ---
+seoDescription: Boost your video campaign by leveraging YouTube's massive audience and driving traffic to your other sites with bite-sized highlights clips.
 type: rule
 archivedreason: Old content. See the rule [https://www.ssw.com.au/rules/videos-youtube-friendly](/rules/videos-youtube-friendly) about having shorter videos over larger ones
 title: Post-Production - Do you add content to YouTube to feed traffic to your other sites?
@@ -8,7 +9,6 @@ created: 2011-11-08T22:49:11.0000000Z
 authors: []
 related: []
 redirects: []
-
 ---
 
 For most users, YouTube only allows a maximum length of 15 minutes on their videos. As such, if you have videos that are longer than 15 minutes, they will need to be uploaded to a video site that does allow longer video uploads, such as Wistia or Vimeo. The problem with doing this is that you aren’t harnessing the 2<sup>nd</sup> biggest search engine in the world to promote your content and without that, your video campaign isn’t reaching its full potential. The best way to solve this problem is to follow these steps:

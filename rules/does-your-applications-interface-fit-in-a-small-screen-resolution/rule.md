@@ -1,4 +1,5 @@
 ---
+seoDescription: Ensure your application interface fits on small screens by implementing responsive design principles.
 type: rule
 archivedreason: Replaced by [https://www.ssw.com.au/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design](/rules/design-web-pages-to-work-on-mobile-and-tablets-screens-aka-responsive-web-design)
 title: Does your application's interface fit in a small screen resolution?

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to take effective notes with metadata like date and name for better organization and easy retrieval.
 type: rule
 title: Do you know how to take effective notes?
 uri: take-effective-notes
@@ -7,6 +8,9 @@ authors:
     url: https://ssw.com.au/people/adam-cogan
 created: 2023-03-30T23:48:50.319Z
 guid: d96efe9b-8981-44d0-b22e-b41a7d173db8
+related:
+  - creating-action-items
+  - do-you-know-you-should-write-notes-when-an-activity-is-going 
 ---
 Taking effective notes is an important skill that can help you stay organized and remember important information. Whether you’re in a meeting with a client or jotting down tasks for your to-do list, it’s important to have a system in place for taking and organizing your notes.
 
@@ -27,6 +31,5 @@ Here are a few examples of how this can be done:
 ::: good
 ![Figure: Good Example - The phone contact notes have date and name followed by details](contact-notes.png)
 :::
-
 
 By following these tips and developing a system that works for you, you can take more effective notes that will help you stay organized and remember important information.

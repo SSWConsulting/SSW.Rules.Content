@@ -1,15 +1,17 @@
 ---
+seoDescription: Consistently placed slicers enhance user experience in Power BI reports by streamlining navigation and discovery.
 type: rule
 archivedreason:
 title: Do you place your slicers consistently?
 guid: dd6c259e-5fd9-4629-bfa5-dd7523975aac
 uri: do-you-place-your-slicers-consistently
 created: 2021-05-11T00:00:00.000Z
-authors: 
-- title: Ulysses Maclaren
-  url: https://ssw.com.au/people/ulysses-maclaren
+authors:
+  - title: Ulysses Maclaren
+    url: https://ssw.com.au/people/ulysses-maclaren
 related:
 ---
+
 It's tempting when you create a Power BI report to put slicers wherever they fit, but this can lead to an incosistent experience for users.
 
 <!--endintro-->

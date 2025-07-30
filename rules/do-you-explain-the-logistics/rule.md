@@ -1,4 +1,5 @@
 ---
+seoDescription: Understand event logistics, including break times and facilities, to ensure a seamless experience for attendees.
 type: rule
 title: Do you explain the event logistics?
 uri: do-you-explain-the-logistics
@@ -18,18 +19,19 @@ To ensure optimal focus and engagement from attendees, it is crucial to provide 
 
 Things to mention:
 
-* What time are the breaks?
-E.g. 
+- What time are the breaks?
+  E.g.
 
   ::: greybox
-  * Session 1 --> 09:00am - 11:00am  
-  * **Break** --> 11:00am – 11:20am
-  * Session 2 --> 11:20am – 12:30am
-  * **Lunch** --> 12:30am – 01:30pm
-  * Session 3 --> 01:30pm – 03:20pm
-  * **Break** --> 03:20pm – 03:40pm
-  * Session 4 --> 03:40pm – 05:00pm
-  :::
 
-* Where is the tea/coffee?
-* Where are the toilets?
+  - Session 1 --> 09:00am - 11:00am
+  - **Break** --> 11:00am – 11:20am
+  - Session 2 --> 11:20am – 12:30am
+  - **Lunch** --> 12:30am – 01:30pm
+  - Session 3 --> 01:30pm – 03:20pm
+  - **Break** --> 03:20pm – 03:40pm
+  - Session 4 --> 03:40pm – 05:00pm
+    :::
+
+- Where is the tea/coffee?
+- Where are the toilets?

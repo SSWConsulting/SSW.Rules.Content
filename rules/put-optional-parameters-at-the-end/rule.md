@@ -1,4 +1,5 @@
 ---
+seoDescription: When writing method signatures, it's best to place optional parameters at the end, as they tend to be less important and should follow more crucial parameters like first name and last name.
 type: rule
 title: Do you put optional parameters at the end?
 uri: put-optional-parameters-at-the-end
@@ -12,6 +13,7 @@ created: 2018-04-26T23:44:44.000Z
 archivedreason: null
 guid: 319aec53-73ec-4049-8d58-8d0bd84fc246
 ---
+
 Optional parameters should be placed at the end of the method signature as optional ones tend to be less important. You should put the important parameters first.
 
 <!--endintro-->
@@ -21,7 +23,7 @@ public void SaveUserProfile(
   [Optional] string username,
   [Optional] string password,
   string firstName,
-  string lastName, 
+  string lastName,
   [Optional] DateTime? birthDate
 ) {}
 ```
@@ -33,7 +35,7 @@ Figure: Bad example - Username and Password are optional and first - they are le
 ```csharp
 public void SaveUserProfile(
   string firstName,
-  string lastName, 
+  string lastName,
   [Optional] string username,
   [Optional] string password,
   [Optional] DateTime? birthDate

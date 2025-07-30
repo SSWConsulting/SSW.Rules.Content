@@ -1,17 +1,17 @@
 ---
+seoDescription: Avoid using a single chart when you need it to be scaled, instead use an embedded chart within the table for dynamic chart lists.
 type: rule
 archivedreason:
 title: Data Layout - Do you avoid using a single chart when you need it to be scaled?
 guid: 85eec401-261c-4054-82eb-f73c9d951160
 uri: avoid-using-single-chart-when-scaled
 created: 2023-12-11T14:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 <!--endintro-->

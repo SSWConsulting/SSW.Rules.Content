@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to craft a compelling product pitch in under 60 seconds with this practical guide
 type: rule
 title: Do you know how to pitch a product?
 uri: pitch-a-product

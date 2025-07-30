@@ -12,9 +12,8 @@ index:
 - do-you-make-sure-all-of-your-nodes-are-all-domain-controllers
 - do-you-use-a-microsoft-supported-network-setup-for-hyper-v-clustering
 - do-you-use-group-policy-to-apply-settings-to-all-of-your-cluster-nodes
-- do-your-network-cards-to-the-latest-driver
+- update-network-cards-to-the-latest-driver
 - do-you-first-get-your-cluster-and-san-going
-
 ---
- 
 
+To enhance your Hyper-V clustering setup, ensure you disable NetBIOS on dedicated adapters, give your network adapters meaningful names, and segregate iSCSI and cluster networks on their own VLANs or switches. Additionally, specify a network for Live Migration and utilize a Microsoft-supported network setup for optimal performance.

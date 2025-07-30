@@ -1,17 +1,17 @@
 ---
+seoDescription: Unlock the secrets of YouTube's most important metrics, including session time, watch time, pattern interrupts, CTR, and audience retention.
 type: rule
-archivedreason: 
-title: Do you know the important YouTube vocabulary?
+archivedreason:
+title: Analytics - Do you know the important YouTube vocabulary?
 guid: 6aaa0879-ba3c-481c-9dba-85cfe6fd43ec
 uri: important-youtube-vocabulary
 created: 2018-05-21T00:23:40.0000000Z
 authors:
-- title: Camilla Rosa Silva
-  url: https://ssw.com.au/people/camilla-rosa-silva
+  - title: Camilla Rosa Silva
+    url: https://ssw.com.au/people/camilla-rosa-silva
 related: []
 redirects:
-- do-you-know-the-important-youtube-vocabulary
-
+  - do-you-know-the-important-youtube-vocabulary
 ---
 
 They are a few important terms you need to know and remember when using YouTube to make sure your content will "fit" the site better.

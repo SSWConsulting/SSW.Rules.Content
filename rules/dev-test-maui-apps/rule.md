@@ -1,4 +1,5 @@
 ---
+seoDescription: Test .NET MAUI apps on different devices to ensure compatibility and user experience across multiple platforms and versions.
 type: rule
 archivedreason:
 title: Testing - Do you test .NET MAUI apps on different devices?
@@ -8,9 +9,8 @@ created: 2023-07-02T23:23:51Z
 authors:
   - title: Vlad Kireyev
     url: https://www.ssw.com.au/people/vlad-kireyev
-related: 
-- dev-mobile-device-policy
-- 
+related:
+  - dev-mobile-device-policy
 ---
 
 .NET MAUI (Multi-platform App UI) is a framework that enables developers to create cross-platform applications for different devices efficiently. However, the efficiency of this framework could mean nothing if the developed apps are not tested on various devices, especially the older once.

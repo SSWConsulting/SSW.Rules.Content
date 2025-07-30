@@ -1,4 +1,5 @@
 ---
+seoDescription: Optimise your website favicon to ensure a seamless user experience across all devices. (Note - I've kept it concise, included primary keywords, and matched the description with what users are searching for. Let me know if you need any further adjustments!)
 type: rule
 archivedreason:
 title: Do you optimise your website favicon?
@@ -6,10 +7,9 @@ guid: df8d34e2-89c9-4a97-be6c-70f473890bdd
 uri: optimise-favicon
 created: 2023-07-28T12:00:00.0000000Z
 authors:
-- title: Jack Reimers
-  url: https://ssw.com.au/people/jack-reimers
-related:
--
+  - title: Jack Reimers
+    url: https://ssw.com.au/people/jack-reimers
+related: []
 ---
 
 Favicons are more than just a single icon, and they require proper optimisation to display correctly on all devices.

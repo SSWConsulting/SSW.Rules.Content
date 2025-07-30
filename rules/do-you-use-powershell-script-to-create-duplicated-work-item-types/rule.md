@@ -1,16 +1,16 @@
 ---
+seoDescription: Do you create duplicated work item types using PowerShell scripts to efficiently configure different department access and minor variations?
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use PowerShell script to create duplicated work item types?
 guid: 966ffc8c-7734-4557-8511-75e80e9b67c8
 uri: do-you-use-powershell-script-to-create-duplicated-work-item-types
 created: 2012-07-18T07:41:10.0000000Z
 authors:
-- title: Lei Xu
-  url: https://ssw.com.au/people/lei-xu
+  - title: Lei Xu
+    url: https://ssw.com.au/people/lei-xu
 related: []
 redirects: []
-
 ---
 
 Sometimes you will need to create duplicate work item types, e.g. a task work item may be clones as PlatformDepTask, SystemDepTask; both of these task work items are sharing the same fields, workflow or layouts, but they are configured to be accessible by different department or there is some other minor differences.
@@ -24,7 +24,6 @@ You should create a WIT template and use a place holder for the difference, e.g.
 ```
 
 **Figure: WIT template with a placeholdera**
-
 
 <!--endintro-->
 
@@ -43,6 +42,7 @@ $destination\_file =  '..\WorkItem Tracking\TypeDefinitions\Task\_SystemDep.xml
    $\_ -replace "xxxxDepNamexxxx", "SystemDep"
    } | Set-Content $destination\_file -Encoding UTF8
 ```
+
 **Figure: PowerShell script to create duplicate WITs and replace the place holder with actual data**
 
 ::: info

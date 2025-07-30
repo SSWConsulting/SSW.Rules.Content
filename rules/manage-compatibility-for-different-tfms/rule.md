@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to manage compatibility between different Target Framework Monikers (TFMs) using #if pragma statements and MSBuild conditions for efficient migrations.
 type: rule
 title: Do you know how to manage compatibility between different Target Framework Monikers (TFMs)?
 uri: manage-compatibility-for-different-tfms

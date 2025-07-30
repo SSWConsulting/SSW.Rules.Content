@@ -1,16 +1,16 @@
 ---
+seoDescription: Gated checkins mask dysfunction and hinder high-functioning teams, instead creating an environment where developers feel forced to work inefficiently.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know that gated checkins mask dysfunction?
 guid: 72d53450-adcc-4e4f-a993-729a7bc73a29
 uri: do-you-know-that-gated-checkins-mask-dysfunction
 created: 2012-11-01T15:15:53.0000000Z
 authors:
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
 ---
 
 Gated checkins are used to stop developers from checking in bad code and breaking the build.
@@ -51,14 +51,12 @@ After a round table discussion about becoming better programmers and building be
 3. If someone is asked for help, they will gladly share their knowledge to ensure that the quality of the project is maintained ,and the team help each other to become better developers.
 4. Before checking in, the devs will compile and run all tests.
 5. If someone checks in and does break the build, they will call out to all members of the team that the build is broken so that no-one gets latest.
-They will fix the build IMMEDIATELY, and then call out again when it is fixed.
-(Some teams have a rule that if you break the build three times you have to shout coffee / lunch).
-6. The team agrees that you don’t go home if the build isn’t green. 
-If it comes to the end of the day and you are not sure your code will not break the build – do not checkin. Create a shelveset and resolve the issue properly the next day.
+   They will fix the build IMMEDIATELY, and then call out again when it is fixed.
+   (Some teams have a rule that if you break the build three times you have to shout coffee / lunch).
+6. The team agrees that you don’t go home if the build isn’t green.
+   If it comes to the end of the day and you are not sure your code will not break the build – do not checkin. Create a shelveset and resolve the issue properly the next day.
 
-If you have checked in, the build is broken, and you cannot fix it before going home, you must email all devs on the team, and the Product Owner with an explanation.
-7. The status of the build is reviewed in every Daily Scrum.
-
+If you have checked in, the build is broken, and you cannot fix it before going home, you must email all devs on the team, and the Product Owner with an explanation. 7. The status of the build is reviewed in every Daily Scrum.
 
 :::
 ::: good
@@ -71,9 +69,9 @@ You may not follow this rule when working on small teams of awesome devs, who wr
 
 Instead it is encouraged the process to be:
 
-* Checkin 4-5 times a day
-* Write lots of tests
-* If the tests that you are working against pass- checkin and let the build server do a full compile and run all the tests
-* If you have broken the build, call it out, fix it immediately and then call it out again.
+- Checkin 4-5 times a day
+- Write lots of tests
+- If the tests that you are working against pass- checkin and let the build server do a full compile and run all the tests
+- If you have broken the build, call it out, fix it immediately and then call it out again.
 
 This is the most productive way for small teams of awesome developers to produce great code... and it's fun !

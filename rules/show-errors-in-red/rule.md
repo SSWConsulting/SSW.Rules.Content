@@ -1,4 +1,5 @@
 ---
+seoDescription: Show errors in red to improve readability and user experience in SQL Reporting Services (RS) reports.
 type: rule
 title: Layout - Do you show errors in red?
 uri: show-errors-in-red
@@ -27,7 +28,7 @@ How evident are the error messages on the 1st report below?
 ![Figure: Good example - Use a customized textbox and icon to show the error message in red](RSErrorMessageT2.jpg)
 :::
 
-Reporting Services allows you to set the 'NoRows' property of a table control to warn your user when there is no data available. This is similar to handle the 'NoData event' in Access report but there is no advanced control on this message, not even a Color property - this has not been improved in RS2005, see our [Better Software Suggestions page](https://www.ssw.com.au/ssw/Standards/Rules/RulesToBetterSQLReportingServices.aspx#Subscription).
+Reporting Services allows you to set the 'NoRows' property of a table control to warn your user when there is no data available. This is similar to handle the 'NoData event' in Access report but there is no advanced control on this message, not even a Color property - this has not been improved in RS2005, see our [Better Software Suggestions page](https://www.ssw.com.au/archive/standards/rules/rules-to-better-sql-reporting-services.html#Subscription).
 
 ![Figure: NoRow property of Table control only allow simple string](RSErrorMessageT3.jpg)
 
@@ -37,7 +38,7 @@ Here's how to add a custom "NoData" textbox with a red icon to your report:
 
 2. Drop a textbox into the rectangle and give it the value **No records were found matching your criteria. Please modify your parameters and try again.**
 
-3. Add an Image control next to it. Use [this error icon](https://www.ssw.com.au/ssw/Images/ErrorMessage/fatal_error_info.gif). This opens in a New Window as the Image (add it to your Images folder in your solution and reference it like **Images/fatal_error_info.gif**). Your report will now look similar to the one below.
+3. Add an Image control to it. This opens in a New Window as the Image (add an error icon ❌ to your Images folder in your solution and reference it like **Images/fatal_error_info.gif**). Your report will now look similar to the one below.
 
    ![Figure: Adding a custom error message to your report](RSErrorMessageT4.gif)
 

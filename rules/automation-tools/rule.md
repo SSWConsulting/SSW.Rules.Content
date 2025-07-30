@@ -1,4 +1,5 @@
 ---
+seoDescription: Automate your processes efficiently with Power Automate, Azure Logic Apps, and Azure Functions, offering various connectors, custom integrations, and DevOps capabilities for seamless workflow management.
 type: rule
 title: Do you use the right tool to automate your processes?
 uri: automation-tools
@@ -16,7 +17,8 @@ authors:
 created: 2022-05-26T02:02:31.620Z
 guid: 27675645-003e-4199-aa57-cdcb2182af48
 ---
-::: img-medium 
+
+::: img-medium
 ![Figure: The power of Power Automate](power-automate-logo.png)
 :::
 
@@ -64,7 +66,7 @@ However, once the logic gets complex or you need to integrate with custom system
 
 ### Azure Logic Apps
 
-Azure Logic Apps are a really awesome way to integrate different systems and transfer data. Azure Logic Apps take integration to another level, by providing all the same connectors as Power Automate + tonnes more. 
+Azure Logic Apps are a really awesome way to integrate different systems and transfer data. Azure Logic Apps take integration to another level, by providing all the same connectors as Power Automate + tonnes more.
 
 You can also configure RBAC for Azure Logic Apps providing extra security control.
 
@@ -92,17 +94,17 @@ By now, your head might be spinning wondering what are the advantages and disadv
 | -------------------------------------- | -------------- | -------------------- | ---------------------------------- | --------------- |
 | Pricing                                | Per User       | Per Action or Hosted | Consumption (CPU/Memory) or Hosted | Customisable    |
 | Target Users                           | End Users      | IT Pros              | Developers and IT Pros             | Developers      |
-| Built-In packaging for easy deployment | ✅              | ❌                    | ❌                                  | ❌               |
-| Quick To Spin-up                       | ✅              | ✅                    | ❌                                  | ❌               |
-| Heaps of built-in Connectors           | ✅              | ✅                    | ❌                                  | ❌               |
-| No Coding Required                     | ✅              | ✅                    | ❌                                  | ❌               |
-| Built-in Triggers                      | ✅              | ✅                    | ✅                                  | ❌               |
-| Vendor Agnostic                        | ❌              | ✅                    | ✅                                  | ✅               |
-| Fully Customisable DevOps              | ❌              | ✅                    | ✅                                  | ✅               |
-| Robust Source Control                  | ❌              | 🟠*                  | ✅                                  | ✅               |
-| Smooth Debugging Experience            | ❌              | ❌                    | ✅                                  | ✅               |
-| Easy Mathematical Manipulation         | ❌              | ❌                    | ✅                                  | ✅               |
-| Easy Modularization and Refactoring    | ❌              | ❌                    | ✅                                  | ✅               |
-| Easy Logic Flows and Looping           | ❌              | ❌                    | ✅                                  | ✅               |
+| Built-In packaging for easy deployment | ✅             | ❌                   | ❌                                 | ❌              |
+| Quick To Spin-up                       | ✅             | ✅                   | ❌                                 | ❌              |
+| Heaps of built-in Connectors           | ✅             | ✅                   | ❌                                 | ❌              |
+| No Coding Required                     | ✅             | ✅                   | ❌                                 | ❌              |
+| Built-in Triggers                      | ✅             | ✅                   | ✅                                 | ❌              |
+| Vendor Agnostic                        | ❌             | ✅                   | ✅                                 | ✅              |
+| Fully Customisable DevOps              | ❌             | ✅                   | ✅                                 | ✅              |
+| Robust Source Control                  | ❌             | 🟠\*                 | ✅                                 | ✅              |
+| Smooth Debugging Experience            | ❌             | ❌                   | ✅                                 | ✅              |
+| Easy Mathematical Manipulation         | ❌             | ❌                   | ✅                                 | ✅              |
+| Easy Modularization and Refactoring    | ❌             | ❌                   | ✅                                 | ✅              |
+| Easy Logic Flows and Looping           | ❌             | ❌                   | ✅                                 | ✅              |
 
 \* Has source control, but it isn't as smooth as traditional code

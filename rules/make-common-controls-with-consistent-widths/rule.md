@@ -1,4 +1,5 @@
 ---
+seoDescription: Make common controls consistent by standardizing widths to ensure a cohesive user experience.
 type: rule
 title: Do you make common controls with consistent widths?
 uri: make-common-controls-with-consistent-widths
@@ -31,11 +32,12 @@ There are a few common controls we always use in our products. For example, Date
 ![Figure: Good example - Standard size for Add & Delete buttons](adddeletegood.gif)
 :::
 
-We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/Rules.aspx#CommonControl) to check for the following two rules: 
+We have a program called [SSW Code Auditor](https://ssw.com.au/ssw/CodeAuditor/Rules.aspx#CommonControl) to check for the following two rules:
 
 **Rule - C#/VB.NET UI- Button Height and Width - for Standard Button (75 x 23 pixels)**
-- **Level 2:** All buttons \< 6 characters:** Check the standard size (75 X 23 pixels) for buttons with the word length less than or equal to six characters, except the following buttons. 
-- **Level 1:** The action buttons:** Check the standard size (75 X 23 pixels) for the following action buttons:
+
+- **Level 2:** All buttons \< 6 characters:\*\* Check the standard size (75 X 23 pixels) for buttons with the word length less than or equal to six characters, except the following buttons.
+- **Level 1:** The action buttons:\*\* Check the standard size (75 X 23 pixels) for the following action buttons:
 
   - Add
   - Delete

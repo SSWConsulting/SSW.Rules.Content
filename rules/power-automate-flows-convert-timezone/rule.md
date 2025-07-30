@@ -1,4 +1,5 @@
 ---
+seoDescription: Mastering Power Automate flows requires correct timezone usage to avoid complex calculations, daylight saving time issues and user confusion.
 type: rule
 title: Do you know how to use correct timezone in your Power Automate flows?
 uri: power-automate-flows-convert-timezone
@@ -16,13 +17,13 @@ However, there are situations where using your local timezone might be more appr
 
 <!--endintro-->
 
+❌ **Complex time zone calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
+❌ **Daylight saving time issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
+❌ **Confusing user experience** - In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time
+
 ::: bad
 ![Figure: Bad example - Comparing Datetime in default timezone: UTC with UTC](comparing-timedate-without-converting.png)
 :::
-
-❌ **Complex Time Zone Calculations** - Handling time zone conversions manually can become cumbersome, especially when dealing with events and meetings across multiple time zones
-❌ **Daylight Saving Time Issues** - While UTC doesn't observe daylight saving time, your local timezone might. This can lead to confusion and scheduling problems when your local time changes
-❌ **User Experience** - In user-facing applications, presenting times in UTC without local context can be confusing for end-users who expect times in their local time
 
 So to convert it to the correct timezone, you can use built-in expression in your flow:
 

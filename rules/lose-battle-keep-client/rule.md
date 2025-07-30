@@ -1,4 +1,5 @@
 ---
+seoDescription: Winning an argument may be satisfying, but it's crucial to prioritize keeping a good client even when you don't see eye-to-eye.
 type: rule
 title: Do you know that it's bad to win the argument but lose the client?
 uri: lose-battle-keep-client
@@ -18,6 +19,7 @@ created: 2010-07-16T06:49:58.000Z
 archivedreason: null
 guid: d41db2e6-32e1-4617-a15d-3e1fdcd1a0f2
 ---
+
 The impulse to win an argument and prove that you are right can be a strong driving force, but it goes without saying that it should not take priority over keeping a good client.
 
 `youtube: https://www.youtube.com/embed/SvGK7Cpw5mQ`

@@ -1,4 +1,5 @@
 ---
+seoDescription: Follow established standard naming conventions for tests to ensure a consistent and organized approach to testing, allowing for efficient and clear testing procedures.
 type: rule
 title: Do you follow the standard naming conventions for tests?
 uri: the-standard-naming-conventions-for-tests
@@ -20,26 +21,26 @@ Ensuring a consistent and organized approach to testing is pivotal in any develo
 > This navigates between your tests and code under test (and back). This is something that test-driven developers end up doing a lot.
 > Screen captures at <https://weblogs.asp.net/nunitaddin/testdriven-net-3-0-all-systems-go>
 >
-> * Jamie Cansdale
+> - Jamie Cansdale
 
 <!--endintro-->
 
-| **Test Object**  | **Recommended Style**  | **Example**  |
-| --- | --- | --- |
-| Project Name | Tests.[Testtypes].Projectname | Tests.Unit.Common,Tests.Unit.WebFrontend,Test.Integration.MainWCFService
-Tests.Functional.SilverlightUI, Tests.Functional.WebUI \* |
-| Test Fixture Name | [Type]Tests | OrdersTests, CustomerTests, DeveloperTests |
-| Test Case | [Function]Test | NullableIntTryParse\_NumberIsValid1\_Return1, StringHelperEncodeTo64\_EncodeAndUnencodeString\_ReturnSameString |
-| Set Up | SetUp |   |
-| Tear Down | TearDown |   |
+| **Test Object**                                           | **Recommended Style**         | **Example**                                                                                                 |
+| --------------------------------------------------------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Project Name                                              | Tests.[Testtypes].Projectname | Tests.Unit.Common,Tests.Unit.WebFrontend,Test.Integration.MainWCFService                                    |
+| Tests.Functional.SilverlightUI, Tests.Functional.WebUI \* |
+| Test Fixture Name                                         | [Type]Tests                   | OrdersTests, CustomerTests, DeveloperTests                                                                  |
+| Test Case                                                 | [Function]Test                | NullableIntTryParse_NumberIsValid1_Return1, StringHelperEncodeTo64_EncodeAndUnencodeString_ReturnSameString |
+| Set Up                                                    | SetUp                         |                                                                                                             |
+| Tear Down                                                 | TearDown                      |                                                                                                             |
 
 \* Test types are categorized into "Unit" "Integration" or "Functional" tests, as explained in "[the different types of test you can have](/different-types-of-testing)"
 
 The main reason why we are categorizing tests is so that we can run different test suites. Eg.
 
-* Unit tests on Gated Checkin
-* Integration tests after each check in on the build server
-* All tests including the functional tests in the nightly build
+- Unit tests on Gated Checkin
+- Integration tests after each check in on the build server
+- All tests including the functional tests in the nightly build
 
 #### Samples for Naming of test projects
 
@@ -90,8 +91,8 @@ namespace SSW.NETToolkit.IntegrationTests
   [TestFixture]
   Public class CustomerTests
     {
-    BusinessRules business=new BusinessRules(); 
-   
+    BusinessRules business=new BusinessRules();
+
     [Test]
     public void OrderTotal_SimpleExampleInput()
         {
@@ -114,14 +115,14 @@ namespace SSW.NETToolkit.IntegrationTests
     [Test]
     public void RoundingTest_RoundDown()
         {
-        Assert.AreEqual(149.02, business.ApplyRounding(149.0232m), "Incorrect rounding rules applied 
-   
+        Assert.AreEqual(149.02, business.ApplyRounding(149.0232m), "Incorrect rounding rules applied
+
         }
     [Test]
     public void RoundingTest_NoRoundingNeeded()
         {
-        Assert.AreEqual(149.02, business.ApplyRounding(149.02m), "Incorrect rounding rules applied for 
-   
+        Assert.AreEqual(149.02, business.ApplyRounding(149.02m), "Incorrect rounding rules applied for
+
         }
     [Test]
     public void RoundingTest_BorderCondition()
@@ -132,10 +133,10 @@ namespace SSW.NETToolkit.IntegrationTests
   }
 ```
 
-![Figure: This rule is consistent with the Visual Studio default](TestGenerationSettings.gif)  
+![Figure: This rule is consistent with the Visual Studio default](TestGenerationSettings.gif)
 
 **Tip:** You can create a test project using the Unit Test Wizard: Test &gt; Add New Test
 
-![Figure: Unit Test Wizard 1](AddNewTest.gif)  
+![Figure: Unit Test Wizard 1](AddNewTest.gif)
 
 ![Figure: Unit Test Wizard 2](CreateUnitTests.gif)

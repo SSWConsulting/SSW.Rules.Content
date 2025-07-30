@@ -1,4 +1,5 @@
 ---
+seoDescription: Control4 project creation involves connecting the controller, adding devices, creating rooms and scenes, programming the system, and testing and troubleshooting.
 type: rule
 title: Do you know the Control4 Project Creation stages and steps?
 uri: control4-project-creation-steps
@@ -7,7 +8,6 @@ authors:
     url: https://ssw.com.au/people/kaique-biancatti
 created: 2023-04-03T04:46:31.864Z
 guid: b6c51e04-ecd6-47de-85b7-151b3f4e3c93
-
 ---
 
 Control4 is a home automation system that allows you to control devices in your home from a single platform.
@@ -99,14 +99,14 @@ Determine which devices are your endpoints in each room.
 **Step 15: Interact with the client**  
 An iterative process where the installer works together with the client to give them the best interface and home experience.
 
-* **Navigator Configuration**  
+- **Navigator Configuration**  
   Configure the Control4 app and screens to give the expected and best experience to the client.
 
-* **Driver Connections**  
+- **Driver Connections**  
   Connect drivers and loads together to seamslessly automate the building.
 
-* **Agents**  
+- **Agents**  
   Use agents to extend Control4 functionality.
 
-* **Programming**
+- **Programming**
   Program and design the automation and interactions.

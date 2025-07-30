@@ -1,4 +1,5 @@
 ---
+seoDescription: DNS, a hierarchical system, resolves domain names to IP addresses through complex interactions between your computer, DNS servers, and web servers.
 type: rule
 title: Do you know what DNS is and how it works?
 uri: what-is-dns
@@ -58,10 +59,10 @@ Each of these steps involves complex interactions between your computer, various
 
 Domain names are structured hierarchically, with the right-most component being the top-level domain (TLD). In the domain name `www.ssw.com.au`:
 
-* `.au` is the country-code top-level domain (ccTLD) for Australia
-* `com.au` is considered a second-level domain within the `.au` ccTLD. It's commonly used by commercial entities in Australia
-* `ssw.com.au` is a domain registered by an entity (in this case, SSW) within the `com.au` space
-* `www.ssw.com.au` includes a subdomain (www) of the `ssw.com.au` domain
+- `.au` is the country-code top-level domain (ccTLD) for Australia
+- `com.au` is considered a second-level domain within the `.au` ccTLD. It's commonly used by commercial entities in Australia
+- `ssw.com.au` is a domain registered by an entity (in this case, SSW) within the `com.au` space
+- `www.ssw.com.au` includes a subdomain (www) of the `ssw.com.au` domain
 
 ### How DNS Knows `com.au` is a TLD
 
@@ -85,14 +86,14 @@ In summary, DNS distinguishes between different levels of domains through its hi
 
 In the context of DNS (Domain Name System), a "type" refers to the kind of DNS record in a DNS server's database, here are some common ones:
 
-| Type                                  | Function                                                  | Common Example                                   |
-|---------------------------------------|-----------------------------------------------------------|--------------------------------------------------|
-| **Address Record (A)**                | Maps a domain to an IPv4 address                          | `example.com` maps to `93.184.216.34`            |
-| **IPv6 Address Record (AAAA)**        | Maps a domain to an IPv6 address                          | `example.com` maps to `2606:2800:220:1:248:1893:25c8:1946` |
-| **Canonical Name Record (CNAME)**     | Maps a domain to another domain name (aliasing)           | `www.example.com` aliases to `example.com`       |
-| **Mail Exchange Record (MX)**         | Specifies mail servers for a domain                       | `example.com` mail handled by `mail.example.com` |
-| **Name Server Record (NS)**           | Delegates a subdomain to a set of name servers            | `sub.example.com` delegated to `ns1.example.com` |
-| **Pointer Record (PTR)**              | Maps an IP address to a domain (reverse DNS)              | `34.216.184.93` reverses to `example.com`        |
-| **Start of Authority Record (SOA)**   | Stores administrative information about a zone            | `example.com` SOA record indicates `ns1.example.com` as primary NS |
-| **Service Locator Record (SRV)**      | Specifies services available in a domain                  | `_sip._tcp.example.com` points to SIP server at `sipserver.example.com` port 5060 |
-| **Text Record (TXT)**                 | Holds text information for external sources to read       | `example.com` uses a TXT record for SPF: `"v=spf1 include:_spf.example.com ~all"` |
+| Type                                | Function                                            | Common Example                                                                    |
+| ----------------------------------- | --------------------------------------------------- | --------------------------------------------------------------------------------- |
+| **Address Record (A)**              | Maps a domain to an IPv4 address                    | `example.com` maps to `93.184.216.34`                                             |
+| **IPv6 Address Record (AAAA)**      | Maps a domain to an IPv6 address                    | `example.com` maps to `2606:2800:220:1:248:1893:25c8:1946`                        |
+| **Canonical Name Record (CNAME)**   | Maps a domain to another domain name (aliasing)     | `www.example.com` aliases to `example.com`                                        |
+| **Mail Exchange Record (MX)**       | Specifies mail servers for a domain                 | `example.com` mail handled by `mail.example.com`                                  |
+| **Name Server Record (NS)**         | Delegates a subdomain to a set of name servers      | `sub.example.com` delegated to `ns1.example.com`                                  |
+| **Pointer Record (PTR)**            | Maps an IP address to a domain (reverse DNS)        | `34.216.184.93` reverses to `example.com`                                         |
+| **Start of Authority Record (SOA)** | Stores administrative information about a zone      | `example.com` SOA record indicates `ns1.example.com` as primary NS                |
+| **Service Locator Record (SRV)**    | Specifies services available in a domain            | `_sip._tcp.example.com` points to SIP server at `sipserver.example.com` port 5060 |
+| **Text Record (TXT)**               | Holds text information for external sources to read | `example.com` uses a TXT record for SPF: `"v=spf1 include:_spf.example.com ~all"` |

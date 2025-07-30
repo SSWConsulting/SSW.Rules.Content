@@ -1,4 +1,5 @@
 ---
+seoDescription: Master your email management and turn your inbox into a powerful tool for efficient communication and task tracking.
 type: rule
 archivedreason: duplicated content from Rules to Better Email intro
 title: Do you manage your email?
@@ -6,17 +7,13 @@ guid: 1350c300-a59e-4cff-82d4-bf187f8ba825
 uri: do-you-manage-your-email
 created: 2009-03-10T08:49:45.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
 related: []
 redirects: []
-
 ---
 
-Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Having hundreds of emails in your Inbox is not uncommon. But it's very uncommon to find people who successfully manage their Inbox. Instead, they let their Inbox become a great black hole with no business value. Email has a bad name in business primarily because people don't treat email correctly. 
-
-
-
+Often emails are rambling and unorganized, forcing the reader to wade through blocks of totally useless text. When it comes to written communication, less is more. Having hundreds of emails in your Inbox is not uncommon. But it's very uncommon to find people who successfully manage their Inbox. Instead, they let their Inbox become a great black hole with no business value. Email has a bad name in business primarily because people don't treat email correctly.
 
 <!--endintro-->
 

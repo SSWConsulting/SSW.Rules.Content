@@ -1,4 +1,5 @@
 ---
+seoDescription: Foster a culture of relentless improvement to drive innovation and efficiency in your organization, leading to long-term success.
 type: rule
 title: Do you foster a culture of relentless improvement?
 uri: foster-a-culture-of-relentless-improvement
@@ -14,6 +15,7 @@ created: 2023-10-13T17:53:00.000Z
 archivedreason: null
 guid: 3f74f7c0-2db9-4dc6-96a4-dbddca7fa5bd
 ---
+
 Your teams are ticking all the right boxes, delivering on their commitments efficiently. But beneath this smooth operation, there's a subtle yet crucial challenge emerging: the pace of innovation is dwindling, and a sense of complacency is settling in. In such times, merely maintaining the status quo isn't enough.
 
 To reignite the spark of innovation and push the boundaries of what's possible, it's essential to foster a culture of relentless improvement. This isn’t about fixing what's broken; it's about constantly elevating what's working to new heights.

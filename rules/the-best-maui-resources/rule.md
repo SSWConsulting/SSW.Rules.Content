@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover the best .NET MAUI resources for learning, staying up-to-date, and using Microsoft's cross-platform framework.
 type: rule
 title: Do you know where to find the best .NET MAUI resources?
 uri: the-best-maui-resources
@@ -35,6 +36,7 @@ The following is a list of resources for learning, staying up to date with, and 
 If you are new to the technology and want to know the basics, check out this [**4-hour crash course**](https://www.youtube.com/watch?v=DuNLR_NJv8U) by James Montemagno.
 
 The best book for learning .NET MAUI is **[.NET MAUI in Action by Matt Goldman](https://www.manning.com/books/dot-net-maui-in-action?utm_source=goforgoldman&utm_medium=affiliate&utm_campaign=book_goldman_dot_5_10_22&a_aid=goforgoldman&a_bid=38933097)**.
+
 <!---and **[.NET MAUI Projects by Michael Cummings, Daniel Hindrikes and Johan Karlsson](https://www.packtpub.com/product/net-maui-projects-third-edition/9781837634910)**. -->
 
 ### Events

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how using Word Documents instead of Wiki Pages can improve your SharePoint experience. Enhance editing capabilities, leverage versioning features and sync files with OneDrive for a more efficient workflow.
 type: rule
 title: Do you use Word Documents instead of Wiki Pages in SharePoint?
 uri: word-documents-vs-sharepoint-wiki-pages
@@ -11,11 +12,12 @@ related:
 created: 2021-11-29T22:45:19.556Z
 guid: be53b471-aff1-4f06-9ca3-de2badf5880c
 ---
-In the past, Wiki pages were a great way to store content in SharePoint. These days, with advancements in browser and smartphone capabilities, Word Documents are a better place to store content. 
+
+In the past, Wiki pages were a great way to store content in SharePoint. These days, with advancements in browser and smartphone capabilities, Word Documents are a better place to store content.
 
 <!--endintro-->
 
-Many articles, like [this one from 2017](https://www.sharepointagency.co.nz/consulting/item/348-wiki-pages-are-better-than-word-documents-for-your-intranet.html), talk about the benefits of using Wiki Pages over Word Documents - however, these benefits are no longer relevant. 
+Many articles, like [this one from 2017](https://www.sharepointagency.co.nz/consulting/item/348-wiki-pages-are-better-than-word-documents-for-your-intranet.html), talk about the benefits of using Wiki Pages over Word Documents - however, these benefits are no longer relevant.
 
 ![Figure: We've come a long way since Word 2013 Online Presentation](word-2013-online-presentation.jpg)
 
@@ -26,8 +28,6 @@ Let's have a quick look at some of the points that the article above used:
 **Load Time** - In the past, this was an issue. These days, browsers have no problem loading Word Documents.
 
 **Mobile** - Mobile browsers also do a pretty good job of opening Word Documents, and there are the Office and OneDrive apps to make it even easier.
-
-
 
 ::: greybox
 
@@ -51,7 +51,7 @@ Let's have a quick look at some of the points that the article above used:
 
 :::
 
-2. Versioning is one of SharePoint's strongest features - and it works really well with Word Documents. 
+2. Versioning is one of SharePoint's strongest features - and it works really well with Word Documents.
 3. Many people are using Microsoft Teams, and storing files in there - sometimes not using SharePoint at all. While Teams still uses SharePoint in the backend, it is much easier to browse through Documents than link and view Wiki Pages.
 
 ![Figure: Browsing files in Teams](teams-browsing-files.png)

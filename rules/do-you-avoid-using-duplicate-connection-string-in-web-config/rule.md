@@ -1,4 +1,5 @@
 ---
+seoDescription: Avoid duplicate connection strings in web.config to prevent errors and improve application performance.
 type: rule
 title: Do you avoid using duplicate connection string in web.config?
 uri: do-you-avoid-using-duplicate-connection-string-in-web-config
@@ -15,16 +16,16 @@ archivedreason: null
 guid: 0bf7e11b-1185-406d-96bd-63304f056ccb
 ---
 
-Since we have many ways to use Connection String in .NET 2.0, it is probably that we are using duplicate connection string in web.config.   
+Since we have many ways to use Connection String in .NET 2.0, it is probably that we are using duplicate connection string in web.config.
 
 <!--endintro-->
 
 ```xml
 <connectionStrings>
-    <add 
-        name="ConnectionString" 
+    <add
+        name="ConnectionString"
         connectionString="Server=(local);
-        Database=NorthWind;" 
+        Database=NorthWind;"
     />
 </connectionStrings>
 
@@ -32,7 +33,7 @@ Since we have many ways to use Connection String in .NET 2.0, it is probably tha
     <add key="ConnectionString" value="Server=(local);Database=NorthWind;"/>
 </appSettings>
 ```
+
 ::: bad
 Bad example - Using duplicate connection string in web.config
 :::
-

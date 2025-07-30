@@ -1,4 +1,5 @@
 ---
+seoDescription: Establishing a rule helps ensure consistency and efficiency in day-to-day activities by documenting processes and promoting better understanding.
 type: rule
 title: Do you know when to write a rule?
 uri: do-you-know-when-to-write-a-rule
@@ -21,11 +22,10 @@ The purpose of a rule is to effectively establish and record a process to guide 
 
 Rules facilitate:
 
-* Consistency
-* Coherent instruction
-* A high standard of documentation
-* Better understanding of processes
-* Efficiency improvements
-
+- Consistency
+- Coherent instruction
+- A high standard of documentation
+- Better understanding of processes
+- Efficiency improvements
 
 Only write a rule after the situation has happened more than once – chances are it will happen again and a rule/standard should be created.

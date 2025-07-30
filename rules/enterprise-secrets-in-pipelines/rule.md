@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you use enterprise secrets in your DevOps pipelines? Learn how to manage and secure sensitive data across multiple repositories and workflows with ease.
 type: rule
 title: Do you use enterprise secrets in your DevOps pipelines?
 uri: enterprise-secrets-in-pipelines
@@ -24,7 +25,6 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 
 ## Scenario: Every time a new repository is set up, developers manually add secrets to it.
 
-
 :::bad
 ![Figure: Secrets added to each repository](repo-secrets.png)
 :::
@@ -34,8 +34,6 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 ❌ High maintenance if secrets need to be changed or rotated.\
 ❌ Greater risk of inconsistencies between repos.\
 ❌ Increased vulnerability surface area – each repo is a potential leak point.
-
-
 
 ## Scenario: Instead of per repo, secrets are added at the GitHub organization level.
 
@@ -50,7 +48,6 @@ In a development ecosystem, secrets are the lifeblood that makes many processes 
 ✅ Less manual work for individual repos.
 
 ❌ Still a concern - While more efficient, secrets still reside within the CI/CD tool and can be exposed if the platform is compromised.
-
 
 ## Scenario: Secrets are stored in Azure Key Vault and accessed by various workflows as needed.
 
@@ -67,32 +64,33 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Check out your code
-    - name: Checkout code
-      uses: actions/checkout@v2
+      # Check out your code
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    # Login to Azure
-    - name: Login to Azure
-      uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }} # Note you need this credential in GitHub
+      # Login to Azure
+      - name: Login to Azure
+        uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }} # Note you need this credential in GitHub
 
-    # Fetch the API key from Azure Key Vault
-    - name: Get API key from Azure Key Vault
-      run: |
-        az keyvault secret show --name SSW_REWARDS_API_KEY --vault-name kv-rewards --query value -o tsv > api_key.txt
-      id: fetch-key
+      # Fetch the API key from Azure Key Vault
+      - name: Get API key from Azure Key Vault
+        run: |
+          az keyvault secret show --name SSW_REWARDS_API_KEY --vault-name kv-rewards --query value -o tsv > api_key.txt
+        id: fetch-key
 
-    # Use the API key in a subsequent step
-    - name: Deploy with API Key
-      run: |
-        API_KEY=$(cat api_key.txt)
-        # Your deployment commands using the API_KEY
+      # Use the API key in a subsequent step
+      - name: Deploy with API Key
+        run: |
+          API_KEY=$(cat api_key.txt)
+          # Your deployment commands using the API_KEY
 
-    # (Optional) Logout from Azure
-    - name: Logout from Azure
-      run: az logout
+      # (Optional) Logout from Azure
+      - name: Logout from Azure
+        run: az logout
 ```
+
 :::ok
 Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows across the organization
 :::
@@ -105,9 +103,7 @@ Listing: Secrets stored in a dedicated Key Vault in Azure and used by workflows 
 
 ❌ Still a concern - Dependencies on external systems can introduce complexities and may require specific expertise to manage.
 
-
 ## Scenario: Secrets are stored in an enterprise-grade secrets manager, which integrates directly with CI/CD platforms.
-
 
 :::good
 ![Figure: An enterprise password/secrets manager like Keeper with the Secrets Manager add-on and integration with GA or AzDo](enterprise-secrets.jpg)

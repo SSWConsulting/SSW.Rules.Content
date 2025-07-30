@@ -1,19 +1,19 @@
 ---
+seoDescription: Learn how to handle errors in Raygun and improve your application's health with our step-by-step guide.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you know how to handle errors in Raygun?
 guid: ffd7161f-7cac-435d-ae26-8ec42651b59b
 uri: how-to-handle-errors-in-raygun
 created: 2016-12-30T03:34:50.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Eric Phan
-  url: https://ssw.com.au/people/eric-phan
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Eric Phan
+    url: https://ssw.com.au/people/eric-phan
 related: []
 redirects:
-- do-you-know-how-to-handle-errors-in-raygun
-
+  - do-you-know-how-to-handle-errors-in-raygun
 ---
 
 Your team should always be ensuring that the health of the application is continually improving.
@@ -26,25 +26,25 @@ There's traditional error logging software like Log4Net or Elmah, but they just 
 
 This is where RayGun or Application Insights comes into the picture. RayGun gives you the following features:
 
-* Grouping exceptions
-* Ignoring/filtering exceptions
-* Triaging exceptions (mark them as resolved)
-* Integrations to TFS/VisualStudio.com to create a Bug, Slack
-* Tracking the exceptions to a deployment
-* See which errors are occurring the most often
+- Grouping exceptions
+- Ignoring/filtering exceptions
+- Triaging exceptions (mark them as resolved)
+- Integrations to TFS/VisualStudio.com to create a Bug, Slack
+- Tracking the exceptions to a deployment
+- See which errors are occurring the most often
 
 ::: bad  
 ![Figure: Bad example - Elmah gives you a wall of exceptions and no way to flag exceptions as completed](elmah.gif)  
 :::
 
 ::: email-template  
-|          |     |
+| | |
 | -------- | --- |
-| To:      | Adam |
+| To: | Adam |
 | Subject: | Raygun Health Check for TimePro |  
-::: email-content  
+::: email-content
 
-### Hi Adam  
+### Hi Adam
 
 Please find below the Raygun Health Check for TimePro:
 

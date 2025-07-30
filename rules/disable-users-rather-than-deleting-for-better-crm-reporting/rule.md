@@ -1,4 +1,5 @@
 ---
+seoDescription: Do you Disable AD Users rather than Deleting for better CRM Reporting?
 type: rule
 title: Do you Disable AD Users rather than Deleting for better CRM Reporting?
 uri: disable-users-rather-than-deleting-for-better-crm-reporting
@@ -17,6 +18,7 @@ created: 2019-07-10T22:47:08.000Z
 archivedreason: null
 guid: e3a7e485-04bc-43d8-82c4-e8a788ea06cc
 ---
+
 When a user is created in Active Directory (AD), a Global Unique Identifier (GUID) is also created. As the name suggests this is unique for each user and is never duplicated in a domain.
 
 <!--endintro-->

@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to send newsletters in Microsoft Dynamics CRM 2016 using mail merge with custom unsubscribe links.
 type: rule
 title: Do you know how to send newsletters in Microsoft Dynamics CRM 2016?
 uri: how-to-send-newsletter-in-microsoft-crm-2016
@@ -20,7 +21,7 @@ There are different ways of sending newsletters using the Microsoft Dynamics CRM
 
 This rule will show you how to send a newsletter using the last method, the mail merge.
 
-By default, Microsoft Dynamics CRM 2016 does not come with good functionality on inserting custom unsubscribe links to your newsletters - that's why we are going to look at how to add a custom unsubscribe link in each email. 
+By default, Microsoft Dynamics CRM 2016 does not come with good functionality on inserting custom unsubscribe links to your newsletters - that's why we are going to look at how to add a custom unsubscribe link in each email.
 
 <!--endintro-->
 
@@ -154,7 +155,7 @@ End Sub
 
 10. Follow the steps in the mail merge sidebar on the right-hand side of Word
 
-    If you are using mail merge fields, like the contact names, you should preview your message for some contacts. 
+    If you are using mail merge fields, like the contact names, you should preview your message for some contacts.
 
     ![Figure: The highlighted part will change for every recipient](Verify-Changes.jpg)
 11. Send the mail merge newsletter to the email address property of every contact by selecting the following

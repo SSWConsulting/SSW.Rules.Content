@@ -1,8 +1,9 @@
 ---
+seoDescription: Learn when to use StringBuilder and improve performance by minimizing String object creation and modification.
 type: rule
 title: Do you know when to use StringBuilder?
 uri: when-to-use-stringbuilder
-authors: 
+authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
 related: []
@@ -26,6 +27,7 @@ for (int i = 0; i < 1000; i ++) {
   s += i;
 }
 ```
+
 ::: bad
 Figure: Bad example - This inefficient code results in 1000 new String objects being created unnecessarily
 :::
@@ -37,6 +39,7 @@ for (int i = 0; i < 1000; i ++) {
   sb.append(i);
 }
 ```
+
 ::: good
 Figure: Good example - This efficient code only uses one StringBuilder object
 :::

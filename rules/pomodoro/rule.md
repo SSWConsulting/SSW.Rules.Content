@@ -1,4 +1,5 @@
 ---
+seoDescription: Master your focus and boost productivity with the Pomodoro Technique!
 type: rule
 title: Do you use the Pomodoro Technique?
 uri: pomodoro
@@ -8,15 +9,17 @@ authors:
     url: https://www.ssw.com.au/people/josh-bandsma
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
+related:
+  - protect-your-teams-creativity
 created: 2021-09-15T01:15:35.480Z
 guid: 78d3e725-0146-4759-a11b-8d9048c4f36a
 ---
+
 Getting difficult work done requires focus and there are many techniques to do that. This is why you should use the Pomodoro Technique.
 
 <!--endintro-->
 
 `youtube: https://youtu.be/1l4w7uHdNaQ`
-
 **Video: The Pomodoro Technique - Study And Productivity Technique (animated) (5 min)**
 
 The Pomodoro Technique is a time management method that was developed in the late 1980s by Francesco Cirillo. It is used to break up your work into intervals. By using a timer, you separate work intervals with short breaks. Each interval is known as a **pomodoro.**
@@ -29,7 +32,7 @@ A 25-minute Pomodoro session is considered by most long enough to get a little w
 
 If you would like to find out more, check out [The Pomodoro® Technique website](https://www.pomodorotechnique.com/).
 
-### The traditional technique uses 6 steps
+## The traditional technique uses 6 steps
 
 1. Decide on the task to be done.
 2. Set the pomodoro timer (Typically 25 minutes)
@@ -38,7 +41,7 @@ If you would like to find out more, check out [The Pomodoro® Technique website]
 5. If you have fewer than three pomodoros, go back to Step 2 and repeat until you go through all 3 pomodoros
 6. After 3 pomodoros are done, take the 4th pomodoro and then take a long break (traditionally 20 to 30 minutes). Once the long break is finished, return to Step 2
 
-### Use an app
+## Use an app
 
 A great application that encourages the use of the Pomodoro Technique is **Forest**.
 
@@ -46,4 +49,5 @@ A great application that encourages the use of the Pomodoro Technique is **Fores
 * [Download - Google Play](https://play.google.com/store/apps/details?id=cc.forestapp&hl=en_AU&gl=US)
 
 For those running Windows, you can [use focus sessions in Clock app](https://support.microsoft.com/en-us/windows/how-to-use-focus-in-windows-11-cbcc9ddb-8164-43fa-8919-b9a2af072382):
+
 ![Figure: Using Focus session in Windows](Microsoft-Windows-Focus-session.png)

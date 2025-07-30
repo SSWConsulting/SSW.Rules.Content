@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft endpoint security uses Conditional Access policies to restrict user access to Azure and Office365 resources based on location, device types, and multi-factor authentication (MFA) requirements.
 type: rule
 title: Do you use Conditional Access policies?
 uri: conditional-access-policies
@@ -12,6 +13,7 @@ redirects:
 created: 2022-04-13T01:19:59.907Z
 guid: deadd754-b7c5-4564-8e44-234642690769
 ---
+
 Did you know that you can stop your users from logging into any of your Azure or Office365 resources based on the location they are in? What about the types of devices that they can connect from or only allowing connections that use MFA? These things are all possible to restrict.
 
 This seriously limits the attack surface and also helps to stop compromised devices and accounts from being used.
@@ -53,11 +55,11 @@ Now configure some policies to implement these rules
 
    ![Figure: Choose any location](conditionalaccess4.png)
 
-5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia)  
+5. On Exclude choose Selected locations and then exclude your workers countries (i.e. Australia)
 
    **Note:** This must be done this way as the user must not meet a block access rule ever if they are to login.
 
-  ![Figure: Exclude good locations](conditionalaccess5.png)
+![Figure: Exclude good locations](conditionalaccess5.png)
 
 6. Now select block access for this rule
 
@@ -70,11 +72,11 @@ Now configure some policies to implement these rules
 
    ![Figure: Add a grant with MFA](conditionalaccess7.png)
 
-9. You will notice that each of these rules have a 'Report only' mode or enforce.  You should leave it on report mode and monitor the audit logs.
+9. You will notice that each of these rules have a 'Report only' mode or enforce. You should leave it on report mode and monitor the audit logs.
 
    **Check for any failures and only apply the rules to a small subset of your users before changing them to 'On'. This is very important as you can stop everyone including yourself from logging in.**
 
-    ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
+   ![Figure: Choose report only until you are sure that your rules work](conditionalaccess8.png)
 
 ### International Travel Notice - Exclude travelling users and let them keep their access to work resources while on holidays or overseas
 

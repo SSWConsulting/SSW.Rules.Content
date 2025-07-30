@@ -1,6 +1,7 @@
 ---
+seoDescription: Google's sophisticated ranking algorithms ensure high-quality results by considering factors like on-page content, user engagement, and technical aspects.
 type: rule
-title: Do you know how Google ranks pages in 2024?
+title: Basics - Do you know how Google ranks pages in 2024?
 uri: how-google-ranks-pages
 authors:
   - title: Michael Smedley
@@ -16,6 +17,7 @@ created: 2024-05-16T17:56:43.000Z
 archivedreason: null
 guid: 62497feb-55ae-416f-bbab-b0a0cba30b6e
 ---
+
 #### Overview
 
 Google's remarkable success in search engine technology is largely due to its sophisticated ranking algorithms. While the original PageRank algorithm laid the foundation, Google's approach to ranking pages has evolved significantly to combat spammy content and ensure quality. Let's explore how Google ranks pages as of 2024, considering the most recent updates and principles.

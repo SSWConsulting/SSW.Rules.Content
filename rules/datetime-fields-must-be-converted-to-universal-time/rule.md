@@ -1,19 +1,19 @@
 ---
+seoDescription: When storing DateTime fields, they must be converted to universal time (UTC) from the application to the stored procedures.
 type: rule
-archivedreason: 
+archivedreason:
 title: Data - Dates - Do you know DateTime fields must be converted to universal time?
 guid: 96636654-80f5-46c9-adb0-a8ddfe98e7e3
 uri: datetime-fields-must-be-converted-to-universal-time
 created: 2019-11-25T19:54:23.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Christian Morford-Waite
-  url: https://ssw.com.au/people/christian-morford-waite
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Christian Morford-Waite
+    url: https://ssw.com.au/people/christian-morford-waite
 related: []
 redirects:
-- data-dates-do-you-know-datetime-fields-must-be-converted-to-universal-time
-
+  - data-dates-do-you-know-datetime-fields-must-be-converted-to-universal-time
 ---
 
 Any DateTime fields must be converted to universal time from the application to the stored procedures when storing data into the database.
@@ -130,11 +130,11 @@ Our servers will store it as 21/04/05 19:00:00 in other words 21/04/05 07:00:00 
 Therefore our servers have to take the Date component of the DateTime and add the Time component as 12:00:00 AM to make it stored in our local time format.
 
 ```csharp
-[WebMethod] 
-public double GetDateDifference(DateTime dateRemote) 
-{ 
-    DateTime dateLocal = dateRemote.Date; 
-    return (dateRemote.TimeOfDay.TotalHours - dateLocal.TimeOfDay.TotalHours); 
+[WebMethod]
+public double GetDateDifference(DateTime dateRemote)
+{
+    DateTime dateLocal = dateRemote.Date;
+    return (dateRemote.TimeOfDay.TotalHours - dateLocal.TimeOfDay.TotalHours);
 }
 ```
 

@@ -1,18 +1,18 @@
 ---
+seoDescription: Easy NuGet package management simplifies third-party library installation and upgrading in Visual Studio projects.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you use NuGet?
 guid: 1afcf9bd-d729-490e-8553-1c890ac88557
 uri: do-you-use-nuget
 created: 2012-07-23T14:35:54.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Adam Stephensen
-  url: https://ssw.com.au/people/adam-stephensen
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Adam Stephensen
+    url: https://ssw.com.au/people/adam-stephensen
 related: []
 redirects: []
-
 ---
 
 NuGet allows you to search for, install, upgrade, configure and remove 3rd party libraries from Visual Studio projects in a consistent and easy to use manner.
@@ -25,10 +25,10 @@ The package contains all the information needed for the 3rd party library to wor
 
 The concept of a package makes it very easy to upgrade and remove the libraries in the future with a single click.
 
-![Figure: Do you download a package, save it locally and then add it to your project manually?](NuGet-bad-1.jpg) 
+![Figure: Do you download a package, save it locally and then add it to your project manually?](NuGet-bad-1.jpg)
 
-![Figure: Step 1 - Right click on your project in visual studio and select Manage NuGet Packages](NuGet-good-1.jpg) 
+![Figure: Step 1 - Right click on your project in visual studio and select Manage NuGet Packages](NuGet-good-1.jpg)
 
-![Figure: Step 2 - Find the package you want and click install](NuGet-good-2.jpg) 
+![Figure: Step 2 - Find the package you want and click install](NuGet-good-2.jpg)
 
 Now all you need to do when you want to remove or upgrade the package is go back to the NuGet package manager.

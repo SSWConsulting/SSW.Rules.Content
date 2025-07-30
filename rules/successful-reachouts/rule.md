@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to make your LinkedIn reachouts stand out with personalized and engaging tips.
 type: rule
 title: Do you know to make LinkedIn reachouts stand out?
 uri: successful-reachouts
@@ -18,18 +19,20 @@ Developers receive a lot of reachouts. Sometimes they are automated and other ti
 
 To have your reachout rise above the noise, you need to make it personal and unique.
 
-::: img-small bad
-![Figure: Typical developers LinkedIn inbox](developer-reachout-spam.png)
-:::
-
 <!-- endintro -->
+
+::: img-small bad
+![Figure: Bad example - Typical developer LinkedIn inbox](developer-reachout-spam.png)
+:::
 
 Here are some tips to make your reachouts stand out:
 
-1. [Use emojis](/use-emojis) - a few emojis can make your message stand out, and feel more personal
-2. Ask a question - most reachouts don't have a proper call to action, they simply ask you to "get in touch". Asking a question engages the candidate and makes them more likely to respond  
+1. **[Use emojis](/use-emojis)** - A few emojis can make your message stand out, and feel more personal
+2. **Ask a question** - Most reachouts don't have a proper call to action, they simply ask you to "get in touch". Asking a question engages the candidate and makes them more likely to respond  
 E.g. If you see someone is learning Rust, you could ask "How long have you been learning Rust? We have a few "Rustaceans" in the SSW Brisbane office 🦀"  
 It's important to ask the question early in the message, as most people will only glance at the message
+3. **Add a video** - Add a YouTube link to a video that tells the candidate why your company is awesome, this will make them more engaged and more likely to respond
+   E.g., [Why work at SSW?](https://www.youtube.com/watch?v=tWuutobJtdg)
 
 ::: greybox
 Hi Bob 👋,

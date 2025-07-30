@@ -1,6 +1,8 @@
 ---
 type: rule
 title: Do you use Configuration over Key Vault?
+seoDescription: Configure securely without Key Vault complexity by using Azure
+  AppService to link Configuration values to Key Vault entries.
 uri: config-over-keyvault
 authors:
   - title: Andrew Harris
@@ -8,7 +10,6 @@ authors:
 created: 2023-08-08T23:45:18.798Z
 guid: d104022e-2cce-4771-a54a-42e6dfbdaf09
 ---
-
 We all know that we should [Store Secrets Securely](/store-your-secrets-securely) using Key Vault, but did you know that rather than have developers having to deal with a combination of Key Vault and Configuration, you can abstract Key Vault out of your application code and leave developers to only have to deal with Configuration?
 
 <!--endintro-->
@@ -22,5 +23,11 @@ A feature of Azure AppService is the ability to [use secrets from Key Vault as C
 So now rather than developers having to think about if a value is a secret or configurations, it's always configuration. It just might have its value stored securely in Key Vault.
 
 ::: good
-![Figure: Good Example - Developers don't need to know anything about Key Vault](goodkeyvault.png)
+![Figure: Good example - Developers don't need to know anything about Key Vault](goodkeyvault.png)
 :::
+
+::: good
+![Figure: Good example -  Using Key Vault values in Azure App Service](screenshot-2024-09-05-183121.png)
+:::
+
+**Note:** the "Pull reference values" button now available in App Service. When you update a Key Vault value, the old value is cached by App Services. You will need to use this option to refresh the value for your app.

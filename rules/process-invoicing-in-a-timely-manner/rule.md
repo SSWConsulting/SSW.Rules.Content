@@ -1,21 +1,21 @@
 ---
+seoDescription: Process invoicing weekly to avoid miscommunication and ensure accurate accounting for clients.
 type: rule
-archivedreason: 
+archivedreason:
 title: Do you do invoicing in a timely manner (i.e. once a week)?
 guid: f1794892-ff2c-41b6-8234-f812f95ffe2d
 uri: process-invoicing-in-a-timely-manner
 created: 2019-07-05T21:58:42.0000000Z
 authors:
-- title: Adam Cogan
-  url: https://ssw.com.au/people/adam-cogan
-- title: Matthew Sampias
-  url: https://ssw.com.au/people/matthew-sampias
+  - title: Adam Cogan
+    url: https://ssw.com.au/people/adam-cogan
+  - title: Matthew Sampias
+    url: https://ssw.com.au/people/matthew-sampias
 related: []
 redirects:
-- process-billing-in-a-timely-manner
-- do-you-do-invoicing-in-a-timely-manner-i-e-once-a-week
-- do-you-do-invoicing-in-a-timely-manner-(i-e-once-a-week)
-
+  - process-billing-in-a-timely-manner
+  - do-you-do-invoicing-in-a-timely-manner-i-e-once-a-week
+  - do-you-do-invoicing-in-a-timely-manner-(i-e-once-a-week)
 ---
 
 The majority of client issues arise from miscommunication and miscommunication on invoices and accounts issues can make things very difficult very quickly.  Therefore, you should always process invoicing on at least a weekly basis.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Disagreeing with powerful stakeholders can have a significant impact on project outcomes. Learn how to effectively express your opinions and interests while keeping the conversation focused on the issue.
 type: rule
 title: Stakeholder Management - Do you know how to disagree with powerful stakeholders?
 uri: disagreeing-with-powerful-stakeholders
@@ -12,10 +13,12 @@ authors:
 related:
   - fix-problems-quickly
   - for-the-record
+  - avoid-but
 created: 2024-03-21T04:59:07.597Z
 guid: 2848c2b5-28cc-475f-ab24-0983f8d38b5a
 archivedreason: null
 ---
+
 Disagreeing with powerful stakeholders can have a huge impact. It's always good to speak up, but a poorly worded disagreement can result in misalignment or frustration. That's why it's crucial to frame your messages in a way that ensures ideas are expressed effectively.
 
 `youtube: https://youtu.be/FbtHJm8vFpE?si=GNBJdUdM3QNCpRmx&t=186`
@@ -35,7 +38,7 @@ When you have a disagreement with a senior colleague, it's likely that you have 
 2. Ask if they're open to feedback
 3. Find a common target
 
-#### 1. Repeat your understanding of the issue
+### 1. Repeat your understanding of the issue
 
 By repeating back your understanding of the issue, you can check that their viewpoint aligns with yours, and if there are any discrepancies, they can be caught before the issue is discussed. (aka Steelmanning)
 
@@ -48,7 +51,7 @@ By repeating back your understanding of the issue, you can check that their view
 Good example - The Developer identified that the Product Owner had a different reason than they thought
 :::
 
-#### 2. Ask if they're open to feedback
+### 2. Ask if they're open to feedback
 
 Getting permission to comment is a great tactic. It makes the stakeholder feel empowered to have the conversation and also gives you confidence that they are interested in what you have to say.
 
@@ -61,7 +64,7 @@ Getting permission to comment is a great tactic. It makes the stakeholder feel e
 Good example - The Developer gives a warning to the Product Owner to check if they are in a moment where they are ready to listen to a dissenting opinion
 :::
 
-#### 3. Find a common target
+### 3. Find a common target
 
 Determine an outcome you both want to see from the solution. That way the conversation centers on delivering business value rather than being contrary for the sake of it.
 
@@ -85,11 +88,11 @@ When talking with a powerful stakeholder it's vital to keep the conversation on 
 3. Express that it's your opinion
 4. Leave it up to them
 
-#### 1. Ground yourself in logic
+### 1. Ground yourself in logic
 
 When communicating about a problem, emotions can quickly get in the way. You want to project confidence and neutrality - that's why it's critical to try and stick to the logic and facts.
 
-#### 2. Express that it's your opinion
+### 2. Express that it's your opinion
 
 If you caveat that you are just expressing your opinion, others will feel like you are open to discussing the issue rationally and that you understand others may disagree.
 
@@ -111,7 +114,7 @@ Bad example - The Developer didn't express that it was their opinion.
 Good example - The Developer mentions that it is their opinion leaving the topic open for discussion.
 :::
 
-#### 3. Avoid judgemental language
+### 3. Avoid judgemental language
 
 Language that sounds accusatory or judgmental can evoke bad reactions and derail a conversation. Words like "stupid", "hasty", "naive" etc. focus the discussion on people's judgment rather than the issue itself. When that happens, you are no longer discussing the logical cause of the disagreement.
 
@@ -129,7 +132,7 @@ Bad example - The Developer made their point and it sounds like a personal attac
 Good example - The Developer identifies a pain point for the users, rather than making it emotion based
 :::
 
-#### 4. Leave it up to them
+### 4. Leave it up to them
 
 Let them know it's their decision, but be clear that you disagree. Communicating this way allows them to feel in control but also makes it obvious what your opinion is.
 

@@ -1,17 +1,17 @@
 ---
+seoDescription: Improve user navigation by underlining items with Hyperlink Action in your reports.
 type: rule
 archivedreason:
 title: Layout - Do you underline items with Hyperlink Action?
 guid: 7d91256d-dc31-4551-8258-8cca53cd5bb4
 uri: underline-items-with-hyperlink-action
 created: 2023-12-12T15:38:33.0000000Z
-authors: 
+authors:
   - title: Jeoffrey Fischer
     url: https://ssw.com.au/people/jeoffrey-fischer
 related:
-- customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
+  - customization-do-you-know-which-version-of-sql-reporting-services-and-visual-studio-you-are-using
 redirects: []
-
 ---
 
 The Hyperlink Action allows users to navigate between reports smoothly, but users may ignore the navigation functionality in your reports.

@@ -1,4 +1,5 @@
 ---
+seoDescription: Discover how to share private links of draft posts using the Public Post Preview plugin in WordPress.
 type: rule
 archivedreason: 
 title: Do you know how to share a private link of a draft post?
@@ -21,7 +22,7 @@ Once you have plugin installed, all you need to do is enable it and then follow 
 
 1. In the 'Edit Post' page, scroll down below your HTML panel to the 'Preview' panel, and select the tick box "Allow Anonymous Preview".
 
-Once enabled, it will create a preview link, that you can send to as many people as you like. 
+Once enabled, it will create a preview link, that you can send to as many people as you like.
 
 **Note:** Once you publish the post that URL becomes inactive.
 

@@ -9,7 +9,7 @@ authors:
 created: 2024-05-06T04:46:35.222Z
 guid: 1b083b2a-46e9-4ed4-9f7e-2e438e81c62b
 ---
-![](dall·e-2024-05-06-14.54.09-a-modern-professional-office-setting-showing-a-sales-call-between-two-individuals.-one-person-a-sales-representative-is-male-wearing-a-dark-grey-s.webp)
+![](professional-sales-call-between-two-individuals.webp)
 
 **Figure: Using recordings to refine sales tactics**
 

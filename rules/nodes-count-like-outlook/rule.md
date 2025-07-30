@@ -1,4 +1,5 @@
 ---
+seoDescription: Learn how to display nodes count in report textboxes like Outlook using SQL expressions and the CountRows() function.
 type: rule
 archivedreason:
 title: Data Layout - Do you have nodes count like Outlook?

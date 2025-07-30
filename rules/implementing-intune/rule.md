@@ -1,4 +1,5 @@
 ---
+seoDescription: Microsoft Intune is a mobile device management (MDM) and application management solution that enables organizations to control how devices are used, including setting policies for app access and data protection.
 type: rule
 title: Do you use Microsoft Intune?
 uri: implementing-intune
@@ -15,19 +16,19 @@ guid: a8d119d1-50fa-4296-95db-84eceb65accd
 
 <!--endintro-->
 
-Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Azure Active Directory to control who has access and what they can access.
+Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It integrates with Entra ID to control who has access and what they can access.
 
 With Intune, you can:
 
-* Choose to be 100% cloud with Intune, or be [co-managed](https://docs.microsoft.com/en-us/configmgr/comanage/overview) with Configuration Manager and Intune
-* Set rules and configure settings on personal and organization-owned devices to access data and networks
-* Deploy and authenticate apps on devices - on-premises and mobile
-* Protect your company information by controlling the way users access and share information
-* Be sure devices and apps are compliant with your security requirements
+- Choose to be 100% cloud with Intune, or be [co-managed](https://docs.microsoft.com/en-us/configmgr/comanage/overview) with Configuration Manager and Intune
+- Set rules and configure settings on personal and organization-owned devices to access data and networks
+- Deploy and authenticate apps on devices - on-premises and mobile
+- Protect your company information by controlling the way users access and share information
+- Be sure devices and apps are compliant with your security requirements
 
 ### Managing Devices
 
-When Intune is connected to Azure AD its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Azure Active Directory.
+When Intune is connected to Entra ID its automatic enrollment lets users enroll their Windows devices in Intune. To enroll, users add their work account to their personally owned devices or join corporate-owned devices to Entra ID.
 
 :::info
 
@@ -35,13 +36,13 @@ If you are using Conditional Access for MFA, you will need to add an exception f
 
 :::
 
-![Figure: Intune connected to AAD](intune_aad.png)
+![Figure: Intune connected to Entra ID](intune_aad.png)
 
-* SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
+- SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
 
 ![Figure: Devices managed by Intune](devices_intunes.png)
 
-* We can get reports on device compliance at any time.
+- We can get reports on device compliance at any time.
 
 ::: bad
 ![Bad example - Errors in compliance check](bad_example_compliance.png)

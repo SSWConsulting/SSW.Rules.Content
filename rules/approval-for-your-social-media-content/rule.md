@@ -1,4 +1,5 @@
 ---
+seoDescription: Seek approval for your social media content to ensure consistency and accuracy before posting.
 type: rule
 title: Management - Do you know to seek approval for your social media content?
 uri: approval-for-your-social-media-content
@@ -12,6 +13,7 @@ created: 2020-05-05T02:58:46.000Z
 archivedreason: null
 guid: db5a84d9-b7fd-46bb-9e35-4696e9ac504c
 ---
+
 Creating content can be exhausting. Often you're planning it weeks in advance, with many different posts and platforms involved. This can lead to mistakes such as typos, or wrong URLs. It's always a good idea to get someone else to do a "test please" on your content before you post it. This will help make sure your content doesn't have any issues that will compromise the user experience while consuming it, or even affect your business goal with the post.
 
 <!--endintro-->
