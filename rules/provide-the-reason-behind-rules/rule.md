@@ -43,7 +43,7 @@ For example, if one of your standards is for developers to send "test please" em
 | Subject: | No test please email |
 ::: email-content  
 
-### Hi Mark,
+### Hi Mark
 
 You didn't send a "test please" email. Please do that next time.
 
@@ -62,7 +62,7 @@ Figure: Bad example - This email doesn't explain why this is so important
 | Subject: | Test Please emails standard |
 ::: email-content  
 
-### Hi Mark,
+### Hi Mark
 
 Regarding that PBI you worked on yesterday.
 
