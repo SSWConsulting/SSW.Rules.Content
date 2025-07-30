@@ -18,6 +18,8 @@ guid: 2b7d9e5f-3a1c-4f6e-9d2a-8c4e5f6a7b8c
 
 While cloud-based AI services like [OpenAI](https://openai.com/), [Claude](https://claude.ai/), and [Gemini](https://gemini.google.com/) offer convenience and power, running large language models (LLMs) locally provides significant advantages for privacy-conscious developers, businesses with sensitive data, and those who need offline capabilities.
 
+<!--endintro-->
+
 ## Why run LLMs locally?
 
 Local LLMs ensure your data never leaves your machine, provide consistent performance without internet dependencies, and offer cost savings for high-volume usage.
@@ -38,7 +40,7 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 * **Setup complexity** - Requires technical knowledge for initial configuration
 * **Updates** - Must manually update models and software
 
-<!--endintro-->
+
 
 ## Ollama vs Microsoft Foundry Local
 
