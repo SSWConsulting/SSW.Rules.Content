@@ -1,5 +1,6 @@
 ---
 type: category
+archivedreason: Outdated - TFS is outdated and has been replaced by Azure DevOps. See https://www.ssw.com.au/rules/rules-to-better-devops/
 title: Rules to Better TFS Administration
 guid: fd2b6ace-b962-4a70-9c81-4ab1b6feef80
 uri: rules-to-better-tfs-administration

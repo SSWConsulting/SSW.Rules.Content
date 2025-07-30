@@ -48,7 +48,7 @@ index:
   - do-you-always-know-what-are-you-working-on
   - product-owners-do-you-know-the-consequence-of-disrupting-a-team
   - send-done-videos
-  - record-a-quick-and-dirty-done-video
+  - done-video
   - when-you-use-mentions-in-a-pbi
   - discuss-the-backlog
   - which-emojis-to-use-in-scrum

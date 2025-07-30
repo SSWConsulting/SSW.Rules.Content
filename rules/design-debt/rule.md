@@ -1,9 +1,7 @@
 ---
 type: rule
 title: Do you know how to avoid design debt?
-seoDescription: Making ad-hoc UI changes without a designer leads to design
-  debt. Learn how to prevent inconsistencies and poor UX by following a better
-  workflow.
+seoDescription: Making ad-hoc UI changes without a designer leads to design debt. Learn how to prevent inconsistencies and poor UX by following a better workflow.
 uri: design-debt
 authors:
   - title: Micaela Blank
@@ -18,7 +16,6 @@ related:
   - less-is-more
   - request-a-test-please
   - technical-debt
-  - underlined-links
 archivedreason: null
 guid: e0d0ea3b-9b9f-465a-8da8-54f6f7280790
 ---
@@ -33,9 +30,9 @@ Design debt is like technical debt: shortcuts that seem efficient in the moment 
 
 It usually starts with innocent intentions:
 
-* "Just added a quick icon"
-* "Tightened the padding a bit"
-* "Didn't want to bother design - it's small"
+* _"Just added a quick icon"_
+* _"Tightened the padding a bit"_
+* _"Didn't want to bother design - it's small"_
 
 We’ve all done it. But enough of these add up fast. Before you know it, the product starts to feel inconsistent, design is out of sync, and developers redo work they thought was already done.
 
@@ -64,48 +61,46 @@ We’ve all done it. But enough of these add up fast. Before you know it, the pr
 
 ## How to prevent design debt
 
-### 1. Before you code
+**Before you code**, ask yourself:
 
-First check if what you want to change is already in the design system. If yes, you just need to follow it. If not, then ask yourself:
+1. **Will users see this change?**
 
-* Will users see this change?
-* Does it affect layout, spacing, interaction, or visuals?
+   * **No** → You can proceed without design input
+   * **Yes** → Go to Step 2
 
-If the answer is "yes" or you're not sure; **it involves design**. So ask for a "Test Please" and tag a designer on the PBI.
+2. **Is this UI component or pattern already in the [design system](https://www.ssw.com.au/rules/design-system/)?**  
 
-### 2. Track it properly
+   * **Yes** → Great! Use the existing pattern. You’re done — go ahead and code
+   * **No** → This is a new or modified UI — proceed to Step 3
 
-Even small tweaks need visibility:
+3. **How large is the visual or UX impact?**
 
-* Create a PBI for every UI change
-* Tag it "needs-design" or "minor-UI" depending on the impact
-* Let the PO and designer review and prioritize
+   * **Large changes** (e.g. new modal, major layout, navigation shift) → **Create a PBI for a designer to action in the future**
 
-### 3. Use the design system
+     **Tip:** Tag the PBI as `needs-design` or `minor-UI` depending on impact.
 
-Design systems are like component libraries — but for UI.
+   * **Small changes** (e.g. padding, color tweak, icon alignment) → **You can get a test pass from someone on the Design Masters list**
 
-* If the component exists, use it
-* If it doesn’t, ask if a new pattern is needed
-
-Always check with design — no exceptions.
-
-## Example –  Borders vs underlines on links
-
-::: bad
-![Figure: Bad example – Dotted border added to links. The styling don't follow the design system or current UI conventions](design-debt-bad.png)
-:::
-
-::: good
-![Figure: Good example – Links are using regular CSS underlines aligned with the design system and UI conventions](design-debt-good.png)
-:::
-
-## More ways to prevent design debt
+### More ways to prevent design debt
 
 * Screenshot your change and post it in the PBI before merging
 * Ask for a quick "test please" from a designer 👀 on spacing, alignment, and component use
 * Loop in design early on bigger stuff (e.g. layout or feature changes)
 * After merge, let design know if you created something reusable
+  
+### Example –  Picking a pretty colour
+
+::: bad img-medium
+![Figure: Bad example – The "Open" badge uses a light green background that is not part of the design system. This results in low contrast, negatively impacting accessibility](design-debt-bad.png)
+:::
+
+More info on [Do you use enough color contrast?](/color-contrast)
+
+::: good img-medium
+![Figure: Good example – The issue was flagged with a designer, who resolved it by using an accessible color and updating the design system to include the missing component](design-debt-good.png)
+:::
+
+More info on [Do you have a Design System?](/design-system)
 
 ## Treat design like code
 

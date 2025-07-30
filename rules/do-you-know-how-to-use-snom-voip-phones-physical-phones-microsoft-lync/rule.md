@@ -1,7 +1,7 @@
 ---
 seoDescription: Easily manage SNOM VOIP phones and Microsoft Lync with expert guidance on transferring calls, creating conferences, and making internal connections.
 type: rule
-archivedreason:
+archivedreason: Outdated - SNOM phones and Microsoft Lync are no longer widely used or supported. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you know how to use SNOM VOIP phones? (Physical Phones + Microsoft Lync)
 guid: 0b57f4b6-6798-45bb-995c-cd09ebcc4652
 uri: do-you-know-how-to-use-snom-voip-phones-physical-phones-microsoft-lync
@@ -22,34 +22,34 @@ Using SNOM phones, transferring a call, creating a conference call, or making an
 
 #### Transferring a call
 
-- While speaking to Mr Northwind, press _(Hold)_
-- Press _(Directory)_
-- Then choose a person from the list
+* While speaking to Mr Northwind, press _(Hold)_
+* Press _(Directory)_
+* Then choose a person from the list
 
 **OR**
 
 Dial the external number, press _(Tick)_
 
-- Tell the staff member "Mr Northwind for you"
-- Press _(Transfer)_, press _(Tick)_
+* Tell the staff member "Mr Northwind for you"
+* Press _(Transfer)_, press _(Tick)_
 
 #### Making a Conference Call (up to 5 people)
 
-- While speaking to Mr Northwind, press _(Hold)_
-- Press _(Directory)_.
-- Then choose a person from the list
+* While speaking to Mr Northwind, press _(Hold)_
+* Press _(Directory)_.
+* Then choose a person from the list
 
 **OR**
 Dial the external number, press _(Tick)_
 
-- Tell the staff member "Adding you to a conference call"
-- Press _(Conference)_ to start the conference
+* Tell the staff member "Adding you to a conference call"
+* Press _(Conference)_ to start the conference
 
 #### Making an Internal Call
 
-- Lift handset (or press speaker)
-- Press _(Directory)_
-- Choose a person
-- Press _(Tick)_
+* Lift handset (or press speaker)
+* Press _(Directory)_
+* Choose a person
+* Press _(Tick)_
 
 Read more about [implementing Skype for Business](http://www.ssw.com.au/ssw/Consulting/Lync.aspx).

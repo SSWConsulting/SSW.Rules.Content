@@ -1,11 +1,9 @@
 ---
-seoDescription: Migrate from Skype for Business to Microsoft Teams with Yealink's T55A phone and enjoy seamless voice transitions.
 type: rule
-archivedreason:
 title: Do you know how to use the Yealink T55A Microsoft Teams phone?
-guid: 1665c972-62d7-48c6-b702-0b660c70b34f
+seoDescription: Migrate from Skype for Business to Microsoft Teams with
+  Yealink's T55A phone and enjoy seamless voice transitions.
 uri: do-you-know-how-to-use-the-yealink-t55a-microsoft-teams-phone
-created: 2021-02-03T04:31:49.0000000Z
 authors:
   - title: Jerwin Parker Roberto
     url: https://ssw.com.au/people/jerwin-parker
@@ -14,6 +12,10 @@ authors:
     url: https://ssw.com.au/people/ulysses-maclaren
 related: []
 redirects: []
+created: 2021-02-03T04:31:49.000Z
+archivedreason: "An AI phone system is the better solution now:
+  https://www.ssw.com.au/rules/use-ai-receptionist"
+guid: 1665c972-62d7-48c6-b702-0b660c70b34f
 ---
 
 Using the Yearlink-T55A-Microsoft teams phone when transferring a call, creating a conference call, or making an internal call, is very easy.

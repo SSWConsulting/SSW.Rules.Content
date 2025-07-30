@@ -1,7 +1,7 @@
 ---
 seoDescription: Correctly using "configuration" and "customization" terms in TFS context refers to changes made to application settings versus adapting TFS to fit a customized process.
 type: rule
-archivedreason:
+archivedreason: Outdated - TFS is outdated and has been replaced by Azure DevOps. See https://www.ssw.com.au/rules/rules-to-better-devops/
 title: "Do you know how to correctly use the terms: Configuration and Customization in the TFS context?"
 guid: 6f76bbd9-96da-4e4a-8023-f4bcedc6d51d
 uri: do-you-know-how-to-correctly-use-the-terms-configuration-and-customization-in-the-tfs-context

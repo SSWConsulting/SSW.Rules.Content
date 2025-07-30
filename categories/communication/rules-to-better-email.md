@@ -6,7 +6,7 @@ uri: rules-to-better-email
 index:
 - dones-is-your-inbox-a-task-list-only
 - use-email-for-tasks-only
-- reply-done-and-delete-the-email
+- reply-done
 - send-to-myself-emails
 - as-per-our-conversation-emails
 - number-tasks-questions

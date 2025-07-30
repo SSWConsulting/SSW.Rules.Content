@@ -15,7 +15,6 @@ related:
   - have-urls-to-your-main-services-on-linkedin
   - linkedin-contact-info
   - linkedin-connect-your-microsoft-account
-  - linkedin-creator-mode
 guid: cbb47c0e-7af1-4f22-9b8b-2f9b8d315a4f
 ---
 
@@ -44,5 +43,5 @@ Consider this: You meet a consultant at a conference who seems to be a perfect f
 :::
 
 ::: good
-![Figure: Good example - Job experience with skills and media (video) is legitimate!](linkedin-media-bad.jpg)
+![Figure: Good example - Job experience with skills and media (video) is legitimate!](linkedin-media-good.jpg)
 :::

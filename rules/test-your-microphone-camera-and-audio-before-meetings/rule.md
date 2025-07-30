@@ -30,7 +30,7 @@ See [our facebook post](https://m.facebook.com/SSW.page/photos/a.334643903218918
 
 If your audio, camera or your microphone are not working properly, it’s very likely that you will have your communication affected on a call.
 
-We recommend that you do a test on the platform you are using for your meeting (Microsoft Teams, Skype for Business, etc) and follow their procedure to test your microphone and your audio.
+We recommend that you do a test on the platform you are using for your meeting (Microsoft Teams, Slack, etc) and follow their procedure to test your microphone and your audio.
 
 A second option is to call a work colleague and ask them if they can hear and see you well. Good tips are to use headphones and to keep your microphone on mute when not speaking.
 

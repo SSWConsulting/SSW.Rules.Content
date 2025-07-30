@@ -16,6 +16,7 @@ index:
 - weekly-ai-meetings
 - company-ai-tools
 - connect-chatgpt-with-virtual-assistant
+- use-ai-receptionist
 - install-chatgpt-as-an-app
 - chatgpt-can-help-code
 - chatgpt-can-fix-errors
@@ -30,7 +31,7 @@ index:
 - mcp-server
 - use-mcp-to-standardize-llm-connections
 - digest-microsoft-form
-- do-you-know-the-right-copilot-lingo
+- copilot-lingo
 
 ---
 

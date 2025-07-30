@@ -1,7 +1,7 @@
 ---
 seoDescription: Microsoft Lync compatible IP phones from SNOM, HP, and ASTRA vendors are supported for seamless communication.
 type: rule
-archivedreason:
+archivedreason: Outdated - Microsoft Lync has been replaced by Microsoft Teams. See https://www.ssw.com.au/rules/rules-to-better-microsoft-teams/
 title: Do you know what IP phones are supported by Microsoft Lync?
 guid: 3269cde0-bac0-4430-bf52-54e0821addb0
 uri: do-you-know-what-ip-phones-are-supported-by-microsoft-lync
@@ -22,9 +22,9 @@ Before you rush out to purchase IP phones for the new Lync solution you have wan
 
 As per [IP Desk Phones page](http://technet.microsoft.com/en-us/lync/gg278172?WT.mc_id=DT-MVP-33518) we can see there are three vendors which supply IP phones which are supported by Lync. These three vendors are:
 
-- SNOM
-- HP
-- ASTRA
+* SNOM
+* HP
+* ASTRA
 
 SNOM have been supporting OCS and Lync for many years. There phones are mainstream and offer good quality and features. This was our choice when purchasing IP desk phones.
 
@@ -47,18 +47,18 @@ Read more about [implementing Microsoft Lync](http://www.ssw.com.au/ssw/Consulti
 
 1. Log on to SNOM Phone, press a key to continue
 
-![](step-1.png)
+   ![Log on to SNOM Phone](step-1.png)
 
-2. Enter in your SIP-URI, that is emailaddress@ssw.com.au and press the green tick
+2. Enter in your SIP-URI, that is <emailaddress@ssw.com.au> and press the green tick
 
-![](step-2.jpg)
+   ![Enter in your SIP-URI](step-2.jpg)
 
 3. Enter in your Domain\Username, that is ssw2000\username and press the green tick
 
-![](step-3.jpg)
+   ![Enter in your Domain\Username](step-3.jpg)
 
 4. Enter in your AD password and press the green tick
 
-![](step-4.jpg)
+   ![Enter in your AD password](step-4.jpg)
 
 Congratulations, you are now able to make and receive phone calls.

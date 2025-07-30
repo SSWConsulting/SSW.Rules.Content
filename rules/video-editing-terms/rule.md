@@ -82,6 +82,8 @@ For example, the lower third here is the presenter's name and job title.
 
 ::: info
 **Tip:** Remember to always [remove `https://www.` from links](/keep-your-urls-clean).
+
+*💡 Use a subtle sound effect, like a soft ding 🛎️ when a lower third appears. This can help draw the viewer’s attention without being distracting. It’s especially useful when the lower third contains important context or speaker information.
 :::
 
 ## 4. B-Roll Footage

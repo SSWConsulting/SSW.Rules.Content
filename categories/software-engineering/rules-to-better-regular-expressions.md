@@ -9,6 +9,7 @@ index:
 - use-resource-file-to-store-regular-expressions
 - use-a-regular-expression-to-validate-an-email-address
 - use-a-regular-expression-to-validate-an-uri
+- do-you-use-online-regex-tools
 ---
 
 Enhance your regular expression skills with essential rules that promote clarity and efficiency. This guide offers insights into formatting, testing, and practical applications for validating email addresses and URIs, ensuring your regex patterns are both effective and maintainable.

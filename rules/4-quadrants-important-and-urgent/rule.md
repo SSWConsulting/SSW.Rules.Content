@@ -10,7 +10,7 @@ related:
   - know-that-im-interrupts
   - use-quiet-hours-in-teams
   - work-in-order-of-importance-aka-priorities
-  - 4-quadrants-important-and-urgent 
+  - protect-your-teams-creativity
 created: 2022-04-28T16:29:02.708Z
 guid: 202045cc-5133-4c1e-bed3-0416b899a496
 ---

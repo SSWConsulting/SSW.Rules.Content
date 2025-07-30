@@ -2,7 +2,7 @@
 type: rule
 title: Dones - Do you reply 'Done' and delete the original email?
 seoDescription: When reassigning tasks, reply with "Done" and provide a URL link if applicable.
-uri: reply-done-and-delete-the-email
+uri: reply-done
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
@@ -20,6 +20,7 @@ related:
   - split-emails-by-topic
 redirects:
   - dones-do-you-reply-done-and-delete-the-original-email
+  - reply-done-and-delete-the-email
 created: 2009-03-23T04:03:34.000Z
 archivedreason: null
 guid: c2a162d0-858d-4d80-a5e7-9e5c852daa18
