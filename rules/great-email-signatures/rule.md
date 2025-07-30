@@ -84,7 +84,7 @@ Use a really **short signature** (your first name or initials) or no signature a
 
 ::: greybox
 **Note:** "Ping me on Teams" is a link that directly opens chat with the person as per [Teams Hyperlinks on Outlook Signature
-](https://learn.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature).
+](https://learn.microsoft.com/en-us/answers/questions/197688/teams-hyperlinks-on-outlook-signature?WT.mc_id=M365-MVP-33518).
 :::
 
 ## Implementation

@@ -78,7 +78,7 @@ ollama pull codellama:7b
 
 ### Microsoft Foundry Local - The Enterprise Solution
 
-**[Microsoft Foundry Local](https://azure.microsoft.com/en-us/products/ai-foundry/)** is a local version of Azure AI Foundry, designed for enterprise scenarios:
+**[Microsoft Foundry Local](https://azure.microsoft.com/en-us/products/ai-foundry/?WT.mc_id=AZ-MVP-33518)** is a local version of Azure AI Foundry, designed for enterprise scenarios:
 
 **Pros:**
 

@@ -33,7 +33,7 @@ The form shown in this screenshot is an example of bad control placement:
 
 This detracts from the visual appeal of the user interface, and results in an uneven user experience. After looking at all of this you may be thinking " **do I really need to work out exactly what spacing and dimensions I want to use for every detail of a form I make?** "
 
-The good news is that **you don't need to**: Microsoft have gone to a great deal of effort to [define standards](https://docs.microsoft.com/en-us/documentation/) for exactly how your form controls should be laid out, and these standards are worth taking into consideration. By all means, if you have disagreements with anything listed here then please discuss it with us and we'll consider changing our own standards (Microsoft have changed theirs over the years, after all), but we recommend using the following as a guide.
+The good news is that **you don't need to**: Microsoft have gone to a great deal of effort to [define standards](https://docs.microsoft.com/en-us/documentation/?WT.mc_id=DOP-MVP-33518) for exactly how your form controls should be laid out, and these standards are worth taking into consideration. By all means, if you have disagreements with anything listed here then please discuss it with us and we'll consider changing our own standards (Microsoft have changed theirs over the years, after all), but we recommend using the following as a guide.
 
 These examples assume that you are using the standard system font as defined in the rule mentioned above. Please note that although Dialog Units (DLUs) are better suited for generic (font independent) use, they are not available in the Visual Studio designer.
 

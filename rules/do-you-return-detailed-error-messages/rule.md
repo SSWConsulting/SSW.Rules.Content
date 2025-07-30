@@ -77,7 +77,7 @@ ASP.NET Core has built-in support for the problem details specification since .N
 ```csharp
 // Program.cs
 // This adds ProblemDetails service
-// Read more on https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#problem-details
+// Read more on https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#problem-details&WT.mc_id=DT-MVP-33518
 builder.Services.AddProblemDetails();
 
 ...
@@ -88,14 +88,14 @@ app.UseExceptionHandler();
 
 Using this option, the API will generate a problem details response for all HTTP client and server error responses that _don't have body content yet_.
 
-You can also customise the `ProblemDetailsService` behaviour - read more about it in the following link [Handle errors in ASP.NET Core | Customise Problem Details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#customize-problem-details).
+You can also customise the `ProblemDetailsService` behaviour - read more about it in the following link [Handle errors in ASP.NET Core | Customise Problem Details](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0#customize-problem-details&WT.mc_id=DT-MVP-33518).
 
 ⚠️ **Important**
-On certain templates, the default .NET Exception Handler middleware will **only** produce ProblemDetails responses for exceptions when running in a non-Development [environment](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#environments). See Option 2 below on how to make this consistent across environments.
+On certain templates, the default .NET Exception Handler middleware will **only** produce ProblemDetails responses for exceptions when running in a non-Development [environment](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-7.0#environments&WT.mc_id=DT-MVP-33518). See Option 2 below on how to make this consistent across environments.
 
 ### Option 2 - Customise Exception Handler Middleware (Recommended)
 
-This option provides more flexibility in controlling the API's behaviour when it encounters thrown exceptions. Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda).
+This option provides more flexibility in controlling the API's behaviour when it encounters thrown exceptions. Read more about it [here](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-8.0&preserve-view=true#exception-handler-lambda&WT.mc_id=DT-MVP-33518).
 By Customising the `ExceptionHandler` middleware, developers have complete control over what format endpoints should return under a particular scenario.
 
 Below is an example of customising the `ExceptionHandler` middleware to produce a `ProblemDetails` response for any exception.

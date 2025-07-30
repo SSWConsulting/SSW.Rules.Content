@@ -18,4 +18,4 @@ The term MVVM means Model-View-ViewModel design pattern. This pattern is an adap
 <!--endintro-->
 
 The most important aspect of WPF or Silverlight that makes MVVM a great pattern to use is the data binding infrastructure. By binding properties of a view to a ViewModel, you get loose coupling between the two and entirely remove the need for writing code in a ViewModel that directly updates a view. In a sense, Views and unit tests are just two different types of ViewModel consumers. Having a suite of tests for an application's ViewModels provides free and fast regression testing, which helps reduce the cost of maintaining an application over time.
-[A good article about MVVM](http://msdn.microsoft.com/en-us/magazine/dd419663.aspx)
+[A good article about MVVM](http://msdn.microsoft.com/en-us/magazine/dd419663.aspx?WT.mc_id=DP-MVP-33518)

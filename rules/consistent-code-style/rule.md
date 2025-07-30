@@ -24,7 +24,7 @@ See the [EditorConfig file specification](https://spec.editorconfig.org)
 
 Most IDEs will automatically find and use a _.editorconfig_ file to format code.
 
-See [Keep your code clean, automatically!](https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-now-available/#keep-your-code-clean-automatically).
+See [Keep your code clean, automatically!](https://devblogs.microsoft.com/visualstudio/visual-studio-17-1-preview-2-is-now-available/#keep-your-code-clean-automatically?WT.mc_id=DT-MVP-33518).
 
 ::: good
 ![Good example - Project using a ".editorconfig" file](vs2022-add-editorconfig.png)

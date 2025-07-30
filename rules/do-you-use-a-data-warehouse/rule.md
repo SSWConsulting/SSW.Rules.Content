@@ -93,11 +93,11 @@ After defining business goals and assessing data, the next step is to develop a 
 ### Popular Data Warehouse products
 
 - [Microsoft Fabric](https://www.microsoft.com/en-au/microsoft-fabric)
-- [Azure Synapse Analytics](https://azure.microsoft.com/en-au/products/synapse-analytics/)
+- [Azure Synapse Analytics](https://azure.microsoft.com/en-au/products/synapse-analytics/?WT.mc_id=DP-MVP-33518)
 - [Amazon Redshift](https://aws.amazon.com/redshift/)
 - [Google BigQuery](https://cloud.google.com/bigquery)
 - [Snowflake](https://www.snowflake.com/)
 - (On prem) [Microsoft SQL Server](https://www.microsoft.com/en-au/sql-server/sql-server-downloads)
-- (On prem) [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions)
+- (On prem) [SQL Server Analysis Services](https://learn.microsoft.com/en-us/analysis-services/ssas-overview?view=asallproducts-allversions&WT.mc_id=DP-MVP-33518)
 
 Remember, the decision to use a Data Warehouse should be based on the specific needs and requirements of your organization. Consider factors such as data volume, complexity, analytical needs, and long-term data retention before opting for a Data Warehouse solution.

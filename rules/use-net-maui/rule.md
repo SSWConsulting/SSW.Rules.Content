@@ -33,7 +33,7 @@ Theoretically, it is possible to write your code only once and share 100% of the
 ![Figure: Bad example - Xamarin project targeting a single platform](xamarin-platform-bad.png)
 :::
 
-It is possible to implement beautiful and complex UI designs in .NET MAUI, especially given the rich ecosystem of plugins and templates available (see rule: [Do you know where to find the best Xamarin resources?](/the-best-xamarin-resources)). You can use drawing APIs like [Microsoft.Maui.Graphics](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/graphics/) or the [new .NET MAUI Community Toolkit](https://docs.microsoft.com/en-us/dotnet/communitytoolkit/maui/).
+It is possible to implement beautiful and complex UI designs in .NET MAUI, especially given the rich ecosystem of plugins and templates available (see rule: [Do you know where to find the best Xamarin resources?](/the-best-xamarin-resources)). You can use drawing APIs like [Microsoft.Maui.Graphics](https://docs.microsoft.com/en-us/dotnet/maui/user-interface/graphics/?WT.mc_id=DT-MVP-33518) or the [new .NET MAUI Community Toolkit](https://docs.microsoft.com/en-us/dotnet/communitytoolkit/maui/?WT.mc_id=DT-MVP-33518).
 
 ::: good
 ![Figure: Good example - Cross-platform .NET MAUI app targeting multiple platforms with a shared codebase](single-project-good.png)

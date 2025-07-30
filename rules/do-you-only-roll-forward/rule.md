@@ -63,6 +63,6 @@ To keep your deployments stress free, do the following:
 - [Write Unit Tests](https://www.ssw.com.au/rules/rules-to-better-unit-tests/)
 - [Understand the different types of testing](https://www.ssw.com.au/rules/different-types-of-testing/)
 - [Set up a production-like environment](https://www.ssw.com.au/rules/do-you-know-which-environments-you-need-to-provision-when-starting-a-new-project/)
-- [Manage Feature Flags](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal)
+- [Manage Feature Flags](https://learn.microsoft.com/en-us/azure/azure-app-configuration/manage-feature-flags?tabs=azure-portal&WT.mc_id=AZ-MVP-33518)
 
 If issues occur, rolling forward with targeted fixes is the best way to maintain progress and stability.

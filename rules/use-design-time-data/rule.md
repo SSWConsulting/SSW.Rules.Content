@@ -18,7 +18,7 @@ redirects:
   - do-you-use-design-time-data
 ---
 
-**UPDATE:** XAML Previewer was [deprecated in Visual Studio 2019](https://learn.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-previewer/?pivots=windows). For .NET MAUI use [Hot Reload](/use-hot-reload)
+**UPDATE:** XAML Previewer was [deprecated in Visual Studio 2019](https://learn.microsoft.com/en-us/xamarin/xamarin-forms/xaml/xaml-previewer/?pivots=windows&WT.mc_id=DT-MVP-33518). For .NET MAUI use [Hot Reload](/use-hot-reload)
 
 The XAML previewer in Visual Studio is a useful tool for designing your Xamarin UI. One limitation is that often your controls are bound to properties in your ViewModel (see rule [Do you use the MVVM pattern?](/use-mvvm-pattern)), meaning that you can't see what your UI will look like with the data loaded, without building and running your app.
 

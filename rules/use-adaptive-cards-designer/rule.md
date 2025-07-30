@@ -21,7 +21,7 @@ If you are using [Microsoft Bot Framework](https://dev.botframework.com/) and [B
 There are two ways to use Adaptive Cards Designer:
 
 - Using [online version](https://adaptivecards.io/designer/)
-- Using [Adaptive Cards Designer SDK](https://docs.microsoft.com/en-us/adaptive-cards/sdk/designer) to embed into your application
+- Using [Adaptive Cards Designer SDK](https://docs.microsoft.com/en-us/adaptive-cards/sdk/designer?WT.mc_id=M365-MVP-33518) to embed into your application
 
 ::: bad
 ![Figure: Bad example - Using Bot Framework Emulator to design the card](design-cards-in-emulator.png)

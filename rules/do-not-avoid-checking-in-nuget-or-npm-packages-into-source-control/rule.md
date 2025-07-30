@@ -25,6 +25,6 @@ Figure: Do not have a folder called "packages" or "Node_Modules"
 
 :::
 
-Read more about how to [omit NuGet packages in source control system](https://docs.microsoft.com/en-us/nuget/consume-packages/packages-and-source-control)
+Read more about how to [omit NuGet packages in source control system](https://docs.microsoft.com/en-us/nuget/consume-packages/packages-and-source-control?WT.mc_id=DOP-MVP-33518)
 
-For better package management , may consider using the [Package Management](https://docs.microsoft.com/en-us/vsts/package/overview?view=tfs-2018) tool in TFS
+For better package management , may consider using the [Package Management](https://docs.microsoft.com/en-us/vsts/package/overview?view=tfs-2018&WT.mc_id=DOP-MVP-33518) tool in TFS

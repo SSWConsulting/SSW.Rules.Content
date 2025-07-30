@@ -123,8 +123,8 @@ Documents to be read or edited by the Product Owner (or other members of the Scr
 
 Azure DevOps wiki options:
 
-* [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser) (recommended)
-* [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser)
+* [Wiki edited via the repo](https://docs.microsoft.com/en-us/azure/devops/project/wiki/publish-repo-to-wiki?view=azure-devops&tabs=browser&WT.mc_id=AZ-MVP-33518) (recommended)
+* [Wiki edited via the portal](https://docs.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo?view=azure-devops&tabs=browser&WT.mc_id=AZ-MVP-33518)
 * An alternative Wiki platform (e.g. [Confluence](https://www.atlassian.com/software/confluence))
 
 GitHub wiki options:

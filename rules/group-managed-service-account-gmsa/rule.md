@@ -78,4 +78,4 @@ The final command could look like this:
 
 If the command returns **True**, everything is configured correctly.
 
-You can read more about gMSAs here: <https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview>
+You can read more about gMSAs here: <https://docs.microsoft.com/en-us/windows-server/security/group-managed-service-accounts/group-managed-service-accounts-overview>?WT.mc_id=ES-MVP-33518

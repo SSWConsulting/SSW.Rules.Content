@@ -80,7 +80,7 @@ Create a **GlobalSuppressions.cs** file in your project with the rules that have
 
 ![Figure: The suppressions file tells Code Analysis which rules it should disable for specific code blocks](suppressions-file.png)
 
-**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview>
+**More Information:** [Do you make instructions at the beginning of a project and improve them gradually?](/do-you-make-instructions-at-the-beginning-of-a-project-and-improve-them-gradually) and <https://docs.microsoft.com/en-us/visualstudio/code-quality/in-source-suppression-overview>?WT.mc_id=DT-MVP-33518
 
 ### Level 7
 

@@ -47,6 +47,6 @@ If you use Microsoft Endpoint Manager, you can roll out Credential Guard with an
 
 ### More information & other options
 
-For more information or for instructions to implement Credential Guard on a single computer, see [Microsoft's documentation on Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage).
+For more information or for instructions to implement Credential Guard on a single computer, see [Microsoft's documentation on Credential Guard](https://docs.microsoft.com/en-us/windows/security/identity-protection/credential-guard/credential-guard-manage?WT.mc_id=ES-MVP-33518).
 
 For more security tips, read [Adam Cogan's 10 Security Tips for CEOs and SysAdmins](https://adamcogan.com/2022/04/10/better-security-10-tips-for-ceos-and-sysadmins/).

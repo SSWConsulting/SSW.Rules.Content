@@ -16,7 +16,7 @@ guid: 9aa306ef-cb33-4bed-b9a6-40d67515c4a6
 
 `youtube: https://youtu.be/C7RKx3mJyxI`
 
-When building a chat bot, it needs some way to understand natural language text to simulate a person and provide a conversational experience for users. If you are using [Microsoft Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0), you can use [LUIS](https://www.luis.ai). LUIS is a natural language processing service and it provides some awesome benefits...
+When building a chat bot, it needs some way to understand natural language text to simulate a person and provide a conversational experience for users. If you are using [Microsoft Bot Framework](https://docs.microsoft.com/en-us/azure/bot-service/?view=azure-bot-service-4.0&WT.mc_id=AZ-MVP-33518), you can use [LUIS](https://www.luis.ai). LUIS is a natural language processing service and it provides some awesome benefits...
 
 <!--endintro-->
 

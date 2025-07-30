@@ -20,4 +20,4 @@ You should review all your Intranet content and for all classic features (pages,
 
 <!--endintro-->
 
-More info: [Getting started with the SharePoint modernization scanner](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-scanner).
+More info: [Getting started with the SharePoint modernization scanner](https://docs.microsoft.com/en-us/sharepoint/dev/transform/modernize-scanner?WT.mc_id=M365-MVP-33518).

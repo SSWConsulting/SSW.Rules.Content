@@ -24,7 +24,7 @@ When creating a Power BI connection to Dynamics 365, the first thing that comes 
 
 Wrong.
 
-When connecting to Dynamics 365 data always use the Dataverse connector (if it is available). Your system admin will need to tinker with some settings to enable this support, but it's simple and easy enough to do, here's the link: https://docs.microsoft.com/en-us/powerapps/maker/data-platform/view-entity-data-power-bi.
+When connecting to Dynamics 365 data always use the Dataverse connector (if it is available). Your system admin will need to tinker with some settings to enable this support, but it's simple and easy enough to do, here's the link: https://docs.microsoft.com/en-us/powerapps/maker/data-platform/view-entity-data-power-bi.?WT.mc_id=DX-MVP-33518
 
 Once enabled instead of using Dynamics 365 (online) connector use the Dataverse connector.
 

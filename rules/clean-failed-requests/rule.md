@@ -64,11 +64,11 @@ If that is the case, continue to other requests. As the logs become cleaner, it 
 
 While the Fixable Failed Requests can be dealt with by resolving their underlying causes, the other two categories will continue to clutter your Application Insights.
 
-You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#application-dashboard) and [Azure Workbook](https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview) to filter out any unwanted failed requests and display only useful information.
+You can use [Application Dashboard](https://learn.microsoft.com/en-us/azure/azure-monitor/app/overview-dashboard#application-dashboard?WT.mc_id=AZ-MVP-33518) and [Azure Workbook](https://learn.microsoft.com/en-us/azure/azure-monitor/visualize/workbooks-overview?WT.mc_id=AZ-MVP-33518) to filter out any unwanted failed requests and display only useful information.
 
 **Application Dashboard** is a customizable interface that provides an overview of an application's performance and health. You can access it at the top of the Overview page of your Application Insights. If the Application Dashboard was not yet created, you must have a **Contributor Role** in that Resource Group. A new Application dashboard automatically displays various charts, metrics, and alerts to monitor application behavior.
 
-**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
+**Azure Workbooks** is a tool that allows users to create customized dashboards for data visualization and reporting on Azure resources. You can use it to create charts and tables with custom queries in [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/?WT.mc_id=AZ-MVP-33518), and then pin them to your **Application Dashboard**. By using the custom Kusto query, it is possible to filter out any unwanted Failed Requests for your custom chart!
 
 ::: info
 **Tip:** You do not need to write your query from scratch!
@@ -77,7 +77,7 @@ Go to Application Insights | Failures | View in Logs | Failed request count.
 
 ![Figure: Access default Failed Requests query - Application Insights | Failures | View in Logs | Failed request count](failed-requests-logs.png)
 
-This will provide you with the default query, that you can customize and test in [Azure Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs), before saving it in Workbooks.
+This will provide you with the default query, that you can customize and test in [Azure Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/data-platform-logs?WT.mc_id=AZ-MVP-33518), before saving it in Workbooks.
 
 ![Figure: Save Azure Logs Query in Workbooks - Pin to | Send to workbook](send-to-workbook.png)  
 :::

@@ -73,7 +73,7 @@ There are few options available to perform data type change correctly:
 Using EF Code First Migrations is comparable to using one of the below combinations:
 
 * DBUp + [SQL verify](https://www.nuget.org/packages/SSW.SqlVerify.EF/)
-* [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx) (.dacpac files)
+* [DAC Support For SQL Server Objects and Versions](https://technet.microsoft.com/en-us/library/ee210549%28v=sql.110%29.aspx?WT.mc_id=DP-MVP-33518) (.dacpac files)
 * SQL Deploy
 
 ```csharp

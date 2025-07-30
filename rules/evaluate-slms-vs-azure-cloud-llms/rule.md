@@ -10,7 +10,7 @@ created: 2024-10-03T16:15:00.000Z
 guid: e9b7c5bc-cb35-4876-9785-d2031fb4f69e
 ---
 
-When using [Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services), you often choose between Small Language Models (SLMs) and powerful cloud-based Large Language Models (LLMs), like [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/). While Azure OpenAI offer significant capabilities, they can also be expensive. In many cases, SLMs like [Phi-3](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/?msockid=08740f8c07f1631f3aeb1dfc061c62cc), can perform just as well for certain tasks, making them a more cost-effective solution. Evaluating the performance of SLMs against Azure OpenAI services is essential for balancing cost and performance.
+When using [Azure AI services](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services?WT.mc_id=AZ-MVP-33518), you often choose between Small Language Models (SLMs) and powerful cloud-based Large Language Models (LLMs), like [Azure OpenAI](https://learn.microsoft.com/en-us/azure/ai-services/openai/?WT.mc_id=AZ-MVP-33518). While Azure OpenAI offer significant capabilities, they can also be expensive. In many cases, SLMs like [Phi-3](https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/?msockid=08740f8c07f1631f3aeb1dfc061c62cc&WT.mc_id=AZ-MVP-33518), can perform just as well for certain tasks, making them a more cost-effective solution. Evaluating the performance of SLMs against Azure OpenAI services is essential for balancing cost and performance.
 
 <!--endintro-->
 ::: greybox

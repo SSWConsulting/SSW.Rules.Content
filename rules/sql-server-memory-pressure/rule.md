@@ -53,7 +53,7 @@ If the memory clerk MEMORYCLERK_SQLQERESERVATIONS is consuming memory, identify 
 For more information
 
 - [Brent Ozar on Memory Grants](https://www.brentozar.com/blitz/memory-grants/)
-- [Microsoft Learn on Troubleshooting Memory Grant Issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-memory-grant-issues)
+- [Microsoft Learn on Troubleshooting Memory Grant Issues](https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/performance/troubleshoot-memory-grant-issues?WT.mc_id=DP-MVP-33518)
 
 ### OBJECTSTORE_LOCK_MANAGER
 

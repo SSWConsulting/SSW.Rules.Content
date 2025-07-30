@@ -16,7 +16,7 @@ redirects:
   - do-you-use-＂-back＂-instead-of-＂-previous＂-or-other-variations
 ---
 
-According to [Design Specifications and Guidelines - User Assistance](https://docs.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29), the commands for navigating through a wizard should be "&lt; Back" and "Next &gt;".
+According to [Design Specifications and Guidelines - User Assistance](https://docs.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29?WT.mc_id=DT-MVP-33518), the commands for navigating through a wizard should be "&lt; Back" and "Next &gt;".
 
 <!--endintro-->
 

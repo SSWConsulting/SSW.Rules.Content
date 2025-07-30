@@ -45,12 +45,12 @@ Backup storage is the storage associated with your automated database backups th
 | Standard     | Supported     | Supported                          | 14 days                 | √                          |
 | Premium      | Supported     | Supported                          | 35 days                 | √                          |
 
-**Figure: All the modern SQL Azure Service Tiers support back up. Web and Business tiers are being retired and do not support backup. Check [Web and Business Edition Sunset FAQ](https://msdn.microsoft.com/en-us/library/azure/dn741330.aspx) for up-to-date retention periods**
+**Figure: All the modern SQL Azure Service Tiers support back up. Web and Business tiers are being retired and do not support backup. Check [Web and Business Edition Sunset FAQ](https://msdn.microsoft.com/en-us/library/azure/dn741330.aspx?WT.mc_id=AZ-MVP-33518) for up-to-date retention periods**
 
 **Learn more on Microsoft documentation:**
 
-- [Azure SQL Database Backup and Restore](https://msdn.microsoft.com/en-us/library/azure/jj650016.aspx)
-- [Restore a SQL Database Using Point in Time Restore](https://azure.microsoft.com/en-ca/blog/azure-sql-database-point-in-time-restore/)
+- [Azure SQL Database Backup and Restore](https://msdn.microsoft.com/en-us/library/azure/jj650016.aspx?WT.mc_id=AZ-MVP-33518)
+- [Restore a SQL Database Using Point in Time Restore](https://azure.microsoft.com/en-ca/blog/azure-sql-database-point-in-time-restore/?WT.mc_id=AZ-MVP-33518)
 
 **Other ways to back up Azure SQL Database:**
 

@@ -37,7 +37,7 @@ It is better to run Chocolatey in PowerShell - it may work in Command Prompt, bu
 
 ## Option 2: Winget
 
-[Winget](https://learn.microsoft.com/en-us/windows/package-manager/) is Microsoft's own package manager that developers can use to discover, install, upgrade, remove and configure a curated set of applications.
+[Winget](https://learn.microsoft.com/en-us/windows/package-manager/?WT.mc_id=WDIT-MVP-33518) is Microsoft's own package manager that developers can use to discover, install, upgrade, remove and configure a curated set of applications.
 
 Winget can be installed from the [Microsoft Store.](https://www.microsoft.com/p/app-installer/9nblggh4nns1#activetab=pivot:overviewtab)
 
@@ -55,9 +55,9 @@ winget install {{ APP NAME }}
 
 For example:
 
-![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png "Installing powertoys via winget")
+![Figure: Installing powertoys via winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/images/install.png "Installing powertoys via winget"?WT.mc_id=WDIT-MVP-33518)
 
-For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/).
+For more information see [MS Learn](https://learn.microsoft.com/en-us/windows/package-manager/winget/?WT.mc_id=WDIT-MVP-33518).
 
 ## Option 3: Homebrew
 

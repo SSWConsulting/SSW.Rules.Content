@@ -18,7 +18,7 @@ redirects:
   - schema-do-you-have-a-rowversion-column
 ---
 
-SQL Server rowversions are a data type available which are binary numbers that indicate the relative sequence in which data modifications took place in a database. See the MSDN article on rowversions here: [rowversion (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql?view=sql-server-ver15)
+SQL Server rowversions are a data type available which are binary numbers that indicate the relative sequence in which data modifications took place in a database. See the MSDN article on rowversions here: [rowversion (Transact-SQL)](https://docs.microsoft.com/en-us/sql/t-sql/data-types/rowversion-transact-sql?view=sql-server-ver15&WT.mc_id=DP-MVP-33518)
 
 <!--endintro-->
 

@@ -20,7 +20,7 @@ This information is essential for understanding which reports are delivering the
 
 ## Access Usage Metrics Report
 
-You need one of the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics):
+You need one of the below [permissions in the Power BI Workspace](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces?WT.mc_id=DP-MVP-33518) to access [Usage Metrics Report](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics?WT.mc_id=DP-MVP-33518):
 
 - Admin
 - Contributor

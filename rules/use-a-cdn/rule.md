@@ -51,7 +51,7 @@ Front Door is a good option, but it has some notable downsides regarding redirec
 
 ❌ Cons:
 
-* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits) per resource group.
+* **Limited Redirects**: Front Door restricts bulk redirects with a [limit of 800 resources](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#resource-group-limits?WT.mc_id=AZ-MVP-33518) per resource group.
 * **Time-Consuming Deployments**: Deployments using Bicep can take a long time, sometimes up to hours.
 * **Lack of Flexibility**: It doesn’t offer much flexibility for custom redirects, such as using regular expressions.
 * **Painful Cache Purging**: Cache purging can be unreliable and can take up to 15 minutes.

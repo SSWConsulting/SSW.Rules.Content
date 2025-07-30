@@ -21,7 +21,7 @@ Traditional controllers require a lot of boilerplate code to set up and configur
 
 Minimal APIs are a simplified approach for building fast HTTP APIs with ASP.NET Core. You can build fully functioning REST endpoints with minimal code and configuration. Skip traditional scaffolding and avoid unnecessary controllers by fluently declaring API routes and actions.
 
-Check out the Microsoft Docs for more information on [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis).
+Check out the Microsoft Docs for more information on [Minimal APIs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/minimal-apis?WT.mc_id=DT-MVP-33518).
 
 <!--endintro-->
 

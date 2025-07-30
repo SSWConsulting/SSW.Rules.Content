@@ -12,7 +12,7 @@ guid: 97d83855-0de7-4200-a1ca-071efe18fd23
 ---
 
 1. Check the following table whether ClickOnce is suit for your application.\
-   This table compares the features of ClickOnce deployment with Windows Installer deployment. Read [ClickOnce Deployment Overview](https://learn.microsoft.com/en-us/visualstudio/deployment/clickonce-security-and-deployment) for more details
+   This table compares the features of ClickOnce deployment with Windows Installer deployment. Read [ClickOnce Deployment Overview](https://learn.microsoft.com/en-us/visualstudio/deployment/clickonce-security-and-deployment?WT.mc_id=ES-MVP-33518) for more details
 
 <!--endintro-->
 
@@ -45,7 +45,7 @@ Notes
 2. With ClickOnce, rollback is available in Add or Remove Programs.
 3. ClickOnce deployment can access HKEY_LOCAL_MACHINE (HKLM) only with Full Trust permission.
 
-For more information, see [Choosing a Deployment Strategy](https://learn.microsoft.com/en-us/visualstudio/deployment/choosing-a-clickonce-deployment-strategy?view=vs-2022).
+For more information, see [Choosing a Deployment Strategy](https://learn.microsoft.com/en-us/visualstudio/deployment/choosing-a-clickonce-deployment-strategy?view=vs-2022&WT.mc_id=DT-MVP-33518).
 
 2. Customize the Installation of the Application, including: Publish location, installation url, install mode, publish version, Download files on demand, Prerequisites, Updates, Options.
 
@@ -55,7 +55,7 @@ For more information, see [Choosing a Deployment Strategy](https://learn.microso
 
 ![Figure: Security tab of the application properties](clickonce_securitytab.gif)
 
-4. Deploy the COM Components. Read [Deploying COM Components with ClickOnce](https://learn.microsoft.com/en-us/visualstudio/deployment/deploying-com-components-with-clickonce) for more informations.
+4. Deploy the COM Components. Read [Deploying COM Components with ClickOnce](https://learn.microsoft.com/en-us/visualstudio/deployment/deploying-com-components-with-clickonce?WT.mc_id=DT-MVP-33518) for more informations.
 5. Publish the application using Publish Wizard.
 
 ![Figure: ClickOnce Publish Wizard](images/clickonce_publishwizard.gif)

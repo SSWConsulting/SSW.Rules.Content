@@ -29,7 +29,7 @@ if (A is null || (A.PropertyA == SOME_CONSTANT && B))
 Figure: Bad example - Vulnerable to race condition
 :::
 
-When the above code is run single-threaded, the second part of the if-condition would never be reached when A is null. However, if A is shared among multiple threads, the value of A could change from not null to null after passing the first check of if-condition, resulting in a [NRE](https://learn.microsoft.com/en-us/dotnet/api/system.nullreferenceexception?view=net-7.0) in the second check of if-condition.
+When the above code is run single-threaded, the second part of the if-condition would never be reached when A is null. However, if A is shared among multiple threads, the value of A could change from not null to null after passing the first check of if-condition, resulting in a [NRE](https://learn.microsoft.com/en-us/dotnet/api/system.nullreferenceexception?view=net-7.0&WT.mc_id=DT-MVP-33518) in the second check of if-condition.
 
 In order to make the code thread-safe, you should make a local copy of the shared value so that value change caused by another thread would no longer lead to crash.
 

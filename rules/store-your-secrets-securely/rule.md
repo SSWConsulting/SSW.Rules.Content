@@ -60,11 +60,11 @@ Figure: Bad practice - Overall rating: 1/10
 
 ::: greybox
 
-#### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://docs.microsoft.com/en-us/previous-versions/zhhddkxy(v=vs.140)?redirectedfrom=MSDN)
+#### Store production passwords in source control protected with the [ASP.NET IIS Registration Tool](https://docs.microsoft.com/en-us/previous-versions/zhhddkxy(v=vs.140?WT.mc_id=ES-MVP-33518)?redirectedfrom=MSDN)
 
 Pros:
 
-* Minimal change to existing process – no need for [DPAPI](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/introduction?view=aspnetcore-5.0) or a dedicated Release Management (RM) tool
+* Minimal change to existing process – no need for [DPAPI](https://docs.microsoft.com/en-us/aspnet/core/security/data-protection/introduction?view=aspnetcore-5.0&WT.mc_id=ES-MVP-33518) or a dedicated Release Management (RM) tool
 * Simple and easy to understand
 
 Cons:
@@ -103,7 +103,7 @@ Figure: Bad practice - Overall rating: 4/10
 
 ::: greybox
 
-#### [Use External Configuration Files](https://docs.microsoft.com/en-us/aspnet/identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure)
+#### [Use External Configuration Files](https://docs.microsoft.com/en-us/aspnet/identity/overview/features-api/best-practices-for-deploying-passwords-and-other-sensitive-data-to-aspnet-and-azure?WT.mc_id=ES-MVP-33518)
 
 Pros:
 
@@ -195,7 +195,7 @@ Pros:
 * Dynamically cycles secrets
 * Access granted based on Azure AD permissions - no need to 'securely' share passwords with colleagues
 * Can be used to inject secrets in your CI/CD pipelines for non-cloud solutions
-* Can be used by on-premise applications (more configuration - see [Use Application ID and X.509 certificate for non-Azure-hosted apps](https://learn.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-7.0#use-application-id-and-x509-certificate-for-non-azure-hosted-apps))
+* Can be used by on-premise applications (more configuration - see [Use Application ID and X.509 certificate for non-Azure-hosted apps](https://learn.microsoft.com/en-us/aspnet/core/security/key-vault-configuration?view=aspnetcore-7.0#use-application-id-and-x509-certificate-for-non-azure-hosted-apps&WT.mc_id=AZ-MVP-33518))
 
 Cons:
 
@@ -235,9 +235,9 @@ Figure: Good practice - Overall rating 10/10
 The following resources show some concrete examples on how to apply the principles described:
 
 * [github.com/brydeno/bicepsofsteel](https://github.com/brydeno/bicepsofsteel)
-* [Microsoft Learn | Best practices for using Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/best-practices)
-* [Microsoft Learn | Azure Key Vault security](https://learn.microsoft.com/en-us/azure/key-vault/general/security-features)
-* [Microsoft Learn | Safe storage of app secrets in development in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows)
-* [Microsoft Learn | Connection strings and configuration files](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15)
-* [Microsoft Learn | Use managed identities to access App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x&pivots=framework-dotnet)
+* [Microsoft Learn | Best practices for using Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/best-practices?WT.mc_id=AZ-MVP-33518)
+* [Microsoft Learn | Azure Key Vault security](https://learn.microsoft.com/en-us/azure/key-vault/general/security-features?WT.mc_id=AZ-MVP-33518)
+* [Microsoft Learn | Safe storage of app secrets in development in ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-5.0&tabs=windows&WT.mc_id=AZ-MVP-33518)
+* [Microsoft Learn | Connection strings and configuration files](https://learn.microsoft.com/en-us/sql/connect/ado-net/connection-strings-and-configuration-files?view=sql-server-ver15&WT.mc_id=AZ-MVP-33518)
+* [Microsoft Learn | Use managed identities to access App Configuration](https://learn.microsoft.com/en-us/azure/azure-app-configuration/howto-integrate-azure-managed-service-identity?tabs=core5x&pivots=framework-dotnet&WT.mc_id=AZ-MVP-33518)
 * [Stop storing your secrets with Azure Managed Identities | Bryden Oliver](https://www.youtube.com/watch?v=F9H0txgz0ns)

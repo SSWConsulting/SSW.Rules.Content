@@ -24,11 +24,11 @@ This issue needs to be addressed when migrating projects from .NET Framework to 
 
 <!--endintro-->
 
-The primary reason for switching to `System.Text.Json` is its [faster performance and lower memory usage](https://devblogs.microsoft.com/dotnet/the-convenience-of-system-text-json/) compared to `Newtonsoft.Json`. However, it also breaks compatibility and lacks some features found in `Newtonsoft.Json`.
+The primary reason for switching to `System.Text.Json` is its [faster performance and lower memory usage](https://devblogs.microsoft.com/dotnet/the-convenience-of-system-text-json/?WT.mc_id=DT-MVP-33518) compared to `Newtonsoft.Json`. However, it also breaks compatibility and lacks some features found in `Newtonsoft.Json`.
 
 ## The differences
 
-[This Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#table-of-differences) contains a compiled list of differences between `System.Text.Json` and `Newtonsoft.Json`.
+[This Microsoft documentation](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#table-of-differences&WT.mc_id=DT-MVP-33518) contains a compiled list of differences between `System.Text.Json` and `Newtonsoft.Json`.
 
 ### Notable Things to Check
 
@@ -42,7 +42,7 @@ The primary reason for switching to `System.Text.Json` is its [faster performanc
 
 - ⚠️ **No Support for JSON Patch Documents**
 
-  Deserialisation of JSON Patch documents might fail due to [lack of support for JSON Path queries](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#json-path-queries-not-supported), e.g., commonly used in legacy `PATCH` endpoints.
+  Deserialisation of JSON Patch documents might fail due to [lack of support for JSON Path queries](https://learn.microsoft.com/en-us/dotnet/standard/serialization/system-text-json/migrate-from-newtonsoft?pivots=dotnet-9-0#json-path-queries-not-supported&WT.mc_id=DT-MVP-33518), e.g., commonly used in legacy `PATCH` endpoints.
 
 - ⚠️ **Limited OData Support**
 
@@ -50,4 +50,4 @@ The primary reason for switching to `System.Text.Json` is its [faster performanc
 
 - ⚠️ **Limited Support for Date Formats**
 
-  While `System.Text.Json` [supports the ISO 8601-1:2019 format](https://learn.microsoft.com/en-us/dotnet/standard/datetime/system-text-json-support#the-extended-iso-8601-12019-profile-in-systemtextjson) for date and time components, `Newtonsoft.Json` accommodates a broader range of date-time strings. For example, `System.Text.Json` cannot deserialise the format `8:00am February, 24 2024`.
+  While `System.Text.Json` [supports the ISO 8601-1:2019 format](https://learn.microsoft.com/en-us/dotnet/standard/datetime/system-text-json-support#the-extended-iso-8601-12019-profile-in-systemtextjson?WT.mc_id=DT-MVP-33518) for date and time components, `Newtonsoft.Json` accommodates a broader range of date-time strings. For example, `System.Text.Json` cannot deserialise the format `8:00am February, 24 2024`.
