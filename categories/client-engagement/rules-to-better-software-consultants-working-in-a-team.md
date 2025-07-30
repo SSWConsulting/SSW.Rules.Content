@@ -47,7 +47,7 @@ index:
 - do-you-know-the-best-books-to-read-on-software-development
 - do-you-know-the-best-place-to-find-good-software-videos
 - do-you-know-the-nice-way-to-correct-someone
-- do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+- provide-the-reason-behind-rules
 - do-you-know-the-recurring-tasks-you-have-to-do
 - label-broken-equipment
 - do-you-notify-others-about-what-is-happening-in-the-company
