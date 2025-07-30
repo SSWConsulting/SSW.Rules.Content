@@ -31,6 +31,7 @@ See:
 <https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service?WT.mc_id=AZ-MVP-33518>
 
 **✅ Pros:**
+
 * Scalability and load balancing
 * Automated deployments
 * Managed platform with built-in features
@@ -38,6 +39,7 @@ See:
 * Offers a "longer shelf life" for legacy applications
 
 **❌ Cons:**
+
 * Requires Docker knowledge
 * May require code changes for compatibility
 
@@ -49,11 +51,13 @@ See:
 <https://azure.microsoft.com/en-us/products/virtual-machines/windows?WT.mc_id=AZ-MVP-33518>
 
 **✅ Pros:**
+
 * Full control over the environment
 * Can accommodate complex dependencies
 * Suitable for applications that require specific configurations
 
 **❌ Cons:**
+
 * More management overhead  
 * Higher cost compared to App Service
 
@@ -79,6 +83,7 @@ Migrating a Classic ASP website to Azure can present some challenges that requir
 * **Third-party Dependencies:** Evaluate any third-party dependencies your application uses and ensure they are compatible with the chosen Azure service. Some older libraries or components might not be compatible with the Azure environment, requiring you to find alternatives or update them to newer versions.
 
 ## Best practices for migrating classic ASP websites to Azure
+
 * **Assess Your Application:** Thoroughly evaluate your application's dependencies, codebase, and configuration to identify potential challenges and plan accordingly.
 * **Containerize with Docker:** If using Azure App Service, containerize your application with Docker to simplify deployment and improve portability.
 * **Modernize Your Code:** Update outdated libraries, refactor code, and address security vulnerabilities to improve security, performance, and maintainability.
