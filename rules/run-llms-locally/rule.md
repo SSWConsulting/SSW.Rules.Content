@@ -1,6 +1,6 @@
 ---
 type: rule
-title: Do you know hot to run LLMs locally?
+title: Do you know how to run LLMs locally?
 seoDescription: Learn how to run large language models locally using Ollama and Microsoft Foundry Local for enhanced privacy, control, and offline capabilities.
 uri: run-llms-locally
 authors:
