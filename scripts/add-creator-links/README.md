@@ -12,10 +12,10 @@ Automatically adds Microsoft Creator IDs to URLs in markdown files to track refe
 
 ```bash
 # Test first (see what would change)
-python3 add_creator_ids.py --creator-id MVP-{{YOUR_CREATOR_ID}} --dry-run
+python3 add-creator-ids.py --creator-id MVP-{{YOUR_CREATOR_ID}} --dry-run
 
 # Apply changes to all markdown files
-python3 add_creator_ids.py --creator-id MVP-{{YOUR_CREATOR_ID}}
+python3 add-creator-ids.py --creator-id MVP-{{YOUR_CREATOR_ID}}
 ```
 
 ### Example
