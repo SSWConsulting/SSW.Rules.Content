@@ -6,6 +6,8 @@ uri: run-llms-locally
 authors:
   - title: Brady Stroud
     url: https://www.ssw.com.au/people/brady-stroud
+  - title: Daniel Mackay
+    url: https://www.ssw.com.au/people/daniel-mackay
 related:
   - use-ai-responsibly
   - best-ai-tools
@@ -40,11 +42,13 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 
 ## Ollama vs Microsoft Foundry Local
 
+Two main platforms simplify running local LLMs: Ollama for its ease of use, and Microsoft Foundry for its enterprise integration.
+
 There are two primary platforms for running LLMs locally, each with distinct advantages:
 
 ### Ollama - The Open Source Champion
 
-**[Ollama](https://ollama.com/)** is an open-source platform that makes running LLMs locally incredibly simple:
+**[Ollama](https://ollama.com)** is an open-source platform that makes running LLMs locally incredibly simple:
 
 **✅ Pros:**
 
@@ -112,15 +116,12 @@ Here are some popular coding models to get you started:
 
 * [StarCoder](https://ollama.com/library/starcoder2) - Open-source code generation model (3B/15B)
 
-* [https://ollama.com/library/codestral](https://ollama.com/library/codestral) - designed by Mistral for code generation tasks
+* [Codestral](https://ollama.com/library/codestral) - designed by Mistral for code generation tasks
 
 ## Best practices
 
-* **Choose the right model size** - Balance capability with hardware constraints
-* **Monitor resource usage** - Watch CPU, RAM, and GPU utilization
-* **Keep models updated** - Regularly update to latest versions
-* **Backup configurations** - Save your local setup configurations
-* **Test performance** - Benchmark different models for your use cases
+* **Start with a ~7B parameter model** - Models like codellama:7b or llama3:8b are a great baseline for performance on consumer hardware (e.g., a MacBook with 16GB+ RAM)
+* **Benchmark models on your tasks** - A model that excels at writing prose may not be the best for generating C# code. Test a few to see what works best for your needs.
 * **Consider hybrid approaches** - Use local models for sensitive data, cloud for complex tasks
 
 Running LLMs locally provides developers with powerful AI capabilities while maintaining control over their data and environment. Whether you choose Ollama for simplicity or Foundry Local for enterprise features, local LLMs are becoming an essential tool for modern development workflows.
