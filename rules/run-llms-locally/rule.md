@@ -40,8 +40,6 @@ Local LLMs ensure your data never leaves your machine, provide consistent perfor
 * **Setup complexity** - Requires technical knowledge for initial configuration
 * **Updates** - Must manually update models and software
 
-
-
 ## Ollama vs Microsoft Foundry Local
 
 Two main platforms simplify running local LLMs: Ollama for its ease of use, and Microsoft Foundry for its enterprise integration.
