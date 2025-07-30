@@ -65,7 +65,7 @@ SET IDENTITY_INSERT Shippers ON --this will allow manual identity INSERTS on the
 SET IDENTITY_INSERT Shippers OFF --as it can only be on for one table at a time
 ```
 
-More information on [IDENTITY_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15)
+More information on [IDENTITY_INSERT](https://docs.microsoft.com/en-us/sql/t-sql/statements/set-identity-insert-transact-sql?redirectedfrom=MSDN&view=sql-server-ver15&WT.mc_id=ES-MVP-33518)
 
 ### Automatic Identity Range Handling
 

@@ -63,7 +63,7 @@ Filtered Views in Microsoft CRM provide access to the data available that suppor
 ::: greybox
 **More information:**
 
-If you only want read-only for CRM on-premises data for SharePoint users, this solution is fine. You create the External Content Type directly against the Filtered Views in the CRM database as per [Use SQL and Filtered Views to Retrieve Data for Reports](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/crm.6/gg328467(v=crm.6)?redirectedfrom=MSDN).
+If you only want read-only for CRM on-premises data for SharePoint users, this solution is fine. You create the External Content Type directly against the Filtered Views in the CRM database as per [Use SQL and Filtered Views to Retrieve Data for Reports](https://docs.microsoft.com/en-us/previous-versions/dynamicscrm-2013/crm.6/gg328467(v=crm.6?WT.mc_id=DX-MVP-33518)?redirectedfrom=MSDN).
 
 ![Figure: The result of "SELECT * FROM FilteredCtx_Project". Use Office SharePoint Designer to hook this up](figure1.jpg)  
 :::

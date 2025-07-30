@@ -61,9 +61,9 @@ There are heaps of tools out there you can use to make a product roadmap includi
 
 * [GitHub Projects and GitHub Issues](https://docs.github.com/en/issues/planning-and-tracking-with-projects/creating-projects/creating-a-project)
 * [GitHub Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
-* [Azure DevOps - Team delivery plans in Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/plans/review-team-plans?view=azure-devops)
-* [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops)
-* [Azure DevOps - Using the Epic roadmap to provide a calendar view](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/epic-roadmap?view=azure-devops)
+* [Azure DevOps - Team delivery plans in Azure Boards](https://docs.microsoft.com/en-us/azure/devops/boards/plans/review-team-plans?view=azure-devops&WT.mc_id=AZ-MVP-33518)
+* [Azure DevOps - Feature Timeline](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/feature-timeline?view=azure-devops&WT.mc_id=AZ-MVP-33518)
+* [Azure DevOps - Using the Epic roadmap to provide a calendar view](https://docs.microsoft.com/en-us/azure/devops/boards/extensions/epic-roadmap?view=azure-devops&WT.mc_id=AZ-MVP-33518)
 * [Aha!](https://www.aha.io/roadmapping/guide/product-roadmap/roadmap-examples)
 
 These tools have a lot of functionality and use differing complicated terminology like Features, Epics or MMFs (Minimum Marketable Features). So, they can be an intimidating first step into product roadmaps.

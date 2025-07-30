@@ -29,7 +29,7 @@ We've been down this road before where developers had to be taught not to manual
 
 ### Manually Creating Resources
 
-This is the most common and the worst. This is bad because it requires manual effort to reproduce and leaves margin for human error. Manually provisioning resources can also lead to [configuration drift](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#avoid-manual-configuration-to-enforce-consistency), which is to say that over time it can be difficult to keep track of which deployment configurations were made and why.
+This is the most common and the worst. This is bad because it requires manual effort to reproduce and leaves margin for human error. Manually provisioning resources can also lead to [configuration drift](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code#avoid-manual-configuration-to-enforce-consistency?WT.mc_id=AZ-MVP-33518), which is to say that over time it can be difficult to keep track of which deployment configurations were made and why.
 
 * Create resources in Azure and not save a script
 
@@ -74,20 +74,20 @@ So if you aren't manually creating your Azure resources, what options do you hav
 [Bicep - a declarative language for describing and deploying Azure resources](https://github.com/Azure/bicep)
 
 * Is free and fully supported by Microsoft
-* Has ['az' command line integration](https://docs.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest)
+* Has ['az' command line integration](https://docs.microsoft.com/en-us/cli/azure/bicep?view=azure-cli-latest&WT.mc_id=AZ-MVP-33518)
 * Awesome [extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-bicep) for VS Code to author ARM Bicep files ⭐️
 * Under the covers - Compiles into an ARM JSON template for deployment
 * Improves the repeatability of your deployment process, which can come in handy when you want to stage your deployment configuration
 * Much simpler syntax than ARM JSON
 * Handles resource dependencies automatically
-* [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell) for publishing versioned and reusable architectures
+* [Private Module Registries](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/private-module-registry?tabs=azure-powershell&WT.mc_id=AZ-MVP-33518) for publishing versioned and reusable architectures
 * No need for deploy scripts! There's an [bicep-deploy](https://github.com/Azure/bicep-deploy) GitHub Action from Microsoft to make it easy add deployments to your workflows
 
 ::: greybox
 **Tip:** If you are assigning any role assignment using bicep, make sure it doesn't exist before. (Using Azure Portal)
 :::
 
-**Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/)
+**Announcement info:** [Project Bicep – Next Generation ARM Templates](https://devblogs.microsoft.com/devops/project-bicep-next-generation-arm-templates/?WT.mc_id=AZ-MVP-33518)
 
 **Example Bicep files:** [Fullstack Webapp made with Bicep](https://github.com/william-liebenberg/BicepFlex)
 

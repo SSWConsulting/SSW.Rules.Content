@@ -76,4 +76,4 @@ Figure: Good example - Using @bind:after with input elements for real-time searc
 
 ### References
 
-* [ASP.NET Core Blazor data binding - Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/data-binding)
+* [ASP.NET Core Blazor data binding - Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/blazor/components/data-binding?WT.mc_id=DT-MVP-33518)

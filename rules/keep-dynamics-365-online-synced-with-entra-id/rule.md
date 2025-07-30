@@ -38,4 +38,4 @@ Recommended fields to keep as read-only in Dynamics 365:
 2. Title (Job Title);
 3. Address
 
-You can find more information on official Microsoft documentation: [Microsoft Entra ID attributes that are synced to Dynamics 365 / CDS](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/reference-connect-sync-attributes-synchronized#dynamics-crm).
+You can find more information on official Microsoft documentation: [Microsoft Entra ID attributes that are synced to Dynamics 365 / CDS](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/reference-connect-sync-attributes-synchronized#dynamics-crm?WT.mc_id=DX-MVP-33518).

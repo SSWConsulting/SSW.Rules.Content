@@ -29,7 +29,7 @@ It is important to understand the differences between on-premises groups and Mic
 
 These groups are created and managed within an organization's local network, using on-premises infrastructure such as Active Directory. These groups typically have limited collaboration features and are primarily used for email distribution and security management. If you have to manage the groups, users, or laptops on-premises that are domain-joined it is easier to create a security group in AD.
 
-**_NOTE: AD groups sync to Microsoft 365 (cloud), but Microsoft 365 groups don't sync back to AD, unless you enable [Group Writeback](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-group-writeback-enable)._**
+**_NOTE: AD groups sync to Microsoft 365 (cloud), but Microsoft 365 groups don't sync back to AD, unless you enable [Group Writeback](https://learn.microsoft.com/en-us/entra/identity/hybrid/connect/how-to-connect-group-writeback-enable?WT.mc_id=M365-MVP-33518)._**
 
 ![Figure: Choosing a group type in On-Premises Active Directory ](ad-group.png)
 
@@ -63,7 +63,7 @@ Microsoft 365 Groups are recommended by Microsoft, and they are often the best c
 
 Distribution groups are the way to go if you just want to be able to email a number of people at the same time. They lack the collaboration features of a Microsoft 365 group, but sometimes you don't need these extra bits.
 
-It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/powershell/module/exchange/upgrade-distributiongroup), so you can change your mind later. Choose these groups if the users need to always receive these emails (important alerts).
+It's also worth noting that Distribution groups can be [upgraded to Microsoft 365 Groups](https://learn.microsoft.com/en-us/powershell/module/exchange/upgrade-distributiongroup?WT.mc_id=M365-MVP-33518), so you can change your mind later. Choose these groups if the users need to always receive these emails (important alerts).
 
 #### \#3 Security groups
 
@@ -91,4 +91,4 @@ Unlike regular distribution groups that contain a defined set of members, the me
 
 ---
 
-You can read more about groups in Microsoft 365 in [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups?view=o365-worldwide).
+You can read more about groups in Microsoft 365 in [Microsoft's documentation](https://learn.microsoft.com/en-us/microsoft-365/admin/create-groups/compare-groups?view=o365-worldwide&WT.mc_id=M365-MVP-33518).

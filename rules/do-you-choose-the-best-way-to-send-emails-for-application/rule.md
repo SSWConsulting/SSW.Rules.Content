@@ -25,7 +25,7 @@ If you need a quick and dirty email, this is a good way.
 **2. Microsoft Graph API - Microsoft Recommended**
 
 Microsoft's recommended way of sending mail is through the Graph API. This is much more secure than just using any built-in commands and the command itself to send it is not much more complicated.
-You can check [how to send email through the Graph API](https://docs.microsoft.com/en-us/graph/api/user-sendmail?view=graph-rest-1.0&tabs=http)
+You can check [how to send email through the Graph API](https://docs.microsoft.com/en-us/graph/api/user-sendmail?view=graph-rest-1.0&tabs=http&WT.mc_id=DT-MVP-33518)
 
 **3. Sendgrid - Recommended if you need a lot of features**
 

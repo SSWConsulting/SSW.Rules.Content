@@ -41,7 +41,7 @@ Your users should never see the “yellow screen of death” in ASP.NET, or the 
 
 ### Application Insights
 
-**Application Insights** is recommended whenever possible. If you are still developing Windows applications, then you can still use Application Insights, read [Monitoring usage and performance in Classic Windows Desktop apps](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop) for more details.
+**Application Insights** is recommended whenever possible. If you are still developing Windows applications, then you can still use Application Insights, read [Monitoring usage and performance in Classic Windows Desktop apps](https://docs.microsoft.com/en-us/azure/azure-monitor/app/windows-desktop?WT.mc_id=WDIT-MVP-33518) for more details.
 
 Application Insights will tell you if your application goes down or runs slowly under load. If there are any uncaught exceptions, you’ll be able to drill into the code to pinpoint the problem. You can also find out what your users are doing with the application so that you can tune it to their needs in each development cycle.
 

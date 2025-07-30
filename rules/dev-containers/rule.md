@@ -38,7 +38,7 @@ Dev Containers let you define all the tools needed for a project in a programmat
 
 ### How do I set it up?
 
-Microsoft has a great [tutorial](https://learn.microsoft.com/en-us/training/modules/use-docker-container-dev-env-vs-code/) and [documentation](https://code.visualstudio.com/docs/devcontainers/containers) on how to get it running.
+Microsoft has a great [tutorial](https://learn.microsoft.com/en-us/training/modules/use-docker-container-dev-env-vs-code/?WT.mc_id=AZ-MVP-33518) and [documentation](https://code.visualstudio.com/docs/devcontainers/containers) on how to get it running.
 
 ### How does it work?
 

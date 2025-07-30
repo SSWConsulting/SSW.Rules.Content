@@ -22,7 +22,7 @@ YARP uses the concept of **Routes** to represent request patterns for the proxy 
 
 ![Figure: YARP is a reverse proxy that acts as the public endpoint for a site or service and forwards calls to backend servers](reverse-proxy.png)
 
-**Source:** [Announcing YARP 1.0 Release](https://devblogs.microsoft.com/dotnet/announcing-yarp-1-0-release/)
+**Source:** [Announcing YARP 1.0 Release](https://devblogs.microsoft.com/dotnet/announcing-yarp-1-0-release/?WT.mc_id=DT-MVP-33518)
 
 ### ✅ Advantages of YARP
 

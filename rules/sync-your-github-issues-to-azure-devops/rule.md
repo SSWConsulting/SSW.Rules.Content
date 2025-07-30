@@ -28,7 +28,7 @@ Here's a quick guide in setting it up for your GitHub Repository and Azure DevOp
 2. Create the GitHub Action secrets
 
 - **ADO_PERSONAL_ACCESS_TOKEN** (Azure DevOps | User settings | Security | Personal access tokens)  
-  The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) requires "read & write" permission for Work Items.
+  The [Azure Personal Access Token](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?WT.mc_id=AZ-MVP-33518) requires "read & write" permission for Work Items.
 
 - **GH_PERSONAL_ACCESS_TOKEN** (GitHub | Personal settings | Developer settings | Personal access tokens)  
   The [GitHub Personal Access Token](https://help.github.com/en/enterprise/2.17/user/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) requires "repo" permissions.

@@ -22,4 +22,4 @@ Dynamics 365 Copilot can be helpful for:
 - **UX** - Dynamics 365 Copilot can improve the user experience by providing real-time assistance and insights. For example, you can use it to process customer data quickly and make predictions.
 - **Versatility** - Dynamics 365 Copilot offers you a real-time, AI-powered assistant across sales, customer service, marketing, or supply chain management (Dynamics 365 Sales , Dynamics 365 Customer Service).
 
-**Note for developers:** You should use the [Sales Copilot deployment guide](https://learn.microsoft.com/en-us/dynamics365/sales/enable-setup-copilot) to ensure proper installation and setup. Remember to verify that users have the appropriate security roles assigned.
+**Note for developers:** You should use the [Sales Copilot deployment guide](https://learn.microsoft.com/en-us/dynamics365/sales/enable-setup-copilot?WT.mc_id=AI-MVP-33518) to ensure proper installation and setup. Remember to verify that users have the appropriate security roles assigned.

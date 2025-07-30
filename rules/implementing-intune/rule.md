@@ -20,7 +20,7 @@ Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It i
 
 With Intune, you can:
 
-- Choose to be 100% cloud with Intune, or be [co-managed](https://docs.microsoft.com/en-us/configmgr/comanage/overview) with Configuration Manager and Intune
+- Choose to be 100% cloud with Intune, or be [co-managed](https://docs.microsoft.com/en-us/configmgr/comanage/overview?WT.mc_id=EM-MVP-33518) with Configuration Manager and Intune
 - Set rules and configure settings on personal and organization-owned devices to access data and networks
 - Deploy and authenticate apps on devices - on-premises and mobile
 - Protect your company information by controlling the way users access and share information

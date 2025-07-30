@@ -100,7 +100,7 @@ The process is done on one's PC. You will need to download Power BI Desktop. At 
 1. Setup a local repository on your PC (1 time)
 2. Create new feature branch off ‘origin/main’ (**every time**)
 3. Open Power BI Desktop, and enable Power BI Projects - File | Option Settings | Options | Preview features | Power BI project (.pbip) save option (1 time)
-4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset. (**every time**)
+4. Open the [definition.pbir](https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-report#definitionpbir?WT.mc_id=WDIT-MVP-33518) file in the `<Report Name>.Reports` folder on the local repo on your PC. This will open the report in Power BI Desktop. It will allow you to edit both the report and the dataset. (**every time**)
 
    **Note:** PBIP folders do not by default contain any underlying data. So when you open a definition.pbir file the visuals may show as empty. Please refresh the report to download the data.
 

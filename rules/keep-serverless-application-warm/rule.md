@@ -17,7 +17,7 @@ redirects:
 
 When designing your Bot, you will very likely leverage some Bot Frameworks or AI Services to take care of the Natural Language Processing (NLP) so that you can focus on implementing your business logic.
 
-To host your business logic, it is common to use serverless applications such as [Azure Function](https://azure.microsoft.com/en-au/services/functions/), [Google Firebase](https://firebase.google.com/) or [Amazon Web Service Lambda Functions](https://aws.amazon.com/lambda/). Serverless applications come with amazing scaling abilities and simplified programming models, but they also suffer from at least one well-known side-effect that is commonly referred to as **Cold Starts**.
+To host your business logic, it is common to use serverless applications such as [Azure Function](https://azure.microsoft.com/en-au/services/functions/?WT.mc_id=AZ-MVP-33518), [Google Firebase](https://firebase.google.com/) or [Amazon Web Service Lambda Functions](https://aws.amazon.com/lambda/). Serverless applications come with amazing scaling abilities and simplified programming models, but they also suffer from at least one well-known side-effect that is commonly referred to as **Cold Starts**.
 
 <!--endintro-->
 

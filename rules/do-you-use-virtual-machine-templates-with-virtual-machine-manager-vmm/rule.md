@@ -23,4 +23,4 @@ There are 2 types of templates:
 
 You can create a VM template from an existing virtual hard disk, or from an existing VM deployed on a host.
 
-To see how this is done, you can check [here](https://docs.microsoft.com/en-us/system-center/vmm/library-vm-templates?view=sc-vmm-2019).
+To see how this is done, you can check [here](https://docs.microsoft.com/en-us/system-center/vmm/library-vm-templates?view=sc-vmm-2019&WT.mc_id=DP-MVP-33518).

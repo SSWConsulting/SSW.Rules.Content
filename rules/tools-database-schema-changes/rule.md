@@ -31,9 +31,9 @@ In the fast-evolving world of software development, it's crucial for your databa
 
 ### ✅ Recommended Tools for Database Schema Updates
 
-- [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/): EF Core Migrations has become the de facto standard for managing database schema changes. It offers robust, integrated support for versioning and deploying database changes, making it the preferred choice for both new and existing projects.
+- [Entity Framework Core Migrations](https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?WT.mc_id=DP-MVP-33518): EF Core Migrations has become the de facto standard for managing database schema changes. It offers robust, integrated support for versioning and deploying database changes, making it the preferred choice for both new and existing projects.
 
-- [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16) (.dacpac files): Still relevant for SQL Server database management, particularly in complex deployment scenarios.
+- [DAC Support For SQL Server Objects and Versions](https://learn.microsoft.com/en-us/sql/relational-databases/data-tier-applications/data-tier-applications?view=sql-server-ver16&WT.mc_id=DP-MVP-33518) (.dacpac files): Still relevant for SQL Server database management, particularly in complex deployment scenarios.
 
 ### ❌ Not Recommended
 

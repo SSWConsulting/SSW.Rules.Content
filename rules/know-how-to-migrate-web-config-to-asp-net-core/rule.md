@@ -11,7 +11,7 @@ related:
 created: 2023-07-31T22:49:30.966Z
 guid: d7ecd82c-da04-4f8e-bf79-9bb6002769e9
 ---
-The [`Web.Config`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/health-diagnostic-performance/create-web-config) file was used in ASP.NET to control the behaviour of individual ASP.NET applications and configure IIS. By default, modern ASP.NET Core applications use the Kestrel web server which is [configured in code](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/options?view=aspnetcore-7.0). Unless you are deploying your application using IIS, you will need to migrate your `Web.Config` file.
+The [`Web.Config`](https://learn.microsoft.com/en-us/troubleshoot/developer/webapps/aspnet/health-diagnostic-performance/create-web-config?WT.mc_id=DT-MVP-33518) file was used in ASP.NET to control the behaviour of individual ASP.NET applications and configure IIS. By default, modern ASP.NET Core applications use the Kestrel web server which is [configured in code](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/kestrel/options?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518). Unless you are deploying your application using IIS, you will need to migrate your `Web.Config` file.
 
 The `Web.Config` file contains data about the package inclusions, module inclusions and configuration values.
 
@@ -27,7 +27,7 @@ The server's configuration needs to be transferred to code within the `Program.c
 
 The `<customErrors>` element within `<system.web>` specifies redirects for the server to use if a response with a HTTP error code is generated. When the relevant [SSW Rule on useful error pages](/404-useful-error-page/) is followed, the mode will be 'RemoteOnly', meaning that the redirect will only be used if accessed from a separate host. The `<customErrors>` element will provide a default redirect, and may contain `<error>` elements that provide more specific redirects for specific error codes.
 
-The easiest way to transcode this configuration is using [`UseStatusCodePagesWithRedirects`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#usestatuscodepageswithredirects).
+The easiest way to transcode this configuration is using [`UseStatusCodePagesWithRedirects`](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/error-handling?view=aspnetcore-7.0#usestatuscodepageswithredirects&WT.mc_id=DT-MVP-33518).
 
 ```xml
 <customErrors mode="RemoteOnly" defaultRedirect="~/Error">
@@ -47,15 +47,15 @@ Figure: The migrated configuration to ASP.NET Core
 
 ### Namespaces
 
-The [`<pages>/<namespaces>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms164642(v=vs.100)) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives).
+The [`<pages>/<namespaces>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/ms164642(v=vs.100?WT.mc_id=DT-MVP-33518)) element defines import directives to use during assembly pre-compilation. The same affect can be achieved using modern C# [implicit import functionality](https://learn.microsoft.com/en-us/dotnet/core/project-sdk/overview#implicit-using-directives?WT.mc_id=DT-MVP-33518).
 
 ### HTTP Handler Routes
 
-The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bya7fh0a(v=vs.100)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mapget(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate)) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mappost(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate)).
+The [`<httpHandlers>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/bya7fh0a(v=vs.100?WT.mc_id=DT-MVP-33518)) element links routes to [`IHttpHandler`](https://learn.microsoft.com/en-us/dotnet/api/system.web.ihttphandler?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518) implementations. See the [ASP.NET Core Fundamentals article on Routing](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/routing?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) for replacement options, including the use of [`MapGet`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mapget?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mapget(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate&WT.mc_id=DT-MVP-33518)) and [`MapPost`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.builder.endpointroutebuilderextensions.mappost?view=aspnetcore-7.0#microsoft-aspnetcore-builder-endpointroutebuilderextensions-mappost(microsoft-aspnetcore-routing-iendpointroutebuilder-system-string-system-delegate&WT.mc_id=DT-MVP-33518)).
 
 ### HTTP Modules
 
-The [`<httpModules>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/9b9dh535(v=vs.100)) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
+The [`<httpModules>`](https://learn.microsoft.com/en-us/previous-versions/dotnet/netframework-4.0/9b9dh535(v=vs.100?WT.mc_id=DT-MVP-33518)) element configures modules that register themselves with the [`HttpApplication`](https://learn.microsoft.com/en-us/dotnet/api/system.web.httpapplication?view=netframework-4.8.1&WT.mc_id=DT-MVP-33518). See the documentation of individual modules regarding how their modern equivalents are to be used with an ASP.NET Core application.
 
 ## Custom Configuration Values
 
@@ -81,7 +81,7 @@ In the case of non-secret values, they can be moved to an `appsettings.json` fil
 
 **Figure: The application settings example migrated to `appsettings.json`**
 
-The class used to access configuration values will also need to be changed if the program is using [System.Configuration.ConfigurationManager](https://learn.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager) as that class is not available under ASP.NET Core. Instead, use a dependency injected [`IConfiguration`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration?view=dotnet-plat-ext-7.0) implementation from the `Microsoft.Extensions.Configuration` package.
+The class used to access configuration values will also need to be changed if the program is using [System.Configuration.ConfigurationManager](https://learn.microsoft.com/en-us/dotnet/api/system.configuration.configurationmanager?WT.mc_id=DT-MVP-33518) as that class is not available under ASP.NET Core. Instead, use a dependency injected [`IConfiguration`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.iconfiguration?view=dotnet-plat-ext-7.0&WT.mc_id=DT-MVP-33518) implementation from the `Microsoft.Extensions.Configuration` package.
 
 ```cs
 String visibility = ConfigurationManager.AppSettings["DefaultVisibility"];

@@ -19,7 +19,7 @@ Rolling out SharePoint solutions without a disciplined approach quickly creates 
 
 SPFx delivers modern client-side web parts and extensions that run natively in SharePoint Online and in SharePoint 2016/2019
 
-See []Overview of the SharePoint Framework(https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview).
+See []Overview of the SharePoint Framework(https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518).
 
 For SharePoint Data, use [PnPjs](https://pnp.github.io/pnpjs). Use Graph APIs, custom graph connectors or even your own APIs to retrieve data as needed.
 
@@ -39,7 +39,7 @@ Good example - Use out of the box replacements: [Where are the Content editor an
 
 Provider-hosted add-ins (formerly "Apps") run outside SharePoint, usually in Azure, and call back through OAuth. They are retiring in 2026 and shouldn't be built anymore.
 
-More info on [SharePoint Add-In retirement in Microsoft 365](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/retirement-announcement-for-add-ins).
+More info on [SharePoint Add-In retirement in Microsoft 365](https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/retirement-announcement-for-add-ins?WT.mc_id=M365-MVP-33518).
 
 ## 4. Use modern toolchain
 

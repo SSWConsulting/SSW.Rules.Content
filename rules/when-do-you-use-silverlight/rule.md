@@ -38,7 +38,7 @@ Useful links:
 **Socket Communication**
 
 YES. System.Net.Sockets.Socket Class provides a set of methods and properties for network communications. The Socket class allows you to perform asynchronous data transfer using any of the communication protocols listed in the ProtocolType enumeration. Currently, the only supported ProtocolType is the TCP protocol. Supported Version Silverlight 4 & 3.
-[MSDN – Socket Class](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket%28v=vs.95%29.aspx)
+[MSDN – Socket Class](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket%28v=vs.95%29.aspx?WT.mc_id=DT-MVP-33518)
 
 **For interactive charts in a BI (** **_Business Intelligence_** **) solution**
 
@@ -48,9 +48,9 @@ NO. There are some aftermarket solutions available. Notable are Telerik Silverli
 **For Richer TextBox**
 
 YES. Using Silverlight Rich TextBox user can format Text, insert image, DataGrid, Calendar, display Text right-to-left, print content, and can access clipboard. Accessing
-[Clipboard](http://msdn.microsoft.com/en-us/library/system.windows.clipboard%28v=vs.95%29.aspx) can be implemented by using Clipboard Object. Selected Text context can be implemented using
-[Popup](http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.popup%28v=vs.95%29.aspx) Control.
-[Sample in MSDN](http://msdn.microsoft.com/en-us/library/ff426926%28v=vs.95%29.aspx)
+[Clipboard](http://msdn.microsoft.com/en-us/library/system.windows.clipboard%28v=vs.95%29.aspx?WT.mc_id=WDIT-MVP-33518) can be implemented by using Clipboard Object. Selected Text context can be implemented using
+[Popup](http://msdn.microsoft.com/en-us/library/system.windows.controls.primitives.popup%28v=vs.95%29.aspx?WT.mc_id=WDIT-MVP-33518) Control.
+[Sample in MSDN](http://msdn.microsoft.com/en-us/library/ff426926%28v=vs.95%29.aspx?WT.mc_id=DP-MVP-33518)
 
 **For mapping apps**
 

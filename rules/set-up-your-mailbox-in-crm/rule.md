@@ -39,6 +39,6 @@ Do the following:
 
 ![Figure: Setting up your mailbox in CRM](setup-mailbox-crm.png)
 
-If you need more guidance on setting it up, you can find more on Microsoft documentation: [Set incoming and outgoing email synchronization](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/admin/set-incoming-outgoing-email-synchronization).
+If you need more guidance on setting it up, you can find more on Microsoft documentation: [Set incoming and outgoing email synchronization](https://docs.microsoft.com/en-us/dynamics365/customerengagement/on-premises/admin/set-incoming-outgoing-email-synchronization?WT.mc_id=DX-MVP-33518).
 
 After this is done, you should [install the Dynamics 365 App for Outlook](/dynamics-crm-install-the-dynamics-365-app-for-outlook).

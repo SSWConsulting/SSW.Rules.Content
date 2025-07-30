@@ -18,7 +18,7 @@ guid: 316f6ebe-1734-4a82-a4b0-551de9040334
 
 Dynamics isn't as customisable as your average React or Angular website and there are some prohibitive restrictions. For example, M:M relationship records can only be added, updated and viewed via grids.
 
-Use the power of [PCF controls](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/overview) to customize Dynamics 365 and provide more flexible functionality.
+Use the power of [PCF controls](https://docs.microsoft.com/en-us/powerapps/developer/component-framework/overview?WT.mc_id=DX-MVP-33518) to customize Dynamics 365 and provide more flexible functionality.
 
 <!--endintro-->
 

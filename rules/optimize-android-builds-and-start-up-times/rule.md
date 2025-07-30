@@ -112,10 +112,10 @@ $(AndroidStripILAfterAOT) removes IL code after performing AOT as it is no longe
 
 ### More information
 
-- [Optimize Xamarin Android Builds](https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds)
-- [IL Stripping](https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot)
-- [AOT and LLVM](https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything)
-- [Profiled AOT](https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android)
-- [Profiled ATO Release Notes](https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code)
+- [Optimize Xamarin Android Builds](https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds?WT.mc_id=DT-MVP-33518)
+- [IL Stripping](https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot?WT.mc_id=DT-MVP-33518)
+- [AOT and LLVM](https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything?WT.mc_id=DT-MVP-33518)
+- [Profiled AOT](https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android?WT.mc_id=DT-MVP-33518)
+- [Profiled ATO Release Notes](https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code?WT.mc_id=DT-MVP-33518)
 - [Mono AOT doc](https://www.mono-project.com/docs/advanced/aot)
 - [Mono LLVM doc](https://www.mono-project.com/docs/advanced/mono-llvm)

@@ -31,7 +31,7 @@ YouTube is a great resource for those who love audio-visual learning. It is comp
 
 ### Microsoft Learn - $0 - Recommended ✅
 
-[Microsoft Learn](https://docs.microsoft.com/en-us/learn/) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
+[Microsoft Learn](https://docs.microsoft.com/en-us/learn/?WT.mc_id=AZ-MVP-33518) is the best free tool out there. It provides hundreds of practical tutorials, heaps of video content and even lets you spin up little Azure sandboxes to try out Azure functionality. It is officially supported by Microsoft and so is one of the best ways to get ready for certifications.
 
 ### Online Learning Platforms - $100 - 500 AUD
 

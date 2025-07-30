@@ -28,7 +28,7 @@ ASP.NET Core includes default dependency injection for new Web Apps in the Start
 
 > "The default services container provided by ASP.NET Core provides a minimal feature set and is not intended to replace other containers."
 
-**Steve Smith, ([ASP.NET Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0))**
+**Steve Smith, ([ASP.NET Dependency Injection](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-5.0&WT.mc_id=DT-MVP-33518))**
 
 <!--endintro-->
 

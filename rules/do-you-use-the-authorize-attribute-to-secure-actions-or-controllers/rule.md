@@ -13,7 +13,7 @@ archivedreason: null
 guid: 31714273-ddd8-4d9a-8173-4601244dd866
 ---
 
-ASP.NET MVC provides the [AuthorizeAttribute](https://msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx) which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorization itself doesn’t need to be repeated.
+ASP.NET MVC provides the [AuthorizeAttribute](https://msdn.microsoft.com/en-us/library/system.web.mvc.authorizeattribute.aspx?WT.mc_id=DT-MVP-33518) which ensures there is a logged in user before it will execute an action. You can also provide parameters to restrict actions or controllers to only be accessible to certain roles or users. This is a better solution than checking whether a logged-in user exists in code as the authorization itself doesn’t need to be repeated.
 
 <!--endintro-->
 

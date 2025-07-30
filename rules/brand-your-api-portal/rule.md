@@ -27,9 +27,9 @@ If you are looking to sell access to your APIs, this is a fantastic feature beca
 
 <!--endintro-->
 
-The Developer Portal is open-source and available on [GitHub](https://github.com/Azure/api-management-developer-portal) and you can even [host it yourself](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-developer-portal).
+The Developer Portal is open-source and available on [GitHub](https://github.com/Azure/api-management-developer-portal) and you can even [host it yourself](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-developer-portal?WT.mc_id=DT-MVP-33518).
 
-Microsoft already provides a very nice [tutorial](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-developer-portal-customize) for how to customize your API Management Developer Portal.
+Microsoft already provides a very nice [tutorial](https://docs.microsoft.com/en-us/azure/api-management/api-management-howto-developer-portal-customize?WT.mc_id=DT-MVP-33518) for how to customize your API Management Developer Portal.
 
 Watch Adam Cogan and William Liebenberg discuss the benefits.
 

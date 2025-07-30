@@ -34,7 +34,7 @@ Now enjoy the full power of Teams usage analytics!
 ![Figure: Click on column names to sort data (e.g. "Chat Messages")](teams-tenant-usage-home.jpg)
 
 ::: info
-**Important:** If you can't see users logins such but GUIDs instead, you will need some SysAdmin magic to make it happen. Simply follow these steps: [Show user details in the reports](https://docs.microsoft.com/en-AU/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide#show-user-details-in-the-reports)
+**Important:** If you can't see users logins such but GUIDs instead, you will need some SysAdmin magic to make it happen. Simply follow these steps: [Show user details in the reports](https://docs.microsoft.com/en-AU/microsoft-365/admin/activity-reports/activity-reports?view=o365-worldwide#show-user-details-in-the-reports&WT.mc_id=M365-MVP-33518)
 
 ...and unlock the power of full O365 reporting!
 :::

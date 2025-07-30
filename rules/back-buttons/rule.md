@@ -39,7 +39,7 @@ A "Back" button gives users confidence that they can safely navigate through the
 * Place the "Back" button **to the left** of the "Next" or "Submit" button
 * [Use consistent labels](/label-buttons-consistently/) (don't use “Previous" or other variations).
    ::: info
-   According to [Design Specifications and Guidelines - User Assistance](https://learn.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29#window-design), the commands for navigating through a wizard should be **"&lt; Back"** and **"Next &gt;"**.
+   According to [Design Specifications and Guidelines - User Assistance](https://learn.microsoft.com/en-us/previous-versions/ms997609%28v=msdn.10%29#window-design?WT.mc_id=DX-MVP-33518), the commands for navigating through a wizard should be **"&lt; Back"** and **"Next &gt;"**.
    :::
 * [Use icons to enforce the action meaning](/enforce-the-text-meaning-with-icons-and-emojis)
   

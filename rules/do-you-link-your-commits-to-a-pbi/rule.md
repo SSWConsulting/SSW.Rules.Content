@@ -41,11 +41,11 @@ If you create branches through Azure DevOps, you can link them to a work item du
 ![Figure: Good example - Using Azure DevOps to link PBI during creation](link-pbi-during-creation.png)  
 :::
 
-Learn more on this article: [Linking Work Items to Git Branches, Commits, and Pull Requests](https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests).
+Learn more on this article: [Linking Work Items to Git Branches, Commits, and Pull Requests](https://devblogs.microsoft.com/devops/linking-work-items-to-git-branches-commits-and-pull-requests?WT.mc_id=DOP-MVP-33518).
 
 ## Automating rule enforcement
 
-You can [setup Branch Policies](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies) on your main branches to enforce this behaviour.
+You can [setup Branch Policies](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies?WT.mc_id=DOP-MVP-33518) on your main branches to enforce this behaviour.
 
 ::: good  
 ![Figure: Good example - Branch Policy on the master branch to enforce linked work items on pull requests](add-branch-policy-for-linked-items.png)  

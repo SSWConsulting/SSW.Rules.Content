@@ -29,7 +29,7 @@ There are several .NET messaging libraries that all abstract the underlying tran
 
 There are also the service bus specific libraries:
 
-- [Azure Service Bus](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/service-bus?view=azure-dotnet)(not recommended)
+- [Azure Service Bus](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/service-bus?view=azure-dotnet&WT.mc_id=AZ-MVP-33518)(not recommended)
 - [Amazon SQS](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/sqs-apis-intro.html)(not recommended)
 - [RabbitMQ](https://www.rabbitmq.com/dotnet.html)(not recommended)
 - (and more)

@@ -16,7 +16,7 @@ guid: a19eed88-a9e0-4ed9-ad84-cd64159caa3f
 
 When you have multiple ongoing projects with people moving in and out of project teams, you can end up with too many people in the related groups - especially if you are using public Microsoft 365 groups that anyone in the organization can join.
 
-With [Access Reviews](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview), you can automate cleaning up these groups and make sure only the right people have ongoing access.
+With [Access Reviews](https://learn.microsoft.com/en-us/azure/active-directory/governance/access-reviews-overview?WT.mc_id=AZ-MVP-33518), you can automate cleaning up these groups and make sure only the right people have ongoing access.
 
 <!--endintro-->
 

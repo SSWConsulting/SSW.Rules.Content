@@ -25,7 +25,7 @@ You can save time and reduce human error by automatically generating clients for
 
 The best tool for this is [NSwag](https://github.com/RicoSuter/NSwag).
 
-This is Microsoft's recommended approach, and you can read more about how to set this up in your ASP.Net Core project at [the official documentation](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio).
+This is Microsoft's recommended approach, and you can read more about how to set this up in your ASP.Net Core project at [the official documentation](https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started-with-nswag?view=aspnetcore-3.1&tabs=visual-studio&WT.mc_id=DT-MVP-33518).
 
 If you use the Clean Architecture template developed by SSW, this is built in out of the box. See our [rule on getting started with clean architecture](/clean-architecture-get-started).
 

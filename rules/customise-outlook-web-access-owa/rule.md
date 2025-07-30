@@ -22,4 +22,4 @@ It is possible to customise OWA, for example you can add change the colouring an
 ![Figure: Good example - SSW OWA logon page with custom logo](custom-owa.jpg)
 :::
 
-The following Microsoft article explains how to customise OWA: [Customize the Outlook Web App Sign-In, Language Selection, and Error Pages](https://learn.microsoft.com/en-us/exchange/customize-the-outlook-web-app-sign-in-language-selection-and-error-pages-exchange-2013-help?redirectedfrom=MSDN).
+The following Microsoft article explains how to customise OWA: [Customize the Outlook Web App Sign-In, Language Selection, and Error Pages](https://learn.microsoft.com/en-us/exchange/customize-the-outlook-web-app-sign-in-language-selection-and-error-pages-exchange-2013-help?redirectedfrom=MSDN&WT.mc_id=M365-MVP-33518).

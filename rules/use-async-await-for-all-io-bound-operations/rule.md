@@ -59,13 +59,13 @@ public async Task<ActionResult> GizmosAsync()
 Figure: Good example - This MVC Controller Action is async. The thread will be released back to the threadpool while waiting for any IO operations under the “gizmoService” to complete 
 :::
 
-Above code examples are based on: [Using Asynchronous Methods in ASP.NET MVC 4](https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4)
+Above code examples are based on: [Using Asynchronous Methods in ASP.NET MVC 4](https://learn.microsoft.com/en-us/aspnet/mvc/overview/performance/using-asynchronous-methods-in-aspnet-mvc-4?WT.mc_id=DT-MVP-33518)
 
 With these async/await patterns on .NET Core, our applications can handle very high levels of throughput.
 
 Once an async/await based app is under heavy load, the next risk is from thread-pool starvation. Any blocking operations anywhere in the app can tie up threadpool threads – leaving fewer threads in the pool to handle the ongoing throughput. For this reason, the best practice is to ensure that all IO-bound operations are async and to avoid any other causes of blocking.
 
-For more information on understanding and diagnosing thread pool starvation, read: [Diagnosing .NET Core ThreadPool Starvation with PerfView (Why my service is not saturating all cores or seems to stall)](https://learn.microsoft.com/en-us/archive/blogs/vancem/diagnosing-net-core-threadpool-starvation-with-perfview-why-my-service-is-not-saturating-all-cores-or-seems-to-stall).
+For more information on understanding and diagnosing thread pool starvation, read: [Diagnosing .NET Core ThreadPool Starvation with PerfView (Why my service is not saturating all cores or seems to stall)](https://learn.microsoft.com/en-us/archive/blogs/vancem/diagnosing-net-core-threadpool-starvation-with-perfview-why-my-service-is-not-saturating-all-cores-or-seems-to-stall?WT.mc_id=DT-MVP-33518).
 
 ### Further Information
 

@@ -30,4 +30,4 @@ When setting this up, you can also choose to apply this to all your users, selec
 
 ![Good example - All users with a risk of High will be blocked from signing in](userrisk.jpg)
 
-You can read more on how to enable these policies on [configure and enable risk policies documentation](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies).
+You can read more on how to enable these policies on [configure and enable risk policies documentation](https://learn.microsoft.com/en-us/entra/id-protection/howto-identity-protection-configure-risk-policies?WT.mc_id=ES-MVP-33518).

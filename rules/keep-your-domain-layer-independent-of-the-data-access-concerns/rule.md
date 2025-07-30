@@ -38,6 +38,6 @@ As you can see in the above example, the domain is cluttered with data annotatio
 
 This is a big improvement! Now the customer entity is lean, and the configuration can be added to the persistence layer, completely separate of the domain. Now the domain is independent of data access concerns.
 
-Learn more about this approach by reading about [self-contained configuration for code first](https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-2.0/#self-contained-type-configuration-for-code-first).
+Learn more about this approach by reading about [self-contained configuration for code first](https://docs.microsoft.com/en-us/ef/core/what-is-new/ef-core-2.0/#self-contained-type-configuration-for-code-first?WT.mc_id=DP-MVP-33518).
 
 ![Figure: Database implementation is a Infrastructure concern not a Domain concern](CA_Animation_4.gif)

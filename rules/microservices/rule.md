@@ -32,13 +32,13 @@ Watch the below video from 35:40 - 46:50
 
 ## The tools of the trade
 
-- [.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers) make it easier to implement dependency injection, configuration and other syntactic sugar using the same patterns you are familiar with in other types of .NET applications
+- [.NET Worker Services](https://docs.microsoft.com/en-us/dotnet/core/extensions/workers?WT.mc_id=AZ-MVP-33518) make it easier to implement dependency injection, configuration and other syntactic sugar using the same patterns you are familiar with in other types of .NET applications
 
-- [Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview) give you a way to host different little subsections of the application
+- [Azure Container Apps](https://azure.microsoft.com/en-us/services/container-apps/#overview?WT.mc_id=AZ-MVP-33518) give you a way to host different little subsections of the application
 
-- [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/) gives you a great way to build applications in small, modular, scalable and easy to manage chunks. It provides triggers other than http to handle other common microservice patterns
+- [Azure Functions](https://docs.microsoft.com/en-us/azure/azure-functions/?WT.mc_id=AZ-MVP-33518) gives you a great way to build applications in small, modular, scalable and easy to manage chunks. It provides triggers other than http to handle other common microservice patterns
 
-- [Minimal APIs](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis) give you a way to write APIs in just a few short lines of code
+- [Minimal APIs](https://devblogs.microsoft.com/dotnet/asp-net-core-updates-in-net-6-preview-4/#introducing-minimal-apis?WT.mc_id=AZ-MVP-33518) give you a way to write APIs in just a few short lines of code
 
 ## What's the point?
 

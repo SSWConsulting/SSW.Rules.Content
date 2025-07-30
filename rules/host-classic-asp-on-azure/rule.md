@@ -28,7 +28,7 @@ Azure doesn't natively support Classic ASP as it does for newer .NET application
 This is generally the preferred approach for migrating Classic ASP websites. Containerizing your application with Docker allows for seamless deployment to Azure App Service and enables you to leverage its key features, including scalability, load balancing, and automated deployments. 
 
 See:
-https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service
+https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-aspnet-app-service?WT.mc_id=AZ-MVP-33518
 
 **✅ Pros:**
 - Scalability and load balancing
@@ -46,7 +46,7 @@ https://learn.microsoft.com/en-us/azure/migrate/tutorial-app-containerization-as
 If you need greater control over the underlying infrastructure or have specific dependencies that aren't compatible with App Service, you can create a Windows Virtual Machine in Azure and install the necessary components to host your Classic ASP application.
 
 See:
-https://azure.microsoft.com/en-us/products/virtual-machines/windows
+https://azure.microsoft.com/en-us/products/virtual-machines/windows?WT.mc_id=AZ-MVP-33518
 
 **✅ Pros:**
 - Full control over the environment
@@ -64,8 +64,8 @@ If you choose to migrate your Classic ASP application to Azure App Service using
 1. **Setup Classic ASP Application:** Ensure your application is properly configured and ready for containerization.
 2. **Create [Dockerfile](https://docs.docker.com/reference/dockerfile/):** In your application folder, create a Dockerfile that defines the environment and dependencies for your application.
 3. **Create local [Docker image](https://docs.docker.com/get-started/docker-concepts/building-images/):** Build a Docker image locally based on your Dockerfile.
-4. **Push the Image to [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-cli):** Create an Azure Container Registry and push your Docker image to it.
-5. **Create [Azure Web App using Docker image](https://learn.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux&tabs=azure-cli):** Create an Azure Web App and configure it to use your Docker image from the Azure Container Registry.
+4. **Push the Image to [Azure Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-cli&WT.mc_id=AZ-MVP-33518):** Create an Azure Container Registry and push your Docker image to it.
+5. **Create [Azure Web App using Docker image](https://learn.microsoft.com/en-us/azure/app-service/tutorial-custom-container?pivots=container-linux&tabs=azure-cli&WT.mc_id=AZ-MVP-33518):** Create an Azure Web App and configure it to use your Docker image from the Azure Container Registry.
 
 
 ## Considerations and Challenges

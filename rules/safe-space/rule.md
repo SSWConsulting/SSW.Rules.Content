@@ -36,7 +36,7 @@ Then start with the good…  **before the bad** .
 
 <!--endintro-->
 
-Brian Harry said in [his blog](https://blogs.msdn.microsoft.com/bharry/2017/08/18/taking-feedback/):
+Brian Harry said in [his blog](https://blogs.msdn.microsoft.com/bharry/2017/08/18/taking-feedback/?WT.mc_id=DT-MVP-33518):
 
 ::: greybox
 "Don’t try to give feedback when you are angry or frustrated. Take the time to digest what you need to say – to separate your frustration from an objective assessment of what happened. Have a calm conversation about what you observed and what could be done differently."

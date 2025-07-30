@@ -26,13 +26,13 @@ At a high level, the plan is:
 2. Configure Application services
 
 > - Run the wizard (or use script. the community script wasn't ready when Thiago and I was migrating intranet)
-> - Configure user profile and its permission configuration (see [msdn](https://technet.microsoft.com/en-us/library/ee721052.aspx))
+> - Configure user profile and its permission configuration (see [msdn](https://technet.microsoft.com/en-us/library/ee721052.aspx?WT.mc_id=DP-MVP-33518))
 
 - **Test Migration**
 
 1. [Install required WSP packages in 2016](/do-you-know-how-to-identify-customizations-on-sharepoint-webs)
 2. [Test migrating content database from old to new](/run-test-spcontentdatabase-before-actual-migration)
-3. Fix all the missing customizations error in the above step, then do the [content database migration](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx)
+3. Fix all the missing customizations error in the above step, then do the [content database migration](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx?WT.mc_id=DP-MVP-33518)
 4. (Optional) [Migrate services database](/have-you-migrated-your-service-application-databases) (depends on which service applications do you use)
 
 - **Post migration setup**
@@ -47,6 +47,6 @@ At a high level, the plan is:
 - **Go-live migration**
 
 1. [Put old SharePoint into read-only](/do-you-lock-the-sharepoint-content-database-before-making-a-backup)
-2. [Refresh content & service database from SP 2013 to 2016](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx)
+2. [Refresh content & service database from SP 2013 to 2016](https://technet.microsoft.com/en-us/library/ff607581%28v=office.16%29.aspx?WT.mc_id=DP-MVP-33518)
 3. Update DNS
 4. Decommission old SharePoint server and database (after 2 weeks when you're confident with the new environment)
