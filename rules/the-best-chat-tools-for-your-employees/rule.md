@@ -1,7 +1,7 @@
 ---
 seoDescription: Discover the best chat tools for your employees and boost communication efficiency with Microsoft Teams, Slack, and more.
 type: rule
-title: Communication - Do you know the best chat tools for your employees?
+title: Do you use the best chat tools for employees?
 uri: the-best-chat-tools-for-your-employees
 authors:
   - title: Adam Cogan
