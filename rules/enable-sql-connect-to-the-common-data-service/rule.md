@@ -29,24 +29,24 @@ The list of supported SQL operations includes:
 
 Batch operations
 
-- SELECT
-- Aggregation functions (i.e., Count() and Max() functions)
-- UNIONs and JOINs
-- Filtering
+* SELECT
+* Aggregation functions (i.e., Count() and Max() functions)
+* UNIONs and JOINs
+* Filtering
 
 Any operation that attempts to modify data (i.e., INSERT, UPDATE) will not work as this is a read-only SQL data connection. Common Data Service option sets are represented as &lt;OptionSet&gt;Name and &lt;OptionSet&gt;Label in a result set.
 
 The following Common Data Service datatypes are not supported with the SQL connection:
 
-- binary
-- image
-- ntext
-- sql_variant
-- varbinary
-- virtual
-- HierarchyId
-- managedproperty
-- file
-- xml
-- partylist
-- timestamp
+* binary
+* image
+* ntext
+* sql_variant
+* varbinary
+* virtual
+* HierarchyId
+* managedproperty
+* file
+* xml
+* partylist
+* timestamp

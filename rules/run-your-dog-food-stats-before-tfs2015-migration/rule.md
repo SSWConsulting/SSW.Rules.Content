@@ -15,9 +15,9 @@ redirects:
 
 Run the excellent DogFoodStats queries:
 
-- For TFS 2010 - from Grant Holliday - [TFS2010: SQL Queries for TFS Statistics](https://web.archive.org/web/20150921185130/http://blogs.msdn.com/b/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx)   .
+* For TFS 2010 - from Grant Holliday - [TFS2010: SQL Queries for TFS Statistics](https://web.archive.org/web/20150921185130/http://blogs.msdn.com/b/granth/archive/2009/10/23/tfs2010-sql-queries-for-tfs-statistics.aspx)   .
 
-- For TFS 2012 – update from Erin Dormier -[TFS Internal Usage Statistics – 1st Half CY 2013](https://devblogs.microsoft.com/devops/tfs-internal-usage-statistics-1st-half-cy-2013-2/?WT.mc_id=DOP-MVP-33518)
+* For TFS 2012 – update from Erin Dormier -[TFS Internal Usage Statistics – 1st Half CY 2013](https://devblogs.microsoft.com/devops/tfs-internal-usage-statistics-1st-half-cy-2013-2/?WT.mc_id=DOP-MVP-33518)
 
 <!--endintro-->
 
@@ -32,7 +32,7 @@ Recent Users: 33
 
 Users with Assigned Work Items: 145
 
-**Warning: **Null value is eliminated by an aggregate or other SET operation.
+**Warning:**Null value is eliminated by an aggregate or other SET operation.
 
 Version Control Users: 244
 

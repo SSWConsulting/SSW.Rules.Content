@@ -30,8 +30,6 @@ Most developers include [health checks for their own applications](/have-a-healt
 
 <!--endintro-->
 
-
-
 ![Figure: Infrastructure Health Checks](health-check-image.png)
 
 ## Your app is only as healthy as its infrastructure
@@ -63,7 +61,7 @@ Depending on your needs, you may want to bake in a health check UI directly into
 
 ::: good
 ![Figure: Good example - SSWTimePro has a Health Check page](timepro-health-check.png)
-::: 
+:::
 
 ::: good
 ![Figure: Good example - Tina.io has a Health Check page](tina-health-check.png)

@@ -21,8 +21,8 @@ You should check the new values against the [stats you recorded from your TFS 2
 
 <!--endintro-->
 
-- a. On your TFS 2015 databases, run the DogFoodStats queries and save the results.
-- b. Check that the numbers are the same or very close. Note any big differences.
+* a. On your TFS 2015 databases, run the DogFoodStats queries and save the results.
+* b. Check that the numbers are the same or very close. Note any big differences.
 
 **Note:** The numbers may not be identical due to schema changes.
 

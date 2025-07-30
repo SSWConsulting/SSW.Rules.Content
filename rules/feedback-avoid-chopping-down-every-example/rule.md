@@ -84,4 +84,4 @@ Alternatively, to demonstrate the feedback was understood correctly and to reaff
 
 ### Related Rule
 
-- [Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?](/do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault)
+* [Communication - Do you know how to take feedback/criticism (even if it’s not your fault)?](/do-you-know-how-to-take-feedback-criticism-even-if-its-not-your-fault)

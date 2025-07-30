@@ -27,13 +27,11 @@ This video explains the 3 "archiving" options in Outlook (skip to 4:43 for Archi
 
 * Archive Mailboxes give you 50GB or 1.5TB(!) of extra storage, depending on your licence.
 * They are stored in the cloud - no lost data
-*  They are accessible in Outlook on all devices
-
-
+* They are accessible in Outlook on all devices
 
 ## Enable Archive Mailboxes
 
-1. Go to the **[Exchange admin center](https://admin.exchange.microsoft.com/) | Mailboxes** 
+1. Go to the **[Exchange admin center](https://admin.exchange.microsoft.com/) | Mailboxes**
 2. Select a user
 3. Go to **Others | Manage mailbox archive**
 4. Change **Mailbox archive status** to **Enabled**
@@ -59,4 +57,4 @@ Admins can edit the default policy, or add new policy options in **[Microsoft Pu
 
 ![Figure: Microsoft Purview | MRM Retention tags](archive-tags.png)
 
-For more information see Microsoft's documentation: https://learn.microsoft.com/en-us/purview/archive-mailboxes?WT.mc_id=DP-MVP-33518
+For more information see Microsoft's documentation: <https://learn.microsoft.com/en-us/purview/archive-mailboxes?WT.mc_id=DP-MVP-33518>

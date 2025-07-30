@@ -32,7 +32,7 @@ To open the reports in the right view you will need to:
 
 ![Figure: Checking Microsoft Reporting Services Projects is installed](report-server-project2.png)
 
-- In [SQL Server Data Tools (SSDT) for Visual Studio website](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017&WT.mc_id=DP-MVP-33518) you will find all the instructions to install the tool via Marketplace or SSDT standalone installer.
+* In [SQL Server Data Tools (SSDT) for Visual Studio website](https://docs.microsoft.com/en-us/sql/ssdt/download-sql-server-data-tools-ssdt?view=sql-server-2017&WT.mc_id=DP-MVP-33518) you will find all the instructions to install the tool via Marketplace or SSDT standalone installer.
 
 2. Create the project selecting **Business Intelligence** | **Reporting Services** | **Report Server Project**
 

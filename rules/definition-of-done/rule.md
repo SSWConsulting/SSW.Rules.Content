@@ -40,22 +40,22 @@ Every team is different, but all need to agree on which items are in their "Defi
 
 ### Level 1
 
-- [Documenting/updating the standard](/document-the-job) (for processes, when necessary)
-- Sending a ["Done" email](/dones-do-you-reply-done-and-delete-the-original-email)
+* [Documenting/updating the standard](/document-the-job) (for processes, when necessary)
+* Sending a ["Done" email](/dones-do-you-reply-done-and-delete-the-original-email)
 
 ### Level 2
 
-- Documenting/updating the standard (for processes, when necessary)
-- Sending a "Done" email
-- Screenshots
-- Code
+* Documenting/updating the standard (for processes, when necessary)
+* Sending a "Done" email
+* Screenshots
+* Code
 
 ### Level 3
 
-- Documenting/updating the standard (for processes, when necessary)
-- Sending a "Done" email
-- Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
-- Code (showing a full scenario, e.g. a user story)
+* Documenting/updating the standard (for processes, when necessary)
+* Sending a "Done" email
+* Recording a quick and dirty "[Done Video](/record-a-quick-and-dirty-done-video)"
+* Code (showing a full scenario, e.g. a user story)
 
 ## There are 8 levels of 'Done' in software quality
 
@@ -63,26 +63,26 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 
 ### Team - Level 1
 
-- The code compiles
-- All tasks are updated and closed
-- No high priority defects/bugs are outstanding for that user story
+* The code compiles
+* All tasks are updated and closed
+* No high priority defects/bugs are outstanding for that user story
 
 ### Team - Level 2
 
-- _All of the above, plus_
-- All unit tests passed
-- Tests achieve greater than 1% code coverage (not earth shattering, but you need to start somewhere)
+* _All of the above, plus_
+* All unit tests passed
+* Tests achieve greater than 1% code coverage (not earth shattering, but you need to start somewhere)
 
 ### Team - Level 3
 
-- _All of the above, plus_
-- Successful build on the Build Server
-- [Git Branch Policies](/protect-your-master-branch) OR
-- Azure DevOps Check-in Policy
-  - Change set Comments - all check-ins must have a comment
-  - Work Items - all check-ins must be associated with a work item
-- Code reviewed by one other team member (e.g. Checked by Bill)
-- Sending a Done email with screenshots
+* _All of the above, plus_
+* Successful build on the Build Server
+* [Git Branch Policies](/protect-your-master-branch) OR
+* Azure DevOps Check-in Policy
+  * Change set Comments - all check-ins must have a comment
+  * Work Items - all check-ins must be associated with a work item
+* Code reviewed by one other team member (e.g. Checked by Bill)
+* Sending a Done email with screenshots
 
 ::: good  
 ![Figure: Good example - Add check-in policies to enforce your Definition of Done](CheckinPolicy.jpg)  
@@ -90,11 +90,11 @@ Start with these examples showing typical "Definitions of Done" from beginner te
 
 ### Team - Level 4
 
-- _All of the above, plus_
-- All acceptance criteria have been met
-- All acceptance criteria have an associated passing test (e.g. an Azure Test Plans test case or automated end-to-end test in Playwright)  
+* _All of the above, plus_
+* All acceptance criteria have been met
+* All acceptance criteria have an associated passing test (e.g. an Azure Test Plans test case or automated end-to-end test in Playwright)  
   **Tip:** Use Microsoft | [Azure Test Plans](https://docs.microsoft.com/en-us/azure/devops/organizations/billing/buy-access-tfs-test-hub?view=azure-devops-2020#buy-monthly-access-to-azure-test-plans&WT.mc_id=AZ-MVP-33518)
-- Sending a Done email (with video recording using SnagIt)
+* Sending a Done email (with video recording using SnagIt)
 
 ::: good  
 ![Figure: Organize tests in suites with built-in E2E traceability across requirements, test artifacts and defects](TestPlanning-1.png)  
@@ -108,26 +108,26 @@ Figure: Good example - Done video showing the features worked on
 
 ### Team - Level 5
 
-- _All of the above, plus_
-- Deployed to UAT (ideally using Continuous Deployment)
-- Complex code is documented (helping to avoid technical debt)
-- Product Owner acceptance
+* _All of the above, plus_
+* Deployed to UAT (ideally using Continuous Deployment)
+* Complex code is documented (helping to avoid technical debt)
+* Product Owner acceptance
 
 ### Team - Level 6
 
-- _All of the above, plus_
-- Application automatically tested in multiple environments, using services such as [Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview?WT.mc_id=AZ-MVP-33518) and [BrowserStack](https://www.browserstack.com/)
+* _All of the above, plus_
+* Application automatically tested in multiple environments, using services such as [Azure DevTest Labs](https://docs.microsoft.com/en-us/azure/devtest-labs/devtest-lab-overview?WT.mc_id=AZ-MVP-33518) and [BrowserStack](https://www.browserstack.com/)
 
 ### Team - Level 7
 
-- _All of the above, plus_
-- Automated Load Testing (see [the best load testing tools for web applications](/the-best-load-testing-tools-for-web-applications))
-- Continuous Deployment
+* _All of the above, plus_
+* Automated Load Testing (see [the best load testing tools for web applications](/the-best-load-testing-tools-for-web-applications))
+* Continuous Deployment
 
 ### Team - Level 8 (Gold)
 
-- _All of the above, plus_
-- Deployed to Production
+* _All of the above, plus_
+* Deployed to Production
 
 Congratulations! You are frequently deploying to production. This is called “Continuous Delivery” and allows you to gather quick feedback from your end users.
 

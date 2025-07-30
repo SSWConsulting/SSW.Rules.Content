@@ -39,6 +39,7 @@ For everyone to be on the same page, the process a developer should follow is:
 2. Email the Spend Master with $ and a request to create resources in Azure, like the below:
 
 ::: email-template
+
 | | |
 | -------- | --- |
 | To: | Spend Master |

@@ -23,16 +23,16 @@ When building distributed applications messaging is a common pattern to use. Oft
 
 There are several .NET messaging libraries that all abstract the underlying transport. These include:
 
-- [MassTransit](https://masstransit.io/) (recommended)
-- [NServiceBus](https://particular.net/nservicebus)
-- [Rebus](https://github.com/rebus-org/Rebus)
+* [MassTransit](https://masstransit.io/) (recommended)
+* [NServiceBus](https://particular.net/nservicebus)
+* [Rebus](https://github.com/rebus-org/Rebus)
 
 There are also the service bus specific libraries:
 
-- [Azure Service Bus](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/service-bus?view=azure-dotnet&WT.mc_id=AZ-MVP-33518)(not recommended)
-- [Amazon SQS](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/sqs-apis-intro.html)(not recommended)
-- [RabbitMQ](https://www.rabbitmq.com/dotnet.html)(not recommended)
-- (and more)
+* [Azure Service Bus](https://learn.microsoft.com/en-us/dotnet/api/overview/azure/service-bus?view=azure-dotnet&WT.mc_id=AZ-MVP-33518)(not recommended)
+* [Amazon SQS](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/sqs-apis-intro.html)(not recommended)
+* [RabbitMQ](https://www.rabbitmq.com/dotnet.html)(not recommended)
+* (and more)
 
 ## Advantages of using MassTransit
 
@@ -42,20 +42,20 @@ There are also the service bus specific libraries:
 
 ✅ Supports multiple messaging concepts:
 
-- Point-to-Point
-- Publish/Subscribe
-- Request/Response
+* Point-to-Point
+* Publish/Subscribe
+* Request/Response
 
 ✅ Supports multiple messaging transports:
 
-- In-Memory
-- RabbitMQ
-- Azure Service Bus
-- Amazon SQS
-- ActiveMQ
-- Kafka
-- gRPC
-- SQL/DB
+* In-Memory
+* RabbitMQ
+* Azure Service Bus
+* Amazon SQS
+* ActiveMQ
+* Kafka
+* gRPC
+* SQL/DB
 
 ✅ Supports complex messaging patterns such as Sagas
 

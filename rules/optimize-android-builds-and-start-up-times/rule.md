@@ -24,9 +24,9 @@ redirects:
 
 When it comes to app optimizations, developers usually try to strike the right balance between:
 
-- App build time
-- App size
-- App performance (execution speed and memory)
+* App build time
+* App size
+* App performance (execution speed and memory)
 
 Quite often improvements in one area lead to degradation in another. In most cases it's a tradeoff which developers need to take depending on their circumstances. Different Debug and Release configurations partially address this problem, but may lead to configuration-specific bugs.
 
@@ -81,9 +81,9 @@ Whereas iOS enforces AOT (ahead of time) compilation, Android supports (and uses
 
 There are several types of AOT:
 
-- Full AOT (comes from Mono)
-- Profiled AOT (comes from Mono, a.k.a Startup Tracing)
-- Native AOT (comes from .NET; not available for Android, but .NET MAUI team is experimenting with iOS)
+* Full AOT (comes from Mono)
+* Profiled AOT (comes from Mono, a.k.a Startup Tracing)
+* Native AOT (comes from .NET; not available for Android, but .NET MAUI team is experimenting with iOS)
 
 Profiled AOT provides finer control over the trade-offs between Android APK size and startup time as compared to the Full AOT compilation option.
 Instead of compiling as much of the app as possible to unmanaged code, Profiled AOT compiles only a particular set of managed methods that represent the most expensive parts of application startup in a blank app. This approach consumes less space in the APK compared to the Full AOT compilation option while still providing similar app startup performance improvements.
@@ -112,10 +112,10 @@ $(AndroidStripILAfterAOT) removes IL code after performing AOT as it is no longe
 
 ### More information
 
-- [Optimize Xamarin Android Builds](https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds?WT.mc_id=DT-MVP-33518)
-- [IL Stripping](https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot?WT.mc_id=DT-MVP-33518)
-- [AOT and LLVM](https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything?WT.mc_id=DT-MVP-33518)
-- [Profiled AOT](https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android?WT.mc_id=DT-MVP-33518)
-- [Profiled ATO Release Notes](https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code?WT.mc_id=DT-MVP-33518)
-- [Mono AOT doc](https://www.mono-project.com/docs/advanced/aot)
-- [Mono LLVM doc](https://www.mono-project.com/docs/advanced/mono-llvm)
+* [Optimize Xamarin Android Builds](https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds?WT.mc_id=DT-MVP-33518)
+* [IL Stripping](https://devblogs.microsoft.com/dotnet/dotnet-8-performance-improvements-in-dotnet-maui/#androidstripilafteraot?WT.mc_id=DT-MVP-33518)
+* [AOT and LLVM](https://devblogs.microsoft.com/dotnet/performance-improvements-in-dotnet-maui/#aot-and-llvm#aot-everything?WT.mc_id=DT-MVP-33518)
+* [Profiled AOT](https://devblogs.microsoft.com/xamarin/faster-startup-times-with-startup-tracing-on-android?WT.mc_id=DT-MVP-33518)
+* [Profiled ATO Release Notes](https://learn.microsoft.com/en-us/xamarin/android/release-notes/9/9.4#option-to-compile-app-startup-methods-to-unmanaged-code?WT.mc_id=DT-MVP-33518)
+* [Mono AOT doc](https://www.mono-project.com/docs/advanced/aot)
+* [Mono LLVM doc](https://www.mono-project.com/docs/advanced/mono-llvm)

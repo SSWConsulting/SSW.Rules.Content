@@ -39,7 +39,7 @@ Focusing on Azure certifications, here are some good options:
 
 ### Fundamentals
 
-If you're just getting started, take a look at [Microsoft Certified: Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/?WT.mc_id=AZ-MVP-33518). 
+If you're just getting started, take a look at [Microsoft Certified: Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/?WT.mc_id=AZ-MVP-33518).
 
 Earn this certification to prove you have a foundational knowledge of cloud services and how those services are provided with Microsoft Azure. You will need to pass the exam [AZ-900: Microsoft Azure Fundamentals](https://docs.microsoft.com/en-us/learn/certifications/exams/az-900?WT.mc_id=AZ-MVP-33518).
 
@@ -85,7 +85,7 @@ If you're just starting out in GitHub, go for the [GitHub Foundations exam](http
 
 ### All Other Exams
 
-All other exams are useful, depending on your focus/interest in GitHub. 
+All other exams are useful, depending on your focus/interest in GitHub.
 
 For a DevOps focus, try the [GitHub Actions exam](https://examregistration.github.com/certification/ACTIONS). This exam measures your ability to accomplish the following technical tasks: author and maintain workflows; consume workflows; author and maintain actions; manage GitHub Actions for the enterprise.
 

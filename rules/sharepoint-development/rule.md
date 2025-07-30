@@ -11,7 +11,7 @@ related:
   - sharepoint-development-environment
 guid: a798aabe-e307-4c9b-9ded-74683b827cc7
 ---
-Rolling out SharePoint solutions without a disciplined approach quickly creates brittle customisations, blocked release pipelines, and unhappy users. 
+Rolling out SharePoint solutions without a disciplined approach quickly creates brittle customisations, blocked release pipelines, and unhappy users.
 
 <!--endintro-->
 
@@ -19,7 +19,7 @@ Rolling out SharePoint solutions without a disciplined approach quickly creates 
 
 SPFx delivers modern client-side web parts and extensions that run natively in SharePoint Online and in SharePoint 2016/2019
 
-See []Overview of the SharePoint Framework(https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518).
+See []Overview of the SharePoint Framework(<https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview?WT.mc_id=M365-MVP-33518>).
 
 For SharePoint Data, use [PnPjs](https://pnp.github.io/pnpjs). Use Graph APIs, custom graph connectors or even your own APIs to retrieve data as needed.
 
@@ -47,7 +47,7 @@ SPFX gives you access to a modern toolchain: TypeScript, React, Fluent UI, and M
 
 Don't neglect CI/CD for your SharePoint developments. The components (webparts, extensions...) might be smaller than your typical .NET project, but clean and repeatable deployment and provisioning is key to successful custom developments.
 
-Use GitHub Actions or Azure DevOps pipelines to bundle, package, and deploy SPFx solutions. 
+Use GitHub Actions or Azure DevOps pipelines to bundle, package, and deploy SPFx solutions.
 
 For custom assets deployment:
 
@@ -57,7 +57,7 @@ For custom assets deployment:
 
 ## 5. Keep customisations upgrade-friendly
 
-SharePoint Online ships changes weekly, and SharePoint Server receives regular updates. 
+SharePoint Online ships changes weekly, and SharePoint Server receives regular updates.
 
 If you want to customize SharePoint look and feel:
 
@@ -85,7 +85,7 @@ Keep branding light; theme JSON and App Customisers beat CSS overrides.
 
 The [PNP](https://pnp.github.io/) (formerly "Pattern N Practices") SharePoint community is awesome. They've got a heap of great tools available for o365 development:
 
-* **PnP PowerShell** for scripting tenant or farm settings and deployments 
+* **PnP PowerShell** for scripting tenant or farm settings and deployments
 * **PnP Core SDK** for strongly typed .NET access to SharePoint and Graph
 * **PnP reusable React controls** for consistent Fluent UI components
 
@@ -93,7 +93,7 @@ And more!
 
 ## On-prem SharePoint development 🧓
 
-Although many organisations are cloud-first, SharePoint Server is still alive and well. SPFX is compatible with virtually all SharePoint OnPrem setups (2016+), so all of the above applies. 
+Although many organisations are cloud-first, SharePoint Server is still alive and well. SPFX is compatible with virtually all SharePoint OnPrem setups (2016+), so all of the above applies.
 
 Keep these extra points in mind:
 

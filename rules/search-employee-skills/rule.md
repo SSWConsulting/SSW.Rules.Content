@@ -57,7 +57,7 @@ OpenSearch is another solution, using the OpenSearch protocol you can [add exter
 
 ::: greybox
 
-#### Suggestions to Microsoft:
+#### Suggestions to Microsoft
 
 **#1 Help me better sync my Dynamics 365 CRM data with the SharePoint user profile service**
 
@@ -72,7 +72,7 @@ This is essentially just calling a different API.
 **#3 Help me customise SharePoint search results**
 
 If you don’t want either of those options (i.e. you users’ skills are stored somewhere else), we should be able to change the search results UI.\
-E.g. Search for people here: https://ssw.com.au/people
+E.g. Search for people here: <https://ssw.com.au/people>
 
 ![Figure: The SharePoint Search should let you add links like in this image](sharepointuxforpeopleandbookedindays.png)
 

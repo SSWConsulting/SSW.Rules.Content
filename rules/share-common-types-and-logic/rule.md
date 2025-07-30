@@ -28,4 +28,4 @@ See [Blazor Code Sharing Example](https://github.com/bradystroud/BlazorCodeShari
 
 ### References
 
-- [Blazor (Microsoft Docs)](https://docs.microsoft.com/en-us/aspnet/core/blazor?WT.mc_id=DT-MVP-33518)
+* [Blazor (Microsoft Docs)](https://docs.microsoft.com/en-us/aspnet/core/blazor?WT.mc_id=DT-MVP-33518)

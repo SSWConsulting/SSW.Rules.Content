@@ -30,10 +30,8 @@ this.Dispatcher.BeginInvoke(new Action(() =>
 ```
 
 ::: bad  
-Code: Bad example - Using Thread.Sleep() causes your Silverlight application to freeze 
+Code: Bad example - Using Thread.Sleep() causes your Silverlight application to freeze
 :::
-
-
 
 ```cs
 Storyboard sb = new Storyboard() { Duration = TimeSpan.FromSeconds(5) };

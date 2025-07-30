@@ -24,10 +24,10 @@ There are heaps of great tools out there with differing pricing models and learn
 
 YouTube is a great resource for those who love audio-visual learning. It is completely free and there are heaps of industry experts providing content. Some of the best examples are:
 
-- [John Savill](https://www.youtube.com/c/NTFAQGuy)
-- [Azure for Everyone](https://www.youtube.com/c/Azure4Everyone) (Adam Marczak)
-- [DevOps for Everyone](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) (Microsoft)
-- [SSW TV](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)
+* [John Savill](https://www.youtube.com/c/NTFAQGuy)
+* [Azure for Everyone](https://www.youtube.com/c/Azure4Everyone) (Adam Marczak)
+* [DevOps for Everyone](https://www.youtube.com/channel/UC-ikyViYMM69joIAv7dlMsA) (Microsoft)
+* [SSW TV](https://www.youtube.com/channel/UCBFgwtV9lIIhvoNh0xoQ7Pg)
 
 ### Microsoft Learn - $0 - Recommended ✅
 
@@ -39,6 +39,6 @@ Online learning platforms provide high quality technical training from your brow
 
 Some of the options:
 
-- Udemy - $~100 AUD - Budget Option, no instructor vetting
-- LinkedIn Learning $~300 AUD
-- PluralSight - $~500 AUD - Gold Standard ⭐
+* Udemy - $~100 AUD - Budget Option, no instructor vetting
+* LinkedIn Learning $~300 AUD
+* PluralSight - $~500 AUD - Gold Standard ⭐

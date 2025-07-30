@@ -57,4 +57,4 @@ Additionally, you can have a PR check that enforces _.editorconfig_ rules, but i
 
 Learn more on:
 
-- [EditorConfig website](https://editorconfig.org)
+* [EditorConfig website](https://editorconfig.org)
