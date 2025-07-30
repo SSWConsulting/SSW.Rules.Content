@@ -31,7 +31,7 @@ jobs:
         run: |
           gh workflow run build-and-deploy.yml \
             --repo SSWConsulting/SSW.Rules.Tina.Nextjs.POC \
-            --ref main \
+            --ref tina-migration_editorial-workflow-test-on-azure \
             --field branch_name="${GITHUB_REF#refs/heads/}"
         env:
           GH_TOKEN: ${{ steps.generate-token.outputs.token }}
