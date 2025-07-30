@@ -1,17 +1,19 @@
 ---
 seoDescription: Discover how to effectively enforce standards by explaining their importance, fostering better teamwork and avoiding repeated mistakes
 type: rule
-title: General - Standards Watchdog - Do you provide the reason behind the rules
-  rather than just enforce them?
-uri: do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+title: Standards Watchdog - Do you provide the reason behind rules when enforcing them?
+uri: provide-the-reason-behind-rules
 authors:
   - title: Adam Cogan
     url: https://ssw.com.au/people/adam-cogan
   - title: Luke Cook
     url: https://ssw.com.au/people/luke-cook
-related: []
+related:
+  - add-context-reasoning-to-emails
+  - the-value-of-consistency
 redirects:
   - general-standards-watchdog-do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
+  - do-you-provide-the-reason-behind-the-rules-rather-than-just-enforce-them
 created: 2012-09-25T17:54:42.000Z
 archivedreason: null
 guid: b9a01f68-abe6-45aa-b1cd-aa4a68b02186
@@ -30,13 +32,13 @@ Everyone makes mistakes. If you run around wielding your authority as a cudgel, 
 1. They will resent you
 2. They will only bother following standards when you're around
 
-For example: if one of your standards is for developers to send "test please" emails, there's a hard-learned lesson behind that standard (or else it wouldn't exist!). You can beat your developers over the head with the rule, or you can take 5 minutes to explain the reasons why it exists and why it's important.
+For example, if one of your standards is for developers to send "test please" emails, there's likely a hard-earned lesson behind it - otherwise, that rule wouldn’t exist. Instead of simply enforcing the rule, take a couple of minutes to explain why it matters and the value it brings.
 
 ::: email-template
 
 |          |     |
 | -------- | --- |
-| From:    | Boss |
+| From:    | Adam |
 | To:      | Mark |
 | Subject: | No test please email |
 ::: email-content  
@@ -45,19 +47,17 @@ For example: if one of your standards is for developers to send "test please" em
 
 You didn't send a "test please" email. Please do that next time.
 
-Boss
-
 :::
 :::
 ::: bad
-Figure: Bad example - This email doesn't tell Mark why this is so important.
+Figure: Bad example - This email doesn't explain why this is so important
 :::
 
 ::: email-template
 
 |          |     |
 | -------- | --- |
-| From:    | Boss |
+| From:    | Adam |
 | To:      | Mark |
 | Subject: | Test Please emails standard |
 ::: email-content  
@@ -66,14 +66,15 @@ Figure: Bad example - This email doesn't tell Mark why this is so important.
 
 Regarding that PBI you worked on yesterday.
 
-We have a standard about sending Test Please emails to the client (check out [this rule](/request-a-test-please/)).
+We have a standard about sending "test please" emails to the client ([check out the rule](/request-a-test-please/)).
 
-This saves time by getting early feedback, allowing bugs to be fixed while it's still fresh in the developer's mind.
+This saves time by getting early feedback, allowing bugs to be fixed while it's still fresh in the developer's mind.\
+The longer the feedback loop takes, the more expensive a PBI becomes to the client.
 
-The longer the feedback loop takes, the more expensive a PBI becomes to the client :(
+Please make sure this is part of your workflow ;)
 
 :::
 :::
 ::: good
-Figure: Good example - provide a link to your standard and the main reason(s) why this standard is important
+Figure: Good example - Provide a link to your standard and the main reason(s) why it is important
 :::
