@@ -25,18 +25,18 @@ Good error design is as important to the success of an API as the API design its
 
 The HTTP/1.1 RFC lists over 70 different HTTP Status Codes. Only some developers will be able to remember all of them, so it pays to keep it simple and use the most common Status Codes. Below are the most common HTTP status codes:
 
-- **2XX** - Success. Examples:
+* **2XX** - Success. Examples:
 
-  - 200 OK - Generic success response.
+  * 200 OK - Generic success response.
 
-- **4XX** - Client errors. Examples:
+* **4XX** - Client errors. Examples:
 
-  - 400 Bad Request - The server cannot understand the request.
-  - 401 Unauthorised - Invalid/non-existent credential for this request.
+  * 400 Bad Request - The server cannot understand the request.
+  * 401 Unauthorised - Invalid/non-existent credential for this request.
 
-- **5XX** - Server errors. Examples:
+* **5XX** - Server errors. Examples:
 
-  - 500 Internal Server Error - The server encountered errors preventing the request from being fulfilled.
+  * 500 Internal Server Error - The server encountered errors preventing the request from being fulfilled.
 
 ### Use ProblemDetails Format
 
@@ -59,12 +59,12 @@ Below is an example of an error message in Problem Details format:
 
 In the above example:
 
-- `type` specifies a URI that uniquely identifies the type of the problem.
-- `title` provides a short, human-readable summary of the problem.
-- `status` indicates the HTTP status code for the response.
-- `detail` gives a human-readable explanation specific to the occurrence of the problem.
-- `instance` provides a URI reference that identifies the specific occurrence of the problem.
-- `allowedCharacters` is an example property specificly added to the problem.
+* `type` specifies a URI that uniquely identifies the type of the problem.
+* `title` provides a short, human-readable summary of the problem.
+* `status` indicates the HTTP status code for the response.
+* `detail` gives a human-readable explanation specific to the occurrence of the problem.
+* `instance` provides a URI reference that identifies the specific occurrence of the problem.
+* `allowedCharacters` is an example property specificly added to the problem.
 
 Using the above structured message format, APIs can now reliably communicate problems to clients to enable better error handling.
 
@@ -119,7 +119,7 @@ app.UseExceptionHandler(exceptionHandlerApp =>
 API will produce consistent response formats in any environment using the above approach.
 This approach is the recommended approach for frontend and backend development.
 
-## Any API (REST, gRPC and GraphQL):
+## Any API (REST, gRPC and GraphQL)
 
 ### Add Sufficient Details in Error Message
 

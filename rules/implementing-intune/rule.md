@@ -20,11 +20,11 @@ Intune is a part of Microsoft's Enterprise Mobility + Security (EMS) suite. It i
 
 With Intune, you can:
 
-- Choose to be 100% cloud with Intune, or be [co-managed](https://docs.microsoft.com/en-us/configmgr/comanage/overview?WT.mc_id=EM-MVP-33518) with Configuration Manager and Intune
-- Set rules and configure settings on personal and organization-owned devices to access data and networks
-- Deploy and authenticate apps on devices - on-premises and mobile
-- Protect your company information by controlling the way users access and share information
-- Be sure devices and apps are compliant with your security requirements
+* Choose to be 100% cloud with Intune, or be [co-managed](https://docs.microsoft.com/en-us/configmgr/comanage/overview?WT.mc_id=EM-MVP-33518) with Configuration Manager and Intune
+* Set rules and configure settings on personal and organization-owned devices to access data and networks
+* Deploy and authenticate apps on devices - on-premises and mobile
+* Protect your company information by controlling the way users access and share information
+* Be sure devices and apps are compliant with your security requirements
 
 ### Managing Devices
 
@@ -38,11 +38,11 @@ If you are using Conditional Access for MFA, you will need to add an exception f
 
 ![Figure: Intune connected to Entra ID](intune_aad.png)
 
-- SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
+* SysAdmins can monitor all the windows devices from [Microsoft Endpoint Manager admin center](https://endpoint.microsoft.com/?ref=AdminCenter#home)
 
 ![Figure: Devices managed by Intune](devices_intunes.png)
 
-- We can get reports on device compliance at any time.
+* We can get reports on device compliance at any time.
 
 ::: bad
 ![Bad example - Errors in compliance check](bad_example_compliance.png)

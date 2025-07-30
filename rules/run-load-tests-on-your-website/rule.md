@@ -25,12 +25,12 @@ Once you have a website up and running, it is important to make sure that it kee
 
 Typical issues that result from failures to handle high loads are:
 
-- 503 "Service Is Temporarily Unavailable" errors
-- Very slow page load times
-- Application crashes due to:
-  - Insufficient resources - so application pools are recycled
-  - Too many concurrent users - causing race conditions
-  - Too many users trying to connect to the database - causing connection pool exhaustion
+* 503 "Service Is Temporarily Unavailable" errors
+* Very slow page load times
+* Application crashes due to:
+  * Insufficient resources - so application pools are recycled
+  * Too many concurrent users - causing race conditions
+  * Too many users trying to connect to the database - causing connection pool exhaustion
 
 Load testing can help you to reveal these issues before you go live. Some issues might be resolved by getting a better web server, while others might require code changes and optimizations.
 

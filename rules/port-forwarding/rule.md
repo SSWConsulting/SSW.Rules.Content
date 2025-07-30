@@ -25,21 +25,21 @@ Luckily, port forwarding is the silver...errr...golden bullet that solves this i
 
 ## Use Cases
 
-- Feedback on a locally running application
-- Testing of an application on a mobile phone or tablet
-- Webhooks: public service needing to make an API call to your local website (e.g. Twilio or Sendgrid webhook)
-- Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
-- Azure APIM: Use APIM as a gateway that points to a locally running API
-- Power Platform: Debug Power Platform by running your API locally
-- Locally testing applications which need to communicate on a port blocked from your environment (i.e. using a [Jump Server](https://en.wikipedia.org/wiki/Jump_server))
+* Feedback on a locally running application
+* Testing of an application on a mobile phone or tablet
+* Webhooks: public service needing to make an API call to your local website (e.g. Twilio or Sendgrid webhook)
+* Azure SignalR: Get the Azure hosted signal R service to send websocket messages to your local website
+* Azure APIM: Use APIM as a gateway that points to a locally running API
+* Power Platform: Debug Power Platform by running your API locally
+* Locally testing applications which need to communicate on a port blocked from your environment (i.e. using a [Jump Server](https://en.wikipedia.org/wiki/Jump_server))
 
 ## Options
 
-- [Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) (Recommended)
-- [ngrok](https://ngrok.com)
-- [TunnelTo](https://tunnelto.dev)
-- [Packet Riot](https://packetriot.com)
-- [SSH port forwarding](https://linuxize.com/post/how-to-setup-ssh-tunneling/)
+* [Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518) (Recommended)
+* [ngrok](https://ngrok.com)
+* [TunnelTo](https://tunnelto.dev)
+* [Packet Riot](https://packetriot.com)
+* [SSH port forwarding](https://linuxize.com/post/how-to-setup-ssh-tunneling/)
 
 ## Dev Tunnels Setup
 
@@ -49,8 +49,8 @@ Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 
 ### Pre-Requisites
 
-- Visual Studio 2022 17.5+
-- ASP.NET Core project
+* Visual Studio 2022 17.5+
+* ASP.NET Core project
 
 ### Usage
 
@@ -80,13 +80,13 @@ Dev Tunnels is currently only available via Visual Studio 2022 17.5+
 
 ## Best Practices on Access Types
 
-- **Private:** Ideal if you are testing yourself on mobile device
-- **Organization (Recommended):** Ideal if you need feedback from others within the organization
-- **Public:** For when the other two options are not possible (e.g. Web hooks). In this case it is recommend to use Temporary tunnels so that the URL is no longer available once you've closed visual studio
+* **Private:** Ideal if you are testing yourself on mobile device
+* **Organization (Recommended):** Ideal if you need feedback from others within the organization
+* **Public:** For when the other two options are not possible (e.g. Web hooks). In this case it is recommend to use Temporary tunnels so that the URL is no longer available once you've closed visual studio
 
 ## Resources
 
-- [MS Learn - Port Tunneling](https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling?WT.mc_id=DT-MVP-33518)
-- [How To - Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518)
-- [Dev Tunnels Public Preview](https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects?WT.mc_id=DT-MVP-33518)
-- [Twilio Webhooks](https://www.twilio.com/blog/use-visual-studio-port-tunneling-with-twilio-webhooks)
+* [MS Learn - Port Tunneling](https://learn.microsoft.com/en-us/connectors/custom-connectors/port-tunneling?WT.mc_id=DT-MVP-33518)
+* [How To - Dev Tunnels](https://learn.microsoft.com/en-us/aspnet/core/test/dev-tunnels?view=aspnetcore-7.0&WT.mc_id=DT-MVP-33518)
+* [Dev Tunnels Public Preview](https://devblogs.microsoft.com/visualstudio/public-preview-of-dev-tunnels-in-visual-studio-for-asp-net-core-projects?WT.mc_id=DT-MVP-33518)
+* [Twilio Webhooks](https://www.twilio.com/blog/use-visual-studio-port-tunneling-with-twilio-webhooks)

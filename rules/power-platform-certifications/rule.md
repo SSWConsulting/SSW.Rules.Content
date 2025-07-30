@@ -14,10 +14,10 @@ Whether you're an expert or just getting started, working towards gaining a new 
 
 Microsoft provides numerous certifications and training options to help you:
 
-- Learn new skills
-- Fill technical knowledge gaps
-- Boost your productivity
-- Prove your competence
+* Learn new skills
+* Fill technical knowledge gaps
+* Boost your productivity
+* Prove your competence
 
 <!--endintro-->
 

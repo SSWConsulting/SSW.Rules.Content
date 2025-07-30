@@ -28,10 +28,10 @@ Advantages
 
 :::
 
-- Prevents SQL injection attacks
-- Preserves types being sent to the database
-- Increased performance by reducing the number of query plans
-- Makes your code more readable
+* Prevents SQL injection attacks
+* Preserves types being sent to the database
+* Increased performance by reducing the number of query plans
+* Makes your code more readable
 
 ```sql
 SELECT Id, CompanyName, ContactName, ContactTitle

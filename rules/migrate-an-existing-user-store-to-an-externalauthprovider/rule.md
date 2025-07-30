@@ -71,8 +71,8 @@ For all subsequent logins, employ the [`FindAsync(new UserLoginInfo())`](<https:
 
 ### ✅ Benefits
 
-- Seamless authentication experience for existing users
-- Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) and [`FindAsync`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108?WT.mc_id=ES-MVP-33518)>)
+* Seamless authentication experience for existing users
+* Avoids custom fields in the ApplicationUser model, leveraging existing ASP .NET Identity Core methods like [`AddLoginAsync`](https://learn.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.identity.usermanager-1.addloginasync?view=aspnetcore-8.0&WT.mc_id=DT-MVP-33518) and [`FindAsync`](<https://learn.microsoft.com/en-us/previous-versions/aspnet/dn497605(v=vs.108?WT.mc_id=ES-MVP-33518)>)
 
 ## 2. New ExternalAuthProvider registrants
 
@@ -125,6 +125,6 @@ var existingUser = await _userManager.FindByLoginAsync(EXTERNAL_AUTH_PROVIDER, s
 
 ### ✅ Benefits
 
-- Facilitates the seamless integration of new users to the ecosystem.
-- Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
-- Streamlined process, avoiding manual or ad-hoc registration steps.
+* Facilitates the seamless integration of new users to the ecosystem.
+* Consistent user experience for new users, leveraging native ASP .NET Core Identity methods.
+* Streamlined process, avoiding manual or ad-hoc registration steps.

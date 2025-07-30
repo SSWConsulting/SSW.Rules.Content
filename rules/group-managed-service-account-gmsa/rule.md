@@ -26,12 +26,12 @@ gMSAs are the superior option when it comes to security and flexibility. It shou
 
 ### There are some requirements and difficulties for using these kinds of accounts
 
-- **Support** - The application/service must support gMSAs
-- **AD domain and forest functional level** - Windows Server 2012 or newer
-- **KDC** - Domain controller with Microsoft Key Distribution Service (KdsSvc) enabled
-- **PowerShell** - To create and manage service AD accounts, you need to install the Active Directory module for Windows PowerShell
-- **Supported Windows versions** - Windows Server 2012/Windows 8 or newer
-- **Services set up without gMSAs** - Rebuilding or changing the service account in applications that already set up and running (e.g. Data Protection Manager, Azure AD Sync) might break these applications, so a full re-install might be necessary to use gMSAs instead of a simple user change
+* **Support** - The application/service must support gMSAs
+* **AD domain and forest functional level** - Windows Server 2012 or newer
+* **KDC** - Domain controller with Microsoft Key Distribution Service (KdsSvc) enabled
+* **PowerShell** - To create and manage service AD accounts, you need to install the Active Directory module for Windows PowerShell
+* **Supported Windows versions** - Windows Server 2012/Windows 8 or newer
+* **Services set up without gMSAs** - Rebuilding or changing the service account in applications that already set up and running (e.g. Data Protection Manager, Azure AD Sync) might break these applications, so a full re-install might be necessary to use gMSAs instead of a simple user change
 
 ## Set up gMSAs
 

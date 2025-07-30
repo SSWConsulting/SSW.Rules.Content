@@ -32,10 +32,11 @@ By following this structured, automated approach, migrations are faster, clearer
 
 ::: greybox
 Scripts used:
+
 1. `Get-SiteReadiness.ps1` – Assesses suitability for Azure App Service, checking:
-   - Configuration errors
-   - Location tag issues
-   - HTTPS binding setup
+   * Configuration errors
+   * Location tag issues
+   * HTTPS binding setup
 2. `Get-SitePackage.ps1` – Packages the site for migration.
 3. `Generate-MigrationSettings.ps1` – Generates deployment configuration files.
 :::
